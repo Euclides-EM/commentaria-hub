@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. II. -->
 
-*Explication par nombres*
+#### Explication par nombres
 
 hyp. | fc *eſt* 3, α
 hyp. | cd *eſt* 3, α

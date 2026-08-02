@@ -6,7 +6,7 @@
 1.p.1. | af *eſt* ——,
 ſymp. | ∠fad 2|2 ∠fae.
 
-*Demonſtr.*
+#### Demonſtr.
 
 *aux* △;afd & afe
 conſtr. | ad 2|2 ae,
@@ -14,14 +14,14 @@ af *eſt commun.*
 conſtr. | df 2|2 ef,
 concl. 8.1. | ∠fad 2|2 ∠fae.
 
-*Practique.*
+#### Practique.
 
 hyp. | bac *eſt* ∠D.
 3.p.1 | ade,df,ef,*ſnt* ⊙ 2|2 đe.*arbitr.*
 1.p.1 | af *eſt* ——,
 ſymp. | ∠fab 2|2 ∠fac.
 
-*Demonſtr.*
+#### Demonſtr.
 
 8.1 | ∠fad 2|2 ∠fae.
 
@@ -33,15 +33,15 @@ Couper vne ligne droicte donnée & terminée en deux parties égales.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ad 2|2 db,
 
-*Conſtr.*
+#### Conſtr.
 
 1.1 | abc *eſt* △ *equilat.*
 9.1 | ∠dca 2|2 ∠dcb,

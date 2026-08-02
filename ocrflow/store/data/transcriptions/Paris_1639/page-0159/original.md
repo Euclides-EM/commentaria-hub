@@ -12,20 +12,20 @@ Sur vne mesme ligne droicte, on ne pourra constituer deux segments de cercles se
 
 *[Figure]*
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 abc & adc *ſont ſegments de* ⊙;
 *ſegment* abc 3|2 *ſegment* adc.
 
-*Requis à demonſtrer.*
+#### Requis à demonſtrer.
 
 *ſegment* abc *n'eſt ſemblable au ſegment* adc.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | cb, ab, ad *ſont* ——.
 
-*Demonſtration.*
+#### Demonſtration.
 
 32.1 | ∠adc 3|2 abc,
 concl. 10.d.3 | *ſegment* abc *n'eſt ſemblable au ſegment* adc.

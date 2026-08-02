@@ -6,16 +6,16 @@ Si en vn triangle rectangle on mene vne ligne perpendiculaire de l'angle droict 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ∠bac *eſt* ┘.
 ad ⊥ bc.
 
-*Requis à demonſtrer.*
+#### Requis à demonſtrer.
 
 △adb, △adc, △abc *ſnt equiang.* đe.
 
-*Demonſtr.*
+#### Demonſtr.
 
 | *aux* △;abc & abd
 12.a.1 | ∠bac 2|2 ∠adb. α

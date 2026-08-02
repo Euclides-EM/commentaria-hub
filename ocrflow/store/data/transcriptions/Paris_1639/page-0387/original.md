@@ -4,7 +4,7 @@
 
 duict sera le contenu du triangle ABC : ce faisant on trouuera que si AB a 5 toises, & AC 7 toises, que le triangle ABC vaudra 17 toises & demy, car 5 fois 7 font 35, & la moitié de 35 est 17 1/2. Que si AB vaut 5 toises 6′ ou 56′, & AC 7 toises 4′ ou 74′, multipliant 56′ par 74′ viendra 4144″, dont la moitié est 2072″, ou 20 72/100, pour le contenu du triangle ABC.
 
-*Trouuer l'aire d'vn triangle obliquangle.*
+### Trouuer l'aire d'vn triangle obliquangle.
 
 *[Figure]*
 
@@ -12,7 +12,7 @@ Soit à trouuer le contenu du triangle ABC, pour ce faire, on mesurera lequel on
 
 La demonstration de la mesure de ce triangle & du precedent, depend de la 41 du premier des elements.
 
-*Les trois costez d'vn triangle estant donnez, trouuer son aire ou contenu.*
+### Les trois costez d'vn triangle estant donnez, trouuer son aire ou contenu.
 
 Il faut adiouster les trois costez ensemble, & de la moitié de leur somme soustraire chaque costé separément : puis si on multiplie les trois restes & ladite moitié l'vn par l'autre continuëment, la racine quarrée du produict sera le contenu du triangle proposé.
 

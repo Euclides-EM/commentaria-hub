@@ -2,7 +2,7 @@
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ | ac π cb 2|2 df π fg,
 17.5 | ab π bc 2|2 dg π gf,
@@ -14,17 +14,17 @@ hyp. | ab π bc 2|2 de π ef,
 
 ### SCHOL. I.
 
-*Demonſtr.. compoſit.. raō. conuerſe.*
+#### Demonſtr.. compoſit.. raō. conuerſe.
 
 *[Figure]*
 
 hyp. | ab π bc 2|2 de π ef.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ac π ab 2|2 df π de.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ab π bc 2|2 de π ef.
 c.4.5 | bc π ab 2|2 ef π de,
@@ -32,18 +32,18 @@ concl. 18.5 | ac π ab 2|2 df π de.
 
 ### SCHOL. II.
 
-*Demonſtr.. compoſit.. raō. contr. & inuerſ. contraire.*
+#### Demonſtr.. compoſit.. raō. contr. & inuerſ. contraire.
 
-*Hypoth.*
+#### Hypoth.
 
 ab π bc 2|2 de π ef.
 
-*Requis à demonſtrer.*
+#### Requis à demonſtrer.
 
 ab π ac 2|2 de π df,
 bc π ac 2|2 ef π df,
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ab π bc 2|2 de π ef,
 c 4.5 | bc π ab 2|2 ef π de, α

@@ -10,7 +10,7 @@ ab multipl.. e 2|2 ab+cd multipl.. e+f, *AB eſt multiple de E, comme AB plus CD
 
 ab multipl.. | e / ab+c multipl.. | e+f, *AB eſt multiple de E, comme AB, plus CD eſt multiple de E plus F.*
 
-*La ſimilitude des equimultiples des antecedens au reſpect des equimultiples des conſequens ſe marque ainſi.*
+#### La ſimilitude des equimultiples des antecedens au reſpect des equimultiples des conſequens ſe marque ainſi.
 
 e, | 2, 3, 4, | 3, g, / f, | 2, 3, 4, | 3, h.
 

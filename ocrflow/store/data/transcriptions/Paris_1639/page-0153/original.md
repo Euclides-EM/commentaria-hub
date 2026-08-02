@@ -14,7 +14,7 @@ D'vn poinct donné, mener vne ligne droicte, qui touche vn cercle donné.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 a *eſt* • D.
 dbc *eſt* ⊙ D.

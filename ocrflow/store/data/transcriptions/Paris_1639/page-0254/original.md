@@ -2,21 +2,21 @@
 
 *[Figure]*
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 abc *eſt* △,
 ∠dab 2|2 ∠dac.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 bd π dc 2|2 ab π ac.
 
-*Prepar.*
+#### Prepar.
 
 31.1 | ce == ad. α
 2.p.1 | bae *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.29.1 | ∠bda 2|2 ∠bce,
 17.1 | ∠b + ∠bda 2|3 2┘
@@ -29,15 +29,15 @@ hyp. | ∠dab 2|2 ∠dac,
 nota 6.1 | ae 2|2 ac,
 1.concl. 2.6 | bd π dc 2|2 ba π ae, Ⅱ ac.
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 bd π dc 2|2 ab π ac.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ∠dab 2|2 ∠dac.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ba π ac 2|2 bd π dc,
 α.2.6 | bd π dc 2|2 ba π ae,

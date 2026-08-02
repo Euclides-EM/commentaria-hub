@@ -1,6 +1,6 @@
 <!-- # ARITHMETIQVE -->
 
-*Exemple 2.*
+#### Exemple 2.
 
 4 8 6
 5 7 4
@@ -11,7 +11,7 @@
 
 En ce second exemple, ie dis, 6 & 4 sont 10, & 7 sont 17, & 9 sont 26, & de la somme 26 i'escris le 6 directement au dessous, & garde les 2 dixaines pour les mettre auec ceux du second rang : puis ie dis, 2 que ie garde de 26 & 8 sont 10, & 7 sont 17, & 2 sont 19, & 6 sont 25, & ie pose le 5 au dessous gardant les deux dixaines pour les mettre auec ceux du troisiesme rang : en disant, 2 que ie garde & 4 sont 6, & 5 sont 11, & 3 sont 14, que i'escris au dessous, & trouue pour la somme de ces quatre nombres 1456.
 
-*Exemple 3.*
+#### Exemple 3.
 
 3 7 0 6
 9 0 8
@@ -22,7 +22,7 @@ En ce second exemple, ie dis, 6 & 4 sont 10, & 7 sont 17, & 9 sont 26, & de la s
 
 En ce troisiesme exemple on dira, 6 & 8 sont 14, & 7 sont 21, & 4 sont 25, & de la somme 25 on escrira le 5 directement au dessous, en gardant les deux dixaines pour les mettre auec ceux du rang suiuant : au second rang parce qu'on ne trouue rien, on escrira le 2 qu'on garde au dessous : au troisiesme rang on dira, 7 & 9 sont 16, & 8 sont 24, & 6 sont 30, & de la somme 30 on escrira le zero au dessous, gardant les trois dixaines pour les mettre auec ceux du rang suiuant : au quatriesme rang on dira, 3 qu'on garde & 3 sont 6, & 4 sont 10, qu'on escrira au dessous, & la somme de ces 4 nombres sera 10025.
 
-*Preuue de l'addition.*
+### Preuue de l'addition.
 
 Soient soustraicts les nombres qu'on a adjoustez ensemble de leur somme, commençant au premier rang du costé gauche comme s'ensuit, & s'il ne reste rien, il n'y aura point d'erreur en l'addition.
 

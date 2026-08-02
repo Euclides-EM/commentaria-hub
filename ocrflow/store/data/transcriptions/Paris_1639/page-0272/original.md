@@ -6,16 +6,16 @@ Les rectilignes semblables à vne mesme figure rectiligne, sont aussi semblables
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *ſml.* hfg, α
 die *ſml.* hfg. β
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 abc *ſml.* die.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.1.d.6 | ∠a 2|2 ∠h,
 β.1.d.6 | ∠d 2|2 ∠h,

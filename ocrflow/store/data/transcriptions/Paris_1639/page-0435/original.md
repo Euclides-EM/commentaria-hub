@@ -12,7 +12,7 @@ On bat la face du bastion, pour faire la bresche propre à donner l'assaut : & c
 
 Quand la matiere sera de muraille, & qu'estant tombée restera de grosses masses raboteuses & inégales, alors on bat en icelles pour les diminuer : & cela s'appelle battre en bresche.
 
-*Des tranchées, approches, & assauts.*
+### Des tranchées, approches, & assauts.
 
 Les tranchées sont necessaires tant pour s'approcher seurement de iour de la contrescarpe & du fossé, que pour empescher les ennemis de faire sorties, & s'approcher du lieu de la batterie, & les faut conduire en sorte qu'elles ne soient veuës au long, ny enfilées de la ville, en les faisant si profondes, qu'on soit à couuert par leur hauteur iusques au plan, sans conter le rampart qui doit estre vers la ville.  La largeur sera de 10 pieds ou enuiron, afin que les soldats y puissent marcher en ordre, trois à trois pour rang pour le moins, pour defendre lesdites tranchées, & repousser l'ennemy qui les voudroit assaillir.
 

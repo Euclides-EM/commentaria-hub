@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠adb *eſt* ┘,
 1.c.17.1 | ∠b 2|3 ┘,
@@ -14,21 +14,21 @@ De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* △.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ba + ac 3|2 bc.
 
-*Prepar.*
+#### Prepar.
 
 2.p.1 | bad *eſt* ——,
 3.1 | ad 2|2 ac.
 1.p.1 | cd *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ad 2|2 ac,
 5.1 | ∠acd 2|2 ∠d,

@@ -2,7 +2,7 @@
 
 *[Figure]*
 
-*Explication des notes.*
+#### Explication des notes.
 
 L'angle BAD, plus l'angle ABC, sont plus petits que deux angles droicts, par l'hypothese.
 

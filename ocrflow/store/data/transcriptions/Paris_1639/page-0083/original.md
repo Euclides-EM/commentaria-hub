@@ -6,22 +6,22 @@ D'vn poinct donné, mener vne ligne droicte parallele à vne ligne droicte donn�
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 a *eſt* • D.
 bc *eſt* —— D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ae == bc.
 
-*Conſtr.*
+#### Conſtr.
 
 ad *eſt* —— *arbitr.*
 23.1 | ∠dae 2|2 ∠adc,
 ſymp. | ae == bc.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ∠dae 2|2 ∠adc,
 concl. 27.1 | ae == bc.
@@ -32,23 +32,23 @@ Sur vne ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle, mener
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 bc *eſt* —— D.
 a *eſt* • D.
 g *eſt* ∠ D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ∠adc 2|2 ∠g.
 
-*Conſtr.*
+#### Conſtr.
 
 31.1 | ae == bc,
 23.1 | ∠ead 2|2 ∠g,
 ſymp. | ∠adc 2|2 ∠g.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ae == bc,
 29.1 | ∠adc 2|2 ∠ead,

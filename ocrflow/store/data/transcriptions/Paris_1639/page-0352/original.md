@@ -15,6 +15,6 @@ Pour sçauoir combien il faut donner à chaque moulin, on ordonnera les regles d
 
 *La somme est 200 boisseaux.*
 
-DE LA REGLE DE DEVX *fausses positions.*
+## DE LA REGLE DE DEVX *fausses positions.*
 
 Il faut supposer deux fois pour le mesme nombre incognu, en faisant la seconde supposition plus grande que la premiere, & marquer l'excez par le signe de plus, & le defaut par le signe de moins : puis soit mise au premier lieu de la regle de trois la somme ou la difference des erreurs, à sçauoir la somme, si les signes sont differens, & la difference s'ils sont semblables : au second lieu de la regle de trois on mettra tousiours le premier erreur, & au troisiesme la difference des nombres supposez. Et le nombre qu'on trouuera par la regle de trois estant adiousté auec le nombre de la premiere supposition, donnera tousiours le requis, si les erreurs estant marquez par mesme signe le second n'est plus grand que le premier : car en ce cas il faudra soustraire le nombre trouué par la regle de trois du nombre de la premiere supposition.

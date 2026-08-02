@@ -6,15 +6,15 @@ Descrire vn quarré égal à vn rectiligne donné.
 
 *[Figure]*
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 a *eſt rectili.* D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 □.ml 2|2 *rectili.* a,
 
-*Conſtr.*
+#### Conſtr.
 
 45.1 | ▭db 2|2 *rectili.* a,
 2.p.1 | dcf *eſt* ——,
@@ -26,11 +26,11 @@ a *eſt rectili.* D.
 46.1 | in *eſt* □.il,
 ſymp. | □in *eſt requis.*
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | gh *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 a / conſtr. | ▭.db / 3.ſ.1.d.2 | ▭.dcf / ſ.5.2 | □.ch / ſ.46.1 | □.ml *ſnt* 2|2 đe.
 eoncl. 1.a.1 | □ml 2|2 *rectili.* a.

@@ -12,25 +12,25 @@ En tout parallelogramme, les complements des parallelogrammes qui sont à l'ento
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abcd *eſt* ◊,
 ef == bc Ⅱ ad,
 ac *eſt diamet.*
 hgi == ab Ⅱ dc.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ◊dg 2|2 ◊gb.
 
-*Demonſtr.*
+#### Demonſtr.
 
 34.1 | △acd 2|2 △acb,
 34.1 | △agh 2|2 △age,
 34.1 | △gcf 2|2 △gci,
 concl. 3.a.1 | ◊dg 2|2 ◊gb. α
 
-*Coroll.*
+#### Coroll.
 
 α.2.a.1 | ◊dcih 2|2 ◊febc,
 α.2.a.1 | ◊dfea 2|2 ◊hiba.

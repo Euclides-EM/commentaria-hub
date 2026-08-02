@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. V. -->
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ag π c 2|2 dh π f,
 α.c.4.5 | c π ab 2|2 f π de,
@@ -15,21 +15,21 @@ Si quatre grandeurs sont proportionelles, la plus grande & la plus petite sont p
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab π cd 2|2 e π f,
 ab *eſt la plus grãde*
 f *eſt la plus petite.*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab + f 3|2 cd + e.
 
-*Preparation.*
+#### Preparation.
 
 3.1 | ag 2|2 e, ch 2|2 f, α
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ab π cd 2|2 e π f,
 α.7.5 | Ⅱ ag π ch,

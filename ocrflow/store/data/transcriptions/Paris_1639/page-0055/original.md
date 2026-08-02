@@ -1,10 +1,10 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 abc *eſt* △ *equiang.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. 1.concl. | ac 2|2 ab,
 5.1 | ∠b 2|2 ∠c,
@@ -21,16 +21,16 @@ Cette proposition est la conuerse de la precedente, car l'hypothese de la preced
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 *au* △abc.
 ∠abc 2|2 ∠acb.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab 2|2 ac.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | db 2|2 ac, α
 1.p.1 | cd *eſt* ——,

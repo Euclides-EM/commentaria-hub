@@ -2,17 +2,17 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 fg *eſt* —— D.
 abcd *eſt rectili.* D.
 e *eſt* ∠ D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 ◊fl 2|2 abcd.
 
-*Conſtr.*
+#### Conſtr.
 
 1.p.1 | bd *eſt* ——,
 20.d.1 | dba & dbc *ſnt* △,
@@ -22,7 +22,7 @@ e *eſt* ∠ D.
 44.1 | ∠hik 2|2 ∠e,
 ſymp. | ◊fl *eſt le req.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ◊gfih 2|2 △dba,
 conſtr. | ◊hikl 2|2 △dbc,
@@ -40,16 +40,16 @@ Deux figures rectilignes estans proposées, trouuer l'excez dont la plus grande 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 a & b *ſnt rectili.* D.
 a 3|2 b.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ◊ghfe 2|2 a~b.
 
-*Conſtr.*
+#### Conſtr.
 
 ∠cde *eſt arbitr.*
 cd *eſt arbitr.*

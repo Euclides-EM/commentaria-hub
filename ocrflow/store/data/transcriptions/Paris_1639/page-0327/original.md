@@ -6,7 +6,7 @@
 
 faisant la regle de trois à l'ordinaire, on trouuera qu'vne liure est gagnée par an de 29 1/6 liures, & par consequent, le reuenu de la maison est au denier 29 1/6.
 
-*Exemple 7.*
+#### Exemple 7.
 
 Pour constituer vne rente de 450 liures par an, sçauoir combien il faut d'argent ?
 
@@ -23,7 +23,7 @@ Ordonnant la regle ainsi, si vne liure est gagnée de 18 liures, de combien sero
 
 on trouuera qu'il faut 8100 liures pour gagner 450 liures par an au denier 18.
 
-*Exemple 8.*
+#### Exemple 8.
 
 Sçauoir combien on doit prester au denier 16, sur vne promesse de 1000 liures payable dans vn an ?
 

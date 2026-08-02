@@ -2,7 +2,7 @@
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 35.1 | ◊bcae 2|2 ◊bdfc,
 34.1 | △bca 2|2 ½◊bcae,
@@ -15,21 +15,21 @@ Les triangles constituez sur bases égales, & entre mesmes paralleles, sont éga
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 gh == bf. α
 *baſe* bc 2|2 *baſe* ef. α
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 △bca 2|2 efd.
 
-*Preparation.*
+#### Preparation.
 
 31.1 | bg == ca,
 33.1 | fh == ed.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.36.1 | ◊bcag 2|2 ◊edhf,
 34.1 | △bca 2|2 ½◊bcag,
@@ -40,7 +40,7 @@ concl. 7.a.1 | △bca 2|2 △efd.
 
 Les triangles égaux constituez sur mesme base, & de mesme part, sont entre mesme paralleles.
 
-*Hypoth.*
+#### Hypoth.
 
 △bca 2|2 △bcd.
 bc *eſt baſe commune.*

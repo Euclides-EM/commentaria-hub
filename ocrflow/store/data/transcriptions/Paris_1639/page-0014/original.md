@@ -1,6 +1,6 @@
 <!-- # EXPLICATION DES NOTES. -->
 
-*Explication des Notes.*
+#### Explication des Notes.
 
 add. adde, *adjouſtez*.
 

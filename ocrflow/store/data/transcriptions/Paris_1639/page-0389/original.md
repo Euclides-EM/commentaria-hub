@@ -12,7 +12,7 @@ EH, 6   255
 ——
 127 1/2.
 
-*Trouuer l'aire d'vn polygone regulier.*
+### Trouuer l'aire d'vn polygone regulier.
 
 *[Figure]*
 

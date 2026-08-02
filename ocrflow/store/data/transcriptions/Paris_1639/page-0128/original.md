@@ -19,16 +19,16 @@ concl. 1.ſ.1.d.2 | bd *eſt* 2⅗.
 
 Aux triangles oxygones, le quarré du costé qui soustient l'angle aigu, est moindre que les quarrez des costez qui le contiennent, de deux fois le rectangle contenu sous l'vn des costez qui sont autour de l'angle aigu, sçauoir celuy sur lequel tombe la perpendiculaire, & de la ligne prise au dedans entre la perpendiculaire & l'angle aigu.
 
-*Hypoth.*
+#### Hypoth.
 
 *[Figure]*
 
 ∠acb 2|3 ┘.
 
-*Preparation.*
+#### Preparation.
 
 ad ⊥ bc. α
 
-*Requis à demonſtrer.*
+#### Requis à demonſtrer.
 
 □.ac + □.bc 2|2 □.ab + 2▭.bcd.

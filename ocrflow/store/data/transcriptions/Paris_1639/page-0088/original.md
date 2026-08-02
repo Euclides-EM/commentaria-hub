@@ -2,11 +2,11 @@
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | bc *eſt* ◊.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ab 2|2 cd,
 bc *eſt commun.*
@@ -23,23 +23,23 @@ De ce scholie est manifeste la demonstration d'vne methode plus brieue de mener 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 c *eſt* • D.
 ab *eſt* —— D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 cd == ab.
 
-*Conſtr.*
+#### Conſtr.
 
 arbitr. | ef,cd ſnt ⊙ 2|2 đe.
 3.p.1 | ⊙fd 2|2 ⊙ec,
 1.p.1 | cd *eſt* ——,
 ſymp. | cd == ab.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | cd 2|2 ef.
 conſtr. | fd 2|2 ec,

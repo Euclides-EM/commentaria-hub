@@ -6,21 +6,21 @@ De tout triangle, l'vn des costez estant prolongé, l'angle externe est égal au
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* △,
 bcd *eſt* ——.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ∠acd 2|2 ∠a + ∠b.
 ∠a + ∠b + ∠acb 2|2 2┘;
 
-*Prepar.*
+#### Prepar.
 
 31.1 | ce == ba. α
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.29.1 | ∠a 2|2 ∠ace,
 α.29.1 | ∠b 2|2 ∠ecd,

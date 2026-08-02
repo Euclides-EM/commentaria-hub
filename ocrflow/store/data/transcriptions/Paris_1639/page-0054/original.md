@@ -2,18 +2,18 @@
 
 *[Figure]*
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ∠abc 2|2 ∠acb,
 ∠cbd 2|2 ∠bce.
 
-*Preparation.*
+#### Preparation.
 
 ad *eſt arbiiraire.*
 3.1 | af 2|2 ad,
 1.p.1 | cd & bf *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 *aux* △;acd & abf
 conſtr. | ad 2|2 af,
@@ -40,7 +40,7 @@ hyp. | ab 2|2 ac,
 
 De cette cinquiesme proposition il s'ensuit que tout triangle equilateral est aussi equiangle.
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* △ *equilat.*
 

@@ -11,7 +11,7 @@ Puis pour faire la seconde regle de trois, on dira, si
 
 Notez que cet exemple est la preuue du precedent.
 
-*Exemple 3.*
+#### Exemple 3.
 
 A 8 liures d'interest pour 100 liures en 9 mois, sçauoir à quel denier est l'interest ?
 
@@ -30,6 +30,6 @@ la regle sera directe, & viendra 100/8 lt. pour le quatriesme : puis pour faire 
 
 Cette regle est inuerse, & donne 9 3/8 lt. c'est à dire, à raison que 8 liures sont gagnées par 100 liur. en 8 mois, qn'vne liure sera gagnée de 9 3/8 liures en 12 mois.
 
-DE LA REGLE DE COMPAGNIE *ou de societé.*
+## DE LA REGLE DE COMPAGNIE *ou de societé.*
 
 L'vsage de cette regle arriue, quand plusieurs se mettent à trafiquer ensemble, chacun apportant vne cer-

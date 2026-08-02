@@ -1,6 +1,6 @@
 <!-- # TRIGONOMETRIE. -->
 
-*De la regle des trois costez.*
+### De la regle des trois costez.
 
 Les trois costez d'vn triangle estant donnez, trouuer lequel on voudra des angles.
 

@@ -2,20 +2,20 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ae == bc.
 bc *eſt baſe commune.*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ◊abcd 2|2 2△bce.
 
-*Prepar.*
+#### Prepar.
 
 1.p.1 | ac *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ae == bc,
 37.1 | △bca 2|2 △bce,
@@ -28,17 +28,17 @@ Faire vn parallelogramme égal à vn triangle donné en vn angle rectiligne donn
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 △abc *eſt* D.
 ∠d *eſt* D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ◊ecgf 2|2 △abc.
 ∠ecg 2|2 ∠d,
 
-*Conſtr.*
+#### Conſtr.
 
 31.1 | ag == bc,
 23.1 | ∠bcg 2|2 ∠d,
@@ -46,10 +46,10 @@ Faire vn parallelogramme égal à vn triangle donné en vn angle rectiligne donn
 31.1 | ef == cg,
 ſymp. | ◊efgc *eſt le req.*
 
-*Prepar.*
+#### Prepar.
 
 1.p.1 | ae *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ag == bc,

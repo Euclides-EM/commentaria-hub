@@ -2,20 +2,20 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* △.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 bd + cd 2|3 ba + ca,
 ∠bdc 3|2 ∠bac.
 
-*Preparation.*
+#### Preparation.
 
 2.p.1 | bde *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 20.1 | cd 2|3 ce + ed,
 bd *commun. add.*
@@ -32,11 +32,11 @@ ec *commun. add.*
 
 De trois lignes droictes égales à trois lignes droictes données, descrire vn triangle : mais il faut que deux, de quelque façon qu'elles soient prises, soient plus grandes que l'autre ; d'autant que de tout triangle deux costez de quelque façon qu'ils soient prins, sont plus grands que l'autre.
 
-*Hypoth.*
+#### Hypoth.
 
 a,b,c, *ſnt* —— D.
 
-*Conſtr.*
+#### Conſtr.
 
 arbitr. | de 3|2 a + b + c,
 3.1 | df 2|2 a,

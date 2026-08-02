@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Demonſtration.*
+#### Demonſtration.
 
 *[Figure]*
 
@@ -14,7 +14,7 @@ concl. 1.a.g | ▭.ab,af 2|2 *aux* ▭; af,ad: + af,de: + af,eb.
 
 Les demonstrations de cette proposition, & des sept suiuantes, sont manifestes du 19. axiome du 1. qui dit, que le tout est égal à toutes ses parties, & suffit de prouuer, que le tout & les parties sont les quarrez ou rectangles des lignes nommées dans la proposition.
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 hyp. | af *eſt* 6, α
 hyp. | ad *eſt* 5, β

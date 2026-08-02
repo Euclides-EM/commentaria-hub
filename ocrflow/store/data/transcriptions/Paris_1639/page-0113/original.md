@@ -6,23 +6,23 @@ Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adjouste 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ac 2|2 cb, α
 abd *eſt* ——,
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ▭.adb / + □.cb 2|2 □cd.
 
-*Prepar.*
+#### Prepar.
 
 46.1 | ce *eſt* □.cd,
 1.p.1 | fd *eſt diamet.*
 31.1 | bg == cf Ⅱ de,
 31.1 | al == cf, lhi == ad.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ce *eſt* □.cd,
 1.c.4.2 | kg & bi *ſnt* □;

@@ -6,18 +6,18 @@ A vne ligne droicte donnée appliquer vn parallelogramme égal a vne figure rect
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 c *eſt rectili.* D.
 d *eſt* ◊ D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 ◊an 2|2 *rectili.* c,
 ◊op *ſml.* ◊d.
 
-*Conſtruction.*
+#### Conſtruction.
 
 10.1 | ae 2|2 eb, α
 18.6 | ◊eg *ſml.* ◊d,
@@ -32,7 +32,7 @@ d *eſt* ◊ D.
 1.p.1 | fb & bn *ſnt* ——,
 ſymp. | ◊an *eſt le requis.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ◊;d, eg, hκ *ſnt ſml.* đe
 1.nota conſtr. | ◊lm 2|2 & *ſml.* ◊hκ

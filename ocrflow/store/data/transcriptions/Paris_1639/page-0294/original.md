@@ -2,7 +2,7 @@
 
 rang, i'oste 4 de 7, & reste 3, que ie pose au dessous : & ainsi ie trouue qu'ayant osté 432 de 796 restera 364. S'il arriue que quelque figure du nombre inferieur excede la figure superieure correspondante, on empruntera 1 qui vaudra 10, de la premiere figure des superieures vers senestre qui aura quelque valeur (n'oubliant que tous les zero, qui seront entre la figure de qui on emprunte, & celle pour qui on a emprunté, apres cet emprunt, vaudront chacun 9) & ayant adiousté la dixaine qu'on aura emprunté, auec celle de qui il falloit oster, on fera la soustration escriuant le reste au dessous : comme en l'exemple suiuant.
 
-*Exemple 2.*
+#### Exemple 2.
 
 7 0 0 4
 4 9 6 8
@@ -11,7 +11,7 @@ rang, i'oste 4 de 7, & reste 3, que ie pose au dessous : & ainsi ie trouue qu'ay
 
 Soit à soustraire 4968 de 7004, ayant couché le moindre nombre sous le plus grand, & tiré vne ligne au dessous, ie veux soustraire 8 de 4, mais d'autant que cela ne se peut faire, ie prẽs 1 de 7, premiere des superieures vers senestre qui a valeur, & faisant valoir cette vnité que i'ay emprunté 10, auec le 4 fera 14, & de 14 i'oste 8, & reste 6, que ie pose au dessous : & à cause que l'vnité que ie pris du 7 valoit 1000 & non 10, pour recompenser cette valeur de 1000, on fera valoir les zero qui sont entre 7 & 4 chacun 9, & par ainsi pour continuer la soustration au second rang, i'oste 6 de 9 & reste 3, que ie pose au dessous : au troisiesme rang, i'oste 9 de 9 & reste 0, que i'escris au dessous : au quatriesme rang, i'oste 4 de 6, qui restent au 7, de qui i'auois emprunté 1, & reste 2 que ie mets au dessous, & ce faisant ie trouue 2036 pour le reste de la soustraction. Autre exemple.
 
-*Exemple 3.*
+#### Exemple 3.
 
 7 0 1 0 0 3
 9 1 0 8 8

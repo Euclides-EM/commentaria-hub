@@ -2,23 +2,23 @@
 
 cubiquement: & ce faisant on trouuera que la raison de 2 à 3 estant multiplié par 2 fait la raison 4 à 9: & estant multiplié par 3, elle fait la raison de 8 à 27.
 
-*Raiſons continuës du 1.exemple.*
+##### Raiſons continuës du 1.exemple.
 
 4. 6. 9.
 
-*Raiſons continuës du 2.exemple.*
+##### Raiſons continuës du 2.exemple.
 
 8. 12. 18. 27.
 
-*De la diuiſion.*
+#### De la diuiſion.
 
 Diuiser est trouuer la raison du premier au second, estant donnée la raison des extrémes de plusieurs nombres continuellement proportionnaux: & se fait en prenant les racines denommées du diuiseur. C'est à dire, que pour diuiser par 2, il faudra extraire les racines quarrées de deux termes de la raison donnée: pour diuiser par 3, on deura prendre les racines cubes, & ainsi des autres: ce faisant on trouuera que la raison de 4 à 9 estant diuisée par 2, fait la raison de 2 à 3: & la raison de 8 à 27, estant diuisée par 3, donne aussi la mesme raison de 2 à 3.
 
-*Raiſons continuës du 1.exemple.*
+##### Raiſons continuës du 1.exemple.
 
 4. 6. 9.
 
-*Raiſons continuës du 2.exemple.*
+##### Raiſons continuës du 2.exemple.
 
 8. 12. 18. 27.
 

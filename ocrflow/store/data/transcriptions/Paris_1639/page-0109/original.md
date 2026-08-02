@@ -1,23 +1,23 @@
 <!-- # D'EVCLIDE, LIV. II. -->
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* ——,
 ac & cb *ſont parties de* ab.
 
 *[Figure]*
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 □.ab *eſt* 2|2 □.ac, + □.cb, + 2▭.acb.
 
-*Preparation.*
+#### Preparation.
 
 46.1 | ad *eſt* □ab. α
 1.p.1 | eb *eſt* ——,
 31.1 | cf == ae, & hgi == ab. β
 
-*Demonſtr.*
+#### Demonſtr.
 
 β.35.d.1 | ag, hf, ci, gd, *ſont* ◊; γ
 α.29.d.1 | ∠a, ∠aed, ∠d, ∠abd *ſont* ┘; δ

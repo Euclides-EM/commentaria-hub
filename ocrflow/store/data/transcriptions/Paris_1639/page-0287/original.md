@@ -4,11 +4,11 @@
 
 ab == dc : ac == de,
 
-*Requis à demonſtr.*
+#### Requis à demonſtr.
 
 bce *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 29.1 | ∠a 2|2 ∠acd, α
 29.1 | ∠d 2|2 ∠acd,

@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Demonſtration.*
+#### Demonſtration.
 
 15.d.1 | ab 2|2 ae,
 conſtr. | d 2|2 ae,
@@ -12,17 +12,17 @@ Dedans vn cercle donné, inscrire vn triangle equiangle à vn triangle donné.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* ⊙ D.
 def *eſt* △ D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 *inſcrire au* ⊙abc *le* △,
 abc *equiang.* △def.
 
-*Conſtr.*
+#### Conſtr.
 
 17.3 | hg *touche le* ⊙acb, / a *eſt* • *d'attouch.*
 23.1 | ∠hac 2|2 ∠e,
@@ -30,7 +30,7 @@ abc *equiang.* △def.
 1.p.1 | bc *eſt* ——,
 ſymp. | △abc *eſt le requis.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ∠hac 2|2 ∠e,
 conſtr. | ∠gab 2|2 ∠f,

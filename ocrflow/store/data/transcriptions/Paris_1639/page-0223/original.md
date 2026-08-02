@@ -1,18 +1,18 @@
 <!-- # D'EVCLIDE, LIV. V. -->
 
-*Hypoth.*
+#### Hypoth.
 
 ab *multipl..* e 2|2 cd *multipl..* f.
 ag *multipl..* e 2|2 ch *multipl..* f.
 
 *[Figure]*
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 gb 2|2 e, & hd 2|2 f,
 Ⅱ, gb *multipl..* e 2|2 hd *multipl..* f.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſ.2.d.5 | *multd..part..* ab 2|2 *multd..part..* cd,
 ſ.2.d5 | *multd..part..* ag 2|2 *multd..part..* ch,
@@ -30,7 +30,7 @@ Les grandeurs égales ont mesme raison à vne mesme grandeur, & vne mesme grande
 
 hyp. | a 2|2 b.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 a π c 2|2 b π c,
 c π a 2|2 c π b.

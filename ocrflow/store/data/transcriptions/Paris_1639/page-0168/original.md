@@ -2,7 +2,7 @@
 
 ſymp. | aib *eſt* ⌓ *req.*
 
-*Demonſtration.*
+#### Demonſtration.
 
 c.16.3 | had *touche le* ⊙,
 32.3 | ∠aib 2|2 ∠bad,
@@ -17,24 +17,24 @@ D'vn cercle donné, retrancher vn segment, qui reçoiue vn angle égal à vn ang
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* ⊙,
 d *eſt* ∠D.
 
-*Conſtruction.*
+#### Conſtruction.
 
 17.3 | ef *touche le* ⊙abc. α
 17.3 | a *eſt* • *d'attouch.* α
 23.1 | ∠fac 2|2 ∠d,
 ſymp. | abc *eſt* ⌓ *req.*
 
-*Preparation.*
+#### Preparation.
 
 arbitr. | • b *eſt en la* ∩abc,
 1.p.1 | ab & cb *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.32.1 | ∠abc 2|2 ∠caf,
 conſtr. | ∠d 2|2 ∠caf,

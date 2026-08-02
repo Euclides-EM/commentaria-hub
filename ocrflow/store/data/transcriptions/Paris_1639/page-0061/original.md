@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-*Demonſtr.*
+#### Demonſtr.
 
 *aux* △;fcd & fce
 conſtr. | ce 2|2 cd,
@@ -10,7 +10,7 @@ conſtr. | df 2|2 ef,
 10.d.1 | ∠fcd & ∠fce *ſnt* ┘,
 conel. 10.d.1 | fc ⊥ ab.
 
-*Practique.*
+#### Practique.
 
 *[Figure]*
 

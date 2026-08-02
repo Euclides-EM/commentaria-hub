@@ -22,7 +22,7 @@ Cette regle, qui est directe, donne 45/7 lt. puis pour faire la seconde regle, o
 
 & viendra encore 13 22/161 pour le requis.
 
-*Exemple 2.*
+#### Exemple 2.
 
 Si 23 liures en 7 ans gagnent 9 liures, sçauoir en combien d'ans 47 liures gagneront 13 22/161 liures ?
 

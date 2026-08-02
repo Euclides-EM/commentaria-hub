@@ -6,15 +6,15 @@
 | db π bc,
 1 concl. 11.5 | ab π be 2|2 db π bc.
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 ab π be 2|2 db π bc.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 △abc 2|2 △dbe.
 
-*Demonſtration.*
+#### Demonſtration.
 
 1.6 | △abc π △cbe,
 | ab π be,
@@ -29,12 +29,12 @@ hyp. | ab π be 2|2 db π bc,
 
 Si quatre lignes droictes sont proportionelles, le rectangle contenu sous les extrémes, est égal au rectangle contenu sous les moyennes: Et si le rectangle contenu sous les extrémes est égal au rectangle contenu sous les moyennes ; icelles quatre lignes droictes seront proportionelles.
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 ab π fg 2|2 ef π cb.
 
 *[Figure]*
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ▭.ab,cb 2|2 ▭.fg,ef, Ⅱ ▭ac 2|2 ▭eg.

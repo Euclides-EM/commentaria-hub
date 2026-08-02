@@ -12,17 +12,17 @@ Par la mesme methode sera descrit le cercle à l'entour de quelconque figure equ
 
 En vn cercle donné, inscrire vn hexagone equilateral & equiangle.
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 gabcdef *eſt* ⊙ D.
 
-*Req. à faire*
+#### Req. à faire
 
 *inſcrire au* ⊙abdf, 6∠abcdef *equilat. & equiangle.*
 
 *[Figure]*
 
-*Conſtr.*
+#### Conſtr.
 
 arbitr. | ad *eſt diametre*,
 3.p.1 | dgce *eſt* ⊙,
@@ -30,7 +30,7 @@ arbitr. | ad *eſt diametre*,
 1.p.1 | ab, bc, cd, de, ef, fa *ſnt* ——,
 ſymp. | 6∠abcde *eſt le requis.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 15.d.1 | △gcd *eſt equilat.*
 c.5.1 | △gcd *eſt equiang.*

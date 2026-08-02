@@ -6,20 +6,20 @@ Les parallelogrammes constituez sur bases égales, & entre mesmes paralleles, so
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 af == bh,
 *baſe* bc 2|2 *baſe* gh.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ◊bcda 2|2 ◊ghfe.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | be & cf *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | bc 2|2 gh,
 34.1 | ef 2|2 gh,
@@ -37,16 +37,16 @@ Les triangles constituez sur mesme base, & entre mesmes paralleles, sont égaux 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ef == bc.
 bc *eſt baſe commune.*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 △bca 2|2 △bcd.
 
-*Preparation.*
+#### Preparation.
 
 31.1 | be == ca,
 31.1 | cf == bd.

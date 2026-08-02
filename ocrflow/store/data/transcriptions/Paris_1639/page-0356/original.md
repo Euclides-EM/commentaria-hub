@@ -13,6 +13,6 @@ Supposant que le premier nombre soit 8, ie dis que le second nombre sera par con
 
 Ayant ainsi trouué 7 pour le premier nombre des incognus, il est manifeste que le second doit estre 13, afin que donnant 3 au premier, ils ayent autant l'vn que l'autre, à sçauoir chacun 10.
 
-DE L'EXTRACTION DE LA *racine quarrée.*
+## DE L'EXTRACTION DE LA *racine quarrée.*
 
 L'extraction de la racine quarrée est l'inuention d'vn nombre, lequel estant multiplié par soy-mesme produise le nombre propo-

@@ -5,7 +5,7 @@ Ayant ainsi trouué 9/7 lt. au lieu de 3/7 d'escus, pour auoir le requis on dira
 2 *lt.* X 7 *aulnes* —— 9 *lt.* R. 189/14. [13 1/2 *aulnes*.
 3   1 —— 7
 
-*Exemple 5.*
+#### Exemple 5.
 
 A 17 1/2 les ⅔, sçauoir combien vaut le tout ?
 

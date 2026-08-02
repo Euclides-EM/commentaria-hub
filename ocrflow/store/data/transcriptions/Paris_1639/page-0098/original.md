@@ -4,7 +4,7 @@
 45.1 | ◊cdgh 2|2 b,
 ſymp. | ◊gf *eſt le req.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ◊df 2|2 a,
 conſtr. | ◊dh 2|2 b,
@@ -16,15 +16,15 @@ D'vne ligne droicte donnée, descrire vn quarré.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ad *eſt* —— D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ac □.ad.
 
-*Conſtr.*
+#### Conſtr.
 
 11.1 | ∠dab *eſt* ┘,
 3.1 | ab 2|2 ad,
@@ -32,7 +32,7 @@ ac □.ad.
 31.1 | dc == ab,
 ſymp. | □ac *eſt le req.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ac *eſt* ◊,
 conſtr. | ∠a *eſt* ┘,

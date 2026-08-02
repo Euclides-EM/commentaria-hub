@@ -6,16 +6,16 @@ Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *multipl..* | c,
 de *multipl..* | f.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab π de 2|2 c π f.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | c, ag, gb *ſnt* 2|2 đe.
 hyp. | f, dh, he *ſnt* 2|2 đe.
@@ -30,15 +30,15 @@ Si quatre grandeurs sont proportionelles, elles seront aussi alternatiuement pro
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 a π b 2|2 c π d,
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 a π c 2|2 b π d.
 
-*Prepar.*
+#### Prepar.
 
 3.1 | e *multipl..* | a,
 | f *multipl..* | b, α

@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Demonſtration.*
+#### Demonſtration.
 
 ſuppoſ. | *le centre du* ⊙ced *eſt en* f. α
 1.p.1 | aigfe *eſt* ——,
@@ -17,22 +17,22 @@ Vn cercle ne touche point vn cercle à plus d'vn poinct: soit qu'il le touche au
 
 *[Figure]*
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 caf, bad *ſnt* ⊙;
 a *eſt* • *d'attouchement.* α
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 hud *n'eſt* • *d'attouch.*
 
-*Preparation.*
+#### Preparation.
 
 1&2.p.1 | ab & bch *ſnt* ——,
 d *eſt* • *arbitr.*
 1.p.1 | bd, cd *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | h *eſt* • *d'attouch.* β
 11.3 | abc *eſt* ——,

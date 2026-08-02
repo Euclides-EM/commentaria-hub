@@ -1,6 +1,6 @@
 <!-- # PRACTIQVE. -->
 
-*Mesurer vn interualle, comme AB.*
+#### Mesurer vn interualle, comme AB.
 
 Faisant les deux stations en C & D, il faut obseruer les quantitez des angles ACB, DCB, CDA & ADB, & mesurer la ligne des stations CD, que nous supposons auoir 38 toises, l'angle ACB 55 degrez, DCB 48 degrez, CDA 36 degrez, & ADB 28 degrez. Puis ostant de 180 degrez la somme des deux angles ACD & ADC, restera 41 degrez pour l'angle CAD. Pareillement ostant la somme des angles CDB & DCB de 180 degrez, restera 68 degrez pour l'angle CBD. Maintenant au triangle ACD, ordonnant la regle de trois ainsi,
 

@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 hyp. | ac *eſt* 5, α
 hyp. | cb *eſt* 2, β
@@ -26,22 +26,22 @@ Le quarré de la toute est quadruple du quarré de la moitié.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ac 2|2 cb.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 □.ab 2|2 4□ ac Ⅱ cb.
 
-*Prepar.*
+#### Prepar.
 
 46.1 | af *eſt* □.ab,
 1.p.1 | eb *eſt diametre.*
 31.1 | cg == ae Ⅱ bf,
 31.1 | hki == ab Ⅱ ef.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | af *eſt* □.ab,
 1.c.4.2 | ci *eſt* □.cb,

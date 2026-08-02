@@ -2,7 +2,7 @@
 
 posées de sols, ou liures & sols, qu'on doit faire la diuision. Le tout comme on peut voir aux exemples precedens & suiuans.
 
-*Trouuer des liures en multipliant des liures & ſols par ans & mois, ou par ans, mois & iours.*
+### Trouuer des liures en multipliant des liures & ſols par ans & mois, ou par ans, mois & iours.
 
 Soit à trouuer à combien montera l'interest de 137 liures 16 sols par an, en 23 ans & 7 mois. Les 137 liures 16 sols reduicts en dixme font 1378′, qu'on multipliera par 23 ans & 7 mois, comme s'ensuit.
 

@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. VI. -->
 
-*Conſtr.*
+#### Conſtr.
 
 | ∠fdh *eſt arbitr.*
 3.1 | de 2|2 a,
@@ -12,7 +12,7 @@
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 concl. 2.6 | de Ⅱ a π ef Ⅱ b 2|2 dg Ⅱ c π gh.
 
@@ -22,26 +22,26 @@ A deux lignes droictes données, trouuer la moyenne proportionelle.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ae & eb *ſnt* —— D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ae π ef 2|2 ef π eb.
 
-*Conſtr.*
+#### Conſtr.
 
 3.1 | aeb *eſt* ——,
 3.p.1 | afb *eſt ſemic.*
 11.1 | ef ⊥ ab,
 ſymp. | ef *eſt le requis.*
 
-*Prepar.*
+#### Prepar.
 
 1.p.1 | af & bf *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 31.3 | ∠afb *eſt* ┘,
 conſtr. | fe ⊥ ab,

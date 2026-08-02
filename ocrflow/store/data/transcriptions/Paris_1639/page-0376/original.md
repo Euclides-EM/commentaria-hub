@@ -2,9 +2,9 @@
 
 moyen de quelque instrument geometrique diuisé en degrez : ou sans Trigonometrie, en obseruant les proportions des costez des triangles rectangles, par le moyen d'vn quarré geometrique ou autre instrument, puis ordonnant les regles de trois, comme il est enseigné au 2 & 3 chapitre de la Geometrie practique du 3 tome.
 
-*De l'Altimetrie par la Trigonometrie.*
+#### De l'Altimetrie par la Trigonometrie.
 
-*Mesurer vne distance proposée, comme AB.*
+#### Mesurer vne distance proposée, comme AB.
 
 *[Figure]*
 
@@ -16,6 +16,6 @@ B   AC   C   AB
 
 & on trouuera 27 1504/1579, qui ensemble font presque 28 toises pour la distance AB.
 
-*Mesurer vne hauteur inaccessible, comme DC.*
+#### Mesurer vne hauteur inaccessible, comme DC.
 
 Il faut mesurer actuellement la distance DE ou son égal BA, puis mettant l'instrument sur son pied au poinct A (en sorte que par le costé AF on voye le sommet C, la perpendicule FR demeurant libre contre la superficie de l'instrument) on obseruera les degrez qui seront depuis A iusques à la perpendicule FR pour l'angle C,

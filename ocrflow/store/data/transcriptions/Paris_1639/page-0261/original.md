@@ -2,23 +2,23 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab & ac *ſnt* —— D.
 *les parties de* ac *ſnt* ad, de, ec.
 
-*Conſtruction.*
+#### Conſtruction.
 
 ∠bac *eſt arbitr.*
 1.p.1 | bc *eſt* ——,
 31.1 | df == cb, eg == cb,
 ſymp. | af, fg, gb *ſnt les requis.*
 
-*Prepar.*
+#### Prepar.
 
 31.1 | dh == ab.
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.concl. 2.6 | ad π de 2|2 af π fg,
 2 concl. 2.6 | de π ec 2|2 di π ih,
@@ -30,15 +30,15 @@ Coupper vne ligne droicte finie en tant de parties égales qu'on voudra.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 diuiſ..ab en 5 part. 2|2 đe.
 
-*Conſtr.*
+#### Conſtr.
 
 arbitr. | ∠bad 2|2 ∠abh, α
 arbitr. | ar, rs, sv, vn, bz, zx, xt, tl *ſnt* 2|2 đe.
@@ -46,7 +46,7 @@ arbitr. | ar, rs, sv, vn, bz, zx, xt, tl *ſnt* 2|2 đe.
 ſymp. | am, mo,
 | op, pq, qb *ſnt* 2|2 đe
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.27.1 | bh == ad,
 conſtr. | lt 2|2 & == rs,

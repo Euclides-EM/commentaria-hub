@@ -14,18 +14,18 @@ Au cercle donné, accommoder vne ligne droite, égale à vne ligne droicte donn�
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* ⊙ D.
 ac *eſt le diametre*,
 d *eſt* —— D.
 d 2|3 ac.
 
-*Requis à faire.*
+#### Requis à faire.
 
 *accommoder* ab 2|2 d, *au* ⊙abc.
 
-*Conſtr.*
+#### Conſtr.
 
 3.1 | ae 2|2 d,
 3.p.1. | aeb *eſt* ⊙,

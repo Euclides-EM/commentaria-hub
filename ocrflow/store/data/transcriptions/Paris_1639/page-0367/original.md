@@ -6,7 +6,7 @@ En la regle de trois des sinus les toises ou autres mesures y demeurent, & n'y a
 
 La regle de trois des sinus se faict à l'ordinaire, en multipliant le second nombre & le troisiesme l'vn par l'autre, & diuisant leur produict par le premier. Mais pour faire la regle de trois des logarithmes, on adiouste le second & troisiesme nombre ensemble, & de leur somme on soustraict le premier, le tout comme on peut voir aux exemples suiuants.
 
-*Inuention du costé AB par sinus.*
+### Inuention du costé AB par sinus.
 
 ſ. ∠A —— BC —— ſ. ∠C —— AB
 116 deg. 5′.   37 deg. 12′   toises

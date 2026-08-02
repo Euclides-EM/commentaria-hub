@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 *[Figure]*
 
@@ -25,7 +25,7 @@ Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adjouste 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ac 2|2 cb,
 bd *eſt arbitr.*

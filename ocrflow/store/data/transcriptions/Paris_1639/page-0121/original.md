@@ -10,21 +10,21 @@ concl. μ | □.ad + □db 2|2 2□.ac + 2□.cd.
 
 *La meſme demonſtration ſe peut faire ainſi.*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* ——.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 □.ad + □.db 2|2 2□.ce + 2□.cd.
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 aeb *eſt la figure du ſcholie de la 6. du 2.*
 
-*Demonſtration.*
+#### Demonſtration.
 
 ſ.5.2 | □.de 2|2 ▭.adb. α
 1.ſ.4.2 | □.ab 2|2 4□.ce, Ⅱ 2□.ce + 2□.cd + 2□.de. β

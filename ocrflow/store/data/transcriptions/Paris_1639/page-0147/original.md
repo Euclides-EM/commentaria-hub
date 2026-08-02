@@ -9,24 +9,24 @@ cb *commun. add.*
 *contr. 20. 1.*
 concl. 21.a.1 | d *n'eſt* • *d'attouch.*
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 cae & feg *ſnt* ⊙;
 f *eſt* • *d'attouch.* δ
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 e *n'eſt* • *d'attouch.*
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | fe *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 2.3 | fe *eſt dans le* ⊙afe, & *dans le* ⊙feg,
 2.3.d.3 | ⊙afe *couppe le* ⊙feg *en* f,
-*contr. hypoth.*
+#### contr. hypoth.
 concl. δ21.a.1 | f *n'eſt* • *d'attouch.*
 
 ## THEOR. XIII. PROPOS. XIV.
@@ -35,21 +35,21 @@ Au cercle les lignes droictes égales sont également distantes du centre: & cel
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 eabc *eſt* ⊙,
 ad 2|2 bc.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | ea & eb *ſnt* ——,
 12.1 | ef ⊥ ad, eg ⊥ bc. α
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ef 2|2 eg,
 
-*Demonſtration.*
+#### Demonſtration.
 
 hyp. | ad 2|2 bc,
 α.3.3 | af 2|2 fd, bg 2|2 gc,

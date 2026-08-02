@@ -8,17 +8,17 @@ A vn poinct donné, poser vne ligne droicte, égale à vne ligne droicte donnée
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 a *eſt* • D.
 
 bc *eſt* —— D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ag 2|2 bc.
 
-*Conſtr.*
+#### Conſtr.
 
 3.p.1 | cbe *eſt* ⊙,
 1.p.1 | ca *eſt* ——,
@@ -28,7 +28,7 @@ ag 2|2 bc.
 2.p.1 | daf *eſt* ——,
 ſymp. | ag 2|2 bc,
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | da 2|2 dc,
 15.d.1 nota. | dg 2|2 de,

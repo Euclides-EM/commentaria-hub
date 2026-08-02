@@ -1,12 +1,12 @@
 <!-- # ARITHMETIQVE -->
 
-*Exemple 1.*
+#### Exemple 1.
 
 *Diuidende* 3 0 8 2″
 ——
 *Diuiſeur* 2 3′ [*quotient* 1 3 4′ ou 13 4/10.
 
-*Exemple 2.*
+#### Exemple 2.
 
 *Diuidende* 2 5 6′
 ——

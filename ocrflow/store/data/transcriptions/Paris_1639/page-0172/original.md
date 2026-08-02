@@ -4,17 +4,17 @@
 
 Il est manifeste aussi, que si deux lignes droites menées d'vn mesme poinct, touchent le cercle, qu'elles sont égales entr'elles.
 
-*Hypoth.*
+#### Hypoth.
 
 ab & ac *touchent le* ⊙.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ab 2|2 ac.
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 36.3 | □.ab 2|2 ▭.eaf,
 36.3 | □.ac 2|2 ▭.eaf,
@@ -25,15 +25,15 @@ concl. ſ.46.1 | ab 2|2 ac.
 
 Semblablement il est manifeste, que d'vn poinct pris hors le cercle, on peut mener seulement deux lignes droites qui touchent le cercle.
 
-*Hypoth.*
+#### Hypoth.
 
 ab & ac *touchent le* ⊙bdc.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ad *ne touche le* ⊙bdc.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ad *touche le* ⊙,
 2.c.36.3 | ab,ad,ac *ſnt* 2|2 đe.

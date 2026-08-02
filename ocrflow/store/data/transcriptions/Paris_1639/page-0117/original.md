@@ -1,19 +1,19 @@
 <!-- # D'EVCLIDE, LIV. II. -->
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 2▭.adb + □.fd 2|2 □.ad + □.db.
 
-*Preparation.*
+#### Preparation.
 
 aeb *eſt la figure du ſcholie de la 6. du 2.*
 
-*Demonſtration.*
+#### Demonſtration.
 
 hyp. | af 2|2 db,
 concl. 7.2 | □.ad + □.af 2|2 □.fd + 2▭daf Ⅱ adb,
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 hyp. | ad *eſt* 5, α
 hyp. | db *eſt* 2, β
@@ -29,7 +29,7 @@ hyp. | db *eſt* 2, β
 
 Si vne ligne droicte est couppée comme on voudra: quatre fois le rectangle, contenu sous la toute & l'vn des segments auec le quarré de l'autre segment, est égal au quarré descrit de la toute & dudit segment, comme d'vne.
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* ——,
 ac & cb *ſont parties de* ab,

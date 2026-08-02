@@ -10,7 +10,7 @@ on trouuera 928′ pour bL, dont le double est 1856′ ou 185 6/100 toises pour 
 
 Par cette methode ont esté calculées les lignes de la table, qui est en la page 207 du 3 tome, & aussi celles de la table suiuante, qui contient les quantitez des costez des 9 premiers polygones, tant internes qu'externes, & de leurs subtendantes.
 
-*Table des quantitez des costez & subtendantes des fortifications regulieres.*
+### Table des quantitez des costez & subtendantes des fortifications regulieres.
 
  | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12
 cost int | 109 | 114 3/4 | 117 1/2 | 120 2/3 | 122 4/5 | 124 4/5 | 126 3/5 | 128 | 129 1/4

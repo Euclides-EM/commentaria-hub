@@ -8,21 +8,21 @@ Les triangles semblables sont entr'eux en raison doublée de leurs costez de mes
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 △abc *eſt ſml.* △def,
 ∠b 2|2 ∠e, ∠c 2|2 f.
 
-*Preparation.*
+#### Preparation.
 
 11.6 | bc π ef 2|2 ef π bg,
 1.p.1 | ag *eſt* ——.
 
-*Requis à demonſtrer.*
+#### Requis à demonſtrer.
 
 △abc π △def 2|2 bc π bg.
 
-*Demonſtr.*
+#### Demonſtr.
 
 c.4.6 | ab π de 2|2 bc π ef,
 conſtr. | bc π ef 2|2 ef π bg,

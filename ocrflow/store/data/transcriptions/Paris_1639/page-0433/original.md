@@ -14,6 +14,6 @@ A la queuë de tout cela, il faut qu'il y ait garde, pour empescher que quelque 
 
 L'ordinaire est de faire marcher l'artillerie auec la bataille, le païs estant large & plain : mais estant estroit, & montagneux, il faudra mettre la plus legere à l'auant-garde, & le reste où l'on coniecturera estre plus de danger.
 
-*Pour planter l'artillerie.*
+### Pour planter l'artillerie.
 
 Il faut premierement recognoistre la partie la plus foible, pour planter la batterie contre icelle, & choisir le lieu le plus commode

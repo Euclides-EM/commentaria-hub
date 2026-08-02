@@ -14,6 +14,6 @@ Pour adiouster les trois fractions suiuantes ensemble, ie trouue leur commun den
 ——
 1 0 5 [2 34/105,
 
-*De la ſouſtraction.*
+### De la ſouſtraction.
 
 Si les fractions sont en mesme denomination, la soustraction se fera en ostant.le moindre numerateur du plus grand, & donnant au reste le denominateur commun. Par exemple, pour soustraire 5/17 de 8/17, i'oste 5 de 8 & reste 3, c'est à dire 3/17. Mais si les fractions proposées ne sont en mesme denomination, il faudra premierement les reduire, puis faire la soustraction : ce faisant on trouuera que si on oste ⅔ de 4/5, le reste sera 2/15.

@@ -3,15 +3,15 @@
 1.6 | bf π bh 2|2 eb π bc,
 2 concl. 11.5 | ab π bg 2|2 eb π bc.
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 ab π bg 2|2 eb π bc.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ◊abcd 2|2 ◊ebgf.
 
-*Demonſtration.*
+#### Demonſtration.
 
 1.6 | ac π bh 2|2 ab π bg,
 hyp. | ab π bg 2|2 eb π bc,
@@ -25,24 +25,24 @@ Des triangles égaux, & qui ont vn angle égal à vn angle, les costez qui sont 
 
 *[Figure]*
 
-*Hypoth. commun.*
+#### Hypoth. commun.
 
 ∠abc 2|2 ∠dbe.
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 △abc 2|2 △dbe.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab π be 2|2 db π bc.
 
-*Prepar.*
+#### Prepar.
 
 3.1 | abe *eſt* ——,
 1.p.1 | ce *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | abe *eſt* ——,
 hyp. | ∠abc 2|2 ∠dbe,

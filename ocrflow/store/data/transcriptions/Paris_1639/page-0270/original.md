@@ -6,13 +6,13 @@ tion des raisons, & aussi de ces trois nombres proportionaux 9, 6, 4 ; dont la r
 
 Les polygones semblables se diuisent en nombre égal de triangles semblables, & proportionaux à leurs touts : Et les polygones sont l'vn à l'autte en raison doublée de leurs costez de mesme raison.
 
-*Hypoth.*
+#### Hypoth.
 
 abcde *ſml.* fghiκ, α
 
 *[Figure]*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 △abc *ſml.* △fgh,
 △acd *ſml.* △fhi,
@@ -26,7 +26,7 @@ raõ..△abc π △fgh,
 abcde π fghiκ,
 2 raõ..ab π fg.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠b 2|2 ∠g,
 α.1.d.6 | ab π bc 2|2 fg π gh,

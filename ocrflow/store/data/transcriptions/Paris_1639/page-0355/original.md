@@ -13,6 +13,6 @@ Maintenant pour voir si la seconde condition se trouue en ces deux nombres 20 & 
 
 Ayant ainsi trouué 80 escus pour la plus grande tasse, i'adiousté 80 escus auec 100 du couuercle, & de la somme, qui est 180, ie prens le tiers, qui est 60 escus pour la petite tasse : & par ainsi la plus grande des deux tasses proposées vaut 80 escus, & la plus petite 60 escus.
 
-*Exemple 3.*
+#### Exemple 3.
 
 Trouuer deux nombres tels, que le premier prenant

@@ -2,7 +2,7 @@
 
 bre superieur correspondãt 35, & trouuãt qu'il est contenu 5 fois, ie pose 5 au quotiẽt, & puis ie dis 5 fois 7 sont 35, que i'oste de 35, nombre superieur correspondant, & ne reste rien : puis i'auance le diuiseur sous la derniere figure 6 : & parce qu'il n'est pas contenu en 6, ie pose au quotient zero, & ne pouuant plus auancer, ie dis que la septiesme partie de 14356 est 2050 6/7.
 
-*Exemple 3.*
+#### Exemple 3.
 
 2
 3 3

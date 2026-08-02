@@ -8,15 +8,15 @@
 
 *[Figure]*
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 ef 2|2 eg. γ
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ad 2|2 bc.
 
-*Demonſtr.*
+#### Demonſtr.
 
 47.1 | □.af + □.fe 2|2 □.ae, □.gb + □.eg 2|2 □.eb,
 1.a.1 | □.af + □.fe 2|2 □.gb + □.eg, [Ⅱ □.ae,
@@ -28,14 +28,14 @@ ad 2|2 bc.
 
 Au cercle la plus grande ligne est le diametre; mais des autres, tousiours celle qui est plus proche du centre, est plus grande que celle qui en est plus esloignée.
 
-*Hypoth.*
+#### Hypoth.
 
 gabc *eſt* ⊙,
 ad *eſt diametre*,
 gi ⊥ bc, gh ⊥ fe,
 gi 3|2 gh.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ad 3|2 fe,
 fe 3|2 bc.

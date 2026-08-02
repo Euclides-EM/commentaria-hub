@@ -12,17 +12,17 @@ Les parallelogrammes constituez sur vne mesme base, & entre mesme paralleles, so
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 af == bc,
 bcda & bcfe *ſnt* ◊. α
 bc *eſt baſe commune.*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ◊bcda 2|2 ◊bcfe.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.34.1 | ad 2|2 bc,
 α.34.1 | ef 2|2 bc,

@@ -14,16 +14,16 @@ Estant donnée la moyenne de trois proportionelles, & la difference des extréme
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 fd *eſt differ.* D.
 de *eſt la moyenne* D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 *trouuer* ad & db.
 
-*Conſtr.*
+#### Conſtr.
 
 11.1 | ∠fde *eſt* ┘,
 10.1 | fc 2|2 cd,
@@ -32,7 +32,7 @@ de *eſt la moyenne* D.
 2.p.1 | afdb *eſt diamet.*
 ſymp. | ad & db *ſnt req.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 15.d.1 | ac 2|2 cb,
 conſtr. | fc 2|2 cd,
@@ -41,7 +41,7 @@ conſtr. | fc 2|2 cd,
 ſ.13.6 | ad π de 2|2 de π db,
 2 concl. 17.6 | ▭.adb 2|2 □.de.
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 hyp. | de *eſt* 12,
 hyp. | fd *eſt* 10, α

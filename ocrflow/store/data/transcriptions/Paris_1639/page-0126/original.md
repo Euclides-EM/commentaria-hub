@@ -6,15 +6,15 @@ Coupper vne ligne droicte donnée de telle sorte, que le rectangle contenu sous 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 ▭.abg 2|2 □.ag.
 
-*Conſtr.*
+#### Conſtr.
 
 46.1 | ac *eſt* □.ab,
 10.1 | ae 2|2 ed,
@@ -23,11 +23,11 @@ ab *eſt* —— D.
 46.1 | ah *eſt* □.af,
 ſymp. | ▭.abg 2|2 □.ag.
 
-*Preparation.*
+#### Preparation.
 
 2.p.1 | hgi *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | de 2|2 ea.
 6.2 | dh ▭.dfa / + □.ea 2|2 □.ef, / Ⅱ □.eb,

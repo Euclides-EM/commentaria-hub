@@ -2,15 +2,15 @@
 
 conuenient qui arriueroit, si ce concours se faisoit ailleurs, comme en la premiere figure sur le costé AC : en la seconde figure, au dedans du triangle ABC : & en la troisiesme figure, au dehors du triangle ABC.
 
-*Demonſtr.*
+#### Demonſtr.
 
-*Cas de la 1.figure.*
+##### Cas de la 1.figure.
 
 ſuppoſ. | •d *eſt en* ac,
 hyp. | ad 2|2 ac,
 *contr. 9. a. 1.*
 
-*Cas de la 2.figure.*
+##### Cas de la 2.figure.
 
 ſuppoſ. | •d *eſt dans le* △acb,
 1.p.1 | cd *eſt* ——,
@@ -24,7 +24,7 @@ hyp. 2.nota | bd 2|2 bc,
 β.1.a.d | ∠fdc 3|2 ∠adc,
 *contr. 9. a. 1.*
 
-*Cas de la 3.figure.*
+##### Cas de la 3.figure.
 
 ſuppoſ. | •d *eſt hors le* △acb,
 1.p.1. | cd *eſt* ——,

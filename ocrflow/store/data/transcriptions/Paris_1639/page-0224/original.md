@@ -2,13 +2,13 @@
 
 *[Figure]*
 
-*Prepar.*
+#### Prepar.
 
 3.1 | d *multipl..* | a,
 | e *multipl..* | b,
 3.1 | f *multipl..* c.
 
-*Demonſtr.*
+#### Demonſtr.
 
 6.a.1 | d 2|2 e,
 1.a.d | d, 2, 3, 4 | 3, f,
@@ -26,6 +26,6 @@ Si au lieu de l'equimultiple F on prend deux equimultiples, on demonstrera par l
 
 Des grandeurs inégales, la plus grande a plus grande raison à vne mesme que la plus petite: Et vne mesme grandeur a plus grande raison à la plus petite grandeur qu'à la plus grande.
 
-*Hypoth.*
+#### Hypoth.
 
 ab 3|2 c.

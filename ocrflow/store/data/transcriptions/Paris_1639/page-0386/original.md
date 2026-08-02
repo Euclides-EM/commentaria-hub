@@ -2,7 +2,7 @@
 
 & autres choses plus notables de la ville, & aussi pour faire vne carte topographique, on se pourra seruir de la 4 methodo à prendre le plan d'vne ville assiegée.
 
-*De l'Epipedometrie ou Planimetrie.*
+### De l'Epipedometrie ou Planimetrie.
 
 Trouuer l'aire d'vn rectangle.
 
@@ -12,6 +12,6 @@ Il faut mesurer la longueur AD, & la largeur AB, puis les multiplier l'vn par l'
 
 La demonstration de la mesure du rectangle depend de la premiere definition du second des elements.
 
-*Trouuer l'aire d'vn triangle rectangle.*
+### Trouuer l'aire d'vn triangle rectangle.
 
 Il faut mesurer les deux costez AB & AC comprenans l'angle droict A, puis les multiplier l'vn par l'autre, & la moitié du pro-

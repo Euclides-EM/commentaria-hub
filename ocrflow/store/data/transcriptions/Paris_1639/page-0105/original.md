@@ -14,18 +14,18 @@ hyp. | abe == hf Ⅱ ik,
 
 S'il y a deux lignes droictes, & que l'vne d'icelles soit couppée en tant de parties que l'on voudra, le rectangle contenu sous icelles deux lignes droites, est égal aux rectangles contenus sous la non couppée, & sous chacune des parties de la couppée.
 
-*Hypoth.*
+#### Hypoth.
 
 af & ab *ſont données.*
 ad, de, eb, *ſont parties de* ab.
 
 *[Figure]*
 
-*Requis à demonſtr.*
+#### Requis à demonſtr.
 
 ▭.ab,af, *eſt* 2|2 ▭.ad,af: + ▭.de,af: + ▭.eb,af.
 
-*Preparation.*
+#### Preparation.
 
 l.1.d.2 | ag *eſt* ▭.ab,af. α
 31.1 | dh == af, ei == af. β

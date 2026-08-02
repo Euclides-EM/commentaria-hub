@@ -1,6 +1,6 @@
 <!-- # PRACTIQVE. -->
 
-*Exemple 1.*
+#### Exemple 1.
 
 Trouuer trois nombres, qui adioustez ensemble facent 60, & que le second excede le double du premier de 4, & le troisiesme surpasse la somme du premier & second de 6.
 

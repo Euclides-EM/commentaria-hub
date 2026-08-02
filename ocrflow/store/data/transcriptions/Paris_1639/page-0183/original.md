@@ -1,12 +1,12 @@
 <!-- # D'EVCLIDE, LIV. IV. -->
 
-*Requis à faire.*
+#### Requis à faire.
 
 *circonſcrire au* ⊙abc *le* □fhig.
 
 *[Figure]*
 
-*Conſtruction.*
+#### Conſtruction.
 
 1.p.1 | bd *eſt diametre*,
 11.1 | aec ⊥ bd, fbh ⊥ bd, α
@@ -14,7 +14,7 @@
 11.1 | fag ⊥ ac, hci ⊥ ac, β
 ſymp. | □hg *eſt le requis.*
 
-*Demonſtration.*
+#### Demonſtration.
 
 α.28.1 | fh, ac, gi *ſnt* == đe.
 β.28.1 | fg, bd, hi *ſnt* == đe.
@@ -32,10 +32,10 @@ Dans vn quarré donné, inscrire vn cercle.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abcd *eſt* □ D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 *inſcrire au* □abcd *le* ⊙efgh.

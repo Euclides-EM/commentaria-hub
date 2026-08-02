@@ -4,17 +4,17 @@ C'est à dire, que si le parallelogramme AEFG est semblable au parallelogramme t
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ◊agfe *ſml.* ◊abcd,
 ∠eag *eſt commun.*
 ag *homolog.* ab.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 afc *eſt* ——,
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ahc *eſt* ——,
 31.1 | hi == ae,

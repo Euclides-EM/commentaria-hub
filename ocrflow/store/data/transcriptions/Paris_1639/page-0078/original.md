@@ -2,13 +2,13 @@
 
 *[Figure]*
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 de 2|2 ab,
 dg 2|2 ac,
 ∠edg 2|2 ∠bac.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | eh 2|2 ba,
 1.p.1 | gh *eſt* ——,
@@ -22,17 +22,17 @@ hyp. | ∠egd 2|2 ∠c,
 αβ.4.1 | gd 2|2 ca,
 αβ.4.1 | ∠edg 2|2 ∠a.
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 ed 2|2 ba,
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 eg 2|2 bc,
 gd 2|2 ca,
 ∠edg 2|2 ∠a.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ei 2|2 bc,
 1.p.1 | di *eſt* ——,
@@ -46,6 +46,6 @@ hyp. | ∠egd 2|2 ∠c,
 γδ.4.1 | gd 2|2 ca,
 γδ.4.1 | ∠edg 2|2 ∠bac.
 
-*Coroll.*
+#### Coroll.
 
 4.1 | △egd 2|2 △bca.

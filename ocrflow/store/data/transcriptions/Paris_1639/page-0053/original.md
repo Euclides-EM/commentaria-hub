@@ -10,7 +10,7 @@ Des triangles isosceles, les angles qui sont à la base, sont égaux entr'eux : 
 
 Les demonstrations de ceste proposition, & des deux suiuantes, sont des plus difficiles, pour ceux qui commencent : Mais si pour la premiere fois on se contente d'apprendre seulement le sens, on pourra entendre facilement les demonstrations, apres qu'on aura appris celles des autres propositions du premier liure.
 
-*Hypoth.*
+#### Hypoth.
 
 *au* △abc
 ab 2|2 ac,

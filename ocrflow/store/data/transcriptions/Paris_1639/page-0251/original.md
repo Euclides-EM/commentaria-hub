@@ -8,24 +8,24 @@ Les triangles & les parallelogrammes qui ont mesme hauteur, sont entr'eux comme 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc & acd *ſont* △;
 bcae & cdfa *ſont* ◊;
 eaf == hci,
 bc & cd *ſont baſes.*
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 △abc π △acd 2|2 bc π cd,
 ◊acbe π ◊acdf 2|2 bc π cd.
 
-*Preparation.*
+#### Preparation.
 
 3.1 | cb, bg, gh *ſont* 2|2 đe. di 2|2 de. α
 1.p.1 | ag, ah, ai *ſont* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.38.1 | △acb, △abg, △agh *ſont* 2|2 đe.
 α.38.1 | △acd 2|2 △adi,

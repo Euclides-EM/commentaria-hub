@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. III. -->
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ∠agi 2|2 ∠dhf,
 26.3 | ∪ ai 2|2 ∪ df,
@@ -14,22 +14,22 @@ hyp. | ∪ ac 2|2 ∪ df,
 
 ### SCHOLIE.
 
-*Hypoth.*
+#### Hypoth.
 
 edbc *eſt* ⊙,
 ∩ad 2|2 ∩bc. α
 
 *[Figure]*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab *eſt* == dc.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | ac *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.27.3 | ∠acd 2|2 ∠cab,
 concl. 27.1 | ab *eſt* == dc.
@@ -38,7 +38,7 @@ concl. 27.1 | ab *eſt* == dc.
 
 Aux cercles égaux, les lignes droictes égales ostent circonferences égales, sçauoir la plus grande à la plus grande, & la plus petite à la plus petite.
 
-*Hypoth.*
+#### Hypoth.
 
 gabc & hdef *ſnt* ⊙ 2|2 đe. α
 ac 2|2 df. α

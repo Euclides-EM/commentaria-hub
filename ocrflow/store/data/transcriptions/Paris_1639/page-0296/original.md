@@ -21,7 +21,7 @@ Par la mesme methode on trouuera que 6 fois 7 sont 42 : car les complements 4 & 
 
 Maintenant estant proposez deux nombres à multiplier l'vn par l'autre, pour plus grande facilité on escrira le plus petit sous le plus grand, comme en l'addition & soustraction : puis ayant tiré vne ligne sous ces deux nombres, & commençant à la main droicte, on multipliera toutes les figures superieures par chaque figure inferieure, mettant le commencement du produict sous celle qui multiplie le tout, comme on peut voir aux exemples suiuants.
 
-*Exemple 1.*
+#### Exemple 1.
 
 3 8 6
 7

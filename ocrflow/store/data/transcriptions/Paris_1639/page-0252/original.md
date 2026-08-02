@@ -6,20 +6,20 @@ Si à l'vn des costez d'vn triangle on mene quelque ligne droicte parallele, ell
 
 *[Figure]*
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 abc *eſt* △,
 de == bc.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ad π db 2|2 ae π ec.
 
-*Prepar.*
+#### Prepar.
 
 1.p.1 | cd & be *ſnt* ——.
 
-*Demonſtration.*
+#### Demonſtration.
 
 hyp. | de == bc,
 37.1 | △deb 2|2 △dec. α

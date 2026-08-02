@@ -2,21 +2,21 @@
 
 en raison égale seront proportionelles.
 
-*Hypoth.*
+#### Hypoth.
 
 a π b 2|2 d π e, b π c 2|2 e π f, c π n 2|2 f π o.
 
-*Requis à demonſtrer.*
+#### Requis à demonſtrer.
 
 a π c 2|2 d π f, a π n 2|2 d π o.
 
-*Preparation.*
+#### Preparation.
 
 3.1 | g *multipl..* a 2|2 h *multipl..* d,
 3.1 | i *multipl..* b 2|2 K *multipl..* e,
 3.1 | l *multipl..* c 2|2 m *multipl..* f.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | a π b 2|2 d π e,
 4.5 | g π i 2|2 h π k,

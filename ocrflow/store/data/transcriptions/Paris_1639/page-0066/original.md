@@ -16,16 +16,16 @@ Si à quelque ligne droicte, & à vn poinct en icelle, sont menées deux lignes 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 gah *eſt* ——,
 ∠d 2|2 ∠b.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 eaf *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠d 2|2 ∠b,
 ∠a *commun. add.*

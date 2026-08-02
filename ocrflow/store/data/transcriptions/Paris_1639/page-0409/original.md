@@ -6,7 +6,7 @@ La forteresse peut estre moins estimée pour auoir son fossé trop large, & non 
 
 Les portes doiuent estre au milieu de la courtine, ayant 10 ou 12 pieds de largeur, & 14 ou 15 pieds de hauteur.
 
-*Trouuer les quantitez de tous les angles d'vne fortification reguliere.*
+### Trouuer les quantitez de tous les angles d'vne fortification reguliere.
 
 Pour trouuer les quantitez des angles des fortifications tant regulieres qu'irregulieres, on doit sçauoir, que tout angle droict vaut 90 degrez : que tous les angles qui sont à l'entour d'vn poinct, comme à l'entour du centre A, valent ensemble 360 degrez : & par consequent leur moitié vaudra 180 degrez.  Que les trois angles de tout triangle rectiligne valent 180 degrez ? & que l'angle externe d'vn triangle est égal aux deux internes & opposez.  Ce qu'estant sceu, il sera facile de trouuer les quantitez des angles comme s'ensuit.
 

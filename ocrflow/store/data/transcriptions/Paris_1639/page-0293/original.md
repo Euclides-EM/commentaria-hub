@@ -17,11 +17,11 @@ Comme en cet exemple, pour faire la preuue en rejettant 9 tant que faire se peut
 
 Puis i'oste aussi les 9 de la somme 1483, en disant 1 & 4 sont 5, & 8 sont 13, ostez 9 de 13 reste 4, & le reste 4 auec 3 fait 7, que ie mets vis à vis du premier reste en G : & parce que le premier reste estoit aussi 7, ie conclus, qu'il n'y point d'erreur en l'addition.
 
-*De la ſouſtraction.*
+## De la ſouſtraction.
 
 La soustraction est oster vn petit nombre d'vn plus grand, ou de son égal. Pour la faire, il faut mettre le nombre à soustraite sous celuy duquel on le veut soustraire, en la maniere qu'il a esté dit en l'addition, c'est à dire, les digites sous les digites, les centaines sous les centaines, &c. Puis tirant vne ligne sous ces deux nombres, & commençant à la main droicte, la soustraction se fera comme s'ensuit.
 
-*Exemple 1.*
+#### Exemple 1.
 
 D. 7 9 6
 P. 4 3 2

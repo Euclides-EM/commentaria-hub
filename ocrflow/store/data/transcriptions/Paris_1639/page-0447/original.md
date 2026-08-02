@@ -4,7 +4,7 @@
 
 Le stile doit estre de la longueur de TC esleué perpendiculairement au plan du quadrant au poinct T.  Que si on ne met point d'autre stile que la perpendiculaire TC, il faudra qu'vne chacune des lignes MQ, & HR soit esloignée de la ligne du milieu DN d'enuiron du quintuple de la hauteur du stile TC, afin que l'extremité de l'ombre du stile TC, à 5 heures deuant ou apres midy ne sorte hors des paralleles MQ & HR : Mais si au sommet du stile TC on met vne ligne ou verge parallele à la meridienne AC, qui representera le stile oblique parallele à l'axe du monde, il ne sera pas besoin que les lignes MQ, & HR soient tant esloignées de la ligne DN.
 
-Propos. 5. pag. 758.
+### Propos. 5. pag. 758.
 
 *Estant donnée la hauteur du pole, par exemple, de 48 degrez 40′, descrire vn quadrant en la face orientale du meridien.*
 

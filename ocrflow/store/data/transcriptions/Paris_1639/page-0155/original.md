@@ -15,18 +15,18 @@ Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene vne ligne
 
 *[Figure]*
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 ce *eſt* ⊙,
 ab *touche le* ⊙cde,
 c *eſt* • *d'attouchement.*
 ec ⊥ ab.
 
-*Req.à demonſtrer.*
+#### Req.à demonſtrer.
 
 *centre du* ⊙ *eſt en* ec.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | •f *eſt centre du* ⊙.
 1.p.1 | fc *eſt* ——,

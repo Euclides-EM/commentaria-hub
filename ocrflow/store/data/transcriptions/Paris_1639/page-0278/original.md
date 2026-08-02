@@ -2,7 +2,7 @@
 
 *[Figure]*
 
-*Conſtr.*
+#### Conſtr.
 
 45.1 | ▭abli 2|2 abcdc,
 44.1 | ▭bhml 2|2 *rectili.* f,
@@ -13,7 +13,7 @@
 18.6 | *rectili.* p *ſml.* abedc,
 ſymp. | *req. eſt rectili.* p.
 
-*Demonſtr.*
+#### Demonſtr.
 
 10.d.1 | gb ⊥ ah,
 c.13.6 | ab π bg,

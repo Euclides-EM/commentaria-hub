@@ -2,11 +2,11 @@
 
 *[Figure]*
 
-*Requis à faire.*
+#### Requis à faire.
 
 *inſcrire au* △abc *le* ⊙efg..
 
-*Conſtr.*
+#### Conſtr.
 
 9.1 | ∠dba 2|2 ∠dbc,
 9.1 | ∠dcb 2|2 ∠dca,
@@ -14,12 +14,12 @@
 3.p.1 | dfeg *eſt* ⊙,
 ſymp. | ⊙efg *eſt le req.*
 
-*Prepar.*
+#### Prepar.
 
 12.1 | de ⊥ ab, α
 12.1 | dg ⊥ ac. α
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ∠dbe 2|2 ∠dbf,
 12.a.1 | ∠deb 2|2 ∠dfb,
@@ -36,15 +36,15 @@ c.15.d.1 | •; e,f,g *ſnt en la* ∩ *du* ⊙efg,
 
 A l'entour d'vn triangle donné, descrire vn cercle.
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* △ D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 *circonſcrire au* △abc *le* ⊙abc.
 
-*Conſtr.*
+#### Conſtr.
 
 10.1 | bd 2|2 da,
 10.1 | ae 2|2 ec,

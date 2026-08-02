@@ -2,16 +2,16 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ac *eſt* ◊, α
 ∠a *eſt* ┘.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ac *eſt* ▭.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.35.d.1 | ad == bc,
 α.35.d.1 | ab == dc,
@@ -26,20 +26,20 @@ Les lignes droictes paralleles à vne mesme ligne droicte, sont aussi paralleles
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab == ef,
 cd == ef.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab == cd.
 
-*Prepar.*
+#### Prepar.
 
 arbitr. | gi *eſt* ——.
 
-*Demonſt.*
+#### Demonſt.
 
 α.29.1 | ∠agi 2|2 ∠ehi,
 β.29.1 | ∠dig 2|2 ∠ehi,

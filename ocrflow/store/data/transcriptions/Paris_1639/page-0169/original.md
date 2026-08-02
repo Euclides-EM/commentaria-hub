@@ -4,22 +4,22 @@ ties de l'vne, est égal au rectangle contenu sous les deux parties de l'autre.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 fbca *eſt* ⊙,
 ab & dc *ſnt* ——.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ▭.aeb 2|2 ▭.ced.
 
-*Demonſtr. du 1.cas.*
+#### Demonſtr. du 1.cas.
 
 ſuppoſ. | ab & cd *ſnt diametré*,
 15.d.1 | ea,eb,ed,ec *ſnt* 2|2 đe.
 1.concl. 3.ſ.1.d.2 | ▭.aeb 2|2 ▭.ced.
 
-*Demonſtr.du 2.cas.*
+#### Demonſtr.du 2.cas.
 
 ſuppoſ. | ab *eſt diametre*,
 ſuppoſ. | ce 2|2 ed, α
@@ -27,7 +27,7 @@ ab & dc *ſnt* ——.
 α.3.3 | ∠fed *eſt* ┘,
 2 concl. ſ.5.2 | ▭.aeb 2|2 □.ed Ⅱ / ▭.ced
 
-*Demõſtr.du 3.cas.*
+#### Demõſtr.du 3.cas.
 
 ſuppoſ. | ab *eſt diametre*,
 ſuppoſ. | ce 3|2 ed,

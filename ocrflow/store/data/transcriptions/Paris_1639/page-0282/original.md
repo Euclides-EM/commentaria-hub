@@ -8,16 +8,16 @@ De trois lignes proportionelles estant donnée la moyenne & la somme des extrém
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 κ *eſt la moyenne* D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 *trouuer* ad & db.
 
-*Conſtr.*
+#### Conſtr.
 
 10.1 | ac 2|2 cb,
 3.p.1 | cahb *eſt ſemic.*
@@ -27,7 +27,7 @@ ab *eſt* —— D.
 12.1 | ed ⊥ ab, α
 ſymp. | ad & db *ſnt req.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.concl. 19.a.1 | ad + db 2|2 ab,
 α.ſ.13.6 | ad π de 2|2 de π db,
@@ -36,7 +36,7 @@ ab *eſt* —— D.
 conſtr. | κ 2|2 cg,
 3.concl. 1.a.1 | de 2|2 κ.
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 hyp. | ab *eſt* 26,
 hyp. | de *eſt* 12, α

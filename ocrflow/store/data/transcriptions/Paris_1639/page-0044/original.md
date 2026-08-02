@@ -20,7 +20,7 @@ hyp. | ∠a *eſt* ┘,
 
 *[Figure]*
 
-*Explication des notes.*
+#### Explication des notes.
 
 A,B,C sont angles égaux entr'eux.
 

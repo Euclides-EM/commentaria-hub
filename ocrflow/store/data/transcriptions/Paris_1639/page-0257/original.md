@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. VI. -->
 
-*Demonſtr.*
+#### Demonſtr.
 
 32.1 | ∠g 2|2 ∠a. α
 4.6 | ge π ef 2|2 ab π bc,
@@ -23,22 +23,22 @@ conſtr. | ∠b 2|2 ∠feg,
 
 Si deux triangles ont vn angle égal à vn angle, & les costez autour d'iceux angles égaux proportionaux, iceux triangles seront equiangles, & auront les angles égaux, sous lesquels les costez de mesme raison sont soustendus.
 
-*Hypoth.*
+#### Hypoth.
 
 ∠b 2|2 ∠def. α
 ab π bc 2|2 de π ef.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 △abc & △def *ſnt equiang.*
 ∠a 2|2 ∠d, ∠c 2|2 ∠dfe.
 
-*Prepar.*
+#### Prepar.
 
 23.1 | ∠feg 2|2 ∠b. β
 23.1 | ∠efg 2|2 ∠c. β
 
-*Demonſtr.*
+#### Demonſtr.
 
 β.32.1 | ∠g 2|2 ∠a,
 4.6 | ge π ef 2|2 ab π bc,

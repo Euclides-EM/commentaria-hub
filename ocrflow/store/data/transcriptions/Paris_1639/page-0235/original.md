@@ -4,19 +4,19 @@
 
 ### SCHOLIE I.
 
-*Demonſtration de la diuiſion de raiſon inuerſe.*
+#### Demonſtration de la diuiſion de raiſon inuerſe.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab π cb 2|2 de π fe.
 
-*Requis à demonſtr.*
+#### Requis à demonſtr.
 
 cb π ac 2|2 fe π df.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ab π cb 2|2 de π fe,
 17.5 | ac π cb 2|2 df π fe,
@@ -24,20 +24,20 @@ concl. c.4.5 | cb π ac 2|2 fe π df.
 
 ### SCHOLIE II.
 
-*Demonſtr. de la diuiſ.. raō. contr. & inuerſ. contraire.*
+#### Demonſtr. de la diuiſ.. raō. contr. & inuerſ. contraire.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ac π ab 2|2 df π de.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ac π cb 2|2 df π fe,
 cb π ac 2|2 fe π df.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ac π ab 2|2 df π de,
 c.4.5 | ab π ac 2|2 de π df,
@@ -48,10 +48,10 @@ c.4.5 | ab π ac 2|2 de π df,
 
 Si les grandeurs diuisées sont proportionelles, estant composées, elles seront aussi proportionelles.
 
-*Hypoth.*
+#### Hypoth.
 
 ab π bc 2|2 de π ef.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ac π cb 2|2 df π fe.

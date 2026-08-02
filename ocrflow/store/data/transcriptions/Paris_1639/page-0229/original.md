@@ -10,7 +10,7 @@ A, 6. B, 2. C, 9. D, 3.
 E, 15. F, 5. G, 3. H, 1.
 L, 21. M, 7. N, 12. P, 4.
 
-*Hypoth.*
+#### Hypoth.
 
 a π b
 c π d
@@ -22,11 +22,11 @@ m 2|2 b + f,
 n 2|2 c + g,
 p 2|2 d + h.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 l π m 2|2 n π p.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.12.5 | l π m 2|2 a π b,
 α.12.5 | n π p 2|2 c π d,

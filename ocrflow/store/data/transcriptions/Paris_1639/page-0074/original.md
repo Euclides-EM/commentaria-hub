@@ -2,7 +2,7 @@
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 15.d.1 | fk 2|2 fd,
 conſtr. | a 2|2 fd,
@@ -18,17 +18,17 @@ A vne ligne droicte donnée, & à vn poinct donné en icelle, faire vn angle rec
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 a *eſt* • D.
 cde *eſt* ∠ D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ∠a 2|2 ∠d.
 
-*Conſtr.*
+#### Conſtr.
 
 c & f *ſnt* • *arbitr.*
 1.p.1 | cf *eſt* ——,

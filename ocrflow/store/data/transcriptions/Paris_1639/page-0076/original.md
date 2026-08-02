@@ -2,17 +2,17 @@
 
 *[Figure]*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 bc 3|2 ef.
 
-*Preparation.*
+#### Preparation.
 
 23.1 | ∠edg 2|2 bac,
 3.1 | dg 2|2 ac,
 1.p.1 | eg & fg *ſnt* ——.
 
-*Demonſt. du 1.cas.*
+#### Demonſt. du 1.cas.
 
 hyp. | de 2|2 ab,
 conſtr. | dg 2|2 ac,
@@ -31,13 +31,13 @@ concl. α.1.a.d | bc 3|2 ef.
 
 *[Figure]*
 
-*Demonſtr. du 2.cas.*
+#### Demonſtr. du 2.cas.
 
 9.a.1 | eg 3|2 ef,
 α | bc 2|2 eg,
 concl. 1.a.d | bc 3|2 ef.
 
-*Demonſtr. du 3.cas.*
+#### Demonſtr. du 3.cas.
 
 11.1 | eg + dg 3|2 ef + df,
 β | dg 2|2 df,

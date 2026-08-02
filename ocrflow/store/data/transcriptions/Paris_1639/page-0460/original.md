@@ -2,7 +2,7 @@
 
 les lignes droictes menées des poincts trouuez en l'arc du tropique par ceux de la ligne equinoctiale, seront les lignes horaires requises du quadrant antique : le stile duquel doit estre perpendiculaire au plan du quadrant, de mesme qu'aux quadrants Italiques & Babyloniques.
 
-## Etymologie & explication des noms & termes plus obscurs des Mathematiques.
+# Etymologie & explication des noms & termes plus obscurs des Mathematiques.
 
 ACRONYQVE, en Grec *acros*, signifie sommet ou extremité, & *nyx*, la nuict : d'où vient que les estoilles, durant qu'elles se leuent le soir, ou se couchent le matin, s'appellent acronyques.  tome 4. page 64. & t. 5. p. 482.
 

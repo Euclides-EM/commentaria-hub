@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. II. -->
 
-*Demonſtration.*
+#### Demonſtration.
 
 α.47.1 | □.ac 2|2 □.ad + □.dc,
 □.bc *commun. add.*

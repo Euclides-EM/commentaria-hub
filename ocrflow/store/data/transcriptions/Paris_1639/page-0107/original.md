@@ -2,21 +2,21 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* ——,
 ad & db *ſnt parties de* ab.
 
-*Requis à demonſtr.*
+#### Requis à demonſtr.
 
 □.ab 2|2 ▭.bad + ▭.abd.
 
-*Prepar.*
+#### Prepar.
 
 46.1 | ag *eſt* □.ab,
 31.1 | df == ac Ⅱ bg. α
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ag *eſt* □.ab,
 α.35.d.1 | af & dg *ſnt* ◊,
@@ -26,7 +26,7 @@ conſtr. | ag *eſt* □.ab,
 19.a.1 | □ag 2|2 ▭af + ▭dg,
 concl. 1.a.g | □.ab 2|2 ▭.bad, / + ▭.abd
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 hyp. | ad *eſt* 5, α
 hyp. | db *eſt* 2, β

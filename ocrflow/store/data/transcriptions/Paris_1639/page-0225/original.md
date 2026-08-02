@@ -1,13 +1,13 @@
 <!-- # D'EVCLIDE, LIV. V. -->
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 raō.. ab π d 3|2 raō.. c π d,
 raō.. d π c 3|2 raō.. d π ab.
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 3.1 | ae 2|2 c,
 3.1 | hg *multipl..* ae Ⅱ c 2|2 gf *multipl..* eb,
@@ -15,7 +15,7 @@ raō.. d π c 3|2 raō.. d π ab.
 3.1 | ik *multipl..* d,
 α.3.1 | ik 3|2 hg, & ik 2|3 hf, β
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.5 | hf *multipl..* ab 2|2 hg *multipl..* ae Ⅱ gf *multipl..* eb,
 β.cōſtr. | hf 3|2 ik, & hg 2|3 ik,

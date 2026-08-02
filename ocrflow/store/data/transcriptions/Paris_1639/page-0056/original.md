@@ -1,16 +1,16 @@
 <!-- # LES ELEMENTS -->
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* △ *equiang.*
 
 *[Figure]*
 
-*Req. à demonſt.*
+#### Req. à demonſt.
 
 abc *eſt* △ *equilat.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠abc 2|2 ∠acb.
 1.concl. 6.1 | ac 2|2 ab, α
@@ -25,13 +25,13 @@ Si des extremitez de quelque ligne droicte on meine deux lignes droictes, se ren
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* △,
 ad 2|2 ac,
 bd 2|2 bc.
 
-*Requis à demonſtr.*
+#### Requis à demonſtr.
 
 •d *eſt en* c.
 

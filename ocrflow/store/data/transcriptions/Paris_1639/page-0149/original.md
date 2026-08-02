@@ -2,13 +2,13 @@
 
 *[Figure]*
 
-*Prepar.*
+#### Prepar.
 
 3.1 | gn 2|2 gh. α
 11.1 | knl ⊥ gi,
 1.p.1 | gk, gb, gc, gl *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 15.d.1 | ga 2|2 gk,
 15.d.1 | gd 2|2 gl,
@@ -24,13 +24,13 @@
 
 La ligne droite menée de l'extremité du diametre d'vn cercle, à angles droicts à iceluy diametre, tombera hors le cercle; & en l'espace compris entre icelle ligne droicte & la circonference ne tombera pas d'autre ligne droicte: & l'angle du demy cercle est plus grand que tout angle rectiligne aigu, mais le reste est plus petit.
 
-*Hypoth.*
+#### Hypoth.
 
 balh *eſt* ⊙,
 cad ⊥ ah,
 ∠bal 2|3 ┘.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ac *eſt hors le* ⊙,
 ae *n'eſt hors le* ⊙,

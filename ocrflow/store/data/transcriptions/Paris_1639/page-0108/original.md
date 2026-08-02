@@ -1,23 +1,23 @@
 <!-- # LES ELEMENTS -->
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* ——,
 ac & cb *ſnt parties de* ab.
 
 *[Figure]*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ▭.bac 2|2 ▭.bca + □.ac.
 
-*Preparation.*
+#### Preparation.
 
 46.1 | ad *eſt* □.ac,
 31.1 | bf == cd,
 2.p.1 | edf *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.29.d.1 | ac, ae, cd *ſnt* 2|2 đe.
 2.ſ.29.1 | af *eſt* ▭,
@@ -28,7 +28,7 @@ conſtr. | ad *eſt* □ac,
 19.a.1 | ▭af 2|2 ▭cf + □ad,
 concl. 1.a.g | ▭.bac 2|2 ▭.bca, / + □.ac.
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 hyp. | ac *eſt* 2, α
 hyp. | cb *eſt* 5, β

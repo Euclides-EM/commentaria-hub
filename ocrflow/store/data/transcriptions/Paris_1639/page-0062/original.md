@@ -2,16 +2,16 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 c *eſt* • D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 cg ⊥ ab.
 
-*Conſtr.*
+#### Conſtr.
 
 arbitr. | d *eſt* • *ſous* ab,
 3.p.1 | cdef *eſt* ⊙,
@@ -19,11 +19,11 @@ arbitr. | d *eſt* • *ſous* ab,
 1.p.1 | cg *eſt* ——,
 ſymp. | cg ⊥ ab.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1. | ce & cf *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | eg 2|2 gf,
 cg *eſt commun.*
@@ -32,7 +32,7 @@ cg *eſt commun.*
 10.d.1 | ∠egc & ∠fgc *ſnt* ┘,
 concl. 10.d.1 | cg ⊥ ab.
 
-*Practique.*
+#### Practique.
 
 hyp. | ab *eſt* —— D.
 c *eſt* • D.
@@ -40,7 +40,7 @@ c *eſt* • D.
 1.p.1. | cf *eſt* ——,
 ſymp. | cg ⊥ ab.
 
-*Demonſtr.*
+#### Demonſtr.
 
 8.& 4.1 | cg ⊥ ab.
 

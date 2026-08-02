@@ -2,7 +2,7 @@
 
 taine somme en la communauté. Pour la faire, il faut adiouster toutes les mises ensemble, & mettre la somme au premier lieu de la regle de trois ; le gain ou la perte au second lieu ; & au troisiesme, les mises de chacun : puis on fait autant de regles de trois qu'il y aura de mises.
 
-*Exemple 1.*
+#### Exemple 1.
 
 Quatre marchands trafiquans ensemble ont gagné en certaines foires 600 liures : le premier a apporté en la communauté 60 lt. le second 100 lt. le troisiesme 120 lt. & le quatriesme 200 lt. sçauoir combien de ce gain appartient à chacun à raison de sa mise ?
 

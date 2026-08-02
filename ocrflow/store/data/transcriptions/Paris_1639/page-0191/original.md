@@ -2,15 +2,15 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abcde *eſt* 5∠ *equilat. & equiangle.*
 
-*Req. à faire.*
+#### Req. à faire.
 
 *inſcrire au* 5∠. abcde *le* ⊙ghikl.
 
-*Conſtr.*
+#### Conſtr.
 
 9.1 | ∠fab 2|2 ∠fae,
 9.1 | ∠ fba 2|2 ∠fbc,
@@ -19,13 +19,13 @@ abcde *eſt* 5∠ *equilat. & equiangle.*
 3.p.1 | fghikl *eſt* ⊙,
 ſymp. | ⊙fghikl *eſt le req.*
 
-*Preparation.*
+#### Preparation.
 
 12.1 | fh ⊥ bc, fi ⊥ cd,
 12.1 | fk ⊥ de, fl ⊥ ae,
 1.p.1 | fc, fd, fe *ſnt* ——;
 
-*Demonſtr.*
+#### Demonſtr.
 
 *aux* △;fba *&* fbc
 

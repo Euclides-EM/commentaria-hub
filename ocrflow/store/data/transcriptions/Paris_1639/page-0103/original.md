@@ -20,7 +20,7 @@ Soit diuisé le nombre de l'aire par le nombre du costé donné, & le quotient s
 
 Les rectangles contenus sous lignes droictes égales, sont égaux entr'eux.
 
-*Hypoth.*
+#### Hypoth.
 
 db & hf *ſnt* ▭,
 dc 2|2 hg,

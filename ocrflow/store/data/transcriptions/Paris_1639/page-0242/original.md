@@ -1,16 +1,16 @@
 <!-- # LES ELEMENTS -->
 
-*Hypoth.*
+#### Hypoth.
 
 a π b 2|2 e π f, b π c 2|2 d π e.
 
-*Requis à demonſtrer.*
+#### Requis à demonſtrer.
 
 a π c 2|2 d π f.
 
 *[Figure]*
 
-*Prepar.*
+#### Prepar.
 
 | g *multipl..* | a,
 3.1 | h *multipl..* | b,
@@ -19,7 +19,7 @@ a π c 2|2 d π f.
 3.1 | l *multipl..* | e,
 | m *multipl..* | f.
 
-*Demonſtr.*
+#### Demonſtr.
 
 15.5 | g π h 2|2 a π b,
 hyp. | a π b 2|2 e π f,

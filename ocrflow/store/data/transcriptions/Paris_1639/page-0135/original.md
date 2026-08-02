@@ -17,11 +17,11 @@ Trouuer le centre d'vn cercle donné.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* ⊙ D.
 
-*Conſtruction.*
+#### Conſtruction.
 
 1.p.1 | ac *eſt* —— *arbitr.*
 10.1 | ae 2|2 ec,
@@ -30,7 +30,7 @@ abc *eſt* ⊙ D.
 10.1 | df 2|2 fb,
 ſymp. | •f *eſt centre du* ⊙.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ | g *eſt centr..* ⊙, α
 1.p.1 | ga, gc, ge *ſnt* ——,

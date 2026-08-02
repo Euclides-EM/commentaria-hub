@@ -2,13 +2,13 @@
 
 angles est pair, la ligne droicte, menée de quelconque angle à l'angle opposé, diuise l'vn & l'autre angle en parties égales.
 
-*Hypoth. du 1. cas.*
+#### Hypoth. du 1. cas.
 
 abcdefg *eſt vne figure equilat. & equiangle.*
 
 dh 2|2 he,
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ∠hab 2|2 ∠hag.
 
@@ -16,11 +16,11 @@ dh 2|2 he,
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 1 p.1 | ac, ad, ae, af *ſnt* ——.
 
-*Demonſtration.*
+#### Demonſtration.
 
 hyp. | ab, ag, bc, gf, cd, fe, de *ſnt* 2|2 đe.
 hyp. | ∠; abc, agf, bcd, gfe, cde, fed *ſnt* 2|2 đe.
@@ -32,7 +32,7 @@ hyp. | dh 2|2 he,
 8.1 | ∠had 2|2 ∠hae,
 concl. 2.a.1 | ∠hab 2|2 ∠hag. α
 
-*Demonſtr. du 2.cas.*
+#### Demonſtr. du 2.cas.
 
 d. α | ∠eab 2|2 ∠eah,
 d. α | ∠aed 2|2 ∠aef.

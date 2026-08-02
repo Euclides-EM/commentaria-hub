@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 hyp. | ac *eſt* 5,
 hyp. | cb *eſt* 5, α
@@ -22,21 +22,21 @@ Le quarré de la perpendiculaire, qui tombe de la circonference sur le diametre;
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 caeb *eſt ſemic.*
 ab *eſt diamet.*
 ed ⊥ ab.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 □.ed 2|2 ▭.adb.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | ec *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠edc *eſt* ┘,
 15.d.1 | ac 2|2 cb,

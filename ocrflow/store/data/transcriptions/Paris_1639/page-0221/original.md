@@ -12,22 +12,22 @@ En cette demonstration I & K ne peuuent estre dissemblables au respect de L & M,
 
 Par cette demonstration est manifeste la preuue de la raison inuerse.
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 a π b 2|2 c π d. α
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 b π a 2|2 d π c.
 
-*Preparation.*
+#### Preparation.
 
 3.1 | e *multipl..* | a,
 3.1 | f *multipl..* | c,
 3.1 | g *multipl..* | b,
 3.1 | h *multipl..* | d.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.c.6.d.5 | e, 2, 3, 4 | 3, g,
 | f, 2, 3, 4 | 3, h, β

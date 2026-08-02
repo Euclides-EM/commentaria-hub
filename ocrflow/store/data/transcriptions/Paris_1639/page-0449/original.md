@@ -10,6 +10,6 @@ Si la declinaison est Zephyr-boreale la ligne DE, qui fait l'angle de declinaiso
 
 Ce quadrant declinant se pourra faire sans obseruer la declinaison du plan proposé, si à l'heure de midy on obserue l'extremité de l'ombre du stile CB perpendiculaire au plan du quadrant, qui donnera en la meridienne AR vn poinct : par exemple en R, duquel tirant RA perpendiculaire à l'horizontale HF, on aura la meridienne AR : puis faisant EF égale à la distance du poinct E iusques au sommet du stile perpendiculaire CB, & l'angle EFA égal à l'esleuation du pole, FA couppant la meridienne RA donnera le centre A, duquel ayant tiré la substilaire ACG, & fait CB perpendiculaire à AG, & égale à la longueur du stile, continuant l'operation comme cy dessus, on acheuera le quadrant.  Or cette methode de faire vn quadrant, estant donné le stile perpendiculaire, & l'extremité de son ombre meridienne, est generale, & se peut practiquer en toute sorte de quadrans.  Et se pourra trouuer l'heure de midy bien seurement, sans l'aide d'aucun quadrant ny monstre, en mettant vn stile perpendiculaire en vn plan horizontal, & trouuant la ligne meridienne par la methode que nous auons donnée en la 26 propos. du 5 tome, page 728.
 
-Propos. 7. pag. 762.
+### Propos. 7. pag. 762.
 
 *Descrire vn quadrant en la face Occidentale d'vn plan incliné vers l'Orient, d'vn angle de 30 degrez*

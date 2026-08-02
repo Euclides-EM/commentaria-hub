@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Demonſtr. du 4.cas.*
+#### Demonſtr. du 4.cas.
 
 ab & cd *ñ ſnt diamet.*
 1&2.p.1 | geh *eſt diametre*,
@@ -12,17 +12,17 @@ d.κ | ▭.dec 2|2 ▭.geh,
 
 Si on prend quelque poinct hors le cercle, & d'iceluy tombent deux lignes droictes au cercle, l'vne desquelles couppe le cercle & l'autre le touche; le rectangle contenu sous toute la couppante, & sa partie de dehors pris entre le poinct & la circonference conuexe, est égal au quarré de la touchante.
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 ebc *eſt* ⊙, d *eſt* • D. db *touche le* ⊙.
 
-*Req.à demonſtrer.*
+#### Req.à demonſtrer.
 
 ▭.adc 2|2 □.db.
 
 *[Figure]*
 
-*Demonſtr.du 1.cas.*
+#### Demonſtr.du 1.cas.
 
 1.p.1 | eb *eſt* ——,
 18.3 | ∠ebd *eſt* ┘, α

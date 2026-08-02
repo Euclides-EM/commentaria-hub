@@ -2,11 +2,11 @@
 
 *[Figure]*
 
-*Req. à faire.*
+#### Req. à faire.
 
 ac *tangente du* ⊙dbc.
 
-*Conſtr.*
+#### Conſtr.
 
 1.p.1 | ad *eſt* ——,
 3.p.1 | dae *eſt* ⊙,
@@ -14,7 +14,7 @@ ac *tangente du* ⊙dbc.
 1.p.1 | de & ac *ſnt* ——,
 ſymp. | ac *touche le* ⊙dbc.
 
-*Demonſtr.*
+#### Demonſtr.
 
 *aux* △;adc & edb
 
@@ -34,18 +34,18 @@ Si quelque ligne droicte touche vn cercle, & du centre à l'attouchement on mene
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 fedc *eſt* ⊙,
 ab *touche le* ⊙fed,
 e *eſt* • *d'attouchement*,
 efc *eſt diametre*.
 
-*Req.à demonſtrer:*
+#### Req.à demonſtrer:
 
 fe ⊥ ab.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | fg ⊥ ab,
 conſtr. | ∠fge *eſt* ┘,

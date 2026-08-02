@@ -2,9 +2,7 @@
 
 Au troisiesme cas, qui est en la page 128, à cause que les rayons visuels AC & DC passent par diuers costez du quarré, il a fallu reduire l'vn des deux en pareille situation qu'est l'autre costé : par exemple le costé KO en QP, qui est en pareille situation que FE, ce qui se fait en trouuant par la 4 du 6 des elem. la quantité de QP, en disant, comme OK est à KD, ainsi DQ est à QP : puis prenant AFE & DQP pour les petits triangles, & ordonnant les regles de trois comme nous venons de dire, on trouuera AB & BC, par le moyen desquels, si besoin est, on pourra aussi trouuer l'hypothenuse AC, qui est égale à la racine quarrée de la somme des quarrez de AB & BC.
 
-# ANNOTATIONS SVR LES
-
-*diuerses methodes de prendre le plan d'vn lieu.*
+## ANNOTATIONS SVR LES diuerses methodes de prendre le plan d'vn lieu.
 
 La premiere definition, & les propositions 4, 5, & 6 du 6 liure des elements, sont le fondement des methodes de prendre le plan d'vn lieu : Et est manifeste desdites propositions, que pour auoir le plan d'vn triangle, il suffit d'auoir les quantitez de ses trois costez, ou de deux angles, ou de deux costez auec l'angle compris d'iceux.
 

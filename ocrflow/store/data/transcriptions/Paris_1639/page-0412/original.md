@@ -2,11 +2,11 @@
 
 parce que la fortification se doit faire à la Holandoise, adioustant 15 degrez auec 58 1/4 degrez, on aura 73 1/4 degr. pour l'angle flanqué RKS, & pour sa moitié RKG 36 5/8 degrez.  Finalement, si de l'angle nKH, qui a esté trouué de 58 1/4, on oste 36 5/8 degrez pour RKG, restera 21 5/8 degrez pour l'angle diminué HKR : auquel adioustant 90 degrez, viendra 111 5/8 degrez pour l'angle de l'espaule QRK : duquel ostant les 50 degrez de l'angle QRG, restera 61 5/8 pour l'angle GRK : puis adioustant ensemble les deux angles GKR 36 5/8, & GRK 61 5/8, & ostant de 180 degrez leur somme, qui est 98 1/4, restera 81 3/4 pour l'angle KGR.
 
-*Corollaire 1.*
+#### Corollaire 1.
 
 Il est manifeste que les deux angles AFG & FGE sont égaux aux deux angles ABC & BCE : car les complements de ceux-cy, qui sont mBC & mCB, auec l'angle m valent 180 degrez : & les complements de ceux-là, qui sont mFG & mGF, auec le mesme angle m, font aussi 180 degrez.
 
-*Corollaire 2.*
+#### Corollaire 2.
 
 *Il est manifeste aussi, qu'en tout polygone regulier l'angle externe FGm est égal à l'angle du centre FnG.*
 

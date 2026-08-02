@@ -2,7 +2,7 @@
 
 on trouuera que 834 aulnes à 7 liures 16 sols l'aulne vaudront 6505 liures 4 sols : & 377 aulnes à 9 liures 15 sols, valent 3675 liures 15 sols.
 
-*Exemple 1.*
+#### Exemple 1.
 
 8 3 4 à 7 lt. 1 6 ſ. ou 7 8′
 7 8′
@@ -14,7 +14,7 @@ on trouuera que 834 aulnes à 7 liures 16 sols l'aulne vaudront 6505 liures 4 so
 ——
 6 5 0 5 lt. 4 ſ.
 
-*Exemple 2.*
+#### Exemple 2.
 
 3 7 7 à 9 lt. 1 5 ſ. ou 9 7 5″.
 9 7 5″

@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Demonſtr.*
+#### Demonſtr.
 
 8.6 | △abc, △adb, △adc *ſnt equiangl.*
 1.concl. 4.6 | bd π da 2|2 da π dc,
@@ -13,15 +13,15 @@ D'vne ligne droicte donnée en oster vne partie demandée.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 ag 2|2 ⅓ab.
 
-*Conſtruction.*
+#### Conſtruction.
 
 | ∠baf *eſt arbitr.*
 3.1 | ad, de, ef *ſnt* 2|2 đe.
@@ -29,7 +29,7 @@ ag 2|2 ⅓ab.
 31.1 | dg == fb,
 ſymp. | ag 2|2 ⅓ab.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.2.6 | ag π gb 2|2 ad π df,
 2.ſ.18.5 | ag π ab 2|2 ad π af,

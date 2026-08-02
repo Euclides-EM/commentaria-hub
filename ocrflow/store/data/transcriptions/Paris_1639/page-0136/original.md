@@ -22,19 +22,19 @@ Si en la circonference d'vn cercle on prend deux poincts tels qu'on voudra ; la 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 cab *eſt* ⊙,
 arbitr. | a & b *ſnt* • *dās la* ⊙.
 ab *eſt* ——,
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab *eſt dans le* ⊙.
 
-*Prepar.*
+#### Prepar.
 
 arbitr. | d *eſt* • *en* ab,
 1.p.1 | ca, cb, cd *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.

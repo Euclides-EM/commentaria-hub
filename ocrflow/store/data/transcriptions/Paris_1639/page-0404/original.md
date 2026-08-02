@@ -18,6 +18,6 @@ Selon Marolois vne fortification reguliere doit auoir les cinq conditions suiuan
 
 5. Que les contr'escarpes soient paralleles aux faces des bastions.
 
-*La construction se fait ainsi.*
+### La construction se fait ainsi.
 
 Premierement, soit tiré la ligne droicte interminée BP, en l'vne des extremitez de laquelle, comme en B, on fera l'angle PBE égal à l'angle diminué de la fortification proposée, comme en cet exemple, qui est vn pentagone, vn angle de 19 1/2 degrez, pour le moyen

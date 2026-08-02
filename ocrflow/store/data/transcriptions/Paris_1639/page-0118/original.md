@@ -1,10 +1,10 @@
 <!-- # LES ELEMENTS -->
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 4▭.abc + □.ac 2|2 □.ad,
 
-*Preparation.*
+#### Preparation.
 
 46.1 | ae *eſt* □.ad,
 1.p.1 | fd *eſt diametre*,
@@ -12,7 +12,7 @@
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.c.4.2 | oi *eſt* □.ac, bm *eſt* □.bd, nq *eſt* □.cb.
 hyp. | cb 2|2 bd. α
@@ -29,7 +29,7 @@ concl. 19.a.1 | *gnom.* odi + oi □.ac 2|2 ae □.ad,
 
 Si vne ligne droicte est couppée en deux parties inégales, le rectangle contenu quatre fois sous les deux parties, auec le quarré de la difference des parties, est égal au quarré de la toute.
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 *Voyez la figure precedente.*
 

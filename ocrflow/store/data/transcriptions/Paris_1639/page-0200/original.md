@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠eab, ∠abc, ∠bcd, ∠cde, ∠dea *ſnt* 2|2 đe.
 c.37.3, & 7.a.1 | ∠fae, ∠fab, ∠fba, ∠fbc / ∠fcb, ∠fcd, ∠fdc, &c. *ſnt* 2|2 đe. α
@@ -13,11 +13,11 @@ concl. d. β | abcde *eſt equilateral.*
 
 *[Figure]*
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 mopq *eſt* ⊙.
 
-*Prepar.*
+#### Prepar.
 
 1.p.1 | mp *eſt diamet. arbitraire.*
 arbitr. | mo 2|3 op,
@@ -26,7 +26,7 @@ arbitr. | mo 2|3 op,
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 31.3 | ∠mop, ∠opq, ∠mqp, ∠omq *ſnt* ┘;
 12.a.1 | ∠mop, ∠opq, ∠mqp, ∠omq *ſnt* 2|2 đe. β

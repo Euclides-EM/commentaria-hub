@@ -9,29 +9,29 @@ par la 16. 4. & 9. 1. en parties 15. 30. 60. 120. 240. &c.
 
 Toute figure equilaterale inscrite au cercle est aussi equiangle: mais toute figure equilaterale circonscrite au cercle n'est pas aussi equiangle, si le nombre de ses angles n'est impair.
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 abcde *eſt equilat.*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 abcde *eſt equiangle.*
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.28.3 | ∩;ab, bc, cd, de, ea *ſnt* 2|2 đe.
 concl. 27.3 | ∠;abc, bcd, cde, dea, eab *ſnt* 2|2 đe.
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 fghi *eſt vn rhomhe*,
 ∠fgh 3|2 ∠gfi.
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 9.1 | ∠ogh 2|2 ∠ogf,
 9.1 | ∠ohg 2|2 ∠ohi, α

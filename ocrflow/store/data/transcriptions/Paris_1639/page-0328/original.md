@@ -6,7 +6,7 @@ soit composée de l'argent qu'on preste, & de son interest annuel : & parce que 
 
 faisant l'operation à l'ordinaire, on trouuera 941 3/17 liures qu'il faut prester, pour auoir 1000 liures au bout de l'an.
 
-*Exemple 9.*
+#### Exemple 9.
 
 Sçauoir combien on doit prester au denier 16 sur vne promesse de 1000 liures payable dans 4 ans ?
 
@@ -16,7 +16,7 @@ A cause que la somme 16 liures, auec son interest au denier 16 en 4 ans, monte �
 
 on trouuera 800 liures, qu'il faut prester à interest au denier 16, pour auoir 1000 liures au bout de 4 ans.
 
-*Exemple 10.*
+#### Exemple 10.
 
 Si l'interest est à 6 pour 100 par an, pour sçauoir combien on doit prester sur ladite promesse de 1000 liures, payable dans vn an, on dira si 106 liures viennent de 100 liures, de combien viendront 1000 liures :
 

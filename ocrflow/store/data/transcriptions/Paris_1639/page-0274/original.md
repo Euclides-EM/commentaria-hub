@@ -4,18 +4,18 @@
 
 Si vne ligne droicte est couppée comme on voudra, le rectangle contenu sous les parties, est milieu proportionel, entre les quarrez d'icelles parties : Item le rectangle contenu sous la toute & vne partie, est milieu proportionel entre le quarré de la toute & le quarré de ladite partie.
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* ——,
 arbitr. | ad & db *ſnt part..* ab.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 □.ad π ▭.adb 2|2 ▭.adb π □.db,
 □.ab π ▭.bad 2|2 ▭.bad π □.ad,
 □.ab π ▭.abd 2|2 ▭.abd π □.db.
 
-*Prepar.*
+#### Prepar.
 
 3.p.1 | acb *eſt ſemic.*
 11.1 | de ⊥ ab,
@@ -23,7 +23,7 @@ arbitr. | ad & db *ſnt part..* ab.
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 31.3 | ∠aeb *eſt* ┘,
 conſtr. | ed ⊥ ab,

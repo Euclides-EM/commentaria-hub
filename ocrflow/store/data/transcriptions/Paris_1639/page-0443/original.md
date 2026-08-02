@@ -1,6 +1,6 @@
-<!-- # DE LA GNOMONIQVE, OV HOROLOGEOGRAPHIE. -->
+# DE LA GNOMONIQVE, OV HOROLOGEOGRAPHIE.
 
-Propos. 1. pag. 750. du 5.
+### Propos. 1. pag. 750. du 5.
 
 *Descrire vn quadrant equinoctial sur vne ardoise, ou autre plan.*
 

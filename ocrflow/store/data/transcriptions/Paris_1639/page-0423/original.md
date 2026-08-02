@@ -4,7 +4,7 @@ Par la construction AC est de 24 toises, CD de 48, & DG de 120 : AB est égale �
 
 Pour auoir EG, on multipliera DG 120 par soy-mesme, & viendra 14400, puis multipliant aussi ED 5794″ par soy-mesme, viendra 33570436″″ pour le quarré de ED, lequel estant soustraict de 14400 quarré de DG, restera 110429564″″ pour le quarré de EG, dont la racine quarrée est 10508″ ou 105 2/25 pour EG, de qui ostant EA 3394″, restera 7114″ ou 71 14/100 pour la courtine AG : & adioustant la mesme EA, ou son égale GK, auec EG, viendra 13902″ pour EK, & par consequent son double EL aura 27804″, son triple 41706″, & son quadruple 55608″ toises, que nous mettrons en la table suiuante.
 
-*Table des quantitez des lignes de la figure precedente.*
+### Table des quantitez des lignes de la figure precedente.
 
 AC le flanc.  24. | ED ligne capitale.  5794″.
 CD la face.  48. | EK distance simple.  13902″.

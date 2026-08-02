@@ -2,15 +2,15 @@
 
 *[Figure]*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ▭db 2|2 ▭hf.
 
-*Prepar.*
+#### Prepar.
 
 1.p.1 | ac & eg *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.4.1 | △adc 2|2 △ehg,
 34.1 | ▭db 2|2 2△adc,
@@ -23,11 +23,11 @@ Descrire vn rectangle qui soit contenu sous deux lignes droictes données.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 e & ad *ſnt* D.
 
-*Conſtr.*
+#### Conſtr.
 
 11.1 | ∠dab *eſt* ┘,
 3.1 | ab 2|2 e,
@@ -35,7 +35,7 @@ e & ad *ſnt* D.
 31.1 | dc == ab,
 ſymp. | ac *eſt le* ▭ *req.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ac *eſt* ◊,
 conſtr. | ∠a *eſt* ┘,

@@ -2,7 +2,7 @@
 
 *[Figure]*
 
-*Conſtruction.*
+#### Conſtruction.
 
 10.1 | ah 2|2 hd, bf 2|2 fc,
 0.1 | ae 2|2 eb, dg 2|2 gc,
@@ -10,7 +10,7 @@
 3:p.1 | iefgh *eſt* ⊙,
 ſymp. | ⊙efgh *eſt le requis.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 7.a.1 | ah, hd, bf, fc, ae, eb, dg, gc *ſnt* 2|2 đe.
 33.1 | hf == ab & dc,
@@ -26,21 +26,21 @@ A l'entour d'vn quarré donné, descrire vn cercle.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abcd *eſt* □ D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 *circõſcrire au* □abcd *le* ⊙abcd,
 
-*Conſtr.*
+#### Conſtr.
 
 1.p.1. | ac & bd *ſnt* ——,
 3.p.1 | eabcd *eſt* ⊙,
 ſymp. | ⊙eabcd *eſt le requis.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 2.c.4.2 | ∠cab 2|2 ∠cad, ∠dba 2|2 ∠dbc,
 29.d.1 | ∠; dab, abc, bcd, cda *ſnt* ┘;

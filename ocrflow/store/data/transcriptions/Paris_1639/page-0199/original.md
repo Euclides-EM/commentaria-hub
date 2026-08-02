@@ -17,15 +17,15 @@ Par la mesme demonstration on prouuera, que si le nombre des costez de la figure
 
 Toute figure equiangle descrite à l'entour du cercle, est aussi equilaterale: mais toute figure equiangle inscrite au cercle, n'est pas aussi equilaterale, si le nombre des costez n'est impair.
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 5∠abcde *eſt equiangle*,
 5∠abcde *eſt circonſcrit au* ⊙fghinl.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 5∠abcde *eſt equilateral.*
 
-*Preparation.*
+#### Preparation.
 
 1.p.1. | fa, fb, fc, fd, fe *ſnt* ——;

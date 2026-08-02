@@ -1,15 +1,15 @@
 <!-- # D'EVCLIDE, LIV. IV. -->
 
-*Hypoth. 3.*
+#### Hypoth. 3.
 
 5∠abcde *eſt equiangle.*
 5∠abcde *eſt inſcrit au* ⊙abcde.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 5∠abcde *eſt equilat.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 *Voyez la figure de la 14. propoſ. de ce liure.*
 

@@ -4,15 +4,15 @@
 1.6 | △ade π △edc 2|2 ae π ec,
 1.concl. β.11.5 | ad π db 2|2 ae π ec.
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 ad π db 2|2 ae π ec.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 de == bc.
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.6 | △ade π △dbe 2|2 ad π db. γ
 hyp. | ad π db 2|2 ae π ec,

@@ -4,17 +4,17 @@
 
 En vn cercle donné, inscrire vn quintidecagone equilateral & equiangle.
 
-*Hypoth.*
+#### Hypoth.
 
 aebc *eſt* ⊙ D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 *inſcrire au* ⊙aebc *le* 15∠ *equilat. & equiangle.*
 
 *[Figure]*
 
-*Conſtruction.*
+#### Conſtruction.
 
 1.1 | d *eſt* △ *equilat.*
 2.4 | △abc *eſt equiang.* △d,
@@ -22,7 +22,7 @@ aebc *eſt* ⊙ D.
 1.4 | fb, bi, ie, &c. *ſnt* 2|2 đe.
 ſymp. | eibga *eſt le* 15∠ *requis.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ab, bc, ca *ſnt* 2|2 đe.
 28.3 | ∩ab, ∩bc, ∩ca *ſnt* 2|2 đe.

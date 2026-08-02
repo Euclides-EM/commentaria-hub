@@ -2,7 +2,7 @@
 
 *La meſme demonſtration ſe peut faire ainſi.*
 
-*Hypoth.*
+#### Hypoth.
 
 *[Figure]*
 
@@ -11,11 +11,11 @@ fc 2|2 cd,
 fa *eſt arbitrairè.*
 caeb *eſt la figure du ſcholie de la 6. du 2.*
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 □.da + □.af 2|2 2□.ac Ⅱ ce + 2□.cd.
 
-*Demonſtration.*
+#### Demonſtration.
 
 ſ5.2 | □.de 2|2 ▭.adb Ⅱ ▭.daf. α
 α.4.2 | □.ad + □.db + 2▭.adb, Ⅱ 2□.de 2|2 □.ab,
@@ -29,7 +29,7 @@ concl. 31a.1 | □.ad + □db, Ⅱ af 2|2 2□.ce + 2□.cd.
 
 Si vne ligne droicte est couppée en deux parties inégales, les quarrez descrits de la toute & de la difference des parties, sont doubles des quarrez qui sont faicts des deux parties de la toute.
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 *[Figure]*
 

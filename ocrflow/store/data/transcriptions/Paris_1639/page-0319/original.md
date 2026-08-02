@@ -4,7 +4,7 @@
 ——
 3 5 7 | 105.
 
-*De l'addition.*
+### De l'addition.
 
 Si les fractions à adiouster sont en mesme denomination, l'addition se fera en adioustant les numerateurs ensemble, & donnant à la somme le denominateur commun : Mais si elles ne sont en mesme denomination, il faudra premierement les reduire par la methode precedente, puis faire l'addition. Ce faisant 2/12, 3/12, & 6/12, qui sont en mesme denomination, estant adioustez ensemble font 11/12.
 
@@ -21,7 +21,7 @@ Mais pour les fractions ⅔, 3/4, 1/2, 3/8, & ⅚, les reduisant en mesme denomi
 
 75/24 [3 3/24, ou 1/8.
 
-*Autre exemple.*
+#### Autre exemple.
 
 2 3 4 5 1 | 8 9 10 6 } 12
 3 4 7 6 2

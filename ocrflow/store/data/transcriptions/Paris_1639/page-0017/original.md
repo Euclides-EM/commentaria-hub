@@ -1,6 +1,6 @@
 <!-- # EXPLICATION DES CITATIONS. -->
 
-*Explication des Citations.*
+#### Explication des Citations.
 
 15. d. 1. *Quinzieſme definition du premier liure.*
 

@@ -7,11 +7,11 @@
 
 *[Figure]*
 
-*Corollaire 1.*
+#### Corollaire 1.
 
 15.d.1 | cd 2|2 dg.
 
-*Coroll. 2.*
+#### Coroll. 2.
 
 29.3 | ace *eſt* △ *equilat.*
 
@@ -19,7 +19,7 @@
 
 Demonstration de la practique de l'vnziesme proposition du premier liure, que nous auons remise à demonstrer icy.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | acgd,gcad, dgae *ſnt* ⊙ 2|2 đe.
 15.4 | cade *eſt ſemic.*

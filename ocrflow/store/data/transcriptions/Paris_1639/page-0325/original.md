@@ -2,7 +2,7 @@
 
 mier qui est 100 ; ce qui se faict facilement en retranchant 2 figures du costé droict, & trouue 58 32/100 ou 8/25 pour le requis.
 
-*Exemple 3.*
+#### Exemple 3.
 
 A 10 escus les 12 aulnes, sçauoir combien d'aulnes on aura pour 20 liures ?
 
@@ -16,7 +16,7 @@ A 10 escus les 12 aulnes, sçauoir combien d'aulnes on aura pour 20 liures ?
 
 Ayant reduict le premier nombre en liures, afin qu'il soit de mesme espece que le troisiesme, on dira, si 30 liures donnent 12 aulnes, combien donneront 20 liures : faisant l'operation comme on voit en ces nombres, on trouuera 8 aulnes.
 
-*Exemple 4.*
+#### Exemple 4.
 
 A 32 liures 15 sols les 8 aulnes, sçauoir combien d'aulnes on aura pour 40 liures 8 sols ?
 

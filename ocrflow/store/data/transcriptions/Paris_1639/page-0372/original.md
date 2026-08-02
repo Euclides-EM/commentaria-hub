@@ -15,7 +15,7 @@ Pour trouuer le costé DC par logarithme, l'operation se fera ainsi :
 ——
 8675
 
-*De la regle des tangentes.*
+### De la regle des tangentes.
 
 Estant donnez deux costez & l'angle compris d'iceux, trouuer les deux autres angles & le troisiesme costé.
 

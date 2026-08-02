@@ -10,12 +10,12 @@ Si à quelque ligne droicte, & à vn poinct en icelle, sont menées deux lignes 
 
 Cette proposition est la conuerse de la precedente, car en icelle on a demonstré, que si CBD est vne ligne droicte, les deux angles contigus ABC & ABD sont égaux à deux angles droicts : mais en celle-cy il faut demonstrer, que si les deux angles contigus ABC & ABD sont égaux à deux angles droicts, que CBD est vne ligne droicte.
 
-*Hypoth.*
+#### Hypoth.
 
 ∠abc + ∠abd *ſnt* 2|2 2┘.
 
 *[Figure]*
 
-*Req. à demonſt.*
+#### Req. à demonſt.
 
 cbd *eſt* ——.

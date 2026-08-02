@@ -6,18 +6,18 @@ aussi la composée de E & F, autant de fois qu'il y a de parties en AB égales �
 
 Si la premiere est autant multiple de la seconde, que la troisiesme l'est de la quatriesme, & que la cinquiesme soit aussi autant multiple de la seconde que la sixiesme l'est de la quatriesme; la composée de la premiere, & de la cinquiesme, sera autant multiple de la seconde, que la composée de la troisiesme & de la sixiesme l'est de la quatriesme.
 
-*Hypoth.*
+#### Hypoth.
 
 ab *multipl..* c 2|2 de *multipl..* f, α
 bg *multipl..* c 2|2 eh *multipl..* f, β
 
 *[Figure]*
 
-*Requis à demonſtr.*
+#### Requis à demonſtr.
 
 ag *multipl..* c 2|2 dh *multipl..* f.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.hyp. | *multd.. part..* ab 2|2 *multd.. part..* de,
 β.hyp. | *multd.. part..* bg 2|2 *multd.. part..* eh,

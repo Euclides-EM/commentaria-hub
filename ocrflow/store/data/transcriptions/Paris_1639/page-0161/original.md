@@ -6,15 +6,15 @@ Le segment d'vn cercle estant donné, descrire le cercle duquel il est segment.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt ſegment* D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 *trouuer le centre* f.
 
-*Conſtr.*
+#### Conſtr.
 
 arbitr. | a, b, c *ſnt* • *en* ∩,
 1.p.1 | ab & bc *ſnt* ——,
@@ -22,7 +22,7 @@ arbitr. | a, b, c *ſnt* • *en* ∩,
 11.1. | df ⊥ ab, ef ⊥ bc,
 ſymp. | *interſect.* f, *eſt centre.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 c.1.3 | *centre eſt en* df,
 c.1.3 | *centre eſt en* ef,
@@ -34,7 +34,7 @@ Aux cercles égaux, les angles égaux s'appuyent sur circonferences égales, soi
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 gabc & hdef *ſnt* ⊙ 2|2 đe.
 ∠agc 2|2 ∠dhf,

@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. III. -->
 
-*Demonſtr.*
+#### Demonſtr.
 
 15.d.1 | ki 2|2 kh,
 ak *commun. add.*
@@ -29,18 +29,18 @@ Si au dedans du cercle on prend quelque poinct, & d'iceluy poinct tombent plus d
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 bck *eſt* ⊙,
 ab, ac, ak *ſnt* 2|2 đe.
 
-*Requis à demonſtrer.*
+#### Requis à demonſtrer.
 
 •a *eſt centre du* ⊙.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | a n̄ *eſt centre du* ⊙,
 7.3 | ab, ac, ak n̄ *ſnt* 2|2 đe.
-*contr. hypoth.*
+#### contr. hypoth.
 concl. 21.a.1 | a *eſt centre du* ⊙.

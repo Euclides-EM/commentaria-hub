@@ -11,24 +11,24 @@ Des parallelogrammes égaux qui ont vn angle égal à vn angle, les costez qui s
 
 *[Figure]*
 
-*Hypoth. commun.*
+#### Hypoth. commun.
 
 ∠abc 2|2 ∠ebg.
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 ◊abcd 2|2 ◊befg.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab π bg 2|2 eb π bc.
 
-*Prepar.*
+#### Prepar.
 
 3.1 | abg *eſt* ——,
 2.p.1 | dch & fgh *ſnt* ——;
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | abg *eſt* ——,
 hyp. | ∠abc 2|2 ∠ebg,

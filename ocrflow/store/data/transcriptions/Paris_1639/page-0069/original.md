@@ -1,10 +1,10 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ca,cd,cb n̄.ſnt 2|2 đe.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ca,cd,cb ſnt 2|2 đe.
 5.1 | ∠cab 2|2 ∠cba,
@@ -19,21 +19,21 @@ De tout triangle, deux angles, sont plus petits que deux droicts, de quelque fa�
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* △.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ∠abc + ∠acb 2|3 2┘,
 ∠bac + ∠acb 2|3 2┘.
 ∠a + ∠b 2|3 2┘.
 
-*Preparation.*
+#### Preparation.
 
 2.p.1 | bcd *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 16.1 | ∠b 2|3 ∠acd,
 ∠acb *commun. add.*

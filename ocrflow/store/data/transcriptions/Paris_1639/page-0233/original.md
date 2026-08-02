@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. V. -->
 
-*Demonſtration.*
+#### Demonſtration.
 
 hyp. | c π d 2|2 a π b,
 15.5 | e π f 2|2 a π b,
@@ -19,17 +19,17 @@ Or ceste demonstration a lieu seulement quand les quatre grandeurs sont de mesme
 
 Si les grandeurs composées sont proportionelles, aussi estant diuisées elles seront proportionelles.
 
-*Hypoth.*
+#### Hypoth.
 
 ab π cb 2|2 de π fe.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ac π cb 2|2 df π fe.
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 3.1 | gh *multipl..* | ac,
 | hl *multipl..* | cb,

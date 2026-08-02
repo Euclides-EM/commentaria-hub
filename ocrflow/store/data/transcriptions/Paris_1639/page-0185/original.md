@@ -10,13 +10,13 @@ Descrire vn triangle isoscele, qui ait vn chacun des angles qui sont à la base,
 
 *[Figure]*
 
-*Requis à faire.*
+#### Requis à faire.
 
 △abd *iſoſcele*,
 ∠abd 2|2 2∠bad,
 ∠adb 2|2 2∠bad.
 
-*Conſtr.*
+#### Conſtr.
 
 arbitr. | ab *eſt* ——,
 3.p.1 | abd *eſt* ⊙,
@@ -25,12 +25,12 @@ arbitr. | ab *eſt* ——,
 1.p.1. | ad *eſt* ——,
 ſymp. | △abd *eſt le requis.*
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | dc *eſt* ——,
 5.4 | acd *eſt* ⊙ *circonſcrit au* △acd.
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.concl. 15.d.1 | ab 2|2 ad,
 conſtr. | ▭.abc 2|2 □.ac, / Ⅱ □.bd,

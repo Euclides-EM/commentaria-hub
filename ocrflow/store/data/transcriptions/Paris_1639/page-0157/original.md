@@ -1,28 +1,28 @@
 <!-- # D'EVCLIDE, LIV. III. -->
 
-*Hypoth.*
+#### Hypoth.
 
 edac *eſt* ⊙.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ∠dac 2|2 ∠dbc.
 
-*Prepar. du 1.cas.*
+#### Prepar. du 1.cas.
 
 1.p.1 | ed & ec *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 20.1 | ∠dac 2|2 ½∠dec,
 20.1 | ∠dbc 2|2 ½∠dec,
 1.concl. 7.a.1 | ∠dac 2|2 ∠dbc. α
 
-*Prepar.du 2.cas.*
+#### Prepar.du 2.cas.
 
 1.p.1 | ab *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 d.α | ∠adb 2|2 ∠acb,
 15.1 | ∠afd 2|2 ∠bfc,
@@ -34,21 +34,21 @@ Les figures de quatre costez inscrites au cercle, ont les angles opposez égaux 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abcd *eſt* ⊙,
 abcd *eſt* 4∠.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ∠adc + ∠abc 2|2 2┘,
 ∠dab + ∠dcb 2|2 2┘.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | ac & bd *ſnt* ——.
 
-*Demonſtration.*
+#### Demonſtration.
 
 *au* △abc,
 

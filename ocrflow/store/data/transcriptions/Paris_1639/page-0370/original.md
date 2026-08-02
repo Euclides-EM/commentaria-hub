@@ -15,7 +15,7 @@ Le mesme costé AC se trouuera par logarithmes ainsi,
 ——
 49
 
-*Exemple 2.*
+### Exemple 2.
 
 Estant donnez deux costez, & l'angle opposé à l'vn d'iceux, trouuer les deux autres angles, & le troisiesme costé.
 

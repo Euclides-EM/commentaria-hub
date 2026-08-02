@@ -18,7 +18,7 @@ Que si les deux suppositions eussent esté 8 & 11, on eust trouué pour l'erreur
 ——
 *Reste pour le premier 7⅔,*
 
-*Exemple 2.*
+#### Exemple 2.
 
 Vn homme a deux tasses d'or, & vn couuercle de 100 escus, la grande tasse auec le couuercle vaut trois fois autant que la petite sans couuercle : & la petite auec le couuercle deux fois autant que la grande sans couuercle, sçauoir combien vaut chaque tasse ?
 

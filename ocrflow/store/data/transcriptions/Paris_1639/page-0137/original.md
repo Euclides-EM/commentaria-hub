@@ -17,24 +17,24 @@ Si dans le cercle quelque ligne droicte passant par le centre, couppe quelqu'aut
 
 *[Figure]*
 
-*Hypoth. commun.*
+#### Hypoth. commun.
 
 ebac *eſt* ⊙,
 bd *eſt diametre.*
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 af 2|2 fc.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ef *eſt* ⊥ ac.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | ea, ec, *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | af 2|2 fc,
 fe *eſt commun.*

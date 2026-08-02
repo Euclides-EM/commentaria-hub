@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. III. -->
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | cfgb *eſt* ——,
 ergo | cfgb *eſt diametre du* ⊙cab. α
@@ -16,16 +16,16 @@ Si deux cercles se touchent l'vn l'autre, au dehors, la ligne droicte menée d'v
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 acd & bce *ſnt* ⊙,
 c *eſt* • *d'attouchement.*
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 acb *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | adeb *eſt* ——,
 20.1 | ac + cb 3|2 adeb,
@@ -38,11 +38,11 @@ Pelletier demonstre cette 12. proposition ainsi.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 aci & bcgd *ſnt* ⊙;
 c *eſt* • *d'attouchement.*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 Que le centre du cercle CED est en la ligne droicte ACD.

@@ -12,17 +12,17 @@ Si vne ligne droicte est couppée en deux parties égales, & en deux parties in�
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* ——,
 ac 2|2 cb,
 ad 3|2 db.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ▭.adb + □.cd 2|2 □.cb.
 
-*Preparation.*
+#### Preparation.
 
 46.1 | cf *eſt* □.cb,
 1.p.1 | eb *eſt diametre*,
@@ -30,7 +30,7 @@ ad 3|2 db.
 31.1 | al == ce,
 31.1 | lhi == ab.
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.c.4.2 | kg & di *ſnt* □,
 2.ſ.29.1 | ak, ci, df *ſont* ▭;

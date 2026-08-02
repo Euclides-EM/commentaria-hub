@@ -2,30 +2,30 @@
 
 *[Figure]*
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 ∠ega 2|2 ∠ghc.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab == cd.
 
-*Demonſtr.*
+#### Demonſtr.
 
 15.1 | ∠hgb 2|2 ∠ega,
 hyp. | ∠ghc 2|2 ∠ega,
 1.a.1 | ∠hgb 2|2 ∠ghc,
 1.concl. 27.1 | ab == cd.
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 ∠agh + ∠chg 2|2 2┘.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab == cd.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠agh + ∠chg 2|2 2┘.
 13.1 | ∠agh + ∠bgh 2|2 2┘,

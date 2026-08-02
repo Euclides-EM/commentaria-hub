@@ -1,16 +1,16 @@
 <!-- # LES ELEMENTS -->
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ∪ ac 2|2 ∪ df,
 
 *[Figure]*
 
-*Prepar.*
+#### Prepar.
 
 1.p.1 | ac & df *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.d.3 | ga, gc, / hd, hf *ſnt* 2|2 đe.
 hyp. | ∠agc 2|2 ∠dhf,
@@ -28,12 +28,12 @@ concl. ſ.24.3 | ∪ ac 2|2 ∪ df.
 
 Aux cercles égaux les angles appuyez sur circonferences égales sont égaux entr'eux; soit qu'ils y soient appuyez estant constituez aux centres, ou bien estant constituez aux circonferences.
 
-*Hypoth.*
+#### Hypoth.
 
 gabc & hdef *ſnt* ⊙ 2|2 đe.
 ∪ ac 2|2 ∪ df.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ∠agc 2|2 ∠dhf,
 ∠abc. 2|2 ∠def.

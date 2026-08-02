@@ -13,19 +13,19 @@ Coupper vne ligne droicte proposée & terminée, selon la moyenne & extréme rai
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 ba π ag 2|2 ag π gb.
 
-*Conſtr.*
+#### Conſtr.
 
 11.2 | ▭.abg 2|2 □.ag, Ⅱ ▭bi 2|2 □ah.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ▭.abg 2|2 □.ag,
 concl. 14.6 | ab π ag 2|2 ag π bg.
@@ -34,7 +34,7 @@ concl. 14.6 | ab π ag 2|2 ag π bg.
 
 Aux triangles rectangles, la figure descrire sur le costé qui soustient l'angle droict, est égale aux deux figures des costez qui contiennent l'angle droict, semblables à icelle, & semblablement descrites.
 
-*Hypoth.*
+#### Hypoth.
 
 ∠bac *eſt* ┘,
 bf, bg, al *ſnt ſml.* đe.

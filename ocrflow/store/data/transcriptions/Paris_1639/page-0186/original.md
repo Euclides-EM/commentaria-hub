@@ -19,14 +19,14 @@ En vn cercle donné, inscrire vn pentagone, equilateral & equiangle.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abcde *eſt* ⊙ D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 *inſcrire au* ⊙abcd 5∠abcde *equilat. & equiang.*
 
-*Conſtr.*
+#### Conſtr.
 
 10.4 | △fgh *eſt iſoſcele*, / ∠g & ∠h 2|2 2∠f, α

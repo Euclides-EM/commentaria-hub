@@ -2,22 +2,22 @@
 
 gne droicte, fait angles, ou elle fera deux angles droicts, ou égaux à deux droicts.
 
-*Hypoth.*
+#### Hypoth.
 
 cbd *eſt* ——,
 ab *eſt* ——,
 
 *[Figure]*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ∠abd + abc 2|2 2┘.
 
-*Preparation.*
+#### Preparation.
 
 11.1 | be ⊥ cd. α
 
-*Demonſtr.*
+#### Demonſtr.
 
 19.a.1 | ∠ebd 2|2 ∠eba + ∠abd,
 ∠ebc *commun. add.*

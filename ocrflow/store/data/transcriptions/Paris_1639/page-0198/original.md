@@ -2,13 +2,13 @@
 
 3.p.1 | oml *eſt* ⊙.
 
-*Requis à demonſtrer.*
+#### Requis à demonſtrer.
 
 *le rhombe* fghi *eſt circonſcrit au* ⊙mlp.
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ∠ogh 2|2 ∠ogf,
 hyp. | gh 2|2 gf.
@@ -22,21 +22,21 @@ concl. 4.d.4 | *le rhombe* fghi *eſt circonſcrit au* ⊙omlnp.
 
 *[Figure]*
 
-*Hypoth. 3.*
+#### Hypoth. 3.
 
 abcde *eſt* 5∠,
 abcde *eſt equilat.*
 abcde *eſt circõſcrit au* ⊙fghl.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 abcde *eſt equiangle.*
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | fa, fb, fc, fd, fe *ſnt* ——;
 
-*Demonſtr.*
+#### Demonſtr.
 
 *aux* △; fab *&* fae
 c.37.3 | ∠fab 2|2 ∠fae,

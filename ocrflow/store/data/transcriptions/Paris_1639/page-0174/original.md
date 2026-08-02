@@ -2,12 +2,12 @@
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 27.3 | df *touche le* ⊙abf,
 1.p.1. | ed,eb,ef *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 36.1 | □.df 2|2 ▭,adc,
 hyp. | □.db 2|2 ▭.adc,
@@ -20,7 +20,7 @@ ed *eſt commun.*
 12.a.b | ∠ebd *eſt* ┘,
 c.16.3 | db *touche le* ⊙abf.
 
-*Coroll.*
+#### Coroll.
 
 α.8.1 | ∠edb 2|2 ∠edf.
 

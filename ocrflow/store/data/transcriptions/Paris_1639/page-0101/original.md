@@ -1,23 +1,23 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-*Hypoth.*
+#### Hypoth.
 
 *au* △abc
 □.bc 2|2 □.ab + □.ac;
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ∠bac *eſt* ┘.
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 11.1 | ∠cad *eſt* ┘,
 3.1 | ad 2|2 ab,
 1.p.1 | cd *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ad 2|2 ab,
 ſ.46.1 | □.ad 2|2 □.ab,

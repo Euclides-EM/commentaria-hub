@@ -4,17 +4,17 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 agc *eſt* △,
 dab, gaf, cae *ſnt* ——.
 ef == gc. α
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ed π df 2|2 cb π bg.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.29.1 | △ade *ſml.* △abc,
 α.29.1 | △adf *ſml.* △abg,
@@ -29,17 +29,17 @@ Si deux triangles ont les costez proportionaux, iceux triangles seront equiangle
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab π bc 2|2 de π ef,
 ac π bc 2|2 df π fe,
 ab π ac 2|2 de π df.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 △abc & △def *ſont equiangles.*
 ∠a 2|2 ∠d, ∠b 2|2 ∠def, ∠c 2|2 ∠dfe.
 
-*Prepar.*
+#### Prepar.
 
 23.1 | ∠feg 2|2 ∠b, ∠efg 2|2 ∠c.

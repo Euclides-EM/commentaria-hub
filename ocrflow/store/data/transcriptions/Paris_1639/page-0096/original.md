@@ -2,19 +2,19 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 a *eſt* —— D.
 b *eſt* △ D.
 c *eſt* ∠ D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ◊fl 2|2 △b,
 fh 2|2 a,
 ∠mfh 2|2 ∠c.
 
-*Conſtr.*
+#### Conſtr.
 
 42.1 | ◊fd 2|2 △b, / ∠gfe 2|2 ∠c,
 2.p.1 | gfh *eſt* ——,
@@ -25,7 +25,7 @@ fh 2|2 a,
 31.1 | kl == gh,
 ſymp. | ◊fhlm *eſt le req.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.concl. conſtr. | fh 2|2 a,
 15.1 | ∠mfh 2|2 ∠gfe,

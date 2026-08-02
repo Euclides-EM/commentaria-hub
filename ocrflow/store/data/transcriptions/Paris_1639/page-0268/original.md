@@ -6,16 +6,16 @@ Sur vne ligne droicte donnée, descrire vne figure rectiligne semblable, & sembl
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 cefd *eſt rectiligne* D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 abhg *ſml.* cefd, ab *homolog.* cd.
 
-*Conſtruction.*
+#### Conſtruction.
 
 Soit premierement reduict le rectiligne donné en triangles, tirant des lignes droictes de l'vn de ses angles à tous les autres, comme icy la ligne C F, puis la construction du requis se fera ainsi.
 
@@ -26,7 +26,7 @@ Soit premierement reduict le rectiligne donné en triangles, tirant des lignes d
 23.1 | ∠hag 2|2 ∠fce.
 ſymp. | abhg *ſml.* cefd.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ∠b 2|2 ∠d,
 conſtr. | ∠bah 2|2 ∠dcf,

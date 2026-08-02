@@ -1,10 +1,10 @@
-<!-- # DE LA TRIGONOMETRIE. -->
+# DE LA TRIGONOMETRIE.
 
 AV 6 chapitre de la Trigonometrie, nous auons demonstré trois theoremes pour l'intelligence du calcul des triangles rectilignes, & donné en suite les exemples aux 4, 5, & 6 propositions. Mais icy nous mettrons les mesmes exemples distinguez en trois regles, en sorte que par le moyen d'icelles, sans l'intelligence de ces trois theoremes, on pourra resoudre toutes sortes de triangles rectilignes.
 
-*Regle des costez & angles opposez.*
+### Regle des costez & angles opposez.
 
-*Exemple 1.*
+### Exemple 1.
 
 Estant donnez deux angles d'vn triangle & vn costé, trouuer le troisiesme angle, & les deux autres costez.
 

@@ -5,13 +5,13 @@
 ∠ecb 2|2 ∠edc,
 ∠eca 2|2 ∠efc.
 
-*Preparation.*
+#### Preparation.
 
 11.1 | cd ⊥ ab,
 arbitr. | • f *eſt en* ∩cfe,
 1.p.1 | cf,fe,ed *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 19.3 | cd *eſt diametre*,
 31.3 | ∠ced *eſt* ┘,
@@ -32,15 +32,15 @@ Sur vne ligne droicte donnée, descrire vn segment de cercle, lequel reçoiue vn
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D. c *eſt* ∠D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ⌓ aieb *capable.* ∠c.
 
-*Conſtr.*
+#### Conſtr.
 
 23.1 | ∠bad 2|2 ∠c,
 11.1 | ae ⊥ hd,

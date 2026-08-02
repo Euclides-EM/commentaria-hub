@@ -6,19 +6,19 @@ Si deux triangles ont vn angle égal à vn angle, & à l'entour d'vn autre angle
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc & def *ſnt* △,
 ∠a 2|2 ∠d,
 ab π bc 2|2 de π ef.
 ∠c *eſt de meſme eſpece que* ∠f. α
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 △abc & △def *ſnt equiangles.*
 ∠abc 2|2 ∠e, ∠c 2|2 ∠f.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ∠abg 2|2 ∠e,
 hyp. | ∠a 2|2 ∠d,

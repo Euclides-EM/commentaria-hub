@@ -6,15 +6,15 @@
 8.1 | ∠afe 2|2 ∠cfe,
 1.concl. 10.d.1 | ef ⊥ ac.
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 ef ⊥ ac. α
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 af 2|2 fc.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.12.a.1 | ∠efa 2|2 ∠efc,
 5.1 | ∠eac 2|2 ∠eca,
@@ -31,11 +31,11 @@ Si au cercle deux lignes se couppent l'vne l'autre, n'estant point menées par l
 
 *[Figure]*
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 eacd *eſt* ⊙,
 af 2|2 fb.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 cf n̄. *eſt* 2|2 fd.

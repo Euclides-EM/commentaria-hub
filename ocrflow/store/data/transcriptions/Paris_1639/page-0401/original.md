@@ -1,6 +1,6 @@
 <!-- # DES FORTIFICATIONS. -->
 
-*Methode de fortifier selon Errard.*
+### Methode de fortifier selon Errard.
 
 Errard veut qu'vne fortification reguliere aye les cinq conditions suiuantes.
 
@@ -14,6 +14,6 @@ Errard veut qu'vne fortification reguliere aye les cinq conditions suiuantes.
 
 5. Que le fossé soit plus estroit de 4 toises à l'opposite des espaules, que vis à vis des angles flanquez, où il veut qu'il aye la forme ronde, afin que le boulet du canon bricolant contre cette rondeur, puisse donner sur les ennemis lors qu'ils viendront à l'assaut par l'autre face du bastion, qui ne se peut voir d'iceluy flanc.
 
-*La construction se fera ainsi.*
+### La construction se fera ainsi.
 
 Descriuez le cercle ABÇEV, de telle grandeur que vous voudrez, & le diuisez en autant de parties égales qu'il y doit auoir de bastions en la fortification : puis ayant tiré du centre A aux poincts des diuisions les semidiametres AB, AC, Ab, &c. pour faire l'angle ABV égal à la moitié de l'angle flanqué, à sçauoir de 45 deg. s'il y a plus de cinq bastions, comme en cet exemple, continuez BA directement iusques à la circonference E, puis diuisant le demy-cercle BVE en deux parties égales en V, tirant BV, vous au-

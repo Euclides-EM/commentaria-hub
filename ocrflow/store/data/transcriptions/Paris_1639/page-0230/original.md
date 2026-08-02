@@ -4,16 +4,16 @@ grande raison à la seconde, que la cinquiesme à la sixiesme.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 a π b 2|2 c π d,
 c π d 3|2 e π f.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 a π b 3|2 e π f.
 
-*Prepar.*
+#### Prepar.
 
 | g *multipl..* | a,
 3.1 | h *multipl..* | c,
@@ -22,7 +22,7 @@ a π b 3|2 e π f.
 3.1 | l *multipl..* | d,
 | m *multipl..* | f,
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | h 3|2 l,
 c.6.d.5 | g 3|2 k, α

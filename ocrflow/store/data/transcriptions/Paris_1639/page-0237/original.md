@@ -6,15 +6,15 @@ Si le tout est au tout, comme le retranché au retranché; le reste sera aussi a
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab π de 2|2 ac π df, α
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 cb π fe 2|2 ab π de.
 
-*Demonſtration.*
+#### Demonſtration.
 
 hyp. | ab π de 2|2 ac π df,
 16.5 | ab π ac 2|2 de π df,
@@ -26,15 +26,15 @@ concl. 16.5 | cb π fe 2|2 ac π df,
 
 D'icy sera facile à demonstrer la raison conuerse.
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 ab π cb 2|2 de π fe.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ab π ac 2|2 de π df.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ab π cb 2|2 de π fe,
 17.5 | ac π cb 2|2 df π fe,

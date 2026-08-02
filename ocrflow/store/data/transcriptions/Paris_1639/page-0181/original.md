@@ -5,11 +5,11 @@
 3.p.1 | fa *eſt* ——,
 ſymp. | ⊙fabc *eſt le req.*
 
-*Preparation.*
+#### Preparation.
 
 1.p.1. | fb, fc *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ad 2|2 db,
 fd *eſt commun.*
@@ -34,6 +34,6 @@ Par la mesme methode on pourra descrire vn cercle, qui passe par trois poincts d
 
 Dans vn cercle donné, inscrire vn quarré.
 
-*Hypoth.*
+#### Hypoth.
 
 eabcd *eſt* ⊙ D.

@@ -1,6 +1,6 @@
 <!-- # PROLEGOMENES. -->
 
-*Des principes des Mathematiques.*
+#### Des principes des Mathematiques.
 
 LEs principes sont les sources & origines de toute cognoissance, & ne reçoiuent point de preuue, mais ils sont les fondemens de toutes preuues : Il y en a de trois genres aux Mathematiques.
 

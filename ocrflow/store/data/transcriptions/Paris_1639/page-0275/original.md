@@ -9,15 +9,15 @@ c.8.6 | ab π be 2|2 be π bd, ε
 ε.17.6 | □.be 2|2 ▭.abd. κ
 3 concl. 1.a.f | □.ab π ▭.abd 2|2 ▭.abd π □.bd,
 
-*Coroll. 1.*
+#### Coroll. 1.
 
 βδκ | □.de 2|2 ▭.adb: □.ae 2|2 ▭.bad: □.be 2|2 ▭.abd.
 
-*Coroll. 2.*
+#### Coroll. 2.
 
 ▭.ab, de 2|2 ▭.ae, eb.
 
-*Demonſtr.*
+#### Demonſtr.
 
 8.6 | △abe *ſml.* △edb,
 4.6 | ba π ae 2|2 be π ed,
@@ -29,7 +29,7 @@ Les parallelogrammes equiangles, son l'vn à l'autre en raison composée de cell
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ◊ac *equiang.* ◊cf,
 ∠bcd 2|2 ∠ecg.

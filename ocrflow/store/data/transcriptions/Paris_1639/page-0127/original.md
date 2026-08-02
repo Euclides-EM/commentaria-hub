@@ -2,22 +2,22 @@
 
 quarrez des costez qui contiennent l'angle obtus, de deux fois le rectangle contenu sous l'vn des costez qui sont à l'entour de l'angle obtus, sçauoir celuy, sur lequel estant prolongé, tombe la perpendiculaire, & de la ligne prise au dehors entre la perpendiculaire & l'angle obtus.
 
-*Hypoth.*
+#### Hypoth.
 
 *[Figure]*
 
 ∠abc 3|2 ┘.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | cbd *eſt* ——.
 12.1 | ad ⊥ cd. α
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 □.ac 2|2 □.ab + □.bc + 2▭.cbd.
 
-*Demonſtr.*
+#### Demonſtr.
 
 2.c.17.1 | *perpendic.* ad *tombe du coſté de* d,
 α.47.1 | □.ac 2|2 □.ad + □.cd, β

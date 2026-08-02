@@ -10,12 +10,12 @@
 
 *[Figure]*
 
-*Corollaire 1.*
+#### Corollaire 1.
 
 hyp. | ∠dab *eſt* ┘,
 1.c.22.3 | ∠dcb *eſt* ┘.
 
-*Corollaire 2.*
+#### Corollaire 2.
 
 hyp. | ∠abc 2|3 ┘,
 2.c.22.3 | ∠adc 3|2 ┘.
@@ -26,17 +26,17 @@ Si vn costé d'vn quadrilatere inscrit dans le cercle, est prolongé, l'angle ex
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 acbd *eſt* ⊙,
 acbd *eſt* 4∠ *en* ⊙,
 dae *eſt* ——.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ∠cae 2|2 ∠dbc.
 
-*Demonſtr.*
+#### Demonſtr.
 
 13.1 | ∠cae + ∠cad 2|2 2┘,
 22.3 | ∠dbc + ∠cad 2|2 2┘,

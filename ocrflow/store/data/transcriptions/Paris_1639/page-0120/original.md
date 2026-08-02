@@ -6,17 +6,17 @@ Si vne ligne droicte est couppée en deux parties égales, & en deux parties in�
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* ——,
 ac 2|2 cb,
 ad 3|2 db.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 □.ad / + □.db 2|2 2□.ac, / + 2□.cd.
 
-*Preparation.*
+#### Preparation.
 
 11.1 1.nota | ce ⊥ ab,
 3.1 | ce 2|2 ca Ⅱ cb,
@@ -24,7 +24,7 @@ ad 3|2 db.
 31.1 | df == ce, fg == ab,
 1.p.1 | af *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ac 2|2 ce. α
 conſtr. | ∠ace *eſt* ┘,

@@ -6,7 +6,7 @@
 1.concl. conſtr. | 15∠ eibgh *eſt equilateral*,
 2 concl. 27.3 | 15∠ eibga *eſt equiangle.*
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 *[Figure]*
 

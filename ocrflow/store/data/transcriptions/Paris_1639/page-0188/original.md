@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 *Voyez la figure precedente.*
 
@@ -16,17 +16,17 @@ hyp. | cd Ⅱ cb *eſt* 2,
 
 A l'entour d'vn cercle donné, descrire vn pentagone, equilateral & equiangle.
 
-*Hypoth.*
+#### Hypoth.
 
 fabcde *eſt* ⊙ D.
 
-*Requis à faire:*
+#### Requis à faire:
 
 *circonſcrire au* ⊙abcde *le* 5∠ ghikl *equilat. & equiangle.*
 
 *[Figure]*
 
-*Conſtr.*
+#### Conſtr.
 
 11.1 | 5∠abcde *eſt inſcrit au* ⊙fabd,
 1.p.1 | fa, fb, fc, fd, fe *ſnt* ——,

@@ -11,15 +11,15 @@ A deux lignes droictes données, trouuer la troisiesme proportionelle.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab & bc *ſnt* —— D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 ab π bc 2|2 bc Ⅱ ad π de.
 
-*Conſtr.*
+#### Conſtr.
 
 3.1 | abc *eſt* ——.
 | ∠cae *eſt arbitr.*
@@ -28,7 +28,7 @@ ab π bc 2|2 bc Ⅱ ad π de.
 31.1 | ce == bd,
 ſymp. | de *eſt le requis.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 concl. α.4.6 | ab π bc,
 | ad Ⅱ bc π de.
@@ -37,10 +37,10 @@ concl. α.4.6 | ab π bc,
 
 A trois lignes droictes données, trouuer la quatriesme proportionelle.
 
-*Hypoth.*
+#### Hypoth.
 
 a, b, c *ſnt* —— D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 a π b 2|2 c π gh,

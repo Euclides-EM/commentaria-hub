@@ -1,12 +1,12 @@
 <!-- # D'EVCLIDE, LIV. VI. -->
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ◊eg, ◊hf, ◊bd *ſnt ſml.* đe.
 
 *[Figure]*
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ef == bc, & gih == ab,
 15.1 | ∠eig 2|2 ∠hif.
@@ -23,11 +23,11 @@ Descrire vne figure rectiligne, semblable à vne figure rectiligne donnée, laqu
 
 Notez qu'en cette demonstration & aux suiuantes, ce mot *rectili.* signifie *rectiligne*.
 
-*Hypoth.*
+#### Hypoth.
 
 abedc & f *ſnt* D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 *rectili.* p *ſml. rectili.* abedc, & 2|2 *rectili.* f.
 

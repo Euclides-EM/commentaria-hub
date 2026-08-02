@@ -2,7 +2,7 @@
 
 *[Figure]*
 
-*Prepar.*
+#### Prepar.
 
 g *eſt* • *arbitr. en* fb,
 1.p.1 | gc, gd, ge *ſnt* ——,
@@ -10,14 +10,14 @@ g *eſt* • *arbitr. en* fb,
 23.1 | ∠gfh 2|2 ∠gfe,
 1.p.1 | gh *eſt* ——.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ga 3|2 gc,
 gc 3|2 gd,
 ge 3|2 gb,
 gh, ge, gd n̄ *ſnt* 2|2 đe.
 
-*Demonſtr.*
+#### Demonſtr.
 
 15.d.1 | fa 2|2 fc,
 gf *commun. add.*

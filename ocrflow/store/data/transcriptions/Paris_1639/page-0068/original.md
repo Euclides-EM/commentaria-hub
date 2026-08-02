@@ -2,14 +2,14 @@
 
 *[Figure]*
 
-*Preparation pour la premiere partie.*
+#### Preparation pour la premiere partie.
 
 10.1 | ae 2|2 ec,
 1.&2p.1 | bef *eſt* ——,
 3.1 | ef 2|2 be,
 1.p.1 | cf *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 *aux* △;aeb & cef
 conſtr. | ce 2|2 ea,
@@ -19,7 +19,7 @@ conſtr. | ef 2|2 be,
 9.a.1 | ∠ecd 3|2 ∠ecf,
 1.concl. 1.a.e | ∠ecd 2|2 ∠eab.
 
-*Prepar. pour la 2. partie.*
+#### Prepar. pour la 2. partie.
 
 2.p.1 | acg *eſt* ——,
 10.1 | bh 2|2 hc,
@@ -27,7 +27,7 @@ conſtr. | ef 2|2 be,
 3.1 | hi 2|2 ah,
 2.p.1 | ci *eſt* ——,
 
-*Demonſtr.*
+#### Demonſtr.
 
 *aux* △;ahb & chi
 conſtr. | ch 2|2 hb,
@@ -43,7 +43,7 @@ conſtr. | hi 2|2 ha,
 
 D'vn poinct sur vne mesme ligne droicte, on ne peut mener plus de deux lignes droictes égales entr'elles.
 
-*Hypoth.*
+#### Hypoth.
 
 c *eſt* • D.
 ab *eſt* —— D.

@@ -4,18 +4,18 @@ blables de celuy qui est appliqué à la moitié, & de celuy qui doit defaillir 
 
 *[Figure]*
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 ab *eſt* —— D.
 c *eſt rectili.* D.
 d *eſt* ◊ D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 ◊ap 2|2 *rectili.* c,
 ◊zr *ſml.* ◊d.
 
-*Conſtr.*
+#### Conſtr.
 
 10.1 | ae 2|2 eb, α
 18.1 | ◊eg *ſml.* ◊d,
@@ -31,7 +31,7 @@ c.45.1 | ◊eg 2|2 c + i, β
 31.1 | zpq == ef,
 ſymp. | ◊ap *eſt le requis.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. 24.6 | ◊;d, eg, oq, zr, nt *ſnt ſml.* đe. δ
 βγcõſtr. | ◊eg 2|2 ◊nt + c,

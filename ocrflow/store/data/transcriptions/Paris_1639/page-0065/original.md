@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-*Demonſt.*
+#### Demonſt.
 
 ſuppoſ. | cbe *eſt* ——,
 13.1 | ∠abe + ∠abc 2|2 2┘. α
@@ -18,16 +18,16 @@ Les quatre angles que font deux lignes se couppans l'vne l'autre, se distinguent
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ef & gh *ſnt* —— ;
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ∠d 2|2 ∠b,
 ∠a 2|2 ∠c.
 
-*Demonſtr.*
+#### Demonſtr.
 
 13.1 | ∠d + ∠a 2|2 2┘. α
 13.1 | ∠b + ∠a 2|2 2┘. α

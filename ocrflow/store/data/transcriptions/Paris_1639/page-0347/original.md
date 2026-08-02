@@ -9,7 +9,7 @@
 
 De 9 & 10 i'oste 6, & reste 3 & 4, que ie pose vis à vis du zero ; & la difference du zero à 6 est 6, que ie mets vis à vis de 9 & 10 : puis i'adiouste 3 & 4 ensemble, & trouue 7 pour le zero, qui represente le tare, qui est vne matiere de nulle valeur, estant meslée auec de l'argent. Partant ie conclus, qu'il faut mettre 7 marcs de tare sur 12 marcs d'argent, qui se trouuent en prenant 6 marcs de chaque sorte.
 
-*Exemple 2.*
+#### Exemple 2.
 
 Vn espicier veut employer deux escus ou 120 ſ. en trois sortes d'espiceries, qui sont à 4 sols, 6 sols, & 14 sols la liure. Pour auoir 12 liures en tout, sçauoir combien il deura prendre de chaque sorte ?
 

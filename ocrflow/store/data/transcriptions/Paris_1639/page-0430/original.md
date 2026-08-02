@@ -12,6 +12,6 @@ Ayant esté instruict de toutes ces choses, & conferant nos forces auec celles d
 
 Ce faict, il faut enuironner & serrer la place, s'y retranchant tout à l'entour, & se fortifiant tant contre le secours, que contre les sorties de la ville, en sorte que personne ne puisse entrer ny sortir, faisant emprisonnner tous ceux qui leur porteront viures ou aduis : & faudra faire placer le camp au lieu le plus asseuré des traicts de la ville, au meilleur air, & où il y aura plus de commodité d'eaux, & plus belle situation pour faire la place d'armes, ordonnant les quartiers de l'armée.
 
-*Maximes de l'art d'assaillir.*
+### Maximes de l'art d'assaillir.
 
 1.  Quand le front des assaillans est égal, ou plus grand que celuy des defendans, ceux-cy doiuent estre emportez & vaincus de ceux-là.

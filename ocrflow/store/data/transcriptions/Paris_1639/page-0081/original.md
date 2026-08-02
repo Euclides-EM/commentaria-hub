@@ -2,21 +2,21 @@
 
 opposé de mesme part ; & les deux internes de mesme part, égaux à deux droicts.
 
-*Hypoth.*
+#### Hypoth.
 
 ab == cd.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ∠dhg 2|2 ∠agh,
 ∠bge 2|2 ∠dhe,
 ∠agh + ∠chg 2|2 2┘.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ∠agh + ∠chg n̄. *ſnt* 2|2 2┘
 13.a.1 | ab n̄. *eſt* == cd,
-*contr. hypoth.*
+#### contr. hypoth.
 1.concl. 21.a.1 | ∠agh + ∠chg 2|2 2┘
 13.1 | ∠dhg + ∠chg 2|2 2┘
 ∠chg *comm. ſubtr.*
@@ -29,16 +29,16 @@ ab == cd.
 
 Si l'angle externe est égal à l'interne & opposé de mesme part, la ligne tombant sur lignes droictes paralleles est droicte.
 
-*Hypoth.*
+#### Hypoth.
 
 ab == cd,
 ∠egb 2|2 ∠ghd.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 egh *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠egb 2|2 ∠ghd,
 ∠bgh *commun. add.*

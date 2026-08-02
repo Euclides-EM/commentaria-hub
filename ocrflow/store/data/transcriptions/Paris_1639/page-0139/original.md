@@ -1,10 +1,10 @@
 <!-- # D'EVCLIDE, LIV. III. -->
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | fe *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | cf 2|2 fd,
 3.3 | ∠efd *eſt* ┘,
@@ -20,15 +20,15 @@ Si deux cercles se couppent l'vn l'autre, ils n'auront pas le mesme centre.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 bac & bdc *ſnt* ⊙.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 e n̄. *eſt centr. du* ⊙bac, & *du* ⊙bdc.
 
-*Demonſtration.*
+#### Demonſtration.
 
 ſuppoſ. | e *eſt centr. du* ⊙bac, & *du* ⊙bdc.
 1.p.1 | eda *eſt* ——,

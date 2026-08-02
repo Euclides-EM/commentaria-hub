@@ -1,15 +1,15 @@
 <!-- # LES ELEMENTS -->
 
-*Req.à demonſtr.*
+#### Req.à demonſtr.
 
 ∩abc 2|2 ∩def,
 ∪ aic 2|2 ∪ dkf.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1. | ga,gc,dh,hf *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.8.1 | ∠g 2|2 ∠h,
 1.concl. 26.3 | ∪ aic 2|2 ∪ dkf,
@@ -21,20 +21,20 @@ Aux cercles égaux, les circonferences égales, soustendent lignes droictes éga
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 gabc & hdef *ſnt* ⊙ 2|2 đe. α
 ∩abc 2|2 ∩def.
 
-*Req.à demonſtr.*
+#### Req.à demonſtr.
 
 ac 2|2 df.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | ga,gc,hd,hf *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.27.1 | ∠g 2|2 ∠h,
 concl. 4.1 | ac 2|2 df.
@@ -45,7 +45,7 @@ En cette proposition, & aux trois precedentes, ce qui est dit des cercles égaux
 
 Coupper en deux également vne circonference donnée.
 
-*Hypoth.*
+#### Hypoth.
 
 acb *eſt* ∩ D.
 

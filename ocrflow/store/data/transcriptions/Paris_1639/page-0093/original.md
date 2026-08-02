@@ -2,11 +2,11 @@
 
 *[Figure]*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ad == bc.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | af == bc,
 1.p.1 | cf *eſt* ——,
@@ -22,16 +22,16 @@ Les triangles égaux constituez sur bases égales, & de mesme part, sont entre m
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 △bca 2|2 △efd,
 *baſe* bc 2|2 *baſe* ef.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ad == bf.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ah == bf,
 1.p.1 | fh *eſt* ——,

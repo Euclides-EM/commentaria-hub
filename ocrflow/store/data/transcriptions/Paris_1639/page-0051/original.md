@@ -6,21 +6,21 @@ Deux lignes droictes inégales estans données, oster de la plus grande vne lign
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 a & bc *ſnt* —— D.
 
-*Req. à faire.*
+#### Req. à faire.
 
 be 2|2 a.
 
-*Conſtr.*
+#### Conſtr.
 
 2.1. | bd 2|2 a,
 3.p.1 | bde *eſt* ⊙, α
 ſymp. | be 2|2 a.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.15 d.1 | be 2|2 bd,
 conſtr. | a 2|2 bd,

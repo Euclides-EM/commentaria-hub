@@ -4,15 +4,15 @@ le reste sera autant multiple du reste, comme la toute l'est de la toute.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *multipl..* cd 2|2 ae *multipl..* cf.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 eb *multipl..* fd 2|2 ab *multipl..* cd, Ⅱ ae *multipl..* cf.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ga *multipl..* fd 2|2 ab *multipl..* cd, Ⅱ ae *multipl..* cf,
 1.5 | ge *multipl..* cd 2|2 ae *multipl..* cf,

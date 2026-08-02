@@ -4,7 +4,7 @@ KI, par la 24. du 6. sont semblables entr'eux, & faut demonstrer que le parallel
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ac 2|2 cb, α
 ◊acdh *ſml.* ◊cbed,
@@ -12,11 +12,11 @@ cb *eſt diametr.*
 κ *en* ab *eſt arbitr.*
 κgn == be, fgi == ab.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ◊acdh 3|2 ◊aκgf.
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.concl. 24.6 | ◊κi *ſml.* ◊ce,
 c.43.1 | ◊κe 2|2 ◊ci,

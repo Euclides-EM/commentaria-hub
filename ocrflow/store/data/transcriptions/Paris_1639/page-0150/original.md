@@ -4,13 +4,13 @@
 
 ∠iad 2|3 ∠ead.
 
-*Preparation.*
+#### Preparation.
 
 arbitr. | •f *eſt en* ac,
 1.p.1 | bf *eſt* ——,
 12.1 | be ⊥ al.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠baf *eſt* ┘,
 1.c.17.1 | ∠bfa 2|3 ┘,

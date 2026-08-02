@@ -5,7 +5,7 @@
 1.p.1 | ab, bc, de, ea *ſnt* ——,
 ſymp. | 5∠abcde *eſt le requis.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.7.a.1 | ∠cad, ∠cdb, ∠bda, ∠dce, ∠eca *ſnt* 2|2 đe.
 26.3 | ∩cd, ∩de, ∩ea, ∩ab, ∩bc *ſnt* 2|2 đe.
@@ -17,7 +17,7 @@
 
 D'icy il s'ensuit, que l'angle du pentagone equilateral & equiangle, est les trois cinquiesmes de deux droits ou les six cinquiesmes d'vn droict.
 
-*Conſtruction de la practique.*
+#### Conſtruction de la practique.
 
 *[Figure]*
 

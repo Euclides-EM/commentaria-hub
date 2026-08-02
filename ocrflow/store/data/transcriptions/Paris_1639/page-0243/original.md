@@ -1,16 +1,16 @@
 <!-- # D'EVCLIDE, LIV. V. -->
 
-*Hypoth.*
+#### Hypoth.
 
 a π b 2|2 g π h, α
 b π c 2|2 f π g, α
 c π d 2|2 e π f.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 a π d 2|2 e π h.
 
-*Demonſtr.*
+#### Demonſtr.
 
 α.23.5 | a π c 2|2 f π h, β
 hyp. | c π d 2|2 e π f,
@@ -26,17 +26,17 @@ Des raisons égales les mesmes parties sont égales entr'elles.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 a π bh 2|2 bh π c,
 d π e 2|2 e π f,
 a π c 2|2 d π f.
 
-*Requis à demonſtr.*
+#### Requis à demonſtr.
 
 a π bh 2|2 d π e.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | a π bl 2|2 d π e, α
 hyp. | a π c 2|2 d π f,

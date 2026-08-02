@@ -2,25 +2,25 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 △abc & △dce *ſnt equiang.*
 ∠b 2|2 ∠dce,
 ∠acb 2|2 ∠e,
 ∠bac 2|2 ∠cde.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab π bc 2|2 dc π ce,
 bc π ca 2|2 ce π ed,
 ab π ac 2|2 dc π de.
 
-*Preparation.*
+#### Preparation.
 
 3.1 | bce *eſt* ——,
 2.p.1 | baf & edf *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠b 2|2 ∠ecd,
 29.1 | bf == cd. α

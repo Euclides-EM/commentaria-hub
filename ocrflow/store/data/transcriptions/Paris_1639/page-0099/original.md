@@ -6,16 +6,16 @@ Aux triangles rectangles, le quarré du costé qui soustient l'angle droict, est
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 *au* △abc
 ∠bac *eſt* ┘,
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 □.bc 2|2 □.ab + □.ac.
 
-*Preparation.*
+#### Preparation.
 
 46.1 | be *eſt* □.bc,
 46.1 | af *eſt* □.ab,
@@ -23,7 +23,7 @@ Aux triangles rectangles, le quarré du costé qui soustient l'angle droict, est
 31.1 | am == bd Ⅱ ce,
 1.p.1 | ad, ae, bi, cf *ſnt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠bac *eſt* ┘,
 conſtr. | ∠bag *eſt* ┘,

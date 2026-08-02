@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ad 2|2 ab,
 5.1 | ∠abd 2|2 ∠adb,
@@ -14,34 +14,34 @@ De tout triangle, le plus grand angle est soustenu du plus grand costé.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ∠b 3|2 ∠c.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ac 3|2 ab.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ac 2|2 ab,
 5.1 | ∠b 2|2 ∠c,
-*contr. hypoth.*
+#### contr. hypoth.
 ſuppoſ. | ac 2|3 ab,
 18.1 | ∠b 2|3 ∠c,
-*contr. hypoth.*
+#### contr. hypoth.
 concl. 21.a.1 | ac 3|2 ab.
 
 ### COROLLAIRE.
 
 Il s'ensuit de cette proposition, que si de quelconque poinct on tire sur vne ligne droicte tant de lignes droictes qu'on voudra, l'vne desquelles soit perpendiculaire, icelle perpendiculaire sera la plus petite de toutes.
 
-*Hypoth.*
+#### Hypoth.
 
 ad ⊥ bc,
 
 *[Figure]*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ad 2|3 ab Ⅱ ac.

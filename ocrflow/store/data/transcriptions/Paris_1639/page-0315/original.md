@@ -8,7 +8,7 @@ en estofes de 8 liures 10 sols l'aulne, encore que les 8 lt. 10 ſ. se reduisent
 ——
 2 9′ [3 4 4 24′/
 
-DES FRACTIONS *ou nombres rompus.*
+## DES FRACTIONS *ou nombres rompus.*
 
 La fraction ou nombre rompu est vne ou plusieurs parties de l'entier diuisé en plusieurs parties égales.
 

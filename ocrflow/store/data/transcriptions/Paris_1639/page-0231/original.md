@@ -6,49 +6,49 @@ Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme;
 
 *[Figure]*
 
-*Hypoth. commun.*
+#### Hypoth. commun.
 
 a π b 2|2 c π d,
 
-*Hypoth. 1.*
+#### Hypoth. 1.
 
 a 3|2 c, α
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 b 3|2 d.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | c π d 2|2 a π b,
 α.8.5 | a π b 3|2 c π b,
 13.5 | c π d 3|2 c π b,
 1.concl. 10.5 | b 3|2 d.
 
-*Hypoth. 2.*
+#### Hypoth. 2.
 
 a 2|2 c, β
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 b 2|2 d.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | c π d 2|2 a π b,
 β.7.5 | c π b 2|2 a π b,
 11.5 | c π d 2|2 c π b,
 2 concl. 9.5 | b 2|2 d.
 
-*Hypoth. 3.*
+#### Hypoth. 3.
 
 a 2|3 c. γ
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 b 2|3 d.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | c π d 2|2 a π b,
 γ.8.5 | a π b 2|3 c π b,

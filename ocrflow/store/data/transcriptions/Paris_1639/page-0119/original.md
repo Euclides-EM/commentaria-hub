@@ -2,22 +2,22 @@
 
 D'où s'ensuit que le rectangle des parties inégales AB & BD est égal au rectangle de AB & BC : que la difference des parties AB & BD est AC, & son quarré OI : & que AE est le quarré de la toute AD. Et par consequent ce scholie ne differe de la 8. proposition que de nom : & se peut aussi demonstrer comme s'ensuit.
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 ab *eſt* ——: ad *eſt* 3|2 db:
 ad~db Ⅱ af *eſt* fd,
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 4▭.adb + □.fd 2|2 □.ab.
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 aeb *eſt la figure du ſcholie de la 6. du 2.*
 
-*Demonſtration.*
+#### Demonſtration.
 
 ſ.5.2 | 4□.ed 2|2 4▭.adb. α
 1.ſ.4.2 | □.ab 2|2 4□.ce. β
@@ -26,7 +26,7 @@ aeb *eſt la figure du ſcholie de la 6. du 2.*
 α.1.a.f | 4□.ed + □.fd 2|2 4▭.adb + □.fd,
 concl. β.1.a.1 | □.ab 2|2 4▭.adb + □.fd.
 
-*Explication par nombres.*
+#### Explication par nombres.
 
 hyp. | ad *eſt* 7, α
 hyp. | db *eſt* 3, β

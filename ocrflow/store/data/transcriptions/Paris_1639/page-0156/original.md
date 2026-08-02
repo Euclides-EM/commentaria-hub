@@ -2,19 +2,19 @@
 
 *[Figure]*
 
-*Hypotheſe.*
+#### Hypotheſe.
 
 dabc *eſt* ⊙.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ∠bdc 2|2 2∠bac.
 
-*Preparation.*
+#### Preparation.
 
 2.p.1 | ade *eſt* ——.
 
-*Demonſtr.du 1.cas.*
+#### Demonſtr.du 1.cas.
 
 32.1 | ∠bde 2|2 ∠dab / + ∠dba,
 5.1 | ∠dab 2|2 dba,
@@ -22,13 +22,13 @@ dabc *eſt* ⊙.
 d.α | ∠edc 2|2 2∠dac,
 concl. 20.a.b | ∠bdc 2|2 2∠bac.
 
-*Demonſtr.du 2.cas.*
+#### Demonſtr.du 2.cas.
 
 32.1 | ∠bdc 2|2 ∠a + ∠c,
 5.1 | ∠a 2|2 ∠c,
 concl. 1.a.f | ∠bdc 2|2 2∠bac. β
 
-*Demonſtr.du 3.cas.*
+#### Demonſtr.du 3.cas.
 
 d.β | ∠edc 2|2 2∠dac,
 d.β | ∠edb 2|2 2∠dab,

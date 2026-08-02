@@ -2,11 +2,11 @@
 
 ſymp. | 5∠ghikl *eſt le requis.*
 
-*Prepar.*
+#### Prepar.
 
 1.p.1 | fg, fh, fi, fk, fl *ſnt* ——,
 
-*Demonſtr.*
+#### Demonſtr.
 
 1.concl. c.16.3 | gh, hi, ik, kl, lg *touchent le* ⊙abcde,
 2.c.36 3 | ga 2|2 ge, ha 2|2 hb, ib 2|2 ic, α

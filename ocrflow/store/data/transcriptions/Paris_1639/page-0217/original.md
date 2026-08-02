@@ -10,18 +10,18 @@ a.5 | a *multipl..* b 2|2 c *multipl..* d.
 
 S'il y a tant de grandeurs qu'on voudra equimultiples d'autant d'autres grandeurs, chacune de la sienne; comme l'vne des grandeurs sera multiple d'vne; ainsi les toutes seront multiples des toutes.
 
-*Hypoth.*
+#### Hypoth.
 
 ab *multipl..* | e,
 cd *multipl..* | f. α
 
 *[Figure]*
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ab *multipl..* e 2|2 ab + cd *multipl..* e + f.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp, | e, ag, gh, hb *ſnt* 2|2 đe.
 hyp. | f, ci, ik, kd *ſnt* 2|2 đe.

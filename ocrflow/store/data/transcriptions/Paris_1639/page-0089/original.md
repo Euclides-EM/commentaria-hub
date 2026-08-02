@@ -2,16 +2,16 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ∠a 2|2 ∠c. α
 ∠b 2|2 ∠d. α
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 abcd *eſt* ◊.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſ.32.1 | ∠a + ∠b + ∠c + ∠d 2|2 2┘.
 α.2.a.1 | ∠a + ∠b 2|2 ∠c + ∠d,
@@ -25,21 +25,21 @@ concl. 35.d.1 | ac *eſt* ◊.
 
 En toute figure rectiligne si les costez sont en nombre pair, & qu'elle soit equilaterale & equiangle : les costez opposez seront paralleles entr'eux.
 
-*Hypoth.*
+#### Hypoth.
 
 abdf *eſt eſt rectili. equilat. & equiang.* α
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab == fe, bc == gf, &c.
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | be *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſ.32.a.1 | ∠abc + ∠c + ∠d + ∠def + ∠f + ∠g + ∠h + ∠a 2|2 12┘. β
 α.hyp. | ∠abc + ∠c + ∠d + ∠def 2|2 ∠f + ∠g + ∠h + ∠a,

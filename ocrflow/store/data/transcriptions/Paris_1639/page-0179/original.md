@@ -2,17 +2,17 @@
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 iacb *eſt* ⊙ D.
 def *eſt* △ D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 *circonſcrire au* ⊙abc *le* △,
 lmn *equiangle au* △efd.
 
-*Conſtr.*
+#### Conſtr.
 
 2.p.1 | gefh *eſt* ——,
 arbitr. | a *eſt* • *en la* ∩acb,
@@ -23,7 +23,7 @@ arbitr. | a *eſt* • *en la* ∩acb,
 11.1 | mn ⊥ ic, α
 ſymp. | △lmn *eſt le requis.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 21.d.1 | aibl *eſt* 4∠,
 α.ſ.32.1 | ∠aib + ∠l 2|2 2┘,
@@ -45,6 +45,6 @@ conſtr. | ∠bic 2|2 ∠dfh,
 
 Dans vn triangle donné descrire vn cercle.
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* △ D.

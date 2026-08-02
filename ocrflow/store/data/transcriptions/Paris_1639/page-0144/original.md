@@ -6,15 +6,15 @@ Vn cercle ne couppe pas vn cercle à plus de deux poincts.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 iakbl & iekfl *ſnt* ⊙.
 
-*Requis à demonſtr.*
+#### Requis à demonſtr.
 
 i, k, l, *ne ſont interſect.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | i, k, l, *ſnt interſect.*
 1.p.1 | ik & kl *ſnt* ——,
@@ -30,11 +30,11 @@ Si deux cercles se touchent l'vn l'autre au dedans, & qu'on prenne les centres d
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 gade & fabc *ſnt* ⊙,
 a *eſt* • *d'attouchement.*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 fga *eſt* ——.

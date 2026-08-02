@@ -4,18 +4,18 @@ qui tombent en la circonference concaue; la plus grande est celle qui passe par 
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 kbfh *eſt* ⊙,
 •a *eſt hors le* ⊙.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | aki, ah, ag, af *ſnt* ——,
 1.p.1 | kh, kg, kf / kc, kd, ke *ſnt* ——,
 23.1 | ∠akl 2|2 ∠akc.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ai 3|2 ah,
 ah 3|2 ag,

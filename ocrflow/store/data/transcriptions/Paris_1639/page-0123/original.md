@@ -1,10 +1,10 @@
 <!-- # D'EVCLIDE, LIV. II. -->
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 □.ad + □.bd 2|2 2□.ac + 2□.cd.
 
-*Preparation.*
+#### Preparation.
 
 11.1 1.nota | ec ⊥ ad,
 3.1 | ce 2|2 ac Ⅱ cb,
@@ -13,7 +13,7 @@
 1&2.p.1 | ebg *eſt* ——,
 1.p.1 | ag *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | ac 2|2 ce,
 conſtr. | ∠ace *eſt* ┘,

@@ -9,11 +9,11 @@ bc *commun.*
 
 Les costez & les angles opposez des figures ou espaces parallelogrammes, sont égaux entr'eux : & le diametre couppe iceux parallelogrammes en deux également.
 
-*Hypoth.*
+#### Hypoth.
 
 abdc *eſt* ◊.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ab 2|2 cd,
 ac 2|2 bd,
@@ -21,11 +21,11 @@ ac 2|2 bd,
 ∠abd 2|2 ∠acd,
 △abc 2|2 △cbd.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | bc *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 35.d.1 | ab == cd,
 29.1 | ∠abc 2|2 ∠bcd. α
@@ -42,11 +42,11 @@ bc *eſt commun.*
 
 Tout quadrilatere qui a les costez opposez égaux, est parallelogramme.
 
-*Hypoth.*
+#### Hypoth.
 
 ab 2|2 cd,
 ac 2|2 bd.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ad *eſt* ◊.

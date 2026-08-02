@@ -1,6 +1,6 @@
 <!-- # DES FORTIFICATIONS. -->
 
-*Considerations que l'on doit auoir auparauant que commencer la forteresse.*
+### Considerations que l'on doit auoir auparauant que commencer la forteresse.
 
 Fortifiant en vne montagne qui n'est point dominée, l'on fera les murailles sur les bords des precipices, s'il y en a, n'y laissant aucune place au dehors où les ennemis se puissent loger : & faudra éleuer les courtines si hautes, que du haut d'icelles on puisse descouurir iusqu'au fond du vallon, ou bien il faudra tailler & aplanir la pante du vallon, afin que les pierres, & autres choses qu'on iettera de la forteresse, puissent voler & rouler librement tout le long d'icelle pante sur les ennemis.
 

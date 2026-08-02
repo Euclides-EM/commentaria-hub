@@ -6,16 +6,16 @@ Il s'ensuit aussi que si vne ligne droicte fait deux angles inégaux auec vne au
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ∠aed 2|3 ┘,
 a *eſt* • en ae.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ac n̄.eſt ⊥ cd.
 
-*Demonſtr.*
+#### Demonſtr.
 
 ſuppoſ. | ac ⊥ cd,
 10.d.1 | ∠ace *eſt* ┘,
@@ -33,16 +33,16 @@ De tout triangle, le plus grand costé soustient le plus grand angle.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 abc *eſt* △,
 ac 3|2 ab.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ∠abc 3|2 ∠acb.
 
-*Preparation.*
+#### Preparation.
 
 3.1 | ad 2|2 ab,
 1.p.1 | bd *eſt* ——.

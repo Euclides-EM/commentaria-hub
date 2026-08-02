@@ -2,7 +2,7 @@
 
 *[Figure]*
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.
 
 ∠abc *eſt* ┘,
 ∠cab 2|3 ┘,
@@ -10,7 +10,7 @@ cfb 3|2 ┘,
 ∠ *du* ⌓ cba 3|2 ┘,
 ∠ *du* ⌓ cbf 2|3 ┘.
 
-*Demonſtr.*
+#### Demonſtr.
 
 5.1 | ∠dba 2|2 ∠dab,
 5.1 | ∠dbc 2|2 ∠dcb,
@@ -24,7 +24,7 @@ acfb *eſt* 4∠,
 4 concl. 9.a.1 | ∠ *du* ⌓ cba 3|2 ┘,
 5.concl. 9.a.1 | ∠ *du* ⌓ cbf 2|3 ┘.
 
-*Scholie.*
+#### Scholie.
 
 hyp. | af 3|2 ab,
 9.a.1 | ∠acf 3|2 ∠acb.
@@ -33,11 +33,11 @@ hyp. | af 3|2 ab,
 
 Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene quelque ligne droicte au cercle, le couppant; les angles qu'elle fait auec l'attouchante seront égaux aux angles qui sont aux segments alternes.
 
-*Hypoth.*
+#### Hypoth.
 
 cfd *eſt* ⊙,
 ab *touche le* ⊙,
 c *eſt* • *d'attouchement*,
 ce *eſt* —— *arbitraire*.
 
-*Req. à demonſtr.*
+#### Req. à demonſtr.

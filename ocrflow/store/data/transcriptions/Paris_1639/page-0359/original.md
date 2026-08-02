@@ -10,7 +10,7 @@ Si le nombre proposé est vne fraction, il faudra extraire la racine de deux nom
 
 Mais si les deux nombres de la fraction n'ont point de racines, il la faudra reduire en fraction de la dixme, qui aye le nombre de ses accens pair, & la racine du nombre de la dixme sera la racine de la fraction proposée. Par exemple, soit à extraire la racine de 5/8, ie reduis cette fraction en dixme, adioustant des zero au numerateur, & diuisant par le denominateur 8, & trouue 625‴ au lieu de 5/8 : & parce que le nombre des accens de 625‴ est impair, ie le rends pair, en luy adioustant vn zero & vn accent, & de 6250⁗, qui vaut autant que 5/8, ou 625‴, tirant la racine quarrée, ie trouue 79″, ou 79/100, pour la racine de 5/8.
 
-DE LA PREVVE DE LA *racine quarrée.*
+## DE LA PREVVE DE LA *racine quarrée.*
 
 La vraye preuue de l'extraction de la racine quarrée se faict en multipliant la racine trouuée par soy-mesme, & adioustant auec le produict de la multiplication le reste de l'extraction s'il y en a : Car si ce produict auec le reste est égal au nombre proposé, il n'y aura point d'erreur en l'extraction. Par exemple, si la racine de 27 est 5, auec 2 de reste fera 27, qui est le nombre proposé.
 

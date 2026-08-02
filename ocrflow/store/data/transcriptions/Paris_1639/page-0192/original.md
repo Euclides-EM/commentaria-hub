@@ -10,15 +10,15 @@ Par la mesme methode en toute figure equilaterale & equiangle se descrira le cer
 
 A l'entour d'vn pentagone donné, equilateral & equiangle, descrire vn cercle.
 
-*Hypoth.*
+#### Hypoth.
 
 abcde *eſt* 5∠ *equilat. & equiangle.*
 
-*Req. à faire.*
+#### Req. à faire.
 
 *circonſcrire au* ⊙abcde *le* 5∠abcde.
 
-*Conſtruction.*
+#### Conſtruction.
 
 9.1 | ∠fab 2|2 ∠fae,
 9.1 | ∠fba 2|2 ∠fbc,
@@ -28,10 +28,10 @@ abcde *eſt* 5∠ *equilat. & equiangle.*
 
 *[Figure]*
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | fc, fd, fe *ſnt* ——,
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ∠eab, ∠abc, ∠bcd, ∠cde, ∠dea *ſnt* 2|2 đe.

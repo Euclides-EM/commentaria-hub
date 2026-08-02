@@ -10,19 +10,19 @@ Les lignes droictes qui conioignent deux lignes droictes égales & paralleles, &
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab 2|2 & == cd.
 
-*Req. à demonſtrer.*
+#### Req. à demonſtrer.
 
 ac 2|2 & == bd.
 
-*Preparation.*
+#### Preparation.
 
 1.p.1 | bc *eſt* ——.
 
-*Demonſtr.*
+#### Demonſtr.
 
 hyp. | ab == cd,
 29.1 | ∠abc 2|2 ∠bcd,

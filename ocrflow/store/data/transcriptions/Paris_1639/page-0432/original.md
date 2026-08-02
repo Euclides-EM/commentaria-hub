@@ -16,6 +16,6 @@ d'vn angle de 13 degrez pour tirer enuiron deux pieds au dessous des sommets des
 
 16.  Les retranchemens ne doiuent iamais estre si hauts que les ramparts & terrasses qui seront au deuant, afin que les batteries ne les puissent offenser.
 
-*L'ordre comme marche l'artillerie.*
+### L'ordre comme marche l'artillerie.
 
 Il faut premierement que deuant icelle marche le Commissaire general auec son nombre de pionniers, lesquels feront le chemin, esplanaderont les lieux montagneux, rempliront les fossez, tailleront les bois, en sorte qu'il ne puisse arriuer aucun sinistre accident ; en apres suiura le Commissaire de l'artillerie auec vn bon nombre de pionniers, en faisant premierement marcher les plus petits canons & pieces de campagne, puis suiuront les gros, & ce pour deux

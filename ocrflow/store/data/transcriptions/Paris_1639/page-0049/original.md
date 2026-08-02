@@ -6,22 +6,22 @@ SVr vne ligne droicte donnée & terminée, descrire vn triangle equilateral.
 
 *[Figure]*
 
-*Hypoth.*
+#### Hypoth.
 
 ab *eſt* —— D.
 
-*Requis à faire.*
+#### Requis à faire.
 
 △abc *equilat.*
 
-*Conſtr.*
+#### Conſtr.
 
 3.p.1 | abcd *eſt* ⊙,
 3.p.1 | bace *eſt* ⊙,
 1.p.1 | ac & bc *ſnt* ——,
 ſymp. | △abc *eſt equilat.*
 
-*Demonſtr.*
+#### Demonſtr.
 
 conſtr. | abcd & bace *ſnt* ⊙,
 15.d.1 | ac 2|2 ab,
