@@ -4,14 +4,14 @@
 
 Oder auch also:
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Die grösse a werde vier mahl/
 2. wie auch b vier mahl genommen:
 
 *[Figur: vier waagerechte Linien, bezeichnet A, 4a, B, 4b]*
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |  |
 |---|---|---|---|---|
@@ -31,8 +31,8 @@ und (3) 4a + 4b ⊣ A + B, n. Bew. λ
 
 Dw. A + B : a + b | A : B, n. 6. Beschr. V.
 
-## Beschluß.
+### Beschluß.
 
 Wenn derowegen die 1. zu der 2. Grösse/ und die 3. zu der 4. gleich-vielfältig sind/ so werden auch die 1. und 3. zusammen genommen / zu denen 2. und 4. zusammen genommenen Grössen eben so vielfältig seyn / als die 1. zu der 2. oder die 3. zu der 4. Grössen sind. W. Z. B.
 
-Der
+<!-- catchword: Der -->

@@ -4,7 +4,7 @@
 
 *[Figur: punktierte Konstruktion; oben Punkte e und f, Grundlinie a c b d, unten rechts Punkt g, gestrichelte Linien verbinden e, f, d und g]*
 
-## Beweiß.
+### Beweiß.
 
 ca | ce | n. 2. Vorb.
 α. Dw. eac ∠ aec | n. 5. I.
@@ -27,4 +27,4 @@ Dw. fd | cb | n. 1. Gr. I.
 η. dg | bd | n. 5. Vorb.
 fd + dg | cb + bd | n. 2. Gr. I.
 
-oder
+<!-- catchword: oder -->

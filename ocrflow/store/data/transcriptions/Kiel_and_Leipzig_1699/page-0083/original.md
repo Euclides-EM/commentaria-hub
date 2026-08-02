@@ -2,19 +2,19 @@
 
 <!-- # Euclidis. -->
 
-Beschluß.
+### Beschluß.
 
 Werden also jedwedes Nebenstrichiches Viereckes entgegen stehende Seiten α. β. und gegen einander übergesetzte Winckel γ. ε. wie auch die durch den Zwerg-strich gemachte Dreyecke gleich groß seyn. W. Z. B.
 
-# Der XXXV. Vortrag.
+## Der XXXV. Vortrag.
 
 Das 25. Werck-Stück:
 
 Alle auff einen einigen Grundstrich/und zwischen einerley Nebenstrichen stehende Nebenstrichiche Vierecke sind gleich groß.
 
-1. Begebenheit.
+### 1. Begebenheit.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 1. □ ABDC | ABDC ⌻ BCDE
 2. □ BCDE
 3. Der gemeine Grundstrich CD
@@ -23,7 +23,7 @@ Gegebene. | Begehrtes.
 
 *[Figur: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten E, B, A oben und D, C unten]*
 
-Beweiß.
+### Beweiß.
 
 ABC ⩓ CDB
 BDE ⩓ CDB } n. 34. Vortr.
@@ -32,6 +32,6 @@ CDB ⩓ CDB
 Dw. CDB + ABC ⩓ BDE + CDB n. 2. Gr:S.
 oder ABDC ⌻ BCDE n. 9. Gr:S. q.
 
-I
+<!-- signature mark: I -->
 
-2. Be-
+<!-- catchword: 2. Be- -->

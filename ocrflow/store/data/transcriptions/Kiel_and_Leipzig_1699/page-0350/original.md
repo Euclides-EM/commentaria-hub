@@ -2,12 +2,12 @@
 
 <!-- # Das VI. Buch -->
 
-Vorbereitung.
+### Vorbereitung.
 
 Wenn man | acb ⋏ dfe, | so mache
 | acg ⋏ dfe | n. 23. I.
 
-I. Beweiß.
+### I. Beweiß.
 
 | acg ⋏ dfe | n. Vorber.
 | bac ⋏ edf | n. 2. Geg.
@@ -26,7 +26,7 @@ Dw. | def ⋏̸ ∟ (?) | n. 1. Gr. c. I.
 
 welches aber wider das 4. Gegebene.
 
-Des VII. Vortrags II. Gegebene.
+## Des VII. Vortrags II. Gegebene.
 
 1 abc oder gbc ⋏ nicht kleiner als ∟,
 2. def ⋏ nicht kleiner als ∟.
@@ -35,4 +35,4 @@ Des VII. Vortrags II. Gegebene.
 
 *[Figur: zwei Dreiecke, links Dreieck abc mit punktierter Linie von c nach g, rechts Dreieck def]*
 
-Vor-
+<!-- catchword: Vor- -->

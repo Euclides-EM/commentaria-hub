@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 282)* -->
 
-Gegebene.
+### Gegebene.
 
 *[Figur: vier Linien mit den Bezeichnungen A und c, B, a, b am linken Rand]*
 
@@ -10,11 +10,11 @@ A : | a :
 : B | : b
 C : | c :
 
-Begehrtes.
+### Begehrtes.
 
 A + C : B | a + c : b.
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -26,14 +26,14 @@ Beweiß.
 | C : B | c : b, | n Gegeb. |
 | Dw. A + C : B | a + c : b | n. 22. V. |
 
-Beschluß.
+### Beschluß.
 
 Wenn derowegen Sechs Grössen gegeben werden/deren I. zu der II. sich also verhält/ wie die III. zu der IV. darnach auch die V. zu der II. wie die VI. zu der III. So müssen auch die I. und V. zusammen sich zu der II. also wie III. und VI. zusammen genommen sich zu der IV. verhalten.
 
-# Der XXV. Vortrag.
+## Der XXV. Vortrag.
 
-Das 25. Beweiß-Stück.
+## Das 25. Beweiß-Stück.
 
 Wenn vier Ebenmässige Grössen gegeben werden/ so sind die Grösseste und Kleineste derselben grösser / als die beeden übrigen.
 
-Gegebene-
+<!-- catchword: Gegebene- -->

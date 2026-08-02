@@ -2,7 +2,7 @@
 
 <!-- # Das III. Buch -->
 
-## Beweiß.
+### Beweiß.
 
 d ⊣ c
 aa | cd ✠ bb — n. 7. II.
@@ -26,4 +26,4 @@ II. Ein anrührender Strich ca ist / welcher den Kreyß zwar in dem Düttel a be
 
 *[Figur: Kreis mit Mitteldüpffel b, oben berührender Strich durch a, punktierte Linie von b nach c]*
 
-III. An-
+<!-- catchword: III. An- -->

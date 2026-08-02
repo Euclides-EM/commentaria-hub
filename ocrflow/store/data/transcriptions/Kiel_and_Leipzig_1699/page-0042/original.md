@@ -2,20 +2,20 @@
 
 <!-- *(Seitenzahl: 24)* -->
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 1. Das △ ABC | AB | AC
 2. ABC ⋏ ACB
 
 *[Figur: Dreyeck ABC mit Punkt D auff der Seite AB und punktiertem Strich DC]*
 
-Beweiß.
+### Beweiß.
 
 Entweder ist AB | AC
 oder AB ⊣ AC
 oder AB ⊢ AC
 
-Vorbereitung.
+### Vorbereitung.
 
 wenn AB ⊣ AC
 so schneide man von AB ab
@@ -32,4 +32,4 @@ Welches aber unmüglich nach 9. GrS.
 
 Gleiche Beschaffenheit wird es haben / wenn man sagen wolte AB ⊢ AC.
 
-Beschluß.
+<!-- catchword: Beschluß. -->

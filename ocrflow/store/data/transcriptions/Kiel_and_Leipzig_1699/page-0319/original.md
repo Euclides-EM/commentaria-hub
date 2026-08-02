@@ -2,10 +2,10 @@
 
 <!-- *(Seitenzahl: 295)* -->
 
-## Begehrtes.
+### Begehrtes.
 A : C ⊣ a : c
 
-## Vorbereitung.
+### Vorbereitung.
 1. Man nehme eine Grösse D darzu / welche sich zu C wie a zu b verhalte.
 
 D : C | a : b
@@ -16,7 +16,7 @@ d : D | b : c.
 
 *[Figur: drei waagerechte Linien C, D, d von unterschiedlicher Länge]*
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -38,4 +38,4 @@ d : D | b : c.
 | Dw. | d : C | \| a : c | n. 22 V. |
 | u. | A : C | ⊣ a : c | n. Anh. 13. V. |
 
-Be-
+<!-- catchword: Be- -->

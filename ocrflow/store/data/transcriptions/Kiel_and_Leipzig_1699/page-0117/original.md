@@ -5,7 +5,7 @@
 3. und in ungleiche Theile getheilet
 in C, als AC + CD
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Mache man das rechtwincklichte Viereck ACD (oder gcd)
 2. Werde auff dem Strich AB ein gleichseitiges □, wie auch
@@ -15,7 +15,7 @@ in C, als AC + CD
 
 *[Figur: Waagerechter Strich D B C A (unten d b c a); darüber ein Quadrat über C A mit den Punkten e, g, h und gestrichelten Linien; links der Strich f g; unter b c ein kleineres Rechteck.]*
 
-## Beweiß.
+### Beweiß.
 
 □ ac + 2 □ acb + □ cb | □ ab — n. 4. II.
 □ ac + □ acb | □ bac — n. 3. II.
@@ -28,5 +28,5 @@ n. 2. Gr. I.
 □ ac + □ acb | □ ac + □ acb
 □ db,ac + □ acb + □ cb | □ ab n. 3. Gr. I
 
-N 2
-db
+<!-- signature mark: N 2 -->
+<!-- catchword: db -->

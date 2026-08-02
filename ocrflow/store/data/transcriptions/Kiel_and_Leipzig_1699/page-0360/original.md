@@ -2,7 +2,7 @@
 
 <!-- # Das VI. Buch -->
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -17,11 +17,11 @@
 
 Gleicher Gestalt kan auch dargethan werden/ daß die übrigen Theile des gegebenen Striches / mit den andern Theilen des getheilten Striches / in richtiger Ebenmaß stehen.
 
-## Beschluß.
+### Beschluß.
 
 Ist also der gegebene Ungetheilte Strich ag, oder FG oder BC also / wie der getheilte Strich AD, AG oder o4 getheilet/ W. Z. M.
 
-# Der XI. Vortrag.
+## Der XI. Vortrag.
 
 ## Das 3. Werck-Stück.
 
@@ -39,4 +39,4 @@ Zu zweyen gegebenen geraden Strichen den dritten ebenmässigen Strich zu finden.
 
 AB : AC ⊤ AC : cd.
 
-Wir-
+<!-- catchword: Wir- -->

@@ -2,19 +2,19 @@
 
 <!-- *(Seitenzahl: 298)* -->
 
-## Gegebene.
+### Gegebene.
 
 *[Figur: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]*
 
 A : a ⊣ B : b ⊣ C : c.
 
-## Begehrtes.
+### Begehrtes.
 
 a A + B + C : a + b + c ⊣ B + C : b + c
 d A + B + C : a + b + c ⊢ A : a
 n A + B + C : a + b + c ⊣ C : c
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -31,4 +31,4 @@ n A + B + C : a + b + c ⊣ C : c
 |  | A + B : a + b | ⊣ B : b | n. Bew. a |
 |  | A : a | ⊣ A + B : a + b | n. Bew. ß |
 
-Dw.
+<!-- catchword: Dw. -->

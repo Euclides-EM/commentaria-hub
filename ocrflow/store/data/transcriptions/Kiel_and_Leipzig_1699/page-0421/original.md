@@ -49,4 +49,4 @@ oder:
 | Dw. | ⌒ fg : ⌒ bc \| ⌓ fhg : ⌓ bdc | n. 6. Besch. V. |
 | und | ∧ fhg : ∧ bdc \| ⌓ fhg : ⌓ bdc | n. 11. V. |
 
-Beschluß
+<!-- catchword: Beschluß -->

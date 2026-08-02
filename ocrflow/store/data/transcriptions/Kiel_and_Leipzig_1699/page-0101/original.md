@@ -4,13 +4,13 @@
 
 lichten Dreyeck vermag der/dem rechten Winckel entgegen gesetzte Strich/ so viel/ als die beeden übrigen Seiten.
 
-Gegebenes. | Begehrtes.
+### Gegebenes. | Begehrtes.
 1. Rechtwincklichtes Dreyeck fxg | □ fg | □ xg + □ fx.
 2. fxg ∠ ⌐
 3. Dem rechten Winckel entgegen gesetzte Seite fg.
 4. Die beeden Seiten xg und xf, welche den ⌐ begreiffen.
 
-## Vorbereitung.
+### Vorbereitung.
 
 Es werden gemacht.
 
@@ -25,6 +25,6 @@ Es werden gemacht.
 
 *[Figur: rechtwinckliges Dreyeck fxg mit den drey Vierecken über den Seiten und punktierten Hülfslinien; Punkte r, m, s, k, f, i, o, e, b, a, g, c, x, l, d, h]*
 
-L 2
+<!-- signature mark: L 2 -->
 
-Beweiß
+<!-- catchword: Beweiß -->

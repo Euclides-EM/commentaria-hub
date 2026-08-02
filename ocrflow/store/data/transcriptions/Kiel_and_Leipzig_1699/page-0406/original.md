@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 376)* -->
 
-Beweiß.
+### Beweiß.
 
 □ no | □ Eg — △ X n. 11. Wirck.
 □ no + △ X | □ Eg n. 2. Gr. I.
@@ -26,8 +26,8 @@ welches angeschlagen ist an den Strich AB also/ daß überbleibe □ sr, welches
 □ Eg ähnlich □ D n. 3. Wirck.
 Dw. □ sr ähnlich □ D n. 21. VI.
 
-Beschluß.
+### Beschluß.
 
 Ist also an den Strich AB ein mangelhafftes □ Ap, welches gleichmässig dem △ X angeschlagen ulso/ daß das mangelende □ sr dem □ D ähnlich sey. W. Z. M.
 
-Der
+<!-- catchword: Der -->

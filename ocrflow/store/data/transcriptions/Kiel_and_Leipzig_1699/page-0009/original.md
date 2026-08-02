@@ -4,6 +4,6 @@ tet/ daß/ gleich wie durch die alten drey Foderungen das Streich- oder Strich-H
 
 Was die Vorträge betrifft / so sind selbige in ihre gewisse Stücke/ nemlich in die Gegebene (Data), und Begehrte (Quæsita) abgetheilet/ alsdann folget die Wirckung
 
-):( ):( 2
+<!-- signature mark: ):( ):( 2 -->
 
-(Ope-
+<!-- catchword: (Ope- -->

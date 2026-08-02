@@ -11,7 +11,7 @@ u. DE : EF | de : ef
 
 Und ist also abcdef ähnlich der Gestalt ABCDEF n. der 1. Beschr. VI. und auf den gegebenen Strich ab gesetzet n. 2. Wirck. W. Z. M.
 
-# Der XIX. Vortrag.
+## Der XIX. Vortrag.
 
 ## Das 13. Beweiß-Stück.
 
@@ -29,5 +29,5 @@ Aehnliche Dreyecke stehen gegen einander in zwiefach grösserer (duplicata) Verh
 △ abc : △ def ⊐ | bc : ef
 | ca : fd.
 
-Y y
-Vorbe-
+<!-- signature mark: Y y -->
+<!-- catchword: Vorbe- -->

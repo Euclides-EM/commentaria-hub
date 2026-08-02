@@ -2,17 +2,17 @@
 
 <!-- *(Seitenzahl: 250)* -->
 
-## Beschluß.
+### Beschluß.
 
 Wann derowegen das I. Gantze zu dem II. Gantzen sich also verhält / wie das von dem Ersten Gantzen abgenommene / zu dem vom Andern abgenommenen; So wird auch das Erste übergebliebene zu dem Andern übergebliebenen sich also / wie das Erste Gantze zu dem Andern Gantzen verhalten.
 
-# Der VI. Vortrag.
+## Der VI. Vortrag.
 
 ## Das 6. Beweiß-Stück.
 
 Wenn zwo Grössen zweyer Andern Grössen gleichvielfältig sind; darnach zwey von denen Ersten Grössen abgenommene Stücke auch so vielfältig zu denen zwo Andern Grössen sind: So werden die übergebliebene Stücke denen andern zwo Grössen gleich an Grösse / oder gegen dieselben gleichvielfältig seyn.
 
-## Gegebene. — Begehrte.
+### Gegebene. — Begehrte.
 
 *[Figur: Vier waagerechte Linien mit Teilstrichen, bezeichnet A, a, B, b]*
 
@@ -24,4 +24,4 @@ B—d | b
 3 B | 5b
 4 d | 4b
 
-I. Beweiß.
+<!-- catchword: I. Beweiß. -->

@@ -4,13 +4,13 @@
 
 wird/eben so groß seyn/ als das Viereck der beeden Stücke bl, ld des andern Striches. W. Z. B.
 
-# Der XXXVI. Vortrag.
+## Der XXXVI. Vortrag.
 
-Das 30. Beweiß-Stück.
+## Das 30. Beweiß-Stück.
 
 Wenn man von einem ausser dem gegebenen Kreyß erwehlten Düttel zween gerade Striche zu dem Kreyß zeucht/ deren einer den Kreyß nur anrühret/ der andere aber selbigen schneidet: So wird das rechtwincklichte Viereck/ welches von dem gantzen schneidenden Strich/und dem Stück desselben/ so zwischen dem Düttel und aussern Kreyß-krümme stehet/ eben so groß seyn / als das rechtwincklichte Viereck/ das von dem Rührstrich kan gemacht werden.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 1. Kreyß edgh. | 1. ▭ ha, ag | □ ad
 2. Düttel a. | 2. ▭ ea, ab | □ ad
@@ -22,6 +22,6 @@ Gegebene. | Begehrtes.
 8. Und ae denselben in b schneide /
 9. Zugleich aber durch den Mittel-Düpffel c gehe.
 
-Bb 3
+<!-- signature mark: Bb 3 -->
 
-Vor-
+<!-- catchword: Vor- -->

@@ -2,13 +2,13 @@
 
 <!-- *(Seitenzahl: 259)* -->
 
-# Der XI. Vortrag.
+## Der XI. Vortrag.
 
 ## Das II. Beweißstück.
 
 Welche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind / dieselbigen Verhältnüsse sind auch unter sich gleichhaltig.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 A ________ | A : a | B : b.
 a __
@@ -22,7 +22,7 @@ c __
 A : a | C : c
 B : b | C : c
 
-## Vorbereitung:
+### Vorbereitung:
 
 1. Nehme man A zweymahl
 2. Deßgleichen auch B zweymahl
@@ -35,6 +35,6 @@ B : b | C : c
 
 *[Figur: Strecken 2A, 4a, 2B, 4b]*
 
-Kk 2
+<!-- signature mark: Kk 2 -->
 
-I. Beweiß.
+<!-- catchword: I. Beweiß. -->

@@ -22,4 +22,4 @@ II. Wenn zwo ( oder mehr ) gleiche Grössen an gleiche Grössen angeschlagen wer
 
 2. In jedwedem nebenstrichichen Viereck (ADBC) wird ein jedes/derer ümb den Zwerg-Strich ( ABC ) stehenden Vierecke (FG oder HI,)samt den zwo nebenstehenden Füllflächen (DE und FH) ein Winckelmaß (Gnomonem) machen.
 
-Der
+<!-- catchword: Der -->

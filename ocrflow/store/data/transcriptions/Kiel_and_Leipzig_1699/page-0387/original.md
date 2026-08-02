@@ -19,15 +19,15 @@ eab + bed + bcd : kfg + gki + ghi | ⬠ cad : ⬠ hfi n. 9. Gr. q. I.
 Dw. ⬠ cad : ⬠ hfi = ab : fg
 u. ⬠ cad : ⬠ hfi | △ eab : △ kfg n. 11. V.
 
-## Beschluß.
+### Beschluß.
 
 Können derowegen ähnliche Vielecke in ähnliche und gleichviele/ auch mit dem gantzen Vieleck Verhältnüß-ähnliche oder ebenmässige Dreyecke abgetheilet werden. Es stehen auch die ähnliche Vielecke gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
 
-# Der XXI. Vortrag.
+## Der XXI. Vortrag.
 
 ## Das 15. Beweiß-Stück.
 
 Welche geradstrichichte Gestalte einer einigen Gestalt ähnlich sind/ dieselben sind auch einander selbst ähnlich.
 
-Y y 3
-Gegebe-
+<!-- signature mark: Y y 3 -->
+<!-- catchword: Gegebe- -->

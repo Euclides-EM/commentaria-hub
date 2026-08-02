@@ -2,11 +2,11 @@
 
 <!-- # Das VI. Buch -->
 
-## Beschluß.
+### Beschluß.
 
 Haben derowegen gleichmässige Dreyecke bey einem gleichmässigen Winckel wechselweiß stehende Seiten. Und die Dreyecke/ welche bey einem gleichmässigen Winckel wechselweiß stehende Seiten haben/ sind gleichmässig. W. Z. B.
 
-# Der XVI. Vortrag.
+## Der XVI. Vortrag.
 
 ## Das 11. Beweiß-Stück.
 
@@ -14,17 +14,17 @@ Wenn vier ebenmässige Striche gegeben werden/ so ist das von dem ersten und let
 
 Und wann das von zweyen äusersten Strichen begriffene/ dem von beyden mittelsten Strichen begriffenen Viereck gleichmässig ist/ so stehen auch solche vier Striche in richtiger Ebenmaß.
 
-## I. Gegebene.
+### I. Gegebene.
 
 1. Vier Striche
 a, b, c, d.
 2. Welche ebenmässig
 a : b ⊤ c : d.
 
-## I. Begehrtes.
+### I. Begehrtes.
 
 ad ⌻ bc.
 
 *[Figur: Zwey Rechtecke; das lincke mit den Seiten a, e, d, daneben die einzelnen Striche d, b, c, a; das rechte Rechteck mit den Seiten e, b, f]*
 
-Vorbe-
+<!-- catchword: Vorbe- -->

@@ -4,7 +4,7 @@
 
 nommene; Wie auch den auswendigen dem inwendig entgegen stehenden ; Und die beeden inwendig auff einer Seiten befindliche Winckele gleich groß.
 
-Gegebene.                    Begehrte.
+### Gegebene.                    Begehrte.
 1. AB = CD                   1. AGH ⋏ GHD
 2. Einfallender Strich EF    2. BGH ⋏ GHC
                              3. EGB ⋏ GHD
@@ -12,7 +12,7 @@ Gegebene.                    Begehrte.
 
 *[Figur: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]*
 
-Beweiß des 1. und 2.
+### Beweiß des 1. und 2.
 
 Entweder ist  AGH ⊼ GHD
         oder  AGH ⊼ GHD
@@ -29,4 +29,4 @@ Gleiche Bewandniß hat es/ wenn man sagen wolte/es were
         AGH ⊼ GHD :
 α. muß also nohtwendig   AGH ⋏ GHD.
 
-Be-
+<!-- catchword: Be- -->

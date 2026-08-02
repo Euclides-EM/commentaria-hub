@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 213)* -->
 
-## Beweiß.
+### Beweiß.
 
 cao ∧ ∟ }
 efo ∧ ∟ } n. 3. Wirck.
@@ -20,26 +20,26 @@ u. beg ∧ ∟ n. 34. I.
 Dw. bcge ein gleichseitig □ , n. 29. Beschr. I.
 u. dem Kreyß dahf umbschrieben/ n. 4. Besch. IV.
 
-## Beschluß.
+### Beschluß.
 
 Ist also umb den O dahf ein □ bcge beschrieben. W. Z. M.
 
-# Der VIII. Vortrag.
+## Der VIII. Vortrag.
 
 ## Das 8. Werckstück.
 
 Einem gegebenen Viereck einen Kreyß einzuschreiben.
 
-Gegebene. Begehrtes.
+### Gegebene. Begehrtes.
 
 Viereck bcde. 1. Kreyß fghi
 2. Dem Viereck eingeschrieben.
 
-## Wirckung.
+### Wirckung.
 
 1. Werden die Zwergstriche bd, ec gezogen.
 2. Alle Seiten des Vierecks bc, cd, de, eb werden in zwey gleiche Theile bf | fc : ci | id und so weiter/ getheilet/n. 10. I.
 
-Dd 3
+<!-- signature mark: Dd 3 -->
 
-3. Aus
+<!-- catchword: 3. Aus -->

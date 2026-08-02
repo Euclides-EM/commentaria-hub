@@ -36,4 +36,4 @@ XIIX. Ordentliche Ebenmässigkeit ist/ wenn in der ersten Ordnung die Vorgehende
 
 8b : 4b | 4b : (2b.)
 
-XIX.
+<!-- catchword: XIX. -->

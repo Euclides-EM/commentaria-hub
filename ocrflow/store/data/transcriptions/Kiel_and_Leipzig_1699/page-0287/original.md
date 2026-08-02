@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 263)* -->
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 A ________ | A : a ⊣ C : c
 a ____
@@ -16,7 +16,7 @@ c ____
 1. A : a | B : b
 2. B : b ⊣ C : c
 
-## Beweiß.
+### Beweiß.
 
 Wenn A : a | C : c — n. Genom.
 und A : a | B : b — n. Gegeb.
@@ -30,7 +30,7 @@ so muß B : b ⊢ C : c — welches wider das Gegeb.
 
 Weil dieser letzte Schluß nicht schlechter Dinges kan bestätiget werden/ So
 
-## Vorbereitung.
+### Vorbereitung.
 
 Nehme man A, wie auch C zweymahl.
 Die Grössen a und c aber dreymahl.
@@ -42,4 +42,4 @@ Die Grössen a und c aber dreymahl.
 
 *[Figur: Strecken 2A, 3a, 2C, 3c]*
 
-Beweiß.
+<!-- catchword: Beweiß. -->

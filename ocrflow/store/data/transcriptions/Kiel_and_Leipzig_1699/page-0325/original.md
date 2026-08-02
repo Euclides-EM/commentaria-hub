@@ -2,17 +2,17 @@
 
 <!-- *(Seitenzahl: 301)* -->
 
-## I. Gegebene.
+### I. Gegebene.
 
 *[Figur: zwei waagerechte Linien A und B mit angesetzten Stücken a]*
 
 A ⊣ B
 a | a
 
-## Begehrtes.
+### Begehrtes.
 A + a : B + a ⊢ A : B
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -24,17 +24,17 @@ A + a : B + a ⊢ A : B
 |  | A + a : A | ⊢ B + a : B | n. 30. V. |
 |  | A + a : B + a | ⊢ A : B | n. Anh. 28. V. |
 
-## II. Gegebene
+### II. Gegebene
 
 *[Figur: zwei waagerechte Linien A und B mit abgeteilten Stücken]*
 
 A ⊣ B
 a | a
 
-## Begehrtes.
+### Begehrtes.
 A — a : B — a ⊣ A : B
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -44,6 +44,6 @@ A — a : B — a ⊣ A : B
 |  | A : B | \| a : a | n. 27. V. |
 | Dw. | A — a : B — a | ⊣ A : B | n. 33. V. |
 
-Pp 3
+<!-- signature mark: Pp 3 -->
 
-oder:
+<!-- catchword: oder: -->

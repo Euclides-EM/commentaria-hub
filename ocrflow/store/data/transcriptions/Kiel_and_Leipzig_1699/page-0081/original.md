@@ -2,13 +2,13 @@
 
 <!-- *(Seitenzahl: 63)* -->
 
-# Der XXXIII. Vortrag.
+## Der XXXIII. Vortrag.
 
-Das 24. Beweiß Stück.
+## Das 24. Beweiß Stück.
 
 Zween gerade Striche/ welche zween gleichlange Neben-Striche an beeden Enden/auff gleiche Weise/zusammen hengen / sind gleich-lange Neben-Striche.
 
-Gegebene.                              Begehrte.
+### Gegebene.                              Begehrte.
 1. Zween gerade Striche AC und BD.     1. AC | BD
 2. AB | CD                             2. AC ╪ BD
 3. AB ╪ CD.
@@ -17,11 +17,11 @@ Gegebene.                              Begehrte.
 
 *[Figur: Viereck ABDC mit punktierter Diagonale von C nach B]*
 
-Vorbereitung.
+### Vorbereitung.
 
 Man ziehe den zwerg-Strich BC.
 
-Beweiß.
+### Beweiß.
 
 AB           ╪    CD          n. 3. Gegeb.
 Dw.    ABC ⋏ BCD              n. 29. Vortr.
@@ -31,8 +31,8 @@ Drw.   AC    |    BD   }  nach 4. Vortr.
 und    ACB   ⋏    DBC  }
 Drw.   AC    ╪    BD          nach 27. Vortr.
 
-Beschluß.
+### Beschluß.
 
 Werden also diejenigen geraden Striche/ welche Nebenstriche rechtmäßig zusammen hängen/auch gleich-grosse Nebenstriche seyn. W. Z. B.
 
-Der
+<!-- catchword: Der -->

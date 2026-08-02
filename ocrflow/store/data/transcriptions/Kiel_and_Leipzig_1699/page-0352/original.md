@@ -2,13 +2,13 @@
 
 <!-- # Das VI. Buch -->
 
-# Der IIX. Vortrag.
+## Der IIX. Vortrag.
 
 ## Das 8. Beweiß-Stück.
 
 Wenn aus dem rechten Winckel eines rechtwincklichten Dreyecks ein bleyrechter Senckstrich auf den (dem rechten Winckel gegen über stehenden) Grundstrich gezogen wird; So sind durch diesen Senckstrich gemachte beyde Dreyecke / so wol unter sich / als auch dem gantzen Dreyecke gleichähnlich.
 
-Gegebenes.
+### Gegebenes.
 
 1. Dreyecke abc
 2. Welches rechtwincklicht/
@@ -17,7 +17,7 @@ Gegebenes.
 5. Auf den Grundstrich bc
 6. Bleyrecht gezogen ist.
 
-Begehrtes.
+### Begehrtes.
 
 △ | | △
 abc | | abd
@@ -26,4 +26,4 @@ abd | | adc
 
 *[Figur: rechtwinkliges Dreieck abc mit punktierter Senkrechte ad auf die Grundlinie cb]*
 
-I. Beweiß.
+<!-- catchword: I. Beweiß. -->

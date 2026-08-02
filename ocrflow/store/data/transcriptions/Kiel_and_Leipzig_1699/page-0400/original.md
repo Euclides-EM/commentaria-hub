@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 370)* -->
 
-Gegebene.
+### Gegebene.
 
 1. Nebenstrichichtes Viereck bd
 2. Abgenommenes Viereck eg
@@ -10,17 +10,17 @@ Gegebene.
 4. ⎬ gleicher Weise gesetzt ⎨
 5. ⎭ gleichmässige Winckel habend ⎩
 
-Begehrtes.
+### Begehrtes.
 
 *[Figur: Viereck a, g, i, b oben, e und f in der Mitte, d und c unten, mit Diagonalen und punctirten Linien]*
 
 □ eg üm einen einigen Zwergstrich stehende mit □ bd.
 
-Vorbereitung.
+### Vorbereitung.
 
 Wenn □ eg nicht üm denselben Zwergstrich stehet/ so nehme man das □ ei, welches üm denselben Zwergstrich stehen sol.
 
-Beweiß.
+### Beweiß.
 
 □ ei stehet üm einen einigen Zwergstrich mit □ bd n. Angen.
 Dw. ist □ ei ähnlich □ bd n. 24. VI.
@@ -33,4 +33,4 @@ Dw. ag | ai n. 9. V.
 
 Welches aber unmüglich n. 9. Gr. I.
 
-Beschluß-
+<!-- catchword: Beschluß- -->

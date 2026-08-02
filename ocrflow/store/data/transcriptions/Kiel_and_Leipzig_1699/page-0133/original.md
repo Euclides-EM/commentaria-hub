@@ -26,10 +26,10 @@ bd | dg n. Bew. η.
 □ dg | □ dg
 □ ad + □ bd | 2 □ ac + 2 □ cd | n. 3. Gr. I.
 
-## Beschluß.
+### Beschluß.
 
 Muß also allezeit/ wenn ein Strich in zween gleiche Theile getheilet/ und ein Stück angesetzet wird/ das □ des gantzen und angesetzten ad, samt dem □ des angesetzten Stückes bd absonderlich / so groß seyn/ als die beeden □ □ des halben Striches ac, und des
 
-P 2
+<!-- signature mark: P 2 -->
 
-Stri-
+<!-- catchword: Stri- -->

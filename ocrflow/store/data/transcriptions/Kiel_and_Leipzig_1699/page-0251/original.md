@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 227)* -->
 
-Beweiß.
+### Beweiß.
 
 cb | ca
 ab | ca — n. 15. Besch. I.
@@ -30,10 +30,10 @@ Gleicher Weise cde ∧ def ∧ efg ∧ fgb ∧ gbc
 Dw. ist das Sechßeck bcdefg gleichseitig und gleichwincklicht/
 und dem gegebenen Kreyß eingeschrieben/ n. 3. Beschr. IV.
 
-Beschluß.
+### Beschluß.
 
 Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
 licht Sechßeck eingeschrieben. W Z. M.
 
-Ff 2
-I. An-
+<!-- signature mark: Ff 2 -->
+<!-- catchword: I. An- -->

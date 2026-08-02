@@ -2,19 +2,19 @@
 
 <!-- *(Seitenzahl: 377)* -->
 
-# Der XXIX. Vortrag.
+## Der XXIX. Vortrag.
 
-Das 9. Werckstück.
+## Das 9. Werckstück.
 
 An einen gegebenen geraden Strich ein nebenstrichichtes übertreffendes/ und der gegebenen Gestalt gleichmässiges Viereck anzuschlagen / dessen Uberschuß einem gegebenen nebenstrichichten Viereck ähnlich sey.
 
-Gegebene.
+### Gegebene.
 
 1. Gerader Strich AB
 2. Geradstrichichte Gestalt K
 3. Nebenstrichichtes Viereck L.
 
-Begehrte.
+### Begehrte.
 
 1. Nebenstrichichtes □ Am.
 2. □ Am | △ K.
@@ -24,5 +24,5 @@ Begehrte.
 6. □ Bm ähnlich □ L,
 7. Auf gleiche Weise gesetze.
 
-Bbb
-Wirckung.
+<!-- signature mark: Bbb -->
+<!-- catchword: Wirckung. -->

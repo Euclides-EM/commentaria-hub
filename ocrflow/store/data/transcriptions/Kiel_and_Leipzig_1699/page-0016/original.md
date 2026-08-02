@@ -26,4 +26,4 @@ nempe totum erit æquale parti, quod tamen impossibile, per axioma 9. n. 9. Grun
 
 Quia igitur punctum b neque supra B, neque infra B cadere potest, necessariò cadet in punctum B.
 
-De-
+<!-- catchword: De- -->

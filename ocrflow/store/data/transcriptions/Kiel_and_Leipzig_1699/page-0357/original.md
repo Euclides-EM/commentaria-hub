@@ -8,14 +8,14 @@ Dw. | BC : CD | bi : ih | n. 11. V.
 | ef : fg | bi : ih | n. Anh. 7. V.
 Dw. | BC : CD | ef : fg | n. 11. V.
 
-Des X. Vortrags II. Ahrt.
+## Des X. Vortrags II. Ahrt.
 
-Gegebene.
+### Gegebene.
 
 1. Ungetheilter Strich FG.
 2. Getheilter Strich AG.
 
-Begehrtes.
+### Begehrtes.
 
 Der Strich FG getheilet in b, c, d, e. und t also
 daß | fb : bc | AB : BC.
@@ -25,9 +25,9 @@ daß | fb : bc | AB : BC.
 
 *[Figur: von einem Punkt k oben laufen punktierte Linien zu der getheilten Linie G T E D C B A; dazwischen die parallele Linie g t e d c b f h; darunter die Striche F G und G A]*
 
-Wirckung.
+### Wirckung.
 
 1. Gegen den getheilten Strich AG werde ein Nebenstrich hg nach Nothdurfft gezogen. n. 31. I.
 
-Tt 3
-2. Von
+<!-- signature mark: Tt 3 -->
+<!-- catchword: 2. Von -->

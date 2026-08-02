@@ -2,13 +2,13 @@
 
 <!-- *(Seitenzahl: 268)* -->
 
-# Der XVI. Vortrag.
+## Der XVI. Vortrag.
 
 ## Das 16. Beweiß-Stück.
 
 Vier Ebenmässige Grössen sind auch wechselweiß genommen Ebenmässig.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 A ____________
 B ________ | A : a | B : b
@@ -21,7 +21,7 @@ A : B | a : b
 A | 4a
 B | 4b
 
-## Beweiß.
+### Beweiß.
 
 A | 4a
 B | 4b — n Gegeb.
@@ -32,8 +32,8 @@ Dw. A ⁘ a | 4b : b — n. 11. V.
 B : b | 4b : b — n. 7. V.
 Dw. A : a | B : b — n. 11. V.
 
-## Beschluß.
+### Beschluß.
 
 Werden derowegen Ebenmässige Grössen auch wechselweiß genommen Ebenmässig seyn. W. Z. B.
 
-Der
+<!-- catchword: Der -->

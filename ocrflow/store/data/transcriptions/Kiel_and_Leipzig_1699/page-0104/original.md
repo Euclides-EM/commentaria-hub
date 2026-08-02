@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 86)* -->
 
-## Beweiß.
+### Beweiß.
 
 acd ∠ ⌐ | n. 1. Vorber.
 Dw. □ ad | □ cd + □ ac | n. 47. Vort.
@@ -21,10 +21,10 @@ und acb ∠ dca | n. 8. Vortr.
 ⌐ ∠ dca | n. 1. Vorber.
 Dw. acb ∠ ⌐ | n. 10. Beschreib.
 
-## Beschluß.
+### Beschluß.
 
 Wenn derowegen in einem △ , der einen Seiten □ so groß ist / als die □ □ der ander beeden Seiten / so begreiffen diese beeden Seiten einen rechten Winckel. W. Z. B.
 
 *[Figur: Zierstück (Druckervignette in Rautenform)]*
 
-Das
+<!-- catchword: Das -->

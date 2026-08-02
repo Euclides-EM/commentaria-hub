@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 267)* -->
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 a ____
 b ______ | a : b | A : B.
@@ -14,12 +14,12 @@ B __g__h__i__k__
 4a | A
 4a | B
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Es werde A in vier gleiche Theile getheilet/ daß c | a, d | a, e | a und f | a, n. 3. I.
 2. Auch werde B also getheilet/ daß g | b, h | b, i | b, und k | b, werde. n. 3. I.
 
-## Beweiß.
+### Beweiß.
 
 a | c | d | e | f — n. 1.
 b | g | h | i | k — n. 2. Vorb.
@@ -36,10 +36,10 @@ g + h + i + k | B — n. 9. Gr. q. I.
 Dw. c + d + e + f : g + h + i + k | A : B — n. Anh. 7. V.
 und a : b | A : B — n. 11. V.
 
-## Beschluß.
+### Beschluß.
 
 Müssen also allezeit die Theile sich also / wie die vielfache Gantzen zu einander verhalten/ W. Z. B.
 
-Ll 2
+<!-- signature mark: Ll 2 -->
 
-Der
+<!-- catchword: Der -->

@@ -4,7 +4,7 @@
 
 I. Ahrt.
 
-Wirckung.
+### Wirckung.
 
 1. Auf des Striches ag Endedüttel a werde nach beliebigem Winckel ein gerader Strich ak gezogen.
 2. Von diesem Strich ak werden abgeschnitten drey Striche | ab | AB
@@ -13,11 +13,11 @@ Wirckung.
 3. Aus d werde zu g der gerade Strich dg gezogen.
 4. Aus b und c werden gegen dg gerade Nebenstriche be und cf gezogen. n. 31. I.
 
-Vorbereitung.
+### Vorbereitung.
 
 Aus den Düttteln b und c werden gegen ag gerade Nebenstriche bh und co, gezogen. n. 31. I.
 
-Beweiß.
+### Beweiß.
 
 | ab | AB |
 | bc | BC |
@@ -34,4 +34,4 @@ Dw. | bi | ef |
 u. | ih | fg | n. 34. I.
 | ci ⧣ dh | n. 4. Wirck.
 
-Dw.
+<!-- catchword: Dw. -->

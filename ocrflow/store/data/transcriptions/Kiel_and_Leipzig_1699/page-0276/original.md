@@ -2,17 +2,17 @@
 
 <!-- *(Seitenzahl: 252)* -->
 
-## Beschluß.
+### Beschluß.
 
 Wenn derowegen die I. Grösse der III. und die II. Grösse der IV. gleichvielfältig sind; darnach das von der I. abgenommene Stück zu der III. eben so vielfältig ist / als das von der II. abgenommene Stück zu der IV. So wird das Erste übergebliebene der III. und das Andere übergebliebene der IV. Grösse gleichgroß / oder die übergebliebenen werden gegen die II. und IV. Grössen gleichvielfältig seyn. W. Z. B.
 
-# Der VII. Vortrag.
+## Der VII. Vortrag.
 
 ## Das 7. Beweiß-Stück.
 
 Gleichgrosse Grössen sind gegen eine einige Grösse gleichvielfältig: Und eine einige Grösse ist auch gegen gleichgrosse Grössen gleichvielfältig.
 
-## Gegebene. — Begehrtes.
+### Gegebene. — Begehrtes.
 
 *[Figur: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]*
 
@@ -22,11 +22,11 @@ A | B
 A | 3a
 B | 3a
 
-## I. Beweiß.
+### I. Beweiß.
 
 A | B
 3a | 3a — n. Gegeb.
 Dw. A : 3a | B : 3a
 Und A : a | B : a — n. 7. Besch. V.
 
-Gege-
+<!-- catchword: Gege- -->

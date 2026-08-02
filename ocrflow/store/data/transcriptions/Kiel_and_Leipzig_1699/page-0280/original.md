@@ -2,19 +2,19 @@
 
 <!-- *(Seitenzahl: 256)* -->
 
-# Der IX. Vortrag.
+## Der IX. Vortrag.
 
 ## Das 9. Beweiß-Stück.
 
 Welche Grössen zu einer einigen Grösse gleiche Verhältnüß haben / dieselbigen sind gleich groß; Und zu welchen Grössen eine einige Grösse gleiche Verhältnüß hat / dieselbigen sind gleich groß.
 
-## Gegebene. — Begehrtes.
+### Gegebene. — Begehrtes.
 
 *[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
 
 A : a | B : a — A | B.
 
-## Beweiß.
+### Beweiß.
 
 A | 3a
 B | 3a — n. Gegebene.
@@ -29,13 +29,13 @@ A : a ⊢ B : a — n 8. V.
 
 Beedes aber ist wider das Gegebene: müssen derowegen A und B gleichgroß seyn.
 
-## Beweiß des II. Theils.
+### Beweiß des II. Theils.
 
-## Gegebene. — Begehrtes.
+### Gegebene. — Begehrtes.
 
 *[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
 
 a : A | a : B — A | B
-B
+<!-- signature mark: B -->
 
-Beweiß.
+<!-- catchword: Beweiß. -->

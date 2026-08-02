@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 187)* -->
 
-Wirckung.
+### Wirckung.
 
 1. Auff den gegebenen Strich ab oder al werde gesetzet der Winckel baf oder laf ⋀ ead. n. 23. I.
 2. Auff den Strich fa und zwar auff den Düttel a werde ein Senckstrich ag gesetzet. n. 11. I.
@@ -11,11 +11,11 @@ Wirckung.
 
 Aus dem Düttel g, wo die beeden Senckstriche einander durchschneiden/ werde der Kreyß bha oder lha beschrieben.
 
-Vorbereitung.
+### Vorbereitung.
 
 In das Kreyßstück bha oder lha werde der Winckel ahb oder abl gesetzet.
 
-I. Beweiß.
+### I. Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -28,7 +28,7 @@ I. Beweiß.
 
 II. Arth.
 
-Wirckung.
+### Wirckung.
 
 1. Auff den gegebenen Strich ab werde gesetzet
 baf ⋀ ecd n. 23. I.
@@ -36,6 +36,6 @@ baf ⋀ ecd n. 23. I.
 3. Auff b werde gesetzet abg ⋀ bag n. 23. I.
 4. Aus g nach der weite ga werde der Kreyß ahb beschrieben.
 
-Aa 2
+<!-- signature mark: Aa 2 -->
 
-Vor-
+<!-- catchword: Vor- -->

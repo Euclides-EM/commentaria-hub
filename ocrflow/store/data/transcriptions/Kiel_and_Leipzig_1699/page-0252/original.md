@@ -15,7 +15,7 @@ gegebenen Kreyß eingeschrieben werden.
 
 *[Figur: zwei sich schneidende Kreise; im rechten Kreis ein einbeschriebenes Dreyeck b e d mit Mittelpunkt e und Punkt f als Mittelpunkt des linken Kreises, punktierte Bögen durch o und d]*
 
-Wirckung.
+### Wirckung.
 
 1. Aus f wird ein Kreyß nach der Weite fe dem gegebenen Krey-
 se eingeschrieben / welcher den gegebenen Kreyß in denen Dütteln
@@ -25,7 +25,7 @@ gemacht /welche den Kreyß in d und b schneiden.
 3. Werden die Striche fd und fb gezogen.
 4. Wird der Strich db gezogen.
 
-Beweiß.
+### Beweiß.
 
 fe ⌒ fo
 ed ⌒ ob — n. 15. IV.
@@ -33,4 +33,4 @@ Dw. — fe + ed ⌒ fo + ob — n. 2. Gr. I.
 u. — fd ⌒ fb — n. 9. Gr. q. I.
 Dw. — fd | fb — n. 29. III.
 
-Dw-
+<!-- catchword: Dw- -->

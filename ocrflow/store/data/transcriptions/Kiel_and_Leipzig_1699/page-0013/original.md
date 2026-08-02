@@ -4,4 +4,4 @@ daß/ ungeachtet unser Euclides von denen meisten Mathematicis, wegen seiner sch
 
 Endlich ist nöthig/ daß man/ wo nicht alle / doch die vornehmsten Druckfehler ändere / welche füglich in drey Ahrten können abgetheilet werden. Die erste Ahrt bestehet aus solchen/ welche leichtlich durch
 
-Auf-
+<!-- catchword: Auf- -->

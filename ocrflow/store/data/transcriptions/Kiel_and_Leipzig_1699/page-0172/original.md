@@ -2,19 +2,19 @@
 
 <!-- *(Seitenzahl: 154)* -->
 
-Beschluß.
+### Beschluß.
 
 Derowegen kan auff keinerley Weise ein Kreyß den andern in mehr/als einem Düttel anrühren. W. Z. B.
 
-# Der XIV. Vortrag.
+## Der XIV. Vortrag.
 
-Das 13. Beweiß-Stück.
+## Das 13. Beweiß-Stück.
 
 Alle gleichlange gerade Striche in einem Kreyß/stehen gleichweit von dem Mittel-Düpffel ab. Und gleichweit von dem Mittel-Düpffel abstehende gerade Striche sind gleichlang.
 
 Erster Theil dieses Vortrages.
 
-Gegebene. Begerthes.
+### Gegebene. Begerthes.
 
 1. Der Kreyß edcb, — ag | af.
 2. Zween gerade Striche cb und de
@@ -24,10 +24,10 @@ Gegebene. Begerthes.
 6. Aus dem Mittel-Düpffel a
 7. Auff die beeden Striche gezogen.
 
-Vorbereitung.
+### Vorbereitung.
 
 1. Aus dem Mittel-Düpffel a werden gezogen die Stralen ab und ae.
 2. Beede Striche werden in zween gleiche Theile geschnitten n. 10. I.
 3. Es werden auch die beeden Senckstriche ag, af gezogen. n. 12. I.
 
-Be-
+<!-- catchword: Be- -->

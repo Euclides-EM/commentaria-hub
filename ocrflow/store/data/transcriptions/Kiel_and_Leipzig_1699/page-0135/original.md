@@ -7,14 +7,14 @@
 5. Biß zu dieses Kreyses Düttel f, werde der Strich ea verlänget.
 6. Nach der weite af werde aus a ein Kreyß beschrieben / so den Strich ab in c durchschneidet.
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Durch c werde gegen fe ein Nebenstrich hg gezogen.
 2. Desgleichen aus f gegen ab der - - - - - fg - - - - | n. 31. I.
 
 *[Figur: Rechteck mit den Ecken f, e unten und g, a oben; oben die Punkte b und a, in der Mitte c und h, unten a und d; punktierte Kreisbögen durch b, c und d]*
 
-## Beweiß.
+### Beweiß.
 
 □ efa + □ ad | □ df | n. 6. II.
 db | df | n. 15 Beschr. I
@@ -28,6 +28,6 @@ Dw. □ ab | ▭ efa | n. 3. Gr. I.
 □ ab — ▭ eac | ▭ efa — ▭ eac | n. 3. Gr. I.
 oder □ ac | ▭ abc
 
-P 3
+<!-- signature mark: P 3 -->
 
-Beschluß.
+<!-- catchword: Beschluß. -->

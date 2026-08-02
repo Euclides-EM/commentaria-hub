@@ -4,7 +4,7 @@
 
 *[Figur: vier waagerechte Linien, bezeichnet 2A, 4a, 2B, 4b]*
 
-## II. Beweiß.
+### II. Beweiß.
 
 |  |  |  |  |  |
 |---|---|---|---|---|
@@ -18,7 +18,7 @@
 
 Oder also:
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. A Werde zweymahl/
 2. deßgleichen B zweymahl/ und
@@ -27,6 +27,6 @@ Oder also:
 
 *[Figur: vier waagerechte Linien, bezeichnet 2A, 1½a, 2B, 1½b]*
 
-Gg 3
+<!-- signature mark: Gg 3 -->
 
-Beweiß
+<!-- catchword: Beweiß -->

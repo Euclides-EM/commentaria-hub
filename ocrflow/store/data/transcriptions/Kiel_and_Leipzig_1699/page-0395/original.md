@@ -6,7 +6,7 @@
 
 cd : de | k : l n. 12. VI.
 
-Beweiß.
+### Beweiß.
 
 ad : dg | □ ac : □ dh n. 1. VI.
 ad : dg | i : k n. 3. Vorb.
@@ -25,15 +25,15 @@ Dw. ad : de | i : l n. 22. V.
 ad, dc : gd, de | i,k : k,l n. 5. Besch. VI.
 Dw. □ ac : □ df | ad, dc : gd, de n. Bw. γ. 11. V.
 
-Beschluß.
+### Beschluß.
 
 Haben derowegen gleichwincklichte Nebenstrichichte Vierecke eine solche Verhältnüß zusammen / als diejenige / welche aus ihren Seiten zusammen gesetzet ist. W Z B.
 
-# Der XXIV. Vortrag.
+## Der XXIV. Vortrag.
 
-Das 18. Beweiß-Stück.
+## Das 18. Beweiß-Stück.
 
 In jedwedem nebenstrichichten Viereck sind die
 
-Zz 3
-üm
+<!-- signature mark: Zz 3 -->
+<!-- catchword: üm -->

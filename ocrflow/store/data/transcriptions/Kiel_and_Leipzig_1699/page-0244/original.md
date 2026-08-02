@@ -8,7 +8,7 @@ durch den Strich ce. n. 9. I.
 Theile getheilet/ durch den Strich db. n. 9. I.
 5. Werden die geraden Striche be. ea. ad. dc. gezogen.
 
-Beweiß
+### Beweiß
 
 △ abc gleichwincklicht dem ABC (?) — n. 2. Wirck.
 bce ∧ eca — n. 3. Wirck.
@@ -25,21 +25,21 @@ u. — be | ea | bc | dc | ad — n. 29. III.
 Dw. ist aebcd ein gleichseitiges Fünffeck/ — n. 22. Beschr. I.
 und dem Kreyß eingeschrieben/ — n. 3. Beschr. IV.
 
-Beschluß.
+### Beschluß.
 
 Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
 lichtes Fünffeck eingeschrieben. W. Z. M.
 
-# Der XII. Vortrag.
+## Der XII. Vortrag.
 
-Das 12. Werckstück.
+## Das 12. Werckstück.
 
 Umb einen gegebenen Kreyß ein gleichseitig
 und gleichwincklicht Fünffeck zubeschreiben.
 
-Gegebenes. — Begehrte.
+### Gegebenes. — Begehrte.
 Kreyß ghikl — 1. Fünffeck bcdef
 2. dem gegebenen Kreyß ümb-
 schrieben.
 
-Wir-
+<!-- catchword: Wir- -->

@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 270)* -->
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 A ________________ | A : a | B : b
 a ____________
@@ -13,7 +13,7 @@ b ________
 
 A—a : a | B—b : b
 
-## Beweiß.
+### Beweiß.
 
 Wenn das Begehrte nicht eintreffen solte / so nehme man an statt b das Stück c,
 
@@ -40,4 +40,4 @@ b ________
 
 *[Figur: Strecken B (mit Theil d) und b]*
 
-A—
+<!-- catchword: A— -->

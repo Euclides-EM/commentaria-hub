@@ -11,20 +11,20 @@ ab + cb + 2 □ acb + 2 □ cb | 2 □ abc + ac + 2acb + 2 □ cb
 2 □ acb + 2 □ cb | 2 □ acb + 2 □ cb
 □ ab + □ cb | 2 □ abc + □ ac — n. 3. Gr. I.
 
-## Beschluß.
+### Beschluß.
 
 Werden also allezeit die beeden □ □ von dem gantzen Strich ab, und von dem einen Stück cb so groß seyn/ als das zweyfache Viereck/ so von dem übrigen Stück bc und dem gantzen ab begriffen wird/ samt dem □ des andern Stücks ac. W. Z. B.
 
-# Nach der Löse-Kunst.
+### Nach der Löse-Kunst.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 1. a | AB — aa + cc | 2ac + bb
 2. b | AC
 3. c | CB
 4. a | b + c
 
-## Beweiß.
+### Beweiß.
 
 a | b + c — n. 4. Gegeb.
 aa | bb + 2bc + cc — n. 4. II.
@@ -35,4 +35,4 @@ c | c
 bc + cc | ac — n. 3. II.
 2 | 2
 
-2bc
+<!-- catchword: 2bc -->

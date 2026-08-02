@@ -2,11 +2,11 @@
 
 <!-- # Das I. Buch. -->
 
-2. Vorbereitung.
+### 2. Vorbereitung.
 1. Von der Seite BA werde abgeschnitten BE | BC n. 3. Vortr.
 2. Werde gezogen der Strich EC
 
-Beweiß.
+### Beweiß.
 
 AB ⊣ BC n. 4. Gegeb.
 BE | BC n. Vorber.
@@ -16,11 +16,11 @@ Drw. BCE ⲗ BAC n. 1. Gr-S. c.
 BCA ⲗ BCE n. 9. Gr-S.
 Drw. BCA ⲗ BAC n. 1. Gr-S. e.
 
-3. Vorbereitung.
+### 3. Vorbereitung.
 1. Von der Seite CA werde abgeschnitten CF | CB n. 3. Vortr.
 2. Werde gezogen der Strich BF.
 
-Beweiß.
+### Beweiß.
 
 CA ⊣ CB n. 3. Gegeb.
 CF | CB n. Vorber.
@@ -32,10 +32,10 @@ Dw. CBA ⲗ BAC n. 1. Gr-S. e
 
 Ist also jedwedes △es längste Seite / über den grössesten Winckel gespannet. W. Z. B.
 
-# Der XIX. Vortrag.
+## Der XIX. Vortrag.
 
-Das 12. Beweiß-Stück.
+## Das 12. Beweiß-Stück.
 
 Jedwedes Dreyeckes grössester Winckel ist der längsten Seite entgegen gesetzet.
 
-Ge-
+<!-- catchword: Ge- -->

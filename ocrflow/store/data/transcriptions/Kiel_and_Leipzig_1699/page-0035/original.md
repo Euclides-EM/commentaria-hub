@@ -2,21 +2,21 @@
 
 <!-- *(Seitenzahl: 17)* -->
 
-# Beschluß.
+### Beschluß.
 
 Also ist die Gestalt ABC ein gleichseitig Dreyeck/ nach 23. Beschreib. und auff den gegebenen Strich AB gesetzet. W. Z. M. q. e. f.
 
-# Der II. Vortrag.
-# Das 2. Werck-Stück.
+## Der II. Vortrag.
+## Das 2. Werck-Stück.
 
 Einem gegebenen Strich/ aus einem gegebenen Düttel/ einen gleichlang-geraden Strich zuziehen.
 
-Gegebene. | Begehrte.
+### Gegebene. | Begehrte.
 1. Gerader Strich ab, | 1. Der Strich cf,
 2. Düttel c. | 2. Gezogen aus dem Düttel c,
 | 3. Und gleichlang dem Strich ab.
 
-# Wirckung.
+### Wirckung.
 
 1. Aus einem der beeden End-Düttele des Striches ab zeucht man nach belieben einen geraden Strich zum Düttel c.
 2. Auff diesen Strich ac setzet man ein gleichseitiges Dreyeck acd, nach dem I. Vortrag.
@@ -27,5 +27,5 @@ Gegebene. | Begehrte.
 
 *[Figur: zwei punktierte Kreise, ein grosser und ein kleiner; darin die Punkte d, c, f oben, a, b in der Mitte und e unten, mit geraden Strichen verbunden]*
 
-C
-Be-
+<!-- signature mark: C -->
+<!-- catchword: Be- -->

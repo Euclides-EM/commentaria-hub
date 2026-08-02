@@ -2,11 +2,11 @@
 
 <!-- *(Seitenzahl: 189)* -->
 
-Vorbereitung.
+### Vorbereitung.
 
 Der Winckel bha werde in das gemachte Kreyß-Stück gesetzet.
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -17,23 +17,23 @@ Beweiß.
 
 Gleiche bewandniß hat es mit allen Winckeln/ so in das verfertigte Kreyßstück könne gesetzet werden.
 
-Beschluß.
+### Beschluß.
 
 Ist also das Kreyß-Stück bha oder lha verfertiget / in welchem ein Winckel ahb ⋀ ecd stehen kan. W. Z. M.
 
-# Der XXXIV. Vortrag.
+## Der XXXIV. Vortrag.
 
-Das 6. Werckstück.
+## Das 6. Werckstück.
 
 Von einem gegebenen Kreyß ein Stück / in welchem ein Winckel / so dem gegebenen Winckel gleich groß ist/ stehen könne / abzuschneiden.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 1. Kreyß dead. | 1. Abgeschnittenes Kreyßstück dea.
 2. Winckel hfg. | 2. In welchem stehen kan aed ⋀ hfg.
 
 *[Figur: Kreis mit Punkten e, d, n, m, a, b; Tangente g–c–f–a–b unten, Striche h und k links]*
 
-Aa 3
+<!-- signature mark: Aa 3 -->
 
-Wir-
+<!-- catchword: Wir- -->

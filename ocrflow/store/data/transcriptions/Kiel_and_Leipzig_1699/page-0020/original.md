@@ -23,4 +23,4 @@ VII. Eine ebene Fläche ist/ welche gerade/ ohne Auffblehung oder Niedersinckung
 
 *[Figur: zwei Vierecke, links ein Trapez, rechts ein nach unten gespitztes Viereck]*
 
-IIX. Ein
+<!-- catchword: IIX. Ein -->

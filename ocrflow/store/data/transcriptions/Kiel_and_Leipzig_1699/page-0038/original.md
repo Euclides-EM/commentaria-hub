@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 20)* -->
 
-Beweiß.
+### Beweiß.
 
 So wird der Düttel b entweder auff den Düttel B, oder über denselben auff d, oder unter denselben auff e fallen.
 
@@ -28,4 +28,4 @@ So wird BAg ⋏ bac | nach der Vorber. | BAf ⋏ bac
 BAC ⋏ bac | nach Gegeb. | BAC ⋏ bac
 Dw. BAC ⋏ BAg | nach 1. GrS. | BAC ⋏ BAf
 
-Keines
+<!-- catchword: Keines -->

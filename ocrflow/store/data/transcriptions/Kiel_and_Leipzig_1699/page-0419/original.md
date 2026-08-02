@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 389)* -->
 
-## I. Beweiß.
+### I. Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -48,6 +48,6 @@ wenn derowegen
 |  | 2 ∧ bac | ∧ bdc | n. 20. III. |
 |  | ⌒ bc | ⌒ bc |  |
 
-Ccc 3
+<!-- signature mark: Ccc 3 -->
 
-Dw.
+<!-- catchword: Dw. -->

@@ -16,4 +16,4 @@ Dw. A | B
 
 Wegen der Algebraischen Zeichen/ welche ich gebrauchet/ ist zu mercken/ daß
 
-die
+<!-- catchword: die -->

@@ -2,13 +2,13 @@
 
 <!-- *(Seitenzahl: 350)* -->
 
-## Beschluß.
+### Beschluß.
 
 Wenn derowegen drey ebenmässige Striche gegeben werden/ so ist das von den äusersten Strichen gemachte Viereck dem gleichseitigen Viereck des mittelsten Striches gleichgroß.
 
 Und wenn der beyden äusersten Striche Viereck dem gleichseitigen Viereck des mittelsten Striches gleichmässig ist/ so stehen die drey Striche in unzertrennter (continua) Ebenmaß. W. Z. B.
 
-# Der XIIX. Vortrag.
+## Der XIIX. Vortrag.
 
 ## Das 6. Werck-Stück.
 

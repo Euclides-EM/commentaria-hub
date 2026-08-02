@@ -13,10 +13,10 @@
 
 *[Figur: Quadrat BADC mit punktierten Kreisbögen; Punkte i, h oben, D, C, f, e in der Mitte, g links, B, A unten]*
 
-# Der XLVII. Vortrag.
+## Der XLVII. Vortrag.
 
 ## Das 33. Beweiß-Stück.
 
 In jedwedem rechtwincklichten Dreyeck/ ist das gleichwincklichte und gleichseitige Viereck / welches von dem Strich/so dem rechten Winckel entgegen stehet/ gemacht wird/ eben so groß/ als die beeden Vierecke zusammen / welche von den beeden Seiten/so den rechten Winckel begreiffen/ gemacht werden : oder/In jedwedem rechtwinck-
 
-lichten
+<!-- catchword: lichten -->

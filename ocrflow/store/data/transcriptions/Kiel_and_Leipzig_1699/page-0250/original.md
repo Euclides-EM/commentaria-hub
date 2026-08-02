@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 226)* -->
 
-Gegebenes. — Begehrte.
+### Gegebenes. — Begehrte.
 Kreyß bcdefg — 1. Gleichseitig und gleichschenck-
 licht Sechseck
 2. dem gegebenen Kreyß einge-
@@ -10,7 +10,7 @@ schrieben.
 
 *[Figur: drei sich schneidende Kreise; im mittleren Kreis ein einbeschriebenes Sechseck g b c d e f mit Mittelpunkt a, punktierte Striche zu den Ecken]*
 
-Wirckung.
+### Wirckung.
 
 1. Wird der Durchschlag fc gezogen.
 2. Nach der Weite ca wird aus dem Düttel c ein Kreyß ge-
@@ -19,7 +19,7 @@ zogen/ welcher den gegebenen Kreyß in den Dütteln d und b schneidet.
 schrieben/welcher den gegebenen Kreyß in den Dütteln e und g schneidet.
 4. Werden die Striche bc, cd, de, ef, fg und gb gezogen.
 
-Vorbereitung.
+### Vorbereitung.
 
 Es werden gezogen die Strahlen ab, ad, ae, ag.
 
@@ -32,4 +32,4 @@ düpffel a ein gerader Strich cf,
 che be, dg durch a, und
 4. die Striche cb, cd, de, ef, fg und gb gezogen.
 
-Be-
+<!-- catchword: Be- -->

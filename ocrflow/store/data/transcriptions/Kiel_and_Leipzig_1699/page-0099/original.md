@@ -4,7 +4,7 @@
 
 *[Figur: Quadrat CDAB mit verlängerter Grundlinie gegen E und punktierten Hülfslinien; Punkte C, D oben, E, B, A unten]*
 
-## Beweiß.
+### Beweiß.
 
 BC ist ein Senckstrich. n. 2. Wirckung.
 Dw. CBA ∠ ⌐ | n. 10. Beschr.
@@ -19,18 +19,18 @@ B ∠ D | n. 34. Vortr.
 
 Dw. wird A B C D ein gleichseitig und gleichwincklich Viereck seyn. n. 29. Beschr.
 
-## Beschluß.
+### Beschluß.
 
 Ist also auff den gegebenen Strich AB ein gleichseitig und gleichwincklicht □ gesetzet. W. Z. M.
 
-## Auff eine andere Arth
+### Auff eine andere Arth
 
 Ein gleichseitig und gleichwincklicht □ mit unveränderter Oeffnung des Kreyß-Ziehers (circini) auff den gegebenen Strich zu setzen.
 
-## Wirckung.
+### Wirckung.
 
 1. Thue man den Kreyß-zieher so weit auff/als die länge des gegebenen Strichs AB.
 
-L
+<!-- signature mark: L -->
 
-2. Wird
+<!-- catchword: 2. Wird -->

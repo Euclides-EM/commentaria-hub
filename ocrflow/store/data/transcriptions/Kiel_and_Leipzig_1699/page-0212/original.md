@@ -4,7 +4,7 @@
 
 *[Figur: Kreis mit Punkten c links, e und b oben rechts, n in der Mitte, d und l unten links, a unten]*
 
-Vorbereitung.
+### Vorbereitung.
 
 Aus dem Mittel-Düpffel e werden gezogen
 1. Zu des Striches ac Endung c der Strich ec.
@@ -12,7 +12,7 @@ Aus dem Mittel-Düpffel e werden gezogen
 3. Zum Düttel l, wo die beeden Striche einander durchschneiden / der Strich el.
 4. Auff den andern Strich bd, der Senckstrich en n 12. I.
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -27,4 +27,4 @@ Beweiß.
 |  | ed | ec | n. 15 Besch. I. |
 |  | □ ed | □ ec | n. 1. Gr. t. II. |
 
-Dw.
+<!-- catchword: Dw. -->

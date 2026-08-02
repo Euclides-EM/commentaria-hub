@@ -10,6 +10,6 @@ Theorema I. (Beweiß-Stück.)
 
 Si duo triangula duo latera duobus lateribus æqualia habeant, utrumque utrique; habeant verò & angulum angulo æqualem, sub æqualibus lineis contentum: Et basin basi æqualem habebunt; eritque triangulum triangulo æquale, & reliqui anguli reliquis angulis æquales erunt, uterq; utriq;, quos æqualia latera subtendunt.
 
-)(
+<!-- signature mark: )( -->
 
-Data
+<!-- catchword: Data -->

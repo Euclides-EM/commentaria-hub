@@ -18,4 +18,4 @@ XXXI. Eine Raute oder geschoben Viereck (Rhombus) hat zwar vier gleiche Seiten/ 
 
 *[Figur: zwei Rauten, ein schief liegendes Parallelogramm mit gleichen Seiten und eine aufrecht stehende Raute]*
 
-XXXII
+<!-- catchword: XXXII -->

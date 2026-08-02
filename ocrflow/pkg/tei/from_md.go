@@ -228,7 +228,9 @@ func isMarkdownTableSeparator(line string) bool {
 }
 
 func markdownTableLineToText(line string) string {
-	line = strings.Trim(line, "| ")
+	line = strings.TrimSpace(line)
+	line = strings.TrimPrefix(line, "|")
+	line = strings.TrimSuffix(line, "|")
 	cells := strings.Split(line, "|")
 	for i := range cells {
 		cells[i] = strings.TrimSpace(cells[i])

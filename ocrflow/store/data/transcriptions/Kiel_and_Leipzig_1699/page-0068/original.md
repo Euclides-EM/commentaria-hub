@@ -16,18 +16,18 @@ und      dc ⊣ db        n. 19. Vortr.
          db | BC        n. Beweiß β.
 Dw.      BC ⊢ dc.       n. 1. Gr-S. d.
 
-Beschluß.
+### Beschluß.
 
 Ist also allezeit des △es / dessen zwo Seiten / zweyen Seiten eines andern △es gleich sind / aber einen grössern Winckel haben / Grundstrich grösser / als des andern △es / welches einen kleinern Winckel hat.   W. Z. B.
 
-# Der XXV. Vortrag.
+## Der XXV. Vortrag.
 
-Das 16. Beweiß-Stück.
+## Das 16. Beweiß-Stück.
 
 Wenn zwey Dreyecke / zwo Seiten zweyen Seiten/jedwede jedweder/gleich groß/eines aber einen grössern Grundstrich / als das andere hat: So wird selbiges auch einen grössern Winckel/als das andere / zwischen seinen zwo Seiten haben.
 
-Gegebene.                    Begehrte.
+### Gegebene.                    Begehrte.
 1. Das △ ABC                 BAC ⊼ bac
 2.     △ abc
 
-3.AB
+<!-- catchword: 3.AB -->

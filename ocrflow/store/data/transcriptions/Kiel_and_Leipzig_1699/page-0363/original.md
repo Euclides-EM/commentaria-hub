@@ -2,7 +2,7 @@
 
 <!-- # Euclidis. -->
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -13,11 +13,11 @@
 
 Dw. der Strich ce der vierte ebenmässige Strich.
 
-## Beschluß.
+### Beschluß.
 
 Ist also zu den drey gegebenen Strichen AB, AC, AD der vierte ebenmässige Strich ce gefunden. W. Z. M.
 
-# Der XIII. Vortrag.
+## Der XIII. Vortrag.
 
 ## Das 5. Werck-Stück.
 
@@ -39,6 +39,6 @@ Zu zweyen gegebenen geraden Strichen einen mitlern ebenmässigen (mediam proport
 
 1. Werde gezogen der Strich ae.
 
-Uu 2
+<!-- signature mark: Uu 2 -->
 
-2. auf
+<!-- catchword: 2. auf -->

@@ -29,8 +29,8 @@
 | Dw. | ▭ dlb + □ el | ▭ alc + □ el α | n. 1. Gr. I. |
 | u. | □ dlb | ▭ alc | n. 3. Gr. I. |
 
-Beschluß.
+### Beschluß.
 
 Wird also/ wann zween gerade Striche ac, bd, so in einem Kreyß bcda stehen/ einander durchschneiden/ das rechtwincklichte Viereck/ welches von des einen Striches Stücken al, lc begriffen
 
-wird
+<!-- catchword: wird -->

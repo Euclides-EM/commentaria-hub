@@ -32,4 +32,4 @@ Als der Würffel zur Wurtzel 8 | 2
 
 Und so offt die Anzahl der Grössen ümb eines zunimmt/so offtmals wird auch die Verhältniß der Ersten Grösse zu der letzten ümb eine Stuffe gegen die Verhältniß der Ersten zu der Andern erhöhet.
 
-XI. Ver-
+<!-- catchword: XI. Ver- -->

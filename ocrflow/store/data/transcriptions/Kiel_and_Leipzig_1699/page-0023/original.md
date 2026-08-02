@@ -17,5 +17,5 @@ XXIII. Unter den Drey-Ecketen Gestalten wird das gleichseitige Drey-Eck von drey
 
 *[Figur: ein gleichseitiges Dreieck]*
 
-A 3
-XXIV.
+<!-- signature mark: A 3 -->
+<!-- catchword: XXIV. -->

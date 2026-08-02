@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 374)* -->
 
-Begehrtes.
+### Begehrtes.
 
 1. Der gerade Strich AB.
 2. Geradstrichichte Gestalt X.
@@ -10,7 +10,7 @@ Begehrtes.
 4. Gestalt X nicht grösser/ als das an den halben Strich angeschlagene Viereck Eg.
 5. Welches dem mangelenden Viereck rs ähnlich ist.
 
-Begehrte.
+### Begehrte.
 
 1. Mangelhafftes □ Ap
 2. □ Ap | △ X.
@@ -20,4 +20,4 @@ Begehrte.
 
 *[Figur: oben eine Gestalt X mit Dreieck und Punkt H, daneben ein Viereck D und ein Viereck mit den Punkten A, S, B, g; darunter nochmals die Gestalt X mit den Punkten k, l, q, m, h, daneben Viereck D mit punctirter Diagonale; unten ein Viereck mit den Punkten c, o, g, u, r, q, n, p, A, c, E, s, B, m nebst punctirtem Halbkreis]*
 
-Wir-
+<!-- catchword: Wir- -->

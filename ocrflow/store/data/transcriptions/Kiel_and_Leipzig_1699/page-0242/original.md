@@ -25,4 +25,4 @@ dcb ∧ dba — δ. — n. 5. I.
 Dw. — dba ∧ 2dab — n. 1. Gr. I.
 u. — bad (?) ∧ 2dab — n. 6. Gr. I.
 
-Be-
+<!-- catchword: Be- -->

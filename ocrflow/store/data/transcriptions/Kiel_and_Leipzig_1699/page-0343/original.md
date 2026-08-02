@@ -27,8 +27,8 @@ Dw. | ba : DC | ac : DE | n. Anh. 7. V.
 
 *[Figur: kleines Dreieck, blass im Hintergrund der Tabelle]*
 
-Beschluß.
+### Beschluß.
 
 So stehen derowegen aller gleichwincklichten Dreyecke Seiten in ebenmässiger Verhällnüß / so ferne sie gleichmässige Winckel einschrencken / oder gleichmässigen Winckeln gegen über stehen. W. Z. B.
 
-Der
+<!-- catchword: Der -->

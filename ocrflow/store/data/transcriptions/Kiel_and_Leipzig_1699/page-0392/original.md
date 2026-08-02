@@ -2,13 +2,13 @@
 
 <!-- *(Seitenzahl: 362)* -->
 
-## Vorbereitung.
+### Vorbereitung.
 
 Wenn gh ⊣ rs
 so werde zu diesen beyden gh und rs der dritte ebenmässige Strich x gefunden. n. 11. VI.
 gh : rs | rs : x.
 
-## Beweiß.
+### Beweiß.
 
 gh : rs | rs : x n. Vorb.
 gh ⊣ rs n. Ang.
@@ -23,13 +23,13 @@ Welches aber wider das 1. Gegeb.
 Eben so wenig kan auch gh ⊢ rs
 γ Müssen derowegen gh | rs. seyn/ W. Z. B.
 
-## Andere Ahrt.
+### Andere Ahrt.
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Zu den drey geraden Strichen ab, cd und ef werde der vierte ebenmässige Strich rs gefunden. n. 12. VI.
 2. Auf den Strich rs werde ein geradstrichichtes Vieleck rsut gesetzet/ welches
 3. Vieleck st ähnlich sey dem Vieleck el, n 18. VI. und auch
 4. Auf gleiche Weise gesetzet sey.
 
-Beweiß.
+<!-- catchword: Beweiß. -->

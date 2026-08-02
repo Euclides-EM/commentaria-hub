@@ -20,6 +20,6 @@
 16. ⌐ Ein Winckel-Maß/ Gnomon.
 17. ○ Kreyß/ Circulus.
 
-A
+<!-- signature mark: A -->
 
-Deß
+<!-- catchword: Deß -->

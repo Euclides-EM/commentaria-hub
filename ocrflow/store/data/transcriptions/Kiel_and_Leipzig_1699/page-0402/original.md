@@ -6,7 +6,7 @@
 
 *[Figur: Viereck q, a, p, g unten mit den Punkten d, e, c, i, b, teils mit punctirten Linien gezeichnet]*
 
-Vorbereitung.
+### Vorbereitung.
 
 1. Aus dem Düttel b werde gegen aq ein gerader Nebenstrich be gezogen. n. 31. I.
 
@@ -20,7 +20,7 @@ Vorbereitung.
 
 6. Endlich werde der Strich gi biß zu dem Strich de verlängert.
 
-Beweiß.
+### Beweiß.
 
 □ pi | □ ie n. 43. I.
 □ gc | □ gc
@@ -31,4 +31,4 @@ Dw. □ pq | □ pc n. 1. VI.
 u. □ pq | □ ge n. 1. Gr. I.
 □ pi | □ pi
 
-Dw.
+<!-- catchword: Dw. -->

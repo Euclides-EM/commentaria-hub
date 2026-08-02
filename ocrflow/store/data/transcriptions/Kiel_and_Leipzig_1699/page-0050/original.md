@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 32)* -->
 
-Beweiß.
+### Beweiß.
 
 CE | CF nach 15. Beschr.
 CD | CD
@@ -11,23 +11,23 @@ ED | FD nach 1. Vortr.
 Dw. ECD ⋏ FCD nach 8. Vortr.
 und CD | Bley-rechter Senck-strich/nach 10. Beschr.
 
-Beschluß.
+### Beschluß.
 
 Und ist also der begehrte bley-rechte Senckstrich CD auff den gegebenen Strich AB, und zwar auff den gegebenen Düttel C gesetzet/W. Z. M.
 
-# Der XII. Vortrag.
+## Der XII. Vortrag.
 
 Das 7. Werck Stück:
 
 Auff einen unendlichen Strich aus einem ausser demselben gegebenen Düttel einen bley-rechten Senckstrich zu ziehen.
 
-Gegebene. | Begehrte.
+### Gegebene. | Begehrte.
 
 1. Der gerade Strich AB | 1. Bley rechte Senckstrich CF.
 2. Der Düttel - - C | 2. Auß dem gegebenen Düttel C.
 3. Ausserhalb dem Strich AB. | 3. Auff den gegebenen Strich AB (gesetzet.
 
-Wirckung.
+### Wirckung.
 
 1. Aus dem Düttel C wird ein Kreyß-stück gezogen/welches den gegebenen Strich in zwey Orthen/ nemlich in D und E durchschneide.
 2. Der Strich DE wird in zween gleiche Theile getheilet in dem Düttel F.
@@ -35,4 +35,4 @@ Wirckung.
 
 *[Figur: Strich AB mit den Düttelen D, F, E, darüber der Düttel C mit punktiertem Kreyß-Stück und Senckstrich CF]*
 
-Vor-
+<!-- catchword: Vor- -->

@@ -10,7 +10,7 @@
 
 12. Der Strich AB werde biß f verlängert.
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -34,6 +34,6 @@
 | oder | □ fp | ⊡ qBb | n. 9. Gr. I. q. |
 | Dw. | □ fp | △ K | n. Bew. a. u. 1. Gr. I. |
 
-Bbb 2
+<!-- signature mark: Bbb 2 -->
 
-□ fo
+<!-- catchword: □ fo -->

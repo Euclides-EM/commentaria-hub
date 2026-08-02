@@ -8,20 +8,20 @@ aa + cc + 2bc + 2cc | 2ac + bb + 2bc + 2cc — n. 2. Grs. I.
 Dw. aa + cc | 2ac + bb — n. 3. Gr. I.
 W. Z. B.
 
-# Der IIX. Vortrag.
+## Der IIX. Vortrag.
 
 ## Das 8. Beweiß-Stück.
 
 Weñ ein gerader Strich auff waserley Weise in zwey Stücke geschnitten ist/ so wird das rechtwincklichte Viereck/ so von dem gantzen Strich und dem einen Stück begriffen wird/ viermahl genommen/ samt dem gleichseitigen Viereck des andern Stückes/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem gantzen/ und ersten Stück zusammen gesetzten Strich gemacht wird.
 
-Gegebene. | Begehrte.
+### Gegebene. | Begehrte.
 
 1. Gerader Strich ab — □ ad | 4 □ abc + □ ca
 2. Geschnitten in c
 3. Angesetztes Stück. bd | bc
 4. ab + bd | ad
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Der Strich ab werde verlänget biß d. daß bd | bc
 2. Auff einen Strich/ so dem Strich ad gleich/ werde ein gleichseitiges □ gesetzet. n. 46. I.
@@ -29,5 +29,5 @@ Gegebene. | Begehrte.
 4. Auff ac werde ein gleichseitig □ gesetzet. n. 46. I.
 5. Werden vier □ a b c gemacht.
 
-O 2
-Beweiß
+<!-- signature mark: O 2 -->
+<!-- catchword: Beweiß -->

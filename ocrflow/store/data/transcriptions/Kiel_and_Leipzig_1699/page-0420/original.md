@@ -14,16 +14,16 @@
 | Dw. | ∧ bac : 2 ∧ bac : ⌒ bc | ∧ feg : 2 ∧ feg : ⌒ fg | n. 4. V. |
 | und | ∧ bac : ⌒ bc | ∧ feg : ⌒ fg | n. 22. V. |
 
-## II. Gegebene.
+### II. Gegebene.
 
 1. Gleichmässige Kreyse abm und efl.
 2. Kreißstücke bdc und fhg.
 
-## II. Begehrtes.
+### II. Begehrtes.
 
 ⌒ bc : ⌒ fg | ⌓ bdc : ⌓ fhg.
 
-## II. Vorbereitung.
+### II. Vorbereitung.
 
 1. Werden in dem Kreyß abm zweene dem ⌒ bc gleichmässige Bogen ci und cm,
 
@@ -35,11 +35,11 @@
 
 5. Werden die Striche fm, mg, gn, nk gezogen.
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
 | fh + hg | gh + hk | n. 15. Besch. I. |
 | fg | gk | n. 1. Vorb. |
 
-Dw.
+<!-- catchword: Dw. -->

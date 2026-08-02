@@ -18,4 +18,4 @@ XXVII. Ein Stumpff-Wincklichtes Dreyeck ( Amblygonium vel obtusangulum ) ist/ we
 
 *[Figur: drei stumpfwinklige Dreiecke]*
 
-XXIIX.
+<!-- catchword: XXIIX. -->

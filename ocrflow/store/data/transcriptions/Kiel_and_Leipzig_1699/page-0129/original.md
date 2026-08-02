@@ -35,4 +35,4 @@ und □ eg | 2 □ gf
 gf | cd | n. 36. I.
 □ gf | □ cd | n. 1. Gr. t. II.
 
-2 □ gf
+<!-- catchword: 2 □ gf -->

@@ -4,7 +4,7 @@
 
 wird/ daß die ebenmässigen Seiten nebenstrichicht werden: Alsdenn werden die übrigen Seiten solcher Dreyecke in einem geraden Striche stehen/ (oder einen geraden Strich machen.)
 
-## Gegebene.
+### Gegebene.
 
 1. Zwey Dreyecke abc und cde, welche
 2. Zwo Seiten ab und ac, zweyen Seiten dc und de, ebenmässig haben. ab : dc | ac : de.
@@ -14,13 +14,13 @@ wird/ daß die ebenmässigen Seiten nebenstrichicht werden: Alsdenn werden die �
 ab ⧣ dc
 ac ⧣ de
 
-## Begehrte.
+### Begehrte.
 
 Die übrigen Seiten bc und ce werden einen geraden Strich be machen.
 
 *[Figur: zwei Dreiecke, ein kleineres mit den Punkten d, e, c und ein grösseres mit den Punkten a, c, b]*
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -32,4 +32,4 @@ Die übrigen Seiten bc und ce werden einen geraden Strich be machen.
 | und | abc ⋀ dce | n. 6. VI. |
 |  | acb + a ⋀ acb + a |  |
 
-Dw.
+<!-- catchword: Dw. -->

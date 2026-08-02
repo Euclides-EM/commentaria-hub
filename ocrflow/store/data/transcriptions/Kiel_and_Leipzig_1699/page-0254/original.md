@@ -1,8 +1,8 @@
-# Das IV. Buch Euclidis.
+<!-- # Das IV. Buch Euclidis. -->
 
 <!-- *(Seitenzahl: 230)* -->
 
-## Wirckung.
+### Wirckung.
 
 1. Dem Kreyß werde ein gleichseitigs Dreyeck afg eingeschrieben / n. 2. IV. oder n. 2. Anhang vorhergehenden Vortrags.
 
@@ -12,7 +12,7 @@
 
 4. Werden die übrigen Seiten auch nach der Grösse cf oder dg in den Kreyß herumb gesetzet/ und angefüget/ n. 1. IV.
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -29,8 +29,8 @@
 
 Die Seiten fc, cn, nm, md, dg u. s. f. sind alle einer Grösse / und dem Kreyß eingefüget/und herümbgesetzet/ n. 3. und 4. Wirck. Wenn auch aus dem Mitteldüpffel zu allen Winckeln die Strahlen oder halbe Durchschläge gezogen werden/ kan man leichtlich durch den 4. und 5. Vortrag des I. Buchs erweisen/ daß alle Winckel einer Grösse seyn. Derowegen auch das 15-Eck dem Kreyß eingeschrieben ist/ n. 3. Beschr. IV.
 
-## Beschluß.
+### Beschluß.
 
 Ist also dem gegebenen Kreyß ein gleichseitiges und gleichwincklichtes Funffzehneck eingeschrieben/ W. Z. M.
 
-Das
+<!-- catchword: Das -->

@@ -2,7 +2,7 @@
 
 <!-- # Das V. Buch -->
 
-# Vorbereitung.
+### Vorbereitung.
 
 1. Der Grundstrich bc werde nach Nothdurfft gegen g verlängert.
 2. Von cg werde abgeschnitten das Stück ce | CE — n. 3. I.
@@ -10,7 +10,7 @@
 4. Der Strich ba werde biß f, und
 5. Der Strich ed auch biß f verlängert.
 
-# Beweiß.
+### Beweiß.
 
 DEC ⋏ dec — n. 3. Vorb.
 Dw. DEC ⋏ dec — n. 8. I.
@@ -33,4 +33,4 @@ u. ba : cd | bc : CE — n. 11. V.
 cd | CD — n. 3. Vorb.
 ba | ba
 
-Dw.
+<!-- catchword: Dw. -->

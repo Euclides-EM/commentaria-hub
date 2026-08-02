@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 245)* -->
 
-## I. Beweiß.
+### I. Beweiß.
 
 l | a
 c | a
@@ -34,6 +34,6 @@ D | 3B
 3B | 9b
 β (?) D | 9b
 
-Hh 3
+<!-- signature mark: Hh 3 -->
 
-Vorbe-
+<!-- catchword: Vorbe- -->

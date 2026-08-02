@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 147)* -->
 
-## Gegebene. — Begehrte.
+### Gegebene. — Begehrte.
 
 1. Zweene Kreyse abc und aeq
 2. Deren kleinerer den grössern inwendig berühret in a.
@@ -11,15 +11,15 @@
 
 1. Der verlängerte Strich cf stösset auff den Anrührungs-Düttel a.
 
-## I. Begebenheit.
+### I. Begebenheit.
 
-## Vorbereitung.
+### Vorbereitung.
 
 Stösset der gegebene Strich cf nicht auff a, so lasse man ihn auff b fallen.
 
 *[Figur: zwei einander inwendig berührende Kreise; oben der Punkt a, rechts oben b, im Innern e, f und d, unten q; durch die Mittel-Düpffele gezogene Striche]*
 
-## Beweiß.
+### Beweiß.
 
 af | ef — n. 15. Beschr. I.
 fc | fc
@@ -30,6 +30,6 @@ Dw. ef + fc | bf + fc — n. 1. Gr. I.
 oder ef | bf — n. 3. Gr. I.
 Welches aber unmöglich n. 9. Gr. I.
 
-T 2
+<!-- signature mark: T 2 -->
 
-II. Be-
+<!-- catchword: II. Be- -->

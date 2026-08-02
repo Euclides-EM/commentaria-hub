@@ -2,16 +2,16 @@
 
 <!-- # Euclidis. -->
 
-Beschluß.
+### Beschluß.
 Müssen also jedwedes △es zweene Winckel auff allerley Weise genommen/ kleiner seyn/ als ⊥. W. Z. B.
 
-# Der XIIX. Vortrag.
+## Der XIIX. Vortrag.
 
-Das 11. Beweiß-Stück.
+## Das 11. Beweiß-Stück.
 
 Jedwedes Dreyeckes längste Seite überspannet den grössesten Winckel.
 
-Gegebene. Begehrte.
+### Gegebene. Begehrte.
 1. △ ABC
 2. AC ⊣ AB 1. ABC ⲗ BCA.
 3. AC ⊣ CB 2. ABC ⲗ BAC.
@@ -19,11 +19,11 @@ Gegebene. Begehrte.
 
 *[Figur: Dreieck ABC mit B oben, A unten links, C unten rechts; Punkte E auf AB, F und D auf AC, punktierte Linien von B nach F und D.]*
 
-1. Vorbereitung.
+### 1. Vorbereitung.
 1. Von dem Strich AC werde abgeschnitten AD | AB, n. 3. Vortr.
 2. Werde der Strich BD gezogen.
 
-Beweiß.
+### Beweiß.
 
 AB ⊢ AC n. 2. Gegeb.
 BA | AD n. 1. Vorber.
@@ -34,4 +34,4 @@ ABC ⲗ DBA n. 9. Gr-S.
 Dw. ABC ⲗ BDA n. 1. Gr-S. a.
 und ABC ⲗ BCA n. 1. Gr-S. e.
 
-2. Vor-
+<!-- catchword: 2. Vor- -->

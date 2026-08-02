@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 144)* -->
 
-## Gegebene. — Begehrtes.
+### Gegebene. — Begehrtes.
 
 1. Der Kreyß bcf.
 2. Düttel a in solchem Kreyß.
@@ -11,7 +11,7 @@
 
 a Der Mittel-Düpffel dieses Kreyses. bcf
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Ziehe man die geraden Striche cb und cd.
 2. Theile man dieser Striche jedweden in zween gleiche Theil/
@@ -20,9 +20,9 @@ n. 10. I.
 
 *[Figur: Kreis mit den Punkten h oben, b links oben, e links, c links unten, k unten, d rechts unten und f rechts; im Innern der Düttel a, die Mittel m und n, mit teils punktierten Strichen verbunden]*
 
-## I. Beweiß.
+### I. Beweiß.
 
 Wolte man sagen/nicht a, sondern ein anderer Düttel were der Mittel-Düpffel/ so würde folgen / daß mehr/ als zween gleichlange Striche aus einem Düttel / so doch nicht der Mittel Düpffel ist / könten zum Umfang gezogen werden / welches aber unmöglich/
 n. 7. III.
 
-II. Be-
+<!-- catchword: II. Be- -->

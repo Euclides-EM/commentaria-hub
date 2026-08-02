@@ -2,9 +2,9 @@
 
 <!-- # Das I. Buch -->
 
-2. Begebenheit.
+### 2. Begebenheit.
 
-Gegebenes. | Begehrtes.
+### Gegebenes. | Begehrtes.
 1. □ ABDC | ABDC ⌻ CDEF
 2. □ CDEF
 3. Grundstrich CD
@@ -12,7 +12,7 @@ Gegebenes. | Begehrtes.
 
 *[Figur: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, F, B, E oben und C, D unten]*
 
-Beweiß.
+### Beweiß.
 
 AB | CD
 FE | CD } n. 34. Vortr.
@@ -27,8 +27,8 @@ BFCD ⩓ BFCD
 Dw. △ BFCD + △ AEF | △ BDE + △ BFCD n. 2. Gr:S
 oder ABDC ⌻ CDEF n. 9. Gr:S. q.
 
-3. Begebenheit.
+### 3. Begebenheit.
 
 *[Figur: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, B, F, E oben, G in der Mitte und C, D unten]*
 
-Be-
+<!-- catchword: Be- -->

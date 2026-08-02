@@ -8,4 +8,4 @@ Die Ubrigen werden nicht groß hinderlich seyn/ wenn sie gleich nicht geändert 
 
 Und so viel hat man dieses mal zu erinnern vor nohtwendig gehalten. Solte nun dem günstigen Leser diese geringe Arbeit gefallen / so wird man mehr dergleichen/ ob GOtt wil/ an den Tag zu geben gereitzet werden.
 
-Lecto-
+<!-- catchword: Lecto- -->

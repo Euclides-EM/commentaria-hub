@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 278)* -->
 
-III. Gegebene.
+### III. Gegebene.
 
 *[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
 
@@ -10,11 +10,11 @@ A : B | b : c
 B : C | a : b
 A ⊦ C
 
-Begehrtes.
+### Begehrtes.
 
 a ⊦ c
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -29,8 +29,8 @@ Beweiß.
 | b | b | |
 | Dw. a ⊦ | c | n. 10. V. |
 
-Beschluß.
+### Beschluß.
 
 Wenn derowegen Sechs Grössen in verwirreter Ebenmaß stehen/ und die I. grösser ist / als die III. so wird auch die IV. grösser seyn/ als die VI. Ist aber die I. eben so groß/als die III. so ist auch die IV. eben so groß/als die VI. Und wenn die I. kleiner ist/als die III. so ist auch die IV. kleiner/als die VI. W. Z. B.
 
-Der
+<!-- catchword: Der -->

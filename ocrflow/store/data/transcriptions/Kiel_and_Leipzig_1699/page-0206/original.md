@@ -4,12 +4,12 @@
 
 *[Figur: Kreis mit Punkten h, g, a, k, b; unten links Winckel mit Punkten d, c, e, f]*
 
-Vorbereitung.
+### Vorbereitung.
 
 1. In das gefundene Kreyßstück werde der Winckel ahb gesetzt.
 2. Aus g werde gegen ab ein Senckstrich gk gezogen n. 12. I.
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -25,9 +25,11 @@ Beweiß.
 
 III. Arth.
 
-Gegebenes: Der Winckel ecd | ∟
+### Gegebenes:
 
-Wirckung.
+Der Winckel ecd | ∟
+
+### Wirckung.
 
 1. Wird der gegebene Strich ab in zween gleiche Theil getheilet. n. 10. I.
 2. Aus dieses Striches ab Mittel m wird nach der weite ma ein Kreyß beschrieben.

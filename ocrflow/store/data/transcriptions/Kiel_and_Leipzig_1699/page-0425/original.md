@@ -24,6 +24,6 @@ a Gleichmässige Kreyse haben gleichmässige Durchschläge
 p. 253. werden unten angeleimet:
 Grösse mehr vielfältig/ als die kleinere: und eine einige Grösse ist gegen die Kleinere mehr vielfältig/ als gegen die Grössere.
 
-Ii 3
+<!-- signature mark: Ii 3 -->
 
-Gege-
+<!-- catchword: Gege- -->

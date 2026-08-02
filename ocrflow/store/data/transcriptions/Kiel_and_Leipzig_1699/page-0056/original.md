@@ -4,23 +4,23 @@
 
 Ist also bey jedwedem △, wan dessen eine Seite verlängert wird/ der auswendige Winckel viel grösser / als einer derer inwendig gegen überstehenden Winckel. W. Z. B.
 
-# Der XVII. Vortrag.
+## Der XVII. Vortrag.
 
-Das 10. Beweiß-Stück.
+## Das 10. Beweiß-Stück.
 
 In jedwedem Dreyeck sind zween Winckel zusammen/ auff waserley Weise genommen/ kleiner/ als zween rechte Winckel.
 
-Gegebenes. Begehrte.
+### Gegebenes. Begehrte.
 △ ABC. ABC + ACB ⲗ ⊥
 ABC + ACB ⲗ ⊥
 ACB + BAC ⲗ ⊥
 
-Vorbereitung.
+### Vorbereitung.
 Es werde nach belieben eine Seite/ und zwar anitzo AB gegen D verlängert.
 
 *[Figur: Dreieck ABC mit waagerechter Grundlinie EABD; C oben rechts, die Grundlinie über A hinaus nach E und über B hinaus nach D verlängert.]*
 
-Beweiß.
+### Beweiß.
 
 ACB ⲗ CBD n. 16. Vortr.
 ABC ⋀ ABC
@@ -32,4 +32,4 @@ Gleicher Gestalt / wenn AC verlängert wird /
 muß CAB + ABC ⲗ ⊥, und wenn man BA gegen E verlängert/
 muß BAC + CBA ⲗ ⊥ seyn.
 
-Be-
+<!-- catchword: Be- -->

@@ -20,4 +20,4 @@ Wenn nun gesetzet wird □ ca,ab: oder □ cab, so heisset es ; der Strich ca ge
 
 Bißweilen wird ein gantzer Strich ( auch wol Fläche oder Leib) durch einen Buchstaben angezeiget/ als ab, welches so viel bedeutet/als der Strich a in den Strich b gezogen.
 
-Wann
+<!-- catchword: Wann -->

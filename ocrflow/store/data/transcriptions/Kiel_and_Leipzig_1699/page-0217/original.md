@@ -7,18 +7,18 @@
 Dw. □ hag + □ fg | □ ad + □ fg n. 1. Gr. I.
 u. □ hag | □ ad n. 3. Gr. I.
 
-## Beschluß.
+### Beschluß.
 
 Wird also allezeit das rechtwincklichte Viereck □ hag oder □ eab, welches von dem gantzen schneidenden Strich ea oder ha, und dem Stück/ so zwischen dem erwehlten Düttel a und äussern Kreyßkrümme b oder g stehet/ begriffen wird/ so groß seyn/ als das gleichseitige Viereck des Rührstriches ad, nemlich □ ad. W. Z. B.
 
-# Der XXXVII. Vortrag.
+## Der XXXVII. Vortrag.
 
 ## Das 31. Beweiß-Stück.
 
 Wenn man ausser dem gegebenen Kreyß einen Düttel erwehlet/ und von selbigem zween Striche zeucht/ deren einer den Kreyß schneidet/ der andere aber nur auff den Kreyß stösset : Und als dann das rechtwincklichte Viereck/ welches von dem gantzen schneidenden Strich/ und dem Stück/ so zwischen dem Düttel und äussern Kräyßkrümme stehet/ begriffen wird/ eben so groß ist/ als das gleichseitige Vier-Eck des darauff stossenden Striches / so wird solcher auffstossender Strich ein Rührstrich des Kreysses seyn.
 
-Gegebene. Begehrtes.
+### Gegebene. Begehrtes.
 
 1. Kreyß dhkg. da | Rührstrich des Kreyses.
 
-2.Düt-
+<!-- catchword: 2.Düt- -->

@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 381)* -->
 
-## Wirckung.
+### Wirckung.
 
 1. An den Strich ab werde ein übertreffendes nebenstrichichtes Viereck/ welches dem gleichseitigen Viereck des Striches ab sampt dem gleichseitigen Viereck des halben Striches bc gleichmässig sey/ also angeschlagen/ daß der Uberschuß □ be ähnlich sey dem □ ab. n. 29. VI.
 
@@ -26,6 +26,6 @@ Die Anschlagung kan also verrichtet werden.
 
 7. Die Länge be schneidet man von dem Strich ba ab n. 3. I. so bekommt man den Düttel i, welcher den Strich ab begehrter massen theilet.
 
-Bbb 3
+<!-- signature mark: Bbb 3 -->
 
-Beweiß.
+<!-- catchword: Beweiß. -->

@@ -12,20 +12,20 @@
 | Dw. | ab : ed ⊤ ef : bc | n. 11. V. n. B. β |
 | oder | AB : DE ⊤ EF : BC | n. Anh. 7. V. |
 
-## II. Gegebene.
+### II. Gegebene.
 
 1. △. ABC
 2. △. EFD
 3. ABC ⋏ DEF.
 4. AB : DE ⊤ EF : BC.
 
-## II. Begehrtes.
+### II. Begehrtes.
 
 △ ABC ⊤ △ EFD.
 
-## II. Vorbereitung wie die I.
+### II. Vorbereitung wie die I.
 
-## II. Beweiß.
+### II. Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -40,6 +40,6 @@
 | Dw. | △ abc ⊤ △ efd | n. 9. V. |
 | oder | △ ABC ⊤ △ EFD | n. Anh. 7. V. |
 
-Xx
+<!-- signature mark: Xx -->
 
-Beschluß.
+<!-- catchword: Beschluß. -->

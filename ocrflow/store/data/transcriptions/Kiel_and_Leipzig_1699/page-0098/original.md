@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 80)* -->
 
-## Beweiß.
+### Beweiß.
 
 tce ∠ A. | n. 22. Vortr.
 △ tce | □ a. | n. 44. Vortr.
@@ -19,20 +19,20 @@ ypzq | △ A + △ B | n. 9. GrS. q.
 Dw. ypzq | □ mngo | n. 1. GrS.
 und D ∠ fgn | n. 2. Wirck.
 
-## Beschluß.
+### Beschluß.
 
 Ist also der gegebenen Gestalt ypzq, nach dem gegebenen ∠ D, ein gleichhaltendes □ mngo verfertiget. W. Z. M.
 
-# Der XLVI. Vortrag.
+## Der XLVI. Vortrag.
 
 ## Das 14. Werckstück.
 
 Auff den gegebenen geraden Strich ein gleichseitig und gleichwincklich Viereck zu beschreiben.
 
-Gegebenes. | Begehrtes.
+### Gegebenes. | Begehrtes.
 Gerader Strich AB | □ ABCD
 
-## Wirckung.
+### Wirckung.
 
 1. AB werde verlänget gegen E.
 2. Auff B werde ein Senckstrich BC gesetzet. n. 11. Vortrag.
@@ -41,4 +41,4 @@ Gerader Strich AB | □ ABCD
 5. CD | CB n. 2. Vortr.
 6. Aus A werde gezogen AD
 
-Beweiß.
+<!-- catchword: Beweiß. -->

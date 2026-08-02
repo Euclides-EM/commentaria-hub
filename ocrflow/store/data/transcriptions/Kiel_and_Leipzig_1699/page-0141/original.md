@@ -7,7 +7,7 @@ d | bd
 f | cd
 e | ad
 
-## Beweiß.
+### Beweiß.
 
 2be + dd | bb + ee | n. 7. II.
 ff | ff
@@ -23,7 +23,7 @@ cc | bb + aa + — 2be | n. 3. Gr. I.
 
 W. Z. B.
 
-## Andere Arth.
+### Andere Arth.
 
 aa | ff + bb — 2bd + dd | n. 47. I.
 ff + dd | cc
@@ -32,10 +32,10 @@ aa | bb — 2bd + cc | n. 3. Gr. I.
 
 W. Z. B.
 
-## Anmerckung.
+### Anmerckung.
 
 Dieser Beweiß findet auch auff gewisse Maaß statt bey den recht-und stumpffwincklichten △ △ / wenn man das □ einer Seite/ so einem spitzigen Winckel übergespannet ist / vergleichen wil mit den übrigen beeden Seiten / deren eine dem rechten oder stumpffen Winckel / die andere aber dem übrigen spitzigen Winckel gegenüber stehet.
 
-Q 2
+<!-- signature mark: Q 2 -->
 
-Der
+<!-- catchword: Der -->

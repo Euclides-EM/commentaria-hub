@@ -1,17 +1,17 @@
-# Das VI. Buch Euclidis.
+<!-- # Das VI. Buch Euclidis. -->
 
 <!-- *(Seitenzahl: 392)* -->
 
-## Beschluß.
+### Beschluß.
 
 Verhalten sich derowegen in gleichmässigen Kreisen/ die Winckel also gegen einander/ wie die Bogen / auf welchen dieselben Winckel stehen. Und also verhalten sich auch die Kreißschnitte gegen einander/ nemlich/ wie ihre Mittel-Düpffels-Winckel. W. Z. B.
 
-# ENDE
+ENDE
 Des VI. Buchs Euclidis.
 
 ---
 
-## Druckfehler / welche mit der Feder zu verbessern.
+# Druckfehler / welche mit der Feder zu verbessern.
 
 Pag. 21. lin. 20. pro gleichseitig. leg. gleichschencklicht.
 
@@ -53,4 +53,4 @@ post l. 16. inseratur : Beschreibungen.
 
 13. pro ab □ bd leg. ab + bd
 
-121. l.
+<!-- catchword: 121. l. -->

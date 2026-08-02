@@ -22,5 +22,5 @@ IX. Das gantze ab ist grösser/ als ein Theil oder Stück ac desselben ( es mag 
 
 *[Figur: ein Strich a–b, darunter der Punkt c]*
 
-B 3
-(q) Wenn
+<!-- signature mark: B 3 -->
+<!-- catchword: (q) Wenn -->

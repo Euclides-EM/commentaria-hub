@@ -4,7 +4,7 @@
 
 II. Vorbereitung ist wie die I. Vorher.
 
-## II. Beweiß.
+### II. Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -18,13 +18,13 @@ II. Vorbereitung ist wie die I. Vorher.
 | Dw. | □ AD ⊤ □ FH | n 9. V. |
 | oder | □ ad ⊤ □ fh | n 1. Vorb. |
 
-## Beschluß.
+### Beschluß.
 
 Wenn derowegen gleichmässige oder gleichgrosse Nebenstrichichte Vierecke / welche einen gleichmässigen Winckel haben/ gegeben werden/ so haben dieselben auch bey den gleichmässigen Winckeln wechselmässige Seiten.
 
 Und welche Vierecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ die sind gleichmässig oder gleichgroß. W.Z.B.
 
-# Der XV. Vortrag.
+## Der XV. Vortrag.
 
 ## Das 10. Beweiß-Stück.
 
@@ -32,4 +32,4 @@ Gleichmässige/ und einen gleichmässigen Winckel habende Dreyecke/ haben auch b
 
 Und welche Dreyecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ dieselben sind gleichmässig.
 
-I. Gegebene.
+<!-- catchword: I. Gegebene. -->

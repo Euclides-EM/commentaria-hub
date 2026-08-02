@@ -5,11 +5,11 @@
 Dw. △ abc : △ abg | △ abc : △ def n. 7. V.
 u. △ abc : △ def ⊐ bc : ef n. 11. V.
 
-## Beschluß.
+### Beschluß.
 
 Haben derowegen ähnliche Dreyecke zu einander zwiefach grössere Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
 
-# Der XX. Vortrag.
+## Der XX. Vortrag.
 
 ## Das 14. Beweiß-Stück.
 
@@ -31,5 +31,5 @@ Die ähnlichen Vielecke stehen auch gegen einander in zwiefach grösserer Ebenma
 
 *[Figur: zwei Fünfecke; das kleinere mit den Ecken f, g, k, h, i und punktierten Diagonalen; das grössere mit den Ecken a, b, e, c, d und punktierten Diagonalen]*
 
-Y y 2
-Vorbe-
+<!-- signature mark: Y y 2 -->
+<!-- catchword: Vorbe- -->

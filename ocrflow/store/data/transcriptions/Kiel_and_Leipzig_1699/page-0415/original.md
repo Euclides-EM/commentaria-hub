@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 385)* -->
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -21,16 +21,16 @@
 |  | CK + BK | BC | n. 9. Gr. I. q. |
 | Dw. | □ AI + □ AF | □ BD | n. 14. V. |
 
-## Beschluß.
+### Beschluß.
 
 Sind derowegen allezeit die beyden/ auf denen beyden/ den rechten Winckel begreiffenden Seiten stehende/ und einander ähnliche Gestalte/ derjenigen Gestalt/ welche auch diesen beyden Gestalten ähnlich/ und auf der dem rechten Winckel übergespanneten Seite stehet/ gleichmässig. W. Z. B.
 
-# Der XXXII. Vortrag.
+## Der XXXII. Vortrag.
 
 ## Das 22. Beweiß-Stück.
 
 Wenn zwey Dreyecke gegeben werden/ deren eins zwo Seiten/ zweyen Seiten des andern ebenmässig sind, und das eine Dreyeck mit seinem Winckel an des andern Dreyeck Winckels also gestossen
 
-Ccc
+<!-- signature mark: Ccc -->
 
-wird/
+<!-- catchword: wird/ -->

@@ -12,7 +12,7 @@
 | b + a : c + a | ⊣ a a | n. 27. V. |
 | b : c | ⊣ b + a : c + a | n. 33. V. |
 
-## Beschluß.
+### Beschluß.
 Wenn man derowegen zu zwo ungleichen Grössen zwey gleiche Stücke thut / so werden die zusammengesetzte Grössen eine kleinere Verhältnüß zu einander haben / als die Ersten beyden Grössen. Schneidet man aber zwey gleiche Stücke von denselben ab / so werden die Ubergebliebene eine grössere Verhältnüß haben / als die Ersten beyden ungleichen Grössen. W. Z. B.
 
 ---
@@ -27,4 +27,4 @@ II. Wechselmässige (Reciprocæ) Gestalte sind / in welchen beyderseits vor- und
 
 III. Ein nach der äusersten und mittelsten Verhältnüß (secundùm mediam & extremam rationem) getheilter Strich wird genennet / welcher sich zu seinem grösseren Stück also / wie solch grössestes Stück zu dem kleinern / verhält.
 
-IV. Die
+<!-- catchword: IV. Die -->

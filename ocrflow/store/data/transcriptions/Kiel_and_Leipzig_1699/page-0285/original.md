@@ -20,16 +20,16 @@ Weil nun I. die Vervielfältigungen der Grössen A u. B. grösser/ als die Vervi
 
 Dw. müssen auch A : a | B : b — n. 6. Besch. V.
 
-## Beschluß.
+### Beschluß.
 
 Wenn derowegen etliche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind/ so sind solche Verhältnüsse auch unter sich selbst gleichhaltig. W. Z. B.
 
-# Der XII. Vortrag.
+## Der XII. Vortrag.
 
 ## Das 12. Beweiß-Stück.
 
 Wenn man etliche ebenmässige (und zwar so viel man deren wil) Grössen hat/ so werden/ wie sich eine Vorgehende zu ihrer Nachgehenden hält/ auch alle Vorgehende zusammen genommen zu allen Nachgehenden zusammen verhalten.
 
-Kk 3
+<!-- signature mark: Kk 3 -->
 
-Gegebene.
+<!-- catchword: Gegebene. -->

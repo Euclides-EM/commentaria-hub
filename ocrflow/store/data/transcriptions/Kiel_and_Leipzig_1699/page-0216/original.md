@@ -4,14 +4,14 @@
 
 *[Figur: Kreis mit Düttel a oberhalb; Striche von a durch den Kreis mit Punkten b, g, d, f, c, h, e]*
 
-Vorbereitung.
+### Vorbereitung.
 
 Aus dem Mittel-Düpffel ac werden gezogen.
 1. Der Strahl cg.
 2. Der Senckstrich cd.
 3. Ein Senckstrich cf auff den Schneidenden Strich ah n. 12. I.
 
-I. Beweiß.
+### I. Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -23,7 +23,7 @@ I. Beweiß.
 |  | □ ad + □ dc + □ bc | ▭ eab + □ bc + □ dc | n. 2. Gr. I. |
 |  | □ ad | ▭ eab | n. 3. Gr. I. |
 
-II. Beweiß.
+### II. Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -33,4 +33,4 @@ II. Beweiß.
 |  | □ fc + □ fg | □ gc oder □ dc | n. 47. I. |
 | Dw. | □ ad + □ dc + □ fc + □ fg | □ af + □ fc + □ dc | n 2. Gr. I. |
 
-Dw.
+<!-- catchword: Dw. -->

@@ -4,18 +4,18 @@
 
 *[Figur: Zwei sich schneidende Striche mit den Dütteln G, M, B, D, E, F, K, I, A, H, C; der einfallende Strich IK senkrecht]*
 
-Beweiß.
+### Beweiß.
 
 1. Entweder sind        AB — DC.
 2. oder lauffen zusammen in H.
 3. oder  -  -  -  -  in G.
 
-Vorbereitung.
+### Vorbereitung.
 
 Wann AB = DC so setze man auff E
 einen Winckel IEM ⋏ EFD n. 23. Vortr.
 
-Verfolg des Beweises.
+### Verfolg des Beweises.
 
         IEM ⋏ EFD  n. 1. Vorbereit.
         BEF ⋏ EFD  n. 1. Angen. uñ 28. Vortr.
@@ -24,16 +24,16 @@ Welches aber unmöglich n. 9. Gr-S.
 
 Wann aber die beeden Striche BA und DC in dem Düttel H zusammen kommen / so werden in dem △ EHF zween Winckel HEF + HFE ⋏ ⏥, welches unmüglich / nach 17. Vortr. müssen also die beeden Striche in G zusammen kommen.
 
-Beschluß.
+### Beschluß.
 
 Wenn derwegen bey den beeden Strichen der einfallende Strich auff einer Seiten zween Winckel/ so kleiner als ⏥, machet so müssen solche Striche auff selbiger Seite/wo die kleinere Winckel stehen/ zusammen kommen. W. Z. B.
 
-# Der XXIX. Vortrag.
+## Der XXIX. Vortrag.
 
-Das 20. Beweiß Stück.
+## Das 20. Beweiß Stück.
 
 Der auff zween gerade neben-Striche einfallende gerade Strich machet die wechsel-weiß ge-
 
-H
+<!-- signature mark: H -->
 
-nom-
+<!-- catchword: nom- -->

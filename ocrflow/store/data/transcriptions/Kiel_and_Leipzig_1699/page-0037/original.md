@@ -2,24 +2,24 @@
 
 <!-- *(Seitenzahl: 19)* -->
 
-Beweiß.
+### Beweiß.
 
 cf | ab nach 2 Vortr.
 cf | cg nach 15 Beschr.
 Dw. ab | cg nach 1 Grund-S.
 
-Beschluß.
+### Beschluß.
 
 Und ist also von dem grössern ch abgeschnitten ein Stück cg | ab
 W. Z. M.
 
-# Der IV. Vortrag.
+## Der IV. Vortrag.
 
-Das I. Beweiß-Stück.
+## Das I. Beweiß-Stück.
 
 Wenn in zweyen Dreyecken zwo Seiten des einen eben so groß seynd / als zwo Seiten des andern/und zwar jedwede Seite einer jedweden absonderlich; darnach auch diejenigen Winckel/ welche von den gedachten Seiten eingeschlossen werden / gleich sind: so werden auch die beeden Grund-Striche/ und die beeden Dreyecke ein ander gleich seyn; deßgleichen werden die übrigen Winckel/ derer gegenüberstehende Striche gleich groß seynd / auch ein ander gleich seyn.
 
-Gegebene. | Begehrte.
+### Gegebene. | Begehrte.
 
 1. Zwey geradstrichiche Dreyecke ABC und abc | BC | bc, ABC ⏉ abc
 2. AB + AC | ab + ac | BCA ⋏ bca
@@ -27,10 +27,10 @@ Gegebene. | Begehrte.
 4. AC | ac
 5. BAC ⋏ bac
 
-Vorbereitung.
+### Vorbereitung.
 
 Man hebe das △ abc auff/ und setze es auff das △ ABC also / daß der Düttel a auff den Düttel A, und der Strich AB auff den Strich AB falle.
 
-C 2
+<!-- signature mark: C 2 -->
 
-Beweiß.
+<!-- catchword: Beweiß. -->

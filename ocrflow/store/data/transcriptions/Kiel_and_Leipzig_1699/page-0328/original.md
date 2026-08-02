@@ -2,7 +2,7 @@
 
 <!-- # Das VI. Buch -->
 
-I. Gegebene. — Begehrtes.
+### I. Gegebene. — Begehrtes.
 
 1. Dreyeck abc
 2. Dreyeck def — ab : de | △ abc : △ def.
@@ -11,7 +11,7 @@ I. Gegebene. — Begehrtes.
 
 *[Figur: Zwei Dreiecke mit gemeinsamer Grundlinie u t d q e q a r s b, aus den Gipffeln f und c gehen gestrichelte und ausgezogene Striche auf die Grundlinie herab]*
 
-# Vorbereitung.
+### Vorbereitung.
 
 1. Des grössern Dreyecks abc Grundstrich ab, welcher dreyfach gegen des kleinern Dreyecks def Grundstrich de ist/ werde in solche Stücke getheilet/ welche dem Grundstrich de gleichmässig sind n. 3. I.
 
@@ -27,4 +27,4 @@ de|ar|rs|sb.
 
 6. Werden die Striche ft und fu gezogen.
 
-Beweiß-
+<!-- catchword: Beweiß- -->

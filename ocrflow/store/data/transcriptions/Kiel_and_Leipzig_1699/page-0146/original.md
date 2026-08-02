@@ -16,4 +16,4 @@ IX. Ein Kreyß-Schnitt (sector circuli) ist/ wenn zween gerade / aus dem Mitteld
 
 X. Aehnliche oder gleichgestalte Kreyßstücke sind/ in welchen gleichgrosse Winckel stehen können.
 
-Also
+<!-- catchword: Also -->

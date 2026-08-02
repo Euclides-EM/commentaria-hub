@@ -33,4 +33,4 @@ Und so ferner n. 3. I.
 
 Es werden auch o b und c 4 gezogen.
 
-Beweiß.
+<!-- catchword: Beweiß. -->

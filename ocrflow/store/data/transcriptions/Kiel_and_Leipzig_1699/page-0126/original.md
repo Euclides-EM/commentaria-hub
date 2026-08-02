@@ -4,7 +4,7 @@
 
 *[Figur: Links ein Quadrat e; daneben vier schmale Rechtecke f, g, h, i mit k, l, n, m oben, unter ihnen der Strich d b c a; rechts ein Quadrat mit gestrichelten Teilungen, Feldern N L G, M K F, I H E.]*
 
-## Beweiß.
+### Beweiß.
 
 cb | bd — n. 1. Vorber.
 ac | ac
@@ -23,8 +23,8 @@ cb | bc
 u. □ ac + 4 □ acb + 4 □ cb | □ ac + 4 □ abc — n. 2. Gr. I.
 Dw. □ ad | □ ac + 4 □ abc — n. 1. Gr. I.
 
-## Beschluß.
+### Beschluß.
 
 Muß also allezeit das gleichseytige □ des verlängerten Strichs ad so groß seyn/ als das □, welches vom gantzen Strich ab und dem einen Stück cb begriffen wird/ viermal genom̄en/ samt dem □ des andern Stückes ac. W. Z. B.
 
-Nach
+<!-- catchword: Nach -->

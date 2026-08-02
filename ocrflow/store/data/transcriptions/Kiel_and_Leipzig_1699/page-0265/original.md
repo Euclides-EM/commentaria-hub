@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 241)* -->
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -31,11 +31,11 @@
 | Dw. | D | 3b | |
 | β u. | B + D | 5b. | |
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Es werde die Grösse a sechsmahl/ und
 2. Die Grösse b auch sechsmahl genommen.
 
-Hh
+<!-- signature mark: Hh -->
 
-A
+<!-- catchword: A -->

@@ -10,15 +10,15 @@ n. 2. Gr. I.
 □ ac + □ acb + □ acdb | □ acb + □ acdb + □ ac
 □ dac + □ cb | □ ab — n. 3. Gr. I.
 
-# Auff eine andere Arth.
+### Auff eine andere Arth.
 
-## Vorbereitung.
+### Vorbereitung.
 
 Man setze an das Ende d gerade aus noch einen Strich ed | ca
 
 *[Figur: Waagerechter Strich mit den Punkten a, c, b, d, e.]*
 
-## Beweiß.
+### Beweiß.
 
 ed | ca — n. Vorber.
 db | bc — n. 3. Geg.
@@ -36,4 +36,4 @@ da | ad
 □ db | □ bc — n. 1. Gr. 1. II. (?)
 Dw. □ dac + □ bc | □ ab — n. 2. Gr. I.
 
-Be-
+<!-- catchword: Be- -->

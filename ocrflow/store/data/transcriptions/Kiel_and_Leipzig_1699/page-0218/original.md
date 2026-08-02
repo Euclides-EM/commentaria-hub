@@ -11,17 +11,17 @@
 
 *[Figur: Kreis mit Mittelpunkt c; von einem Punkt a ausserhalb des Kreises gehen ein schneidender Strich durch g nach h und ein Rührstrich nach k; punktierte Linien verbinden c mit d, k und a]*
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Werde aus dem Düttel a ein Rührstrich ak zum Kreyß gezogen. n. 17. III.
 2. Werden die Strahlen cd und ck, wie auch
 3. Aus dem Düttel a zu dem Mittel-Düpffel c der Strich ac gezogen.
 
-## Beweiß.
+### Beweiß.
 
 ak | Rührstrich n. 1. Vorber.
 Dw. □ ak | □ hag n. 36. III.
 □ ad | □ hag (?) n 7. Gegeb.
 Dw. □ ak | □ ad n. 1. Gr. I.
 
-und
+<!-- catchword: und -->

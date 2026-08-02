@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 48 [recte 84])* -->
 
-## Beweiß.
+### Beweiß.
 
 mn ∠ ko | n. 10. GrS.
 no ∠ on
@@ -34,4 +34,4 @@ und □ gbie | 2 △ hgf | n. 6. GrS. k.
 □ gx | 2 △ hgf | n. 41. Vortr.
 Dw. □ gx | □ gbie | n. 6. GrS.
 
-□ fpx
+<!-- catchword: □ fpx -->

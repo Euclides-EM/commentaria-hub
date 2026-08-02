@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 265)* -->
 
-I. Gegebene. | Begehrtes.
+### I. Gegebene. | Begehrtes.
 
 A ________ | a ⊣ b.
 a ____
@@ -14,7 +14,7 @@ b __
 A : a | B : b
 A ⊣ B
 
-## Beweiß.
+### Beweiß.
 
 A | 3a
 B | 3b
@@ -23,7 +23,7 @@ Dw. 3a ⊣ B — n. 1. Gr. c. I.
 und 3a ⊣ 3b — n. 1. Gr. a. I.
 Dw. a ⊣ b — n. 7. Gr. p. I.
 
-II. Gegebene. | Begehrte.
+### II. Gegebene. | Begehrte.
 
 A ________ | a | b
 a ____
@@ -35,7 +35,7 @@ b ____
 A : a | B : b
 A | B
 
-## Beweiß.
+### Beweiß.
 
 A | 3a
 B | 3b — nach Gegeb.
@@ -44,6 +44,6 @@ Dw. 3a | B
 und 3a | 3b — n. 1. Gr. I.
 Dw. a | b — n. 7. Gr. p. I.
 
-Ll
+<!-- signature mark: Ll -->
 
-Gege-
+<!-- catchword: Gege- -->

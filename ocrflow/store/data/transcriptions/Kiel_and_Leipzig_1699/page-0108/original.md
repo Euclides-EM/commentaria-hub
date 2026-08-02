@@ -19,7 +19,7 @@ tu | DA | nach 2. Vortr. I.
 
 *[Figur: Reihe rechtwincklichter Vierecke mit punktierten Diagonalen; Punkte c, f, g, h, i, k, l, m, n, o oben, E, D links, A, d, e, b, u, t, s, r, q, p unten]*
 
-## Beweiß.
+### Beweiß.
 
 ui + ik | ac + ef | n. 2. Vortr. I.
 i ∠ c | n. 23. - - I.
@@ -28,4 +28,4 @@ Dw. △ uik | △ acf | n. 4. - - I.
 □ it | 2 △ uik | n. 41. - - I.
 Dw. □ it | □ cd | n. 6. Gr-S. i. I.
 
-Auff
+<!-- catchword: Auff -->

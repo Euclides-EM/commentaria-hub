@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 382)* -->
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -31,8 +31,8 @@
 
 Dw. ist ab im i nach der äusersten und mittelsten Verhältnüß getheilet. n. 3. Beschr. VI.
 
-## Beschluß.
+### Beschluß.
 
 Ist also der Strich ab nach äuserster und mittelsten (secundùm mediam & extremam) Verhältnüß getheilet. W. Z. M.
 
-Andere
+<!-- catchword: Andere -->

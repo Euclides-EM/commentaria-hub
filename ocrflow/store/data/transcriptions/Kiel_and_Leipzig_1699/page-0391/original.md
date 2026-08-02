@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 361)* -->
 
-## II. Beweiß.
+### II. Beweiß.
 
 △ aob : △ cnd | □ el : □ gi n 1. Geg.
 ab : cd | cd : p n. 1. Vorb.
@@ -29,5 +29,5 @@ Gleichmässige und ähnliche geradstrichichte Gestalte stehen auf gleichmässige
 
 *[Figur: zwey Vierecke g k i h und u t s r nebeneinander; darunter ein Strich x und eine Figur mit den Punkten g, s, x, h r und punktiertem Strich nach s]*
 
-Z z
-Vorbe-
+<!-- signature mark: Z z -->
+<!-- catchword: Vorbe- -->

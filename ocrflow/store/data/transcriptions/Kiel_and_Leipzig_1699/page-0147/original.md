@@ -8,18 +8,18 @@ Also werden auch gleichgestalte Bogen (arcus similes genennet/ auff welchen glei
 
 *[Figur: Kreis mit einbeschriebenem Winckel und kleinerem Kreise darinnen]*
 
-# Der I. Vortrag.
+## Der I. Vortrag.
 
 ## Das 1. Werck-Stück:
 
 Eines gegebenen Kreyses Mitteldüpffel zu finden.
 
-Gegebenes. — Begehrtes.
+### Gegebenes. — Begehrtes.
 
 Der Kreyß bhc. — Mittel-Düpffel a.
 
 *[Figur: Kreis mit Düpffeln g (oben), b (links), e (Mitte), c (rechts), h (unten), darinnen a, d, f, mit punktierten Strichen von b und c nach d]*
 
-R
+<!-- signature mark: R -->
 
-Wirckung.
+<!-- catchword: Wirckung. -->

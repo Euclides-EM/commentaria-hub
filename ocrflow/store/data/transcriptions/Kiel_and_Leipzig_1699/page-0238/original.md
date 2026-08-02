@@ -6,13 +6,13 @@
 
 4. Nach der Weite af werde ein Kreyß gezogen.
 
-Vorbereitung.
+### Vorbereitung.
 
 Es werden auch aus dem Mittel-Düpffel die Striche ag, ah, ai gezogen / n. 12. I.
 
 *[Figur: Quadrat b c d e mit einbeschriebenem Kreis um den Mittelpunkt a; die Berührungspunkte f, g, h, i liegen in den Seitenmitten, punktierte Linien verbinden a mit den Ecken und Berührungspunkten]*
 
-Beweiß.
+### Beweiß.
 
 eb | ed — n. 29. Beschr. I.
 eb | 2eg
@@ -28,4 +28,4 @@ Gleicher Weise — ia | ha
 u. — ia | fa
 Dw. — a | Mittel-Düpffel des ○ fghi, n. 9. III.
 
-Wel-
+<!-- catchword: Wel- -->

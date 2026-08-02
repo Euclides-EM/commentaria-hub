@@ -18,6 +18,6 @@ XI. Ein stumpffer Winckel ist / welcher einen rechten Winckel übertrifft.
 
 *[Figuren: zwei Darstellungen stumpfer Winkel]*
 
-A 2
+<!-- signature mark: A 2 -->
 
-XII. Ein
+<!-- catchword: XII. Ein -->

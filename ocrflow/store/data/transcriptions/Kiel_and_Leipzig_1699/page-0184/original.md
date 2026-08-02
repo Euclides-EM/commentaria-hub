@@ -20,8 +20,8 @@ oder dac ∠ 2 dfc
 
 *[Figur: Kreis mit Mitteldüpffel a, Punkt b oben links, f links, e rechts, d rechts unten, c unten; Striche bf, fd, fc, ad, ac und punktierte Linien ba, fe]*
 
-Beschluß.
+### Beschluß.
 
 Wird also allezeit der Mittel-Düpffels Winckel noch einmahl so groß seyn / als der auff eben solchem Kreyßzug stehende Kreyßstücks-Winckel. W. Z. B.
 
-Der
+<!-- catchword: Der -->

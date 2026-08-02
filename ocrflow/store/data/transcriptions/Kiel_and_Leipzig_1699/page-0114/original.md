@@ -2,19 +2,19 @@
 
 <!-- *(Seitenzahl: 96)* -->
 
-# Der IV. Vortrag.
+## Der IV. Vortrag.
 
 ## Das 4. Beweiß-Stück.
 
 Wenn ein Strich in zwey Stücke auff waserley weise getheilet ist/ so wird das gleichseitige Viereck des gantzen Strichs eben so groß seyn/ als die beeden gleichseitigen Vierecke der beeden Stücke/ nebst dem Viereck/ so von den beeden Stücken begriffen wird/ zweymahl genommen.
 
-Gegebenes. | Begehrtes.
+### Gegebenes. | Begehrtes.
 
 1. Der gerade Strich AB — □ AB | AC + 2 □ ACB + □ CB
 2. getheilet in C
 3. AB | AC + CB
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Werde der Strich ab | AB gezogen n. 2. I.
 2. Werde das □ abfd gemacht n. 46. I.
@@ -27,4 +27,4 @@ und ed | CB werde n. 3. I.
 5. Werden ek ⧺ ab
 und ci ⧺ ad — n. 31. I.
 
-Beweiß.
+<!-- catchword: Beweiß. -->

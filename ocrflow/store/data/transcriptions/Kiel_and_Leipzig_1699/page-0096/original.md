@@ -2,7 +2,7 @@
 
 <!-- # Das I. Buch -->
 
-Wirckung.
+### Wirckung.
 
 1. Dem △ ABC mache man ein gleichgrosses □ MNC, nach dem gegebenen Winckel D. n. 42. Vortr.
 2. Die Seite NM werde nach nothdurfft verlängert gegen H.
@@ -14,7 +14,7 @@ Wirckung.
 8. MC werde verlänget biß I.
 9. Und OC —— —— K.
 
-Beweiß.
+### Beweiß.
 
 FE | MH n. 3. Wirck.
 α. Dw. IL | MH n. 14. Vortr.
@@ -28,8 +28,8 @@ NC ⌻ CL n. 34. Vortr.
 □ NC | △ ABC n. 42. Vortr.
 γ. Dw. □ CL | △ ABC n. 1. Gr:S.
 
-Beschluß.
+### Beschluß.
 
 Ist also an den gegebenen Strich EF oder IL. α. nach dem gegebenen ∧ D. β. angesetzet das □ CL | △ ABC. γ. W. Z. M.
 
-Der
+<!-- catchword: Der -->

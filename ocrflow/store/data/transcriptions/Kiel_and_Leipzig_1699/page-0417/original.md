@@ -10,11 +10,11 @@
 | oder | dce + dcb ⋀ ⏊ | n 9. Gr. I. q. |
 | Dw. | bc und ca, oder ba ein gerader Strich. | n. 14. I. |
 
-## Beschluß.
+### Beschluß.
 
 Wenn derowegen zwey Dreyecke / derer zwo Seiten zweyen Seiten ebenmässig sind/ also zusammen gesetzet werden/ daß die ebenmässigen Seiten auch nebenstrichicht werden/ so machen die übrigen beyden Seiten einen geraden Strich. W. Z. B.
 
-# Der XXXIII. Vortrag.
+## Der XXXIII. Vortrag.
 
 ## Das 23. Beweiß-Stück.
 
@@ -22,7 +22,7 @@ In gleichmässigen Kreysen haben die Winckel/ sie mögen Mittel-Düpffels- oder 
 
 Auch haben die Kreyßschnitte gleiche Verhältnüß/ weil sie aus Mittel-Düpffels-Winckeln bestehen.
 
-## 1. Gegebene.
+### 1. Gegebene.
 
 1. Zween gleichmässige Kreyse abc und feg.
 2. Beyde Mittel-Düpffele d und e.
@@ -31,6 +31,6 @@ Auch haben die Kreyßschnitte gleiche Verhältnüß/ weil sie aus Mittel-Düpffe
 5. Zwey Kreyßstücke bc und fg.
 6. Zween Kreyßschnitte bdc und fhg.
 
-Ccc 2
+<!-- signature mark: Ccc 2 -->
 
-I. Be-
+<!-- catchword: I. Be- -->

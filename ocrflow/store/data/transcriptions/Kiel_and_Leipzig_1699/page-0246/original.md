@@ -28,9 +28,9 @@ n. 22. Beschr. I.
 Welches ümb den gegebenen Kreyß ghikl beschrieben/
 n. 4. Beschr. I.
 
-Beschluß.
+### Beschluß.
 
 Ist also ein gleichseitiges und gleichwincklichtes Fünffeck umb
 den gegebenen Kreyß beschrieben. W. Z. M.
 
-Der
+<!-- catchword: Der -->

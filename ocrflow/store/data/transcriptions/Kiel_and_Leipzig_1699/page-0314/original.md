@@ -3,7 +3,7 @@
 <!-- *(Seitenzahl: 290)* -->
 
 ## Der XXIX. Vortrag.
-Das 29. Beweiß-Stück.
+## Das 29. Beweiß-Stück.
 
 Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte mit der Vierten zu der Vierten : So wird auch zertheiletermassen die Erste zu der Andern eine grössere Verhältnüß / als die Dritte zu der Vierten haben.
 
@@ -33,4 +33,4 @@ muß Dw. A : a ⊣ B : b
 ### Beschluß.
 Wenn derowegen die I. und II. zu der II. eine grössere Verhältnüß / als die III. und IV. zu der IV. haben / so wird auch die I. zu der II. eine grössere Verhältnüß / als die III. zu der IV. haben. W. Z. B.
 
-Der
+<!-- catchword: Der -->

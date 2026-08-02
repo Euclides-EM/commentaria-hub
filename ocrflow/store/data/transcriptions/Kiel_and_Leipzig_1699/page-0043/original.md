@@ -2,17 +2,17 @@
 
 <!-- *(Seitenzahl: 25)* -->
 
-Beschluß.
+### Beschluß.
 
 Weil nun AB weder grösser/ noch kliner seyn kan/ als AC, so folget unümbgänglich/daß AB | AC. W. Z. B.
 
-# Der VII. Vortrag.
+## Der VII. Vortrag.
 
-Das 4. Beweiß Stück.
+## Das 4. Beweiß Stück.
 
 Wenn auff eines Strichs End-Düttel zweene Striche gesetzet werden / und oberhalb in einem Düttel zusammen stossen; Darnach auch zweene andere Striche/ so denen vorigen beeden Strichen/ jedweder jedwedem gleich sind / auff eben desselben Striches Endungen / und zwar auff einerley Weise gesetzet werden/ so müssen sie in eben demselben Düttel/wo die vorigen beeden Striche einander berühret/ auch zusammen kommen.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 1. Der Strich ac | Die Zusam̃enkunfft der bee-
 2. AB | DE | ab | den Striche de und df in
@@ -25,10 +25,10 @@ Gegebene. | Begehrtes.
 9. ED auff a gesetzt
 10. Beederseits oberhalb des Strichs ac
 
-Beweiß.
+### Beweiß.
 
 Wenn die beeden andern Striche nicht in b zusammen kommen / so mögen sie in d an einander stossen. β
 
-D
+<!-- signature mark: D -->
 
-Vor-
+<!-- catchword: Vor- -->

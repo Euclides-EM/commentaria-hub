@@ -10,17 +10,17 @@
 |  | bae + eda ⋀ | eda + bae |  |
 | Dw. | eac ⋀ | efa | n. 3. Gr. I. |
 
-Beschluß.
+### Beschluß.
 
 Müssen derowegen allezeit die im abgewandten Krayß-Stück stehende Winckel eda und efa, mit denen Winckeln / bae und eac, welche der aus dem Rühr-Düpffel a in den Kreyß gezogene Strich ae mit dem Rühr-Strich bc machet/ gleich groß seyn. W. Z. B.
 
-# Der XXXIII. Vortrag.
+## Der XXXIII. Vortrag.
 
-Das 5. Werck-Stück.
+## Das 5. Werck-Stück.
 
 Auff einen gegebenen geraden Strich ein Kreyß-Stück zu beschreiben/in welchem ein Winckel/ so dem gegebenen Winckel gleichgroß ist/ stehen könne.
 
-Gegebene. | Begehrte.
+### Gegebene. | Begehrte.
 
 1. Gerader Strich ab oder al. | 1. ◠ ahb.
 2. Winckel ecd. | 2. In welchem stehen kan ahb oder abl ⋀ ecd.

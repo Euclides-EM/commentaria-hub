@@ -26,4 +26,4 @@ II. Wenn man zu ( zwey ) gleichen Dingen ab und bc ( zwey ) gleiche Stücke de u
 
 *[Figur: zwei Striche a–d und b–c, an welche punktierte Stücke d–e und c–f angesetzt sind]*
 
-III.
+<!-- catchword: III. -->

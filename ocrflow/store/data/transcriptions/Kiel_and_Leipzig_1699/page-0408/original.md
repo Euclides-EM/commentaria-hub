@@ -4,7 +4,7 @@
 
 *[Figur: oben eine Gestalt K mit den Punkten i und h nebst punctirten Linien, daneben ein Viereck L; darunter ein grosses Viereck mit den Punkten b, n, d, g oben, B, C, A in der Mitte, f, m, o, q, p unten, nebst punctirtem Kreisbogen]*
 
-Wirckung.
+### Wirckung.
 
 1. Der gegebene Strich AB werde in zween gleiche Theile in C geschnitten. n. 10. I.
 
@@ -22,4 +22,4 @@ Wirckung.
 
 8. Durch q werde der Nebenstrich mp gegen AB gezogen. n. 31. I.
 
-9. Aus
+<!-- catchword: 9. Aus -->

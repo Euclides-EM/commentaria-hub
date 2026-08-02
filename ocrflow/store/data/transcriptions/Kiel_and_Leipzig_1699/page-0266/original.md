@@ -4,7 +4,7 @@
 
 *[Figur: sechs waagerechte Linien, bezeichnet A, 6a, C, B, 6b, D]*
 
-## II. Beweiß.
+### II. Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -15,7 +15,7 @@
 | | 5b | ⊢ 6b | |
 | δ Dw. | B + D | ⊢ 6b. | |
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Man nehme A + C 3 mahl/
 2. Und B + D auch 3 mahl/
@@ -24,4 +24,4 @@
 
 *[Figur: sechs waagerechte Linien, bezeichnet 3A, 2a, 3C, 3B, 2b, 3D]*
 
-III. Beweiß.
+<!-- catchword: III. Beweiß. -->

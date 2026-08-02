@@ -24,4 +24,4 @@ VI. In gleicher Verhältniß stehende Grössen werden genennet (nemlich die Erst
 5. 3. 5. 3. — 2. 3. 2. 3. — 2. 5. 2. 5.
 15a : 6a | 30a : 12a. — 6q (?) : 6a | 12a : 12a. — 6a : 10a | 12a : 20a.
 
-VII.
+<!-- catchword: VII. -->

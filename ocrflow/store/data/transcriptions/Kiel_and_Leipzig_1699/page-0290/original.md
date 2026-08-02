@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 266)* -->
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 A ________ | a ⊢ b
 a ____
@@ -14,7 +14,7 @@ b ____
 A : a | B : b
 A ⊢ B
 
-## Beweiß.
+### Beweiß.
 
 A | 3a
 B | 3b
@@ -25,10 +25,10 @@ Dw. a ⊢ b — n. 7. Gr. p. I.
 
 Wenn derowegen aus Vier Ebenmässigen Grössen die Erste grösser/ als die Dritte/ so ist die Andere auch grösser/ als die Vierte: Und wenn die Erste eben so groß/ als die Dritte/ so ist auch die Andere eben so groß/ als die Vierte: wenn aber die Erste kleiner/ als die Dritte/ so ist die Andere auch kleiner/ als die Vierte. W. Z. B.
 
-# Der XV. Vortrag.
+## Der XV. Vortrag.
 
 ## Das 15. Beweiß-Stück.
 
 Die Theile verhalten sich eben so gegen einander/ wie derselben vielfältige Gantzen: wenn sie nemlich in richtiger Ordnung genommen werden.
 
-Gege-
+<!-- catchword: Gege- -->

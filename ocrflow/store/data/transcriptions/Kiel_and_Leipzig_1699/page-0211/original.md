@@ -2,12 +2,12 @@
 
 <!-- *(Seitenzahl: 193)* -->
 
-Vorbereitung.
+### Vorbereitung.
 
 1. Werde auff den Strich ac aus dem Mittel-Düpffel e ein Senckstrich en gezogen n. 12. I.
 2. Werde auch der Strich ec gezogen.
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -26,14 +26,14 @@ Beweiß.
 | und | ▭ bld + □ le | ▭ cla + □ le β | n. 1. Gr. I. |
 | u. | ▭ bld | ▭ cla | n. 3. Gr. I. |
 
-IV. Begebenheit.
+### IV. Begebenheit.
 
-Gegebene:
+### Gegebene:
 
 1. Von beeden Strichen bd, ac gehet keiner durch den Mittel-Düpffel.
 2. Der Strich ac ist in zween gleiche Theil al | lc
 3. Der Strich bd aber in ungleiche Theile bl ⊣ ld geschnitten in l.
 
-Bb
+<!-- signature mark: Bb -->
 
-Vor-
+<!-- catchword: Vor- -->

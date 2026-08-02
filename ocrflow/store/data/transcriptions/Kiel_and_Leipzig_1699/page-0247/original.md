@@ -2,20 +2,20 @@
 
 <!-- *(Seitenzahl: 223)* -->
 
-# Der XIII. Vortrag.
+## Der XIII. Vortrag.
 
-Das 13. Werckstück.
+## Das 13. Werckstück.
 
 Einem gegebenen gleichseitigen und gleich-
 wincklichten Fünffeck einen Kreyß einzuschreiben.
 
-Gegebenes. — Begehrte.
+### Gegebenes. — Begehrte.
 Fünffeck bcdef. — 1. Kreyß ghikl
 2. in das Fünffeck eingeschrieben.
 
 *[Figur: Fünffeck b c d e f mit einbeschriebenem Kreis; die Berührungspunkte g, h, i, k, l liegen in den Seitenmitten, aus dem Mittelpunkt a laufen punktierte Striche zu den Ecken und Seitenmitten]*
 
-Wirckung.
+### Wirckung.
 
 1. Werden alle Winckel in zween gleiche Theile getheilet/mit
 den Strichen ba, ca, da, ea, fa, n. 9. I.
@@ -26,4 +26,4 @@ ia, ka, la gezogen/ n. 11. I.
 4. Aus dem Düttel a, wo alle Striche zusammen lauffen /
 werde nach der Weite ag oder ah ein Kreyß beschrieben.
 
-Be-
+<!-- catchword: Be- -->

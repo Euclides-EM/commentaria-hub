@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 253)* -->
 
-## Gegebene. — Begehrtes.
+### Gegebene. — Begehrtes.
 
 *[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
 
@@ -10,7 +10,7 @@ A | B — a : A | a : B
 a | 4A
 a | 4B
 
-## II. Beweiß.
+### II. Beweiß.
 
 a | a
 A | B
@@ -18,7 +18,7 @@ A | B
 Dw. a : 4A | a : 4B
 Und a : A | a : B — n. 7. Besch. V.
 
-## Beschluß.
+### Beschluß.
 
 Sind derowegen gleiche Grössen gegen eine Grösse allezeit gleichvielfältig: Und eine einige Grösse ist gegen zwo (oder mehr) gleiche Grössen auch gleichvielfältig. W. Z. B.
 
@@ -26,23 +26,23 @@ Sind derowegen gleiche Grössen gegen eine Grösse allezeit gleichvielfältig: U
 
 Ebener Gestalt sind gleichgrosse Grössen gegen gleichgrosse Grössen gleichvielfältig.
 
-## Gegebene. — Begehrte.
+### Gegebene. — Begehrte.
 
 A B — A : B | a : b
 a / b
 
-## Beweiß.
+### Beweiß.
 
 A | B
 a | b — n. Gegeb.
 A : a | B : b — n. 7. Besch. V. W. Z. B.
 
-# Der VIII. Vortrag.
+## Der VIII. Vortrag.
 
 ## Das 8. Beweiß-Stück.
 
 Von ungleichen Grössen ist die Grössere gegen eine einige
 
-Ji 3
+<!-- signature mark: Ji 3 -->
 
-Grösse
+<!-- catchword: Grösse -->

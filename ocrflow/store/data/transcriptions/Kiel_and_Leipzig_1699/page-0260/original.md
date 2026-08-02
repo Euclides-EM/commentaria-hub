@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 236)* -->
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. A Werde getheilet in c, d, e also/daß c|a. d|a und e|a n. 3. I.
 
@@ -10,7 +10,7 @@
 
 *[Figur: vier waagerechte Linien: A (getheilet in c, d, e), a, B (getheilet in f, g, h), b]*
 
-## I. Beweiß.
+### I. Beweiß.
 
 |  |  |  |  |  |
 |---|---|---|---|---|
@@ -28,11 +28,11 @@
 | ζ (?) Dw. | B | 3b | | δ |
 | η (?) U. | A + B | 3a + 3b | n. 2. Gr. I. | |
 
-## Vorbereitung.
+### Vorbereitung.
 
 3. A Werden zweymahl/ und
 4. B auch zweymahl genommen.
 5. a werden viermahl/ und
 6. b gleichfals viermahl genommen.
 
-2 A
+<!-- catchword: 2 A -->

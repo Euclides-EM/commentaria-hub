@@ -4,7 +4,7 @@
 
 *[Figur: Strich A—C—B; darunter ein Winkel aus a mit den Punkten c, d oben und b, e, f auf dem unteren Schenkel]*
 
-## Wirckung.
+### Wirckung.
 
 1. Man ziehe den Strich af.
 2. Von diesem Strich werde abgeschnitten
@@ -17,7 +17,7 @@ ac ⊤ AC   n. 3. I.
 6. Es werde der Strich bc gezogen.
 7. Aus e werde gegen den Strich bc der gerade Nebenstrich ed gezogen n. 31. I.
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -31,10 +31,10 @@ ac ⊤ AC   n. 3. I.
 
 Dw. ist ce der dritte ebenmässige Strich.
 
-## Beschluß.
+### Beschluß.
 
 Ist also zu denen zweyen geraden Strichen ab und ac, oder AB und AC, der Dritte ebenmässige Strich cd gefunden. W. Z. M.
 
-Uu
+<!-- signature mark: Uu -->
 
-Der
+<!-- catchword: Der -->

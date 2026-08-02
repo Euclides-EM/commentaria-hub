@@ -9,6 +9,6 @@ Und solch Zeichen ist schon vor diesem bey den Rechenmeistern gebräuchlich gewe
 
 da dann 96 hundert-acht und zwantzigtheil eben so viel/ als 48 vier und sechtzig theil/ etc. oder so viel/ als 3 Viertheil ist.
 
-):( ):( 3
+<!-- signature mark: ):( ):( 3 -->
 
-Zu
+<!-- catchword: Zu -->

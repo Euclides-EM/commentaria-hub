@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 275)* -->
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -18,10 +18,10 @@ Beweiß.
 | b | b | |
 | und a | ⊦ c | n. 10. V. |
 
-Beschluß.
+### Beschluß.
 
 Wenn man derowegen drey Grössen hat / und noch drey andere Grössen sind / welche mit denen vorigen in richtiger Ebenmaß stehen; und alsdann die I. der vorigen Ahrt grösser ist / als die III. selbiger Ahrt/ so ist auch die I. der andern Ahrt grösser/als die III. der andern Ahrt; Ist aber die I. der Ersten Ahrt gleich groß oder kleiner/als die III. derselbigen Ahrt / so ist auch die I. der andern Ahrt gleich groß/ oder kleiner/als die III. der Andern Ahrt. W. Z. B.
 
-Mm 2
+<!-- signature mark: Mm 2 -->
 
-Der
+<!-- catchword: Der -->

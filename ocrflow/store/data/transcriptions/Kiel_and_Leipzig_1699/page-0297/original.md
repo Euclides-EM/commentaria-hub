@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 273)* -->
 
-## I. Gegebene.
+### I. Gegebene.
 
 A ________ | A : B : C
 B ______ | a : b : c
@@ -13,11 +13,11 @@ c __ | A ⊣ C
 
 *[Figur: Strecken A, B, C, a, b, c]*
 
-## Begehrtes.
+### Begehrtes.
 
 a ⊣ c
 
-## Beweiß.
+### Beweiß.
 
 a : b | A : C
 A ⊣ C — n. Geg.
@@ -31,7 +31,7 @@ Dw. a : b ⊣ c | b — n. 13. V.
 b | b
 u. a ⊣ c — n. 10. V.
 
-## II. Gegebene.
+### II. Gegebene.
 
 A ________________ | A : B | a : b
 B ______ | B : C | b : c
@@ -42,6 +42,6 @@ c ______
 
 *[Figur: Strecken A, B, C, a, b, c]*
 
-Mm
+<!-- signature mark: Mm -->
 
-Begehr-
+<!-- catchword: Begehr- -->

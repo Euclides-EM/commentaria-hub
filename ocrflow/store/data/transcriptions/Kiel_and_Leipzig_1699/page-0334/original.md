@@ -2,7 +2,7 @@
 
 <!-- # Das VI. Buch -->
 
-# Beweiß.
+### Beweiß.
 
 ab | ef — n. 2. Geg.
 Dw. △ A : △ efg | cb : eg — n. 1. VI.
@@ -19,18 +19,18 @@ Auf gleiche weise kan auch bewiesen werden/ daß
 
 □ abc : □ def | bc : de.
 
-# Beschluß.
+### Beschluß.
 
 Werden derowegen allezeit die Dreyecke und nebenstrichichte Vierecke/ welche auf gleichmässigen Grundstrichen stehen/ sich also/ wie ihre Höhen/ gegen einander verhalten. W. Z. B.
 
-# Des I. Vortrags III. Zugabe.
+## Des I. Vortrags III. Zugabe.
 
 Diejenigen Dreyecke und nebenstrichichte Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ stehen auf gleichmässigen/ oder auf einem einigen Grundstriche.
 
-# Gegebene.
+### Gegebene.
 
 1. Zwey Dreyecke A und B
 2. Derselben Höhen bc und ed
 3. bc : ed | △ A : △ B.
 
-Begehrtes.
+<!-- catchword: Begehrtes. -->

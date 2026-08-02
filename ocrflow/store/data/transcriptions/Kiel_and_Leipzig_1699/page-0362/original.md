@@ -2,7 +2,7 @@
 
 <!-- # Das VI. Buch -->
 
-# Der XII. Vortrag.
+## Der XII. Vortrag.
 
 ## Das 4. Werck-Stück.
 
@@ -32,4 +32,4 @@ AB : AC ⊤ BD : ce.
 6. Werde der gerade Strich bc,
 7. Und gegen diesen Strich bc aus d der gerade Nebenstrich de gezogen. n. 31. I.
 
-Beweiß.
+<!-- catchword: Beweiß. -->

@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 281)* -->
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -16,16 +16,16 @@ Beweiß.
 | b : d | a : c | n. Bew. α |
 | Dw. A : C | a : c | |
 
-Beschluß.
+### Beschluß.
 
 Werden derowegen Sechs in verwirreter Ebenmaß stehende Grössen auch ein ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
 
-# Der XXIV. Vortrag.
+## Der XXIV. Vortrag.
 
-Das 24. Beweiß-Stück.
+## Das 24. Beweiß-Stück.
 
 Wenn man Sechs Grössen hat/ deren Erste zu der Andern eine solche Verhältnüß hat/ als die Dritte zu der Vierten: darnach auch die Fünffte zu der Andern eine solche Verhältnüß hat / wie die Sechste zu der Vierten: So wird auch die Erste mit der Fünfften zu der Andern/ eine solche Verhältnüß/ wie die Dritte mit der Sechsten zu der Vierten haben.
 
-Nn
+<!-- signature mark: Nn -->
 
-A—
+<!-- catchword: A— -->

@@ -39,6 +39,6 @@ c : a | B : b.
 ### Beschluß.
 Wenn derowegen die I. zu der II. eine kleinere Verhältnüß / als die III. zu der IV. hat : So wird auch die I. und II. zu der II, eine kleinere Verhältnüß / als die III. und IV. zu der IV. haben. W. Z B.
 
-Oo
+<!-- signature mark: Oo -->
 
-Der
+<!-- catchword: Der -->

@@ -11,8 +11,8 @@ VI. Ein an einen geraden Strich angeschlagenes (applicatum) mangelhafftes Vierec
 VII. Eine Gestalt / wenn sie an einen geraden Strich angeschlagen wird / bedeutet / daß man eine solche Länge finde / nach welcher der gedachte Strich außgebreitet eine der angeschlagenen Gestalt gleichmässige oder gleichgrosse viereckichte Gestalt zuwegen bringet.
 
 ## Der I. Vortrag.
-Das 1. Beweiß-Stück.
+## Das 1. Beweiß-Stück.
 
 Diejenigen Dreyecke oder Vierecke / welche gleichmässige Höhen haben / verhalten sich also / wie ihre Grundstriche / gegen einander.
 
-I. Ge-
+<!-- catchword: I. Ge- -->

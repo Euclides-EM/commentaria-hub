@@ -2,9 +2,9 @@
 
 <!-- *(Seitenzahl: 109)* -->
 
-# Nach der Löse-Kunst.
+### Nach der Löse-Kunst.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 1. a | ab | dd | bb + 4ac
 2. b | ac
@@ -12,7 +12,7 @@ Gegebene. | Begehrtes.
 4. a | b + c
 5. d | b + 2c
 
-## Beweiß.
+### Beweiß.
 
 d | b + 2c | n. 5. Gegeb.
 dd | bb + 4bc + 4cc | n. 4. II.
@@ -25,18 +25,18 @@ dd | bb + 4ac | n. 3. Gr. I.
 
 W. Z. B.
 
-# Der IX. Vortrag.
+## Der IX. Vortrag.
 
 ## Das 9. Beweiß-Stück.
 
 Wenn man einen geraden Strich in zwey gleiche/ und zwey ungleiche Stücke theilet; So werden der beeden ungleichen Stücke ihre Vierecke/ zweymal so groß/ als das Viereck des halben Striches/ samt dem Vierecke des Mittel-Stückes seyn.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 1. Strich ab | □ bd + □ da | 2 □ bc + 2 □ cd.
 2. Getheilet in c
 3. Daß ac | cb
 
-O 3
+<!-- signature mark: O 3 -->
 
-4. Und
+<!-- catchword: 4. Und -->

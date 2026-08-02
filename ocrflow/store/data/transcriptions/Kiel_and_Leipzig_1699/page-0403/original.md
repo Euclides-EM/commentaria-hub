@@ -9,17 +9,17 @@ Dw. □ pe - | □ ai n. 1. Gr. I. a.
 
 Auch alle andere mangelhaffte Vierecke sind kleiner/ als das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck.
 
-Beschluß.
+### Beschluß.
 
 Ist derowegen das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck grösser/ als alle andere mangelhaffte an den gegeben Strich angeschlagene Vierecke. W. Z. B.
 
-# Der XXIIX. Vortrag.
+## Der XXIIX. Vortrag.
 
-Das 8. Werck-Stück.
+## Das 8. Werck-Stück.
 
 An einen gegebenen geraden Strich ein nebenstrichichtes Viereck/ welches einer gegebenen geradstrichichten Gestalt gleichmässig sey/ also anzuschlagen/ daß es mangelhaft/ und das mangelende nebenstrichichte Viereck einem andern gegebenen nebenstrichichten Viereck ähnlich sey.
 
 Es muß aber die gegebene geradstrichichte Gestalt / welcher das nebenstrichichte Viereck / so anzuschlagen ist / gleichmässig seyn sol/ nicht grösser seyn / als dasjenige Viereck / welches an die Helffte des gegebenen Striches kan angeschlagen werden: und solches an die Helffte des Striches angeschlagene Viereck / wie auch das mangelende / und die andere gegebene nebenstrichichte Viereck sind alle einander ähnlich.
 
-Aaa 3
-Begehr-
+<!-- signature mark: Aaa 3 -->
+<!-- catchword: Begehr- -->

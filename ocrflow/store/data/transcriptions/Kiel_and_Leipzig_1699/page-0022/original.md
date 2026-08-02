@@ -17,4 +17,4 @@ XVII. Der Durchschlag (Diameter) des Kreyses ist ein gerader durch den Mittel-D√
 
 *[Figur: drei Kreise mit je einem Durchmesser: waagerecht, schr√§g und senkrecht]*
 
-XIIX.
+<!-- catchword: XIIX. -->

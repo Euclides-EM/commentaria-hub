@@ -2,13 +2,13 @@
 
 <!-- *(Seitenzahl: 104)* -->
 
-## Beschluß.
+### Beschluß.
 
 Wird also allezeit das gleichseitige □ des Halben und angesetzten Striches so groß seyn/ als das □, so von dem zusammen gesetzten Strich/ und angesetzten Stück begriffen wird/ samt dem gleichseitigen □ des halben Striches/ W. Z. B.
 
-# Nach der Löse-Kunst.
+### Nach der Löse-Kunst.
 
-Gegebenes. | Begehrtes.
+### Gegebenes. | Begehrtes.
 
 1. c | CD — bb + ca | dd
 2. c | 2b
@@ -17,7 +17,7 @@ Gegebenes. | Begehrtes.
 5. b + c | AB | d
 6. a | 2b + c
 
-## Beweiß.
+### Beweiß.
 
 b + c | d — n. 5. Gegeb.
 bb + 2bc + cc | dd — n. 4. II.
@@ -28,15 +28,15 @@ bb + 2bc + cc + ca | dd + 2bc + cc — n. 1. Gr. I.
 2bc + cc | 2bc + cc
 bb + ca | dd — n. 3. Gr. I. W. Z. B.
 
-# Auff die andere Arth.
+### Auff die andere Arth.
 
 *[Figur: Waagerechter Strich mit den Punkten A, B, C, D, E.]*
 
-Gegebene. | Begehrte.
+### Gegebene. | Begehrte.
 
 c | AC | DE — dd | fc + bb
 b | CB | BD
 c + b | d | AB | BE
 d + b | f | AD
 
-Be-
+<!-- catchword: Be- -->

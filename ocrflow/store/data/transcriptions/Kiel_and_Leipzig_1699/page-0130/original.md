@@ -16,13 +16,13 @@ und □ dg | □ da n. 1. Gr. t. II.
 δ. □ gb | □ bd + □ da | n. 3. Gr. I.
 Dw. □ bd + □ da | 2 □ cd + 2 □ cb | n. 1. Gr. I.
 
-## Beschluß.
+### Beschluß.
 
 Sind also allezeit der beeden ungleichen Stücke bd und da ihre □ □ zweymahl so groß / als die beeden □ □ des halben Striches bc, und mittelstückes cd. W Z B.
 
-# Nach der Löse-Kunst.
+### Nach der Löse-Kunst.
 
-Gegebene. | Begerthe.
+### Gegebene. | Begerthe.
 
 1. b | ac | cc + dd | 2bb + 2ee
 2. e | cd
@@ -31,7 +31,7 @@ Gegebene. | Begerthe.
 5. c | b + e
 6. d | b — e
 
-## Beweiß.
+### Beweiß.
 
 c | b + e | n. 5. Gegeb.
 cc | bb + 2be + ee | n 4. II.
@@ -39,4 +39,4 @@ d | b — e | n 6 Geg.
 dd | bb — 2be + ee | n. 4. II.
 Dw. cc + dd | 2bb + 2ee. | n. 1. Gr. 1. W. Z B.
 
-Der
+<!-- catchword: Der -->

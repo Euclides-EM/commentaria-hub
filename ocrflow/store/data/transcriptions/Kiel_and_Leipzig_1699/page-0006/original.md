@@ -14,4 +14,4 @@ Zu dem III. Grundsatz:
 
 (ff) Wenn man von zweyen gleichmässi-
 
-gen
+<!-- catchword: gen -->

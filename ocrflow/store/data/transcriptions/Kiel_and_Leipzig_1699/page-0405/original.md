@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 375)* -->
 
-Wirckung.
+### Wirckung.
 
 1. Der Strich AB werde in zween gleiche Theile AE | EB getheilet. n. 10. I.
 2. An den halben Strich EB werde das □ Eg angeschlagen.
@@ -28,4 +28,4 @@ nemlich man findet zu Ah oder Bg und Bu einen mittel-ebenmässigen Strich An n. 
 
 Durch n werde gegen AB ein gerader Nebenstrich qr, n. 31. I. und aus B zu c ein gerader Strich Bc, auch durch p gegen Bg ein gerader Nebenstrich so gezogen/ n. 31. I. so bleibet übrig das ⊾ BgopnE.
 
-Beweiß.
+<!-- catchword: Beweiß. -->

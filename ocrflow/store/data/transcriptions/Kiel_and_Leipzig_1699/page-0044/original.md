@@ -2,13 +2,13 @@
 
 <!-- *(Seitenzahl: 26)* -->
 
-Vorbereitung.
+### Vorbereitung.
 
 Man ziehe aus b, wo die ersten beeden Striche sich vereinigen/ zu dem Düttel d, wo die andern beeden Striche zusammen stossen / einen geraden Strich bd.
 
 *[Figur: zwey waagrechte Doppelstriche B–A und C–F–D, darunter ein Dreyeck mit den Düttelen b, d, e und punktierten Strichen]*
 
-Verfolg des Beweises.
+### Verfolg des Beweises.
 
 da | DE nach angenommenem β.
 AB | DE nach Gegebenen 2.
@@ -28,4 +28,4 @@ cbd ⋏ abd nach 9. Grund-S.
 cbd ⋏ cdb nach 5. Beweiß. α
 cdb ⋏ abd nach 1. Grund-S. c.
 
-adb
+<!-- catchword: adb -->

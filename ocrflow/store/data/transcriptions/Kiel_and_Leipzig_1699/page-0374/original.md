@@ -2,20 +2,20 @@
 
 <!-- # Das VI. Buch -->
 
-## I. Gegebene.
+### I. Gegebene.
 
 1. Dreyeck ABC
 2. u. DFE
 3. ABC ⋏ DEF
 4. ABC ⩓ EFD.
 
-## Begehrtes.
+### Begehrtes.
 
 AB : DE ⊤ EF : BC.
 
 *[Figur: Dreyecke D E A, F B C oben; darunter die Punkte d, e, b, a und der punktierte Strich nach c]*
 
-## I. Vorbereitung.
+### I. Vorbereitung.
 
 1. Es werde gemacht abc ⩓ ABC n. 22. I.
 2. Die Seiten ab und ce werden gegen d und f verlängert.
@@ -24,7 +24,7 @@ AB : DE ⊤ EF : BC.
 5. Auch werde df
 6. Wie auch dc gezogen.
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -36,4 +36,4 @@ AB : DE ⊤ EF : BC.
 |  | △ efd ⊤ △ FED | n. 4. I. |
 |  | △ ABC ⊤ △ EFD | n. 4. Gegeb. |
 
-Dw.
+<!-- catchword: Dw. -->

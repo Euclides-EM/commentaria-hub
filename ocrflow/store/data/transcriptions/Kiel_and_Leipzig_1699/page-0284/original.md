@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 260)* -->
 
-## I. Beweiß.
+### I. Beweiß.
 
 A | 3a — n. Gegeb.
 2A | 6a — n. 6. Gr. i. I.
@@ -13,7 +13,7 @@ B | 3b — n. Gegeb.
 6b ⊣ 4b — n. 9. Gr. I.
 β Dw. 2B ⊣ 4b — n. 1. Gr. c. I.
 
-## Vorbereitung.
+### Vorbereitung.
 
 Man nehme 1. A und B jedwedes einmahl/
 Darnach 2. Die Grössen a und b jedwede dreymahl.
@@ -25,7 +25,7 @@ B ____________
 
 *[Figur: Strecken A, 3a, B, 3b]*
 
-## II. Beweiß.
+### II. Beweiß.
 
 A | 3a — n. Gegeb.
 3a | 3a — n. Vorber.
@@ -34,9 +34,9 @@ B | 3b — n Geg.
 3b | 3b — n. Vorber.
 δ Dw. B | 3b — n. 1. Gr. I.
 
-## Vorbereitung.
+### Vorbereitung.
 
 Man nehme 1. A und B jedwedes einmahl/
 Darnach 2. die Grössen a und b jedwedes viermahl.
 
-A—
+<!-- catchword: A— -->

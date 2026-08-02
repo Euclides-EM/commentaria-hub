@@ -16,7 +16,7 @@ von dem durch den Mittel-Düpffel gehenden Strich entfernet.
 
 *[Figur: Kreis mit den Punkten h, g, k oben, i links, c, a, e, b auf dem waagerechten Durchmesser und l unten; von a und e ausgehende teils punktierte Striche zu den Punkten am Umfang]*
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Werde auff den Düttel (?) a gesetzet ein ∠ ael ⋀ aeb (?)
 n. 23. I.
@@ -24,13 +24,13 @@ n. 23. I.
 2. Werden aus dem Mittel-Düpffel e gezogen ek,
 eg, eh, ei, el, und al.
 
-## Beweiß.
+### Beweiß.
 
 eb | ek — n. 15. Beschr. I.
 ae + ke ⊣ ak — n. 20. I.
 ae + ke | ab — n. 9. Gr. q. I. (?)
 Dw. ab ⊣ ak — n. 1. Gr. c. I. (?)
 
-S 2
+<!-- signature mark: S 2 -->
 
-ea
+<!-- catchword: ea -->

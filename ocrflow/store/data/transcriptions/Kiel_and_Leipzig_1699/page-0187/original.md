@@ -4,9 +4,9 @@
 
 *[Figur: Kreis mit einbeschriebenem Viereck a b c d, darin die Zwerg-Striche ac und bd; die Winckel mit A, B, Γ, Δ und α, β, γ, δ bezeichnet]*
 
-Vorbereitung.
+### Vorbereitung.
 Es werden gezogen die beeden Zwerg-Striche ac und bd.
-Beweiß.
+### Beweiß.
 
 cab ⋀ cdb
 acb ⋀ adb } n. 21. III.
@@ -16,7 +16,7 @@ abc + cab + acb ⋀ ⌓   n. 32. I.
 cda + abc + cab + acb ⋀ ⌓ + cab + acb   n. 2. Gr. I.
 cda + abc ⋀ ⌓   n. 3. Gr. l.
 
-Andere Arth.
+### Andere Arth.
 
 A ⋀ α
 B ⋀ β
@@ -30,5 +30,5 @@ A + B + Γ + Δ ⋀ ⊕   n. 32. I.
 Dw. A + B + γ + δ ⋀ ⊕   n. 1. Gr. I.
 oder adc (?) + abc ⋀ ⊕   n. 9. Gr. q. l.
 
-P
-An
+<!-- signature mark: P -->
+<!-- catchword: An -->

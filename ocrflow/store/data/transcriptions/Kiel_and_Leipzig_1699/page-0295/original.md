@@ -13,17 +13,17 @@ Welches aber auch unmüglich n. 9. Gr. I.
 
 Muß Dw. sich A : a | B : b,
 
-## Beschluß.
+### Beschluß.
 
 Wenn derowegen zertheilte Grössen Ebenmässig sind/ so werden dieselben auch zusammen gesetzt Ebenmässig seyn. W. Z. B.
 
-# Der XIX. Vortrag.
+## Der XIX. Vortrag.
 
 ## Das 19. Beweiß-Stück.
 
 Wenn eine Gantze Grösse zu einer andern Gantzen Grösse sich also verhält/ wie das von der Ersten abgenommene Stück/ zu dem von der Andern abgenommene Stück: So wird auch das von der Ersten übergebliebene sich zu dem von der Andern übergebliebenen also/ wie das Erste Gantze zu dem Andern Gantzen verhalten.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 A __a__c__ | a : b | A : B.
 B __b__d__
@@ -34,4 +34,4 @@ A : B | c : d.
 A | a + c.
 B | b + d.
 
-Beweiß.
+<!-- catchword: Beweiß. -->

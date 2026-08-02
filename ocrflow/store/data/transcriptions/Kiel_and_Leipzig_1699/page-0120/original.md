@@ -4,7 +4,7 @@
 
 *[Figur: Senkrechter Strich D B C A links; daran ein Quadrat mit f oben, innen gestrichelte Linien durch c und b, rechts gestrichelt erweitert bis d; unten gestrichelt bis e; Ecken a, c, b, d, e.]*
 
-## Beweiß.
+### Beweiß.
 
 ac + cb | ab — n. 9. Gr. q. I. (?)
 □ ac + 2 □ acb + □ cb | □ ab — n. 4. II.
@@ -26,4 +26,4 @@ ac | ac
 □ acd | □ acb + □ acdb
 n. 1. II.
 
-dac
+<!-- catchword: dac -->

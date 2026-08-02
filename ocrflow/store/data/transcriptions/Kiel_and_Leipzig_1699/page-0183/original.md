@@ -2,17 +2,17 @@
 
 <!-- *(Seitenzahl: 165)* -->
 
-Beschluß.
+### Beschluß.
 
 Man mag nun einen Düttel des Kreyses ausser dem Senckstrich cd nehmen/ welchen man wolle/ so wird allezeit diese Unmügligkeit nach dem 9. Gr. I. erscheinen : Muß derohalben nothwendig der Mitteldüpffel in dem Senckstrich cd stecken. W. Z. B.
 
-# Der XX. Vortrag.
+## Der XX. Vortrag.
 
-Das 18. Beweiß-Stück.
+## Das 18. Beweiß-Stück.
 
 Jn jedwedem Kreyß ist des Mitteldüpffels-Winckel noch einmahl so groß / als der auff eben solchem Kreyßzug stehende Kreyßstücks Winckel.
 
-Gegebene. Begehrtes.
+### Gegebene. Begehrtes.
 
 1. Kreyß bcde. — cad ∠ 2 abc (?)
 2. Kreyßdüpffels-Winckel cad.

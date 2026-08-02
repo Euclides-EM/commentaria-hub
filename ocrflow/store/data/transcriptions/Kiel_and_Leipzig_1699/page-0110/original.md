@@ -2,11 +2,11 @@
 
 <!-- *(Seitenzahl: 92)* -->
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 1. Der Strich AB | □ AB | □ CAB + □ CBA.
 2. getheilet in C.
 
-## Vorbereitung.
+### Vorbereitung.
 
 Man nehme 1. noch einen Strich AD | AB n. 2. Vortr I. Buchs.
 2. Man mache das rechtwincklichte □ ba,ad n. 11. und 31. I.
@@ -21,7 +21,7 @@ in | AD | n. 2. I.
 
 *[Figur: drey rechtwincklichte Vierecke; Punkte D, B, d, e, f, g, h, i, k oben, c links, A, a, c, b, l, m, n, o unten; punktierte Linie im ersten Viereck]*
 
-## Beweiß.
+### Beweiß.
 
 on | CB
 ni | BA | n. 3. Vorber.
@@ -32,4 +32,4 @@ lg | AB
 □ oni + □ mlg | □ CAB + □ CBA | n. 1. Gr-S. I.
 AD | AB | n. 1. Vorber.
 
-Dw.
+<!-- catchword: Dw. -->

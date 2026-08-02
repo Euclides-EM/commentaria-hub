@@ -2,13 +2,13 @@
 
 <!-- # Euclidis. -->
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Werde gemacht das □ ad
 2. Deßgleichen auch □ bc.
 3. Und zwar nach gleichmässigen Winckel gemacht. n. 23. I.
 
-## I. Beweiß.
+### I. Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -21,17 +21,17 @@ Und haben die beyden Vierecke also bey wechselmässigen Winckeln wechselmässige
 |---|---|---|
 | Dw. | ad ⌻ bc. | n. 14. VI. |
 
-## II. Gegebene.
+### II. Gegebene.
 
 1. Vier gerade Striche
 a, b, c, d.
 2. ad ⌻ bc.
 
-## I. Begehrtes.
+### I. Begehrtes.
 
 a : b ⊤ c : d.
 
-## II. Beweiß.
+### II. Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -41,12 +41,12 @@ a : b ⊤ c : d.
 
 Und die vier Striche sind ebenmässig n. 7. Beschr. V.
 
-## Beschluß.
+### Beschluß.
 
 Wenn derowegen vier ebenmässige Striche gegeben werden/ so ist das von den beyden äusersten Strichen gemachte/dem von den beyden mitlern Strichen gemachten Viereck gleichmässig.
 
 Und wenn das von zweyen äusersten Strichen begriffene Viereck / dem nach gleichem Winckel von denen mittelsten Strichen gemachten Viereck gleichmässig ist/ so stehen dieselben Striche in richtiger Ebenmaß. W. Z. B.
 
-Xx 2
+<!-- signature mark: Xx 2 -->
 
-Der
+<!-- catchword: Der -->

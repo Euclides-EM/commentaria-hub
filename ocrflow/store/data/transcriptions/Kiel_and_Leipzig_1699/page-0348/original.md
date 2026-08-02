@@ -2,7 +2,7 @@
 
 <!-- # Das VI. Buch -->
 
-Beweiß.
+### Beweiß.
 
 deg ⋏ bac
 gde ⋏ abc   n. Vorber.
@@ -27,8 +27,8 @@ Dw. | acb ⋏ efd | n. 1. Gr. I.
 Dw. | abc ⋏ edf | n. 1. Gr. I.
 u. | △ abc gleichwincklicht △ edf | n. 1. Beschr. VI.
 
-Beschluß.
+### Beschluß.
 
 Wenn derowegen in zweyen Dreyecken zweene gleichmässige Winckel befindlich / und des einen Winckels Seiten mit den beyden Seiten des andern Winckels ebenmässig sind / so werden solche Dreyecke auch im übrigen gleichmässige Winckel / welche ebenmässigen Seiten gegen überstehen / haben / und durchaus gleichwincklicht seyn. W. Z. B.
 
-Der
+<!-- catchword: Der -->

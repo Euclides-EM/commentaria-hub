@@ -2,12 +2,12 @@
 
 <!-- *(Seitenzahl: 356)* -->
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Werden gezogen die geraden Striche eb und ec
 2. Deßgleichen kg und ig
 
-## Beweiß.
+### Beweiß.
 
 Vieleck cad ähnlich ifh n. 3. Geg.
 Dw. eab ⋏ gfk
@@ -35,4 +35,4 @@ u. △ edc ähnlich △ ghi n. 6. VI.
 △ eab ähnlich △ gfk n. Bew. α.
 Dw. △ eab : △ gfk ⊐ be : kg n. 19. VI.
 
-△ bec
+<!-- catchword: △ bec -->

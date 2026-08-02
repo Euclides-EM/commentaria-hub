@@ -9,7 +9,7 @@ edc ⋏ abh
 6. Endlich auf den Strich eg, gef ⋏ khi
 7. und egf ⋏ hki n. 23. I.
 
-## I. Beweiß.
+### I. Beweiß.
 
 cde ⋏ abh n. 2. Wirck.
 dec ⋏ abh n. 3. Wirck.
@@ -26,7 +26,7 @@ Ebener massen sind auch
 bh : ab | de : cd
 u. hi : ef | ik : fg n. 11. V.
 
-## II. Beweiß.
+### II. Beweiß.
 
 b ⋏ d n. 1. Winck.
 hab ⋏ ecd n. Bew. α.
@@ -38,4 +38,4 @@ k ⋏ g
 i ⋏ f
 h ⋏ e
 
-Dw.
+<!-- catchword: Dw. -->

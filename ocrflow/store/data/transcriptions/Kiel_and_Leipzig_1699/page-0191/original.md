@@ -8,10 +8,10 @@
 6. Durchs mittel d wird ein Senckstrich kf gezogen n. 11. I.
 7. Aus dem Düttel f, wo die beeden Senckstriche he und kd einander durchschneiden/ werde der verlangte Kreyß beschrieben.
 
-Vorbereitung.
+### Vorbereitung.
 Aus dem gefundenen Mittel-Düpffel f werden zu der Striche ac und bc Endungen/ die Strahlen fa, fb, fc gezogen.
 
-Beweiß.
+### Beweiß.
 
 bd | dc   n. 5. Wirck.
 df | df
@@ -28,8 +28,8 @@ und der Düttel f wird der Mittel-Düpffel seyn   n. 9. III.
 Oder:
 In denen Strichen df und ef muß der Mittel-Düpffel seyn/ n. 1. Anhang des III. Buchs.
 Muß Dw. f der Mittel-Düpffel seyn/ weil sonst kein Düttel/ welcher zugleich in beeden Strichen stehet/ kan gegeben werden.
-Beschluß.
+### Beschluß.
 Ist also der Mittel-Düpffel f gefunden / aus welchem der Kreyß bhac, dessen Theil das gegebene Kreyßstück abc ist/ kan beschrieben werden. W. Z. M.
 
-P 3
-Der
+<!-- signature mark: P 3 -->
+<!-- catchword: Der -->

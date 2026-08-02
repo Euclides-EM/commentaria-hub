@@ -15,23 +15,23 @@ Welches aber unmöglich n. 20. I.
 
 Muß also allezeit der gerade Strich / welcher zweene Mittel-Düpffele derer Kreyse/so einander auswendig berühren/ zusammen henget / durch den Anrührungs-Düpffel gehen. W. Z. B.
 
-# Der XIII. Vortrag.
+## Der XIII. Vortrag.
 
 ## Das 12. Beweiß-Stück.
 
 Kein Kreyß kan einen andern Kreyß in mehr/ als einem Düttel anrühren/ sie mögen gleich von innen oder von aussen einander berühren.
 
-## Gegebene. — Begehrte.
+### Gegebene. — Begehrte.
 
 1. Zweene Kreyse/
 2. Welche einander anrühren.
 
 Nicht mehr als ein Anrührungs-Düttel.
 
-## I. Begebenheit.
+### I. Begebenheit.
 
 Wann der inwendige Kreyß/ den eussern in c und d anrühret.
 
 *[Figur: zwei Kreise, deren innerer den äusseren oben in c und unten in d berührt; im Innern die Punkte a und b, dazwischen ein punktierter Strich von c nach d]*
 
-Vor-
+<!-- catchword: Vor- -->

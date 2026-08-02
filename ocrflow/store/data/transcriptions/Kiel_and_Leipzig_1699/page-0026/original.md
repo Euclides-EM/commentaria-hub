@@ -18,4 +18,4 @@ XXXV. Füll-Flächen oder Füll-Münde (Complementa DE & EC) sind zwey Vierecke 
 
 *[Figur: Parallelogramm ACBD mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Diagonale und Teilungslinien]*
 
-Fo-
+<!-- catchword: Fo- -->

@@ -4,7 +4,7 @@
 
 het / am längsten; diejenigen aber so näher dem Mittel stehen / länger seyn / als die / so weiter davon sind. Unter denen / welche außwendig den Kreyß berühren / wird der / so zwischen dem erwehlten Düttel und dem Durchschlag stehet / am kürtzesten / und allezeit die / so weiter von diesem Strich sind / länger seyn / als die / so näher bey selbigem sind: Nicht mehr aber / als zween Striche / so woll derer / die den Kreyß inwendig / als welche ihn außwendig berühren / und gleichweit vom längsten und kürtzesten Strich abstehen / können gleichlang seyn.
 
-## Gegebene. — Begehrte.
+### Gegebene. — Begehrte.
 
 1. Der Kreyß Lfmo
 2. Düttel a ausser dem Kreyß
@@ -20,13 +20,13 @@ oder
 4. ae ⊢ ad
 5. ac | al.
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Auff die gegebene Düttele d, g, e, h, k, m, n. &c. werden
 aus dem Mittel-Düpffel b gerade Striche bn, bm, bk, &c. gezogen.
 2. Werde gemacht fbL ⋀ fbl. n. 23. I.
 3. Werden gezogen aL und al.
 
-S 3
+<!-- signature mark: S 3 -->
 
-Be-
+<!-- catchword: Be- -->

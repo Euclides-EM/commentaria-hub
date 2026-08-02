@@ -2,12 +2,12 @@
 
 <!-- *(Seitenzahl: 327)* -->
 
-Vorbereitung.
+### Vorbereitung.
 
 Wenn man | acb ⋏ dfe | so mache
 | acg ⋏ dfe | n. 23. I.
 
-II. Beweiß.
+### II. Beweiß.
 
 | acg ⋏ dfe | n. Vorber.
 | cag ⋏ fde | n. 3. Geg.
@@ -27,8 +27,8 @@ Und ebener Gestalt | bca ⋏ efd
 | bac ⋏ edf | n. 1. Geg.
 Dw. △ abc gleichwincklicht △ def n. 1. Beschr. VI.
 
-Beschluß.
+### Beschluß.
 
 Wenn derowegen zwey Dreyecke einen gleimässigen Winckel haben / die übrigen Winckel aber von ebenmässigen Seiten begriffen sind / und derer übrigen Winckel allezeit von zweyen jedweder kleiner / oder auch nicht kleiner / als ein rechter Winckel ist: So sind diejenigen Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / beyde Dreyecke auch gleichwincklicht. W. Z. B.
 
-Der
+<!-- catchword: Der -->

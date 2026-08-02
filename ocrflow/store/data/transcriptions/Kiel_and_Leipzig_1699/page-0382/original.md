@@ -4,7 +4,7 @@
 
 Dw. ist cdefg ähnlich der Gestalt abhik, und eben so gesetzet n. 1. Beschr. VI.
 
-## Beschluß.
+### Beschluß.
 
 Ist also ein dem gegebenen Fünfeck abhik, ähnliches und eben so gesetztes Fünfeck cdefg auf den gegebenen Strich cd gesetzet. W. Z. M.
 
@@ -23,11 +23,11 @@ Vortheilhafftiger kan dieser Aufgabe ein Genügen geschehen/ wenn
 
 *[Figur: Sechseck ABCDEF mit einwärts liegendem ähnlichen Sechseck abcdef; von A gehen punktierte Striche zu den Ecken; oben der Strich A a—b B]*
 
-## Beweiß.
+### Beweiß.
 
 BC ∓ bc n. 3. W.
 Dw. ACB ⋏ acb
 u. ABC ⋏ abc n. 29. I.
 CAB ⋏ cab n 8. Gr. I.
 
-Dw.
+<!-- catchword: Dw. -->

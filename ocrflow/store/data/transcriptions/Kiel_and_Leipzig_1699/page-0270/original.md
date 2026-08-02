@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 246)* -->
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Die Grösse C werde zweymahl /
 2. Deßgleichen die Grösse D auch zweymahl genommen.
@@ -11,7 +11,7 @@
 
 *[Figur: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 4a, 2C, B, 4b, 2D]*
 
-## II. Beweiß.
+### II. Beweiß.
 
 9a ⊣ 4a — n. 9. Gr. I.
 9a | C — n. Bew. δ
@@ -26,9 +26,9 @@ Dw. D ⊣ 4b
 
 Oder auch also:
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Es werde a zehen mahl /
 2. Und auch b zehen mahl genommen.
 
-A—
+<!-- catchword: A— -->

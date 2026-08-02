@@ -18,4 +18,4 @@ VI. Ein Kreyßstücks-Winckel (segmenti angulus) wird von einem Bogen und von ei
 
 *[Figur: ein Kreyß-Stück mit punktierten Bögen an beyden Winckeln]*
 
-VII.
+<!-- catchword: VII. -->

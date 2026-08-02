@@ -2,17 +2,17 @@
 
 <!-- *(Seitenzahl: 371)* -->
 
-Beschluß.
+### Beschluß.
 
 Müssen derowegen die ähnliche/ gleicherweiß gesetzte/ und gleichmässigen Winckel habende abgenommene Vierecke mit dem gantzen ac üm einen einigen Zwergstrich stehen. W. Z. B.
 
-# Der XXVII. Vortrag.
+## Der XXVII. Vortrag.
 
-Das 20. Beweiß-Stück.
+## Das 20. Beweiß-Stück.
 
 Wenn an einen gegebenen geraden Strich ein gegebenes nebenstrichichtes und mangelhafftes Viereck angeschlagen wird: So wird unter allen nebenstrichichten und dem mangelenden Viereck ähnlichen Vierecken dasjenige / welches an die Helffte des gegebenen geraden Striches angeschlagen wird/ das Grösseste seyn.
 
-Gegebene.
+### Gegebene.
 
 1. Gerader Strich ab
 2. Nebenstrichichtes Viereck ai
@@ -25,9 +25,9 @@ Gegebene.
 9. an des Striches ab Helffte pb angeschlagen.
 10. □ pe ähnlich □ gc
 
-Begehrte.
+### Begehrte.
 
 1. □ pe ⊣ □ ai
 
-Aaa 2
-2. Unter
+<!-- signature mark: Aaa 2 -->
+<!-- catchword: 2. Unter -->

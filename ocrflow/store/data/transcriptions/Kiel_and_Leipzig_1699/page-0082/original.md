@@ -2,13 +2,13 @@
 
 <!-- # Das I. Buch -->
 
-# Der XXXIV. Vortrag.
+## Der XXXIV. Vortrag.
 
-Das 25. Beweiß Stück.
+## Das 25. Beweiß Stück.
 
 Aller Nebenstrichichten Vier-Ecke gegen überstehende Seiten und Winckel sind gleich groß/ werden auch von dem Zwerg-Strich in zweene gleiche Theile getheilet.
 
-Gegebene. | Begehrte.
+### Gegebene. | Begehrte.
 Nebenstrichichtes Viereck ABCD | 1. AB | CD
 | 2. AC | BD
 | 3. A ⋀ D
@@ -17,7 +17,7 @@ Nebenstrichichtes Viereck ABCD | 1. AB | CD
 
 *[Figur: Nebenstrichichtes Viereck (Parallelogramm) ABCD mit punktirter Zwerg-Linie von A nach D]*
 
-Beweiß.
+### Beweiß.
 
 AB ⟛ CD n. 35. Beschr.
 Drw. BAD ⋀ ADC n. 29. Vortr.
@@ -31,4 +31,4 @@ AD | AD
 BAD + DAC ⋀ BDA + ADC n. 2. Gr:S.
 ε. oder BAC ⋀ BDC n. 9. Gr:S. q.
 
-Be-
+<!-- catchword: Be- -->

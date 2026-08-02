@@ -9,7 +9,7 @@
 
 *[Figur: Zwei Dreiecke ABC und abc nebeneinander]*
 
-Beweiß.
+### Beweiß.
 
 Entweder ist   BAC ⋏ bac
 oder           BAC ⊼ bac
@@ -21,16 +21,16 @@ ist aber BAC ⊣ bac      So ist BC ⊣ bc
         n. 24. Vortr. welches auch wider 6. Gegeb.
 Dw. muß BAC ⊼ bac
 
-Beschluß.
+### Beschluß.
 
 Ist also jederzeit in dem △, dessen Grund-Seite grösser / als des andern / auch der Winckel grösser/als in dem andern △. W. Z. B.
 
-# Der XXVI. Vortrag.
+## Der XXVI. Vortrag.
 
-Das 17. Beweiß-Stück.
+## Das 17. Beweiß-Stück.
 
 Wann zwey Dreyecke zween Winckel/zweyen Winckeln / jedweden jedwedem / und eine Seite der einen Seite gleich haben / es sey gleich / daß die Seite einem der beeden Winckel übergespannet/oder neben den beeden Winckeln stehet : So
 
-G 2
+<!-- signature mark: G 2 -->
 
-wer-
+<!-- catchword: wer- -->

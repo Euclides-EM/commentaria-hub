@@ -2,7 +2,7 @@
 
 <!-- # Euclidis. -->
 
-Wirckung.
+### Wirckung.
 
 1. Ziehe man einen ungeendeten Strich CD
 2. Von diesen Strich CD schneide man ab AC | ac)
@@ -15,7 +15,7 @@ Wirckung.
 
 *[Figur: Zwei sich durchschneidende punktierte Kreise um A und B; waagerechter Strich C A B E D; Dreieck ABF mit F oben am Schnittpunkt der Kreise; rechts daneben drei Strecken bezeichnet mit c a, a, b b.]*
 
-Beweiß.
+### Beweiß.
 
 AC | ac)
 a. AB | bc)
@@ -25,5 +25,5 @@ BF | BE) nach 15. Beschr.
 Dw. ß AF | ac)
 und γ BF | ba) nach 1. Gr-S.
 
-F 3
-Be-
+<!-- signature mark: F 3 -->
+<!-- catchword: Be- -->

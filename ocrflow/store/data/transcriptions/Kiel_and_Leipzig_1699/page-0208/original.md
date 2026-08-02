@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 190)* -->
 
-Wirckung.
+### Wirckung.
 
 1. Wird ein gerader Strich bc gezogen /
 2. Welcher den Kreyß anrühre.
@@ -12,11 +12,11 @@ Wirckung.
 
 *[Figur: Kreis mit Punkten d, e, n, m, a; Tangente b–a–c unten, oben rechts kleiner Winckel f, g, h]*
 
-Vorbereitung.
+### Vorbereitung.
 
 Es werden in dem abgeschnittenen Kreyßstück gezogen die geraden Striche ae und de.
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -26,8 +26,8 @@ Beweiß.
 |  | aed ⋀ mab |  | n. 32. III. |
 | Dw. | aed ⋀ hfg |  | n. 1. Gr. I. |
 
-Beschluß.
+### Beschluß.
 
 Ist also von dem Kreyß daed ein Stück dfa abgeschnitten/ in welchem ein Winckel aed ⋀ hfg stehen kan. W. Z. M.
 
-Der
+<!-- catchword: Der -->

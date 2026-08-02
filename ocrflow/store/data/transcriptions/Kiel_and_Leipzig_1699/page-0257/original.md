@@ -34,6 +34,6 @@ XV. Zertheilte Verhältniß ist/wenn man den überschuß / womit die Vorgehenden
 
 oder 2a : 4a | a : 2a.
 
-Gg
+<!-- signature mark: Gg -->
 
-XVI. Ver-
+<!-- catchword: XVI. Ver- -->

@@ -4,7 +4,7 @@
 
 *[Figur: Kreis mit Mittel-Düpffel a, oben die Sehne cb mit Punkt g, unten die Sehne de mit Punkt f, punktierte Linien von a nach b und e]*
 
-Beweiß.
+### Beweiß.
 
 cb | de — n. 4. Geg.
 cg | gb
@@ -26,9 +26,9 @@ Dw. sind bc und de gleichweit von dem Mittel-Düpffel entfernet. n. 4. Beschr. I
 
 Anderer Theil dieses Vortrags.
 
-Gegebene. Begehrtes.
+### Gegebene. Begehrtes.
 
 1. Zween Senckstriche ag und af. — cb | de
 
-V 2
-2. Aus
+<!-- signature mark: V 2 -->
+<!-- catchword: 2. Aus -->

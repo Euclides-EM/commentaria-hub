@@ -4,12 +4,12 @@
 
 sammen / sie mögen genommen werden / wie sie wollen / allezeit grösser / als die dritte.
 
-Gegebenes. Begehrte.
+### Gegebenes. Begehrte.
 △ ABC. 1. AB + BC ⊣ CA
 2. CA + AB ⊣ BC
 3. BC + CA ⊣ BA.
 
-Vorbereitung.
+### Vorbereitung.
 
 1. Werde die Seite CA nach nohturfft verlängert. n. 2. Fod.
 2. werde AD | AB n. 3. Vortr.
@@ -17,7 +17,7 @@ Vorbereitung.
 
 *[Figur: Dreieck ABC mit C unten links, B unten rechts, A oben; die Seite CA über A hinaus punktiert verlängert bis D, punktierte Linie von D nach B.]*
 
-Beweiß.
+### Beweiß.
 
 AD | AB n. 2. Vorbereitung.
 Drw. ADB ⋀ ABD n. 5. Vortr.
@@ -33,4 +33,4 @@ Gleicher Weise kan auch erwiesen werden
 daß AB + BC ⊣ CA
 und BC + CA ⊣ BA
 
-Beschluß.
+<!-- catchword: Beschluß. -->

@@ -8,18 +8,18 @@
 | | fd | bd | n. 29. III. |
 | und | fdb | Gleichseitiges △ | n. 23. Besch. I. W. Z. M. |
 
-# Der XVI. Vortrag.
+## Der XVI. Vortrag.
 
 ## Das 16. Werckstück.
 
 Dem gegebenen Kreyß ein gleichseitig und gleichwincklicht Funffzehen-Eck einzuschreiben.
 
-Gegebenes. — Begehrte.
+### Gegebenes. — Begehrte.
 
 Kreyß abfdea. — 1. Funffzehn-Eck dgafe 2. dem Kreyß eingeschrieben.
 
 *[Figur: Kreis mit einbeschriebenem Fünfzehneck, darin punktiert ein Dreieck und ein Fünfeck; Punkte a, b, e, f, g, c, d, n, m]*
 
-Ff 3
+<!-- signature mark: Ff 3 -->
 
-Wir-
+<!-- catchword: Wir- -->

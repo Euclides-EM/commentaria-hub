@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 321)* -->
 
-Verfolg des Beweises.
+### Verfolg des Beweises.
 
 CDH ⋏ bac
 DCH ⋏ abc   n. Vorber.
@@ -21,7 +21,7 @@ und   DCF ⋏ abc   n. 23. I.
 
 *[Figur: zwei Dreiecke, links das Dreieck abc, rechts das Dreieck DCE mit punktierten Linien zu dem unterhalb liegenden Punkt F]*
 
-Beweiß.
+### Beweiß.
 
 CDF ⋏ bac
 DCF ⋏ abc   n. Vorber.
@@ -31,5 +31,5 @@ u. | ac : DF | ab : DC | n. 4. VI.
 Dw. | ac : DE | ac : DF | n. 11. V.
 u. | DE | DF | n. 9. V.
 
-Ss
-CFD
+<!-- signature mark: Ss -->
+<!-- catchword: CFD -->

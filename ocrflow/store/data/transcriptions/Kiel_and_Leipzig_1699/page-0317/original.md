@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 293)* -->
 
-## Vorbereitung.
+### Vorbereitung.
 1. Nehme man eine Grösse D darzu / welche zu C sich also / wie b zu c verhalte.
 
 *[Figur: drei waagerechte Linien d, D, C von unterschiedlicher Länge]*
@@ -13,7 +13,7 @@ D : C | b : c
 
 d : D | a : b
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -36,6 +36,6 @@ d : D | a : b
 | Dw. | d : C | \| a : c | n. 22. V. |
 | und | A : C | ⊣ a : c | n. Bew. ß. u. Anh. 13. V. |
 
-Oo 3
+<!-- signature mark: Oo 3 -->
 
-Beschluß.
+<!-- catchword: Beschluß. -->

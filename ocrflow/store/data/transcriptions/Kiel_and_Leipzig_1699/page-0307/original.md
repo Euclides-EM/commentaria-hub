@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 283)* -->
 
-Gegebene.
+### Gegebene.
 
 *[Figur: vier Linien A, B, a, b von verschiedener Länge; auf der Linie a sind die Stücke f und d bezeichnet]*
 
@@ -11,11 +11,11 @@ A ⊣ B
 B ⊣ a
 a ⊣ b
 
-Begehrtes.
+### Begehrtes.
 
 A + b ⊣ B + a
 
-Vorbereitung.
+### Vorbereitung.
 
 1. Von der Grössesten und Ersten Grösse A werde ein Stück e, welches so groß sey / als die Andere Grösse B, abgeschnitten e | B n. 3. I.
 
@@ -29,6 +29,6 @@ Vorbereitung.
 
 6. Zu denen andern beeden f + B werde das andere übergebliebene d beygethan B + f + d.
 
-Nn 2
+<!-- signature mark: Nn 2 -->
 
-Beweiß.
+<!-- catchword: Beweiß. -->

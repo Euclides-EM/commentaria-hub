@@ -8,11 +8,11 @@
 5. Aus dem Mittel g wird nach der Weite ag ein Halbkreyß beschrieben,
 6. Aus dem Düttel d, wo die beyden Striche zusammen stossen/ werde biß zu dem Kreyßzug ein Senckstrich db gezogen. n. 11. I.
 
-## Vorbereitung.
+### Vorbereitung.
 
 Es werden die beyden geraden Striche ab und cb gezogen.
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -30,8 +30,8 @@ Der Strich bd ist ein aus dem rechten Winckel auf den Grundstrich gezogener Senc
 
 Dw. der Strich db ein Mittel-ebenmässiger Strich.
 
-## Beschluß.
+### Beschluß.
 
 Ist also zu den beyden gegebenen geraden Strichen AB und CD der mittel-ebenmässige Strich db gefunden. W. Z. M.
 
-Der
+<!-- catchword: Der -->

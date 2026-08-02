@@ -4,7 +4,7 @@
 
 *[Figur: Strich A C B, darunter ein Quadrat a b f d mit innerer gestrichelter senkrechter Linie durch i, c und gestrichelter waagerechter Linie e g k.]*
 
-## Beweiß.
+### Beweiß.
 
 ab | ac + cb — n. 9. Gr. 4. I. (?)
 ac | ac
@@ -20,11 +20,11 @@ ab | ab
 Dw. □ ab | □ AC + 2 □ ACB + □ CB
 oder AB |
 
-## Beschluß.
+### Beschluß.
 
 Ist also allezeit das □ des gantzen Striches AB, so groß/ als die beeden □ □, so von des Strichs AB beeden Stücken AC und CB gemacht/ samt dem □, welches von gedachten beeden Stücken begriffen wird/ zweymahl genommen. W. Z. B.
 
 *[Stempel: Bayerische Staatsbibliothek München]*
 
-N
-Nach
+<!-- signature mark: N -->
+<!-- catchword: Nach -->

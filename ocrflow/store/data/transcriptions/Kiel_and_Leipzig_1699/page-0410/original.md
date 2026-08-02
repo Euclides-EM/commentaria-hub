@@ -11,11 +11,11 @@
 |  | □ fp | □ Bp + □ fo | n. 9. Gr. I. q. |
 | Dw. | ist □ fo der Uberschuß |  | n. 6. Beschr. VI. |
 
-## Beschluß.
+### Beschluß.
 
 Ist also an den gegebenen Strich AB ein übertreffendes □ fp | △ K also angeschlagen/ daß der Uberschuß □ fo ähnlich dem □ L, auch auf gleiche Weise gesetzet seye. W. Z. M.
 
-# Der XXX. Vortrag.
+## Der XXX. Vortrag.
 
 ## Das 10. Werck-Stück.
 
@@ -32,4 +32,4 @@ Gerader Strich ab,
 
 *[Figur: geometrische Konstruktion aus Quadraten und punktierten Linien mit den Punkten f, a, i, c, b, e, h, g, k, d, m]*
 
-Wir-
+<!-- catchword: Wir- -->

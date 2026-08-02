@@ -2,26 +2,26 @@
 
 <!-- # Euclidis. -->
 
-# Des I. Vortrags I. Zugabe.
+## Des I. Vortrags I. Zugabe.
 
 Diejenigen Dreyecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ haben auch gleichmässige Höhen.
 
-# I. Gegebene.
+### I. Gegebene.
 
 ab : ed | △ abc : △ def
 
-# Begehrtes.
+### Begehrtes.
 
 Höhen cq | fp.
 
 *[Figur: Zwei Dreiecke, links mit Gipffel f über der Grundlinie e p d a, rechts mit Gipffel c und Punkt r über der Grundlinie a q b, mit gestrichelten Höhen und Strichen]*
 
-# Vorbereitung.
+### Vorbereitung.
 
 Wenn die Höhe cq länger were/ als die Höhe fp, so schneide man ab ein Stück rq | fp.
 2. Ziehe man die Striche ra und rb.
 
-# Beweiß.
+### Beweiß.
 
 weil cq ⊣ fp. — n. Angenom.
 und rq | fp — n. Vorber.
@@ -32,5 +32,5 @@ u. △ arb | △ acb — n. 9. V.
 
 welches aber unmüglich n. 9. Gr. I.
 
-Qq 2
-Gleiche
+<!-- signature mark: Qq 2 -->
+<!-- catchword: Gleiche -->

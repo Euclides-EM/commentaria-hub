@@ -12,13 +12,13 @@
 |  | B + C : b + c | ⊣ C : c | n. Beg. y |
 | n Dw. | A + B + C : a + b + c | ⊣ C : c | n. Anh. 13. V. |
 
-## Beschluß.
+### Beschluß.
 Wenn derowegen Sechs Grössen gegeben werden / deren I. zu der IV. eine grössere Verhältnüß hat / als die II. zu der V. diese aber wiederum eine grössere Verhältnüß zu einander haben / als die III. zu der VI. So werden die I, II. und III. zusammen / zu denen IV, V. und VI. eine grössere Verhältnüß haben / als die II. und III. zu denen V. und VI. Es werden aber I, II. und III. eine kleinere Verhältnüß / als die I. zu der IV. eine grössere Verhältnüß aber / als die III. zu der VI. haben. W. Z. B.
 
-## Anmerckung.
+### Anmerckung.
 Gleiche Bewandnüß hat es / wenn Acht / Zehen oder mehr Grössen gegeben werden / welche sich begehrter massen zusammen verhalten. Als wenn zu denen vorigen sechs Grössen noch zwo gegeben werden / nemlich D und d, welche noch eine grössere Verhältnüß zu einander haben / als A zu a.
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -29,6 +29,6 @@ Gleiche Bewandnüß hat es / wenn Acht / Zehen oder mehr Grössen gegeben werden
 | D : d | ⊣ D + A : d + a | n. 33. V. |
 | A : a | ⊣ A + B + C : a + b : c | n. Bew. ζ |
 
-Pp 2
+<!-- signature mark: Pp 2 -->
 
-Dw.
+<!-- catchword: Dw. -->

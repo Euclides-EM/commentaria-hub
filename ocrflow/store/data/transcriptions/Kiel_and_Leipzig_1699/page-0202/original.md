@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 184)* -->
 
-V. Beweiß.
+### V. Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -11,7 +11,7 @@ V. Beweiß.
 |  | bcb ⋀ bce | n. 9. Gr. I. |
 | Dw. | bcb ⋀ ∟ | n. 1. Gr. b. I. |
 
-Beschluß.
+### Beschluß.
 
 Müssen also 1. Im Halb-Kreyß stehende Winckel alle Rechte /
 2. In grössern/als Halb-Kreysen/stehende Winckel spitzig/
@@ -20,13 +20,13 @@ Müssen also 1. Im Halb-Kreyß stehende Winckel alle Rechte /
 5. Kleinerer Kreyßstücke Winckele aber sind kleiner/ als
 rechte Winckel. W.Z.B.
 
-# Der XXXII. Vortrag.
+## Der XXXII. Vortrag.
 
-Das 18. Beweiß-Stück.
+## Das 18. Beweiß-Stück.
 
 Wann einen Kreyß ein gerader Strich anrühret / und von dem Rühr-Düpffel ein gerader Strich gezogen/den Kreyß schneidet; so werden die Winckel / welchen solcher Strich mit dem Rühr-Strich macht/ gleichgroß seyn mit denen/ in den abgewendeten Kreyß-Stücken stehenden Winckeln.
 
-Gegebene. | Begehrte.
+### Gegebene. | Begehrte.
 
 1. Kreyß afgda. | bae ⋀ eda.
 2. Rühr-Strich bac. | eac ⋀ efa.
@@ -36,4 +36,4 @@ Gegebene. | Begehrte.
 6. Von b abgewandter Winckel eda.
 7. Von c - - - - - : efa.
 
-Vor-
+<!-- catchword: Vor- -->

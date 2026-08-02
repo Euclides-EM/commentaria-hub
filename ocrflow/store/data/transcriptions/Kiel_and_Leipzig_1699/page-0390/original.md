@@ -4,7 +4,7 @@
 
 2. Auch werde zu den Strichen ef und gh und der Dritte ebenmässige Strich q gefunden n. 11. VI. ef : gh | gh : q.
 
-## I. Beweiß.
+### I. Beweiß.
 
 ab : cd | ef : gh n. 2. Geg.
 ab : cd | cd : p n. 1. Vorb.
@@ -23,14 +23,14 @@ fe : q = fe : gh n. 10. Besch. V.
 Dw. □ el : □ gi | fe : q
 γ u. △ aob : △ cde | □ el : □ gi n. 11. V.
 
-## II. Gegebene.
+### II. Gegebene.
 
 1. △ aob : △ cnd | □ el : □ gi
 2. △ aob ähnlich △ cnd
 3. □ el ähnlich □ gi
 
-## II. Begehrtes.
+### II. Begehrtes.
 
 ab : cd | ef : gh.
 
-II. Beweiß.
+<!-- catchword: II. Beweiß. -->

@@ -9,22 +9,22 @@
 7. Aus e, wo diese Senckstriche einander schneiden / werde
 8. Nach der Weite ec oder ea ein Kreyß gezogen.
 
-## Beweiß.
+### Beweiß.
 
 Man ziehe die drey Düttele a, h, c mit geraden Strichen ah, hc, ca zusammen/ so ist nach vorhergehendem Vortrag ein Kreyß umb dasselbige Dreyeck (oder durch die 3. Düttele) gezogen / wie allbereit bewiesen. W. Z. M.
 
-# Der VI. Vortrag.
+## Der VI. Vortrag.
 
 ## Das 6. Werckstück.
 
 Einem Kreyß ein gleichseitiges Viereck einzuschreiben.
 
-Gegebenes. Begehrte.
+### Gegebenes. Begehrte.
 
 Kreyß dabc. 1. Gleichseitiges Viereck abcd
 2. dem Kreyß dabc eingeschrieben.
 
-## Wirckung.
+### Wirckung.
 
 1. Durch den Mittel-Düpffel e werde der Durchschlag db,
 2. Und durch diesen Durchschlag/ und zwar auch durch den Mittel-Düpffel e, werde ein Senckstrich ac gezogen/ n. 11. I.
@@ -32,6 +32,6 @@ Kreyß dabc. 1. Gleichseitiges Viereck abcd
 
 *[Figur: Kreis mit Mittel-Düpffel e und eingeschriebenem Viereck abcd samt beiden Durchschlägen (Diagonalen) ac und db]*
 
-Dd 2
+<!-- signature mark: Dd 2 -->
 
-Be-
+<!-- catchword: Be- -->

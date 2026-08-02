@@ -2,7 +2,7 @@
 
 <!-- # Euclidis. -->
 
-# Der XIV. Vortrag.
+## Der XIV. Vortrag.
 
 ## Das 9. Beweiß-Stück.
 
@@ -29,6 +29,6 @@ ab : eh ⊤ fe : db.
 1. Es werde gemacht ABDC ⌻ abdc. n. 46. I.
 2. Verlänget man nach Nothdurfft die Striche CD und BD gegen H und F.
 
-Uu 3
+<!-- signature mark: Uu 3 -->
 
-3. werde
+<!-- catchword: 3. werde -->

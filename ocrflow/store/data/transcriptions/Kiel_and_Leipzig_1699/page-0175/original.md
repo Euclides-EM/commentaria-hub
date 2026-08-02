@@ -2,13 +2,13 @@
 
 <!-- *(Seitenzahl: 157)* -->
 
-# Der XV. Vortrag.
+## Der XV. Vortrag.
 
-Das 14. Beweiß-Stück.
+## Das 14. Beweiß-Stück.
 
 Jn jedwedem Kreyß ist/ unter allen geraden Strichen/der Durchschlag am längsten : diejenigen Striche auch/ welche näher bey dem Mittel-Düpffel stehen/ sind länger/ als die/ so weiter davon abstehen.
 
-Gegebene. Begehrte.
+### Gegebene. Begehrte.
 
 1. Kreyß begc. — 1. Durchschlag ml am längsten.
 2. Mittel-Düpffel a. — 2. en ⊣ bc
@@ -18,11 +18,11 @@ Gegebene. Begehrte.
 
 *[Figur: Kreis mit Mittel-Düpffel a, Durchschlag ml, Sehnen hg (mit Punkt i), ef (mit Punkten k, o), en, bc (mit Punkt d), punktierte Stralen von a nach h, e, g, f]*
 
-Vorbereitung.
+### Vorbereitung.
 
 1. Auß dem Düttel e werde gezogen der Strich ef, also daß
 2. Er gleichweit mit bc von dem Mittel-Düpffel abstehe.
 3. Deßgleichen werden die Stralen ha, ea, ga, fa, na.
 
-V 3
-4. Wie
+<!-- signature mark: V 3 -->
+<!-- catchword: 4. Wie -->

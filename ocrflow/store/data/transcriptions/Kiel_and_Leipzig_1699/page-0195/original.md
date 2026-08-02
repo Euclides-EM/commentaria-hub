@@ -2,19 +2,19 @@
 
 <!-- *(Seitenzahl: 177)* -->
 
-Gegebene.
+### Gegebene.
 1. Gleichgrosse Kreysse ahca | dged
 2. Striche ac | de
 
-Begehrte.
+### Begehrte.
 1. ahc ⏀ dge
 2. ac ⊻ de
 
 *[Figur: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, f, d, e, der andere mit h, b, a, c; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]*
 
-Vorbereitung.
+### Vorbereitung.
 Es werden gezogen die Stralen ba, bc, fd, fe.
-Beweiß.
+### Beweiß.
 
 ab | df
 bc | fe } n. 1. Beschr. III.
@@ -26,8 +26,8 @@ O ahca | O dged   n. 1. Geg.
 Dw. O ahca — ◡ ac | O dged — ◡ de   n. 3. Gr. I.
 oder ahc ⏀ dge
 
-Beschluß.
+### Beschluß.
 Müssen derowegen gleichlange Striche in gleichgrossen Kreysen allezeit gleichgrosse Bogen / und zwar den grossen dem grössern/ und den kleinen dem kleinern in gleicher Grösse abschneiden. W. Z. B.
 
-Q
-Der
+<!-- signature mark: Q -->
+<!-- catchword: Der -->

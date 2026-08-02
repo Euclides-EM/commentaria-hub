@@ -23,4 +23,4 @@ Denique: quia lineæ bc ambo termini b & c in ambos lineæ BC terminos B & C cad
 
 Sed supra vel infra cadere non poterit, alias duæ rectæ describerent figuram, quod est contra axioma 12. n. 12. Gr. S.
 
-Neces-
+<!-- catchword: Neces- -->

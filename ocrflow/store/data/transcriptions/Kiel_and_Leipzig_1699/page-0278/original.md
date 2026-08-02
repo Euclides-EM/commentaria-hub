@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 254)* -->
 
-## Gegebene. — Begehrtes.
+### Gegebene. — Begehrtes.
 
 *[Figur: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]*
 
@@ -10,7 +10,7 @@ A ⊣ B — A : a ⊣ B : a
 A | 5a
 B | 3a
 
-## Vorbereitung.
+### Vorbereitung.
 
 ## Des I. Theils.
 
@@ -20,7 +20,7 @@ B | 3a
 
 *[Figur: Drey waagerechte Linien, bezeichnet 2A, 7a, 2B]*
 
-## Beweiß.
+### Beweiß.
 
 A | 5a — n. Geg.
 2A | 10a — n. Vorber. u. 6. Gr. i. I.
@@ -32,4 +32,4 @@ B | 3a — n. Geg.
 Dw. 2B ⊢ 7a — n. 1. Gr. a. I.
 Und A : a ⊣ B : a — n. 8. Beschr. V.
 
-Des
+<!-- catchword: Des -->

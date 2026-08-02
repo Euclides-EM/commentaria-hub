@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 160)* -->
 
-I. Beweiß.
+### I. Beweiß.
 
 ac | ag — n. 5. Beschr. I.
 ab ⊣ ag — n. 9. Gr. I.
@@ -19,7 +19,7 @@ und ab ⊣ ac — n. 19. I.
 
 Dahero abermahl der Düttel b, wie auch alle übrige Theile und Düttele des Strichs cb ausser dem Kreyßzug stehen müssen.
 
-II. Beweiß.
+### II. Beweiß.
 
 ad ist ein Senckstrich n. 3. Vorb.
 Dw. adc ⅄ acd — n. 17. I.
@@ -27,17 +27,17 @@ und ac ⊣ ad — n 19. I.
 
 Dw. fället cd in den Kreyß : keines weges aber zwischen den Kreyß und den Strich cb.
 
-III. Beweiß.
+### III. Beweiß.
 
 Der Strich dc fället in den Kreyß — n. 2. Bew.
 Derowegen ∟ acg ⅄ ∧ acd — n. 9. Gr. I.
 und ∟ acg ⅄ als alle spitzige Winckel.
 
-IV. Beweiß.
+### IV. Beweiß.
 
 Kein gerader Strich kan zwischen den Kreyß und den Senckstrich cb fallen — n. 2. Bew.
 Dw. kan kein spitzigerer Winckel gemacht werden/
 als der ∧ gcb
 und ist der ∧ gcb ⋏ als alle spitze ∧
 
-Be-
+<!-- catchword: Be- -->

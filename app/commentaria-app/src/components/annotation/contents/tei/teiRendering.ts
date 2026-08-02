@@ -434,9 +434,7 @@ export const renderStructuredDivToParagraphs = (
         } satisfies LineTextWithAnchors
       })
       const table =
-        opts.alignLines && blockType === 'paragraph'
-          ? getParagraphTable(renderedLines)
-          : null
+        blockType === 'paragraph' ? getParagraphTable(renderedLines) : null
       if (table) {
         paragraphs.push({ ...table, blockType })
         continue

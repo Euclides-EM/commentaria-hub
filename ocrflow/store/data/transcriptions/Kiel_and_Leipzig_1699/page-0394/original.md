@@ -4,18 +4,18 @@
 
 ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüssen zusammen gesetzet ist.
 
-Gegebene.
+### Gegebene.
 
 1. Nebenstrichichte Vierecke ao, und df.
 2. □ ac gleichwincklicht dem □ df.
 
-Begehrtes.
+### Begehrtes.
 
 □ ac : □ df | ad, dc : gd, de.
 
 *[Figur: zwey aneinander gefügte Vierecke mit den Punkten b, c, h, a, d, g, e, f nebst den Linien i, k, l; darunter zwey Dreiecksfiguren mit punctirten Linien und den Buchstaben k, g, l, c, d, k, e, d]*
 
-Vorbereitung.
+### Vorbereitung.
 
 1. Werden die beyden Vierecke bey dem Winckel d also zusammen gefüget/ daß ad und dg, wie auch cd und de zween gerade Striche machen.
 
@@ -25,4 +25,4 @@ Vorbereitung.
 
 ad : dg | i : k, n. 12. VI.
 
-4. Werde
+<!-- catchword: 4. Werde -->

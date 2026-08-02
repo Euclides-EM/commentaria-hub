@@ -4,7 +4,7 @@
 
 werden die übrigen Seiten / denen übrigen Seiten / jedwede jedweder / und der übrige Winckel/ dem übrigen Winckel auch gleich seyn.
 
-Gegebene.                    Begehrte.
+### Gegebene.                    Begehrte.
 1. △ ABC                     A ⋏ a
 2. △ abc                     AB | ab
 3. BC | bc                   AC | ac
@@ -17,11 +17,11 @@ oder           AB | ab
 
 *[Figur: Zwei Dreiecke: links ABC, rechts abc mit punktierten Linien und Punkten d und h]*
 
-Vorbereitung.
+### Vorbereitung.
 
 Wann AB ⊣ ab so werde ba verlängert / biß zu dem Düttel h, damit bh | AB.
 
-Verfolg des Beweises.
+### Verfolg des Beweises.
 
      ab ⊢ AB              nach Angenommen.
 bh        | AB            n. Vorbereit.
@@ -31,4 +31,4 @@ bh + bc | AB + BC         n. 2. Gr-S.
 Dw. hcb   ⋏    ACB        n. 4. Vortr.
     acb   ⋏    ACB        n. 5. Gegeb.
 
-Dw.
+<!-- catchword: Dw. -->

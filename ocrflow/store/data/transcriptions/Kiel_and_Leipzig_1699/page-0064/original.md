@@ -2,19 +2,19 @@
 
 <!-- # Das I. Buch -->
 
-Beschluß.
+### Beschluß.
 Ist also das △ ABF verfertiget/ in welchen
 AB | bc. a.
 AF | ac ß.
 und BF | ba γ. W. Z. M.
 
-# Der XXIII. Vortrag.
+## Der XXIII. Vortrag.
 
-Das 9. Werck-Stück.
+## Das 9. Werck-Stück.
 
 Auff einen gegebenen geraden Strich/ und zwar auff den darin gegebenen Düttel / einen Winckel / welcher dem gegebenen gerad-Strichichen Winckel gleich sey/ zu setzen.
 
-Gegebene. Begehrte.
+### Gegebene. Begehrte.
 1. ∧ FED 1. ICK ⋀ FEG
 2. Gerader Strich AB 2. auff den Strich AB
 3. Düttel C 3. im Düttel C
@@ -22,7 +22,7 @@ Gegebene. Begehrte.
 
 *[Figur: Zwei Winkel: links Winkel bei E mit Schenkeln nach F oben und G, rechts Winkel bei C mit Schenkeln nach I oben und K; waagerechter Strich E G C K, punktierte Kreisbögen FG und IK; Punkte A und B.]*
 
-Wirckung.
+### Wirckung.
 
 1. Auß dem Düttel E wird nach beliebiger grösse ein Kreyßstück FG gezogen/ damit EG | EF.
 2. Werde der Strich FG gezogen.
@@ -30,4 +30,4 @@ Wirckung.
 4. Auff den Strich CK setze man CI | EF)
 und KI | GF) n. 22. Vort.
 
-Beweiß
+<!-- catchword: Beweiß -->

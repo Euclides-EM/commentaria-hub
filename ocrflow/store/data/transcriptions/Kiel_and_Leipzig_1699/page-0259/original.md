@@ -8,22 +8,22 @@ XIX. Verwirrete Ebenmässigkeit ist / wenn man drey Grössen in der ersten Ordnu
 
 (4b): 2b : b
 
-# Der I. Vortrag.
+## Der I. Vortrag.
 
 ## Das 1. Beweiß-Stück.
 
 Wann etliche Grössen (und zwar so viel man derer wil) anderer eben so viel Grössen gleichmässig vielfältige (multiplices) sind/so werden die ersten Grössen alle zusammen genommen/derer Anderen allen zusammen genommenen Grössen eben so vielfältig seyn / als eine derer Ersten zu einer deren Anderen in richtiger Ordnung genommenen Grössen.
 
-## Gegebene.
+### Gegebene.
 
 *[Figur: vier waagerechte Linien verschiedener Länge, bezeichnet A, a, B, b]*
 
 A : a | B : b
 
-## Begehrtes.
+### Begehrtes.
 
 A + B : a + b | A : a — B : b
 
-Gg 2
+<!-- signature mark: Gg 2 -->
 
-Vor-
+<!-- catchword: Vor- -->

@@ -22,5 +22,5 @@ I. Welche zwo Grössen c oder b ( oder Zalen ) einer dritten Grösse a ( oder Za
 
 *[Figur: drei Striche, a länger, b und c kürzer und gleich lang]*
 
-B
-(b) Welch
+<!-- signature mark: B -->
+<!-- catchword: (b) Welch -->

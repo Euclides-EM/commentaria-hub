@@ -2,7 +2,7 @@
 
 <!-- # Euclidis. -->
 
-# Beweiß.
+### Beweiß.
 
 eu | ab — n. 5. Vorb.
 fq | cq — n. 3. Geg.
@@ -21,14 +21,14 @@ de : △ efd | 3de : 3 △ efd — n. 15. V.
 Dw. de : △ efd | ab : △ abc — n. 11. V.
 β u. de : ab | △ efd : △ abc — n. 16. V.
 
-# Beschluß.
+### Beschluß.
 
 Alle Dreyecke/ welche gleichmässige Höhen haben / verhalten sich also/ wie ihre Grundstriche gegen einander. W. Z. B.
 
-# Des I. Vortrags II. Gegebene.
+## Des I. Vortrags II. Gegebene.
 
 1. Zwey nebenstrichichte Vierecke ln. und hk.
 2. Gleichmässige Höhen rm|kg.
 
-Qq
-Begehrtes.
+<!-- signature mark: Qq -->
+<!-- catchword: Begehrtes. -->

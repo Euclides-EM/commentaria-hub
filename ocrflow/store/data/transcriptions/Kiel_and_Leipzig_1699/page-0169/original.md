@@ -2,11 +2,11 @@
 
 <!-- *(Seitenzahl: 151)* -->
 
-## Vorbereitung.
+### Vorbereitung.
 
 So werde durch die beeden angenom̄enen Mittel-Düpffele a und b ein gerader Strich / welcher auf die beeden Anrührungs-Düttele c und d stosse / gezogen.
 
-## Beweiß.
+### Beweiß.
 
 ad | ac — n. 15. Beschr. I. und nach Angen.
 ad ⊣ bd — n. 9. Gr. I.
@@ -15,18 +15,18 @@ bc | bd — n. 15. Beschr. I. und nach Angen.
 Dw. ac ⊣ bc — n. 1. Gr. a. I.
 Welches unmüglich n. 9. Gr. I.
 
-## II. Begebenheit.
+### II. Begebenheit.
 
 Wann der inwendige Kreyß den eussern in h und g anrühret.
 
 *[Figur: zwei Kreise, deren innerer den äusseren oben in h und g anrühret; im Innern die Mittel-Düpffele f und e mit punktierten Stralen nach h und g]*
 
-## Vorbereitung.
+### Vorbereitung.
 
 So seyen 1. die beeden Mittel-Düpffele e und f.
 2. darnach werden aus den Anrührungs-Dütteln die Stralen hf, he, gf und ge, zu den beeden Mittel-Düpffeln gezogen.
 
-## Beweiß.
+### Beweiß.
 
 hf | gf — n. 15. Beschr. I. und nach angen.
 fe | fe
@@ -36,4 +36,4 @@ Dw. ge ⊢ hf + fe — n. 1. Gr. b. I.
 Oder ge ⊢ he — n. 9. Gr. q. I.
 Welches unmüglich n. 15. Beschr. I.
 
-III. Be-
+<!-- catchword: III. Be- -->

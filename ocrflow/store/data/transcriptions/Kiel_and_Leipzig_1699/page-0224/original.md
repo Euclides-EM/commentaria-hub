@@ -2,11 +2,11 @@
 
 <!-- *(Seitenzahl: 206)* -->
 
-## Vorbereitung.
+### Vorbereitung.
 
 Aus dem Mittel-Düpffel b werde zu dem einen Winckel g ein gerader Strich bg gezogen.
 
-## I. Beweiß.
+### I. Beweiß.
 
 beg + bcg ∧ ⌓ n. 18. III.
 Dw. ebg + egb ∧ ∟ }
@@ -18,7 +18,7 @@ Dw. kim + mil ∧ ebc + egc n. 1. und 10. Gr. I.
 mil ∧ ebc n. 1. Wirck.
 Dw. kim ∧ egc n. 3. Gr. I.
 
-## II. Beweiß.
+### II. Beweiß.
 
 bda + acb ∧ ⌓ n. 18. III.
 dac + dbc ∧ ⌓ n. 32. I. a.
@@ -27,7 +27,7 @@ Dw. hkm + mki ∧ dac + dbc n. 1. u. 10. Gr. I.
 hkm ∧ dbc n. 4. Wirck.
 Dw. mki ∧ dac n. 3. Gr. I.
 
-## III. Beweiß.
+### III. Beweiß.
 
 a + g + f ∧ ⌓ }
 i + k + m ∧ ⌓ } n. 32. I.
@@ -35,8 +35,8 @@ Dw. i + k + m ∧ a + g + f n. 1. u. 10. Gr. I.
 i + k ∧ a + g n. 1. u. 2. Bew.
 Dw. kmi ∧ afg n. 3. Gr. I.
 
-## Beschluß.
+### Beschluß.
 
 Ist also das △ afg gleichwincklicht mit △ imk, und ümb den gegebenen Kreyß cde beschrieben. n. 4. Beschr. IV. W. Z. M.
 
-Der
+<!-- catchword: Der -->

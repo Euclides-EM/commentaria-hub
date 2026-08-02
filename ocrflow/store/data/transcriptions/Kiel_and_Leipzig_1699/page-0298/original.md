@@ -2,11 +2,11 @@
 
 <!-- *(Seitenzahl: 274)* -->
 
-Begehrtes.
+### Begehrtes.
 
 a | c
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -22,7 +22,7 @@ Beweiß.
 | b | b | |
 | und a | c | n. 9. V. |
 
-III. Gegebene.
+### III. Gegebene.
 
 *[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
 
@@ -30,8 +30,8 @@ A : B | a : b
 B : C | b : c
 A | ⊦ C
 
-Begehrtes.
+### Begehrtes.
 
 a ⊦ c
 
-Beweiß.
+<!-- catchword: Beweiß. -->

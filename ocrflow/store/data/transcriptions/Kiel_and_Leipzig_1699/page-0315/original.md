@@ -3,7 +3,7 @@
 <!-- *(Seitenzahl: 291)* -->
 
 ## Der XXX. Vortrag.
-Das 30. Beweiß-Stück.
+## Das 30. Beweiß-Stück.
 
 Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte sampt der Vierten zu der Vierten: So wird hingegen ümgekehrt die Erste sampt der Andern / zu der Ersten eine kleinere Verhältnüß / als die Dritte sampt der Vierten zu der Dritten haben.
 
@@ -28,6 +28,6 @@ A + a : A ⊢ B + b : B.
 ### Beschluß.
 Wenn derowegen die I. sampt der II. zu der II. eine grössere Verhältnüß hat / als die III. sampt der IV. zu der IV. So wird auf verkehrte Art die I. sampt der II. zu der I. eine kleinere Verhältnüß / als die III. und IV. zu der III. haben. W. Z. B.
 
-Oo 2
+<!-- signature mark: Oo 2 -->
 
-Der
+<!-- catchword: Der -->

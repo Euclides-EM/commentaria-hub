@@ -7,7 +7,7 @@
 6. ab | ac + cb
 7. ab | ad + bd.
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. An den Düttel c werde ein Senckstrich ce auffgerichtet. n. 11. Vortr. I.
 2. Senckst. ce | ca n. 2. Vortr.
@@ -20,7 +20,7 @@
 
 *[Figur: Dreieck über der Grundlinie a d c b mit Spitze e, darin die Punkte g und f, gestrichelte Linien; oben eine Linie von A nach B]*
 
-## Beweiß.
+### Beweiß.
 
 ac | cb | n. 3. Gegeb.
 ac | ce | n. 2. Vorber.
@@ -32,4 +32,4 @@ Dw. cae ∠ cea | n. 5. I.
 ace ∠ ∟ | n. 10. Besch. I.
 cea | ebc | n. 4. I.
 
-bec
+<!-- catchword: bec -->

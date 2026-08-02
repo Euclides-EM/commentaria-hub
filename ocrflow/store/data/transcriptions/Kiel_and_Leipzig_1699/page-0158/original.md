@@ -19,14 +19,14 @@ ae + ek | ae + eg — n. 15. Besch. u. 2. Gr. I.
 aek ⋀ aeg — n. 9. Gr. I.
 Dw. ac ⊣ ag. — n. 24. I.
 
-## Beschluß.
+### Beschluß.
 
 Ist also allezeit der / aus dem erwehlten Düttel a, durch den Mittel-Düpffel e gezogene Strich ab, der längste/und das übrige ac der kürtzeste; die andern aber / je näher sie dem Mittel-Düpffel stehen/auch länger/als die/so weiter davon entfernet seyn: Diejenigen aber/welche gleichweit davon abstehen (als ah und ab (?)) gleichlang. W. Z. B.
 
-# Der IIX. Vortrag.
+## Der IIX. Vortrag.
 
 ## Das 7. Beweiß-Stück.
 
 Wenn ausser dem Kreyß ein Düttel erwehlet wird / und von selbigem Düttel zu dem Kreyß etliche gerade Striche gezogen werden / deren einer durch den Mittel-Düpffel gehet: So wird unter allen / so auff den Kreyß inwendig stossen / derjenige / welcher durch den Mittel-Düpffel ge-
 
-het/
+<!-- catchword: het/ -->

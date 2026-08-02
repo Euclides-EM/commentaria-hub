@@ -7,7 +7,7 @@
 
 *[Figur: Kreis mit Punkten a oben, d links, b rechts, c unten; Striche db und ac schneiden sich in l, Mittel-Düpffel e]*
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -21,12 +21,14 @@ Beweiß.
 | und | ▭ bld + □ el | □ el + □ lc | n. 1. Gr. I. |
 | Dw. | ▭ bld | □ lc | n. 3. Gr. I. |
 
-III. Begebenheit.
+### III. Begebenheit.
 
-Gegeben 1. Nur ein durch den Mittel-Düpffel e gehender Strich db,
+### Gegeben
+
+1. Nur ein durch den Mittel-Düpffel e gehender Strich db,
 2. Welcher von dem andern Strich ae in l
 3. Nicht nach rechten Winckeln geschnitten.
 
 *[Figur: Kreis mit Punkten c oben, d und n links oben, a links, e in der Mitte, b unten rechts; Striche schneiden sich in l]*
 
-Vor-
+<!-- catchword: Vor- -->

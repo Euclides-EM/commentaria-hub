@@ -18,14 +18,14 @@ CBE ⋏ BCD nach Bew. δ
 ABE — CBE ⋏ ACD — BCD nach 3. Gr.S.
 ε. oder ABC ⋏ ACB.
 
-Beschluß.
+### Beschluß.
 
 Sind also in dem gleich-schencklichten △ ABC die beeden Winckel auff dem Gr. Strich. ABC ⋏ ACD ε, wie auch unter dem Grund-Strich BCE ⋏ CBD. γ. W. Z. B.
 
-# Der VI. Vortrag.
+## Der VI. Vortrag.
 
-Das 3. Beweiß-Stück.
+## Das 3. Beweiß-Stück.
 
 Wenn in einem △ zweene Winckel/ jedweder jedwedem absonderlich/gleich sind/so sind auch diejenigen Seiten/welche solchen beeden Winckeln gegen überstehen / von gleicher Grösse.
 
-Gege-
+<!-- catchword: Gege- -->

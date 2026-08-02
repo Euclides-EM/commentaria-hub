@@ -23,4 +23,4 @@ VII. Wenn (zwey) Dinge ab und cd halb so groß sind /als das dritte ef/ so sind 
 
 *[Figur: drei Striche a–b, c–d (gleich lang), e–f (doppelt so lang)]*
 
-(n) Wenn
+<!-- catchword: (n) Wenn -->

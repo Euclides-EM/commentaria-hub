@@ -10,7 +10,7 @@
 | b | b | |
 | Dw. a | ⊦ c | n. 10. V. |
 
-II. Gegebene.
+### II. Gegebene.
 
 *[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
 
@@ -18,11 +18,11 @@ A : B | b : c
 B : C | a : b
 A | C
 
-Begehrtes.
+### Begehrtes.
 
 a | c
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -37,6 +37,6 @@ Beweiß.
 | b | b | |
 | u. a | c | n. 9. V. |
 
-Mm 3
+<!-- signature mark: Mm 3 -->
 
-III. Gege-
+<!-- catchword: III. Gege- -->

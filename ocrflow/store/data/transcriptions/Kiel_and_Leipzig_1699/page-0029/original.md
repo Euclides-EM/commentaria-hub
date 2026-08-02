@@ -22,4 +22,4 @@ V. Wenn man von ( zwey ) ungleichen Dingen bc und df (zwey) gleiche Stücke ab u
 
 *[Figur: vier Striche mit den Bezeichnungen d, a–b, c–f, e]*
 
-VI.
+<!-- catchword: VI. -->

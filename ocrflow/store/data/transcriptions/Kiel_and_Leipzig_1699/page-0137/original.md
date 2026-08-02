@@ -4,7 +4,7 @@
 
 mal genommene Vier-Eck/ welches von der einen Seite/ und von dieser Seiten Verlängung biß zum Senckstrich / so aus dem Ende der andern Seite auff solche Verlängung fället/ gemacht wird.
 
-Gegebene. | Begehrte.
+### Gegebene. | Begehrte.
 
 1. Stumpffwincklicht △ abc. | □ ac ) □ ab + 2 ▭ abd + 2 □ bc.
 2. Verlängte Seite ab biß d.
@@ -13,7 +13,7 @@ Gegebene. | Begehrte.
 
 *[Figur: stumpfwinkliges Dreieck a b c; die Grundlinie ab ist punktiert bis d verlängert, von c fällt ein punktierter Senkstrich auf d]*
 
-## Beweiß.
+### Beweiß.
 
 adc | ∟ | n. 3. Gegeb.
 Dw. □ ac | □ ad + □ cd n. 47. I.
@@ -27,4 +27,4 @@ ad | ab + bd
 □ bd + □ cd | □ bd + □ cd
 □ ac | □ ab + 2 ▭ abd + □ cb | n. 3. Gr. I.
 
-Beschluß.
+<!-- catchword: Beschluß. -->

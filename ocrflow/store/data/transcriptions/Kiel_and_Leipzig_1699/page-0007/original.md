@@ -20,6 +20,6 @@ a | b    a _____    A _________         A | B
 a | 2c   b ___      B _________         A | 4C
 Dw. b | 2c  c __    C __           Dw. B | 4C
 
-):( ):(
+<!-- signature mark: ):( ):( -->
 
-Zu
+<!-- catchword: Zu -->

@@ -2,14 +2,14 @@
 
 <!-- *(Seitenzahl: 349)* -->
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Man nehme noch darzu d | b n. 2. I.
 2. werde gemacht ▭ ac
 3. Deßgleichen ▭ bd.
 4. Und zwar nach rechten Winckeln.
 
-## I. Beweiß.
+### I. Beweiß.
 
 b | d n. 1. Vorb.
 a | a
@@ -20,13 +20,13 @@ u. ▭ ac | ▭ db n. 16. VI.
 ▭ db | gleichseitig □ bb n 29. Besch. I.
 Dw. ▭ ac | □ bb
 
-## II. Gegebenes. Begehrte.
+### II. Gegebenes. Begehrte.
 
 ▭ ac | □ bb 1. a : b | b : c
 
 2. in ungertrennter Ebenmaß stehend.
 
-## Beweiß.
+### Beweiß.
 
 *[Figur: geometrische Skizze mit punktierten Linien, hinter dem Text durchscheinend]*
 
@@ -39,5 +39,5 @@ ac ⋏ bd n. 4. Vorb.
 Dw. a : b | d : c n 16. VI.
 oder a : b | b : d n. Anh. 7. V.
 
-X x 3
-Beschluß.
+<!-- signature mark: X x 3 -->
+<!-- catchword: Beschluß. -->

@@ -4,7 +4,7 @@
 
 *[Figur: zwei Dreyecke, das kleinere d e f und das grössere a b c mit punktiertem Strich von a nach g; darunter ein Strich B E F G mit schräg auffsteigenden Strichen nach C, E und F, punktiert nach F]*
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Zu des ersten Dreyecks Seite bc und des andern Dreyecks Seite ef werde der dritte ebenmässige Strich BG gefunden n. 11. VI. bc : ef | ef : BG.
 
@@ -12,7 +12,7 @@
 
 3. werde der Strich ag gezogen.
 
-## Beweiß.
+### Beweiß.
 
 ab : bc | de : ef n 3. Geg.
 Dw. ab : de | bc : ef n 16. V.
@@ -26,4 +26,4 @@ Dw. △ abc : △ abg | bc : ef n. 11. V.
 △ abg | △ def n. Bew. α
 △ abc | △ abc
 
-Dw.
+<!-- catchword: Dw. -->

@@ -6,7 +6,7 @@ Dw. eb : ba | cb : ba — n. 7. V.
 eb : ba | cd : da — n. 2. VI.
 Dw. cd : da | cb : ba — n. 11. V.
 
-# Des III. Vortrags II. Gegebene.
+## Des III. Vortrags II. Gegebene.
 
 1. Dreyeck abc.
 2. Strich bd
@@ -16,7 +16,7 @@ Dw. cd : da | cb : ba — n. 11. V.
 
 Die Vorbereitung ist eben so/ wie zuvor.
 
-# Beweiß.
+### Beweiß.
 
 bd ⧣ ec — n. Vorber.
 ∝ Dw. abd ⋏ bec
@@ -29,8 +29,8 @@ Dw. bec ⋏ bce — n. 5. I. ∝.
 u. abd ⋏ bce
 Dw. abd ⋏ dbc — n. 1. Gr. I. β.
 
-# Beschluß.
+### Beschluß.
 
 Wenn derowegen ein Strich den Winckel eines Dreyeckes in zween gleiche Theile schneidet/ und auch den Grundstrich theilet/ so stehen die Stücke des Grundstriches mit denen Seiten des Dreyeckes in ebenmässiger Verhältnüß.
 
-Und
+<!-- catchword: Und -->

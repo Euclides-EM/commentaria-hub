@@ -2,13 +2,13 @@
 
 <!-- # Das II. Buch -->
 
-## Beschluß.
+### Beschluß.
 
 Wird also allezeit das □ der Seite ac, welche dem stumpffen Winckel abc gegen-über stehet/ grösser seyn / als die beeden Vierecke derer andern Seiten ab und bc, welche den stumpffen Winckel begreiffen / und zwar so viel/ als das 2 ▭, welches von der Verlängerung bd der einen Seite ab, biß zum Senckstrich cd, so aus dem Ende c der andern Seite bc, auff diese Verlängung bd fället/ und von der Seiten ab selbst gemacht wird. W. Z. B.
 
-# Nach der Löse-Kunst.
+### Nach der Löse-Kunst.
 
-Gegebenes. | Begehrtes.
+### Gegebenes. | Begehrtes.
 
 1. a | ac | aa | bb ✠ 2be ✠ cc.
 2. b | ab
@@ -19,7 +19,7 @@ Gegebenes. | Begehrtes.
 7. d | b ✠ e
 8. adc | ∟
 
-## Beweiß.
+### Beweiß.
 
 adc | ∟ | n. 8. Geg.
 Dw. aa | dd ✠ ff | n. 47. I.
@@ -33,4 +33,4 @@ ee ✠ ff ✠ aa | bb ✠ 2be + ee + ff ✠ cc | n. 2. Gr. I.
 ee ✠ ff | ee ✠ ff
 aa | bb ✠ 2be + cc | n. 3. Gr. I. W Z. B.
 
-Der
+<!-- catchword: Der -->

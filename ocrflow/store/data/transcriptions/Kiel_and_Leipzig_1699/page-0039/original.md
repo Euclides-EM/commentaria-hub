@@ -10,7 +10,7 @@ Wann nun des Strichs bc beede End-Düttele b und c auff die beeden Endungen des 
 
 Uber oder darunter kan er nicht fallen weil sonsten zween gerade Striche eine Gestalt einschliessen würden / welches unmöglich/ nach 12. Grund-Satz.
 
-Beschluß.
+### Beschluß.
 
 Muß also der Grund-Strich abc auff den Grund-Strich ABC fallen/ und deßwegen mit demselben geschicklich eintreffen / dannenhero auch
 
@@ -21,12 +21,12 @@ abc ⏉ ABC
 
 alles nach 18. GrS. W. Z. B.
 
-# Der V. Vortrag.
+## Der V. Vortrag.
 
-Das 2. Beweiß-Stück.
+## Das 2. Beweiß-Stück.
 
 In jedwedem gleichseitigen Dreyeck sind die beeden auff dem Grund-Strich stehende Winckel ein ander gleich / und die beeden unter dem Grund-
 
-C 3
+<!-- signature mark: C 3 -->
 
-Strich
+<!-- catchword: Strich -->

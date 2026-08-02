@@ -13,12 +13,12 @@ Dw. BC ⊢ cd      n. 1. Gr-S.
 
 Dritte Begebenheit.
 
-Gegebene.
+### Gegebene.
 
 1. AB | AC
 2. AD | Ad
 
-Vorbereitung.
+### Vorbereitung.
 
 1. Auff des Striches Ad Düttel A setze man den ⋀ bAd
 2.        Also daß    bAd ⋏ BAC   nach 23. Vortr.
@@ -30,11 +30,11 @@ Vorbereitung.
 
 *[Figur: III. Casus. Zwei Dreiecke: links Dreieck ABC, rechts Dreieck ACd mit punktierten Linien zu b und f]*
 
-Beweiß.
+### Beweiß.
 
 bAd ⋏ BAC.     n. 2. Vorber.
 Ab | AB        n. 3. Vorber.
 
-G
+<!-- signature mark: G -->
 
-Ad
+<!-- catchword: Ad -->

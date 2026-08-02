@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 284)* -->
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -24,8 +24,8 @@ Beweiß.
 | f + d + A + b | ⊣ B + a + f + d | n. 4 Gr. I. |
 | A + b | ⊣ B + a | n. 5. Gr. I. |
 
-Beschluß.
+### Beschluß.
 
 Werden demnach allezeit aus vier Ebenmässigen Grössen die Grösseste und Kleineste zusammen grösser seyn / als die übrigen beeden zusammen. W. Z. B.
 
-Anmer-
+<!-- catchword: Anmer- -->

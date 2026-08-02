@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 238)* -->
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |  |  |
 |---|---|---|---|---|
@@ -18,7 +18,7 @@
 | Dw. | 2B | 1½b | n. 1. Gr. e. I. | |
 | κ (?) Und | 2A + 2B | 1½a + 1½b | n. 4. Gr. g. I. | |
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Zu der Grösse A werde noch die Helffte derselben/
 2. u. zu der Grösse B werde gleichfals die Helffte derselben beygefüget/
@@ -26,7 +26,7 @@
 
 *[Figur: vier waagerechte Linien, bezeichnet 1½A, 5a, 1½B, 5b]*
 
-## III. Beweiß.
+### III. Beweiß.
 
 |  |  |  |  |  |
 |---|---|---|---|---|

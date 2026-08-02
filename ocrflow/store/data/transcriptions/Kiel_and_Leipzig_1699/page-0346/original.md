@@ -17,7 +17,7 @@ und 2. ECG ⋏ abc   n. 23. I.
 
 *[Figur: links Dreieck CDE mit punktierten Linien zu einem Punkt G unterhalb; rechts grösseres Dreieck abC]*
 
-Beweiß.
+### Beweiß.
 
 CEG ⋏ bca
 ECG ⋏ abc   n. Vorber.
@@ -30,4 +30,4 @@ u. | DE | EG | n. gleichen Bew.
 Dw. | G ⋏ D | n. 32. I.
 | D ⋏ a | n. Bew. α.
 
-Dw.
+<!-- catchword: Dw. -->

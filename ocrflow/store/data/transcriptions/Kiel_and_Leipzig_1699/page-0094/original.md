@@ -2,7 +2,7 @@
 
 <!-- # Das I. Buch -->
 
-Beweiß.
+### Beweiß.
 
 AG ⟛ BC n. 1. Vorber.
 BE | EC n. 2. Vorber.
@@ -12,17 +12,17 @@ und ABC ⩓ 2 AEC
 Dw. □ EFCG | △ ABC n. 6. Gr:S.
 und ECG ⋀ D n. 3. Vorber.
 
-Beschluß.
+### Beschluß.
 
 Ist also dem gegebenen △ ein gleichhaltendes □ , und zwar nach dem ∧ D verfertiget. W. Z. M.
 
-# Der XLIII. Vortrag.
+## Der XLIII. Vortrag.
 
-Das 32. Beweiß-Stück.
+## Das 32. Beweiß-Stück.
 
 In jedwedem Nebenstrichichen Viereck/sind die Füllflächen derer ümb den Zwergstrich stehenden Vierecke von gleicher grösse.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 1. □ ADBC | FH ⌻ GI.
 2. Zwergstrich AB
 3. Ümb den Zwergstrich stehende □ □ FG und HI
@@ -30,4 +30,4 @@ Gegebene. | Begehrtes.
 
 *[Figur: Nebenstrichichtes Viereck mit den Puncten A, F, C oben, G, E, H in der Mitte und D, I, B unten, mit dem Zwergstrich und inneren Vierecken]*
 
-Be-
+<!-- catchword: Be- -->

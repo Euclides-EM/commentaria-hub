@@ -2,20 +2,20 @@
 
 <!-- # Das II. Buch -->
 
-# Der XIV. Vortrag.
+## Der XIV. Vortrag.
 
 ## Das 2. Werckstück.
 
 Eine gegebene gerad-seitige Gestalt/ in ein gleichseitiges Viereck zuverwandeln.
 
-Gegebenes. — Begehrte.
+### Gegebenes. — Begehrte.
 
 Die gerad-seitige Gestalt *abdc*.
 
 1 Das □ ek
 2 □ ek | ▭ abdc.
 
-## Wirckung.
+### Wirckung.
 
 1. Verwandelt man die Gestalt abdc in ein rechtwincklichtes □ n. 42. I.
 
@@ -29,8 +29,8 @@ Die gerad-seitige Gestalt *abdc*.
 
 6. Auff den Strich ek wird ein gleichseitig □ gesetzet. n. 46. I.
 
-## Vorbereitung.
+### Vorbereitung.
 
 Aus dem Mitteldüpffel i wird biß zu k der Strich ik gezogen.
 
-Be-
+<!-- catchword: Be- -->

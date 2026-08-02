@@ -2,11 +2,11 @@
 
 <!-- *(Seitenzahl: 33)* -->
 
-Vorbereitung.
+### Vorbereitung.
 
 Man ziehe die beeden Striche CD und CE.
 
-Beweiß.
+### Beweiß.
 
 DF | EF nach 10. Vortr.
 CF | CF
@@ -15,23 +15,23 @@ DC | EC nach 15. Beschr.
 Dw. DFC ⋏ EFC nach 8. Vortr.
 und CF | ein bley-rechter Senckstrich n. 10. Beschr.
 
-Beschluß.
+### Beschluß.
 
 Ist also der begehrte Senckstrich CF aus dem gegebenen Düttel C auff den gegebenen Strich AB gezogen. W.Z.M.
 
-# Der XIII. Vortrag.
+## Der XIII. Vortrag.
 
-Das 6. Beweiß Stück.
+## Das 6. Beweiß Stück.
 
 Wenn ein gerader Strich auff einen liegenden geraden Strich stösset/ und zween Winckel machet / so werden solche Winckel entweder selbst zween rechte Winckel / oder wenigstes zweyen rechten Winckeln an grösse gleich seyn.
 
-Gegebene. | Begehrtes.
+### Gegebene. | Begehrtes.
 
 Liegender Strich AB. | ⋀ ACD und DCB zween ∟ ∟. oder
 Darauff stossender Strich DC. | ⋀ ADC + BCD | ⊾.
 
 *[Figur: links liegender Strich AB mit senkrechtem Strich DC auff C; rechts liegender Strich AB mit schrägem Strich DC und punktiertem E]*
 
-E
+<!-- signature mark: E -->
 
-Be-
+<!-- catchword: Be- -->

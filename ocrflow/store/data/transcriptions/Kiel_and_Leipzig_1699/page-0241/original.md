@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 217)* -->
 
-Wirckung.
+### Wirckung.
 
 1. Nehme man einen Strich AB,
 2. Welchen man also theile in C, daß des gantzen Strichs AB und
@@ -13,7 +13,7 @@ als das grössere Stück AC gemacht/ n. 2. I.
 4. Zu den beyden Schenckeln ab und ad aber werde der gantze
 Strich AB genommen/ n. 12. I.
 
-Vorbereitung.
+### Vorbereitung.
 
 1. Von der Seiten ab werde ein Stück ac | AC abgeschnitten/
 n. 3. I.
@@ -21,7 +21,7 @@ n. 3. I.
 3. Aus a nach der Weite ab werde ein Kreyß gezogen.
 4. Umb das Dreyeck acd werde auch ein Kreyß gezogen/ n. 5. IV.
 
-Beweiß.
+### Beweiß.
 
 db | AC — n. 3. Wirck.
 Dw. — □ db | □ AC — n. 1. Gr. t. II.
@@ -36,5 +36,5 @@ Dw. — □ abc | □ ac, n. 3. Gr. I.
 AC | bd — n. 3. Wirck.
 □ AC | □ bd — n. 1. Gr. t. II
 
-Ee
-Dw.
+<!-- signature mark: Ee -->
+<!-- catchword: Dw. -->

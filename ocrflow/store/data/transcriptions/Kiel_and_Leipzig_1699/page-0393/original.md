@@ -4,7 +4,7 @@
 
 *[Figur: grösseres Viereck m l f e, daneben kleiner Strich t s und kleineres Viereck t w r s; darunter Striche a e, c d r s mit punktierter Linie]*
 
-## Beweiß.
+### Beweiß.
 
 ▭ el ähnlich ▭ st n. 3. Vorb.
 ▭ el - - - ▭ gi n. 3. Geg. I.
@@ -19,17 +19,17 @@ ef : gh | ef : rs n. 7. V.
 ab : cd | ef : rs n. 1. Vorb.
 Dw. ab : cd | ef : gh n. 11. V.
 
-## Beschluß.
+### Beschluß.
 
 Werden derowegen aus vier ebenmässigen Strichen/ auch ebenmässige Vielecke beschrieben.
 
 Und derer ebenmässigen Vielecke Seiten oder Striche sind auch ebenmässig. W. Z. B.
 
-# Der XXIII. Vortrag.
+## Der XXIII. Vortrag.
 
 ## Das 17. Beweiß-Stück.
 
 Gleichwincklichte nebenstrichichte Vierecke ha-
 
-Z z 2
-ben
+<!-- signature mark: Z z 2 -->
+<!-- catchword: ben -->

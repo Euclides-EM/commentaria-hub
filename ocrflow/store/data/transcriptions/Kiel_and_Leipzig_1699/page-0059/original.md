@@ -2,7 +2,7 @@
 
 <!-- # Euclidis. -->
 
-Gegebene. Begehrte.
+### Gegebene. Begehrte.
 1. △ ABC
 2. ACB ⲗ ABC. 1. AC ⊢ AB.
 3. BCA ⲗ BAC. 2. BA ⊢ BC.
@@ -10,7 +10,7 @@ Gegebene. Begehrte.
 
 *[Figur: Rechtwinkliges Dreieck mit C oben, A unten links, B unten rechts.]*
 
-Beweiß.
+### Beweiß.
 Es sind die Seiten AC | AB
 oder AC ⊣ AB
 oder AC ⊢ AB.
@@ -23,14 +23,14 @@ Muß also AB ⊣ AC
 damit auch ACB ⲗ ABC n. 2. Gegeb.
 Gleiche Bewandniß hat es auch mit den andern Seiten und Winckel.
 
-Beschluß.
+### Beschluß.
 Solcher Gestalt muß in jedwedem △ der grösseste Winckel der längsten Seite gegenüber stehen. W. Z. B.
 
-# Der XX. Vortrag.
+## Der XX. Vortrag.
 
-Das 13. Beweiß-Stück.
+## Das 13. Beweiß-Stück.
 
 In jedwedem Dreyeck sind zwo Seiten zu-
 
-F
-sam-
+<!-- signature mark: F -->
+<!-- catchword: sam- -->

@@ -10,7 +10,7 @@
 
 5. Aus diesem Düttel k werden gerade Striche biß auf den getheilten Strich GA gezogen/nemlich kB, kC, kD, kE und kT, welche den ungetheilten Strich fg in b, c, d, e, und t schneiden.
 
-## Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -34,4 +34,4 @@ Gleicher weise kan auch bewiesen werden/
 Daß de : et ⊤ DE : ET.
 und tg : TG ⊤ et : ET.
 
-Des
+<!-- catchword: Des -->

@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 243)* -->
 
-## III. Beweiß.
+### III. Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
@@ -25,16 +25,16 @@
 
 So ist auch A + C : a | B + D : b, n. 6. Beschr. V.
 
-## Beschluß.
+### Beschluß.
 
 Wenn derohalben die 1. Grösse der 2. gleichvielfältig/ auch die 3. der 4. gleichvielfältig ist. Darnach auch die 5 Grösse zu der 2. so vielfältig ist/als die 6. Grösse zu der 4. So müssen auch die 1. und 5 zusammen genommen/ zu der 2. eben so vielfältig seyn/als die 3. und 6. Grössen zusammen genommen zu der 4. Grösse sind/ W. Z. B.
 
-# Der III. Vortrag.
+## Der III. Vortrag.
 
 ## Das 3. Beweiß-Stück.
 
 Wenn (unter den vier gegebenen Grössen) die Erste vielfäl-
 
-Hh 2
+<!-- signature mark: Hh 2 -->
 
-tig
+<!-- catchword: tig -->

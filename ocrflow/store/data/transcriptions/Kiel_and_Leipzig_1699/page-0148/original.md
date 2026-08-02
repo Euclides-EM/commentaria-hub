@@ -2,7 +2,7 @@
 
 <!-- # Das I. Buch -->
 
-## Wirckung.
+### Wirckung.
 
 1. Man ziehe von dem Düttel b biß zu dem Düttel c einen geraden Strich bc.
 
@@ -12,17 +12,17 @@
 
 4. Dieser Strich gh werde in zween gleiche Theile geschnitten in a. n. 10. I.
 
-## Beweiß.
+### Beweiß.
 
 Wenn der Düttel a nicht der Mittel-Düpffel ist/ so lasse man d den Mittel-Düpffel seyn.
 
-## Vorbereitung.
+### Vorbereitung.
 
 1. Aus den beeden Enden des Striches bc ziehe man zu dem angenommenem Mittel-Düpffel d zween gerade Striche bd und cd.
 
 2. Aus dem Düttel e, wo die beeden Striche bc und gh einander durchschneiden / ziehe man auch den Strich ed.
 
-## Verfolg des Beweises.
+### Verfolg des Beweises.
 
 db | dc — n. 15. Beschr. I.
 de | de
@@ -35,4 +35,4 @@ Dw. bea ⋏ bed — n. 10. Gr. I.
 
 Welches aber nicht seyn kan/ nach 9. Grundsatz. I.
 
-Wolte
+<!-- catchword: Wolte -->

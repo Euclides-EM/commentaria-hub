@@ -2,7 +2,7 @@
 
 <!-- # Euclidis. -->
 
-# I. Gegebene.
+### I. Gegebene.
 
 1. Dreyeck abc
 2. Gerader Strich bd,
@@ -10,7 +10,7 @@
 4. Also/ daß abd ⋏ cbd
 5. Und auch den Grundstrich ac in ad und cd theilet.
 
-# Begehrtes.
+### Begehrtes.
 
 cd : da | cb : ba.
 
@@ -19,7 +19,7 @@ cd : da | cb : ba.
 1. Der Strich oder Seite ab werde nach Nothdurfft verlänget gegen e.
 2. Aus dem Düttel c werde ein Nebenstrich gegen bd gezogen/ biß er dem verlängerten Strich in e aufstösset/ nemlich ce. n. 31. I.
 
-# I. Beweiß.
+### I. Beweiß.
 
 bd ⧣ ec — n. 2. Vorb.
 Dw. bec ⋏ abd
@@ -30,5 +30,5 @@ u. cbd ⋏ bce — n. 29. I.
 Dw. be | cb — n. 6. I.
 ba | ba
 
-Rr 2
-Dw.
+<!-- signature mark: Rr 2 -->
+<!-- catchword: Dw. -->

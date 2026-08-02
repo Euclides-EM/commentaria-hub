@@ -8,7 +8,7 @@
 6. u. EH Fd   n. 31. I.
 7. Die Nebenstriche AB und dH werden fortgezogen/biß sie in dem Düttel I zusammen kommen.
 
-## I. Beweiß.
+### I. Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -25,7 +25,7 @@
 | u. | □ AD wechselmässig □ FH | n. 2. Beschr. VI. |
 | oder | □ ad □ fh | n. 1. Vorb. V. |
 
-## II. Gegebene.
+### II. Gegebene.
 
 1. □ ad
 2. □ fh
@@ -33,8 +33,8 @@
 4. ab : eh ⊤ fe : db.
 5. □ ad wechselmässig □ fh.
 
-## II. Begehrtes.
+### II. Begehrtes.
 
 ad ⌻ fh
 
-II. Vor-
+<!-- catchword: II. Vor- -->

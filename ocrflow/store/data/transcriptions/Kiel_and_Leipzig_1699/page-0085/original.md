@@ -2,7 +2,7 @@
 
 <!-- # Euclides. -->
 
-Beweiß.
+### Beweiß.
 
 AB | CD
 FE | CD } n. 34. Vortr.
@@ -20,21 +20,21 @@ CDG ⩓ CDG
 CDG + DEFG ⌻ CABG + CDG n. 2. Gr:S.
 oder CDEF ⌻ ABDC n. 9. Gr:S. q.
 
-Beschluß.
+### Beschluß.
 
 Müssen also alle □ □ , welche einen einigen Grundstrich haben/ und zwischen einerley Nebenstrichen stehen/ (oder gleich hoch sind) gleich groß seyn. W. Z. B.
 
-# Der XXXVI. Vortrag.
+## Der XXXVI. Vortrag.
 
-Das 26. Beweiß-Stück.
+## Das 26. Beweiß-Stück.
 
 Alle auff gleich-grossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Vierecke sind gleich-groß.
 
-Gegebene. | Begehrte.
+### Gegebene. | Begehrte.
 1. □ AC | AC ⌻ EG.
 2. □ EG
 3. Grundstriche
 
-I 2
+<!-- signature mark: I 2 -->
 
-BC
+<!-- catchword: BC -->

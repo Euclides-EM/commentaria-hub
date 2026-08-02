@@ -2,7 +2,7 @@
 
 <!-- # Euclidis. -->
 
-Vorbereitung.
+### Vorbereitung.
 
 Es werden
 1. Die Seite CA gegen G,
@@ -18,7 +18,7 @@ Es werden
 
 *[Figur: Dreieck mit verlängerten Seiten und punktierten Linien; bezeichnete Punkte D, A oben, E, H in der Mitte, B, C, I unten.]*
 
-Beweiß.
+### Beweiß.
 
 EC | EA nach 10. Vortr.
 EB | EF, nach 3. Vortr.
@@ -35,5 +35,5 @@ GAB ⋀ ABC
 GAB ⋀ DAC nach 15. Vortr.
 Drw. DAC ⋀ ABC nach 1. Gr-S. c.
 
-E 3
-Ist
+<!-- signature mark: E 3 -->
+<!-- catchword: Ist -->

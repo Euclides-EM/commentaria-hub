@@ -16,10 +16,10 @@ XII. Zweene gerade Züge oder Striche können keine Gestalt einschliessen/ oder 
 
 # Das I. Buch Euclidis.
 
-# Vorbericht.
+## Vorbericht.
 
 Nach dem die Anfänge vorhergesetzet/ werden die Beweißthüme angestellet/ und der Grössen ihre Eigenschafften durch vorgehende Anfänge also behauptet / daß kein Verständiger mehr daran zuzweiffeln Ursach habe. Damit aber alles füglich und deutlich geschehen möge/ werden gewisse Vorträge (Propositiones) zugerichtet / welche in Haupt-und Neben-Sätze abgetheilet werden.
 
 Die Haupt-Sätze sind widerum zweyerley / nemlich (1) Würckliche und (2) Beweißliche Vorstellungen. Jene / die Würcklichen/ können füglich Werck-Stücke (Problemata) genennet werden / und geben etwas zu verfertigen auff/ nach der Ver-
 
-ferti-
+<!-- catchword: ferti- -->

@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 251)* -->
 
-## I. Beweiß.
+### I. Beweiß.
 
 Grösse mehr vielfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vielfältig / als gegen die Grössere.
 
@@ -13,7 +13,7 @@ B | 5b — n. 3. Geg.
 d | 4b — n 4. Geg.
 Dw. B—d | b — n. 3. Gr. I.
 
-## Gegebene. — Begehrtes.
+### Gegebene. — Begehrtes.
 
 I. A ______ — A—c : a | B—d : b
 II. a ___
@@ -27,7 +27,7 @@ IV. b ___
 3. B | 5b
 4. d | 3b
 
-## II. Beweiß.
+### II. Beweiß.
 
 A | 5a — n 1. Geg.
 c | 3a — n. 2. Geg.
@@ -37,6 +37,6 @@ d | 3b — n. 4. Geg.
 Dw. B—d | 2b — n. 3. Gr. I.
 Und A—c : a | B—d : b — n 7. Beschr. V.
 
-Ji 2
+<!-- signature mark: Ji 2 -->
 
-Beschluß.
+<!-- catchword: Beschluß. -->

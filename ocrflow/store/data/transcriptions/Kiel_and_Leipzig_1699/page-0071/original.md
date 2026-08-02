@@ -5,11 +5,11 @@
 Dw.   acb ⋏ hcb        n. 1. Gr-S.
     welches unmüglich nach 9. Gr-S.
 
-Vorbereitung.
+### Vorbereitung.
 
 Wann ab ⊣ AB, so schneide man bd | AB
 
-Verfolg des Beweises.
+### Verfolg des Beweises.
 
       ab ⊣ AB             nach Angenommen.
 db         | AB           n. Vorber.
@@ -26,13 +26,13 @@ Gleiche Bewandniß hat es / wann man sagen wolte
 
 Dieses kan noch anders bewiesen werden / wann man annimmet vor
 
-Gegeben.
+### Gegeben.
 
 1.  BC  |  bc
 2. ABC ⋏ abc
 3. BAC ⋏ bac
 
-Beweiß.
+### Beweiß.
 
 db + bc | AB + BC             n. Bew. δ.
       abc ⋏ ABC               n. 2. Gegeb.
@@ -41,6 +41,6 @@ Drw.  bdc ⋏ BAC               n. 4. Vortr.
 Dw.   bac ⋏ bdc               n. 1. Gr-S.
 Welches aber unmöglich        n. 16. Vortr.
 
-G 3
+<!-- signature mark: G 3 -->
 
-Beschluß.
+<!-- catchword: Beschluß. -->

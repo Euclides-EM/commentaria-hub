@@ -2,7 +2,7 @@
 
 <!-- *(Seitenzahl: 286)* -->
 
-Beweiß.
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
@@ -14,20 +14,20 @@ Beweiß.
 | c : B | ⊦ b : B | n. 8. V. |
 | Dw. a : A | ⊦ b : B | n. Anh. 13. V. |
 
-Beschluß.
+### Beschluß.
 
 Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auf umgekehrte Weise die II. zu der I. eine kleinere Verhältnüß / als die IV. zu der III. haben/ W. Z. B.
 
-# Der XXVII. Vortrag.
+## Der XXVII. Vortrag.
 
-Das 27. Beweiß-Stück.
+## Das 27. Beweiß-Stück.
 
 Wenn man vier Grössen hat/ deren Erste zu der Andern eine grössere Verhältnüß hat / als die Dritte zu der Vierten: So wird auch hinwiederum die Erste zu der Dritten eine grössere Verhältnüß haben/ als die Andere zu der Vierten.
 
-Gegebene.
+### Gegebene.
 
 *[Figur: fünf Linien A, c, a, B, b von verschiedener Länge am linken Rand]*
 
 A : a ⊣ B : b
 
-Begehrtes.
+<!-- catchword: Begehrtes. -->

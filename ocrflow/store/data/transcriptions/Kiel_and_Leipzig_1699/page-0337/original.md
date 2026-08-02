@@ -2,7 +2,7 @@
 
 <!-- # Euclidis. -->
 
-# I. Beweiß.
+### I. Beweiß.
 
 de ⧣ cb — n. Gegeb.
 Dw. △ bde | △ cde — n. 37. I.
@@ -16,24 +16,24 @@ u. △ ade : △ bde | ae : ec — n. 11. V.
 △ ade : △ bde | ad : db — n. Bew. ∝
 Dw. ae : ec | ad : db — n. 11. V.
 
-# I. Beschluß.
+### I. Beschluß.
 
 Wenn derowegen eines Dreyeckes zwo Seiten von des Grundstriches Nebenstrich geschnitten werden/ so stehen die Stücke der Seiten in ebenmässiger Verhältnüß gegen einander. W. Z. B.
 
-# Des II. Vortrags II. Gegebene.
+## Des II. Vortrags II. Gegebene.
 
 1. Dreyecke abc
 2. Strich de
 3. Welcher die Seiten schneidet.
 4. Also daß ae : ec | ad : db.
 
-# Begehrtes.
+### Begehrtes.
 
 de ⧣ cb.
 
-# Vorbereitung.
+### Vorbereitung.
 
 Es werden die geraden Striche be und cd gezogen.
 
-Rr
-II. Beweiß.
+<!-- signature mark: Rr -->
+<!-- catchword: II. Beweiß. -->
