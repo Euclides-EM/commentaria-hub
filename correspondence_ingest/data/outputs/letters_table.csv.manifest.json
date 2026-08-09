@@ -1157,9 +1157,26 @@
           "page_number": "749"
         },
         {
-          "letter_number": "1031.",
-          "letter_name": "Cavalieri, de Bologne, à Rocca, à Modène, 19 septembre 1641",
-          "page_number": "751"
+          "letter_number": "1032.",
+          "letter_name": "Le P. Santini, de Gênes, à Galilée, à Arcetri, 21 septembre 1641",
+          "page_number": "751",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:10.743044Z",
+              "reason": "Correction supplied in comments.csv: F3096",
+              "changes": {
+                "letter_number": {
+                  "old": "1031.",
+                  "new": "1032."
+                },
+                "letter_name": {
+                  "old": "Cavalieri, de Bologne, à Rocca, à Modène, 19 septembre 1641",
+                  "new": "Le P. Santini, de Gênes, à Galilée, à Arcetri, 21 septembre 1641"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "1032.",
@@ -1167,9 +1184,26 @@
           "page_number": "753"
         },
         {
-          "letter_number": "1033.",
-          "letter_name": "Mersenne, de Paris, à Rivet, à La Haye, 23 septembre 1641",
-          "page_number": "759"
+          "letter_number": "1034.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, à Paris (septembre 1641)",
+          "page_number": "759",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:10.515436Z",
+              "reason": "Correction supplied in comments.csv: F13387",
+              "changes": {
+                "letter_number": {
+                  "old": "1033.",
+                  "new": "1034."
+                },
+                "letter_name": {
+                  "old": "Mersenne, de Paris, à Rivet, à La Haye, 23 septembre 1641",
+                  "new": "Descartes, d’Endegeest, à Mersenne, à Paris (septembre 1641)"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "1034.",
@@ -2860,9 +2894,26 @@
           "page_number": "1"
         },
         {
-          "letter_number": "89.",
-          "letter_name": "Faure à Mersenne, 25 janvier 1628.",
-          "page_number": "7"
+          "letter_number": "88.",
+          "letter_name": "Nicolas-Claude Fabri de Peiresc aux frères Dupuy, 15 janvier 1628.",
+          "page_number": "7",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:10.266694Z",
+              "reason": "Correction supplied in comments.csv: F12230",
+              "changes": {
+                "letter_number": {
+                  "old": "89.",
+                  "new": "88."
+                },
+                "letter_name": {
+                  "old": "Faure à Mersenne, 25 janvier 1628.",
+                  "new": "Nicolas-Claude Fabri de Peiresc aux frères Dupuy, 15 janvier 1628."
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "90.",
@@ -3076,9 +3127,26 @@
           "page_number": "225"
         },
         {
-          "letter_number": "130",
-          "letter_name": "Isaac Beeckman à Mersen ne (juin 1629)",
-          "page_number": "230"
+          "letter_number": "131",
+          "letter_name": "Pierre Gassend à Nicolas-Claude Fabri de Peiresc, 21 juillet 1629",
+          "page_number": "230",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:10.024932Z",
+              "reason": "Correction supplied in comments.csv: F12293",
+              "changes": {
+                "letter_number": {
+                  "old": "130",
+                  "new": "131"
+                },
+                "letter_name": {
+                  "old": "Isaac Beeckman à Mersen ne (juin 1629)",
+                  "new": "Pierre Gassend à Nicolas-Claude Fabri de Peiresc, 21 juillet 1629"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "131",
@@ -3263,9 +3331,26 @@
           "page_number": "479"
         },
         {
-          "letter_number": "160.",
-          "letter_name": "René Descartes à Mersenme, (3 juin 1630)",
-          "page_number": "483"
+          "letter_number": "159.",
+          "letter_name": "Mersenme à André Rivet, 24 mai 1630",
+          "page_number": "483",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:09.794467Z",
+              "reason": "Correction supplied in comments.csv: F12300",
+              "changes": {
+                "letter_number": {
+                  "old": "160.",
+                  "new": "159."
+                },
+                "letter_name": {
+                  "old": "René Descartes à Mersenme, (3 juin 1630)",
+                  "new": "Mersenme à André Rivet, 24 mai 1630"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "161.",
@@ -3293,9 +3378,26 @@
           "page_number": "508"
         },
         {
-          "letter_number": "166.",
-          "letter_name": "J. de Woestenraedt à André Rivet (fin d'août 1630)",
-          "page_number": "509"
+          "letter_number": "165.",
+          "letter_name": "Jean Beaugrand à Mersenme, 31 juillet 1630",
+          "page_number": "509",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:09.566179Z",
+              "reason": "Correction supplied in comments.csv: F12769,F12379,F12303,F12302",
+              "changes": {
+                "letter_number": {
+                  "old": "166.",
+                  "new": "165."
+                },
+                "letter_name": {
+                  "old": "J. de Woestenraedt à André Rivet (fin d'août 1630)",
+                  "new": "Jean Beaugrand à Mersenme, 31 juillet 1630"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "167.",
@@ -3997,9 +4099,26 @@
           "page_number": "554"
         },
         {
-          "letter_number": "291.",
-          "letter_name": "René Descartes à Mersenre, (28 novembre 1633)",
-          "page_number": "555"
+          "letter_number": "290.",
+          "letter_name": "Nicolas-Claude Fabri de Peiresc à Pierre Dupuy, 28 novembre 1633",
+          "page_number": "555",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:08.427528Z",
+              "reason": "Correction supplied in comments.csv: F3240",
+              "changes": {
+                "letter_number": {
+                  "old": "291.",
+                  "new": "290."
+                },
+                "letter_name": {
+                  "old": "René Descartes à Mersenre, (28 novembre 1633)",
+                  "new": "Nicolas-Claude Fabri de Peiresc à Pierre Dupuy, 28 novembre 1633"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "292.",
@@ -4027,9 +4146,22 @@
           "page_number": "578"
         },
         {
-          "letter_number": "297.",
+          "letter_number": "appendix 1",
           "letter_name": "............ à Mersenre (avant la fin de décembre 1633 ?)",
-          "page_number": "601"
+          "page_number": "601",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:16.173045Z",
+              "reason": "Correction supplied in comments.csv: F22281",
+              "changes": {
+                "letter_number": {
+                  "old": "297.",
+                  "new": "appendix 1"
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4234,14 +4366,48 @@
           "page_number": "117"
         },
         {
-          "letter_number": "334.",
-          "letter_name": "Villiers à Mersenne, 13 mai 1634",
-          "page_number": "132"
-        },
-        {
           "letter_number": "335.",
           "letter_name": "Mersenne à Peiresc, 14 mai 1634",
-          "page_number": "140"
+          "page_number": "132",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:08.728659Z",
+              "reason": "Correction supplied in comments.csv: F4856,F18214",
+              "changes": {
+                "letter_number": {
+                  "old": "334.",
+                  "new": "335."
+                },
+                "letter_name": {
+                  "old": "Villiers à Mersenne, 13 mai 1634",
+                  "new": "Mersenne à Peiresc, 14 mai 1634"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "letter_number": "336.",
+          "letter_name": "Descartes à Mersenne, 15 mai 1634",
+          "page_number": "140",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:08.217775Z",
+              "reason": "Correction supplied in comments.csv: F6036",
+              "changes": {
+                "letter_number": {
+                  "old": "335.",
+                  "new": "336."
+                },
+                "letter_name": {
+                  "old": "Mersenne à Peiresc, 14 mai 1634",
+                  "new": "Descartes à Mersenne, 15 mai 1634"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "336.",
@@ -4289,9 +4455,26 @@
           "page_number": "167"
         },
         {
-          "letter_number": "345.",
-          "letter_name": "Peiresc à Jacques Dupuy, 6 juin 1634",
-          "page_number": "168"
+          "letter_number": "346.",
+          "letter_name": "Frenicle à Mersenne, 7 juin 1634",
+          "page_number": "168",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:09.312305Z",
+              "reason": "Correction supplied in comments.csv: F4982",
+              "changes": {
+                "letter_number": {
+                  "old": "345.",
+                  "new": "346."
+                },
+                "letter_name": {
+                  "old": "Peiresc à Jacques Dupuy, 6 juin 1634",
+                  "new": "Frenicle à Mersenne, 7 juin 1634"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "346.",
@@ -4299,9 +4482,26 @@
           "page_number": "174"
         },
         {
-          "letter_number": "347.",
-          "letter_name": "Hortensius à Schickard, 11 juin 1634",
-          "page_number": "175"
+          "letter_number": "348.",
+          "letter_name": "Peiresc à Mersenne, 18 juin 1634",
+          "page_number": "175",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:15.870427Z",
+              "reason": "Correction supplied in comments.csv: F18215",
+              "changes": {
+                "letter_number": {
+                  "old": "347.",
+                  "new": "348."
+                },
+                "letter_name": {
+                  "old": "Hortensius à Schickard, 11 juin 1634",
+                  "new": "Peiresc à Mersenne, 18 juin 1634"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "348.",
@@ -4561,9 +4761,26 @@
           "page_number": "383"
         },
         {
-          "letter_number": "392",
-          "letter_name": "La Charlonye à Mersenne, 2 décembre 1634",
-          "page_number": "384"
+          "letter_number": "391",
+          "letter_name": "Doni à Mersenne, 8 novembre 1634",
+          "page_number": "384",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:15.648097Z",
+              "reason": "Correction supplied in comments.csv: F18199",
+              "changes": {
+                "letter_number": {
+                  "old": "392",
+                  "new": "391"
+                },
+                "letter_name": {
+                  "old": "La Charlonye à Mersenne, 2 décembre 1634",
+                  "new": "Doni à Mersenne, 8 novembre 1634"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "393",
@@ -4571,9 +4788,26 @@
           "page_number": "398"
         },
         {
-          "letter_number": "394",
-          "letter_name": "Peiresc à Mersenne, 19 décembre 1634",
-          "page_number": "402"
+          "letter_number": "393",
+          "letter_name": "Mersenne à Peiresc, 4 décembre 1634",
+          "page_number": "402",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:15.440751Z",
+              "reason": "Correction supplied in comments.csv: F18216,F18217",
+              "changes": {
+                "letter_number": {
+                  "old": "394",
+                  "new": "393"
+                },
+                "letter_name": {
+                  "old": "Peiresc à Mersenne, 19 décembre 1634",
+                  "new": "Mersenne à Peiresc, 4 décembre 1634"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "395",
@@ -4677,9 +4911,26 @@
           "page_number": "53"
         },
         {
-          "letter_number": "410.",
-          "letter_name": "Boulliaud à Gassend, 26 février 1635",
-          "page_number": "75"
+          "letter_number": "411.",
+          "letter_name": "Mersenne à Rivet, 3 mars 1635",
+          "page_number": "75",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:15.159671Z",
+              "reason": "Correction supplied in comments.csv: F18413,F18307",
+              "changes": {
+                "letter_number": {
+                  "old": "410.",
+                  "new": "411."
+                },
+                "letter_name": {
+                  "old": "Boulliaud à Gassend, 26 février 1635",
+                  "new": "Mersenne à Rivet, 3 mars 1635"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "411.",
@@ -4737,9 +4988,26 @@
           "page_number": "134"
         },
         {
-          "letter_number": "422.",
-          "letter_name": "Mersenne à Peiresc (vers le 20 avril 1635)",
-          "page_number": "141"
+          "letter_number": "423.",
+          "letter_name": "Peiresc à Mersenne, 23 avril 1635",
+          "page_number": "141",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:14.93828Z",
+              "reason": "Correction supplied in comments.csv: F18220",
+              "changes": {
+                "letter_number": {
+                  "old": "422.",
+                  "new": "423."
+                },
+                "letter_name": {
+                  "old": "Mersenne à Peiresc (vers le 20 avril 1635)",
+                  "new": "Peiresc à Mersenne, 23 avril 1635"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "423.",
@@ -4772,9 +5040,26 @@
           "page_number": "177"
         },
         {
-          "letter_number": "429.",
-          "letter_name": "Cornu à Mersenne, 13 mai 1635",
-          "page_number": "185"
+          "letter_number": "430.",
+          "letter_name": "Peiresc à Mersenne, 10 et 15 mai 1635",
+          "page_number": "185",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:08.952519Z",
+              "reason": "Correction supplied in comments.csv: F12887",
+              "changes": {
+                "letter_number": {
+                  "old": "429.",
+                  "new": "430."
+                },
+                "letter_name": {
+                  "old": "Cornu à Mersenne, 13 mai 1635",
+                  "new": "Peiresc à Mersenne, 10 et 15 mai 1635"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "430.",
@@ -4807,9 +5092,26 @@
           "page_number": "212"
         },
         {
-          "letter_number": "436.",
-          "letter_name": "Mersenne à Peiresc, 25 mai 1635",
-          "page_number": "216"
+          "letter_number": "437.",
+          "letter_name": "Mersenne à Peiresc, 26 mai 1635",
+          "page_number": "216",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:08.009176Z",
+              "reason": "Correction supplied in comments.csv: F14834",
+              "changes": {
+                "letter_number": {
+                  "old": "436.",
+                  "new": "437."
+                },
+                "letter_name": {
+                  "old": "Mersenne à Peiresc, 25 mai 1635",
+                  "new": "Mersenne à Peiresc, 26 mai 1635"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "437.",
@@ -5873,9 +6175,26 @@
           ]
         },
         {
-          "letter_number": "633",
-          "letter_name": "Mersenne à Galilée, 27 novembre 1637",
-          "page_number": "333"
+          "letter_number": "632",
+          "letter_name": "Mersenne à Rivet, 25 novembre 1637",
+          "page_number": "333",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:07.79209Z",
+              "reason": "Correction supplied in comments.csv: F3661,F21077,F18665",
+              "changes": {
+                "letter_number": {
+                  "old": "633",
+                  "new": "632"
+                },
+                "letter_name": {
+                  "old": "Mersenne à Galilée, 27 novembre 1637",
+                  "new": "Mersenne à Rivet, 25 novembre 1637"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "634",
@@ -5893,9 +6212,26 @@
           "page_number": "343"
         },
         {
-          "letter_number": "637",
-          "letter_name": "Herbert de Cherbury à Mersenne (1636)",
-          "page_number": "344"
+          "letter_number": "636",
+          "letter_name": "Descartes à Mersenne (fin décembre 1637)",
+          "page_number": "344",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:14.721047Z",
+              "reason": "Correction supplied in comments.csv: F15287",
+              "changes": {
+                "letter_number": {
+                  "old": "637",
+                  "new": "636"
+                },
+                "letter_name": {
+                  "old": "Herbert de Cherbury à Mersenne (1636)",
+                  "new": "Descartes à Mersenne (fin décembre 1637)"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "638",
@@ -5903,14 +6239,44 @@
           "page_number": "353"
         },
         {
-          "letter_number": "639",
-          "letter_name": "Mersenne à Herbert de Cherbury (commencement octobre 1637)",
-          "page_number": "358"
+          "letter_number": "638",
+          "letter_name": "Herbert de Cherbury à Mersenne (mai ou juin 1637)",
+          "page_number": "358",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:14.438911Z",
+              "reason": "Correction supplied in comments.csv: F24342",
+              "changes": {
+                "letter_number": {
+                  "old": "639",
+                  "new": "638"
+                },
+                "letter_name": {
+                  "old": "Mersenne à Herbert de Cherbury (commencement octobre 1637)",
+                  "new": "Herbert de Cherbury à Mersenne (mai ou juin 1637)"
+                }
+              }
+            }
+          ]
         },
         {
-          "letter_number": "640",
+          "letter_number": "appendix 4",
           "letter_name": "Gaffarel à Mersenne (entre 1631 et 1641)",
-          "page_number": "368"
+          "page_number": "368",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:14.181425Z",
+              "reason": "Correction supplied in comments.csv: F21083",
+              "changes": {
+                "letter_number": {
+                  "old": "640",
+                  "new": "appendix 4"
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5999,9 +6365,26 @@
           "page_number": "87"
         },
         {
-          "letter_number": "656.",
-          "letter_name": "Le P. Jean du Relle à Mersenne, 4 mars 1638, inédite.",
-          "page_number": "104"
+          "letter_number": "657.",
+          "letter_name": "Les frères Elsevier à Mersenne, 8 mars 1638",
+          "page_number": "104",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:13.922075Z",
+              "reason": "Correction supplied in comments.csv: F24514,F18724",
+              "changes": {
+                "letter_number": {
+                  "old": "656.",
+                  "new": "657."
+                },
+                "letter_name": {
+                  "old": "Le P. Jean du Relle à Mersenne, 4 mars 1638, inédite.",
+                  "new": "Les frères Elsevier à Mersenne, 8 mars 1638"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "657.",
@@ -6034,9 +6417,26 @@
           "page_number": "146"
         },
         {
-          "letter_number": "663.",
-          "letter_name": "G. Desargues à Mersenne, 4 avril 1638",
-          "page_number": "158"
+          "letter_number": "664.",
+          "letter_name": "Roberval contre Descartes (1re moitié d'avril 1638)",
+          "page_number": "158",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:13.656994Z",
+              "reason": "Correction supplied in comments.csv: F22501",
+              "changes": {
+                "letter_number": {
+                  "old": "663.",
+                  "new": "664."
+                },
+                "letter_name": {
+                  "old": "G. Desargues à Mersenne, 4 avril 1638",
+                  "new": "Roberval contre Descartes (1re moitié d'avril 1638)"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "664.",
@@ -6049,9 +6449,26 @@
           "page_number": "173"
         },
         {
-          "letter_number": "666.",
-          "letter_name": "Mersenne à Descartes (28 avril 1638)",
-          "page_number": "180"
+          "letter_number": "667.",
+          "letter_name": "A. Rivet à Mersenne, 29 avril 1638 (lettre inédite)",
+          "page_number": "180",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:07.542216Z",
+              "reason": "Correction supplied in comments.csv: F3668,F18792",
+              "changes": {
+                "letter_number": {
+                  "old": "666.",
+                  "new": "667."
+                },
+                "letter_name": {
+                  "old": "Mersenne à Descartes (28 avril 1638)",
+                  "new": "A. Rivet à Mersenne, 29 avril 1638 (lettre inédite)"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "667.",
@@ -6074,9 +6491,26 @@
           "page_number": "205"
         },
         {
-          "letter_number": "671.",
-          "letter_name": "J.-A. Ban à Mersenne (15 mai 1638) (lettre inédite)",
-          "page_number": "210"
+          "letter_number": "672.",
+          "letter_name": "Mersenne à Rivet, 23 mai 1638 (lettre inédite).",
+          "page_number": "210",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:07.330127Z",
+              "reason": "Correction supplied in comments.csv: F3669,F18843",
+              "changes": {
+                "letter_number": {
+                  "old": "671.",
+                  "new": "672."
+                },
+                "letter_name": {
+                  "old": "J.-A. Ban à Mersenne (15 mai 1638) (lettre inédite)",
+                  "new": "Mersenne à Rivet, 23 mai 1638 (lettre inédite)."
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "672.",
@@ -6084,9 +6518,26 @@
           "page_number": "222"
         },
         {
-          "letter_number": "673.",
-          "letter_name": "Descartes à Huygens (27 mai 1638)",
-          "page_number": "224"
+          "letter_number": "674.",
+          "letter_name": "Descartes à Mersenne (17/27 mai 1638)",
+          "page_number": "224",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:07.093614Z",
+              "reason": "Correction supplied in comments.csv: F3664,F3663",
+              "changes": {
+                "letter_number": {
+                  "old": "673.",
+                  "new": "674."
+                },
+                "letter_name": {
+                  "old": "Descartes à Huygens (27 mai 1638)",
+                  "new": "Descartes à Mersenne (17/27 mai 1638)"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "674.",
@@ -6094,14 +6545,48 @@
           "page_number": "247"
         },
         {
-          "letter_number": "675.",
-          "letter_name": "Roberval à Fermat, 1er juin 1638",
-          "page_number": "253"
-        },
-        {
           "letter_number": "676.",
           "letter_name": "Descartes à Mersenne (3 juin 1638)",
-          "page_number": "272"
+          "page_number": "253",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:13.390586Z",
+              "reason": "Correction supplied in comments.csv: F22540",
+              "changes": {
+                "letter_number": {
+                  "old": "675.",
+                  "new": "676."
+                },
+                "letter_name": {
+                  "old": "Roberval à Fermat, 1er juin 1638",
+                  "new": "Descartes à Mersenne (3 juin 1638)"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "letter_number": "677.",
+          "letter_name": "Fermat à Mersenne (début de juin 1638)",
+          "page_number": "272",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:13.135058Z",
+              "reason": "Correction supplied in comments.csv: F4486,F12149,F12148,F12147,F12146",
+              "changes": {
+                "letter_number": {
+                  "old": "676.",
+                  "new": "677."
+                },
+                "letter_name": {
+                  "old": "Descartes à Mersenne (3 juin 1638)",
+                  "new": "Fermat à Mersenne (début de juin 1638)"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "677.",
@@ -6119,9 +6604,26 @@
           "page_number": "288"
         },
         {
-          "letter_number": "680.",
-          "letter_name": "R. Descartes à Claude Hardy (29 (?) juin) 1638",
-          "page_number": "293"
+          "letter_number": "681.",
+          "letter_name": "Descartes à Mersenne (29 juin 1638), avec appendice de Gillet ......",
+          "page_number": "293",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:06.808451Z",
+              "reason": "Correction supplied in comments.csv: F3693,F22541,F17289,F22508,F12210",
+              "changes": {
+                "letter_number": {
+                  "old": "680.",
+                  "new": "681."
+                },
+                "letter_name": {
+                  "old": "R. Descartes à Claude Hardy (29 (?) juin) 1638",
+                  "new": "Descartes à Mersenne (29 juin 1638), avec appendice de Gillet ......"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "681.",
@@ -6655,9 +7157,26 @@
           "page_number": "530"
         },
         {
-          "letter_number": "770",
-          "letter_name": "J.-B. Doni, à Rome, à J.-A. Ban, à Haarlem, 15 octobre 1639",
-          "page_number": "531"
+          "letter_number": "769",
+          "letter_name": "Mersenne, à Paris, à J.-H. Bisterfeld, en Transsylvanie, 15 octobre 1639.",
+          "page_number": "531",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:12.863852Z",
+              "reason": "Correction supplied in comments.csv: F24621",
+              "changes": {
+                "letter_number": {
+                  "old": "770",
+                  "new": "769"
+                },
+                "letter_name": {
+                  "old": "J.-B. Doni, à Rome, à J.-A. Ban, à Haarlem, 15 octobre 1639",
+                  "new": "Mersenne, à Paris, à J.-H. Bisterfeld, en Transsylvanie, 15 octobre 1639."
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "771",
@@ -6670,9 +7189,26 @@
           "page_number": "536"
         },
         {
-          "letter_number": "773",
-          "letter_name": "G. Wendelin, à Herck, à C. Huygens, à La Haye, 25 octobre 1639",
-          "page_number": "539"
+          "letter_number": "772",
+          "letter_name": "Descartes, à (Santpoort), à Mersenne, à Paris, 16 octobre 1639",
+          "page_number": "539",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:06.571132Z",
+              "reason": "Correction supplied in comments.csv: F11398,F15645,F24622,F21145",
+              "changes": {
+                "letter_number": {
+                  "old": "773",
+                  "new": "772"
+                },
+                "letter_name": {
+                  "old": "G. Wendelin, à Herck, à C. Huygens, à La Haye, 25 octobre 1639",
+                  "new": "Descartes, à (Santpoort), à Mersenne, à Paris, 16 octobre 1639"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "774",
@@ -6747,9 +7283,26 @@
           "page_number": "597"
         },
         {
-          "letter_number": "781",
-          "letter_name": "J. Hübner, à Londres, à J. A. Comenius, à Leśna (mi-novembre)",
-          "page_number": "606"
+          "letter_number": "780",
+          "letter_name": "Descartes, à (Santpoort), à Mersenne, à Paris (13 novembre 1639)",
+          "page_number": "606",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:06.205082Z",
+              "reason": "Correction supplied in comments.csv: F3886",
+              "changes": {
+                "letter_number": {
+                  "old": "781",
+                  "new": "780"
+                },
+                "letter_name": {
+                  "old": "J. Hübner, à Londres, à J. A. Comenius, à Leśna (mi-novembre)",
+                  "new": "Descartes, à (Santpoort), à Mersenne, à Paris (13 novembre 1639)"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "782",
@@ -6757,14 +7310,48 @@
           "page_number": "615"
         },
         {
-          "letter_number": "783",
-          "letter_name": "J. Pell, à Londres, à Mersenne, à Paris, 21 novembre 1639",
-          "page_number": "619"
+          "letter_number": "782",
+          "letter_name": "Mersenne, à Paris, à Rivet, à La Haye, 20 novembre 1639",
+          "page_number": "619",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:05.963711Z",
+              "reason": "Correction supplied in comments.csv: F15467",
+              "changes": {
+                "letter_number": {
+                  "old": "783",
+                  "new": "782"
+                },
+                "letter_name": {
+                  "old": "J. Pell, à Londres, à Mersenne, à Paris, 21 novembre 1639",
+                  "new": "Mersenne, à Paris, à Rivet, à La Haye, 20 novembre 1639"
+                }
+              }
+            }
+          ]
         },
         {
-          "letter_number": "784",
-          "letter_name": "A. Rivet, à La Haye, à Cl. Saumaise, à Leyde, 21 novembre 1639",
-          "page_number": "622"
+          "letter_number": "783",
+          "letter_name": "J. Pell, à Londres, à Mersenne, à Paris, 21 novembre 1639",
+          "page_number": "622",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:05.759894Z",
+              "reason": "Correction supplied in comments.csv: F6413,F12890",
+              "changes": {
+                "letter_number": {
+                  "old": "784",
+                  "new": "783"
+                },
+                "letter_name": {
+                  "old": "A. Rivet, à La Haye, à Cl. Saumaise, à Leyde, 21 novembre 1639",
+                  "new": "J. Pell, à Londres, à Mersenne, à Paris, 21 novembre 1639"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "785",
@@ -6772,9 +7359,26 @@
           "page_number": "635"
         },
         {
-          "letter_number": "786",
-          "letter_name": "V. Conrart, à Paris, à Const. Huygens, à La Haye, 25 novembre 1639",
-          "page_number": "636"
+          "letter_number": "785",
+          "letter_name": "Mersenne, à Paris, à Th. Haack, à Londres, 24 novembre 1639",
+          "page_number": "636",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:05.516021Z",
+              "reason": "Correction supplied in comments.csv: F3887",
+              "changes": {
+                "letter_number": {
+                  "old": "786",
+                  "new": "785"
+                },
+                "letter_name": {
+                  "old": "V. Conrart, à Paris, à Const. Huygens, à La Haye, 25 novembre 1639",
+                  "new": "Mersenne, à Paris, à Th. Haack, à Londres, 24 novembre 1639"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "787",
@@ -6787,9 +7391,26 @@
           "page_number": "642"
         },
         {
-          "letter_number": "789",
-          "letter_name": "J.-F. Gronovius, à Paris, à A. Rivet, à La Haye, 2 décembre 1639",
-          "page_number": "643"
+          "letter_number": "788",
+          "letter_name": "A. Rivet, à La Haye, à Cl. Saumaise, à Leyde, 30 novembre 1639",
+          "page_number": "643",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:05.298153Z",
+              "reason": "Correction supplied in comments.csv: F15475",
+              "changes": {
+                "letter_number": {
+                  "old": "789",
+                  "new": "788"
+                },
+                "letter_name": {
+                  "old": "J.-F. Gronovius, à Paris, à A. Rivet, à La Haye, 2 décembre 1639",
+                  "new": "A. Rivet, à La Haye, à Cl. Saumaise, à Leyde, 30 novembre 1639"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "790",
@@ -6797,9 +7418,26 @@
           "page_number": "644"
         },
         {
-          "letter_number": "791",
-          "letter_name": "Ch. Villiers, à Sens, à Mersenne, à Paris, 8 décembre (1639)",
-          "page_number": "646"
+          "letter_number": "790",
+          "letter_name": "A. Rivet, à La Haye, à Mersenne, à Paris (6 décembre 1639)",
+          "page_number": "646",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:12.655441Z",
+              "reason": "Correction supplied in comments.csv: F25015",
+              "changes": {
+                "letter_number": {
+                  "old": "791",
+                  "new": "790"
+                },
+                "letter_name": {
+                  "old": "Ch. Villiers, à Sens, à Mersenne, à Paris, 8 décembre (1639)",
+                  "new": "A. Rivet, à La Haye, à Mersenne, à Paris (6 décembre 1639)"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "792",
@@ -6807,9 +7445,26 @@
           "page_number": "662"
         },
         {
-          "letter_number": "793",
-          "letter_name": "Mersenne, à Paris, à Th. Haack, à Londres, 10 décembre 1639",
-          "page_number": "674"
+          "letter_number": "792",
+          "letter_name": "Mersenne, à Paris, à A. Rivet, à La Haye, 10 décembre 1639",
+          "page_number": "674",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:12.432907Z",
+              "reason": "Correction supplied in comments.csv: F25016,F18852",
+              "changes": {
+                "letter_number": {
+                  "old": "793",
+                  "new": "792"
+                },
+                "letter_name": {
+                  "old": "Mersenne, à Paris, à Th. Haack, à Londres, 10 décembre 1639",
+                  "new": "Mersenne, à Paris, à A. Rivet, à La Haye, 10 décembre 1639"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "794",
@@ -6832,14 +7487,48 @@
           "page_number": "690"
         },
         {
-          "letter_number": "798",
-          "letter_name": "Le P. Phelippeaux, à Paris, à Mersenne, à Paris (fin décembre 1639)",
-          "page_number": "695"
+          "letter_number": "797",
+          "letter_name": "R. Descartes, à (Santpoort), à Mersenne, à Paris, 25 décembre 1639",
+          "page_number": "695",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:12.143509Z",
+              "reason": "Correction supplied in comments.csv: F16178,F15717",
+              "changes": {
+                "letter_number": {
+                  "old": "798",
+                  "new": "797"
+                },
+                "letter_name": {
+                  "old": "Le P. Phelippeaux, à Paris, à Mersenne, à Paris (fin décembre 1639)",
+                  "new": "R. Descartes, à (Santpoort), à Mersenne, à Paris, 25 décembre 1639"
+                }
+              }
+            }
+          ]
         },
         {
-          "letter_number": "799",
-          "letter_name": "Mersenne, à Paris, à Th. Haack, à Londres, 31 décembre 1639",
-          "page_number": "712"
+          "letter_number": "798",
+          "letter_name": "Le P. Phelippeaux, à Paris, à Mersenne, à Paris (fin décembre 1639)",
+          "page_number": "712",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:11.917399Z",
+              "reason": "Correction supplied in comments.csv: F25104",
+              "changes": {
+                "letter_number": {
+                  "old": "799",
+                  "new": "798"
+                },
+                "letter_name": {
+                  "old": "Mersenne, à Paris, à Th. Haack, à Londres, 31 décembre 1639",
+                  "new": "Le P. Phelippeaux, à Paris, à Mersenne, à Paris (fin décembre 1639)"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "800",
@@ -6857,9 +7546,22 @@
           "page_number": "733"
         },
         {
-          "letter_number": "803",
+          "letter_number": "appendix II",
           "letter_name": "Le P. Bourdin, à (Paris), à Mersenne, à Paris (décembre 1639 ?)",
-          "page_number": "738"
+          "page_number": "738",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:05.093726Z",
+              "reason": "Correction supplied in comments.csv: F6416",
+              "changes": {
+                "letter_number": {
+                  "old": "803",
+                  "new": "appendix II"
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -6983,9 +7685,26 @@
           "page_number": "140"
         },
         {
-          "letter_number": "826",
-          "letter_name": "Mersenne, à Paris, à Ribet, à La Haye, 28 février 1640",
-          "page_number": "146"
+          "letter_number": "827",
+          "letter_name": "J.-B. Doni, à Rome, à Mersenne, à Paris, (fin février 1640 ?).",
+          "page_number": "146",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:04.912558Z",
+              "reason": "Correction supplied in comments.csv: F4073",
+              "changes": {
+                "letter_number": {
+                  "old": "826",
+                  "new": "827"
+                },
+                "letter_name": {
+                  "old": "Mersenne, à Paris, à Ribet, à La Haye, 28 février 1640",
+                  "new": "J.-B. Doni, à Rome, à Mersenne, à Paris, (fin février 1640 ?)."
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "827",
@@ -7013,19 +7732,70 @@
           "page_number": "173"
         },
         {
-          "letter_number": "832",
-          "letter_name": "J. Hübner, à Londres, à Comenius, à Leszno, 1er mars 1640",
-          "page_number": "175"
-        },
-        {
           "letter_number": "833",
           "letter_name": "Mersenne, à Paris, au P. Jean Morin, à (Rome), 2 mars 1640",
-          "page_number": "178"
+          "page_number": "175",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:04.684359Z",
+              "reason": "Correction supplied in comments.csv: F4354",
+              "changes": {
+                "letter_number": {
+                  "old": "832",
+                  "new": "833"
+                },
+                "letter_name": {
+                  "old": "J. Hübner, à Londres, à Comenius, à Leszno, 1er mars 1640",
+                  "new": "Mersenne, à Paris, au P. Jean Morin, à (Rome), 2 mars 1640"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "834",
           "letter_name": "Mersenne, à Paris, à Th. Haack, à Londres, 4 mars 1640",
-          "page_number": "181"
+          "page_number": "178",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:04.48318Z",
+              "reason": "Correction supplied in comments.csv: F3888",
+              "changes": {
+                "letter_number": {
+                  "old": "833",
+                  "new": "834"
+                },
+                "letter_name": {
+                  "old": "Mersenne, à Paris, au P. Jean Morin, à (Rome), 2 mars 1640",
+                  "new": "Mersenne, à Paris, à Th. Haack, à Londres, 4 mars 1640"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "letter_number": "835",
+          "letter_name": "Mersenne, à Paris, à J. Pell, à Londres, 7 mars 1640",
+          "page_number": "181",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:04.231511Z",
+              "reason": "Correction supplied in comments.csv: F3889",
+              "changes": {
+                "letter_number": {
+                  "old": "834",
+                  "new": "835"
+                },
+                "letter_name": {
+                  "old": "Mersenne, à Paris, à Th. Haack, à Londres, 4 mars 1640",
+                  "new": "Mersenne, à Paris, à J. Pell, à Londres, 7 mars 1640"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "835",
@@ -7048,9 +7818,26 @@
           "page_number": "203"
         },
         {
-          "letter_number": "839",
-          "letter_name": "Kenelm Digby, à Londres, à Mersenne, à Paris, 15 mars 1640",
-          "page_number": "208"
+          "letter_number": "840",
+          "letter_name": "L. de Dieu, à Leyde, à A. Rivet, à La Haye, 24 mars 1640",
+          "page_number": "208",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:03.792579Z",
+              "reason": "Correction supplied in comments.csv: F4355",
+              "changes": {
+                "letter_number": {
+                  "old": "839",
+                  "new": "840"
+                },
+                "letter_name": {
+                  "old": "Kenelm Digby, à Londres, à Mersenne, à Paris, 15 mars 1640",
+                  "new": "L. de Dieu, à Leyde, à A. Rivet, à La Haye, 24 mars 1640"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "840",
@@ -7058,9 +7845,26 @@
           "page_number": "210"
         },
         {
-          "letter_number": "841",
-          "letter_name": "Villiers, à Sens, à Mersenne, à Paris, 26 mars 1640",
-          "page_number": "218"
+          "letter_number": "842",
+          "letter_name": "J. B. Doni, à Rome, à Mersenne, à Paris, 27 mars 1640",
+          "page_number": "218",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:11.698733Z",
+              "reason": "Correction supplied in comments.csv: F21510",
+              "changes": {
+                "letter_number": {
+                  "old": "841",
+                  "new": "842"
+                },
+                "letter_name": {
+                  "old": "Villiers, à Sens, à Mersenne, à Paris, 26 mars 1640",
+                  "new": "J. B. Doni, à Rome, à Mersenne, à Paris, 27 mars 1640"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "842",
@@ -7365,9 +8169,26 @@
           "page_number": "497"
         },
         {
-          "letter_number": "898",
-          "letter_name": "J. van Beverwyck, à Dordrecht, à G. Patin, à Paris, 30 juillet 1640",
-          "page_number": "501"
+          "letter_number": "897",
+          "letter_name": "Descartes, à Leyde, à Mersenne, pour le P. Bourdin, à Paris, 29 juillet 1640",
+          "page_number": "501",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:11.46108Z",
+              "reason": "Correction supplied in comments.csv: F6899",
+              "changes": {
+                "letter_number": {
+                  "old": "898",
+                  "new": "897"
+                },
+                "letter_name": {
+                  "old": "J. van Beverwyck, à Dordrecht, à G. Patin, à Paris, 30 juillet 1640",
+                  "new": "Descartes, à Leyde, à Mersenne, pour le P. Bourdin, à Paris, 29 juillet 1640"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "899",
@@ -7375,9 +8196,26 @@
           "page_number": "513"
         },
         {
-          "letter_number": "900",
-          "letter_name": "Descartes, à Leyde, à Mersenne, à Paris, (30 juillet 1640)",
-          "page_number": "514"
+          "letter_number": "899",
+          "letter_name": "Descartes, à Leyde, à Mersenne, à Paris, 30 juillet 1640",
+          "page_number": "514",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:02.871356Z",
+              "reason": "Correction supplied in comments.csv: F4004",
+              "changes": {
+                "letter_number": {
+                  "old": "900",
+                  "new": "899"
+                },
+                "letter_name": {
+                  "old": "Descartes, à Leyde, à Mersenne, à Paris, (30 juillet 1640)",
+                  "new": "Descartes, à Leyde, à Mersenne, à Paris, 30 juillet 1640"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "901",
@@ -7385,14 +8223,44 @@
           "page_number": "533"
         },
         {
-          "letter_number": "902",
-          "letter_name": "Descartes, à Leyde, à Mersenne, à Paris, 6 août 1640",
-          "page_number": "537"
+          "letter_number": "901",
+          "letter_name": "Deschamps, à Bergerac, à Mersenne, à Paris, 31 juillet 1640",
+          "page_number": "537",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:11.222887Z",
+              "reason": "Correction supplied in comments.csv: F12220",
+              "changes": {
+                "letter_number": {
+                  "old": "902",
+                  "new": "901"
+                },
+                "letter_name": {
+                  "old": "Descartes, à Leyde, à Mersenne, à Paris, 6 août 1640",
+                  "new": "Deschamps, à Bergerac, à Mersenne, à Paris, 31 juillet 1640"
+                }
+              }
+            }
+          ]
         },
         {
-          "letter_number": "902 bis",
+          "letter_number": "appendix 1",
           "letter_name": "Meliand, à Paris, à Mersenne, à Paris, (1640) ?",
-          "page_number": "546"
+          "page_number": "546",
+          "manual_overrides": [
+            {
+              "corrected_by": "liri",
+              "corrected_at": "2026-08-09T14:12:10.988946Z",
+              "reason": "Correction supplied in comments.csv: F21560",
+              "changes": {
+                "letter_number": {
+                  "old": "902 bis",
+                  "new": "appendix 1"
+                }
+              }
+            }
+          ]
         }
       ]
     }
