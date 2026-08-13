@@ -12,7 +12,7 @@ import { MultiSelectDropdown } from './core/MultiSelectDropdown.tsx'
 import { getStageDisplayName } from '../utils/stages.ts'
 import { Button } from './core/Button.tsx'
 
-const Separator = () => <span className="bg-gray-600 w-px h-fill mx-2" />
+const Separator = () => <span className="self-stretch bg-gray-600 w-px mx-2" />
 const HIDDEN_FILTER = '__hidden__' as const
 type AnnotationFilterItem = annotationrule_PipelineStage | typeof HIDDEN_FILTER
 

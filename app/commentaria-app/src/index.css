@@ -20,12 +20,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.h-fill {
-  height: fill-available;
-  height: -moz-available;
-  height: -webkit-fill-available;
-}
-
 button {
   cursor: pointer;
 }
