@@ -1,0 +1,21 @@
+# *[Folio: 262]* GEOMET. ELEMENT. EVCLIDIS
+
+proportio quadrati lineæ a b ad quadratũ lineæ a n sicut d ad l, & producatur n b, erunt duæ lineæ a b & b n quales inquirimus. Quod si rursus diuidatur d in p quadratum & in q nõ quadratum, & fuerit proportio quadrati lineæ a b ad quadratũ lineæ a r sicut d ad p, & protracta fuerit linca *[sic: linea]* r b, erũt etiam duæ a b & b r, quales inquirimus. Sunt itaque lineæ a b, b c, b k, b n, b r, potentia tantũ rationales & in ea cõmunicantes, quarum una uidelicet a b est potentior qualibet aliarũ in quadrato lineæ secũ communicantis in longitudine. Si igitur quatuor linearum b c, b k, b n, b r, nulla communicat alij in longitudine, cõstat propositum. Istud autẽ sic probatur, patet enim ex præmissis, quod quadratũ lineæ b c ad quadratũ lineæ a b est sicut numerus f ad numerũ d, & quadratũ lineæ a b ad quadratũ lineæ b k est sicut numerus f ad numerũ d, & quadratũ lineæ a b ad quadratũ lineæ b k est sicut numerus d ad numerũ h, ergo per æquã proportionalitatẽ quadratũ lineæ b c ad quadratum lineæ b k, est sicut numerus f ad numerũ h, sed nullus quatuor numerorũ f, h, m, k, se habet ex hypothesi ad alium sicut numerus quadratus ad numerum quadratum, quare per 3 partem septimæ, duæ lineæ b c, b k, sunt incommensurabiles in longitudine. Eadem ratiõne quælibet duæ ex illis quatuor sunt incommensurabiles in longitudine. Liquet ergo quod uolumus.
+
+## Eucli. ex Camp. Propositio 18
+
+*[Margin: 18]* DVas lineas in potentia tantum rationales communicantes quarum longior plus possit breuiori quantum quadratum lineæ sibi incommensurabilis in longitudine inuenire.
+
+CAMPANVS In hac quoq̃ remaneat eadem dispositio eædẽq̃ hypotheses quæ in præmissa, hoc solum mutato quod proportio numeri d e ad neutrum duorum numerorum d f & f e, sit sicut numeri quadrati ad numerum quadratũ. hoc aũt facile fiet, posito d, e quolibet nũero quadrato diuiso in duos numeros nõ quadratos, ut si d e sit 9, & d f, 6, & f e 3, argumẽtãdo ut prius, hoc dũtaxat excepto qd' a b & a c sint incõmẽsurabiles in lõgitudine per ultimã partẽ 7.
+
+*[Figure: semicircle on base a b with apex c on the arc, lines drawn from a and b to c forming an inscribed triangle; below, a dotted horizontal segment with points d, f, e]*
+
+CAMPANI additio Et sciendũ quod duæ lineæ quales hæc & præmissa docẽt inuenire, cõponũt binomiũ, & minori earum abscisa de maiori, quæ reliqua est dicitur residuũ. Nota etiam quod lineæ tantum potentia rationales communicantes, possunt esse una rationalis & alia irrationalis, sicut latera tetragonica duarum superficierum quarũ una sit 25 pedum & alia 24, sunt rationalia potentia tantum communicantia, latus enim primæ superficici *[sic: superficiei]* est 5 latus uero secundæ non numeratur. Et possunt esse ambæ irrationales, ut latera tetragonica duarum superficierum quarum una sit 24 pedum & alia 23, neutrius enim numeratur latus, suntq̃ in longitudine incommensurabilia ex ultima parte septimæ, Quod si libeat etiam inuenire plures lineas duabus potentia tantum rationales communicantes, quarum una sit potentior qualibet aliarũ in quadrato lineæ secum non cõmunicantis in longitudine, sumatur talis numerus qui possit pluries sic diuidi quod ipsius ad nullam suarum partium nec alicuius ad aliquã aliarum sit proportio ut numeri quadrati ad numerũ quadratũ, ut 25, potest diuidi in 2 & 23, item in 5 & 20, & rursus in 7 & 18. Et sic processus idem qui fuit in præmissa.
+
+## Eucli. ex Camp. Propositio 19
+
+*[Margin: 19]* OMnis superficies quam continent duæ lineæ potentialiter tãtum rationales communicantes, est irrationalis, diciturq̃ superficies medialis, eiusque latus tetragonicum scilicet quod in eam potest, est irrationale, diciturq̃ linea medialis.
+
+CAMPANVS Sint duæ lineæ a b, b c, continentes superficiem a c, rationales potentia tantũ communicantes, quæ qualiter reperiantur, ex præmissa & antepræmissam manifestum est, dico superficiem a c esse irrationalem. Sit enim d c quadratum b c, eritque rationale per hypothesin, eo quod linea b c est rationalis in potentia. Et quia ex prima sexti a c ad c d sicut a b ad b d, non communicat autem a b cum b d, quia ex hypothesi non communicat cũ sua æquali, quæ est b c, sequitur per secundam partem 10 ut etiam a c non cõmunicet cum c d, quare per diffinitionem, superficies
+
+*[Catchword: a c]*

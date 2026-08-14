@@ -1,0 +1,21 @@
+# GEOMET. ELEMENT. EVCLIDIS
+
+*[Folio: 266]*
+
+linea e g sit rationalis in longitudine sicut sua æqualis c d, erit per 16 linea e f rationalis in longitudine & cōmunicans lineæ e g, per 20 autem est utraque duarum linearum c e & e f potētialiter tantū rationalis, & lineæ c d incōmensurabilis in longitudine, itaq̃ e f linea est incōmensurabilis lineæ c e in lōgitudine. Et quia per primam sexti quadratum lineæ e f ad superficiem quæ fit ex e f in c e est, sicut e f ad c e, sequitur per secūdam partem decimæ ut quadratum lineæ e f sit iucōmensurabile *[sic: incōmensurabile]* superficiei factæ ex e f in c e, quare & ipsum quadratum erit incommensurabile duplo superficiei ex e f in c e, quadratū uero c e cum sit rationale. est cōmunicans quadrato e f, totum igitur ex ambobus cōpositum erit per 9 cōmunicans quadrato e f. Et ideo incōmensurabile duplo superficiei ex e f in c e. Et quia per 4 secundi quadratum lineæ c f est æquale duobus quadratis duarum linearum c e & e f, & duplo superficiei ex c e in e f, & duplum superficiei c e in e f est incommensurabile aggregato ex duobus quadratis duarum linearum c e & e f, sequitur per ea quæ addita sunt in 5, ut quadratū c f sit incommensurabile aggregato ex duobus quadratis duarum linearum c e & e f. At cum aggregatum ex his quadratis sit rationale, sequitur quadratnm *[sic: quadratum]* lineæ c f non esse rationale, & ideo linea c f non est rationalis in potentia, & idcirco non erit superficies d f medialis, neq̃ a b sibi æqualis, quod est inconueniens, cum sit contrarium positis. Relinquitur igitur quod superficies b, est irrationalis, quod est propositum.
+
+*[Figure: a rectangle divided by a horizontal line into a smaller upper part b and a larger lower part a; beside it a rectangle with f at top left, divided by a horizontal line e–g, with c at bottom left and d at bottom right]*
+
+Eucli.ex Camp. Propositio 23
+
+*[Margin: 23]*
+
+## Mnis superficies quam continent duæ lineæ mediales potentialiter tantum cōmunicantes, aut rationalis est aut medialis.
+
+*[Woodcut initial O with a moon face]*
+
+CAMPANVS. Sint duæ lineæ a b & b c mediales potentia tantū communicantes, dico quod superficies a c ab eis contenta aut est rationalis, aut medialis. Sint enim, c d quadratū lineæ b c, & a e quadratum lineæ a b : erūtq̃ ex hypothesi hæc duo quadrata communicantia, & erit per primam sexti superficies a c medialis medio loco proportionalis inter ipsa quadrata. Sumatur igitur linea f g quæ sit rationalis in lōgitudine, cui adiungatur superficies f h æqualis quadrato a e, & h k æqualis superficiei a c, & k l æqualis quadrato d c, eruntq̃ hæ tres superficies f h, h k, & k l continue proportionales, sicut sunt æquales a e, a c, & d c, quare per primam sexti erunt etiam tres lineæ g h, h m, & m l, quæ sunt bases earum, continue proportionales. Et cum superficies f h & k l sint communicantes, sicut duo quadrata a e & c d eis æqualia, sequitur per primam sexti & decimam huius, ut linea g h sit cōmunicans cum l m, utraque autem earum est rationalis, in potentia per 20 huius : igitur superficies unius earum in alteram est rationalis : omnis enim superficies quam continent duæ lineæ rationales in potentia, cōmunicantes in longitudine, necessario est rationalis, ut patet ex prima sexti & prima parte decimæ huius & ex diffinitione superficierum rationalium. Et quia ex prima parte decimæsextæ quadratum lineæ l m est æquale superficiei ex g h in m l, erit quadratū lineæ h m rationale. Si ergo linea h m est rationalis in lōgitudine sibi cōmunicans lineæ k m quæ est æqualis lineæ f g, erit per 15 superficies h k rationalis, ideoq̃ & sua æqualis a c. Si autem h m sit irrationalis in longitudine siue incommensurabilis lineæ k m quæ est æqualis lineæ f g, cum ipsa sit rationalis saltem in potentia eo quod suum quadratum est rationale, erit ex 19 superficies h k medialis, quare & sua æqualis a c. Constat ergo propositum.
+
+*[Figure: a square with top side labelled e, b, c, interior labelled a, and above the segment b c a square labelled d at its top; beside it a tall rectangle divided into three stacked parts labelled l, m and b, with k at the left between the upper parts, f at bottom left and g at bottom right]*
+
+*[Catchword: CAMPANI]*

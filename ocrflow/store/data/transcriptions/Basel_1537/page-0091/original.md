@@ -1,0 +1,21 @@
+# GEOMET. ELEMENT. EVCLIDIS
+
+*[Folio: 82]*
+
+aut per inæqualia. Secet ergo primo per æqualia: eritq̃ per primam partem tertij huius, secās eam orthogonaliter. Ducatur itaq̃ linea f c: eritq̃ per 5 secundi, quod fit ex b e in e d cum quadrato e f: æquale quadrato lineæ f d: quare & quadrato lineæ f c: ergo per penultimā primi, & quadratis duarum linearum f e & e c. Dempto ergo utrinq̃ quadrato e f: erit quod fit ex b e in e d, æquale quadrato lineæ e c: & quia c e est æqualis a e, per 46 primi patet propositum. Quod si b d transiens per centrum, secat a c per inæqualia, à centro f ducatur f g perpendicularis ad a c: eritq̃ per secundam partem tertij huius, a g, æqualis g c: & ducatur linea f c. Eritq̃ per 5 secundi, quod fit ex b e in e d cum quadrato e f (& ideo per penultimā primi cū quadratis duarum linearum f g & g e, propter id quod angulus f g e est rectus) æquale quadrato lineæ d f, & ideo lineæ f c, propter quod per penultimam primi & quadratis duarum linearū f g & g c. Dempto ergo utrinq̃ quadrato lineæ f g, erit quod fit ex b e in e d cum quadrato lineæ g e, æquale quadrato lineæ g c: sed per 5 secundi, quod fit ex a e in e c cum quadrato lineæ g e: est æquale quadrato eiusdē g c. Dempto igitur utrinq̃ quadrato lineæ g e, erit quod fit ex b e in e d, æquale ei quod fit ex a e in e c, q̃d est propositum.
+
+*[Figure: three circles side by side: the first with diameters b d and a c crossing at the centre e; the second with diameter b d, chord a c cut at e, centre f; the third with diameter b d, chord a c cut unequally at e, centre f, perpendicular f g and line f c]*
+
+Quod si neutra earū transit per centrum, siue altera diuidat alteram per æqualia siue per inæqualia: producam lineam g f e h diametrum circuli transeuntem per punctum sectionis earum. Et si altera diuidat alteram per æqualia ut b d ipsam a c, tunc g h diuidit etiam a c per æqualia: ergo orthogonaliter per tertiam huius: ergo per secundum modum huius conclusionis, quod fit ex g e in e h: æquum est ei quod fit ex a e in e c: & per tertium modum huius quod fit ex g e in e h, æquum est ei quod fit ex b e in e d: ergo quod fit ex a e in e c, æquum est ei quod fit ex b e in e d, quod est propositum. At si neutra diuidat alteram per æqualia, erit per tertium modum huius conclusionis, quod fit ex g e in e h, æquale utriq̃ eorum quæ fiunt ex a e in e c & b e in e d. Quare unum eorum erit æquale alteri, quod est propositum.
+
+*[Figure: two circles side by side, each with g at top and h at bottom joined by the diameter g f e h through the centre f; chords a c and b d crossing at e]*
+
+## Eucli. ex Zamb. Theorema.29. Propositio.35.
+
+*[Margin: 35]*
+
+Si in circulo duæ rectæ lineæ se ad inuicem secuerint: rectangulum comprehensum sub segmentis unius, æquum est ei quod sub segmētis alterius comprehenditur rectangulo.
+
+THEON ex Zamberto. In circulo enim α β γ δ: duæ rectæ lineæ α γ & β δ sese inuicem secent in signo ε. Dico quod æquum est rectangulum comprehensum sub α ε & ε γ: rectangulo comprehenso sub δ ε & ε β. Si enim α γ & β δ per centrū sint, ut centrum sit circuli α β γ δ: manifestum est quod cum α ε, ε γ, δ ε & ε β sint æquales, rectangulū comprehensum sub α ε & ε γ, æquum est ei quod comprehenditur sub δ ε & ε β rectangulo. Sint iam α γ, & β δ: non extensæ per centrum: & sumatur centrum circuli α β γ δ: sitq̃ illud ζ (per primam tertij) & ab ipso ζ in α γ & β δ rectas lineas: ducantur (per 12 primi) perpendiculares ζ η & ζ θ: & cōnectantur ζ β, ζ γ, & ζ ε. Et quoniam (per 3 tertij) recta linea quædam per centrum extensa ζ η, quandam rectam lineam non per centrum transeuntem α γ ad angulos rectos secat: etiam bifariam eam secabit: æqualis igitur est α η ipsi η γ. Et quoniam recta linea α γ dissecta est in æqualia in η, in inæqualia autem in ε: rectangulum igitur comprehensum sub α ε & ε γ una cum eo quod fit ex η ε (per 5 secundi) æquum est ei quod fit ex η γ. Cōmune apponatur id q̃d fit ex η ζ. Quod igitur sub α ε & ε γ una cum ijs quæ fiunt ex ε η & η ζ, æquum est eis quæ fiunt ex γ η & η ζ. Sed eis
+
+*[Figure: large circle α β γ δ with δ at top right, α at upper left, γ at bottom, β at lower right; the two chords α γ and β δ crossing at ε, with the centre ζ joined to β, γ, ε and the perpendiculars ζ η and ζ θ; beside it a smaller circle with chords α γ and β δ crossing at ε]*

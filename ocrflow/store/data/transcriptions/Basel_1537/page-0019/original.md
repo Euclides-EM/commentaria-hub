@@ -1,0 +1,21 @@
+# GEOMET. ELEMENT. EVCLIDIS
+
+*[Folio: 10]*
+
+## Eucli ex Zamb. Theorema primum. Propositio 4.
+
+*[Margin: 4]* Si duo triangula duo latera duobus lateribus æqualia habuerint alterum alteri, & angulum angulo æqualem sub æqualibus rectis lineis contentum, & basin basi æqualem habebunt, & triangulum triangulo æquū erit, ac reliqui anguli reliquis angulis æquales erunt alter alteri, sub quibus æqualia latera subtenduntur.
+
+THEON ex Zamb. Sint duo triangula α β γ, δ ε ζ, duo latera uidelicet α β, α γ, duobus lateribus, hoc est, δ ε, δ ζ æqualia habentia alterum alteri, scilicet α β, ipsi δ ε, & α γ, ipsi δ ζ, & angulum β α γ, angulo ε δ ζ æqualem. Dico quod & basis β γ, basi ε ζ est æqualis, & triangulū α β γ, triangulo δ ε ζ æquum erit: & reliqui anguli reliquis angulis æquales erunt alter alteri sub quibus æqualia latera subtenduntur, hoc est, α β γ ipsi δ ε ζ, & α γ β, ipsi δ ζ ε. Congruente namq̃ triangulo α β γ ipsi δ ε ζ triangulo, ac posito signo α super δ, & recta linea α β super δ ε, congruit & signum β signo ε, ex eo quia linea α β ipsi δ ε est æqualis (per hypothesin). Et congruente linea α β ipsi δ ε lineæ, congruit & linea recta α γ ipsi lineæ δ ζ: quoniam angulus β α γ, ipsi ε δ ζ est æqualis (per hypothesin): signum igitur γ, ipsi signo ζ congruit. Rursus quoniam γ signum ipsi ζ signo congruit, at β signū ipsi ε signo congruit: basis igitur β γ, basi ε ζ congruit. Si enim congruente β ipsi ε, & γ ipsi ζ, basis β γ, basi ε ζ non congruit: duæ rectæ lineæ superficiem concludunt, quod (per 10 communem sententiam) est impossibile. Congruit ergo basis β γ, basi ε ζ, & ei est æqualis. Quare totum triangulum α β γ, toti triangulo δ ε ζ congruit (per 8 coummunem sententiam), & ei est æquale. Et reliqui anguli (per eandem) reliquis angulis congruent, & eis erunt æquales, hoc est angulus α β γ, angulo δ ε ζ, & angulus α γ β angulo δ ζ ε. Cum igitur bina triangula duo latera duobus lateribus æqualia habuerint alterum alteri, & angulum angulo æquum sub æqualibus rectis lineis contentum: basin quoque basi æqualem habebunt, & triangulum triangulo æquum erit, & reliqui anguli reliquis angulis æquales erunt alter alteri, sub quibus æqualia latera subtenduntur. Quod oportuit demonstrasse.
+
+*[Figure: two tall triangles side by side with Greek vertex labels; the left triangle δ ε ζ with curved lines below its base ε ζ, the right triangle α β γ]*
+
+## Eucli. ex Camp. Propositio 5.
+
+*[Margin: 5]* *[Decorated initial O with a face]* Mnis trianguli duūm æqualiū laterū angulos qui super basin sunt, æquales esse necesse est. Quod si eius duo latera directe protrahantur, fient quoq̃ sub basi duo anguli inuicē æquales.
+
+CAMPANVS. Sit triangulus a b c, cuius latus a b sit æquale lateri a c. Dico quod angulus a b c, est æqualis angulo a c b. Quod si protrahantur a b & a c usq̃ ad d & e, fiet angulus d b c æqualis angulo e c b. Quod sic probatur. Protractis a b & a c, ponam per tertiam propositionem, lineam a d æqualem lineæ a e, & protraham lineas e b, d c. Et intelligam duos triangulos a b e & a c d, quos probabo esse æquales, & adinuicem æquilateros & æquiangulos. Sunt enim duo latera a b & a e, trianguli a b e, æqualia duobus lateribus a c & a d. trianguli a c d, & angulus a, cōmunis utriq̃: ergo per præmissam, basis b e est æqualis basi d c, & angulus e æqualis angulo d, & angulus a b e est æqualis angulo a c d. Item intelligo duos triangulos d b c & e c b, quos similiter probabo esse æquilateros & æquiangulos. Nam duo latera b d & d c trianguli d b c, sunt æqualia duobus lateribus e c & e b trianguli e c b, & angulus d, angulo e: ergo per præmissam basis basi, & reliqui anguli reliquis angulis: ergo angulus d b c est æqualis angulo e c b (Et est secundum propositum, scilicet, quod anguli sub basi sunt æquales) & angulus d c b, est æqualis angulo e b c. Sed totus angulus a b e, est æqualis toti a c d, ut probatum fuit supra: ergo angulus a b c residuus, est per 3 cōmunem animi conceptionem æqualis angulo a c b residuo, quorum uterque est supra basin. Et hoc est primum propositum.
+
+*[Figure: triangle a b c with apex a above; the sides a b and a c produced beyond the base to d at the lower left and e at the lower right, with the crossing lines b e and c d drawn]*
+
+*[Catchword: EVCLIDIS]*

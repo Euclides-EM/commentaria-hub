@@ -1,0 +1,27 @@
+# LIBER DECIMVS *[Folio: 331]*
+
+CAMPANVS. Nunc ultimo conuenit lineā d e esse illam, quæ iuncta cū mediali componit totū mediale cui adiuncta linea e f (quæ uidelicet sit illa per cuius abscisionē linea d e fuerat quæ proponitur) si quales lineas d f & f e esse oporteat ex 73 didiceris, priorēque argumentationē firma mente tenueris, sine obice quoquā lineā b c esse residuum sextū concludere poteris. Si autē fortassis in aliquo te hæsitare contigerit, quicquid illud fuerit de quadrato g h ad sibi æqualē superficiem a n conferendū erit, & sic patebit propositum nostrū.
+
+Eucli.ex Zamb. — Theorema 78 — Propositio 102
+
+*[Margin: 102]*
+
+## Quod ex ea quæ cum medio medium totum efficit, ad rationalem comparatum latitudinem efficit sextam apotomen.
+
+THEON ex Zamb, Sit cum medio medium totum efficiens α β, rationalis autem esto γ δ, & ei quidē quod ex α β (per 44 primi) æquū ad ipsam γ δ, cōparetur γ ε, latitudinē efficiēs γ ζ. Dico quod γ ζ sexta est apotome. Sit inquā (per 84 decimi) ipsi α β cōgruens β η, ipsæ igitur α η, η β, potētia sunt incōmensurabiles, efficientes conflatum quidē ex ijs quæ ab ipsis sunt quadratis medium, & quod bis sub α η, η β, medium, insuper incommensurabilia quæ ex α η, η β, ei quod bis sub α η, η β. Cōparetur inquam ad ipsam γ δ, ei quidē quod ex α η, æquū γ θ, latitudinem efficiens γ κ, ei autē quod ex β η, sit κ λ. Totū igitur γ λ, æquū est eis quæ ex α η, η β. Igitur γ λ, medium est. Et ad rationalē ε δ *[sic: for γ δ]*, comparatur latitudinem efficiens γ μ. rationalis igitur est (per 22 decimi) γ μ, & ipsi γ δ longitudine incommensurabilis. Quoniā igitur γ λ æquum est eis quæ ex α η, η β, quorū γ ε æquum est ei quod ex α β, reliquum igitur ζ λ æquū est ei quod bis sub α η, η β. Et quod bis sub α η, η β, medium est, & ζ λ igitur medium est. Et ad ipsam ζ ε, comparatur latitudinem efficiens ζ μ, rationalis igitur est (per 22 decimi) ζ μ, & ipsi γ δ, longitudine incōmensurabilis. Et quoniam quæ ex α η, η β, incommensurabilia sunt ei quod bis sub α η, η β, & eis quidē quæ ex α η, η β, æquū est γ λ, ei uero quod bis sub α η, η β. æquum est ζ λ, incommensurabile igitur est γ λ ipsi ζ λ. Sicut autem γ λ ad ζ λ, sic est γ μ, ad ζ μ, incommensurabilis igitur est (per 9 decimi,) γ μ ipsi μ ζ longitudine. Et utræq̃ sunt rationales, ipsæ igitur γ μ, μ ζ, rationales sunt potentia tantū cōmensurabiles. Apotome igitur est γ ζ (per 73 decimi,) Dico quod & sexta. Quoniā ζ λ, æquū est ei quod bis sub α η, η β, secetur (per 10 primi) in ν ipsa ζ μ, bifariā, exciteturq̃ (per 31 primi) per ν ad ipsam γ δ, parallelus ν ξ. Vtrūq̃ igitur ipsorū ζ ξ, ν λ, æquū est ei quod sub α η, η β. Et quoniā ipsæ α η, η β, potentia sunt incommensurabiles, incommensurabile igitur est quod ex α η, ei quod ex η β. Sed ei quidem quod ex α η, æquum est γ θ, ei autem quod ex η β, æquum est κ λ, incommensurabile igitur est γ θ, ipsi κ λ. Sicut autem γ θ, ad κ λ, sic est γ κ. ad κ μ, incommensurabilis igitur est (per 9 decimi) γ κ, ipsi κ μ. Et quoniā eorum quæ ex α η, η β, mediū proportionale est (per lemma 53 decimi.) quod sub α η, η β, & quod ex α η, æquum est ipsi γ θ, ei autem quod ex η β, æquum est κ λ, ei uero quod sub α η, η β, æquū est ν λ, ipsorū igitur γ θ, κ λ, mediū est proportionale ν λ. Est igitur sicut γ θ ad ν λ, sic est ν λ, ad κ λ, & id propterea iam (per 85 decimi) γ μ, ipsa μ ζ maius potest eo quod ex sibi incōmensurabili. & ipsarum neutra ipsi γ δ, expositæ rationali est commensurabilis, ipsa igitur γ ζ, sexta est apotome. Quod ex ea igitur quæ cum medio, & quæ sequuntur reliqua. Quod erat ostendendum.
+
+*[Figure: horizontal line with a tick dividing it towards the right: the line α β with its annex β η; labels α at the left end, β at the division point, η at the right end]*
+
+*[Figure: rectangle on the rational line γ δ (γ top-left, δ bottom-left), divided by verticals ζ ε, ν ξ, κ θ and μ λ; top edge labelled γ ζ ν κ μ, bottom edge labelled δ ε ξ θ λ]*
+
+Eucli.ex Camp. — Propositio 98
+
+*[Margin: 98]*
+
+## OMnis linea residuo commēsurabilis, ipsa quoque in termino & ordine est idem residuum.
+
+CAMPANVS Quod 60 & quatuor eā sequētes de binomio eiusq̃ comitibus quinq̃ ꝓposuerūt, hæc 98 & quatuor eā sequētes de residuo suisq̃ quinque comitibus uerū esse proponunt. quibus qui usq̃ ad solitum habitū institerit, has ignorare non poterit. Quidquid autē in illis de communicātia in longitudine & potētia tantum dictum est, in his quoque idem oportet intelligi. nam omnis linea residuo communicans in longitudine, siue in potentia tantum, ipsa etiam est residuum. Sed si communicat in longitudine, non solum est ipsa residuum, sed etiam eiusdem speciei residuum, uerbi gratia, linea cōmunicans in longitudine residuo primo, est residuū primū. & secundo cōmunicans est secundū, sic quoq̃ in cæteris. Quod autē linea cōmunicat residuo in potētia tantū, ipsam quoq̃ necesse est esse residuum, sed non eiusdem speciei immo impossibile est, ut linea cōicās in potētia tantū residuo primo aut secūdo aut tertio aut quarto aut quin *[sic: for quinto]* cadat simul cū eo sub eadē specie, sed necesse est ut ambo cadāt simul sub tribus primis speciebus, aut ambo simul sub tribus postremis. Sit itaq̃ exēpli gratia, à residuum: cui
+
+*[Figure: two horizontal segments: the upper labelled a at the left end and c at the right end; the lower labelled d at the left end, f near the right end and b at the right end]*
+
+*[Signature: E 4]* *[Catchword: cōmuni]*

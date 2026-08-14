@@ -1,0 +1,27 @@
+# GEOMET. ELEMENT. EVCLIDIS
+
+*[Folio: 152]*
+
+dam lineam a b parallelogrammū simile d: & sit ita conditionatum quod triangulus c non sit maior parallelogrāmo simili d, collato super dimidium lineæ a b , alioquin ad impossibile laboraretur, per præmissam. Diuido igitur lineā a b per æqualia in pūcto e & secūdū doctrinā 19 huius super eius eius medietatē b e cōstituo parallelogrammū c f simile d, & cōplebo super totā lineā a b: parallelogrāmū b g. Quia igitur c nō est maior parallelogrāmo e f, sed æqualis ei aut minor sicut positū est. si fuerit ei æqualis, erit parallelogrāmū e g quale intēditur per 36 primi coadiuuāte prima parte 9, & per diffinitionē similiū superficierū & 20 huius. Si aūt minor, sit minor in superficie aliqua, cui æqualis & similis d fiat secūdū doctrinā 25 huius quæ sit h, eritque h similis e f per 20 huius, quare per cōuersionē diffinitionis, æquiangula sibi & proportionaliū laterū. protrahā igitur in parallelogrāmo e f diametrū b k, & resecabo latera k f, & e k superficiei e f, ad mēsurā laterū superficiei h, protractis lineis l m & n o æquidistantibus lateribus superficiei e f, secantibus se in pūcto p, ut superficies k p sit æqualis & similis superficiei h eritq̃ per 23, huius pūctū p, in diametro k b: protracta itaq̃ o n usq̃ ad a d, dico parallelogrāmū a p esse quale proponitur. Deest enim sibi ad cōplementū lineæ a b parallelogrammū p b, quod per 22 & 20 huius est simile parallelogrāmo d. Sed ipsum etiā parallogrāmū a p est æquale triāgulo c. Est enim per primā huius, a n æquale n b, ergo per 43 primi, & hāc cōmunē scientiā si æqualibus æqualia addas, tota quoque fient æqualia, parallelogrāmū a p: est æquale gnomoni n b l, & quia iste gnomo est æqualis triāgulo c propter id quod patallelogrammum e f positum fuit esse maius triangulo c in parallelogrammo h, quod est æquale parallelogrammū k p, patet propositum.
+
+*[Handwritten: small marks in the right margin beside the middle of the paragraph and in the left margin further down]*
+
+## Eucli. ex Zamb. Problema 8 Propositio 28
+
+*[Margin: 28, with a small illegible italic note beneath it]*
+
+Ad data rectā lineā dato rectilineo æquale parallelogrāmū cōparare, deficiēs specie paralellogrāmo simili dato. Oportet iā datū rectilineū cui* expedit æquū cōparare, nō maius esse eo qd' à dimidia cōparatū similibus existētibus sūptis & eius quod à dimidia & cui expedit simile deficere,
+
+*[Margin, keyed to the asterisk in the text: oportet, preceded by a reference mark; a further reference mark stands beside the following line]*
+
+THEON ex Zāb. Sit quidē data recta liuea α β. datū uero rectilineū cui oportet æquū prætēdere ad α β. sitq̃ illud γ, nō maius existēs eo quod à dimidia cōparatū est similibus existētibus sūptis, cui autē expedit simile deficere, δ, oportet iā ad datā rectā lineā α β, dato rectilineo γ æquale parallelogrāmū prætēdere deficiēs specie parallelogrāmo simili existēte ipsi δ. Secetur (per 10 primi) α β bifariā in signo ε. Describaturq̃ (per 18 sexti, ab ε β, ipsi δ, simile similiterq̃ positū ε β ζ η. Cōpleaturq̃ α η, parallelogrāmū. Iā α η, aut æquū est ipsi γ, aut eo maius per determinationē. Si quidē igitur æquū est α η, ipsi γ, quod quærimus factū iam est. Cōparatū siqdē esset ad datā rectā lineā α β, dato rectilineo γ æquū parallelogrāmū α η deficiēs specie parallelogrāmo η β, simili ipsi δ. Si aūt nō est maius θ ε, q̃; γ, æquale autē θ ε, ipsi η β, maius igitur & η β, quā γ. Quo aūt maius est η β, quā γ. tali excessui (per 25 sexti) æquale, ipsi δ, simile similiterq̃ positū idē cōstituatur η λ μ ν. Sed ipsi η β, ipsum δ est simile. & η μ, igitur, ipsi η β, est simile. Esto igitur similis rationis η λ, ipsi η ε, & λ μ, ipsi η ζ. Et quoniā æquū est η β, ipsis γ η μ, maius igitur est η β, quàm η μ. Maior igitur est η ε, quàm η ρ, & η ξ, quàm λ μ, ponatur (per 11 primi) ipsi q̃dē η λ æqualis η ξ, ipsi aūt λ μ, æqualis η ο, & cōpleatur parallelogrāmū ξ η ο π. Aequū igitur est & simile η π ipsi η μ. Sed η μ, ipsi η θ. est simile, & η π igitur ipsi η β, est simile. Circū eādē dimetientē, (per 26 sexti) igitur, ea η π, ipsi η β, Sit eorū dimetiēs η π β, & describatur figura. Quoniā igitur æquū est β η, ipsis γ & η μ quorū η π ipsi η μ. est æquale reliquus igitur υ φ χ, gnomon reliquo γ est æqualis, & quoniam æquum est ο ρ, Totum igitur ο β, toti α β, est æquale. Sed ξ β. ipsi τ ε, est æquale: quoniā & latus α ε, lateri ε β, est æquale, & τ ε, igitur, ipsi ο β. est æquale. Cōmune applicetur ξ β, totum igitur τ σ toti φ χ υ, gnomoni æquū est. Sed φ χ υ gnomon ipsi γ, ostēsum est quod est æqualis, & τ σ igitur: ipsi γ æquū est. Ad datam rectā lineā igitur α β, dato rectilineo γ æquū parallelogrāmū comparatum est τ σ deficiens specie parallelogrāmo π β, simili existēti ipsi δ, quoniam π β, ipsi η π, simile est. Quod erat propositum.
+
+*[Figure: a triangle labelled γ; a rhomboid parallelogram labelled δ; a rectangle with corners labelled λ, μ above and η, ρ below; below these, a large rectangle with top corners θ and ρ, bottom corners α and β, points η and ο on the top edge, ξ and τ on the horizontal midline, ε and σ on the bottom edge, a diagonal running to β, internal verticals, the letters φ, π, χ inside, and a circular arc drawn about the intersection of the lines]*
+
+## Eucli. ex Camp. Propositio 30
+
+*[Margin: 30]*
+
+SVper datā lineā datæ superficiei trilateræ æquū parallelogrāmū cōstituere, quod addat super cōpletionē datæ lineæ superficiem æ
+
+*[Catchword: quidi]*
