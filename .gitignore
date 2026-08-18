@@ -35,3 +35,5 @@ dh_datasets_create.state.json
 
 **/imgs/_variants/
 **/.gocache/
+
+transkribus_ingest/pages/
