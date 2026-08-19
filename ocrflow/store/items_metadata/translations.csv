@@ -834,8 +834,8 @@ matics, & Philosophy.
 With a summary of the rules of
 Geometry, & the principal Ma-
 xims & rules of the Arts, of for-
-tifying & assaulting places.",summer_2025
-Paris_1624,imprint,"IN PARIS, At JULIAN JACQUIN, rue de la Harpe, at the Savage. M. DC. XXIIII. With the King's Privilege.",summer_2025
+tifying & assaulting places.",
+Paris_1624,imprint,"IN PARIS, At JULIAN JACQUIN, rue de la Harpe, at the Savage. M. DC. XXIIII. With the King's Privilege.",
 Amsterdam_1626,title,"The first six Books of EUCLID, On the principles and foundations of Geometry. To which are added some utilities, drawn from the same Books; Together with the Species in Geometric figures, such as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and elucidated, for the advancement and practice, of all eager lovers of the same liberal Art. By JAN PIETERSZOON DOV, Land Surveyor and Wine Gauger of the city of Leiden. Newly revised, and improved: Together with the added utilities, with the species in Geometric figures more broadly explained and expanded by the same Author.",summer_2025
 Amsterdam_1626,imprint,"TOT AMSTERDAM By Willem Iansz. Blaeuw on the Water, at the gilded Sundial. Anno 1626.",summer_2025
 Paris_1626a,title,"The Sixteen Books of Euclid�s Elements, with the Additions of Maurolycus and Candalla, and the Five Books on Optics.",summer_2025
@@ -1008,8 +1008,8 @@ With a Summary of the rules of
 Geometry, & the principal
 maxims & rules of the Arts, of
 fortifying & assaulting places.
-LAST EDITION.",summer_2025
-Paris_1652,imprint,"IN PARIS, M. DC. LII.",summer_2025
+LAST EDITION.",
+Paris_1652,imprint,"IN PARIS, M. DC. LII.",
 Amsterdam_1660,title,"EUCLID'S
 FIRST BOOKS,
 Of the Principles of
@@ -1468,7 +1468,8 @@ With ten plates.",
 Berlin_1824,imprint,"Berlin,  
 At the press of G. Reimer.  
 1824.",
-Lund_1855,title,"Translation and adaptation of the seventh, eighth, ninth, and tenth books of Euclid’s Elements ...",
+Lund_1855,title,"Translation and adaptation of the seventh, eighth, ninth, and tenth books of Euclid’s Elements.
+Academic Dissertation, which, with the permission of the much-renowned Philosophical Faculty at Lund, by Magister Abraham Rundbäck, Amanuensis of the Consistory and Vice-Lecturer in Mathematics at Växjö, will be publicly defended on Saturday, September 8, 1855, in Auditorium No. 1 at 10 a.m.",
 Leipzig_1883,title,"THE COMPLETE WORKS  
 OF EUCLID.  
 
@@ -3047,14 +3048,14 @@ BY CLAUDE GASPAR BACHET
 Seigneur of Méziriac.
 
 Very useful for all sorts of curious persons,
-who make use of Arithmetic.",summer_2025
+who make use of Arithmetic.",
 MorisS-1-1,imprint,"IN LYON.
 At Pierre Rigaud’s, on Merciere Street, at the corner of
 Ferrandiere Street, at the sign of Fortune.
 
 1612.
 
-With the Author’s privilege.",summer_2025
+With the Author’s privilege.",
 MorisS-2-1,title,"OF JEAN DE BEAUGRAND,
 To the King, to the Royal Household of France,
 to the Kingdom, and to the Treasury,
@@ -5837,27 +5838,6 @@ of Milan.",summer_2025
 bib-89,imprint,"Milan,
 From the Press of Ludovico Monti. 1678.
 With permission of the Superiors.",summer_2025
-bib-90,title,"THE
-UNIVERSAL PRACTICE
-OF GEOMETRY BY JAC-
-QUES CHAUUET OF CHAMPAGNE, Pro-
-fessor and Ordinary Lecturer in Mathematics, at
-the University of Paris, containing the explanation of
-his Cosmometer and of all Geometric instruments,
-with figures and demonstrations most
-useful and necessary for the understanding of them.
-
-To the high and mighty Lord Messire Anné d’Anglu-
-re, Gentleman-in-ordinary of the King’s chamber,
-Captain of one hundred light horse, Baron of Boursaut
-and Giury in Argonne, Beauvais, Nesle, Aygreuille,
-etc.",summer_2025
-bib-90,imprint,"IN PARIS,
-These copies are printed by Henry Thierry, and are sold
-on Mount Saint Hilaire, at the sign of the Cauldron.
-
-1585.
-With the King’s Privilege.",summer_2025
 bib-92,title,"THE
 PICKLOCK LADDER
 BOOK OF
@@ -13869,3 +13849,848 @@ With an extensive commentary newly added by the same translator.
 Made so clear that any person of ordinary intelligence, even without knowledge of or assistance from any other science, will be able to understand it with ease.",
 JCMXU9,title,Euclid. ,
 JCMXU9,imprint,"At the house of Thomas Richard, under the sign of the Golden Bibles, opposite the College of Reims.",
+5P4LDP,title,"ANTI-ANALYSIS
+TO THE QUESTIONS
+PRINTED IN THE ANALYSIS
+OF
+BENEDETTO MAGHETTI.
+An Algebraic Work
+BY
+SALVATORE GRISIO
+OF CAVA.",
+5P4LDP,imprint,"IN ROME;
+Printed by Francesco Cavalli. 1644.
+WITH PERMISSION OF THE SUPERIORS.",
+BE73II,title,"PLEASANT
+AND DELIGHTFUL
+PROBLEMS,
+performed by means of numbers.
+
+Collected in part from various authors, and in part newly
+invented together with their demonstrations.
+
+By CLAUDE GASPAR BACHET, Lord
+of Méziriac.
+
+Second Edition, revised, corrected, and enlarged with many
+propositions and many problems by
+the same author.
+
+Very useful for all kinds of curious persons who make use
+of arithmetic and mathematics.",
+BE73II,imprint,"AT LYON,
+
+At the shop of PIERRE RIGAUD & ASSOCIATES, on
+Mercière Street, at the corner of Ferrandière Street, at
+the sign of Fortune.
+
+1624.",
+QML2MY,title,"EXAMINATION
+OF THE BOOK OF
+MATHEMATICAL
+RECREATIONS:
+AND OF ITS PROBLEMS
+in Geometry, Mechanics, Optics, and Catoptrics.
+
+In which are also discussed and corrected several
+physical experiments proposed therein.
+
+By CLAUDE MYDORGE, Esquire, Lord of
+La Maillardière, Counselor to the King, and Treasurer
+General of France in Picardy.",
+QML2MY,imprint,"AT ROUEN,
+
+At CHARLES OSMONT'S, on the Great Street
+of the Carmes.
+
+1639.",
+N4EXXM,title,"EXAMINATION
+OF THE BOOK OF
+MATHEMATICAL
+RECREATIONS,
+AND OF ITS PROBLEMS
+in Geometry, Mechanics, Optics, and Catoptrics.
+
+In which are also discussed and corrected several
+physical experiments proposed therein.
+
+By CLAUDE MYDORGE, Esquire, Lord
+of La Maillardière, Counselor to the King, and
+Treasurer General of France
+in Picardy.",
+N4EXXM,imprint,"AT ROUEN,
+
+At JEAN BOULLEY'S, at the top of the
+Palace steps, on the side of the Prison.
+
+1643.",
+JQNLSI,title,"MATHEMATICAL
+RECREATIONS
+WITH THE EXAMINATION
+OF ITS PROBLEMS
+in Arithmetic, Geometry, Me-
+chanics, Cosmography, Opti-
+cs, Catoptrics, etc.
+
+First compiled by D. HENRION. After-
+wards by M. MYDORGE. And most recent-
+ly corrected and enlarged.
+
+Fifth and final Edition.",
+JQNLSI,imprint,"AT PARIS.
+
+At CARDIN BESONGNE'S, at the Palace,
+in the Gallery of the Prisoners, at the sign
+of the Red Roses.
+
+1661.",
+Y4WMS0,title,"THE
+NEW
+INVENTIONS
+FOR FORTIFYING STRONGHOLDS:
+Against the powerful method of assault by trenches, galleries,
+mines, cannon, and other engines of war.
+PRESENTED TO THE KING.
+BY HONORAT DE MEYNIER, A PROVENÇAL:
+THE WHOLE PRESENTED THROUGH ENGRAVED FIGURES
+in intaglio by CRISPIN DE PAS THE YOUNGER.
+
+THE REWARD OF LABOR.",
+Y4WMS0,imprint,"AT PARIS,
+
+Sold by NICOLAS ROSSET, in the Great Hall of the Palace,
+AND
+JULIEN JACQUIN, on Harpe Street, at the sign of the Savage, near the Crossbow.
+
+1626.
+
+WITH THE KING'S PRIVILEGE.",
+H3LWXD,title,"Treatise on Fortification,
+
+Or,
+
+A Brief and Thorough
+Description of the Art of Fortifying
+a Place against every violent attack of the enemy,
+whether by trenches,
+approaches, mining, artillery, or other
+instruments of war,
+and of defending and securing it.
+
+First written in the French language
+
+By
+
+HONORAT DE MEYNIER, a Provençal.
+
+Now, however, translated into our native German
+for the particular benefit of the German nation,
+and for the pleasure of those devoted to this art,
+embellished with the appropriate engraved copper plates
+and published.",
+H3LWXD,imprint,"Printed at Frankfurt am Main,
+at the printing house of Wolfgang Hoffmann,
+and published by
+Christoph Le Blon.
+
+In the year 1642.",
+VHZU5L,title,"CONTENTS.
+
+The fifteen books of the geometrical Elements
+of Euclid of Megara.
+
+The fifteen books of commentaries on the same
+by Campanus, the Transalpine Gaul.
+
+The thirteen books of commentaries on the first
+thirteen books by Theon of Alexandria,
+translated by Bartholomeo Zamberti of Venice.
+
+The two books of commentaries on the final
+two books by Hypsicles of Alexandria,
+also translated by Bartholomeo Zamberti of Venice.
+
+WHATEVER OUR LABOR HAS BEEN WORTH,
+
+all these works have been brought together
+for the considerable benefit (as we hope) of students,
+at the request of the distinguished
+Sir Francis Briçonnet.
+
+If these are received favorably and produce
+the benefit we desire, other works by the same
+author will also be published,
+God granting success,
+with the assistance of all
+who are devoted
+to the advancement
+of good learning—
+
+Frenchmen, Italians, Germans, Spaniards, and Englishmen—
+for all of whom we pray prosperity,
+together with the pure and true light
+of knowledge according to its dignity.",
+VHZU5L,imprint,"PARIS,
+at the press of Henri Estienne,
+opposite the School of Decretals.",
+FF0SVB,title,"ELEMENTS
+OF
+PHYSICAL & GEOMETRICAL
+ASTRONOMY.
+By DAVID GREGORY, M.D.
+Savilian Professor of Astronomy at Oxford,
+& Fellow of the Royal Society.",
+FF0SVB,imprint,"OXFORD,
+FROM THE SHELDONIAN THEATRE, A.D. 1702.",
+ZFDD26,title,"DAVID GREGORY,
+M.D., SAVILIAN PROFESSOR OF ASTRONOMY
+AT OXFORD, AND FELLOW OF THE ROYAL
+SOCIETY OF LONDON
+ELEMENTS
+OF PHYSICAL & GEOMETRICAL
+ASTRONOMY.
+Second Edition, revised & corrected.
+ADDED ARE
+The Editor’s Preface; Halley’s Cometography in the form of an Appen-
+dix; a brief treatise on Sciotheric Sundials at the end; &
+a twofold Index, the first of Sections & Propositions, the other an extensive
+Index of Subjects & Words.
+VOLUME I.
+INDUSTRY ALLEVIATES MISFORTUNE.",
+ZFDD26,imprint,"GENEVA,
+At MARC-MICHEL BOUSQUET & ASSOCIATES.
+1726.",
+PBGWES,title,"EUCLID’S
+ELEMENTS;
+The whole FIFTEEN BOOKS
+concisely Demonstrated:
+WITH
+ARCHIMEDES’S Theorems of
+the Sphere and Cylinder Investigated
+by the Method of Indivisibles.
+By ISAAC BARROW, D.D. late Master
+of Trinity College in Cambridge.
+To which is Annexed,
+EUCLID’S Data, and a brief
+Treatise of Regular Solids.
+The Whole revised with great Care,
+and some Hundreds of Errors of the
+former Impression corrected.
+By THOMAS HASELDEN, Teacher
+of Mathematics.
+The mathematical sciences are purifications of the rational soul.",
+PBGWES,imprint,"LONDON, Printed for Daniel Midwinter and Aaron
+Ward in Little Britain; Arthur Bettesworth and Charles
+Hitch in Paternoster Row; and Thomas Page and William
+Mount on Tower Hill. 1732.",
+OCCJ2Y,title,"EUCLID’S
+ELEMENTS;
+The whole Fifteen BOOKS
+Concisely Demonstrated.
+WITH
+ARCHIMEDES’ Theorems
+Of the Sphere and Cylinder, investi-
+gated by the Method of Indivisibles.
+By ISAAC BARROW, D.D. Late Master
+of Trinity College in Cambridge.
+To which is added in this Edition,
+EUCLID’S DATA
+with Marinus’s Preface.
+And a Brief TREATISE of
+REGULAR SOLIDS.
+The mathematical sciences are purifications of the rational soul.",
+OCCJ2Y,imprint,"LONDON: Printed and Sold by W. Redmayne
+in Jewen Street, R. Mount on Tower Hill, and J. and
+B. Sprint in Little Britain. 1714.",
+HNLOOZ,title,"DIOPHANTUS
+OF ALEXANDRIA
+Six Books
+of Arithmetic,
+the first two of which have appended SCHOLIA
+by MAXIMUS PLANUDES
+(as is conjectured).
+Also, A BOOK ON POLYGONAL
+or Multangular Numbers.
+An incomparable work, containing the perfection
+of true logistic arithmetic, hitherto seen by few.
+Rendered into Latin by WILHELM XYLANDER of Augsburg
+with incredible labor, explained with COMMENTARIES,
+and published,
+FOR
+the Most Illustrious Prince LUDWIG of Württemberg.",
+HNLOOZ,imprint,"BASEL
+BY EUSEBIUS EPISCOPIUS
+& the heirs of NICOLAUS FRATER.
+1575.",
+BQ2MXR,imprint,"BOLOGNA, Printed by Giovanni Battista Ferroni, with permission of the Superiors,
+in the year 1648.",
+BQ2MXR,title,"TREASURY
+OF MATHEMATICAL
+PHILOSOPHY.
+IN WHICH
+THE ELEMENTS
+of Geometrical Philosophy concerning Plane, Curved,
+& Solid Figures
+ARE APPLIED AND EMBELLISHED—
+with remarkable uses in every branch of the Sciences & Arts, new
+practices, paradoxes, Aristotelian passages, and those of other philoso-
+phers & writers, corollaries, scholia, learned observations,
+moral applications, and new demonstrations,
+confirmed by the easiest & most universal methods,
+BY A METHOD
+more pleasing and concise, distributed into THREE VOLUMES.
+THERE ARE INTERSPERSED
+Ingeniously invented HOROLOGICAL DIGRESSIONS.
+VOLUME ONE
+With SIXTEEN INDEXES.
+BY
+MARIO BETTINI OF BOLOGNA, OF THE SOCIETY OF JESUS,
+formerly public Lecturer in Mathematical Philosophy
+and Moral Philosophy at the Academy of Parma.",
+7OTV9N,title,"On the Natural and True Ovoid Body and Its Section and Formation, in which are discovered remarkable geometrical proportions most useful for human purposes, hitherto unknown from it, especially two mean proportional lines between two given lines, to which...",
+7OTV9N,imprint,"Vicenza, at the press of Francesco Grosso, 1627.",
+UAKPHZ,imprint,"In VICENZA, By the Heirs of Francesco Grossi. 1631.
+With permission of the Superiors.",
+UAKPHZ,title,"ON ASTRONOMICAL
+AND GEOMETRICAL
+HARMONY
+By Theofilo Bruni of Verona.
+SECOND PART.
+In which are contained all the geometrical operations useful
+and necessary for human purposes; some collected from the ancient and
+modern Latin writers and simplified, and many newly discovered, especially concerning the body and
+shape of the egg, four proportionals, and the quadrature of the circle, as
+will all be set forth summarily on the following page.
+A most subtle and useful doctrine for architects, practical geometers,
+military experts, and craftsmen who serve them,
+and for every inquisitive mind.
+DEDICATED TO THE MOST ILLUSTRIOUS LORD
+GIOVANNI GIUSTINIANO.
+I produce proportions of every kind &
+[in obscure Latin motto concerning bodies,
+the equal square, and the circle].
+IT REVEALS THE SECRETS OF GEOMETRY.",
+U4Q1HT,title,"ISMAËL BULLIALDUS’
+NEW
+DEMONSTRATIONS
+ON
+SPIRAL LINES.",
+U4Q1HT,imprint,"PARIS,
+At the press of SÉBASTIEN CRAMOISY, Printer-in-Ordinary
+to the King and Queen:
+And GABRIEL CRAMOISY, on Rue Saint-Jacques,
+at the Sign of the Storks.
+1657.
+WITH THE KING’S PRIVILEGE.",
+Z4OFGV,title,"JOANNES CARAMUEL’S
+TWO-FOLD
+MATHEMATICS,
+OLD AND NEW.
+I. Arithmetic.
+II. Algebra.
+III. General Geometry.
+IV. Cosmography.
+V. Geodesy.
+VI. Geography.
+VII. Centroscopy.
+VIII. Orometry.
+IX. Hydrography.
+X. Histiodromics.
+XI. Hypothalatics.
+XII. Nautical Swimming.
+XIII. Sub-Lunar Navigation.
+XIV. Celestial Navigation.
+XV. Potamography.
+XVI. Hydraulics.
+XVII. Aerography.
+XVIII. Anemometry.
+XIX. Flight.
+XX. Sciography.
+XXI. Direct Logarithmics.
+XXII. Inverse Logarithmics.
+XXIII. Combinatorics.
+XXIV. Dice Games.
+XXV. Arithmomancy.
+XXVI. General Trigonometry.
+XXVII. Recursive Trigonometry.
+XXVIII. Astronomical Trigonometry.
+XXIX. Rectangular Aether.
+XXX. Albert’s Compass.
+XXXI. Military Architecture.
+XXXII. Music.
+XXXIII. Metallurgy.
+XXXIV. Pedasics.
+XXXV. Statics.
+XXXVI. Hydrostatics.
+XXXVII. Meteorology.
+XXXVIII. Spherics.
+XXXIX. Oscillatory Theory.
+XL. Rectilinear [theory],
+of Plane Hypotheses.
+IN EACH AND EVERY PART
+the opinions of both earlier and more recent authors are examined, sometimes corrected, and always elucidated;
+and nearly all mathematical subjects are reduced, both speculatively and practically, to the easiest
+and most expedient rules.
+OTHER VOLUMES WILL FOLLOW, NAMELY:
+...",
+Z4OFGV,imprint,"CAMPAGNA,
+At the Episcopal Press, in the year 1670. WITH PERMISSION OF THE SUPERIORS.
+Available at Lyon from Laurent Anisson.",
+1TMJ9M,title,"THE
+BURNING
+MIRROR
+OR
+A TREATISE
+On Conic Sections,
+AND SOME OF THEIR MARVELOUS EFFECTS
+Concerning Light, Heat, Cold, Sound,
+and also Motion.
+DEDICATED
+TO THE MOST ILLUSTRIOUS
+LORD SENATORS
+OF BOLOGNA
+By Friar Bonaventura Cavalieri of Milan, a Jesuate
+of St. Jerome,
+AUTHOR
+and First Professor of Mathematics at the renowned University of that same City.",
+1TMJ9M,imprint,"In Bologna, at the press of Clemente Ferroni, 1632.
+With permission of the Superiors.",
+T1IUV4,title,"GEOMETRY
+OF CONTINUOUS QUANTITIES
+BY INDIVISIBLES,
+Advanced by a certain new method:
+BY
+FRIAR BONAVENTURA CAVALIERI OF MILAN,
+of the Order of the Jesuates of St. Jerome, Prior of S. Maria Mascarella,
+and First Professor of Mathematics at the University of Bologna:
+TO THE MOST ILLUSTRIOUS AND MOST REVEREND LORD
+GIOVANNI CIAMPOLI.",
+T1IUV4,imprint,"BOLOGNA, Printed by Clemente Ferroni. 1635. With permission of the Superiors.",
+TJT4PQ,title,"PAPPUS
+OF ALEXANDRIA
+MATHEMATICAL
+COLLECTIONS
+BY FEDERICO
+COMMANDINO
+OF URBINO
+Translated into Latin and illustrated with commentaries.
+In this edition, carefully freed from the innumerable errors with which they
+abounded, especially in the Greek text.
+DEDICATED TO THE MOST SERENE PRINCE
+LEOPOLD WILHELM
+ARCHDUKE OF AUSTRIA, etc.",
+TJT4PQ,imprint,"BOLOGNA, From the Printing House of the Heirs of the Ducci. 1660.
+WITH PERMISSION OF THE SUPERIORS.",
+UE1Q48,title,"FRANÇOIS D’AGUILON
+OF THE SOCIETY OF JESUS
+SIX BOOKS
+OF OPTICS
+Useful to Philosophers as well as Mathematicians.",
+UE1Q48,imprint,"ANTWERP,
+FROM THE PLANTIN PRESS,
+At the establishment of the Widow and Sons of Jan Moretus.
+1613.",
+9Z80LR,title,"PHILOSOPHICAL
+THESES
+BY THE REVEREND FATHER
+GUARINO GUARINI
+OF MODENA,
+A CLERK REGULAR,
+commonly called a Theatine,
+PROFESSOR OF SACRED THEOLOGY,
+demonstrated by physical reasoning, experiments, and mathematical
+figures; which, while readily serving sacred Theology, nevertheless do not
+obstinately depart from the principles of the other sciences; and at the same time
+successfully survey the theses of philosophy as a whole.
+WITH TWO INDEXES,
+one of the disputations, the other of subjects.",
+9Z80LR,imprint,"PARIS,
+At the establishment of DENIS THIERRY, on Rue Saint-Jacques, at the sign of the City
+of Paris.
+1665.
+With the King’s Privilege and permission of the Superiors.",
+7O3N9S,title,"COMPENDIUM
+OF THE
+CELESTIAL SPHERE
+BY
+D. GUARINO GUARINI,
+CLERK REGULAR.
+In which, with appropriate figures, are explained
+all the various circuits traced by the Sun through
+its movements, and by the other stars.",
+7O3N9S,imprint,"TURIN, 1675.
+At the establishment of Giorgio Colonna.
+With permission of the Superiors.",
+VMU1SP,imprint,"TURIN, 1676.
+At the establishment of the Heirs of Carlo Gianelli.
+With permission of the Superiors.",
+VMU1SP,title,"TREATISE
+ON
+FORTIFICATION,
+As it is now practiced in Flanders, France, and Italy:
+Composed in Honor
+OF THE MOST SERENE PRINCE
+LODOVICO GIULIO,
+Knight of Savoy,
+BY
+D. GUARINO GUARINI,
+CLERK REGULAR.",
+5D6Q86,title,"LAWS OF TIMES AND PLANETS,
+by which the passage of civil and astronomical time,
+the motion of the Primum Mobile, and the courses of the wandering stars
+are regulated and arranged in tables
+for the longitude of Turin, 30° 46′,
+and latitude 44° 49′.
+According to the observations, both recent and ancient,
+of the more celebrated observers of the heavens.
+By D. GUARINO GUARINI OF MODENA ...",
+5D6Q86,imprint,"TURIN,
+From the Printing House of the Heirs of Carlo Gianelli,
+1678.",
+O0QQHE,title,"CELESTIAL
+MATHEMATICS
+SECOND PART,
+CONTAINING THE GEOMETRICAL
+LAWS OF SHADOWS,
+In which the whole science of gnomonics is clearly
+and lucidly presented from its foundations, upon which its geometry is based,
+and by suitable figures it is shown to the eye how all the celestial arcs
+represented on sundials project upon
+the planes of dials.
+BY
+D. GUARINO GUARINI
+OF MODENA, CLERK REGULAR,
+Philosopher, Theologian, and Mathematician to His Royal Highness
+the Duke of Savoy.",
+O0QQHE,imprint,"MILAN,
+From the Printing House of Lodovico Monza. 1683.
+WITH PERMISSION OF THE SUPERIORS AND PRIVILEGE.",
+DJXIJY,title,"DESIGNS
+OF CIVIL
+AND ECCLESIASTICAL ARCHITECTURE
+Invented and drawn
+BY FATHER
+D. GUARINO GUARINI
+OF MODENA,
+of the Theatine Clerks Regular,
+MATHEMATICIAN
+TO HIS ROYAL HIGHNESS
+OF SAVOY.",
+DJXIJY,imprint,"TURIN, 1686.
+By Domenico Paulino. With permission of the Superiors.",
+0YZ0JT,title,"PAUL GULDIN
+OF ST. GALL,
+OF THE SOCIETY OF JESUS,
+ON THE
+CENTER
+OF GRAVITY
+of the three kinds of continuous quantity.
+BOOK ONE,
+ON
+THE DETERMINATION OF
+CENTERS OF GRAVITY.
+BY WAY OF AN APPENDIX
+are added Tables of
+SQUARE AND CUBE NUMBERS,
+together with their
+CONSTRUCTION AND USE.",
+0YZ0JT,imprint,"VIENNA, AUSTRIA,
+Printed by Gregor Gelbhaar, Imperial Printer.
+1635.",
+KZ6QPQ,title,"CYCLOMATHIA,
+OR
+A MULTIFOLD STUDY OF THE CIRCLE,
+COMPRISED IN THREE BOOKS.
+In
+I. The investigation of the quadrature [of the circle] is confirmed and advanced.
+II. The nature of the angle of contact is explained.
+III. The remarkable properties of the quadratrix are presented.
+By VINCENT LÉOTAUD of Dauphiné, of the Society of Jesus.",
+KZ6QPQ,imprint,"LYON:
+At the expense of Benoît Coral, in the Merchants’ Quarter,
+at the sign of Victory.
+1663.
+WITH PERMISSION OF THE SUPERIORS.",
+JMNU5D,imprint,"ANTWERP, At the establishment of Jan and Jacob Meursius. 1647.
+With the privilege of the Emperor and the King of Spain.",
+JMNU5D,title,"THE AUSTRIAN PROBLEM
+FURTHER BEYOND
+THE QUADRATURE
+OF THE CIRCLE
+By
+FATHER GREGORY OF
+ST. VINCENT
+of the Society of Jesus.",
+THOI3O,title,"CURIOUS
+PHYSICS
+To the Most Serene and Most Powerful Prince
+CHARLES LOUIS,
+Count Palatine of the Rhine, Arch-Treasurer of the Holy Roman Empire,
+Prince-Elector,
+Duke of Bavaria.
+BY
+FATHER GASPAR SCHOTT
+of the Society of Jesus.
+1662.",
+OPM29E,title,"ON THE CENTER
+OF GRAVITY
+OF SOLIDS
+Three Books.
+BY LUCA VALERIO,
+Most celebrated Professor of Mathematics and Civil Philosophy
+at the Roman College.
+In this edition, while adhering precisely to the author’s intention,
+much more accurately corrected.",
+OPM29E,imprint,"BOLOGNA,
+From the Printing House of the Heirs of the Ducci. 1661.
+With permission of the Superiors.",
+UZ3Q10,title,"ON MAXIMA
+AND
+MINIMA:
+A GEOMETRICAL RECONSTRUCTION
+OF THE HITHERTO LOST
+FIFTH BOOK OF THE CONICS
+OF APOLLONIUS OF PERGA.
+TO THE MOST SERENE
+FERDINAND II,
+GRAND DUKE OF TUSCANY.
+BOOK ONE.
+BY
+VINCENZO VIVIANI.",
+UZ3Q10,imprint,"FLORENCE, 1647.
+At the establishment of Giuseppe Cocchini, at the New Press, under the Sign of the Star.
+WITH PERMISSION OF THE SUPERIORS.",
+C77QQO,title,"The First Six, Eleventh, and Twelfth
+BOOKS
+OF EUCLID,
+Presenting the principal foundations and properties of the widely renowned and excellent
+ART OF GEOMETRY,
+To which is added
+A SUPPLEMENT, for inscribing squares in
+triangles, and an octagon in a
+square.
+TOGETHER WITH
+AN APPENDIX, containing the trans-
+formations, additions, subtractions, multi-
+plications, and divisions of figures.
+All demonstrated in a concise and mathematical manner,
+BY
+PIETER WARIUS,
+during his lifetime Mathematician, Notary, and School-
+master at Oostwoud.
+THE SECOND EDITION.
+Corrected and purged of the printing errors of the previous edition.",
+C77QQO,imprint,"AMSTERDAM,
+By JOANNES LOOTS, bookseller and seller of sea charts
+and maker of graduated instruments, in the Nieuwe Brug-
+steeg, at the sign of the Young Pilot. 1717.",
+ZZLQPY,title,"The First Six, Eleventh, and Twelfth Books of Euclid: presenting the principal foundations and properties of the widely renowned and excellent art of geometry, to which is added a supplement for inscribing squares in triangles and an octagon in a square; together with an appendix containing transformations, additions, ... published by Pieter Warius.",
+7K77S6,title,"The First Six, Eleventh, and Twelfth
+BOOKS
+OF EUCLID,
+Presenting the principal foundations and properties of the widely renowned and excellent
+ART OF GEOMETRY,
+To which is added
+A SUPPLEMENT, for inscribing squares in
+triangles, and an octagon in a
+square.
+TOGETHER WITH
+AN APPENDIX, containing the trans-
+formations, additions, subtractions, multi-
+plications, and divisions of figures.
+All demonstrated in a concise and mathematical manner,
+BY
+PIETER WARIUS,
+during his lifetime Mathematician, Notary, and School-
+master at Oostwoud.
+THE THIRD EDITION.
+Corrected and purged of the printing errors of the previous edition.",
+7K77S6,imprint,"AMSTERDAM,
+By the Widow of J. Loots and J. Swigters,
+booksellers and sellers of sea charts and makers of graduated instruments,
+in the Nieuwe Brugsteeg, at the sign of the Young Pilot.
+1735.",
+LC4IXG,title,"The sixth, eleventh and twelfth
+BOOKS
+OF EUCLID,
+Presenting the principal Foundations and Properties of the widely renowned and excellent
+ART OF GEOMETRY,
+To which is added
+A SUPPLEMENT, for inscribing Squares in
+Triangles; and an Octagon in a
+Square.
+TOGETHER WITH
+An APPENDIX, containing Trans-
+formations, Addition, Subtraction, Multi-
+plication and Division in Figures.
+All demonstrated in a concise and Mathematical manner,
+BY
+PIETER WARIUS,
+In his lifetime Mathematician, Notary and School-
+master at Oostwoud.
+THE THIRD EDITION.
+Corrected and cleansed of errors from previous editions.",
+LC4IXG,imprint,"At AMSTERDAM,
+By Johannes van Keulen, Bookseller and Sea-Chart
+seller and protractor-maker, on the east side
+of the Nieuwbrug, at the Crowned Pilot.
+Anno 1751.
+With Privilege of the Noble and Mighty Lords
+States of Holland and West Friesland.",
+DAYIBZ,title,"These first, eleventh and twelfth
+BOOKS
+OF EUCLID,
+Presenting the principal Foundations and Properties of the widely renowned and excellent
+ART OF GEOMETRY,
+To which is added
+A SUPPLEMENT, for inscribing Squares in
+Triangles, and an Octagon in a
+Square.
+TOGETHER WITH
+An APPENDIX, containing Trans-
+formations, Additions, Subtractions, Multi-
+plications and Divisions in Figures.
+All demonstrated in a concise and Mathematical manner,
+BY
+PIETER WARIUS,
+In his lifetime Mathematician, Notary and School-
+master at Oostwoud.
+THE FOURTH EDITION.
+Corrected and cleansed of errors from previous editions.",
+DAYIBZ,imprint,"AT AMSTERDAM,
+By JOHANNES VAN KEULEN AND SONS,
+Booksellers, sea-chart sellers and protractor-makers
+at the corner of the Nieuwe Brugsteeg, at the
+Crowned Pilot, 1763.",
+YKGJWH,title,"EUCLID’S
+ELEMENTS
+of
+GEOMETRY,
+Contained in 15 Books,
+To which is added the 16th Book by Fr. Flussatus Candalla.
+Comprising the Principles upon which the whole
+of Mathematics rests,
+And therefore rightly called
+ELEMENTS OF MATHEMATICS.
+First set forth in our Dutch language with all care, concise-
+ness and clarity.
+BY
+CLAAS JANSZ. VOOGHT, Geometer,
+Sworn Land Surveyor and Teacher of Mathematics, including Navi-
+gation etc. at Amsterdam, Second Edition.
+As the mathematical sciences are to the rational soul. Hierocles.",
+YKGJWH,imprint,"AT AMSTERDAM,
+By GERARD van KEULEN, Bookseller and Sea-Chart seller, by the Nieuwe-
+Brugh, at the corner of Nieuwebrugh-steeg, at the Crowned
+Pilot. Anno 1717.
+With Privilege for 15 Years.",
+YKGJWH,frontispiece,"Euclid’s
+Elements
+of
+GEOMETRY
+To which is added the 16th Book
+of F. Flussatus Candalla
+by
+C. J. Voogt, Geometer
+
+AT AMSTERDAM
+By Gerard Van Keulen, Bookseller
+By the Nieuwe Brug, at the Crowned
+Pilot, with
+Privilege",
+8GP0HN,title,"THE ELEMENTS
+OF
+GEOMETRY OR THE ART OF MEASUREMENT;
+Treating the principal Propo-
+sitions of the Elements
+OF
+EUCLID,
+DEMONSTRATED ALGEBRAICALLY,
+And arranged in a neat order and suitable
+sequence
+BY
+LAMBERTUS FOCKENS,
+Examined Engineer and Land Surveyor.
+FIRST PART
+Never before printed in this manner.",
+8GP0HN,imprint,"AT GRONINGEN,
+For the Author, residing by the Noorder
+Church, from whom copies may be
+obtained, 1737.",
+V5VWUQ,title,"FUNDAMENTAL PRINCIPLES
+OF
+GEOMETRY,
+BRIEFLY CONTAINING
+THE FIRST SIX BOOKS
+TOGETHER WITH THE
+ELEVENTH AND TWELFTH
+OF
+EUCLID;
+Together with their application in constructing plane Fi-
+gures: in finding Magnitudes and Areas,
+and Bodies, the Tables of Sines
+and Plane Triangles, etc.
+Recently set forth anew for beginning youth, indi-
+cating the easiest course by which the Academic
+exercises may be made understandable,
+BY
+PYBO STEENSTRA,
+Doctor of Philosophy, Lecturer in Mathematics, Navigation, and Astronomy
+at the Athenaeum in Amsterdam.",
+V5VWUQ,imprint,"AT LEIDEN,
+By SAMUEL and JOHANNES LUCHTMANS,
+1767.",
+JBU149,title,"FUNDAMENTAL PRINCIPLES
+OF
+GEOMETRY,
+OR
+A SHORT COMPENDIUM
+OF THE
+FIRST SIX BOOKS
+TOGETHER WITH THE
+ELEVENTH AND TWELFTH
+OF
+EUCLID.
+AND THEIR USE IN LAND SURVEYING, IN
+FINDING SQUARE AND CUBE
+ROOTS, IN CALCULATING TABLES OF
+SINES, PLANE TRIANGLES, AND
+TABLES OF LOGARITHMS.
+ALL SET FORTH IN A VERY EASY MANNER, FOR
+THE USE OF BEGINNERS,
+BY
+PIBO STEENSTRA,
+MASTER OF ARTS, DOCTOR OF PHILOSOPHY AND LECTURER IN MATHEMAT-
+ICS, NAVIGATION AND ASTRONOMY, AT THE
+ATHENAEUM ILLUSTRE OF THE CITY OF AMSTERDAM.
+
+FIFTH EDITION.",
+JBU149,imprint,"AT LEIDEN,
+By SAMUEL AND JOHANNES LUCHTMANS,
+1797.",
+2ZBLJD,title,"FUNDAMENTAL PRINCIPLES
+OF
+GEOMETRY,
+CONTAINING
+THE FIRST SIX,
+THE
+ELEVENTH AND TWELFTH
+BOOKS
+OF
+EUCLID,
+ALL PRESENTED IN A CONCISE AND CLEAR
+MANNER, DEMON-
+STRATED, AND ENRICHED WITH MANY
+OBSERVATIONS,
+BY
+S. J. DE PUYT,
+EXAMINER OF LAND SURVEYORS FOR
+THE COURT OF HOLLAND, ZEELAND AND
+FRIESLAND, AS ALSO FOR CERTAIN
+PARTS OF BRABANT, AND THE LANDS OF
+OVERMAAS, AND ALSO AN AD-
+MITTED LAND SURVEYOR.",
+2ZBLJD,imprint,"AT LEIDEN,
+By MURRAY AND PLUYGERS,
+1784.",
+Lund_1855,imprint,"Lund, printed at the Berlingska Book Printing Office, 1855.",
