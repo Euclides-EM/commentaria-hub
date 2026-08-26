@@ -22,8 +22,8 @@ extended, and published by Vincenzio Viviani, his last Disciple.",summer_2025
 Florence_1690,imprint,"Vol. 1: IN FLORENCE, By Cesare, and Francesco Bindi. 1690.
 For Carlieri at the Sign of St. Louis. With License of the Superiors.
 Vol. 2: IN FLORENCE, By Cesare, and Francesco Bindi 1690. And sold at the Sign of St. Louis With license of the Super.",summer_2025
-Bologna_1686,title,OF THE ELEMENTS OF EUCLID The First Six Books Translated into Italian TO THE MOST ILLUSTRIOUS SENATE OF BOLOGNA.,summer_2025
-Bologna_1686,imprint,"In Bologna, for Gioseffo Longhi. 1686. With permission of the Superiors.",summer_2025
+Bologna_1686,title,OF THE ELEMENTS OF EUCLID The First Six Books Translated into Italian TO THE MOST ILLUSTRIOUS SENATE OF BOLOGNA.,
+Bologna_1686,imprint,"In Bologna, for Gioseffo Longhi. 1686. With permission of the Superiors.",
 Brussels_1688,title,"THE FIRST SIX BOOKS, ELEVEN, AND TWELVE OF THE ELEMENTS OF EUCLID OF MEGARA: Augmented with
 many curious Propositions that facilitate its use. DIRECTED To the Most Excellent Lord MARQUIS OF BEDMAR, Captain General of the Artillery of the Army of the Low Countries. By Captain DON SEBASTIAN FERNANDEZ DE MEDRANO, Master of
 Mathematics by His Majesty in said Army.",summer_2025
@@ -130,8 +130,8 @@ of Mathematics.
 By P. CLAUDE FRANÇOIS
 MILLET DECHALLES,
 of the Society of JESUS.
-NEW EDITION.",summer_2025
-Paris_1683,imprint,"IN PARIS, At ESTIENNE MICHALLET, St. Jacques street at the Image St. Paul, near the Saint Severin Fountain. M. DC. LXXXIII. WITH PRIVILEGE OF THE KING.",summer_2025
+NEW EDITION.",
+Paris_1683,imprint,"IN PARIS, At ESTIENNE MICHALLET, St. Jacques street at the Image St. Paul, near the Saint Severin Fountain. M. DC. LXXXIII. WITH PRIVILEGE OF THE KING.",
 Paris_1690,title,"THE
 ELEMENTS
 OF EUCLID,
@@ -751,8 +751,8 @@ French Nobility.",summer_2025
 Geneva_1611,imprint,From the Printing House OF JEAN DE TOURNES. 1611.,summer_2025
 Beijing_1611,title,Elements of Geometry,summer_2025
 Cologne_1612,title,"THE FIFTEEN BOOKS OF EUCLID'S ELEMENTS. BY WHICH, BOTH TO EVERY PART OF MATHEMATICAL SCIENCE, AND TO
-ANY Treatment of Geometry, an easy approach is provided.",summer_2025
-Cologne_1612,imprint,COLOGNE At Goswin Cholin M. D. CXII. With Grace & Privilege.,summer_2025
+ANY Treatment of Geometry, an easy approach is provided.",
+Cologne_1612,imprint,COLOGNE At Goswin Cholin M. D. CXII. With Grace & Privilege.,
 Paris_1612,title,"EUCLID’S
 TENTH
 ELEMENT,
@@ -836,8 +836,8 @@ Geometry, & the principal Ma-
 xims & rules of the Arts, of for-
 tifying & assaulting places.",
 Paris_1624,imprint,"IN PARIS, At JULIAN JACQUIN, rue de la Harpe, at the Savage. M. DC. XXIIII. With the King's Privilege.",
-Amsterdam_1626,title,"The first six Books of EUCLID, On the principles and foundations of Geometry. To which are added some utilities, drawn from the same Books; Together with the Species in Geometric figures, such as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and elucidated, for the advancement and practice, of all eager lovers of the same liberal Art. By JAN PIETERSZOON DOV, Land Surveyor and Wine Gauger of the city of Leiden. Newly revised, and improved: Together with the added utilities, with the species in Geometric figures more broadly explained and expanded by the same Author.",summer_2025
-Amsterdam_1626,imprint,"TOT AMSTERDAM By Willem Iansz. Blaeuw on the Water, at the gilded Sundial. Anno 1626.",summer_2025
+Amsterdam_1626,title,"The first six Books of EUCLID, On the principles and foundations of Geometry. To which are added some utilities, drawn from the same Books; Together with the Species in Geometric figures, such as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and elucidated, for the advancement and practice, of all eager lovers of the same liberal Art. By JAN PIETERSZOON DOV, Land Surveyor and Wine Gauger of the city of Leiden. Newly revised, and improved: Together with the added utilities, with the species in Geometric figures more broadly explained and expanded by the same Author.",
+Amsterdam_1626,imprint,"TOT AMSTERDAM By Willem Iansz. Blaeuw on the Water, at the gilded Sundial. Anno 1626.",
 Paris_1626a,title,"The Sixteen Books of Euclid�s Elements, with the Additions of Maurolycus and Candalla, and the Five Books on Optics.",summer_2025
 Ferrara_1628,title,"EUCLID'S ELEMENTS
 Books VI
@@ -1178,8 +1178,8 @@ Mathematics.
 NEW EDITION REVIEWED AND CORRECTED.",summer_2025
 Paris_1697,imprint,"[Vol. 1] IN PARIS, At JEAN JOMBERT's, near the Augustins.
 M. DC. XCVII. WITH THE KING'S PRIVILEGE.",summer_2025
-Lübeck_and_Frankfurt_1699,title,"Teutsch-Redender Euclides, Or Eight Books On The Beginnings Of The Art Of Measurement, In a new and entirely easy manner, For the benefit of all Generals, Engineers, Natural and Truth Seekers, Architects, Artists and Craftsmen Arranged and proven in the German language, By A. E. B. V. P.",summer_2025
-Lübeck_and_Frankfurt_1699,imprint,"Lübeck and Franckfurt, In publication Johann Wiedemeyers, Anno 1699.",summer_2025
+Lübeck_and_Frankfurt_1699,title,"Teutsch-Redender Euclides, Or Eight Books On The Beginnings Of The Art Of Measurement, In a new and entirely easy manner, For the benefit of all Generals, Engineers, Natural and Truth Seekers, Architects, Artists and Craftsmen Arranged and proven in the German language, By A. E. B. V. P.",
+Lübeck_and_Frankfurt_1699,imprint,"Lübeck and Franckfurt, In publication Johann Wiedemeyers, Anno 1699.",
 Naples_1701,title,"ELEMENTS
 OF EUCLID,
 Demonstrated in a new method, & concisely formerly
@@ -2960,8 +2960,8 @@ by Jacques Lefèvre,
 and the Geometry of
 Euclid of Megara.",summer_2025
 Paris_1507,title,Text of the Sphere by Johannes de Sacrobosco With an addition (as much as necessary) appended: A newly published commentary For the benefit of students of Philosophy at the University of Paris. Illustrated with the Composition of the Astronomical Ring of Bonetus Latensis. And the Geometry of Euclid of Megara.,summer_2025
-Paris_1511,title,Text of the Sphere by Johannes de Sacrobosco With an addition (as much as necessary) appended: A new commentary recently published For the benefit of students of Philosophy at the University of Paris. Illustrated with the Composition of the Astronomical Ring by Bonis of Lates. And the Geometry of Euclid of Megara.,summer_2025
-Paris_1516a,title,The Sphere of John of Sacrobosco. With an addition (as much as necessary) appended: A newly published commentary. Illustrated for the benefit of students of Philosophy at the University of Paris. With the Composition of the Astronomical Ring of Bonetus Latensis. And the Geometry of Euclid of Megara.,summer_2025
+Paris_1511,title,Text of the Sphere by Johannes de Sacrobosco With an addition (as much as necessary) appended: A new commentary recently published For the benefit of students of Philosophy at the University of Paris. Illustrated with the Composition of the Astronomical Ring by Bonis of Lates. And the Geometry of Euclid of Megara.,
+Paris_1516a,title,The Sphere of John of Sacrobosco. With an addition (as much as necessary) appended: A newly published commentary. Illustrated for the benefit of students of Philosophy at the University of Paris. With the Composition of the Astronomical Ring of Bonetus Latensis. And the Geometry of Euclid of Megara.,
 Paris_1521,title,"TEXT OF THE SPHERE BY JOHN OF SACROBOSCO:
 ILLUSTRATED WITH AN INTRODUCTORY ADDITION (as much as necessary) and commentary, for the benefit of students of philosophy at the Parisian Academy. With the composition of the Astronomical Ring by Bonetus Latensis: And the Geometry of Euclid of Megara.",summer_2025
 Paris_1521,imprint,"PARIS. Published by Simon de Colines, opposite the School of Decrees. 1521",summer_2025
@@ -7749,12 +7749,12 @@ AND IN THE FIELD.
 
 WHEREBY, THROUGH A NEW AND UNIQUE METHOD,
 one may easily and in a short time
-perfect oneself in this science.",summer_2025
+perfect oneself in this science.",
 bib-214,imprint,"At Paris,
 And sold
 At Amsterdam,
 By Pierre Mortier, bookseller on
-the Vygedam, at the sign of La Ville de Paris, 1691.",summer_2025
+the Vygedam, at the sign of La Ville de Paris, 1691.",
 bib-217,title,"Contents of this work:
 Arithmetic demonstrated in ten books;
 Music demonstrated in four books;
@@ -7829,14 +7829,14 @@ questions that have not yet appeared.
 Together with The Fortune of Men.
 
 Invented by M. Commiers, and newly
-brought to light by L. D. T.",summer_2025
+brought to light by L. D. T.",
 bib-227,imprint,"In Paris,
 And sold
 In Brussels,
 By George de Backer, bookseller and printer,
 at the sign of the Three Moors, at the entrance of Berg Street.
-1700.",summer_2025
-bib-227,frontispiece,THE ORACLES OF THE SIBYLS,summer_2025
+1700.",
+bib-227,frontispiece,THE ORACLES OF THE SIBYLS,
 bib-228,title,"CURIOUS PRACTICE,
 OR
 THE ORACLES OF THE SIBYLS,
