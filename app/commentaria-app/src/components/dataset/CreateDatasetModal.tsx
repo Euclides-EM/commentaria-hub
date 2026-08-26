@@ -8,6 +8,7 @@ import { wrappedOptionSelectStyles } from '../../styles/selectStyles.ts'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { useAppState } from '../../context/useAppState'
 import { useAllEditionsQuery } from '../../queries/editions.ts'
+import { formatCopyright } from '../../utils/copyright.ts'
 
 const DEFAULT_DPI = 300
 
@@ -20,9 +21,6 @@ type FacsimileOption = {
   volume?: number
   copyright?: string
 }
-
-const copyrightLabel = (copyright?: string) =>
-  copyright?.trim().toLowerCase() || 'unknown copyright'
 
 interface CreateDatasetModalProps {
   isOpen: boolean
@@ -147,7 +145,7 @@ export function CreateDatasetModal({
         const facsimile = showNumber ? ` · facsimile ${number}` : ''
         return {
           ...option,
-          label: `${option.editionId}${volume}${facsimile} · ${copyrightLabel(
+          label: `${option.editionId}${volume}${facsimile} · ${formatCopyright(
             option.copyright,
           )}`,
         }

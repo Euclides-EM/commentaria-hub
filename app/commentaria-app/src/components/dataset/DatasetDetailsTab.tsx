@@ -1,4 +1,5 @@
-import type { model_Dataset } from '@hub-api'
+import { FacsimilesService, type model_Dataset } from '@hub-api'
+import { useQuery } from '@tanstack/react-query'
 import { AnnotationActions } from '../annotation/AnnotationActions.tsx'
 import { Button } from '../core/Button.tsx'
 import { EditionDetailsTable } from '../core/EditionDetailsTable.tsx'
@@ -6,6 +7,8 @@ import { ErrorMessage } from '../core/ErrorMessage.tsx'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Timestamp } from '../core/Timestamp.tsx'
 import { formatBoolean } from '../../utils/formatBoolean.tsx'
+import { useEditionQuery } from '../../queries/editions.ts'
+import { getFacsimileCopyright } from '../../utils/copyright.ts'
 
 interface DatasetDetailsTabProps {
   dataset: model_Dataset
@@ -64,6 +67,15 @@ export function DatasetDetailsTab({
   onCancel,
   onSave,
 }: DatasetDetailsTabProps) {
+  const { data: edition } = useEditionQuery(editionId)
+  const { data: facsimile } = useQuery({
+    queryKey: ['facsimiles', dataset.facsimile_id],
+    queryFn: () =>
+      FacsimilesService.getFacsimilies1({ id: dataset.facsimile_id! }),
+    enabled: !!dataset.facsimile_id,
+  })
+  const copyright = getFacsimileCopyright(edition, facsimile)
+
   return (
     <>
       <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white m-3 mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
@@ -184,6 +196,11 @@ export function DatasetDetailsTab({
                     : dataset.facsimile_id
                   : 'N/A'}
               </div>
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">
+                Copyright
+              </div>
+              <div className="text-sm leading-tight break-all">{copyright}</div>
 
               <div className="font-semibold text-xs opacity-80 pt-0.5">DPI</div>
               {isEditing ? (

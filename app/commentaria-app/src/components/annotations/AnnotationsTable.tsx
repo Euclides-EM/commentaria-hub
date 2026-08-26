@@ -1,12 +1,12 @@
 import { Fragment, useMemo, useState } from 'react'
-import { useQueries, useQueryClient } from '@tanstack/react-query'
+import { useQueries, useQuery, useQueryClient } from '@tanstack/react-query'
 import type {
   annotation_Annotation,
   annotation_Group,
   annotationrule_PipelineStage,
   model_Dataset,
 } from '@hub-api'
-import { AnnotationsService, ApiError } from '@hub-api'
+import { AnnotationsService, ApiError, FacsimilesService } from '@hub-api'
 import { useAppState } from '../../context/useAppState'
 import {
   annotationGroupsQueryKey,
@@ -31,6 +31,13 @@ import { DeleteAnnotationModal } from '../modal/DeleteAnnotationModal.tsx'
 import useLocalStorageState from 'use-local-storage-state'
 import { hasAnnotationPages } from '../../utils/editions.ts'
 import { useAuthStore } from '../../store/authStore'
+import { useAllEditionsQuery } from '../../queries/editions.ts'
+import {
+  COPYRIGHT_FILTER_OPTIONS,
+  getCopyrightStatus,
+  getFacsimileCopyright,
+  type CopyrightStatus,
+} from '../../utils/copyright.ts'
 
 type AnnotationRow = {
   datasetId: string
@@ -68,6 +75,11 @@ export function AnnotationsTable({
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const queryClient = useQueryClient()
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
+  const { data: editions } = useAllEditionsQuery()
+  const { data: facsimiles } = useQuery({
+    queryKey: ['facsimiles'],
+    queryFn: () => FacsimilesService.getFacsimilies({}),
+  })
   const { data: stages } = usePipelineStages()
   const {
     data: annotationGroups = [],
@@ -108,6 +120,11 @@ export function AnnotationsTable({
   const [selectedStages, setSelectedStages] = useLocalStorageState<
     annotationrule_PipelineStage[] | null
   >('annotationsFilterStages', {
+    defaultValue: null,
+  })
+  const [selectedCopyrights, setSelectedCopyrights] = useLocalStorageState<
+    CopyrightStatus[] | null
+  >('annotationsFilterCopyrights', {
     defaultValue: null,
   })
   const [groundTruthFilter, setGroundTruthFilter] =
@@ -271,11 +288,52 @@ export function AnnotationsTable({
     return map
   }, [datasets])
 
+  const copyrightByDatasetId = useMemo(() => {
+    const editionById = new Map(
+      (editions ?? []).flatMap((edition) =>
+        edition.key ? [[edition.key, edition] as const] : [],
+      ),
+    )
+    const facsimileById = new Map(
+      (facsimiles ?? []).flatMap((facsimile) =>
+        facsimile.id ? [[facsimile.id, facsimile] as const] : [],
+      ),
+    )
+    return new Map(
+      (datasets ?? []).flatMap((dataset) =>
+        dataset.id
+          ? [
+              [
+                dataset.id,
+                getFacsimileCopyright(
+                  dataset.edition_id
+                    ? editionById.get(dataset.edition_id)
+                    : undefined,
+                  dataset.facsimile_id
+                    ? facsimileById.get(dataset.facsimile_id)
+                    : undefined,
+                ),
+              ] as const,
+            ]
+          : [],
+      ),
+    )
+  }, [datasets, editions, facsimiles])
+
   const filteredRows = useMemo(() => {
     const trimmed = searchQuery.trim().toLowerCase()
     const trimmedGroupQuery = groupSearchQuery.trim().toLowerCase()
 
     return rows.filter((row) => {
+      const copyrightStatus = getCopyrightStatus(
+        copyrightByDatasetId.get(row.datasetId) ?? 'unknown copyright',
+      )
+      const matchesCopyright =
+        selectedCopyrights == null ||
+        selectedCopyrights.includes(copyrightStatus)
+      if (!matchesCopyright) {
+        return false
+      }
       const stage = row.annotation.pipeline_stage
       const matchesStage =
         selectedStages == null ||
@@ -325,12 +383,14 @@ export function AnnotationsTable({
       return haystack.includes(trimmed)
     })
   }, [
+    copyrightByDatasetId,
     groundTruthFilter,
     groupSearchQuery,
     groupsByRowKey,
     hiddenFilter,
     rows,
     searchQuery,
+    selectedCopyrights,
     selectedStages,
   ])
 
@@ -1044,6 +1104,16 @@ export function AnnotationsTable({
               getItemLabel={(stage) => getStageDisplayName(stage)}
             />
           )}
+          <MultiSelectDropdown
+            allItems={COPYRIGHT_FILTER_OPTIONS}
+            selectedItems={selectedCopyrights}
+            setSelectedItems={setSelectedCopyrights}
+            itemsLabel="copyrights"
+            getItemLabel={(status) =>
+              status === 'known' ? 'known copyrights' : 'unknown copyright'
+            }
+            showBulkActions={false}
+          />
           <label className="flex items-center gap-2 text-sm text-gray-700">
             <span>Ground truth</span>
             <select
