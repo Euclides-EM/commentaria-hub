@@ -52,6 +52,10 @@ type EditionFormData = {
   }[];
   verified: boolean;
   hasDiagrams: boolean | "";
+  externalTranscriptions: {
+    url: string;
+    note: string;
+  }[];
   bibliography: string[];
   reprintOf: string | null;
   visualElements: {
@@ -114,6 +118,7 @@ function toModelEdition(data: EditionFormData): model_Edition {
     })),
     verified: data.verified,
     ...(data.hasDiagrams !== "" ? { hasDiagrams: data.hasDiagrams } : {}),
+    externalTranscriptions: data.externalTranscriptions,
     bibliography: data.bibliography,
     reprintOf: nullToUndef(data.reprintOf),
     visualElements: data.visualElements.map((ve) => ({
@@ -202,6 +207,12 @@ function toEditionFormData(
         : edition.hasDiagrams === false
           ? false
           : "",
+    externalTranscriptions: (edition.externalTranscriptions || []).map(
+      (transcription) => ({
+        url: transcription.url || "",
+        note: transcription.note || "",
+      }),
+    ),
     bibliography: edition.bibliography || [],
     reprintOf: edition.reprintOf || null,
     visualElements: (edition.visualElements || []).map((ve) => ({
@@ -737,6 +748,7 @@ const defaultValues = (): EditionFormData => ({
   ],
   verified: false,
   hasDiagrams: "",
+  externalTranscriptions: [],
   isManuscript: false,
   year: "",
   languages: [],
@@ -3167,6 +3179,83 @@ export const UpsertEdition = () => {
                           onClick={() => field.removeValue(i)}
                         >
                           Remove Visual Element
+                        </RemoveButton>
+                      </FormField>
+                    ))}
+                  </>
+                )}
+              </form.Field>
+
+              <form.Field name="externalTranscriptions">
+                {(field) => (
+                  <>
+                    <FormField className="full-width">
+                      <Label isTitle>External Transcriptions</Label>
+                      <button
+                        style={{
+                          padding: 4,
+                          width: "fit-content",
+                          cursor: "pointer",
+                        }}
+                        type="button"
+                        onClick={() => field.pushValue({ url: "", note: "" })}
+                      >
+                        Add External Transcription
+                      </button>
+                    </FormField>
+                    {field.state.value.map((_, i) => (
+                      <FormField key={i} gap={0.5} bgColor="#D8ECFC">
+                        <FormField>
+                          <Label>URL</Label>
+                          <form.Field
+                            name={`externalTranscriptions[${i}].url`}
+                            validators={{
+                              onBlur: ({ value }) =>
+                                value && !isValidUrl(value)
+                                  ? "External transcription URL must be valid"
+                                  : undefined,
+                            }}
+                          >
+                            {(f) => (
+                              <>
+                                <Input
+                                  type="url"
+                                  value={f.state.value}
+                                  onChange={(e) =>
+                                    f.handleChange(e.target.value)
+                                  }
+                                  onBlur={f.handleBlur}
+                                  placeholder="https://example.org/transcription"
+                                />
+                                {!f.state.meta.isValid && (
+                                  <em>{f.state.meta.errors.join(", ")}</em>
+                                )}
+                              </>
+                            )}
+                          </form.Field>
+                        </FormField>
+
+                        <FormField>
+                          <Label>Note</Label>
+                          <form.Field
+                            name={`externalTranscriptions[${i}].note`}
+                          >
+                            {(f) => (
+                              <TextArea
+                                value={f.state.value}
+                                onChange={(e) => f.handleChange(e.target.value)}
+                                onBlur={f.handleBlur}
+                                placeholder="Add context about the external transcription..."
+                              />
+                            )}
+                          </form.Field>
+                        </FormField>
+
+                        <RemoveButton
+                          type="button"
+                          onClick={() => field.removeValue(i)}
+                        >
+                          Remove External Transcription
                         </RemoveButton>
                       </FormField>
                     ))}

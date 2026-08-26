@@ -6,6 +6,7 @@ import type { model_EditionShelfmark } from './model_EditionShelfmark';
 import type { model_EditionSubjectCategory } from './model_EditionSubjectCategory';
 import type { model_EditionTitlePageStatus } from './model_EditionTitlePageStatus';
 import type { model_EditionVisualElement } from './model_EditionVisualElement';
+import type { model_ExternalTranscription } from './model_ExternalTranscription';
 export type model_Edition = {
     additionalContent?: Array<string>;
     bibliography?: Array<string>;
@@ -19,6 +20,7 @@ export type model_Edition = {
     corpus?: Array<string>;
     diagramCropsAvailable?: boolean;
     editor?: Array<string>;
+    externalTranscriptions?: Array<model_ExternalTranscription>;
     format?: number;
     frontispiece?: string;
     frontispiece_EN?: string;

@@ -1,19 +1,20 @@
 package model
 
 type Edition struct {
-	Key                   string                 `json:"key"`
-	ShortTitle            string                 `json:"shortTitle"`
-	ShortTitleSource      string                 `json:"shortTitleSource"`
-	Notes                 string                 `json:"notes"`
-	Corpus                []string               `json:"corpus"`
-	Shelfmarks            []EditionShelfmark     `json:"shelfmarks"`
-	Verified              bool                   `json:"verified"`
-	Bibliography          []string               `json:"bibliography"`
-	ReprintOf             *string                `json:"reprintOf"`
-	VisualElements        []EditionVisualElement `json:"visualElements"`
-	VisualElementsTypes   []string               `json:"visualElementsTypes" readonly:"true"`
-	DiagramCropsAvailable bool                   `json:"diagramCropsAvailable"`
-	HasDiagrams           *bool                  `json:"hasDiagrams"`
+	Key                    string                  `json:"key"`
+	ShortTitle             string                  `json:"shortTitle"`
+	ShortTitleSource       string                  `json:"shortTitleSource"`
+	Notes                  string                  `json:"notes"`
+	Corpus                 []string                `json:"corpus"`
+	Shelfmarks             []EditionShelfmark      `json:"shelfmarks"`
+	Verified               bool                    `json:"verified"`
+	Bibliography           []string                `json:"bibliography"`
+	ReprintOf              *string                 `json:"reprintOf"`
+	VisualElements         []EditionVisualElement  `json:"visualElements"`
+	VisualElementsTypes    []string                `json:"visualElementsTypes" readonly:"true"`
+	DiagramCropsAvailable  bool                    `json:"diagramCropsAvailable"`
+	HasDiagrams            *bool                   `json:"hasDiagrams"`
+	ExternalTranscriptions []ExternalTranscription `json:"externalTranscriptions"`
 
 	// Manuscript-only
 	IsManuscript       bool    `json:"isManuscript"`
@@ -62,6 +63,11 @@ type EditionShelfmark struct {
 	FrontispieceImg string `json:"frontispiece_img"`
 	Annotations     string `json:"annotations"`
 	Copyright       string `json:"copyright"`
+}
+
+type ExternalTranscription struct {
+	URL  string `json:"url"`
+	Note string `json:"note"`
 }
 
 type EditionVisualElement struct {

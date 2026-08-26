@@ -26,22 +26,23 @@ type EditionCSV struct {
 }
 
 const (
-	relItemsManuscript  = "items_manuscript.csv"
-	relItemsPrint       = "items_print.csv"
-	relMDManuscript     = "metadata_elements_manuscripts.csv"
-	relMDPrint          = "metadata_elements_print.csv"
-	relTranscriptions   = "paratext_transcriptions.csv"
-	relShelfmarks       = "shelfmarks.csv"
-	relTranslations     = "translations.csv"
-	relCorpuses         = "corpuses.csv"
-	relBibliography     = "bibliography.csv"
-	relReviews          = "reviews.csv"
-	relClusters         = "clusters.csv"
-	relClusterItems     = "cluster_items.csv"
-	relVisualElements   = "visual_elements.csv"
-	relVisualElementsEx = "visual_elements_examples.csv"
-	relLocators         = "locators.csv"
-	relDiagramDirs      = "diagram-directories.json"
+	relItemsManuscript        = "items_manuscript.csv"
+	relItemsPrint             = "items_print.csv"
+	relMDManuscript           = "metadata_elements_manuscripts.csv"
+	relMDPrint                = "metadata_elements_print.csv"
+	relTranscriptions         = "paratext_transcriptions.csv"
+	relExternalTranscriptions = "external_transcriptions.csv"
+	relShelfmarks             = "shelfmarks.csv"
+	relTranslations           = "translations.csv"
+	relCorpuses               = "corpuses.csv"
+	relBibliography           = "bibliography.csv"
+	relReviews                = "reviews.csv"
+	relClusters               = "clusters.csv"
+	relClusterItems           = "cluster_items.csv"
+	relVisualElements         = "visual_elements.csv"
+	relVisualElementsEx       = "visual_elements_examples.csv"
+	relLocators               = "locators.csv"
+	relDiagramDirs            = "diagram-directories.json"
 )
 
 var (
@@ -133,6 +134,9 @@ func (s *EditionCSV) UpsertEdition(ed *model.Edition, user string) error {
 	if err := s.upsertBibliography(ed); err != nil {
 		return err
 	}
+	if err := s.upsertExternalTranscriptions(ed); err != nil {
+		return err
+	}
 	if err := s.upsertClusters(ed); err != nil {
 		return err
 	}
@@ -153,6 +157,21 @@ func (s *EditionCSV) UpsertEdition(ed *model.Edition, user string) error {
 		return fmt.Errorf("error reloading edition after notes update: %w", err)
 	}
 	s.cacheStore.Set(ed.Key, loaded)
+	return nil
+}
+
+func (s *EditionCSV) upsertExternalTranscriptions(ed *model.Edition) error {
+	rows := make([]map[string]string, 0, len(ed.ExternalTranscriptions))
+	for _, transcription := range ed.ExternalTranscriptions {
+		rows = append(rows, map[string]string{
+			"key":  ed.Key,
+			"url":  transcription.URL,
+			"note": transcription.Note,
+		})
+	}
+	if err := csv.ReplaceRowsForKey(s.csvPath(relExternalTranscriptions), "key", ed.Key, rows); err != nil {
+		return fmt.Errorf("error replacing external transcriptions: %w", err)
+	}
 	return nil
 }
 
@@ -422,7 +441,7 @@ func (s *EditionCSV) DeleteEdition(key string) error {
 	for _, rel := range []string{
 		relItemsManuscript, relItemsPrint, relMDManuscript, relMDPrint,
 		relReviews, relShelfmarks, relTranscriptions, relTranslations,
-		relCorpuses, relBibliography, relVisualElements,
+		relCorpuses, relBibliography, relExternalTranscriptions, relVisualElements,
 		relVisualElementsEx, relLocators,
 	} {
 		if err := csv.DeleteRows(s.csvPath(rel), "key", key); err != nil {
@@ -601,6 +620,16 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		}
 	}
 
+	_, externalTranscriptionRows, _ := csv.LoadCSVRecords(s.csvPath(relExternalTranscriptions))
+	for _, r := range externalTranscriptionRows {
+		if r["key"] == key {
+			ed.ExternalTranscriptions = append(ed.ExternalTranscriptions, model.ExternalTranscription{
+				URL:  r["url"],
+				Note: r["note"],
+			})
+		}
+	}
+
 	_, revRows, _ := csv.LoadCSVRecords(s.csvPath(relReviews))
 	ed.Verified = findRowByKey(revRows, "key", key) != nil
 
@@ -694,21 +723,22 @@ func (s *EditionCSV) collectEditionKeys() ([]string, error) {
 
 // preloadedEditionRows holds all CSV data in memory for one bulk load.
 type preloadedEditionRows struct {
-	msRows         []map[string]string
-	printRows      []map[string]string
-	mdManuscript   []map[string]string
-	mdPrint        []map[string]string
-	transcriptions []map[string]string
-	translations   []map[string]string
-	shelfmarks     []map[string]string
-	corpuses       []map[string]string
-	bibliography   []map[string]string
-	reviews        []map[string]string
-	clusterItems   []map[string]string
-	locators       []map[string]string
-	veRows         []map[string]string
-	exRows         []map[string]string
-	diagramDirKeys map[string]struct{}
+	msRows                 []map[string]string
+	printRows              []map[string]string
+	mdManuscript           []map[string]string
+	mdPrint                []map[string]string
+	transcriptions         []map[string]string
+	translations           []map[string]string
+	shelfmarks             []map[string]string
+	corpuses               []map[string]string
+	bibliography           []map[string]string
+	externalTranscriptions []map[string]string
+	reviews                []map[string]string
+	clusterItems           []map[string]string
+	locators               []map[string]string
+	veRows                 []map[string]string
+	exRows                 []map[string]string
+	diagramDirKeys         map[string]struct{}
 }
 
 // loadAllCSVsOnce reads each edition CSV once. Missing files yield nil slices.
@@ -726,6 +756,7 @@ func (s *EditionCSV) loadAllCSVsOnce() (*preloadedEditionRows, error) {
 	_, p.shelfmarks, _ = csv.LoadCSVRecords(s.csvPath(relShelfmarks))
 	_, p.corpuses, _ = csv.LoadCSVRecords(s.csvPath(relCorpuses))
 	_, p.bibliography, _ = csv.LoadCSVRecords(s.csvPath(relBibliography))
+	_, p.externalTranscriptions, _ = csv.LoadCSVRecords(s.csvPath(relExternalTranscriptions))
 	_, p.reviews, _ = csv.LoadCSVRecords(s.csvPath(relReviews))
 	_, p.clusterItems, _ = csv.LoadCSVRecords(s.csvPath(relClusterItems))
 	_, p.locators, _ = csv.LoadCSVRecords(s.csvPath(relLocators))
@@ -874,6 +905,14 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 	for _, r := range p.bibliography {
 		if r["key"] == key && r["citation"] != "" {
 			ed.Bibliography = append(ed.Bibliography, r["citation"])
+		}
+	}
+	for _, r := range p.externalTranscriptions {
+		if r["key"] == key {
+			ed.ExternalTranscriptions = append(ed.ExternalTranscriptions, model.ExternalTranscription{
+				URL:  r["url"],
+				Note: r["note"],
+			})
 		}
 	}
 	ed.Verified = findRowByKey(p.reviews, "key", key) != nil

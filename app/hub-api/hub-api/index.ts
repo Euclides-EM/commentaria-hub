@@ -87,6 +87,7 @@ export type { model_EditionTranscriptionPreferredAnnotation } from './models/mod
 export type { model_EditionTranscriptionPreferredAnnotationSource } from './models/model_EditionTranscriptionPreferredAnnotationSource';
 export type { model_EditionVisualElement } from './models/model_EditionVisualElement';
 export type { model_EditionVisualExample } from './models/model_EditionVisualExample';
+export type { model_ExternalTranscription } from './models/model_ExternalTranscription';
 export type { model_Facsimile } from './models/model_Facsimile';
 export type { model_FacsimileDriveImportResult } from './models/model_FacsimileDriveImportResult';
 export type { model_ImageMetadata } from './models/model_ImageMetadata';
