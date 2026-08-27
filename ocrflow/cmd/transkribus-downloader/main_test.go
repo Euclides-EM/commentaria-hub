@@ -39,6 +39,37 @@ func TestParseDocumentURLRejectsInvalidLinks(t *testing.T) {
 	}
 }
 
+func TestParseDownloadMode(t *testing.T) {
+	tests := map[string]downloadMode{
+		"both":   {XML: true, Images: true},
+		"xml":    {XML: true},
+		"images": {Images: true},
+	}
+	for input, want := range tests {
+		got, err := parseDownloadMode(input)
+		if err != nil {
+			t.Fatalf("parseDownloadMode(%q): %v", input, err)
+		}
+		if got != want {
+			t.Errorf("parseDownloadMode(%q) = %#v, want %#v", input, got, want)
+		}
+	}
+	if _, err := parseDownloadMode("neither"); err == nil {
+		t.Fatal("invalid mode unexpectedly succeeded")
+	}
+}
+
+func TestFullIIIFImageURL(t *testing.T) {
+	got, err := fullIIIFImageURL("https://files.transkribus.eu/iiif/2/IMAGEKEY/info.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+	want := "https://files.transkribus.eu/iiif/2/IMAGEKEY/full/full/0/default.jpg"
+	if got != want {
+		t.Fatalf("got %q, want %q", got, want)
+	}
+}
+
 func TestDownloadDocumentStoresAndResumesPageByPage(t *testing.T) {
 	pageRequests := map[string]int{}
 	var server *httptest.Server
@@ -48,13 +79,15 @@ func TestDownloadDocumentStoresAndResumesPageByPage(t *testing.T) {
 		case "/documents/noscemus/912317":
 			fmt.Fprint(w, `{"id":912317,"title":"Test document","pageCount":2}`)
 		case "/documents/noscemus/912317/pages/1":
-			fmt.Fprintf(w, `{"content":%q}`, server.URL+"/files/one")
+			fmt.Fprintf(w, `{"content":%q,"image":%q}`, server.URL+"/files/one", server.URL+"/iiif/one/info.json")
 		case "/documents/noscemus/912317/pages/2":
-			fmt.Fprintf(w, `{"content":%q}`, server.URL+"/files/two")
+			fmt.Fprintf(w, `{"content":%q,"image":%q}`, server.URL+"/files/two", server.URL+"/iiif/two/info.json")
 		case "/files/one":
 			fmt.Fprint(w, `<?xml version="1.0"?><PcGts><Page id="one"/></PcGts>`)
 		case "/files/two":
 			fmt.Fprint(w, `<?xml version="1.0"?><PcGts><Page id="two"/></PcGts>`)
+		case "/iiif/one/full/full/0/default.jpg", "/iiif/two/full/full/0/default.jpg":
+			w.Write([]byte{0xff, 0xd8, 0xff, 0xe0, 0x00, 0x10, 'J', 'F', 'I', 'F', 0x00})
 		default:
 			http.NotFound(w, r)
 		}
@@ -68,12 +101,12 @@ func TestDownloadDocumentStoresAndResumesPageByPage(t *testing.T) {
 	}
 	var progress bytes.Buffer
 	doc := documentRef{Site: "noscemus", DocumentID: 912317, CollectionID: 88639}
-	if err := downloadDocument(context.Background(), server.Client(), server.URL+"/documents", doc, outputDir, &progress); err != nil {
+	if err := downloadDocument(context.Background(), server.Client(), server.URL+"/documents", doc, downloadMode{XML: true, Images: true}, outputDir, &progress); err != nil {
 		t.Fatal(err)
 	}
 
-	if pageRequests["/documents/noscemus/912317/pages/1"] != 0 {
-		t.Fatal("already downloaded page was requested")
+	if pageRequests["/files/one"] != 0 {
+		t.Fatal("already downloaded PAGE XML was requested")
 	}
 	contents, err := os.ReadFile(filepath.Join(outputDir, "page-0002.xml"))
 	if err != nil {
@@ -82,12 +115,16 @@ func TestDownloadDocumentStoresAndResumesPageByPage(t *testing.T) {
 	if !strings.Contains(string(contents), `id="two"`) {
 		t.Fatalf("unexpected page contents: %s", contents)
 	}
+	if _, err := os.Stat(filepath.Join(outputDir, "page-0002.jpg")); err != nil {
+		t.Fatalf("image was not stored: %v", err)
+	}
 	output := progress.String()
 	for _, expected := range []string{
 		"Storing in ",
-		"Skipped page 1 out of 2 as it is already downloaded",
-		"Downloading page 2 out of 2",
-		"Stored page 2 in ",
+		"Skipped PAGE XML for page 1 out of 2 as it is already downloaded",
+		"Downloading image for page 1 out of 2",
+		"Downloading PAGE XML for page 2 out of 2",
+		"Stored image for page 2 in ",
 		"Done: all 2 pages",
 	} {
 		if !strings.Contains(output, expected) {
@@ -111,7 +148,7 @@ func TestDownloadDocumentDoesNotStoreInvalidXML(t *testing.T) {
 	defer server.Close()
 
 	outputDir := t.TempDir()
-	err := downloadDocument(context.Background(), server.Client(), server.URL+"/documents", documentRef{Site: "site", DocumentID: 1, CollectionID: 2}, outputDir, &bytes.Buffer{})
+	err := downloadDocument(context.Background(), server.Client(), server.URL+"/documents", documentRef{Site: "site", DocumentID: 1, CollectionID: 2}, downloadMode{XML: true}, outputDir, &bytes.Buffer{})
 	if err == nil || !strings.Contains(err.Error(), "expected PcGts") {
 		t.Fatalf("got error %v, want PcGts validation error", err)
 	}

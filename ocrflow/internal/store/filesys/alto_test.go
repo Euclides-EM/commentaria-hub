@@ -31,7 +31,7 @@ func TestRetrieveEditionAltoPageFromTranscriptions(t *testing.T) {
 	require.NoError(t, os.MkdirAll(filepath.Dir(filePath), 0o755))
 	require.NoError(t, os.WriteFile(filePath, []byte(transcriptionALTO), 0o644))
 
-	a, gotPath, err := m.RetrieveEditionAltoPage(&model.Edition{Key: "Paris_1536"}, 7)
+	a, gotPath, err := m.RetrieveEditionAltoPage("Paris_1536", 7)
 	require.NoError(t, err)
 	require.Equal(t, filePath, gotPath)
 	require.Len(t, a.Layout.Page, 1)

@@ -136,22 +136,28 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		return nil, fmt.Errorf("failed to list features for annotation %s: %v", ann.ID, err)
 	}
 
-	// 1) Try ALTO page first
+	// Try ALTO page created in the platform
 	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
 		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
 		// todo: support items in alto
 		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
 	}
+
+	// Fallbacks: preloaded files from the transcription page
+	// Between file formats, ALTO format is preferred over Markdown, which is preferred over TXT.
+
+	// ALTO
 	if a, _, err := t.fileSysMgt.RetrieveAnnotationTranscriptionAltoPage(ann, pageNumOrKey); err == nil {
 		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
 		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
 	}
 
+	// Markdown
 	if md, err := t.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, pageNumOrKey); err == nil {
 		return tei2.BuildTEIFromMarkdown(pageNumOrKey, md, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
 	}
 
-	// 2) TXT fallback: transcription + translations + image url
+	// Text
 	var (
 		lines        []string
 		translations map[string][]string

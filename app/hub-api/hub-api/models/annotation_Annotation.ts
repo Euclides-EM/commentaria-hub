@@ -3,6 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { annotation_MergedReference } from './annotation_MergedReference';
+import type { annotation_TranscriptionFallback } from './annotation_TranscriptionFallback';
 import type { annotationrule_PipelineStage } from './annotationrule_PipelineStage';
 export type annotation_Annotation = {
     readonly applied_rules?: Array<any>;
@@ -20,6 +21,6 @@ export type annotation_Annotation = {
     pages?: string;
     readonly pipeline_stage?: annotationrule_PipelineStage;
     readonly segmented?: boolean;
+    readonly transcription_fallback?: annotation_TranscriptionFallback;
     readonly updated_at?: string;
 };
-

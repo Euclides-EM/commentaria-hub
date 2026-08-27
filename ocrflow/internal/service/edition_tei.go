@@ -44,7 +44,7 @@ func (t *EditionTEI) GetTEI(editionID string, pageNum int) ([]byte, error) {
 }
 
 func (t *EditionTEI) getTEI(edition *model.Edition, pageNum int) (*model2.TEI, error) {
-	a, _, err := t.fileSysMgt.RetrieveEditionAltoPage(edition, pageNum)
+	a, _, err := t.fileSysMgt.RetrieveEditionAltoPage(edition.Key, pageNum)
 	if err == nil {
 		pageKey := fmt.Sprintf("%d", pageNum)
 		return tei2.BuildTEIFromALTO(pageKey, a, nil, "", model.EditionToBiblFull(edition))

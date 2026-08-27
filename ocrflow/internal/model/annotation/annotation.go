@@ -20,7 +20,38 @@ type Annotation struct {
 	OriginAnnotationID string                         `json:"origin_annotation_id,omitempty" readonly:"true"`
 	MergedAnnotations  []MergedReference              `json:"merged_annotations,omitempty" readonly:"true"`
 	PipelineStage      annotationrule.PipelineStage   `json:"pipeline_stage,omitempty" readonly:"true"`
+
+	TranscriptionFallback *TranscriptionFallback `json:"transcription_fallback,omitempty" readonly:"true"`
 }
+
+type TranscriptionFallback struct {
+	Format  TranscriptionFormat `json:"format"`
+	Level   TranscriptionLevel  `json:"level"`
+	Partial bool                `json:"partial"`
+}
+
+func NewTranscriptionFallback(format TranscriptionFormat, level TranscriptionLevel, partial bool) *TranscriptionFallback {
+	return &TranscriptionFallback{
+		Format:  format,
+		Level:   level,
+		Partial: partial,
+	}
+}
+
+type TranscriptionFormat string
+
+const (
+	TranscriptionFormatText     TranscriptionFormat = "text"
+	TranscriptionFormatMarkdown TranscriptionFormat = "markdown"
+	TranscriptionFormatALTO     TranscriptionFormat = "alto"
+)
+
+type TranscriptionLevel string
+
+const (
+	TranscriptionLevelDataset    TranscriptionLevel = "dataset"
+	TranscriptionLevelAnnotation TranscriptionLevel = "annotation"
+)
 
 type MergedReference struct {
 	Reference `json:",inline"`

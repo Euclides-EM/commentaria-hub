@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"path"
+	"path/filepath"
 	"slices"
 	"strconv"
 	"strings"
@@ -59,18 +60,186 @@ func (a *Annotation) ListAnnotations(id string) ([]*annotation.Annotation, error
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
 	}
+	if err := a.populateTranscriptionFallbacks(annotations); err != nil {
+		return nil, err
+	}
 	return annotations, nil
 }
 
 func (a *Annotation) Get(datasetId, id string) (*annotation.Annotation, error) {
-	annotation, err := a.annotationStore.GetAnnotation(datasetId, id)
+	ann, err := a.annotationStore.GetAnnotation(datasetId, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation from store: %w", err)
 	}
-	if annotation == nil || annotation.DatasetID != datasetId {
+	if ann == nil || ann.DatasetID != datasetId {
 		return nil, fmt.Errorf("annotation not found")
 	}
-	return annotation, nil
+	if err := a.populateTranscriptionFallbacks([]*annotation.Annotation{ann}); err != nil {
+		return nil, err
+	}
+	return ann, nil
+}
+
+func (a *Annotation) populateTranscriptionFallbacks(annotations []*annotation.Annotation) error {
+	fallbackFormatByDatasetID := make(map[string]*annotation.TranscriptionFallback)
+	for _, ann := range annotations {
+		if ann.DatasetID == "" {
+			continue
+		}
+		fallback, ok := fallbackFormatByDatasetID[ann.DatasetID]
+		if !ok {
+			var err error
+			fallback, err = a.transcriptionFallback(ann)
+			if err != nil {
+				return err
+			}
+			fallbackFormatByDatasetID[ann.DatasetID] = fallback
+		}
+		if fallback != nil {
+			ann.TranscriptionFallback = fallback
+		}
+	}
+	return nil
+}
+
+func (a *Annotation) transcriptionFallback(ann *annotation.Annotation) (*annotation.TranscriptionFallback, error) {
+	ds, err := a.datasetSvc.Get(ann.DatasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset from store: %w", err)
+	}
+
+	annPages, err := pagesparser.Range(ann.Pages)
+	if err != nil {
+		return nil, err
+	}
+
+	if lo.EveryBy(annPages, func(page string) bool {
+		_, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
+		return err == nil
+	}) {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelAnnotation, false), nil
+	}
+	if lo.SomeBy(annPages, func(page string) bool {
+		_, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
+		return err == nil
+	}) {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelAnnotation, true), nil
+	}
+
+	if lo.EveryBy(annPages, func(page string) bool {
+		_, err := a.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, page)
+		return err == nil
+	}) {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelAnnotation, false), nil
+	}
+	if lo.SomeBy(annPages, func(page string) bool {
+		_, err := a.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, page)
+		return err == nil
+	}) {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelAnnotation, true), nil
+	}
+
+	if lo.EveryBy(annPages, func(page string) bool {
+		_, _, err := a.fileSysMgt.RetrieveEditionTXTPage(ds.EditionID, page)
+		return err == nil
+	}) {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelAnnotation, false), nil
+	}
+	if lo.SomeBy(annPages, func(page string) bool {
+		_, _, err := a.fileSysMgt.RetrieveEditionTXTPage(ds.EditionID, page)
+		return err == nil
+	}) {
+		return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelAnnotation, true), nil
+	}
+
+	if ds.EditionID != "" {
+		edPages, err := pagesparser.IntRange(ann.Pages)
+		if err != nil {
+			return nil, err
+		}
+
+		if lo.EveryBy(edPages, func(page int) bool {
+			_, _, err := a.fileSysMgt.RetrieveEditionAltoPage(ds.EditionID, page)
+			return err == nil
+		}) {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelDataset, false), nil
+		}
+		if lo.SomeBy(edPages, func(page int) bool {
+			_, _, err := a.fileSysMgt.RetrieveEditionAltoPage(ds.EditionID, page)
+			return err == nil
+		}) {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatALTO, annotation.TranscriptionLevelDataset, true), nil
+		}
+
+		if lo.EveryBy(edPages, func(page int) bool {
+			_, err := a.fileSysMgt.RetrieveEditionMarkdownPage(ds.EditionID, page)
+			return err == nil
+		}) {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelDataset, false), nil
+		}
+		if lo.SomeBy(edPages, func(page int) bool {
+			_, err := a.fileSysMgt.RetrieveEditionMarkdownPage(ds.EditionID, page)
+			return err == nil
+		}) {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatMarkdown, annotation.TranscriptionLevelDataset, true), nil
+		}
+
+		if lo.EveryBy(edPages, func(page int) bool {
+			_, _, err := a.fileSysMgt.RetrieveEditionTXTPage(ds.EditionID, strconv.Itoa(page))
+			return err == nil
+		}) {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelDataset, false), nil
+		}
+		if lo.SomeBy(edPages, func(page int) bool {
+			_, _, err := a.fileSysMgt.RetrieveEditionTXTPage(ds.EditionID, strconv.Itoa(page))
+			return err == nil
+		}) {
+			return annotation.NewTranscriptionFallback(annotation.TranscriptionFormatText, annotation.TranscriptionLevelDataset, true), nil
+		}
+	}
+
+	return nil, nil
+}
+
+var errStopTranscriptionFallbackScan = errors.New("stop transcription fallback scan")
+
+func transcriptionFallbackFormatInDir(dir string) (string, error) {
+	format := ""
+	err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
+		if err != nil {
+			if os.IsNotExist(err) {
+				return nil
+			}
+			return err
+		}
+		if d.IsDir() {
+			return nil
+		}
+		switch filepath.Base(path) {
+		case "original.xml":
+			format = "alto"
+			return errStopTranscriptionFallbackScan
+		case "original.md":
+			if format == "" || format == "text" {
+				format = "markdown"
+			}
+		case "original.txt":
+			if format == "" {
+				format = "text"
+			}
+		}
+		return nil
+	})
+	if errors.Is(err, errStopTranscriptionFallbackScan) {
+		return format, nil
+	}
+	if err != nil {
+		if os.IsNotExist(err) {
+			return "", nil
+		}
+		return "", fmt.Errorf("scan transcription fallback dir %s: %w", dir, err)
+	}
+	return format, nil
 }
 
 func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFeatureResults bool) (*annotation.Annotation, error) {
@@ -554,6 +723,9 @@ func (a *Annotation) ListAnnotationsByAnnotationReferences(refs []*annotation.Re
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
 	}
+	if err := a.populateTranscriptionFallbacks(anns); err != nil {
+		return nil, err
+	}
 	return anns, nil
 }
 
@@ -561,6 +733,9 @@ func (a *Annotation) ListAnnotationsByDatasetIDs(dsIDs []string) ([]*annotation.
 	anns, err := a.annotationStore.ListAnnotationsByDatasetIDs(dsIDs)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
+	}
+	if err := a.populateTranscriptionFallbacks(anns); err != nil {
+		return nil, err
 	}
 	return anns, nil
 }

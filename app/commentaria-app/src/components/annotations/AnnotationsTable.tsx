@@ -61,6 +61,10 @@ type SortConfig = {
 
 type GroundTruthFilter = 'all' | 'true' | 'false'
 type HiddenFilter = 'all' | 'true' | 'false'
+type RawStageFilter =
+  | 'raw_with_transcription_fallback'
+  | 'raw_no_transcription_fallback'
+type StageFilter = annotationrule_PipelineStage | RawStageFilter
 type GroupSection = {
   datasetId?: string
   group: annotation_Group | null
@@ -70,6 +74,64 @@ type AnnotationGroupWithId = annotation_Group & { id: string }
 
 interface AnnotationsTableProps {
   datasetIds?: string[]
+}
+
+const RAW_WITH_TRANSCRIPTION_FALLBACK: RawStageFilter =
+  'raw_with_transcription_fallback'
+const RAW_NO_TRANSCRIPTION_FALLBACK: RawStageFilter =
+  'raw_no_transcription_fallback'
+
+const isRawStageFilter = (filter: StageFilter): filter is RawStageFilter =>
+  filter === RAW_WITH_TRANSCRIPTION_FALLBACK ||
+  filter === RAW_NO_TRANSCRIPTION_FALLBACK
+
+const getFallbackFormatName = (annotation: annotation_Annotation) =>
+  annotation.transcription_fallback?.format
+    ? annotation.transcription_fallback.format
+    : 'unknown'
+
+const getFallbackCompletenessName = (annotation: annotation_Annotation) =>
+  annotation.transcription_fallback?.partial ? 'partial' : 'full'
+
+const getFallbackLabelPart = (annotation: annotation_Annotation) =>
+  `${getFallbackCompletenessName(annotation)} ${getFallbackFormatName(annotation)}`
+
+const getAnnotationStageFilter = (
+  annotation: annotation_Annotation,
+): StageFilter | null => {
+  if (annotation.pipeline_stage !== 'raw') {
+    return annotation.pipeline_stage || null
+  }
+  return annotation.transcription_fallback
+    ? RAW_WITH_TRANSCRIPTION_FALLBACK
+    : RAW_NO_TRANSCRIPTION_FALLBACK
+}
+
+const getStageFilterLabel = (
+  filter: StageFilter,
+  rawFallbackFormatLabel = 'unknown',
+): string => {
+  if (filter === RAW_WITH_TRANSCRIPTION_FALLBACK) {
+    return `Raw (with ${rawFallbackFormatLabel} transcription fallback)`
+  }
+  if (filter === RAW_NO_TRANSCRIPTION_FALLBACK) {
+    return 'Raw (no transcription fallback)'
+  }
+  return getStageDisplayName(filter)
+}
+
+const getAnnotationStageDisplayName = (
+  annotation: annotation_Annotation,
+): string => {
+  if (annotation.pipeline_stage !== 'raw') {
+    return annotation.pipeline_stage
+      ? getStageDisplayName(annotation.pipeline_stage)
+      : 'None'
+  }
+  if (annotation.transcription_fallback) {
+    return `Raw (with ${getFallbackLabelPart(annotation)} transcription fallback)`
+  }
+  return 'Raw (no transcription fallback)'
 }
 
 export function AnnotationsTable({
@@ -120,9 +182,9 @@ export function AnnotationsTable({
       defaultValue: '',
     },
   )
-  const [selectedStages, setSelectedStages] = useLocalStorageState<
-    annotationrule_PipelineStage[] | null
-  >('annotationsFilterStages', {
+  const [selectedStageFilters, setSelectedStageFilters] = useLocalStorageState<
+    StageFilter[] | null
+  >('annotationsFilterStageFilters', {
     defaultValue: null,
   })
   const [selectedCopyrights, setSelectedCopyrights] = useLocalStorageState<
@@ -220,6 +282,32 @@ export function AnnotationsTable({
       return new Date(bTime || 0).getTime() - new Date(aTime || 0).getTime()
     })
   }, [annotationQueries, datasetIds, datasets])
+
+  const stageFilterOptions = useMemo<StageFilter[]>(
+    () =>
+      (stages || []).flatMap((stage) =>
+        stage === 'raw'
+          ? [RAW_WITH_TRANSCRIPTION_FALLBACK, RAW_NO_TRANSCRIPTION_FALLBACK]
+          : [stage],
+      ),
+    [stages],
+  )
+
+  const rawFallbackFormatLabel = useMemo(() => {
+    const formatNames = [
+      ...new Set(
+        rows
+          .filter(
+            (row) =>
+              row.annotation.pipeline_stage === 'raw' &&
+              row.annotation.transcription_fallback,
+          )
+          .map((row) => getFallbackLabelPart(row.annotation)),
+      ),
+    ].sort((a, b) => a.localeCompare(b))
+
+    return formatNames.length > 0 ? formatNames.join(', ') : 'unknown'
+  }, [rows])
 
   const rowKey = (row: AnnotationRow) => `${row.datasetId}:${row.annotation.id}`
 
@@ -337,10 +425,10 @@ export function AnnotationsTable({
       if (!matchesCopyright) {
         return false
       }
-      const stage = row.annotation.pipeline_stage
+      const stageFilter = getAnnotationStageFilter(row.annotation)
       const matchesStage =
-        selectedStages == null ||
-        (stage != null && selectedStages.includes(stage))
+        selectedStageFilters == null ||
+        (stageFilter != null && selectedStageFilters.includes(stageFilter))
       if (!matchesStage) {
         return false
       }
@@ -394,7 +482,7 @@ export function AnnotationsTable({
     rows,
     searchQuery,
     selectedCopyrights,
-    selectedStages,
+    selectedStageFilters,
   ])
 
   const filteredDatasetCount = useMemo(
@@ -410,9 +498,7 @@ export function AnnotationsTable({
         case 'dataset':
           return row.datasetName.toLowerCase()
         case 'stage':
-          return row.annotation.pipeline_stage
-            ? getStageDisplayName(row.annotation.pipeline_stage).toLowerCase()
-            : ''
+          return getAnnotationStageDisplayName(row.annotation).toLowerCase()
         case 'updated': {
           const raw = row.annotation.updated_at || row.annotation.created_at
           const time = raw ? new Date(raw).getTime() : 0
@@ -1014,9 +1100,7 @@ export function AnnotationsTable({
         )}
       </td>
       <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
-        {row.annotation.pipeline_stage
-          ? getStageDisplayName(row.annotation.pipeline_stage)
-          : 'None'}
+        {getAnnotationStageDisplayName(row.annotation)}
       </td>
       <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
         {row.annotation.ground_truth ? 'Yes' : 'No'}
@@ -1100,11 +1184,18 @@ export function AnnotationsTable({
           />
           {stages && (
             <MultiSelectDropdown
-              allItems={stages}
-              selectedItems={selectedStages}
-              setSelectedItems={setSelectedStages}
+              allItems={stageFilterOptions}
+              selectedItems={selectedStageFilters}
+              setSelectedItems={setSelectedStageFilters}
               itemsLabel="stages"
-              getItemLabel={(stage) => getStageDisplayName(stage)}
+              getItemLabel={(stage) =>
+                getStageFilterLabel(stage, rawFallbackFormatLabel)
+              }
+              getItemKey={(stage) => stage}
+              showSeparatorBeforeItem={(stage) =>
+                isRawStageFilter(stage) && stage === RAW_WITH_TRANSCRIPTION_FALLBACK
+              }
+              minWidth="280px"
             />
           )}
           <MultiSelectDropdown

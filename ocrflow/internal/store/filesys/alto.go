@@ -6,17 +6,16 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 )
 
-func (m *Manager) RetrieveEditionAltoPage(edition *model.Edition, pageNum int) (*alto.Alto, string, error) {
-	pageDir := m.EditionTxtPageTranscriptionDir(edition.Key, strconv.Itoa(pageNum))
+func (m *Manager) RetrieveEditionAltoPage(editionKey string, pageNum int) (*alto.Alto, string, error) {
+	pageDir := m.EditionTxtPageTranscriptionDir(editionKey, strconv.Itoa(pageNum))
 	a, filePath, err := retrieveTranscriptionAltoPage(pageDir)
 	if err != nil {
-		return nil, filePath, fmt.Errorf("retrieve edition ALTO page %d for edition %s: %w", pageNum, edition.Key, err)
+		return nil, filePath, fmt.Errorf("retrieve edition ALTO page %d for edition %s: %w", pageNum, editionKey, err)
 	}
 	return a, filePath, nil
 }
