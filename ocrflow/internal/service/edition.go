@@ -19,6 +19,15 @@ var ErrEditionNotFound = errors.New("edition not found")
 
 const subjectCategoriesFeatureID = "m_classifier"
 const editionFeatureFilterPrefix = "feature:"
+const shelfmarkPropertiesFilterField = "shelfmarkProperties"
+
+const (
+	shelfmarkAvailable             = "shelfmark_available"
+	facsimileAvailable             = "facsimile_available"
+	copyrightStatusUnknown         = "copyright_status_unknown"
+	externalTranscriptionAvailable = "external_transcription_available"
+	internalTranscriptionAvailable = "internal_transcription_available"
+)
 
 type editionFeatureFilter struct {
 	matchingEditionIDs map[string]struct{}
@@ -43,6 +52,13 @@ func NewEditionService(editionStore *store.EditionCSV, facsimileStore *store.Fac
 func (e *Edition) SearchEditions(query search.Query, offset, limit int) (*model.EditionListResult, error) {
 	query.FieldsFilter = maps.Clone(query.FieldsFilter)
 	query.FilterIncludes = maps.Clone(query.FilterIncludes)
+	shelfmarkPropertyValues := query.FieldsFilter[shelfmarkPropertiesFilterField]
+	shelfmarkPropertiesInclude := true
+	if configured, exists := query.FilterIncludes[shelfmarkPropertiesFilterField]; exists {
+		shelfmarkPropertiesInclude = configured
+	}
+	delete(query.FieldsFilter, shelfmarkPropertiesFilterField)
+	delete(query.FilterIncludes, shelfmarkPropertiesFilterField)
 	features := make(map[string][]string)
 	featureFilters := make([]editionFeatureFilter, 0)
 	for field, allowed := range query.FieldsFilter {
@@ -81,6 +97,9 @@ func (e *Edition) SearchEditions(query search.Query, offset, limit int) (*model.
 		if !ok {
 			return false
 		}
+		if len(shelfmarkPropertyValues) > 0 && editionHasAnyShelfmarkProperty(edition, shelfmarkPropertyValues) != shelfmarkPropertiesInclude {
+			return false
+		}
 		for _, featureFilter := range featureFilters {
 			_, matched := featureFilter.matchingEditionIDs[edition.Key]
 			if matched != featureFilter.include {
@@ -98,6 +117,36 @@ func (e *Edition) SearchEditions(query search.Query, offset, limit int) (*model.
 		return nil, err
 	}
 	return &model.EditionListResult{Items: items, Total: total, Offset: offset, Limit: limit}, nil
+}
+
+func editionHasAnyShelfmarkProperty(edition *model.Edition, allowed []string) bool {
+	for _, shelfmark := range edition.Shelfmarks {
+		for _, property := range allowed {
+			switch property {
+			case shelfmarkAvailable:
+				if strings.TrimSpace(shelfmark.Shelfmark) != "" {
+					return true
+				}
+			case facsimileAvailable:
+				if strings.TrimSpace(shelfmark.Scan) != "" {
+					return true
+				}
+			case copyrightStatusUnknown:
+				if strings.TrimSpace(shelfmark.Copyright) == "" {
+					return true
+				}
+			case externalTranscriptionAvailable:
+				if shelfmark.TranscriptionAvailable == model.EditionShelfmarkTranscriptionExternal {
+					return true
+				}
+			case internalTranscriptionAvailable:
+				if shelfmark.TranscriptionAvailable == model.EditionShelfmarkTranscriptionInternal {
+					return true
+				}
+			}
+		}
+	}
+	return false
 }
 
 func (e *Edition) ListEditions(filter func(e any) bool, orderBy func(e1, e2 any) int, offset, limit int) (*model.EditionListResult, error) {

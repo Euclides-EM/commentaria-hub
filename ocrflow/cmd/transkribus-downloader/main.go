@@ -1,0 +1,293 @@
+// Command transkribus-downloader downloads the latest PAGE XML for every page
+// of a document published through Transkribus Sites.
+package main
+
+import (
+	"bytes"
+	"context"
+	"encoding/json"
+	"encoding/xml"
+	"errors"
+	"flag"
+	"fmt"
+	"io"
+	"net/http"
+	"net/url"
+	"os"
+	"os/signal"
+	"path/filepath"
+	"strconv"
+	"strings"
+	"time"
+)
+
+const (
+	defaultAPIBase  = "https://api-sites.transkribus.eu/search/documents"
+	maxResponseSize = 100 << 20 // 100 MiB, large enough for unusually detailed PAGE XML.
+)
+
+type documentRef struct {
+	Site         string
+	DocumentID   int64
+	CollectionID int64
+}
+
+type documentMetadata struct {
+	ID        int64  `json:"id"`
+	Title     string `json:"title"`
+	PageCount int    `json:"pageCount"`
+}
+
+type pageMetadata struct {
+	Content string `json:"content"`
+}
+
+func main() {
+	outputDir := flag.String("output-dir", "", "directory in which to store PAGE XML files (default: transkribus-<document-id>-page-xml)")
+	flag.Usage = func() {
+		fmt.Fprintf(flag.CommandLine.Output(), "Usage: %s [options] <transkribus-document-link>\n\n", filepath.Base(os.Args[0]))
+		fmt.Fprintln(flag.CommandLine.Output(), "Downloads the latest PAGE XML one page at a time and skips files already present.")
+		fmt.Fprintln(flag.CommandLine.Output(), "\nOptions:")
+		flag.PrintDefaults()
+	}
+	flag.Parse()
+
+	if flag.NArg() != 1 {
+		flag.Usage()
+		if flag.NArg() == 0 {
+			fmt.Fprintln(os.Stderr, "\nerror: missing Transkribus document link")
+		} else {
+			fmt.Fprintln(os.Stderr, "\nerror: expected exactly one Transkribus document link")
+		}
+		os.Exit(2)
+	}
+
+	doc, err := parseDocumentURL(flag.Arg(0))
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "error: %v\n", err)
+		os.Exit(1)
+	}
+	if *outputDir == "" {
+		*outputDir = fmt.Sprintf("transkribus-%d-page-xml", doc.DocumentID)
+	}
+
+	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt)
+	defer stop()
+
+	client := &http.Client{Timeout: 60 * time.Second}
+	if err := downloadDocument(ctx, client, defaultAPIBase, doc, *outputDir, os.Stdout); err != nil {
+		fmt.Fprintf(os.Stderr, "error: %v\n", err)
+		os.Exit(1)
+	}
+}
+
+func parseDocumentURL(raw string) (documentRef, error) {
+	u, err := url.Parse(strings.TrimSpace(raw))
+	if err != nil {
+		return documentRef{}, fmt.Errorf("parse document link: %w", err)
+	}
+	if u.Scheme != "https" && u.Scheme != "http" {
+		return documentRef{}, errors.New("document link must use http or https")
+	}
+	if !strings.EqualFold(u.Hostname(), "app.transkribus.org") {
+		return documentRef{}, fmt.Errorf("expected an app.transkribus.org link, got host %q", u.Hostname())
+	}
+
+	parts := strings.Split(strings.Trim(u.EscapedPath(), "/"), "/")
+	if len(parts) != 4 || parts[0] != "sites" || parts[2] != "doc" {
+		return documentRef{}, errors.New("expected a link shaped like https://app.transkribus.org/sites/<site>/doc/<document-id>?colId=<collection-id>")
+	}
+	site, err := url.PathUnescape(parts[1])
+	if err != nil || site == "" || strings.Contains(site, "/") {
+		return documentRef{}, errors.New("document link contains an invalid site name")
+	}
+	documentID, err := positiveInt64(parts[3], "document ID")
+	if err != nil {
+		return documentRef{}, err
+	}
+	collectionID, err := positiveInt64(u.Query().Get("colId"), "colId")
+	if err != nil {
+		return documentRef{}, err
+	}
+
+	return documentRef{Site: site, DocumentID: documentID, CollectionID: collectionID}, nil
+}
+
+func positiveInt64(raw, name string) (int64, error) {
+	value, err := strconv.ParseInt(raw, 10, 64)
+	if err != nil || value <= 0 {
+		return 0, fmt.Errorf("%s must be a positive integer, got %q", name, raw)
+	}
+	return value, nil
+}
+
+func downloadDocument(ctx context.Context, client *http.Client, apiBase string, doc documentRef, outputDir string, progress io.Writer) error {
+	metadataURL, err := documentAPIURL(apiBase, doc, 0)
+	if err != nil {
+		return err
+	}
+	var metadata documentMetadata
+	if err := getJSON(ctx, client, metadataURL, &metadata); err != nil {
+		return fmt.Errorf("get document metadata: %w", err)
+	}
+	if metadata.PageCount < 0 {
+		return fmt.Errorf("document metadata returned invalid page count %d", metadata.PageCount)
+	}
+	if err := os.MkdirAll(outputDir, 0o755); err != nil {
+		return fmt.Errorf("create output directory %q: %w", outputDir, err)
+	}
+	absOutputDir, err := filepath.Abs(outputDir)
+	if err != nil {
+		absOutputDir = outputDir
+	}
+	fmt.Fprintf(progress, "Document: %s (%d pages)\n", metadata.Title, metadata.PageCount)
+	fmt.Fprintf(progress, "Storing in %s\n", absOutputDir)
+
+	width := len(strconv.Itoa(metadata.PageCount))
+	if width < 4 {
+		width = 4
+	}
+	for pageNumber := 1; pageNumber <= metadata.PageCount; pageNumber++ {
+		outputPath := filepath.Join(outputDir, fmt.Sprintf("page-%0*d.xml", width, pageNumber))
+		if _, err := os.Stat(outputPath); err == nil {
+			fmt.Fprintf(progress, "Skipped page %d out of %d as it is already downloaded\n", pageNumber, metadata.PageCount)
+			continue
+		} else if !errors.Is(err, os.ErrNotExist) {
+			return fmt.Errorf("check page %d output %q: %w", pageNumber, outputPath, err)
+		}
+
+		fmt.Fprintf(progress, "Downloading page %d out of %d\n", pageNumber, metadata.PageCount)
+		pageURL, err := documentAPIURL(apiBase, doc, pageNumber)
+		if err != nil {
+			return err
+		}
+		var page pageMetadata
+		if err := getJSON(ctx, client, pageURL, &page); err != nil {
+			return fmt.Errorf("get metadata for page %d: %w", pageNumber, err)
+		}
+		if page.Content == "" {
+			return fmt.Errorf("metadata for page %d has no PAGE XML content URL", pageNumber)
+		}
+
+		contents, err := getBytes(ctx, client, page.Content)
+		if err != nil {
+			return fmt.Errorf("download PAGE XML for page %d: %w", pageNumber, err)
+		}
+		if err := validatePageXML(contents); err != nil {
+			return fmt.Errorf("validate PAGE XML for page %d: %w", pageNumber, err)
+		}
+		if err := writeFileAtomically(outputPath, contents, 0o644); err != nil {
+			return fmt.Errorf("store page %d in %q: %w", pageNumber, outputPath, err)
+		}
+		fmt.Fprintf(progress, "Stored page %d in %s\n", pageNumber, outputPath)
+	}
+
+	fmt.Fprintf(progress, "Done: all %d pages are stored in %s\n", metadata.PageCount, absOutputDir)
+	return nil
+}
+
+func documentAPIURL(apiBase string, doc documentRef, pageNumber int) (string, error) {
+	base, err := url.Parse(strings.TrimRight(apiBase, "/"))
+	if err != nil {
+		return "", fmt.Errorf("parse API base URL: %w", err)
+	}
+	base.Path += "/" + doc.Site + "/" + strconv.FormatInt(doc.DocumentID, 10)
+	if pageNumber > 0 {
+		base.Path += "/pages/" + strconv.Itoa(pageNumber)
+	}
+	query := base.Query()
+	query.Set("collection", strconv.FormatInt(doc.CollectionID, 10))
+	query.Set("url", doc.Site)
+	base.RawQuery = query.Encode()
+	return base.String(), nil
+}
+
+func getJSON(ctx context.Context, client *http.Client, endpoint string, target any) error {
+	contents, err := getBytes(ctx, client, endpoint)
+	if err != nil {
+		return err
+	}
+	if err := json.Unmarshal(contents, target); err != nil {
+		return fmt.Errorf("decode response from %s: %w", endpoint, err)
+	}
+	return nil
+}
+
+func getBytes(ctx context.Context, client *http.Client, endpoint string) ([]byte, error) {
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, endpoint, nil)
+	if err != nil {
+		return nil, fmt.Errorf("create request for %s: %w", endpoint, err)
+	}
+	req.Header.Set("User-Agent", "ocrflow-transkribus-downloader/1.0")
+	resp, err := client.Do(req)
+	if err != nil {
+		return nil, fmt.Errorf("GET %s: %w", endpoint, err)
+	}
+	defer resp.Body.Close()
+
+	limited := io.LimitReader(resp.Body, maxResponseSize+1)
+	contents, err := io.ReadAll(limited)
+	if err != nil {
+		return nil, fmt.Errorf("read response from %s: %w", endpoint, err)
+	}
+	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
+		message := strings.TrimSpace(string(contents))
+		if len(message) > 500 {
+			message = message[:500] + "..."
+		}
+		if message == "" {
+			return nil, fmt.Errorf("GET %s returned %s", endpoint, resp.Status)
+		}
+		return nil, fmt.Errorf("GET %s returned %s: %s", endpoint, resp.Status, message)
+	}
+	if len(contents) > maxResponseSize {
+		return nil, fmt.Errorf("response from %s exceeds %d bytes", endpoint, maxResponseSize)
+	}
+	return contents, nil
+}
+
+func validatePageXML(contents []byte) error {
+	decoder := xml.NewDecoder(bytes.NewReader(contents))
+	foundRoot := false
+	for {
+		token, err := decoder.Token()
+		if err != nil {
+			if errors.Is(err, io.EOF) {
+				if !foundRoot {
+					return errors.New("response contains no XML root element")
+				}
+				return nil
+			}
+			return err
+		}
+		if start, ok := token.(xml.StartElement); ok && !foundRoot {
+			if start.Name.Local != "PcGts" {
+				return fmt.Errorf("expected PcGts root element, got %q", start.Name.Local)
+			}
+			foundRoot = true
+		}
+	}
+}
+
+func writeFileAtomically(path string, contents []byte, mode os.FileMode) (err error) {
+	tmp, err := os.CreateTemp(filepath.Dir(path), ".page-*.tmp")
+	if err != nil {
+		return err
+	}
+	tmpPath := tmp.Name()
+	defer func() {
+		tmp.Close()
+		os.Remove(tmpPath)
+	}()
+
+	if err := tmp.Chmod(mode); err != nil {
+		return err
+	}
+	if _, err := tmp.Write(contents); err != nil {
+		return err
+	}
+	if err := tmp.Close(); err != nil {
+		return err
+	}
+	return os.Rename(tmpPath, path)
+}

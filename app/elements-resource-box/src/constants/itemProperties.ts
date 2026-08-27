@@ -5,6 +5,7 @@ export type ItemProperty = {
   displayName: string;
   filterGroup?: FilterGroup | "General";
   isArray?: boolean;
+  filterOptions?: { label: string; value: string }[];
   customCompareFn?: (a: unknown, b: unknown) => number;
   isTitlePageImageFeature?: boolean;
   isTitlePageTextFeature?: boolean;
@@ -124,6 +125,27 @@ export const itemProperties: {
       if (Number.isNaN(numB)) return -1;
       return numA - numB;
     }) as (a: unknown, b: unknown) => number,
+  },
+  shelfmarkProperties: {
+    displayName: "Shelfmark Properties",
+    filterGroup: "Material",
+    isArray: true,
+    filterOptions: [
+      { label: "Shelfmark available", value: "shelfmark_available" },
+      { label: "Facsimile available", value: "facsimile_available" },
+      {
+        label: "Copyright status unknown",
+        value: "copyright_status_unknown",
+      },
+      {
+        label: "External transcription available",
+        value: "external_transcription_available",
+      },
+      {
+        label: "Internal transcription available",
+        value: "internal_transcription_available",
+      },
+    ],
   },
   titlePageStatus: {
     displayName: "Has Title Page",

@@ -1,20 +1,19 @@
 package model
 
 type Edition struct {
-	Key                    string                  `json:"key"`
-	ShortTitle             string                  `json:"shortTitle"`
-	ShortTitleSource       string                  `json:"shortTitleSource"`
-	Notes                  string                  `json:"notes"`
-	Corpus                 []string                `json:"corpus"`
-	Shelfmarks             []EditionShelfmark      `json:"shelfmarks"`
-	Verified               bool                    `json:"verified"`
-	Bibliography           []string                `json:"bibliography"`
-	ReprintOf              *string                 `json:"reprintOf"`
-	VisualElements         []EditionVisualElement  `json:"visualElements"`
-	VisualElementsTypes    []string                `json:"visualElementsTypes" readonly:"true"`
-	DiagramCropsAvailable  bool                    `json:"diagramCropsAvailable"`
-	HasDiagrams            *bool                   `json:"hasDiagrams"`
-	ExternalTranscriptions []ExternalTranscription `json:"externalTranscriptions"`
+	Key                   string                 `json:"key"`
+	ShortTitle            string                 `json:"shortTitle"`
+	ShortTitleSource      string                 `json:"shortTitleSource"`
+	Notes                 string                 `json:"notes"`
+	Corpus                []string               `json:"corpus"`
+	Shelfmarks            []EditionShelfmark     `json:"shelfmarks"`
+	Verified              bool                   `json:"verified"`
+	Bibliography          []string               `json:"bibliography"`
+	ReprintOf             *string                `json:"reprintOf"`
+	VisualElements        []EditionVisualElement `json:"visualElements"`
+	VisualElementsTypes   []string               `json:"visualElementsTypes" readonly:"true"`
+	DiagramCropsAvailable bool                   `json:"diagramCropsAvailable"`
+	HasDiagrams           *bool                  `json:"hasDiagrams"`
 
 	// Manuscript-only
 	IsManuscript       bool    `json:"isManuscript"`
@@ -56,19 +55,24 @@ type EditionSubjectCategory struct {
 }
 
 type EditionShelfmark struct {
-	Volume          *int   `json:"volume"`
-	Scan            string `json:"scan"`
-	Shelfmark       string `json:"shelfmark"`
-	TitlePageImg    string `json:"title_page_img"`
-	FrontispieceImg string `json:"frontispiece_img"`
-	Annotations     string `json:"annotations"`
-	Copyright       string `json:"copyright"`
+	Volume                 *int                                      `json:"volume"`
+	Scan                   string                                    `json:"scan"`
+	Shelfmark              string                                    `json:"shelfmark"`
+	TitlePageImg           string                                    `json:"title_page_img"`
+	FrontispieceImg        string                                    `json:"frontispiece_img"`
+	Annotations            string                                    `json:"annotations"`
+	Copyright              string                                    `json:"copyright"`
+	TranscriptionAvailable EditionShelfmarkTranscriptionAvailability `json:"transcription_available"`
+	Note                   string                                    `json:"note"`
 }
 
-type ExternalTranscription struct {
-	URL  string `json:"url"`
-	Note string `json:"note"`
-}
+type EditionShelfmarkTranscriptionAvailability string
+
+const (
+	EditionShelfmarkTranscriptionNone     EditionShelfmarkTranscriptionAvailability = "none"
+	EditionShelfmarkTranscriptionExternal EditionShelfmarkTranscriptionAvailability = "external"
+	EditionShelfmarkTranscriptionInternal EditionShelfmarkTranscriptionAvailability = "internal"
+)
 
 type EditionVisualElement struct {
 	VisualElementType string                 `json:"visual_element_type"`

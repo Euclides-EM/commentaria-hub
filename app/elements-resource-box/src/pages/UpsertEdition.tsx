@@ -11,7 +11,11 @@ import {
   upsertEdition,
   ustcLookup,
 } from "../api/editionApi";
-import type { model_Edition, model_USTC } from "@hub-api";
+import type {
+  model_Edition,
+  model_EditionShelfmarkTranscriptionAvailability,
+  model_USTC,
+} from "@hub-api";
 import type { model_EditionLocator } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { CATALOGUE_ROUTE } from "../components/layout/routes.ts";
@@ -49,13 +53,11 @@ type EditionFormData = {
     frontispiece_img: string | null;
     annotations: string | null;
     copyright: string | null;
+    transcriptionAvailable: model_EditionShelfmarkTranscriptionAvailability;
+    transcriptionNote: string | null;
   }[];
   verified: boolean;
   hasDiagrams: boolean | "";
-  externalTranscriptions: {
-    url: string;
-    note: string;
-  }[];
   bibliography: string[];
   reprintOf: string | null;
   visualElements: {
@@ -115,10 +117,11 @@ function toModelEdition(data: EditionFormData): model_Edition {
       frontispiece_img: nullToUndef(s.frontispiece_img),
       annotations: nullToUndef(s.annotations),
       copyright: nullToUndef(s.copyright),
+      transcription_available: s.transcriptionAvailable,
+      note: nullToUndef(s.transcriptionNote),
     })),
     verified: data.verified,
     ...(data.hasDiagrams !== "" ? { hasDiagrams: data.hasDiagrams } : {}),
-    externalTranscriptions: data.externalTranscriptions,
     bibliography: data.bibliography,
     reprintOf: nullToUndef(data.reprintOf),
     visualElements: data.visualElements.map((ve) => ({
@@ -199,6 +202,8 @@ function toEditionFormData(
       frontispiece_img: s.frontispiece_img ?? null,
       annotations: s.annotations ?? null,
       copyright: s.copyright ?? null,
+      transcriptionAvailable: s.transcription_available || "none",
+      transcriptionNote: s.note ?? null,
     })),
     verified: Boolean(edition.verified),
     hasDiagrams:
@@ -207,12 +212,6 @@ function toEditionFormData(
         : edition.hasDiagrams === false
           ? false
           : "",
-    externalTranscriptions: (edition.externalTranscriptions || []).map(
-      (transcription) => ({
-        url: transcription.url || "",
-        note: transcription.note || "",
-      }),
-    ),
     bibliography: edition.bibliography || [],
     reprintOf: edition.reprintOf || null,
     visualElements: (edition.visualElements || []).map((ve) => ({
@@ -744,11 +743,12 @@ const defaultValues = (): EditionFormData => ({
       frontispiece_img: null,
       annotations: null,
       copyright: null,
+      transcriptionAvailable: "none",
+      transcriptionNote: null,
     },
   ],
   verified: false,
   hasDiagrams: "",
-  externalTranscriptions: [],
   isManuscript: false,
   year: "",
   languages: [],
@@ -1088,6 +1088,9 @@ export const UpsertEdition = () => {
             frontispiece_img: null,
             annotations: null,
             copyright: null,
+            transcriptionAvailable:
+              "none" as model_EditionShelfmarkTranscriptionAvailability,
+            transcriptionNote: null,
           }))
           .filter(
             (shelfmark) =>
@@ -2026,6 +2029,8 @@ export const UpsertEdition = () => {
                             frontispiece_img: null,
                             annotations: null,
                             copyright: null,
+                            transcriptionAvailable: "none",
+                            transcriptionNote: null,
                           })
                         }
                       >
@@ -2081,6 +2086,48 @@ export const UpsertEdition = () => {
                                   <em>{f.state.meta.errors.join(", ")}</em>
                                 )}
                               </>
+                            )}
+                          </form.Field>
+                        </FormField>
+
+                        <FormField>
+                          <Label>Transcription availability</Label>
+                          <form.Field
+                            name={`shelfmarks[${i}].transcriptionAvailable`}
+                          >
+                            {(f) => (
+                              <SelectInput
+                                value={f.state.value}
+                                onChange={(e) =>
+                                  f.handleChange(
+                                    e.target
+                                      .value as model_EditionShelfmarkTranscriptionAvailability,
+                                  )
+                                }
+                                onBlur={f.handleBlur}
+                              >
+                                <option value="none">None</option>
+                                <option value="external">External</option>
+                                <option value="internal">Internal</option>
+                              </SelectInput>
+                            )}
+                          </form.Field>
+                        </FormField>
+
+                        <FormField>
+                          <Label>Transcription note</Label>
+                          <form.Field
+                            name={`shelfmarks[${i}].transcriptionNote`}
+                          >
+                            {(f) => (
+                              <TextArea
+                                value={f.state.value || ""}
+                                onChange={(e) =>
+                                  f.handleChange(e.target.value || null)
+                                }
+                                onBlur={f.handleBlur}
+                                placeholder="Add context about the transcription..."
+                              />
                             )}
                           </form.Field>
                         </FormField>
@@ -3179,83 +3226,6 @@ export const UpsertEdition = () => {
                           onClick={() => field.removeValue(i)}
                         >
                           Remove Visual Element
-                        </RemoveButton>
-                      </FormField>
-                    ))}
-                  </>
-                )}
-              </form.Field>
-
-              <form.Field name="externalTranscriptions">
-                {(field) => (
-                  <>
-                    <FormField className="full-width">
-                      <Label isTitle>External Transcriptions</Label>
-                      <button
-                        style={{
-                          padding: 4,
-                          width: "fit-content",
-                          cursor: "pointer",
-                        }}
-                        type="button"
-                        onClick={() => field.pushValue({ url: "", note: "" })}
-                      >
-                        Add External Transcription
-                      </button>
-                    </FormField>
-                    {field.state.value.map((_, i) => (
-                      <FormField key={i} gap={0.5} bgColor="#D8ECFC">
-                        <FormField>
-                          <Label>URL</Label>
-                          <form.Field
-                            name={`externalTranscriptions[${i}].url`}
-                            validators={{
-                              onBlur: ({ value }) =>
-                                value && !isValidUrl(value)
-                                  ? "External transcription URL must be valid"
-                                  : undefined,
-                            }}
-                          >
-                            {(f) => (
-                              <>
-                                <Input
-                                  type="url"
-                                  value={f.state.value}
-                                  onChange={(e) =>
-                                    f.handleChange(e.target.value)
-                                  }
-                                  onBlur={f.handleBlur}
-                                  placeholder="https://example.org/transcription"
-                                />
-                                {!f.state.meta.isValid && (
-                                  <em>{f.state.meta.errors.join(", ")}</em>
-                                )}
-                              </>
-                            )}
-                          </form.Field>
-                        </FormField>
-
-                        <FormField>
-                          <Label>Note</Label>
-                          <form.Field
-                            name={`externalTranscriptions[${i}].note`}
-                          >
-                            {(f) => (
-                              <TextArea
-                                value={f.state.value}
-                                onChange={(e) => f.handleChange(e.target.value)}
-                                onBlur={f.handleBlur}
-                                placeholder="Add context about the external transcription..."
-                              />
-                            )}
-                          </form.Field>
-                        </FormField>
-
-                        <RemoveButton
-                          type="button"
-                          onClick={() => field.removeValue(i)}
-                        >
-                          Remove External Transcription
                         </RemoveButton>
                       </FormField>
                     ))}

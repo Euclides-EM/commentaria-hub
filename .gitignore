@@ -13,6 +13,9 @@ logs
 
 node_modules
 
+__pycache__/
+*.py[cod]
+
 .idea
 
 **/.env_private

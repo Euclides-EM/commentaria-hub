@@ -2,8 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_ExternalTranscription = {
-    note?: string;
-    url?: string;
-};
-
+export type model_EditionShelfmarkTranscriptionAvailability =
+  | "none"
+  | "external"
+  | "internal";

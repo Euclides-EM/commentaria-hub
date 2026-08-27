@@ -149,6 +149,10 @@ export const FiltersGroup = ({
     const byFilter: Record<string, FilterValue[]> = {};
     keys.forEach((field) => {
       const config = fields[field]!;
+      if (config.filterOptions) {
+        byFilter[field] = config.filterOptions;
+        return;
+      }
       if (config.isArray) {
         byFilter[field] = uniq(
           data

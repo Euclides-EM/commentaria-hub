@@ -47,6 +47,7 @@ export type Item = {
   imprint: string | null;
   imprintEn: string | null;
   facsimiles: model_EditionShelfmark[];
+  shelfmarkProperties: string[];
   type: string;
   format: number | null;
   elementsBooks: Range[];

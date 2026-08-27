@@ -225,6 +225,8 @@ func buildNotesStmt(ed *Edition) *teim.NotesStmt {
 		addNote(prefix+"frontispieceImg", sh.FrontispieceImg)
 		addNote(prefix+"annotations", sh.Annotations)
 		addNote(prefix+"copyright", sh.Copyright)
+		addNote(prefix+"transcriptionAvailable", string(sh.TranscriptionAvailable))
+		addNote(prefix+"note", sh.Note)
 	}
 
 	if len(notes) == 0 {

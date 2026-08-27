@@ -18,6 +18,30 @@ const dedupeShelfmarksByScan = (
     (shelfmark) => shelfmark.scan!.trim(),
   );
 
+const shelfmarkProperties = (
+  shelfmarks: NonNullable<model_Edition["shelfmarks"]>,
+): string[] => {
+  const properties = new Set<string>();
+  for (const shelfmark of shelfmarks) {
+    if (shelfmark.shelfmark?.trim()) {
+      properties.add("shelfmark_available");
+    }
+    if (shelfmark.scan?.trim()) {
+      properties.add("facsimile_available");
+    }
+    if (!shelfmark.copyright?.trim()) {
+      properties.add("copyright_status_unknown");
+    }
+    if (shelfmark.transcription_available === "external") {
+      properties.add("external_transcription_available");
+    }
+    if (shelfmark.transcription_available === "internal") {
+      properties.add("internal_transcription_available");
+    }
+  }
+  return Array.from(properties);
+};
+
 const toBookRanges = (books: number[]) => {
   return Array.from(new Set(books))
     .sort((a, b) => a - b)
@@ -38,7 +62,8 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
     .map((edition) => {
       const editionWithVisualElementsTypes =
         edition as EditionWithVisualElementsTypes;
-      const shelfmarks = dedupeShelfmarksByScan(edition.shelfmarks || []);
+      const editionShelfmarks = edition.shelfmarks || [];
+      const shelfmarks = dedupeShelfmarksByScan(editionShelfmarks);
       const books = (edition.books || []).filter((value): value is number =>
         Number.isFinite(value),
       );
@@ -70,6 +95,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         imprint: edition.imprint || null,
         imprintEn: edition.imprint_EN || null,
         facsimiles: shelfmarks,
+        shelfmarkProperties: shelfmarkProperties(editionShelfmarks),
         type: edition.isElements ? ItemTypes.elements : ItemTypes.secondary,
         format: edition.format || null,
         elementsBooks: toBookRanges(books),
