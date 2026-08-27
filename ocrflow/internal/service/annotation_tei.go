@@ -103,6 +103,9 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
 		return alto.ExtractTextContentsFromAlto(a), nil
 	}
+	if a, _, err := t.fileSysMgt.RetrieveAnnotationTranscriptionAltoPage(ann, pageNumOrKey); err == nil {
+		return alto.ExtractTextContentsFromAlto(a), nil
+	}
 
 	if md, err := t.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, pageNumOrKey); err == nil {
 		return md.Content, nil
@@ -137,6 +140,10 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
 		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
 		// todo: support items in alto
+		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
+	}
+	if a, _, err := t.fileSysMgt.RetrieveAnnotationTranscriptionAltoPage(ann, pageNumOrKey); err == nil {
+		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
 		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
 	}
 

@@ -31,7 +31,10 @@ import { DeleteAnnotationModal } from '../modal/DeleteAnnotationModal.tsx'
 import useLocalStorageState from 'use-local-storage-state'
 import { hasAnnotationPages } from '../../utils/editions.ts'
 import { useAuthStore } from '../../store/authStore'
-import { useAllEditionsQuery } from '../../queries/editions.ts'
+import {
+  normalizeEditionId,
+  useAllEditionsQuery,
+} from '../../queries/editions.ts'
 import {
   COPYRIGHT_FILTER_OPTIONS,
   getCopyrightStatus,
@@ -307,7 +310,7 @@ export function AnnotationsTable({
                 dataset.id,
                 getFacsimileCopyright(
                   dataset.edition_id
-                    ? editionById.get(dataset.edition_id)
+                    ? editionById.get(normalizeEditionId(dataset.edition_id))
                     : undefined,
                   dataset.facsimile_id
                     ? facsimileById.get(dataset.facsimile_id)

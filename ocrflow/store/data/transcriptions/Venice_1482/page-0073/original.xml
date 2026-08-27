@@ -1,0 +1,334 @@
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-3.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>p073.jpg</fileName>
+    </sourceImageInformation>
+  </Description>
+  <Tags></Tags>
+  <Layout>
+    <Page WIDTH="2658" HEIGHT="3834" ID="page-0073">
+      <PrintSpace HPOS="0" VPOS="0" WIDTH="2658" HEIGHT="3834">
+        <TextBlock ID="r1" TAGREFS="" HPOS="365" VPOS="2579" WIDTH="475" HEIGHT="171">
+          <Shape>
+            <Polygon POINTS="365 2579 365 2750 840 2750 840 2579"></Polygon>
+          </Shape>
+          <TextLine ID="r1l1" HPOS="708" VPOS="2564" WIDTH="133" HEIGHT="88" BASELINE="717 2628 745 2628 774 2628 802 2628 831 2625">
+            <Shape>
+              <Polygon POINTS="709 2643 738 2637 749 2642 768 2638 777 2647 799 2652 806 2646 813 2651 820 2646 841 2647 839 2564 820 2565 814 2572 805 2570 795 2577 779 2567 765 2571 749 2567 737 2573 725 2564 708 2566"></Polygon>
+            </Shape>
+            <String CONTENT="C" HPOS="708" VPOS="2564" WIDTH="133" HEIGHT="88"></String>
+          </TextLine>
+          <TextLine ID="r1l2" HPOS="443" VPOS="2548" WIDTH="197" HEIGHT="108" BASELINE="453 2630 478 2632 503 2634 528 2634 554 2633 579 2631 604 2631 630 2630">
+            <Shape>
+              <Polygon POINTS="444 2645 508 2642 527 2656 544 2644 565 2654 593 2643 640 2650 639 2554 573 2567 561 2555 526 2548 488 2580 443 2579"></Polygon>
+            </Shape>
+          </TextLine>
+          <TextLine ID="r1l3" HPOS="355" VPOS="2639" WIDTH="493" HEIGHT="127" BASELINE="365 2721 390 2724 415 2726 440 2726 465 2727 490 2727 515 2727 540 2727 565 2726 590 2726 615 2724 640 2724 665 2723 690 2723 715 2721 740 2721 765 2720 790 2720 815 2720 840 2720">
+            <Shape>
+              <Polygon POINTS="356 2766 399 2744 477 2755 508 2737 848 2745 847 2639 797 2655 684 2652 660 2668 528 2656 355 2701"></Polygon>
+            </Shape>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="r2" TAGREFS="" HPOS="1008" VPOS="2614" WIDTH="33" HEIGHT="150">
+          <Shape>
+            <Polygon POINTS="1008 2614 1008 2764 1041 2764 1041 2614"></Polygon>
+          </Shape>
+          <TextLine ID="r2l1" HPOS="999" VPOS="2656" WIDTH="50" HEIGHT="82" BASELINE="1008 2714 1041 2714">
+            <Shape>
+              <Polygon POINTS="999 2729 1018 2729 1030 2738 1049 2738 1049 2661 1035 2663 1026 2656 1014 2658 1009 2663 999 2661"></Polygon>
+            </Shape>
+            <String CONTENT="2" HPOS="999" VPOS="2656" WIDTH="50" HEIGHT="82"></String>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="r3" TAGREFS="" HPOS="1091" VPOS="405" WIDTH="1417" HEIGHT="2504">
+          <Shape>
+            <Polygon POINTS="1091 405 1091 2909 2508 2909 2508 405"></Polygon>
+          </Shape>
+          <TextLine ID="r3l1" HPOS="1669" VPOS="341" WIDTH="200" HEIGHT="132" BASELINE="1680 435 1705 434 1731 433 1757 432 1782 431 1808 431 1834 431 1860 432">
+            <Shape>
+              <Polygon POINTS="1671 465 1692 460 1713 473 1751 448 1789 456 1827 447 1869 449 1866 350 1813 365 1792 352 1783 359 1750 355 1740 344 1714 341 1705 350 1669 344"></Polygon>
+            </Shape>
+            <String CONTENT="LIBER" HPOS="1669" VPOS="341" WIDTH="200" HEIGHT="132"></String>
+          </TextLine>
+          <TextLine ID="r3l2" HPOS="1085" VPOS="474" WIDTH="1390" HEIGHT="91" BASELINE="1094 548 1162 548 1231 546 1299 546 1368 545 1437 543 1505 543 1574 542 1642 540 1711 540 1780 539 1848 537 1917 537 1985 536 2054 534 2123 534 2191 533 2260 533 2328 533 2397 531 2466 531">
+            <Shape>
+              <Polygon POINTS="1086 565 2475 543 2474 485 2410 474 1085 485"></Polygon>
+            </Shape>
+            <String CONTENT="piime ad secundam sicut tertic ad quartam. quod autem picit in.S. vifr initione est ac si viceret" HPOS="1085" VPOS="474" WIDTH="1390" HEIGHT="91"></String>
+          </TextLine>
+          <TextLine ID="r3l3" HPOS="1081" VPOS="553" WIDTH="1384" HEIGHT="63" BASELINE="1091 599 1159 600 1227 600 1295 600 1364 600 1432 599 1500 599 1569 597 1637 596 1705 594 1774 594 1842 593 1910 591 1978 590 2047 588 2115 587 2183 587 2252 585 2320 585 2388 585 2457 585">
+            <Shape>
+              <Polygon POINTS="1082 616 2420 604 2465 553 1081 566"></Polygon>
+            </Shape>
+            <String CONTENT="maiorem propoxionem voco. 4. quantitatum paime ad secundam quam tertic ad quartam" HPOS="1081" VPOS="553" WIDTH="1384" HEIGHT="63"></String>
+          </TextLine>
+          <TextLine ID="r3l4" HPOS="1096" VPOS="598" WIDTH="1376" HEIGHT="69" BASELINE="1106 657 1173 657 1241 656 1309 654 1377 653 1445 653 1513 651 1580 650 1648 648 1716 648 1784 647 1852 645 1920 644 1988 644 2055 642 2123 642 2191 641 2259 641 2327 639 2395 639 2463 639">
+            <Shape>
+              <Polygon POINTS="1097 667 2364 662 2472 654 2471 598 1096 624"></Polygon>
+            </Shape>
+            <String CONTENT="quod est puimam magis excedere secundam quam tertia excedat quartam. quaum aliqua ex" HPOS="1096" VPOS="598" WIDTH="1376" HEIGHT="69"></String>
+          </TextLine>
+          <TextLine ID="r3l5" HPOS="1095" VPOS="650" WIDTH="1379" HEIGHT="73" BASELINE="1104 711 1172 710 1240 708 1308 707 1376 705 1444 705 1512 704 1580 702 1648 701 1716 701 1784 699 1852 699 1920 698 1988 696 2056 696 2124 695 2192 695 2260 693 2328 693 2396 692 2465 692">
+            <Shape>
+              <Polygon POINTS="1096 723 2474 697 2437 650 1095 666"></Polygon>
+            </Shape>
+            <String CONTENT="multiplicibus prime addit super aliquam ex multiplicibus secunde: aliqua ernul¬" HPOS="1095" VPOS="650" WIDTH="1379" HEIGHT="73"></String>
+          </TextLine>
+          <TextLine ID="r3l6" HPOS="1100" VPOS="707" WIDTH="1367" HEIGHT="62" BASELINE="1110 768 1177 765 1244 762 1312 761 1379 758 1447 756 1514 756 1582 755 1649 753 1717 753 1784 753 1851 752 1919 752 1986 752 2054 750 2121 750 2189 749 2256 749 2324 747 2391 746 2459 744">
+            <Shape>
+              <Polygon POINTS="1101 769 2453 759 2467 707 1100 720"></Polygon>
+            </Shape>
+            <String CONTENT="tiplicibus tertie sumpta secundum numerationem multiplicis pame non addente" HPOS="1100" VPOS="707" WIDTH="1367" HEIGHT="62"></String>
+          </TextLine>
+          <TextLine ID="r3l7" HPOS="1095" VPOS="753" WIDTH="1392" HEIGHT="81" BASELINE="1104 824 1172 819 1241 816 1309 813 1378 810 1447 809 1515 807 1584 807 1653 806 1721 806 1790 806 1859 806 1927 806 1996 806 2065 804 2133 804 2202 804 2271 803 2339 801 2408 798 2477 795">
+            <Shape>
+              <Polygon POINTS="1096 834 2487 809 2486 753 1095 773"></Polygon>
+            </Shape>
+            <String CONTENT="super aliquem ex multiplicibus quarte: sumpta sim numerationem multiplicis scone. quod e" HPOS="1095" VPOS="753" WIDTH="1392" HEIGHT="81"></String>
+          </TextLine>
+          <TextLine ID="r3l8" HPOS="1092" VPOS="810" WIDTH="1387" HEIGHT="72" BASELINE="1101 878 1169 872 1238 867 1306 865 1375 862 1443 860 1512 858 1580 858 1649 858 1717 858 1786 858 1854 858 1923 858 1991 858 2060 858 2128 858 2197 857 2265 855 2334 854 2402 852 2471 849">
+            <Shape>
+              <Polygon POINTS="1092 882 2446 868 2479 810 1092 833"></Polygon>
+            </Shape>
+            <String CONTENT="esse maiorem proportionem multiplicis paime ad multiplicem scone. quam multiplicis ter¬" HPOS="1092" VPOS="810" WIDTH="1387" HEIGHT="72"></String>
+          </TextLine>
+          <TextLine ID="r3l9" HPOS="1104" VPOS="861" WIDTH="1363" HEIGHT="91" BASELINE="1113 932 1180 926 1247 921 1314 917 1382 914 1449 912 1516 911 1584 910 1651 909 1718 909 1786 909 1853 911 1920 911 1987 911 2055 911 2122 911 2189 911 2257 909 2324 908 2391 906 2459 903">
+            <Shape>
+              <Polygon POINTS="1105 952 2467 916 2437 861 1104 888"></Polygon>
+            </Shape>
+            <String CONTENT="tic ad multiplicem quartc. C Diffinitiones autem istas nisi sunt aliqui oemonstrare" HPOS="1104" VPOS="861" WIDTH="1363" HEIGHT="91"></String>
+          </TextLine>
+          <TextLine ID="r3l10" HPOS="1089" VPOS="923" WIDTH="1387" HEIGHT="65" BASELINE="1098 986 1166 979 1235 974 1303 971 1372 967 1440 965 1509 963 1577 962 1646 962 1714 962 1783 962 1851 962 1920 963 1988 963 2057 963 2125 965 2194 965 2262 963 2331 963 2399 962 2468 959">
+            <Shape>
+              <Polygon POINTS="1090 988 2425 984 2476 923 1089 955"></Polygon>
+            </Shape>
+            <String CONTENT="quorum ametus filius Joseph tentauit eas oemonstrare in epistola sua quam ve propo¬" HPOS="1089" VPOS="923" WIDTH="1387" HEIGHT="65"></String>
+          </TextLine>
+          <TextLine ID="r3l11" HPOS="1092" VPOS="967" WIDTH="1380" HEIGHT="72" BASELINE="1101 1035 1169 1030 1237 1026 1305 1022 1373 1020 1441 1017 1509 1016 1577 1016 1645 1016 1713 1016 1782 1016 1850 1016 1918 1016 1986 1017 2054 1017 2122 1017 2190 1017 2258 1016 2326 1016 2394 1014 2463 1011">
+            <Shape>
+              <Polygon POINTS="1093 1039 2443 1026 2472 967 1092 989"></Polygon>
+            </Shape>
+            <String CONTENT="tione à proportionalitate composuit. 2 accepit tria per modum positionis tanquam painci¬" HPOS="1092" VPOS="967" WIDTH="1380" HEIGHT="72"></String>
+          </TextLine>
+          <TextLine ID="r3l12" HPOS="1099" VPOS="1020" WIDTH="1379" HEIGHT="79" BASELINE="1109 1085 1177 1081 1245 1077 1313 1074 1381 1073 1449 1071 1517 1070 1585 1070 1653 1068 1721 1068 1789 1068 1857 1068 1925 1068 1993 1070 2061 1070 2129 1070 2197 1070 2265 1070 2333 1070 2401 1068 2469 1068">
+            <Shape>
+              <Polygon POINTS="1100 1099 2449 1088 2478 1020 1099 1045"></Polygon>
+            </Shape>
+            <String CONTENT="pia que picit esse per se nota T. probatione non indigere. ¶. Quorum paimum est quod si" HPOS="1099" VPOS="1020" WIDTH="1379" HEIGHT="79"></String>
+          </TextLine>
+          <TextLine ID="r3l13" HPOS="1100" VPOS="1074" WIDTH="1388" HEIGHT="74" BASELINE="1109 1136 1177 1133 1245 1131 1314 1130 1382 1128 1451 1127 1519 1126 1588 1125 1656 1124 1725 1122 1793 1122 1861 1122 1930 1121 1998 1121 2067 1121 2135 1121 2204 1121 2272 1121 2341 1122 2409 1122 2478 1124">
+            <Shape>
+              <Polygon POINTS="1101 1148 2488 1141 2487 1084 2302 1074 1100 1098"></Polygon>
+            </Shape>
+            <String CONTENT="fuerint. 4. quantitates. quarum sit propontio paime ad scomam sicut terric ad quartam." HPOS="1100" VPOS="1074" WIDTH="1388" HEIGHT="74"></String>
+          </TextLine>
+          <TextLine ID="r3l14" HPOS="1103" VPOS="1140" WIDTH="1384" HEIGHT="58" BASELINE="1112 1187 1180 1187 1248 1185 1316 1185 1385 1184 1453 1182 1521 1181 1590 1181 1658 1179 1726 1178 1795 1178 1863 1176 1931 1175 1999 1175 2068 1175 2136 1175 2204 1175 2273 1175 2341 1175 2409 1176 2478 1178">
+            <Shape>
+              <Polygon POINTS="1104 1198 2449 1196 2487 1140 1103 1158"></Polygon>
+            </Shape>
+            <String CONTENT="erit econuerso proportio sconc ad primam sicut quarte ad tertiam. chic est modus argu" HPOS="1103" VPOS="1140" WIDTH="1384" HEIGHT="58"></String>
+          </TextLine>
+          <TextLine ID="r3l15" HPOS="1100" VPOS="1183" WIDTH="1389" HEIGHT="66" BASELINE="1109 1239 1177 1239 1246 1239 1314 1239 1383 1239 1452 1238 1520 1238 1589 1236 1657 1235 1726 1233 1795 1232 1863 1232 1932 1230 2000 1229 2069 1229 2138 1227 2206 1227 2275 1227 2343 1229 2412 1229 2481 1230">
+            <Shape>
+              <Polygon POINTS="1101 1249 2463 1243 2489 1183 1100 1198"></Polygon>
+            </Shape>
+            <String CONTENT="endi quem vocauit superius cudides conuersam propo: tionalitatem. a errauit qunim oi" HPOS="1100" VPOS="1183" WIDTH="1389" HEIGHT="66"></String>
+          </TextLine>
+          <TextLine ID="r3l16" HPOS="1106" VPOS="1235" WIDTH="1381" HEIGHT="78" BASELINE="1116 1298 1184 1298 1252 1296 1320 1296 1388 1295 1456 1295 1524 1293 1592 1292 1660 1290 1728 1290 1797 1289 1865 1287 1933 1286 2001 1284 2069 1283 2137 1283 2205 1281 2273 1281 2341 1281 2409 1281 2478 1281">
+            <Shape>
+              <Polygon POINTS="1107 1313 2487 1293 2486 1237 2423 1235 1106 1254"></Polygon>
+            </Shape>
+            <String CONTENT="xit propositionem esse per se notam. cuius antecedens: conscquens sunt ignota. Igno" HPOS="1106" VPOS="1235" WIDTH="1381" HEIGHT="78"></String>
+          </TextLine>
+          <TextLine ID="r3l17" HPOS="1098" VPOS="1289" WIDTH="1391" HEIGHT="75" BASELINE="1107 1352 1175 1352 1244 1352 1312 1351 1381 1350 1450 1350 1518 1349 1587 1347 1656 1347 1724 1346 1793 1344 1862 1343 1930 1343 1999 1341 2068 1340 2136 1338 2205 1337 2274 1337 2342 1335 2411 1334 2480 1334">
+            <Shape>
+              <Polygon POINTS="1099 1364 2434 1351 2489 1345 2488 1289 1098 1312"></Polygon>
+            </Shape>
+            <String CONTENT="tum est enim quid sit esse propontionem pame quantitatis ad secundam sicut tertic ad" HPOS="1098" VPOS="1289" WIDTH="1391" HEIGHT="75"></String>
+          </TextLine>
+          <TextLine ID="r3l18" HPOS="1110" VPOS="1348" WIDTH="1382" HEIGHT="72" BASELINE="1119 1407 1187 1407 1255 1406 1323 1404 1392 1403 1460 1401 1528 1401 1596 1400 1665 1398 1733 1398 1801 1397 1869 1397 1938 1395 2006 1395 2074 1394 2142 1394 2211 1392 2279 1392 2347 1391 2415 1391 2484 1389">
+            <Shape>
+              <Polygon POINTS="1111 1420 2456 1409 2492 1348 1110 1364"></Polygon>
+            </Shape>
+            <String CONTENT="quartam. quare hoc ignoto posito impossibile est intelligere quid ex ipso sequatur" HPOS="1110" VPOS="1348" WIDTH="1382" HEIGHT="72"></String>
+          </TextLine>
+          <TextLine ID="r3l19" HPOS="1101" VPOS="1400" WIDTH="1394" HEIGHT="72" BASELINE="1110 1463 1178 1460 1247 1457 1316 1455 1385 1453 1454 1452 1523 1451 1591 1449 1660 1449 1729 1449 1798 1448 1867 1448 1936 1448 2005 1448 2073 1448 2142 1447 2211 1446 2280 1446 2349 1445 2418 1443 2487 1442">
+            <Shape>
+              <Polygon POINTS="1101 1472 2403 1462 2495 1448 2495 1400 1101 1422"></Polygon>
+            </Shape>
+            <String CONTENT="similiter quoque que consequens est ignotum. impossibile est intelligere quid ad ipsam" HPOS="1101" VPOS="1400" WIDTH="1394" HEIGHT="72"></String>
+          </TextLine>
+          <TextLine ID="r3l20" HPOS="1095" VPOS="1455" WIDTH="1404" HEIGHT="66" BASELINE="1104 1512 1173 1509 1242 1506 1311 1503 1381 1502 1450 1500 1519 1499 1589 1499 1658 1497 1727 1497 1797 1497 1866 1497 1935 1499 2004 1499 2074 1499 2143 1499 2212 1499 2282 1499 2351 1499 2420 1497 2490 1496">
+            <Shape>
+              <Polygon POINTS="1095 1521 2475 1517 2499 1455 1095 1469"></Polygon>
+            </Shape>
+            <String CONTENT="antecedat. ¶ Scom paucipium eius fuit: quod si fuerint. 4. quantitates quarum sit propo¬" HPOS="1095" VPOS="1455" WIDTH="1404" HEIGHT="66"></String>
+          </TextLine>
+          <TextLine ID="r3l21" HPOS="1100" VPOS="1514" WIDTH="1393" HEIGHT="65" BASELINE="1110 1563 1178 1560 1247 1558 1316 1556 1384 1554 1453 1553 1522 1551 1590 1550 1659 1550 1728 1548 1797 1548 1865 1548 1934 1548 2003 1548 2071 1548 2140 1548 2209 1548 2277 1548 2346 1548 2415 1548 2484 1548">
+            <Shape>
+              <Polygon POINTS="1101 1579 2351 1566 2493 1556 2493 1514 1100 1520"></Polygon>
+            </Shape>
+            <String CONTENT="tio paime ad scoam sicut tertie ad quarta. si paima sit maios scona: erit tertia maio:" HPOS="1100" VPOS="1514" WIDTH="1393" HEIGHT="65"></String>
+          </TextLine>
+          <TextLine ID="r3l22" HPOS="1100" VPOS="1555" WIDTH="1392" HEIGHT="70" BASELINE="1109 1616 1177 1614 1246 1612 1315 1611 1383 1609 1452 1607 1521 1605 1589 1604 1658 1604 1727 1602 1796 1601 1864 1601 1933 1600 2002 1599 2070 1599 2139 1599 2208 1599 2276 1599 2345 1600 2414 1601 2483 1601">
+            <Shape>
+              <Polygon POINTS="1100 1621 2395 1625 2492 1610 2492 1555 1100 1578"></Polygon>
+            </Shape>
+            <String CONTENT="quarta. 2 si minori minor.2 si equalis equalis. U Tertium fuit quod si fucrint. 4. quantita" HPOS="1100" VPOS="1555" WIDTH="1392" HEIGHT="70"></String>
+          </TextLine>
+          <TextLine ID="r3l23" HPOS="1109" VPOS="1610" WIDTH="1384" HEIGHT="71" BASELINE="1119 1673 1187 1670 1255 1667 1323 1665 1392 1663 1460 1661 1528 1659 1596 1658 1665 1656 1733 1656 1801 1655 1869 1655 1938 1655 2006 1653 2074 1653 2142 1653 2211 1653 2279 1655 2347 1655 2415 1655 2484 1656">
+            <Shape>
+              <Polygon POINTS="1110 1681 2436 1675 2493 1667 2493 1610 1109 1634"></Polygon>
+            </Shape>
+            <String CONTENT="tes quarum sit paoportio pame ad secundam sicut terne ad quartam: erit pamo ad co¬" HPOS="1109" VPOS="1610" WIDTH="1384" HEIGHT="71"></String>
+          </TextLine>
+          <TextLine ID="r3l24" HPOS="1105" VPOS="1673" WIDTH="1392" HEIGHT="58" BASELINE="1113 1725 1181 1722 1250 1719 1319 1718 1388 1716 1457 1713 1525 1712 1594 1712 1663 1710 1732 1710 1801 1710 1869 1709 1938 1709 2007 1709 2076 1709 2145 1709 2213 1710 2282 1710 2351 1710 2420 1710 2489 1710">
+            <Shape>
+              <Polygon POINTS="1105 1731 2484 1723 2497 1673 1105 1685"></Polygon>
+            </Shape>
+            <String CONTENT="libet multipler secunde: sicut tertine ad eque multiplex ex multiplicibus quarte: t ac" HPOS="1105" VPOS="1673" WIDTH="1392" HEIGHT="58"></String>
+          </TextLine>
+          <TextLine ID="r3l25" HPOS="1104" VPOS="1711" WIDTH="1398" HEIGHT="75" BASELINE="1113 1778 1185 1775 1258 1772 1330 1770 1403 1768 1475 1767 1548 1766 1621 1766 1693 1766 1766 1766 1838 1766 1911 1766 1983 1766 2056 1767 2129 1767 2201 1767 2274 1766 2346 1766 2419 1764 2492 1763">
+            <Shape>
+              <Polygon POINTS="1104 1786 2502 1782 2501 1723 2451 1711 1104 1731"></Polygon>
+            </Shape>
+            <String CONTENT="cidit sibi in istis ouobus paincipijs idem peccatum quod accidebat in paino. Accepit" HPOS="1104" VPOS="1711" WIDTH="1398" HEIGHT="75"></String>
+          </TextLine>
+          <TextLine ID="r3l26" HPOS="1112" VPOS="1773" WIDTH="1377" HEIGHT="68" BASELINE="1121 1827 1192 1826 1264 1825 1335 1824 1407 1823 1478 1823 1550 1823 1621 1823 1693 1823 1764 1823 1836 1823 1907 1823 1979 1823 2050 1823 2122 1821 2193 1821 2265 1820 2336 1820 2408 1818 2480 1815">
+            <Shape>
+              <Polygon POINTS="1112 1841 2489 1825 2467 1773 1112 1791"></Polygon>
+            </Shape>
+            <String CONTENT="enim in omnibus ignota similrtamque nota. quare non oemonstrauit. peccauit etiam in se¬" HPOS="1112" VPOS="1773" WIDTH="1377" HEIGHT="68"></String>
+          </TextLine>
+          <TextLine ID="r3l27" HPOS="1105" VPOS="1839" WIDTH="1398" HEIGHT="53" BASELINE="1115 1884 1184 1883 1253 1881 1322 1881 1391 1880 1460 1880 1529 1880 1598 1878 1667 1878 1736 1878 1805 1878 1874 1878 1943 1877 2012 1877 2081 1877 2150 1875 2219 1875 2288 1874 2357 1873 2426 1871 2495 1869">
+            <Shape>
+              <Polygon POINTS="1106 1890 2392 1892 2503 1884 2503 1839 1105 1841"></Polygon>
+            </Shape>
+            <String CONTENT="tunda ocmonstratione à in tertia ? in quinta. in quarum qualibet arguit ex. 8. vt ex 10." HPOS="1105" VPOS="1839" WIDTH="1398" HEIGHT="53"></String>
+          </TextLine>
+          <TextLine ID="r3l28" HPOS="1118" VPOS="1879" WIDTH="1373" HEIGHT="71" BASELINE="1127 1940 1194 1938 1262 1937 1330 1937 1398 1935 1466 1935 1533 1934 1601 1934 1669 1932 1737 1932 1805 1932 1872 1931 1940 1931 2008 1929 2076 1929 2144 1928 2211 1928 2279 1928 2347 1926 2415 1926 2483 1925">
+            <Shape>
+              <Polygon POINTS="1119 1950 2481 1940 2491 1879 1118 1896"></Polygon>
+            </Shape>
+            <String CONTENT="buius que probantur ex piffinitione in continue propontionalitatis: Arguit cnim sic" HPOS="1118" VPOS="1879" WIDTH="1373" HEIGHT="71"></String>
+          </TextLine>
+          <TextLine ID="r3l29" HPOS="1114" VPOS="1930" WIDTH="1390" HEIGHT="80" BASELINE="1124 1997 1192 1995 1261 1994 1329 1992 1398 1991 1466 1989 1535 1988 1603 1986 1672 1985 1740 1983 1809 1982 1878 1980 1946 1979 2015 1978 2083 1977 2152 1977 2220 1977 2289 1977 2357 1977 2426 1977 2495 1979">
+            <Shape>
+              <Polygon POINTS="1115 2010 2504 1988 2503 1946 2432 1930 1114 1956"></Polygon>
+            </Shape>
+            <String CONTENT="si propotio a .b. ad.c. est maio: quam .g. ad. d. sit ergo. v.b. partis. a.b. ad. c. sicut . g." HPOS="1114" VPOS="1930" WIDTH="1390" HEIGHT="80"></String>
+          </TextLine>
+          <TextLine ID="r3l30" HPOS="1119" VPOS="1985" WIDTH="1381" HEIGHT="79" BASELINE="1128 2054 1196 2051 1264 2048 1332 2046 1400 2043 1469 2040 1537 2038 1605 2036 1673 2034 1741 2033 1810 2031 1878 2030 1946 2028 2014 2027 2082 2027 2151 2027 2219 2027 2287 2027 2355 2028 2423 2030 2492 2031">
+            <Shape>
+              <Polygon POINTS="1120 2064 2500 2050 2499 1990 2445 1985 1119 2006"></Polygon>
+            </Shape>
+            <String CONTENT="ad. d. per qoò apparet ipsum supponere quod ouaxum quantitatum. a b. 2.u. ba ta equaliums" HPOS="1119" VPOS="1985" WIDTH="1381" HEIGHT="79"></String>
+          </TextLine>
+          <TextLine ID="r3l31" HPOS="1104" VPOS="2031" WIDTH="1400" HEIGHT="71" BASELINE="1113 2102 1182 2099 1251 2097 1320 2094 1389 2091 1458 2090 1527 2087 1597 2085 1666 2084 1735 2082 1804 2081 1873 2079 1942 2079 2011 2078 2081 2078 2150 2079 2219 2079 2288 2081 2357 2082 2426 2084 2496 2087">
+            <Shape>
+              <Polygon POINTS="1105 2102 2504 2094 2503 2049 2135 2031 1104 2068"></Polygon>
+            </Shape>
+            <String CONTENT="relatarum ad. e. maior maiorem à minos minorem ad ipsam optinet proportionem" HPOS="1104" VPOS="2031" WIDTH="1400" HEIGHT="71"></String>
+          </TextLine>
+          <TextLine ID="r3l32" HPOS="1113" VPOS="2098" WIDTH="1382" HEIGHT="60" BASELINE="1122 2153 1190 2150 1258 2146 1326 2144 1395 2141 1463 2139 1531 2137 1599 2135 1668 2135 1736 2133 1804 2133 1872 2132 1941 2132 2009 2132 2077 2133 2145 2133 2214 2135 2282 2136 2350 2138 2418 2139 2487 2141">
+            <Shape>
+              <Polygon POINTS="1114 2158 2471 2154 2495 2098 1113 2116"></Polygon>
+            </Shape>
+            <String CONTENT="vel quod quantitas ad. e. habebit minorem pior ontionem quae habeat. a.b. erit minor. a" HPOS="1113" VPOS="2098" WIDTH="1382" HEIGHT="60"></String>
+          </TextLine>
+          <TextLine ID="r3l33" HPOS="1110" VPOS="2148" WIDTH="1386" HEIGHT="61" BASELINE="1119 2204 1187 2200 1255 2197 1324 2195 1392 2192 1461 2190 1529 2189 1597 2187 1666 2187 1734 2186 1803 2186 1871 2186 1939 2187 2008 2187 2076 2188 2145 2189 2213 2190 2281 2191 2350 2192 2418 2193 2487 2195">
+            <Shape>
+              <Polygon POINTS="1110 2209 2496 2198 2495 2148 1110 2159"></Polygon>
+            </Shape>
+            <String CONTENT="b. quotum paimum oemonstrat. 8. huius.2 sconi. io Ilam cum vultis sumere quantitate" HPOS="1110" VPOS="2148" WIDTH="1386" HEIGHT="61"></String>
+          </TextLine>
+          <TextLine ID="r3l34" HPOS="1119" VPOS="2206" WIDTH="1382" HEIGHT="61" BASELINE="1128 2256 1196 2252 1264 2250 1332 2247 1401 2244 1469 2243 1537 2243 1605 2241 1674 2241 1742 2241 1810 2241 1878 2242 1947 2243 2015 2243 2083 2244 2151 2244 2220 2246 2288 2246 2356 2247 2424 2247 2493 2247">
+            <Shape>
+              <Polygon POINTS="1119 2267 2471 2265 2501 2206 1119 2219"></Polygon>
+            </Shape>
+            <String CONTENT="que se babeat ad. e. in prarpontione. g. ad. d. cabo tibi maiorem aut minorem aut" HPOS="1119" VPOS="2206" WIDTH="1382" HEIGHT="61"></String>
+          </TextLine>
+          <TextLine ID="r3l35" HPOS="1120" VPOS="2254" WIDTH="1382" HEIGHT="64" BASELINE="1128 2309 1196 2306 1264 2303 1332 2301 1401 2298 1469 2297 1537 2297 1605 2297 1674 2297 1742 2297 1810 2297 1878 2297 1947 2298 2015 2298 2083 2300 2151 2300 2220 2300 2288 2301 2356 2301 2424 2300 2493 2300">
+            <Shape>
+              <Polygon POINTS="1120 2315 2367 2318 2502 2311 2502 2254 1120 2266"></Polygon>
+            </Shape>
+            <String CONTENT="equalem. a.b. indifferenter sicut voluero. quare autem non oemonstrat aut accidit si" HPOS="1120" VPOS="2254" WIDTH="1382" HEIGHT="64"></String>
+          </TextLine>
+          <TextLine ID="r3l36" HPOS="1117" VPOS="2308" WIDTH="1378" HEIGHT="72" BASELINE="1125 2363 1193 2360 1261 2358 1329 2355 1397 2354 1465 2354 1533 2354 1601 2352 1669 2352 1737 2352 1805 2354 1873 2354 1941 2354 2009 2354 2077 2355 2145 2355 2213 2355 2281 2354 2349 2354 2417 2352 2486 2351">
+            <Shape>
+              <Polygon POINTS="1117 2380 2483 2367 2495 2308 1117 2321"></Polygon>
+            </Shape>
+            <String CONTENT="bi circulus  paincipia esse ignotiora condusionibus. Supponenda sunt igitur cum cu¬" HPOS="1117" VPOS="2308" WIDTH="1378" HEIGHT="72"></String>
+          </TextLine>
+          <TextLine ID="r3l37" HPOS="1116" VPOS="2368" WIDTH="1397" HEIGHT="65" BASELINE="1125 2418 1197 2415 1270 2414 1342 2412 1415 2411 1487 2411 1560 2409 1633 2409 1705 2409 1778 2409 1850 2409 1923 2409 1995 2409 2068 2409 2141 2409 2213 2409 2286 2408 2358 2408 2431 2406 2504 2405">
+            <Shape>
+              <Polygon POINTS="1116 2423 2448 2433 2513 2424 2513 2368 1116 2380"></Polygon>
+            </Shape>
+            <String CONTENT="dide pancipia tanquae nota. 2 non ipsa ex condusionibus. sed condusiones ex ipsis" HPOS="1116" VPOS="2368" WIDTH="1397" HEIGHT="65"></String>
+          </TextLine>
+          <TextLine ID="r3l38" HPOS="1117" VPOS="2419" WIDTH="355" HEIGHT="71" BASELINE="1127 2474 1152 2474 1178 2474 1204 2472 1230 2471 1256 2471 1282 2469 1308 2468 1334 2467 1360 2466 1386 2466 1412 2466 1438 2467 1464 2469">
+            <Shape>
+              <Polygon POINTS="1119 2490 1445 2483 1472 2475 1471 2433 1431 2420 1365 2434 1348 2419 1289 2435 1261 2423 1117 2436"></Polygon>
+            </Shape>
+            <String CONTENT="oemonstrande sunt." HPOS="1117" VPOS="2419" WIDTH="355" HEIGHT="71"></String>
+          </TextLine>
+          <TextLine ID="r3l39" HPOS="1604" VPOS="2465" WIDTH="264" HEIGHT="77" BASELINE="1613 2526 1640 2522 1667 2519 1695 2517 1722 2517 1750 2518 1777 2520 1805 2520 1832 2520 1860 2520">
+            <Shape>
+              <Polygon POINTS="1605 2541 1631 2542 1646 2526 1667 2523 1731 2538 1771 2524 1821 2534 1868 2530 1868 2475 1786 2465 1746 2479 1732 2472 1663 2478 1649 2468 1604 2475"></Polygon>
+            </Shape>
+            <String CONTENT="iropositio" HPOS="1604" VPOS="2465" WIDTH="264" HEIGHT="77"></String>
+          </TextLine>
+          <TextLine ID="r3l40" HPOS="1900" VPOS="2471" WIDTH="61" HEIGHT="67" BASELINE="1908 2522 1953 2522">
+            <Shape>
+              <Polygon POINTS="1900 2528 1930 2530 1938 2535 1942 2533 1952 2538 1961 2538 1961 2472 1952 2472 1949 2476 1938 2479 1928 2471 1900 2472"></Polygon>
+            </Shape>
+            <String CONTENT="1." HPOS="1900" VPOS="2471" WIDTH="61" HEIGHT="67"></String>
+          </TextLine>
+          <TextLine ID="r3l41" HPOS="1358" VPOS="2517" WIDTH="1147" HEIGHT="82" BASELINE="1367 2579 1423 2579 1479 2579 1536 2579 1592 2578 1649 2577 1705 2576 1762 2576 1818 2574 1875 2573 1931 2573 1987 2571 2044 2571 2100 2570 2157 2570 2213 2568 2270 2568 2326 2568 2383 2570 2439 2570 2496 2571">
+            <Shape>
+              <Polygon POINTS="1359 2599 2505 2578 2504 2517 1358 2532"></Polygon>
+            </Shape>
+            <String CONTENT="&amp; fuerint quolibet quantitates aliaxum totidem eque multi¬" HPOS="1358" VPOS="2517" WIDTH="1147" HEIGHT="82"></String>
+          </TextLine>
+          <TextLine ID="r3l42" HPOS="1376" VPOS="2578" WIDTH="1138" HEIGHT="62" BASELINE="1385 2630 1441 2631 1497 2631 1553 2631 1609 2631 1665 2630 1721 2630 1777 2628 1833 2627 1889 2627 1945 2625 2001 2624 2057 2624 2113 2622 2169 2622 2225 2622 2281 2622 2337 2622 2393 2624 2449 2625 2505 2627">
+            <Shape>
+              <Polygon POINTS="1376 2640 2514 2633 2513 2588 2446 2578 1376 2595"></Polygon>
+            </Shape>
+            <String CONTENT="plices. aut singule singulis equales necesse èst quemadmo" HPOS="1376" VPOS="2578" WIDTH="1138" HEIGHT="62"></String>
+          </TextLine>
+          <TextLine ID="r3l43" HPOS="1377" VPOS="2631" WIDTH="1130" HEIGHT="64" BASELINE="1385 2682 1440 2684 1496 2684 1552 2684 1607 2684 1663 2684 1719 2683 1774 2682 1830 2681 1886 2681 1942 2679 1997 2679 2053 2678 2109 2678 2164 2678 2220 2676 2276 2676 2331 2678 2387 2678 2443 2679 2499 2681">
+            <Shape>
+              <Polygon POINTS="1377 2695 2507 2694 2481 2631 1377 2639"></Polygon>
+            </Shape>
+            <String CONTENT="lum vna illarum ad sui comparem. totum quoque ex his ag¬" HPOS="1377" VPOS="2631" WIDTH="1130" HEIGHT="64"></String>
+          </TextLine>
+          <TextLine ID="r3l44" HPOS="1364" VPOS="2687" WIDTH="1143" HEIGHT="81" BASELINE="1373 2738 1429 2739 1485 2739 1541 2739 1598 2739 1654 2738 1710 2738 1767 2736 1823 2736 1879 2735 1936 2734 1992 2733 2048 2732 2104 2732 2161 2732 2217 2730 2273 2730 2330 2732 2386 2732 2442 2733 2499 2735">
+            <Shape>
+              <Polygon POINTS="1365 2756 1956 2768 2050 2734 2376 2766 2507 2751 2507 2687 1364 2700"></Polygon>
+            </Shape>
+            <String CONTENT="gregatum ad omnes illas pariter acceptas suniliter se ha" HPOS="1364" VPOS="2687" WIDTH="1143" HEIGHT="81"></String>
+          </TextLine>
+          <TextLine ID="r3l45" HPOS="1358" VPOS="2750" WIDTH="114" HEIGHT="57" BASELINE="1368 2793 1400 2792 1432 2789 1464 2790">
+            <Shape>
+              <Polygon POINTS="1360 2806 1376 2807 1393 2799 1414 2804 1422 2796 1438 2801 1472 2797 1471 2754 1451 2751 1441 2757 1422 2755 1415 2750 1389 2763 1372 2753 1358 2752"></Polygon>
+            </Shape>
+            <String CONTENT="bere." HPOS="1358" VPOS="2750" WIDTH="114" HEIGHT="57"></String>
+          </TextLine>
+          <TextLine ID="r3l46" HPOS="1125" VPOS="2802" WIDTH="1380" HEIGHT="58" BASELINE="1133 2843 1201 2844 1269 2844 1337 2844 1405 2844 1473 2844 1541 2844 1610 2843 1678 2843 1746 2841 1814 2841 1882 2840 1950 2840 2018 2840 2087 2838 2155 2838 2223 2838 2291 2838 2359 2838 2427 2840 2496 2841">
+            <Shape>
+              <Polygon POINTS="1125 2860 2455 2856 2505 2849 2505 2802 1125 2806"></Polygon>
+            </Shape>
+            <String CONTENT="¶ Sit quotlibet quantitates.que sint. a. b.c. aliarum totidem que sint. d. e. f. eque" HPOS="1125" VPOS="2802" WIDTH="1380" HEIGHT="58"></String>
+          </TextLine>
+          <TextLine ID="r3l47" HPOS="1115" VPOS="2846" WIDTH="1401" HEIGHT="88" BASELINE="1124 2897 1193 2897 1262 2897 1331 2897 1400 2897 1470 2897 1539 2897 1608 2895 1677 2895 1746 2895 1816 2894 1885 2894 1954 2894 2023 2894 2092 2892 2162 2892 2231 2892 2300 2892 2369 2892 2438 2894 2508 2894">
+            <Shape>
+              <Polygon POINTS="1115 2934 2454 2921 2516 2904 2516 2846 1115 2859"></Polygon>
+            </Shape>
+            <String CONTENT="multiplices vnaqueque ad sui comparem. aut singule sint singulis equales. ita videlicet" HPOS="1115" VPOS="2846" WIDTH="1401" HEIGHT="88"></String>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

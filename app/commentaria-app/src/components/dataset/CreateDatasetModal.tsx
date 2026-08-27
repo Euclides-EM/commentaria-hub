@@ -7,7 +7,10 @@ import Select from 'react-select'
 import { wrappedOptionSelectStyles } from '../../styles/selectStyles.ts'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { useAppState } from '../../context/useAppState'
-import { useAllEditionsQuery } from '../../queries/editions.ts'
+import {
+  normalizeEditionId,
+  useAllEditionsQuery,
+} from '../../queries/editions.ts'
 import { formatCopyright } from '../../utils/copyright.ts'
 
 const DEFAULT_DPI = 300
@@ -15,10 +18,8 @@ const DEFAULT_DPI = 300
 type FacsimileOption = {
   value: string
   label: string
-  facsimileId?: string
+  facsimileId: string
   editionId: string
-  scanUrl?: string
-  volume?: number
   copyright?: string
 }
 
@@ -76,55 +77,23 @@ export function CreateDatasetModal({
     }
 
     const existingOptions: FacsimileOption[] = (facsimiles ?? [])
-      .filter((f) => f.id != null)
+      .filter((f) => f.id != null && f.download_available === true)
       .map((f) => {
         const editionId = f.edition_id ?? ''
-        const copyrights = [...(copyrightsByEdition.get(editionId) ?? [])]
+        const copyrights = [
+          ...(copyrightsByEdition.get(normalizeEditionId(editionId)) ?? []),
+        ]
         return {
           value: `existing:${f.id}`,
           label: editionId,
           facsimileId: f.id!,
           editionId,
-          scanUrl: f.scan_url,
           copyright: copyrights.join('; '),
         }
       })
 
-    const existingScanUrls = new Set(
-      existingOptions.map((option) => option.scanUrl).filter(Boolean),
-    )
-    const catalogOptions: FacsimileOption[] = []
-    const multiVolumeEditions = new Set<string>()
-    for (const edition of editions ?? []) {
-      if (!edition.key) continue
-      const shelfmarkVolumes = new Set(
-        (edition.shelfmarks ?? [])
-          .map((shelfmark) => shelfmark.volume)
-          .filter((volume): volume is number => volume != null),
-      )
-      const isMultiVolume =
-        (edition.volumes ?? 0) > 1 ||
-        shelfmarkVolumes.size > 1 ||
-        [...shelfmarkVolumes].some((volume) => volume > 1)
-      if (isMultiVolume) multiVolumeEditions.add(edition.key)
-      for (const [index, shelfmark] of (edition.shelfmarks ?? []).entries()) {
-        const scanUrl = shelfmark.scan?.trim()
-        if (!scanUrl) continue
-        if (existingScanUrls.has(scanUrl)) continue
-        catalogOptions.push({
-          value: `catalog:${edition.key}:${index}`,
-          label: edition.key,
-          editionId: edition.key,
-          scanUrl,
-          volume: shelfmark.volume,
-          copyright: shelfmark.copyright,
-        })
-      }
-    }
-
-    const options = [...existingOptions, ...catalogOptions]
     const facsimileCounts = new Map<string, number>()
-    for (const option of options) {
+    for (const option of existingOptions) {
       facsimileCounts.set(
         option.editionId,
         (facsimileCounts.get(option.editionId) ?? 0) + 1,
@@ -132,20 +101,16 @@ export function CreateDatasetModal({
     }
 
     const facsimileNumbers = new Map<string, number>()
-    return options
+    return existingOptions
       .sort((a, b) => a.editionId.localeCompare(b.editionId))
       .map((option) => {
         const number = (facsimileNumbers.get(option.editionId) ?? 0) + 1
         facsimileNumbers.set(option.editionId, number)
         const showNumber = (facsimileCounts.get(option.editionId) ?? 0) > 1
-        const volume =
-          multiVolumeEditions.has(option.editionId) && option.volume
-            ? ` · vol. ${option.volume}`
-            : ''
         const facsimile = showNumber ? ` · facsimile ${number}` : ''
         return {
           ...option,
-          label: `${option.editionId}${volume}${facsimile} · ${formatCopyright(
+          label: `${option.editionId}${facsimile} · ${formatCopyright(
             option.copyright,
           )}`,
         }
@@ -196,21 +161,7 @@ export function CreateDatasetModal({
           setError('Please select a facsimile.')
           return
         }
-        if (selectedFacsimile.facsimileId) {
-          datasetFacsimileId = selectedFacsimile.facsimileId
-        } else {
-          const createdFacsimile = await FacsimilesService.postFacsimilies({
-            facsimile: {
-              edition_id: selectedFacsimile.editionId,
-              scan_url: selectedFacsimile.scanUrl,
-            },
-          })
-          if (!createdFacsimile.id) {
-            setError('Failed to import the selected facsimile.')
-            return
-          }
-          datasetFacsimileId = createdFacsimile.id
-        }
+        datasetFacsimileId = selectedFacsimile.facsimileId
       } else {
         const url = facsimileUrl.trim()
         if (!url) {

@@ -1,0 +1,277 @@
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-3.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>p022.jpg</fileName>
+    </sourceImageInformation>
+  </Description>
+  <Tags></Tags>
+  <Layout>
+    <Page WIDTH="1458" HEIGHT="1987" ID="page-0022">
+      <PrintSpace HPOS="0" VPOS="0" WIDTH="1458" HEIGHT="1987">
+        <TextBlock ID="r1" TAGREFS="" HPOS="136" VPOS="102" WIDTH="880" HEIGHT="1833">
+          <Shape>
+            <Polygon POINTS="136 102 136 1935 1016 1935 1016 102"></Polygon>
+          </Shape>
+          <TextLine ID="r1l1" HPOS="841" VPOS="100" WIDTH="105" HEIGHT="44" BASELINE="848 125 878 125 908 126 938 133">
+            <Shape>
+              <Polygon POINTS="841 141 849 143 866 131 871 135 879 130 887 135 897 129 902 135 912 136 922 144 942 139 946 100 845 100"></Polygon>
+            </Shape>
+          </TextLine>
+          <TextLine ID="r1l2" HPOS="810" VPOS="102" WIDTH="34" HEIGHT="40" BASELINE="825 137 835 133">
+            <Shape>
+              <Polygon POINTS="821 141 825 139 833 142 834 141 839 142 844 140 828 102 823 104 822 109 819 112 810 116"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="8" HPOS="810" VPOS="102" WIDTH="34" HEIGHT="40"></String>
+          </TextLine>
+          <TextLine ID="r1l3" HPOS="233" VPOS="100" WIDTH="700" HEIGHT="63" BASELINE="239 122 273 127 307 131 342 135 376 138 411 139 445 141 479 141 514 142 548 142 583 142 617 142 651 142 686 142 720 143 755 143 789 145 823 146 858 149 892 153 927 158">
+            <Shape>
+              <Polygon POINTS="233 147 392 139 440 162 644 144 733 163 813 143 833 163 933 162 898 129 816 135 783 108 752 127 648 101 235 100"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="P PROLEGOMENA. AN" HPOS="233" VPOS="100" WIDTH="700" HEIGHT="63"></String>
+          </TextLine>
+          <TextLine ID="r1l4" HPOS="296" VPOS="133" WIDTH="32" HEIGHT="30" BASELINE="302 152 322 153">
+            <Shape>
+              <Polygon POINTS="296 161 305 161 307 159 310 163 313 162 326 163 328 137 322 136 316 139 312 138 309 135 298 133"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="Q" HPOS="296" VPOS="133" WIDTH="32" HEIGHT="30"></String>
+          </TextLine>
+          <TextLine ID="r1l5" HPOS="265" VPOS="204" WIDTH="644" HEIGHT="47" BASELINE="270 243 301 241 333 241 364 240 396 240 428 240 459 240 491 240 523 240 554 240 586 241 618 241 649 241 681 241 713 242 744 242 776 242 808 241 839 241 871 240 903 239">
+            <Shape>
+              <Polygon POINTS="265 251 909 242 909 219 792 204 613 224 265 213"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="INVENTORES MATHEMA¬" HPOS="265" VPOS="204" WIDTH="644" HEIGHT="47"></String>
+          </TextLine>
+          <TextLine ID="r1l6" HPOS="408" VPOS="245" WIDTH="353" HEIGHT="54" BASELINE="413 281 439 281 465 281 492 281 518 281 544 281 571 281 597 281 624 281 650 281 676 281 703 282 729 282 756 282">
+            <Shape>
+              <Polygon POINTS="408 290 548 288 592 299 761 290 761 268 737 260 637 252 607 260 579 245 531 264 489 253 408 261"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="ticarum disciplinarum." HPOS="408" VPOS="245" WIDTH="353" HEIGHT="54"></String>
+          </TextLine>
+          <TextLine ID="r1l7" HPOS="180" VPOS="332" WIDTH="833" HEIGHT="66" BASELINE="185 364 226 365 267 367 308 367 349 368 390 369 431 369 472 370 513 370 554 370 596 370 637 370 678 370 719 370 760 369 801 369 842 369 883 369 924 368 965 368 1007 368">
+            <Shape>
+              <Polygon POINTS="180 362 221 398 358 371 1013 378 1013 332 180 340"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="MNES disciplinas Mathematicas a uarijs, &amp; diuersis" HPOS="180" VPOS="332" WIDTH="833" HEIGHT="66"></String>
+          </TextLine>
+          <TextLine ID="r1l8" HPOS="150" VPOS="352" WIDTH="869" HEIGHT="66" BASELINE="155 404 200 405 245 406 290 407 335 408 381 408 426 409 471 409 516 409 561 409 607 409 652 409 697 409 742 409 787 409 833 409 878 408 923 408 968 408 1014 407">
+            <Shape>
+              <Polygon POINTS="150 408 1019 418 1019 389 954 376 221 398 150 352"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="Canctoribus ortum, originemque duxisse, perspicue historiae" HPOS="150" VPOS="352" WIDTH="869" HEIGHT="66"></String>
+          </TextLine>
+          <TextLine ID="r1l9" HPOS="149" VPOS="416" WIDTH="870" HEIGHT="43" BASELINE="154 447 197 447 240 448 283 448 326 448 369 448 412 448 455 448 498 449 541 449 584 449 627 449 670 449 713 449 756 449 799 449 842 448 885 448 928 447 971 447 1014 446">
+            <Shape>
+              <Polygon POINTS="149 459 1019 459 1019 428 946 416 904 436 149 427"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="testantur: Immo uero singulas nequaquam summam adeptas" HPOS="149" VPOS="416" WIDTH="870" HEIGHT="43"></String>
+          </TextLine>
+          <TextLine ID="r1l10" HPOS="148" VPOS="465" WIDTH="863" HEIGHT="41" BASELINE="154 488 196 488 239 487 281 487 324 487 367 487 409 487 452 488 494 488 537 488 580 488 622 488 665 488 707 488 750 488 793 488 835 488 878 487 920 486 963 485 1006 484">
+            <Shape>
+              <Polygon POINTS="149 497 936 506 1011 490 1011 465 148 468"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="esse perfectionem statim ab initio, sed paulatim eas ab imperfe¬" HPOS="148" VPOS="465" WIDTH="863" HEIGHT="41"></String>
+          </TextLine>
+          <TextLine ID="r1l11" HPOS="147" VPOS="499" WIDTH="864" HEIGHT="42" BASELINE="153 526 195 526 238 526 280 527 323 527 366 527 408 527 451 527 494 527 536 527 579 527 622 527 664 527 707 527 750 527 792 526 835 526 878 526 920 526 963 526 1006 526">
+            <Shape>
+              <Polygon POINTS="147 539 981 541 1011 532 1011 499 147 500"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="ctis ad perfectiora processisse, memoriae quoque proditum est." HPOS="147" VPOS="499" WIDTH="864" HEIGHT="42"></String>
+          </TextLine>
+          <TextLine ID="r1l12" HPOS="143" VPOS="533" WIDTH="874" HEIGHT="51" BASELINE="149 566 192 566 235 567 278 567 321 567 364 567 407 567 451 567 494 567 537 567 580 567 623 567 666 567 709 567 753 567 796 566 839 566 882 566 925 565 968 565 1012 564">
+            <Shape>
+              <Polygon POINTS="143 576 962 584 1017 569 1017 543 199 533 143 557"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="Arithmetices enim inuentores primi creduntur Phaenices, pro¬" HPOS="143" VPOS="533" WIDTH="874" HEIGHT="51"></String>
+          </TextLine>
+          <TextLine ID="r1l13" HPOS="134" VPOS="568" WIDTH="887" HEIGHT="59" BASELINE="140 605 183 605 227 605 271 605 315 605 358 605 402 606 446 606 490 606 533 606 577 606 621 606 665 606 708 606 752 606 796 606 840 605 883 605 927 604 971 604 1015 603">
+            <Shape>
+              <Polygon POINTS="134 620 563 606 609 627 822 593 1001 620 1021 568 558 599 134 574"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="pter frequentes mercaturas, atque commertia, ut auctor est" HPOS="134" VPOS="568" WIDTH="887" HEIGHT="59"></String>
+          </TextLine>
+          <TextLine ID="r1l14" HPOS="141" VPOS="612" WIDTH="881" HEIGHT="46" BASELINE="147 644 190 644 233 645 277 646 320 646 364 646 407 646 451 646 494 646 538 646 581 646 624 645 668 645 711 645 755 645 798 645 842 645 885 645 929 645 972 646 1016 646">
+            <Shape>
+              <Polygon POINTS="141 650 1022 658 987 612 141 621"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="Proclus. Quam mirum in modum postea Pythagoras, eiusque" HPOS="141" VPOS="612" WIDTH="881" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r1l15" HPOS="133" VPOS="667" WIDTH="885" HEIGHT="35" BASELINE="139 684 182 684 226 685 269 685 313 685 357 685 400 685 444 685 488 685 531 685 575 685 619 685 662 685 706 685 750 685 793 685 837 684 881 684 924 684 968 684 1012 683">
+            <Shape>
+              <Polygon POINTS="133 698 970 702 1018 667 133 669"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="successores, nec non Aegyptij, Graeci denique ac Arabes ampli¬" HPOS="133" VPOS="667" WIDTH="885" HEIGHT="35"></String>
+          </TextLine>
+          <TextLine ID="r1l16" HPOS="140" VPOS="692" WIDTH="879" HEIGHT="46" BASELINE="145 723 188 723 231 724 275 724 318 724 362 724 405 724 449 724 492 724 536 724 579 724 622 723 666 723 709 723 753 722 796 722 840 722 883 722 927 722 970 722 1014 723">
+            <Shape>
+              <Polygon POINTS="140 738 1019 730 1008 701 913 692 140 700"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="ficarunt, uarijsque problematis, atque theorematis illustrarunt." HPOS="140" VPOS="692" WIDTH="879" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r1l17" HPOS="144" VPOS="729" WIDTH="868" HEIGHT="42" BASELINE="149 762 191 763 234 763 277 763 320 763 363 763 406 763 449 763 492 763 535 763 578 763 620 763 663 763 706 762 749 762 792 762 835 762 878 762 921 761 964 761 1007 761">
+            <Shape>
+              <Polygon POINTS="144 768 1012 771 1012 734 933 729 144 731"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="Musicam deinde a Mercurio primum esse inuentam, multi scri" HPOS="144" VPOS="729" WIDTH="868" HEIGHT="42"></String>
+          </TextLine>
+          <TextLine ID="r1l18" HPOS="137" VPOS="769" WIDTH="882" HEIGHT="50" BASELINE="143 801 186 801 230 801 273 802 317 802 360 802 404 802 447 802 491 802 534 802 578 801 621 801 665 801 708 801 752 801 795 801 839 801 882 801 926 800 969 800 1013 800">
+            <Shape>
+              <Polygon POINTS="137 819 1019 811 1008 781 901 769 137 782"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="ptores tradunt; quam ipse postea Orpheo insigni Musico com¬" HPOS="137" VPOS="769" WIDTH="882" HEIGHT="50"></String>
+          </TextLine>
+          <TextLine ID="r1l19" HPOS="141" VPOS="819" WIDTH="879" HEIGHT="32" BASELINE="147 841 190 841 233 841 277 841 320 841 363 841 407 841 450 841 493 841 537 841 580 841 623 841 667 841 710 840 753 840 797 840 840 840 883 840 927 840 970 840 1014 840">
+            <Shape>
+              <Polygon POINTS="142 849 1010 851 1020 819 141 822"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="mendauit, atque concredidit; Hic autem Thamyri, &amp; Lino;" HPOS="141" VPOS="819" WIDTH="879" HEIGHT="32"></String>
+          </TextLine>
+          <TextLine ID="r1l20" HPOS="138" VPOS="849" WIDTH="880" HEIGHT="49" BASELINE="143 879 186 879 230 880 273 880 317 880 360 880 404 880 447 880 491 880 534 880 578 880 621 880 665 880 708 880 752 879 795 879 839 879 882 879 926 879 969 879 1013 879">
+            <Shape>
+              <Polygon POINTS="138 889 398 891 432 869 535 898 1018 890 1018 861 977 849 138 853"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="Linus uero Herculi, &amp; sic successionibus continuis per alios" HPOS="138" VPOS="849" WIDTH="880" HEIGHT="49"></String>
+          </TextLine>
+          <TextLine ID="r1l21" HPOS="142" VPOS="892" WIDTH="872" HEIGHT="39" BASELINE="148 920 191 920 234 919 277 919 320 919 363 919 406 919 449 919 492 919 535 919 578 919 621 919 664 919 707 919 750 919 793 919 836 919 879 919 922 919 965 918 1008 918">
+            <Shape>
+              <Polygon POINTS="142 931 1014 922 1014 901 932 892 142 894"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="Musicos praeclaros ad nostra usque tempora manauit. Geome¬" HPOS="142" VPOS="892" WIDTH="872" HEIGHT="39"></String>
+          </TextLine>
+          <TextLine ID="r1l22" HPOS="135" VPOS="927" WIDTH="874" HEIGHT="38" BASELINE="141 959 184 958 227 958 270 958 313 958 356 958 399 958 443 958 486 958 529 958 572 959 615 959 658 959 701 959 745 959 788 959 831 959 874 958 917 958 960 958 1004 958">
+            <Shape>
+              <Polygon POINTS="135 965 1009 964 1009 939 858 927 135 934"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="tria uero, auctore Proclo, ab Aegyptijs reperta est, ortumque" HPOS="135" VPOS="927" WIDTH="874" HEIGHT="38"></String>
+          </TextLine>
+          <TextLine ID="r1l23" HPOS="142" VPOS="964" WIDTH="880" HEIGHT="46" BASELINE="147 997 190 997 233 997 277 997 320 998 364 998 407 998 451 998 494 998 538 998 581 998 624 998 668 998 711 998 755 998 798 998 842 998 885 998 929 998 972 998 1016 997">
+            <Shape>
+              <Polygon POINTS="142 1002 1022 1010 1000 964 590 991 508 965 142 968"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="habuit ab agrorum emensione. Cum enim anniuersaria Nili" HPOS="142" VPOS="964" WIDTH="880" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r1l24" HPOS="135" VPOS="1004" WIDTH="875" HEIGHT="39" BASELINE="141 1036 184 1036 227 1036 270 1037 313 1037 357 1037 400 1037 443 1037 486 1038 529 1038 573 1038 616 1038 659 1038 702 1038 745 1038 789 1038 832 1038 875 1038 918 1038 961 1038 1005 1038">
+            <Shape>
+              <Polygon POINTS="135 1041 1010 1043 1010 1012 851 1004 136 1014"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="inundatio agrorum torminos, ac limitos ita confunderet, nasta¬" HPOS="135" VPOS="1004" WIDTH="875" HEIGHT="39"></String>
+          </TextLine>
+          <TextLine ID="r1l25" HPOS="137" VPOS="1052" WIDTH="880" HEIGHT="47" BASELINE="143 1075 186 1075 229 1076 273 1076 316 1077 360 1077 403 1077 446 1077 490 1077 533 1077 577 1077 620 1077 663 1077 707 1077 750 1077 794 1077 837 1077 880 1077 924 1077 967 1077 1011 1077">
+            <Shape>
+              <Polygon POINTS="137 1078 508 1099 1017 1082 989 1052 138 1054"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="retque, ut nemo agrum dignoscere posset suum, caeperunt Ae¬" HPOS="137" VPOS="1052" WIDTH="880" HEIGHT="47"></String>
+          </TextLine>
+          <TextLine ID="r1l26" HPOS="136" VPOS="1092" WIDTH="868" HEIGHT="46" BASELINE="141 1116 183 1116 226 1116 269 1116 312 1116 355 1117 398 1117 441 1117 484 1117 527 1117 570 1117 612 1117 655 1117 698 1117 741 1117 784 1117 827 1117 870 1117 913 1117 956 1116 999 1116">
+            <Shape>
+              <Polygon POINTS="136 1128 933 1138 1004 1122 1004 1092 136 1094"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="gyptij animos ad rationem mensurandorum agrorum applica" HPOS="136" VPOS="1092" WIDTH="868" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r1l27" HPOS="140" VPOS="1123" WIDTH="866" HEIGHT="55" BASELINE="145 1154 187 1154 230 1154 273 1155 316 1155 359 1156 401 1156 444 1156 487 1156 530 1156 573 1156 615 1156 658 1156 701 1156 744 1156 787 1156 829 1156 872 1156 915 1156 958 1156 1001 1156">
+            <Shape>
+              <Polygon POINTS="140 1164 867 1158 919 1178 1006 1162 1006 1123 888 1124 864 1148 764 1125 140 1133"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="re, ut hoc modo cuilibet, quod suum eras, redderetur. Quae qui¬" HPOS="140" VPOS="1123" WIDTH="866" HEIGHT="55"></String>
+          </TextLine>
+          <TextLine ID="r1l28" HPOS="131" VPOS="1173" WIDTH="886" HEIGHT="46" BASELINE="137 1194 180 1194 224 1194 268 1195 311 1195 355 1195 399 1195 442 1195 486 1195 530 1195 574 1195 617 1195 661 1195 705 1195 748 1195 792 1195 836 1195 879 1195 923 1195 967 1196 1011 1196">
+            <Shape>
+              <Polygon POINTS="131 1200 850 1219 1017 1202 1017 1173 131 1177"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="dem ratio agros metiendi, quanquam tunc temporis adhuc" HPOS="131" VPOS="1173" WIDTH="886" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r1l29" HPOS="136" VPOS="1204" WIDTH="871" HEIGHT="39" BASELINE="141 1233 184 1234 227 1234 270 1234 313 1234 356 1235 399 1235 442 1235 485 1235 528 1235 571 1235 614 1235 657 1235 700 1235 743 1235 786 1235 829 1235 872 1235 915 1235 958 1234 1002 1234">
+            <Shape>
+              <Polygon POINTS="136 1243 1007 1239 976 1204 136 1212"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="rudis admodum fuerit, ac impolita, ab ipso tamen officio Geo¬" HPOS="136" VPOS="1204" WIDTH="871" HEIGHT="39"></String>
+          </TextLine>
+          <TextLine ID="r1l30" HPOS="134" VPOS="1244" WIDTH="875" HEIGHT="38" BASELINE="139 1272 182 1273 225 1274 268 1275 311 1275 355 1276 398 1276 441 1276 484 1276 527 1277 571 1277 614 1277 657 1277 700 1276 743 1276 787 1276 830 1276 873 1275 916 1275 959 1275 1003 1274">
+            <Shape>
+              <Polygon POINTS="134 1279 1009 1282 989 1244 134 1252"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="metria est appellata. γεωμετρέομαι enim, siue γεωμετρέω" HPOS="134" VPOS="1244" WIDTH="875" HEIGHT="38"></String>
+          </TextLine>
+          <TextLine ID="r1l31" HPOS="135" VPOS="1284" WIDTH="877" HEIGHT="39" BASELINE="140 1313 183 1313 226 1314 270 1314 313 1314 356 1314 400 1314 443 1314 486 1314 530 1314 573 1314 616 1314 660 1314 703 1314 746 1314 790 1314 833 1314 876 1314 920 1315 963 1315 1007 1316">
+            <Shape>
+              <Polygon POINTS="135 1323 1012 1323 991 1285 711 1284 681 1306 631 1284 135 1287"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="idem significat, quod, terram metior. Caeterum paulatim de¬" HPOS="135" VPOS="1284" WIDTH="877" HEIGHT="39"></String>
+          </TextLine>
+          <TextLine ID="r1l32" HPOS="132" VPOS="1324" WIDTH="877" HEIGHT="46" BASELINE="138 1351 181 1352 224 1353 267 1353 311 1354 354 1354 397 1354 441 1354 484 1354 527 1354 571 1353 614 1353 657 1353 700 1353 744 1353 787 1354 830 1354 874 1354 917 1355 960 1356 1004 1357">
+            <Shape>
+              <Polygon POINTS="132 1363 1009 1370 1009 1336 967 1324 132 1324"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="inde Geometria capia est expoliri, &amp; non contenta suis finibus," HPOS="132" VPOS="1324" WIDTH="877" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r1l33" HPOS="137" VPOS="1359" WIDTH="872" HEIGHT="50" BASELINE="142 1391 185 1392 228 1392 271 1393 314 1393 357 1393 400 1393 443 1393 486 1393 529 1393 573 1393 616 1392 659 1392 702 1392 745 1392 788 1392 831 1393 874 1393 917 1394 960 1395 1004 1395">
+            <Shape>
+              <Polygon POINTS="137 1407 1009 1409 1009 1373 976 1365 137 1359"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="se se ad corpora etiam caelestia dimetienda conuertit, tradiditque" HPOS="137" VPOS="1359" WIDTH="872" HEIGHT="50"></String>
+          </TextLine>
+          <TextLine ID="r1l34" HPOS="137" VPOS="1404" WIDTH="872" HEIGHT="46" BASELINE="142 1429 185 1430 228 1431 271 1432 314 1432 357 1432 400 1432 443 1433 486 1433 529 1432 572 1432 615 1432 658 1432 701 1432 744 1432 787 1432 830 1432 873 1432 916 1433 959 1433 1003 1434">
+            <Shape>
+              <Polygon POINTS="137 1449 1009 1450 1009 1413 969 1404 137 1407"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="principia uniuersae Astronomiae, Perspectiuae, Cosmographiae," HPOS="137" VPOS="1404" WIDTH="872" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r1l35" HPOS="139" VPOS="1452" WIDTH="874" HEIGHT="38" BASELINE="144 1468 187 1469 230 1470 273 1470 316 1471 359 1471 402 1471 446 1472 489 1472 532 1472 575 1472 618 1472 661 1472 704 1472 748 1472 791 1472 834 1472 877 1472 920 1473 963 1473 1007 1473">
+            <Shape>
+              <Polygon POINTS="139 1482 797 1490 1013 1482 1013 1452 139 1453"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="&amp; alijs disciplinis quam plurimis, quae ex ipsae, veluti radices" HPOS="139" VPOS="1452" WIDTH="874" HEIGHT="38"></String>
+          </TextLine>
+          <TextLine ID="r1l36" HPOS="140" VPOS="1484" WIDTH="869" HEIGHT="39" BASELINE="146 1507 188 1508 231 1509 274 1510 317 1510 360 1511 403 1511 445 1511 488 1511 531 1511 574 1511 617 1511 660 1511 703 1511 745 1511 788 1511 831 1511 874 1511 917 1511 960 1511 1003 1512">
+            <Shape>
+              <Polygon POINTS="140 1513 1009 1523 981 1484 140 1485"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="dependent. Hanc Thales Milesius ex Aegypto in Graeciam pri" HPOS="140" VPOS="1484" WIDTH="869" HEIGHT="39"></String>
+          </TextLine>
+          <TextLine ID="r1l37" HPOS="136" VPOS="1518" WIDTH="881" HEIGHT="45" BASELINE="142 1546 185 1547 228 1548 272 1549 315 1549 359 1550 402 1550 446 1550 489 1550 533 1550 576 1550 619 1550 663 1550 706 1550 750 1550 793 1550 837 1550 880 1550 924 1550 967 1551 1011 1552">
+            <Shape>
+              <Polygon POINTS="136 1554 1017 1563 1017 1532 909 1518 136 1526"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="mus transtulisse fertur: Deinde eam insignes Philosophi, ac" HPOS="136" VPOS="1518" WIDTH="881" HEIGHT="45"></String>
+          </TextLine>
+          <TextLine ID="r1l38" HPOS="136" VPOS="1559" WIDTH="873" HEIGHT="44" BASELINE="142 1585 185 1586 228 1587 271 1588 314 1588 357 1589 400 1589 443 1589 486 1589 529 1590 573 1590 616 1589 659 1589 702 1589 745 1589 788 1589 831 1589 874 1590 917 1590 960 1590 1004 1591">
+            <Shape>
+              <Polygon POINTS="136 1594 1009 1603 1009 1573 904 1559 136 1564"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="Mathematici plurimis, acutissimisque demonstrationibus locu" HPOS="136" VPOS="1559" WIDTH="873" HEIGHT="44"></String>
+          </TextLine>
+          <TextLine ID="r1l39" HPOS="135" VPOS="1600" WIDTH="878" HEIGHT="44" BASELINE="140 1624 183 1626 226 1626 270 1627 313 1628 356 1628 400 1629 443 1629 486 1629 530 1629 573 1629 616 1629 660 1629 703 1629 746 1629 790 1629 833 1629 876 1629 920 1629 963 1630 1007 1630">
+            <Shape>
+              <Polygon POINTS="135 1644 1013 1642 1013 1608 975 1600 135 1605"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="pletarunt, atque exornarunt: Inter quos hi sunt praecipui ex" HPOS="135" VPOS="1600" WIDTH="878" HEIGHT="44"></String>
+          </TextLine>
+          <TextLine ID="r1l40" HPOS="136" VPOS="1638" WIDTH="876" HEIGHT="37" BASELINE="142 1662 185 1664 228 1666 271 1667 315 1668 358 1668 401 1669 444 1669 488 1669 531 1669 574 1669 617 1669 661 1669 704 1668 747 1668 790 1668 834 1668 877 1668 920 1669 963 1669 1007 1670">
+            <Shape>
+              <Polygon POINTS="136 1673 1012 1675 999 1645 905 1638 136 1644"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="veteribus; Pythagoras, Anaxagoras Claezomenius, Hippocra¬" HPOS="136" VPOS="1638" WIDTH="876" HEIGHT="37"></String>
+          </TextLine>
+          <TextLine ID="r1l41" HPOS="131" VPOS="1670" WIDTH="882" HEIGHT="61" BASELINE="136 1701 179 1704 223 1706 266 1707 310 1708 353 1709 397 1710 440 1710 484 1710 527 1710 571 1710 615 1710 658 1710 702 1709 745 1709 789 1709 832 1708 876 1708 919 1708 963 1709 1007 1709">
+            <Shape>
+              <Polygon POINTS="131 1710 884 1731 1012 1714 1013 1685 278 1692 219 1670 131 1691"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="tes Chius, Plato, Oenopides, Zenodorus, Brito, Antipho, Theo" HPOS="131" VPOS="1670" WIDTH="882" HEIGHT="61"></String>
+          </TextLine>
+          <TextLine ID="r1l42" HPOS="917" VPOS="1717" WIDTH="99" HEIGHT="46" BASELINE="923 1746 952 1747 981 1747 1010 1749">
+            <Shape>
+              <Polygon POINTS="917 1751 924 1751 927 1755 994 1755 1000 1762 1015 1763 1016 1729 1008 1725 958 1725 951 1717 946 1717 918 1728"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="dorus," HPOS="917" VPOS="1717" WIDTH="99" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r1l43" HPOS="761" VPOS="1882" WIDTH="213" HEIGHT="71" BASELINE="766 1924 791 1924 816 1924 842 1923 867 1923 892 1923 918 1924 943 1924 969 1925">
+            <Shape>
+              <Polygon POINTS="761 1932 775 1939 790 1932 800 1939 822 1932 905 1932 928 1953 943 1953 974 1931 974 1882 947 1882 931 1897 905 1892 890 1898 865 1884 824 1884 810 1898 761 1898"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="ed by Google" HPOS="761" VPOS="1882" WIDTH="213" HEIGHT="71"></String>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

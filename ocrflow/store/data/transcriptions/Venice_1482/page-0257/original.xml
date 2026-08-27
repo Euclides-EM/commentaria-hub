@@ -1,0 +1,317 @@
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-3.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>p257.jpg</fileName>
+    </sourceImageInformation>
+  </Description>
+  <Tags></Tags>
+  <Layout>
+    <Page WIDTH="2658" HEIGHT="3834" ID="page-0257">
+      <PrintSpace HPOS="0" VPOS="0" WIDTH="2658" HEIGHT="3834">
+        <TextBlock ID="r1" TAGREFS="" HPOS="528" VPOS="502" WIDTH="24" HEIGHT="150">
+          <Shape>
+            <Polygon POINTS="528 502 528 652 552 652 552 502"></Polygon>
+          </Shape>
+          <TextLine ID="r1l1" HPOS="518" VPOS="539" WIDTH="42" HEIGHT="76" BASELINE="528 602 552 602">
+            <Shape>
+              <Polygon POINTS="518 615 536 615 543 608 560 608 560 539 552 539 550 541 548 539 532 539 527 545 518 545"></Polygon>
+            </Shape>
+            <String CONTENT="b" HPOS="518" VPOS="539" WIDTH="42" HEIGHT="76"></String>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="r2" TAGREFS="" HPOS="924" VPOS="499" WIDTH="15" HEIGHT="150">
+          <Shape>
+            <Polygon POINTS="924 499 924 649 939 649 939 499"></Polygon>
+          </Shape>
+          <TextLine ID="r2l1" HPOS="916" VPOS="541" WIDTH="31" HEIGHT="75" BASELINE="924 599 939 599">
+            <Shape>
+              <Polygon POINTS="916 611 928 611 933 616 947 615 947 543 916 541"></Polygon>
+            </Shape>
+            <String CONTENT="a" HPOS="916" VPOS="541" WIDTH="31" HEIGHT="75"></String>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="r3" TAGREFS="" HPOS="1004" VPOS="390" WIDTH="1429" HEIGHT="2524">
+          <Shape>
+            <Polygon POINTS="1004 390 1004 2914 2433 2914 2433 390"></Polygon>
+          </Shape>
+          <TextLine ID="r3l1" HPOS="1595" VPOS="294" WIDTH="206" HEIGHT="168" BASELINE="1607 422 1633 422 1659 421 1685 419 1712 417 1738 416 1764 416 1791 417">
+            <Shape>
+              <Polygon POINTS="1600 452 1632 462 1659 448 1700 455 1731 443 1740 448 1750 437 1801 437 1795 294 1776 294 1759 311 1731 308 1698 334 1679 325 1633 358 1595 349"></Polygon>
+            </Shape>
+            <String CONTENT="LIBER" HPOS="1595" VPOS="294" WIDTH="206" HEIGHT="168"></String>
+          </TextLine>
+          <TextLine ID="r3l2" HPOS="1004" VPOS="447" WIDTH="1393" HEIGHT="103" BASELINE="1013 536 1081 534 1150 533 1219 531 1288 530 1356 528 1425 528 1494 527 1563 526 1631 525 1700 524 1769 524 1838 523 1906 522 1975 522 2044 521 2113 521 2181 521 2250 519 2319 519 2388 519">
+            <Shape>
+              <Polygon POINTS="1005 550 2397 527 2396 464 2072 447 1004 484"></Polygon>
+            </Shape>
+            <String CONTENT="liuea. a.b. cum igitur vtraque puarum linearus. a. b. c. a. d. sit viuisa sim propontionem" HPOS="1004" VPOS="447" WIDTH="1393" HEIGHT="103"></String>
+          </TextLine>
+          <TextLine ID="r3l3" HPOS="994" VPOS="524" WIDTH="1409" HEIGHT="86" BASELINE="1004 590 1073 588 1143 587 1212 585 1282 585 1351 584 1421 582 1490 581 1560 581 1629 579 1699 578 1768 578 1838 576 1907 576 1977 575 2046 575 2116 575 2185 575 2255 573 2324 573 2394 573">
+            <Shape>
+              <Polygon POINTS="995 610 2403 589 2402 524 994 550"></Polygon>
+            </Shape>
+            <String CONTENT="habentem medium ouoque extrema: igitur erit per paemissam ambarum ipsarum ad sui ma¬" HPOS="994" VPOS="524" WIDTH="1409" HEIGHT="86"></String>
+          </TextLine>
+          <TextLine ID="r3l4" HPOS="1005" VPOS="585" WIDTH="1396" HEIGHT="75" BASELINE="1014 648 1086 645 1159 644 1231 642 1304 641 1376 639 1449 638 1522 636 1594 635 1667 633 1739 632 1812 632 1884 630 1957 630 2030 629 2102 629 2175 629 2247 629 2320 629 2393 629">
+            <Shape>
+              <Polygon POINTS="1006 660 2305 651 2401 636 2401 585 1005 602"></Polygon>
+            </Shape>
+            <String CONTENT="iores poniones vna propoitio. itaque. d.a. ad. a.b.que est eius maio: pontio sicut. a." HPOS="1005" VPOS="585" WIDTH="1396" HEIGHT="75"></String>
+          </TextLine>
+          <TextLine ID="r3l5" HPOS="998" VPOS="636" WIDTH="1402" HEIGHT="75" BASELINE="1008 702 1077 701 1146 698 1215 696 1284 695 1353 693 1422 692 1491 690 1560 689 1629 687 1699 686 1768 686 1837 684 1906 684 1975 683 2044 683 2113 683 2182 681 2251 681 2320 681 2390 681">
+            <Shape>
+              <Polygon POINTS="999 711 2293 704 2400 697 2399 636 998 659"></Polygon>
+            </Shape>
+            <String CONTENT="b. ad. b.c. que est etiam cius maior pontio scd. d. a. ad. a. b. sicut. a. b. ad. b. d. ex vifti" HPOS="998" VPOS="636" WIDTH="1402" HEIGHT="75"></String>
+          </TextLine>
+          <TextLine ID="r3l6" HPOS="1005" VPOS="685" WIDTH="1400" HEIGHT="94" BASELINE="1014 756 1083 754 1152 751 1221 749 1290 747 1359 746 1428 744 1497 743 1566 743 1635 741 1705 741 1774 740 1843 740 1912 738 1981 738 2050 737 2119 737 2188 737 2257 735 2326 734 2396 734">
+            <Shape>
+              <Polygon POINTS="1006 779 2405 751 2404 695 2248 685 1005 714"></Polygon>
+            </Shape>
+            <String CONTENT="nitione lince oiuisc um proportionem habentem medium ouoque extrema T maio:" HPOS="1005" VPOS="685" WIDTH="1400" HEIGHT="94"></String>
+          </TextLine>
+          <TextLine ID="r3l7" HPOS="1001" VPOS="752" WIDTH="1401" HEIGHT="74" BASELINE="1010 812 1079 809 1148 806 1217 803 1286 801 1355 800 1424 798 1494 797 1563 795 1632 795 1701 794 1770 794 1839 794 1908 792 1978 792 2047 792 2116 791 2185 791 2254 789 2323 788 2393 788">
+            <Shape>
+              <Polygon POINTS="1002 826 2376 805 2402 752 1001 777"></Polygon>
+            </Shape>
+            <String CONTENT="potiio eius: igitur ex vndecima quinti. a b. ad. b. d. sicut. a .b. ad. b.c. quare per" HPOS="1001" VPOS="752" WIDTH="1401" HEIGHT="74"></String>
+          </TextLine>
+          <TextLine ID="r3l8" HPOS="998" VPOS="801" WIDTH="1398" HEIGHT="72" BASELINE="1008 867 1080 863 1153 860 1225 858 1298 855 1370 854 1443 852 1516 851 1588 849 1661 848 1733 848 1806 846 1878 846 1951 845 2024 845 2096 843 2169 843 2241 842 2314 841 2387 840">
+            <Shape>
+              <Polygon POINTS="999 873 2249 865 2396 852 2395 801 998 824"></Polygon>
+            </Shape>
+            <String CONTENT="secundam partem. 9. quinti.b.d.2.b.c. sunt equales. cum ergo. b. d. sit latus pecagoni" HPOS="998" VPOS="801" WIDTH="1398" HEIGHT="72"></String>
+          </TextLine>
+          <TextLine ID="r3l9" HPOS="995" VPOS="850" WIDTH="1405" HEIGHT="83" BASELINE="1005 920 1074 916 1143 913 1212 911 1282 908 1351 907 1420 905 1490 904 1559 903 1628 902 1698 902 1767 902 1836 900 1905 900 1975 900 2044 899 2113 899 2183 898 2252 897 2321 896 2391 894">
+            <Shape>
+              <Polygon POINTS="996 933 2225 921 2400 903 2399 850 995 881"></Polygon>
+            </Shape>
+            <String CONTENT="erit quoque ex coni scia. b.c.latus pecagoni. Vel aliter ad lineam. a .b. adiungatur. b.d." HPOS="995" VPOS="850" WIDTH="1405" HEIGHT="83"></String>
+          </TextLine>
+          <TextLine ID="r3l10" HPOS="996" VPOS="904" WIDTH="1416" HEIGHT="84" BASELINE="1005 975 1075 971 1145 967 1215 964 1285 962 1355 960 1425 959 1495 957 1565 956 1635 956 1705 956 1775 954 1845 954 1915 954 1985 954 2055 953 2125 953 2195 951 2265 951 2335 950 2405 948">
+            <Shape>
+              <Polygon POINTS="997 988 2394 968 2412 904 996 933"></Polygon>
+            </Shape>
+            <String CONTENT="cqualis. b.c. eritque ex. 4. tredecimi tota. a. d. viuisa sim propontionem habentem medius" HPOS="996" VPOS="904" WIDTH="1416" HEIGHT="84"></String>
+          </TextLine>
+          <TextLine ID="r3l11" HPOS="1003" VPOS="967" WIDTH="1399" HEIGHT="69" BASELINE="1011 1031 1080 1025 1149 1020 1218 1016 1287 1013 1356 1011 1425 1010 1494 1008 1563 1008 1632 1007 1702 1007 1771 1007 1840 1007 1909 1007 1978 1007 2047 1007 2116 1007 2185 1005 2254 1005 2323 1004 2393 1001">
+            <Shape>
+              <Polygon POINTS="1003 1036 2359 1023 2402 967 1003 992"></Polygon>
+            </Shape>
+            <String CONTENT="ouoque extrema e maios pontio eius linea. a.b. itaque per conuersam. 9. tredecimi quam con¬" HPOS="1003" VPOS="967" WIDTH="1399" HEIGHT="69"></String>
+          </TextLine>
+          <TextLine ID="r3l12" HPOS="1002" VPOS="1012" WIDTH="1413" HEIGHT="81" BASELINE="1011 1082 1080 1077 1150 1073 1220 1070 1290 1067 1359 1065 1429 1064 1499 1062 1569 1061 1638 1061 1708 1061 1778 1061 1848 1061 1917 1061 1987 1061 2057 1061 2127 1061 2196 1060 2266 1059 2336 1058 2406 1058">
+            <Shape>
+              <Polygon POINTS="1002 1093 2240 1084 2415 1072 2415 1012 1002 1036"></Polygon>
+            </Shape>
+            <String CONTENT="tinae post ipsam oemonstrauimus cuius circuli linea. a.b. est latus exagoni eiusde; li" HPOS="1002" VPOS="1012" WIDTH="1413" HEIGHT="81"></String>
+          </TextLine>
+          <TextLine ID="r3l13" HPOS="1004" VPOS="1072" WIDTH="1412" HEIGHT="75" BASELINE="1014 1133 1083 1128 1153 1125 1223 1121 1292 1119 1362 1117 1432 1116 1501 1115 1571 1115 1641 1113 1711 1113 1780 1113 1850 1113 1920 1115 1989 1115 2059 1115 2129 1115 2198 1115 2268 1115 2338 1113 2408 1112">
+            <Shape>
+              <Polygon POINTS="1005 1147 2330 1136 2416 1128 2416 1072 1004 1098"></Polygon>
+            </Shape>
+            <String CONTENT="nea. b. d. idcoque linea. b.c. sibi equalis est latus oecagoni. Possumus iterue ide; alia" HPOS="1004" VPOS="1072" WIDTH="1412" HEIGHT="75"></String>
+          </TextLine>
+          <TextLine ID="r3l14" HPOS="1011" VPOS="1130" WIDTH="1391" HEIGHT="70" BASELINE="1020 1182 1088 1179 1157 1176 1226 1175 1294 1173 1363 1172 1432 1170 1500 1169 1569 1169 1638 1167 1707 1167 1775 1167 1844 1167 1913 1167 1981 1167 2050 1167 2119 1167 2187 1167 2256 1167 2325 1167 2394 1167">
+            <Shape>
+              <Polygon POINTS="1012 1200 2296 1189 2402 1176 2402 1130 1011 1140"></Polygon>
+            </Shape>
+            <String CONTENT="via si libet vemonstrare. Sit enim.c.f.cqualis.a.b. que etiam oiuidatur in.g. sim proportio" HPOS="1011" VPOS="1130" WIDTH="1391" HEIGHT="70"></String>
+          </TextLine>
+          <TextLine ID="r3l15" HPOS="1010" VPOS="1173" WIDTH="1394" HEIGHT="76" BASELINE="1019 1235 1087 1234 1156 1232 1225 1230 1294 1230 1363 1229 1432 1227 1500 1226 1569 1224 1638 1224 1707 1223 1776 1223 1845 1221 1914 1221 1982 1221 2051 1221 2120 1221 2189 1221 2258 1221 2327 1223 2396 1223">
+            <Shape>
+              <Polygon POINTS="1010 1249 2334 1242 2404 1234 2404 1173 1010 1204"></Polygon>
+            </Shape>
+            <String CONTENT="nem habentem medium ouoque extrema e sit maior portio eius linea. f. g. ostat igitur ex praemih" HPOS="1010" VPOS="1173" WIDTH="1394" HEIGHT="76"></String>
+          </TextLine>
+          <TextLine ID="r3l16" HPOS="1008" VPOS="1236" WIDTH="1408" HEIGHT="77" BASELINE="1017 1292 1086 1290 1156 1289 1225 1287 1295 1286 1364 1284 1434 1283 1503 1281 1573 1280 1642 1280 1712 1278 1782 1277 1851 1277 1921 1276 1990 1275 2060 1275 2129 1275 2199 1274 2268 1274 2338 1274 2408 1274">
+            <Shape>
+              <Polygon POINTS="1009 1313 2416 1291 2416 1236 1008 1250"></Polygon>
+            </Shape>
+            <String CONTENT="sa quod quemadmod. a.b. est equalis.e.f.sic. a.c. est equalis.c.g.c.c.b. counlis.g.f.cumque fuerit. b" HPOS="1008" VPOS="1236" WIDTH="1408" HEIGHT="77"></String>
+          </TextLine>
+          <TextLine ID="r3l17" HPOS="1020" VPOS="1281" WIDTH="1388" HEIGHT="80" BASELINE="1029 1349 1097 1346 1166 1343 1234 1341 1303 1340 1371 1338 1440 1337 1508 1335 1577 1334 1645 1332 1714 1332 1782 1331 1851 1331 1919 1329 1988 1329 2056 1329 2125 1329 2193 1329 2262 1328 2330 1328 2399 1328">
+            <Shape>
+              <Polygon POINTS="1021 1361 2408 1338 2407 1287 2307 1281 1020 1299"></Polygon>
+            </Shape>
+            <String CONTENT="d. adiuncta ad. a.b. latus occagoni illius circuli cuius. a .b. e latus exagoni erit sicut prius" HPOS="1020" VPOS="1281" WIDTH="1388" HEIGHT="80"></String>
+          </TextLine>
+          <TextLine ID="r3l18" HPOS="1020" VPOS="1337" WIDTH="1398" HEIGHT="81" BASELINE="1029 1401 1101 1399 1174 1397 1246 1395 1319 1392 1391 1391 1464 1389 1537 1388 1609 1388 1682 1386 1754 1385 1827 1385 1899 1384 1972 1383 2045 1383 2117 1383 2190 1383 2262 1382 2335 1382 2408 1382">
+            <Shape>
+              <Polygon POINTS="1020 1418 2418 1394 2391 1337 1020 1360"></Polygon>
+            </Shape>
+            <String CONTENT="oicium est ex. 9. tredecimi tora. a.d.oiuisa seim proportionem habentem medium ouoque extre" HPOS="1020" VPOS="1337" WIDTH="1398" HEIGHT="81"></String>
+          </TextLine>
+          <TextLine ID="r3l19" HPOS="1010" VPOS="1394" WIDTH="1403" HEIGHT="72" BASELINE="1020 1455 1089 1452 1158 1451 1227 1448 1297 1446 1366 1445 1435 1443 1504 1442 1574 1441 1643 1440 1712 1439 1781 1439 1851 1437 1920 1437 1989 1437 2058 1437 2128 1436 2197 1436 2266 1437 2335 1437 2405 1437">
+            <Shape>
+              <Polygon POINTS="1011 1466 2379 1458 2413 1394 1010 1418"></Polygon>
+            </Shape>
+            <String CONTENT="ma a maio: eius portio erit linea. a.b. itaque per praemissam. atb ad. b. d. sicut. f. g. ad g. c." HPOS="1010" VPOS="1394" WIDTH="1403" HEIGHT="72"></String>
+          </TextLine>
+          <TextLine ID="r3l20" HPOS="1019" VPOS="1442" WIDTH="1389" HEIGHT="78" BASELINE="1028 1509 1096 1508 1165 1505 1233 1503 1302 1500 1370 1499 1439 1497 1507 1495 1576 1493 1644 1491 1713 1490 1782 1490 1850 1488 1919 1487 1987 1487 2056 1487 2124 1487 2193 1487 2261 1487 2330 1488 2399 1490">
+            <Shape>
+              <Polygon POINTS="1019 1520 2408 1501 2407 1448 2323 1442 1019 1465"></Polygon>
+            </Shape>
+            <String CONTENT="quamre per praemam partem. 15. sexti qod fit ex. a. b. in. g. c. equum est ei quod fit ex. b. d. in. f. g. cum" HPOS="1019" VPOS="1442" WIDTH="1389" HEIGHT="78"></String>
+          </TextLine>
+          <TextLine ID="r3l21" HPOS="1012" VPOS="1501" WIDTH="1398" HEIGHT="76" BASELINE="1022 1563 1091 1561 1160 1559 1229 1556 1298 1554 1367 1552 1436 1550 1505 1548 1574 1547 1643 1544 1712 1544 1781 1542 1850 1541 1919 1539 1988 1539 2057 1538 2126 1538 2195 1538 2264 1539 2333 1539 2402 1541">
+            <Shape>
+              <Polygon POINTS="1013 1577 2398 1557 2410 1501 1012 1525"></Polygon>
+            </Shape>
+            <String CONTENT="que. a. b. sit equalis. c.f.2 erit quod fit ex.c. f. in.g. e. equum est ei qod fit ex. b. d. in. f.g. Sedh" HPOS="1012" VPOS="1501" WIDTH="1398" HEIGHT="76"></String>
+          </TextLine>
+          <TextLine ID="r3l22" HPOS="1019" VPOS="1556" WIDTH="1396" HEIGHT="77" BASELINE="1028 1617 1096 1615 1165 1613 1234 1610 1303 1607 1372 1605 1441 1602 1510 1601 1579 1599 1648 1598 1717 1596 1785 1596 1854 1595 1923 1595 1992 1595 2061 1595 2130 1595 2199 1595 2268 1596 2337 1598 2406 1599">
+            <Shape>
+              <Polygon POINTS="1020 1633 2325 1617 2415 1608 2415 1556 1019 1584"></Polygon>
+            </Shape>
+            <String CONTENT="quod fit ex.c. f. in. g. c. equum est quadrato. f. g. ex piffinitione lince oiuise sim propo¬" HPOS="1019" VPOS="1556" WIDTH="1396" HEIGHT="77"></String>
+          </TextLine>
+          <TextLine ID="r3l23" HPOS="1009" VPOS="1603" WIDTH="1405" HEIGHT="78" BASELINE="1017 1671 1086 1668 1155 1665 1225 1662 1294 1660 1364 1658 1433 1656 1502 1655 1572 1653 1641 1653 1711 1652 1780 1652 1849 1652 1919 1652 1988 1652 2058 1652 2127 1652 2196 1652 2266 1653 2335 1653 2405 1653">
+            <Shape>
+              <Polygon POINTS="1009 1681 2414 1666 2401 1603 1009 1629"></Polygon>
+            </Shape>
+            <String CONTENT="tionem habentem medium ouoque ertrenia ? ex painia prte. 16. serti: igitur qod sit ex. b.d." HPOS="1009" VPOS="1603" WIDTH="1405" HEIGHT="78"></String>
+          </TextLine>
+          <TextLine ID="r3l24" HPOS="1017" VPOS="1675" WIDTH="1397" HEIGHT="59" BASELINE="1026 1724 1095 1720 1164 1716 1233 1714 1302 1712 1371 1710 1440 1709 1509 1707 1578 1706 1647 1706 1716 1704 1785 1704 1854 1704 1923 1704 1992 1704 2061 1704 2130 1705 2199 1706 2268 1706 2337 1706 2406 1707">
+            <Shape>
+              <Polygon POINTS="1017 1734 2397 1723 2414 1675 1017 1684"></Polygon>
+            </Shape>
+            <String CONTENT="in. f. g. est equalc quadrato. f.g. ideoque ex prima serti linea. b. d. et equalis. f. g. tqu2" HPOS="1017" VPOS="1675" WIDTH="1397" HEIGHT="59"></String>
+          </TextLine>
+          <TextLine ID="r3l25" HPOS="1016" VPOS="1718" WIDTH="1398" HEIGHT="69" BASELINE="1025 1775 1094 1772 1163 1769 1232 1767 1301 1764 1370 1763 1439 1763 1508 1761 1577 1761 1646 1761 1715 1761 1784 1761 1853 1761 1922 1763 1991 1763 2060 1763 2129 1763 2198 1761 2267 1761 2336 1760 2405 1758">
+            <Shape>
+              <Polygon POINTS="1017 1787 2404 1781 2414 1718 1016 1734"></Polygon>
+            </Shape>
+            <String CONTENT="f. qu. est equalis.c. b. erit quoque. c. b. equalis. b. d.2latus oecagoni qo oportebat osten" HPOS="1016" VPOS="1718" WIDTH="1398" HEIGHT="69"></String>
+          </TextLine>
+          <TextLine ID="r3l26" HPOS="1016" VPOS="1784" WIDTH="99" HEIGHT="77" BASELINE="1025 1827 1052 1827 1079 1826 1106 1830">
+            <Shape>
+              <Polygon POINTS="1016 1843 1034 1840 1044 1847 1055 1847 1064 1840 1081 1856 1114 1861 1115 1789 1087 1788 1064 1795 1047 1784 1017 1787"></Polygon>
+            </Shape>
+            <String CONTENT="dere." HPOS="1016" VPOS="1784" WIDTH="99" HEIGHT="77"></String>
+          </TextLine>
+          <TextLine ID="r3l27" HPOS="1527" VPOS="1813" WIDTH="376" HEIGHT="95" BASELINE="1536 1887 1561 1884 1587 1881 1612 1879 1638 1878 1663 1877 1689 1877 1714 1877 1740 1877 1765 1877 1791 1877 1816 1878 1842 1878 1867 1878 1893 1878">
+            <Shape>
+              <Polygon POINTS="1528 1896 1593 1887 1616 1906 1721 1908 1763 1893 1903 1894 1902 1849 1879 1840 1853 1837 1822 1855 1763 1823 1721 1820 1678 1842 1583 1813 1527 1821"></Polygon>
+            </Shape>
+            <String CONTENT="Izopositio 4." HPOS="1527" VPOS="1813" WIDTH="376" HEIGHT="95"></String>
+          </TextLine>
+          <TextLine ID="r3l28" HPOS="1276" VPOS="1935" WIDTH="1141" HEIGHT="60" BASELINE="1286 1989 1342 1989 1398 1989 1454 1988 1510 1988 1566 1987 1622 1986 1678 1985 1734 1985 1790 1983 1847 1982 1903 1980 1959 1980 2015 1979 2071 1977 2127 1977 2183 1976 2239 1976 2295 1974 2351 1974 2408 1974">
+            <Shape>
+              <Polygon POINTS="1277 1995 2363 1994 2417 1982 2417 1935 1276 1939"></Polygon>
+            </Shape>
+            <String CONTENT="cm adratum lateris pentagoni intra circulum oescripti qua" HPOS="1276" VPOS="1935" WIDTH="1141" HEIGHT="60"></String>
+          </TextLine>
+          <TextLine ID="r3l29" HPOS="1255" VPOS="1982" WIDTH="1169" HEIGHT="77" BASELINE="1265 2040 1322 2042 1380 2042 1437 2042 1495 2042 1552 2041 1610 2040 1667 2039 1725 2037 1782 2035 1840 2033 1897 2032 1955 2030 2012 2028 2070 2028 2127 2027 2185 2027 2242 2027 2300 2027 2357 2028 2415 2031">
+            <Shape>
+              <Polygon POINTS="1256 2059 2424 2045 2423 1982 1255 1993"></Polygon>
+            </Shape>
+            <String CONTENT="dratum que linee que illius pentagoni angulo subtenditur" HPOS="1255" VPOS="1982" WIDTH="1169" HEIGHT="77"></String>
+          </TextLine>
+          <TextLine ID="r3l30" HPOS="1268" VPOS="2048" WIDTH="1155" HEIGHT="62" BASELINE="1277 2097 1333 2097 1390 2096 1447 2096 1504 2094 1561 2093 1618 2091 1675 2090 1732 2087 1789 2085 1846 2084 1902 2082 1959 2081 2016 2081 2073 2079 2130 2079 2187 2081 2244 2082 2301 2082 2358 2086 2415 2088">
+            <Shape>
+              <Polygon POINTS="1269 2110 2343 2100 2423 2090 2423 2048 1268 2058"></Polygon>
+            </Shape>
+            <String CONTENT="ambo hec quadrata pariter accepta quadrati medietans" HPOS="1268" VPOS="2048" WIDTH="1155" HEIGHT="62"></String>
+          </TextLine>
+          <TextLine ID="r3l31" HPOS="1271" VPOS="2083" WIDTH="1086" HEIGHT="77" BASELINE="1281 2151 1334 2149 1387 2147 1441 2145 1494 2144 1548 2142 1601 2141 1654 2139 1708 2138 1761 2137 1815 2136 1868 2135 1921 2135 1975 2135 2028 2135 2082 2135 2135 2136 2188 2137 2242 2138 2295 2140 2349 2142">
+            <Shape>
+              <Polygon POINTS="1272 2160 2312 2159 2357 2108 1949 2083 1271 2109"></Polygon>
+            </Shape>
+            <String CONTENT="biametri eiusdem circuli quincuplum esse pronuncio." HPOS="1271" VPOS="2083" WIDTH="1086" HEIGHT="77"></String>
+          </TextLine>
+          <TextLine ID="r3l32" HPOS="1060" VPOS="2090" WIDTH="176" HEIGHT="113" BASELINE="1083 2183 1110 2177 1137 2170 1164 2163 1191 2157 1218 2151">
+            <Shape>
+              <Polygon POINTS="1080 2203 1139 2202 1160 2177 1170 2174 1212 2190 1236 2185 1213 2092 1189 2090 1172 2100 1158 2094 1133 2104 1118 2102 1096 2124 1074 2111 1060 2120"></Polygon>
+            </Shape>
+          </TextLine>
+          <TextLine ID="r3l33" HPOS="1157" VPOS="2157" WIDTH="1263" HEIGHT="63" BASELINE="1166 2196 1228 2195 1290 2195 1352 2195 1415 2193 1477 2193 1539 2193 1601 2192 1664 2192 1726 2192 1788 2192 1850 2190 1913 2190 1975 2190 2037 2190 2099 2192 2162 2192 2224 2192 2286 2193 2348 2193 2411 2195">
+            <Shape>
+              <Polygon POINTS="1157 2220 2289 2217 2420 2203 2420 2157 1157 2178"></Polygon>
+            </Shape>
+            <String CONTENT="Sit in circulo. a. b.c. cuius centrum. d. inscriptus vnus pentagonus" HPOS="1157" VPOS="2157" WIDTH="1263" HEIGHT="63"></String>
+          </TextLine>
+          <TextLine ID="r3l34" HPOS="1023" VPOS="2208" WIDTH="1397" HEIGHT="60" BASELINE="1032 2258 1101 2253 1170 2250 1239 2249 1308 2247 1377 2246 1446 2246 1515 2244 1584 2244 1653 2244 1722 2246 1791 2246 1860 2246 1929 2247 1998 2247 2067 2247 2136 2247 2205 2247 2274 2247 2343 2246 2412 2244">
+            <Shape>
+              <Polygon POINTS="1023 2268 2247 2264 2420 2255 2420 2208 1023 2228"></Polygon>
+            </Shape>
+            <String CONTENT="equilaterus cuius vnum latus sit. a. b. c piotrahatur viameter.c. d.e. oiuidens lincam" HPOS="1023" VPOS="2208" WIDTH="1397" HEIGHT="60"></String>
+          </TextLine>
+          <TextLine ID="r3l35" HPOS="1029" VPOS="2267" WIDTH="1390" HEIGHT="54" BASELINE="1037 2304 1105 2303 1174 2301 1243 2301 1311 2301 1380 2300 1449 2300 1517 2300 1586 2301 1655 2301 1724 2301 1792 2301 1861 2303 1930 2303 1998 2303 2067 2303 2136 2301 2204 2301 2273 2300 2342 2298 2411 2297">
+            <Shape>
+              <Polygon POINTS="1029 2321 2419 2316 2419 2267 1029 2272"></Polygon>
+            </Shape>
+            <String CONTENT="a. b. c eius arcum per equalia. Est igitur arcus. a. e. medietas quinte partis circunmferen" HPOS="1029" VPOS="2267" WIDTH="1390" HEIGHT="54"></String>
+          </TextLine>
+          <TextLine ID="r3l36" HPOS="1026" VPOS="2313" WIDTH="1398" HEIGHT="60" BASELINE="1035 2358 1104 2358 1173 2358 1242 2358 1311 2358 1380 2358 1449 2358 1518 2358 1587 2358 1656 2357 1725 2357 1794 2357 1863 2357 1932 2357 2001 2357 2070 2355 2139 2355 2208 2354 2277 2352 2346 2352 2415 2351">
+            <Shape>
+              <Polygon POINTS="1026 2372 2359 2373 2424 2364 2424 2313 1026 2321"></Polygon>
+            </Shape>
+            <String CONTENT="tie illius circuli quare arcus. a.c. est oue quinte totius circunferentie: protrahantur ita¬" HPOS="1026" VPOS="2313" WIDTH="1398" HEIGHT="60"></String>
+          </TextLine>
+          <TextLine ID="r3l37" HPOS="1023" VPOS="2359" WIDTH="1403" HEIGHT="65" BASELINE="1031 2417 1100 2415 1169 2415 1238 2415 1308 2415 1377 2414 1446 2414 1516 2414 1585 2414 1654 2412 1724 2412 1793 2411 1862 2411 1931 2411 2001 2409 2070 2409 2139 2408 2209 2408 2278 2406 2347 2405 2417 2405">
+            <Shape>
+              <Polygon POINTS="1023 2424 2426 2415 2410 2359 1023 2374"></Polygon>
+            </Shape>
+            <String CONTENT="que duc linec. a. c. c. a.c. eritque. a. e. latus pecagoni equilateri co quod eius arcus est" HPOS="1023" VPOS="2359" WIDTH="1403" HEIGHT="65"></String>
+          </TextLine>
+          <TextLine ID="r3l38" HPOS="1026" VPOS="2419" WIDTH="1390" HEIGHT="72" BASELINE="1035 2472 1103 2471 1172 2471 1240 2471 1309 2469 1378 2469 1446 2469 1515 2468 1584 2468 1652 2467 1721 2466 1790 2466 1858 2465 1927 2465 1996 2463 2064 2463 2133 2462 2202 2460 2270 2460 2339 2459 2408 2459">
+            <Shape>
+              <Polygon POINTS="1026 2491 2184 2487 2401 2474 2416 2419 1026 2430"></Polygon>
+            </Shape>
+            <String CONTENT="medietas quinte partis circunferentie. linea vero. a.c. erit que subtenditur vni ex an¬" HPOS="1026" VPOS="2419" WIDTH="1390" HEIGHT="72"></String>
+          </TextLine>
+          <TextLine ID="r3l39" HPOS="1032" VPOS="2465" WIDTH="1388" HEIGHT="79" BASELINE="1041 2526 1109 2526 1178 2525 1246 2525 1315 2524 1383 2523 1452 2523 1520 2522 1589 2522 1657 2520 1726 2520 1794 2519 1863 2519 1931 2517 2000 2517 2068 2516 2137 2516 2205 2514 2274 2513 2342 2513 2411 2511">
+            <Shape>
+              <Polygon POINTS="1033 2544 2420 2524 2419 2478 2239 2465 1032 2492"></Polygon>
+            </Shape>
+            <String CONTENT="gulis pentagoni pacdicti: eo quod arcus. a.c. est oue quinte partis circumferentie cir¬" HPOS="1032" VPOS="2465" WIDTH="1388" HEIGHT="79"></String>
+          </TextLine>
+          <TextLine ID="r3l40" HPOS="1034" VPOS="2540" WIDTH="1386" HEIGHT="52" BASELINE="1044 2580 1112 2580 1180 2579 1249 2579 1317 2579 1385 2578 1454 2577 1522 2577 1590 2576 1659 2575 1727 2574 1795 2573 1864 2573 1932 2571 2000 2571 2069 2570 2137 2568 2205 2568 2274 2567 2342 2567 2411 2565">
+            <Shape>
+              <Polygon POINTS="1035 2592 2399 2591 2420 2540 1034 2543"></Polygon>
+            </Shape>
+            <String CONTENT="culi: oico itaque quod quadrata ouarum lincarum. a. b. c. a.c. pariter accepta quincu¬" HPOS="1034" VPOS="2540" WIDTH="1386" HEIGHT="52"></String>
+          </TextLine>
+          <TextLine ID="r3l41" HPOS="1025" VPOS="2587" WIDTH="1391" HEIGHT="60" BASELINE="1034 2634 1102 2634 1171 2633 1240 2633 1308 2631 1377 2631 1446 2630 1514 2630 1583 2628 1652 2627 1721 2627 1789 2626 1858 2625 1927 2624 1995 2624 2064 2622 2133 2622 2201 2621 2270 2621 2339 2619 2408 2619">
+            <Shape>
+              <Polygon POINTS="1026 2647 2336 2644 2416 2637 2416 2587 1025 2598"></Polygon>
+            </Shape>
+            <String CONTENT="plum sunt ad quadratum linee. d.e. est enim ex quarta secundi quadratum lincec" HPOS="1025" VPOS="2587" WIDTH="1391" HEIGHT="60"></String>
+          </TextLine>
+          <TextLine ID="r3l42" HPOS="1039" VPOS="2634" WIDTH="1396" HEIGHT="70" BASELINE="1049 2687 1117 2687 1186 2685 1255 2685 1324 2685 1393 2684 1462 2684 1530 2682 1599 2682 1668 2681 1737 2680 1806 2679 1875 2678 1944 2678 2012 2676 2081 2676 2150 2675 2219 2675 2288 2675 2357 2675 2426 2675">
+            <Shape>
+              <Polygon POINTS="1040 2704 2401 2697 2435 2634 1039 2655"></Polygon>
+            </Shape>
+            <String CONTENT="c. quadruplum ad quadratum linec. d.e. Cum autem angulus. c. a.c. sit rectus ex" HPOS="1039" VPOS="2634" WIDTH="1396" HEIGHT="70"></String>
+          </TextLine>
+          <TextLine ID="r3l43" HPOS="1027" VPOS="2688" WIDTH="1410" HEIGHT="72" BASELINE="1037 2741 1106 2741 1176 2741 1245 2739 1315 2739 1385 2738 1454 2738 1524 2736 1593 2736 1663 2735 1733 2733 1802 2732 1872 2732 1941 2730 2011 2730 2081 2729 2150 2729 2220 2729 2289 2729 2359 2729 2429 2729">
+            <Shape>
+              <Polygon POINTS="1028 2760 2294 2753 2437 2736 2437 2688 1027 2705"></Polygon>
+            </Shape>
+            <String CONTENT="pima parre. 30. tertij. eruntque ex penultima prinii quadrata ouax lincarum. c. 8. c" HPOS="1027" VPOS="2688" WIDTH="1410" HEIGHT="72"></String>
+          </TextLine>
+          <TextLine ID="r3l44" HPOS="1028" VPOS="2744" WIDTH="1410" HEIGHT="69" BASELINE="1037 2792 1106 2792 1176 2793 1245 2793 1315 2792 1385 2792 1454 2790 1524 2790 1594 2789 1663 2788 1733 2787 1803 2786 1872 2784 1942 2784 2012 2783 2081 2783 2151 2781 2221 2781 2290 2781 2360 2783 2430 2783">
+            <Shape>
+              <Polygon POINTS="1029 2813 2281 2807 2438 2790 2438 2744 1028 2760"></Polygon>
+            </Shape>
+            <String CONTENT="n.c. quadruplum ad quadratum. d. e. igitur quadrata trium lincarum. c. a. c. a. c. c" HPOS="1028" VPOS="2744" WIDTH="1410" HEIGHT="69"></String>
+          </TextLine>
+          <TextLine ID="r3l45" HPOS="1032" VPOS="2788" WIDTH="1398" HEIGHT="63" BASELINE="1041 2846 1110 2846 1179 2846 1248 2846 1317 2846 1386 2845 1455 2844 1524 2844 1593 2843 1662 2843 1731 2841 1800 2840 1869 2840 1938 2838 2007 2838 2076 2837 2145 2837 2214 2835 2283 2835 2352 2835 2421 2835">
+            <Shape>
+              <Polygon POINTS="1032 2851 2430 2844 2429 2788 1032 2809"></Polygon>
+            </Shape>
+            <String CONTENT="d. e. quincuplum sunt ad quadratum lince. d.c.c quia ex vecima tredeci uilibai quam¬" HPOS="1032" VPOS="2788" WIDTH="1398" HEIGHT="63"></String>
+          </TextLine>
+          <TextLine ID="r3l46" HPOS="1040" VPOS="2842" WIDTH="1402" HEIGHT="87" BASELINE="1050 2901 1119 2901 1188 2900 1257 2900 1326 2898 1395 2898 1464 2898 1534 2897 1603 2897 1672 2895 1741 2895 1810 2895 1879 2894 1948 2894 2018 2893 2087 2892 2156 2892 2225 2892 2294 2891 2363 2891 2433 2891">
+            <Shape>
+              <Polygon POINTS="1041 2929 2442 2914 2441 2842 1040 2857"></Polygon>
+            </Shape>
+            <String CONTENT="dratum. a. b. est equale quadratis ouarum linearum. a. c. 7. d. c. sequitur vt qua¬" HPOS="1040" VPOS="2842" WIDTH="1402" HEIGHT="87"></String>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

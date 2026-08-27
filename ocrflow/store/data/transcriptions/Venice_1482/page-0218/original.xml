@@ -1,0 +1,302 @@
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-3.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>p218.jpg</fileName>
+    </sourceImageInformation>
+  </Description>
+  <Tags></Tags>
+  <Layout>
+    <Page WIDTH="2658" HEIGHT="3834" ID="page-0218">
+      <PrintSpace HPOS="0" VPOS="0" WIDTH="2658" HEIGHT="3834">
+        <TextBlock ID="r1" TAGREFS="" HPOS="207" VPOS="331" WIDTH="1413" HEIGHT="2521">
+          <Shape>
+            <Polygon POINTS="207 331 207 2852 1620 2852 1620 331"></Polygon>
+          </Shape>
+          <TextLine ID="r1l1" HPOS="848" VPOS="265" WIDTH="136" HEIGHT="119" BASELINE="857 356 886 357 916 356 945 356 975 357">
+            <Shape>
+              <Polygon POINTS="848 374 892 367 922 379 952 374 984 384 984 265 966 267 952 281 943 279 936 286 906 284 889 296 848 286"></Polygon>
+            </Shape>
+            <String CONTENT="XII" HPOS="848" VPOS="265" WIDTH="136" HEIGHT="119"></String>
+          </TextLine>
+          <TextLine ID="r1l2" HPOS="218" VPOS="394" WIDTH="1393" HEIGHT="83" BASELINE="228 471 296 470 365 467 434 465 502 464 571 462 640 460 708 459 777 458 846 456 915 455 983 453 1052 453 1121 453 1189 452 1258 452 1327 452 1395 453 1464 453 1533 455 1602 456">
+            <Shape>
+              <Polygon POINTS="219 477 1520 472 1611 457 1610 394 218 417"></Polygon>
+            </Shape>
+            <String CONTENT="petrahantur ab eo ouo scratilia que ex paemissa sunt maius medietate piramidis" HPOS="218" VPOS="394" WIDTH="1393" HEIGHT="83"></String>
+          </TextLine>
+          <TextLine ID="r1l3" HPOS="204" VPOS="460" WIDTH="1409" HEIGHT="73" BASELINE="213 527 282 525 352 522 421 521 491 519 561 516 630 514 700 512 769 510 839 509 909 506 978 505 1048 504 1117 503 1187 503 1257 503 1326 503 1396 504 1465 506 1535 509 1605 512">
+            <Shape>
+              <Polygon POINTS="205 533 1613 516 1595 460 204 482"></Polygon>
+            </Shape>
+            <String CONTENT="ipsius: itemque ex vtraque puarum partialium residuarum piramidum ouo carum" HPOS="204" VPOS="460" WIDTH="1409" HEIGHT="73"></String>
+          </TextLine>
+          <TextLine ID="r1l4" HPOS="199" VPOS="513" WIDTH="1401" HEIGHT="79" BASELINE="209 581 278 579 347 578 416 575 485 573 554 570 623 567 692 564 761 563 830 560 899 558 968 557 1037 555 1106 554 1175 554 1244 554 1313 555 1382 556 1451 558 1520 562 1590 566">
+            <Shape>
+              <Polygon POINTS="200 592 1600 573 1599 529 1405 513 199 538"></Polygon>
+            </Shape>
+            <String CONTENT="paedicto modo biuisarum scratilia oemantur a fiat hoc totiens quousque ex pira¬" HPOS="199" VPOS="513" WIDTH="1401" HEIGHT="79"></String>
+          </TextLine>
+          <TextLine ID="r1l5" HPOS="219" VPOS="561" WIDTH="1378" HEIGHT="88" BASELINE="228 635 299 633 371 630 442 627 514 626 585 623 657 620 728 617 800 615 871 612 943 611 1014 609 1086 608 1157 608 1229 608 1300 608 1372 608 1443 609 1515 612 1587 615">
+            <Shape>
+              <Polygon POINTS="220 649 1597 633 1595 572 1351 561 219 595"></Polygon>
+            </Shape>
+            <String CONTENT="mide. b. cogatur aduersarius per paimam. 10. confiteri relinqui minus solido. d." HPOS="219" VPOS="561" WIDTH="1378" HEIGHT="88"></String>
+          </TextLine>
+          <TextLine ID="r1l6" HPOS="207" VPOS="616" WIDTH="1401" HEIGHT="74" BASELINE="216 690 285 687 354 684 423 681 492 678 561 677 630 674 699 671 768 669 837 668 907 666 976 665 1045 663 1114 662 1183 662 1252 662 1321 662 1390 662 1459 663 1528 665 1598 668">
+            <Shape>
+              <Polygon POINTS="208 690 1608 676 1607 632 1438 616 207 639"></Polygon>
+            </Shape>
+            <String CONTENT="eruntque ex communi scientia seratilia petracta maius.c. fiat igitur a piramide. a." HPOS="207" VPOS="616" WIDTH="1401" HEIGHT="74"></String>
+          </TextLine>
+          <TextLine ID="r1l7" HPOS="209" VPOS="662" WIDTH="1395" HEIGHT="94" BASELINE="219 744 287 741 356 738 425 735 494 732 563 729 631 728 700 725 769 723 838 722 907 720 975 719 1044 717 1113 717 1182 716 1251 716 1319 716 1388 716 1457 716 1526 717 1595 717">
+            <Shape>
+              <Polygon POINTS="210 756 1604 727 1603 673 1350 662 209 692"></Polygon>
+            </Shape>
+            <String CONTENT="similis scratilium octractio. T intelligamus tot scratilia petracta esse ex piramide." HPOS="209" VPOS="662" WIDTH="1395" HEIGHT="94"></String>
+          </TextLine>
+          <TextLine ID="r1l8" HPOS="207" VPOS="718" WIDTH="1404" HEIGHT="89" BASELINE="216 798 285 795 354 791 423 788 493 786 562 783 631 781 700 779 770 777 839 776 908 774 977 773 1047 773 1116 771 1185 771 1254 770 1324 770 1393 770 1462 770 1531 769 1601 768">
+            <Shape>
+              <Polygon POINTS="207 807 1611 790 1609 727 1281 718 207 764"></Polygon>
+            </Shape>
+            <String CONTENT="a. quot oetraximus ex piramide. b. eritque ex corclario paemisse sicut basis. a. ad" HPOS="207" VPOS="718" WIDTH="1404" HEIGHT="89"></String>
+          </TextLine>
+          <TextLine ID="r1l9" HPOS="203" VPOS="775" WIDTH="1411" HEIGHT="84" BASELINE="213 852 282 849 352 845 421 842 491 839 560 837 630 836 699 834 769 833 838 831 908 830 978 830 1047 828 1117 828 1186 827 1256 827 1325 825 1395 825 1464 824 1534 824 1604 822">
+            <Shape>
+              <Polygon POINTS="204 859 1614 841 1613 789 1492 775 203 808"></Polygon>
+            </Shape>
+            <String CONTENT="basim. b. ita seratilia petracta a piramide. a. ad seratilia oetracta a piramide. b. sic" HPOS="203" VPOS="775" WIDTH="1411" HEIGHT="84"></String>
+          </TextLine>
+          <TextLine ID="r1l10" HPOS="209" VPOS="831" WIDTH="1404" HEIGHT="82" BASELINE="219 906 288 902 357 898 426 895 496 893 565 891 634 890 703 888 773 887 842 886 911 885 980 885 1050 884 1119 884 1188 882 1257 882 1327 881 1396 879 1465 878 1534 876 1604 873">
+            <Shape>
+              <Polygon POINTS="210 913 1613 884 1559 831 209 860"></Polygon>
+            </Shape>
+            <String CONTENT="sed erat piramis. a. ad corpus.c. itaque seratilia piramidis. a. ad scratilia piramidis" HPOS="209" VPOS="831" WIDTH="1404" HEIGHT="82"></String>
+          </TextLine>
+          <TextLine ID="r1l11" HPOS="200" VPOS="897" WIDTH="1407" HEIGHT="69" BASELINE="210 960 279 956 348 953 418 950 487 947 557 945 626 944 695 942 765 941 834 941 904 941 973 939 1042 939 1112 939 1181 938 1251 938 1320 936 1389 935 1459 933 1528 931 1598 929">
+            <Shape>
+              <Polygon POINTS="201 966 1578 954 1607 897 200 908"></Polygon>
+            </Shape>
+            <String CONTENT="b. sicut piramis. a. ad corpus.c. c pmutatim seratilia piramidis. a. ad piramidem. a" HPOS="200" VPOS="897" WIDTH="1407" HEIGHT="69"></String>
+          </TextLine>
+          <TextLine ID="r1l12" HPOS="213" VPOS="941" WIDTH="1390" HEIGHT="87" BASELINE="222 1013 290 1009 359 1005 427 1002 496 1001 565 999 633 998 702 996 771 996 839 996 908 996 977 996 1045 995 1114 995 1183 995 1251 993 1320 992 1389 990 1457 987 1526 985 1595 980">
+            <Shape>
+              <Polygon POINTS="214 1028 1603 999 1602 947 1520 941 213 966"></Polygon>
+            </Shape>
+            <String CONTENT="sicut scratilia piramidis. b. ad coipus.c. Lunque sint seratilia piramidis. b. maius" HPOS="213" VPOS="941" WIDTH="1390" HEIGHT="87"></String>
+          </TextLine>
+          <TextLine ID="r1l13" HPOS="209" VPOS="998" WIDTH="1395" HEIGHT="78" BASELINE="218 1067 286 1062 355 1059 424 1056 493 1055 562 1053 631 1053 699 1052 768 1052 837 1052 906 1052 975 1052 1044 1052 1113 1050 1181 1050 1250 1049 1319 1047 1388 1046 1457 1043 1526 1040 1595 1035">
+            <Shape>
+              <Polygon POINTS="210 1076 1560 1059 1604 1054 1603 998 209 1023"></Polygon>
+            </Shape>
+            <String CONTENT="corpore.c. erunt seratilia piramidis. a. maius piramide. a. Et quia hoc est impossibi" HPOS="209" VPOS="998" WIDTH="1395" HEIGHT="78"></String>
+          </TextLine>
+          <TextLine ID="r1l14" HPOS="200" VPOS="1054" WIDTH="1402" HEIGHT="75" BASELINE="210 1119 279 1116 348 1114 417 1112 486 1110 555 1110 624 1109 694 1107 763 1107 832 1106 901 1106 970 1106 1039 1104 1108 1104 1178 1104 1247 1103 1316 1102 1385 1101 1454 1100 1523 1097 1593 1095">
+            <Shape>
+              <Polygon POINTS="201 1129 1602 1116 1601 1054 200 1078"></Polygon>
+            </Shape>
+            <String CONTENT="bile non erit corpus.c. minus piramide. b. sed nec majus. hoc enim posito cum sit pro¬" HPOS="200" VPOS="1054" WIDTH="1402" HEIGHT="75"></String>
+          </TextLine>
+          <TextLine ID="r1l15" HPOS="212" VPOS="1105" WIDTH="1390" HEIGHT="83" BASELINE="221 1172 289 1170 358 1169 426 1167 495 1166 564 1165 632 1164 701 1163 769 1161 838 1160 907 1159 975 1158 1044 1157 1112 1157 1181 1155 1250 1155 1318 1155 1387 1154 1455 1154 1524 1154 1593 1154">
+            <Shape>
+              <Polygon POINTS="213 1188 1602 1160 1601 1116 1520 1105 212 1132"></Polygon>
+            </Shape>
+            <String CONTENT="potio basis. a. ad basim. b. sicut piramidis. a. ad corpus.c. erit coonuerso basis. b." HPOS="212" VPOS="1105" WIDTH="1390" HEIGHT="83"></String>
+          </TextLine>
+          <TextLine ID="r1l16" HPOS="200" VPOS="1166" WIDTH="1408" HEIGHT="71" BASELINE="209 1226 278 1226 348 1224 417 1223 487 1222 556 1220 626 1218 695 1217 765 1215 834 1214 904 1212 973 1210 1043 1208 1112 1207 1182 1206 1251 1205 1321 1205 1390 1205 1460 1205 1529 1206 1599 1206">
+            <Shape>
+              <Polygon POINTS="201 1237 1524 1229 1608 1220 1607 1166 200 1189"></Polygon>
+            </Shape>
+            <String CONTENT="ad basim. a. sicut corporis.c. ad piramidem. a. Eritque eadem ex communi scia piramidis" HPOS="200" VPOS="1166" WIDTH="1408" HEIGHT="71"></String>
+          </TextLine>
+          <TextLine ID="r1l17" HPOS="212" VPOS="1221" WIDTH="1396" HEIGHT="69" BASELINE="222 1283 290 1281 359 1280 428 1277 497 1275 566 1273 635 1271 703 1269 772 1266 841 1265 910 1263 979 1260 1048 1259 1117 1259 1185 1257 1254 1257 1323 1257 1392 1257 1461 1258 1530 1259 1599 1262">
+            <Shape>
+              <Polygon POINTS="213 1290 1608 1279 1607 1221 212 1239"></Polygon>
+            </Shape>
+            <String CONTENT="b. ad aliqo coipus quod sit. d. sequetuque ex. 14. quinti quod corpus. d.sit minus piramide" HPOS="212" VPOS="1221" WIDTH="1396" HEIGHT="69"></String>
+          </TextLine>
+          <TextLine ID="r1l18" HPOS="196" VPOS="1284" WIDTH="1424" HEIGHT="64" BASELINE="207 1337 277 1335 347 1334 417 1331 487 1329 558 1326 628 1324 698 1322 768 1319 838 1317 909 1314 979 1313 1049 1311 1119 1310 1189 1308 1260 1308 1330 1307 1400 1307 1470 1308 1540 1310 1611 1311">
+            <Shape>
+              <Polygon POINTS="198 1348 1536 1330 1620 1323 1619 1284 196 1297"></Polygon>
+            </Shape>
+            <String CONTENT="a. eo quod piramis.b. ponitur minos corpere.c. Erit igitur basis.b. ad basiz. a. sicut piramis" HPOS="196" VPOS="1284" WIDTH="1424" HEIGHT="64"></String>
+          </TextLine>
+          <TextLine ID="r1l19" HPOS="212" VPOS="1318" WIDTH="1397" HEIGHT="79" BASELINE="222 1391 294 1388 367 1385 439 1383 512 1380 584 1377 657 1376 730 1373 802 1371 875 1370 947 1368 1020 1367 1092 1365 1165 1364 1238 1364 1310 1362 1383 1362 1455 1362 1528 1362 1601 1362">
+            <Shape>
+              <Polygon POINTS="213 1397 1579 1384 1609 1318 212 1346"></Polygon>
+            </Shape>
+            <String CONTENT="b. ad corpus minus piramide. a. Ex hoc autem onemonstratum est sequi impossibile vide" HPOS="212" VPOS="1318" WIDTH="1397" HEIGHT="79"></String>
+          </TextLine>
+          <TextLine ID="r1l20" HPOS="207" VPOS="1371" WIDTH="1400" HEIGHT="81" BASELINE="216 1443 285 1442 354 1440 423 1437 492 1436 561 1434 630 1432 699 1430 768 1428 837 1427 907 1425 976 1424 1045 1421 1114 1421 1183 1419 1252 1418 1321 1418 1390 1416 1459 1416 1528 1416 1598 1418">
+            <Shape>
+              <Polygon POINTS="208 1452 1592 1437 1607 1371 207 1399"></Polygon>
+            </Shape>
+            <String CONTENT="licet scratilia petracta ab aliqua piramide maius es ea piramide a qua octrahuntur" HPOS="207" VPOS="1371" WIDTH="1400" HEIGHT="81"></String>
+          </TextLine>
+          <TextLine ID="r1l21" HPOS="201" VPOS="1422" WIDTH="1409" HEIGHT="83" BASELINE="210 1496 279 1495 349 1493 418 1491 488 1490 557 1489 627 1487 696 1485 766 1484 835 1482 905 1481 975 1479 1044 1478 1114 1478 1183 1476 1253 1475 1322 1475 1392 1473 1461 1473 1531 1472 1601 1472">
+            <Shape>
+              <Polygon POINTS="201 1505 1610 1493 1609 1437 1456 1422 201 1456"></Polygon>
+            </Shape>
+            <String CONTENT="ideoque relinquitur corpus.c. esse equale piramidi.b. cum nec minus ea possit cem nec" HPOS="201" VPOS="1422" WIDTH="1409" HEIGHT="83"></String>
+          </TextLine>
+          <TextLine ID="r1l22" HPOS="203" VPOS="1477" WIDTH="1416" HEIGHT="84" BASELINE="213 1550 282 1550 352 1548 422 1548 492 1547 562 1545 632 1544 701 1542 771 1541 841 1539 911 1537 981 1535 1051 1533 1121 1532 1190 1532 1260 1530 1330 1529 1400 1529 1470 1527 1540 1527 1610 1529">
+            <Shape>
+              <Polygon POINTS="204 1561 1619 1539 1618 1501 1509 1477 203 1505"></Polygon>
+            </Shape>
+            <String CONTENT="maius T propontionem piramidis.a. ad piramidem. b. esse sicut basis.a. ad basim. b." HPOS="203" VPOS="1477" WIDTH="1416" HEIGHT="84"></String>
+          </TextLine>
+          <TextLine ID="r1l23" HPOS="211" VPOS="1550" WIDTH="485" HEIGHT="96" BASELINE="221 1601 246 1602 272 1604 298 1604 324 1604 350 1604 376 1604 402 1602 428 1601 454 1601 479 1600 505 1599 531 1597 557 1596 583 1595 609 1595 635 1593 661 1593 687 1593">
+            <Shape>
+              <Polygon POINTS="213 1642 261 1646 327 1607 350 1621 422 1607 455 1618 532 1604 566 1620 592 1605 666 1621 696 1610 684 1550 375 1575 320 1557 211 1560"></Polygon>
+            </Shape>
+            <String CONTENT="hoc autem erat oemonstrandum." HPOS="211" VPOS="1550" WIDTH="485" HEIGHT="96"></String>
+          </TextLine>
+          <TextLine ID="r1l24" HPOS="1066" VPOS="1595" WIDTH="99" HEIGHT="64" BASELINE="1076 1644 1102 1643 1128 1645 1154 1647">
+            <Shape>
+              <Polygon POINTS="1066 1655 1080 1657 1089 1652 1112 1651 1122 1659 1135 1654 1150 1659 1154 1655 1163 1656 1165 1598 1150 1595 1134 1601 1123 1597 1111 1606 1091 1601 1069 1602"></Polygon>
+            </Shape>
+            <String CONTENT="6." HPOS="1066" VPOS="1595" WIDTH="99" HEIGHT="64"></String>
+          </TextLine>
+          <TextLine ID="r1l25" HPOS="795" VPOS="1587" WIDTH="266" HEIGHT="76" BASELINE="804 1650 831 1647 859 1647 886 1646 914 1646 941 1646 969 1647 996 1647 1024 1647 1052 1646">
+            <Shape>
+              <Polygon POINTS="795 1662 885 1651 911 1663 948 1654 975 1663 1003 1654 1061 1659 1060 1610 1018 1587 997 1596 973 1592 932 1610 906 1610 890 1595 864 1612 839 1596 822 1604 795 1597"></Polygon>
+            </Shape>
+            <String CONTENT="Isropositio" HPOS="795" VPOS="1587" WIDTH="266" HEIGHT="76"></String>
+          </TextLine>
+          <TextLine ID="r1l26" HPOS="460" VPOS="1634" WIDTH="1150" HEIGHT="86" BASELINE="468 1697 524 1697 581 1697 638 1697 694 1697 751 1697 808 1697 864 1697 921 1697 978 1697 1035 1697 1091 1697 1148 1697 1205 1697 1261 1697 1318 1695 1375 1695 1431 1695 1488 1694 1545 1694 1602 1692">
+            <Shape>
+              <Polygon POINTS="460 1711 1610 1720 1610 1643 1571 1634 1043 1664 460 1641"></Polygon>
+            </Shape>
+            <String CONTENT="uine corpus seratile in tres piramides equales basesque" HPOS="460" VPOS="1634" WIDTH="1150" HEIGHT="86"></String>
+          </TextLine>
+          <TextLine ID="r1l27" HPOS="450" VPOS="1709" WIDTH="715" HEIGHT="59" BASELINE="458 1751 492 1749 527 1749 562 1749 597 1748 632 1748 667 1748 701 1747 736 1746 771 1746 806 1746 841 1746 876 1746 911 1748 945 1748 980 1748 1015 1749 1050 1749 1085 1751 1120 1752 1155 1754">
+            <Shape>
+              <Polygon POINTS="450 1763 1138 1768 1165 1760 1165 1709 450 1710"></Polygon>
+            </Shape>
+            <String CONTENT="triangulas habentes est oinisibile." HPOS="450" VPOS="1709" WIDTH="715" HEIGHT="59"></String>
+          </TextLine>
+          <TextLine ID="r1l28" HPOS="445" VPOS="1753" WIDTH="1179" HEIGHT="65" BASELINE="453 1806 511 1803 569 1802 627 1799 685 1799 743 1797 801 1797 859 1797 917 1799 975 1799 1033 1800 1091 1800 1149 1802 1207 1802 1265 1803 1323 1803 1381 1803 1439 1803 1497 1803 1555 1802 1614 1800">
+            <Shape>
+              <Polygon POINTS="445 1814 1569 1818 1624 1809 1624 1753 445 1763"></Polygon>
+            </Shape>
+            <String CONTENT="Sit seratile. a. b.c. d.c. f. ipsum oico esse viuisibile in tres piramides" HPOS="445" VPOS="1753" WIDTH="1179" HEIGHT="65"></String>
+          </TextLine>
+          <TextLine ID="r1l29" HPOS="458" VPOS="1813" WIDTH="1161" HEIGHT="63" BASELINE="467 1863 524 1860 581 1856 638 1853 695 1851 752 1850 809 1850 867 1850 924 1850 981 1850 1038 1851 1095 1853 1152 1853 1209 1854 1267 1856 1324 1856 1381 1856 1438 1856 1495 1856 1552 1854 1610 1851">
+            <Shape>
+              <Polygon POINTS="458 1874 1606 1876 1619 1813 458 1814"></Polygon>
+            </Shape>
+            <String CONTENT="triangulas equales protrahatur enim in vnaquaque suarum trius superficierum" HPOS="458" VPOS="1813" WIDTH="1161" HEIGHT="63"></String>
+          </TextLine>
+          <TextLine ID="r1l30" HPOS="318" VPOS="1857" WIDTH="1293" HEIGHT="85" BASELINE="327 1923 390 1919 454 1917 518 1913 582 1911 645 1909 709 1907 773 1907 837 1905 900 1905 964 1904 1028 1904 1092 1904 1155 1904 1219 1904 1283 1904 1347 1904 1410 1904 1474 1904 1538 1904 1602 1904">
+            <Shape>
+              <Polygon POINTS="319 1942 1592 1919 1611 1871 402 1857 318 1891"></Polygon>
+            </Shape>
+            <String CONTENT="palellogramarum linea viagonalis ita quod vna earum viagonalium sit conter¬" HPOS="318" VPOS="1857" WIDTH="1293" HEIGHT="85"></String>
+          </TextLine>
+          <TextLine ID="r1l31" HPOS="225" VPOS="1909" WIDTH="1390" HEIGHT="79" BASELINE="234 1982 302 1979 371 1977 439 1974 508 1972 576 1970 645 1968 713 1965 782 1964 850 1962 919 1960 988 1959 1056 1956 1125 1956 1193 1955 1262 1955 1330 1955 1399 1955 1467 1955 1536 1956 1605 1958">
+            <Shape>
+              <Polygon POINTS="226 1988 1615 1965 1614 1921 1522 1909 225 1944"></Polygon>
+            </Shape>
+            <String CONTENT="minalis reliquis ouabus ut si protrabas lineas. b. d. b. f. z. f. a. quas propter confusio¬" HPOS="225" VPOS="1909" WIDTH="1390" HEIGHT="79"></String>
+          </TextLine>
+          <TextLine ID="r1l32" HPOS="211" VPOS="1965" WIDTH="1407" HEIGHT="77" BASELINE="222 2034 291 2033 360 2032 430 2030 499 2028 569 2027 638 2025 708 2022 777 2019 847 2018 916 2015 985 2013 1055 2012 1124 2010 1194 2009 1263 2007 1333 2007 1402 2006 1472 2006 1541 2007 1611 2009">
+            <Shape>
+              <Polygon POINTS="213 2042 1605 2022 1618 1965 211 1992"></Polygon>
+            </Shape>
+            <String CONTENT="nem piotrabere contempsi: eritque totum scratile in tres triangulas piramides biuisum" HPOS="211" VPOS="1965" WIDTH="1407" HEIGHT="77"></String>
+          </TextLine>
+          <TextLine ID="r1l33" HPOS="223" VPOS="2010" WIDTH="1389" HEIGHT="93" BASELINE="233 2085 301 2085 369 2085 438 2085 506 2084 575 2083 643 2081 712 2079 780 2078 849 2075 917 2073 985 2071 1054 2069 1122 2067 1191 2064 1259 2063 1328 2063 1396 2061 1465 2060 1533 2060 1602 2061">
+            <Shape>
+              <Polygon POINTS="225 2103 1612 2067 1610 2020 1498 2010 223 2047"></Polygon>
+            </Shape>
+            <String CONTENT="quas ex paemissa bis assumpta facile constat esse equales. Onumi autem eudides nihil oe¬" HPOS="223" VPOS="2010" WIDTH="1389" HEIGHT="93"></String>
+          </TextLine>
+          <TextLine ID="r1l34" HPOS="214" VPOS="2066" WIDTH="1404" HEIGHT="89" BASELINE="224 2135 293 2136 362 2136 431 2136 501 2136 570 2135 639 2135 709 2133 778 2132 847 2130 917 2129 986 2127 1055 2125 1124 2123 1194 2121 1263 2120 1332 2118 1402 2117 1471 2115 1540 2114 1610 2114">
+            <Shape>
+              <Polygon POINTS="215 2155 1618 2135 1617 2066 214 2100"></Polygon>
+            </Shape>
+            <String CONTENT="monstrandum paoponit ve piramidibus lateratis exceptis solidis his quarum sunt" HPOS="214" VPOS="2066" WIDTH="1404" HEIGHT="89"></String>
+          </TextLine>
+          <TextLine ID="r1l35" HPOS="215" VPOS="2122" WIDTH="1399" HEIGHT="81" BASELINE="224 2189 293 2189 362 2189 431 2189 500 2187 569 2187 638 2187 707 2186 776 2186 845 2185 914 2184 983 2183 1052 2183 1121 2181 1190 2180 1259 2178 1328 2177 1397 2175 1466 2172 1535 2171 1604 2168">
+            <Shape>
+              <Polygon POINTS="216 2203 1614 2180 1567 2122 215 2152"></Polygon>
+            </Shape>
+            <String CONTENT="bases triangule vt omnium cognitionem ex elementis quam ponit: sufficienter elicere possi¬" HPOS="215" VPOS="2122" WIDTH="1399" HEIGHT="81"></String>
+          </TextLine>
+          <TextLine ID="r1l36" HPOS="216" VPOS="2194" WIDTH="1408" HEIGHT="63" BASELINE="224 2246 293 2243 363 2241 432 2240 502 2238 572 2237 641 2237 711 2237 780 2237 850 2237 920 2237 989 2235 1059 2235 1128 2235 1198 2235 1268 2234 1337 2234 1407 2232 1476 2231 1546 2228 1616 2225">
+            <Shape>
+              <Polygon POINTS="216 2257 1442 2254 1621 2237 1624 2194 216 2207"></Polygon>
+            </Shape>
+            <String CONTENT="mus: quedam arbitramur non inutile oemonstrationibus hic positis adiungere: solis" HPOS="216" VPOS="2194" WIDTH="1408" HEIGHT="63"></String>
+          </TextLine>
+          <TextLine ID="r1l37" HPOS="212" VPOS="2241" WIDTH="1409" HEIGHT="69" BASELINE="222 2304 291 2300 361 2296 430 2292 500 2291 569 2289 639 2288 708 2286 778 2286 847 2286 917 2286 987 2288 1056 2288 1126 2288 1195 2288 1265 2288 1334 2288 1404 2288 1473 2286 1543 2285 1613 2283">
+            <Shape>
+              <Polygon POINTS="213 2310 1521 2310 1621 2297 1621 2241 212 2260"></Polygon>
+            </Shape>
+            <String CONTENT="enim clementis contentus eudides multa praetermisit que quamuis er cis consequantur non" HPOS="212" VPOS="2241" WIDTH="1409" HEIGHT="69"></String>
+          </TextLine>
+          <TextLine ID="r1l38" HPOS="222" VPOS="2311" WIDTH="1094" HEIGHT="54" BASELINE="231 2358 284 2355 338 2352 392 2349 446 2346 500 2345 554 2343 607 2342 661 2340 715 2339 769 2339 823 2339 877 2339 931 2339 984 2339 1038 2339 1092 2339 1146 2339 1200 2339 1254 2340 1308 2340">
+            <Shape>
+              <Polygon POINTS="222 2365 1304 2358 1316 2311 222 2319"></Polygon>
+            </Shape>
+            <String CONTENT="tamen sine oifficultate patent studentibus: hox primum est hec." HPOS="222" VPOS="2311" WIDTH="1094" HEIGHT="54"></String>
+          </TextLine>
+          <TextLine ID="r1l39" HPOS="224" VPOS="2335" WIDTH="1395" HEIGHT="80" BASELINE="234 2415 302 2410 371 2406 440 2403 509 2400 578 2397 647 2396 715 2393 784 2393 853 2391 922 2391 991 2390 1060 2390 1129 2390 1197 2390 1266 2390 1335 2390 1404 2390 1473 2391 1542 2391 1611 2391">
+            <Shape>
+              <Polygon POINTS="225 2415 1619 2396 1618 2349 1478 2335 224 2365"></Polygon>
+            </Shape>
+            <String CONTENT="¶ Si ouo solida quozus alterum seratile alterum vero piramis cnius" HPOS="224" VPOS="2335" WIDTH="1395" HEIGHT="80"></String>
+          </TextLine>
+          <TextLine ID="r1l40" HPOS="219" VPOS="2397" WIDTH="1401" HEIGHT="74" BASELINE="228 2469 297 2465 366 2462 435 2458 504 2454 573 2452 642 2450 712 2448 781 2446 850 2444 919 2444 988 2442 1057 2442 1126 2441 1196 2441 1265 2441 1334 2441 1403 2441 1472 2441 1541 2442 1611 2442">
+            <Shape>
+              <Polygon POINTS="220 2471 1620 2458 1618 2397 219 2417"></Polygon>
+            </Shape>
+            <String CONTENT="basis triangula super eandem basim aut super equales trigonas aut" HPOS="219" VPOS="2397" WIDTH="1401" HEIGHT="74"></String>
+          </TextLine>
+          <TextLine ID="r1l41" HPOS="218" VPOS="2444" WIDTH="1397" HEIGHT="83" BASELINE="228 2523 300 2519 373 2515 445 2513 518 2510 590 2507 663 2504 736 2501 808 2499 881 2497 953 2496 1026 2495 1098 2493 1171 2492 1244 2492 1316 2492 1389 2492 1461 2493 1534 2493 1607 2495">
+            <Shape>
+              <Polygon POINTS="219 2527 1615 2504 1614 2449 1545 2444 218 2469"></Polygon>
+            </Shape>
+            <String CONTENT="seratile super quadrangulam: piramis vero super trigonam que quadran" HPOS="218" VPOS="2444" WIDTH="1397" HEIGHT="83"></String>
+          </TextLine>
+          <TextLine ID="r1l42" HPOS="221" VPOS="2503" WIDTH="1391" HEIGHT="85" BASELINE="231 2579 299 2575 368 2571 437 2567 505 2564 574 2562 643 2559 711 2556 780 2555 849 2552 918 2550 986 2549 1055 2547 1124 2547 1192 2546 1261 2546 1330 2546 1398 2546 1467 2546 1536 2546 1605 2547">
+            <Shape>
+              <Polygon POINTS="223 2588 1580 2573 1612 2503 221 2530"></Polygon>
+            </Shape>
+            <String CONTENT="gule basis seratilis sit dimidius constituta fuerint eque alta seratile pi" HPOS="221" VPOS="2503" WIDTH="1391" HEIGHT="85"></String>
+          </TextLine>
+          <TextLine ID="r1l43" HPOS="217" VPOS="2557" WIDTH="620" HEIGHT="88" BASELINE="227 2624 257 2625 287 2627 317 2628 347 2628 377 2628 407 2628 437 2627 467 2625 497 2623 527 2622 557 2619 587 2617 617 2615 647 2612 677 2610 707 2609 737 2607 767 2604 797 2603 827 2603">
+            <Shape>
+              <Polygon POINTS="219 2632 458 2645 543 2624 837 2615 834 2568 797 2557 217 2590"></Polygon>
+            </Shape>
+            <String CONTENT="ramidi triplum esse conueniet" HPOS="217" VPOS="2557" WIDTH="620" HEIGHT="88"></String>
+          </TextLine>
+          <TextLine ID="r1l44" HPOS="218" VPOS="2598" WIDTH="1394" HEIGHT="92" BASELINE="228 2681 296 2679 365 2678 434 2675 502 2673 571 2670 640 2669 708 2666 777 2664 846 2663 915 2660 983 2658 1052 2657 1121 2657 1189 2655 1258 2655 1327 2655 1395 2655 1464 2657 1533 2657 1602 2660">
+            <Shape>
+              <Polygon POINTS="219 2690 1612 2683 1610 2598 218 2632"></Polygon>
+            </Shape>
+            <String CONTENT="¶ Si seratile propositum fuerit super basim trigonam tunc ex piramide proposita supe" HPOS="218" VPOS="2598" WIDTH="1394" HEIGHT="92"></String>
+          </TextLine>
+          <TextLine ID="r1l45" HPOS="228" VPOS="2661" WIDTH="1390" HEIGHT="86" BASELINE="237 2733 305 2732 374 2730 442 2729 511 2727 579 2726 648 2723 716 2721 785 2719 853 2717 922 2715 991 2714 1059 2712 1128 2711 1196 2710 1265 2709 1333 2709 1402 2709 1470 2711 1539 2712 1608 2715">
+            <Shape>
+              <Polygon POINTS="229 2747 1618 2728 1617 2677 1506 2661 228 2694"></Polygon>
+            </Shape>
+            <String CONTENT="piopiiam basim perficiatur seratile piramidi proposite eque altum. Si vero seratile" HPOS="228" VPOS="2661" WIDTH="1390" HEIGHT="86"></String>
+          </TextLine>
+          <TextLine ID="r1l46" HPOS="216" VPOS="2714" WIDTH="1397" HEIGHT="89" BASELINE="225 2787 294 2786 363 2786 432 2784 501 2783 570 2781 639 2778 708 2777 777 2774 846 2772 915 2771 984 2768 1053 2767 1122 2766 1191 2765 1260 2765 1329 2765 1398 2766 1467 2767 1536 2769 1605 2772">
+            <Shape>
+              <Polygon POINTS="217 2803 1613 2783 1612 2737 1394 2714 216 2747"></Polygon>
+            </Shape>
+            <String CONTENT="fuerit super basim quadrangulam tunc basupiram idis adijciatur triangulus ex quo" HPOS="216" VPOS="2714" WIDTH="1397" HEIGHT="89"></String>
+          </TextLine>
+          <TextLine ID="r1l47" HPOS="225" VPOS="2773" WIDTH="1404" HEIGHT="81" BASELINE="234 2840 303 2840 372 2840 441 2838 511 2838 580 2835 649 2834 719 2832 788 2830 857 2828 927 2826 996 2825 1065 2823 1134 2822 1204 2820 1273 2820 1342 2820 1412 2822 1481 2823 1550 2825 1620 2828">
+            <Shape>
+              <Polygon POINTS="226 2854 1629 2843 1628 2787 1479 2773 225 2800"></Polygon>
+            </Shape>
+            <String CONTENT="abasi piramidis perficiatur superficies equidistantium laterum super quam ex ipsa" HPOS="225" VPOS="2773" WIDTH="1404" HEIGHT="81"></String>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

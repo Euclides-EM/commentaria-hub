@@ -23,8 +23,8 @@ import (
 )
 
 func main() {
-	inputPath := flag.String("input", "", "path to input image, PNG directory, or PDF")
-	outputDir := flag.String("output-dir", "/tmp/formatcov", "directory for processed PNG output")
+	inputPath := flag.String("input", "", "path to input image, PNG directory, PDF, PAGE XML file, or PAGE XML directory")
+	outputDir := flag.String("output-dir", "/tmp/formatcov", "directory for processed PNG or converted ALTO output")
 	pageRange := flag.String("range", "", "optional PDF page range, e.g. 1,3-5")
 	dpi := flag.Float64("dpi", 300, "PDF render DPI")
 	flag.Parse()
@@ -47,6 +47,16 @@ func run(inputPath, outputDir, pageRange string, dpi float64) error {
 	}
 	if dpi <= 0 {
 		return fmt.Errorf("dpi must be positive, got %v", dpi)
+	}
+	pageXML, err := formatcov.IsPageXMLInput(inputPath)
+	if err != nil {
+		return err
+	}
+	if pageXML {
+		if pageRange != "" {
+			return fmt.Errorf("page range is only supported for PDF input")
+		}
+		return formatcov.PageXMLFilesToALTO(inputPath, outputDir)
 	}
 	if err := os.MkdirAll(outputDir, 0o755); err != nil {
 		return fmt.Errorf("create output dir %q: %w", outputDir, err)
