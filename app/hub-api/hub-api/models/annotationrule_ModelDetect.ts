@@ -12,3 +12,4 @@ export type annotationrule_ModelDetect = {
     type?: annotationrule_Type;
     use_gpu_farm?: boolean;
 };
+

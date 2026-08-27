@@ -681,4 +681,46 @@ export class AnnotationsApplyRulesService {
             body: annotationTextBlockCorrections,
         });
     }
+    /**
+     * Upload GPU farm annotation detection result
+     * Uploads ALTO result ZIP produced by a GPU farm detection job.
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static postDatasetsAnnotationsDetectionUpload({
+        dataSetId,
+        id,
+        mode,
+        file,
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * Detection mode
+         */
+        mode: 'lines' | 'model_segment' | 'model_ocr',
+        /**
+         * ALTO result ZIP
+         */
+        file: Blob,
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/datasets/{dataSetId}/annotations/{id}/detection_upload',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            formData: {
+                'mode': mode,
+                'file': file,
+            },
+        });
+    }
 }
