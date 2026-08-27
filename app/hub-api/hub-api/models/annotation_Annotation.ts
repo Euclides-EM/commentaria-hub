@@ -24,3 +24,4 @@ export type annotation_Annotation = {
     readonly transcription_fallback?: annotation_TranscriptionFallback;
     readonly updated_at?: string;
 };
+

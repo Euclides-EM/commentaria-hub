@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_EditionShelfmarkTranscriptionAvailability = 'none' | 'external' | 'internal';
+export type annotation_TranscriptionLevel = 'dataset' | 'annotation';

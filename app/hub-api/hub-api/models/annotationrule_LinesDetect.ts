@@ -19,3 +19,4 @@ export type annotationrule_LinesDetect = {
     type?: annotationrule_Type;
     use_gpu_farm?: boolean;
 };
+
