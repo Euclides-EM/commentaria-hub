@@ -88,32 +88,30 @@ export const upsertEdition = async (
     const nextIDs = new Set(
       shelfmarks.map((shelfmark) => shelfmark.id).filter(Boolean),
     );
-    await Promise.all(
-      existingShelfmarks
-        .filter((shelfmark) => shelfmark.id && !nextIDs.has(shelfmark.id))
-        .map((shelfmark) =>
-          ShelfmarksService.deleteEditionsShelfmarks({
-            editionId: data.key!,
-            shelfmarkId: shelfmark.id!,
-          }),
-        ),
-    );
+    for (const shelfmark of existingShelfmarks.filter(
+      (shelfmark) => shelfmark.id && !nextIDs.has(shelfmark.id),
+    )) {
+      await ShelfmarksService.deleteEditionsShelfmarks({
+        editionId: data.key!,
+        shelfmarkId: shelfmark.id!,
+      });
+    }
   }
 
-  await Promise.all(
-    shelfmarks.map((shelfmark) =>
-      shelfmark.id
-        ? ShelfmarksService.putEditionsShelfmarks({
-            editionId: data.key!,
-            shelfmarkId: shelfmark.id,
-            shelfmark,
-          })
-        : ShelfmarksService.postEditionsShelfmarks({
-            editionId: data.key!,
-            shelfmark,
-          }),
-    ),
-  );
+  for (const shelfmark of shelfmarks) {
+    if (shelfmark.id) {
+      await ShelfmarksService.putEditionsShelfmarks({
+        editionId: data.key!,
+        shelfmarkId: shelfmark.id,
+        shelfmark,
+      });
+    } else {
+      await ShelfmarksService.postEditionsShelfmarks({
+        editionId: data.key!,
+        shelfmark,
+      });
+    }
+  }
 };
 
 export const deleteEdition = async (editionId: string): Promise<void> => {

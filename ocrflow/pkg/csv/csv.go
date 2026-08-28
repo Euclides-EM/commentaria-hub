@@ -6,7 +6,10 @@ import (
 	"os"
 	"path/filepath"
 	"slices"
+	"sync"
 )
+
+var saveMu sync.Mutex
 
 func LoadCSVRecords(csvPath string) (header []string, rows []map[string]string, err error) {
 	all, err := LoadCSV(csvPath)
@@ -176,20 +179,34 @@ func LoadCSV(path string) ([][]string, error) {
 }
 
 func SaveCSV(path string, records [][]string) error {
+	saveMu.Lock()
+	defer saveMu.Unlock()
+
 	if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
 		return err
 	}
-	f, err := os.Create(path)
+	dir := filepath.Dir(path)
+	tmp, err := os.CreateTemp(dir, "."+filepath.Base(path)+".*.tmp")
 	if err != nil {
 		return err
 	}
-	defer f.Close()
-	w := csv.NewWriter(f)
+	tmpPath := tmp.Name()
+	defer os.Remove(tmpPath)
+
+	w := csv.NewWriter(tmp)
 	if err := w.WriteAll(records); err != nil {
+		tmp.Close()
 		return err
 	}
 	w.Flush()
-	return w.Error()
+	if err := w.Error(); err != nil {
+		tmp.Close()
+		return err
+	}
+	if err := tmp.Close(); err != nil {
+		return err
+	}
+	return os.Rename(tmpPath, path)
 }
 
 // RowToMap converts a record to a map by header (first record).
