@@ -60,7 +60,7 @@ type EditionFormData = {
     copyright: string | null;
     transcriptionAvailable: model_EditionShelfmarkTranscriptionAvailability;
     structuralMetadataAvailable: model_EditionShelfmarkStructuralMetadataAvailability;
-    transcriptionNote: string | null;
+    note: string | null;
   }[];
   verified: boolean;
   hasDiagrams: boolean | "";
@@ -137,7 +137,7 @@ function toModelEdition(data: EditionFormData): EditionWithShelfmarks {
       copyright: nullToUndef(s.copyright),
       transcription_available: s.transcriptionAvailable,
       structural_metadata_available: s.structuralMetadataAvailable,
-      note: nullToUndef(s.transcriptionNote),
+      note: nullToUndef(s.note),
     })),
     verified: data.verified,
     ...(data.hasDiagrams !== "" ? { hasDiagrams: data.hasDiagrams } : {}),
@@ -224,7 +224,7 @@ function toEditionFormData(
       copyright: s.copyright ?? null,
       transcriptionAvailable: s.transcription_available || "none",
       structuralMetadataAvailable: s.structural_metadata_available || "none",
-      transcriptionNote: s.note ?? null,
+      note: s.note ?? null,
     })),
     verified: Boolean(edition.verified),
     hasDiagrams:
@@ -766,7 +766,7 @@ const defaultValues = (): EditionFormData => ({
       copyright: null,
       transcriptionAvailable: "none",
       structuralMetadataAvailable: "none",
-      transcriptionNote: null,
+      note: null,
     },
   ],
   verified: false,
@@ -1215,7 +1215,7 @@ export const UpsertEdition = () => {
               "none" as model_EditionShelfmarkTranscriptionAvailability,
             structuralMetadataAvailable:
               "none" as model_EditionShelfmarkStructuralMetadataAvailability,
-            transcriptionNote: null,
+            note: null,
           }))
           .filter(
             (shelfmark) =>
@@ -2200,7 +2200,7 @@ export const UpsertEdition = () => {
                             copyright: null,
                             transcriptionAvailable: "none",
                             structuralMetadataAvailable: "none",
-                            transcriptionNote: null,
+                            note: null,
                           })
                         }
                       >
@@ -2371,9 +2371,9 @@ export const UpsertEdition = () => {
                         </FormField>
 
                         <FormField>
-                          <Label>Transcription note</Label>
+                          <Label>Note</Label>
                           <form.Field
-                            name={`shelfmarks[${i}].transcriptionNote`}
+                            name={`shelfmarks[${i}].note`}
                           >
                             {(f) => (
                               <TextArea
