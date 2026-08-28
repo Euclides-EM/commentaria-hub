@@ -2254,8 +2254,21 @@ export const UpsertEdition = () => {
 
                         {(() => {
                           const shelfmarkID = field.state.value[i]?.id;
-                          if (!token || !shelfmarkID) {
+                          if (!token) {
                             return null;
+                          }
+                          if (!shelfmarkID) {
+                            return (
+                              <FormField>
+                                <Label>Connected local scan</Label>
+                                <SelectInput value="" disabled>
+                                  <option value="">
+                                    Save this source before connecting a local
+                                    scan
+                                  </option>
+                                </SelectInput>
+                              </FormField>
+                            );
                           }
                           const options = (
                             editionFacsimilesQuery.data ?? []

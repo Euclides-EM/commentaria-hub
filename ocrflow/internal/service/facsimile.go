@@ -263,8 +263,85 @@ func (e *Facsimile) UpdateFromLocalDir(dir string) error {
 		added++
 	}
 
+	if err := e.applyMachineGuessedShelfmarkMappings(); err != nil {
+		log.Printf("failed to apply machine-guessed facsimile shelfmark mappings: %v", err)
+	}
 	log.Printf("local facsimile sync from %s added %d and updated %d facsimiles", dir, added, updated)
 	return nil
+}
+
+func (e *Facsimile) applyMachineGuessedShelfmarkMappings() error {
+	if e.shelfmarks == nil {
+		return nil
+	}
+	facsimiles, err := e.ListFacsimiles(nil)
+	if err != nil {
+		return err
+	}
+	shelfmarks, err := e.listShelfmarksForMapping()
+	if err != nil {
+		return err
+	}
+	shelfmarksByEdition := make(map[string][]*model.EditionShelfmark)
+	for _, shelfmark := range shelfmarks {
+		if shelfmark != nil && shelfmark.EditionID != "" {
+			shelfmarksByEdition[shelfmark.EditionID] = append(shelfmarksByEdition[shelfmark.EditionID], shelfmark)
+		}
+	}
+	facsimilesByEdition := make(map[string][]*model.Facsimile)
+	for _, facsimile := range facsimiles {
+		if facsimile != nil && facsimile.EditionID != "" {
+			facsimilesByEdition[facsimile.EditionID] = append(facsimilesByEdition[facsimile.EditionID], facsimile)
+		}
+	}
+	for editionID, editionFacsimiles := range facsimilesByEdition {
+		editionShelfmarks := shelfmarksByEdition[editionID]
+		if len(editionFacsimiles) != 1 {
+			continue
+		}
+		shelfmark := machineGuessedShelfmark(editionShelfmarks)
+		if shelfmark == nil {
+			continue
+		}
+		facsimile := editionFacsimiles[0]
+		if facsimile.ShelfmarkID != "" {
+			continue
+		}
+		facsimile.ShelfmarkID = shelfmark.ID
+		facsimile.FacsimileConnectionConfirmationStatus = model.FacsimileConnectionStatusGuessedByMachine
+		if _, err := e.UpdateFacsimile(facsimile); err != nil {
+			return fmt.Errorf("failed to apply machine-guessed shelfmark mapping for facsimile %s: %w", facsimile.ID, err)
+		}
+	}
+	return nil
+}
+
+func machineGuessedShelfmark(shelfmarks []*model.EditionShelfmark) *model.EditionShelfmark {
+	if len(shelfmarks) == 1 {
+		return shelfmarks[0]
+	}
+	withScan := lo.Filter(shelfmarks, func(shelfmark *model.EditionShelfmark, _ int) bool {
+		return shelfmark != nil && strings.TrimSpace(shelfmark.Scan) != ""
+	})
+	if len(withScan) == 1 {
+		return withScan[0]
+	}
+	googleBooks := lo.Filter(withScan, func(shelfmark *model.EditionShelfmark, _ int) bool {
+		return isGoogleBooksURL(shelfmark.Scan)
+	})
+	if len(googleBooks) == 1 {
+		return googleBooks[0]
+	}
+	return nil
+}
+
+func isGoogleBooksURL(rawURL string) bool {
+	parsed, err := url.Parse(strings.TrimSpace(rawURL))
+	if err != nil {
+		return false
+	}
+	host := strings.ToLower(parsed.Hostname())
+	return host == "books.google.com" || (host == "www.google.com" && strings.HasPrefix(parsed.EscapedPath(), "/books/"))
 }
 
 func (e *Facsimile) localFacsimileEditionKeys() ([]string, error) {
@@ -641,31 +718,15 @@ func writeZipCSV(zw *zip.Writer, name string, records [][]string) error {
 	return cw.Error()
 }
 
-func facsimileMappingRecords(facsimiles []*model.Facsimile, shelfmarks []*model.EditionShelfmark) [][]string {
+func facsimileMappingRecords(facsimiles []*model.Facsimile, _ []*model.EditionShelfmark) [][]string {
 	header := []string{"edition_id", "facsimile_id", "facsimile_name", "scan_url", "scan_filename", "download_available", "diagram_crops_available", "file_size_bytes", "imported_at", "shelfmark_id", "facsimile_connection_confirmation_status", "note"}
 	records := [][]string{header}
-	shelfmarksByEdition := make(map[string][]*model.EditionShelfmark)
-	for _, sh := range shelfmarks {
-		if sh != nil {
-			shelfmarksByEdition[sh.EditionID] = append(shelfmarksByEdition[sh.EditionID], sh)
-		}
-	}
-	facsimilesByEdition := make(map[string][]*model.Facsimile)
-	for _, fac := range facsimiles {
-		if fac != nil && fac.EditionID != "" {
-			facsimilesByEdition[fac.EditionID] = append(facsimilesByEdition[fac.EditionID], fac)
-		}
-	}
 	for _, fac := range facsimiles {
 		if fac == nil {
 			continue
 		}
 		shelfmarkID := fac.ShelfmarkID
 		status := string(fac.FacsimileConnectionConfirmationStatus)
-		if shelfmarkID == "" && fac.EditionID != "" && len(shelfmarksByEdition[fac.EditionID]) == 1 && len(facsimilesByEdition[fac.EditionID]) == 1 {
-			shelfmarkID = shelfmarksByEdition[fac.EditionID][0].ID
-			status = string(model.FacsimileConnectionStatusGuessedByMachine)
-		}
 		records = append(records, []string{
 			fac.EditionID,
 			fac.ID,

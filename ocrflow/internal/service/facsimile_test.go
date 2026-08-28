@@ -97,6 +97,66 @@ func TestUpdateFromLocalDirGroupsVolumePDFsUnderOneEdition(t *testing.T) {
 	}
 }
 
+func TestUpdateFromLocalDirPersistsUnambiguousShelfmarkMapping(t *testing.T) {
+	dir := t.TempDir()
+	if err := writeTestPDF(filepath.Join(dir, "Venice_1482.pdf")); err != nil {
+		t.Fatal(err)
+	}
+
+	svc := newTestFacsimileServiceWithShelfmarks(t, []*model.EditionShelfmark{
+		{ID: "shm_venice", EditionID: "Venice_1482"},
+	})
+	if err := svc.UpdateFromLocalDir(dir); err != nil {
+		t.Fatal(err)
+	}
+
+	facsimiles, err := svc.ListFacsimiles([]string{"Venice_1482"})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(facsimiles) != 1 {
+		t.Fatalf("got %d facsimiles, want 1", len(facsimiles))
+	}
+	if got := facsimiles[0].ShelfmarkID; got != "shm_venice" {
+		t.Fatalf("shelfmark_id = %q, want shm_venice", got)
+	}
+	if got := facsimiles[0].FacsimileConnectionConfirmationStatus; got != model.FacsimileConnectionStatusGuessedByMachine {
+		t.Fatalf("facsimile_connection_confirmation_status = %q, want guessed_by_machine", got)
+	}
+}
+
+func TestMachineGuessedShelfmarkUsesOnlyScannedShelfmark(t *testing.T) {
+	got := machineGuessedShelfmark([]*model.EditionShelfmark{
+		{ID: "shm_without_scan"},
+		{ID: "shm_with_scan", Scan: "https://example.test/scan"},
+		{ID: "shm_without_scan_2"},
+	})
+	if got == nil || got.ID != "shm_with_scan" {
+		t.Fatalf("machineGuessedShelfmark() = %+v, want shm_with_scan", got)
+	}
+}
+
+func TestMachineGuessedShelfmarkUsesOnlyGoogleBooksScan(t *testing.T) {
+	got := machineGuessedShelfmark([]*model.EditionShelfmark{
+		{ID: "shm_archive", Scan: "https://archive.org/details/example"},
+		{ID: "shm_google", Scan: "https://www.google.com/books/edition/Foo/bar"},
+		{ID: "shm_bsb", Scan: "https://www.digitale-sammlungen.de/en/view/example"},
+	})
+	if got == nil || got.ID != "shm_google" {
+		t.Fatalf("machineGuessedShelfmark() = %+v, want shm_google", got)
+	}
+}
+
+func TestMachineGuessedShelfmarkDoesNotGuessMultipleGoogleBooksScans(t *testing.T) {
+	got := machineGuessedShelfmark([]*model.EditionShelfmark{
+		{ID: "shm_google_1", Scan: "https://www.google.com/books/edition/Foo/one"},
+		{ID: "shm_google_2", Scan: "https://books.google.com/books?id=two"},
+	})
+	if got != nil {
+		t.Fatalf("machineGuessedShelfmark() = %+v, want no guess", got)
+	}
+}
+
 func TestFacsimileEditionID(t *testing.T) {
 	tests := map[string]string{
 		"Paris_1615":             "Paris_1615",
@@ -215,12 +275,17 @@ func TestUpdateFacsimileRejectsDuplicateShelfmarkAssignment(t *testing.T) {
 	}
 }
 
-func TestFacsimileMappingRecordsGuessesOnlyWhenSingleShelfmarkAndSingleFacsimile(t *testing.T) {
+func TestFacsimileMappingRecordsOnlyReportsPersistedMapping(t *testing.T) {
 	records := facsimileMappingRecords(
 		[]*model.Facsimile{
 			{Meta: common.NewMeta("fac_one"), EditionID: "Paris_1615"},
 			{Meta: common.NewMeta("fac_two"), EditionID: "Paris_1615"},
-			{Meta: common.NewMeta("fac_three"), EditionID: "Venice_1482"},
+			{
+				Meta:                                  common.NewMeta("fac_three"),
+				EditionID:                             "Venice_1482",
+				ShelfmarkID:                           "shm_venice",
+				FacsimileConnectionConfirmationStatus: model.FacsimileConnectionStatusGuessedByMachine,
+			},
 		},
 		[]*model.EditionShelfmark{
 			{ID: "shm_paris", EditionID: "Paris_1615"},
@@ -236,7 +301,7 @@ func TestFacsimileMappingRecordsGuessesOnlyWhenSingleShelfmarkAndSingleFacsimile
 		t.Fatalf("Paris row was guessed despite multiple facsimiles: shelfmark=%q status=%q", gotParisShelfmark, gotParisStatus)
 	}
 	if gotVeniceShelfmark != "shm_venice" || gotVeniceStatus != string(model.FacsimileConnectionStatusGuessedByMachine) {
-		t.Fatalf("Venice row = shelfmark %q status %q, want machine guess", gotVeniceShelfmark, gotVeniceStatus)
+		t.Fatalf("Venice row = shelfmark %q status %q, want persisted machine guess", gotVeniceShelfmark, gotVeniceStatus)
 	}
 }
 
