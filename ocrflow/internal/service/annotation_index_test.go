@@ -103,3 +103,49 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	require.Equal(t, "ann_unprepared", index.AnnotationID)
 	require.Empty(t, index.Nodes)
 }
+
+func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testing.T) {
+	db, err := sql.Open("sqlite3", ":memory:")
+	require.NoError(t, err)
+	defer db.Close()
+
+	schema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1774207510_tables.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(schema))
+	require.NoError(t, err)
+
+	baseDir := t.TempDir()
+	fileSysMgt := filesys.NewFileSystemManager(baseDir, t.TempDir(), t.TempDir(), t.TempDir())
+	datasetStore := store.NewDatasetSQL(db, fileSysMgt)
+	annotationStore := store.NewAnnotationSQL(db)
+	require.NoError(t, datasetStore.InsertDataset(&model.Dataset{
+		Meta:        common.Meta{ID: "ds_priority", Name: "Priority"},
+		EditionID:   "edition_priority",
+		FacsimileID: "facsimile",
+		DPI:         300,
+	}))
+	ann := &annotation.Annotation{
+		Meta:      common.Meta{ID: "ann_priority", Name: "Priority"},
+		DatasetID: "ds_priority",
+		Pages:     "1",
+		Segmented: false,
+		Ocred:     true,
+	}
+	require.NoError(t, annotationStore.InsertAnnotation(ann))
+
+	writeMarkdownPage := func(dir, content string) {
+		require.NoError(t, os.MkdirAll(filepath.Join(dir, "page-0001"), 0o755))
+		require.NoError(t, os.WriteFile(filepath.Join(dir, "page-0001", "original.md"), []byte(content), 0o644))
+	}
+	writeMarkdownPage(filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "transcriptions"), "# Annotation wins\n")
+	writeMarkdownPage(filepath.Join(baseDir, "transcriptions", "edition_priority"), "# Edition loses\n")
+
+	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, "", 1, 0)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
+
+	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil)
+	require.NoError(t, err)
+	require.Len(t, index.Nodes, 1)
+	require.Equal(t, "Annotation wins", index.Nodes[0].Content)
+	require.Equal(t, "header1", index.Nodes[0].Category)
+}
