@@ -16,7 +16,10 @@ import {
   normalizeEditionId,
   useAllEditionsQuery,
 } from '../../queries/editions.ts'
-import { formatCopyright } from '../../utils/copyright.ts'
+import {
+  formatCopyright,
+  getFacsimileCopyright,
+} from '../../utils/copyright.ts'
 
 const DEFAULT_DPI = 300
 
@@ -75,34 +78,50 @@ export function CreateDatasetModal({
   })
 
   const facsimileOptions = useMemo(() => {
-    const copyrightsByEdition = new Map<string, Set<string>>()
-    const editionKeys = new Set((editions ?? []).map((edition) => edition.key))
+    const shelfmarksByEdition = new Map<string, NonNullable<typeof shelfmarks>>()
     for (const shelfmark of shelfmarks ?? []) {
-      if (!shelfmark.edition_id || !editionKeys.has(shelfmark.edition_id)) {
+      const editionId = normalizeEditionId(shelfmark.edition_id ?? '')
+      if (!editionId) {
         continue
       }
-      const copyrights =
-        copyrightsByEdition.get(shelfmark.edition_id) ?? new Set()
-      if (shelfmark.copyright?.trim()) {
-        copyrights.add(shelfmark.copyright.trim())
-      }
-      copyrightsByEdition.set(shelfmark.edition_id, copyrights)
+      shelfmarksByEdition.set(editionId, [
+        ...(shelfmarksByEdition.get(editionId) ?? []),
+        shelfmark,
+      ])
+    }
+
+    const editionById = new Map(
+      (editions ?? []).map((edition) => [
+        normalizeEditionId(edition.key ?? ''),
+        edition,
+      ]),
+    )
+
+    const copyrightForFacsimile = (facsimile: NonNullable<typeof facsimiles>[number]) => {
+      const editionId = normalizeEditionId(facsimile.edition_id ?? '')
+      const edition = editionById.get(editionId)
+      return getFacsimileCopyright(
+        edition
+          ? {
+              ...edition,
+              shelfmarks: shelfmarksByEdition.get(editionId) ?? [],
+            }
+          : undefined,
+        facsimile,
+      )
     }
 
     const existingOptions: FacsimileOption[] = (facsimiles ?? [])
       .filter((f) => f.id != null && f.download_available === true)
       .map((f) => {
         const editionId = f.edition_id ?? ''
-        const copyrights = [
-          ...(copyrightsByEdition.get(normalizeEditionId(editionId)) ?? []),
-        ]
         return {
           value: `existing:${f.id}`,
           label: editionId,
           facsimileId: f.id!,
           editionId,
           facsimileName: f.name?.trim() || '',
-          copyright: copyrights.join('; '),
+          copyright: copyrightForFacsimile(f),
         }
       })
 

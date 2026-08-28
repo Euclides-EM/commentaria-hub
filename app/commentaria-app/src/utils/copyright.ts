@@ -1,7 +1,7 @@
 import type { model_Edition, model_Facsimile } from '@hub-api'
 
 type EditionWithShelfmarks = model_Edition & {
-  shelfmarks?: Array<{ scan?: string; copyright?: string }>
+  shelfmarks?: Array<{ id?: string; scan?: string; copyright?: string }>
 }
 
 export type CopyrightStatus = 'unknown' | 'known'
@@ -16,23 +16,21 @@ export function getFacsimileCopyright(
   facsimile?: model_Facsimile,
 ) {
   const shelfmarks = edition?.shelfmarks ?? []
+  const shelfmarkId = facsimile?.shelfmark_id?.trim()
   const scanUrl = facsimile?.scan_url?.trim()
-  const matchingShelfmark = scanUrl
-    ? shelfmarks.find((shelfmark) => shelfmark.scan?.trim() === scanUrl)
-    : undefined
+  const matchingShelfmark =
+    (shelfmarkId
+      ? shelfmarks.find((shelfmark) => shelfmark.id?.trim() === shelfmarkId)
+      : undefined) ??
+    (scanUrl
+      ? shelfmarks.find((shelfmark) => shelfmark.scan?.trim() === scanUrl)
+      : undefined)
 
   if (matchingShelfmark) {
     return formatCopyright(matchingShelfmark.copyright)
   }
 
-  const copyrights = [
-    ...new Set(
-      shelfmarks
-        .map((shelfmark) => shelfmark.copyright?.trim())
-        .filter((copyright): copyright is string => !!copyright),
-    ),
-  ]
-  return formatCopyright(copyrights.join('; '))
+  return formatCopyright()
 }
 
 export const getCopyrightStatus = (copyright: string): CopyrightStatus =>
