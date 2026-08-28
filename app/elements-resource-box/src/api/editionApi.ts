@@ -162,8 +162,37 @@ export const searchEditionsPage = async (query?: search_Query) =>
 export const listEditionShelfmarks = (editionId: string) =>
   ShelfmarksService.getEditionsShelfmarks({ editionId });
 
-export const listShelfmarks = (editionIds?: string[]) =>
-  ShelfmarksService.getShelfmarks({ editionId: editionIds });
+const SHELFMARKS_BATCH_SIZE = 50;
+
+const chunksOf = <T>(items: T[], size: number): T[][] => {
+  const chunks: T[][] = [];
+  for (let i = 0; i < items.length; i += size) {
+    chunks.push(items.slice(i, i + size));
+  }
+  return chunks;
+};
+
+export const listShelfmarks = async (
+  editionIds?: string[],
+): Promise<model_EditionShelfmark[]> => {
+  if (!editionIds || editionIds.length === 0) {
+    return ShelfmarksService.getShelfmarks({});
+  }
+
+  const uniqueEditionIds = Array.from(
+    new Set(editionIds.filter((editionId) => Boolean(editionId))),
+  );
+  if (uniqueEditionIds.length === 0) {
+    return [];
+  }
+
+  const batches = await Promise.all(
+    chunksOf(uniqueEditionIds, SHELFMARKS_BATCH_SIZE).map((batch) =>
+      ShelfmarksService.getShelfmarks({ editionId: batch }),
+    ),
+  );
+  return batches.flat();
+};
 
 export const attachShelfmarks = async <T extends model_Edition>(
   editions: T[],

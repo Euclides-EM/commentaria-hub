@@ -22,8 +22,9 @@ func (e cacheEntry) expired() bool {
 }
 
 type Cache struct {
-	mu   sync.RWMutex
-	data map[string]cacheEntry
+	mu     sync.RWMutex
+	data   map[string]cacheEntry
+	warmed bool
 }
 
 func NewCache() *Cache {
@@ -70,6 +71,7 @@ func (c *Cache) Clear() {
 	c.mu.Lock()
 	defer c.mu.Unlock()
 	c.data = make(map[string]cacheEntry)
+	c.warmed = false
 }
 
 // evictExpiredLocked removes expired entries. Must be called with c.mu held.
@@ -92,6 +94,7 @@ func (c *Cache) Warmup(loadFunc func() (map[string]interface{}, error)) error {
 	for k, v := range data {
 		c.data[k] = cacheEntry{value: v}
 	}
+	c.warmed = true
 	return nil
 }
 
@@ -99,7 +102,7 @@ func (c *Cache) IsWarm() bool {
 	c.mu.Lock()
 	defer c.mu.Unlock()
 	c.evictExpiredLocked()
-	return len(c.data) > 0
+	return c.warmed
 }
 
 func (c *Cache) GetBulk(

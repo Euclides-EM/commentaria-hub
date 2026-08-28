@@ -390,7 +390,13 @@ func (s *EditionCSV) UpsertShelfmark(editionID string, sh *model.EditionShelfmar
 	if err := csv.SaveCSVRecords(s.csvPath(relShelfmarks), header, rows); err != nil {
 		return nil, err
 	}
-	s.cacheStore.Clear()
+	loaded, err := s.loadEditionByKey(editionID)
+	if err != nil {
+		return nil, fmt.Errorf("error reloading edition after shelfmark update: %w", err)
+	}
+	if loaded != nil {
+		s.cacheStore.Set(editionID, loaded)
+	}
 	return s.GetShelfmark(editionID, sh.ID)
 }
 
@@ -409,7 +415,13 @@ func (s *EditionCSV) DeleteShelfmark(editionID, shelfmarkID string) error {
 	if err := csv.SaveCSVRecords(s.csvPath(relShelfmarks), header, out); err != nil {
 		return err
 	}
-	s.cacheStore.Clear()
+	loaded, err := s.loadEditionByKey(editionID)
+	if err != nil {
+		return fmt.Errorf("error reloading edition after shelfmark delete: %w", err)
+	}
+	if loaded != nil {
+		s.cacheStore.Set(editionID, loaded)
+	}
 	return nil
 }
 
