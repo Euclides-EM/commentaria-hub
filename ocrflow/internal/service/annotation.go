@@ -504,6 +504,13 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	if len(pages) == 0 {
 		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)
 	}
+	emptyIndex := func() *annotation.Index {
+		return &annotation.Index{
+			DatasetID:    datasetID,
+			AnnotationID: id,
+			Nodes:        []*annotation.IndexNode{},
+		}
+	}
 
 	var annAltoErr error
 	if ann.Segmented {
@@ -527,6 +534,9 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
 	if ds.EditionID == "" {
+		if !ann.Segmented {
+			return emptyIndex(), nil
+		}
 		return nil, fmt.Errorf("annotation doesn't contain ALTO files for one or more of the pages and dataset doesn't have an edition to extract index from markdown: %w", annAltoErr)
 	}
 
@@ -539,6 +549,9 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 			AnnotationID: id,
 			Nodes:        buildNodes(categories, allLocs),
 		}, nil
+	}
+	if !ann.Segmented && errors.Is(annMdErr, filesys.ErrMarkdownPageNotFound) {
+		return emptyIndex(), nil
 	}
 
 	return nil, fmt.Errorf("failed to get annotation index, tried to get the index from alto and markdown but both failed: [ALTO err: %w] [markdown err: %w]", annAltoErr, annMdErr)

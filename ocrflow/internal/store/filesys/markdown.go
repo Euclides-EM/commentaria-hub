@@ -1,6 +1,7 @@
 package filesys
 
 import (
+	"errors"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -8,6 +9,8 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/markdown"
 )
+
+var ErrMarkdownPageNotFound = errors.New("markdown page not found")
 
 func (m *Manager) RetrieveEditionMarkdownPage(editionKey string, pageNum int) (*markdown.Markdown, error) {
 	dir := m.EditionTxtPageTranscriptionDir(editionKey, fmt.Sprintf("%d", pageNum))
@@ -29,7 +32,7 @@ func (m *Manager) RetrieveAnnotationMarkdownPage(ann *annotation.Annotation, pag
 
 func (m *Manager) extractMarkdownPage(dir string) (*markdown.Markdown, error) {
 	if _, err := os.Stat(dir); os.IsNotExist(err) {
-		return nil, fmt.Errorf("markdown page transcription directory %s does not exist", dir)
+		return nil, fmt.Errorf("%w: transcription directory %s does not exist", ErrMarkdownPageNotFound, dir)
 	}
 
 	p := filepath.Join(dir, "original.md")

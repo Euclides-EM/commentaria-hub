@@ -230,10 +230,12 @@ func (e *Facsimile) UpdateFromLocalDir(dir string) error {
 			existing = existingByPDFName[entry.Name()]
 		}
 		if existing != nil {
-			if existing.EditionID == editionID && existing.ScanURL == pdfURL && existing.FileSizeBytes == info.Size() && existing.ImportedAt != nil {
+			if existing.EditionID != editionID {
+				log.Printf("preserving existing edition_id %s for local facsimile %s; filename now maps to %s but existing datasets may reference the current facsimile key", existing.EditionID, existing.ID, editionID)
+			}
+			if existing.ScanURL == pdfURL && existing.FileSizeBytes == info.Size() && existing.ImportedAt != nil {
 				continue
 			}
-			existing.EditionID = editionID
 			existing.ScanURL = pdfURL
 			existing.FileSizeBytes = info.Size()
 			if existing.ImportedAt == nil {

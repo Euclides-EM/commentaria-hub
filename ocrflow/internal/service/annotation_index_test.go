@@ -1,8 +1,17 @@
 package service
 
 import (
+	"database/sql"
+	"os"
+	"path/filepath"
 	"testing"
 
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"
 )
 
@@ -56,4 +65,41 @@ func TestBuildNodesRetainsHeaderWhenIntermediateLevelIsMissing(t *testing.T) {
 	require.Equal(t, "header3", definitions.Children[1].Category)
 	require.Equal(t, "II.", definitions.Children[1].Content)
 	require.Equal(t, "19", definitions.Children[1].Location.Page)
+}
+
+func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
+	db, err := sql.Open("sqlite3", ":memory:")
+	require.NoError(t, err)
+	defer db.Close()
+
+	schema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1774207510_tables.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(schema))
+	require.NoError(t, err)
+
+	fileSysMgt := filesys.NewFileSystemManager(t.TempDir(), t.TempDir(), t.TempDir(), t.TempDir())
+	datasetStore := store.NewDatasetSQL(db, fileSysMgt)
+	annotationStore := store.NewAnnotationSQL(db)
+	require.NoError(t, datasetStore.InsertDataset(&model.Dataset{
+		Meta:        common.Meta{ID: "ds_unprepared", Name: "Unprepared"},
+		EditionID:   "XANRSM",
+		FacsimileID: "facsimile",
+		DPI:         300,
+	}))
+	require.NoError(t, annotationStore.InsertAnnotation(&annotation.Annotation{
+		Meta:      common.Meta{ID: "ann_unprepared", Name: "Unprepared"},
+		DatasetID: "ds_unprepared",
+		Pages:     "1",
+		Segmented: false,
+		Ocred:     false,
+	}))
+
+	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, "", 1, 0)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
+
+	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil)
+	require.NoError(t, err)
+	require.Equal(t, "ds_unprepared", index.DatasetID)
+	require.Equal(t, "ann_unprepared", index.AnnotationID)
+	require.Empty(t, index.Nodes)
 }

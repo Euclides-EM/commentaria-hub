@@ -180,7 +180,7 @@ func TestFacsimileEditionID(t *testing.T) {
 	}
 }
 
-func TestUpdateFromLocalDirMigratesExistingVolumeEditionID(t *testing.T) {
+func TestUpdateFromLocalDirPreservesExistingVolumeEditionID(t *testing.T) {
 	dir := t.TempDir()
 	pdfPath := filepath.Join(dir, "Paris_1615_vol1.pdf")
 	if err := writeTestPDF(pdfPath); err != nil {
@@ -204,12 +204,19 @@ func TestUpdateFromLocalDirMigratesExistingVolumeEditionID(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	got, err := svc.ListFacsimiles([]string{"Paris_1615"})
+	got, err := svc.ListFacsimiles([]string{"Paris_1615_vol1"})
 	if err != nil {
 		t.Fatal(err)
 	}
 	if len(got) != 1 || got[0].Name != "existing" {
-		t.Fatalf("migrated facsimiles = %#v, want the existing row under Paris_1615", got)
+		t.Fatalf("facsimiles = %#v, want the existing row to remain under Paris_1615_vol1", got)
+	}
+	migrated, err := svc.ListFacsimiles([]string{"Paris_1615"})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(migrated) != 0 {
+		t.Fatalf("migrated facsimiles = %#v, want no migration to Paris_1615", migrated)
 	}
 }
 

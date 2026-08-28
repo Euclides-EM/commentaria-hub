@@ -225,7 +225,7 @@ export function IndexMenu({
         <LoadingSpinner size="sm" message="Loading index..." />
       ) : error ? (
         <ErrorMessage error={error} variant="empty" />
-      ) : !annotationIndex?.nodes ? (
+      ) : !annotationIndex?.nodes?.length ? (
         <div className="text-gray-500 text-sm italic text-center p-5">
           No index available
         </div>

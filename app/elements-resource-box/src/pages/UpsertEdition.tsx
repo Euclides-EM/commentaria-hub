@@ -106,6 +106,17 @@ type EditionFormData = {
   }[];
 };
 
+const formatFileSize = (bytes?: number): string => {
+  if (!bytes || bytes <= 0) {
+    return "";
+  }
+  const kib = bytes / 1024;
+  if (kib < 1024) {
+    return `${Math.max(1, Math.round(kib))} KB`;
+  }
+  return `${(kib / 1024).toFixed(1).replace(/\.0$/, "")} MB`;
+};
+
 function toModelEdition(data: EditionFormData): EditionWithShelfmarks {
   const nullToUndef = <T,>(v: T | null): T | undefined => v ?? undefined;
   return {
@@ -1064,11 +1075,8 @@ export const UpsertEdition = () => {
 
   const facsimileOptionLabel = (facsimile: model_Facsimile) => {
     const name = facsimile.name?.trim() || facsimile.id || "Unnamed scan";
-    const size =
-      facsimile.file_size_bytes && facsimile.file_size_bytes > 0
-        ? ` (${Math.round(facsimile.file_size_bytes / 1024 / 1024)} MB)`
-        : "";
-    return `${name}${size}`;
+    const size = formatFileSize(facsimile.file_size_bytes);
+    return size ? `${name} (${size})` : name;
   };
 
   const assignFacsimileToShelfmark = async (
@@ -1104,7 +1112,7 @@ export const UpsertEdition = () => {
             facsimile: {
               ...facsimile,
               shelfmark_id: shelfmarkID,
-              facsimile_connection_confirmation_status: "guessed_by_human",
+              facsimile_connection_confirmation_status: "human_confirmed",
             },
           }),
         );
