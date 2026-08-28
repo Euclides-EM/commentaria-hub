@@ -6,7 +6,7 @@ type Edition struct {
 	ShortTitleSource      string                 `json:"shortTitleSource"`
 	Notes                 string                 `json:"notes"`
 	Corpus                []string               `json:"corpus"`
-	Shelfmarks            []EditionShelfmark     `json:"shelfmarks"`
+	Shelfmarks            []EditionShelfmark     `json:"-"`
 	Verified              bool                   `json:"verified"`
 	Bibliography          []string               `json:"bibliography"`
 	ReprintOf             *string                `json:"reprintOf"`
@@ -55,15 +55,18 @@ type EditionSubjectCategory struct {
 }
 
 type EditionShelfmark struct {
-	Volume                 *int                                      `json:"volume"`
-	Scan                   string                                    `json:"scan"`
-	Shelfmark              string                                    `json:"shelfmark"`
-	TitlePageImg           string                                    `json:"title_page_img"`
-	FrontispieceImg        string                                    `json:"frontispiece_img"`
-	Annotations            string                                    `json:"annotations"`
-	Copyright              string                                    `json:"copyright"`
-	TranscriptionAvailable EditionShelfmarkTranscriptionAvailability `json:"transcription_available"`
-	Note                   string                                    `json:"note"`
+	ID                          string                                         `json:"id"`
+	EditionID                   string                                         `json:"edition_id"`
+	Volume                      *int                                           `json:"volume"`
+	Scan                        string                                         `json:"scan"`
+	Shelfmark                   string                                         `json:"shelfmark"`
+	TitlePageImg                string                                         `json:"title_page_img"`
+	FrontispieceImg             string                                         `json:"frontispiece_img"`
+	Annotations                 string                                         `json:"annotations"`
+	Copyright                   string                                         `json:"copyright"`
+	TranscriptionAvailable      EditionShelfmarkTranscriptionAvailability      `json:"transcription_available"`
+	StructuralMetadataAvailable EditionShelfmarkStructuralMetadataAvailability `json:"structural_metadata_available"`
+	Note                        string                                         `json:"note"`
 }
 
 type EditionShelfmarkTranscriptionAvailability string
@@ -72,6 +75,14 @@ const (
 	EditionShelfmarkTranscriptionNone     EditionShelfmarkTranscriptionAvailability = "none"
 	EditionShelfmarkTranscriptionExternal EditionShelfmarkTranscriptionAvailability = "external"
 	EditionShelfmarkTranscriptionInternal EditionShelfmarkTranscriptionAvailability = "internal"
+)
+
+type EditionShelfmarkStructuralMetadataAvailability string
+
+const (
+	EditionShelfmarkStructuralMetadataAvailabilityNone     EditionShelfmarkStructuralMetadataAvailability = "none"
+	EditionShelfmarkStructuralMetadataAvailabilityExternal EditionShelfmarkStructuralMetadataAvailability = "external"
+	EditionShelfmarkStructuralMetadataAvailabilityInternal EditionShelfmarkStructuralMetadataAvailability = "internal"
 )
 
 type EditionVisualElement struct {

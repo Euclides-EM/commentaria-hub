@@ -1,6 +1,8 @@
 package store
 
 import (
+	"crypto/sha1"
+	"encoding/hex"
 	"encoding/json"
 	"fmt"
 	"log"
@@ -238,29 +240,18 @@ func editionShelfmarkTranscriptionAvailability(value string) model.EditionShelfm
 	return model.EditionShelfmarkTranscriptionAvailability(value)
 }
 
+func editionShelfmarkStructuralMetadataAvailability(value string) model.EditionShelfmarkStructuralMetadataAvailability {
+	if value == "" {
+		return model.EditionShelfmarkStructuralMetadataAvailabilityNone
+	}
+	return model.EditionShelfmarkStructuralMetadataAvailability(value)
+}
+
 func (s *EditionCSV) upsertShelfmarks(ed *model.Edition) error {
 	var rows []map[string]string
 	for _, sh := range ed.Shelfmarks {
-		vol := ""
-		if sh.Volume != nil {
-			vol = strconv.Itoa(*sh.Volume)
-		}
-		transcriptionAvailable := sh.TranscriptionAvailable
-		if transcriptionAvailable == "" {
-			transcriptionAvailable = model.EditionShelfmarkTranscriptionNone
-		}
-		rows = append(rows, map[string]string{
-			"key":                     ed.Key,
-			"volume":                  vol,
-			"scan":                    sh.Scan,
-			"title_page_img":          futils.SafeBase(sh.TitlePageImg),
-			"frontispiece_img":        futils.SafeBase(sh.FrontispieceImg),
-			"annotations":             sh.Annotations,
-			"shelf_mark":              sh.Shelfmark,
-			"copyright":               sh.Copyright,
-			"transcription_available": string(transcriptionAvailable),
-			"note":                    sh.Note,
-		})
+		sh.EditionID = ed.Key
+		rows = append(rows, shelfmarkToCSVRow(&sh))
 	}
 	if len(rows) == 0 {
 		return nil
@@ -268,6 +259,157 @@ func (s *EditionCSV) upsertShelfmarks(ed *model.Edition) error {
 	if err := csv.ReplaceRowsForKey(s.csvPath(relShelfmarks), "key", ed.Key, rows); err != nil {
 		return fmt.Errorf("error upserting shelfmarks: %w", err)
 	}
+	return nil
+}
+
+func shelfmarkToCSVRow(sh *model.EditionShelfmark) map[string]string {
+	vol := ""
+	if sh.Volume != nil {
+		vol = strconv.Itoa(*sh.Volume)
+	}
+	transcriptionAvailable := sh.TranscriptionAvailable
+	if transcriptionAvailable == "" {
+		transcriptionAvailable = model.EditionShelfmarkTranscriptionNone
+	}
+	structuralMetadataAvailable := sh.StructuralMetadataAvailable
+	if structuralMetadataAvailable == "" {
+		structuralMetadataAvailable = model.EditionShelfmarkStructuralMetadataAvailabilityNone
+	}
+	id := sh.ID
+	if id == "" {
+		id = deterministicShelfmarkID(sh.EditionID, map[string]string{
+			"volume":     vol,
+			"scan":       sh.Scan,
+			"shelf_mark": sh.Shelfmark,
+		})
+	}
+	return map[string]string{
+		"id":                            id,
+		"key":                           sh.EditionID,
+		"volume":                        vol,
+		"scan":                          sh.Scan,
+		"title_page_img":                futils.SafeBase(sh.TitlePageImg),
+		"frontispiece_img":              futils.SafeBase(sh.FrontispieceImg),
+		"annotations":                   sh.Annotations,
+		"shelf_mark":                    sh.Shelfmark,
+		"copyright":                     sh.Copyright,
+		"transcription_available":       string(transcriptionAvailable),
+		"structural_metadata_available": string(structuralMetadataAvailable),
+		"note":                          sh.Note,
+	}
+}
+
+func shelfmarkFromCSVRow(r map[string]string) *model.EditionShelfmark {
+	vol := formatcov.IntOpt(r["volume"])
+	key := r["key"]
+	id := r["id"]
+	if id == "" {
+		id = deterministicShelfmarkID(key, r)
+	}
+	return &model.EditionShelfmark{
+		ID:                          id,
+		EditionID:                   key,
+		Volume:                      vol,
+		Scan:                        r["scan"],
+		Shelfmark:                   r["shelf_mark"],
+		TitlePageImg:                r["title_page_img"],
+		FrontispieceImg:             r["frontispiece_img"],
+		Annotations:                 r["annotations"],
+		Copyright:                   r["copyright"],
+		TranscriptionAvailable:      editionShelfmarkTranscriptionAvailability(r["transcription_available"]),
+		StructuralMetadataAvailable: editionShelfmarkStructuralMetadataAvailability(r["structural_metadata_available"]),
+		Note:                        r["note"],
+	}
+}
+
+func deterministicShelfmarkID(editionID string, r map[string]string) string {
+	h := sha1.Sum([]byte(strings.Join([]string{
+		editionID,
+		r["volume"],
+		r["scan"],
+		r["shelf_mark"],
+	}, "\x00")))
+	return "shm_" + hex.EncodeToString(h[:])[:12]
+}
+
+func (s *EditionCSV) ListShelfmarks(editionIDs []string) ([]*model.EditionShelfmark, error) {
+	_, rows, err := csv.LoadCSVRecords(s.csvPath(relShelfmarks))
+	if err != nil {
+		return nil, err
+	}
+	allowed := lo.SliceToMap(editionIDs, func(id string) (string, struct{}) { return id, struct{}{} })
+	var out []*model.EditionShelfmark
+	for _, row := range rows {
+		if len(allowed) > 0 {
+			if _, ok := allowed[row["key"]]; !ok {
+				continue
+			}
+		}
+		out = append(out, shelfmarkFromCSVRow(row))
+	}
+	return out, nil
+}
+
+func (s *EditionCSV) GetShelfmark(editionID, shelfmarkID string) (*model.EditionShelfmark, error) {
+	shelfmarks, err := s.ListShelfmarks([]string{editionID})
+	if err != nil {
+		return nil, err
+	}
+	for _, sh := range shelfmarks {
+		if sh.ID == shelfmarkID {
+			return sh, nil
+		}
+	}
+	return nil, nil
+}
+
+func (s *EditionCSV) UpsertShelfmark(editionID string, sh *model.EditionShelfmark) (*model.EditionShelfmark, error) {
+	header, rows, err := csv.LoadCSVRecords(s.csvPath(relShelfmarks))
+	if err != nil {
+		return nil, err
+	}
+	sh.EditionID = editionID
+	if sh.ID == "" {
+		sh.ID = deterministicShelfmarkID(editionID, shelfmarkToCSVRow(sh))
+	}
+	row := shelfmarkToCSVRow(sh)
+	updated := false
+	for i, existing := range rows {
+		if existing["key"] != editionID {
+			continue
+		}
+		if shelfmarkFromCSVRow(existing).ID == sh.ID {
+			rows[i] = row
+			updated = true
+			break
+		}
+	}
+	if !updated {
+		rows = append(rows, row)
+	}
+	if err := csv.SaveCSVRecords(s.csvPath(relShelfmarks), header, rows); err != nil {
+		return nil, err
+	}
+	s.cacheStore.Clear()
+	return s.GetShelfmark(editionID, sh.ID)
+}
+
+func (s *EditionCSV) DeleteShelfmark(editionID, shelfmarkID string) error {
+	header, rows, err := csv.LoadCSVRecords(s.csvPath(relShelfmarks))
+	if err != nil {
+		return err
+	}
+	out := rows[:0]
+	for _, row := range rows {
+		if row["key"] == editionID && shelfmarkFromCSVRow(row).ID == shelfmarkID {
+			continue
+		}
+		out = append(out, row)
+	}
+	if err := csv.SaveCSVRecords(s.csvPath(relShelfmarks), header, out); err != nil {
+		return err
+	}
+	s.cacheStore.Clear()
 	return nil
 }
 
@@ -591,17 +733,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		if r["key"] != key {
 			continue
 		}
-		ed.Shelfmarks = append(ed.Shelfmarks, model.EditionShelfmark{
-			Volume:                 formatcov.IntOpt(r["volume"]),
-			Scan:                   r["scan"],
-			Shelfmark:              r["shelf_mark"],
-			TitlePageImg:           r["title_page_img"],
-			FrontispieceImg:        r["frontispiece_img"],
-			Annotations:            r["annotations"],
-			Copyright:              r["copyright"],
-			TranscriptionAvailable: editionShelfmarkTranscriptionAvailability(r["transcription_available"]),
-			Note:                   r["note"],
-		})
+		ed.Shelfmarks = append(ed.Shelfmarks, *shelfmarkFromCSVRow(r))
 	}
 
 	_, corpRows, _ := csv.LoadCSVRecords(s.csvPath(relCorpuses))
@@ -873,17 +1005,7 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		if r["key"] != key {
 			continue
 		}
-		ed.Shelfmarks = append(ed.Shelfmarks, model.EditionShelfmark{
-			Volume:                 formatcov.IntOpt(r["volume"]),
-			Scan:                   r["scan"],
-			Shelfmark:              r["shelf_mark"],
-			TitlePageImg:           r["title_page_img"],
-			FrontispieceImg:        r["frontispiece_img"],
-			Annotations:            r["annotations"],
-			Copyright:              r["copyright"],
-			TranscriptionAvailable: editionShelfmarkTranscriptionAvailability(r["transcription_available"]),
-			Note:                   r["note"],
-		})
+		ed.Shelfmarks = append(ed.Shelfmarks, *shelfmarkFromCSVRow(r))
 	}
 	if cr := findRowByKey(p.corpuses, "key", key); cr != nil && cr["study"] != "" {
 		ed.Corpus = splitNonEmpty(cr["study"])

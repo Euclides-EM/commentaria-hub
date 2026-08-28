@@ -16,7 +16,11 @@ import { fetchDiagrams, VolumeData } from "../api/diagramsApi.ts";
 import { LAND_COLOR, SEA_COLOR } from "../utils/colors.ts";
 import { useQuery } from "@tanstack/react-query";
 import { isNil } from "lodash";
-import { FacsimilesService, model_Edition } from "@hub-api";
+import {
+  FacsimilesService,
+  type model_Edition,
+  type model_Facsimile,
+} from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { openAuthenticatedFacsimilePDF } from "../utils/facsimilePdf.ts";
 import { getEdition } from "../api/editionApi.ts";
@@ -271,6 +275,7 @@ export const Diagrams = () => {
   const { token } = useContext(AuthContext);
   const [searchParams] = useSearchParams();
   const editionKey = searchParams.get("key");
+  const facsimileId = searchParams.get("facsimileId");
   const [collapsedVolumes, setCollapsedVolumes] = useState<Set<string>>(
     new Set(),
   );
@@ -301,9 +306,9 @@ export const Diagrams = () => {
   );
 
   const diagramsQuery = useQuery({
-    queryKey: ["diagrams", editionKey],
-    queryFn: () => fetchDiagrams(editionKey!),
-    enabled: Boolean(editionKey),
+    queryKey: ["diagrams", editionKey, facsimileId],
+    queryFn: () => fetchDiagrams(editionKey || "", facsimileId),
+    enabled: Boolean(editionKey || facsimileId),
   });
 
   const diagramsData = diagramsQuery.data;
@@ -333,17 +338,23 @@ export const Diagrams = () => {
     queryFn: () => FacsimilesService.getFacsimilies({ editionId: scanKeys }),
     enabled: scanKeys.length > 0,
   });
-  const downloadableScanKeys = useMemo(
-    () =>
-      new Set(
-        (facsimilesQuery.data || [])
-          .filter(
-            (facsimile) => facsimile.download_available && facsimile.edition_id,
-          )
-          .map((facsimile) => facsimile.edition_id!),
-      ),
-    [facsimilesQuery.data],
-  );
+  const downloadableFacsimilesByScanKey = useMemo(() => {
+    const byScanKey = new Map<string, model_Facsimile[]>();
+    for (const facsimile of facsimilesQuery.data || []) {
+      if (
+        !facsimile.download_available ||
+        !facsimile.edition_id ||
+        !facsimile.id
+      ) {
+        continue;
+      }
+      byScanKey.set(facsimile.edition_id, [
+        ...(byScanKey.get(facsimile.edition_id) ?? []),
+        facsimile,
+      ]);
+    }
+    return byScanKey;
+  }, [facsimilesQuery.data]);
   const loading = diagramsQuery.isLoading || editionQuery.isLoading;
   const error =
     (editionQuery.isError ? "Edition not found" : null) ||
@@ -378,16 +389,17 @@ export const Diagrams = () => {
     });
   };
 
-  const openScanPage = () => {
+  const openScanPage = (facsimile: model_Facsimile) => {
     if (!token || modal.pageNumber === null) {
       return;
     }
     void openAuthenticatedFacsimilePDF(
-      modal.scanKey,
+      facsimile.id!,
       token,
       modal.pageNumber,
+      facsimile.name ? `${facsimile.name}.pdf` : undefined,
     ).catch((error) => {
-      console.error("Failed to open main scan page:", error);
+      console.error("Failed to open scan page:", error);
     });
   };
 
@@ -721,11 +733,19 @@ export const Diagrams = () => {
                 <ModalTitle>{modal.title}</ModalTitle>
                 {token &&
                   modal.pageNumber !== null &&
-                  downloadableScanKeys.has(modal.scanKey) && (
-                    <ScanPageButton type="button" onClick={openScanPage}>
-                      View page in main scan
+                  (
+                    downloadableFacsimilesByScanKey.get(modal.scanKey) ?? []
+                  ).map((facsimile) => (
+                    <ScanPageButton
+                      key={facsimile.id}
+                      type="button"
+                      onClick={() => openScanPage(facsimile)}
+                    >
+                      {facsimile.name
+                        ? `View page in ${facsimile.name}`
+                        : "View page in scan"}
                     </ScanPageButton>
-                  )}
+                  ))}
               </ModalTitleRow>
               <CloseButton onClick={closeImageModal}>×</CloseButton>
             </ModalHeader>

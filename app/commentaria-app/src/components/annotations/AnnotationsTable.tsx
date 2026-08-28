@@ -6,7 +6,12 @@ import type {
   annotationrule_PipelineStage,
   model_Dataset,
 } from '@hub-api'
-import { AnnotationsService, ApiError, FacsimilesService } from '@hub-api'
+import {
+  AnnotationsService,
+  ApiError,
+  FacsimilesService,
+  ShelfmarksService,
+} from '@hub-api'
 import { useAppState } from '../../context/useAppState'
 import {
   annotationGroupsQueryKey,
@@ -144,6 +149,10 @@ export function AnnotationsTable({
   const { data: facsimiles } = useQuery({
     queryKey: ['facsimiles'],
     queryFn: () => FacsimilesService.getFacsimilies({}),
+  })
+  const { data: shelfmarks } = useQuery({
+    queryKey: ['shelfmarks'],
+    queryFn: () => ShelfmarksService.getShelfmarks({}),
   })
   const { data: stages } = usePipelineStages()
   const {
@@ -380,9 +389,29 @@ export function AnnotationsTable({
   }, [datasets])
 
   const copyrightByDatasetId = useMemo(() => {
+    const shelfmarksByEdition = new Map(
+      (editions ?? [])
+        .filter((edition) => edition.key)
+        .map((edition) => [
+          edition.key!,
+          (shelfmarks ?? []).filter(
+            (shelfmark) => shelfmark.edition_id === edition.key,
+          ),
+        ]),
+    )
     const editionById = new Map(
       (editions ?? []).flatMap((edition) =>
-        edition.key ? [[edition.key, edition] as const] : [],
+        edition.key
+          ? [
+              [
+                edition.key,
+                {
+                  ...edition,
+                  shelfmarks: shelfmarksByEdition.get(edition.key) ?? [],
+                },
+              ] as const,
+            ]
+          : [],
       ),
     )
     const facsimileById = new Map(
@@ -409,7 +438,7 @@ export function AnnotationsTable({
           : [],
       ),
     )
-  }, [datasets, editions, facsimiles])
+  }, [datasets, editions, facsimiles, shelfmarks])
 
   const filteredRows = useMemo(() => {
     const trimmed = searchQuery.trim().toLowerCase()
@@ -1193,7 +1222,8 @@ export function AnnotationsTable({
               }
               getItemKey={(stage) => stage}
               showSeparatorBeforeItem={(stage) =>
-                isRawStageFilter(stage) && stage === RAW_WITH_TRANSCRIPTION_FALLBACK
+                isRawStageFilter(stage) &&
+                stage === RAW_WITH_TRANSCRIPTION_FALLBACK
               }
               minWidth="280px"
             />

@@ -1,5 +1,9 @@
 import type { model_Edition, model_Facsimile } from '@hub-api'
 
+type EditionWithShelfmarks = model_Edition & {
+  shelfmarks?: Array<{ scan?: string; copyright?: string }>
+}
+
 export type CopyrightStatus = 'unknown' | 'known'
 
 export const COPYRIGHT_FILTER_OPTIONS: CopyrightStatus[] = ['unknown', 'known']
@@ -8,7 +12,7 @@ export const formatCopyright = (copyright?: string) =>
   copyright?.trim().toLowerCase() || 'unknown copyright'
 
 export function getFacsimileCopyright(
-  edition?: model_Edition,
+  edition?: EditionWithShelfmarks,
   facsimile?: model_Facsimile,
 ) {
   const shelfmarks = edition?.shelfmarks ?? []

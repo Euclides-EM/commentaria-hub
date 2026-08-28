@@ -48,6 +48,22 @@ func TestEditionHasAnyShelfmarkProperty(t *testing.T) {
 			want:    true,
 		},
 		{
+			name: "external structural metadata available",
+			shelfmarks: []model.EditionShelfmark{{
+				StructuralMetadataAvailable: model.EditionShelfmarkStructuralMetadataAvailabilityExternal,
+			}},
+			allowed: []string{externalStructuralMetadata},
+			want:    true,
+		},
+		{
+			name: "internal structural metadata available",
+			shelfmarks: []model.EditionShelfmark{{
+				StructuralMetadataAvailable: model.EditionShelfmarkStructuralMetadataAvailabilityInternal,
+			}},
+			allowed: []string{internalStructuralMetadata},
+			want:    true,
+		},
+		{
 			name:       "selected properties use OR matching",
 			shelfmarks: []model.EditionShelfmark{{Scan: "https://example.org/scan"}},
 			allowed:    []string{shelfmarkAvailable, facsimileAvailable},

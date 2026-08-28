@@ -111,6 +111,44 @@ func (h *Handlers) ImportFacsimilesFromDrive(r *http.Request) (any, error) {
 	return h.deps.FacsimileSvc.ImportFromDriveInbox()
 }
 
+// DownloadFacsimileMappingCSV godoc
+// @Summary      Download facsimile mapping CSVs
+// @Description  Downloads a ZIP containing facsimiles.csv and shelfmarks.csv for facsimile-to-shelfmark mapping.
+// @Tags         Facsimiles
+// @Produce      application/zip
+// @Security 	 BearerAuth
+// @Success      200  {file}  string  "Facsimile mapping ZIP"
+// @Router       /facsimilies/mapping-csv [get]
+func (h *Handlers) DownloadFacsimileMappingCSV(r *http.Request) (zipPath string, deleteAfterServe bool, err error) {
+	zipPath, err = h.deps.FacsimileSvc.ExportMappingCSVZip()
+	if err != nil {
+		return "", false, err
+	}
+	return zipPath, true, nil
+}
+
+// UploadFacsimileMappingCSV godoc
+// @Summary      Upload facsimile mapping CSV
+// @Description  Uploads an edited facsimiles.csv file and updates facsimile shelfmark mappings.
+// @Tags         Facsimiles
+// @Accept       multipart/form-data
+// @Produce      json
+// @Param        file  formData  file  true  "facsimiles.csv"
+// @Security 	 BearerAuth
+// @Success      200  {object}  map[string]string
+// @Router       /facsimilies/mapping-csv [post]
+func (h *Handlers) UploadFacsimileMappingCSV(r *http.Request) (any, error) {
+	file, _, err := r.FormFile("file")
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+	if err := h.deps.FacsimileSvc.ImportMappingCSV(file); err != nil {
+		return nil, err
+	}
+	return map[string]string{"message": "facsimile mapping csv imported"}, nil
+}
+
 // DownloadFacsimilePDF godoc
 // @Summary      Download facsimile PDF
 // @Description  Downloads a local facsimile PDF by facsimile ID.
@@ -126,27 +164,6 @@ func (h *Handlers) DownloadFacsimilePDF(r *http.Request) (filePath string, downl
 		return "", "", fmt.Errorf("missing facsimile ID")
 	}
 	filePath, err = h.deps.FacsimileSvc.GetFacsimilePDFPath(id)
-	if err != nil {
-		return "", "", err
-	}
-	return filePath, filepath.Base(filePath), nil
-}
-
-// DownloadEditionFacsimilePDF godoc
-// @Summary      Download edition facsimile PDF
-// @Description  Downloads the first local facsimile PDF for an edition.
-// @Tags         Facsimiles
-// @Produce      application/pdf
-// @Param        editionId  path      string  true  "Edition ID"
-// @Security 	 BearerAuth
-// @Success      200  {file}  string  "Facsimile PDF"
-// @Router       /editions/{editionId}/facsimile.pdf [get]
-func (h *Handlers) DownloadEditionFacsimilePDF(r *http.Request) (filePath string, downloadName string, err error) {
-	editionID, err := extractEditionId(r)
-	if err != nil {
-		return "", "", err
-	}
-	filePath, err = h.deps.FacsimileSvc.GetEditionFacsimilePDFPath(editionID)
 	if err != nil {
 		return "", "", err
 	}

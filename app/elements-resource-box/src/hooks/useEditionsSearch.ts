@@ -6,7 +6,11 @@ import {
   useQuery,
 } from "@tanstack/react-query";
 import { useAppliedFilter } from "../contexts/FilterAppliedContext";
-import { listAllEditions, searchEditionsPage } from "../api/editionApi";
+import {
+  attachShelfmarks,
+  listAllEditions,
+  searchEditionsPage,
+} from "../api/editionApi";
 import { mapEditionsToItems } from "../utils/dataUtils";
 import type { FilterValue } from "../components/map/Filter";
 import type { Item } from "../types";
@@ -161,7 +165,7 @@ export function useEditionsSearch() {
 
   const editionsQuery = useQuery({
     queryKey: buildEditionsSearchQueryKey(searchQuery),
-    queryFn: () => listAllEditions(searchQuery),
+    queryFn: async () => attachShelfmarks(await listAllEditions(searchQuery)),
     placeholderData: keepPreviousData,
   });
 
@@ -224,13 +228,15 @@ export function useEditionsSearchInfinite(options: InfiniteSearchOptions = {}) {
       pageSize,
     ],
     initialPageParam: 0,
-    queryFn: ({ pageParam }) =>
-      searchEditionsPage({
+    queryFn: async ({ pageParam }) => {
+      const page = await searchEditionsPage({
         ...searchQuery,
         order_by: orderBy,
         offset: pageParam,
         limit: pageSize,
-      }),
+      });
+      return { ...page, items: await attachShelfmarks(page.items || []) };
+    },
     getNextPageParam: (lastPage, allPages) => {
       const loaded = allPages.reduce(
         (count, page) => count + (page.items?.length ?? 0),
@@ -264,10 +270,12 @@ export function useEditionsSearchInfinite(options: InfiniteSearchOptions = {}) {
 
   const total = editionsQuery.data?.pages[0]?.total;
   const fetchAllItemsForExport = useCallback(async () => {
-    const editions = await listAllEditions({
-      ...searchQuery,
-      order_by: orderBy,
-    });
+    const editions = await attachShelfmarks(
+      await listAllEditions({
+        ...searchQuery,
+        order_by: orderBy,
+      }),
+    );
     return mapEditionsToItems(editions);
   }, [orderBy, searchQuery]);
 

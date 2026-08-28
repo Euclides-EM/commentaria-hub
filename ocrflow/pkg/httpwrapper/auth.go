@@ -74,10 +74,10 @@ func isPublicReadPath(path string) bool {
 	if strings.HasSuffix(path, "/logs") {
 		return false
 	}
-	if strings.HasPrefix(path, "/facsimilies/") && strings.HasSuffix(path, "/pdf") {
+	if strings.HasSuffix(path, "/facsimilies/mapping-csv") {
 		return false
 	}
-	if strings.HasPrefix(path, "/editions/") && strings.HasSuffix(path, "/facsimile.pdf") {
+	if strings.HasPrefix(path, "/facsimilies/") && strings.HasSuffix(path, "/pdf") {
 		return false
 	}
 	return true

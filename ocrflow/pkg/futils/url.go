@@ -26,7 +26,11 @@ func URLToLocalFilePath(s string) (string, error) {
 	if u.Host != "" && !strings.EqualFold(u.Host, "localhost") {
 		return "", &url.Error{Op: "parse", URL: s, Err: err}
 	}
-	return u.Path, nil
+	path, err := url.PathUnescape(u.Path)
+	if err != nil {
+		return "", err
+	}
+	return path, nil
 }
 
 func LocalFilePathToURL(path string) (string, error) {

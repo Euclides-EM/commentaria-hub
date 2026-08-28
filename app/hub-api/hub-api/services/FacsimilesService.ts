@@ -3,33 +3,12 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { job_Job } from '../models/job_Job';
+import type { model_DiagramCrops } from '../models/model_DiagramCrops';
 import type { model_Facsimile } from '../models/model_Facsimile';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class FacsimilesService {
-    /**
-     * Download edition facsimile PDF
-     * Downloads the first local facsimile PDF for an edition.
-     * @returns binary Facsimile PDF
-     * @throws ApiError
-     */
-    public static getEditionsFacsimilePdf({
-        editionId,
-    }: {
-        /**
-         * Edition ID
-         */
-        editionId: string,
-    }): CancelablePromise<Blob> {
-        return __request(OpenAPI, {
-            method: 'GET',
-            url: '/editions/{editionId}/facsimile.pdf',
-            path: {
-                'editionId': editionId,
-            },
-        });
-    }
     /**
      * List Facsimiles (bulk get)
      * Get facsimiles, optionally filtered by edition ID.
@@ -92,6 +71,38 @@ export class FacsimilesService {
             query: {
                 'async': async,
             },
+        });
+    }
+    /**
+     * Download facsimile mapping CSVs
+     * Downloads a ZIP containing facsimiles.csv and shelfmarks.csv for facsimile-to-shelfmark mapping.
+     * @returns binary Facsimile mapping ZIP
+     * @throws ApiError
+     */
+    public static getFacsimiliesMappingCsv(): CancelablePromise<Blob> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/facsimilies/mapping-csv',
+        });
+    }
+    /**
+     * Upload facsimile mapping CSV
+     * Uploads an edited facsimiles.csv file and updates facsimile shelfmark mappings.
+     * @returns any OK
+     * @throws ApiError
+     */
+    public static postFacsimiliesMappingCsv({
+        formData,
+    }: {
+        formData: {
+            file: Blob;
+        },
+    }): CancelablePromise<any> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/facsimilies/mapping-csv',
+            formData: formData,
+            mediaType: 'multipart/form-data',
         });
     }
     /**
@@ -164,6 +175,28 @@ export class FacsimilesService {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/facsimilies/{id}/pdf',
+            path: {
+                'id': id,
+            },
+        });
+    }
+    /**
+     * Get Facsimile Diagrams
+     * Get diagram image URLs for a specific facsimile.
+     * @returns model_DiagramCrops OK
+     * @throws ApiError
+     */
+    public static getFacsimiliesDiagrams({
+        id,
+    }: {
+        /**
+         * Facsimile ID
+         */
+        id: string,
+    }): CancelablePromise<model_DiagramCrops> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/facsimilies/{id}/diagrams',
             path: {
                 'id': id,
             },

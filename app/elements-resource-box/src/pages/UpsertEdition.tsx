@@ -10,12 +10,16 @@ import {
   updateEditionSubjectCategories,
   upsertEdition,
   ustcLookup,
+  type EditionWithShelfmarks,
 } from "../api/editionApi";
 import type {
   model_Edition,
+  model_Facsimile,
+  model_EditionShelfmarkStructuralMetadataAvailability,
   model_EditionShelfmarkTranscriptionAvailability,
   model_USTC,
 } from "@hub-api";
+import { FacsimilesService, OpenAPI } from "@hub-api";
 import type { model_EditionLocator } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { CATALOGUE_ROUTE } from "../components/layout/routes.ts";
@@ -46,6 +50,7 @@ type EditionFormData = {
   notes: string;
   corpus: string[];
   shelfmarks: {
+    id?: string;
     volume: number | null;
     scan: string | null;
     shelfmark: string | null;
@@ -54,6 +59,7 @@ type EditionFormData = {
     annotations: string | null;
     copyright: string | null;
     transcriptionAvailable: model_EditionShelfmarkTranscriptionAvailability;
+    structuralMetadataAvailable: model_EditionShelfmarkStructuralMetadataAvailability;
     transcriptionNote: string | null;
   }[];
   verified: boolean;
@@ -100,7 +106,7 @@ type EditionFormData = {
   }[];
 };
 
-function toModelEdition(data: EditionFormData): model_Edition {
+function toModelEdition(data: EditionFormData): EditionWithShelfmarks {
   const nullToUndef = <T,>(v: T | null): T | undefined => v ?? undefined;
   return {
     key: data.key,
@@ -110,6 +116,7 @@ function toModelEdition(data: EditionFormData): model_Edition {
     notes: data.notes,
     corpus: data.corpus,
     shelfmarks: data.shelfmarks.map((s) => ({
+      id: s.id,
       volume: nullToUndef(s.volume),
       scan: nullToUndef(s.scan),
       shelfmark: nullToUndef(s.shelfmark),
@@ -118,6 +125,7 @@ function toModelEdition(data: EditionFormData): model_Edition {
       annotations: nullToUndef(s.annotations),
       copyright: nullToUndef(s.copyright),
       transcription_available: s.transcriptionAvailable,
+      structural_metadata_available: s.structuralMetadataAvailable,
       note: nullToUndef(s.transcriptionNote),
     })),
     verified: data.verified,
@@ -182,7 +190,7 @@ function toModelEdition(data: EditionFormData): model_Edition {
 }
 
 function toEditionFormData(
-  edition: model_Edition,
+  edition: EditionWithShelfmarks,
   key: string,
 ): EditionFormData {
   const isManuscript = Boolean(edition.isManuscript);
@@ -195,6 +203,7 @@ function toEditionFormData(
     notes: edition.notes || "",
     corpus: edition.corpus || [],
     shelfmarks: (edition.shelfmarks || []).map((s) => ({
+      id: s.id,
       volume: s.volume ?? null,
       scan: s.scan ?? null,
       shelfmark: s.shelfmark ?? null,
@@ -203,6 +212,7 @@ function toEditionFormData(
       annotations: s.annotations ?? null,
       copyright: s.copyright ?? null,
       transcriptionAvailable: s.transcription_available || "none",
+      structuralMetadataAvailable: s.structural_metadata_available || "none",
       transcriptionNote: s.note ?? null,
     })),
     verified: Boolean(edition.verified),
@@ -722,7 +732,7 @@ const generateCitationWithShortTitle = (item: model_Edition): string => {
 
 const loadExistingItem = async (
   key: string,
-): Promise<{ edition: model_Edition; formData: EditionFormData }> => {
+): Promise<{ edition: EditionWithShelfmarks; formData: EditionFormData }> => {
   const edition = await getEdition(key);
   return { edition, formData: toEditionFormData(edition, key) };
 };
@@ -744,6 +754,7 @@ const defaultValues = (): EditionFormData => ({
       annotations: null,
       copyright: null,
       transcriptionAvailable: "none",
+      structuralMetadataAvailable: "none",
       transcriptionNote: null,
     },
   ],
@@ -911,6 +922,8 @@ export const UpsertEdition = () => {
     [],
   );
   const formContainerRef = useRef<HTMLDivElement>(null);
+  const mappingCSVInputRef = useRef<HTMLInputElement>(null);
+  const [mappingCSVStatus, setMappingCSVStatus] = useState<string | null>(null);
   const existingItemQuery = useQuery({
     queryKey: ["edition", "upsert", key],
     queryFn: () => loadExistingItem(key!),
@@ -922,6 +935,12 @@ export const UpsertEdition = () => {
     queryKey: ["editions", "upsert", "lists"],
     queryFn: () => listAllEditions(),
     staleTime: Infinity,
+    refetchOnWindowFocus: false,
+  });
+  const editionFacsimilesQuery = useQuery({
+    queryKey: ["facsimiles", "edition", key],
+    queryFn: () => FacsimilesService.getFacsimilies({ editionId: [key!] }),
+    enabled: Boolean(key && token),
     refetchOnWindowFocus: false,
   });
   const valuesLoading = Boolean(key) && existingItemQuery.isLoading;
@@ -999,6 +1018,102 @@ export const UpsertEdition = () => {
   });
   const isManuscript = useStore(form.store, (s) => s.values.isManuscript);
   const isElements = useStore(form.store, (s) => s.values.isElements);
+  const downloadFacsimileMappingCSV = async () => {
+    try {
+      setMappingCSVStatus("Preparing facsimile mapping CSVs...");
+      const response = await fetch(
+        `${OpenAPI.BASE.replace(/\/$/, "")}/facsimilies/mapping-csv`,
+        {
+          headers: {
+            Accept: "application/zip",
+            Authorization: `Bearer ${token}`,
+          },
+        },
+      );
+      if (!response.ok) {
+        throw new Error(`Download failed (${response.status})`);
+      }
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "facsimile-mapping.zip";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(url);
+      setMappingCSVStatus("Downloaded facsimiles.csv and shelfmarks.csv.");
+    } catch (error) {
+      console.error("Failed to download facsimile mapping CSVs", error);
+      setMappingCSVStatus("Failed to download facsimile mapping CSVs.");
+    }
+  };
+
+  const uploadFacsimileMappingCSV = async (file: File) => {
+    try {
+      setMappingCSVStatus(`Uploading ${file.name}...`);
+      await FacsimilesService.postFacsimiliesMappingCsv({
+        formData: { file },
+      });
+      setMappingCSVStatus("Uploaded facsimile mapping CSV.");
+    } catch (error) {
+      console.error("Failed to upload facsimile mapping CSV", error);
+      setMappingCSVStatus("Failed to upload facsimile mapping CSV.");
+    }
+  };
+
+  const facsimileOptionLabel = (facsimile: model_Facsimile) => {
+    const name = facsimile.name?.trim() || facsimile.id || "Unnamed scan";
+    const size =
+      facsimile.file_size_bytes && facsimile.file_size_bytes > 0
+        ? ` (${Math.round(facsimile.file_size_bytes / 1024 / 1024)} MB)`
+        : "";
+    return `${name}${size}`;
+  };
+
+  const assignFacsimileToShelfmark = async (
+    shelfmarkID: string,
+    facsimileID: string,
+  ) => {
+    const facsimiles = editionFacsimilesQuery.data ?? [];
+    const updates: Array<ReturnType<typeof FacsimilesService.putFacsimilies>> =
+      [];
+    for (const facsimile of facsimiles) {
+      if (!facsimile.id) {
+        continue;
+      }
+      if (
+        facsimile.shelfmark_id === shelfmarkID &&
+        facsimile.id !== facsimileID
+      ) {
+        updates.push(
+          FacsimilesService.putFacsimilies({
+            id: facsimile.id,
+            facsimile: {
+              ...facsimile,
+              shelfmark_id: "",
+              facsimile_connection_confirmation_status: undefined,
+            },
+          }),
+        );
+      }
+      if (facsimile.id === facsimileID) {
+        updates.push(
+          FacsimilesService.putFacsimilies({
+            id: facsimile.id,
+            facsimile: {
+              ...facsimile,
+              shelfmark_id: shelfmarkID,
+              facsimile_connection_confirmation_status: "guessed_by_human",
+            },
+          }),
+        );
+      }
+    }
+    await Promise.all(updates);
+    await editionFacsimilesQuery.refetch();
+  };
+
   const fetchAndMergeUstcData = async (ustcId: string) => {
     if (!ustcId || isNaN(Number(ustcId)) || !token) {
       return;
@@ -1090,6 +1205,8 @@ export const UpsertEdition = () => {
             copyright: null,
             transcriptionAvailable:
               "none" as model_EditionShelfmarkTranscriptionAvailability,
+            structuralMetadataAvailable:
+              "none" as model_EditionShelfmarkStructuralMetadataAvailability,
             transcriptionNote: null,
           }))
           .filter(
@@ -2013,6 +2130,50 @@ export const UpsertEdition = () => {
                   <>
                     <FormField className="full-width">
                       <Label isTitle>Sources</Label>
+                      {token && (
+                        <>
+                          <Row gap={0.5} justifyStart>
+                            <button
+                              style={{
+                                padding: 4,
+                                width: "fit-content",
+                                cursor: "pointer",
+                              }}
+                              type="button"
+                              onClick={() => void downloadFacsimileMappingCSV()}
+                            >
+                              Download facsimile mapping CSVs
+                            </button>
+                            <button
+                              style={{
+                                padding: 4,
+                                width: "fit-content",
+                                cursor: "pointer",
+                              }}
+                              type="button"
+                              onClick={() =>
+                                mappingCSVInputRef.current?.click()
+                              }
+                            >
+                              Upload facsimile mapping CSV
+                            </button>
+                          </Row>
+                          <input
+                            ref={mappingCSVInputRef}
+                            type="file"
+                            accept=".csv,text/csv"
+                            style={{ display: "none" }}
+                            onChange={(event) => {
+                              const file = event.currentTarget.files?.[0];
+                              if (file) {
+                                void uploadFacsimileMappingCSV(file);
+                              }
+                              event.currentTarget.value = "";
+                            }}
+                          />
+                          {mappingCSVStatus && <em>{mappingCSVStatus}</em>}
+                        </>
+                      )}
                       <button
                         style={{
                           padding: 4,
@@ -2030,6 +2191,7 @@ export const UpsertEdition = () => {
                             annotations: null,
                             copyright: null,
                             transcriptionAvailable: "none",
+                            structuralMetadataAvailable: "none",
                             transcriptionNote: null,
                           })
                         }
@@ -2090,6 +2252,55 @@ export const UpsertEdition = () => {
                           </form.Field>
                         </FormField>
 
+                        {(() => {
+                          const shelfmarkID = field.state.value[i]?.id;
+                          if (!token || !shelfmarkID) {
+                            return null;
+                          }
+                          const options = (
+                            editionFacsimilesQuery.data ?? []
+                          ).filter(
+                            (facsimile) =>
+                              !facsimile.shelfmark_id ||
+                              facsimile.shelfmark_id === shelfmarkID,
+                          );
+                          const selectedFacsimile = (
+                            editionFacsimilesQuery.data ?? []
+                          ).find(
+                            (facsimile) =>
+                              facsimile.shelfmark_id === shelfmarkID,
+                          );
+                          return (
+                            <FormField>
+                              <Label>Connected local scan</Label>
+                              <SelectInput
+                                value={selectedFacsimile?.id || ""}
+                                onChange={(event) =>
+                                  void assignFacsimileToShelfmark(
+                                    shelfmarkID,
+                                    event.target.value,
+                                  )
+                                }
+                              >
+                                <option value="">
+                                  No local scan connected
+                                </option>
+                                {options.map((facsimile) => (
+                                  <option
+                                    key={facsimile.id}
+                                    value={facsimile.id || ""}
+                                  >
+                                    {facsimileOptionLabel(facsimile)}
+                                  </option>
+                                ))}
+                              </SelectInput>
+                              {editionFacsimilesQuery.isLoading && (
+                                <em>Loading local scans...</em>
+                              )}
+                            </FormField>
+                          );
+                        })()}
+
                         <FormField>
                           <Label>Transcription availability</Label>
                           <form.Field
@@ -2102,6 +2313,30 @@ export const UpsertEdition = () => {
                                   f.handleChange(
                                     e.target
                                       .value as model_EditionShelfmarkTranscriptionAvailability,
+                                  )
+                                }
+                                onBlur={f.handleBlur}
+                              >
+                                <option value="none">None</option>
+                                <option value="external">External</option>
+                                <option value="internal">Internal</option>
+                              </SelectInput>
+                            )}
+                          </form.Field>
+                        </FormField>
+
+                        <FormField>
+                          <Label>Structural metadata availability</Label>
+                          <form.Field
+                            name={`shelfmarks[${i}].structuralMetadataAvailable`}
+                          >
+                            {(f) => (
+                              <SelectInput
+                                value={f.state.value}
+                                onChange={(e) =>
+                                  f.handleChange(
+                                    e.target
+                                      .value as model_EditionShelfmarkStructuralMetadataAvailability,
                                   )
                                 }
                                 onBlur={f.handleBlur}

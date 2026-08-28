@@ -1,4 +1,8 @@
-import { FacsimilesService, type model_Dataset } from '@hub-api'
+import {
+  FacsimilesService,
+  ShelfmarksService,
+  type model_Dataset,
+} from '@hub-api'
 import { useQuery } from '@tanstack/react-query'
 import { AnnotationActions } from '../annotation/AnnotationActions.tsx'
 import { Button } from '../core/Button.tsx'
@@ -7,7 +11,7 @@ import { ErrorMessage } from '../core/ErrorMessage.tsx'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Timestamp } from '../core/Timestamp.tsx'
 import { formatBoolean } from '../../utils/formatBoolean.tsx'
-import { useEditionQuery } from '../../queries/editions.ts'
+import { normalizeEditionId, useEditionQuery } from '../../queries/editions.ts'
 import { getFacsimileCopyright } from '../../utils/copyright.ts'
 
 interface DatasetDetailsTabProps {
@@ -68,13 +72,25 @@ export function DatasetDetailsTab({
   onSave,
 }: DatasetDetailsTabProps) {
   const { data: edition } = useEditionQuery(editionId)
+  const normalizedEditionId = normalizeEditionId(editionId)
+  const { data: shelfmarks } = useQuery({
+    queryKey: ['shelfmarks', normalizedEditionId],
+    queryFn: () =>
+      ShelfmarksService.getShelfmarks({
+        editionId: normalizedEditionId ? [normalizedEditionId] : undefined,
+      }),
+    enabled: !!normalizedEditionId,
+  })
   const { data: facsimile } = useQuery({
     queryKey: ['facsimiles', dataset.facsimile_id],
     queryFn: () =>
       FacsimilesService.getFacsimilies1({ id: dataset.facsimile_id! }),
     enabled: !!dataset.facsimile_id,
   })
-  const copyright = getFacsimileCopyright(edition, facsimile)
+  const copyright = getFacsimileCopyright(
+    edition ? { ...edition, shelfmarks: shelfmarks ?? [] } : undefined,
+    facsimile,
+  )
 
   return (
     <>

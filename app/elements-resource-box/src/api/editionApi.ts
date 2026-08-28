@@ -1,14 +1,24 @@
-import type { model_Edition, model_USTC, search_Query } from "@hub-api";
+import type {
+  model_Edition,
+  model_EditionShelfmark,
+  model_USTC,
+  search_Query,
+} from "@hub-api";
 import {
   EditionsService,
   FeatureResultsService,
   OpenAPI,
+  ShelfmarksService,
   ThirdPartyCatalogsService,
 } from "@hub-api";
 import { uploadImage } from "./imageApi.ts";
 
+export type EditionWithShelfmarks = model_Edition & {
+  shelfmarks?: model_EditionShelfmark[];
+};
+
 export const upsertEdition = async (
-  data: model_Edition,
+  data: EditionWithShelfmarks,
   images: Record<string, File>,
   options?: { isNew?: boolean },
 ): Promise<void> => {
@@ -66,11 +76,44 @@ export const upsertEdition = async (
 
   await Promise.all(uploads);
 
+  const { shelfmarks = [], ...edition } = data;
+
   if (options?.isNew) {
-    await EditionsService.postEditions({ edition: data });
+    await EditionsService.postEditions({ edition });
   } else {
-    await EditionsService.putEditions({ editionId: data.key!, edition: data });
+    await EditionsService.putEditions({ editionId: data.key!, edition });
+    const existingShelfmarks = await ShelfmarksService.getEditionsShelfmarks({
+      editionId: data.key!,
+    });
+    const nextIDs = new Set(
+      shelfmarks.map((shelfmark) => shelfmark.id).filter(Boolean),
+    );
+    await Promise.all(
+      existingShelfmarks
+        .filter((shelfmark) => shelfmark.id && !nextIDs.has(shelfmark.id))
+        .map((shelfmark) =>
+          ShelfmarksService.deleteEditionsShelfmarks({
+            editionId: data.key!,
+            shelfmarkId: shelfmark.id!,
+          }),
+        ),
+    );
   }
+
+  await Promise.all(
+    shelfmarks.map((shelfmark) =>
+      shelfmark.id
+        ? ShelfmarksService.putEditionsShelfmarks({
+            editionId: data.key!,
+            shelfmarkId: shelfmark.id,
+            shelfmark,
+          })
+        : ShelfmarksService.postEditionsShelfmarks({
+            editionId: data.key!,
+            shelfmark,
+          }),
+    ),
+  );
 };
 
 export const deleteEdition = async (editionId: string): Promise<void> => {
@@ -103,12 +146,48 @@ export const ustcLookup = async (
   });
 };
 
-export const getEdition = async (editionId: string): Promise<model_Edition> => {
-  return EditionsService.getEditions({ editionId });
+export const getEdition = async (
+  editionId: string,
+): Promise<EditionWithShelfmarks> => {
+  const [edition, shelfmarks] = await Promise.all([
+    EditionsService.getEditions({ editionId }),
+    ShelfmarksService.getEditionsShelfmarks({ editionId }),
+  ]);
+  return { ...edition, shelfmarks };
 };
 
 export const searchEditionsPage = async (query?: search_Query) =>
   EditionsService.postEditionsSearch({ edition: query });
+
+export const listEditionShelfmarks = (editionId: string) =>
+  ShelfmarksService.getEditionsShelfmarks({ editionId });
+
+export const listShelfmarks = (editionIds?: string[]) =>
+  ShelfmarksService.getShelfmarks({ editionId: editionIds });
+
+export const attachShelfmarks = async <T extends model_Edition>(
+  editions: T[],
+): Promise<Array<T & { shelfmarks: model_EditionShelfmark[] }>> => {
+  const editionIds = editions
+    .map((edition) => edition.key)
+    .filter((key): key is string => Boolean(key));
+  if (editionIds.length === 0) {
+    return editions.map((edition) => ({ ...edition, shelfmarks: [] }));
+  }
+  const shelfmarks = await listShelfmarks(editionIds);
+  const byEdition = new Map<string, model_EditionShelfmark[]>();
+  for (const shelfmark of shelfmarks) {
+    if (!shelfmark.edition_id) continue;
+    byEdition.set(shelfmark.edition_id, [
+      ...(byEdition.get(shelfmark.edition_id) ?? []),
+      shelfmark,
+    ]);
+  }
+  return editions.map((edition) => ({
+    ...edition,
+    shelfmarks: edition.key ? (byEdition.get(edition.key) ?? []) : [],
+  }));
+};
 
 export type ReprintRelationship = {
   editionKey: string;

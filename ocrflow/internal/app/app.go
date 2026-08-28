@@ -12,6 +12,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/config"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/diagramcrops"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/migrations"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/titlepage"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/service"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
@@ -21,6 +22,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/gpufarm"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
+	"github.com/samber/lo"
 )
 
 type OCRFlowApp struct {
@@ -103,9 +105,20 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	annotationDetectionRemoteSvc := service.NewAnnotationDetectionRemote(fileSystemManager, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey, annotationDetectionRemoteSvc)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore, featureResultStore)
+	shelfmarkSvc := service.NewShelfmarkService(editionStore)
 	reprintSvc := service.NewReprintService(editionSvc)
 	facsimileSvc := service.NewFacsimileService(
 		facsimileStore,
+		func() ([]string, error) {
+			editions, err := editionSvc.ListAllEditions()
+			if err != nil {
+				return nil, err
+			}
+			return lo.Map(editions, func(ed *model.Edition, _ int) string {
+				return ed.Key
+			}), nil
+		},
+		shelfmarkSvc.ListAllShelfmarks,
 		env.FacsimilesPDFDir,
 		env.FacsimilesDiagramsPath,
 		env.DiagramsDir(),
@@ -203,6 +216,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		ReprintSvc:              reprintSvc,
 		GeoSvc:                  geoSvc,
 		FacsimileSvc:            facsimileSvc,
+		ShelfmarkSvc:            shelfmarkSvc,
 		DatasetSvc:              datasetSvc,
 		DatasetImgSvc:           datasetImgSvc,
 		AnnotationSvc:           annotationSvc,

@@ -1,5 +1,10 @@
 import { type FormEvent, useEffect, useMemo, useState } from 'react'
-import { DatasetsService, FacsimilesService, ApiError } from '@hub-api'
+import {
+  DatasetsService,
+  FacsimilesService,
+  ApiError,
+  ShelfmarksService,
+} from '@hub-api'
 import { useQuery } from '@tanstack/react-query'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Button } from '../core/Button.tsx'
@@ -20,6 +25,7 @@ type FacsimileOption = {
   label: string
   facsimileId: string
   editionId: string
+  facsimileName?: string
   copyright?: string
 }
 
@@ -62,18 +68,25 @@ export function CreateDatasetModal({
     undefined,
     isOpen,
   )
+  const { data: shelfmarks, isLoading: shelfmarksLoading } = useQuery({
+    queryKey: ['shelfmarks'],
+    queryFn: () => ShelfmarksService.getShelfmarks({}),
+    enabled: isOpen,
+  })
 
   const facsimileOptions = useMemo(() => {
     const copyrightsByEdition = new Map<string, Set<string>>()
-    for (const edition of editions ?? []) {
-      if (!edition.key) continue
-      const copyrights = copyrightsByEdition.get(edition.key) ?? new Set()
-      for (const shelfmark of edition.shelfmarks ?? []) {
-        if (shelfmark.copyright?.trim()) {
-          copyrights.add(shelfmark.copyright.trim())
-        }
+    const editionKeys = new Set((editions ?? []).map((edition) => edition.key))
+    for (const shelfmark of shelfmarks ?? []) {
+      if (!shelfmark.edition_id || !editionKeys.has(shelfmark.edition_id)) {
+        continue
       }
-      copyrightsByEdition.set(edition.key, copyrights)
+      const copyrights =
+        copyrightsByEdition.get(shelfmark.edition_id) ?? new Set()
+      if (shelfmark.copyright?.trim()) {
+        copyrights.add(shelfmark.copyright.trim())
+      }
+      copyrightsByEdition.set(shelfmark.edition_id, copyrights)
     }
 
     const existingOptions: FacsimileOption[] = (facsimiles ?? [])
@@ -88,6 +101,7 @@ export function CreateDatasetModal({
           label: editionId,
           facsimileId: f.id!,
           editionId,
+          facsimileName: f.name?.trim() || '',
           copyright: copyrights.join('; '),
         }
       })
@@ -107,15 +121,17 @@ export function CreateDatasetModal({
         const number = (facsimileNumbers.get(option.editionId) ?? 0) + 1
         facsimileNumbers.set(option.editionId, number)
         const showNumber = (facsimileCounts.get(option.editionId) ?? 0) > 1
-        const facsimile = showNumber ? ` · facsimile ${number}` : ''
+        const facsimile =
+          option.facsimileName || (showNumber ? `facsimile ${number}` : '')
+        const facsimileLabel = facsimile ? ` · ${facsimile}` : ''
         return {
           ...option,
-          label: `${option.editionId}${facsimile} · ${formatCopyright(
+          label: `${option.editionId}${facsimileLabel} · ${formatCopyright(
             option.copyright,
           )}`,
         }
       })
-  }, [editions, facsimiles])
+  }, [editions, facsimiles, shelfmarks])
 
   const selectedFacsimileLabel = selectedFacsimile?.label ?? null
 
@@ -308,7 +324,9 @@ export function CreateDatasetModal({
                     onChange={setSelectedFacsimile}
                     options={facsimileOptions}
                     placeholder="Select facsimile..."
-                    isLoading={facsimilesLoading || editionsLoading}
+                    isLoading={
+                      facsimilesLoading || editionsLoading || shelfmarksLoading
+                    }
                     isDisabled={loading}
                     styles={wrappedOptionSelectStyles<FacsimileOption>({
                       controlWidth: '100%',

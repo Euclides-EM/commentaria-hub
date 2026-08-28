@@ -1,7 +1,7 @@
 import { OpenAPI } from "@hub-api";
 
-const facsimilePDFURL = (editionKey: string) =>
-  `${OpenAPI.BASE.replace(/\/$/, "")}/editions/${encodeURIComponent(editionKey)}/facsimile.pdf`;
+const facsimilePDFURL = (facsimileId: string) =>
+  `${OpenAPI.BASE.replace(/\/$/, "")}/facsimilies/${encodeURIComponent(facsimileId)}/pdf`;
 
 const writeWindowMessage = (
   targetWindow: Window,
@@ -31,21 +31,22 @@ const writeWindowMessage = (
 };
 
 export async function openAuthenticatedFacsimilePDF(
-  editionKey: string,
+  facsimileId: string,
   bearerToken: string,
   pageNumber?: number,
+  downloadName?: string,
 ): Promise<void> {
   const pdfWindow = window.open("", "_blank");
   if (!pdfWindow) {
     throw new Error("The browser blocked the PDF window.");
   }
   pdfWindow.opener = null;
-  writeWindowMessage(pdfWindow, "Opening main scan", "Loading main scan...", {
+  writeWindowMessage(pdfWindow, "Opening scan", "Loading scan...", {
     loading: true,
   });
 
   try {
-    const response = await fetch(facsimilePDFURL(editionKey), {
+    const response = await fetch(facsimilePDFURL(facsimileId), {
       headers: {
         Accept: "application/pdf",
         Authorization: `Bearer ${bearerToken}`,
@@ -54,14 +55,14 @@ export async function openAuthenticatedFacsimilePDF(
     if (!response.ok) {
       writeWindowMessage(
         pdfWindow,
-        "Main scan unavailable",
-        `Opening the main scan failed (${response.status}).`,
+        "Scan unavailable",
+        `Opening the scan failed (${response.status}).`,
       );
-      throw new Error(`Opening the main scan failed (${response.status}).`);
+      throw new Error(`Opening the scan failed (${response.status}).`);
     }
 
     const pdfBlob = await response.blob();
-    const pdfFile = new File([pdfBlob], `${editionKey}.pdf`, {
+    const pdfFile = new File([pdfBlob], downloadName || `${facsimileId}.pdf`, {
       type: pdfBlob.type || "application/pdf",
     });
     const pdfURL = URL.createObjectURL(pdfFile);
@@ -71,8 +72,8 @@ export async function openAuthenticatedFacsimilePDF(
   } catch (error) {
     writeWindowMessage(
       pdfWindow,
-      "Main scan unavailable",
-      error instanceof Error ? error.message : "Failed to open the main scan.",
+      "Scan unavailable",
+      error instanceof Error ? error.message : "Failed to open the scan.",
     );
     throw error;
   }

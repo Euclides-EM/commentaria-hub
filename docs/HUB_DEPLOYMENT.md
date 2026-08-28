@@ -16,6 +16,7 @@ Repo `Euclides-EM/commentaria-hub` → `Settings` → `Deploy keys` → `Add key
 ## Add an SSH config so each repo uses its own key
 
 This avoids breaking the existing deploy key.
+
 ```bash
 sudo -iu euclides
 cat >> ~/.ssh/config <<'EOF'
@@ -30,6 +31,7 @@ EOF
 
 chmod 600 ~/.ssh/config
 ```
+
 Now clone using the alias host:
 
 ```bash
@@ -78,7 +80,7 @@ go version
 
 ```bash
 sudo -iu euclides
-source ~/.bashrc 
+source ~/.bashrc
 go install github.com/swaggo/swag/cmd/swag@latest
 ```
 
@@ -164,7 +166,7 @@ sudo apt-get update
 sudo apt-get install -y git-lfs
 
 sudo -iu euclides
-source ~/.bashrc 
+source ~/.bashrc
 mkdir -p /data/euclides/commentaria-hub/migration
 cd /data/euclides/commentaria-hub/migration
 git clone https://github.com/Euclides-EM/elements-facsimile.git elements-facsimile-migration
@@ -177,7 +179,9 @@ cd /data/euclides/commentaria-hub
 rm -rf /data/euclides/commentaria-hub/migration/elements-facsimile-migration
 ```
 
-On restart, the API scans `FACSIMILES_PDF_DIR`, creates missing facsimile DB rows, and updates existing facsimile rows to point at local `file:///data/.../*.pdf` URLs. Diagram crop metadata is generated from `FACSIMILES_DIAGRAMS_PATH`, and the UI receives image URLs under `FACSIMILES_DIAGRAMS_URL`.
+On restart, the API scans `FACSIMILES_PDF_DIR`, creates missing facsimile DB rows, and updates existing facsimile rows to point at local `file:///data/.../*.pdf` URLs. Name a single PDF `<edition_key>.pdf`; name multiple PDFs for one edition with labels such as `<edition_key>_bnf.pdf`, `<edition_key>_google.pdf`, or `<edition_key>_vol1_bnf.pdf`. Every matching file is stored as a separate facsimile linked to the base edition key.
+
+Diagram crop metadata is generated from `FACSIMILES_DIAGRAMS_PATH`, and the UI receives image URLs under `FACSIMILES_DIAGRAMS_URL`. Existing crop directories keyed by edition, for example `<edition_key>/crops/*.jpg`, continue to work when the edition-to-facsimile relationship is unambiguous. For new facsimile-specific crops, prefer a directory key that matches the PDF basename/facsimile name, for example `<edition_key>_bnf/crops/*.jpg`. The facsimile-specific diagrams API checks the facsimile name/PDF basename first and falls back to the edition key only when there is a single facsimile for the edition, or exactly one mapped facsimile and it is the requested one.
 
 Useful checks:
 
@@ -198,6 +202,30 @@ sqlite3 /data/euclides/commentaria-hub/store/ocrflow.db "select edition_id, url 
 
 The URL should be a local file URL such as `file:///data/euclides/commentaria-hub/facsimiles/pdfs/Paris_1615.pdf`.
 
+## Connect facsimiles to shelfmarks
+
+Shelfmarks are stored in `shelfmarks.csv` and exposed separately from the edition JSON API. Facsimiles still keep `edition_id`; after this migration they may also have a `shelfmark_id`.
+
+To do a one-time production mapping pass, open an edition edit page as an authenticated user and use the temporary facsimile mapping controls:
+
+1. Download the mapping ZIP.
+2. Use `shelfmarks.csv` as the lookup table.
+3. Edit `facsimiles.csv`.
+4. Upload the edited `facsimiles.csv`.
+
+In `facsimiles.csv`, only edit these mapping columns unless you intentionally know otherwise:
+
+- `shelfmark_id`
+- `facsimile_connection_confirmation_status`
+
+Valid confirmation statuses are:
+
+- `guessed_by_machine`
+- `guessed_by_human`
+- `human_confirmed`
+
+Leave both mapping columns blank when a facsimile should remain unconnected. A single edition may have multiple facsimiles, but a single shelfmark may be connected to at most one facsimile; the upload rejects duplicate non-empty `shelfmark_id` assignments.
+
 ## Local development with server PDFs
 
 For local development, you do not need to copy the large PDFs onto your machine. Point the local API at the deployed API:
@@ -207,7 +235,7 @@ FACSIMILES_REMOTE_API_URL=https://euclides.huma-num.fr/commentaria/api/v1
 GITHUB_TOKEN=<your-github-token>
 ```
 
-Leave `FACSIMILES_PDF_DIR` empty locally. `GITHUB_TOKEN` should be a GitHub token for an allowlisted user; if it is not set, the API falls back to `GITHUB_TOKEN`. On startup, the local API will read the deployed facsimile list and create local facsimile rows whose `scan_url` values point to authenticated server PDF download URLs. When you create a local dataset, the local API downloads the source PDF from the deployed server using the bearer token and then processes it locally.
+Leave `FACSIMILES_PDF_DIR` empty locally. `GITHUB_TOKEN` should be a GitHub token for an allowlisted user; it is used as the bearer token when the local API reads PDFs from the deployed server. On startup, the local API will read the deployed facsimile list and create local facsimile rows whose `scan_url` values point to authenticated server PDF download URLs. When you create a local dataset, the local API downloads the source PDF from the deployed server using the bearer token and then processes it locally.
 
 ## LLM integration
 
@@ -320,6 +348,7 @@ sudo vim /etc/euclides/commentaria-hub-api.env
 ```
 
 Add (minimally):
+
 ```dotenv
 HTTP_ADDR=127.0.0.1:8090
 ROOT_DIR=/srv/euclides/projects/commentaria-hub
@@ -345,11 +374,11 @@ Use the `GITHUB_TOKEN` and `ROBOFLOW_API_KEY` secrets from your own `.env_privat
 Use the `ESCRIPTORIUM_USERNAME` and `ESCRIPTORIUM_PASSWORD` that you set up in the eScriptorium deployment, you can check it by running:
 Use the output of `which uv` for `UV_PATH`.
 `OPENAI_API_KEY` is needed for prompt revisions with `ai_provider=openai`. `OLLAMA_BASE_URL` is needed for prompt revisions with `ai_provider=ollama`.
-`OCRFLOW_TEMP_DIR` is where the API stages large Drive imports and other temporary files. 
+`OCRFLOW_TEMP_DIR` is where the API stages large Drive imports and other temporary files.
 
 ```bash
 sudo -iu euclides
-cat /srv/euclides/projects/escriptorium/variables.env | grep DJANGO_SU 
+cat /srv/euclides/projects/escriptorium/variables.env | grep DJANGO_SU
 ```
 
 Create the data directory:
@@ -366,16 +395,18 @@ On the server you can **build without OpenCV** (no deskew). The API will run; da
 (Optional) If you want deskew on the server you must install **OpenCV 4.7+** (Ubuntu’s `libopencv-dev` is often older and incompatible with gocv’s ArUco bindings). Then remove the `-tags nogocv` build flag below.
 
 As root, run:
+
 ```bash
 sudo mkdir -p /srv/euclides/bin
 sudo chown -R euclides:euclides /srv/euclides/bin
 ```
 
 Then login as euclides and build the backend, replace the `GITHUB_TOKEN` value with the one from your `.env_private` file:
+
 ```bash
 sudo -iu euclides
 cd /srv/euclides/projects/commentaria-hub/ocrflow
-source ~/.bashrc 
+source ~/.bashrc
 git pull
 go generate ./...
 go build -tags nogocv -o /srv/euclides/bin/ocrflow-api ./cmd/ocrflow
@@ -427,10 +458,11 @@ sudo systemctl restart commentaria-hub-api
 ```
 
 Quick check that it’s running:
+
 ```bash
 curl -I http://127.0.0.1:8090/ || true
 curl -I http://127.0.0.1:8090/api/v1/ || true
-````
+```
 
 ## Setup the FE permissions
 
@@ -453,7 +485,7 @@ sudo vim /etc/nginx/sites-available/commentaria-hub-api
 server {
     listen 80;
     server_name euclides.huma-num.fr;
-    
+
     client_max_body_size 200m;
 
     # -----------------------------
@@ -504,11 +536,11 @@ server {
         proxy_read_timeout 300s;
         proxy_send_timeout 300s;
     }
-    
+
     # /commentaria/swagger/*  ->  http://127.0.0.1:8090/swagger/*
     location ^~ /commentaria/swagger/ {
         proxy_pass http://127.0.0.1:8090/swagger/;
- 
+
         proxy_http_version 1.1;
         proxy_set_header Host $host;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -516,7 +548,7 @@ server {
 
         proxy_read_timeout 1800s;
         proxy_send_timeout 1800s;
-    }       
+    }
 
     # -----------------------------
     # commentaria-hub & resource box FE apps
@@ -526,13 +558,13 @@ server {
         alias /srv/euclides/projects/commentaria-hub/app/commentaria-app/dist/;
         try_files $uri $uri/ /hub/index.html;
     }
-    
+
     location = /resourcebox { return 301 /resourcebox/; }
     location ^~ /resourcebox/ {
         alias /srv/euclides/projects/commentaria-hub/app/elements-resource-box/dist/;
         try_files $uri $uri/ /resourcebox/index.html;
     }
-    
+
     # -----------------------------
     # default: eScriptorium on /
     # -----------------------------
@@ -577,7 +609,7 @@ http://euclides.huma-num.fr/commentaria/api/v1/health --> commentaria-hub API
 sudo apt-get update
 sudo apt-get install -y certbot python3-certbot-nginx
 sudo certbot --nginx -d euclides.huma-num.fr
-``` 
+```
 
 Note: This will automatically obtain and install the SSL certificate, and set up automatic renewal. You can test the renewal process with:
 

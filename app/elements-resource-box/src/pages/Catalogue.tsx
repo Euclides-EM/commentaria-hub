@@ -14,7 +14,11 @@ import {
 } from "@tanstack/react-table";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import styled from "@emotion/styled";
-import { FacsimilesService, type search_OrderByOption } from "@hub-api";
+import {
+  FacsimilesService,
+  type model_Facsimile,
+  type search_OrderByOption,
+} from "@hub-api";
 import { SiMaterialdesign } from "react-icons/si";
 import { Item, STUDY_CORPUSES } from "../types";
 import { useAppliedFilter } from "../contexts/FilterAppliedContext";
@@ -345,17 +349,40 @@ export function Catalogue() {
     queryKey: ["facsimiles", "download-available"],
     queryFn: () => FacsimilesService.getFacsimilies({}),
   });
-  const downloadAvailableEditionKeys = useMemo(
-    () =>
-      new Set(
-        localFacsimiles
-          .filter(
-            (facsimile) => facsimile.download_available && facsimile.edition_id,
-          )
-          .map((facsimile) => facsimile.edition_id!),
-      ),
-    [localFacsimiles],
-  );
+  const downloadableFacsimilesByEdition = useMemo(() => {
+    const byEdition = new Map<string, model_Facsimile[]>();
+    for (const facsimile of localFacsimiles) {
+      if (
+        !facsimile.download_available ||
+        !facsimile.edition_id ||
+        !facsimile.id
+      ) {
+        continue;
+      }
+      byEdition.set(facsimile.edition_id, [
+        ...(byEdition.get(facsimile.edition_id) ?? []),
+        facsimile,
+      ]);
+    }
+    return byEdition;
+  }, [localFacsimiles]);
+  const diagramFacsimilesByEdition = useMemo(() => {
+    const byEdition = new Map<string, model_Facsimile[]>();
+    for (const facsimile of localFacsimiles) {
+      if (
+        !facsimile.diagram_crops_available ||
+        !facsimile.edition_id ||
+        !facsimile.id
+      ) {
+        continue;
+      }
+      byEdition.set(facsimile.edition_id, [
+        ...(byEdition.get(facsimile.edition_id) ?? []),
+        facsimile,
+      ]);
+    }
+    return byEdition;
+  }, [localFacsimiles]);
 
   const copyEditionKey = useCallback(async (editionKey: string) => {
     try {
@@ -368,13 +395,18 @@ export function Catalogue() {
       console.error("Failed to copy edition key:", err);
     }
   }, []);
-  const openMainScan = useCallback(
-    (editionKey: string) => {
+  const openLocalScan = useCallback(
+    (facsimile: model_Facsimile) => {
       if (!token) {
         return;
       }
-      void openAuthenticatedFacsimilePDF(editionKey, token).catch((error) => {
-        console.error("Failed to open main scan:", error);
+      void openAuthenticatedFacsimilePDF(
+        facsimile.id!,
+        token,
+        undefined,
+        facsimile.name ? `${facsimile.name}.pdf` : undefined,
+      ).catch((error) => {
+        console.error("Failed to open scan:", error);
       });
     },
     [token],
@@ -644,34 +676,63 @@ export function Catalogue() {
                 )}
               </IconButton>
               {token &&
-                downloadAvailableEditionKeys.has(info.row.original.key) && (
+                (
+                  downloadableFacsimilesByEdition.get(info.row.original.key) ??
+                  []
+                ).map((facsimile) => (
                   <IconButton
+                    key={facsimile.id}
                     type="button"
-                    onClick={() => openMainScan(info.row.original.key)}
-                    title="View main scan"
-                    aria-label="View main scan"
+                    onClick={() => openLocalScan(facsimile)}
+                    title={
+                      facsimile.name ? `View ${facsimile.name}` : "View scan"
+                    }
+                    aria-label={
+                      facsimile.name ? `View ${facsimile.name}` : "View scan"
+                    }
                   >
                     <FaFilePdf style={{ color: SEA_COLOR, fontSize: "1rem" }} />
                   </IconButton>
-                )}
+                ))}
               {info.row.original.facsimiles.length > 0 && (
                 <FacsimileLinks
                   facsimiles={info.row.original.facsimiles}
                   color={SEA_COLOR}
                 />
               )}
-              {info.row.original.diagramCropsAvailable && (
-                <a
-                  href={withAppBasePath(
-                    `/diagrams?key=${info.row.original.key}`,
+              {(diagramFacsimilesByEdition.get(info.row.original.key) ?? [])
+                .length > 0
+                ? (
+                    diagramFacsimilesByEdition.get(info.row.original.key) ?? []
+                  ).map((facsimile) => (
+                    <a
+                      key={`diagrams-${facsimile.id}`}
+                      href={withAppBasePath(
+                        `/diagrams?key=${info.row.original.key}&facsimileId=${facsimile.id}`,
+                      )}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={
+                        facsimile.name
+                          ? `View diagrams for ${facsimile.name}`
+                          : "View Diagrams"
+                      }
+                    >
+                      <SiMaterialdesign style={{ color: SEA_COLOR }} />
+                    </a>
+                  ))
+                : info.row.original.diagramCropsAvailable && (
+                    <a
+                      href={withAppBasePath(
+                        `/diagrams?key=${info.row.original.key}`,
+                      )}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="View Diagrams"
+                    >
+                      <SiMaterialdesign style={{ color: SEA_COLOR }} />
+                    </a>
                   )}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="View Diagrams"
-                >
-                  <SiMaterialdesign style={{ color: SEA_COLOR }} />
-                </a>
-              )}
             </Row>
           ),
           size: 108,
@@ -789,8 +850,9 @@ export function Catalogue() {
       viewMode,
       copiedKey,
       copyEditionKey,
-      downloadAvailableEditionKeys,
-      openMainScan,
+      downloadableFacsimilesByEdition,
+      diagramFacsimilesByEdition,
+      openLocalScan,
     ],
   );
 

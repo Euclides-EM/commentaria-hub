@@ -3,10 +3,14 @@ package service
 import (
 	"fmt"
 	"log"
+	"net/url"
 	"os"
 	"path"
+	"slices"
+	"strings"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/client"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/escriptorium"
@@ -28,6 +32,15 @@ type AnnotationsUploader struct {
 	escriptoriumBasePath string
 	commentariaAPIKey    string
 	commentariaBasePath  string
+}
+
+type AmbiguousCommentariaFacsimilesError struct {
+	EditionID      string   `json:"edition_id"`
+	FacsimileNames []string `json:"facsimile_names"`
+}
+
+func (e *AmbiguousCommentariaFacsimilesError) Error() string {
+	return fmt.Sprintf("multiple matching facsimiles for edition %s: %s", e.EditionID, strings.Join(e.FacsimileNames, ", "))
 }
 
 func NewAnnotationsUploader(
@@ -203,6 +216,11 @@ func (a *AnnotationsUploader) UploadToCommentaria(datasetID string, id string, c
 		return nil, fmt.Errorf("failed to authenticate to commentaria: %w", err)
 	}
 
+	localFacsimile, err := a.datasetSvc.facsimileSvc.GetFacsimile(ds.FacsimileID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get local facsimile for commentaria upload: %w", err)
+	}
+
 	facsimilies, err := c.GetFacsimilesByEditionID(ds.EditionID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get facsimilies from commentaria: %w", err)
@@ -210,7 +228,10 @@ func (a *AnnotationsUploader) UploadToCommentaria(datasetID string, id string, c
 	if len(facsimilies) == 0 {
 		return nil, fmt.Errorf("no facsimilies found in commentaria for dataset %s", ds.ID)
 	}
-	facsimile := facsimilies[0] // we assume there's only one facsimile per dataset, which is the one we want to upload annotations to
+	facsimile, err := matchingCommentariaFacsimile(ds.EditionID, localFacsimile, facsimilies)
+	if err != nil {
+		return nil, err
+	}
 	ds.FacsimileID = facsimile.ID
 
 	if cbu.DatasetID == "" {
@@ -249,6 +270,76 @@ func (a *AnnotationsUploader) UploadToCommentaria(datasetID string, id string, c
 		return nil, fmt.Errorf("failed to copy annotation: %w", err)
 	}
 	return dst, nil
+}
+
+func matchingCommentariaFacsimile(editionID string, local *model.Facsimile, remote []*model.Facsimile) (*model.Facsimile, error) {
+	localName := strings.TrimSpace(local.Name)
+	if localName != "" {
+		matches := matchingFacsimiles(remote, func(f *model.Facsimile) bool {
+			return strings.EqualFold(strings.TrimSpace(f.Name), localName)
+		})
+		if len(matches) == 1 {
+			return matches[0], nil
+		}
+		if len(matches) > 1 {
+			return nil, ambiguousCommentariaFacsimilesError(editionID, matches)
+		}
+	}
+
+	localBasename := facsimileScanBasename(local.ScanURL)
+	if localBasename != "" {
+		matches := matchingFacsimiles(remote, func(f *model.Facsimile) bool {
+			return strings.EqualFold(facsimileScanBasename(f.ScanURL), localBasename)
+		})
+		if len(matches) == 1 {
+			return matches[0], nil
+		}
+		if len(matches) > 1 {
+			return nil, ambiguousCommentariaFacsimilesError(editionID, matches)
+		}
+	}
+
+	if len(remote) == 1 {
+		return remote[0], nil
+	}
+	return nil, ambiguousCommentariaFacsimilesError(editionID, remote)
+}
+
+func matchingFacsimiles(facs []*model.Facsimile, match func(*model.Facsimile) bool) []*model.Facsimile {
+	out := make([]*model.Facsimile, 0, len(facs))
+	for _, fac := range facs {
+		if fac != nil && match(fac) {
+			out = append(out, fac)
+		}
+	}
+	return out
+}
+
+func ambiguousCommentariaFacsimilesError(editionID string, facs []*model.Facsimile) error {
+	names := make([]string, 0, len(facs))
+	for _, fac := range facs {
+		if fac == nil {
+			continue
+		}
+		name := strings.TrimSpace(fac.Name)
+		if name == "" {
+			name = facsimileScanBasename(fac.ScanURL)
+		}
+		if name == "" {
+			name = fac.ID
+		}
+		names = append(names, name)
+	}
+	slices.Sort(names)
+	return &AmbiguousCommentariaFacsimilesError{EditionID: editionID, FacsimileNames: names}
+}
+
+func facsimileScanBasename(scanURL string) string {
+	u, err := url.Parse(scanURL)
+	if err != nil {
+		return ""
+	}
+	return path.Base(u.Path)
 }
 
 func (a *AnnotationsUploader) convertAlto2Yolo(datasetID string, id string) (*annotation.Annotation, error) {

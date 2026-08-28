@@ -17,6 +17,7 @@ type Dependencies struct {
 	EditionSvc              *service.Edition
 	ReprintSvc              *service.Reprint
 	FacsimileSvc            *service.Facsimile
+	ShelfmarkSvc            *service.Shelfmark
 	DatasetSvc              *service.Dataset
 	DatasetImgSvc           *service.DatasetImg
 	AnnotationSvc           *service.Annotation
@@ -58,6 +59,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/version_control/push", httpwrapper.Create(h.VersionControlPush).Build())
 	api.HandleFunc("/catalogs/ustc/lookup", httpwrapper.Create(h.USTCLookup).Build())
 	api.HandleFunc("/cities", httpwrapper.Get(h.ListCities).Build())
+	api.HandleFunc("/shelfmarks", httpwrapper.Get(h.ListAllShelfmarks).Build())
 
 	api.HandleFunc("/backups", httpwrapper.Get(h.ListBackups).Create(h.CreateBackup).Build())
 	api.HandleFunc("/backups/fromzip", httpwrapper.CreateFile(h.CreateBackupFromZip).Build())
@@ -132,7 +134,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/editions/{editionId}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
 	api.HandleFunc("/editions/{editionId}/results", httpwrapper.Get(h.ListEditionResults).Build())
 	api.HandleFunc("/editions/{editionId}/diagrams", httpwrapper.Get(h.GetEditionDiagramCrops).Build())
-	api.HandleFunc("/editions/{editionId}/facsimile.pdf", httpwrapper.GetFile(h.DownloadEditionFacsimilePDF, "application/pdf").Build())
+	api.HandleFunc("/editions/{editionId}/shelfmarks", httpwrapper.Get(h.ListShelfmarks).Create(h.UpsertShelfmark).Build())
+	api.HandleFunc("/editions/{editionId}/shelfmarks/{shelfmarkId}", httpwrapper.Update(h.UpdateShelfmark).Delete(h.DeleteShelfmark).Build())
 	api.HandleFunc("/editions/{editionId}/tei/{pageNum}", httpwrapper.GetXML(h.GetEditionTEI).Build())
 
 	api.HandleFunc("/editions/{editionId}", httpwrapper.Get(h.GetEdition).Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
@@ -140,6 +143,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/facsimilies", httpwrapper.Get(h.ListFacsimiles).Create(h.CreateFacsimile).Build())
 	api.HandleFunc("/facsimilies/import-from-drive", httpwrapper.Create(h.ImportFacsimilesFromDrive).Build())
+	api.HandleFunc("/facsimilies/mapping-csv", httpwrapper.GetZip(h.DownloadFacsimileMappingCSV).CreateFile(h.UploadFacsimileMappingCSV).Build())
+	api.HandleFunc("/facsimilies/{id}/diagrams", httpwrapper.Get(h.GetFacsimileDiagramCrops).Build())
 	api.HandleFunc("/facsimilies/{id}/pdf", httpwrapper.GetFile(h.DownloadFacsimilePDF, "application/pdf").Build())
 	api.HandleFunc("/facsimilies/{id}", httpwrapper.Get(h.GetFacsimile).Update(h.UpdateFacsimile).Build())
 

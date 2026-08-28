@@ -145,6 +145,14 @@ export const itemProperties: {
         label: "Internal transcription available",
         value: "internal_transcription_available",
       },
+      {
+        label: "External structural metadata available",
+        value: "external_structural_metadata_available",
+      },
+      {
+        label: "Internal structural metadata available",
+        value: "internal_structural_metadata_available",
+      },
     ],
   },
   titlePageStatus: {

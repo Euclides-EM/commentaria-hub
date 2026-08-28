@@ -27,6 +27,8 @@ const (
 	copyrightStatusUnknown         = "copyright_status_unknown"
 	externalTranscriptionAvailable = "external_transcription_available"
 	internalTranscriptionAvailable = "internal_transcription_available"
+	externalStructuralMetadata     = "external_structural_metadata_available"
+	internalStructuralMetadata     = "internal_structural_metadata_available"
 )
 
 type editionFeatureFilter struct {
@@ -141,6 +143,14 @@ func editionHasAnyShelfmarkProperty(edition *model.Edition, allowed []string) bo
 				}
 			case internalTranscriptionAvailable:
 				if shelfmark.TranscriptionAvailable == model.EditionShelfmarkTranscriptionInternal {
+					return true
+				}
+			case externalStructuralMetadata:
+				if shelfmark.StructuralMetadataAvailable == model.EditionShelfmarkStructuralMetadataAvailabilityExternal {
+					return true
+				}
+			case internalStructuralMetadata:
+				if shelfmark.StructuralMetadataAvailable == model.EditionShelfmarkStructuralMetadataAvailabilityInternal {
 					return true
 				}
 			}

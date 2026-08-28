@@ -64,20 +64,30 @@ export const ItemLinksRow = ({
     queryFn: () => FacsimilesService.getFacsimilies({ editionId: [item.key] }),
     enabled: Boolean(token && item.key),
   });
-  const hasMainScan = localFacsimilesQuery.data?.some(
-    (facsimile) => facsimile.download_available,
-  );
-  const openMainScan = () => {
+  const localScans =
+    localFacsimilesQuery.data?.filter(
+      (facsimile) => facsimile.id && facsimile.download_available,
+    ) ?? [];
+  const localScansWithDiagrams =
+    localFacsimilesQuery.data?.filter(
+      (facsimile) => facsimile.id && facsimile.diagram_crops_available,
+    ) ?? [];
+  const openLocalScan = (facsimileId: string, name?: string) => {
     if (!token) {
       return;
     }
-    void openAuthenticatedFacsimilePDF(item.key, token).catch((error) => {
-      console.error("Failed to open main scan:", error);
+    void openAuthenticatedFacsimilePDF(
+      facsimileId,
+      token,
+      undefined,
+      name ? `${name}.pdf` : undefined,
+    ).catch((error) => {
+      console.error("Failed to open scan:", error);
     });
   };
   const shouldShow =
     item.facsimiles.length > 0 ||
-    (Boolean(token) && hasMainScan) ||
+    (Boolean(token) && localScans.length > 0) ||
     (showDiagramsLink && item.diagramCropsAvailable) ||
     (showEditLink && Boolean(token));
 
@@ -92,16 +102,17 @@ export const ItemLinksRow = ({
       data-tooltip-place="left"
     >
       <FacsimileLinks facsimiles={item.facsimiles} color={LAND_COLOR} />
-      {hasMainScan && (
+      {localScans.map((facsimile) => (
         <IconButton
+          key={facsimile.id}
           type="button"
-          onClick={openMainScan}
-          title="View main scan"
-          aria-label="View main scan"
+          onClick={() => openLocalScan(facsimile.id!, facsimile.name)}
+          title={facsimile.name ? `View ${facsimile.name}` : "View scan"}
+          aria-label={facsimile.name ? `View ${facsimile.name}` : "View scan"}
         >
           <FaFilePdf />
         </IconButton>
-      )}
+      ))}
       {showEditLink && token && (
         <StyledAnchor
           href={withAppBasePath(`${ITEM_EDIT_ROUTE}?key=${item.key}`)}
@@ -112,16 +123,35 @@ export const ItemLinksRow = ({
           <AiFillEdit />
         </StyledAnchor>
       )}
-      {showDiagramsLink && item.diagramCropsAvailable && (
-        <StyledAnchor
-          href={withAppBasePath(`/diagrams?key=${item.key}`)}
-          target="_blank"
-          rel="noopener noreferrer"
-          title="View Diagrams"
-        >
-          <StyledDiagramIcon />
-        </StyledAnchor>
-      )}
+      {showDiagramsLink && localScansWithDiagrams.length > 0
+        ? localScansWithDiagrams.map((facsimile) => (
+            <StyledAnchor
+              key={`diagrams-${facsimile.id}`}
+              href={withAppBasePath(
+                `/diagrams?key=${item.key}&facsimileId=${facsimile.id}`,
+              )}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={
+                facsimile.name
+                  ? `View diagrams for ${facsimile.name}`
+                  : "View diagrams"
+              }
+            >
+              <StyledDiagramIcon />
+            </StyledAnchor>
+          ))
+        : showDiagramsLink &&
+          item.diagramCropsAvailable && (
+            <StyledAnchor
+              href={withAppBasePath(`/diagrams?key=${item.key}`)}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="View Diagrams"
+            >
+              <StyledDiagramIcon />
+            </StyledAnchor>
+          )}
     </AnchorsRow>
   );
 };

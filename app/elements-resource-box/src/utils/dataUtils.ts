@@ -1,17 +1,21 @@
 import { Item } from "../types";
 import { startCase, uniq, uniqBy } from "lodash";
 import { ItemTypes } from "../constants";
-import type { model_Edition } from "@hub-api";
+import type { model_Edition, model_EditionShelfmark } from "@hub-api";
 import { toItemImageUrl } from "./util.ts";
 
 type EditionWithVisualElementsTypes = model_Edition & {
   visualElementsTypes?: string[];
 };
 
+type EditionWithShelfmarks = model_Edition & {
+  shelfmarks?: model_EditionShelfmark[];
+};
+
 const firstOrNull = <T>(arr: T[]): T | null => (arr.length > 0 ? arr[0] : null);
 
 const dedupeShelfmarksByScan = (
-  shelfmarks: NonNullable<model_Edition["shelfmarks"]>,
+  shelfmarks: model_EditionShelfmark[],
 ) =>
   uniqBy(
     shelfmarks.filter((shelfmark) => shelfmark.scan?.trim()),
@@ -19,7 +23,7 @@ const dedupeShelfmarksByScan = (
   );
 
 const shelfmarkProperties = (
-  shelfmarks: NonNullable<model_Edition["shelfmarks"]>,
+  shelfmarks: model_EditionShelfmark[],
 ): string[] => {
   const properties = new Set<string>();
   for (const shelfmark of shelfmarks) {
@@ -37,6 +41,12 @@ const shelfmarkProperties = (
     }
     if (shelfmark.transcription_available === "internal") {
       properties.add("internal_transcription_available");
+    }
+    if (shelfmark.structural_metadata_available === "external") {
+      properties.add("external_structural_metadata_available");
+    }
+    if (shelfmark.structural_metadata_available === "internal") {
+      properties.add("internal_structural_metadata_available");
     }
   }
   return Array.from(properties);
@@ -56,7 +66,7 @@ const toBookRanges = (books: number[]) => {
     }, []);
 };
 
-export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
+export const mapEditionsToItems = (editions: EditionWithShelfmarks[]): Item[] => {
   return editions
     .filter((edition) => edition.key)
     .map((edition) => {
