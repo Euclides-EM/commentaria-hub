@@ -70,6 +70,8 @@ func buildFacsimileForAlto(pageKey, imageUrl string, a *alto.Alto) model.Facsimi
 				XmlID: surfaceID(pageKey),
 				Facs:  imageUrl,
 				N:     pageKey,
+				LRX:   float64(a.Layout.Page[0].Width),
+				LRY:   float64(a.Layout.Page[0].Height),
 				Zones: append(textBlockZones, lineZones...),
 			},
 		},

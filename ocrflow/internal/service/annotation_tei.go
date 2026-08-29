@@ -304,8 +304,13 @@ func (t *AnnotationTEI) scaleTEIToVariant(datasetID, pageNumOrKey string, tei *t
 	scaleX := float64(varWidth) / float64(origWidth)
 	scaleY := float64(varHeight) / float64(origHeight)
 	for si := range tei.Facsimile.Surfaces {
+		surface := &tei.Facsimile.Surfaces[si]
+		surface.ULX *= scaleX
+		surface.ULY *= scaleY
+		surface.LRX *= scaleX
+		surface.LRY *= scaleY
 		for zi := range tei.Facsimile.Surfaces[si].Zones {
-			zone := &tei.Facsimile.Surfaces[si].Zones[zi]
+			zone := &surface.Zones[zi]
 			zone.ULX *= scaleX
 			zone.ULY *= scaleY
 			zone.LRX *= scaleX

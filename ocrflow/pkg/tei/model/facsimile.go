@@ -9,6 +9,13 @@ type Surface struct {
 	Facs  string `xml:"facs,attr,omitempty"` // page image
 	N     string `xml:"n,attr,omitempty"`
 
+	// A page origin of (0, 0) is meaningful. Keep these attributes in the XML
+	// so consumers can validate and use the surface coordinate system.
+	ULX float64 `xml:"ulx,attr"`
+	ULY float64 `xml:"uly,attr"`
+	LRX float64 `xml:"lrx,attr,omitempty"`
+	LRY float64 `xml:"lry,attr,omitempty"`
+
 	Zones []Zone `xml:"zone"`
 }
 
