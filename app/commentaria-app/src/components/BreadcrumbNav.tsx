@@ -15,6 +15,15 @@ import { Button } from './core/Button.tsx'
 const Separator = () => <span className="self-stretch bg-gray-600 w-px mx-2" />
 const HIDDEN_FILTER = '__hidden__' as const
 type AnnotationFilterItem = annotationrule_PipelineStage | typeof HIDDEN_FILTER
+type DatasetCompleteness = 'full' | 'partial'
+
+const DATASET_COMPLETENESS_ITEMS: DatasetCompleteness[] = ['full', 'partial']
+
+const isFullDatasetPageRange = (pages?: string) => {
+  const pageRange = pages?.trim() ?? ''
+  // The backend omits `pages` when the dataset uses the entire facsimile.
+  return pageRange === '' || /^1\s*-\s*[1-9]\d*$/.test(pageRange)
+}
 
 export function BreadcrumbNav() {
   const { state, setState } = useAppState()
@@ -28,6 +37,11 @@ export function BreadcrumbNav() {
   >('annotationFilterStages', {
     defaultValue: null,
   })
+  const [selectedDatasetCompleteness, setSelectedDatasetCompleteness] =
+    useLocalStorageState<DatasetCompleteness[] | null>(
+      'datasetCompletenessFilter',
+      { defaultValue: null },
+    )
 
   const stageFilterItems = useMemo<AnnotationFilterItem[]>(
     () => [...(stages || []), HIDDEN_FILTER],
@@ -59,14 +73,24 @@ export function BreadcrumbNav() {
 
   const datasetOptions = useMemo(() => {
     if (!datasets) return []
+    const selectedCompleteness =
+      selectedDatasetCompleteness ?? DATASET_COMPLETENESS_ITEMS
     return datasets
-      .filter((d) => !!d.id)
+      .filter((d) => {
+        if (!d.id) return false
+        const completeness: DatasetCompleteness = isFullDatasetPageRange(
+          d.pages,
+        )
+          ? 'full'
+          : 'partial'
+        return selectedCompleteness.includes(completeness)
+      })
       .map((d) => ({
         value: d.id as string,
         label: d.name || (d.id as string),
       }))
       .sort((a, b) => a.label.localeCompare(b.label))
-  }, [datasets])
+  }, [datasets, selectedDatasetCompleteness])
 
   const annotationOptions = useMemo(() => {
     const options = filteredAnnotations
@@ -101,6 +125,28 @@ export function BreadcrumbNav() {
 
   const handleDatasetChange = (value: string) => {
     setState({ datasetId: value, annotationId: '' })
+  }
+
+  const handleDatasetCompletenessChange = (
+    items: DatasetCompleteness[] | null,
+  ) => {
+    setSelectedDatasetCompleteness(items)
+
+    if (!state.datasetId || !datasets) return
+    const selectedDataset = datasets.find(
+      (dataset) => dataset.id === state.datasetId,
+    )
+    if (!selectedDataset) return
+
+    const selectedCompleteness: DatasetCompleteness = isFullDatasetPageRange(
+      selectedDataset.pages,
+    )
+      ? 'full'
+      : 'partial'
+    const effectiveItems = items ?? DATASET_COMPLETENESS_ITEMS
+    if (!effectiveItems.includes(selectedCompleteness)) {
+      handleDatasetChange('')
+    }
   }
 
   const handleAnnotationChange = (value: string) => {
@@ -181,6 +227,24 @@ export function BreadcrumbNav() {
           isClearable
         />
       </div>
+
+      <MultiSelectDropdown<DatasetCompleteness>
+        allItems={DATASET_COMPLETENESS_ITEMS}
+        selectedItems={selectedDatasetCompleteness}
+        setSelectedItems={handleDatasetCompletenessChange}
+        itemsLabel="coverage types"
+        getItemLabel={(item) => (item === 'full' ? 'Full' : 'Partial')}
+        getPickerLabel={({ selectedItems }) => {
+          if (
+            selectedItems == null ||
+            selectedItems.length === DATASET_COMPLETENESS_ITEMS.length
+          ) {
+            return 'Full & partial'
+          }
+          if (selectedItems.length === 0) return 'None'
+          return selectedItems[0] === 'full' ? 'Full only' : 'Partial only'
+        }}
+      />
 
       {showAnnotationSelect && (
         <div className="flex items-center gap-2 flex-nowrap shrink-0">
