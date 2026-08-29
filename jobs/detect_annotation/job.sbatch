@@ -44,6 +44,11 @@ fi
 
 source "${PROJECT_ROOT}/.venv/bin/activate"
 
+# Each page worker owns one CPU. Prevent PyTorch/OpenMP inside every worker
+# from multiplying the four allocated Slurm CPUs into dozens of host threads.
+export OMP_NUM_THREADS="${OMP_NUM_THREADS:-1}"
+export MKL_NUM_THREADS="${MKL_NUM_THREADS:-1}"
+
 python -c "import torch; print('torch', torch.__version__, 'cuda', torch.version.cuda, 'available', torch.cuda.is_available())"
 
 set +e

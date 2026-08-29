@@ -6,7 +6,7 @@ import (
 )
 
 func krakenDeviceArg() string {
-	return lo.Ternary(envexec.Cmd("nvidia-smi") != nil, "cpu", "cuda:0")
+	return lo.Ternary(envexec.Cmd("nvidia-smi") != nil, "cuda:0", "cpu")
 }
 
 func krakenDeviceArgs() []string {

@@ -12,6 +12,7 @@ import sys
 import time
 import uuid
 import zipfile
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from lxml import etree
@@ -24,6 +25,24 @@ def env(name: str, default: str = "") -> str:
 
 def env_list(name: str) -> list[str]:
     return [x.strip() for x in env(name).splitlines() if x.strip()]
+
+
+def worker_count(job_count: int) -> int:
+    """Return a bounded worker count matching the Slurm CPU allocation."""
+    configured = env("DETECTION_WORKERS", env("SLURM_CPUS_PER_TASK", "1"))
+    try:
+        workers = int(configured)
+    except ValueError as exc:
+        raise ValueError(f"invalid DETECTION_WORKERS: {configured!r}") from exc
+    return max(1, min(workers, job_count)) if job_count else 0
+
+
+def shard(items: list[Path], count: int) -> list[list[Path]]:
+    """Distribute slow pages round-robin so one worker is unlikely to straggle."""
+    shards: list[list[Path]] = [[] for _ in range(count)]
+    for index, item in enumerate(items):
+        shards[index % count].append(item)
+    return [part for part in shards if part]
 
 
 def log(msg: str) -> None:
@@ -273,7 +292,8 @@ def detect_lines(image_dir: Path, alto_dir: Path, output_dir: Path) -> None:
     include = env_list("INCLUDE_CATEGORIES")
     ignore = env_list("IGNORE_CATEGORIES")
     copy_alto(alto_dir, output_dir)
-    for alto_path in sorted(output_dir.glob("*.xml")):
+
+    def process_page(alto_path: Path) -> None:
         tree = delete_lines(alto_path)
         tree.write(str(alto_path), encoding="UTF-8", xml_declaration=True, pretty_print=True)
         img_path = image_dir / f"{alto_path.stem}.png"
@@ -290,14 +310,32 @@ def detect_lines(image_dir: Path, alto_dir: Path, output_dir: Path) -> None:
             run(["kraken", "-d", "cuda:0", "-i", str(img_path), str(json_path), "segment", "-bl", "--mask", str(mask_path), "--pad", "2", "2"])
             glue_lines(alto_path, json_path)
 
+    pages = sorted(output_dir.glob("*.xml"))
+    workers = worker_count(len(pages))
+    if not workers:
+        return
+    log(f"Detecting lines on {len(pages)} pages with {workers} workers")
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        list(pool.map(process_page, pages))
+
 
 def model_segment(image_dir: Path, output_dir: Path, model_path: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
-    pairs: list[str] = []
-    for img in sorted(image_dir.glob("*.png")):
-        pairs.extend(["-i", str(img), str(output_dir / f"{img.stem}.xml")])
-    if pairs:
+    images = sorted(image_dir.glob("*.png"))
+    workers = worker_count(len(images))
+    if not workers:
+        return
+
+    def process_shard(worker_images: list[Path]) -> None:
+        pairs: list[str] = []
+        for img in worker_images:
+            pairs.extend(["-i", str(img), str(output_dir / f"{img.stem}.xml")])
         run(["yaltai", "kraken", "--alto", "-d", "cuda:0", *pairs, "segment", "--yolo", str(model_path)])
+
+    image_shards = shard(images, workers)
+    log(f"Segmenting {len(images)} pages with {len(image_shards)} workers")
+    with ThreadPoolExecutor(max_workers=len(image_shards)) as pool:
+        list(pool.map(process_shard, image_shards))
 
 
 def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Path) -> None:
