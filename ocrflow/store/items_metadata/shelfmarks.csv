@@ -414,11 +414,11 @@ Bologna_1651a,,https://www.google.com/books/edition/De_gli_Elementi_di_Euclide_l
 Amsterdam_1683,,https://www.google.com/books/edition/Elementa_Geometriae_planae/uWEmAAAAcAAJ,Amsterdam_1683_tp.png,,,,,,,,
 Amsterdam_1701b,,https://www.google.com/books/edition/Elementa_Euclidea_geometriae_planae_ac_s/fKk2AAAAMAAJ,Amsterdam_1701b_tp.png,,,,,,,,
 Cambridge_1703,,https://www.google.com/books/edition/Elementa_geometri%C3%A6_plan%C3%A6_ac_solid%C3%A6_Eu/9gHKKwQnFngC,Cambridge_1703_tp.png,,,,,,,,
-Rome_1574,,https://www.google.com/books/edition/Euclidis_Elementorum_libri_XV/9E2xEit4CKkC,Rome_1574_tp.jpeg,,,,unknown,,,,
-Rome_1574,2,https://www.google.fr/books/edition/Euclidis_Posteriores_libri_sex_a_X_ad_XV/tJloAAAAcAAJ,,,,,unknown,,,,
-Rome_1574,1,https://babel.hathitrust.org/cgi/pt?id=ucm.5316864701,,,,,no commercial use https://www.hathitrust.org/the-collection/search-access/access-use-policy/#pd-us-google,,,,
-Rome_1574,1,https://dlc.mpg.de/image/1860505074/5/,,,,,Public Domain,,,,
-Rome_1574,1,https://dlc.mpg.de/!metadata/868386588/5/-/,rome_1574_tp_wv9gqt.jpg,,,,Public Domain,,,,
+Rome_1574,,https://www.google.com/books/edition/Euclidis_Elementorum_libri_XV/9E2xEit4CKkC,Rome_1574_tp.jpeg,,,,unknown,none,,shm_9812e526537a,none
+Rome_1574,2,https://www.google.fr/books/edition/Euclidis_Posteriores_libri_sex_a_X_ad_XV/tJloAAAAcAAJ,,,,,unknown,none,,shm_84b6fcff5fb7,none
+Rome_1574,1,https://babel.hathitrust.org/cgi/pt?id=ucm.5316864701,,,,,no commercial use https://www.hathitrust.org/the-collection/search-access/access-use-policy/#pd-us-google,none,,shm_02b91deccda5,none
+Rome_1574,1,https://dlc.mpg.de/image/1860505074/5/,,,,,Public Domain,none,,shm_559a86acf307,none
+Rome_1574,1,https://dlc.mpg.de/!metadata/868386588/5/-/,rome_1574_tp_wv9gqt.jpg,,,,Public Domain,none,,shm_3487897b7b2f,none
 Cologne_1607,,https://www.google.com/books/edition/Antonii_Possevini_Mantvani_Societatis_Ie/yqWtNTuCDvgC,Cologne_1607_tp.png,,,,,,,,
 Cologne_1627,,https://www.google.com/books/edition/Elementa/vns-AAAAcAAJ,Cologne_1627_tp.png,,,,,,,,
 Lyon_1660,,,,,,,,,,,
@@ -1418,10 +1418,10 @@ ZGOHUR,1,http://dx.doi.org/10.3931/e-rara-2774,,,,,,,,,
 ZGOHUR,1,http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=365,,,,,,,,,
 Z0K13S,1,https://archive.org/details/b31351013/page/n9/mode/2up,Z0K13S_tp_1.jpeg,,,,,,,,
 Z0K13S,1,https://sammlungen.hebis.de/ubg-ihd-adr/id/444546,,,,,,,,,
-Venice_1482,,https://archive.org/details/preclarissimusli00eucl/page/n1/mode/2up,venice_1482_tp_w3rhuz.jpg,,,,Public Domain,,,,
-Venice_1482,,https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t3vt3074v&seq=7,Venice_1482_tp_alt.jpeg,,,,Public domain https://www.hathitrust.org/the-collection/search-access/access-use-policy/#pd,,,,
-Venice_1482,1,https://archive.org/details/OEXV231RES/page/n7/mode/2up,,,,,Public domain,,,,
-Venice_1482,1,https://archive.org/details/gri_000033125009354198/mode/2up,,,,,unknown,,,,
+Venice_1482,,https://archive.org/details/preclarissimusli00eucl/page/n1/mode/2up,venice_1482_tp_w3rhuz.jpg,,,,Public Domain,none,,shm_bba233a4b8ac,none
+Venice_1482,,https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t3vt3074v&seq=7,Venice_1482_tp_alt.jpeg,,,,Public domain https://www.hathitrust.org/the-collection/search-access/access-use-policy/#pd,none,,shm_426af9747791,none
+Venice_1482,1,https://archive.org/details/OEXV231RES/page/n7/mode/2up,,,,,Public domain,none,,shm_7c90fb07d2b8,none
+Venice_1482,1,https://archive.org/details/gri_000033125009354198/mode/2up,,,,,unknown,none,,shm_4b5c1d3ba6e2,none
 IC4Y79,1,https://www.google.com/books/edition/Georgii_Vallae_De_expetendis_et_fugiendi/OU-c9w7iXBUC,IC4Y79_tp_1.png,,,,,,,,
 IC4Y79,2,https://www.google.com/books/edition/De_expetendis_et_fugiendis_rebus_opus/XixLAAAAcAAJ,,,,,,,,,
 TTORPR,1,https://www.google.com/books/edition/Elementale_Geometricum_ex_Euclidis_Geome/DV9jAAAAcAAJ,TTORPR_tp_1.png,,,,unknown,,,,
@@ -1920,7 +1920,7 @@ BQ2MXR,3,https://app.transkribus.org/sites/noscemus/doc/807624?colId=88639,,,,,C
 FF0SVB,1,https://app.transkribus.org/sites/noscemus/doc/833197?colId=88639,,,,,CC BY 4.0 (NOSCEMUS),external,"Transkribus: Gregory, David - Astronomiae physicae et geometricae elementa. Oxford 1702.pdf",,
 VDXMMX,1,https://app.transkribus.org/sites/noscemus/doc/921412?colId=88639,,,,,CC BY 4.0 (NOSCEMUS),external,"Transkribus: Cavalieri, Bonaventura - Geometria indivisibilibus continuorum promota. Bologna 1653.pdf",,
 T09SZ3,1,https://app.transkribus.org/sites/noscemus/doc/897958?colId=88639,,,,,CC BY 4.0 (NOSCEMUS),external,"Transkribus: Descartes, René et al. - Geometria a Renato des Cartes edita Amsterdam 1659–1661.pdf",,
-Venice_1482,1,https://app.transkribus.org/sites/noscemus/doc/911544?colId=88639,,,,,CC BY 4.0 (NOSCEMUS),external,"Transkribus: Euclides & Campanus, Johannes - Elementa. Venice 1482.pdf",,
+Venice_1482,1,https://app.transkribus.org/sites/noscemus/doc/911544?colId=88639,,,,,CC BY 4.0 (NOSCEMUS),external,"Transkribus: Euclides & Campanus, Johannes - Elementa. Venice 1482.pdf",shm_9dcab010f183,none
 IZ7AER,1,https://app.transkribus.org/sites/noscemus/doc/918652?colId=88639,,,,,CC BY 4.0 (NOSCEMUS),external,"Transkribus: Faulhaber Johannes & Remmelin, Johann - Mathematici tractatus duo. Frankfurt am Main 1610.pdf",,
 PCZHG5,1,https://app.transkribus.org/sites/noscemus/doc/899969?colId=88639,,,,,CC BY 4.0 (NOSCEMUS),external,"Transkribus: Finé, Oronce - Quadratura circuli ... Paris 1544.pdf",,
 CHUVGJ,1,https://app.transkribus.org/sites/noscemus/doc/901016?colId=88639,,,,,CC BY 4.0 (NOSCEMUS),external,"Transkribus: Maurolico, Francesco - Arithmeticorum libri II. Venice 1575.pdf",,
