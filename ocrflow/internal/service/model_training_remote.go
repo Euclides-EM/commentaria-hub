@@ -3,6 +3,7 @@ package service
 import (
 	"errors"
 	"fmt"
+	"log"
 	"os"
 	"path"
 	"path/filepath"
@@ -121,6 +122,14 @@ func (r *ModelTrainingRemote) submit(req trainingRemoteRequest, progress func(st
 	if err != nil {
 		return nil, err
 	}
+	submitted := false
+	defer func() {
+		if !submitted {
+			if err := r.submitter.Discard(remoteEnv); err != nil {
+				log.Printf("GPU farm abandoned training upload cleanup failed: training=%s run_dir=%s error=%v", req.Training.ID, remoteEnv.RemoteRunDir, err)
+			}
+		}
+	}()
 
 	remoteBaseModelPath := ""
 	if req.BaseModelPath != "" {
@@ -165,6 +174,7 @@ func (r *ModelTrainingRemote) submit(req trainingRemoteRequest, progress func(st
 	if err != nil {
 		return nil, err
 	}
+	submitted = true
 
 	statusDetails := r.trainingStatusDetails(submission, remoteEnv, req.StatusDetails)
 	return &model.ModelTraining{

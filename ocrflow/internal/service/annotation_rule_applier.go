@@ -39,14 +39,25 @@ func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *filesys.Manager, robo
 func (a *AnnotationRuleApplier) ApplyRules(imgPath string, ann *annotation.Annotation, rules []annotationrule.AnnotationRule) error {
 	var err error
 	log.Printf("Applying %d rules to annotation %s", len(rules), ann.ID)
+	hasRemoteWork := false
 	for _, rule := range rules {
 		log.Printf("Applying rule %+v", rule)
+		switch t := rule.(type) {
+		case *annotationrule.ModelDetect:
+			hasRemoteWork = hasRemoteWork || t.UseGPUFarm
+		case *annotationrule.LinesDetect:
+			hasRemoteWork = hasRemoteWork || t.UseGPUFarm
+		}
 		ann, err = a.ApplyRule(imgPath, ann, rule)
 		if err != nil {
 			return fmt.Errorf("failed to apply rule %+v: %w", rule, err)
 		}
 	}
-	log.Printf("Applied %d rules", len(rules))
+	if hasRemoteWork {
+		log.Printf("Dispatched %d rules for annotation %s; GPU farm processing continues asynchronously until its result upload completes", len(rules), ann.ID)
+	} else {
+		log.Printf("Applied %d rules to annotation %s", len(rules), ann.ID)
+	}
 	return nil
 }
 

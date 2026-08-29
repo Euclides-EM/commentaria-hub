@@ -291,13 +291,22 @@ cat >> ~/.ssh/config <<'EOF'
 
 # OCR model training GPU farm
 Host cca-ocr
-HostName cca.in2p3.fr
-User mjoskowicz
-IdentityFile ~/.ssh/cca_ocr_training
-IdentitiesOnly yes
+    HostName cca.in2p3.fr
+    User mjoskowicz
+    IdentityFile ~/.ssh/cca_ocr_training
+    IdentitiesOnly yes
+    ControlMaster auto
+    ControlPersist 120
+    ControlPath ~/.ssh/controlmasters/%C
 EOF
 
 chmod 600 ~/.ssh/config
+```
+
+Set up a ControlMaster directory for SSH multiplexing, which speeds up repeated connections:
+```bash
+mkdir -p ~/.ssh/controlmasters
+chmod 700 ~/.ssh/controlmasters
 ```
 
 Test that the API user can connect without a password prompt and that Slurm is available:

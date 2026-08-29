@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+	"log"
 	"os"
 	"path"
 	"path/filepath"
@@ -68,11 +69,23 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest) error {
 	if err != nil {
 		return fmt.Errorf("prepare remote detection Python environment: %w", err)
 	}
+	submitted := false
+	defer func() {
+		if !submitted {
+			if err := r.submitter.Discard(remoteEnv); err != nil {
+				log.Printf("GPU farm abandoned detection upload cleanup failed: annotation=%s run_dir=%s error=%v", req.Annotation.ID, remoteEnv.RemoteRunDir, err)
+			}
+		}
+	}()
 
-	for _, p := range req.Pages {
+	log.Printf("GPU farm detection upload started: annotation=%s mode=%s pages=%d run_id=%s run_dir=%s", req.Annotation.ID, req.Mode, len(req.Pages), remoteEnv.RunID, remoteEnv.RemoteRunDir)
+	for i, p := range req.Pages {
 		imageName := pagesparser.PageToPNGFilename(p)
 		if err := r.submitter.CopyTo(filepath.Join(req.ImageDir, imageName), path.Join(remoteEnv.RemoteRunDir, "assets", "images", imageName)); err != nil {
 			return fmt.Errorf("copy image %s to GPU farm: %w", imageName, err)
+		}
+		if (i+1)%25 == 0 || i+1 == len(req.Pages) {
+			log.Printf("GPU farm detection image upload progress: annotation=%s run_id=%s uploaded=%d total=%d", req.Annotation.ID, remoteEnv.RunID, i+1, len(req.Pages))
 		}
 	}
 
@@ -108,8 +121,17 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest) error {
 		return fmt.Errorf("copy detection manifest to GPU farm: %w", err)
 	}
 
-	if _, err := r.submitter.Submit(remoteEnv); err != nil {
+	submission, err := r.submitter.Submit(remoteEnv)
+	if err != nil {
 		return fmt.Errorf("submit GPU farm detection job: %w", err)
+	}
+	submitted = true
+	log.Printf("GPU farm detection submitted: annotation=%s mode=%s backend=%s scheduler_job_id=%s run_id=%s", req.Annotation.ID, req.Mode, submission.Backend, submission.SchedulerJobID, remoteEnv.RunID)
+	if submission.Host != "" && submission.SchedulerJobID != "" {
+		stdoutPath := path.Join(remoteEnv.LogsDir, "annotation_detect_"+submission.SchedulerJobID+".out")
+		stderrPath := path.Join(remoteEnv.LogsDir, "annotation_detect_"+submission.SchedulerJobID+".err")
+		remoteTail := fmt.Sprintf("tail -n 100 -F %s %s", envexec.ShellQuote(stdoutPath), envexec.ShellQuote(stderrPath))
+		log.Printf("Follow GPU farm detection logs with: ssh %s %s", envexec.ShellQuote(submission.Host), envexec.ShellQuote(remoteTail))
 	}
 	return nil
 }

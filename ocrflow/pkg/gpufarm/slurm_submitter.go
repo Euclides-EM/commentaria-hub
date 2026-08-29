@@ -5,6 +5,7 @@ import (
 	_ "embed"
 	"fmt"
 	"log"
+	"os"
 	"os/exec"
 	"path"
 	"path/filepath"
@@ -75,17 +76,51 @@ func (s *SubmitterSlurm) run(args ...string) (string, error) {
 }
 
 func (s *SubmitterSlurm) CopyTo(localPath string, remotePath string) error {
+	info, statErr := os.Stat(localPath)
+	if statErr != nil {
+		return fmt.Errorf("stat local upload %s: %w", localPath, statErr)
+	}
 	if _, err := s.run("mkdir", "-p", path.Dir(remotePath)); err != nil {
-		return fmt.Errorf("create directory %s remotely: %w", path.Dir(remotePath), err)
+		return fmt.Errorf("create remote upload directory host=%s directory=%s source=%s source_bytes=%d: %w", s.host, path.Dir(remotePath), localPath, info.Size(), err)
 	}
 	out, err := exec.Command("scp", "-o", "StrictHostKeyChecking=accept-new", localPath, fmt.Sprintf("%s:%s", s.host, remotePath)).CombinedOutput()
 	output := strings.TrimSpace(string(out))
 	if err != nil {
+		storage := s.remoteStorageStatus(path.Dir(remotePath))
 		if output != "" {
-			return fmt.Errorf("scp to remote job host: %w: %s", err, output)
+			return fmt.Errorf("upload failed host=%s source=%s source_bytes=%d destination=%s storage=%s: %w: %s", s.host, localPath, info.Size(), remotePath, storage, err, output)
 		}
-		return fmt.Errorf("scp to remote job host: %w", err)
+		return fmt.Errorf("upload failed host=%s source=%s source_bytes=%d destination=%s storage=%s: %w", s.host, localPath, info.Size(), remotePath, storage, err)
 	}
+	return nil
+}
+
+func (s *SubmitterSlurm) remoteStorageStatus(remoteDir string) string {
+	output, err := s.run("df", "-B1", "--output=size,used,avail,pcent", remoteDir)
+	if err != nil {
+		return fmt.Sprintf("unavailable (%v)", err)
+	}
+	return strings.Join(strings.Fields(output), " ")
+}
+
+// Discard removes a run that failed before it was handed to Slurm. Restricting
+// removal to a direct run_* child of the configured job root prevents callers
+// from accidentally deleting shared job files or Python environments.
+func (s *SubmitterSlurm) Discard(request *RemoteEnv) error {
+	if request == nil {
+		return nil
+	}
+	runDir := path.Clean(request.RemoteRunDir)
+	jobDir := path.Dir(runDir)
+	jobRoot := path.Clean(s.jobRoot)
+	if path.Dir(jobDir) != jobRoot || !strings.HasPrefix(path.Base(runDir), "run_") {
+		return fmt.Errorf("refusing to discard invalid GPU farm run directory %q", request.RemoteRunDir)
+	}
+	output, err := s.run("rm", "-rf", "--", runDir)
+	if err != nil {
+		return fmt.Errorf("discard remote GPU farm run %s: %w", runDir, err)
+	}
+	log.Printf("GPU farm abandoned upload removed: host=%s run_dir=%s output=%q", s.host, runDir, output)
 	return nil
 }
 

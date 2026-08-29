@@ -22,6 +22,8 @@ done <<< "$active_output"
 
 deleted_runs=0
 deleted_bytes=0
+deleted_abandoned=0
+deleted_retention=0
 mapfile -d '' -t job_dirs < <(
   find "$root" -mindepth 1 -maxdepth 1 -type d -print0 | sort -z
 )
@@ -35,11 +37,25 @@ for job_dir in "${job_dirs[@]}"; do
   for entry in "${runs[@]}"; do
     run_dir="${entry#* }"
     if [[ -n "${active_by_dir[$run_dir]:-}" ]]; then
+	  echo "protected reason=active run_dir=$run_dir job_id=${active_by_dir[$run_dir]}"
       continue
     fi
-	if (( retained < keep )); then
+
+	delete_reason=""
+	if [[ ! -e "$run_dir/artifacts/done" && ! -e "$run_dir/artifacts/failed" ]] &&
+	   find "$run_dir" -maxdepth 0 -mmin +1440 -print -quit | grep -q .; then
+	  # Uploads that crash before sbatch never create an artifact marker and do
+	  # not appear in squeue. Remove them after a safety window, independently
+	  # of completed-run retention.
+	  delete_reason="abandoned_upload_older_than_24h"
+	  ((deleted_abandoned += 1))
+	elif (( retained < keep )); then
 	  ((retained += 1))
+	  echo "retained reason=recent run_dir=$run_dir position=$retained keep=$keep"
 	  continue
+	else
+	  delete_reason="retention_limit"
+	  ((deleted_retention += 1))
 	fi
 
 	job_ids=""
@@ -55,10 +71,10 @@ for job_dir in "${job_dirs[@]}"; do
 	rm -rf -- "$run_dir"
 	((deleted_runs += 1))
 	((deleted_bytes += run_bytes))
-	echo "deleted run_dir=$run_dir job_ids=${job_ids:-unknown} bytes=$run_bytes"
+	echo "deleted reason=$delete_reason run_dir=$run_dir job_ids=${job_ids:-unknown} bytes=$run_bytes"
   done
 done
 
 read -r used_after available_after < <(df -B1 --output=used,avail "$root" | tail -n 1)
 reclaimed_bytes=$((used_before - used_after))
-echo "status=completed deleted_runs=$deleted_runs deleted_bytes=$deleted_bytes reclaimed_bytes=$reclaimed_bytes used_bytes=$used_after available_bytes=$available_after"
+echo "status=completed deleted_runs=$deleted_runs deleted_abandoned=$deleted_abandoned deleted_retention=$deleted_retention deleted_bytes=$deleted_bytes reclaimed_bytes=$reclaimed_bytes used_bytes=$used_after available_bytes=$available_after"
