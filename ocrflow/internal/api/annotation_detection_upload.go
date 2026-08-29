@@ -33,5 +33,12 @@ func (h *Handlers) UploadAnnotationDetectionResult(r *http.Request) (any, error)
 		return nil, err
 	}
 	defer file.Close()
-	return h.deps.AnnotationSvc.UploadDetectionResult(datasetID, annotationID, mode, file)
+	ann, err := h.deps.AnnotationSvc.UploadDetectionResult(datasetID, annotationID, mode, file)
+	if err != nil {
+		return nil, err
+	}
+	if err := h.deps.JobSvc.CompleteAnnotationRuleCallback(datasetID, annotationID); err != nil {
+		return nil, err
+	}
+	return ann, nil
 }

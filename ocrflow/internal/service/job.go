@@ -22,6 +22,16 @@ type Job struct {
 	modelTrain        *ModelTrainingRemote
 }
 
+type annotationRuleDispatchResult struct {
+	AnnotationID      string `json:"annotation_id"`
+	DatasetID         string `json:"dataset_id"`
+	State             string `json:"state"`
+	Message           string `json:"message"`
+	FollowLogs        string `json:"follow_logs,omitempty"`
+	CallbacksExpected int    `json:"callbacks_expected"`
+	CallbacksReceived int    `json:"callbacks_received"`
+}
+
 func (j *Job) ListJobs() ([]*job.Job, error) {
 	return j.jobsStore.ListAll()
 }
@@ -85,14 +95,23 @@ func isExportJobReady(jb *job.Job) bool {
 
 func (j *Job) runAnnotationRuleApply(jb *job.Job) {
 	j.run(jb, "annotation rule apply", func() (any, error) {
-		ann, err := j.annotations.ExecuteApplyRules(jb.Target.DatasetID, jb.Target.AnnotationID, jb.Rules)
+		var followCommands []string
+		ann, err := j.annotations.ExecuteApplyRulesWithRemoteProgress(jb.Target.DatasetID, jb.Target.AnnotationID, jb.Rules, func(command string) {
+			followCommands = append(followCommands, command)
+			j.progressReporter(jb, "GPU farm job submitted; waiting for detection result callback")("follow logs with: " + command)
+		})
 		if err != nil {
 			return nil, err
 		}
-		return map[string]string{
-			"annotation_id": ann.ID,
-			"dataset_id":    ann.DatasetID,
-		}, nil
+		if len(followCommands) > 0 {
+			return annotationRuleDispatchResult{
+				AnnotationID: ann.ID, DatasetID: ann.DatasetID,
+				State:      "gpu_farm_submitted_waiting_for_callback",
+				Message:    "Local dispatch completed; GPU farm processing continues until the detection result callback is uploaded.",
+				FollowLogs: strings.Join(followCommands, "\n"), CallbacksExpected: len(followCommands),
+			}, nil
+		}
+		return map[string]string{"annotation_id": ann.ID, "dataset_id": ann.DatasetID}, nil
 	})
 }
 
@@ -196,7 +215,12 @@ func (j *Job) run(jb *job.Job, actionName string, action func() (any, error)) {
 			jb.Details = err.Error()
 			log.Printf("job %s %s failed: %v", jb.ID, actionName, err)
 		} else {
-			jb.Status = job.StatusCompleted
+			if _, waitingForCallback := result.(annotationRuleDispatchResult); waitingForCallback {
+				jb.Status = job.StatusRunning
+				jb.FinishedAt = nil
+			} else {
+				jb.Status = job.StatusCompleted
+			}
 			if result != nil {
 				if details, err := json.Marshal(result); err == nil {
 					jb.Details = string(details)
@@ -205,6 +229,42 @@ func (j *Job) run(jb *job.Job, actionName string, action func() (any, error)) {
 		}
 		j.jobsStore.Update(jb)
 	}()
+}
+
+func (j *Job) CompleteAnnotationRuleCallback(datasetID string, annotationID string) error {
+	jobs, err := j.jobsStore.ListAll()
+	if err != nil {
+		return err
+	}
+	for _, jb := range jobs {
+		if jb.Task != job.AnnotationRuleApply || jb.Status != job.StatusRunning || jb.Target == nil || jb.Target.DatasetID != datasetID || jb.Target.AnnotationID != annotationID {
+			continue
+		}
+		var details annotationRuleDispatchResult
+		if err := json.Unmarshal([]byte(jb.Details), &details); err != nil || details.State != "gpu_farm_submitted_waiting_for_callback" {
+			continue
+		}
+		details.CallbacksReceived++
+		now := time.Now()
+		jb.UpdatedAt = now
+		if details.CallbacksReceived >= details.CallbacksExpected {
+			details.State = "callback_received"
+			details.Message = "GPU farm detection result callback received and applied successfully."
+			details.FollowLogs = ""
+			jb.Status = job.StatusCompleted
+			jb.FinishedAt = &now
+		} else {
+			details.Message = fmt.Sprintf("Received %d of %d GPU farm detection result callbacks.", details.CallbacksReceived, details.CallbacksExpected)
+		}
+		encoded, err := json.Marshal(details)
+		if err != nil {
+			return err
+		}
+		jb.Details = string(encoded)
+		j.jobsStore.Update(jb)
+		return nil
+	}
+	return nil
 }
 
 func (j *Job) GetJob(id string) (*job.Job, error) {

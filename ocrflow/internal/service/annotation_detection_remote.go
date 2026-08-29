@@ -48,7 +48,7 @@ func NewAnnotationDetectionRemote(fileSysMgt *filesys.Manager, rootDir string, a
 	}
 }
 
-func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest) error {
+func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, onSubmitted func(string)) error {
 	if r == nil || r.submitter == nil {
 		return fmt.Errorf("GPU farm detection submitter is not configured")
 	}
@@ -131,7 +131,11 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest) error {
 		stdoutPath := path.Join(remoteEnv.LogsDir, "annotation_detect_"+submission.SchedulerJobID+".out")
 		stderrPath := path.Join(remoteEnv.LogsDir, "annotation_detect_"+submission.SchedulerJobID+".err")
 		remoteTail := fmt.Sprintf("tail -n 100 -F %s %s", envexec.ShellQuote(stdoutPath), envexec.ShellQuote(stderrPath))
-		log.Printf("Follow GPU farm detection logs with: ssh %s %s", envexec.ShellQuote(submission.Host), envexec.ShellQuote(remoteTail))
+		followCommand := fmt.Sprintf("ssh %s %s", envexec.ShellQuote(submission.Host), envexec.ShellQuote(remoteTail))
+		log.Printf("Follow GPU farm detection logs with: %s", followCommand)
+		if onSubmitted != nil {
+			onSubmitted(followCommand)
+		}
 	}
 	return nil
 }

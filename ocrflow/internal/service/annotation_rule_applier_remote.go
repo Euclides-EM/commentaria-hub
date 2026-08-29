@@ -9,7 +9,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 )
 
-func (a *AnnotationRuleApplier) applyLinesDetectRuleRemote(imgPath string, ann *annotation.Annotation, t *annotationrule.LinesDetect) (*annotation.Annotation, error) {
+func (a *AnnotationRuleApplier) applyLinesDetectRuleRemote(imgPath string, ann *annotation.Annotation, t *annotationrule.LinesDetect, onSubmitted func(string)) (*annotation.Annotation, error) {
 	pages, err := parseAnnotationPages(ann)
 	if err != nil {
 		return nil, err
@@ -21,13 +21,13 @@ func (a *AnnotationRuleApplier) applyLinesDetectRuleRemote(imgPath string, ann *
 		Pages:             pages,
 		IncludeCategories: t.IncludeCategories,
 		IgnoreCategories:  t.IgnoreCategories,
-	}); err != nil {
+	}, onSubmitted); err != nil {
 		return nil, fmt.Errorf("failed to submit lines detect for annotation %s to GPU farm: %w", ann.ID, err)
 	}
 	return ann, nil
 }
 
-func (a *AnnotationRuleApplier) applyModelDetectRemote(imgPath string, ann *annotation.Annotation, m *model.Model, pages []int) (*annotation.Annotation, error) {
+func (a *AnnotationRuleApplier) applyModelDetectRemote(imgPath string, ann *annotation.Annotation, m *model.Model, pages []int, onSubmitted func(string)) (*annotation.Annotation, error) {
 	if m.Location != model.OCRModelLocationLocal {
 		return nil, fmt.Errorf("GPU farm detection requires a local model, got %s", m.Location)
 	}
@@ -38,17 +38,17 @@ func (a *AnnotationRuleApplier) applyModelDetectRemote(imgPath string, ann *anno
 		Pages:      pages,
 		Model:      m,
 		ModelPath:  a.fileSysMgt.ModelPath(m),
-	}); err != nil {
+	}, onSubmitted); err != nil {
 		return nil, fmt.Errorf("failed to submit model detect for annotation %s to GPU farm: %w", ann.ID, err)
 	}
 	return ann, nil
 }
 
-func (a *AnnotationRuleApplier) submitGPUFarmDetection(req remoteDetectionRequest) error {
+func (a *AnnotationRuleApplier) submitGPUFarmDetection(req remoteDetectionRequest, onSubmitted func(string)) error {
 	if a.remoteDetectSvc == nil {
 		return fmt.Errorf("GPU farm detection is not configured")
 	}
-	return a.remoteDetectSvc.Submit(req)
+	return a.remoteDetectSvc.Submit(req, onSubmitted)
 }
 
 func parseAnnotationPages(ann *annotation.Annotation) ([]int, error) {

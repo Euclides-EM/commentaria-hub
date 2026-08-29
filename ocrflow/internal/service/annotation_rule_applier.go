@@ -37,6 +37,10 @@ func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *filesys.Manager, robo
 }
 
 func (a *AnnotationRuleApplier) ApplyRules(imgPath string, ann *annotation.Annotation, rules []annotationrule.AnnotationRule) error {
+	return a.ApplyRulesWithRemoteProgress(imgPath, ann, rules, nil)
+}
+
+func (a *AnnotationRuleApplier) ApplyRulesWithRemoteProgress(imgPath string, ann *annotation.Annotation, rules []annotationrule.AnnotationRule, onSubmitted func(string)) error {
 	var err error
 	log.Printf("Applying %d rules to annotation %s", len(rules), ann.ID)
 	hasRemoteWork := false
@@ -48,7 +52,7 @@ func (a *AnnotationRuleApplier) ApplyRules(imgPath string, ann *annotation.Annot
 		case *annotationrule.LinesDetect:
 			hasRemoteWork = hasRemoteWork || t.UseGPUFarm
 		}
-		ann, err = a.ApplyRule(imgPath, ann, rule)
+		ann, err = a.applyRule(imgPath, ann, rule, onSubmitted)
 		if err != nil {
 			return fmt.Errorf("failed to apply rule %+v: %w", rule, err)
 		}
@@ -62,6 +66,10 @@ func (a *AnnotationRuleApplier) ApplyRules(imgPath string, ann *annotation.Annot
 }
 
 func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annotation, rule annotationrule.AnnotationRule) (*annotation.Annotation, error) {
+	return a.applyRule(imgPath, ann, rule, nil)
+}
+
+func (a *AnnotationRuleApplier) applyRule(imgPath string, ann *annotation.Annotation, rule annotationrule.AnnotationRule, onSubmitted func(string)) (*annotation.Annotation, error) {
 	// delete YOLO dir if exists, as it will be invalid after ALTO modification
 	if err := os.RemoveAll(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
 		return nil, fmt.Errorf("failed to remove YOLO dir after ALTO modification: %w", err)
@@ -72,9 +80,9 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 	case *annotationrule.SlicePages:
 		return a.applySlicePagesRule(ann, t)
 	case *annotationrule.LinesDetect:
-		return a.applyLinesDetectRule(imgPath, ann, t)
+		return a.applyLinesDetectRule(imgPath, ann, t, onSubmitted)
 	case *annotationrule.ModelDetect:
-		return a.applyModelDetect(imgPath, ann, t)
+		return a.applyModelDetect(imgPath, ann, t, onSubmitted)
 	case *annotationrule.TextBlockCorrections:
 		return a.applyTextBlockCorrection(ann, t)
 	}
@@ -288,9 +296,9 @@ func (a *AnnotationRuleApplier) applyReassignTextLinesByTolerance(af *alto.Alto,
 	return nil
 }
 
-func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annotation.Annotation, t *annotationrule.LinesDetect) (*annotation.Annotation, error) {
+func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annotation.Annotation, t *annotationrule.LinesDetect, onSubmitted func(string)) (*annotation.Annotation, error) {
 	if t.UseGPUFarm {
-		return a.applyLinesDetectRuleRemote(imgPath, ann, t)
+		return a.applyLinesDetectRuleRemote(imgPath, ann, t, onSubmitted)
 	}
 	if err := krakenwrapper.DetectLines(imgPath, a.fileSysMgt.DatasetAnnotationAltoDir(ann), t.IncludeCategories, t.IgnoreCategories); err != nil {
 		return nil, fmt.Errorf("failed to apply lines detect to annotation %s: %w", ann.ID, err)
@@ -299,7 +307,7 @@ func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annota
 	return ann, nil
 }
 
-func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation.Annotation, t *annotationrule.ModelDetect) (*annotation.Annotation, error) {
+func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation.Annotation, t *annotationrule.ModelDetect, onSubmitted func(string)) (*annotation.Annotation, error) {
 	m, err := a.modelSvc.Get(t.Model)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get segmentation model %s: %w", t.Model, err)
@@ -318,7 +326,7 @@ func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation
 	}
 
 	if t.UseGPUFarm {
-		return a.applyModelDetectRemote(imgPath, ann, m, pages)
+		return a.applyModelDetectRemote(imgPath, ann, m, pages, onSubmitted)
 	}
 
 	var filenames []string

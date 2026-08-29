@@ -406,6 +406,10 @@ func (a *Annotation) PrepareApplyRules(datasetID string, id string, aar *annotat
 }
 
 func (a *Annotation) ExecuteApplyRules(datasetID string, id string, aar *annotationrule.ApplyRules) (*annotation.Annotation, error) {
+	return a.ExecuteApplyRulesWithRemoteProgress(datasetID, id, aar, nil)
+}
+
+func (a *Annotation) ExecuteApplyRulesWithRemoteProgress(datasetID string, id string, aar *annotationrule.ApplyRules, onSubmitted func(string)) (*annotation.Annotation, error) {
 	ann, err := a.Get(datasetID, id)
 	if err != nil {
 		return nil, err
@@ -423,7 +427,7 @@ func (a *Annotation) ExecuteApplyRules(datasetID string, id string, aar *annotat
 	defer release()
 
 	// apply rules...
-	if err := a.ruleApplier.ApplyRules(a.fileSysMgt.DatasetImagesDir(ds), ann, aar.Rules); err != nil {
+	if err := a.ruleApplier.ApplyRulesWithRemoteProgress(a.fileSysMgt.DatasetImagesDir(ds), ann, aar.Rules, onSubmitted); err != nil {
 		return nil, fmt.Errorf("failed to apply annotation rules: %w", err)
 	}
 
