@@ -1,5 +1,5 @@
 | Edition               | Status             |
-| --------------------- | ------------------ |
+|-----------------------|--------------------|
 | Paris_1667            | Annotation ALTO    |
 | Nuremberg_1821        | Annotation ALTO    |
 | Basel_1562            | Annotation ALTO    |
