@@ -6,15 +6,17 @@ import (
 	"path/filepath"
 	"runtime"
 	"slices"
+	"strconv"
 	"strings"
 	"sync"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/beevik/etree"
 )
 
 // RecognizeTextWithMapping overwrites existing ALTO files with OCR-ed ALTO output.
-// mapping: key is image filename (relative to inputDir, or just basename), value is absolute or relative ALTO path.
+// Each pair contains an absolute image path followed by its absolute ALTO path.
 func RecognizeTextWithMapping(imgAndAltoPaths [][2]string, ocrModel string) (<-chan error, error) {
 	if strings.TrimSpace(ocrModel) == "" {
 		return nil, fmt.Errorf("ocr model is required")
@@ -87,7 +89,10 @@ func runPairsOCRUsingExistingAlto(imgAndAltoPaths [][2]string, ocrModel string) 
 			return fmt.Errorf("could not link image %s to temp location: %w", imgPath, err)
 		}
 		if err := futils.CopyFile(altoPath, tmpAltoPath); err != nil {
-			return fmt.Errorf("could not link ALTO %s to temp location: %w", altoPath, err)
+			return fmt.Errorf("could not copy ALTO %s to temp location: %w", altoPath, err)
+		}
+		if err := prepareAltoForOCR(tmpAltoPath, filepath.Base(tmpImgPath)); err != nil {
+			return fmt.Errorf("could not prepare ALTO %s for Kraken OCR: %w", altoPath, err)
 		}
 
 		imgAndAltoTmpPaths = append(imgAndAltoTmpPaths, [2]string{tmpImgPath, tmpAltoPath})
@@ -131,77 +136,183 @@ func runPairsOCRUsingExistingAlto(imgAndAltoPaths [][2]string, ocrModel string) 
 		return firstErr
 	}
 
-	// Rename temp outputs into place, then fix fileName (parallel by file).
-	var postWg sync.WaitGroup
-	var postMu sync.Mutex
-	var postErr error
-
-	postWg.Add(len(imgAndAltoTmpPaths))
+	// Validate all outputs before replacing any original ALTO.
 	for _, pair := range imgAndAltoTmpPaths {
 		altoTmpPath := pair[1]
-		go func(altoTmpPath string) {
-			defer postWg.Done()
-
-			tmp := tmpOcredPath(altoTmpPath)
-			if _, err := os.Stat(tmp); err != nil {
-				postMu.Lock()
-				if postErr == nil {
-					postErr = fmt.Errorf("expected OCR output file %s does not exist: %w", tmp, err)
-				}
-				postMu.Unlock()
-				return
-			}
-
-			// Replace final with tmp (best effort atomic on same filesystem).
-			_ = os.Remove(tmpToOrigAltoPath[altoTmpPath])
-			if err := os.Rename(tmp, tmpToOrigAltoPath[altoTmpPath]); err != nil {
-				postMu.Lock()
-				if postErr == nil {
-					postErr = fmt.Errorf("could not replace ALTO %s with OCR output: %w", altoTmpPath, err)
-				}
-				postMu.Unlock()
-				return
-			}
-		}(altoTmpPath)
+		tmp := tmpOcredPath(altoTmpPath)
+		info, err := os.Stat(tmp)
+		if err != nil {
+			return fmt.Errorf("expected OCR output file %s does not exist: %w", tmp, err)
+		}
+		if info.Size() == 0 {
+			return fmt.Errorf("Kraken produced an empty OCR output file %s", tmp)
+		}
+		if err := RemovePathFromAltoImgFileName(tmp, tmp); err != nil {
+			return fmt.Errorf("could not normalize source image name in OCR output %s: %w", tmp, err)
+		}
 	}
-	postWg.Wait()
+	for _, pair := range imgAndAltoTmpPaths {
+		altoTmpPath := pair[1]
+		originalPath := tmpToOrigAltoPath[altoTmpPath]
+		if err := replaceFile(tmpOcredPath(altoTmpPath), originalPath); err != nil {
+			return fmt.Errorf("could not replace ALTO %s with OCR output: %w", originalPath, err)
+		}
+	}
+	return nil
+}
 
-	return postErr
+func replaceFile(src, dst string) error {
+	replacement, err := futils.CreateTempInDir(filepath.Dir(dst), "ocr-replace-*.xml")
+	if err != nil {
+		return err
+	}
+	replacementPath := replacement.Name()
+	if err := replacement.Close(); err != nil {
+		_ = os.Remove(replacementPath)
+		return err
+	}
+	defer os.Remove(replacementPath)
+	if err := futils.CopyFile(src, replacementPath); err != nil {
+		return err
+	}
+	return os.Rename(replacementPath, dst)
+}
+
+// prepareAltoForOCR makes the small set of changes Kraken 5.3 needs when an
+// existing ALTO document is used as recognition input. Unknown ALTO elements
+// and attributes are retained.
+func prepareAltoForOCR(altoPath, imageName string) error {
+	doc := etree.NewDocument()
+	if err := doc.ReadFromFile(altoPath); err != nil {
+		return err
+	}
+
+	fileName := doc.FindElement("//fileName")
+	if fileName == nil {
+		return fmt.Errorf("ALTO has no sourceImageInformation/fileName element")
+	}
+	fileName.SetText(imageName)
+
+	// Kraken's ALTO serializer cannot handle empty region placeholders that
+	// have neither geometry nor lines. They carry no annotation data.
+	for _, block := range doc.FindElements("//TextBlock") {
+		if hasValidBoundary(block) || validBoundingBox(block) || len(block.SelectElements("TextLine")) > 0 {
+			continue
+		}
+		block.Parent().RemoveChild(block)
+	}
+
+	for _, line := range doc.FindElements("//TextLine") {
+		shape := line.SelectElement("Shape")
+		var polygon *etree.Element
+		if shape != nil {
+			polygon = shape.SelectElement("Polygon")
+		}
+		if polygon != nil && validPolygonPoints(polygon.SelectAttrValue("POINTS", "")) {
+			continue
+		}
+
+		points := line.SelectAttrValue("POINTS", "")
+		if !validPolygonPoints(points) {
+			x, y, width, height, ok := boundingBox(line)
+			if !ok {
+				return fmt.Errorf("text line %q has no valid polygon or bounding box", line.SelectAttrValue("ID", ""))
+			}
+			points = fmt.Sprintf("%g %g %g %g %g %g %g %g %g %g",
+				x, y, x+width, y, x+width, y+height, x, y+height, x, y)
+		}
+		if shape == nil {
+			shape = line.CreateElement("Shape")
+		}
+		if polygon == nil {
+			polygon = shape.CreateElement("Polygon")
+		}
+		polygon.RemoveAttr("POINTS")
+		polygon.CreateAttr("POINTS", points)
+	}
+
+	doc.Indent(2)
+	return doc.WriteToFile(altoPath)
+}
+
+func hasValidBoundary(element *etree.Element) bool {
+	shape := element.SelectElement("Shape")
+	if shape == nil {
+		return false
+	}
+	polygon := shape.SelectElement("Polygon")
+	return polygon != nil && validPolygonPoints(polygon.SelectAttrValue("POINTS", ""))
+}
+
+func validBoundingBox(element *etree.Element) bool {
+	_, _, _, _, ok := boundingBox(element)
+	return ok
+}
+
+func boundingBox(element *etree.Element) (x, y, width, height float64, ok bool) {
+	values := []*float64{&x, &y, &width, &height}
+	for i, name := range []string{"HPOS", "VPOS", "WIDTH", "HEIGHT"} {
+		value, err := strconv.ParseFloat(element.SelectAttrValue(name, ""), 64)
+		if err != nil {
+			return 0, 0, 0, 0, false
+		}
+		*values[i] = value
+	}
+	return x, y, width, height, width > 0 && height > 0
+}
+
+func validPolygonPoints(points string) bool {
+	fields := strings.Fields(strings.NewReplacer(",", " ", "(", " ", ")", " ").Replace(points))
+	if len(fields) < 6 || len(fields)%2 != 0 {
+		return false
+	}
+	xs := make(map[float64]struct{})
+	ys := make(map[float64]struct{})
+	for i, field := range fields {
+		value, err := strconv.ParseFloat(field, 64)
+		if err != nil {
+			return false
+		}
+		if i%2 == 0 {
+			xs[value] = struct{}{}
+		} else {
+			ys[value] = struct{}{}
+		}
+	}
+	return len(xs) > 1 && len(ys) > 1
 }
 
 func runKrakenOCRReuseAlto(pairs [][2]string, ocrModel string) error {
-	// todo - this does not work!! Kraken CLI doesn't have the option to load existing ALTO for reuse.
-	//  The way to resolve it is to use a Python script - I started working on it but it is not ready yet.
-	//  See it in python-tools/ocr_for_segmented.py
-	//  Probably, much of my work to have absolute paths and temp files can be removed once we have the script...
 
 	if len(pairs) == 0 {
 		return nil
 	}
 
-	var args = []string{"--alto"}
-	args = append(args, krakenDeviceArgs()...)
-
-	// For each pair: -i <img> <alto_out_tmp>
 	for _, p := range pairs {
-		imgPath := p[0]
 		altoOutTmp := tmpOcredPath(p[1])
 
 		// Ensure output dir exists
 		if err := os.MkdirAll(filepath.Dir(altoOutTmp), 0755); err != nil {
 			return fmt.Errorf("could not create ALTO output directory %s: %w", filepath.Dir(altoOutTmp), err)
 		}
-
-		args = append(args, "-i", imgPath, altoOutTmp)
 	}
 
-	args = append(args, "segment", "-t", "alto", "ocr", "-m", ocrModel)
-
-	if err := envexec.PythonCmd("kraken", args...); err != nil {
+	if err := envexec.PythonCmd("kraken", krakenOCRReuseAltoArgs(pairs, ocrModel)...); err != nil {
 		return fmt.Errorf("kraken ocr (reuse alto) failed: %w", err)
 	}
 
 	return nil
+}
+
+func krakenOCRReuseAltoArgs(pairs [][2]string, ocrModel string) []string {
+	args := []string{"--alto", "--format-type", "alto", "--raise-on-error"}
+	args = append(args, krakenDeviceArgs()...)
+	// Kraken reads both the existing segmentation and source image reference
+	// from the ALTO input. pair[0] is the image staged beside pair[1].
+	for _, pair := range pairs {
+		args = append(args, "-i", pair[1], tmpOcredPath(pair[1]))
+	}
+	return append(args, "ocr", "-m", ocrModel)
 }
 
 func tmpOcredPath(finalAltoPath string) string {

@@ -7,7 +7,7 @@
 | Paris_1615            | Annotation ALTO    |
 | Basel_1537            | Raw Markdown       |
 | Kiel_and_Leipzig_1669 | Corrected Markdown |
-| Paris_1536            | Corrected Markdown |
+| Paris_1536            | Raw Markdown       |
 | Paris_1634            | Corrected Markdown |
 | Paris_1639            | Corrected Markdown |
 | Rome_1574             | Edition ALTO       |

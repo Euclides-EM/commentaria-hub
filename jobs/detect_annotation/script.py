@@ -239,6 +239,77 @@ def rect_points(min_x: float, min_y: float, max_x: float, max_y: float) -> str:
     return " ".join(str(round(v)) for v in vals)
 
 
+def valid_bbox(element: etree._Element) -> bool:
+    try:
+        float(element.get("HPOS", ""))
+        float(element.get("VPOS", ""))
+        width = float(element.get("WIDTH", ""))
+        height = float(element.get("HEIGHT", ""))
+    except (TypeError, ValueError):
+        return False
+    return width > 0 and height > 0
+
+
+def valid_polygon(points: str | None) -> bool:
+    if not points:
+        return False
+    fields = points.replace(",", " ").replace("(", " ").replace(")", " ").split()
+    if len(fields) < 6 or len(fields) % 2:
+        return False
+    try:
+        xs = {float(fields[index]) for index in range(0, len(fields), 2)}
+        ys = {float(fields[index]) for index in range(1, len(fields), 2)}
+    except ValueError:
+        return False
+    return len(xs) > 1 and len(ys) > 1
+
+
+def prepare_alto_for_ocr(alto_path: Path, image_path: Path) -> None:
+    tree = etree.parse(str(alto_path))
+    file_names = xpath(tree, "//*[local-name()='fileName']")
+    if not file_names:
+        raise RuntimeError(f"ALTO has no source image filename: {alto_path}")
+    file_names[0].text = str(image_path)
+
+    # Kraken 5.3 fails while serializing empty region placeholders without
+    # geometry. They have no lines or annotation data, so they can be dropped.
+    for block in xpath(tree, "//*[local-name()='TextBlock']"):
+        polygons = xpath(block, "./*[local-name()='Shape']/*[local-name()='Polygon']")
+        if (polygons and valid_polygon(polygons[0].get("POINTS"))) or valid_bbox(block):
+            continue
+        if xpath(block, "./*[local-name()='TextLine']"):
+            continue
+        block.getparent().remove(block)
+
+    for line in xpath(tree, "//*[local-name()='TextLine']"):
+        polygons = xpath(line, "./*[local-name()='Shape']/*[local-name()='Polygon']")
+        polygon = polygons[0] if polygons else None
+        if polygon is not None and valid_polygon(polygon.get("POINTS")):
+            continue
+
+        points = line.get("POINTS")
+        if not valid_polygon(points):
+            if not valid_bbox(line):
+                raise RuntimeError(
+                    f"TextLine has no valid polygon or bounding box: {line.get('ID', '')}"
+                )
+            x = float(line.get("HPOS", "0"))
+            y = float(line.get("VPOS", "0"))
+            width = float(line.get("WIDTH", "0"))
+            height = float(line.get("HEIGHT", "0"))
+            points = rect_points(x, y, x + width, y + height)
+
+        namespace = etree.QName(line).namespace
+        tag = lambda name: f"{{{namespace}}}{name}" if namespace else name
+        if polygon is None:
+            shapes = xpath(line, "./*[local-name()='Shape']")
+            shape = shapes[0] if shapes else etree.SubElement(line, tag("Shape"))
+            polygon = etree.SubElement(shape, tag("Polygon"))
+        polygon.set("POINTS", points)
+
+    tree.write(str(alto_path), encoding="UTF-8", xml_declaration=True, pretty_print=True)
+
+
 def ensure_line_tag(tree: etree._ElementTree) -> None:
     tags_nodes = xpath(tree, "//*[local-name()='Tags']")
     if not tags_nodes:
@@ -284,7 +355,8 @@ def glue_lines(alto_path: Path, baselines_json: Path) -> None:
         tl.set("VPOS", str(round(min_y)))
         tl.set("WIDTH", str(round(max_x - min_x)))
         tl.set("HEIGHT", str(round(max_y - min_y)))
-        tl.set("POINTS", rect_points(min_x, min_y, max_x, max_y))
+        shape = etree.SubElement(tl, "Shape")
+        etree.SubElement(shape, "Polygon", POINTS=rect_points(min_x, min_y, max_x, max_y))
     tree.write(str(alto_path), encoding="UTF-8", xml_declaration=True, pretty_print=True)
 
 
@@ -341,13 +413,40 @@ def model_segment(image_dir: Path, output_dir: Path, model_path: Path) -> None:
 def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Path) -> None:
     copy_alto(alto_dir, output_dir)
     pairs: list[str] = []
-    for alto_path in sorted(output_dir.glob("*.xml")):
+    alto_paths = sorted(output_dir.glob("*.xml"))
+    for alto_path in alto_paths:
         img_path = image_dir / f"{alto_path.stem}.png"
-        pairs.extend(["-i", str(img_path), str(alto_path) + ".ocr.tmp"])
+        if not img_path.exists():
+            raise FileNotFoundError(f"image not found for {alto_path.name}: {img_path}")
+        prepare_alto_for_ocr(alto_path, img_path)
+        pairs.extend(["-i", str(alto_path), str(alto_path) + ".ocr.tmp"])
     if pairs:
-        run(["kraken", "--alto", "-d", "cuda:0", *pairs, "segment", "-t", "alto", "ocr", "-m", str(model_path)])
-        for tmp in output_dir.glob("*.xml.ocr.tmp"):
-            tmp.replace(output_dir / tmp.name.removesuffix(".ocr.tmp"))
+        run([
+            "kraken",
+            "--alto",
+            "--format-type",
+            "alto",
+            "--raise-on-error",
+            "-d",
+            "cuda:0",
+            *pairs,
+            "ocr",
+            "-m",
+            str(model_path),
+        ])
+        for final_path in alto_paths:
+            tmp = Path(str(final_path) + ".ocr.tmp")
+            if not tmp.exists():
+                raise RuntimeError(f"Kraken did not produce OCR output: {tmp.name}")
+            if tmp.stat().st_size == 0:
+                raise RuntimeError(f"Kraken produced an empty OCR output: {tmp.name}")
+            tree = etree.parse(str(tmp))
+            file_names = xpath(tree, "//*[local-name()='fileName']")
+            if file_names:
+                file_names[0].text = f"{final_path.stem}.png"
+            tree.write(str(tmp), encoding="UTF-8", xml_declaration=True, pretty_print=True)
+        for final_path in alto_paths:
+            Path(str(final_path) + ".ocr.tmp").replace(final_path)
 
 
 def main() -> int:
