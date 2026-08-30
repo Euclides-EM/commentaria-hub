@@ -25,6 +25,6 @@ func NewLinesDetect(includeCategories, ignoreCategories []string) *LinesDetect {
 		Base:              Base{Type: TypeLinesDetect, ApplicableStages: GetApplicableStages(TypeLinesDetect)},
 		IncludeCategories: includeCategories,
 		IgnoreCategories:  ignoreCategories,
-		UseGPUFarm:        false,
+		UseGPUFarm:        true,
 	}
 }

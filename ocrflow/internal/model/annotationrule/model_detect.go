@@ -32,7 +32,7 @@ func newModelDetect(model string, modelType common.OCRModelType) *ModelDetect {
 		Base:       Base{Type: TypeModelDetect, ApplicableStages: modelDetectApplicableStages(modelType)},
 		Model:      model,
 		ModelType:  modelType,
-		UseGPUFarm: false,
+		UseGPUFarm: true,
 	}
 }
 
