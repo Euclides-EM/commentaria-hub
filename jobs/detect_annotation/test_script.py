@@ -126,6 +126,46 @@ class KrakenOCRTest(unittest.TestCase):
                 input_alto,
             )
 
+    def test_model_ocr_shards_pages_across_allocated_workers(self):
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            image_dir = root / "images"
+            alto_dir = root / "alto"
+            output_dir = root / "output"
+            image_dir.mkdir()
+            alto_dir.mkdir()
+            for page in range(1, 5):
+                stem = f"page-{page:04d}"
+                (image_dir / f"{stem}.png").write_bytes(b"")
+                (alto_dir / f"{stem}.xml").write_text(
+                    '<alto><Description><sourceImageInformation><fileName>'
+                    f'{stem}.png</fileName></sourceImageInformation></Description>'
+                    '<Layout><Page><PrintSpace><TextBlock HPOS="0" VPOS="0" '
+                    'WIDTH="100" HEIGHT="100"><TextLine ID="line" BASELINE="0 50 100 50" '
+                    'HPOS="0" VPOS="0" WIDTH="100" HEIGHT="100"/></TextBlock>'
+                    '</PrintSpace></Page></Layout></alto>',
+                    encoding="utf-8",
+                )
+
+            def fake_kraken(command: list[str]) -> None:
+                for index, argument in enumerate(command):
+                    if argument == "-i":
+                        script.shutil.copyfile(command[index + 1], command[index + 2])
+
+            with patch.dict(os.environ, {"SLURM_CPUS_PER_TASK": "2"}, clear=True):
+                with patch.object(script, "run", side_effect=fake_kraken) as run:
+                    script.model_ocr(
+                        image_dir,
+                        alto_dir,
+                        output_dir,
+                        Path("/models/model.mlmodel"),
+                    )
+
+            self.assertEqual(run.call_count, 2)
+            self.assertTrue(all((output_dir / f"page-{page:04d}.xml").exists() for page in range(1, 5)))
+
 
 if __name__ == "__main__":
     unittest.main()

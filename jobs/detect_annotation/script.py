@@ -453,7 +453,6 @@ def kraken_ocr_command(pairs: list[str], model_path: Path) -> list[str]:
 
 def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Path) -> None:
     copy_alto(alto_dir, output_dir)
-    pairs: list[str] = []
     alto_paths = sorted(output_dir.glob("*.xml"))
     ocr_paths: list[Path] = []
     for alto_path in alto_paths:
@@ -463,9 +462,21 @@ def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Pat
         if not prepare_alto_for_ocr(alto_path, img_path):
             continue
         ocr_paths.append(alto_path)
-        pairs.extend(["-i", str(alto_path), str(alto_path) + ".ocr.tmp"])
-    if pairs:
-        run(kraken_ocr_command(pairs, model_path))
+
+    workers = worker_count(len(ocr_paths))
+    if workers:
+        ocr_shards = shard(ocr_paths, workers)
+        log(f"Recognizing {len(ocr_paths)} pages with {len(ocr_shards)} workers")
+
+        def process_shard(worker_paths: list[Path]) -> None:
+            pairs: list[str] = []
+            for alto_path in worker_paths:
+                pairs.extend(["-i", str(alto_path), str(alto_path) + ".ocr.tmp"])
+            run(kraken_ocr_command(pairs, model_path))
+
+        with ThreadPoolExecutor(max_workers=len(ocr_shards)) as pool:
+            list(pool.map(process_shard, ocr_shards))
+
         for final_path in ocr_paths:
             tmp = Path(str(final_path) + ".ocr.tmp")
             if not tmp.exists():
