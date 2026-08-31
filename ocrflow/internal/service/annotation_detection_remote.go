@@ -130,14 +130,24 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, onSubmitt
 	if submission.Host != "" && submission.SchedulerJobID != "" {
 		stdoutPath := path.Join(remoteEnv.LogsDir, "annotation_detect_"+submission.SchedulerJobID+".out")
 		stderrPath := path.Join(remoteEnv.LogsDir, "annotation_detect_"+submission.SchedulerJobID+".err")
-		remoteTail := fmt.Sprintf("tail -n 100 -F %s %s", envexec.ShellQuote(stdoutPath), envexec.ShellQuote(stderrPath))
-		followCommand := fmt.Sprintf("ssh %s %s", envexec.ShellQuote(submission.Host), envexec.ShellQuote(remoteTail))
+		followCommand := detectionFollowCommand(submission.Host, stdoutPath, stderrPath)
 		log.Printf("Follow GPU farm detection logs with: %s", followCommand)
 		if onSubmitted != nil {
 			onSubmitted(followCommand)
 		}
 	}
 	return nil
+}
+
+func detectionFollowCommand(host, stdoutPath, stderrPath string) string {
+	// Keep each SSH argument separate. Quoting the complete remote command as
+	// well as its paths creates nested shell quotes that are escaped in JSON and
+	// easy to copy literally as part of the filenames.
+	return fmt.Sprintf("ssh %s tail -n 100 -F %s %s",
+		envexec.ShellQuote(host),
+		envexec.ShellQuote(stdoutPath),
+		envexec.ShellQuote(stderrPath),
+	)
 }
 
 func (r *AnnotationDetectionRemote) detectionManifest(req remoteDetectionRequest, remoteEnv *gpufarm.RemoteEnv, remoteModelPath string) string {
