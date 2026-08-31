@@ -353,6 +353,22 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 		return m1.CreatedAt.After(m2.CreatedAt)
 	})
 
+	suggestedOCRModel := lo.MaxBy(allModels, func(m1, m2 *model.Model) bool {
+		if m2.Type != common.OCRModelTypeOCR {
+			return true
+		}
+		if m1.Type != common.OCRModelTypeOCR {
+			return false
+		}
+		if len(m1.BaseAnnotations) > len(m2.BaseAnnotations) {
+			return true
+		}
+		if len(m1.BaseAnnotations) < len(m2.BaseAnnotations) {
+			return false
+		}
+		return m1.CreatedAt.After(m2.CreatedAt)
+	})
+
 	categoriesToRemove := []string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}
 	categoriesToRename :=
 		map[string]string{
@@ -403,6 +419,7 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 			annotationrule.NewLinesDetect([]string{"MainZone", "MarginTextZone"}, categoriesToExcludeFromLineDetection),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Book", 5, 0.6),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Section", 5, 0.85),
+			annotationrule.NewModelDetect(lo.TernaryF(suggestedOCRModel == nil, func() string { return "" }, func() string { return suggestedOCRModel.ID })),
 		},
 	}, nil
 }
