@@ -419,7 +419,7 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 			annotationrule.NewLinesDetect([]string{"MainZone", "MarginTextZone"}, categoriesToExcludeFromLineDetection),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Book", 5, 0.6),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Section", 5, 0.85),
-			annotationrule.NewModelDetect(lo.TernaryF(suggestedOCRModel == nil, func() string { return "" }, func() string { return suggestedOCRModel.ID })),
+			annotationrule.NewOCRModelDetect(lo.TernaryF(suggestedOCRModel == nil, func() string { return "" }, func() string { return suggestedOCRModel.ID })),
 		},
 	}, nil
 }
