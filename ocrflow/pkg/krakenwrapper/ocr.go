@@ -91,8 +91,12 @@ func runPairsOCRUsingExistingAlto(imgAndAltoPaths [][2]string, ocrModel string) 
 		if err := futils.CopyFile(altoPath, tmpAltoPath); err != nil {
 			return fmt.Errorf("could not copy ALTO %s to temp location: %w", altoPath, err)
 		}
-		if err := prepareAltoForOCR(tmpAltoPath, filepath.Base(tmpImgPath)); err != nil {
+		hasLines, err := prepareAltoForOCR(tmpAltoPath, filepath.Base(tmpImgPath))
+		if err != nil {
 			return fmt.Errorf("could not prepare ALTO %s for Kraken OCR: %w", altoPath, err)
+		}
+		if !hasLines {
+			continue
 		}
 
 		imgAndAltoTmpPaths = append(imgAndAltoTmpPaths, [2]string{tmpImgPath, tmpAltoPath})
@@ -181,15 +185,19 @@ func replaceFile(src, dst string) error {
 // prepareAltoForOCR makes the small set of changes Kraken 5.3 needs when an
 // existing ALTO document is used as recognition input. Unknown ALTO elements
 // and attributes are retained.
-func prepareAltoForOCR(altoPath, imageName string) error {
+func prepareAltoForOCR(altoPath, imageName string) (bool, error) {
 	doc := etree.NewDocument()
 	if err := doc.ReadFromFile(altoPath); err != nil {
-		return err
+		return false, err
+	}
+	lines := doc.FindElements("//TextLine")
+	if len(lines) == 0 {
+		return false, nil
 	}
 
 	fileName := doc.FindElement("//fileName")
 	if fileName == nil {
-		return fmt.Errorf("ALTO has no sourceImageInformation/fileName element")
+		return false, fmt.Errorf("ALTO has no sourceImageInformation/fileName element")
 	}
 	fileName.SetText(imageName)
 
@@ -202,7 +210,11 @@ func prepareAltoForOCR(altoPath, imageName string) error {
 		block.Parent().RemoveChild(block)
 	}
 
-	for _, line := range doc.FindElements("//TextLine") {
+	for _, line := range lines {
+		if !validBaselinePoints(line.SelectAttrValue("BASELINE", "")) {
+			return false, fmt.Errorf("text line %q has no valid baseline", line.SelectAttrValue("ID", ""))
+		}
+
 		// A line TAGREFS makes Kraken enter multi-model recognition. This rule
 		// applies one model to every line, so do not expose line tags as model
 		// selectors in the staged input. Region tags remain unchanged.
@@ -221,7 +233,7 @@ func prepareAltoForOCR(altoPath, imageName string) error {
 		if !validPolygonPoints(points) {
 			x, y, width, height, ok := boundingBox(line)
 			if !ok {
-				return fmt.Errorf("text line %q has no valid polygon or bounding box", line.SelectAttrValue("ID", ""))
+				return false, fmt.Errorf("text line %q has no valid polygon or bounding box", line.SelectAttrValue("ID", ""))
 			}
 			points = fmt.Sprintf("%g %g %g %g %g %g %g %g %g %g",
 				x, y, x+width, y, x+width, y+height, x, y+height, x, y)
@@ -237,7 +249,10 @@ func prepareAltoForOCR(altoPath, imageName string) error {
 	}
 
 	doc.Indent(2)
-	return doc.WriteToFile(altoPath)
+	if err := doc.WriteToFile(altoPath); err != nil {
+		return false, err
+	}
+	return len(lines) > 0, nil
 }
 
 func hasValidBoundary(element *etree.Element) bool {
@@ -285,6 +300,19 @@ func validPolygonPoints(points string) bool {
 		}
 	}
 	return len(xs) > 1 && len(ys) > 1
+}
+
+func validBaselinePoints(points string) bool {
+	fields := strings.Fields(strings.NewReplacer(",", " ", "(", " ", ")", " ").Replace(points))
+	if len(fields) < 4 || len(fields)%2 != 0 {
+		return false
+	}
+	for _, field := range fields {
+		if _, err := strconv.ParseFloat(field, 64); err != nil {
+			return false
+		}
+	}
+	return true
 }
 
 func runKrakenOCRReuseAlto(pairs [][2]string, ocrModel string) error {

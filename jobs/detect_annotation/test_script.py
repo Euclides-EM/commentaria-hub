@@ -56,7 +56,9 @@ class KrakenOCRTest(unittest.TestCase):
                 encoding="utf-8",
             )
 
-            script.prepare_alto_for_ocr(alto_path, Path("/images/page.png"))
+            self.assertTrue(
+                script.prepare_alto_for_ocr(alto_path, Path("/images/page.png"))
+            )
 
             tree = script.etree.parse(str(alto_path))
             self.assertEqual(
@@ -78,6 +80,51 @@ class KrakenOCRTest(unittest.TestCase):
             segmentation = XMLPage(alto_path, filetype="alto").to_container()
             self.assertTrue(segmentation.script_detection)
             self.assertEqual(segmentation.lines[0].tags, {"type": "default"})
+
+    def test_prepare_alto_for_ocr_skips_blank_page(self):
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            alto_path = Path(directory) / "page.xml"
+            alto_path.write_text(
+                '<alto><Description><sourceImageInformation><fileName>old.png</fileName>'
+                '</sourceImageInformation></Description><Layout><Page><PrintSpace>'
+                '<TextBlock HPOS="0" VPOS="0" WIDTH="100" HEIGHT="100"/>'
+                '</PrintSpace></Page></Layout></alto>',
+                encoding="utf-8",
+            )
+
+            self.assertFalse(
+                script.prepare_alto_for_ocr(alto_path, Path("/images/page.png"))
+            )
+
+    def test_model_ocr_does_not_launch_kraken_for_blank_page(self):
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            image_dir = root / "images"
+            alto_dir = root / "alto"
+            output_dir = root / "output"
+            image_dir.mkdir()
+            alto_dir.mkdir()
+            (image_dir / "page-0001.png").write_bytes(b"")
+            input_alto = (
+                '<alto><Description><sourceImageInformation><fileName>page-0001.png'
+                '></fileName></sourceImageInformation></Description><Layout><Page>'
+                '<PrintSpace><TextBlock HPOS="0" VPOS="0" WIDTH="100" HEIGHT="100"/>'
+                '</PrintSpace></Page></Layout></alto>'
+            )
+            (alto_dir / "page-0001.xml").write_text(input_alto, encoding="utf-8")
+
+            with patch.object(script, "run") as run:
+                script.model_ocr(image_dir, alto_dir, output_dir, Path("/missing/model.mlmodel"))
+
+            run.assert_not_called()
+            self.assertEqual(
+                (output_dir / "page-0001.xml").read_text(encoding="utf-8"),
+                input_alto,
+            )
 
 
 if __name__ == "__main__":

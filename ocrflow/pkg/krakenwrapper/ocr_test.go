@@ -29,8 +29,12 @@ func TestPrepareAltoForOCR(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	if err := prepareAltoForOCR(path, "page.png"); err != nil {
+	hasLines, err := prepareAltoForOCR(path, "page.png")
+	if err != nil {
 		t.Fatal(err)
+	}
+	if !hasLines {
+		t.Fatal("prepareAltoForOCR reported a nonblank page as blank")
 	}
 	output, err := os.ReadFile(path)
 	if err != nil {
@@ -63,8 +67,48 @@ func TestPrepareAltoForOCRRejectsLineWithoutGeometry(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	err := prepareAltoForOCR(path, "page.png")
+	_, err := prepareAltoForOCR(path, "page.png")
 	if err == nil || !strings.Contains(err.Error(), `text line "line-1" has no valid polygon or bounding box`) {
 		t.Fatalf("prepareAltoForOCR error = %v", err)
+	}
+}
+
+func TestPrepareAltoForOCRAllowsBlankPage(t *testing.T) {
+	path := filepath.Join(t.TempDir(), "page.xml")
+	input := `<alto><Description><sourceImageInformation><fileName>old.png</fileName></sourceImageInformation></Description><Layout><Page><PrintSpace><TextBlock HPOS="0" VPOS="0" WIDTH="100" HEIGHT="100"/></PrintSpace></Page></Layout></alto>`
+	if err := os.WriteFile(path, []byte(input), 0o644); err != nil {
+		t.Fatal(err)
+	}
+
+	hasLines, err := prepareAltoForOCR(path, "page.png")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if hasLines {
+		t.Fatal("prepareAltoForOCR reported a blank page as OCR input")
+	}
+}
+
+func TestRunPairsOCRSkipsBlankPage(t *testing.T) {
+	dir := t.TempDir()
+	imagePath := filepath.Join(dir, "page.png")
+	altoPath := filepath.Join(dir, "page.xml")
+	input := `<alto><Description><sourceImageInformation><fileName>page.png</fileName></sourceImageInformation></Description><Layout><Page><PrintSpace><TextBlock HPOS="0" VPOS="0" WIDTH="100" HEIGHT="100"/></PrintSpace></Page></Layout></alto>`
+	if err := os.WriteFile(imagePath, nil, 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(altoPath, []byte(input), 0o644); err != nil {
+		t.Fatal(err)
+	}
+
+	if err := runPairsOCRUsingExistingAlto([][2]string{{imagePath, altoPath}}, "/missing/model.mlmodel"); err != nil {
+		t.Fatal(err)
+	}
+	output, err := os.ReadFile(altoPath)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if string(output) != input {
+		t.Fatalf("blank ALTO changed during OCR pass-through:\n%s", output)
 	}
 }

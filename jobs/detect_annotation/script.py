@@ -264,8 +264,25 @@ def valid_polygon(points: str | None) -> bool:
     return len(xs) > 1 and len(ys) > 1
 
 
-def prepare_alto_for_ocr(alto_path: Path, image_path: Path) -> None:
+def valid_baseline(points: str | None) -> bool:
+    if not points:
+        return False
+    fields = points.replace(",", " ").replace("(", " ").replace(")", " ").split()
+    if len(fields) < 4 or len(fields) % 2:
+        return False
+    try:
+        [float(field) for field in fields]
+    except ValueError:
+        return False
+    return True
+
+
+def prepare_alto_for_ocr(alto_path: Path, image_path: Path) -> bool:
     tree = etree.parse(str(alto_path))
+    lines = xpath(tree, "//*[local-name()='TextLine']")
+    if not lines:
+        return False
+
     file_names = xpath(tree, "//*[local-name()='fileName']")
     if not file_names:
         raise RuntimeError(f"ALTO has no source image filename: {alto_path}")
@@ -281,7 +298,10 @@ def prepare_alto_for_ocr(alto_path: Path, image_path: Path) -> None:
             continue
         block.getparent().remove(block)
 
-    for line in xpath(tree, "//*[local-name()='TextLine']"):
+    for line in lines:
+        if not valid_baseline(line.get("BASELINE")):
+            raise RuntimeError(f"TextLine has no valid baseline: {line.get('ID', '')}")
+
         # Kraken interprets line TAGREFS as multi-model selectors. This rule
         # deliberately applies one recognition model to every line.
         line.attrib.pop("TAGREFS", None)
@@ -312,6 +332,7 @@ def prepare_alto_for_ocr(alto_path: Path, image_path: Path) -> None:
         polygon.set("POINTS", points)
 
     tree.write(str(alto_path), encoding="UTF-8", xml_declaration=True, pretty_print=True)
+    return bool(lines)
 
 
 def ensure_line_tag(tree: etree._ElementTree) -> None:
@@ -434,15 +455,18 @@ def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Pat
     copy_alto(alto_dir, output_dir)
     pairs: list[str] = []
     alto_paths = sorted(output_dir.glob("*.xml"))
+    ocr_paths: list[Path] = []
     for alto_path in alto_paths:
         img_path = image_dir / f"{alto_path.stem}.png"
         if not img_path.exists():
             raise FileNotFoundError(f"image not found for {alto_path.name}: {img_path}")
-        prepare_alto_for_ocr(alto_path, img_path)
+        if not prepare_alto_for_ocr(alto_path, img_path):
+            continue
+        ocr_paths.append(alto_path)
         pairs.extend(["-i", str(alto_path), str(alto_path) + ".ocr.tmp"])
     if pairs:
         run(kraken_ocr_command(pairs, model_path))
-        for final_path in alto_paths:
+        for final_path in ocr_paths:
             tmp = Path(str(final_path) + ".ocr.tmp")
             if not tmp.exists():
                 raise RuntimeError(f"Kraken did not produce OCR output: {tmp.name}")
@@ -453,7 +477,7 @@ def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Pat
             if file_names:
                 file_names[0].text = f"{final_path.stem}.png"
             tree.write(str(tmp), encoding="UTF-8", xml_declaration=True, pretty_print=True)
-        for final_path in alto_paths:
+        for final_path in ocr_paths:
             Path(str(final_path) + ".ocr.tmp").replace(final_path)
 
 
