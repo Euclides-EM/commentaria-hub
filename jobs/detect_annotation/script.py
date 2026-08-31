@@ -282,6 +282,10 @@ def prepare_alto_for_ocr(alto_path: Path, image_path: Path) -> None:
         block.getparent().remove(block)
 
     for line in xpath(tree, "//*[local-name()='TextLine']"):
+        # Kraken interprets line TAGREFS as multi-model selectors. This rule
+        # deliberately applies one recognition model to every line.
+        line.attrib.pop("TAGREFS", None)
+
         polygons = xpath(line, "./*[local-name()='Shape']/*[local-name()='Polygon']")
         polygon = polygons[0] if polygons else None
         if polygon is not None and valid_polygon(polygon.get("POINTS")):
@@ -410,6 +414,22 @@ def model_segment(image_dir: Path, output_dir: Path, model_path: Path) -> None:
         list(pool.map(process_shard, image_shards))
 
 
+def kraken_ocr_command(pairs: list[str], model_path: Path) -> list[str]:
+    return [
+        "kraken",
+        "--alto",
+        "--format-type",
+        "alto",
+        "--raise-on-error",
+        "-d",
+        "cuda:0",
+        *pairs,
+        "ocr",
+        "-m",
+        f"default:{model_path}",
+    ]
+
+
 def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Path) -> None:
     copy_alto(alto_dir, output_dir)
     pairs: list[str] = []
@@ -421,19 +441,7 @@ def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Pat
         prepare_alto_for_ocr(alto_path, img_path)
         pairs.extend(["-i", str(alto_path), str(alto_path) + ".ocr.tmp"])
     if pairs:
-        run([
-            "kraken",
-            "--alto",
-            "--format-type",
-            "alto",
-            "--raise-on-error",
-            "-d",
-            "cuda:0",
-            *pairs,
-            "ocr",
-            "-m",
-            str(model_path),
-        ])
+        run(kraken_ocr_command(pairs, model_path))
         for final_path in alto_paths:
             tmp = Path(str(final_path) + ".ocr.tmp")
             if not tmp.exists():

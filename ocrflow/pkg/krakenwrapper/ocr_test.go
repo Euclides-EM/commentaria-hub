@@ -15,7 +15,7 @@ func TestKrakenOCRReuseAltoArgsUsesExistingALTO(t *testing.T) {
 		"--alto", "--format-type", "alto", "--raise-on-error",
 		"--device", krakenDeviceArg(),
 		"-i", "/tmp/page.xml", "/tmp/page.xml.ocr.tmp",
-		"ocr", "-m", "/tmp/model.mlmodel",
+		"ocr", "-m", "default:/tmp/model.mlmodel",
 	}
 	if !reflect.DeepEqual(got, want) {
 		t.Fatalf("Kraken OCR args = %q, want %q", got, want)
@@ -24,7 +24,7 @@ func TestKrakenOCRReuseAltoArgsUsesExistingALTO(t *testing.T) {
 
 func TestPrepareAltoForOCR(t *testing.T) {
 	path := filepath.Join(t.TempDir(), "page.xml")
-	input := `<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#"><Description><sourceImageInformation><fileName>old.png</fileName></sourceImageInformation></Description><Layout><Page><PrintSpace><TextBlock ID="empty"/><TextBlock ID="content" HPOS="0" VPOS="0" WIDTH="100" HEIGHT="100"><TextLine ID="line-1" HPOS="10" VPOS="20" WIDTH="30" HEIGHT="40" BASELINE="10 50 40 50"/></TextBlock></PrintSpace></Page></Layout></alto>`
+	input := `<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#"><Description><sourceImageInformation><fileName>old.png</fileName></sourceImageInformation></Description><Layout><Page><PrintSpace><TextBlock ID="empty"/><TextBlock ID="content" TAGREFS="region-main" HPOS="0" VPOS="0" WIDTH="100" HEIGHT="100"><TextLine ID="line-1" TAGREFS="line-default" HPOS="10" VPOS="20" WIDTH="30" HEIGHT="40" BASELINE="10 50 40 50"/></TextBlock></PrintSpace></Page></Layout></alto>`
 	if err := os.WriteFile(path, []byte(input), 0o644); err != nil {
 		t.Fatal(err)
 	}
@@ -47,6 +47,12 @@ func TestPrepareAltoForOCR(t *testing.T) {
 	}
 	if strings.Contains(text, `ID="empty"`) {
 		t.Errorf("prepared ALTO retains invalid empty block: %s", text)
+	}
+	if strings.Contains(text, `TAGREFS="line-default"`) {
+		t.Errorf("prepared ALTO retains line model-selection tag: %s", text)
+	}
+	if !strings.Contains(text, `TAGREFS="region-main"`) {
+		t.Errorf("prepared ALTO removed region tag: %s", text)
 	}
 }
 

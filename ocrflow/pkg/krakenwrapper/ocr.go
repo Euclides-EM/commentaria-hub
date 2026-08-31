@@ -203,6 +203,11 @@ func prepareAltoForOCR(altoPath, imageName string) error {
 	}
 
 	for _, line := range doc.FindElements("//TextLine") {
+		// A line TAGREFS makes Kraken enter multi-model recognition. This rule
+		// applies one model to every line, so do not expose line tags as model
+		// selectors in the staged input. Region tags remain unchanged.
+		line.RemoveAttr("TAGREFS")
+
 		shape := line.SelectElement("Shape")
 		var polygon *etree.Element
 		if shape != nil {
@@ -312,7 +317,9 @@ func krakenOCRReuseAltoArgs(pairs [][2]string, ocrModel string) []string {
 	for _, pair := range pairs {
 		args = append(args, "-i", pair[1], tmpOcredPath(pair[1]))
 	}
-	return append(args, "ocr", "-m", ocrModel)
+	// Kraken 5.3 marks XML input as tag-aware even when it has no custom line
+	// tags. Map its normalized "default" line type explicitly to this model.
+	return append(args, "ocr", "-m", "default:"+ocrModel)
 }
 
 func tmpOcredPath(finalAltoPath string) string {

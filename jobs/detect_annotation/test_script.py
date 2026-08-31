@@ -30,6 +30,13 @@ class WorkerHelpersTest(unittest.TestCase):
 
 
 class KrakenOCRTest(unittest.TestCase):
+    def test_command_maps_default_line_type_to_model(self):
+        command = script.kraken_ocr_command(
+            ["-i", "/tmp/page.xml", "/tmp/page.ocr.xml"],
+            Path("/tmp/model.mlmodel"),
+        )
+        self.assertEqual(command[-3:], ["ocr", "-m", "default:/tmp/model.mlmodel"])
+
     def test_prepare_alto_for_ocr_repairs_geometry_and_image_path(self):
         from tempfile import TemporaryDirectory
 
@@ -38,9 +45,12 @@ class KrakenOCRTest(unittest.TestCase):
             alto_path.write_text(
                 '<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#"><Description>'
                 '<sourceImageInformation><fileName>old.png</fileName>'
-                '</sourceImageInformation></Description><Layout><Page><PrintSpace>'
+                '</sourceImageInformation></Description><Layout>'
+                '<Page WIDTH="100" HEIGHT="100"><PrintSpace HPOS="0" VPOS="0" '
+                'WIDTH="100" HEIGHT="100">'
                 '<TextBlock ID="empty"/><TextBlock HPOS="0" VPOS="0" WIDTH="100" '
-                'HEIGHT="100"><TextLine ID="line-1" HPOS="10" VPOS="20" '
+                'HEIGHT="100" TAGREFS="region-main"><TextLine ID="line-1" '
+                'TAGREFS="line-default" HPOS="10" VPOS="20" '
                 'WIDTH="30" HEIGHT="40" BASELINE="10 50 40 50"/></TextBlock>'
                 '</PrintSpace></Page></Layout></alto>',
                 encoding="utf-8",
@@ -58,7 +68,16 @@ class KrakenOCRTest(unittest.TestCase):
                 line, "./*[local-name()='Shape']/*[local-name()='Polygon']"
             )[0]
             self.assertEqual(polygon.get("POINTS"), "10 20 40 20 40 60 10 60 10 20")
+            self.assertIsNone(line.get("TAGREFS"))
+            block = script.xpath(tree, "//*[local-name()='TextBlock' and @TAGREFS]")[0]
+            self.assertEqual(block.get("TAGREFS"), "region-main")
             self.assertFalse(script.xpath(tree, "//*[@ID='empty']"))
+
+            from kraken.lib.xml import XMLPage
+
+            segmentation = XMLPage(alto_path, filetype="alto").to_container()
+            self.assertTrue(segmentation.script_detection)
+            self.assertEqual(segmentation.lines[0].tags, {"type": "default"})
 
 
 if __name__ == "__main__":
