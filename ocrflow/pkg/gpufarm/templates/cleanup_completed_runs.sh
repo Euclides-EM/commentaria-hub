@@ -1,6 +1,28 @@
 set -euo pipefail
 root={{shellquote .JobRoot}}
 keep={{.CompletedRunsToKeep}}
+low_space_threshold_percent=90
+
+human_bytes() {
+  numfmt --to=iec --suffix=B --format=%.1f -- "$1"
+}
+
+read_storage() {
+  read -r total_bytes used_bytes available_bytes usage_percent < <(
+    df -B1 --output=size,used,avail,pcent "$root" | tail -n 1
+  )
+  usage_number="${usage_percent%%%}"
+  total_human="$(human_bytes "$total_bytes")"
+  used_human="$(human_bytes "$used_bytes")"
+  available_human="$(human_bytes "$available_bytes")"
+}
+
+warn_if_low_space() {
+  local stage="$1"
+  if (( usage_number >= low_space_threshold_percent )); then
+    echo "level=warning reason=low_space stage=$stage root=$root used=$used_human total=$total_human available=$available_human usage=$usage_percent threshold=${low_space_threshold_percent}%"
+  fi
+}
 
 # Do not clean anything if Slurm cannot tell us which work directories are
 # active. Skipping cleanup is safer than deleting a running job's files.
@@ -9,8 +31,16 @@ if ! active_output="$(squeue -h -u "$USER" -o '%i|%Z')"; then
   exit 0
 fi
 
-read -r used_before available_before < <(df -B1 --output=used,avail "$root" | tail -n 1)
-echo "status=started root=$root used_bytes=$used_before available_bytes=$available_before keep_completed_per_job=$keep"
+read_storage
+total_before=$total_bytes
+used_before=$used_bytes
+available_before=$available_bytes
+usage_before=$usage_percent
+total_before_human=$total_human
+used_before_human=$used_human
+available_before_human=$available_human
+echo "status=started root=$root used=$used_before_human total=$total_before_human available=$available_before_human usage=$usage_before used_bytes=$used_before available_bytes=$available_before keep_completed_per_job=$keep"
+warn_if_low_space before_cleanup
 
 declare -A active_by_dir=()
 while IFS='|' read -r job_id work_dir; do
@@ -68,13 +98,23 @@ for job_dir in "${job_dirs[@]}"; do
 	  )"
 	fi
 	run_bytes="$(du -sb "$run_dir" | cut -f1)"
+	run_human="$(human_bytes "$run_bytes")"
 	rm -rf -- "$run_dir"
 	((deleted_runs += 1))
 	((deleted_bytes += run_bytes))
-	echo "deleted reason=$delete_reason run_dir=$run_dir job_ids=${job_ids:-unknown} bytes=$run_bytes"
+	echo "deleted reason=$delete_reason run_dir=$run_dir job_ids=${job_ids:-unknown} size=$run_human bytes=$run_bytes"
   done
 done
 
-read -r used_after available_after < <(df -B1 --output=used,avail "$root" | tail -n 1)
+read_storage
+used_after=$used_bytes
+available_after=$available_bytes
+usage_after=$usage_percent
+total_after_human=$total_human
+used_after_human=$used_human
+available_after_human=$available_human
 reclaimed_bytes=$((used_before - used_after))
-echo "status=completed deleted_runs=$deleted_runs deleted_abandoned=$deleted_abandoned deleted_retention=$deleted_retention deleted_bytes=$deleted_bytes reclaimed_bytes=$reclaimed_bytes used_bytes=$used_after available_bytes=$available_after"
+deleted_human="$(human_bytes "$deleted_bytes")"
+reclaimed_human="$(human_bytes "$reclaimed_bytes")"
+echo "status=completed deleted_runs=$deleted_runs deleted_abandoned=$deleted_abandoned deleted_retention=$deleted_retention deleted=$deleted_human reclaimed=$reclaimed_human used=$used_after_human total=$total_after_human available=$available_after_human usage=$usage_after deleted_bytes=$deleted_bytes reclaimed_bytes=$reclaimed_bytes used_bytes=$used_after available_bytes=$available_after"
+warn_if_low_space after_cleanup

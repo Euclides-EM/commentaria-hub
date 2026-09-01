@@ -35,6 +35,24 @@ func TestCleanupScriptReportsRetentionDecisions(t *testing.T) {
 	}
 }
 
+func TestCleanupScriptReportsHumanReadableStorageAndLowSpaceWarnings(t *testing.T) {
+	script, err := renderCleanupCompletedRunsScript("/tmp/jobs", 3)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, expected := range []string{
+		"used=$used_before_human total=$total_before_human available=$available_before_human usage=$usage_before",
+		"size=$run_human bytes=$run_bytes",
+		"deleted=$deleted_human reclaimed=$reclaimed_human",
+		"level=warning reason=low_space",
+		"low_space_threshold_percent=90",
+	} {
+		if !strings.Contains(script, expected) {
+			t.Fatalf("cleanup script lacks %q", expected)
+		}
+	}
+}
+
 func TestDiscardRejectsPathsOutsideDirectJobRunDirectory(t *testing.T) {
 	s := NewSubmitterSlurm("unused", "/remote/jobs")
 	for _, runDir := range []string{
