@@ -86,7 +86,7 @@ Paris_1654,Euclidis elementorum geometricorum libri,Provided by catalog,1654,Par
 Rome_1655,Euclidis sex primi elementorum geometricorum libri cum parte vndecimi ex maioribus Clavuii commentarijs in commodiorem formam contracti. Rerumque mathematicarum Christophori Grienbergeri Oenohallensis è Societate Iesu opusculum primum. Accessere Isaaci Monachi In sex eosdem libros scholia,Provided by catalog,1655,Rome,LATIN,"Christopher Clavius, Christoph Grienberger",Nicolai Angeli Tinassij,12,1,-,,
 Lyon_1674,,,1674,Lyon,LATIN,Claude-François Milliet Dechales,Anisson,4,3,,,
 Frankfurt_1607,"Elementorum libri 15, accessit Liber XVI",Provided by catalog,1607,Frankfurt,LATIN,Christopher Clavius,Nikolaus Hoffmann,8,1,,,
-London_1654,,,1654,London,LATIN,Georges Fournier,Edwardi Story,12,1,,,
+London_1654,Euclides: Sex primi elementorum geometricorum libri,Provided by catalog,1654,London,LATIN,Georges Fournier,Edwardi Story,12,1,,,
 Cambridge_1665,"Euclidis sex primi Elementorum geometricorum libri, commodiùs demonstrati. A.P. Georg. Fournier è societate Jesu. Accesserunt elementa astronomica, ubi Theodosii Tripolitæ sphæricorum libri tres, & universa triangulorum resolutio demonstrantur per Johannem Baptistam Duhamel, Mathesews Professorem.",Provided by catalog,1665,Cambridge,LATIN,Georges Fournier,,12,1,3083853,"digital copy exist, but doesn;t contain title page...",
 Würzburg_1661,"Cursus mathematicus, sive Absoluta omnium mathematicarum disciplinarum encyclopaedia",Specified in source,1661,Würzburg,LATIN,Gaspar Schott,Job Hertz,2,1,,,
 Graz_1636,Euclidis sex primi elementorum geometricorum libri cum parte undecimi ex majoribus Clavij commentarijs in commodiorem forma contracti,Specified in source,1636,Graz,LATIN,"Christopher Clavius, Christoph Grienberger, Jacobus Honoratus Durandus",Heirs of Ernst Widmanstetter,12,1,-,,
@@ -185,7 +185,7 @@ Paris_1632,Les quinze livres des éléments géométriques d'Euclide,Provided by
 Paris_1632a,,,1632,Paris,FRENCH,Pierre Le Mardelé,Denys Moreau,8,1,,,
 Rotterdam_1632,,,1632,Rotterdam,DUTCH,Jan Pietersz Dou,,8,1,,,
 Hamburg_1633,,,1633,Hamburg,DUTCH,Jacob Willemsz,Volrad Gaubisch,4,1,-,,
-Paris_1634,Cursus mathematicus,Specified in source,1634,Paris,"FRENCH, LATIN",Pierre Hérigone,Henri Le Gras,8,6,,"[ME]: Bilingual edition: Either ""cursus mathematicus"" or ""cours mathematique"". ",
+Paris_1634,Cursus mathematicus,Specified in source,1634,Paris,"FRENCH, LATIN",Pierre Hérigone,Henri Le Gras,8,1,,"[ME]: Bilingual edition: Either ""cursus mathematicus"" or ""cours mathematique"". ",
 Alcala_1637,,,1637,Alcala,"DUTCH, LATIN",Luis Carducci,,4,1,,,
 Hamburg_1638,,,1638,Hamburg,DUTCH,Jacob Willemsz,Hendrik Werner,4,1,-,,
 Paris_1639,"Les Six premiers livres des Éléments d'Euclide, démonstrez par notes d'une méthode très briève et intelligible,... par Pierre Hérigone,...",Provided by catalog,1639,Paris,FRENCH,Pierre Hérigone,Henri Le Gras,8,1,,,
@@ -216,7 +216,7 @@ Rouen_and_Paris_1685,"Les quinze livres des Elemens geometriques d'Euclide; et s
 The_Hague_1690,,,1690,The Hague,FRENCH,Jacques Rohault,Henry van Bulderen,12,3,,,
 Leiden_1691,Euclidis Elementorum Sex Libri Priores Demonstrati,Specified in source,1691,Leiden,LATIN,Henrick Coets,Daniel van Gaesbeek,4,1,-,,
 Leiden_1692,,,1692,Leiden,LATIN,Henrick Coets,Daniel van Gaesbeek,4,1,-,,
-Paris_1693,Cours de mathematique,Specified in source,1693,Paris,FRENCH,Jacques Ozanam,Jean Jombert,8,5,,"Ozanam's ""The Elemens"" is part of the ""Cours de mathematique"", which is a compendium of mathematical treatises forming parts of a course.",
+Paris_1693,Cours de mathematique,Specified in source,1693,Paris,FRENCH,Jacques Ozanam,Jean Jombert,8,1,,"Ozanam's ""The Elemens"" is part of the ""Cours de mathematique"", which is a compendium of mathematical treatises forming parts of a course.",
 Vienna_1694,Teutsch-Redender Euclides,Specified in source,1694,Vienna,GERMAN,Anton Ernst Burckhard von Pirckenstein,Philipp Fievets,4,1,-,Author's name: PIRCKENSTEIN (or BIRCKENSTEIN).,
 Amsterdam_1695,,,1695,Amsterdam,DUTCH,Claas Janszen Vooght,Johannes van Keulen,4,1,-,,
 Amsterdam_1697,,,1697,Amsterdam,FRENCH,Jacques Ozanam,George Gallet,8,5,,,
@@ -365,7 +365,8 @@ Turin_1671,Evclides adavctvs et methodicvs Mathematicaq. vniversalis,Specified i
 Amsterdam_1672,,,1672,Amsterdam,DUTCH,Georg Mohr,,,,,,True
 Valencia_1673,Euclidem novo antiquum singulari methodo illustratum,Provided by catalog,1673,Valencia,LATIN,José Zaragoza,Jerónimo Villagrasa,4,1,5053285,,False
 Florence_1674,"Quinto Libro degli Elementi di Euclide, ovvero Scienza Universale delle Proporzioni spiegata colla dottrina del Galileo",Specified in source,1674,Florence,ITALIAN,Vincenzo Viviani,,,1,,,True
-London_1678a,Euclidis Elementa Geometrica Novo Ordine ac Methodo fere demonstrata,Specified in source,1678,London,LATIN,Nicholas Mercator,Martyn,,1,,,True
+London_1678a,Euclidis Elementa Geometrica Novo Ordine ac Methodo fere demonstrata,Specified in source,1678,London,LATIN,Nicholas Mercator,Martyn,,1,,"https://catalogue.bnf.fr/ark:/12148/cb39315109x
+",True
 Rome_1679,"Euclides restitutus, sive prisca geometriae elementa",Specified in source,1679,Rome,LATIN,Giovanni Alfonso Borelli,Mascardi,12,1,1704068,,False
 The_Hague_1683,Nouveaux Élémens de géométrie,Specified in source,1683,The Hague,FRENCH,Antoine Arnauld,,,1,,,True
 Paris_1689,"Nouveaux elemens des mathematiques, ou principes generaux de toutes les sciences qui ont les grandeurs pour objet",Specified in source,1689,Paris,FRENCH,Jean Prestet,,,1,,,True
