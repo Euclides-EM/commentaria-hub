@@ -137,6 +137,9 @@ func (h *Handlers) ServeDatasetImage(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Header().Set("Content-Type", contentType)
-	w.Header().Set("Cache-Control", "public, max-age=86400")
+	// Image filenames are stable and uploads can replace their contents. Force
+	// clients to revalidate so a page reload cannot resurrect the image that was
+	// cached before the replacement.
+	w.Header().Set("Cache-Control", "no-cache")
 	http.ServeFile(w, r, imgPath)
 }
