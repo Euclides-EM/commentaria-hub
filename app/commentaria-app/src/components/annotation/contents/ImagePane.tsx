@@ -138,10 +138,10 @@ export function ImagePane({
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const replaceImageMutation = useReplaceDatasetImageMutation()
   const hasPages = hasAnnotationPages(annotation)
-  const isKeyNavigation = !!annotation && !hasPages
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     datasetId,
-    isKeyNavigation,
+    !!annotation,
+    [String(currentPageOrKey)],
   )
   const matchedImage = findMatchingImage(String(currentPageOrKey), imageKeys)
   const currentImageName = matchedImage?.key || String(currentPageOrKey)
@@ -164,13 +164,13 @@ export function ImagePane({
     datasetId,
     normalizedKey,
     'preview',
-    imageVersion,
+    `${matchedImage?.modifiedAt || 'pending'}-${imageVersion}`,
   )
   const originalImageUrl = buildDatasetImageUrl(
     datasetId,
     normalizedKey,
     'original',
-    imageVersion,
+    `${matchedImage?.modifiedAt || 'pending'}-${imageVersion}`,
   )
 
   const {

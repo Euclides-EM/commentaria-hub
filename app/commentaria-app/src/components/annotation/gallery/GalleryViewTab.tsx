@@ -927,16 +927,21 @@ export function GalleryViewTab() {
 
   const makeGetVariantUrl = (pageOrKey: string) => {
     const num = Number(pageOrKey)
+    const matched = findMatchingImage(pageOrKey, imageKeys)
     let normalizedKey: string
     if (!Number.isNaN(num) && Number.isInteger(num)) {
       normalizedKey = `page-${String(num).padStart(4, '0')}.png`
     } else {
-      const matched = findMatchingImage(pageOrKey, imageKeys)
       normalizedKey = matched?.filename || ''
     }
     if (!normalizedKey) return null
     return (variant: DatasetImageVariant) =>
-      buildDatasetImageUrl(datasetId, normalizedKey, variant)
+      buildDatasetImageUrl(
+        datasetId,
+        normalizedKey,
+        variant,
+        matched?.modifiedAt || 'pending',
+      )
   }
 
   const cardWidth = viewMode === 'side-by-side' ? cardSize * 2 : cardSize

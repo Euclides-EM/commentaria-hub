@@ -4,7 +4,7 @@ export function buildDatasetImageUrl(
   datasetId: string,
   imageIdentifier: string,
   variant: DatasetImageVariant,
-  imageVersion?: number,
+  imageVersion?: string | number,
 ) {
   const url = new URL(
     `${import.meta.env.VITE_BACKEND_URL}/api/v1/datasets/${encodeURIComponent(datasetId)}/images/${encodeURIComponent(imageIdentifier)}`,
