@@ -216,25 +216,25 @@ func (a *AnnotationsUploader) UploadToCommentaria(datasetID string, id string, c
 		return nil, fmt.Errorf("failed to authenticate to commentaria: %w", err)
 	}
 
-	localFacsimile, err := a.datasetSvc.facsimileSvc.GetFacsimile(ds.FacsimileID)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get local facsimile for commentaria upload: %w", err)
-	}
-
-	facsimilies, err := c.GetFacsimilesByEditionID(ds.EditionID)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get facsimilies from commentaria: %w", err)
-	}
-	if len(facsimilies) == 0 {
-		return nil, fmt.Errorf("no facsimilies found in commentaria for dataset %s", ds.ID)
-	}
-	facsimile, err := matchingCommentariaFacsimile(ds.EditionID, localFacsimile, facsimilies)
-	if err != nil {
-		return nil, err
-	}
-	ds.FacsimileID = facsimile.ID
-
 	if cbu.DatasetID == "" {
+		localFacsimile, err := a.datasetSvc.facsimileSvc.GetFacsimile(ds.FacsimileID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get local facsimile for commentaria upload: %w", err)
+		}
+
+		facsimilies, err := c.GetFacsimilesByEditionID(ds.EditionID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get facsimilies from commentaria: %w", err)
+		}
+		if len(facsimilies) == 0 {
+			return nil, fmt.Errorf("no facsimilies found in commentaria for dataset %s", ds.ID)
+		}
+		facsimile, err := matchingCommentariaFacsimile(ds.EditionID, localFacsimile, facsimilies)
+		if err != nil {
+			return nil, err
+		}
+		ds.FacsimileID = facsimile.ID
+
 		log.Printf("creating dataset in commentaria instance %s for dataset %s (%s)", cbu.BasePath, ds.Name, ds.ID)
 		remoteDs, err := c.CreateDataset(ds)
 		if err != nil {
