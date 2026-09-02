@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 80]*
+<!-- Folio: 80 -->
 
 *[Margin: 32]*
 
@@ -26,4 +26,4 @@ Sed iam sit angulus qui ad γ, rectus: & opportunum sit: rursus super α β desc
 
 *[Figure: three diagrams side by side for the three cases of the problem: each a circle α β ε with η at top, centre marks, base α β bisected at ζ, tangent line α δ at α, perpendicular α ε; at the side of each the given angle γ]*
 
-*[Catchword: æqualis]*
+<!-- Catchword: æqualis -->

@@ -1,6 +1,6 @@
-# LIBER DECIMVSQVARTVS
+<!-- # LIBER DECIMVSQVARTVS -->
 
-*[Folio: 453]*
+<!-- Folio: 453 -->
 
 tione lineæ secundum proportionem medium duoqꝫ extrema diuisæ & ea parte 16 sexti, quod illud quod fit ex a b in b c, est æquale quadrato a c, eodēqꝫ modo quod fit ex d e in e f, est æquale quadrato d f. ideoqꝫ proportio eius quod fit ex a b in b c, ad quadratum a c est sicut eius quod fit ex d e in e f ad quadratum d f, utraque enim est ꝓportio æqualitatis. Igitur quadruplū eius quod fit ex a b in b c ad quadratum a c, sicut quadruplum eius quod fit ex d e in e f ad quadratū d f, quod ex 15 quinti & permutata & æqua proportionalitate manifestū est. Quare coniunctim quadruplum eius quod fit ex a b in b c cū quadrato a c, ad quadratū a c, sicut quadruplū eius quod fit ex d e, in e f cū quadrato d f, ad quadratū d f. Adiūgatur autē secundū rectitudinē ad lineam a b, una linea quæ sit æqualis b c, quæ dicatur b g, & ad d e adiungatur æqualis e f, quæ dicatur e h. Manifestū est igitur ex octaua secundi, quod quadruplū eius quod fit ex a b in b g cum quadrato a e *[sic: for a c]*, est æquale quadrato lineæ a g. At uero similiter quadruplū eius quod fit ex d e in c h *[sic: for e h]* cū quadrato d f, est æquale quadrato d h. At uero ex communi sciētia quadruplū eiusꝙ fit ex a b in b c æquū est quadruplo eiusꝙ fit ex a b in b g, eoꝙ b c & b g sūt æquales, similiter quoqꝫ quadruplū eius ꝙ fit ex d e in e f, æquū est quadruplo eiꝰ qꝺ fit ex d e in e h, eo quod e f & e h sunt etiā æquales. Igitur ex prīa parte 7 quinti & ex 11 quinti quadratū a g ad quadratū a c. sicut quadratum d h ad quadratm *[sic]* d f. Quare ex secunda parte 11 sexti, proportio lineæ a g ad lineā a c est sicut lineæ d h ad lineā d f, & coniunctim a g & a c ad a c, sicut d h & d f ad d f. At uero a g cum a c, sunt taquam *[sic]* duplum a b, & d cum d f *[sic: for d h cum d f]*, tāquam duplum d e. Quare dupla a b ad a c, sicut duplū d c *[sic: for d e]* ad d f & permutatim duplum a b ad duplum d e sicut a c ad d f. Sed duplum a b ad duplum d e. sicut a b ad d e ex 15 quinti. Igitur a b ad d e, sicut a c ad d f. Itaque permutatim & euersim & conuersim & disiunctim & coniunctim. Quod oportebat ostendere.
 
@@ -14,4 +14,4 @@ CAMPANVS Sit linea a b latus hexagoni alicuius circuli diuisa secundū proportio
 
 *[Figure: two horizontal lines: the upper marked with the points a, c, b, d; the lower with the points f, g, e]*
 
-*[Catchword: æquum]*
+<!-- Catchword: æquum -->

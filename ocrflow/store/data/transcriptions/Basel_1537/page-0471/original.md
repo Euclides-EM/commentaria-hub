@@ -1,6 +1,6 @@
-*[Folio: 460]*
+<!-- Folio: 460 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 Quod est propositū. Non solum autē est proportio e g lateris cubi ad d f latus trianguli icosedri sicut h ad k, immo simpliciter sicut quarūlibet duarū linearū unius ad alteram, quarū altera potest super totam quālibet lineam diuisam secūdum proportionē habentē medium duoq́ⱼ extrema & super eius maiorem portionē, altera uero super totam & eius minorē portionē, nam singularū linearū talium est proportio una. Verbi gratia, maneāt priores hypotheses circa lineas a b, h, & k, & sumatur quoq́ⱼ quaelibet alia linea quae sit l m, diuisa secundum proportionē habentem medium duoq́ⱼ extrema in n, & portio maior sit l n, sitq́ⱼ linea p potens super totam l m & eius maiorē portionē l n, & linea q sit potens super totam l m & eius minorē portionē m n. Dico ergo q̃ proportio p ad q, est sicut h ad k. Constat enim ex 2 huius, q̃ b a ad a c, est sicut l m ad l n, ergo per primam partem 22 sexti, quadrati b a ad quadratū a c, est sicut quadrati m l ad quadratū n l, quare coniunctim quadrati h ad quadratū a c, sicut quadrati p ad quadratū l n, & permutatim quadrati h ad quadratū p, sicut quadrati a c ad quadratū l n. Eodem argumētationis genere sequitur q̃ proportio quadrati k ad quadratū q, est sicut quadrati c b ad quadratū n m. Et quia ex 2 huius & prima parte 22 sexti, quadratū c a ad quadratum l n, sicut quadratū c b ad quadratū m n, erit ex 11 quinti quadratū h ad quadratū p, sicut quadratū k ad quadratū q. quare per secūdam partē 22 sexti h ad p, sicut k ad q. Et permutatim h ad k, sicut p ad q. Quod erat demonstrandū. Et ne quid dubitationis locus ea quæ demōstranda restant obfuscet, praemittenda adhuc duximus quæ dam, quibus sequentia firmo demonstrationis robore inconcussa permanent.
 
@@ -18,4 +18,4 @@ Si in sphæra aliqua fuerint circuli æquales, perpēdiculares ductæ à centro 
 
 Sint in sphæra cuius centrum a, signati duo circuli b & c æqualis, quorū superficies
 
-*[Catchword: protra-]*
+<!-- Catchword: protra- -->

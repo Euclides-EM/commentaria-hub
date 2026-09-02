@@ -1,6 +1,6 @@
-# LIBER DECIMVSQVINTVS
+<!-- # LIBER DECIMVSQVINTVS -->
 
-*[Folio: 477]*
+<!-- Folio: 477 -->
 
 duobus pentagonis à quorum centris ueniunt cōmune per æqualia. Has igitur perpendiculares binas & binas usq̃ ad angulos quibus cōe latus in quo coeunt oppositū per centra pentagonorū producito, & eisdē angulis duas lineas subtēdito, quas ex demōstratione 17 tredecimi manifestum est esse tanquam latus cubi ab eadem sphæra cū proposito dodecedro circunscriptibili, ideoq̃ patet eas esse æquales, eo quod omnia latera cubi sint æqualia easdēq̃ liquet ex nona undecimi esse æquidistantes: propter hoc quod ambæ æquidistāt cōmuni lateri in quo binæ & binæ perpendiculares cōueniunt. At uero ipsas easdē cōstat ex his perpendicularibus per æqualia diuidi. Itaque per 33 primi cūctæ lineæ cōtinuantes puncta in quibus binæ & binæ perpendiculares super has lineas quas tāquā cubi latera fore diximus, cōcurrunt sunt adinuicē æquales: nam omnes sunt tanquā latus cubi. Igitur ex octaua primi, anguli contenti à binis perpendicularibus, sunt æquales. Quare per 4 eiusdē, lineæ quoq̃ cōtinuantes centra pentagonorum sunt sibiīnuicem æquales: inscriptū ergo est proposito dodecedro corpus uiginti basium triangularium & æqualium laterum sicut iussi eramus.
 
@@ -28,4 +28,4 @@ Ntra assignatum dodecedron, pyramidem quatuor basium triangularium atq̃ æquila
 
 CAMPANVS Assignato dodecedro inscribe cubū ex 8 huius, cuboq̃ pyramidem ex prima. Cum igitur anguli pyramidis sint in angulis cubi ut patet ex ratiocinatione primæ, & anguli cubi in angulis dodecedri ex ratiocinatione octauæ: erūt quoque anguli pyramidis in angulis dodecedri, itaque cōstat q̃ uolumus.
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

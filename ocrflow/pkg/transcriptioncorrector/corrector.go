@@ -10,6 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 )
 
 const DefaultRounds = 2
@@ -30,7 +32,7 @@ type Config struct {
 
 // Executor is the subset of the shared LLM client used by the corrector.
 type Executor interface {
-	ExecWithLogLabel(provider, model, prompt, attachmentPath, logLabel string) (string, error)
+	ExecPromptResultWithLogLabel(provider, model string, prompt llm.Prompt, attachmentPath, logLabel string) (llm.Result, error)
 }
 
 type page struct {
@@ -81,6 +83,10 @@ func Run(cfg Config, client Executor) error {
 	}
 
 	previousRound := make(map[string]string, len(pages))
+	var totalUsage llm.Usage
+	requestCount := 0
+	costReportCount := 0
+	cacheHealth := newCacheHealthTracker(cfg.Provider, cfg.Model)
 	for round := 1; round <= cfg.Rounds; round++ {
 		roundStarted := time.Now()
 		var previousPage string
@@ -104,11 +110,17 @@ func Run(cfg Config, client Executor) error {
 			}
 
 			prompt := buildPrompt(p.key, round, cfg.Rounds, promptCandidates, previousPage)
-			response, err := client.ExecWithLogLabel(cfg.Provider, cfg.Model, prompt, p.imagePath, fmt.Sprintf("round=%d page=%s", round, p.key))
+			result, err := client.ExecPromptResultWithLogLabel(cfg.Provider, cfg.Model, prompt, p.imagePath, fmt.Sprintf("round=%d page=%s", round, p.key))
 			if err != nil {
 				return fmt.Errorf("round %d page %s LLM correction failed: %w", round, p.key, err)
 			}
-			corrected, err := normalizeResponse(response)
+			requestCount++
+			totalUsage.Add(result.Usage)
+			cacheHealth.Observe(result.Usage, logger)
+			if result.Usage.CostUSD != nil {
+				costReportCount++
+			}
+			corrected, err := normalizeResponse(result.Text)
 			if err != nil {
 				return fmt.Errorf("round %d page %s invalid LLM response: %w", round, p.key, err)
 			}
@@ -140,7 +152,18 @@ func Run(cfg Config, client Executor) error {
 			return fmt.Errorf("write final output for %s: %w", p.key, err)
 		}
 	}
-	logger.Printf("complete pages=%d rounds=%d final_outputs=%s/page-NNNN/original.md", len(pages), cfg.Rounds, cfg.OutputDir)
+	cost := "unavailable"
+	if requestCount > 0 && costReportCount == requestCount && totalUsage.CostUSD != nil {
+		cost = fmt.Sprintf("%.6f", *totalUsage.CostUSD)
+	}
+	logger.Printf(
+		"complete pages=%d rounds=%d requests=%d tokens_input=%d tokens_cached=%d tokens_cache_creation=%d tokens_output=%d tokens_reasoning=%d tokens_total=%d cost_usd=%s cost_reports=%d/%d final_outputs=%s/page-NNNN/original.md",
+		len(pages), cfg.Rounds, requestCount,
+		totalUsage.InputTokens, totalUsage.CachedInputTokens, totalUsage.CacheCreationInputTokens,
+		totalUsage.OutputTokens, totalUsage.ReasoningTokens, totalUsage.TotalTokens,
+		cost, costReportCount, requestCount, cfg.OutputDir,
+	)
+	cacheHealth.LogSummary(logger)
 	return nil
 }
 

@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 34]*
+<!-- Folio: 34 -->
 
 des, quia leuiter patet ex hac præcedente correlariū & 38, diuiso parallelogrammo per diametrū in duo triangulos, uel super basin parallelogrāmi inter easdem lineas æque distantes triangulo constituto, ad quem duplum erit parallelogrammū per hanc præcedentem, & ipse æqualis alteri dato triangulo per 38.
 
@@ -46,4 +46,4 @@ Mnis parallelogrāmi spatij, eorum quæ circa diametrū sunt parallelogrammorū 
 
 CAMPANVS. Sit parallelogrammū a b c d, in quo protraham diametrū b c, & protraham e f æquidistantē utriq̃ duorū laterū a b & c d, quæ secet diametrum in puncto k, à quo ducam k g æquidistantē utriq̃ duorū laterū a c & b d, & producā eam quousq̃
 
-*[Catchword: secet]*
+<!-- Catchword: secet -->

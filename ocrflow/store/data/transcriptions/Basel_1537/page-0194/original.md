@@ -1,6 +1,6 @@
-# LIBER SEPTIMVS
+<!-- # LIBER SEPTIMVS -->
 
-*[Folio: 183]*
+<!-- Folio: 183 -->
 
 THEON ex Zamberto. Sint bini numeri α,β, & α quidem ipsum β multiplicans, efficiat γ, & β ipsum α multiplicās, efficiat δ. Dico quod æqualis est γ ipsi δ. Quoniam enim α ipsum β multiplicans, γ fecit, & β igitur ipsum γ metitur per eas quæ in α sunt unitates: metitur autem & ε unitas ipsum α numerum per eas quæ in eo sunt unitates : pariter igitur (per 11 quinti) ε unitas ipsum α numerū metitur & β ipsum γ. Vicißim igitur (per 15 septimi) pariter ε unitas ipsum β numerum metitur, & α ipsum γ. Rursus quoniam β ipsum α multiplicans, fecit ipsum δ, igitur α ipsum δ metitur per eas quæ in ipso β sunt unitates. Metitur autem & ε unitas, ipsum β per eas quæ in eo sunt unitates : pariter igitur (per 11 quinti) ε unitas ipsum β numerum metitur, & α ipsum δ: pariter autem ε unitas ipsum β numerum metitur, & α ipsum γ. Pariter igitur α, utrunq̃; γ,δ, metitur: æqualis igitur est γ ipsi δ, quod erat demonstrandum.
 
@@ -42,4 +42,4 @@ CAMPANI annotatio. Potes autem quod proponit per hanc & præmissam de duobus num
 
 Si quotlibet numeri totidem alijs fuerint indirecte proportionales, extremi quoq̃ in eadem proportione proportionales erunt.
 
-*[Signature: q 2]* *[Catchword: Vt si]*
+<!-- Signature: q 2 --> <!-- Catchword: Vt si -->

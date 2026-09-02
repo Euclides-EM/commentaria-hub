@@ -1,6 +1,6 @@
-# LIBER DECIMVS.
+<!-- # LIBER DECIMVS. -->
 
-*[Folio: 273]*
+<!-- Folio: 273 -->
 
 sicut quod sub α, β, ad id quod sub β, γ, sic est α ad γ, sed ei quidem quod sub α,β,æquum est id quod ex δ,ei autem quod sub β,γ,æquū est id quod sub δ,ι,est igitur (per 9 quinti) sicut α ad γ,sic quod ex δ ad id quod sub δ ι. Sicut autem quod ex δ ad id quod sub δ,ι,sic est δ ad ι,& sicut igitur (per 11 quinti) α ad γ,sic δ ad ι. Cōmensurabilis autem est α ipsi γ potentia tantum,commensurabilis igitur est (per 11 decimi) & δ ipsi ι potentia tantum. Media autem est δ,media igitur (per 22 decimi) est & ι. Et quoniam est sicut α ad γ, sic est δ ad ι, & α quàm γ maius potest eo quod ex sibi cōmensurabili, & δ igitur quàm ι maius poterit eo quod ex sibi commensurabili (per 14 decimi.) Dico insuper quod comprehensum sub δ, ι, medium est. Quoniam enim æquum est quod sub β, γ, ei quod sub δ, ι, medium autem quod sub β,γ, medium igitur (per correlarium 22) & quod sub δ, ι. Inuentæ sunt igitur duæ mediæ potentia tantum commensurabiles δ,ι, medium comprehendentes, ut maior minore maius poßit eo quod ex sibi cōmensurabili. Similiter iam rursus ostendetur & id quod ex incommensurabili, quando α ipsa γ maius poterit eo quod ex sibi incommensurabili, quod facere oportuit.
 
@@ -16,4 +16,4 @@ CAMPANVS. Propositum est inuenire duas lineas incommensurabiles tam in potentia 
 
 Et nota ꝙ duæ lineæ quas docet hæc 27 inuenire, componunt lineam maiorem, & minori earum abscisa de maiori,quæ reliqua est,dicitur linea minor.
 
-*[Catchword: THEON]*
+<!-- Catchword: THEON -->

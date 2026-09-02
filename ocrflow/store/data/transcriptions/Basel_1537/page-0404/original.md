@@ -1,6 +1,6 @@
-# LIBER DVODECIMVS
+<!-- # LIBER DVODECIMVS -->
 
-*[Folio: 393]*
+<!-- Folio: 393 -->
 
 portio trianguli b c d ad triangulū k m d, est sicut lineæ b d ad lineam k d duplicata, per eandem quoq̃ est proportio trianguli f g h ad triangulū n q h, sicut lineæ f h ad lineam n h duplicata. Cumq̃ sit linea b d ad lineam k d, sicut linea f h ad lineam n h (utrobiq̃ enim est dupla proportio) erit triangulus b c d ad triangulū k m d, sicut triāgulus f g h ad triangulū n q h, & permutatim triangulus b c d ad triangulū f g h, sicut triangulus k m d ad triangulum n q h. Triangulus autem k m d ad triangulum n q h, est sicut seratile existens super ipsum ad seratile existens super illum per 33 undecimi. Huius quoq̃ seratilis ad illud, est sicut amborū seratiliū pyramidis a pariter acceptorū ad ambo seratilia pyramidis e pariter accepta ex 15 quinti: necesse est enim ut sit duplum ad duplum, quemadmodū simplum ad simplum. Itaq̃ conclude ex 11 quinti, quod propositū est. Dormitas autē si dubitas seratilia unius harum pyramidū, æque alta esse seratilibus pyramidis alterius. Cū enim sint pyramides æque altæ, sit quoq̃ utraq̃ earū diuisa in duas pyramides æquales sibi totiq̃ similes & in duo seratilia æqualia, & sint duæ partiales pyramides æque altæ, eo ꝗ similes & æquales (q̃d facile patebit demissis à uerticibus partialiū pyramidū perpēdicularibus ad bases ipsarū, de quibus perpēdicularibus ex 37 undecimi constat esse æquales) cumq̃ altitudines harū partialiū pyramidū pariter acceptæ cōponunt altitudinē totalis pyramidis diuisæ, sintq̃ ambo seratilia æque alta uni partialiū pyramidū ei, uidelicet, quæ super partialē triangulū basis totalis pyramidis cōponitur, non est fas ambigere seratilia unius earū pyramidū esse æque alta seratilibus alterius earū. Correlariū uero ex eo manifestū est, ꝗ similiter bases partialiū pyramidū sic se habeant adinuicē, sicut bina seratilia unius ad bina seratilia alterius. Et quia bases partialiū sic se habent adinuicē, sicut bases totaliū ex secūda parte 18 sexti, & permutata proportione, constat ex 15 quinti uerum esse quod correlariū proponit.
 
@@ -18,4 +18,4 @@ Sint binæ pyramides sub eadem altitudine, triāgulares bases habentes, hoc est 
 
 *[Figure: pyramid δ ε ζ θ drawn as smaller triangle — δ at apex, ε at bottom left, φ at bottom middle, ζ at bottom right; fastigium θ in the centre, σ on the line from δ, π on side δ ε, ρ on side δ ζ, τ and υ at the inner lower left and right]*
 
-*[Catchword: prismata]*
+<!-- Catchword: prismata -->

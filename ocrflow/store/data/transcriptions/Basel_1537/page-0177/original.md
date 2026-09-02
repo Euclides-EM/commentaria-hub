@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 166]*
+<!-- Folio: 166 -->
 
 à secūda similis similiterq̃ descripta est.Sicut igitur γ β,ad β δ,sic species quæ ex β γ,ad eā quæ ex β α,similis similiterq̃ descripta est.Id propterea & sicut β γ,ad γ δ,sic species quæ ex β ad eā quæ ex γ α.Quare sicut β γ,ad β δ,& δ γ,sic quæ ex β γ,species ad eas quæ ex β α,& α γ, similes similiterq̃ descriptæ sūt.Aequalis aūt est β γ,ipsius β δ,& δ γ,æqualis igitur est,species quæ ex β α,& α γ, sunt speciebus similibus similiterq̃ descriptis.In rectangulis igitur triangulis, quæ ad rectum angulū subtendentē species,æqualis est eis quæ ad rectum angulum cōprehendentibus speciebus similibus similiterq̃ descriptis,quod demōstrasse oportuit.
 
@@ -8,7 +8,7 @@
 
 ALITER. Quoniam(per correlarium primū 20 sexti,) similes figuræ in dupla sunt ratione similis rationis laterum,igitur quæ ex β γ,est species ad eam quæ ex β α,duplā rationem habet quàm γ β, ad β α,habet autem & quod ex β γ,quadratū ad id quod ex α,quadratum duplā rationem quàm γ α,ad β α,& sicut igitur quæ ex γ β,species ad eam quæ ex β α,speciem:sic quadratum quod ex γ β, ad quadratum quod ex β α.Id propterea & sicut species quæ ex β γ,ad speciem quæ ex γ α,sic quadratū quod ex β γ ad quadratum quod ex γ α,Quare & sicut species quæ ex β γ,ad species quæ ex β α,& α γ,sic quadratū quod ex, β γ,ad quadrata quæ ex β α,et α γ.Quadratū aūt quod ex β γ,æquū est eis quæ ex β α,& α γ,quadratis(per 47 primi,)æqualis igitur est species quæ ex β γ,eis quæ ex β α,& α γ,speciebus similibus similiterq̃ descriptis.
 
-Eucli.ex Zamb. Theorema 22 Propositio 32
+## Eucli.ex Zamb. Theorema 22 Propositio 32
 
 ## 32
 
@@ -22,7 +22,7 @@ THEON ex Zamberto. Sint bina triangula α β γ,& δ γ ε,duo latera β α, & �
 
 *[Figure: two triangles on a common base line β γ ε: tall right triangle with apex α above β, hypotenuse to γ; smaller triangle with apex δ above the base between γ and ε]*
 
-Eucli.ex Camp. Propositio 32
+## Eucli.ex Camp. Propositio 32
 
 ## 32
 
@@ -30,4 +30,4 @@ SI in circulis æqualibus supra centrum siue supra circunferentiā anguli cōsis
 
 CAMPANVS Sint circuli,a b c cuius centrū d,& e f g cuius centrū h: æquales,super quorū centra fiant duo anguli b d c & f h g,& super eorum circunferentias alij duo qui sint b a c &,f e g.dico quod proportio angulorū tam eorū qui sunt super centra quā eorū qui super circūferētias:est sicut arcus b c ad arcū f g. Continuabo enim illis duobus arcubus alios arcus æquales:siue secundū eundē numerū siue secūdum diuersos,sitq̃ arcus k b:æqualis b c,& uterque duorum arcuum l m & f l,æqualis f g,& producā lineas k d,k a,m h,l h,m e & l e.erūtque per 26 tertij:anguli qui sunt ad d adinuicem æquales,similiter quoque & qui sunt ad h, adinuicē æquales, Idē.etiā de ijs
 
-*[Catchword: qui]*
+<!-- Catchword: qui -->

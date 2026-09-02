@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 14]*
+<!-- Folio: 14 -->
 
 tem angulus a b d est æqualis angulo c b d, quod oportebat efficere.
 
@@ -42,4 +42,4 @@ CAMPANVS. Sit data linea a b: in qua sit datus punctus c, à quo oportet perpend
 
 THEON. ex Zamb. Sit data recta linea α β. datū uero in ea signum sit γ. Oportet ab ipso signo γ, ipsius rectæ lineæ α β: ad angulos rectos rectā lineam excitare. Suscipiatur in ipsa α γ, cōtingens signū, sitq̃ illud δ. ponatur ipsi δ γ: (per 3 propositionem) æqualis linea γ ε, & super δ ε, (per 1 propositionē) cōstruatur triangulum æqui
 
-*[Catchword: laterum]*
+<!-- Catchword: laterum -->

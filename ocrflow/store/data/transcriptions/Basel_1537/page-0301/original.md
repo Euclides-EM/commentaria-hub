@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 290]*
+<!-- Folio: 290 -->
 
 rus c diuidatur in duos non quadratos qui sunt d &c *[sic: d & e]* Cætera omnia negotianda sunt hic ex diffinitione binomij quarti,sicut ibi ex diffinitione binomij primi.
 
@@ -30,4 +30,4 @@ THEON ex Zamb. Explicentur bini numeri α γ,γ β,ut α β,ad utrunque ipsorū 
 
 *[Figure: at the right of the proof — a dotted line of unit points with labels α, γ, β; a solid line labelled α; a solid line divided at ζ with endpoints ε and η, the parts numbered 20 and 16; and a shorter solid line with the label 6 (θ)]*
 
-*[Catchword: Conuert]*
+<!-- Catchword: Conuert -->

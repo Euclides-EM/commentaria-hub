@@ -1,10 +1,10 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 219]*
+<!-- Folio: 219 -->
 
 7 Perfectus numerus appellatur, qui omnibus partibus suis quibus numeratur, est æqualis. 8 Abundans dicitur, qui omnibus suis partibus minor est. 9 Diminutus uero, qui maior.
 
-Eucli. ex Camp. Propositio 1
+## Eucli. ex Camp. Propositio 1
 
 **1** SI fuerint duo numeri superficiales similes, qui ex ductu alterius in alterum producetur, numerū quadratū esse necesse est.
 
@@ -12,7 +12,7 @@ Eucli. ex Camp. Propositio 1
 
 CAMPANVS. Sint a & b superficiales similes, ex quorum multiplicatione proueniat c, dico c esse quadratū : fiat enim d ex a in se, eritq̃ per 18 septimi, d ad c, sicut a ad b, & quia inter a & b cadit medius secūdum continuam proportionalitatē per 16 octaui, sequitur per 8 eiusdem, ut unus quoq̃ cadat inter d & c, itaq̃ cum d sit quadratus, erit per 20 eiusdem. c quoq̃ quadratus, quod est propositū.
 
-Eucli. ex Zamb. Theorema 1 Propositio 1
+## Eucli. ex Zamb. Theorema 1 Propositio 1
 
 **1** Si bini similes plani numeri sese inuicem multiplicantes, aliquem fecerint, factus ex eis quadratus erit.
 
@@ -20,7 +20,7 @@ THEON ex Zamb. Sint bini similes plani numeri α, β, & α ipsum β multiplicans
 
 *[Figure: dotted number lines γ, δ, β, α with intermediate dotted lines]*
 
-Eucli. ex Camp. Propositio 2
+## Eucli. ex Camp. Propositio 2
 
 **2** SI ex ductu alterius in alterū tetragonus producatur, duo quilibet numeri sunt superficiales similes.
 
@@ -36,10 +36,10 @@ CAMPANVS. Hæc est conuersa prioris. Vt si ex a in b fiat c, fueritq̃ c quadrat
 
 Prima pars correlarij patet per præmissam, sunt enim omnes tetragoni, superficiales similes. Secūda patet ex hac, cum sit solus tetragonus similis tetragono. Tertia pars patet, ex prima ipsius correlarij parte, à destructione consequētis. Quarta uero patet ex eiusdem parte secunda, à destructione consequentis.
 
-Eucli. ex Zamb. Theorema 2 Propositio 2
+## Eucli. ex Zamb. Theorema 2 Propositio 2
 
 **2** Si bini numeri inuicem sese multiplicantes, quadratum fecerint, similes plani sunt.
 
-*[Signature: c 2]*
+<!-- Signature: c 2 -->
 
-*[Catchword: THEON]*
+<!-- Catchword: THEON -->

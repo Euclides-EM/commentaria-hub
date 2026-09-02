@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 150]*
+<!-- Folio: 150 -->
 
 rit ei quod duabus reliquis continetur rectangulum, quatuor lineas proportionales esse conuenit.
 
@@ -26,4 +26,4 @@ THEON ex Zamberto. Sint quatuor rectæ lineæ proportionales α β γ δ ε ζ, 
 
 ### SI fuerint tres lineæ proportionales,quod sub prima , & tertia rectangulum continetur,æquum erit ei quod à secunda quadrato describitur.Si uero quod sub prima & tertia continetur æquum ei quadrato quod à secūda producitur,ipsæ tres lineæ proportionales erunt.
 
-*[Catchword: CAM-]*
+<!-- Catchword: CAM- -->

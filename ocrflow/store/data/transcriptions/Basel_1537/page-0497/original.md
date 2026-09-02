@@ -1,6 +1,6 @@
-# 486 EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 486]*
+<!-- Folio: 486 -->
 
 nus autem tropicus sit l m n, zodiacus porro circulus positionem habeat sicut k l, poli autē sphæræ sint x o, signa, describaturq́̃ per x maximus circulus a x e o. Dico quod in uno sphæræ ambitu, qui per polos sphæræ circulus bis erit rectus ad horizontem, zodiacus autem circulus ad meridianum bis erit rectus, ad horizontem uero minime, quando polus horizontis inter g h k, & a d fuerit, quod quidem qui per polos sphæræ ad b e c, horizontem bis est rectus. Dico iam quod k l, ad a o, meridianum bis erit rectus. Quoniam enim in sphæra bini circuli b e c, g h k, sese inuicem dispescunt, perque polos eorum describitur circulus maximus a h o, æqualis igitur est circunferentia k h, ipsi h x, & l p, ipsi p n, estque æqualis circunferentia g h k, ipsi circunferentiæ l p n, æqualis igitur est l p, circunferentiæ k h, circunferentiæ. In quo igitur tempore signum ab ipso exordiens k, ipsam k h, percurrens circunferētiam in h, peruenit, in eo & l signum ambitum l p, percurrens in p signum stabit, & zodiacus circulus positionem habebit sicut h p. Nā quoniam in sphæra bini orbes a g h k, b h p c, sese inuicem tangunt, ac per unius polum & contactum maximus describitur circulus x h o. Igitur ipse x h o, orbis uenit & per ipsius h b p c, orbis polos, ad eumq̃ rectus est, quare & h b p c, orbis ad ipsum x h o, orbē rectus est. Rursus quoniam a d circunferentia ipsi m h(?) circunferētiam similis est, in quo igitur tēpore a ad d, peruenit, in eodē & n ad m, & zodiacus circulus positionem habebit si
 
@@ -10,4 +10,4 @@ cut a b m c, nam quoniam in sphæra bini circuli a b m c, a h sese inuicem tangu
 
 *[Figure: second sphere diagram of intersecting great circles with an inner circle; points labeled a, b, c, g, k, l, m, o, r, s, t, u]*
 
-*[Catchword: l t, cir]*
+<!-- Catchword: l t, cir -->

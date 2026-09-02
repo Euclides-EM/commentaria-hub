@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS
+<!-- # LIBER VNDECIMVS -->
 
-*[Folio: 385]*
+<!-- Folio: 385 -->
 
 ipsis solida parallelepipeda similia similiterq̃ descripta proportionalia fuerint, & ipsæ quoq̃ rectæ lineæ proportionales erunt.
 
@@ -28,6 +28,6 @@ CAMPANVS. Statue cubum qui sit a b, de quo constat per diffinitionē quod omnes 
 
 *[Figure: a cube with c and a at the top, b and h at the bottom, K at the left and g and p at the right; the midpoints m, q, o, f, s, u, e, t, l, r, n of the sides are joined by lines and diagonals crossing within the cube]*
 
-*[Signature: K]*
+<!-- Signature: K -->
 
-*[Catchword: o k &]*
+<!-- Catchword: o k & -->

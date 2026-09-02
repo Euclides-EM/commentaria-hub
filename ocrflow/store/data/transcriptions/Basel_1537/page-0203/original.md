@@ -1,8 +1,8 @@
-*[Folio: 192]*
+<!-- Folio: 192 -->
 
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-Eucli. ex Camp. — Propositio 32
+## Eucli. ex Camp. — Propositio 32
 
 *[Margin: Zamb. 31]* *[Margin: 32]*
 
@@ -12,7 +12,7 @@ CAMPANVS. Sit a numerus primus non numerans b, dico quod a & b, sunt contra se p
 
 *[Figure: dotted number lines beside the text: a····· b········ / c··]*
 
-Eucli. ex Camp. — Propositio 33
+## Eucli. ex Camp. — Propositio 33
 
 *[Margin: Zamb. 32]* *[Margin: 33]*
 
@@ -28,7 +28,7 @@ Quatuor præcedentes ex Campano Euclidis propositiones, quatuor sequentibus ex Z
 
 *[Margin: Campanus — 30 31 32 33 / 33 34 31 32 — Zambertus]*
 
-Eucli ex Zamb. — Theorema 29 — Propositio 31
+## Eucli.ex Zamb. — Theorema 29 — Propositio 31
 
 *[Margin: 31]*
 
@@ -38,7 +38,7 @@ THEON ex Zamb. Sit primus numerus α, & ipsum β non metiatur. Dico quod ipsi β
 
 *[Figure: dotted number lines beside the text: α······· β·········· / γ·····]*
 
-Eucli. ex Zamb. — Theorema 30 — Propositio 23 *[sic, for 32]*
+## Eucli. ex Zamb. — Theorema 30 — Propositio 23 *[sic, for 32]*
 
 *[Margin: 32]*
 
@@ -48,7 +48,7 @@ THEON ex Zamb. Bini enim numeri α, β, multiplicantes se adinuicem, ipsum effic
 
 *[Figure: dotted number lines beside the text: ε····· / δ··· / γ············ / β······ / α··]*
 
-Eucli ex Zamb. — Theorema 31 — Propositio 33
+## Eucli.ex Zamb. — Theorema 31 — Propositio 33
 
 *[Margin: 33]*
 
@@ -58,4 +58,4 @@ THEON ex Zamb. Sit compositus numerus α. Dico quod α sub alicuius primi numeri
 
 *[Figure: dotted number lines beside the text: γ··· / β········· / α···························]*
 
-*[Catchword: præcedentem,]*
+<!-- Catchword: præcedentem, -->

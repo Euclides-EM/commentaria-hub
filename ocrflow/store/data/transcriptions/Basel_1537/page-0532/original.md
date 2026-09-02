@@ -1,6 +1,6 @@
-# PERSPECTIVA
+<!-- # PERSPECTIVA -->
 
-*[Folio: 521]*
+<!-- Folio: 521 -->
 
 spectatur sicut per 3 theorema apparet, igitur angulus c non spectatur. At signa d f, solum apparent. Similiter etiā & in unoquoque reliquorum angulorū hoc eueniet, quare totum circūductum apparebit.
 
@@ -44,4 +44,4 @@ Sint æquæ magnitudines k n, l f, c d, super oculū positæ. qui sit b & ab ips
 
 *[Figure: eye b at bottom left; three equal vertical magnitudes κ–n, l–f, c–d above it, rays from b to n, f, d]*
 
-*[Signature: X 3]* *[Catchword: Theorema]*
+<!-- Signature: X 3 --> <!-- Catchword: Theorema -->

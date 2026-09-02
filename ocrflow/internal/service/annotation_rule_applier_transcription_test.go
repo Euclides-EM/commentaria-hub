@@ -11,6 +11,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotationrule"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 	"github.com/stretchr/testify/require"
 )
 
@@ -38,16 +39,17 @@ func (s *transcriptionDatasetStore) GetDataset(id string) (*model.Dataset, error
 }
 
 type transcriptionLLMCall struct {
-	prompt, image, label string
+	prompt       llm.Prompt
+	image, label string
 }
 
 type transcriptionLLM struct {
 	calls []transcriptionLLMCall
 }
 
-func (l *transcriptionLLM) ExecWithLogLabel(_, _ string, prompt, attachmentPath, logLabel string) (string, error) {
+func (l *transcriptionLLM) ExecPromptResultWithLogLabel(_, _ string, prompt llm.Prompt, attachmentPath, logLabel string) (llm.Result, error) {
 	l.calls = append(l.calls, transcriptionLLMCall{prompt: prompt, image: attachmentPath, label: logLabel})
-	return fmt.Sprintf("corrected round %d", len(l.calls)), nil
+	return llm.Result{Text: fmt.Sprintf("corrected round %d", len(l.calls))}, nil
 }
 
 func TestApplyLLMTranscriptionCorrectorUsesAnnotationAndEditionInputs(t *testing.T) {
@@ -86,9 +88,9 @@ func TestApplyLLMTranscriptionCorrectorUsesAnnotationAndEditionInputs(t *testing
 	require.NoError(t, err)
 	require.Same(t, target, got)
 	require.Len(t, llmClient.calls, 2)
-	require.Contains(t, llmClient.calls[0].prompt, "target")
-	require.Contains(t, llmClient.calls[0].prompt, "additional")
-	require.Contains(t, llmClient.calls[0].prompt, "edition transcription")
+	require.Contains(t, llmClient.calls[0].prompt.Dynamic, "target")
+	require.Contains(t, llmClient.calls[0].prompt.Dynamic, "additional")
+	require.Contains(t, llmClient.calls[0].prompt.Dynamic, "edition transcription")
 	require.Equal(t, filepath.Join(imagesDir, "page-0001.png"), llmClient.calls[0].image)
 	require.FileExists(t, filepath.Join(manager.AnnotationTxtTranscriptionDir(target), "page-0001", "round-01.md"))
 	final, err := os.ReadFile(filepath.Join(manager.AnnotationTxtTranscriptionDir(target), "page-0001", "original.md"))

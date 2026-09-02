@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 426]*
+<!-- Folio: 426 -->
 
 *sub α β, β γ, una cum eo quod ex α γ, triplum est eius quod ex α γ, diuidendo igitur quod bis sub α β, β γ, eius quod ex α γ duplū est. Quare quod semel sub α β, β γ, æquū est ei quod ex α γ: est uero. Ipsa enim α β, extrema & media ratione secta est in γ.*
 
@@ -32,4 +32,4 @@ At uero si linea rationalis in potētia tantū secūdū proportionē habentē me
 
 CAMPANI annotatio. Et nota, quod prima pars præsentis demōstrationis qua demonstratur quod maior portio lineæ diuisæ secūdū proportionē habentē medium & duo extrema sit residuū, si tota linea sit rationalis, procedit ex sufficientibus siue tota linea ponatur ratiōalis in lōgitudine, siue in potētia tātū. Secūda uero pars qua demonstratur hoc de minori portione quod ipsa quoq̃ sit residuum si tota est rationalis, nō procedit ex sufficiētibus, nisi tota sit rationalis in longitudine. Tertia autē pars qua probatur quod minor portio est residuū, sufficienter procedit, siue maior portio sit ratiōalis
 
-*[Catchword: in lon]*
+<!-- Catchword: in lon -->

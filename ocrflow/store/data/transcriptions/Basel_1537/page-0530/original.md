@@ -1,6 +1,6 @@
-# PERSPECTIVA
+<!-- # PERSPECTIVA -->
 
-*[Folio: 519]*
+<!-- Folio: 519 -->
 
 ## Theorema tertium.
 
@@ -34,4 +34,4 @@ Sit, inquam, b c ipsi d f parallelū interuallum, oculus uero sit k. Dico quod b
 
 *[Figure: two vertical parallel lines d–f (left) and b–e (right); horizontal lines d–b at top, n–p and l–x between them; eye κ at bottom between f and e with rays fanning upward to the labeled points]*
 
-*[Signature: X 2]* *[Catchword: lis]*
+<!-- Signature: X 2 --> <!-- Catchword: lis -->

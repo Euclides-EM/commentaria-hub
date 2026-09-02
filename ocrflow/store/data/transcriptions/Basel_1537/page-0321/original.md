@@ -1,12 +1,12 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 310]*
+<!-- Folio: 310 -->
 
 IDEM aliter. Sit linea d e rationalis, cui adiungatur superficies d f æqualis duplo superficiei unius in alterā, & e g æqualis ambobus quadratis pariter acceptis, erit per 7 secundi f g, æqualis quadrato a c. Quia uero e g est medialis, erit ex 20 linea d g in potentia tantū rationalis. Similiter quoq̀ cum e h sit medialis, erit ex eadem, linea d h rationalis similiter in potentia tantū. Et quoniam a b & b c sunt incōmensurabiles in longitudine, ideoq́; quadratū utriusq́; earū superficiei unius in alteram. & propter hoc ambo quadrata pariter accepta (cum ipsa ex hypothesi cōmunicent) sunt quoq̀ incōmensurabilia duplo superficiei unius in alterā, sequitur ut e g sit incōmensurabilis h c, quapropter linea d g, lineæ d h, igitur ex 68, linea g h est residuū, & irrationalis: ideoq́; per 16 à destructione consequentis superficies f g irrationalis, & eius latus tetragonicum a c irrationale.
 
 *[Figure: line a c b above; rectangle with left side marked g and h, corners d and e at bottom, region f at right of the upper division]*
 
-Eucli. ex Zamb. Theorema 57 Propositio 75
+## Eucli. ex Zamb. Theorema 57 Propositio 75
 
 ## 75 Si à media media auferatur potentia tantum toti cōmensurabilis subsistens, & cum tota medium comprehendens, reliqua irrationalis est, uocetur autem mediæ secunda apotome.
 
@@ -14,9 +14,9 @@ THEON ex Zamb. A media nanq̀; α β, media auferatur γ β potentia tantum toti
 
 *[Figure: line α γ β above; below, a rectangle divided by a vertical line into two, top corners δ, ζ, η, bottom corners ι, θ, ε]*
 
-Eucli. ex Camp. Propositio 71
+## Eucli. ex Camp. Propositio 71
 
-## 71 SI linea de linea detrahať, fuerintq́; ambæ potentialiter incōmensurabiles, continentesq́; mediale, quadrataq́; earū ambo pariter accepta rationale, reliq̃ linea erit irrationalis, uocabiturq́; minor.
+71 SI linea de linea detrahať, fuerintq́; ambæ potentialiter incōmensurabiles, continentesq́; mediale, quadrataq́; earū ambo pariter accepta rationale, reliq̃ linea erit irrationalis, uocabiturq́; minor.
 
 *[Woodcut initial S]*
 
@@ -24,12 +24,12 @@ CAMPANVS. Si sint a b & b c quales proponitur, quæ per 27 reperiuntur & cōponu
 
 *[Figure: line a c b]*
 
-Eucli. ex Zamb. Theorema 68 Propositio 76
+## Eucli. ex Zamb. Theorema 68 Propositio 76
 
-## Si à recta linea recta linea auferatur potentia toti subsistens incōmensurabilis, cum tota uero efficiens quod ab eis simul rationale, quod uero sub ipsis medium, reliqua irrationalis est, appellaturq́; minor.
+Si à recta linea recta linea auferatur potentia toti subsistens incōmensurabilis, cum tota uero efficiens quod ab eis simul rationale, quod uero sub ipsis medium, reliqua irrationalis est, appellaturq́; minor.
 
 THEON ex Zamb. A recta nanq̀; linea α β, auferatur recta linea β γ, potentia toti subsistens incommensurabilis, efficiens cum tota quidem
 
 *[Figure: line α γ β]*
 
-*[Catchword: α β compoſ]*
+<!-- Catchword: α β compoſ -->

@@ -1,6 +1,6 @@
-# LIBER QVINTVS 127
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 127]*
+<!-- Folio: 127 -->
 
 munibus h k & m n: erit per communem scientiam, ut si g h addit super k p, quod l m addit super n q: & si minuit, minuit: & si æquat, æquat: ergo per diffinitionem incontinuæ proportionalitatis, proportio a c ad c b, est sicut d f ad f e, quod est propositũ.
 
@@ -28,6 +28,6 @@ Aliter idem indirecte sic. Cũ sit proportio a c ad c b sicut d f ad f e, nõ es
 
 *[Figure: a long horizontal line with points d, g, f, h, e; below it a segment a—c—b]*
 
-*[Signature: l 4]*
+<!-- Signature: l 4 -->
 
-*[Catchword: d f]*
+<!-- Catchword: d f -->

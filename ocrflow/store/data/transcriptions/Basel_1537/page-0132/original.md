@@ -1,6 +1,6 @@
-# LIBER QVINTVS
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 123]*
+<!-- Folio: 123 -->
 
 proportiōalitatis, si k addit super n, nō est necesse qd h addat super m, sed si h nō addit super m, g non addit super l, ergo si k addit super n, nō est necesse ut g addat super l, per diffinitionē igitur maioris improportiōalitatis, maior erit proportio e ad f, q̃ a ad b, ergo econuerso minor erit a ad b. quàm e ad f, qd est propositū. Ex modo autē demōstrationis octauæ huius, & hac fiet manifestū qd si fuerit primæ quatuor quātitatū ad secūdam maior proportio quam tertiæ ad quartam, cōtinget reperire aliqua æque multiplicia primæ & tertiæ, quæ cum cōparabūtur ad aliqua æque multiplicia secundæ & quartæ, inuenietur multiplex primæ addere super multiplex secundæ, non autem multiplex tertiæ super multiplex quartæ. Quod sic patet. Sit enim maior proportio a ad c, quàm d ad e. Ponam ergo ut sit proportio a f ad c, sicut d ad e, eritque per hanc 12 & per 10, a f minor a b & sit minor in quantitate f b, quam multiplicabo toties, quod proueniat quātitas maior c, quæ sit g h, hac conditione ut d toties multiplicata producat quantitatem nō minorem e, quæ sit k, tunc ponam ut l g sit ita multiplex a f, sicut g h est multiplex f b, aut k p, eritq̃ per primam huius l h, ita multiplex a b, sicut k d. Deinde ponam quod m sit prima quāt tas multiplex e, quæ sit maior k, & ponam n ita multiplicem c, sicut m est multiplex e, eritque per præmissas hypotheses & conuersionem diffinitiōis incontinuæ proportionalitatis quantitas n prima, multipliciū c, quæ erit maior l g, nec erit l g minor c. Sumam ergo sub n, maximam multipliciū eius, aut sibi æqualem si forsan n sit prima multiplicium eius, quæ sit o, cōstabitque n, ex o, & c, quia ergo l g non est minor o, & g h est maior c, erit l h, maior n, quare cum k sit minor m, patet propositum.
 
@@ -10,10 +10,10 @@ Conuersam huius demonstrare possumus, uidelicet, quod si contingit reperire aliq
 
 *[Figure: horizontal line segments with division marks, labelled p, n, m; g; f; a; b; c, l, d; e; k; set beside the paragraph]*
 
-Eucli. ex Camp. Propositio 13
+## Eucli. ex Camp. Propositio 13
 
 *[Margin: 13]* SI fuerint quotlibet quantitatum ad totidem alias proportio una, erit quoque quæ proportio unius ad unam, eadem proportio harum omnium pariter acceptarum ad omnes illas pariter acceptas.
 
 CAMPANVS. Quod prima proposuit de multiplicibus, hæc proponit de omnibus proportionibus, unde hæc est cōmunior illa, eo quod omnis multiplicitas est pro
 
-*[Signature: l 2]* *[Catchword: por]*
+<!-- Signature: l 2 --> <!-- Catchword: por -->

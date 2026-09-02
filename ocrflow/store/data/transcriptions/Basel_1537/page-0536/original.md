@@ -1,6 +1,6 @@
-# PERSPECTIVA
+<!-- # PERSPECTIVA -->
 
-*[Folio: 525]*
+<!-- Folio: 525 -->
 
 sus unde cœpit agi consistet, & circunscripta ab ipsa b d, figura circulus erit, qui per centrum erit ipsius sphæræ. Quare hemisphærium tantum ipsius sphæræ spectabitur sub f l oculis.
 

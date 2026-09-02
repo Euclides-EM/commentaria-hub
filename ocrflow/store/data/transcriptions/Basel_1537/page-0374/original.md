@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 363]*
+<!-- Folio: 363 -->
 
 planis angulis qui sub β α γ, δ α γ, δ α β. Dico quod ipsi β α γ, δ α γ, δ α β, anguli, quatuor rectis sunt minores. Assumātur, inquam, in unaquaq̃ ipsarū α γ, α β, α δ, rectarū linearū signa utcunq̃, sintq̃ β, γ, δ, cōnectanturq̃ β γ, γ δ, δ β. Et quoniā solidus angulus est qui ad β, sub tribus enim planis angulis cōprehenditur, hoc est sub ijs qui sub γ β α, α β δ & γ β δ (per 20 undecimi) bini utcūq̃ sumpti reliquo sunt maiores. Igitur qui sub γ β α, α β δ, eo qui sub γ β δ sunt maiores. Et id propterea qui sub β γ α, α γ δ, eo qui sub β γ δ sunt maiores, & insuper qui sub γ δ α, α δ β, eo qui sub γ δ β sunt maiores. Igitur sex anguli γ β α, α β δ, β γ α, α γ δ, γ δ α, α δ β, tribus, hoc est eis qui sub γ β δ, β γ δ, γ δ β, sunt maiores. Sed ipsi tres qui sub γ β δ, β δ γ, β γ δ, duobus rectis sunt æquales, igitur qui sub γ β α, α β δ, β γ α, α γ δ, γ δ α, α δ β, sex anguli, duobus rectis sunt maiores. Et quoniā uniuscuiusq̃ ipsorū α β γ, α β δ, α γ δ, triangulorū tres anguli duobus rectis sunt æquales (per 32 primi,) trium igitur triangulorū anguli nouem qui sub γ β α, α γ β, β α γ, α γ δ, δ α γ, γ δ α, α δ β, δ β α, β α δ, sex rectis sunt æquales. Quorū qui sub α β γ, β γ α, α γ δ, γ δ α, α δ β, δ β α, sex anguli, duobus rectis sunt maiores: reliqui igitur qui sub β α γ, γ α δ, δ α β, tres anguli, cōprehendentes solidum angulum, quatnor *[sic: pro quatuor]* rectis sunt minores. Omnis igitur solidus angulus sub minus quatuor rectis angulis planis cōprehenditur. Quod erat ostendendū.
 
@@ -24,4 +24,4 @@ CAMPANVS. Sint tres superficiales anguli b a c, e d f, h g k, ut proponitur, tal
 
 THEON ex Zamb. Sint tres anguli plani qui sub α β γ, δ ε ζ, & η θ κ, quorū bini reliquo sint maiores quomodocunq̃ sumpti, hoc est α β γ, δ ε ζ, ipso η θ κ, ipsi autē qui sub δ ε ζ, η θ κ, ipso α β γ, & insuper qui sub η θ κ, α β γ, eo qui sub δ ε ζ, sintq̃ æquales α β, β γ, δ ε, ε ζ, η θ, θ κ, rectæ lineæ, cōnectanturq̃ α γ, δ ζ, η κ. Dico quod ex æqualibus ipsis α γ, δ ζ, η κ, triangulū constituere est possibile, hoc est quod ipsarū α γ, δ ζ, η κ, binæ quomodocūq̃ sumptæ reliqua sunt maiores. Siquidem qui sub α β γ, δ ε ζ, η θ κ, anguli inuicem sunt æquales, manifestū quod & ipsis α γ, δ ζ, η κ, æqualibus adinuicē factis, est possibile ex æqualibus ipsis α γ, δ ζ, η κ, triangulū construi. Si autē non, sint inæquales. Constitua
 
-*[Signature: H 2]* *[Catchword: turq̃]*
+<!-- Signature: H 2 --> <!-- Catchword: turq̃ -->

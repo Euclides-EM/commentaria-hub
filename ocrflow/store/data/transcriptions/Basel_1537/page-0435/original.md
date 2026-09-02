@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS.
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->.
 
-*[Folio: 424]*
+<!-- Folio: 424 -->
 
 ad a b, sicut a b ad b c. Cūq̃ sit ex 7 quinti a b ad b c, sicut ad b d, erit ex undecima eiusdē d a ad a b, sicut a b ad b d. Itaq̃ ex diffinitione linea a d diuisa est in puncto b secūdum proportionem habentem mediū & duo extrema, & maior portio eius est linea a b. Q̊d est propositum. Eodem quoq̃ modo si ex maiori portione cuiuslibet lineæ secūdū prædictā pportionē diuisæ tāquā minor portio detrahatur, erit maior ipsa portio secundum eandem proportionem diuisa, eritq̃ maior portio eius linea detracta. Verbi gratia a b sicut proponitur in pūcto c diuisa, sitq̃ maior portio a c, à qua detrahatur c d æqualis c b. Dico quod a c est diuisa secundū proportionē eandē in pūcto d, & quod maior portio eius est linea d c. Cū enim sit ex diffinitiōe, b a ad a c, sicut a c ad c b, at ex 7 quinti a c ad c b sicut ad c d, erit ex undecima eiusdē b a ad a c, sicut a c ad c d. ideoq̃ per 19 quinti sicut c b residuū ad d a residuum. Sed ex septima eiusdē, c b ad d a, sicut c d ad a, itaq̃ a c ad c d, sicut c d, ad d a. Ex diffinitione ergo cōstat quod diximus. Nec igitur ea quam auctor proponit additio, nec ea quam ex opposito proponimus detractio, quātuncunq̃ utralibet in prolixum tendat, à proprietate diuisiōis lineæ primitiuæ discordat.
 
@@ -36,4 +36,4 @@ THEON ex Zāb. *Recta enim quædā linea α β extrema & media ratiōe secetur i
 
 *[Figure: rectangle whose top side bears the points δ, α, γ, β; a square with a diagonal is contained on the right, with dividing lines; labels λ, θ, ζ, ε below and κ at the right side]*
 
-*[Catchword: γ, estq̃]*
+<!-- Catchword: γ, estq̃ -->

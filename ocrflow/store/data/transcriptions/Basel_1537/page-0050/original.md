@@ -1,6 +1,6 @@
-# LIBER SECVNDVS.
+<!-- # LIBER SECVNDVS. -->
 
-*[Folio: 41]*
+<!-- Folio: 41 -->
 
 Sint duæ lineæ a b & c, quarū una scilicet a b, in quotlibet partes diuidatur quæ sint a d & d e & e b: dico q̃ illud quod fit ex ductu c in totum a b, æquum est illis parallelogrāmis rectangulis simul iunctis quæ fiunt ex c in a d & in d e & in e b. Super puncta a, b, erigam lineas a f & b g perpendiculares super lineam a b, quarū utraq̃ sit æqualis lineæ c, & complebo rectangulā superficiē a f b g, ducta linea f g, quæ per diffinitionem producitur ex c in a b, & sub illis dicitur cōtineri. Protraham quoq̃ per 31 primi a punctis d & e, lineas d h & e k æquidistātes lateribus a f & b g, eritq̃ utraq̃ earum æqualis c per 34 primi, quoniā utraq̃ earū est æqualis a f: per diffinitionem igitur superficies a d f h producitur ex c in a d, & sub illis dicitur contineri, & rectangulū d h e k, ex c in d e, & rectangulū e k g b, ex c in e b. Et quia hæc rectangula simul iuncta sunt æqualia totali rectangulo a f b g, patet uerū esse propositū.
 
@@ -42,4 +42,4 @@ THEON ex Zamb. Recta enim linea α β, secetur utcunq̃, in signo γ. Dico quod 
 
 SI fuerit linea in duas partes diuisa, illud quod fiet ex ductu totius in alterutrā partem, æquū erit ijs quæ ex ductu eiusdem partis in
 
-*[Signature: d 3]* *[Catchword: seipsam]*
+<!-- Signature: d 3 --> <!-- Catchword: seipsam -->

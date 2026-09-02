@@ -1,6 +1,6 @@
-*[Folio: 250]*
+<!-- Folio: 250 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 quàm quadratus numerus ad quadratum numerum. Et quadrata adinuicem rationem habentia quam quadratus numerus ad quadratum numerum, latera quoque habebunt longitudine cōmensurabilia. A longitudine uero in commensurabilibus rectis lineis quadrata, adinuicem rationē non habent quam quadratus numerus ad quadratum numerum. Et quadrata adinuicem rationem non habentia quā quadratus numerus ad quadratum numerum, neque latera habebunt longitudine commēsurabilia.
 
@@ -20,4 +20,4 @@ ALITER idem demonstrare. Sed habeat iam quod ex α,ad id quod ex β,eam rationem
 
 Rursus quadratum quod ex α ad id quadratum quod ex β rationem non habeat,quam numerus quadratus ad
 
-*[Catchword: numerum]*
+<!-- Catchword: numerum -->

@@ -1,6 +1,6 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 252]*
+<!-- Folio: 252 -->
 
 communicabunt. Idem quoque in contrario,si enim a & b sint incommunicātes, dico quod c utrique earum erit incommunicans,& econuerso,si c alteri earum sit incōmunicant,erit quoque incōmunicans & alteri,& ipsæ etiam inter se. Sint itaque primum a & b communicantes,sitque earum communis mensura d,quæ cum utramq̃ earum numeret,per conceptiouem *[sic: for conceptionem]* similem antepenultimæ septimi,numerabit & c,quare per diffinitionem c communicabit utrique earū scilicet a & b. Ecōuerso quoq̃ si c cōmunicet utrique earum,sit omnium communis mēsura d,constat itaque per diffinitionem,a & b communicantes esse. Sed communicet c cum altera earū quæ sit a,dico quod communicabit cū b.& a etiam & b communicabunt adinuicem:sit enim d communiter mensurans c & a Quia igitur d mensurat totum & detractum,per conceptionem ipsa mensurabit residuum uidelicet b,per diffinitionem ergo,& c communicat cū b,& a communicat quoque cum b.
 
@@ -32,4 +32,4 @@ Roposita qualibet recta linea, duas ei incommensurabiles alteram in longitudine 
 
 CAMPANVS Sit linea a proposita,uolo duas lineas reperire,quarum una communicet cum a in potentia tantum,altera uero sit incommensurabilis ei in longitudi
 
-*[Catchword: ne,]*
+<!-- Catchword: ne, -->

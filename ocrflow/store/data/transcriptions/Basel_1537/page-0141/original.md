@@ -1,6 +1,6 @@
-# 130 GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 130]*
+<!-- Folio: 130 -->
 
 THEON ex Zamb. Sint tres magnitudines α β γ, & aliæ eisdem æquales numero δ ε ζ, binæ sumptæ & in eadem ratione, sicut quidem α, ad β, sic δ ad ε, sicutq̃ β, ad γ, sic ε, ad ζ. Ex æquali autẽ sit maior α, quàm γ, Dico quod & δ, quàm ζ, maior erit, & si æqualis, æqualis, & si minor, minor. Quoniam enim maior est α, quàm γ, alia autem quædam β, maior autem ad eandem (per 8 tertij) maiorem rationem habet quàm minor, igitur α, ad β, maiorẽ rationem habet quàm γ, ad β, Sed sicut est quidem α, ad β, sic est δ, ad ε, sicutq̃ γ, ad β, rursus sic ζ, ad ε. Et δ, igitur ad ε. maiorem rationem habet quàm ζ, ad ε, (per correlarium 4 quinti. Ad eandem autem rationem habentium, maiorẽ rationem habens, maior est (per 10 quinti.) maior igitur est δ, quàm ζ. Similiter quoque ostendemus, quod si æqualis est α ipsi γ, æqualis erit & δ, ipsi ζ, & si minor, minor. Si fuerint igitur tres magnitudines, & aliæ eisdem æquales numero, binæ sumptæ & in eadem ratione, ex æquali autem prima tertia maior fuerit, & quarta sexta maior erit, & si æqualis, æqualis: & si minor, minor: quod oportebat demonstrare.
 

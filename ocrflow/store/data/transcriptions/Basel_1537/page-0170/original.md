@@ -1,6 +1,6 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 159]*
+<!-- Folio: 159 -->
 
 trinsecus superficiei l m, sit æqualis angulo intrinseco superficiei l h: & extrinsecus m n intrinseco m l. Similiter quoque ut extrinsecus superficiei k o, sit æqualis intrinseco superficiei h n, & extrinsecus o p, intrinseco k o, sicq́; de cæteris. Cū enim sic fuerit erit unaquaque linearum k n & sibi opposita h m. itemque h r, & sibi opposita n q, linea una per ultimam partem 29 primi & per 14 eiusdem quoties oportuerit æqualiter repetitas, propter id quod omnes superficies h l, l m, & m n, itemq́; k o, o p, p q, & q r, sunt æquidistantium laterum, & angulus extrinsecus cuiusque sequentis est æqualis intrinseco eam præcedentis, quare duæ superficies h n & n r, erunt æquidistantium laterum & inter lineas æquidistātes & æqualis altitudinis. Cætera ergo argue ut prius.
 
@@ -26,4 +26,4 @@ THEON ex Zamberto. Sit parallelogrammum α β γ δ, dimetiens uero illius α γ
 
 *[Figure: parallelogram α β γ δ (α top left, β top right, γ bottom right, δ bottom left) with diagonal α γ; ε on side α β, η on side α δ, ζ at their intersection on the diagonal, θ on side β γ, κ on side δ γ; parallelograms ε η and θ κ about the diagonal]*
 
-*[Signature: O 2]* *[Catchword: quæ]*
+<!-- Signature: O 2 --> <!-- Catchword: quæ -->

@@ -1,4 +1,6 @@
-# *[Folio: 272]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 272 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ## Eucli ex Camp. Propositio 26
 
@@ -22,4 +24,4 @@ THEON ex Zamber. Exponantur tres rationales potentia tantum cōmensurabiles α,�
 
 *[Figure: five horizontal lines in the right margin, labelled: α R. 46 — δ R.R.3072 — β R. 48 — ε R.R.R.1456 — γ R.28]*
 
-*[Catchword: sicut]*
+<!-- Catchword: sicut -->

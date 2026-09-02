@@ -1,6 +1,6 @@
-# LIBER DVODECIMVS
+<!-- # LIBER DVODECIMVS -->
 
-*[Folio: 403]*
+<!-- Folio: 403 -->
 
 tionibus circuli, quarũ portionũ latera quadrati sunt chordæ, diuisis arcubus illarum portionũ per æqualia, & sint illi trianguli c, d, e, f, super quos etiam erige seratilia ad altitudinẽ columnæ a. Et manifestũ est quod hæc seratilia sunt maius medietate portionũ columnæ super portiones circuli consistentiũ, quemadmodũ & ipsi trianguli sunt maius medietate portionũ circuli. Fiat autem hoc toties, quousq̃ per primam 10 cogatur aduersarius confiteri portiones columnæ pariter acceptas esse minus corpore b. Erit igitur columna laterata octogona quam cõponunt omnia seratilia pariter accepta, quorũ bases sunt trianguli diuidentes polygonium inscriptum circulo a, maius triplo pyramidis rotũdæ a. Et quia ipsa laterata columna est tripla ad suam pyramidem, sicut demõstratum est in eis quæ præmissa sunt, sequitur ex secunda parte 10 quinti libri, ut rotunda pyramis a sit minor laterata pyramide lateratæ columnæ cuius basis est inscriptũ polygoniũ basi rotundæ pyramidis a, quod est impossibile: est enĩ pyramis laterata, pars ipsius pyramidis rotundæ. Non est igitur pyramis a, minus tertia parte suæ columnæ. Sed nec plus tertia. Si enim possibile est, sit pyramis a, plus tertia parte columnæ a, quantitate corporis b, ita q̃ detracto corpore b de pyramide a, sit residuũ ipsius pyramidis tertia pars columnæ a. Igitur quemadmodũ prius ex pyramide a, intelligatur detrahi pyramis laterata sibi æque alta cuius basis sit quadratũ circulo a inscriptum, quam lateratam pyramidem constat esse plus dimidio pyramidis rotundæ. Item de residuo pyramidis a, rursus intelligãtur detrahi pyramides æque altæ, statutæ super triangulos c, d, e, f, qui sunt in portionibus basis, & hoc toties fiat, ut ex prima decimi relinquatur ex pyramide a, minus corpore b. Eritq̃ itaq̃ pyramis laterata inscripto polygonio superstans, quam componunt lateratæ pyramides ex rotunda pyramide detractæ, maius tertia parte rotundæ columnæ a. Et quia ut probatum est in præcedentibus, hæc pyramis laterata est tertia pars suæ columnæ lateratæ a, sequitur denuo ex secũda parte 10 quinti columnã rotundam a esse minorem columna laterata eiusdem altitudinis, cuius basis est polygonium basi rotundæ pyramidis inscriptũ. Hoc autem impossibile, nam hæc columna laterata, pars est columnæ rotundæ. Cum igitur columna rotunda non possit esse minus triplo suæ pyramidis, neq̃ maius, erit necessario tripla ad eam. Quod demonstrare uolumus.
 
@@ -14,4 +14,4 @@ THEON ex Zamb. Habeat enim conus, cylindro basin eandẽ, hoc est circulũ α β
 
 *[Figure: circle α β γ δ with inscribed square and inscribed octagon; α at top, β at left, δ at right, γ at bottom, with the bisection points ε, ζ, η, θ marked on the circumference]*
 
-*[Signature: L 4]* *[Catchword: tertij)]*
+<!-- Signature: L 4 --> <!-- Catchword: tertij) -->

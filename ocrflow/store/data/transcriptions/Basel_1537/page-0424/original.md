@@ -1,6 +1,6 @@
-# LIBER DVODECIMVS.
+<!-- # LIBER DVODECIMVS. -->
 
-*[Folio: 413]*
+<!-- Folio: 413 -->
 
 ## Eucl. ex Zamb. Theorema 15 Propositio 15
 
@@ -22,6 +22,6 @@ CAMPANVS Sint duo circuli a b c d & e f, ab uno communi centro quod sit g, circ≈
 
 *[Figure: two concentric circles with centre g; the outer circle a b c d with a at top, b at left, c at bottom, d at right; the inner circle e f with e at top and f at bottom; the horizontal chord through e meets the outer circle at h on the left and k on the right, with further points l at the left and m, n at the top on either side of a]*
 
-*[Signature: M 3]*
+<!-- Signature: M 3 -->
 
-*[Catchword: tij]*
+<!-- Catchword: tij -->

@@ -1,4 +1,4 @@
-*[Folio: 53]*
+<!-- Folio: 53 -->
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS.
 
@@ -26,4 +26,4 @@ Sector circuli. Ang. super centrum cōsistens — Similes cir. portiōes & simil
 
 *[Figure: a circle with two radii forming a sector; a circle with an angle standing at the centre; two circles each with an inscribed triangle on a chord]*
 
-*[Signature: e 3]* *[Catchword: Ex]*
+<!-- Signature: e 3 --> <!-- Catchword: Ex -->

@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 318]*
+<!-- Folio: 318 -->
 
 dine commensurabili, estque tota β η, ipsi α expositæ rationali commensurabilis. Igitur (per tertias dffinitiones. *[sic: pro diffinitiones]*) β γ apotome est prima. Inuenta igitur est prima apotome β γ. quod erat agendum.
 
@@ -44,4 +44,4 @@ THEON ex Zamb. Exponatur rationalis α, explicentur tres numeri ε, β γ, γ δ
 
 *[Figure: five horizontal lines: dotted number line ε; dotted number line with labels β, δ, γ; line α; line with points ζ, θ, η; shorter line κ]*
 
-*[Catchword: ζ θ]*
+<!-- Catchword: ζ θ -->

@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 27]*
+<!-- Folio: 27 -->
 
 propositionē) in rectis ipsis α ε, linea α ζ. Et quoniā in rectas lineas β γ, ε ζ, recta linea incidens α γ, alternos angulos, ε α γ, α γ β æquales adinuicē fecit, parallelus est igitur ε ζ ipsi β γ (per 27 propositionē.) Per datum ergo signum α, datæ rectæ lineæ β γ parallelus recta linea ε α ζ ducta est, quod fecisse oportuit.
 
@@ -24,6 +24,6 @@ CAMPANI additio. Ex hac arte patet, quòd omnis figuræ polygoniæ omnes anguli 
 
 *[Figure: irregular polygon with sides produced, points l, k, b, f, e, a, c, g, h, δ; five-pointed star (pentagram) formed by mutually intersecting sides of pentagon, with points b, f, e, a, δ, c]*
 
-*[Signature: c 2]*
+<!-- Signature: c 2 -->
 
-*[Catchword: æquales]*
+<!-- Catchword: æquales -->

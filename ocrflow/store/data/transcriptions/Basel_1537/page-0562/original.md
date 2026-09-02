@@ -1,6 +1,6 @@
-# DATA
+<!-- # DATA -->
 
-*[Folio: 549]*
+<!-- Folio: 549 -->
 
 d b. Dico quod a b ipsi c d, aut est æqualis, uel altera altera dato maior est. Quoniā enim data est utraque ipsarū a c, b d. Data iam aut sunt æqualia aut inæqualia. Sint primū æqualia, æqualis igitur est a c ipsi b d, communis auferatur e b, reliqua igitur a b reliquæ c d est æqualis. Non sint autem æqualia, sed esto maior a c, ipsa b d & ipsi b d, exhibeatur æqualis c e, per 2 primi elemen. Ipsa b d, data est, data igitur est & c e, est autem & tota a c, data, & reliqua a e, data est. Et quoniam æqualis est e c ipsi b d, communis auferatur b c: reliqua igitur b e, reliquæ c d est æqualis. Est aūt data a e. Igitur a b ipsa c d, dato maior est.
 
@@ -38,4 +38,4 @@ Si uero efficiemus sicut a b ad c d, sic a e, ad id quod ex c, sicut in 7 inueni
 
 SI binæ magnitudines adinuicem rationem datam habuerint, & auferatur ab earū utraq̃ data magnitudo, reliquæ adinuicē aut
 
-*[Catchword: rationē]*
+<!-- Catchword: rationē -->

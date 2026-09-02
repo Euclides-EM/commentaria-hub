@@ -1,10 +1,12 @@
-# *[Folio: 360]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 360 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ciem assignatã, erit earũ cõmunis sectio linea recta ex 3 huius, sitq̃ b d. In hac ergo communi sectione signato puncto quolibet qui sit d, extrahatur ab eo in superficie quæ producta est à linea a b, linea quædam perpendicularis ad lineam b d, quæ sit d c. Eritq̃ ex secunda parte 28 primi, linea c d, æquidistans lineæ a b, ideoq̃ ex 8 huius, linea c d, est etiam perpendicularis ad superficiem propositam. Quia ergo hoc modo quælibet linea protracta orthogonaliter à quolibet puncto lineæ b d, ad ipsam lineã b d, in ipsa superficie quæ producta est à linea a b, est perpendicularis ad propositam superficiem, ex diffinitione superficiei supra superficiẽ orthogonaliter erectæ, constat uerum esse quod propositũ est.
 
 *[Figure: two parallel vertical lines a b and c d standing on a horizontal line through b and d; a and c at top, b and d at bottom]*
 
-Eucli. ex Zamb. — Theorema 16 — Propositio 18
+## Eucli. ex Zamb. — Theorema 16 — Propositio 18
 
 *[Margin: 18]*
 
@@ -14,7 +16,7 @@ THEON ex Zamber. Recta enim linea α β, subiecto plano ad angulos rectos esto. 
 
 *[Figure: rectangle representing the plane δ ε, with δ at top left and ε at bottom right; two vertical lines within it, η ζ (η at top, ζ at bottom) and α β (α at top, β at bottom); γ at bottom left corner]*
 
-Eucli. ex Camp. — Propositio 19
+## Eucli. ex Camp. — Propositio 19
 
 *[Margin: 19]*
 
@@ -26,4 +28,4 @@ CAMPANVS. Sint duæ superficies a b & c d seinuicem secantes, erectæ orthogonal
 
 *[Figure: two rectangular surfaces intersecting each other and standing on a horizontal base plane; labels a and e at top with c at upper right, b at left, g at right of the vertical common section, d at lower left, f at the foot of the common section on the base plane, b at bottom; oblique lines drawn from f]*
 
-*[Catchword: quæ ex]*
+<!-- Catchword: quæ ex -->

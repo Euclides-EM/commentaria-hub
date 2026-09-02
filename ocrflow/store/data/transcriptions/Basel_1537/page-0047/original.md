@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 38]*
+<!-- Folio: 38 -->
 
 & a e. Itemq̃ à duobus reliquis angulis trianguli, qui sunt b & c, ducam ad duos angulos duorum quadratorum minorum, duas lineas se intersecantes intra ipsum triangulum, quæ sunt b k & c f. Et quia uterq̃ duorum angulorum b a c & b a g est rectus, per 14 erit g a c linea una: eadem ratione erit b a h, linea una, quia uterque duorum angulorū c a b & c a h est rectus. Quia ergo super basin b f, & inter duas lineas æquidistantes b f & g a constituta sunt parallelogrammum b f g a & triangulum b f c, erit per 41 parallelogrammū b f g a duplum ad triangulum b f c, sed triangulus b f c est æqualis triangulo b a d per 4, quia f b & b c latera primi sunt æqualia a b & b d lateribus postremi, & angulus b primi est æqualis angulo b postremi, eo quod uterq̃ constat ex angulo recto & angulo a b c cōmuni: ergo parallelogrammum b f g a, est duplum ad triangulum a b d. Sed parallelogrammū b d l m est duplum ad eundem triangulum per 41, quia constituti sunt super eandem basin, scilicet, b d, & inter lineas æquidistantes quæ sunt b d & a l, ergo per cōmunem scientiam quadratum b f g a & parallelogrammum b d l m sunt æqualia, quia eorum dimidia, uidelicet, prædicti trianguli sunt æqualia. Eodem modo & per easdem propositiones mediantibus triangulis k b c & a c e probabimus quadratū a c h k esse æquale parallelogrammo c e l m. Quare patet propositum.
 
@@ -26,4 +26,4 @@ CAMPANVS. Lineam in seipsam ducere, est eius quadratum describere. Sit triangulu
 
 *[Figure: triangle with apex c and base a d; b on the base between a and d; line c b drawn]*
 
-*[Catchword: perpen]*
+<!-- Catchword: perpen -->

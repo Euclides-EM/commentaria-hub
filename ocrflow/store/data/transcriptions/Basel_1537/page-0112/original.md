@@ -1,6 +1,6 @@
-# LIBER QVINTVS
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 103]*
+<!-- Folio: 103 -->
 
 autem ipsum, multiplex: propter hoc quod minus aliquoties sumptum, ipsum constituat: erunt igitur relatiue dicta adinuicem, pars & multiplex. Nam omnis pars, submultiplex: ut patet per eius diffinitionem.
 
@@ -12,4 +12,4 @@ Cuius diffinitionis intellectus est, quod proportio est habitudo duarum quātita
 
 Quod autem dicit certa habitudo, non sic intelligas quasi nota uel scita, sed quasi determinata, ut sit sensus. Proportio est determinata habitudo duarum quantitatum: ita, inquam, determinata: quod hæc & non alia. Non enim est necessarium, ut omnis habitudo duarum quantitatum sit scita à nobis, nec etiam à natura. Nam proportio quædam est discretorum, ut numerorum: quædam autem continuorum. In numeris autem, minor: est pars aut partes maioris, ut demonstratur in septimo: quare & in eis est habitudo certa & nota. At uero in continuis, est proportio magis larga: est enim in ea, ubi minor quantitas est, pars aut partes maioris: & talium omnium: mediantibus numeris est proportio nota, quæ & rationalis dicitur. Dicunturq̃ omnes tales quantitates, commmunicantes, quia eas una & eadem necessario metitur: unde & omnes numeri sunt communicantes: omnes enim ipsos metitur unitas. Est etiam, ubi minor non est pars aut partes maioris: & in talibus non est nota proportio nec nobis nec naturæ. Diciturq̃ hæc proportio irrationalis, & hæ quantitates, incōmunicantes: unde fit ut quæcunq̃ portio reperitur in uumeris, reperiatur in omni genere continuorū, ut in lineis, superficiebus, corporibus & temporibus: nō aūt è conuerso: infinitæ em sunt proportiones in cōtinuis repertæ: quas numerorū natura nō sustinet. Sed quæcūq̃ proportio reperitur in uno genere continuorū: eadē reperitur in omnibus alijs. Nam qualitercūq̃ se habet aliqua linea ad quamlibet aliam: sic se habet quælibet superficies ad aliquā aliā, & quodlibet corpus ad aliquodaliud, similiter & tēpus: sed nō sic: quilibet uumerus ad aliquē alium: unde magis est larga proportio in cōtinuis, quàm in discretis. Ex quo manifestum est proportionem geometricam esse
 
-*[Signature: i 4]* *[Catchword: maioris]*
+<!-- Signature: i 4 --> <!-- Catchword: maioris -->

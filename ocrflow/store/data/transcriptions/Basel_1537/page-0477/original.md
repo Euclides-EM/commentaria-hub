@@ -1,6 +1,6 @@
-# GEOMET. ELEMEN. EVCLIDIS
+<!-- # GEOMET. ELEMEN. EVCLIDIS -->
 
-*[Folio: 466]*
+<!-- Folio: 466 -->
 
 Cum enim cuncti trianguli pyramidē ambientes sint similes & æquales, erūt quoqꝫ circuli ipsos circūscribentes æquales, ideoqꝫ perdendiculares *[sic: for perpendiculares]* à centro sphæræ ad eosdem circulos in eorū centra, erunt etiam æquales, perpendiculares autē cadentes ad circulos, sunt perpēdiculares ad bases pyramidis, itaqꝫ perpendiculares ad bases. sunt adinuicē æquales. Linea autē h f, est perpēdicularis ad basin pyramidis à c d, quā h f quia constat ex prædictis esse sextā partem diametri a b, relinq́tur ergo esse uerū quod per correlariū cōcluditur. Idem aliter demōstrare contingit, si prius hoc antecedēs fuerit stabili ratiōe firmatū.
 
@@ -18,4 +18,4 @@ Nunc itaqꝫ quod promisimus absoluamus. Ad hoc autem imaginemur pyramidem quatu
 
 *[Figure: triangle with apex a at the top, b at the lower left and c at the lower right; d lies to the upper right, joined by lines to the triangle; e marks a point inside the triangle and f a point on the left side, with the line from c through e to f drawn]*
 
-*[Catchword: Cumqꝫ]*
+<!-- Catchword: Cumqꝫ -->

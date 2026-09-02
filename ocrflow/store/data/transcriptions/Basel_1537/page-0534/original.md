@@ -1,6 +1,6 @@
-# PERSPECTIVA
+<!-- # PERSPECTIVA -->
 
-*[Folio: 523]*
+<!-- Folio: 523 -->
 
 Sit quam cognoscere conuenit quāta sit data altitudo b c, exponaturque speculum k a, oculus uero sit d & ab ipso procidat radius d h, refringaturq́ ut h b, finiens. & ab ipso d oculo perpendicularis d f agatur per duodecimam primi elementorum. Igitur anguli qui ad h sunt æquales adinuicem, hoc enim ostensum est per primum theorema speculariæ, sed angulus ad c, eo qui ad f, est æqualis per 4 postulatum, rectus enim est eorum uterque. Reliquus igitur angulus qui ad b, reliquo qui ad d est æqualis. Quare triangulum b c h, ipsi k f, triangulo simile est per primam diffinitionem 6i elementorum. Est igitur sicut h c ad c b sic h f ad f d. Ipsius autem f h, ad f d ratio nota est, & ipsiꝰ igitur h c ad c b, ratio nota est: at nota est c h nota igitur & c b altitudo.
 
@@ -34,4 +34,4 @@ Esto, inquam, ambitus b c, oculus uero sit d. In eodem existens plano ipsi b à 
 
 *[Woodcut initial S]* SPhæra utcunque inspecta ab uno oculo minus semper hemisphærio cernetur, ipsum uero spectatum sub sphæræ circulo comprehensum apparet.
 
-*[Signature: X 4]* *[Catchword: Sit]*
+<!-- Signature: X 4 --> <!-- Catchword: Sit -->

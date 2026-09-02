@@ -1,6 +1,6 @@
-# LIBER TERTIVS
+<!-- # LIBER TERTIVS -->
 
-*[Folio: 55]*
+<!-- Folio: 55 -->
 
 cto, g, erit linea e f, maior linea e g, pars uidelicet toto, quod est impossibile. Quod si fuerit extra lineā e b, ut in pūcto h, ducātur lineæ h a, h d, h c. Et quia latera h d, & d a triāguli h d a sunt æqualia lateribus h d & d c triāguli h d c, & basis h a basi h c, erit per 8 primi, angulus a d h æqualis angulo c d h, quare uterq̃ rectus, & quia angulus a d b fuit etiā rectus, erit a d h æqualis a d b per 3 petitionē primi, pars uidelicet toti, quod est impossibile. Nō est ergo centrū dati circuli alicubi q̃ in puncto f, quod est propositum.
 
@@ -38,4 +38,4 @@ THEON ex Zamb. Sit circulus α β γ, & in eius circūferentia sint utcūq̃ bin
 
 *[Figure: circle with γ at the top, δ within, points α and β on the circumference joined by a line, ε and ζ below on the produced line]*
 
-*[Signature: e 4]* *[Catchword: ipsam]*
+<!-- Signature: e 4 --> <!-- Catchword: ipsam -->

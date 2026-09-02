@@ -1,4 +1,4 @@
-*[Folio: 420]*
+<!-- Folio: 420 -->
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER TERTIVSDECIMVS,
 
@@ -20,4 +20,4 @@ IDEM aliter. Ex quarta ſecundi conſtat, quod quadratum lineæ a b, eſt quadru
 
 SI recta linea extrema & media ratione ſecetur maius ſegmentum admittens totius dimidiam, quintuplum poteſt eius quod ex totius dimidia.
 
-*[Catchword: THEON]*
+<!-- Catchword: THEON -->

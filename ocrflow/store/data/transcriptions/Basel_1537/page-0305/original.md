@@ -1,6 +1,6 @@
-# GEO. ELEMENT. EVCLIDIS
+<!-- # GEO. ELEMENT. EVCLIDIS -->
 
-*[Folio: 294]*
+<!-- Folio: 294 -->
 
 tudine. Et quoniã cōmēsurabilis est α η, ipsi ε η, cōmēsurabilis est & α ε utriq̃ ipsarũ α η, η ε. Et α ε, ratiõalis est, ratiõalis igitur & utraq̃ ipsarũ α η, η ε, per cōparationē. Et quoniã incōmēsurabilis est α ε, ipsi α β, cōmēsurabilis autē est α ε, utriq̃ ipsarũ α η, η ε, & ipsæ α η, η ε, igitur incōmēsurabiles sunt ipsi α β. Ipsæ β α, α η, η ε, igitur (per 13 decimi,) ratiõales sunt potētia tantũ cōmensurabiles. Quare (per 21 decimi,) utrũq̃ ipsorũ α θ, η κ, mediũ est, quare & utrũq̃ ipsorũ σ ν, ν π, mediũ est, & ipsæ μ ν, ν ξ, igitur mediæ sunt (per 21 decimi.) Et quoniã cōmensurabilis est α η ipsi η ε lõgitudine, commēsurabile est & α θ ipsi η κ, hoc est σ ν ipsi ν π, hoc est quod ex μ ν ei quod ex ν ξ. quare & ipsæ μ ν, ν ξ, potentia sunt commensurabiles. Et quoniã incommēsurabilis est α ε, ipsi ε δ, lõgitudine, sed ipsa quidem α ε cōmensurabilis est ipsi α η, & ε δ, ipsi ε ζ, incōmensurabilis igitur est (per 13 decimi) α η ipsi ε ζ. Quare (per 1 sexti, & 11 decimi & α θ, ipsi ε λ incōmensurabile est, hoc σ ν, ipsi μ ρ, hoc est ο ν, ipsi ν ρ, hoc est μ ν, ipsi ν ξ, incōmēsurabilis lõgitudine est. Ostensum autē est quod ipsæ μ ν, ν ξ, mediæ existētes, potētia sunt cōmensurabiles. Ipsæ igitur μ ν, ν ξ, mediæ sunt potētia tantũ cōmensurabiles. Dico iã quod & ratiõale cōprehēdunt. Quoniã enim δ ε supponitur utriq̃ ipsarũ α β, ε ζ cōmensurabilis, commensurabilis igitur (per 12 decimi) est & ζ ε ipsi ε κ. Et utraq̃ ipsarũ rationalis, rationale igitur est ε λ, hoc est μ ρ. Sed μ ρ, est quod sub μ ν, & ν ξ. Si uero (per 37 decimi) binæ mediæ potentia tantũ cōmensurabiles, compositæ fuerint rationale cōprehēdentes, tota irrationalis est, uocaturq̃ ex binis prima medijs. Igitur ipsa μ ξ, ex binis est prima medijs. Quod erat ostendendum.
 
@@ -38,4 +38,4 @@ THEON ex Zamb. Areola nãq̃ α β γ δ, cõprehēdatur sub rõnali α β. ac e
 
 SI linea rationali binomioq̃ quarto superficies cõtineatur, quæ in eam superficiem potest est linea maior.
 
-*[Catchword: CAM]*
+<!-- Catchword: CAM -->

@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 291]*
+<!-- Folio: 291 -->
 
 Conuertendo igitur (per 19 quinti & eius correlarium, est sicut α β numerus ad β γ, sic quod ex ε ζ ad id quod ex θ. At α β, ad β γ, rationem non habet quā quadratus nmerus *[sic: numerus]* ad quadratū numerum, neque igitur quod ex ε ζ, ad id quod ex θ rationem habet quam quadratus numerus ad quadratum numerū. Incommensurabilis igitur est (per 9 decimi,) ε ζ, ipsi θ longitudine. Quare ε ζ ipsa ζ η maius potest eo quod sibi ex incōmensurabili. Suntq̃ rationales potentia tantum commensurabiles, & ζ η, nomen minus commensurabile est expositæ rationali δ longitudine. Ipsa igitur ε η, per 48 decimi,) quinta est ex binis nominibus, quod erat inueniendum.
 
@@ -32,4 +32,4 @@ SI fuerit superficies binomio primo lineaq̃ rationali contenta, latus quod supe
 
 CAMPANVS Sit superficies a c, cõtenta linea ratiõali a b, & binomio primo quod sit b c. Dico quod latus tetragonicum superficiei a c est binomiũ Sit enim punctus d communis terminus duarũ portionũ binomij primi in b c, cuius maior portio sit b d, eritq̃ rationalis in longitudine ex diffinitione, & commensurabilis lineæ a b rationali positæ. Diuidatur item minor portio quæ est d c per æqualia ad punctũ e, lineaq̃ d b diuidatur sub ea conditione ad punctũ f, quod inter partes eius quæ sunt b f, & f d, cadat d e medio loco proportiõalis, quod qualiter fiat in 11 dictũ est.
 
-*[Signature: B 2]* *[Catchword: ducan]*
+<!-- Signature: B 2 --> <!-- Catchword: ducan -->

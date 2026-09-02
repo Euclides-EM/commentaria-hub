@@ -1,6 +1,6 @@
-*[Folio: 384]*
+<!-- Folio: 384 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 tes cum ijs quæ in principio rectis lineis alterum alteri. ipsæ igitur quæ ex κ, ξ. signis perpendiculares ductæ ad ea quæ per ν λ μ, δ ε ζ, plana, (per corollariū præcedentis) inuicem sunt æquales. Quare λ θ, ε κ, solida, sub eadem sunt altitudine. Super æqualibus autē basibus & sub eisdē altitudinis constituta solida parallelepipeda, inuicem sunt æqualia (pea *[sic: for per]* 31 undecimi.) Igitur solidum θ λ, solido ε κ est æquale. At λ θ, solidū, est ex ipsis α. β, γ, & ε κ, solidū est ex β. Igitur quod ex α, β γ, solidum parallelepipedum, æquum est ei quod ex β solido æquilatero quidem, sed æquiangulo prædicto. Quod erat ostendendum.
 
@@ -24,4 +24,4 @@ CAMPANVS Simile proponit uigesima prima sexti de superficiebus. Sint itaq̃ quat
 
 Si quatuor rectæ lineæ proportionales fuerint, & quæ ex ipsis solida palelepipeda *[sic: for parallelepipeda]* similia similiterq̃ descripta proportionalia erunt. Et si quæ ex
 
-*[Catchword: ipsis]*
+<!-- Catchword: ipsis -->

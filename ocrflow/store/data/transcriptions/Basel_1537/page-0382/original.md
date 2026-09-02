@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 371]*
+<!-- Folio: 371 -->
 
 dum. Et quoniā est sicut ε γ ad γ η, sic β α ad α κ, & quæ circū æquos angulos qui sub ε γ η, β α κ, latera sunt proportionalia, igitur parallelogrammum η ε ipsi κ β parallelogrammo est simile (per diffinitionē sexti.) Idq́̃ propterea & κ θ parallelogrammū ipsi η ζ parallelogrammo est simile, & insuper ipsum ζ ε ipsi θ β. Tria igitur parallelogrāma ipsius γ δ solidi, tribus parallelogrāmis ipsius α λ solidi sunt similia. Sed tria, tribus quæ ex opposito æqualia & similia sunt. Totum igitur γ δ solidum, toti α λ solido simile est. A data igitur recta linea α β, dato solido parallelepipedo γ δ simile & similiter positum descriptū est α λ. Quod fecisse oportuit.
 
@@ -44,4 +44,4 @@ CAMPANVS. Verum est quod solida æquidistantiū laterum æque alta, siue inter s
 
 *[Figure: a slanted parallelepiped on a base, with labels b and c at the top, e and f on the front face, d inside at the left, a at the lower left, and diagonal lines through the base]*
 
-*[Catchword: demon]*
+<!-- Catchword: demon -->

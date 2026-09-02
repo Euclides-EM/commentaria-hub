@@ -1,6 +1,6 @@
-# LIBER QVINTVS
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 141]*
+<!-- Folio: 141 -->
 
 iuncta recta linea bifariam dispescit ipsius trianguli angulum.
 
@@ -8,7 +8,7 @@ THEON ex Zamberto. Sit triangulum α β γ,seceturque (per 9 primi,)angulus β �
 
 *[Figure: triangle with apex ε at the top, point α on the left side, base β δ γ, with lines α δ and α γ drawn within]*
 
-Eucli.ex Camp. Propositio 4
+## Eucli.ex Camp. Propositio 4
 
 ## 4
 
@@ -20,7 +20,7 @@ CAMPANVS. Sint duo trianguli a b c,d e f æquianguli: sitqꝫ angulus a æqualis
 
 *[Figure: two triangles: one with apex a and base b c; the other with apex g, point a on its left side, point d on the right, and base e f c, with inner lines drawn]*
 
-Eucli.ex Zamb. Theorema 3. Propositio 4.
+## Eucli.ex Zamb. Theorema 3. Propositio 4.
 
 ## 4
 
@@ -30,4 +30,4 @@ THEON ex Zamberto. Sint triangula æquiangula α β γ & δ γ ε æquum habenti
 
 *[Figure: large right triangle with apex ζ at the top, point α on the left side, point δ on the inner right, and base β γ ε, with inner lines drawn]*
 
-*[Catchword: ε γ,an]*
+<!-- Catchword: ε γ,an -->

@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 33]*
+<!-- Folio: 33 -->
 
 ## Eucli. ex Zamb. Theorema 29. Propositio 39.
 
@@ -46,4 +46,4 @@ CAMPANVS. Sit parallelogrammū a b c d, & triāgulus e b d super basim b d, & in
 
 *[Figure: parallelogram a c, b δ with triangle e b δ on the same base b δ, diagonals drawn; second figure: parallelogram a c, b δ with triangle e f g on an equal base between the same parallels]*
 
-*[Catchword: des,]*
+<!-- Catchword: des, -->

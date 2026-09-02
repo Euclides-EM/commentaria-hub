@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 377]*
+<!-- Folio: 377 -->
 
 neæ b & f d nō fuerint æquales, sit f d maior, ex ea resecetur f g ad æqualitatē e b, tribusque cæteris lineis quæ sunt altitudinis solidi c d ad eandē mēsurā in pūctis b, K, l, resectis perficiatur solidum parallelogrammum c g æque altum solido a b, eritq̃ ex præmissa, a b ad c g, sicut a e ad c f. Cum itaq̃ c d sit æquale a b, erit (ex prima parte 7 quinti) c d ad c g, sicut a e ad c f. Per præmissam autem est proportio c d ad c g, sicut m f ad f l, quod patet, si una ex lateralibus superficiebus solidi c d (& ipsa sit f m) intelligatur basis ipsius. At (per primā sexti) f m ad f l, sicut d f ad f g, ideoq̃ per 7 quinti sicut d f ad b e. Igitur a e ad e f *[sic: for c f]*, sicut d f ad b e. Cōstat itaq̃ prima pars. Secundā partem cū sit cōuersa primæ, cōuerso modo probabis. sit enim eadē dispositiōe manēte, proportio a e ad c f, sicut d f ad e b. Dico tūc solida a b & c d esse æqualia. Erit enim ex 7 quinti d f ad f g, sicut a e ad c f. Sed ex præmissa est a b ad c g, sicut a e ad c f. Igitur est a b ad c g, sicut d f ad f g. ex prima aūt sexti est d f ad f g, sicut m f, ad f l, & ex præmissa c d ad c g sicut m f ad f l. Itaque c d ad g c, sicut a b ad c g. Igitur ex 9 quinti a b & c d sunt æqualia, quod est propositum.
 
@@ -24,6 +24,6 @@ CAMPANVS Sint enim duo solida a b & c d parallelogrāma & similia. Dico ꝙ ꝓp
 
 *[Figure: a parallelepiped with c at top left, b at the left, g at bottom left, d at bottom right]*
 
-*[Signature: I 3]*
+<!-- Signature: I 3 -->
 
-*[Catchword: inter]*
+<!-- Catchword: inter -->

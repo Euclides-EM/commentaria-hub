@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 50]*
+<!-- Folio: 50 -->
 
 CAMPANVS. Sit triangulus a b c, habens angulum a, obtusum. A pūcto c, ducatur linea perpendicularis ad lineam b a, quæ necessario cadet extra triangulum a b c: alioqui angulus obtusus esset rectus aut minor recto per 16 primi: sit ergo c d perpendicularis super lineam a b productam usque ad d. Dico q̃ quadratum lateris b c quod subtenditur angulo obtuso, tāto maius est duobus quadratis duarum linearum a b & a c ambientibus ipsum angulum obtusum, quantum est illud quod fit ex b a in a d bis. (Potētia enim lineæ, respectu quadrati sui est, unde tantum dicitur posse linea quælibet: quātum in se ducta producit.) Erit enim per 4 huius, quadratum b d, æquale duobus quadratis duarum linearum b a & a d, & duplo eius quod fit ex b a in a d. Et quia quadratum b c per penultimam primi est æquale quadrato b d & quadrato d c: ipsum erit æquale quadratis trium linearū b a, a d, & d c, & duplo eius quod fit ex b a in a d. Sed per eādem, quadratū a c, est æquale quadratis a d & d c. ergo quadratum b c, est æquale quadratis duarum linearum b a & c a: & duplo eius quod fit ex b a in a d. Quare b c tanto amplius potest duabus lineis b a, a c, quantum est duplum eius quod fit ex b a in a d. Iam enim diximus quod tantum dicitur posse linea quælibet: quantum in se ducta, producit, quod est propositum.
 
@@ -26,4 +26,4 @@ CAMPANVS. Quod hic proponitur de latere subtenso alicui angulo acuto, in triangu
 
 *[Figure: triangle with apex a and base b c, perpendicular a d drawn from a to point d on the base]*
 
-*[Catchword: reli]*
+<!-- Catchword: reli -->

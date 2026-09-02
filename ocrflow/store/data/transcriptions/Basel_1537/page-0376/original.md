@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS
+<!-- # LIBER VNDECIMVS -->
 
-*[Folio: 365]*
+<!-- Folio: 365 -->
 
 Quod est contra posita. Quod si esset maior superpositis tribus triangulis quorū sunt anguli a, b, c, tribus triāgulis diuidētibus triangulū d e f unoquoq̃ illi cum quo cōmunicat in basi, ita ꝙ bases superponātur basibus æquales uidelicet æqualibus, & anguli a b c cadant ad partē puncti g, sequeretur ex 21 primi tres angulos a, b, c, esse maiores tribus qui sunt d g e, e f g, f g d. Essent itaq̃ maiores quatuor rectis. Quod est amplius contrariū positis. Relinquitur itaq̃ unūquodq̃ ex sex lateribus tres propositos angulos ambiētibus, maius esse linea egrediente à centro g, ad circumferentiā d e f, ideoq̃ etiam potentius. Sit igitur potētius in linea g h, quæ sit secundū 12 huius orthogonaliter erecta super superficiē anguli uel circuli d e f, demittāturq̃ tres hypothenusæ h d, h e, h f, quas dico cōtinere angulos tres supficiales *[sic]* æquales tribus ꝓpositis, constituentes angulū solidū in pūcto h. Cum enim quadratū lineæ a d sit æquale duobus quadratis duarū linearū d g & g h ex hypothesi, at quadratū lineæ d h sit æquale eisdē ex penultima primi, necesse est lineā a d esse æqualē lineæ d h. Eodemq̃ modo & lineā a e, lineæ e h. Igitur ex 8 primi cum bases etiā sint æquales, erit āgulus a æqualis angulo d h e. Simili quoq̃ modo erit angulus b æqualis augulo *[sic: pro angulo]* e h f, & angulus c æqualis angulo f h d. Quare constat factū esse qd̃ facere disposuimus.
 
@@ -18,4 +18,4 @@ THEON ex Zamb. Sint dati tres anguli plani qui sub α β γ, δ ε ζ, η θ κ,
 
 Constituatur iam à signo ξ ipsius λ μ ν circuli plano ad angulos rectos ξ ρ (per 12 undecimi.) Et quo maius est quadratū quod ex α β, eo quod ex λ ξ, ei æquum esto quod ex ξ ρ, cōnectanturq̃ ρ λ, ρ μ, ρ ν. Et quoniam ρ ξ recta est, & ad
 
-*[Signature: H 3]* *[Catchword: ipsius]*
+<!-- Signature: H 3 --> <!-- Catchword: ipsius -->

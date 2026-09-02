@@ -1,6 +1,6 @@
-*[Folio: 551]*
+<!-- Folio: 551 -->
 
-# DATA
+<!-- # DATA -->
 
 to maior sit quàm in rõne. Dico ꝙ ipsa a b,ad e f,aut rationem habet datam,uel altera altera dato, maior est quàm in ratione. Nam quoniam c d ipsa a b,dato maior est.quàm in ratione,auferatur data magnitudo c g. Reliquæ igitur g d ad a b,ratio est data,eadem eidem fiat quæ ipsius c g ad a h. Ratio igitur ipsius c g ad a h data est. Data autem est c g:data igitur,& a h & totius c d ad totam h b,ratio est data. Rursus quoniam c d ipsa e f,dato maior est quàm in ratione,auferatur data magnitudo c k. Reliquæ igitur k d ad e f ratio data est,eadẽ eidem exhibeatur quæ ipsius c k ad l e. Ratio igitur & ipsius c k,ad l e,data est. Data autem c k,data igitur & l e,& totius c d ad totum l f ratio est data. Ipsius autem c d ad h b,ratio est data. Et ipsius h b,igitur ad l f.ratio est data. Et ab ipsis datæ auferuntur magnitudines h a,l e. Ipsæ igitur a b,e f,aut adinuicem rationẽ habebũt datam,aut altera altera dato maior erit quàm in ratiõe.
 

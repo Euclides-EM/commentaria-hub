@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 11]*
+<!-- Folio: 11 -->
 
 ## Eucli. ex Zamb. Theorema 2. Propositio 5
 
@@ -26,4 +26,4 @@ THEON ex Zamb. Sit triangulum α β γ, æquum habens angulum α β γ, angulo �
 
 *[Figure: triangle α β γ with apex α above; the point δ on the side α β, with the line δ γ drawn inside the triangle]*
 
-*[Catchword: Basis]*
+<!-- Catchword: Basis -->

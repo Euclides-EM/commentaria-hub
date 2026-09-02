@@ -1,4 +1,6 @@
-# LIBER TERTIVSDECIMVS *[Folio: 429]*
+<!-- # LIBER TERTIVSDECIMVS -->
+
+<!-- Folio: 429 -->
 
 coniungantur, tota linea ex eis compoſita ſecundum proportionem habẽtem mediũ & duo extrema diuiſa erit, maiorq̃ eius portio latus hexagoni.
 
@@ -10,4 +12,4 @@ CAMPANVS Conuerſam quoq̃ demõſtrare cõuenit, quod facile fiet, uia retrogra
 
 *[Figure: large circle labelled f]*
 
-*[Catchword: duo]*
+<!-- Catchword: duo -->

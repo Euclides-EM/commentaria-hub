@@ -1,4 +1,5 @@
-# *[Folio: 260]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 260 -->
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ## THEON Lemma.
 
@@ -30,4 +31,4 @@ THEON ex Zamb. Rationale enim α γ,ad rationalē iuxta aliquē prædictorum mod
 
 *[Figure: rectangle divided by a vertical line into two compartments; labels: α above the divider, δ below the left corner, β below the divider, γ below the right corner]*
 
-*[Catchword: Subse]*
+<!-- Catchword: Subse -->

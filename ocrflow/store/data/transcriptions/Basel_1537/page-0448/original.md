@@ -1,6 +1,6 @@
-# LIBER TERTIVSDECIMVS
+<!-- # LIBER TERTIVSDECIMVS -->
 
-*[Folio: 437]*
+<!-- Folio: 437 -->
 
 diculares ad lineā k l, & medio loco ꝓportionales inter partes ipsius quæ sunt k e & e l, sequitur ut semicirculus descriptus super k l, si circūducatur trāseat per omnia puncta circūferētiæ f g h, & per omnes solidos angulos pyramidis fabricatæ. Itaq; à diffinitiōe eius quod est figurā inscribi figuræ, pyramis fabricata est inscriptibilis illi sphæræ quā semicirculus per lineā k l lineatus motu suo describit. Et quia hæc sphæra descripta, est assignatæ sphæræ æqualis per diffinitionē æqualiū sphærarū, sequitur ex cōmuni scientia ut hæc pyramis fabricata, sit ab assignata sphæra circūscriptibilis. Qd' est ꝓpositū.
 
@@ -12,7 +12,7 @@ Similiter autē dicimus, ꝙ si fuerit aliquis angulus rectus cui basis subtenda
 
 *[Figure: base line a d c with perpendicular d b; b the vertex of the right angle a b c, e on the perpendicular below b, f above b; several semicircular arcs described on a c, one through e, one through b and one through f; lines from a and c to b, e and f]*
 
-Eucli. ex Zamb. Problema 1 Propositio 13
+## Eucli. ex Zamb. Problema 1 Propositio 13
 
 *[Margin: 13]*
 
@@ -20,4 +20,4 @@ Eucli. ex Zamb. Problema 1 Propositio 13
 
 THEON ex Zamb. Exponatur datæ sphæræ dimetiens α β, seceturq́; in γ signo, ut α γ ipsius β γ dupla sit. Describaturq́; super α β, semicirculus α δ β, exciteturq́; (per 11 primi) ab ipso γ signo ad angulos rectos, γ δ, & cōnectatur δ α, exponaturq́; circulus ε ζ η, æquam habens eam quæ ex centro ipsi δ γ, describaturq́; in ipso ε ζ η circulo triangulū æquilaterū ε ζ η, & accipiatur (per 1 tertij) centrū circuli, sitq́; θ signū, & cōnectatur ε θ, θ ζ, & θ η. Et constituatur
 
-*[Signature: O 3]* *[Catchword: (per 12]*
+<!-- Signature: O 3 --> <!-- Catchword: (per 12 -->

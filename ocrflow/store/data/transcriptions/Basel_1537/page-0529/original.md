@@ -1,6 +1,6 @@
-*[Folio: 518]*
+<!-- Folio: 518 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 æquos per planum delatos radios trāsmittit. Quare hac de causa fit ut planum rectas per phantasiam lineas relinquat, & in plano descriptam circunferentiam: planum etenim in rectas uisui lineas iacens, inuisibile siquidem est eo quia in illud nullus ab uisū emissorum radiorum cadit, at illius finis spectatur, quæ linea est. Inquit enim quod eo quia in uisu linea manet, quæ reliquis plani partibus adiecta inuisibile planum efficit. Eadem quoque causa asseritur de plano in rectas lineas posito ad oculum, efficit nāq́ rectas lineas relinquere phantasiam, circunferentiarūq́ in eodē plano ad oculum expositarum apparere, ut maior pars appareat quando plures uisus emittuntur, æqualis uero quando æquales, minor autē quando minores, fiunt uisibus sicut anguli quidem ad oculum.
 

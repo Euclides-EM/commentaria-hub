@@ -1,6 +1,6 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 231]*
+<!-- Folio: 231 -->
 
 **8** Cum fuerit numerus in duo æqualia diuisus, eiq̃ alius numerus adiunctus, quod fit ex ductu totius compositi in adiunctum cum quadrato medietatis, æquum est quadrato compositi ex dimidio & adiuncto.
 
@@ -26,6 +26,6 @@ Idem proponit 9 secundi de lineis. Sit enim a b diuisus per duos æquales qui si
 
 *[Figure: dotted line with points a, c, d, b]*
 
-*[Signature: u 2]*
+<!-- Signature: u 2 -->
 
-*[Catchword: Cum]*
+<!-- Catchword: Cum -->

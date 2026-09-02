@@ -1,6 +1,6 @@
-# LIBER QVARTVSDECIMVS.
+<!-- # LIBER QVARTVSDECIMVS. -->
 
-*[Folio: 457]*
+<!-- Folio: 457 -->
 
 CAMPANVS. Vt ab huius octauae demonstrationis 14 libri processu ambiguitas omnis abscedat, istud praescire oportet. Quod si aliqua linea secundum proportionē habentem medium duoq́ⱼ extrema fuerit diuisa, & ex medietate eius tanquā dimidium suae maioris portionis detrahatur, ipsa quoq́ⱼ medietas secundum proportionem habentem medium duoq́ⱼ extrema diuisa erit, & eius maior portio est tanquā dimidium maioris suae duplae. Verbi gratia. Sit a b diuisa secūdum proportionem habentem medium duoq́ⱼ extrema, in c, & maior eius portio sit a c, & sit d e tanquam dimidium a b, & d f tanquam dimidium a c. Dico ergo quod d e diuisa est in f secūdum proportionē habentem medium duoq́ⱼ extrema, & maior portio eius est d f, constat enim ex 15 quinti quod proportio a b ad a c, est sicut d e ad d f, uidelicet, dupla ad duplum tanquā simplum ad simplum. Quare permutatim a b ad d e, sicut a c ad d f. igitur per 19 quinti c b ad f e, sicut a b ad d e. Estq́ⱼ c b, dupla ad f e, sic enim est a b ad d e. Cum igitur tota a b sit dupla ad totā d e, & singulae partes a b ad singulas partes d e, erit ex 15 quinti & prima eiusdē & diffinitione lineae diuisae secundū proportionē habentē medium duoq́ⱼ extrema, linea d e diuisa in f, quemadmodū proponitur.
 
@@ -12,4 +12,4 @@ Nunc igitur demonstrationi eius quod propositū est insistamus. Ad cuius exemplu
 
 Si circulo cuilibet pentagonus aequilaterus inscribatur, rectangulum quod sub dodrante diametri ipsius circuli & sub dextante ipsius lineae an-
 
-*[Signature: Q]* *[Catchword: gulum]*
+<!-- Signature: Q --> <!-- Catchword: gulum -->

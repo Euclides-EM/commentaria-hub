@@ -1,8 +1,8 @@
-# GEO. ELEMEN. EVCLIDIS
+<!-- # GEO. ELEMEN. EVCLIDIS -->
 
-*[Folio: 314]*
+<!-- Folio: 314 -->
 
-Eucli. ex Camp. Propositio 76
+## Eucli. ex Camp. Propositio 76
 
 ## 76 NVlla linea residuo mediali scd̕o cōiūgibilis est, ut sub termino earū fiāt, nisi tm̃ quæ ab ea ante sep̄ata erat
 
@@ -12,7 +12,7 @@ CAMP. Sit em̃ a c residuū mediale scd̕m, quæ fuit residua, ascisa b c ex a b
 
 *[Figure: line a c d b above; at right a tall rectangle with h at top right, a division marked k on the right side, a lower division marked l on the left and g on the right, corners e (bottom left) and f (bottom right)]*
 
-Eucli. ex Zamb. Theorema 62 *[sic: 62 repeated from the preceding theorem]* Propositio 81
+## Eucli. ex Zamb. Theorema 62 *[sic: 62 repeated from the preceding theorem]* Propositio 81
 
 ## 81 Mediæ apotomæ secūdæ una tātū cōgruit recta linea media potētia tm̃ toti commēsurabilis & cū tota mediū cōprehēdēs.
 
@@ -26,4 +26,4 @@ Eucl. ex Cāp. Propositio 77
 
 *[Woodcut initial N]*
 
-*[Catchword: CAM]*
+<!-- Catchword: CAM -->

@@ -1,10 +1,10 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 244]*
+<!-- Folio: 244 -->
 
 10 Et quæ huic commensurabilia, rationalia. 11 Et quæ huic incōmensurabilia, irrationalia dicuntur. 12 Et ipsorum (si quadrata fuerint latera, sin autem, alia quæpiam rectilinea, ipsa potentes æqualiaq̃ ipsis quadrata describentes, irrationales uocentur.
 
-Eucli. ex Camp. Propositio 1
+## Eucli. ex Camp. Propositio 1
 
 **1** SI duabus quantitatibus inæqualibus propositis maius dimidio à maiori detrahatur, itemque de reliquo maius dimidio dematur, deinceps quoque eodem modo, necesse est ut tandem minore positarum minor quantitas relinquatur.
 
@@ -16,7 +16,7 @@ CAMPANVS Sint duæ quantitates inæquales a & b c, b c maior: dico quod toties p
 
 CAMPANI annotatio. Attendere autem oportet, quod huic propositioni uidetur decima quinta tertij contradicere, proponens angulum contingentiæ minorem fore quolibet angulo à duabus lincis *[sic: lineis]* rectis contento. Posito enim angulo quolibet rectilineo, si ab ipso maius dimidio dematur, itemq̃ de residuo maius dimidio, necesse uidetur hoc toties posse fieri quousque angulus rectilineus minor angulo cōtingentiæ relinquatur. cuius oppositum 15 tertij syllogizat. Sed hi nō sunt uniuoce anguli, non enim eiusdem sunt generis simpliciter curuum & rectum. At uero nec angulum contingentiæ toties contingit sumi, ut qualencunque rectilineum excedat, quod necessarium est (ut ex præhabita demonstratione patet) ad hoc ut consequens ex antecedente sequatur . Planum ergo est etiam quemlibet angulum rectilineum, infinitis angulis contingentiæ esse maiorem.
 
-Eucli. ex Zamb. Theorema 1 Propositio 1
+## Eucli. ex Zamb. Theorema 1 Propositio 1
 
 **1** Duabus magnitudinibus inæqualibus expositis, si à maiore auferatur maius quàm dimidium, & eius quod relictum est maius quàm dimidium, idque semper fiat, relinquetur quædam magnitudo minor minore magnitudine exposita.
 
@@ -24,4 +24,4 @@ THEON ex Zāb. Sint binæ magnitudines inæquales α β,γ, quarū maior sit α 
 
 *[Figure: at the right of the Theon proof, three vertical lines — the line α β with α at its top and points η and θ along it, β below; the shorter line γ; and the tallest line δ ε with δ at its top, points ζ and η along it, and ε below]*
 
-*[Catchword: δ ζ]*
+<!-- Catchword: δ ζ -->

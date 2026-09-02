@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 152]*
+<!-- Folio: 152 -->
 
 dam lineam a b parallelogrammū simile d: & sit ita conditionatum quod triangulus c non sit maior parallelogrāmo simili d, collato super dimidium lineæ a b , alioquin ad impossibile laboraretur, per præmissam. Diuido igitur lineā a b per æqualia in pūcto e & secūdū doctrinā 19 huius super eius eius medietatē b e cōstituo parallelogrammū c f simile d, & cōplebo super totā lineā a b: parallelogrāmū b g. Quia igitur c nō est maior parallelogrāmo e f, sed æqualis ei aut minor sicut positū est. si fuerit ei æqualis, erit parallelogrāmū e g quale intēditur per 36 primi coadiuuāte prima parte 9, & per diffinitionē similiū superficierū & 20 huius. Si aūt minor, sit minor in superficie aliqua, cui æqualis & similis d fiat secūdū doctrinā 25 huius quæ sit h, eritque h similis e f per 20 huius, quare per cōuersionē diffinitionis, æquiangula sibi & proportionaliū laterū. protrahā igitur in parallelogrāmo e f diametrū b k, & resecabo latera k f, & e k superficiei e f, ad mēsurā laterū superficiei h, protractis lineis l m & n o æquidistantibus lateribus superficiei e f, secantibus se in pūcto p, ut superficies k p sit æqualis & similis superficiei h eritq̃ per 23, huius pūctū p, in diametro k b: protracta itaq̃ o n usq̃ ad a d, dico parallelogrāmū a p esse quale proponitur. Deest enim sibi ad cōplementū lineæ a b parallelogrammū p b, quod per 22 & 20 huius est simile parallelogrāmo d. Sed ipsum etiā parallogrāmū a p est æquale triāgulo c. Est enim per primā huius, a n æquale n b, ergo per 43 primi, & hāc cōmunē scientiā si æqualibus æqualia addas, tota quoque fient æqualia, parallelogrāmū a p: est æquale gnomoni n b l, & quia iste gnomo est æqualis triāgulo c propter id quod patallelogrammum e f positum fuit esse maius triangulo c in parallelogrammo h, quod est æquale parallelogrammū k p, patet propositum.
 
@@ -24,4 +24,4 @@ THEON ex Zāb. Sit quidē data recta liuea α β. datū uero rectilineū cui opo
 
 SVper datā lineā datæ superficiei trilateræ æquū parallelogrāmū cōstituere, quod addat super cōpletionē datæ lineæ superficiem æ
 
-*[Catchword: quidi]*
+<!-- Catchword: quidi -->

@@ -1,4 +1,6 @@
-# DATA *[Folio: 575]*
+<!-- # DATA -->
+
+<!-- Folio: 575 -->
 
 uel inæquales datos tamen latera adinuicem rationem datam habuerint, & ipsa parallelogramma adinuicem rationem datam habebunt.
 
@@ -18,4 +20,4 @@ Duorum, inquam, triangulorum a b c, & d e h, quæ circum æquos angulos, aut in�
 
 *[Figure: two rhombus-shaped figures side by side: the left with a at the top, b at the left, e at the right, g at the bottom; the right with d at the top, e at the left, b at the right, f at the bottom; each divided by a horizontal line]*
 
-*[Catchword: Theore]*
+<!-- Catchword: Theore -->

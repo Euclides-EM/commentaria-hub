@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 346]*
+<!-- Folio: 346 -->
 
 quem continent hæ duæ lineæ perpendiculares uidelicet g h & g k,erit rectus: superficies a b c d dicitur orthogonaliter erecta super superficiem c d e f.
 
@@ -46,4 +46,4 @@ Sit trigonus a b c,rectum angulum habēs qui sit b,figaturq̃ alterū duorū lat
 
 *[Figure, right: a large triangle with apex a and base lettered c, b, d (b the middle of the base); the vertical axis a b is drawn, and lines from c and d meet two further points marked on the axis]*
 
-*[Catchword: mo-]*
+<!-- Catchword: mo- -->

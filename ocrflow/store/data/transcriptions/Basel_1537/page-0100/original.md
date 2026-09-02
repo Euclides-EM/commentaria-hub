@@ -1,6 +1,6 @@
-# LIBER QVARTVS
+<!-- # LIBER QVARTVS -->
 
-*[Folio: 91]*
+<!-- Folio: 91 -->
 
 *δ β, cōmunis autē & ad angulos rectos δ ζ, basis igitur α ζ, (per 4 primi) basi ζ β, est æqualis. Similiter quoq́; ostendemus, quod & ζ γ, ipsi α ζ, est æqualis. Centro rursus igitur ζ, spatio uero aut ζ α, aut ζ β, aut ζ γ, circulus descriptus transibit per reliqua signa, & erit descriptus sicut α β γ. Circa datum igitur triāgulum descriptus circulus est, quod facere oportebat.*
 
@@ -44,4 +44,4 @@ Circa datum circulum, quadratum describere.
 
 THEON ex Zamberto. *Sit datus circulus α β γ δ. Oportet iam circa ipsum α β γ, circulū: quadratum describere. Excitentur ipsius circuli α β γ δ duæ diametri ad angulos rectos adinuicē sintque α γ & β δ. & per signa*
 
-*[Signature: h 4]* *[Catchword: α β]*
+<!-- Signature: h 4 --> <!-- Catchword: α β -->

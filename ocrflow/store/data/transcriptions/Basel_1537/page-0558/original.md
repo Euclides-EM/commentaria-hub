@@ -1,6 +1,6 @@
-# DATA
+<!-- # DATA -->
 
-*[Folio: 545]*
+<!-- Folio: 545 -->
 
 ## Scholium
 
@@ -38,4 +38,4 @@ Componantur enim quælibet datæ magnitudines a b, b c. Dico quod & quod ex a b,
 
 SI à data magnitudine, data magnitudo auferatur, reliqua data erit.
 
-*[Signature: Z 3]* *[Catchword: A data]*
+<!-- Signature: Z 3 --> <!-- Catchword: A data -->

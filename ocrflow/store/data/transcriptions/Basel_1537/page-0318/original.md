@@ -1,8 +1,10 @@
-# LIBER DECIMVS. *[Folio: 307]*
+<!-- # LIBER DECIMVS. -->
+
+<!-- Folio: 307 -->
 
 κ, ex binis nominibus est quinta. Rationalis autē est ε ζ. Si uero areola cōprehendatur sub rationali & ex binis nominibus quinta, quæ areolam potest, rationale ac medium potens est (per 58 decimi.) Quæ igitur ipsam ε ι areolam potest, rationale ac medium potest, quare & ipsam α δ areolam potens, rationale ac medium potest. Rationali igitur ac medio cōpositis, quatuor irrationales fiunt, quæ ex binis nominibus, quæ ex binis prima medijs, maior, & rationale mediumq̃ potens, quod demonstrasse oportuit.
 
-Eucli. ex Camp. Propositio 66
+## Eucli. ex Camp. Propositio 66
 
 *[Margin: 66]*
 
@@ -16,7 +18,7 @@ CAMPANVS. Vt si a & b sint duæ supficies mediales incōmensurabiles (si enim es
 
 *[Figure: rectangle with g at the top right corner, divided by a horizontal line with f at its left end; e inside at the right of the lower band; c at the bottom left and d at the bottom right, with tick marks along the base]*
 
-Eucli.ex Zamb. Theorema 54 Propositio 72
+## Eucli.ex Zamb. Theorema 54 Propositio 72
 
 *[Margin: 72]*
 
@@ -26,7 +28,7 @@ THEON ex Zamb. Cōponantur etenim bina media adinuicē incommensurabilia α β, 
 
 *[Figure: two rectangles side by side: the first divided by a vertical line into two cells, labelled α, γ along the top and β, δ along the bottom; the second divided by a vertical line, its top edge labelled ε, θ, κ and its bottom edge labelled ζ, η, ι]*
 
-Eucli ex Camp. Propositio 67
+## Eucli.ex Camp. Propositio 67
 
 *[Margin: 67]*
 
@@ -36,4 +38,4 @@ Eucli ex Camp. Propositio 67
 
 CAMPANVS. Vult quod si linea aliqua ut a, fuerit aliqua ex sex præhabitis lineis irrationalibus quæ sunt binomium & eius quinq̃ comites, ipsa nō erit aliqua aliarū. Si enim quadrato eius æqualis superficies adiungatur ad lineam rationalem b c quæ sit b d, si quidem a fuerit binomiū, erit ex 54 linea c d binomiū primum. Quæ si fuerit bimediale primum, erit c d ex 55 binomium secundum. Si autem bimediale secūdum, erit c d ex 56 binomium tertium. Et si linea maior, erit c d ex 57 binomium quartū. At si potens in rationale & mediale, aut si potens in duo medialia, erit
 
-*[Signature: C 4]* *[Catchword: ex 58]*
+<!-- Signature: C 4 --> <!-- Catchword: ex 58 -->

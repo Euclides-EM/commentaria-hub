@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 44]*
+<!-- Folio: 44 -->
 
 æquale c m per 36 primi. erit a h æquale gnomoni qui circūstat quadrato l g, ergo addito utriq́ꝫ, quadrato l g, erit a h cum quadrato l g æquale quadrato e f, quod est propositū.
 
@@ -28,4 +28,4 @@ THEON ex Zamb. Recta enim linea α β secetur bifariā in signo γ, apponaturq́
 
 *[Figure: line α γ β δ along the top; square γ ε ζ δ below segment γ δ (ε bottom left, ζ bottom right, η on bottom side below β); diagonal δ ε; vertical β η cutting the diagonal at θ; horizontal κ λ θ μ (κ below α, λ on γ ε, μ on δ ζ); vertical α κ; ξ on the diagonal near the top right; circle arc inside the square marking the gnomon]*
 
-*[Catchword: Sed α μ]*
+<!-- Catchword: Sed α μ -->

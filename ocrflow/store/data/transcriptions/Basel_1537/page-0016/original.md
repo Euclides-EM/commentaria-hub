@@ -1,6 +1,6 @@
 # EVCLIDIS MEGARENSIS GEOMETRICA ELEMENTA: EX CAMPANO.
 
-*[Folio: 7]*
+<!-- Folio: 7 -->
 
 ## Primi libri propositio prima.
 
@@ -16,4 +16,4 @@ CAMPANI additio. Si autē super eandem lineam libeat collocare reliquas duas tri
 
 Triangulum etiam trium inæqualium laterum super eandem lineam collocabimus: si aliquod punctum existens in circunferentia alterutrius duorum maiorū circulorum quod non sit in altera duarum sectionū, & cui non obuiet f h, cum in utramlibet partem producta fuerit in continuum & directum, coniunxerimus per duas lineas rectas cum ambabus extremitatibus datæ lineæ. Sit enim punctus k signatus in circunferentia circuli e f g: & non sit in altera sectionum, nec occurrat ei f h, cum protraheretur in continuum & directum. eius usq̃ ad circunferentiā: protraham ergo lineas a k & b k. & secabit lineā a k : circūferentia circuli e h g: secet ergo in puncto l, eritq̃ b k per cōmunem animi conceptionem æqualis a l, quia b k per diffinitionē circuli est æqualis b g, & a l æqualis a g: quā
 
-*[Signature: a 4]* *[Catchword: re a k]*
+<!-- Signature: a 4 --> <!-- Catchword: re a k -->

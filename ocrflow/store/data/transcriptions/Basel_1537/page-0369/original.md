@@ -1,4 +1,6 @@
-# *[Folio: 358]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 358 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ## eisdem lineis contentæ duæ superficies in nulla parte quantumcunq̃ producantur possunt concurrere.
 
@@ -6,7 +8,7 @@ CAMPANVS. Sint duæ lineæ a b & a c, se angulariter contingentes in puncto a, �
 
 *[Figure: three chevrons one above another joined by a vertical line: at the top the angle b a c with apex a; below it the angle h g k with apex g; at the bottom the angle e d f with apex d]*
 
-Eucli. ex Zamb. Theorema 13 Propositio 15
+## Eucli. ex Zamb. Theorema 13 Propositio 15
 
 *[Margin: 15]*
 
@@ -16,7 +18,7 @@ THEON ex Zamb. Binæ, inquam, rectæ lineæ sese inuicem tangentes α β, β γ,
 
 *[Figure: two chevrons one above another: the angle α β γ with apex β at the top, η beneath β with the angle θ η κ(?) drawn through it, and below the angle δ ε ζ with δ at the lower left, ε at the middle and ζ at the lower right]*
 
-Eucli ex Camp. Propositio 16
+## Eucli.ex Camp. Propositio 16
 
 *[Margin: 16]*
 
@@ -26,4 +28,4 @@ CAMPANVS. Constat equidẽ ex tertia, ꝙ una superficie quascũq̃ duas superfi
 
 CAMPANVS. Ex hac & præmissa potes elicere conclusionẽ unam similem 30 primi, uidelicet istam. Si fuerint duæ superficies uni æquidistantes, ipsæ quoq̃ erunt adinuicẽ æquidistantes. Positis enim tribus superficiebus quarum utraq̃ duarum extremarũ æquidistat mediæ, dico ꝙ necesse est ipsas extremas æquidistare adinuicem. Secentur omnes illæ tres superficies duabus superficiebus se quoq̃ inuicem secantibus, eruntq̃
 
-*[Catchword: ex hac]*
+<!-- Catchword: ex hac -->

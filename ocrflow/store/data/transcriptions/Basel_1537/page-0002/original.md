@@ -1,4 +1,4 @@
-# EVCLIDIS MEGARENSIS MATHEMATICI CLARISSIMI ELEMENtorum Geometricorum. Lib. XV.
+EVCLIDIS MEGARENSIS MATHEMATICI CLARISSIMI ELEMENtorum Geometricorum. Lib. XV.
 
 Cum expositione THEONIS in priores XIII à Bartholomæo Veneto latinitate donata, CAMPANI in omnes, & HYPSICLIS Alexandrini in duos postremos.
 

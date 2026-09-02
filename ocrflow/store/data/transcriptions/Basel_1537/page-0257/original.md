@@ -1,10 +1,10 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 246]*
+<!-- Folio: 246 -->
 
 do. Incommensurabiles igitur sunt ipsæ α β,γ δ, magnitudines. Si binæ igitur magnitudines inæquales exponantur auferaturq̃ semper à maiore minor, & reliqua tamen præcedentem non metiatur, ipsæ magnitudines erunt incommensurabiles, quod oportuit demonstrare.
 
-Eucli. ex Camp. Propositio 3
+## Eucli. ex Camp. Propositio 3
 
 **3** PRopositis duabus quantitatibus inæqualibus communicantibus, maximam quantitatem communiter eas numerantem inuenire.
 
@@ -18,7 +18,7 @@ CAMPANVS. Huius demonstrationem. si 2 septimi non ignoras, non potes ignorare. S
 
 *[Figure: two horizontal lines at the right — a short line with b at its left and a at its right; a longer ticked line with d at its left and c at its right]*
 
-Eucli. ex Zamb. Problema 1 Propositio 3
+## Eucli. ex Zamb. Problema 1 Propositio 3
 
 **3** Duabus magnitudinibus commensurabilibus datis, maximam earum communem inuenire mensuram.
 
@@ -28,7 +28,7 @@ CORRELARIVM. Ex hoc manifestum est, quod si magnitudo binas magnitudines mēsa f
 
 *[Figure: at the right of the Theon proof, three vertical lines — α β with α at its top and a point ζ along it, β below; the tall line γ δ with γ at its top and a point ε along it, δ below; and the short line η]*
 
-Eucli. ex Camp. Propositio 4
+## Eucli. ex Camp. Propositio 4
 
 **4** PRopositis tribus quantitatibus communicātibus, maximam eas communiter numerantem inuenire.
 
@@ -36,7 +36,7 @@ Eucli. ex Camp. Propositio 4
 
 CAMPANVS Hæc ex tertia septimi, sic patet. sicut præmissa ex secūda. Simulq̃ correlarium ex hac deduces, ut illic ex secunda deductū est.
 
-Eucli. ex Zamb. Problema 2 Propositio 4
+## Eucli. ex Zamb. Problema 2 Propositio 4
 
 **4** Tribus magnitudinibus commensurabilibus datis, maximam earum communem mensuram iuuenire *[sic: inuenire]*.
 
@@ -44,4 +44,4 @@ THEON ex Zamb. Sint datæ tres maguitudines *[sic: magnitudines]* commonsurabile
 
 *[Figure: at the right of the Theon proof, four vertical ticked lines of decreasing height, labelled below α, β, γ, δ]*
 
-*[Catchword: commens]*
+<!-- Catchword: commens -->

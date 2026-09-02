@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 114]*
+<!-- Folio: 114 -->
 
 *[Margin: σύνδυο, i. binis (partially legible)]*
 
@@ -10,7 +10,7 @@ gnitudinibus & alijs eis æqualibus multitudine* una sumptis & in eadem ratione 
 
 ## Eucli. ex Camp. — Propositio 1
 
-## 1 SI fuerint quotlibet quantitates aliarum totidem æquæ multiplices, aut singulæ singulis æquales, necesse est quemadmodum una illarum ad sui comparem, totum quoque ex his aggregatum ad omnes illas pariter acceptas similiter se habere.
+1 SI fuerint quotlibet quantitates aliarum totidem æquæ multiplices, aut singulæ singulis æquales, necesse est quemadmodum una illarum ad sui comparem, totum quoque ex his aggregatum ad omnes illas pariter acceptas similiter se habere.
 
 *[Woodcut initial S]*
 
@@ -28,4 +28,4 @@ Quod si singulæ singulis sint æquales, patet propositum per hanc commuuem scie
 
 THEON ex Zamb. *Sint quotcunque magnitudines a β, γ δ, quotcunque magnitudinū ε, ζ, æqualiū numero, æque multiplices, singulæ singularū. Dico quod quotuplex est a β, ipsius ε, totuplices erunt a β, & γ δ, ipsarū ε, ζ.*
 
-*[Catchword: Quo-]*
+<!-- Catchword: Quo- -->

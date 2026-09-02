@@ -1,10 +1,10 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 118]*
+<!-- Folio: 118 -->
 
 tiplex. α ε, ipsius γ ζ, & α β, ipsius γ δ, æque igitur multiplex est ε β, ipsius ζ δ, & ipsius γ δ. Et reliqua igitur ε β, reliquæ ζ δ, æque multiplex erit: quotuplex est tota α β, totius γ δ. Si magnitudo igitur magnitudinis æque fuerit multiplex & ablata ablatæ, quotuplex erit tota totius. Quod demonstrasse oportuit.
 
-Eucli. ex Camp. Propositio 6
+## Eucli. ex Camp. Propositio 6
 
 *[Margin: 6]* SI fuerint duæ quantitates ad alias duas æque multiplices duæq̃ minores à duabus maioribus utraque à sua multiplice subtrahantur, erunt duo reliqua earundem partium æque multiplicia, aut eis æqualia.
 
@@ -16,7 +16,7 @@ Si autē a g sit multiplex c, ponam ut e k sit æque multiplex f, eritque ut pri
 
 *[Figure: horizontal line segments a, g, b, d and b, e, k with divided segments below, in the text column]*
 
-Eucli. ex Zamb. Theorema 6 Propositio 6
+## Eucli. ex Zamb. Theorema 6 Propositio 6
 
 *[Margin: 6]* Si duæ magnitudines duarum magnitudinum æque fuerint multiplices, & ablatæ aliquæ earundem æque fuerint multiplices, etiam reliquæ eisdem uel æquales, sunt, uel æque ipsarum multiplices,
 
@@ -24,10 +24,10 @@ THEON ex Zamb. Duæ enim magnitudines α β, γ δ, duarum magnitudinū ε ζ, �
 
 *[Figure: vertical line segments representing the magnitudes α β, γ δ with points η, θ, κ and the magnitudes ε, ζ, in the right margin]*
 
-Eucli. ex Camp. Propositio 7
+## Eucli. ex Camp. Propositio 7
 
 *[Margin: 7]* SI duæ quantitates æquales ad quālibet comparētur, earū ad illam erit una proportio, itemq̃ ad illas proportio illius, una est.
 
 CAMPANVS Sint duæ quantitates a b, æquales, quæ comparentur ad quālibet tertiā ut ad c, dico q̃ eadē est proportio a ad c, & b ad c. itēq̃ eadem c ad a, & c ad b. Primū sic probatur. Cum enim c sit consequens ad a primā, & ad b tertiam, ipsa erit in ratione secundæ & quartæ. Sumam igitur d ad a primam, & e ad b tertiam æque multiplices, & sumam f, quamlibet ex multiplicibus c, quæ est secunda & quarta. Et quia a & b quarum sunt æque multiplices d e, positæ sunt æquales, erit ut si diuidatur
 
-*[Catchword: datur]*
+<!-- Catchword: datur -->

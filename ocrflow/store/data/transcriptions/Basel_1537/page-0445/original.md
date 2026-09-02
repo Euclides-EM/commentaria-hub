@@ -1,12 +1,12 @@
-# 434 GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 434]*
+<!-- Folio: 434 -->
 
 THEON ex Zamberto. Sit circulus α β γ, & in ipso circulo α β γ, descriptarū figurarū decagoni quidem latus esto β γ, & sexanguli γ δ, & sint in rectas lineas. Dico quod tota β δ, extrema & media ratione secatur in γ, & maius ipsius segmentū est γ δ. Assumatur enim (per 1 tertij) centrū circuli, signū ε, & cōnectantur ε β, ε γ, ε δ, & extendatur β ε in α. Et quoniā decagoni æquilateri latus est β γ, quincupla igitur est α γ β circūferentia ipsius γ β circūferentiæ. Quadrupla igitur est α γ circūferentia, ipsius γ β: Sicut autē α γ circūferentia ad γ β, sic angulus qui sub α ε γ ad angulum qui sub γ ε β: quadruplus igitur est q̃ sub α ε γ, eius qui sub γ ε β. Et quoniā qui sub ε β γ angulus ei qui sub ε γ β angulo est æqualis, qui igitur sub α ε γ angulus, duplus est eius qui sub ε γ β. Et quoniam ε γ recta linea æqualis est ipsi γ δ, utraq; enim ipsarum æqualis est ipsius sexanguli lateri in α β γ circulo descripti, & angulus qui sub γ ε δ, angulo qui sub γ δ ε est æqualis, igitur angulus q̃ sub ε γ β, duplus est eius qui sub ε δ γ. Sed eius qui sub ε γ β, duplum esse demonstratum est eum qui sub α ε γ. Igitur qui sub α ε γ, quadruplus est eius qui sub ε δ γ. Ostensum est autem quod & eius qui sub β ε γ, quadruplus est qui sub α ε γ: æqualis igitur est qui sub ε δ γ, ei qui sub β ε γ, Cōmunis autem ipsorū binorum triangulorū, hoc est β ε γ & β ε δ, est angulus qui sub ε β δ, & reliquus igitur qui sub β ε δ, ei qui sub ε γ β est æqualis. Aequiangulū igitur est triangulum ε β δ, ipsi ε β γ triangulo: proportionaliter igitur est sicut β δ ad β ε, sic ε β ad β γ. Aequalis autem est ε β, ipsi γ δ. Est igitur sicut β δ ad δ γ, sic δ γ ad γ β. Maior autem est β δ, ipsa δ γ, maior igitur est & δ γ, ipsa γ β. Igitur ipsa β δ, recta linea extrema & media ratione secatur in γ signo, & maius segmentum est δ γ. Quod ostendere oportuit.
 
 *[Figure: circle α β γ with centre ε; β on the left of the circle, γ on its lower arc; the hexagon side γ δ prolongs the decagon side β γ in a straight line, δ lying below the circle; lines ε β, ε γ, ε δ drawn]*
 
-Eucli. ex Zamb. Theorema 10 Propositio 10
+## Eucli. ex Zamb. Theorema 10 Propositio 10
 
 *[Margin: 10]*
 
@@ -16,4 +16,4 @@ THEON ex Zamb. Sit circulus α β γ δ ε, & in ipso α β γ δ ε (per 11 qua
 
 *[Figure: circle with inscribed pentagon α β γ δ ε (α at top, β left, ε right, γ and δ at bottom); centre ζ; diameter α ζ produced to η at the bottom; ζ θ perpendicular to α β produced to κ on the circle; ζ λ perpendicular to α κ produced to μ at the top; lines α κ, κ β and κ μ drawn, κ μ cutting α β in ν]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

@@ -1,10 +1,12 @@
-# *[Folio: 350]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 350 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 a b, & ducatur linea f g. Quia igitur impossibile est partẽ trianguli e f g esse in plano & partem in sublimi, quinetiã suarum terminalium linearum unius aut plurium pars similiter sit in plano & pars similiter in sublimi, cum de lineis hoc sit impossibile per præmissam, erit quoq̃ impossibile de triangulo. Itaq̃ totus triãgulus e f g, est in superficie una. Ex hac igitur secunda parte & præmissa, constat prima pars huius secundæ propositionis.
 
 *[Figure: two straight lines a b and c d crossing at e; below the intersection a transversal f g joins the two lines, with d and b at the lower ends]*
 
-Eucli. ex Zamb. Theorema 2 Propositio 2
+## Eucli. ex Zamb. Theorema 2 Propositio 2
 
 ## Si binæ rectæ lineæ se adinuicẽ secuerint, in uno sunt plano, & omne triangulũ in uno plano est.
 
@@ -14,7 +16,7 @@ THEON ex Zamberto. Binæ, inquam, rectæ lineæ α β, γ δ, se adinuicem secen
 
 *[Figure: two straight lines α β and γ δ crossing at ε; below the intersection the transversal ζ η, extended to θ and κ on the line γ β, forming triangle ε γ β with inscribed trapezium ζ η κ θ]*
 
-Eucli. ex Camp. Propositio 3
+## Eucli. ex Camp. Propositio 3
 
 ## OMnium duarum superficierũ seinuicem secantium, communis sectio est linea recta.
 
@@ -24,7 +26,7 @@ CAMPANVS. De planis superficiebus intellige, & uerum erit quod dicitur. Sint ita
 
 *[Figure: two plane surfaces a b and c d shown as overlapping parallelograms intersecting in the line e f, with two curved lines through points h above and below forming a lens between e and f]*
 
-Eucli. ex Zamb. Theorema 3 Propositio 3
+## Eucli. ex Zamb. Theorema 3 Propositio 3
 
 ## Si bina plana se adinuicẽ secuerint, cõmunis eorũ sectio recta linea est.
 
@@ -34,10 +36,10 @@ THEON ex Zamb. Bina etenim plana α β, β γ, se adinuicem dispescant, cõmunis
 
 *[Figure: two intersecting planes shown as overlapping quadrilaterals, β at the top; from β descend the common section and two curved lines through ε and ζ meeting again at the lower vertex, with γ, δ, α at the bottom]*
 
-Eucli. ex Camp. Propositio 4
+## Eucli. ex Camp. Propositio 4
 
 *[Margin: 4]*
 
 ## SI fuerit linea orthogonaliter ab incisione duarum linearum erecta intersecantiũ se, ipsa ad earundem su
 
-*[Catchword: perficiem]*
+<!-- Catchword: perficiem -->

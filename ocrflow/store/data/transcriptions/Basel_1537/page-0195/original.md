@@ -1,6 +1,6 @@
-*[Folio: 184]*
+<!-- Folio: 184 -->
 
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
 Vt si sit a ad b, sicut d ad f, & b ad e, sicut c ad d, erit a ad e, sicut c ad f: ducatur enim c in d & f, & proueniāt g & h, eritq̃ per præmissam g ad h, sicut d ad f, quare & sicut a ad b, ducatur item f in d, & proueniat k: eritq̃ per hanc 19 g ad k, sicut c ad f, & quia ex f in d fit k, fiet idem econuerso per 16 ex d in f, quia igitur ex c & d in f fiunt h & K, erit per hanc 19, h ad K, sicut c ad d, quare sicut b ad e, & quia iam ostensum est quod est g ad h sicut a ad b, erit per 15, a ad e sicut g ad k, sed sic erat etiā c ad f: est igitur a ad e, sicut c ad f, quod est propositū . Idem probabis si fuerint in utroq̃ ordine numeri plures tribus quemadmodū probatur in 13 quinti, de quantitatibus pluribus tribus.
 
@@ -30,4 +30,4 @@ Secundum sic patet. Sit e productus ex a in d, æqualis f producto ex b in c: di
 
 CAMPANI annotatio. Non proponit autem Euclides de tribus numeris continue proportionalibus, quod ille qui ex ductu primi in tertium producitur, sit æqualis quadrato medij, & si ille qui ex primo in tertium producitur, fuerit æqualis quadrato medij, quod illi tres numeri sint continue proportionales, sicut proponit in 16 sexti. de tribus lineis: hoc enim facile demonstratur per hanc 20, medio illorum trium numerorum, æquali assumpto, quemadmodū in sexto de tribus lineis probatur per quatuor, assumpta quarta æquali mediæ.
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

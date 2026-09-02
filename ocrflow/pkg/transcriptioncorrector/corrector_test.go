@@ -17,22 +17,22 @@ import (
 type execCall struct {
 	provider       string
 	model          string
-	prompt         string
+	prompt         llm.Prompt
 	attachmentPath string
 	logLabel       string
 }
 
 type fakeExecutor struct {
-	responses []string
+	responses []llm.Result
 	calls     []execCall
 }
 
-func (f *fakeExecutor) ExecWithLogLabel(provider, model, prompt, attachmentPath, logLabel string) (string, error) {
+func (f *fakeExecutor) ExecPromptResultWithLogLabel(provider, model string, prompt llm.Prompt, attachmentPath, logLabel string) (llm.Result, error) {
 	f.calls = append(f.calls, execCall{
 		provider: provider, model: model, prompt: prompt, attachmentPath: attachmentPath, logLabel: logLabel,
 	})
 	if len(f.responses) == 0 {
-		return "", fmt.Errorf("unexpected call")
+		return llm.Result{}, fmt.Errorf("unexpected call")
 	}
 	response := f.responses[0]
 	f.responses = f.responses[1:]
@@ -109,21 +109,32 @@ func TestNormalizeResponseStripsOnlySurroundingFence(t *testing.T) {
 func TestBuildPromptDefinesCanonicalMarkdownOutputContract(t *testing.T) {
 	prompt := buildPrompt("page-0086", 2, 3, []candidate{{label: "source", text: "text"}}, "previous")
 
-	require.Contains(t, prompt, "Your entire response is written directly to the transcription file")
-	require.Contains(t, prompt, "--- BEGIN TRANSCRIPTION MARKDOWN DIALECT ---")
-	require.Contains(t, prompt, "# Transcription Markdown dialect")
-	require.Contains(t, prompt, "<!-- Running title: Des dritt buͤchs Euclidis -->")
-	require.Contains(t, prompt, "Do not use `<!-- # Des dritt buͤchs Euclidis -->`")
-	require.Contains(t, prompt, "<!-- Page: 86 -->")
-	require.Contains(t, prompt, "<!-- Catchword: baid -->")
-	require.Contains(t, prompt, `statements such as "the image confirms..."`)
-	require.Contains(t, prompt, "text copied from the previous-page context")
+	require.Contains(t, prompt.Static, "Your entire response is written directly to the transcription file")
+	require.Contains(t, prompt.Static, "--- BEGIN TRANSCRIPTION MARKDOWN DIALECT ---")
+	require.Contains(t, prompt.Static, "## LLM operational contract")
+	require.Contains(t, prompt.Static, "<!-- Running title: TEXT -->")
+	require.Contains(t, prompt.Static, "Never use headings for page furniture.")
+	require.Contains(t, prompt.Static, "<!-- Page number: TEXT -->")
+	require.Contains(t, prompt.Static, "<!-- Catchword: TEXT -->")
+	require.Contains(t, prompt.Static, `statements such as "the image confirms..."`)
+	require.Contains(t, prompt.Static, "text copied from the previous-page context")
+	require.Contains(t, prompt.Dynamic, "Current page: page-0086")
+	require.Contains(t, prompt.Dynamic, "--- BEGIN PREVIOUS PAGE ---")
+	require.NotEmpty(t, prompt.CacheKey)
 }
 
 func TestGeneratedMarkdownDialectMatchesSharedDocumentation(t *testing.T) {
 	document, err := os.ReadFile(filepath.Join("..", "..", "..", "docs", "MARKDOWN_DIALECT.md"))
 	require.NoError(t, err)
-	require.Equal(t, string(document), markdownDialect,
+	const beginMarker = "<!-- BEGIN LLM CONTRACT -->"
+	const endMarker = "<!-- END LLM CONTRACT -->"
+	documentText := string(document)
+	start := strings.Index(documentText, beginMarker)
+	finish := strings.Index(documentText, endMarker)
+	require.Greater(t, start, -1)
+	require.Greater(t, finish, start)
+	expected := strings.TrimSpace(documentText[start+len(beginMarker):finish]) + "\n"
+	require.Equal(t, expected, markdownDialect,
 		"run `go generate ./pkg/transcriptioncorrector` after editing docs/MARKDOWN_DIALECT.md")
 }
 
@@ -151,8 +162,8 @@ func TestRunCarriesPreviousPageAndPreviousRoundContext(t *testing.T) {
 		require.NoError(t, alto.SaveToFile(testALTO("ALTO", key), filepath.Join(altoSource, key+".xml")))
 	}
 
-	fake := &fakeExecutor{responses: []string{
-		"round 1 page 1", "round 1 page 2", "round 2 page 1", "round 2 page 2",
+	fake := &fakeExecutor{responses: []llm.Result{
+		{Text: "round 1 page 1"}, {Text: "round 1 page 2"}, {Text: "round 2 page 1"}, {Text: "round 2 page 2"},
 	}}
 	cfg := Config{
 		MarkdownDirs: []string{sourceOne, sourceTwo}, ALTODirs: []string{altoSource}, ImagesDir: imagesDir, OutputDir: outputDir,
@@ -160,18 +171,20 @@ func TestRunCarriesPreviousPageAndPreviousRoundContext(t *testing.T) {
 	}
 	require.NoError(t, Run(cfg, fake))
 	require.Len(t, fake.calls, 4)
-	require.NotContains(t, fake.calls[0].prompt, "BEGIN PREVIOUS PAGE")
-	require.Contains(t, fake.calls[0].prompt, "ALTO page-0001")
-	require.Contains(t, fake.calls[0].prompt, "converted with ALTOToMarkdown")
-	require.Contains(t, fake.calls[1].prompt, "round 1 page 1")
-	require.Contains(t, fake.calls[2].prompt, "correction from round 1")
-	require.Contains(t, fake.calls[2].prompt, "round 1 page 1")
-	require.NotContains(t, fake.calls[2].prompt, "round 1 page 2\n--- END PREVIOUS PAGE")
-	require.Contains(t, fake.calls[3].prompt, "round 2 page 1")
+	require.NotContains(t, fake.calls[0].prompt.Dynamic, "BEGIN PREVIOUS PAGE")
+	require.Contains(t, fake.calls[0].prompt.Dynamic, "ALTO page-0001")
+	require.Contains(t, fake.calls[0].prompt.Dynamic, "converted with ALTOToMarkdown")
+	require.Contains(t, fake.calls[1].prompt.Dynamic, "round 1 page 1")
+	require.Contains(t, fake.calls[2].prompt.Dynamic, "correction from round 1")
+	require.Contains(t, fake.calls[2].prompt.Dynamic, "round 1 page 1")
+	require.NotContains(t, fake.calls[2].prompt.Dynamic, "round 1 page 2\n--- END PREVIOUS PAGE")
+	require.Contains(t, fake.calls[3].prompt.Dynamic, "round 2 page 1")
 	for _, call := range fake.calls {
 		require.Equal(t, llm.ProviderOllama, call.provider)
 		require.Equal(t, "vision", call.model)
 		require.True(t, strings.HasSuffix(call.attachmentPath, ".png"))
+		require.Equal(t, fake.calls[0].prompt.Static, call.prompt.Static)
+		require.Equal(t, fake.calls[0].prompt.CacheKey, call.prompt.CacheKey)
 	}
 
 	finalOne, err := os.ReadFile(filepath.Join(outputDir, "page-0001", "original.md"))
@@ -180,6 +193,41 @@ func TestRunCarriesPreviousPageAndPreviousRoundContext(t *testing.T) {
 	roundOne, err := os.ReadFile(filepath.Join(outputDir, "page-0002", "round-01.md"))
 	require.NoError(t, err)
 	require.Equal(t, "round 1 page 2\n", string(roundOne))
+}
+
+func TestRunLogsAggregateUsageAndProviderReportedCost(t *testing.T) {
+	root := t.TempDir()
+	imagesDir := filepath.Join(root, "images")
+	sourceDir := filepath.Join(root, "source")
+	outputDir := filepath.Join(root, "output")
+	require.NoError(t, os.MkdirAll(imagesDir, 0o755))
+	require.NoError(t, os.MkdirAll(filepath.Join(sourceDir, "page-0001"), 0o755))
+	require.NoError(t, os.WriteFile(filepath.Join(imagesDir, "page-0001.png"), []byte("image"), 0o644))
+	require.NoError(t, os.WriteFile(filepath.Join(sourceDir, "page-0001", "original.md"), []byte("source\n"), 0o644))
+
+	costOne := 0.012345
+	costTwo := 0.023456
+	fake := &fakeExecutor{responses: []llm.Result{
+		{Text: "round one", Usage: llm.Usage{InputTokens: 100, CachedInputTokens: 20, CacheCreationInputTokens: 5, CacheMetricsAvailable: true, OutputTokens: 30, TotalTokens: 155, CostUSD: &costOne}},
+		{Text: "round two", Usage: llm.Usage{InputTokens: 110, CachedInputTokens: 25, CacheCreationInputTokens: 10, CacheMetricsAvailable: true, OutputTokens: 40, TotalTokens: 185, CostUSD: &costTwo}},
+	}}
+	var logs strings.Builder
+	cfg := Config{
+		MarkdownDirs: []string{sourceDir}, ImagesDir: imagesDir, OutputDir: outputDir,
+		Rounds: 2, Provider: llm.ProviderClaudeCode, Model: "fable", Logger: log.New(&logs, "", 0),
+	}
+
+	require.NoError(t, Run(cfg, fake))
+	require.Contains(t, logs.String(), "requests=2")
+	require.Contains(t, logs.String(), "tokens_input=210")
+	require.Contains(t, logs.String(), "tokens_cached=45")
+	require.Contains(t, logs.String(), "tokens_cache_creation=15")
+	require.Contains(t, logs.String(), "tokens_output=70")
+	require.Contains(t, logs.String(), "tokens_total=340")
+	require.Contains(t, logs.String(), "cost_usd=0.035801")
+	require.Contains(t, logs.String(), "cost_reports=2/2")
+	require.Contains(t, logs.String(), "cache_read_requests=1")
+	require.Contains(t, logs.String(), "cached_tokens=45")
 }
 
 func testALTO(words ...string) *alto.Alto {

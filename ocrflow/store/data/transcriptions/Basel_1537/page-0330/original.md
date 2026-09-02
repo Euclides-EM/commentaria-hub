@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 319]*
+<!-- Folio: 319 -->
 
 ζ θ (per 73 decimi.) Dico quod & tertia. Quoniā enim enim *[sic: enim bis]* est sicut ε ad β γ, sic quod ex α, quadratū ad id quod ex ζ η quadratū, sicut aūt β γ, ad γ δ, sic quod ex ζ η ad id quod ex η θ, ex æquali igitur (per 22 quinti,) sicut ε ad γ δ, sic quod ex α ad id quod ex θ η. Sed ε ad γ δ rationē nō habet quā quadratus nūerus ad quadratū numerū. Neq̃ igitur quod ex α, ad id quod ex η θ rationē habet quā quadratus numerus ad quadratū numerū. Incōmēsurabilis igitur est α ipsi η θ lōgitudine. Neutra igitur ipsarum ζ η, η θ, cōmensurabilis est longitudine ipsi α expositæ rationali. Quo nēpe maius est quod ex ζ η eo quod ex η θ, esto id quod ex κ. Quoniā igitur est sicut β γ ad γ δ, sic est quod ex ζ η, ad id quod ex η θ, conuertendo igitur (per correlariū 19 quinti) est sicut β γ ad β δ, sic est quod ex ζ η. quadratū ad id quod ex κ. At β γ, ad β δ rationem habet quā quadratus numerus ad quadratū numerū, & quod ex ζ η, igitur ad id quod ex κ rationem habet quā quadratus numerus ad quadratū numerū, commensurabilis igitur est ζ η, ipsi κ longitudine. Et ζ η, ipsa η θ. maius potest, eo quod ex κ, ipsa igitur ζ η, ipsa η θ, maius potest, eo quod ex sibi commensurabili. Et neutra ipsarum ζ η, η θ, cōmensurabilis est lōgitudine ipsi α expositæ rationali. Igitur (per 3 diffinitiōes ζ θ, apotome est tertia. Inuenta igitur est tertia apotome, quod erat agendū.
 
@@ -44,6 +44,6 @@ THEON ex Zamb Exponatur ratiōalis α, & ipsi α lōgitudine cōmensurabilis est
 
 *[Figure: line α; line with points β, γ, η (β at the left end, γ in the middle, η at the right end); short line θ; dotted number line with points δ, ζ, ε]*
 
-*[Signature: D 4]*
+<!-- Signature: D 4 -->
 
-*[Catchword: igitur]*
+<!-- Catchword: igitur -->

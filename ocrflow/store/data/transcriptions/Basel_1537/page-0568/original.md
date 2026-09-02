@@ -1,6 +1,6 @@
-# DATA
+<!-- # DATA -->
 
-*[Folio: 555]*
+<!-- Folio: 555 -->
 
 ### Aliter idem.
 
@@ -34,6 +34,6 @@ In parallelas enim positiōe datas rectas lineas a b c d, recta agatur linea e f
 
 *[Figure: two horizontal parallels, b e h a above and d f g c below, with verticals e f and h g between them]*
 
-*[Signature: Aa 2]*
+<!-- Signature: Aa 2 -->
 
-*[Catchword: datus]*
+<!-- Catchword: datus -->

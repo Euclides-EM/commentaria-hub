@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 372]*
+<!-- Folio: 372 -->
 
 demonstrandum, ipsa omnia esse æqualia adinuicem. Sunt autem eorū alia quæ non dicūtur constituta super lineam unam, & sunt illa quorum supremarū superficierū duo latera opposita quæcunq̃ sumantur secūdum rectitudinem protracta, non sunt linea una, & de talibus sequens demonstrandum proponet, ipsa quoq̃ omnia esse adinuicē æqualia. Sint itaq̃ duo solida parallelogrāma æque alta siue inter superficies æquidistantes a b & a c, constituta super unam basin quæ sit a d, quorū supremæ superficies sunt e b & b c, sintq́̃ harum supremarū superficierū duo latera opposita, cum secundum rectitudinē protrahantur, linea una, & ipsa sunt c f & b c. Dico itaq̃ quod solida a b & a c, sunt æqualia. Hoc autem (si figura eius secundum quod oportet, actu uel cogitatione fabricaueris, & quemadmodū in 35 primi processeris, idem faciens hic de serratilibus quod ibi de triangulis) facile cōcludere poteris, occurruntq́̃ tibi hic eædem diuersitates in solidis, quæ ibi in superficiebus occurrisse nouisti.
 
@@ -28,4 +28,4 @@ CAMPANVS. Sint nūc duo solida parallelogrāma æque alta siue inter superficies
 
 *[Figure: two oblique parallelepipeds standing on the same base; labels k and c at the top, f, l, m and q at the right, b at the upper middle and at the left, d and g, n inside, r and e at the left, p at the right, a and s at the bottom]*
 
-*[Catchword: secundum]*
+<!-- Catchword: secundum -->

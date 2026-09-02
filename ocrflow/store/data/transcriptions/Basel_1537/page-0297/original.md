@@ -1,6 +1,6 @@
-*[Folio: 286]*
+<!-- Folio: 286 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ## Eucli. ex Camp. — Binomiorum diffinittonss. *[sic: for diffinitiones]*
 
@@ -22,4 +22,4 @@ Sex igitur existẽtibus sic sumptis rectis lineis, primas ordine facit, tres pr
 
 CAMPANVS Sit a linea rationalis posita sumanturq̃ duo numeri quadrati b & c, quorũ c sit diuisibilis in quadratum qui sit d, & in non quadratum qui sit e, ponaturque proportio quadrati lineæ a ad quadratũ lineæ f g, sicut numeri b ad numerum c, eritque ex secunda parte 7 linea f g cõmunicans lineæ
 
-*[Catchword: a]*
+<!-- Catchword: a -->

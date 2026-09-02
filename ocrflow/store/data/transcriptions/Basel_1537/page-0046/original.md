@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 37]*
+<!-- Folio: 37 -->
 
 quod &, in ea signum θ, binæ rectæ lineæ κ θ & θ μ non in eisdem partibus existentes, + *[Margin: ἐφεξῆς]* utrobiq̃ angulos binis rectis æquales efficiunt. In rectum igitur est κ θ ipsi θ μ. At quoniam in parallelos κ μ & ζ η recta linea incidit θ η, alterni anguli μ θ η & θ η ζ (per 29 propositionem) sibi inuicem sunt æquales. Communis ponatur angulus θ η λ. Anguli ergo μ θ η & θ η λ, angulis θ η ζ & θ η λ sunt æquales. Sed anguli μ θ η & θ η λ (per eandem) duobus rectis sunt æquales, anguli igitur θ η ζ & θ η λ duobus rectis sunt æquales. In rectum est igitur linea ζ η, lineæ η λ. At quoniam θ η ipsi κ ζ (per 34) æqualis est & parallelus, & ipsi θ η ipsa μ λ, igitur (per 1 cōmunem sententiam) & ipsi ζ κ æqualis est, & parallelus (per 30 propositionē.) Sed eas coniungunt rectæ lineæ κ μ & ζ λ, lineæ igitur κ μ & ζ λ (quæ per 33 propositionem) æquales & paralleli sunt: parallelogrammū igitur est κ ζ λ μ. Et quoniam (per 42) triangulum α β δ parallelogrammo ζ θ est æquale, & triangulum δ β γ parallelogrammo η μ, totum igitur α β γ δ rectilineum, toti κ ζ λ μ parallelogrāmo est æquale. Dato igitur rectilineo α β γ δ, æquū parallelogrammū constitutū est κ ζ λ μ, in angulo ζ κ μ, ipsi ε dato æquali, quod fecisse oportuit.
 
@@ -38,4 +38,4 @@ CAMPANVS. Sit triangulus a b c, cuius angulus a sit rectus. Dico quod quadratum 
 
 *[Figure: right triangle a b c with a at top and squares described on the three sides: f, g marking the square on a b, h, k the square on a c, and d, l, e the square on b c below; m the intersection of a l with b c; lines a d, a e, b k, c f drawn]*
 
-*[Signature: d]* *[Catchword: & a e.]*
+<!-- Signature: d --> <!-- Catchword: & a e. -->

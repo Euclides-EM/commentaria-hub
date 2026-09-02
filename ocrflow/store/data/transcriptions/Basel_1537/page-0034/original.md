@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 25]*
+<!-- Folio: 25 -->
 
 lus g extrinsecus, æqualis angulo h intrinseco ex eadem parte sumpto, aut duo anguli g & h intrinseci ex eadem parte sumpti, sint æquales duobus angulis rectis. Dico q̃ duæ lineæ c d & e f sunt æquidistantes. Sit ergo primo angulus d g a, æqualis angulo f h g: erit quoq̃ per 15 propositionē angulus c g h, æqualis eidem angulo f h g, quare per præmissam, c d & e f, sunt æquidistantes. Sint rursus duo anguli d g h & f h g, æquales duobus rectis: & quia per 13 propositionē duo anguli d g h & c g h sunt similiter æquales duobus rectis, erit angulus c g h æqualis angulo f h g, quare per præmissam c d & e f, erunt æquidistantes, quod est propositum.
 
@@ -32,4 +32,4 @@ CAMPANVS. Sint duæ lineæ a b & c d æquidistantes: super quas cadat linea e f,
 
 In parallelos rectas lineas recta incidens linea, & alternatim angulos adinuicem æquales, & exteriorē interiori & opposito & ad easdē partes æqualem, & interiores & ad easdem partes duobus rectis æquales efficit.
 
-*[Signature: c]* *[Catchword: THEON]*
+<!-- Signature: c --> <!-- Catchword: THEON -->

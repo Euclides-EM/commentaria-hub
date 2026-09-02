@@ -1,6 +1,6 @@
-*[Folio: 508]*
+<!-- Folio: 508 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 Sit longitudo e d, oculus autem b, speculum uero conuexum a c, aspectus porro refracti in e d, sint b a, b c, reliqua uero eadem.
 
@@ -34,4 +34,4 @@ IDem spectare pluribus planis speculis est possibile.
 
 Sit quod uidendum est a, oculus uero sit b, specula autem tria sint c d,
 
-*[Catchword: d e: e f]*
+<!-- Catchword: d e: e f -->

@@ -1,8 +1,8 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 238]*
+<!-- Folio: 238 -->
 
-Eucli. ex Camp. Propositio 28
+## Eucli. ex Camp. Propositio 28
 
 **28** SI à numero impari numerum parem subtrahas, qui relinquitur impar est.
 
@@ -12,7 +12,7 @@ CAMPANVS. Sit a b impar, à quo detrahatur a c qui sit par. Dico b c residuū es
 
 *[Figure: dotted line with points a, c, d, b]*
 
-Eucli. ex Zamb. Theorema 27 Propositio 27
+## Eucli. ex Zamb. Theorema 27 Propositio 27
 
 **27** Si ab impari numero par auferatur, reliquus impar erit.
 
@@ -20,7 +20,7 @@ THEON ex Zamberto. Ab impari nanq̃ α β, par auferatur β γ. Dico quod reliqu
 
 *[Figure: dotted line with points α, δ, γ, β]*
 
-Eucli. ex Camp. Propositio 29
+## Eucli. ex Camp. Propositio 29
 
 **29** SI numerus impar in numerum parem ducatur, qui inde producetur erit par.
 
@@ -28,7 +28,7 @@ Eucli. ex Camp. Propositio 29
 
 CAMPANVS. Ex 23 manifestum est quod dicitur.
 
-Eucli. ex Zamb. Theorema 28 Propositio 28
+## Eucli. ex Zamb. Theorema 28 Propositio 28
 
 **28** Si impar numerus parem multiplicans, aliquem fecerit, qui gignitur par est.
 
@@ -36,7 +36,7 @@ THEON ex Zamberto. Impar enim numerus α, parem β multiplicans, ipsum efficiat.
 
 *[Figure: dotted lines labelled γ, β, α]*
 
-Eucli. ex Camp. Propositio 30
+## Eucli. ex Camp. Propositio 30
 
 **30** SI in imparem ducatur impar, qui producetur erit impar.
 
@@ -46,19 +46,19 @@ CAMPANVS. Hæc quoq̃ ex 24 manifesta est.
 
 Hæ sequentes 2 ex Campano propositiones, nullas sibi ex Zamberto respondentes habent.
 
-Eucli. ex Camp. Propositio 31
+## Eucli. ex Camp. Propositio 31
 
 **31** Si numerus impar numerum parem numeret, numero pari eum numerabit.
 
 CAMPANVS. Si enim numero impari eum numeraret, ex impari in imparem fieret par, quod est inconueniens per præmissam.
 
-Eucli. ex Camp. Propositio 32
+## Eucli. ex Camp. Propositio 32
 
 **32** Si impar imparem numeret, impariter eum numerat.
 
 CAMPANVS. Si enim pariter eum numeraret, ex numero impari in numerū parem fieret impar, quod est inconueniens per 29.
 
-Eucli. ex Zamb. Theorema 29 Propositio 29
+## Eucli. ex Zamb. Theorema 29 Propositio 29
 
 **29** Si impar numerus imparem numerum multiplicans, fecerit aliquem, factus impar erit.
 
@@ -66,4 +66,4 @@ THEON ex Zamberto. Impar enim numerus α, imparem numerum β multiplicans, ipsum
 
 *[Figure: dotted lines labelled γ, β, α]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

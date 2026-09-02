@@ -1,6 +1,6 @@
-# LIBER SEPTIMVS
+<!-- # LIBER SEPTIMVS -->
 
-*[Folio: 177]*
+<!-- Folio: 177 -->
 
 pars est & ημ ipsius γζ: & reliquus igitur μκ (per 7 septimi) reliqui ζδ eadem pars est, sicut totus ηκ totius γδ. Rursus quoniam qualis pars est κθ ipsius γδ talis pars est & ελ ipsius γζ, maior autem est γδ ipso γζ. maior igitur est & θκ ipso ελ, ponatur ipsi ελ æqualis κν Qualis igitur pars est κθ ipsius γδ, talis pars est & κν ipsius γζ, & reliquus igitur νθ (per 7 septimi) reliqui ζδ eadem pars est, quæ totus κθ totius γδ, patuit autem quod & reliquus μκ reliqui ζδ eadem pars est, qualis totus ηκ totius δγ: & uterque igitur μκ & νθ (per 5 septimi) ipsius δζ eædem partes est, quæ totus θη totius γδ. Aequalis autem est uterq̃ simul μκ & νθ ipsi εβ. At θη ipsi βα, & reliquus igitur εβ, reliqui ζδ eædem partes est, quæ totus αβ totius γδ, quod oportebat demonstrare.
 
@@ -38,4 +38,4 @@ CAMPANVS. Sint quatuor numeri ut prius, quorū similiter minores sint a & b, sit
 
 **10** Si numerus numeri partes fuerit, & alter alterius eædem partes, & ui
 
-*[Catchword: cissim]*
+<!-- Catchword: cissim -->

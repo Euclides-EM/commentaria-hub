@@ -1,6 +1,6 @@
-# LIBER QVINTVS
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 121]*
+<!-- Folio: 121 -->
 
 *[Margin: 9]* SI fuerit aliquarum quantitatum ad unam quātitatem proportio una, ipsas esse æquales, si uero unius ad eas proportio una, ipsas æquales esse necesse est.
 
@@ -8,7 +8,7 @@ CAMPANVS. Sit duarum quantitatum a & b, proportio una ad c, dico eas esse æqual
 
 *[Figure: horizontal line segments a and b above, with segment c below, in the right margin]*
 
-Eucli. ex Zamb. Theorema 9 Propositio 9
+## Eucli. ex Zamb. Theorema 9 Propositio 9
 
 *[Margin: 9]* Quæ ad eandem, eandem habent rationem, æquales adinuicem sunt, & ad quas eadem, eandem habet rationem, ipsæ sunt æquales.
 
@@ -16,7 +16,7 @@ THEON ex Zamb. Habeat inquam utraque ipsarum α β, ad γ, eandē rationem. Dico
 
 *[Figure: three vertical line segments labelled α, β, γ in the right margin]*
 
-Eucli. ex Camp. Propositio 10
+## Eucli. ex Camp. Propositio 10
 
 *[Margin: 10]* SI fuerit unius quantitatis ad quantitatem unam proportio maior, quantitatem maiorem esse. Si uero unius ad eaudem proportio maior, minorem esse necesse est.
 
@@ -24,7 +24,7 @@ CAMPANVS. Quod si fuerit maior proportio a ad c quàm b ad c, dico a esse maiore
 
 *[Figure: horizontal line segments a and b above, with segment c below, in the right margin]*
 
-Eucli. ex Zamb. Theorema 10 Propositio 10
+## Eucli. ex Zamb. Theorema 10 Propositio 10
 
 *[Margin: 10]* Ad eandem, rationem habentium, maiorem rationem habens, illa maior est, ad quam autem eadem maiorem ratione habet, illa minor est.
 
@@ -32,8 +32,8 @@ THEON ex Zamb. Habeat enim α, ad γ, maiorem rationem, quàm β, ad γ. Dico qu
 
 *[Figure: three vertical line segments labelled α, β, γ in the right margin]*
 
-Eucli. ex Camp. Propositio 11
+## Eucli. ex Camp. Propositio 11
 
 *[Margin: 11]* SI fuerint quantitatum proportiones alicui uni æquales, ipsas quoque proportiones sibi inuicem æquales esse necesse est.
 
-*[Signature: l]*
+<!-- Signature: l -->

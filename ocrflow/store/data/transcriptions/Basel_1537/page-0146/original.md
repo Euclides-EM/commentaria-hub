@@ -1,6 +1,6 @@
-# LIBER QVINTVS
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 135]*
+<!-- Folio: 135 -->
 
 e ad c,ut b ad d : eritqꝫ ex duodecima, maior proportio e ad c, quàm a ad c: quare ex prima parte decimæ,e est maior a. Itaqꝫ per primam partem octauæ, proportio e ad b,est maior quam a ad b. Et quia positum est ut sit e ad c, sicut b ad d: erit permutatim e ad b,sicut c ad d: ex duodecima igitur, maior erit proportio c ad d, quàm a ad b, sed positum erat oppositum, uerum ergo est propositum. Ostensiue quoqꝫ idem,quemadmodum in præmissa. Sumpta enim e ad b,ut c ad d : erit ex prima parte decimæ,e minor a:quia ex prima parte octauæ, maior erit a ad c, quam e ad c. Sed ex permutata proportionalitate, est e ad c,ut b ad d : igitur ex duodecima a ad c:est maior quàm b ad d,quod est propositum.
 
@@ -28,4 +28,4 @@ CAMPANVS. Sit proportio a b ad b,maior quàm c d ad d:dico quod erit disiūctim,
 
 Si fuerint quatuor quantitates quarum primæ & secundæ ad secundā sit maior proportio quàm tertiæ & quartæ ad quartam , erit euersim minor proportio primæ & secundæ ad primam quàm tertiæ & quartæ ad tertiam.
 
-*[Signature: m 2]* *[Catchword: CAMPANVS]*
+<!-- Signature: m 2 --> <!-- Catchword: CAMPANVS -->

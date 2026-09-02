@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS.
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->.
 
-*[Folio: 12]*
+<!-- Folio: 12 -->
 
 Basis igitur δ γ, (per 4 propositionem) basi α β, est æqualis: & triangulum δ β γ, (per eandem) triangulo α γ β æquum erit, minus scilicet maiori, quod est impossibile. Latus igitur α β: lateri α γ non est inæquale: æquale igitur. Si trianguli ergo duo anguli æquales adinuicem fuerint: æquales quoque angulos subtendentia latera æqualia ad inuicem erunt: quod fuerat ostendendum.
 
@@ -22,4 +22,4 @@ THEON ex Zamb. Si enim est possibile, super eadem recta linea α β, duabus rect
 
 *[Figure: triangle on base α β with two apexes γ and δ close together at the top, lines drawn from α and β to each apex and the line γ δ joining them]*
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

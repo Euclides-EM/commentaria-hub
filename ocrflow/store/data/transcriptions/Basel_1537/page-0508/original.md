@@ -1,4 +1,4 @@
-# PHAENOMENA
+<!-- # PHAENOMENA -->
 
 *[Folio: 497 [sic: for 597]]*
 
@@ -14,6 +14,6 @@ Sit horizon circulus a b c d, maximus autē semper apparentium e f, æstiuus uer
 
 *[Figure: sphere with a small always-visible circle at the top; a, f, b across the top; g and l within; d at the left edge and b at the right edge; k, r, p in the middle; m, x at the lower left; o at the right edge; c at the bottom]*
 
-*[Signature: T 3]*
+<!-- Signature: T 3 -->
 
-*[Catchword: rentiam]*
+<!-- Catchword: rentiam -->

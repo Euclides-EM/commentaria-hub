@@ -1,4 +1,4 @@
-# LIBER SEXTVS *[Folio: 163]*
+<!-- # LIBER SEXTVS --> <!-- Folio: 163 -->
 
 quidistantium laterum datæ superficiei æquidistantium laterum similem.
 
@@ -16,4 +16,4 @@ THEON ex Zãb. Sit quidẽ data recta linea α β, datũ uero rectilineũ cui ex
 
 *[Figure: triangle γ; large parallelogram with corners κ, η, θ; small parallelogram δ; below, rectangle on line α ε β with ζ, λ, μ across the top, diagonal drawn from ζ through the figure, interior labels ο, ψ, χ, ϛ, and ν, ξ, ο, π at the edges]*
 
-*[Signature: o 4]* *[Catchword: ponatur]*
+<!-- Signature: o 4 --> <!-- Catchword: ponatur -->

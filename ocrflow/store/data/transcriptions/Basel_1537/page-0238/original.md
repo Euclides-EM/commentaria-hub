@@ -1,10 +1,10 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 227]*
+<!-- Folio: 227 -->
 
 ut numeret g, h ergo per secūdam partem 20 numerabit a. Si itaq̃ h non est æqualis a, non erit a primus. Quod est contra hypothesin. Si autē æqualis, erit unusquisq̃ numerorū g,f,e, aliquis ex a,b,c,d, per præmissam quoties oportet assumptā. Non est igitur e diuersus ab eis, quod est etiā contra hypothesin. Itaq̃ constat uerum esse quod proponitur,
 
-Eucli. ex Zamb. Theorema 13 Propositio 13
+## Eucli. ex Zamb. Theorema 13 Propositio 13
 
 **13** Si ab unitate quotlibet numeri ordinatim proportionales fuerint, qui uero post unitatem primus fuerit, maximum nullus alius metietur præter præexistentes in proportionalibus numeris.
 
@@ -12,7 +12,7 @@ THEON ex Zamberto. Sint ab unitate quotlibet numeri continue proportionales α,�
 
 *[Figure: horizontal solid lines labelled ζ, η, θ, ε and dotted number lines labelled δ, γ, β, α, with unitas below]*
 
-Eucli. ex Camp. Propositio 14
+## Eucli. ex Camp. Propositio 14
 
 **14** SI propositus fuerit numerus, minimus quem numerāt primi assignati, non numerabit eum aliquis numerus primus præter illos assignatos.
 
@@ -22,4 +22,4 @@ CAMPANVS. Sit a minimus numerus numeratus a numeris primis qui sunt b, c, d. Dic
 
 *[Figure: dotted number lines labelled a, b, c, d and horizontal lines labelled e, f]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

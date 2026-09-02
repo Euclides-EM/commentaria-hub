@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 56]*
+<!-- Folio: 56 -->
 
 ipsam circunferentiam, intra igitur. Si in circuli circunferentia igitur, & quæ sequuntur reliqua ut in theoremate quod demonstrasse oportuit.
 
@@ -34,4 +34,4 @@ SI intra circulum duæ lineæ se inuicem secent, & super centrum nō transeant, 
 
 CAMPANVS. Sit ut in circulo a b c d, cuius centrum sit e, duæ lineæ a c, & b d, secent se in puncto f, & utraque earū uel altera nō transeat per centrū. Dico q̃ ipsæ nō diuidūt sese per æqualia: ita q̃ utraq̃ per æqualia diuidatur ab utraque
 
-*[Catchword: utraque]*
+<!-- Catchword: utraque -->

@@ -1,4 +1,6 @@
-# EVCLIDIS MEGARENSIS *[Folio: 568]*
+<!-- # EVCLIDIS MEGARENSIS -->
+
+<!-- Folio: 568 -->
 
 angulus, in parallelos enim f g, c b recta cecidit linea c f, efficiens interiores & ad easdē partes binis rectis æquales. Quorū qui sub f c b, datur: & reliquus qui sub c f g datur. Quare & reliqui dati sunt & qm̄ datur ratio c f ad c b, æqualis aūt ipsa g b ipsi c f & c b ipsi f g, quare & laterū ratio datur.
 
@@ -30,4 +32,4 @@ Sit triangulum obtusum habens angulum eum qui sub a b c, datum, extendaturq́; i
 
 *[Figure: a triangle with apex a at the upper right; horizontal base with d at the left end and b in the middle; lines run from a to d and from a to b]*
 
-*[Catchword: igitur]*
+<!-- Catchword: igitur -->

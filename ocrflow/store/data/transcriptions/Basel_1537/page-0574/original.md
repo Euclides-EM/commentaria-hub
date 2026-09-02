@@ -1,6 +1,6 @@
-*[Folio: 561]*
+<!-- Folio: 561 -->
 
-# DATA
+<!-- # DATA -->
 
 lo. Datur autem d e g,triangulum specie, datur igitur & a b c,triangulum specie.
 
@@ -36,4 +36,4 @@ Extendatur b a in rectas lineas in d,& ipsi a c,ponatur æqualis a d & connectat
 
 *[Figure: figure with d at top left, c at bottom left, b at bottom right; a between d and b, joined to c]*
 
-*[Catchword: tus]*
+<!-- Catchword: tus -->

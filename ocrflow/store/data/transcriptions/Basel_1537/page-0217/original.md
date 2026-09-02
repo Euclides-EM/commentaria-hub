@@ -1,4 +1,6 @@
-# *[Folio: 206]* ARITHMET. ELEMENT. EVCLIDIS
+<!-- Folio: 206 -->
+
+<!-- # ARITHMET. ELEMENT. EVCLIDIS -->
 
 CAMPANVS Sint a & b,inter quos cadunt c & d in cōtinuā proportione habētes se in proportione e ad f,dico quod totidem cadunt inter e & f & in eadem proportione,quot inter a & b.Sint enim g,h,K,l,totidem minimi:quot sunt a & b qui inter eos cadunt,sumpti quemadmodum docet 2 huius,continue proportionales in eadem proportione,eruntq̃ per 3 g & l,cōtra se primi,& per æquā proportionalitatē erit g ad l,sicut a,ad b, ideoq̃,&,sicut e ad f,& quia ipsi sunt in sua proportione minimi per 23 sep.sequitur per 21 eiusdē ut g numeret e,& l,f æqualiter,toties igitur nūeret h,m,& K,n.positisque m & n,inter e & f,cōstat per 18 septimi,e,m,n,f esse cōtinue proportiōales quēadmodū sunt h,k,l,& ideo quēadmodū a,c,d,b,quare patet quod dictū est.
 
@@ -6,7 +8,7 @@ CAMPANVS Sint a & b,inter quos cadunt c & d in cōtinuā proportione habētes se
 
 CAMPANI annotatio. Ex hoc constat nullam superparticularem posse per æqualia diuidi,si enim hoc esset,oporteret inter duos numeros sola unitate distātes numerū cadere medium.quod esse non potest ideoq̃ tonus in musica quem sesquioctaua continet proportio,in duo uera semitonia diuidi non potest, sed necessario diuiditur in minus semitonium & maius.
 
-Eucli.ex Zamb. — Theorema 6 — Propositio 8
+## Eucli.ex Zamb. — Theorema 6 — Propositio 8
 
 ## 8 Si inter duos numeros cōtinue proportionales ceciderint numeri,quot inter eos continue proportionales ceciderint numeri,tot & inter eandē rationem habentes eis continue proportionales cadent.
 
@@ -14,12 +16,12 @@ THEON ex Zamb. *Inter binos enim numeros α,β,continue proportionales cadant nu
 
 *[Figure: dotted number lines beside the Theon proof, labelled α (3 dots), γ (10 dots), δ (long row), β (long row), η (1 dot), θ (3 dots), κ (10 dots), λ (long row), ε (2 dots), μ, ν (medium rows), ζ (long row)]*
 
-Eucli.ex Camp. — Propositio 9
+## Eucli.ex Camp. — Propositio 9
 
-## 9 SI inter duos numeros contra se primos numeri quotlibet continua proportionalitate ceciderint, inter utrunque eorum & unitatem totidem continua proportionalitate cadere necesse est.
+9 SI inter duos numeros contra se primos numeri quotlibet continua proportionalitate ceciderint, inter utrunque eorum & unitatem totidem continua proportionalitate cadere necesse est.
 
 *[Woodcut: decorated initial S with foliate ornament]*
 
 CAMPANVS. Sint a & b contra se primi,inter quos cadant in continua proportionalitate c & d.Dico quod totidem erunt continue proportionales inter a & unitatem,itemque totidem inter b & unitatem.Sint enim in illa proportione minimi e & f,sumpti ut docet 34 septimi,ex quibus sumantur tres continue proportionales & minimi
 
-*[Catchword: in]*
+<!-- Catchword: in -->

@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 24]*
+<!-- Folio: 24 -->
 
 Rursus sint ad angulos æquos latera subtensa, æqualia, sintq̃ α β & δ ε. Dico rursus quod reliqua latera reliquis lateribus æqualia erunt, hoc est latus α γ lateri δ ζ, & latus β γ lateri ε ζ: & insuper reliquus angulus β α γ, reliquo angulo ε δ ζ æqualis erit. Si enim β γ ipsi ε ζ æquale non est, alterum eorum maius est: sit igitur (si possibile est) maius latus β γ: & ponatur (per 3 propositionem) ipsi ε ζ æqualis linea β θ: & cōnectatur (per 1 postulatum) α θ. Et quoniam æqualis est β θ ipsi ε ζ, & α β ipsi δ ε: duæ igitur α β & β θ, duabus δ ε & ε ζ sunt æquales altera alteri, & angulos æquos continent. Basis igitur α θ, (per 4 propositionem) basi δ ζ est æqualis: & triangulum α β θ, triangulo δ ε ζ est æquale, sub quibus æqualia subtenduntur latera: angulus igitur β θ α, angulo ε ζ δ est æqualis. Sed angulus ε ζ δ, angulo β γ α est æqualis. Angulus igitur β θ α, angulo β γ α est æqualis: trianguli igitur α θ γ angulus exterior β θ α, interiori angulo β γ α est æqualis: quod (per 16 propositionem) est impossibile. Latus igitur β γ, ipsi ε ζ inæquale nō est, æquale igitur. Est autem & α β, ipsi δ ε æqualis: duæ igitur α β & β γ, duabus δ ε & ε ζ sunt æquales altera alteri, & angulos æquos continent. Basis igitur α γ (per 4 propositionem) basi δ ζ est æqualis: & triangulum α β γ, triangulo δ ε ζ est æquale: & reliquus angulus β α γ, reliquo angulo ε δ ζ est æqualis. Si duo igitur triangula duos angulos duobus angulis, & quæ sequuntur reliqua ut in theoremate, quod ostendere oportebat.
 
@@ -34,4 +34,4 @@ SI linea recta duabus lineis rectis superuenerit, fueritq̃ angulus eius intrins
 
 CAMPANVS. Sit ut linea a b, secet duas lineas c d & e f, in punctis g & h: sitq̃ angu
 
-*[Catchword: lus g]*
+<!-- Catchword: lus g -->

@@ -1,4 +1,6 @@
-# *[Folio: 330]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 330 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 rationalis igitur est ζ μ, & ipsi γ δ, longitudine incommensurabilis. Et quoniā conflatum quidem ex ijs quæ ex α η, η β, ratiōale est, quod aūt bis sub α η, η β, mediū. incōmēsurabilia igitur sunt quæ ex α η, η β. ei quod bis sub α η, η β. At γ λ. æquū est eis quæ ex α η, η β, ei autē quod bis sub α η, η β, æquū est ζ λ. Incōmēsurabile igitur est (per 9 decimi,) γ λ. ipsi ζ λ. Sicut autē γ λ, ad ζ λ, (per 1 sexti & 11 decimi) sic est γ μ ad μ ζ. Incōmensurabilis igitur est γ μ, ipsi ζ μ lōgitudine. Et utræq̃ sunt rōnales. Ipsæ igitur γ μ, μ ζ, (per 73 decimi) rōnales sunt potētia tātū cōmēsurabiles. Apotome igitur est γ ζ. Dico quod & quarta. Quoniā enim ipsæ α η, η β, potētia sunt incōmēsurabiles, incōmēsurabile est igitur & quod ex α η, ei quod x *[sic: for ex]* η β. Et ei quidē quod ex α η, æquū est γ θ, ei aūt quod ex η β, æquū est & κ λ. Incōmēsurabile igitur est γ θ, ipsi κ λ. Sicut aūt γ θ ad κ λ, sic est γ κ ad κ μ, incōmēsurabilis igitur est (per 9 decimi,) γ κ ipsi κ μ lōgitudine. Et quoniā ipsorū quæ ex α η, η β mediū proportionale est (per lēma 53 decimi) quod sub α η, η β, & id quod ex α η, æquū est ipsi γ θ, quod autē ex η β æquū est ipsi κ λ, quod uero sub α η, η β, æquū est ipsi ν λ, ipsorū igitur γ θ, κ λ, mediū proportiōale est (per idē lēma ν λ. Est igitur sicut γ θ ad ν λ, sic est ν λ ad κ λ. Sed sicut quidē γ θ ad ν λ, sic (per 1 sexti,) est γ κ ad κ μ *[sic: for ν μ]*, sicut autē ν λ ad κ λ, sic est ν μ ad κ μ, & sicut igitur (per 11 quinti) γ κ ad μ ν, sic est μ ν ad κ μ. Quod igitur sub γ κ, κ μ, æquū est ei quod ex μ ν, hoc est quartæ parti eius quod ex ζ μ. Quoniā igitur binæ rectæ lineæ inæquales sūt γ μ & μ ζ, & quartæ parti eius quod ex μ ζ, (per 17 decimi,) ad ipsam γ μ apponitur forma deficiens quadrata, quod scilicet sub γ κ, κ μ, & in incōmēsurabilia ipsam diuidit, ipsa igitur γ μ, ipsa μ ζ maius potest eo quod ex sibi incōmensurabili, & tota γ μ, ipsi γ δ, expositæ rationali cōmensurabilis est lōgitudine. Ipsa igitur γ ζ, apotome est quarta (per 83 decimi) quod ex minori ad rationalē igitur comparatū laitudinē *[sic: for latitudinē]*, quartam efficit apotomen, quod erat ostendendum.
 
@@ -10,7 +12,7 @@ Eucl.ex Camp. — Propositio 96
 
 CAMPANVS Pone similiter hic lineā d e esse illā quæ iūcta cū rōnali cōponat totū mediale, & attēde ex 72 quales lineas oporteat esse d f & f e, & cōcludes sine offendiculo, si prius habitæ demōstrationi oportune institeris, lineā b c esse residuum quintum.
 
-Eucli.ex Zamb. — Theorema 77 — Propositio 101
+## Eucli.ex Zamb. — Theorema 77 — Propositio 101
 
 *[Margin: 101]*
 
@@ -22,10 +24,10 @@ THEON ex Zāb. Sit cū rōnali mediū totū efficiēs α β. ratiōalis autē es
 
 *[Figure: tall rectangle on the rational line γ δ (γ top-left, δ bottom-left), divided by verticals ζ ε, ν ξ, κ θ and μ λ; top edge labelled γ ζ ν κ μ, bottom edge labelled δ ε ξ θ λ]*
 
-Eucli.ex Camp. — Propositio 97
+## Eucli.ex Camp. — Propositio 97
 
 *[Margin: 97]*
 
 ## SI ad lineam rationalem superficies æqualis quadrato lineæ cū mediali componentis mediale adiungatur, latus eius alterum erit residuum sextum.
 
-*[Catchword: CAM-]*
+<!-- Catchword: CAM- -->

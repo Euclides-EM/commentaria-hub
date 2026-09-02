@@ -1,6 +1,6 @@
-*[Folio: 502]*
+<!-- Folio: 502 -->
 
-## EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 Sit in mundo horizon a b c, æstiuus quidem tropicus sit a b, hybernus uero sit c t, zodiacus uero circulus positionē habeat a c e, assumanturq̃ æquales circūferentiæ d e, e f. Dico q̄ d e, e f, æquali tempore non permutāt non apparens hemisphærium. Sed in pluri tempore ipsa d e q̄ e f. Assumantur ipsis d e, e f, circūferentijs æquales, & ex opposito circūferentiæ g h, h k. Ipsæ igitur g h, h k, circūferētiæ æquali tempore non permutant apparens hemisphæriū. Sed in pluri g h q̄ h k. Sed in quo tempore g h permutat apparēs hemisphæriū, permutat ipsa f e non apparens. Ipsæ igitur d e, e f, circūferētiæ, æquali tempore non permutant non apparens hemisphærium. Sed in pluri d e, ipsa e f. Dico q̄ & in æquali tempore quæ æque distant ab utroq̃ cōtactu tropicorū, sint .n. per quos inuehantur ipsa d e f g h k, signa circuli paralleli d o, e x, f r, l g, h m, n k. Ipsæ h k, l m, igitur circūferentiæ in æquali tempore permutāt apparens hemisphæriū. Sed in quo tēpore h k apparens hemisphæriū permutat, ipsa d e non apparens permutat. In quo autem l m apparens, hemisphæriū permutat, ipsa x o non apparens permutat. Ipsæ igitur e d, o x, circūferentiæ æquali tempore non permutāt non apparens hemisphærium.
 
@@ -22,4 +22,4 @@ Esto in mundo horizon a b c, æstiuus quidem tropicus esto a x, hybernus uero si
 
 *[Figure: sphere with horizon, equinoctial and zodiac; points a, f, m, n, e, x, k, b, h, o, d, g marked]*
 
-*[Catchword: permutat]*
+<!-- Catchword: permutat -->

@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 364]*
+<!-- Folio: 364 -->
 
 turq̃ (per 23 primi) ad ipsam θ κ rectā lineā, & ad signū in ea θ, angulo qui sub α β γ, æqualis angulus qui sub κ θ λ, & ponatur (per 2 primi) uni ipsarū α β, β γ, δ ε, ε ζ, η θ, θ κ, æqualis θ λ, cōnectanturq̃ κ λ, η λ. Et quoniā binæ α β, β γ, duabus κ θ, θ λ, sunt æquales, & angulus qui ad β angulo q̃ sub κ θ λ est æqualis, basis igitur α γ (per 4 primi) basi κ λ est æqualis. Et quoniā qui sub α β γ, η θ κ eo qui sub δ ε ζ sunt maiores, æqualis autē qui sub κ θ λ eis qui sub α β γ, & η θ κ, qui igitur sub η θ λ eo qui sub δ ε ζ maior est. Et quoniā duæ η θ, θ λ, duab. δ ε, ε ζ sunt æquales, & angulus qui sub η θ λ angulo qui sub δ ε ζ maior est, basis igitur η λ (per 24 primi) basi δ ζ maior est. Sed ipsæ η κ, κ λ, ipsa η λ sunt maiores, multo magis igitur η κ, κ λ, ipsa δ ζ sunt maiores. Aequalis autē est κ λ, ipsi α γ: ipsæ igitur α γ, η κ, reliqua δ ζ sunt maiores. Similiter iam ostēdemus, qd̃ & ipsæ quidē α γ, δ ζ, ipsa η κ sunt maiores, & η κ, δ ζ, ipsa α γ. Possibile igitur est, ex æqualibus ipsis α γ, δ ζ, η κ, triangulū confici. Quod ostēdendū erat.
 
@@ -18,4 +18,4 @@ CAMPANVS. Sint propositi tres anguli supficiales *[sic]* qui sunt a, b, c, de tr
 
 *[Figure: three tall triangles side by side with apexes a, b, c and base points d, e, f, d, representing the bases d e, e f, f d]*
 
-*[Catchword: Quod]*
+<!-- Catchword: Quod -->

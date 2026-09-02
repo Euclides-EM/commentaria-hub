@@ -1,12 +1,12 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 236]*
+<!-- Folio: 236 -->
 
 THEON ex Zamb. Sint propositi primi numeri α,β,γ. Dico quod ipsis α,β,γ, plures sunt primi numeri. Accipiatur enim (per 39 septimi) minimus quem ipsi α,β,γ, metiūtur, sitq́; δ ε, addaturq́; ipsi δ ε, unitas δ ζ, iam ε ζ aut est primus aut non, sit prius primus, inuenti igitur sunt primi numeri α, β,γ,ε ζ, plures ipsis α,β,γ. Sed iam non sit ε ζ primus: igitur eum aliquis numerus primus metitur (per 34 septimi,) metiatur eum numerus primus η. Dico quod η nulli ipsorū α,β,γ, est idem. Si enim η alicui ipsorū α,β,γ, est idem, ipsi autem α,β,γ, ipsum δ ε metiuntur, igitur & η, ipsum δ ε metietur, metitur autem & ε ζ, & reliquam δ ζ unitatem metietur η numerus existens, quod est absurdum: igitur η non est idem uni ipsorum α, β, γ, ipse autem supponitur & primus. Inuenti igitur sunt primi numeri plures proposita multitudine ipsorum α,β,γ, ipsi α,β,γ,η, quod ostendere oportuit.
 
 *[Figure: at right, rows of small filled squares labelled α (two), β (three), γ (nineteen); below, a long solid line marked 114 and 23 above, ending with points δ . ζ; beneath it a shorter solid line labelled η]*
 
-Eucli. ex Camp. Propositio 22
+## Eucli. ex Camp. Propositio 22
 
 **22** SI coaceruentur quotlibet numeri pares, totus quoq̃ ab eis coaceruatus erit par.
 
@@ -16,7 +16,7 @@ CAMPANVS. Sit quisq̃ numerorū a,b,c, par. Dico ex eis compositum, esse parem: 
 
 *[Figure: dotted line with points a, b, c]*
 
-Eucli. ex Zamb. Theorema 21 Propositio 21
+## Eucli. ex Zamb. Theorema 21 Propositio 21
 
 **21** Si pares numeri quotcunq̃ componantur, totus par est.
 
@@ -24,7 +24,7 @@ THEON ex Zamberto. Componantur enim numeri quilibet pares ipsi α β, β γ, γ 
 
 *[Figure: dotted line with points α, β, γ, δ, ε]*
 
-Eucli. ex Camp. Propositio 23
+## Eucli. ex Camp. Propositio 23
 
 **23** SI numeri impares numero pares coaceruentnr *[sic: coaceruentur]*, totus quoq̃ ex eis coaceruatus erit par.
 
@@ -34,7 +34,7 @@ CAMPANVS. Sit quilibet numerorum a,b,c,d, impar: dico ex eis compositum, esse pa
 
 *[Figure: dotted line with points a, b, c, d]*
 
-Eucli. ex Zamb. Theorema 22 Propositio 22
+## Eucli. ex Zamb. Theorema 22 Propositio 22
 
 **22** Si impares numeri quotcunq̃ componantur, fuerit autem multitudo par, totus par erit.
 
@@ -42,7 +42,7 @@ THEON ex Zamberto. Componantur enim impares numeri quotcunq̃, multitudine pares
 
 *[Figure: dotted line with points α, β, γ, δ, ε]*
 
-Eucli. ex Camp. Propositio 24
+## Eucli. ex Camp. Propositio 24
 
 **24** SI numeri impares numero impares coaceruentur, totum quoq̃ ex eis coaceruatum imparem esse.
 
@@ -52,4 +52,4 @@ CAMPANVS. Sit quilibet numerorum a,b,c, impar. Dico totum ex eis compositum esse
 
 *[Figure: dotted line with points a, b, c]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

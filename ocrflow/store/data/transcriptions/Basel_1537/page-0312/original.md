@@ -1,8 +1,10 @@
-# LIBER DECIMVS. *[Folio: 301]*
+<!-- # LIBER DECIMVS. -->
+
+<!-- Folio: 301 -->
 
 prædictæ lineæ sunt incōmensurabiles in potentia, erit superficies e l incōmensurabilis superficiei m l, ideoq̃ & linea f l, lineæ l n : potentior igitur est per primam partem 14 linea f n linea n g, in quadrato lineæ sibi incommensurabilis. Per diffinitionem itaq̃ binomij quinti, conclude propositum.
 
-Eucli.ex Zamb. Theorema 46 Propositio 64
+## Eucli.ex Zamb. Theorema 46 Propositio 64
 
 *[Margin: 64]*
 
@@ -14,7 +16,7 @@ THEON ex Zamber. Sit rationale mediumq̃ potens α β, diuisa in rectas lineas i
 
 *[Figure: rectangle on base ε θ λ ξ ζ with top line δ κ μ ν η (δ at left, with tick marks on the left side); vertical lines join κ–θ, μ–λ, ν–ξ; taller rectangles are erected above the segments δ κ and μ ν]*
 
-Eucli. ex Camp. Propositio 59
+## Eucli. ex Camp. Propositio 59
 
 *[Margin: 59]*
 
@@ -28,7 +30,7 @@ CAMPANVS. In hac 59 sit linea a b linea potens supra duo medialia, quæ autem pr
 
 *[Figure: rectangle divided by three horizontal lines; labelled down the right side g, q, n, l (g at top right corner) with f at the bottom right corner; on the left side p opposite q, m opposite l, e at the bottom left corner]*
 
-Eucli.ex Zamb. Theorema 47 Propositio 65
+## Eucli.ex Zamb. Theorema 47 Propositio 65
 
 *[Margin: 65]*
 
@@ -40,4 +42,4 @@ THEON ex Zamber. Esto (per 47 decimi) bina potens media α β. diuisa in γ, rat
 
 *[Figure: rectangle on base ε θ λ ξ ζ with top line δ κ μ ν η (δ at left); vertical lines join κ–θ, μ–λ, ν–ξ; taller rectangles are erected above the segments δ κ and μ ν]*
 
-*[Signature: C]* *[Catchword: bilis est.]*
+<!-- Signature: C --> <!-- Catchword: bilis est. -->

@@ -1,6 +1,6 @@
-# LIBER DECIMVSQVARTVS
+<!-- # LIBER DECIMVSQVARTVS -->
 
-*[Folio: 469]*
+<!-- Folio: 469 -->
 
 quadruplum igitur est quod ex β ζ, eius quod ex δ ζ. Ei aūt quod ex β ζ, æqua sunt quæ ex β α, α ζ: quadrupla igitur sunt quæ ex β α, α ζ, eius q̃ ex δ ζ: quincupla igitur sunt quæ ex γ α, α ζ, eius quod ex δ ζ, quæ autē ex γ α, æqualia quod ex α β, quæ autē ex δ ζ: quincuplū igitur quod ex α γ una cum eo quod ex α ζ, eius quod ex δ ζ.
 
@@ -18,4 +18,4 @@ HYPSICLES ex Zamb. Esto pentagonum æquilaterum & æquiangulum α β γ δ ε, &
 
 *[Figure: circle containing an inscribed pentagon; within it, at the centre, the triangle formed by the two radii γ ζ, ζ δ upon the side γ δ, with the perpendicular ζ η; points β and α on the circumference at left and top]*
 
-*[Signature: R]*
+<!-- Signature: R -->

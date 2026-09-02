@@ -1,6 +1,6 @@
-# LIBER DECIMVSQVINTVS 481
+<!-- # LIBER DECIMVSQVINTVS 481 -->
 
-*[Folio: 481]*
+<!-- Folio: 481 -->
 
 ctione ad centra connexæ, comprehendent desinentes similiter in binas rectas inclinationis icosahedri planorum. In dodecahedro uero expolito uno quinquangulo, connexa similiter sub binis lateribus subtensa recta linea, centris terminis eiusdem, interuallo autem acta perpendiculari à bifaria sectione ipsius in parallelum in latus pentagoni, *[Margin: ut suprà]* describantur circunferentiæ, & quæ à signo in quod inuicem concurrunt ad centra connexæ, similiter comprehendent* desinentem in binas rectas inclinationis planorum dodecahedri. Sic quidem clarissimus ille uir de prædictis disseruit, claram putans in quouis demonstrationem. Sed ut manifesta fiat illorum demonstratio, sic uerba ipsius declarare, primumq̃ in pyramide.
 
@@ -16,4 +16,4 @@ In icosahedro autem intelligatur pentagonum æquilaterum α β γ δ ε, & in eo
 
 *[Figure: regular pentagon α β γ δ ε with interior apex point ζ joined to all vertices, and η on one of the slant lines; internal lines drawn]*
 
-*[Signature: S]* *[Catchword: & ipsi]*
+<!-- Signature: S --> <!-- Catchword: & ipsi -->

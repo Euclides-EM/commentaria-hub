@@ -1,6 +1,6 @@
-# 576 EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 576]*
+<!-- Folio: 576 -->
 
 ## Theorema 72. Propositio 72.
 
@@ -22,4 +22,4 @@ Binorum, inquam, parallelogrammorũ a b, e g, quæ circũ æquales aut inæquale
 
 SI bina parallelogramma rationem adinuicem datam habuerint, aut in angulis æqualibus, aut inæqualibus datis tamẽ, erit
 
-*[Catchword: sicut]*
+<!-- Catchword: sicut -->

@@ -1,6 +1,6 @@
-# GEO. ELEMEN. EVCLIDIS
+<!-- # GEO. ELEMEN. EVCLIDIS -->
 
-*[Folio: 322]*
+<!-- Folio: 322 -->
 
 est igitur (per 17 sexti) sicut α ζ ad ε η, sic ε η ad ζ η. Sed sicut quidem α ζ, ad ε η, sic (per 1 sexti,) α ι, ad α ε κ *[sic: pro ε κ]*, sicut autē ε η ad ζ η, sic est ε κ, ad κ ζ. Ipsorum igitur α ι, κ ζ, medium proportionale est ε κ, est autem ipsorum λ μ, ν ξ, medium proportionale, ν μ, sicut in præcedentibus patuit (per lemma 53 decimi,) & α ι, ipsi quidem λ μ quadrato æquum est, at κ ζ, ipsi ν ξ, & ε κ igitur, ipsi μ ν est æquale, Sed ε κ, (per 36 primi) ipsi δ θ est æquale, & μ ν, ipsi λ ξ. Igitur δ κ. æquum est ipsi υ φ χ, gnomoni, & ipsi ν ξ. Est autē & α η æquū ipsis λ μ, ν ξ, quadratis. Reliquū igitur α β, (per 45 primi) æquū est ipsi σ τ, hoc est ei quod ex λ ν quadrato, Quod igitur ex λ ν quadratū, ipsi α β, æquū est. Ipsa igitur λ ν. ipsam α β areolam potest. Dico quod & λ ν apotome est. Quoniā enim rōnalia sunt α ι, ζ κ, & æqualia sunt ipsis λ μ, ν ξ, & utrūq̃ igitur ipsorū λ μ, ν ξ, ratiōale est, hoc est quod ex utraq̃ ipsarū λ ο, ο ν, & utraq̃ igitur ipsarū λ ο, ο ν, rōnalis est. Rursus quoniā δ θ mediū est, & ipsi λ ξ, est æquale mediū igitur est λ ξ. Et quoniā λ ξ mediū est, & ν ξ rōnale, incōmēsurabile igitur est λ ξ, ipsi ν ξ. Sicut autē λ ξ ad ν ξ, sic est λ ο ad ο ν. Incōmēsurabilis igitur est (per 11 decimi) λ ο, ipsi ο ν longitudine. Et utræq̃ rationales, ipsæ igitur λ ο. ο ν, rationales sunt potentia tantum commensurabiles. Apotome igitur est (per 73 decimi,) λ ν & ipsam α β areolam potest. Quæ igitur ipsam α β areolam potest apotome. est. Si areola igitur cōprehēdatur sub rationali & apotome prima, quæ areolam potest apotome est. Quod erat ostendendum.
 
@@ -26,4 +26,4 @@ THEON ex Zamb. Areola namque α β, cōprehendatur sub rationali α γ, & secund
 
 *[Figure: square with diagonal from ρ (bottom left) to ο (top right); a vertical line and a horizontal line cross on the diagonal; a semicircular arc is drawn about the crossing; labels: λ, ν, ο along the top, σ at the left, ξ at the right, υ, φ and χ inside (χ printed as X), ρ, τ, μ along the bottom]*
 
-*[Catchword: æquum]*
+<!-- Catchword: æquum -->

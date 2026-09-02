@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 16]*
+<!-- Folio: 16 -->
 
 duobus rectis, quod est propositum. Ex quo patet totum spatium quod in qualibet superficie plana punctum quodlibet circumstat, quatuor rectis angulis esse æquale.
 
@@ -28,4 +28,4 @@ THEON ex Zamb. Ad aliquam enim rectam lineam α β, signumq̃ in ea β, duæ rec
 
 *[Figure: horizontal line γ β δ with the point β; the line β α rising vertically and the oblique line β ε rising from β towards the upper right between α and δ]*
 
-*[Catchword: Euclides]*
+<!-- Catchword: Euclides -->

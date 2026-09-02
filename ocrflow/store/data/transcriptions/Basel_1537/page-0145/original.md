@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 134]*
+<!-- Folio: 134 -->
 
 ## Eucli. ex Zamb. Theorema 25. Propositio 25
 
@@ -32,4 +32,4 @@ Si fuerit quatuor quantitatum maior proportio primæ ad secundam quàm tertiæ a
 
 CAMPANVS. Sit hic quoq̃ proportio a ad b maior, quàm c ad d: dico quod erit permutatim maior proportio a ad c, quàm b ad d. Eadem enim non erit, quia tunc quoq̃ esset permutatim a ad b, sicut c ad d. Neq̃ minor: nam si hoc ponatur: sit itaque
 
-*[Catchword: e ad c,]*
+<!-- Catchword: e ad c, -->

@@ -1,8 +1,8 @@
-*[Folio: 191]*
+<!-- # LIBER SEPTIMVS. -->
 
-# LIBER SEPTIMVS.
+<!-- Folio: 191 -->
 
-Euclides ex Campano. — Propositio 29
+## Euclides ex Campano. — Propositio 29
 
 *[Margin: 29]*
 
@@ -16,7 +16,7 @@ CAMPANVS. Sint a & b, contra se primi, dico q̃ ex eis compositus a b, ad utrunq
 
 CAMPANI annotatio. Eodem quoq̃ modo si coaceruatus ex duobus, primus fuerit ad alterū, primus quoq̃ erit ad reliquum: ideoq̃ & coaceruati inter se. Sit enim compositus ex a, b, primus ad a, dico quod erit etiam primus ad b, alioqui, numeret eos d, qui per conceptionē numerabit & a, cum numeret totum & detractum: hoc autem inconueniens, erat enim compositus ex a & b, primus ad a.
 
-Eucli. ex Zamb. — Theorema 28 — Propositio 30
+## Eucli. ex Zamb. — Theorema 28 — Propositio 30
 
 *[Margin: 30]*
 
@@ -26,7 +26,7 @@ THEON ex Zamb. Componantur enim bini numeri primi adinuicem, α β & β γ. Dico
 
 *[Figure: dotted number line with three point labels: α········β·····γ, and below it: δ····]*
 
-Eucli. ex Camp. — Propositio 30
+## Eucli. ex Camp. — Propositio 30
 
 *[Margin: 30]* *[Margin: Zamb. 33]*
 
@@ -38,7 +38,7 @@ CAMPANVS. Sit a quilibet numerus compositus. Dico quod aliquis primus numerat ip
 
 *[Figure: dotted number lines beside the text: a························ / b············ / c······ / d···]*
 
-Eucli. ex Camp. — Propositio 31
+## Eucli. ex Camp. — Propositio 31
 
 *[Margin: 31]* *[Margin: Zamb. 34]*
 
@@ -48,4 +48,4 @@ CAMPANVS. Sit a quilibet numerus, dico ipsum esse primum, uel numerari a primo, 
 
 *[Figure: dotted number lines beside the text: a······ / a·········· / ···]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

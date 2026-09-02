@@ -1,6 +1,6 @@
-# LIBER PRIMVS
+<!-- # LIBER PRIMVS -->
 
-*[Folio: 21]*
+<!-- Folio: 21 -->
 
 tatem duarum linearū f d & g h, intersecantes se in puncto k sicut docuit præcedens, ductisq̃ lineis k f & k g, erunt æqualia duo latera k f & f g trianguli k f g duobus lateribus a & b trianguli a b c, & basis g k æqualis basi c: ergo per 8 angulus k f g, æqualis erit angulo contento a & b, quod est propositum.
 
@@ -30,4 +30,4 @@ CAMPANVS. Sint duo trianguli a b c, & d e f, sintq̃ duo latera a b & a c, æqua
 
 Si bina triangula, duo latera duobus lateribus æqualia habuerint al
 
-*[Catchword: terum]*
+<!-- Catchword: terum -->

@@ -1,4 +1,6 @@
-# PHAENOMENA 483 *[misnumbered folio: printed 483, recte 489]*
+<!-- # PHAENOMENA -->
+
+<!-- Folio: 483 *[misnumbered folio: printed 483, recte 489]* -->
 
 tur tempore f, signum ipsam f g e, circunferentiā efficiens in e, ueniet & e ipsum efficiens ambitum e d f in f ueniet. Sed f quidem per f g e, circunferentiam ductus in e, quod proueniens occidit. At e, per e d f, ambitum inuectus in f, quod perueniens oritur. Ipso igitur f occidente e, oritur, similiter iam demonstrabimus quod f ipso oriente ipsum e occidit. Similiter autē & omnia in zodiaco & æquinoctionali astra consistētia in diametro coniugate oriuntur & occidunt.
 
@@ -18,4 +20,4 @@ Sit in mūdo horizon a b c d, æstiuus quidem tropicus sit a d, hybernus uero tr
 
 *[Figure: large circle a b c d crossed by several intersecting arcs; points labeled a, b, c, d, e, f, g, h, k, l, m, n, o, p, r, x]*
 
-*[Catchword: f, quod]*
+<!-- Catchword: f, quod -->

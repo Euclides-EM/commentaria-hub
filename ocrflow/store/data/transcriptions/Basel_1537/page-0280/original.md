@@ -1,4 +1,6 @@
-# LIBER DECIMVS. *[Folio: 269]*
+<!-- # LIBER DECIMVS. -->
+
+<!-- Folio: 269 -->
 
 cōmensurabiles,& γ,δ,igitur(per 11 decimi)potentia tantum sunt cōmensurabiles,estq́ʒ γ media,media igitur est(per 23 decimi)& δ. Ipsæ igitur γ,δ,(per constructionem) mediæ sunt potentia tantum cōmensurabiles.Dico quod & rationale comprehendunt.Quoniam enim est sicut α ad β,sic est γ ad δ,uicißim igitur (per 16 quinti)est sicut α ad γ, sic est β ad δ. Sed sicut α ad γ,sic γ ad β, & sicut igitur (per 11 quinti) γ ad β,sic β ad δ, igitur quod sub γ,δ,æquum est ei quod ex β . Rationale autem est quod ex β . Rationale igitur est quod sub γ,δ . Inuentæ igitur sunt mediæ potentia tantum commensurabiles,rationale comprehendentes,quod fecisse oportuit..
 
@@ -30,4 +32,4 @@ Sint enim α β,β γ,similes plani ut qni *[sic: for qui]* sub α β,β γ, (pe
 
 *[Figure: a dotted horizontal line with the points α . . η . . θ . δ . ε . ζ . . . γ . . . . . . . . β]*
 
-*[Signature: Z 3]* *[Catchword: ipsius]*
+<!-- Signature: Z 3 --> <!-- Catchword: ipsius -->

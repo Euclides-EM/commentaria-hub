@@ -38,6 +38,15 @@ func (c *Client) Exec(provider string, model string, prompt string, attachmentPa
 }
 
 func (c *Client) ExecWithLogLabel(provider string, model string, prompt string, attachmentPath string, logLabel string) (string, error) {
+	result, err := c.ExecResultWithLogLabel(provider, model, prompt, attachmentPath, logLabel)
+	return result.Text, err
+}
+
+func (c *Client) ExecResultWithLogLabel(provider string, model string, prompt string, attachmentPath string, logLabel string) (Result, error) {
+	return c.ExecPromptResultWithLogLabel(provider, model, Prompt{Dynamic: prompt}, attachmentPath, logLabel)
+}
+
+func (c *Client) ExecPromptResultWithLogLabel(provider string, model string, prompt Prompt, attachmentPath string, logLabel string) (Result, error) {
 	normalizedProvider := strings.ToLower(strings.TrimSpace(provider))
 	var clt AIProviderClient
 	switch normalizedProvider {
@@ -48,7 +57,7 @@ func (c *Client) ExecWithLogLabel(provider string, model string, prompt string, 
 	case ProviderOllama:
 		clt = c.ollama
 	default:
-		return "", fmt.Errorf("llm exec: unsupported ai provider %q", provider)
+		return Result{}, fmt.Errorf("llm exec: unsupported ai provider %q", provider)
 	}
 	slots, ok := c.limiters[normalizedProvider]
 	if !ok {
@@ -59,12 +68,11 @@ func (c *Client) ExecWithLogLabel(provider string, model string, prompt string, 
 	defer func() {
 		<-slots
 	}()
-	return clt.ExecWithLogLabel(model, prompt, attachmentPath, logLabel)
+	return clt.ExecPromptResultWithLogLabel(model, prompt, attachmentPath, logLabel)
 }
 
 type AIProviderClient interface {
-	Exec(model string, prompt string, attachmentPath string) (string, error)
-	ExecWithLogLabel(model string, prompt string, attachmentPath string, logLabel string) (string, error)
+	ExecPromptResultWithLogLabel(model string, prompt Prompt, attachmentPath string, logLabel string) (Result, error)
 }
 
 func makeLimiter(limit int) chan struct{} {

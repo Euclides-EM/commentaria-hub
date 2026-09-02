@@ -1,6 +1,6 @@
-*[Folio: 562]*
+<!-- Folio: 562 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 tus igitur est qui sub a b c,angulus est autem qui sub b a c, datus,& reliquus qui sub a c b datus est. Datur igitur a b c,triangulum specie.
 

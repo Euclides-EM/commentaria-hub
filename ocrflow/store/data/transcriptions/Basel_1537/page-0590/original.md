@@ -1,6 +1,6 @@
-# DATA 577
+<!-- # DATA -->
 
-*[Folio: 577]*
+<!-- Folio: 577 -->
 
 sicut primi latus ad secundi latus, sic alterum secundi latus ad quod reliquũ primi rationem habet datam.
 
@@ -28,4 +28,4 @@ Sit specie datũ triãgulum a b c, exciteturq̃ ab ipso a in b c, perpendiculari
 
 SI binæ species specie datæ adinuicem ra-
 
-*[Signature: Cc]* *[Catchword: tionem]*
+<!-- Signature: Cc --> <!-- Catchword: tionem -->

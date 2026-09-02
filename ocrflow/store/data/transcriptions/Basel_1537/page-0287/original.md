@@ -1,6 +1,6 @@
-*[Folio: 276]*
+<!-- Folio: 276 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 lineæ a b, itaq́ⳓ & quadratis duarum linearum a e & e b pariter acceptis. Quod cum ita sit, sequitur quoque ut duplum superficiei a e in e b sit incommensurabile quadratis prædictis duarum linearum a e & e b pariter acceptis. Et hoc erat demonstrandum. Duæ lineæ quas hæc 29 docet inuenire, componunt lineam potentem in in *[sic: in duplicated]* duo medialia, & minori earum abscisa de maiori, quæ reliqua est, dicitur linea quæ iuncta cum mediali facit totum mediale.
 
@@ -28,4 +28,4 @@ CAMPANVS. Sint duæ lineæ a b & b c in continuum directumq́ⳓ cōiunctæ rati
 
 THEON ex Zamberto. Componantur enim binæ rationales potentia tantum commensurabiles, α β, β γ.
 
-*[Catchword: Dico]*
+<!-- Catchword: Dico -->

@@ -1,6 +1,6 @@
-*[Folio: 536]*
+<!-- Folio: 536 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 ## Theorema 57. Propositio 58.
 
@@ -42,4 +42,4 @@ Esto, inquam, quadratum c f, excitenturq̃ dimetientes c f, k d, & a b h, ad ang
 
 *[Figure: a square with corners d, e(=c), f, k, its two diagonals meeting at the centre, a line rising from the centre to the apex b above, and lines drawn from b to each corner of the square]*
 
-*[Catchword: BARTHOLOMAEVS]*
+<!-- Catchword: BARTHOLOMAEVS -->

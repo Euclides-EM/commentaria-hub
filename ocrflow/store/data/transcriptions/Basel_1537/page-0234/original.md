@@ -1,12 +1,12 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 223]*
+<!-- Folio: 223 -->
 
 per eas quæ in α sunt unitates, igitur & α ipsum β metitur per eas quæ in ipso α sunt unitates: & quoniam α ipsum β metitur per eas quæ in ipso α sunt unitates, igitur α seipsum multiplicans, ipsum effecit β, quadratus igitur est β. Et quoniam ipsi β, γ, δ, ordinatim sunt proportionales, & β quadratus est, igitur (per 22 octaui) & δ quadratus est, & iam id propterea & ζ quadratus est. Similiter iam demonstrabimus quod & unum relinquentes, quadrati sunt omnes. Dico iam quod & quartus ab untiate, hoc est γ, cubus est, & binos relinquentes omnes. Quoniam enim est sicut unitas ad α numerum sic β ad γ, æque igitur unitas ipsum α numerum, & β ipsum γ metitur, at unitas ipsum α metitur per eas quæ in α sunt unitates, igitur & β ipsum γ metitur per eas quæ in ipso α sunt unitates, & α igitur ipsum β multiplicans, ipsum effecit γ. Quoniam igitur α seipsum quidem multiplicans, ipsum effecit β, ipsum autem β multiplicans ipsum γ fecit, cubus igitur est ipse γ. Et quoniam ipsi γ, δ, ε, ζ, ordinatim sunt proportionales, ipse autē γ cubus est, & ζ igitur (per 22 octaui) cubus est. Demonstratū autem est, quod ζ septimus ab unitate existens, quadratus est. Igitur ζ cubus est & quadratus. Similiter iam ostendemus quod & quinq; relinquentes cubi sunt omnes & quadrati, quod oportuit demonstrasse.
 
 *[Figure: dotted number lines from unitas labelled α, β, γ, δ, ε, ζ with values 3, 9, 27, 81, 243, 729]*
 
-Eucli. ex Camp. Propositio 9
+## Eucli. ex Camp. Propositio 9
 
 **9** SI numeris quotlibet ab unitate continua proportionalitate dispositis, unitatem sequens quadratus fuerit, cæteri quoq̃ omnes erunt quadrati. Si uero qui unitatē sequitur fuerit cubus, cæteri quoq̃ omnes erunt cubi.
 
@@ -16,7 +16,7 @@ CAMPANVS. Sint qui prius continue proportionales ab unitate, sitq̃ a quadratus,
 
 *[Figure: dotted number lines from unitas labelled a, b, c, d, e, f, g, h, k, l, m, n]*
 
-Eucli. ex Zamb. Theorema 9 Propositio 9
+## Eucli. ex Zamb. Theorema 9 Propositio 9
 
 **9** Si ab unitate quotcunq̃ numeri * consequenter proportionales fuerint, qui uero post unitatem quadratus fuerit, & reliqui omnes quadrati ernrt. Et si qui post unitatem cubus fuerit, & reliqui omnes cubi erunt.
 
@@ -26,6 +26,6 @@ THEON ex Zamberto. Sint ab unitate consequenter proportionales, quotcunq; numeri
 
 *[Figure: dotted number lines from μονάς labelled α, β, γ, δ, ε, ζ, with values at left 9, 81, 729, 6561, 59049, 531441 and at right 81, 729, 6561, 59049, 531441, 732969; rotated Greek captions τετράγωνοι at left and κύβοι at right]*
 
-*[Signature: t 4]*
+<!-- Signature: t 4 -->
 
-*[Catchword: bus est.]*
+<!-- Catchword: bus est. -->

@@ -1,6 +1,6 @@
-# PHAENOMENA 487
+<!-- # PHAENOMENA -->
 
-*[Folio: 487]*
+<!-- Folio: 487 -->
 
 l t, circunferentiæ: in quo igitur tempore k in s peruenit in eodem & l in t, & k l, circulus coheret in ipso s t, circulo a t. s t, circulus ad g e k, l igitur ad e k rectus est: & k l, igitur ad e k, rectus est. Rursus quoniam s m p, circunferentia ipsi t n r, est similis: in quo igitur tempore s in p, in eodem quoque & t in r uenit, & circulus zodiacus conuenit in circulo p o r, & p r, ad g e k, rectus est, & zodiacus circulus rectus est ad g e k, horizontem, bis igitur zodiacus circulus ad horizontem rectus est.
 
@@ -24,4 +24,4 @@ Sit in mundo horizon a b c. maximus autem semper apparentium sit a d e, alius au
 
 *[Figure: large circle a b c with inner tangent circle and several intersecting arcs; points labeled a, b, c, d, e, f, g, h, k, l, m, n, x]*
 
-*[Signature: S 4]* *[Catchword: Theo]*
+<!-- Signature: S 4 --> <!-- Catchword: Theo -->

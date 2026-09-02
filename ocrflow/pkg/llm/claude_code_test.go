@@ -20,6 +20,37 @@ func TestClaudeCodeExec(t *testing.T) {
 	}
 }
 
+func TestClaudeCodeExecResultReportsUsageAndCost(t *testing.T) {
+	executable := fakeClaudeCodeExecutable(t, `{
+		"result":"fable response",
+		"is_error":false,
+		"subtype":"success",
+		"total_cost_usd":0.012345,
+		"usage":{
+			"input_tokens":100,
+			"cache_creation_input_tokens":20,
+			"cache_read_input_tokens":30,
+			"output_tokens":40
+		}
+	}`)
+	client := NewClaudeCodeClient(executable)
+
+	result, err := client.ExecResultWithLogLabel("fable", "Answer briefly", "", "test")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if result.Text != "fable response" {
+		t.Fatalf("result text = %q, want fable response", result.Text)
+	}
+	if result.Usage.InputTokens != 100 || result.Usage.CacheCreationInputTokens != 20 ||
+		result.Usage.CachedInputTokens != 30 || result.Usage.OutputTokens != 40 || result.Usage.TotalTokens != 190 {
+		t.Fatalf("usage = %#v, want decoded Claude Code usage", result.Usage)
+	}
+	if result.Usage.CostUSD == nil || *result.Usage.CostUSD != 0.012345 {
+		t.Fatalf("cost = %v, want 0.012345", result.Usage.CostUSD)
+	}
+}
+
 func TestClaudeCodeExecMakesAttachmentAvailableToRead(t *testing.T) {
 	executable := fakeClaudeCodeExecutable(t, `{"result":"read attachment","is_error":false,"subtype":"success"}`)
 	attachmentPath := filepath.Join(t.TempDir(), "page image.png")
@@ -43,6 +74,31 @@ func TestClaudeCodeExecMakesAttachmentAvailableToRead(t *testing.T) {
 	absolutePath, _ := filepath.Abs(attachmentPath)
 	if !strings.Contains(got, absolutePath) {
 		t.Fatalf("prompt did not include attachment path %q:\n%s", absolutePath, got)
+	}
+}
+
+func TestClaudeCodeExecSeparatesStaticSystemPromptFromDynamicInput(t *testing.T) {
+	executable := fakeClaudeCodeExecutable(t, `{"result":"corrected","is_error":false,"subtype":"success"}`)
+	client := NewClaudeCodeClient(executable)
+
+	_, err := client.ExecPromptResultWithLogLabel("fable", Prompt{
+		Static:  "stable dialect",
+		Dynamic: "page-specific input",
+	}, "", "test")
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	invocation, err := os.ReadFile(executable + ".invocation")
+	if err != nil {
+		t.Fatal(err)
+	}
+	got := string(invocation)
+	if !strings.Contains(got, "--append-system-prompt\nstable dialect\n") {
+		t.Fatalf("invocation did not use a stable system prompt:\n%s", got)
+	}
+	if !strings.HasSuffix(got, "page-specific input") {
+		t.Fatalf("stdin did not contain only dynamic input:\n%s", got)
 	}
 }
 

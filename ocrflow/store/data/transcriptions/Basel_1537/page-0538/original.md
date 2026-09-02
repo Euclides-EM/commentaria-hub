@@ -1,6 +1,6 @@
-# PERSPECTIVA
+<!-- # PERSPECTIVA -->
 
-*[Folio: 527]*
+<!-- Folio: 527 -->
 
 coni ad uerticem eius perq̃ deductas, & eis quæ ab oculo in basim coni procidentibus plana educta fuerint, in communique planorum sectione oculus positus fuerit, id quod spectatur coni, omnifariam æquum spectabitur uisu in plano proposito existenti.
 
@@ -24,4 +24,4 @@ Esto enim circulus cuius centrum sit k, & ab ipso k, per 11 undecimi ele. ad ang
 
 *[Figure: eye at a (upper left) with rays to a circle; d at top, c at right, within the circle s, r, t about the centre K, a and b at lower left]*
 
-*[Catchword: teri]*
+<!-- Catchword: teri -->

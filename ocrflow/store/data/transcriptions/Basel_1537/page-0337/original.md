@@ -1,6 +1,6 @@
-# GEO. ELEMEN. EVCLIDIS
+<!-- # GEO. ELEMEN. EVCLIDIS -->
 
-*[Folio: 326]*
+<!-- Folio: 326 -->
 
 bilis igitur est (per 18 decimi α ζ, ipsi ζ η, longitudine. Sicut autem (per 1 sexti) α ζ, ad ζ η, sic α ι ad ζ κ, incommensurabile igitur est (per 9 decimi, (α ι ipsi ζ κ, Et quoniam ipsæ α η, α γ, rationales sunt potentia tantum commensurabiles, medium est α κ. Et quoniam ipsæ α γ, δ η, rationales sunt longitudine incōmensurabiles, mediū est & δ κ, (per 21 decimi.) Quoniam igitur ipsæ α η, η δ, potentia tantum sunt commensurabiles, igitur α η, ipsi δ η longitudine est incōmensurabilis. Sicut autem, α η ad η δ, sic est α κ, ad δ κ, incommensurabile igitur est α κ, ipsi κ δ. Cōstituatur igitur (per 14 secundi,) ipsi α ι, æquū quadratū λ μ, ipsi autem ζ κ, æquum auferatur ν ξ, ad eundem angulum ipsi λ μ, circa eūdem dimetientem igitur (per 26 sexti) sunt ipsa λ μ, ν ξ, quadrata, esto ipsorum dimetiēs ο ρ. describaturq̃ figura. Similiter iam ex præcedentibus ostendemus, quod λ ν est quæ cum medio medium totum efficit. Quoniam nāq̃ patuit quod α κ mediū est & eis est æquale quæ ex λ ο, ο ν. conflatum igitur ex ijs quæ ex λ ο, ο ν, medium est (per correlarium 23 decimi.) Rursus quoniam patuit quod δ κ mediū est, & ei æquale quod bis sub λ ο, ο ν, & quod igitur bis sub λ ο, ο ν, mediū est. Et quoniam patuit quod α κ, ipsi δ κ est incommensurabile, incommensurabilia igitur sunt & quæ ex λ ο, ο ν, sunt quadrata ei quod bis sub λ ο, ο ν. Et quoniam α ι, ipsi ζ κ. est incōmensurabile, incōmensurabile est igitur & quod ex λ ο, ei quod ex ο ν. Ipsa λ ο, ο ν, igitur (per 78 decimi) potentia sunt incommensurabiles, efficientes conflatū ex ipsarum quadratis medium, & quod bis sub ipsis medium insuper quæ ex ipsis quadrata incommensurabilia ei, quod bis sub ipsis. Ipsa igitur λ ν, irrationalis est, appellata cum medio medium totum efficiens. Quod erat demonstrandū.
 
@@ -16,4 +16,4 @@ CAMPANVS Hæ sex sequentes, sunt conuersæ sex præcedentium per ordinem. Huius 
 
 *[Figure: tall rectangle with a and b at the bottom corners and n at the top right corner; three horizontal lines s–m, p–q and r–c divide its upper part, with s, p, r on the left side and m, q, c on the right side]*
 
-*[Catchword: ne]*
+<!-- Catchword: ne -->

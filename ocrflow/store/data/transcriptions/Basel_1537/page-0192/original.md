@@ -1,4 +1,6 @@
-# LIBER SEPTIMVS *[Folio: 181]*
+<!-- # LIBER SEPTIMVS -->
+
+<!-- Folio: 181 -->
 
 prætermisit demonstrare. Primum itaque demonstrabimus conuersam, ut si sit a ad b, sicut c ad d, dico quod erit econuerso *[dot-line diagram: a . . . . . . . . c . . . . . . b . . . . d . . .]* b ad a, sicut d ad c: si enim fuerit a minor b, tunc quoq́; erit c minor d, & tota pars aut partes a, b, quota uel quotæ c, d, quare per secundam partem 11, erit b ad a, sicut d ad c: si autẽ fuerit a maior b, erit quoq́; & c maior d, & per primam partem 11 b tota pars aut partes a, quota uel quotæ d, c, per diffinitionem igitur, b ad a, sicut d ad c.
 
@@ -28,4 +30,4 @@ THEON ex Zamberto. Sint quotcunq́; numeri α, β, γ & alij eisdem æquales num
 
 *[Figure: two groups of vertical dotted columns representing the numbers, the left group labeled ζ, ε, δ and the right group labeled γ, β, α at the foot]*
 
-*[Signature: q]* *[Catchword: Euclidis]*
+<!-- Signature: q --> <!-- Catchword: Euclidis -->

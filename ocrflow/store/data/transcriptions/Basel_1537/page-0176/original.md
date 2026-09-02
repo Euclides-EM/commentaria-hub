@@ -1,12 +1,12 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 165]*
+<!-- Folio: 165 -->
 
 sin̄ & 6 huius:ipsi trianguli sunt æquianguli, & angulus b,est æqualis angulo d c e,& angulus a c b angulo e, quare per 32 primi tres anguli qui sunt ad c,sunt æquales duobus rectis, ipsi enim æquātur tribus angulis utriuslibet duobustriangulorum,ergo per 14 primi b c,est linea una quod est propositū.
 
 *[Figure: two triangles standing on a common base line b c e: triangle with apex a on base b c, and triangle with apex d on base c e]*
 
-Eucli.ex Camp. Propositio 31
+## Eucli.ex Camp. Propositio 31
 
 ## 31
 
@@ -22,7 +22,7 @@ CAMPANI additio Cōuersam quoq̃ huius possumus facile demonstrare per modū dem
 
 Sequentes duæ ex Zamberto propositiones,duabus præcedētibus ex Campano præpostero ordine respondent.
 
-Eucli.ex Zamb. Theorema 21 Propositio 31
+## Eucli.ex Zamb. Theorema 21 Propositio 31
 
 ## 31
 
@@ -32,4 +32,4 @@ In rectangulis triangulis quæ ab rectum angulum subrendente latere species, æq
 
 THEON ex Zamberto. Sit triangulum α β γ,rectum habens angulum qui sub β α γ.Dico quod quæ ex β γ, species,æqualis est eis quæ ex β α,& α γ,speciebus similibus similiterque descriptis.Excitetur (per 12 primi,) perpendicularis α δ,Quoniā igitur in triangulo rectāgulo α β γ,ab α recto angulo β γ,in basin perpendicularis acta est α δ,triangula α β δ,& α δ γ,quæ ad perpendicularem,similia sunt toti α β γ,& sibi inuicem (per 8 sexti,) quoniam simile est α β γ,ipsi α β δ,est igitur sicut γ β,ad β α,sic α β,ad β δ.At quoniam tres rectæ lineæ proportionales sunt est igitur (per correlarium secundum 20 sexti,) sicut prima ad tertiam sic quæ à prima species ad eam quæ
 
-*[Catchword: à secunda]*
+<!-- Catchword: à secunda -->

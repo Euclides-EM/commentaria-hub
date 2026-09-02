@@ -1,4 +1,6 @@
-# LIBER OCTAVVS *[Folio: 203]*
+<!-- # LIBER OCTAVVS -->
+
+<!-- Folio: 203 -->
 
 cut e ad f.Minimi quoque,nam si alij sint minimi ut m n p q,oportebit per 21 septimi, bis assumptam ut uterque duorum b & c numeret p,quare & g numerabit eundem per correlarium 35 septimi,quod est inconueniens.Sunt igitur h,g,k,l,minimi.
 
@@ -6,7 +8,7 @@ At uero si e non numerat k,sit m minimus numeratus ab eis scilicet e & k,quē m 
 
 *[Figure: dotted number lines beside the text, labelled a (3 dots), b (2 dots), c (4 dots), d (3 dots), e (5 dots), f (4 dots), g (12 dots), h (9 dots), K (6 dots), then n, p, m, q, r, s, t, x (long rows of dots)]*
 
-Eucli.ex Zamb. — Problema 2 — Propositio 4
+## Eucli.ex Zamb. — Problema 2 — Propositio 4
 
 ## 4 Rationibus datis quibuscunque in minimis numeris,numeros inuenire continue proportionales minimos in datis rationibus.
 
@@ -16,4 +18,4 @@ THEON ex Zamb. *Sint datæ rationes in minimis numeris,ipsius α ad β,& ipsius 
 
 *[Figure: dotted number lines beside the second part of the Theon proof, labelled α (5 dots), β (7 dots), γ (2 dots), δ (3 dots), ε (5 dots), ζ (6 dots), then θ, η, κ, ξ, ν, μ, ο, π, ρ, σ, τ (long rows of dots)]*
 
-*[Catchword: tionales]*
+<!-- Catchword: tionales -->

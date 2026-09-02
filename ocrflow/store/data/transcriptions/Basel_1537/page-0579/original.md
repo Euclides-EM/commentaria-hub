@@ -1,4 +1,6 @@
-# EVCLIDIS MEGARENSIS *[Folio: 566]*
+<!-- # EVCLIDIS MEGARENSIS -->
+
+<!-- Folio: 566 -->
 
 ad c k. Compleaturq́; c l parallelogrammum. Quoniam igitur est sicut c d ad e f, sic e g, ad c k, æqualis autem est c d ipsi k l. Est igitur sicut k l ad e f, sic e g ad c k, circum æquales angulos qui sunt sub c k l, g e f, latera sunt reciproca, æquum igitur est per 14 sexti ele. k d ipsi g f. Et quoniam ratio ipsius a ad b est data, est aūt æquale b ipsi c l. Ratio igitur ipsius h d ad c l data est. At sicut h d ad c l, sic h c ad c k. Et ipsius igitur h c ad c k ratio est data: & quoniam est sicut c d ad e f, sic e g ad c k, at ipsa c h ad c k rationem habet datam, quam area a ad ipsam b: est igitur sicut c d ad e f: sic est e g ad quod h c, rationem habet quam areola a ad areolam b.
 
@@ -30,4 +32,4 @@ Datum enim a c ad datam a d proiectum sit specie deficiens à dato d c. Dico quo
 
 SI datum ad datam proiectum fuerit excedens specie dato specie, dantur latitudines excessus.
 
-*[Catchword: Datū]*
+<!-- Catchword: Datū -->

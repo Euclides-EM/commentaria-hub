@@ -1,6 +1,6 @@
-# LIBER TERTIVS.
+<!-- # LIBER TERTIVS. -->
 
-*[Folio: 83]*
+<!-- Folio: 83 -->
 
 quæ fiunt ex ε η, & η ζ, æquū est id quod fit ex ζ ε, (per 47 primi, eis autē quæ fiunt ex γ η & η ζ, æquū est id quod fit ex ζ γ, (per eandem.) Quod igitur continetur sub α ε, & ε γ, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ γ. Aequalis autem est ζ γ, ipsi ζ β. Ex centro enim in circunferentiam. Quod continetur igitur sub α ε, & ε γ, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ β. Et per hoc quod continetur sub δ ε, & ε β, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ β. Ostensum autem continetur sub α ε, & ε γ, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ β. Quod cōtinetur igitur sub α ε, & ε γ, una cū eo quod fit ex ζ ε, æquū est ei quod continetur, sub δ ε, & ε β, una cum eo quod fit ex ζ ε. Commune auferatur id quod fit ex ζ ε. Reliquum igitur rectangulum comprehensum sub α ε, & ε γ, æquum est rectangulo comprehenso sub δ ε, & ε β. Si in circulo igitur duæ rectæ lineæ se adinuicem secuerint, rectangulum comprehensum sub segmentis unius, æquum est rectangulo comprehenso sub segmentis alterius, quod demonstrasse oportuit.
 
@@ -18,4 +18,4 @@ CAMPANI additio. Ex hac nota, quod puncto extra circulum signato, si ab ipso ad 
 
 *[Figure: circle with centre e and c at its foot; from the external point a above, two tangent lines descend to the circle at b on the left and d on the right, forming a lozenge a b c d about the upper part of the circle, with the diameter through e drawn]*
 
-*[Catchword: Sit]*
+<!-- Catchword: Sit -->

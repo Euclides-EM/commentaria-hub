@@ -1,4 +1,6 @@
-# *[Folio: 198]* ARITHMET. ELEMENT. EVCLIDIS
+<!-- Folio: 198 -->
+
+<!-- # ARITHMET. ELEMENT. EVCLIDIS -->
 
 per 16 & prædictam communem scientiam a,b,c,d,uiceuersa partes l dictæ ab m,n,p,q, quare non erat e minimus quem numerāt a,b,c,d,quod est inconueniens.
 
@@ -22,4 +24,4 @@ Vt si partes propositæ sint a,b,c,sintq̃ eas denominantes d,e,f,& sumatur mini
 
 CAMPANI *annotatio*. Intelligo uero partes a,b,c,indeterminate poni,non sub quantitate certa,aliter enim non esset necessarium ut minimus numerus quem numerant d,
 
-*[Catchword: e,f,esset]*
+<!-- Catchword: e,f,esset -->

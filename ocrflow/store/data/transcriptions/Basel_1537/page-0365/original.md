@@ -1,8 +1,10 @@
-# *[Folio: 354]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 354 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 diculariter erectã supra superficiẽ in qua est linea b a. A diffinitione igitur erit angulus f b a, rectus. Et quia etiam angulus d b a est rectus per ultimã pertem *[sic: for partem]* 29 primi, sequitur per 4 huius, lineã a b esse perpendicularẽ ad superficiẽ in qua sitæ sunt duæ lineæ b d & b f. Quare constat propositũ.
 
-Eucli. ex Zamb. Theorema 8 Propositio 8
+## Eucli. ex Zamb. Theorema 8 Propositio 8
 
 *[Margin: 8]*
 
@@ -12,7 +14,7 @@ THEON ex Zamb Sint binæ rectæ lineæ parallelæ α β, γ δ, altera autẽ ip
 
 *[Figure: two vertical parallels α β and γ δ; the line β δ joins their feet, with ε below; lines α δ, β ε and α ε drawn, forming triangles on the base β δ]*
 
-Eucli. ex Camp. Propositio 9
+## Eucli. ex Camp. Propositio 9
 
 *[Margin: 9]*
 
@@ -22,7 +24,7 @@ CAMPANVS. Sit utraq̃ duarũ linearũ a b & c d æquidistans lineæ e f, nec sin
 
 *[Figure: three horizontal lines: a b with h upon it, e f with g upon it, and c d with k upon it; the obliques g h and g k drawn from g to the outer lines]*
 
-Eucli. ex Zamb. Theorema 9 Propositio 9
+## Eucli. ex Zamb. Theorema 9 Propositio 9
 
 *[Margin: 9]*
 
@@ -32,4 +34,4 @@ THEON ex Zamb. Sit enim utraq̃ ipsarũ α β, γ δ, ipsi ε ζ parallelus, nõ
 
 *[Figure: three horizontal lines: α β with θ upon it, ε ζ with η upon it, and γ δ with κ upon it; the obliques η θ and η κ drawn from η to the outer lines]*
 
-*[Catchword: η θ, η κ]*
+<!-- Catchword: η θ, η κ -->

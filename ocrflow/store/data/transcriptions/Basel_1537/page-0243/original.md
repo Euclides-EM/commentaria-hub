@@ -1,6 +1,6 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 232]*
+<!-- Folio: 232 -->
 
 **12** Cum fuerit numerus in duo æqua diuisus, aliusq̃ adiunctus, quadratum totius compositi cum quadrato adiuncti, duplum sunt ad quadratū medietatis ipsius cum quadrato compositi ex medietate & adiuncto.
 
@@ -14,7 +14,7 @@ Quod 11 secundi proponit faciendum in lineis, demonstrat hoc impossibile esse in
 
 *[Figure: dotted line with points a, c, e, d, b]*
 
-Eucli. ex Zamb. Theorema 15 Propositio 15
+## Eucli. ex Zamb. Theorema 15 Propositio 15
 
 **15** Si tres numeri continue proportionales fuerint minimi, eandem eis habentium rationem, bini quilibet compositi ad reliquum primi erunt.
 
@@ -22,4 +22,4 @@ THEON ex Zamber. Sint tres numeri continue proportionales, minimi eandem eis hab
 
 *[Figure: dotted number lines labelled α β, γ, β γ, α, γ α, β, and a line with points δ, ε, ζ]*
 
-*[Catchword: Et qui]*
+<!-- Catchword: Et qui -->

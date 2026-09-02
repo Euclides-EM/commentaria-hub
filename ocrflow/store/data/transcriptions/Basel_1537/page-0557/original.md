@@ -1,6 +1,6 @@
-# EVLCIDIS MEGARENSIS *[sic: for EVCLIDIS]*
+<!-- # EVLCIDIS MEGARENSIS *[sic: for EVCLIDIS]* -->
 
-*[Folio: 544]*
+<!-- Folio: 544 -->
 
 ## Diffinitio quarta.
 

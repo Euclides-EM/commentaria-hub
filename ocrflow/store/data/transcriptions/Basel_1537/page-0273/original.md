@@ -1,4 +1,5 @@
-# *[Folio: 262]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 262 -->
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 proportio quadrati lineæ a b ad quadratũ lineæ a n sicut d ad l, & producatur n b, erunt duæ lineæ a b & b n quales inquirimus. Quod si rursus diuidatur d in p quadratum & in q nõ quadratum, & fuerit proportio quadrati lineæ a b ad quadratũ lineæ a r sicut d ad p, & protracta fuerit linca *[sic: linea]* r b, erũt etiam duæ a b & b r, quales inquirimus. Sunt itaque lineæ a b, b c, b k, b n, b r, potentia tantũ rationales & in ea cõmunicantes, quarum una uidelicet a b est potentior qualibet aliarũ in quadrato lineæ secũ communicantis in longitudine. Si igitur quatuor linearum b c, b k, b n, b r, nulla communicat alij in longitudine, cõstat propositum. Istud autẽ sic probatur, patet enim ex præmissis, quod quadratũ lineæ b c ad quadratũ lineæ a b est sicut numerus f ad numerũ d, & quadratũ lineæ a b ad quadratũ lineæ b k est sicut numerus f ad numerũ d, & quadratũ lineæ a b ad quadratũ lineæ b k est sicut numerus d ad numerũ h, ergo per æquã proportionalitatẽ quadratũ lineæ b c ad quadratum lineæ b k, est sicut numerus f ad numerũ h, sed nullus quatuor numerorũ f, h, m, k, se habet ex hypothesi ad alium sicut numerus quadratus ad numerum quadratum, quare per 3 partem septimæ, duæ lineæ b c, b k, sunt incommensurabiles in longitudine. Eadem ratiõne quælibet duæ ex illis quatuor sunt incommensurabiles in longitudine. Liquet ergo quod uolumus.
 
@@ -18,4 +19,4 @@ CAMPANI additio Et sciendũ quod duæ lineæ quales hæc & præmissa docẽt inu
 
 CAMPANVS Sint duæ lineæ a b, b c, continentes superficiem a c, rationales potentia tantũ communicantes, quæ qualiter reperiantur, ex præmissa & antepræmissam manifestum est, dico superficiem a c esse irrationalem. Sit enim d c quadratum b c, eritque rationale per hypothesin, eo quod linea b c est rationalis in potentia. Et quia ex prima sexti a c ad c d sicut a b ad b d, non communicat autem a b cum b d, quia ex hypothesi non communicat cũ sua æquali, quæ est b c, sequitur per secundam partem 10 ut etiam a c non cõmunicet cum c d, quare per diffinitionem, superficies
 
-*[Catchword: a c]*
+<!-- Catchword: a c -->

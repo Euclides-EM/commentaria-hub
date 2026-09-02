@@ -1,6 +1,6 @@
-*[Folio: 558]*
+<!-- Folio: 558 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 ## Theorema 37 Propositio 37
 
@@ -26,4 +26,4 @@ Trianguli enim a b c unumquodq̃ latus esto magnitudine datū. Dico quod & trian
 
 *[Figure: vertical straight line from d down through e, f, g to m; two intersecting circles centred at e and f; labels d and b above, c and a at the upper circle, f, g, m below]*
 
-*[Catchword: nem]*
+<!-- Catchword: nem -->

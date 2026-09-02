@@ -1,6 +1,6 @@
-# LIBER QVARTVS
+<!-- # LIBER QVARTVS -->
 
-*[Folio: 87]*
+<!-- Folio: 87 -->
 
 quantitatem lineæ d f, describatur circulus f e g, secans datum circulum in punctis g & e, ad alterū quorū ducatur linea à puncto d, ut d g, uel d e, & erit utralibet earum æqualis lineæ a b, eo quod utraque earum est æqualis lineæ d f, per diffinitionem circuli. quare habemus propositum.
 
@@ -38,4 +38,4 @@ THEON ex Zamb. *Sit datus circulus α β γ, datum autem triangulum δ ε ζ, op
 
 ## Eucli. ex Camp. Propositio 3
 
-*[Signature: h 2]* *[Catchword: Circa]*
+<!-- Signature: h 2 --> <!-- Catchword: Circa -->

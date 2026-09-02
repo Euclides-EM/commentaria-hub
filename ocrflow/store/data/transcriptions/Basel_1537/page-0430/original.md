@@ -1,4 +1,6 @@
-# LIBER DVODECIMVS. *[Folio: 419]*
+<!-- # LIBER DVODECIMVS. -->
+
+<!-- Folio: 419 -->
 
 corpus multarum baſium quod eſt c d, utraque enim, eſt ſicut diameter a b ad diametrum c d triplicata. Hæc autem, ex hypotheſi, illa uero, ex ſecunda parte præmiſſæ. Quare p̃mutatim proportio ſphæræ a b ad corpꝰ multarũ baſiũ a b, eſt ſicut ſphæra e f ad corpus multarum baſium c d. Cum igitur ſphæra a b ſit maior corpore multarum baſium a b, erit etiã ſphæra e f maior corpore multarum baſium c d. Hoc autẽ eſt impoſſibile, nã ipſa eſt pars eius. Non eſt ergo ſphæra e f minor ſphæra c d. Si autẽ dicat aduerſarius eam eſſe maiorem, confutabimus ipſum hoc modo. Erit enim per conuerſam proportionalitatem ſphæra e f ad ſphærã a b, ſicut diameter c d ad diametrum a b triplicata. Sit itaque eadem ſphæræ c d. ad ſphæram g h, eritq̃ ex 14 quinti ſphæra g h, minor ſphæra a b, eo qd̃ ſphæra c d poſita eſt minor ſphæra e f. Quare proportio ſphæræ c d ad aliquam ſphæram minorem ſphæra a b, eſt ſicut diametri c d ad diametrum a b triplicata. At hoc eſt impoſſibile, nã ex hoc ſequitur, quod pars ſit maior ſuo toto ut demonſtratum eſt prius. Itaque ſphæra e f, non eſt maior neq̃ minor quàm ſphæra c d. Igitur (ex 7 quinti) conclude, ppoſitã cõcluſionẽ, quæ imponit finẽ libro duodecimo.
 
@@ -24,4 +26,4 @@ Dico iam quod neque ſphæra α β γ, ad maiorem aliquã ipſa δ ε ζ ſphær
 
 ## DVODECIMI LIBRI FINIS.
 
-*[Catchword: EVCLI]*
+<!-- Catchword: EVCLI -->

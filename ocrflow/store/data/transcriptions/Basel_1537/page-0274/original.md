@@ -1,4 +1,6 @@
-# LIBER DECIMVS. *[Folio: 263]*
+<!-- # LIBER DECIMVS. -->
+
+<!-- Folio: 263 -->
 
 a c est irrationalis, ideoq̃ & suum latus tetragonicum est etiã irrationale. Dicitur autem hæc superficies medialis, quoniã ipsa est medio loco proportionalis inter duas superficies rationales, uidelicet inter quadrata duarum linearũ ipsam cõtinentium. Et lineam potens in ipsam dicitur medialis, quoniam ipsa quoque est medio loco proportiõalis inter duas lineas potentia tantum rationales communicantes, & hæ duæ lineæ, sunt latera dictæ superficiei. Et hoc est quod uolumus.
 
@@ -28,4 +30,4 @@ CAMPANVS Hæc est quasi cõuersa præmissæ. Sit a linea medialis, sitq̃ linea 
 
 *[Figure: tall rectangle with labels d at top right, b at bottom left, c at bottom right; beside it a smaller rectangle with labels g at right, e at bottom left, f at bottom right; below, a horizontal segment labeled a]*
 
-*[Signature: Si]*
+<!-- Signature: Si -->

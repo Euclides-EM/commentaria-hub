@@ -1,6 +1,6 @@
-*[Folio: 376]*
+<!-- Folio: 376 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ges super lineā b f æquidistāter duobus lateribus oppositis, erit ex 25 ꝓportio solidi f e ad solidū a b, sicut basis f e ad basin a b, Cūq̃ sint c d & f e tam bases quàm solida æqualia. bases quidem ex hypothesi, solida aūt ex 31 uel 32, sequitur ex 7 quinti bis assumpta semel pro basibus & semel pro solidis, ꝙ solidorū a b & c d basiumq̃ a b & c d sit proportio una. Quod demōstrare uoluimus. Huius quoq̃ conuersam ipsa eadē mediāte demonstrare quemadmodū cōuersas præcedentiū, non est difficile. Pones enim duo solida parallelogrāma esse suis basibus proportionalia, & conuinces ea esse æque alta. Abscisoq̃ ab eo quod altius mentietur aduersarius uno solido parallelogrāmo æque alto demissiori, erunt abscisum & demissius suis basibus proportionalia ex hypothesi & ex hac 33. Cumq̃ etiā essent totale altius à quo partiale abscidisti, & ipsum demissius eisdē basibus proportionalia ex hypothesi, sequitur (ex prima parte 9 quinti) totale aduersarius dicit altius, & partiale quod ab eo abscidisti, esse æqualia.
 
@@ -26,4 +26,4 @@ CAMPANVS. Quæcunque sint duo solida æquidistantium superficierum æqualia, eor
 
 *[Figure: a wider parallelepiped divided by a vertical plane, with m and d at top, l and g above the top face, k on the left face, f on the base, c at bottom left]*
 
-*[Catchword: neæ]*
+<!-- Catchword: neæ -->

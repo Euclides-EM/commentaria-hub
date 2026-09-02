@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 36]*
+<!-- Folio: 36 -->
 
 Protraham ergo b n æquidistantem a l, & producam diametrū n a, quam protraham quousq̃ concurrat cum m h producta in puncto o, & complebo superficiem æquidistantium laterum m o n q, & protraham l a usq̃ ad p punctum lineæ o q, eritq̃ per præcedentem, supplementum a b q p æquale supplemento m l h a, quare & triangulo d e f, & quia per 15 angulus l a h est æqualis angulo b a p, & ideo angulus b a p est æqualis angulo c, patet super datam lineam a b descriptam esse superficiem æquidistantium laterum a b p q æqualem dato triangulo d e f, cuius uterque duorum angulorum ex aduerso positorum qui sunt a & q, est æqualis dato angulo c, quod fuit propositum.
 
@@ -28,4 +28,4 @@ THEON ex Zamb. Sit datum rectilineum α β γ δ, datus uero angulus rectilineus
 
 *[Figure: quadrilateral α β γ δ with diagonal δ β; two parallelograms joined side by side, with letters κ, θ, λ, μ, η, ζ]*
 
-*[Catchword: quod]*
+<!-- Catchword: quod -->

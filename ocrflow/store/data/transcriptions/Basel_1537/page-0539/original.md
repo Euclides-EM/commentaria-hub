@@ -1,6 +1,6 @@
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 528]*
+<!-- Folio: 528 -->
 
 teri æquales, est autem & angulus r angulo f æqualis, æqualis igitur est per 4 primi elemētorū basis b f, basi b c. Idq̃ propterea iam & b d ipsi b a est æqualis, binæ iam d k, b f, binis c b a, sunt æquales, est autē & angulus f ipsi c a, æqualis: angulus igitur qui sub d b f, angulo qui sub c b a, est æqualis. Sed ea quæ sub æqualibus spectantur angulis æqualia apparent: æqualis igitur per suppositionem 6 ca, ipsi d f apparet.
 

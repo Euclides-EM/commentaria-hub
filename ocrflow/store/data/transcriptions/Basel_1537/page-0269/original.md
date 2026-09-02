@@ -1,6 +1,6 @@
-*[Folio: 258]*
+<!-- Folio: 258 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 THEON ex Zamb. Ad aliquā rectā lineam α β. cōparetur parallelogrāmū α δ,deficiens forma quadrata δ β. Dico quod α δ æquū est ei quod sub α γ,γ β,& ex seipso manifestum est. Quoniam enim quadratum est δ β,æqualis est δ γ,ipsi γ β,& α δ, est quod sub α γ,γ δ,hoc est quod sub α γ, & γ β. Si ad aliquam igitur rectam lineam,& quæ sequuntur reliqua,quod fuerat demonstrandum.
 
@@ -20,4 +20,4 @@ THEON ex Zamber. Sint binæ rectæ lineæ inæquales α,& β γ.quarum maior sit
 
 SI fuerint duæ lineæ inæquales quarum longiorem diuidat in duas partes incōmensurabiles superficies æqualis quartæ parti quadrati breuioris sibi adiuncta,ita quod desit ad eius completionem superficies quadrata,erit longior,potētior breuiori,augmento quadrati lineæ incommensurabilis ipsi longiori in longitudine. Si uero longior,potentior fuerit breuiori,quadrato lineæ incommensurabilis ipsi longiori in lōgitudine,adiūgaturq́ʒ ei superficies æqualis parti quartæ quadrati breuioris,defueritq́ʒ longiori superficies quadrata, necesse est ut ipsa superficies sibi adiūcta eandē longiorem lineam in duas portiones incommensurabiles diuidat.
 
-*[Catchword: CAM]*
+<!-- Catchword: CAM -->

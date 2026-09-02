@@ -1,8 +1,8 @@
-# LIBER OCTAVVS
+<!-- # LIBER OCTAVVS -->
 
-*[Folio: 217]*
+<!-- Folio: 217 -->
 
-Eucli. ex Camp. Propositio 22
+## Eucli. ex Camp. Propositio 22
 
 **22** SI duorum numerorū quorum proportio sicut quadrati ad quadratum, fuerit unus quadratus, alterum quoq̃ quadratū esse.
 
@@ -10,7 +10,7 @@ Eucli. ex Camp. Propositio 22
 
 CAMPANVS. Sint duo numeri a & b, in proportione duorum quadratorum qui sunt c & d, sitq̃ a uel b quadratus : dico reliquum esse quadratum. Cum enim c & d sint quadrati, sequitur eos esse superficiales. Ideoq̃ per 16 cadet unus medius inter eos in continua proportione: quare per 8 inter a & b, per 26 igitur constat propositum.
 
-Eucli. ex Zamb. Theorema 22 Propositio 24
+## Eucli. ex Zamb. Theorema 22 Propositio 24
 
 **24** Si bini numeri rationem habuerint, quam quadratus numerus ad quadratum numerum, primus autem fuerit quadratus, & secundus quadratus erit.
 
@@ -20,7 +20,7 @@ THEON ex Zamberto. Bini enim numeri α, β, adinuicem rationem habeant, quam qua
 
 *[Margin: Camp. 22 Zamb. 24]*
 
-Eucli. ex Camp. Propositio 23
+## Eucli. ex Camp. Propositio 23
 
 **23** SI duorum numerorū quorum proportio unius ad alterū sit sicut cubi ad cubum, alteruter fuerit cubus, & alterum cubum esse.
 
@@ -28,7 +28,7 @@ Eucli. ex Camp. Propositio 23
 
 CAMPANVS. Sint duo numeri a & b in proportione duorum cuborum qui sunt c & d, sitq̃ a uel b cubus : dico reliquū esse cubum. Necesse est enim quod c & d sint solidi similes, quippe omnes cubi sunt similes & solidi, itaq̃ per 18 inter ipsos cadent duo medij in continua proportione: totidem igitur per 8 cadent inter a & b, itaque per 21 manifestum est quod dicitur.
 
-Eucli. ex Zamb. Theorema 23 Propositio 25
+## Eucli. ex Zamb. Theorema 23 Propositio 25
 
 **25** Si bini numeri adinuicem rationem habuerint, quam cubus numerus ad cubum numerum, primus autem cubus fuerit, & secundus cubus erit.
 
@@ -38,7 +38,7 @@ THEON ex Zamberto. Bini enim numeri α, β, adiuuicem rationem habean t, quam cu
 
 *[Margin: Camp. 25 Zamb. 14]*
 
-Eucli. ex Camp. Propositio 24
+## Eucli. ex Camp. Propositio 24
 
 **24** NVmerorum superficialium similium est proportio unius ad alterum, sicut proportio quadrati ad quadratum.
 
@@ -48,6 +48,6 @@ CAMPANVS. Sint a & b superficiales similes, dico quod unus ad alterum est propor
 
 *[Figure: dotted number lines a, c, b, d, e, f]*
 
-*[Signature: c]*
+<!-- Signature: c -->
 
-*[Catchword: Eucli.ex]*
+<!-- Catchword: Eucli.ex -->

@@ -1,6 +1,6 @@
-# LIBER DVODECIMVS.
+<!-- # LIBER DVODECIMVS. -->
 
-*[Folio: 399]*
+<!-- Folio: 399 -->
 
 ad basin c, sicut altitudo pyramidis b ad altitudinẽ pyramidis a, itaq̃ ex secunda parte huius 7 duæ pyramides a & c, sunt æquales, quare per cõmunem scientiam duæ quoq̃ pyramides a & b, sunt æquales.
 
@@ -24,4 +24,4 @@ Sint duæ lateratæ pyramides, quarum coni a & b, similes, sintq̃ super bases p
 
 *[Figure: second pentagon with h at top, k upper left, n upper right, l lower left, m lower right; lines drawn from the vertices meeting at interior point b]*
 
-*[Signature: L 2]* *[Catchword: gulo]*
+<!-- Signature: L 2 --> <!-- Catchword: gulo -->

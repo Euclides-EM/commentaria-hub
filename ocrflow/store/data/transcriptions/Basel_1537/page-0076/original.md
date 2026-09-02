@@ -1,6 +1,6 @@
-# LIBER TERTIVS.
+<!-- # LIBER TERTIVS. -->
 
-*[Folio: 67]*
+<!-- Folio: 67 -->
 
 & quia angulus d a b, est rectus per hypothesin, habebit triangulus a b d, duos angulos rectos, quod est impossibile per 32 primi. Cadet ergo extra, sitque a e, quod si inter ipsam & circunferentiam potest linea recta intercipi, sit illa a f, ad quam ducatur perpendicularis d g, & quia angulus d g a, est rectus, erit per 18 primi linea a d, lōgior linea d g, quod est impossibile: quare inter ipsam, & circunferentiam, nulla linea recta intercipietur. Propter quod patet quod angulus contentus ab a c, & circunferentia, qui dicitur angulus contingentiæ, est minor omni angulo à duobus rectis lineis contento. Si enim aliquis rectilineus angulus esset angulo contingentiæ æqualis, aut eo minor: cum omnis talis possit per æqualia diuidi secundum doctrinam 9 primi, inter lineam a e, & circunferentiā, posset linea recta intercipi, quod monstrauimus esse non posse. Per quod patet angulum contentum a diametro & circunferentia, omnium acutorum rectilineorum esse maiorem. quia non differt à recto: nisi angulo contingentiæ quem monstrauimus esse minorem omni rectilineo. Correlarium patet per primā partem. Cum enim linea a e, in utranque partem eiecta non secet circulum, & tangat ipsum in puncto a, ipsa est contingens per diffinitionem.
 
@@ -12,6 +12,6 @@ CAMPANI additio. Ex hoc notandum, quod non ualet ista argumentatio, hoc transit 
 
 Posset probari quod angulus contingentiæ est diuisibilis secundum lineam rectam ut cōstat per figurationem hic a latere positam. Certum est quod angulus qui causatur ex contactu duorum circulorum uel sphærarum, est angulus contingentiæ: & talis diuidatur per lineam e g, quia hic habetur triangulus h g k, cuius basis h k, diuidatur per æqualia in puncto e: & protrahatur uersus g, contactum: & arguitur per 4 primi: deinde per 16 huius, & patet propositum.
 
-Eucli.ex Zamb.  Theorema 15.  Propositio 16
+## Eucli.ex Zamb.  Theorema 15.  Propositio 16
 
-*[Signature: f 4]* *[Catchword: Quæ]*
+<!-- Signature: f 4 --> <!-- Catchword: Quæ -->

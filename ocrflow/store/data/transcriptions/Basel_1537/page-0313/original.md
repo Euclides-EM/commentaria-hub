@@ -1,8 +1,10 @@
-# *[Folio: 302]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 302 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 bilis est, ac id propterea δ μ ipsa μ η maius potest eo quod ex sibi longitudine cōmensurabili *[sic: for incōmensurabili]*, & neutra ipsarum δ μ, μ η, cōmensurabilis est expositæ rationali δ ε lōgitudine. Ipsa igitur δ η (per secundas diffinitiones) ex binis est sexta nominibus, quod erat ostendendū.
 
-Eucli.ex Camp. Propositio 60
+## Eucli.ex Camp. Propositio 60
 
 *[Margin: 60]*
 
@@ -14,7 +16,7 @@ CAMPANVS. Sit linea a binomium cuiusuis speciei, sitq̃ linea b ei cōmunicans i
 
 *[Figure: long horizontal line with c at left end and d at right end, labelled a above; below it a shorter horizontal line with e at left end and f at right end, labelled b above]*
 
-Eucli.ex Zamb. Theorema 6 Propositio 29 *[sic: for Theorema 48 Propositio 66]*
+## Eucli.ex Zamb. Theorema 6 Propositio 29 *[sic: for Theorema 48 Propositio 66]*
 
 *[Margin: 66]*
 
@@ -24,4 +26,4 @@ THEON ex Zamb. Esto ex binis nominibus α β & ipsi α β longitudine cōmensura
 
 *[Figure: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]*
 
-*[Catchword: ipsi α β]*
+<!-- Catchword: ipsi α β -->

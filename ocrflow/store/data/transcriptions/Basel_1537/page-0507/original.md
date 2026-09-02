@@ -1,6 +1,6 @@
-*[Folio: 596]*
+<!-- Folio: 596 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 quarum ipsæ l k, k h, in æquali tempore occidunt. Reliqua igitur m l, h k in æquàli tempore occidunt. Similiter iam ostendemus q̃ & ipsæ m c, a g, circūferentiæ tēpori æquali occidunt. Et quoniā in pluri tēpore a g, circūferentia occidit q̃ g h, & g h q̃ h k, in pluri ergo tempore occidit c m, circūferentia q̃ m l, & m l, q̃ l k. In pluri igitur tempore ipsæ a g, m c, circūferentiæ, occidunt in minori autem ipsæ g h, l m, in minimo uero h k, k l, in æquali autem quæ æqualiter ab æquinoctiali distant occidunt & oriūtur, eadem enim, manente descriptione, si conuertamus zodiacum, efficiamus a c semicirculum zodiaci infra terram, eadem demonstratio eueniet, demonstrabiturq̃ æque restantes ab æquinoctiali æquali tempore oriri & occidere.
 
@@ -18,4 +18,4 @@ Odiaci circuli æquales circūferentiæ inæqualibus tēporibus permutant appare
 
 Sit horizon circulus a b c d, maximus autem semper apparentiū sit e f, æstiuus uero tropicus sit b a, sitq̃ ipsius a b c d, polus inter e f, b a, zodiacus autē circulus quandoq̃ positionē habeat sicut h g k, quandoq̃ uero sicut l m n, assumaturq̃ n k m, maior semicirculo. Describaturq̃ per k signum circulus maximus k n f, tangens e f. Quoniam in sphæra maximus orbis a b c d, quendam orbem e f, tangit alium uero huic parallelum secat a b, estq̃ ipsius a b c d, orbis polus inter a b & e f, descriptiq̃ sunt maximi orbes h g k, l m n, ipsum b a tangētes, maior est m x circūferentia, ipsa o d circūferentia. Rursus quoniam in sphæra maximus orbis a b c d, circulum quendam e f tangit, alium autem huic parallelum b a secat, estq̃ ipsius a b c d, circuli polus inter b a, e f. Describiturq̃ ma-
 
-*[Catchword: ximus]*
+<!-- Catchword: ximus -->

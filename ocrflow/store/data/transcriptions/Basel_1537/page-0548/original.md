@@ -1,6 +1,6 @@
 # BARTHOLOMAEVS ZAMBERTVS VENETVS
 
-*[Folio: 537]*
+<!-- Folio: 537 -->
 
 ## doctissimo physiologo Antonio Abiosio Rauennati artium, ac Medicinæ doctori eximio socero patriq̃ humanissimo fœlicitatē perpetuā.
 
@@ -14,4 +14,4 @@ Hilosophātes illi ueteres Antoni uir clarissime eorum opera, aut magnis, aut do
 
 IN primis quid sit datum ponere oportet, postmodum quænam huius ex tractatu utilitas dicendū est, tertium uero ad quam disciplinā deducitur. Diffiniunt nempe datum multipliciter aliter quidem antiquiores, & aliter iuniores: idq̃ propterea obtigit, ut eius uera assignatio difficilis sit. Nonnulli siquidem nullam ipsius diffinitionem tradunt, propriam nanq̃ dati inuentionem tentauerunt. Alij uero quæ ab illis iamdiu dicta sunt complicantes, ipsum diffinire ausi sunt. neque hij cum illis congrue. Videntur siquidem omnes ex una eademq̃ sententia, ac perceptione excitati, de eo aliquid dicere: assumptum enim quid datum esse perceperunt, ac per hoc simpliciori, ac una quadam diffe
 
-*[Catchword: rentia]*
+<!-- Catchword: rentia -->

@@ -1,4 +1,6 @@
-# LIBER TERTIVSDECIMVS. *[Folio: 427]*
+<!-- # LIBER TERTIVSDECIMVS. -->
+
+<!-- Folio: 427 -->
 
 in longitudine ſiue in potẽtia tantũ. Ad concludẽdũ igitur de maiori portione lineæ prædicto modo diuiſæ quod ipſa ſit reſiduũ, ſufficit ponere totã lineã diuiſam eſſe rationalem in potẽtia tantũ, ſed ad concludendũ quoq̃ hoc de minori portione mediãte maiore, ſufficit ponere portionẽ maiorẽ ſimiliter rationẽ in potẽtia tantũ: ad cõcludendũ autẽ hoc de minori portione mediãte tota, neceſſe eſt ponere totam lineã eſſe rationalẽ in longitudine, aut utendũ eſt 2 quartidecimi quemadmodum dictum eſt.
 
@@ -30,4 +32,4 @@ Si quinquanguli æquilateri tres anguli ordinatim, aut non ordinatim. æquales f
 
 THEON ex Zamb, Quinquãguli æquilateri α β γ δ ε, tres anguli prius ordinatim qui ad α, β, γ, ſigna, inuicem ſint æquales. Dico quod q̃nquangulũ α β γ δ, æquiãgulũ eſt. Cõnectantur enim α γ, β ε, & ζ δ. Et quoniã binæ γ β, β α, duabus β α, α ε, ſunt æquales altera alteri, & angulus qui ſub γ β α ei qui ſub β α ε eſt æqualis, baſis igitur α γ, (per 4
 
-*[Signature: N 4]*
+<!-- Signature: N 4 -->

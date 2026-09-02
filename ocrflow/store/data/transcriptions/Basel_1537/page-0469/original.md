@@ -1,6 +1,6 @@
-*[Folio: 458]*
+<!-- Folio: 458 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 gulum ipsius pentagoni subtendentis continetur, eidem pentagono aequū esse ex necessitate oportet.
 
@@ -36,4 +36,4 @@ Eius ergo quod dicitur, sensus est. Quod si in aliquo circulo pentagonus aequila
 
 *[Figure: circle with inscribed pentagon a b c d e (b at top, a left, c right), centre d marked inside with points g, h on the horizontal chord a c, f below d, e at bottom]*
 
-*[Catchword: demonstra-]*
+<!-- Catchword: demonstra- -->

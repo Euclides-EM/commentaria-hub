@@ -1,4 +1,6 @@
-# LIBER DECIMVS *[Folio: 327]*
+<!-- # LIBER DECIMVS -->
+
+<!-- Folio: 327 -->
 
 ne.sequitur ex diffinitione lineam b c esse residuum primum. Quod est propositum.
 
@@ -28,4 +30,4 @@ CAMPANVS Hic erit linea d e residuum mediale primum, & linea e f erit linea illa
 
 THEON ex Zamb, Sit mediæ apotomæ prima α β, rationalis autem esto γ δ, & ei quod ex α β, (per 44 primi,) æquum ad ipsam γ δ, apponatur γ ε, latitudinem efficiens γ ζ. Dico quod γ ζ apotome est secunda, esto namque ipsi α β congruens β η, ipsæ igitur α η, η β, mediæ sunt potentia tantum commensurabiles, rationale comprehendentes. Et ei quidem quod ex α η æquum ad ipsam γ δ comparetur (per 44 primi,) γ θ, latitudinē efficiens γ κ, ei autem quod ex η β, æquum ad ipsam κ θ comparetur κ λ, latitndinem *[sic: for latitudinem]* efficiens κ μ. Totum igitur γ λ, æquum est eis quæ ex α η, η β, medium igitur est & γ λ. Et ad ipsam γ δ rationalem comparatur, latitudinem efficiens γ μ. rationalis igitur est & γ μ, & ipsi γ δ in longitudine incommensurabilis (per 22 decimi.) Et quoniam γ λ æquum est eis quæ ex α η, η β, quadratis. quorum quod ex α β, æquum est ipsi γ ε, reliquum igitur quod bis sub α η, η β, æquum est ipsi ζ λ. Rationale au
 
-*[Signature: E 2]* *[Catchword: tem]*
+<!-- Signature: E 2 --> <!-- Catchword: tem -->

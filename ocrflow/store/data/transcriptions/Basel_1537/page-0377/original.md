@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 366]*
+<!-- Folio: 366 -->
 
 ipsius λ μ ν circuli planum, & ad unamquamq̃ igitur ipsarū λ ξ, μ ξ, ν ξ (per conuersionē 2 diffinitionis undecimi) recta est ipsa ρ ξ. Et quoniam æqualis est λ ξ ipsi ξ μ, cōmunis autem & ad angulos rectos est ξ ρ, basis igitur ρ λ (per 4 primi) basi ρ μ est æqualis. Iam id propterea & ρ ν, utriq̃ ipsarū ρ λ, ρ μ, est æqualis. Ipsæ igitur tres ρ λ, ρ μ, ρ ν, sibi inuicem sunt æquales. Et quoniam quo maius est quod ex α β eo quod ex λ ξ, ei supponitur æquum quod ex ξ ρ, quod ex α β igitur æquū est eis quæ ex λ ξ, ρ ξ. Eis autem quæ ex λ ξ, ξ ρ, æquum est (per 47 primi) quod ex λ τ *[sic: pro λ ρ]*, rectus enim est qui sub λ ξ ρ. Quod igitur ex α β, æquū est ei quod ex ρ λ. Aequalis igitur est α β ipsi ρ λ. Sed ipsi quidem α β, æqualis est unaquæq̃ ipsarū β γ, δ ε, ε ζ, η θ, θ κ, ipsi autem ρ λ, æqualis est utraq̃ ipsarū ρ μ, ρ ν. Vnaquæq̃ igitur ipsarū α β, β γ, δ ε, ε ζ, η θ, θ κ, unicuiq̃ ipsarū ρ λ, ρ μ, ρ ν, est æqualis. Et quoniam duæ λ ρ, ρ μ, duabus α β, β γ, sunt æquales, & basis λ μ basi α γ supponitur æqualis, angulus igitur qui sub λ ρ μ (per 8 primi) ei qui sub α β γ est æqualis. Id propterea & qui sub μ ρ ν, ei qui sub δ ε ζ est æqualis, & qui sub λ ρ ν, ei qui sub η θ κ. Ex tribus igitur angulis planis qui sub λ ρ μ, μ ρ ν, λ ρ ν, qui sunt æquales tribus datis scilicet eis q̃ sub α β γ, δ ε ζ, η θ κ, solidus angulus cōstruitur qui ad ρ, cōprehensus sub λ ρ μ, μ ρ ν, & λ ρ ν angulis. Quod facere oportebat.
 
@@ -20,4 +20,4 @@ Dico insuper quod α β non est minor quàm λ ξ. Si enim possibile, esto. Pona
 
 *[Figure: three triangles side by side, apexes β, ε, θ, with bases α γ, δ ζ, η κ]*
 
-*[Catchword: est, angulus]*
+<!-- Catchword: est, angulus -->

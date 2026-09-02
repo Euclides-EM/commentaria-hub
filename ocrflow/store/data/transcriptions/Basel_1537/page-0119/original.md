@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 110]*
+<!-- Folio: 110 -->
 
 mutata, & in isto modo arguendi sit antecedens secundæ proportionis, consequens primæ, & consequens primæ, antecedens secundæ.
 
@@ -32,4 +32,4 @@ Horum autem sex modorum arguendi qui dicuntur species proportionalitatis, quatuo
 
 *[Figure: at right, horizontal lines labelled e; a and c; b and d; g; and b]*
 
-*[Catchword: plici]*
+<!-- Catchword: plici -->

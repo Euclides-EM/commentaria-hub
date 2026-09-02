@@ -1,4 +1,6 @@
-# DATA *[Folio: 565]*
+<!-- # DATA -->
+
+<!-- Folio: 565 -->
 
 specie. Datur autem & b. Ratio igitur ipsius b ad e h, data est. ipsius autem b ad a, ratio est data & ipsius a ad e h, igitur ratio est data, & simile est a ipsi e h. Ratio igitur ipsius c d ad e f, data est. Idque propterea iam & reliquorum laterum ad reliqua latera per præcedentem ratio est data.
 
@@ -30,4 +32,4 @@ Bina enim æquiangula parallelogramma a, b, adinuicem rationem habeant datam. Di
 
 *[Figure: a wide rectangle divided horizontally into two strips, with a inside the upper strip; corners b (top left), e (top right), d and l at the ends of the dividing line, f (bottom left), k (bottom right); below it a square with b inside, e at top right, f at bottom left, g at bottom right]*
 
-*[Signature: Bb]* *[Catchword: ad c k.]*
+<!-- Signature: Bb --> <!-- Catchword: ad c k. -->

@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 74]*
+<!-- Folio: 74 -->
 
 *aut eo minor, Sit prius maior, & constituatur (per 23 eiusdem) ad ipsam β α, rectam lineam ad signumq́; in ea α, ipsi angulo α β δ. æqualis angulus β α ε. Et extendatur (per 2 postulatum) β δ, in ε. Et coniungatur (per 1 postulatum) ε γ, quoniam igitur angulus α β ε, æqualis est angulo β β ε, æqualis igitur est (per 6 primi, recta linea ε β, ipsi α ε. Et quoniam æqualis est α δ, ipsi δ γ, communis ausem δ ε, duæ igitur α δ, & δ ε, duabus γ δ, & δ ε, sunt æquales altera alteri. Et angulus α δ ε, (per quartum postulatum) angulo γ δ ε, est æqualis, rectus enim uterque. Et basis igitur α ε, (per quartam primi,) basi γ ε, est æqualis. Sed α ε. ipsi β ε, ostensa æqualis est. Igitur β ε, ipsi γ ε, est æqualis. Tres igitur α ε, ε β, & ε γ, sibi inuicem sunt æquales, Centro igitur ε, spatio autem (per 3 postulatum) aut α ε, aut ε β, aut ε γ. circulus descriptus per reliqua signa ueniet & descriptus erit. Circuli igitur segmento dato, circulus descriptus est, & manifestum est, quod segmentum α β γ. minus est semicirculo, quoniam ε, centrum extra ipsum cadit. Similiter quoque ostendemus, & si angulus α β δ, æqualis fuerit angulo β α δ, ipsa α δ, æquali existente utrique ipsarum β δ, & δ γ, tres igitur δ α, δ β, & β γ, sibi inuicem sunt æquales. Et erit ipsum centrum δ, completi circuli, ipsum erit quoque semicirculus α β γ.*
 
@@ -28,4 +28,4 @@ THEON ex Zamb. *Sint æquales circuli: α β γ, & δ ε ζ. & in eis sint angul
 
 *[Figure: circle with δ at the top, centre θ, ε at lower left, ζ at lower right, and λ at the bottom of the circumference; lines from ε and ζ to θ and to δ]*
 
-*[Catchword: Reliqua]*
+<!-- Catchword: Reliqua -->

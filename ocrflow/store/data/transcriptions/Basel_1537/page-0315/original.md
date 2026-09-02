@@ -1,10 +1,12 @@
-# *[Folio: 304]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 304 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 rabiles. Fiatq̃ (per 12 sexti) sicut α β ad γ δ, sic α ε ad γ ζ, & reliqua igitur ε β ad ζ δ, reliquā (per 19 quinti) est sicut α β ad γ δ. Cōmensurabilis autem est α β ipsi γ δ longitudine, cōmensurabilis igitur est & α ε ipsi γ ζ, & ε β ipsi ζ δ, suntq̃ mediæ ipsæ α ε, ε β, mediæ igitur sunt & ε ζ, ζ δ *[sic: for γ ζ, ζ δ]*. Et quoniam est sicut α ε ad ε β & γ ζ ad ζ δ, ipsæ autem α ε, ε β, potentia tantum sunt cōmensurabiles, & ipsæ igitur γ ζ, ζ δ, potentia tantum sunt cōmensurabiles. Ostensum autem quod mediæ. Ipsa igitur γ δ, ex binis est medijs. Dico quod & in ordine eadem est ipsi α β. Quoniam enim est sicut α ε ad ε β, sic est γ ζ ad ζ δ. & sicut igitur quod ex α ε ad id quod sub α ε, ε β, sic quod ex γ ζ ad id quod sub γ ζ, ζ δ. Vicißim igitur (per 16 quinti) sicut quod ex α ε ad id quod ex γ ζ, sic quod sub α ε, ε β, ad id quod sub γ ζ, ζ δ. Commensurabile autem est quod ex α ε ei quod ex γ ζ. Cōmensurabile igitur & quod sub α ε, ε β, ei quod sub γ ζ, ζ δ. Si igitur rationale est quod sub α ε, ε β, & quod sub γ ζ, ζ δ, rationale est, ac per hoc est ex binis medijs prima. Si autem medium fuerit quod sub α ε, ε β, medium erit & quod γ ζ, ζ δ, & utraq̃ est secunda, ac per hoc & γ δ erit ipsi α β in ordine eadem. Quod erat ostendendum.
 
 *[Figure: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]*
 
-Eucli ex Camp. Propositio 62
+## Eucli.ex Camp. Propositio 62
 
 *[Margin: 62]*
 
@@ -20,7 +22,7 @@ CAMPANVS. Et hæc quoq̃ ueritatē habet, si utrolibet modo cōmunicans fuerit a
 
 *[Figure: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]*
 
-Eucli.ex Zamb. Theorema 50 Propositio 68
+## Eucli.ex Zamb. Theorema 50 Propositio 68
 
 *[Margin: 68]*
 
@@ -30,4 +32,4 @@ THEON ex Zamb. Esto maior α β, & ipsi α β cōmensurabilis esto γ δ. Dico q
 
 *[Figure: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]*
 
-*[Catchword: conflatum]*
+<!-- Catchword: conflatum -->

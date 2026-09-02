@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 456]*
+<!-- Folio: 456 -->
 
 plum eius quod fit ex a d in b c, est sexagincuplum ad triangulum a b c, nam ut simplū sic duplum ad duplum. Cum itaque omnes dodecedri superficies pariter acceptæ sint etiam sexagincuplum ad triangulum a b c, sequitur ut trigincuplum eius quod fit ex a d in b c, sit æquale omnibus superficiebus dodecedri pariter acceptis. Quod est propositum.
 
@@ -18,4 +18,4 @@ CORRELARIVM. Manifestum igitur est, quod proportio superficierum figuræ duodeci
 
 *[Margin: 8]* *[Decorated initial P]* Roportio cunctarum superficierum corporis duodecim basium pariter acceptarum ad cunctas superficies corporis uiginti basiū pariter acceptas, quæ ab una sphæra ambo circunscribuntur, est tanquam proportio lateris cubi quem circunscribit eadem sphæra, ad latus trianguli ipsius corporis uiginti basium.
 
-*[Catchword: CAMP.]*
+<!-- Catchword: CAMP. -->

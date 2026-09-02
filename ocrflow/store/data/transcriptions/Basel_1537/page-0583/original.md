@@ -1,4 +1,6 @@
-# EVCLIDIS MEGARENSIS *[Folio: 570]*
+<!-- # EVCLIDIS MEGARENSIS -->
+
+<!-- Folio: 570 -->
 
 quo, area ad triangulum rationem habebit datam,
 
@@ -16,4 +18,4 @@ Construantur enim eadem quæ prius, exciteturq́; per duodecimam primi elementor
 
 Angulus a aut est rectus, aut acutus, aut obtusus, sit prius rectus, quod igitur ab utroque b a c, id quod ex b c excedit eo quod bis sub b a c & eius quod bis sub b a c ad a b c triangulum ratio data est. Esto autem acutus qui sub b a c exciteturque per duodecimam primi elementorum ab ipso c in ipsam a b perpendicularis c d, quoniam triangulum a b c, oxygonium est, & excitatur perpendicularis c d. Quæ igitur ex b a c, æqua sunt & ei quod ex b c, & eis quod bis sub b a d. Commune adiungatur quod bis sub b a c. Quæ igitur ex b a c, una cum eo quod bis sub b a c, quod est ex utroque b a c, æqua sunt ei quod ex b c & ei quod bis sub b a d, & insuper ei quod bis sub b a c, hoc
 
-*[Catchword: est]*
+<!-- Catchword: est -->

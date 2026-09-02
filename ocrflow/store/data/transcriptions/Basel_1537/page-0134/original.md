@@ -1,10 +1,10 @@
-# LIBER QVINTVS
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 125]*
+<!-- Folio: 125 -->
 
 sumptæ sunt ipsarū α γ, æque multiplices μ η, ipsarū β δ, aliæ quæuis æque multiplices ν κ: si excedit igitur μ, ipsam ν, excedit & η, ipsam κ, & si æqualis, æqualis, & si minor, minor: (per cōuersionem sextæ diffinitionis quinti. Excedit autem η ipsam κ, excedit igitur & μ, ipsam ν, θ autem, ipsam λ, non excedit, sunt autem μ θ, æque multiplices ipsarum α ε, ν λ, ipsarum β ζ, aliæ quæuis æque multiplices. Igitur α, ad ε, maiorē habet rationē, quàm ε, ad ζ. Si prima igitur ad secundam eandem habuerit rationem & tertia ad quartam, tertia autem ad quartam maiorē rationē habeat quàm quinta ad sextam, prima ad secundam quoque maiorem rationem habebit, quàm quinta ad sextam, quod demonstrare oportebit.
 
-Eucli. ex Camp. Propositio 14.
+## Eucli. ex Camp. Propositio 14.
 
 *[Margin: 14]* SI fuerint quatuor quantitates proportionales, fueritque prima maior tertia. necesse est secundam quarta esse maiorem. Quod si minor, & minorem, si uero æqualis, & æqualem esse.
 
@@ -12,7 +12,7 @@ CAMPANVS Sit proportio a ad b, sicut c ad d. Dico quod si a est maior c, b erit 
 
 *[Figure: horizontal line segments a, c above and b, d below, set beside the paragraph]*
 
-Eucli.ex Zamb. Theorema 14 Prepositio 14 *[thus printed, for Propositio]*
+## Eucli.ex Zamb. Theorema 14 Prepositio 14 *[thus printed, for Propositio]*
 
 *[Margin: 14]* Si prima ad secundam eandem habuerit rationem & tertia quartam, prima uero tertia maior fuerit, & secunda, quarta maior erit, & si æqualis, æqualis. & si minor, minor.
 
@@ -20,7 +20,7 @@ THEON ex Zamberto. Primum enim α, ad secundum β, eandem habeat rationem, & ter
 
 *[Figure: four vertical line segments of unequal heights with division marks, letters α β γ δ beneath, in the right margin]*
 
-Eucli. ex Camp. Propositio 15
+## Eucli. ex Camp. Propositio 15
 
 *[Margin: 15]* SI fuerint aliquibus quantitatibus æque multiplices assignatæ, erit ipsarum multiplicium atque submultiplicium una proportio.
 
@@ -28,7 +28,7 @@ CAMPANVS Sint c ad a, & d ad b, æque multiplices. Dico quod quæ est proportio 
 
 *[Figure: horizontal line segments c and d with division marks above, segments a and b below, set beside the paragraph]*
 
-Eucli. ex Zamb. Theorema 15 Propositio 15
+## Eucli. ex Zamb. Theorema 15 Propositio 15
 
 *[Margin: 15]* Partes eodem modo multiplicium, eandem rationem habent sumptæ adinuicem.
 
@@ -36,4 +36,4 @@ THEON ex Zamberto. Sit igitur æque multiplex α β, ipsius γ, & δ ε, ipsius 
 
 *[Figure: vertical line segments divided into equal parts, with letters α η θ β, γ and δ κ λ ε, ζ, in the right margin]*
 
-*[Signature: l 3]*
+<!-- Signature: l 3 -->

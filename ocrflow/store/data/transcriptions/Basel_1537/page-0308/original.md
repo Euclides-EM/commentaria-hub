@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 297]*
+<!-- Folio: 297 -->
 
 μ ν, ν ξ, incōmēsurabile igitur est (per 1 sexti & 11 decimi,) cõpositũ ex ijs quæ ex μ ν, ν ξ, ei quod sub μ ν, ν ξ, & ipsorũ utrũq̃ mediũ est. Ipsæ igitur μ ν, ν ξ, potentia sunt incōmēsurabiles. Ipsa igitur μ ξ bina potens est media (per 41 decimi,) & ipsam potest α γ, quod ostendere oportebat.
 
@@ -32,4 +32,4 @@ Quod ex ea quæ ex binis nominibus ad rationalem comparatũ latitudinem efficit,
 
 THEON ex Zamb. Esto ex binis nominibus α β, diuisa in nomina in γ, ut maius nomen sit α γ. exponaturq̃ rationalis δ ε, & ei quod ex α β, æquum ad ipsam δ ε, comparetur (per 44 primi δ ε ζ η, latitudinem efficiens δ η, Dico quod δ η ex binis est prima nominibus. Comparetur enim (per 44 primi,) ad δ ε, ei quidem quod ex α γ æquum δ θ. ei autem quod ex β γ, æquum κ λ. Reliquum igitur quod bis sub α γ, γ δ *[sic: γ β]* (per 4 secundi,) æquum est ipsi μ ζ. Secetur (per decimã primi) ipsa μ η bifariam in ν, exciteturq̃ ( per 31 primi) parallelus ν ξ utrique ipsarum μ
 
-*[Catchword: λ, η ζ]*
+<!-- Catchword: λ, η ζ -->

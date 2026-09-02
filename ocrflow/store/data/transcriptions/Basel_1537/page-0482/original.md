@@ -1,6 +1,6 @@
-*[Folio: 471]*
+<!-- # LIBER DECIMVSQVARTVS -->
 
-# LIBER DECIMVSQVARTVS
+<!-- Folio: 471 -->
 
 circuli, & sit ε, & ab ipso α in ε connectatur α ε, & extendatur α ε in ζ. Et sit α ε, ipsius ε η dupla. tripla autem κ γ, ipsius γ θ. Et ab ipso η, ipsi α ζ ad angulos rectos excitetur (per 11 primi) η μ, & extēdatur in rectas lineas η δ ipsi η μ, triāguli ergo æqlateri est δ μ. Cōnectātur ipsæ α δ, α μ, æquilaterū igitur est ipsum α δ μ triāgulū. Et quoniā quod sub α η, θ β, æquū est ipsi quinquāgulo, quod autem sub α η δ, æquum est ipsi α δ μ triāgulo, est igitur sicut quod sub α η, θ β, ad id quod sub δ θ α *[sic: for δ η α]*, sic quinquangulū ad triangulū. Sicut autem quod sub β θ α η, ad id quod sub δ η α, sic β θ ad δ η. Et sicut igitur (per 11 quinti,) duodecim β θ, ad uiginti δ η, sic duodecim quinquangula ad uiginti triāgula. hoc est dodecahedri superficies ad icosahedri superficiem. Et duodecim quidē β θ, sunt decem β γ, nā ipsa β θ, ipsius α γ *[sic: for θ γ]*, quincupla est, & β γ ipsius γ θ sexcupla est. Sex igitur β θ, sunt æquales quinque β γ, & duplicia, uiginti uero δ η, decem sunt δ μ, dupla namq; est δ μ, ipsius δ η. Sicut igitur decem β γ ad decē δ μ, hoc est sicut β γ ad δ μ, sic dodecahedri superficies ad icosahedri, superficiē, & β γ, quidē cubi est latus δ μ ipsius icosahedri, & sicut igitur (per 11 quinti) dodecahedri superficies ad icosahedri superficiem, sic β γ ad δ μ, hoc est cubi latus ad icosahedri latus.
 
@@ -26,6 +26,6 @@ Esto circulus α β comprehendens & dodecahedri pentagonum & icosahedri triangul
 
 Quoniam enim æquales circuli comprehendunt & dodecahedri quinquangulum & icosahedri triangulum in eadem sphæra descriptorum, in sphæris autem æquales circuli æqualiter distāt à cētro (à cētro nāq; sphæræ ad circulorum plana perpendiculares ductæ æquales sunt, & in centra circulorum cadunt) quare à centro sphæræ in centrum circuli comprehendentis & icosahedri triangulum & dodecahedri pentagonum æquales sunt, perpendiculares, inquā: æqualiter igitur fastigiatæ sunt pyramides habentes bases dodecahedri pentagona, & bases habētes icosahedri triangula. *[Margin: ἰσουψεῖς, id est æque altæ]* Aequalis autem fastigij pyramides, adinuicem sunt sicut bases (per 5 duodecimi) Sicut igitur quin
 
-*[Signature: R 2]*
+<!-- Signature: R 2 -->
 
-*[Catchword: quangulum]*
+<!-- Catchword: quangulum -->

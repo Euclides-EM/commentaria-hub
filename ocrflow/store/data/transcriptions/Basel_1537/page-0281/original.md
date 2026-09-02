@@ -1,4 +1,6 @@
-# *[Folio: 270]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 270 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 *[Margin: συναχθήσεται colligetur]* ipsius δ ζ duplus ponatur θ α. * Conducaturq́ʒ duplus rursus θ γ ipsius γ ζ, & quod ipse θ γ bifariam sectus est in ζ, ac per hoc is qui sub θ β,β γ,una cum eo qui ex ζ γ,æquus erit ei qui ex β ζ.Supponitur autem quod qui sub α β,β γ, una cum eo qui ex γ ε,est æqualis ei qui ex β ζ. Conducetur igitur qui sub α β, β γ,una cum eo qui ex γ ε æqualis ei qui ex θ β & β γ una cum eo qui ex γ ζ,quod absurdū est. Igitur qui sub α β, β γ, una cum eo qui ex γ ε, æquus non est minori eo qui ex β ε, patuit autem quod neq́ʒ ei qui ex β ε, neq́ʒ eo maiori . Igitur qui sub α β, β γ, una cum eo qui ex γ ε, quadratus non est . Cum autem sit poßibile & pluribus modis prædicta ostendere, sufficiant nobis tamen prædicta, ne materia longior existens longius protrahatur.
 
@@ -28,4 +30,4 @@ DVas lineas mediales potentia tantum communicantes superficiemq́ʒ rationalem c
 
 CAMPANVS. Cum omnes duæ lineæ mediales potentia tantum communicantes,contineāt superficiem rationalem aut medialem , ut ex præmissa patet,docet inuenire eas duas quæ cōtinent superficiem rationalem & eas quæ medialem . Vnde propositū est inuenire duas lineas mediales potentia tantum communicantes , quarum longior
 
-*[Catchword: possit]*
+<!-- Catchword: possit -->

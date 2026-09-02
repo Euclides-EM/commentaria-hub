@@ -1,4 +1,6 @@
-# DATA *[Folio: 569]*
+<!-- # DATA -->
+
+<!-- Folio: 569 -->
 
 igitur qui sub d a b, datus est. Datur igitur d a b triāgulum specie. Ratio igitur ipsius a d ad d b, data est, estq́; sicut a d ad d b, sic quod sub a d, b c ad id quod d b, b c, quare & ipsius d a, b c, ad id quod sub d b, b c, ratio data est. Et eius quod bis sub d b, b c, igitur ad id quod sub a d, b c, ratio data est. Sed eius quod sub d a, b c ad a c b triangulum ratio est data, & eius igitur quod bis sub d b, b c ad a b c, triāgulum ratio est data, estq́; quod bis sub d b, b c, quo maius est quod a c, eis quæ ex a b, b c, ipsa igitur area ad a b c, triangulum rationem datam habet.
 
@@ -28,4 +30,4 @@ Esto triangulum a b c, datum habens angulum eum qui ad a. Dico q̃ quod sub b a 
 
 SI triangulum datum habuerit angulum, qua maius possint datum angulum comprehendentia latera ut unum, ea quæ ex reli
 
-*[Signature: Bb 3]* *[Catchword: quo]*
+<!-- Signature: Bb 3 --> <!-- Catchword: quo -->

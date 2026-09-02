@@ -1,6 +1,6 @@
-*[Folio: 563]*
+<!-- Folio: 563 -->
 
-# DATA
+<!-- # DATA -->
 
 b a,data est. Quoniam igitur angulus qui sub c a b,datus est,est autẽ & qui sub e a b,datus. Reliquus igitur qui sub e a c,datus est,datur igitur triãgulũ a e c specie. Ratio igitur ipsius e a ad a c,data est,ipsius autem c a ad a b,ratio est data & ipsius e a ad a c igitur ratio data est. Idque propterea & ipsius f a, ad a b,ratio est data, estque sicut a e, ad a f,sic b g ad b h. Quare & ipsius b g ad b h ratio est data. Est quæ ipsius quidẽ a g,dimidium triangulũ a b c,per 41 primi ele. Ipsius autem a h. per eandem dimidium est triangulum a b d,& ipsius igitur a b c ad a d b,ratio est data.
 
@@ -32,4 +32,4 @@ Binæ enim rectæ lineæ a b,c d,adinuicem rationem habeant datam,describanturqu
 
 *[Figure: parallelogram with corners b (top left), e (top right), g (bottom left), a (bottom right), with an inscribed triangle; below, an inverted triangle with corners d (left) and f (right) and apex e at the bottom]*
 
-*[Catchword: cie]*
+<!-- Catchword: cie -->

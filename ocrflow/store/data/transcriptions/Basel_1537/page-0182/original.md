@@ -1,6 +1,6 @@
-# LIBER SEPTIMVS
+<!-- # LIBER SEPTIMVS -->
 
-*[Folio: 171]*
+<!-- Folio: 171 -->
 
 fuerit reliquus qui ante relictum numeret usq̃ ad unitatem,eos duos numeros contra se primos esse necesse est.
 
@@ -12,7 +12,7 @@ CAMPANI additio. Quod si duo numeri a b & c d sint contra se primi,non erit in h
 
 *[Figure: dotted number-lines at right: a . . . . . . . e . . . g . b; c . . . . f . . . d]*
 
-Eucli. ex Zamb. Theorema 1 Propositio 1
+## Eucli. ex Zamb. Theorema 1 Propositio 1
 
 ## 1
 
@@ -22,7 +22,7 @@ THEON ex Zamb. Duobus namq̃ inæqualibus numeris propositis α β & γ δ, subl
 
 *[Figure: dotted number-lines at right: ε . .; δ . . . η . . γ; β . . . . . ζ . . θ . α]*
 
-Eucli. ex Camp. Propositio 2
+## Eucli. ex Camp. Propositio 2
 
 ## 2
 
@@ -38,4 +38,4 @@ CAMPANVS. Sint duo numeri compositi a b & c d,minor,c d,quia ergo numerat eos co
 
 *[Figure: dotted number-lines at right: a . . . . . . . . . e . . . . . . b; c . . . . . . f . . . d; g . . . .]*
 
-*[Signature: p 2]* *[Catchword: & sit]*
+<!-- Signature: p 2 --> <!-- Catchword: & sit -->

@@ -1,10 +1,12 @@
-# *[Folio: 352]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 352 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 puncto e, protractæ enĩ se secabũt. Dico ꝙ tres lineæ b c, b d, b e sunt in una supficie sitæ. Constat autẽ de quibuscq̃ earũ duabus ꝙ ipsæ sunt in una supficie sitæ, per 2 huius uel per primã partẽ secundæ huius. Si igitur linea b d non fuerit in supficie duarũ linearũ b c & b e, sed illæ duæ in plano, hæc autẽ in sublimi, erit ut hæc supficies in qua sitæ sunt duæ lineæ a b & b d, si ꝓtrahatur & per illud q̃d notũ est super quartã, secet illam in qua sitæ sunt b c & b e, eritq̃ per 3 huius cõmunis earũ sectio linea recta, & ipsa sit b f. Quia igitur ex præmissa, linea a b est perpẽdicularis ad superficiẽ duarũ linearũ b c & b e, seqtur ex diffinitiõe ut ipsa sit perpẽdicularis ad lineã b f. quare angulus a b f, est rectus. Cũq̃ etiã angulus a b d sit rectus ex hypothesi, sequitur impossibile, uidelicet partẽ suo toti esse æqualẽ.
 
 *[Figure: from the point b at lower left, the vertical line b a and the rays b c, b d, b e, and the horizontal b f]*
 
-Eucli. ex Zamb. Theorema 5 Propositio 5
+## Eucli. ex Zamb. Theorema 5 Propositio 5
 
 *[Margin: 5]*
 
@@ -14,7 +16,7 @@ THEON ex Zamb Recta enim linea quædam α β, tribus rectis lineis β γ, β δ,
 
 *[Figure: from the point β at lower left, the vertical line β α and the rays β γ, β ζ, β δ, and the horizontal β ε]*
 
-Eucli. ex Camp. Propositio 6
+## Eucli. ex Camp. Propositio 6
 
 *[Margin: 6]*
 
@@ -24,7 +26,7 @@ CAMPANVS. Sint duæ lineæ a b & c d, perpendiculares ad unã superficiẽ. Dico
 
 *[Figure: two vertical parallels c d and a b; e on the line c d below c; from e the lines e b and e f drawn, f below the line d b; lines d f and b f complete the figure]*
 
-Eucli. ex Zamb. Theorema 6 Propositio 6
+## Eucli. ex Zamb. Theorema 6 Propositio 6
 
 *[Margin: 6]*
 
@@ -32,4 +34,4 @@ Eucli. ex Zamb. Theorema 6 Propositio 6
 
 THEON ex Zamb. Binæ, inquam, rectæ lineæ α β, γ δ, subiecto cuidã plano sint ad angulos rectos. Dico quod parallelus est α β, ipsi γ δ. Concurrãt enim in signis subiecto plano β, δ, connectanturq̃ β, δ. Et (per 11 primi) ipsi β δ ad angulos rectos in subiecto plano excitetur δ ε, ponaturq̃ (per 2 primi) ipsi α β æqualis δ ε, cõnectanturq̃ β ε, α ε, α δ. Et quoniã recta α β linea est ad subiectũ planũ, & ad omnes igitur eam
 
-*[Catchword: tangentes]*
+<!-- Catchword: tangentes -->

@@ -1,6 +1,6 @@
-# PERSPECTIVA
+<!-- # PERSPECTIVA -->
 
-*[Folio: 533]*
+<!-- Folio: 533 -->
 
 gnitudo a b, at sub angulo d e f, magnitudo d f: minor igitur spectabitur magnitudo a b, magnitudine d f, quod oportebat ostendere.
 
@@ -36,4 +36,4 @@ Esto enim parallelus b c, ipsi spectato d f, seceturq̃ per 10 primi element. d 
 
 *[Figure: e at the upper left and n at the top, b at the upper right; segment arc over the base; s, r, b, l within; base line with f at the left, k in the middle, c(?) at the right]*
 
-*[Signature: Y 3]* *[Catchword: Igitur]*
+<!-- Signature: Y 3 --> <!-- Catchword: Igitur -->

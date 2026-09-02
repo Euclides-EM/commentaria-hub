@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 296]*
+<!-- Folio: 296 -->
 
 lam potens irrationalis est, appellata rationale mediumq̃ potens.
 
@@ -34,4 +34,4 @@ THEON ex Zãb. Areola nãq̃ α β γ δ, cõprehēdatur sub ratiõali α β, & 
 
 *[Figure: square divided by a vertical and a horizontal line into four compartments; labels: τ, ς, π along the top, μ at the left, υ at the centre, ξ at the right, σ and ο along the bottom]*
 
-*[Catchword: μ ν, ν ξ]*
+<!-- Catchword: μ ν, ν ξ -->

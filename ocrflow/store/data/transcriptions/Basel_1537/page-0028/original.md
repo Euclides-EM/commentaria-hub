@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 19]*
+<!-- Folio: 19 -->
 
 α γ latere α β minus minime est. Maius igitur est latus α γ, latere α β. Omnis igitur trianguli maior angulus a maiore latere subtenditur. Quod demonstrasse oportuit.
 
@@ -44,4 +44,4 @@ THEON ex Zamb. Trianguli enim α β γ super latere β γ, à terminis ipsius β
 
 *[Figure: triangle α β γ with interior point δ, lines β δ and δ γ drawn, β δ produced to ε on side α γ; labels α at top, ε, δ within, β, γ at base]*
 
-*[Signature: b 4]* *[Catchword: angulo]*
+<!-- Signature: b 4 --> <!-- Catchword: angulo -->

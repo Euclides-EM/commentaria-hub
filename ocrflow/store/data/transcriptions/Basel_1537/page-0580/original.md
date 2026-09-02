@@ -1,4 +1,6 @@
-# DATA *[Folio: 567]*
+<!-- # DATA -->
+
+<!-- Folio: 567 -->
 
 Datū siquidē a b ad datā a c proiectū sit excedens specie data c b, dico quod utraq; ipsarū h c, c e data est. Secetur enim per 10 primi ele. ipsa d e bifariā in f signo. Describaturq́; per 25 sexti ele. ex e f ipsi c b simile similiterq́; positum f g. Circa igitur eundē dimetientē est f g ipsi c b, excitētur per 26 sexti ele. eorū dimetiēs h e m, describaturq́; figura. Et quoniā c b ipsi f g est simile. Datur autem c b specie. Datur igitur & f g specie, & describitur à data recta linea f e. Data igitur sunt a b, f g & ipsi k a, sūt æqualia. Datum igitur est b c. Ipsius ergo k a latera sunt data, data igitur est k h, & k c data est, & ipsi e f æqualis, reliqua igitur c h, data est, & ad h b rationem habet datam. Data igitur est & h b.
 
@@ -24,4 +26,4 @@ Data enim specie specie a f c b, ad unum latus c b parallelogramma areola proiec
 
 Datur f b, parallelogrammū manifeste, quoniā angulus f c b datur. Datur igitur & c f g
 
-*[Signature: Bb 2]* *[Catchword: angulus]*
+<!-- Signature: Bb 2 --> <!-- Catchword: angulus -->

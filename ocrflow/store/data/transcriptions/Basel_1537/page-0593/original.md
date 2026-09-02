@@ -1,6 +1,6 @@
-# 580 EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 580]*
+<!-- Folio: 580 -->
 
 ex b c, ratio est data. Sed area d una cũ ea quæ ex b c est id quod ex utraque b a c. Ratio enim eius quod ex utraq̃ b a c ad id quod ex b c data est, quare & utriusque b a c ad b c ratio data est, estq̃ angulus qui sub b a c, datus: datur igitur triangulũ a b c specie.
 
@@ -28,4 +28,4 @@ Sint quatuor rectæ lineæ a, b, c, d, sic se habentes adinuicẽ ut tribus ex i
 
 *[Figure: at right, horizontal line segments labelled a, b, c, d, e]*
 
-*[Catchword: sic b]*
+<!-- Catchword: sic b -->

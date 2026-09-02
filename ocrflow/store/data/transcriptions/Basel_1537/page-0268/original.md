@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 257]*
+<!-- Folio: 257 -->
 
 ti breuioris lineæ, cui desit quadrata superficies, superficiem sibi adiunctam,eandem lineam longiorem in duas portiones commensurabiles diuidere necesse est.
 
@@ -16,4 +16,4 @@ NVNC autem monstrandum est qualiter linea a b(cum ipsa posita fuerit maior linea
 
 Si ad aliquam rectam lineam* comparetur parallelogrammum deficiēs forma quadrata,ipsum comparatum æquū est ei quod(continetur)sub segmētis rectæ lineæ,quæ ex ipsa comparatione sunt facta. *[Margin: παραβληθῇ apponatur applicetur.]*
 
-*[Signature: y 3]* *[Catchword: THEON]*
+<!-- Signature: y 3 --> <!-- Catchword: THEON -->

@@ -1,6 +1,6 @@
-# LIBER TERTIVSDECIMVS
+<!-- # LIBER TERTIVSDECIMVS -->
 
-*[Folio: 439]*
+<!-- Folio: 439 -->
 
 undecimi, quatuor lineæ perpēdiculares ad superficiē ipsius quadrati, quarū quælibet ponatur etiā æqualis lineæ b d, sintq́; e k, f l, g m, h n, eruntq́; hæ quatuor perpēdiculares, singulæ singulis æquidistantes ex 6 undecimi, & anguli quos continēt cum lateribus quadrati, recti ex diffinitiōe lineæ perpēdicularis ad superficiē. Deinde cōiungātur extremitates istarū perpendiculariū, protractis lineis k l, l m, m n, n k, eritq́; cōpletus cubus, sex supficiebus quadratis cōtentus, constat ex 34 primi, ꝙ quatuor superficies ipsum ambiētes (& ipsæ sunt quarū opposita latera sūt quatuor perpēdiculares) sunt om̄es quadratæ, de basi autē, hoc positū est, at uero de suprema eius supficie quæ est k l m n, ꝙ ipsa quoq́; sit quadrata, constat ex 34 primi & 10 undecimi, ideoq́; ex 4 undecimi manifestū est, singula latera eiusdē cubi duabus ipsius oppositis supficiebus orhogonaliter *[sic: orhogonaliter, for orthogonaliter]* insistere.
 
@@ -8,7 +8,7 @@ undecimi, quatuor lineæ perpēdiculares ad superficiē ipsius quadrati, quarū 
 
 Vt autē cubū hūc ab assignata sphæra circūscriptibilē esse demōstremus, in una suarū supficierū ꝓtrahatur diagonalis, uerbi gratia in basi eius, sitq́; e g, & ab huius diagonalis altera extremitate, ꝓtrahatur diameter cubi e m, eritq́; ex penult. primi quadratū e g, duplū ad quadratū f g, ideoq́; & ad quadratū g m, eo ꝙ g m est æqualis f g, sunt enī omnia latera cubi ad inuicē æqualia. Et quia rursus ex penul. primi, quadratū e m est æquale quadratis duarū linearū e g & g m, ꝓpter hoc ꝙ angulus c g m *[sic: c g m, for e g m]* est rectus ex diffinitiōe lineæ perpēdicularis ad superficiē, erit quadratū e m triplū ad quadratū m g, constat enī ex duplo & simplo. Cumq́; ex secūda parte correlarij 8 sexti & ex correlario 17 eiusdē quadratū quoq́; a b sit triplū ad quadratū b d, eo ꝙ linea a b tripla est ad lineā b c, sit aūt b d æqualis f g, seq̃tur ex cōmuni scientia ut c m *[sic: c m, for e m]* quæ est diameter cubi sit æqualis a b quæ est diameter sphæræ. Itaq́; si sup e m lineetur semicirculus circūducaturq́; quousq́; ad locū unde fuit initiū motus, redeat: sphæra descripta, erit ex diffinitiōe sphærarū æqualiū æq̃lis sphæræ assignatæ. At uero q̃a hic semicirculus transitū faciet per punctū g, eo ꝙ angulus e g m est rectus, eadēq́; ratione per cæteros singulos rectos angulos cubi, q̃d ex antecedēte ante hāc 14 īmediate præmisso manifestū est, cōstat cōstitutū cubū ab assignata sphæra (eo ꝙ à sua æquali) circūscriptibilē esse. Quod demōstrare oportebat. Correlarij uero demōstatio *[sic: demōstatio, for demōstratio]* in istius demōstrationis processu præpatuit.
 
-Eucli. ex Camp. Propositio 15
+## Eucli. ex Camp. Propositio 15
 
 *[Margin: 15 / Zamb. 14]*
 
@@ -22,4 +22,4 @@ CAMPANVS. Diameter sphæræ propositæ sit a b, quæ diuidatur per æqualia in p
 
 *[Figure: double pyramid (octahedron) seen in the plane: apex l at the top, apex m at the bottom, the square f e g h in the middle with f at the left, e at the right, g at the lower left, h at the lower right, and centre k; a circle drawn through f, e, g, h; hypotenusæ joining l and m to the four angles of the square]*
 
-*[Signature: O 4]*
+<!-- Signature: O 4 -->

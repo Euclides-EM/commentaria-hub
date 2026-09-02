@@ -1,8 +1,8 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 234]*
+<!-- Folio: 234 -->
 
-Eucli. ex Camp. Propositio 19
+## Eucli. ex Camp. Propositio 19
 
 **19** PRopositis duobus numeris, an sit eis tertius continue proportionalis, perscrutari.
 
@@ -12,7 +12,7 @@ CAMPANVS. Sint a & b duo numeri propositi, uolo inquirere, an eis possit tertius
 
 *[Figure: groups of number lines at right: dotted line c, short solid line d, dotted lines b, a; dotted line c, dotted lines d, b, a; a solid line with dotted lines b, a]*
 
-Eucli. ex Zamb. Theorema 18 Propositio 18
+## Eucli. ex Zamb. Theorema 18 Propositio 18
 
 **18** Binis numeris datis, considerare si possibile est eis tertium proportionalem inuenire.
 
@@ -22,7 +22,7 @@ THEON ex Zamber. Sint bini dati numeri α, β, sitq̃ *opportunū scrutari, si e
 
 *[Figure: groups of number lines at right: dotted line γ, short solid line δ, dotted lines β, α; long dotted line γ with dotted lines δ, β, α; a solid line with dotted lines β, α]*
 
-Eucli. ex Camp. Propositio 20
+## Eucli. ex Camp. Propositio 20
 
 **20** DAtis tribus numeris continue proportionalibus, an sit aliquis quartus eis continue proportionalis inquirere.
 
@@ -32,4 +32,4 @@ CAMPANVS. Sint continne *[sic: continue]* proportionales a,b,c. Volo inquirere a
 
 *[Figure: groups of number lines at right: solid lines d, e, dotted lines c, b, a; solid line d, dotted lines e, c, b, a; a solid line with dotted lines c, b, a]*
 
-*[Catchword: erit]*
+<!-- Catchword: erit -->

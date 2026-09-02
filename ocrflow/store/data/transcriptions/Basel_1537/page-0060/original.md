@@ -1,6 +1,6 @@
-# LIBER SECVNDVS.
+<!-- # LIBER SECVNDVS. -->
 
-*[Folio: 51]*
+<!-- Folio: 51 -->
 
 reliquorum angulorum qui sunt a & b, acutus. Ducam igitur perpendicularem, ad lineam illam quæ duobus acutis interiacet. Sit ergo ut triangulū a b c: angulus b etiam sit acutus: ducam a d: quæ (ut dictum est) cadet intra triangulum. Dico itaque quod quadratum lateris a b quod subtēditur angulo acuto c, tanto minus est duobus quadratis duarum linearū a c & c b, quātū duplum eius quod fit ex b c in d c. Vel dico quod quadratum a c quod etiam subtenditur angulo b quem posuimus acutum (quicquid fuerit de angulo a) tanto minus est duobus quadratis duarū linearū a b & b c, quantum est duplum eius quod fit ex c b in b d. Erit enim per 7 huius, quadratū b c cū quadrato d c, æquale ei quod fit ex b c in d c bis, & quadrato alterius partis scilicet b d, addito utrique quadrato a d: erit quadratum b c cum quadratis duarum linearum a d & d c, æquale quadratis duarum linearum a d & d b, & duplo eius quod fit ex b c in d c. At quia per penultimam primi, quadratū a c est æquale quadratis duarum linearum a d & d c: erit quadratum b c cum quadrato a c, æquale quadratis duarum linearum a d & d b, & duplo eius quod fit ex b c in c d. Sed per eandem penultimam primi, quadratum a b, æquum est quadratis duarum linearum a d & b d: ergo quadratum b c cum quadrato a c, æquum est quadrato a b: & duplo eius quod fit ex b c in c d: quare tanto minus potest a b duobus lateribus b c & a c: quantum est duplum eius quod fit ex b c in c d, quod est propositum. Simili modo probabis, latus a c quod subtenditur angulo b acuto, posse tanto minus duobus lateribus a b & b c: quantum est duplum eius quod fit ex c b in b d. ¶ Notandum autem per hanc & præcedētem & penultimam primi, quod cognitis lateribus omnis trianguli: cognoscitur area ipsius, & auxiliantibus tabulis chordæ & arcu, cognoscitur omnis eius angulus.
 
@@ -24,4 +24,4 @@ CAMPANVS. Sit datus trigonus a: cui nos uolumus æquum quadratum describere. Des
 
 *[Figure: triangle a at the left; at the right the rectangle b c d e with the line extended to f, a semicircle described over the whole line, and points g and h marking the construction within the semicircle]*
 
-*[Signature: e 2]* *[Catchword: rum]*
+<!-- Signature: e 2 --> <!-- Catchword: rum -->

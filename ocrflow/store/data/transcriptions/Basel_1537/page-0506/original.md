@@ -1,6 +1,6 @@
-# PHAENOMENA
+<!-- # PHAENOMENA -->
 
-*[Folio: 495]*
+<!-- Folio: 495 -->
 
 uenit ad d, occidit f e, hoc est c b. Igitur ipsa a b ipsi c b, in æquali occidit tempore.
 
@@ -10,6 +10,6 @@ Semicirculi qui cum cancro æquales circūferentiæ inæquali tempore occidunt, 
 
 *[Figure: sphere with horizon circle a b … b; small circle of the always-apparent stars t y q at top containing y and q; oblique zodiac semicircle a … c with points g, h, k, l, m; several parallel circles n g x, o h p, r l s, t m y crossing the sphere; additional Greek-lettered points υ, ζ, β, ω near the tangent great circles; further labels d, e, f, p, r, s, x on the right side]*
 
-*[Signature: T 2]*
+<!-- Signature: T 2 -->
 
-*[Catchword: quarum]*
+<!-- Catchword: quarum -->

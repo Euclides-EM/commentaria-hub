@@ -1,6 +1,6 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 147]*
+<!-- Folio: 147 -->
 
 ## Eucli.ex Zamb. Problema 1 Propositio 9
 
@@ -52,6 +52,6 @@ THEON ex Zamberto. Sint duæ rectæ lineæ α β & β γ. oportet iam ipsarū
 
 *[Figure: semicircle on diameter αγ with β on the diameter between α and γ; δ at the top of the arc, joined by lines to α and γ, with a perpendicular from β to δ]*
 
-*[Signature: n 3]*
+<!-- Signature: n 3 -->
 
-*[Catchword: α β]*
+<!-- Catchword: α β -->

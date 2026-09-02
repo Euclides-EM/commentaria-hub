@@ -1,6 +1,6 @@
-# GEO. ELEMENT. EVCLIDIS
+<!-- # GEO. ELEMENT. EVCLIDIS -->
 
-*[Folio: 320]*
+<!-- Folio: 320 -->
 
 igitur β η, η γ, rationales sunt potentia tantum cōmēsurabiles. Igitur β γ, apotome est per 73 decimi. Dico quod & quinta. Quo nāque maius est id quod ex β η, eo quod ex η γ, esto id quod ex θ. Quoniā igitur est sicut quod ex β η, ad id quod ex η γ sic est δ ε ad ε ζ, cōuertēdo igitur (per correlariū 18 quinti) est sicut ε δ, ad δ ζ, sic quod ex β η, ad id quod ex θ. At ε δ, ad δ ζ, rationē nō habet quàm quadratus numerus ad quadratū numerum, neque igitur quod ex β η, ad id quod ex η θ, rationem habet quam quadratus numerus ad quadratum numerum. Incōmensurabilis (igitur per 9 decimi) β η, ipsi θ, longitudine. Ipsáq̃ η β, ipsa η γ, maius potest eo quod ex θ. Ipsa igitur η β, ipsa η γ maius potest, eo quod ex sibi long tudine *[sic: pro longitudine]* incommensurabili, & congruens est longitudine commensurabilis ipsi α expositæ rationali. Ipsa igitur β γ, apotome est quinta. Inuenta igitur est apotome quinta. Quod ostendendum fuerat.
 
@@ -34,4 +34,4 @@ SI fuerit superficies linea rationali residuo primo contenta. latus eius tetrago
 
 CAMPANVS, Sit superficies a c contenta linea rationali a b & residuo pri
 
-*[Catchword: mo]*
+<!-- Catchword: mo -->

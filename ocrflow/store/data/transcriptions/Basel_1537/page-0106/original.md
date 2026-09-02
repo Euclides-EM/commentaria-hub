@@ -1,14 +1,14 @@
-# LIBER QVARTVS
+<!-- # LIBER QVARTVS -->
 
-*[Folio: 97]*
+<!-- Folio: 97 -->
 
 duæ igitur β ζ & ζ κ, duabus γ ζ & ζ κ sunt æquales. Et basis β κ, basi γ κ est æqualis. Angulus igitur β ζ κ (per 8 primi) angulo κ ζ γ æqualis: & angulus β κ ζ (per 4 primi) angulo γ κ ζ, eius qui est sub γ κ ζ. Duplus igitur est angulus β ζ γ, eius qui sub κ ζ γ est anguli, & angulus β κ γ, eius qui est sub ζ κ γ. Et ob id etiã & angulus δ ζ γ, eius qui est sub γ ζ λ, duplus est: & angulus δ λ γ, eius qui sub γ λ ζ. Et quoniam circumferentia β γ, æqualis est circumferentiæ γ δ, æqualis est (per 27 tertij) angulus quidẽ β ζ γ ei qui est sub γ ζ δ: & angulus quidẽ β ζ γ, eius qui est sub κ ζ γ duplus est: qui uero sub δ ζ γ, eius qui sub λ ζ γ: angulus igitur κ ζ γ, angulo λ ζ γ est æqualis. Duo igitur iam triãgula sunt ζ κ γ & ζ λ γ: duos angulos duobus angulis æquales habentia, & unum latus uni lateri æquale (per 26 primi) & eorum cõmune ζ γ, scilicet quod commune ipsis est: & reliqua igitur latera, reliquis lateribus æqualia habebunt, & reliquum angulum reliquo angulo. Aequalis igitur est κ γ recta ipsi γ λ: ipsi γ λ. Et quoniam æqualis est κ γ ipsi γ λ: dupla igitur est κ λ ipsius κ γ: per hoc etiam ostendetur, quod & ipsius β κ dupla est. Et quoniam ostensum est, quod β κ ipsi κ γ est æqualis: & ob ipsius β κ, ipsius κ λ est æqualis. Similiter iam ostendetur, quod unaquæq̃ ipsarum θ η, η μ, μ λ, unicuiq̃ ipsarum θ κ & κ λ est æqualis: æquilaterum igitur est pentagonum η θ κ λ μ. Aio etiam quod & æquiangulum: quoniã æqualis est angulus ζ κ γ, & ipsius quidem anguli ζ κ γ dupli eum esse qui est sub θ κ λ, eius autem qui est sub ζ λ γ, duplum eum esse qui est sub κ λ μ: angulus igitur qui est sub θ κ λ, angulo qui est sub κ λ μ. Similiter iam ostendetur etiam quod unusquisq̃ eorum qui sunt sub η θ κ, & η μ λ, unicuiq̃ eorũ qui sub θ κ λ & κ λ μ est æqualis. Quinq̃ igitur anguli qui sunt sub η θ κ, θ κ λ, κ λ μ, λ μ η, μ η θ, sibi inuicè sunt æquales. Aequiangulũ igitur est pentagonum η θ κ λ μ: ostensum autem est quod & æquilaterum: & descriptum est circa circulum α β γ δ ε: quod fecisse oportuit.
 
-Eucli.ex Camp.  Propositio.13.
+## Eucli.ex Camp.  Propositio.13.
 
 *[Margin: 13]*
 
-## Ntra æquilaterum atq̃ æquiangulum pentagonum assignatũ, circulum describere.
+Ntra æquilaterum atq̃ æquiangulum pentagonum assignatũ, circulum describere.
 
 *[Decorated initial I]*
 
@@ -20,4 +20,4 @@ Qd’ si forsan cõcurrãt in angulo c: erit per easdẽ & eodem modo c b æqual
 
 *[Figure: pentagon with vertices b, a, e and lower vertices, interior point f with perpendiculars to the five sides at points g, m, h, l, k and lines from f to the angles; labels g, a, m, b, e, f, h, l, k, d]*
 
-*[Signature: i]* *[Catchword: Quia ergo]*
+<!-- Signature: i --> <!-- Catchword: Quia ergo -->

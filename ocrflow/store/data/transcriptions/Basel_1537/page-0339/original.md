@@ -1,4 +1,6 @@
-# *[Folio: 328]* GEO. ELEMEN. EVCLIDIS
+<!-- Folio: 328 -->
+
+<!-- # GEO. ELEMEN. EVCLIDIS -->
 
 tem est quod bis sub α η, η β, comprehenditur. rationale igitur & ζ λ. Et ad ζ ε, rationalem comparatur, latitudinem efficiens ζ μ, rationalis igitur est (per 20 decimi,) & ζ μ, & ipsi γ δ longitudine commensurabilis, Quoniam igitur quæ ex α η, η β, hoc est ipsum γ λ, medium est, quod autem bis sub α η, η β, hoc est ipsum ζ λ, rationale, incōmensurabile igitur est (per 9 decimi,) γ λ ipsi ζ λ. Sicut autem γ λ, ad ζ λ, sic est γ μ, ad ζ μ, incommēsurabilis igitur γ μ, ipsi ζ μ longitudine, & utræq́; sunt rationales. Ipsæ igitur γ μ, μ ζ, rationales sunt potentia tantum commensurabiles, ipsa igitur γ ζ, apotome est (per 73 decimi,) Dico etiam quod & secūda. Secetur namq́; (per 10 primi) ζ μ bifariam in ν. Exciteturq́; (per 31 primi,) per ν, ipsi γ δ, parallelus ν ξ, utrūq́; igitur ipsorum ζ ξ, ν λ, æquum est ei quod sub α η, η β, Et quoniā (per lēma 53 decimi) ipsorum quæ ex α η, η β, quadratorum medium proportionale est quod sub α η, η β, & quod ex α η, æquum est ipsi γ θ, quod uero sub α η, η β, ipsi ν λ, quod autē ex β η ipsi κ λ, & ipsorū igitur γ θ, κ λ, medium proportionale est ν λ (per idem lemma.) Est igitur sicut γ θ ad ν λ, sic ν λ, ad κ λ, sed sicut quidem γ θ ad ν λ, sic est γ θ *[sic: for γ κ]* ad ν μ, sicut aūt ν λ, ad κ λ. sic est ν μ ad μ κ. Sicut igitur (per 11 quinti γ κ ad ν μ, sic est ν μ, ad κ μ. Igitur quod sub γ κ, κ μ, (per 17 decimi) ei est æquū quod ex ν μ, hoc est quartæ parti eius quod ex ζ μ. Et quoniā quod ex α η, commensurabile est ei quod ex β η, commensurabile est (per 1 sexti & 11 decimi) & γ θ ipsi κ λ, hoc est γ κ, ipsi κ μ. Quoniā igitur binæ rectæ liueæ *[sic: for lineæ]* inæquales sunt γ μ, & μ ζ, quartæ autem parti eius quod ex μ ζ (per 17 decimi,) æquum ad maiorem γ μ apponitur deficiens forma quadrata, quod scicet *[sic: for scilicet]* sub γ κ. κ μ. & ipsam in commensurabilia despescit, ipsa igitur γ μ ipsa μ ζ, (per eandem) maius potest eo quod ex sibi longitudine commensurabili Et congruens ζ μ, (per 85 decimi) est commensurabilis longitudine ipsi γ δ expositæ rationali. Ipsa igitur γ ζ, apotome est secunda, (per 3 diffinitiones. Quod igitur à mediæ apotomæ prima ad rationalē comparatum latitudinem secundam efficit apotomen. Quod erat ostendendum.
 
@@ -22,4 +24,4 @@ THEON ex Zamb, Esto mediæ apotomæ secunda α β, rationalis autem esto γ δ, 
 
 *[Figure: horizontal line with points α, β, η; below it a rectangle with top corners γ (left) and μ (right), bottom corners δ (left) and λ (right); points ζ, ν, κ on the top side and ε, ξ, θ on the bottom side, with vertical lines dividing the rectangle at ζ–ε, ν–ξ and κ–θ]*
 
-*[Catchword: tur]*
+<!-- Catchword: tur -->

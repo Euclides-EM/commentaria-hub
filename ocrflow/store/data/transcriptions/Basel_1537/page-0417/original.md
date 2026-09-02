@@ -1,6 +1,6 @@
-*[Folio: 406]*
+<!-- Folio: 406 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ramidis. Lineamq̃ rectã continuantẽ centrũ basis cum cono pyramidis, appello axem seu sagittã pyramidis. Cumq̃ hæc sagitta fuerit perpendicularis ad basin, dico pyramidem esse rectam. Cum uero inclinata, dico esse pyramidẽ inclinatã. Cum autem fuerint duo circuli æquales descripti in superficiebus æquidistantibus, quos una plana superficies per eorũ centra transiens secuerit, fuerintq̃ cõtinuatæ per lineã rectam duæ relatiuæ sectiones duarũ circũferentiarũ ipsorũ circulorũ, si linea hæc in circũferentijs ipsorũ circulorũ æquidistanter situi à quo moueri inceperit quousq̃ ad locum suum redeat circũducatur, corpus quod à curua superficie quam motu suo describit hæc linea, & à duobus propositis circulis cõtinetur, uoco columnã rotundam. Cum axis siue sagitta, est linea recta, centra duorũ circulorũ continuans. Et cum hæc sagitta fuerit perpendicularis ad superficiẽ utriusq̃ duorũ circulorũ, dico columnã esse erectã. Cum uero fuerit super basin inclinatæ, dico columnã esse inclinatã. Cumq̃ fuerint duæ rotũdæ pyramides aut columnæ (à quarũ axibus egrediãtur duæ superficies super bases earũ orthogonaliter erectæ) fuerintq̃ anguli (quos axes & cõmunes sectiones harũ superficierũ & basium continẽt) adinuicẽ æquales, & fuerit proportio axis unius ad axem alterius sicut semidiametri basis unius ad semidiametrũ basis alterius, tunc illas duas pyramides adinuicẽ, aut illas duas columnas adinuicẽ, dico similes esse. His diffinitiõibus positis, demonstrandũ est, q̃ omnium duarũ rotundarũ pyramidũ similium, columnarumúe rotundarũ similiũ, siue erectæ siue inclinatæ fuerint, est proportio unius ad alteram sicut diametri basis unius ad diametrũ basis alterius proportio triplicata. Quod de solis erectis demonstratũ est. Ad hoc autẽ præmittimus antecedens necessariũ.
 
@@ -12,4 +12,4 @@ Sint duæ rotundæ pyramides a b & c d, quarũ bases sunt circuli e f g & h k l,
 
 *[Figure: circle h k l with centre d, h at the lower left, k at the upper left, l at the lower right, the diameter h l extended to n; lines drawn from the apex c (upper right) to h, k, l, and the perpendicular c n]*
 
-*[Catchword: 4 sexti,]*
+<!-- Catchword: 4 sexti, -->

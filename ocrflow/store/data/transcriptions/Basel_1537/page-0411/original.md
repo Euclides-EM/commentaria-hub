@@ -1,6 +1,6 @@
-*[Folio: 400]*
+<!-- Folio: 400 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 gulo b h k, & triangulũ d a e triãgulo k b l. Et quia etiam ex hypothesi angulus d est æqualis angulo k, & latera c d & d e continẽtia angulũ d sunt proportionalia lateribus h k & k l continentibus angulum k, erunt ex 6 sexti duo triãguli c d e & h k l æquianguli, ideoq̃ per 4 sexti erit proportio c d ad h k, sicut c e ad k l. Cumq̃ ex hypothesi sit proportio c a ad h b, & etiam a e ad b l, sicut c d ad h k, erit ex 11 quinti c a ad h b, & a e ad b l, sicut c e ad h l. Igitur ex 5 sexti & diffinitione similium superficierũ, triangulus c a e erit similis triangulo h b l. Manifestũ est itaq̃ ex diffinitione similium corporũ, q̃ pyramis a c d e est similis pyramidi b h k l, similiter quoq̃ constat pyramidẽ a c e f esse similem pyramidi b h l m, & pyramidẽ a c f g, pyramidi b h m n. Quia ergo ex hac 8 proportio pyramidis a c d e ad pyramidẽ b h k l est sicut lateris c d ad latus h k triplicata, etiam pyramidis a c e f ad ad *[sic: ad ad]* pyramidẽ b h l m, sicut e f ad l m triplicata ac etiam pyramidis a c f g ad pyramidẽ b h m n, sicut c g ad h n triplicata, cũ sit ex hypothesi proportio e f ad l m, & c g ad h n, sicut c d ad h k, sequitur ex 13 quinti ut proportio totaliũ pyramidum a & b sit sicut unius harum partialiũ ad aliam unam. Igitur ex hac 8 & 11 quinti constat uerum esse quod diximus.
 
@@ -20,4 +20,4 @@ Omnis laterata columna, tripla est ad suam pyramidem.
 
 Distinguatur basis columnæ in triangulos, & secundum numerũ triangulorũ illorũ distinguatur columna in seratilia, & pyramis colũnæ in pyramides habẽtes bases trian
 
-*[Catchword: gulas]*
+<!-- Catchword: gulas -->

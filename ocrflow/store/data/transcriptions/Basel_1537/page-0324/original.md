@@ -1,12 +1,12 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 313]*
+<!-- Folio: 313 -->
 
 nisi irrationali superficie per 12. Hoc autem fit manifestius in figura, sic. Sit enim superficies e f, adiūcta ad lineā e g, æqualis ambobus quadratis duarum superficierum a b & b c pariter acceptis, at g h sit æqualis duplo superficiei unius in alteram. Eritq́; f h, æqualis quadrato lineæ a c ex 7 secūdi. Similiter quoque sit k l, adiuncta ad lineā k m, æqualis duobus quadratis duarū linearum a d & d c pariter acceptis, & m n, sit æqualis duplo superficiei unius in alteram, eritq́; ex 7 secundi n l æqualis quadrato lineæ a c ideoq́; etiam æqualis h f. Est itaq̀ differētia e f ad g h, sicut k l ad m n. Quare per antecedens præmissum, erit permutatim differentia e f ad k l (& ipsa sit p) sicut g h ad m n. Et quia utraque duarum superficierum e f & k l est rationalis, utraque uero duarum superficierum g h & m n medialis, sequitur impossibile, uidelicet, superficiem p esse rationalem & irrationalem.
 
 *[Figure: line a c d b above; two rectangles: the left one with corners e (bottom left) and g (bottom right), f at top right, a horizontal division marked b on the left side and the region p in the lower part; the right one with l at top right, a horizontal division marked n on the left side, and corners k (bottom left) and m (bottom right)]*
 
-Eucli. ex Zamb. Theorema 61 Propositio 79
+## Eucli. ex Zamb. Theorema 61 Propositio 79
 
 ## 79 Apotome una tantum congruit recta linea rationalis, potentia tantū toti subsistens commensurabilis.
 
@@ -14,7 +14,7 @@ THEON ex Zāb. Sit apotome α β, cōgruēs aūt ei sit β γ, ipsæ igitur α �
 
 *[Figure: line with points α, β, γ, δ]*
 
-Eucli. ex Camp. Propositio 75
+## Eucli. ex Camp. Propositio 75
 
 ## 75 NVlla linea nisi una tantum residuo mediali primo coniungi potest, ut sint ambæ sub termino earum quæ erant ante separationem.
 
@@ -22,7 +22,7 @@ Eucli. ex Camp. Propositio 75
 
 CAMPANVS Hæc quoque probabis simili modo. Sint enim in utraq̀ sectione ambo quadrata pariter accepta, mediale, duplū uero superficiei unius in alterā ratiōale. Et quia ut prius eadē differentia quadratorū unius sectionis ad quadrata altius *[sic: for alterius]*, quæ est dupli superficiei unius ad duplum superficiei alterius, erit una & eadē superficies differentia duarū medialium & duarum rationalium. Quod est impossibile.
 
-Eucli. ex Zamb. Theorema 62 Propositio 80
+## Eucli. ex Zamb. Theorema 62 Propositio 80
 
 ## 80 Mediæ apotomæ primæ una tantum congruit recta linea media, potentia tantum toti subsistens commensurabilis, & cum tota rationale comprehendens.
 
@@ -30,4 +30,4 @@ THEON ex Zāb. Esto namq̀; media apotome prima α β, & ipsi α β, cōgruat β
 
 *[Figure: line with points α, β, γ, δ]*
 
-*[Signature: D]* *[Catchword: Eucli.]*
+<!-- Signature: D --> <!-- Catchword: Eucli. -->

@@ -1,4 +1,4 @@
-*[Folio: 40]*
+<!-- Folio: 40 -->
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS.
 
@@ -32,4 +32,4 @@ SI fuerint duæ lineæ quarum una in quotlibet partes diuidatur, illud quod ex d
 
 CAMPANVS. Lineam in aliam lineam ducere, est supra terminos unius earum duas lineas orthogonaliter alij æquales erigere, & superficiem æquidistantiū laterum rectangulam complere, quæ sub illis duabus lineis per diffinitionē dicitur contineri.
 
-*[Catchword: Sint duæ]*
+<!-- Catchword: Sint duæ -->

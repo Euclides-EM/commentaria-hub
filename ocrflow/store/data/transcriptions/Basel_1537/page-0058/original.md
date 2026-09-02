@@ -1,6 +1,6 @@
-# LIBER SECVNDVS.
+<!-- # LIBER SECVNDVS. -->
 
-*[Folio: 49]*
+<!-- Folio: 49 -->
 
 ## Eucli. ex Camp. Propositio 11.
 
@@ -28,4 +28,4 @@ THEON ex Zamb. Sit data recta linea α β: oportet autem ipsam α β secare, ut 
 
 IN his triangulis qui obtusum habent angulum, tanto ea quæ obtusum subtendit angulum, ambobus reliquis lateribus quæ obtusum continent angulum amplius potest, quātum est quod continetur bis sub uno eorum atque ea quæ ei directe iuncta ad obtusum angulum, à perpendiculari extra deprehenditur.
 
-*[Signature: e, with title mark: Eucli.]*
+<!-- Signature: e, with title mark: Eucli. -->

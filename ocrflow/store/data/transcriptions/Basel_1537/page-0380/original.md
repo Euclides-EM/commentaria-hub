@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 369]*
+<!-- Folio: 369 -->
 
 Extēdatur enī α θ ex utraq̃ parte, ponāturq́̃ ipsi qdē ε θ æquales quotcūq̃, θ μ, μ ν, ipsi aūt α ε æquales, α κ, κ λ, cōpleanturq́̃ ipsa λ ο, κ φ, θ χ, μ σ, parallelogrāma, & ipsa λ π, κ ρ, δ μ, μ τ, solida. Et quoniā ipsæ λ κ, κ α, α ε, rectæ lineæ inuicē sunt æquales, æqualia quoq̃ sunt ipsa λ ο, κ φ, α ζ, parallelogrāma sibijnuicē (per 1 sexti,) & ipsa quoq̃ κ ξ, κ β, α η, sibi inuicē (p̃ eandē) sunt æqualia. Et similiter ipsa λ ψ, κ π, α ρ, sibi inuicē (per 24 undecimi) sunt æqualia, ex opposito enim. Idq́̃ propterea etiā ipsa quidem ε γ, θ χ, μ σ, parallelogrāma adinuicē sunt æqualia (per 1 sexti,) ipsa quoq̃ θ κ, θ ι, ι ν, sibi inuicem (per eandē) sunt æqualia. Et insuper ipsa δ θ, μ ω, ν τ, (per 24 undecimi) sunt æqualia (ex opposito enim.) Tria igitur plana ipsorū λ π, κ ρ, α υ, solidorū, tribus reliquorū planis sunt æqualia (idq́̃ propterea & ipsorū ε δ, δ μ, μ τ, solidorū.) Sed tria, tribus quæ ex opposito (per 24 undecimi) sunt æqualia. Ipsa igitur tria solida λ π, κ ρ, α υ, inuicē sunt æqualia (per s *[sic]* undecimi diffinitionē) id propterea etiā tria solida ε δ, δ μ, μ θ, inuicē sunt æqualia. Quotuplex igitur est λ ζ basis ipsius α ζ basis, totuplex est & λ υ solidū ipsius α υ solidi, & iam id propterea quotuplex est ν ζ basis ipsius ζ θ basis, totuplex est & ν υ solidū ipsius θ υ solidi, & si æqualis est λ ζ basis ipsi ν ζ basi, æquū est & λ υ solidū ipsi ν υ solido, & si excedit λ ζ basis ipsam ν ζ basin, excedit quoq̃ ipsum λ υ solidū ipsum ν υ solidū, & si deficit, deficit (per 1 & 14 quinti.) Quatuor iam existentibus magnitudinibus, binis quidē basibus α ζ, ζ θ, duobus autē solidis α υ, υ θ, assumūtur æque multiplicia, ipsius quidē α ζ basis & α υ solidi, ipsa λ ζ basis & λ υ solidū, ipsius autē θ ζ basis & θ υ solidi, ipsa ν ζ basis & ipsum ν υ solidū. Ostēsumq́̃ est, quòd si λ ζ basis excedit basin ν ζ, excedit quoq̃ & λ υ solidū, ipsum ν υ solidum, & si æquale, æquale, & si deficit, deficit (per diffinitionē 6 quinti.) In eadē autē ratione magnitudines esse dicūtur, & reliqua. Est igitur sicut α ζ basis ad ζ θ basin, sic est α υ solidum ad θ υ solidum. Quod erat ostendendum.
 
@@ -24,4 +24,4 @@ CAMPANVS. Solidus angulus propositus sit a, qui contineatur tribus lineis a b, a
 
 ## Ad datam rectam lineam, ad signumq́̃ in ea, dato solido angulo æquū solidum angulum constituere.
 
-*[Catchword: THEON]*
+<!-- Catchword: THEON -->

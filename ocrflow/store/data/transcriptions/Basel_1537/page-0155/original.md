@@ -1,10 +1,10 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 144]*
+<!-- Folio: 144 -->
 
 e f, ergo per 9 quinti, g c & b c, sunt æquales, ergo per quintā primi angulus b, est æqualis angulo b g c. Si ergo neuter duorum angulorum b & e fuerit minor recto: accidet duos angulos unius trianguli non esse minores duobus rectis, quod esse non potest per 17 primi. Quod si uterq̃ fuerit minor recto: erit angulus a g c maior recto per 13 primi: quare & angulus e sibi æqualis, est etiam recto maior, quod est contra hypothesin: quare destructo opposito remanet propositum. Oportet autem utrunq̃ angulorū reliquorum, aut neutrum, esse minorem recto: possibile enim est in eodem triangulo ut in triangulo a b c, lineam g c esse æqualem b c: & ideo erit a c ad utramq̃ earum una proportio per 7 quinti. Nec tamen erunt trianguli a g c & a b c æquianguli, quamuis unus angulus unius sit æqualis uno angulo alterius, imo idem ut angulus a: & proportio lineæ a c prout est latus magni ad a c prout est latus parui: sicut b c latus magni ad g c latus parui: utraq̃ enim æqualis, & hoc est, propter hoc qd̕ angulus g minoris, est maior recto: & angulus b maioris. minor: Nam in omni triangulo duum æqualium laterum, uterq̃ angulorum qui sunt ad basin, est minor recto.
 
-Eucli. ex Zamb — Theorema 7. — Propositio 7.
+## Eucli. ex Zamb — Theorema 7. — Propositio 7.
 
 7 Si bina triangula unum angulum uni angulo æqualem habuerint, circum autem alios angulos latera proportionalia, reliquorum uero utrunq̃ simul aut minorem aut non minorem recto, æquiangula erūt triangula, & æquales habebunt angulos circum quos proportionalia sunt latera.
 
@@ -18,8 +18,8 @@ THEON ex Zamberto. *Sint bina triangula α β γ & δ ε ζ: unum angulum uni an
 
 *[Figure: two right-angled triangles: larger triangle with apex α, base point γ, point η on its hypotenuse with a line drawn to it from the bottom-left vertex; smaller triangle with apex δ and base ε ζ]*
 
-Eucli. ex Camp. — Propositio 8.
+## Eucli. ex Camp. — Propositio 8.
 
 8 SI ab orthogonĳ angulo recto, ad basin linea perpendicularis ducatur, fient duo trianguli partiales, toti triangulo & sibĳnuicem similes.
 
-*[Catchword: CORRE-]*
+<!-- Catchword: CORRE- -->

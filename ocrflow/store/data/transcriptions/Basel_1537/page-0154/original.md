@@ -1,8 +1,8 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 143]*
+<!-- Folio: 143 -->
 
-Eucli. ex Camp. — Propositio 6.
+## Eucli. ex Camp. — Propositio 6.
 
 6 Mnes duo trianguli quorum unus angulus unius uni angulo alterius æqualis, lateraq̃ illos duos æquos angulos continentia proportionalia, sunt inter se inuicem æquianguli.
 
@@ -10,7 +10,7 @@ CAMPANVS. Maneat prior dispositio, & sit solū angulus b, æqualis angulo d e f,
 
 *[Figure: triangle a b c with apex a and base b c; beside it triangle d e f with apex d, and point g below so that triangles d e f and g e f share side e f, forming a rhombus-like figure]*
 
-Eucli. ex Zamb. — Theorema 6. — Propositio 6.
+## Eucli. ex Zamb. — Theorema 6. — Propositio 6.
 
 6 Si bina triangula unum angulum uni angulo æqualem habuerint, & circū æquales angulos latera proportionalia, æquiangula erūt triangula & æquales habebūt angulos sub quibus eiusdē rationis latera subtendūtur.
 
@@ -18,7 +18,7 @@ THEON ex Zamberto. *Sint bina triangula α β γ, & δ ε ζ, unum angulum qui s
 
 *[Figure: triangle α β γ with apex α and base β γ; beside it triangles δ ε ζ and δ ζ η on the common side δ ζ, forming a quadrilateral with diagonal, base points δ and ζ]*
 
-Eucli. ex Camp. — Propositio 7
+## Eucli. ex Camp. — Propositio 7
 
 7 SI fuerint duo trianguli quorum unus angulus unius uni angulo alterius æqualis, duóque suorum reliquorum angulorum lateribus proportionalibus contenti duorum uero demum reliquorū uterque aut neuter recto angulo minor, necesse est illos duos triangulos omnibus suis angulis inter se inuicem æquiangulos esse.
 
@@ -26,4 +26,4 @@ CAMPANVS. Sint duo trianguli a b c, d e f, sitq̃ angulus a, æqualis angulo d, 
 
 *[Figure: triangle a b c with apex a and base b c, point g on side a b with line g c drawn; beside it triangle d e f with apex d and base e f]*
 
-*[Catchword: e f]*
+<!-- Catchword: e f -->

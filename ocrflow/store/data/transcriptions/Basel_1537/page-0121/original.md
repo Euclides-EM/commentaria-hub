@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 112]*
+<!-- Folio: 112 -->
 
 sitā diffinitionē uenetur, nihil enim in quocūq̃ inæqualitatis genere, terminis magis idē, q̃ eorū multiplicia, nec terminorū habitudinibus, quā multipliciū habitudo. Et quia proportio est duarū quātitatū eiusdē generis certa habitudo cōsiderata in eo q̃ sunt æquales, aut altera maior, ideo idētitas proportionū existentium inter primam 4 quantitatum ad secundam, & tertiam ad quartam, est similis æqualitas primæ ad secundam, & tertiæ ad quartam aut similis maioritas, aut similis minoritas hæc autem similis æqualitas, aut similis maioritas, aut similis minoritas tunc est inter quatuor quaslibet quantitates, cum est inter omnes earum æqualiter multiplices.
 
@@ -12,4 +12,4 @@ Diffinitiones autē istas nisi sunt aliqui demonstrare, quorū Ametus filius Ios
 
 huius quæ probantur ex diffinitione incōtinuæ proportionalitatis. Arguit enim sic. si proportio a b ad c est maior quàm g ad d, sit ergo ut n b partis a b ad c, sicut g ad d, per quod apparet ipsum supponere quod duarum quantitatum a b & n b inæqualiū relatarum ad e maior maiorem & minor minorem ad ipsam obtinet proportionem, uel quod quantitas quæ ad e habebit minorem proportionem quā habeat a b, erit mi-
 
-*[Catchword: nor]*
+<!-- Catchword: nor -->

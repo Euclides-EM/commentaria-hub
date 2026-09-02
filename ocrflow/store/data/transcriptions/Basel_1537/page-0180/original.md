@@ -1,6 +1,6 @@
-# LIBER SEPTIMVS
+<!-- # LIBER SEPTIMVS -->
 
-*[Folio: 169]*
+<!-- Folio: 169 -->
 
 15 Prima simpla numeri pars, est unitas. 16 Quādo duo numeri partem habuerint cōmunem, tot partes maioris dicetur esse minor, quoties eadem pars fuerit in minore, totæ uero, quoties ipsa fuerit in maiore.
 
@@ -20,4 +20,4 @@
 
 FINIS.
 
-*[Signature: P]* *[Catchword: EVCLIDIS]*
+<!-- Signature: P --> <!-- Catchword: EVCLIDIS -->

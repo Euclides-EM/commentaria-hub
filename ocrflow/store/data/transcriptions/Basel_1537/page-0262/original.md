@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 251]*
+<!-- Folio: 251 -->
 
 numerum quadratum. Dico quod incommensurabilis est α,ipsi β longitudine. Si enim fuerit commensurabilis α ipsi β,quadratum quod ex α ad quadratum quod ex β,eam habebit rationem quam numerus quadratus ad numerum quadratum,non habet autem. Igitur commensurabilis non est α ipsi β longitudine. Incommensurabilis igitur est α, ipsi β longitudine. A longitudine commensurabilibus igitur quadrata,& quæ sequuntur reliqua, quod demonstrasse oportuit.
 
@@ -32,4 +32,4 @@ SI fuerint duæ quantitates communicantes,totum quoqʒ ex eis cōfectum utriqʒ 
 
 CAMPANVS. Sint duæ quātitates a & b cōmēsurabiles,dico totū ex eis compositū quod sit c,utrique earū esse commensurabile,& econuerso. Adhuc quoqʒ si totū ex eis cōpositū uni earum cōmunicet,dico qd' cōmunicabit alteri,& ipse similiter inter se etiā
 
-*[Catchword: cōmu]*
+<!-- Catchword: cōmu -->

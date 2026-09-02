@@ -1,6 +1,6 @@
-# SPECVLARIA
+<!-- # SPECVLARIA -->
 
-*[Folio: 511]*
+<!-- Folio: 511 -->
 
 paret super k & d super l, hoc enim prius ostēsum est, ergo sinistra dextra apparent, & dextra sinistra, & quoniam æqualis est qui sub k c f, angulus ei qui sub f c e angulo, & recti sunt qui ad f, æqua igitur etiam fuerit f k ipsi f e. Idq́; propterea & d h, ipsi h l, æquum est igitur interuallum quod abest à speculo e d, ipsi a abest simulacrum k l & æquū est uisum e d simulacro k l, quoniam æqualis est e f ipsi f k, & d h ipsi h l, cōmunis autem & ad rectos angulos ipsa h f.
 
@@ -22,4 +22,4 @@ Sit speculum conuexum a o c, oculus autem sit b, uisus uero refracti sint b a, b
 
 *[Figure: large diagram: K at the upper left, a, f, e along the top line, l at the upper right; a circle in the middle containing m, g, b, h; a trapezoidal plane speculum below with e at the lower left, d at the bottom centre and b at the lower right, whence many rays fan out]*
 
-*[Signature: V 4]* *[Catchword: & b c d.]*
+<!-- Signature: V 4 --> <!-- Catchword: & b c d. -->

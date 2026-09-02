@@ -1,4 +1,6 @@
-# *[Folio: 154 — misprinted, should be 164]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 154 — misprinted, should be 164 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ponatur ε ξ, totum igitur α ξ, æquum est ipsi φ χ ψ, gnomoni. Sed φ χ ψ gnomon æqualis est ipsi γ. Igitur α ξ, ipsi γ est æquale. Ad datam igitur rectam lineam α β, dato rectilineo γ, æquale parallelogrammum comparatum est α ξ, excedens specie parallelogrammo π ο simili existente ipsi δ. Igitur δ, simile est ipsi β ξ, & β ξ. ipsi ο π, est simile, circum enim eandem dimetientem consistunt, quod fecisse oportuit.
 
@@ -26,4 +28,4 @@ ALITER Sit data recta linea α β, oportet ipsam iã α β, extrema, & media rat
 
 CAMPANVS Sint duo anguli a b c, d c e constituti super angulum a c d. sitque a c æquidistans d e & d c: a b, & sit proportio a c ad d e, sicut a b ad d c, dico quod duæ bases eorũ b c & c e, sunt linea una. Est enim angulus a æqualis angulo d: quia uterq́; eorũ est æqualis angulo a c d per primam partem 29 primi, igitur per præsentem hypothe
 
-*[Catchword: sin]*
+<!-- Catchword: sin -->

@@ -1,6 +1,6 @@
-# LIBER QVINTVS.
+<!-- # LIBER QVINTVS. -->
 
-*[Folio: 131]*
+<!-- Folio: 131 -->
 
 *[Margin: 22]* SI fuerint quotlibet quantitates aliæq́ꝫ secundum earum numerum quarum quæque duæ secūdum proportionem duarum ex primis in æqua proportionalitate, proportionales erunt.
 
@@ -20,4 +20,4 @@ THEON ex Zamb. Sint quælibet magnitudines α β γ, & aliæ eisdem æquales num
 
 *[Margin: 23]* SI fuerint quotlibet quantitates aliæq́ꝫ secundum earum numerum, quarum ex prioribus quæque duæ secundum proportionem duarū ex prioribus indirecte proportionatæ, in æqua proportionalitate proportionales erunt.
 
-*[Signature: illegible (blotted)]* *[Catchword: Campa]*
+<!-- Signature: illegible (blotted) --> <!-- Catchword: Campa -->

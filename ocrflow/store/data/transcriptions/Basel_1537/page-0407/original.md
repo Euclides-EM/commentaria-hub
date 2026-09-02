@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 396]*
+<!-- Folio: 396 -->
 
 ## Eucli. ex Zamb. Theorema 6 Propositio 6
 
@@ -24,4 +24,4 @@ CAMPANI additiones. Quoniam autem Euclides nihil demonstrandum proponit de pyram
 
 Si seratile propositū fuerit super basin trigonam, tunc ex pyramide proposita super propriā basin perficiatur seratile pyramidi propositæ æque altum. Si uero seratile fuerit super basin quadrangulā, tunc basi pyramidis adijciatur triangulus, ex quo & basi pyramidis perficiatur superficies æquidistantiū laterum, super quam ex ipsa pyramide cōpleatur seratile pyramidi æque altum. Quia igitur istud seratile seratili priori est æque altum, & utrorumq̃ bases sunt æquales ex hypothesi, sequitur ipsa esse æqualia, hoc enim demonstratum est in 36 undecimi. At quoniam ex 6 huius seratile secundum
 
-*[Catchword: triplum]*
+<!-- Catchword: triplum -->

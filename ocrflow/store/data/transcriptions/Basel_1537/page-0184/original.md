@@ -1,6 +1,6 @@
-# LIBER SEPTIMVS
+<!-- # LIBER SEPTIMVS -->
 
-*[Folio: 173]*
+<!-- Folio: 173 -->
 
 contra hypothesin. Si autem c & d sunt cōpositi, erūt etiam a, b, c adinuicem compositi. Sit enim per præmissam, e, maximus numerans c & d, qui etiam per penultimam conceptionem numerabit a & b, quare per diffinitionem a, b, c, sunt adinuicem compositi.
 
@@ -28,4 +28,4 @@ Non metiatur iam δ ipsum γ. Dico quod primum δ & γ, non sunt primi adinuicem
 
 *[Figure: numbers as dot-rows: α (21 dots), β (14 dots), γ (9 dots), δ (8 dots), ε (2 dots), ζ (3 dots)]*
 
-*[Signature: p 3]* *[Catchword: mensuram]*
+<!-- Signature: p 3 --> <!-- Catchword: mensuram -->

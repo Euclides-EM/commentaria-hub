@@ -1,12 +1,12 @@
-# LIBER DVODECIMVS.
+<!-- # LIBER DVODECIMVS. -->
 
-*[Folio: 415]*
+<!-- Folio: 415 -->
 
 η θ, multo minus igitur ipsæ λ δ, δ ν, tāgunt ipsum ε ζ η θ, orbē. Si igitur ipsi λ δ, rectæ lineæ æquales in cōtinuū aptabimus in orbe α β γ δ, describetur in orbe α β γ δ, multangulū æquilaterum & parilaterum nō tangens ipsum orbē ε ζ η θ, minorem. Quod facere oportuit.
 
 CORRELARIVM. Et inde est manifestum, quod perpendicularis quæ ex λ in β δ, unum circulum non tangit.
 
-Eucli. ex Camp. Propositio 14
+## Eucli. ex Camp. Propositio 14
 
 ## 14 DVabus sphæris unū centrū habētibus propositis, intra maiorē earū solidū multarū basiū superficiē minoris sphæræ minime tāgētiū figuraliter cōstituere. Quo cōstituto si in miori *[sic: minori]* sphæra siue in qualibet alia sphæra simile corpꝰ intelligibiliter cōstituatur, erit proportio corpis *[sic]* multarū basiū intra maiorē sphærā cōstituti ad corpꝰ multarū basiū intra minorē sphærā uel aliā cōstitutū, sicut diametri maioris sphæræ ad diametrū minoris uel alteriꝰ ꝓportio triplicata.
 
@@ -14,6 +14,6 @@ CAMP. Sint ꝓpositæ duæ sphæræ, a b c d & e f, unū atque idē centrū quod
 
 *[Figure: sphere containing an inscribed many-sided solid; n at the apex; r, l, m, p on an upper arc; a, t, another small letter, and b on the next chord; e inside; horizontal line q–g–o through the centre g; s and u flanking the inner circle, f inside lower; y and z lower left; d at lower left, c at lower right, h and K on the bottom circumference]*
 
-*[Signature: M 4]*
+<!-- Signature: M 4 -->
 
-*[Catchword: in sc̃o]*
+<!-- Catchword: in sc̃o -->

@@ -1,8 +1,10 @@
-# LIBER DECIMVS. *[Folio: 305]*
+<!-- # LIBER DECIMVS. -->
+
+<!-- Folio: 305 -->
 
 conflatum ex earum quadratis simul rationale, & quod bis sub ipsis medium. Tota igitur γ δ (per 57 decimi) irrationalis est, maior appellata. Maiori igitur cōmensurabilis, & eadem maior est, quod ostendendū fuerat.
 
-Eucli.ex Camp. Propositio 63
+## Eucli.ex Camp. Propositio 63
 
 *[Margin: 63]*
 
@@ -18,7 +20,7 @@ CAMPANVS. Verum quoq̃ est, q̃ qualitercūq̃ linea aliqua sit cōmunicans pote
 
 *[Figure: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]*
 
-Eucli.ex Zamb. Theorema 51 Propositio 69
+## Eucli.ex Zamb. Theorema 51 Propositio 69
 
 *[Margin: 69]*
 
@@ -28,7 +30,7 @@ THEON ex Zamb. Esto rationale mediumq̃ potens α β, & ipsi α β cōmensurabil
 
 *[Figure: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]*
 
-Eucli ex Camp. Propositio 64
+## Eucli.ex Camp. Propositio 64
 
 *[Margin: 64]*
 
@@ -38,7 +40,7 @@ Eucli ex Camp. Propositio 64
 
 CAMPANVS. Hæc quoq̃ manētibus eisdem dispositione & positiōibus, eo duplici modo quo præmissæ probabitur uera esse, siue in lōgitudine siue in potentia cōmunicet linea b cum linea a potente in duo medialia. Quantū enim ad primum argumētationis modum erit per 35 superficies g medialis, ideoq̃ & k per 21, cum cōmunicet ei, duo quoq̃ quadrata m & h pariter accepta erunt ex eadem 35 mediale, ideoq̃ duo n & l pariter accepta per 21. At quia duo quadrata m & h pariter accepta ex prædicta 35 sunt incōmensurabile duplo supficiei g sequitur per 10 & nostras positiones ut duo quoq̃ l & n pariter accepta sint incōmensurabile duplo superficiei K, cum itaq̃ sint e & f incōmensurabiles in potentia quemadmodum c & d, erit ex 35 linea b potens in duo medialia. Quantū autem ad secūdum solitæ argumētationis modum erit per 59 d e binomiū sextū. ideoq̃ etiā per 60 linea e g erit binomiū sextū, quare per 53 latus tetragonicū supficiei f g quod est b, erit potens in duo medialia. Quod est propositū.
 
-Eucli. ex Zamb. Theorema 52 Propositio 70
+## Eucli. ex Zamb. Theorema 52 Propositio 70
 
 *[Margin: 70]*
 
@@ -48,4 +50,4 @@ THEON ex Zamb. Esto bina potens media α β, & ipsi α β cōmensurabilis esto �
 
 *[Figure: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]*
 
-*[Signature: C 3]* *[Catchword: sub γ ζ.]*
+<!-- Signature: C 3 --> <!-- Catchword: sub γ ζ. -->

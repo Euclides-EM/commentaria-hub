@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 249]*
+<!-- Folio: 249 -->
 
 ui, g ad h ut e ad f, duplicata, ergo c ad d, sicut g ad h, quod est primum. Secundum sic. Sit c ad d, sicut g numerus quadratus ad h numerum quadratum. dico quod a & b erūt in longitudine communicantes. Cum enim sit c ad d ut a ad b, duplicata per 18 sexti, & g ad h per 11 octaui ut e ad f duplicata, quare & simpla a ad b sicut simpla e ad f: per 6 igitur sunt a & b communicantes. quod est secundum. Tertium uero patet ex primo à destructione consequentis. Similiter quartum patet ex secundo, à destructione consequentis,
 
@@ -14,7 +14,7 @@ CAMPANI annotatio. Ex tertia parte huius, nota diametrum esse incommensurabilem 
 
 Sequentia duo ex Zamberto Theoremata. in Campano nihil respondens habent,
 
-Eucli. ex Zamb. Theorema 5 Propositio 7 Conuersa quintæ
+## Eucli. ex Zamb. Theorema 5 Propositio 7 Conuersa quintæ
 
 **7** Incommensurabiles magnitudines adiuuicem *[sic: adinuicem]* rationem non habent, quam numerus ad numerum.
 
@@ -22,7 +22,7 @@ THEON ex Zamberto. Sint incommensurabiles magnitudines, α,β. Dico quod α, ad 
 
 *[Figure: two horizontal lines marked Re. 16 and Re. 32, labelled α and β at their right ends]*
 
-Eucli. ex Zamb. Theorema t 6 *[sic: Theorema 6]* Propositio 8 Conuersa sextæ
+## Eucli. ex Zamb. Theorema t 6 *[sic: Theorema 6]* Propositio 8 Conuersa sextæ
 
 **8** Si binæ magnitudines adinuicem rationem non habuerint quam numerus ad numerum incommensurabiles erunt ipsæ magnitudines.
 
@@ -30,8 +30,8 @@ THEON ex Zamb. Binæ enim magnitudines α,β, adinuicem non eam habeant rationem
 
 *[Figure: two horizontal lines, the longer labelled α and the shorter labelled β]*
 
-Eucli. ex Zamb. Theorema 7 Propositio 9
+## Eucli. ex Zamb. Theorema 7 Propositio 9
 
 **9** A lōgitudine cōmēsurabilibꝰ rectis lineis quadrata, adinuicē rationē habēt
 
-*[Catchword: quàm]*
+<!-- Catchword: quàm -->

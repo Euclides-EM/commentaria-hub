@@ -1,6 +1,6 @@
-# GEO. ELEMEN. EVCLIDIS
+<!-- # GEO. ELEMEN. EVCLIDIS -->
 
-*[Folio: 316]*
+<!-- Folio: 316 -->
 
 potentia incommensurabilis toti subsistens, & cum tota efficiens conflatū ex ipsarum quadratis medium, & quod bis sub ipsis medium, & insuper incommensurabile conflatum ex ijs quæ ab ipsis, ei quod bis sub ipsis.
 
@@ -26,4 +26,4 @@ Positis duabus lineis altera rationali, altera residuo, adiectaq̃ ipsi residuo 
 
 6 Quod si fuerit utraque rationali positæ in longitudine incommensurabilis, appellatur residuū sextum.
 
-*[Catchword: Ex Zam-]*
+<!-- Catchword: Ex Zam- -->

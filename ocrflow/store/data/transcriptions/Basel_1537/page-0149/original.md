@@ -1,8 +1,8 @@
-*[Folio: 238 — misprinted, should be 138]*
+<!-- Folio: 238 — misprinted, should be 138 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-Eucli.ex Zamb. Diffinitiones.
+## Eucli.ex Zamb. Diffinitiones.
 
 *[Margin: Κατὰ μίαν sigillatim.]*
 
@@ -20,7 +20,7 @@ THEON ex Zamb. Sit enim α β ad γ δ rationem habens datam,ueluti duplam aut t
 
 *[Figure: at right of the third passage, two groups of three vertical segments marked with ticks, labelled α and γ at the tops, one group with ε δ ζ and the other with β δ ζ at their feet]*
 
-Eucli ex Camp. Propositio 1.
+## Eucli.ex Camp. Propositio 1.
 
 ## 1
 
@@ -32,4 +32,4 @@ CAMPANVS. Sint duo parallelogramma a b c,d e f:æqualis altitudinis:dico esse pr
 
 *[Figure: two figures above the text: a rectangle divided by vertical lines, with k l a c f d n κ along the top and g h b c f e m along the base; beside it a horizontal line a d n with a fan of lines descending to a base labelled g h b c f e m]*
 
-*[Catchword: per]*
+<!-- Catchword: per -->

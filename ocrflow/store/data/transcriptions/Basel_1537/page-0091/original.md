@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 82]*
+<!-- Folio: 82 -->
 
 aut per inæqualia. Secet ergo primo per æqualia: eritq̃ per primam partem tertij huius, secās eam orthogonaliter. Ducatur itaq̃ linea f c: eritq̃ per 5 secundi, quod fit ex b e in e d cum quadrato e f: æquale quadrato lineæ f d: quare & quadrato lineæ f c: ergo per penultimā primi, & quadratis duarum linearum f e & e c. Dempto ergo utrinq̃ quadrato e f: erit quod fit ex b e in e d, æquale quadrato lineæ e c: & quia c e est æqualis a e, per 46 primi patet propositum. Quod si b d transiens per centrum, secat a c per inæqualia, à centro f ducatur f g perpendicularis ad a c: eritq̃ per secundam partem tertij huius, a g, æqualis g c: & ducatur linea f c. Eritq̃ per 5 secundi, quod fit ex b e in e d cum quadrato e f (& ideo per penultimā primi cū quadratis duarum linearum f g & g e, propter id quod angulus f g e est rectus) æquale quadrato lineæ d f, & ideo lineæ f c, propter quod per penultimam primi & quadratis duarum linearū f g & g c. Dempto ergo utrinq̃ quadrato lineæ f g, erit quod fit ex b e in e d cum quadrato lineæ g e, æquale quadrato lineæ g c: sed per 5 secundi, quod fit ex a e in e c cum quadrato lineæ g e: est æquale quadrato eiusdē g c. Dempto igitur utrinq̃ quadrato lineæ g e, erit quod fit ex b e in e d, æquale ei quod fit ex a e in e c, q̃d est propositum.
 

@@ -1,6 +1,6 @@
-*[Folio: 598]*
+<!-- Folio: 598 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 rentiā ad h uenit, id est in quo ipsa l h apparēs hemisphæriū permutat, hoc est ipsa k g. In quo igitur tempore k g, circūferentia apparens hemisphæriū permutat, in eodem & g d. Assumatur iam quoddam signū m, ut g d ipsi d m sit æqualis. Sitq̃ per quem inuehatur m, signū parallelus circulus m x n o. Aequalis igitur est d m ipsi k p. Et ipsæ d m, k p, à contactu æstiui tropici æque distant. In quo igitur tēpore d m circūferētia oritur in eodem ipsa p k occidit, hoc est ipsa h o occidit. Sed tempus quidē in quo d m oritur, idem est in quo m incipiēs ab ipso m ipsam m x, ambiens circūferentiā ad x uenit. Tempus autem in qno *[sic: qno for quo]* h o occidit, id est in quo o, incipiens ab n, ipsam n o, ambiens circūferentiam ad o uenit. Tempus igitur in quo m incipiens ab ipso m, ipsam m x, ambiēs circunferentiā ad x uenit, idem est tempori in quo ipsum n, incipiens ab n ipsam n o ambiens circūferentiam ad ipsum peruenit o. Cōmune apponatur tempus in quo x incipiens ab x ipsam x n, circūferentiā ambiēs ad ipsum n peruenit. Tempus igitur in quo m, incipiēs ab ipso m ipsam m n, circūferentiā ambiens ad ipsum n uenit, æquū est tempori in quo o incipiēs ab ipso x, ipsam x o ambiens circūferentiā ad ipsum peruenit o. Sed tempus quidem in quo m, incipiens ab ipso m ipsam m n, ambiens circūferentiam ad n uenit, id est in quo ipsa d m, circūferentia permutat apparēs hemisphæriū. At tempus in quo ipsum o incipiēs ab ipso x, ipsam x o ambiēs circūferentiā ad o uenit, id est in quo ipsa o h, hoc est ipsa k p, ꝑmutat apparens hemisphæriū. In quo igitur tēpore d m, permutat apparēs hemisphæriū. in eodem & k p, & in maiori tempore ipsa g d, permutat apparens hemisphæriū quàm d m. Sed in quo quidem tempore g d, permutat apparēs hemisphæriū. In eodem & g k, permutat apparēs hemisphæriū. In quo autem d m, in eodem & k p. In pluri ergo tempore g k, permutat apparēs hemisphæriū q̃ k p.
 
@@ -10,4 +10,4 @@ Aliter idem. Eisdem expositis assumatur e f, non maior existens quarta parte, es
 
 *[Figure: sphere; b, a across the top; g at the left, x at the right; e at the top centre; m, o in the middle; b at the left edge, l at the right edge; k, n below; f at the lower right; c, d at the bottom]*
 
-*[Catchword: cunferentia]*
+<!-- Catchword: cunferentia -->

@@ -1,6 +1,6 @@
-*[Folio: 186]*
+<!-- Folio: 186 -->
 
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
 Similiter quoq̃.
 
@@ -10,7 +10,7 @@ Vt si sint a,b,c, minimi in eadem proportione uel in diuersis, sintq̃ in eadem 
 
 *[Figure: dotted number lines beside the text: d········ e······ f···· / a···· b··· c·· / d········ e······· e···· [sic, the third label printed e for f] / a···· b··· c·· / g··· h·· k·]*
 
-Eucli. ex Zamb. — Theorema 19 — Propositio 21
+## Eucli. ex Zamb. — Theorema 19 — Propositio 21
 
 *[Margin: 21]*
 
@@ -22,7 +22,7 @@ THEON ex Zamberto. Sint enim minimi numeri eandem rationem habentium ipsis α,β
 
 Huic ex Zamberto propositioni respondet id quod supra, ad 19 addidit Campanus.
 
-Eucli. ex Zamb. — Theorema 20 — Propositio 22
+## Eucli. ex Zamb. — Theorema 20 — Propositio 22
 
 *[Margin: 22]* *[Margin: σύνδυο bini]*
 
@@ -32,7 +32,7 @@ THEON ex Zamberto. Sint numeri α,β,γ, & alij eisdem æquales numero δ,ε,ζ,
 
 *[Figure: dotted number lines beside the text: α······ / β···· / γ··· / δ············ / ε········· / ζ······]*
 
-Eucli. ex Camp. — Propositio 22
+## Eucli. ex Camp. — Propositio 22
 
 *[Margin: 22]*
 
@@ -40,4 +40,4 @@ Eucli. ex Camp. — Propositio 22
 
 *[Ornamental initial S]*
 
-*[Catchword: CAMPANVS]*
+<!-- Catchword: CAMPANVS -->

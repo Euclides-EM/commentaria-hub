@@ -1,6 +1,6 @@
-# PERSPECTIVA
+<!-- # PERSPECTIVA -->
 
-*[Folio: 531]*
+<!-- Folio: 531 -->
 
 ## Theorema quadragesimumsecundum.
 
@@ -26,4 +26,4 @@ Esto circulus a h, & suscipiatur in ipsius circūferentia signum, sitq̃ illud d
 
 *[Figure: large circle with e near the centre; above and to the right a quadrilateral with crossed lines, b at its top, f at the right, d below it, n within; a at the left of the quadrilateral, b at the lower left of the circle]*
 
-*[Signature: Y 2]* *[Catchword: e c, angu]*
+<!-- Signature: Y 2 --> <!-- Catchword: e c, angu -->

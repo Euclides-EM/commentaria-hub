@@ -1,4 +1,6 @@
-# EVCLIDIS MEGARENSIS *[Folio: 572]*
+<!-- # EVCLIDIS MEGARENSIS --> 
+
+<!-- Folio: 572 -->
 
 elementorum sicut c a ad d c, sic a f ad c e. Ratio autem ipsius a c ad c d, data est. Ratio igitur ipsius a f ad c e, data. Excitetur per duodecimam primi elementorum, ab ipso a in b c perpendicularis a g, & quoniam angulus a f c datus est, est autem & qui sub a g f, datus, & reliquus ergo qui sub g a f, datus est. Datur ergo a g f triangulū specie. Ratio igitur ipsius f a ad a g, data est, ipsius autē f a, a c, c e ratio data est. Quare & quod sub a g b c ad id quod sub b c, c e, ratio data est Eius autē quod sub a g, b c, ad id quod sub a b c, triangulum ratio est data, & eius quod sub b c, c e, ad a b c ratio est data. Est autem quod sub b c, c e, qua maius est quod ex utroque b a c eo quod ex b c. Qua igitur maius est quod ex utroque b a c eo quod ex d c, ea area ad triangulum rationē habet datam.
 
@@ -26,4 +28,4 @@ Si enim efficiemus in rectas lineas d a ipsi a c, sicut d a c, & per d ipsi d c,
 
 Esto recta linea d e, & ipsi quidem d e, ponatur d a, ipsi autem a c, ipsa a c, & ab ipso a ipsi d c per undecimam primi elementorum ad angulos excitetur rectos a b & ipsi a b æ
 
-*[Catchword: qualis]*
+<!-- Catchword: qualis -->

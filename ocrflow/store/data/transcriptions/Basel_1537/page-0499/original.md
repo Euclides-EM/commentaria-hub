@@ -1,6 +1,6 @@
-# 488 EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 488]*
+<!-- Folio: 488 -->
 
 Theorema 5 — Apparens 5
 

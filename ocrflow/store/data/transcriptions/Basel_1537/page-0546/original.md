@@ -1,6 +1,6 @@
-# PERSPECTIVA
+<!-- # PERSPECTIVA -->
 
-*[Folio: 535]*
+<!-- Folio: 535 -->
 
 præire putabitur, permutatis autem præcedens subsequi, & subsequens præcedere putabitur.
 
@@ -44,4 +44,4 @@ Ferantur bina signa a b, in parallelos rectas lineas ad b e, æqualiter æque ci
 
 *[Figure: d and a at the top left, b at the right, c at the left below; lines run down to f at the lower right, forming two triangles]*
 
-*[Signature: Y 4]* *[Catchword: Theorema]*
+<!-- Signature: Y 4 --> <!-- Catchword: Theorema -->

@@ -1,6 +1,6 @@
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 530]*
+<!-- Folio: 530 -->
 
 e, & c d, signa. Insuper ponatur ei, qui sub e f & f g, æquus qui sub l n, n o, auferaturq̃ ipsa e f, æqualis ipsi n o, describaturq̃ circum l o m, triangulū segmentū circuli cōprehēsum sub l o, o m, hoc est ipsum l o m. Erit iam qui ad o, signū angulus cōprehēsus sub l o m æquus ei qui sub g e h. Insuper ponatur ei qui sub e f g, æqualis qui sub l p, auferaturq̃ f, æqualis ipsi n p, connectanturq̃ ipsæ l p, p m, describaturq̃ circum ipsum triangulum segmentū circuli, erit iam angulus qui ad p, signum comprehensus sub l p, p m, æqualis. Quoniam igitur angulus x, angulo o, maior est, sed angulus x, āgulo s, est æqualis, & ad s per 21 primi elemēt. maior est eo qui ad o, extra enim triangulū est l s o, & qui ad x igitur eo qui ad o maior est, & qui ad x, ei qui sub c e d, & qui ad o, ei qui sub g e h, igitur per 4 suppositionē perspectiuæ ipsa g h, maior apparebit. Rursus angulus o h, est æqualis, & qui ad p, ei qui sub a e b: maior autem est angulus o, p, maior igitur apparebit per suppositionem 4 perspectiuæ g h, ipsa a b recta linea.
 
@@ -22,4 +22,4 @@ Esto enim rota cuius dimetientes sint d f, & b c. Igitur quando ab oculo in cent
 
 *[Figure: circle (the wheel) with two diameters crossing at the centre; b at top, d at right, f at left, b within, c below]*
 
-*[Catchword: Theorema]*
+<!-- Catchword: Theorema -->

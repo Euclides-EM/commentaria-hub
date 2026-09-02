@@ -32,14 +32,23 @@ func (c *OpenAIClient) Exec(model, prompt, attachmentPath string) (string, error
 }
 
 func (c *OpenAIClient) ExecWithLogLabel(model, prompt, attachmentPath string, logLabel string) (string, error) {
+	result, err := c.ExecResultWithLogLabel(model, prompt, attachmentPath, logLabel)
+	return result.Text, err
+}
+
+func (c *OpenAIClient) ExecResultWithLogLabel(model, prompt, attachmentPath string, logLabel string) (Result, error) {
+	return c.ExecPromptResultWithLogLabel(model, Prompt{Dynamic: prompt}, attachmentPath, logLabel)
+}
+
+func (c *OpenAIClient) ExecPromptResultWithLogLabel(model string, prompt Prompt, attachmentPath string, logLabel string) (Result, error) {
 	if strings.TrimSpace(c.openAIKey) == "" {
-		return "", fmt.Errorf("llm exec: openai api key is empty")
+		return Result{}, fmt.Errorf("llm exec: openai api key is empty")
 	}
 	if strings.TrimSpace(model) == "" {
-		return "", fmt.Errorf("llm exec: openai model is empty")
+		return Result{}, fmt.Errorf("llm exec: openai model is empty")
 	}
-	if strings.TrimSpace(prompt) == "" {
-		return "", fmt.Errorf("llm exec: prompt is empty")
+	if strings.TrimSpace(prompt.Static) == "" && strings.TrimSpace(prompt.Dynamic) == "" {
+		return Result{}, fmt.Errorf("llm exec: prompt is empty")
 	}
 
 	client := openai.NewClient(
@@ -53,9 +62,17 @@ func (c *OpenAIClient) ExecWithLogLabel(model, prompt, attachmentPath string, lo
 		payload["max_output_tokens"] = nil
 	}
 
-	input, err := buildInputPayload(prompt, attachmentPath)
+	explicitCaching := strings.TrimSpace(prompt.Static) != "" && supportsExplicitPromptCaching(model)
+	if strings.TrimSpace(prompt.CacheKey) != "" {
+		payload["prompt_cache_key"] = strings.TrimSpace(prompt.CacheKey)
+	}
+	if explicitCaching {
+		payload["prompt_cache_options"] = map[string]any{"mode": "explicit", "ttl": "30m"}
+	}
+
+	input, err := buildInputPayload(prompt, attachmentPath, explicitCaching)
 	if err != nil {
-		return "", err
+		return Result{}, err
 	}
 	payload["input"] = input
 
@@ -71,7 +88,7 @@ func (c *OpenAIClient) ExecWithLogLabel(model, prompt, attachmentPath string, lo
 	})
 	if err != nil {
 		log.Printf("debug:%s llm exec end provider=openai model=%s duration=%s attempts=%d error=true", logPrefix, model, time.Since(startedAt), attempts)
-		return "", fmt.Errorf("llm exec: openai responses api call failed after %s: %w", time.Since(startedAt), err)
+		return Result{}, fmt.Errorf("llm exec: openai responses api call failed after %s: %w", time.Since(startedAt), err)
 	}
 	log.Printf(
 		"debug:%s llm exec end provider=openai model=%s duration=%s attempts=%d tokens_input=%d tokens_cached=%d tokens_output=%d tokens_reasoning=%d tokens_total=%d",
@@ -85,49 +102,79 @@ func (c *OpenAIClient) ExecWithLogLabel(model, prompt, attachmentPath string, lo
 		resp.Usage.OutputTokensDetails.ReasoningTokens,
 		resp.Usage.TotalTokens,
 	)
-	return resp.OutputText(), nil
+	return Result{
+		Text: resp.OutputText(),
+		Usage: Usage{
+			InputTokens:           resp.Usage.InputTokens,
+			CachedInputTokens:     resp.Usage.InputTokensDetails.CachedTokens,
+			CacheMetricsAvailable: true,
+			OutputTokens:          resp.Usage.OutputTokens,
+			ReasoningTokens:       resp.Usage.OutputTokensDetails.ReasoningTokens,
+			TotalTokens:           resp.Usage.TotalTokens,
+		},
+	}, nil
 }
 
 func NewOpenAIClient(openAIKey string) *OpenAIClient {
 	return &OpenAIClient{openAIKey: openAIKey}
 }
 
-func buildInputPayload(prompt string, attachmentPath string) (any, error) {
-	if strings.TrimSpace(attachmentPath) == "" {
-		return prompt, nil
+func supportsExplicitPromptCaching(model string) bool {
+	normalized := strings.ToLower(strings.TrimSpace(model))
+	return normalized == "gpt-5.6" || strings.HasPrefix(normalized, "gpt-5.6-")
+}
+
+func buildInputPayload(prompt Prompt, attachmentPath string, explicitCaching bool) (any, error) {
+	if strings.TrimSpace(attachmentPath) == "" && strings.TrimSpace(prompt.Static) == "" {
+		return prompt.Dynamic, nil
 	}
 
-	fileData, err := os.ReadFile(attachmentPath)
-	if err != nil {
-		return nil, fmt.Errorf("llm exec: read attachment %s: %w", attachmentPath, err)
-	}
-	mimeType := mime.TypeByExtension(filepath.Ext(attachmentPath))
-	if mimeType == "" {
-		mimeType = http.DetectContentType(fileData)
-	}
-	encoded := base64.StdEncoding.EncodeToString(fileData)
-	dataURL := fmt.Sprintf("data:%s;base64,%s", mimeType, encoded)
-	attachment := map[string]any{
-		"type":      "input_file",
-		"filename":  filepath.Base(attachmentPath),
-		"file_data": dataURL,
-	}
-	if strings.HasPrefix(mimeType, "image/") {
-		attachment = map[string]any{
-			"type":      "input_image",
-			"image_url": dataURL,
+	messages := make([]map[string]any, 0, 2)
+	if strings.TrimSpace(prompt.Static) != "" {
+		staticBlock := map[string]any{
+			"type": "input_text",
+			"text": prompt.Static,
 		}
+		if explicitCaching {
+			staticBlock["prompt_cache_breakpoint"] = map[string]any{"mode": "explicit"}
+		}
+		messages = append(messages, map[string]any{
+			"role":    "developer",
+			"content": []map[string]any{staticBlock},
+		})
 	}
-	return []map[string]any{
-		{
-			"role": "user",
-			"content": []map[string]any{
-				attachment,
-				{
-					"type": "input_text",
-					"text": prompt,
-				},
-			},
-		},
-	}, nil
+
+	dynamicContent := make([]map[string]any, 0, 2)
+	if strings.TrimSpace(prompt.Dynamic) != "" {
+		dynamicContent = append(dynamicContent, map[string]any{
+			"type": "input_text",
+			"text": prompt.Dynamic,
+		})
+	}
+	if strings.TrimSpace(attachmentPath) != "" {
+		fileData, err := os.ReadFile(attachmentPath)
+		if err != nil {
+			return nil, fmt.Errorf("llm exec: read attachment %s: %w", attachmentPath, err)
+		}
+		mimeType := mime.TypeByExtension(filepath.Ext(attachmentPath))
+		if mimeType == "" {
+			mimeType = http.DetectContentType(fileData)
+		}
+		encoded := base64.StdEncoding.EncodeToString(fileData)
+		dataURL := fmt.Sprintf("data:%s;base64,%s", mimeType, encoded)
+		attachment := map[string]any{
+			"type":      "input_file",
+			"filename":  filepath.Base(attachmentPath),
+			"file_data": dataURL,
+		}
+		if strings.HasPrefix(mimeType, "image/") {
+			attachment = map[string]any{
+				"type":      "input_image",
+				"image_url": dataURL,
+			}
+		}
+		dynamicContent = append(dynamicContent, attachment)
+	}
+	messages = append(messages, map[string]any{"role": "user", "content": dynamicContent})
+	return messages, nil
 }

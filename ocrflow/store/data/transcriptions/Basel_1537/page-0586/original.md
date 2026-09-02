@@ -1,4 +1,6 @@
-# DATA *[Folio: 573]*
+<!-- # DATA -->
+
+<!-- Folio: 573 -->
 
 qualis esto d c. Quoniam igitur ipsius d a c ad c a, ratio data est, sicut autem d a c, ad c a, sic quod sub d a c, a b, ad id quod sub c a, a b, & eius quod sub d a c, a b ad id quod sub c a, a b, igitur ratio est data: est autem & eius quod sub c a, a b ad a b c, triangulum ratio data per 66 theorema, & quod sub d a c, a b, igitur ad id quod ex a b c triangulum ratio est data per 8 theorema.
 
@@ -22,4 +24,4 @@ Bina siquidem parallelogrāma a b, c d adinuicem rationem habeant datam, habeat 
 
 *[Figure: two rectangles side by side: the left with c at its top left and a, f at its base; the right divided by a horizontal line, with k and a at its top, b at its left side, e at its right side, and g, b at its base]*
 
-*[Catchword: ipsi]*
+<!-- Catchword: ipsi -->

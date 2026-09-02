@@ -1,10 +1,10 @@
-*[Folio: 142]*
+<!-- Folio: 142 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ε γ, angulo:anguli igitur α β γ & δ ε γ,duobus rectis sunt minores . Igitur β α & ε δ, productæ,in congressum ueniunt . Congrediantur conueniantqꝫ in ζ:& quoniam per hypothesin angulus δ γ ε angulo α β γ est æqualis:parallelus est ( per 28 primi ) β ζ ipsi γ δ.Rursus quoniam per hypothesin,angulus α γ β æqualis est angulo δ ε γ: parallelus est (per 28 primi) α γ ipsi ζ ε. Parallelogrammum igitur est,ζ α δ γ.Aequalis igitur est ζ α,ipsi δ γ, & α γ ipsi ζ δ.Et quoniam (per 2 sexti) trianguli β ζ ε ad latus unum ζ ε parallelus acta est α γ : est igitur sicut β α ad α ζ, sic β γ ad γ ε.Aequalis autem est α ζ ipsi γ δ.Sicut igitur (per 11 quinti,β α ad γ δ,sic β γ ad γ ε : & uicißim ( per 16 quinti)sicut α β ad β γ,sic δ γ ad γ ε.Rursus quoniam parallelus est γ δ ipsi β ζ:est igitur(per 2 sexti)sicut β γ ad γ ε, sic ζ δ ad δ ε.Aequalis autem est ζ δ ipsi α γ.Sicut igitur β γ ad γ ε, sic α γ ad δ ε:uicißim igitur (per 16 quinti) sicut β γ ad γ α,sic γ ε ad ε δ.Quoniam igitur demonstratum est quod sicut α β ad β γ,sic δ γ ad γ ε:sicut autem β γ ad γ α, sic γ ε ad ε δ:ex æquali igitur (per 22 quinti)sicut β α ad α γ,sic γ δ ad δ ε. Proinde æquiangulorum triangulorū proportionalia sunt:quæ circū æquales angulos sunt latera:eiusdemqꝫ rationis:quæ æqualibus angulis latera subtenduntur,quod fuit demonstrandum.
 
-Eucli.ex Camp. Propositio 5.
+## Eucli.ex Camp. Propositio 5.
 
 ## 5
 
@@ -16,7 +16,7 @@ CAMPANVS. Hæc est conuersa prioris. Nec fecit ex ea & præmissa unam conclusion
 
 *[Figure: two figures: a triangle with apex a and base b c; and two triangles sharing a horizontal side e f, with d at the top and g at the bottom]*
 
-Eucli.ex Zamb. Theorema 5. Propositio 5.
+## Eucli.ex Zamb. Theorema 5. Propositio 5.
 
 ## 5
 

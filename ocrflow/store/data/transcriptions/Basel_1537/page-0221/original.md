@@ -1,6 +1,6 @@
-*[Folio: 210]*
+<!-- Folio: 210 -->
 
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
 (per 17 septimi,) sicut ζ ad η, sic est κ ad β, sicut autem ζ ad η, sic est γ ad δ, & sicut igitur (per 11 quinti,) γ ad δ, sic κ, ad β. Patuit aūt quod & sicut γ ad δ, sic est α ad θ, & θ, ad κ, & κ ad β. Ipsorum igitur α,β, bini medij proportionales sunt, hoc est θ,λ. Dico iam quod & α ad β triplam rationem habet, quàm γ ad δ. Quoniā enim quatuor numeri proportionales sunt α,θ,κ,β. igitur (per 10 diffinitionem quinti,) α ad β, triplam habet rationem quàm α ad θ, sicut autem est α, ad θ, sic est γ ad δ. Igitur α ad β triplam rationem habet quàm γ ad δ. Quod oportuit demonstrasse.
 
@@ -28,4 +28,4 @@ THEON ex Zamb. Sint quotlibet numeri cōtinue proportiōales α,β,γ, sicut α 
 
 *[Figure, right of the proof: numbers shown as rows of dots and as ruled lines with values written vertically at their right ends: α (2 dots), β (4 dots), γ (8 dots); δ (4 dots), λ (8 dots), ε (16 dots); ξ 32, ζ 64 (lines); η (8 dots), μ (16 dots); ν 32, θ 64, ο 128, π 256, κ 512 (lines)]*
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

@@ -1,4 +1,6 @@
-# *[Folio: 336]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 336 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 CAMPANVS Hæc quoq́; sicut præmissa probatur. Erit enim tota a b medialis, b autē rationalis, & tūc dico quod in a reliquū potest. aut est residuum mediale primum, aut cū rationali componens mediale. Cū enim c g æqualis sit a b, erit per 20 linea d g rationalis in potentia tantum, & cū sit f g æqualis b, erit per 16 linea e g rationalis in longitudine, ergo à diffinitione erit linea d e, residuū secundum aut quintum, quare per 87 & 90 latus tetragonicum superficiei c e, & ideo superficiei a, est residuum mediale primū, aut cum rationali componēs mediale. Quod est propositum nostrū.
 
@@ -34,4 +36,4 @@ CAMPANVS. Si a duarum præmissarum demonstratione non deuias, cōcludes sine dif
 
 ## A medio, medio ablato incommensurabili toti, reliquæ duæ irrationales fiunt, uel mediæ apotomæ secunda, uel cum medio medium efficiens.
 
-*[Catchword: THEON]*
+<!-- Catchword: THEON -->

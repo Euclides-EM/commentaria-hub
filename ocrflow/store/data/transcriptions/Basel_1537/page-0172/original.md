@@ -1,6 +1,6 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 161]*
+<!-- Folio: 161 -->
 
 æqualia, erit gnomo constans ex tribus parallelogrammis quæ sunt c f, f b, & f d, æqualis parallelogrāmo a f, quare parallelogrammū c d, est maius parallelogrāmo a f, in parallelogrammo e f, quod est propositū. Idē etiā esset si superficies a f fieret altior superficie c d: ut uidere potes in secūda figura in qua etiā per primā huius a g: est æquale g b: demptis itaq́ȝ utrinq́ȝ duobus supplemētis superficiei f b: excedet parallelogrammum c d, parallelogrammū a f in parallelogrammo f e.
 
@@ -34,4 +34,4 @@ CAMPANVS Sit assignata linea a b, & propositus triangulus c, propositumq́ȝ par
 
 *[Figure: at top a horizontal line from a to b; beneath it a rectangle containing d and a triangle containing c; below, a large square figure with g, K, l, f along the top, n and p inside on the horizontal mid line, o at the right side, a small upright rectangle h at the far right, and a, c, m, b along the bottom; vertical lines through K–c and l–m and a diagonal from K down through p to b]*
 
-*[Signature: o 3]* *[Catchword: dam]*
+<!-- Signature: o 3 --> <!-- Catchword: dam -->

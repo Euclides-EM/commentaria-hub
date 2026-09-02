@@ -1,6 +1,6 @@
-# 578 EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 578]*
+<!-- Folio: 578 -->
 
 tionem datam habuerint, & unumquoduis unius latus speciei ad quoduis alterius rationem datam habebit.
 
@@ -24,4 +24,4 @@ Sint bina triãgula a b c, h f g, æquos habẽtia angulos qui ad f b, excitetur
 
 *[Figure: above, a triangle with apex a, base corners c and b, interior point d on the base with lines from a; below, a circle circumscribing a quadrilateral figure with labels l (upper left), f (upper right), g (lower left), m, K, b (lower right), with crossing diagonals]*
 
-*[Catchword: per]*
+<!-- Catchword: per -->

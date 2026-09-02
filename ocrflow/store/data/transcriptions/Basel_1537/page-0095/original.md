@@ -1,4 +1,4 @@
-*[Folio: 86]*
+<!-- Folio: 86 -->
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVARTVS
 
@@ -28,4 +28,4 @@ INtra datum circulum, datæ lineæ rectæ quæ diametro minime maior existat, æ
 
 CAMPANVS. Sit linea data a b, circulúsq̃ datus c d e, cuius diameter c d, qua non est maior linea a b, uolo intra datum circulum, coaptare lineam æqualem a b, quæ si fuerit æqualis diametro, constat propositum. Si autem minor, ex diametro sumatur d f, ei æqualis, & super punctum d, secundum
 
-*[Catchword: quanti]*
+<!-- Catchword: quanti -->

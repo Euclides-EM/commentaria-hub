@@ -1,10 +1,10 @@
-# GEO. ELEMEN. EVCLIDIS
+<!-- # GEO. ELEMEN. EVCLIDIS -->
 
-*[Folio: 344]*
+<!-- Folio: 344 -->
 
 retur ζ η,latitudinē efficiēs ζ θ.Quoniā igitur cōmēsurabilis est α ipsi β.cōmēsurabile igitur est id quod ex α ei quod ex β.Sed ei quidē quod ex α,æquū est γ ε,ei uero quod ex β,æquū est ζ η.Igitur γ ε,ipsi ζ η,est cōmēsurabile.Cōmēsurabilis igitur est γ ζ,ipsi ζ θ,longitudine.Quinta autem apotome est γ ζ. Apotome igitur quinta est, & ζ θ. Rationalis autē ζ ε,Si uero areola cōprehēdatur sub rationali & apotome quinta,quæ areolā potest cū rationali mediū totum efficiēs est(per 95 decimi.)Potest aūt ipsum ζ η,ipsa β.Igitur β.cū rationali mediū totū efficiēs est. Quod erat ostendendum.
 
-Eucli.ex Zamb. Theorema 94 Propositio 118
+## Eucli.ex Zamb. Theorema 94 Propositio 118
 
 *[Margin: 118]*
 
@@ -26,4 +26,4 @@ Sit quadratum a b c d,dimetiēs uero ipsius sit a c.Manifestū est quod isoceles
 
 *[Figure, right: a square with corners a (top left), d (top right), b (bottom left), c (bottom right), the diagonal drawn from a to c; the top side marked 4, the right side marked 4, and 32 written inside above the diagonal]*
 
-*[Catchword: dratus]*
+<!-- Catchword: dratus -->

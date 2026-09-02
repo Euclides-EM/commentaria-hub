@@ -1,6 +1,6 @@
-# GEO. ELEMEN. EVCLIDIS
+<!-- # GEO. ELEMEN. EVCLIDIS -->
 
-*[Folio: 348]*
+<!-- Folio: 348 -->
 
 13 Similes sunt figuræ corporeæ rotundæ, siue sint colũnæ siue earũ pyramides, quarũ axes diametris suarum basium sunt proportionales.
 
@@ -20,4 +20,4 @@ Solidus angulus, est qui sub pluribus duobus planis angulis comprehenditur non e
 
 16 Conus, est quando rectanguli trianguli manente uno eorũ quæ circa rectum angulum latere, circũductũ triangulum in idem rursus unde sumpserat exordium circunuoluitur, ea assumpta figura. Et si manens
 
-*[Catchword: recta]*
+<!-- Catchword: recta -->

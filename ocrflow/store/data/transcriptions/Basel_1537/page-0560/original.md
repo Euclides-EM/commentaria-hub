@@ -1,6 +1,6 @@
-# DATA
+<!-- # DATA -->
 
-*[Folio: 547]*
+<!-- Folio: 547 -->
 
 ## Theorema 8 — Propositio 8
 
@@ -38,4 +38,4 @@ Rursus iam a c, ipsa c b, dato maior esto quàm in ratiōe. Dico quod & reliqua 
 
 *[Figure: one horizontal line segment with points c, e, b, d, a]*
 
-*[Signature: Z 4]* *[Catchword: igitur]*
+<!-- Signature: Z 4 --> <!-- Catchword: igitur -->

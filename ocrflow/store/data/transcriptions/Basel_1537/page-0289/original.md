@@ -1,6 +1,6 @@
-*[Folio: 278]*
+<!-- Folio: 278 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 linea erit irrationalis diceturq́ⳓ bimediale secnndum *[sic: secundum]*.
 
@@ -16,4 +16,4 @@ THEON ex Zamb. Componantur enim binæ mediæ potentia tantum commensurabiles α 
 
 *[Figure: line α γ divided at β, labelled above: α Re. 2 β Re. 6 γ; below it, a rectangle divided by a vertical line into two compartments; along the top δ, θ, η; along the bottom ε, κ, ζ]*
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

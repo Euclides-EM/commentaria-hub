@@ -1,4 +1,4 @@
-*[Folio: 200]*
+<!-- Folio: 200 -->
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS.
 
@@ -8,9 +8,9 @@ Ex Campano. — *Diffinitiones*
 
 LAtera numerorum dicuntur,quorum multiplicatione numeri producuntur. 2 Superficialis appellatur numerus,qui sub duobus lateribus continerur. 3 Solidus uero, qui sub tribus,ex quorum continua multiplicatione habet procreari. 4 Quadratus,est numerus superficialis æqualibus lateribus consistens. 5 Cubus,est solidus æqualibus consistens lateribus. 6 Similes dicuntur numeri superficiales siue solidi,quorū latera sunt proportionalia.
 
-Eucli.ex Camp. — Propositio 1
+## Eucli.ex Camp. — Propositio 1
 
-## 1 SI numerotum quotlibet continuæ proportionalitatis duo extremi fuerint contra se primi,eos omnes secundum suam proportionem minimos esse necesse est.
+1 SI numerotum quotlibet continuæ proportionalitatis duo extremi fuerint contra se primi,eos omnes secundum suam proportionem minimos esse necesse est.
 
 *[Woodcut: decorated initial S with figures]*
 
@@ -18,9 +18,9 @@ CAMPANVS. Sint continue proportionales a,b,c,duoque extremi qui sunt a,c,sint co
 
 *[Figure: dotted number lines beside the text: a (4 dots), b (6 dots), c (9 dots); below: d (3 dots), e (5 dots), f (8 dots)]*
 
-Eucli.ex Zamb. — Theorema 1 — Propositio 1
+## Eucli.ex Zamb. — Theorema 1 — Propositio 1
 
-## 1 SI fuerint quotcunque numeri continue proportionales extremi uero ipsorū primi adinuicem fuerint,minimi sunt eādem rationem habentium eis.
+1 SI fuerint quotcunque numeri continue proportionales extremi uero ipsorū primi adinuicem fuerint,minimi sunt eādem rationem habentium eis.
 
 *[Woodcut: decorated initial S with foliate dragon]*
 
@@ -28,8 +28,8 @@ THEON ex Zamberto. *Sint quotcunque numeri continue proportionales α,β,γ,δ,e
 
 *[Figure: dotted number lines beside the Theon proof, labelled α, β, γ, δ (of increasing length) and ε, ζ, η, θ (of increasing length, each shorter than the corresponding line above)]*
 
-Eucli.ex Camp. — Propositio 2
+## Eucli.ex Camp. — Propositio 2
 
-## 2 NVmeros quotlibet continuæ proportionalitatis, secundum proportionem datam minimos,inuenire,
+2 NVmeros quotlibet continuæ proportionalitatis, secundum proportionem datam minimos,inuenire,
 
 *[Woodcut: decorated initial N with figures]*

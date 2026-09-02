@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 39]*
+<!-- Folio: 39 -->
 
 perpendicularem super lineam b c, quam pono æqualem a b, & produco lineam d c, erit per præcedentem, quadratum d c æquale duobus quadratis duarum linearum d b & b c, & quia b d posita est æqualis b a, erunt per communem scientiam quæ est linearum æqualium æqualia esse quadrata, quadrata duarum linearum a b & b d æqualia: quapropter erit quadratum d c, æquale quadrato a c, ergo per aliam cōmunem scientiam quæ est conuersa prioris, scilicet, lineas, quarum quadrata sunt æqualia, esse æquales, erit d c æqualis a c, quare per 8 angulus b trianguli a b c, est rectus, quod est propositum.
 
@@ -24,6 +24,6 @@ Proponantur ergo duo quadrata, scilicet, a b & c d, & sit propositum producere g
 
 *[Figure: square a b with its base produced through f and c to e; lines drawn from a to c and from a to e; beside it, the separate square c d with points f and d marked]*
 
-*[Signature: d 2]* *[Catchword: EVCLIDIS]*
+<!-- Signature: d 2 --> <!-- Catchword: EVCLIDIS -->
 
 ## LIBRI PRIMI FINIS.

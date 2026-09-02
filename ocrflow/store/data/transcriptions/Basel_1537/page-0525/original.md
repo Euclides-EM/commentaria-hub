@@ -1,6 +1,6 @@
-*[Folio: 514]*
+<!-- Folio: 514 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 Esto cauum speculum a c d, dimetiens autem sit a d cētrum sit k, & quæ ad rectos angulos, K c. secetur per 10 primi elemētorum bifariā in p, super e a uero ad angulos rectos esto e p f, & oculi intra diametrum a d & e f, sint b h, in parallelis e f, b h, æque distantes ipsi K c, uisus uero esto b c refractus in h: æquos angulos ad circunferentiā, quippe quoniam f e, ipsi b h parallelus est, & rursus n h, ipsi æqualis, & connexæ k b, k h, extēdantur, extendatur autem c b in q, & quoniam b c maior est ipsa b k maior est angulus r angulo i. Quare & qui sub h b k, maior est eo qui sub b h k hoc est eo qui sub h b k, igitur b c ipsi K h, non concurrit. Igitur ipse h non spectabitur: propter congressum namque ipsorum b c, k h, spectatur.
 
@@ -26,4 +26,4 @@ Esto, inquam, oculi b c, cētrum autem sit f. ipsius speculi: & ipsi diametro ad
 
 *[Figure: semicircle with d at the top; within it b and l at the upper left and right, e and K below them; beneath, a large triangle with f inside, its apex lines running to c at the right, a at the bottom centre, m at the lower left and e at the lower right]*
 
-*[Catchword: crum]*
+<!-- Catchword: crum -->

@@ -1,6 +1,6 @@
-# LIBER DVODECIMVS
+<!-- # LIBER DVODECIMVS -->
 
-*[Folio: 391]*
+<!-- Folio: 391 -->
 
 est sicut σ area ad ε ζ η θ circulum, sic est α β γ δ circulus ad τ aream. Maior autem est σ area ipso ε ζ η θ circulo, maior igitur est & α β γ δ circulus, ipsa area τ, quare est sicut σ area ad α β γ δ circulum, sic est ε ζ η θ circulus ad minorem aliquam aream ipso α β γ δ circulo, quod oportuit demonstrasse.
 
@@ -22,4 +22,4 @@ THEON ex Zamb. Sit pyramis cuius basis quidem sit triangulū α β γ, fastigium
 
 *[Figure: pyramid α β γ δ drawn as large triangle — α at apex, β at bottom left, ζ at bottom middle, γ at bottom right, with small marks on the sides (ε, η) and an inner network of lines through the midpoints δ, θ, κ, λ showing the two pyramids and two prisms]*
 
-*[Signature: K 4]* *[Catchword: rectæ]*
+<!-- Signature: K 4 --> <!-- Catchword: rectæ -->

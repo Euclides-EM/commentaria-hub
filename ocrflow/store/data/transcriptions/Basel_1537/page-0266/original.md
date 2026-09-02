@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 255]*
+<!-- Folio: 255 -->
 
 rabilis,Quoniam enim cōmensurabilis est α ipsi γ,igitur(per 5 decimi,)α ad γ,habet rationem quam numerus ad numerum,habeat quam δ ad ε.Rursus quoniam commensurabilis est γ ipsi β,igitur(per eandem γ ad β habet rationem quam numerus ad numerum,habeat autē quam ζ ad η.Et ratiōibus datis quibuscunque,ea scilicet quam habet δ ad ε,& ζ ad η, capiātur(per 4 octaui numeri continue proportionales in datis rationibus,sintq̃ θ,κ,λ.sicut α *[sic: for δ]* ad ε sic θ κ *[sic: for θ ad κ]*,sicutq̃ ζ ad η.sic κ ad λ,Quoniā igitur est sicut α ad γ sic δ ad ε,sed sicut δ ad ε sic θ ad κ,est igitur(per 11 quinti, sicut α ad γ,sic est θ ad κ.Rursus quoniam est sicut γ ad β,sic ζ ad η, sed sicut ζ ad η sic κ ad λ, & sicut igitur γ ad β,sic κ ad λ,est autem & sicut α ad γ,sic est θ ad κ,ex æquali igitur (per 12 quinti,)est sicut α ad β,sic est θ ad λ.Igitur α ad β rationem habet,quam numerus θ ad numerum λ,Commēsurabilis est igitur(per 6 decimi,)α ipsi β.Quæ eidem igitur magnitudini commensurabiles,& adinuicem sunt commensurabiles.Quod oportuit demonstrasse.
 
@@ -40,4 +40,4 @@ Si quatuor rectæ lineæ proportionales fuerint, potueritq̃ prima secunda maius
 
 THEON ex Zamb. Sint quatuor rectæ lineæ proportionales β,β,γ,δ *[sic: for α,β,γ,δ]*,sicut α ad β,sic γ ad δ,& α quidē, ipsa β, maius possit eo quod fit ex ε,γ uero,ipsa δ,eo quod fit ex ζ. Dico quod si α ipsi ε est commensurabilis, commen
 
-*[Signature: y 2]* *[Catchword: sura]*
+<!-- Signature: y 2 --> <!-- Catchword: sura -->

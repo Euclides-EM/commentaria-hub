@@ -1,6 +1,6 @@
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 492]*
+<!-- Folio: 492 -->
 
 tempore in quibus semicirculi & circunferentia quæ ex opposito oriuntur, & si zodiaci circuli bini semicirculi æquali tempore communem quandam habentes circunferentiam orti fuerint, & quæ ex opposito circūferentiæ æqualibus temporibus orientur.
 
@@ -26,4 +26,4 @@ Sit horizon circulus a b c d, tropicus autem æstiuus sit a c, hybernus autem b 
 
 Semicirculi qui cum cancro æquales circunferentiæ inæqualibus temporibus occidūt, & in maiori quæ sūt
 
-*[Catchword: ad]*
+<!-- Catchword: ad -->

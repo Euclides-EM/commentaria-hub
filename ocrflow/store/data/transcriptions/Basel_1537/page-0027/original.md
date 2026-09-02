@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 18]*
+<!-- Folio: 18 -->
 
 tionē) angulo ζ ε γ est æqualis, circa uerticem enim. Basis igitur α β, basi ζ γ (per 4 propositionē) est æqualis, & triangulū α β ε, triangulo ζ ε γ est æquale, & reliqui reliquis angulis alter alteri sunt æquales, sub quibus æqualia latera subtenduntur. Angulus igitur β α ε, angulo ε γ ζ est æqualis. At angulus α γ δ, angulo ε γ ζ est maior: maior igitur est angulus α γ δ, angulo β α ε. Similiter quoq̃, si secetur bifaria linea β γ, ostendetur & angulus β γ η, hoc est α γ δ, maior angulo α β γ. Omnis igitur triāguli uno latere producto, exterior angulus utroq̃ interiore & ex opposito maior est, quod fuerat ostendendū.
 
@@ -64,4 +64,4 @@ THEON ex Zamb. Sit triangulū α β γ, maiorem habens angulum α β γ angulo �
 
 *[Figure: triangle with labels α at top right, β at bottom left, γ at bottom right]*
 
-*[Catchword: α γ latere]*
+<!-- Catchword: α γ latere -->

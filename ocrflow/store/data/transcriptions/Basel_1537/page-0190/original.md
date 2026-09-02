@@ -1,6 +1,6 @@
-# LIBER SEPTIMVS.
+<!-- # LIBER SEPTIMVS. -->
 
-*[Folio: 179]*
+<!-- Folio: 179 -->
 
 thesin & per conuersionem diffinitionls, c tota pars aut partes d, quota uel quotæ est a, b, per 7 igitur uel 8, erit e tota pars aut partes f, quota uel quotæ est a, b, per diffinitionē igitur erit proportio una, quod est propositum. Quod si a sit maior b, erit per primā partē præmissæ quota pars aut p̄tes b, a, tota uel totæ d, c, quare per 7 uel 8, tota uel totæ erit f, e, itaq̃ per secundā partem præmissæ erit e ad f, sicut a ad b, quare constat propositū.
 
@@ -36,4 +36,4 @@ THEON ex Zamb. Sint quotcunq̃ numeri proportionales α, β, γ, δ, sicut α ad
 
 *[Figure: dot-rows in the right margin: d (2 dots), c (3 dots), b (6 dots), a (9 dots)]*
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

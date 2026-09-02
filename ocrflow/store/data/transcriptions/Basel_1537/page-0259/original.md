@@ -1,10 +1,10 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 248]*
+<!-- Folio: 248 -->
 
 conceptionem mensurabit a, igitur a & b communicantes: mensurabat enim & b, quod est propositum.
 
-Eucli. ex Zamb Theorema 4 Propositio 6
+## Eucli. ex Zamb Theorema 4 Propositio 6
 
 **6** Si binæ magnitudines adinuicem rationem habuerint quam numerus ad numerum, commensurabiles erunt ipsæ magnitudines.
 
@@ -22,7 +22,7 @@ ALITER idem ostendere. Binæ enim magnitudines α, β, adinuicem rationem habean
 
 *[Figure: at the left of the ALITER proof, three vertical ticked lines of decreasing height, two columns of square dots and a single dot, labelled below α, β, ε, γ, δ]*
 
-Eucli. ex Camp. Propositio 6
+## Eucli. ex Camp. Propositio 6
 
 **6** OMnium duarū superficierum quadratarum quarum latera in longitudine cōmunicant, est proportio unius ad alteram, tanquā numeri quadrati ad numerum quadratum. Si uero fuerit proportio superficiei quadratæ ad superficiē quadratam tanquā proportio numeri quadrati ad numerū quadratū, erūt latera earū in lōgitudine cōmunicantia. Quod si fuerit proportio superficiei quadratæ ad superficiē quadratā, nō uelut numeri quadrati ad numerum quadratum, latera earum erunt in longitudine incommensurabilia.
 
@@ -34,4 +34,4 @@ CAMPANVS. Sint a & b, duæ lineæ quadratæ, quarū quadrata sint c & d. Dico qu
 
 *[Figure: rows of dots at the right — g with sixteen dots and h with four dots; e with four dots and f with two dots]*
 
-*[Catchword: ui]*
+<!-- Catchword: ui -->

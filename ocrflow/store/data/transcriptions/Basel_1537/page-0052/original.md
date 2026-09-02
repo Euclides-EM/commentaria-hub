@@ -1,6 +1,6 @@
-# LIBER SECVNDVS.
+<!-- # LIBER SECVNDVS. -->
 
-*[Folio: 43]*
+<!-- Folio: 43 -->
 
 *[Margin: 4]* Si recta linea secetur utcunq́ꝫ, quadratū quod fit ex tota, æquū est quadratis quæ fiunt ex segmentis, & ei quod bis sub segmentis cōprehenditur rectangulo.
 
@@ -20,4 +20,4 @@ CAMPANVS. Sit linea a b diuisa per æqualia in puncto c, & per inæqualia in pun
 
 *[Figure: base line a c d b; square c b f e above segment c b, with e over c, f over b, and g on top side e f above d; diagonal e b; vertical line d g cutting the diagonal at h; horizontal line K l h m through h, K above a, l on c e, m on b f]*
 
-*[Signature: d 4]* *[Catchword: æquale]*
+<!-- Signature: d 4 --> <!-- Catchword: æquale -->

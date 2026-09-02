@@ -1,6 +1,6 @@
-# LIBER TERTIVS
+<!-- # LIBER TERTIVS -->
 
-*[Folio: 85]*
+<!-- Folio: 85 -->
 
 æquum ei quod ex ductu applicatæ in seipsam fit, erit linea applicata ex necessitate circulum contingens.
 
@@ -20,4 +20,4 @@ THEON ex Zamberio. Extra circulum igitur α β γ, sumatur signū sitq̃ illud �
 
 TERTII LIBRI FINIS
 
-*[Signature: h]*
+<!-- Signature: h -->

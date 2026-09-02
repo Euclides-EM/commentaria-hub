@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 132]*
+<!-- Folio: 132 -->
 
 CAMPANVS Demonstrat æquam proportionalitatem in quantitatibus duorū ordinum indirecte siue peruersim proportionatis. Nec est necesse quod demonstretur, nisi cum in utroque quorum ordinum sunt tantum tres quantitates, per hoc enim euidenter sequitur quæcunque ponantur in utroque ordine, sicut in præmissa de directe proportionatis demōstratum est. Sint igitur tres quantitates a b e, sumanturq̃ aliæ tres quæ sint f c d, & sit proportio a ad b, sicut c ad d, & b ad e, sicut f ad c, dico quod erit a ad e, sicut f ad d. Sumam enim g ad a. & h ad c. & k ad f, æque multlplicia. itemq̃ l ad b, & m ad e, & n ad d, æque eritq̃ per 4, d, ad l, sicut h ad n, & per 25, l ad m, sicut k ad h, quare per 21, si g addit super m, & k cadit super n: & si minuit, minuit: & si æquat, æquat: ergo per diffinitionem incōtinuæ proportionalitatis, proportio a ad e, est sicut f ad d, quod est propositum.
 
@@ -22,4 +22,4 @@ THEON ex Zamberto. Sint tres magnitudines α β γ, & aliæ eisdem æquales nume
 
 ## Eucli. ex Camp. Propositio 24
 
-*[Catchword: Si fue]*
+<!-- Catchword: Si fue -->

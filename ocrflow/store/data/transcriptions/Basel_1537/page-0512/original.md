@@ -1,6 +1,6 @@
 ## PHAENOMENA
 
-*[Folio: 501]*
+<!-- Folio: 501 -->
 
 Sit in mundo horizon a b c d, æstiuus quidem tropicus sit a d, hybernus uero tropicus sit b c, zodiacus porro circulus positionē habeat d e b f, sitq̃ d e b semicirculus qui cum cancro sub terra, at b f d sit qui cum capricorno super terram. Sintq̃ orientales partes d, occiduæ uero sint b, assumanturq̃ binæ æquales & ex opposito circūferentiæ d e, b f. Dico q̄ in quo tēpore d e permutat apparēs hemisphæriū, in eodem f b non apparens, & in quo tēpore d e non apparens, b f apparens. Describantur paralleli circuli g e h, k f l, per quos inuehuntur ipsa e f signa. Et quoniam in zodiaco circulo astra in diametro existentia coniugata oriuntur & occidunt. Ipso igitur e signo occidente per g signū, ipsum f quod ei est in diametro oritur per l signū. Sed ipsum quidem e, ipsam e h perficiens occidit, ipsum autem f, ipsam f k l ambiens oritur. In quo igitur tempore e, ipsam e h g ambit circūferentiā, & ipsam f k l. Sed tempus quidem in quo e ipsam e h g transit, id est in quo d e permutat apparens hemisphærium. At tempus in quo f ipsam f k l transit, id est in quo ipsa f b, permutat non apparēs hemisphæriū. In æquali igitur tempore d e permutat apparens hemisphæriū, & f b non apparens, similiter ostendemus q̄ & in quo tēpore ipsa d e permutat non apparens hemisphæriū ipsa f b apparens.
 
@@ -14,4 +14,4 @@ Aliter idem. Sit horizon circulus a b c d, æstiuus autem tropicus sit b a, hybe
 
 *[Woodcut initial Z]* Odiaci circuli æquales circūferētiæ æquali tempore non permutant non apparēs hemisphæriū, sed in pluri tempore quæ propinquior est tropico ea quæ longius distat, in æquali uero quæ ab utroq̃ contactu æque distant.
 
-*[Catchword: Sit in]*
+<!-- Catchword: Sit in -->

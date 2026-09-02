@@ -1,8 +1,10 @@
-# LIBER VNDECIMVS. *[Folio: 355]*
+<!-- # LIBER VNDECIMVS. -->
+
+<!-- Folio: 355 -->
 
 η θ, η κ, plano ad angulos est rectos. Si autẽ binæ rectæ lineæ eidem plano ad rectos fuerint angulos, parallelæ erunt ipsæ rectæ lineæ (per 6 undecimi.) Parallelus igitur est α β ipsi γ δ. Quod erat ostendendum.
 
-Eucli. ex Camp. Propositio 10
+## Eucli. ex Camp. Propositio 10
 
 *[Margin: 10]*
 
@@ -12,7 +14,7 @@ CAMPANVS. Sint duæ lineæ a b & a c, se angulariter contingentes in puncto a, �
 
 *[Figure: the angle b a c at the top, a at the apex joined to b (left) and c (right) with the line b c between them; from a a line descends to d, whence the angle e d f opens to the bottom corners e and f; the sides b e and c f complete the prism-like figure]*
 
-Eucli. ex Zamb. Theorema 10 Propositio 10
+## Eucli. ex Zamb. Theorema 10 Propositio 10
 
 *[Margin: 10]*
 
@@ -22,7 +24,7 @@ THEON ex Zamb. Binæ, inquam, rectæ lineæ sese inuicem tangentes α β, β γ,
 
 *[Figure: the angle α β γ at the top, β at the apex joined to α (left) and γ (right); below, the angle δ ε ζ, ε joined to δ and ζ at the bottom corners; the sides α δ and γ ζ complete the prism-like figure]*
 
-Eucli. ex Camp. Propositio 11
+## Eucli. ex Camp. Propositio 11
 
 *[Margin: 11]*
 
@@ -32,10 +34,10 @@ CAMPANVS. Sit punctus a, sursum in aere, à quo uolumus ad superficiem subiacent
 
 *[Figure: the horizontal line b d c at the bottom; from the point a at the upper left, lines descend to d and to f; the line e f descends vertically from e at the top to f, whence the horizontal through g at the left; f marked at the crossing]*
 
-Eucli. ex Zamb. Problema 1 Propositio 11
+## Eucli. ex Zamb. Problema 1 Propositio 11
 
 *[Margin: 11]*
 
 ## A dato signo in sublimi, ad subiectũ planũ perpendicularẽ lineã ducere.
 
-*[Signature: G 4]* *[Catchword: THEON]*
+<!-- Signature: G 4 --> <!-- Catchword: THEON -->

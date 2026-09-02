@@ -1,4 +1,6 @@
-# EVCLIDIS MEGARENSIS *[Folio: 574]*
+<!-- # EVCLIDIS MEGARENSIS -->
+
+<!-- Folio: 574 -->
 
 ipsi c d, est autem & æquiangulum. Igitur per 14 sexti elementorum latera quæ circum æquos angulos sunt reciproca, est igitur sicut e b ad f d, sic est c f ad e h. Ratio autē ipsius e b ad f d data, & ipsius igitur c f ad e h, ratio est data, ipsius autem e h ad a e, ratio est data, & ipsius igitur a e ad c f, ratio est data.
 
@@ -28,4 +30,4 @@ In uniuersum enim si parallelogrammi unus angulus datus fuerit, & reliqui dati e
 
 SI binorum parallelogrammorum quæ circum æquales angulos
 
-*[Catchword: uel]*
+<!-- Catchword: uel -->

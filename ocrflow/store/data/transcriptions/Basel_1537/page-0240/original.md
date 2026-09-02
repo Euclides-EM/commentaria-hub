@@ -1,6 +1,6 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 229]*
+<!-- Folio: 229 -->
 
 duorū f,g, qui sit h: quia ergo h numerat e, numerabit d, & compositū ex a,b,c, & quia numerat f uel g, quorum uterque numerat utrunq̃ mediorum, & simpliciter omnes si plures duobus sint, ex 2 octaui, sequitur ut ipse numeret b & c, ergo & a, quia numerat totum a,b, c, non sunt igitur a & d cōtra se primi, quod est inconueniens per 3 octaui.
 
@@ -22,6 +22,6 @@ Idem proponit prima secūdi de lineis. Sit enim ut ex a in b & in c & in d, prou
 
 **2** Quod fit ex ductu quotlibet numerorum in unum, æquum est ei quod
 
-*[Signature: u]*
+<!-- Signature: u -->
 
-*[Catchword: fit ex]*
+<!-- Catchword: fit ex -->

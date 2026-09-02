@@ -1,6 +1,6 @@
-# LIBER DVODECIMVS.
+<!-- # LIBER DVODECIMVS. -->
 
-*[Folio: 401]*
+<!-- Folio: 401 -->
 
 gulas quæ, uidelicet, sunt bases seratiliũ. Constat itaq̃ unũquodq̃ seratile ad eam pyramidẽ quæ super eandem basin cum ipso seratili consistit, triplum esse: hoc enim demonstratũ est in 6 huius duodecimi libri. Igitur ex 13 quinti omnia seratilia pariter accepta, ad omnes pyramides pariter acceptas necesse est esse triplum. Cumq̃ ex om̃ibus seratilibus pariter acceptis columna, & ex omnibus pyramidibus pariter acceptis pyramis columnæ perficiantur, constat ueram esse hanc nostram propositionem.
 
@@ -24,4 +24,4 @@ THEON ex Zamb. Sint similes & similiter positæ pyramides, quarũ bases quidẽ 
 
 *[Figure: second parallelepiped in perspective with ξ and θ at the top face, δ at the left, π on the front face; ε, ζ at the base with diagonals drawn, and ρ at the right]*
 
-*[Signature: L 3]* *[Catchword: CORRE-]*
+<!-- Signature: L 3 --> <!-- Catchword: CORRE- -->

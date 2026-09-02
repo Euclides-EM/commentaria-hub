@@ -1,4 +1,6 @@
-# *[Folio: 418, sic: recte 428]* GEOMET. ELEMENT. EVCLIDIS.
+<!-- Folio: 418, sic: recte 428 -->
+<!-- # GEOMET. ELEMENT. EVCLIDIS. -->
+
 
 primi) baſi β ε eſt æqualis, & triãgulũ α β γ, triãgulo α β ε, eſt æquale, & reliqui anguli reliquis angulis æquales erunt ſub quibus æqualia latera ſubtenduntur, qui ſub β γ α ei qui ſub β γ α *[sic: for β ε α]*, qui aũtẽ ſub α β ε ei qui ſub γ α β. Quare & latus α ζ, ipſi β ζ lateri eſt æquale, patuit autẽ quod & tota α γ, toti β ε eſt æqualis & reliqua igitur ζ γ, reliquæ ζ ε eſt æqualis. Eſt autẽ & γ δ, ipſi δ ε æqualis. Binæ iã ζ γ, γ δ, duabus ζ ε, ε δ, ſunt æquales, & cõmunis ipſorũ baſis, eſt ζ δ, Angulus igitur qui ſub ζ γ δ, angulo qui ſub ζ ε δ eſt æqualis. Patuit autẽ quod & qui ſub β γ α, ei qui ſub α ε β, eſt æqualis, totus igitur qui ſub β γ δ, toti qui ſub α ε δ eſt æqualis. Sed qui ſub β γ δ, æqualis ſupponitur eis qui ad α, β & qui ſub α ε δ, igitur, eis qui ad α, β, angulis eſt æqualis. Similiter iam oſtẽdemus, quod & qui ſub γ δ ε angulus, eis eſt æquus qui ad α, β, angulis. Aequiangulũ igitur eſt, α β γ δ ε quinquangulũ. Sed iam nõ ſint æquales ordinatim ipſi anguli, ſed ſint æquales qui ad α, γ δ, ſigna. Dico q̃ & ſic quinquangulũ α β γ δ ε æquiangulum eſt. Cõnectãtur enim β, δ. Et quoniã binæ β α, α ε, duabus β γ, γ δ, ſunt æquales, & æquos cõprehendunt angulos, baſis igitur β ε (per 4 primi) baſi β δ, eſt æqualis, & triãgulũ α β ε, triãgulo β δ γ, eſt æquale, & reliqui anguli reliquis angulis erunt æquales, ſub quibus æqualia latera ſubtendũtur. Aequalis igitur eſt angulus qui ſub α ε β, ei qui ſub γ δ β. Eſt autem & qui ſub β ε δ angulus, ei qui ſub β δ ε æqualis, quoniam & latus β ε lateri β δ eſt æquale. Totus igitur qui ſub α ε δ angulus, toti qui ſub γ δ ε eſt æqualis. Sed qui ſub γ δ ε, eis qui ad α, γ, angulis ſupponitur æquus, & angulus igitur qui ſub α ε δ, eis eſt æquus qui ad α γ. Iam id propterea & qui ſub α β γ, æqualis eis qui ad α γ δ, angulis. Aequiangulam igitur eſt, & ipſum α β γ δ ε quinquangulum. Quod oſtendere oportuit.
 
@@ -20,4 +22,4 @@ CAMPANVS Sit triangulus a b c æquilaterus, cui circũſcribatur circulus a b c 
 
 SI latus hexagoni æquilateri, latusq̃ decagoni æquilateri, quos ambos unus idẽq̃ circulus circũſcribit, ſibi inuicẽ in longũ directũq̃
 
-*[Catchword: coniun]*
+<!-- Catchword: coniun -->

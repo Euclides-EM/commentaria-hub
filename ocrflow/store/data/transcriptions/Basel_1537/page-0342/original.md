@@ -1,8 +1,10 @@
-# LIBER DECIMVS *[Folio: 331]*
+<!-- # LIBER DECIMVS -->
+
+<!-- Folio: 331 -->
 
 CAMPANVS. Nunc ultimo conuenit lineā d e esse illam, quæ iuncta cū mediali componit totū mediale cui adiuncta linea e f (quæ uidelicet sit illa per cuius abscisionē linea d e fuerat quæ proponitur) si quales lineas d f & f e esse oporteat ex 73 didiceris, priorēque argumentationē firma mente tenueris, sine obice quoquā lineā b c esse residuum sextū concludere poteris. Si autē fortassis in aliquo te hæsitare contigerit, quicquid illud fuerit de quadrato g h ad sibi æqualē superficiem a n conferendū erit, & sic patebit propositum nostrū.
 
-Eucli.ex Zamb. — Theorema 78 — Propositio 102
+## Eucli.ex Zamb. — Theorema 78 — Propositio 102
 
 *[Margin: 102]*
 
@@ -14,7 +16,7 @@ THEON ex Zamb, Sit cum medio medium totum efficiens α β, rationalis autem esto
 
 *[Figure: rectangle on the rational line γ δ (γ top-left, δ bottom-left), divided by verticals ζ ε, ν ξ, κ θ and μ λ; top edge labelled γ ζ ν κ μ, bottom edge labelled δ ε ξ θ λ]*
 
-Eucli.ex Camp. — Propositio 98
+## Eucli.ex Camp. — Propositio 98
 
 *[Margin: 98]*
 
@@ -24,4 +26,4 @@ CAMPANVS Quod 60 & quatuor eā sequētes de binomio eiusq̃ comitibus quinq̃ �
 
 *[Figure: two horizontal segments: the upper labelled a at the left end and c at the right end; the lower labelled d at the left end, f near the right end and b at the right end]*
 
-*[Signature: E 4]* *[Catchword: cōmuni]*
+<!-- Signature: E 4 --> <!-- Catchword: cōmuni -->

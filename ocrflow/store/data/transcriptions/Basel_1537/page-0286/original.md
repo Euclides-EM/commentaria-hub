@@ -1,6 +1,6 @@
-# LIBER DECIMVS.
+<!-- # LIBER DECIMVS. -->
 
-*[Folio: 275]*
+<!-- Folio: 275 -->
 
 duæ lineæ a b & c d, quales proponit 25, eruntq́ⳓ simili argumentatione præmissæ duæ lineæ a e & e b, quales hæc 28 proponit. Cum sit enim a b linea medialis, erit eius quadratum mediale per 29, & ideo quadrata duarum linearum a e & e b, sunt medialia per penultimam primi. Et quia a b in c d continet superficiem rationalem, sequitur etiam ut a b in c f, & ideo in g e sibi æqualem, contineat superficiem rationalem, itaque & a e in e b. Patet ergo quod quæritur. Vnde duæ lineæ quas hæc 28 docet inuenire, componūt lineam potentem in rationale & mediale, & minori earum abscisa de maiori, quæ reliqua est, dicitur linea quæ iuncta cum rationali componit totum mediale.
 
@@ -22,4 +22,4 @@ CAMPANVS. Huius quoq́ⳓ dispositio, a duarū præmissarū dispositione non sit
 
 *[Figure: semicircle on diameter a b with apex e; perpendicular e g to a b at g; chords from e to a and to b; below, a short line b and a divided line c f d]*
 
-*[Catchword: lineæ]*
+<!-- Catchword: lineæ -->

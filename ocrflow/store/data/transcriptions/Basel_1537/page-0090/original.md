@@ -1,6 +1,6 @@
-# LIBER TERTIVS
+<!-- # LIBER TERTIVS -->
 
-*[Folio: 81]*
+<!-- Folio: 81 -->
 
 æqualis est angulo qui est in segmento α ε β: rectus etenim & ipse est qui in semicirculo existit (per 31 tertij). Sed angulus β α δ, ei qui ad γ est angulo æqualis est. Descriptum est igitur iterum super α β: segmentum circuli α ε β, capiens angulum æqualē ei qui ad γ est angulo.
 
@@ -36,4 +36,4 @@ SI intra circulum duæ rectæ lineæ sese inuicem secent, quod sub duabus partib
 
 CAMPANVS. Sint duæ lineæ a c & b d, secātes se in circulo a b c d, super punctum e. Dico quod illud rectangulum quod fit ex a e in e c: æquū est ei quod fit ex b e in e d. Aut enim ambæ lineæ a c & b d transibunt per centrū circuli: aut altera tantū, aut neutra. Quod si ambæ transeāt per centrū, erit e centrū circuli, omnesq̃ quatuor lineæ æquales, quare liquet propositū. Quod si altera earū tantū trāsit per centrū, sit illa b d, centrūq̃ circuli sit f. Aut ergo, b d secabit a c per æqualia
 
-*[Catchword: aut]*
+<!-- Catchword: aut -->

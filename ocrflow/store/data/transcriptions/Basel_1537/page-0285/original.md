@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 274]*
+<!-- Folio: 274 -->
 
 ## THEON — Lemma.
 
@@ -22,4 +22,4 @@ THEON ex Zamberto. Exponantur (per 30 decimi) binæ rationales potentia tantum c
 
 CAMPANVS. Sit hic prorsus eadem dispositio quæ prius in præmissa. Sint autem
 
-*[Catchword: duæ]*
+<!-- Catchword: duæ -->

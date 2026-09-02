@@ -1,6 +1,6 @@
-# LIBER TREDECIMVS.
+<!-- # LIBER TREDECIMVS. -->
 
-*[Folio: 433]*
+<!-- Folio: 433 -->
 
 quod erat ex principio demonstrandum. Hoc ergo modo sequitur, quod latus pentagoni æquilateri circulo inscripti sit linea minor, si diameter circuli cui inscribatur, fuerit rationalis in longitudine. At uero si diameter circuli fuerit rationalis in potentia tantū, ad huc necesse est ut latus pentagoni æquilateri sibi inscripti sit linea minor. Esto enī linea a, rationalis in potentia tantum, supra quā describatur circulus, eiq̃ descripto inscribatur pentagonus æquilaterus, cuius unum latus sit b c, dicanturq̃ pentagonus & circulus, a. Dico q̃ linea b c est linea minor. Sumatur enī aliqua linea rationalis in lōgitudine, quæ sit d, & super eam lineetur circulus cui inscribatur pentagonus æquilaterus, & sit unum latus ipsius linea e f, dicanturq̃ pentagonus & circulus, d. Constat igitur ex hac 11, q̃ c f *[sic: e f]* est linea minor, cum diameter d sit rationalis in longitudine. Quoniam uero proportio pentagoni a ad pentagonū d est sicut quadrati lineæ b c ad quadratum lineæ e f (utraq̃ enim est ex secūda parte 18 sexti, sicut lineæ b c ad lineam e f duplicata) pentagoni autem a ad pentagonū d, est sicut quadrati diametri a ad quadratū diametri d ex prima 12, erit ex 11 quinti quadratū lineæ c b ad quadratū lineæ e f, sicut quadratū diametri a ad quadratum diametri d. Cūq̃ quadrata duarum diametrorū a & d sint cōmunicantia, quia ambo sunt rationalia ex hypothesi, erūt quoq̃ ex prima parte 10 decimi quadrata duarum linearū b c & e f, cōmunicantia: ergo linea b c cōmunicat in potentia cum linea e f. Et quia linea e f est minor, sequitur ex 1.0 *[unclear numeral]* decimi q̃ etiā b c sit linea minor, quod est propositum. Siue ergo diameter alicuius circuli sit rationalis in longitudine, siue in potentia tantum, necesse est ut latus pentagoni æquilateri sibi inscripti, sit linea minor.
 
@@ -24,4 +24,4 @@ THEON ex Zamb. Quinquanguli enim æquilateri & æquianguli α β γ δ ε, binos
 
 9 Si sexanguli & decagoni latus in eodem circulo descriptorū componantur, tota recta linea extrema & media ratione secatur, & maius segmentum est ipsius sexanguli latus.
 
-*[Signature: Θ]* *[Catchword: THEON]*
+<!-- Signature: Θ --> <!-- Catchword: THEON -->

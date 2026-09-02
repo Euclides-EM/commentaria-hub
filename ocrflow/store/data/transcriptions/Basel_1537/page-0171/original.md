@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 160]*
+<!-- Folio: 160 -->
 
 quæ circum æquales angulos. Simile igitur est (per primam diffinitionē sexti) parallelogrammū α β γ δ, parallelogrammo ε η. Id propterea, & parallelogrammum α β γ δ, parallelogrammo η θ, est simile, utrumq́ȝ igitur ipsorum ε η & θ κ, parallelogrammorum, ipsi α β γ δ, parallelogrammo simile est. Quæ autem eidem rectilineo similia, & sibi inuicem sunt similia (per 11 sexti) igitur & ε η, parallelogrammum ipsi θ κ, parallelogrammo simile est. Omnis igitur parallelogrammi quæ circa dimetientem parallelogrāma, similia sunt toti & adinuicem, quod erat demonstrandum.
 
@@ -34,4 +34,4 @@ CAMPANVS Sit data linea a b, super cuius dimidium c b, constituatur parallelogra
 
 *[Figure: line a b with midpoint c; on the half c b stands a square parallelogram with e (top left), d (top right), its diagonal drawn from e to b; f inside its upper right part; a lower long rectangle applied to the whole line a b, its top side passing through the point g where it cuts the line e c; labels a (bottom far left), c (bottom middle), b (bottom right)]*
 
-*[Catchword: æqua-]*
+<!-- Catchword: æqua- -->

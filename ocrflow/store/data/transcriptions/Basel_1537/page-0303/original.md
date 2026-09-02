@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 292]*
+<!-- Folio: 292 -->
 
 ducantur autē lineæ e g, d h, f K, æquidistãtes lineæ a b. Et quia ex diffinitione binomij primi linea d b est potētior linea d c in quadrato lineæ sibi cōmunicãtis in lōgitudine, sequitur ex secũda parte 13 quod duæ lineæ b f & f d sint cōmucantes *[sic: cōmunicantes]*, per 9 igitur est utraque earũ cōmunicãs toti lineæ b d, quare per diffinitionē ambæ sunt ratiõales in longitudine, ideoq̃ per 15 utraque earũ cōmunicãs toti lineæ b d, quare per 15 utraq̃ duarũ superficierũ a f & f h, est ratiõalis. Describatur itaq̃ quadratũ l m cuius latus l r, æquale superficiei a f, cui circomponatur gnomo protracta diagonali l m n, ad eam quantitatē, qd’ ipsius gnomonis quadratũ quod sit m n, sit æquale superficiei f h. duoq̃ eius supplemēta sint p m & m q. quæ necesse est esse æqualia duabus superficiebꝰ d g & g c. Quod sic collige. Cũ enim sit linea d e medio loco pportiõalis inter lineas b f & f d erit superficies d g, ex 1 sexti medio loco pportionalis inter superficies a f & f h, quare & inter quadrata l m & m n. Et quia supplementũ p m est etiã medio loco proportionale inter quadrata dicta ex prima sexti. sequitur ut p m sit æqualis d g, ideoq̃ m q, g c, igitur linea l p, est latus tetragonicũ superficiei a c. Hanc lineã dico esse binomiũ. Cũ sint enim ambo quadrata l m, & m n, rationalia, erũt ex diffinitione duæ lineæ l r & r p potentialiter rationales. Est autem per primam sexti a f ad d g, sicut b f ad d e: sed b f est incōmēsurabilis d e, scilicet, quia b f est rationalis simpliciter, ut probatũ est, d e uero quia cōmunicat in lōgitudine d c rationali in potentia tantũ. erit etiã ipsa rationalis in potētia tantũ per 18, qd’ ex præmissis hypothesibus manifestũ est. Itaq̃ per 2 partē 10, superficies a f, est incōmēsurabilis superficiei d g, igitur & quadratũ l m, supplemēto p m, quare per primã sexti & secũdā partē 10 linea l r, est incommēsurabilis lineæ r p. Ex 36 igitur constat lineã l p esse binomiũ, quod erat monstrandũ.
 
@@ -26,4 +26,4 @@ THEON ex Zamb. Areola etenim α β γ δ, cōprehēdatur sub rationali α β, & 
 
 *[Figure: square divided by a vertical and a horizontal line into four compartments; labels: τ, ς, π along the top, μ at the left, υ at the centre, ν(?) at the right, σ and φ(?) along the bottom]*
 
-*[Catchword: ex]*
+<!-- Catchword: ex -->

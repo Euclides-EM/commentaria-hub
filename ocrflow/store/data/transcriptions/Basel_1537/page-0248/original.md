@@ -1,8 +1,8 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 237]*
+<!-- Folio: 237 -->
 
-Eucli. ex Zamb. Theorema 23 Propositio 23
+## Eucli. ex Zamb. Theorema 23 Propositio 23
 
 **23** Si impares numeri quotcunq̃ componantur, multitudo autem ipsorum fuerit impar, & totus impar erit.
 
@@ -10,7 +10,7 @@ THEON ex Zamberto. Componantur enim quotcunq̃ impares numeri, quorum multitudo 
 
 *[Figure: dotted line with points α, β, γ, ε, δ]*
 
-Eucli. ex Camp. Propositio 25
+## Eucli. ex Camp. Propositio 25
 
 **25** SI à numero pari numerus par detrahatur, reliquus erit par.
 
@@ -20,7 +20,7 @@ CAMPANVS. Sit a totus par, à quo detrahatur b, qui quoq̃ sit par, & residuus s
 
 *[Figure: dotted line a with points d, f; below, dotted lines b (with point e) and c]*
 
-Eucli. ex Zamb. Theorema 24 Propositio 24
+## Eucli. ex Zamb. Theorema 24 Propositio 24
 
 **24** Si à pari numero par auferatur, reliquus par erit.
 
@@ -28,7 +28,7 @@ THEON ex Zamberto. A pari enim α β, auferatur par ε *[sic: unclear letter; β
 
 *[Figure: dotted line with points α, γ, β]*
 
-Eucli. ex Camp. Propositio 26
+## Eucli. ex Camp. Propositio 26
 
 **26** SI de numero pari imparem tollas, qui relinquitur impar est.
 
@@ -38,7 +38,7 @@ CAMPANVS. Sit a b par, à quo tollatur a c, qui sit impar. Dico c b residuum ess
 
 *[Figure: dotted line with points a, d, c, b]*
 
-Eucli. ex Zamb. Theorema 25 Propositio 25
+## Eucli. ex Zamb. Theorema 25 Propositio 25
 
 **25** Si à pari numero impar auferatur, reliquus impar erit.
 
@@ -46,7 +46,7 @@ THEON ex Zamberto. A pari nanq̃ numero α β, auferatur impar β γ. Dico quod 
 
 *[Figure: dotted line with points α, γ, δ, β]*
 
-Eucli. ex Camp. Propositio 27
+## Eucli. ex Camp. Propositio 27
 
 **27** SI à numero impari detrahatur impar, reliquus erit par.
 
@@ -56,7 +56,7 @@ CAMPANVS. Sit a b numerus impar, à quo detrahatur b c, qui etiam sit impar: dic
 
 *[Figure: dotted line with points a, c, d, b]*
 
-Eucli. ex Zamb. Theorema 26 Propositio 26
+## Eucli. ex Zamb. Theorema 26 Propositio 26
 
 **26** Si ab impari numero impar auferatur, reliquus par erit.
 
@@ -64,4 +64,4 @@ THEON ex Zamberto. Ab impari nanque α β, impar auferatur β γ. Dico quod reli
 
 *[Figure: dotted line with points α, γ, δ, β]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

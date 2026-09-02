@@ -1,6 +1,6 @@
-*[Folio: 553]*
+<!-- Folio: 553 -->
 
-# DATA
+<!-- # DATA -->
 
 ad f d,ratio data,& ipsius igitur c f.ad e b,ratio est data per 8 propositionẽ. Rursus quoniam ipsius a e,ad e b,ratio data demonstratur,ponitur autem & ipsius e b,ad f d,ratio data,& ipsius igitur e a,ad f d,ratio est data,per 8 propositionẽ,& quoniam a e,e b,adinuicem rationem habent datam, & totum a b, ad utrunq̃ ipsorum a e,e b, rationem habet datam. Quare & similiter & c,ad utranq̃ ipsarum e f,f d,rationem habet datam. Et quoniam a b,ad c d,rationem habet datam:habet autem & c d, ad utranq̃ ipsarum c f, f d, rationem datam & a b , igitur ad utranque ipsarum c f,c d, rationem habet datam. Quare omnia ad omnia rationes habẽt datas.
 
@@ -40,4 +40,4 @@ SI rectæ lineæ fines fuerint dati positione,datur ipsa recta linea positione &
 
 Rectæ siquidem lineæ a b fines a b dati sint positione. Dico quod ipsa a b positiõe & magnitudine datur. Si enim manẽte a intercidet ipsius a b rectæ
 
-*[Signature: A a]* *[Catchword: lineæ]*
+<!-- Signature: A a --> <!-- Catchword: lineæ -->

@@ -1,6 +1,6 @@
-*[Folio: 522]*
+<!-- Folio: 522 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 ## Theorema decimumquintum.
 
@@ -38,4 +38,4 @@ Sit, inquam, quā oportet cognoscere. quanta sit data altitudo b c, cadatq́ rad
 
 *[Woodcut initial S]* SOle non apparente datam altitudinem quanta sit cognoscere.
 
-*[Catchword: Sit]*
+<!-- Catchword: Sit -->

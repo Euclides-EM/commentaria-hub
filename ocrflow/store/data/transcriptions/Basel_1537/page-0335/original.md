@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 324]*
+<!-- Folio: 324 -->
 
 ## Eucli.ex Camp. Propositio 89
 
@@ -38,4 +38,4 @@ Si areola comprehendatur sub rationali & quinta apotome, quæ areolam potest, es
 
 THEON ex Zamb. Areola etenim α β, comprehendatur sub rationali α γ, & quinta apotome α δ. Dico quod
 
-*[Catchword: quæ]*
+<!-- Catchword: quæ -->

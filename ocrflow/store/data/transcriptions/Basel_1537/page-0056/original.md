@@ -1,6 +1,6 @@
-# LIBER SECVNDVS.
+<!-- # LIBER SECVNDVS. -->
 
-*[Folio: 47]*
+<!-- Folio: 47 -->
 
 Sed quadratum a f est iterum æquale per eandem quadrato a d & quadrato d f, ergo quadratū a d & quadratū d f, dupla sunt ad quadratum a c & ad quadratum c d. Et quia quadratum d f est æquale quadrato d b, erunt quadrata duarum linearum a d & d b, dupla quadratis duarum linearū quæ sunt a c & c d, quod est propositū.
 
@@ -26,4 +26,4 @@ CAMPANVS. Sit linea a b diuisa per æqualia in c, & addita sibi linea b d, dico 
 
 *[Figure: base line a c b d with apex e above c, point f at upper right, lines from e and from d meeting at g below right]*
 
-*[Catchword: stantem]*
+<!-- Catchword: stantem -->

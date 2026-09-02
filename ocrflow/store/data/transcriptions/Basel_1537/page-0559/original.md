@@ -1,6 +1,6 @@
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 546]*
+<!-- Folio: 546 -->
 
 A data siquidem magnitudine a b data auferatur magnitudo a c. Dico quod reliqua c b, data est. Quoniam enim datur a b, possibile est eidem æqualem exhibere, exhibeatur per primam diffinitionē & sit d f. Rursus quoniam datur a c, possibile est ei æquam exhibere, exhibeatur per eādem & sit d e Quoniam æqualis est a b ipsi d f, & a c ipsi d e, reliqua igitur b c, reliquæ e f, est æqualis per tertiam cōmunem sententiam. Datur igitur b c, æqualis enim eidem exhibetur e f.
 
@@ -38,4 +38,4 @@ Data enim magnitudo a b, in datam rationem ipsius a c ad c b, diuidatur. Dico qu
 
 *[Figure: one horizontal line segment with points a, c, b]*
 
-*[Catchword: Theo-]*
+<!-- Catchword: Theo- -->

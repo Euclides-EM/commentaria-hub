@@ -1,6 +1,6 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 174]*
+<!-- Folio: 174 -->
 
 mensuram metietur (per correlarium secundæ septimi.) Ipsorum autem α, β, maxima communis mensura est δ. Igitur ζ ipsum δ metitur: metitur autem & γ. Igitur ζ ipsos δ, γ, metitur, & ipsorum δ, γ, maximam communem mensuram metietur (per idem.) At ipsorum δ, γ, maxima communis mensura est ε. Igitur ζ ipsum ε metitur, maior minorem, quod est impoßibile. Ipsos igitur α, β, γ, numeros numerus aliquis non metitur maior existens ipso ε. Igitur ε ipsorum α, β, γ, maxima communis dimensio est, quod fecisse oportuit.
 
@@ -44,4 +44,4 @@ THEON ex Zamberto. Numerus enim α, numeri βγ esto pars, & alter δ alterius �
 
 *[Figure: number as dot-row: α (6 dots)]*
 
-*[Catchword: α ipsius]*
+<!-- Catchword: α ipsius -->

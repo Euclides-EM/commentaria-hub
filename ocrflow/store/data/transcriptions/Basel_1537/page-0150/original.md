@@ -1,10 +1,10 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 139]*
+<!-- Folio: 139 -->
 
 per 36 primi:æqualis a c:quare sicut linea g c est multiplex lineæ b c:ita superficies c κ,superficiei a c.Si similiterquoqꝫ ad lineā e f sumā ex linea g m,lineā f m multiplicē secundū quencūqꝫ numerū uoluero ad e f,& cōplebo,superficiē æquidistātiū laterū ducta linea m n æquidistāter lineæ d e, eritqꝫ supficies n f ita multiplex supficiei d f,sicut linea m f lineæ e f. Et q̄a per 36 primi si linea g c est maior linea f m,supficies κ c est maior superficie f,& si minor,minor.& si æqualis,æqualis,erit per diffinitionē incōtinuæ ꝓportiōalitatis,eadē proportio basis b c ad basin e f,quæ est superficiei a c ad superficiē d f,quod est propositū. De triangulis unius altitudinis idē probabis & eodem modo per 38 primi:ductis lineis ab extremitatibus earū quas ad bases sumes multiplices, ad uertices triangulorum.
 
-Eucli.ex Zamb. Theorema 1. Propositio 1.
+## Eucli.ex Zamb. Theorema 1. Propositio 1.
 
 ## 1
 
@@ -14,7 +14,7 @@ THEON ex Zamberto. Sint triangula quidem α β γ,& α γ δ,parallelogramma uer
 
 *[Figure: a parallelogram with upper corners ε and ζ standing on the base line, and a fan of lines descending from the apex α to the base points; the base line is labelled θ κ β γ δ κ λ]*
 
-Eucli,ex Camp. Propositio 2
+## Eucli.ex Camp. Propositio 2
 
 ## 2
 
@@ -26,4 +26,4 @@ CAMPANVS. Sit triangulus a b c,cuius duo latera a b,& a c secet linea d e, æqui
 
 *[Figure: triangle with apex a and base b c, points d and e on the sides, line d e parallel to the base, and diagonals d c and e b crossing between them]*
 
-*[Signature: m 4]* *[Catchword: linea]*
+<!-- Signature: m 4 --> <!-- Catchword: linea -->

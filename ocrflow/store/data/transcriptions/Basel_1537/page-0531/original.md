@@ -1,6 +1,6 @@
-*[Folio: 520]*
+<!-- Folio: 520 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 lis est ipsa quidem x n ipsi m l, parallelogrammum, inquam, est ipsum m n, utraq́ ipsarum x k, k n, maior est utraque ipsarum m k, k l, maior igitur est & angulus qui sub m k l eo qui sub x k n. Quare & tota f l, tota g n maior apparet. idque propterea & l ipsa b d, inæqualis igitur latitudinis ipsæ magnitudines apparent.
 
@@ -30,4 +30,4 @@ Sit rectangula magnitudo, b c ex interuallo spectata, igitur eorum quæ spectant
 
 *[Figure: square with corners b (top left), d (bottom left), c (bottom right), and point f on the right side; short diagonal lines cutting across the corners]*
 
-*[Catchword: spe]*
+<!-- Catchword: spe -->

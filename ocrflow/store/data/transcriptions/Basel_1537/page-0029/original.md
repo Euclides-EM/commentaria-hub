@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 20]*
+<!-- Folio: 20 -->
 
 angulo β α γ. Sed ostensum est quod angulus β δ γ, eo qui sub γ ε β, est maior: longe igitur maior est angulus β δ γ, angulo β α γ. Si trianguli ergo à limitibus unius lateris binæ rectæ lineæ introrsum constituentur, quæ constituuntur, reliquis trianguli duobus lateribus minores quidem erunt, maiorē uero angulum continebunt, quod ostendere oportuit.
 
@@ -34,4 +34,4 @@ CAMPANVS. Sit data linea f e, quæ est in superiori figura, & sint lineæ b, a, 
 
 *[Figure: two intersecting circles about centres f and g on the straight line d f g h e, meeting at k above, with lines k f and k g drawn; at right a small triangle with sides a, b and base c showing the given angle]*
 
-*[Catchword: tatem]*
+<!-- Catchword: tatem -->

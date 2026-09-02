@@ -1,6 +1,6 @@
-# LIBER DECIMVS.
+<!-- # LIBER DECIMVS. -->
 
-*[Folio: 277]*
+<!-- Folio: 277 -->
 
 Dico quod α γ, irrationalis est. Quoniam enim incommensurabilis est α β, ipsi β γ, longitudine, potentia enim tātum sunt commensurabiles, sicut autem α β ad β γ, sic (per lemma 21 decimi,) quod sub α β, β γ, ad id quod ex β γ. Incommensurabile (per 11 decimi) igitur est quod sub α β, β γ, ei quod ex β γ, sed ei quod sub α β, β γ, commēsurabile quidē est quod bis sub α β, β γ. Ei autem quod ex β γ, commensurabilia sunt quæ ex α β, β γ. Quare & quod bis sub α β, β γ, eis quæ ex α β, β γ, incōmēsurabile est. Cōponēdoq́ⳓ (per 4 secūdi quod bis sub α β, β γ, una cū eis quæ ex α β, β γ, hoc ex quod est α γ *[sic: hoc est quod ex α γ]*, incommḗsurabile est composito ex ijs quæ ex α β, β γ rationale autem est compositum ex ijs quæ ex α β, β γ: irrationale igitur est (per diffinitionem decimi,) quod ex α γ. Quare & α γ irrationalis est, uocatur autē ex binis nominibus. Vocauit sane ipsam ex binis nominibus, eo quia ipsa ex binis rationalibus constat, proprium nomen appellans, rationale quatenus rationale. Quod fecisse oportuit.
 
@@ -32,4 +32,4 @@ THEON ex Zāb. Componantur enim binæ mediæ potentia tantum commensurabiles α 
 
 32 SI duæ lineæ mediales potentialiter tantum communicantes superficiemq́ⳓ medialem continentes directe coniungantur, tota
 
-*[Signature: A]* *[Catchword: linea]*
+<!-- Signature: A --> <!-- Catchword: linea -->

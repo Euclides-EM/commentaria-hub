@@ -1,8 +1,10 @@
-# *[Folio: 204]* ARITHMET. ELEMENT. EVCLIDIS
+<!-- Folio: 204 -->
+
+<!-- # ARITHMET. ELEMENT. EVCLIDIS -->
 
 *tionales minimi in ipsorum α β γ δ ε ζ rationibus,erunt aliqui numeri ipsis ξ ν,μ ο,minores,continue proportionales in ipsorum α β γ δ ε ζ,rationibus,Sint π ρ σ τ,Et quoniā est sicut π ad ρ,sic est α, ad β,ipsi autem α β, minimi, minimi autem(per 21 septimi metiuntur eandem rationem habentes cis *[sic: pro eis]* æqualiter antecedens antecedeniem & sequens sequentem,igitur β,ipsum ρ metitur.Id propterea etiam γ,ipsum ρ, metitur.Igitur ipsi β,γ,ipsum ρ metiuntur,& minimus igitur per 36 septimi,quem ipsi α γ,metiuntur,ipsum metietur ρ.minimus autē quem ipsi β γ.metiuntur,est η.Igitur η ipsum ρ metitur,estq́; sicut η,ad ρ.sic est κ,ad σ,& κ igitur ipsum σ metitur,metitur autem & ε,ipsum σ.Igitur ipsi ε κ,ipsum σ,matientur,& minimus quem ipsi ε κ,metiuntur,(per eandem,(metietur ipsum σ.Minimus autē quem ipsi ε κ,metiuntur:est μ.Igitur μ,ipsum σ metitur,maior minorem,quod est impossibile.Igitur non erūt aliqui numeri minores ipsis ν ξ,μ ο,continue proportionales in ipsius α ad β,& γ ad δ,& ε ad ζ,rationibus.Igitur ipsi ν ξ,μ ο,continue proportionales minimi sunt in ipsorum α β γ δ ε ζ,rationibus,quod oportuit feciße.*
 
-Eucli.ex Camp. — Propositio 5
+## Eucli.ex Camp. — Propositio 5
 
 ## 5 OMnium duorum numerorum compositorum proportio unius ad alterum,est ex laterum suorum producta proportionibus.
 
@@ -16,7 +18,7 @@ CAMPANI annotatio. Nec est necessarium ut continuemus proportiones laterum (uide
 
 *[Figure: dotted number lines beside the text, labelled a (13 dots), g (26 dots), b (22 dots), c (2 dots), e (4 dots), d (6 dots), f (5 dots), h (13 dots), K (26 dots), l (22 dots)]*
 
-Eucli.ex Zamb. — Theorema 3 — Propositio 5
+## Eucli.ex Zamb. — Theorema 3 — Propositio 5
 
 ## 5 Plani numeri,adinuicem rationem habent compositam ex lateribus.
 
@@ -24,4 +26,4 @@ THEON ex Zamberto. *Sint plani numeri α β,ipsius quidem α,latera sint γ δ, 
 
 *[Figure: dotted number lines beside the Theon proof, labelled α (24 dots), λ (28 dots), β (long row), γ (3 dots), δ (7 dots), ε (5 dots), ζ (9 dots), η (11 dots), θ (13 dots), κ (18 dots)]*
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

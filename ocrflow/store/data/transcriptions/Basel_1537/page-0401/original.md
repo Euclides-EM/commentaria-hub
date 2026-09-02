@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 390]*
+<!-- Folio: 390 -->
 
 dratū diametri a b, erit sicut circuli c d ad superficiē f minorē circulo a b. Sed ex hoc demonstrauimus pauloante sequi impossibile, uidelicet, polygoniū inscriptū circulo maius esse circulo. Sicut ergo superficies e non potest esse minor circulo c d, ita nec maior, erit ergo necessario æqualis. Quare per secūdam partem 7 quinti, liquet quod propositum est.
 
@@ -24,4 +24,4 @@ THEON ex Zamb. Sint circuli α β γ δ, ε ζ η θ, dimetientes autem eorum si
 
 *[Figure: lens-shaped area labelled τ]*
 
-*[Catchword: est sicut]*
+<!-- Catchword: est sicut -->

@@ -1,4 +1,6 @@
-# DATA *[Folio: 571]*
+<!-- # DATA -->
+
+<!-- Folio: 571 -->
 
 est ei quod bis sub utroque e c d & a b. Quare quod ex utroq; b a c maius est eo quod ex b c, eo quod bis sub utroq; c a d & a b. Quare quod ab utroque b a c maius est eo q̃ ex b c, eo quod bis sub utroq; d a c & b a, & quoniam angulus b a c datus est, & qui sub a d c quoque datus est. Et reliquus igitur qui sub d c a datus est. Datur igitur triangulum a d c, specie. Ratio igitur ipsius a d ad a c, data est, quare & utriusque d a c ad a c, ratio est data. Et eius igitur quod sub utroque d a c, & a b ad id quod sub b a c, ratio est data. Et eius quod bis sub utroque d a c & a b ad id quod sub b a c ratio est data. Eo quia qui sub b a c, angulus datus est, & eius quod bis sub utroque d a c, & a b igitur ad a b c triangulum ratio data est. Sed iam esto angulus qui sub b a c obtusus, & producta b a in eam per duodecimam primi elementorum perpēdicularis agatur c e, & ponatur per secundam primi elementorum ipsi a e æqualis a f.
 
@@ -16,4 +18,4 @@ Excitetur b a & ipsi a c æqualis ponatur d a connectaturque d c. Quoniam igitur
 
 *[Figure: a large triangle with apex d at the top, c at the bottom left and b at the bottom right; a smaller point a on the right side, with lines fanning from a down to points e, g, f on the base; a vertical line drops from d to the base]*
 
-*[Signature: Bb 4]* *[Catchword: elemē.]*
+<!-- Signature: Bb 4 --> <!-- Catchword: elemē. -->

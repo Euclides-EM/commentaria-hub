@@ -1,10 +1,10 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 241]* *[The running head reads "LIBER DECIMVS" in error; the page still belongs to Book IX]*
+<!-- Folio: 241 --> *[The running head reads "LIBER DECIMVS" in error; the page still belongs to Book IX]*
 
 ponitur. Quare α, pariter impar est, patuit autē quod & pariter par. Igitur & pariter par & est pariter impar. Quod ostendere oportuit.
 
-Eucli. ex Camp. Propositio 38
+## Eucli. ex Camp. Propositio 38
 
 **38** SI de secundo atque ultimo numerorum continue proportionalium, æquale primi dematur, quantum est reliquum secūdi ad primum tantum esse reliquum ultimi ad coaceruatum ex cunctis præcedentibus necessario comprobatur.
 
@@ -14,7 +14,7 @@ CAMPANVS Sint continue proportionales a b, c d, e f, g h, dematurq̃ de c d, æq
 
 *[Figure: dotted lines: g with points l, n, m, h; e with point f; c with points k, d; a with point b]*
 
-Eucli. ex Zamb. Theorema 35 Propositio 35
+## Eucli. ex Zamb. Theorema 35 Propositio 35
 
 **35** Si fuerint quotcunque numeri continue proportionales, auferantur autem à secundo & ultimo æquales ipsi primo, erit sicut secundi excessus ad primum, sic ultimi excessus ad omnes se præcedentes.
 
@@ -22,7 +22,7 @@ THEON ex Zamb. Sint quotcunque numeri continue proportionales α,β,γ,δ,ε,ζ,
 
 *[Figure: dotted lines: α; β with points η, γ; δ; ε with points λ, κ, θ, ζ]*
 
-Eucli. ex Camp. Propositio 39
+## Eucli. ex Camp. Propositio 39
 
 **39** CVm coaptati fuerint numeri ab unitate continue dupli qui coniuncti faciant numerum primum, extremus eorum in aggregatū ex eis ductus producit numerum perfectum.
 
@@ -32,6 +32,6 @@ CAMPANVS. Sint ab unitate continue dupli, a,b,c,d, ex eis autem & unitate coacer
 
 *[Figure: number lines: f–g with point n and the numbers 31, 465, 499 [sic: 496]; l with 248; k with 124; m–h–o with 31, 31, 62; e with 31; dotted lines d, c, b, a; a single dot labelled unitas; two vertical solid lines labelled p, q]*
 
-*[Signature: x]*
+<!-- Signature: x -->
 
-*[Catchword: ga]*
+<!-- Catchword: ga -->

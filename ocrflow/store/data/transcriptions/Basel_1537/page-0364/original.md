@@ -1,10 +1,12 @@
-# LIBER VNDECIMVS. *[Folio: 353]*
+<!-- # LIBER VNDECIMVS. -->
+
+<!-- Folio: 353 -->
 
 tangentes rectas lineas (per 2 diffinitionẽ undecimi) & in subiecto plano existentes, rectos efficiet angulos ipsa α β. Tangit autẽ ipsam α β, utraq̃ ipsarũ β δ, β ε, existens in subiecto plano, rectus igitur est uterq̃ ipsorũ angulorũ α β δ, α β ε, id propterea etiã uterq̃ ipsorũ γ δ β, γ δ ε, rectus est. Et quoniã α β ipsi δ ε est æqualis, cõmunis autem β δ, duæ igitur α β, β δ, duabus ε δ, δ β, sunt æquales, & rectos cõprehendũt angulos: basis igitur α δ (per 4 primi) basi β ε est æqualis. Et quoniã æqualis est α β ipsi δ ε, sed & α δ ipsi β ε, duæ igitur α β, β ε, duabus ε δ, δ α, sunt æquales, & ipsorũ cõmunis basis est α ε, angulus igitur qui sub α β ε (per 8 primi) angulo qui sub ε δ α est æqualis: rectus autem qui sub α β ε, rectus igitur & qui sub ε δ α. Igitur ε δ, ad ipsam δ α, recta est, est autẽ & ad utranq̃ ipsarũ β δ, δ γ, recta. Igitur ε δ, tribus rectis lineis β δ, δ α, δ γ, ad angulos rectos in contactu stetit. Igitur ipsæ tres rectæ lineæ β δ, δ α, δ γ, (per 5 decimi *[sic: for undecimi]*) in uno sunt plano, & in quo sunt ipsæ β δ, δ α, in eodem & α β: omne enim triangulum in uno est plano (per 2 undecimi.) Ipsæ igitur α β, β δ, δ γ, rectæ lineæ, in uno sunt plano. Et uterq̃ ipsorũ α β δ, β δ γ, angulorũ, rectus est: parallelus igitur est α β, ipsi γ δ (per 28 primi.) Si duæ igitur rectæ lineæ eidem plano ad angulos fuerint rectos, parallelæ erunt ipsæ rectæ lineæ. Quod ostendendũ fuerat.
 
 *[Figure: two vertical parallels α β and γ δ; the line β δ joins their feet, with ε below; lines α δ, β ε and α ε drawn, forming triangles on the base β δ]*
 
-Eucli. ex Camp. Propositio 7
+## Eucli. ex Camp. Propositio 7
 
 *[Margin: 7]*
 
@@ -14,7 +16,7 @@ CAMPANVS. Sint duæ lineæ a b & d c æquidistantes, de quibus constat per diffi
 
 *[Figure: two horizontal parallels b a (with e upon it) and d c (with f upon it); between e and f a straight line and a curved line forming a lens]*
 
-Eucli. ex Zamb. Theorema 7 Propositio 7
+## Eucli. ex Zamb. Theorema 7 Propositio 7
 
 *[Margin: 7]*
 
@@ -24,7 +26,7 @@ THEON ex Zamb. Sint binæ rectæ lineæ parallelæ α β, γ δ, sumanturq̃ in 
 
 *[Figure: two horizontal parallels α β (with ε upon it) and γ δ (with ζ upon it); between ε and ζ a straight line and a curved line through η forming a lens]*
 
-Eucli. ex Cãp. Propositio 8
+## Eucli. ex Cãp. Propositio 8
 
 *[Margin: 8]*
 
@@ -34,4 +36,4 @@ CAMPANVS. Hæc est quasi conuersa sextæ. Sint enim duæ lineæ a b & c d æquid
 
 *[Figure: two vertical parallels c d and a b; e on the line c d below c; from e the lines e b and e f drawn to b and to f below the line d b, with lines d f and b f]*
 
-*[Signature: G 3]* *[Catchword: dicu-]*
+<!-- Signature: G 3 --> <!-- Catchword: dicu- -->

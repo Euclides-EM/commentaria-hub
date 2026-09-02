@@ -1,12 +1,12 @@
-*[Folio: 197]*
+<!-- # LIBER SEPTIMVS -->
 
-# LIBER SEPTIMVS
+<!-- Folio: 197 -->
 
 CANPANVS *[sic, for CAMPANVS]* Huius sensus est, quod omnis numerus numeratus a ternario: habet tertiam, & numeratus a quinario: habet quintam sicq̃ de cæteris ut si b numeret a, erit in a pars denominata a b, nūeret enim ipsum, quoties unitas in c, eritque per 16 ut c quoque toties numeret a, quoties unitas in b, quare tota pars est c,a: quota unitas b, & quia unitas est pars omnis numeri ab ipso denominata per communem scientiam: erit c pars a, denominata a b, quod est propositum.
 
 *[Figure: dotted number lines beside the text: unitas · / c··· c·· / a······]*
 
-Eucli. ex Zamb. — Theorema 34 — Propositio 39
+## Eucli. ex Zamb. — Theorema 34 — Propositio 39
 
 *[Margin: 39]*
 
@@ -16,7 +16,7 @@ THEON ex Zamb. Nuuerum *[sic, for Numerum]* enim α, numerus aliquis β, metiatu
 
 *[Figure: dotted number lines beside the text: α············ / β···· / γ··· / δ·]*
 
-Eucli. ex Camp. — Propositio 38
+## Eucli. ex Camp. — Propositio 38
 
 *[Margin: 38]*
 
@@ -28,7 +28,7 @@ CAMPANVS Hæc est cōuersa præmissæ: cuius est intētio, quod omnis numerus ha
 
 *[Figure: dotted number lines beside the text: unitas · / b·· c··· / a······]*
 
-Eucli. ex Zamb. — Theorema 35 — Propositio 40
+## Eucli. ex Zamb. — Theorema 35 — Propositio 40
 
 *[Margin: 40]*
 
@@ -38,7 +38,7 @@ THEON ex Zamb. Numerus inquam α, partem habeat quamlibet β, & ipsi β, parti c
 
 *[Figure: dotted number lines beside the text: α········ / β···· / γ·· / δ·]*
 
-Eucli. ex Camp. — Propositio 39
+## Eucli. ex Camp. — Propositio 39
 
 *[Margin: 39]*
 
@@ -54,4 +54,4 @@ CAMPANVS. Sint a,b,c,d denominantes partes propositas. & e minimus numeratus ab 
 
 *[Figure: dotted number lines beside the text: e············ / a··· f······ / b··· g···· / c····· h··· / d······ k··]*
 
-*[Signature: r 3]* *[Catchword: per]*
+<!-- Signature: r 3 --> <!-- Catchword: per -->

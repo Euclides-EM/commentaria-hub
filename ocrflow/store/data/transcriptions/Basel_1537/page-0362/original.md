@@ -1,4 +1,6 @@
-# LIBER VNDECIMVS. *[Folio: 351]*
+<!-- # LIBER VNDECIMVS. -->
+
+<!-- Folio: 351 -->
 
 perficiem perpendicularis erit.
 
@@ -6,7 +8,7 @@ CAMPANVS. Sit linea a b orthogonaliter erecta super incisionẽ duarum linearũ 
 
 *[Figure: lines c d and e f crossing at b, with the transversal g h through b (its left end printed b, right end g); from the point a at the apex, lines a c, a d, a e, a f, a g, a h are drawn to all the points below]*
 
-Eucli. ex Zamb. Theorema 4 Propositio 4
+## Eucli. ex Zamb. Theorema 4 Propositio 4
 
 *[Margin: 4]*
 
@@ -16,7 +18,7 @@ THEON ex Zamb. Recta enim linea quædam ε ζ, duabus rectis lineis α β, γ δ
 
 *[Figure: lines α β and γ δ crossing at ε with the transversal η θ through ε; from ζ at the apex, lines ζ α, ζ η, ζ δ, ζ γ, ζ θ, ζ β are drawn; labels ζ top, α left, γ right, η and θ at the ends of the transversal, δ bottom left, β bottom right]*
 
-Eucli. ex Camp. Propositio 5
+## Eucli. ex Camp. Propositio 5
 
 *[Margin: 5]*
 
@@ -24,4 +26,4 @@ Eucli. ex Camp. Propositio 5
 
 CAMPANVS. Sit linea a b orthogonaliter erecta super cõmunem terminũ trium linearũ b c, b d, b e, angulariter se contingentiũ in puncto b, quarũ nulla alij directe applicetur, quod idem est ac si seinuicem secent in
 
-*[Signature: G 2]* *[Catchword: puncto]*
+<!-- Signature: G 2 --> <!-- Catchword: puncto -->

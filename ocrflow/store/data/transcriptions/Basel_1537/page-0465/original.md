@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 454]*
+<!-- Folio: 454 -->
 
 æquum ei quod fit ex b d in f g. Sed quod fit ex e f, in g e, æquum est quadrato f *[sic: for f g]* ex diffinitione lineæ diuisæ secundū proportionem habentem medium duoqꝫ extrema, & ex prima parte 16 sexti, igitur ꝙ fit ex b p *[sic: for b d]* in f g est æquale quadrato f g, ideoqꝫ ex prīa sexti linea b d, æqualis f g. Et quia f g est æqualis c b, erit quoqꝫ c b æqualis b d, & latus decagoni. Quod oportebat ostendere.
 
@@ -24,4 +24,4 @@ CAMPANVS. Sit sphæra cuius diameter a b, circunscribens duas solidas figuras, u
 
 *[Figure: circle with an inscribed pentagon, its apex f at the top; e and g mark the ends of the two sides containing the angle at f, with the chord e g drawn; c is the centre, and the line f c is drawn from the apex through the centre]*
 
-*[Catchword: dium]*
+<!-- Catchword: dium -->

@@ -1,6 +1,6 @@
-# LBER SEXTVS *[sic, for LIBER]*
+<!-- # LBER SEXTVS *[sic, for LIBER]* -->
 
-*[Folio: 149]*
+<!-- Folio: 149 -->
 
 logrammum ad ζ ε, & ut igitur (per 11 quinti) α β, ad ζ ε, sic β γ, ad ζ ε, æquum igitur est α β, parallelogrammum, ipsi β γ, parallelogrammo. Aequalium igitur & æquiangulorum parallelogrammorum reciproca sunt latera: quæ circum æquales angulos, & quorum æquiangulorum parallelogrammorum reciproca sunt latera, quæ circum æqua les angulos, ea quoque sunt æqualia. quod demonstrasse oportuit.
 
@@ -34,6 +34,6 @@ THEON ex Zamberto. Sint æqualia triangula α β γ, & α δ ε, unum uni æqual
 
 ### SI fuerint quatuor lineæ proportionales,quod sub prima & ultima rectangulum continetur,æquum erit ei quod sub dnabus reliquis.S iuero quod sub prima & ultima continetur,æquum fue-
 
-*[Signature: n 3]*
+<!-- Signature: n 3 -->
 
-*[Catchword: rit]*
+<!-- Catchword: rit -->

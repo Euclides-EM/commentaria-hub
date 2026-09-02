@@ -1,6 +1,6 @@
-# 582 EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 582]*
+<!-- Folio: 582 -->
 
 tur b d. Datur igitur & b c, est aũt & a c, datũ, & angulus a b c datus. Data igitur est a b, utraq̃ igitur ipsarum a b, b c, datã est.
 
@@ -34,4 +34,4 @@ SI in circuli positione dati circunferentia assumptũ fuerit signũ datũ, ab ho
 
 Circuli enim positione dati a b c in circũferẽtia accipiatur datũ signũ b, ab ipso aũt b refringatur recta linea b a c. datũ efficiẽs angulũ b a c. Dico quod c signũ datur. Assuma-
 
-*[Catchword: tur]*
+<!-- Catchword: tur -->

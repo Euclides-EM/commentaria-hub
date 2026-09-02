@@ -1,4 +1,4 @@
-*[Folio: 382]*
+<!-- Folio: 382 -->
 
 # GEO. ELEMEN. EVCLIDIS
 
@@ -12,7 +12,7 @@ tia signa η,μ,excitenturq̃;(per 11 undecimi)ab ipsis η,μ,signis ad ea quæ 
 
 CORRELARIVM. Ex hoc nempe manifestū,quod si fuerint bini anguli plani rectilinei æquales,steterintq̃; super ipsis sublimes rectæ lineæ æquales æquos angulos cōprehendentes,cum ijs quæ in principio rectis lineis alterum alteri,quæ ex ipsis perpendiculares ductæ ad plana in quibus sunt qui principio anguli,sunt æquales.
 
-Eucli.ex Camp. Propositio 38
+## Eucli.ex Camp. Propositio 38
 
 *[Margin: 38]*
 
@@ -20,4 +20,4 @@ Eucli.ex Camp. Propositio 38
 
 CAMPANVS De solidis parallelogrāmis intelligatur.de his enim qualiacunq̃ sint dum tamen æquiangula,uerum est,quod contentum à tribus lineis proportionalibus æquale est ei quod à media earū continetur,quēadmodū de superficiebus rectangulis probatū est in 16 sexti,& de non rectangulis elicitur euidenter ex secunda parte 13 eiusdem. Sint igitur tres lineæ a b,b c,& c d,cōtinue proportionales,fiatq̃ ex eis unus angulus solidus ad libitum,& perficiatur solidū æquidistātiū laterū cuius linea a b sit longitudo,b c uero altitudo, sed c d latitudo, & ipsum solidum dicatur e d.Sūpta quoq̃ alia linea qualibet æquali b c quæ etiam uocetur b c.super ipsius extremitatē quæ est b
 
-*[Catchword: con]*
+<!-- Catchword: con -->

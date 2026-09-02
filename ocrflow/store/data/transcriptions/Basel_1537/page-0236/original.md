@@ -1,6 +1,6 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 225]*
+<!-- Folio: 225 -->
 
 CAMPANVS. Sint usq̃ ad d continue proportionales ab unitate: sitq̃ e numerus primus, de quo ponatur, ipsum numerare d: dico quod idem numerabit a. Nam si non, erit ad ipsum primus per 32 septimi, & quia ex a in se fit b, sequitur ex 25 eiusdem, ut ipse quoq̃ sit primus ad b, sed & ad c & ad d, sequitur ipsum esse primum per 25 eiusdem, eo q̃ ex a in b fit c, & ex eodem in c, d, non ergo numerat d, cum sit primus ad ipsum, quare accidit contrariū hypothesi. Idem aliter.
 
@@ -8,7 +8,7 @@ Cum sit e primus, si non numerat a, primus erit ad ipsum per 32 septimi, itaq̃ 
 
 *[Figure: vertical dotted lines from unitas labelled a, b, c, d, e, h, g, f with rotated values 6, 36, 216, 1296, 2, 18, 108, 648]*
 
-Eucli. ex Camp. Propositio 12
+## Eucli. ex Camp. Propositio 12
 
 **12** IN numeris ab unitate continue proportionalibus, minor maiorem numerat, secundū aliquē in illa proportionalitate dispositū.
 
@@ -20,7 +20,7 @@ CAMPANVS. Sint ab unitate usq̃ ad f continue proportionales. dico nullum ipsor�
 
 Sequentes duæ ex Zamberto Euclidis propositiones, duabus præcedentibus ex Campano ordine præpostero respondent.
 
-Eucli ex Zamb. Theorema 2 *[sic, for Theorema 11]* Propositio 11
+## Eucli.ex Zamb. Theorema 2 *[sic, for Theorema 11]* Propositio 11
 
 **11** Si ab unitate quotcunq̃ numeri cōtinue proportionales fuerint, minor maiorem metitur per aliquem præexistentē in proportionalibus numeris.
 
@@ -28,10 +28,10 @@ THEON ex Zamb. Sint ab unitate α, quotcunq; numeri continue proportionales β,�
 
 *[Figure: dotted number lines labelled ε, δ, γ, β, α]*
 
-Eucli. ex Zamb. Theorema 12 Propositio 12
+## Eucli. ex Zamb. Theorema 12 Propositio 12
 
 **12** Si ab unitate quotlibet numeri cōtinue proportionales fuerint, quot primorū numerorū ultimū metient̃, tot & eum qui apud unitatē est metiētur.
 
 THEON ex Zamb. Sint ab unitate quotlibet continue proportionales numeri α, β, γ, δ. Dico quod quot primorū numerorū ipsum δ metiuntur, tot quoq; & ipsum α metientur: metiatur enim ipsum δ numerus aliquis primus ε. Dico quod ε ipsum α metitur, non enim metiatur ε ipsum α, est autem ε primus, omnis autem numerus ad omnem numerū quem non metitur primus est (per 31 septimi,) ipsi igitur α, ε, primi sunt adinuicē. Et quoniam ε ipsum δ metitur, metiatur ipsum per ζ. Igitur ε ipsum ζ multiplicās, ipsum effecit δ. Rursus quoniam α ipsum δ metitur per eas quæ in ipso δ sunt unitates, igitur α ipsum γ multiplicans, ipsum δ effecit. Sed & ε ipsum ζ multiplicans, ipsum δ
 
-*[Catchword: effecit.]*
+<!-- Catchword: effecit. -->

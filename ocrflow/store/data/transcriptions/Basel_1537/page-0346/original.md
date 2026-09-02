@@ -1,10 +1,12 @@
-# LIBER DECIMVS *[Folio: 335]*
+<!-- # LIBER DECIMVS -->
+
+<!-- Folio: 335 -->
 
 THEON ex Zāb. Esto cum medio mediū, totū efficiēs α β, & ipsi α β, cōmensurabilis esto γ δ. Dico quod γ δ cū medio mediū totū efficiēs est. Sit (per 78 decimi) ipsi α β, cōgruēs β ε, & eadē cōstruantur. Ipsæ igitur α ε, ε β, (per eandem potētia sunt incōmensurabiles, efficientes conflatū ex ipsarū quadratis mediū, & quod sub ipsis medium, & insuper incommensurabile conflatum quidem ex ipsarum quadratis ei quod sub ipsis. Suntq̃, sicut ostensum est, ipsæ α ε, ε β, commensurabiles ipsis, ε ζ *[sic: for γ ζ]*, ζ δ, conflatum ex ipsarum, α ε, ε β, quadratis conflato ex ijs quæ ex γ ζ, ζ δ, quod autem sub α ε: ε β, ei quod sub γ ζ, ζ δ. Et ipsæ igitur γ ζ, ζ δ, potentia sunt incommensurabiles, efficientes conflatū ex ipsarum quadratis mediū, & quod sub ipsis mediū, & insuper incommēsurabile conflatū ex ipsarum quadratis ei quod sub ipsis. Igitur γ δ. cum medio medium totum efficiens est. Cum medio medium totum igitur, & quæ sequuntur reliqua. Quod ostendendum erat.
 
 *[Figure: two horizontal lines, one above the other: the upper labelled α at the left end, β at the division point, ε at the right end; the lower labelled γ at the left end, δ at the division point, ζ at the right end]*
 
-Eucli.ex Camp. — Propositio 103
+## Eucli.ex Camp. — Propositio 103
 
 *[Margin: 103]*
 
@@ -16,7 +18,7 @@ CAMPANVS Sit enim tota superficies cōstās ex a & b, rationalis. a qua detrahat
 
 *[Figure: a larger rectangle on base c d (c bottom-left, d bottom-right), divided by a horizontal line f–e (f on the left side, e on the right side), with g at the top right]*
 
-Eucli.ex Zamb. — Theorema 84 — Propositio 108
+## Eucli.ex Zamb. — Theorema 84 — Propositio 108
 
 *[Margin: 108]*
 
@@ -28,10 +30,10 @@ THEON ex Zamb. A rōnali enim β γ, auferatur media β δ. Dico quod quæ reliq
 
 *[Figure: rectangle with ζ above the top-left corner, κ above the top edge towards the right, η above the top-right corner; a vertical line runs down from κ; θ below the bottom-left corner, λ below the bottom of the dividing line]*
 
-Eucli.ex Camp. — Propositio 104
+## Eucli.ex Camp. — Propositio 104
 
 *[Margin: 104]*
 
 ## SI de superficie mediali superficies rationalis detrahatur, linea in reliquam superficiem potens erit alterutra duarum irrationalium linearum, aut residuum mediale primum, aut cum rationali componens mediale.
 
-*[Catchword: CAM]*
+<!-- Catchword: CAM -->

@@ -1,10 +1,10 @@
-*[Folio: 140]*
+<!-- Folio: 140 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 linea d e æquidistans lineæ b c,quod est secundum.
 
-Eucli,ex Zamb. Theorema 2 Propositio 2
+## Eucli.ex Zamb. Theorema 2 Propositio 2
 
 ## 2
 
@@ -14,7 +14,7 @@ THEON ex Zamberto. Trianguli enim α β γ.parallelus ad latus β γ,agatur δ �
 
 *[Figure: right triangle with apex α at top, base line β γ at bottom, points δ and ε on the sides joined by a line parallel to the base, with diagonals crossing below]*
 
-Eucli.ex Camp. Propositio 3
+## Eucli.ex Camp. Propositio 3
 
 ## 3
 
@@ -26,10 +26,10 @@ CAMPANVS Sit trigonus a b c,cuius angulum a diuidat linea a d per æqualia,dico 
 
 *[Figure: triangle with base b d c and vertex a at the top, a point e partway down within the figure, with lines a d and e b drawn]*
 
-Eucli.ex Zamb, Theorema 3 Propositio 3
+## Eucli.ex Zamb. Theorema 3 Propositio 3
 
 ## 3
 
 Si trianguli angulus bifariam secetur , dispescens autem angulum recta linea secuerit & basin,basis segmenta eandem habebunt rationem reliquis ipsius trianguli lateribus , & si basis segmenta eandem habuerint rationem reliquis ipsius trianguli lateribus,à uertice ad sectionem con
 
-*[Catchword: iuncta]*
+<!-- Catchword: iuncta -->

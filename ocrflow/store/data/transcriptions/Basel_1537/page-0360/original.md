@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 349]*
+<!-- Folio: 349 -->
 
 recta linea æqua fuerit reliquæ quæ circum rectum circumductæ, rectangulus erit conus. Si uero minor, amblygonius. Si autem maior, oxygonius.
 
@@ -32,6 +32,6 @@ THEON ex Zamberto. Si enim possibile, rectæ lineæ α β γ, pars quidem α β 
 
 CAMPANVS. Sint duæ lineæ rectæ a b & c d, se inuicẽ secantes in puncto c. Dico eas esse in superficie una, & omnem triangulũ dico esse in superficie una totum. Signetur enim punctus f, in linea c d, & punctus g, in linea
 
-*[Signature: G]*
+<!-- Signature: G -->
 
-*[Catchword: a b, &]*
+<!-- Catchword: a b, & -->

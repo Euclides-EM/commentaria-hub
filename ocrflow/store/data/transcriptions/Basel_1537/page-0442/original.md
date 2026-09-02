@@ -1,4 +1,6 @@
-# LIBER TERTIVSDECIMVS. *[Folio: 431]*
+<!-- # LIBER TERTIVSDECIMVS. -->
+
+<!-- Folio: 431 -->
 
 ab in l a & in l b eſt æquale quadrato lineæ a b: eſt autem linea a b latus pentagoni æquilateri, ppoſito circulo inſcripti, linea uero a h eſt latus decagoni æquilateri, & linea b eſt ex correlario 15 quarti æqualis lateris hexagoni æquilateri propoſito circulo inſcriptorum, inconcuſſa demonſtratione aſtruitur hoc quod dicitur.
 
@@ -20,4 +22,4 @@ SI circuli pentagonum æquilaterum circũſcribentis, diameter fuerit rationalis
 
 CAMPANVS Sit pentagonus æquilaterus a b c d e inſcriptus circulo eiſdem literis aſcripto, cuius centrum f, & duæ diametri b g & a h. ſitq̃ utraque harum diametrorum linea rationis in longitudine. Dico tunc quod latus pentagoni inſcripti, erit linea irrationalis, illa uidelicet quæ dicitur minor. Protrahatur enim linea a c. quæ ſecet diametrum b, in puncto k, eritq̃ ex ultima ſexti & 4 primi linea a c, diuiſa à diametro b g orthogonaliter & per æqualia in puncto k, quia cum ſemicirculus b a g ſit æqualis ſemicirculo b c g, & arcus b a arcui b c. ſicut conſtat ex 27 tertij, erit arcus a g reſiduus, æqualis arcui c g reſiduo. ideóque ex ultima ſexti angulus a b g. æqualis etiam anguo *[sic: for angulo]* c b g. Cum itaque duo latera a b & b k trianguli a b k ſint æqualia duobus lateribus c b & b k trianguli c b k, & angulus b unius angulo b alterius, erit ex 4 primi baſis a k æqualis baſi k c. & omnes anguli qui ſunt e d k, ſunt recti ex prima parte 3 tertij. Diameter autem a h, ſecet latus pentagoni c d. in puncto l. Eritque linea c d diuiſa à diametro a h orthogonaliter, & per æqualia in puncto l. Cum enim ſint duo arcus a d h & a c h æquales, & arcus a c, ſit æqualis arcui a d, erunt duo reſidui ſemicirculorum
 
-*[Catchword: qui]*
+<!-- Catchword: qui -->

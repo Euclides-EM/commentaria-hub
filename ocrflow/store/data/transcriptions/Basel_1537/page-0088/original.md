@@ -1,6 +1,6 @@
-# LIBER TERTIVS
+<!-- # LIBER TERTIVS -->
 
-*[Folio: 79]*
+<!-- Folio: 79 -->
 
 bus maioris segmenti, maior est recto: minoris autem segmenti, recto minor, quod demonstrasse oportuit.
 
@@ -34,4 +34,4 @@ THEON ex Zamberio. Circulum enim α β γ δ, tangat recta linea quædam ἡ ε 
 
 ## Eucli. ex Camp. Propositio 32.
 
-*[Signature: g 4]* *[Catchword: Super]*
+<!-- Signature: g 4 --> <!-- Catchword: Super -->

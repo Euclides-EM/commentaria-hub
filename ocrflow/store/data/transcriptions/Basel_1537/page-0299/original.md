@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 288]*
+<!-- Folio: 288 -->
 
 qualē quærimus.Est enim ex ultima parte prædicti correlarij numerus f non quadratus,eo quod d numerus sit nō quadratus. Si enim d nūerus esset quadratus,esset quoque b quadratus ex 2 parte eiusdē correlarij 2 noni &ex 22 octaui.& quia a est quadratus,esset per 16 eiusdem,tertius continue proportionalis inter a & b,quod est impossibile,cum sint sola unitate distantes, non est igitur d quadratus,quare nec f,est enim f æqualis d & e,quoniam cum b sit differentia d ad c,ut patet ex præmissis, erit per primā incidentiū noni quod fit ex a in d,æquū ijs quæ fiunt ex a in b & in c.& quia ex a in b fit d,& in c fit e,sequitur ut d sit differentia f ad e,& quia per 18 septimi est f ad e sicut d ad c,erit permutatim f ad d sicut e ad c.Cumq̃ uterque duorū numerorum e & c sit quadratus,manifestum est numerum f esse qualem uolumus,est enim non quadratus diuisibilis in d non quadratum & e quadratū,cuius proportio ad d est sicut quadrati ad quadratum uidelicet e ad c. Cætera omnia sint ut prius:Dico quod lineæ f g &g h componunt binomium secūdum. Cum enim sit a quadratum f g sicut b ad c,rursusque quadratum f g ad quadratum g h sicut c ad e,erit per æquā proportionalitatem quadratū a ad quadratū g h,,sicut b ad e.Cum igitur uterque duorum numerorū b & e sit quadratus,erit per 2 partem 7,linea g h cōmunicans in longitudine lineæ a rationali positæ, de linea uero f g cōstat quod ipsa sit rationalis in potentia tantum non communicans lineæ a rationali positæ in longitudine per ultimā partē 7,quæ cū sit potentior linea g h in linea f h per 30 tertij & penultimam primi,cōmunicet autem linea f h lineæ f g in longitudine per secundā partē 7,eo quod eorum quadrata sunt in proportione numerorum c & d quorum est proportio sicut uumerorum *[sic: numerorum]* quadratorum per hypothesin,constat propositum. Aliter quoque idem. Esto linea g h,cōmunicans a rationali positæ in longitudine, quā facile est inuenire,sitq̃ c numerus quadratus diuisibilis in quadratum d,& non quadratum e,sitque proportio quadrati lineæ g h ad quadratum lineæ f g,sicut numerus e ad numerum c eritq̃ f incommensurabilis lineæ g h in longitudine per ultimam partem 7,& potentior ea in quadrato lineæ f h,cui communicat in longitudinē primo per conuersam deinde per euersam proportionalitatem,& per secundam partem 7,ex diffinitione igitur,lineæ f g & g h,componunt binomium secundum.
 
@@ -16,4 +16,4 @@ THEON ex Zamb. Explicētur bini numeri α γ,γ β,ut ex ipsis compositus α β,
 
 *[Figure: at the right of the proof — a dotted line of unit points with labels α, γ, β; a solid line δ; a solid line divided at ζ with the parts numbered 12 and 9; and a shorter solid line with the labels θ and β above it]*
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

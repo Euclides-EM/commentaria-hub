@@ -1,6 +1,6 @@
-# LIBER PRIMVS
+<!-- # LIBER PRIMVS -->
 
-*[Folio: 3]*
+<!-- Folio: 3 -->
 
 sita latera habet æqualia atque oppositos angulos æquales, idem tamen nec rectis angulis nec æquis lateribus continetur. 34 Præter has autem omnes, quadrilateræ figuræ, helmuariphe nominantur.
 
@@ -18,4 +18,4 @@ sita latera habet æqualia atque oppositos angulos æquales, idem tamen nec rect
 
 CAMPANVS. Sciendum est autem, quod præter has cōmunes animi conceptiones, siue cōmunes sententias, multas alias quæ numero sunt incōprehensibiles, prętermisit Euclides: quarum, hæc est una. Si duæ quantitates æquales, ad quamlibet tertiam eiusdem generis comparētur: simul erunt ambæ illa tertia, aut æque maiores, aut æque minores, aut simul æquales. Item alia. Quanta est aliqua quantitas ad quamlibet aliam eiusdem generis, tantam esse quamlibet tertiam ad aliquā quartam eiusdem generis. In quantitatibus continuis hoc uniuersaliter uerum est, siue antecedentes maiores fuerint consequentibus, siue minores: magnitudo enim decrescit in infinitum: in numeris autem, non sic. Sed si fuerit primus submultiplex secundi, erit quilibet tertius æque submultiplex alicuius quarti: quoniam numerus crescit in infinitum, sicut magnitudo in infinitum minuitur.
 
-*[Signature: a 2]* *[Catchword: EVCLIDIS]*
+<!-- Signature: a 2 --> <!-- Catchword: EVCLIDIS -->

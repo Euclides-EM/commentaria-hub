@@ -1,6 +1,6 @@
-# LIBER DVODECIMVS.
+<!-- # LIBER DVODECIMVS. -->
 
-*[Folio: 397]*
+<!-- Folio: 397 -->
 
 triplum est ad pyramidem propositā, nam ipsa est una ex tribus pyramidibus in quas ipsum seratile diuiditur, erit quoq̃ per communem scientiam propositum seratile triplum ad propositam pyramidem.
 
@@ -30,4 +30,4 @@ THEON ex Zamb. Sit prisma α β γ δ ε ζ, cuius quidem basis sit α β γ tri
 
 *[Figure: triangular prism drawn in perspective — top triangle with ε at upper left, ζ at top middle, δ at upper right; bottom triangle with β at lower left, α at lower right, γ within; diagonals β δ, ε γ, γ δ drawn across the faces]*
 
-*[Signature: L]* *[Catchword: quidem]*
+<!-- Signature: L --> <!-- Catchword: quidem -->

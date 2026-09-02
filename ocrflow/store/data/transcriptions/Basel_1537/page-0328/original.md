@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 317]*
+<!-- Folio: 317 -->
 
 ## Ex Zamberto. Apotomarum Diffinitiones.
 
@@ -36,4 +36,4 @@ THEON ex Zãb. Exponatur rationalis α, & ipsi α longitudine commensurabilis es
 
 *[Figure: four horizontal lines: rational line α (label printed above the middle of the line); line with points β, γ, η marked above; shorter line θ; dotted number line with points δ, ζ, ε (the numbers δ ε and ε ζ)]*
 
-*[Signature: D 3]* *[Catchword: dine]*
+<!-- Signature: D 3 --> <!-- Catchword: dine -->

@@ -1,12 +1,12 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 167]*
+<!-- Folio: 167 -->
 
 qui sunt ad a,& de ijs qui sunt ad e,sicut igitur arcus k c est multiplex arcus b c,ita angulus k d c anguli b d c.& angulus k a c anguli b a c,similiter sicut arcus m g est multiplex arcus fg, ita angulus m h g anguli f h g,& angulus m e g anguli f e g,sed si arcus k c est æqualis arcui m g,angulus k d c est æqualis angulo m h g,& angulus k a c angulo m e g,& si maior,maiores,& si minor, minores per 26 tertij: per diffinitionem itaque incontinuæ proportionalitatis proportio arcus b c ad arcū f g,est sicut anguli b d c ad angulum f h g,& sicut anguli b a c ad angulū f e g, quod est propositum.Idem intellige in eodem circulo,
 
 *[Figure: two circles: left circle with a at top, centre d, and points k, b, c on the circumference, with lines joining them; right circle with e at top, centre h, and points m, l, f, g on the circumference, with lines joining them]*
 
-Eucli.ex Zamb. Theorema 23 Propositio 33
+## Eucli.ex Zamb. Theorema 23 Propositio 33
 
 ## 33
 
@@ -16,4 +16,4 @@ THEON ex Zāb. Sint æquales circuli α β γ,& δ ε ζ,ad eorūq̃ centra η �
 
 *[Figure: two circles: left circle with α at top, centre η, and points β, γ, κ, λ, ξ on the circumference, joined by chords and radii; right circle with δ at top, centre θ, and points ε, ζ, μ, ν, ο on the circumference, joined by chords and radii]*
 
-*[Catchword: pterea]*
+<!-- Catchword: pterea -->

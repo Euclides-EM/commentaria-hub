@@ -1,6 +1,6 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 157]*
+<!-- Folio: 157 -->
 
 pta sunt, ab ipsis quidẽ α β, & γ δ, similia similiterq́̃ posita κ α β, & λ γ δ, ab ipsis autem ε ζ, & π ρ, similia similiterq́̃ posita μ ζ, & σ ρ, est igitur sicut κ α β, ad λ γ δ, sic μ ζ, ad σ ρ, positũ aũt est quod sicut κ α β, ad λ γ δ, sic μ ξ, ad ν θ, & sicut igitur (per 11 quinti) μ ζ, ad σ ρ, sic μ ζ, ad ν θ, Igitur (per 9 quinti) μ ζ, ad utrũq̃; ipsorũ ν θ, & σ ρ, eãdẽ habet rationẽ, æquale igitur est ν θ, ipsi σ ρ. Est aũt ei & simile similiter positũ: æqualis igitur est η θ, ipsi π ρ. Et quoniã est sicut α β, ad γ δ, sic ε ζ, ad π ρ. æqualis autem est π ρ, ipsi η θ, est igitur sicut α β, ad γ δ, sic ε ζ, ad η θ. Si quatuor igitur rectæ lineæ proportionales fuerint, & quæ ab ipsis rectilinea similia similiterque descripta, proportionalia erũt, & si ab ipsis rectilinea similia similiterq́̃ descripta proportionalia fuerint, & ipsæ rectæ lineæ proportionales erunt, quod demonstraße oportuit.
 
@@ -10,7 +10,7 @@ LEMMA. Quod autem si rectilinea æqualia & similia fuerint similis rationis late
 
 *[Figure: a larger square labelled μ on the base ε ζ, and a smaller square labelled ν on the base η θ; below, two short horizontal lines, one labelled ο, and a square labelled σ with base vertices π and ρ]*
 
-Eucli,ex Camp. Propositio 22
+## Eucli.ex Camp. Propositio 22
 
 ## 22 CVnctæ superficies æquidistantium laterum, quæ circa diametrũ consistunt, toti parallelogrammo atque sibi inuicem sunt similes.
 
@@ -18,7 +18,7 @@ CAMPANVS. Sit ut in parallelogrammo b d cuius diameter a c, consistant superfici
 
 *[Figure: parallelogram with corners a (top left), b (top right), d (bottom left), c (bottom right); k on the top side, b on the bottom side, f on the left side, g on the right side, e at the centre; the diagonal a c, the vertical line through k, and the horizontal line f g are drawn]*
 
-Eucli.ex Camp. Propositio 23
+## Eucli.ex Camp. Propositio 23
 
 ## 23 Si in suo spatio parallelogrammum partiale distinctum toti parallelogrammo simile atque secundum suum illius esse fuerit, circa eiusdem diametrum consistit.
 
@@ -26,4 +26,4 @@ CAMPANVS Sit ut in parallelogrammo b d sit distinctum parallelogrammum f g, quod
 
 *[Figure: parallelogram with corners a (top left), b (top right), d (bottom left), e (bottom right); f on the base, k and g on the right side, h and e inside; two lines from a run to the bottom right corner, with a vertical and a horizontal line crossing at the centre]*
 
-*[Catchword: b d,]*
+<!-- Catchword: b d, -->

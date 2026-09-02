@@ -1,8 +1,8 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 228]*
+<!-- Folio: 228 -->
 
-Eucli.ex Zamb. Theorema 14 Propositio 14
+## Eucli.ex Zamb. Theorema 14 Propositio 14
 
 **14** Si minimum numerum primi numeri mensi fuerint, nullus alius primus numerus ipsum metietur præter eos qui in principio metiuntur.
 
@@ -12,7 +12,7 @@ THEON ex Zamberto. Minimus enim quem ipsi β,γ,δ, primi metiuntur, sit α. Dic
 
 Hæc decimaquinta sequens ex Campano propositio, nullam in Zamberto respondentem habet.
 
-Eucli. ex Camp. Propositio 15
+## Eucli. ex Camp. Propositio 15
 
 **15** SI quotlibet numeri continue proportionales secundum suam proportionem fuerint minimi, quicunq̃ aliquem illorum numerat, alteri terminorum illius proportionis erit cōmensurabilis.
 
@@ -22,7 +22,7 @@ CAMPANVS. Sint a, b,c,d,e, cōtinue proportionales & minimi secundum proportion�
 
 *[Figure: dotted number lines labelled a, b, c, d, e, k, l, m, n, p, q, r, and below f, g, h]*
 
-Eucli.ex Camp. Propositio 16
+## Eucli.ex Camp. Propositio 16
 
 **16** SI fuerint numeri quotlibet continue proportionales in sua proportione minimi, quilibet eorum ad compositum ex reliquis primus esse necessario comprobarur.
 
@@ -30,4 +30,4 @@ Eucli.ex Camp. Propositio 16
 
 CAMPANVS. Sint a, b, c, continue proportionales & minimi: dico compositum ex a,b,c, primtm esse ad d. Si enim non, aliquis numerus qui sit e, compositum ex a,b,c, numerabit & d, per præmissam igitur erit e, cōmunicans alteri terminorum illius proportionis qui sunt f & g, erit itaq̃ numerus aliquis numerans c, & alterū
 
-*[Catchword: duorum]*
+<!-- Catchword: duorum -->

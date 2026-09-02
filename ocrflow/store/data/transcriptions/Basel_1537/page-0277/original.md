@@ -1,12 +1,12 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 266]*
+<!-- Folio: 266 -->
 
 linea e g sit rationalis in longitudine sicut sua æqualis c d, erit per 16 linea e f rationalis in longitudine & cōmunicans lineæ e g, per 20 autem est utraque duarum linearum c e & e f potētialiter tantū rationalis, & lineæ c d incōmensurabilis in longitudine, itaq̃ e f linea est incōmensurabilis lineæ c e in lōgitudine. Et quia per primam sexti quadratum lineæ e f ad superficiem quæ fit ex e f in c e est, sicut e f ad c e, sequitur per secūdam partem decimæ ut quadratum lineæ e f sit iucōmensurabile *[sic: incōmensurabile]* superficiei factæ ex e f in c e, quare & ipsum quadratum erit incommensurabile duplo superficiei ex e f in c e, quadratū uero c e cum sit rationale. est cōmunicans quadrato e f, totum igitur ex ambobus cōpositum erit per 9 cōmunicans quadrato e f. Et ideo incōmensurabile duplo superficiei ex e f in c e. Et quia per 4 secundi quadratum lineæ c f est æquale duobus quadratis duarum linearum c e & e f, & duplo superficiei ex c e in e f, & duplum superficiei c e in e f est incommensurabile aggregato ex duobus quadratis duarum linearum c e & e f, sequitur per ea quæ addita sunt in 5, ut quadratū c f sit incommensurabile aggregato ex duobus quadratis duarum linearum c e & e f. At cum aggregatum ex his quadratis sit rationale, sequitur quadratnm *[sic: quadratum]* lineæ c f non esse rationale, & ideo linea c f non est rationalis in potentia, & idcirco non erit superficies d f medialis, neq̃ a b sibi æqualis, quod est inconueniens, cum sit contrarium positis. Relinquitur igitur quod superficies b, est irrationalis, quod est propositum.
 
 *[Figure: a rectangle divided by a horizontal line into a smaller upper part b and a larger lower part a; beside it a rectangle with f at top left, divided by a horizontal line e–g, with c at bottom left and d at bottom right]*
 
-Eucli.ex Camp. Propositio 23
+## Eucli.ex Camp. Propositio 23
 
 *[Margin: 23]*
 
@@ -18,4 +18,4 @@ CAMPANVS. Sint duæ lineæ a b & b c mediales potentia tantū communicantes, dic
 
 *[Figure: a square with top side labelled e, b, c, interior labelled a, and above the segment b c a square labelled d at its top; beside it a tall rectangle divided into three stacked parts labelled l, m and b, with k at the left between the upper parts, f at bottom left and g at bottom right]*
 
-*[Catchword: CAMPANI]*
+<!-- Catchword: CAMPANI -->

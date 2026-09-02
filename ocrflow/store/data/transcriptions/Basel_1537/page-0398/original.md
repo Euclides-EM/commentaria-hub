@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 387]*
+<!-- Folio: 387 -->
 
 ## Eucli. ex Camp. Propositio 41
 
@@ -20,4 +20,4 @@ THEON ex Zamber. Sint bina prismata α β γ δ ε ζ, η θ κ λ μ ν, & alte
 
 *[Figure: two parallelepipeds side by side, each cut by diagonal planes into prisms: the left with points γ, δ, ξ on top, ζ within, β, π at mid height, α, ε at bottom; the right with points μ, θ on top, θ at left, λ within, ν at right, η, κ at bottom]*
 
-*[Signature: K 2]* *[Catchword: EVCLIDIS]*
+<!-- Signature: K 2 --> <!-- Catchword: EVCLIDIS -->

@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 124]*
+<!-- Folio: 124 -->
 
 portio, non autem econuerso. Sit igitur a ad b, & c ad d, & e ad f, una proportio, dico quòd quæ est proportio a ad b, eadem est compositi ex a c e, ad compositum ex b d f. Sumā g ad a, & h ad c, & k ad e, æque multiplicia, itemq̃ l ad b, & m ad d, & n ad f æque multiplicia, eritque per primam huius, compositum ex g h k, ita multiplex compositi ex a c e, sicut g est multiplex a, similiter per eandem, compositum ex l m n, erit ita multiplex compositi ex b d f, sicut l est multiplex b, & per conuersionem diffinitionis incontinuæ proportionalitatis bis sumptam si g addit super m, & h addit super m, & k super n, & si minuit, minuit, & si æquat, æquat: ergo per communem scientiā: si g addit super l, compositum ex g h k, addit super compositum ex l m n, & si minuit: & si æquat, æquat: ergo per diffinitionē incontinuæ proportionalitatis, proportio a ad b, est sicut compositi ex a c e, ad compositum ex b d f, quod est propositum.
 
@@ -8,7 +8,7 @@ portio, non autem econuerso. Sit igitur a ad b, & c ad d, & e ad f, una proporti
 
 Hæ sequentes duæ propositiones 12 scilicet & 13 ex Zamberto, duabus præcedentibus ex Campano. præpostero ordine respondent 12 unius 13 alterius.
 
-Eucli. ex Zamb. Theorema 12 Propositio 12
+## Eucli. ex Zamb. Theorema 12 Propositio 12
 
 *[Margin: 12]* Si fuerint quælibet magnitudines proportionem habentes, erit sicut una antecedentium ad unam consequentium, sic omnes antecedētes ad omnes consequentes.
 
@@ -16,7 +16,7 @@ THEON ex Zamb. Sint quotcunque magnitudines proportionem habentes α β γ δ ε
 
 *[Figure: group of tall vertical line segments of graduated heights with division marks, letters η θ α γ ε λ β δ ζ μ ν beneath, in the right margin]*
 
-Eucli. ex Zamb. Theorema 13 Propositio 13
+## Eucli. ex Zamb. Theorema 13 Propositio 13
 
 *[Margin: 13]* Si prima ad secundam eandem habuerit rationem, & tertia ad quartam, tertia autem ad quartam maiorem rationem habeat quàm quinta ad sextam, prima quoque ad secundam maiorem rationem habebit quàm quinta ad sextam.
 
@@ -24,4 +24,4 @@ THEON ex Zamb. Prima enim α, ad secundam β, eandem habeat rationē & tertia γ
 
 *[Figure: group of tall vertical line segments of graduated heights with division marks, letters μ η α γ ε ν κ β δ ζ θ λ beneath, in the right margin]*
 
-*[Catchword: sumptæ]*
+<!-- Catchword: sumptæ -->

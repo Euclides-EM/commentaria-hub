@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 148]*
+<!-- Folio: 148 -->
 
 α β, & β γ, mediam proportionalem inuenire. Disponantur (per 14, primi,) rectas lineas, describaturque super α γ semicirculus α δ γ, & excitetur (per 11 primi,) à signo β, ipsi α γ, ad angulos rectos β δ, & connectantur α δ, & δ γ. Quoniam (per 31 tertij,) in semicirculo angulus est, qui sub α δ γ, rectus est, & quoniam in rectangulo triangulo α δ γ, à recto angulo in basin perpendicularis deducta est δ β, igitur (per correlariū octauæ sexti) δ β, ipsius basis segmētis α β, & β γ, media proportionalis est. Duabus igitur datis rectis lineis α β, & β γ, media proportionalis inuēta est δ β, Quod fecisse oportuit.
 
@@ -28,4 +28,4 @@ Verū sint latera reciproca, quæ circū æquales sunt angulos, estoq́; sicut �
 
 *[Figure: two parallelograms sharing the vertex where the lines cross: parallelogram α β at upper left with α at the top left corner, parallelogram β γ at lower right with γ at the bottom right; δ at the left and ε at the centre of the middle horizontal line, ζ at the top of the vertical line, η below]*
 
-*[Catchword: logram-]*
+<!-- Catchword: logram- -->

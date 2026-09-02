@@ -1,6 +1,6 @@
-# 584 EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 584]*
+<!-- Folio: 584 -->
 
 ## Theorema 94. Propositio 94.
 
@@ -20,4 +20,4 @@ Aliter idem.
 
 Extẽdatur a c. in f ponaturq̃ ipsi b a æqualis c f. Cõnectãturq̃ b d, d c, d f, & q̃m æqualis est b a ipsi c f, & d b ipsi d c. Binæ iã a b, b d binis f c, c d, sunt æquales altera alteri, & angulus q̃ sub a b d, angulo q̃ sub d c f, est æqualis, q̃m quidẽ a b c d, quadratũ est, basis igitur a d per 4 primi ele. basi d f, est æqualis, & triãgulũ a b d, triangulo c d f, est æquale, & re-
 
-*[Catchword: liqui]*
+<!-- Catchword: liqui -->

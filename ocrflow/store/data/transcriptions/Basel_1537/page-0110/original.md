@@ -1,6 +1,6 @@
-# LIBER QVARTVS
+<!-- # LIBER QVARTVS -->
 
-*[Folio: 101]*
+<!-- Folio: 101 -->
 
 CAMPANVS. Sit datus circulus a b c: uolo sibi inscribere quindecagonum æquilaterum & æquiangulum, deinde etiam circunscribere, atq̃ intra talem quindecagonū propositum, circulum describere. Non proponit autē circa talem circulum quindecagonū, circulum describere: quia hoc satis dat intelligere per alia quæ proponit. In dato circulo iuxta doctrinam secundæ huius, protraho latus trianguli æquilateri, quod sit a c, & iuxta doctrinam 11 huius latus pentagoni æquilateri atq̃ æquianguli, quod sit a b. Et quia arcus a c, est totius circunferentiæ tertia, cuius arcus a b est quinta: erit superfluū intèr eos quod est arcus b c, duæ tertiæ arcus a b, uel duæ quintæ arcus a c, siue duæ quintædecimæ totius circunferētiæ. Nam in omni toto excedit tertia quintā in duabus tertijs ipsius quintæ, uel in duabus quintis ipsius tertiæ, siue in duabus quintisdecimis totius.
 
@@ -10,10 +10,10 @@ Hoc enim patet in quinta & tertia primi numeri habentis quintam & tertiam qui es
 
 CAMPANI additio. Et nota quod quamcunq̃ figuram æquilateram circulo scimus inscribere: duplo plurium laterum circulo scimus inscribere & circunscribere, & ipsi circulum. Diuisis enim arcubus quibus latera eius quæ scitur inscribi subtenduntur, per æqualia, & à punctis medijs ad extremitates laterū ipsius figuræ ductis lineis, fiet intra circulū figura duplo plurium laterū quæ erit æquilatera per 28 tertij: ergo & æquiangula. Hoc em demonstratū est, supra 15 huius, q̃ omnis figura æquilatera circulo inscripta est etiam æquiangula. Et quia hanc circulo scimus inscribere: sciemus cætera tria per 12, 13 14 huius. Quia igitur scimus inscribere triangulum æquilaterum: sciemus per hoc & hexagonum, & per hexagonum, dodecagonū, ac per dodecagonum figuram 24 laterum, & sic in infinitum duplando. Et licet per triangulū possit, ut diximus, inscribi hexagonus: posuit tamen huius propriam demonstrationem ex qua sequitur potissimum perutile. Et similiter quia scimus & inscribere quadratum sciemus per hoc inscribere omnem figuram cuius laterum numerus est pariter par: per pentagonum quoq̃ sciemus decagonum & figuram 20 laterum: sicq̃ continue duplando. Idem quoq̃ intellige de quindecagono, per ipsum enim scientur figuræ 30 & 60, & omni continue duplatarum laterum. Cæterarum autem figurarum de quibus ista 16 docet, uel quæ per has non habentur: difficilis est scientia & parum utilis, ut sunt heptagona, ennagona, hendecagona. Quod si sciremus triangulum duum æqualium laterum designare, cuius uterq̃ angulorum ad basin triplus esset ad reliquum: sciremus heptagonum, ut supra pentagonum circulo inscribere: quod si uterq̃ quadruplus esset ad reliquum, sciremus nonagonum: & si quintuplus, hendecagonum. Idemq̃ in cæteris figuris imparium laterum, posito utroq̃ angulorum ad basin multiplici ad reliquum per eum numerum qui est medietas maximi paris sub impari numero laterum ipsius figuræ contenti.
 
-Eucli.ex Zamb. Problema 16. Propositio 16.
+## Eucli.ex Zamb. Problema 16. Propositio 16.
 
-## 16 In dato circulo, quintidecagonum æquilaterum & æquiangulum describere.
+16 In dato circulo, quintidecagonum æquilaterum & æquiangulum describere.
 
 THEON ex Zamberto. *Sit datus circulus α β γ δ: oportet iam in α β γ δ circulo, quintidecagonū æquilaterum & æquiangulum describere. Describatur in circulo α β γ δ, trianguli æquilateri latus α γ, pentagoni uero æquilateri latus α β in arcu α γ. Qualium igitur est circulus α β γ δ, æqualium segmentorum quindecim: talium quidem circunferentia α β γ, tertium existens ipsius circuli: erit quinq̃. Circunferentia autem α β, existens quintum cir*
 
-*[Signature: i 3]* *[Catchword: culi]*
+<!-- Signature: i 3 --> <!-- Catchword: culi -->

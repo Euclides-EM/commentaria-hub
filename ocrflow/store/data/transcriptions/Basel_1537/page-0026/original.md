@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 17]*
+<!-- Folio: 17 -->
 
 ## Eucli. ex Camp. Propositio 15.
 
@@ -42,4 +42,4 @@ THEON ex Zamb. Sit triangulū α β γ, & producatur ipsius latus unū, scilicet
 
 *[Figure: triangle α β γ with side β γ produced to δ; ε midpoint of α γ, line β ε produced to ζ, ζ γ joined, α γ produced to η; star-like configuration with labels α, β, γ, δ, ε, ζ, η]*
 
-*[Signature: b 3]* *[Catchword: tionem)]*
+<!-- Signature: b 3 --> <!-- Catchword: tionem) -->

@@ -1,8 +1,8 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 221]*
+<!-- Folio: 221 -->
 
-Eucli. ex Camp. Propositio 5
+## Eucli. ex Camp. Propositio 5
 
 **5** SI numerus cubus in numerū alium ducatur, fueritq̃ productus cubus, in quem ductus est, numerū cubum esse necesse est.
 
@@ -14,7 +14,7 @@ Vnde & manifestum est, quia ex ductu cubi in non cubum, producitur non cubus. Du
 
 CAMPANVS. Sit enim ex a cubo in b numerū, productus c cubus, dico b esse cubum: fiat enim d ex a in se, qui per antepræmissam erit cubus, quia igitur est per 18 sept. a ad b sicut d ad c, estq̃ a cubus, sed & d & c cubi, erit per 23 octaui, b cubus, quod est propositū. Prima pars correlarij, patet ex hac quinta, à destructione consequentis, secunda, per præmissam, similiter à destructione consequentis.
 
-Eucli. ex Zamb. Theorema 5 Propositio 5
+## Eucli. ex Zamb. Theorema 5 Propositio 5
 
 **5** Si cubus numerus numerū aliquem multiplicans, cubum fecerit, & multiplicatus cubus erit.
 
@@ -24,7 +24,7 @@ THEON ex Zamb. Cubus enim numerus α numerū aliquem β multiplicans, cubum effi
 
 *[Figure: four vertical ruled line-segments labeled α, β, δ, γ with rotated numerals 27, 64, 729, 1728]*
 
-Eucli. ex Camp. Propositio 6
+## Eucli. ex Camp. Propositio 6
 
 **6** SI ex ductu cuiusdā numeri in seipsum cubus producatur, eum esse cubum necessario cōprobatur.
 
@@ -34,7 +34,7 @@ CAMPANVS. Sit ut ex a in se fiat b, sitq̃ b cubus: dico ergo a esse cubū. Fiat
 
 *[Figure: table of ruled lines with 512 c, 64 b, 8 a]*
 
-Eucli. ex Zamb. Theorema 6 Propositio 6
+## Eucli. ex Zamb. Theorema 6 Propositio 6
 
 **6** Si numerus seipsum multiplicans, cubum fecerit, & ipse cubus erit.
 
@@ -42,7 +42,7 @@ THEON ex Zamb. Numerus enim α seipsum multiplicans, cubum efficiat β. Dico quo
 
 *[Figure: three vertical ruled line-segments labeled α, β, γ with rotated numerals 27, 729, 19683]*
 
-Eucli. ex Camp. Propositio 7
+## Eucli. ex Camp. Propositio 7
 
 **7** SI numerus compositus in numerū quemlibet ducatur, qui inde producetur erit solidus.
 
@@ -52,7 +52,7 @@ CAMPANVS. Sit a numerus cōpositus, qui ducātur in b, & proueniat c. dico c ess
 
 *[Figure: dotted number lines e, d, c, b, a]*
 
-Eucli. ex Zamb. Theorema 7 Propositio 7
+## Eucli. ex Zamb. Theorema 7 Propositio 7
 
 **7** Si cōpositus numerus numerū aliquem multiplicās, aliquē fecerit, factus solidus erit.
 
@@ -60,6 +60,6 @@ THEON ex Zamb. Compositus enim numerus α numerū aliquem β multiplicans, ipsum
 
 *[Figure: dotted number lines ε, δ, γ (ruled line with numeral 48), β, α]*
 
-*[Signature: c 3]*
+<!-- Signature: c 3 -->
 
-*[Catchword: ipsum]*
+<!-- Catchword: ipsum -->

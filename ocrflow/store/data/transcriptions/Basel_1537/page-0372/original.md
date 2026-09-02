@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 361]*
+<!-- Folio: 361 -->
 
 quæ ex diffinitione superficiei super aliam superficiē orthogonaliter erectæ, cum linea f g continebit angulum rectum : per quartā igitur huius erit linea f g, perpendicularis ad superficiem assignatā. Eodem quoq̃ modo protracta alia linea à puncto f in superficie assignata, quæ sit perpendicularis ad lineam f d, sequetur ex diffinitione prædicta & ex quarta huius, lineam f h esse perpendicularem ad superficiem assignatam, quod est impossibile per 13 huius. Quod si confiteare lineam e esse perpendicularē ad lineam f b, sed non ad lineam f d, sequetur modo consimili duas lineas e f & f h esse perpendiculares ad superficiem assignatam. Quod nihil minus est impossibile.
 
@@ -26,4 +26,4 @@ CAMPANVS. Sint tres lineæ a b, a c, a d, pyramidaliter erectæ supra superficie
 
 THEON ex Zamb. Solidus angulus qui ad α, sub tribus planis, hoc est β α γ, γ α δ, δ α β, comprehendatur. Dico quod bini quomodocunq̃ suscepti, reliquo sunt maiores. Si quidem ipsi qui sub β α γ, γ α δ, δ α β, anguli sunt
 
-*[Signature: H]* *[Catchword: inuicem]*
+<!-- Signature: H --> <!-- Catchword: inuicem -->

@@ -1,6 +1,6 @@
-*[Folio: 284]*
+<!-- Folio: 284 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 torum linearũ a c & c b sit incõmensurabile superficiei unius in alteram. Cumq̃ dicta quadrata cõmunicent ex hypothesi, sequitur ut ambo quadrata pariter accepta sint incõmensurabile superficiei unius in alteram, ideoq̃ & eius duplo. Quare superficies e g incõmensurabilis est superficiei g h. & linea g f, lineæ g l per primam sexti & secũdam partem 10 huius. Itaq̃ per 30 linea f l est binomium, diuisa secundum suum terminũ in puncto g. Eodemq̃ modo probabitur ipsam binomium esse, mediantibus superficiebus e m & m h, diuisam secundum suum terminum in puncto m, quod est impossibile per 36. Non enim potest dici, q̃ linea f l diuisa sit ad puncta g & m in partes consimiles, sic enim esset linea f m æqualis g l, sed ipsa est maior linea m l, ut patet ex primo præmissorum antecedentiũ huius & prima sexti, cum e m superficies sit maior h m superficie. Huius autem demõstrationis modus potest esse cõmunis 37 cæterisq̃ eam sequẽtibus.
 
@@ -30,4 +30,4 @@ Maior, ad unum duntaxat signum diuiditur in nomina.
 
 THEON ex Zãb. Sit maior α β, diuisa in γ, ut (per 34 decimi) α γ, γ β, potẽtia nõ sint cõmensurabiles, efficiẽtes cõpositũ ex ijs quæ ex α γ, γ β, quadratis ratiõale, quodq̃ sub ipsis α γ, γ β, mediũ. Dico quod ipsa α β, ad aliud
 
-*[Catchword: signum]*
+<!-- Catchword: signum -->

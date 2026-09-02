@@ -1,6 +1,6 @@
-# GEOMET. ELEMEN T. EVCLIDIS
+<!-- # GEOMET. ELEMEN T. EVCLIDIS -->
 
-*[Folio: 54]*
+<!-- Folio: 54 -->
 
 ## Ex Zamberto. Diffinitiones.
 
@@ -28,4 +28,4 @@ CIrculi propositi, cētrū inuenire. Vn̄ manifestū est q̃ duabus rectis linei
 
 CAMPANVS. Sit circulus propositus a b c, cuius uolumus centrū inuenire. Duco in ipso circulo lineā a c, qualitercūq̃ contingat, quā diuido per æqualia in puncto d a, quo duco perpendicularē ad lineā a c utraq̃ parte: sitq̃ e d b, quā rursus diuido per æqualia in puncto f, quē dico esse centrum circuli. Si enim nō est, erit autē alibi aut in linea e b, aut extra. In linea e b, nō. Si em fuerit in ea ut in pū
 
-*[Catchword: cto]*
+<!-- Catchword: cto -->

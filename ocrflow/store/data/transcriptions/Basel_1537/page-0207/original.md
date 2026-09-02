@@ -1,6 +1,6 @@
-*[Folio: 196]*
+<!-- Folio: 196 -->
 
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
 quoties α, ipsum δ, metitur, tot unitates sint in ε, quoties autē β, ipsum γ, metitur, tot unitates sint in ζ. Igitur α, ipsum ε, multiplicans, effecit ipsum δ, & β, multiplicans ipsum γ, effecit ipsum δ, æqualis igitur est qui ex α ε, ei qui ex β ζ, est gitur *[sic, for igitur]* (per 15 septimi,) sicut α ad β, sic est ζ, ad ε, ipsi autē α β, sunt primi, primi autē (per 23 septimi,) & minimi, minimi uero metiuntur eandem rationem habentes æqualiter: maior maiorē, & minor minorem. Igitur (per 21 septimi) β. metitur ipsum ε, sequēs uidelicet sequentē. Et quoniā α, ipsos β,ε, multiplicās ipsos γ,δ, fecit: est igitur (per 17 septimi,) sicut β, ad ε sic γ ad δ. At β, ipsum ε metitur, metitur ergo & γ, ipsum δ, maior minorē, quod est impossibile. Igitur ipsi α,β, non metiuntur aliquem numerum minorem existentem ipso γ, quando ipsi α,β, primi adinuicem fuerint. Igitur γ, minimus est qui sub ipsorum α,β, dimensionem cadit.
 
@@ -10,7 +10,7 @@ Non sint primi ipsi α,β, adinuicem, & sumantur (per 35 septimi. minimi numeri 
 
 *[Figure: dotted number lines beside the text: ζ·· α···· / ε··· β······ / γ············ / δ········· / θ·· / η···]*
 
-Eucli. ex Zamb. — Theorema 33 — Propositio 37
+## Eucli. ex Zamb. — Theorema 33 — Propositio 37
 
 *[Margin: 37]*
 
@@ -20,7 +20,7 @@ THEON ex Zamberto, Bini enim numeri α,β, numerum aliquem γ δ metiantur, mini
 
 *[Figure: dotted number lines beside the text: α·· / β··· / ε······· / β·····ζ·········· (a single dotted line divided at the point ζ; the first label apparently printed β)]*
 
-Eucli. ex Zamb. — Problema 5 — Propositio 38
+## Eucli. ex Zamb. — Problema 5 — Propositio 38
 
 *[Margin: 38]*
 
@@ -38,4 +38,4 @@ Euili. ex Camp. *[sic, for Eucli.]* — Propositio 37
 
 *[Ornamental initial S]*
 
-*[Catchword: CAM-]*
+<!-- Catchword: CAM- -->

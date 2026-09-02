@@ -1,6 +1,6 @@
-# LIBER SEPTIMVS.
+<!-- # LIBER SEPTIMVS. -->
 
-*[Folio: 175]*
+<!-- Folio: 175 -->
 
 α ipsius βγ. Quoniam enim α pars est ipsius βγ, eademq̃ pars est δ ipsius εζ, quot igitur sunt in ipso βγ numeri æquales ipsius α, tot sunt & in ipso εζ numeri æquales ipsi δ. Diuidatur, inquam, βγ in æquales ipsi α, hoc est βη & ηγ, & εζ in æquales ipsi δ, hoc est εθ, & θζ, erit iam æqualis multitudo ipsorum βη & ηγ, multitudini ipsorū εθ & θζ. Et quoniā æqualis est βη ipsi α, & εθ ipsi δ, igitur βη & εθ, α, δ sunt æquales. Id propterea etiam ηγ ipsi α est æqualis, & θζ ipsi δ: ipsi igitur ηγ θζ ipsis α δ æquales sunt. Quot igitur sunt in ipso βγ numeri æquales ipsi α, tot sunt & in βγ & εζ æquales ipsis α, δ. Quotuplex igitur est βγ ipsius α, totuplex est & uterque βγ & εζ, utriusq̃ α, δ. Quæ igitur pars est α ipsius βγ, eadem pars est, & uterque α, δ, utriusq̃ βγ & εζ, quod oportebat demonstrare.
 
@@ -26,4 +26,4 @@ THEON ex Zamberto. Numerus enim αβ, numeri γ esto partes, & alter δε, alter
 
 *[Figure: dot-rows: αβ (row of dots with interior point η); γ (9 dots); δε (row of dots with interior point θ); ζ (13 dots)]*
 
-*[Signature: p 4]* *[Catchword: Euclidis]*
+<!-- Signature: p 4 --> <!-- Catchword: Euclidis -->

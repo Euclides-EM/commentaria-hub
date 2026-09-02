@@ -1,6 +1,6 @@
-*[Folio: 470]*
+<!-- Folio: 470 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 α β γ. Et omnia decies. Quod igitur trigesies sub δ ε, β γ, æquū est uiginti triangulis α β γ, hoc est ipsius icosahedri superficiei. Quare erit sicut dodecahedri superficies ad icosahedri superficiē, sic quod sub γ δ, ζ η, ad id quod sub β γ, δ ε.
 
@@ -32,4 +32,4 @@ Esto circulus α β γ, & in ipso circulo α β γ, describantur quinquanguli æ
 
 Describantur in ipso circulo α β γ, pentagoni æquilateri latera, β α, α γ, & connectatur β γ, & aßumatur centrum
 
-*[Catchword: circuli]*
+<!-- Catchword: circuli -->

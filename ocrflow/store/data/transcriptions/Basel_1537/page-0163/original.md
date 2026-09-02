@@ -1,10 +1,10 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 152]*
+<!-- Folio: 152 -->
 
 proportio a c ad d f est sicut e f ad c g, & angulus c æqualis angulo f: quare per secundā partem 7 quinti, trianguli a b c ad utrunq̃ illorū, erit una proportio, sed per primam huius, proportio trianguli a b c ad triāgulum a g c, est sicut b c ad g c. At uero proportio b c ad c g, sicut b c ad e f duplicata, per 10 descriptionem quinti: ergo proportio trianguli a b c ad triangulum d e f, est sicut proportio b c ad d f duplicata, quod est propositum. Si autem c g sit æqualis b c, erit per secundam partem 14 huius: triangulus a b c æqualis triangulo d e f. æqualis autem proportio componitur ex æquali duplicata uel triplicata uel quotienscunque sumpta. Istam eandem passionem possemus eodem modo & per eadem media demonstrare de superficiebus æquidistātium laterum similibus, sumpta solum 13 præsentis, loco 14. Non demonstrat autem eam, quia per sequentem demonstratur uniuersaliter de omnibus superficiebus similibus. Quare per correlarium quod uniuersaliter proponitur de omnibus superficiebus similibus, nondum patet nisi de triangulis, sed demonstrata sequente, patēs erit de omnibus. Posuit autem ipsum hic & non in sequente: quia est correlarium huius, non autem sequentis, ex modo enim demonstrationis huius, sua ueritas manifestata est: non ex modo illius.
 
-Eucli. ex Camp. — Propositio 18
+## Eucli. ex Camp. — Propositio 18
 
 18 OMnes duæ superficies similes multiangulæ, sunt diuisibiles in triangulos similes atque numero æquales, estq̃ proportio alterius earum ad alteram, sicut cuiuslibet sui lateris ad suum relatiuum latus alterius, proportio duplicata.
 
@@ -12,10 +12,10 @@ CAMPANVS Sint gratia exēpli, duo pentagoni a b c d e, f g h K, l similes, dico 
 
 *[Figure: two pentagons with diagonals: larger pentagon with vertices a (top), b (left), e (right), c (lower left), d (lower right), diagonals a c, a d and b d drawn, intersection point m inside; smaller pentagon with vertices f (top), g (left), l (right), h (lower left), K (lower right), diagonals f h, f K and g K drawn, intersection point n inside]*
 
-Eucli. ex Camp. — Propositio 19
+## Eucli. ex Camp. — Propositio 19
 
 19 Supra datam lineam, datæ superficiei similem superficiem describere.
 
 CAMPANVS Sit data linea a b, supra quam uolo constituere superficiem similem datæ superficiei quæ sit pentagona, & sit c d e f g: diuido hunc pentagonum in triangu
 
-*[Catchword: los]*
+<!-- Catchword: los -->

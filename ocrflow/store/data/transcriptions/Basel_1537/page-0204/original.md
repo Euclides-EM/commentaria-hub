@@ -1,6 +1,6 @@
-# LIBER SEPTIMVS
+<!-- # LIBER SEPTIMVS -->
 
-*[Folio: 193]*
+<!-- Folio: 193 -->
 
 præcedentem, qui & ipsum α metietur. Omnem igitur compositum numerum, primus aliquis numerus dimetitur. quod oportuit demonstrasse.
 
@@ -50,4 +50,4 @@ Vt si sint a b c secundũ quorũ proportiones uolumus minimos inuenire: siue fue
 
 Numeris datis quotcunque, inuenire minimos easdem rationes habentium eis.
 
-*[Signature: r]* *[Catchword: THEON]*
+<!-- Signature: r --> <!-- Catchword: THEON -->

@@ -1,6 +1,6 @@
-# LIBER QVINTVS
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 107]*
+<!-- Folio: 107 -->
 
 istorum 4 modorum maior proportio primæ ad secundam, quàm tertiæ ad quartā. Quatuor aūt modis istis oppositis erit minor proportio primæ ad secundam, quàm tertiæ ad quartam. Exempla autem istorum omnium euidenter sumētur ex numeris. Additio ergo illa multiplicis primæ super multiplex secundæ, non autem multiplicis tertiæ super multiplex quartæ, de qua loquitur auctor in diffinitione, latitudinē habet ad istos 4 modos prædictos, & ipsos cōprehendit. Vnde sensus istius diffinitionis est: cum sumptis sic multiplicibus ut proponit, fuerit maior proportio multiplicis primæ ad multiplex secundæ, quàm multiplicis tertiæ ad multiplex quartæ: erit maior proportio primæ ad secūdam quàm tertiæ ad quartam, non diffiniuit autem sub hac forma. propter communem causam prius dictam. Vel possumus dicere, quòd additio multiplicis primæ super multiplex secundæ, & non multiplicis tertiæ super multiplex quartæ, de qua loquitur in præmissa diffinitione maioris improportionalitatis, proprie accipitur prout uerba diffinitionis sonant: & non se extendit nisi ad secundum quatuor prædictorum modorum: licet reuera quolibet illorum quatuor modorum sit maior proportio primæ ad secundam quàm tertiæ ad quartam: unde sensus illius diffinitionis est: cum sumptis sic multiplicibus ut proponit, si multiplici primæ existente maiori multiplici secundæ, non sit necessarium quod multiplex tertiæ sit maius multiplici quartæ: tunc erit maior proportio primæ ad secūdam quàm tertiæ ad quartam: propter hoc autem nō posuit reliquos tres additionis modos in prædicta diffinitione, quia iste est illis omnibus magis planus, & ad dictam diffinitionem sufficiens. Nusquam enim est maior proportio primæ 4 quatuor quantitatū ad secūdā quàm tertiæ ad quartam: quin cōtingat aliqua æque multiplicia ad primam & tertiā reperiri: quæ cum relata fuerint ad aliqua æque multiplicia secundæ & quartæ, inuenietur multiplex primæ addere super multiplex secūdæ, non autem multiplex tertiæ super multiplex quartæ. Nec usquam contingit hoc reperire, quin sit maior proportio primæ ad secundam quàm tertiæ ad quartā, ut demonstrabimus infra supra decimam huius.
 
@@ -16,4 +16,4 @@ CAMPANVS. Postquam auctor diffiniuit proportionem, proportionalitatem, & quantit
 
 CAMPANVS. Diffinit proportionē quæ est inter extremos terminos cōtinuæ proportionalitatis in tribus terminis constitutæ, & dicit qđ si fuerit proportio primi ad
 
-*[Catchword: secun-]*
+<!-- Catchword: secun- -->

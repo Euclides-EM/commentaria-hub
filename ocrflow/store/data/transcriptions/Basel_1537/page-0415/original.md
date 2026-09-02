@@ -1,4 +1,4 @@
-*[Folio: 404]*
+<!-- Folio: 404 -->
 
 # GEOMET. ELEMENT. EVCLI.
 
@@ -16,4 +16,4 @@ Dico insuper quod neq̃ minor q̃ triplus est cylindrus cono. Si enim possibile,
 
 CAMPANVS. Sint duo circuli a & b, super quos constituantur duæ rotundæ pyramides similes, duæq̃ columnæ rotundæ similes, & dicantur circuli & pyramides & columnæ & diametri circulorũ, his nominibus a & b æquiuoce. Dico itaq̃ q̃ proportio duarũ pyramidũ a & b, duarumq̃ columnarũ a & b, est sicut duarũ diametrorũ a & b proportio triplicata. Hoc autẽ si de pyramidibus constiterit, de columnis quoq̃ constabit ex 15 quinti, cum omnis columna rotũda sit ex præmissa, tripla ad suam pyramidem. De pyramidibus autem constabit hac demõstratione ducente ad impossibile. Est enim per cõmunem scientiã positam in principio secundæ demonstrationis huius 12 libri, quæ proportio diametri a ad diametrũ b triplicata, eadẽ pyramidis a ad aliquod corpus. Illud igitur corpus sit c, de quo dico q̃ ipsum nõ potest esse minus neq̃ maius pyramide b. Sit primo minus (si fuerit possibile) quantitate corporis d, ita q̃ duo corpora c & d pariter accepta sint quantũ pyramis b. Itaq̃ quemadmodũ in secũda parte præmissæ, ex pyramide b detrahaturlaterata *[sic: printed without space]* pyramis sibi æque alta, cuius basis sit quadratũ inscriptũ circulo b, & ex residuo eius detrahãtur pyramides eiusdem altitudinis consistentes super trigonos portionũ circuli b, fiat itaq̃ hoc toties quousq̃ cogẽte pri
 
-*[Catchword: ma 10,]*
+<!-- Catchword: ma 10, -->

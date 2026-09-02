@@ -1,6 +1,6 @@
-# DATA 585
+<!-- # DATA -->
 
-*[Folio: 585]*
+<!-- Folio: 585 -->
 
 liqui anguli. reliquis angulis æquales erũt, quos æqualia latera subtendunt Igitur angulus b a d. angulo d f c est æqualis: datus autẽ est angulus b a d, datus igitur est & qui sub d f c angulus: est aũt & qui sub d a f, angulus datus. Datur igitur triangulum a d f specie. Rõ igitur ipsius f a ad a d, data est. At a f, utraque est simul b a c, eo quia æqualis est c f ipsi b a: Ratio igitur utriusque simul b a c ad a d, data est, & similiter sicut prius demonstrabimus quod sub utraque b a c, & e d datum est.
 
@@ -28,4 +28,4 @@ Finis Datorum.
 
 DIuersorum potentia corporum, quod spatium amplius mouetur, habet amplius potentiæ.
 
-*[Catchword: Sint]*
+<!-- Catchword: Sint -->

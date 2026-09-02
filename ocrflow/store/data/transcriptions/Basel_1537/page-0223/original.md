@@ -1,6 +1,6 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 212]*
+<!-- Folio: 212 -->
 
 numeret, quadratus is quadratum illum non numerare ex necessitate conuincitur.
 
@@ -12,7 +12,7 @@ CAMPANI annotatio. Quemadmodū autem necesse est conuerti negationes oppositas a
 
 ## Hæ sequentes ex Zamberto duæ propositiones præcedenti ex Campano cum annotatione eiusdem respondent.
 
-Eucli. ex Zamb. Theorema 14 Propositio 16 Conuersa 14
+## Eucli. ex Zamb. Theorema 14 Propositio 16 Conuersa 14
 
 **16** Si quadratus numerus quadratum numerum mensus non fuerit, neq̃ latus latus metietur. Et si latus latus mensum non fuerit, neque quadratus quadratum metietur,
 
@@ -20,7 +20,7 @@ THEON ex Zamberto. Sint quadrati numeri α, β: eorum autem latera sint γ, δ. 
 
 *[Figure: dotted number lines α, β, γ, δ]*
 
-Eucli. ex Zamb. Theorema 15 Propositio 17 Conuersa 15
+## Eucli. ex Zamb. Theorema 15 Propositio 17 Conuersa 15
 
 **17** Si cubus numerus cubum numerum non metiatur, neque latus latus metietur. Et si latus latus non metiatur, neque cubus cubum metietur.
 
@@ -28,7 +28,7 @@ THEON ex Zamb. Cubus enim numerus α, cubum numerum β non metiatur, & ipsius qu
 
 *[Figure: dotted number lines α, β, γ, δ]*
 
-Eucli. ex Camp. Propositio 16
+## Eucli. ex Camp. Propositio 16
 
 **16** SI duo numeri superficiales fuerint similes, necesse est tertium numerum secundum proportionalitatem continuam eis interesse. Eritq̃ proportio unius numeri ad alterum sibi similem, uelut unius lateris sui ad latus alterius ipsum respiciens proportio duplicata.
 
@@ -38,4 +38,4 @@ CAMPANVS Sint duo numeri a & b, superficiales & similes, dico quod inter ipsos c
 
 *[Figure: dotted number lines a, g, b, c, d, e, f]*
 
-*[Catchword: itaque]*
+<!-- Catchword: itaque -->

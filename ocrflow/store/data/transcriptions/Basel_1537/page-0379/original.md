@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 368]*
+<!-- Folio: 368 -->
 
 Et quoniā binæ α β, β θ, duabus δ γ, γ ζ, sunt æquales, & angulus qui sub α β θ, angulo qui sub δ γ ζ est æqualis, basis igitur α θ (per 4 primi) basi δ ζ, est æqualis, & triangulū α β θ triāgulo δ γ ζ est æquale. Et quoniā ipsius quidē α β θ, duplum (per 41 primi) est β η parallelogrammū, ipsius uero δ γ ζ dupūl *[sic: pro duplū]* est ipsum γ ε parallelogrammū, æquū igitur est parallelogrammū β η, parallelogrāmo ε γ. Similiter iam ostendemus, quod & α γ ipsi η ζ est æquale, & α ε ipsi β ζ. Si planū *[sic: pro solidū]* igitur sub parallelis planis cōprehendatur, quæ ex opposito eius plana, æqualia & parallelogrāma sunt. Quod est propositum.
 
@@ -22,4 +22,4 @@ CAMPANVS. Quod si superficies aliqua secet corpus serratile æquidistāter duobu
 
 THEON ex Zāb. Solidū, inquā, parallelepipedū α β γ δ secetur à plano υ ε parallelo existēte eis quæ ex opposito planis scilicet ipsis ρ α & δ β. Dico qd̃ est sicut α ε ζ φ basis ad ε θ γ ζ basin, sic est α β ζ υ solidū ad ε η γ δ solidū.
 
-*[Catchword: Extendatur]*
+<!-- Catchword: Extendatur -->

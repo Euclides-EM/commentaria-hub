@@ -1,10 +1,10 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 146]*
+<!-- Folio: 146 -->
 
 neas e a & e d, eritque per 30 tertij, angulus e totalis: rectus, quare per primam partem correlarij præmissæ, proportio a b ad b e, sicut b e ad b d, quod est propositum.
 
-Eucli, ex Camp. — Propositio 10
+## Eucli. ex Camp. — Propositio 10
 
 *[Margin: 10]*
 
@@ -16,7 +16,7 @@ CAMPANVS Sint duæ lineæ propositæ a b & c: quibus uolo tertiam in continua pr
 
 CAMPANI additio. Quod si propositis tribus lineis uelimus inuenire quartam, ad quam sit proportio tertiæ sicut prima ad secundã: ex prima & secunda fiat linea una & toti compositæ tertia angulariter adiungatur, & a communi termino primæ & secũdæ: ducatur linea ad extremitatem tertiæ. & ab altero termino secundæ ducatur huic lineæ æquidistans: quousque concurrat cum tertia in cõtinuum rectũque protracta: eritque per secundam huius, linea quã hæc æquidistans abscindet: quæ quæritur. quẽadmodum si in hac figura fuerit prima a b, secunda b e, tertia a d: erit quarta d f.
 
-Eucli. ex Camp. — Propositio 11.
+## Eucli. ex Camp. — Propositio 11.
 
 *[Margin: 11]*
 
@@ -26,7 +26,7 @@ CAMPANVS Sit a b linea assignata, ab ea uolo aliquotam partem utpote tertiam abs
 
 *[Figure: triangle with apex a at top, b at bottom left, c at bottom right; f on side a b and d on side a c joined by a line parallel to the base, e on side a c below d]*
 
-Eucli. ex Camp. — Propositio 12.
+## Eucli. ex Camp. — Propositio 12.
 
 *[Margin: 12]*
 
@@ -38,4 +38,4 @@ CAMPANVS. Sint duæ lineæ quas angulariter ut cõtinget coniungam a b & a c, si
 
 Quinque sequentes ex Zamberto Euclidis propositiones, præpostero ordine quatuor ex Campano præcedentibus respondent, nona undecimæ, decima duodecimæ. undecima & duodecima decimæ cũ additione, decimatertia nonæ.
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

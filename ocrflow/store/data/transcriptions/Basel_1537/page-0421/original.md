@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 410]*
+<!-- Folio: 410 -->
 
 δ orbē, sic ε ν conus ad solidum aliquod maius ipso α λ cono. Dico iam quod neque est sicut α β γ δ orbis ad ε ζ η θ, orbē, sic conus α λ ad aliquod solidū maius ipso ε ν cono. Si enim possibile, esto ad maius ξ. Conuersim igitur est sicut ε ζ η θ, orbis ad α β γ δ orbē, sic est ξ solidum ad α λ conū. Sed sicut ξ solidū ad α λ conū sic est ε ν conus ad aliquod solidum minus ipso α λ cono. Et sicut igitur (per 11 quinti) ε ζ η θ circulus ad α β γ δ circulum, sic conus ε ν, ad aliquod solidum minus ipso α λ cono, quod absursum *[sic: absurdum]* esse patuit. Non est igitur α β γ δ orbis ad ε ζ η θ orbem, sic α λ conus ad solidum aliquod maius ipso ε ν cono. Patuit autem quod neque ad minus. Est igitur sicut α β γ δ orbis ad ε ζ η θ orbē, sic α λ conus ad ε ν conum. Sed sicut conus ad conum, sic cylindrus ad cylindrum, triplus enim est alter alterius. Et sicut igitur (per 11 quinti) α β γ δ orbis ad ε ζ η θ, orbem, sic qui in ipsis cylindri æque alti ad conos. Sub eodē igitur fastigio subsistentes coni & cylindri, se adinuicem habent sicut bases. Quod erat ostendendum.
 
@@ -18,4 +18,4 @@ THEON ex Zāb. Sint similes coni & cylindri, quorum bases quidem α β γ δ, ε
 
 *[Figure: a cube-shaped solid labelled ξ]*
 
-*[Catchword: est sicut]*
+<!-- Catchword: est sicut -->

@@ -1,12 +1,12 @@
-# LIBER QVINTVS.
+<!-- # LIBER QVINTVS. -->
 
-*[Folio: 119]*
+<!-- Folio: 119 -->
 
 datur secundum quantitatem a, & e secundum quantitatem b, quod partes utrobique sunt numero & quantitate æquales, numero quidem, per hypothesin propter æqualitatem multiplicationis utrobique: quantitate autē per hanc communem scientiam quoties oportuit repetitam, quæ eidem sunt æqualia sibiinuicem sunt æqualia. Quia igitur prima ex partibus d est æqualis primæ ex partibus e, & secunda secundæ, & cæteræ ceteris, suntq̃ tot partes in d quot sunt in e. erit per primam huius, d æqualis e. Quare per communem scientiam. si duæ quantitates æquales comparentur ad aliam tertiam aut ambæ quantitates d & e sunt similiter maiores f, aut similiter minores, aut sibi æquales, igitur ex diffinitione continuæ proportionalitatis, quæ est proportio a primæ ad c secundam, eadem est tertiæ ad c, quartam. quod est propositum. Secundum eodem modo probabis ordine conuerso, ut c ponatur prima, & tertia: a uero secunda, b quarta. Cum uero quantitas f, quæ eēt æque multiplex primæ & tertiæ, sit aut similiter maior quantitatibus d & e quæ sunt æque multiplices secundæ & quartæ, aut similiter minor, aut eis æqualis: erit per eandem diffinitionem proportio c primæ ad a secundam sicut c tertiæ ad b, quartam. Quod est propositum.
 
 *[Figure: horizontal line segments d, e, a, b, f, c in the right upper corner of the text]*
 
-Eucli. ex Zamb. Theorema 7 Propositio 7
+## Eucli. ex Zamb. Theorema 7 Propositio 7
 
 *[Margin: 7]* Aequales, ad eandem, eandem habent rationem, & eadem, ad æquales
 
@@ -14,7 +14,7 @@ THEON ex Zamb. Sint æquales magnitudines α β, alia autem utcunque magnitudo �
 
 *[Figure: vertical line segments representing the magnitudes α, β, γ and their multiples δ, ε, ζ, in the right margin]*
 
-Eucli. ex Camp, Propositio 8
+## Eucli. ex Camp, Propositio 8
 
 *[Margin: 8]* SI duæ quantitates inæquales ad unam quantitatem proportionētur, maior quidem maiorem, minor uero minorem obtinebit proportionem. Illius autem ad illas, ad minorem quidē proportio maior, ad maiorem uero minor erit.
 
@@ -22,4 +22,4 @@ CAMPANVS. Sint duæ quātitates inæquales a & b c, sitque maior b c, & proporti
 
 *[Figure: horizontal line segments k, f, g; b, e, c; a; d; l; m with division marks, in the right upper part of the paragraph]*
 
-*[Catchword: k f]*
+<!-- Catchword: k f -->

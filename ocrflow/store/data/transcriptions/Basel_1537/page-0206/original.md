@@ -1,6 +1,6 @@
-*[Folio: 195]*
+<!-- # LIBER SEPTIMVS -->
 
-# LIBER SEPTIMVS
+<!-- Folio: 195 -->
 
 merent, patet per conceptionem. sed si non est minimus, ponatur ergo h, quem quia numerāt a & b, numerabit etiā ipsum, e per correlarium præmissæ, per idem quoque correlariū, numerabit ipsum f, sed & g, maior itaq̃ numerat minorē. qd̕ est impossibile
 
@@ -34,7 +34,7 @@ Tres numeri propositi sint a, b, c, minimusq̃ quem numerant a, & b, sit d, qui 
 
 Duæ præcedentes ex Campano propositiones, 35 scilicet & 36, tribus ex Zamberto sequentibus Euclidis propositionibus si respondent, ut correlarium 35 ex Campano, 37 ex Zamberto respondeat. 36 autem ex Campano, sit ad 36 & 38 ex Zamberto propositiones uniuersales.
 
-Eucli. ex Zamb. — Problema 4 — Propositio 36
+## Eucli. ex Zamb. — Problema 4 — Propositio 36
 
 *[Margin: 36]*
 
@@ -42,4 +42,4 @@ Eucli. ex Zamb. — Problema 4 — Propositio 36
 
 THEON ex Zāb. Sint dati bini numeri α β, oportet iam inuenire quem minimū numerū metiuntur. Ipsi α β certe aut primi sunt adinuicem, aut nō. Sint prius α,β, primi adinuicē & α, ipsum β, multiplicans, efficiat ipsum γ, & igitur ipsum α multiplicans, ipsum effecit γ, (per 16 septimi. Igitur ipsi α,β, ipsum γ metiuntur. Dico iam quod & minimum. Si autem non, ipsi numeri α β, metiuntur aliquem numerum minorem existentem γ, metiantur, & esto δ, &
 
-*[Signature: r 2]* *[Catchword: quoties]*
+<!-- Signature: r 2 --> <!-- Catchword: quoties -->

@@ -1,6 +1,6 @@
-# LIBER PRIMVS
+<!-- # LIBER PRIMVS -->
 
-*[Folio: 35]*
+<!-- Folio: 35 -->
 
 secet utrunq̃ latus a b & c d, sitq̃ tota g k h. Erit totum parallelogrammū a b c d diuisum in quatuor parallelogrāma, quorū duo, scilicet, e c k h & g k b dicuntur cōsistere circa c b, eo q̃ diameter transit per medium eorū, & ideo sunt circa diametrū, reliqua duo, scilicet, a e g k & k h f d: dicūtur supplemēta. Hæc duo supplemēta, dicūtur esse æqualia, sunt enim duo trianguli a b c & c d b, æquales per correl. 34 propositionis, similiter quoq̃ duo triāguli g k b & f k b, sunt æquales per idem correlariū: at duo triāguli c e k & k h c, similiter sunt æquales per idem correlariū. Demptis igitur duobus triāgulis b g k & k c e de totali triāgulo a b c, ac duobus triāgulis reliquis b f k & k c h de totali triāgulo reliquo c d b, erunt per 3 cōmunē animi conceptionē residua quæ sunt duo dicta supplemēta æqualia, q̃d est propositū.
 
@@ -28,4 +28,4 @@ CAMPANVS. Designare superficiē æquidistantiū laterū super lineam aliquā, es
 
 *[Figure: at left, angle c and triangle d e f with apex δ over base e f; at right, construction on line g a b: triangle g a k with apex k, points m, k, l, n on the upper parallel, h the midpoint of g a, point b, and below points o, p, q with diagonal lines completing the parallelograms]*
 
-*[Catchword: Protraham]*
+<!-- Catchword: Protraham -->

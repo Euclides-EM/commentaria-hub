@@ -1,6 +1,6 @@
-# 586 EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 586]*
+<!-- Folio: 586 -->
 
 Sint a & b corpora duo, sint g d & e f, spatia duo, g d maius per quod a, e f, minus per quod b mouetur resecabo à spatio g d, g r spatium, sic ut sit e f spatio spatiũ g r æquale. Cætera sponte patent.
 
@@ -36,4 +36,4 @@ Sit angulus datus c. uolo ipsum diuidere in tres æquales angulos q̃ sic facio.
 
 *[Figure: a circle with centre e; points g and l at top, f at upper right, d at right, a and m and b at bottom, c inside; with chords g h, f a, f g, and lines from the centre]*
 
-*[Catchword: & an-]*
+<!-- Catchword: & an- -->

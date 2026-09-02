@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 10]*
+<!-- Folio: 10 -->
 
 ## Eucli ex Zamb. Theorema primum. Propositio 4.
 
@@ -18,4 +18,4 @@ CAMPANVS. Sit triangulus a b c, cuius latus a b sit æquale lateri a c. Dico quo
 
 *[Figure: triangle a b c with apex a above; the sides a b and a c produced beyond the base to d at the lower left and e at the lower right, with the crossing lines b e and c d drawn]*
 
-*[Catchword: EVCLIDIS]*
+<!-- Catchword: EVCLIDIS -->

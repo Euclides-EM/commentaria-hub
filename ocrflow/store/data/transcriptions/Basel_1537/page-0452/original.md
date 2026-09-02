@@ -1,6 +1,6 @@
-# LIBER TERTIVSDECIMVS
+<!-- # LIBER TERTIVSDECIMVS -->
 
-*[Folio: 441]*
+<!-- Folio: 441 -->
 
 ε κ, ζ λ, η μ, θ ν, cōnectanturq̃ ipsæ κ λ, λ μ, μ ν, ν κ: cubus igitur ζ ν cōstructus est sub sex quadratis æqualibus cōprehensus. Oportet iam sphæra data cōprehendere, & ostēdere quod ipsius sphæræ dimetiēs potētia triplex est ipsius cubi lateris. Cōnectantur enim ipsæ κ η, ε η. Et quoniā angulus qui sub κ ε η rectus est, eo q̃ & κ ε recta est ad planū ε η, uidelicet & ad rectā lineā η ε, igitur super κ η descriptus semicirculus ueniet & per ε signū. Rursus quoniā η ζ recta est ad utranq̃ ipsarū ζ λ, ζ ε, & ad ζ κ igitur planū recta est ipsa η ζ. Quare & si cōnectamus ipsam ζ κ, ipsa κ η recta erit ad ipsam ζ κ, ac per hoc rursus super κ η descriptus semicirculus, transibit & per ζ, similiter & per reliqua signa ipsius cubi ueniet. Si iam manente ipsa κ η, circūductus semicirculus in idem steterit unde circūduci cœpit, cubus sphæra cōprehensus erit. Dico iam quod & data. Quoniā enim æqualis est ε ζ ipsi ζ η, & angulus qui ad ζ rectus est, quod igitur ex ε η, duplū est eius q̃d ex ε ζ. Æqualis autē ε ζ ipsi ε κ, quod igitur ex ε η, duplū est eius quod ex ε κ. Quare quod ex η ε, ε κ, hoc est quod ex κ η, triplū est eius quod ex ε κ. Et quoniā tripla est α β ipsius β γ, est autem ut α β ad β γ, ita quod ex α β ad quod ex β δ, triplū igitur est quod ex α β eius quod ex β δ. Est autē & quod ex κ η, triplū eius quod ex ε κ, & æqualis posita est ε κ ipsi β δ, æqualis igitur & κ η ipsi α β. Et α β est datæ sphæræ dimetiens, & κ η igitur æqualis est ipsi datæ sphæræ diametro. Data igitur sphæra cōprehenditur cubus, & una ostendimus quod sphæræ diameter potētia tripla est ipsius cubi lateris. Quod facere & ostendere oportebat.
 

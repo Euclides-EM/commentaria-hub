@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 345]*
+<!-- Folio: 345 -->
 
 dratus numerus ad quadratum numerum.
 
@@ -16,7 +16,7 @@ DECIMI LIBRI FINIS.
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER VNDECIMVS,
 
-Eucli.ex Campano Diffinitiones.
+## Eucli.ex Camp.no Diffinitiones.
 
 *[Woodcut initial C with figures]*
 
@@ -34,4 +34,4 @@ Verbi gratia,imaginemur superficiē a b c d exurgere,superficiem uero c d e f ia
 
 *[Figure, right: two parallelograms meeting in the line c d, lettered a, h, b along the top, c, g, d along the middle, and e, k, f along the bottom]*
 
-*[Catchword: quem]*
+<!-- Catchword: quem -->

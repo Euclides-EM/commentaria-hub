@@ -1,6 +1,6 @@
-*[Folio: 2]*
+<!-- Folio: 2 -->
 
-# GEOMET. ELEMEN. EVCLIDIS
+<!-- # GEOMET. ELEMEN. EVCLIDIS -->
 
 sunt æquales. 16 Et hic quidem punctus: centrum circuli dicitur.
 
@@ -20,4 +20,4 @@ sunt æquales. 16 Et hic quidem punctus: centrum circuli dicitur.
 
 *[Figures with labels: Quadratum (square); Tetragonus longus (oblong rectangle); Helmuayn (rhombus); Similis helmuayn (rhomboid); Helmuariphe (trapezium)]*
 
-*[Catchword: sita]*
+<!-- Catchword: sita -->

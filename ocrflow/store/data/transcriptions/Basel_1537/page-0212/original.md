@@ -1,4 +1,6 @@
-# LIBER OCTAVVS *[Folio: 201]*
+<!-- # LIBER OCTAVVS -->
+
+<!-- Folio: 201 -->
 
 ## CORRELARIVM
 
@@ -8,7 +10,7 @@ CAMPANVS Sint datæ proportionis minimi, a & b ducaturq̃ a in se,& fiat c, & in
 
 *[Figure: dotted number lines beside the text, labelled a (2 dots), b (3 dots), c (4 dots), d (6 dots), e (9 dots), f (8 dots), g (12 dots), h (18 dots), K (27 dots)]*
 
-Eucli.ex Zamb. — Problema 1 — Propositio 2
+## Eucli.ex Zamb. — Problema 1 — Propositio 2
 
 ## 2 NVmeros inuenire continue proportionales minimos, quotcunq̃ imperauerit quispiam,in data ratione.
 
@@ -18,10 +20,10 @@ THEON ex Zamberto. *Sit data ratio in minimis numeris,ipsius α ad β,oportet ia
 
 PORISMA *siue correlarium* Proinde manifestum est,quod si tres numeri continue proportionales minimi fuerint eandem rationē habentium eis:extremi eorum quadrati sunt,si autem quatuor,cubi.
 
-Eucli.ex Camp. — Propositio 3
+## Eucli.ex Camp. — Propositio 3
 
 ## SI numeri quotlibet continue proportionales secundum suam
 
 *[Woodcut: decorated initial S with foliate dragon]*
 
-*[Catchword: propor]*
+<!-- Catchword: propor -->

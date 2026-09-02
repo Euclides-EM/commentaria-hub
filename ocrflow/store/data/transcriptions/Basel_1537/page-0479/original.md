@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 468]*
+<!-- Folio: 468 -->
 
 Apollonio conscriptum, qui recte complectebatur eius quod obijciebatur demonstrationē, gauisi sunt inquam illi ualde, in problematis indagatione. Ab Apollonio nanq̃ æditum uidetur cōmuniter considerare, nam sic circumfertur. Quod uero a nobis rursus laboriose conscriptum uisum est, ea quæ ex cōmendatione deprehendi, tibi * discutienda esse censui, propter eam quæ in omnibus disciplinis, & in Geometria præcipue promotionem, ut prompte ea quæ dicentur possis iudicare, tum propter beneuolentiam erga patrem, tum ob amorem erga nos. Benigne igitur audies ea quæ tibi trademus. Sed tempus iam esto procemio supersedere, & constructionem exordiri. *[Margin, at the asterisk: προσφωνῆσαι dedicare]*
 
@@ -24,4 +24,4 @@ HYPSICLES ex Zamb. Hoc, inquam, ab Aristeo describitur in eo libro cuius index e
 
 *[Figure: circle α β γ with vertical diameter β ζ through centre δ; pentagon side α γ cut perpendicularly at ε; chords α β and α ζ drawn]*
 
-*[Catchword: quadruplum]*
+<!-- Catchword: quadruplum -->

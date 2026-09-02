@@ -1,6 +1,6 @@
 ## SPECVLARIA
 
-*[Folio: 505]*
+<!-- Folio: 505 -->
 
 ### Theorema primum.
 
@@ -42,4 +42,4 @@ Sit planum speculum a k c, uisus autem b k procidat maiorem efficiens angulum f 
 
 *[Woodcut initial V]* Isus in planis speculis, & cōuexis refracti, neque concurrunt adinuicem, neque sunt paralleli.
 
-*[Signature: V]* *[Catchword: Sit pla]*
+<!-- Signature: V --> <!-- Catchword: Sit pla -->

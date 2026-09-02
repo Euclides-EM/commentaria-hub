@@ -1,6 +1,6 @@
-*[Folio: 6]*
+<!-- Folio: 6 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 35 Parallelæ rectæ lineæ sunt, quæ in eodem existentes plano, & ex utraque parte in infinitum productæ, in nulla parte concurrunt.
 
@@ -14,4 +14,4 @@
 
 1 Quæ eidem æqualia, & ad inuicem sunt æqualia. 2 Et si æqualibus æqualia adijciātur, tota erunt æqualia. 3 Et si ab æqualibus æqualia auferantur, quæ relinquuntur æqualia erunt. 4 Et si inæqualibus æqualia adiungantur, tota erunt inæqualia. 5 Et si ab inæqualibus æqualia auferantur, reliqua inæqualia erunt. 6 Quæ eiusdem duplicia sunt, adinuicem sunt æqualia. 7 Et quæ eiusdem sunt dimidium, æqualia sunt adinuicem. 8 Et quæ sibimetipsis cōueniunt, æqualia sunt adinuicem. *[Margin: χωρίον]* 9 Totum, est sua parte maius. 10 Duæ rectæ lineæ,* superficiem non concludunt.
 
-*[Catchword: EVCLIDIS]*
+<!-- Catchword: EVCLIDIS -->

@@ -1,4 +1,4 @@
-*[Folio: 479]*
+<!-- Folio: 479 -->
 
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI MATHEMATICORVMQVE facile principis, ex Hypsiclis Alexandrini, Græci philosophi traditione, Geometricorum Elementorum Liber decimusquintus,
 
@@ -44,4 +44,4 @@ HYPSICLES ex Zamb. Capiātur (per primā tertij) eorū qui circū α β γ, α �
 
 *[Figure: large cube in perspective with the inscribed octahedron and connecting lines, serving propositions 3 and 4; visible labels include η, θ, γ, β, ξ, ε, μ, ο, σ, τ]*
 
-*[Catchword: μ ο]*
+<!-- Catchword: μ ο -->

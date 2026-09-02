@@ -1,10 +1,10 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 158]*
+<!-- Folio: 158 -->
 
 b d, ergo per 11 quinti. proportio b c ad g c, est sicut b c ad k c, utraque enim est sicut d ẽ ad fe. quare per secundã partẽ nonæ quinti, g c est æqualis K c pars uidelicet toti quod est impossibile. Erit igitur a e c diameter parallelogrammi b d, quod est propositum.
 
-Eucli.ex Camp. Propositio 24.
+## Eucli.ex Camp. Propositio 24.
 
 ## 24 Omnium duarum superficierum æquidistantium laterum quarum unus angulus unius uni angulo alterius æqualis proportio alterius ad alteram, est quæ producitur ex duabus proportionibus suorum laterũ duos æquos angulos continentiũ.
 
@@ -12,7 +12,7 @@ CAMPANVS Sint duæ superficies æquidistãtium laterum, a c & e d, sitque angulu
 
 *[Figure: two parallelograms conjoined at a common vertex: an upper rectangle with labels c and b inside beside the dividing vertical, a at its left outside, and a tall rectangle below to the right with d at its right side and e inside; below, three vertical lines of differing lengths labelled c(f?), g, b(h?) at their feet]*
 
-Eucli.ex Camp. Propositio 25
+## Eucli.ex Camp. Propositio 25
 
 ## 25 Datæ superficiei similem, alĳq̃ propositæ æqualem designare.
 
@@ -24,4 +24,4 @@ CAMPANVS Sint propositæ duæ superficies rectilineæ. A, pentagona. B, hexagona
 
 *[Figure: a pentagon labelled u; below it two short horizontal lines labelled s and t]*
 
-*[Catchword: trin/]*
+<!-- Catchword: trin/ -->

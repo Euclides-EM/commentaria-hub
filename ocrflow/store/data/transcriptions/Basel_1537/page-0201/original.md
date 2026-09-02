@@ -1,12 +1,12 @@
-*[Folio: 190]*
+<!-- Folio: 190 -->
 
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
 CAMPANVS. Sint a & b, priores, c & d, posteriotes *[sic, for posteriores]*: sitq̃ uterque duorum a & b, primus ad utrunq̃ duorum c & d, & ex a in b sit e, & ex c in d, f: dico quod e primus est ad f. Hoc autem 35 *[sic, for 25]* ter assumpta euidenter cōcludit. Cum enim fiat e ex a in b, quorū uterq̃ primus est a ad c & ad d, erit per ipsam e primus ad c, & itē per ipsam primus ad d. Quia item f fit ex c in d, quorum uterq̃ primus est ad e, erit rursus per ipsam f primus ad e, quod est propositū.
 
 *[Figure: dotted number lines beside the text: a·· b····· / e·········· / c··· d······· / f·····················]*
 
-Eucli. ex Zamb. — Theorema 26 — Propositio 28
+## Eucli. ex Zamb. — Theorema 26 — Propositio 28
 
 *[Margin: 28]*
 
@@ -16,7 +16,7 @@ THEON ex Zamberto. Bini enim numeri α,β, ad binos numeros γ,δ, uterque ad ut
 
 *[Figure: dotted number lines beside the text: α··· / β····· / ε··············· / γ·· / δ···· / ζ········]*
 
-Eucli. ex Camp. — Propositio 28
+## Eucli. ex Camp. — Propositio 28
 
 *[Margin: 28]*
 
@@ -30,7 +30,7 @@ Reliquum sic, est enim uterque duorum numerorum a & c, primus ad utrunq̃ duorum
 
 *[Figure: dotted number lines beside the text: a·· / c···· / e········ / b··· / d········· / f···························]*
 
-Eucli. ex Zamb. — Theorema 27 — Propositio 29
+## Eucli. ex Zamb. — Theorema 27 — Propositio 29
 
 *[Margin: 29]*
 
@@ -40,4 +40,4 @@ THEON ex Zamberto. Sint bini numeri primi adinuicem α,β, & α seipsum multipli
 
 *[Figure: dotted number lines beside the text: α··· / γ········· / ε··························· / β···· / δ················ / ζ···· (a very long row of dots, ca. 64, extending across the column)]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

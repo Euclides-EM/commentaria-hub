@@ -1,6 +1,6 @@
-# SPECVLARIA
+<!-- # SPECVLARIA -->
 
-*[Folio: 513]*
+<!-- Folio: 513 -->
 
 ## Theorema uigesimum quintum
 
@@ -32,4 +32,4 @@ Sit cauum speculum a c d, dimetiens uero sit a d centrum autem sit f ad rectos a
 
 IN cauis speculis si eam quæ ex centro bifariam secans, & ad angulos rectos educens quis ponat oculos æque distantes in ea quæ ex centro, ponatur autem uel per medium diametri & eius quæ ad rectos angulos, uel in ipsa quæ ad rectos angulos, ipsorum oculorum nullus spectabitur.
 
-*[Catchword: Esto]*
+<!-- Catchword: Esto -->

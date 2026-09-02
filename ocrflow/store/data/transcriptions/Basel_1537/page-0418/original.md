@@ -1,6 +1,6 @@
-# LIBER DVODECIMVS
+<!-- # LIBER DVODECIMVS -->
 
-*[Folio: 407]*
+<!-- Folio: 407 -->
 
 4 sexti, proportio f m ad k n, sicut b m ad d n, ideoq̃ sicut a m ad c n. Et quia iterū ex diffinitione lineæ super superficiē perpendiculariter erectæ uterq̃ duorū angulorū a m f, c n K, est rectus, erit ex 6 & 4 sexti, proportio a f ad c k, sicut a m ad c n, ideo per 11 quinti, sicut a b ad c d, & sicut b f ad d K. Igitur ex 5 sexti, duo anguli a b f & c d K, sunt adinuicē æquales. Quod est propositū. Idem probabis leuiter de rotundis colūnis similibus.
 
@@ -14,4 +14,4 @@ Hoc itaq̃ demonstrato, dico quod omnium duarū rotundarū pyramidū similiū qu
 
 *[Figure: circle with inscribed square and both diagonals; g at top, e at left, f at right, b at centre, b below the circle]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

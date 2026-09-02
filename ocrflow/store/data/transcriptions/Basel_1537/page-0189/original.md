@@ -1,6 +1,6 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 178]*
+<!-- Folio: 178 -->
 
 cissim quæ partes est primus tertij uel pars, eædem partes erit & secundus quarti uel eadem pars.
 
@@ -30,4 +30,4 @@ CAMPANVS. Quod proposuit Euclides in 19 quinti de quantitatibus in genere, propo
 
 *[Figure: dot-rows: b; d (3 dots) f (5 dots); a; c (3 dots) e (3 dots)]*
 
-*[Catchword: thesin]*
+<!-- Catchword: thesin -->

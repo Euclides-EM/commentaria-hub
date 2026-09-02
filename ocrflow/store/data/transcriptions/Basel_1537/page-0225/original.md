@@ -1,12 +1,12 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 214]*
+<!-- Folio: 214 -->
 
 primi, ideoque per 21 septimi, in sua proportione minimi, & quia per æquam proportionalitatem sunt a ad d & c ad b sicut e ad g, sequitur per 21 septimi. ut ipsi numerent a & d æqualiter, quod sit secundum n, & item c & b æqualiter, quod secundum p. Quia igitur ex h in K fit e, & ex e in n fit a, sequitur per diffinitionem ut a sit solidus eiusque latera h, k, n, similiter quia ex l, in m fit g, & ex g in p, b, sequitur etiam ut b, sit solidus & eius latera l, m, p. Ipsos autem esse similes sic constabit. Cum ex g in n fiat d, & ex eodē in p, b: erit per 18 septimi, n, ad p, sicut d ad b, & quia sic erant h ad l, & k ad m, per diffinitionem manifestum est a & b, esse similes: quod est propositum.
 
 ## Quatuor præcedentes ex Campano Euclidis propositiones scilicet 16, 17, 18, 19, quatuor sequentibus ex Zamberto propositionibus puta 18, 19, 20. 21, hoc ordine respondent, prima primæ, secunda tertiæ, tertia secundæ, quarta quartæ.
 
-Eucli. ex Zamb. Theorema 16 Propositio 18
+## Eucli. ex Zamb. Theorema 16 Propositio 18
 
 **18** Duorum similium planorum numerorum, unus medius proportionalis est numerus. Et planus ad planum duplam habet rationem, quàm similis rationis latus ad similis rationis latus.
 
@@ -14,7 +14,7 @@ THEON ex Zamberto. Sint bini plani similes numeri α, β. & ipsius α, latera si
 
 *[Figure: dotted number lines α, η, β, γ, δ, ε, ζ]*
 
-Eucli. ex Zamb. Theorema 17 Propositio 19
+## Eucli. ex Zamb. Theorema 17 Propositio 19
 
 **19** Duorum similium solidorum numerorum, bini medij proportionales sunt numeri, Et solidus ad solidum simile triplam rationem habet, quàm similis rationis latus ad similis rationis latus.
 
@@ -22,4 +22,4 @@ THEON ex Zamberto. Sint bini similes solidi numeri, α, β, & ipsius quidem α, 
 
 *[Figure: dotted number lines α, ν, ξ, β, γ, δ, ε, ζ, η, θ, κ, μ, λ]*
 
-*[Catchword: quoniam]*
+<!-- Catchword: quoniam -->

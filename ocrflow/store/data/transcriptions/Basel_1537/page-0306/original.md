@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 295]*
+<!-- Folio: 295 -->
 
 CAMP. Cũctis ut in præmissis manētibus. erit ex hypothesi & diffinitione binomij 4 & 19 utraq̃ duarũ superficierũ d g & g c (quare & utraq̃ duarũ p m & m q) medialis, duoq̃ quadrata l m & m n pariter accepta, ratiõale eo q̃ superficies a d est rõnalis per diffinitionē binomij quarti & 15. Et quia d b diuiditur in pũcto f in duo incõicãtia per secũdã partē 14, erit superficies a f incõmēsurabilis superficiei f h, ideoq̃ & quadratũ l m, quadrato m n. Duæ igitur lineæ l r & r p, sunt incõmēsurabiles in potētia quæ cũ cõtineant superficiē medialē p m & earũ quadrata ambo pariter accepta sint rõnale, cõstat per 33 lineã l p esse lineã maiorem. Quod erat demõstrãdũ.
 
@@ -38,4 +38,4 @@ CAMP. Nec in hac quoq̃ est aliquid ex priorũ dispositiõe & positiõibus mæt�
 
 Si areola cõprehendatur sub rationali, ac ex binis quinta nominibus, areo
 
-*[Signature: B 4]* *[Catchword: lam]*
+<!-- Signature: B 4 --> <!-- Catchword: lam -->

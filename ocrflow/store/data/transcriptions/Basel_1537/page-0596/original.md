@@ -1,6 +1,6 @@
-# DATA 583
+<!-- # DATA -->
 
-*[Folio: 583]*
+<!-- Folio: 583 -->
 
 tur per 1 tertij elementorũ. ipsius circuli centrũ d & cõnectãtur b d, d c. Et q̃m utrũq̃ ipsorũ b d, datũ est positione. igitur est ipsa b d. Et q̃m angulus b a c, datus est. Datus igitur est angulus b d c. Quoniã igitur ad positiõe rectam lineã b d ad signũq̃ d recta linea excitatur d c datũ. efficiẽs angulũ b d c. Data igitur ipsa d c positiõe, datus est aũt & circulus a b c. Datũ igitur est c signum.
 
@@ -34,4 +34,4 @@ In circulo enim dato positione b c accipiatur signum aliquod datum a, ac per a e
 
 *[Figure: a circle with e at top, f at bottom, c at left, b at right, centre d and interior point a, with a vertical diameter e f and a chord c b crossing at a]*
 
-*[Signature: Cc 4]* *[Catchword: Theo]*
+<!-- Signature: Cc 4 --> <!-- Catchword: Theo -->

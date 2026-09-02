@@ -1,4 +1,6 @@
-# *[Folio: 418]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 418 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ſa α ψ in unā ipſius polyhedri baſin, & α κ in minoris ſphæræ ſuperficiem. Quare & polyhedrũ nõ tangit ſphærã in ſuperficie. Quod facere oportebat.
 
@@ -18,4 +20,4 @@ OMnium duarum ſphærarum eſt proportio alterius ad alteram, tanquam ſuæ diam
 
 CAMPANVS Sint duæ ſphæræ a b & c d, quarum diametri ſint a b & c d. Dico quod proportio earum. eſt ſicut ſuarũ diametrorum proportio triplicata. Cuius demõſtratio eſt. Quoniam neque ad minorem ſphæram quàm ſit ſphæra c d neque ad maiorẽ eſt, pportio ſphæræ a b, ſicut diametri a b ad diametrum c d triplicata. Eſto quidem proportio ſphæræ a b ad ſphæram e f, ſicut diametri a b ſphæræ a b, ad diametrũ c d triplicata. Demonſtrabo itaque, quod ſphæra e f nõ poteſt eſſe minor neque maior quàm ſphæra c d. Si enim affirmet aduerſarius eã eſſe minorem, imaginabor eã includi à ſphæra c d, & circunduci ab eodem centro, & inſcribam ſphæræ c d iuxta præcepta præmiſſæ, unum corpus multarum baſium non tangentium ſuperficiem ſphæræ e f, minoris. dicaturque iſtud corpus nomine ſphæræ cui inſcribitur, c d. Poſtea ſimile corpus multarum baſium inſcribam ſphæræ a b, quod etiam nomine ſuæ ſphæræ dicatur a b: conſtat itaq̃ ex ſecunda parte præmiſſæ & undecimi quinti, quod proportio ſphæræ a b ad ſphærã e f. eſt ſicut corporis multarum baſium quod eſt a b, ad
 
-*[Catchword: corpus]*
+<!-- Catchword: corpus -->

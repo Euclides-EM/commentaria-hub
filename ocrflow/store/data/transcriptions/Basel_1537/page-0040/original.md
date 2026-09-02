@@ -1,6 +1,6 @@
-# LIBER PRIMVS
+<!-- # LIBER PRIMVS -->
 
-*[Folio: 31]*
+<!-- Folio: 31 -->
 
 tium laterum. Sint duæ superficies a b c d & e f g h, æquidistantium laterum, constitutæ inter duas lineas æquidistantes quæ sunt a f & c h, & super æquales bases quæ sunt c d & g h, dico eas esse æquales, nam protraham duas lineas, c e & d f, eritq̃ per 33, superficies c d e f, æquidistantium laterum, propter hoc quod e f est æqualis & æquidistans c d, nam utraque earum est æqualis g h. Quia ergo per præmissam utraq̃ duarum superficierum a b c d & e f g h est æqualis superficiei c d e f, ipsæ erunt sibi inuicem æquales, quod est propositum.
 
@@ -48,6 +48,6 @@ I duo trianguli super bases æquales atq̃ inter duas lineas æquidistantes ceci
 
 CAMPANVS. Sint duo trianguli a b c & d e f, constituti super bases
 
-*[Signature: c 4]*
+<!-- Signature: c 4 -->
 
-*[Catchword: b c &]*
+<!-- Catchword: b c & -->

@@ -1,10 +1,10 @@
-*[Folio: 242]*
+<!-- Folio: 242 -->
 
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
 gatum ex a & b & c & d & unitate, itemq̃ totus f g est quantus aggregatus ex omnibus his scilicet a,b,c,d & unitate & illis e,h,k,l, de quibus omnibus manifestum est, quod numerant eum scilicet f g, e quidem secundum h, & h secundum k, quod ex prima parte 20 septimi conuincitur, adiuuāte æqua proportionalitate sicubi opus fuerit. Est enim ut d ad c, sic k ad h, & ut d ad b, sic k ad e, per æquam proportionalitatem, quare & ex c in h, & ex b in k, necesse est prouenire f g, quem dudum produxerat d in e. Si igitur nullus alius ab his numerat f g, ipse erit per diffinitionem numerus perfectus. Quod autem nullus alius eum numeret, patet. Si enim hoc possibile est, sit p qui numeret eum secundū q, eritq̃ per 33 septimi, ut e numeret alterū corū, ponaturq̃ quod numeret p. Et quia per secundam partem 20 septimi, est q ad d sicut e ad p, sequitur ut q numeret d quare cum a qui sequitur unitatē sit primus (est enim binarius) erit q per 13 huius aut a aut b aut c, quicunque autem horum fuerit. erit p, aut l, aut k aut h, si enim q fuerit a, constat quod p erit l, quod si fuerit b, p erit k, si autem c, p quoque erit h. non est igitur p diuersus ab illis ut fuerat positum, relinquitur ergo quod f g sit numerus perfectus, quod erat demonstrandum.
 
-Eucli. ex Zamb. Theorema 36 Propositio 36
+## Eucli. ex Zamb. Theorema 36 Propositio 36
 
 **36** Si ab unitate quotcūq̃ numeri continue expositi fuerint in duplici proportione, quoad totus compositus primus fuerit, & totus in ultimum multiplicatus aliquem fecerit, qui gignitur perfectus erit.
 

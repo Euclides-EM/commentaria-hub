@@ -1,6 +1,6 @@
-*[Folio: 46]* *[misnumbered; should be 94]*
+<!-- Folio: 46 --> *[misnumbered; should be 94]*
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 b f, ergo b f, est æqualis b d, quare per 5 primi, angulus b f d, est æqualis angulo b d f, & quia per 32 tertij, angulus b f a, est æqualis angulo a d f, erit angulus b f d, maior angulo a d f, & erit angulus b d f, maior angulo a d f, quod est impossibile: cum ipse sit pars eius. Aliter possumus illud refellere, & ostendere quod ille minor circulus nullo modo secabit lineam b d. Forsan enim diceret quod secaret eam, non secando arcū d b, maioris circuli. Si enim possibile, est quod secet eam, sit hoc in puncto h, eritque quod fit ex a b in b c, æquale ei quod fit ex d b, in b h. Monstratum est enim, supra penultimam tertij quod si ab aliquo puncto extra circulum signato quotlibet lineæ secantes ad circulum ducantur, quæ sub totis & earū portionibus extrinsecis continētur: æqualia sunt adinuice. & quia quod fit ex a b, in b c, est æquale quadrato d b, quod est impossibile, per 7 secundi, quare constat propositū.
 
@@ -14,12 +14,12 @@ Secet ergo ipsum in punctis e d, dico arcum e d, maioris, esse æqualem arcui d 
 
 *[Figure: two circles cutting one another at e and d, with lines d e, c e, e a; labels a, b, c, d, e]*
 
-Eucli ex Zamb. Problema 10 Propositio 10
+## Eucli ex Zamb. Problema 10 Propositio 10
 
-## 10. Isosceles triangulum constituere, habens unumquenq̃ eorum qui ad basin sunt angulorum duplum reliqui.
+10. Isosceles triangulum constituere, habens unumquenq̃ eorum qui ad basin sunt angulorum duplum reliqui.
 
 THEON ex Zamb. Ponatur quædā recta linea α β, seceturq̃: (per 11 secūdi) in γ, signo ut sub α β, & β γ, cōprehensum rectāgulū æquale sit ei quod fit ex γ α, quadrato, cētro α, spatio uero α β, (per 3 postulatū) circulus describatur β δ ε. Applicetur q̃ in circulū β δ ε, ipsi α γ, rectæ lineæ quæ diametro ipsius β δ ε, maior nō est circuli ε δ, æqualis recta linea β δ, (per 1 quarti,) & cōnectātur α δ, γ δ, describaturq̃: (per 5 quarti) circa α γ δ, triangulū, circulus α γ δ. Et quoniā cōtinetur sub α β, & β γ, rectāngulū æquū est ei quod fit ex α γ, quadrato, æqualis autē est α γ, ipsi β δ, quod igitur continetur extra circulum α γ δ, suscipitur signū aliquod β, & ab ipso ε, in circulū α γ δ, ceciderint duæ rectæ lineæ & earū una secat & altera incidit, & id quod cōtinetur sub α β, & β γ, æquū est ei quod fit ex β δ, γ, igitur (per 37 tertij,) β δ, tangit circulū α γ δ, in β δ, signo, ab ipso autē δ, contactūs ducta est δ γ, angulus igitur β δ γ, (per 32 tertij,) æqualis est ei qui in alterno est circuli segmēto, angulo qui sub δ α γ. Quoniam igitur æqualis est angulus β δ γ, angulo δ α γ, cōmunis apponatur angulus γ δ α. Totus igitur angulus β δ α, æqualis est duobus qui sub γ δ α, & γ α δ, sunt angulis. Sed eis qui sunt sub γ δ α, & γ α δ, æqualis est angulus exterior β γ δ, (per 32, primi, & angulus igitur β δ α, est angulo β γ δ. Sed angulus β δ α, æqui sub γ β δ
 
 *[Figure: circle β δ ε about centre α, with triangle α β δ, point γ on α β, chord β δ, and the circle circumscribed about triangle α γ δ; labels α, β, γ, δ, ε]*
 
-*[Catchword: per]*
+<!-- Catchword: per -->

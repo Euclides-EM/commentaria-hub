@@ -1,10 +1,12 @@
-# LIBER DECIMVS. *[Folio: 303]*
+<!-- # LIBER DECIMVS. -->
+
+<!-- Folio: 303 -->
 
 ipsi α β, utraq̃ enim ipsarū est ex binis nominibus secunda. Si uero neutra ipsarum α ε, ε β, cōmensurabilis est expositæ rationali, neutra etiam ipsarū γ ζ, ζ δ, eidem erit commensurabilis, & utraq̃ tertia est. Si autem α ε ipsa ε β maius potest eo quod ex sibi incommensurabili, & γ ζ, ipsa ζ δ maius poterit eo quod ex sibi incommensurabili, & si α ε expositæ rationali commensurabilis est, & γ ζ eidem cōmensurabilis est, & utraq̃ erit quarta. Si autem ε β, & ζ δ, & erit utraq̃ quinta. Si uero neutra ipsarum α ε, ε β, & ipsarum γ ζ, ζ δ neutra commensurabilis est expositæ rationali, eritq̃ utraque sexta. Quare ei quæ ex binis nominibus longitudine commensurabilis, ex binis nominibus est, & in ordine eadem, quod erat ostendendum.
 
 *[Figure: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]*
 
-Eucli. ex Camp. Propositio 61
+## Eucli. ex Camp. Propositio 61
 
 *[Margin: 61]*
 
@@ -20,7 +22,7 @@ CAMPANVS. Veritatem habet quod dicitur, siue in longitudine, siue etiam in poten
 
 *[Figure: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]*
 
-Eucli. ex Zamb. Theorema 49 Propositio 67
+## Eucli. ex Zamb. Theorema 49 Propositio 67
 
 *[Margin: 67]*
 
@@ -28,4 +30,4 @@ Eucli. ex Zamb. Theorema 49 Propositio 67
 
 THEON ex Zamb. Esto ex binis medijs α β, & ipsi α β cōmensurabilis esto longitudine γ δ. Dico quod γ δ ex binis est medijs, & in ordine ipsi α β eadem. Quoniam enim α β ex binis medijs est diuisa in medias in ε, ipsæ igitur α ε, ε β (per 37 & 38 decimi) mediæ sunt potentia tantum cōmensu
 
-*[Signature: C 2]* *[Catchword: rabiles.]*
+<!-- Signature: C 2 --> <!-- Catchword: rabiles. -->

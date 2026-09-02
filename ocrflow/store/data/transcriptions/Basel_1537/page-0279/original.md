@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 268]*
+<!-- Folio: 268 -->
 
 *[Editorial note: in the small italic Greek of the following Theon proofs the glyphs for η, κ and θ are near-identical in this font (as are the "6"-shaped β, ι-like ε and ξ-like ζ). Point-letters below are normalized by their geometric identity in the proof.]*
 
@@ -8,7 +8,7 @@ logrammū η θ, ipsam latitudinē efficiens ζ θ. Ipsi autem α γ ad θ μ æ
 
 *[Figure: at top right, a square (on α δ, β) with a small square adjoining at the upper right corner labelled ζ, θ, η; below it a large three-strip rectangle whose left side is labelled top-to-bottom λ, θ, η, ζ and right side ν, μ, θ]*
 
-Eucli.ex Zamb. Theorema 23 Propositio 26
+## Eucli.ex Zamb. Theorema 23 Propositio 26
 
 ## Medium, non excedit medium rationali.
 
@@ -20,7 +20,7 @@ THEON ex Zamberto. Si enim possibile, medium α ε, medium α γ excedat rationa
 
 Sequentes duæ ex zamberto neutiquā in Campano respondentes habent.
 
-Eucli.ex Zamb. Problema 4 Propositio 27
+## Eucli.ex Zamb. Problema 4 Propositio 27
 
 ## Medias inuenire potentia tantum cōmensurabiles, rationale comprehendentes.
 
@@ -28,4 +28,4 @@ Eucli.ex Zamb. Problema 4 Propositio 27
 
 THEON ex Zamberto. Exponantur binæ rationales potentia tantum commensurabiles α β, sumanturq̃ (per 13 sexti) ipsarum α, β, media proportionalis γ. Fiatq̃ (per 12 sexti) sicut α ad β, sic γ ad δ. Et quoniam ipse α, β, rationales sunt potentia tantum cōmensurabiles, igitur quod sub α, β, hoc est quod ex γ fit (per 21 decimi) medium est, media igitur est γ. Et quoniam est sicut α ad β, sic γ a δ *[sic: ad δ]*, ipsæ autem α, β, potentia tantum sunt commensura-
 
-*[Catchword: cōmensuræ]*
+<!-- Catchword: cōmensuræ -->

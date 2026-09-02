@@ -1,10 +1,10 @@
-*[Folio: 464]*
+<!-- Folio: 464 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 sunt æqualia duobus lateribus a f ⁊ f c triangulia f c *[sic: trianguli a f c]*, & basis a b basi a c, nam pyramis posita est æquilatera, erit ex 8 primi angulus a f b æqualis angulo a f c, ideoq́ⱼ per 13 primi, angulus quoq́ⱼ b f e, erit æqualis angulo c f e. Eodem modo probabis angulum d f e esse æqualē angulo c f e, necesse est enim ex 8 primi, ut angulus a f d sit æqualis angulo a f c. Quare per 13 primi angulus quoq́ⱼ d f e, erit æqualis angulo c f e. Sunt igitur tres anguli c f e, d f e *[sic: b f e, d f e]*, adinuicē æquales. Protractis igitur lineis e b, e c, e d, sequitur ex 4 primi, ipsas assumpta eas esse adinuicem æquales, ideoq́ⱼ per 9 tertij punctus e, est centrum circuli b c d. Et quia perpēdicularis ducta à centro sphæræ ad superficiē cuiuslibet circuli eam secantis, cadit super centrū eiusdem circuli, sicut ex ijs quæ præmissa sunt uidelicet ex ijs quæ 10 huius immediate præcedūt didicisti, coniuncitur lineam a f e esse perpendicularē ad superficiem circuli a b c, quēadmodum proponitur. Sin autem, erunt eiusdem circuli duo centra, quod natura tanquam impossibile exhorruit.
 
-Eucli. ex Camp. Propositio 16
+## Eucli. ex Camp. Propositio 16
 
 16 SOlidum octo basium triangulariū atq́ⱼ æquilaterarū quod ab aliqua sphæra circūscribitur, diuisibile est in duas pyramides æque altas quarū altitudo æqualis est semidiametro sphæræ, basis autem utriusq́ⱼ quadratū quod est subduplum quadrato diametri sphæræ.
 
@@ -12,10 +12,10 @@ CAMPANVS. Esto corpus octo basium triangulariū atque æquilaterarū cuius sexan
 
 *[Figure: octahedron with vertices a (top), b (bottom), f (left), e (right), c (lower left), d (lower right), centre g; all diagonals drawn]*
 
-Eucli. ex Camp. Propositio 17
+## Eucli. ex Camp. Propositio 17
 
 17 PYramide quatuor basium triangulariū atq́ⱼ æquilaterarū sphæra aliqua circūscribente, erit pportio tetragoni qui sub linea potentialiter subsesquitertia ad dodrantē lateris ipsius pyramidis & sub linea superquincupartiente uicesimasseptimas eius dodrantis cōtinetur, ad quadratū diametri sphæræ, sicut corporis ipsius pyramidis ad corpus octo basiū triangulariū atq́ⱼ æquilaterarū, quæ ambo eadē sphæra circūducant.
 
 CAMPANVS. Sit sphæra cuius diameter a b & centrū h, circūscribens pyramidem quatuor basium triangulariū atq́ⱼ æquilaterarū a c d, & corpus octo basium triangulariū atq́ⱼ æquilaterarū quod sit e, sitq́ⱼ linea l m potētialiter subsesquitertia ad dodrantē lineæ a c quæ est latus pyramidis, & linea m n contineat dodrantem prædictum & eius
 
-*[Catchword: quinq́ⱼ]*
+<!-- Catchword: quinq́ⱼ -->

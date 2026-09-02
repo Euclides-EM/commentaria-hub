@@ -1,6 +1,6 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 153]*
+<!-- Folio: 153 -->
 
 los ductis lineis d f, & d g, & super pūctum a constituo angulum æqualē angulo c, ducta linea a h, & super punctum b, constituo alium angulum, qui sit a b h, æqualem angulo c d g, protracta linea b h quousque concurrat cū a h in puncto h, eritq́ȝ per 32 primi angulus a h b, æqualis angulo c g d, & ideo per 4 huius latera duorum triangulorū g c d & h a b, proportionalia. Facio quoque angulum h b k, ducta linea b k: æqualem angulo g d f, & angulum k b l: ducta linea b l, æqualem angulo d g f, & angulum b k l ducta linea k l, æqualē angulo d f e, eritque perfectus pentagonus qui constituendus erat super lineam a b, est enim æquiangulus dato pentagono propter æqualitatem angulorum triāgulorum, in quos est uterque diuisus, sed & laterum proportionalium, propter proportionalitatem laterum ipsorum triangulorum, quæ ex 4 huius euidenter apparet, quare per diffinitionem similium superficierum, pentagonus cōstitutus super lineam a b, est similis pentagono dato, quod est propositum.
 
@@ -28,4 +28,4 @@ THEON ex Zamberto. Sint similia triangula α β γ, & δ ε ζ, æqualem habenti
 
 *[Figure: two triangles. Left: triangle with apex α, base from β (left) to γ (right), with η on the base between β and γ and the line α η drawn. Right: triangle with apex δ and base from ε (left) to ζ (right)]*
 
-*[Catchword: sic]*
+<!-- Catchword: sic -->

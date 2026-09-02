@@ -1,8 +1,8 @@
-*[Folio: 473]*
+<!-- Folio: 473 -->
 
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI MATHEMATICORVMQVE facile principis, ex traditione Campani, Geometricorum Elementorum Liber decimusquintus,
 
-Eucli. ex Camp. Propositio 1
+## Eucli. ex Camp. Propositio 1
 
 *[Margin: 1]*
 
@@ -14,7 +14,7 @@ CAMP. Sit cubus cuius basis est quadratū a b c d, suprema uero eius superficies
 
 *[Figure: cube in perspective, base a b c d and upper face e f g h; the labels f, e, b, c, a, d are visible; the diagonals are not drawn]*
 
-Eucli. ex Camp. Propositio 2
+## Eucli. ex Camp. Propositio 2
 
 *[Margin: 2]*
 
@@ -26,6 +26,6 @@ CAMP. Si intra pyramidē quatuor basium triangularium & æquilaterarum, octoedr�
 
 *[Figure: equilateral triangle a b c inscribed in a circle about centre d, with the apex e of the pyramid above; the points f, g, h, l, m mark the middles of the edges, joined by many lines to form the inscribed octahedron]*
 
-*[Signature: R 3]*
+<!-- Signature: R 3 -->
 
-*[Catchword: d a, d b]*
+<!-- Catchword: d a, d b -->

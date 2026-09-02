@@ -1,6 +1,6 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 176]*
+<!-- Folio: 176 -->
 
 ## Eucli. ex Camp. Propositio 7
 
@@ -38,4 +38,4 @@ THEON ex Zamberto. Numerus enim αβ, numeri γδ partes esto, quæ ablatus αε
 
 *[Figure: dot-rows: α (3 dots) λ (5 dots) β; γ (9 dots) ζ (3 dots) δ; η (3 dots) μ (1 dot) κ (4 dots) θ]*
 
-*[Catchword: pars est]*
+<!-- Catchword: pars est -->

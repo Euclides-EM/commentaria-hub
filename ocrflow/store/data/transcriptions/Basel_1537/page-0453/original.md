@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 442]*
+<!-- Folio: 442 -->
 
 potest idem latus decagoni, erit ex cōmuni scientia unaquæq̃ harum hypothenusarū æqualis lateri pentagoni. De coraustis autem iam patuit, quod ipsi sint æquales lateribus pentagoni. Itaq̃ cuncta latera horū decem triangulorū, aut sunt latera pentagoni æquilateri secūda uice circulo inscripti, aut illis æqualia, sunt igitur æquilateri triāguli.
 
@@ -12,4 +12,4 @@ Hoc autem icosedron corpus à data sphæra circūscriptibile esse, sic erit mani
 
 *[Figure: circle with centre l, inscribed pentagon e f g and inscribed decagon, with the catheti, corausti and hypothenusæ of the icosahedron construction; labelled points include n (above), f, e, m, q, l, k, g, p and b (below)]*
 
-*[Catchword: Eucli.ex]*
+<!-- Catchword: Eucli.ex -->

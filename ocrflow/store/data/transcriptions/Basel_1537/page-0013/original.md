@@ -1,4 +1,4 @@
-*[Folio: 4]* *[Ornamental headpiece border]*
+<!-- Folio: 4 --> *[Ornamental headpiece border]*
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, BARTHOLOMAEO ZAMBERTO Veneto interprete: Triplex principiorum genus.
 
@@ -16,4 +16,4 @@ SIgnum, est cuius pars nulla, 2 Linea uero, longitudo illatabilis. 3 Lineæ aut�
 
 14 Figura est quæ sub aliquo, uel aliquibus terminis comprehenditur. 15 Circulus, est figura plana una linea contenta quæ circunferentia appellatur, ad quam ab uno signo introrsum existente omnes prodeuntes lineæ, ipsiusq́ʒ circuli circunferentiam incidentes, adinuicem sunt æquales. 16 Centrum uero ipsius circuli id signum appellatur. 17 Dimetiens circuli, est recta quædam linea per centrum acta, & ex utraque parte in circuli circūferentiam terminata, quæ circulū bifariam dispescit. 18 Semicirculus, est figura quæ sub dimetiente & ea quæ per ipsam circuli circun-
 
-*[Catchword: ferentia]*
+<!-- Catchword: ferentia -->

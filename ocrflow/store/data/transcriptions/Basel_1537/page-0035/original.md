@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 26]*
+<!-- Folio: 26 -->
 
 THEON ex Zamb. In parallelos enim rectas lineas α β & γ δ, recta incidat linea ε ζ. Dico quod & alternos angulos æquos efficit, & exteriorē angulum ε η β, interiori & opposito & ad easdem partes, hoc est η θ δ æqualem, & interiores & ad easdem partes, hoc est β η θ & η θ δ duobus rectis æquales. Si enim æqualis nō est angulus α η θ, angulo η θ δ, alter eorū maior est. Sit maior α η θ. Quoniam igitur α η θ, maior est ipso η θ δ, cōmunis ponatur angulus β η θ: anguli ergo α η θ & β η θ, maiores sunt ipsis β η θ & η θ δ. Sed anguli α η θ & β η θ (per 13 propositiōe) duobus rectis sunt æquales: anguli igitur β η θ & η θ δ duobus rectis sunt minores: quæ autē à minoribus duobus rectis producūtur in infinitū, concurrunt (per 5 postulatū). Rectæ igitur lineæ α β & γ δ, in infinitū productæ, concurrūt: non concurrunt autem, quoniam parallelæ, per hypothesin. Angulus igitur α η θ, angulo η θ δ inæqualis nō est: æqualis igitur. Sed angulus α η θ, angulo ε η β (per 15 propositiōe) est æqualis, igitur & ε η β (per 1 cōmunem sententiam) angulo η θ δ est æqualis, cōmunis ponatur β η θ, anguli ergo ε η β & β η θ, ipsis β η θ & η θ δ sunt æquales. Sed anguli ε η β & β η θ, duobus rectis sunt æquales (per 13 propositionem) & anguli β η θ & η θ δ, duobus rectis sunt æquales. In parallelos igitur rectas lineas & quæ sequuntur reliqua. Quod ostendere oportebat.
 
@@ -46,4 +46,4 @@ THEON ex Zamb. Sit quidem datum signū α, data uero recta linea sit β γ. Opor
 
 *[Figure: line ε α ζ through the point α above, and line β δ γ below with the connecting line α δ; labels ε, α, ζ, β, δ, γ]*
 
-*[Catchword: propositio]*
+<!-- Catchword: propositio -->

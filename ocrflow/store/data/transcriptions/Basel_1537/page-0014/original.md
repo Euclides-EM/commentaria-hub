@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- <!-- # LIBER PRIMVS. -->. -->
 
-*[Folio: 5]*
+<!-- Folio: 5 -->
 
 ferentia sublata est, continetur. 19 Sectio circuli, est figura quæ sub recta linea & circuli circūferentia aut maiore aut minore semicirculo continetur.
 
@@ -22,4 +22,4 @@ ferentia sublata est, continetur. 19 Sectio circuli, est figura quæ sub recta l
 
 *[Figures with labels: Quadratum (square); Tetragonus longus (oblong rectangle); Rhombus (rhombus); Rhomboides (rhomboid); Trapezium (trapezium)]*
 
-*[Signature: a 3]*
+<!-- Signature: a 3 -->

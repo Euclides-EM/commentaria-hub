@@ -1,6 +1,6 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 137]*
+<!-- Folio: 137 -->
 
 ## 34
 
@@ -14,7 +14,7 @@ SEXTI LIBRI FINIS.
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SEXTVS.
 
-Euclides ex Campano. Diffinitiones.
+## Euclides ex Campano. Diffinitiones.
 
 ## 1
 
@@ -38,4 +38,4 @@ CAMPANVS. Vt si duorū quadrilaterorū a b c, d e f, proportio a b lateris primi
 
 Linea dicitur diuidi secundū proportionē habentē medium & duo extrema,quando eadē est proportio totius ad maiorē sui sectionē quæ est maioris ad minorē.
 
-*[Signature: m 3]* *[Catchword: Eucli.]*
+<!-- Signature: m 3 --> <!-- Catchword: Eucli. -->

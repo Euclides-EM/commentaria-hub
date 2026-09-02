@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 259]*
+<!-- Folio: 259 -->
 
 CAMPANVS Hæc 14 ex cōtrario antecedentis præmissæ infert contrarium consequentis præmissæ,& non differt eius dispositio à dispositione illius,sed & modus argumentandi utrobiqʒ idem. Si enim a d non communicet cum d b,nec d f sibi adæqualis communicabit cum eadem d b.itaqʒ per 9 d f non communicabit cum f b,quare neque a f,sunt enim a f & d f communicātes tanquā numerās & numeratū, ideo neqʒ a b cōmunicabit cum linea f b. Quod si hoc fuerit uidelicet si a b non communicet cū f b,nō cōmunicabit cum a f, quare neqʒ cum a d aut d f, neqʒ igitur a b cum d a. Potest quoqʒ hæc 14 demōstrari per præmissam,prima pars huius ex secunda illius,& secūda ex prima,à destructiōe consequentis. Si enim a d & d b nō communicent,nec etiā a b & f b communicabunt,nam si a b & b f communicarent,oporteret per secūdam partem præmissæ ut a d communicaret cum d b,sed positum est quod non. Eodem modo de secunda parte,si enim b a & b f non communicant,nec a d & d b communicabunt. nam si sic, sequitur per primam partem præmissæ,ut a b & b f communicent quæ non communicant:quare patet propositum.
 
@@ -24,4 +24,4 @@ CAMPANVS Sint duæ lineæ a b & b c cōtinentes superficiē rectāgulā a c,rati
 
 *[Figure: rectangle divided by a vertical line at its middle, labeled c at top; below the base, the labels a, b, d]*
 
-*[Signature: y 4]* *[Catchword: THEON]*
+<!-- Signature: y 4 --> <!-- Catchword: THEON -->

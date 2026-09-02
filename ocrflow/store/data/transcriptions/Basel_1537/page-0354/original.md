@@ -1,6 +1,6 @@
-# LIBER DECIMVS.
+<!-- # LIBER DECIMVS. -->
 
-*[Folio: 343]*
+<!-- Folio: 343 -->
 
 *[Figure, top right: five horizontal lines — the first with the letters α, β and ζ; the second with the letters γ, ε, δ; the third labelled η; the fourth labelled θ; the fifth with the letters κ, λ, μ]*
 
@@ -20,7 +20,7 @@ ALITER. Esto media α γ. Dico q̃ ab α γ, infinitæ sunt irrōnales,neq̃ ull
 
 *[Figure, right of the ALITER proof: a rectangle divided by a vertical line, the top side lettered α, γ, δ with ζ beyond to the right, the bottom side lettered β, ε]*
 
-Eucli.ex Zāb. Theorema 92 Propositio 116.
+## Eucli.ex Zāb. Theorema 92 Propositio 116.
 
 *[Margin: 116]*
 
@@ -30,7 +30,7 @@ THEON ex Zāb. Esto minor α,& ipsi α cōmēsurabilis esto(per 11 decimi) β.Di
 
 *[Figure, right of the proof: two horizontal lines labelled α and β above a rectangle divided by a vertical line, the top side lettered γ, ζ, θ and the bottom side lettered δ, ε, η]*
 
-Eucli.ex Zamb. Theorema 93 Propositio 117
+## Eucli.ex Zamb. Theorema 93 Propositio 117
 
 *[Margin: 117]*
 
@@ -40,4 +40,4 @@ THEON ex Zamb. Sit cū rōnali mediū totū efficiēs α,cōmēsurabilis aūt ei
 
 *[Figure, right of the proof: two horizontal lines labelled α and β above a rectangle divided by a vertical line, the top side lettered γ, ζ, θ and the bottom side lettered δ, ε, η]*
 
-*[Signature: F 4]* *[Catchword: retur]*
+<!-- Signature: F 4 --> <!-- Catchword: retur -->

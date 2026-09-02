@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 245]*
+<!-- Folio: 245 -->
 
 δ ζ, reliquo α η, maius est. Aequale autē est δ ζ, ipsi γ, & γ igitur, ipso α η, maius est, minus igitur est α η, ipso γ. Relinquitur igitur ex α β, magnitudine ipsa α η magnitudo, minor existēs minore exposita magnitudine γ, quod oportuit demōstrasse. Similiter quoque ostendetur si dimidia sublata fuerint.
 
@@ -8,7 +8,7 @@ ALITER idem ostendere. Constent binæ magnitudines inæquales α,β,γ. Sit aute
 
 *[Figure: at the right of the ALITER proof, four vertical lines — the line α β with α at its top, points δ and ε along it, and β below; the tall line ζ μ with ζ at its top, points η and θ along it, and μ below; the short line γ; and a bracketed line divided into three parts with κ, λ and ν at its left and ζ below]*
 
-Eucli. ex Camp. Propositio 2
+## Eucli. ex Camp. Propositio 2
 
 **2** SI fuerint duæ quantitates inæquales, detrahaturq̃ à maiori æquale minori donec minus eo supersit, ac deinde à minori ipsius reliqui æquale dematur donec minus eo relinquatur, denuo quoq̃ reliquo primo æquale reliqui secundi donec minus eo supersit auferatur. & in huiusmodi continua detractione nullum reliquum quod ante relictum numeret inueniatur, eas duas quantitates incommensurabiles esse necesse est.
 
@@ -18,7 +18,7 @@ CAMPANVS Simile huic proposuit prima septimi in numeris. Sint duæ quantitates i
 
 *[Figure: at the right of the Campanus proof, three horizontal lines — a long line with a at its left and d at its right; a short line c with e at its right; and a line b above a longer ticked line]*
 
-Eucli. ex Zamb. Theorema 2 Propositio 2
+## Eucli. ex Zamb. Theorema 2 Propositio 2
 
 **2** Si duabus magnitudinibus inæqualibus expositis: sublata semper minore à maiore reliqua minime metiatur præcedentem, incommēsurabiles erunt ipsæ magnitudines.
 
@@ -26,6 +26,6 @@ THEON ex Zamb. Duabus enim magnitudinibus inæqualibus existentibus α β,γ δ,
 
 *[Figure: at the right of the Theon proof, three vertical lines — α β with α at its top and a point η along it, β below; the short line ε; and the tall line γ δ with γ at its top, a point ζ along it, and δ below]*
 
-*[Signature: x 3]*
+<!-- Signature: x 3 -->
 
-*[Catchword: do]*
+<!-- Catchword: do -->

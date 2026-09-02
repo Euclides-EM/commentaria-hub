@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 46]*
+<!-- Folio: 46 -->
 
 ## Eucli. ex Zamb. Theorema 8. Propositio 8.
 
@@ -18,4 +18,4 @@ CAMPANVS. Sit linea a b diuisa per æqualia in c, & per inæqualia in d. Dico �
 
 *[Figure: triangle on base line a c d b with apex e above c; slopes e a and e b; vertical c e; vertical d f with f on side e b; horizontal g f (g on c e); line a f joining a to f]*
 
-*[Catchword: Sed quadra]*
+<!-- Catchword: Sed quadra -->

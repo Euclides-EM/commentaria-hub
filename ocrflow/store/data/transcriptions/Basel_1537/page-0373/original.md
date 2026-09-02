@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 362]*
+<!-- Folio: 362 -->
 
 inuicem æquales, manifestū est quod bini reliquo, quomodocunq̃ suscepti sunt maiores. Si autem non, sit maior qui sub β α γ, constituaturq̃ (per 23 primi) ad α β rectam lineam, & ad signum in ea α, angulo qui sub δ α β, in eo quod per β α γ plano, æqualis angulus β α ε, ponaturq̃ (per 2 primi) ipsi α δ æqualis α ε, & per ε signū ducta β ε γ linea, dissecet ipsas α β, α γ, rectas lineas in signis β, γ, connectanturq̃ δ β, δ γ. Et quoniā δ α ipsi α ε est æqualis, cōmunis autem α β, duæ δ α, α β duabus δ α, α ε, sunt æquales, & angulus qui sub δ α β, angulo qui sub β α ε est æqualis: basis igitur δ β (per 4 primi) basi β ε est æqualis. Et quoniam duæ δ β, δ γ, ipsa β γ sunt maiores, quarum δ β ipsi β ε ostensa est æqualis, reliqua igitur δ γ, reliqua ε γ maior est. Et quoniam ipsa δ α ipsi α ε æqualis, communis autem α γ, & basis δ γ basi ε γ maior est, angulus igitur qui sub δ α γ, angulo qui sub ε α γ maior est. Ostensum autem est, quod & qui sub δ α β, est æqualis ei qui sub β α ε. Ipsi igitur qui sub δ α β, δ α γ, eo qui sub β α γ sunt maiores. Si solidus igitur angulus sub tribus angulis planis comprehendatur, duo quomodocunq̃ assumpti sunt maiores reliquo. Quod erat ostendendum.
 
@@ -24,4 +24,4 @@ Si autē angulus a supremus in assumpta pyramide pluribus angulis supficialibus 
 
 THEON ex Zamb. Sit solidus angulus qui ad α, comprehensus sub
 
-*[Catchword: planis]*
+<!-- Catchword: planis -->

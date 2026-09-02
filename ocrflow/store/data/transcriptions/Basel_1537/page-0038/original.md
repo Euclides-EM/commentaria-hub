@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 29]*
+<!-- Folio: 29 -->
 
 nem basis b d primi, est æqualis basi a c secundi, & anguli a d b primi, æqualis angulo d a c secundi. At quia ipsi anguli a d b & d a c sunt coalterni, erunt lineæ b d & a c æquidistantes, per uicesimam septimam. Et quia prius probatum est ipsas esse æquales, patet propositum utrumque.
 
@@ -38,6 +38,6 @@ THEON ex Zamber. Sit parallelogrammus locus α γ δ β, dimetiensq̃ illius est
 
 *[Figure: parallelogram α β, γ δ with diagonal β γ]*
 
-*[Signature: c 3]*
+<!-- Signature: c 3 -->
 
-*[Catchword: totus]*
+<!-- Catchword: totus -->

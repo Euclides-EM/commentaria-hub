@@ -1,6 +1,6 @@
-# PHAENOMENA
+<!-- # PHAENOMENA -->
 
-*[Folio: 491]*
+<!-- Folio: 491 -->
 
 ## Theorema 9 — Apparens 9
 
@@ -14,4 +14,4 @@ Sit in mūdo horizon a b c d, æstiuus autem tropicus sit b c, zodiacus uero cir
 
 Si zodiaci circuli bini semicirculi cõmunem quandã habentes circūferentiam inæquali tempore orti fuerint, & ex opposito circunferentiæ inæquali tempore oriuntur, & eædem erunt differentiæ
 
-*[Catchword: tẽpore]*
+<!-- Catchword: tẽpore -->

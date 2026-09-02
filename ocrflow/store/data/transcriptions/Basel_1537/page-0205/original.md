@@ -1,12 +1,12 @@
-*[Folio: 194]*
+<!-- Folio: 194 -->
 
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
 THEON ex Zamberto. Sint dati quotcunque numeri α β γ. Oportet iam inuenire minimos easdē rationes habentium eisdem α β γ. Ipsi enim α β γ, aut primi adinuicem sunt aut non. Siquidē ipsi α β γ, primi sunt adinuicem, minimi sunt eandem rationem habentiū eis (per 23 septimi) Si autē non sumatur (per 3 septimi ipsorum α β γ, maxima communis dimensio δ, & quoties δ, unūquenq̃ ipsorum α β γ, metitur: tot unitates sint in unoquoque ipsorum ε ζ η, & unusquisque igitur ipsorum ε ζ η, unūquenq̃ ipsorum α β γ, metitur per eas quæ in ipso δ sunt unitates, Igitur ipsi ε ζ η, ipsos α β γ: æque metiuntur. Igitur (per 15 septimi.) ipsi ε ζ η, ipsis α β γ, in eadem sunt ratiōe. Dico iam quod & minimi. Si enim ipsi ε ζ η, non sunt minimi eandem rationem habentium eisdem α β γ: erunt aliqui numeri ipsis ε ζ η, minores in eadem ratione existentes ipsis α β γ. Sint θ κ λ, æque igitur θ metitur ipsum α. & uterq̃ ipsorū κ λ, utrūq̃ ipsorum β γ, Quoties autem θ ipsum α metitur, tot unitates sint in ipso & μ, uterq̃ igitur (per 21 septimi) ipsorum κ λ, utrunq̃ ipsorum β γ, metitur per eas quæ in μ sunt unitates, Et quoniam θ ipsum α metitur per eas quæ in μ, sunt unitates, & μ igitur ipsum α metitur per eas quæ in θ sunt unitates. Id propterea μ utrūq̃ ipsorū β γ, metitur per eas quæ in utrūq̃ ipsorū κ λ, sunt unitates. Igitur μ, ipsos α β γ, metitur. Et quoniam θ ipsum α metitur per eas quæ in μ sunt unitates, igitur θ ipsum μ multipicans *[sic, for multiplicans]*, ipsum α, fecit. Id propterea & ε, ipsum δ multiplicans, ipsum effecit α. Aequalis igitur est qui ex θ μ, (per 16 septimi.) Est igitur (per 19 septimi,) sicut ε ad θ, sic est μ, ad δ, maior autem est ε, ipso θ, maior igitur est & μ ipso δ, & metitur ipsos α β γ, quod est impossibile. Supponitur namq̃ δ, ipsorum α β γ, maxima communis dimensio. Igitur non erunt aliqui numeri, minores ipsis ε ζ η, in eadem existentes ratione ipsis α β γ. Igitur ε ζ η, minimi sunt eandem rationem habentiū ipsis α β γ, quod fecisse oportuit.
 
 *[Figure: dotted number lines beside the text: α······ / β········ / γ············ / δ·· / ε··· / ζ···· / η······ / θ·· / κ··· / λ···· / μ···]*
 
-Eucli. ex Camp. — Propositio 35
+## Eucli. ex Camp. — Propositio 35
 
 *[Margin: 35]*
 
@@ -38,4 +38,4 @@ CAMPANVS. Sint propositi numeri a, b, c, d. Volo inuenire minimum numerum numera
 
 *[Figure: dotted number lines beside the text: a···· / b······ / c·· / d··· / e············ / f····················· / g and h: two very long rows of dots extending across the column]*
 
-*[Catchword: merent]*
+<!-- Catchword: merent -->

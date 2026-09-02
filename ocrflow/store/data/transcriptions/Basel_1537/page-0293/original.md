@@ -1,6 +1,6 @@
-*[Folio: 282]*
+<!-- Folio: 282 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ctum quod diuidit totam lineam per æqualia.
 
@@ -32,4 +32,4 @@ Quæ ex binis nominibus, ad unũ duntaxat signũ diuiditur in nomina.
 
 THEON ex Zamber. Sit ex binis nominibus α β, diuisa in nomina in c *[sic: for γ]*, igitur ipsæ α γ, γ β, rationales sunt
 
-*[Catchword: potentia]*
+<!-- Catchword: potentia -->

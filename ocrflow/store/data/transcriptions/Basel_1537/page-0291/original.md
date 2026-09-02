@@ -1,6 +1,6 @@
-*[Folio: 280]*
+<!-- Folio: 280 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 CAMPANVS Sint ut in præmissis duæ lineæ a b & b c in continuū directumq́ⳓ coniūctæ quales proponitur. & ipsæ sunt ex 28 sumendæ. Dico quod tota linea a c ex eis composita erit irrationalis, & illa uocatur linea potens in rationale & mediale. Cum sit enim superficies a b in b c rationalis per hypothesin. ideoque & duplū eius, ac ambo quadrata pariter accepta sint mediale. sequitur per 4 secundi & 9 huius quemadmodum in præmissis, quod quadratum totius a c sit incommunicās duplo superficiei a b in b c, per diffinitionē igitur ipsum est irrationale, & linea a c irrationalis, quod est propositum.
 
@@ -24,4 +24,4 @@ CAMPANVS Sint quoque duæ lineæ hic a b & b c in continuū directūq́ⳓ cōiu
 
 *[Figure: line a c divided at b, labelled a, b, c; below it, a rectangle divided by a horizontal line into an upper compartment (b at upper left) and a lower compartment; g at middle left, f at middle right, d at bottom left and a (for e) at bottom right]*
 
-*[Catchword: itaq́ⳓ]*
+<!-- Catchword: itaq́ⳓ -->

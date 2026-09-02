@@ -1,6 +1,6 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 180]*
+<!-- Folio: 180 -->
 
 ## Eucli. ex Camp. Propositio 14.
 
@@ -30,4 +30,4 @@ CAMPANVS. Modum arguendi qui dicitur æqua proportionalitas quā demonstrauit Eu
 
 CAMPANI additio. Quoniam autem Euclides cæteras quatuor species proportionalitatis quæ sunt conuersa, coniuncta, disiuncta, euersa, proponit demonstrandas in numeris, conueniens arbitramur eas quas non autor tanq̃ facile demonstrabiles
 
-*[Catchword: prætermisit]*
+<!-- Catchword: prætermisit -->

@@ -1,12 +1,12 @@
-# LIBER DECIMVSQVARTVS
+<!-- # LIBER DECIMVSQVARTVS -->
 
-*[Folio: 459]*
+<!-- Folio: 459 -->
 
 demōstratione 17 tredecimi erit latus cubi quem eadem sphaera cōcludit, protrahatur itaq́ⱼ diameter a h k, secans orthogonaliter ⁊ per aequalia utranq́ⱼ duarū linearū b e & f g, hanc quidem in puncto l, illam uero in puncto m. Dico ergo q̃ propōrtio omnium superficierū dodecedri ad omnes icosedri, quorū pentagonus ⁊ trigonus proposito circulo sunt inscripti, est sicut lineae b e, quae est latus cubi ab eadem sphæra conclusi, ad lineam f g quae est latus trigoni icosedri. Constat enim ex correlario 8 tredecimi, q̃ linea h m est dimidiū lineae a k, ideoq́ⱼ a n erit dodrans diametri a k, est eni eius tres quartæ. Sit ergo l n dupla ad n e, eritq́ⱼ b n dextans b e, est enim quinq́ⱼ eius sextæ. Itaq́ⱼ per praemissum antecedens, quod prouenit ex a m in b n, erit aequale pentagono a b c d e, q̃d autē prouenit ex a m in m f, erit aequale triangulo a f g. Igitur ex 1 sexti, proportio pētagoni ad trigonū, est sicut b n ad m f, quare duo decupli illius pentagoni ad uigincuplū istius trigoni, sicut duodecupli lineæ b n ad uigincuplū lineæ m f, quod ex 15 quinti & aequa proportionalitate manifestum est. Duodecuplū autem b n, est tanq̃ decuplū b e, nam ad dextantes, ⁊ decē, coaequāt 12 asses, hoc est 12 tota: uigincuplū uero m f est tanq̃ decuplū f g, nam f g est dupla ad m f. Igitur duodecupli istius pentagoni ad uigincuplū istius trigoni, est sicut decupli b e ad decuplum f g. Est autē duodecuplū pētagoni est omnes superficies dodecedri, uigincuplū autem huius trigoni est omnes supficies icosedri, & quia per 15 quinti decupli b e ad decuplū f g, sicut b e simplae ad f g simplam, erit per 11 quinti, proportio omniū superficierum dodecedri pariter acceptarū ad omnes superficies icosedri pariter acceptas, sicut b e ad f g. Et hoc est quod oportuit nos demōstrare.
 
 *[Figure: circle with inscribed pentagon a b c d e and triangle a f g sharing vertex a at top; centre h; diameter a h k vertical; points l, m, n on it; b and e on the sides, f and g lower]*
 
-Eucli. ex Camp. Propositio 9
+## Eucli. ex Camp. Propositio 9
 
 9 DIuisa qualibet linea secundum proportionē habentem medium duoq́ⱼ extrema, erit proportio lineae potentis supra totam lineā eiusq́ⱼ maiorem portionē ad lineam potentem supra totam eiusdemq́ⱼ minorem portionē, tanq̃ proportio lateris cubi ad latus trianguli corporis uiginti basium una cum cubo ipso in eadem sphæra contenti.
 
@@ -14,4 +14,4 @@ CAMPANVS. Sit linea a b diuisa secūdum proportionē habentē medium duoq́ⱼ e
 
 *[Figure: circle with inscribed pentagon and triangle sharing vertex d at top; points e, g right, f bottom left, a, c centre, b right of centre; below the circle a short line b and a shorter line k]*
 
-*[Signature: Q 2]* *[Catchword: Quod]*
+<!-- Signature: Q 2 --> <!-- Catchword: Quod -->

@@ -1,6 +1,6 @@
-*[Folio: 136]*
+<!-- Folio: 136 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 CAMPANVS. Sit maior proportio a b ad b,quàm c d ad d : dico quod euersim minor erit proportio a b ad a, q̄ c d ad d:erit enim disiūctim ex præmissa,maior proportio a ad b,quàm c ad d. Itaque per 26,erit è conuerso minor b ad a , quàm d ad c:quare per ante præmissam,coniunctim minor erit b ad a,q̄ c d ad c,quod est propositum.
 
@@ -30,4 +30,4 @@ CAMPANVS. Sint duæ quantitates a,& b,a quibus abscindatur c & d:& residua sunt 
 
 *[Figure: a long divided line with points c, a, e above a shorter divided line with points d, b, f]*
 
-*[Catchword: Si quotlibet]*
+<!-- Catchword: Si quotlibet -->

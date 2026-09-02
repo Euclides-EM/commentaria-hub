@@ -1,6 +1,6 @@
-# LIBER DECIMVS.
+<!-- # LIBER DECIMVS. -->
 
-*[Folio: 281]*
+<!-- Folio: 281 -->
 
 itaque superficies e est irrationalis, & eius latus tetragonicum quod est a c, ut in præmissis, quare constat propositum. Si autem duplũ superficiei a b in b c non essei *[sic: for esset]* incommensurabile ambobus quadratis pariter acceptis, esset rationalis in potentia tantum incõmensurabilis in longitudine lineæ d e, per 19 igitur esset superficies e h medialis, eiusque latus tetragonicum quod est a c, linea medialis.
 
@@ -28,4 +28,4 @@ Sit enim linea a b d diuisa per duo inæqualia in puncto c, sitq̃ maior portio 
 
 Si aliqua linea per duo inæqualia, itẽque alia duo inæqualia diuidatur, quadrata magis inæqualium pariter accepta tanto sunt amplius quadratis minus inæqualium pariter acceptis, quãtum est duplum quadrati illius lineæ quæ in utrasq̃ est sectiones, & quadruplum eius quod fit ex eadem linea in eam quæ est inter punctum sectionis minus inæqualium & pun
 
-*[Signature: A 3]* *[Catchword: ctum]*
+<!-- Signature: A 3 --> <!-- Catchword: ctum -->

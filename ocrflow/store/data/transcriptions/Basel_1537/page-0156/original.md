@@ -1,6 +1,6 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 145]*
+<!-- Folio: 145 -->
 
 ## CORRELARIVM
 
@@ -10,7 +10,7 @@ CAMPANVS. Sit trigonus a b c, orthogonus, eiusque angulus a, rectus, à quo duca
 
 *[Figure: right triangle with apex a, base from b to c, perpendicular a d drawn from a to foot d on the base between b and c]*
 
-Eucli. ex Zamb. — Theorema 8 — Propositio 8
+## Eucli. ex Zamb. — Theorema 8 — Propositio 8
 
 *[Margin: 8]*
 
@@ -22,7 +22,7 @@ THEON ex Zamb. Sit triangulum rectangulum α β γ, rectum habens eum qui sub β
 
 CORRELARIVM. Ex hoc manifestum est, quod si in rectangulo triangulo ab angulo recto in basin perpendicularis agatur: acta, ipsius basis segmentis media proportionalis est. Et insuper ipsius basis & uniuscuiusq̃ segmentorum, latus quod ad segmentum, medium proportionale est, quod erat demonstrandum.
 
-Eucli. ex Camp. — Propositio 9
+## Eucli. ex Camp. — Propositio 9
 
 *[Margin: 9.]*
 
@@ -32,6 +32,6 @@ CAMPANVS. Sint duæ lineæ propositæ a b & c, inter quas uolo unam lineam in pr
 
 *[Figure: semicircle a e d on diameter a d with apex e, chords e a and e d, perpendicular e b to the diameter at b; below the diameter a separate short line segment labelled c]*
 
-*[Signature: n]*
+<!-- Signature: n -->
 
-*[Catchword: neas]*
+<!-- Catchword: neas -->

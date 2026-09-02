@@ -1,6 +1,6 @@
-# SPECVLARIA
+<!-- # SPECVLARIA -->
 
-*[Folio: 515]*
+<!-- Folio: 515 -->
 
 trum sepositum ab ipso b c, positum. similiter igitur ab ipso m in f, centrum connexa & extensa superius cadit in K sicut l, quæ uero ab n in f superius in e, usque h. Igitur m n spectatur sicut h l & minus est h l, ipso e K & speculo propinquius.
 

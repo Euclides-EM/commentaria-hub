@@ -1,10 +1,10 @@
-# LIBER OCTAVVS
+<!-- # LIBER OCTAVVS -->
 
-*[Folio: 213]*
+<!-- Folio: 213 -->
 
 itaque g ex e in d, eritque per 19 septimi, a ad g, sicut c ad e. & per 18 eiusdem g ad b sicut d ad f, quare a ad g, sicut g ad b, est itaque g, contiuua proportionalitate medius inter a & b, quod est propositum. Correlarium autem patet, cum sit a ad b per diffinitionem sicut a ad g duplicata, quæ eadem est illi quæ est c ad e.
 
-Eucli. ex Camp. Propositio 17
+## Eucli. ex Camp. Propositio 17
 
 **17** SI secundum continuam proportionalitatē tertius numerus duobus numeris intersit, illi duo numeri superficiales sunt & similes.
 
@@ -14,7 +14,7 @@ CAMPANVS Hæc est conuersa ptæmissæ. Vt si inter a & b sit c sub continua prop
 
 *[Figure: dotted number lines a, c, b, d, e, f, g]*
 
-Eucli. ex Camp. Propositio 18
+## Eucli. ex Camp. Propositio 18
 
 **18** SI fuerint duo numeri solidi similes, necesse est eis duos numeros secundū continuā proportionalitē interesse, eritq̃ proportio unius solidi ad alterū sibi similē, uelut cuiuslibet sui lateris ad latus alterius respiciēs se proportiōaliter, proportio triplicata.
 
@@ -24,7 +24,7 @@ CAMPANVS. Sint duo numeri a & b, solidi similes. dico quod inter ipsos cadent du
 
 *[Figure: dotted number lines a, n, p, b, c, d, e, f, g, h, K, m, l]*
 
-Eucli. ex Camp. Propositio 19
+## Eucli. ex Camp. Propositio 19
 
 **19** SI eis secundum cōtinuam proportionalitatem duo numeri interiacent, quilibet duo numeri, solidi sunt atque similes.
 
@@ -34,4 +34,4 @@ CAMP. Hæc est cōuersa præmissæ, ut si inter a & b sint duo numeri c & d medi
 
 *[Figure: dotted number lines a, c, d, b; e, h, K, n; f; g, m, l, p]*
 
-*[Catchword: primi]*
+<!-- Catchword: primi -->

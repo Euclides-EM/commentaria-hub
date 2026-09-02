@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 299]*
+<!-- Folio: 299 -->
 
 igitur δ μ, μ η, rationales sunt potentia tantum commensurabiles, ex binis igitur nominibus est (per 36 decimi δ η. Ostendēdũ iam quod & secunda. Quoniã enim quæ ex α γ, γ β, maiora sunt eo quod bis sub α γ, γ β, maius est igitur & δ λ ipso μ ζ, quare (per primam sexti,) & δ μ ipsa μ η. Et quoniam commensurabile est quod est ex α γ, ei quod ex γ β, commensurabile est & δ θ ipsi κ λ. Quare & δ κ, ipsi κ μ, commensurabilis est, & id quod sub δ κ, κ μ, æquũ est ei quod ex ν η. Ipsa igitur δ μ, ipsa μ η, maius potest eo quod ex sibi commensurabili, & μ η, ipsi δ ε longitudine commensurabilis est, ipsa igitur δ η, ex binis nominibus est secunda, quod erat ostendendũ.
 
@@ -34,4 +34,4 @@ THEON ex Zãb. Esto (per 44 decimi) ex binis medijs secunda α β. diuisa in med
 
 SI lineæ rationali rectangulũ æquũ quadrato lineæ maioris adiũgatur, alterum se cõtinentiũ laterum erit binomium qnartum *[sic: quartum]*.
 
-*[Catchword: CAM]*
+<!-- Catchword: CAM -->

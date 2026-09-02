@@ -1,6 +1,6 @@
-*[Folio: 386]*
+<!-- Folio: 386 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 o k & p l, q m & r n, sitq̃ harum duarum superficierum communis sectio linea s t. Dico igitur quod linea s t diuidit diametrum a b, & diuiditur ab eadem diametro per æqualia. Quod patet, utraq̃ enim earum transit per centrum cubi.
 
@@ -18,4 +18,4 @@ THEON ex Zamb. Solidi, inquam, parallelepipedi α ζ, eorum quæ ex opposito pla
 
 *[Figure: a large parallelepiped with top corners δ, κ, ζ and bottom corners α, ν, η, θ at the right, β and ξ, π on the left face; interior midpoints γ, λ, μ, ο, ρ, ε and the points τ, υ, σ where the cutting planes and the diagonal cross, with diagonals drawn through the solid]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 373]*
+<!-- Folio: 373 -->
 
 secundum rectitudinem, secent duo alterius earum protracta secūdum rectitudinem. Protrahantur itaque duo opposita latera superficiei e b, quæ sint e g & h b, & duo opposita superficiei f c, quæ sint k f & c l, & secent super quatuor puncta m, n, p, q, eritque superficies m n p q, æquidistantium laterum æqualis unicuique trium superficierum, quarum una est basis propositis solidis communis, & ipsa est a d, & duæ reliquæ sunt supremæ superficies eorundem solidorum, & ipsæ sunt e b & c f. Ductis itaq̃ lineis à quatuor punctis m, n, p, q, ad quatuor angulos basis a d sibi secundū directam habitudinem relatos, quæ sit n a, m r, p s, q d, perfectum erit solidum parallelogrammū a q in eadem basi cum utroq̃ duorū priorū, & æque altum, & super lineā unā cū utroque ipsorum. Per præmissam igitur utrunlibet duorum solidorum propositorū quæ sunt a b & a c, est æquale solido a q, per conceptionem ergo est solidum a b, æquale solido a c. Quare cōstat propositum.
 
@@ -30,6 +30,6 @@ CAMPANVS Et hoc quoq̃ uerum est q̊d omnia solida parallelogramma in æquis bas
 
 *[Figure: an L-shaped arrangement: a horizontal rectangle with labels a at the left and l at the right, q and f at its lower edge, and below it a tall rectangle with diagonal lines, labelled c, k, g, b along the bottom]*
 
-*[Signature: I]*
+<!-- Signature: I -->
 
-*[Catchword: demō]*
+<!-- Catchword: demō -->

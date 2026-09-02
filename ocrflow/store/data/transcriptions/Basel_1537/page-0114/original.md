@@ -1,6 +1,6 @@
-# LIBER QVINTVS
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 107 — misprinted; should be 105]*
+<!-- Folio: 107 — misprinted; should be 105 -->
 
 excedunt. Vnde similiter se habent in addendo & minuendo quantum ad quantitatē excessus: nec tamen priores quantitates sunt continue proportionales: immo minorum est semper maior proportio. Hoc autem ideo euenit, quoniam earum multiplicia non similiter se excedunt, quantum ad proportionem, sed solum quantū ad quantitatem excessus, est enim & ibi in minoribus multiplicicibus maior proportio: uerbi gratia. Sumantur tres numeri æquis differentijs se excedentes, in medietate uidelicet arithmetica, ut 2, 3, 4: horum trium omnes æque multiplices æqualiter se excedunt: dupli quidem binario, tripli ternario, & sic de cæteris: non tamen sunt 2, 3, 4 continue proportionalia: immo minorum est maior proportio: est enim ipsorum proportio sesquialtera & maiorum sesquitertia, quia ergo inter eos non est similitudo proportionum: non erit inter eos proportionalitas: & ideo neque contiuna neq̃ incontinua. Patet ergo similitudinem illam additionis aut diminutionis, non intelligi quantum ad quantitatem excessus, sed quantum ad proportiooem: erit itaq̃ sensus diffinitionis præmissæ. Continue proportionalia, sunt quorum omnia æque multiplicia æqualia sunt continue proportionalia. Sed noluit ipsam diffinitionem proponere sub hac forma: quia tunc diffiniret idem per idem, apertæ tamen rei est istud cum sua diffinitione conuertibile. Tres autem quantitates a, b, c oportet esse eiusdem generis: ad hoc ut earum multiplicia sibjinuicem æqualia sint, aut similiter se habeant in addendo aut minuendo, Si enim a, & b essent diuersorum generū, essent etiam d & e ipsarum a & b multiplicia, eorundem diuersorum generum, propter hoc quod multiplicia & submultiplicia eiusdem sunt generis: quare d non esset æqualis e: nec ea maior aut minor: nam quantitates diuersorum generum, non sunt adinuicem comparabiles.
 
@@ -10,4 +10,4 @@ CAMPANVS. Posita superius diffinitione quantitatum continue proportionalium: hic
 
 *[Figure: five horizontal segments with tick marks, labelled e and f (top), a and c, b and d, g and h (bottom), illustrating the equimultiples]*
 
-*[Catchword: mul]*
+<!-- Catchword: mul -->

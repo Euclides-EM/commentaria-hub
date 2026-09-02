@@ -1,6 +1,6 @@
-# LIBER TERTIVSDECIMVS
+<!-- # LIBER TERTIVSDECIMVS -->
 
-*[Folio: 443]*
+<!-- Folio: 443 -->
 
 ## Eucli.ex Zamb. Problema 4 Propositio 16
 
@@ -12,4 +12,4 @@ THEON ex Zamb. Exponatur datæ sphæræ diameter α β, seceturqꝫ in γ, ut α
 
 *[Figure: large perspective diagram of the icosahedron construction — a circle containing the inscribed pentagon and decagon with the elevated pentagon and axis, the whole figure interconnected by many lines; visible point labels include ε, λ, ο, ζ, θ, η, κ, μ, ν, ξ, σ, τ, φ, χ, ω and others]*
 
-*[Catchword: Semicir-]*
+<!-- Catchword: Semicir- -->

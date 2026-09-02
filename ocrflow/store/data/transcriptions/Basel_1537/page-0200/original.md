@@ -1,10 +1,10 @@
-*[Folio: 189]*
+<!-- # LIBER SEPTIMVS. -->
 
-# LIBER SEPTIMVS.
+<!-- Folio: 189 -->
 
 nitionem septimi.) Ipsos igitur β, γ, numeros numerus aliquis non metietur. Ipsi igitur γ,β, primi adinuicem sunt, quod erat demonstrandum.
 
-Eucli. ex Camp. — Propositio 25
+## Eucli. ex Camp. — Propositio 25
 
 *[Margin: 25]*
 
@@ -16,7 +16,7 @@ CAMPANVS. Sit uterque duorum numerorum a & b, primus ad e, & ex a in b sit d. Di
 
 *[Figure: dotted number lines beside the text: a··· b···· / c····· / d············ / e·· f······]*
 
-Eucli. ex Zamb. — Theorema 29 — Propositio 26
+## Eucli. ex Zamb. — Theorema 29 — Propositio 26
 
 *[Margin: 26]*
 
@@ -26,7 +26,7 @@ THEON ex Zamberto. Bini enim numeri α,β, ad aliquem numerū γ, primi sint, & 
 
 *[Figure: dotted number lines beside the text: α·· β··· / γ····· / δ····· / ε··· / ζ··]*
 
-Euclides ex Campano. — Propositio 26
+## Euclides ex Campano. — Propositio 26
 
 *[Margin: 26]*
 
@@ -38,7 +38,7 @@ CAMPANVS. Sint contra se primi a & b, & ex a in se fiat c. Dico quod c primus es
 
 *[Figure: dotted number lines beside the text: a··· b···· / c········· / d···]*
 
-Eucli. ex Zamb. — Theorema 25 — Propositio 27
+## Eucli. ex Zamb. — Theorema 25 — Propositio 27
 
 *[Margin: 27]*
 
@@ -48,7 +48,7 @@ THEON ex Zamberto. Sint bini numeri primi adinuicem α,β, & α seipsum multipli
 
 *[Figure: dotted number lines beside the text: α·· β····· / γ······· / δ···]*
 
-Eucli. ex Camp. — Propositio 27
+## Eucli. ex Camp. — Propositio 27
 
 *[Margin: 27]*
 
@@ -56,4 +56,4 @@ Eucli. ex Camp. — Propositio 27
 
 *[Ornamental initial S]*
 
-*[Catchword: CAMPANVS]*
+<!-- Catchword: CAMPANVS -->

@@ -1,6 +1,6 @@
-*[Folio: 554]*
+<!-- Folio: 554 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 lineæ aut positio, aut magnitudo. Intercidet & b signum, nō intercidit autem. Datur igitur a b, recta linea positione & magnitudine.
 

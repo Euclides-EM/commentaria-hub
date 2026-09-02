@@ -1,8 +1,10 @@
-# *[Folio: 306]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 306 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 sub γ ζ, ζ δ, quare & conflatū ex ipsarū γ ζ, ζ δ, quadratis medium est, & quod sub ipsis γ ζ, ζ δ medium, & insuper incōmensurabile est conflatū ex ipsarū γ ζ, ζ δ, quadratis, ei quod sub γ ζ, ζ δ. Ipsa igitur γ δ, bina potēs est media, quod ostendere oportuit.
 
-Eucli.ex Camp. Propositio 65
+## Eucli.ex Camp. Propositio 65
 
 *[Margin: 65]*
 
@@ -16,7 +18,7 @@ CAMPANVS. Vt si a sit rationalis superficies, & b medialis, erit linea potens in
 
 *[Figure: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]*
 
-Eucli.ex Zamb. Theorema 53 Propositio 71
+## Eucli.ex Zamb. Theorema 53 Propositio 71
 
 *[Margin: 71]*
 
@@ -26,4 +28,4 @@ THEON ex Zamb. Sit rationale α β, mediū autē γ δ. Dico quod ipsam α δ ar
 
 *[Figure: two rectangles side by side: the first divided by a vertical line into two cells, labelled α, γ along the top and β, δ along the bottom; the second divided by a vertical line, its top edge labelled ε, θ, κ and its bottom edge labelled ζ, η, ι]*
 
-*[Catchword: κ, ex]*
+<!-- Catchword: κ, ex -->

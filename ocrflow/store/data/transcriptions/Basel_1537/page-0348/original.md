@@ -1,4 +1,6 @@
-# LIBER DECIMVS *[Folio: 337]*
+<!-- # LIBER DECIMVS -->
+
+<!-- Folio: 337 -->
 
 THEON ex Zamb, Auferatur enim sicut in præcedentibus descriptionibus, à medio β γ, medium β δ. incōmensurabile toti. Dico quod quæ α γ *[sic: for ε γ]*, potest, una est duarum irrationalium, aut mediæ apotomæ secunda, uel cum medio medium totum efficiens. Quoniam enim medium est (per 22 decimi) utrūque ipsorū, β γ, β δ, & β γ, ipsi β δ, est incommensurabile, erit per cōsequēs rationalis utraq́; ipsarū ζ θ, ζ κ, & ipsi ζ η longitudine incommensurabilis. Et quoniā incommensurabilis est β γ, ipsi β δ, hoc est η θ ipsi η κ, incommensurabilis est (per 1 sexti & 11 decimi,) & ζ θ, ipsi ζ κ, & ipsæ igitur θ ζ, ζ κ, (per 73 ) rationales sunt potentia tantum commensurabiles. Apotome igitur est κ θ, cōgruens autem est ζ κ. At θ ζ, ipsa ζ κ maius potest aut eo quod ex sibi comensurabtli *[sic: for comensurabili]*, aut eo quod ex sibi incommensurabili. Si quidē igitur θ ζ, ipsa ζ κ, maius potest eo quod ex sibi cōmēsurdbili *[sic: for cōmēsurabili]*. & neutra ipsarū θ ζ, ζ κ. cōmensurabilis est ipsis ζ η, exposita rationali lōgitudine, apotome tertia est ipsa κ θ. Rationalis autē κ λ. Quod autē sub rationali & apotome tertia cōprehensum rectangulum, irrationale est, & quæ illud potest irrationalis est, appellaturq́; mediæ apotomæ secūda (per 93 decimi,) quare λ θ, hoc est ε γ, potens, mediæ est apotomæ secūda. Si autem θ ζ, ζ κ, maius potest eo quod ex sibi incommensurabili longitudine, & neutra ipsarum θ ζ, ζ κ, ipsi ζ η, longitudine est cōmensurabilis, apotome sexta est θ κ. Quæ autem potest id quod sub rationali & apotome sexta, est cum medio medium totum efficiens, quare quæ ipsum λ θ. hoc est ε γ potest, cum medio medium totum efficiens est (per 96 decimi.) A medio igitur, medio ablato, & quæ sequuntur reliqua. Quod erat ostendendum.
 
@@ -20,4 +22,4 @@ CAMPANVS Vult autem per hanc 106, quod residuum, & aliæ quinque lineæ irration
 
 ## Apotome non est eadem ei quæ ex binis nominibus.
 
-*[Signature: F]* *[Catchword: THEON]*
+<!-- Signature: F --> <!-- Catchword: THEON -->

@@ -1,10 +1,10 @@
-# 436 GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 436]*
+<!-- Folio: 436 -->
 
 sius circuli, hexagoni igitur latus est ipsa β ε recta linea, æqualis igitur est ei qui ex centro, hoc est ipsi δ ε. Et quoniā α ε ipsius δ ε dupla est, quadruplū est quod ex α ε eius quod ex δ ε, hoc est eius quod ex β ε. Aequū autem est id quod ex α ε, eis quæ ex α β, β ε, quæ igitur ex α β, β ε, quadrupla sunt eius quæ ex β ε: diuidendo igitur quòd quod ex α β, triplum est eius quod ex β ε. Aequalis autem est β ε, ipsi δ ε, quod ex α β igitur triplum est eius quod ex δ ε. Trianguli ergo latus potentia triplum est eius quæ ex centro circuli. Quod ostendere oportuit.
 
-Eucli. ex Camp. Propositio 13
+## Eucli. ex Camp. Propositio 13
 
 *[Margin: 13]*
 
@@ -20,4 +20,4 @@ CAMPANVS. Sit linea a b diameter assignatæ sphæræ, quæ diuidatur in pūcto c
 
 Ipsam autē esse circūscriptibilem ab assignata sphæra, sic habeto. Lineæ e k intelligatur adijci secūdum rectitudinē lineæ e l æqualis lineæ c b, ut tota k l sit æqualis a b quæ est diameter assignatæ sphæræ. Hanc autē lineam, inquā, e l imagineris esse sub circulo f g h, perpendicularē quoq; ad ipsius superficiē ex parte inferiori, sicut est e k ex parte superiori, eritq́; unaquæq; trium linearū e f, e g, e h, & simpliciter quælibet semidiameter circuli f g h, medio loco ꝓportionalis inter k e & e l, quemadmodū est d c inter a c & c b, nam hæ sunt æquales illis, unaquæq; suæ relatiuæ. Si igitur super lineā l k describatur semicirculus, circūducaturq́; quousq; ad locū unde moueri cœperat redeat, erit ex diffinitione sphærarū æqualiū, sphæra descripta motu huius semicirculi, æqualis sphæræ assignatæ: sunt enim sphæræ æquales, quarū sunt æquales diametri, quemadmodū de circulis in principio tertij dictum est. Hunc uero semicirculū necesse est trāsire per tria puncta f, g, h, quæ sunt anguli solidæ pyramidis fabricatæ. Similiter autē dico q̃ semicirculus hic quoniā super lineam k l fuerit descriptus, si circūducatur quousq; ad locū redeat unde moueri cœperat, continget circulū f g h super omnia puncta circūferentiæ ipsius. Quod ex hac uetusta ueritate probatur. Si linea recta super lineā rectā perpēdiculariter steterit, quæ inter partes eius cui superstat uel circūstat medio loco ꝓportionalis ponatur, fueritq́; super eam lineā cui ꝑpendicularis superstat, semicirculus descriptus, circūferentia ipsius per extremitatē lineæ medio loco ꝓportionalis positæ perpēdiculariter necessario transibit. Cum igitur cūctæ semidiametri circuli f g h sint perpen
 
-*[Catchword: diculares]*
+<!-- Catchword: diculares -->

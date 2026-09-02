@@ -1,6 +1,6 @@
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 534]*
+<!-- Folio: 534 -->
 
 Igitur magnitudo d f, maior apparet oculo in n, existente quàm in c, oculo igitur in b c permutato parallelo existenti ipsi d f, spectatum inæquale apparet.
 
@@ -42,4 +42,4 @@ Sit enim recta linea l f, & super l f, describatur segmentū contingēs, & inscr
 
 AEquali celeritate delatorū, in eademq̃ recta linea existentium, propinquū oculo postremum
 
-*[Catchword: præire]*
+<!-- Catchword: præire -->

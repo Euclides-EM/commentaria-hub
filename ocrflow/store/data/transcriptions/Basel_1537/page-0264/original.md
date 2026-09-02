@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 253]*
+<!-- Folio: 253 -->
 
 ne & in potentia. Sumo itaque duos numeros nequaquam se habentes in proportione aliquorum numerorum quadratorum,sintq̃ hi b & c,quos facile est sumere,cū quilibet quadratus numerus ad quēlibet non quadratum eam habeat proportionē quā nequaquā habent aliqui numeri quadrati,confirmante hæc 22 octaui. Duobus talibus numeris sumptis inuenio lineam d,ad cuius quadratum se habeat quadratum lineæ a sicut numerus b ad numerum c. Hāc autem lineam ita reperio. Diuido lineam a in tot partes æquales quot sunt unitates in numero b,quod facile facio adiuuāte 11 uel 12 sexti,dehinc super extremitatem lineæ a,erigo lineam e perpēdiculariter,in qua toties cōtineatur una ex partibus a,quoties unitas est in c. Quia igitur ex prima sexti proportio quadrati lineæ a ad superficiem quæ fit ex a in e est sicut a ad e,& ideo sicut numeri b ad numerum c:ponatur d medio loco proportionalis inter a & e sicut docet 9 sexti. Quia tunc per primam partem 6 eiusdē quadratum erit æquale superficiei productæ ex a in e,erit proportio quadrati lineæ a ad quadratū lineæ d,sicut numeri b ad numerū c quare a & d,sunt cōmēsurabiles in potentia ex diffinitione.& per ultimam partem,ipse sunt incommensurabiles in longitudine,reperta est itaque d prima linea.quam propositum erat inquirere. Alteram sic reperio Interpono ut docet 9 sexti, lineam f medio loco proportionalem inter a & d,eritque per correlariū 17 sexti quadratum a ad quadratum f,sicut a ad d.itaque per secundam partē 10,quadratum a est incommensurabile quadrato f,igitur linea f est incommensurabilis lineæ a in potentia,quare & in longitudine.est itaque f secunda linea quam propositū erat reperire,Et sic patet propositum.
 
@@ -20,4 +20,4 @@ CAMPANVS Sint quatuor lineæ proportiōales a,b,c,d,sitque a maior b;& c maior d
 
 Quinque præcedentes propositiones ex Campano cum suis additionibus,sequētibus septem ex Zamberto cū sibi præmissis lemmatibus hoc ordine respondent. Octaua apud Campanum cū additione, duode
 
-*[Signature: y]* *[Catchword: cimæ]*
+<!-- Signature: y --> <!-- Catchword: cimæ -->

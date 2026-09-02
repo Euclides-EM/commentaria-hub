@@ -1,10 +1,10 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 222]*
+<!-- Folio: 222 -->
 
 ipsum β multiplicans, ipsum γ fecit, & α est ex δ,ε, qui igitur ex δ,ε, ipsum β multiplicans, ipsum effecit γ: & β igitur cum qui ex δ, γ, multiplicans, ipsum γ fecit. Igitur γ solidus est, latera autem ipsius, sunt ipsi δ, ε, β, quod ostendere oportuit.
 
-Eucli. ex Camp. Propositio 8
+## Eucli. ex Camp. Propositio 8
 
 **8** SI fuerint numeri ab unitate continue proportionales, tertius ab unitate erit quadratus, ac deinceps uno semper intermisso. Quartus uero ab unitate, cubus, ac deinceps duobus semper intermissis. Itemq̃ semptimus ab unitate, est quadratus cubicus, ac deinceps quinque semper intermissis quadratus cubicus continuo sequitur.
 
@@ -14,7 +14,7 @@ CAMPANVS. Sint continue proportionales, unitas, a,b,c,d,e,f,g,h,K,l,m,n. Dico b 
 
 *[Figure: dotted number lines from unitas doubling upward, labelled a (2), b (4), c (8), d (16), e (32), f (64), g (128), h (256), K (512), l (1024), m (2048), n (4096)]*
 
-Eucli. ex Zamb. Theorema 8 Propositio 8
+## Eucli. ex Zamb. Theorema 8 Propositio 8
 
 **8** Si ab unitate quotcunq̃ numeri ordine proportionales fuerint, tertius ab unitate quadratus est, & unum relinquentes omnes, quartus autem cubus, & binos relinquentes omnes, septimus uero cubus simul & quadratus, & quinque relinquentes omnes.
 
@@ -22,4 +22,4 @@ Eucli. ex Zamb. Theorema 8 Propositio 8
 
 THEON ex Zamberto. Sint ab unitate quilibet * ordinatim proportionales numeri, α, β, γ, δ, ε, ζ. Dico quod tertius quidem ab unitate, scilicet, β, est quadratus, & unum relinquentes omnes, quartus autem γ est cubus. & binos relinquentes omnes, septimus uero, cubus & simul quadratus, & quinq; relinquētes omnes. Quoniam enim est sicut unitas ad α, sic α ad β, æque igitur metitur unitas ipsum α numerum, & α ipsum β, at unitas ipsum α metitur
 
-*[Catchword: per eas]*
+<!-- Catchword: per eas -->

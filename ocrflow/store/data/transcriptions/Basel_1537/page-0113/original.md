@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 104]*
+<!-- Folio: 104 -->
 
 maioris abstractionis, quàm proportionem arithmeticā: omnis enim proportio circa quam arithmetica uersatur, rationalis est: geometria uero, rationales & irrationales æqualiter considerat.
 
@@ -24,4 +24,4 @@ Et in hac quidem proportionalitate necesse est omnes quantitates esse eiusdem ge
 
 *[Figure: three pairs of horizontal segments labelled a–d, b–e, c–f, the segments d, e, f divided by tick marks]*
 
-*[Catchword: exce]*
+<!-- Catchword: exce -->

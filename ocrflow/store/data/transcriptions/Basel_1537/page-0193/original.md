@@ -1,4 +1,5 @@
-# *[Folio: 182]* ARITHMET. ELEMENT. EVCLIDIS
+<!-- Folio: 182 -->
+<!-- # ARITHMET. ELEMENT. EVCLIDIS -->
 
 ## Eucli. ex Camp. Propositio 16
 
@@ -30,4 +31,4 @@ CAMPANI annotatio. Possumus quoq́; hanc conclusionem alio modo proponere. Si du
 
 *[Margin: 16]* Si bini numeri multiplicantes se adinuicem, fecerint aliquos, geniti ex eis æquales adinuicem erunt.
 
-*[Catchword: THEON ex]*
+<!-- Catchword: THEON ex -->

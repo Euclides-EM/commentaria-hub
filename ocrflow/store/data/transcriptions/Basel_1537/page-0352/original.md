@@ -1,6 +1,6 @@
-# LIBER DECIMVS.
+<!-- # LIBER DECIMVS. -->
 
-*[Folio: 341]*
+<!-- Folio: 341 -->
 
 Restat aūt nūc ostēdere qd' quæcūq̃ irratiōales lineæ ab aliqua linea rationali in potentia tantum hac uia generantur,diuersæ sunt ab omnibus tā in lōgitudine quā in potētia quæ à qualibet alia linea ratiōali in potētia tantum quadratū cuius ad quadratum prioris nō sit sicut nūeri quadrati ad numerū quadratū,hac eadē uia egrediuntur,hoc quoq̃ sic cōstat,Sint a & b rōnales in potētia tātū siue tetragonica latera duarū superficierū dictarū à numeris nō quadratis.sitq̃ ut illi numeri nō sint in proportiōe aliquorū numerorū quadratorū,lineæ quoq̃ quæ ꝓcedūt hac uia ab a sint c,d,e.& a b ꝓcedāt f,g,h. Dico quod nulla ex lineis c,d,e,cōicat in lōgitudine uel potētia cū aliqua ex lineis f,g,h,cū enim sint c & f tetragonica latera a & b,at d & g tetragonica latera c & f,& e &h, tetragonica latera d & g,nō est possibile ut aliqua ex c,d,e.cōicet cum sua cōpari ex f,g h,uel longitudine uel potentia. Si enim alterutro modo cōmunicet e cū h. sequitur ut d cōmunicet cum g,& c cū f,quare & a cum b etiā in lōgitudine,quod est cōtra hypothesin. Vniuersaliter autē uerū est dicere quālibet harū esse utroq̃ modo incōmēsurabilē cuilibet istarū.Dato nāq̃ quod d cōicet cū h etiā in potētia tantū,sequitur ut c quoq̃ cōmunicet cū g,& a cum f,quod non est possibile. Attendere autē oportet,quod cū dico latus lateris,nihil aliud intelligo q̃ latus superficiei denominatæ à latere priori,unde tetragonicū latus lineæ a,uoco lineā illam quæ potest in superficiē dictā à linea a,talis autem superficies est q̃ cōtinet linea a & linea rōnalis in lōgitudine dicta ab uno. Si ergo libet inuenire tetragonicū latus cuiuslibet lineæ sit linea a,cuius tetragonicū latus uolo inuenire,b uero sit linea rationalis in lōgitudine dicta ab unitate,& ipsa est minima omniū linearū rationaliū numeratarū ab integris, medio loco proportionalis inter eas sit c,est igitur per 16 sexti c tetragonicū lat9 a.idē enim fit ex a in b & ex c in se. At uero ex a in b fit superficies dicta ab a.Quicquid enim à quolibet in unū ducto producitur,ab eo quod unū multiplicat denominatur.Et nota quod cū c fuerit latus tetragenicum *[sic: tetragonicum]* lineæ a,indifferenter contingit lineam c esse maiorē linea a &minorem,prout betiā *[sic: b etiā]* fuerit maior aut minor.
 
@@ -10,7 +10,7 @@ Apotome & quæ post eā irrationales,neque mediæ,neque adinuicē sunt eædē. Q
 
 1 Media. 2 Ex binis nominibus 3 Ex binis prima,medijs. 4 Ex binis secūda medijs. 5 Maior. 6 Rationale mediūq̃ potens. 7 Bina potens media. 8 Apotome. 9 Mediæ prima apotome. 10 Mediæ secūda apotome. 11 Minor. 12 Cū rōnali mediū totū efficiēs. 13 Cū medio mediū totū efficiēs.
 
-Eucli.ex Zamb. Theorema 88 Propositio 112
+## Eucli.ex Zamb. Theorema 88 Propositio 112
 
 *[Margin: 112]*
 
@@ -18,4 +18,4 @@ Eucli.ex Zamb. Theorema 88 Propositio 112
 
 THEON ex Zamb. Sit rōnalis quidē α,ex binis uero nominibus sit β γ,cuius maius nomen esto δ γ,& ei quod ex α æquū esto id quod sub β γ,ε ζ.Dico quod ipsa ε ζ apotome est,cuius nōia cōmēsurabilia sunt ipsis γ δ,δ β,& in eadē ratione,& insuper ε ζ eundem ordinē habet ipsi β γ,Sit enim rursus ei quod ex α.æquū id quod sub β δ,η.Quoniā igitur quod sub β γ,ε ζ, æquum est ei quod sub β δ,δ η,est igitur(per 14 quinti)sicut γ β,& β δ,sic est η ad ε ζ,maior autē est γ β,ipsa β δ,maior igitur & η ipsa ε ζ.Esto ipsi η æqualis ε θ.Est igitur(per 7 & 11 quinti)sicut γ δ ad β δ,sic est θ ζ ad ζ ε.diuidēdo igitur est (per 17 quinti,)quod sicut γ δ,ad β δ,sic est θ ζ ad ζ ε.Fiat sicut θ ζ,ad ζ ε,sic ζ κ,ad κ ε,&
 
-*[Signature: F 3]* *[Catchword: tota]*
+<!-- Signature: F 3 --> <!-- Catchword: tota -->

@@ -1,6 +1,6 @@
-*[Folio: 402]*
+<!-- Folio: 402 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 CORRELARIVM. Ex hoc nempe est manifestũ, quod & multangulas bases habẽtes similes pyramides, adinuicẽ in triplici sunt ratione eiusdẽ rationis laterũ. Diuisis enim ipsis in ipsas pyramides, triãgulares bases habentes (quia similia polygona basium in similia triangula diuiduntur, & in æque multiplicia, & eiusdem rationis totis) erit sicut in altera una pyramis triangularẽ habens basin ad unam basin triangularẽ habentem in altera pyramide, sic & omnes pyramides in altera pyramide triãgulares bases habẽtes, ad pyramides existentes in altera pyramide, & habentes triãgulares bases. Hoc est, Pyramis ipsa polygonã basin habens ad pyramida basin polygonã habentẽ. Pyramis autẽ triangularẽ basin habens ad pyramida triangularẽ basin habentẽ, in triplici est ratione eiusdẽ ratiõis laterũ. Et polygonã igitur basin habens, ad similem basin habentẽ, triplam habet rationẽ quàm latus ad latus.
 
@@ -22,4 +22,4 @@ Sed iam ipsarũ α β γ η, δ ε ζ θ, pyramidum reciprocæ sint bases altitu
 
 CAMPANVS. Supra circulum a, intelligantur una columna & una pyramis, secũdum eandem suam altitudinẽ erectæ, dicanturq̃ æquiuoce ipsa pyramis & columna & circulus, nomine uno scilicet a. Dico itaq̃ quod columna a, est tripla ad pyramidẽ a. Cuius probatio est. Quia neq̃ maior neq̃ minor potest esse q̃ tripla. Sit enim primũ (si possibile est) maior q̃ tripla, quantitate corporis b, ita q̃ si b corpus dematur de columna a, erit residuũ eius triplum ad pyramidem a. Inscribatur ergo quadratũ circulo a, super quod erigantur duo seratilia æque alta columnæ a, de quibus duobus seratilibus pariter acceptis constat, quod ipsa sunt plus medietate columnæ a, quemadmodũ ipsum quadratũ cõstat esse plus medietate circuli a, si enim ex ipsis seratilibus perficiantur solida parallelogrãma, quorũ ipsa sunt medietates, erit ipsa columna pars ipsorũ duorum solidorũ pariter acceptorũ. Deinde super latera quadrati inscripti perficiam quatuor triangulos duum æqualium laterũ in por
 
-*[Catchword: tionibus]*
+<!-- Catchword: tionibus -->

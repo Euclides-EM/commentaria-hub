@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 256]*
+<!-- Folio: 256 -->
 
 surabilis est quoque γ ipsi ζ,sed si α,ipsi ε,incommensurabilis est,incommensurabilis est quoq̃ γ ipsi ζ,Quoniam enim est sicut α ad β,sic est γ ad δ.est igitur sicut id quod ex α,ad id quod ex β.sic est id quod ex γ, ad id quod ex δ.Sed ei quidem quod fit ex α,æqua sunt ea quæ fiūt ex ε,β,ei autem quod fit ex γ,æqua sunt ea quæ fiunt ex δ,ζ.Igitur)per 9 quinti)sicut quæ ex ε,β,ad id quod ex β,sic quæ ex δ,ζ,ad id quod ex δ,diuidendo igitur est (per 17 quinti,)quod sicut quod ex ε ad id quod ex β.sic est id quod ex ζ ad id quod ex δ.Est igitur & sicut ε ad β,sic est ζ ad δ.Conuersim igitur est (per 22 sexti,& correlarium 4 quinti,)sicut β ad ε,sic est δ,ad ζ,est autem & sicut α ad β,sic est γ ad δ, ex æquali igitur (per 22 quinti,)est sicut α ad ε,sic est γ ad ζ.Si igitur commensurabilis est α,ipsi ε,commensurabilis est quoque(per 11 decimi γ ipsi ζ,si uero incommensurabilis est α ipsi ε,incommēsurabilis est γ ipsi ζ.Si quatuor igitur rectæ lineæ proportionales,& quæ sequuntur reliqua,quod erat demonstrandū.
 
@@ -32,4 +32,4 @@ I fuerint duæ lineæ inæquales quarum longiorē in duo cōmunicātia diuidat s
 
 *[Decorated initial S, foliate]*
 
-*[Catchword: ti]*
+<!-- Catchword: ti -->

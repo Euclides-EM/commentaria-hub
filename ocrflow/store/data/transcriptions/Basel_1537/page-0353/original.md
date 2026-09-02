@@ -1,12 +1,12 @@
-# GEO. ELEMEN. EVCLIDIS
+<!-- # GEO. ELEMEN. EVCLIDIS -->
 
-*[Folio: 342]*
+<!-- Folio: 342 -->
 
 *[Figure, top right: four horizontal lines — the first labelled α above; the second with the letters β, δ, γ; the third with the letters θ, ε, ζ, κ; the fourth labelled η]*
 
 tota igitur θ κ,(per 12 q̃nti)ad totā κ ζ,est sicut ζ κ ad κ ε.Sicut enim unū antecedentiū ad unū cōsequētiū,sic oīa añcedētia ad oīa sequētia. Sicut autē (per 12 quinti)ζ κ ad κ ε,sic est γ δ ad δ β,& sicut igitur(per 11 quinti)θ κ,ad κ ζ,sic γ δ,ad δ β,cōmēsurabile aūt est(per 11 decimi) quod ex γ δ,ei quod ex β δ,cōmēsurabile igitur est & quod ex θ κ,ei quod ex ζ κ,Et est sicut(per 22 sexti)quod ex θ κ,ad id quod ex κ ζ,sic est θ κ,ad κ ε.Et quoniā ipsæ tres θ κ,κ ζ,κ ε,sunt proportiōales cōmēsurabilis igitur est (per 11 decimi)θ κ,ipsi κ ζ lōgitudine,quare & θ ε,ipsi ε κ lōgitudine est cōmēsurabilis.Et quoniā(per correlariū 20 sexti.)quod ex α æquū est ei quod sub ε θ,β δ,rōnale aūt est id quod ex α,rōnale igitur est & id quod sub θ ε,β δ.Et ad ipsam β δ,rōnalē apponitur,rōnalis igitur est & ε θ,& ipsi β δ lōgitudine cōmēsurabilis,quare & ei cōmēsurabilis ε κ,rōnalis est,& ipsi β δ,lōgitudine cōmēsurabilis.Quoniā igitur est sicut γ δ,ad δ β,sic ζ κ ad κ ε,ipse autē γ δ,δ β,potētia tantū cōmēsurabiles,& ipsæ igitur ζ κ,κ ε,(per 11 decimi)potētia tātū sunt cōmēsurabiles.Rōnalis aūt est κ ε,& ipsi β δ lōgitudine cōmēsurabilis.Rōnalis igitur est & ζ κ.& ipsi γ δ lōgitudine cōmēsurabilis.Ipsæ igitur ζ κ κ ε,rōnales sunt potētia tātū cōmēsurabiles(per 11 decimi.)Igitur ζ ε apotome est.Verū γ δ,ipsa δ β,aut maius pōt eo quod ex sibi cōmēsurabili,aut quod ex sibi incōmēsurabili.Si quidē γ δ,ipsa δ β,maius potest eo quod ex sibi cōmēsurabili,& ζ κ(per 13 decimi)ipsa κ ε maius potest eo quod ex sibi cōmēsurabili.Et si γ δ,ipsi expositæ rōnali cōmēsurabilis est lōgitudine,& ζ κ,si autē δ β,& κ ε,si uero neutra ipsarū γ δ,δ β,& neutra ipsarū ζ κ,κ ε.Si aūt γ δ,ipsa β δ maius potest eo quod ex sibi incōmensurabili,& ζ κ,ipsa κ ε,maius potest eo quod ex sibi incōmensurabili.Et si quidē γ δ cōmēsurabilis est ipsi expositæ rōnali lōgitudine,& ζ κ,si aūt β δ,& κ ε,si uero neutra ipsarū γ δ,δ β,& neutra ipsarum ζ κ,κ ε.Quare ipsa ζ ε apotome est,cuius nomina ζ κ,κ ε,cōmēsurabilia sunt eis noībus quæ sunt ex ea quæ ex binis nominibus hoc est ipsis γ δ,β δ,& in eadē rōne,& eundē habet ordinē ipsi β γ.A rōnali igitur & reliqua. Quod erat ostendendum.
 
-Eucli.ex Zamb. Theorema 89. Propositio 113
+## Eucli.ex Zamb. Theorema 89. Propositio 113
 
 *[Margin: 113]*
 
@@ -16,10 +16,10 @@ THEON ex Zāb. Esto rōnalis quidē α,apotome aūt sit β δ,& ei quidē quod e
 
 *[Figure, right of the opening of the proof: four horizontal lines — the first labelled α above; the second with the letters β, δ, γ; the third with the letters κ, ε, ζ, θ; the fourth labelled η]*
 
-Eucli.ex Zamb. Theorema 90 Propositio 114
+## Eucli.ex Zamb. Theorema 90 Propositio 114
 
 *[Margin: 114]*
 
 ## Si areola comprehēdatur sub apotome & ea quæ ex binis nominibus cuius nomina cómensurabilia sunt ipsius apotomes nominibus,& in eadem ratione quæ areolam potest rationalis est.
 
-*[Catchword: THEON]*
+<!-- Catchword: THEON -->

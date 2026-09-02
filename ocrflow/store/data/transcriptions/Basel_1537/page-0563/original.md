@@ -1,6 +1,6 @@
-*[Folio: 550]*
+<!-- Folio: 550 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 rationem datam habebunt , uel altera altera dato maior erit quàm in ratione.
 
@@ -34,4 +34,4 @@ SI fuerint tres magnitudines, una autem earum utraque reliquarum dato maior fuer
 
 Sint tres magnitudines a b,c d,e f,earum uero una c d,utraque reliquarum a b,e f,da
 
-*[Catchword: to]*
+<!-- Catchword: to -->

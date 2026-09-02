@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 28]*
+<!-- Folio: 28 -->
 
 æquales: sunt enim intrinseci & extrinseci bis tot rectis æquales, quot habuerit angulos, per 13 propositionem. Intrinseci autem sunt bis tot rectis æquales, quot habuerit angulos demptis inde quatuor: ergo extrinseci sunt quatuor rectis æquales, quod est propositum. Exempli gratia, propositi pentagoni latera protrahantur, ut fiāt anguli extrinseci, a b quidem protrahatur usq̃ ad f, b c usq̃ ad g, c d usq̃ ad h, d e usq̃ ad k, e a usq̃ ad l: eruntq̃ per 13 propositionē duo anguli a intrinsecus & a extrinsecus, æquales duobus rectis: eadem autem ratione, duo anguli b intrinsecus & b extrinsecus: sic & cæteri: quare a, b, c, d, e, anguli intrinseci & extrinseci, decem rectis æquantur, demptis igitur intrinsecis qui sunt æquales sex rectis, erunt extrinseci, uidelicet, b a l, c b f, d c g, e d h, & a e k, æquales quatuor rectis.
 
@@ -32,4 +32,4 @@ CAMPANVS. Sint duæ lineæ a b & c d, æquales & æquidistantes, quarum extremit
 
 *[Figure: parallelogram a b, c d with diagonal a d]*
 
-*[Catchword: nem basis]*
+<!-- Catchword: nem basis -->

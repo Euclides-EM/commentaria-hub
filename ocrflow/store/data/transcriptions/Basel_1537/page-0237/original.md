@@ -1,12 +1,12 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 226]*
+<!-- Folio: 226 -->
 
 effecit. Igitur qui ex α,γ, ei qui ex ε,ζ, est æqualis. Est igitur sicut α ad ε, sic est ζ ad γ. At ipsi α,ε, primi, primi uero & minimi, minimi autem metiuntur eandem rationem habentes æqualiter (per 21 septimi) antecedens antecedentem sequens sequētem: metitur igitur ε ipsum γ, metiatur ipsum per η. Igitur ε ipsum η multiplicans, ipsum effecit γ. Sed ne tollatur & α ipsum β multiplicans, ipsum effecit γ: qui igitur ex α,β, ei qui ex ε,η, est æqualis. Est igitur sicut α ad ε, sic η ad γ. Ipsi autem α,ε, primi, primi uero & minimi, minimi autem numeri, (per 21 septimi) metiuntur eandem rationem habentes eis æqualiter, antecedens antecedentem, & sequens sequentem: metitur igitur ε ipsum β, metiatur ipsum per θ, igitur ε ipsum θ multiplicans, ipsum β effecit. Sed & α seipsum multiplicans, ipsum effecit β, qui igitur ex ε,θ, ei qui ex α est æqualis, est igitur sicut ε ad α, sic α ad θ. At ipsi α,ε, primi, primi autē & minimi, minimi uero (per 21 septimi) metiuntur eandem eis rationem habentes æqualiter, antecedens antecedentē & sequens sequentē. Igitur ε ipsum α metitur, sed & non metitur, quod est impossibile. Ipsi igitur α, ε, non sunt adinuicem primi. Compositi igitur. At cōpositos numeros, aliquis primus numerus metitur. Ipsi igitur α,ε, sub alicuius numeri primi dimensionem cadunt, & quoniam ε primus supponitur. At primus numerus sub alterius numeri mensuram non cadit. (per diffinitionē) quàm sub suiypsius, igitur ε ipsos α,ε, metitur, quare ε ipsum α metitur: metitur autem & δ. Igitur ε ipsos α,δ, metitur: similiter iam demōstrabimus quod quot numeri primi ipsum δ metiuntur, tot & ipsum α metiētur, quod ostendere oportuit.
 
 *[Figure: vertical dotted lines from unitas labelled α, β, γ, δ, ε, θ, η, ζ with rotated values 4, 16, 64, 256, 2, 8, 32, 128]*
 
-Eucli. ex Camp. Propositio 13
+## Eucli. ex Camp. Propositio 13
 
 **13** QVotlibet numeris ab unitate cōtinue proportionalibus, si qui unitatem sequitur fuerit numerus primus, maximum eorum nisi de numeris in illa proportionalitate dispositis, nullus numerabit.
 
@@ -20,4 +20,4 @@ ALITER idem. Si e diuersus ab a,b,c,d, numerat d, sit ut secundum f, & quia a nu
 
 *[Figure: vertical dotted lines from unitas labelled a, b, c, d, e, f, g, h]*
 
-*[Catchword: ut nu]*
+<!-- Catchword: ut nu -->

@@ -1,6 +1,8 @@
-*[Folio: 187]*
+<!-- # LIBER SEPTIMVS. -->
 
-# LIBER SEPTIMVS.
+<!-- Folio: 187 -->
+
+
 
 CAMPANVS. Sint duo numeri a & b, secundum suam proportionē minimi: dico quod ipsi sunt contra se primi. Si enim non, numeret eos c secundum d & e: eritq̃ per 15 d ad e, sicut a ad b, & quia d & e sunt minores a & b, sequitur a & b non esse suæ proportionis minimos, quod est contrariū positioni.
 
@@ -22,7 +24,7 @@ Vt sit *[sic, for si]* sint a,b,c, quilibet numeri quos omnes nullus numerat: di
 
 *[Figure: dotted number lines beside the text: a········ b······· c······ / d····· e···· f··· / g··]*
 
-Eucli. ex Zamb. — Theorema 21 — Propositio 23
+## Eucli. ex Zamb. — Theorema 21 — Propositio 23
 
 *[Margin: 23]*
 
@@ -30,4 +32,4 @@ Eucli. ex Zamb. — Theorema 21 — Propositio 23
 
 THEON ex Zamberto. Sint primi numeri adinuicem α, β. Dico quod ipsi α, β, minimi sunt eandem rationem habentium eis: si autem α & β non sunt minimi eandem habentiū rationem eis, erunt aliqui numeri ipsis α,β,
 
-*[Signature: q 4]* *[Catchword: minores]*
+<!-- Signature: q 4 --> <!-- Catchword: minores -->

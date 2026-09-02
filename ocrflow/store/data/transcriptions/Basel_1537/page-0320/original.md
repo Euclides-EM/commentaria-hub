@@ -1,8 +1,10 @@
-# LIBER DECIMVS. *[Folio: 309]*
+<!-- # LIBER DECIMVS. -->
+
+<!-- Folio: 309 -->
 
 mensurabile est quod bis sub α β, β γ. Quæ igitur ex α β, β γ, incōmensurabilia sunt ei quod bis sub α β, β γ, & reliquo igitur quod ex α γ, incōmensurabilia sunt ei quæ ex α β, β γ, quoniam (per 5 secūdi) *[sic: for 7 secundi]* & quæ ex α β, β γ, æqua sunt ei quod bis sub α β, β γ, una cum eo quod ex γ α. Rationalia autē sunt ea quæ ex α β, β γ, quadrata, irrationalis igitur est linea α γ, uocatur autē ipsa, apotome.
 
-Eucli.ex Camp. Propositio 69
+## Eucli.ex Camp. Propositio 69
 
 *[Margin: 69]*
 
@@ -16,7 +18,7 @@ CAMPANVS. Sit linea b c, abscisa ex linea a b, sintq̃ ambæ quales proponitur, 
 
 *[Figure: horizontal line with points a, c, b; below it a rectangle with g at the upper left and h at the left below it, divided by a horizontal line with f inside at the right; d at the bottom left and e at the bottom right, with tick marks along the base]*
 
-Eucli.ex Zamb. Theorema 56 Propositio 74
+## Eucli.ex Zamb. Theorema 56 Propositio 74
 
 *[Margin: 74]*
 
@@ -26,7 +28,7 @@ THEON ex Zamb. A media nanq̃ α β, media auferatur β γ potentia tantum cōme
 
 *[Figure: horizontal line with points α (left), γ (middle right), β (right)]*
 
-Eucli. ex Camp. Propositio 70
+## Eucli. ex Camp. Propositio 70
 
 *[Margin: 70]*
 
@@ -38,4 +40,4 @@ CAMPANVS. Sit hic quoq̃ linea b c, abscisa ex linea a b, utraq̃ autē a b & b 
 
 *[Figure: horizontal line with points a (left), c (middle), b (right)]*
 
-*[Catchword: IDEM]*
+<!-- Catchword: IDEM -->

@@ -1,6 +1,6 @@
-*[Folio: 379]*
+<!-- # LIBER VNDECIMVS. -->
 
-# LIBER VNDECIMVS.
+<!-- Folio: 379 -->
 
 æquū est & simile ipsi γ ρ parallelogrāmo,& insuper θ ε,ipsi ζ δ. Tria igitur parallelogrāma ipsius κ ο solidi,tribus parallelogrāmis ipsius γ δ solidi similia & æqualia sūt,sed ipsa qdē tria tribus ijs quæ ex opposito,sūt æqualia & similia,totū igitur κ ο solidū,toti γ δ solido simile est & æquale(per diffinitionē undecimi.) Cōpleatur η κ parallelogrāmū,& à basibus quidē η κ,κ λ, parallelogrāmis,altitudine aūt ipsius α β,solida cōpleantur ε ξ,λ π.Et quoniā propter ipsorū α β,γ δ,solidorū similitudinē est sicut α ε ad γ ζ sic ε η ad ζ ν,& ε θ,ad ζ ρ,æqualis aūt est γ ζ,ipsi ε κ,& ζ ν,ipsi ε λ,& ζ ρ ipsi ε μ,est igitur(per cōuersionē diffinitionis secundæ)sicut α ε ad ε κ,sic est η ε,ad ε λ,& θ ε,ad ε μ.Sed sicut quidē α ε, ad ε κ,sic est α η parallelogrammū ad η κ, parallelogrammum,sicut aūt η ε ad ε λ,si η κ,ad κ λ,sicut uero (per 1 sexti)θ ε ad ε μ,sic π ε ad κ μ,& sicut igitur(per 11 quinti.)α η,parallelogrāmū ad η κ, parallelogrammum sic η κ, ad κ λ,& π ε,ad κ μ. Sed sicut quidē α η ad η κ,sic est α β solidū ad ε ξ,solidū,sicut autē η κ ad κ λ,sic ξ ε, solidū ad π λ solidū,sicutq̃ π ε,ad κ μ, sicut π λ,solidū ad κ ο solidum.Et sicut igitur α β solidum ad ε ξ,solidum,sic ε ξ, ad π λ,& π λ ad κ ο.Si uero quatuor magnitudines cōtinue fuerint proportionales,prima ad quartā(per 10 diffinitionē quinti)triplicē rationē habet quā ad secundā.Igitur α β solidū ad κ ο solidū triplicem rōnē habet,quā α β ad ε ξ.Sed sicut α β ad ε ξ,sic est α η,parallelogrāmū ad η κ,& α ε,recta linea ad ε κ,quare & α β solidū ad κ ο,solidū triplicē rōnē habet,quā α ε ad ε κ.Aequū aūt est ipsum quidē κ ο solidū ipsi γ δ solido,& ε κ recta linea ipsi γ ζ,& α β igitur solidū ad γ δ solidū triplicē rationē habet,quàm similis rationis latus hoc est α ε,ad similis rationis latus hoc est ad γ ζ.Similia igitur solida parallelepipeda,in triplici sunt ratione similis rationis laterū Quod ostendere oportebat.
 
@@ -22,6 +22,6 @@ THEON ex Zāb.Sint æqualia solida parallelepipeda,α β,γ δ. Dico q̃ ipsorū
 
 *[Figure: parallelepiped γ δ with the smaller solid γ φ of height γ τ completed within it on the base ν π; visible point labels include ξ, δ, μ, φ, τ, θ, γ, ν, π]*
 
-*[Signature: I 4]*
+<!-- Signature: I 4 -->
 
-*[Catchword: sicut]*
+<!-- Catchword: sicut -->

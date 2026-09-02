@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 102]*
+<!-- Folio: 102 -->
 
 *culi, erit trium: reliqua igitur β γ, duorum æqualiū. Secetur (per 30 tertij) β γ, bifariam in ε: utraq̃ igitur ipsarum β ε, & ε γ, circunferentiarum, quintumdecimum erit ipsius α β γ δ, circuli. Si igitur coniungentes rectas lineas β ε, & ε γ, ipsis æquales in cōtinuum rectas lineas (per 1 quarti) coaptemus in circulum α β γ δ: erit in eo descriptum quintidecagonum æquilaterum & æquiangulum, quod facere oportebat. Similiter autem ut in pentagono si per circuli diuisionem, tangentes circulum ducemus: describetur circa circulum, quintidecagonum æquilaterum & æquiangulum: & per ostensionem similiter in pentagonis, & in dato quintidecagono æquilatero & æquiangulo, circulum describemus & circunscribemus.*
 
@@ -10,9 +10,9 @@ QVARTI LIBRI FINIS.
 
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVINTVS.
 
-Euclides ex Campano. Diffinitiones.
+## Euclides ex Campano. Diffinitiones.
 
-## 1 Pars, est quantitas quantitatis minor maioris, cum minor maiorem numerat.
+1 Pars, est quantitas quantitatis minor maioris, cum minor maiorem numerat.
 
 *[Figure: large historiated woodcut initial P with putti]*
 
@@ -22,4 +22,4 @@ CAMPANVS. Pars, quandoq̃ sumitur proprie: & hæc est quæ aliquoties sumpta, su
 
 CAMPANVS. Pars, relatiue dicitur ad totum, & in istis duobus extremis, consistit eorum adinuicem relatio: & ideo diffinito minori extremo: diffinit hic maius: uocat autem
 
-*[Catchword: autem]*
+<!-- Catchword: autem -->

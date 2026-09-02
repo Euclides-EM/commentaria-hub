@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 289]*
+<!-- Folio: 289 -->
 
 ## Eucli.ex Camp. — Propositio 44
 
@@ -24,4 +24,4 @@ THEON ex Zamb. Exponantur bini numeri α γ,γ β,ut ex ipsis compositus α β,a
 
 CAMPANVS. In inuentione binomij quarti eodem modo procedendum est sicut in inuentione primi, excepto quod quadratus nume-
 
-*[Signature: B]* *[Catchword: rus]*
+<!-- Signature: B --> <!-- Catchword: rus -->

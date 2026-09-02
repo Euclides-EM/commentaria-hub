@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 367]*
+<!-- Folio: 367 -->
 
 est, angulus igitur qui sub δ ε ζ (per 25 primi) angulo qui sub σ ξ τ maior est. Aequalis autē est qui sub σ ξ τ, eis qui sub α β γ, η θ κ. Igitur qui sub δ ε ζ, eis qui sub α β γ, η θ κ, maior est. Sed & minor. Quod est impossibile. Quomodo autem id quod ex ρ ξ, æquum sumatur ei quo quod ex α β maius est eo quod ex λ ξ, sic ostendemus. Exponantur α β & λ ξ rectæ lineæ, sitq̃ maior α β, describaturq̃ super ipsa semicirculus α γ β, & in semicirculo α γ β * annectatur *[Margin: ἐνηρμόσθω]* ipsi λ ξ rectæ lineæ æqualis ipsa α γ, connectanturq̃ γ β. Quoniam igitur in semicirculo α γ β angulus est qui sub α γ β, rectus igitur est qui sub α γ β (per 31 tertij.) Quod igitur ex α β (per 47 primi) æquum est eis quæ ex α γ, γ β, quare id quod ex α β, maius est eo quod ex α γ, eo quod ex γ β, æqualis autem est α γ ipsi λ ξ: quod igitur ex α β, maius est eo quod ex λ ξ, eo quod ex γ β. Si ipsi igitur γ β æqualem ξ ρ assumamus, quod ex α β maius est quàm id quod ex λ ξ, eo quod ex ξ ρ. Quod facere proposueramus.
 
@@ -24,4 +24,4 @@ THEON ex Zamb. Solidum, inquam, γ δ η θ, sub parallelis planis α γ, η ζ,
 
 *[Figure: parallelepiped with β and θ at the top corners, α on the upper face, η and ζ at the right, γ at the lower left, δ and ε at the bottom front corners, with face diagonals drawn]*
 
-*[Signature: H 4]* *[Catchword: Et quo-]*
+<!-- Signature: H 4 --> <!-- Catchword: Et quo- -->

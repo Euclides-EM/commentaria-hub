@@ -1,6 +1,6 @@
-# 126 GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 126]*
+<!-- Folio: 126 -->
 
 ipsorum δ κ, κ λ, & λ ε. Et quoniam α η, η θ, & θ β, sibi inuicem sunt æquales, & δ κ, κ λ, & λ ε, quoque sibi inuicem sunt æquales, est igitur sicut α η, ad δ κ, sic est η θ, ad κ λ, & β θ, ad λ ε, erit igitur (per 12 quinti,) sicut unum antecedentium ad unum consequentium, sic omnia antecedentia ad omnia consequentia. Est igitur sicut α η, ad δ κ, sic est α β, ad δ ε, æqualis autem est α η, ipsi γ, ipsum autem δ κ, ipsi ζ, est igitur sicut γ, ad ζ, sic est α β, ad δ ε. Partes igitur eodem modo multiplicium, eaudem habent rationem sumptæ adinuicem, quod demonstraße oportuit.
 
@@ -34,4 +34,4 @@ CAMPANVS. Demonstrato modo arguendi qui dicitur proportionalitas permutata, demo
 
 *[Figure: four horizontal lines: a long line with points g, h, k, p; a segment a—c—b; a segment d—f—e; a long line with points l, m, n, q]*
 
-*[Catchword: mu]*
+<!-- Catchword: mu -->

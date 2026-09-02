@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 76]*
+<!-- Folio: 76 -->
 
 lineæ ad extremitates chordarum: quæ sint d a, d c, h e, h g: & quia circuli positi sunt fore æquales: erunt hæ semidiametri æquales: & quia linea a c posita est æqualis lineæ e g, erit per 8 primi, angulus d æqualis angulo h totali: quare per 25 huius, erit arcus a b c, æqualis arcui e f g: sicq̃ patet primum. Secundum sic. Sit e g maior a c: eritq̃ per 25 primi, angulus h, maior angulo d. Fiat ergo angulus f h g æqualis angulo d: eritq̃ per 25 huius, arcus f g, æqualis arcui a b c. Quare arcus e f g, est maior arcu a b c, quod est secundum propositum.
 
@@ -34,4 +34,4 @@ THEON ex Zamberto. *Sint æquales circuli α β γ & δ ε ζ, & in eis æquales
 
 *[Figure: circle with δ at the top, centre λ, the chord ε ζ with a triangle from the centre upon it, θ at the bottom]*
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

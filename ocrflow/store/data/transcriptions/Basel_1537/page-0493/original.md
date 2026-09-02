@@ -1,6 +1,6 @@
-# 482 GEO. ELEMENT. EVCLIDIS
+<!-- # GEO. ELEMENT. EVCLIDIS -->
 
-*[Folio: 482]*
+<!-- Folio: 482 -->
 
 & ipsis ε η, γ η perpendicularibus triangulorum, datur & qui sub ε η δ. Si enim centris limitibus eius quæ sub binis lateribus subtensa pentagoni, sicut ε δ, interuallo autem ipsius trianguli perpendiculari, circuli describantur, secabunt se inuicem sicut in η, & quæ ex η ad ipsa ε δ connexæ rectæ lineæ, comprehendent sub binis rectis ipsorū planorū inclinatiōis, & hic quidē ex descriptione manifestū est, quod utraq̃ ipsarū β η, ε η maior est dimidia ipsius β δ.
 

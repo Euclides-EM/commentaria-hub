@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 22]*
+<!-- Folio: 22 -->
 
 terum alteri, angulum uero angulo maiorem sub æquis rectis lineis contentum, basin quoq̃ basi maiorem habebunt.
 
@@ -34,4 +34,4 @@ THEON ex Zamb. Sint duo triangula α β γ, δ ε ζ, duo latera hoc est α β &
 
 OMnium duorum triangulorum quorum duo anguli unius duobus angulis alterius & uterque se respicienti æquales fuerint, latus quoque unius lateri alterius æquale, fueritq̃ latus
 
-*[Catchword: illud]*
+<!-- Catchword: illud -->

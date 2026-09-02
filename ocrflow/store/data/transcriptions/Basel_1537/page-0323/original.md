@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 312]*
+<!-- Folio: 312 -->
 
 Exponatur rationalis δ ι, & eis quidem quæ ex α β, β γ, æquum ad ipsam δ ι comparetur (per 44 primi) δ ε, latitudinem efficiens δ η, ei autem quod bis sub α β, β γ, æquum auferatur δ θ, latitudinem efficiens δ ζ, reliquū igitur ζ ε, æquum est ei quod ex α γ, quare α γ potest ipsum ζ ε. Et quoniam compositum ex ipsarū α β, β γ, quadratis medium est, & ipsi δ ε est æquale, ipsum igitur δ ε medium est. Et ad ipsam δ ι rationalem comparatur, latitudinem efficiens δ η, rationalis igitur est (per 22 decimi) δ η, & ipsi δ ι longitudine incommensurabilis. Rursus quoniam quod bis sub α β, β γ, medium est, & ipsi δ θ æquale, igitur δ θ medium est. Et ad ipsam δ ι rationalem comparatur, latitudinem efficiens δ ζ, rationalis igitur est δ ζ, & ipsi δ ι longitudine incommensurabilis. Et quoniam incommensurabilia sunt quæ ex α β, β γ, ei quod bis sub α β, β γ, incommensurabile igitur est & δ ε ipsi δ θ. Sicut autem (per primā sexti) δ ε ad δ θ, sic est & δ η ad δ ζ. Incommensurabilis igitur est η δ ipsi δ ζ, & utræq́; sunt rationales. Ipsæ igitur η δ, δ ζ, rationales sunt potentia tantum commensurabiles. Apotome igitur est ζ η, rationalis autem est ζ θ. Quod uero sub rationali & apotome comprehensum rectangulum, irrationale est & illud potens irrationalis est (per 73 decimi.) Ipsum autem ζ ε, potest ipsa γ α. Igitur ipsa γ α irrationalis est, appellatur sane cum medio medium totum efficiens. Quod erat ostendendū.
 
@@ -14,7 +14,7 @@ Intelligendū est hoc de quātitatibus eodem modo relatis, ut cum prima maior fu
 
 *[Figure: four horizontal lines labeled a, b, c, d]*
 
-Eucli. ex Camp. Propositio 74
+## Eucli. ex Camp. Propositio 74
 
 ## 74 NVlla linea nisi una tantū residuo coniungi potest, ut sint ambæ sub termino earum quæ erant ante separationem.
 
@@ -24,4 +24,4 @@ CAMPANVS. Sit linea a c residuū, quæ fuerit reliqua, abscisa b c ex a b, erunt
 
 *[Figure: line a b c d]*
 
-*[Catchword: nisi]*
+<!-- Catchword: nisi -->

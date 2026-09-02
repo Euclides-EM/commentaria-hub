@@ -54,7 +54,7 @@
 - Words hyphenated across line breaks joined; paragraphs written as continuous flowing text.
 - Greek passages and Greek point-letters in Greek script. The italic Greek fount uses a "6"-shaped alternate beta, an ι-like epsilon and ξ-like zeta, and nearly identical η/κ sorts; letters were normalized by identity established from the diagrams.
 - Printer's errors retained as printed, the significant ones flagged with *[sic: …]*; misnumbered printed folios noted in editorial brackets.
-- Editorial notes in italic square brackets, in English: *[Blank page]*, *[Figure: …]*, *[Signature: …]*, *[Catchword: …]*, *[Margin: …]*, *[Folio: N]*, *[Stamp: …]*, *[Handwritten: …]*.
+- Editorial notes in italic square brackets, in English: *[Blank page]*, *[Figure: …]*, <!-- Signature: … -->, <!-- Catchword: … -->, *[Margin: …]*, <!-- Folio: N -->, *[Stamp: …]*, *[Handwritten: …]*.
 - The "Digitized by Google" scan watermark was not transcribed.
 
 ## Known caveats

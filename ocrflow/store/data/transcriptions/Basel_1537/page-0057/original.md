@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 48]*
+<!-- Folio: 48 -->
 
 stantem cd, & produco f d & e b, quousq̃ concurrant in puncto g, & produco lineam a g. Eritq̃ per ultimā partem 29 primi, angulus c e f rectus, sed angulus c e b, est medietas recti, ergo angulus b e f est similiter medietas recti, & quia per 33 primi, f d est æquidistans c e, erit per 34 eiusdem, angulus f rectus, ergo per 32 eiusdē, erit angulus e g f medietas recti: item per eandem, angulus d b g similiter medietas recti, propter id q̃ angulus b d g est rectus, ergo per 6 eiusdē, duo latera e f & f g sunt æqualia, item duo latera d b & d g sunt æqualia. Ergo per penultimā eiusdem, quadratum e g, duplum est ad quadratum e f: quare ad quadratum c d. Itemq̃ per eandem, quadratum a e, duplum est ad quadratū a c. Et quia quadratū a g est per eandem æquale quadratis a e & e g, similiter quoq̃ & quadratis a d & d g, at quia quadratum d g est æquale quadrato b d, erunt duo quadrata duarum linearum a d & b d pariter accepta, dupla duobus quadratis duarum linearū a c & c d pariter acceptis, quod est propositum. Hæc autem & omnes præmissæ, ueritatem habent in numeris sicut in lineis.
 
@@ -16,4 +16,4 @@ THEON ex Zamb. Recta enim quædam linea α β, secetur bifariam in γ, apponatur
 
 *[Figure: base line α γ β δ with apex ε above γ, point ζ at upper right, lines ε β and ζ δ produced meeting at η below right, line α η drawn]*
 
-*[Catchword: Euclides]*
+<!-- Catchword: Euclides -->

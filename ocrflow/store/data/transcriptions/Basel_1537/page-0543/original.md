@@ -1,6 +1,6 @@
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 532]*
+<!-- Folio: 532 -->
 
 e c, angulum, minimus est qui sub c e a. Quoniam igitur c e, ipsi a b, parallelus est, sed & æqualis, & ea igitur ipsi c b, æquales est & parallelus, parallelogrammum est b e, idq̃ propterea iam & f e, parallelogrammum est. Et quoniam oportet ostendere quod minor apparet a b, ipsa d f, manifestum est quod prius ostendere oportet quod angulus qui sub b e a, minor igitur est qui sub c e a. Quoniā igitur cstensum *[sic: for ostensum]* est quod omnium per e, signum actarum rectarum linearū ad c e, angulosq̃ efficientium minimus est qui sub c e a, minor igitur est qui sub b e a. Exponatur circuli semicirculo, æquum segmentum k a l, accipiaturq̃ illius centrum & sit n, ponaturq̃ ei angulo qui sub c e a, æqualis angulus qui sub k n m, ei aūt qui sub c e d, æqualis qui sub k n o, ponaturq̃ ei qui sub e f, utraq̃ ipsarum o n, m n, æqualis per 2 primi elementorū, & per m ipsi k n, æqualis & parallelus excitetur m p, per 31 primi ele. Connectaturq̃ per primum postulatum p k, parallelogrammū igitur est n p, & æquum & simile ipsi b e. Rursus per o ipsi k n, per 31 primi element. excitetur o r, & connectatur r k. Igitur r n, parallelogrammum æquum est & simile ipsi f e. Connectanturq̃ diagonij r n, p n. Quare angulus qui sub k n p, eo qui sub k n r, minor est. Estq̃ qui sub k n p, ei æqualis qui sub k n p, & æqualis qui sub a e b, & qui sub k n r, ei æqualis qui sub d e f, minor igitur est qui sub a e b, angulus eo qui sub d e f. Quare & magnitudo a b, magnitudine d f, minor apparebit. Similiter iam ostendemus quod si excitetur, ipsa f d, minor est ipsa f d, minore existēte ipsa f d, æquali ei quæ ex centro. Sed iam esto d e, ei quæ ex centro æqualis, construanturq̃ omnia eadem quæ super, ponaturq̃ circuli semicirculo æqualis semicirculus h d l, accipiaturq̃ illius centrum, & sit n, q̃ quoniam d o, æqualis supponitur ei quæ ex centro, ponatur, inquam, ei qui sub c e a, angulo, æqualis angulus qui sub h n k, exciteturq̃ ipsi h n, parallelogrammū n x, & ipsi h n, auferatur æqualis k x, connectaturq̃ x h, ei autem qui sub c e d, æqualis ponatur qui sub h n d, & ipsi h n, parallelus per 31 primi element. excitetur d o, ipsiq̃ h n, æqualis auferatur d o, connectaturq̃ o h: parallelogrammū igitur est utrunq̃ ipsorū h k, h d k, & sunt æqualia & similia ipsis e b, f e b, quare & qui sub m d, angulus ei qui sub c e d. &
 
@@ -16,4 +16,4 @@ Sed iam esto d f, minor ea quæ ex centro circuli, cōstruanturq̃ eadem quæ su
 
 *[Figure: semicircle: p and o at the upper left, l and k within, base line with b and k at the left, n and m at the right]*
 
-*[Catchword: gnitudo]*
+<!-- Catchword: gnitudo -->

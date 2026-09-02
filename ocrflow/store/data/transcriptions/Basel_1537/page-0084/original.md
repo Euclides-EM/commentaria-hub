@@ -1,6 +1,6 @@
-# LIBER TERTIVS
+<!-- # LIBER TERTIVS -->
 
-*[Folio: 75]*
+<!-- Folio: 75 -->
 
 *Reliqua igitur β κ γ circunferentia (per 3 cõmunem sententiam) reliquæ ε λ ζ: circunferentiæ est æqualis. In æqualibus igitur circulis æquales anguli æqualibus circunferentijs insistunt: siue si ad circunferentias, siue si ad centra consistant, quod demonstrasse oportuit.*
 
@@ -34,6 +34,6 @@ CAMPANVS. Sint duo circuli æquales, a b c cuius centrum d, & e f g cuius centru
 
 *[Figure: circle with centre h, e at left, g at right, f at lower left; lines from e and g to h and to f]*
 
-*[Signature: g 2]*
+<!-- Signature: g 2 -->
 
-*[Catchword: lineæ]*
+<!-- Catchword: lineæ -->

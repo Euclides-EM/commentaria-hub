@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 23]*
+<!-- Folio: 23 -->
 
 illud aut inter duos angulos æquales, aut uni eorum oppositum, erunt quoque duo unius reliqua latera duobus reliquis alterius trianguli lateribus, unumquodq̃ se respicienti æqualia, angulusq̃ reliquus unius angulo reliquo alterius æqualis.
 
@@ -20,4 +20,4 @@ THEON ex Zamb. Sint bina triangula α β γ, δ ε ζ: duos angulos, hoc est, α
 
 *[Figure: two triangles side by side, triangle α β γ with point η on side α β and line η γ drawn, and triangle δ ε ζ]*
 
-*[Catchword: Rursus]*
+<!-- Catchword: Rursus -->

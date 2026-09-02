@@ -1,6 +1,6 @@
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
-*[Folio: 526]*
+<!-- Folio: 526 -->
 
 Esto enim cylindri circa basim circuli centrum K, & ab ipso k oculo in K centrum per 1 postulatum connectatur b K, & per K, per 11 primi elementorum ad angulos excitetur rectos c d, & circum k b circulus describatur, per 3 postulatū & cōnectantur b n, n k, b l, l k: iam per ea quæ prædicta sunt l f n, minus est semicirculo, & similiter basi cylindri minus est, & dimidium spectabitur. Sed propius excitetur oculus, sitq̃ q & circū f k, per 3 postulatū circulus describatur cōnectaturq̃ q r, r k, k f, & f q. Igitur qui ab ipso q radij p̃cidētes per q r, & q f, cadunt. q uero ab ipso b scatet, cadūt per b l, b n, maior igitur ambitus n f l, ambitu r f s, uidetur aut minor r f s ipso n f l, maior enim est angulus, q angulo b, per 20 tertij elementorum, quare cylindri minor pars spectabitur. uidetur autem maior aspici.
 
@@ -26,4 +26,4 @@ Esto coni basis circulus cuius centrum sit k, oculus uero sit a & ab ipso a per 
 
 COno circulum basim habente, si a contactibus qui ab oculo in coni basim procidētibus radijs rectæ lineæ deducātur per superficiē
 
-*[Catchword: coni]*
+<!-- Catchword: coni -->

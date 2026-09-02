@@ -1,6 +1,6 @@
-# PERSPECTIVA
+<!-- # PERSPECTIVA -->
 
-*[Folio: 529]*
+<!-- Folio: 529 -->
 
 Esto circulus cuius centrum sit a, oculus uero sit b, à quo in circulum perpēdicularis acta ab nō cadat in a, sed exterius, sitq̃ b c, connectaturq̃ per primum postulatū ex c in a, ipsi c a, insuper ab a in b, ipsa a b per idem postulatū. Dico quod omnium per a actarū rectarum linearū, ad ipsamq̃ b a angulos efficientium minimus est qui sub c a b, excitetur enim recta linea d a, & ab ipso c per xi. xi. ele. in d e perpendicularis agatur ipsi plano c f, cōnectaturq̃ d e per primum postulatum: igitur ipsa b f, super d e perpēdicularis est. Quoniam igitur angulus c f a rectus est, igitur sub a c f, igitur minor est recto, maius igitur est per 19 primi element. latus a c, latere a f. Igitur b a, ad ipsam a f, maiorem habet rationem, quàm ad a c, sed angulus a c b, & qui sub b a recti sunt, & c a, & a f sunt inæquales, & reliquus igitur qui sub f a b, eo qui sub c a b maior est, similiter autem ostendetur q̃ & omnium per a, actarū rectarū linearū ad ipsam a b, rectam lineam angulum efficientium minimus est qui sub c a b.
 
@@ -22,4 +22,4 @@ Esto bina triangula b c a, & b f a, rectos habētia eos qui ad c f, angulos, & b
 
 *[Figure: triangle with the right-hand vertex a; from a lines run to d and c at the left; f on the base]*
 
-*[Signature: X]* *[Catchword: e, & c d,]*
+<!-- Signature: X --> <!-- Catchword: e, & c d, -->

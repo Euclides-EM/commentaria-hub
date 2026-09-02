@@ -1,4 +1,6 @@
-# LIBER DECIMVS *[Folio: 261]*
+<!-- # LIBER DECIMVS -->
+
+<!-- Folio: 261 -->
 
 Subsequentes ex Campano propositiones 17 scilicet & 18 respondent 29 & 30 ex Zamberto infra suo loco & ordine dispositis.
 
@@ -16,4 +18,4 @@ CAMPANI annotatio Si autem lineæ plures duabus potentia tantum rationales commu
 
 *[Figure: semicircle on base a b crossed by several chords drawn from a and from b, with tick marks on the base and chords; labels: r at the left edge of the arc, n and K on the upper arc, c at the upper right of the arc, a at the lower left, b at the lower right. Below, four dotted lines, each with the letter d centered above it, divided respectively at the letters e / f, g / h, l / m, and p / q]*
 
-*[Catchword: pro]*
+<!-- Catchword: pro -->

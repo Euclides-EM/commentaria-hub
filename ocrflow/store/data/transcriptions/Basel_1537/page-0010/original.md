@@ -1,4 +1,4 @@
-*[Ornamental headpiece border]* *[Folio: 1]*
+*[Ornamental headpiece border]* <!-- Folio: 1 -->
 
 # EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI, MATHEMATICORVM facile principis: primum ex Campano, deinde ex Theone græco commentatore, interprete Bartholomæo Zamberto Veneto, Geometricorum elementorum liber primus.
 
@@ -16,4 +16,5 @@ PVnctus est, cuius pars non est. 2 Linea, est longitudo sine latitudine. 3 Cuius
 
 13 Terminus, est quod uniuscuiusq̃ finis est. 14 Figura, est quæ termino uel terminis continetur. 15 Circulus, est figura plana una quidem linea contenta quæ circūferentia nominatur, in cuius medio punctus est, à quo omnes lineæ rectæ & ad circunferentiam exeuntes, sibi inuicem
 
-*[Signature: a]* *[Catchword: sunt]*
+<!-- Signature: a -->
+<!-- Catchword: sunt -->

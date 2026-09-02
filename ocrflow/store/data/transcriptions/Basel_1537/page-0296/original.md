@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 285]*
+<!-- Folio: 285 -->
 
 signum non diuiditur Si enim possibile, diuidatur in δ, ut ipsæ α δ, δ β, potentia sint incommensurabiles, efficientes quidem compositum ex quadratis quæ ex α δ, δ β, rationale, quodq̃ sub ipsis medium (per 39 decimi. Et quoniam quo differunt quæ ex α γ, γ β, eis quæ ex α δ, δ β, hoc differt & quod bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, sed quæ ex α γ, γ β, ea quæ ex α δ, δ β, excedunt rationali (rationalia enim utraque) & quod bis sub α δ, δ β igitur id quod bis sub α γ, γ β, excedit rationali, media existentia. quod est impossibile. Maior igitur, ad aliud & aliud signum non diuiditur, per idem igitur unũ tantum signum, quod demonstrare oportebat.
 
@@ -42,4 +42,4 @@ THEON ex Zamb. Sit bina potens media α β diuisa in γ, ut ipsæ α γ, γ β, 
 
 *[Figure: horizontal line with points α, δ, γ, β; below, a rectangle divided by two vertical lines into three cells, with points ε, μ, θ, ν along the top and ζ, λ, η, κ along the bottom; tick marks on the left side ε ζ]*
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

@@ -1,6 +1,6 @@
-# LIBER QVINTVS.
+<!-- # LIBER QVINTVS. -->
 
-*[Folio: 115]*
+<!-- Folio: 115 -->
 
 *Quoniā enim æque multiplex est a β, ipsius ε, & γ δ, ipsius ζ, quotcūq̃ igitur magnitudines sunt in a β, æquales ipsi ε, totidē & in γ δ, sunt æquales ipsi ζ. Dirimatur quidē a β, in magnitudines æquales ipsi ε, hoc est a η, & η β, & γ δ, ipsi ζ, æquales magnitudines, hoc est γ θ, & θ δ. Erit nimirū multitudo ipsarum γ θ, & θ δ, multitudini ipsarum a η, & η β, æqualis. Et quoniam æqualis est a η, ipsi ε, & γ θ, ipsi ζ, ipsis a η, & γ θ, ipsis ε, ζ sunt æquales, & per hoc quoniam æqualis est η β, ipsi ε, & θ δ, ipsi ζ, sunt æquales ipsis ε, ζ. Quotcunque igitur sunt in a β, æquales ipsi ε, tot & in ipsis a β, γ δ, sunt æquales ipsis ε, ζ, quotuplex igitur est a β, ipsius ε, totuplices sunt a β, & γ δ, ipsarū ε, ζ. Si fuerint igitur quotcunque magnitudines quotcunque magnitudinum æqualiū numero singulæ singularum æque multiplices, quotuplex est una magnitudo unius, totuplices erunt & omnes omnium, quod demonstrasse oportuit.*
 
@@ -8,7 +8,7 @@
 
 ## Eucli. ex Camp. — Propositio 2
 
-## 2 SI fuerint sex quantitates quarum prima ad secūdam atque tertia ad quartam æque multiplices, quinta uero ad secundam atque sexta ad quartam æque multiplices, totum primæ & quintæ ad secundam totumque tertiæ & sextæ ad quartam æque multiplicia esse conueniet.
+2 SI fuerint sex quantitates quarum prima ad secūdam atque tertia ad quartam æque multiplices, quinta uero ad secundam atque sexta ad quartam æque multiplices, totum primæ & quintæ ad secundam totumque tertiæ & sextæ ad quartam æque multiplicia esse conueniet.
 
 *[Woodcut initial S]*
 
@@ -26,10 +26,10 @@ THEON ex Zamb. *Prima enim a β, secundæ γ, æque multiplex esto, & tertia δ 
 
 ## Eucli. ex Camp. — Propositio 3
 
-## 3 SI fuerint primum secundi & tertiū quarti æque multiplicia, ad primum uero & tertium multiplices sumantur æquales, erunt multiplex primi ad secundum, atque multiplex tertij ad quartum æque multiplicia.
+3 SI fuerint primum secundi & tertiū quarti æque multiplicia, ad primum uero & tertium multiplices sumantur æquales, erunt multiplex primi ad secundum, atque multiplex tertij ad quartum æque multiplicia.
 
 *[Woodcut initial S]*
 
 CAMP. Sit sex quātitates, a pria, b scđa, c tertia, d quarta, e quīta, f sexta, sintq̃ a ad b & c ad d, itēq̃ e ad a & f ad c, æque multiplices. Dico q̃ sicut e est multiplex ad b, ita f ad d
 
-*[Signature: k 4]* *[Catchword: Diui]*
+<!-- Signature: k 4 --> <!-- Catchword: Diui -->

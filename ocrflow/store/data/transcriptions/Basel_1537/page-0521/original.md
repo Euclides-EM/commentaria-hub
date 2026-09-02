@@ -1,6 +1,6 @@
-*[Folio: 510]*
+<!-- Folio: 510 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 xo cin d, & ab ipso d in e, & ab ipso e in a: manifestum igitur est quod conuexis aut cauis existentibus omnibus & mixtis illud idem uideri potest.
 
@@ -36,4 +36,4 @@ Sit planum speculum a c, oculus autem b, uisus uero sint b a, b c, refracti in d
 
 *[Figure: two lines crossing; points e at top left, d at upper right, f between them, b at lower right, a at lower left]*
 
-*[Catchword: paret]*
+<!-- Catchword: paret -->

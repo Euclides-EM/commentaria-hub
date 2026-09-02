@@ -1,6 +1,6 @@
-# SPECVLARIA
+<!-- # SPECVLARIA -->
 
-*[Folio: 507]*
+<!-- Folio: 507 -->
 
 torū angulus r, ipso p maior est quia exterior est. Et angulus p ipsi o, angulū est æqualis. Igitur angulus r, ipso angulo o maior est, cōmunis apponatur qui sub o r f, igitur ipsæ c f a g, cōcurrunt sicut ad g f. Idem quoque erit & si maior sit uisus a h, ipso c k, maiores enim erunt ipsi l m anguli ipsis n x, & angulus p angulo o maior o: & r ipso o. Si uero a h recta linea minor fuerit ipsa c k, id propterea maior erit angulus l ipso r & angulus o angulo p: est autem & angulus r ipso p maior. Nihil enim prohibet angulum r ipsi o esse æqualem uel ipso o minorem, & nō concurrere a g ipsi f. Manifestum est autem quod & maior fuerit a h, circūferētia ipsa c k. Sitque æqualis coincidentia refractionum, neque in circuli circūferentia, neque extra utique fiet, sed intus tantum.
 
@@ -44,4 +44,4 @@ Sit oculus b longitudo autem obliqua sit d e, speculum uero sit a c, igitur refr
 
 OBliquæ longitudines à conuexis speculis sicut sunt uere, sic spectantur.
 
-*[Signature: V 2]* *[Catchword: Sit lon]*
+<!-- Signature: V 2 --> <!-- Catchword: Sit lon -->

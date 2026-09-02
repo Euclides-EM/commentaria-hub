@@ -1,6 +1,6 @@
-# LIBER QVARTVS
+<!-- # LIBER QVARTVS -->
 
-*[Folio: 89]*
+<!-- Folio: 89 -->
 
 quæ concurrent in puncto d, a quo ducam perpendiculares ad tria latera ipsius trianguli d e. quidem, ad a b, & d f, ad b c, & d g, ad a c. Et quia duorum triangulorum e a d, & g a d, angulus a unius, est æqualis angulo a alterius, & uterq́; angulorū e & g, rectus, & latus a d, cōmune, erit per 26 primi, linea d e æqualis lineæ d g. Eadem ratione cū duorū triangulorū e b d, & f b d, angulus b, unius, sit æqualis angulo b alterius, & uterque angulorū e & f, rectus, latus quoq́; d b cōmune, erit per eandē, linea e d æqualis lineæ d f. quare tres lineæ d e, d f, d g, sunt æquales. Posito ergo cētro in d, descriptus circulus secūdū quātitatem unius earū trāsibit per 9 tertij per reliquarū duarū extremitates. Et quia per correlarium 15 tertij, unaquæq́; linearum a b, b c, c a, erit contingens circulum: patet perfectum esse propositum.
 
@@ -26,4 +26,4 @@ CAMPANVS. Sit trigonus assignatus a b c. Volo circa ipsum describere circulum. H
 
 *[Figure: two circles, each circumscribed about a triangle; in the first, triangle a b c with midpoints d, e of the sides and the perpendiculars meeting at f within; in the second, the like construction with the point f on the base]*
 
-*[Signature: h 3]* *[Catchword: co]*
+<!-- Signature: h 3 --> <!-- Catchword: co -->

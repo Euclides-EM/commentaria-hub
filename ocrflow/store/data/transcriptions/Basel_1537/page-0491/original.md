@@ -1,12 +1,12 @@
-# 480 GEOMET. ELEMENT. EVCLIDIS
+<!-- GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 480]*
+<!-- Folio: 480 -->
 
 μ ζ, μ ο, ipsi θ ζ est æqualis, æqualis igitur & γ ε ipsi λ μ, ipsi ν η, & ν μ ipsi θ, qui autem sub θ μ ν, & θ ο *[a few Greek point-letters illegible]*, ex quo manifestum est, quod η θ æqualis est ipsi κ ε. Et id propterea iam & reliqua. Quoniam igitur η θ κ λ parallelogrammum est in uno est plano. Et quoniam dimidium est uterque ipsorū qui sub μ κ θ, κ ν ε, reliquus igitur qui sub θ κ ν, rectus est. Similiter & reliqui. Quadratum igitur est η θ κ λ. Possibile autem est quæ in principio assūpta η, θ, κ, λ, centra & parallelos cōficientia μ ν, γ ξ, ζ ο, ω μ, cōnectere ipsas ζ θ, λ κ, ν κ, & dicere ipsum η θ κ λ quadratum. Si uero assūmamus & reliquorum triangulorum centra connectamusq̃ eadem, ostendemus reliqua quadrata, habebimusq̃ in dato octahedro cubum descriptum, quod agendum fuerat.
 
 *[Figure: the octahedron drawn as a wide lozenge with the inscribed cube shown as an inner square; points labeled α, β, γ, δ, ε, ζ, η, θ, κ, λ, μ, ν]*
 
-Eucli. ex Zamb. — Theorema 5. — Propositio 5
+## Eucli. ex Zamb. — Theorema 5. — Propositio 5
 
 ## 5 In dato icosahedro dodecahedrum inscribere.
 
@@ -20,4 +20,4 @@ Nos uero scire oportet, quod si quis nos interroget quot latera habet icosahedru
 
 *[Margin: περιφέρειαι τῶν … (Greek partly illegible), id est comprehendēt cū quæsita inclinatio in duobus rectis deficit]* Quod quidem in cubo per rectū angulum dissecant ipsum comprehendentia plana adinuicem manifestum. In pyramide uero expolito uno triangulo, centris terminis unius lateris, spacio uero à uertice in basin perpendiculari acta, ambitiones descriptæ inuicem se secent, & ab ipsa sectione ad centra connexæ rectæ lineæ comprehendent inclinationem planorum pyramidem comprehendentium. In octahedro uero à latere trianguli descripto quadrato, centris terminis diagonij, interuallo autem itidem trianguli perpendiculari, describantur circunferentiæ, & rursus ab ipsa sectione ad centra connexæ rectæ lineæ comprehendent desinentem in binas rectas quæsitæ inclinationis. In icosahedro porro, à latere trianguli descripto pentagono connectatur sub binis lateribus subtensa recta linea, & centris terminis eiusdem, interuallo autem ipsius trianguli perpendiculari descriptis, circunferentiis, quæ ex communi se
 
-*[Catchword: ctione]*
+<!-- Catchword: ctione -->

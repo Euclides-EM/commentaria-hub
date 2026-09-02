@@ -1,10 +1,10 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 233]*
+<!-- Folio: 233 -->
 
 Et qui ex δ ε, ε ζ, igitur una cum ijs qui bis sub δ ε, ε ζ, ad eum qui sub δ ε, ε ζ, primi sunt. Diuidendo quoq̃, qui ex δ ε, ε ζ, una cum eo qui sub δ ε, ε ζ, primi sunt ad eum qui sub δ ε, ε ζ. Insuper diuidendo, qui ex δ ε, δ ζ, ad eum qui sub δ ε, ε ζ, primi sunt. Est autem qui ex δ ε, ipse α, qui ex ε ζ, ipse γ, qui uero sub δ ε, ε ζ, ipse β. Ipsi ergo α, γ, compositi, ad β primi sunt, quod ostendere oportuit.
 
-Eucli. ex Camp. Propositio 17
+## Eucli. ex Camp. Propositio 17
 
 **17** SI fuerint duo numeri contra se primi, quantus est primus eorum ad secundum, tantum esse secundum ad tertium quemquam impossibile est.
 
@@ -14,7 +14,7 @@ CAMPANVS. Sint a & b contra se primi, dico impossibile esse, aliquem eis in cont
 
 *[Figure: solid line c; dotted lines b, a]*
 
-Eucli. ex Zamb. Theorema 16 Propositio 16
+## Eucli. ex Zamb. Theorema 16 Propositio 16
 
 **16** Si bini numeri primi adinuicem fuerint, non erit sicut primus ad secundum, sic secundus ad aliquem alium.
 
@@ -22,7 +22,7 @@ THEON ex Zamber. Bini enim numeri α,β, primi sint adinuicem. Dico quod non est
 
 *[Figure: solid line γ; dotted lines β, α]*
 
-Eucli. ex Camp. Propositio 18
+## Eucli. ex Camp. Propositio 18
 
 **18** SI quotlibet numerorū continue proportionalium duo extremi fuerint contra se primi, quantus est primus ad secundum, tantum esse ultimum ad aliquem alium est impossibile.
 
@@ -32,7 +32,7 @@ CAMPANVS. Sint a, b, c, continue proportionales, sintq̃ a & c contra se primi: 
 
 *[Figure: solid line d; dotted lines c, b, a]*
 
-Eucli. ex Zamb. Theorema 17 Propositio 17
+## Eucli. ex Zamb. Theorema 17 Propositio 17
 
 **17** Si fuerint quotcunq̃ numeri continue proportionales, ipsorum autem extremi primi adinuicem fuerint, non erit sicut primus ad secundum, sic ultimus ad aliquem alium.
 
@@ -40,6 +40,6 @@ THEON ex Zamber. Sint quotcunq̃ numeri continue proportionales, α, β, γ, δ,
 
 *[Figure: solid line ε; dotted lines δ, γ, β, α]*
 
-*[Signature: u 3]*
+<!-- Signature: u 3 -->
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

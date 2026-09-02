@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 408]*
+<!-- Folio: 408 -->
 
 ## Eucli. ex Camp. Propositio 11
 
@@ -18,4 +18,4 @@ Si superficies quædam rotundam columnam æquidistanter basi eius secuerit, erun
 
 Simile est hoc, ei quod proposuit 25 undecimi libri de solidis parallelogrammis. Nec solum uerū est hoc de columnis rotundis, immo simpliciter de omnibus columnis siue lateratæ fuerint siue rotundæ. Quod qui argumentationē primæ sexti uel 25 undecimi firmiter tenuerit, facile demonstrare poterit: hic enim non aliter quàm ibi ex diffini
 
-*[Catchword: tione]*
+<!-- Catchword: tione -->

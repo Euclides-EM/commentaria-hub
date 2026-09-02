@@ -1,8 +1,8 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 240]*
+<!-- Folio: 240 -->
 
-Eucli. ex Zamb. Theorema 32 Propositio 32
+## Eucli. ex Zamb. Theorema 32 Propositio 32
 
 **32** A binario duplorum unusquisq̃, pariter par est tantum.
 
@@ -10,7 +10,7 @@ THEON ex Zamberto. A binario enim α, duplicentur quotcunq̃ numeri β,γ,δ. Di
 
 *[Figure: dotted lines labelled δ, γ, β, α, with a single dot labelled unitas]*
 
-Eucli. ex Camp. Propositio 36
+## Eucli. ex Camp. Propositio 36
 
 **36** NVmerus cuius medietas est impar, est pariter impar.
 
@@ -20,7 +20,7 @@ CAMPANVS. Sit a numerus, cuius medietas quæ sit b, sit impar. Dico a, esse pari
 
 *[Figure: dotted lines labelled a, b, c; at right, shorter dotted lines labelled b and d]*
 
-Eucli. ex Zamb. Theorema 33 Propositio 33
+## Eucli. ex Zamb. Theorema 33 Propositio 33
 
 **33** Si numerus dimidium imparem habuerit, pariter impar est tantum.
 
@@ -28,7 +28,7 @@ THEON ex Zamberto. Numerus enim α, dimidium habeat imparem. Dico quod α parite
 
 *[Figure: dotted line labelled α]*
 
-Eucli. ex Camp. Propositio 37
+## Eucli. ex Camp. Propositio 37
 
 **37** OMnis numerus à duobus non duplus, cuius medietas est par, est pariter par & impariter.
 
@@ -38,7 +38,7 @@ CAMPANVS. Sit numerus a, non duplus a duobus, cuius medietas quæ sit b, ponatur
 
 *[Figure: dotted lines labelled a, b, c; at right, shorter dotted lines labelled d and e]*
 
-Eucli. ex Zamb. Theorema 34 Propositio 34
+## Eucli. ex Zamb. Theorema 34 Propositio 34
 
 **34** Si numerus neq̃ à binario fuerit duplus, neq̃ dimidium imparem habuerit, pariter par est & pariter impar,
 

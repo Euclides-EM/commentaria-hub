@@ -1,6 +1,6 @@
-# 128 GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 128]*
+<!-- Folio: 128 -->
 
 d f. tertia erit per 14 e h secunda, maior e f, quarta, quod quia est impossibile, sequitur propositum.
 
@@ -38,4 +38,4 @@ THEON ex Zãb. Esto sicut totũ α β, ad totũ γ δ, sic ablatũ α ε, ad abl
 
 *[Figure: two vertical bars with tick marks: one marked α at top with point ε and β at bottom; the other marked γ at top with point ζ and δ at bottom]*
 
-*[Catchword: tendo.]*
+<!-- Catchword: tendo. -->

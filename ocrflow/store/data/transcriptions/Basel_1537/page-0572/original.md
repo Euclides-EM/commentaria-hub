@@ -1,6 +1,6 @@
-# DATA
+<!-- # DATA -->
 
-*[Folio: 559]*
+<!-- Folio: 559 -->
 
 nem datorum. Rursus centro quidem f interuallo uero f g, per idem postulatum circulus describatur g k l, positione igitur est ipse g k l circulus per eādem diffinitionem, positione autem & circulus d k h. Datum igitur est & k, signum est autem & utrunque ipsorum e f datum. Data igitur est unaquæq̃ ipsarū k e, e f, f k positione & magnitudine. Datur igitur k e f triangulum specie, & æquum ac simile est ipsi a b c. Datur igitur a b c triāgulum specie.
 
@@ -32,6 +32,6 @@ Habeat enim triangulum a b c, unum angulum datū cū qui sub b a c, circum ucro 
 
 *[Figure: two triangles side by side, apexes f and e, on a base line with labels d, c, b]*
 
-*[Signature: Bb 4]*
+<!-- Signature: Bb 4 -->
 
-*[Catchword: magni]*
+<!-- Catchword: magni -->

@@ -1,6 +1,6 @@
-# DATA 581
+<!-- # DATA -->
 
-*[Folio: 581]*
+<!-- Folio: 581 -->
 
 sic b ad quam a rationem habet datam. Nam quoniã est sicut a ad b, sic c ad e. Quod igitur sub a e, ei est æquum quod sub b c, per 16 sexti ele. Et quoniã ratio ipsius e ad d, data est. Ratio igitur ipsius quod sub a d ad id quod sub a e data est. Quod autem sub a e, ei est æquum quod sub b c. Ratio igitur eius quod sub a d ad id quod sub b c data est, igitur sicut d ad c sic b ad quam a rationem habet datam.
 
@@ -28,4 +28,4 @@ Binæ, inquã, rectæ lineæ a b, b c datam areã cõprehendant a c, in dato ang
 
 *[Figure: a rectangle with corner label c at upper right and base labels a, d, b]*
 
-*[Signature: Cc 3]* *[Catchword: tur]*
+<!-- Signature: Cc 3 --> <!-- Catchword: tur -->

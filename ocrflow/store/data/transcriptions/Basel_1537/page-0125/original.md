@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 116]*
+<!-- Folio: 116 -->
 
 Diuidatur enim e secundū quantitatē a sui multiplicis, & f secundum quantitatem c, eritq̃ propter æqualitatem partium e ad a, partiū f ad c, ut quælibet partium e sit ita multiplex ad b, sicut quælibet partium f ad d. Quia ergo sicut prima pars e est multiplex ad b ita prima pars f est multiplex ad d, itemque sicut secunda pars e est multiplex ad b, ita secunda f ad d, ergo erit per præmissam ut aggregatum ex duabus primis partibus e sit ita multiplex ad b, sicut aggregatum ex duabus primis partibus f ad d. Et quia rursus tertia pars e (si sit aliqua tertia pars) est ita multiplex ad b sicut tertia f ad d per eandem ut totū aggregatū ex tribus primis partibus e sit ita multiplex ad b, sicut totum aggregatum ex tribus primis partibus f ad d. Sicq̃ si plures fuerint partes e & f componendo semper sequentem cum aggregato ex prioribus, concludes quod sicut e est multiplex ad b ita f ad d per præmissam totiens sumptā quot fuerint partes in e aut in f, minus una, sicq̃ patet propositum.
 
@@ -16,7 +16,7 @@ THEON ex Zamb. *Primum enim a secūdi β, æque sit multiplex, & tertiū γ, ips
 
 ## Eucli. ex Camp. — Propositio 4
 
-## 4 SI fuerit proportio primi ad secundum sicut tertij ad quartum, ad primum autem & tertium æque multiplicia assignētur itemque ad secundum & quartum multiplices æquales, erunt assignatæ multiplices eodem ordine proportionales.
+4 SI fuerit proportio primi ad secundum sicut tertij ad quartum, ad primum autem & tertium æque multiplicia assignētur itemque ad secundum & quartum multiplices æquales, erunt assignatæ multiplices eodem ordine proportionales.
 
 *[Woodcut initial S]*
 
@@ -26,4 +26,4 @@ CAMPANVS. Sit proportio a primi ad b secundū, sicut c tertij ad d quartū, suma
 
 ## Eucli. ex Zamb. — Theorema 4 — Propositio 4
 
-*[Catchword: Si]*
+<!-- Catchword: Si -->

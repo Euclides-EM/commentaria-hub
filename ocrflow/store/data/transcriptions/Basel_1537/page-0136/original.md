@@ -2,7 +2,7 @@
 
 *[Foldout leaf, printed on recto only; signature mark G above the title]*
 
-*[Signature: G]*
+<!-- Signature: G -->
 
 | Paralleli | Climatum appellationes | | Longitudo diei Æstiui — Ho: | S. | Latitudo Climatum — Gr: | Scr: | Interuallum — Gr: | Scr: |
 |---|---|---|---|---|---|---|---|---|

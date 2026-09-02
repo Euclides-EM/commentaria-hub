@@ -1,6 +1,6 @@
-# LIBER SECVNDVS.
+<!-- # LIBER SECVNDVS. -->
 
-*[Folio: 45]*
+<!-- Folio: 45 -->
 
 Sed α μ est id quod fit sub α δ & δ β, æqualis enim est δ μ ipsi δ β: & gnomon igitur ν ξ ο, æqualis est rectangulo comprehenso sub α δ & δ β. Commune apponatur λ η, quod æquū est quadrato quod fit ex γ β. Rectangulū igitur comprehensum sub α δ & δ β, una cum eo quod ex β γ quadrato, æquum est ipsi ν ξ ο gnomoni, & ipsi λ η, sed gnomon ν ξ ο & λ η, totum sunt γ ε ζ δ quadratū, quod fit ex γ δ. Rectangulū igitur comprehensum sub α δ & δ β, una cum quadrato quod ex β γ, æquū est quadrato quod ex γ δ. Si recta igitur linea & quæ sequūtur reliqua. Quod ostendere oportuit.
 
@@ -30,4 +30,4 @@ CAMPANVS. Sit a b diuisa in puncto c, qualitercūq́ꝫ contingat, cui addatur b
 
 *[Figure: square with corners e (top left), f (top right), a (bottom left), b and d on the bottom row a c b d; verticals c g and b h (g and h on top side e g h f); two horizontals i k q p and o n l m; diagonal from e to the bottom right corner d]*
 
-*[Catchword: Euclidis]*
+<!-- Catchword: Euclidis -->

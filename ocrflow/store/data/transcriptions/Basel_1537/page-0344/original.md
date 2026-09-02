@@ -1,10 +1,12 @@
-# LIBER DECIMVS *[Folio: 333]*
+<!-- # LIBER DECIMVS -->
+
+<!-- Folio: 333 -->
 
 IDEM aliter Si linea b communicat cum linea a (quæ est utrūlibet residuum mediale) in longitudine uel in potentia, sit superficies c e adiūcta ad lineā rationalē c d. æqualis quadrato a, & f g æqualis quadrato b, erūtq̃ ob hoc c e & f g communicantes, quemadmodū & quadrata linearum a & b eis æqualia, ideoq̃ per primam sexti & 10 huius, d e & e g sunt communicantes in longitudine. Et quia si a est residuum mediale primum linea d e est residuum secundum per 93, & si a est residuum mediale secundum linea d e est residuum tertium per 94, at cum d e est residuum secūdum, linea e g est etiā residuum secundū, & cum illa tertium similiter, & hæc est tertium per 98, sequitur itaque ex 87 & 88 ut b sit residuum mediale primum aut secūdum, prout fuerit a. Et sic patet quod intendimus.
 
 *[Figure: two short horizontal segments labelled a and b, one above the other; below them a rectangle on base c d (c bottom-left, d bottom-right), divided by a horizontal line f–e (f on the left side, e on the right side), with g at the top right]*
 
-Eucli.ex Zamb. — Theorema 80 — Propositio 104
+## Eucli.ex Zamb. — Theorema 80 — Propositio 104
 
 *[Margin: 104]*
 
@@ -14,7 +16,7 @@ THEON ex Zāb. Sit mediæ apotomæ α β, & ipsi α β commensurabilis esto γ �
 
 *[Figure: two horizontal lines, one above the other: the upper labelled α at the left end, β at the division point, ε at the right end; the lower labelled γ at the left end, δ at the division point, ζ at the right end]*
 
-Eucli.ex Camp. — Propositio 100
+## Eucli.ex Camp. — Propositio 100
 
 *[Margin: 100]*
 
@@ -34,4 +36,4 @@ Eucl.ex Zāb. — Theorema 81 — Propositio 105
 
 THEON ex Zāb. Sit minor α β, & ipsi α β, cōmensurabilis esto γ δ, Dico quod γ δ, minor est. Fiant inquā sit prædicta, Et quoniam ipsæ α ε, ε β. potentia sunt incōmensurabiles, & ipsæ γ ζ, ζ δ, potentia sunt incōmensurabi
 
-*[Catchword: les]*
+<!-- Catchword: les -->

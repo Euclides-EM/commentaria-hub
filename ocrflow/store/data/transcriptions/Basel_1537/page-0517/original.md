@@ -1,6 +1,6 @@
-*[Folio: 506]*
+<!-- Folio: 506 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 Sit planum speculū a c, oculus sit b, uisus uero refracti sunt. b c d. b a e. Dico quod c d, & a e, neque paralleli sunt, neque cōcurrunt in d e. Nam quoniam angulus f æqualis est angulo h & k ipsi m, maior autem est per 16 primi elemē. f ipso k, quoniam est extra ipsum triangulum b k c. maior autem fuerit h quàm m. Igitur c d ipsi a e, parallelus non est, neque in d e, cōcurrunt.
 
@@ -32,4 +32,4 @@ IN cauis speculis, si ad medium centri & circunferentiæ positus fuerit oculus, 
 
 Sit speculum cauum a c, centrum autem sit d, oculus uero ponitur b, intra centri medium & circunferentiæ, uisus autem b a, b c, refringantur in g f, extendanturque uisus usque ad speculum a h, c k. Ipsa a h, iam ipsa c k, aut maior est, aut ei æqualis, aut ea minor. Siquidē uisus, a h æqualis est ipsi c k, æqualis est & a c h, circūferentia c h k, circunferentiæ. Quare & m angulus ipsi x angulo, æqualium circunferētiarum anguli in uicem sunt æquales per 27 tertij elementorum, & anguli m l igitur ipsis n x, sunt æquales per refractionem per primum theorema. & reliquus igitur angulus o angulo p est æqualis: maior igitur est angulus r ipso angulo o. Quoniam enim per 16 primi elemen
 
-*[Catchword: torum]*
+<!-- Catchword: torum -->

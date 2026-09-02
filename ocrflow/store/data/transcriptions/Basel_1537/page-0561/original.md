@@ -1,6 +1,6 @@
-# EVCLDIS MEGARENSIS *[sic: for EVCLIDIS]*
+<!-- # EVCLDIS MEGARENSIS *[sic: for EVCLIDIS]* -->
 
-*[Folio: 548]*
+<!-- Folio: 548 -->
 
 igitur reliquæ e c ad c b data est. Quare & econtra ipsius b c, ad e c, ratio data est, & conuertendo per correlarium 18 quinti elementorum ipsius b c ad b e, ratio data est, & est e b, cum ipsa b a, data. Tota enim a e, data est. Igitur b a, cum consequenti ad quam b, rationem datam habet, data est.
 
@@ -26,4 +26,4 @@ SI fuerint tres magnitudines, & prima cum secunda data fuerit, fuerit autem & se
 
 Sint tres magnitudines a b, b c, c d, & a b cum b c, data sit ut a c, At b cum c d, data sit ut
 
-*[Catchword: d b]*
+<!-- Catchword: d b -->

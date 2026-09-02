@@ -1,6 +1,6 @@
-*[Folio: 560]*
+<!-- Folio: 560 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 magnitudine datur igitur d f e triangulum specie. Et quoniam bina triangula a b c,d e f unum angulum uni angulo æquum habent eum scilicet qui sub b a c,ei qui sub d f e,ea uero quæ circum eos qui sub b a c,d f e,angulos latera proportionalia,simile igitur est & æquale per primam diffinitionem & 6 propositionem sexti elementorum triangulũ a b c ipsi d e f triangulo. Datur autem d f e,specie,datur igitur & a b c triangulum specie
 
@@ -20,4 +20,4 @@ Trianguli enim rectanguli a b c,rectum habentis eum qui sub b a c,angulum,circa 
 
 *[Figure: a large circle with points g, b, e, k, d marked; a semicircle described on e d with vertex g joined to e and d; a short line labelled f below at left; beside it a small triangle with vertices a, c, b]*
 
-*[Catchword: lo]*
+<!-- Catchword: lo -->

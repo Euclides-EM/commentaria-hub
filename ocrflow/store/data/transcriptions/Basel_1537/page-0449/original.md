@@ -1,6 +1,6 @@
-# 438 GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 438]*
+<!-- Folio: 438 -->
 
 (per 12 undecimi) ab ipso signo ipsius ε ζ η circuli plano ad angulos rectos recta θ κ, & ponatur ipsa θ κ ipsi α γ rectæ lineæ æqualis, & cōnectātur κ ε, κ ζ, κ η. Et quoniā κ θ recta est ad ipsius ε ζ η circuli planū, & ad omnes igitur ipsam tangētes rectas lineas, & in eodem ipsius ε ζ η circuli plano existentes rectos efficit angulos (per 2 undecimi diffinitionē.) Tangit autem ipsam unaquæq; ipsarū θ ε, θ ζ, θ η. Igitur θ κ, ad unāquanq; ipsarū θ ε, θ ζ, θ η, recta est. Et quoniā æqualis est α γ ipsi θ κ & γ δ ipsi θ ε, & rectos cōprehendūt āgulos, basis igitur δ α (per 4 primi) basi κ ε est æqualis, & id propterea & utraq; ipsarū θ ζ *[sic: θ ζ, for κ ζ]*, κ η, ipsi δ α est æqualis. Tres igitur κ ε, κ ζ, κ η, inuicē sunt æquales. Et quoniā dupla est α γ ipsius γ β, tripla igitur est α β ipsius β γ. Sicut autē α β ad β γ, sic quod ex α δ ad id qd' ex δ γ sicut ostendetur. Quoniā enim est sicut β α ad α γ, sic quod ex δ α ad id quod ex α γ, cōuertendo (per correlariū 19 quinti) sicut α β ad β γ, sic quod ex ex *[sic: ex ex]* α δ ad id qd' ex α γ. Sicut demonstrabitur. Triplū igitur est quod ex α δ, eius quod ex δ γ. Est autē & quod ex ζ ε, eius quod ex ε θ triplū, & æqualis est δ γ ipsi ε θ, æqualis igitur est δ α ipsi ε ζ. Sed δ α unicuiq; ipsarū κ ε, κ ζ, κ η ostensa est æqualis. Vnaquæq; igitur ipsarū ε ζ, ζ η, η ε, unicuiq; ipsarū κ ε, κ ζ, κ η, est æqualis: æquilatera igitur sunt ipsa quatuor triangula, hoc est ε ζ η, κ ε ζ, κ ζ η, κ η θ *[sic: κ η θ, for κ η ε]*. Pyramis igitur cōstructa est ex quatuor triangulis æqualibus & æquilateris, cuius basis est ε ζ η triangulū, fastigium uero est signū κ. Oportet iam ipsam data sphæra cōprehendere, ostendereq́; ꝙ ipsius sphæræ diameter potentia lateris ipsius pyramidis sesqualtera est. Extendatur enim in rectas lineas ipsi κ θ, recta linea θ λ, & ipsi β γ æqualis ponatur θ λ. Et quoniam est sicut α γ ad γ δ, sic γ δ ad γ β, æqualis autē est ipsa quidē α γ ipsi κ θ, & γ δ ipsi θ ε, & γ β ipsi θ λ, est igitur sicut κ θ ad θ ε, sic ε θ ad θ λ: quod igitur sub ipsis κ θ, θ λ, æquū est ei quod ex ε θ. Et rectus est uterq; ipsorū κ θ ε, ε θ λ, angulorū. Igitur semicirculus descriptus super κ λ, ueniet & per ε, quoniam si cōnectamus ε λ, rectus fit qui sub λ ε κ angulus, eo q̃a triangulū ε λ κ utriq; ipsorū ε λ θ, ε θ κ, triangulorū æquiangulū fit. Si iam manēte κ λ circūducatur semicirculus, & in idem unde duci incœpit rursus steterit, ueniet & per signa ζ, η, connexis ipsis ζ λ, λ η, & rectis similiter factis ijs qui ad ζ η, angulis, pyramis data sphæra cōprehensa erit, ipsa enim κ λ sphæræ dimetiens, æqualis est ipsi α β datæ sphæræ diametro, quoniam ipsi quidem α γ æqualis ponitur κ θ, ipsi autē γ β ipsa θ λ.
 
@@ -12,7 +12,7 @@ Dico iam ꝙ ipsius sphæræ dimetiēs, lateris ipsius pyramidis potentia sesqua
 
 *[Figure: semicircle α δ β on the line α β with γ on the diameter and δ on the arc; lines δ α, δ γ; below α β the square ε γ described on α γ and the parallelogram ζ β completed on γ β, divided by the vertical through γ; ε at the bottom left corner, ζ at the bottom of the dividing line]*
 
-Eucli. ex Camp. Propositio 14
+## Eucli. ex Camp. Propositio 14
 
 *[Margin: 14 / Zamb. 15]*
 
@@ -24,4 +24,4 @@ CAMPANVS. Assignatæ sphæræ diameter sit a b, sup quā lineetur semicirculus a
 
 *[Figure: semicircle a d b on the diameter a b, with c on the diameter nearer to b; d on the arc above c; perpendicular c d and chords d a, d b drawn]*
 
-*[Catchword: undecimi]*
+<!-- Catchword: undecimi -->

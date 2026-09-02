@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 88]*
+<!-- Folio: 88 -->
 
 *[Margin: 3]*
 
@@ -28,4 +28,4 @@ INtra datum triangulum, circulum describere.
 
 CAMPANVS. Sit assignatus triangulus a b c. Volo intra ipsum, circulum describere. Hæc est quasi conuersa secundæ. Diuido enim duos eius angulos a & b, per æqualia a quidē: ducta linea a d. b. uero ducta linea b d,
 
-*[Catchword: quæ]*
+<!-- Catchword: quæ -->

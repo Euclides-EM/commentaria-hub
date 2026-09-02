@@ -1,6 +1,6 @@
-*[Folio: 211]*
+<!-- # LIBER OCTAVVS -->
 
-# LIBER OCTAVVS
+<!-- Folio: 211 -->
 
 ## Eucli.ex Camp. Propositio 13
 
@@ -52,4 +52,4 @@ SI numerus quadratus quēdam alium quadratū nō numeret, nec latus suū, latus 
 
 *[Decorated woodcut initial S]*
 
-*[Signature: S 4]*
+<!-- Signature: S 4 -->

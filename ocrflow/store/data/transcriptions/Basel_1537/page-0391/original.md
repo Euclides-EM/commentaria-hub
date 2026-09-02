@@ -1,4 +1,4 @@
-*[Folio: 380]*
+<!-- Folio: 380 -->
 
 # GEO. ELEMEN. EVCLIDIS
 
@@ -10,7 +10,7 @@ Non sit iam ε θ basis ipsi ν π basi æqualis,sed esto maior ε θ,maior igit
 
 *[Figure: second oblique parallelepiped; visible point labels include δ, ξ, θ, ν, χ, ψ, ω, γ]*
 
-Eucli.ex Camp. Propositio 37
+## Eucli.ex Camp. Propositio 37
 
 *[Margin: 37]*
 
@@ -18,4 +18,4 @@ Eucli.ex Camp. Propositio 37
 
 CAMPANVS Sint duo anguli plani a & d æquales contēti lineis a b & a c & d e &
 
-*[Catchword: d f &]*
+<!-- Catchword: d f & -->

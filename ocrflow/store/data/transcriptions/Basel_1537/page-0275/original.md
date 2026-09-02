@@ -1,4 +1,6 @@
-# *[Folio: 264]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 264 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ## THEON Lemma,
 
@@ -26,4 +28,4 @@ CAMPANI additio. Similiter quoq̃ omnis superficies communicans superficiei medi
 
 *[Figure: tall rectangle with g at top right, divided by a horizontal line with e at its left and f at its right; bottom corners labeled c (left) and d (right); below, two horizontal segments labeled b and a]*
 
-*[Catchword: cies]*
+<!-- Catchword: cies -->

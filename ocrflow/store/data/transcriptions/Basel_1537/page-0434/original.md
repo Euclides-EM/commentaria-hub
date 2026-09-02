@@ -1,6 +1,6 @@
-# LIBER TERTIVSDECIMVS.
+<!-- # LIBER TERTIVSDECIMVS. -->
 
-*[Folio: 423]*
+<!-- Folio: 423 -->
 
 sit quintuplū quadrati r f. Cōstat enim ex gnomone quadruplo, & r f simplo. Hoc autem est propositum. IDEM aliter. Cum sit linea b c diuisa per æqualia in puncto d, & addita est ei linea a c, erit ex 6 secundi quod fit ex a b in a c, cum quadrato c d interiacētis, æquale quadrato a d. At quia quod fit ex a b in a c est æquale quadrato c b ex prima parte 16 sexti, hoc autē est quadruplū ad quadratū c d, manifeste patet ueritas eius quod dicitur. Potes quoq̃ si libet, duplici modo ex consequente huius suū antecedens concludere processu retrogrado. Sit enim (eadem dispositione manente) quadratū m h quintuplū ad quadratum r f, eritq̃ gnomo r f s, æquale quadrato c l. Vtrūq̃ enim est quadruplū ad quadratum r f. At quia superficies a g est æqualis gnomoni prædicto, necesse est ut superficies eadem sit æqualis quadrato prædicto. Quare ex secunda parte 16 sexti & diffinitione linea a b est diuisa in puncto c secundum proportionem habentem medium & duo extrema, & maior portio eius est linea c d.
 
@@ -26,6 +26,6 @@ CAMPANVS Sit linea a b diuisa qua supponitur proportione in puncto c, & sit eius
 
 *[Figure: horizontal line with points a, c, b, d]*
 
-*[Signature: N 2]*
+<!-- Signature: N 2 -->
 
-*[Catchword: ad]*
+<!-- Catchword: ad -->

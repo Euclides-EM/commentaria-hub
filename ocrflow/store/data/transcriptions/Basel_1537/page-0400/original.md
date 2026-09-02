@@ -1,6 +1,6 @@
-# LIBER DVODECIMVS.
+<!-- # LIBER DVODECIMVS. -->
 
-*[Folio: 389]*
+<!-- Folio: 389 -->
 
 æquū habentia, qui sub β α ε ei qui sub η ζ λ, circa autē æquos angulos latera proportionalia: æquiangulū igitur est (per 1 diffinitionē sexti) α β ε triangulū, ipsi ζ η λ triangulo: æqualis igitur est angulus qui sub α ε β, ei qui sub ζ λ η. Sed qui (per 21 tertij) sub α ε β ei qui sub α μ β est æqualis (in eandem nanq̃ circūferentiam ierunt) qui autē sub ζ λ η ei qui sub ζ ν η, & qui sub α μ β igitur ei qui sub ζ ν η est æqualis. Est autē & rectus qui sub β α μ, ei qui sub η ζ ν recto (per 4 postulatū) æqualis: reliquus igitur, reliquo est æqualis (per 3 cōmunem sententiā.) Aequiangulū igitur est triangulū α μ β, ipsi ζ η ν triangulo. Proportionaliter igitur est sicut β μ ad η ν, sic β α ad η ζ. Sed ipsius quidē β μ ad η ν rationis, dupla est ea quæ ipsius β μ quadrati ad id quod ex η ν quadratū. Ipsius autē β α ad η ζ, dupla est ipsius α β γ δ ε multanguli ratio ad ipsum ζ η θ κ λ multangulū: & sicut igitur (per 11 quinti) quod ex β μ quadratū ad id quod ex η ν quadratū, sic est multangulū α β γ δ ε ad multangulū ζ η θ κ λ. In circulis igitur similia multangula, sese adinuicem habēt sicut quæ ex dimetiētibus quadrata. Quod erat ostendendū.
 
@@ -16,4 +16,4 @@ CAMPANVS. Sint duo circuli a b & c d, quorum diametri quoq̃ dicātur a b & c d.
 
 *[Figure: two rounded oblong surfaces, labelled f and e]*
 
-*[Signature: K 3]* *[Catchword: dratum]*
+<!-- Signature: K 3 --> <!-- Catchword: dratum -->

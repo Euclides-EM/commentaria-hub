@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 32]*
+<!-- Folio: 32 -->
 
 b c & e f æquales, & inter lineas a g & b h æquidistantes, dico eos esse æquales. Protraham enim c k æquidistantem a b, & f l æquidistantem e d, eruntq̃ duæ superficies a b c k & d e f l æquales per 36, & quia dicti trianguli sunt earum dimidia per correlarium 34 propositionis, ipsi erunt æquales per antedictam communem scientiam.
 
@@ -32,4 +32,4 @@ CAMPANI additio. Ex hac autem & præmissa, nota quod si aliqua linea recta duo a
 
 *[Figure: triangle a b c with b at top, line d e cutting sides a b and b c at their midpoints d and e, with diagonals a e and d c drawn in quadrilateral a c e d]*
 
-*[Catchword: Euclides]*
+<!-- Catchword: Euclides -->

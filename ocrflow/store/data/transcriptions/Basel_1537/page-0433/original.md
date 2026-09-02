@@ -1,10 +1,10 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 422]*
+<!-- Folio: 422 -->
 
 ut quadratum lineæ q c sit æquale ei quod fit ex a b in a c. Igitur ex secunda parte 16 sexti & diffinitione, constat propositum.
 
-Eucli. ex Zamb. Theorema 2 Propositio 2
+## Eucli. ex Zamb. Theorema 2 Propositio 2
 
 ## 2 Si recta linea sui ipsius segmento quincuplum potuerit, dupla prædicti segmenti extrema & media ratione dissecta, maius segmentum reliqua est pars eius quæ in principio rectæ lineæ.
 
@@ -12,7 +12,7 @@ THEON ex Zāb. *Recta enim linea α β, sui ipsius segmētō α γ quincuplum po
 
 *[Figure: square α ζ on the line α β, divided by a vertical line and crossed by the diagonal, with quadrant arcs marking the gnomon μ ν ξ; θ within; λ and ε at the top, α, γ on the base, and to the right the square γ η on γ δ with β, δ, η, κ about it]*
 
-Eucli. ex Camp. Propositio 3
+## Eucli. ex Camp. Propositio 3
 
 ## 3 CVm diuisa fuerit linea secundum proportionem habentem medium & duo extrema, si minori portioni tāquā dimidium maioris directe iūgatur, erit ut quadratum lineæ inde compositæ quintuplum sit quadrati quod ex ipsa maioris medietate portionis describitur.
 

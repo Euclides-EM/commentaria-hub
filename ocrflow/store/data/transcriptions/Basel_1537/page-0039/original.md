@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 30]*
+<!-- Folio: 30 -->
 
 totus igitur angulus α β δ toti angulo α γ δ, (per cōmunem sententiam) est æqualis. Ostensum est autem, quod angulus β α γ angulo β δ γ est æqualis. Parallelogrammum igitur * locorum anguli & latera ex opposito, adinuicem sunt æqualia. *[Margin: χωρίων]* Dico etiam, quod dimetiens ea bifariam secat. Quoniam enim α β æquum est ipsi γ δ, & β γ communis est, duæ igitur α β & β γ, duabus β γ & γ δ sunt altera alteri æquales: & angulus α β γ angulo β γ δ (per 4 propositionē) basi β δ est æqualis, & triangulū α β γ triangulo β γ δ est æquale. Dimetiens igitur β γ, bifariam secat pallelogrammum α β γ δ. Quod erat ostendendum.
 
@@ -42,4 +42,4 @@ Mnia parallelogramma in basibus æqualibus atque in eisdem lineis constituta, æ
 
 CAMPANVS. Parallelogrammum, dicitur superficies æquidistan-
 
-*[Catchword: tium]*
+<!-- Catchword: tium -->

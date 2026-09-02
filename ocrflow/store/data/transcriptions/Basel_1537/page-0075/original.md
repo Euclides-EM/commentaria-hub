@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVLICDIS
+<!-- # GEOMET. ELEMENT. EVLICDIS -->
 
-*[Folio: 66]*
+<!-- Folio: 66 -->
 
 a d maior est a c. Sic quoque est maior h k, & maior etiã quàm a b. Quod autem f g sit maior h k, & a c, quàm a b, patet, quia cum duo latera f e, & e g, trianguli f e g, sint æqualia duobus lateribus h e & e k trianguli h e k, & angulus f e g, maior angulo h e k, erit per 24 primi basis f g, maior basi h k. Similiter quoque quia a e, & e c, sunt æqualia a e, & e b, & angulus a e c, maior angulo a e b, erit basis a c, per eandem maior basi a b, & sic est propositũ
 
@@ -22,4 +22,4 @@ CAMPANVS Sit ut à termiuo a, diametri a c, circuli a b c, cuius centrum d, duca
 
 *[Figure: circle with a at top, c at bottom, centre d; the tangent line drawn through a extends to e and f at the right; point b on the right circumference and g between a and b, with lines from d and a to b and g]*
 
-*[Catchword: & quia]*
+<!-- Catchword: & quia -->

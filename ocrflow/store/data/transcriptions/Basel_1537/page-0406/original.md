@@ -1,6 +1,6 @@
-# LIBER DVODECIMVS.
+<!-- # LIBER DVODECIMVS. -->
 
-*[Folio: 395]*
+<!-- Folio: 395 -->
 
 telligamus tot seratilia detracta esse ex pyramide a, quot detraximus ex pyramide b, eritq̃ ex correlario præmissæ sicut basis a ad basin b, ita seratilia detracta à pyramide a ad seratilia detracta à pyramide b, sed sic erat pyramis a ad corpus c, itaq̃ seratilia pyramidis a ad seratilia pyramidis b, sicut pyramis a ad corpus c, & permutatim seratilia pyramidis a ad pyramidē a, sicut seratilia pyramidis b ad corpus c. Cumq̃ sint seratilia pyramidis b, maius corpore c, erūt seratilia pyramidis a, maius pyramide a. Et quia hoc est impossibile, non erit corpus c, minus pyramide b. Sed nec maius. Hoc enim posito, cum sit proportio basis a ad basin b, sicut pyramidis a ad corpus c, erit econuerso basis b ad basin a, sicut corporis c ad pyramidē a, eritq̃ eadem ex cōmuni scientia, pyramidis b ad aliq̃d corpus quod sit d, sequeturq̃ ex 14 quinti, quod corpus d sit minus pyramide a, eo q̃d pyramis b ponitur minor corpore c. Erit igitur basis b ad basin a, sicut pyramis b ad corpus minus pyramide a. Ex hoc autem demonstratum est sequi impossibile, uidelicet seratilia detracta ab aliqua pyramide, maius esse ea pyramide à qua detrahuntur. Ideoq̃ relinquitur corpus c esse æquale pyramidi b, cum nec minus ea possit esse nec maius, & proportionem pyramidis a ad pyramidem b esse sicut basis a ad basin b. Hoc autem erat demonstrandum.
 
@@ -22,4 +22,4 @@ THEON ex Zamb. Sint sub eadem altitudine pyramides, quarū bases quidem sint α 
 
 *[Figure: rectangular parallelepiped (box) labelled x]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

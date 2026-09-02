@@ -1,6 +1,6 @@
-# LIBER QVINTVS
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 133]*
+<!-- Folio: 133 -->
 
 *[Margin: 24.]*
 
@@ -34,6 +34,6 @@ CAMPANVS. Quod hic proponitur, nō habet locum: nisi cum omnes quatuor quantitat
 
 Dico quod cum ita fuerit, maius erit aggregatum ex a b & f, quam ex c d & e. Cum enim a b sit maior e, abscindā ex a b, g b æqualem e: similiter quoq̃ quia c d est maior f, abscindam ex c d, h d æqualem f. Eritq̃ per hypothesin a b ad c b, sicut g b ad h d, quare per 19, a g residuum ad c h residuum: sicut totum a b ad totum c d. Cum ergo a g se habet ad c h sicut a b ad c d, sed a b est maior c d. quare a g maior est c h : additis igitur utriq̃ duabus quantitatibus g b & h d, erit per cōmunem scientiam, aggregatum ex a b & h d maius aggregato ex c d & g b : & quia d h posita est æqualis f, & g, b e : maius erit aggregatum ex a b & f, quàm aggregatū ex c d & e: quod est propositum.
 
-*[Signature: m]*
+<!-- Signature: m -->
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

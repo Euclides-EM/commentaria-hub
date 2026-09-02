@@ -1,6 +1,6 @@
-# DATA
+<!-- # DATA -->
 
-*[Folio: 557]*
+<!-- Folio: 557 -->
 
 ### Aliter.
 
@@ -24,6 +24,6 @@ A dato enim signo a in positione datam rectam lineam b c, recta agatur linea a d
 
 *[Figure: line b c and parallel line f k; point a between them; transversal a d and extension to e; perpendicular h a extended to g; labels c, k above, e, b, a, g in the middle, d, f, b below]*
 
-*[Signature: Aa 3]*
+<!-- Signature: Aa 3 -->
 
-*[Catchword: Theore]*
+<!-- Catchword: Theore -->

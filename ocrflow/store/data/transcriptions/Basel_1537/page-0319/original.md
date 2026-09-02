@@ -1,4 +1,6 @@
-# *[Folio: 308]* GEOMET. ELEMENT. EVCLIDIS
+<!-- Folio: 308 -->
+
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ex 58 c d binomium quintum, aut ex 59 binomiū sextum. Et quia impossibile est c d esse simul sub diuersis speciebus binomiorū a diffinitione, est impossibile a esse simul sub diuersis speciebus sex præhabitarū linearum irrationaliū. De linea autē mediali constat quod ipsa quoq̃ non sit aliqua sex sequentiū, uidelicet neq̃ binomium, neq̃ aliqua ex ipsius comitibus. Cum enim superficies æqualis quadrato lineæ medialis adiungitur ad lineam rationalem, latus eius secundum est rationale in potentia ex 20. Cum autē superficies æqualis quadrato binomij, aut alicuius suarum comitū, latus eius secundum est binomium, aut primum, aut secundum, & sic de cæteris per 54 quinq̃ eam sequentes. Quare ipsum est irrationale & in longitudine & in potentia per 30. Cum igitur sit impossibile eandem lineā esse rationalē in potētia, & irrationalē tam in longitudine q̃ in potentia, nimirū impossibile lineā medialē esse binomialē, aut aliquā ex quinq̃ suis comitibus.
 
@@ -10,7 +12,7 @@ Quæ ex binis nominibus, & post ipsam irrationales, neq̃ mediæ, neq̃ inuicem 
 
 Quoniam prædictæ latitudines differunt & à prima & adinuicem, à prima quoniam rationalis est, adinuicem uero quia in ordine non sunt eædem, manifestum est quod & ipsæ irrationales adinuicem differunt.
 
-Eucli. ex Camp. Propositio 68
+## Eucli. ex Camp. Propositio 68
 
 *[Margin: 68]*
 
@@ -24,7 +26,7 @@ CAMPANVS. Sit linea b c, abscisa ex a b, sintq̃ ambæ rationales tantum potenti
 
 Incipiunt hexades per aphæresin, hoc est per abscisionem.
 
-Eucli.ex Zamb. Theorema 55 Propositio 75 *[sic: for 73]*
+## Eucli.ex Zamb. Theorema 55 Propositio 75 *[sic: for 73]*
 
 *[Margin: 75]* *[sic: for 73]*
 
@@ -34,4 +36,4 @@ THEON ex Zamb. A rationali nanq̃ α β, rationalis auferatur β γ, potentia ta
 
 *[Figure: horizontal line with points α (left), γ (middle right), β (right)]*
 
-*[Catchword: mensura]*
+<!-- Catchword: mensura -->

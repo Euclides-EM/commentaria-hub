@@ -1,6 +1,6 @@
-# LIBER DECIMVS.
+<!-- # LIBER DECIMVS. -->
 
-*[Folio: 283]*
+<!-- Folio: 283 -->
 
 potentia tantum cõmensurabiles. Dico quod ipsa α β, ad aliud signum nõ diuiditur in binas rationales potentia tantum cõmensurabiles. Si enim possibile, diuidatur in δ, ut ipsæ α δ, δ β, sint rationales potentia tantum cõmensurabiles, manifestũ iam quod α γ, ipsi β δ non est eadem. Si enim fieri potest, esto, erit iam & α δ, ipsi β γ eadem, eritq̃ sicut α γ ad γ β, sic β δ ad δ α, eritq̃ α β in eadem qua γ diuisione, diuisa & in δ, quod positum non est. Ipsa igitur α γ ipsi δ β non est eadem. Ac per hoc etiam & signa γ, δ, non æquidistant a bifaria sectione. Quo itaq̃ differunt quæ ex α γ, γ β, ab eis quæ ex α δ, δ β, eo etiam differt & quod bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, eo quod tum quæ ex α γ, γ β, una cum eo quod bis sub α γ, γ β, tum quæ ex α δ, δ β, una cum eo quod bis sub α δ, δ β, sunt æqualia ei quod ex α β. Sed quæ ex α γ, γ β, ab eis quæ ex α δ, δ β, rationali differunt, utraque enim rationalia (per 21 decimi) quod bis igitur sub α δ, δ β, ab eo quod bis sub α γ, γ β, differunt rationali, quæ media existunt: medium autem, medium non excedit rationali (per 26 decimi.) Ex binis igitur nominibus, ad aliud & aliud signum non diuiditur, ad unum duntaxat igitur. Quod erat ostendendum.
 
@@ -36,4 +36,4 @@ CAMPANVS. Sit ut prius linea a b bimediale secũdum, diuisa in duas lineas a c &
 
 *[Figure: horizontal line with points a, d, c, b; below, a tall rectangle divided by horizontal lines into strips; points b, k, e on the left side, l, g, m, f on the right side]*
 
-*[Signature: A 4]* *[Catchword: torum]*
+<!-- Signature: A 4 --> <!-- Catchword: torum -->

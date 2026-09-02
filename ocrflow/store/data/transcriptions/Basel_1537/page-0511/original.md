@@ -1,6 +1,6 @@
-*[Folio: 500]*
+<!-- Folio: 500 -->
 
-## EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 Tempus autem in quo u signum ipsam u s circumferentiam perficit, id est in quo ipsa t u permutat apparens hemisphæriū. In pluri ergo tempore ipsa s x, permutat apparens hemisphæriū q̄ t u, & est ipsa s x, propior ipsi æstiuo tropico q̄ t u. In pluri ergo tēpore permutat apparens hemisphæriū, p̄pinquior æstiuo tropico, ea quæ longius distat.
 
@@ -18,4 +18,4 @@ Aduerte. Vniuersaliter scire oportet, quod præcedētibus signis super horizonte
 
 *[Woodcut initial Z]* Odiaci circuli æqualiū & ex opposito circūferentiarū in quo tempore permutat altera apparēs hemisphæriū, altera non apparēs, & in quo tempore altera non apparens, altera apparens.
 
-*[Catchword: Sit in]*
+<!-- Catchword: Sit in -->

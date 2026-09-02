@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 315]*
+<!-- Folio: 315 -->
 
 CAMPANVS Intellige quid sit linea minor quod si oblitus es, cōsule 21. & sine obiectione concludes propositum. si quemadmodū in 74 processeris, poterisque si libuerit, quemadmodum in 76 procedere.
 
@@ -46,4 +46,4 @@ CAMPANVS Huius lineæ quæ iuncta cum mediali componit totū mediale, magistra e
 
 Efficienti cum medio medium totum, una tantum congruit recta linea
 
-*[Signature: D 2]* *[Catchword: poten]*
+<!-- Signature: D 2 --> <!-- Catchword: poten -->

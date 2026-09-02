@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 15]*
+<!-- Folio: 15 -->
 
 laterum ζ δ ε, & connectatur linea ζ γ. Dico quod datæ rectæ lineæ α β, à dato in ipsa signo quod est γ, ad rectos angulos, ζ γ recta linea excitata est. Quoniam enim δ γ æqualis est ipsi γ ε, cōmunis uero linea γ ζ: duæ igitur δ γ, γ ζ, duabus ε γ, γ ζ, altera alteri sunt æquales: & basis δ ζ, basi ε ζ est æqualis. Angulus igitur δ γ ζ, angulo ε γ ζ (per 8 propositionē) est æqualis. Cum autem recta linea super recta linea cōsistens, * utrobiq̃ angulos ad inuicem æquales fecerit, uterq̃ æqualium angulorum rectus est, (per 10 diffinitionem.) igitur angulus δ γ ζ, & angulus ε γ ζ sunt recti. Datæ igitur rectæ lineæ α β, à dato in ea signo γ, ad rectos angulos recta linea ζ γ excitata est, quod fecisse oportuit. *[Margin: printed two-line note, partly legible: ipsius / ipsius]*
 
@@ -30,4 +30,4 @@ CAMPANVS. Sit ut linea a b, superstet lineæ c d, quæ si fuerit super eam perpe
 
 *[Figure: horizontal line c b d with the point b; the oblique line b a rising to the upper right and the perpendicular b e rising vertically from b]*
 
-*[Signature: b 2]* *[Catchword: duobus]*
+<!-- Signature: b 2 --> <!-- Catchword: duobus -->

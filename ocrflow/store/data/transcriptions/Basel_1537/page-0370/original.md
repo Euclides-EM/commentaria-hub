@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS.
+<!-- # LIBER VNDECIMVS. -->
 
-*[Folio: 359]*
+<!-- Folio: 359 -->
 
 ex hac 16 cōmunes sectiones duarum extremarū superficierū, æquidistātes sectionibus mediæ. Quare ex 30 primi ipsæ etiam sectiones duarum extremarū superficierū, erunt æquidistantes adinuicem. Et quia ipsæ contingunt se in cōmuni sectione duarū superficierū tres positas superficies secantium, ex præmissa euidenter constat quod diximus.
 
@@ -44,4 +44,4 @@ THEON ex Zamb. Binæ, inquam, rectæ lineæ α β, γ δ, à planis parallelis �
 
 CAMPANVS. Sit enim linea a b erecta perpendiculariter super assignatam superficiem, & à linea a b producatur superficies quorsum libuerit. Quam dico super propositam superficiem esse perendiculariter *[sic: for perpendiculariter]* erectam. Cum enim ipsa secet superficiem
 
-*[Catchword: ciem]*
+<!-- Catchword: ciem -->

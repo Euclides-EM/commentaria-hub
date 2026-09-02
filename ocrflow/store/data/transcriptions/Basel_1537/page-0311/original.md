@@ -1,4 +1,6 @@
-# *[Folio: 300]* GEO ELEMENT. EVCLIDIS
+<!-- Folio: 300 -->
+
+<!-- # GEO ELEMENT. EVCLIDIS -->
 
 CAMPANVS. Si hæc quoque fuerit linea a b linea maior diuisa secundum terminum suū ad punctum c, cunctaq̃ reliqua nō fuerint aliter quam prius, erit linea f g binomium quartū. Cum enim sint ambo quadrata portionum lineæ maioris pariter accepta rationale, erit superficies e n rationalis, ideoq̃ per 16 linea f n rationalis in longitudine, communicans lineæ e f rationali positæ, superficies uero m g erit medialis, propter illud quod portiones lineæ maioris cōtinent superficiem medialem, itaque per 20 linea n g est in potentia rationalis tantum, & quia etiam portiones præfatæ lineæ a b sunt potentialiter incommensurabiles, superficies e l incommensurabilis erit l m, ideoque linea f l, lineæ l n, igitur per primam partem 14 linea f n est potentior linea n g, in quadrato lineæ sibi incommensurabilis. Ex diffinitione igitur est linea f g binomium quartum, quod erat propositum.
 
@@ -6,7 +8,7 @@ CAMPANVS. Si hæc quoque fuerit linea a b linea maior diuisa secundum terminum s
 
 *[Figure: rectangle divided by three horizontal lines into four bands; labelled down the right side g, q, n, l, f (g top corner, f bottom corner); on the left side e at the bottom corner, m opposite n, and a small mark (l?) opposite q]*
 
-Eucli.ex Zãb. Theorema 45 Propositio 63
+## Eucli.ex Zãb. Theorema 45 Propositio 63
 
 *[Margin: 63]*
 
@@ -18,7 +20,7 @@ THEON ex Zamb. Sit maior α β, diuisa in γ, ut maior sit α γ, ipsa γ β, Rt
 
 *[Figure: rectangle on base ε θ λ ξ ζ with top line δ κ μ ν η (δ at left); vertical lines join κ–θ, μ–λ, ν–ξ; taller rectangles are erected above the segments δ κ and μ ν]*
 
-Eucli.ex Camp. Propositio 58
+## Eucli.ex Camp. Propositio 58
 
 *[Margin: 58]*
 
@@ -32,4 +34,4 @@ CAMPANVS Proposita linea a b ea quæ potest supra mediale & rationale diuisa sec
 
 *[Figure: rectangle with e at top left and f at top right, divided by three horizontal lines; labelled down the right side l, n, q, with g at the bottom right corner; on the left side m opposite n and p opposite q]*
 
-*[Catchword: præ]*
+<!-- Catchword: præ -->

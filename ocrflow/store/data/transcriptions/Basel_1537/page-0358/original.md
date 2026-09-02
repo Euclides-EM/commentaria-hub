@@ -1,6 +1,6 @@
-# LIBER VNDECIMVS
+<!-- # LIBER VNDECIMVS -->
 
-*[Folio: 347]*
+<!-- Folio: 347 -->
 
 moueri cœpit secundum rectitudinem, eritq̃ linea hæc quasi b c d. Et quia (ex 32 primi & 5 eiusdem) angulus c a b est medietas recti, erit angulus c a d rectus, ideoq̃ pyramis hæc dicitur rectangula. Si autem latus a b sit lõgius latere b c, erit acutiãgula. Erit enim tũc (ex 32 primi & 19) eiusdẽ angulus c a b, minor medietate recti, ideoq̃ totus angulus c a d. est minor recto & acutus, quare pyramis acutiãgula. Quod si latus a b fuerit breuius latere b c, erit angulus c a d maior medietate recti (ex 32 primi & 19 eiusdẽ) & totus c a d, qui est duplus ad ipsum c a b, maior recto & obtusus, igitur & pyramis conuenienter tunc dicitur obtusiangula. Axis autẽ huius pyramidis, dicitur linea a b Basis uero eius, circulus quem describit linea c b super cẽtrum b. Dicitur quoque hæc pyramis columnæ rotundæ, illius uidelicet quam motu suo describeret parallelogrãmum proueniens ex a b & b c, latere a b manente fixo.
 
@@ -16,4 +16,4 @@ Sit parallelogrammum rectãgulum a b c d, figaturque latus a b, & eo fixo totum 
 
 Duo anguli plani angulum solidũ perficere nequeũt: sicut nec duæ rectæ lineæ nequeunt superficiem claudere. Angulos quoque planos solidum angulum continentes in eadem superficie non cõuenit esse sitos, sed in diuersis, quemadmodum duas rectas lineas planum perficientes angulum, non conuenit sibi inuicem secundum situm rectitudinis applicari.
 
-*[Catchword: Similes]*
+<!-- Catchword: Similes -->

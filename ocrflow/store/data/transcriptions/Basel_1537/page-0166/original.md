@@ -1,6 +1,6 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 155]*
+<!-- Folio: 155 -->
 
 lygona in similia triangula diuiduntur, & * in æqualia numero, & æqua ratione totis, & polygonum ad polygonum duplam rationem habet, quam similis rationis latus ad similis rationis latus, quod demonstrare oportebat. *[Margin: ὁμόλογα]*
 
@@ -14,20 +14,20 @@ ALITER. Dememonstrabimus aliter & expeditius, similis rationis esse triangula. I
 
 *[Figure: two similar pentagonal figures, each a square surmounted by a triangle: the left with apex α, upper corners β (left) and ε (right), base corners γ and δ, divided by the horizontal β ε and a diagonal of the square; the right with apex ζ, upper corners η (left) and λ (right), base corners θ and κ, divided likewise]*
 
-Eucli.ex Camp. Propositio 20.
+## Eucli.ex Camp. Propositio 20.
 
-## 20 SI fuerint uni superficiei similes, quaslibet superficies sibĳnuicem similes esse est.
+20 SI fuerint uni superficiei similes, quaslibet superficies sibĳnuicem similes esse est.
 
 CAMPANVS. Sit uterq̃ pentagonorum a b c.d e f, similis pentagono g h k: dico eos esse similes sibĳnuicẽ. Est enim uterq̃ eorum æquiangulus pentagono g h K: per conuersionem diffinitionis similium superficierum: quare sunt æquianguli adinuicem. Similiter quoque per conuersionem eiusdem diffinitionis, proportio a b ad g h. sicut a c ad g K, & g h ad d e, sicut g K ad d f: ergo per æquam proportionaliitatem, a b ad d e, sicut a c ad d f. Eodem modo probabis reliqua latera pentagonorum a b c & d e f, continentia æquos angulos: esse proportionalia. Per diffinitionem itaque similium superficierum: ipsi sunt similes adinuicem: quod est propositum.
 
 *[Figure: three similar pentagonal figures: the left with apex a, side b, interior label c; the middle, smaller, with apex g, side b(h), interior label k; the right with apex d, interior label e, side f]*
 
-Eucli.ex Zamb. Theorema 15 Propositio 21.
+## Eucli.ex Zamb. Theorema 15 Propositio 21.
 
-## 21 Quæ eidem rectilineo sunt similia, & adinuicem sunt similia.
+21 Quæ eidem rectilineo sunt similia, & adinuicem sunt similia.
 
 THEON ex Zamberto. Sit utrunq̃ ipsorum α, b, rectilineorum, simile ipsi γ. Dico quod & α ipsi β est simile. Quoniam enim simile est α ipsi γ, æquiangulum est & ei (per conuersionem primæ diffinitionis sexti) & quæ circum æquales angulos sunt latera, proportionalia habet. Rursus quoniam β simile est ipsi γ: æquiangulum igitur est & ei per eandem, & quæ circum æqualesles sunt angulos latera proportionalia habet: utrunq̃ igitur ipsorum α, β, ipsi γ æquiangulum est (per 6 sexti: & quæ cirea æquales sunt angulos latera habet proportionalia, quare per eandem & α ipsi β æqaiangulum est, & quæ circum æquales sunt angulos latera habet proportionalia. Simile igitur est β ipsi α, quod oportebat demonstrare.
 
 *[Figure: three triangles: γ above, α at the left (larger), β at the right]*
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

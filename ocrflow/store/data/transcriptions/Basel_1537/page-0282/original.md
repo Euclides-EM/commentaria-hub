@@ -1,4 +1,6 @@
-# LIBER DECIMVS. *[Folio: 271]*
+<!-- # LIBER DECIMVS. -->
+
+<!-- Folio: 271 -->
 
 possit amplius breuiori in quadrato alicuius lineæ sibi cōmunicantis in longitudine, quæ contineant superficiem rationalem. Ad hoc secundum doctrinam 17 sumo duas lineas a & b potentia tantum rationales cōmunicantes, quarum longior quæ sit a , possit amplius breuiori quæ sit b , in quadrato alicuius lineæ secum cōmunicantis in lōgitudine, & ponam lineam c secundum doctrinam 9 sexti , medio loco proportionalē inter a & b,& ponam ut sit proportio a ad b, sicut c ad d, quod qualiter fiat, in 10 sexti dictū est. Dico tunc duas lineas c & d,esse quas quærimus. Patet enim ex 19, quod superficies quam continent duæ lineæ a & b,est medialis . Et quia per primam partem 16 sexti,quadratū lineæ c est dictæ superficiei æquale,erit igitur per 19 linea c medialis . Cum autē sit a ad b,sicut c ad d,& b communicet cum a in potentia tantum ex hypothesi,quia tam a quàm b rationalis est in potentia , sequitur per 10 quod c quoq́ʒ communicet cum d in potentia tantum. Itaq́ʒ per 21 cum c sit linea medialis,erit etiam d medialis, & per primā partem 12 , erit linea c potentior linea d, in quadrato lineæ sibi communicantis in longitudine. Si ergo duæ lineæ c & d contineant superficiem rationalem , ipsæ sunt quales inquirimus.Eas autem continere superficiem rationalem,sic habeto. Cum sit a ad b,sicut c ad d,erit permutatim a ad c,sicut b ad d,sed erat a ad c,sic c ad b. igitur est c ad b,sicut b ad d, itaque per primam partem 16 sexti,superficies quam continent duæ lineæ c & d, est æqualis quadrato b,est autem quadratum b,rationale per hypothesin,cum ipsa sit rationalis in potentia . Superficies ergo quam continent duæ lineæ c & d, est rationalis. Quare constat propositum.
 
@@ -22,4 +24,4 @@ THEON ex Zamb. Exponantur(per 29 decimi)binæ rationales potentia tantum commens
 
 *[Figure: four horizontal lines in the right margin, labelled: α 64 — γ — β R. 28 — δ]*
 
-*[Signature: z 4]* *[Catchword: Eucli.ex]*
+<!-- Signature: z 4 --> <!-- Catchword: Eucli.ex -->

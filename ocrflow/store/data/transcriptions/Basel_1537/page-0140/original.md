@@ -1,6 +1,6 @@
-# LIBER QVINTVS. 129
+<!-- # LIBER QVINTVS. -->
 
-*[Folio: 129]*
+<!-- Folio: 129 -->
 
 tendo. Hinc manifestum, quod si compositæ magnitudines propositionales fuerint, etiam conuertendo proportionales erunt, quod demonstrandum erat.
 

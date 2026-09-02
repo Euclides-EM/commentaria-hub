@@ -1,6 +1,6 @@
-# PHAENOMENA
+<!-- # PHAENOMENA -->
 
-*[Folio: 493]*
+<!-- Folio: 493 -->
 
 ad tropicorum contactus, in minori autem quæ has subsequūtur, in minimis uero quæ ad æquinoctialẽ, æqualibus porro qui æqualiter distant ab æquinoctiali circulo & occidunt & oriuntur.
 
@@ -8,6 +8,6 @@ Esto horizon circulus a b c d, maximus autem semper apparentiū sit e f, tropicu
 
 *[Figure: large sphere with horizon circle a b c d; small circle of the always-apparent stars at top; equinoctial and several oblique parallel circles p o, s r, y t, z 9 crossing the sphere; semicircle of Cancer above the horizon through b and d; labeled points include a, b, c, d, e, f, g, h, k, l, m, n, o, p, r, s, t, u, x, y, z, 9 and a cross-shaped sign †]*
 
-*[Signature: T]*
+<!-- Signature: T -->
 
-*[Catchword: Sed]*
+<!-- Catchword: Sed -->

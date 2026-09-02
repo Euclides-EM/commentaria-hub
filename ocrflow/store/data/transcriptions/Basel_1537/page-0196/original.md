@@ -1,6 +1,6 @@
-# LIBER SEPTIMVS
+<!-- # LIBER SEPTIMVS -->
 
-*[Folio: 185]*
+<!-- Folio: 185 -->
 
 ## Eucli.ex Zamb. Theorema 17 Propositio 19
 
@@ -34,4 +34,4 @@ CAMPANVS. Sint a & b, minimi numeri in sua proportione, sitq̃ c ad d , sicut a 
 
 *[Figure: dot-rows in the right margin: c (4 dots) and d (2 dots); a (2 dots) and b (1 dot); lower, c (6 dots) and d (3 dots); a (4 dots) and b (2 dots); e (2 dots) and f (1 dot)]*
 
-*[Signature: q 3]* *[Catchword: Similiter]*
+<!-- Signature: q 3 --> <!-- Catchword: Similiter -->

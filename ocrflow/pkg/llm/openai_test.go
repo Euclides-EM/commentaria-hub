@@ -47,7 +47,7 @@ func TestBuildInputPayloadUsesInputFileForDocuments(t *testing.T) {
 
 func payloadAttachment(t *testing.T, path string) map[string]any {
 	t.Helper()
-	payload, err := buildInputPayload("prompt", path)
+	payload, err := buildInputPayload(Prompt{Dynamic: "prompt"}, path, false)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -57,7 +57,40 @@ func payloadAttachment(t *testing.T, path string) map[string]any {
 	}
 	content, ok := messages[0]["content"].([]map[string]any)
 	if !ok || len(content) != 2 {
-		t.Fatalf("content = %#v, want attachment and prompt", messages[0]["content"])
+		t.Fatalf("content = %#v, want prompt and attachment", messages[0]["content"])
 	}
-	return content[0]
+	return content[1]
+}
+
+func TestBuildInputPayloadPlacesCacheableStaticPrefixBeforeDynamicImage(t *testing.T) {
+	path := filepath.Join(t.TempDir(), "page.jpg")
+	if err := os.WriteFile(path, []byte("image bytes"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+
+	payload, err := buildInputPayload(Prompt{Static: "stable dialect", Dynamic: "page input"}, path, true)
+	if err != nil {
+		t.Fatal(err)
+	}
+	messages := payload.([]map[string]any)
+	if len(messages) != 2 || messages[0]["role"] != "developer" || messages[1]["role"] != "user" {
+		t.Fatalf("messages = %#v, want developer prefix followed by user input", messages)
+	}
+	staticContent := messages[0]["content"].([]map[string]any)
+	if _, ok := staticContent[0]["prompt_cache_breakpoint"]; !ok {
+		t.Fatalf("static block = %#v, want explicit cache breakpoint", staticContent[0])
+	}
+	dynamicContent := messages[1]["content"].([]map[string]any)
+	if dynamicContent[0]["type"] != "input_text" || dynamicContent[1]["type"] != "input_image" {
+		t.Fatalf("dynamic content = %#v, want text followed by image", dynamicContent)
+	}
+}
+
+func TestSupportsExplicitPromptCachingOnlyForGPT56Family(t *testing.T) {
+	if !supportsExplicitPromptCaching("gpt-5.6") || !supportsExplicitPromptCaching("gpt-5.6-2026-08-01") {
+		t.Fatal("gpt-5.6 family should support explicit prompt caching")
+	}
+	if supportsExplicitPromptCaching("gpt-5.5") || supportsExplicitPromptCaching("gpt-4.1") {
+		t.Fatal("earlier models should use implicit prompt caching")
+	}
 }

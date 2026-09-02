@@ -1,6 +1,6 @@
-# LIBER QVINTVS.
+<!-- # LIBER QVINTVS. -->
 
-*[Folio: 117]*
+<!-- Folio: 117 -->
 
 *[Margin: 4]* Si primum ad secundum eandem habuerit rationē, & tertium ad quartum, etiam æque multiplicia primi & tertij ad æque multiplicia secundi & quarti iuxta quamuis multiplicationem, eandem habebunt rationē sumpta adinuicem.
 
@@ -12,7 +12,7 @@ LEMMA siue assumptio. Quoniā igitur demōstratū est quod si κ excedit μ, ips
 
 CORRELARIVM Hinc manifestū est quod si quatuor magnitudines proportionales fuerint, & contra quoque proportionales erunt.
 
-Eucli. ex Camp. Propositio 5
+## Eucli. ex Camp. Propositio 5
 
 *[Margin: 5]* SI fuerint duæ quantitates quarum una sit pars alterius, minuaturque ab utraque ipsarum ipsa pars, erit reliquū reliquo ut totum toti æque multiplex, Vel sic, minuaturq̃ ab utraque ipsarum ipsa pars aliquota, erit reliquum reliqui tota pars, quota totum totius.
 
@@ -22,7 +22,7 @@ CAMPANVS Sit quantitas a b tota pars quantitatis c d, quota este b ipsius a b, m
 
 *[Figure: horizontal line segments with points c, f, d and a, e, b in the text column]*
 
-Eucli. ex Zamb. Theorema 5 Propositio 5
+## Eucli. ex Zamb. Theorema 5 Propositio 5
 
 *[Margin: 5]* Si magnitudo magnitudinis æque fuerit multiplex, & ablata ablatæ, & reliqua reliquæ, ita erit multiplex ut tota totius est.
 
@@ -30,4 +30,4 @@ THEON ex Zamb. Magnitudo etenim α β, magnitudinis γ δ, æque multiplex esto,
 
 *[Figure: vertical line segments representing the magnitudes α β, γ δ with their sections, in the right margin]*
 
-*[Catchword: tiplex]*
+<!-- Catchword: tiplex -->

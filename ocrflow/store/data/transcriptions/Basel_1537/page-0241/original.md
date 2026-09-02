@@ -1,6 +1,6 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 230]*
+<!-- Folio: 230 -->
 
 fit ex composito eorum in eundem.
 
@@ -38,4 +38,4 @@ Idem proponit de lineis 5 secundi. Vt si a b diuidatur in duos numeros æquales,
 
 *[Figure: dotted line with points a, c, d, b]*
 
-*[Catchword: Cum]*
+<!-- Catchword: Cum -->

@@ -1,10 +1,10 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 235]*
+<!-- Folio: 235 -->
 
 erit, quotlibet enim posito, per primam partem eiusdem secundum ipsum positum numerabit primus productum, quod positum erat non numerare.
 
-Eucli. ex Zamb. Theorema 19 Propositio 19
+## Eucli. ex Zamb. Theorema 19 Propositio 19
 
 **19** Tribus numeris datis, considerare si est possibile eis quartum inuenire proportionalem.
 
@@ -14,7 +14,7 @@ THEON ex Zamber. Sint dati tres numeri, α β, γ, sitq̃ * opportunū coniectar
 
 *[Figure: at the head, two solid horizontal lines labelled ε and δ, with dotted lines γ, β, α, then a solid line and dotted lines γ, β, α; at right, a group of five vertical lines of increasing height marked 8, 12, 18, 27, 216, labelled below α β γ ε δ, and a group of vertical lines marked 20, 30, 45, 1350, labelled below γ ε δ]*
 
-Eucli. ex Camp. Propositio 21
+## Eucli. ex Camp. Propositio 21
 
 **21** DAtis quotlibet numeris primis, aliquem primum ab eis diuersum esse necesse est.
 
@@ -24,10 +24,10 @@ CAMPANVS. Nihil aliud intenditur, nisi q̃ numeri primi sint infiniti, demonstra
 
 *[Figure: dotted line with points a, b, c; solid line d–f with the number 105 above, followed by point g; solid line b with the number 53 above]*
 
-Eucli. ex Zamb. Theorema 20 Propositio 20
+## Eucli. ex Zamb. Theorema 20 Propositio 20
 
 **20** Primi numeri, plures sunt omni proposita multitudine primorum numerorum,
 
-*[Signature: u 4]*
+<!-- Signature: u 4 -->
 
-*[Catchword: THEON]*
+<!-- Catchword: THEON -->

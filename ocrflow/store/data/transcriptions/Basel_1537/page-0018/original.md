@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 9]*
+<!-- Folio: 9 -->
 
 est æqualis (per præcedentem): reliqua igitur α λ, reliquæ β η (per 3 cōmunem sententiam) est æqualis. Ostensum est autem, quod β γ ipsi β η est æqualis, utraq̃ igitur & α λ, & β γ, ipsi β η est æqualis. Quæ autem eidem æqualia, (per primam cōmunem sententiam) & adinuicem sunt æqualia, & linea α λ igitur, ipsi β γ est æqualis. Ad datum igitur signum, α, datæ rectæ lineæ β γ æqua recta linea collocata est α λ, quod fecisse oportuit.
 
@@ -28,4 +28,4 @@ CAMPANVS. Sint duo trianguli a b c, d e f, sitq̃ latus a b, æquale lateri d e,
 
 *[Figure: two tall triangles side by side, d e f at the left and a b c at the right; below the base e f of the left triangle curved lines through g (inside) and through b/h (outside) showing the false positions of the base b c]*
 
-*[Catchword: Euclidis]*
+<!-- Catchword: Euclidis -->

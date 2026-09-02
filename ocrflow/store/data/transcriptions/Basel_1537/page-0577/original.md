@@ -1,4 +1,6 @@
-# *[Folio: 564]* EVCLIDIS MEGARENSIS
+<!-- Folio: 564 -->
+
+<!-- # EVCLIDIS MEGARENSIS -->
 
 cie datur & ab eadem describitur recta linea a b, Ratio igitur ipsius e ad a g b, data est. Et quoniam ratio ipsius a b ad c d, data est. Describunturq̃ ab ipsis a b, c d, similia similiterq̃ posita a b g, f, ratio igitur ipsius a g b, ad f data est. Ipsius aũt a g b, ad e, ratio est data. Et ipsius igitur e ad f, ratio est data.
 
@@ -34,4 +36,4 @@ Binæ, inquã, species specie datæ a, b adinuicem rationem nem *[sic: line ends
 
 *[Figure: a rectangle divided by a vertical line into two cells, with e above the dividing point, b inside the right cell, and b, f below the base; beneath it a second rectangle with a inside, c above its left side, d below its left corner, and a horizontal line extending left towards g]*
 
-*[Catchword: specie.]*
+<!-- Catchword: specie. -->

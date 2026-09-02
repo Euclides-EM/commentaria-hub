@@ -1,6 +1,6 @@
-*[Folio: 478]*
+<!-- Folio: 478 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 ## Eucli. ex Camp. — Propositio 11
 

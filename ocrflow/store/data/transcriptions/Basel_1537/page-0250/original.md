@@ -1,6 +1,6 @@
-# LIBER NONVS.
+<!-- # LIBER NONVS. -->
 
-*[Folio: 239]*
+<!-- Folio: 239 -->
 
 *[The heading "Eucli. ex Camp. Propositio 33" with its enunciation, promised by the catchword on the previous page, does not appear; the page begins directly with the Campanus proof.]*
 
@@ -8,7 +8,7 @@ CAMPANVS. Sit a numerus par cuius dimidium b, sitq̃ c numerus impar qui numeret
 
 *[Figure: dotted lines labelled a, b, c at left and f, e, d at right]*
 
-Eucli. ex Zamb. Theorema 30 Propositio 30
+## Eucli. ex Zamb. Theorema 30 Propositio 30
 
 **30** Si impar numerus parem numerum mensus fuerit, & eius dimidium metietur.
 
@@ -16,7 +16,7 @@ THEON ex Zamb. Impar enim numerus α, parem numerum β metiatur. Dico quod & eiu
 
 *[Figure: dotted lines labelled α, γ, β]*
 
-Eucli. ex Camp. Propositio 34
+## Eucli. ex Camp. Propositio 34
 
 **34** SI numerus impar ad aliquem fuerit primus, idem ad eiusdem duplum erit primus.
 
@@ -26,7 +26,7 @@ CAMPANVS. Sit a numerus impar primus ad b, cuius duplum sit c. Dico quod a est p
 
 *[Figure: dotted lines c, a, b; solid line d at right]*
 
-Eucli. ex Zamb. Theorema 31 Propositio 31
+## Eucli. ex Zamb. Theorema 31 Propositio 31
 
 **31** Si impar numerus ad numerum aliquem primus fuerit, & ad ipsius duplum primus erit.
 
@@ -34,7 +34,7 @@ THEON ex Zamb. Impar enim numerus α, ad numerum aliquem β, primus esto, ipsi i
 
 *[Figure: dotted lines α, β, γ; solid line δ]*
 
-Eucli. ex Camp. Propositio 35
+## Eucli. ex Camp. Propositio 35
 
 **35** NVmeri à duobus dupli, sunt pariter pares tantum.
 
@@ -44,4 +44,4 @@ CAMPANVS. Sint unitas a,b,c,d, continue proportionales, sitq̃ a binarius. Dico 
 
 *[Figure: dotted lines labelled d, c, b, a, with a single dot labelled unitas]*
 
-*[Catchword: Eucli. ex]*
+<!-- Catchword: Eucli. ex -->

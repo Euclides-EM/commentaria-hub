@@ -1,8 +1,8 @@
-# LIBER DECIMVSQVARTVS
+<!-- # LIBER DECIMVSQVARTVS -->
 
-*[Folio: 463]*
+<!-- Folio: 463 -->
 
-Eucli. ex Camp. Propositio 14
+## Eucli. ex Camp. Propositio 14
 
 14 SI tetrachedron & octoedron una eademq́ⱼ sphæra circūscribat, erit una ex basibus tetrachedri sesquitertia ad unam ex basibus octoedri. Omnes autē bases octoedri pariter acceptas ad omnes bases tetrachedri pariter acceptas, sesquialterā proportionē habere necesse est.
 
@@ -10,7 +10,7 @@ CAMPANVS. Sit aliqua sphæra cuius diameter a, circūscribens pyramidē cuius la
 
 *[Figure: three horizontal lines of decreasing length labelled a, b, c]*
 
-Eucli. ex Camp. Propositio 15
+## Eucli. ex Camp. Propositio 15
 
 15 PYramide quatuor basium triangulariū atq́ⱼ æquilaterarū intra sphæram quamlibet collocata, si à quolibet angulorum eius per centrum sphæræ recta linea ad basin ducatur, in centrum circuli basin circūscribentis eam cadere, atque eidem basin perpendiculariter insistere necessario comprobatur.
 
@@ -18,4 +18,4 @@ CAMPANVS. Sit pyramis a b c d, quatuor basium triangulariū atq́ⱼ æquilatera
 
 *[Figure: pyramid a b c d with apex a at top; circle circumscribing base b c d; points f and e inside; lines from a through f and e to the base]*
 
-*[Signature: Q 4]* *[Catchword: sunt]*
+<!-- Signature: Q 4 --> <!-- Catchword: sunt -->

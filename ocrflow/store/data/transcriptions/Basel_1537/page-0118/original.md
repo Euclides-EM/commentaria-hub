@@ -1,6 +1,6 @@
-# LIBER QVINTVS
+<!-- # LIBER QVINTVS -->
 
-*[Folio: 109]*
+<!-- Folio: 109 -->
 
 nus uno. Similiter quoque si proportio extremorum continuæ proportionalitatis in tribus terminis constitutæ, est ea quæ producitur ex proportione primorum in se semel multiplicata, & in quatuor in se bis multiplicata, in quinq̃ terminis ea quæ producitur ex proportione primorum in se ter multiplicata, & in sex terminis quater, & sic semper termini fuerint duobus plures multiplicationibus, siue ut multiplicationes sint æquales medijs extremis interpositis. Et nota quod etiam in proportionalitate cōtinua extremorū, proportio producitur ex omnibus proportionibus intermedijs, ut ex prædictis apparet, &. quod proportio extremorum continuæ proportionalitatis in tribus terminis constitutæ denominatur à quadrato, in quatuor uero terminis cōstitutæ denominatur à cubo, quorum quidem quadrati & cubi latus est denominatio proportionis primi ad secundum, uerbi gratia in numeris. Sint quatuor numeri continuæ proportionales qui sint continue tripli 3,9,27,81, proportio primi ad secundum, denominatur à ternario, est enim tripla, primi uero ad tertium, à nouenario qui est quadratus ternarij, nā ipsa est nōcupla. At uero proportio primi ad quartū: denominatur à 27 qui est cubus denominationis proportionis primi ad secūdā uidelicet ternarij, ipsa enim est uigincupla septupla. Et proportio extremorum improportionalitatis continuæ in tribus terminis constitutæ, denominatur à superficiali nō quadrato, cuius latera sunt denominationes ipsarū proportionum, in quatuor uero terminis cōstitutæ: denominatur à solido nō cubo, cuius tria latera sunt denomationes trium proportionum, quod etiam patet in numeris.
 
@@ -16,4 +16,4 @@ CAMPANVS. Diffinit species proportionalitatis, quæ sunt sex, uidelicet conuersa
 
 *[Figure: at right, four horizontal lines in two columns labelled a and c above, b and d below]*
 
-*[Signature: k]* *[Catchword: mutata]*
+<!-- Signature: k --> <!-- Catchword: mutata -->

@@ -1,12 +1,12 @@
-# LIBER SEXTVS
+<!-- # LIBER SEXTVS -->
 
-*[Folio: 151]*
+<!-- Folio: 151 -->
 
 CAMPANVS. Sit proportio lineæ a ad lineam b, sicut lineæ b ad lineam c, dico quod superficies contenta sub a & c, æqualis est quadrato b. & si superficies contenta sub a & c est æqualis quadrato b, dico quod proportio a ad b est sicut b ad c. hoc autem est euidens per præcedentem, posita alia linea quæ sit æqualis b, ita quod b sit in tatione *[sic, for "ratione"]* secundæ & tertiæ.
 
 *[Figure: three horizontal line segments a, b, c of decreasing length; to the right a tall rectangle labelled a and a square labelled c meeting at a corner point labelled b]*
 
-Eucli. ex Zamb. — Theorema 12 — Propositio 17
+## Eucli. ex Zamb. — Theorema 12 — Propositio 17
 
 17 Si tres rectæ lineæ proportionales fuerint, quod sub extremis comprehensum rectangulū, æquum est ei quod à media quadrato. Et si quod sub extremis continetur rectangulum, æquum fuerit ei quod à media quadrato, ipsæ tres rectæ lineæ proportionales erunt.
 
@@ -14,7 +14,7 @@ THEON ex Zamberto. *Sint tres rectæ lineæ proportionales α β γ, sicut α, a
 
 *[Figure: four vertical line segments of decreasing length labelled at foot α β δ γ; to the right a broad rectangle with α at top and γ below inside its left edge, and beneath it a square with β at top and δ below inside its left edge]*
 
-Eucli. ex Camp. — Propositio 17.
+## Eucli. ex Camp. — Propositio 17.
 
 17 SI fuerint duo trianguli similes, proportio alterius ad alterum est tanquam proportio cuiuslibet sui lateris ad suum relatiuum latus alterius duplicata.
 
@@ -26,6 +26,6 @@ CAMPANVS Sint duo trianguli a b c & d e f similes, eruntque per primam diffiniti
 
 *[Figure: two groups of triangles on a common baseline. Left group: triangle with apex a over base points g, b, c, with the line a b drawn inside, beside it triangle with apex d over base e f. Right group: a low triangle with apex a over base points b, g, and beside it a larger triangle with apex d over base points e c, f]*
 
-*[Signature: n 4]*
+<!-- Signature: n 4 -->
 
-*[Catchword: propor-]*
+<!-- Catchword: propor- -->

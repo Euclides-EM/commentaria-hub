@@ -1,6 +1,6 @@
-*[Folio: 447]*
+<!-- # LIBER TERTIVSDECIMVS -->
 
-# LIBER TERTIVSDECIMVS
+<!-- Folio: 447 -->
 
 stitui, ex quatuor aūt aut ex pluribus impossibile ideóque unum duntaxat solidum ex pentagonis æquilateris atque æquiangulis constitutum est illud uidelicet quod dodecedron dicitur, in quo anguli pentagonorum trini & trini solidos angulos perficiunt. Eadem quoque est ratio in quādrilateris figuris æquilateris & æquiangulis, quæ in pentagonis, omnis enim quadrilatera figura si æquilatera æquiangulaq́ue fuerit, ipsa erit quadrata à diffinitione, nam omnes eius anguli erunt recti per 32 primi. Ex tribus igitur angulis talis superficialis figuræ, possibile est solidum angulum constitui, ex quatuor autem aut ex pluribus impossibile est: propterea quòd ex talibus figuris superficialibus (quæ cum quadrilateræ sint ipsæ æquilateræ atque æquiangulæ) unicū solidum quod cubum dicimus fabricatum est. Triangulorum autem æquilaterorū sex anguli, sunt æquales quatuor rectis ex 32 primi, pauciores ergo minores, & plures, maiores, igitur ex sex angulis talium trigonorum aut ex pluribus impossibile est angulū solidum fieri, ex quinque & ex quatuor & ex tribus possibile. Cum itaq̃; tres anguli trigoni æquilateri fecerint angulum solidum, perficitur ex triangulis æquilateris corpus quatuor basium triangularium atque æquilaterarum. Cum uero quatuor cōsurgūt corpus octo basium. quod octoedron diximus. At uero si quinque triangulorum æquilaterorum anguli, solidum angulum contineant, fiet corpus icosedron uiginti basium triangulariū & æquilaterarū. Quare ergo tot & talia sunt solida regularia: & quia replura his non sint dictum est.
 

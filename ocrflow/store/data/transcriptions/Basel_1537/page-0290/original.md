@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 279]*
+<!-- Folio: 279 -->
 
 ## Eucli. ex Camp. Propositio 33
 
@@ -26,4 +26,4 @@ THEON ex Zamb. Cōponantur enim binæ rectæ lineæ potentia incommḗsurabiles 
 
 34 CVm coniunctæ fuerint duæ lineæ potentialiter incommensurabiles superficiemq́ⳓ rationalem continentes, quarum ambo quadrata pariter accepta sint mediale, tota linea erit irrationalis, diceturq́ⳓ potens in rationale & mediale.
 
-*[Signature: A 2]* *[Catchword: CAM]*
+<!-- Signature: A 2 --> <!-- Catchword: CAM -->

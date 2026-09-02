@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 254]*
+<!-- Folio: 254 -->
 
 cimæ & decimætertiæ ex Zamberto propositionibus respondet. Nona apud Campanū cum additione,decimæquintæ & decimæsextæ ex Zamberto propositionibus. Decima autem & undecima apud Campanū,decimæ,& undecimæ ex Zāberto propositionibus præpostero respondent ordine. Duodecima uero apud campanum,decimæquartæ ex Zamberto propositioni respondet.
 
@@ -36,4 +36,4 @@ Quæ eidem magnitudini commensurabiles, & adinuicem sunt commensurabiles.
 
 THEON ex Zamb. Vtraque enim ipsarum α,β,ipsi γ sit cōmensurabilis.Dico quod & α ipsi β est commēsu
 
-*[Catchword: rabilis,]*
+<!-- Catchword: rabilis, -->

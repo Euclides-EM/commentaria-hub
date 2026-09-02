@@ -1,6 +1,6 @@
-# LIBER DECIMVS.
+<!-- # LIBER DECIMVS. -->
 
-*[Folio: 287]*
+<!-- Folio: 287 -->
 
 a rationali positæ in longitudine. Super eam igitur lineetur f g h semicirculus,sitq̃ proportio quadrati lineæ f g ad quadratū lineæ f h. sicut c ad d, & ducatur linea g h, dico ergo duas lineas f g & g h directe coniunctas,cōponere binomium primum . Est enim linea f g quæ est longior, potētiorq̃ linea g h quæ est breuior,in quadrato lineæ f h per 30 tertij & penultimā primi,cōmunicat autem linea f h lineæ f g in longitudine per 2 partem 7,cum proportio quadratorū ipsarū f g & f h sit sicut numerorū quadratorū qui sunt c & d. Linea uero g h,conuincitur esse rationalis in potētia tantū non cōmunicans lineæ f g in longitudine , ideoq̃ neq̃ lineæ a rationali positæ: cum sit enim quadratū lineæ f g ad quadratū lineæ f h, sicut numerus c ad numerū d,erit per euersam proportionalitatem quadratū lineæ f g ad quadratū lineæ g h, sicut numerus c ad numerū e. Cum itaq̃ c sit numerus quadratus, sequitur per ultimā partē 7, ut linea g h sit incōmensurabilis lineæ f g longitudine,relinquitur igitur ipsam g h esse rationalē in potentia tantū , & a diuisione lineas f g & g h cōponere binomium primū,quod erat inueniendū.
 
@@ -26,4 +26,4 @@ Tales autem numeros sic reperies. Sit a numerus quadratus,b quoque sit unitate m
 
 *[Figure: at the right, six dotted lines of unit points labelled f, e, d, c, b, a, decreasing in length from f to a]*
 
-*[Catchword: qualem]*
+<!-- Catchword: qualem -->

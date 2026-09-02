@@ -1,6 +1,6 @@
-*[Folio: 472]*
+<!-- Folio: 472 -->
 
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
 quangulum ad triangulum, sic pyramis cuius basis quidem est dodecahedri pentagonum, uertex autem centrum sphæræ, ad pyramida basin quidem habentem triangulum, uerticem autem centrum sphæræ. Et sicut igitur (per undecimam duodecimi pentagona ad uiginti triangula, sic duodecim pyramides pentagona bases habētes, ad uiginti pyramides triangula bases habentes. Et duodecim pentagona, sunt dodecahedri superficies, & uiginti triangula, icosahedri sunt superficies. Est igitur sicut dodecahedri superficies ad icosahedri superficiē, sic duodecim pyramides pētagona bases habentes, ad uiginti pyramides triangula bases habētes. Suntq́; duodecim quidē pyramides pentagona bases habentes, solidū ipsius dodecahedri, uiginti autem pyramides triangula bases habentes, solidum sunt icosahedri. Et sicut igitur (per 11 quinti) dodecahedri superficies ad icosahedri superficiem, sic solidum dodecahedri, ad solidum icosahedri. Sicut autem superficies dodecahedri ad solidum *[sic: for superficiem]* icosahedri, sic patuit eße cubi latus ad icosahedri latus Et sicut igitur (per 11 quinti) cubi latus ad icosahedri latus, sic solidum dodecahedri ad solidum icosahedri & quæ sequuntur.
 

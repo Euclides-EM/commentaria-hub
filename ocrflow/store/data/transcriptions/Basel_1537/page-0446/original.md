@@ -1,8 +1,8 @@
-# LIBER TERTIVSDECIMVS
+<!-- # LIBER TERTIVSDECIMVS -->
 
-*[Folio: 435]*
+<!-- Folio: 435 -->
 
-Eucli. ex Zamb. Theorema 11 Propositio 11
+## Eucli. ex Zamb. Theorema 11 Propositio 11
 
 *[Margin: 11]* *[Margin: Camp. 12]*
 
@@ -12,7 +12,7 @@ THEON ex Zamb. In circulo enim α β γ δ ε, rationalem habente diametrum, qui
 
 *[Figure: circle with inscribed pentagon α β γ δ ε (α at top, β left, ε right, γ bottom left, δ bottom right) and diagonals α γ, α δ; centre ζ; diameter α ζ produced to η at the bottom, β ζ produced to θ on the right; μ on α γ, λ on α δ, κ on the radius near ζ; below the figure a separate exposed straight line ν]*
 
-Eucli. ex Zamb. Theorema 12 Propositio 12
+## Eucli. ex Zamb. Theorema 12 Propositio 12
 
 *[Margin: 12]* *[Margin: Camp. 8]*
 
@@ -22,4 +22,4 @@ THEON ex Zamb. Sit circulus α β γ, & in eo triangulū æquilaterū describatu
 
 *[Figure: circle with inscribed equilateral triangle α β γ (α at top, β bottom left, γ bottom right); centre δ; diameter α δ produced to ε at the bottom of the circle; line β ε drawn]*
 
-*[Signature: O 2]* *[Catchword: sius]*
+<!-- Signature: O 2 --> <!-- Catchword: sius -->

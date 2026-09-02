@@ -1,6 +1,6 @@
-# LIBER TERTIVS
+<!-- # LIBER TERTIVS -->
 
-*[Folio: 73]*
+<!-- Folio: 73 -->
 
 ## Eucli. ex Camp. Propositio 24.
 
@@ -28,6 +28,6 @@ THEON ex Zamberto. *Sit datum segmentum circuli α β γ. Oportet iam segmenti �
 
 *[Figure: semicircle with β at the top and α, δ, γ on the base, with lines from β to α and to δ]*
 
-*[Signature: g]*
+<!-- Signature: g -->
 
-*[Catchword: aut]*
+<!-- Catchword: aut -->

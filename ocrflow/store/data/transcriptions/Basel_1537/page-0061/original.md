@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 52]*
+<!-- Folio: 52 -->
 
 rum laterum quod est c e, adiuncta maiori quod est b c, secundum rectitudinem. Totam b f diuidam per æqualia, in puncto g, & facto g centro, super lineam b f secundum quantitatē lineæ g b: describam semicirculū b h, & latus c e producā: usquequo secet circūferentiā in pūcto h. Dico quod quadratum lineæ c h: est æquale trigono dato. Producā lineā g h. Et quia linea b f diuisa est per æqualia in g, & per inæqualia in c: erit per 5 huius, q̃d fit ex ductu b c in c f cū quadrato c g, æquale quadrato g f, quare & quadrato g h, quare per penultimā primi, & duobus quadratis duarum linearum g c & c h. Ergo dempto utrinque quadrato c g, erit quod fit ex b c in c f, q̃d est æquale superficiei b e, eo quod c f est æquale quadrato lineæ c h, quare quadratū lineæ c h, est æquale trigono a, quod est propositum.
 
@@ -20,4 +20,4 @@ THEON ex Zamb. Sit datum rectilineum α. oportet ei rectilineo æquum quadratum 
 
 LIBRI SECVNDI FINIS.
 
-*[Catchword: EVCLIDIS]*
+<!-- Catchword: EVCLIDIS -->

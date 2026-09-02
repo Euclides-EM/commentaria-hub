@@ -1,8 +1,8 @@
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 218]*
+<!-- Folio: 218 -->
 
-Eucli. ex Zamb. Theorema 24 Propositio 26
+## Eucli. ex Zamb. Theorema 24 Propositio 26
 
 **26** Similes plani numeri adinuicem rationem habent, quam quadratus numerus ad quadratum numerum.
 
@@ -10,7 +10,7 @@ THEON ex Zamber. Sint similes plani numeri α β. Dico quod α ad β rationem ha
 
 *[Figure: dotted number lines α, γ, β, δ, ε, ζ]*
 
-Eucli. ex Camp. Propositio 25
+## Eucli. ex Camp. Propositio 25
 
 **25** OMnium duorum solidorum similium est proportio unius ad alterum, sicut alicuius cubi ad aliquem cubum.
 
@@ -18,7 +18,7 @@ Eucli. ex Camp. Propositio 25
 
 CAMPANVS: Sint a & b solidi similes, dico quod proportio unius eorum ad alterum, est sicut alicuius cubi ad aliquem alium cubum. Sunt quidem per 18 inter eos duo numeri medij secundum continuam proportionē, qui sint c & d, & in eorū proportione sint minimi quatuor e, f, g, h, quorū e & h erunt cubi per correlarium secūdæ: quia igitur per æquam proportionalitatē est a ad b, sicut e ad h, liquet propositū.
 
-Eucli. ex Zamb. Theorema 25 Propositio 27
+## Eucli. ex Zamb. Theorema 25 Propositio 27
 
 **27** Similes solidi numeri adinuicem rationem habent, quam cubus numerus ad cubum numerum.
 
@@ -36,4 +36,4 @@ PAr numerus, est qui potest in duo æqualia diuidi. 2 Impar numerus, est qui in 
 
 *[Margin: 1]*
 
-*[Catchword: Perfectus]*
+<!-- Catchword: Perfectus -->

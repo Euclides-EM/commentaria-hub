@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 8]*
+<!-- Folio: 8 -->
 
 re a k, est maior b k. Sed & b k, est maior a b: triangulus ergo a b k, est trium inæqualiū laterū. Sic igitur super datam lineā rectam, omnes triangulorū species collocauimus.
 

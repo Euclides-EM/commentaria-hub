@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 323]*
+<!-- Folio: 323 -->
 
 æquū est ei quod ex ε η, est igitur sicut α ζ, ad ε η, sic ε η, ad ζ η. Sed sicut quidē α ζ ad ε η, sic α ι, ad ε κ, sicut aūt ε η, ad ζ η, sic ε κ, ad ζ κ. Ipsorū igitur α ι, ζ κ. mediū proportiōale est ε κ. Sed ipsorū λ μ, ν ξ, quadratorū, mediū proportiōale est (per lēma 53 decimi,) μ ν, & α ι quidē æquū est ipsi λ μ, & ζ κ ipsi ν ξ. Igitur μ ν, ipsi ε κ, æquū est, Sed ipsi quidē ε κ, æquū est δ θ, at μ ν, ipsi λ ξ (per 36 primi) est æquale. Totū igitur δ κ. æquū est ipsi υ φ χ, gnomoni & ipsi ν ξ. Quoniā ergo totū α κ, æquū est ipsis λ μ, ν ξ, quorū δ κ æquū est ipsi υ φ χ gnomoni & ipsi ν ξ, reliquū igitur α β ipsi σ τ, est æquale. Hoc est, ei quod ex λ ν: quod igitur ex λ ν, ipsi α β, areolæ æquum est, ipsam igitur α β areolam, ipsa λ ν potest. Dico quod λ ν mediæ apotomæ est prima. Quoniā enim ε κ rationale est, & ipsi ν μ æquale hoc est ipsi λ ξ, rationale igitur est λ ξ, hoc est id quod sub λ ο, ο ν, (per constructionem.) Ostensum autem est, quod ν ξ medium est. Igitur λ ξ. ipsi ν ξ, est incommensurabile. Sicut autē λ ξ ad ν ξ, sic λ ο, ad ο ν. Ipsæ igitur λ ο, ο ν, lōgitudine sunt incōmensurabiles. Ipsæ igitur λ ο, ο ν, mediæ sunt potentia tantum commensurabiles, rationale comprehendentes. Ipsa igitur λ ν. mediæ apotomæ est prima (per 74 decimi.) Et ipsam α β potest areolā. Igitur quæ ipsam α β areolā potest, mediæ apotomæ est prima. Si areola igitur comprehensa fuerit, & quæ sequuntur reliqua, quod erat ostendendum.
 
@@ -22,4 +22,4 @@ THEON ex Zamb. Areola enim α β, comprehendatur sub rationali α γ, & apotome 
 
 *[Figure: rectangle with points α, δ, ε, ζ, η along the top edge and γ, β, θ, ι, κ along the bottom edge; vertical lines divide it below δ, ε and ζ]*
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

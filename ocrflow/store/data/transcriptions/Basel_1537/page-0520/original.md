@@ -1,6 +1,6 @@
-# SPECVLARIA
+<!-- # SPECVLARIA -->
 
-*[Folio: 509]*
+<!-- Folio: 509 -->
 
 d e: e f, excitetur per 11 primi elementorum perpendicularis ab ipso h in c d speculum b c, æqualis autem sit b c, ipsi c f, & rursus per eandem ab ipso a in e f, perpendicularis excitetur a f, & ipsa f a, æqualis esto f h, & per eandem ab ipso h in speculum d e, perpendicularis excitetur h k, sitq́; ipsi h k, æqualis k l, & ab ipso l in f cōnectantur l m x f, ab ipso aūt m in h cōnectatur m r h. Cōnectatur autem & a r & b x. Quoniam igitur æqualis est b c ipsi c f & qui ad c anguli recti sunt: binæ igitur b c, c q, ipsis binis f c, c q sunt altera alteri æquales, & angulus, qui sub c q, rectus existens, angulo qui sub s c q, recto existēti est æqualis per 4 postulatū, & reliqui reliquis angulis erunt æquales sub quibus æqualia latera subtenduntur per quartam primi elementorum. Angulus quidem qui ad b angulo qui ad f, & angulus x angulo t. Sed t ipsi n est æqualis per 15 primi elementorum ad uerticem enim. Quare & angulus n angulo x. Igitur uisus b x in m refringitur. Rursus quoniam æqualis est h k, ipsi k l, & qui ad k recti sunt, angulus o æqualis est ipsi p. Refringitur ergo idem uisus b x m in r, & id propterea iam & in a, quia æqualis est qui sub f r a, angulus ei qui sub e r m, similiter & in reliquis demonstrationibus. Inspice igitur ab ipso b oculo uisus a, per tria specula plana existentia c d, d e: e f.
 
@@ -22,4 +22,4 @@ Sit namque spectare oporteat à oculus uero sit b, & similiter describatur polyg
 
 *[Figure: pentagon with vertex d at top, b and l at upper right, e at upper left, c at right, t at left; circles (caua and conuexa specula) attached at the vertices; f, K at lower right, a and b at the bottom vertices, g below]*
 
-*[Signature: V 3]* *[Catchword: xo cin]*
+<!-- Signature: V 3 --> <!-- Catchword: xo cin -->

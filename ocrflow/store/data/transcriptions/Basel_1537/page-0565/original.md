@@ -1,6 +1,6 @@
-*[Folio: 522 — misprinted for 552]*
+<!-- Folio: 522 — misprinted for 552 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 tur g b.data est,& quoniam est sicut a e ad c f,sic est a g ad c d,& reliquæ g e,ad reliquã f d ratio est data. Data autem est g b,igitur e b,ipsa f d,dato maior est quàm in ratione.
 
@@ -36,4 +36,4 @@ Habeat enim totum a b ad totum,c d,datam rationem, habeant autẽ & a e,e b, par
 
 Receptum siquidem est quod ipsius c f ad f d,ratio data est, ponitur autem & ipsius e b
 
-*[Catchword: ad f d:]*
+<!-- Catchword: ad f d: -->

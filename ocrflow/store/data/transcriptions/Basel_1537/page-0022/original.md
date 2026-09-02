@@ -1,6 +1,6 @@
-# LIBER PRIMVS.
+<!-- # LIBER PRIMVS. -->
 
-*[Folio: 13]*
+<!-- Folio: 13 -->
 
 ## Eucli. ex Camp. Propositio 8.
 
@@ -26,4 +26,4 @@ CAMPANVS. Sit datus angulus quē oportet diuidere: angulus a b c. Lineas ipsum c
 
 *[Figure: rhombus-shaped construction with b at the top, a at the left, c at the right and d at the bottom; the diagonals a c and b d drawn, the sides b a and b c produced below]*
 
-*[Signature: b]* *[Catchword: tem]*
+<!-- Signature: b --> <!-- Catchword: tem -->

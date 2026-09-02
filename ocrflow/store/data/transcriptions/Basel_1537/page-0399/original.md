@@ -1,6 +1,6 @@
 # EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER DVODECIMVS,
 
-*[Folio: 388]*
+<!-- Folio: 388 -->
 
 ## Eucli. ex Camp. Propositio 1
 
@@ -24,4 +24,4 @@ Sint circuli α β γ δ ε, ζ η θ κ λ, & in eis sint similes figuræ multa
 
 *[Figure: larger circle with inscribed pentagon α β γ δ ε — β at top, γ upper left, δ lower left, μ at bottom, ε at bottom right, α at right; diameter β μ, with lines β ε and α μ drawn]*
 
-*[Catchword: æquum]*
+<!-- Catchword: æquum -->

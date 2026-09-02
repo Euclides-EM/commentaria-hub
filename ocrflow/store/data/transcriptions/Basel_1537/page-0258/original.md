@@ -1,6 +1,6 @@
-# LIBER DECIMVS
+<!-- # LIBER DECIMVS -->
 
-*[Folio: 247]*
+<!-- Folio: 247 -->
 
 γ commensurabiles sunt ipsæ α,β,γ, metietur eas aliqua magnitudo, quæ uidelicet & ipsas α,β, metietur, quare & ipsarum α,β, maximam communem mensuram δ, meetietur *[sic: metietur]* (per correlarium præcedentis, metitur autem & γ, quare dicta aliqua magnitudo metietur ipsas γ,δ. Cōmēsurabiles igitur sunt ipsæ γ δ. Sumatur (per 3 decimi, earū cōmunis maxima dimensio, sitq̃ ε. Quoniam igitur ε ipsam δ, metitur, sed δ ipsas α,β. metitur, & ε igitur α, β, metitur, metitur autem & γ, Igitur ε, ipsarum α,β,γ, communis est mensura. Dico quod & maxima. Si enim possibile, sit magnitudo ζ, minor quàm ε, metiaturq̃ ζ ipsas α,β,γ. Et quoniam ζ ipsas α,β,γ, metitur, metitur & ipsas α,β, & ipsarum igitur α,β, (per præcedens correlarium) maximam communem mensuram metietur. At ipsarum α,β, maxima communis mensura est δ, Igitur ζ ipsum δ, metitur, metitur autem & γ, igitur ζ ipsas γ,δ metitur, & ipsarum ergo γ,δ, maximam communem mensuram (per præcedens correlarium ) metietur ζ, maxima uero communis mensura ipsarum γ δ, est ε, igitur ζ ipsam ε metitur maior minorem, quod est impossibile. Ipsa igitur magnitudine ε, maior aliqua magnitudo, ipsas α,β,γ, non metitur. Igitur ε. ipsarum α,β,γ, maxima communis est dimensio, si non metiatur δ ipsam γ. Si autem metiatur, ipsa est δ. Tribus igitur magnitudinibus commensurabilibus datis, maxima communis earum dimensio inuenta est, quod cere oportebat *[sic: quod facere oportebat]*.
 
@@ -8,7 +8,7 @@ CORRELARIVM. Ex hoc proinde manifestum est, quod si magnitudo tres magnitudines 
 
 *[Figure: at the right of the proof, six vertical ticked lines of varying heights, labelled below α, β, γ, δ, ε, ζ]*
 
-Eucli. ex Camp. Propositio 5
+## Eucli. ex Camp. Propositio 5
 
 **5** OMnium duarum quantitatum communicantium est proportio tanquam numeri ad numerum.
 
@@ -18,7 +18,7 @@ CAMPANVS Sint duæ quantitates a & b, communicantes. Dico quod earum proportio e
 
 *[Figure: at the right of the proof, three horizontal ticked lines — the long line a with three square dots d at its right; the short line c with a single dot at its right; and the line b with square dots e at its right]*
 
-Eucli. ex Zamb. Theorema 3 Propositio 5
+## Eucli. ex Zamb. Theorema 3 Propositio 5
 
 **5** Commensurabiles magnitudines, adinuicem rationem habent quam numerus ad numerum.
 
@@ -28,7 +28,7 @@ THEON ex Zamberto. Sint commensurabiles magnitudines α,β. Dico quod α ad β, 
 
 *[Figure: at the right of the Theon proof, three vertical lines of decreasing height and columns of square dots, labelled below α, β, γ, δ, ε]*
 
-Eucli. ex Camp. Propositio 6
+## Eucli. ex Camp. Propositio 6
 
 **6** SI fuerint duæ quātitates quarū sit proportio unius ad alterā tanquam numeri ad numerum, eas duas communicātes esse necesse est.
 
@@ -38,6 +38,6 @@ CAMPANVS. Hæc est conuersa prioris. Vt si sit a ad b sicut numerus e ad numerum
 
 *[Figure: at the right of the proof, horizontal ticked lines — the long line f; the long line a; the short line e with three square dots c at its right; and the line b with two square dots d at its right]*
 
-*[Signature: x 4]*
+<!-- Signature: x 4 -->
 
-*[Catchword: conce]*
+<!-- Catchword: conce -->

@@ -1,6 +1,6 @@
-# PHAENOMENA
+<!-- # PHAENOMENA -->
 
-*[Folio: 599]*
+<!-- Folio: 599 -->
 
 cunferētia permutat apparēs hemisphæriū, q̃ ipsa m e f. Sit per quē fertur m signū, parallelus circulus g m x, æqualis igitur est k m ipsi o n, & quoniā o n contactui æstiui tropici propinquior est q̃ n f, in pluri igitur tēpore o n occidit q̃ n f. In quo autē tempore o n occidit, ipsa m k oritur. In pluri igitur tēpore m g oritur q̃ n f occidit. Cōmune apponatur tēpus in quo ipsa m e n, ꝑmutat apparens hemisphæriū. In pluri ergo tēpore ipsa k e n permutat apparēs hemisphæriū q̃ ipsa m e f.
 
@@ -16,6 +16,6 @@ Sit in mūdo horizon a b c, & maximus semper apparentiū sit a d e, maximus aute
 
 *[Figure: large sphere with a small circle at the top (containing e) and a small circle at the bottom; a at the top; l at the upper left; d, k at the upper right, z at the right edge; n, o in the upper middle; y at the centre; φ at the right; s, t at the left; r, b at the lower right; c, f by the bottom small circle; x, q, p at the lower left; u, g at the bottom; b below the sphere]*
 
-*[Signature: T 4]*
+<!-- Signature: T 4 -->
 
-*[Catchword: Tempus]*
+<!-- Catchword: Tempus -->

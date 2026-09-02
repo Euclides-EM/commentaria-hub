@@ -1,6 +1,6 @@
-*[Folio: 524]*
+<!-- Folio: 524 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 Sit enim sphæra cuius cētrum sit k, oculus autem sit b, & connectatur per primum postulatum b k, & per 11 primi ele. ei ad angulos excitetur rectos per k ipsa c k d & extendatur per b k, planum c k d, efficiet, inquā, in sphæra circulum, efficiat iam ipsum c d l n f. circum uero k b dimetientem circulus describatur, & per primū postulatū connectantur k f, f b, b l. l k, & l f igitur quoniam per 31 tertij elementorum anguli qui sub k f b. b l k, recti sunt, quoniam in semicirculis sunt. & ex cētro κ f & κ l in uno signo tangunt b l, b f, ipsam sphæram. Igitur ab ipso b oculo procidētes radij in ipsas b f, b l, procidunt. Et quoniam uterque qui ad h. sunt angulorum rectus est eo quia d, ipsi f l. parallelus est, & f h, ipsi h l, est æqualis per tertiam tertij elementorū, si iā manēte ipsa h b ipsum h f b, triangulum circūducatur in idem rursus reuoluetur unde cœperat circunduci. At b f, circumacta in uno signo sphæræ ambitum tangit per correlarium 16 tertij elementorum, hoc est in f, & circulus erit descriptus per f l signa, quare sub circulo id sphæræ quod spectatur contentū, uidetur & minus hemisphærio: ipsum namque f n l: minus est hæmisphærio. Quare & ab oculo spectatum minus est hemisphærio.
 
@@ -22,4 +22,4 @@ Sit sphæra cuius dimetiens sit b c. & ab ipso b c per 11 primi elemento. excite
 
 *[Figure: circle at left with b at its top, d at the centre and e at the bottom; rectangle extending to the right with f at top right, κ and l on the right side — the two eyes at f and l]*
 
-*[Catchword: sus]*
+<!-- Catchword: sus -->

@@ -1,6 +1,6 @@
-*[Folio: 209]*
+<!-- # LIBER OCTAVVS -->
 
-# LIBER OCTAVVS
+<!-- Folio: 209 -->
 
 ## Eucli.ex Camp. Propositio 10
 
@@ -32,6 +32,6 @@ THEON ex Zamberto. Sint bini cubi numeri α,β,& ipsius quidem α. latus esto γ
 
 *[Figure, right of the proof: numbers as horizontal rows of dots, labelled α; θ; κ; β; γ; δ; ε; ζ; η]*
 
-*[Signature: S 3]*
+<!-- Signature: S 3 -->
 
-*[Catchword: (per]*
+<!-- Catchword: (per -->

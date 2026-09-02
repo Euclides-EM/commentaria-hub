@@ -1,6 +1,6 @@
-# LIBRI QVARTI ADDITAMENTVM 587
+<!-- # LIBRI QVARTI ADDITAMENTVM -->
 
-*[Folio: 587]*
+<!-- Folio: 587 -->
 
 & angulus a c h est duplus angulo h c b, diuidã ergo angulum c h per æqualia per lineam c ut patet propositum.
 

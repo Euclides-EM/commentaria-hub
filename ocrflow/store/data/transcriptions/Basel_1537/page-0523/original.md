@@ -1,6 +1,6 @@
-*[Folio: 512]*
+<!-- Folio: 512 -->
 
-# EVCLIDIS MEGARENSIS
+<!-- # EVCLIDIS MEGARENSIS -->
 
 & b c d, extra cadit. igitur e d in maiori angulo spectatur à speculo plano comprehēso sub k b l, quæ à cōuexo. æquum autem patuit apparens in plano, manifestum igitur quod à conuexo speculo simulacrum minus apparet re uisa.
 
@@ -28,4 +28,4 @@ Esto cauum speculū a c d, centrum aūt ipsius sit b, uisus uero sint b a b, c b
 
 *[Figure: semicircle with e at the top, f and c inside near the apex, and b at the middle of the base diameter]*
 
-*[Catchword: Theore]*
+<!-- Catchword: Theore -->

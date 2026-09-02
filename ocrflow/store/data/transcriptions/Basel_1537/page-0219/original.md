@@ -1,6 +1,6 @@
-*[Folio: 208]*
+<!-- Folio: 208 -->
 
-# ARITHMET. ELEMENT. EVCLIDIS
+<!-- #  ARITHMET. ELEMENT. EVCLIDIS -->
 
 præmissæ, appositum erat a & b esse contra se primos, quod non apponitur hic ad passionem, quapropter uniuersalior est passio huius: subiecto illius. Quia igitur quoties unitas in d, toties est d in c & toties c in a, constat quod ex d in se, fit c, & ex eodem d in ca. Similiter quoque ex f in se & in c. fient e & b. Ducatur itaque d in f, & productus sit g, itemque idem d ducatur in g & e, & sint producti h & k. Constat igitur ex 18 septimi, quod c ad g, ut d ad f. & ex 19 quod g ad e, ut d ad f, quare c,g,e, sunt continue proportionales in proportione d ad f. Item per 18 iterum sunt a ad h sicut c ad g, & h ad k sicut g ad e, & per 19 k ad b sicut d ad f, igitur sunt a,h,k,b, continue proportionales. Quare constat propositum.
 
@@ -18,4 +18,4 @@ THEON ex Zamberto. Inter binos enim numeros α,β,& unitatem ε, continue propor
 
 Hæc undecima ex Campano, duabus ex Zamberto sequentibus respondent.
 
-*[Catchword: Eucli.]*
+<!-- Catchword: Eucli. -->

@@ -1,4 +1,4 @@
-*[Folio: 516]*
+<!-- Folio: 516 -->
 
 # BARTHOLOMAEVS ZAMBERTVS VENETVS
 
@@ -14,4 +14,4 @@ QVVM me iam pluribus annis hisce mathematicis disciplinis mirum in modum delecta
 
 OSTENDENS ea quæ per uisum consolationis gratia non nullos induxerunt, ratiocinatus est, quod omne lumen in rectas lineas prorenditur *[sic: protenditur]*, reique huiusmodi argumentum uel maximum esse ex corporibus umbras eductas. deque foraminibus & aspectibus lucem delatam. Horum &enim unumquodq́ neutiquam fieret sicut & nunc factū spectatur, nisi à sole delati radij in rectas lineas extenderētur. Itidem quoque ex ignibus nostris emissam inquit lucem causam esse, qua corporum adiacentium aliqua illustrantur, indeq́ umbræ educuntur. aliquæ quidem subiectis æquales corporibus. Aliæ uerò maiores. Aliæ porro
 
-*[Catchword: suppo]*
+<!-- Catchword: suppo -->

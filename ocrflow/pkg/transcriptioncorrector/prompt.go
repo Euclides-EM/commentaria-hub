@@ -1,10 +1,12 @@
 package transcriptioncorrector
 
 import (
+	"crypto/sha256"
 	"errors"
 	"fmt"
 	"strings"
 
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 	"github.com/pmezard/go-difflib/difflib"
 )
 
@@ -15,9 +17,8 @@ type diffStats struct {
 
 //go:generate go run ./internal/gendialect -input ../../../docs/MARKDOWN_DIALECT.md -output markdown_dialect_generated.go
 
-func buildPrompt(pageKey string, round, rounds int, candidates []candidate, previousPage string) string {
-	var b strings.Builder
-	fmt.Fprintf(&b, `You are correcting a scholarly markdown transcription from an image of an early printed page.
+func buildPrompt(pageKey string, round, rounds int, candidates []candidate, previousPage string) llm.Prompt {
+	static := fmt.Sprintf(`You are correcting a scholarly markdown transcription from an image of an early printed page.
 
 Use the attached image as the authority. Silently compare it with the supplied candidate transcriptions, reconcile disagreements, and make only evidence-based corrections. Preserve historical spelling, capitalization, punctuation, special characters, and textual order. Do not modernize, translate, summarize, invent illegible text, or describe your reasoning.
 
@@ -41,28 +42,34 @@ Before responding, silently verify that:
 1. the response begins with transcription content, not commentary;
 2. every catchword is contained in a single <!-- Catchword: ... --> comment;
 3. running titles use <!-- Running title: ... -->;
-4. page numbers use <!-- Page: ... -->;
-5. no supplied boundary markers or instructions occur in the output.
+4. page and folio numbers use <!-- Page number: ... -->;
+5. no supplied boundary markers or instructions occur in the output.`, strings.TrimSpace(markdownDialect))
 
-Current page: %s
+	var dynamic strings.Builder
+	fmt.Fprintf(&dynamic, `Current page: %s
 Correction round: %d of %d
 
 CURRENT-PAGE TRANSCRIPTIONS:
-`, strings.TrimSpace(markdownDialect), pageKey, round, rounds)
+`, pageKey, round, rounds)
 	for i, c := range candidates {
-		fmt.Fprintf(&b, "\n--- BEGIN TRANSCRIPTION %d: %s ---\n%s\n--- END TRANSCRIPTION %d ---\n", i+1, c.label, strings.TrimSpace(c.text), i+1)
+		fmt.Fprintf(&dynamic, "\n--- BEGIN TRANSCRIPTION %d: %s ---\n%s\n--- END TRANSCRIPTION %d ---\n", i+1, c.label, strings.TrimSpace(c.text), i+1)
 	}
 	if strings.TrimSpace(previousPage) != "" {
-		fmt.Fprintf(&b, `
+		fmt.Fprintf(&dynamic, `
 PREVIOUS-PAGE CONTEXT (context only; do not copy text from it into the current page):
 --- BEGIN PREVIOUS PAGE ---
 %s
 --- END PREVIOUS PAGE ---
 `, strings.TrimSpace(previousPage))
 	} else {
-		b.WriteString("\nThere is no previous-page transcription for this page.\n")
+		dynamic.WriteString("\nThere is no previous-page transcription for this page.\n")
 	}
-	return b.String()
+	cacheHash := sha256.Sum256([]byte(static))
+	return llm.Prompt{
+		Static:   static,
+		Dynamic:  dynamic.String(),
+		CacheKey: fmt.Sprintf("transcription-corrector-%x", cacheHash[:12]),
+	}
 }
 
 func normalizeResponse(response string) (string, error) {

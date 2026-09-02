@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. EVCLIDIS
+<!-- # GEOMET. ELEMENT. EVCLIDIS -->
 
-*[Folio: 84]*
+<!-- Folio: 84 -->
 
 Sit a punctus signatus extra circulum b c d, cuius centrum e, & ab ipso, a ducantur duæ lineæ a b & a d, contingētes circulum in punctis b, d. Dico ipsas esse æquales. Producam enim lineas e a, e b, & e d, eritq̃ per 17 huius uterque angulorū b & d, rectus. Quare per penultimam primi, quadratum a e, erit æquale duobus quadratis duarū linearum a b, & b e, similiter quoque & duobus duarū a d & d e. Quare quadrata duarum linearum a b, & b e, sunt æqualia quadratis duarū a d & d e. Et quia quadrata duarum quæ sunt b e & e d sunt æqualia, erunt quadrata duarū quæ sunt a b & a d, æqualia: ergo est a b, æqualis a d, quod est propositum. Aliter etiam. Ducatur linea b d, eritq̃ per 5 primi, angulus e b d, æqualis angulo e d b, propter id quod linea e b, est æqualis lineæ e d. Et quia uterque duorum angulorum b & d est rectus, erit per communem scientiā angulus a b d residuus, æqualis angulo a d b residuo. per sextā ergo primi: est linea a b, æqualis lineæ a d.
 
@@ -20,4 +20,4 @@ THEON ex Zamb. Extra enim circulum α β γ, sumatur signū aliquod, sitq̃ illu
 
 SI fuerit punctus extra circulum signatus à quo duæ lineæ ad circunferentiam ducantur altera secans, altera circunferentiæ applicata, fueritq̃ quod ex ductu totius secantis in partē sui extrinsecā
 
-*[Catchword: æquum]*
+<!-- Catchword: æquum -->
