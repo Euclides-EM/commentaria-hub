@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 tis describuntur, quadratis, & ei, quod bis sub segmentis comprehenditur, rectangulo.
 
@@ -14,7 +13,7 @@ Req. π. demonstr.
 
 ▭.ab 2|2 ▭.ac + ▭.cb + 2▭.acb,
 
-*[Figure: quarré E—F—D en haut, A—C—B en bas, H—G—I au milieu, diagonale E—G—B, ligne F—G—C]*
+[Figure: quarré E—F—D en haut, A—C—B en bas, H—G—I au milieu, diagonale E—G—B, ligne F—G—C]
 
 Præpar.
 

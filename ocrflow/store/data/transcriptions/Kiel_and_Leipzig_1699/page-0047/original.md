@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 29)* -->
+<!-- Page number: 29 -->
 
 ### Wirckung.
 
@@ -9,7 +9,7 @@
 3. Auff den Strich DE wird ein gleichseitiges △ DEF gesetzt/ nach 1. Vortr.
 4. Aus dem Düttel A wird ein gerader Strich AF zu dem Gipffel des gemachten △ gezogen.
 
-*[Figur: Winckel CAB mit Scheitel A, darinn die Düttele E und D, punktierte Striche und der Strich AF zum Gipffel F]*
+[Diagram: Winckel CAB mit Scheitel A, darinn die Düttele E und D, punktierte Striche und der Strich AF zum Gipffel F]
 
 ### Beweiß.
 
@@ -29,6 +29,6 @@ Und ist also der gegebene Winckel ABC in zween gleiche theile getheilet / W. Z. 
 
 Einen geraden endlichen Strich in zween gleiche Theile zu theilen.
 
-<!-- signature mark: D 3 -->
+<!-- Signature: D 3 -->
 
-<!-- catchword: Ge- -->
+<!-- Catchword: Ge- -->

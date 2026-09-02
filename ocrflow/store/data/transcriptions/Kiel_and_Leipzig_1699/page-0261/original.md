@@ -1,8 +1,8 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 237)* -->
+<!-- Page number: 237 -->
 
-*[Figur: vier waagerechte Linien, bezeichnet 2A, 4a, 2B, 4b]*
+[Diagram: vier waagerechte Linien, bezeichnet 2A, 4a, 2B, 4b]
 
 ### II. Beweiß.
 
@@ -14,7 +14,7 @@
 | | B | 3b | n. Bew. | θ |
 | | B | b | n. 9. Gr. I. | |
 | Dw. | 2B | 4b | n. 4. Gr. I. | |
-| κ (?) Und. | 2A + 2B | 4a + 4b | n. 4. Gr. g. (?) I. | |
+| [unclear: κ] Und. | 2A + 2B | 4a + 4b | n. 4. Gr. [unclear: g.] I. | |
 
 Oder also:
 
@@ -25,8 +25,8 @@ Oder also:
 3. a üm die Helffte.
 4. wie auch b üm die Helffte vergrössert.
 
-*[Figur: vier waagerechte Linien, bezeichnet 2A, 1½a, 2B, 1½b]*
+[Diagram: vier waagerechte Linien, bezeichnet 2A, 1½a, 2B, 1½b]
 
-<!-- signature mark: Gg 3 -->
+<!-- Signature: Gg 3 -->
 
-<!-- catchword: Beweiß -->
+<!-- Catchword: Beweiß -->

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 343)* -->
+<!-- Page number: 343 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 II. Vorbereitung ist wie die I. Vorher.
 
@@ -32,4 +32,4 @@ Gleichmässige/ und einen gleichmässigen Winckel habende Dreyecke/ haben auch b
 
 Und welche Dreyecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ dieselben sind gleichmässig.
 
-<!-- catchword: I. Gegebene. -->
+<!-- Catchword: I. Gegebene. -->

@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-<!-- # ELEM.. EVCLID. LI. XI. -->
-
-<!-- D B / E / A C (figure) -->
+[Figure: labels arranged D B / E / A C]
 
 ab & cd snt ꝗn vn. plan.
 △deb, est ꝗn vn. plan.
@@ -21,7 +20,7 @@ Si duo plana se mutuò secent, communis eorum sectio est linea recta.
 
 *Si deux plans se coupent l'vn l'autre, la commune section d'iceux est vne ligne droicte.*
 
-<!-- A C / E F / D B (figure) -->
+[Figure: labels arranged A C / E F / D B]
 
 Hypoth.
 

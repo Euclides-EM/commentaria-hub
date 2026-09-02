@@ -1,12 +1,11 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 ma secunda; recta linea spatium potens, mediæ est apotome prima.
 
 *Si vn espace est contenu sous vne ligne rationelle, & vn apotome second; la ligne droicte qui peut iceluy espace, est apotome du medial premier.*
 
-<!-- A D F G E / B C K H I (figure) -->
-<!-- L N P / T S O / V X / Q R M (figure) -->
+[Figure: labels arranged A D F G E / B C K H I]
+[Figure: labels arranged L N P / T S O / V X / Q R M]
 
 Hypoth.
 

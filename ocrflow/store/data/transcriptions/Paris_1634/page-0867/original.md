@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
-<!-- # ELEM.. EVCLID. LI. XIV. -->
-
-<!-- (figure) A / B E / F / C H D / G / I K / o q p — L / R / M N -->
+[Figure: labels arranged A / B E / F / C H D / G / I K / o q p — L / R / M N]
 
 2 c.10.13 | ∩cg 2|2 ∩gd,
 47. 1 | □.ac + □.cg 2|2 □.ag,

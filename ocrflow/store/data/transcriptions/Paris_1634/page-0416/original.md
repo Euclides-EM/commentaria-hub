@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 1.6 | ▭.gca π □.ac, 36.3 | ▭.bcd 2|2 ▭.gca,
 1.6 | ▭.fea π □.ea, 36.3 | ▭.bed 2|2 ▭.fea,
@@ -10,7 +9,7 @@
 
 Pappus lib. 7. propos. 28.
 
-*[Figure: triangle auec les poincts F, B, A, D, E, C, G]*
+[Figure: triangle auec les poincts F, B, A, D, E, C, G]
 
 Hypoth.
 

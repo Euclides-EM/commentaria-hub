@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 *continuant, il demeurera en fin quelque grandeur, plus petite que la moindre grandeur proposee.*
 

@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 2.6 | am π mo 2|2 ar π rs,
 conſtr. | ar 2|2 rs,
@@ -9,7 +9,7 @@ concl. d.γ | am, mo, op, pq, qb *ſnt* 2|2 đe.
 
 A deux lignes droictes données, trouuer la troisiesme proportionelle.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

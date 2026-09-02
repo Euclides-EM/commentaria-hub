@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 2.concl. α.15.5 | raō.. ◇bg π ◇hf 2|2 raō.. ai π dk + raō.. bc π ef.
 
@@ -9,7 +8,7 @@ In omni parallelogrammo, quæ circa diametrum sunt parallelogrāma & toti, & int
 
 En tout parallelogramme, les parallelogrammes qui sont à l'entour du diametre, sont semblables à leur tout, & entr'eux.
 
-*[Figure: parallelogramme A, B, C, D auec diametre A—C, points E, G, I, H, F]*
+[Figure: parallelogramme A, B, C, D auec diametre A—C, points E, G, I, H, F]
 
 Hypoth.
 

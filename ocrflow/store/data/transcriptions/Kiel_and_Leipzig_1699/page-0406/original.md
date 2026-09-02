@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 376)* -->
+<!-- Page number: 376 -->
 
 ### Beweiß.
 
@@ -30,4 +30,4 @@ Dw. □ sr ähnlich □ D n. 21. VI.
 
 Ist also an den Strich AB ein mangelhafftes □ Ap, welches gleichmässig dem △ X angeschlagen ulso/ daß das mangelende □ sr dem □ D ähnlich sey. W. Z. M.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

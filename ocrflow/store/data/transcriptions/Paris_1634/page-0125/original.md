@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 ## SCHOL. I.
 
@@ -37,7 +36,7 @@ Ex hoc scholio perspicua est demonstratio methodi qua expeditus recta linea, per
 
 De cet scholie est manifeste la demonstration d'vne methode plus briefue de mener vne ligne droicte, par vn poinct donné, parallele à vne ligne droicte donnée.
 
-*[Figure: ligne A—E—F—B en haut, ligne C—D en bas, arcs se coupans en D]*
+[Figure: ligne A—E—F—B en haut, ligne C—D en bas, arcs se coupans en D]
 
 Hypoth.
 

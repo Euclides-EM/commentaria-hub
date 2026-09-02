@@ -1,12 +1,12 @@
-<!-- *(Seitenzahl: 311)* -->
+<!-- Page number: 311 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Begehrtes.
 
 Grundstriche ab | ef.
 
-*[Figur: Zwei Dreyecke A und B mit den Punkten a, g, b, c, d, e, f, links das Dreyeck A über der Grundlinie a g b, rechts das Dreyeck B über e f, mit gestrichelten Hülffslinien]*
+[Diagram: Zwei Dreyecke A und B mit den Punkten a, g, b, c, d, e, f, links das Dreyeck A über der Grundlinie a g b, rechts das Dreyeck B über e f, mit gestrichelten Hülffslinien]
 
 ### Vorbereitung.
 
@@ -30,4 +30,4 @@ ab ⊢ ef
 
 Gleicher Gestalt kan auch erwiesen werden/ daß derer nebenstrichichten Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ ihre Grundstriche gleicher Grösse seyn müssen. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 hyp. | e, multipl.. a,
 | f, multipl.. c,

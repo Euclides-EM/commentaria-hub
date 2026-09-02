@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 dem laterum homologorum, quæ quoque sunt latera homologa prismatum.
 

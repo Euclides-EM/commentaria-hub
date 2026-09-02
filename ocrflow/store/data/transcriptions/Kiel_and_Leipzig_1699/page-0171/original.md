@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 153)* -->
+<!-- Page number: 153 -->
 
 ### Vorbereitung.
 
@@ -26,12 +26,12 @@ Wenn zween Kreyse einander auswendig bey s/und t anrühren.
 
 Es werde von einem Anrührungs-Düttel s zu dem andern t der gerade Strich st gezogen.
 
-*[Figur: zwei einander schneidende Kreise; an den Durchschnitten oben s und unten t, dazwischen ein punktierter Strich; im rechten Kreis der Punkt u]*
+[Diagram: zwei einander schneidende Kreise; an den Durchschnitten oben s und unten t, dazwischen ein punktierter Strich; im rechten Kreis der Punkt u]
 
 ### Beweiß.
 
 Dieser gerade Strich wird ausser den Kreiß stu fallen / da doch seine beeden Endungen in gedachtem Kreyse stehen / welches unmüglich/n. 2. III.
 
-<!-- signature mark: V -->
+<!-- Signature: V -->
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

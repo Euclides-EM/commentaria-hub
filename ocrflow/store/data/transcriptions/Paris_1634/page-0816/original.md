@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-<!-- # ELEM.. EVCLID. LI. XII. -->
-
-<!-- B H / E / A D M F L C / G K (figure) -->
+[Figure: labels arranged B H / E / A D M F L C / G K]
 
 Req. π. fa.
 

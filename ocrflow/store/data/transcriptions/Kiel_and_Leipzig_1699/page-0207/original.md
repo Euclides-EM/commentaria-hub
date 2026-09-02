@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 189)* -->
+<!-- Page number: 189 -->
 
 ### Vorbereitung.
 
@@ -32,8 +32,8 @@ Von einem gegebenen Kreyß ein Stück / in welchem ein Winckel / so dem gegebene
 1. Kreyß dead. | 1. Abgeschnittenes Kreyßstück dea.
 2. Winckel hfg. | 2. In welchem stehen kan aed ⋀ hfg.
 
-*[Figur: Kreis mit Punkten e, d, n, m, a, b; Tangente g–c–f–a–b unten, Striche h und k links]*
+[Diagram: Kreis mit Punkten e, d, n, m, a, b; Tangente g–c–f–a–b unten, Striche h und k links]
 
-<!-- signature mark: Aa 3 -->
+<!-- Signature: Aa 3 -->
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

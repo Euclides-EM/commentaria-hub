@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. IV. -->
+<!-- Running title: D'EVCLIDE, LIV. IV. -->
 
 ſymp. | 5∠ghikl *eſt le requis.*
 

@@ -1,6 +1,6 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 14)* -->
+<!-- Page number: 14 -->
 
 (q) Wenn alle Theile zusammen genommen werden / so sind sie eben so groß / als das Gantze.
 
@@ -22,4 +22,4 @@ Nach dem die Anfänge vorhergesetzet/ werden die Beweißthüme angestellet/ und 
 
 Die Haupt-Sätze sind widerum zweyerley / nemlich (1) Würckliche und (2) Beweißliche Vorstellungen. Jene / die Würcklichen/ können füglich Werck-Stücke (Problemata) genennet werden / und geben etwas zu verfertigen auff/ nach der Ver-
 
-<!-- catchword: ferti- -->
+<!-- Catchword: ferti- -->

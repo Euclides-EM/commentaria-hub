@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 319)* -->
+<!-- Page number: 319 -->
 
 Dw. | ba : cd | ba : CD | n. 7. V.
 1. u. | ba : CD | bc : CE | n. 11. V.
@@ -25,10 +25,10 @@ Dw. | ba : cd | ac : de | n. Anh. 7. V.
 | de | DE | n. 3. Vorb.
 Dw. | ba : DC | ac : DE | n. Anh. 7. V.
 
-*[Figur: kleines Dreieck, blass im Hintergrund der Tabelle]*
+[Diagram: kleines Dreieck, blass im Hintergrund der Tabelle]
 
 ### Beschluß.
 
 So stehen derowegen aller gleichwincklichten Dreyecke Seiten in ebenmässiger Verhällnüß / so ferne sie gleichmässige Winckel einschrencken / oder gleichmässigen Winckeln gegen über stehen. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 est desia prouué par construction ou demonstration. Comme en cette demonstration, la premiere citation 15. d. 1. se mettra en syllogisme ainsi. *Par la 15. def. du 1. les lignes tirées du centre à la circonference ſont égales entr'elles :* la mineure est, *mais par la conſtruction AC & AB ſont tirées du centre à la circonference :* ergo AC est égal à AB : & ainsi des autres citations.
 
@@ -6,7 +6,7 @@ est desia prouué par construction ou demonstration. Comme en cette demonstratio
 
 A vn poinct donné, poser vne ligne droicte, égale à vne ligne droicte donnée.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

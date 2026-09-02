@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 on trouuera que 834 aulnes à 7 liures 16 sols l'aulne vaudront 6505 liures 4 sols : & 377 aulnes à 9 liures 15 sols, valent 3675 liures 15 sols.
 

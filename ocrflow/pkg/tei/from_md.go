@@ -2,11 +2,20 @@ package tei
 
 import (
 	"encoding/xml"
+	"regexp"
 	"strconv"
 	"strings"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/markdown"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
+)
+
+var (
+	markdownZoneStartPattern  = regexp.MustCompile(`^\[(Margin|Footnote|Handwritten|Other)(?: type="([^"]+)")?\]$`)
+	markdownDropcapPattern    = regexp.MustCompile(`^\{dropcap:([^|}]+)\|lines=([^|}]+)\|style=(plain|decorated|unknown)(?:\|decoration="([^"]*)")?\}`)
+	markdownCorrectionPattern = regexp.MustCompile(`^\{printer-error-correction:([^}]+)\}`)
+	markdownIllegiblePattern  = regexp.MustCompile(`^\[illegible(?:: ([^\]]+))?\]`)
+	markdownUnclearPattern    = regexp.MustCompile(`^\[unclear: ([^\]]+)\]`)
 )
 
 func BuildTEIFromMarkdown(
@@ -57,9 +66,9 @@ func markdownBlocksToABs(pageKey string, md *markdown.Markdown) []model.AB {
 			continue
 		}
 
-		if comment, ok := parseMarkdownComment(trimmed); ok {
+		if blockType, content, ok := parseMarkdownFurniture(trimmed); ok {
 			flushParagraph()
-			abs = append(abs, newMarkdownAB(pageKey, len(abs)+1, "comment", []string{comment}))
+			abs = append(abs, newMarkdownAB(pageKey, len(abs)+1, blockType, []string{content}))
 			continue
 		}
 
@@ -69,7 +78,7 @@ func markdownBlocksToABs(pageKey string, md *markdown.Markdown) []model.AB {
 			continue
 		}
 
-		if isMarkdownTableLine(trimmed) {
+		if isMarkdownTableStart(lines, i) {
 			flushParagraph()
 			var tableLines []string
 			for i < len(lines) && isMarkdownTableLine(strings.TrimSpace(lines[i])) {
@@ -83,9 +92,25 @@ func markdownBlocksToABs(pageKey string, md *markdown.Markdown) []model.AB {
 			continue
 		}
 
-		if figure := parseMarkdownFigure(trimmed); figure != "" {
+		if blockType, closingTag, ok := parseMarkdownContainerStart(trimmed); ok {
 			flushParagraph()
-			abs = append(abs, newMarkdownAB(pageKey, len(abs)+1, "figure", []string{figure}))
+			var content []string
+			for i++; i < len(lines) && strings.TrimSpace(lines[i]) != closingTag; i++ {
+				content = append(content, lines[i])
+			}
+			abs = append(abs, newMarkdownAB(pageKey, len(abs)+1, blockType, content))
+			continue
+		}
+
+		if blockType, description, ok := parseMarkdownPageObject(trimmed); ok {
+			flushParagraph()
+			abs = append(abs, newMarkdownAB(pageKey, len(abs)+1, blockType, []string{description}))
+			continue
+		}
+
+		if trimmed == "[Blank page]" {
+			flushParagraph()
+			abs = append(abs, newMarkdownAB(pageKey, len(abs)+1, "blank-page", []string{""}))
 			continue
 		}
 
@@ -115,7 +140,9 @@ func markdownInlineNodes(s string) []model.ABNode {
 		linkStart := strings.Index(s, "[")
 		boldStart := strings.Index(s, "**")
 		italicStart := strings.Index(s, "*")
-		next := firstMarkdownInlineIndex(linkStart, boldStart, italicStart)
+		dropcapStart := strings.Index(s, "{dropcap:")
+		correctionStart := strings.Index(s, "{printer-error-correction:")
+		next := firstMarkdownInlineIndex(linkStart, boldStart, italicStart, dropcapStart, correctionStart)
 		if next < 0 {
 			nodes = appendTextNode(nodes, s)
 			break
@@ -124,6 +151,54 @@ func markdownInlineNodes(s string) []model.ABNode {
 		s = s[next:]
 
 		switch {
+		case strings.HasPrefix(s, "{dropcap:"):
+			match := markdownDropcapPattern.FindStringSubmatch(s)
+			if match == nil {
+				nodes = appendTextNode(nodes, s[:1])
+				s = s[1:]
+				continue
+			}
+			rend := "dropcap lines=" + match[2] + " style=" + match[3]
+			if match[4] != "" {
+				rend += " decoration=" + match[4]
+			}
+			nodes = append(nodes, model.ABNode{Inline: &model.Inline{
+				XMLName: xml.Name{Local: "hi"}, Rend: rend, Text: match[1],
+			}})
+			s = s[len(match[0]):]
+		case strings.HasPrefix(s, "{printer-error-correction:"):
+			match := markdownCorrectionPattern.FindStringSubmatch(s)
+			if match == nil {
+				nodes = appendTextNode(nodes, s[:1])
+				s = s[1:]
+				continue
+			}
+			nodes = append(nodes, model.ABNode{Inline: &model.Inline{
+				XMLName: xml.Name{Local: "note"}, Ana: "printer-error-correction", Text: " [correction: " + match[1] + "]",
+			}})
+			s = s[len(match[0]):]
+		case strings.HasPrefix(s, "[illegible"):
+			match := markdownIllegiblePattern.FindStringSubmatch(s)
+			if match == nil {
+				nodes = appendTextNode(nodes, s[:1])
+				s = s[1:]
+				continue
+			}
+			nodes = append(nodes, model.ABNode{Inline: &model.Inline{
+				XMLName: xml.Name{Local: "gap"}, Ana: "illegible", Text: match[0],
+			}})
+			s = s[len(match[0]):]
+		case strings.HasPrefix(s, "[unclear:"):
+			match := markdownUnclearPattern.FindStringSubmatch(s)
+			if match == nil {
+				nodes = appendTextNode(nodes, s[:1])
+				s = s[1:]
+				continue
+			}
+			nodes = append(nodes, model.ABNode{Inline: &model.Inline{
+				XMLName: xml.Name{Local: "unclear"}, Text: match[0],
+			}})
+			s = s[len(match[0]):]
 		case strings.HasPrefix(s, "["):
 			endText := strings.Index(s, "](")
 			if endText < 0 {
@@ -196,18 +271,54 @@ func firstMarkdownInlineIndex(indexes ...int) int {
 	return min
 }
 
-func parseMarkdownComment(line string) (string, bool) {
-	if !strings.HasPrefix(line, "<!--") || !strings.HasSuffix(line, "-->") {
-		return "", false
+func parseMarkdownFurniture(line string) (string, string, bool) {
+	for label, blockType := range map[string]string{
+		"Running title": "running-title",
+		"Page number":   "page-number",
+		"Signature":     "signature",
+		"Catchword":     "catchword",
+	} {
+		prefix := "<!-- " + label + ": "
+		if strings.HasPrefix(line, prefix) && strings.HasSuffix(line, " -->") {
+			return blockType, strings.TrimSuffix(strings.TrimPrefix(line, prefix), " -->"), true
+		}
 	}
-	return strings.TrimSpace(strings.TrimSuffix(strings.TrimPrefix(line, "<!--"), "-->")), true
+	return "", "", false
 }
 
-func parseMarkdownFigure(line string) string {
-	if !strings.HasPrefix(line, "*[") || !strings.HasSuffix(line, "]*") {
-		return ""
+func parseMarkdownContainerStart(line string) (string, string, bool) {
+	if line == "[Calculation]" {
+		return "calculation", "[/Calculation]", true
 	}
-	return strings.TrimSpace(strings.TrimSuffix(strings.TrimPrefix(line, "*["), "]*"))
+	match := markdownZoneStartPattern.FindStringSubmatch(line)
+	if match == nil {
+		return "", "", false
+	}
+	blockType := strings.ToLower(match[1])
+	if match[2] != "" {
+		blockType += ":" + match[2]
+	}
+	return blockType, "[/" + match[1] + "]", true
+}
+
+func parseMarkdownPageObject(line string) (string, string, bool) {
+	for _, label := range []string{"Diagram", "Figure", "Illustration", "Ornament"} {
+		if line == "["+label+"]" {
+			return strings.ToLower(label), "", true
+		}
+		prefix := "[" + label + ": "
+		if strings.HasPrefix(line, prefix) && strings.HasSuffix(line, "]") {
+			return strings.ToLower(label), strings.TrimSuffix(strings.TrimPrefix(line, prefix), "]"), true
+		}
+	}
+	return "", "", false
+}
+
+func isMarkdownTableStart(lines []string, index int) bool {
+	if index+1 >= len(lines) || !isMarkdownTableLine(strings.TrimSpace(lines[index])) {
+		return false
+	}
+	return isMarkdownTableSeparator(strings.TrimSpace(lines[index+1]))
 }
 
 func isMarkdownTableLine(line string) bool {
@@ -231,9 +342,35 @@ func markdownTableLineToText(line string) string {
 	line = strings.TrimSpace(line)
 	line = strings.TrimPrefix(line, "|")
 	line = strings.TrimSuffix(line, "|")
-	cells := strings.Split(line, "|")
+	var cells []string
+	var cell strings.Builder
+	escaped := false
+	for _, r := range line {
+		if escaped {
+			if r != '|' {
+				cell.WriteRune('\\')
+			}
+			cell.WriteRune(r)
+			escaped = false
+			continue
+		}
+		if r == '\\' {
+			escaped = true
+			continue
+		}
+		if r == '|' {
+			cells = append(cells, cell.String())
+			cell.Reset()
+			continue
+		}
+		cell.WriteRune(r)
+	}
+	if escaped {
+		cell.WriteRune('\\')
+	}
+	cells = append(cells, cell.String())
 	for i := range cells {
 		cells[i] = strings.TrimSpace(cells[i])
 	}
-	return strings.Join(cells, "\t")
+	return strings.Join(cells, " | ")
 }

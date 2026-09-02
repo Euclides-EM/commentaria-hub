@@ -1,8 +1,8 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 378)* -->
+<!-- Page number: 378 -->
 
-*[Figur: oben eine Gestalt K mit den Punkten i und h nebst punctirten Linien, daneben ein Viereck L; darunter ein grosses Viereck mit den Punkten b, n, d, g oben, B, C, A in der Mitte, f, m, o, q, p unten, nebst punctirtem Kreisbogen]*
+[Diagram: oben eine Gestalt K mit den Punkten i und h nebst punctirten Linien, daneben ein Viereck L; darunter ein grosses Viereck mit den Punkten b, n, d, g oben, B, C, A in der Mitte, f, m, o, q, p unten, nebst punctirtem Kreisbogen]
 
 ### Wirckung.
 
@@ -22,4 +22,4 @@
 
 8. Durch q werde der Nebenstrich mp gegen AB gezogen. n. 31. I.
 
-<!-- catchword: 9. Aus -->
+<!-- Catchword: 9. Aus -->

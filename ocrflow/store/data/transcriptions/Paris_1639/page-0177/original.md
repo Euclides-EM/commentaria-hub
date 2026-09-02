@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. IV. -->
+<!-- Running title: D'EVCLIDE, LIV. IV. -->
 
 touche chacun angle de la figure à l'entour de laquelle il est descrit.
 
@@ -6,13 +6,13 @@ touche chacun angle de la figure à l'entour de laquelle il est descrit.
 
 Vne ligne droicte est dite estre accommodée ou adaptée au cercle, quand les extremitez d'icelle sont en la circonference du cercle.
 
-*[Figure]*
+[Figure]
 
 ## PROBL. I. PROPOS. I.
 
 Au cercle donné, accommoder vne ligne droite, égale à vne ligne droicte donnée, laquelle ne soit pas plus grande que le diametre du cercle.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 ## PROBL. VII. PROPOS. XXV.
 
@@ -7,7 +6,7 @@ Dato rectilineo simile similiterque positum, & alteri dato æquale idem constitu
 
 Descrire vne figure rectiligne, semblable à vne figure rectiligne donnee, laquelle soit egale à vne autre, proposee.
 
-*[Figure: rectiligne A, B, E, D, C auec demi-cercle A, G, H et rectangles I, L, M ; triangle F ; rectiligne P sur N—O]*
+[Figure: rectiligne A, B, E, D, C auec demi-cercle A, G, H et rectangles I, L, M ; triangle F ; rectiligne P sur N—O]
 
 Hypoth.
 

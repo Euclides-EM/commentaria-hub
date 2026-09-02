@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 
@@ -16,7 +16,7 @@ conſtr. | c 2|2 gh,
 
 A vne ligne droicte donnée, & à vn poinct donné en icelle, faire vn angle rectiligne égal à vn angle rectiligne donné.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

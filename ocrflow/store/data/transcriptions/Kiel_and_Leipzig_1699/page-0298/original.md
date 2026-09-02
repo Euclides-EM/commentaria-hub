@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 274)* -->
+<!-- Page number: 274 -->
 
 ### Begehrtes.
 
@@ -24,7 +24,7 @@ a | c
 
 ### III. Gegebene.
 
-*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
 A : B | a : b
 B : C | b : c
@@ -34,4 +34,4 @@ A | ⊦ C
 
 a ⊦ c
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

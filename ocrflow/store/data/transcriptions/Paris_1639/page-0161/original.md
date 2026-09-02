@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 ## PROBL. III. PROPOS. XXV.
 
 Le segment d'vn cercle estant donné, descrire le cercle duquel il est segment.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -32,7 +32,7 @@ concl. 14.a.b | *centre eſt en* f.
 
 Aux cercles égaux, les angles égaux s'appuyent sur circonferences égales, soit qu'ils s'appuyent, estant constituez aux centres, ou aux circonferences.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

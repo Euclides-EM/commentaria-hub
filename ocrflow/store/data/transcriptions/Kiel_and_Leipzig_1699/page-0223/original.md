@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 205)* -->
+<!-- Page number: 205 -->
 
 ## Der III. Vortrag.
 
@@ -13,7 +13,7 @@ Umb einen gegebenen Kreyß ein DreyEck/welches dem gegebenen DreyEck gleichwinck
 1. Kreyß edc. 1. △ afg gleichwincklicht △ ikm.
 2. Drey Eck ikm. 2. Umb den gegebenen O umbgeschrieben.
 
-*[Figur: Kreis mit Mittelpunkt b und Düttelen c, d, e; umbeschriebenes Dreyeck afg mit Rührstrichen; rechts daneben Dreyeck ikm auf der Grundlinie l–i–k–h mit punktierten Halbkreisbögen]*
+[Diagram: Kreis mit Mittelpunkt b und Düttelen c, d, e; umbeschriebenes Dreyeck afg mit Rührstrichen; rechts daneben Dreyeck ikm auf der Grundlinie l–i–k–h mit punktierten Halbkreisbögen]
 
 ### Wirckung.
 
@@ -23,6 +23,6 @@ Umb einen gegebenen Kreyß ein DreyEck/welches dem gegebenen DreyEck gleichwinck
 4. Und auff die andere Seite der Winckel cbd ∧ mkh gesetzt. n 23. I.
 5. An die Düttele c, d, e werden Rührstriche ca, cg, eg, ef, df, da, gezogen. n. 17. III.
 
-<!-- signature mark: Cc 3 -->
+<!-- Signature: Cc 3 -->
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

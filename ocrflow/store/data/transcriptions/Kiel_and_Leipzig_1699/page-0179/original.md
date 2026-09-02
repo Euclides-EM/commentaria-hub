@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 161)* -->
+<!-- Page number: 161 -->
 
 ### Beschluß.
 
@@ -18,11 +18,11 @@ Aus einem gegebenen Düttel einen geraden Strich zu ziehen/ welcher den gegebene
 2. Kreyß fcd. — 2. Aus e gezogen also/ daß es
 3. Den Kreyß fcd anrühre.
 
-*[Figur: kleiner Kreis fcd mit Mittel-Düpffel b, darum ein grosser punktierter Kreis durch a und e; vom Düttel e Linien nach a, d und b, mit Punkten c und d]*
+[Diagram: kleiner Kreis fcd mit Mittel-Düpffel b, darum ein grosser punktierter Kreis durch a und e; vom Düttel e Linien nach a, d und b, mit Punkten c und d]
 
 ### Wirckung.
 
 1. Aus dem gegebenen Düttel e werde zu des gegebenen Kreyses Mittel-Düpffel b ein gerader Strich eb gezogen.
 
-<!-- signature mark: X -->
-<!-- catchword: 2. Nach -->
+<!-- Signature: X -->
+<!-- Catchword: 2. Nach -->

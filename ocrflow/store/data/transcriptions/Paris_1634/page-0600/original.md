@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 *longitude, la plus grande pourra plus que la plus petite du quarré d'vne ligne qui sera incommensurable en longitude à icelle. Et si la plus grande peut plus que la plus petite du quarré d'vne ligne incommensurable en longitude à icelle, & qu'on applique à la plus grande vn parallelogramme egal à la quarte partie du quarré de la moindre, defaillant d'vne figure quarré, il diuisera icelle en parties incommensurables en longitude.*
 

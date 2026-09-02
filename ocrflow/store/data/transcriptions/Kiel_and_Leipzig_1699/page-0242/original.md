@@ -1,8 +1,8 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 218)* -->
+<!-- Page number: 218 -->
 
-*[Figur: links ein Quadrat mit Viertelkreisbogen und den Punkten A, C, B; rechts ein punktierter Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c, b, d]*
+[Diagram: links ein Quadrat mit Viertelkreisbogen und den Punkten A, C, B; rechts ein punktierter Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c, b, d]
 
 Dw. — □ ac | □ bd — α.
 und — ▭ abc | □ bd — ß. — n. 1. Gr. I.
@@ -23,6 +23,6 @@ Dw. — dcb + cda ∧ dac + cda + dac — n. 2. Gr. I.
 dcb ∧ 2dac oder 2dab — n. 3. Gr. I.
 dcb ∧ dba — δ. — n. 5. I.
 Dw. — dba ∧ 2dab — n. 1. Gr. I.
-u. — bad (?) ∧ 2dab — n. 6. Gr. I.
+u. — [unclear: bad] ∧ 2dab — n. 6. Gr. I.
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

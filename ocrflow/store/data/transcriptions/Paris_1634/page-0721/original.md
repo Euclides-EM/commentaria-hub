@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-<!-- # ELEM.. EVCLID. LI. X. -->
-
-<!-- H C E G F / D / A B (figure) -->
+[Figure: labels arranged H C E G F / D / A B]
 
 ——, incomm. bd,
 θк.15.10 | □.eh 3|2 □.ch..□. ——, incomm. eh,

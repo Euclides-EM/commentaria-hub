@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 ### Methode de fortifier selon Errard.
 

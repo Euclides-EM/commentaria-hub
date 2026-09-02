@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 D G C (lines) A E B (demi-cercle F)
 

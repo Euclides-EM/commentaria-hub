@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 #### Hypoth.
 
@@ -24,7 +24,7 @@ Il est manifeste de la 22. & 23. que les raisons composées de mesmes raisons, s
 
 Des raisons égales les mesmes parties sont égales entr'elles.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Req. à faire.
 
@@ -32,7 +32,7 @@ concl. c.16.3 | ac *touche le* ⊙dbc.
 
 Si quelque ligne droicte touche vn cercle, & du centre à l'attouchement on mene vne ligne droite, elle sera perpendiculaire à la touchante.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

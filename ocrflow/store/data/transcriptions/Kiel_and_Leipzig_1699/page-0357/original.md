@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 333)* -->
+<!-- Page number: 333 -->
 
 Dw. | bc : cd | bi : ih | n. Anh. 7. V.
 | bc : cd | BC : CD | n. 7. V.
@@ -23,11 +23,11 @@ daß | fb : bc | AB : BC.
 | de : et | DE : ET
 | tg : TG | et : ET. &c.
 
-*[Figur: von einem Punkt k oben laufen punktierte Linien zu der getheilten Linie G T E D C B A; dazwischen die parallele Linie g t e d c b f h; darunter die Striche F G und G A]*
+[Diagram: von einem Punkt k oben laufen punktierte Linien zu der getheilten Linie G T E D C B A; dazwischen die parallele Linie g t e d c b f h; darunter die Striche F G und G A]
 
 ### Wirckung.
 
 1. Gegen den getheilten Strich AG werde ein Nebenstrich hg nach Nothdurfft gezogen. n. 31. I.
 
-<!-- signature mark: Tt 3 -->
-<!-- catchword: 2. Von -->
+<!-- Signature: Tt 3 -->
+<!-- Catchword: 2. Von -->

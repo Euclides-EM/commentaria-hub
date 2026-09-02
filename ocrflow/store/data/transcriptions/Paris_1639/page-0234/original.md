@@ -1,8 +1,8 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Demonſtration.
 
-*[Figure]*
+[Figure]
 
 α.1.5 | gl *multipl..* | ab,
 | gh *multipl..* | ac,

@@ -1,8 +1,8 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 183)* -->
+<!-- Page number: 183 -->
 
-*[Figur: Kreyß mit den Punckten d, a, b, c und e unten; der Strich dc, die Striche db und cb punctirt]*
+[Diagram: Kreyß mit den Punckten d, a, b, c und e unten; der Strich dc, die Striche db und cb punctirt]
 
 ### Vorbereitung.
 1. Werde durch den Mittel-Düpffel der Durchschlag bd,
@@ -22,13 +22,13 @@ Dw. dce ⊢ ∟   n. 1. Gr. b. I.
 4. hcb Kreyßstücks-Winckel.
 
 ### Begehrtes.
-hcb ⊣ (?) ∟
+hcb [unclear: ⊣] ∟
 
-*[Figur: Kreyß mit der Sehne bc oben, darüber der Punckt h; e ausserhalb neben c; unten der Punckt d; der Strich cd punctirt und biß e verlängert]*
+[Diagram: Kreyß mit der Sehne bc oben, darüber der Punckt h; e ausserhalb neben c; unten der Punckt d; der Strich cd punctirt und biß e verlängert]
 
 ### Vorbereitung.
 1. Werde durch den Mittel Düpffel der Durchschlag bd,
 2. Wie auch der Strich cd gezogen/
 3. Und biß zu e verlängert.
 
-<!-- catchword: V. Be- -->
+<!-- Catchword: V. Be- -->

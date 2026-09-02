@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 9.a. 1 | △bdg 3|2 bdgob,
 9.a. 1 | △cfg 3|2 cfgzc,
@@ -11,7 +10,7 @@ Rectilineum circulo inscribere, & aliud circumscribere, ita vt plana comprehensa
 
 *Inscrire vn rectiligne dans le cercle, & circonscrire vn autre à l'entour, en sorte que les plans compris entre la circonference & le rectiligne inscrit ou circonscrit soient moindres que quelconque plan donné.*
 
-<!-- E N B O F / I L / M R P / V C / T / S Q / G D H (figure) -->
+[Figure: labels arranged E N B O F / I L / M R P / V C / T / S Q / G D H]
 
 Hypoth.
 

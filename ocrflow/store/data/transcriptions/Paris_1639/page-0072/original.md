@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Demonſtr.
 
@@ -12,7 +12,7 @@ hyp. | ∠adb *eſt* ┘,
 
 De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'ils soient prins.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

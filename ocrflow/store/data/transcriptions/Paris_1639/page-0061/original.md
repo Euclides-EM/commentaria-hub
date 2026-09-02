@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 #### Demonſtr.
 
@@ -12,7 +12,7 @@ conel. 10.d.1 | fc ⊥ ab.
 
 #### Practique.
 
-*[Figure]*
+[Figure]
 
 hyp. | a *eſt* • D. *en* bc,
 3.p.1 | acgd,cg,gde,dge *ſnt* ⊙ 2|2 đe.*arbitr.*

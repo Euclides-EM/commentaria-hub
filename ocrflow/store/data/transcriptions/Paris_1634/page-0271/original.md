@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 tas cum minore confertur ; qualis est proportio 6. ad 4.
 

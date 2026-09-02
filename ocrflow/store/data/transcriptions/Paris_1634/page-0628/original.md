@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 B C A D (rectangle)
 

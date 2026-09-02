@@ -1,5 +1,4 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 ### XX.
 
@@ -7,7 +6,7 @@ Trilateræ quidem, quæ sub tribus. | Figures trilateres sont celles qui sont co
 
 ### XXI.
 
-Quadrilateræ verò, quæ sub quatuor. | Les figures quadrilateres sont celles qui sont contenues sous trois [sic, corrigé à la main en « quatre »] costez.
+Quadrilateræ verò, quæ sub quatuor. | Les figures quadrilateres sont celles qui sont contenues sous trois{printer-error-correction:quatre} costez.
 
 ### XXII.
 

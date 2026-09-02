@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 #### Req. à demonſtrer.
 
@@ -17,7 +17,7 @@ concl. 21.a.1 | ca,cd,cb n̄.ſnt 2|2 đe.
 
 De tout triangle, deux angles, sont plus petits que deux droicts, de quelque façon qu'ils soient prins.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

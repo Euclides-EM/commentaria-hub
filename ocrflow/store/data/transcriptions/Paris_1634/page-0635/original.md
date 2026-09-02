@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 α.23.10 | fh, est ration.
 hyp. | ▭.acb, est medi.

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 339)* -->
+<!-- Page number: 339 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Beweiß.
 
@@ -33,12 +33,12 @@ Zu zweyen gegebenen geraden Strichen einen mitlern ebenmässigen (mediam proport
 1. Der Strich db
 2. AD : db ⊤ db : CD.
 
-*[Figur: Striche A—D und C—D; darunter ein Halbkreis über der Grundlinie a d g e mit Scheitelpunkt b und Strichen von a und e nach b]*
+[Diagram: Striche A—D und C—D; darunter ein Halbkreis über der Grundlinie a d g e mit Scheitelpunkt b und Strichen von a und e nach b]
 
 ### Wirckung.
 
 1. Werde gezogen der Strich ae.
 
-<!-- signature mark: Uu 2 -->
+<!-- Signature: Uu 2 -->
 
-<!-- catchword: 2. auf -->
+<!-- Catchword: 2. auf -->

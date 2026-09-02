@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 α.7.5 | △ade π △dbe 2|2 △ade π △edc,
 1.6 | △ade π △edc 2|2 ae π ec,

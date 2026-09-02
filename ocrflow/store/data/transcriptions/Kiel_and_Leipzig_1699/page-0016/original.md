@@ -15,7 +15,7 @@ Tollatur △ abc, & imponatur △ lo. ABC ita, ut punctum a in punctum A, linea 
 
 Cadet itaque punctum b aut in punctum B, aut supra illud in punctum d, aut infra in e.
 
-*[Figur: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit Punkt d auf der Seite BA und Punkt e unterhalb]*
+[Diagram: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit Punkt d auf der Seite BA und Punkt e unterhalb]
 
 Si b incidat in d                    vel in e
 erit A d | ab per præparationem      A e | ab n. Vorbereit.
@@ -26,4 +26,4 @@ nempe totum erit æquale parti, quod tamen impossibile, per axioma 9. n. 9. Grun
 
 Quia igitur punctum b neque supra B, neque infra B cadere potest, necessariò cadet in punctum B.
 
-<!-- catchword: De- -->
+<!-- Catchword: De- -->

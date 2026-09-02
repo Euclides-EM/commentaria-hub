@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 15. 5 | solid. ep multipl.. solid. ec,
 bas. hк bas. bh,

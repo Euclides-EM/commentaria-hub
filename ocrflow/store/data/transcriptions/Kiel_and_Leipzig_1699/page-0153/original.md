@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 135)* -->
+<!-- Page number: 135 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ## Der IV. Vortrag.
 
@@ -16,7 +16,7 @@ Wenn in einem Kreyß zween gerade Striche ein ander durchschneiden/ aber nicht d
 4. Einander durchschneidend /
 5. Keiner durch den Mittel-Düpffel gehend.
 
-*[Figur: Kreis mit Dütteln d, a (oben), c (links), f, e (rechts), b (unten), die Striche cf und de schneiden einander in g, punktierter Durchschlag von a über g und o nach b]*
+[Diagram: Kreis mit Dütteln d, a (oben), c (links), f, e (rechts), b (unten), die Striche cf und de schneiden einander in g, punktierter Durchschlag von a über g und o nach b]
 
 ### Vorbereitung.
 
@@ -28,4 +28,4 @@ dg | ge — n. angenommen.
 Dw. dga ⋏ ∟ — n. 3. III.
 cg | gf — n. angenommen.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

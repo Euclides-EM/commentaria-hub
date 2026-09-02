@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLD. LI. VII. -->
+<!-- Running title: ELEM.. EVCLD. LI. VII. -->
 
 finitiones, postula, communesque animi notiones.
 

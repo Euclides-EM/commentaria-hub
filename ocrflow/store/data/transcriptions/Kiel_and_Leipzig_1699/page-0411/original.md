@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 381)* -->
+<!-- Page number: 381 -->
 
 ### Wirckung.
 
@@ -26,6 +26,6 @@ Die Anschlagung kan also verrichtet werden.
 
 7. Die Länge be schneidet man von dem Strich ba ab n. 3. I. so bekommt man den Düttel i, welcher den Strich ab begehrter massen theilet.
 
-<!-- signature mark: Bbb 3 -->
+<!-- Signature: Bbb 3 -->
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

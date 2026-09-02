@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 s'il n'est point, on mettra au premier lieu de la regle de trois le nombre trouué par le discours de la question : au second lieu le nombre supposé : & au troisiesme, le nombre donné : ayant ainsi ordonné les nombres, le quatriesme proportionel sera le nombre requis.
 

@@ -1,4 +1,6 @@
-*(handschriftlich: Kx→)*
+[Handwritten]
+Kx→
+[/Handwritten]
 
 Samuel Reyhers/ JCti,
 

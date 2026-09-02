@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 β | <bdc 2|2 <cfb,
 1.concl. 4.1. | <dbc 2|2 <fcb,
@@ -11,7 +10,7 @@ COROLL.
 
 Ex hac quinta propositione liquet omne triangulum æquilaterum esse quoque æquiangulum. | De cette cinquiesme proposition il s'ensuit que tout triangle equilateral est außi equiangle.
 
-*[Figure: triangle ABC, C au sommet]*
+[Figure: triangle ABC, C au sommet]
 
 Hypoth.
 
@@ -36,7 +35,7 @@ Si trianguli duo anguli æquales inter se fuerint, & sub æqualibus angulis subt
 
 Si deux angles d'vn triangle sont égaux entr'eux, les costez soustendans iceux angles égaux, seront außi égaux entr'eux.
 
-*[Figure: triangle ABC, A au sommet, D sur le costé AB, ligne DC]*
+[Figure: triangle ABC, A au sommet, D sur le costé AB, ligne DC]
 
 Hypoth.
 

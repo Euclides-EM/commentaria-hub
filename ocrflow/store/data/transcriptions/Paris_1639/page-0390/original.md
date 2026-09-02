@@ -1,4 +1,4 @@
-<!-- # GEOMETRIE -->
+<!-- Running title: GEOMETRIE -->
 
 ### Table des superficies de dix polygones reguliers, les costez desquels sont 1, & aussi du cercle qui a vn pour son semidiametre.*
 

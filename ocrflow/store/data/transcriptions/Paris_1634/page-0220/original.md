@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-<!-- # ELEM.. EVCLID. LI. III. -->
-
-*[Figure: cercle A—B—E—F—C, D au dedans, E au dehors en haut, lignes A—C, B—E, B—F, B—C, B—D, F—C]*
+[Figure: cercle A—B—E—F—C, D au dedans, E au dehors en haut, lignes A—C, B—E, B—F, B—C, B—D, F—C]
 
 <abc est ∟,
 <cab 2|3 ∟,

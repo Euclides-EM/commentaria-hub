@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 *qué à vne ligne rationelle, fait la latitude, binome sixiesme.*
 

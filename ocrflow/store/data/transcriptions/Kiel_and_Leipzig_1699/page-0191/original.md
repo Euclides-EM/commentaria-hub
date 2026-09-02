@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 173)* -->
+<!-- Page number: 173 -->
 
 3. Durch das mittel e werde der gerade Strich hf nach rechten Winckeln gezogen. n. 11. I.
 4. Werde noch ein anderer Düttel dieses Bogens/ nemlich b mit einem geraden Strich an den Düttel c gehänget.
@@ -31,5 +31,5 @@ Muß Dw. f der Mittel-Düpffel seyn/ weil sonst kein Düttel/ welcher zugleich i
 ### Beschluß.
 Ist also der Mittel-Düpffel f gefunden / aus welchem der Kreyß bhac, dessen Theil das gegebene Kreyßstück abc ist/ kan beschrieben werden. W. Z. M.
 
-<!-- signature mark: P 3 -->
-<!-- catchword: Der -->
+<!-- Signature: P 3 -->
+<!-- Catchword: Der -->

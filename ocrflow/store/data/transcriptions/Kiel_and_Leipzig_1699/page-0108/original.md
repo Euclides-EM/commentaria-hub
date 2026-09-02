@@ -1,6 +1,6 @@
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- *(Seitenzahl: 90)* -->
+<!-- Page number: 90 -->
 
 6. Werden ad | AD
 de | DE
@@ -17,7 +17,7 @@ tu | DA | nach 2. Vortr. I.
 11. Ziehe man die Zwerg-Striche af, dg und ah.
 12. Wie auch - - - uk, sm und qo.
 
-*[Figur: Reihe rechtwincklichter Vierecke mit punktierten Diagonalen; Punkte c, f, g, h, i, k, l, m, n, o oben, E, D links, A, d, e, b, u, t, s, r, q, p unten]*
+[Diagram: Reihe rechtwincklichter Vierecke mit punktierten Diagonalen; Punkte c, f, g, h, i, k, l, m, n, o oben, E, D links, A, d, e, b, u, t, s, r, q, p unten]
 
 ### Beweiß.
 
@@ -28,4 +28,4 @@ Dw. △ uik | △ acf | n. 4. - - I.
 □ it | 2 △ uik | n. 41. - - I.
 Dw. □ it | □ cd | n. 6. Gr-S. i. I.
 
-<!-- catchword: Auff -->
+<!-- Catchword: Auff -->

@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ### 5. a. 1.
 
@@ -8,7 +8,7 @@ hyp. | ab 3|2 cd,
 hyp. | eb 2|2 fd,
 5.a.1. | ae 3|2 cf.
 
-*[Figure]*
+[Figure]
 
 ### 5. a. b.
 
@@ -18,7 +18,7 @@ hyp. | ab 2|2 cd,
 hyp. | ae 3|2 cf,
 5.a.b. | eb 2|3 fd.
 
-*[Figure]*
+[Figure]
 
 ### 5. a. c.
 
@@ -28,7 +28,7 @@ hyp. | ab 3|2 cd,
 hyp. | cf 3|2 ae,
 5.a.c. | eb 3|2 fd.
 
-*[Figure]*
+[Figure]
 
 Or en toutes ces notions, excepté la premiere, par le mot de quantitez égales, faut entendre aussi vne mesme, commune à plusieurs.
 

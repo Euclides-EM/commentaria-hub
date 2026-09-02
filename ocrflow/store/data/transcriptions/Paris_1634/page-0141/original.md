@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 rectis AB & AD, rectum angulum BAD comprehendentibus, quod conficiatur ex motu imaginario lineæ AB in lineam AD, vel lineæ AD in lineam AB. Si namque animo concipiatur recta AB, secundum rectam AD, moueri in transuersum, ita vt semper angulum rectum cum AD constituat, donec punctum A, ad punctum D, & punctum B, ad punctum C, perueniat, descriptum erit parallelogrammum ABCD. Idem fiet, si AD ponatur moueri in transuersum secundum rectam AB, & c. quamobrem optimo iure, parallelogrammum AC sub rectis lineis AB & AD contineri dicitur.
 
@@ -11,7 +10,7 @@ Cognitis lateribus rectanguli inuenire aream.
 
 Les costez d'vn rectangle estans cognus trouuer l'aire.
 
-*[Figure: deux rectangles quadrillez ; le premier A—B en haut, C—D en bas, 3 au dessus, 3 à gauche, 9 au milieu ; le second E—G en haut, F—H en bas, 5 au dessus, 3 à droicte, 15 au milieu]*
+[Figure: deux rectangles quadrillez ; le premier A—B en haut, C—D en bas, 3 au dessus, 3 à gauche, 9 au milieu ; le second E—G en haut, F—H en bas, 5 au dessus, 3 à droicte, 15 au milieu]
 
 Producitur area rectanguli, ex multiplicatione numeri vnius lateris in numerum alterius lateris circa eundem angulum e.g. numerus lateris EG, 5, ductus in
 

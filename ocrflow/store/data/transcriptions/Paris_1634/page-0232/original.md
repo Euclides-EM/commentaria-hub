@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 ## DEFINIT. IV.
 

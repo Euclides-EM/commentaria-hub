@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
 *S'il y a tant de nombres qu'on voudra continuellement proportionaux, & que le premier ne mesure le second; aussi pas vn autre ne mesurera pas vn autre.*
 

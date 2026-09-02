@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-<!-- # ELEM.. EVCLID. LI. III. -->
-
-*[Figure: cercle A—B—C—D, lignes A—B, B—C, A—C, A—D, D—C, B—D]*
+[Figure: cercle A—B—C—D, lignes A—B, B—C, A—C, A—D, D—C, B—D]
 
 Demonstr.
 

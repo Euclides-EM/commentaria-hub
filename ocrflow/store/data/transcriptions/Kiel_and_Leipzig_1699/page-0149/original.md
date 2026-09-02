@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 131)* -->
+<!-- Page number: 131 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 Wolte man nun sagen/ der Mittel-Düpffel stehle auff den Strich hg, und zwar auff f oder e, so müste
 
@@ -33,6 +33,6 @@ Wenn in eines Kreyses Umfang zween Düttele erwehlet/ und mit einem geraden Stri
 3. Der Strich hg, welcher
 4. Die beyden Düttele zusammen hänget.
 
-<!-- signature mark: R 2 -->
+<!-- Signature: R 2 -->
 
-<!-- catchword: Beweiß -->
+<!-- Catchword: Beweiß -->

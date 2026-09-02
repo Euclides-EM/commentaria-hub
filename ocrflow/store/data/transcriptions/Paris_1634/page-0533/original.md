@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
 *Si depuis l'vnité tant de nombres qu'on voudra sont continuellemēt proportionaux, le troisiesme depuis l'vnité est quarré, & tous les autres qui en laissent vn : mais le quatriesme est cube, & tous les autres qui en laissent deux, & le septiesme est cube & quarré ensemble, & tous les autres qui en laissent cinq.*
 

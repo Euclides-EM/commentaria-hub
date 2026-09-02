@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -38,7 +38,7 @@ conſtr. | ∠hik 2|2 ∠e,
 
 Deux figures rectilignes estans proposées, trouuer l'excez dont la plus grande excede la plus petite.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

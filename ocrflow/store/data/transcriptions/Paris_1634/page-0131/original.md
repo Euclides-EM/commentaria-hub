@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 Les triangles égaux constituez sur bases égales, & de mesme part; sont entre mesmes paralleles.
 
-*[Figure: ligne A—D—H en haut, poinct H aussi vn peu plus bas, ligne B—C—E—F en bas ; triangles BCA & EFD, lignes A—E, D—B, E—H, F—H]*
+[Figure: ligne A—D—H en haut, poinct H aussi vn peu plus bas, ligne B—C—E—F en bas ; triangles BCA & EFD, lignes A—E, D—B, E—H, F—H]
 
 Hypoth.
 
@@ -31,7 +30,7 @@ Si parallelogrammum cum triangulo eandem basin habuerit, in eisdemque fuerit par
 
 Si vn parallelogramme, & vn triangle ont vne mesme base, & sont entre mesmes paralleles; le parallelogramme sera double du triangle.
 
-*[Figure: ligne A—D—E en haut, ligne B—C en bas ; parallelogramme ABCD auec diagonales, lignes B—E & C—E]*
+[Figure: ligne A—D—E en haut, ligne B—C en bas ; parallelogramme ABCD auec diagonales, lignes B—E & C—E]
 
 Hypoth.
 

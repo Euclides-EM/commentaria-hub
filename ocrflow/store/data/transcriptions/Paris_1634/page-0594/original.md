@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 quarta, quantum est quadratum rectæ lineæ sibi longitudine commensurabilis : Quod si prima tantò plus possit quàm secunda, quantum est quadratum rectæ lineæ sibi incommensurabilis longitudine, & tertia tantò plus poterit quàm quarta, quantum est quadratum rectæ lineæ sibi longitudine incommeusurabilis.
 

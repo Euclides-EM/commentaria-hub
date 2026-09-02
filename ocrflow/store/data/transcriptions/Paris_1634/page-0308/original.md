@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-<!-- # ELEM.. EVCLID. LI. V. -->
-
-*[Figure: lignes verticales N—L—M—H—C—G, O—B—K—E—F, A—D—I]*
+[Figure: lignes verticales N—L—M—H—C—G, O—B—K—E—F, A—D—I]
 
 3.1 | ln multipl.. | cb, β
 | mo multipl.. | fe.
@@ -29,7 +28,7 @@ c.6.d.5 | gl 2. 3. 4 | 3 hn,
 
 Demonstr.. diuis.. raō. inuers.
 
-*[Figure: ligne A—C—B et lignes D—F, E]*
+[Figure: ligne A—C—B et lignes D—F, E]
 
 Hypoth.
 

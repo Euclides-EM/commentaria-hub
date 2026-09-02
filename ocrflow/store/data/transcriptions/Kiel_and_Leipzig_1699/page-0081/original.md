@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 63)* -->
+<!-- Page number: 63 -->
 
 ## Der XXXIII. Vortrag.
 
@@ -15,7 +15,7 @@ Zween gerade Striche/ welche zween gleichlange Neben-Striche an beeden Enden/auf
 4. Zusammen hengung
 5. Auff gleiche Weise / das ist / nicht Creutzweiß/sondern auff gleich-ähnliche Weise.
 
-*[Figur: Viereck ABDC mit punktierter Diagonale von C nach B]*
+[Diagram: Viereck ABDC mit punktierter Diagonale von C nach B]
 
 ### Vorbereitung.
 
@@ -35,4 +35,4 @@ Drw.   AC    ╪    BD          nach 27. Vortr.
 
 Werden also diejenigen geraden Striche/ welche Nebenstriche rechtmäßig zusammen hängen/auch gleich-grosse Nebenstriche seyn. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. II. -->
+<!-- Running title: D'EVCLIDE, LIV. II. -->
 
 #### Demonſtration.
 

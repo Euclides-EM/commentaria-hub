@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVDLID. LI. II. -->
+<!-- Running title: ELEM.. EVDLID. LI. II. -->
 
 per latus eiusdem quadrati : fient latera duorum quadratorum dato numero differentium.
 
 Si vn nombre quarré est adiousté, & osté d'vn mesme nombre donné, & que la somme & le reste soit diuisé par le costé du mesme quarré : il s'en fera les costez de deux quarrez, differents du nombre donné.
 
-*[Figure: quarré E—F—D en haut, A—C—B en bas, H—G—I au milieu, diagonale E—G—B, ligne F—G—C]*
+[Figure: quarré E—F—D en haut, A—C—B en bas, H—G—I au milieu, diagonale E—G—B, ligne F—G—C]
 
 arbitr. | gnom. hbf est D.21,
 arbitr. | cb u bi est 3,
@@ -26,7 +25,7 @@ Si cuius numero quadrato addatur quadratus numerus & à summa auferatur duplus p
 
 Si à quelque nombre quarré est adiousté vn nombre quarré, & de la somme soustrait le double du plan compris sous les costez des deux quarrez, le reste sera vn nombre quarré.
 
-*[Figure: quarré A—G—D en haut, B—K—C en bas, E—I—F au milieu, diagonale A—I—C, ligne G—I—K]*
+[Figure: quarré A—G—D en haut, B—K—C en bas, E—I—F au milieu, diagonale A—I—C, ligne G—I—K]
 
 arbitr. | ab est 5,
 1.s.1.d.2 | bd ▭.ab est 25,

@@ -1,8 +1,8 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 autres angles soustendans iceux costez égaux, seront égaux aux autres angles chacun au sien.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

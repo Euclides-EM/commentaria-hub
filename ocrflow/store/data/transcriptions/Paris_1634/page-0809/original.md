@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 Quod de conis demonstratum est debet etiam intelligi de cylindris, eodémque modo fiet demonstratio, si loco conorum, & pyramidum concipiantur cylindri & prismata. | *Ce qui a esté prouué des cones se doit außi entendre des cylindres, & se demonstrera ainsi que des cones, si au lieu des cones & des pyramides on entend des cylindres & des prismes.*
 

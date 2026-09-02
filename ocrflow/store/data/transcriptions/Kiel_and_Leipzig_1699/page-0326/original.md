@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 302)* -->
+<!-- Page number: 302 -->
 
 ### Oder:
 
@@ -27,4 +27,4 @@ II. Wechselmässige (Reciprocæ) Gestalte sind / in welchen beyderseits vor- und
 
 III. Ein nach der äusersten und mittelsten Verhältnüß (secundùm mediam & extremam rationem) getheilter Strich wird genennet / welcher sich zu seinem grösseren Stück also / wie solch grössestes Stück zu dem kleinern / verhält.
 
-<!-- catchword: IV. Die -->
+<!-- Catchword: IV. Die -->

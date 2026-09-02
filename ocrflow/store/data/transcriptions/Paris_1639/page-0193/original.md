@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE; LIV. IV. -->
+<!-- Running title: D'EVCLIDE; LIV. IV. -->
 
 c.13 4. & 7.a.1 | ∠fab, ∠fba, ∠fbc, ∠fcb, ∠fcd, &c. *ſnt* 2|2 đe.
 6.1 | fa, fb, fc, fd, fe *ſnt* 2|2 đe.
@@ -20,7 +20,7 @@ gabcdef *eſt* ⊙ D.
 
 *inſcrire au* ⊙abdf, 6∠abcdef *equilat. & equiangle.*
 
-*[Figure]*
+[Figure]
 
 #### Conſtr.
 

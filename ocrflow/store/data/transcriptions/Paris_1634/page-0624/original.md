@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 d.34.10 | ▭.ab,cf 2|2, 2▭.ab,de,
 s.12.10 | ▭.ab,de, est ration.

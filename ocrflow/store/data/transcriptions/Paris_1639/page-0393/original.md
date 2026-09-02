@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 ### Trouuer le contenu de la superficie conuexe d'vn cylindre.
 

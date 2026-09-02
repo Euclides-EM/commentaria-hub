@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
-*[Figure]*
+[Figure]
 
 ab == dc : ac == de,
 
@@ -26,4 +26,4 @@ concl. 14.1 | bce *eſt* ——.
 
 Aux cercles égaux, les angles ont mesme raison entr'eux, que les circonferences sur lesquelles ils sont appuyez, soit qu'ils soient appuyez estant constituez aux centres ou aux circonferences : les secteurs sont aussi de mesme entr'eux, d'autant qu'ils sont constituez au centre.
 
-*[Figure]*
+[Figure]

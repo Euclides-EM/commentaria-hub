@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-<!-- # ELEM.. EVCLID. LI. XII. -->
-
-<!-- O R / B Q / α F τ δ / A E D S P / ζ C / H y N / V M L (figure) -->
+[Figure: labels arranged O R / B Q / α F τ δ / A E D S P / ζ C / H y N / V M L]
 
 p. 11, & 2. 15. d. 1 18. 11 | doc, don, dol, dom, &c. ſnt ⊙; ꝑ centr.. ſphær. & ſnt ⊥; plan.. ⊙; abcu & efgh,
 3. d. 11 | cdo, ndo, &c. ſnt ⊥;

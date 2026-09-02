@@ -1,8 +1,8 @@
-<!-- *(Seitenzahl: 125)* -->
+<!-- Page number: 125 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-*[Figur: links ein schiefes Viereck a b d c; rechts ein Rechteck a g f e mit Punkt k, daneben ein Quadrat mit punktiertem Halbkreis über der Grundlinie a e i h]*
+[Diagram: links ein schiefes Viereck a b d c; rechts ein Rechteck a g f e mit Punkt k, daneben ein Quadrat mit punktiertem Halbkreis über der Grundlinie a e i h]
 
 ### Beweiß.
 
@@ -31,6 +31,6 @@ b | ei
 d | ae
 e | ek
 
-<!-- signature mark: Q 3 -->
+<!-- Signature: Q 3 -->
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

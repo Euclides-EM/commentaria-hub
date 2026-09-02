@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 48)* -->
+<!-- Page number: 48 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 4. ac | AD
 5. Werden gezogen cd
@@ -8,7 +8,7 @@
 
 Erste Begebenheit (1. Casus.)
 
-*[Figur: Oben zwei grosse Dreiecke: links Dreieck ABC mit A oben, C unten links, B unten rechts; rechts Dreieck mit a oben, b unten links, d rechts, mit punktierten Linien nach c unten. Darunter (2. Casus): kleines Dreieck a b d mit punktierter Linie, daneben Dreieck ABC mit punktierten Linien nach c.]*
+[Diagram: Oben zwei grosse Dreiecke: links Dreieck ABC mit A oben, C unten links, B unten rechts; rechts Dreieck mit a oben, b unten links, d rechts, mit punktierten Linien nach c unten. Darunter (2. Casus): kleines Dreieck a b d mit punktierter Linie, daneben Dreieck ABC mit punktierten Linien nach c.]
 
 ### Beweiß
 
@@ -24,4 +24,4 @@ und bd ⊣ bc n. 19. Vortr.
 bc | BC n. 22. Vortr.
 a Dw. bd ⊣ BC n. 1. Gr-S. a
 
-<!-- catchword: An- -->
+<!-- Catchword: An- -->

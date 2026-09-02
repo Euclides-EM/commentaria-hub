@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 36.3 | ▭.ebd 2|2 ▭.abf,
 concl. 11.5 | □.ac π □.ab 2|2 ▭.dce π ▭.ebd.
@@ -8,7 +7,7 @@ concl. 11.5 | □.ac π □.ab 2|2 ▭.dce π ▭.ebd.
 
 Pappus lib. 7. propos. 119.
 
-*[Figure: triangle auec les poincts A, B, C, D]*
+[Figure: triangle auec les poincts A, B, C, D]
 
 Hypoth.
 

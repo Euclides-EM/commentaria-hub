@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 les : quemadmodum se habuerit vna antecedentium ad vnam consequentium, ita se habebunt omnes antecedentes ad omnes consequentes.
 
 Si tant de grandeurs qu'on voudra sont proportionelles : comme l'vne des antecedentes sera à l'vne des consequentes, ainsi toutes les antecedentes seront à toutes les consequentes.
 
-*[Figure: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]*
+[Figure: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]
 
 Hypoth.
 

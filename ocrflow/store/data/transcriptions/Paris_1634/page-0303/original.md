@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 moindre raison de la premiere à la seconde, que de la cinquiesme à la sixiesme, comme il est manifeste par la mesme demonstration.
 

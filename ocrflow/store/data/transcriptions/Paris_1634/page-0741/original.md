@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 hyp. | ab ⊥ ac & ad,
 4. 11 | ab ⊥ plan. fc,
@@ -14,7 +13,7 @@ Si duæ rectæ lineæ eidem plano ad rectos sint angulos; parallelæ erunt illæ
 
 *Si deux lignes droictes sont à angles droicts sur vn mesme plan; icelles lignes droictes seront paralleles.*
 
-<!-- B C / E / A D / G / F (figure) -->
+[Figure: labels arranged B C / E / A D / G / F]
 
 Hypoth.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 | l, multipl.. g, 2|2, m, multipl.. h. α
 
@@ -33,7 +32,7 @@ f, multipl.. | c,
 g, multipl.. | b,
 h, multipl.. | d.
 
-*[Figure: lignes verticales I—E—A—B—G—L et K—F—C—D—H—M]*
+[Figure: lignes verticales I—E—A—B—G—L et K—F—C—D—H—M]
 
 Demonstr.
 

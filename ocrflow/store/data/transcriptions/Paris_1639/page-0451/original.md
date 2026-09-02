@@ -1,4 +1,4 @@
-<!-- # DE LA GNOMONIQVE. -->
+<!-- Running title: DE LA GNOMONIQVE. -->
 
 GN, & GP la ligne d'vne heure d'apres midy, &c.  Et doit auoir pour stile oblique la ligne GL tirée du centre A au sommet de CL, ou d'vne ligne égale à CL perpendiculaire au plan du quadrant en C.
 
@@ -10,6 +10,6 @@ Si le stile CB est perpendiculaire au plan du quadrant en C, & que de son sommet
 
 *Descrire vn quadrant en vn plan declinant incliné.*
 
-*[Figure]*
+[Figure]
 
 Soit à descrire vn quadrant en la face meridionale d'vn plã incliné deuers Septẽtrion de 35 degrez, & qui aye 40 degrez de declinaison Zephyr-australe.  Sur le plan proposé, tirez premierement KM parallele à l'horizon par le moyen d'vn niueau, & la couppez à angles droicts au poinct où vous voulez mettre le stile perpendiculaire, comme en cet exemple au poinct C par la ligne ET : & prenant CB égale à la longueur du stile perpendiculaire en KM, faites l'angle CBG égal à l'inclination donnée, à sçauoir de 35 deg.

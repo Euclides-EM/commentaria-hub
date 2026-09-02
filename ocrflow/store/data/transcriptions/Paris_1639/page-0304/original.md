@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 1
 2 3 1

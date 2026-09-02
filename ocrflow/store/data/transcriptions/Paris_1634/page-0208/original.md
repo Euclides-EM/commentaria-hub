@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-<!-- # ELEM.. EVCLID. LI. III. -->
-
-*[Figure: cercle C—D, F au centre, ligne A—E—G—B tangente en bas, lignes C—E, F—D]*
+[Figure: cercle C—D, F au centre, ligne A—E—G—B tangente en bas, lignes C—E, F—D]
 
 efc est diamet.
 
@@ -25,7 +24,7 @@ Si circulum tetigerit recta quæpiam linea, à contactu autem recta linea ad ang
 
 Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene vne ligne droicte, à angles droicts à la touchante; en icelle menée sera le centre du cercle.
 
-*[Figure: cercle C—E, F au dedans, ligne A—C—B tangente en haut, ligne C—E, ligne C—F]*
+[Figure: cercle C—E, F au dedans, ligne A—C—B tangente en haut, ligne C—E, ligne C—F]
 
 Hypoth.
 

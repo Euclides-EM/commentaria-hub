@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 328)* -->
+<!-- Page number: 328 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ## Der IIX. Vortrag.
 
@@ -24,6 +24,6 @@ abc | | abd
 abc | ähnlich | adc
 abd | | adc
 
-*[Figur: rechtwinkliges Dreieck abc mit punktierter Senkrechte ad auf die Grundlinie cb]*
+[Diagram: rechtwinkliges Dreieck abc mit punktierter Senkrechte ad auf die Grundlinie cb]
 
-<!-- catchword: I. Beweiß. -->
+<!-- Catchword: I. Beweiß. -->

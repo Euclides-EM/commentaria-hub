@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 30. 3 | ∩ fl 2|2 ∩ lg, ∩ gm 2|2 ∩ mh, &c.
 30. 3, & 1.p.1 | flgmhnioкp, eſt 10<, æquilat. inſcri. ꝗn ⊙,

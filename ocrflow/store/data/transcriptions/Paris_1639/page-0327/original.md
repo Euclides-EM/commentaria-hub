@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 1200 *lt.* —— 35000 —— 1 R. 29 1/6.
 

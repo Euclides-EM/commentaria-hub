@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Req. à demonſtrer.
 
 ∪ ac 2|2 ∪ df,
 
-*[Figure]*
+[Figure]
 
 #### Prepar.
 
@@ -38,4 +38,4 @@ gabc & hdef *ſnt* ⊙ 2|2 đe.
 ∠agc 2|2 ∠dhf,
 ∠abc. 2|2 ∠def.
 
-*[Figure]*
+[Figure]

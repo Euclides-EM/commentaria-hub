@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 *du pentagone diuise en deux egalement l'arc que le costé opposé à iceluy angle soustend, & aussi ledit costé en deux egalement, & à angles droicts.*
 
@@ -9,7 +8,7 @@ Demonstratio praxis vndecimæ propositionis libri quarti quam in hunc locum demo
 
 *Demonstration de la practique de l'vnziesme proposition du quatriesme liure, que nous auons remise à demonstrer icy.*
 
-<!-- D / A F C E / H K / G / L O / M P / N (figure) -->
+[Figure: labels arranged D / A F C E / H K / G / L O / M P / N]
 
 Demonstr.
 

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 103)* -->
+<!-- Page number: 103 -->
 
 □ dac + □ acd | □ acb + □ acdb + □ ac + □ acd
 n. 2. Gr. I.
@@ -16,7 +16,7 @@ n. 2. Gr. I.
 
 Man setze an das Ende d gerade aus noch einen Strich ed | ca
 
-*[Figur: Waagerechter Strich mit den Punkten a, c, b, d, e.]*
+[Diagram: Waagerechter Strich mit den Punkten a, c, b, d, e.]
 
 ### Beweiß.
 
@@ -33,7 +33,7 @@ da | ad
 □ dac + □ ade + □ db | □ ab + □ ade — n. 2. Gr. I.
 □ ade | □ ade
 □ dac + □ db | □ ab — n. 3. Gr. I.
-□ db | □ bc — n. 1. Gr. 1. II. (?)
+□ db | □ bc — n. 1. Gr. 1. [unclear: II.]
 Dw. □ dac + □ bc | □ ab — n. 2. Gr. I.
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

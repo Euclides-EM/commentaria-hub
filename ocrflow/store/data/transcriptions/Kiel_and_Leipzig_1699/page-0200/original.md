@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 182)* -->
+<!-- Page number: 182 -->
 
 ### III. Begebenheit.
 
@@ -11,9 +11,9 @@
 4. Winckel ced.
 
 ### Begehrtes.
-ced ⊢ (?) ∟
+ced [unclear: ⊢] ∟
 
-*[Figur: Kreyß mit der Sehne cd oben, darüber der Punckt e; unten der Punckt b; die Striche cb und bd punctirt]*
+[Diagram: Kreyß mit der Sehne cd oben, darüber der Punckt e; unten der Punckt b; die Striche cb und bd punctirt]
 
 ### Vorbereitung.
 1. Werde durch den Mittel-Düpffel der Durchschlag db,
@@ -28,11 +28,11 @@ Dw. ced ⊢ ∟   n. 3. Gr. ff. I.
 
 ### Gegebene.
 1. Kreyß dabecd.
-2. ⌓ dabc (?).
-3. dacb ⊢ (?) Halbkreyß.
+2. ⌓ [unclear: dabc].
+3. dacb [unclear: ⊢] Halbkreyß.
 4. ecd Kreyßstücks-Winckel.
 
 ### Begehrtes.
-dce ⊢ ∟ (?)
+dce ⊢ [unclear: ∟]
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 1. a. f | □.xu + □.ru 2|2 □.xu + □.np,
 1. a. f | □.xu + □.np 2|2 □.kp + □.np,

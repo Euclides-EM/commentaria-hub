@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 72)* -->
+<!-- Page number: 72 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 ### Verfolg des Beweises.
 
@@ -37,4 +37,4 @@ Müssen also allezeit gleichgrosse und auff gleichlangen Grundstrichen stehende 
 
 Gleich-große und auff gleich-langen Grundstrichen stehende Dreyecke / stehen auch zwischen einerley Nebenstrichen.
 
-<!-- catchword: Ge- -->
+<!-- Catchword: Ge- -->

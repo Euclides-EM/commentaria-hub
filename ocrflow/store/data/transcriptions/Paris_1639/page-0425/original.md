@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 par le moyen de l'instrument, & mesurant les quantitez des flancs HC, MN, Yz, &c.  Que si on marque premierement les seconds flancs d, n, &c. leur donnant leurs quantitez cognuës Hd, Mn, &c. on pourra aussi par le moyen d'iceux marquer les angles des espaules C, N, z, &c. car ils nous seruiront de visée pour mesurer depuis G iusques à N la quantité de la face GN ; & de mesme de B vers n, on mesurera la quantité de la face BC, & ainsi des autres.
 

@@ -1,6 +1,6 @@
-<!-- # DE LA GNOMONIQVE. -->
+<!-- Running title: DE LA GNOMONIQVE. -->
 
-*[Figure]*
+[Figure]
 
 rez TA égale à CZ : HAR parallele à DN : & les lignes droictes tirées du poinct A aux poincts des diuisions de la ligne equinoctiale DN, seront les lignes horaires du quadrant requis, auquel on donnera telle figure qu'on voudra : icy on luy a donné la forme circulaire AGLT, AT est la ligne de 12 heures, AN de 5 heures d'apres midy, AE de 4 heures, &c.
 

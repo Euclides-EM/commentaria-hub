@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 20. 11 | <adb + <adc 3|2 <bdc,
 4 a. c | <abc + <abd + <acb + <acd + <adc + <adb 3|2, 2 ⊥;
@@ -11,7 +10,7 @@ Si fuerint tres anguli plani, quorum duo vt libet assumpti reliquo sint majores;
 
 *S'il y a trois angles plans, deux desquels, pris comme on voudra, sont plus grands que l'autre; mais qu'iceux soient contenus de lignes droictes egales; il se peut faire, que des lignes droictes conjoignantes icelles lignes egales, soit constitué vn triangle.*
 
-<!-- A / D E F / B / K G / C / H I (figure) -->
+[Figure: labels arranged A / D E F / B / K G / C / H I]
 
 Hypoth.
 

@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 362)* -->
+<!-- Page number: 362 -->
 
 ### Vorbereitung.
 
@@ -32,4 +32,4 @@ Eben so wenig kan auch gh ⊢ rs
 3. Vieleck st ähnlich sey dem Vieleck el, n 18. VI. und auch
 4. Auf gleiche Weise gesetzet sey.
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

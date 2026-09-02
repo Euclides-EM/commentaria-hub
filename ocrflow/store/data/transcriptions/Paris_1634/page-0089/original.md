@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 suppos. | db 2|2 ac,
 1.p.1. | cd est —,

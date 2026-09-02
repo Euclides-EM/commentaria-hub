@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 110)* -->
+<!-- Page number: 110 -->
 
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
 4. Und getheilet in d
 5. Daß ad ⊦ bd
@@ -18,7 +18,7 @@
 7. - - - Strich ae
 8. - - - - - be
 
-*[Figur: Dreieck über der Grundlinie a d c b mit Spitze e, darin die Punkte g und f, gestrichelte Linien; oben eine Linie von A nach B]*
+[Diagram: Dreieck über der Grundlinie a d c b mit Spitze e, darin die Punkte g und f, gestrichelte Linien; oben eine Linie von A nach B]
 
 ### Beweiß.
 
@@ -32,4 +32,4 @@ Dw. cae ∠ cea | n. 5. I.
 ace ∠ ∟ | n. 10. Besch. I.
 cea | ebc | n. 4. I.
 
-<!-- catchword: bec -->
+<!-- Catchword: bec -->

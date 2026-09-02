@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 *Si quatre grandeurs sont proportionelles, & que la premiere soit commensurable à la seconde, la troisiesme sera aussi commensurable à la quatriesme. Et si la premiere est incommensurable à la seconde, la troisiesme sera aussi incommensurable à la quatriesme.*
 

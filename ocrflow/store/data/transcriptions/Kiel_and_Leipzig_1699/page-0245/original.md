@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 221)* -->
+<!-- Page number: 221 -->
 
 ### Wirckung.
 
@@ -11,7 +11,7 @@ gerade Striche ag, ah, ai, ak, al gezogen.
 3. Auff solche Striche werden zu beeden Seiten Senckstriche
 gb, gc : hc, hd : id, ie : ke, kf : lf, lb gesetzet/ n. 11. I.
 
-*[Figur: Kreis mit einbeschriebenem Fünffeck g h i k l und umschriebenem Fünffeck b c d e f; aus dem Mittelpunkt a gehen Striche zu den Ecken und Berührungspunkten, teils punktiert]*
+[Diagram: Kreis mit einbeschriebenem Fünffeck g h i k l und umschriebenem Fünffeck b c d e f; aus dem Mittelpunkt a gehen Striche zu den Ecken und Berührungspunkten, teils punktiert]
 
 ### Vorbereitung.
 
@@ -26,5 +26,5 @@ ag | ah — n. 15. Beschr. I.
 ac | ac
 Dw. — gc | hc — n. 26. I.
 
-<!-- signature mark: Ee 3 -->
-<!-- catchword: u. -->
+<!-- Signature: Ee 3 -->
+<!-- Catchword: u. -->

@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 #### Demonſtr.
 
@@ -14,7 +14,7 @@ concl. 21.a.1 | cfga *eſt* ——,
 
 Si deux cercles se touchent l'vn l'autre, au dehors, la ligne droicte menée d'vn centre à l'autre, passera par l'attouchement.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -36,7 +36,7 @@ concl. 21.a.1 | acb *eſt* ——.
 
 Pelletier demonstre cette 12. proposition ainsi.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

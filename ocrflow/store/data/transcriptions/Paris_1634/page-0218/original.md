@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
 ∩abc 2|2 ∩def,
 ∪ aic 2|2 ∪ dkf.
@@ -20,7 +19,7 @@ In æqualibus circulis, æquales peripherias, æquales rectæ lineæ subtendunt.
 
 Aux cercles égaux, les circonferences égales, soustendent lignes droictes égales.
 
-*[Figure: deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—C, G—A, G—C ; le second D—E—F, H au dedans, K en bas, lignes D—F, H—D, H—F]*
+[Figure: deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—C, G—A, G—C ; le second D—E—F, H au dedans, K en bas, lignes D—F, H—D, H—F]
 
 Hypoth.
 

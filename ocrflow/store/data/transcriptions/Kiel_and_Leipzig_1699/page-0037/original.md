@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 19)* -->
+<!-- Page number: 19 -->
 
 ### Beweiß.
 
@@ -31,6 +31,6 @@ Wenn in zweyen Dreyecken zwo Seiten des einen eben so groß seynd / als zwo Seit
 
 Man hebe das △ abc auff/ und setze es auff das △ ABC also / daß der Düttel a auff den Düttel A, und der Strich AB auff den Strich AB falle.
 
-<!-- signature mark: C 2 -->
+<!-- Signature: C 2 -->
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

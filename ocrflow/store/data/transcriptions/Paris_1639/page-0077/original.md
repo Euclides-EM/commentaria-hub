@@ -1,8 +1,8 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 costez chacun au sien, & la base plus grande que la base ; ils auront aussi l'angle contenu d'iceux plus grand que l'angle.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -19,9 +19,11 @@ bc 3|2 ef.
 ſuppoſ. | ∠bac 2|2 ∠edf,
 α.4.1 | bc 2|2 ef,
 #### contr. hypoth.
+
 ſuppoſ. | ∠bac 2|3 ∠edf,
 α.24.1 | bc 2|3 ef,
 #### contr. hypoth.
+
 conel. 21.a.1 | ∠bac 3|2 ∠edf.
 
 ## THEOR. XVII. PROPOS. XXVI.

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 136)* -->
+<!-- Page number: 136 -->
 
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
 Dw. cga ⋏ ∟ — n. 3. III.
 und cga ⋏ dga — n. 10. Gr. I.
@@ -30,6 +30,6 @@ Wenn man sagen wolte/ sie hätten nur einen einigen Mittel-Düpffel/ nemlich a, 
 
 2. Ziehe man auch den Strich ad.
 
-*[Figur: zween einander durchschneidende Kreyse mit den Dütteln b (links), g (rechts), d (unten), darinnen a und e, punktierte Striche von a nach b und von e nach d]*
+[Diagram: zween einander durchschneidende Kreyse mit den Dütteln b (links), g (rechts), d (unten), darinnen a und e, punktierte Striche von a nach b und von e nach d]
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

@@ -1,1 +1,1 @@
-*[blank page]*
+[Blank page]

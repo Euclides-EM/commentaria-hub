@@ -1,6 +1,6 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 86)* -->
+<!-- Page number: 86 -->
 
 ### Beweiß.
 
@@ -25,6 +25,6 @@ Dw. acb ∠ ⌐ | n. 10. Beschreib.
 
 Wenn derowegen in einem △ , der einen Seiten □ so groß ist / als die □ □ der ander beeden Seiten / so begreiffen diese beeden Seiten einen rechten Winckel. W. Z. B.
 
-*[Figur: Zierstück (Druckervignette in Rautenform)]*
+[Ornament: Zierstück (Druckervignette in Rautenform)]
 
-<!-- catchword: Das -->
+<!-- Catchword: Das -->

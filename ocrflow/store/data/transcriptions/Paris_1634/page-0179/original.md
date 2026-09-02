@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 ## SCHOL. II.
 
@@ -23,7 +22,7 @@ Præpar.
 10.1 | bd 2|2 de,
 1.p.1 | cd, & ce snt —.
 
-*[Figure: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]*
+[Figure: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]
 
 Demonstr.
 

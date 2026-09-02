@@ -1,9 +1,8 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 A vn rectiligne donné descrire vn rectiligne semblable, plus grand ou plus petit, selon la raison donnee.
 
-*[Figure: quadrilatere G, H, A, B ; quadrilatere E, F, C, D ; lignes R, M, S à part]*
+[Figure: quadrilatere G, H, A, B ; quadrilatere E, F, C, D ; lignes R, M, S à part]
 
 Hypoth.
 

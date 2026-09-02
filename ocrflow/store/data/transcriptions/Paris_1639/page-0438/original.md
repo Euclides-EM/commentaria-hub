@@ -1,6 +1,6 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
-*[Figure]*
+[Figure]
 
 faudra percer la terre de tous costez, pour sçauoir de quel costé l'ennemi trauaille, lequel ne pourra estre si secret qu'on n'en oye le bruit ; & faudra destourner le chemin de la mine du lieu où trauaillerõt les ennemis.  Maintenant on pratique souuent les mines, qui ont leur entrée dans le pan du bastion par dans la gallerie, comme en cette figure AC est la gallerie, & B la mine.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 9. 13 | zq π qe 2|2 qe π ze,
 3. 13 | □.zα 2|2, 5□.ea, ν

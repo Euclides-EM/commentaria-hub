@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVDLID. LI. II. -->
+<!-- Running title: ELEM.. EVDLID. LI. II. -->
 
 γ.32.1 | <bfd est ½ ∟,
 6.1 | bd 2|2 fd,
@@ -20,7 +19,7 @@ ac u ce est ½ ab,
 ad 3|2 db,
 ad ~ db 2|2 fd,
 
-*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D]*
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D]
 
 Req. π. demonst.
 

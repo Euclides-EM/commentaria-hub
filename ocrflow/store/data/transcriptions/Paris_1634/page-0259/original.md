@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 3.a.1 | bc est 2573,
 47.1 | ac est 2760,
@@ -21,7 +20,7 @@ Req. π. demonstr.
 
 abcde est æquiang.
 
-*[Figure: pentagone A—B—C—D—E inscrit dans vn cercle]*
+[Figure: pentagone A—B—C—D—E inscrit dans vn cercle]
 
 Demonstr.
 
@@ -33,7 +32,7 @@ Hypoth. 2.
 fghi est rhomb.
 <fgh 3|2 <gfi,
 
-*[Figure: rhombe F—G—H—I auec cercle inscrit, O au centre, les poincts L, M, N, P sur le cercle]*
+[Figure: rhombe F—G—H—I auec cercle inscrit, O au centre, les poincts L, M, N, P sur le cercle]
 
 Præpar.
 

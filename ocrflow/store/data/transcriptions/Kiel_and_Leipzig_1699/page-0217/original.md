@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 199)* -->
+<!-- Page number: 199 -->
 
 □ ad + □ fg | □ af n. 3. Gr. I.
 □ hag + □ fg | □ af n. 6. II.
@@ -21,4 +21,4 @@ Wenn man ausser dem gegebenen Kreyß einen Düttel erwehlet/ und von selbigem zw
 
 1. Kreyß dhkg. da | Rührstrich des Kreyses.
 
-<!-- catchword: 2.Düt- -->
+<!-- Catchword: 2.Düt- -->

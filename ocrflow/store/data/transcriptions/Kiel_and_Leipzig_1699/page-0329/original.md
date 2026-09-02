@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 305)* -->
+<!-- Page number: 305 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Beweiß.
 
@@ -30,5 +30,5 @@ Alle Dreyecke/ welche gleichmässige Höhen haben / verhalten sich also/ wie ihr
 1. Zwey nebenstrichichte Vierecke ln. und hk.
 2. Gleichmässige Höhen rm|kg.
 
-<!-- signature mark: Qq -->
-<!-- catchword: Begehrtes. -->
+<!-- Signature: Qq -->
+<!-- Catchword: Begehrtes. -->

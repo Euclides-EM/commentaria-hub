@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 225)* -->
+<!-- Page number: 225 -->
 
 ### Wirckung.
 
@@ -41,5 +41,5 @@ Fünffeck ein Kreyß umbgeschrieben. W. Z. M.
 Einem gegebenen Kreyß ein gleichseitig und
 gleichwincklichtes Sechseck einzuschreiben.
 
-<!-- signature mark: Ff -->
-<!-- catchword: Ge- -->
+<!-- Signature: Ff -->
+<!-- Catchword: Ge- -->

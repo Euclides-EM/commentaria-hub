@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 c.8.6 | ba π ae 2|2 ae π ad, γ
 22.6 | □.ba π □.ae 2|2 □.ae π □.ad,
@@ -27,7 +27,7 @@ concl. 16.6 | ▭.ab, ed 2|2 ▭.ae, eb.
 
 Les parallelogrammes equiangles, son l'vn à l'autre en raison composée de celle de leurs costez.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

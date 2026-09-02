@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. IV. -->
+<!-- Running title: D'EVCLIDE, LIV. IV. -->
 
-*[Figure]*
+[Figure]
 
 3.p.1 | fa *eſt* ——,
 ſymp. | ⊙fabc *eſt le req.*

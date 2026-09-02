@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
 nea, & circuli peripheria comprehenditur.
 
@@ -7,7 +6,7 @@ se, sous vne ligne droicte, & la circonference du cercle.
 
 5.d.3 | abc & def snt ⌓.
 
-*[Figure: deux segments de cercle, le premier A—B—C, le second D—E—F, sur les bases A—C et D—F]*
+[Figure: deux segments de cercle, le premier A—B—C, le second D—E—F, sur les bases A—C et D—F]
 
 Explicatio notarum.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XV. -->
+<!-- Running title: ELEM.. EVCLID. LI. XV. -->
 
 Hypoth.
 chgbdefa, eſt cub. D.
@@ -18,7 +17,7 @@ Conſtr.
 1. p. 1 | np, pq, qſ, ſn, on, op, oq, oſ, rn, rp, rq, rſ ſnt ——;
 ſymp. | Req. eſt octaedr. npqſor,
 
-<!-- (figure) A F / I R / K S / D / B N G C E / L M / O P / C -->
+[Figure: labels arranged A F / I R / K S / D / B N G C E / L M / O P / C]
 
 Demonſtr.
 

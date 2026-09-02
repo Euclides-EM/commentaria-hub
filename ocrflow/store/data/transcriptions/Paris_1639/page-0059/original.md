@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
-*[Figure]*
+[Figure]
 
 1.1 | def *eſt* △ *equilat.*
 1.p.1. | af *eſt* ——,
@@ -25,13 +25,13 @@ hyp. | bac *eſt* ∠D.
 
 8.1 | ∠fad 2|2 ∠fae.
 
-*[Figure]*
+[Figure]
 
 ## PROBL. V. PROPOS. X.
 
 Couper vne ligne droicte donnée & terminée en deux parties égales.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

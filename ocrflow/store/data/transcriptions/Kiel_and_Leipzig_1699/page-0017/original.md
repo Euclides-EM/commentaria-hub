@@ -6,7 +6,7 @@ Porrò, si linea ab coincidit cum linea AB.
 
 Linea ac vel in ipsam lineam AC, vel intra in Ag, vel extra in Af cadet.
 
-*[Figur: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit punktierten Linien zu den Punkten g und f an der Grundlinie]*
+[Diagram: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit punktierten Linien zu den Punkten g und f an der Grundlinie]
 
 Si ac cadet intra in Ag.          vel extra in Af.
 Erit BAg ⋏ bac per præparat.  BAf ⋏ bac n. Vorbereit.
@@ -19,8 +19,8 @@ Neutrum fieri potest. Ergo necessariò cadet linea ac in lineam AC.
 
 Denique: quia lineæ bc ambo termini b & c in ambos lineæ BC terminos B & C cadunt, incidet quoque ipsa linea bc in Basin BC, vel supra, vel infra:
 
-*[Figur: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit punktiertem Bogen unter der Grundlinie BC]*
+[Diagram: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit punktiertem Bogen unter der Grundlinie BC]
 
 Sed supra vel infra cadere non poterit, alias duæ rectæ describerent figuram, quod est contra axioma 12. n. 12. Gr. S.
 
-<!-- catchword: Neces- -->
+<!-- Catchword: Neces- -->

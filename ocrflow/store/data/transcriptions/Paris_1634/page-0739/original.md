@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 tibus in communi sectione ad rectos angulos insistat: illa ducto etiam per ipsas plano ad angulos rectos erit.
 
 *Si deux lignes droictes se couppent l'vne l'autre, & au poinct de leur commune section est menee vne autre ligne droicte à angles droicts: elle sera aussi à angles droicts sur le plan d'icelles.*
 
-<!-- F / A C / G E H / D B (figure) -->
+[Figure: labels arranged F / A C / G E H / D B]
 
 Hypoth.
 

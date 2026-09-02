@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 ∠iad 2|3 ∠ead.
 

@@ -1,11 +1,11 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Hypoth.
 
 ab *eſt* ——,
 ac & cb *ſnt parties de* ab.
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtr.
 

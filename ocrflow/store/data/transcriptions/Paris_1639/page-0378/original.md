@@ -1,6 +1,6 @@
-<!-- # GEOMETRIE -->
+<!-- Running title: GEOMETRIE -->
 
-*[Figure]*
+[Figure]
 
 ∠ACD   AD   ∠ADC   AC
 37 deg. —— 30 toises —— 63 deg.   R. 44 315/976.

@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 3.a.1 | *gnom.* eng 2|2 c, β
 α.36.1 | ◊al 2|2 ◊co Ⅱ ◊bm,
@@ -12,7 +12,7 @@ Si à la ligne donnée il faut appliquer vn parallelogramme excedant d'vn quarr�
 
 Estant donnée la moyenne de trois proportionelles, & la difference des extrémes, trouuer les extrémes.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

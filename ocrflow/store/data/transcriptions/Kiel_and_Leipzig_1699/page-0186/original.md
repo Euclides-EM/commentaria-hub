@@ -1,8 +1,8 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 168)* -->
+<!-- Page number: 168 -->
 
-*[Figur: Kreyßstück über der Sehne de mit den Punkten b und c oben; von d und e punktierte Linien zu den Düpffeln a, f und g unterhalb der Sehne]*
+[Diagram: Kreyßstück über der Sehne de mit den Punkten b und c oben; von d und e punktierte Linien zu den Düpffeln a, f und g unterhalb der Sehne]
 
 ### I. Beweiß.
 
@@ -32,4 +32,4 @@ Aller einem Kreyß eingeschriebenen Vierecke gegen einander überstehende Wincke
 1. Viereck abcd, — 1. adc + abc | 2 ∟
 2. Welches dem Kreyß acb eingeschrieben. — 2. dcb + dab | 2 ∟
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

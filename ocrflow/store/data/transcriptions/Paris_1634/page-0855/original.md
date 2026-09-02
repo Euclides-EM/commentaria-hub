@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 ## COROLL. II.
 

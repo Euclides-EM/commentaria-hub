@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 150)* -->
+<!-- Page number: 150 -->
 
 Oder:
 
@@ -32,6 +32,6 @@ Nicht mehr als ein Anrührungs-Düttel.
 
 Wann der inwendige Kreyß/ den eussern in c und d anrühret.
 
-*[Figur: zwei Kreise, deren innerer den äusseren oben in c und unten in d berührt; im Innern die Punkte a und b, dazwischen ein punktierter Strich von c nach d]*
+[Diagram: zwei Kreise, deren innerer den äusseren oben in c und unten in d berührt; im Innern die Punkte a und b, dazwischen ein punktierter Strich von c nach d]
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

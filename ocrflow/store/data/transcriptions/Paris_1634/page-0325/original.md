@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-<!-- # ELEM.. EVCLID. LI. V. -->
-
-*[Figure: lignes G ; A—B—C ; D—E—F]*
+[Figure: lignes G ; A—B—C ; D—E—F]
 
 Demonstr.
 
@@ -21,7 +20,7 @@ Si composita prima cum secunda ad secundam maiorem habuerit proportionem, quàm 
 
 Si la composee de la premiere auec la seconde a plus grande raison à la seconde, que la composee de la tierce auec la quarte à la quarte ; en diuisant la premiere aura aussi plus grande raison à la seconde, que la tierce à la quarte.
 
-*[Figure: lignes G ; A—B—C ; D—E—F]*
+[Figure: lignes G ; A—B—C ; D—E—F]
 
 Hypoth.
 

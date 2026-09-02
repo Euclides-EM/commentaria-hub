@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 A B G E F C / H I K D (rectangle) S R N / O M P / L Q T (square)
 

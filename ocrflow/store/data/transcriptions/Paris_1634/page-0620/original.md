@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 □.a 3|2 □.b..□. —— cōm. a, significat, quadratum A, maius est quadrato B, quadrato rectæ commensurabilis A.
 

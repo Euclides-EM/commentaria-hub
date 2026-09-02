@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 l'vnité sont gnomons : Et tous les aggregez des gnomons qui s'entresuiuent commençant à l'vnité sont nombres quarrez ; Et tout nombre quarré est composé d'autant de nombres impairs qu'il y a d'vnitez en son costé.
 
@@ -14,7 +13,7 @@ Si recta linea secetur in æqualia, & non æqualia : Rectangulum sub inæqualibu
 
 Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales, le rectangle contenu des parties inégales de la toute, auec le quarré de la section du milieu, est égal au quarré de la moitié de la toute.
 
-*[Figure: rectangle L—I—B—A en bas, quarré E—F au dessus, G, M, K, O, H au milieu, N en bas, A—C—D—B en bas, diagonale E—H—B]*
+[Figure: rectangle L—I—B—A en bas, quarré E—F au dessus, G, M, K, O, H au milieu, N en bas, A—C—D—B en bas, diagonale E—H—B]
 
 Hypoth.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
 A...3, B...3G...3C
 D....4, E....4H....4F

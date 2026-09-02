@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 342)* -->
+<!-- Page number: 342 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 3. werde DH ⊤ eh
 4. und DF ⊤ ef   n. 3. I.
@@ -37,4 +37,4 @@
 
 ad ⌻ fh
 
-<!-- catchword: II. Vor- -->
+<!-- Catchword: II. Vor- -->

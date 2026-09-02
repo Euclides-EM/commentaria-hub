@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 ## PROBL. VII. PROPOS. VII.
 
@@ -7,7 +6,7 @@ Circa datum circulum quadratum describere.
 
 A l'entour d'vn cercle donné, descrire vn quarré.
 
-*[Figure: cercle E au centre, quarré F—G—I—H circonscrit, A en haut, B à gauche, D à droicte, C en bas, lignes A—C et B—D]*
+[Figure: cercle E au centre, quarré F—G—I—H circonscrit, A en haut, B à gauche, D à droicte, C en bas, lignes A—C et B—D]
 
 Hypoth.
 

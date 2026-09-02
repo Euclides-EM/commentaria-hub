@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 7.2 | □.ad + □.bd ∼ 2▭.adb 2|2 □.ab,
 l.79.10 | □.ac + □.bc / .∼: □.ad + □.bd / 2|2 2▭.acb.∼: 2▭.adb, β

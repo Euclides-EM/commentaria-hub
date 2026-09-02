@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 reliquis duobus quadratis, esse acutum.
 
@@ -15,7 +14,7 @@ Cognitis lateribus trianguli, inuenire segmentum inter perpendicularem & acutum 
 
 Estans cognus les costez d'vn triangle, trouuer le segment compris entre la perpendiculaire & l'angle aigu.
 
-*[Figure: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]*
+[Figure: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]
 
 hyp. | ab est 8,
 hyp. | ac est 5,

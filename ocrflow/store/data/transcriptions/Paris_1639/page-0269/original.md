@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 Les figures ABHG & CDFE sont posées semblablement sur AB & CD, à cause que les lignes AB & CD sont homologues, c'est à dire que l'vne n'est pas antecedent & l'autre consequent.
 
@@ -6,7 +6,7 @@ Les figures ABHG & CDFE sont posées semblablement sur AB & CD, à cause que les
 
 Les triangles semblables sont entr'eux en raison doublée de leurs costez de mesme raison.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

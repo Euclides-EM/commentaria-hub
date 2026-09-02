@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 1.concl. | □.ba, incomm. □.ac, ꝑ demonstr. 34.10.
 47.1 | □.ba + □.ac 2|2 □.bc,

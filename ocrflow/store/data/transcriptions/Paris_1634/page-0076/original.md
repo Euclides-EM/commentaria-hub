@@ -1,11 +1,10 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 ### 10. a. 1.
 
 Duæ rectæ lineæ non habent vnum & idem segmentum commune. | Deux lignes droictes n'ont pas vn mesme segment commun.
 
-*[Figure: ligne A—B—C horizontale, point G au dessus de A, ligne GB rejoignant B]*
+[Figure: ligne A—B—C horizontale, point G au dessus de A, ligne GB rejoignant B]
 
 hyp. | abc est —.
 10.a.1. | gbc ñ est —.

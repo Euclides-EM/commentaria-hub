@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 æquales multitudine, quæ binæ in eadem ratione sumantur : aggregatum quotcunque priorum ad quamcunque vel aggregatum quotcunque earundem, est vt aggregatum totidem posteriorum, eiusdem ordinis quàm priores, ad eam vel aggregatum earum quæ prioribus ordine, & multitudine respondent.
 

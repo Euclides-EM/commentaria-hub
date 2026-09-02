@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 181)* -->
+<!-- Page number: 181 -->
 
 Dw. abd + acd ⋀ adb + adc   n. 2. Gr. I.
 bdc ⋀ adb + adc   n. 9. Gr. q. I.
@@ -18,9 +18,9 @@ und bdc ⋀ ∟   n. 10. Beschr. I.
 4. Winckel cad.
 
 ### Begehrtes.
-cad ⋀ (?) ∟
+cad [unclear: ⋀] ∟
 
-*[Figur: Kreyß mit den Punckten a, c, b, d; darin die Striche ac, ad, bd und bc, etliche punctirt]*
+[Diagram: Kreyß mit den Punckten a, c, b, d; darin die Striche ac, ad, bd und bc, etliche punctirt]
 
 ### Vorbereitung.
 1. Durch den Mittel-Düpffel werde der Durchschlag cb,
@@ -28,9 +28,9 @@ cad ⋀ (?) ∟
 
 ### II. Beweiß.
 bdc ⋀ ∟   n. 1. Bew.
-cbd ⋀ (?) ∟   n. 17. I.
+cbd [unclear: ⋀] ∟   n. 17. I.
 cad ⋀ cbd   n 21. III.
-Dw. cad ⋀ (?) ∟   n. 1. Gr. d. I.
+Dw. cad [unclear: ⋀] ∟   n. 1. Gr. d. I.
 
-<!-- signature mark: Q 3 -->
-<!-- catchword: III. Be- -->
+<!-- Signature: Q 3 -->
+<!-- Catchword: III. Be- -->

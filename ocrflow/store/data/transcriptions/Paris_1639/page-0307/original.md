@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 ### De la ſouſtraction.
 

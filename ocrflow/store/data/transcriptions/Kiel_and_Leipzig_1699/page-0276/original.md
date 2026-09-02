@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 252)* -->
+<!-- Page number: 252 -->
 
 ### Beschluß.
 
@@ -14,7 +14,7 @@ Gleichgrosse Grössen sind gegen eine einige Grösse gleichvielfältig: Und eine
 
 ### Gegebene. — Begehrtes.
 
-*[Figur: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]*
+[Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
 
 A : a | B : a.
 
@@ -29,4 +29,4 @@ A | B
 Dw. A : 3a | B : 3a
 Und A : a | B : a — n. 7. Besch. V.
 
-<!-- catchword: Gege- -->
+<!-- Catchword: Gege- -->

@@ -1,5 +1,5 @@
-*[engraving]*
+[Illustration: engraving]
 
-> INV. RÉSERVE V 118 (1)
-
-> Source gallica.bnf.fr / Bibliothèque nationale de France
+[Other type="shelfmark"]
+INV. RÉSERVE V 118 (1)
+[/Other]

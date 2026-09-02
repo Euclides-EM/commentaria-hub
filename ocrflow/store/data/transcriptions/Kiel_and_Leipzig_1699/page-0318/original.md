@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 294)* -->
+<!-- Page number: 294 -->
 
 ### Beschluß.
 Wenn derowegen VI. Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die IV. zu der V. auch die II. zu der III. eine grössere Verhältnüß / als die V. zu der Sechsten hat: So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
@@ -12,9 +12,9 @@ Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darz
 
 ### Gegebene.
 
-*[Figur: sechs waagerechte Linien A, B, C, a, b, c von unterschiedlicher Länge]*
+[Diagram: sechs waagerechte Linien A, B, C, a, b, c von unterschiedlicher Länge]
 
 A : B ⊣ b : c
 B : C ⊣ a : b
 
-<!-- catchword: Begehrtes. -->
+<!-- Catchword: Begehrtes. -->

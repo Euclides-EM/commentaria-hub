@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 Demonstr.
 
@@ -14,7 +13,7 @@ A data recta linea imperatam partem auferre.
 
 D'vne ligne droicte dōnee en oster vne partie demādee.
 
-*[Figure: ligne A—G—B avec ligne oblique A, D, E, F, C]*
+[Figure: ligne A—G—B avec ligne oblique A, D, E, F, C]
 
 Hypoth.
 

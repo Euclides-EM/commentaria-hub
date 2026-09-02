@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 369)* -->
+<!-- Page number: 369 -->
 
 ### Beweiß.
 
@@ -28,5 +28,5 @@ Ist also ein Fünfeck L, welches der Gestalt B gleichmässig/ dem Fünfeck A äh
 
 Wenn von einem nebenstrichichten Viereck ein ander nebenstrichichtes Viereck abgenomen wird/ welches dem gantzen Viereck ähnlich/ gleicher Weise gesetzet ist/ und einen gleichmässigen Winckel mit dem gantzen Viereck hat / so werden solche Vierecke üm einen einigen Zwergstrich stehen.
 
-<!-- signature mark: Aaa -->
-<!-- catchword: Gege- -->
+<!-- Signature: Aaa -->
+<!-- Catchword: Gege- -->

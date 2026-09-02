@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 374)* -->
+<!-- Page number: 374 -->
 
 ### Begehrtes.
 
@@ -18,6 +18,6 @@
 4. Das mangelende □ pB.
 5. □ pB ähnlich □ D.
 
-*[Figur: oben eine Gestalt X mit Dreieck und Punkt H, daneben ein Viereck D und ein Viereck mit den Punkten A, S, B, g; darunter nochmals die Gestalt X mit den Punkten k, l, q, m, h, daneben Viereck D mit punctirter Diagonale; unten ein Viereck mit den Punkten c, o, g, u, r, q, n, p, A, c, E, s, B, m nebst punctirtem Halbkreis]*
+[Diagram: oben eine Gestalt X mit Dreieck und Punkt H, daneben ein Viereck D und ein Viereck mit den Punkten A, S, B, g; darunter nochmals die Gestalt X mit den Punkten k, l, q, m, h, daneben Viereck D mit punctirter Diagonale; unten ein Viereck mit den Punkten c, o, g, u, r, q, n, p, A, c, E, s, B, m nebst punctirtem Halbkreis]
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

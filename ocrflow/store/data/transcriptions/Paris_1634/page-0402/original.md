@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 15.1 | <fed 2|2 <beh,
 β.6.6 | <dfe 2|2 <ebh,
@@ -11,7 +10,7 @@ concl. 29.1 | bc == ef.
 
 Pappus lib. 7. propos. 57.
 
-*[Figure: deux demicercles sur A B & sur C D, auec les poincts A, C, F, E, D, B, & les lignes F G, E L]*
+[Figure: deux demicercles sur A B & sur C D, auec les poincts A, C, F, E, D, B, & les lignes F G, E L]
 
 Hypoth.
 

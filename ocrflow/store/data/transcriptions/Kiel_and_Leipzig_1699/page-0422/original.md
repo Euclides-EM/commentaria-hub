@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch Euclidis. -->
+<!-- Running title: Das VI. Buch Euclidis. -->
 
-<!-- *(Seitenzahl: 392)* -->
+<!-- Page number: 392 -->
 
 ### Beschluß.
 
@@ -25,7 +25,7 @@ Pag. 21. lin. 20. pro gleichseitig. leg. gleichschencklicht.
 
 20. pro ⊣ DB lege ⊣ CB
 
-51. 11. lege, ist aber BAC ⋀̸ (?) bac
+51. 11. lege, ist aber BAC [unclear: ⋀̸] bac
 
 58. 2. lege, entgegen stehenden Winckel gleichgroß.
 
@@ -53,4 +53,4 @@ post l. 16. inseratur : Beschreibungen.
 
 13. pro ab □ bd leg. ab + bd
 
-<!-- catchword: 121. l. -->
+<!-- Catchword: 121. l. -->

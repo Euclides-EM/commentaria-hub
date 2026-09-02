@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 3.a.1. | <abe 2|2 <abd,
 | contr. 9. a. 1.
@@ -11,7 +10,7 @@ Si duæ rectæ lineæ se mutuo secuerint, angulos ad verticem æquales inter se 
 
 Si deux lignes droictes se couppent l'vne l'autre, elles feront les angles au sommet égaux entr'eux.
 
-*[Figure: ligne A—E—B horizontale, ligne oblique C—E—D]*
+[Figure: ligne A—E—B horizontale, ligne oblique C—E—D]
 
 Hypoth.
 

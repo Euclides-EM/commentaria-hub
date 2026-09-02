@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
 constr. | eb msur: cf,
 11.a.7 | fd msur: cf,

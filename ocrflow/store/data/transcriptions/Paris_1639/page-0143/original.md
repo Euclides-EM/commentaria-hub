@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 #### Demonſtr.
 
@@ -27,7 +27,7 @@ conſtr. | ∠akl 2|2 ∠akc,
 
 Si au dedans du cercle on prend quelque poinct, & d'iceluy poinct tombent plus de deux lignes droictes égales à la circonference: le poinct pris est le centre du cercle.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -43,4 +43,5 @@ ab, ac, ak *ſnt* 2|2 đe.
 ſuppoſ. | a n̄ *eſt centre du* ⊙,
 7.3 | ab, ac, ak n̄ *ſnt* 2|2 đe.
 #### contr. hypoth.
+
 concl. 21.a.1 | a *eſt centre du* ⊙.

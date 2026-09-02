@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 Hypoth.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 10.4 | △fgh est isosc.
 | <gu<h 2|2, 2<f, α
@@ -10,7 +9,7 @@
 1.p.1 | ab, bc, de, ea snt —,
 symp. | 5<abcde est req.
 
-*[Figure: cercle auec pentagone A—B—C—D—E inscrit et toutes ses diagonales ; à droicte triangle isoscele F—G—H]*
+[Figure: cercle auec pentagone A—B—C—D—E inscrit et toutes ses diagonales ; à droicte triangle isoscele F—G—H]
 
 Demonstr.
 

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 33)* -->
+<!-- Page number: 33 -->
 
 ### Vorbereitung.
 
@@ -30,8 +30,8 @@ Wenn ein gerader Strich auff einen liegenden geraden Strich stösset/ und zween 
 Liegender Strich AB. | ⋀ ACD und DCB zween ∟ ∟. oder
 Darauff stossender Strich DC. | ⋀ ADC + BCD | ⊾.
 
-*[Figur: links liegender Strich AB mit senkrechtem Strich DC auff C; rechts liegender Strich AB mit schrägem Strich DC und punktiertem E]*
+[Diagram: links liegender Strich AB mit senkrechtem Strich DC auff C; rechts liegender Strich AB mit schrägem Strich DC und punktiertem E]
 
-<!-- signature mark: E -->
+<!-- Signature: E -->
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

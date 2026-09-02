@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 hyp. | 16 2|2 16,
 hyp. | 12 3|2 7, *l'excez des adjouſtées eſt 5.*

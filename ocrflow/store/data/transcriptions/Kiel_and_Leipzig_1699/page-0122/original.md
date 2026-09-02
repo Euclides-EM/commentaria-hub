@@ -1,6 +1,6 @@
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- *(Seitenzahl: 104)* -->
+<!-- Page number: 104 -->
 
 ### Beschluß.
 
@@ -30,7 +30,7 @@ bb + ca | dd — n. 3. Gr. I. W. Z. B.
 
 ### Auff die andere Arth.
 
-*[Figur: Waagerechter Strich mit den Punkten A, B, C, D, E.]*
+[Diagram: Waagerechter Strich mit den Punkten A, B, C, D, E.]
 
 ### Gegebene. | Begehrte.
 
@@ -39,4 +39,4 @@ b | CB | BD
 c + b | d | AB | BE
 d + b | f | AD
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

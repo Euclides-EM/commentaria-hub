@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 246)* -->
+<!-- Page number: 246 -->
 
 ### Vorbereitung.
 
@@ -9,7 +9,7 @@
 3. Die Grösse a aber viermahl /
 4. Und b auch viermahl genommen.
 
-*[Figur: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 4a, 2C, B, 4b, 2D]*
+[Diagram: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 4a, 2C, B, 4b, 2D]
 
 ### II. Beweiß.
 
@@ -31,4 +31,4 @@ Oder auch also:
 1. Es werde a zehen mahl /
 2. Und auch b zehen mahl genommen.
 
-<!-- catchword: A— -->
+<!-- Catchword: A— -->

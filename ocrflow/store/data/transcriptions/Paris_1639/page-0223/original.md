@@ -1,11 +1,11 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 #### Hypoth.
 
 ab *multipl..* e 2|2 cd *multipl..* f.
 ag *multipl..* e 2|2 ch *multipl..* f.
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtrer.
 
@@ -26,7 +26,7 @@ Ceste demonstration est manifeste du 3. ax. 1. car si des multitudes égales AB 
 
 Les grandeurs égales ont mesme raison à vne mesme grandeur, & vne mesme grandeur a mesme raison aux égales.
 
-*[Figure]*
+[Figure]
 
 hyp. | a 2|2 b.
 

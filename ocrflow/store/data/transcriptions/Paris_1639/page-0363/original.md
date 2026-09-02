@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 progression arithmetique, il faut multiplier 2633 par 7, nombre des années données, & viendra 18431, qu'il faut adiouster auec le logarithme de 500, qui est 269897, la somme sera 288328, qui donne dans la table 764 19/57 ou 1/3, pour le plus grand nombre de la progression, qui est la somme à quoy monteront 500 liures en 7 ans.
 

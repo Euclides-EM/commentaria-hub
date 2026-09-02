@@ -1,8 +1,8 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 209)* -->
+<!-- Page number: 209 -->
 
-*[Figur: drei Kreise, jeder mit einem umschriebenen Dreyeck abc und dem Mittel-Düpffel f; die Seitenmittel d und e mit Senckstrichen df und ef, die Stralen fa, fb, fc punktiert bzw. ausgezogen]*
+[Diagram: drei Kreise, jeder mit einem umschriebenen Dreyeck abc und dem Mittel-Düpffel f; die Seitenmittel d und e mit Senckstrichen df und ef, die Stralen fa, fb, fc punktiert bzw. ausgezogen]
 
 ### Wirckung.
 
@@ -27,6 +27,6 @@ Dw. fc | fb n. 1. Gr. I.
 und f der Mittel-Düpffel des Kreyses abc, n 9. III,
 welcher umb das △ abc umbschrieben / n. 6. Beschr. IV.
 
-<!-- signature mark: D d -->
+<!-- Signature: D d -->
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

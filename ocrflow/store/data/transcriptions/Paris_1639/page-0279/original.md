@@ -1,8 +1,8 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 C'est à dire, que si le parallelogramme AEFG est semblable au parallelogramme total ADCB, le diametre AF sera partie du diametre total AC.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -32,4 +32,4 @@ De tous les parallelogrammes appliquez selon vne mesme ligne droicte, & defailla
 
 La ligne proposée à laquelle il faut appliquer les parallelogrammes AD & AG est AB, le defaut du parallelogramme ACDH est CBED, & le defaut du parallelogramme AKGF est KBIG, ces deux defaux CE &
 
-*[Figure]*
+[Figure]

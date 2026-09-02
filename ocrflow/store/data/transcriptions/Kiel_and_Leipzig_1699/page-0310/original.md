@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 286)* -->
+<!-- Page number: 286 -->
 
 ### Beweiß.
 
@@ -26,8 +26,8 @@ Wenn man vier Grössen hat/ deren Erste zu der Andern eine grössere Verhältnü
 
 ### Gegebene.
 
-*[Figur: fünf Linien A, c, a, B, b von verschiedener Länge am linken Rand]*
+[Diagram: fünf Linien A, c, a, B, b von verschiedener Länge am linken Rand]
 
 A : a ⊣ B : b
 
-<!-- catchword: Begehrtes. -->
+<!-- Catchword: Begehrtes. -->

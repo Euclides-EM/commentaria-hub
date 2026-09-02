@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 61)* -->
+<!-- Page number: 61 -->
 
 ### Beweiß.
 
@@ -26,7 +26,7 @@ Jedwedes Dreyeckes / dessen eine Seite verlängert ist/auswendiger Winckel/ist e
 1. Gegen die Seite AC werde ein Neben-Strich/ und zwar
 2. Aus dem Düttel B gezogen / nemlich BE n. 31. Vortr.
 
-*[Figur: Dreieck ABC, die Seite AB gegen D verlängert, aus B der Strich BE gezogen; punktierter Bogen von C nach E]*
+[Diagram: Dreieck ABC, die Seite AB gegen D verlängert, aus B der Strich BE gezogen; punktierter Bogen von C nach E]
 
 ### Beweiß.
 
@@ -35,6 +35,6 @@ Dw.   ACB ⋏ CBE  }            n. 29. Vortr.
 und   CAB ⋏ EBD  }
 ACB + CAB ⋏ CBE + EBD         n. 2. Gr-S.
 
-<!-- signature mark: H 3 -->
+<!-- Signature: H 3 -->
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 symp. | am, mo, op, pq, qb snt 2|2 ⁊e,
 
@@ -20,7 +19,7 @@ Duabus datis rectis lineis tertiam proportionalem adinuenire.
 
 A deux lignes droictes donnees, trouuer la troisiesme proportionelle.
 
-*[Figure: triangle A, B, C avec D, E]*
+[Figure: triangle A, B, C avec D, E]
 
 Hypoth.
 

@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 rectangle contenu sous la toute & vne des parties, est égal au rectangle contenu sous icelles parties, & au quarré de la partie premierement prise.
 
-*[Figure: deux rectangles ; le premier E—D—F en haut, A—C—B en bas ; le second F—D—E en haut, B—C—A en bas, ligne D—C]*
+[Figure: deux rectangles ; le premier E—D—F en haut, A—C—B en bas ; le second F—D—E en haut, B—C—A en bas, ligne D—C]
 
 Hypoth.
 

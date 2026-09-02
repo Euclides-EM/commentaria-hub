@@ -1,10 +1,10 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 301)* -->
+<!-- Page number: 301 -->
 
 ### I. Gegebene.
 
-*[Figur: zwei waagerechte Linien A und B mit angesetzten Stücken a]*
+[Diagram: zwei waagerechte Linien A und B mit angesetzten Stücken a]
 
 A ⊣ B
 a | a
@@ -26,7 +26,7 @@ A + a : B + a ⊢ A : B
 
 ### II. Gegebene
 
-*[Figur: zwei waagerechte Linien A und B mit abgeteilten Stücken]*
+[Diagram: zwei waagerechte Linien A und B mit abgeteilten Stücken]
 
 A ⊣ B
 a | a
@@ -44,6 +44,6 @@ A — a : B — a ⊣ A : B
 |  | A : B | \| a : a | n. 27. V. |
 | Dw. | A — a : B — a | ⊣ A : B | n. 33. V. |
 
-<!-- signature mark: Pp 3 -->
+<!-- Signature: Pp 3 -->
 
-<!-- catchword: oder: -->
+<!-- Catchword: oder: -->

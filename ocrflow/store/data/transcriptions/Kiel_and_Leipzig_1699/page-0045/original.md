@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 27)* -->
+<!-- Page number: 27 -->
 
 adb ⋏ abd nach 5. Vortr.
 Drw. cdb ⋏ adb nach 1. Gr.S. d, welches aber unmöglich
@@ -34,6 +34,6 @@ Weñ in zweyen Drey-Ecken/ die zween Seiten-Striche des ersten △, denen zween 
 4. AC | DF
 5. BC | EF
 
-<!-- signature mark: D 2 -->
+<!-- Signature: D 2 -->
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

@@ -1,4 +1,4 @@
-<!-- # TRIGONOMETRIE. -->
+<!-- Running title: TRIGONOMETRIE. -->
 
 l'angle A donne 40 toises pour son costé opposé BC, combien donnera le sinus de l'angle C pour son costé opposé AB. Et de mesme, pour auoir le costé AC, on dira, si le sinus de l'angle A donne 40 toises pour son costé opposé BC, combien donnera le sinus de l'angle B pour son costé opposé AC Tellement qu'en cette regle, que ie nomme des opposez, le premier & second nombre de la regle de trois doiuent tousiours appartenir au costé & angle du triangle, qui sont cognus & opposez l'vn à l'autre : & le troisiesme & le quatriesme, qui est le requis, doiuent aussi estre opposez l'vn à l'autre dans le triangle.
 

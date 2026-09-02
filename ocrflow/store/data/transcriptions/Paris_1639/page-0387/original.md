@@ -1,12 +1,12 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
-*[Figure]*
+[Figure]
 
 duict sera le contenu du triangle ABC : ce faisant on trouuera que si AB a 5 toises, & AC 7 toises, que le triangle ABC vaudra 17 toises & demy, car 5 fois 7 font 35, & la moitié de 35 est 17 1/2. Que si AB vaut 5 toises 6′ ou 56′, & AC 7 toises 4′ ou 74′, multipliant 56′ par 74′ viendra 4144″, dont la moitié est 2072″, ou 20 72/100, pour le contenu du triangle ABC.
 
 ### Trouuer l'aire d'vn triangle obliquangle.
 
-*[Figure]*
+[Figure]
 
 Soit à trouuer le contenu du triangle ABC, pour ce faire, on mesurera lequel on voudra des costez : par exemple, BC & aussi la perpendiculaire AD, qui tombe de l'angle opposé A, sur le costé mesuré BC, continué si besoin est. Puis si on multiplie le nombre de la base BC par le nombre de la perpendiculaire AD, la moitié du produict sera le contenu du triangle ABC : ce faisant on trouuera, que si la base BC a 25 toises, & la perpendiculaire AD 18 toises, que le triangle ABC vaudra 225 toises. Car 25 multiplié par 18 fait 450, & la moitié de 450 est 225.
 

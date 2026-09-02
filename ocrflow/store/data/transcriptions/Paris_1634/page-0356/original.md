@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 extremis comprehenditur rectangulum, æquale est ei, quod à media describitur, quadrato. Et si sub extremis comprehensum rectangulum æquale sit ei, quod à media describitur, quadrato : illæ tres rectæ lineæ proportionales erunt.
 
 Si trois lignes droictes sont proportionelles : le rectangle contenu sous les extremes est egal au quarré de la moyenne : Et si le rectangle contenu sous les extremes est egal au quarré de la moyenne, les trois lignes droictes seront proportionelles.
 
-*[Figure: lignes A—B ; E—F ; F—G ; C—B et rectangle A, B, D, C ; quarré E, F, H, G]*
+[Figure: lignes A—B ; E—F ; F—G ; C—B et rectangle A, B, D, C ; quarré E, F, H, G]
 
 Hypoth. 1.
 

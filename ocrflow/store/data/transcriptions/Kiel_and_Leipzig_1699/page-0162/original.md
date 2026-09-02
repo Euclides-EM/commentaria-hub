@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 144)* -->
+<!-- Page number: 144 -->
 
 ### Gegebene. — Begehrtes.
 
@@ -18,11 +18,11 @@ a Der Mittel-Düpffel dieses Kreyses. bcf
 n. 10. I.
 3. Durch beyder Striche Mittel/ nemlich m und n, werden gerade Senckstriche kh und ef gezogen / n. 11. I.
 
-*[Figur: Kreis mit den Punkten h oben, b links oben, e links, c links unten, k unten, d rechts unten und f rechts; im Innern der Düttel a, die Mittel m und n, mit teils punktierten Strichen verbunden]*
+[Diagram: Kreis mit den Punkten h oben, b links oben, e links, c links unten, k unten, d rechts unten und f rechts; im Innern der Düttel a, die Mittel m und n, mit teils punktierten Strichen verbunden]
 
 ### I. Beweiß.
 
 Wolte man sagen/nicht a, sondern ein anderer Düttel were der Mittel-Düpffel/ so würde folgen / daß mehr/ als zween gleichlange Striche aus einem Düttel / so doch nicht der Mittel Düpffel ist / könten zum Umfang gezogen werden / welches aber unmöglich/
 n. 7. III.
 
-<!-- catchword: II. Be- -->
+<!-- Catchword: II. Be- -->

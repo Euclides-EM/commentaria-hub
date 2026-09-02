@@ -1,6 +1,6 @@
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
-<!-- *(Seitenzahl: 193)* -->
+<!-- Page number: 193 -->
 
 ### Vorbereitung.
 
@@ -34,6 +34,6 @@
 2. Der Strich ac ist in zween gleiche Theil al | lc
 3. Der Strich bd aber in ungleiche Theile bl ⊣ ld geschnitten in l.
 
-<!-- signature mark: Bb -->
+<!-- Signature: Bb -->
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

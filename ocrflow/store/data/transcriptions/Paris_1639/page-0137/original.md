@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 15.d.1 | ca 2|2 cb,
 5.1 | ∠cab 2|2 ∠cba,
@@ -15,7 +15,7 @@ De la demonstration de cette proposition il est manifeste, que la ligne droicte 
 
 Si dans le cercle quelque ligne droicte passant par le centre, couppe quelqu'autre ligne droicte, qui ne passe point par le centre, en deux également, elle la couppera aussi à angles droicts. Et si elle la couppe à angles droicts, elle la couppera aussi en deux également.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. commun.
 

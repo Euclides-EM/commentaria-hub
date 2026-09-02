@@ -1,8 +1,8 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 89)* -->
+<!-- Page number: 89 -->
 
-*[Figur: schiefwincklichtes Viereck mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Zwerg- und Diagonalstrichen]*
+[Diagram: schiefwincklichtes Viereck mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Zwerg- und Diagonalstrichen]
 
 ## Der I. Vortrag.
 
@@ -23,6 +23,6 @@ Wenn man von zweyen geraden Strichen einen in unterschiedliche Theile zerschneid
 4. Durch den Düttel c werde entgegen ab ein Nebenstrich ch. gezogen/ nach 31. Vortr. I.
 5. Durch b ziehe man gegen über ac , den Nebenstrich bh, nach 31. Vortr. I.
 
-<!-- signature mark: M -->
+<!-- Signature: M -->
 
-<!-- catchword: 6. Wer- -->
+<!-- Catchword: 6. Wer- -->

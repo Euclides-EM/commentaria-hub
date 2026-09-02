@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 390)* -->
+<!-- Page number: 390 -->
 
 |  |  |  |  |
 |---|---|---|---|
@@ -42,4 +42,4 @@
 | fh + hg | gh + hk | n. 15. Besch. I. |
 | fg | gk | n. 1. Vorb. |
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

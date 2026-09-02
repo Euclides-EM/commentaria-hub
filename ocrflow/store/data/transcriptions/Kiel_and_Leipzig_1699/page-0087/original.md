@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 69)* -->
+<!-- Page number: 69 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 2. △ BCD
 3. Gemeiner Grundstrich BC.
@@ -12,7 +12,7 @@
 1. Auß C werde der Nebenstrich CE,
 2. Wie auch der Nebenstrich CF gezogen.
 
-*[Figur: Dreyecke auff dem Grundstrich BC, mit den Puncten A, D, E, F oben und B, C unten, mit gezogenen und punctirten Strichen]*
+[Diagram: Dreyecke auff dem Grundstrich BC, mit den Puncten A, D, E, F oben und B, C unten, mit gezogenen und punctirten Strichen]
 
 ### Beweiß.
 
@@ -31,6 +31,6 @@ Müssen also allezeit diejenigen △ △ , welche auff einem einigen/ Grundstric
 
 Alle auff gleichgrossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Dreyecke sind gleich groß.
 
-<!-- signature mark: I 3 -->
+<!-- Signature: I 3 -->
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

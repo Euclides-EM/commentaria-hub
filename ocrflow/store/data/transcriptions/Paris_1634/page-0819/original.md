@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 12. 1, & 1. p. 1 | ni ⊥ ac, xy, eſt ——.
 

@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 DE LA REGLE DE TROIS, *double ou composée.*
 

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 143)* -->
+<!-- Page number: 143 -->
 
 ab + bn | ab + bm — n. 15. Beschr. I.
 abn ⋀ abm — n. 9. Gr. I.
@@ -24,4 +24,4 @@ Werden demnach allemal die beeden/von dem äussersten Düttel a, nach und durch 
 
 Wenn man in einem Kreyß einen Düttel findet / von welchem mehr / als zween gleichlange Striche zum Umfang können gezogen werden / so wird selbiger der Mittel-Düpffel des Kreyses seyn.
 
-<!-- catchword: Ge- -->
+<!-- Catchword: Ge- -->

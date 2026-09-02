@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 73)* -->
+<!-- Page number: 73 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Gegebene. | Begehrte.
 1. △ ABC | 1. CE durch die Gipffel der △ △
@@ -9,7 +9,7 @@
 4. Grundstriche AB | FH
 5. Gleichmässiger Stand derer △ △.
 
-*[Figur: zwey Dreyecke auff dem Strich A, B, F, H, mit den Puncten C, D, E, G oben, mit gezogenen und punctirten Strichen]*
+[Diagram: zwey Dreyecke auff dem Strich A, B, F, H, mit den Puncten C, D, E, G oben, mit gezogenen und punctirten Strichen]
 
 ### Beweiß.
 
@@ -30,6 +30,6 @@ ABC ⩓ FEH n. 3. Gegeb.
 Dw. FEH ⩓ FDH n. 1. Grund-Satz.
 welches aber unmöglich n. 9. Gr:S.
 
-<!-- signature mark: K -->
+<!-- Signature: K -->
 
-<!-- catchword: Gleiche -->
+<!-- Catchword: Gleiche -->

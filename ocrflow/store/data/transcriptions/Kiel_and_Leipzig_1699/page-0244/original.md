@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 220)* -->
+<!-- Page number: 220 -->
 
 3. Der Winckel bca werde in zween gleiche Theile getheilet
 durch den Strich ce. n. 9. I.
@@ -10,7 +10,7 @@ Theile getheilet/ durch den Strich db. n. 9. I.
 
 ### Beweiß
 
-△ abc gleichwincklicht dem ABC (?) — n. 2. Wirck.
+△ abc gleichwincklicht dem [unclear: ABC] — n. 2. Wirck.
 bce ∧ eca — n. 3. Wirck.
 α. — cbd ∧ dba — n. 4. Wirck.
 cba ∧ 2dba — n. 9. Gr. q. I.
@@ -42,4 +42,4 @@ Kreyß ghikl — 1. Fünffeck bcdef
 2. dem gegebenen Kreyß ümb-
 schrieben.
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

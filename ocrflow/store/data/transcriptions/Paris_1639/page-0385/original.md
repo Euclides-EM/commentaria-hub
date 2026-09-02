@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 que la premiere, & le plan se peut prendre plus promptement par icelle que par la premiere : Car on a plustost obserué la quantité d'vn angle, que mesuré actuellement les lignes qui le comprennent, principalement si elles sont longues : & se trouuent beaucoup de lieux, les lignes desquels ne se peuuent mesurer actuellement, encore qu'on puisse obseruer les quantitez de leurs angles. Et les plans des lieux montagneux qui se font par le moyen des quantitez de leurs lignes, ne peuuent estre iustes, mais en ceux qui se font par le moyen de leurs angles bien obseruez, il n'y peut auoir guere d'erreur, pourueu qu'on les obserue en tenant l'instrument parallele à l'horizon.
 

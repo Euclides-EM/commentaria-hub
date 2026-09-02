@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 281)* -->
+<!-- Page number: 281 -->
 
 ### Beweiß.
 
@@ -26,6 +26,6 @@ Werden derowegen Sechs in verwirreter Ebenmaß stehende Grössen auch ein ebenm�
 
 Wenn man Sechs Grössen hat/ deren Erste zu der Andern eine solche Verhältnüß hat/ als die Dritte zu der Vierten: darnach auch die Fünffte zu der Andern eine solche Verhältnüß hat / wie die Sechste zu der Vierten: So wird auch die Erste mit der Fünfften zu der Andern/ eine solche Verhältnüß/ wie die Dritte mit der Sechsten zu der Vierten haben.
 
-<!-- signature mark: Nn -->
+<!-- Signature: Nn -->
 
-<!-- catchword: A— -->
+<!-- Catchword: A— -->

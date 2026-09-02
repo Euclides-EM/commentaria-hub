@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 sub tota, & altero segmentorum rectangulum, æquale sit ei, quod à reliquo segmēto fit, quadrato.
 
@@ -9,7 +8,7 @@ Hypoth.
 
 ab est — D.
 
-*[Figure: quarré C—B—A—D, ligne I—G—H, D, E, A, F en bas, G sous B, ligne oblique E—B, rectangle G—H—F—A à droite]*
+[Figure: quarré C—B—A—D, ligne I—G—H, D, E, A, F en bas, G sous B, ligne oblique E—B, rectangle G—H—F—A à droite]
 
 Req. π. fa.
 

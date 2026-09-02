@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 *Si vn espace est contenu sous vne ligne rationelle, & vn apotome cinquiesme, la ligne droicte, qui peut iceluy espace, est ligne faisant auec vn espace rationel, vn tout medial.*
 

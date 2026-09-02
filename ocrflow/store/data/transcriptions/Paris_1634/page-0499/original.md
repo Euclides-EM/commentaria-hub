@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
 21.7 | a, msur: i, 2|2 b, msur: k, γ
 21.7 | c, msur: k 2|2 d, msur: l, γ

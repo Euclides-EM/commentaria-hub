@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 216)* -->
+<!-- Page number: 216 -->
 
 dcb ∧ ∟ ω.
 Dw. — dbc + bdc ∧ ∟ — n. 3. Gr. I.
@@ -29,6 +29,6 @@ als der Gipffelwinckel.
 2. jedweder Grundwinckel noch einmahl so groß als der Gipffelwinckel. — 2. in welchem der Gipffelwinckel halb so groß als ein Grund-
 winckel.
 
-*[Figur: links ein Quadrat mit Punkten A, C, B auf der Grundlinie und einem Kreisbogen; rechts ein punktierter großer Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c und d]*
+[Diagram: links ein Quadrat mit Punkten A, C, B auf der Grundlinie und einem Kreisbogen; rechts ein punktierter großer Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c und d]
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

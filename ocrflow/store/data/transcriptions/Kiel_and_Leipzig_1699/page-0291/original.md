@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 267)* -->
+<!-- Page number: 267 -->
 
 ### Gegebene. | Begehrtes.
 
@@ -9,7 +9,7 @@ b ______ | a : b | A : B.
 A __c__d__e__f__
 B __g__h__i__k__
 
-*[Figur: Strecken a, b; Strecke A in Theile c, d, e, f getheilet; Strecke B in Theile g, h, i, k getheilet]*
+[Diagram: Strecken a, b; Strecke A in Theile c, d, e, f getheilet; Strecke B in Theile g, h, i, k getheilet]
 
 4a | A
 4a | B
@@ -40,6 +40,6 @@ und a : b | A : B — n. 11. V.
 
 Müssen also allezeit die Theile sich also / wie die vielfache Gantzen zu einander verhalten/ W. Z. B.
 
-<!-- signature mark: Ll 2 -->
+<!-- Signature: Ll 2 -->
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

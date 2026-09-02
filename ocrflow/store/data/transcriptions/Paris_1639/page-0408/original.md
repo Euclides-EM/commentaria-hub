@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 Or les proportions & mesures données cy dessus ne sont pas tellement limitées, qu'il ne se puisse rien changer : Car afin que la ligne de defense soit plus courte, au quarré & au pentagone, la proportion du pan à la courtine de 4 à 5, & en l'hexagone de 3 à 4, doit estre preferée à la proportion de 2 à 3, qui est la meilleure pour les figures qui sont au dessus l'hexagone.
 

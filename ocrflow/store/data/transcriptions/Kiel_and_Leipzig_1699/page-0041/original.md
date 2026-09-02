@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 23)* -->
+<!-- Page number: 23 -->
 
 DA + AC | EA + AB nach 2. Gr.S.
 DAC ⋏ EAB nach 8. Gr.S.
@@ -28,4 +28,4 @@ Sind also in dem gleich-schencklichten △ ABC die beeden Winckel auff dem Gr. S
 
 Wenn in einem △ zweene Winckel/ jedweder jedwedem absonderlich/gleich sind/so sind auch diejenigen Seiten/welche solchen beeden Winckeln gegen überstehen / von gleicher Grösse.
 
-<!-- catchword: Gege- -->
+<!-- Catchword: Gege- -->

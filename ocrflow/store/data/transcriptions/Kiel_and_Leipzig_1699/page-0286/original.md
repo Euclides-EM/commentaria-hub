@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 262)* -->
+<!-- Page number: 262 -->
 
 ### Gegebene. | Begehrtes.
 
@@ -11,7 +11,7 @@ b __
 C ______
 c __
 
-*[Figur: Strecken A, a, B, b, C, c]*
+[Diagram: Strecken A, a, B, b, C, c]
 
 A : a | B : b | C : c
 
@@ -32,4 +32,4 @@ Müssen derowegen alle etlicher ebenmässigen Grössen vorgehende zusammen-genom
 
 Wenn die Erste zu der Andern eben solche Verhältnüß hat/ wie die Dritte zu der Vierten. Die Dritte aber zu der Vierten eine grössere Verhältnüß hat/ als die Fünffte zu der Sechsten: So wird auch die Erste zu der Andern eine grössere Verhältnüß haben/ als die Fünffte zu der Sechsten.
 
-<!-- catchword: Gegebene. -->
+<!-- Catchword: Gegebene. -->

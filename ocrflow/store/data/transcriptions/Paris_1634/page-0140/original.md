@@ -1,4 +1,3 @@
-
 # EVCLIDIS ELEMENTORVM LIBER SECVNDVS.
 
 # LE SECOND LIVRE DES ELEMENTS D'EVCLIDE.
@@ -11,7 +10,7 @@ Omne parallelogrammum rectangulum contineri dicitur sub rectis duabus lineis, qu
 
 Tovt parallelogramme rectangle est dit estre contenu sous deux lignes droictes, qui contiennent l'angle droict.
 
-*[Figure: parallelogramme rectangle ABCD, B & C en haut, A & D en bas]*
+[Figure: parallelogramme rectangle ABCD, B & C en haut, A & D en bas]
 
 Parallelogrammum rectangulum AC, dicitur contineri sub
 

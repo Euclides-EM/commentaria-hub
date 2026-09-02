@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 & MO: partant par la 6. definition du 5. AC est à CB, comme DF à FE; ce qu'il falloit demonstrer.
 
@@ -6,7 +6,7 @@
 
 #### Demonſtration de la diuiſion de raiſon inuerſe.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -26,7 +26,7 @@ concl. c.4.5 | cb π ac 2|2 fe π df.
 
 #### Demonſtr. de la diuiſ.. raō. contr. & inuerſ. contraire.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 241)* -->
+<!-- Page number: 241 -->
 
 ### Beweiß.
 
@@ -10,7 +10,7 @@
 | | d | a | n. 2. Vorber. |
 | Dw. | c + d | 2a | n. 2. Gr. I. |
 | | c + d | A | n. 9. Gr. q. I. |
-| α (?) Dw. | A. | 2a | n. 1. Gr. I. |
+| [unclear: α] Dw. | A. | 2a | n. 1. Gr. I. |
 | | e | a | |
 | | f | a | |
 | | g | a | n. 6. Vorb. |
@@ -22,7 +22,7 @@
 | | k | b | |
 | | h + k | 2b | |
 | | h + k | B | |
-| θ (?) Dw. | B | 2b | |
+| [unclear: θ] Dw. | B | 2b | |
 | | l | b | |
 | | m | b | |
 | | n | b | |
@@ -36,6 +36,6 @@
 1. Es werde die Grösse a sechsmahl/ und
 2. Die Grösse b auch sechsmahl genommen.
 
-<!-- signature mark: Hh -->
+<!-- Signature: Hh -->
 
-<!-- catchword: A -->
+<!-- Catchword: A -->

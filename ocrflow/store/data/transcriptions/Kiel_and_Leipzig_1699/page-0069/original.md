@@ -1,13 +1,13 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 51)* -->
+<!-- Page number: 51 -->
 
 3.  AB + AC | ab + ac
 4.  AB      | ab
 5.      AC  |     ac
 6.  CB      ⊢     bc
 
-*[Figur: Zwei Dreiecke ABC und abc nebeneinander]*
+[Diagram: Zwei Dreiecke ABC und abc nebeneinander]
 
 ### Beweiß.
 
@@ -31,6 +31,6 @@ Ist also jederzeit in dem △, dessen Grund-Seite grösser / als des andern / au
 
 Wann zwey Dreyecke zween Winckel/zweyen Winckeln / jedweden jedwedem / und eine Seite der einen Seite gleich haben / es sey gleich / daß die Seite einem der beeden Winckel übergespannet/oder neben den beeden Winckeln stehet : So
 
-<!-- signature mark: G 2 -->
+<!-- Signature: G 2 -->
 
-<!-- catchword: wer- -->
+<!-- Catchword: wer- -->

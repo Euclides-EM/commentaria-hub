@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ## PROBL. II. PROPOS. XIV.
 
 Descrire vn quarré égal à vn rectiligne donné.
 
-*[Figure]*
+[Figure]
 
 #### Hypotheſe.
 
@@ -35,4 +35,4 @@ a *eſt rectili.* D.
 a / conſtr. | ▭.db / 3.ſ.1.d.2 | ▭.dcf / ſ.5.2 | □.ch / ſ.46.1 | □.ml *ſnt* 2|2 đe.
 eoncl. 1.a.1 | □ml 2|2 *rectili.* a.
 
-*[Ornament]*
+[Ornament]

@@ -1,8 +1,8 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 194)* -->
+<!-- Page number: 194 -->
 
-*[Figur: Kreis mit Punkten c links, e und b oben rechts, n in der Mitte, d und l unten links, a unten]*
+[Diagram: Kreis mit Punkten c links, e und b oben rechts, n in der Mitte, d und l unten links, a unten]
 
 ### Vorbereitung.
 
@@ -27,4 +27,4 @@ Aus dem Mittel-Düpffel e werden gezogen
 |  | ed | ec | n. 15 Besch. I. |
 |  | □ ed | □ ec | n. 1. Gr. t. II. |
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 122)* -->
+<!-- Page number: 122 -->
 
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
 □ ac | □ ad + □ cd
 □ ac + □ ab + (□ ad + □ cd) | 2 ▭ bad + □ bd + □ cd + (□ ad + □ cd) | n. 47. I.
@@ -34,7 +34,7 @@ Wird also in jedwedem spitzwincklichten △ das □ der dem spitzigen ∠ b übe
 
 ### Gegebene. | Begehrtes.
 
-a | ac | cc | bb + aa — 2ba (?)
+a | ac | cc | bb + aa — [unclear: 2ba]
 b | ab
 
-<!-- catchword: ccb -->
+<!-- Catchword: ccb -->

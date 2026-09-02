@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 250)* -->
+<!-- Page number: 250 -->
 
 ### Beschluß.
 
@@ -14,7 +14,7 @@ Wenn zwo Grössen zweyer Andern Grössen gleichvielfältig sind; darnach zwey vo
 
 ### Gegebene. — Begehrte.
 
-*[Figur: Vier waagerechte Linien mit Teilstrichen, bezeichnet A, a, B, b]*
+[Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet A, a, B, b]
 
 A—c | a
 B—d | b
@@ -24,4 +24,4 @@ B—d | b
 3 B | 5b
 4 d | 4b
 
-<!-- catchword: I. Beweiß. -->
+<!-- Catchword: I. Beweiß. -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 ## THEOR. XVI. PROPOS. XVIII.
 
@@ -7,7 +6,7 @@ Si recta linea plano cuipiam ad rectos sit angulos; & omnia quæ per ipsam plana
 
 *Si vne ligne droicte est à angles droicts à quelque plan; tous les plans menez par icelle seront aussi à angles droicts au mesme plan.*
 
-<!-- I A / C F / E I B G / D (figure) -->
+[Figure: labels arranged I A / C F / E I B G / D]
 
 Hypoth.
 

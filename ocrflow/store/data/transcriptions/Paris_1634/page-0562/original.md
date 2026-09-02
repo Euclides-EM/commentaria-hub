@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
 A........8
 B....4F........8G

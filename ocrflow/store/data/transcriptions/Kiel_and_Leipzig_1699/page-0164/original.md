@@ -1,11 +1,11 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 146)* -->
+<!-- Page number: 146 -->
 
 2. Werden gezogen die geraden Striche fc und cd.
 3. Durch die Mittel dieser beyden Striche werden gerade Senckstriche gezogen / bg und ek.
 
-*[Figur: zwei einander schneidende Kreise; darauf die Punkte i und k oben, d und h, l, b, a, g, m in der Mitte, c und f unten, e zuunterst; punktierte Verbindungsstriche durch a]*
+[Diagram: zwei einander schneidende Kreise; darauf die Punkte i und k oben, d und h, l, b, a, g, m in der Mitte, c und f unten, e zuunterst; punktierte Verbindungsstriche durch a]
 
 ### I. Beweiß.
 
@@ -30,4 +30,4 @@ Kan also kein Kreyß einen andern Kreyß in drey oder mehr Dütteln durchschneid
 
 Wenn zween Kreyse einander inwendig berühren/so wird der gerade Strich/ welcher durch beeder Kreyse Mittel-Düpffele gezogen wird / auff den Anrührungs-Düttel stossen.
 
-<!-- catchword: Ge- -->
+<!-- Catchword: Ge- -->

@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 222)* -->
+<!-- Page number: 222 -->
 
 u. — gca ∧ hca
 u. — cag ∧ cah — n. 4. I.
@@ -33,4 +33,4 @@ n. 4. Beschr. I.
 Ist also ein gleichseitiges und gleichwincklichtes Fünffeck umb
 den gegebenen Kreyß beschrieben. W. Z. M.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

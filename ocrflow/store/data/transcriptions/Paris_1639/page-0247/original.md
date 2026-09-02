@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 ### II.
 
 Les figures sont reciproques, quand les termes antecedens & consequens des raisons sont en l'vne & en l'autre figure.
 
-*[Figure]*
+[Figure]
 
 hyp. | abcd & ebgf *ſnt* ◊,
 hyp. | ab π bg 2|2 eb π bc,
@@ -16,7 +16,7 @@ Aux figures semblables le premier & quatriesme termes ne peuuent estre en la mes
 
 Vne ligne droicte est dite estre coupée selon la moyenne & extréme raison, quand la toute est au plus grand segment, comme le plus grand segment est au moindre.
 
-*[Figure]*
+[Figure]
 
 hyp. | ab π ac 2|2 ac π cb.
 3.d.5 | *AB eſt coupée en la moyenne & extréme raiſon.*

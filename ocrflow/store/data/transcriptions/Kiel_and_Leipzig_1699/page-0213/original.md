@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 195)* -->
+<!-- Page number: 195 -->
 
 |  |  |  |  |
 |---|---|---|---|
@@ -17,7 +17,7 @@
 
 Wan keiner von Beeden Strichen durch den Mittel-Düpffel gehet/auch keiner derselben in zween gleiche Theil geschnitten wird.
 
-*[Figur: Kreis mit Punkten b oben, e in der Mitte, h rechts, a links unten, n, l, c unten, d unten rechts; gestrichelte Striche von e nach b, h, l, c und d]*
+[Diagram: Kreis mit Punkten b oben, e in der Mitte, h rechts, a links unten, n, l, c unten, d unten rechts; gestrichelte Striche von e nach b, h, l, c und d]
 
 ### Vorbereitung.
 
@@ -34,6 +34,6 @@ Aus dem Mittel-Düpffel e werden wiederumb gezogen
 | Dw. | an | nc | n. 3. III. |
 | ▭ alc + □ nl |  | □ nc | n. 5. II. |
 
-<!-- signature mark: Bb 2 -->
+<!-- Signature: Bb 2 -->
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

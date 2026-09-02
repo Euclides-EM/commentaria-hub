@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 aussi la composée de E & F, autant de fois qu'il y a de parties en AB égales à E: il est manifeste, que la composée de AB & CD, contient la composée de E & F, autant de fois que AB contient E: ce qu'il falloit demonstrer.
 
@@ -11,7 +11,7 @@ Si la premiere est autant multiple de la seconde, que la troisiesme l'est de la 
 ab *multipl..* c 2|2 de *multipl..* f, α
 bg *multipl..* c 2|2 eh *multipl..* f, β
 
-*[Figure]*
+[Figure]
 
 #### Requis à demonſtr.
 

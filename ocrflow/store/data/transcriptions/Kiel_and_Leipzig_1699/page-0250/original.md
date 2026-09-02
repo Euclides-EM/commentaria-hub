@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 226)* -->
+<!-- Page number: 226 -->
 
 ### Gegebenes. — Begehrte.
 Kreyß bcdefg — 1. Gleichseitig und gleichschenck-
@@ -8,7 +8,7 @@ licht Sechseck
 2. dem gegebenen Kreyß einge-
 schrieben.
 
-*[Figur: drei sich schneidende Kreise; im mittleren Kreis ein einbeschriebenes Sechseck g b c d e f mit Mittelpunkt a, punktierte Striche zu den Ecken]*
+[Diagram: drei sich schneidende Kreise; im mittleren Kreis ein einbeschriebenes Sechseck g b c d e f mit Mittelpunkt a, punktierte Striche zu den Ecken]
 
 ### Wirckung.
 
@@ -32,4 +32,4 @@ düpffel a ein gerader Strich cf,
 che be, dg durch a, und
 4. die Striche cb, cd, de, ef, fg und gb gezogen.
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

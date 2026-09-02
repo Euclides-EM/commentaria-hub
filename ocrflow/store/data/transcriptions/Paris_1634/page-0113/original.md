@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 4.1. | <edg 2|2 <a.
 
@@ -37,7 +36,7 @@ Si in duas rectas lineas recta incidens linea alternatim angulos æquales inter 
 
 Si vne ligne droicte tombant sur deux autres lignes droictes, faict les angles alternes égaux entr'eux : icelles lignes droictes seront paralleles entr'elles.
 
-*[Figure: ligne A—E—B, ligne C—F—D, ligne transversale passant par E & F, poinct G à droicte]*
+[Figure: ligne A—E—B, ligne C—F—D, ligne transversale passant par E & F, poinct G à droicte]
 
 Hypoth.
 

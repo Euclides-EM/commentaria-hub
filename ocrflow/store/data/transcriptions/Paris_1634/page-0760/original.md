@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLD. LI. XI. -->
+<!-- Running title: ELEM.. EVCLD. LI. XI. -->
 
 simile & similiter positum solidum parallelepidum describere.
 
 *Sur vne ligne droicte donnee, descrire vn solide parallelipipede semblable, & semblablement posé à vn solide parallelipipede donné.*
 
-<!-- K D / I G / H E / A B C F (figure) -->
+[Figure: labels arranged K D / I G / H E / A B C F]
 
 Hypoth.
 

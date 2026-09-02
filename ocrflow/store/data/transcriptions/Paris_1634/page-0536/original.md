@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID.. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID.. LI. IX. -->
 
 *ront quarrez : Et si celuy qui est apres l'vnité est cube, aussi tous les autres seront cubes.*
 

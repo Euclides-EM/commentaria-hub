@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID.. LI. X. -->
+<!-- Running title: ELEM.. EVCLID.. LI. X. -->
 
 γ.cōstr. | l π cb, n̄, est 2|2 nr.□ π nr.□,
 4.cōcl. 7. 10 | ef, incomm. g,

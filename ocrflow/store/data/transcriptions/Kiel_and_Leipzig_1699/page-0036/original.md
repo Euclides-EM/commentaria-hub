@@ -1,6 +1,6 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 18)* -->
+<!-- Page number: 18 -->
 
 ### Beweiß
 
@@ -28,6 +28,6 @@ Wenn zween ungleiche Striche gegeben werden/ von dem grössern ein Stück abzusc
 2. Welcher Strich cf | ab, nach 2. Vortr.
 3. Auß dem Düttel c, wird nach der Länge cf ein Kreyß-Stück fg gezogen/welches den Strich ch in dem Düttel g durchschneidet.
 
-*[Figur: punktierte Kreise mit den Punkten h, f, a, g, c, b und d; der Strich h–c geht durch den Punkt g, dazu Striche nach a, b und d]*
+[Diagram: punktierte Kreise mit den Punkten h, f, a, g, c, b und d; der Strich h–c geht durch den Punkt g, dazu Striche nach a, b und d]
 
-<!-- catchword: Beweiß -->
+<!-- Catchword: Beweiß -->

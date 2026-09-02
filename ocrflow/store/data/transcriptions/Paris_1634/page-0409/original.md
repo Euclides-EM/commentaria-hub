@@ -1,11 +1,10 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 ## THEOR. XII. PROPOS. XXIII.
 
 Snelius in Apollonio Batauo
 
-*[Figure: deux rectangles B, C, D, A & E, F, G, H auec la diagonale E G ; au dessous les lignes K, L, N, M]*
+[Figure: deux rectangles B, C, D, A & E, F, G, H auec la diagonale E G ; au dessous les lignes K, L, N, M]
 
 Hypoth.
 

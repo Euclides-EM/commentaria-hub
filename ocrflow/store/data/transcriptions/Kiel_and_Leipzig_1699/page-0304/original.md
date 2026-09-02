@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 280)* -->
+<!-- Page number: 280 -->
 
 ## Der XXIII. Vortrag.
 
@@ -10,7 +10,7 @@ Wenn drey Grössen gegeben werden/ und noch drey andere Grössen darzu genommen 
 
 ### Gegebene.
 
-*[Figur: sieben Linien A, B, C, a, b, c, d von verschiedener Länge am linken Rand]*
+[Diagram: sieben Linien A, B, C, a, b, c, d von verschiedener Länge am linken Rand]
 
 A : B : C | a : b : c
 A : B | b : c
@@ -26,4 +26,4 @@ Man nehme noch eine Grösse d zu welcher sich c also verhalte/ wie B. zu C.
 
 B : C | c : d.
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

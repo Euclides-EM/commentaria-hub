@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 317)* -->
+<!-- Page number: 317 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 Und wenn der aus der Spitze des Dreyeckes gezogene Strich den Grundstrich also schneidet/ daß dessen Stücke in ebenmässiger Verhältnüß mit den Seiten stehn/ so theilet derselbe Strich den Winckel des Dreyeckes in zweene gleiche Theile. W. Z. B.
 
@@ -25,7 +25,7 @@ u. DEC ⋏ acb
 2. bc : CE | ac : DE
 3. ab : DC | ac : DE.
 
-*[Figur: Zwey Dreyecke, oben das kleinere Dreyeck CDE, darunter das grössere Dreyeck abc, dessen Seiten gestrichelt gegen f, d und e verlängert sind]*
+[Diagram: Zwey Dreyecke, oben das kleinere Dreyeck CDE, darunter das grössere Dreyeck abc, dessen Seiten gestrichelt gegen f, d und e verlängert sind]
 
 g
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

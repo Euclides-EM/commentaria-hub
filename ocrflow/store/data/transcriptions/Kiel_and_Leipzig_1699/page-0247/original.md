@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 223)* -->
+<!-- Page number: 223 -->
 
 ## Der XIII. Vortrag.
 
@@ -13,7 +13,7 @@ wincklichten Fünffeck einen Kreyß einzuschreiben.
 Fünffeck bcdef. — 1. Kreyß ghikl
 2. in das Fünffeck eingeschrieben.
 
-*[Figur: Fünffeck b c d e f mit einbeschriebenem Kreis; die Berührungspunkte g, h, i, k, l liegen in den Seitenmitten, aus dem Mittelpunkt a laufen punktierte Striche zu den Ecken und Seitenmitten]*
+[Diagram: Fünffeck b c d e f mit einbeschriebenem Kreis; die Berührungspunkte g, h, i, k, l liegen in den Seitenmitten, aus dem Mittelpunkt a laufen punktierte Striche zu den Ecken und Seitenmitten]
 
 ### Wirckung.
 
@@ -26,4 +26,4 @@ ia, ka, la gezogen/ n. 11. I.
 4. Aus dem Düttel a, wo alle Striche zusammen lauffen /
 werde nach der Weite ag oder ah ein Kreyß beschrieben.
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

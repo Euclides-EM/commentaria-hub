@@ -1,8 +1,8 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 tionelles, icelles lignes droictes seront aussi proportionelles.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. 1.
 

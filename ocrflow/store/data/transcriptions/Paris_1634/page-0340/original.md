@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 costez du triangle, la ligne droicte menée du sommet au poinct de la section, couppe l'angle du triangle en deux egalement.
 
-*[Figure: triangle B, D, C avec sommet A et ligne A—E]*
+[Figure: triangle B, D, C avec sommet A et ligne A—E]
 
 Hypoth. 1.
 

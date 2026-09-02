@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 ## DE L'ART D'ASSAILLIR.
 

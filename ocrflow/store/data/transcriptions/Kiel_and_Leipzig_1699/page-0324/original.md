@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 300)* -->
+<!-- Page number: 300 -->
 
 |  |  |  |  |
 |---|---|---|---|
@@ -26,4 +26,4 @@ W. Z. B.
 
 Wann zu zwo Grössen / welche ungleicher Grösse sind / zwey gleichmässige Stücke beygefüget werden / so werden die zusammengesetzten eine kleinere Verhältnüß / als die Erstgegebenen / haben: wenn aber gleichgrosse Stücke von selbigen abgeschnitten werden / so werden die übergebliebene Stücke eine grössere Verhältnüß / als die ersten Grössen gehabt / erlangen.
 
-<!-- catchword: I. Ge- -->
+<!-- Catchword: I. Ge- -->

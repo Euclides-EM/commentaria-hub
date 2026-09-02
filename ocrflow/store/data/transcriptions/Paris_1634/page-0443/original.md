@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
 Conuers. 20. def. 7.
 

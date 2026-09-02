@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-<!-- # ELEM.. EVCLID. LI. XII. -->
-
-<!-- A / M / I L / N D O / B K C / E / S / P R / T H V / F Q G (figure) -->
+[Figure: labels arranged A / M / I L / N D O / B K C / E / S / P R / T H V / F Q G]
 
 ꝑ constr. 3. 11.
 

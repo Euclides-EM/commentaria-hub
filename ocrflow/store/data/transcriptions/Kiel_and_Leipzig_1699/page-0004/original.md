@@ -1,5 +1,7 @@
-*(Leere Rückseite des Titelblatts; kein eigener Text — nur durchscheinender Druck der Vorderseite.)*
+[Other type="stamp"]
+BIBLIOTHECA [illegible]
+[/Other]
 
-*[Stempel: BIBLIOTHECA … (zweifach, achteckig)]*
-
-*[Stempel: Bayerische Staatsbibliothek München]*
+[Other type="stamp"]
+Bayerische Staatsbibliothek München
+[/Other]

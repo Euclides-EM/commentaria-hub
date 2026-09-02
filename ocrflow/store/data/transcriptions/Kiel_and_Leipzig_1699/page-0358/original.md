@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 334)* -->
+<!-- Page number: 334 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 2. Von dem ungeendeten Strich hg werde fg ⊤ FG abgeschnitten. n 3. I.
 
@@ -34,4 +34,4 @@ Gleicher weise kan auch bewiesen werden/
 Daß de : et ⊤ DE : ET.
 und tg : TG ⊤ et : ET.
 
-<!-- catchword: Des -->
+<!-- Catchword: Des -->

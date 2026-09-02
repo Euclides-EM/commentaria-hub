@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-<!-- # ELEM.. EVCLID. LI. I. -->
-
-*[Figure: triangle rectangle ABC, A au sommet, B à gauche, C à droicte ; quarré F—G—A—B sur AB, quarré A—H—I—C sur AC, quarré B—C—E—D dessous auec ligne L—M ; lignes F—C, A—D, B—I, A—E, A—M]*
+[Figure: triangle rectangle ABC, A au sommet, B à gauche, C à droicte ; quarré F—G—A—B sur AB, quarré A—H—I—C sur AC, quarré B—C—E—D dessous auec ligne L—M ; lignes F—C, A—D, B—I, A—E, A—M]
 
 Præpar.
 

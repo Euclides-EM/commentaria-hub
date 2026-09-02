@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 #### Demonſtration du 2. cas.
 
@@ -29,7 +29,7 @@ ad *touche le* ⊙.
 
 ▭.bae 2|2 ▭.caf.
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 

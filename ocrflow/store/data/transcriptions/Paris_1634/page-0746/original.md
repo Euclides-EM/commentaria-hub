@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 ## PROBL. II. PROPOS. XII.
 
@@ -7,7 +6,7 @@ Dato plano à puncto, quod in illo datum est, ad rectos angulos rectam lineam ex
 
 *A vn plan donné, & d'vn poinct donné en iceluy, mener vne ligne droicte à angles droicts.*
 
-<!-- F D / B / A E / C (figure) -->
+[Figure: labels arranged F D / B / A E / C]
 
 Hypoth.
 

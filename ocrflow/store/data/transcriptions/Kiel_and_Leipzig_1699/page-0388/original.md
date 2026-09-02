@@ -1,13 +1,13 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 358)* -->
+<!-- Page number: 358 -->
 
 ### Gegebene. Begehrte.
 
 1. △ abc \ △ abc ähnlich △ efg
 2. △ efg / ähnlich △ cde
 
-*[Figur: drey Dreyecke auf einer gemeinsamen Grundlinie b c e g mit den Spitzen a, d und f]*
+[Diagram: drey Dreyecke auf einer gemeinsamen Grundlinie b c e g mit den Spitzen a, d und f]
 
 ### Beweiß.
 
@@ -32,4 +32,4 @@ Sind derowegen diejenigen Vielecke / welche einem einigen Vieleck ähnlich sind/
 ## Das 16. Beweiß-Stück.
 
 Wenn vier in Ebenmaß stehende gerade Stri-
-<!-- catchword: che -->
+<!-- Catchword: che -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 lineas multitudine infinitas & cómensurabiles esse & incommensurabiles ; alias quidem longitudine & potentia; alias vero potétia solum. Vocetur autem proposita recta linea Rationalis.
 

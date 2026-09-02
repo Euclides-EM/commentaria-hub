@@ -1,5 +1,7 @@
-*[blank page]*
+[Handwritten]
+V 28.
+[/Handwritten]
 
-> V 28.
-
-> Rés 118 (1)
+[Handwritten]
+Rés 118 (1)
+[/Handwritten]

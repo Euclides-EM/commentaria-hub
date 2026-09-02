@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 353)* -->
+<!-- Page number: 353 -->
 
 Dw. △ ABC ähnlich dem △ abc n. 1. Beschr. VI.
 u. AB : BC | ab : bc n. 4. VI.
@@ -29,5 +29,5 @@ Aehnliche Dreyecke stehen gegen einander in zwiefach grösserer (duplicata) Verh
 △ abc : △ def ⊐ | bc : ef
 | ca : fd.
 
-<!-- signature mark: Y y -->
-<!-- catchword: Vorbe- -->
+<!-- Signature: Y y -->
+<!-- Catchword: Vorbe- -->

@@ -1,4 +1,4 @@
-<!-- # GEOMETRIE -->
+<!-- Running title: GEOMETRIE -->
 
 moyen de quelque instrument geometrique diuisé en degrez : ou sans Trigonometrie, en obseruant les proportions des costez des triangles rectangles, par le moyen d'vn quarré geometrique ou autre instrument, puis ordonnant les regles de trois, comme il est enseigné au 2 & 3 chapitre de la Geometrie practique du 3 tome.
 
@@ -6,7 +6,7 @@ moyen de quelque instrument geometrique diuisé en degrez : ou sans Trigonometri
 
 #### Mesurer vne distance proposée, comme AB.
 
-*[Figure]*
+[Figure]
 
 En faisant la premiere station en A & la seconde en C, qui se font à discretion, il faut obseruer par le moyen d'vn graphomette ou autre instrument, les quantitez des angles CAB & ACB, & mesurer la ligne des stations AC actuellemét, que nous supposons auoir 24 toises, & l'angle CAB 82 degrez, & l'angle ACB 54 degrez ; & par consequent l'angle B sera de 44 degrez : partant pour auoir la distance AB par logarithmes, on dira suiuant la regle des opposez,
 

@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 370)* -->
+<!-- Page number: 370 -->
 
 ### Gegebene.
 
@@ -12,7 +12,7 @@
 
 ### Begehrtes.
 
-*[Figur: Viereck a, g, i, b oben, e und f in der Mitte, d und c unten, mit Diagonalen und punctirten Linien]*
+[Diagram: Viereck a, g, i, b oben, e und f in der Mitte, d und c unten, mit Diagonalen und punctirten Linien]
 
 □ eg üm einen einigen Zwergstrich stehende mit □ bd.
 
@@ -33,4 +33,4 @@ Dw. ag | ai n. 9. V.
 
 Welches aber unmüglich n. 9. Gr. I.
 
-<!-- catchword: Beschluß- -->
+<!-- Catchword: Beschluß- -->

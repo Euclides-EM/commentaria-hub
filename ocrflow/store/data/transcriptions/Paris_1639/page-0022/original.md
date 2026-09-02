@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ### XI.
 
 L'angle obtus est, celuy qui est plus grand qu'vn droict, comme ACB.
 
-*[Figure]*
+[Figure]
 
 ### XII.
 

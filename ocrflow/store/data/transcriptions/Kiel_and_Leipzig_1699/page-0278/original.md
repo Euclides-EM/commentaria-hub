@@ -1,10 +1,10 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 254)* -->
+<!-- Page number: 254 -->
 
 ### Gegebene. — Begehrtes.
 
-*[Figur: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]*
+[Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
 
 A ⊣ B — A : a ⊣ B : a
 A | 5a
@@ -18,7 +18,7 @@ B | 3a
 2. Wie auch B zweymahl
 3. Aber a siebenmahl.
 
-*[Figur: Drey waagerechte Linien, bezeichnet 2A, 7a, 2B]*
+[Diagram: Drey waagerechte Linien, bezeichnet 2A, 7a, 2B]
 
 ### Beweiß.
 
@@ -32,4 +32,4 @@ B | 3a — n. Geg.
 Dw. 2B ⊢ 7a — n. 1. Gr. a. I.
 Und A : a ⊣ B : a — n. 8. Beschr. V.
 
-<!-- catchword: Des -->
+<!-- Catchword: Des -->

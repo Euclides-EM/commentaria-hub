@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Explication par nombres.
 
@@ -24,7 +24,7 @@ Il s'ensuit aussi que le diametre de quelconque quarré diuise les angles d'icel
 
 Le quarré de la toute est quadruple du quarré de la moitié.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

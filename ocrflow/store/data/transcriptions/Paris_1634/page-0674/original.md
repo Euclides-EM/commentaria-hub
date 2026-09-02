@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 compositum quidem ex ipsarum quadratis rationale, quod autem sub ipsis continetur, medium; reliqua irrationalis est: vocetur autem minor.
 

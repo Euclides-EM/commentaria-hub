@@ -1,6 +1,6 @@
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
-<!-- *(Seitenzahl: 159)* -->
+<!-- Page number: 159 -->
 
 nicht in den Kreyß fallen : Es wird auch zwischen solchen Strich/ und den Kreyßzug kein anderer gerader Strich können gezogen werden : Auch wird der Halb-Kreyß-Winckel grösser/ das übrige Stück aber kleiner/ als alle spitzige geradstrichiche Winckel seyn.
 
@@ -13,7 +13,7 @@ nicht in den Kreyß fallen : Es wird auch zwischen solchen Strich/ und den Krey�
 3. ∟ acg ⅄ alle ∧
 4. ∟ gcb ⋏ alle ∧
 
-*[Figur: Kreis mit Mittel-Düpffel a, senkrechter Durchschlag cf, oben am Punkt c die waagerechte Tangente cb mit Punkten d und e, dazu der Punkt g am Kreyßzug und Linien von a nach g und e]*
+[Diagram: Kreis mit Mittel-Düpffel a, senkrechter Durchschlag cf, oben am Punkt c die waagerechte Tangente cb mit Punkten d und e, dazu der Punkt g am Kreyßzug und Linien von a nach g und e]
 
 ### Vorbereitung.
 
@@ -21,4 +21,4 @@ nicht in den Kreyß fallen : Es wird auch zwischen solchen Strich/ und den Krey�
 2. Werde aus c zwischen cg und bc ein gerader Strich ec.
 3. Und gegen diesen Strich aus a der Senckstrich ad gezogen.
 
-<!-- catchword: I. Be- -->
+<!-- Catchword: I. Be- -->

@@ -1,4 +1,4 @@
-<!-- # ETYMOLOGIE. -->
+<!-- Running title: ETYMOLOGIE. -->
 
 deux mots signifie laquelle on voudra de l'addition & soustraction.  t. 5. p. 474.
 

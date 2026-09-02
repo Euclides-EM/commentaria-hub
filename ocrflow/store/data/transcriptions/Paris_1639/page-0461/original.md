@@ -1,4 +1,4 @@
-<!-- # ETYMOLOGIE. -->
+<!-- Running title: ETYMOLOGIE. -->
 
 *pho*, signifie renuerser, & mettre au rebours, & se prend pour vn changement d'ordre en son contraire.  t. 2, p. 75. alg.
 

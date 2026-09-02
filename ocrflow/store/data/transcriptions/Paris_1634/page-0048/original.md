@@ -1,17 +1,16 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 ### XXIV.
 
 Isosceles autem est, quod duo tantùm æqualia habet latera, vt triangulum B. | Mais le triangle Isoscele est, celuy qui a seulement deux costez égaux, comme le triangle B.
 
-*[Figure: triangle isoscele B]*
+[Figure: triangle isoscele B]
 
 ### XXV.
 
 Scalenum verò, quod tria inæqualia habet latera, vt triangulum C. | Et le scalene qui a les trois costez inegaux, comme le triangle C.
 
-*[Figure: triangle scalene C]*
+[Figure: triangle scalene C]
 
 ### XXVI.
 

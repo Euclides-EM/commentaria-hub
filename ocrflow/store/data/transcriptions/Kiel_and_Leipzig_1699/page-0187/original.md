@@ -1,8 +1,8 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 169)* -->
+<!-- Page number: 169 -->
 
-*[Figur: Kreis mit einbeschriebenem Viereck a b c d, darin die Zwerg-Striche ac und bd; die Winckel mit A, B, Γ, Δ und α, β, γ, δ bezeichnet]*
+[Diagram: Kreis mit einbeschriebenem Viereck a b c d, darin die Zwerg-Striche ac und bd; die Winckel mit A, B, Γ, Δ und α, β, γ, δ bezeichnet]
 
 ### Vorbereitung.
 Es werden gezogen die beeden Zwerg-Striche ac und bd.
@@ -28,7 +28,7 @@ A + B ⋀ A + B
 A + B + γ + δ ⋀ A + B + Γ + Δ   n. 2. Gr. I.
 A + B + Γ + Δ ⋀ ⊕   n. 32. I.
 Dw. A + B + γ + δ ⋀ ⊕   n. 1. Gr. I.
-oder adc (?) + abc ⋀ ⊕   n. 9. Gr. q. l.
+oder [unclear: adc] + abc ⋀ ⊕   n. 9. Gr. q. l.
 
-<!-- signature mark: P -->
-<!-- catchword: An -->
+<!-- Signature: P -->
+<!-- Catchword: An -->

@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 *Si les costez des plans opposez d'vn solide parallelipipede, sont couppez en deux egalement : & que par les sections, l'on mene des plans, la commune section des plans, & le diametre du solide parallelipipede, se coupperont egalement l'vn l'autre.*
 
-<!-- A M E / I S L / F K C / V / D R H / O Q / T / G P B (figure) -->
+[Figure: labels arranged A M E / I S L / F K C / V / D R H / O Q / T / G P B]
 
 Hypoth.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 | ▭.abf commun. add.
 2.a.1. | ▭.ac + ▭.abf u ▭.abc 2|2 ▭.af + 2▭.abf,
@@ -12,7 +11,7 @@ Dato rectilineo æquale quadratum constituere.
 
 Descrire vn quarré égal à vn rectiligne donné.
 
-*[Figure: rectiligne A à gauche, quarré M—N—L—I au milieu, demi-cercle D—H—F sur le diametre D—F, rectangle D—E—B—F dessous, G et C sur le diametre, lignes G—H, C—H]*
+[Figure: rectiligne A à gauche, quarré M—N—L—I au milieu, demi-cercle D—H—F sur le diametre D—F, rectangle D—E—B—F dessous, G et C sur le diametre, lignes G—H, C—H]
 
 Hypoth.
 

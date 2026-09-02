@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 ## THEOR. X. PROPOS. XVII.
 
@@ -7,7 +6,7 @@ Cuiuscunque trianguli duo anguli, duobus rectis sunt minores, omnifariam sumpti.
 
 De tout triangle, deux angles, sont plus petits que deux droicts, de quelque façon qu'ils soient prins.
 
-*[Figure: triangle ABC, costé BC prolongé vers D]*
+[Figure: triangle ABC, costé BC prolongé vers D]
 
 Hypoth.
 

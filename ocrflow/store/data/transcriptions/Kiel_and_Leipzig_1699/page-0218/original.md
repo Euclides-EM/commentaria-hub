@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 200)* -->
+<!-- Page number: 200 -->
 
 2. Düttel a.
 3. Ausser dem Kreyß.
@@ -9,7 +9,7 @@
 6. Der andere ak nur darauff stösset.
 7. □ hag | □ ad.
 
-*[Figur: Kreis mit Mittelpunkt c; von einem Punkt a ausserhalb des Kreises gehen ein schneidender Strich durch g nach h und ein Rührstrich nach k; punktierte Linien verbinden c mit d, k und a]*
+[Diagram: Kreis mit Mittelpunkt c; von einem Punkt a ausserhalb des Kreises gehen ein schneidender Strich durch g nach h und ein Rührstrich nach k; punktierte Linien verbinden c mit d, k und a]
 
 ### Vorbereitung.
 
@@ -21,7 +21,7 @@
 
 ak | Rührstrich n. 1. Vorber.
 Dw. □ ak | □ hag n. 36. III.
-□ ad | □ hag (?) n 7. Gegeb.
+□ ad | □ [unclear: hag] n 7. Gegeb.
 Dw. □ ak | □ ad n. 1. Gr. I.
 
-<!-- catchword: und -->
+<!-- Catchword: und -->

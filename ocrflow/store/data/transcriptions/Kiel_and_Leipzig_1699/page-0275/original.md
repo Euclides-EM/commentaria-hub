@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 251)* -->
+<!-- Page number: 251 -->
 
 ### I. Beweiß.
 
@@ -20,7 +20,7 @@ II. a ___
 III. B ______
 IV. b ___
 
-*[Figur: Vier waagerechte Linien mit Teilstrichen, bezeichnet I. A, II. a, III. B, IV. b]*
+[Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet I. A, II. a, III. B, IV. b]
 
 1. A | 5a
 2. c | 3a
@@ -37,6 +37,6 @@ d | 3b — n. 4. Geg.
 Dw. B—d | 2b — n. 3. Gr. I.
 Und A—c : a | B—d : b — n 7. Beschr. V.
 
-<!-- signature mark: Ji 2 -->
+<!-- Signature: Ji 2 -->
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

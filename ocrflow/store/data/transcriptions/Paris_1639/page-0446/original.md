@@ -1,4 +1,4 @@
-<!-- # DE LA GNOMONIQVE. -->
+<!-- Running title: DE LA GNOMONIQVE. -->
 
 ### Propos. 3. pag. 754.
 
@@ -10,6 +10,6 @@ La construction d'vn quadrant vertical exposé directement au Midy ou au Septent
 
 *Descrire vn quadrant polaire, c'est à dire, sur vn plan lequel passant par les poles du monde, couppe le meridien à angles droicts.*
 
-*[Figure]*
+[Figure]
 
 Sur le plan proposé ayant tiré la meridienne CA, & DN, qui le couppe à angles droicts en T, prenez TC pour la longueur du stile de telle grandeur que vous voudrez, puis descriuez le cercle CBG

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 β.6.10 | ef, comm. fg ꝗn □,
 2 concl. s.12.10 | fg, est ration.

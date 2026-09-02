@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 6.6 | ∠cad 2|2 ∠hfi,
 3.concl. 32.1 | △acd *ſml.* △fhi,

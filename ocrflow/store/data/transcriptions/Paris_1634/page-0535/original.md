@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
 progressionis nuncupátur characteres cossici : vt qq, significat D, esse quadrato-quadratum.
 

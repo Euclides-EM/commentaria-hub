@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 #### Demonſtration.
 
@@ -27,7 +27,7 @@ ab π cb 2|2 de π fe.
 
 ac π cb 2|2 df π fe.
 
-*[Figure]*
+[Figure]
 
 #### Preparation.
 

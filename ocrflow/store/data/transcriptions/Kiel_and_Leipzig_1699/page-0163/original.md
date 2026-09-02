@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 145)* -->
+<!-- Page number: 145 -->
 
 ### II. Beweiß.
 
@@ -34,6 +34,6 @@ Nicht in mehr/als in 2. Dütteln geschnitten.
 
 1. Zu drey Dütteln/ wo die Kreyse einander durchschneiden/ nemlich zu f, o, d werden aus dem Mittel-Düpffel gerade Striche af, ac, ad gezogen.
 
-<!-- signature mark: T -->
+<!-- Signature: T -->
 
-<!-- catchword: 2. werden -->
+<!-- Catchword: 2. werden -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 Si vne ligne droicte est couppée en deux parties inégales, les quarrez descrits de la toute & de la difference des parties, sont doubles de ceux qui sont faicts des deux parties de la toute.
 
@@ -9,7 +8,7 @@ ad est —,
 ac 3|2 cd,
 ac ~ cd est af,
 
-*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—A, E—F, E—C, E—D, E—B]*
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—A, E—F, E—C, E—D, E—B]
 
 Req. π. demonstr.
 

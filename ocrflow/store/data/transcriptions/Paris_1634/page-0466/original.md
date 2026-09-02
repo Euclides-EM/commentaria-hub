@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
 a + c + e, multipl.. b + d + f,
 β.3.d.7 | e, multipl.. f,

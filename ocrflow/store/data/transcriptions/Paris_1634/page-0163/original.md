@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 1.p.1. | eb est diamet.
 31.1. | cf == bd,
@@ -26,7 +25,7 @@ ab est —
 ad 3|2 db,
 ad ~ db 2|2 fd.
 
-*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes A—E, E—F, E—C, E—D, E—B]*
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes A—E, E—F, E—C, E—D, E—B]
 
 Req. π. demonstr.
 

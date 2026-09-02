@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-<!-- # ELEM.. EVCLID. LI. III. -->
-
-*[Figure: cercle B—C—D—A, E au centre, F sous E sur la corde A—C, lignes B—D, A—C, E—A, E—C]*
+[Figure: cercle B—C—D—A, E au centre, F sous E sur la corde A—C, lignes B—D, A—C, E—A, E—C]
 
 1.p.1 | ea, ec snt —,
 

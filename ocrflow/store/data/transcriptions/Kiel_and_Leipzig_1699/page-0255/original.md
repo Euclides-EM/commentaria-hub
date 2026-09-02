@@ -1,4 +1,4 @@
-<!-- *(Seitenzahl: 231)* -->
+<!-- Page number: 231 -->
 
 # Das V. Buch Euclidis.
 
@@ -22,6 +22,6 @@ VI. In gleicher Verhältniß stehende Grössen werden genennet (nemlich die Erst
 
 3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a.
 5. 3. 5. 3. — 2. 3. 2. 3. — 2. 5. 2. 5.
-15a : 6a | 30a : 12a. — 6q (?) : 6a | 12a : 12a. — 6a : 10a | 12a : 20a.
+15a : 6a | 30a : 12a. — [unclear: 6q] : 6a | 12a : 12a. — 6a : 10a | 12a : 20a.
 
-<!-- catchword: VII. -->
+<!-- Catchword: VII. -->

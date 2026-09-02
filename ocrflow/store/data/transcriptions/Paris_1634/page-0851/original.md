@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-<!-- # ELEM.. EVCLID. LI. XIII. -->
-
-<!-- M B / R V S / F O N P L / D H X C / Q / T / E I F / A G (figure) -->
+[Figure: labels arranged M B / R V S / F O N P L / D H X C / Q / T / E I F / A G]
 
 Conſtr.
 

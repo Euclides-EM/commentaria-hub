@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 ## PROBL. X. PROPOS. XXXI.
 
 D'vn poinct donné, mener vne ligne droicte parallele à vne ligne droicte donnée.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -30,7 +30,7 @@ concl. 27.1 | ae == bc.
 
 Sur vne ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle, mener vne ligne droicte qui auec la ligne donnée, face vn angle égal à vn angle rectiligne donné,
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

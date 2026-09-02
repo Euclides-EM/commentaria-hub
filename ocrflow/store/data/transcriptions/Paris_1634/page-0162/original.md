@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 Si vne quantité excede vne quantité, la moitié de celle-la surpassera la moitié de celle-cy de la moitié de l'excez.
 
-*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]*
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]
 
 hyp. | ac 2|2 cb,
 hyp. | fc 2|2 cd,

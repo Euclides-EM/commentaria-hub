@@ -1,6 +1,6 @@
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- *(Seitenzahl: 96)* -->
+<!-- Page number: 96 -->
 
 ## Der IV. Vortrag.
 
@@ -27,4 +27,4 @@ und ed | CB werde n. 3. I.
 5. Werden ek ⧺ ab
 und ci ⧺ ad — n. 31. I.
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

@@ -1,6 +1,6 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 58)* -->
+<!-- Page number: 58 -->
 
 nommene; Wie auch den auswendigen dem inwendig entgegen stehenden ; Und die beeden inwendig auff einer Seiten befindliche Winckele gleich groß.
 
@@ -10,7 +10,7 @@ nommene; Wie auch den auswendigen dem inwendig entgegen stehenden ; Und die beed
                              3. EGB ⋏ GHD
                              4. BGH + GHD ⋏ ⏥
 
-*[Figur: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]*
+[Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
 
 ### Beweiß des 1. und 2.
 
@@ -29,4 +29,4 @@ Gleiche Bewandniß hat es/ wenn man sagen wolte/es were
         AGH ⊼ GHD :
 α. muß also nohtwendig   AGH ⋏ GHD.
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

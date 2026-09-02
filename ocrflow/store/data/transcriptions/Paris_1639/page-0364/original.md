@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 s'oblige de payer 1000 au bout de 9 ans, sçauoir à quel denier est l'interest de l'argent qu'il emprunte?
 

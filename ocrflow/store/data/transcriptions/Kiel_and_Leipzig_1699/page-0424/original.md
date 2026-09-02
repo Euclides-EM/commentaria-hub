@@ -1,4 +1,4 @@
-<!-- # Druckfheler/welche mit der Feder zu verbessern. -->
+<!-- Running title: Druckfheler/welche mit der Feder zu verbessern. -->
 
 Pag. 121. l. 10. *pro* hende Winckel *lege* henden Winckel.
 123. l. 16. *pro* aa + — 2bc. *leg.* aa — 2bc.
@@ -24,6 +24,6 @@ BA - - - - - bey H
 
 p. 37.
 
-*[Figur: Dreieck B C mit Spitze oben; oberhalb der Spitze der Punkt D, an der Spitze die Punkte G und A, links davon I, rechts F; auf den Seiten die Punkte H und E; punktierte Linien verbinden I, F, B und C.]*
+[Diagram: Dreieck B C mit Spitze oben; oberhalb der Spitze der Punkt D, an der Spitze die Punkte G und A, links davon I, rechts F; auf den Seiten die Punkte H und E; punktierte Linien verbinden I, F, B und C.]
 
-<!-- catchword: p. 41. -->
+<!-- Catchword: p. 41. -->

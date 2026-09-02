@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 130)* -->
+<!-- Page number: 130 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 ### Wirckung.
 
@@ -35,4 +35,4 @@ Dw. bea ⋏ bed — n. 10. Gr. I.
 
 Welches aber nicht seyn kan/ nach 9. Grundsatz. I.
 
-<!-- catchword: Wolte -->
+<!-- Catchword: Wolte -->

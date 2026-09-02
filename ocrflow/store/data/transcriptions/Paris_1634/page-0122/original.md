@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 resoluitur ; vt si quatuor latera habeat, in duo resoluitur triangula ; si quinque in tria, si sex in quatuor, & similiter reliquæ. Quòd cùm omnis trianguli tres anguli sint æquales duobus rectis, numerus triangulorum, ex quibus vnaquæque figura constat, duplicatus dabit numerum rectorum quibus omnes anguli figuræ propositæ æquiualent. Quapropter omnis quadrilatera figura ex duobus triangulis constans angulos habet quatuor rectis æquales, & omne pentagonum habet angulos æquales sex rectis, & deinceps eodem modo.
 
@@ -11,7 +10,7 @@ Omnes anguli figuræ rectilineæ cuiusuis æquales sunt bis tot rectis angulis, 
 
 Tous les angles de quelconque figure rectiligne, sont égaux à deux fois autant d'angles droicts, quatre estant ostez, qu'elle a de costez ou d'angles.
 
-*[Figure: vn quadrilatere, vn pentagone & vn hexagone, chacun diuisé en triangles par des lignes menées d'vn poinct au dedans à tous les angles]*
+[Figure: vn quadrilatere, vn pentagone & vn hexagone, chacun diuisé en triangles par des lignes menées d'vn poinct au dedans à tous les angles]
 
 Si enim, à quocunque puncto intra figuram assumpto, ad omnes angulos rectæ lineæ ducantur, efficientur tot triangula,
 

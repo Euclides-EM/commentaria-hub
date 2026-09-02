@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 commensurabilibus descriptorum, & duplum rectangulum sub eisdem rectis contentum, sunt incommensurabilia, tum inter se, tum quadratis aggregati & differentiæ earundem rectarum.
 

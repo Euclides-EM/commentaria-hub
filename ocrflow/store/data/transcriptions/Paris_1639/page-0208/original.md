@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 faudroit prouuer que les equimultiples des antecedens E 28 & F 70, au respect des equimultiples des consequens G 18 & H 45, ne peuuent estre dissemblables: c'est à dire, que si E excede G, F ne pourra pas estre égal ny moindre que H. Et à cause qu'on ne peut prouuer, sans vne hypothese concedée, que les equimultiples E & F au respect des equimultiples G & H, ne peussent estre dissemblables: on ne pourra pas aussi demonstrer, sans hypothese, qu'il y a mesme proportion de A à B, que de C à D.
 

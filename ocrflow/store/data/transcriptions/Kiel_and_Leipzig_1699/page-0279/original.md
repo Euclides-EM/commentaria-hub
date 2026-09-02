@@ -1,12 +1,12 @@
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
-<!-- *(Seitenzahl: 255)* -->
+<!-- Page number: 255 -->
 
 ## Des II. Theils
 
 ### Gegebene. — Begehrtes.
 
-*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
 A ⊣ B — a : B ⊣ a : A.
 A | 5a
@@ -34,4 +34,4 @@ Und a : B ⊣ a : A — n. 8. Beschr. V.
 
 Derowegen ist allezeit die von ungleichen Grössen Grössere gegen die Dritte mehr vierfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vierfältig / als gegen die Grössere. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

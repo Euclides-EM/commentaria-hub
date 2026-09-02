@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 24.10 | aggreg.. □.df + □.fe, est medi.
 hyp. | ▭.abc, est medi.
@@ -15,7 +14,7 @@ Medio à rationali detracto; recta linea, quæ reliquum spatium potest, vna ex d
 
 *Si vn espace medial est retranché d'vn rationel; la ligne droicte qui peut le reste de l'espace, est vne de deux irrationelles, sçauoir apotome, ou mineure.*
 
-<!-- H A B C D / F K E I (figure) -->
+[Figure: labels arranged H A B C D / F K E I]
 
 Hypoth.
 

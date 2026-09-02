@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 148)* -->
+<!-- Page number: 148 -->
 
 ### II. Begebenheit.
 
@@ -8,7 +8,7 @@
 
 Fället der Strich ba nicht auff c, so falle er auff d.
 
-*[Figur: grosser Kreis mit kleinerem Kreis, der ihn inwendig oben berührt; oben der Punkt c, links d, im kleinen Kreis e und a, unten im grossen Kreis b; Verbindungsstriche]*
+[Diagram: grosser Kreis mit kleinerem Kreis, der ihn inwendig oben berührt; oben der Punkt c, links d, im kleinen Kreis e und a, unten im grossen Kreis b; Verbindungsstriche]
 
 ### Beweiß.
 
@@ -30,4 +30,4 @@ Muß also allezeit der durch beede Mittel-Düpffele cf oder ba, derer einander a
 
 Wann zweene Kreyse einander von aussen anrühren/so wird der gerade Strich/ welcher durch solcher Kreyse Mittel-Düpffele gezogen wird / durch den Anrührungs-Düttel gehen.
 
-<!-- catchword: Ge- -->
+<!-- Catchword: Ge- -->

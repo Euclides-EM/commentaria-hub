@@ -1,13 +1,13 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 260)* -->
+<!-- Page number: 260 -->
 
 ### I. Beweiß.
 
 A | 3a — n. Gegeb.
 2A | 6a — n. 6. Gr. i. I.
 6a ⊣ 4a — n. 9. Gr. I.
-α (?) Dw. 2A ⊣ 4a — n. 1. Gr. c. I.
+[unclear: α] Dw. 2A ⊣ 4a — n. 1. Gr. c. I.
 B | 3b — n. Gegeb.
 2B | 6b — n. 6. Gr. i. I.
 6b ⊣ 4b — n. 9. Gr. I.
@@ -23,7 +23,7 @@ A ____________
 B ____________
 3b ____________
 
-*[Figur: Strecken A, 3a, B, 3b]*
+[Diagram: Strecken A, 3a, B, 3b]
 
 ### II. Beweiß.
 
@@ -39,4 +39,4 @@ B | 3b — n Geg.
 Man nehme 1. A und B jedwedes einmahl/
 Darnach 2. die Grössen a und b jedwedes viermahl.
 
-<!-- catchword: A— -->
+<!-- Catchword: A— -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 Demonstr.
 
@@ -13,7 +12,7 @@ In dato circulo triangulum describere dato triangulo æquiangulum.
 
 Dedans vn cercle donné, inscrire vn triangle equiangle à vn triangle donné.
 
-*[Figure: triangle D—E—F ; cercle A—B—C auec triangle A—B—C inscrit, ligne G—A—H tangente en haut]*
+[Figure: triangle D—E—F ; cercle A—B—C auec triangle A—B—C inscrit, ligne G—A—H tangente en haut]
 
 Hypoth.
 

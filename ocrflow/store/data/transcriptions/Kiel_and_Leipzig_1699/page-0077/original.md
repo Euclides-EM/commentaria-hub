@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 59)* -->
+<!-- Page number: 59 -->
 
 ### Beweiß des 3.
 
@@ -32,4 +32,4 @@ Wenn zween Striche neben dem dritten in unveränderter Weite hinlauffen / so sin
 3.        AB ╪ EF
 4.        CD ╪ EF
 
-*[Figur: Drei waagerechte Striche AB, EF und CD, geschnitten vom schrägen Strich GH in den Dütteln I, L und K]*
+[Diagram: Drei waagerechte Striche AB, EF und CD, geschnitten vom schrägen Strich GH in den Dütteln I, L und K]

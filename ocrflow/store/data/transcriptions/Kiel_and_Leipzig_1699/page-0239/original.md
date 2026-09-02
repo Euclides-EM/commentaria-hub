@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 215)* -->
+<!-- Page number: 215 -->
 
 Welcher das □ bcde anrühret/n. 17. III.
 Und dem □ eingeschrieben ist/ n. 5. Beschr. IV.
@@ -27,7 +27,7 @@ Viereck bcde. — 1. Kreyß cdeb
 2. Aus dem Düttel a, wo diese Zwergstriche einander durch-
 schneiden/ werde nach der Weite ab ein Kreyß beschrieben.
 
-*[Figur: Quadrat b c d e mit gezogenen Diagonalen, die sich im Mittelpunkt a schneiden, umschrieben von einem Kreis]*
+[Diagram: Quadrat b c d e mit gezogenen Diagonalen, die sich im Mittelpunkt a schneiden, umschrieben von einem Kreis]
 
 ### Beweiß.
 
@@ -36,4 +36,4 @@ bc | dc — n. 1. Geg. u. 29. Besch. I.
 ß. Dw. — dbc ∧ bdc — n. 5. I.
 dcb + dbc + bdc ∧ ⌓ — n. 32. I.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

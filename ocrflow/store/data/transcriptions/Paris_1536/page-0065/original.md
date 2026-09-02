@@ -1,4 +1,4 @@
-# LIBER II.
+<!-- Running title: LIBER II. -->
 
 Θεώρημα ζ, Πρόθεσις ζ.
 
@@ -12,11 +12,15 @@ ORONTIVS.¶Data enim recta linea a/b, vtcunq; secetur in puncto c. Aio ex tota a
 
 Erunt igitur h/c/& f/k/parallelogramma,circa dimetientem a/e/cōsistentia,quadrata:per quartæ huius corollarium. Et quoniam c/k/& h/f/supplementa,sunt per quadragesimamtertiam ipsius primi adinuicem æqualia. addatur vtrique,commune quadratum h/c.Totum igitur a/k,toti a/f,per secundam communem sententiam erit æquale.Est autem a/k/ æquum ei quod sub tota a/b,& segmento a/c/continetur rectangulo:nam a/c,ipsi a/h, per quadrati diffinitionem est æqualis.Rectangulis itaque a/k/& a/f/æquum est id, quod bis sub a/b/& a/c/ continetur rectangulum. Eisdē porrò a/k/& a/f/rectangulis, æquatur gnomon f/a/k, & quadratū insuper h/c(bis enim cum ipsis a/k/& a/f/rectangulis,includitur quadratum h/c)gnomon igitur f/a/k,vnà cū quadrato h/c, æqualis est ei quod bis sub a/b/ & a/c/comprehēditur rectangulo.Addatur rursum cómune quadratum f/k. Gnomon igitur f/a/k,vnà cum quadratis h/c/& f/k:ei quod bis sub a/b/& a/c/cótinetur rectangulo,& ipsi quadrato f/k/est æqualis. Atqui f/a/k/gnomoni, & quadrato f/k: æquum est a/b/d/e/quadratum.Igitur quadratum a/b/d/e,vnà cum quadrato h/c: æquum est cōprehenso bis sub a/b/& a/c/rectangulo,& ipsi f/k/quadrato.Sed a/b/d/e/quadratū,ex tota a/b/descriptū est.& h/c/quadratum,id quod sub a/c/segmento.f/k/autem æquale ei, quod fit ex reliquo segmento c/b: fit enim ex g/k,quæ ipsi c/b,per trigesimamquartā primi est æqualis. Quod igitur ex tota a/b/& segmento a/c/vtraq; fiunt quadrata:æqualia sunt rectangulo comprehenso bis sub tota a/b, & dicto segmēto a/c,& ei quod sub reliquo segmento c/b/fit quadrato. Si recta igitur linea:&c. vt in theoremate. Quod oportuit ostendisse.
 
-*[diagram: a c b / h g k / d f e]*
+[Diagram: a c b / h g k / d f e]
 
-> Figuræ præparatio.
+[Margin]
+Figuræ præparatio.
+[/Margin]
 
-> Demōstratio theorematis.
+[Margin]
+Demōstratio theorematis.
+[/Margin]
 
 Θεώρημα η, Πρόθεσις η.
 
@@ -26,6 +30,8 @@ Erunt igitur h/c/& f/k/parallelogramma,circa dimetientem a/e/cōsistentia,quadra
 
 SI recta linea secetur vtcunque : rectangulum comprehensum quater sub tota & vno segmentorum, cū eo quod ex reliquo
 
-> Bifariam potest demonstrari *(manu scripta)*
+[Handwritten]
+Bifariam potest demonstrari
+[/Handwritten]
 
-e.j.
+<!-- Signature: e.j. -->

@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 face vn angle égal à vn angle rectiligne donné.
 
-*[Figure: ligne E—A—F en haut, angle G à droicte, ligne B—D—C en bas, ligne A—D]*
+[Figure: ligne E—A—F en haut, angle G à droicte, ligne B—D—C en bas, ligne A—D]
 
 Hypoth.
 
@@ -34,7 +33,7 @@ Cuiuscunque trianguli vno latere producto: Externus angulus duobus internis, & o
 
 De tout triangle, l'vn des costez estant prolongé, l'angle externe est égal aux deux internes & opposez: & les trois angles internes de tout triangle, sont égaux à deux droicts.
 
-*[Figure: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]*
+[Figure: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]
 
 Hypoth.
 

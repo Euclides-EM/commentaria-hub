@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 277)* -->
+<!-- Page number: 277 -->
 
 |  |  |  |
 |---|---|---|
@@ -12,7 +12,7 @@
 
 ### II. Gegebene.
 
-*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
 A : B | b : c
 B : C | a : b
@@ -37,6 +37,6 @@ a | c
 | b | b | |
 | u. a | c | n. 9. V. |
 
-<!-- signature mark: Mm 3 -->
+<!-- Signature: Mm 3 -->
 
-<!-- catchword: III. Gege- -->
+<!-- Catchword: III. Gege- -->

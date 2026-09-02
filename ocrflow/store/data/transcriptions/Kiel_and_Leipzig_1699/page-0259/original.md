@@ -1,6 +1,6 @@
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
-<!-- *(Seitenzahl: 235)* -->
+<!-- Page number: 235 -->
 
 XIX. Verwirrete Ebenmässigkeit ist / wenn man drey Grössen in der ersten Ordnung / und eben so viel in der andern Ordnung hat/da die Vorgehende zu der Nachgehenden in der I. Ordnung sich eben so / wie die Vorgehende zu der Nachgehenden in der II. Ordnung hält: Darnach aber die Nachgehende der I. Ordnung zu etwas Anders: wie etwas Anders zu der Vorgehenden in der II. Ordnung.
 
@@ -16,7 +16,7 @@ Wann etliche Grössen (und zwar so viel man derer wil) anderer eben so viel Grö
 
 ### Gegebene.
 
-*[Figur: vier waagerechte Linien verschiedener Länge, bezeichnet A, a, B, b]*
+[Diagram: vier waagerechte Linien verschiedener Länge, bezeichnet A, a, B, b]
 
 A : a | B : b
 
@@ -24,6 +24,6 @@ A : a | B : b
 
 A + B : a + b | A : a — B : b
 
-<!-- signature mark: Gg 2 -->
+<!-- Signature: Gg 2 -->
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 75)* -->
+<!-- Page number: 75 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Beschluß.
 
@@ -17,7 +17,7 @@ Einem gegebenen Dreyeck/ nach dem gegebenen Winckel/ ein gleichhaltiges Viereck 
 2. ∧ D | 2. □ CEFG | △ ABC
 | 3. ECG ⋀ D
 
-*[Figur: Dreyeck und Viereck auff dem Grundstrich mit den Puncten G, F, A oben und C, E, B unten, daneben der Winckel D]*
+[Diagram: Dreyeck und Viereck auff dem Grundstrich mit den Puncten G, F, A oben und C, E, B unten, daneben der Winckel D]
 
 ### Wirckung.
 
@@ -30,6 +30,6 @@ Einem gegebenen Dreyeck/ nach dem gegebenen Winckel/ ein gleichhaltiges Viereck 
 
 Aus E werde ein gerader Strich EA nach dem Gipffel A gezogen.
 
-<!-- signature mark: K 2 -->
+<!-- Signature: K 2 -->
 
-<!-- catchword: Beweiß -->
+<!-- Catchword: Beweiß -->

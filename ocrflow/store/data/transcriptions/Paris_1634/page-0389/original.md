@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 1.concl. constr. | bd est ▭.bc,cd,
 constr. | bc π a 2|2 a π cd,
@@ -49,4 +48,4 @@ Constr.
 3.1 | fg 2|2 c,
 1.p.1 | eg est —,
 
-*[Figure: lignes E D, D F, F G, G E & le quarré G, H sur E G ; lignes A, B, C à part]*
+[Figure: lignes E D, D F, F G, G E & le quarré G, H sur E G ; lignes A, B, C à part]

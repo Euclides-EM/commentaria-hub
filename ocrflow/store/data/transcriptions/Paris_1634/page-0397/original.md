@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 ## THEOR. II. PROPOS. XII.
 
@@ -22,7 +21,7 @@ Præpar.
 5.4 | bacd est ⊙,
 1&2.p.1 | aed & cd snt —,
 
-*[Figure: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas]*
+[Figure: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas]
 
 Demonstr.
 

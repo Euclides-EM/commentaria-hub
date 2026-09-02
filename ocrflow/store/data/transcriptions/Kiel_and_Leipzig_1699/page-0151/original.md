@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 133)* -->
+<!-- Page number: 133 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 Dw. gia ⋏ agi — n. 1. Gr. a. I.
 und ia ⊢ ag — n. 18. I.
@@ -23,6 +23,6 @@ Wenn ein gerader Strich durch eines Kreyses Mittel-Düpffel gehet / und einen an
 4. Jn zween gleiche Theile getheilet ist/ nemlich bd | cd: oder — 1. adb | ∟ und adc | ∟: oder
 5. Der Strich bc vom ersten Strich ef nach rechten Winckeln getheilet/ daß adb ⋏ adc. — 2. bd | dc.
 
-<!-- signature mark: R 3 -->
+<!-- Signature: R 3 -->
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

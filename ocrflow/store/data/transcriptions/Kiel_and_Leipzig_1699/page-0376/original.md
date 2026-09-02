@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 346)* -->
+<!-- Page number: 346 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ### Beschluß.
 
@@ -25,6 +25,6 @@ a : b ⊤ c : d.
 
 ad ⌻ bc.
 
-*[Figur: Zwey Rechtecke; das lincke mit den Seiten a, e, d, daneben die einzelnen Striche d, b, c, a; das rechte Rechteck mit den Seiten e, b, f]*
+[Diagram: Zwey Rechtecke; das lincke mit den Seiten a, e, d, daneben die einzelnen Striche d, b, c, a; das rechte Rechteck mit den Seiten e, b, f]
 
-<!-- catchword: Vorbe- -->
+<!-- Catchword: Vorbe- -->

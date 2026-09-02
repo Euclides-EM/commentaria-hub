@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 ## SCHOL. II.
 
 Demonstr.. diuis.. raō. contr. & inuers. contr.
 
-*[Figure: ligne A—C—B et ligne D—F—E]*
+[Figure: ligne A—C—B et ligne D—F—E]
 
 Hypoth.
 
@@ -29,7 +28,7 @@ Si diuisæ magnitudines sint proportionales, hæ quoque compositæ proportionale
 
 Si les grandeurs diuisées sont proportionnelles : estant composées, elles seront aussi proportionnelles.
 
-*[Figure: lignes verticales C—B—A et F—G—E—D]*
+[Figure: lignes verticales C—B—A et F—G—E—D]
 
 Hypoth.
 

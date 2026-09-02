@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 34)* -->
+<!-- Page number: 34 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 ### Beweiß.
 Weil alhier der Strich DC Bley-recht auff AB stösset/ so müssen ∧ ACD und ∧ BCD zween ∟ ∟ Winckel seyn.
@@ -25,6 +25,6 @@ Müssen derowegen die Winckel von dem herunterfallenden Strich gemacht/ entweder
 Wenn auff einen geraden Strich / und zwar auff einen einigen Düttel desselben/ zween gerade Striche / nicht von einer Seiten gezogen/ zusammen stossen/ und die zween neben einander stehende Winckel zweyen rechten Winckeln gleich groß machen; so werden sie gerade auffeinander stossen.
 (und einen einigen geraden Strich vorstellen.)
 
-*[Figur: Zwei Diagramme. Links: senkrechter Strich AB durch Düttel C, waagerechter Strich ECD mit punktierten Linien. Rechts: schräger Strich AB durch Düttel C, Strich ED mit punktierten Linien nach F und G.]*
+[Diagram: Zwei Diagramme. Links: senkrechter Strich AB durch Düttel C, waagerechter Strich ECD mit punktierten Linien. Rechts: schräger Strich AB durch Düttel C, Strich ED mit punktierten Linien nach F und G.]
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

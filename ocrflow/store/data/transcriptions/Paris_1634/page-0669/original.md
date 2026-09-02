@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 *qui est ditte binome, ou bimediale premiere, ou ligne maieure, ou ligne pouuant vn rationel & vn medial.*
 

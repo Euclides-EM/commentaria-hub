@@ -1,8 +1,8 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 176)* -->
+<!-- Page number: 176 -->
 
-*[Figur: Zwey gleichgrosse Kreysse; der eine mit den Punckten f, a, c, d, g, der andere mit e, b, h, i; darin Winckel am Mittel-Düpffel und im Kreyß, etliche Striche punctirt]*
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten f, a, c, d, g, der andere mit e, b, h, i; darin Winckel am Mittel-Düpffel und im Kreyß, etliche Striche punctirt]
 
 ### Vorbereitung.
 Wenn cad ⋀̸ hbi so mache man den
@@ -24,4 +24,4 @@ Müssen derowegen allezeit in gleichgrossen Kreyssen diejenigen Winckel/ welche 
 ## Das 25. Beweiß-Stück.
 In gleichgrossen Kreyssen schneiden gleichlange gerade Striche/ gleichgrösse Bogen ab/ und zwar/ daß das grössere Stück / dem grössern/ und das kleinere dem kleineren gleich an Grösse sey.
 
-<!-- catchword: Ge- -->
+<!-- Catchword: Ge- -->

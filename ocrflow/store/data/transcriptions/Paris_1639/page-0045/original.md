@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
-*[Figure]*
+[Figure]
 
 #### Explication des notes.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 rum, cum eo, quod à reliquo segmento fit, quadrato, æquale est ei, quod à tota, & dicto segmento, tanquam ab vna linea describitur, quadrato.
 
@@ -11,7 +10,7 @@ ab est —,
 ac & cb snt par.. ab,
 bd 2|2 cb.
 
-*[Figure: quarré F—E—H—A, diagonale F—D, I, G en haut, R, T, K, Q au milieu, O, L à gauche, N, H, S en bas, P à droite, A—C—B—D en bas]*
+[Figure: quarré F—E—H—A, diagonale F—D, I, G en haut, R, T, K, Q au milieu, O, L à gauche, N, H, S en bas, P à droite, A—C—B—D en bas]
 
 Req. π. demonstr.
 

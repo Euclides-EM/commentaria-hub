@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 #### Preparation.
 
@@ -18,7 +18,7 @@ concl. 21.a.1 | cf n̄. *eſt* 2|2 fd.
 
 Si deux cercles se couppent l'vn l'autre, ils n'auront pas le mesme centre.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

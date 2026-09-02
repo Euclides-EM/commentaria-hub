@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 ## SCHOL.
 
@@ -13,7 +12,7 @@ caeb est semic.
 ab est diamet.
 ed ⊥ ab.
 
-*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]*
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]
 
 Req. π. demonstr.
 

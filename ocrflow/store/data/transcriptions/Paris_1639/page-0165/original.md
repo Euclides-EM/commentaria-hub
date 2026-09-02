@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 #### Requis à faire.
 
@@ -31,7 +31,7 @@ Au cercle, l'angle qui est au demy cercle est droict: mais celuy qui est au plus
 dabf *eſt* ⊙,
 adc *eſt diametre*,
 
-*[Figure]*
+[Figure]
 
 #### Preparation.
 

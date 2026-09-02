@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. II. -->
+<!-- Running title: D'EVCLIDE, LIV. II. -->
 
 D'où s'ensuit que le rectangle des parties inégales AB & BD est égal au rectangle de AB & BC : que la difference des parties AB & BD est AC, & son quarré OI : & que AE est le quarré de la toute AD. Et par consequent ce scholie ne differe de la 8. proposition que de nom : & se peut aussi demonstrer comme s'ensuit.
 
@@ -11,7 +11,7 @@ ad~db Ⅱ af *eſt* fd,
 
 4▭.adb + □.fd 2|2 □.ab.
 
-*[Figure]*
+[Figure]
 
 #### Preparation.
 

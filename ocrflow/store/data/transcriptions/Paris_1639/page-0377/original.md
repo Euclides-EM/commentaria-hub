@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 & parce qu'on suppose que l'angle ABC est droict, ostant de 90 degrez l'angle ACB, par exemple de 62 degrez, restera pour l'angle BAC 28 degrez ; partant pour auoir BC suiuant la regle des opposez, on dira, si
 
@@ -6,7 +6,7 @@
 62 deg. —— 20 toises —— 28 deg.   R. 10 5/8.
 994593   130103   967161   102671
 
-*[Figure]*
+[Figure]
 
 & viendra 10 2671/4139, qui font enuiron 10 5/8 pour BC, à laquelle adioûtant EA ou son égal DB, on aura toute la hauteur DC.
 

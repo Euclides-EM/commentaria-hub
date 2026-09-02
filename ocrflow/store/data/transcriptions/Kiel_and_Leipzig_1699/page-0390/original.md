@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 360)* -->
+<!-- Page number: 360 -->
 
 2. Auch werde zu den Strichen ef und gh und der Dritte ebenmässige Strich q gefunden n. 11. VI. ef : gh | gh : q.
 
@@ -33,4 +33,4 @@ Dw. □ el : □ gi | fe : q
 
 ab : cd | ef : gh.
 
-<!-- catchword: II. Beweiß. -->
+<!-- Catchword: II. Beweiß. -->

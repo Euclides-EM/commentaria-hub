@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 335)* -->
+<!-- Page number: 335 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ## Des X. Vortrags III. Ahrt.
 
@@ -14,7 +14,7 @@
 Der Strich BC getheilet in 1. 2. 3. also / daß
 oc : oi ⊤ bc : ba.
 
-*[Figur: Geometrische Zeichnung mit den Punkten h, o, b, a, c, den Ziffern 1 2 3 auf schrägen Strichen, sowie unten der Strich B C mit den Theilpunkten o 1 2 3 4 und g]*
+[Diagram: Geometrische Zeichnung mit den Punkten h, o, b, a, c, den Ziffern 1 2 3 auf schrägen Strichen, sowie unten der Strich B C mit den Theilpunkten o 1 2 3 4 und g]
 
 ### Wirckung.
 
@@ -33,4 +33,4 @@ Und so ferner n. 3. I.
 
 Es werden auch o b und c 4 gezogen.
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

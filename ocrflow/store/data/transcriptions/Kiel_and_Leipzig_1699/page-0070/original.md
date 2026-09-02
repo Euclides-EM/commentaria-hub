@@ -1,6 +1,6 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 52)* -->
+<!-- Page number: 52 -->
 
 werden die übrigen Seiten / denen übrigen Seiten / jedwede jedweder / und der übrige Winckel/ dem übrigen Winckel auch gleich seyn.
 
@@ -15,7 +15,7 @@ Entweder ist   AB ⊢ ab
 oder           AB ⊣ ab
 oder           AB | ab
 
-*[Figur: Zwei Dreiecke: links ABC, rechts abc mit punktierten Linien und Punkten d und h]*
+[Diagram: Zwei Dreiecke: links ABC, rechts abc mit punktierten Linien und Punkten d und h]
 
 ### Vorbereitung.
 
@@ -31,4 +31,4 @@ bh + bc | AB + BC         n. 2. Gr-S.
 Dw. hcb   ⋏    ACB        n. 4. Vortr.
     acb   ⋏    ACB        n. 5. Gegeb.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

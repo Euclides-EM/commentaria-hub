@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 ## THEOR. I. PROPOS. I.
 
@@ -7,7 +6,7 @@ Rectæ lineæ pars quædam non est in subiecto plano, quædam verò in sublimi.
 
 *Vne partie d'vne ligne droicte ne peut estre en vn plan proposé, & vne partie au dessus.*
 
-<!-- D B / A C F / E (figure) -->
+[Figure: labels arranged D B / A C F / E]
 
 Hypoth.
 
@@ -32,7 +31,7 @@ Si duæ rectæ lineæ se mutuò secent, in vno sunt plano: atque triangulum omne
 
 *Si deux lignes droictes se couppent l'vne l'autre, elles sont en vn mesme plan: & tout triangle est en vn mesme plan.*
 
-<!-- D F / E / A C (figure) -->
+[Figure: labels arranged D F / E / A C]
 
 Hypoth.
 

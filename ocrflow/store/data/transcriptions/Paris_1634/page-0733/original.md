@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 pta figura. Atque si quiescens recta linea æqualis sit reliquæ, quæ circa rectum angulum cótinetur, orthogonius erit conus: si verò minor amblyonius: si verò major oxygonius.
 

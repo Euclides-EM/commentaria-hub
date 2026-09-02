@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
 primus autem sit quadratus, & tertius quadratus erit.
 

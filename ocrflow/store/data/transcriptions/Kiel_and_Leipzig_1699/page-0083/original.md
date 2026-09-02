@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 65)* -->
+<!-- Page number: 65 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Beschluß.
 
@@ -21,7 +21,7 @@ Alle auff einen einigen Grundstrich/und zwischen einerley Nebenstrichen stehende
 4. Die Nebenstriche AE=CD
 5. Zwischen welchen die □ □ stehen.
 
-*[Figur: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten E, B, A oben und D, C unten]*
+[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten E, B, A oben und D, C unten]
 
 ### Beweiß.
 
@@ -32,6 +32,6 @@ CDB ⩓ CDB
 Dw. CDB + ABC ⩓ BDE + CDB n. 2. Gr:S.
 oder ABDC ⌻ BCDE n. 9. Gr:S. q.
 
-<!-- signature mark: I -->
+<!-- Signature: I -->
 
-<!-- catchword: 2. Be- -->
+<!-- Catchword: 2. Be- -->

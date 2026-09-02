@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 93)* -->
+<!-- Page number: 93 -->
 
 AD | ad | n. 2. I.
 Dw. ad | AB | n. 1. Gr-S. I.
@@ -38,6 +38,6 @@ aa | ab + ac | n. 1. II. W. Z. B.
 
 Wenn man einen geraden Strich/ auff waserley weiß / in zwey Stücke schneidet/ so wird das
 
-<!-- signature mark: M 3 -->
+<!-- Signature: M 3 -->
 
-<!-- catchword: Vier- -->
+<!-- Catchword: Vier- -->

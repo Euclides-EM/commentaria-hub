@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 ## THEOR. XV. PROPOS. XV.
 
@@ -7,7 +6,7 @@ Partes cum pariter multiplicibus in eadem sunt ratione, si provt sibi mutuò res
 
 Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles sont prises comme elles s'entre-respondent.
 
-*[Figure: lignes verticales B—G—A, E—H, C, D, F]*
+[Figure: lignes verticales B—G—A, E—H, C, D, F]
 
 Hypoth.
 

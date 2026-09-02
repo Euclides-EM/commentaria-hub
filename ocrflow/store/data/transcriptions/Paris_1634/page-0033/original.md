@@ -1,5 +1,4 @@
-
-<!-- # EXPLICATION DES CITATIONS. -->
+<!-- Running title: EXPLICATION DES CITATIONS. -->
 
 ### Propos. 2. libr. 1.
 

@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 β | <cga 2|2 <cgh,
 4.1 | <chg 2|2 <cag, u <eca,
@@ -16,7 +15,7 @@ ac π cb, γ
 
 Pappus lib. 7. propos. 175.
 
-*[Figure: deux figures : triangles auec les poincts D, F, A, L, H, B, E, G, C, K]*
+[Figure: deux figures : triangles auec les poincts D, F, A, L, H, B, E, G, C, K]
 
 Hypoth.
 

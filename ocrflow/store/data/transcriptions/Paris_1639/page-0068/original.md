@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Preparation pour la premiere partie.
 
@@ -48,4 +48,4 @@ D'vn poinct sur vne mesme ligne droicte, on ne peut mener plus de deux lignes dr
 c *eſt* • D.
 ab *eſt* —— D.
 
-*[Figure]*
+[Figure]

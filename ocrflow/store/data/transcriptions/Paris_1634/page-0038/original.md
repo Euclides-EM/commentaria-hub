@@ -1,7 +1,6 @@
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
-<!-- # ELEM. EVCLID. LI. I. -->
-
-*[Figure: rectangle BCDA, B en haut à gauche, C en haut à droite, A en bas à gauche, D en bas à droite]*
+[Figure: rectangle BCDA, B en haut à gauche, C en haut à droite, A en bas à gauche, D en bas à droite]
 
 ### VI.
 

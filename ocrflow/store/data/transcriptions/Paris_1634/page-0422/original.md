@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 ## PROBL. XII. PROPOS. XXXIV.
 
@@ -9,7 +8,7 @@ Dato circulo, & tribus punctis in eius circumferentia, inuenire diametrum, in qu
 
 Vieta in appendice apollonij galli.
 
-*[Figure: deux figures : cercles auec les poincts E, B, H, F, K, A, I, G, L, M, D et D, C, E, A, B, F, K, H, I, G, M, L]*
+[Figure: deux figures : cercles auec les poincts E, B, H, F, K, A, I, G, L, M, D et D, C, E, A, B, F, K, H, I, G, M, L]
 
 Hypoth.
 

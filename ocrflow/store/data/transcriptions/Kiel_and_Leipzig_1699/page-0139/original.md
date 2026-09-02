@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 121)* -->
+<!-- Page number: 121 -->
 
 ## Der XIII. Vortrag.
 
@@ -17,7 +17,7 @@ In allen spitzwincklichten Dreyecken ist das gleichseitige Viereck der Seite / w
 5. und das zwischen dem Senckstrich cd und ∠ a stehende stück ad abschneidet.
 6. cda | ∟
 
-*[Figur: spitzwinkliges Dreieck a c d mit punktierten Linien von c nach b und von d nach b]*
+[Diagram: spitzwinkliges Dreieck a c d mit punktierten Linien von c nach b und von d nach b]
 
 ### Beweiß.
 
@@ -26,6 +26,6 @@ In allen spitzwincklichten Dreyecken ist das gleichseitige Viereck der Seite / w
 □ ab + □ ad + □ cd | 2 ▭ bad + □ bd + □ cd
 n. 2. Gr. I.
 
-<!-- signature mark: Q -->
+<!-- Signature: Q -->
 
-<!-- catchword: ac -->
+<!-- Catchword: ac -->

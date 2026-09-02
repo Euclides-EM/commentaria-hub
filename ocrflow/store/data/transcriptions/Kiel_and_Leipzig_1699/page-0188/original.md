@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 170)* -->
+<!-- Page number: 170 -->
 
 ### Beschluß.
 Sind also jedes Viereckes / so einem Kreyß eingeschrieben/ gegen einander überstehende Winckel adc + abc ⋀ ⌓
@@ -20,11 +20,11 @@ Auff einen einigen geraden Strich können auff einerley Weise keine zwey gleichg
 ### Begehrtes.
 Beede Kreyß-Stücke gleicher Grösse.
 
-*[Figur: Zwey Kreyß-Stücke über dem Strich ab, mit den Punckten a, b, c, d und punctirten Strichen ad, bc]*
+[Diagram: Zwey Kreyß-Stücke über dem Strich ab, mit den Punckten a, b, c, d und punctirten Strichen ad, bc]
 
 ### Vorbereitung.
 Wenn es seyn kan/ so mache man (1) auff den geraden Strich ab auff einerley Weise zwey gleichgestalte oder ähnliche Kreyßstücke ungleicher Grösse ⌓ adb + ⌓ acb.
 2. Werde gezogen der Strich ad.
 3. Aus b werde zu dem Düttel c, wo der Strich ad das Kreyß-Stück acb schneidet/ der Strich bc gezogen.
 
-<!-- catchword: 4. Werde -->
+<!-- Catchword: 4. Werde -->

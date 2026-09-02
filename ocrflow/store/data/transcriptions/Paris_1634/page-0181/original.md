@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 ▭.ac + ▭.abc 2|2 ▭.bc + ▭.ab.
 
@@ -9,7 +8,7 @@ Præpar.
 10.1 | bd 2|2 df,
 1.p.1 | cf & cd snt —,
 
-*[Figure: triangle A—C—B, C au sommet, A, F, D, B en bas, lignes C—F, C—D]*
+[Figure: triangle A—C—B, C au sommet, A, F, D, B en bas, lignes C—F, C—D]
 
 Demonstr.
 

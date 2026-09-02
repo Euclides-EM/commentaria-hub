@@ -1,8 +1,8 @@
-# LIBER III.
+<!-- Running title: LIBER III. -->
 
 centro in eas perpendiculares ductæ ſunt æquales . Magis autē diſtare dicitur:in quam maior perpendicularis cadit.
 
-*[diagram: a d f g b c / h m o n p k l]*
+[Diagram: a d f g b c / h m o n p k l]
 
 Quemadmodùm in a/b/c/d/circulo, cuius centrum e, exiſtētes lineæ rectæ a/b/& c/d,æqualiter ab eodem centro e/diſtare cenſentur:propterea quòd e/f/& e/g/perpendiculares,ſunt inuicem æquales.In circulo porrò h/k/l/m,cuius cētrum n, h/ k/ plus diſtare dicitur à centro n, quàm l/ m : quoniam perpendicularis n/o,maior eſt n/p.
 
@@ -12,9 +12,11 @@ Quemadmodùm in a/b/c/d/circulo, cuius centrum e, exiſtētes lineæ rectæ a/b/
 
 In exemplum habes a/b/c/& d/e/f/circulorum ſectiones:ſub rectis a/ c/ & d/ f, & a/ b/ c/ atque d/ e/ f/ circunferentijs comprehenſas. Quarum a/ b/ c/ centrum iucludens,maior eſt ipſa d/e/f/ extra centrum conſtituta.
 
-> Sectio, maior minor.
+[Margin]
+Sectio, maior minor.
+[/Margin]
 
-*[diagram: b a c / e d f]*
+[Diagram: b a c / e d f]
 
 Τμήματος δὲ γωνία ἐστὶν,ἡ περιεχομένη ὑπό τε εὐθείας,καὶ κύκλου περιφερείας.
 
@@ -22,7 +24,9 @@ In exemplum habes a/b/c/& d/e/f/circulorum ſectiones:ſub rectis a/ c/ & d/ f, 
 
 Cuiuſmodi eſt angulus b/a/c,antecedentis deſcriptionis:ſub a/c/recta,& a/b/ circunferentia comprehenſus.aut e/d/f/angulus,qui ſub recta d/f,& d/e/circunferētia continetur.Quos quidem angulos mixtos vocitare ſolemus:id eſt,ſub recta & curua linea comprehenſos.
 
-> Anguli mixti
+[Margin]
+Anguli mixti
+[/Margin]
 
 Ἐν τμήματι δὲ γωνία ἐστὶν,ὅταν ἐπὶ τῆς περιφερείας τοῦ τμήματος,ληφθῇ τι σημεῖον,καὶ ἀπ' αὐτοῦ ἐπὶ τὰ πέρατα τῆς εὐθείας,ἥτις ἐστὶ βάσις τοῦ τμήματος,ἐπιζευχθῶσιν εὐθεῖαι. ἡ περιεχομένη γωνία ὑπὸ τῶν ἐπιζευχθεισῶν εὐθειῶν.
 
@@ -30,7 +34,7 @@ Cuiuſmodi eſt angulus b/a/c,antecedentis deſcriptionis:ſub a/c/recta,& a/b/ 
 
 Quemadmodùm ex ſubiectę deſcriptionis angulis g/h/k,& l/m/n,deprehendere licet.A pūcto enim h,in fines ipſius rectę g,k(quæ baſis dicitur)rectę lineæ h/g/& h/k/coniunctæ:angulum ipſum g/h/k/in data ſectione,& ad punctum h/conſtituūt. Idem cenſeto de l/m/n/alterius ſectionis angulo.
 
-*[diagram: h g k / m l n]*
+[Diagram: h g k / m l n]
 
 Ὅταν δὲ αἱ περιέχουσαι τὴν γωνίαν εὐθεῖαι ἀπολαμβάνωσί τινα περιφέρειαν, ἐπ' ἐκείνης λέγεται βεβηκέναι ἡ γωνία.
 
@@ -38,9 +42,11 @@ Quemadmodùm ex ſubiectę deſcriptionis angulis g/h/k,& l/m/n,deprehendere lic
 
 Veluti ſunt o/p/& p/q/lineę rectæ,angulū qui ad punctū p/ comprehendentes,& o/p/q/ſuſcipiētes circunferentiā. In ipſa igitur circunferētia o/p/q, comprehenſus angulus eſſe dicitur. Quòd ſi rectæ lineæ angulum conſtituētes,ad centrum conueniant circuli : comprehenſus tūc angulus in centro dicetur eſſe circuli,veluti angulus r/s/t,ſub rectis r/s/& s/t/ex cētro s/prodeuntibus comprehenſus.
 
-> Angulus in cētro.
+[Margin]
+Angulus in cētro.
+[/Margin]
 
-*[diagram: p o q / s r t]*
+[Diagram: p o q / s r t]
 
 Τομεὺς δὲ κύκλου ἐστὶν,ὅταν πρὸς τῷ κέντρῳ αὐτοῦ τοῦ κύκλου σταθῇ ἡ γωνία τὸ περιεχόμενον σχῆμα ὑπό τε τὴν γωνίαν περιεχουσῶν εὐθειῶν,καὶ τῆς ἀπολαμβανομένης ὑπ' αὐτῶν περιφερείας.
 

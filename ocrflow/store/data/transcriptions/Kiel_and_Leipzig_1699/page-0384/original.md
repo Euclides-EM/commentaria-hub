@@ -1,8 +1,8 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 354)* -->
+<!-- Page number: 354 -->
 
-*[Figur: zwei Dreyecke, das kleinere d e f und das grössere a b c mit punktiertem Strich von a nach g; darunter ein Strich B E F G mit schräg auffsteigenden Strichen nach C, E und F, punktiert nach F]*
+[Diagram: zwei Dreyecke, das kleinere d e f und das grössere a b c mit punktiertem Strich von a nach g; darunter ein Strich B E F G mit schräg auffsteigenden Strichen nach C, E und F, punktiert nach F]
 
 ### Vorbereitung.
 
@@ -26,4 +26,4 @@ Dw. △ abc : △ abg | bc : ef n. 11. V.
 △ abg | △ def n. Bew. α
 △ abc | △ abc
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

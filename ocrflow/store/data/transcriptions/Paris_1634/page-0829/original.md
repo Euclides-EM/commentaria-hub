@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 α. hyp. | ab π ad 2|2 ac π cb,
 c. 4. 5 | ad π ab 2|2 cb π ac,
@@ -11,7 +10,7 @@ Si recta linea rationalis extrema ac media ratione secetur; vtrumque segmentorum
 
 *Si vne ligne droicte rationelle est couppee en la moyenne & extreme raison; l'vn & l'autre segment est ligne irrationelle, laquelle est appellee apotome ou residu.*
 
-<!-- D A C B (figure) -->
+[Figure: labels arranged D A C B]
 
 Hypoth.
 

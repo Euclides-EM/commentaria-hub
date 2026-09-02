@@ -1,8 +1,8 @@
-<!-- *(Seitenzahl: 36)* -->
+<!-- Page number: 36 -->
 
-<!-- # Das I. Buch. -->
+<!-- Running title: Das I. Buch. -->
 
-*[Figur: Zwei sich in E durchschneidende gerade Striche: AB schräg von A oben rechts nach B unten links, DC waagerecht.]*
+[Diagram: Zwei sich in E durchschneidende gerade Striche: AB schräg von A oben rechts nach B unten links, DC waagerecht.]
 
 ### Beweiß.
 
@@ -29,4 +29,4 @@ Wenn in einem Dreyeck der eine Strich verlängert wird; so wird der auswendige W
 1. △ ABC. DAC ⋀ ACB.
 2. Die verlängerte Seite BA gegen D. DAE ⋀ ABC.
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

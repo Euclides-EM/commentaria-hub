@@ -1,11 +1,11 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 #### Req. à demonſtr.
 
 raō.. ab π d 3|2 raō.. c π d,
 raō.. d π c 3|2 raō.. d π ab.
 
-*[Figure]*
+[Figure]
 
 #### Preparation.
 

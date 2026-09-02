@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 9.1. | <dca 2|2 <dcb,
 symp. | ad 2|2 db.
@@ -23,7 +22,7 @@ Demonstr.
 8.1. | <dca 2|2 <dcb,
 concl. 4.1. | ae 2|2 eb.
 
-*[Figure: ligne A—E—B horizontale, arcs s'entrecoupans en C au dessus et en D au dessous, ligne pointillée CD passant par E]*
+[Figure: ligne A—E—B horizontale, arcs s'entrecoupans en C au dessus et en D au dessous, ligne pointillée CD passant par E]
 
 ## PROBL. VI. PROPOS. XI.
 
@@ -31,7 +30,7 @@ Data recta linea, à puncto in ea dato, rectam lineam ad angulos rectos excitare
 
 Sur vne ligne droicte donnée, & d'vn poinct donné en icelle éleuer vne ligne droicte perpendiculaire.
 
-*[Figure: ligne A—D—C—E—B horizontale, triangle DEF, F au sommet, ligne verticale FC]*
+[Figure: ligne A—D—C—E—B horizontale, triangle DEF, F au sommet, ligne verticale FC]
 
 Hypoth.
 

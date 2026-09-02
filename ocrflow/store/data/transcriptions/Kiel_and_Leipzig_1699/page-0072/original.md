@@ -1,6 +1,6 @@
-<!-- # Das I. Buch. -->
+<!-- Running title: Das I. Buch. -->
 
-<!-- *(Seitenzahl: 54)* -->
+<!-- Page number: 54 -->
 
 ### Beschluß.
 
@@ -19,7 +19,7 @@ Wenn auff zween gerade Striche ein anderer gerader Strich fället / und die Wech
    AGH ⋏ GHD.
    BGH ⋏ GHC.
 
-*[Figur: Zwei waagerechte Striche AB und CD, von dem schrägen Strich EF in G und H geschnitten, mit punktierten Linien zum Punkt I]*
+[Diagram: Zwei waagerechte Striche AB und CD, von dem schrägen Strich EF in G und H geschnitten, mit punktierten Linien zum Punkt I]
 
 ### Beweiß.
 
@@ -28,4 +28,4 @@ Entweder sind es Neben-Striche/ oder zusammenlauffende Striche.
 Lauffen sie zusammen in dem Düttel I.   So machen sie ein △ GIH, und wird     AGH ⊼ GHI. n. 16. Vortr.
         welches wider das 3. Gegebene.
 
-<!-- catchword: Solten -->
+<!-- Catchword: Solten -->

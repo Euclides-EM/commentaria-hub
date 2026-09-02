@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 270)* -->
+<!-- Page number: 270 -->
 
 ### Gegebene. | Begehrtes.
 
@@ -9,7 +9,7 @@ a ____________
 B ________________
 b ________
 
-*[Figur: Strecken A, a, B (mit Theil b), b]*
+[Diagram: Strecken A, a, B (mit Theil b), b]
 
 A—a : a | B—b : b
 
@@ -20,7 +20,7 @@ Wenn das Begehrte nicht eintreffen solte / so nehme man an statt b das Stück c,
 B ________________
 b ________
 
-*[Figur: Strecken B (mit Theil c) und b]*
+[Diagram: Strecken B (mit Theil c) und b]
 
 und sey alsdann
 
@@ -38,6 +38,6 @@ Oder man nehme an statt des Stückes b das Stück d.
 B ____________
 b ________
 
-*[Figur: Strecken B (mit Theil d) und b]*
+[Diagram: Strecken B (mit Theil d) und b]
 
-<!-- catchword: A— -->
+<!-- Catchword: A— -->

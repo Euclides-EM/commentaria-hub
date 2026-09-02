@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-<!-- # ELEM.. EVCLID. LI. XI. -->
-
-<!-- A / D E F / B / K G / C / H I (figure) -->
+[Figure: labels arranged A / D E F / B / K G / C / H I]
 
 Demonstr.
 
@@ -22,7 +21,7 @@ Ex tribus angulis planis, quorum duo quomodocunque assumpti reliquo sunt majores
 
 *Constituer vn angle solide de trois angles plans, deux desquels pris comme on voudra, sont plus grands que l'autre: mais il faut que ces trois angles soient plus petits que quatre droicts.*
 
-<!-- A / B / C / M K / D E F G / H L E (figure) -->
+[Figure: labels arranged A / B / C / M K / D E F G / H L E]
 
 Hypoth.
 

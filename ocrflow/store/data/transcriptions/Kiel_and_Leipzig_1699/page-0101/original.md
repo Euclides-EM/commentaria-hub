@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 83)* -->
+<!-- Page number: 83 -->
 
 lichten Dreyeck vermag der/dem rechten Winckel entgegen gesetzte Strich/ so viel/ als die beeden übrigen Seiten.
 
@@ -23,8 +23,8 @@ Es werden gemacht.
 7. - - - - f - - fh
 8. - - - - g - - gr
 
-*[Figur: rechtwinckliges Dreyeck fxg mit den drey Vierecken über den Seiten und punktierten Hülfslinien; Punkte r, m, s, k, f, i, o, e, b, a, g, c, x, l, d, h]*
+[Diagram: rechtwinckliges Dreyeck fxg mit den drey Vierecken über den Seiten und punktierten Hülfslinien; Punkte r, m, s, k, f, i, o, e, b, a, g, c, x, l, d, h]
 
-<!-- signature mark: L 2 -->
+<!-- Signature: L 2 -->
 
-<!-- catchword: Beweiß -->
+<!-- Catchword: Beweiß -->

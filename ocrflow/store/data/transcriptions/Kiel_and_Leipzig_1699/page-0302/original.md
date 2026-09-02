@@ -1,10 +1,10 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 278)* -->
+<!-- Page number: 278 -->
 
 ### III. Gegebene.
 
-*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
 A : B | b : c
 B : C | a : b
@@ -33,4 +33,4 @@ a ⊦ c
 
 Wenn derowegen Sechs Grössen in verwirreter Ebenmaß stehen/ und die I. grösser ist / als die III. so wird auch die IV. grösser seyn/ als die VI. Ist aber die I. eben so groß/als die III. so ist auch die IV. eben so groß/als die VI. Und wenn die I. kleiner ist/als die III. so ist auch die IV. kleiner/als die VI. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

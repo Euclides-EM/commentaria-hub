@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 ## THEOR. XCI. PROPOS. CXV.
 
@@ -7,7 +6,7 @@ Si spatium contineatur sub apotoma, & ea, quæ ex binis nominibus, cuius nomina 
 
 *Si vn espace est contenu sous vn apotome & sous vne ligne appellee binome, de laquelle les noms sont commensurables aux noms de l'apotome & en mesme raison; la ligne droicte pouuant iceluy espace est rationelle.*
 
-<!-- E F G / A C / D / I B H (figure) -->
+[Figure: labels arranged E F G / A C / D / I B H]
 
 Hypoth.
 

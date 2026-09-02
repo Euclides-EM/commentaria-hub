@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 76)* -->
+<!-- Page number: 76 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 ### Beweiß.
 
@@ -28,6 +28,6 @@ In jedwedem Nebenstrichichen Viereck/sind die Füllflächen derer ümb den Zwerg
 3. Ümb den Zwergstrich stehende □ □ FG und HI
 4. Füllflächen FH und GI.
 
-*[Figur: Nebenstrichichtes Viereck mit den Puncten A, F, C oben, G, E, H in der Mitte und D, I, B unten, mit dem Zwergstrich und inneren Vierecken]*
+[Diagram: Nebenstrichichtes Viereck mit den Puncten A, F, C oben, G, E, H in der Mitte und D, I, B unten, mit dem Zwergstrich und inneren Vierecken]
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

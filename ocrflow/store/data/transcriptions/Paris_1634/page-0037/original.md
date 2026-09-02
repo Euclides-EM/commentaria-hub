@@ -1,5 +1,4 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 ### IV.
 
@@ -7,7 +6,9 @@ Recta linea est, quæ ex æquo sua interiacet puncta. | La ligne droite est, cel
 
 A ————— B
 
-C ⌒ D *[Figure: ligne courbe]*
+C ⌒ D
+
+[Figure: ligne courbe]
 
 AB est recta linea. | AB est vne ligne droite.
 CD est curua linea. | CD est vne ligne courbe.

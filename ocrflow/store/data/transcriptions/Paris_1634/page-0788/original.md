@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLD. LI. XII. -->
+<!-- Running title: ELEM.. EVCLD. LI. XII. -->
 
 29.1, & 9. 11 | acb, ahe, eib, hic, fgк snt △ æquiang. ꝗe,
 26.1 | ahe, eib, hic, fgк snt △ 2|2 ꝗe, α
@@ -14,7 +13,7 @@ d. α | ahg, gdк, hкc, efi snt △ æquiang. & 2|2 ꝗe,
 1. a. c | prism. bfgeih 3|2 pyram. aegh, Ⅱ hiкc,
 3.concl. 4. a. c | prism. bfgeih + prism. fgdihк 3|2, ½ pyram. abdc.
 
-<!-- A / H G / E / Ɔ K / I / B F C (figure) -->
+[Figure: labels arranged A / H G / E / Ɔ K / I / B F C]
 
 ## SCHOL.
 

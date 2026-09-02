@@ -33,6 +33,7 @@ export type { annotationrule_ExecutionMode } from './models/annotationrule_Execu
 export type { annotationrule_KeepPosition } from './models/annotationrule_KeepPosition';
 export type { annotationrule_LimitCategoryZones } from './models/annotationrule_LimitCategoryZones';
 export type { annotationrule_LinesDetect } from './models/annotationrule_LinesDetect';
+export type { annotationrule_LLMTranscriptionCorrector } from './models/annotationrule_LLMTranscriptionCorrector';
 export type { annotationrule_MetadataDetails } from './models/annotationrule_MetadataDetails';
 export type { annotationrule_ModelDetect } from './models/annotationrule_ModelDetect';
 export type { annotationrule_PipelineStage } from './models/annotationrule_PipelineStage';

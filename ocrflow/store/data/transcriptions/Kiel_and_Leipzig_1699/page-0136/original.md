@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 118)* -->
+<!-- Page number: 118 -->
 
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
 ### Beschluß.
 
@@ -34,4 +34,4 @@ oder ae | cc | W. Z M.
 
 In allen stumpffwincklichten Dreyecken ist das gleichseitige Viereck der Seite/ so dem stumpfen Winckel übergespannet ist/ so viel grösser / denn die beeden Vierecke derer Seiten/ welche den stumpffen Winckel begreiffen / als das zwey-
 
-<!-- catchword: mal -->
+<!-- Catchword: mal -->

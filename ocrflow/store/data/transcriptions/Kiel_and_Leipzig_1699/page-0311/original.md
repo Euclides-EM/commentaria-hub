@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 287)* -->
+<!-- Page number: 287 -->
 
 ### Begehrtes.
 
@@ -35,4 +35,4 @@ Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat/ als die III. 
 
 Wenn vier Grössen gegeben werden/ deren die Erste zu der Andern eine grössere Verhältnüß hat/ als die Dritte zu der Vierten; So wird auch die Erste mit der Andern zusammen/ zu der Andern eine grössere Verhältnüß / als die Dritte und Vierte zusammen zu der Vierten/ haben.
 
-<!-- catchword: Gege- -->
+<!-- Catchword: Gege- -->

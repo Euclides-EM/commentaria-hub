@@ -1,12 +1,12 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 20)* -->
+<!-- Page number: 20 -->
 
 ### Beweiß.
 
 So wird der Düttel b entweder auff den Düttel B, oder über denselben auff d, oder unter denselben auff e fallen.
 
-*[Figur: zwey Dreyecke abc und ABC nebeneinander, mit den Punkten d und e am zweyten Dreyeck]*
+[Diagram: zwey Dreyecke abc und ABC nebeneinander, mit den Punkten d und e am zweyten Dreyeck]
 
 fället er auff d, | fället er auff e,
 
@@ -20,7 +20,7 @@ Weilen nun der Düttel b, weder über/ noch unter den Düttel B fallen kan / so 
 
 Wann aber ab auff AB fället / so muß der andere Strich ac entweder einwerts auff den Strich AC, oder auff Ag, oder außwerts auff Af fallen.
 
-*[Figur: zwey Dreyecke abc und ABC, am zweyten Dreyeck die Punkte g und f mit punktierten Linien]*
+[Diagram: zwey Dreyecke abc und ABC, am zweyten Dreyeck die Punkte g und f mit punktierten Linien]
 
 fället er auff AG, | fället er auff Af
 
@@ -28,4 +28,4 @@ So wird BAg ⋏ bac | nach der Vorber. | BAf ⋏ bac
 BAC ⋏ bac | nach Gegeb. | BAC ⋏ bac
 Dw. BAC ⋏ BAg | nach 1. GrS. | BAC ⋏ BAf
 
-<!-- catchword: Keines -->
+<!-- Catchword: Keines -->

@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 #### Demonſtr.
 
@@ -13,7 +13,7 @@ concl. 22.5 | bg π c 2|2 eh π f.
 
 Si quatre grandeurs sont proportionelles, la plus grande & la plus petite sont plus grandes que les deux autres.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

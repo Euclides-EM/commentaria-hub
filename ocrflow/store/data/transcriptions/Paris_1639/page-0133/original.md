@@ -1,14 +1,14 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 gnée du centre sur laquelle tombe la plus grande perpendiculaire.
 
-*[Figure]*
+[Figure]
 
 ### V.
 
 Segment ou section de cercle, est vne figure comprise sous vne ligne droicte, & la circonference du cercle.
 
-*[Figure]*
+[Figure]
 
 5.d.3 | abc & def *ſnt* ⌓.
 

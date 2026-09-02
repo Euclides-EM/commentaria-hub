@@ -1,4 +1,4 @@
-<!-- # GEOMETRIE PRACTIQVE. -->
+<!-- Running title: GEOMETRIE PRACTIQVE. -->
 
 ### Trouuer le contenu d'vne sphere.
 

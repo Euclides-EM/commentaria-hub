@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
 i, msur: k,
 3.p.7 | g, msur: l,

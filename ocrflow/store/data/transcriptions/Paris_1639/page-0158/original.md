@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 1.concl. 1.a.f | ∠abc + ∠adc 2|2 2┘,
 
@@ -8,7 +8,7 @@
 21.3 | ∠dbc 2|2 ∠dac, ∠bdc 2|2 ∠bac,
 2 concl. 1.a.f | ∠dcb + ∠dab 2|2 2┘.
 
-*[Figure]*
+[Figure]
 
 #### Corollaire 1.
 
@@ -24,7 +24,7 @@ hyp. | ∠abc 2|3 ┘,
 
 Si vn costé d'vn quadrilatere inscrit dans le cercle, est prolongé, l'angle externe sera égal à l'interne, qui est opposé à celuy qui est de suite à l'externe.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

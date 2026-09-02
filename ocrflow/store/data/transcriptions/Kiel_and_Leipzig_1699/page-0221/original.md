@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 203)* -->
+<!-- Page number: 203 -->
 
 ### Wirckung.
 
@@ -32,6 +32,6 @@ In den gegebenen Kreyß ein Dreyeck/welches dem gegebenen Dreyeck gleich winckli
 2. Dreyeck fgh. △ abc.
 2. △ abc gleichwincklicht dem △ fhg.
 
-<!-- signature mark: Cc 2 -->
+<!-- Signature: Cc 2 -->
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 γ | ▭.hai 2|2 ▭.bad,
 1.2 | ▭.ch,ef 2|2 ▭ ch,ei + ▭ ch,if,
@@ -12,7 +11,7 @@ concl. ε.1.a.f | ▭.cae 2|2 ▭.bad + ▭.ch,ed u ▭bc,ei.
 
 Snelius in Apollonio Batauo.
 
-*[Figure: six figures auec les poincts B, N, E, D, G, A, F, H, C, M]*
+[Figure: six figures auec les poincts B, N, E, D, G, A, F, H, C, M]
 
 Hypoth.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 quot latera angulosve figura ipsa continet : at anguli eorumdem triangulorum, circa punctum intra figuram assumptum consistentes, non pertinent ad angulos figuræ rectilineæ propositæ, vt constat. Quare si hi auferantur, erunt reliqui triangulorum anguli constituentes angulos figuræ propositæ, bis tot rectis æquales, demptis illis circa punctum assumptum constitutis, quot latera vel angulos continet figura, sunt autem omnes illi anguli, quotquot sint, circa dictum punctum existentes æquales quatuor rectis tantummodo vt collegimus ex propositione decimaquinta. Quäobrem omnes anguli, &c.
 
@@ -11,7 +10,7 @@ Rectæ lineæ, quæ æquales, & parallelas lineas ad partes easdem coniungunt ; 
 
 Les lignes droictes qui conioignent deux lignes droictes égales & paralleles, & de mesme part ; sont außi égales & paralleles.
 
-*[Figure: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale B—C]*
+[Figure: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale B—C]
 
 Hypoth.
 

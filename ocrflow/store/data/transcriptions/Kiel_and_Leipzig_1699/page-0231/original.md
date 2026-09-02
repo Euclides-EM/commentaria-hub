@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 213)* -->
+<!-- Page number: 213 -->
 
 ### Beweiß.
 
@@ -40,6 +40,6 @@ Viereck bcde. 1. Kreyß fghi
 1. Werden die Zwergstriche bd, ec gezogen.
 2. Alle Seiten des Vierecks bc, cd, de, eb werden in zwey gleiche Theile bf | fc : ci | id und so weiter/ getheilet/n. 10. I.
 
-<!-- signature mark: Dd 3 -->
+<!-- Signature: Dd 3 -->
 
-<!-- catchword: 3. Aus -->
+<!-- Catchword: 3. Aus -->

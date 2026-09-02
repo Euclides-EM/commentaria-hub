@@ -1,7 +1,5 @@
+<!-- Running title: PROLEGOMENES. -->
 
-<!-- # PROLEGOMENES. -->
-
-<!-- (colonne gauche, latin) -->
 Tertius, constructionem ac vsum Canonis sinuum & logarithmorum : Geometriam practicam : Artem muniendi : Militiam : & Mechanicas.
 
 Quartus, Sphæræ mundi doctrinam : Geographiam : & Artem nauigädi.
@@ -10,7 +8,6 @@ Quintus, Opticam : Catoptricam : Dioptricam : Perspectiuam : Theodosij Sphærico
 
 Hæ sunt omnes Mathematicarum disciplinarum partes, quas in lucem edendas in hoc Cursu proposuimus.
 
-<!-- (colonne droite, français) -->
 Le troisiesme, la construction & vsage des Tables des sinus & logarithmes : la Geometrie practique : les Fortifications : la Milice : & les Mechaniques.
 
 Le quatriesme, la Doctrine de la Sphere du monde : la Geographie : & l'Art de nauiger.
@@ -20,10 +17,9 @@ Le cinquiesme, l'Optique : la Catoptrique : la Dioptrique : la Perspectiue : Tro
 Voila toutes les parties des Mathematiques, que nous esperons mettre en lumiere en ce Cours.
 
 ## Diuisio Elementorum Euclidis.
+
 ## Diuision des Elements d'Euclide.
 
-<!-- (colonne gauche, latin) -->
 TOTVM hoc volumen Elementorum Geometricorum quindecim libris comprehensum (quo-
 
-<!-- (colonne droite, français) -->
 TOVT ce volume des Elements Geometriques comprins en quinze liures, (dont les treize premiers sont

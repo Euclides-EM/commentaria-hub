@@ -1,10 +1,10 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 372)* -->
+<!-- Page number: 372 -->
 
 2. Unter allen an den Strich ab angeschlagenen nebenstrichichten Vierecken/ das an den halben Strich pb angeschlagene Viereck pe grösser/ als alle andere mangelhaffte an den Strich ap angeschlagene Vierecke.
 
-*[Figur: Viereck q, a, p, g unten mit den Punkten d, e, c, i, b, teils mit punctirten Linien gezeichnet]*
+[Diagram: Viereck q, a, p, g unten mit den Punkten d, e, c, i, b, teils mit punctirten Linien gezeichnet]
 
 ### Vorbereitung.
 
@@ -31,4 +31,4 @@ Dw. □ pq | □ pc n. 1. VI.
 u. □ pq | □ ge n. 1. Gr. I.
 □ pi | □ pi
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

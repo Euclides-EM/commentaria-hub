@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 336)* -->
+<!-- Page number: 336 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ### Beweiß.
 
@@ -39,4 +39,4 @@ Zu zweyen gegebenen geraden Strichen den dritten ebenmässigen Strich zu finden.
 
 AB : AC ⊤ AC : cd.
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 α | bc 2|2 eg,
 2.concl. 1.a.d. | bc 3|2 ef,
@@ -16,7 +15,7 @@ Si duo triangula duo latera duobus lateribus æqualia habuerint, vtrumque vtriqu
 
 Si deux triangles ont deux costez égaux à deux costez chacun au sien, & la base plus grande que la base ; ils auront außi l'angle contenu d'iceux plus grand que l'angle.
 
-*[Figure: deux triangles ABC & DEF, A & D en haut]*
+[Figure: deux triangles ABC & DEF, A & D en haut]
 
 Hypoth.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 hypoth. | hiua, multipl.. b, 2|2, lm, uc, multipl.. d,
 concl. β.2.5 | ei, multipl.. b, 2|2, fm, multipl.. d.
@@ -16,7 +15,7 @@ a π b 2|2 c π d,
 e, multipl.. a, 2|2 f, multipl.. c,
 g, multipl.. b, 2|2, h, multipl.. d.
 
-*[Figure: lignes verticales I—E—A—B—G—L et K—F—C—D—H—M]*
+[Figure: lignes verticales I—E—A—B—G—L et K—F—C—D—H—M]
 
 Req. π. demonstr.
 

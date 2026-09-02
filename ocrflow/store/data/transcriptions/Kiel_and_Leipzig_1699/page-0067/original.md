@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 49)* -->
+<!-- Page number: 49 -->
 
 Andere Begebenheit (2. Casus.)
 
@@ -28,13 +28,13 @@ Dritte Begebenheit.
 6.  Ab werde verlängert gegen f.
 7.  Ac  -  -  -  -  -  gegen e.
 
-*[Figur: III. Casus. Zwei Dreiecke: links Dreieck ABC, rechts Dreieck ACd mit punktierten Linien zu b und f]*
+[Diagram: III. Casus. Zwei Dreiecke: links Dreieck ABC, rechts Dreieck ACd mit punktierten Linien zu b und f]
 
 ### Beweiß.
 
 bAd ⋏ BAC.     n. 2. Vorber.
 Ab | AB        n. 3. Vorber.
 
-<!-- signature mark: G -->
+<!-- Signature: G -->
 
-<!-- catchword: Ad -->
+<!-- Catchword: Ad -->

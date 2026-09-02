@@ -1,7 +1,6 @@
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-<!-- # APPEND.. GEOM.. PLAN. -->
-
-*[Figure: deux cercles auec les poincts N, B, F, G, L, A, E, C, D, H]*
+[Figure: deux cercles auec les poincts N, B, F, G, L, A, E, C, D, H]
 
 1.a.1 | ▭.fdl 2|2 □.de + □.eb,
 3.s.1.d.2 | □.eb 2|2 ▭.heb,

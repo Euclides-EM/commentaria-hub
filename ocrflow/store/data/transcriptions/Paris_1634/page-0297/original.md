@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 β.cōstr | ik 3|2 hg & ik 2|3 hf,
 2.concl. 8.d.5 | raō. d π c 3|2 raō. d π ab.
@@ -10,7 +9,7 @@ Quæ ad eandem, eandem habent rationem, æquales sunt inter se : Et ad quas eade
 
 Les grandeurs qui ont mesme raison à vne mesme grandeur, sont égales entr'elles : Et celles-là ausquelles vne mesme grandeur a mesme raison, sont aussi égales entr'elles.
 
-*[Figure: trois lignes verticales A, B, C]*
+[Figure: trois lignes verticales A, B, C]
 
 Hypoth. 1.
 

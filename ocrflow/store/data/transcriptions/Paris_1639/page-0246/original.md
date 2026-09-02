@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Ornament]*
+[Ornament]
 
 # LE SIXIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
@@ -10,7 +10,7 @@
 
 SEMBLABLES figures rectilignes, sont celles qui ont les angles égaux, vn chacun au sien, & les costez qui sont à l'entour des angles égaux, proportionaux.
 
-*[Figure]*
+[Figure]
 
 hyp. | ∠a 2|2 ∠d,
 hyp. | ∠b 2|2 ∠dce,

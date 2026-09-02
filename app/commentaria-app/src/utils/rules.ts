@@ -2,6 +2,7 @@ import type {
   annotationrule_ExecutionMode,
   annotationrule_AddMargin,
   annotationrule_LinesDetect,
+  annotationrule_LLMTranscriptionCorrector,
   annotationrule_LimitCategoryZones,
   annotationrule_PipelineStage,
   annotationrule_RecategorizeByAlignment,
@@ -30,6 +31,7 @@ export type AnnotationRule = BaseAnnotationRule &
     | annotationrule_Stretch
     | annotationrule_AddMargin
     | annotationrule_LinesDetect
+    | annotationrule_LLMTranscriptionCorrector
     | annotationrule_RemoveCategories
     | annotationrule_RenameCategories
     | annotationrule_RemoveOverlap

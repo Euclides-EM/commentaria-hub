@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 Præpar.
 
@@ -24,7 +23,7 @@ Si in circulo quadrilaterum describatur; erit rectangulum sub diametris comprehe
 
 Ptolomeus lib. 1. Almagesti.
 
-*[Figure: cercle auec le quadrilatere A, D, E, B, C]*
+[Figure: cercle auec le quadrilatere A, D, E, B, C]
 
 Hypoth.
 

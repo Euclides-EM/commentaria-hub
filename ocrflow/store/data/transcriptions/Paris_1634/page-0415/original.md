@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 29.1 | Δagb, Δheb, Δhfa snt æquiang.
 4.6 | ag π gb 2|2 hf π fa,
@@ -13,7 +12,7 @@ concl. 11.5 | □.ag π ▭.bgc 2|2 ▭.dfh π fa.
 
 Pappus lib. 7. propos. 28.
 
-*[Figure: cercle auec les poincts G, F, A, B, D, E, C]*
+[Figure: cercle auec les poincts G, F, A, B, D, E, C]
 
 Hypoth.
 

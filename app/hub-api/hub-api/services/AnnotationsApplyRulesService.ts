@@ -7,6 +7,7 @@ import type { annotationrule_AddMargin } from '../models/annotationrule_AddMargi
 import type { annotationrule_ApplyRules } from '../models/annotationrule_ApplyRules';
 import type { annotationrule_LimitCategoryZones } from '../models/annotationrule_LimitCategoryZones';
 import type { annotationrule_LinesDetect } from '../models/annotationrule_LinesDetect';
+import type { annotationrule_LLMTranscriptionCorrector } from '../models/annotationrule_LLMTranscriptionCorrector';
 import type { annotationrule_ModelDetect } from '../models/annotationrule_ModelDetect';
 import type { annotationrule_ReassignTextLinesByTolerance } from '../models/annotationrule_ReassignTextLinesByTolerance';
 import type { annotationrule_RecategorizeByAlignment } from '../models/annotationrule_RecategorizeByAlignment';
@@ -190,6 +191,55 @@ export class AnnotationsApplyRulesService {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/limit_category_zones',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+                'execution_mode': executionMode,
+            },
+            body: annotationRule,
+        });
+    }
+    /**
+     * Apply LLM Transcription Corrector Rule to Annotation
+     * Correct an OCR-ed annotation using its page images, its OCR ALTO, optional OCR-ed annotations, and optional edition transcriptions.
+     * @returns annotation_Annotation OK
+     * @returns job_Job Accepted
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyLlmTranscriptionCorrector({
+        dataSetId,
+        id,
+        annotationRule,
+        action = 'overwrite',
+        executionMode = 'sync',
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * LLM transcription corrector rule
+         */
+        annotationRule: annotationrule_LLMTranscriptionCorrector,
+        /**
+         * Action to take when applying the rule
+         */
+        action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
+    }): CancelablePromise<annotation_Annotation | job_Job> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/llm_transcription_corrector',
             path: {
                 'dataSetId': dataSetId,
                 'id': id,

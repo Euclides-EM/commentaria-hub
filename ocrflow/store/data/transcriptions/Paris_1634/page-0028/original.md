@@ -1,5 +1,4 @@
-
-<!-- # EXPLICATIO NOTARVM. -->
+<!-- Running title: EXPLICATIO NOTARVM. -->
 
 a,b, Ⅱ ab { rectangulum quod fit ductu A in B. / le rectangle qui se fait en multipliät A par B.
 • est punctum, est vn poinct.

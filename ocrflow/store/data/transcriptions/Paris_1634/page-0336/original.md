@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 15.5 | ab/bc 2|2 a/c,
 concl. s3.d.5 | a/c est quantit. raō.. a π c,
@@ -10,7 +9,7 @@ Triangula & parallelogramma, quorum eadem fuerit altitudo, ita se habent inter s
 
 Les triangles & les parallelogrammes qui ont mesme hauteur, sont entr'eux comme leurs bases.
 
-*[Figure: triangles et parallelogrammes E, A, F ; H, G, B, C, D, I]*
+[Figure: triangles et parallelogrammes E, A, F ; H, G, B, C, D, I]
 
 Hypoth.
 

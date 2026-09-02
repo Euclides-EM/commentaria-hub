@@ -1,8 +1,7 @@
+## AD LECTOREM.
 
-<!--  ## AD LECTOREM. -->
-<!-- (colonne gauche, latin) -->
 legitimarü, necessariarumque consecutionum immediatarum, singulis lineolis comprensarum aptè cohæret : quarum vnaquæque nullo negotio in syllogismum potest conuerti, quòd in propositione citata, & in ea quæ citationi respondet, omnes syllogismi partes reperiätur : vt videre est in prima libri primi demonstratione, quæ in syllogismos est conuersa. Præterea distinctio propositionis in sua membra, scilicet in hypothesin, explicationem quæsiti, constructionem, vel præparationem, & demonstrationem non parum iuuat quoque memoriam, & ad intelligendam demonstrationem multùm prodest. Atquæ hæc sunt commoda, quæ in hac noua methodo demonstrandi reperiuntur. Quid autem in singulis huius Cursus partibus præstiterim, iudicabunt studiosi, quibus opto hunc meum laborem vtilem esse. Vale.
 
-<!--  ## AV LECTEVR. -->
-<!-- (colonne droite, français) -->
+## AV LECTEVR.
+
 trouuent toutes les parties du syllogisme : comme on peut voir en la premiere demonstration du premier liure, qui a esté reduicte en syllogismes. La distinction de la proposition en ses membres, sçauoir en l'hypothese, l'explication du requis, la construction, ou preparation, & la demonstration, soulage aussi la memoire, & sert grandement à l'intelligence de la demonstration. Voila les principales commoditez qui se trouuent en nostre nouuelle methode de demonstrer. Ceux qui aiment ces diuines sciences iugeront ce que i'ay apporté du mien en chacune partie de ce Cours, que ie souhaite qu'il leur soit vtile & profitable. Adieu.

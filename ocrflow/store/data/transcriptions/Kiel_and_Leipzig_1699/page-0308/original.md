@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 284)* -->
+<!-- Page number: 284 -->
 
 ### Beweiß.
 
@@ -28,4 +28,4 @@
 
 Werden demnach allezeit aus vier Ebenmässigen Grössen die Grösseste und Kleineste zusammen grösser seyn / als die übrigen beeden zusammen. W. Z. B.
 
-<!-- catchword: Anmer- -->
+<!-- Catchword: Anmer- -->

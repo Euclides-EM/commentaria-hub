@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 137)* -->
+<!-- Page number: 137 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Beweiß.
 
@@ -32,8 +32,8 @@ Wolte man sagen / sie hätten nur einen eintzigen Mittel-Düpffel/ nemlich a, so
 1. Zu dem anrührungs-Düpffel b den Strich ab.
 2. Auch den Strich af.
 
-*[Figur: zween Kreyse, deren innerer den äusseren unten bey b anrühret, mit den Dütteln d, c (oben), f, g (links), e und a in der Mitte, punktierte Striche von a nach b, c und g]*
+[Diagram: zween Kreyse, deren innerer den äusseren unten bey b anrühret, mit den Dütteln d, c (oben), f, g (links), e und a in der Mitte, punktierte Striche von a nach b, c und g]
 
-<!-- signature mark: S -->
+<!-- Signature: S -->
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

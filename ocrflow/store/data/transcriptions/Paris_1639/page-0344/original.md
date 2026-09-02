@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 46, 38, & 27, & leur somme 111, & faut partir 222, qui est la somme de toutes les mises, selon les proportions des numerateurs 46, 38, & 27 : partant pour auoir la mise du premier, on dira, si
 

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 341)* -->
+<!-- Page number: 341 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ## Der XIV. Vortrag.
 
@@ -22,13 +22,13 @@ Und diejenigen Nebenstrichichten Vierecke/ welche bey dem gleichmässigen Wincke
 ab : eh ⊤ fe : db.
 □ ad wechselmässig □ fh.
 
-*[Figur: Zwei kleine Parallelogramme mit den Ecken h, g, a, b, c, d, e, f; darunter grössere Vierecke mit den Ecken F, D, E, H, C, A, B, I, wobei B—I punktiert]*
+[Diagram: Zwei kleine Parallelogramme mit den Ecken h, g, a, b, c, d, e, f; darunter grössere Vierecke mit den Ecken F, D, E, H, C, A, B, I, wobei B—I punktiert]
 
 ### Vorbereitung.
 
 1. Es werde gemacht ABDC ⌻ abdc. n. 46. I.
 2. Verlänget man nach Nothdurfft die Striche CD und BD gegen H und F.
 
-<!-- signature mark: Uu 3 -->
+<!-- Signature: Uu 3 -->
 
-<!-- catchword: 3. werde -->
+<!-- Catchword: 3. werde -->

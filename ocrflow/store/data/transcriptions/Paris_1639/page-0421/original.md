@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 est en la page 401 de ce liure, & aussi en la page 216 du 3 tome, le calcul se fera comme s'ensuit, donnant à la face du bastion RK 48 toises, & à la courtine GF 72 toises, suiuant le precepte des regulieres au triangle GRK, pour trouuer GR, on dira, si
 

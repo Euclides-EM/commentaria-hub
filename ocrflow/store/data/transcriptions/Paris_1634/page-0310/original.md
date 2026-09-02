@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 ## SCHOL. I.
 
 Demonstr.. composit.. raō. conuers.
 
-*[Figure: ligne A—B—C et ligne D—E—F]*
+[Figure: ligne A—B—C et ligne D—E—F]
 
 hypoth. | ab π bc 2|2 de π ef.
 

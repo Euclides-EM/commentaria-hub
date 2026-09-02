@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 324)* -->
+<!-- Page number: 324 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ### Beweiß.
 
@@ -31,4 +31,4 @@ u. | △ abc gleichwincklicht △ edf | n. 1. Beschr. VI.
 
 Wenn derowegen in zweyen Dreyecken zweene gleichmässige Winckel befindlich / und des einen Winckels Seiten mit den beyden Seiten des andern Winckels ebenmässig sind / so werden solche Dreyecke auch im übrigen gleichmässige Winckel / welche ebenmässigen Seiten gegen überstehen / haben / und durchaus gleichwincklicht seyn. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

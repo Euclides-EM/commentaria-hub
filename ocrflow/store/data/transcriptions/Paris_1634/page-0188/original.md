@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
 per hanct octauam definitionem insistit siue opponitur peripheriæ ADC.
 
@@ -14,7 +13,7 @@ Secteur du cercle est vne figure, contenuë sous deux lignes droictes qui consti
 hypoth. | d est centr.. ⊙,
 9.d.3 | adb est sectr.. ⊙,
 
-*[Figure: cercle avec A et B en haut, C en bas, D au centre, lignes D—A et D—B]*
+[Figure: cercle avec A et B en haut, C en bas, D au centre, lignes D—A et D—B]
 
 Explicatio notarum.
 

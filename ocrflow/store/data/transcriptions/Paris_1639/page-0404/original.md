@@ -1,6 +1,6 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
-*[Figure]*
+[Figure]
 
 gne BV, on aura l'angle EBV de 39 degrez pour le demy-angle flanqué : Car OH, qui est la cinquiesme partie du cercle, vaut 72 degrez : & par consequent EH sera de 36 degrez, & EM de 18 degrez : & parce que par la 15 du 4 des elem. le semidiametre d'vn cercle est égal à la subtendante de 60 degrez ; MV vaudra 60 degrez, & par ainsi la circonference EMV sera de 78 degrez, & par la 20 du 3 des elem. le demy-angle flanqué EBV vaudra 9 degrez.  Le reste de la construction se doit continuer, comme nous auons fait, en l'heptagone precedent.
 

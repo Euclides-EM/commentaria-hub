@@ -1,6 +1,6 @@
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- *(Seitenzahl: 100)* -->
+<!-- Page number: 100 -->
 
 db + cb | dc — n. 9. G. I.
 ac | ca
@@ -36,4 +36,4 @@ bd | dd + de — n. 3. II.
 dd + 2de + ee + bd | bb + dd + de — n. 2. Gr. I.
 dd + de | dd + de
 
-<!-- catchword: de -->
+<!-- Catchword: de -->

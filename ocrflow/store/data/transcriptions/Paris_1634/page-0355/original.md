@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 æquale est ei, quod sub mediis, comprehenditur, rectangulo. Et si sub extremis comprehensum rectangulum æquale fuerit ei, quod sub mediis continetur, rectangulo : illæ quatuor rectæ lineæ proportionales erunt.
 
 Si quatre lignes droictes sont proportionelles, le rectangle contenu sous les extremes, est egal au rectangle contenu sous les moyennes : Et si le rectangle contenu sous les extremes est egal au rectangle contenu sous les moyennes, icelles quatre lignes droictes seront proportionelles.
 
-*[Figure: lignes A—B, F—G, E—B, C et rectangles A, D, C, B, E ; H, G, F]*
+[Figure: lignes A—B, F—G, E—B, C et rectangles A, D, C, B, E ; H, G, F]
 
 Hypoth. 1.
 

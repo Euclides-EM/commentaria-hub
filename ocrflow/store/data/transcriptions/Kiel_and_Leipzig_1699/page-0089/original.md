@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 71)* -->
+<!-- Page number: 71 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ## Der XXXIX. Vortrag.
 
@@ -15,7 +15,7 @@ Diejenigen Dreyecke / welche einen einigen Grundstrich / und gleiche Grösse hab
 4. Gemeiner Grundstrich AB
 5. Gleichmäßige Setzung derer △ △.
 
-*[Figur: Viereck ABDC mit gezogenen und punctirten Strichen, mit den Puncten C, D, E oben, F in der Mitte, A, B unten]*
+[Diagram: Viereck ABDC mit gezogenen und punctirten Strichen, mit den Puncten C, D, E oben, F in der Mitte, A, B unten]
 
 ### Beweiß
 
@@ -27,4 +27,4 @@ Entweder ist CD = AB, oder nicht. Ist nun CD kein Nebenstrich/ des Striches AB, 
 2. Verlänge man die Seite AD biß zum Nebenstrich in E.
 3. Ziehe man den Strich BE.
 
-<!-- catchword: Ver- -->
+<!-- Catchword: Ver- -->

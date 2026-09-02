@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 *tuple en puissance du demidiametre qui enuironne les costez de l'icosaedre.*
 

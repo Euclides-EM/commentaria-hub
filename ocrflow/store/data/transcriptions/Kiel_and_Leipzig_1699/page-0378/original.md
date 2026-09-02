@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 348)* -->
+<!-- Page number: 348 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ## Der XVII. Vortrag.
 
@@ -21,6 +21,6 @@ a : b ⊤ b : c.
 
 □ ac ⊤ □ bb.
 
-*[Figur: Oben die Striche a, b, c mit Theilstrichen; darunter ein langes punktiert geteiltes Rechteck mit den Seiten c und a; darunter ein punktiert geteiltes Quadrat mit den Seiten b und b]*
+[Diagram: Oben die Striche a, b, c mit Theilstrichen; darunter ein langes punktiert geteiltes Rechteck mit den Seiten c und a; darunter ein punktiert geteiltes Quadrat mit den Seiten b und b]
 
-<!-- catchword: Vorbe- -->
+<!-- Catchword: Vorbe- -->

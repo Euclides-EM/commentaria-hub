@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
 8.8 | ꝗntr. d & c snt 2; medi;proport;
 3.9 | d, est nr. cub.

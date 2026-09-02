@@ -1,6 +1,6 @@
-# GEOMET. ELEMENT. LIB. VI.
+<!-- Running title: GEOMET. ELEMENT. LIB. VI. -->
 
-*(pagina 174)*
+<!-- Page number: 174 -->
 
 Quotuplex est igitur circunferentia b/c/l, ipsius b/c/ circunferentiæ: totuplex est g/b/l/ sector, ipsius sectoris g/b/c. Et proinde quotuplex est circunferentia e/f/n, ipsius e/f/circunferentiæ: totuplex est & sector h/e/n, ipsius sectoris h/e/f. Ergo si b/c/l/circunferẽtia, maior est ipsa e/f/n: æquè maior est & sector g/b/l, ipsius sectoris h/e/n: & si æqualis, æqualis: & si minor, itidem proportionaliter minor. Quatuor itaque magnitudinum, duarum inquàm circunferẽtiarum b/c/ & e/f, & duorum sectorum g/b/c/ & h/e/f, sumpta sunt æquè multiplicia primæ & tertiæ, necnõ secundæ & quartæ alia vtcunq; æquè multiplicia: & vt multiplex primæ ad multiplex secũdæ, sic multiplex tertiæ ad multiplex quartæ se habere deductũ est. Prima igitur ad secũdam, eandem habet rationẽ, & tertia ad quartam, per sextam diffinitionem quinti. Sicut igitur circunferentia b/c, ad circunferentiam e/f: sic g/b/c/ sector, ad sectorem h/e/f. In æqualibus igitur circulis, anguli eandem habent rationem ipsis circunferentijs in quibus deducuntur: etsi ad centra, etsi ad circunferentias fuerint deducti. Tum etiam sectores, tanquàm ad centra constituti. Quod tandem receperamus ostendendum.
 

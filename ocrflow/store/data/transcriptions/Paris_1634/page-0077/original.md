@@ -1,7 +1,6 @@
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
-<!-- # ELEM. EVCLID. LI. I. -->
-
-*[Figure: angles droits a∟ et b∟]*
+[Figure: angles droits a∟ et b∟]
 
 hyp. | <a est ∟.
 hyp. | <b est ∟.
@@ -11,7 +10,7 @@ hyp. | <b est ∟.
 
 Si vnus æqualium angulorum est rectus, vnusquisque reliquorum est quoque rectus. | Si vn des angles egaux est droict, vn chacun des autres est außi droict.
 
-*[Figure: angles droits a∟, b∟ et c∟]*
+[Figure: angles droits a∟, b∟ et c∟]
 
 hyp. | a, b, c, snt <; 2|2 ꝗe.
 hyp. | <a est ∟.

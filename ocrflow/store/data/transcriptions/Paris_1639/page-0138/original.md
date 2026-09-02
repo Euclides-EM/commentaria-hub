@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 15.d.1 | ae 2|2 ec,
 8.1 | ∠afe 2|2 ∠cfe,
@@ -29,7 +29,7 @@ De cette demonstration s'ensuit, qu'en tout triangle isoscele ou equilateral, la
 
 Si au cercle deux lignes se couppent l'vne l'autre, n'estant point menées par le centre, elles ne se coupperont point l'vne l'autre en deux égalemēt.
 
-*[Figure]*
+[Figure]
 
 #### Hypotheſe.
 

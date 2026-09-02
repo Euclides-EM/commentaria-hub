@@ -1,8 +1,8 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ### SCHOLIE.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -27,7 +27,7 @@ concl. 16.5 | cb π bg 2|2 ed π df.
 
 Si deux triangles ont les costez proportionaux, iceux triangles seront equiangles, & auront les angles égaux, sous lesquels les costez de mesme raison sont soustendus.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

@@ -1,4 +1,4 @@
-<!-- # Vorrede. -->
+<!-- Running title: Vorrede. -->
 
 die grösseste Deutlichkeit auf dem Zeichen der Gleichmässigkeit beruhe/ welches ein aufrecht stehender gerader Strich ist.
 
@@ -9,6 +9,6 @@ Und solch Zeichen ist schon vor diesem bey den Rechenmeistern gebräuchlich gewe
 
 da dann 96 hundert-acht und zwantzigtheil eben so viel/ als 48 vier und sechtzig theil/ etc. oder so viel/ als 3 Viertheil ist.
 
-<!-- signature mark: ):( ):( 3 -->
+<!-- Signature: ):( ):( 3 -->
 
-<!-- catchword: Zu -->
+<!-- Catchword: Zu -->

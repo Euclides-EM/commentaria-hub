@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 147)* -->
+<!-- Page number: 147 -->
 
 ### Gegebene. — Begehrte.
 
@@ -17,7 +17,7 @@
 
 Stösset der gegebene Strich cf nicht auff a, so lasse man ihn auff b fallen.
 
-*[Figur: zwei einander inwendig berührende Kreise; oben der Punkt a, rechts oben b, im Innern e, f und d, unten q; durch die Mittel-Düpffele gezogene Striche]*
+[Diagram: zwei einander inwendig berührende Kreise; oben der Punkt a, rechts oben b, im Innern e, f und d, unten q; durch die Mittel-Düpffele gezogene Striche]
 
 ### Beweiß.
 
@@ -30,6 +30,6 @@ Dw. ef + fc | bf + fc — n. 1. Gr. I.
 oder ef | bf — n. 3. Gr. I.
 Welches aber unmöglich n. 9. Gr. I.
 
-<!-- signature mark: T 2 -->
+<!-- Signature: T 2 -->
 
-<!-- catchword: II. Be- -->
+<!-- Catchword: II. Be- -->

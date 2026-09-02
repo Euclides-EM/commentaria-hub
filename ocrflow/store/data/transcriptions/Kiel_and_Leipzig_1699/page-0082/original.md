@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 64)* -->
+<!-- Page number: 64 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 ## Der XXXIV. Vortrag.
 
@@ -15,7 +15,7 @@ Nebenstrichichtes Viereck ABCD | 1. AB | CD
 | 4. B ⋀ C
 | 5. ACD ⩓ ABD
 
-*[Figur: Nebenstrichichtes Viereck (Parallelogramm) ABCD mit punktirter Zwerg-Linie von A nach D]*
+[Diagram: Nebenstrichichtes Viereck (Parallelogramm) ABCD mit punktirter Zwerg-Linie von A nach D]
 
 ### Beweiß.
 
@@ -31,4 +31,4 @@ AD | AD
 BAD + DAC ⋀ BDA + ADC n. 2. Gr:S.
 ε. oder BAC ⋀ BDC n. 9. Gr:S. q.
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

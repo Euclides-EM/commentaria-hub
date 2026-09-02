@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 38.1 | Δdkm 2|2 Δdef,
 7.5 | Δabc π Δdef 2|2 Δali π Δdkm,
@@ -14,7 +13,7 @@ Si ad vnum trianguli latus parallela ducta fuerit recta quædam linea, hæc prop
 
 Si à l'vn des costez d'vn triangle on mene quelque ligne droicte parallele, elle couppera les costez du triangle proportionellement : Et si les costez sont couppez proportionellement, la ligne droicte conioignant les poincts des sections, sera parallele à l'autre costé du triangle.
 
-*[Figure: triangle A, B, C avec ligne D—E parallele à BC]*
+[Figure: triangle A, B, C avec ligne D—E parallele à BC]
 
 Hypoth. 1.
 

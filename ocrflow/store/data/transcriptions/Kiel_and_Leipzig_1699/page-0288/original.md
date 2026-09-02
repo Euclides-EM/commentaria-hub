@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 264)* -->
+<!-- Page number: 264 -->
 
 ### Beweiß.
 
@@ -23,4 +23,4 @@ Wenn derohalben die I: zu der II. eben solche Verhältnüß hat/ als die III: zu
 
 Wenn aus etlichen Grössen die Erste zu der Andern eben so vielfältig ist/ als die Dritte zu der Vierten; Die Erste aber grösser ist/ als die Dritte/ so ist die Andere auch grösser/ als die Vierte. Ist aber die Erste eben so groß/ als die Dritte/ so ist auch die Andere eben so groß/ als die Vierte: Und wenn die Erste kleiner ist/ als die Dritte/ so ist auch die Andere kleiner/ als die Vierte.
 
-<!-- catchword: Gegebene. -->
+<!-- Catchword: Gegebene. -->

@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 384)* -->
+<!-- Page number: 384 -->
 
 ### Gegebene.
 
@@ -15,10 +15,10 @@
 △ DBC | △ AHC + △ AFB.
 □ BD | □ AI + □ AF.
 
-*[Figur: zwei Konstruktionszeichnungen; links Dreieck ABC mit Punkten F, A, H, B, K, C und D; rechts Figur mit Punkten I, H, A, G, C, F, K, B, D, E]*
+[Diagram: zwei Konstruktionszeichnungen; links Dreieck ABC mit Punkten F, A, H, B, K, C und D; rechts Figur mit Punkten I, H, A, G, C, F, K, B, D, E]
 
 ### Vorbereitung.
 
 Aus dem rechten Winckel A werde auf den Strich BC ein Senckstrich AK gezogen. n. 12. I.
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

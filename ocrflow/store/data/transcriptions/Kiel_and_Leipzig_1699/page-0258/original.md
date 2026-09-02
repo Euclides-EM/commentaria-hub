@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 234)* -->
+<!-- Page number: 234 -->
 
 XVI. Verwendete Verhältniß ist/ wenn man die Vorgehenden gegen den Uberschuß/womit die Vorgehenden die Nachgehenden übertroffen / hält.
 
@@ -36,4 +36,4 @@ XIIX. Ordentliche Ebenmässigkeit ist/ wenn in der ersten Ordnung die Vorgehende
 
 8b : 4b | 4b : (2b.)
 
-<!-- catchword: XIX. -->
+<!-- Catchword: XIX. -->

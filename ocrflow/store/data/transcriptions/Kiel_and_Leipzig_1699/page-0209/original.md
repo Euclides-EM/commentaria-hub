@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 191)* -->
+<!-- Page number: 191 -->
 
 ## Der XXXV. Vortrag.
 
@@ -19,7 +19,7 @@ Wenn in einem Kreyß zween gerade Striche sich Kreutzweiß durchschneiden: So is
 
 Gegebenes: Die Striche ac und bd schneiden einander im Mittel-Düpffel e.
 
-*[Figur: Kreis mit den Punkten a, b, d, c und sich im Mittelpunkt e kreutzenden Strichen ac und bd]*
+[Diagram: Kreis mit den Punkten a, b, d, c und sich im Mittelpunkt e kreutzenden Strichen ac und bd]
 
 ### Beweiß.
 
@@ -35,4 +35,4 @@ Gegebenes: Die Striche ac und bd schneiden einander im Mittel-Düpffel e.
 
 Nur ein durch den Mittel-Düpffel e gehender Strich db,
 
-<!-- catchword: 2. Wel- -->
+<!-- Catchword: 2. Wel- -->

@@ -1,11 +1,10 @@
-
-<!-- # APPEND.. GEOM. PLAN. -->
+<!-- Running title: APPEND.. GEOM. PLAN. -->
 
 Estant donnee l'hypothenuse d'vn triangle rectangle, & la moyenne proportionnelle entre la base & la perpendiculaire, trouuer le triangle.
 
 Vieta in effectionibus Geometricis.
 
-*[Figure: deux demicercles sur D B, auec les poincts C, F, A, E ; ligne G à part]*
+[Figure: deux demicercles sur D B, auec les poincts C, F, A, E ; ligne G à part]
 
 Hypoth.
 

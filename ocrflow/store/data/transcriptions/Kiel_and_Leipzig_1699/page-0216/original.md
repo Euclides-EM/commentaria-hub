@@ -1,8 +1,8 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 198)* -->
+<!-- Page number: 198 -->
 
-*[Figur: Kreis mit Düttel a oberhalb; Striche von a durch den Kreis mit Punkten b, g, d, f, c, h, e]*
+[Diagram: Kreis mit Düttel a oberhalb; Striche von a durch den Kreis mit Punkten b, g, d, f, c, h, e]
 
 ### Vorbereitung.
 
@@ -33,4 +33,4 @@ Aus dem Mittel-Düpffel ac werden gezogen.
 |  | □ fc + □ fg | □ gc oder □ dc | n. 47. I. |
 | Dw. | □ ad + □ dc + □ fc + □ fg | □ af + □ fc + □ dc | n 2. Gr. I. |
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

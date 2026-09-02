@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 hyp. | cb 2|2 bd,
 s.46.1. | ▭ch, ▭bm, ▭nq, ▭hp, snt 2|2 ⁊e,
@@ -11,7 +10,7 @@ s.46.1. | ▭bm 2|2 ▭nq,
 19.a.1 | gnom. odi + oi ▭.ac 2|2 ae ▭.ad,
 concl. 1.a.g. | 4▭.abc + ▭.ac 2|2 ▭.ad,
 
-*[Figure: quarré F—E—H—A, diagonale F—D, I, G en haut, R, T, K, Q au milieu, O, L à gauche, N, H, S en bas, P à droite, A—C—B—D en bas]*
+[Figure: quarré F—E—H—A, diagonale F—D, I, G en haut, R, T, K, Q au milieu, O, L à gauche, N, H, S en bas, P à droite, A—C—B—D en bas]
 
 ## PROPOS. VIII. ALITER. — AVTREMENT.
 
@@ -25,7 +24,7 @@ ab est —,
 ad 3|2 db,
 ad ~ db 2|2 fd.
 
-*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D]*
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D]
 
 Req. π. demonstr.
 

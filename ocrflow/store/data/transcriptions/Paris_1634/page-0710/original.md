@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID.. LI. X. -->
+<!-- Running title: ELEM.. EVCLID.. LI. X. -->
 
 l.66.10 | ▭.dfe, comm. ▭.acb, β
 s.12.10 | ▭.dfe, est ration.
@@ -20,7 +19,7 @@ ab, est min.
 bc, est congruen.
 de, comm. ab.
 
-<!-- A B C / D E F (figure) -->
+[Figure: labels arranged A B C / D E F]
 
 Req. π. demonstr.
 

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 367)* -->
+<!-- Page number: 367 -->
 
 Dw. AC : CB | AF : FE n. 2. VI.
 u. □ DC ähnlich □ FG n. 1. Besch. VI.
@@ -31,4 +31,4 @@ Einer gegebenen geradstrichichten Gestalt eine ähnliche und eben so gesetzte Ge
 2. ⬠ L ähnlich ⬠ A
 3. und eben so gesetzt.
 
-<!-- catchword: Wirckung. -->
+<!-- Catchword: Wirckung. -->

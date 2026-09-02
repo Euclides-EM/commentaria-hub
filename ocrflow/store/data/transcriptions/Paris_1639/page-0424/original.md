@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 toises de longueur, à cause que dans la table 27804″ est le nombre plus proche de 300, on conclura, que sur la ligne proposée il ne faut mettre qu'vn bastion au milieu, & deux demy-bastions aux extremitez.  Et pour trouuer les quantitez des lignes, on mettra au premier lieu de la regle de trois 27804″, qui se trouue dãs la table, & au troisiesme lieu le nombre donné 300, & au second, le nombre qui est dans la table, pour la ligne dont on desire trouuer la quantité : comme en cet exemple, pour sçauoir de quelle longueur sera la defense fichante DG, on dira, si
 

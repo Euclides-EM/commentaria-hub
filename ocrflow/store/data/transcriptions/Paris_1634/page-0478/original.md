@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
 vtrumque, primi fuerint ; & qui ex eis gignentur, primi inter se erunt.
 

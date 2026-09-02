@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 365)* -->
+<!-- Page number: 365 -->
 
 4. Werde noch ein Strich l gefunden/ zu welchem sich k also / wie cd zu de verhalte.
 
@@ -35,5 +35,5 @@ Haben derowegen gleichwincklichte Nebenstrichichte Vierecke eine solche Verhält
 
 In jedwedem nebenstrichichten Viereck sind die
 
-<!-- signature mark: Zz 3 -->
-<!-- catchword: üm -->
+<!-- Signature: Zz 3 -->
+<!-- Catchword: üm -->

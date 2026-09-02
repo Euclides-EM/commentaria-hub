@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 303)* -->
+<!-- Page number: 303 -->
 
 IV. Die Höhe einer jedweden Gestalt wird durch den aus dem Gipffel oder Spitze auf den Grundstrich gezogenen Senckstrich vorgestellet.
 
@@ -15,4 +15,4 @@ VII. Eine Gestalt / wenn sie an einen geraden Strich angeschlagen wird / bedeute
 
 Diejenigen Dreyecke oder Vierecke / welche gleichmässige Höhen haben / verhalten sich also / wie ihre Grundstriche / gegen einander.
 
-<!-- catchword: I. Ge- -->
+<!-- Catchword: I. Ge- -->

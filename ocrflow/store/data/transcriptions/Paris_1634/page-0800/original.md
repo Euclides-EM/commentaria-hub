@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID LI. XII. -->
+<!-- Running title: ELEM.. EVCLID LI. XII. -->
 
 quarum bases plura latera, quam tria continent, habere proportionem laterum homologorum triplicatam.
 
@@ -32,4 +31,4 @@ hyp. | △abf ſml. △ghm, △bcf ſml. △him, △dcf ſml. △iкm, △aef ſ
 4. 6 | △fac ſml. △mgi,
 9. d. 11 | piram. abcf ſml. piram. ghim, α
 
-<!-- F M / E L / A D G K / B C N I (figure) -->
+[Figure: labels arranged F M / E L / A D G K / B C N I]

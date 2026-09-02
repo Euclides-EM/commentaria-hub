@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 *Il est manifeste aussi qu'vne grandeur qui mesure trois grandeurs, mesure aussi la plus grande commune mesure d'icelles.*
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
 A,16. C,24. D.36. B,54.
 E,4. F,6. G,9.

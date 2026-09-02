@@ -1,4 +1,4 @@
-p. 43. lin. 15. pro BDC ⋀̶ (?) BAC
+p. 43. lin. 15. pro BDC [unclear: ⋀̶] BAC
 lege ⋀
 p. 57. lin. 10. 11. pro BEF lege IEB
 BEF -- IEB
@@ -24,6 +24,6 @@ a Gleichmässige Kreyse haben gleichmässige Durchschläge
 p. 253. werden unten angeleimet:
 Grösse mehr vielfältig/ als die kleinere: und eine einige Grösse ist gegen die Kleinere mehr vielfältig/ als gegen die Grössere.
 
-<!-- signature mark: Ii 3 -->
+<!-- Signature: Ii 3 -->
 
-<!-- catchword: Gege- -->
+<!-- Catchword: Gege- -->

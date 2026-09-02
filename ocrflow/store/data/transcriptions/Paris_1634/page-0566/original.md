@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
 1.s.36.9 | c π d 2|2 h π g, β
 1.s.36.9 | d π e 2|2 k π h, β

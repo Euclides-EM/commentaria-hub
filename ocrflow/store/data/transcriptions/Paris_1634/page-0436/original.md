@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID.. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
 
 5, 15, sunt numeri impares.
 

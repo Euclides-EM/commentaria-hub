@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 279)* -->
+<!-- Page number: 279 -->
 
 ## Der XXII. Vortrag.
 
@@ -10,7 +10,7 @@ Es werden Grössen gegeben so viel man wil/ und werden eben so viel darzu genomm
 
 ### Gegebene.
 
-*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
 1. A : B : C | a : b : c
 2. A : B | a : b :
@@ -32,4 +32,4 @@ A : C | a : c
 
 Wenn derowegen zweyerley Ahrt Grössen gegeben werden/ welche in richtiger Ordnung Ebenmässig sind/ so müssen sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

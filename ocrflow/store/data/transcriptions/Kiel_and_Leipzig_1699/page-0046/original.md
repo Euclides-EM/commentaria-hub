@@ -1,8 +1,8 @@
-<!-- # Das I Buch -->
+<!-- Running title: Das I Buch -->
 
-<!-- *(Seitenzahl: 28)* -->
+<!-- Page number: 28 -->
 
-*[Figur: zwey Dreyecke ABC und DEF nebeneinander]*
+[Diagram: zwey Dreyecke ABC und DEF nebeneinander]
 
 ### Beweiß.
 
@@ -31,4 +31,4 @@ Einen gegebenen gerad-strichichen Winckel in zweene gleiche Theile zu theilen.
 Gerad-strichicher Winckel | 1. theilung des ⋀ BAC.
 ⋀ BAC. | 2. BAF ⋏ CAF.
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

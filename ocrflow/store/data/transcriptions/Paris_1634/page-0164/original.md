@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 aeb est figur. schol. 6. 2.
 
@@ -20,7 +19,7 @@ concl. 3.a.1. | ▭.fd + 2▭.adb 2|2 ▭.ad + ▭.db.
 
 Explicat. p nr.
 
-*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—F, E—C, E—D]*
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—F, E—C, E—D]
 
 hyp. | ad est 5,
 hyp. | db est 2,

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 163)* -->
+<!-- Page number: 163 -->
 
 ### Gegebene. Begehrtes.
 
@@ -11,7 +11,7 @@
 5. Auß dem Mittel-Düpffel b
 6. Zu dem Rühr-Düpffel a gezogen.
 
-*[Figur: Kreis fda mit Mittel-Düpffel b, oben die waagerechte Rührlinie durch a und c, der Strich ba senkrecht, punktierte Linie von b nach c mit Punkt d am Kreyßzug]*
+[Diagram: Kreis fda mit Mittel-Düpffel b, oben die waagerechte Rührlinie durch a und c, der Strich ba senkrecht, punktierte Linie von b nach c mit Punkt d am Kreyßzug]
 
 ### Vorbereitung.
 
@@ -31,5 +31,5 @@ Welches aber unmüglich — n. 9. Gr. I.
 
 Wird also der auß dem Mittel-Düpffel b zu dem Rührdüpffel a gezogene Strich ba ein Senckstrich des Rührstrichs ca seyn. W. Z. B.
 
-<!-- signature mark: X 2 -->
-<!-- catchword: Der -->
+<!-- Signature: X 2 -->
+<!-- Catchword: Der -->

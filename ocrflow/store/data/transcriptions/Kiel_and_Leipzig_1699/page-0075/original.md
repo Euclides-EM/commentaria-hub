@@ -1,8 +1,8 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 57)* -->
+<!-- Page number: 57 -->
 
-*[Figur: Zwei sich schneidende Striche mit den Dütteln G, M, B, D, E, F, K, I, A, H, C; der einfallende Strich IK senkrecht]*
+[Diagram: Zwei sich schneidende Striche mit den Dütteln G, M, B, D, E, F, K, I, A, H, C; der einfallende Strich IK senkrecht]
 
 ### Beweiß.
 
@@ -34,6 +34,6 @@ Wenn derwegen bey den beeden Strichen der einfallende Strich auff einer Seiten z
 
 Der auff zween gerade neben-Striche einfallende gerade Strich machet die wechsel-weiß ge-
 
-<!-- signature mark: H -->
+<!-- Signature: H -->
 
-<!-- catchword: nom- -->
+<!-- Catchword: nom- -->

@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 ### Trouuer des liures en multipliant vn nombre donné par ſols.
 

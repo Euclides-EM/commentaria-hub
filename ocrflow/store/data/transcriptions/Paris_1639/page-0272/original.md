@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ## THEOR. XV. PROPOS. XXI.
 
 Les rectilignes semblables à vne mesme figure rectiligne, sont aussi semblables entr'elles.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

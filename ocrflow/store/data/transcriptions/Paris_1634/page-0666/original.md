@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 l.66.10 | df, comm. ac,
 l.66.10 | fe, comm. cb,

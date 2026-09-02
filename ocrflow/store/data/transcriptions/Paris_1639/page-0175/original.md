@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. IV. -->
+<!-- Running title: D'EVCLIDE, LIV. IV. -->
 
-*[Ornament]*
+[Ornament]
 
 # LE QVATRIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
@@ -16,4 +16,4 @@ Semblablement vne figure est dite estre inscrite à l'entour d'vne figure, quand
 
 Comme le triangle DEF est inscrit dans le triangle ABC, à cause que chacun des angles de l'inscrit DEF touchent chacun
 
-*[Figure]*
+[Figure]

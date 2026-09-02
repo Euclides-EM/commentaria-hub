@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 ordre : mais qu'en raison egale la premiere soit plus grande que la troisiesme ; la quatriesme sera aussi plus grande que la sixiesme ; & si egale, egale, & si plus petite, plus petite.
 
-*[Figure: six lignes verticales A, B, C, D, E, F]*
+[Figure: six lignes verticales A, B, C, D, E, F]
 
 Hypoth. commun.
 

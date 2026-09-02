@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. IV. -->
+<!-- Running title: D'EVCLIDE, LIV. IV. -->
 
 ## PROBL. XVI. PROPOS. XVI.
 
@@ -12,7 +12,7 @@ aebc *eſt* ⊙ D.
 
 *inſcrire au* ⊙aebc *le* 15∠ *equilat. & equiangle.*
 
-*[Figure]*
+[Figure]
 
 #### Conſtruction.
 

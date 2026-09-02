@@ -1,7 +1,15 @@
-> A Marco Marcello duce & Consule romano diripienda vrbs Syracusarum militi data est Custodibus diuisis per domos eorum qui intra presidia Romana fuerunt Cum inter diripiendum Syracusas Graecarum vrbium fore opulentissimam multa irae, multa inuidiae, auaritiaeque foeda exempla ederentur Archimedem memoriae proditum est in tanto tumultu quantum captae vrbis in discursum diripientium militum ciere poterant intentum formis quas in puluere descripserat ab ignaro milite quis esset interfectum. Aegreque id Marcellum tulisse sepulturaeque curam habitam & propinquis etiam inquisitis honori presidioque nomen eius ac memoriam fuisse. Liuius 3 Deca. 2 belli punici lib. 5. fol. 141. in fine.
+[Handwritten]
+A Marco Marcello duce & Consule romano diripienda vrbs Syracusarum militi data est Custodibus diuisis per domos eorum qui intra presidia Romana fuerunt Cum inter diripiendum Syracusas Graecarum vrbium fore opulentissimam multa irae, multa inuidiae, auaritiaeque foeda exempla ederentur Archimedem memoriae proditum est in tanto tumultu quantum captae vrbis in discursum diripientium militum ciere poterant intentum formis quas in puluere descripserat ab ignaro milite quis esset interfectum. Aegreque id Marcellum tulisse sepulturaeque curam habitam & propinquis etiam inquisitis honori presidioque nomen eius ac memoriam fuisse. Liuius 3 Deca. 2 belli punici lib. 5. fol. 141. in fine.
+[/Handwritten]
 
-> Grande & archimedi Geometricae ac machinalis scientiae testimonium M. Marcelli contigit interdicto cum Syracusae caperentur ne violaretur vnus nisi fefellisset imperium militaris imprudentia. Plinius Lib. 7 Cap. 37. De artium plurimarum excellentia.
+[Handwritten]
+Grande & archimedi Geometricae ac machinalis scientiae testimonium M. Marcelli contigit interdicto cum Syracusae caperentur ne violaretur vnus nisi fefellisset imperium militaris imprudentia. Plinius Lib. 7 Cap. 37. De artium plurimarum excellentia.
+[/Handwritten]
 
-> Idem Liuius
+[Handwritten]
+Idem Liuius
+[/Handwritten]
 
-> Et habuisset tanto impetu coepta res. Si Leontinis terrorem ac primo impetu captis Oppugnataeque [?] vrbis muris Syracusis admoto fortunam nisi vnus homo Syracusis ea tempestate fuisset Archimedes is erat vnicus spectator caeli syderumque mirabilior tamen inuentor ac machinator bellicorum tormentorum operumque qui ea quae hostes ingenti mole agerent ipse perlevi momento ludificaretur. Murum per inaequales ductum colles pleraque alta & difficilia aditu summissa quaedam & quae planis vallibus adiri possent vt cuicunque aptum visum est loco ita genere tormentorum instruxit. 3 Deca. 2 belli punici Lib. 4 fol. III in fine.
+[Handwritten]
+Et habuisset tanto impetu coepta res. Si Leontinis terrorem ac primo impetu captis Oppugnataeque [illegible] vrbis muris Syracusis admoto fortunam nisi vnus homo Syracusis ea tempestate fuisset Archimedes is erat vnicus spectator caeli syderumque mirabilior tamen inuentor ac machinator bellicorum tormentorum operumque qui ea quae hostes ingenti mole agerent ipse perlevi momento ludificaretur. Murum per inaequales ductum colles pleraque alta & difficilia aditu summissa quaedam & quae planis vallibus adiri possent vt cuicunque aptum visum est loco ita genere tormentorum instruxit. 3 Deca. 2 belli punici Lib. 4 fol. III in fine.
+[/Handwritten]

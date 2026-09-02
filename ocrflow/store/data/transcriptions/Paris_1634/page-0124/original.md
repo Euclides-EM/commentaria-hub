@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-<!-- # ELEM.. EVCLID. LI. I. -->
-
-*[Figure: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale C—B]*
+[Figure: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale C—B]
 
 ac 2|2 & == bd.
 

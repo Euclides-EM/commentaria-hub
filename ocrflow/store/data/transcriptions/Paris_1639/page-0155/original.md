@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 1.c.17.1 | ∠feg 2|3 ┘,
 19.1 | fe 3|2 fg,
@@ -13,7 +13,7 @@
 
 Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene vne ligne droicte à angles droicts à la touchante, en icelle menée sera le centre du cercle.
 
-*[Figure]*
+[Figure]
 
 #### Hypotheſe.
 

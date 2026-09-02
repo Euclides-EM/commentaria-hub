@@ -1,10 +1,10 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 283)* -->
+<!-- Page number: 283 -->
 
 ### Gegebene.
 
-*[Figur: vier Linien A, B, a, b von verschiedener Länge; auf der Linie a sind die Stücke f und d bezeichnet]*
+[Diagram: vier Linien A, B, a, b von verschiedener Länge; auf der Linie a sind die Stücke f und d bezeichnet]
 
 A : B | a : b
 A ⊣ B
@@ -29,6 +29,6 @@ A + b ⊣ B + a
 
 6. Zu denen andern beeden f + B werde das andere übergebliebene d beygethan B + f + d.
 
-<!-- signature mark: Nn 2 -->
+<!-- Signature: Nn 2 -->
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

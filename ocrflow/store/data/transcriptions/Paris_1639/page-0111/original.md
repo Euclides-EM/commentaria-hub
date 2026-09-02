@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. II. -->
+<!-- Running title: D'EVCLIDE, LIV. II. -->
 
 1.c.4.2 | hg *eſt* □.ac,
 hyp. | ac 2|2 cb, α
@@ -10,7 +10,7 @@ concl. 19.a.b | □af 2|2 4□ac Ⅱ cb.
 
 Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales, le rectangle contenu des parties inégales de la toute, auec le quarré de la section du milieu, est égal au quarré de la moitié de la toute.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

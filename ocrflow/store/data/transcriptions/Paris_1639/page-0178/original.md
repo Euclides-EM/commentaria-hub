@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Demonſtration.
 
@@ -10,7 +10,7 @@ concl. 1.a.1 | ab 2|2 d.
 
 Dedans vn cercle donné, inscrire vn triangle equiangle à vn triangle donné.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

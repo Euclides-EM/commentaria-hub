@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 Les rectilignes semblables à vne mesme figure rectiligne, sont außi semblables entr'elles.
 
-*[Figure: trois triangles A, B, C ; H, F, G ; D, I, E]*
+[Figure: trois triangles A, B, C ; H, F, G ; D, I, E]
 
 Hypoth.
 

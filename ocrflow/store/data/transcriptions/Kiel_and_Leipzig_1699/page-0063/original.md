@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 45)* -->
+<!-- Page number: 45 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Wirckung.
 
@@ -13,7 +13,7 @@
 7. Zu dem Düttel F, wo die beeden Kreysse einander durchschneiden/ ziehe man aus A den Strich AF.
 8. und aus B den Strich BF.
 
-*[Figur: Zwei sich durchschneidende punktierte Kreise um A und B; waagerechter Strich C A B E D; Dreieck ABF mit F oben am Schnittpunkt der Kreise; rechts daneben drei Strecken bezeichnet mit c a, a, b b.]*
+[Diagram: Zwei sich durchschneidende punktierte Kreise um A und B; waagerechter Strich C A B E D; Dreieck ABF mit F oben am Schnittpunkt der Kreise; rechts daneben drei Strecken bezeichnet mit c a, a, b b.]
 
 ### Beweiß.
 
@@ -25,5 +25,5 @@ BF | BE) nach 15. Beschr.
 Dw. ß AF | ac)
 und γ BF | ba) nach 1. Gr-S.
 
-<!-- signature mark: F 3 -->
-<!-- catchword: Be- -->
+<!-- Signature: F 3 -->
+<!-- Catchword: Be- -->

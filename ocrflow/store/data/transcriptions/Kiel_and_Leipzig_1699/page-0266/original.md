@@ -1,8 +1,8 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 242)* -->
+<!-- Page number: 242 -->
 
-*[Figur: sechs waagerechte Linien, bezeichnet A, 6a, C, B, 6b, D]*
+[Diagram: sechs waagerechte Linien, bezeichnet A, 6a, C, B, 6b, D]
 
 ### II. Beweiß.
 
@@ -22,6 +22,6 @@
 3. Die Grösse a aber 2 mahl
 4. Und b auch 2 mahl.
 
-*[Figur: sechs waagerechte Linien, bezeichnet 3A, 2a, 3C, 3B, 2b, 3D]*
+[Diagram: sechs waagerechte Linien, bezeichnet 3A, 2a, 3C, 3B, 2b, 3D]
 
-<!-- catchword: III. Beweiß. -->
+<!-- Catchword: III. Beweiß. -->

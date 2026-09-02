@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLD. LI. X. -->
+<!-- Running title: ELEM.. EVCLD. LI. X. -->
 
 Explicat. ꝑ nr;
 

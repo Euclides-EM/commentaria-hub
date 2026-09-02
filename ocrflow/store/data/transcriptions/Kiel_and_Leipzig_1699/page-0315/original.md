@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 291)* -->
+<!-- Page number: 291 -->
 
 ## Der XXX. Vortrag.
 ## Das 30. Beweiß-Stück.
@@ -9,7 +9,7 @@ Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern ein
 
 ### Gegebene.
 
-*[Figur: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]*
+[Diagram: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]
 
 A + a : a ⊣ B + b : b
 
@@ -28,6 +28,6 @@ A + a : A ⊢ B + b : B.
 ### Beschluß.
 Wenn derowegen die I. sampt der II. zu der II. eine grössere Verhältnüß hat / als die III. sampt der IV. zu der IV. So wird auf verkehrte Art die I. sampt der II. zu der I. eine kleinere Verhältnüß / als die III. und IV. zu der III. haben. W. Z. B.
 
-<!-- signature mark: Oo 2 -->
+<!-- Signature: Oo 2 -->
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

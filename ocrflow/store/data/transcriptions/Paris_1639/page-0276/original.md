@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Req. à demonſtr.
 
@@ -11,7 +11,7 @@ hyp. | ∠bcd 2|2 ∠ecg,
 1.ſ.15.1 | dce *eſt* ——,
 2.p.1 | adh & fgh *ſnt* ——.
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 

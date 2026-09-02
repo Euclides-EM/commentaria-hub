@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 cedent, pour le comparer à l'antecedent & consequent, comme à vn seul.
 

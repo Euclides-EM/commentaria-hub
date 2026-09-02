@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 117)* -->
+<!-- Page number: 117 -->
 
 3. Aus d nach b der gerade Strich db gezogen.
 4. Nach der weite db aus d werde ein Kreyß beschrieben.
@@ -12,7 +12,7 @@
 1. Durch c werde gegen fe ein Nebenstrich hg gezogen.
 2. Desgleichen aus f gegen ab der - - - - - fg - - - - | n. 31. I.
 
-*[Figur: Rechteck mit den Ecken f, e unten und g, a oben; oben die Punkte b und a, in der Mitte c und h, unten a und d; punktierte Kreisbögen durch b, c und d]*
+[Diagram: Rechteck mit den Ecken f, e unten und g, a oben; oben die Punkte b und a, in der Mitte c und h, unten a und d; punktierte Kreisbögen durch b, c und d]
 
 ### Beweiß.
 
@@ -28,6 +28,6 @@ Dw. □ ab | ▭ efa | n. 3. Gr. I.
 □ ab — ▭ eac | ▭ efa — ▭ eac | n. 3. Gr. I.
 oder □ ac | ▭ abc
 
-<!-- signature mark: P 3 -->
+<!-- Signature: P 3 -->
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

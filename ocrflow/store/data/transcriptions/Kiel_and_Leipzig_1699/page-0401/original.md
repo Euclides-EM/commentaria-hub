@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 371)* -->
+<!-- Page number: 371 -->
 
 ### Beschluß.
 
@@ -29,5 +29,5 @@ Wenn an einen gegebenen geraden Strich ein gegebenes nebenstrichichtes und mange
 
 1. □ pe ⊣ □ ai
 
-<!-- signature mark: Aaa 2 -->
-<!-- catchword: 2. Unter -->
+<!-- Signature: Aaa 2 -->
+<!-- Catchword: 2. Unter -->

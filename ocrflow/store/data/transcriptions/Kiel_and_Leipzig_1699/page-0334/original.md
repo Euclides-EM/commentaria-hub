@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 310)* -->
+<!-- Page number: 310 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ### Beweiß.
 
@@ -33,4 +33,4 @@ Diejenigen Dreyecke und nebenstrichichte Vierecke/ welche sich also/ wie ihre H�
 2. Derselben Höhen bc und ed
 3. bc : ed | △ A : △ B.
 
-<!-- catchword: Begehrtes. -->
+<!-- Catchword: Begehrtes. -->

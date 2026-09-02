@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-<!-- # ELEM.. EVCLID. LI. X. -->
-
-<!-- A F G E / B C D (figure) -->
+[Figure: labels arranged A F G E / B C D]
 
 bc, est apotom.
 cd, est congruen.

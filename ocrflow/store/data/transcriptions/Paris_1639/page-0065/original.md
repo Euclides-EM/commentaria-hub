@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 #### Demonſt.
 
@@ -16,7 +16,7 @@ Si deux lignes droictes se coupent l'vne l'autre, elles feront les angles au som
 
 Les quatre angles que font deux lignes se couppans l'vne l'autre, se distinguent en deux denominations differentes, à sçauoir en angles contigus ou de suite ; & en angles opposez au sommet. Comme en cette figure les angles de suite sont, A & B; A & D : B & C ; & aussi C & D. Et les angles opposez au sommet, sont A & C ; & aussi D & B.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 ## THEOR. VI. PROPOS. XIII.
 
@@ -7,7 +6,7 @@ Cum recta linea super rectam consistens lineam angulos facit, aut duos rectos, a
 
 Quand vne ligne droicte tombant sur vne ligne droicte, fait angles, ou elle fera deux angles droicts, ou égaux à deux droicts.
 
-*[Figure: ligne horizontale C—B—D, ligne verticale BE, ligne oblique BA]*
+[Figure: ligne horizontale C—B—D, ligne verticale BE, ligne oblique BA]
 
 Hypoth.
 

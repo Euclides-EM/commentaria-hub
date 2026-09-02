@@ -1,5 +1,4 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 ### 14. a. b.
 
@@ -13,7 +12,7 @@ Si duo puncta sint in vno plano, & recta ipsa connectens est in eodem plano. | S
 
 Si æqualibus inæqualia adiiciantur, erit totorum excessus, adiunctorum excessui æqualis. | Si à choses egales on adiouste choses inegales, l'excez des toutes sera egal à l'excez des adioustées.
 
-*[Figure: ligne A—B—G—E en haut, ligne C—D—F au dessous]*
+[Figure: ligne A—B—G—E en haut, ligne C—D—F au dessous]
 
 hyp. | ab 2|2 cd.
 hyp. | ge 2|2 be~df.

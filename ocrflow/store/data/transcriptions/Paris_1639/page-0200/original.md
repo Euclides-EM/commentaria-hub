@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Demonſtr.
 
@@ -11,7 +11,7 @@ af *eſt commun.*
 26.1 | ab 2|2 ae, β
 concl. d. β | abcde *eſt equilateral.*
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. 2.
 
@@ -24,7 +24,7 @@ arbitr. | mo 2|3 op,
 1&2.p.1 | oq *eſt diametre*,
 1.p.1 | mq *&* pq *ſnt* ——;
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 

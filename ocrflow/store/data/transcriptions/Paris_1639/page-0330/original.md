@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 l'vn par l'autre, & du produict en faire vn numerateur : Puis on multipliera le numerateur de la premiere fraction, & les denominateurs de la seconde & troisiesme aussi l'vn par l'autre, & du produict on fera vn denominateur, par lequel on diuisera le numerateur, si faire se peut, sinon on mettra vne ligne entre deux, pour auoir le requis en fraction.
 

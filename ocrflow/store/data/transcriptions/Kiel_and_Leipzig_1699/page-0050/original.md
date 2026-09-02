@@ -1,6 +1,6 @@
-<!-- # Das I. Buch. -->
+<!-- Running title: Das I. Buch. -->
 
-<!-- *(Seitenzahl: 32)* -->
+<!-- Page number: 32 -->
 
 ### Beweiß.
 
@@ -33,6 +33,6 @@ Auff einen unendlichen Strich aus einem ausser demselben gegebenen Düttel einen
 2. Der Strich DE wird in zween gleiche Theile getheilet in dem Düttel F.
 3. Wird der gerade Strich CF gezogen.
 
-*[Figur: Strich AB mit den Düttelen D, F, E, darüber der Düttel C mit punktiertem Kreyß-Stück und Senckstrich CF]*
+[Diagram: Strich AB mit den Düttelen D, F, E, darüber der Düttel C mit punktiertem Kreyß-Stück und Senckstrich CF]
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

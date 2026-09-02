@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 107)* -->
+<!-- Page number: 107 -->
 
 2bc + 2cc | 2ac — n. 6. Gr. i. I.
 aa + cc + 2bc + 2cc | 2ac + bb + 2bc + 2cc — n. 2. Grs. I.
@@ -29,5 +29,5 @@ Weñ ein gerader Strich auff waserley Weise in zwey Stücke geschnitten ist/ so 
 4. Auff ac werde ein gleichseitig □ gesetzet. n. 46. I.
 5. Werden vier □ a b c gemacht.
 
-<!-- signature mark: O 2 -->
-<!-- catchword: Beweiß -->
+<!-- Signature: O 2 -->
+<!-- Catchword: Beweiß -->

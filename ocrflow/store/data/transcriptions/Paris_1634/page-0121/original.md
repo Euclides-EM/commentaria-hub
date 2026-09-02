@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 simul conficiunt vnum rectum cùm omnes simul sint æquales duobus rectis & tertius ille ponatur rectus; quare cum duo reliqui inter se sint æquales, erit quilibet eorum semirectus.
 
@@ -17,7 +16,7 @@ Omnes anguli figuræ rectilineæ cuiusuis sunt æquales bis tot rectis angulis, 
 
 Tous les angles de quelconque figure rectiligne, sont égaux à deux fois autant d'angles droicts, que le nombre de son ordre entre les figures rectilignes.
 
-*[Figure: vn triangle ; vn quadrilatere diuisé en deux triangles par vne diagonale ; vn pentagone diuisé en trois triangles]*
+[Figure: vn triangle ; vn quadrilatere diuisé en deux triangles par vne diagonale ; vn pentagone diuisé en trois triangles]
 
 Omnis enim figura rectilinea in triangula resoluitur, cùm nulla figura sit pauciorum laterum quam triangulum. Vna quæque autem in triangula binario pauciora, quam sint propria latera,
 

@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 162)* -->
+<!-- Page number: 162 -->
 
 2. Nach der Weite des Striches eb werde ein Kreyß ea gezogen:
 3. Aus dem Düttel d, wo der gerade Strich eb den Kreyß fcd schneidet/ werde ein Senckstrich da auffgerichtet/ welcher den äussern Kreyß ae in dem Düttel a schneide. n. 11. I.
@@ -28,4 +28,4 @@ Jst also auß dem Düttel e ein gerader Strich ec gezogen/ welcher den gegebenen
 
 Wenn ein gerader Strich einen Kreyß anrühret/ von dem Mittel Düpffel aber ein gerader Strich zu dem Rührdüpffel gezogen wird / so wird dieses ein Senckstrich des Rührstriches seyn.
 
-<!-- catchword: Gege- -->
+<!-- Catchword: Gege- -->

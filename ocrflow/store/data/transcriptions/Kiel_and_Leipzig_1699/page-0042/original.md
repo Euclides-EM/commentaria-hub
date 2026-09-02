@@ -1,13 +1,13 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 24)* -->
+<!-- Page number: 24 -->
 
 ### Gegebene. | Begehrtes.
 
 1. Das △ ABC | AB | AC
 2. ABC ⋏ ACB
 
-*[Figur: Dreyeck ABC mit Punkt D auff der Seite AB und punktiertem Strich DC]*
+[Diagram: Dreyeck ABC mit Punkt D auff der Seite AB und punktiertem Strich DC]
 
 ### Beweiß.
 
@@ -32,4 +32,4 @@ Welches aber unmüglich nach 9. GrS.
 
 Gleiche Beschaffenheit wird es haben / wenn man sagen wolte AB ⊢ AC.
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

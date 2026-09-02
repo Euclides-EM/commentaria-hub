@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. II. -->
+<!-- Running title: D'EVCLIDE, LIV. II. -->
 
 ligne droicte AB. Le mesme aduiendra, si AD est posée se mouuoir de trauers selon AB, &c. Donc à bon droict le parallegramme AC est dit estre contenu sous AB & AD.
 
@@ -6,7 +6,7 @@ ligne droicte AB. Le mesme aduiendra, si AD est posée se mouuoir de trauers sel
 
 Les costez d'vn rectangle estans cognus trouuer l'aire.
 
-*[Figure]*
+[Figure]
 
 L'aire d'vn rectangle se trouue par la multiplication du nombre de l'vn des costez, par le nombre de l'autre costé, qui sera à l'entour du mesme angle : Par exemple, le nombre du costé EG, 5. estant multiplié par le nombre du costé GH, 3. fait 15, pour l'aire du rectangle EH,
 

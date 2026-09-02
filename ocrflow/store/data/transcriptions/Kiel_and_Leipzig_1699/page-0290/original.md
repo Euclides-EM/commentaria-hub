@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 266)* -->
+<!-- Page number: 266 -->
 
 ### Gegebene. | Begehrtes.
 
@@ -9,7 +9,7 @@ a ____
 B ________
 b ____
 
-*[Figur: Strecken A, a, B, b]*
+[Diagram: Strecken A, a, B, b]
 
 A : a | B : b
 A ⊢ B
@@ -31,4 +31,4 @@ Wenn derowegen aus Vier Ebenmässigen Grössen die Erste grösser/ als die Dritt
 
 Die Theile verhalten sich eben so gegen einander/ wie derselben vielfältige Gantzen: wenn sie nemlich in richtiger Ordnung genommen werden.
 
-<!-- catchword: Gege- -->
+<!-- Catchword: Gege- -->

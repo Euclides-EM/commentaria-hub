@@ -1,10 +1,10 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 298)* -->
+<!-- Page number: 298 -->
 
 ### Gegebene.
 
-*[Figur: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]*
+[Diagram: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]
 
 A : a ⊣ B : b ⊣ C : c.
 
@@ -31,4 +31,4 @@ n A + B + C : a + b + c ⊣ C : c
 |  | A + B : a + b | ⊣ B : b | n. Bew. a |
 |  | A : a | ⊣ A + B : a + b | n. Bew. ß |
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

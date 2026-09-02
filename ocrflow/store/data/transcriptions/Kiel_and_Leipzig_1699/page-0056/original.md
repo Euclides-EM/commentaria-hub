@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 38)* -->
+<!-- Page number: 38 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 Ist also bey jedwedem △, wan dessen eine Seite verlängert wird/ der auswendige Winckel viel grösser / als einer derer inwendig gegen überstehenden Winckel. W. Z. B.
 
@@ -18,7 +18,7 @@ ACB + BAC ⲗ ⊥
 ### Vorbereitung.
 Es werde nach belieben eine Seite/ und zwar anitzo AB gegen D verlängert.
 
-*[Figur: Dreieck ABC mit waagerechter Grundlinie EABD; C oben rechts, die Grundlinie über A hinaus nach E und über B hinaus nach D verlängert.]*
+[Diagram: Dreieck ABC mit waagerechter Grundlinie EABD; C oben rechts, die Grundlinie über A hinaus nach E und über B hinaus nach D verlängert.]
 
 ### Beweiß.
 
@@ -32,4 +32,4 @@ Gleicher Gestalt / wenn AC verlängert wird /
 muß CAB + ABC ⲗ ⊥, und wenn man BA gegen E verlängert/
 muß BAC + CBA ⲗ ⊥ seyn.
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

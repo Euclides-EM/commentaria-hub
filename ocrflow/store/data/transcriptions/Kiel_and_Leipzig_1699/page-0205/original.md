@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 187)* -->
+<!-- Page number: 187 -->
 
 ### Wirckung.
 
@@ -36,6 +36,6 @@ baf ⋀ ecd n. 23. I.
 3. Auff b werde gesetzet abg ⋀ bag n. 23. I.
 4. Aus g nach der weite ga werde der Kreyß ahb beschrieben.
 
-<!-- signature mark: Aa 2 -->
+<!-- Signature: Aa 2 -->
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 seorsim : vt in 25 propositione appendicis, quoniam sunt quinque figuræ iisdem litteris notatæ, intelligenda est demonstratio in singulis figuris, ac proinde repetenda erit quinquies. | ment : comme en la 25 proposition de l'appendix, à cause qu'il y a cinq figures marquées par mesmes lettres, il faut entendre la demonstration en chaque figure ; & par consequent il faut la recommencer cinq fois.
 

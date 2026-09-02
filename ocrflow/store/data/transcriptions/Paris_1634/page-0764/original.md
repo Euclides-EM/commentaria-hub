@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 Req. π. demonstr.
 
@@ -17,7 +16,7 @@ hyp. | ag & ch snt alt; 2|2 ꝗe,
 2. p. 1 | oωε, ndδ, ωpz, dqf, εrb, δuγ, tsz, yxf snt ——;
 1. p. 1 | εδ, bγ, zf snt ——.
 
-<!-- I B / K G E C M / A L / N D A / O H ω ε V / P Q F X R / Z S B T (figure) -->
+[Figure: labels arranged I B / K G E C M / A L / N D A / O H ω ε V / P Q F X R / Z S B T]
 
 Demonstr.
 

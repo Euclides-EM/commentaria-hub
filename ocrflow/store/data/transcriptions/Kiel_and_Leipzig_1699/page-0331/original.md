@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 307)* -->
+<!-- Page number: 307 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ## Des I. Vortrags I. Zugabe.
 
@@ -14,7 +14,7 @@ ab : ed | △ abc : △ def
 
 Höhen cq | fp.
 
-*[Figur: Zwei Dreiecke, links mit Gipffel f über der Grundlinie e p d a, rechts mit Gipffel c und Punkt r über der Grundlinie a q b, mit gestrichelten Höhen und Strichen]*
+[Diagram: Zwei Dreiecke, links mit Gipffel f über der Grundlinie e p d a, rechts mit Gipffel c und Punkt r über der Grundlinie a q b, mit gestrichelten Höhen und Strichen]
 
 ### Vorbereitung.
 
@@ -32,5 +32,5 @@ u. △ arb | △ acb — n. 9. V.
 
 welches aber unmüglich n. 9. Gr. I.
 
-<!-- signature mark: Qq 2 -->
-<!-- catchword: Gleiche -->
+<!-- Signature: Qq 2 -->
+<!-- Catchword: Gleiche -->

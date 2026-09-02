@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 323)* -->
+<!-- Page number: 323 -->
 
 Dw. | a ⋏ D
 u. | ECD ⋏ abc
@@ -28,7 +28,7 @@ Wenn in zweyen Dreyecken zweene gleichmässige winckel gefunden werden / deren S
 2. abc ⋏ edf.
 3. △ abc gleichwincklicht △ edf.
 
-*[Figur: zwei Dreiecke, links abc, rechts edf mit punktierten Linien zu einem Punkt g oberhalb]*
+[Diagram: zwei Dreiecke, links abc, rechts edf mit punktierten Linien zu einem Punkt g oberhalb]
 
 ### Vorbereitung.
 
@@ -38,5 +38,5 @@ Auf den Strich ed werden gesetzet
 2. gde ⋏ abc | n. 23. I.
 3. werden gezogen eg und dg.
 
-<!-- signature mark: Ss 2 -->
-<!-- catchword: Beweiß. -->
+<!-- Signature: Ss 2 -->
+<!-- Catchword: Beweiß. -->

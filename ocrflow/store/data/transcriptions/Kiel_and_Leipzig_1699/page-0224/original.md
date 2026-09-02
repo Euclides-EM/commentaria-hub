@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 206)* -->
+<!-- Page number: 206 -->
 
 ### Vorbereitung.
 
@@ -39,4 +39,4 @@ Dw. kmi ∧ afg n. 3. Gr. I.
 
 Ist also das △ afg gleichwincklicht mit △ imk, und ümb den gegebenen Kreyß cde beschrieben. n. 4. Beschr. IV. W. Z. M.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

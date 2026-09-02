@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 66)* -->
+<!-- Page number: 66 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 ### 2. Begebenheit.
 
@@ -10,7 +10,7 @@
 3. Grundstrich CD
 4. AE=CD
 
-*[Figur: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, F, B, E oben und C, D unten]*
+[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, F, B, E oben und C, D unten]
 
 ### Beweiß.
 
@@ -29,6 +29,6 @@ oder ABDC ⌻ CDEF n. 9. Gr:S. q.
 
 ### 3. Begebenheit.
 
-*[Figur: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, B, F, E oben, G in der Mitte und C, D unten]*
+[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, B, F, E oben, G in der Mitte und C, D unten]
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

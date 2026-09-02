@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 Si chaque nombre de ces quatre progressions est diuisé en deux parties, dont la moindre soit l'vnité, & que les angles aigus d'vn triangle rectangle soient en mesme raison que les deux parties de quelqu'vn de ces nombres, la raison des angles du triangle estant donnée, la raison des costez se trouuera par la methode suiuante.
 
@@ -10,7 +9,7 @@ part..nr..2.progress. 1π2, 1π5, 1π11, 1π23, 1π47, &c.
 part..nr..3.progress. 2π3, 1π4, 1π9, 1π19, 1π39, &c.
 part..nr.4.progress. 2π13, 1π14, 1π29, 1π59, 1π119, &c.
 
-*[Figure: triangle rectangle A—B—E, l'angle droict en B, auec les poincts C, D sur la base B—E et les lignes A—C, A—D]*
+[Figure: triangle rectangle A—B—E, l'angle droict en B, auec les poincts C, D sur la base B—E et les lignes A—C, A—D]
 
 Hypoth.
 

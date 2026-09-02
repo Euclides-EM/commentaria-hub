@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 180)* -->
+<!-- Page number: 180 -->
 
 ## Der XXXI. Vortrag.
 
@@ -17,7 +17,7 @@ Wann ein Kreyß-Stück ein Halb-Kreyß ist/ so stehet ein rechter Winckel darinn
 ### Begehrtes.
 cdb ⋀ ∟
 
-*[Figur: Kreyß mit dem Zwerg-Strich bc durch den Mittel-Düpffel a, dem Punckt d oben am Kreyß und dem verlängten Strich bis e; der Strahl ad punctirt]*
+[Diagram: Kreyß mit dem Zwerg-Strich bc durch den Mittel-Düpffel a, dem Punckt d oben am Kreyß und dem verlängten Strich bis e; der Strahl ad punctirt]
 
 ### Vorbereitung.
 1. Werde der Strich bd verlängt biß e.
@@ -27,4 +27,4 @@ cdb ⋀ ∟
 abd ⋀ adb
 acd ⋀ adc } n. 5. I.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

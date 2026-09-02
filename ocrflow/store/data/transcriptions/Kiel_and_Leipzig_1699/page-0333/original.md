@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 309)* -->
+<!-- Page number: 309 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 Welches aber unmüglich n. 9. Gr. I.
 Dergleichen wird auch folgen/ wenn man sagen wolte
@@ -21,7 +21,7 @@ Diejenigen Dreyecke / und nebenstrichichte Vierecke/ welche gleichmässige Grund
 2. Beyde Grundstriche ab | ef
 3. Beyde Höhen de ⊣ bc
 
-*[Figur: Zwei Dreyecke A und B mit den Punkten a, b, c, d, e, g, f, links das Dreyeck A über der Grundlinie ab, rechts das Dreyeck B über ef, mit gestrichelten Hülffslinien]*
+[Diagram: Zwei Dreyecke A und B mit den Punkten a, b, c, d, e, g, f, links das Dreyeck A über der Grundlinie ab, rechts das Dreyeck B über ef, mit gestrichelten Hülffslinien]
 
 ### Vorbereitung.
 
@@ -29,5 +29,5 @@ Diejenigen Dreyecke / und nebenstrichichte Vierecke/ welche gleichmässige Grund
 2. so werde ge | bc — n. 3. I.
 3. werde der gerade Strich gf gezogen.
 
-<!-- signature mark: Qq 3 -->
-<!-- catchword: Beweiß. -->
+<!-- Signature: Qq 3 -->
+<!-- Catchword: Beweiß. -->

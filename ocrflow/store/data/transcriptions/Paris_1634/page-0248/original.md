@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 dh 2|2 he,
 
@@ -27,7 +26,7 @@ hyp. | dh 2|2 he,
 8.1 | <had 2|2 <hae,
 concl. 2.a.1 | <hab 2|2 <hag, α
 
-*[Figure: deux heptagones A—B—C—D—H—E—F—G marquez 1 et 2, auec les lignes menées de l'angle A]*
+[Figure: deux heptagones A—B—C—D—H—E—F—G marquez 1 et 2, auec les lignes menées de l'angle A]
 
 Demonstr.. 2. cas.
 

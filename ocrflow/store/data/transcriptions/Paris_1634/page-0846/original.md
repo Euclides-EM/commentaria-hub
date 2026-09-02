@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 *Descrire vn icosaedre, & l'enuironner d'vne mesme sphere que les figures deuant dictes; & monstrer que le costé de l'icosaedre est ligne irrationelle, laquelle est appellee mineure.*
 
-<!-- B / D C / A (figure) -->
+[Figure: labels arranged B / D C / A]
 
-<!-- R F X / L P / G K / Z E Q Y / M O / S H I V / N / T (figure) -->
+[Figure: labels arranged R F X / L P / G K / Z E Q Y / M O / S H I V / N / T]
 
 Hypoth.
 

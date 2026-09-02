@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
 18.3 | <ebd est ∟, β
 3.3 | af 2|2 fc,
@@ -19,7 +18,7 @@ Hinc manifestum est, si à puncto quouis extra circulum assumpto, plurimæ line�
 
 De cette proposition il est manifeste, que si de quelconque poinct pris hors le cercle, on mene plusieurs lignes droictes couppant le cercle ; les rectangles compris sous chacune de toutes, & sa partie externe sont égaux entr'eux.
 
-*[Figure: cercle D—B—C—F marqué 1, E au dedans, A au dehors en haut, lignes A—B, A—C, A—D, A—F]*
+[Figure: cercle D—B—C—F marqué 1, E au dedans, A au dehors en haut, lignes A—B, A—C, A—D, A—F]
 
 Hypoth.
 

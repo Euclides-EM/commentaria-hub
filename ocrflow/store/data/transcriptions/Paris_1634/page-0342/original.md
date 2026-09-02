@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 Coroll.
 
@@ -7,7 +6,7 @@ Coroll.
 
 ## SCHOL.
 
-*[Figure: triangles C, B, G, C, B, G avec lignes F, D, E, E, A, F]*
+[Figure: triangles C, B, G, C, B, G avec lignes F, D, E, E, A, F]
 
 Hypoth.
 

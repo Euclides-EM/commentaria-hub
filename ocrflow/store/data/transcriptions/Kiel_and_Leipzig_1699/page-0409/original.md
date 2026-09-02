@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 379)* -->
+<!-- Page number: 379 -->
 
 9. Aus d werde durch B ein gerader Strich dm gezogen/ welcher den Strich mp in m schneide.
 
@@ -34,6 +34,6 @@
 | oder | □ fp | ⊡ qBb | n. 9. Gr. I. q. |
 | Dw. | □ fp | △ K | n. Bew. a. u. 1. Gr. I. |
 
-<!-- signature mark: Bbb 2 -->
+<!-- Signature: Bbb 2 -->
 
-<!-- catchword: □ fo -->
+<!-- Catchword: □ fo -->

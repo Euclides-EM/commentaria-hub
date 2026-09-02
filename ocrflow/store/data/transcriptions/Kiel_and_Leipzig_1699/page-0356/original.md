@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 332)* -->
+<!-- Page number: 332 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 I. Ahrt.
 
@@ -34,4 +34,4 @@ Dw. | bi | ef |
 u. | ih | fg | n. 34. I.
 | ci ⧣ dh | n. 4. Wirck.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

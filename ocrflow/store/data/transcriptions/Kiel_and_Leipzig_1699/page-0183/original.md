@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 165)* -->
+<!-- Page number: 165 -->
 
 ### Beschluß.
 
@@ -14,12 +14,12 @@ Jn jedwedem Kreyß ist des Mitteldüpffels-Winckel noch einmahl so groß / als d
 
 ### Gegebene. Begehrtes.
 
-1. Kreyß bcde. — cad ∠ 2 abc (?)
+1. Kreyß bcde. — cad ∠ 2 [unclear: abc]
 2. Kreyßdüpffels-Winckel cad.
 3. Jn dem Kreyß stehender Winckel cbd.
 4. Bogen/ auff welchem beede Winckel stehen cd.
 
-*[Figur: Kreis bcde mit Mitteldüpffel a, Punkt b oben, e rechts oben, c unten links, d unten; Striche bc, bd, ac und ad]*
+[Diagram: Kreis bcde mit Mitteldüpffel a, Punkt b oben, e rechts oben, c unten links, d unten; Striche bc, bd, ac und ad]
 
 I. Arth.
 
@@ -27,6 +27,6 @@ ab | ac — n. 15. Beschr. I.
 Dw. abc ∠ acb — n. 5. I.
 cad ∠ abc + acb — n. 32. I.
 cad + abc ∠ abc + acb + acb — n. 2. Gr. I.
-abe ∠ abc (?)
+abe ∠ [unclear: abc]
 Dw. cad ∠ acb + acb — n. 3. Gr. I.
-oder cad ∠ acb (?) — n. 9. Gr. q. I.
+oder cad ∠ [unclear: acb] — n. 9. Gr. q. I.

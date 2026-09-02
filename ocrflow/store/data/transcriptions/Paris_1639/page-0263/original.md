@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 #### Conſtr.
 
@@ -10,7 +10,7 @@
 31.1 | fh == eg,
 ſymp. | gh *eſt le requis.*
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 
@@ -20,7 +20,7 @@ concl. 2.6 | de Ⅱ a π ef Ⅱ b 2|2 dg Ⅱ c π gh.
 
 A deux lignes droictes données, trouuer la moyenne proportionelle.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

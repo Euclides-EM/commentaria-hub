@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 2.d.3 | ab *touche le* ⊙fed *en* e,
 2.d.3 | fg *couppe le* ⊙fed *en* d,
@@ -11,7 +11,7 @@
 
 Les cercles sont dits se toucher l'vn l'autre, lesquels en se touchant l'vn l'autre, ne se couppent point.
 
-*[Figure]*
+[Figure]
 
 Le cercle DAC touche le cercle ABE par dedans en A.
 

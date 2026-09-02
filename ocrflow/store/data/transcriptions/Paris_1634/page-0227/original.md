@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
 36.3 | ▭.caf 2|2 □.ad,
 concl. 1.a.1 | ▭.bae 2|2 ▭.caf.
@@ -10,7 +9,7 @@ Constat etiam, duas rectas ab eodem puncto ductas, quæ circulum tangant, inter 
 
 Il est manifeste aussi, que si deux lignes droictes menées d'vn mesme poinct, touchent le cercle, qu'elles sont égales entr'elles.
 
-*[Figure: cercle B—E—C marqué 2, D et F au dedans, A au dehors en haut, lignes A—B, A—C, A—D—E, F sur A—E]*
+[Figure: cercle B—E—C marqué 2, D et F au dedans, A au dehors en haut, lignes A—B, A—C, A—D—E, F sur A—E]
 
 Hypoth.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 Demonstr.
 
@@ -13,13 +12,13 @@ c.37.3 & 7.a.1 | <fae, <fab, <fba, <fbc
 26.1 | ab 2|2 ae, β
 1.concl. d.β | abcde est æquilat.
 
-*[Figure: pentagone A—B—C—D—E circonscrit au cercle, F au centre, les poincts G, L, H, K, I sur le cercle]*
+[Figure: pentagone A—B—C—D—E circonscrit au cercle, F au centre, les poincts G, L, H, K, I sur le cercle]
 
 Hypoth 2.
 
 mopq est ⊙,
 
-*[Figure: cercle auec quadrilatere M—O—P—Q inscrit et ses diagonales]*
+[Figure: cercle auec quadrilatere M—O—P—Q inscrit et ses diagonales]
 
 Præpar.
 

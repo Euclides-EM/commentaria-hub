@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
-*[Figure]*
+[Figure]
 
 ∠ecb 2|2 ∠edc,
 ∠eca 2|2 ∠efc.
@@ -30,7 +30,7 @@ conſtr. | ∠dcb *eſt* ┘,
 
 Sur vne ligne droicte donnée, descrire vn segment de cercle, lequel reçoiue vn angle égal à vn angle rectiligne donné.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

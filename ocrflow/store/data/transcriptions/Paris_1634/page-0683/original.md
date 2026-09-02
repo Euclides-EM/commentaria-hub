@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 αs 12.10 | 2▭.acb .∼: 2▭.adb, est ration.
 

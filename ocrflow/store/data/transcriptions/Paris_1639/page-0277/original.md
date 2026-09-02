@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 #### Req. à demonſtr.
 
 ◊eg, ◊hf, ◊bd *ſnt ſml.* đe.
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 
@@ -31,4 +31,4 @@ abedc & f *ſnt* D.
 
 *rectili.* p *ſml. rectili.* abedc, & 2|2 *rectili.* f.
 
-*[Figure]*
+[Figure]

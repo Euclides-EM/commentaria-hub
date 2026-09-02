@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 1.concl. 8.a.1. | bc 2|2 ef,
 2.concl. 8.a.1. | △abc 2|2 △def,
@@ -12,7 +11,7 @@ Isoscelium triangulorum qui ad basim sunt anguli, inter se sunt æquales : Et pr
 
 Des triangles isosceles, les angles qui sont à la base, sont égaux entr'eux : Et les lignes droictes égales estans prolongées, les angles qui sont sous la base, seront égaux entr'eux.
 
-*[Figure: triangle A en haut, B et C au milieu, D et E en bas, F entre C et E, lignes BE et CD s'entrecroisant]*
+[Figure: triangle A en haut, B et C au milieu, D et E en bas, F entre C et E, lignes BE et CD s'entrecroisant]
 
 Hypoth.
 

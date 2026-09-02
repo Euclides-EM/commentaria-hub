@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 16.6 | cf π fh 2|2 ge π eb,
 17. & 18.5 | ch π hf 2|2 gb π be,
@@ -9,7 +8,7 @@ concl. 16.5 | ch π gb 2|2 hf π be,
 
 Snelius in Cyclometria.
 
-*[Figure: demicercle auec les poincts D, C, A, E, F, G, B, H]*
+[Figure: demicercle auec les poincts D, C, A, E, F, G, B, H]
 
 Hypoth.
 

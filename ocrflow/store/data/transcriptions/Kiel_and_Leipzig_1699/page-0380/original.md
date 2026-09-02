@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 350)* -->
+<!-- Page number: 350 -->
 
 ### Beschluß.
 
@@ -24,7 +24,7 @@ Auf einen gegebenen geraden Strich eine der gegebenen geradstrichichten Gestalt 
 1. cdefg ähnlich der Gestalt abhik
 2. cdefg eben so gesetzt als abhik
 
-*[Figur: zwei fünfeckige Gestalten nebeneinander; die grössere mit den Ecken a, k, i, h, b und punktierten Diagonalen; die kleinere mit den Ecken c, g, f, e, d und punktierten Diagonalen]*
+[Diagram: zwei fünfeckige Gestalten nebeneinander; die grössere mit den Ecken a, k, i, h, b und punktierten Diagonalen; die kleinere mit den Ecken c, g, f, e, d und punktierten Diagonalen]
 
 ### Wirckung.
 

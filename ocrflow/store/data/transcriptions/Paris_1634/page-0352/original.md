@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 æqualem habentium reciproca sunt latera, quæ circum æquales angulos, illa sunt æqualia.
 
 Des parallelogrammes egaux qui ont vn angle egal à vn angle, les costez qui sont au tour des angles egaux sont reciproques : Et les parallelogrammes qui ont vn angle egal à vn angle, & les costez autour des angles egaux reciproques, sont egaux.
 
-*[Figure: parallelogrammes D, C, H ; A, B, G ; E, F]*
+[Figure: parallelogrammes D, C, H ; A, B, G ; E, F]
 
 Hypoth. commun.
 

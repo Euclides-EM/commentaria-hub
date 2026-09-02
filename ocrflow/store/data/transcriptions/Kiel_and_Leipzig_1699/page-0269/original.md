@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 245)* -->
+<!-- Page number: 245 -->
 
 ### I. Beweiß.
 
@@ -32,8 +32,8 @@ n + p + q | 3B
 n + p + q | D
 D | 3B
 3B | 9b
-β (?) D | 9b
+[unclear: β] D | 9b
 
-<!-- signature mark: Hh 3 -->
+<!-- Signature: Hh 3 -->
 
-<!-- catchword: Vorbe- -->
+<!-- Catchword: Vorbe- -->

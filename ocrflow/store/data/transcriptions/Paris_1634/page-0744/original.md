@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-<!-- # ELEM.. EVCLID. LI. XI. -->
-
-<!-- A H B / E G F / C I D (figure) -->
+[Figure: labels arranged A H B / E G F / C I D]
 
 Hypoth.
 

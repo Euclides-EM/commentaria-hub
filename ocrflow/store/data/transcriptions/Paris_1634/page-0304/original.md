@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 secunda æqualis quartæ : si verò minor, & minor erit.
 
 Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme ; & que la premiere soit plus grande que la troisiesme, la seconde sera aussi plus grande que la quatriesme. Et si la premiere est égale à la troisiesme, aussi la seconde sera égale à la quatriesme ; & si plus petite, plus petite.
 
-*[Figure: quatre lignes verticales A, B, C, D]*
+[Figure: quatre lignes verticales A, B, C, D]
 
 Hypoth. commun.
 

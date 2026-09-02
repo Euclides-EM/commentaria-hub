@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-<!-- # ELEM.. EVCLID. LI. VI. -->
-
-*[Figure: triangles A, B, C avec G, et D, E, F]*
+[Figure: triangles A, B, C avec G, et D, E, F]
 
 Hypoth.
 

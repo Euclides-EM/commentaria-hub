@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 40)* -->
+<!-- Page number: 40 -->
 
-<!-- # Das I. Buch. -->
+<!-- Running title: Das I. Buch. -->
 
 ### 2. Vorbereitung.
 1. Von der Seite BA werde abgeschnitten BE | BC n. 3. Vortr.
@@ -38,4 +38,4 @@ Ist also jedwedes △es längste Seite / über den grössesten Winckel gespannet
 
 Jedwedes Dreyeckes grössester Winckel ist der längsten Seite entgegen gesetzet.
 
-<!-- catchword: Ge- -->
+<!-- Catchword: Ge- -->

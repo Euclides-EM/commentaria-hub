@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. IV. -->
+<!-- Running title: D'EVCLIDE, LIV. IV. -->
 
 par la 6. 4. & 9. 1. en parties 4. 8. 16. 32. 64. 128. &c.
 par la 15. 4. & 9. 1. en parties 3. 6. 12. 24. 48. &c.
@@ -17,7 +17,7 @@ abcde *eſt equilat.*
 
 abcde *eſt equiangle.*
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 
@@ -29,7 +29,7 @@ concl. 27.3 | ∠;abc, bcd, cde, dea, eab *ſnt* 2|2 đe.
 fghi *eſt vn rhomhe*,
 ∠fgh 3|2 ∠gfi.
 
-*[Figure]*
+[Figure]
 
 #### Preparation.
 

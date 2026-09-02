@@ -1,12 +1,12 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 196)* -->
+<!-- Page number: 196 -->
 
 |  |  |  |  |
 |---|---|---|---|
 |  | □ en | □ en |  |
 | Dw. | ▭ alc + □ nl + □ en | □ nc + □ en | n 2. Gr. I. |
-|  | □ el (?) | □ nc + □ en | □ ec n. 47. I. |
+|  | □ [unclear: el] | □ nc + □ en | □ ec n. 47. I. |
 |  | ▭ alc + □ nl + □ en + □ nc + □ en | □ nc + □ en + □ ec | n. 2. Gr. I. |
 |  | ▭ alc + □ nl + □ en |  | □ ec n. 3. Gr. I. |
 |  | □ el | □ nl + □ en | n. 47. I. |
@@ -33,4 +33,4 @@
 
 Wird also/ wann zween gerade Striche ac, bd, so in einem Kreyß bcda stehen/ einander durchschneiden/ das rechtwincklichte Viereck/ welches von des einen Striches Stücken al, lc begriffen
 
-<!-- catchword: wird -->
+<!-- Catchword: wird -->

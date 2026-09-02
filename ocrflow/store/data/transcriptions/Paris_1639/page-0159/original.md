@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 1.a.1 | ∠cae + ∠cad 2|2 ∠dbc + ∠cad,
 
@@ -10,7 +10,7 @@ concl. 3.a.1 | ∠cae 2|2 ∠dbc.
 
 Sur vne mesme ligne droicte, on ne pourra constituer deux segments de cercles semblables & inégaux, & de mesme part.
 
-*[Figure]*
+[Figure]
 
 #### Hypotheſe.
 

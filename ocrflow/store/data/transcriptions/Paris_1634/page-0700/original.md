@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 ꝗn figur. præced.
 
@@ -38,7 +37,7 @@ concl. 79. 10 | ts, est ——, fa. 2; medi;
 
 ## LEMM.
 
-<!-- A B C / D G M I L / E F N H K (figure) -->
+[Figure: labels arranged A B C / D G M I L / E F N H K]
 
 4.app. | ▭df 2|2 □.ab, α
 4. app. | ▭dh 2|2 ▭.ac, β

@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 ## THEOR. XXVI. PROPOS. XXXVI.
 
 Les parallelogrammes constituez sur bases égales, & entre mesmes paralleles, sont égaux entr'eux.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -35,7 +35,7 @@ concl. 1.a.1 | ◊bcda 2|2 ◊eghf.
 
 Les triangles constituez sur mesme base, & entre mesmes paralleles, sont égaux entr'eux.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

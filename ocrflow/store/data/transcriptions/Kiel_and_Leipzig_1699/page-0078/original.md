@@ -1,6 +1,6 @@
-<!-- # Das I. Buch. -->
+<!-- Running title: Das I. Buch. -->
 
-<!-- *(Seitenzahl: 60)* -->
+<!-- Page number: 60 -->
 
 ### Vorbereitung.
 
@@ -35,6 +35,6 @@ Gegen einen gegebenen geraden Strich/durch den zur Seiten gegebenen Düttel/ ein
 4. DCH ⋏ ADC nach 23. Vortr.
 5. Durch H und C ziehe man den Strich CH.
 
-*[Figur: Strich AB mit den Dütteln E und D, darüber der Strich CH; punktierte Linien verbinden C, D und H]*
+[Diagram: Strich AB mit den Dütteln E und D, darüber der Strich CH; punktierte Linien verbinden C, D und H]
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

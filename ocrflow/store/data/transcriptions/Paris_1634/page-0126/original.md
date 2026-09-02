@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 symp. | cd == ab.
 
@@ -16,7 +15,7 @@ Omne quadrilaterum habens angulos oppositos æquales, est parallegrammum.
 
 Tout quadrilatere qui a les angles opposez égaux, est parallelogramme.
 
-*[Figure: quadrilatere ABCD, B & C en haut, A & D en bas]*
+[Figure: quadrilatere ABCD, B & C en haut, A & D en bas]
 
 Hypoth.
 

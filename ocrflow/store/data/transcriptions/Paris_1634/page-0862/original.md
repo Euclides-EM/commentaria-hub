@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 γ. icoſaedr. eſt 105146'''',
 ſuperfic.. icoſaedr. eſt 957454'''',

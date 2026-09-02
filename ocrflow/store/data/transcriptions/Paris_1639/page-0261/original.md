@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -28,7 +28,7 @@ ab & ac *ſnt* —— D.
 
 Coupper vne ligne droicte finie en tant de parties égales qu'on voudra.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

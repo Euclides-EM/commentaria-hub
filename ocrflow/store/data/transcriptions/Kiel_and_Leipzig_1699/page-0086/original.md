@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 68)* -->
+<!-- Page number: 68 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 BC | GH
 4. AE = BH
@@ -10,7 +10,7 @@ BC | GH
 
 Es werden gezogen die beeden geraden Striche FB und EC.
 
-*[Figur: Vierecke auff den Grundstrichen BC und GH, mit den Puncten A, D, F, E oben und B, C, G, H unten, mit gezogenen Strichen FB und EC]*
+[Diagram: Vierecke auff den Grundstrichen BC und GH, mit den Puncten A, D, F, E oben und B, C, G, H unten, mit gezogenen Strichen FB und EC]
 
 ### Beweiß.
 
@@ -33,4 +33,4 @@ Alle auff gleichgrossen Grundstrichen / und zwischen einerley Nebenstrichen steh
 ### Gegebene. | Begehrtes.
 1. △ ABC | ABC ⩓ BCD.
 
-<!-- catchword: 2. △ -->
+<!-- Catchword: 2. △ -->

@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-<!-- # ELEM.. EVCLID. LI. III. -->
-
-*[Figure: arc A—B—C sur la base A—D—C, lignes A—B, B—C, B—D]*
+[Figure: arc A—B—C sur la base A—D—C, lignes A—B, B—C, B—D]
 
 Constr.
 

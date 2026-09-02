@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 #### Hypoth.
 
@@ -9,7 +9,7 @@
 
 ∠bac *eſt* ┘.
 
-*[Figure]*
+[Figure]
 
 #### Preparation.
 
@@ -30,4 +30,4 @@ conſtr. | ∠cad *eſt* ┘,
 conſtr. | ∠cad *eſt* ┘,
 concl. 12.a.b | ∠cab *eſt* ┘.
 
-*[Ornament]*
+[Ornament]

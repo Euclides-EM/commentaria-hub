@@ -1,1 +1,1 @@
-*[Leere Seite: kein eigener Druck; nur spiegelverkehrt durchscheinender Text (Abklatsch/Durchschlag) der vorhergehenden Druckfehler-Seite sowie einer weiteren Errata-Liste mit kleiner Dreiecksfigur.]*
+[Blank page]

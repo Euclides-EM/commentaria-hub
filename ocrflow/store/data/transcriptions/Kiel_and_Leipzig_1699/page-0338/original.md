@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 314)* -->
+<!-- Page number: 314 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ### II. Beweiß.
 
@@ -24,4 +24,4 @@ Wenn eines Dreyecks Winckel in zween gleiche Theile/ durch einen geraden Strich/
 
 Und wenn ein gerader Strich aus der Spitze des Dreyeckes gezogen/ den Grundstrich also schneidet/ daß dessen Stücke mit denen Seiten in ebenmässiger Verhältnüß stehen/ so theilet der Strich auch den Winckel in zweene gleiche Theile.
 
-<!-- catchword: I. Gege- -->
+<!-- Catchword: I. Gege- -->

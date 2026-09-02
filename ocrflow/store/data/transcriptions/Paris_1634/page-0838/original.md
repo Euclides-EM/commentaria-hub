@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-<!-- # ELEM.. EVCLID. LI. XIII. -->
-
-<!-- A / D / B F C / E (figure) -->
+[Figure: labels arranged A / D / B F C / E]
 
 concl. αβ | □.ae π □.ab 2|2, 4 π 3
 

@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch Euclidis. -->
+<!-- Running title: Das IV. Buch Euclidis. -->
 
-<!-- *(Seitenzahl: 230)* -->
+<!-- Page number: 230 -->
 
 ### Wirckung.
 
@@ -33,4 +33,4 @@ Die Seiten fc, cn, nm, md, dg u. s. f. sind alle einer Grösse / und dem Kreyß 
 
 Ist also dem gegebenen Kreyß ein gleichseitiges und gleichwincklichtes Funffzehneck eingeschrieben/ W. Z. M.
 
-<!-- catchword: Das -->
+<!-- Catchword: Das -->

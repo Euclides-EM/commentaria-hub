@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 num in illo descriptum ad polygonum simile in hoc descriptum.
 
@@ -11,7 +10,7 @@ Omnis pyramis triangularem habens basin, diuiditur in duas pyramides æquales, &
 
 *Toute pyramide ayant la base triangulaire se peut diuiser en deux pyramides egales & semblables entre elles, ayans les bases triangulaires & semblables à la toute; & en deux prismes egaux, lesquels deux prismes sont plus grands que la moitié de toute la pyramide.*
 
-<!-- A / H G / E / Ɔ K / I / B F C (figure) -->
+[Figure: labels arranged A / H G / E / Ɔ K / I / B F C]
 
 Hypoth.
 

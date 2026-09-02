@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 α.hyp. | □.ae 3|2 □.ec.. □ —— comm. ae,
 l.54.10 | ag, ge, ae snt comm. ꝗe,

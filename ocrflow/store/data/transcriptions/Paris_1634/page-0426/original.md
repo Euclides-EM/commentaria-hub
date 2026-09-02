@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM. PLAN. -->
+<!-- Running title: APPEND.. GEOM. PLAN. -->
 
 ◠ab π ◠bc 3|2 ab π bc,
 
@@ -11,7 +10,7 @@ Præpar.
 10.1 | af 2|2 fc,
 2.p.1 | dfh est —.
 
-*[Figure: cercle auec les poincts A, B, H, E, C, F, G, D]*
+[Figure: cercle auec les poincts A, B, H, E, C, F, G, D]
 
 Demonstr.
 

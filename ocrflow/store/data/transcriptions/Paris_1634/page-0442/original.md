@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
 D, est æqualis numero qui fit ex mutua multiplicatione numerorū A, B, C : igitur D, est numerus cubus.
 

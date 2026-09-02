@@ -1,11 +1,11 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 293)* -->
+<!-- Page number: 293 -->
 
 ### Vorbereitung.
 1. Nehme man eine Grösse D darzu / welche zu C sich also / wie b zu c verhalte.
 
-*[Figur: drei waagerechte Linien d, D, C von unterschiedlicher Länge]*
+[Diagram: drei waagerechte Linien d, D, C von unterschiedlicher Länge]
 
 D : C | b : c
 
@@ -36,6 +36,6 @@ d : D | a : b
 | Dw. | d : C | \| a : c | n. 22. V. |
 | und | A : C | ⊣ a : c | n. Bew. ß. u. Anh. 13. V. |
 
-<!-- signature mark: Oo 3 -->
+<!-- Signature: Oo 3 -->
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

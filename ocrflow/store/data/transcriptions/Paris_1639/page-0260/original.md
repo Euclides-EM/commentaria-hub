@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Demonſtr.
 
@@ -11,7 +11,7 @@
 
 D'vne ligne droicte donnée en oster vne partie demandée.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

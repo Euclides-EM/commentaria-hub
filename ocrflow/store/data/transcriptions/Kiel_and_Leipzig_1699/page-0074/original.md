@@ -1,6 +1,6 @@
-<!-- # Das I Buch -->
+<!-- Running title: Das I Buch -->
 
-<!-- *(Seitenzahl: 56)* -->
+<!-- Page number: 56 -->
 
 ### 1. Beweiß.
 
@@ -34,4 +34,4 @@ Wenn ein auff zween gerade Striche einfallender Strich/ auff der einen Seite zwe
         Winckel.
 5. BEF + DFE ⊼ ⏥
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

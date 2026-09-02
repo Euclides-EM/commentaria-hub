@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
 *Si vn nombre est diuisé continuëment par tant de nombres qu'on voudra, il viendra tousiours le mesme nombre, en quelque ordre que les diuisions soient faites.*
 

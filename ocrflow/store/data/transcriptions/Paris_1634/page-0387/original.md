@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 Constr.
 
@@ -43,7 +42,7 @@ Descrire vn quarré egal à vn triangle donné.
 
 14.2.Elem.
 
-*[Figure: triangle A, C, B auec E, G, H, F & le quarré N, M sous la base, & le demicercle passant par N, M iusques à I]*
+[Figure: triangle A, C, B auec E, G, H, F & le quarré N, M sous la base, & le demicercle passant par N, M iusques à I]
 
 Hypoth.
 

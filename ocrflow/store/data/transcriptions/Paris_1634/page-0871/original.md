@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIV. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
 ## THEOR. VI. PROPOS. VI.
 
@@ -16,7 +15,7 @@ c.17.13 | bg γ. cub. inſcri. ꝗn ſphær.
 30. 6 | ab π ac 2|2 ac π bc,
 5. app. | □.e 2|2 □.ab + □.bc.
 
-<!-- (figure) B / F c I / A / K L / G H E -->
+[Figure: labels arranged B / F c I / A / K L / G H E]
 
 Req. π. demonſtr.
 bg π bк 2|2 bf π e.

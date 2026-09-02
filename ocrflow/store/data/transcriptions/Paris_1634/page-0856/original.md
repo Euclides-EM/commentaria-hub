@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-<!-- # ELEM.. EVCLID. LI. XIII. -->
-
-<!-- G / L F E H / A K D C I B (figure) -->
+[Figure: labels arranged G / L F E H / A K D C I B]
 
 30. 6 | fa π ao 2|2 ao π of,
 

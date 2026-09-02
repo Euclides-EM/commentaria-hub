@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 268)* -->
+<!-- Page number: 268 -->
 
 ## Der XVI. Vortrag.
 
@@ -15,7 +15,7 @@ B ________ | A : a | B : b
 a ____
 b __
 
-*[Figur: Strecken A, B, a, b]*
+[Diagram: Strecken A, B, a, b]
 
 A : B | a : b
 A | 4a
@@ -36,4 +36,4 @@ Dw. A : a | B : b — n. 11. V.
 
 Werden derowegen Ebenmässige Grössen auch wechselweiß genommen Ebenmässig seyn. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

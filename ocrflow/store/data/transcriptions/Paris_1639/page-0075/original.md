@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 #### Demonſtr.
 
@@ -15,7 +15,7 @@ ne *eſt* —— D.
 d *eſt* • D.
 a *eſt* ∠ D.
 
-*[Figure]*
+[Figure]
 
 #### Conſtr.
 

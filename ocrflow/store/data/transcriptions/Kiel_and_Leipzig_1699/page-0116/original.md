@@ -1,6 +1,6 @@
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- *(Seitenzahl: 98)* -->
+<!-- Page number: 98 -->
 
 ### Nach der Löse-Kunst.
 
@@ -36,4 +36,4 @@ Wenn man einen geraden Strich in zween gleiche/ und in zween ungleiche Theile sc
 2. In zween gleiche Theil
 in B, als AB | BD
 
-<!-- catchword: und -->
+<!-- Catchword: und -->

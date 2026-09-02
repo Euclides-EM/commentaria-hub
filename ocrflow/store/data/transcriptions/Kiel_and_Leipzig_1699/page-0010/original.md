@@ -1,4 +1,4 @@
-<!-- # Vorrede. -->
+<!-- Running title: Vorrede. -->
 
 (Operatio)/ bißweilen auch die Vorbereitung (Præparatio): und wenn der Beweiß vollführet ist / so wird der Beschluß angehenget.
 
@@ -8,12 +8,8 @@ Weil aber hernachmahls befunden/ daß auch noch andere Vorträge dergleichen Anh
 
 Welche Grössen zu gleichmässigen Grössen gleiche Verhältnüß haben/ die sind gleichmässig.
 
-*[Figur: schematische Darstellung:]*
-
-A : a | B : b
-    a |     b
-Dw. A | B
+[Diagram: schematische Darstellung]
 
 Wegen der Algebraischen Zeichen/ welche ich gebrauchet/ ist zu mercken/ daß
 
-<!-- catchword: die -->
+<!-- Catchword: die -->

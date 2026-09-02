@@ -1,4 +1,4 @@
-<!-- # ETYMOLOGIE. -->
+<!-- Running title: ETYMOLOGIE. -->
 
 l'iris, ainsi nommée à cause de la diuersité de ses couleurs, de l'arc en ciel, qui en Latin s'appelle *Iris*, touche le blanc de l'œil qui l'enuironne.  La prunelle est le noir de l'œil qui paroist au milieu de l'iris, correspondant directement au trou de l'vuée.  t. 5. p. 5.
 

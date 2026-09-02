@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID.. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VIII. -->
 
 quos; qui ab illis producti fuerint, proportionales erunt : Et si numeri primùm positi multiplicantes iam factos fecerint aliquos : ipsi quoque proportionales erunt : Et semper circa extremos hoc eueniet.
 

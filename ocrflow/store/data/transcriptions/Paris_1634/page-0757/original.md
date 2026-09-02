@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 ## THEOR. XXII. PROPOS. XXV.
 
@@ -7,7 +6,7 @@ Si solidum parallelepipedum plano secetur aduersis planis parallelo; erit quemad
 
 *Si vn solide parallelipipede est couppé par vn plan parallel aux plans opposez, comme la base sera à la base, ainsi le solide sera au solide.*
 
-<!-- Q D F C P / L G O / M H N / I A E B K (figure) -->
+[Figure: labels arranged Q D F C P / L G O / M H N / I A E B K]
 
 Hypoth.
 

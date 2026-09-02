@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ### SCHOLIE.
 
@@ -9,7 +9,7 @@ ae π ef 2|2 ef π eb.
 
 Des parallelogrammes égaux qui ont vn angle égal à vn angle, les costez qui sont autour des angles égaux sont reciproques : Et les parallelogrammes qui ont vn angle égal à vn angle, & les costez autour des angles égaux reciproques, sont égaux.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. commun.
 

@@ -1,11 +1,10 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 Entre deux figures rectilignes, dont l'vne soit inscrite & l'autre circonscrite ; l'inscrite qui aura deux fois autant de costez sera moyenne proportionelle.
 
 Snelius in Cyclometria.
 
-*[Figure: quarré K, M, L auec le cercle inscrit, l'octogone A, P, D, G, B, O, N, R, E, & le quarré A, D, B, E ; poincts C, H au dedans]*
+[Figure: quarré K, M, L auec le cercle inscrit, l'octogone A, P, D, G, B, O, N, R, E, & le quarré A, D, B, E ; poincts C, H au dedans]
 
 Hypoth.
 

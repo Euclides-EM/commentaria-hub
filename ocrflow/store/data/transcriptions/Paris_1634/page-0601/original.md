@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 Egit hactenus Euclides de magnitudinibus commensurabilibus, & incommensurabilibus, nunc ad rationales & medias transit in sequentibus.
 

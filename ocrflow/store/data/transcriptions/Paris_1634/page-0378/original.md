@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 3.a.1 | gnom. eng 2|2 c, β
 α.36.1 | ◇al 2|2 ◇eo u ◇bm,
@@ -23,7 +22,7 @@ Data media trium proportionalium, & differentia extremarum, inuenire extremas.
 
 Estant donné la moyenne de trois proportionnelles, & la difference des extremes, trouuer les extremes.
 
-*[Figure: demi-cercle E sur la base A, F, C, D, B]*
+[Figure: demi-cercle E sur la base A, F, C, D, B]
 
 Hypoth.
 

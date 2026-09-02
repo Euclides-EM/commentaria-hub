@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Demonſtr. du 4.cas.
 
@@ -20,7 +20,7 @@ ebc *eſt* ⊙, d *eſt* • D. db *touche le* ⊙.
 
 ▭.adc 2|2 □.db.
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.du 1.cas.
 

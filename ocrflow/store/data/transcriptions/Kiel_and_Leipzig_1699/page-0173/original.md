@@ -1,8 +1,8 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 155)* -->
+<!-- Page number: 155 -->
 
-*[Figur: Kreis mit Mittel-Düpffel a, oben die Sehne cb mit Punkt g, unten die Sehne de mit Punkt f, punktierte Linien von a nach b und e]*
+[Diagram: Kreis mit Mittel-Düpffel a, oben die Sehne cb mit Punkt g, unten die Sehne de mit Punkt f, punktierte Linien von a nach b und e]
 
 ### Beweiß.
 
@@ -30,5 +30,5 @@ Anderer Theil dieses Vortrags.
 
 1. Zween Senckstriche ag und af. — cb | de
 
-<!-- signature mark: V 2 -->
-<!-- catchword: 2. Aus -->
+<!-- Signature: V 2 -->
+<!-- Catchword: 2. Aus -->

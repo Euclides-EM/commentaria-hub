@@ -83,11 +83,12 @@ func TestApplyLLMTranscriptionCorrectorUsesAnnotationAndEditionInputs(t *testing
 	)
 	applier.datasetStore.(*transcriptionDatasetStore).dataset.ID = "dataset"
 	rule := annotationrule.NewLLMTranscriptionCorrector("ollama", "vision", []string{"additional"}, true)
+	rule.Rounds = 3
 
 	got, err := applier.applyLLMTranscriptionCorrector(imagesDir, target, rule)
 	require.NoError(t, err)
 	require.Same(t, target, got)
-	require.Len(t, llmClient.calls, 2)
+	require.Len(t, llmClient.calls, 3)
 	require.Contains(t, llmClient.calls[0].prompt.Dynamic, "target")
 	require.Contains(t, llmClient.calls[0].prompt.Dynamic, "additional")
 	require.Contains(t, llmClient.calls[0].prompt.Dynamic, "edition transcription")
@@ -95,7 +96,7 @@ func TestApplyLLMTranscriptionCorrectorUsesAnnotationAndEditionInputs(t *testing
 	require.FileExists(t, filepath.Join(manager.AnnotationTxtTranscriptionDir(target), "page-0001", "round-01.md"))
 	final, err := os.ReadFile(filepath.Join(manager.AnnotationTxtTranscriptionDir(target), "page-0001", "original.md"))
 	require.NoError(t, err)
-	require.Equal(t, "corrected round 2\n", string(final))
+	require.Equal(t, "corrected round 3\n", string(final))
 }
 
 func TestApplyLLMTranscriptionCorrectorRejectsNonOCRAnnotation(t *testing.T) {

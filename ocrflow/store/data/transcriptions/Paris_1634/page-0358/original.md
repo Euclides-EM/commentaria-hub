@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 32.1 | <ahb 2|2 <cfd,
 constr. | <hag 2|2 <fce,
@@ -32,7 +31,7 @@ Req. π. demonstr.
 
 raō.. Δabc π Δdef 2|2, 2 raō.. bc π ef.
 
-*[Figure: triangles A, B, G, C et D, E, F]*
+[Figure: triangles A, B, G, C et D, E, F]
 
 Præpar.
 

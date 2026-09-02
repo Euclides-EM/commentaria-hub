@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 329)* -->
+<!-- Page number: 329 -->
 
 ### I. Beweiß.
 
@@ -36,5 +36,5 @@ Sind derowegen die beyden durch den Senckstrich gemachte Dreyecke dem gantzen re
 
 Von dem gegebenen geraden Strich/ den bebegehrten Theil abzuschneiden.
 
-<!-- signature mark: T t -->
-<!-- catchword: Gege- -->
+<!-- Signature: T t -->
+<!-- Catchword: Gege- -->

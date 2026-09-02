@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 nota α.27.3 | ⌒bci, 2, 3, 4|3, ⌒fgp,
 | ∠bdi, 2, 3, 4|3, ∠fhp,

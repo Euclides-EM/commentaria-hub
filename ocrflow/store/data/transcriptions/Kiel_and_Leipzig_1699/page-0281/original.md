@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 257)* -->
+<!-- Page number: 257 -->
 
 ### Beweiß.
 
@@ -28,6 +28,6 @@ Müssen also diejenigen Grössen / welche zu einer einigen Grösse gleiche Verh�
 
 Welche aus zwo Grössen zu einer einigen Grösse die Grössere Verhältnüß hat / dieselbige wird auch die Grösseste seyn: Und zu welcher Grösse eine einige Grösse die grössere Verhältnüß hat / dieselbige wird am kleinesten seyn.
 
-<!-- signature mark: Kk -->
+<!-- Signature: Kk -->
 
-<!-- catchword: Gege- -->
+<!-- Catchword: Gege- -->

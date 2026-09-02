@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XV. -->
+<!-- Running title: ELEM.. EVCLID. LI. XV. -->
 
 Conſtr.
 
@@ -9,7 +8,7 @@ Conſtr.
 10. 1 | nk 2|2 ko, oi 2|2 il,
 1. p. 1 | gh, hk, ki, ig ſnt ——.
 
-<!-- (figure) E / L I O / A P D / G K / M H N / B C / F -->
+[Figure: labels arranged E / L I O / A P D / G K / M H N / B C / F]
 
 Demonſtr.
 

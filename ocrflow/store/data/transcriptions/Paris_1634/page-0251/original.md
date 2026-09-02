@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 Constr.
 
@@ -9,7 +8,7 @@ s.12.4 | f, est intersect.
 3.p.1 | fabcde est ⊙,
 symp. | ⊙abcde est req.
 
-*[Figure: pentagone A—E—D—C—B inscrit dans vn cercle, F au centre, auec les lignes menées du centre]*
+[Figure: pentagone A—E—D—C—B inscrit dans vn cercle, F au centre, auec les lignes menées du centre]
 
 Præpar.
 

@@ -1,4 +1,3 @@
-
 # EVCLIDIS ELEMENTORVM LIBER DVODECIMVS.
 
 # LE DOVZIESME LIVRE DES ELEMENTS D'EVCLIDE.
@@ -9,7 +8,7 @@ QVæ in circulis polygona similia; inter se sunt, vt à diametris quadrata.
 
 *Les polygones semblables, inscrits aux cercles, sont l'vn à l'autre, comme les quarrez descrits des diametres des cercles.*
 
-<!-- A / B E G F R / C D H M / L (figure) -->
+[Figure: labels arranged A / B E G F R / C D H M / L]
 
 Hypoth.
 

@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 208)* -->
+<!-- Page number: 208 -->
 
 1. Der Senckstrich ab zu dem Strich gf }
 2. - - - - ad - - - eg } n. 12. I.
@@ -39,4 +39,4 @@ Umb ein gegebenes Dreyeck einen Kreyß zu beschreiben.
 Dreyeck abc 1. Kreyß abc
 2. Umb das △ abc beschrieben.
 
-<!-- catchword: Wirckung. -->
+<!-- Catchword: Wirckung. -->

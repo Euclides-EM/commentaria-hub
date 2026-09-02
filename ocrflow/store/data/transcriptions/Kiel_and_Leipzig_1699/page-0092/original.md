@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 74)* -->
+<!-- Page number: 74 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 Gleiche Bewandniß hat es / wenn man den Nebenstrich durch G ziehen wolte.
 
@@ -21,7 +21,7 @@ Wenn ein Nebenstrichiches Viereck mit einem Dreyeck auff einem einigen Grundstri
 4. EC = AB
 5. Zwischen welchen □ und △ stehen.
 
-*[Figur: Viereck mit den Puncten C, D, E oben und B, A unten, mit gezogenen und punctirten Strichen]*
+[Diagram: Viereck mit den Puncten C, D, E oben und B, A unten, mit gezogenen und punctirten Strichen]
 
 ### Vorbereitung.
 
@@ -33,4 +33,4 @@ Man ziehe den Zwerg-Strich AD
 ABC ⩓ ABD n. 37. Vortr.
 Drw. □ ABDE | 2 △ ABC n. 6. Grund:S. k.
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

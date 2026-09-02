@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ## THEOR. IX. PROPOS. X.
 
 Vn cercle ne couppe pas vn cercle à plus de deux poincts.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -28,7 +28,7 @@ concl. 21.a.1 | i, k, l, *ne ſont interſect.*
 
 Si deux cercles se touchent l'vn l'autre au dedans, & qu'on prenne les centres d'iceux, la ligne droicte conioignant iceux centres, estant prolongée, tombera à l'attouchement des cercles.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

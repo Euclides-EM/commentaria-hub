@@ -1,15 +1,19 @@
-# 158 GEOMET. ELEMENT.
+<!-- Page number: 158 -->
+
+<!-- Running title: GEOMET. ELEMENT. -->
 
 & sicut latus a/b/ad b/c, sic f/g/ad g/h: fit vt bina triangula a/b/c/ & f/g/h, habeant vnum angulum vni angulo æqualem, & quæ circū æquales angulos latera proportionalia. Aequiangula sunt propterea a/b/c/ & f/g/h/ triangula, per sextam huius sexti: & æquales habent angulos, sub quibus eiusdem rationis latera subtenduntur, vtpote angulum b/ a/ c/angulo g/f/h, & angulum b/c/a/ipsi g/h/f. Hinc per quartam eiusdem sexti, proportionalia sunt latera quæ circum æquales angulos, & similis rationis quæ æqualibus angulis latera subtenduntur: sicut igitur a/c/ad b/c, sic f/h/ad g/h. Sed per hypothesin, vt b/c/ ad c/d, sic g/h/ ad h/k. Et ex æquali igitur, sicut a/c/ad c/d, sic f/h/ad h/k: per vigesimamsecundam quinti. Et quoniam totus angulus b/c/ d, toti angulo g/ h/ k, per hypothesin est æqualis, & angulus b/c/a, ipsi g/h/f/æqualis nunc ostensus est: reliquus igitur a/c/d, reliquo f/h/k, per tertiam communem sententiā est æqualis. Triangula itaq; a/c/d/ & f/h/k, habent rursum vnum angulum vni angulo æqualem, & quæ circum æquales angulos latera proportionalia: æquiangula sunt igitur a/c/d/ & f/g/h/ triangula, per eandem sextam huius sexti. Et per quartam ipsius sexti, latera quæ circum æquales angulos proportionalia. Haud dissimiliter ostendetur triangulum a/d/e, triangulo f/k/l/fore æquiangulū: & proportionalia quæ circum æquales angulos habere latera. Simile est itaque a/b/c/triangulū ipsi f/g/h/triangulo, & a/c/d/ipsi f/h/k, necnon a/d/e/ipsi triangulo f/k/l: per primā huius sexti libri diffinitionē. Data igitur a/b/ c/d/e/ & f/g/h/k/l/polygona, in similia & æqualia numero triāgula diuidūtur.
 
-*[diagram: a/c. b/c. c/d | f/h. g/h h/k]*
+[Diagram: a/c. b/c. c/d | f/h. g/h h/k]
 
-*[diagram: a b e f l / c d h k g]*
+[Diagram: a b e f l / c d h k g]
 
-> Pars secunda theorematis.
+[Margin]
+Pars secunda theorematis.
+[/Margin]
 
 ¶ Dico insuper, q̄ ipsa triangula sunt inuicē, atq; totis ipsis polygonis proportionalia: sicut triangulū a/b/c/ad triangulū f/g/h, sic a/c/d/ad f/h/k, & a/d/e/ad f/k/l/triāgulū: sicútq; a/b/c/triangulum ad ipsum triangulū f/g/h, sic a/b/c/d/e/polygonum ad polygonū f/g/h/k/l. Cùm enim a/b/c/triangulū simile sit f/g/h/triangulo, sintq́; a/c/ & f/h/similis rationis latera: triangulum igitur a/b/c/ ad triangulum f/g/h, duplicem rationē habet, quam latus a/c/ad latus f/h, per antecedentē decimamnonā propositionē. Et proinde triāgulum a/c/d/ad triangulū f/h/k/duplatam itidem rationē habet, quam idem latus a/c/ad latus f/h. Quæ autē eidem sunt eædem rationes, adinuicē sunt eædem: per vndecimā quinti. Et sicut igitur a/b/c/triangulum ad triangulum f/g/h, sic triangulum a/c/d/ad triangulum f/h/k. Rursum quoniā triangulum a/c/d/simile est triāgulo f/h/k, & latus a/d/similis rationis cum f/k: triangulum propterea a/c/d/ad triāgulum f/h/k/duplatam rationem habet, quam latus a/d/ad latus f/k, per ipsam antecedentem decimamnonam huius sexti. Et triangulum consequēter a/d/e/ad triangulum f/k/l/duplatam itidem rationē habet, quam idem latus a/d/ad ipsum latus f/k. Et sicut igitur a/c/d/triangulum, ad triangulum f/h/k: sic per eandem vndecimā quinti, triangulum a/d/e/ad triangulum f/k/l. Sicut porrò a/c/d/ad f/h/k, sit patuit a/b/c/triangulum ad triangulum f/g/h. Et sicut igitur, per vndecimam ipsius quinti, triangulum a/b/c/ad triangulū f/g/h: sic triangulum a/d/e/ad triangulum f/k/l. Proportionalia itaque sunt ipsa nuper expressa triangula: sicut a/b/c/ad f/g/h, sic a/c/d/ad f/h/k, & a/d/e/ad f/k/l. Est igitur per duodecimā quinti, sicut vnū antecedentium ad vnum consequentiū: sic omnia antecedentia, ad omnia consequētia. Sicut itaq; triangulum a/ b/ c, ad triangulum f/g/h: sic a/ b/ c/ d/ e/ polygonum, ad polygonum f/g/h/k/l. Sunt igitur ipsa triangula tum inuicem, tum ipsis totis polygonis
 
-*[diagram: a/b/c. f/g/h | a/c/d. f/h/k | a/d/e. f/k/l]*
+[Diagram: a/b/c. f/g/h | a/c/d. f/h/k | a/d/e. f/k/l]
 
-*[diagram: Sicut—a/b/c. sic——a/c/d. &——a/d/e. ad f/g/h. f/h/k. f/k/l.]*
+[Diagram: Sicut—a/b/c. sic——a/c/d. &——a/d/e. ad f/g/h. f/h/k. f/k/l.]

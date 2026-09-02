@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 271)* -->
+<!-- Page number: 271 -->
 
 A—a : a | B—b : b, — n. Gegeb.
 A—a : a | B—d : d, — n. Genom.
@@ -28,10 +28,10 @@ Wenn eine Gantze Grösse zu einer andern Gantzen Grösse sich also verhält/ wie
 A __a__c__ | a : b | A : B.
 B __b__d__
 
-*[Figur: Strecken A (mit Theilen a, c) und B (mit Theilen b, d)]*
+[Diagram: Strecken A (mit Theilen a, c) und B (mit Theilen b, d)]
 
 A : B | c : d.
 A | a + c.
 B | b + d.
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

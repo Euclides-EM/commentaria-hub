@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 Demonstr.
 
@@ -24,7 +23,7 @@ abe & cdf ſnt con;
 baſ; ab & cd ſnt ⊙ 2|2 ꝗe,
 me & nf ſnt alt;
 
-<!-- G E H / A M B F K / O L P C N L (figure) -->
+[Figure: labels arranged G E H / A M B F K / O L P C N L]
 
 Req. π. demonstr.
 

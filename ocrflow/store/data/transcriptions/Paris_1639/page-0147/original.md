@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 ſuppoſ. | d *eſt* • *d'attouch.* γ
 α15.d.1 | bd 2|2 ba,
@@ -27,13 +27,14 @@ e *n'eſt* • *d'attouch.*
 2.3 | fe *eſt dans le* ⊙afe, & *dans le* ⊙feg,
 2.3.d.3 | ⊙afe *couppe le* ⊙feg *en* f,
 #### contr. hypoth.
+
 concl. δ21.a.1 | f *n'eſt* • *d'attouch.*
 
 ## THEOR. XIII. PROPOS. XIV.
 
 Au cercle les lignes droictes égales sont également distantes du centre: & celles qui sont également distantes du centre, sont égales entr'elles.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 373)* -->
+<!-- Page number: 373 -->
 
 Dw. □ pq + □ pi | □ ge + □ pi n. 2. Gr. I.
 oder □ ai | ⊾ eip n. 9. Gr. I. q.
@@ -21,5 +21,5 @@ An einen gegebenen geraden Strich ein nebenstrichichtes Viereck/ welches einer g
 
 Es muß aber die gegebene geradstrichichte Gestalt / welcher das nebenstrichichte Viereck / so anzuschlagen ist / gleichmässig seyn sol/ nicht grösser seyn / als dasjenige Viereck / welches an die Helffte des gegebenen Striches kan angeschlagen werden: und solches an die Helffte des Striches angeschlagene Viereck / wie auch das mangelende / und die andere gegebene nebenstrichichte Viereck sind alle einander ähnlich.
 
-<!-- signature mark: Aaa 3 -->
-<!-- catchword: Begehr- -->
+<!-- Signature: Aaa 3 -->
+<!-- Catchword: Begehr- -->

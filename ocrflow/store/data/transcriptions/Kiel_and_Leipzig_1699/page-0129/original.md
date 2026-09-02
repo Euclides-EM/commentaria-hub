@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 111)* -->
+<!-- Page number: 111 -->
 
 bec + ebc ∠ ∟ | n. 32. I.
 bec + ebc + cea ∠ ∟ + ebc | n. 2. Gr. I.
@@ -35,4 +35,4 @@ und □ eg | 2 □ gf
 gf | cd | n. 36. I.
 □ gf | □ cd | n. 1. Gr. t. II.
 
-<!-- catchword: 2 □ gf -->
+<!-- Catchword: 2 □ gf -->

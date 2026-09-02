@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 β | g, 2, 3, 4 | 3 e,
 | h, 2, 3, 4 | 3 f,
@@ -13,7 +12,7 @@ Si vne grandeur est autant multiple d'vne grandeur, que la retranchée l'est de 
 
 Hypoth.
 
-*[Figure: ligne G—A—E—B et ligne C—F—D]*
+[Figure: ligne G—A—E—B et ligne C—F—D]
 
 ab multipl.. cd 2|2 ae multipl.. cf.
 

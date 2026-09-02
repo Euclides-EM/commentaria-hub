@@ -1,5 +1,4 @@
-
-<!-- # EXPLICATIO CITATIONVM. -->
+<!-- Running title: EXPLICATIO CITATIONVM. -->
 
 c.l.60.10 { Corollarium lemmatis sexagesimæ decimi. / Corollaire du lemme de la soixantiéme du dixiéme.
 
@@ -21,10 +20,8 @@ constr. { Constructio, id est, per constructionem. / Construction, c'est à dire
 
 symp. Symperasma, symperasme.
 
-<!-- (colonne gauche, latin) -->
 Symperasma est finis constructionis, qua peracta, asserimus constructum aut inuentum esse quod iubet problema, itaque in symperasmate loquimur sic.
 
-<!-- (colonne droite, français) -->
 Symperasme est la fin de la construction, laquelle estant acheuée, on affirme qu'on a construict ou inuenté ce que demande le probleme, partant au symperasme on parle ainsi.
 
 ### Propos. 1. libr. 1.

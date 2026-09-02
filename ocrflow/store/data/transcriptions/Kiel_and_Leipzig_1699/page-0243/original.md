@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 219)* -->
+<!-- Page number: 219 -->
 
 ### Beschluß.
 
@@ -19,7 +19,7 @@ gleichwincklicht Fünffeck einzuschreiben.
 Kreyß bcdae. — 1. Gleichseitig- und gleichwincklicht Fünffeck
 2. dem Kreyß eingeschrieben.
 
-*[Figur: links ein gleichschencklichtes Dreyeck A B C mit punktierten Bögen; rechts ein Kreis mit einbeschriebenem Fünffeck b c d a e, dessen Ecken durch Zwergstriche (Pentagramm) verbunden sind, unten punktierte Bögen]*
+[Diagram: links ein gleichschencklichtes Dreyeck A B C mit punktierten Bögen; rechts ein Kreis mit einbeschriebenem Fünffeck b c d a e, dessen Ecken durch Zwergstriche (Pentagramm) verbunden sind, unten punktierte Bögen]
 
 ### Wirckung.
 
@@ -29,5 +29,5 @@ ckeln B oder C, n. 10. IV.
 2. Dem gegebenen Kreyß werde ein Dreyeck abc gleichwinck-
 licht dem Dreyeck ABC eingeschrieben/ n. 2. IV.
 
-<!-- signature mark: Ee 2 -->
-<!-- catchword: 3. Der -->
+<!-- Signature: Ee 2 -->
+<!-- Catchword: 3. Der -->

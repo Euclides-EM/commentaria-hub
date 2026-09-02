@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 кμ. 14. 5 | con. abcdk 3|2 ſolid. o,
 
@@ -15,7 +14,7 @@ Si cylindrus plano secetur aduersus planis parallelo: Erit vt cylindrus ad cylin
 
 *Si vn cylindre est couppé par vn plan parallele aux plans opposez: Comme le cylindre sera ou cylindre, ainsi l'axe sera à l'axe.*
 
-<!-- K N / A G D / E I F / B H C / L O / P M (figure) -->
+[Figure: labels arranged K N / A G D / E I F / B H C / L O / P M]
 
 Hypoth.
 

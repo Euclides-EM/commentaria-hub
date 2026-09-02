@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 1.6 | ▭.bg,ac π ▭.ab,ac 2|2 bg π ab,
 4.6 | bg π ab 2|2 eh π de,
@@ -18,7 +17,7 @@ Triangula, quæ vnum angulum vni angulo æqualem habent, proportionem habent ex 
 
 Les triangles qui ont vn angle egal à vn angle, sont en raison composee des costez qui contiennent l'angle egal.
 
-*[Figure: parallelogramme A, B, C, G auec triangle et parallelogramme D, E, F, H]*
+[Figure: parallelogramme A, B, C, G auec triangle et parallelogramme D, E, F, H]
 
 Hypoth.
 

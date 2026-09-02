@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 207)* -->
+<!-- Page number: 207 -->
 
 ## Der IV. Vortrag.
 
@@ -13,7 +13,7 @@ In ein gegebenes Drey Eck einen Kreyß einzuschreiben.
 Dreyeck efg. 1. Kreyß bcd,
 2. Welcher dem gegebenen △ eingeschrieben.
 
-*[Figur: Dreyeck efg mit Spitze e oben; darin eingeschriebener Kreis mit Mittelpunkt a und Rührdüpffeln c, d, b; Winckeltheilende Striche von e und f nach a, punktierter Senckstrich ac]*
+[Diagram: Dreyeck efg mit Spitze e oben; darin eingeschriebener Kreis mit Mittelpunkt a und Rührdüpffeln c, d, b; Winckeltheilende Striche von e und f nach a, punktierter Senckstrich ac]
 
 ### Wirckung.
 
@@ -26,4 +26,4 @@ Dreyeck efg. 1. Kreyß bcd,
 
 Es werde gezogen aus dem Mittel-Düpffel a
 
-<!-- catchword: 1. Des -->
+<!-- Catchword: 1. Des -->

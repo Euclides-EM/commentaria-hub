@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 53)* -->
+<!-- Page number: 53 -->
 
 Dw.   acb ⋏ hcb        n. 1. Gr-S.
     welches unmüglich nach 9. Gr-S.
@@ -41,6 +41,6 @@ Drw.  bdc ⋏ BAC               n. 4. Vortr.
 Dw.   bac ⋏ bdc               n. 1. Gr-S.
 Welches aber unmöglich        n. 16. Vortr.
 
-<!-- signature mark: G 3 -->
+<!-- Signature: G 3 -->
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

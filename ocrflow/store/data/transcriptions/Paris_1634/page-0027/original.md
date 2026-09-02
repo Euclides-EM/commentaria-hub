@@ -1,5 +1,4 @@
-
-<!-- # EXPLICATION DES NOTES. -->
+<!-- Running title: EXPLICATION DES NOTES. -->
 
 ~ minus, moins.
 .~: differentia, difference.

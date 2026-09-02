@@ -1,12 +1,12 @@
-<!-- *(Seitenzahl: 132)* -->
+<!-- Page number: 132 -->
 
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
 ### Beweiß.
 
 Wenn der Strich nicht inwendig / sondern außwendig solte zu stehen kommen /
 
-*[Figur: Kreis mit Mitteldüpffel a, Sehne hg, Düttel i innen, punktierter Bogen außerhalb mit den Dütteln f und e]*
+[Diagram: Kreis mit Mitteldüpffel a, Sehne hg, Düttel i innen, punktierter Bogen außerhalb mit den Dütteln f und e]
 
 ### Vorbereitung.
 
@@ -33,4 +33,4 @@ ah | ag — n. 15. Beschreib.
 Dw. ahi ⋏ agi — n. 5. I.
 gia ⋏ iha — n. 16. I.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-<!-- # ELEM.. EVCLID. LI. XI. -->
-
-<!-- D / A / B E C (figure) -->
+[Figure: labels arranged D / A / B E C]
 
 1. p. 1 | db & dc snt ——.
 
@@ -19,7 +18,7 @@ Omnis solidus angulus sub minoribus, quam quatuor rectis angulis planis continet
 
 *Tout angle solide est contenu sous des angles plans, lesquels sont plus petits que quatre angles plans droicts.*
 
-<!-- D / A / B C (figure) -->
+[Figure: labels arranged D / A / B C]
 
 Hypoth.
 

@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 opposé de mesme part ; & les deux internes de mesme part, égaux à deux droicts.
 
@@ -17,6 +17,7 @@ ab == cd.
 ſuppoſ. | ∠agh + ∠chg n̄. *ſnt* 2|2 2┘
 13.a.1 | ab n̄. *eſt* == cd,
 #### contr. hypoth.
+
 1.concl. 21.a.1 | ∠agh + ∠chg 2|2 2┘
 13.1 | ∠dhg + ∠chg 2|2 2┘
 ∠chg *comm. ſubtr.*

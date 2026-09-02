@@ -1,6 +1,6 @@
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
-<!-- *(Seitenzahl: 211)* -->
+<!-- Page number: 211 -->
 
 3. Auch werde von a zu h ein Strich ah gezogen.
 4. Dieser Strich werde ebenfals in zween gleiche Theile ag | gc getheilet/ n. 10. I.
@@ -30,8 +30,8 @@ Kreyß dabc. 1. Gleichseitiges Viereck abcd
 2. Und durch diesen Durchschlag/ und zwar auch durch den Mittel-Düpffel e, werde ein Senckstrich ac gezogen/ n. 11. I.
 3. Werden die geraden Striche ab, bc, cd, da gezogen.
 
-*[Figur: Kreis mit Mittel-Düpffel e und eingeschriebenem Viereck abcd samt beiden Durchschlägen (Diagonalen) ac und db]*
+[Diagram: Kreis mit Mittel-Düpffel e und eingeschriebenem Viereck abcd samt beiden Durchschlägen (Diagonalen) ac und db]
 
-<!-- signature mark: Dd 2 -->
+<!-- Signature: Dd 2 -->
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

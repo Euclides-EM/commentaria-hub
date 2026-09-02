@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 cette table pour l'heptagone, fera 472234, auquel correspondent 52763 dans la table des logarithmes qui vont iusques à 100000, mais pour trouuer le nombre correspondant à ce logarithme, dans les tables qui ne vont que iusques à 1000, qui a pour logarithme 300000, comme sont celles de mon liure, on soustraira 200000, qui est le logarithme de 100, de 472234, afin que le reste 272234 se trouue dans la table, & le nombre 527 53/82 correspondant dans la table à ce reste, on le multipliera par 100, dont le logarithme 200000 a esté soustraict, & viendra 52700 5300/82, & reduisant la fraction en entier en diuisant par le denominateur 82 fait enuiron 65, qui adioustez auec 52700 font 52765 pour le contenu de l'heptagone, qui n'est pas si iuste que 52763.
 

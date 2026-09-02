@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-<!-- # ELEM.. EVCLID. LI. III. -->
-
-*[Figure: cercle D—E—F, ligne A—C—B tangente en bas, lignes C—D, C—E, C—F, D—E, E—F]*
+[Figure: cercle D—E—F, ligne A—C—B tangente en bas, lignes C—D, C—E, C—F, D—E, E—F]
 
 Hypoth.
 

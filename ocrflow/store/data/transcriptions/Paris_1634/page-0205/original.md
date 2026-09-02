@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
 11.1 | knl ⊥ gi,
 1.p.1 | gk, gb, gc, gl snt —

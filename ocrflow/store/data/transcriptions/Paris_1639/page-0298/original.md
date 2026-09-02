@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 3 6 5 *multiplicande.*
 2 4 *multiplicateur.*

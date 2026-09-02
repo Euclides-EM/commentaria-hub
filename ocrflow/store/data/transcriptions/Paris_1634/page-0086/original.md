@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 & angulum angulo æqualem sub æqualibus rectis lineis contentum : Et basim basi æqualem habebunt : eritque triangulum triangulo æquale ; ac reliqui anguli reliquis angulis æquales erunt, vterque vtrique, sub quibus æqualia latera subtëdütur.
 
 Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & l'angle contenu d'iceux costez égaux, égal à l'angle. Ils auront la base égale à la base, & le triangle sera égal au triangle, & les autres angles soustendans iceux costez égaux, seront égaux aux autres angles chacun au sien.
 
-*[Figure: deux triangles, ABC à gauche et DEF à droite]*
+[Figure: deux triangles, ABC à gauche et DEF à droite]
 
 Hypoth.
 

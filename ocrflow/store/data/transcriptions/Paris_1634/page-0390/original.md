@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 46.1 | gh est □.eg,
 symp. | □gh est req.
@@ -16,7 +15,7 @@ Propositis duobus quadratis inæqualibus, inuenire quadratum, quo maius excedit 
 
 Estant proposez deux quarrez inegaux, trouuer vn quarré egal à l'exces, par lequel le plus grand excede le plus petit.
 
-*[Figure: demicercle A, D, B, le quarré E sur A D, & la ligne C F à part]*
+[Figure: demicercle A, D, B, le quarré E sur A D, & la ligne C F à part]
 
 Hypoth.
 

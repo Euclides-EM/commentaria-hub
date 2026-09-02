@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ou esleué en vn endroit qu'en vn autre, mais elle est la plus courte de celles qui ont mesmes extremitez.
 
@@ -6,7 +6,7 @@ ou esleué en vn endroit qu'en vn autre, mais elle est la plus courte de celles 
 
 La Superficie est, ce qui a tant seulement longueur & largeur, comme ABCD.
 
-*[Figure]*
+[Figure]
 
 ### VI.
 

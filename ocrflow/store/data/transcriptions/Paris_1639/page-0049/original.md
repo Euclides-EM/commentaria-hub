@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 ## PROBLEME I. PROPOSITION I.
 
 SVr vne ligne droicte donnée & terminée, descrire vn triangle equilateral.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

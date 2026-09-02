@@ -1,4 +1,4 @@
-<!-- # ETYMOLOGIE. -->
+<!-- Running title: ETYMOLOGIE. -->
 
 Octaedre vient de *octo*, qui en Grec sign. huict, & *hedra* siege.  t. 1. p. 653.
 

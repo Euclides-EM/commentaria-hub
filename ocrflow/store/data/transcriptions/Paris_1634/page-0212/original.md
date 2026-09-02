@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-<!-- # ELEM.. EVCLID. LI. III. -->
-
-*[Figure: cercle A—B—C—D, E au dehors à gauche, lignes E—C, E—A—B, A—C, A—D, B—C, B—D, D—C]*
+[Figure: cercle A—B—C—D, E au dehors à gauche, lignes E—C, E—A—B, A—C, A—D, B—C, B—D, D—C]
 
 Hypoth.
 
@@ -27,7 +26,7 @@ Super eadem recta linea, duo segmenta circulorum similia, & inæqualia non const
 
 Sur vne mesme ligne droicte, on ne pourra constituer deux segments de cercles semblables & inégaux, & de mesme part.
 
-*[Figure: segments A—B—D—C sur la base A—C, lignes A—B, A—D, B—C, D—C, α]*
+[Figure: segments A—B—D—C sur la base A—C, lignes A—B, A—D, B—C, D—C, α]
 
 Hypoth.
 

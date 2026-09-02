@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
 1.a.1 | ▭.a,c 2|2 □.b,
 1.concl. 20.7 | a,b,c snt proport;

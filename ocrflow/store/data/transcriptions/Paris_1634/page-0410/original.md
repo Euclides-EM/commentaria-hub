@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 ## PROBL. XIII. PROPOS. XXIV.
 
@@ -7,7 +6,7 @@ Snelius in Apollonio Batauo.
 
 Hypoth.. 1. cas.
 
-*[Figure: deux figures auec les poincts A, D, E, C, B]*
+[Figure: deux figures auec les poincts A, D, E, C, B]
 
 Δabc sml. Δade,
 
@@ -24,7 +23,7 @@ concl. 31.6 | ▭.cae 2|2 ▭.bad + ▭.cb,ed. α
 
 Hypoth.. 2. cas.
 
-*[Figure: auec les poincts F, D, E, A, C, B, G]*
+[Figure: auec les poincts F, D, E, A, C, B, G]
 
 Δabc sml. Δade,
 

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 99)* -->
+<!-- Page number: 99 -->
 
 3. und in ungleiche Theile getheilet
 in C, als AC + CD
@@ -13,7 +13,7 @@ in C, als AC + CD
 4. Der Strich cg werde biß zu e,
 5. Und der Strich fg biß zu h fortgezogen.
 
-*[Figur: Waagerechter Strich D B C A (unten d b c a); darüber ein Quadrat über C A mit den Punkten e, g, h und gestrichelten Linien; links der Strich f g; unter b c ein kleineres Rechteck.]*
+[Diagram: Waagerechter Strich D B C A (unten d b c a); darüber ein Quadrat über C A mit den Punkten e, g, h und gestrichelten Linien; links der Strich f g; unter b c ein kleineres Rechteck.]
 
 ### Beweiß.
 
@@ -28,5 +28,5 @@ n. 2. Gr. I.
 □ ac + □ acb | □ ac + □ acb
 □ db,ac + □ acb + □ cb | □ ab n. 3. Gr. I
 
-<!-- signature mark: N 2 -->
-<!-- catchword: db -->
+<!-- Signature: N 2 -->
+<!-- Catchword: db -->

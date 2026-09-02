@@ -1,4 +1,4 @@
-*[decorative woodcut border]*
+[Ornament: decorative woodcut border]
 
 # Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Primum elementorum Euclidis, Demonstrationes.
 
@@ -10,7 +10,9 @@ RECEPTVM EST AB OMNIBVS, VNAMQVANque disciplinã propria sibi vẽdicare princip
 
 ¶ σημεῖόν ἐστι, ᾧ μέρος οὐθέν.
 
-> Punctum
+[Margin]
+Punctum
+[/Margin]
 
 **1** Punctum est, cuius pars nulla.
 
@@ -28,20 +30,22 @@ Hoc est, latitudine priuata. Cũ enim punctũ omni careat dimẽsione: suo fluxu
 
 Incipit enim à puncto, & ex infinitis conficitur punctis, in punctúmq; terminatur. Omnis porrò linea, vel recta, vel obliqua venit imaginanda.
 
-> Cuiuslibet disciplinæ propria recipienda fore principia
->
-> Protheoria
->
-> Triplex ordo principiorum geometricorum.
->
-> Geometriæ subiectum.
->
-> Triplex in magnitudine dimensio.
->
-> Pũctũ omnis magnitudinis principium esse dicitur.
->
-> Pũcti cũ vnitate comparatio.
->
-> Vnde linea ex puncto describatur.
+[Margin]
+Cuiuslibet disciplinæ propria recipienda fore principia
 
-a.j.
+Protheoria
+
+Triplex ordo principiorum geometricorum.
+
+Geometriæ subiectum.
+
+Triplex in magnitudine dimensio.
+
+Pũctũ omnis magnitudinis principium esse dicitur.
+
+Pũcti cũ vnitate comparatio.
+
+Vnde linea ex puncto describatur.
+[/Margin]
+
+<!-- Signature: a.j. -->

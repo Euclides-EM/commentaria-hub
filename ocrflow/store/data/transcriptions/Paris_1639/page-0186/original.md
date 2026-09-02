@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 α.1.a.f | ∠cdb / +∠cda 2|2 ∠cad / +∠cda.
 32.1 | ∠cad+∠cda 2|2 ∠bcd,
@@ -7,7 +7,7 @@
 5.1 | ∠cad 2|2 ∠cda, δ
 2 concl. δ.32.1 | ∠bcd / & ∠cbd / & ∠bda 2|2 2∠bad.
 
-*[Figure]*
+[Figure]
 
 ### COROLLAIRE.
 
@@ -17,7 +17,7 @@ Veu que les trois angles d'vn triangle sont égaux à deux droicts, il est manif
 
 En vn cercle donné, inscrire vn pentagone, equilateral & equiangle.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

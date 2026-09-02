@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

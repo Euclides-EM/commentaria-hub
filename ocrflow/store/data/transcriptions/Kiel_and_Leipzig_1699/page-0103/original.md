@@ -1,6 +1,6 @@
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
-<!-- *(Seitenzahl: 85)* -->
+<!-- Page number: 85 -->
 
 □ fx | □ fpib | n. Bew. β.
 Dw. □ fx + □ gx | □ gbie + □ fpib | n. 2. Gr S.
@@ -27,8 +27,8 @@ Wenn in einem Dreyeck/ das Viereck einer Seite eben so groß ist / als der übri
 2. Senckstrich cd | cb n. 2. Vortr.
 3. Werde der Strich ad gezogen.
 
-*[Figur: Dreyeck mit Spitze a oben, Grundpunkten d und b, Fußpunkt c unten, mit Senckstrich und Winckelzeichen]*
+[Diagram: Dreyeck mit Spitze a oben, Grundpunkten d und b, Fußpunkt c unten, mit Senckstrich und Winckelzeichen]
 
-<!-- signature mark: L 3 -->
+<!-- Signature: L 3 -->
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

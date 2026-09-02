@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 A, 12. B, 4. C, 21. D, 7. E, 15. F, 5.
 
@@ -15,7 +15,7 @@ S'il y a tant de grandeurs qu'on voudra equimultiples d'autant d'autres grandeur
 ab *multipl..* | e,
 cd *multipl..* | f. α
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtrer.
 

@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ſ.46.1 | □.af 2|2 □.bg, □.ae 2|2 □.eb. β
 47.1 | □.af + □.fe 2|2 □.ae, □.gb + □.ge 2|2 □.eb,
@@ -6,7 +6,7 @@
 β.3.a.1 | □.fe 2|2 □.ge,
 1.concl. ſ.46.1 | fe 2|2 ge.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. 2.
 

@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
-<!-- # ELEM.. EVCLID. LI. XIV. -->
-
-<!-- (figure) B / C I E / D — F / K / G H / A -->
+[Figure: labels arranged B / C I E / D — F / K / G H / A]
 
 Req. π. demonſtr.
 ⊙cbed 2|2 ⊙gfh.
@@ -19,4 +18,4 @@ Demonſtr.
 ſ.46.1 | bi 2|2 fк,
 concl. 1. d. 3 | ⊙cbed 2|2 ⊙gfh.
 
-*[Ornament]*
+[Ornament]

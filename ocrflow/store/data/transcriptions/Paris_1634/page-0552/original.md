@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
 hyp. | aggreg.. fb + gc + hd + le, est nr.pa.
 concl. 21.7 | aggreg. ae, est nr.pa.

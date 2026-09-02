@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 109)* -->
+<!-- Page number: 109 -->
 
 ### Nach der Löse-Kunst.
 
@@ -37,6 +37,6 @@ Wenn man einen geraden Strich in zwey gleiche/ und zwey ungleiche Stücke theile
 2. Getheilet in c
 3. Daß ac | cb
 
-<!-- signature mark: O 3 -->
+<!-- Signature: O 3 -->
 
-<!-- catchword: 4. Und -->
+<!-- Catchword: 4. Und -->

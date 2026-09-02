@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 389)* -->
+<!-- Page number: 389 -->
 
 ### I. Beweiß.
 
@@ -36,9 +36,9 @@ wenn derowegen
 |  | bci ⌒⃒ fgkl |  |
 | so muß | bdi ⋀ fhl |  |
 | ist | bci grösser ⌒⃒ fgkl |  |
-| so muß | bdi ⋀̸ (?) fhl |  |
+| so muß | bdi [unclear: ⋀̸] fhl |  |
 | und wenn | bci kleiner ⌒⃒ fgkl |  |
-| so muß | bdi ⋀̸ (?) fhl | n. 14. V. |
+| so muß | bdi [unclear: ⋀̸] fhl | n. 14. V. |
 
 |  |  |  |  |
 |---|---|---|---|
@@ -48,6 +48,6 @@ wenn derowegen
 |  | 2 ∧ bac | ∧ bdc | n. 20. III. |
 |  | ⌒ bc | ⌒ bc |  |
 
-<!-- signature mark: Ccc 3 -->
+<!-- Signature: Ccc 3 -->
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

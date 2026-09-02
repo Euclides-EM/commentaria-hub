@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 ## THEOR. XI. PROPOS. XI.
 
@@ -7,7 +6,7 @@ Sub eadem altitudine existentes coni & cylindri, inter se sunt vt bases.
 
 *Les cones & cylindres de mesme hauteur, sont l'vn à l'autre comme leurs bases.*
 
-<!-- A K E M / T Y P S / B I D F L H / V X Q R / C G / O N (figure) -->
+[Figure: labels arranged A K E M / T Y P S / B I D F L H / V X Q R / C G / O N]
 
 Hypoth.
 

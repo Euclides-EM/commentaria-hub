@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIV. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
 2. 14 | □.bg π □.bf 2|2 □.ab π □.ac,
 11. 5 | □.bg π □.bf 2|2 □.bk π □.e,

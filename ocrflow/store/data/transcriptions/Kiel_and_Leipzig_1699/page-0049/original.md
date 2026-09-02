@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 31)* -->
+<!-- Page number: 31 -->
 
 ### Wirckung.
 
@@ -26,6 +26,6 @@ Auff einen gegebenen geraden Strich / und zwar auff den darin gegebenen Düttel/
 2. Auff dem Strich EF wird ein gleichseitiges (oder gleichschenckliches) △ gesetzet/ nach 1. Vortr.
 3. Aus dieses △es Gipffel D wird ein gerader Strich DC zu dem gegebenen Düttel C gezogen.
 
-*[Figur: Strich AB mit Düttel C, darüber der Senck-Strich CD mit punktiertem Dreyeck und Kreyß durch E und F]*
+[Diagram: Strich AB mit Düttel C, darüber der Senck-Strich CD mit punktiertem Dreyeck und Kreyß durch E und F]
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 d.β. (c'est à dire, demonstration β.) signifie qu'il faut demonstrer que l'angle A est égal à l'angle C, par la mesme methode, qu'il a esté demonstré, que l'angle D est égal à l'angle B.
 
@@ -14,7 +14,7 @@ Il s'ensuit aussi que tous les angles constituez à l'entour d'vn mesme poinct, 
 
 Si à quelque ligne droicte, & à vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles opposez au sommet égaux entr'eux : icelles lignes droictes se rencontreront directement.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

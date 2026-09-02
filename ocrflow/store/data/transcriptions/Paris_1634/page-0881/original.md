@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. XV. -->
+<!-- Running title: ELEM.. EVCLID. LI. XV. -->
 
 *Deſcrire vn angle rectiligne egal à vn angle curuiligne donné.*
 
-<!-- (figure) B C / G F D / A H / F — B / H / G F / E / D / A -->
+[Figure: labels arranged B C / G F D / A H / F — B / H / G F / E / D / A]
 
 Hypoth.
 dab, eſt <, rectili. D.
@@ -27,7 +26,7 @@ Dato rectilineo æquale curuilineum describere.
 
 *Deſcrire vn curuiligne egal à vn rectiligne donné.*
 
-<!-- (figure) I B L / A E F C / D / G H -->
+[Figure: labels arranged I B L / A E F C / D / G H]
 
 Hypoth.
 rhombus abcd, eſt rectili. D.

@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Requis à faire.
 
 *inſcrire au* ⊙abcd *le* □abcd.
 
-*[Figure]*
+[Figure]
 
 #### Conſtruction.
 

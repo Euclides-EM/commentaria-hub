@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 vtraque sumpta sint quælibet puncta: illa linea, quæ ad hæc puncta adiungitur, in eodem est cum parallelis plano.
 
 *S'il y a deux lignes droictes paralleles, en l'vne & l'autre desquelles soient pris des poincts comme on voudra: la ligne droicte menee par iceux poincts, est en vn mesme plan que les paralleles.*
 
-<!-- A E B / G / F D (figure) -->
+[Figure: labels arranged A E B / G / F D]
 
 Hypoth.
 

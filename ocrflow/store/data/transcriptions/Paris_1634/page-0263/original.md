@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 6<abcde est inscrit. π ⊙abcde.
 
@@ -7,7 +6,7 @@ Req. π. demonstr.
 
 5<abcde est æquilat.
 
-*[Figure: pentagone A—B—C—D—E inscrit dans vn cercle, F au centre, auec les lignes menées de F et les diagonales]*
+[Figure: pentagone A—B—C—D—E inscrit dans vn cercle, F au centre, auec les lignes menées de F et les diagonales]
 
 Demonstr.
 

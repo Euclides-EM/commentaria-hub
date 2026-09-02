@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 3.p.1 | oml *eſt* ⊙.
 
@@ -6,7 +6,7 @@
 
 *le rhombe* fghi *eſt circonſcrit au* ⊙mlp.
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 
@@ -20,7 +20,7 @@ conſtr. | ∠m, ∠l, ∠n, ∠p *ſnt* ┘;
 26.1. & 1.a.1 | op, om, ol, on *ſnt* 2|2 đe.
 concl. 4.d.4 | *le rhombe* fghi *eſt circonſcrit au* ⊙omlnp.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. 3.
 

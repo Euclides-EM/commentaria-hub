@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 | ▭.dg commun. subtr.
 concl. 3.a.1 | ah ▭.ag 2|2 gc ▭.abg.
@@ -17,7 +16,7 @@ Præpar.
 2.p.1 | cbd est —,
 12.1 | ad ⊥ cd.
 
-*[Figure: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]*
+[Figure: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]
 
 Req. π. demonstr.
 

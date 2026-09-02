@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID.. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
 
 δ | a & b msur: f,
 ε.37.7 | d, msur: f,

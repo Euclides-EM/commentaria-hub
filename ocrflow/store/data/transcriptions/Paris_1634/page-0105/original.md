@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 COROLL.
 
@@ -7,7 +6,7 @@ Sequitur ex hac propositione omnium rectarum ex quouis puncto ad rectam quamcumq
 
 Il s'ensuit de cette proposition, que si de quelconque poinct on tire sur vne ligne droicte tant de lignes droictes qu'on voudra, l'vne desquelles soit perpendiculaire, icelle perpendiculaire sera la plus petite de toutes.
 
-*[Figure: triangle ABC, poinct A en haut, ligne AD perpendiculaire sur BC, D entre B et C]*
+[Figure: triangle ABC, poinct A en haut, ligne AD perpendiculaire sur BC, D entre B et C]
 
 Hypoth.
 
@@ -31,7 +30,7 @@ Omnis trianguli duo latera reliquo sunt maiora, quomodocunque assumpta.
 
 De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'ils soient pris.
 
-*[Figure: triangle ABC, costé BA prolongé vers D en haut, ligne DC]*
+[Figure: triangle ABC, costé BA prolongé vers D en haut, ligne DC]
 
 Hypoth.
 

@@ -1,12 +1,12 @@
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- *(Seitenzahl: 106)* -->
+<!-- Page number: 106 -->
 
 □ ab + □ cb | □ ac + 2 □ acb + 2 □ cb (n. 2. Gr. I
 ac + cb | ab
 cb | bc
 □ acb + □ cb | □ abc — n. 3. II.
-□ □ 2 □ acb + □ 2cb | 2 □ abc □ □ — n. 6. G. i I. (?)
+□ □ 2 □ acb + □ 2cb | 2 □ abc □ □ — n. 6. G. i [unclear: I.]
 ab + cb + 2 □ acb + 2 □ cb | 2 □ abc + ac + 2acb + 2 □ cb
 2 □ acb + 2 □ cb | 2 □ acb + 2 □ cb
 □ ab + □ cb | 2 □ abc + □ ac — n. 3. Gr. I.
@@ -35,4 +35,4 @@ c | c
 bc + cc | ac — n. 3. II.
 2 | 2
 
-<!-- catchword: 2bc -->
+<!-- Catchword: 2bc -->

@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM. PLAN. -->
+<!-- Running title: APPEND.. GEOM. PLAN. -->
 
 α.4.6 | raō..ce π ed 2|2 raō..ac π dg,
 11.5 | raō..□.ac π □.ad 2|2 raō..cb π bd + raō..ce π ed,
@@ -10,7 +9,7 @@ concl. 11.5 | ▭.bce π ▭.bde 2|2 □.ac π □.ad.
 
 Pappus lib. 6. propos. 12.
 
-*[Figure: cercle auec les poincts A, F, G, B, D, E, C]*
+[Figure: cercle auec les poincts A, F, G, B, D, E, C]
 
 Hypoth.
 

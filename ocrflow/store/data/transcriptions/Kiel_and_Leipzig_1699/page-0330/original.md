@@ -1,12 +1,12 @@
-<!-- *(Seitenzahl: 306)* -->
+<!-- Page number: 306 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ### Begehrtes.
 
 □ AD : □ BC | ml : gh.
 
-*[Figur: Zwei nebenstrichichte Vierecke mit den Buchstaben D, A und C, B, Eckpunkte n r o k i oben und m l g h unten, mit gestrichelten Diagonalen]*
+[Diagram: Zwei nebenstrichichte Vierecke mit den Buchstaben D, A und C, B, Eckpunkte n r o k i oben und m l g h unten, mit gestrichelten Diagonalen]
 
 ### Vorbereitung.
 
@@ -30,4 +30,4 @@ Dw. □ AD : □ BC | ml : gh — n. 11. V.
 
 Werden derowegen alle Nebenstrichichte Viercke sich gegen einander also/ wie derselben Grundstriche verhalten. W. Z. B.
 
-<!-- catchword: Des -->
+<!-- Catchword: Des -->

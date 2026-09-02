@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 313)* -->
+<!-- Page number: 313 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### I. Beweiß.
 
@@ -35,5 +35,5 @@ de ⧣ cb.
 
 Es werden die geraden Striche be und cd gezogen.
 
-<!-- signature mark: Rr -->
-<!-- catchword: II. Beweiß. -->
+<!-- Signature: Rr -->
+<!-- Catchword: II. Beweiß. -->

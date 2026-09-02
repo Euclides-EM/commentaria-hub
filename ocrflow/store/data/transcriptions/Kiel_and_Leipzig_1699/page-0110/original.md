@@ -1,6 +1,6 @@
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- *(Seitenzahl: 92)* -->
+<!-- Page number: 92 -->
 
 ### Gegebene. | Begehrtes.
 1. Der Strich AB | □ AB | □ CAB + □ CBA.
@@ -19,7 +19,7 @@ in | AD | n. 2. I.
 5. Mache man die rechtwincklichte □ mlg und □ oni n. 11. I.
 6. In dem □ bad ziehe man den Neben-Strich ce = ad.
 
-*[Figur: drey rechtwincklichte Vierecke; Punkte D, B, d, e, f, g, h, i, k oben, c links, A, a, c, b, l, m, n, o unten; punktierte Linie im ersten Viereck]*
+[Diagram: drey rechtwincklichte Vierecke; Punkte D, B, d, e, f, g, h, i, k oben, c links, A, a, c, b, l, m, n, o unten; punktierte Linie im ersten Viereck]
 
 ### Beweiß.
 
@@ -32,4 +32,4 @@ lg | AB
 □ oni + □ mlg | □ CAB + □ CBA | n. 1. Gr-S. I.
 AD | AB | n. 1. Vorber.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

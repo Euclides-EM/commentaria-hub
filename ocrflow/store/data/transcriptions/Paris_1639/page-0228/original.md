@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ## THEOR. XII. PROPOS. XII.
 
 Si tant de grandeurs qu'on voudra sont proportionelles: comme l'vne des antecedentes sera à l'vne des consequentes, ainsi toutes les antecedentes seront à toutes les consequentes.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

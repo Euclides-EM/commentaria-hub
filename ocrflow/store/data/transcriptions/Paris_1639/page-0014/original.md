@@ -1,4 +1,4 @@
-<!-- # EXPLICATION DES NOTES. -->
+<!-- Running title: EXPLICATION DES NOTES. -->
 
 #### Explication des Notes.
 

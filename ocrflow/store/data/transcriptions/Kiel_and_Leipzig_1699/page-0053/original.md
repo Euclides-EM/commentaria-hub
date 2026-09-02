@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 35)* -->
+<!-- Page number: 35 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Beweiß.
 Die Beeden geraden Striche EC und DC werden entweder gerade auff einander stossen/ oder schrad zu sammen lauffen. Wann sie nicht gerade auff einander stossen /
@@ -29,5 +29,5 @@ Die Gipffel-Winckel (anguli ad verticem)
 1. Zween gerade Striche AB und DE. AEC ⋀ DEB.
 2. Welche einander durchschneiden in E. AED ⋀ CEB.
 
-<!-- signature mark: E 2 -->
-<!-- catchword: Be- -->
+<!-- Signature: E 2 -->
+<!-- Catchword: Be- -->

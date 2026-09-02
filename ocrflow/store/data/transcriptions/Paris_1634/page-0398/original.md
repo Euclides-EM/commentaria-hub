@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 1.a.1 | ▭.ab,ac 2|2 ▭.dea + □.ae,
 35.3 | ▭.bec 2|2 ▭.dea,
@@ -13,7 +12,7 @@ Estant donnee la base d'vn triangle, l'angle du sommet, & la raison des costez q
 
 Pappus lib. 7. propos. 155.
 
-*[Figure: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas ; l'angle G & les lignes L, M à part]*
+[Figure: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas ; l'angle G & les lignes L, M à part]
 
 Hypoth.
 

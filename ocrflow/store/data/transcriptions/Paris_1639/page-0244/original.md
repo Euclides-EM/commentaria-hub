@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ## THEOR. XXIV. PROPOS. XXIV.
 
 Si la premiere a mesme raison à la seconde que la troisiesme à la quatriesme, & que la cinquiesme ait aussi mesme raison à la seconde, que la sixiesme à la quatriesme: Aussi la composée de la premiere & de la cinquiesme aura mesme raison à la seconde, que la composée de la troisiesme & de la sixiesme à la quatriesme.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

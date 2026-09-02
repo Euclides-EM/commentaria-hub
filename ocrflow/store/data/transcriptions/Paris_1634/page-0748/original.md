@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID.. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID.. LI. XI. -->
 
 eodem consistentes plano: parallela sunt, quæ per illa ducuntur, plana.
 
 *Si deux lignes droictes se touchantes l'vne l'autre, sont paralleles à deux autres lignes droictes se touchantes l'vne l'autre; n'estans pas en vn mesme plan: les plans menez par icelles lignes sont paralleles.*
 
-<!-- D / A G F / C I / B E H (figure) -->
+[Figure: labels arranged D / A G F / C I / B E H]
 
 Hypoth.
 

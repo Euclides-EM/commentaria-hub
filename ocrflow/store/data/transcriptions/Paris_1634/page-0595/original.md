@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 suppos. | a, comm. e,
 1.concl. 10.10 | c, comm. f,

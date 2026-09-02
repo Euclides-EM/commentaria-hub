@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 poinct en blanc sera 275 pas geometriques, & la portée morte ou totale 641 pas : en l'esleuation de 7 1/2 degrez, 1100 pas : en 15 degrez 1769 : en 22 1/2 degrez, 2210 : en 30 deg. 2592 : en 37 1/2 deg. 2745 : en 45 deg. 2750 : & les portées mortes des autres canons de plus grands ou moindres calibres, s'augmentent aussi enuiron cette proportion pour chaque 7 1/2 degrez d'esleuation.
 

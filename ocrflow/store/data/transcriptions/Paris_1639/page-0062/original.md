@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -44,7 +44,7 @@ c *eſt* • D.
 
 8.& 4.1 | cg ⊥ ab.
 
-*[Figure]*
+[Figure]
 
 ## THEOR. VI. PROPOS. XIII.
 

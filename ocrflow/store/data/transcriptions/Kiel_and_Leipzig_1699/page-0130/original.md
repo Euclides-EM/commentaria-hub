@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 112)* -->
+<!-- Page number: 112 -->
 
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
 2 | 2
 2 □ gf | 2 □ cd | n. 6. Gr. i. I.
@@ -39,4 +39,4 @@ d | b — e | n 6 Geg.
 dd | bb — 2be + ee | n. 4. II.
 Dw. cc + dd | 2bb + 2ee. | n. 1. Gr. 1. W. Z B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

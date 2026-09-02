@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 ## PROBL. I. PROPOS. I.
 
@@ -7,7 +6,7 @@ SVper data recta linea terminata, triangulum æquilaterum constituere.
 
 Sur vne ligne droicte donnée & terminée, descrire vn triangle equilateral.
 
-*[Figure: deux cercles s'entrecoupant, centres A et B, points D, C, E en haut, triangle ABC inscrit]*
+[Figure: deux cercles s'entrecoupant, centres A et B, points D, C, E en haut, triangle ABC inscrit]
 
 Hypoth.
 

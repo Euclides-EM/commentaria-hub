@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 47. 1 | □ac 2|2, ½ □gf,
 9. a. 1 | ⊙abcd 3|2 □.ac,
@@ -13,7 +12,7 @@ Circuli inter se sunt, quemadmodum à diametris quadrata.
 
 *Les cercles sont l'vn à l'autre comme les quarrez de leurs diametres.*
 
-<!-- A / K V P E / L O / Q / B D F H / I / K / S T / M N / C G (figure) -->
+[Figure: labels arranged A / K V P E / L O / Q / B D F H / I / K / S T / M N / C G]
 
 Hypoth.
 

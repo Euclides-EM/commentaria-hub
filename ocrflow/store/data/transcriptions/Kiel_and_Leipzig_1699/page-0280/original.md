@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 256)* -->
+<!-- Page number: 256 -->
 
 ## Der IX. Vortrag.
 
@@ -10,7 +10,7 @@ Welche Grössen zu einer einigen Grösse gleiche Verhältnüß haben / dieselbig
 
 ### Gegebene. — Begehrtes.
 
-*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
 A : a | B : a — A | B.
 
@@ -33,9 +33,9 @@ Beedes aber ist wider das Gegebene: müssen derowegen A und B gleichgroß seyn.
 
 ### Gegebene. — Begehrtes.
 
-*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
 a : A | a : B — A | B
-<!-- signature mark: B -->
+<!-- Signature: B -->
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

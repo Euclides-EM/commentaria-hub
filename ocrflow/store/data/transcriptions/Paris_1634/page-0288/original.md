@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 ## THEOR. I. PROPOS. I.
 
@@ -12,7 +11,7 @@ Hypoth.
 ab multipl.. | e,
 cd multipl.. | f. α
 
-*[Figure: deux lignes A—G—H—B et E ; C—I—K—D et F]*
+[Figure: deux lignes A—G—H—B et E ; C—I—K—D et F]
 
 Req. π. demonstr.
 

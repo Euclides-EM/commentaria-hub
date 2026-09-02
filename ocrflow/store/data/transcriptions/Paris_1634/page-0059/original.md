@@ -1,5 +1,4 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 Postulatum à problemate sola construendi facilitate differt : nulla enim inest difficultas exhibendi quod exposcit postulatum, nec opus est demonstrare quæsitum esse factu possibile, & qua ratione ac methodo possit fieri : quoniam in postulato constructio quæsiti, & demonstratio constructionis per se sunt perspicua ; in problemate verò, constructio quæsiti non est ita manifesta, vt non indigeat demonstratione. | Le postulat differe du probleme de la seule facilité de construire, car il n'y a aucune difficulté d'exhiber le requis du postulat, & n'est pas besoin de monstrer que le requis se peut faire, ny comment, & par quelle methode il se peut faire : parce que postulat la construction du requis, & la demonstration de la construction, sont d'elles-mesmes manifestes : mais au probleme, la construction du requis n'est pas si manifeste qu'elle n'aye besoin de demonstration.
 

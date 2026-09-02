@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 318)* -->
+<!-- Page number: 318 -->
 
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
 ### Vorbereitung.
 
@@ -33,4 +33,4 @@ u. ba : cd | bc : CE — n. 11. V.
 cd | CD — n. 3. Vorb.
 ba | ba
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

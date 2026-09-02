@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 212)* -->
+<!-- Page number: 212 -->
 
 ### Beweiß.
 
@@ -32,6 +32,6 @@ Kreyß adfh 1. □ bceg.
 2. Und durch diesen Durchschlag/und zwar durch den Mittel-Düpffel o werde ein Senckstrich af gezogen/ n. 11. I.
 3. Auff dieses Durchschlages Endungen a, d, f, h. werden zu beeden Seiten Senckstriche de, db; ab, ac; hc, hg; fg, fe gesetzet/ n. 11. I.
 
-*[Figur: Kreis mit Mittel-Düpffel o, Rührdüpffeln a, d, f, h; umbeschriebenes Viereck bceg mit den Ecken b, c, g, e; punktierter Senckstrich af, Durchschlag dh]*
+[Diagram: Kreis mit Mittel-Düpffel o, Rührdüpffeln a, d, f, h; umbeschriebenes Viereck bceg mit den Ecken b, c, g, e; punktierter Senckstrich af, Durchschlag dh]
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 22.1. | △agh & △dcf snt æquil.
 symp. | <a 2|2 <d.
@@ -13,7 +12,7 @@ concl. 8.1. | <gah 2|2 <cdf.
 
 ## CONSTR.. PRA.
 
-*[Figure: triangle BAC, A en haut, poincts F & G sur les costez ; ligne verticale N—D—H—E, poinct L à droicte, arcs se coupans en L]*
+[Figure: triangle BAC, A en haut, poincts F & G sur les costez ; ligne verticale N—D—H—E, poinct L à droicte, arcs se coupans en L]
 
 Hypoth.
 

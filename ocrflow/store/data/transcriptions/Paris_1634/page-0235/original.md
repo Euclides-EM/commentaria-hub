@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 A l'entour d'vn cercle donné, descrire vn triangle, equiangle à vn triangle donné.
 
-*[Figure: triangle D—E—F auec la base prolongée en la ligne G—E—F—H ; triangle L—M—N auec cercle A—C—B au dedans, I au centre, lignes I—A, I—C, I—B]*
+[Figure: triangle D—E—F auec la base prolongée en la ligne G—E—F—H ; triangle L—M—N auec cercle A—C—B au dedans, I au centre, lignes I—A, I—C, I—B]
 
 Hypoth.
 

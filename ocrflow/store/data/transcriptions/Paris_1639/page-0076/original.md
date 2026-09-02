@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtr.
 
@@ -29,7 +29,7 @@ conſtr. | dg 2|2 ac,
 19.1 | eg 3|2 ef,
 concl. α.1.a.d | bc 3|2 ef.
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr. du 2.cas.
 

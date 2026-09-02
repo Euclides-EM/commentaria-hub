@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 Cette proposition est de soy manifeste, car de la mesme quantité que l'angle obtus ABC excede l'angle droict EBC, l'angle aigu ABD est excedé par l'angle droict EBD. Neantmoins pour la demonstrer par les principes donnez cy deuant, le syllogisme ou raisonnement se fait ainsi. Les deux angles droicts EBC & EBD sont égaux aux trois angles EBC, EBA & ABD : mais l'obtus ABC & l'aigu ABD sont aussi égaux aux trois mesmes angles EBC, EBA, & ABD : par consequent l'obtus & l'aigu sont égaux aux deux angles droicts.
 
@@ -14,7 +14,7 @@ Cette proposition est la conuerse de la precedente, car en icelle on a demonstr�
 
 ∠abc + ∠abd *ſnt* 2|2 2┘.
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſt.
 

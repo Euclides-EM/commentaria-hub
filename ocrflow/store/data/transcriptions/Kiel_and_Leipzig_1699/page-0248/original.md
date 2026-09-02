@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 224)* -->
+<!-- Page number: 224 -->
 
 ### Beweiß.
 
@@ -30,6 +30,6 @@ Fünffeck bgefd — 1. Kreyß fegbd
 2. umb das Fünffeck
 beschrieben.
 
-*[Figur: Kreis mit einbeschriebenem Fünffeck f d b g e, aus dem Mittelpunkt a laufen gerade Striche zu den Ecken]*
+[Diagram: Kreis mit einbeschriebenem Fünffeck f d b g e, aus dem Mittelpunkt a laufen gerade Striche zu den Ecken]
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

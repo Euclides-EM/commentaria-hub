@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtr.
 
@@ -20,7 +20,7 @@ concl. 21.a.1 | ad == bc.
 
 Les triangles égaux constituez sur bases égales, & de mesme part, sont entre mesmes paralleles.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

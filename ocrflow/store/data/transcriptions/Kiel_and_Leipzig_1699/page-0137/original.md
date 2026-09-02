@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 119)* -->
+<!-- Page number: 119 -->
 
 mal genommene Vier-Eck/ welches von der einen Seite/ und von dieser Seiten Verlängung biß zum Senckstrich / so aus dem Ende der andern Seite auff solche Verlängung fället/ gemacht wird.
 
@@ -11,7 +11,7 @@ mal genommene Vier-Eck/ welches von der einen Seite/ und von dieser Seiten Verl�
 3. Verlängung bd.
 4. Senckstrich cd.
 
-*[Figur: stumpfwinkliges Dreieck a b c; die Grundlinie ab ist punktiert bis d verlängert, von c fällt ein punktierter Senkstrich auf d]*
+[Diagram: stumpfwinkliges Dreieck a b c; die Grundlinie ab ist punktiert bis d verlängert, von c fällt ein punktierter Senkstrich auf d]
 
 ### Beweiß.
 
@@ -27,4 +27,4 @@ ad | ab + bd
 □ bd + □ cd | □ bd + □ cd
 □ ac | □ ab + 2 ▭ abd + □ cb | n. 3. Gr. I.
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

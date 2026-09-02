@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
 partesque primi tum inter se, tum partibus secundi sunt æquales, necnon partes tertij, inter se & partibus quarti. Et contrà, cum partes primi tum inter se, tùm partibus secundi sunt æquales, necnon partes tertij, inter se & partibus quarti, & multitudo partium primi est æqualis multitudini partium tertij, necnon multitudo partium secundi multitudini partium quarti; primus numerus est eædem partes secundi, quæ tertius quarti.
 

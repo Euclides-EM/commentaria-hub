@@ -1,8 +1,8 @@
-# GEOMET. ELEMENT.
+<!-- Running title: GEOMET. ELEMENT. -->
 
 Si nanq̃ h,k/ magnitudinibus inæqualibus, æquales adiungantur magnitudines l,m: conſurgent inæquales adinuicem magnitudines h/l/ & k/m. Aut ſi ab eiſdem inæqualibus ma-
 
-*[diagram: h l, k m]*
+[Diagram: h l, k m]
 
 gnitudinibus datis h/l/ & k/m, æquales auferantur l/ & m, quæ relinquentur h/ & k/ magnitudines, erũt adinuicem inæquales. Vnde & verſa vice, ſi æqualibus inæqualia adiungantur, vel ab æqualibus inæqualia auferantur: conſurgent, aut relinquentur inæqualia. Hæ ſunt igitur quinque præcipuæ communes ſententiæ, rationem æqualitatis inter magnitudines, atq̃ inuicẽ comparabilia, tum facta inuicem comparatione, tum addendo, ſubtrahendóve occurrentem, reſpicientes.
 
@@ -10,11 +10,13 @@ gnitudinibus datis h/l/ & k/m, æquales auferantur l/ & m, quæ relinquentur h/ 
 
 ## Quæ eiuſdem duplicia ſunt, adinuicem ſunt æqualia. 6
 
-> Cõmunis ſentẽtia p ratione maioris inæqualitatis.
+[Margin]
+Cõmunis ſentẽtia p ratione maioris inæqualitatis.
+[/Margin]
 
 Hoc eſt, quę eiuſdem ſunt æquè multiplicia, vel æquè ſuperparticularia, aut æquè ſuperpartientia, vel (vt ſummatim comprehendam) æquè maiora: ea ſunt adinuicẽ æqualia, nempe quòd æquali exceſſu eandem ſuperent magnitudinem. Vt
 
-*[diagram: n p o]*
+[Diagram: n p o]
 
 ſi n/ & o/ magnitudines, eiuſdẽ magnitudinis p/ ſint ęquè maiores, vtpote duplæ: neceſſum eſt eaſdẽ magnitudines n/ & o/ fore adinuicem æquales. Nam æqualibus magnitudinibus ipſi p/ in eiſdem n/ & o/ comprehenſis, æquales adduntur exceſſus. Idem cenſeto de numeris, & quibuſcunq̃ inuicem comparabilibus rebus, eandem ad tertiã maioris inæqualitatis rationem obtinentibus.
 
@@ -22,11 +24,13 @@ Hoc eſt, quę eiuſdem ſunt æquè multiplicia, vel æquè ſuperparticularia,
 
 ## Et quæ eiuſdem ſunt dimidium, æqualia ſunt adinuicem. 7
 
-> cõ. ſententia, pro ratiõe minoris inæqualitatis.
+[Margin]
+cõ. ſententia, pro ratiõe minoris inæqualitatis.
+[/Margin]
 
 Hæc communis ſententia, pro magnitudinibus rationẽ minoris inæqualitatis ad eandem tertiam obſeruantibus magnitudinẽ, ita venit intelligenda: vt
 
-*[diagram: q s r]*
+[Diagram: q s r]
 
 quæcũq̃ eiuſdẽ ſunt ęquè ſubmultiplicia, aut ſubſuperparticularia, vel ſubſuperpartientia, hoc eſt, æquè minora, ea ſunt adinuicem æqualia. Vtpote, ſi q/ & r/ magnitudines, eiuſdem magnitudinis s/ ſint (verbi gratia) ſubduplæ: illæ erunt adinuicem æquales, propterea quòd æquali ab eadem magnitudine ſuperentur exceſſu.
 
@@ -50,8 +54,12 @@ Prius q̃ enim ſuperficiẽ cõcludere valerẽt: operępretiũ eſſet, gemina
 
 ## De Problemate, Theoremate, atque Hypotheſi.
 
-> Problemata. Theoremata
+[Margin]
+Problemata. Theoremata
+[/Margin]
 
 EX HIS ITAQVE SANE QVAM INTELLECTIS PRINCIpijs, colliguntur problemata: hoc eſt, ambiguæ propoſitiones, ſciſcitationéſve, practicas figurarũ affectiones diſcutiẽtes: & Theoremata, id eſt, ſpeculatiuæ propoſitiones, præceptionis vtcũq̃ participes, quæ ſingulis accidunt figuris ſola inſpectione diiudicãtes. Quæ quidẽ omnia tali ſunt artificio ab Euclide diſtributa, vt ex antecedentibus omnis ſubſequentiũ videatur pendere comprobatio: fiátq̃ mutua ſubminiſtratio ſingulorum inter ſeſe & problematum & theorematum. Quibus ſuffragantur hypotheſes, hoc eſt, ex pręuia ſupradictorum cognitione, aſſumenti conceſſæ ſuppoſitiones.
 
-> Hypotheses.
+[Margin]
+Hypotheses.
+[/Margin]

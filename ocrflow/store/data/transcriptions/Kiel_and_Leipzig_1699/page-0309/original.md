@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 285)* -->
+<!-- Page number: 285 -->
 
 ### Anmerckung.
 
@@ -14,7 +14,7 @@ Wenn man vier Grössen hat / deren Erste zu der Andern eine grössere Verhältn�
 
 ### Gegebene.
 
-*[Figur: fünf Linien A, a, B, b, c von verschiedener Länge am linken Rand]*
+[Diagram: fünf Linien A, a, B, b, c von verschiedener Länge am linken Rand]
 
 A : a ⊣ B : b
 
@@ -28,6 +28,6 @@ Man nehme darzu eine Grösse c, zu welcher sich B also verhalte/wie A zu a.
 
 B : c | A : a.
 
-<!-- signature mark: Nn 3 -->
+<!-- Signature: Nn 3 -->
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

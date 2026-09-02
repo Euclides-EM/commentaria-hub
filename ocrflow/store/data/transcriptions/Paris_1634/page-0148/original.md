@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 ▭.ab 2|2 ▭.bad + ▭.abd.
 
-*[Figure: quarré C—F—G en haut, A—D—B en bas, ligne F—D]*
+[Figure: quarré C—F—G en haut, A—D—B en bas, ligne F—D]
 
 Præpar.
 

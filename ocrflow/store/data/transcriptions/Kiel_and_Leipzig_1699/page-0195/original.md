@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 177)* -->
+<!-- Page number: 177 -->
 
 ### Gegebene.
 1. Gleichgrosse Kreysse ahca | dged
@@ -10,7 +10,7 @@
 1. ahc ⏀ dge
 2. ac ⊻ de
 
-*[Figur: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, f, d, e, der andere mit h, b, a, c; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]*
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, f, d, e, der andere mit h, b, a, c; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]
 
 ### Vorbereitung.
 Es werden gezogen die Stralen ba, bc, fd, fe.
@@ -29,5 +29,5 @@ oder ahc ⏀ dge
 ### Beschluß.
 Müssen derowegen gleichlange Striche in gleichgrossen Kreysen allezeit gleichgrosse Bogen / und zwar den grossen dem grössern/ und den kleinen dem kleinern in gleicher Grösse abschneiden. W. Z. B.
 
-<!-- signature mark: Q -->
-<!-- catchword: Der -->
+<!-- Signature: Q -->
+<!-- Catchword: Der -->

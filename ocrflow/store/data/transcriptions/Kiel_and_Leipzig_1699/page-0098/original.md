@@ -1,6 +1,6 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 80)* -->
+<!-- Page number: 80 -->
 
 ### Beweiß.
 
@@ -41,4 +41,4 @@ Gerader Strich AB | □ ABCD
 5. CD | CB n. 2. Vortr.
 6. Aus A werde gezogen AD
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

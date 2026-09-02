@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 355)* -->
+<!-- Page number: 355 -->
 
 Dw. △ abc : △ abg | △ abc : △ def n. 7. V.
 u. △ abc : △ def ⊐ bc : ef n. 11. V.
@@ -29,7 +29,7 @@ Die ähnlichen Vielecke stehen auch gegen einander in zwiefach grösserer Ebenma
 2. Gleichviele/ und
 3. mit denen Fünfecken/ Verhältnüß-ähnliche Dreyecke abgetheilet.
 
-*[Figur: zwei Fünfecke; das kleinere mit den Ecken f, g, k, h, i und punktierten Diagonalen; das grössere mit den Ecken a, b, e, c, d und punktierten Diagonalen]*
+[Diagram: zwei Fünfecke; das kleinere mit den Ecken f, g, k, h, i und punktierten Diagonalen; das grössere mit den Ecken a, b, e, c, d und punktierten Diagonalen]
 
-<!-- signature mark: Y y 2 -->
-<!-- catchword: Vorbe- -->
+<!-- Signature: Y y 2 -->
+<!-- Catchword: Vorbe- -->

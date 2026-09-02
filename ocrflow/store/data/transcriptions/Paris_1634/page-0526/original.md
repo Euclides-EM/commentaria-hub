@@ -1,5 +1,4 @@
-
-<!-- # ELEM. EVCLID. LI. VIII. -->
+<!-- Running title: ELEM. EVCLID. LI. VIII. -->
 
 A,5. C,4. B,3.
 

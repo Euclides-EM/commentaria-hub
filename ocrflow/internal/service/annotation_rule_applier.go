@@ -224,7 +224,7 @@ func (a *AnnotationRuleApplier) applyLLMTranscriptionCorrector(imgPath string, a
 		PageKeys:          pageKeys,
 		ImagesDir:         imgPath,
 		OutputDir:         a.fileSysMgt.AnnotationTxtTranscriptionDir(ann),
-		Rounds:            transcriptioncorrector.DefaultRounds,
+		Rounds:            rule.Rounds,
 		Provider:          strings.TrimSpace(rule.Provider),
 		Model:             strings.TrimSpace(rule.Model),
 	}

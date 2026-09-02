@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 mum in se ipsum rursus reuoluitur, vnde cæperat moueri, circumassumpta figura.
 

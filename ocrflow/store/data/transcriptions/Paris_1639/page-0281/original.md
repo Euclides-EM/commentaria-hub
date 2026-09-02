@@ -1,8 +1,8 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 blables de celuy qui est appliqué à la moitié, & de celuy qui doit defaillir d'vn semblable.
 
-*[Figure]*
+[Figure]
 
 #### Hypotheſe.
 

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 157)* -->
+<!-- Page number: 157 -->
 
 ## Der XV. Vortrag.
 
@@ -16,7 +16,7 @@ Jn jedwedem Kreyß ist/ unter allen geraden Strichen/der Durchschlag am längste
 4. Strich bc näher bey a, als hg.
 5. bc weiter vom Mittel-Düpffel/als en.
 
-*[Figur: Kreis mit Mittel-Düpffel a, Durchschlag ml, Sehnen hg (mit Punkt i), ef (mit Punkten k, o), en, bc (mit Punkt d), punktierte Stralen von a nach h, e, g, f]*
+[Diagram: Kreis mit Mittel-Düpffel a, Durchschlag ml, Sehnen hg (mit Punkt i), ef (mit Punkten k, o), en, bc (mit Punkt d), punktierte Stralen von a nach h, e, g, f]
 
 ### Vorbereitung.
 
@@ -24,5 +24,5 @@ Jn jedwedem Kreyß ist/ unter allen geraden Strichen/der Durchschlag am längste
 2. Er gleichweit mit bc von dem Mittel-Düpffel abstehe.
 3. Deßgleichen werden die Stralen ha, ea, ga, fa, na.
 
-<!-- signature mark: V 3 -->
-<!-- catchword: 4. Wie -->
+<!-- Signature: V 3 -->
+<!-- Catchword: 4. Wie -->

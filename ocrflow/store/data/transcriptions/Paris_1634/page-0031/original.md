@@ -1,5 +1,4 @@
-
-<!-- # EXPLICATION DES CITATIONS. -->
+<!-- Running title: EXPLICATION DES CITATIONS. -->
 
 5d 48.10 { Quinta definitio quadragesimæ octauæ decimi libri. / Cinquiesme definition de la quarante-huictiesme du dixiesme liure.
 

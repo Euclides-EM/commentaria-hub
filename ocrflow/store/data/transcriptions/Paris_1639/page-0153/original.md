@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 ### SCHOL. V.
 
@@ -12,7 +12,7 @@ Car en la figure precedente, si sur la ligne infinie BE, le poinct C va tousiour
 
 D'vn poinct donné, mener vne ligne droicte, qui touche vn cercle donné.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

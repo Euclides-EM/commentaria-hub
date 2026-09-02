@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 sextam : prima quoque ad secundam maiorem rationem habebit, quàm quinta ad sextam.
 
 Si la premiere a mesme raison à la seconde que la troisiesme à la quatriesme ; mais la troisiesme a plus grande raison à la quatriesme, que la cinquiesme à la sixiesme : aussi la premiere aura plus grande raison à la seconde, que la cinquiesme à la sixiesme.
 
-*[Figure: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]*
+[Figure: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]
 
 Hypoth.
 

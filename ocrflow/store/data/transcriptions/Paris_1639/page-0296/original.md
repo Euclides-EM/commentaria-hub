@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 6 fois 6 sont 36, & 6 & 6 sont 48, pour 6 fois 8.
 7 fois 10 sont 70, moins 7 sont 63, pour 7 fois 9.

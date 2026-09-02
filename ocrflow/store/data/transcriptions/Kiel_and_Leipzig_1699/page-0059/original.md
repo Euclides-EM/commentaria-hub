@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 41)* -->
+<!-- Page number: 41 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Gegebene. Begehrte.
 1. △ ABC
@@ -8,7 +8,7 @@
 3. BCA ⲗ BAC. 2. BA ⊢ BC.
 4. ABC ⲗ BAC. 3. AC ⊢ BC.
 
-*[Figur: Rechtwinkliges Dreieck mit C oben, A unten links, B unten rechts.]*
+[Diagram: Rechtwinkliges Dreieck mit C oben, A unten links, B unten rechts.]
 
 ### Beweiß.
 Es sind die Seiten AC | AB
@@ -32,5 +32,5 @@ Solcher Gestalt muß in jedwedem △ der grösseste Winckel der längsten Seite 
 
 In jedwedem Dreyeck sind zwo Seiten zu-
 
-<!-- signature mark: F -->
-<!-- catchword: sam- -->
+<!-- Signature: F -->
+<!-- Catchword: sam- -->

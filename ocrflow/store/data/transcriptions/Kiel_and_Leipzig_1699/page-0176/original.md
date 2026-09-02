@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 158)* -->
+<!-- Page number: 158 -->
 
 4. Wie auch alle Senckstriche ad, ao, ak, ai.
 5. Aus dem Mittel-Düpffel a.
@@ -24,7 +24,7 @@ und en ⊣ bc — n. 1. Gr. c. I.
 
 bc gleichweit vom Mittel a mit ef — n. 2. Vorb.
 Dw. bc | ef — n. 14. III.
-hag ⋏ eaf (?) — n. 9. Gr. I.
+hag ⋏ [unclear: eaf] — n. 9. Gr. I.
 Dw. hg ⊢ ef — n. 24. I.
 und hg ⊢ bc — n. 1. Gr. d. I.
 
@@ -38,4 +38,4 @@ Jst also der Durchschlag ml der längste Strich: die Striche so näher bey dem M
 
 Derjenige Strich/ welchen man auff das Ende eines Durchschlages rechtwincklicht setzet, wird
 
-<!-- catchword: nicht -->
+<!-- Catchword: nicht -->

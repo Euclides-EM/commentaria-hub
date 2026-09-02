@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 391)* -->
+<!-- Page number: 391 -->
 
 |  |  |  |  |
 |---|---|---|---|
@@ -49,4 +49,4 @@ oder:
 | Dw. | ⌒ fg : ⌒ bc \| ⌓ fhg : ⌓ bdc | n. 6. Besch. V. |
 | und | ∧ fhg : ∧ bdc \| ⌓ fhg : ⌓ bdc | n. 11. V. |
 
-<!-- catchword: Beschluß -->
+<!-- Catchword: Beschluß -->

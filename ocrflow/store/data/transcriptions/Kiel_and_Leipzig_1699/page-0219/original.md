@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 201)* -->
+<!-- Page number: 201 -->
 
 und ak | ad n. 2. Gr. u. II.
 cd | ck n. 15. Beschr. I.
@@ -25,6 +25,6 @@ II. Gleicherweise wird eine einer andern Gestalt umbschriebene Gestalt genennet 
 
 III. Eine geradstrichichte Gestalt wird einem Kreyß eingeschrieben genennet / wenn sie mit ihren Ecken den Umbkreyß oder Umbfang berühret.
 
-<!-- signature mark: C c -->
+<!-- Signature: C c -->
 
-<!-- catchword: IV. Eine -->
+<!-- Catchword: IV. Eine -->

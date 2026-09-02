@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 quadrilateris, quarum, quæ ex aduerso, parallelæ sunt contenta.
 

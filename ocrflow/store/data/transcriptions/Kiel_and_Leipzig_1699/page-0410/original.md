@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 380)* -->
+<!-- Page number: 380 -->
 
 |  |  |  |  |
 |---|---|---|---|
@@ -30,6 +30,6 @@ Gerader Strich ab,
 1. Strich ab getheilet
 2. Bey 1 nach äuserster und mittelster Verhältnüß.
 
-*[Figur: geometrische Konstruktion aus Quadraten und punktierten Linien mit den Punkten f, a, i, c, b, e, h, g, k, d, m]*
+[Diagram: geometrische Konstruktion aus Quadraten und punktierten Linien mit den Punkten f, a, i, c, b, e, h, g, k, d, m]
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

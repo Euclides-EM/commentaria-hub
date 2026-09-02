@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-<!-- # ELEM.. EVCLID. LI. V. -->
-
-*[Figure: lignes E, A, B, F ; G, C, D, H]*
+[Figure: lignes E, A, B, F ; G, C, D, H]
 
 Demonstr.
 

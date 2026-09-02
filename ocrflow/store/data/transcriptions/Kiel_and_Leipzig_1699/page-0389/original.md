@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 359)* -->
+<!-- Page number: 359 -->
 
 che gegeben werden/ so werden auch die von solchen Strichen beschriebene Vielecke ebenmässig seyn.
 
@@ -17,11 +17,11 @@ ab : cd | ef : gh
 □ el ähnlich □ gi
 4. Gleicher weise gesetzet.
 
-*[Figur: grosses Dreyeck a o b, daneben kleineres Dreyeck c n d mit Strich p, dann Viereck e m l f und kleineres Viereck g k i h mit Strich q; darunter zwey Striche a b e h mit punktierten Linien und den Bezeichnungen d p, c, d, g, hq]*
+[Diagram: grosses Dreyeck a o b, daneben kleineres Dreyeck c n d mit Strich p, dann Viereck e m l f und kleineres Viereck g k i h mit Strich q; darunter zwey Striche a b e h mit punktierten Linien und den Bezeichnungen d p, c, d, g, hq]
 
 ### Vorbereitung.
 
 1. Es werde zu denen beyden Strichen ab und cd der dritte ebenmässige Strich p gefunden n. 11. VI.
 ab : cd | cd : p.
 
-<!-- catchword: 2. Auch -->
+<!-- Catchword: 2. Auch -->

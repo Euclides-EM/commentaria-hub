@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 
@@ -13,7 +13,7 @@ concl. 7.a.1 | △bca 2|2 △bcd.
 
 Les triangles constituez sur bases égales, & entre mesmes paralleles, sont égaux entr'eux..
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

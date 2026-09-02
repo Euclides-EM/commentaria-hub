@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 11.1 | gah ⊥ fa,
 | hbi ⊥ fb,
@@ -11,7 +10,7 @@
 | snt △,
 symp. | 5<ghikl est req.
 
-*[Figure: pentagone G—E—L—D—K—C—I—B—H—A circonscrit à vn cercle, F au centre, auec toutes les lignes menées du centre]*
+[Figure: pentagone G—E—L—D—K—C—I—B—H—A circonscrit à vn cercle, F au centre, auec toutes les lignes menées du centre]
 
 Præpar.
 

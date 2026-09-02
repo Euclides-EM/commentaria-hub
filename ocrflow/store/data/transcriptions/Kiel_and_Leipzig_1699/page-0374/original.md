@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 344)* -->
+<!-- Page number: 344 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ### I. Gegebene.
 
@@ -13,7 +13,7 @@
 
 AB : DE ⊤ EF : BC.
 
-*[Figur: Dreyecke D E A, F B C oben; darunter die Punkte d, e, b, a und der punktierte Strich nach c]*
+[Diagram: Dreyecke D E A, F B C oben; darunter die Punkte d, e, b, a und der punktierte Strich nach c]
 
 ### I. Vorbereitung.
 
@@ -36,4 +36,4 @@ AB : DE ⊤ EF : BC.
 |  | △ efd ⊤ △ FED | n. 4. I. |
 |  | △ ABC ⊤ △ EFD | n. 4. Gegeb. |
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

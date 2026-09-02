@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 8.concl. 12.5 | abcde π fghik,
 | Δabc π Δfgh,

@@ -1,8 +1,8 @@
-<!-- *(Seitenzahl: 134)* -->
+<!-- Page number: 134 -->
 
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-*[Figur: Kreis mit Düpffeln e (oben), f (unten), b (links), c (rechts), Mittel-Düpffel a und Düttel d, punktierte Striche von b und c nach a]*
+[Diagram: Kreis mit Düpffeln e (oben), f (unten), b (links), c (rechts), Mittel-Düpffel a und Düttel d, punktierte Striche von b und c nach a]
 
 ### Vorbereitung.
 
@@ -27,4 +27,4 @@ bd | dc — n. 26. I.
 
 Wird also allezeit/ wenn ein Strich von einem Ende des Umbfangs e, durch denn Mittel-Düpffel a, biß zum andern Ende f gehet/ und einen im Kreyß stehenden Strich bc in zween gleiche Theil bd | dc schneidet/ mit dem Strich bc ⊥ machen: oder/ wenn er mit solchem Strich ⊥ machet / denselben auch in zweene gleiche Theile theilen. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

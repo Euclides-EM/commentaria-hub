@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Preparation.
 
@@ -21,7 +21,7 @@ concl. 35.d.1 | abdc *eſt* ◊.
 
 De ce scholie est manifeste la demonstration d'vne methode plus brieue de mener vne ligne droicte, par vn poinct donné, parallele à vne ligne droicte donnée.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

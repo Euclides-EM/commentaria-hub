@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 327)* -->
+<!-- Page number: 327 -->
 
 ### Vorbereitung.
 
@@ -19,7 +19,7 @@ u. | cb | cg | n. 9. V.
 Dw. | cgb ⋏ cbg | n. 5. I.
 | cbg ⋏ nicht kleiner als ∟ | n. 1. Geg.
 Dw. auch | cgb ⋏ nicht kleiner als ∟ | n. 1. Gr. d. I.
-u. | cbg + cgb ⋏ nicht kleiner als ⌓ (?) | n. 2. Gr. I.
+u. | cbg + cgb ⋏ nicht kleiner als [unclear: ⌓] | n. 2. Gr. I.
 welches aber unmüglich n. 17. I.
 
 Derowegen muß | abc ⋏ def
@@ -31,4 +31,4 @@ Dw. △ abc gleichwincklicht △ def n. 1. Beschr. VI.
 
 Wenn derowegen zwey Dreyecke einen gleimässigen Winckel haben / die übrigen Winckel aber von ebenmässigen Seiten begriffen sind / und derer übrigen Winckel allezeit von zweyen jedweder kleiner / oder auch nicht kleiner / als ein rechter Winckel ist: So sind diejenigen Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / beyde Dreyecke auch gleichwincklicht. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

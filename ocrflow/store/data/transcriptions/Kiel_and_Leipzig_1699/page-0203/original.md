@@ -1,8 +1,8 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 185)* -->
+<!-- Page number: 185 -->
 
-*[Figur: Kreis mit einbeschriebenem Dreieck; Punkte g, e, d, f auf dem Kreis, Berührpunkt a unten mit Tangente b–c]*
+[Diagram: Kreis mit einbeschriebenem Dreieck; Punkte g, e, d, f auf dem Kreis, Berührpunkt a unten mit Tangente b–c]
 
 ### Vorbereitung.
 
@@ -33,6 +33,6 @@
 | eda + efa | ⋀ ⏥ | n. 22. III. |
 | bae + eac | ⋀ ⏥ | n. 13. I. |
 
-<!-- signature mark: Aa -->
+<!-- Signature: Aa -->
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

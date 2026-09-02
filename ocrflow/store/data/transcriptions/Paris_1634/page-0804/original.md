@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 Demonstr.
 
@@ -19,7 +18,7 @@ Præpar.
 1. app. | △mno 2|2 baſ. fghik, ε
 constr. | alt. p 2|2 alt. l, ε
 
-<!-- E L P / D C K I H O / A B F G M N (figure) -->
+[Figure: labels arranged E L P / D C K I H O / A B F G M N]
 
 Demonstr.
 

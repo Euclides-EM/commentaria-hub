@@ -1,9 +1,8 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 sunt inæqualia, illud nimirùm maius & hoc minus. | & à la plus petite la plus petite, les tous sont inegaux, celuy-là plus grand & cestuy-cy plus petit.
 
-*[Figure: ligne ABE en haut, ligne CDF au dessous]*
+[Figure: ligne ABE en haut, ligne CDF au dessous]
 
 hyp. | ab 3|2 cd.
 hyp. | be 3|2 df.
@@ -13,7 +12,7 @@ hyp. | be 3|2 df.
 
 Et si ab inæqualibus æqualia ablata sint, reliqua sunt inæqualia. | Et si de choses inegales on oste choses egales, les restes sont inegaux.
 
-*[Figure: ligne AEB en haut, ligne CFD au dessous]*
+[Figure: ligne AEB en haut, ligne CFD au dessous]
 
 hyp. | ab 3|2 cd.
 hyp. | eb 2|2 fd.
@@ -23,7 +22,7 @@ hyp. | eb 2|2 fd.
 
 Et si ab æqualibus inæqualia ablata sint, reliqua sunt inæqualia. | Et si de choses egales on oste choses inegales, les restes sont inegaux.
 
-*[Figure: ligne AEB en haut, ligne CFD au dessous]*
+[Figure: ligne AEB en haut, ligne CFD au dessous]
 
 hyp. | ab 2|2 cd.
 hyp. | ae 3|2 cf.

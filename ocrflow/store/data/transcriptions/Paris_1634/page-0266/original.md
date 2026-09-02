@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 1.d.5 | a, est par.. b,
 2.d.5 | b, est multipl.. a.

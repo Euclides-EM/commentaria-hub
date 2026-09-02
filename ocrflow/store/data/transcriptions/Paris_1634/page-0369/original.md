@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 1.s.23.6 | Δabc π Δdef 2|2 ▭.ab,bc π ▭.de,ef,
 concl. 11.5 | ◇bg π ◇eh 2|2 ▭.ab,bc π ▭.de,ef.
@@ -10,7 +9,7 @@ Triangula & parallelogramma inter se proportionem habent compositam ex proportio
 
 Les triangles & les parallelogrammes sont entr'eux, en raison composee, de la raison des bases, & de la raison des hauteurs.
 
-*[Figure: triangles et parallelogrammes A, G, M, L, N, H, D sur la base B, I, C, E, F, K]*
+[Figure: triangles et parallelogrammes A, G, M, L, N, H, D sur la base B, I, C, E, F, K]
 
 Hypoth.
 

@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 #### Demonſtr.
 
@@ -19,7 +19,7 @@ hyp. | ∪ ac 2|2 ∪ df,
 edbc *eſt* ⊙,
 ∩ad 2|2 ∩bc. α
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtr.
 
@@ -43,4 +43,4 @@ Aux cercles égaux, les lignes droictes égales ostent circonferences égales, s
 gabc & hdef *ſnt* ⊙ 2|2 đe. α
 ac 2|2 df. α
 
-*[Figure]*
+[Figure]

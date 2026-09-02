@@ -1,6 +1,6 @@
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
-<!-- *(Seitenzahl: 17)* -->
+<!-- Page number: 17 -->
 
 ### Beschluß.
 
@@ -25,7 +25,7 @@ Einem gegebenen Strich/ aus einem gegebenen Düttel/ einen gleichlang-geraden St
 5. Aus dem Düttel d wird nach der länge de ein Kreyß ef beschrieben/ nach der III Foderung.
 6. Der Strich dc wird biß an den jetzt gezogenen Umbkreiß verlängt/nemblich zu dem Düttel f, nach der II Foderung.
 
-*[Figur: zwei punktierte Kreise, ein grosser und ein kleiner; darin die Punkte d, c, f oben, a, b in der Mitte und e unten, mit geraden Strichen verbunden]*
+[Diagram: zwei punktierte Kreise, ein grosser und ein kleiner; darin die Punkte d, c, f oben, a, b in der Mitte und e unten, mit geraden Strichen verbunden]
 
-<!-- signature mark: C -->
-<!-- catchword: Be- -->
+<!-- Signature: C -->
+<!-- Catchword: Be- -->

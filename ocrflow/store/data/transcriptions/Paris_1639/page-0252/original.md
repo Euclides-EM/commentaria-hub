@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ## THEOR. II. PROPOS. II.
 
 Si à l'vn des costez d'vn triangle on mene quelque ligne droicte parallele, elle coupera les costez du triangle proportionellement: Et si les costez sont couppez proportionellement, la ligne droite conjoignant les poincts des sections, sera parallele à l'autre costé du triangle,
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. 1.
 

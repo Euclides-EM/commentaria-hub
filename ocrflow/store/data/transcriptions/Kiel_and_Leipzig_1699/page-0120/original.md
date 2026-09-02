@@ -1,12 +1,12 @@
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- *(Seitenzahl: 102)* -->
+<!-- Page number: 102 -->
 
-*[Figur: Senkrechter Strich D B C A links; daran ein Quadrat mit f oben, innen gestrichelte Linien durch c und b, rechts gestrichelt erweitert bis d; unten gestrichelt bis e; Ecken a, c, b, d, e.]*
+[Diagram: Senkrechter Strich D B C A links; daran ein Quadrat mit f oben, innen gestrichelte Linien durch c und b, rechts gestrichelt erweitert bis d; unten gestrichelt bis e; Ecken a, c, b, d, e.]
 
 ### Beweiß.
 
-ac + cb | ab — n. 9. Gr. q. I. (?)
+ac + cb | ab — n. 9. Gr. q. [unclear: I.]
 □ ac + 2 □ acb + □ cb | □ ab — n. 4. II.
 db | cb
 n. 3. Gegeb.
@@ -21,9 +21,9 @@ da | ac + cd
 ac | ac
 □ dac | □ ac + □ acd
 n. 3. II.
-od (?) | cb + db
+[unclear: od] | cb + db
 ac | ac
 □ acd | □ acb + □ acdb
 n. 1. II.
 
-<!-- catchword: dac -->
+<!-- Catchword: dac -->

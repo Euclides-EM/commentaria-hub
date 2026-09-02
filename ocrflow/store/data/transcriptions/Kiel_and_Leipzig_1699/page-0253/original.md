@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 229)* -->
+<!-- Page number: 229 -->
 
 |  |  |  |  |
 |---|---|---|---|
@@ -18,8 +18,8 @@ Dem gegebenen Kreyß ein gleichseitig und gleichwincklicht Funffzehen-Eck einzus
 
 Kreyß abfdea. — 1. Funffzehn-Eck dgafe 2. dem Kreyß eingeschrieben.
 
-*[Figur: Kreis mit einbeschriebenem Fünfzehneck, darin punktiert ein Dreieck und ein Fünfeck; Punkte a, b, e, f, g, c, d, n, m]*
+[Diagram: Kreis mit einbeschriebenem Fünfzehneck, darin punktiert ein Dreieck und ein Fünfeck; Punkte a, b, e, f, g, c, d, n, m]
 
-<!-- signature mark: Ff 3 -->
+<!-- Signature: Ff 3 -->
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

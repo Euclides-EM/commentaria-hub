@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
 31.7 | e, est pr. π. r,
 23.7 | e & r snt term.. raō.

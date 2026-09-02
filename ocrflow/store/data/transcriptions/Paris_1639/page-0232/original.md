@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ## THEOR. XV. PROPOS. XV.
 
 Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles sont prises comme elles s'entre respondent.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -28,7 +28,7 @@ concl. 12.5 | ab π de 2|2 c π f.
 
 Si quatre grandeurs sont proportionelles, elles seront aussi alternatiuement proportionelles.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

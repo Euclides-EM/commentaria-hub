@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 45.1 | ◊cdef 2|2 a,
 45.1 | ◊cdgh 2|2 b,
@@ -14,7 +14,7 @@ concl. 3.a.1 | ◊gf 2|2 a~b.
 
 D'vne ligne droicte donnée, descrire vn quarré.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

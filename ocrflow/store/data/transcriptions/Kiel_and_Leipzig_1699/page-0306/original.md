@@ -1,10 +1,10 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 282)* -->
+<!-- Page number: 282 -->
 
 ### Gegebene.
 
-*[Figur: vier Linien mit den Bezeichnungen A und c, B, a, b am linken Rand]*
+[Diagram: vier Linien mit den Bezeichnungen A und c, B, a, b am linken Rand]
 
 A : | a :
 : B | : b
@@ -36,4 +36,4 @@ Wenn derowegen Sechs Grössen gegeben werden/deren I. zu der II. sich also verh�
 
 Wenn vier Ebenmässige Grössen gegeben werden/ so sind die Grösseste und Kleineste derselben grösser / als die beeden übrigen.
 
-<!-- catchword: Gegebene- -->
+<!-- Catchword: Gegebene- -->

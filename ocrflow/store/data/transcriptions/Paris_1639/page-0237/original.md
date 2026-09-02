@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 ## THEOR. XIX. PROPOS. XIX.
 
 Si le tout est au tout, comme le retranché au retranché; le reste sera aussi au reste, comme le tout est au tout.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

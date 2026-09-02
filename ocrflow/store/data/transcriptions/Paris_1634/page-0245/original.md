@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 1.p.1 | ed est —,
 3.1 | ef 2|2 ed,
@@ -8,7 +7,7 @@ symp. | df est √.5< inscri. in ⊙adbn.
 
 Demonstr. est in schol. 10..13.
 
-*[Figure: cercle auec D en haut, A à gauche, points F, C, E sur le diametre, H, K, L, O au dedans, G, M, N, P vers le bas]*
+[Figure: cercle auec D en haut, A à gauche, points F, C, E sur le diametre, H, K, L, O au dedans, G, M, N, P vers le bas]
 
 Explicat. p̄ nr.
 
@@ -34,7 +33,7 @@ Req. π. fa.
 
 circscri. π. ⊙abcde 5<ghikl æquilat. & æquiang.
 
-*[Figure: pentagone G—E—L—D—K—C—I—B—H—A circonscrit à vn cercle, auec toutes les lignes menées du centre]*
+[Figure: pentagone G—E—L—D—K—C—I—B—H—A circonscrit à vn cercle, auec toutes les lignes menées du centre]
 
 Constr.
 

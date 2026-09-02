@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
 Vt planus numerus plano numero sit similis, non necesse est, quælibet duo latera illius quibusuis duobus lateribus huius esse proportionalia : sed satis est, illum habere aliqua latera, quæ sint proportionalia quibusuis duobus lateribus huius vt numeri plani 24, & 6, similes sunt, quoniam illius latera 6, & 4, proportionalia sunt lateribus huius 3, & 2, quamuis his eisdem non sint proportionalia alia illius latera nempe 8, & 3, vel 12, & 2. Eodem modo intelligenda est definitio solidorum.
 

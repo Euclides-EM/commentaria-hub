@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVDLID. LI. II. -->
+<!-- Running title: ELEM.. EVDLID. LI. II. -->
 
 Req. π. demonstr.
 

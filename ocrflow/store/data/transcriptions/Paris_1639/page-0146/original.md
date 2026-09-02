@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Demonſtration.
 
@@ -9,13 +9,13 @@
 α.8.3 | ac 3|2 ag,
 1.a.d | ai 3|2 ag, *c.9.a.1.*
 
-*[Figure]*
+[Figure]
 
 ## THEOR. XII. PROPOS. XIII.
 
 Vn cercle ne touche point vn cercle à plus d'vn poinct: soit qu'il le touche au dedans, ou au dehors.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. 1.
 

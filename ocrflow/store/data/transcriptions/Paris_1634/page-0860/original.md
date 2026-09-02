@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 merus laterum cuiuslibet figuræ regularis; multiplicandæ sunt omnes bases in vnius basis latera, producti enim dimidium erit laterum omnium basium numerus: si enim 12. pentagona dodecaedrum constituentia multiplicentur per 5. numerum laterum vnius pentagoni fient 60. quorum dimidium est 30. numerus laterum dodecaedri. | *costez de chaque figure reguliere il faut multiplier le nombre de toutes les bases par le nombre des costez de chaque base, & la moitié du produit sera le requis; car par exēple, si on multiplie douze nombres des bases du dodecaedre, par cinq nombres des costez d'vn pentagone, le produit sera soixante, dont la moitié est trente, nombre des costez du dodecaedre.*
 

@@ -1,5 +1,4 @@
-
-<!-- # EXPLICATIO NOTARVM. -->
+<!-- Running title: EXPLICATIO NOTARVM. -->
 
 geometr. geometrica, geometrique.
 gnom. gnomon, gnomon.

@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-<!-- # ELEM.. EVCLID. LI. III. -->
-
-*[Figure: deux cercles ; le premier A—B—C, G au dedans, lignes A—B, B—C, A—C, G—A, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]*
+[Figure: deux cercles ; le premier A—B—C, G au dedans, lignes A—B, B—C, A—C, G—A, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]
 
 1.p.1 | ac & df snt —.
 
@@ -21,7 +20,7 @@ concl. s.24.3 | ∩ ac 2|2 ∩ df.
 
 ## SCHOL.
 
-*[Figure: cercle A—D—C—B, E au dedans, lignes A—D, B—C, A—C, B—D, A—B, D—C]*
+[Figure: cercle A—D—C—B, E au dedans, lignes A—D, B—C, A—C, B—D, A—B, D—C]
 
 Hypoth.
 

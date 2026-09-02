@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 167)* -->
+<!-- Page number: 167 -->
 
 ## Der XXI. Vortrag.
 
@@ -19,13 +19,13 @@ I. Arth.
 
 Es werde gezogen der Strahl ea
 
-*[Figur: Kreyßstück über der Sehne de mit den Punkten b oben und c rechts, Mitteldüpffel a; Striche bd, be, cd, ce und punktierter Strahl ae]*
+[Diagram: Kreyßstück über der Sehne de mit den Punkten b oben und c rechts, Mitteldüpffel a; Striche bd, be, cd, ce und punktierter Strahl ae]
 
 ### Beweiß.
 
-dbe (?) ∠ ½ dae
+[unclear: dbe] ∠ ½ dae
 dce ∠ ½ dae — n. 20. I.
-Dw. dce ∠ dbe (?) — n. 7. Gr. I.
+Dw. dce ∠ [unclear: dbe] — n. 7. Gr. I.
 
 II. Arth.
 
@@ -34,4 +34,4 @@ II. Arth.
 1. Werden auß den Winckeln b und c durch den Mittel-Düpffel a gezogen zween gerade Striche bg und cf.
 2. Werden auch die Strahlen da und ea gezogen.
 
-<!-- catchword: I. Be- -->
+<!-- Catchword: I. Be- -->

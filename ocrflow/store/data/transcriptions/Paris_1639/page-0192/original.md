@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 equiangle sont diuisez chacun en deux parties égales, & du poinct où se rencontrent les deux lignes qui diuisent les angles également soient menées des lignes droictes à tous les autres angles de la figure, tous les angles de la figure seront diuisez également.
 
@@ -26,7 +26,7 @@ abcde *eſt* 5∠ *equilat. & equiangle.*
 3.p.1 | fabcde *eſt* ⊙,
 ſymp. | ⊙abcde *eſt le requis.*
 
-*[Figure]*
+[Figure]
 
 #### Preparation.
 

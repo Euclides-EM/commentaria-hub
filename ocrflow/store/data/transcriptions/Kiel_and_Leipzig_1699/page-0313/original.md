@@ -1,13 +1,13 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 289)* -->
+<!-- Page number: 289 -->
 
 ## Der Anhang.
 Dieses gehet auch auf verkehrte Weise an.
 
 ### Gegebenes.
 
-*[Figur: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]*
+[Diagram: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]
 
 A : a ⊢ B : b
 
@@ -39,6 +39,6 @@ c : a | B : b.
 ### Beschluß.
 Wenn derowegen die I. zu der II. eine kleinere Verhältnüß / als die III. zu der IV. hat : So wird auch die I. und II. zu der II, eine kleinere Verhältnüß / als die III. und IV. zu der IV. haben. W. Z B.
 
-<!-- signature mark: Oo -->
+<!-- Signature: Oo -->
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

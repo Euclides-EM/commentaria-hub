@@ -1,6 +1,6 @@
-<!-- # Postulata. -->
+<!-- Running title: Postulata. -->
 
-<!-- *(Seitenzahl: 9)* -->
+<!-- Page number: 9 -->
 
 ## Foderungen oder Heischungen (Postulata.)
 
@@ -16,11 +16,11 @@ Weil man keine Erklärung oder Beweiß nachtrücklich anstellen kan/es werden de
 
 I. Welche zwo Grössen c oder b ( oder Zalen ) einer dritten Grösse a ( oder Zal ) gleich sind/ dieselbigen sind auch unter sich gleich.
 
-*[Figur: drei gleich lange Striche, bezeichnet mit b, a, c]*
+[Diagram: drei gleich lange Striche, bezeichnet mit b, a, c]
 
 (a) Welch Ding a grösser ist/als eins b von zwey gleichen Dingen/ das ist auch grösser / als das andere c.
 
-*[Figur: drei Striche, a länger, b und c kürzer und gleich lang]*
+[Diagram: drei Striche, a länger, b und c kürzer und gleich lang]
 
-<!-- signature mark: B -->
-<!-- catchword: (b) Welch -->
+<!-- Signature: B -->
+<!-- Catchword: (b) Welch -->

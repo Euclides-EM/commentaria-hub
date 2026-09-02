@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 233)* -->
+<!-- Page number: 233 -->
 
 XI. Verhältniß-ähnliche (Homologæ s. similes ratione) Grössen werden genennet die in der Ebenmaß stehende Vorgehende zu den Vorgehenden/u Nachgehende zu den Nachgehenden Grössen.
 
@@ -34,6 +34,6 @@ XV. Zertheilte Verhältniß ist/wenn man den überschuß / womit die Vorgehenden
 
 oder 2a : 4a | a : 2a.
 
-<!-- signature mark: Gg -->
+<!-- Signature: Gg -->
 
-<!-- catchword: XVI. Ver- -->
+<!-- Catchword: XVI. Ver- -->

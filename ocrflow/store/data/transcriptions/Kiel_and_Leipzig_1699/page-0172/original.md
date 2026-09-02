@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 154)* -->
+<!-- Page number: 154 -->
 
 ### Beschluß.
 
@@ -30,4 +30,4 @@ Erster Theil dieses Vortrages.
 2. Beede Striche werden in zween gleiche Theile geschnitten n. 10. I.
 3. Es werden auch die beeden Senckstriche ag, af gezogen. n. 12. I.
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

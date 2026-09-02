@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 quod à composita ex dimidia & adiuncta, tāquam ab vna, descriptum sit quadrati.
 
@@ -11,7 +10,7 @@ ac 2|2 cb,
 bd est arbitr.
 abd est —.
 
-*[Figure: triangle A—E—B avec E au sommet, F en haut à droite, C, B sur la base, D à droite, G en bas à droite, lignes E—F, F—D, A—G, E—G]*
+[Figure: triangle A—E—B avec E au sommet, F en haut à droite, C, B sur la base, D à droite, G en bas à droite, lignes E—F, F—D, A—G, E—G]
 
 Req. π. demonst.
 

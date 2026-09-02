@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 43)* -->
+<!-- Page number: 43 -->
 
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
 ### Beschluß.
 Sind derowegen in jedweden △ zwo Seiten grösser/ als die Dritte. W. Z. B.
@@ -20,12 +20,12 @@ Wenn in einem Dreyeck / auff einer dessen Seite Endsdüttele/ zween gerade Stric
 ### Vorbereitung.
 Es werde der Strich BD biß zu E verlängert.
 
-*[Figur: Dreieck ABC mit A oben, B unten links, C unten rechts; im Innern die Punkte D und E, Striche von B über D nach E und von C nach D und E.]*
+[Diagram: Dreieck ABC mit A oben, B unten links, C unten rechts; im Innern die Punkte D und E, Striche von B über D nach E und von C nach D und E.]
 
 ### Beweiß.
 CED ⲗ CDB |
 BAC ⲗ DEC | n. 16. Vortr.
 Drw. BAC ⲗ CDB n. 1. Grund-S. f.
 
-<!-- signature mark: F 2 -->
-<!-- catchword: CE -->
+<!-- Signature: F 2 -->
+<!-- Catchword: CE -->

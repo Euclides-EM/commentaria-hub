@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 95)* -->
+<!-- Page number: 95 -->
 
 bc | cb
 □ abc | □ acb + □ cb — n. 1. II.
@@ -39,4 +39,4 @@ oder a | b + c — n. 3. Gegeb.
 b | b
 ab | bb + bc — n. 1. II. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

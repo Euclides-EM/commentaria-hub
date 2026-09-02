@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 supposent qu'il y aye des nombres qui s'entresuiuent continuëment.
 

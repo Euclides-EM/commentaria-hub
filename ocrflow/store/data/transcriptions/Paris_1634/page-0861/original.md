@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 quitur numerum basium quinque figurarum regularium esse æqualem numero angulorum solidorum earumdem quinque figurarum. | *des bases des cinq figures regulieres est egal au nombre des angles solides des mesmes cinq figures.*
 

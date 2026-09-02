@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 249)* -->
+<!-- Page number: 249 -->
 
 ### Beschluß.
 
@@ -14,7 +14,7 @@ Wenn die Erste Grösse eben so vielfältig ist gegen die Andere Grösse / als da
 
 ### Gegebene. — Begehrtes.
 
-*[Figur: Zwey waagerechte Linien mit Teilstrichen, bezeichnet A und B]*
+[Diagram: Zwey waagerechte Linien mit Teilstrichen, bezeichnet A und B]
 
 1. A | 2B
 2. a | 2b — A—a : B—b | A : B
@@ -30,6 +30,6 @@ Dw. A—a | Zwiefach B—b — n. 6. Gr. kk. I.
 und A | Zwiefach B — n. 1. Gegeb.
 Dw. A—a : B—b | A : B. — n 7. Beschr. V.
 
-<!-- signature mark: Ji -->
+<!-- Signature: Ji -->
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

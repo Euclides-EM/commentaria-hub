@@ -1,10 +1,10 @@
-<!-- # TRIGONOMETRIE. -->
+<!-- Running title: TRIGONOMETRIE. -->
 
 ### De la regle des trois costez.
 
 Les trois costez d'vn triangle estant donnez, trouuer lequel on voudra des angles.
 
-*[Figure]*
+[Figure]
 
 Au triangle EDI soient donnez ED de 12 toises, DI de 20 toises, & EI de 30 toises, & qu'il faille trouuer l'angle D.
 

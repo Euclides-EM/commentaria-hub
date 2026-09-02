@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 186)* -->
+<!-- Page number: 186 -->
 
 |  |  |  |  |
 |---|---|---|---|
@@ -25,4 +25,4 @@ Auff einen gegebenen geraden Strich ein Kreyß-Stück zu beschreiben/in welchem 
 1. Gerader Strich ab oder al. | 1. ◠ ahb.
 2. Winckel ecd. | 2. In welchem stehen kan ahb oder abl ⋀ ecd.
 
-*[Figur: zwei Kreise mit Konstruktionen; links Kreis mit Punkten e, h, k, a, b, g, i und Tangenten c, d, f; rechts Kreis mit Punkten h, e, i, g, k, a, b und Tangenten d, c, f]*
+[Diagram: zwei Kreise mit Konstruktionen; links Kreis mit Punkten e, h, k, a, b, g, i und Tangenten c, d, f; rechts Kreis mit Punkten h, e, i, g, k, a, b und Tangenten d, c, f]

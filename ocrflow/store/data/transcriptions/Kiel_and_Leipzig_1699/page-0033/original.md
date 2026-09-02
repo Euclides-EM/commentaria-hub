@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 15)* -->
+<!-- Page number: 15 -->
 
 fertigung aber wird aus den Anfängen bewiesen / daß der Auffgabe ein Genügen geschehen. Die beweißlichen Vorstellungen/oder Beweiß-Stücke (Theoremata) geben etwas auff/welches lediglich zu beweisen ist.
 
@@ -26,4 +26,4 @@ Bey jedwedem Vortrage kommen zum öfftern sieben Theile vor/als:
 
 (7) Der Beschluß (Conclusio,) welcher in kurtzer Widerholung des Haupt-Satzes bestehet/ mit diesem Anhange: W. Z. M. das ist / welches zu machen war. ( q. e. f. in Problematibus) oder W. Z. B. das ist/ welches zu beweisen war. (q. e. d. in Theorematibus.)
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

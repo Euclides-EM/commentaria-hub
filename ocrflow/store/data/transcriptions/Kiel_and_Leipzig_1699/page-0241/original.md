@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 217)* -->
+<!-- Page number: 217 -->
 
 ### Wirckung.
 
@@ -36,5 +36,5 @@ Dw. — □ abc | □ ac, n. 3. Gr. I.
 AC | bd — n. 3. Wirck.
 □ AC | □ bd — n. 1. Gr. t. II
 
-<!-- signature mark: Ee -->
-<!-- catchword: Dw. -->
+<!-- Signature: Ee -->
+<!-- Catchword: Dw. -->

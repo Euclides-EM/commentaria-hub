@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 349)* -->
+<!-- Page number: 349 -->
 
 ### Vorbereitung.
 
@@ -28,7 +28,7 @@ Dw. ▭ ac | □ bb
 
 ### Beweiß.
 
-*[Figur: geometrische Skizze mit punktierten Linien, hinter dem Text durchscheinend]*
+[Diagram: geometrische Skizze mit punktierten Linien, hinter dem Text durchscheinend]
 
 b | d
 b | b
@@ -39,5 +39,5 @@ ac ⋏ bd n. 4. Vorb.
 Dw. a : b | d : c n 16. VI.
 oder a : b | b : d n. Anh. 7. V.
 
-<!-- signature mark: X x 3 -->
-<!-- catchword: Beschluß. -->
+<!-- Signature: X x 3 -->
+<!-- Catchword: Beschluß. -->

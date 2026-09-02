@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 2.c.17.1 | perpendic. ad est vers. d,
 4.2 | ▭.cd 2|2 ▭.cb + ▭.bd + 2▭.cbd,
@@ -14,7 +13,7 @@ Cognitis lateribus trianguli amblygonij inuenire segmentum inter perpendicularem
 
 Estans cognus les costez d'vn triangle obtusangle, trouuer le segment comprins entre la perpendiculaire & l'angle obtus.
 
-*[Figure: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]*
+[Figure: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]
 
 hypoth. | ac est 10,
 hyp. | ab est 7,

@@ -1,11 +1,11 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 #### Hypoth.
 
 ∠aed 2|2 ∠ceb, α
 ∠aec 2|2 ∠deb. α
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtr.
 

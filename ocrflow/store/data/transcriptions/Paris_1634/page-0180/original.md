@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 1.a.1 | 3<cbe 2|2, 2∟,
 7.a.1 | <cbe 2|2, ⅓..2∟,
@@ -14,7 +13,7 @@ constr. | bd 2|2 de,
 12.2 36.1 3.s.1.d.2 | ▭.ac, ▭.ab + ▭.bc + 2▭.abd, ▭.ab + ▭.bc + ▭.abe, ▭.ab + ▭.bc + ▭.abc, snt 2|2 ⁊e,
 concl. 1.a.1 | ▭.ac 2|2 ▭.ab + ▭.bc + ▭.abc.
 
-*[Figure: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]*
+[Figure: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]
 
 ## SCHOL. III.
 

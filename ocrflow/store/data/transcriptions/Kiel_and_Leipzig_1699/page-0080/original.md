@@ -1,6 +1,6 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 62)* -->
+<!-- Page number: 62 -->
 
         CBD ⋏ CBE + EBD  n. 9. Gr-S. q.
 α.  Drw.  CBD ⋏ ACB + CAB  n. 1. Gr-S.
@@ -24,7 +24,7 @@ Pythagoras beweiset auff eine andere Arth/ daß drey Winckel des Dreyeckes eben 
 1. Durch einen des △es Düttel C wird ein gerader
 2. Neben-Strich DE gegen AB gezogen/ n. 31. Vortr.
 
-*[Figur: Dreieck ABC, durch C der punktierte Neben-Strich DE parallel zu AB]*
+[Diagram: Dreieck ABC, durch C der punktierte Neben-Strich DE parallel zu AB]
 
 ### Beweiß.
 
@@ -37,4 +37,4 @@ CAB + CBA + ACB ⋏ ⏥                  nach 2. Gr-S.
 
 W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

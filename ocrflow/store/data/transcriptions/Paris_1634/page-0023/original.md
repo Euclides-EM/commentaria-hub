@@ -1,5 +1,4 @@
-
-<!-- # EXPLICATION DES NOTES. -->
+<!-- Running title: EXPLICATION DES NOTES. -->
 
 comm. commensurabilis, commensurable.
 commun. communis, commune.

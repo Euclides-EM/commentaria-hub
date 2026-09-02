@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 pour le premier, lesquels auec 285003 ont fait 285053, qui a esté mis sous le premier nombre, & 1421 qui ont esté mis sous le troisiesme nombre au dessous de son logarithme 143136.
 

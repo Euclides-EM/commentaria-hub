@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 171)* -->
+<!-- Page number: 171 -->
 
 4. Werde auch bd gezogen.
 ### Beweiß.
@@ -21,12 +21,12 @@ Auff gleichlangen geraden Strichen stehende gleichgestalte Kreyß-Stücke/ sind 
 3. Auff solchen Strichen stehend.
 
 ### Begehrtes.
-aeb ⋀ (?) cfd
+aeb [unclear: ⋀] cfd
 
-*[Figur: Zwey Kreyß-Stücke, das eine über dem Strich ab mit dem Punckt e, das andere über dem Strich cd mit dem Punckt f]*
+[Diagram: Zwey Kreyß-Stücke, das eine über dem Strich ab mit dem Punckt e, das andere über dem Strich cd mit dem Punckt f]
 
 ### Beweiß.
 Man lege den Strich cd auff den Strich ab, so werden sie sich zusammen schicken n. 8 Beschr. I. Darnach lege man auch den Bogen dfc auff den Bogen bea, so wird er entweder sich nicht schi-
 
-<!-- signature mark: P 2 -->
-<!-- catchword: cken/ -->
+<!-- Signature: P 2 -->
+<!-- Catchword: cken/ -->

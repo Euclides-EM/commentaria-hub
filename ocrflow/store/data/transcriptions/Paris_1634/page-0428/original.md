@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 <b π <bca 2|3 cd π db.
 
@@ -11,7 +10,7 @@ supposi. | cd 2|2 ca,
 2.p.1 | cef & baf snt —
 3.p.1 | aceg est ⊙.
 
-*[Figure: triangle auec les poincts G, F, A, E, B, H, D, C]*
+[Figure: triangle auec les poincts G, F, A, E, B, H, D, C]
 
 Demonstr.
 

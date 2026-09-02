@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 32.1 | Δmic est æquiang. Δmhg,
 4.6 | mh π mg 2|2 mi π mc, δ
@@ -11,7 +10,7 @@
 
 Pappus lib. 7. propos. 75. & 76.
 
-*[Figure: cercle sur le diametre A B auec les poincts G, C, H, R, M, S, D, E, F, L, N, O, I, P]*
+[Figure: cercle sur le diametre A B auec les poincts G, C, H, R, M, S, D, E, F, L, N, O, I, P]
 
 Hypoth.
 

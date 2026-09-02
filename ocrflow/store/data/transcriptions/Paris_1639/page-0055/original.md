@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 #### Req. à demonſtr.
 
@@ -19,7 +19,7 @@ Si deux angles d'vn triangle sont égaux entr'eux, les costez soustendans iceux 
 
 Cette proposition est la conuerse de la precedente, car l'hypothese de la precedente est en celle-cy le requis à demonstrer : Et le requis à demonstrer de la precedente est l'hypothese de celle-cy.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

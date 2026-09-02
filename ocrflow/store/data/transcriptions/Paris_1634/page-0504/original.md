@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
 tionalem non posse cadere inter duos numeros, quorum proportio in minimis numeris non reperiatur in quadratis numeris.
 

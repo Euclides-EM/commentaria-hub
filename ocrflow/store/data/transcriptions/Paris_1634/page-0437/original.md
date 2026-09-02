@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
 impar, Euclides pariter imparem tantùm; & qui his impariter par, Euclides & pariter parem, & pariter imparem appellat.
 

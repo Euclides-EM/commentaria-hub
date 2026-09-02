@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 ## PROBL. III. PROPOS. III.
 
 Deux lignes droictes inégales estans données, oster de la plus grande vne ligne droicte égale à la plus petite.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

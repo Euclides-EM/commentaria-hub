@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 39)* -->
+<!-- Page number: 39 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Beschluß.
 Müssen also jedwedes △es zweene Winckel auff allerley Weise genommen/ kleiner seyn/ als ⊥. W. Z. B.
@@ -17,7 +17,7 @@ Jedwedes Dreyeckes längste Seite überspannet den grössesten Winckel.
 3. AC ⊣ CB 2. ABC ⲗ BAC.
 4. AB ⊣ CB 3. ACB ⲗ BAC.
 
-*[Figur: Dreieck ABC mit B oben, A unten links, C unten rechts; Punkte E auf AB, F und D auf AC, punktierte Linien von B nach F und D.]*
+[Diagram: Dreieck ABC mit B oben, A unten links, C unten rechts; Punkte E auf AB, F und D auf AC, punktierte Linien von B nach F und D.]
 
 ### 1. Vorbereitung.
 1. Von dem Strich AC werde abgeschnitten AD | AB, n. 3. Vortr.
@@ -34,4 +34,4 @@ ABC ⲗ DBA n. 9. Gr-S.
 Dw. ABC ⲗ BDA n. 1. Gr-S. a.
 und ABC ⲗ BCA n. 1. Gr-S. e.
 
-<!-- catchword: 2. Vor- -->
+<!-- Catchword: 2. Vor- -->

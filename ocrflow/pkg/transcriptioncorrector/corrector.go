@@ -14,7 +14,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 )
 
-const DefaultRounds = 2
+const DefaultRounds = 1
 
 // Config describes one transcription correction run.
 type Config struct {

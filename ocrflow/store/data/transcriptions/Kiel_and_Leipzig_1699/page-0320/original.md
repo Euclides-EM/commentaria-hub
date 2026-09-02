@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 296)* -->
+<!-- Page number: 296 -->
 
 ### Beschluß.
 Wenn derowegen Sechs Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die V. zu der VI. Auch die II. zu der III. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
@@ -12,7 +12,7 @@ Wenn das Gantze zu dem Gantzen eine grössere Verhältnüß hat / als das Abgeno
 
 ### Gegebene.
 
-*[Figur: zwei waagerechte Linien A und B, jeweils durch Striche unterteilt]*
+[Diagram: zwei waagerechte Linien A und B, jeweils durch Striche unterteilt]
 
 A : B ⊣ a : b
 
@@ -31,4 +31,4 @@ A : B ⊢ A — a : B — b
 | Dw. | a + c : b + d | ⊢ c : d | n. 27. V. |
 | oder | A : B | ⊢ A — a : B — b |  |
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

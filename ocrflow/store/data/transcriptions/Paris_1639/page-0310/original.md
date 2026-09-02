@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 valoir 2 dixaines de sols : & aux fractions astronomiques, si on emprunte vn degré on le fera valoir 6 dixaines des suiuantes : & vne minute, 6 dixaines des secondes, &c.
 

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 315)* -->
+<!-- Page number: 315 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### I. Gegebene.
 
@@ -14,7 +14,7 @@
 
 cd : da | cb : ba.
 
-*[Figur: Dreyeck abc mit dem Strich bd auf den Grundstrich ac, die Seite ab ist gestrichelt gegen e verlängert und der gestrichelte Strich ce gezogen]*
+[Diagram: Dreyeck abc mit dem Strich bd auf den Grundstrich ac, die Seite ab ist gestrichelt gegen e verlängert und der gestrichelte Strich ce gezogen]
 
 1. Der Strich oder Seite ab werde nach Nothdurfft verlänget gegen e.
 2. Aus dem Düttel c werde ein Nebenstrich gegen bd gezogen/ biß er dem verlängerten Strich in e aufstösset/ nemlich ce. n. 31. I.
@@ -30,5 +30,5 @@ u. cbd ⋏ bce — n. 29. I.
 Dw. be | cb — n. 6. I.
 ba | ba
 
-<!-- signature mark: Rr 2 -->
-<!-- catchword: Dw. -->
+<!-- Signature: Rr 2 -->
+<!-- Catchword: Dw. -->

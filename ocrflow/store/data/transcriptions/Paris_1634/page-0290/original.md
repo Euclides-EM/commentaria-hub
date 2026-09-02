@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 ## THEOR. III. PROPOS. III.
 
@@ -12,7 +11,7 @@ Hypoth.
 a, multipl.. b 2|2 c, multipl.. d,
 ei, multipl.. a 2|2 fm, multipl.. c, α
 
-*[Figure: lignes verticales E—G—H—I auec A, B ; F—K—L—M auec C, D]*
+[Figure: lignes verticales E—G—H—I auec A, B ; F—K—L—M auec C, D]
 
 Req. π. demonstr.
 

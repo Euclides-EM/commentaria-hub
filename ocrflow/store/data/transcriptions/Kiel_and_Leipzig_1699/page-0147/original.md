@@ -1,12 +1,12 @@
-<!-- *(Seitenzahl: 129)* -->
+<!-- Page number: 129 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-*[Figur: zwey ähnliche Kreyßstücke nebst einem flachen Bogen]*
+[Diagram: zwey ähnliche Kreyßstücke nebst einem flachen Bogen]
 
 Also werden auch gleichgestalte Bogen (arcus similes genennet/ auff welchen gleich-grosse Winckel stehen.
 
-*[Figur: Kreis mit einbeschriebenem Winckel und kleinerem Kreise darinnen]*
+[Diagram: Kreis mit einbeschriebenem Winckel und kleinerem Kreise darinnen]
 
 ## Der I. Vortrag.
 
@@ -18,8 +18,8 @@ Eines gegebenen Kreyses Mitteldüpffel zu finden.
 
 Der Kreyß bhc. — Mittel-Düpffel a.
 
-*[Figur: Kreis mit Düpffeln g (oben), b (links), e (Mitte), c (rechts), h (unten), darinnen a, d, f, mit punktierten Strichen von b und c nach d]*
+[Diagram: Kreis mit Düpffeln g (oben), b (links), e (Mitte), c (rechts), h (unten), darinnen a, d, f, mit punktierten Strichen von b und c nach d]
 
-<!-- signature mark: R -->
+<!-- Signature: R -->
 
-<!-- catchword: Wirckung. -->
+<!-- Catchword: Wirckung. -->

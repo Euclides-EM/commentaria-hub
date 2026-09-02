@@ -1,11 +1,10 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 ### 2. a. 1.
 
 Et si æqualibus æqualia adiecta sint, tota sunt æqualia. | Et si à choses egales on adiouste choses egales, les tous sont egaux.
 
-*[Figure: ligne ABF en haut, ligne CDG au dessous]*
+[Figure: ligne ABF en haut, ligne CDG au dessous]
 
 hyp. | ab 2|2 cd.
 hyp. | bf 2|2 dg.
@@ -15,7 +14,7 @@ hyp. | bf 2|2 dg.
 
 Et si ab æqualibus æqualia ablata sint, quæ relinquuntur sunt æqualia. | Et si des choses egales on retranche choses egales, les restes sont egaux.
 
-*[Figure: ligne AEB en haut, ligne CFD au dessous]*
+[Figure: ligne AEB en haut, ligne CFD au dessous]
 
 hyp. | ab 2|2 cd.
 hyp. | ae 2|2 cf.

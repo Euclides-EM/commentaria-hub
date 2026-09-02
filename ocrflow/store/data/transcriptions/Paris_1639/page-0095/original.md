@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 conſtr. | be 2|2 ec,
 38.1 | △abc 2|2 2△aec,
@@ -10,7 +10,7 @@ conſtr. | be 2|2 ec,
 
 En tout parallelogramme, les complements des parallelogrammes qui sont à l'entour du diametre, sont égaux entr'eux.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

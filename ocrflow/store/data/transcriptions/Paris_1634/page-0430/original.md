@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 15.3 | gi 3|2 gk,
 38.app. | gi π id 3|2 <kdg π <kgd,
@@ -13,7 +12,7 @@ concl. 10.5 | <bdg 3|2 <adg.
 
 Theon in tertium lib. Almagesti.
 
-*[Figure: cercle auec les poincts A, L, G, C, H, F, E, B, K, D]*
+[Figure: cercle auec les poincts A, L, G, C, H, F, E, B, K, D]
 
 Hypoth.
 

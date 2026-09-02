@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 259)* -->
+<!-- Page number: 259 -->
 
 ## Der XI. Vortrag.
 
@@ -17,7 +17,7 @@ b __
 C ________
 c __
 
-*[Figur: Strecken A, a, B, b, C, c von verschiedener Länge]*
+[Diagram: Strecken A, a, B, b, C, c von verschiedener Länge]
 
 A : a | C : c
 B : b | C : c
@@ -33,8 +33,8 @@ B : b | C : c
 2B ________________
 4b ____________
 
-*[Figur: Strecken 2A, 4a, 2B, 4b]*
+[Diagram: Strecken 2A, 4a, 2B, 4b]
 
-<!-- signature mark: Kk 2 -->
+<!-- Signature: Kk 2 -->
 
-<!-- catchword: I. Beweiß. -->
+<!-- Catchword: I. Beweiß. -->

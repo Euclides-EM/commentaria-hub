@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 238)* -->
+<!-- Page number: 238 -->
 
 ### Beweiß.
 
@@ -16,7 +16,7 @@
 | Dw. | B | 1½b | n. 2. Gr. c. I. | |
 | | 2B | B | n. 9. Gr. I. | |
 | Dw. | 2B | 1½b | n. 1. Gr. e. I. | |
-| κ (?) Und | 2A + 2B | 1½a + 1½b | n. 4. Gr. g. I. | |
+| [unclear: κ] Und | 2A + 2B | 1½a + 1½b | n. 4. Gr. g. I. | |
 
 ### Vorbereitung.
 
@@ -24,7 +24,7 @@
 2. u. zu der Grösse B werde gleichfals die Helffte derselben beygefüget/
 3. a werde fünf mahl/und 4. b auch fünfmahl/ genommen.
 
-*[Figur: vier waagerechte Linien, bezeichnet 1½A, 5a, 1½B, 5b]*
+[Diagram: vier waagerechte Linien, bezeichnet 1½A, 5a, 1½B, 5b]
 
 ### III. Beweiß.
 
@@ -34,7 +34,7 @@
 | | 1½a | ½A | n. 7. Gr. n. I. | β |
 | | 2a | 1½a | n. 9 Gr. I. | γ |
 | Dw. | 2a | ½A | n. 1. Gr. a. I. | δ |
-| und | 3a + 2a | 1½A (?) | n. 4. Gr. I. | γ |
+| und | 3a + 2a | [unclear: 1½A] | n. 4. Gr. I. | γ |
 | oder | 5a | 1½A | | |
 | | 3b | B | n. Bew. | θ. α |
 | | 1½b | ½B | | β |

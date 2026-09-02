@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 91)* -->
+<!-- Page number: 91 -->
 
 Auff gleiche weise wird auch bewiesen /
 daß □ np | □ gb
@@ -33,6 +33,6 @@ ae | be + ce + de nach 1. Gr-S. II. W. Z. B.
 
 Wenn man einen geraden Strich/ auff waserley weise/ in zween Theile zerschneidet : So werden die beeden rechtwincklichten Vierecke/ welche der gantze Strich / und die beeden Striche begreiffen/ eben so groß seyn/ als das gleichseitige Viereck des gantzen Striches.
 
-<!-- signature mark: M 2 -->
+<!-- Signature: M 2 -->
 
-<!-- catchword: Ge- -->
+<!-- Catchword: Ge- -->

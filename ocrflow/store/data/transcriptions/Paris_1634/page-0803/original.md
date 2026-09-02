@@ -1,13 +1,12 @@
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-<!-- # ELEM.. EVCLID. LI. XII. -->
-
-<!-- M K / D L H / I / B / A C E F G ▭ Q O P N (figure) -->
+[Figure: labels arranged M K / D L H / I / B / A C E F G ▭ Q O P N]
 
 nes: Et quarum pyramidum triangulares bases non habentium reciprocantur bases & altitudines, illas esse æquales.
 
 *Il est certain außi que les bases & hauteurs des pyramides egales, dont les bases ne sont triangulaires, sont reciproques: Et que les pyramides, dont les bases sont triangulaires, ayans les bases & les hauteurs reciproques, sont egales.*
 
-<!-- D I K / A E H / B C F G L N M (figure) -->
+[Figure: labels arranged D I K / A E H / B C F G L N M]
 
 Hypoth. 1.
 

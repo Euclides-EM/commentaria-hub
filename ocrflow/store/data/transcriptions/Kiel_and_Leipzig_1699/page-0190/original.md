@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 172)* -->
+<!-- Page number: 172 -->
 
 cken / und so ist es auch nicht gleich gestalt / n. 23. III. welches wider das 2. Gegeb. oder es wird sich schicken/ und also wird es gleich groß seyn / n. 8. Gr. I.
 ### Beschluß.
@@ -18,10 +18,10 @@ Kreyßstück abc.
 ### Begehrtes.
 Kreyß bhac, dessen Theil das gegebene Kreyßstück ist.
 
-*[Figur: Kreyßstück mit den Punckten k, b, h, d, e, c, a, f; der Kreyß ist punctirt vollendet, mit Strichen durch e und f]*
+[Diagram: Kreyßstück mit den Punckten k, b, h, d, e, c, a, f; der Kreyß ist punctirt vollendet, mit Strichen durch e und f]
 
 ### Wirckung.
 1. Man ziehe in dem gegebenen Bogen den geraden Strich ac.
 2. Welcher in zwey gleiche Stücke ea | ec getheilet wird. n. 10. I.
 
-<!-- catchword: 3. Durch -->
+<!-- Catchword: 3. Durch -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 41.1 | ◇ce 2|2, 2Δacb,
 41.1 | ◇cf 2|2, 2Δacd,
@@ -11,7 +10,7 @@ Triangula & parallelogramma, quorum æquales sunt bases, vel eadem ; ita se habe
 
 Les triangles & les parallelogrammes constituez sur bases egales, ou sur vne mesme base ; sont entr'eux comme leurs hauteurs.
 
-*[Figure: triangles et parallelogrammes G, A ; B, L, C, I, K, E ; D, H ; M, F]*
+[Figure: triangles et parallelogrammes G, A ; B, L, C, I, K, E ; D, H ; M, F]
 
 Hypoth.
 

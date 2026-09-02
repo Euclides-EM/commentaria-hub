@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 ## THEOR. VIII. PROPOS. VIII.
 
@@ -11,7 +10,7 @@ Hyppoth.
 
 ab 3|2 c.
 
-*[Figure: lignes verticales B—E—A, C, D et H—G—F, I—K]*
+[Figure: lignes verticales B—E—A, C, D et H—G—F, I—K]
 
 Req. π. demonstr.
 

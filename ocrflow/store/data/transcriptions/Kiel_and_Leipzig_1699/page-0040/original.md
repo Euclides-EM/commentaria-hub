@@ -1,6 +1,6 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 22)* -->
+<!-- Page number: 22 -->
 
 Strich/ bey den verlängeten Seiten-Strichen befindliche Winckel/einer dem andern gleich.
 
@@ -16,7 +16,7 @@ Strich/ bey den verlängeten Seiten-Strichen befindliche Winckel/einer dem ander
 2. Werde gezogen der Strich BE
 3. Deßgleichen CD
 
-*[Figur: zwey gleichschencklige Dreyecke ABC mit verlängten Schenckeln bis D und E, dazu punktierte Striche BE und CD]*
+[Diagram: zwey gleichschencklige Dreyecke ABC mit verlängten Schenckeln bis D und E, dazu punktierte Striche BE und CD]
 
 ### Beweiß.
 
@@ -26,4 +26,4 @@ Dw. AB + BD | AC + CE nach 2. Grund-S.
 oder DA | EA nach 9. GrS.
 AC | AB nach 2. Gegeb.
 
-<!-- catchword: DA -->
+<!-- Catchword: DA -->

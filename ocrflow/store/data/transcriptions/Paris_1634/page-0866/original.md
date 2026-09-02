@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
-<!-- # ELEM.. EVCLID. LI. XIV. -->
-
-<!-- (figure) A G B C / D H E F -->
+[Figure: labels arranged A G B C / D H E F]
 
 3. 1 | bc 2|2 bg,
 3. 1 | ef 2|2 eh.

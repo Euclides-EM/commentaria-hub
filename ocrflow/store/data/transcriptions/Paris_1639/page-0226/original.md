@@ -1,8 +1,8 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ausquelles vne mesme grandeur a mesme raison, sont aussi égales entr'elles.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. 1.
 

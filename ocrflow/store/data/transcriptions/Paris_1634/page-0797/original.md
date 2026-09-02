@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 *tout prisme est triple de la pyramide qui a mesme hauteur qu'iceluy, & mesme base.*
 
@@ -8,7 +7,7 @@ Hypoth.
 abcdeghiкf, est prism.
 abcdeh, est pyram.
 
-<!-- G R / H F S / I K T V / A L / M / B E N / C D O (figure) -->
+[Figure: labels arranged G R / H F S / I K T V / A L / M / B E N / C D O]
 
 Req. π. demonstr.
 

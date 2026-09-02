@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 11.10 | b, comm. a, ꝗn. □, α
 11.10 | c, comm. b, ꝗn. □, β

@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 opposées seront constituées directement.
 
-*[Figure: lignes A—E—B et C—E—D s'entrecoupans en E]*
+[Figure: lignes A—E—B et C—E—D s'entrecoupans en E]
 
 Hypoth.
 
@@ -28,7 +27,7 @@ Cuiuscunque trianguli vno latere producto, externus angulus vtrolibet interno, &
 
 De tout triangle, vn costé estant prolongé l'angle externe est plus grand que chacun des internes & opposez.
 
-*[Figure: triangle ABC, costé BC prolongé vers D, poinct E au milieu de AC, lignes BE prolongée vers G, AH et CF, poinct I au dessous]*
+[Figure: triangle ABC, costé BC prolongé vers D, poinct E au milieu de AC, lignes BE prolongée vers G, AH et CF, poinct I au dessous]
 
 Hypoth.
 

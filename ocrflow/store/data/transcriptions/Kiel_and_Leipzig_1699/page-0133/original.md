@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 115)* -->
+<!-- Page number: 115 -->
 
 κ oder fg | cd | n. 9. Gr. q. I.
 ef | cd | n. 34. I.
@@ -30,6 +30,6 @@ bd | dg n. Bew. η.
 
 Muß also allezeit/ wenn ein Strich in zween gleiche Theile getheilet/ und ein Stück angesetzet wird/ das □ des gantzen und angesetzten ad, samt dem □ des angesetzten Stückes bd absonderlich / so groß seyn/ als die beeden □ □ des halben Striches ac, und des
 
-<!-- signature mark: P 2 -->
+<!-- Signature: P 2 -->
 
-<!-- catchword: Stri- -->
+<!-- Catchword: Stri- -->

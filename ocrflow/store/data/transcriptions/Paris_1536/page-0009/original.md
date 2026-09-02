@@ -4,7 +4,7 @@
 
 Quibus ipsius Euclidis textus græcus, suis locis insertus est: vnà cum interpretatione latina Bartholamæi Zamberti Veneti, ad fidem geometricā per eundem Orontium recognita.
 
-*[engraving]*
+[Illustration: engraving]
 
 CVM PRIVILEGIO Regis ad decennium,
 
@@ -14,14 +14,24 @@ Apud Simonem Colinæum.
 
 Virescit vulnere virtus.
 
-*[engraving]*
+[Illustration: engraving]
 
-> Francoys Desneux
+[Handwritten]
+Francoys Desneux
+[/Handwritten]
 
-> Emptus [?] a [?]
+[Handwritten]
+Emptus [illegible] a [illegible]
+[/Handwritten]
 
-> D. OR. F. Delphinas est Mathom. professor hos 6 lib est interpretatus anno [?] 1543 12 sump in scholis bel[?] censib.
+[Handwritten]
+D. OR. F. Delphinas est Mathom. professor hos 6 lib est interpretatus anno [illegible] 1543 12 sump in scholis bel[illegible] censib.
+[/Handwritten]
 
-> Francis Deus a nodis.
+[Handwritten]
+Francis Deus a nodis.
+[/Handwritten]
 
-> De Bibliotheca Conuentus parisiensis pp. Minimorum ad Circum Regium. 1638.
+[Handwritten]
+De Bibliotheca Conuentus parisiensis pp. Minimorum ad Circum Regium. 1638.
+[/Handwritten]

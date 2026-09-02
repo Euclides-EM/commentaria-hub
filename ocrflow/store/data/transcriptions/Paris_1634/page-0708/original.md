@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 *apotome, est aussi apotome, & de mesme ordre.*
 
-<!-- A B C / D E F (figure) -->
+[Figure: labels arranged A B C / D E F]
 
 Hypoth.
 

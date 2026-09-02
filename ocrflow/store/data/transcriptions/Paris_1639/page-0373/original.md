@@ -1,4 +1,4 @@
-<!-- # TRIGONOMETRIE. -->
+<!-- Running title: TRIGONOMETRIE. -->
 
 restera 8 qu'on mettra au troisiesme lieu de la regle de trois : & pour auoir le second nombre, on soustraira l'angle donné de 180 degrez, & restera 63 degrez, & la tangente de la moitié de ce reste sera le second nombre. Partant la regle de trois se fera par logarithmes ainsi,
 

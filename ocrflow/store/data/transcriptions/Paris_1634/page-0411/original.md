@@ -1,12 +1,11 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 1.2 | ▭.cb,ef 2|2 ▭.cb,ed + ▭.cb,df,
 concl. 1.a.f | ▭.cae 2|2 bad + ▭.cb,ed + ▭.cb,df + ▭.bg,ed. β
 
 Hypoth. 3. cas.
 
-*[Figure: deux figures auec les poincts D, F, I, E, A, C, H, G, B]*
+[Figure: deux figures auec les poincts D, F, I, E, A, C, H, G, B]
 
 Δabc sml. Δade,
 

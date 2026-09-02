@@ -108,17 +108,23 @@ printed marginal text; `[Handwritten]` is for handwritten text. Use a specific z
 whenever possible. `[Other]` is only for a distinct relevant zone with no defined
 type, may be empty, and must not replace ordinary text or a difficult classification.
 
-Non-textual page objects occur on their own line at the corresponding position:
+Non-textual page objects occur on their own line at the corresponding position.
+Each object may optionally include a concise description after a colon:
 
 ```markdown
 [Diagram]
+[Diagram: six horizontal lines labelled A, a, B, b, C and c]
 [Figure]
+[Figure: armillary sphere]
 [Illustration]
+[Illustration: Euclid teaching two students]
 [Ornament]
+[Ornament: floral headpiece]
 ```
 
-Do not reconstruct diagrams. A decorated drop capital uses drop-cap syntax rather
-than `[Ornament]`.
+Descriptions record visible features of the object and may include transcribed
+labels. Do not reconstruct diagrams as text or mathematical notation. A decorated
+drop capital uses drop-cap syntax rather than `[Ornament]`.
 
 Spatial calculations use a paired block whose internal spacing and line breaks may
 be preserved:
@@ -147,8 +153,10 @@ page numbers or other digitization artefacts.
 * HTML comments are only for the four defined page-furniture types above.
 * Prefer a defined specific type over `[Other]`; use `[Other]` rather than inventing
   syntax when a distinct zone has no defined type.
-* Tables and any other feature without defined syntax receive no invented syntax;
-  use `[Other]...[/Other]` only when they constitute a distinct relevant zone.
+* Printed tables use Markdown pipe-table syntax. Preserve their textual content,
+  row order and column order; do not infer missing values.
+* Any feature without defined syntax receives no invented syntax; use
+  `[Other]...[/Other]` only when it constitutes a distinct relevant zone.
 <!-- END LLM CONTRACT -->
 
 ## 1. General principles
@@ -268,10 +276,12 @@ Inline annotations MUST occur immediately adjacent to the text to which they app
 
 Square-bracket annotations represent distinct page zones or non-textual objects.
 
-A non-textual object may use a single annotation:
+A non-textual object may use a single annotation, optionally with a concise
+description after a colon:
 
 ```markdown
 [Diagram]
+[Diagram: circle ABC with diameter AC]
 ```
 
 A textual zone uses paired opening and closing annotations:
@@ -537,18 +547,32 @@ Do not use `Other` merely because the nature of ordinary text is uncertain. It r
 
 Place non-textual object annotations on their own line at the corresponding position in the transcription.
 
+Each annotation MAY contain a concise description using the form
+`[TYPE: DESCRIPTION]`. The description records visible features of the object and
+may include transcribed labels. It MUST remain on the same line as the annotation
+and MUST NOT contain a closing square bracket (`]`). Omit the description when a
+reliable or useful description cannot be given.
+
 ### 13.1 Geometrical diagrams
 
 ```markdown
 [Diagram]
 ```
 
-Do not reconstruct the geometry or convert it into mathematical notation.
+```markdown
+[Diagram: sechs waagerechte Linien, bezeichnet A (getheilet in c, d), a, C (getheilet in e, f, g), B (getheilet in h, k), b, D (getheilet in l, m, n); daneben die Ziffern I. II. V. III. IV. VI.]
+```
+
+Do not reconstruct the geometry as text or convert it into mathematical notation.
 
 ### 13.2 Figures
 
 ```markdown
 [Figure]
+```
+
+```markdown
+[Figure: armillary sphere on a pedestal]
 ```
 
 ### 13.3 Illustrations
@@ -557,10 +581,18 @@ Do not reconstruct the geometry or convert it into mathematical notation.
 [Illustration]
 ```
 
+```markdown
+[Illustration: Euclid teaching two students]
+```
+
 ### 13.4 Ornaments
 
 ```markdown
 [Ornament]
+```
+
+```markdown
+[Ornament: floral headpiece]
 ```
 
 Decorative drop capitals use the drop-cap syntax rather than a separate `[Ornament]` annotation.
@@ -605,7 +637,21 @@ Do not reconstruct, normalize or convert a calculation into modern mathematical 
 
 ## 16. Tables
 
-[Syntax and transcription rules for tables to be determined.]
+Represent a printed table using Markdown pipe-table syntax:
+
+```markdown
+| Quantity | Value |
+|---|---|
+| A | 3a |
+| B | 3b |
+```
+
+Preserve the table's textual content, row order and column order. Empty printed
+cells remain empty. Do not infer missing values, add headings that are not printed,
+or convert a table into a `[Calculation]` block merely because it contains
+mathematical expressions or proof steps.
+
+The Markdown separator row is structural syntax and is not transcribed content.
 
 ## 17. Blank pages
 
@@ -698,11 +744,12 @@ To be determined.
 | Handwritten text            | `[Handwritten]...[/Handwritten]`                                  |
 | Other zone                  | `[Other]...[/Other]`                                              |
 | Typed other zone            | `[Other type="TYPE"]...[/Other]`                                  |
-| Diagram                     | `[Diagram]`                                                       |
-| Figure                      | `[Figure]`                                                        |
-| Illustration                | `[Illustration]`                                                  |
-| Ornament                    | `[Ornament]`                                                      |
+| Diagram                     | `[Diagram]` or `[Diagram: DESCRIPTION]`                           |
+| Figure                      | `[Figure]` or `[Figure: DESCRIPTION]`                             |
+| Illustration                | `[Illustration]` or `[Illustration: DESCRIPTION]`                 |
+| Ornament                    | `[Ornament]` or `[Ornament: DESCRIPTION]`                         |
 | Calculation                 | `[Calculation]...[/Calculation]`                                  |
+| Table                       | Markdown pipe-table syntax                                        |
 | Blank page                  | `[Blank page]`                                                    |
 
 ## 22. Core syntax constraints

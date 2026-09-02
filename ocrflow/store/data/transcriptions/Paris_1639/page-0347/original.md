@@ -1,4 +1,4 @@
-<!-- # PRACTIQVE. -->
+<!-- Running title: PRACTIQVE. -->
 
 6 { 9, a | 6 —— 54
 10, b | 6 —— 60

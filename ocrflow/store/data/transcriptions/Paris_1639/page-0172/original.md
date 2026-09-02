@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ### COROLL. II.
 
@@ -12,7 +12,7 @@ ab & ac *touchent le* ⊙.
 
 ab 2|2 ac.
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 

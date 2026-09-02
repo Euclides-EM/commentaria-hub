@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 rationali lineæ commēsurabilem longitudine vel potentia esse quoque rationalem, & omnes rectas rationales esse inter se commensurabiles saltem potentia : item omne spatium rationali spatio commensurabile esse quoque rationale, & cōtrà, omnia spatia rationalia esse inter se cōmensurabilia : magnitudines vero quarum altera est rationalis, altera irrationalis, esse inter se incommensurabiles.
 

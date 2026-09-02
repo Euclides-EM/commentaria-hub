@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 *en vn mesme cercle sont composez; la ligne droicte totale est couppee en la moyenne & extreme raison, & le plus grand segment d'icelle est le costé de l'hexagone.*
 
-<!-- E / F / B / A D C (figure) -->
+[Figure: labels arranged E / F / B / A D C]
 
 Hypoth.
 

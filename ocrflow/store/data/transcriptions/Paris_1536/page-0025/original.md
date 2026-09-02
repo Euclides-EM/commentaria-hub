@@ -1,4 +1,4 @@
-# LIBER I.
+<!-- Running title: LIBER I. -->
 
 Cùm enim dati cuiuſlibet anguli recti magnitudo quadrans exiſtat circuli, eiuſdémq̃ circuli quardrantes ſint adinuicem æquales: fit vt inter quoſuis angulos rectos nulla poſſit eſſe differentia, ſed omnes ſint adinuicẽ æquales. Quemadmodùm ex his quæ ſeptima, nona, & decima præmiſimus diffinitionibus, elicere vel facilè potes.
 
@@ -8,27 +8,33 @@ Cùm enim dati cuiuſlibet anguli recti magnitudo quadrans exiſtat circuli, eiu
 
 Vtpote, ſi in rectas a/b/ & c/d, recta incidens e/f, interiores angulos b/e/f/ & d/f/e/ ſimul cõparatos, duobus rectis minores fecerit: ipſæ lineæ a/b/ & c/d, in infinitũ productæ, conueniẽt
 
-*[diagram: a e b, c f d, g]*
+[Diagram: a e b, c f d, g]
 
 tandem in g, ad partes quidem b/ & d. Quoniam plus inclinãtur adinuicem partes b/d, quàm a/c. Vnde quantò magis producentur b/e, & d/f, partes, tantò propiores efficientur, in vnũ tandem ſignum (vtpote g) concurrentes. Secus eſt de a/e, & c/f/ partibus: propterea quòd anguli a/e/f/ & c/f/e/ ſunt duobus angulis rectis tantò maiores, quantò eiſdem rectis minores fuerint ipſi b/e/f/ atq̃ d/f/e/ anguli. Poſſent & alia his haud diſſimilia ſubrogari poſtulata: quæ cùm ſunt omnibus (etiam rudiſſimis) per ſeſe manifeſta, vel quæ recenſeantur indigna, hoc quinario cum Euclide contenti erimus numero.
 
-> De cęteris poſtulatis.
+[Margin]
+De cęteris poſtulatis.
+[/Margin]
 
 ## Κοιναὶ ἔννοιαι. Communes ſententiæ.
 
 ### ORONTIVS.
 
-> Axiomata, effata, ſeu communes ſententiæ.
+[Margin]
+Axiomata, effata, ſeu communes ſententiæ.
+[/Margin]
 
 RELIQVVM EST TANDEM, COMMVNES ELVCIDARE ſententias: quas græci axiomata, latini verò effata ſolent adpellare. Sũt igitur cõmunes ſentẽtiæ, generales quædã ac per ſeſe manifeſtę propoſitiones, cõmunitérve ſcitæ ab omnibus, & in principij rationem vel ordinem coaſſumptæ. Quarum prima eſt hæc.
 
-> 5. communes ſententiæ ratione æqualitatis reſpiciẽtes.
+[Margin]
+5. communes ſententiæ ratione æqualitatis reſpiciẽtes.
+[/Margin]
 
 Τὰ τῷ αὐτῷ ἴσα, καὶ ἀλλήλοις ἐστὶν ἴσα.
 
 ## 1 Quæ eidem æqualia, & adinuicem ſunt æqualia,
 
-*[diagram: a b c]*
+[Diagram: a b c]
 
 Vtpote, ſi a/ magnitudo ſit æqualis b/ magnitudini, eidem quoque b/ ſit æqualis magnitudo: neceſſum eſt a/ & c/ magnitudines fore adinuicem æquales. Idem habeto iudicium de numeris, atque cæteris eiuſdem generis adinuicem comparabilibus.
 
@@ -42,7 +48,7 @@ Vtpote, ſi a/ magnitudo ſit æqualis b/ magnitudini, eidem quoque b/ ſit æqu
 
 Vt ſi d/ & e/ magnitudinibus inuicẽ æqualibus, æquales addantur magnitudines f/ & g: con-
 
-*[diagram: d f, e g]*
+[Diagram: d f, e g]
 
 ſurgent d/f/ & e/g/ magnitudines adinuicem pariter æquales. Quòd ſi verſavice ab ipſis d/f/ & e/g/ magnitudinibus inuicem æqualibus, æquales tollantur f/ quidẽ & g/ magnitudines: relinquentur d/ & e/ magnitudines rurſum adinuicem æquales.
 

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 321)* -->
+<!-- Page number: 321 -->
 
 ### Verfolg des Beweises.
 
@@ -19,7 +19,7 @@ Man setze wiederum auf CD den
 Winckel   CDF ⋏ bac
 und   DCF ⋏ abc   n. 23. I.
 
-*[Figur: zwei Dreiecke, links das Dreieck abc, rechts das Dreieck DCE mit punktierten Linien zu dem unterhalb liegenden Punkt F]*
+[Diagram: zwei Dreiecke, links das Dreieck abc, rechts das Dreieck DCE mit punktierten Linien zu dem unterhalb liegenden Punkt F]
 
 ### Beweiß.
 
@@ -31,5 +31,5 @@ u. | ac : DF | ab : DC | n. 4. VI.
 Dw. | ac : DE | ac : DF | n. 11. V.
 u. | DE | DF | n. 9. V.
 
-<!-- signature mark: Ss -->
-<!-- catchword: CFD -->
+<!-- Signature: Ss -->
+<!-- Catchword: CFD -->

@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 160)* -->
+<!-- Page number: 160 -->
 
 ### I. Beweiß.
 
@@ -40,4 +40,4 @@ Dw. kan kein spitzigerer Winckel gemacht werden/
 als der ∧ gcb
 und ist der ∧ gcb ⋏ als alle spitze ∧
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

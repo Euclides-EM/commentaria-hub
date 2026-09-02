@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 faillant d'vn quarré, la solution se trouuera plus briefuement par ja methode suiuante, proposant le probleme ainsi.
 
@@ -6,7 +6,7 @@ faillant d'vn quarré, la solution se trouuera plus briefuement par ja methode s
 
 De trois lignes proportionelles estant donnée la moyenne & la somme des extrémes trouuer les extrémes.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

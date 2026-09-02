@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. IV. -->
+<!-- Running title: D'EVCLIDE, LIV. IV. -->
 
 2.4 | △acd *eſt equiangle* △fgh. α
 9.1 | ∠bdc 2|2 ∠bda, ∠ecd 2|2 ∠eca. α
@@ -19,7 +19,7 @@ D'icy il s'ensuit, que l'angle du pentagone equilateral & equiangle, est les tro
 
 #### Conſtruction de la practique.
 
-*[Figure]*
+[Figure]
 
 hyp. | cadbn *eſt* ⊙,
 1.p.1 | ab *eſt diametre*,

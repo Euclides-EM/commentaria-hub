@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Req. à demonſtrer.
 
@@ -10,7 +10,7 @@
 1.p.1 | fd *eſt diametre*,
 31.1 | bg == af, ci == af, lhm == ad, okp == ad.
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 

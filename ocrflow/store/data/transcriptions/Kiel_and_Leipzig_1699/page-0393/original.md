@@ -1,8 +1,8 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 363)* -->
+<!-- Page number: 363 -->
 
-*[Figur: grösseres Viereck m l f e, daneben kleiner Strich t s und kleineres Viereck t w r s; darunter Striche a e, c d r s mit punktierter Linie]*
+[Diagram: grösseres Viereck m l f e, daneben kleiner Strich t s und kleineres Viereck t w r s; darunter Striche a e, c d r s mit punktierter Linie]
 
 ### Beweiß.
 
@@ -31,5 +31,5 @@ Und derer ebenmässigen Vielecke Seiten oder Striche sind auch ebenmässig. W. Z
 
 Gleichwincklichte nebenstrichichte Vierecke ha-
 
-<!-- signature mark: Z z 2 -->
-<!-- catchword: ben -->
+<!-- Signature: Z z 2 -->
+<!-- Catchword: ben -->

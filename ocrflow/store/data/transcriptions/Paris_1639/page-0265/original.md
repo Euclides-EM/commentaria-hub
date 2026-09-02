@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 1.6 | bf π bh 2|2 eb π bc,
 2 concl. 11.5 | ab π bg 2|2 eb π bc.
@@ -23,7 +23,7 @@ concl. 9.5 | ◊ac 2|2 ◊bf.
 
 Des triangles égaux, & qui ont vn angle égal à vn angle, les costez qui sont autour des angles égaux sont reciproques: Et les triangles qui ont vn angle égal à vn angle, & les costez qui sont autour des angles égaux reciproques sont égaux.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. commun.
 

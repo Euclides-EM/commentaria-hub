@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 Hypoth.
 
@@ -16,7 +15,7 @@ Constr.
 1.p.1 | ab, bc, ad dc snt —,
 symp. | □abcd est req.
 
-*[Figure: cercle auec quarré A—B—C—D inscrit, E au centre, diagonales A—C et B—D]*
+[Figure: cercle auec quarré A—B—C—D inscrit, E au centre, diagonales A—C et B—D]
 
 Demonstr.
 

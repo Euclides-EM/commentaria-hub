@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIV. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
 ## THEOR. IV. PROPOS. IV.
 

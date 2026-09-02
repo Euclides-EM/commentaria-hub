@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 202)* -->
+<!-- Page number: 202 -->
 
 IV. Eine geradstrichichte Gestalt wird umb einen Kreyß beschrieben genennet/ wenn sie mit ihren Seiten den Umbfang des Kreyses berühret.
 
@@ -24,6 +24,6 @@ Einem gegebenen Kreyß einen geraden Strich / welcher dem gegebenen Strich gleic
 2. Gerader Strich ab. Strich cd.
 3. Der Durchschlag cg ⊣ ab. 2. cd | ab.
 
-*[Figur: links ein senkrechter Strich ab; daneben ein Kreis cdf mit Mittelpunkt e, punktierter Durchmesser gc und eingefügtem Strich cd; ein zweiter punktierter Kreisbogen um c durch d und f]*
+[Diagram: links ein senkrechter Strich ab; daneben ein Kreis cdf mit Mittelpunkt e, punktierter Durchmesser gc und eingefügtem Strich cd; ein zweiter punktierter Kreisbogen um c durch d und f]
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

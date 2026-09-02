@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 377)* -->
+<!-- Page number: 377 -->
 
 ## Der XXIX. Vortrag.
 
@@ -24,5 +24,5 @@ An einen gegebenen geraden Strich ein nebenstrichichtes übertreffendes/ und der
 6. □ Bm ähnlich □ L,
 7. Auf gleiche Weise gesetze.
 
-<!-- signature mark: Bbb -->
-<!-- catchword: Wirckung. -->
+<!-- Signature: Bbb -->
+<!-- Catchword: Wirckung. -->

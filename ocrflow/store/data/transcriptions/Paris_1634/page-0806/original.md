@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-<!-- # ELEM.. EVCLID. LI. XII. -->
-
-<!-- L A / F I / K / B D / E / G H / C (figure) -->
+[Figure: labels arranged L A / F I / K / B D / E / G H / C]
 
 Demonstr.
 

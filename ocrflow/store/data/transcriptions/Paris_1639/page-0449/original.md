@@ -1,4 +1,4 @@
-<!-- # DE LA GNOMONIQVE. -->
+<!-- Running title: DE LA GNOMONIQVE. -->
 
 ction de la ligne equinoctiale SQ, & de la meridienne AR : Finalement les lignes droictes menées du centre G aux poincts des diuisions du cercle HEL, vous donneront en la ligne equinoctiale SQ des poincts, ausquels si vous tirez des lignes droites du centre A, le quadrant sera acheué, qui doit auoir pour stile oblique la ligne AB, tirée du centre A au sommet de CB, perpendiculaire au plan du quadrant au poinct C.
 

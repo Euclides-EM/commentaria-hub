@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 239)* -->
+<!-- Page number: 239 -->
 
 Oder auch also:
 
@@ -9,7 +9,7 @@ Oder auch also:
 1. Die grösse a werde vier mahl/
 2. wie auch b vier mahl genommen:
 
-*[Figur: vier waagerechte Linien, bezeichnet A, 4a, B, 4b]*
+[Diagram: vier waagerechte Linien, bezeichnet A, 4a, B, 4b]
 
 ### Beweiß.
 
@@ -35,4 +35,4 @@ Dw. A + B : a + b | A : B, n. 6. Beschr. V.
 
 Wenn derowegen die 1. zu der 2. Grösse/ und die 3. zu der 4. gleich-vielfältig sind/ so werden auch die 1. und 3. zusammen genommen / zu denen 2. und 4. zusammen genommenen Grössen eben so vielfältig seyn / als die 1. zu der 2. oder die 3. zu der 4. Grössen sind. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

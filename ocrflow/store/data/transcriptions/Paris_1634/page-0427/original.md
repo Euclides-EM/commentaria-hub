@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 1.6 | Δfde π Δedc 2|2 fe π ec,
 13.5 | <hde π <edg 3|2 fe π ec, β

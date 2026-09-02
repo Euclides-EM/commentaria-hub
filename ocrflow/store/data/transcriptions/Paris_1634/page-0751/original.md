@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-<!-- # ELEM.. EVCLID. LI. XI. -->
-
-<!-- C / A E H / I K / B / G F D (figure) -->
+[Figure: labels arranged C / A E H / I K / B / G F D]
 
 Hypoth.
 
@@ -30,7 +29,7 @@ Si solidus angulus tribus angulis planis contineatur: ex his duo quilibet vtvt a
 
 *Si vn angle solide, est contenu de trois angles: deux d'iceux pris de quelque façon que ce soit, sont plus grands que le troisiesme.*
 
-<!-- D / A / B E C (figure) -->
+[Figure: labels arranged D / A / B E C]
 
 Hypoth.
 

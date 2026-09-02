@@ -345,6 +345,36 @@ const joinLineTexts = (
     : [{ text: '', anchors: {}, lineRanges: [], blockType }]
 }
 
+const joinLiteralLineTexts = (
+  lines: LineTextWithAnchors[],
+  blockType?: string,
+): ParagraphTextWithAnchors[] => {
+  let text = ''
+  const anchors: Record<string, number> = {}
+  const lineRanges: ParagraphLineRange[] = []
+
+  for (const [lineIndex, line] of lines.entries()) {
+    if (lineIndex > 0) {
+      text += '\n'
+    }
+    const offset = text.length
+    text += line.text
+    if (line.matchIds.length > 0 && line.text.length > 0) {
+      lineRanges.push({
+        start: offset,
+        end: text.length,
+        matchIds: line.matchIds,
+        certaintyDegree: line.certaintyDegree,
+      })
+    }
+    for (const [id, position] of Object.entries(line.anchors)) {
+      anchors[id] = offset + position
+    }
+  }
+
+  return [{ text, anchors, lineRanges, blockType }]
+}
+
 const getTeiBlockType = (element: Element) =>
   getElementAttr(element, 'type') || undefined
 
@@ -456,9 +486,11 @@ export const renderStructuredDivToParagraphs = (
     const lines = getLineElements(container)
     if (lines.length) {
       const renderedLines = lines.map((line) => {
-        const lineText = trimTextWithAnchors(
-          toReadingTextWithAnchors(line, opts),
-        )
+        const rawLineText = toReadingTextWithAnchors(line, opts)
+        const lineText =
+          blockType === 'calculation'
+            ? rawLineText
+            : trimTextWithAnchors(rawLineText)
         const degree = getElementCertaintyDegree(line, opts)
         return {
           ...lineText,
@@ -473,7 +505,10 @@ export const renderStructuredDivToParagraphs = (
         appendParagraphLines(paragraphs, renderedLines, opts, blockType)
         continue
       }
-      const blocks = joinLineTexts(renderedLines, opts.alignLines, blockType)
+      const blocks =
+        blockType === 'calculation'
+          ? joinLiteralLineTexts(renderedLines, blockType)
+          : joinLineTexts(renderedLines, opts.alignLines, blockType)
       for (const block of blocks) {
         paragraphs.push(block)
       }
@@ -780,6 +815,20 @@ const renderParagraphElement = (
   return `<table${attrs} data-tei-table="true"><tbody>${rows}</tbody></table>`
 }
 
+const getBlockTypeAttrs = (blockType?: string) => {
+  if (!blockType) {
+    return ''
+  }
+
+  let attrs = ` data-tei-block-type="${escapeHtmlAttr(blockType)}"`
+  const otherPrefix = 'other:'
+  if (blockType.startsWith(otherPrefix)) {
+    const otherType = blockType.slice(otherPrefix.length)
+    attrs += ` data-tei-other-type="${escapeHtmlAttr(otherType)}"`
+  }
+  return attrs
+}
+
 export const renderStructuredDiv = (
   div: Element,
   opts: ReadingOptions,
@@ -788,15 +837,12 @@ export const renderStructuredDiv = (
   const paragraphs = renderStructuredDivToParagraphs(div, opts, lineMatchMode)
   return paragraphs
     .map((paragraph, index) => {
-      const blockTypeAttr = paragraph.blockType
-        ? ` data-tei-block-type="${escapeHtmlAttr(paragraph.blockType)}"`
-        : ''
       return renderParagraphElement(
         paragraph,
         [],
         index,
         !!opts.showCertaintyVisualization,
-        blockTypeAttr,
+        getBlockTypeAttrs(paragraph.blockType),
       )
     })
     .join('')
@@ -965,15 +1011,13 @@ export const renderOriginalView = (
   const parts = paragraphs.map((paragraph, index) => {
     const spans = paragraphSpans.get(index) || []
     const paragraphTextAttr = escapeHtmlAttr(encodeURIComponent(paragraph.text))
-    const blockTypeAttr = paragraph.blockType
-      ? ` data-tei-block-type="${escapeHtmlAttr(paragraph.blockType)}"`
-      : ''
+    const blockTypeAttrs = getBlockTypeAttrs(paragraph.blockType)
     return renderParagraphElement(
       paragraph,
       spans,
       index,
       !!opts.showCertaintyVisualization,
-      ` data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}"${blockTypeAttr}`,
+      ` data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}"${blockTypeAttrs}`,
     )
   })
 

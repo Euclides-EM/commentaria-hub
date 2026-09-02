@@ -1,4 +1,4 @@
-<!-- # ETYMOLOGIE. -->
+<!-- Running title: ETYMOLOGIE. -->
 
 Loxodromie vient de *loxos*, qui en Grec signifie oblique, & *dromos* course.  t. 4. p. 403.
 

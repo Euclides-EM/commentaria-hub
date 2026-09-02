@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 Demonstr.
 
@@ -14,7 +13,7 @@ Si recta linea secta sit vtcunque : rectangulum sub partibus contentum est mediu
 
 Si vne ligne droicte est couppee comme on voudra, le rectangle contenu sous les parties, est milieu proportionel, entre les quarrez d'icelles parties : Item le rectangle contenu sous la toute & vne partie est milieu proportionel entre le quarré de la toute, & le quarré de ladite partie.
 
-*[Figure: demi-cercle A, E, B auec perpendiculaire E—D sur A—B]*
+[Figure: demi-cercle A, E, B auec perpendiculaire E—D sur A—B]
 
 Hypoth.
 

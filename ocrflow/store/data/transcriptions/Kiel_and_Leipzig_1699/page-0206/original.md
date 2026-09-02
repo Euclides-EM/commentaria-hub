@@ -1,8 +1,8 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 188)* -->
+<!-- Page number: 188 -->
 
-*[Figur: Kreis mit Punkten h, g, a, k, b; unten links Winckel mit Punkten d, c, e, f]*
+[Diagram: Kreis mit Punkten h, g, a, k, b; unten links Winckel mit Punkten d, c, e, f]
 
 ### Vorbereitung.
 
@@ -34,4 +34,4 @@ Der Winckel ecd | ∟
 1. Wird der gegebene Strich ab in zween gleiche Theil getheilet. n. 10. I.
 2. Aus dieses Striches ab Mittel m wird nach der weite ma ein Kreyß beschrieben.
 
-*[Figur: Halbkreis über dem Strich a–b mit Mittelpunkt m; Punkte c, h, e oben, d bei a]*
+[Diagram: Halbkreis über dem Strich a–b mit Mittelpunkt m; Punkte c, h, e oben, d bei a]

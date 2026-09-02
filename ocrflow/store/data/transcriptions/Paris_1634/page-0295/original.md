@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 Les grandeurs égales ont mesme raison à vne mesme grandeur, & vne mesme grandeur a mesme raison aux égales.
 
-*[Figure: lignes A, C, B et D, F, E]*
+[Figure: lignes A, C, B et D, F, E]
 
 hypoth. | a 2|2 b.
 

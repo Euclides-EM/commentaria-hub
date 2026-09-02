@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 d. α | pyram. acdf ſml. pyram. gikm,
 d. α | pyram. adef ſml. pyram. gкlm,

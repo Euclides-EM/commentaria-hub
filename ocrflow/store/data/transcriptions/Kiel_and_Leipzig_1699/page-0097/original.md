@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 79)* -->
+<!-- Page number: 79 -->
 
 ## Der XLV. Vortrag.
 
@@ -22,6 +22,6 @@ Einer geradstrichichen Gestalt / nach dem gegebenen Winckel / ein gleichgrosses 
 
 4. Diese beyden □ □ a und b werden zusammen gesetzet bey ihren gleich langen Seiten/ damit ein □ gomn daraus werde.
 
-*[Figur: Winckel D; Viereck ypzq mit Dreyecken A und B; Parallelogramm-Figur mit Punkten i, x, h, B, u, k, g und b; Figur c, d, e, s, t mit Dreyeck A und Viereck a; Parallelogramm o, g, m, n mit Vierecken b und a]*
+[Diagram: Winckel D; Viereck ypzq mit Dreyecken A und B; Parallelogramm-Figur mit Punkten i, x, h, B, u, k, g und b; Figur c, d, e, s, t mit Dreyeck A und Viereck a; Parallelogramm o, g, m, n mit Vierecken b und a]
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

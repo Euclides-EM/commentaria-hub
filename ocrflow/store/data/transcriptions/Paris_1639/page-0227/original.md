@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 7.5 | c π a 2|2 c π b,
 | *contr. hyp.*
@@ -10,7 +10,7 @@
 
 Les raisons qui sont de mesme à vne mesme raison, sont aussi de mesme entr'elles.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

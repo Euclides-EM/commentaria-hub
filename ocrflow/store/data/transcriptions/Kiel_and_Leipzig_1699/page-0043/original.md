@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 25)* -->
+<!-- Page number: 25 -->
 
 ### Beschluß.
 
@@ -29,6 +29,6 @@ Wenn auff eines Strichs End-Düttel zweene Striche gesetzet werden / und oberhal
 
 Wenn die beeden andern Striche nicht in b zusammen kommen / so mögen sie in d an einander stossen. β
 
-<!-- signature mark: D -->
+<!-- Signature: D -->
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

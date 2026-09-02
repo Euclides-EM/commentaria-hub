@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 descriptum, quadruplum est quadrati ex hac descripti.
 
 Si vne ligne droicte est double d'vne ligne droicte, le quarré descrit de celle-là, est quadruple du quarré descrit de celle-cy.
 
-*[Figure: quarré E—G—F en haut, A—C—B en bas, H—K—I au milieu, diagonale E—K—B, ligne G—K—C]*
+[Figure: quarré E—G—F en haut, A—C—B en bas, H—K—I au milieu, diagonale E—K—B, ligne G—K—C]
 
 Hypoth.
 

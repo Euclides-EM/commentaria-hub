@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
 symp. | eibf, &c. est 15< req.
 
@@ -26,7 +25,7 @@ hyp. | ∩ae + ∩ef + ∩fg
 1.concl. constr. | 15<, eibf, &c. est æquilat.
 2.concl. 27.3 | 15<, eibf, &c. est æquiang.
 
-*[Figure: cercle auec quintidecagone inscrit, triangle equilateral A—B—C et pentagone A—E—F—G—H inscrits, I entre E et B ; à part petit triangle D]*
+[Figure: cercle auec quintidecagone inscrit, triangle equilateral A—B—C et pentagone A—E—F—G—H inscrits, I entre E et B ; à part petit triangle D]
 
 Explicat. p̄ nr.
 

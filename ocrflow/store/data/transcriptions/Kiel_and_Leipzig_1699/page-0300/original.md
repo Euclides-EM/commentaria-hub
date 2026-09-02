@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 276)* -->
+<!-- Page number: 276 -->
 
 ## Der XXI. Vortrag.
 
@@ -10,7 +10,7 @@ Wenn man drey Grössen hat / und noch andere drey Grössen sind / welche mit den
 
 ### I. Gegebene.
 
-*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
 A : B ∷ | b : c
 B : C | a : b
@@ -30,4 +30,4 @@ a ⊦ c
 | Dw. A : B | ⊦ C : B | n. 8. V. |
 | u. b : c | ⊦ C : B | n. 13. V. |
 
-<!-- catchword: a : b -->
+<!-- Catchword: a : b -->

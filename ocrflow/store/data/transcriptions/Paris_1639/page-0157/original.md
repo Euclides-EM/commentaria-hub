@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 #### Hypoth.
 
@@ -32,7 +32,7 @@ d.α | ∠adb 2|2 ∠acb,
 
 Les figures de quatre costez inscrites au cercle, ont les angles opposez égaux à deux angles droits.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

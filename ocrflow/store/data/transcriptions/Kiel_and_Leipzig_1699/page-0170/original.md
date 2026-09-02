@@ -1,12 +1,12 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 152)* -->
+<!-- Page number: 152 -->
 
 ### III. Begebenheit.
 
 Wenn die beeden Kreyse einander auswendig in k und m anrühren.
 
-*[Figur: zwei einander von aussen berührende Kreise; an der Berührung oben k, darunter m; im linken Kreis der Mittel-Düpffel l, im rechten i; gerade und punktierte Verbindungsstriche]*
+[Diagram: zwei einander von aussen berührende Kreise; an der Berührung oben k, darunter m; im linken Kreis der Mittel-Düpffel l, im rechten i; gerade und punktierte Verbindungsstriche]
 
 ### Vorbereitung.
 
@@ -25,6 +25,6 @@ Welches aber unmüglich n. 20. I.
 
 Wenn der kleinere Kreyß den grössern inwendig in q und r berühret.
 
-*[Figur: zwei Kreise, deren kleinerer den grössern inwendig berühret; oben die Punkte b und r, im Innern o und d, mit punktierten Strichen verbunden]*
+[Diagram: zwei Kreise, deren kleinerer den grössern inwendig berühret; oben die Punkte b und r, im Innern o und d, mit punktierten Strichen verbunden]
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

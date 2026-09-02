@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 ### X.
 
 Semblables segments ou sections de cercles sont celles, qui reçoiuent angles égaux ; ou esquels les angles sont égaux entr'eux.
 
-*[Figure]*
+[Figure]
 
 hyp. | ∠abc 2|2 ∠def,
 10.d.1 | *ſegm.* abc *ſml. ſegm* def.
@@ -15,7 +15,7 @@ De cette definition s'ensuit, que les segments semblables sont pareilles parties
 
 Trouuer le centre d'vn cercle donné.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

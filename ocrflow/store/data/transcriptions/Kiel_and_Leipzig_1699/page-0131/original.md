@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 113)* -->
+<!-- Page number: 113 -->
 
 ## Der X. Vortrag.
 
@@ -30,6 +30,6 @@ Wenn ein gerader Strich in zweene gleiche Theile geschnitten / und hernach ein a
 8. Desgleichen auch ea,
 9. Und ag.
 
-<!-- signature mark: P -->
+<!-- Signature: P -->
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

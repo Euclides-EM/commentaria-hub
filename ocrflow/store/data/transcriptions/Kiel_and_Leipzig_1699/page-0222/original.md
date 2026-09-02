@@ -1,8 +1,8 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 204)* -->
+<!-- Page number: 204 -->
 
-*[Figur: links Dreyeck hfg mit punktierten Winckelbögen; rechts Kreis mit eingeschriebenem Dreyeck abc, oben der Rührstrich e–d durch a]*
+[Diagram: links Dreyeck hfg mit punktierten Winckelbögen; rechts Kreis mit eingeschriebenem Dreyeck abc, oben der Rührstrich e–d durch a]
 
 ### Wirckung.
 
@@ -28,4 +28,4 @@ u. △ abc dem O abc eingeschrieben n. 3. Beschr. IV.
 
 Ist also dem gegebenen Kreyß ein dem gegebenen Dreyeck gleichwincklichtes Dreyeck eingeschrieben. W. Z. M.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

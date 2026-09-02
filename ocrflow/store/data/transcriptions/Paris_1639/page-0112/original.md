@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Explication par nombres.
 
@@ -10,7 +10,7 @@ hyp. | ad *eſt* 8, γ
 3.a.1 | cd *eſt* 3, ε
 γδ | ah ▭.adb *eſt* 16,
 
-*[Figure]*
+[Figure]
 
 ε | kg □.cd *eſt* 9,
 19.a.1 | ah + kg *ſnt* 25,
@@ -20,7 +20,7 @@ concl. α | cf □.cb *eſt* 25.
 
 Le quarré de la perpendiculaire, qui tombe de la circonference sur le diametre; est égal au rectangle compris sous les segments du diametre faits par icelle perpendiculaire.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

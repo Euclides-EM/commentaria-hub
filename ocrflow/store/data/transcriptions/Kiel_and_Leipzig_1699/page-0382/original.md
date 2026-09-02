@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 352)* -->
+<!-- Page number: 352 -->
 
 Dw. ist cdefg ähnlich der Gestalt abhik, und eben so gesetzet n. 1. Beschr. VI.
 
@@ -21,7 +21,7 @@ Vortheilhafftiger kan dieser Aufgabe ein Genügen geschehen/ wenn
 5. | d | DE | de,
 6. | e | EF | ef gezogen wird n. 31. I.
 
-*[Figur: Sechseck ABCDEF mit einwärts liegendem ähnlichen Sechseck abcdef; von A gehen punktierte Striche zu den Ecken; oben der Strich A a—b B]*
+[Diagram: Sechseck ABCDEF mit einwärts liegendem ähnlichen Sechseck abcdef; von A gehen punktierte Striche zu den Ecken; oben der Strich A a—b B]
 
 ### Beweiß.
 
@@ -30,4 +30,4 @@ Dw. ACB ⋏ acb
 u. ABC ⋏ abc n. 29. I.
 CAB ⋏ cab n 8. Gr. I.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

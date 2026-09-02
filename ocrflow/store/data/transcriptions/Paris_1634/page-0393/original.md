@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 L'addition des semblables plans se fait par la cinquiesme de l'appendix.
 
@@ -13,7 +12,7 @@ Estant donnee la base d'vn triangle rectangle, & la moyenne proportionnelle entr
 
 Vieta in effectionibus Geometricis.
 
-*[Figure: cercle auec les poincts F, A, D, B, E, G, C ; ligne H à part]*
+[Figure: cercle auec les poincts F, A, D, B, E, G, C ; ligne H à part]
 
 Hypoth.
 

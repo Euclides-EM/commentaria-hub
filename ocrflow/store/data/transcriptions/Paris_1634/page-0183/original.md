@@ -1,4 +1,3 @@
-
 # EVCLIDIS ELEMENTORVM LIBER TERTIVS.
 
 # LE TROISIESME LIVRE DES ELEMENTS D'EVCLIDE.
@@ -12,7 +11,7 @@ CERCLES égaux sont ceux desquels les diametres sont égaux; ou desquels les lig
 hyp. | semidiamet. ga 2|2 semidiamet. hd,
 1.d.3 | ⊙gabc 2|2 ⊙hdef.
 
-*[Figure: deux cercles égaux, le premier A—B—C avec centre G et I en bas, le second D—E—F avec centre H et K en bas, triangles G—A—C et H—D—F]*
+[Figure: deux cercles égaux, le premier A—B—C avec centre G et I en bas, le second D—E—F avec centre H et K en bas, triangles G—A—C et H—D—F]
 
 ## DEFINIT. II.
 

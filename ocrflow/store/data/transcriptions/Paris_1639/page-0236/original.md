@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Demonſtr.
 
@@ -16,7 +16,7 @@ hyp. | ab π bc 2|2 de π ef,
 
 #### Demonſtr.. compoſit.. raō. conuerſe.
 
-*[Figure]*
+[Figure]
 
 hyp. | ab π bc 2|2 de π ef.
 

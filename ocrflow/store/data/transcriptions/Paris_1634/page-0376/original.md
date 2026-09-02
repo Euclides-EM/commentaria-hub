@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 De trois proportionnelles estant donnee la moyenne & la somme des extremes trouuer les extremes.
 
-*[Figure: demi-cercle H, G, E sur la base A, F, C, D, B, auec ligne K]*
+[Figure: demi-cercle H, G, E sur la base A, F, C, D, B, auec ligne K]
 
 Hypoth.
 

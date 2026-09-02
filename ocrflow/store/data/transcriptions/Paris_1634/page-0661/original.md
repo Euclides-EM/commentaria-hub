@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 potest, ad rationalem applicatum, latitudinem facit ex binis nominibus quintam.
 

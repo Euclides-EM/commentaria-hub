@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 eg *eſt commun.*
 
@@ -20,7 +20,7 @@ De cette proposition il est euident, que si au cercle, vne ligne droicte est cou
 
 Si en la circonference d'vn cercle on prend deux poincts tels qu'on voudra ; la ligne droicte conjointe à iceux poincts tombera dedans le cercle.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

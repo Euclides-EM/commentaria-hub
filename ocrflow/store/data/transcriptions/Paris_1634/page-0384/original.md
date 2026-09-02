@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 d.δ | sect. fhg, ghl, lhp snt ⁊e,
 d.δ | ⌒bci 2, 3, 4|3 ⌒fgp,

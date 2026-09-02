@@ -16,4 +16,4 @@ cba ⋏ CBA
 
 Si igitur duo triangula duo latera duobus lateribus æqualia habeant, utrumque utrique; habeant verò & angulum angulo æqualem, sub æqualibus rectis lineis contentum: Et basin basi æqualem habebunt; eritque triangulum triangulo æquale; & reliqui anguli reliquis angulis æquales erunt, uterque utrique, quos æqualia latera subtendunt. q. e. d. (W. Z. B.)
 
-*[Figur: grosse Schlussvignette (Holzschnitt) mit Blumen und Blattwerk]*
+[Ornament: grosse Schlussvignette (Holzschnitt) mit Blumen und Blattwerk]

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 387)* -->
+<!-- Page number: 387 -->
 
 |  |  |  |
 |---|---|---|
@@ -31,6 +31,6 @@ Auch haben die Kreyßschnitte gleiche Verhältnüß/ weil sie aus Mittel-Düpffe
 5. Zwey Kreyßstücke bc und fg.
 6. Zween Kreyßschnitte bdc und fhg.
 
-<!-- signature mark: Ccc 2 -->
+<!-- Signature: Ccc 2 -->
 
-<!-- catchword: I. Be- -->
+<!-- Catchword: I. Be- -->

@@ -1,18 +1,20 @@
-# GEOMET. ELEMENT.
+<!-- Running title: GEOMET. ELEMENT. -->
 
 **144**
 
 sunt minores : & angulus d/e/c/angulo a/c/b/ per hypothesin est æqualis. Ex quo fit, vt anguli a/b/e/ & d/e/b, eisdem angulis a/b/c/ & a/c/ b/ sint æquales : & proinde binis rectis itidem minores.  Et quoniam ex hypothesi angulus d/ c/ e , interiori & opposito ad easdem partes a/b/c/ est æqualis angulo, necnon & a/c/b/ipsi d/e/c/ itidem interiori & opposito æqualis : parallela est igitur c/d/ipsi b/f,& a/c/ipsi f/e,per vigesimamoctauam primi. Parallelogrammum est itaq; a/c/d/f: & proinde a/c/latus opposito f/d/ æquale, similiter & a/f/ipsi c/d,per trigesimamquartā eiusdē primi.His ita constructis,quoniā trianguli b/f/e, ad latus f/e,acta est parallelus a/c:secat igitur a/c,ipsius trianguli latera proportionaliter,per secundā huius sexti,sicut quidem b/a/ad a/f, sic b/c/ad c/e.& æqualis ostensa est a/f,ipsi c/d.æquales autem ad eandem, eandem habent rationē:& eadem ad æquales, per septimā quinti.  Et sicut igitur a/b, ad d/c:sic b/c,ad c/e. Et permutatim insuper,sicut a/b,ad b/c:sic d/c,ad c/e,per decimamsextam eiusdem quinti . Item quoniam ipsius trianguli b/f/e, ad latus b/f, acta est parallelus c/d :secat rursum eadem c/d,eiusdem trianguli latera proportionaliter,per eandem secundam huius sexti,sicut quidē b/c,ad c/e:sic f/d,ad d/e. Ipsi porrò f/ d, ostēsa est æqualis a/c. Et sicut igitur b/c,ad c/e:sic c/a/ ad e/d,per eandē septimā quinti. atq; rursum permutatim,per ipsius quinti decimamsextā,sicut b/c/ ad c/a:sic c/e/ad e/d.Iam itaq; ostēsum est,sicut a/b/ad b/c/sic d/c/ad c/e:sicútq; b/c/ad c/a,sic & c/e/ad e/d.  Sunt igitur tres magnitudines a/b,b/c,& c/a:& aliæ eisdē æquales numero d/c,c/e,& e/d, cū duab⁹ sumptis in eadē ratione.& ex æqua igitur ratione,erit sicut b/a, ad a/c: sic etiā c/d, ad d/e.Aequiangulorū itaq; triangulorū a/b/c/& d/c/e, proportionalia sunt latera quæ circū æquales angulos:& similis sunt rationis quæ æqualibus angulis latera subtenduntur Quod demonstrandum fuerat.
 
-> Demōstratio theorematis.
+[Margin]
+Demōstratio theorematis.
+[/Margin]
 
-*[diagram: f a d b c e]*
+[Diagram: f a d b c e]
 
-*[diagram: a/b. d/c. b/c. c/e.]*
+[Diagram: a/b. d/c. b/c. c/e.]
 
-*[diagram: b/c. c/e. c/a. e/d.]*
+[Diagram: b/c. c/e. c/a. e/d.]
 
-*[diagram: a/b,b/c,c/a. d/c,c/e,e/d.]*
+[Diagram: a/b,b/c,c/a. d/c,c/e,e/d.]
 
 Θεώρημα ε, Πρόθεσις ε.
 
@@ -26,6 +28,8 @@ ORONTIVS. ¶Hæc est conuersa præcedentis: quæ non potuit eadem figura,vel ded
 
 Ad datam enim rectam lineam e/f,& data illius puncta e/& f,datis angulis rectilineis a/b/c/& a/c/b,æquales
 
-> Cōstructio figuræ.
+[Margin]
+Cōstructio figuræ.
+[/Margin]
 
-*[diagram: a b c | d e f g]*
+[Diagram: a b c | d e f g]

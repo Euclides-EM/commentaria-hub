@@ -1,8 +1,8 @@
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
-<!-- *(Seitenzahl: 175)* -->
+<!-- Page number: 175 -->
 
-*[Figur: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, i, der andere mit h, f, d, e, k; in jedem stehen Winckel am Mittel-Düpffel und im Kreyß, die Sehnen punctirt]*
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, i, der andere mit h, f, d, e, k; in jedem stehen Winckel am Mittel-Düpffel und im Kreyß, die Sehnen punctirt]
 
 ### II. Beweiß.
 
@@ -30,4 +30,4 @@ In gleichgrossen Kreyssen sind diejenigen Winckel/ welche auff gleichgrossen Bog
 1. cad ⋀ hbi
 2. cfd ⋀ hei
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

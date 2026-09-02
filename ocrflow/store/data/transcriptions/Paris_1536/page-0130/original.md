@@ -1,14 +1,18 @@
-# GEOMET. ELEMENT.
+<!-- Running title: GEOMET. ELEMENT. -->
 
-114
+<!-- Page number: 114 -->
 
-> Exemplum.
+[Margin]
+Exemplum.
+[/Margin]
 
 veluti a/b/ad b, ita c/d/ad d: & conuertamus in hunc modū. Ergo sicut a/b/ ad a, ita c/d/ ad c. Sunt enim a/ & c/differentiæ, quibus c/& d/ab ipsis a/b/& c/d/superantur. In composita igi-
 
-> Notandum.
+[Margin]
+Notandum.
+[/Margin]
 
-*[diagram: 12. ab — 8. b — 4. a — 6. cd — 4. d — 2. c]*
+[Diagram: 12. ab — 8. b — 4. a — 6. cd — 4. d — 2. c]
 
 tur, & diuisa ratione, ac conuersione rationis, quanquàm nihil sumatur extrinsecum: alterantur nihilominus termini, ijdem secundum substantiam minimè permanentes.
 
@@ -18,9 +22,11 @@ tur, & diuisa ratione, ac conuersione rationis, quanquàm nihil sumatur extrinse
 
 Exempli gratia, sint primi ordinis quantitates a, b, c, secundi verò d, e, f: sitq̄ a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f: vel a/ad b/sicut e/ad f, & b/ad c/veluti d/ad e: & concludendo sub-
 
-> Inferendi modus ex æqua ratione.
+[Margin]
+Inferendi modus ex æqua ratione.
+[/Margin]
 
-*[diagram: 6 3 2 / 9. a — 6. b — 3. c — 12. d — 8. e — 4. f]*
+[Diagram: 6 3 2 / 9. a — 6. b — 3. c — 12. d — 8. e — 4. f]
 
 inferamus. Igitur sicut a/ad c, ita d/ad f. Hunc modum arguēdi, ex æquali, aut ex æqua ratione vocitamus. Vt si a ad b/& d/ad e/sesqualteram, b/autem ad c/& e/ ad f/duplam obtinuerit rationem: vel a/ad b/& e/ad f/dupla, b/ autem ad c/atque d/ ad e/sesqualtera ratione proportionetur: necessum est a/ ad c, atque d/ad f, triplam obseruare rationem. vt ex ipsa numerorum potes elicere formula.
 
@@ -30,11 +36,16 @@ inferamus. Igitur sicut a/ad c, ita d/ad f. Hunc modum arguēdi, ex æquali, aut
 
 Expeditis quæ ex eadem proportione subinferuntur rationum comparationibus: diffinit tandem Euclides, binas proportionum species, inter geminos proportionalium magnitudinum ordines accidentes. Ordinatam itaque proportionem adpellamus, quando antecedentium & cōsequētium ordinatim fit comparatio. Vt si bini (verbi gratia) fuerint numerorum ordines, a/b/c/inquā primus, & d/e/f/secūdus: fueritq̄
 
-> Exēplū ordinatæ proportionis.
+[Margin]
+Exēplū ordinatæ proportionis.
+[/Margin]
 
 a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f. Hāc rationū identitatem, ordinatam solemus vocitare proportionem. Huic contraria est perturbata, quæ sic diffinitur,
 
-*[table: a b c — d e f / 9 6 3 — 12 8 4]*
+| |
+|---|
+| a b c — d e f |
+| 9 6 3 — 12 8 4 |
 
 ¶Τεταραγμένη δὲ ἀναλογία ἐστὶν, ὅταν τριῶν ὄντων μεγεθῶν, καὶ ἄλλων ἴσων αὐτοῖς τὸ πλῆθος γίνεται: ὡς μὲν ἐν τοῖς πρώτοις μεγέθεσιν ἡγούμενον, πρὸς τὸ ἑπόμενον, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς τὸ ἑπόμενον: ὡς δὲ ἐν τοῖς πρώτοις μεγέθεσιν ἑπόμενον πρὸς ἄλλο τι, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς ἄλλο τι.
 

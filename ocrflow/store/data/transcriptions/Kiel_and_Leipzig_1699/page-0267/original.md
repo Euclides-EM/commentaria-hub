@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 243)* -->
+<!-- Page number: 243 -->
 
 ### III. Beweiß.
 
@@ -35,6 +35,6 @@ Wenn derohalben die 1. Grösse der 2. gleichvielfältig/ auch die 3. der 4. glei
 
 Wenn (unter den vier gegebenen Grössen) die Erste vielfäl-
 
-<!-- signature mark: Hh 2 -->
+<!-- Signature: Hh 2 -->
 
-<!-- catchword: tig -->
+<!-- Catchword: tig -->

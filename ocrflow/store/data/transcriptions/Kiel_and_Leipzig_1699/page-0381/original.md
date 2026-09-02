@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 351)* -->
+<!-- Page number: 351 -->
 
 edc ⋏ abh
 3. und dec ⋏ ahb
@@ -38,4 +38,4 @@ k ⋏ g
 i ⋏ f
 h ⋏ e
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

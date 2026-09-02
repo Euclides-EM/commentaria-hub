@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 ε. 47.1 | □.am 2|2 □.ac + □.cm,
 1. a. f | □.al 2|2 □.lm + □.mc + □.ac,

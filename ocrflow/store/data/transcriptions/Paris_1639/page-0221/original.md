@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. V. -->
+<!-- Running title: D'EVCLIDE, LIV. V. -->
 
 3.5 | l *multipl..* b 2|2 m *multipl..* d,
 hyp. | a π b 2|2 c π d,

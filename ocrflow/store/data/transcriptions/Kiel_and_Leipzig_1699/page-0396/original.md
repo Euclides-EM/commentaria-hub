@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 366)* -->
+<!-- Page number: 366 -->
 
 üm den Zwerg-strich stehende Viereck so wol dem Gantzen/ als auch unter sich gleichähnlich.
 
@@ -15,7 +15,7 @@
 2. □ DC ⎬ ähnlich ⎨ □ HI
 3. □ FG ⎭ ⎩ □ HI
 
-*[Figur: schiefwinckliges Viereck ADBC mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, nebst Diagonale und inneren Linien]*
+[Diagram: schiefwinckliges Viereck ADBC mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, nebst Diagonale und inneren Linien]
 
 ### Beweiß.
 
@@ -35,4 +35,4 @@ GE ⧧ DB n. Geg. u. n. 30. Besch. I.
 Dw. AG : AD | GE : DB n. 2. VI.
 AC ⧧ EH n. Geg.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

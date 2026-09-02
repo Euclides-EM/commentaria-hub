@@ -1,4 +1,4 @@
-*[Figur: Zierleiste (Holzschnitt) mit Wappen und Löwen]*
+[Ornament: Zierleiste (Holzschnitt) mit Wappen und Löwen]
 
 # Lectori Benevolo S.
 
@@ -10,6 +10,6 @@ HAnc librorum VI. Euclidis in linguam Germanicam translationem non obstare hujus
 
 Si duo triangula duo latera duobus lateribus æqualia habeant, utrumque utrique; habeant verò & angulum angulo æqualem, sub æqualibus lineis contentum: Et basin basi æqualem habebunt; eritque triangulum triangulo æquale, & reliqui anguli reliquis angulis æquales erunt, uterq; utriq;, quos æqualia latera subtendunt.
 
-<!-- signature mark: )( -->
+<!-- Signature: )( -->
 
-<!-- catchword: Data -->
+<!-- Catchword: Data -->

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 304)* -->
+<!-- Page number: 304 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ### I. Gegebene. — Begehrtes.
 
@@ -9,7 +9,7 @@
 3. Die Höhen cq | fq
 4. Grundstriche ab | 3 db
 
-*[Figur: Zwei Dreiecke mit gemeinsamer Grundlinie u t d q e q a r s b, aus den Gipffeln f und c gehen gestrichelte und ausgezogene Striche auf die Grundlinie herab]*
+[Diagram: Zwei Dreiecke mit gemeinsamer Grundlinie u t d q e q a r s b, aus den Gipffeln f und c gehen gestrichelte und ausgezogene Striche auf die Grundlinie herab]
 
 ### Vorbereitung.
 
@@ -27,4 +27,4 @@ de|ar|rs|sb.
 
 6. Werden die Striche ft und fu gezogen.
 
-<!-- catchword: Beweiß- -->
+<!-- Catchword: Beweiß- -->

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 46)* -->
+<!-- Page number: 46 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 ### Beschluß.
 Ist also das △ ABF verfertiget/ in welchen
@@ -20,7 +20,7 @@ Auff einen gegebenen geraden Strich/ und zwar auff den darin gegebenen Düttel /
 3. Düttel C 3. im Düttel C
 4. In dem Strich AB 4. auff dem Strich AB.
 
-*[Figur: Zwei Winkel: links Winkel bei E mit Schenkeln nach F oben und G, rechts Winkel bei C mit Schenkeln nach I oben und K; waagerechter Strich E G C K, punktierte Kreisbögen FG und IK; Punkte A und B.]*
+[Diagram: Zwei Winkel: links Winkel bei E mit Schenkeln nach F oben und G, rechts Winkel bei C mit Schenkeln nach I oben und K; waagerechter Strich E G C K, punktierte Kreisbögen FG und IK; Punkte A und B.]
 
 ### Wirckung.
 
@@ -30,4 +30,4 @@ Auff einen gegebenen geraden Strich/ und zwar auff den darin gegebenen Düttel /
 4. Auff den Strich CK setze man CI | EF)
 und KI | GF) n. 22. Vort.
 
-<!-- catchword: Beweiß -->
+<!-- Catchword: Beweiß -->

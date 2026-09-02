@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ### COROLL. II.
 
 Il s'ensuit aussi que si vne ligne droicte fait deux angles inégaux auec vne autre ligne droicte, l'vn obtus & l'autre aigu, que la ligne perpendiculaire tirée de quelconque poinct d'icelle sur cette autre ligne, tombera de la part de l'angle aigu.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -31,7 +31,7 @@ Semblablement il est manifeste de cette proposition, que tous les angles d'vn tr
 
 De tout triangle, le plus grand costé soustient le plus grand angle.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

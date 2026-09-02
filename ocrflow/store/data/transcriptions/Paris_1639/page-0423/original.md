@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 Par la construction AC est de 24 toises, CD de 48, & DG de 120 : AB est égale à AC, & EB à ED, & par consequent les angles EDB, EBD & ACB sont demy-droicts : & à cause que le quarré de DC vaut deux quarrez de EA, & quatre quarrez de CA, qui sont deux quarrez de CB, la ligne EA sera égale à la ligne CB.  Ce qu'estant ainsi, si on multiplie CA 24 par soy-mesme viendra 576, dont le double est 1152 pour le quarré de CB, & la racine quarrée de 1152, est 3394″ ou 33 94/100 pour CB, ou son égale EA.  Et adjoustant CB 3394″ auec les 48 toises de CD, viendra 8194″ ou 81 94/100 pour la ligne de defense razante BD.  Et adjoustant aussi EA 3394 auec les 24 toises du flanc AC, ou de son égale AB, viendra 5794″ ou 57 94/100 pour EB, ou son égale ED, qui est la ligne capitale.
 

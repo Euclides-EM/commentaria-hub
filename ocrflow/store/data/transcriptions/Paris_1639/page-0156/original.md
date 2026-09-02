@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Hypotheſe.
 
@@ -38,4 +38,4 @@ concl. 20.a.1 | ∠bdc 2|2 2∠bac.
 
 Au cercle, les angles qui sont en vn mesme segment, sont égaux entr'eux.
 
-*[Figure]*
+[Figure]

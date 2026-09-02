@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 361)* -->
+<!-- Page number: 361 -->
 
 ### II. Beweiß.
 
@@ -27,7 +27,7 @@ Gleichmässige und ähnliche geradstrichichte Gestalte stehen auf gleichmässige
 1. □ gi | □ rt gh | rs
 2. □ gi ähnlich □ rt
 
-*[Figur: zwey Vierecke g k i h und u t s r nebeneinander; darunter ein Strich x und eine Figur mit den Punkten g, s, x, h r und punktiertem Strich nach s]*
+[Diagram: zwey Vierecke g k i h und u t s r nebeneinander; darunter ein Strich x und eine Figur mit den Punkten g, s, x, h r und punktiertem Strich nach s]
 
-<!-- signature mark: Z z -->
-<!-- catchword: Vorbe- -->
+<!-- Signature: Z z -->
+<!-- Catchword: Vorbe- -->

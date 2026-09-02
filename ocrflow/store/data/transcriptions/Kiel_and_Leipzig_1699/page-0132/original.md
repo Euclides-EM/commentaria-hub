@@ -1,8 +1,8 @@
-<!-- *(Seitenzahl: 114)* -->
+<!-- Page number: 114 -->
 
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-*[Figur: punktierte Konstruktion; oben Punkte e und f, Grundlinie a c b d, unten rechts Punkt g, gestrichelte Linien verbinden e, f, d und g]*
+[Diagram: punktierte Konstruktion; oben Punkte e und f, Grundlinie a c b d, unten rechts Punkt g, gestrichelte Linien verbinden e, f, d und g]
 
 ### Beweiß.
 
@@ -27,4 +27,4 @@ Dw. fd | cb | n. 1. Gr. I.
 η. dg | bd | n. 5. Vorb.
 fd + dg | cb + bd | n. 2. Gr. I.
 
-<!-- catchword: oder -->
+<!-- Catchword: oder -->

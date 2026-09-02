@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 4.6 | el π lh 2|2 bl π li,
 19.5 | ce π kh 2|2 eb π hi.
@@ -13,7 +12,7 @@ Dato circulo, & duobus punctis in eius circumferentia signatis, inuenire diametr
 
 Vieta in appendice apollonij galli.
 
-*[Figure: deux figures : cercles auec les poincts B, L, C, M, D, E, K, A, I, F, Z et L, B, M, D, C, E, A, K, F, Z]*
+[Figure: deux figures : cercles auec les poincts B, L, C, M, D, E, K, A, I, F, Z et L, B, M, D, C, E, A, K, F, Z]
 
 Hypoth.
 

@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 248)* -->
+<!-- Page number: 248 -->
 
 ## Der IV. Vortrag.
 
@@ -31,4 +31,4 @@ Man nehme zu der Ersten und Dritten (Grösse) noch zwo gleich-grosse / und also 
 Dw. 2a + 2a : 2a + a | 6a + 6a : 6a + 3a — n. 1. V.
 oder 4a : 3a | 12a : 9a
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

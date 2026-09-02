@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 2.a.1. | ▭bg + ▭af snt 20,
 concl. 3.a.1. | ▭hf est 9,
@@ -11,7 +10,7 @@ Si cuius quadrato numero addatur quadratus numerus cum duplo plani sub lateribus
 
 Si à quelque nombre quarré est adiousté vn nombre quarré auec le double du plan contenu sous les costez des quarrez, la somme sera vn nombre quarré.
 
-*[Figure: quarré A—G—D en haut, B—H—C en bas, E—I—F au milieu, diagonale A—I—C, ligne G—I—H]*
+[Figure: quarré A—G—D en haut, B—H—C en bas, E—I—F au milieu, diagonale A—I—C, ligne G—I—H]
 
 Demonstr.
 

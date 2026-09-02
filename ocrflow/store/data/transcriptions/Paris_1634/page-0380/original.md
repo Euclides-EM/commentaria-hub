@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 rectum angulum subtēdente descripta, æqualis est figuris, quæ priori illi similes, & similiter positæ à lateribus rectum angulū continētibus describūtur.
 
 Aux triangles rectangles, la figure descrite sur le costé qui soustient l'angle droict, est egale aux deux figures des costez qui contiennent l'angle droict, semblables à icelle, & semblablement descrites.
 
-*[Figure: triangle B, A, C auec poinct D, parallelogrammes G, H et I, L sur les costez, et rectangle E, F sous la base]*
+[Figure: triangle B, A, C auec poinct D, parallelogrammes G, H et I, L sur les costez, et rectangle E, F sous la base]
 
 Hypoth.
 

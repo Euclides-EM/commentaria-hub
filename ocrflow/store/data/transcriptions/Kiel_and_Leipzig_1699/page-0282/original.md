@@ -1,10 +1,10 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 258)* -->
+<!-- Page number: 258 -->
 
 ### Gegebene. — Begehrtes.
 
-*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
 A ⊣ B
 

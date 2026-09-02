@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 124)* -->
+<!-- Page number: 124 -->
 
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
 ## Der XIV. Vortrag.
 
@@ -33,4 +33,4 @@ Die gerad-seitige Gestalt *abdc*.
 
 Aus dem Mitteldüpffel i wird biß zu k der Strich ik gezogen.
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

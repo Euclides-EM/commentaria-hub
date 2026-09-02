@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-<!-- # ELEM.. EVCLID. LI. I. -->
-
-*[Figure: angle en A, poincts D et E sur les costez, F en bas, triangle DEF]*
+[Figure: angle en A, poincts D et E sur les costez, F en bas, triangle DEF]
 
 1.1. | def est △ æquilat.
 1.p.1. | af est —,
@@ -25,7 +24,7 @@ Demonstr.
 
 8.1. | <fad 2|2 <fae.
 
-*[Figure: angle en A, D et E sur les costez, B et C en bas, ligne pointillée AF, arcs s'entrecoupans en F]*
+[Figure: angle en A, D et E sur les costez, B et C en bas, ligne pointillée AF, arcs s'entrecoupans en F]
 
 ## PROBL. V. PROPOS. X.
 
@@ -33,7 +32,7 @@ Datam rectam lineam bifariam secare.
 
 Coupper vne ligne droicte donnée & terminé en deux parties égales.
 
-*[Figure: triangle ABC, C au sommet, ligne verticale de C au milieu de AB]*
+[Figure: triangle ABC, C au sommet, ligne verticale de C au milieu de AB]
 
 Hypoth.
 

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 338)* -->
+<!-- Page number: 338 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ## Der XII. Vortrag.
 
@@ -20,7 +20,7 @@ Vierte ebenmässige Strich ce
 
 AB : AC ⊤ BD : ce.
 
-*[Figur: Striche A—B und A—B—D—C mit g; darunter ein Winkel aus a mit den Punkten c, e oben und b, d, f auf dem unteren Schenkel]*
+[Diagram: Striche A—B und A—B—D—C mit g; darunter ein Winkel aus a mit den Punkten c, e oben und b, d, f auf dem unteren Schenkel]
 
 ### Wirckung.
 
@@ -32,4 +32,4 @@ AB : AC ⊤ BD : ce.
 6. Werde der gerade Strich bc,
 7. Und gegen diesen Strich bc aus d der gerade Nebenstrich de gezogen. n. 31. I.
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

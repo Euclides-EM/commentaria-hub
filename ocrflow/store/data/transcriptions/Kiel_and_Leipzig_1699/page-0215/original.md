@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 197)* -->
+<!-- Page number: 197 -->
 
 wird/eben so groß seyn/ als das Viereck der beeden Stücke bl, ld des andern Striches. W. Z. B.
 
@@ -22,6 +22,6 @@ Wenn man von einem ausser dem gegebenen Kreyß erwehlten Düttel zween gerade St
 8. Und ae denselben in b schneide /
 9. Zugleich aber durch den Mittel-Düpffel c gehe.
 
-<!-- signature mark: Bb 3 -->
+<!-- Signature: Bb 3 -->
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

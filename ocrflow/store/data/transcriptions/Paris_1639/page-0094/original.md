@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -26,7 +26,7 @@ concl. 6.a.c | ◊abcd 2|2 2△bce.
 
 Faire vn parallelogramme égal à vn triangle donné en vn angle rectiligne donné.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

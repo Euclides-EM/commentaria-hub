@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 340)* -->
+<!-- Page number: 340 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 2. auf welchen die Längen der Striche AD und
 3. CD gesetzet werden ad ⊤ AD / cd ⊤ CD   n. 3. I.
@@ -34,4 +34,4 @@ Dw. der Strich db ein Mittel-ebenmässiger Strich.
 
 Ist also zu den beyden gegebenen geraden Strichen AB und CD der mittel-ebenmässige Strich db gefunden. W. Z. M.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 gne droicte, fait angles, ou elle fera deux angles droicts, ou égaux à deux droicts.
 
@@ -7,7 +7,7 @@ gne droicte, fait angles, ou elle fera deux angles droicts, ou égaux à deux dr
 cbd *eſt* ——,
 ab *eſt* ——,
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtr.
 

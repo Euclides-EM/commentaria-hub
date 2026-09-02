@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 156)* -->
+<!-- Page number: 156 -->
 
 2. Aus dem Mittel-Düpffel a
 3. Zu den beyden Strichen bc und de gezogen.
@@ -32,4 +32,4 @@ oder cb | de — n. 9. Gr. q. I.
 
 Müssen also allezeit gleichlange gerade Striche cb, de in einem Kreyß gleichweit von dem Mittel-Düpffel a entfernet seyn : desgleichen werden auch gleichweit von dem Mittel-Düpffel a abstehende gerade Striche cb, de gleichlang seyn. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

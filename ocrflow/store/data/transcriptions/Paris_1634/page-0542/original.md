@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
 *dra continuellement proportionaux, tous les nombres premiers qui mesurent le dernier, mesurent aussi celuy qui est proche de l'vnité.*
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
 12.a.1 | <fcb 2|2 <ecb, contr. 9.a.1.
 concl. 21.a.1 | centr.. ⊙ est in ec.
@@ -10,7 +9,7 @@ In circulo, angulus ad centrum duplex est anguli ad periferiam, cùm fuerit eade
 
 Au cercle, l'angle qui est au centre, est double de l'angle qui est à la circonference ; quand ils ont pour leur base vne mesme circonference.
 
-*[Figure: trois cercles marquez 1, 2, 3 ; le premier A—B—C, D au dedans, E en bas, lignes A—B, A—C, D—B, D—C, A—E ; le second A—B—C, D au dedans, lignes A—B, A—C, D—B, D—C ; le troisiesme A—B—C, D au dedans, E à gauche, lignes E—A, E—C, D—A, D—B, B—A]*
+[Figure: trois cercles marquez 1, 2, 3 ; le premier A—B—C, D au dedans, E en bas, lignes A—B, A—C, D—B, D—C, A—E ; le second A—B—C, D au dedans, lignes A—B, A—C, D—B, D—C ; le troisiesme A—B—C, D au dedans, E à gauche, lignes E—A, E—C, D—A, D—B, B—A]
 
 Hypoth.
 

@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Hypoth.
 
@@ -7,7 +7,7 @@ ab 2|2 de,
 ac 2|2 df,
 bc 2|2 ef.
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtr.
 

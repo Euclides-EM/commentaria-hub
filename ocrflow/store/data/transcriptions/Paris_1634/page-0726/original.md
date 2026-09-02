@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 *Qu'il nous soit proposé de monstrer qu'aux figures quarrees le diametre est incommensurable en longitude au costé.*
 
-<!-- A D / B C (figure) -->
+[Figure: labels arranged A D / B C]
 
 Hypoth.
 

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 312)* -->
+<!-- Page number: 312 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ## Der II. Vortrag.
 
@@ -19,10 +19,10 @@ Wenn gegen eines Dreyeckes eine Seite ein gerader Nebenstrich gezogen wird/ so s
 
 ae : ec | ad : db.
 
-*[Figur: Dreyeck mit Gipffel a und Grundlinie bc, darin der Strich de nebst gestrichelten Strichen be und cd]*
+[Diagram: Dreyeck mit Gipffel a und Grundlinie bc, darin der Strich de nebst gestrichelten Strichen be und cd]
 
 ### Vorbereitung.
 
 Es werden die geraden Striche be und cd gezogen.
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

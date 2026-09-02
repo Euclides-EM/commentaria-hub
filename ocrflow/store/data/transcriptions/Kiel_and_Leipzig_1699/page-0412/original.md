@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 382)* -->
+<!-- Page number: 382 -->
 
 ### Beweiß.
 
@@ -10,7 +10,7 @@
 |  | □ ak | □ ak |  |
 | Dw. | □ ad — □ ak | □ m — □ ak | n. 3. Gr. |
 | oder | □ bd | □ hm |  |
-|  | bkd | ⋀ (?) hkm | n. 13. I. |
+|  | bkd | [unclear: ⋀] hkm | n. 13. I. |
 | Dw. | □ hm wechselmässig □ bd |  |  |
 | und | hk : kd | bk : km | n. 14. VI. |
 |  | kd | be | n. 34. I. |
@@ -35,4 +35,4 @@ Dw. ist ab im i nach der äusersten und mittelsten Verhältnüß getheilet. n. 3
 
 Ist also der Strich ab nach äuserster und mittelsten (secundùm mediam & extremam) Verhältnüß getheilet. W. Z. M.
 
-<!-- catchword: Andere -->
+<!-- Catchword: Andere -->

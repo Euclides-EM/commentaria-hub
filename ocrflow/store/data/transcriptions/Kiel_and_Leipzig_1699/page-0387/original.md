@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 357)* -->
+<!-- Page number: 357 -->
 
 Dw. △ eab : △ kfg ⊐ be : kg n. 19. VI.
 △ bec ähnlich △ kgi n. Bew. δ.
@@ -29,5 +29,5 @@ Können derowegen ähnliche Vielecke in ähnliche und gleichviele/ auch mit dem 
 
 Welche geradstrichichte Gestalte einer einigen Gestalt ähnlich sind/ dieselben sind auch einander selbst ähnlich.
 
-<!-- signature mark: Y y 3 -->
-<!-- catchword: Gegebe- -->
+<!-- Signature: Y y 3 -->
+<!-- Catchword: Gegebe- -->

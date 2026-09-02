@@ -1,3 +1,3 @@
-*[blank page]*
-
-> Rés. V. 118 (1)
+[Handwritten]
+Rés. V. 118 (1)
+[/Handwritten]

@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 soit composée de l'argent qu'on preste, & de son interest annuel : & parce que le denier 16 signifie 1 pour 16 par an, c'est à dire, que 16 liures auec son interest faict 17 liures par an, ordonnant la regle ainsi : si pour auoir 17 liures au bout de l'an, il faut donner 16 liures, sçauoir cõbien il faut dõner pour auoir 1000 lt. au bout de l'an,
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 tertiam quoque maiorem esse, vel æqualem, vel minorem quàm quartam : vtraque enim ratio erit aut minoris inęqualitatis, aut æqualitatis, aut maioris inęqualitatis ; si minoris inæqualitatis, vtraque antecedens erit minor suâ consequente ; si æqualitatis, vtraque antecedens erit æqualis suæ consequenti ; si maioris inæqualitatis, vtraque antecedens erit maior sua consequente.
 
@@ -20,7 +19,7 @@ Req. π. demonstr.
 
 bc 3|2 e.
 
-*[Figure: lignes verticales C—F et A, B, D, E]*
+[Figure: lignes verticales C—F et A, B, D, E]
 
 Demonstr.
 

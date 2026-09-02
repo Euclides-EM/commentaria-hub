@@ -1,6 +1,6 @@
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
-<!-- *(Seitenzahl: 123)* -->
+<!-- Page number: 123 -->
 
 c | cb
 d | bd
@@ -36,6 +36,6 @@ W. Z. B.
 
 Dieser Beweiß findet auch auff gewisse Maaß statt bey den recht-und stumpffwincklichten △ △ / wenn man das □ einer Seite/ so einem spitzigen Winckel übergespannet ist / vergleichen wil mit den übrigen beeden Seiten / deren eine dem rechten oder stumpffen Winckel / die andere aber dem übrigen spitzigen Winckel gegenüber stehet.
 
-<!-- signature mark: Q 2 -->
+<!-- Signature: Q 2 -->
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 & perspicuæ per se, aut per acquisitam cognitionem, quæ nobis ostendunt, consequentiam illam ab hypothesi ad quæsitum, esse certam & necessariam. | la cognoissance que nous auons desia acquise, qui nous donnent à cognoistre, qu'icelle consequence de l'hypothese au requis, est certaine & necessaire.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 1.&2.p.1. | bef est —,
 3.1. | ef 2|2 be,
@@ -33,7 +32,7 @@ Ab eodem puncto ad vnam eandemque lineam rectam, non possunt duci plures lineas 
 
 D'vn poinct sur vne mesme ligne droicte, on ne peut mener, plus de deux lignes droictes égales entr'elles.
 
-*[Figure: triangle ACB, poinct D sur AB entre A et B, ligne CD]*
+[Figure: triangle ACB, poinct D sur AB entre A et B, ligne CD]
 
 Hypoth.
 

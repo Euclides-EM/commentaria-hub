@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 269)* -->
+<!-- Page number: 269 -->
 
 ## Der XVII. Vortrag.
 
@@ -15,7 +15,7 @@ a ______ | A—a : a | B—b : b.
 B __________
 b ____
 
-*[Figur: Strecken A (mit Theil a), a, B (mit Theil b), b]*
+[Diagram: Strecken A (mit Theil a), a, B (mit Theil b), b]
 
 A : a | B : b
 
@@ -37,6 +37,6 @@ Werden derowegen allezeit zusammengesetzte Ebenmässige Grössen/ wenn sie zerth
 
 Welche Grössen zertheilet Ebenmässig sind/ die werden auch/ wenn sie zusammen gesetzet sind / Ebenmässig bleiben.
 
-<!-- signature mark: Ll 3 -->
+<!-- Signature: Ll 3 -->
 
-<!-- catchword: Gege- -->
+<!-- Catchword: Gege- -->

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 67)* -->
+<!-- Page number: 67 -->
 
-<!-- # Euclides. -->
+<!-- Running title: Euclides. -->
 
 ### Beweiß.
 
@@ -35,6 +35,6 @@ Alle auff gleich-grossen Grundstrichen / und zwischen einerley Nebenstrichen ste
 2. □ EG
 3. Grundstriche
 
-<!-- signature mark: I 2 -->
+<!-- Signature: I 2 -->
 
-<!-- catchword: BC -->
+<!-- Catchword: BC -->

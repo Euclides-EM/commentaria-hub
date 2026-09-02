@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLD. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLD. LI. VIII. -->
 
 Demonstr.
 

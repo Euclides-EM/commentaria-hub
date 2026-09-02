@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 149)* -->
+<!-- Page number: 149 -->
 
 ### Gegebene. — Begehrtes.
 
@@ -12,7 +12,7 @@
 
 Strich ac durch den Anrührungs-Düttel b gehend.
 
-*[Figur: zwei einander von aussen berührende Kreise; am Berührungsort der Punkt b, darüber f und g; im linken Kreis a, unten e und d, im rechten Kreis c; gerade und punktierte Verbindungsstriche]*
+[Diagram: zwei einander von aussen berührende Kreise; am Berührungsort der Punkt b, darüber f und g; im linken Kreis a, unten e und d, im rechten Kreis c; gerade und punktierte Verbindungsstriche]
 
 ### Vorbereitung.
 
@@ -27,6 +27,6 @@ ab + bc ⊣ ac — n. 20. I.
 Dw. ae + cd ⊣ ac — n. 1. Gr. c. I.
 Welches aber unmöglich n. 9. Gr. I.
 
-<!-- signature mark: T 3 -->
+<!-- Signature: T 3 -->
 
-<!-- catchword: Oder -->
+<!-- Catchword: Oder -->

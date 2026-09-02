@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 166)* -->
+<!-- Page number: 166 -->
 
 II. Arth.
 
@@ -9,7 +9,7 @@ dah ∠ 2 dph — n. 1. Bew.
 Dw. cah + dah ∠ 2 cph + 2 dph — n. 2. Gr. I.
 oder cad ∠ 2 cpd — n. 9. Gr. q. I.
 
-*[Figur: Kreis mit Mitteldüpffel a, Punkt p oben, c links unten, d rechts unten, h unten; Striche pc, pd, ac, ad und punktierte Linie ph]*
+[Diagram: Kreis mit Mitteldüpffel a, Punkt p oben, c links unten, d rechts unten, h unten; Striche pc, pd, ac, ad und punktierte Linie ph]
 
 III. Arth.
 
@@ -18,10 +18,10 @@ dae ∠ 2 efd — n. 1. Bew.
 eac — dae ∠ 2 efc — 2 efd — n. 3. Gr. I.
 oder dac ∠ 2 dfc
 
-*[Figur: Kreis mit Mitteldüpffel a, Punkt b oben links, f links, e rechts, d rechts unten, c unten; Striche bf, fd, fc, ad, ac und punktierte Linien ba, fe]*
+[Diagram: Kreis mit Mitteldüpffel a, Punkt b oben links, f links, e rechts, d rechts unten, c unten; Striche bf, fd, fc, ad, ac und punktierte Linien ba, fe]
 
 ### Beschluß.
 
 Wird also allezeit der Mittel-Düpffels Winckel noch einmahl so groß seyn / als der auff eben solchem Kreyßzug stehende Kreyßstücks-Winckel. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

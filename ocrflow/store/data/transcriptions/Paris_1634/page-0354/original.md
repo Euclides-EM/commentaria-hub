@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 angle, & les costez qui sont autour des angles egaux reciproques sont egaux.
 
-*[Figure: triangles A, B, C et D, B, E croisez en B]*
+[Figure: triangles A, B, C et D, B, E croisez en B]
 
 Hypoth. commun.
 

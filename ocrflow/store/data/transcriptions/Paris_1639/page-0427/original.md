@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 re & superieure du rampart, la sixiesme partie des superficies TQXG, CRMS, & NDX, qui sont aux angles rentrans G, C, D : puis de la somme de cette addition, qui est 33544009‴ pieds en nôtre exemple, on soustraict la sixiesme partie des superficies BYLZ, PαFβ, & OEγ, qui sont aux angles saillans B, E, F, & multipliant le reste de la soustraction, qui est 33472588‴ pieds par la hauteur du rampart, qui est 14 pieds, vient 468616232‴ pour le contenu de la solidité du rampart.
 

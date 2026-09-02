@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 ### 8. a. 1.
 
@@ -23,7 +23,7 @@ Deux lignes droictes n'ont pas vn mesme segment commun.
 hyp. | abc *eſt* ——,
 10 a.1. | gbc *ñ eſt* ——.
 
-*[Figure]*
+[Figure]
 
 Par exemple, il est impossible qu'en vne fourche, le manche auec chaque fourchon face ligne droicte.
 

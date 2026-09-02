@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 laterum, quæ sunt circa acutum angulum, in quod perpendicularis cadit, & ab assumpta interius linea sub perpendiculari prope acutum angulum.
 
@@ -9,7 +8,7 @@ Hypoth.
 
 <acb 2|3 ∟,
 
-*[Figure: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]*
+[Figure: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]
 
 Req. π. demonstr.
 

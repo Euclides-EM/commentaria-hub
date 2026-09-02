@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 4.cōcl. 10.10 | aggreg..□.ac + □.cb, comm. aggreg..□.df + □.fe.
 

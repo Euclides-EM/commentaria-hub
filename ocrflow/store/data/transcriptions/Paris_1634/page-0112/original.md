@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 cet angulis, seu quod vni æqualium angulorum subtenditur : reliqua latera reliquis lateribus æqualia, vtrumque vtrique, & reliquum angulum reliquo angulo æqualem habebunt.
 
 Si deux triangles ont deux angles égaux à deux angles, chacun au sien, & vn costé égal à vn costé ; sçauoir est, ou celuy qui est adjacent à iceux angles égaux, ou bien celuy qui soustient l'vn d'iceux angles égaux : ils auront les autres costez égaux aux autres costez, chacun au sien, & l'autre angle égal à l'autre angle.
 
-*[Figure: triangle ABC, A en haut ; triangle DFG auec poinct H sur DF pres de D, poinct I sur FG pres de G, lignes HG & DI]*
+[Figure: triangle ABC, A en haut ; triangle DFG auec poinct H sur DF pres de D, poinct I sur FG pres de G, lignes HG & DI]
 
 Hypoth. commun.
 

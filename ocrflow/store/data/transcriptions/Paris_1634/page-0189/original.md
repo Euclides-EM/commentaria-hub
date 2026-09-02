@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-<!-- # ELEM.. EVCLID. LI. III. -->
-
-*[Figure: deux cercles, le premier A—B—C avec centre G et lignes A—B, B—C, G—A, G—C, le second D—E—F avec centre H et lignes D—E, E—F, H—D, H—F]*
+[Figure: deux cercles, le premier A—B—C avec centre G et lignes A—B, B—C, G—A, G—C, le second D—E—F avec centre H et lignes D—E, E—F, H—D, H—F]
 
 hyp. | <abc 2|2 <def,
 10.d.3 | segm. abc simil. segm. def.
@@ -20,7 +19,7 @@ Dati circuli centrum reperire.
 
 Trouuer le centre d'vn cercle donné.
 
-*[Figure: cercle A—B—C—D, G au dedans, F et E sur la ligne, lignes B—D, A—C, G—A, G—C, G—E]*
+[Figure: cercle A—B—C—D, G au dedans, F et E sur la ligne, lignes B—D, A—C, G—A, G—C, G—E]
 
 Hypoth.
 

@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-<!-- # ELEM.. EVCLID. LI. XI. -->
-
-<!-- F / A C / G E H / D B (figure) -->
+[Figure: labels arranged F / A C / G E H / D B]
 
 γδ | fa, fb, fc, fd snt 2|2 ꝗe, ε
 8. 1 | <daf 2|2 <cbf, θ
@@ -18,7 +17,7 @@ Si recta linea rectis tribus lineis se mutuo tangentibus in communi sectione ad 
 
 *Si à trois lignes droictes se touchantes l'vne l'autre, vne autre ligne droicte est constituee à angles droicts au poinct de la commune section: icelles trois lignes droictes sont en vn mesme plan.*
 
-<!-- B / F / A E G / D / C (figure) -->
+[Figure: labels arranged B / F / A E G / D / C]
 
 Hypoth.
 

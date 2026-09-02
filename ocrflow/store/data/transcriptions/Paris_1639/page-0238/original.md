@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 A, 21. B, 7. C, 12. D, 4.
 E, 15. F, 5. G, 3. H, 1.
@@ -24,7 +24,7 @@ concl. 11.5 | l π m 2|2 n π p.
 
 S'il y a trois grandeurs, & d'autres égales à icelles en nombre, lesquelles soient prises de deux en deux, & en mesme raison: Et qu'en raison égale la premiere soit plus grande que la troisiesme, aussi la quatriesme. sera plus grande que la sixiesme; & si égale, égale; & si plus petite, plus petite.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth. commun.
 

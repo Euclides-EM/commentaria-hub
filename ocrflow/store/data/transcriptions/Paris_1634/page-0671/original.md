@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 suppos. | cf 3|2 fк..□..——, comm. cf,
 3d48.10 | ck, est binom. 3.

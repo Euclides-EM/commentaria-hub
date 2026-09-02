@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 acutos ad punctum C æquiualere vni recto, non opus esset alia demōstratione, ad demonstranda primum & secundum theorema angularium sectionum Francisci Vietæ : conclusiones enim huius à conclusionibus illorum non differunt, triangula primi theorematis Vietæ sunt EFC primum, ECB secundum, FCD tertium : acuti anguli sunt EFC, ECB & FCD. Triangula secundi theorematis sunt, FEC primum, AFE secundum, FCD tertium : acuti anguli sunt FCE, FEA, CFD.
 
@@ -9,7 +8,7 @@ Si la demonstration de ce theoreme ne supposoit point que les trois angles du po
 
 Io. Baptista Benedictus in Epistolis.
 
-*[Figure: deux figures : demicercle sur A B auec les poincts E, D, F, C ; & demicercle sur A B auec les poincts E, D, C]*
+[Figure: deux figures : demicercle sur A B auec les poincts E, D, F, C ; & demicercle sur A B auec les poincts E, D, C]
 
 Hypoth.
 

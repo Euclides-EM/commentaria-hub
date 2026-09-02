@@ -1,5 +1,4 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 ræ sunt, triangulum, quadratum, cubus, pyramis, &c. | le triangle, le quarré, le cube, la pyramide, &c.
 

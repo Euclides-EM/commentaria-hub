@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 347)* -->
+<!-- Page number: 347 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Vorbereitung.
 
@@ -47,6 +47,6 @@ Wenn derowegen vier ebenmässige Striche gegeben werden/ so ist das von den beyd
 
 Und wenn das von zweyen äusersten Strichen begriffene Viereck / dem nach gleichem Winckel von denen mittelsten Strichen gemachten Viereck gleichmässig ist/ so stehen dieselben Striche in richtiger Ebenmaß. W. Z. B.
 
-<!-- signature mark: Xx 2 -->
+<!-- Signature: Xx 2 -->
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

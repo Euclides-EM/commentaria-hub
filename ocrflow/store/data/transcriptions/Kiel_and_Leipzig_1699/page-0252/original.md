@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 228)* -->
+<!-- Page number: 228 -->
 
 I. Anhang.
 
@@ -13,7 +13,7 @@ II. Anhang.
 Fast auff gleiche Weise kan ein gleichseitiges Dreyeck einem
 gegebenen Kreyß eingeschrieben werden.
 
-*[Figur: zwei sich schneidende Kreise; im rechten Kreis ein einbeschriebenes Dreyeck b e d mit Mittelpunkt e und Punkt f als Mittelpunkt des linken Kreises, punktierte Bögen durch o und d]*
+[Diagram: zwei sich schneidende Kreise; im rechten Kreis ein einbeschriebenes Dreyeck b e d mit Mittelpunkt e und Punkt f als Mittelpunkt des linken Kreises, punktierte Bögen durch o und d]
 
 ### Wirckung.
 
@@ -33,4 +33,4 @@ Dw. — fe + ed ⌒ fo + ob — n. 2. Gr. I.
 u. — fd ⌒ fb — n. 9. Gr. q. I.
 Dw. — fd | fb — n. 29. III.
 
-<!-- catchword: Dw- -->
+<!-- Catchword: Dw- -->

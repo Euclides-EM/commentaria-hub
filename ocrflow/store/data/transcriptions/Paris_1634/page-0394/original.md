@@ -1,7 +1,6 @@
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-<!-- # APPEND.. GEOM.. PLAN. -->
-
-*[Figure: cercle auec les poincts F, A, D, B, E, G, C ; ligne H à part]*
+[Figure: cercle auec les poincts F, A, D, B, E, G, C ; ligne H à part]
 
 3.p.1 | age est semic.
 2.p.1 | cbg est —,

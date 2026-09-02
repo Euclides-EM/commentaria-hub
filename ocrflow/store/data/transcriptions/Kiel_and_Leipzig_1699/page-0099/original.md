@@ -1,8 +1,8 @@
-<!-- # Euclidis -->
+<!-- Running title: Euclidis -->
 
-<!-- *(Seitenzahl: 81)* -->
+<!-- Page number: 81 -->
 
-*[Figur: Quadrat CDAB mit verlängerter Grundlinie gegen E und punktierten Hülfslinien; Punkte C, D oben, E, B, A unten]*
+[Diagram: Quadrat CDAB mit verlängerter Grundlinie gegen E und punktierten Hülfslinien; Punkte C, D oben, E, B, A unten]
 
 ### Beweiß.
 
@@ -31,6 +31,6 @@ Ein gleichseitig und gleichwincklicht □ mit unveränderter Oeffnung des Kreyß
 
 1. Thue man den Kreyß-zieher so weit auff/als die länge des gegebenen Strichs AB.
 
-<!-- signature mark: L -->
+<!-- Signature: L -->
 
-<!-- catchword: 2. Wird -->
+<!-- Catchword: 2. Wird -->

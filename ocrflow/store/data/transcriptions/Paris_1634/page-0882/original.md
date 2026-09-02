@@ -1,9 +1,8 @@
-
-<!-- # ELEM.. EVCLID. LI. XV. -->
+<!-- Running title: ELEM.. EVCLID. LI. XV. -->
 
 Aliter. | *Autrement.*
 
-<!-- (figure) B / H G / F / A C / D / E -->
+[Figure: labels arranged B / H G / F / A C / D / E]
 
 Hypoth.
 abce, eſt □,
@@ -26,4 +25,4 @@ Inuentio quadraturæ huius lunulæ, quæ est circulorum in ratione dupla existen
 
 Finis decimiquinti & vltimi Elementorum Euclidis. | *Fin du quinzieſme & dernier liure des Elements d'Euclide.*
 
-*[Ornament]*
+[Ornament]

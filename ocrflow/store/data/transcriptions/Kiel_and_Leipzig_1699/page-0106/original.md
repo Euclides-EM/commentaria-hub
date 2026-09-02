@@ -1,6 +1,6 @@
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- *(Seitenzahl: 88)* -->
+<!-- Page number: 88 -->
 
 Wann aber nur ein Buchstab / und zwar zweymahl gebraucht wird/ als aa, so bedeutet es das gleichseitige □ des Striches a. Im übrigen bedienet man sich derer zu Anfang des 1. Buchs erklährten Zeichen.
 
@@ -18,8 +18,8 @@ II. Wenn zwo ( oder mehr ) gleiche Grössen an gleiche Grössen angeschlagen wer
 
 1. Ein jedes rechtwincklichtes Nebenstrichiches Viereck ( Parallelogrammum rectangulum abcd ) wird von zween geraden Strichen ( ab und cb, ) so einen rechten Winckel (abc) machen/ begriffen.
 
-*[Figur: zwey rechtwincklichte Vierecke mit den Eckpunkten d, c oben und a, b unten]*
+[Diagram: zwey rechtwincklichte Vierecke mit den Eckpunkten d, c oben und a, b unten]
 
 2. In jedwedem nebenstrichichen Viereck (ADBC) wird ein jedes/derer ümb den Zwerg-Strich ( ABC ) stehenden Vierecke (FG oder HI,)samt den zwo nebenstehenden Füllflächen (DE und FH) ein Winckelmaß (Gnomonem) machen.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

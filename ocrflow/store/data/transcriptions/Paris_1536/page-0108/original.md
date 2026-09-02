@@ -1,10 +1,12 @@
-# 92 GEOMET. ELEMENT.
+<!-- Page number: 92 -->
+
+<!-- Running title: GEOMET. ELEMENT. -->
 
 circuli circunferentia, vnumquenque eius, circum quam describitur, angulum tangit.
 
 Figura circularis, ob vniformem & regulatam circunferentiæ à cẽtro distantiam, rectilineas omnes ac regulares figuras, tum intra, tũ extra facilè capit: singulos angulos inscriptæ, vel omnia circunscriptæ contingẽs latera. Quẽadmodùm in præcedentium tertiæ & quartæ diffinitionum elucidationẽ, ostendit descriptum in a/b/c/d/ circulo quadratum: vel idem circulus, quadrato a/b/c/d/ circunscriptus.
 
-*[diagram: a b c d, 3 4]*
+[Diagram: a b c d, 3 4]
 
 ¶ Κύκλος δὲ ὁμοίως εἰς σχῆμα λέγεται ἐγγράφεσθαι, ὅταν ἡ τοῦ κύκλου περιφέρεια ἑκάστης πλευρᾶς, τοῦ εἰς ὃ ἐγγράφεται ἅπτηται.
 
@@ -16,7 +18,7 @@ Figura verò rectilinea, circa circulũ describi dicitur: quando vnũquodque lat
 
 In exemplum, habes circulum a/b/c/d, in quadrato e/f/g/h/ descriptum: atque idem quadratum e/ f/ g/ h, descriptum circa eundem circulum a/b/c/d. Idem respondenter velim intelligas de cæteris quibuscunque regularibus figuris, in circulo, vel circa eundem circulum, prius diffinita ratione descriptis.
 
-*[diagram: a b c d e f g h, 5 6]*
+[Diagram: a b c d e f g h, 5 6]
 
 ¶ Εὐθεῖα εἰς κύκλον ἐναρμόζεσθαι λέγεται, ὅταν τὰ πέρατα αὐτῆς, ᾖ ἐπὶ τῆς περιφερείας τοῦ κύκλου.
 
@@ -24,7 +26,7 @@ Recta linea circulo congruere dicitur: quando eius extrema, in circuli circunfer
 
 Quanquàm hæc vltima diffinitio, tam de circuli dimetientibus, quàm de cæteris rectis non per cẽtrum eductis (quas vocant chordas) sit intelligenda: ipsas tamen rectas circuli dimetiente minores potissimùm respicere videtur, quę sunt videlicet latera inscribendarum intra circulum rectilinearum figurarum. Cuiusmodi videtur esse recta b/c: cuius extrema, siue limites b/ & c, in dati circuli a/b/c/ circunferentiam cadunt.
 
-*[diagram: a b c, 7]*
+[Diagram: a b c, 7]
 
 Πρόβλημα α, Πρόθεσις α.
 

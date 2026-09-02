@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 308)* -->
+<!-- Page number: 308 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 Gleiche Bewandnüß hat es/ wenn man sagen wolte/ daß
 cq ⊢ fp were.
@@ -18,7 +18,7 @@ ab : de | □ ah : □ dg.
 
 Höhen gp | hq.
 
-*[Figur: Zwei Parallelogramme, links mit den Ecken g f d e und Punkt p, rechts mit den Ecken c h b a nebst den Punkten s, r und p, mit gestrichelten Senckstrichen]*
+[Diagram: Zwei Parallelogramme, links mit den Ecken g f d e und Punkt p, rechts mit den Ecken c h b a nebst den Punkten s, r und p, mit gestrichelten Senckstrichen]
 
 ### Vorbereitung.
 
@@ -34,4 +34,4 @@ de : ab | □ dg : □ ah — n. Geg.
 Dw. □ dg : □ ar | □ dg : □ ah — n. 11. V.
 u. □ ar | □ ah — n. 9. V.
 
-<!-- catchword: Welches -->
+<!-- Catchword: Welches -->

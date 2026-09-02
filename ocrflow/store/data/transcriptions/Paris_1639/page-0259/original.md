@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. VI. -->
+<!-- Running title: D'EVCLIDE, LIV. VI. -->
 
 ## THEOR. VIII. PROPOS. VIII.
 
 Si en vn triangle rectangle on mene vne ligne perpendiculaire de l'angle droict sur la base, les triangles qui sont de part & d'autre de la perpendiculaire, sont semblables au tout & entr'eux.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

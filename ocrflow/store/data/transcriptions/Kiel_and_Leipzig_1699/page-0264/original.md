@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 240)* -->
+<!-- Page number: 240 -->
 
 ## Der II. Vortrag.
 
@@ -10,7 +10,7 @@ Wenn die Erste Grösse der Andern / und die Dritte der Vierten gleichmäßig vie
 
 ### Gegebene. — Begehrtes.
 
-*[Figur: sechs waagerechte Linien, bezeichnet A (getheilet in c, d), a, C (getheilet in e, f, g), B (getheilet in h, k), b, D (getheilet in l, m, n); daneben die Ziffern I. II. V. III. IV. VI.]*
+[Diagram: sechs waagerechte Linien, bezeichnet A (getheilet in c, d), a, C (getheilet in e, f, g), B (getheilet in h, k), b, D (getheilet in l, m, n); daneben die Ziffern I. II. V. III. IV. VI.]
 
 II. A : a | B : b — V. C : a | D : b
 
@@ -27,4 +27,4 @@ A + C : a | B + D : b
 7. Und D in l, m, n, also daß
 8. l|b, m|b und n|b n. 3. I.
 
-<!-- catchword: Beweiß -->
+<!-- Catchword: Beweiß -->

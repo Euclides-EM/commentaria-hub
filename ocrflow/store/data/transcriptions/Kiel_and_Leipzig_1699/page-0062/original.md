@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 44)* -->
+<!-- Page number: 44 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 CE + ED ⊣ DC n. 20. Vortr.
 BD | BD
@@ -33,4 +33,4 @@ Drey Striche 1. △ ABF
 5. cb + ab ⊣ ca
 6. ca + ab ⊣ cb
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

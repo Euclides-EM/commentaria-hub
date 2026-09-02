@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
 ponitur, quare A & pariter impar est : ostensum autem est & pariter esse parem, est igitur A, & pariter par, & pariter impar quod demonstrare oportebat.
 

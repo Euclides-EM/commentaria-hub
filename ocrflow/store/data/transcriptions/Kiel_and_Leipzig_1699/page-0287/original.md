@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 263)* -->
+<!-- Page number: 263 -->
 
 ### Gegebene. | Begehrtes.
 
@@ -11,7 +11,7 @@ b ____
 C ________
 c ____
 
-*[Figur: Strecken A, a, B, b, C, c]*
+[Diagram: Strecken A, a, B, b, C, c]
 
 1. A : a | B : b
 2. B : b ⊣ C : c
@@ -40,6 +40,6 @@ Die Grössen a und c aber dreymahl.
 2C ________________
 3c ________________
 
-*[Figur: Strecken 2A, 3a, 2C, 3c]*
+[Diagram: Strecken 2A, 3a, 2C, 3c]
 
-<!-- catchword: Beweiß. -->
+<!-- Catchword: Beweiß. -->

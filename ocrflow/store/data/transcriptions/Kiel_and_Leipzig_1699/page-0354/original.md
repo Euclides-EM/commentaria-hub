@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 330)* -->
+<!-- Page number: 330 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ### Gegebene.
 
@@ -11,7 +11,7 @@
 
 Der sechste Theil ec des Striches ac.
 
-*[Figur: Dreieck aus dem Strich ac und dem schräg gezogenen Strich af mit den Punkten d, b, f; punktierte Linien verbinden die Theilpunkte mit der Grundlinie, darauf e nahe c]*
+[Diagram: Dreieck aus dem Strich ac und dem schräg gezogenen Strich af mit den Punkten d, b, f; punktierte Linien verbinden die Theilpunkte mit der Grundlinie, darauf e nahe c]
 
 ### Wirckung.
 
@@ -29,4 +29,4 @@ oder | ab : db | ac : ec | n. 9. Gr. q. I.
 | ab | 6 |
 | db | 1 | n. 2. Wirck.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 1. 6, & 10. 10 | ck, incomm. fк,
 74. 10 | cf, est apotom.
@@ -16,7 +15,7 @@ Apotome non est eadem, quæ ex binis nominibus.
 
 *La ligne appellee apotome ou residu, n'est pas la mesme que la ligne de deux noms ou binome.*
 
-<!-- A B F D E C (figure) -->
+[Figure: labels arranged A B F D E C]
 
 Hypoth.
 

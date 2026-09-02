@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 ## THEOR. XXXIII. PROPOS. XXXIII.
 
@@ -7,7 +6,7 @@ Si fuerit maior proportio totius ad totum, quàm ablati ad ablatum : Erit & reli
 
 S'il y a plus grande raison du tout au tout, que du retranché au retranché ; il y aura aussi plus grande raison du reste au reste, que du tout au tout.
 
-*[Figure: lignes A—E—B ; C—F—D]*
+[Figure: lignes A—E—B ; C—F—D]
 
 Hypoth.
 

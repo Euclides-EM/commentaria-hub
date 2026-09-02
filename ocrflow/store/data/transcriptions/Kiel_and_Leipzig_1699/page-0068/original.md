@@ -1,6 +1,6 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 50)* -->
+<!-- Page number: 50 -->
 
          Ad | AC        n. 2. Gegeb.
 β Drw.   bd | BC        n. 4. Vortr.
@@ -30,4 +30,4 @@ Wenn zwey Dreyecke / zwo Seiten zweyen Seiten/jedwede jedweder/gleich groß/eine
 1. Das △ ABC                 BAC ⊼ bac
 2.     △ abc
 
-<!-- catchword: 3.AB -->
+<!-- Catchword: 3.AB -->

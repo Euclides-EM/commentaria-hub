@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
 Req. π. demonstr.
 
 ad 2|2 bc.
 
-*[Figure: cercle A—B—C—D, E au centre, F et G au dedans, lignes A—D, B—C, E—A, E—B, E—F, E—G]*
+[Figure: cercle A—B—C—D, E au centre, F et G au dedans, lignes A—D, B—C, E—A, E—B, E—F, E—G]
 
 Demonstr.
 
@@ -22,7 +21,7 @@ In circulo maxima quidem linea est diameter; aliarum autem propinquior centro, r
 
 Au cercle la plus grande ligne est le diametre ; mais des autres, tousiours celle qui est plus proche du centre, est plus grande que celle qui en est plus esloignée.
 
-*[Figure: cercle F—A—K—B—E—D—L—C, G au centre, H et I au dedans, N sous G, lignes F—E, A—D, K—L, B—C, H—I, lignes de G vers B et C]*
+[Figure: cercle F—A—K—B—E—D—L—C, G au centre, H et I au dedans, N sous G, lignes F—E, A—D, K—L, B—C, H—I, lignes de G vers B et C]
 
 Hypoth.
 

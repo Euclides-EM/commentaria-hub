@@ -1,10 +1,10 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 ### SCHOLIE.
 
 Deux costez d'vn triangle rectangle estant cognus, trouuer le troisiesme costé.
 
-*[Figure]*
+[Figure]
 
 #### Exemple 1.
 

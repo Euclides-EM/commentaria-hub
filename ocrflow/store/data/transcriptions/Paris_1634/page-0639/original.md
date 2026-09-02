@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 expositæ Rationali commensurabile sit longitudine, vocetur ex binis nominibus quarta.
 

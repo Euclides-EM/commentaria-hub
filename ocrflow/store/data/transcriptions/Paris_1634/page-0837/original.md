@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
 9. 10 | bl, incomm. n,
 γθ | bl, comm. n ꝗn □,
@@ -13,7 +12,7 @@ Si in circulo triangulum æquilaterum describatur; trianguli latus potentia trip
 
 *Si au cercle vn triangle equilateral est inscrit; le costé du triangle est triple en puissance à la ligne menee du centre du cercle à la circonference.*
 
-<!-- A / D / B F C / E (figure) -->
+[Figure: labels arranged A / D / B F C / E]
 
 Hypoth.
 

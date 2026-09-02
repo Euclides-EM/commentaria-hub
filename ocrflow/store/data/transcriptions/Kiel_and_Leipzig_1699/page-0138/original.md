@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 120)* -->
+<!-- Page number: 120 -->
 
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
 ### Beschluß.
 
@@ -33,4 +33,4 @@ ee ✠ ff ✠ aa | bb ✠ 2be + ee + ff ✠ cc | n. 2. Gr. I.
 ee ✠ ff | ee ✠ ff
 aa | bb ✠ 2be + cc | n. 3. Gr. I. W Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

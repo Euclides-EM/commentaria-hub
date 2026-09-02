@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Conſtruction.
 
@@ -24,7 +24,7 @@ concl. 5.d.4 | ⊙efg *eſt inſcrit au* □bd.
 
 A l'entour d'vn quarré donné, descrire vn cercle.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

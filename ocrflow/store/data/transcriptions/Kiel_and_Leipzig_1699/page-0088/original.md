@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 70)* -->
+<!-- Page number: 70 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 ### Gegebene. | Begehrtes.
 1. △ ABC | ABC ⩓ DEF.
@@ -9,7 +9,7 @@
 4. Nebenstriche AD = BF
 5. Zwischen welchen die △ △ stehen.
 
-*[Figur: Viereck mit den Puncten D, H, G, A oben und F, E, C, B unten, darinnen Dreyecke mit gezogenen und punctirten Strichen]*
+[Diagram: Viereck mit den Puncten D, H, G, A oben und F, E, C, B unten, darinnen Dreyecke mit gezogenen und punctirten Strichen]
 
 ### Vorbereitung.
 
@@ -28,4 +28,4 @@ Dw. DEF ⩓ ABC n. 7. Gr:S. n.
 
 Müssen also alle auff gleichgrossen Grundstrichen / und zwischen einerley Nebenstrichen stehende △ △ gleich-groß seyn. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

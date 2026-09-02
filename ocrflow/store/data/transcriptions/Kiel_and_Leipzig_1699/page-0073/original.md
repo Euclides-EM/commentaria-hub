@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 55)* -->
+<!-- Page number: 55 -->
 
 Solten sie aber bey A zusammen kommen / so würde
         GHC ⊼ BGH      n. 16. Vortr.
@@ -21,10 +21,10 @@ Wenn der auff zween gerade Striche einfallende gerade Strich / den auswendigen /
 2. Einfallender gerader Strich   EF
 3. Außwen-        EGB ⋏ GHD   inwendig ent-
         dige      EGA ⋏ GHC   gegen stehende.
-4. Inwegendige (?)
+4. [unclear: Inwegendige]
 5. Auff eben selbiger Seite
-6. Gegeneinanderstehende BGH + GHD | ⏥ (?)
+6. Gegeneinanderstehende BGH + GHD | [unclear: ⏥]
 
-*[Figur: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]*
+[Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
 
-<!-- catchword: 1. Be- -->
+<!-- Catchword: 1. Be- -->

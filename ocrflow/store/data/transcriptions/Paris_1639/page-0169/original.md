@@ -1,8 +1,8 @@
-<!-- # D'EVCLIDE, LIV. III. -->
+<!-- Running title: D'EVCLIDE, LIV. III. -->
 
 ties de l'vne, est égal au rectangle contenu sous les deux parties de l'autre.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

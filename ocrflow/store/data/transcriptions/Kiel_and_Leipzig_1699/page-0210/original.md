@@ -1,11 +1,11 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 192)* -->
+<!-- Page number: 192 -->
 
 2. Welcher von dem andern Strich ae in l,
 3. Und zwar nach rechten Winckeln geschnitten.
 
-*[Figur: Kreis mit Punkten a oben, d links, b rechts, c unten; Striche db und ac schneiden sich in l, Mittel-Düpffel e]*
+[Diagram: Kreis mit Punkten a oben, d links, b rechts, c unten; Striche db und ac schneiden sich in l, Mittel-Düpffel e]
 
 ### Beweiß.
 
@@ -29,6 +29,6 @@
 2. Welcher von dem andern Strich ae in l
 3. Nicht nach rechten Winckeln geschnitten.
 
-*[Figur: Kreis mit Punkten c oben, d und n links oben, a links, e in der Mitte, b unten rechts; Striche schneiden sich in l]*
+[Diagram: Kreis mit Punkten c oben, d und n links oben, a links, e in der Mitte, b unten rechts; Striche schneiden sich in l]
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

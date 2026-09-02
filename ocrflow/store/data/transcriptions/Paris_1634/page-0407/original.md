@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 ## THEOR. X. PROPOS. XXI.
 
@@ -13,7 +12,7 @@ km π ml 2|2 ak π el, α
 
 arbitr. | mfb est —,
 
-*[Figure: deux figures : trois cercles auec les poincts A, B, K, I, N, C, M, H, P, G, L, F, E ; & deux cercles auec les poincts A, B, K, N, I, C, F, L, P, G, H, M]*
+[Figure: deux figures : trois cercles auec les poincts A, B, K, I, N, C, M, H, P, G, L, F, E ; & deux cercles auec les poincts A, B, K, N, I, C, F, L, P, G, H, M]
 
 Req. π demonstr.
 

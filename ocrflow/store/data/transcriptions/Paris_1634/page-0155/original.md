@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 Hypoth.
 
@@ -8,7 +7,7 @@ ag est 2,
 ah est 3,
 al est 4,
 
-*[Figure: quarré A—E—Q—L diuisé en grille ; A, B, C, D, E en haut, F, G, H, L à gauche, N à droite, R, S, M, Q en bas, I, V, T, P au milieu]*
+[Figure: quarré A—E—Q—L diuisé en grille ; A, B, C, D, E en haut, F, G, H, L à gauche, N à droite, R, S, M, Q en bas, I, V, T, P au milieu]
 
 Req. π. demonstr.
 

@@ -1,7 +1,6 @@
+<!-- Running title: ELEM. EVCLID. LI. XI. -->
 
-<!-- # ELEM. EVCLID. LI. XI. -->
-
-<!-- A / B / C / D (figure) -->
+[Figure: labels arranged A / B / C / D]
 
 a π b 2|2 c π d,
 ◇piped. a, sml. ◇piped. b,

@@ -1,10 +1,10 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 140)* -->
+<!-- Page number: 140 -->
 
 ea + ai ⊣ ei — n. 24. I.
 ec | ei — n. 15. Beschr. I.
-Dw. ec ⊣ ea + ai — n. 1. Gr. a. i. (?)
+Dw. ec ⊣ ea + ai — n. 1. Gr. a. [unclear: i.]
 ea | ea
 ec — ea ⊢ ai — n. 5. Gr. I.
 oder ac ⊢ ai
@@ -21,7 +21,7 @@ Dw. ac ⊣ ag. — n. 24. I.
 
 ### Beschluß.
 
-Ist also allezeit der / aus dem erwehlten Düttel a, durch den Mittel-Düpffel e gezogene Strich ab, der längste/und das übrige ac der kürtzeste; die andern aber / je näher sie dem Mittel-Düpffel stehen/auch länger/als die/so weiter davon entfernet seyn: Diejenigen aber/welche gleichweit davon abstehen (als ah und ab (?)) gleichlang. W. Z. B.
+Ist also allezeit der / aus dem erwehlten Düttel a, durch den Mittel-Düpffel e gezogene Strich ab, der längste/und das übrige ac der kürtzeste; die andern aber / je näher sie dem Mittel-Düpffel stehen/auch länger/als die/so weiter davon entfernet seyn: Diejenigen aber/welche gleichweit davon abstehen (als ah und [unclear: ab]) gleichlang. W. Z. B.
 
 ## Der IIX. Vortrag.
 
@@ -29,4 +29,4 @@ Ist also allezeit der / aus dem erwehlten Düttel a, durch den Mittel-Düpffel e
 
 Wenn ausser dem Kreyß ein Düttel erwehlet wird / und von selbigem Düttel zu dem Kreyß etliche gerade Striche gezogen werden / deren einer durch den Mittel-Düpffel gehet: So wird unter allen / so auff den Kreyß inwendig stossen / derjenige / welcher durch den Mittel-Düpffel ge-
 
-<!-- catchword: het/ -->
+<!-- Catchword: het/ -->

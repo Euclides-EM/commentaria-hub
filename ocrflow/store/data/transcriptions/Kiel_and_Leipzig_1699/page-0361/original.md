@@ -1,8 +1,8 @@
-<!-- *(Seitenzahl: 337)* -->
+<!-- Page number: 337 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-*[Figur: Strich A—C—B; darunter ein Winkel aus a mit den Punkten c, d oben und b, e, f auf dem unteren Schenkel]*
+[Diagram: Strich A—C—B; darunter ein Winkel aus a mit den Punkten c, d oben und b, e, f auf dem unteren Schenkel]
 
 ### Wirckung.
 
@@ -35,6 +35,6 @@ Dw. ist ce der dritte ebenmässige Strich.
 
 Ist also zu denen zweyen geraden Strichen ab und ac, oder AB und AC, der Dritte ebenmässige Strich cd gefunden. W. Z. M.
 
-<!-- signature mark: Uu -->
+<!-- Signature: Uu -->
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

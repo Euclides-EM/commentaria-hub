@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 184)* -->
+<!-- Page number: 184 -->
 
 ### V. Beweiß.
 
@@ -36,4 +36,4 @@ Wann einen Kreyß ein gerader Strich anrühret / und von dem Rühr-Düpffel ein 
 6. Von b abgewandter Winckel eda.
 7. Von c - - - - - : efa.
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

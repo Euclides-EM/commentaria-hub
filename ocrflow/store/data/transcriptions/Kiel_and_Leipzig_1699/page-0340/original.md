@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 316)* -->
+<!-- Page number: 316 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 Dw. eb : ba | cb : ba — n. 7. V.
 eb : ba | cd : da — n. 2. VI.
@@ -33,4 +33,4 @@ Dw. abd ⋏ dbc — n. 1. Gr. I. β.
 
 Wenn derowegen ein Strich den Winckel eines Dreyeckes in zween gleiche Theile schneidet/ und auch den Grundstrich theilet/ so stehen die Stücke des Grundstriches mit denen Seiten des Dreyeckes in ebenmässiger Verhältnüß.
 
-<!-- catchword: Und -->
+<!-- Catchword: Und -->

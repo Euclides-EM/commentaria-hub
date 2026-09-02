@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 299)* -->
+<!-- Page number: 299 -->
 
 |  |  |  |  |
 |---|---|---|---|
@@ -29,6 +29,6 @@ Gleiche Bewandnüß hat es / wenn Acht / Zehen oder mehr Grössen gegeben werden
 | D : d | ⊣ D + A : d + a | n. 33. V. |
 | A : a | ⊣ A + B + C : a + b : c | n. Bew. ζ |
 
-<!-- signature mark: Pp 2 -->
+<!-- Signature: Pp 2 -->
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

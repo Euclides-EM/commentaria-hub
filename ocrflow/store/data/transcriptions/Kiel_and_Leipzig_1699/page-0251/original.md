@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 227)* -->
+<!-- Page number: 227 -->
 
 ### Beweiß.
 
@@ -35,5 +35,5 @@ und dem gegebenen Kreyß eingeschrieben/ n. 3. Beschr. IV.
 Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
 licht Sechßeck eingeschrieben. W Z. M.
 
-<!-- signature mark: Ff 2 -->
-<!-- catchword: I. An- -->
+<!-- Signature: Ff 2 -->
+<!-- Catchword: I. An- -->

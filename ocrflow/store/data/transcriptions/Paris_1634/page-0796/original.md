@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 uiditur in tres pyramides æquales inter se, triangulares bases habentes.
 
@@ -9,7 +8,7 @@ Hypoth.
 
 abcdfe, est prism.
 
-<!-- A D / F E / B C (figure) -->
+[Figure: labels arranged A D / F E / B C]
 
 Præpar.
 

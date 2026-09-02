@@ -1,12 +1,12 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 21)* -->
+<!-- Page number: 21 -->
 
 Keines von beeden kan seyn/ nach dem 9. GrS. muß derowegen der Strich ac nothwendig auff den Strich AC fallen.
 
 Wann nun des Strichs bc beede End-Düttele b und c auff die beeden Endungen des Strichs BC fallen /so muß der Grund-Strich bc entweder auff den Grund-Strich B, oder darüber/ oder darunter fallen.
 
-*[Figur: zwey Dreyecke abc und ABC nebeneinander, unter dem zweyten eine punktierte Bogenlinie zwischen B und C]*
+[Diagram: zwey Dreyecke abc und ABC nebeneinander, unter dem zweyten eine punktierte Bogenlinie zwischen B und C]
 
 Uber oder darunter kan er nicht fallen weil sonsten zween gerade Striche eine Gestalt einschliessen würden / welches unmöglich/ nach 12. Grund-Satz.
 
@@ -27,6 +27,6 @@ alles nach 18. GrS. W. Z. B.
 
 In jedwedem gleichseitigen Dreyeck sind die beeden auff dem Grund-Strich stehende Winckel ein ander gleich / und die beeden unter dem Grund-
 
-<!-- signature mark: C 3 -->
+<!-- Signature: C 3 -->
 
-<!-- catchword: Strich -->
+<!-- Catchword: Strich -->

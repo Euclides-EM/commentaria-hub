@@ -1,22 +1,22 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 ### XXVI.
 
 Au surplus des figures trilateres, le triangle ortogone ou rectangle est, celuy qui a vn angle droict, comme le triangle ABC.
 
-*[Figure]*
+[Figure]
 
 ### XXVII.
 
 L'Amblygone est celuy qui a vn angle obtus ou moussu, comme le triangle HFG.
 
-*[Figure]*
+[Figure]
 
 ### XXVIII.
 
 L'Oxygone est celuy qui a tous les trois angles aigus, comme le triangle C.
 
-*[Figure]*
+[Figure]
 
 *Vne figure est equiangle, si tous ses angles sont égaux entr'eux : mais deux figures sont equiangles, si chaque angle de l'vne est égal à chaque angle de l'autre.*
 

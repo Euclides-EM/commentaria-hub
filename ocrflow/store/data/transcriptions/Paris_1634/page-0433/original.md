@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
 æquè metiuntur, primus numerus est eadem pars secundi, quæ tertius quarti: Et multitudo partium secundi, æqualium primo, est æqualis multitudini partium quarti, æqualium tertio.
 

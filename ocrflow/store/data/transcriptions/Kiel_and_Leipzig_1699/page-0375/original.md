@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 345)* -->
+<!-- Page number: 345 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 |  |  |  |
 |---|---|---|
@@ -40,6 +40,6 @@
 | Dw. | △ abc ⊤ △ efd | n. 9. V. |
 | oder | △ ABC ⊤ △ EFD | n. Anh. 7. V. |
 
-<!-- signature mark: Xx -->
+<!-- Signature: Xx -->
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

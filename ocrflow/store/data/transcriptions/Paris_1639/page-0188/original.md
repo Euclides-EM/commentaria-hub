@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Explication par nombres.
 
@@ -24,7 +24,7 @@ fabcde *eſt* ⊙ D.
 
 *circonſcrire au* ⊙abcde *le* 5∠ ghikl *equilat. & equiangle.*
 
-*[Figure]*
+[Figure]
 
 #### Conſtr.
 

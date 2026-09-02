@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 47)* -->
+<!-- Page number: 47 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Beweiß.
 
@@ -30,4 +30,4 @@ Wenn zweyer Drey-Ecke zwo Seiten/ zweyen Seiten / jedwede jedweder eines andern 
 2. bac ⋀ BAD
 3. Werde gezogen der gerade Strich ac
 
-<!-- catchword: 4. ac -->
+<!-- Catchword: 4. ac -->

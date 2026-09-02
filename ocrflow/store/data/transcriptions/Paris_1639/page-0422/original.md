@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 ∠m   BC   ∠mBC   mC
 53 deg.   186 —— 103 ou 77 deg.   R. 226:92
@@ -14,4 +14,4 @@ Pour trouuer la ligne de gorge, on dira, si mF 13036″ donne à la ligne de gor
 
 *Les quantitez des lignes de la figure, qui est en la page 210 du 3 tome, se peuuent trouuer geometriquement, sans tables des sinus ou des logarithmes, comme s'ensuit.*
 
-*[Figure]*
+[Figure]

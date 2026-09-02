@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 325)* -->
+<!-- Page number: 325 -->
 
 ## Der VII. Vortrag.
 
@@ -12,8 +12,8 @@ Wenn zwey Dreyecke sind / da des einen Winckel einem des andern Dreyeckes Wincke
 
 1. Zwey Dreyecke abc, def.
 2. bac ⋏ edf
-3. cba ⋏̸ ∟ (?)
-4. def ⋏̸ ∟ (?)
+3. cba ⋏̸ [unclear: ∟]
+4. def ⋏̸ [unclear: ∟]
 5. ac : cb | df : fe.
 
 ### Begehrte.
@@ -22,7 +22,7 @@ abc ⋏ def
 acb ⋏ dfe
 △ abc gleichwincklicht △ def.
 
-*[Figur: zwei Dreiecke, links def, rechts abc mit punktierter Linie von g nach c]*
+[Diagram: zwei Dreiecke, links def, rechts abc mit punktierter Linie von g nach c]
 
-<!-- signature mark: Ss 3 -->
-<!-- catchword: Vorbe- -->
+<!-- Signature: Ss 3 -->
+<!-- Catchword: Vorbe- -->

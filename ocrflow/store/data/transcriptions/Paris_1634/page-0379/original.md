@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 constr. | fc 2|2 cd,
 3.a.1 | af 2|2 db,
@@ -26,7 +25,7 @@ Propositam rectam lineam terminatam extrema, ac media ratione secare.
 
 Coupper vne ligne droicte proposee & terminee, selon la moyenne & extreme raison.
 
-*[Figure: rectangle C, B, I, G, H sur la base D, E, A, F]*
+[Figure: rectangle C, B, I, G, H sur la base D, E, A, F]
 
 Hypoth.
 

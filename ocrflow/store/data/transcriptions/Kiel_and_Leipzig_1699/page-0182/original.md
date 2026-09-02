@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 164)* -->
+<!-- Page number: 164 -->
 
 ## Der XIX. Vortrag.
 
@@ -16,7 +16,7 @@ Wenn in einem Kreyß von dem Rührdüpffel des Rührstrichs ein Senckstrich gezo
 4. Senckstrich cd
 5. Auß deß Rührstriches Rührdüpffel in den Kreyß gezogen.
 
-*[Figur: Kreis mit oben anliegendem Rührstrich ab und Rührdüpffel c; im Kreis der Senckstrich cd sowie punktierte Linie ce mit den Düpffeln d, e und g]*
+[Diagram: Kreis mit oben anliegendem Rührstrich ab und Rührdüpffel c; im Kreis der Senckstrich cd sowie punktierte Linie ce mit den Düpffeln d, e und g]
 
 ### Vorbereitung.
 
@@ -31,4 +31,4 @@ dca ∠ ∟ — n. 4. Gegeb.
 Dw. dca ∠ eca — n. 1 und 10. Gr. I.
 Welches unmüglich — n. 9. Gr. I.
 
-<!-- catchword: Be- -->
+<!-- Catchword: Be- -->

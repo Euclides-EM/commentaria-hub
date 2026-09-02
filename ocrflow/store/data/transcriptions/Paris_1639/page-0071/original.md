@@ -1,4 +1,4 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
 #### Demonſtr.
 
@@ -12,7 +12,7 @@ concl. 1.a.e | ∠abc 3|2 ∠acb.
 
 De tout triangle, le plus grand angle est soustenu du plus grand costé.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -27,9 +27,11 @@ ac 3|2 ab.
 ſuppoſ. | ac 2|2 ab,
 5.1 | ∠b 2|2 ∠c,
 #### contr. hypoth.
+
 ſuppoſ. | ac 2|3 ab,
 18.1 | ∠b 2|3 ∠c,
 #### contr. hypoth.
+
 concl. 21.a.1 | ac 3|2 ab.
 
 ### COROLLAIRE.
@@ -40,7 +42,7 @@ Il s'ensuit de cette proposition, que si de quelconque poinct on tire sur vne li
 
 ad ⊥ bc,
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtr.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 suppos. | ef, est ration. expos.
 4.app. | ▭eg 2|2 □.ac + □.bc,

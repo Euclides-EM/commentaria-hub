@@ -1,4 +1,4 @@
-<!-- # TRIGONOMETRIE. -->
+<!-- Running title: TRIGONOMETRIE. -->
 
 Le mesme costé AC se trouuera par logarithmes ainsi,
 
@@ -19,7 +19,7 @@ Le mesme costé AC se trouuera par logarithmes ainsi,
 
 Estant donnez deux costez, & l'angle opposé à l'vn d'iceux, trouuer les deux autres angles, & le troisiesme costé.
 
-*[Figure]*
+[Figure]
 
 Soit donné le costé BC de 12 toises, l'angle C de 27 degrez 38 : & le costé BA, ou son égal BD de 8 toises. En cet exemple, à cause que le moindre costé cognu 8, est opposé à l'angle donné C, les trois choses données se trouuent en deux triangles differents. à sçauoir aux triangles ABC & DBC ; & par consequent, pour trouuer le costé incognu, il est necessaire de sçauoir, si l'angle opposé au costé BC, qui est le plus grand des deux costez cognus, est aigu ou obtus ; Car s'il est aigu, le costé incognu ou requis sera AC : mais s'il est obtus, le costé requis sera DC.
 

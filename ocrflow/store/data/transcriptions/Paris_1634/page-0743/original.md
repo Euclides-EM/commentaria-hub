@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
 ad rectos cuidam plano sit angulos; & reliqua eidem plano ad rectos angulos erit.
 
 *S'il y a deux lignes droictes paralleles, l'vne desquelles soit à angles droicts à quelque plan; l'autre sera aussi à angles droicts au mesme plan.*
 
-<!-- B C / E / A D / G / F (figure) -->
+[Figure: labels arranged B C / E / A D / G / F]
 
 Hypoth.
 

@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 1.p.1. | cf est —,
 symp. | cf ⊥ ab.
@@ -15,7 +14,7 @@ concl. 10.d.1. | fc ⊥ ab.
 
 CONSTR.. PRA.
 
-*[Figure: à gauche, ligne B—A—C, arcs D et G, ligne verticale AE, arcs s'entrecoupans en E ; à droite, ligne D—A—C, trois cercles s'entrecoupans, poincts E en haut, G à droite, A en bas]*
+[Figure: à gauche, ligne B—A—C, arcs D et G, ligne verticale AE, arcs s'entrecoupans en E ; à droite, ligne D—A—C, trois cercles s'entrecoupans, poincts E en haut, G à droite, A en bas]
 
 hyp. | a est • D. ⟨n bc,
 3.p.1. | acgd, cg, gde, dge snt ⊙ 2|2 ꝗe arbitr.

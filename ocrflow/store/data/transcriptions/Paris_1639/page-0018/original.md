@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Ornament]*
+[Ornament]
 
 # PREMIER LIVRE DES ELEMENTS D'EVCLIDE.
 

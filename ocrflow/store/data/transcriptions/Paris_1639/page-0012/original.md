@@ -1,4 +1,4 @@
-<!-- # PROLEGOMENES. -->
+<!-- Running title: PROLEGOMENES. -->
 
 #### Des principes des Mathematiques.
 

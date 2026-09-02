@@ -1,7 +1,6 @@
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-<!-- # APPEND.. GEOM.. PLAN. -->
-
-*[Figure: demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E]*
+[Figure: demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E]
 
 α | ▭.adf 2|2 ▭.edh,
 1.a.1 | ▭.edi 2|2 ▭.edh,
@@ -30,7 +29,7 @@ Commandinus ad 62. propos. lib. 7. Pappi adfert demonstrationem ostensiuam huius
 
 ## THEOR. IV. PROPOS. XV.
 
-*[Figure: quatre figures numerotees 1, 2, 3, 4 : cercles auec les poincts A, B, C, D & les lignes E, F, G au bas]*
+[Figure: quatre figures numerotees 1, 2, 3, 4 : cercles auec les poincts A, B, C, D & les lignes E, F, G au bas]
 
 Pappus lib. 7. propos. 107.
 

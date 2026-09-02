@@ -1,11 +1,11 @@
-<!-- # D'EVCLIDE, LIV. II. -->
+<!-- Running title: D'EVCLIDE, LIV. II. -->
 
 #### Hypoth.
 
 ab *eſt* ——,
 ac & cb *ſont parties de* ab.
 
-*[Figure]*
+[Figure]
 
 #### Req. à demonſtrer.
 

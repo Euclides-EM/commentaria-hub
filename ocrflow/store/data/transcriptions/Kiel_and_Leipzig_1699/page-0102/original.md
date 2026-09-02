@@ -1,6 +1,6 @@
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- *(Seitenzahl: 48 [recte 84])* -->
+<!-- Page number: 48 -->
 
 ### Beweiß.
 
@@ -34,4 +34,4 @@ und □ gbie | 2 △ hgf | n. 6. GrS. k.
 □ gx | 2 △ hgf | n. 41. Vortr.
 Dw. □ gx | □ gbie | n. 6. GrS.
 
-<!-- catchword: □ fpx -->
+<!-- Catchword: □ fpx -->

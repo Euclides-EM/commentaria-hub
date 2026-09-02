@@ -1,10 +1,10 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 253)* -->
+<!-- Page number: 253 -->
 
 ### Gegebene. — Begehrtes.
 
-*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
 A | B — a : A | a : B
 a | 4A
@@ -43,6 +43,6 @@ A : a | B : b — n. 7. Besch. V. W. Z. B.
 
 Von ungleichen Grössen ist die Grössere gegen eine einige
 
-<!-- signature mark: Ji 3 -->
+<!-- Signature: Ji 3 -->
 
-<!-- catchword: Grösse -->
+<!-- Catchword: Grösse -->

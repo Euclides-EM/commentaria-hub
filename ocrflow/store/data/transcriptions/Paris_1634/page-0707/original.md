@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 *Le quarré d'vne ligne faisant auec vn espace medial, vn tout medial; appliqué à vne ligne rationelle, faict la latitude apotome sixiesme.*
 

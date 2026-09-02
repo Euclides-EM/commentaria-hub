@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 292)* -->
+<!-- Page number: 292 -->
 
 ## Der XXXI. Vortrag.
 ## Das 31. Beweiß-Stück.
@@ -9,7 +9,7 @@ Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darz
 
 ### Gegebene.
 
-*[Figur: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]*
+[Diagram: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]
 
 A B ⊣ a : b
 B : C ⊣ b : c
@@ -17,4 +17,4 @@ B : C ⊣ b : c
 ### Begehrtes.
 A : C ⊣ a : c
 
-<!-- catchword: Vor- -->
+<!-- Catchword: Vor- -->

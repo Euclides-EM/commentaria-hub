@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 77)* -->
+<!-- Page number: 77 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Beweiß.
 
@@ -26,8 +26,8 @@ An einen gegebenen geraden Strich/nach dem gegebenen Winckel / ein geschicktes V
 3. △ ABC | 3. IL | EF
 | 4. KLI ⋀ D
 
-*[Figur: Figur mit den Puncten B, H, M, N oben, E, K, C, A, D, L, I, O, F, G unten und in der Mitte, mit gezogenen und punctirten Strichen]*
+[Diagram: Figur mit den Puncten B, H, M, N oben, E, K, C, A, D, L, I, O, F, G unten und in der Mitte, mit gezogenen und punctirten Strichen]
 
-<!-- signature mark: K 3 -->
+<!-- Signature: K 3 -->
 
-<!-- catchword: Wir- -->
+<!-- Catchword: Wir- -->

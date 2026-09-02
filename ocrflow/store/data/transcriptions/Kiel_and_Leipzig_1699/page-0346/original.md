@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 322)* -->
+<!-- Page number: 322 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 | CFD ⋏ bca | n. Bew. α.
 Dw. | bc : CF | ab : CD | n. 4. VI.
@@ -15,7 +15,7 @@ III. Ahrt Vorbereitung.
 Es werde 1. CEG ⋏ bca
 und 2. ECG ⋏ abc   n. 23. I.
 
-*[Figur: links Dreieck CDE mit punktierten Linien zu einem Punkt G unterhalb; rechts grösseres Dreieck abC]*
+[Diagram: links Dreieck CDE mit punktierten Linien zu einem Punkt G unterhalb; rechts grösseres Dreieck abC]
 
 ### Beweiß.
 
@@ -30,4 +30,4 @@ u. | DE | EG | n. gleichen Bew.
 Dw. | G ⋏ D | n. 32. I.
 | D ⋏ a | n. Bew. α.
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

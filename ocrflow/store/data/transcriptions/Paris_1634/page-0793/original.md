@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 altitudinem: Et pyramides triangulares æquales eandemque habentes altitudinem, bases habere æquales, si non eandem habuerint.
 
@@ -13,7 +12,7 @@ Sub eadem altitudine existentes pyramides, & polygonas habentes bases, inter se 
 
 *Les pyramides qui sont de mesme hauteur, & ayans les bases polygones, sont l'vne à l'autre comme leurs bases.*
 
-<!-- F M / A G / E L / B H / C D I K (figure) -->
+[Figure: labels arranged F M / A G / E L / B H / C D I K]
 
 Hypoth.
 

@@ -1,11 +1,10 @@
-
-<!-- # ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
 æquales numero, quæ binæ in eadem ratione sumantur: Et ex æqualitate in eadem ratione erunt.
 
 S'il y a tant de grandeurs qu'on voudra, & d'autres egales à icelles en nombre, lesquelles soient prises de deux en deux, & en mesme raison : icelles en raison egale seront proportionnelles.
 
-*[Figure: lignes verticales A, B, C, N ; D, E, F, O ; G, I, L ; H, K, M]*
+[Figure: lignes verticales A, B, C, N ; D, E, F, O ; G, I, L ; H, K, M]
 
 hypoth. | a π b 2|2 d π e,
 hyp. | b π c 2|2 e π f,

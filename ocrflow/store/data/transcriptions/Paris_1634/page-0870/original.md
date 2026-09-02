@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. XIV. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
 Præpar.
 
@@ -14,7 +13,7 @@ c. 15. 4 | ∩abcd 2|2, ⅓.. ⊙,
 c.10.13 | ∩bc 2|2 ∩cd,
 ſuppoſ | h, eſt γ.. extraedr. inſcri. ꝗn ſphær.
 
-<!-- (figure) E / A F G D / B C — H -->
+[Figure: labels arranged E / A F G D / B C — H]
 
 Req. π. demonſtr.
 h π ad 2|2 ſuperfic.. dodecaedr. π ſuperfic.. icoſaedr.

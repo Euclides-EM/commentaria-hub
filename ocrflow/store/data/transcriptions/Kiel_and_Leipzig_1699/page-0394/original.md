@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 364)* -->
+<!-- Page number: 364 -->
 
 ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüssen zusammen gesetzet ist.
 
@@ -13,7 +13,7 @@ ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüs
 
 □ ac : □ df | ad, dc : gd, de.
 
-*[Figur: zwey aneinander gefügte Vierecke mit den Punkten b, c, h, a, d, g, e, f nebst den Linien i, k, l; darunter zwey Dreiecksfiguren mit punctirten Linien und den Buchstaben k, g, l, c, d, k, e, d]*
+[Diagram: zwey aneinander gefügte Vierecke mit den Punkten b, c, h, a, d, g, e, f nebst den Linien i, k, l; darunter zwey Dreiecksfiguren mit punctirten Linien und den Buchstaben k, g, l, c, d, k, e, d]
 
 ### Vorbereitung.
 
@@ -25,4 +25,4 @@ ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüs
 
 ad : dg | i : k, n. 12. VI.
 
-<!-- catchword: 4. Werde -->
+<!-- Catchword: 4. Werde -->

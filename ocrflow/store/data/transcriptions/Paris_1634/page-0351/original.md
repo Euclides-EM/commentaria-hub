@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-<!-- # ELEM.. EVCLID. LI. VI. -->
-
-*[Figure: demi-cercle A, E, B avec point F]*
+[Figure: demi-cercle A, E, B avec point F]
 
 Hypoth.
 

@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 320)* -->
+<!-- Page number: 320 -->
 
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ## Der V. Vortrag.
 
@@ -22,7 +22,7 @@ C ⋏ b
 DCE ⋏ aCb
 a ⋏ D.
 
-*[Figur: zwei Dreiecke, ein kleineres abc und ein grösseres DCE mit punktierter Linie DH und Punkten H und E auf der Grundlinie]*
+[Diagram: zwei Dreiecke, ein kleineres abc und ein grösseres DCE mit punktierter Linie DH und Punkten H und E auf der Grundlinie]
 
 ### Beweiß.
 
@@ -34,4 +34,4 @@ So setze man auf den Strich CD und zwar
 auf den Düttel D den Winckel CDH ⋏ baC
 und auf C den Winckel DCH ⋏ abC   n. 32. I.
 
-<!-- catchword: Ver- -->
+<!-- Catchword: Ver- -->

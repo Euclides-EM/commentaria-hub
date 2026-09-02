@@ -1,6 +1,6 @@
-<!-- # D'EVCLIDE, LIV. I. -->
+<!-- Running title: D'EVCLIDE, LIV. I. -->
 
-*[Figure]*
+[Figure]
 
 ### XXXVI.
 
@@ -8,7 +8,7 @@ Mais quand en vn parallelogramme, on meine vn diametre ou diagonale, & deux lign
 
 Les parallelogrammes DG & GB sont complements, mais les parallelogrammes HE & FI sont dits estre à l'entour du diametre.
 
-*[Figure]*
+[Figure]
 
 ### XXXVII.
 

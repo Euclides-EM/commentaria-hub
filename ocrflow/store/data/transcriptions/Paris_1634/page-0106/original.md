@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 3.1. | ad 2|2 ac,
 1.p.1. | cd est —.
@@ -22,7 +21,7 @@ Si super trianguli vno latere, ab extremitatibus duæ rectæ lineæ interius con
 
 Si des extremitez d'vn costé de quelque triangle, on mene deux lignes droictes se rencontrans au dedans d'iceluy ; icelles seront plus petites que les deux autres costez du triangle, mais elles contiendront vn plus grand angle.
 
-*[Figure: triangle ABC, poincts D & E au dedans, D sur BE, lignes BD, DC, BE prolongée iusques à E sur AC]*
+[Figure: triangle ABC, poincts D & E au dedans, D sur BE, lignes BD, DC, BE prolongée iusques à E sur AC]
 
 Hypoth.
 

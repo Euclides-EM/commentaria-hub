@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 #### Req.à demonſtr.
 
@@ -19,7 +19,7 @@
 
 Aux cercles égaux, les circonferences égales, soustendent lignes droictes égales.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -49,4 +49,4 @@ Coupper en deux également vne circonference donnée.
 
 acb *eſt* ∩ D.
 
-*[Figure]*
+[Figure]

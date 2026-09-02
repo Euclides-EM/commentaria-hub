@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 385)* -->
+<!-- Page number: 385 -->
 
 ### Beweiß.
 
@@ -31,6 +31,6 @@ Sind derowegen allezeit die beyden/ auf denen beyden/ den rechten Winckel begrei
 
 Wenn zwey Dreyecke gegeben werden/ deren eins zwo Seiten/ zweyen Seiten des andern ebenmässig sind, und das eine Dreyeck mit seinem Winckel an des andern Dreyeck Winckels also gestossen
 
-<!-- signature mark: Ccc -->
+<!-- Signature: Ccc -->
 
-<!-- catchword: wird/ -->
+<!-- Catchword: wird/ -->

@@ -1,4 +1,4 @@
-*[Figur: Zierleiste (Holzschnitt) aus Rosetten]*
+[Ornament: Zierleiste (Holzschnitt) aus Rosetten]
 
 # Außlegung und Bedeutung derer Zeichen/ welche bey deß Euclidis Erklärung vorkommen.
 
@@ -20,6 +20,6 @@
 16. ⌐ Ein Winckel-Maß/ Gnomon.
 17. ○ Kreyß/ Circulus.
 
-<!-- signature mark: A -->
+<!-- Signature: A -->
 
-<!-- catchword: Deß -->
+<!-- Catchword: Deß -->

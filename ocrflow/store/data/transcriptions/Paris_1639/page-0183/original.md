@@ -1,10 +1,10 @@
-<!-- # D'EVCLIDE, LIV. IV. -->
+<!-- Running title: D'EVCLIDE, LIV. IV. -->
 
 #### Requis à faire.
 
 *circonſcrire au* ⊙abc *le* □fhig.
 
-*[Figure]*
+[Figure]
 
 #### Conſtruction.
 
@@ -30,7 +30,7 @@
 
 Dans vn quarré donné, inscrire vn cercle.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

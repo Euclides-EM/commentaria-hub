@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 78)* -->
+<!-- Page number: 78 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 ### Wirckung.
 
@@ -32,4 +32,4 @@ NC ⌻ CL n. 34. Vortr.
 
 Ist also an den gegebenen Strich EF oder IL. α. nach dem gegebenen ∧ D. β. angesetzet das □ CL | △ ABC. γ. W. Z. M.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

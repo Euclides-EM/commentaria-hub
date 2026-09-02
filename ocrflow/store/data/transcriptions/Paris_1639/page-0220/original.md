@@ -1,4 +1,4 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 est multiple de la 4 D: partant par la 2 du 5, EH, composée de la premiere & 5, sera autant multiple de la 2 B que FL, composée de la 3 & 6, est multiple de la 4 D. Pareillement, la premiere EH est autant multiple de la 2 B, que la 3 FL est multiple de la 4 D: & la 5 HI est autant multiple de la 2 B, que la 6 LM est multiple de la 4 D: par consequent, par la 2 du 5, EI composée de la premiere & 5, sera autant multiple de la 2 B, que FM, composée de la 3 & 6, est multiple de la 4 D: ce qu'il falloit demonstrer.
 
@@ -12,7 +12,7 @@ a π b 2|2 c π d,
 e *multipl..* a 2|2 f *multipl..* c,
 g *multipl..* b 2|2 h *multipl..* d.
 
-*[Figure]*
+[Figure]
 
 #### Requis à demonſtrer.
 

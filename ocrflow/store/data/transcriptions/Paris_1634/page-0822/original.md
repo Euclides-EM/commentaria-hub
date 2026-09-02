@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLD. LI. XII. -->
 
-<!-- # ELEM.. EVCLD. LI. XII. -->
-
-<!-- H ⊙ / A / B C / D / E F / G (figure) -->
+[Figure: labels arranged H ⊙ / A / B C / D / E F / G]
 
 ſuppoſ. | raō. ſphær. bac π ſphær. g 2|2, 3; raō; bc π ef, α
 1ſuppo. | ſphær. g 2|3 ſphær. edf,

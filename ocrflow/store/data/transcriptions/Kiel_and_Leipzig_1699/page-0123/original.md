@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 105)* -->
+<!-- Page number: 105 -->
 
 ### Beweiß
 
@@ -22,11 +22,11 @@ Wenn ein gerader Strich/ auff wasserley weise in zwey Stücke getheilet ist/ so 
 1. Gerader Strich ab. — □ ab + □ cb | □ abc + □ ac
 2. getheilet in c.
 
-*[Figur: Links ein Quadrat a c b mit innerer gestrichelter Linie, Punkten e, d, g, c, f, a, h, b; rechts Rechtecke D, E, F mit n oben, darunter H, G mit o, p, m.]*
+[Diagram: Links ein Quadrat a c b mit innerer gestrichelter Linie, Punkten e, d, g, c, f, a, h, b; rechts Rechtecke D, E, F mit n oben, darunter H, G mit o, p, m.]
 
 ### Beweiß.
 
 ab | ac + cb — n. 9. Gr. I.
 □ ab | □ ac + 2 □ acb + □ cb — n. 4. II.
 □ cb | □ cb
-<!-- catchword: D | □ ab -->
+<!-- Catchword: D | □ ab -->

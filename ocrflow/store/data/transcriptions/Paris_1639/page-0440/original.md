@@ -1,4 +1,4 @@
-<!-- # DES FORTIFICATIONS. -->
+<!-- Running title: DES FORTIFICATIONS. -->
 
 qui ne sont point attaquez, car au battre ou doublera la garde : entre ces soldats il y doit auoir trois canonniers pour le moins pour chaque bastion, auec chacun deux sous-canonniers, afin qu'vn demeure tousiours en garde en chaque flanc : outre ce nombre de canonniers, on pourra encore mettre d'autres pour entrer en la place de ceux qui pourroient estre tuez & blessez.  Le nombre des munitions de la forteresse se pourra colliger par le nombre des soldats, & du temps qu'on estimera deuoir durer le siege.
 

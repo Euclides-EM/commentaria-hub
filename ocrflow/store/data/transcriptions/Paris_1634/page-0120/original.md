@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-<!-- # ELEM.. EVCLID. LI. I. -->
-
-*[Figure: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]*
+[Figure: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]
 
 Demonstr.
 

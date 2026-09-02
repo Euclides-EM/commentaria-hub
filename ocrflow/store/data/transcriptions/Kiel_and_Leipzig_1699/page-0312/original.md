@@ -1,10 +1,10 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 288)* -->
+<!-- Page number: 288 -->
 
 ### Gegebene.
 
-*[Figur: zwey Linien A und B; auf der Linie A sind die Stücke a und c, auf der Linie B das Stück b bezeichnet]*
+[Diagram: zwey Linien A und B; auf der Linie A sind die Stücke a und c, auf der Linie B das Stück b bezeichnet]
 
 A : a ⊣ B : b
 
@@ -36,4 +36,4 @@ Man nehme noch eine Grösse/ nemlich c darzu/ welche sich zu a also/wie B zu b, 
 
 Wenn derowegen die I. zu der II. Grösse eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. mit der II. zu der II. eine grössere Verhältnüß/ als die III. und IV. zusammen/ zu der IV. haben. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

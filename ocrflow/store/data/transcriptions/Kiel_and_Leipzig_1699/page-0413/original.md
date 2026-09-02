@@ -1,12 +1,12 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 383)* -->
+<!-- Page number: 383 -->
 
 ### Andere Ahrt.
 
 Noch leichter geschicht diese Theilung nach dem XI. Vortrag des II. Buchs.
 
-*[Figur: Rechteck mit punktierten Bogenlinien und den Punkten b, a, g, c, h, f, a, d, e]*
+[Diagram: Rechteck mit punktierten Bogenlinien und den Punkten b, a, g, c, h, f, a, d, e]
 
 ### Beweiß.
 
@@ -25,4 +25,4 @@ Dw. ist ab im c nach der äusersten und mittelsten Verhältnüß getheilet. W. Z
 
 In allen rechtwincklichten Dreyecken ist allezeit diejenige geradstrichichte Gestalt/ welche auf die/ dem rechten Winckel gegen überstehende/ Seite gesetzet wird/ denen beyden Gestalten/ so auf den übrigen beyden/ den rechten Winckel begreiffenden/ Seiten stehen/ und der ersten Gestalt ähnlich/ auch gleicher weise gesetzt sind/ gleichmässig.
 
-<!-- catchword: Gegebene. -->
+<!-- Catchword: Gegebene. -->

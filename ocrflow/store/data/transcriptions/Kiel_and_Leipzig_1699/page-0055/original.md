@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 37)* -->
+<!-- Page number: 37 -->
 
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
 ### Vorbereitung.
 
@@ -16,7 +16,7 @@ Es werden
 10. Zeucht man den geraden Strich AF.
 11. - - - - - - - - AI.
 
-*[Figur: Dreieck mit verlängerten Seiten und punktierten Linien; bezeichnete Punkte D, A oben, E, H in der Mitte, B, C, I unten.]*
+[Diagram: Dreieck mit verlängerten Seiten und punktierten Linien; bezeichnete Punkte D, A oben, E, H in der Mitte, B, C, I unten.]
 
 ### Beweiß.
 
@@ -35,5 +35,5 @@ GAB ⋀ ABC
 GAB ⋀ DAC nach 15. Vortr.
 Drw. DAC ⋀ ABC nach 1. Gr-S. c.
 
-<!-- signature mark: E 3 -->
-<!-- catchword: Ist -->
+<!-- Signature: E 3 -->
+<!-- Catchword: Ist -->

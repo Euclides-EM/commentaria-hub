@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 Notez, que pour plus grande briefueté, les Geometres ont de coustume d'exprimer le parallelogramme tant rectangle que non rectangle, par deux lettres seulement, à sçauoir par celles qui sont opposées diametralement : comme celuy-cy se pourra nommer le parallelogramme GM ou HL.
 
@@ -16,7 +16,7 @@ hyp. | de == ab,
 hyp. | ad 2|2 be,
 ergo | adeb *eſt trapeze iſoſcele.*
 
-*[Figure]*
+[Figure]
 
 Trapeze scalene est celuy qui a deux costez opposez paralleles, & les deux autres costez inégaux entr'eux, comme DHFK.
 
@@ -24,6 +24,6 @@ hyp. | dh == kf,
 hyp. | fh 3|2 kd,
 ergo | kdhe *eſt trapeze ſcalene.*
 
-*[Figure]*
+[Figure]
 
 Trapeze irregulier est celuy qui n'a aucuns costez paralleles, comme ABCD.

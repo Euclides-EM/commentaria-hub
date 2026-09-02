@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 24. 10 | ▭gк, est medi.
 23.10 | gl, est ration. incomm. de, ♪

@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 
@@ -24,7 +24,7 @@ d.β | ∠d & ∠c *ſnt* ┘.
 
 Les lignes droictes paralleles à vne mesme ligne droicte, sont aussi paralleles entr'elles.
 
-*[Figure]*
+[Figure]
 
 #### Hypoth.
 

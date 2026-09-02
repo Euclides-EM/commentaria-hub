@@ -1,6 +1,6 @@
-<!-- # Das IV. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- *(Seitenzahl: 214)* -->
+<!-- Page number: 214 -->
 
 3. Aus dem Mittel-Düpffel a werde zu dem Düpffel f ein gerader Strich af gezogen.
 
@@ -10,7 +10,7 @@
 
 Es werden auch aus dem Mittel-Düpffel die Striche ag, ah, ai gezogen / n. 12. I.
 
-*[Figur: Quadrat b c d e mit einbeschriebenem Kreis um den Mittelpunkt a; die Berührungspunkte f, g, h, i liegen in den Seitenmitten, punktierte Linien verbinden a mit den Ecken und Berührungspunkten]*
+[Diagram: Quadrat b c d e mit einbeschriebenem Kreis um den Mittelpunkt a; die Berührungspunkte f, g, h, i liegen in den Seitenmitten, punktierte Linien verbinden a mit den Ecken und Berührungspunkten]
 
 ### Beweiß.
 
@@ -28,4 +28,4 @@ Gleicher Weise — ia | ha
 u. — ia | fa
 Dw. — a | Mittel-Düpffel des ○ fghi, n. 9. III.
 
-<!-- catchword: Wel- -->
+<!-- Catchword: Wel- -->

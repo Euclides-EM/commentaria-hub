@@ -1,9 +1,8 @@
-
-<!-- # ELEM. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
 iori minus, & à minori maius, reliqua sunt inæqualia, illud nimirùm maius & hoc minus. | de la plus grande moins, & de la plus petite plus, les restes sont inegaux, sçauoir est celuy-là plus grand & celuy-cy plus petit.
 
-*[Figure: ligne AEB en haut, ligne CFD au dessous]*
+[Figure: ligne AEB en haut, ligne CFD au dessous]
 
 hyp. | ab 3|2 cd.
 hyp. | cf 3|2 ae.
@@ -15,7 +14,7 @@ Porrò in his omnibus pronunciatis, primo excepto, nomine æqualium quantitatum 
 
 Et quæ eiusdem, vel æqualium sunt duplicia, inter se sunt æqualia. | Et les choses qui sont doubles d'vne mesme ou des egales, sont aussi doubles entr'elles.
 
-*[Figure: lignes A et B longues à gauche, ligne C courte à droite]*
+[Figure: lignes A et B longues à gauche, ligne C courte à droite]
 
 hyp. | a 2|2 2c.
 hyp. | b 2|2 2c.

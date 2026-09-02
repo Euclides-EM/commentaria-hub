@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-<!-- # ELEM.. EVCLID. LI. II. -->
-
-*[Figure: deux rectangles auec diagonales ; le premier A—B en haut, D—C en bas, diagonale A—C ; le second E—F en haut, H—G en bas, diagonale E—G]*
+[Figure: deux rectangles auec diagonales ; le premier A—B en haut, D—C en bas, diagonale A—C ; le second E—F en haut, H—G en bas, diagonale E—G]
 
 Demonstr.
 
@@ -16,7 +15,7 @@ Describere rectangulum quod sub duabus datis rectis lineis contineatur.
 
 Descrire vn rectangle qui soit contenu sous deux lignes droictes donneés.
 
-*[Figure: rectangle ABCD, B & C en haut, A & D en bas ; à gauche ligne E]*
+[Figure: rectangle ABCD, B & C en haut, A & D en bas ; à gauche ligne E]
 
 Hypoth.
 

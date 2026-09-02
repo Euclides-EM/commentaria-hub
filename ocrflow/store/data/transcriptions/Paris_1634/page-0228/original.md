@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVDLID. LI. III. -->
+<!-- Running title: ELEM.. EVDLID. LI. III. -->
 
 ## COROLL. IV.
 
@@ -7,7 +6,7 @@ Illud denique constat etiam, si duæ rectæ æquales ex puncto quopiam in conuex
 
 Il est finalement euident, que si deux lignes droictes égales, sont menées de quelconque poinct à la circonference conuexe, & que l'vne d'icelles touche le cercle, l'autre aussi le touchera.
 
-*[Figure: cercle B—E—C marqué 2, D et F au dedans, A au dehors en haut, lignes A—B, A—C, A—D—E, F sur A—E]*
+[Figure: cercle B—E—C marqué 2, D et F au dedans, A au dehors en haut, lignes A—B, A—C, A—D—E, F sur A—E]
 
 Hypoth.
 

@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 273)* -->
+<!-- Page number: 273 -->
 
 ### I. Gegebene.
 
@@ -11,7 +11,7 @@ a ______ | A : B | a : b
 b ____ | B : C | b : c
 c __ | A ⊣ C
 
-*[Figur: Strecken A, B, C, a, b, c]*
+[Diagram: Strecken A, B, C, a, b, c]
 
 ### Begehrtes.
 
@@ -40,8 +40,8 @@ a ______
 b ____
 c ______
 
-*[Figur: Strecken A, B, C, a, b, c]*
+[Diagram: Strecken A, B, C, a, b, c]
 
-<!-- signature mark: Mm -->
+<!-- Signature: Mm -->
 
-<!-- catchword: Begehr- -->
+<!-- Catchword: Begehr- -->

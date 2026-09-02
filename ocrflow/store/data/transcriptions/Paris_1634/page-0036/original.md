@@ -1,10 +1,7 @@
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
-<!-- # ELEM. EVCLID. LI. I. -->
-
-<!-- (colonne gauche, latin) -->
 hac definitione, punctum Mathematicum designant per punctum Physicum, quale est punctum A.
 
-<!-- (colonne droite, français) -->
 ceste definition, ils representët le poinct Mathematique par le poinct Physique, tel qu'est le poinct A.
 
 • A

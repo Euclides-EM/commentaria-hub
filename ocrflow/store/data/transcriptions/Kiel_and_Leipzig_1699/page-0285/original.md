@@ -1,13 +1,13 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 261)* -->
+<!-- Page number: 261 -->
 
 A ____________
 4a ____________
 B ____________
 4b ____________
 
-*[Figur: Strecken A, 4a, B, 4b]*
+[Diagram: Strecken A, 4a, B, 4b]
 
 A | 3a — n. Gegeb.
 4a ⊣ 3a — n. 9. Gr. I.
@@ -30,6 +30,6 @@ Wenn derowegen etliche Verhältnüsse gegen eine einige Verhältnüß gleichhalt
 
 Wenn man etliche ebenmässige (und zwar so viel man deren wil) Grössen hat/ so werden/ wie sich eine Vorgehende zu ihrer Nachgehenden hält/ auch alle Vorgehende zusammen genommen zu allen Nachgehenden zusammen verhalten.
 
-<!-- signature mark: Kk 3 -->
+<!-- Signature: Kk 3 -->
 
-<!-- catchword: Gegebene. -->
+<!-- Catchword: Gegebene. -->

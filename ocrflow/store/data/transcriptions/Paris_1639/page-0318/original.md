@@ -1,4 +1,4 @@
-<!-- # ARITHMETIQVE -->
+<!-- Running title: ARITHMETIQVE -->
 
 quand les denominateurs sont petits, & qu'on iuge facilement que 12, 24, 60, ou autre nombre se peut diuiser par tous les denominateurs sans reste : puis pour auoir les numerateurs de chaque fraction, on diuise le nombre qu'on a trouué pour commun denominateur par chaque denominateur des fractions proposées, & le quotient trouué par chaque diuision, on le multiplie par le numerateur. Par exemple, soient proposées les 5 fractions suiuantes à reduire à mesme denomination, on peut prendre diuers nombres pour leur commun denominateur, à sçauoir 24, 48, 72, &c.
 

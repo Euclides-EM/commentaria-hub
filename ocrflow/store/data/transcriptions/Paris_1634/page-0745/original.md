@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-<!-- # ELEM.. EVCLID. LI. XI. -->
-
-<!-- A / B C / D / E F (figure) -->
+[Figure: labels arranged A / B C / D / E F]
 
 Demonstr.
 
@@ -18,7 +17,7 @@ A dato puncto in sublimi, ad subjectum planum perpendicularem rectam lineam duce
 
 *D'vn poinct donné en l'air mener vne ligne droicte perpendiculaire sur le plan qui est au dessous.*
 
-<!-- D K A H / B / I / G F E L C (figure) -->
+[Figure: labels arranged D K A H / B / I / G F E L C]
 
 Hypoth.
 

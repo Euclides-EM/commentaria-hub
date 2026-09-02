@@ -1,6 +1,6 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
-*[Figure]*
+[Figure]
 
 #### Preparation.
 
@@ -24,4 +24,4 @@ c.16.3 | db *touche le* ⊙abf.
 
 α.8.1 | ∠edb 2|2 ∠edf.
 
-*[Ornament]*
+[Ornament]

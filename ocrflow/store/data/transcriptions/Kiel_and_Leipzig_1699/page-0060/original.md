@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 42)* -->
+<!-- Page number: 42 -->
 
-<!-- # Das I. Buch -->
+<!-- Running title: Das I. Buch -->
 
 sammen / sie mögen genommen werden / wie sie wollen / allezeit grösser / als die dritte.
 
@@ -15,7 +15,7 @@ sammen / sie mögen genommen werden / wie sie wollen / allezeit grösser / als d
 2. werde AD | AB n. 3. Vortr.
 3. Ziehe man den geraden Strich BD.
 
-*[Figur: Dreieck ABC mit C unten links, B unten rechts, A oben; die Seite CA über A hinaus punktiert verlängert bis D, punktierte Linie von D nach B.]*
+[Diagram: Dreieck ABC mit C unten links, B unten rechts, A oben; die Seite CA über A hinaus punktiert verlängert bis D, punktierte Linie von D nach B.]
 
 ### Beweiß.
 
@@ -33,4 +33,4 @@ Gleicher Weise kan auch erwiesen werden
 daß AB + BC ⊣ CA
 und BC + CA ⊣ BA
 
-<!-- catchword: Beschluß. -->
+<!-- Catchword: Beschluß. -->

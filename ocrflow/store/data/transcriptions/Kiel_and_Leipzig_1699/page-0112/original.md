@@ -1,6 +1,6 @@
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- *(Seitenzahl: 94)* -->
+<!-- Page number: 94 -->
 
 Viereck/ so dem gantzen Strich und von einem solchen Stück begriffen wird/ eben so groß seyn/ als das gleichseitige Viereck desselbigen Stückes/ samt dem Viereck/ welches von den beeden Stücken begriffen wird.
 
@@ -20,7 +20,7 @@ Viereck/ so dem gantzen Strich und von einem solchen Stück begriffen wird/ eben
 6. - - □ acb
 7. - - □ abc
 
-*[Figur: Oben ein Strich A C B; darunter ein Rechteck mit den Ecken B, D, a, b und gestrichelter Teilungslinie bei c/d; darunter zwei Rechtecke mit den Ecken a, b, c, d bzw. c, b.]*
+[Diagram: Oben ein Strich A C B; darunter ein Rechteck mit den Ecken B, D, a, b und gestrichelter Teilungslinie bei c/d; darunter zwei Rechtecke mit den Ecken a, b, c, d bzw. c, b.]
 
 ### Beweiß.
 
@@ -29,4 +29,4 @@ bc | BC — n. 3. Vorber.
 □ abc | □ ABC — n. 1. Gr. II.
 ab | ac + cb — n. 3. Gegeb.
 
-<!-- catchword: bc -->
+<!-- Catchword: bc -->

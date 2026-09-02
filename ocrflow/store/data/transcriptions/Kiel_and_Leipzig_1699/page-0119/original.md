@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 101)* -->
+<!-- Page number: 101 -->
 
 de + ee + bd | bb — n. 3. Gr. I.
 e | b + e
@@ -30,5 +30,5 @@ Wenn ein gerader Strich in zween gleiche Theile getheilet/ und gerade aus ein St
 3. - - - - □ bc - -
 4. - - Der Strich ee verlängert biß f.
 
-<!-- signature mark: N 3 -->
-<!-- catchword: Be- -->
+<!-- Signature: N 3 -->
+<!-- Catchword: Be- -->

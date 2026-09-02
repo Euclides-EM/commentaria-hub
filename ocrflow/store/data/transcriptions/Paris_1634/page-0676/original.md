@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
 βs.12.10 | □.ef, est irration.
 concl. 11.d.10 | ef, est irration.

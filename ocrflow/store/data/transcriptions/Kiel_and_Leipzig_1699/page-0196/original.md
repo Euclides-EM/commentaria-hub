@@ -1,6 +1,6 @@
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
-<!-- *(Seitenzahl: 178)* -->
+<!-- Page number: 178 -->
 
 ## Der XXIX. Vortrag.
 
@@ -15,7 +15,7 @@ In gleichgrossen Kreysen werden gleichgrosse Bogen von gleichlangen Strichen üb
 ### Begehrtes.
 bc | ef.
 
-*[Figur: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, der andere mit h, d, e, f; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]*
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, der andere mit h, d, e, f; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]
 
 ### Vorbereitung.
 Es werden gezogen die Stralen ab, ac, de, df.
@@ -31,4 +31,4 @@ und bc | ef   n. 4. I.
 ### Beschluß.
 Werden also allezeit in gleichgrossen Kreysen / gleichgrosse Bogen von gleichlangen geraden Strichen überspannet. W. Z. B.
 
-<!-- catchword: Der -->
+<!-- Catchword: Der -->

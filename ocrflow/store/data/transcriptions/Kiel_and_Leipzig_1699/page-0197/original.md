@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 179)* -->
+<!-- Page number: 179 -->
 
 ## Der XXX. Vortrag.
 
@@ -17,7 +17,7 @@ ad ⊻ db.
 1. Der Strich ab werde in zween gleiche Theile getheilet. n. 10. I.
 2. Auff das Mittel c werde ein Senckstrich cd gesetzet. n. 11. I.
 
-*[Figur: Kreyßstück über dem Strich ab mit dem Senckstrich cd; die Striche ad und bd punctirt]*
+[Diagram: Kreyßstück über dem Strich ab mit dem Senckstrich cd; die Striche ad und bd punctirt]
 
 ### Vorbereitung.
 Es werden gezogen die beyden geraden Striche ad und bd.
@@ -33,5 +33,5 @@ und ad ⊻ bd   n. 28. III.
 ### Beschluß.
 Ist also der gegebene Bogen adb in zween gleiche Theile ad ⊻ bd getheilet. W. Z. M.
 
-<!-- signature mark: Q 2 -->
-<!-- catchword: Der -->
+<!-- Signature: Q 2 -->
+<!-- Catchword: Der -->

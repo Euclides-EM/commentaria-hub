@@ -1,11 +1,11 @@
-<!-- # LES ELEMENTS -->
+<!-- Running title: LES ELEMENTS -->
 
 αβ.15.1 | ∠; fga,agb, / bgc,cgd, / dge, egf, *ſnt* 2|2 đe.
 26.3 | ∩;ab,bc, / cd, de, / ef, fa, *ſnt* 2|2 đe.
 1.concl. 29.3 | ab,bc,cd, / de, ef, fa, *ſnt* 2|2 đe.
 2 concl. 27.3 | ∠; abc, bcd, cde, def, efa, fab *ſnt* 2|2 đe.
 
-*[Figure]*
+[Figure]
 
 #### Corollaire 1.
 
@@ -26,6 +26,6 @@ conſtr. | acgd,gcad, dgae *ſnt* ⊙ 2|2 đe.
 31.3 | ∠cad *eſt* ┘,
 concl. 10.d.1 | ea ⊥ ac.
 
-*[Figure]*
+[Figure]
 
-*[Figure]*
+[Figure]

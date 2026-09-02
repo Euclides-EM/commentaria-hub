@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 116)* -->
+<!-- Page number: 116 -->
 
-<!-- # Das II. Buch -->
+<!-- Running title: Das II. Buch -->
 
 Striches/ welcher aus dem halben und angesetzten Stück zusammen gesetzet cd, zweymahl genommen. W. Z. B.
 
@@ -40,4 +40,4 @@ Gerader Strich ab | 1. Getheilet in c also
 1. Auff ab werde ein gleichseitiges □ ab gesetzt/ n. 46. I.
 2. Die Seite ae werde in zween gleiche Theil getheilet in dem Düttel d, n. 10. I.
 
-<!-- catchword: 3. Aus -->
+<!-- Catchword: 3. Aus -->

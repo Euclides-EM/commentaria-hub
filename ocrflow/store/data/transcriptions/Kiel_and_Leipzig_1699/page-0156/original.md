@@ -1,6 +1,6 @@
-<!-- *(Seitenzahl: 138)* -->
+<!-- Page number: 138 -->
 
-<!-- # Das III. Buch -->
+<!-- Running title: Das III. Buch -->
 
 ### Beweiß
 
@@ -27,4 +27,4 @@ Wenn man in eines Kreyses Durchschlag einen Düttel erwehlet / welcher nicht der
 2. Durchschlag bc. — 2. ac der kürtzeste.
 3. Erwehlter Düttel a, — 3. ak ⊣ ag
 
-<!-- catchword: 4. Welcher -->
+<!-- Catchword: 4. Welcher -->

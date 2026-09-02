@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-<!-- # ELEM.. EVCLID. LI. XIII. -->
-
-<!-- E G F / I O H K / P / D A C B / L N M (figure) -->
+[Figure: labels arranged E G F / I O H K / P / D A C B / L N M]
 
 præpar. eſt ſml. præpar.. propoſ. præced.
 

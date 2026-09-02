@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
 cunque segmenta: Rectangulum comprehensum sub illis duabus rectis lineis, æquale est eis, quæ sub singulis segmentis vnius, & quolibet segmentorum alterius continentur rectangulis.
 
@@ -15,7 +14,7 @@ Req. π. demonstr.
 
 ▭.ab,ac 2|2 ▭.ad,ag + ▭.de,ag, + ▭.eb,ag + ▭.ad,gc, + ▭.de,gc + ▭.eb,gc,
 
-*[Figure: rectangle C—I—K—H en haut, A—D—E—B en bas, G & L aux costez, N & O au milieu]*
+[Figure: rectangle C—I—K—H en haut, A—D—E—B en bas, G & L aux costez, N & O au milieu]
 
 Præpar.
 

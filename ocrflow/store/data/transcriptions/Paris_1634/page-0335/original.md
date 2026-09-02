@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
 ## DEFINIT. IV.
 
@@ -7,7 +6,7 @@ Altitudo cuiusque figuræ est linea perpendicularis à vertice ad basin deducta.
 
 La hauteur de quelconque figure est la ligne perpendiculaire menee du sommet sur la base.
 
-*[Figure: triangle A, B, C avec perpendiculaire A—D]*
+[Figure: triangle A, B, C avec perpendiculaire A—D]
 
 hyp. | ad ⊥ bc,
 4.d.5 | ad est alt.. Δabc, α

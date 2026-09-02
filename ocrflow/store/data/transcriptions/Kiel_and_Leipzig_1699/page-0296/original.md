@@ -1,6 +1,6 @@
-<!-- # Das V. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- *(Seitenzahl: 272)* -->
+<!-- Page number: 272 -->
 
 ### Beweiß.
 
@@ -22,4 +22,4 @@ Wenn derowegen die Gantzen sich zu einander also/ wie die abgenommenen Stücke z
 
 Wenn man drey Grössen hat/ welche mit andern drey Grössen in richtiger Ebenmaß stehen/ und die Erste der Ersten Ahrt grösser ist/ als die Dritte selbiger Ahrt/ so wird auch die Erste der andern Ahrt grösser seyn/ als die Dritte derselbē Ahrt: Ist aber die Erste gleichgroß mit der Dritten/ so ist auch in der andern Ahrt die Erste der Dritten gleicher Grösse: Und wenn die Erste kleiner/ als die Dritte/ so ist auch in der andern Ahrt die Erste kleiner/ als die Dritte.
 
-<!-- catchword: I. Gegebene. -->
+<!-- Catchword: I. Gegebene. -->

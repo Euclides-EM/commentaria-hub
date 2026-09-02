@@ -1,5 +1,4 @@
-
-<!-- # ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM.. EVCLID. LI. I. -->
 
 Præpar.
 
@@ -23,7 +22,7 @@ Triangula super eadem basi constituta, & in eisdem parallelis, inter se sunt æq
 
 Les triangles constituez sur mesme base, & entre mesmes paralleles, sont égaux entr'eux.
 
-*[Figure: ligne E—A—D—F en haut, ligne B—C en bas ; triangles BCA & BCD, lignes E—B, E—C, F—B, F—C]*
+[Figure: ligne E—A—D—F en haut, ligne B—C en bas ; triangles BCA & BCD, lignes E—B, E—C, F—B, F—C]
 
 Hypoth.
 

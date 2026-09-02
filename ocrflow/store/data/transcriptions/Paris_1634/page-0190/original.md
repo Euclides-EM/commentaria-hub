@@ -1,7 +1,6 @@
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-<!-- # ELEM.. EVCLID. LI. III. -->
-
-*[Figure: cercle A—B—C—D, G au dedans, F et E sur les lignes, lignes B—D, A—C, G—A, G—C, G—E]*
+[Figure: cercle A—B—C—D, G au dedans, F et E sur les lignes, lignes B—D, A—C, G—A, G—C, G—E]
 
 15.d.1 | ga 2|2 gc,
 8.1 | <ceg 2|2 <aeg,
@@ -22,7 +21,7 @@ Si in circuli peripheria duo quælibet puncta accepta fuerint; recta linea, quæ
 
 Si en la circonference d'vn cercle on prend deux poincts tels qu'on voudra; la ligne droicte coniointe à iceux poincts tombera dedans le cercle.
 
-*[Figure: cercle avec C au dedans en haut, A à gauche, B à droite, D en bas sur la corde, lignes C—A, C—B, C—D, A—B]*
+[Figure: cercle avec C au dedans en haut, A à gauche, B à droite, D en bas sur la corde, lignes C—A, C—B, C—D, A—B]
 
 Hypoth.
 

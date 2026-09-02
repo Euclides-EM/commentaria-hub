@@ -1,6 +1,6 @@
-<!-- # Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- *(Seitenzahl: 151)* -->
+<!-- Page number: 151 -->
 
 ### Vorbereitung.
 
@@ -19,7 +19,7 @@ Welches unmüglich n. 9. Gr. I.
 
 Wann der inwendige Kreyß den eussern in h und g anrühret.
 
-*[Figur: zwei Kreise, deren innerer den äusseren oben in h und g anrühret; im Innern die Mittel-Düpffele f und e mit punktierten Stralen nach h und g]*
+[Diagram: zwei Kreise, deren innerer den äusseren oben in h und g anrühret; im Innern die Mittel-Düpffele f und e mit punktierten Stralen nach h und g]
 
 ### Vorbereitung.
 
@@ -36,4 +36,4 @@ Dw. ge ⊢ hf + fe — n. 1. Gr. b. I.
 Oder ge ⊢ he — n. 9. Gr. q. I.
 Welches unmüglich n. 15. Beschr. I.
 
-<!-- catchword: III. Be- -->
+<!-- Catchword: III. Be- -->

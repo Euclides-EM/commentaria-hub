@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 386)* -->
+<!-- Page number: 386 -->
 
 wird/ daß die ebenmässigen Seiten nebenstrichicht werden: Alsdenn werden die übrigen Seiten solcher Dreyecke in einem geraden Striche stehen/ (oder einen geraden Strich machen.)
 
@@ -18,7 +18,7 @@ ac ⧣ de
 
 Die übrigen Seiten bc und ce werden einen geraden Strich be machen.
 
-*[Figur: zwei Dreiecke, ein kleineres mit den Punkten d, e, c und ein grösseres mit den Punkten a, c, b]*
+[Diagram: zwei Dreiecke, ein kleineres mit den Punkten d, e, c und ein grösseres mit den Punkten a, c, b]
 
 ### Beweiß.
 
@@ -32,4 +32,4 @@ Die übrigen Seiten bc und ce werden einen geraden Strich be machen.
 | und | abc ⋀ dce | n. 6. VI. |
 |  | acb + a ⋀ acb + a |  |
 
-<!-- catchword: Dw. -->
+<!-- Catchword: Dw. -->

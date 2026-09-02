@@ -1,5 +1,4 @@
-
-<!-- # APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
 47.1 | □.ab 2|2 □.ad + □.bd u □.cf,
 □.cf commun. subtr.
@@ -11,7 +10,7 @@ Inuenire rectam lineam, ad quam data recta, sit in ratione similium datorum rect
 
 Trouuer vne ligne droicte, à laquelle vne ligne droicte donnee, soit en la raison de deux rectilignes semblables donnez.
 
-*[Figure: pentagone A, B, C, D, E ; pentagone F, G, H, I, K ; lignes L, M, N à part]*
+[Figure: pentagone A, B, C, D, E ; pentagone F, G, H, I, K ; lignes L, M, N à part]
 
 Hypoth.
 

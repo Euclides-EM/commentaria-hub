@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 356)* -->
+<!-- Page number: 356 -->
 
 ### Vorbereitung.
 
@@ -35,4 +35,4 @@ u. △ edc ähnlich △ ghi n. 6. VI.
 △ eab ähnlich △ gfk n. Bew. α.
 Dw. △ eab : △ gfk ⊐ be : kg n. 19. VI.
 
-<!-- catchword: △ bec -->
+<!-- Catchword: △ bec -->

@@ -1,6 +1,6 @@
-<!-- # Das VI. Buch -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- *(Seitenzahl: 388)* -->
+<!-- Page number: 388 -->
 
 ### I. Begehrte.
 
@@ -8,7 +8,7 @@
 ∧ bdc : fhg | ⌒ bc : ⌒ fg.
 △ bdc : △ fhg | ⌒ bc : ⌒ fg.
 
-*[Figur: zwei punktierte Kreise mit einbeschriebenen Linien und Dreiecken; links die Punkte a, m, d, i, c, b; rechts die Punkte e, l, h, k, f, g]*
+[Diagram: zwei punktierte Kreise mit einbeschriebenen Linien und Dreiecken; links die Punkte a, m, d, i, c, b; rechts die Punkte e, l, h, k, f, g]
 
 ### Vorbereitung.
 
@@ -34,4 +34,4 @@ kl | fg
 
 8. Desgleichen die geraden Striche bi und fl gezogen.
 
-<!-- catchword: I. Beweiß. -->
+<!-- Catchword: I. Beweiß. -->
