@@ -26,8 +26,14 @@ func TestEditionHasAnyShelfmarkProperty(t *testing.T) {
 			want:       true,
 		},
 		{
-			name:       "unknown copyright on one shelfmark",
+			name:       "known copyright on one shelfmark means status is not unknown",
 			shelfmarks: []model.EditionShelfmark{{Copyright: "Public domain"}, {Copyright: "  "}},
+			allowed:    []string{copyrightStatusUnknown},
+			want:       false,
+		},
+		{
+			name:       "copyright unknown on all shelfmarks",
+			shelfmarks: []model.EditionShelfmark{{Copyright: ""}, {Copyright: "  "}},
 			allowed:    []string{copyrightStatusUnknown},
 			want:       true,
 		},

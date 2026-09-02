@@ -33,9 +33,6 @@ const shelfmarkProperties = (
     if (shelfmark.scan?.trim()) {
       properties.add("facsimile_available");
     }
-    if (!shelfmark.copyright?.trim()) {
-      properties.add("copyright_status_unknown");
-    }
     if (shelfmark.transcription_available === "external") {
       properties.add("external_transcription_available");
     }
@@ -48,6 +45,12 @@ const shelfmarkProperties = (
     if (shelfmark.structural_metadata_available === "internal") {
       properties.add("internal_structural_metadata_available");
     }
+  }
+  if (
+    shelfmarks.length > 0 &&
+    shelfmarks.every((shelfmark) => !shelfmark.copyright?.trim())
+  ) {
+    properties.add("copyright_status_unknown");
   }
   return Array.from(properties);
 };

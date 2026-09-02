@@ -122,36 +122,41 @@ func (e *Edition) SearchEditions(query search.Query, offset, limit int) (*model.
 }
 
 func editionHasAnyShelfmarkProperty(edition *model.Edition, allowed []string) bool {
-	for _, shelfmark := range edition.Shelfmarks {
-		for _, property := range allowed {
-			switch property {
-			case shelfmarkAvailable:
-				if strings.TrimSpace(shelfmark.Shelfmark) != "" {
-					return true
-				}
-			case facsimileAvailable:
-				if strings.TrimSpace(shelfmark.Scan) != "" {
-					return true
-				}
-			case copyrightStatusUnknown:
-				if strings.TrimSpace(shelfmark.Copyright) == "" {
-					return true
-				}
-			case externalTranscriptionAvailable:
-				if shelfmark.TranscriptionAvailable == model.EditionShelfmarkTranscriptionExternal {
-					return true
-				}
-			case internalTranscriptionAvailable:
-				if shelfmark.TranscriptionAvailable == model.EditionShelfmarkTranscriptionInternal {
-					return true
-				}
-			case externalStructuralMetadata:
-				if shelfmark.StructuralMetadataAvailable == model.EditionShelfmarkStructuralMetadataAvailabilityExternal {
-					return true
-				}
-			case internalStructuralMetadata:
-				if shelfmark.StructuralMetadataAvailable == model.EditionShelfmarkStructuralMetadataAvailabilityInternal {
-					return true
+	for _, property := range allowed {
+		switch property {
+		case copyrightStatusUnknown:
+			if len(edition.Shelfmarks) > 0 && lo.EveryBy(edition.Shelfmarks, func(shelfmark model.EditionShelfmark) bool {
+				return strings.TrimSpace(shelfmark.Copyright) == ""
+			}) {
+				return true
+			}
+		default:
+			for _, shelfmark := range edition.Shelfmarks {
+				switch property {
+				case shelfmarkAvailable:
+					if strings.TrimSpace(shelfmark.Shelfmark) != "" {
+						return true
+					}
+				case facsimileAvailable:
+					if strings.TrimSpace(shelfmark.Scan) != "" {
+						return true
+					}
+				case externalTranscriptionAvailable:
+					if shelfmark.TranscriptionAvailable == model.EditionShelfmarkTranscriptionExternal {
+						return true
+					}
+				case internalTranscriptionAvailable:
+					if shelfmark.TranscriptionAvailable == model.EditionShelfmarkTranscriptionInternal {
+						return true
+					}
+				case externalStructuralMetadata:
+					if shelfmark.StructuralMetadataAvailable == model.EditionShelfmarkStructuralMetadataAvailabilityExternal {
+						return true
+					}
+				case internalStructuralMetadata:
+					if shelfmark.StructuralMetadataAvailable == model.EditionShelfmarkStructuralMetadataAvailabilityInternal {
+						return true
+					}
 				}
 			}
 		}
