@@ -6,26 +6,30 @@ import (
 )
 
 const (
-	ProviderOpenAI = "openai"
-	ProviderOllama = "ollama"
+	ProviderClaudeCode = "claude-code"
+	ProviderOpenAI     = "openai"
+	ProviderOllama     = "ollama"
 )
 
 var providerConcurrencyLimits = map[string]int{
-	ProviderOpenAI: 8,
-	ProviderOllama: 1,
+	ProviderClaudeCode: 4,
+	ProviderOpenAI:     8,
+	ProviderOllama:     1,
 }
 
 type Client struct {
-	openAI   *OpenAIClient
-	ollama   *OllamaClient
-	limiters map[string]chan struct{}
+	claudeCode AIProviderClient
+	openAI     AIProviderClient
+	ollama     AIProviderClient
+	limiters   map[string]chan struct{}
 }
 
 func NewClient(openAIKey string, ollamaBaseURL, ollamaAuthToken string) *Client {
 	return &Client{
-		openAI:   NewOpenAIClient(openAIKey),
-		ollama:   NewOllamaClient(ollamaBaseURL, ollamaAuthToken),
-		limiters: makeProviderLimiters(providerConcurrencyLimits),
+		claudeCode: NewClaudeCodeClient(""),
+		openAI:     NewOpenAIClient(openAIKey),
+		ollama:     NewOllamaClient(ollamaBaseURL, ollamaAuthToken),
+		limiters:   makeProviderLimiters(providerConcurrencyLimits),
 	}
 }
 
@@ -37,6 +41,8 @@ func (c *Client) ExecWithLogLabel(provider string, model string, prompt string, 
 	normalizedProvider := strings.ToLower(strings.TrimSpace(provider))
 	var clt AIProviderClient
 	switch normalizedProvider {
+	case ProviderClaudeCode:
+		clt = c.claudeCode
 	case ProviderOpenAI:
 		clt = c.openAI
 	case ProviderOllama:

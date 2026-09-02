@@ -70,7 +70,7 @@ func (c *OllamaClient) ExecWithLogLabel(model, prompt, attachmentPath string, lo
 	payload := OllamaGenerateRequest{
 		Model:  model,
 		Prompt: prompt,
-		Stream: false,
+		Stream: true,
 		Images: images,
 	}
 	body, err := json.Marshal(payload)
@@ -95,7 +95,7 @@ func (c *OllamaClient) ExecWithLogLabel(model, prompt, attachmentPath string, lo
 			return fmt.Errorf("llm exec: create ollama request: %w", err)
 		}
 		req.Header.Set("Content-Type", "application/json")
-		req.Header.Set("Accept", "application/json")
+		req.Header.Set("Accept", "application/x-ndjson")
 		if c.authToken != "" {
 			req.Header.Set("Authorization", "Bearer "+c.authToken)
 		}
@@ -106,21 +106,19 @@ func (c *OllamaClient) ExecWithLogLabel(model, prompt, attachmentPath string, lo
 		}
 		defer resp.Body.Close()
 
-		respBody, err := io.ReadAll(resp.Body)
-		if err != nil {
-			return fmt.Errorf("llm exec: read ollama response: %w", err)
-		}
 		if resp.StatusCode < http.StatusOK || resp.StatusCode >= http.StatusMultipleChoices {
-			return phttp.NewHTTPStatusError(resp.StatusCode, resp, fmt.Sprintf("llm exec: ollama generate api returned %d: %s", resp.StatusCode, truncateForError(respBody)))
+			respBody, err := io.ReadAll(resp.Body)
+			if err != nil {
+				return fmt.Errorf("llm exec: read ollama error response: %w", err)
+			}
+			return phttp.NewHTTPStatusError(resp.StatusCode, resp, fmt.Sprintf("llm exec: ollama generate api returned %d: %s", resp.StatusCode, errorBody(respBody)))
 		}
 
-		if err := json.Unmarshal(respBody, &out); err != nil {
-			return fmt.Errorf("llm exec: decode ollama response: %w", err)
+		streamed, err := decodeOllamaGenerateStream(resp.Body)
+		if err != nil {
+			return err
 		}
-		if strings.TrimSpace(out.Error) != "" {
-			log.Printf("debug:%s llm exec end provider=ollama model=%s duration=%s error=true", logPrefix, model, time.Since(startedAt))
-			return fmt.Errorf("llm exec: ollama generate api error after %s: %s", time.Since(startedAt), out.Error)
-		}
+		out = streamed
 		return nil
 	})
 	if err != nil {
@@ -129,6 +127,40 @@ func (c *OllamaClient) ExecWithLogLabel(model, prompt, attachmentPath string, lo
 	}
 	log.Printf("debug:%s llm exec end provider=ollama model=%s duration=%s attempts=%d done=%t", logPrefix, model, time.Since(startedAt), attempts, out.Done)
 	return out.Response, nil
+}
+
+func decodeOllamaGenerateStream(r io.Reader) (OllamaGenerateResponse, error) {
+	decoder := json.NewDecoder(r)
+	var response strings.Builder
+	var final OllamaGenerateResponse
+	chunks := 0
+
+	for {
+		var chunk OllamaGenerateResponse
+		if err := decoder.Decode(&chunk); err == io.EOF {
+			break
+		} else if err != nil {
+			return OllamaGenerateResponse{}, fmt.Errorf("llm exec: decode ollama stream chunk: %w", err)
+		}
+		chunks++
+		if strings.TrimSpace(chunk.Error) != "" {
+			return OllamaGenerateResponse{}, fmt.Errorf("llm exec: ollama generate api error: %s", chunk.Error)
+		}
+		response.WriteString(chunk.Response)
+		if chunk.Done {
+			final = chunk
+			break
+		}
+	}
+
+	if chunks == 0 {
+		return OllamaGenerateResponse{}, fmt.Errorf("llm exec: ollama generate stream was empty")
+	}
+	if !final.Done {
+		return OllamaGenerateResponse{}, fmt.Errorf("llm exec: ollama generate stream ended before completion")
+	}
+	final.Response = response.String()
+	return final, nil
 }
 
 func ollamaEndpoint(baseURL string, apiPath string) (string, error) {
@@ -162,13 +194,4 @@ func buildOllamaImagesPayload(attachmentPath string) ([]string, error) {
 		return nil, fmt.Errorf("llm exec: ollama attachments must be images, got %s", mimeType)
 	}
 	return []string{base64.StdEncoding.EncodeToString(fileData)}, nil
-}
-
-func truncateForError(body []byte) string {
-	const maxLen = 512
-	text := strings.TrimSpace(string(body))
-	if len(text) <= maxLen {
-		return text
-	}
-	return text[:maxLen] + "..."
 }

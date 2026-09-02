@@ -6,6 +6,7 @@ import (
 	"math/rand/v2"
 	"os"
 	"path/filepath"
+	"strings"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
@@ -17,22 +18,37 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/krakenwrapper"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/roboflow"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/transcriptioncorrector"
 	"github.com/samber/lo"
 )
 
 type AnnotationRuleApplier struct {
-	modelSvc        *Model
-	remoteDetectSvc *AnnotationDetectionRemote
-	fileSysMgt      *filesys.Manager
-	roboflowAPIKey  string
+	modelSvc         *Model
+	remoteDetectSvc  *AnnotationDetectionRemote
+	fileSysMgt       *filesys.Manager
+	roboflowAPIKey   string
+	annotationStore  annotationRuleAnnotationStore
+	datasetStore     annotationRuleDatasetStore
+	transcriptionLLM transcriptioncorrector.Executor
 }
 
-func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *filesys.Manager, roboflowAPIKey string, remoteDetect *AnnotationDetectionRemote) *AnnotationRuleApplier {
+type annotationRuleAnnotationStore interface {
+	GetAnnotation(datasetID, id string) (*annotation.Annotation, error)
+}
+
+type annotationRuleDatasetStore interface {
+	GetDataset(id string) (*model.Dataset, error)
+}
+
+func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *filesys.Manager, roboflowAPIKey string, remoteDetect *AnnotationDetectionRemote, annotationStore annotationRuleAnnotationStore, datasetStore annotationRuleDatasetStore, transcriptionLLM transcriptioncorrector.Executor) *AnnotationRuleApplier {
 	return &AnnotationRuleApplier{
-		modelSvc:        modelSvc,
-		remoteDetectSvc: remoteDetect,
-		fileSysMgt:      fileSysMgt,
-		roboflowAPIKey:  roboflowAPIKey,
+		modelSvc:         modelSvc,
+		remoteDetectSvc:  remoteDetect,
+		fileSysMgt:       fileSysMgt,
+		roboflowAPIKey:   roboflowAPIKey,
+		annotationStore:  annotationStore,
+		datasetStore:     datasetStore,
+		transcriptionLLM: transcriptionLLM,
 	}
 }
 
@@ -70,6 +86,10 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 }
 
 func (a *AnnotationRuleApplier) applyRule(imgPath string, ann *annotation.Annotation, rule annotationrule.AnnotationRule, onSubmitted func(string)) (*annotation.Annotation, error) {
+	if t, ok := rule.(*annotationrule.LLMTranscriptionCorrector); ok {
+		return a.applyLLMTranscriptionCorrector(imgPath, ann, t)
+	}
+
 	// delete YOLO dir if exists, as it will be invalid after ALTO modification
 	if err := os.RemoveAll(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
 		return nil, fmt.Errorf("failed to remove YOLO dir after ALTO modification: %w", err)
@@ -127,6 +147,90 @@ func (a *AnnotationRuleApplier) applyRule(imgPath string, ann *annotation.Annota
 		}
 	}
 
+	return ann, nil
+}
+
+func (a *AnnotationRuleApplier) applyLLMTranscriptionCorrector(imgPath string, ann *annotation.Annotation, rule *annotationrule.LLMTranscriptionCorrector) (*annotation.Annotation, error) {
+	if !ann.Ocred {
+		return nil, fmt.Errorf("LLM transcription corrector is only applicable to OCR-ed annotations; annotation %s is not OCR-ed", ann.ID)
+	}
+	if strings.TrimSpace(rule.Provider) == "" {
+		return nil, fmt.Errorf("LLM transcription corrector provider is required")
+	}
+	if strings.TrimSpace(rule.Model) == "" {
+		return nil, fmt.Errorf("LLM transcription corrector model is required")
+	}
+	if a.transcriptionLLM == nil {
+		return nil, fmt.Errorf("LLM transcription corrector client is not configured")
+	}
+
+	altoDirs := []string{a.fileSysMgt.DatasetAnnotationAltoDir(ann)}
+	seen := map[string]struct{}{ann.ID: {}}
+	if len(rule.AdditionalAnnotations) > 0 && a.annotationStore == nil {
+		return nil, fmt.Errorf("annotation store is not configured for additional_annotations")
+	}
+	for _, additionalID := range rule.AdditionalAnnotations {
+		additionalID = strings.TrimSpace(additionalID)
+		if additionalID == "" {
+			continue
+		}
+		if _, exists := seen[additionalID]; exists {
+			return nil, fmt.Errorf("additional annotation %s is duplicated or is the target annotation", additionalID)
+		}
+		seen[additionalID] = struct{}{}
+		additional, err := a.annotationStore.GetAnnotation(ann.DatasetID, additionalID)
+		if err != nil {
+			return nil, fmt.Errorf("get additional annotation %s: %w", additionalID, err)
+		}
+		if additional == nil {
+			return nil, fmt.Errorf("additional annotation %s was not found in dataset %s", additionalID, ann.DatasetID)
+		}
+		if !additional.Ocred {
+			return nil, fmt.Errorf("additional annotation %s is not OCR-ed", additionalID)
+		}
+		altoDirs = append(altoDirs, a.fileSysMgt.DatasetAnnotationAltoDir(additional))
+	}
+
+	var transcriptionDirs []string
+	if rule.IncludeEditionTranscription {
+		if a.datasetStore == nil {
+			return nil, fmt.Errorf("dataset store is not configured for include_edition_transcription")
+		}
+		dataset, err := a.datasetStore.GetDataset(ann.DatasetID)
+		if err != nil {
+			return nil, fmt.Errorf("get dataset %s for edition transcription: %w", ann.DatasetID, err)
+		}
+		if dataset == nil {
+			return nil, fmt.Errorf("dataset %s not found", ann.DatasetID)
+		}
+		if strings.TrimSpace(dataset.EditionID) == "" {
+			return nil, fmt.Errorf("dataset %s has no edition for include_edition_transcription", ann.DatasetID)
+		}
+		transcriptionDirs = append(transcriptionDirs, a.fileSysMgt.EditionTxtTranscriptionDir(dataset.EditionID))
+	}
+
+	pageNumbers, err := pagesparser.IntRange(ann.Pages)
+	if err != nil {
+		return nil, fmt.Errorf("parse pages for annotation %s: %w", ann.ID, err)
+	}
+	pageKeys := make([]string, 0, len(pageNumbers))
+	for _, pageNumber := range pageNumbers {
+		pageKeys = append(pageKeys, pagesparser.PageToFilename(pageNumber, ""))
+	}
+
+	cfg := transcriptioncorrector.Config{
+		ALTODirs:          altoDirs,
+		TranscriptionDirs: transcriptionDirs,
+		PageKeys:          pageKeys,
+		ImagesDir:         imgPath,
+		OutputDir:         a.fileSysMgt.AnnotationTxtTranscriptionDir(ann),
+		Rounds:            transcriptioncorrector.DefaultRounds,
+		Provider:          strings.TrimSpace(rule.Provider),
+		Model:             strings.TrimSpace(rule.Model),
+	}
+	if err := transcriptioncorrector.Run(cfg, a.transcriptionLLM); err != nil {
+		return nil, fmt.Errorf("run LLM transcription corrector for annotation %s: %w", ann.ID, err)
+	}
 	return ann, nil
 }
 

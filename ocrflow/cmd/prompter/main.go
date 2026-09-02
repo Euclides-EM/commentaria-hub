@@ -17,8 +17,9 @@ import (
 )
 
 var allowedModelsByProvider = map[string][]string{
-	string(feature.AIProviderOpenAI): {"gpt-5-mini"},
-	string(feature.AIProviderOllama): {"gpt-oss:120b"},
+	string(feature.AIProviderClaudeCode): {"fable"},
+	string(feature.AIProviderOpenAI):     {"gpt-5-mini"},
+	string(feature.AIProviderOllama):     {"gpt-oss:120b"},
 }
 
 type cliConfig struct {
@@ -219,7 +220,7 @@ func fillMissingInputs(reader *bufio.Reader, ocrApp *app.OCRFlowApp, cfg *cliCon
 	}
 
 	if cfg.aiProvider == "" {
-		cfg.aiProvider, err = promptChoice(reader, "AI provider (openai/ollama)", []string{string(feature.AIProviderOllama), string(feature.AIProviderOpenAI)})
+		cfg.aiProvider, err = promptChoice(reader, "AI provider (claude-code/openai/ollama)", []string{string(feature.AIProviderClaudeCode), string(feature.AIProviderOllama), string(feature.AIProviderOpenAI)})
 		if err != nil {
 			return err
 		}

@@ -344,6 +344,30 @@ func (h *Handlers) ApplyRuleTextBlockCorrections(r *http.Request) (any, error) {
 	return h.applyRuleGeneric(r, &rule)
 }
 
+// ApplyRuleLLMTranscriptionCorrector godoc
+// @Summary      Apply LLM Transcription Corrector Rule to Annotation
+// @Description  Correct an OCR-ed annotation using its page images, its OCR ALTO, optional OCR-ed annotations, and optional edition transcriptions.
+// @Tags         Annotations Apply Rules
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
+// @Param        annotationRule  body  annotationrule.LLMTranscriptionCorrector  true  "LLM transcription corrector rule"
+// @Security     BearerAuth
+// @Produce      json
+// @Success      200  {object}   annotation.Annotation
+// @Success      202  {object}   job.Job
+// @Router       /datasets/{dataSetId}/annotations/{id}/apply/llm_transcription_corrector [put]
+func (h *Handlers) ApplyRuleLLMTranscriptionCorrector(r *http.Request) (any, error) {
+	var rule annotationrule.LLMTranscriptionCorrector
+	if err := DecodeBody(r, &rule); err != nil {
+		return nil, err
+	}
+	rule.Type = rule.GetType()
+	annotationrule.HydrateMetadata(&rule)
+	return h.applyRuleGeneric(r, &rule)
+}
+
 func (h *Handlers) applyRuleGeneric(r *http.Request, rule annotationrule.AnnotationRule) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
 	if err != nil {

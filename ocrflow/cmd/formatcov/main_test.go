@@ -7,8 +7,23 @@ import (
 	"image/jpeg"
 	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 )
+
+func TestRunRequiresExplicitConversionFormats(t *testing.T) {
+	err := run(Config{InputPath: "input", OutputPath: "output", DPI: 300})
+	if err == nil || !strings.Contains(err.Error(), "missing -from") {
+		t.Fatalf("run() error = %v, want missing -from", err)
+	}
+}
+
+func TestRunRejectsUnsupportedConversion(t *testing.T) {
+	err := run(Config{From: "alto", To: "pdf", InputPath: "input", OutputPath: "output", DPI: 300})
+	if err == nil || !strings.Contains(err.Error(), "unsupported conversion") {
+		t.Fatalf("run() error = %v, want unsupported conversion", err)
+	}
+}
 
 func TestImageDirToPDFSupportsJPG(t *testing.T) {
 	dir := t.TempDir()

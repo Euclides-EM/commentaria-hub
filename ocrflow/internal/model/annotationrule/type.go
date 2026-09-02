@@ -16,6 +16,7 @@ const (
 	TypeLimitCategoryZones           Type = "limit_category_zones"
 	TypeReassignTextLinesByTolerance Type = "reassign_text_lines_by_tolerance"
 	TypeTextBlocksCorrections        Type = "text_blocks_corrections"
+	TypeLLMTranscriptionCorrector    Type = "llm_transcription_corrector"
 )
 
 var ruleFactories = map[Type]func() AnnotationRule{
@@ -32,6 +33,7 @@ var ruleFactories = map[Type]func() AnnotationRule{
 	TypeLimitCategoryZones:           func() AnnotationRule { return NewLimitCategoryZones("", 0, KeepPositionTop) },
 	TypeReassignTextLinesByTolerance: func() AnnotationRule { return NewReassignTextLinesByTolerance("", "", 0.0, 0.0) },
 	TypeTextBlocksCorrections:        func() AnnotationRule { return NewTextBlockCorrections(nil) },
+	TypeLLMTranscriptionCorrector:    func() AnnotationRule { return NewLLMTranscriptionCorrector("", "", nil, false) },
 }
 
 var applicableStagesByType = map[Type][]PipelineStage{
@@ -48,6 +50,7 @@ var applicableStagesByType = map[Type][]PipelineStage{
 	TypeLimitCategoryZones:           {PipelineStageZoneSegmentation},
 	TypeReassignTextLinesByTolerance: {PipelineStageTextLineSegmentation},
 	TypeTextBlocksCorrections:        {PipelineStageOCR},
+	TypeLLMTranscriptionCorrector:    {PipelineStageOCR},
 }
 
 var minEnsuredStageByType = map[Type]PipelineStage{
@@ -64,6 +67,7 @@ var minEnsuredStageByType = map[Type]PipelineStage{
 	TypeLimitCategoryZones:           PipelineStageZoneSegmentation,
 	TypeReassignTextLinesByTolerance: PipelineStageTextLineSegmentation,
 	TypeTextBlocksCorrections:        PipelineStageOCR,
+	TypeLLMTranscriptionCorrector:    PipelineStageOCR,
 }
 
 func ZeroFromType(t Type) AnnotationRule {
@@ -87,9 +91,11 @@ var AllAnnotationRuleTypes = []Type{
 	TypeLimitCategoryZones,
 	TypeReassignTextLinesByTolerance,
 	TypeTextBlocksCorrections,
+	TypeLLMTranscriptionCorrector,
 }
 
 var PreferAsyncTypes = []Type{
 	TypeModelDetect,
 	TypeLinesDetect,
+	TypeLLMTranscriptionCorrector,
 }

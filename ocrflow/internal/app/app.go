@@ -103,7 +103,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	}
 	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
 	annotationDetectionRemoteSvc := service.NewAnnotationDetectionRemote(fileSystemManager, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc)
-	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey, annotationDetectionRemoteSvc)
+	llmClient := llm.NewClient(env.OpenAIAPIKey, env.OllamaBaseURL, env.OllamaAuthToken)
+	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey, annotationDetectionRemoteSvc, annotationStore, datasetStore, llmClient)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore, featureResultStore)
 	shelfmarkSvc := service.NewShelfmarkService(editionStore)
 	reprintSvc := service.NewReprintService(editionSvc)
@@ -152,7 +153,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc)
 	langResolver := service.NewLanguagesResolver(editionSvc, datasetSvc)
 
-	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, editionSvc, langResolver, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey, env.OllamaBaseURL, env.OllamaAuthToken))
+	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, editionSvc, langResolver, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llmClient)
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,

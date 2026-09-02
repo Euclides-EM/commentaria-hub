@@ -58,7 +58,7 @@ func (fr *Revision) validate(m *feature.Revision) error {
 		return errors.New("ai_provider is required")
 	}
 	switch m.AIProvider {
-	case feature.AIProviderOpenAI, feature.AIProviderOllama:
+	case feature.AIProviderClaudeCode, feature.AIProviderOpenAI, feature.AIProviderOllama:
 	default:
 		return fmt.Errorf("ai_provider %q is not supported", m.AIProvider)
 	}

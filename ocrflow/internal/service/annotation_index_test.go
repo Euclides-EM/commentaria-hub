@@ -11,6 +11,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"
 )
@@ -128,7 +129,7 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 		Meta:      common.Meta{ID: "ann_priority", Name: "Priority"},
 		DatasetID: "ds_priority",
 		Pages:     "1",
-		Segmented: false,
+		Segmented: true,
 		Ocred:     true,
 	}
 	require.NoError(t, annotationStore.InsertAnnotation(ann))
@@ -139,6 +140,14 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	}
 	writeMarkdownPage(filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "transcriptions"), "# Annotation wins\n")
 	writeMarkdownPage(filepath.Join(baseDir, "transcriptions", "edition_priority"), "# Edition loses\n")
+	annotationAltoDir := filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "alto")
+	require.NoError(t, os.MkdirAll(annotationAltoDir, 0o755))
+	require.NoError(t, alto.SaveToFile(&alto.Alto{
+		Tags: alto.Tags{OtherTags: []alto.OtherTag{{ID: "book", Label: "MainZone-Head--Book"}}},
+		Layout: alto.Layout{Page: []alto.Page{{PrintSpace: alto.PrintSpace{TextBlocks: []alto.TextBlock{{
+			TagRefs: "book", Lines: []alto.TextLine{{Strings: []alto.String{{Content: "ALTO loses"}}}},
+		}}}}}},
+	}, filepath.Join(annotationAltoDir, "page-0001.xml")))
 
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, "", 1, 0)
 	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
@@ -148,4 +157,9 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	require.Len(t, index.Nodes, 1)
 	require.Equal(t, "Annotation wins", index.Nodes[0].Content)
 	require.Equal(t, "header1", index.Nodes[0].Category)
+
+	annotationTEI := &AnnotationTEI{annotationSvc: annotationSvc, fileSysMgt: fileSysMgt}
+	text, err := annotationTEI.GetTxt("ds_priority", "ann_priority", "1", nil)
+	require.NoError(t, err)
+	require.Equal(t, "# Annotation wins\n", text)
 }

@@ -516,6 +516,17 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 		}
 	}
 
+	// An annotation-level Markdown transcription is an explicit override of the
+	// annotation's original ALTO and must be indexed first.
+	categories, allLocs, annMdErr := a.getIndexFromAnnotationMarkdown(pages, ann, categories)
+	if annMdErr == nil {
+		return &annotation.Index{
+			DatasetID:    datasetID,
+			AnnotationID: id,
+			Nodes:        buildNodes(categories, allLocs),
+		}, nil
+	}
+
 	var annAltoErr error
 	if ann.Segmented {
 		categories, allLocs, err := a.getIndexFromAnnotationAlto(pages, ann, categories)
@@ -529,15 +540,6 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 		annAltoErr = err
 	} else {
 		annAltoErr = fmt.Errorf("annotation %s is not segmented", ann.ID)
-	}
-
-	categories, allLocs, annMdErr := a.getIndexFromAnnotationMarkdown(pages, ann, categories)
-	if annMdErr == nil {
-		return &annotation.Index{
-			DatasetID:    datasetID,
-			AnnotationID: id,
-			Nodes:        buildNodes(categories, allLocs),
-		}, nil
 	}
 
 	ds, err := a.datasetSvc.Get(datasetID)

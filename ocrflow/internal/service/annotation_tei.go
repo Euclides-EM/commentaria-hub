@@ -99,16 +99,15 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 		return "", fmt.Errorf("annotation %s is not OCRed", ann.ID)
 	}
 
-	// 1) Try ALTO page first
-	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
-		return alto.ExtractTextContentsFromAlto(a), nil
-	}
+	// Annotation-level transcriptions override the annotation's original ALTO.
 	if a, _, err := t.fileSysMgt.RetrieveAnnotationTranscriptionAltoPage(ann, pageNumOrKey); err == nil {
 		return alto.ExtractTextContentsFromAlto(a), nil
 	}
-
 	if md, err := t.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, pageNumOrKey); err == nil {
 		return md.Content, nil
+	}
+	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
+		return alto.ExtractTextContentsFromAlto(a), nil
 	}
 
 	// 2) TXT fallback: transcription
@@ -136,25 +135,21 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		return nil, fmt.Errorf("failed to list features for annotation %s: %v", ann.ID, err)
 	}
 
-	// Try ALTO page created in the platform
-	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
-		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
-		// todo: support items in alto
-		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
-	}
-
-	// Fallbacks: preloaded files from the transcription page
-	// Between file formats, ALTO format is preferred over Markdown, which is preferred over TXT.
-
-	// ALTO
+	// Annotation-level transcriptions override the annotation's original ALTO.
+	// Within the transcription directory, ALTO is preferred over Markdown.
 	if a, _, err := t.fileSysMgt.RetrieveAnnotationTranscriptionAltoPage(ann, pageNumOrKey); err == nil {
 		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
 		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
 	}
-
-	// Markdown
 	if md, err := t.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, pageNumOrKey); err == nil {
 		return tei2.BuildTEIFromMarkdown(pageNumOrKey, md, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
+	}
+
+	// Fall back to the ALTO page created in the platform.
+	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
+		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
+		// todo: support items in alto
+		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
 	}
 
 	// Text
