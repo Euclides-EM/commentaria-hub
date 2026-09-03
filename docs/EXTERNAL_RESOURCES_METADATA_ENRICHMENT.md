@@ -7,6 +7,7 @@ This guide lists external catalogues, repositories and authority databases that 
 - [Google Books](https://books.google.com/) — Digitized books from libraries and publishers worldwide. Full-text availability varies by edition, date and location.
 - [BnF Catalogue](https://catalogue.bnf.fr/rechercher.do) and [Gallica](https://gallica.bnf.fr/) (France) — Search the Bibliothèque nationale de France catalogue for bibliographic records and Gallica for digitized materials.
 - [MDZ](https://www.digitale-sammlungen.de/en) (Germany) — The Munich Digitization Center provides digitized holdings from the Bavarian State Library and partner institutions.
+- [SLUB Digital Collections](https://digital.slub-dresden.de/kollektionen) (Germany) — Digitized collections from the Saxon State and University Library Dresden.
 - [KB Catalogue](https://webggc.oclc.org/cbs/DB=2.37/SET=2/TTL=1/) (Netherlands) — Catalogue of the National Library of the Netherlands. Records may link to digitized copies.
 - [UCM Library](https://biblioteca.ucm.es/) (Madrid) — The Complutense University of Madrid library catalogue and digital collections.
 - [HathiTrust Digital Library](https://www.hathitrust.org/) — Digitized books and journals contributed by research libraries. Access to full text depends on copyright status and location.
