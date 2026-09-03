@@ -30,6 +30,7 @@ import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
 import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts'
 import { EditionDetailsTable } from '../../core/EditionDetailsTable.tsx'
+import { ShelfmarkDetailsTable } from '../../core/ShelfmarkDetailsTable.tsx'
 import {
   hasAnnotationPages,
   TITLE_PAGES_DATASET_ID,
@@ -395,6 +396,15 @@ const AnnotationDetailsContent = ({
             </div>
             <div className="text-sm leading-tight break-all">
               <EditionDetailsTable editionId={editionId} />
+            </div>
+            <div className="font-semibold text-xs opacity-80 pt-0.5">
+              Shelfmark
+            </div>
+            <div className="text-sm leading-tight break-all">
+              <ShelfmarkDetailsTable
+                editionId={editionId}
+                facsimileId={datasetForAnnotation?.facsimile_id}
+              />
             </div>
           </>
         )}

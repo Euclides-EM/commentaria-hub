@@ -49,7 +49,13 @@ type transcriptionLLM struct {
 
 func (l *transcriptionLLM) ExecPromptResultWithLogLabel(_, _ string, prompt llm.Prompt, attachmentPath, logLabel string) (llm.Result, error) {
 	l.calls = append(l.calls, transcriptionLLMCall{prompt: prompt, image: attachmentPath, label: logLabel})
-	return llm.Result{Text: fmt.Sprintf("corrected round %d", len(l.calls))}, nil
+	cost := 0.01
+	return llm.Result{
+		Text: fmt.Sprintf("corrected round %d", len(l.calls)),
+		Usage: llm.Usage{
+			InputTokens: 10, OutputTokens: 2, TotalTokens: 12, CostUSD: &cost,
+		},
+	}, nil
 }
 
 func TestApplyLLMTranscriptionCorrectorUsesAnnotationAndEditionInputs(t *testing.T) {
@@ -97,6 +103,12 @@ func TestApplyLLMTranscriptionCorrectorUsesAnnotationAndEditionInputs(t *testing
 	final, err := os.ReadFile(filepath.Join(manager.AnnotationTxtTranscriptionDir(target), "page-0001", "original.md"))
 	require.NoError(t, err)
 	require.Equal(t, "corrected round 3\n", string(final))
+	require.NotNil(t, rule.Usage)
+	require.EqualValues(t, 30, rule.Usage.InputTokens)
+	require.EqualValues(t, 6, rule.Usage.OutputTokens)
+	require.EqualValues(t, 36, rule.Usage.TotalTokens)
+	require.NotNil(t, rule.Usage.CostUSD)
+	require.InDelta(t, 0.03, *rule.Usage.CostUSD, 0.0000001)
 }
 
 func TestApplyLLMTranscriptionCorrectorRejectsNonOCRAnnotation(t *testing.T) {

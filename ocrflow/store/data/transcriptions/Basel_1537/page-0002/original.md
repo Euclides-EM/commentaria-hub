@@ -6,7 +6,7 @@ His adiecta sunt Phænomena, Catoptrica & Optica, deinde Protheoria Marini & Dat
 
 Postremùm uero, Opusculum de Leui & Ponderoso, hactenus non uisum, eiusdem autoris.
 
-*[Printer's device of Johannes Hervagius: three-headed herm on a pedestal]*
+[Illustration: three-headed herm on a pedestal]
 
 BASILEAE APVD IOHANNEM HERVAGIVM, MENSE AVGVSTO. ANNO M. D. XXXVII.
 

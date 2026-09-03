@@ -1,14 +1,16 @@
-<!-- Folio: 338 -->
+<!-- Page number: 338 -->
 
-<!-- # GEO. ELEMEN. EVCLIDIS -->
+<!-- Running title: GEO. ELEMEN. EVCLIDIS -->
 
-THEON ex Zāb. Esto apotome α β. Dico quod α β non est eadem ei quæ ex binis nominibus, Si enim possibile esto, exponatur rationalis δ γ. Et ei quod ex α β, (per 45 primi,) æquū ad ipsam γ δ. cōparetur rectangulū γ ε. latitudinē efficiēs δ ε. Quoniā igitur apotome est α β, apotome igitur est (per 93 decimi) prima ipsa δ ε. Esto ei (per 79 decimi) congruēs ε ζ, ipsæ igitur δ ζ, ζ ε, ratiōales sunt potētia tantū cōmensurabiles. & δ ζ, ipsa ζ ε maius potest eo quod ex sibi incommensurabili *[sic: for commensurabili]*, & δ ζ, commensurabilis est ipsi δ γ expositæ rationali longitudine. Rursus quoniā ex binis nominibus est α β, ex binis igitur nominibus est prima (per 60 decimi) ipsa δ ε. Diuidatur (per 42 decimi) in nomina in η, sitq́; maius nomē δ η, ipsæ igitur δ η, & η ε, rationales sunt potentia tantum commensurabiles, & δ η, ipsa η ε maius potest eo quod ex sibi commensurabili, & δ η, commensurabilis est longitudine ipsi δ γ expositæ ratiōali, & δ ζ igitur ipsi δ η lōgitudine est commensurabilis, & reliquæ igitur η ζ, (per 12 decimi) cōmensurabilis est longitudine ipsa δ ζ. Quoniā igitur δ ζ, ipsi η ζ, est commēsurabilis irratiōalis *[sic: for ratiōalis]* autem est δ ζ, rationalis igitur est & η ζ. Quoniam igitur commensurabilis est δ ζ ipsi η ζ, incōmensurabilis autem est δ θ *[sic: for δ ζ]*, ipsi ζ ε, incommensurabilis igitur est longitudine ζ η ipsi ζ ε. & sunt rationales. Ipsæ igitur η ζ, ζ ε, rationales sunt potentia tantum commensurabiles, Apotome igitur est (per 73 decimi) ε η, sed & rationalis, quod est impossibile. Igitur apotome non est eadem ei quæ ex binis nominibus. Quod erat ostendendum.
+THEON ex Zāb. Esto apotome α β. Dico quod α β non est eadem ei quæ ex binis nominibus, Si enim possibile esto, exponatur rationalis δ γ. Et ei quod ex α β, (per 45 primi,) æquū ad ipsam γ δ. cōparetur rectangulū γ ε. latitudinē efficiēs δ ε. Quoniā igitur apotome est α β, apotome igitur est (per 93 decimi) prima ipsa δ ε. Esto ei (per 79 decimi) congruēs ε ζ, ipsæ igitur δ ζ, ζ ε, ratiōales sunt potētia tantū cōmensurabiles. & δ ζ, ipsa ζ ε maius potest eo quod ex sibi incommensurabili{printer-error-correction:commensurabili}, & δ ζ, commensurabilis est ipsi δ γ expositæ rationali longitudine. Rursus quoniā ex binis nominibus est α β, ex binis igitur nominibus est prima (per 60 decimi) ipsa δ ε. Diuidatur (per 42 decimi) in nomina in η, sitq́; maius nomē δ η, ipsæ igitur δ η, & η ε, rationales sunt potentia tantum commensurabiles, & δ η, ipsa η ε maius potest eo quod ex sibi commensurabili, & δ η, commensurabilis est longitudine ipsi δ γ expositæ ratiōali, & δ ζ igitur ipsi δ η lōgitudine est commensurabilis, & reliquæ igitur η ζ, (per 12 decimi) cōmensurabilis est longitudine ipsa δ ζ. Quoniā igitur δ ζ, ipsi η ζ, est commēsurabilis irratiōalis{printer-error-correction:ratiōalis} autem est δ ζ, rationalis igitur est & η ζ. Quoniam igitur commensurabilis est δ ζ ipsi η ζ, incōmensurabilis autem est δ θ{printer-error-correction:δ ζ}, ipsi ζ ε, incommensurabilis igitur est longitudine ζ η ipsi ζ ε. & sunt rationales. Ipsæ igitur η ζ, ζ ε, rationales sunt potentia tantum commensurabiles, Apotome igitur est (per 73 decimi) ε η, sed & rationalis, quod est impossibile. Igitur apotome non est eadem ei quæ ex binis nominibus. Quod erat ostendendum.
 
-*[Figure: horizontal line with points α and β; below it a longer horizontal line with points δ, η, ε and, further to the right, ζ; beneath its left portion (from δ to ε) a square whose bottom left corner is γ]*
+[Diagram: horizontal line with points α and β; below it a longer horizontal line with points δ, η, ε and, further to the right, ζ; beneath its left portion (from δ to ε) a square whose bottom left corner is γ]
 
 ## Eucli.ex Camp. Propositio 107
 
-*[Margin: 107]*
+[Margin]
+107
+[/Margin]
 
 ## LInea quæ residuū dicitur, ullaue irrationaliū, quæ post eam sunt nequit esse sub termino binomij, aut sub termino & ordine ullius cæterarum linearum irrationalium quæ binomium subsequuntur. Cum autem possibile sit linearum irrationalium seriem in infinitum produci, non est possibile ullam earum cum ea quæ præcesserit in termino ordine conuenire.
 

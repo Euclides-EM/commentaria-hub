@@ -1,6 +1,6 @@
-<!-- # LIBER VNDECIMVS. -->
+<!-- Running title: LIBER VNDECIMVS. -->
 
-<!-- Folio: 349 -->
+<!-- Page number: 349 -->
 
 recta linea æqua fuerit reliquæ quæ circum rectum circumductæ, rectangulus erit conus. Si uero minor, amblygonius. Si autem maior, oxygonius.
 
@@ -12,11 +12,11 @@ recta linea æqua fuerit reliquæ quæ circum rectum circumductæ, rectangulus e
 
 ## Eucli. ex Camp. — Propositio 1
 
-1 *[Woodcut initial L]* Ineæ rectæ partem esse in plano & partem in sublimi, est impossibile.
+1 {dropcap:L|lines=?|style=decorated|decoration="woodcut"}Ineæ rectæ partem esse in plano & partem in sublimi, est impossibile.
 
 CAMPANVS. Sit linea a b recta. Dico q̃ non est possibile, ut pars eius sit in plano, & pars sursum eleuata. Si enim est possibile, sit pars eius quæ est a c sita in plano, & pars eius quæ est c b in sublimi posita, & protrahatur directe a c in plano in quo ipsa sita est, usque ad d, eritq̃ ut uni eidemq̃ lineæ quæ est linea a c, duæ lineæ penitus diuersæ quæ sunt lineæ c b & c d ex eadem parte directe adijciantur. Quod est impossibile ex 13 primi.
 
-*[Figure: parallelogram-shaped plane with line a c d lying in it and line c b rising above the plane at c]*
+[Diagram: parallelogram-shaped plane with line a c d lying in it and line c b rising above the plane at c]
 
 ## Eucli. ex Zamb. — Theorema 1 — Propositio 1
 
@@ -24,11 +24,11 @@ CAMPANVS. Sit linea a b recta. Dico q̃ non est possibile, ut pars eius sit in p
 
 THEON ex Zamberto. Si enim possibile, rectæ lineæ α β γ, pars quidem α β esto in plano, pars autem β γ esto in sublimi, erit iam quædam ipsi α β continua recta linea in rectum in supposito plano, sit β δ. Igitur binis datis rectis lineis α β γ, α β δ, commune segmentum est α β, quod est impossibile. Recta linea nanque cum recta linea non concurrit in pluribus signis uno, si adinuicem ipsæ rectæ lineæ congruentes non fuerint. Rectæ igitur lineæ partem in subiecto plano, partem autem in sublimi esse, est impossibile. Quod fuerat ostendendum.
 
-*[Figure: parallelogram-shaped plane with points α, β, δ; line rising from β above the plane to γ]*
+[Diagram: parallelogram-shaped plane with points α, β, δ; line rising from β above the plane to γ]
 
 ## Eucli. ex Camp. — Propositio 2
 
-2 *[Woodcut initial O with a face]* Mnes lineæ duæ quarum altera alteram secat, in una superficie sitæ sunt, omnisq̃ triangulus, in una superficie totus consistit.
+2 {dropcap:O|lines=?|style=decorated|decoration="a face"}Mnes lineæ duæ quarum altera alteram secat, in una superficie sitæ sunt, omnisq̃ triangulus, in una superficie totus consistit.
 
 CAMPANVS. Sint duæ lineæ rectæ a b & c d, se inuicẽ secantes in puncto c. Dico eas esse in superficie una, & omnem triangulũ dico esse in superficie una totum. Signetur enim punctus f, in linea c d, & punctus g, in linea
 

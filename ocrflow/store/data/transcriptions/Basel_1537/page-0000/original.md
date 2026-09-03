@@ -53,8 +53,8 @@
 - Original Latin orthography preserved exactly as printed: u/v and i/j as set, æ/œ ligatures, & for "et"; abbreviation marks rendered with combining marks (ā ē ī ō ū, q̃ for -que) where possible.
 - Words hyphenated across line breaks joined; paragraphs written as continuous flowing text.
 - Greek passages and Greek point-letters in Greek script. The italic Greek fount uses a "6"-shaped alternate beta, an ι-like epsilon and ξ-like zeta, and nearly identical η/κ sorts; letters were normalized by identity established from the diagrams.
-- Printer's errors retained as printed, the significant ones flagged with *[sic: …]*; misnumbered printed folios noted in editorial brackets.
-- Editorial notes in italic square brackets, in English: *[Blank page]*, *[Figure: …]*, <!-- Signature: … -->, <!-- Catchword: … -->, *[Margin: …]*, <!-- Folio: N -->, *[Stamp: …]*, *[Handwritten: …]*.
+- Printer's errors retained as printed; sufficiently certain and useful corrections use the adjacent `{printer-error-correction:CORRECTION}` syntax.
+- The transcription uses the canonical Markdown dialect for page furniture, paired textual zones, described page objects, drop capitals, unreadable text, and blank pages.
 - The "Digitized by Google" scan watermark was not transcribed.
 
 ## Known caveats

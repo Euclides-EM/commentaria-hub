@@ -1,6 +1,6 @@
-<!-- Folio: 386 -->
+<!-- Page number: 386 -->
 
-<!-- # GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
 o k & p l, q m & r n, sitq̃ harum duarum superficierum communis sectio linea s t. Dico igitur quod linea s t diuidit diametrum a b, & diuiditur ab eadem diametro per æqualia. Quod patet, utraq̃ enim earum transit per centrum cubi.
 
@@ -8,7 +8,9 @@ ALITER uero conuenit quod propositum est demonstrare. Producantur enim duæ line
 
 ## Eucli. ex Zamb. Theorema 34 Propositio 39
 
-*[Margin: 39]*
+[Margin]
+39
+[/Margin]
 
 Si solidi parallelepipedi eorū quæ ex opposito planorū latera bifariam secta fuerint, extēsaq̃ fuerint per sectiones plana, cōmunis ipsorū planorū sectio, & solidi parallelepipedi dimetiens bifariam se adinuicē dispescent.
 
@@ -16,6 +18,6 @@ ALITER. Si cubi eorum quæ ex opposito planorū latera, & reliqua quæ sequuntur
 
 THEON ex Zamb. Solidi, inquam, parallelepipedi α ζ, eorum quæ ex opposito planorū γ ζ, α θ, latera bifariā dispescantur per κ, λ, μ, ν, & ξ, π, ο, ρ, signis, & per sectiones protendantur plana κ ν, ξ ρ, cōmunis autem planorū ipsorum sectio esto υ σ, ipsius autem α β, solidi parallelepipedi diagonius esto δ η. Dico iam quod & ipsæ υ σ, δ η, sese inuicem dispescūt, hoc est quod υ τ ipsi τ σ est æqualis, & δ τ ipsi τ η. Cōnectantur enim δ υ, υ ε, β σ, σ η. Et quoniam δ ξ parallelus est ipsi ο ε, anguli alternatim positi (per 29 primi) qui sub δ ξ υ, υ ο ε, inuicem sunt æquales. Et quoniam æqualis est δ ξ ipsi ο ε, & ξ υ ipsi υ ο, & æquos angulos comprehendunt, basis igitur δ υ (per 4 primi) ipsi υ ε est æqualis, & triangulum δ ξ υ ipsi υ ο ε triāgulo est æquale, & reliqui anguli reliquis angulis. Igitur angulus qui sub ξ υ δ, æquus est ei qui sub ο υ ε angulo, ac per hoc recta linea est ipsa δ υ ε, & per eadem etiā β σ η recta linea est, est & æqualis β σ ipsi σ η. Et quoniā γ α ipsi δ β est æqualis & est parallela, sed γ α ipsi η ε est æqualis & parallela, & δ β igitur ipsi ε η est æqualis & parallela (per primam cōmunem sententiam) & ipsas connectunt rectæ lineæ δ ε, β η, parallelus igitur est (per 33 primi) δ ε, ipsi β η, & suscipiuntur in utrisq̃ contingentia signa, hoc est δ, υ, η, σ, cōnectanturq̃ δ η, υ σ. in uno igitur sunt plano (per 17 undecimi) ipsæ δ η, υ σ. Et quoniam parallela est δ ε ipsi β η, æqualis igitur est (per 29 primi) qui sub ε δ τ angulus ei qui sub β η τ angulo: uicissim enim & qui sub δ τ υ ei qui sub η τ σ. Bina iam triangula sunt, hoc est δ τ υ & η τ σ, duos angulos duobus angulis æquos habentia, & unum latus uni lateri æquum, quod subtendit autem æqualium angulorum, hoc est δ υ ipsi η σ, dimidiæ nanq̃ ipsarum δ ε, β η, & reliqua igitur latera reliquis lateribus æqualia habebunt. Aequalis igitur est δ τ ipsi τ η, & υ τ ipsi τ σ. Si solidi igitur parallelepipedi eorum quæ ex opposito planorum latera bifariam secta fuerint, extensaq̃ fuerint per sectiones plana, cōmunis ipsorum planorum sectio & solidi parallelepipedi demetiens bifariam se adinuicem dispescent. Quod erat ostendendum.
 
-*[Figure: a large parallelepiped with top corners δ, κ, ζ and bottom corners α, ν, η, θ at the right, β and ξ, π on the left face; interior midpoints γ, λ, μ, ο, ρ, ε and the points τ, υ, σ where the cutting planes and the diagonal cross, with diagonals drawn through the solid]*
+[Diagram: a large parallelepiped with top corners δ, κ, ζ and bottom corners α, ν, η, θ at the right, β and ξ, π on the left face; interior midpoints γ, λ, μ, ο, ρ, ε and the points τ, υ, σ where the cutting planes and the diagonal cross, with diagonals drawn through the solid]
 
 <!-- Catchword: Eucli. ex -->

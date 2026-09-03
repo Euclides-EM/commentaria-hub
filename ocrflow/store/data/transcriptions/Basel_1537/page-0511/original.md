@@ -1,21 +1,21 @@
-<!-- Folio: 500 -->
+<!-- Page number: 500 -->
 
-<!-- # EVCLIDIS MEGARENSIS -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
 Tempus autem in quo u signum ipsam u s circumferentiam perficit, id est in quo ipsa t u permutat apparens hemisphæriū. In pluri ergo tempore ipsa s x, permutat apparens hemisphæriū q̄ t u, & est ipsa s x, propior ipsi æstiuo tropico q̄ t u. In pluri ergo tēpore permutat apparens hemisphæriū, p̄pinquior æstiuo tropico, ea quæ longius distat.
 
 ### Alia traditio in 15 Theorema.
 
-*[Woodcut initial S]* Imiliter autē & in eo qui cū capricorno semicirculo æquales circūferētiæ inæqualibus tēporibus permutāt apparēs hemisphæriū, & in pluri quæ tropico æstiuo p̄pinquior ea quæ lōgius distat, in æquali autē quæ æque distāt ab utroq̃ cōtactu.
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}Imiliter autē & in eo qui cū capricorno semicirculo æquales circūferētiæ inæqualibus tēporibus permutāt apparēs hemisphæriū, & in pluri quæ tropico æstiuo p̄pinquior ea quæ lōgius distat, in æquali autē quæ æque distāt ab utroq̃ cōtactu.
 
 Sit in mūdo horizon a b c d, tropicus uero æstiuus sit a d, zodiacus circulus autem positionē habeat b e c. Sitq̃ ipsa quidem b e circūferentia in semicirculo, qui cum capricorno & e c, sit in eo qui cum cancro. Sintq̃ oriētales partes d, occiduæ uero b. Assumāturq̃ æquales circūferentiæ f g h. Dico q̄ f g in pluri tēpore permutat apparens hemisphærii q̄ g h. Describantur paralleli circuli k l, m n, x o, per quos inuehātur ipsū f g h signa, æqualis igitur est f g, circūferentia ipsi p r, circūferentiæ. & g h ipsi r s. Sed q̄ ipsi r est æqualis, & p r igitur ipsi s est æqualis. Et quoniā in quo tēpore p r, occidit ipsa f g oritur. Cōmune apponatur tempus in quo p signum ipsam k l, circūferentiam perficit, æquum existens tēpori. In quo signum ipsam k l circūferentiā transit. Tempus igitur in quo p signum ipsam k l, ambit circumferentiā, & p r occidit, æquū est tempori in quo f g circūferentia oritur, & f signū ipsam k l, circūferentiā perficit. Sed tempus quidem in quo p signum ipsam k l, circūferentiā ambit, & p r occidit, id est in quo ipsa p r, permutat apparēs hemisphæriū. Tempus autem in quo f g oritur, & f signum ipsam k l, ambit circūferentiā, id est in quo f g, permutat apparens hemisphæriū. Ipsæ igitur f g, p r, in æquali tempore apparens hemisphærium permutant. Similiter iam ostendemus quod ipsæ g h, r, s, in æquali tempore permutant apparens hemisphæriū, & p r ipsa r s, pluri tempore permutat apparens hemisphæriū, & ostensæ sunt ipsæ f g, p r, æquali tempore apparens hemisphærium permutat, & f g igitur in pluri tempore permutat apparens hemisphæriū quàm g h: zodiaci ergo circuli æquales circūferentiæ, inæquali tempore permutat apparens hemisphærium. Sed in pluri quæ propinquior æstiuo tropico ea quæ longius distat, & simul ostensum est quod æque distantes æquali tempore permutant.
 
-*[Figure: sphere with horizon a b c d, tropic a d, zodiac b e c and parallel circles; points d, a, k, l, e, h, m, p, f, s, g, r, n, o, b, x, u, e, b marked]*
+[Diagram: sphere with horizon a b c d, tropic a d, zodiac b e c and parallel circles; points d, a, k, l, e, h, m, p, f, s, g, r, n, o, b, x, u, e, b marked]
 
 Aduerte. Vniuersaliter scire oportet, quod præcedētibus signis super horizonte existentibus circūferentia neq̃ oritur neq̃ occidit, subsequentibus autem signis super horizonte existentibus, tota oritur & tota occidit, præcedētia nanq̃ signa prius oriuntur & prius occidunt per 5 theorema. Ipsius igitur p r circūferentiæ signum præcedens est p, ipsius autem g f præcedens est g: accipiēs igitur ipsam p r occidentem, ipsam uero g f orientem, necessario permutationes earum quærens, eas in semper apparēti hemisphærio accepit. Ipsius autem p r occasum, ipsius uero g f, ortum quādo enim p ad ipsum l uenit, ipsa p r nequaq̄ occidit, sed adhuc super terram est quare accepit eius occasum, ipsum enim p r, per k in oriente existente, tota p r sub terra est, motaq̃ sphæra tota superfertur. Quare in quo p ab ipso k ad l, uenit cum occasu ipsius p r, id est tempus in quo p r permutat apparens hemisphæriū. Rursus ipso f per k, in oriente existente, ipsa g f tota prius oritur. Quare accepit eius ortum. Facto autem f per l, tota g f occidit. Quere in quo f ab ipso k in l, uenit cum ortu ipsius g f, tempus est in quo g f, permutat apparens hemisphæriū. Si autem sicut habetur in alia traditione ipsius quidem p r ortum ipsius g f occasum, nequaq̄ accipient ipsa g f signa, sed ipsa r g, & tempus in quo sub terram r ipsam r g, & n ipsam n m, perficit.
 
 ### Theorema 16 — Apparens 16
 
-*[Woodcut initial Z]* Odiaci circuli æqualiū & ex opposito circūferentiarū in quo tempore permutat altera apparēs hemisphæriū, altera non apparēs, & in quo tempore altera non apparens, altera apparens.
+{dropcap:Z|lines=?|style=decorated|decoration="woodcut"}Odiaci circuli æqualiū & ex opposito circūferentiarū in quo tempore permutat altera apparēs hemisphæriū, altera non apparēs, & in quo tempore altera non apparens, altera apparens.
 
 <!-- Catchword: Sit in -->

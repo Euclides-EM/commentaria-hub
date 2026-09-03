@@ -1,6 +1,6 @@
-<!-- # GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Folio: 112 -->
+<!-- Page number: 112 -->
 
 sitā diffinitionē uenetur, nihil enim in quocūq̃ inæqualitatis genere, terminis magis idē, q̃ eorū multiplicia, nec terminorū habitudinibus, quā multipliciū habitudo. Et quia proportio est duarū quātitatū eiusdē generis certa habitudo cōsiderata in eo q̃ sunt æquales, aut altera maior, ideo idētitas proportionū existentium inter primam 4 quantitatum ad secundam, & tertiam ad quartam, est similis æqualitas primæ ad secundam, & tertiæ ad quartam aut similis maioritas, aut similis minoritas hæc autem similis æqualitas, aut similis maioritas, aut similis minoritas tunc est inter quatuor quaslibet quantitates, cum est inter omnes earum æqualiter multiplices.
 
@@ -8,7 +8,7 @@ Quod ergo dicit in quinta diffinitione. Quātitates quæ dicūtur cōtinuā prop
 
 Diffinitiones autē istas nisi sunt aliqui demonstrare, quorū Ametus filius Ioseph tentauit eas demōstrare in epistola sua quā de proportiōe & proportionalitate cōposuit, & accepit tria per modū positionis tanquā principia, quæ dicit esse per se nota & probatiōe non indigere. Quorū primū est qđ si fuerint 4 quantitates, quarū sit proportio primæ ad secunda sicut tertiæ ad quartā, erit econuerso proportio secūdæ ad primā sicut quartæ ad tertiā: & hic est modus arguēdi, quē uocauit superiꝰ Euclides cōuersam proportionalitatē. Et errauit, quoniā dixit propositionē esse per se notā: cuius tamen antecedens & consequens sunt ignota. Ignotum est enim quid sit esse proportionē primæ quātitatis ad secūdam sicut tertiæ ad quartam, quare hoc ignoto posito, impossibile est intelligere quid ex ipso sequatur. Similiter quoque quia consequens est ignotum, impossibile est intelligere quid ad ipsam antecedat. Secundum principium eius fuit, quod si fuerint 4 quantitates quarum sit proportio primæ ad secundam sicut tertiæ ad quartam, si prima sit maior secunda, erit tertia maior quarta, & si minor, minor, & si æqualis, æqualis. Tertium fuit quod si fuerint 4 quantitates quarum sit proportio primæ ad secundam sicut tertiæ ad quartā, erit primæ ad quodlibet multiplex secundæ, sicut tertiæ ad æque multiplex ex multiplicibus quartæ. Et accidit sibi in istis duobus principijs idem peccatum. quod accidebat in primo, accepit enim in omnibus ignota similiter tanquam nota: quare non demonstrauit. peccauit etiam in secunda demonstratione & in quinta, in quarum qualibet arguit ex 5 uel ex 10
 
-*[Figure: at right of the narrowed lines, a horizontal line divided at a point, labelled b, n and b, g; below it two shorter horizontal lines labelled e and d]*
+[Diagram: at right of the narrowed lines, a horizontal line divided at a point, labelled b, n and b, g; below it two shorter horizontal lines labelled e and d]
 
 huius quæ probantur ex diffinitione incōtinuæ proportionalitatis. Arguit enim sic. si proportio a b ad c est maior quàm g ad d, sit ergo ut n b partis a b ad c, sicut g ad d, per quod apparet ipsum supponere quod duarum quantitatum a b & n b inæqualiū relatarum ad e maior maiorem & minor minorem ad ipsam obtinet proportionem, uel quod quantitas quæ ad e habebit minorem proportionem quā habeat a b, erit mi-
 

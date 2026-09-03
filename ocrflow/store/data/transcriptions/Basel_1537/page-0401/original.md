@@ -1,27 +1,31 @@
-<!-- # GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Folio: 390 -->
+<!-- Page number: 390 -->
 
 dratū diametri a b, erit sicut circuli c d ad superficiē f minorē circulo a b. Sed ex hoc demonstrauimus pauloante sequi impossibile, uidelicet, polygoniū inscriptū circulo maius esse circulo. Sicut ergo superficies e non potest esse minor circulo c d, ita nec maior, erit ergo necessario æqualis. Quare per secūdam partem 7 quinti, liquet quod propositum est.
 
 ## Eucli. ex Zamb. Theorema 2 Propositio 2
 
-*[Margin: 2]* Circuli sese adinuicem habent, sicut quæ ex dimetientibus quadrata.
+[Margin]
+2
+[/Margin]
+
+Circuli sese adinuicem habent, sicut quæ ex dimetientibus quadrata.
 
 THEON ex Zamb. Sint circuli α β γ δ, ε ζ η θ, dimetientes autem eorum sint δ β, ζ θ. Dico quod est sicut quod ex β δ quadratū ad id quod ex ζ θ quadratum, sic est α β γ δ circulus ad ε ζ η θ circulū. Si enim nō est sicut quod ex β δ quadratū ad id quod ex ζ θ quadratū, sic α β γ δ circulus ad ε ζ η θ circulū, erit sicut quod ex β δ ad id quod ex ζ θ, sic α β γ δ circulus uel ad minorem ipso ε ζ η θ circulo aream, uel ad maiorē. Sit prius ad minorē σ. Describaturq̃; (per 6 quarti) in circulo ε ζ η θ, quadratū ε ζ η θ. Iam descriptū quadratū, maius est quàm dimidium ipsius ε ζ η θ circuli, quoniam si per signa ε, ζ, η, θ, tangentes circulum rectas lineas ducamus, circū circulum descripti quadrati dimidium est ε ζ η θ quadratum, ipso autem circūscripto quadrato minor est circulus, quare ε ζ η θ inscriptū quadratū, maius est quàm dimidiū ipsius ε ζ η θ circuli. Secentur bifariam ipsæ ε ζ, ζ η, η θ, θ ε, circūferentiæ in signis κ λ, μ, ν, cōnectanturq̃; ε κ, κ ζ, ζ λ, λ η, η μ, μ θ, θ ν, ν ε. Et unumquodq̃; igitur ipsorū ε κ ζ, ζ λ η, η μ θ, θ ν ε, triangulorū, maius est quàm dimidiū eius quod circum ipsum est circuli segmenti: quoniam si per κ, λ, μ, ν, signa circulum tangentes ducamus, & cōpleamus quæ in ε ζ, ζ η, η θ, θ ε, rectis lineis parallelogrāma, unumquodq̃; ipsorū ε κ ζ, ζ λ η, η μ θ, θ ν ε, triangulorū, dimidium est eius quod circum ipsum parallelogrāmi, sed circum ipsum segmentum, minus est parallelogrāmo, quare unumquodq̃; ipsorum ε κ ζ, ζ λ η, η μ θ, θ ν ε, triangulorū, maius est dimidio eius quod circum seipsum segmēti circuli. Dispescentes iam (per 30 tertij) reliquas circūferentias bifariam, cōnectentesq̃; rectas lineas, & hoc semper efficientes (per 1 decimi) relinquemus quædam circuli segmenta quæ minora erunt excessu quo excedit circulus ε ζ η θ, aream σ. Ostensum etenim est in primo decimi uoluminis theoremate, quod binis magnitudinibus inæqualibus expositis, si à maiori auferatur maius q̃; dimidium, & reliquæ maius q̃ dimidium, hocq̃; semper fiat, quædam relinquetur magnitudo quæ minore magnitudine exposita, minor erit. Relinquantur igitur, sintq̃; quæ in ipsis ε κ, κ ζ, ζ λ, λ η, η μ, μ θ, θ ν, ν ε, segmenta ipsius ε ζ η θ circuli, minora excessu quo excedit circulus ε ζ η θ ipsam σ aream. Reliquū igitur ε κ ζ λ η μ θ ν multangulū, maius est ipsa area σ. Inscribatur in circulum α β γ δ, ipsi ε κ ζ λ η μ θ ν multangulo simile multangulū α ξ β ο γ π δ ρ. Est igitur (per præcedentem) sicut quod ex β δ quadratū ad id quod ex ζ θ quadratū, sic est multangulū α ξ β ο γ π δ ρ ad ε κ ζ λ η μ θ ν multangulū. Sed sicut quod ex β δ quadratū ad id quod ex ζ θ quadratū, sic circulus α β γ δ ad aream σ: & sicut igitur (per 11 quinti) α β γ δ circulus ad σ aream, sic multangulum α ξ β ο γ π δ ρ ad ipsum ε κ ζ λ η μ θ ν multangulū. Vicißim igitur (per 16 quinti) sicut circulus α β γ δ ad id quod in ipso multangulū, sic σ area ad multangulū ε κ ζ λ η μ θ ν. Maior autem est α β γ δ circulus, eo quod in se est multangulo: maior igitur est & area σ, ipso ε κ ζ λ η μ θ ν multangulo, sed & minor, quod est impoßibile. Non est igitur sicut quod ex β δ quadratū ad id quod ex ζ θ quadratū, sic circulus α β γ δ ad aliquā aream ipso ε ζ η θ circulo minorem. Similiter iam demonstrabimus, quod neq̃; sicut quod ex ζ θ ad id quod ex β δ, sic circulus ε ζ η θ ad aliquā aream minorem ipso α β γ δ circulo. Dico nempe quod neq̃; sicut quod ex β δ ad id quod ex ζ θ, sic circulus α β γ δ ad aliquam aream maiorem ipso ε ζ η θ circulo. Si enim poßibile, sit ad maiorem σ. Conuersim igitur est sicut quod ex ζ θ quadratū ad id quod ex β δ, sic est σ area ad α β γ δ circulum. Sed sicut σ area ad α β γ δ circulū, sic est circulus ε ζ η θ ad aliquam aream minorem ipso α β γ δ circulo, & sicut igitur (per 11 quinti) quod ex ζ θ ad id quod ex β δ, sic ε ζ η θ circulus ad aliquā aream minorem ipso α β γ δ circulo, quod impoßibile esse demonstratū est. Non est igitur sicut quod ex β δ quadratū ad id quod ex ζ θ, sic circulus α β γ δ ad maiorem aliquam aream ipso ε ζ η θ circulo. Ostensum autem est, quod neq̃; ad minorem. Est igitur sicut quod ex β δ quadratū ad id quod ex ζ θ quadratū, sic circulus α β γ δ ad circulū ε ζ η θ. Circuli ergo adinuicem sese habent, sicut quæ ex dimetientibus quadrata. Quod erat ostendendum. Dico iam quod σ area maiore subsistente ipso ε ζ η circulo, est sicut area σ ad α β γ δ circulū, sic ε ζ η θ circulus ad aliquam aream minorē ipso α β γ δ circulo. Fiat enim sicut σ area ad α β γ δ circulū, sic ε ζ η θ circulus ad aream τ. Dico quod area τ, minor est ipso α β γ δ circulo. Quoniam enim est sicut σ area ad α β γ δ circulū, sic est ε ζ η θ circulus ad aream τ, uicißim (per 16 quinti)
 
-*[Figure: circle with horizontal diameter β δ and inscribed octagon α ξ β ο γ π δ ρ — α at top, ξ upper left, ρ upper right, β at left, δ at right, ο lower left, π lower right, γ at bottom]*
+[Diagram: circle with horizontal diameter β δ and inscribed octagon α ξ β ο γ π δ ρ — α at top, ξ upper left, ρ upper right, β at left, δ at right, ο lower left, π lower right, γ at bottom]
 
-*[Figure: circle with inscribed square ε ζ η θ and inscribed octagon ε κ ζ λ η μ θ ν — ε at top, κ upper left, ν upper right, ζ at left, θ at right, λ lower left, μ lower right, η at bottom; horizontal diameter drawn]*
+[Diagram: circle with inscribed square ε ζ η θ and inscribed octagon ε κ ζ λ η μ θ ν — ε at top, κ upper left, ν upper right, ζ at left, θ at right, λ lower left, μ lower right, η at bottom; horizontal diameter drawn]
 
-*[Figure: lens-shaped area labelled σ]*
+[Diagram: lens-shaped area labelled σ]
 
-*[Figure: large circle with tick marks, labels α at top, β at left, δ at right, γ at bottom]*
+[Diagram: large circle with tick marks, labels α at top, β at left, δ at right, γ at bottom]
 
-*[Figure: smaller circle with tick marks, labels ε at top, θ at right, η at bottom]*
+[Diagram: smaller circle with tick marks, labels ε at top, θ at right, η at bottom]
 
-*[Figure: lens-shaped area labelled σ (glyph resembles ζ)]*
+[Diagram: lens-shaped area labelled σ (glyph resembles ζ)]
 
-*[Figure: lens-shaped area labelled τ]*
+[Diagram: lens-shaped area labelled τ]
 
 <!-- Catchword: est sicut -->

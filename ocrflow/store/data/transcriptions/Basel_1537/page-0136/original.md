@@ -1,7 +1,5 @@
 # TABVLA CLIMATVM RECENTIOR.
 
-*[Foldout leaf, printed on recto only; signature mark G above the title]*
-
 <!-- Signature: G -->
 
 | Paralleli | Climatum appellationes | | Longitudo diei Æstiui — Ho: | S. | Latitudo Climatum — Gr: | Scr: | Interuallum — Gr: | Scr: |
@@ -76,5 +74,3 @@
 | | | M | 23 | 30 | 66 | 28 | 0 | 5 |
 | XLVIII | | F | 23 | 45 | 66 | 30 | | |
 | XLIX | XXIII insularũ | F | 24 | 0 | 66 | 31 | 0 | 0 |
-
-*[The appellations of climates XVII–XXIII read continuously across the rows: "per reliqua loca Noruegiæ, Suetiæ, albæ Rußiæ, et uicinarũ insularũ"]*

@@ -48,7 +48,7 @@ func main() {
 		log.Fatal(err)
 	}
 	client := llm.NewClient(cfg.openAIAPIKey, cfg.ollamaBaseURL, cfg.ollamaAuthToken)
-	if err := transcriptioncorrector.Run(cfg.corrector, client); err != nil {
+	if _, err := transcriptioncorrector.Run(cfg.corrector, client); err != nil {
 		log.Fatal(err)
 	}
 }

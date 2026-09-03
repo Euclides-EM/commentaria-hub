@@ -1,21 +1,23 @@
-<!-- # DATA -->
+<!-- Running title: DATA -->
 
-<!-- Folio: 571 -->
+<!-- Page number: 571 -->
 
 est ei quod bis sub utroque e c d & a b. Quare quod ex utroq; b a c maius est eo quod ex b c, eo quod bis sub utroq; c a d & a b. Quare quod ab utroque b a c maius est eo q̃ ex b c, eo quod bis sub utroq; d a c & b a, & quoniam angulus b a c datus est, & qui sub a d c quoque datus est. Et reliquus igitur qui sub d c a datus est. Datur igitur triangulum a d c, specie. Ratio igitur ipsius a d ad a c, data est, quare & utriusque d a c ad a c, ratio est data. Et eius igitur quod sub utroque d a c, & a b ad id quod sub b a c, ratio est data. Et eius quod bis sub utroque d a c & a b ad id quod sub b a c ratio est data. Eo quia qui sub b a c, angulus datus est, & eius quod bis sub utroque d a c, & a b igitur ad a b c triangulum ratio data est. Sed iam esto angulus qui sub b a c obtusus, & producta b a in eam per duodecimam primi elementorum perpēdicularis agatur c e, & ponatur per secundam primi elementorum ipsi a e æqualis a f.
 
-*[Figure: a right triangle with b at the top left, a at the bottom left and c at the bottom right; the hypotenuse runs from b down to c]*
+[Diagram: a right triangle with b at the top left, a at the bottom left and c at the bottom right; the hypotenuse runs from b down to c]
 
 Quoniā igitur angulus b a c, est obtusus excitaturq́; perpendicularis c e, quæ igitur ex b a, a c una cum eo quod bis sub b a e, hoc est bis sub b a f, æqua sunt ei quod ex b c. Cōmune proiectum sit quod bis sub b a c. Quæ igitur ex b a, a c unà cum eo quod bis sub b a c, hoc est, ex utroque b a c, una cum eo quod bis sub b a f, æqua sunt ei quod ex b c, una cum eo quod bis sub b a c. Cōmune auferatur quod bis sub b a f, quod igitur ab utroque b a c æquū est ei quod ex b c, & ei q̃ bis sub b a c f. Quare quæ ex utroque b a c, id quod ex b c, excedit eo quod bis sub b a e f, & quoniam angulus b a c. datus est, & qui sub e a c, igitur datus est. Sed & qui sub c e a, datus est, & reliquus igitur qui sub a c e. datus est. Datur igitur a e c triāgulum specie. Ratio igitur ipsius c a ad a e, data est, hoc est ad a f. Quare & ipsius a c ad c f, ratio est data. Ipsius autem a c ad c e ratio est data, & ipsius e c ad c f igitur ratio est data. Quare & eius qd' sub e c, a b ad id quod sub c f a b ratio est data. Ipsius autē q̃ ex a b, c e ad a b c, triāgulum ratio est data: quare & eius quod sub c f, b a ad b c triangulum ratio est data, estque quod bis sub f c b a, quo maius est quod ex b c: eo igitur maius est quod ex utroque b a c eo quod ex b c, ea area ad triangulum rationem habet datam.
 
-*[Figure: a triangle with apex a at the top, d on the right side below a, c at the bottom left and b at the bottom right; lines run from c to d and from c to a]*
+[Diagram: a triangle with apex a at the top, d on the right side below a, c at the bottom left and b at the bottom right; lines run from c to d and from c to a]
 
-*[Figure: an elongated obtuse triangle with e at the upper left, c at the lower left, b at the right and a in the middle of the upper side; f inside at the left, with lines from c to a and from e to b crossing]*
+[Diagram: an elongated obtuse triangle with e at the upper left, c at the lower left, b at the right and a in the middle of the upper side; f inside at the left, with lines from c to a and from e to b crossing]
 
 ### Aliter.
 
 Excitetur b a & ipsi a c æqualis ponatur d a connectaturque d c. Quoniam igitur angulus a b c datus est, & eius uterque qui sub a d c, a c d, dimidium est. Datur ergo uterque eorum qui sub a d c, a c d, & reliquus igitur qui sub d a c, datus est. Datur ergo triangulum a c d specie. Ratio igitur ipsius a c ad c d, data est. Et quoniam qui sub a d c, datus est, excitetur eidem æquus uterque eorum qui sub d e c, a f c, per uigesimamsecundam primi elementorum. Et quoniam angulus b d c, ipsi d e c æquus est. Cōmunis autem qui sub a b c, ipsius d b e trianguli existens, & ipsius d b c. Reliquus igitur angulus d b e, reliquo angulo b c d est æqualis, æquiangulum igitur est b d e, triangulum ipsi d b c triangulo. Est igitur sicut e b ad b d, sic est d b ad c b. Quod igitur sub e b, b c, hoc est quod sub e c b, una cum eo quod ex c b ei æquum est quod ex b d, hoc est ei quod ex utroque b a c, æqualis enim est d a ipsi a c. Quod igitur sub e c b, una cum eo quod ex c b, æquum est ei quod ex utroque b a c. Quod igitur ex utroq; b a c, id qd' ex b c excedit eo q̃ sub b c e. Dico igitur quod ratio ipsius qui sub b c e ad a b c, triangulū data est. Quoniā æqualis est angulus b d e, angulo b c d, quorū qui sub a d c, ei qui sub a c d, est æqualis. Reliquus ergo qui sub c d e, reliquo qui sub a c b est æqualis. Est autem & qui sub d e c, ei qui sub a f c, æqualis: reliquus ergo qui sub c a f, reliquo qui sub d c e, est æqualis, æquiangulum igitur est triangulum a c f, triangulo d e c. Est igitur sicut c a ad a f, sic d c ad c e: & uicissim igitur per decimāsextam quinti
 
-*[Figure: a large triangle with apex d at the top, c at the bottom left and b at the bottom right; a smaller point a on the right side, with lines fanning from a down to points e, g, f on the base; a vertical line drops from d to the base]*
+[Diagram: a large triangle with apex d at the top, c at the bottom left and b at the bottom right; a smaller point a on the right side, with lines fanning from a down to points e, g, f on the base; a vertical line drops from d to the base]
 
-<!-- Signature: Bb 4 --> <!-- Catchword: elemē. -->
+<!-- Signature: Bb 4 -->
+
+<!-- Catchword: elemē. -->

@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 	"github.com/stretchr/testify/require"
 )
 
@@ -34,6 +35,25 @@ func TestUnmarshalLLMTranscriptionCorrector(t *testing.T) {
 	require.NoError(t, err)
 	require.Contains(t, string(encoded), `"type":"llm_transcription_corrector"`)
 	require.Contains(t, string(encoded), `"rounds":3`)
+	require.NotContains(t, string(encoded), `"usage"`)
+}
+
+func TestLLMTranscriptionCorrectorUsageJSONRoundTrip(t *testing.T) {
+	cost := 0.125
+	rule := NewLLMTranscriptionCorrector("claude-code", "fable", nil, false)
+	rule.Usage = &llm.Usage{
+		InputTokens: 100, CachedInputTokens: 20, CacheCreationInputTokens: 10,
+		CacheMetricsAvailable: true, OutputTokens: 30, TotalTokens: 160, CostUSD: &cost,
+	}
+
+	encoded, err := json.Marshal(rule)
+	require.NoError(t, err)
+	require.Contains(t, string(encoded), `"usage":{"input_tokens":100,"cached_input_tokens":20,"cache_creation_input_tokens":10,"cache_metrics_available":true,"output_tokens":30,"reasoning_tokens":0,"total_tokens":160,"cost_usd":0.125}`)
+
+	decoded, err := UnmarshalRuleJSON(encoded)
+	require.NoError(t, err)
+	corrector := decoded.(*LLMTranscriptionCorrector)
+	require.Equal(t, rule.Usage, corrector.Usage)
 }
 
 func TestLLMTranscriptionCorrectorDefaultsRounds(t *testing.T) {

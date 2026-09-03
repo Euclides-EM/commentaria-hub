@@ -1,10 +1,10 @@
-<!-- # LIBER QVARTVS -->
+<!-- Running title: LIBER QVARTVS -->
 
-<!-- Folio: 101 -->
+<!-- Page number: 101 -->
 
 CAMPANVS. Sit datus circulus a b c: uolo sibi inscribere quindecagonum æquilaterum & æquiangulum, deinde etiam circunscribere, atq̃ intra talem quindecagonū propositum, circulum describere. Non proponit autē circa talem circulum quindecagonū, circulum describere: quia hoc satis dat intelligere per alia quæ proponit. In dato circulo iuxta doctrinam secundæ huius, protraho latus trianguli æquilateri, quod sit a c, & iuxta doctrinam 11 huius latus pentagoni æquilateri atq̃ æquianguli, quod sit a b. Et quia arcus a c, est totius circunferentiæ tertia, cuius arcus a b est quinta: erit superfluū intèr eos quod est arcus b c, duæ tertiæ arcus a b, uel duæ quintæ arcus a c, siue duæ quintædecimæ totius circunferētiæ. Nam in omni toto excedit tertia quintā in duabus tertijs ipsius quintæ, uel in duabus quintis ipsius tertiæ, siue in duabus quintisdecimis totius.
 
-*[Figure: circle with inscribed triangle side a c (a at top, c at right), pentagon side a b (b at bottom left), interior point e with lines drawn to a, b, d, c; d on the arc between b and c]*
+[Diagram: circle with inscribed triangle side a c (a at top, c at right), pentagon side a b (b at bottom left), interior point e with lines drawn to a, b, d, c; d on the arc between b and c]
 
 Hoc enim patet in quinta & tertia primi numeri habentis quintam & tertiam qui est 15: eius enim tertia quæ est 5, excedit eius quintam quæ est 3, in duabus unitatibus quæ sunt duæ tertiæ ipsius ternarij qui est quinta, uel duæ quintæ ipsius quinarij qui est tertia, siue duæ quintædecimæ ipsius 15 quod est totū. Diuiso igitur arcu b c per æqualia in d, patet utrunq̃ duorum arcuū c d, & d b, esse tertiā arcus a b, uel quintam arcus a c, siue quintamdecimam totius circunferentiæ. Subtensis igitur eis, chordis c d, & d b, coaptatisq̃ cōtinue intra datum circulum sibi æqualibus per primam huius, complebitur figura proposita. Cætera uero duo quæ proponit cū tertio quod dat intelligere, uidelicet quindecagonū circulo circunscribere, ac circulum quindecagono inscribere, ac etiam circunscribere: ex 12, 13 & 14 huius plene intellectis facile perficies.
 
@@ -16,4 +16,6 @@ CAMPANI additio. Et nota quod quamcunq̃ figuram æquilateram circulo scimus ins
 
 THEON ex Zamberto. *Sit datus circulus α β γ δ: oportet iam in α β γ δ circulo, quintidecagonū æquilaterum & æquiangulum describere. Describatur in circulo α β γ δ, trianguli æquilateri latus α γ, pentagoni uero æquilateri latus α β in arcu α γ. Qualium igitur est circulus α β γ δ, æqualium segmentorum quindecim: talium quidem circunferentia α β γ, tertium existens ipsius circuli: erit quinq̃. Circunferentia autem α β, existens quintum cir*
 
-<!-- Signature: i 3 --> <!-- Catchword: culi -->
+<!-- Signature: i 3 -->
+
+<!-- Catchword: culi -->

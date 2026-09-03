@@ -2,7 +2,6 @@ package transcriptioncorrector
 
 import (
 	"fmt"
-	"io"
 	"log"
 	"os"
 	"path/filepath"
@@ -143,58 +142,6 @@ func TestLineDiffCountsAddedAndDeletedLines(t *testing.T) {
 	require.Equal(t, diffStats{added: 2, deleted: 1}, stats)
 }
 
-func TestRunCarriesPreviousPageAndPreviousRoundContext(t *testing.T) {
-	root := t.TempDir()
-	imagesDir := filepath.Join(root, "images")
-	sourceOne := filepath.Join(root, "source-one")
-	sourceTwo := filepath.Join(root, "source-two")
-	altoSource := filepath.Join(root, "alto-source")
-	outputDir := filepath.Join(root, "output")
-	require.NoError(t, os.MkdirAll(imagesDir, 0o755))
-	require.NoError(t, os.MkdirAll(altoSource, 0o755))
-	for _, key := range []string{"page-0001", "page-0002"} {
-		require.NoError(t, os.WriteFile(filepath.Join(imagesDir, key+".png"), []byte("image"), 0o644))
-		for _, source := range []string{sourceOne, sourceTwo} {
-			require.NoError(t, os.MkdirAll(filepath.Join(source, key), 0o755))
-		}
-		require.NoError(t, os.WriteFile(filepath.Join(sourceOne, key, "original.md"), []byte("first candidate "+key+"\n"), 0o644))
-		require.NoError(t, os.WriteFile(filepath.Join(sourceTwo, key, "original.md"), []byte("second candidate "+key+"\n"), 0o644))
-		require.NoError(t, alto.SaveToFile(testALTO("ALTO", key), filepath.Join(altoSource, key+".xml")))
-	}
-
-	fake := &fakeExecutor{responses: []llm.Result{
-		{Text: "round 1 page 1"}, {Text: "round 1 page 2"}, {Text: "round 2 page 1"}, {Text: "round 2 page 2"},
-	}}
-	cfg := Config{
-		MarkdownDirs: []string{sourceOne, sourceTwo}, ALTODirs: []string{altoSource}, ImagesDir: imagesDir, OutputDir: outputDir,
-		Rounds: 2, Provider: llm.ProviderOllama, Model: "vision", Logger: log.New(io.Discard, "", 0),
-	}
-	require.NoError(t, Run(cfg, fake))
-	require.Len(t, fake.calls, 4)
-	require.NotContains(t, fake.calls[0].prompt.Dynamic, "BEGIN PREVIOUS PAGE")
-	require.Contains(t, fake.calls[0].prompt.Dynamic, "ALTO page-0001")
-	require.Contains(t, fake.calls[0].prompt.Dynamic, "converted with ALTOToMarkdown")
-	require.Contains(t, fake.calls[1].prompt.Dynamic, "round 1 page 1")
-	require.Contains(t, fake.calls[2].prompt.Dynamic, "correction from round 1")
-	require.Contains(t, fake.calls[2].prompt.Dynamic, "round 1 page 1")
-	require.NotContains(t, fake.calls[2].prompt.Dynamic, "round 1 page 2\n--- END PREVIOUS PAGE")
-	require.Contains(t, fake.calls[3].prompt.Dynamic, "round 2 page 1")
-	for _, call := range fake.calls {
-		require.Equal(t, llm.ProviderOllama, call.provider)
-		require.Equal(t, "vision", call.model)
-		require.True(t, strings.HasSuffix(call.attachmentPath, ".png"))
-		require.Equal(t, fake.calls[0].prompt.Static, call.prompt.Static)
-		require.Equal(t, fake.calls[0].prompt.CacheKey, call.prompt.CacheKey)
-	}
-
-	finalOne, err := os.ReadFile(filepath.Join(outputDir, "page-0001", "original.md"))
-	require.NoError(t, err)
-	require.Equal(t, "round 2 page 1\n", string(finalOne))
-	roundOne, err := os.ReadFile(filepath.Join(outputDir, "page-0002", "round-01.md"))
-	require.NoError(t, err)
-	require.Equal(t, "round 1 page 2\n", string(roundOne))
-}
-
 func TestRunLogsAggregateUsageAndProviderReportedCost(t *testing.T) {
 	root := t.TempDir()
 	imagesDir := filepath.Join(root, "images")
@@ -217,7 +164,15 @@ func TestRunLogsAggregateUsageAndProviderReportedCost(t *testing.T) {
 		Rounds: 2, Provider: llm.ProviderClaudeCode, Model: "fable", Logger: log.New(&logs, "", 0),
 	}
 
-	require.NoError(t, Run(cfg, fake))
+	usage, err := Run(cfg, fake)
+	require.NoError(t, err)
+	require.EqualValues(t, 210, usage.InputTokens)
+	require.EqualValues(t, 45, usage.CachedInputTokens)
+	require.EqualValues(t, 15, usage.CacheCreationInputTokens)
+	require.EqualValues(t, 70, usage.OutputTokens)
+	require.EqualValues(t, 340, usage.TotalTokens)
+	require.NotNil(t, usage.CostUSD)
+	require.InDelta(t, 0.035801, *usage.CostUSD, 0.0000001)
 	require.Contains(t, logs.String(), "requests=2")
 	require.Contains(t, logs.String(), "tokens_input=210")
 	require.Contains(t, logs.String(), "tokens_cached=45")

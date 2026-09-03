@@ -75,6 +75,7 @@ export type { job_Platform } from './models/job_Platform';
 export type { job_Status } from './models/job_Status';
 export type { job_Target } from './models/job_Target';
 export type { job_Task } from './models/job_Task';
+export type { llm_Usage } from './models/llm_Usage';
 export type { model_ApplyReprints } from './models/model_ApplyReprints';
 export type { model_City } from './models/model_City';
 export type { model_Dataset } from './models/model_Dataset';

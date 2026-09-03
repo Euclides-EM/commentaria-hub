@@ -1,1 +1,1 @@
-*[Printer's device: the mark of Johannes Hervagius — a three-faced terminal bust of Hermes with winged headgear, holding a caduceus entwined by a serpent, set atop a classical column hung with garlands and a bearded mask, standing on a grassy mound. No text on the page.]*
+[Illustration: the mark of Johannes Hervagius — a three-faced terminal bust of Hermes with winged headgear, holding a caduceus entwined by a serpent, set atop a classical column hung with garlands and a bearded mask, standing on a grassy mound]

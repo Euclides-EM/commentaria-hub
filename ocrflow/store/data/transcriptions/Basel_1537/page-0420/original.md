@@ -1,22 +1,24 @@
-<!-- # LIBER DVODECIMVS. -->
+<!-- Running title: LIBER DVODECIMVS. -->
 
-<!-- Folio: 409 -->
+<!-- Page number: 409 -->
 
 tione incontinuæ proportionalitatis quæ posita est in proœmio quinti libri arguēdū est propositum. Attendere aūt colūnā oportet, quod quæcūq̃ superficies secat æquidistanter basi ipsius, secat etiam eam æquidistāter superficiei basis eius oppositæ, nā quæcunque superficies uni superficiei sunt æquidistantes, ipsæ quoq̃ sunt æquidistātes adinuicē, ut ex ijs quæ dicta sunt ex 17 undecimi didicisti. Quare manifestū est, quod omnes rotundæ colūnæ quarum sunt bases æquales, altitudinibus suis sunt proportionales. Idem quoque de lateratis. Idem quoque de pyramidibus rotūdis & etiā de lateratis, quod de pyramidibus constabit, si prius de colūnis probetur. Est enim omnis columna tripla ad suam pyramidē, rotunda quidem, ex nona huius, laterata uero ex ijs quæ supra in octaua demonstrata sunt.
 
 ## Eucli. ex Zamb. Theorema 11 Propositio 11
 
-*[Margin: 11]*
+[Margin]
+11
+[/Margin]
 
 Sub eodem fastigio existentes coni & cylindri, adinuicem sese habent sicut bases.
 
 THEON ex Zāb. Sint sub eadē altitudine coni & cylindri, quorū bases quidē sunt α β γ δ, ε ζ η θ, circuli, axes autem sint κ λ, μ ν, dimetientes uero basium sint α γ, ε η. Dico quod est sicut α β γ δ circulus ad ε ζ η θ, circulum, sic est α λ, conus ad conum ε ν. Si autē non est sicut α β γ δ circulus ad ε ζ η θ circulum, sic α λ conus ad ε ν conum, erit sicut α β γ δ, circulus ad ε ζ η θ, circulum, sic α λ conus ad aliquod solidū minus ipso ε ν, cono, uel ad maius. Sit prius ad minus, hoc est ad ξ. Et quo minus est ξ solidū ipso ε ν cono, ei æquū esto ψ solidū, igitur conus ε ν, æquus est ipsis ξ, ψ, solidis. Describatur (per 6 quarti) in circulo ε ζ η θ, quadratum ε ζ η θ, quadratum igitur, maius est quàm dimidium circuli. Excitetur ab ipso ε ζ η θ quadrato, pyramis æque alta ipsi cono. Igitur ipsa pyramis excitata, maior est quàm dimidium ipsius coni, quoniā si circunscribamus ipsi orbi quadratū, & ab ipso excitemus pyramida cono æque altam, inscripta pyramis dimidium est circunscriptæ, adinuicem enim sunt sicut bases, Conus autē minor est pyramide circunscripta. Pyramis igitur cuius basis est ε ζ η θ quadratum, uertex autem idem ipsi cono, maior quàm dimidiū coni. Secentur (per 30 tertij) ε ζ, ζ η, η θ, θ ε, circūferentiæ diuiduæ in signis ο, π, ρ, σ, connectanturq̃ ipsæ θ ο, ο ε, ε π, π ζ, ζ ρ, ρ η, η σ, σ θ. Vnum quodq̃ igitur ipsorū θ ο ε, ε π ζ, ζ ρ η, η σ θ, triangulorum, maius est quàm dimidium apud sese segmenti ipsius circuli. Excitetur ab unoquoq̃ ipsorum θ ο ε, ε π ζ, ζ ρ η, η σ θ, triangulorū, pyramis æque alta ipsi cono. Vnaquæq̃ igitur excitatarū pyramidū, maior est quàm dimidia pars apud sese segmenti coni. Secātes igitur (per 30 tertij) reliquas circunferentias diuiduæ, cōnectentesq̃ rectas lineas, & excitantes ab unoquoq̃ triāgulorū pyramides ipsi æque altas cono, & hoc semper facientes relinquemus quædam coni segmenta quæ erunt minora ipso ψ solido. Relinquantur, sintq̃ quæ in θ ο ε, ε π ζ, ζ ρ η, η σ θ. Reliqua igitur pyramis cuius basis quidem est θ ο ε π ζ ρ η σ, multangulum, fastigium idem quod cono, maior est ipso ξ solido. Inscribatur & in circulo α β γ δ, ipsi θ ο ε π ζ ρ η σ, multangulo simile & similiter positum multangulum δ τ α υ β φ γ χ, exciteturque ab ipso pyramis æque alta ipsi α λ cono. Quoniā igitur est sicut quod ex α γ ad id quod ex ε η, sic δ τ α υ β φ γ χ multangulum ad ipsum θ ο ε π ζ ρ η σ multāgulū, sicut aūt quod ex α γ ad id quod ex ε η, sic α β γ δ orbis ad ε ζ η θ orbē, & sicut igitur (per 11 quinti) α β, γ δ, orbis ad ε ζ η θ, orbē sic δ τ α υ β φ γ χ, multāgulū θ ο ε π ζ ρ η σ, multāgulū. Sicut aūt orbis ad ε ζ η θ, orbē, sic α λ conus ad ξ solidū. Sicut autē δ τ α υ β φ γ χ, multangulū ad θ ο ε π ζ ρ η σ, multāgulū, sic pyramis cuius basis est δ τ α υ β φ γ χ, multangulū, uertex autē λ signū, ad pyramida cuius basis quidē est θ ο ε π ζ ρ η σ, multangulum, fastigium autē ν signum. Et sicut igitur (per 11 quinti) α λ conus ad ξ solidū, sic pyramis cuius basis quidē δ τ α υ β φ γ χ multangulum, uertex autē λ signū, ad pyramida cuius basis quidem est θ ο ε π ζ ρ η σ, multangulū, uertex autē ν signū. Vicissim igitur (per 16 quinti) est sicut α λ conus ad eam quæ in se ipso pyramida, sic ξ solidum ad eā quæ in ε ν cono pyramida. Maior autē est α λ conus, ea quæ in se ipso pyramide, maius igitur est & ξ solidū, ea quæ in ε ν, cono pyramide, sed & minus. quod absurdū est. Nō igitur est sicut α β γ δ circulus ad ε ζ η θ, circulum, sic α λ conus ad aliquod solidum minus ipso ε ν cono Similiter iam demonstrabimus, quod neque sicut ε ζ η θ, orbis ad α β γ
 
-*[Figure: circle α β γ δ with inscribed square and circumscribed-looking octagon of points τ, υ, φ, χ, centre κ, and a slanted line rising from the centre to the cone apex λ above]*
+[Diagram: circle α β γ δ with inscribed square and circumscribed-looking octagon of points τ, υ, φ, χ, centre κ, and a slanted line rising from the centre to the cone apex λ above]
 
-*[Figure: circle ε ζ η θ with inscribed square and octagon θ ο ε π ζ ρ η σ, the points ο, π, ρ, σ marked around the circumference, centre μ, and a slanted line rising from the centre to the cone apex ν above]*
+[Diagram: circle ε ζ η θ with inscribed square and octagon θ ο ε π ζ ρ η σ, the points ο, π, ρ, σ marked around the circumference, centre μ, and a slanted line rising from the centre to the cone apex ν above]
 
-*[Figure: two cube-shaped solids side by side, the left labelled ψ, the right labelled ξ]*
+[Diagram: two cube-shaped solids side by side, the left labelled ψ, the right labelled ξ]
 
 <!-- Signature: M -->
 

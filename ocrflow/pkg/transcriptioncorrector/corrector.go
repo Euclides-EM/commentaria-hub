@@ -45,25 +45,26 @@ type candidate struct {
 	text  string
 }
 
-// Run executes all configured rounds sequentially. Pages are sequential
-// because each request receives the corrected output of the preceding page.
-func Run(cfg Config, client Executor) error {
+// Run executes the correction and returns aggregate provider usage
+// across every successfully completed page and round.
+func Run(cfg Config, client Executor) (llm.Usage, error) {
+	var totalUsage llm.Usage
 	if client == nil {
-		return errors.New("LLM executor is required")
+		return totalUsage, errors.New("LLM executor is required")
 	}
 	if cfg.Rounds == 0 {
 		cfg.Rounds = DefaultRounds
 	}
 	if err := validateConfig(cfg); err != nil {
-		return err
+		return totalUsage, err
 	}
 	pages, err := discoverPages(cfg.ImagesDir)
 	if err != nil {
-		return err
+		return totalUsage, err
 	}
 	pages, err = selectPages(pages, cfg.PageKeys)
 	if err != nil {
-		return err
+		return totalUsage, err
 	}
 	logger := cfg.Logger
 	if logger == nil {
@@ -83,7 +84,6 @@ func Run(cfg Config, client Executor) error {
 	}
 
 	previousRound := make(map[string]string, len(pages))
-	var totalUsage llm.Usage
 	requestCount := 0
 	costReportCount := 0
 	cacheHealth := newCacheHealthTracker(cfg.Provider, cfg.Model)
@@ -97,7 +97,7 @@ func Run(cfg Config, client Executor) error {
 			pageStarted := time.Now()
 			base, err := loadCandidates(cfg.MarkdownDirs, cfg.ALTODirs, cfg.TranscriptionDirs, p.key)
 			if err != nil {
-				return fmt.Errorf("round %d page %s: %w", round, p.key, err)
+				return totalUsage, fmt.Errorf("round %d page %s: %w", round, p.key, err)
 			}
 			promptCandidates := append([]candidate(nil), base...)
 			if draft, ok := previousRound[p.key]; ok {
@@ -112,7 +112,7 @@ func Run(cfg Config, client Executor) error {
 			prompt := buildPrompt(p.key, round, cfg.Rounds, promptCandidates, previousPage)
 			result, err := client.ExecPromptResultWithLogLabel(cfg.Provider, cfg.Model, prompt, p.imagePath, fmt.Sprintf("round=%d page=%s", round, p.key))
 			if err != nil {
-				return fmt.Errorf("round %d page %s LLM correction failed: %w", round, p.key, err)
+				return totalUsage, fmt.Errorf("round %d page %s LLM correction failed: %w", round, p.key, err)
 			}
 			requestCount++
 			totalUsage.Add(result.Usage)
@@ -122,7 +122,7 @@ func Run(cfg Config, client Executor) error {
 			}
 			corrected, err := normalizeResponse(result.Text)
 			if err != nil {
-				return fmt.Errorf("round %d page %s invalid LLM response: %w", round, p.key, err)
+				return totalUsage, fmt.Errorf("round %d page %s invalid LLM response: %w", round, p.key, err)
 			}
 
 			for _, c := range promptCandidates {
@@ -135,7 +135,7 @@ func Run(cfg Config, client Executor) error {
 
 			roundPath := filepath.Join(cfg.OutputDir, p.key, fmt.Sprintf("round-%02d.md", round))
 			if err := writeFileAtomic(roundPath, []byte(corrected)); err != nil {
-				return fmt.Errorf("write round output for %s: %w", p.key, err)
+				return totalUsage, fmt.Errorf("write round output for %s: %w", p.key, err)
 			}
 			previousRound[p.key] = corrected
 			previousPage = corrected
@@ -149,12 +149,15 @@ func Run(cfg Config, client Executor) error {
 	for _, p := range pages {
 		finalPath := filepath.Join(cfg.OutputDir, p.key, "original.md")
 		if err := writeFileAtomic(finalPath, []byte(previousRound[p.key])); err != nil {
-			return fmt.Errorf("write final output for %s: %w", p.key, err)
+			return totalUsage, fmt.Errorf("write final output for %s: %w", p.key, err)
 		}
 	}
 	cost := "unavailable"
 	if requestCount > 0 && costReportCount == requestCount && totalUsage.CostUSD != nil {
 		cost = fmt.Sprintf("%.6f", *totalUsage.CostUSD)
+	} else {
+		// Never expose a partial sum as the cost of the complete rule run.
+		totalUsage.CostUSD = nil
 	}
 	logger.Printf(
 		"complete pages=%d rounds=%d requests=%d tokens_input=%d tokens_cached=%d tokens_cache_creation=%d tokens_output=%d tokens_reasoning=%d tokens_total=%d cost_usd=%s cost_reports=%d/%d final_outputs=%s/page-NNNN/original.md",
@@ -164,7 +167,7 @@ func Run(cfg Config, client Executor) error {
 		cost, costReportCount, requestCount, cfg.OutputDir,
 	)
 	cacheHealth.LogSummary(logger)
-	return nil
+	return totalUsage, nil
 }
 
 func validateConfig(cfg Config) error {

@@ -1,21 +1,23 @@
-<!-- # LIBER TERTIVS. -->
+<!-- Running title: LIBER TERTIVS. -->
 
-<!-- Folio: 83 -->
+<!-- Page number: 83 -->
 
 quæ fiunt ex ε η, & η ζ, æquū est id quod fit ex ζ ε, (per 47 primi, eis autē quæ fiunt ex γ η & η ζ, æquū est id quod fit ex ζ γ, (per eandem.) Quod igitur continetur sub α ε, & ε γ, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ γ. Aequalis autem est ζ γ, ipsi ζ β. Ex centro enim in circunferentiam. Quod continetur igitur sub α ε, & ε γ, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ β. Et per hoc quod continetur sub δ ε, & ε β, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ β. Ostensum autem continetur sub α ε, & ε γ, una cum eo quod fit ex ζ ε, æquum est ei quod fit ex ζ β. Quod cōtinetur igitur sub α ε, & ε γ, una cū eo quod fit ex ζ ε, æquū est ei quod continetur, sub δ ε, & ε β, una cum eo quod fit ex ζ ε. Commune auferatur id quod fit ex ζ ε. Reliquum igitur rectangulum comprehensum sub α ε, & ε γ, æquum est rectangulo comprehenso sub δ ε, & ε β. Si in circulo igitur duæ rectæ lineæ se adinuicem secuerint, rectangulum comprehensum sub segmentis unius, æquum est rectangulo comprehenso sub segmentis alterius, quod demonstrasse oportuit.
 
 ## Eucli. ex Camp. Propositio 35
 
-*[Margin: 35]*
+[Margin]
+35
+[/Margin]
 
 SI extra circulum punctus signetur, ab eo autem ad circulum alia linea secans, alia contingens duæ rectæ lineæ ducātur, quod sub tota secante atque parte sui extrinseca continetur, æquū est ei quadrato quod ex contingente linea describitur.
 
 CAMPANVS. Sit a punctus signatus extra circulum b c d, cuius cētrum e, à quo ducantur ad circulum, duæ rectæ lineæ a b contingens & a d c, secans. Dico quod illud quod fit ex a c in d a, æquum est quadrato lineæ a b. Aut enim a d c, trāsit per centrum, aut nō. Transeat ergo primo per centrum quod est e, & ducatur linea e b, quæ per 17 huius perpendicularis erit super lineam a b. Et quia linea d c diuisa est per æqualia in puncto e, & est ei addita linea d a, erit per sextam secundi, quod fit ex c a & d a cum quadrato lineæ e d, & ideo cum quadrato lineæ e b, æquale quadrato lineæ e a, & ideo per penultimā primi, æquale quadratis duarum linearum e b, & b a, propter id quod angulus b, est rectus. Dempto ergo utrinq̃ quadrato e b, erit quod fit ex c a in a d, æquale quadrato a b, quod est propositum. Quod si linea a d c non transit per centrum: sumatur a f e g, transiens per centrum, & ducantur lineæ e d & e h, & sit e h, perpendicularis ad a d c, eritque per 3 huius, d h, æqualis h c. Quia ergo linea d c diuisa est per æqualia in puncto h, & addita sibi linea a d, erit per 6 secundi, quod fit ex c a, in a d, cum quadrato d h: æquale quadrato lineæ a h. Ergo addito utrinque quadrato h e, erit quod fit ex c a in a d, cum quadratis duarum linearum d h & h e, & ideo per penultimam primi cum quadrato d e, propter id quod angulus h, est rectus, & ideo cum quadrato e f, propter id quod e d & e f sunt æquales, æquale quadratis duarum linearū a h, & h e, & ideo per penultimam primi quadrato lineæ a e. Sed per sextam secundi, quod fit ex g a, in a f, cum quadrato f e, æquale est quadrato lineæ a e. Quia ergo utrumque eorum quæ fiunt ex c a, in a d & ex g a in a f, cum quadrato lineæ f e, est æquale quadrato lineæ a e, ipsa erunt inter se æqualia. Dempto ergo utrinque quadrato lineæ f e, erit quod fit ex c a in a d, æquale ei quod fit ex g a in a f, est æquale quadrato lineæ a b, per præmissum modum huius. Ergo quod fit ex c a, in a d est æquale quadrato lineæ a b. Quod est propositum.
 
-*[Figure: two circles side by side: the first with centre e, external point a at upper left, tangent a b to the top of the circle, secant a f e g through the centre, and secant a d h c with perpendicular e h, g at the bottom; the second with centre e, external point a at upper left, tangent a b, and secant a d e c passing through the centre to c at lower right]*
+[Diagram: two circles side by side: the first with centre e, external point a at upper left, tangent a b to the top of the circle, secant a f e g through the centre, and secant a d h c with perpendicular e h, g at the bottom; the second with centre e, external point a at upper left, tangent a b, and secant a d e c passing through the centre to c at lower right]
 
 CAMPANI additio. Ex hac nota, quod puncto extra circulum signato, si ab ipso ad circulum quodlibet secantes lineæ ducantur, rectangula quæ continentur sub totis & earum portionibus extrinsecis, adinuicem sunt æqualia, quoniam omnia sunt æqualia quadrato lineæ contingentis. Nota etiam quod si a quolibet puncto extra circulum signato duæ lineæ contingentes ad circulum ipsum ducantur, ipsæ erunt adinuicem æquales, Erit enim quadratum utriusque earum, æquale ei quod fit ex linea secante ab ipso puncto ducta in circulū in partē eius extrinsecā. Hoc autē euidentius patet per penultimā primi.
 
-*[Figure: circle with centre e and c at its foot; from the external point a above, two tangent lines descend to the circle at b on the left and d on the right, forming a lozenge a b c d about the upper part of the circle, with the diameter through e drawn]*
+[Diagram: circle with centre e and c at its foot; from the external point a above, two tangent lines descend to the circle at b on the left and d on the right, forming a lozenge a b c d about the upper part of the circle, with the diameter through e drawn]
 
 <!-- Catchword: Sit -->

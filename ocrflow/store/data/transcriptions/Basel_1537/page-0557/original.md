@@ -1,6 +1,6 @@
-<!-- # EVLCIDIS MEGARENSIS *[sic: for EVCLIDIS]* -->
+<!-- Running title: EVLCIDIS MEGARENSIS{printer-error-correction:EVCLIDIS} -->
 
-<!-- Folio: 544 -->
+<!-- Page number: 544 -->
 
 ## Diffinitio quarta.
 

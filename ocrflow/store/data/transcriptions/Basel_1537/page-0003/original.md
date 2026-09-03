@@ -4,4 +4,6 @@ QVONIAM inhumanum est repugnare haud ita difficilia rogantibus amicis, non licui
 
 Vale.
 
-*[Stamp: Staatl. Bibliothek Bamberg]*
+[Other type="stamp"]
+Staatl. Bibliothek Bamberg
+[/Other]

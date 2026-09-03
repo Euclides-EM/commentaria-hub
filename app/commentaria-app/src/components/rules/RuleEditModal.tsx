@@ -40,11 +40,13 @@ export function RuleEditModal({
         type?: annotationrule_Type
         applicable_stages?: unknown
         execution_mode?: unknown
+        usage?: unknown
       } & Record<string, unknown>),
     }
     delete editablePayload.type
     delete editablePayload.applicable_stages
     delete editablePayload.execution_mode
+    delete editablePayload.usage
     return editablePayload
   }
 

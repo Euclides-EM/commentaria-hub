@@ -1,16 +1,14 @@
-<!-- # LIBER OCTAVVS -->
+<!-- Running title: LIBER OCTAVVS -->
 
-<!-- Folio: 205 -->
+<!-- Page number: 205 -->
 
 ## Eucli.ex Camp. — Propositio 6
 
-6 SI numerorum quotlibet continue proportionalium primus secundum non numeret,nullus eorum numerabit ultimum.
-
-*[Woodcut: decorated initial S with foliate ornament]*
+6 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numerorum quotlibet continue proportionalium primus secundum non numeret,nullus eorum numerabit ultimum.
 
 CAMPANVS Sint a,b,c,d,e,cōtinue proportionales.dico quod si a nō numeret b,nullus eorū numerabit e.Manifestum autē est quod si ipsum numeret,omnes numerabunt e,& simpliciter quilibet præcedens quemlibet sequētem.Si autem nō numerat ipsum,patet quod d non numerabit e,nec simpliciter aliquis eorum proxime sequētem e,quia sunt positi continue proportionales.Sed quod nullus alius ut c numeret ipsum, sic constat.Sumantur secundum doctrinā 2 huius,totidem minimi continue proportionales in proportione eadem:quot sunt ipse c & omnes sequentes,qui sunt f,g,h,eruntq̃ per 3 huius & f & h,contra se primi,& quia per æquam proportionem c ad e ut f ad h, cum f non numeret h,nec c numerabit e,eodē modo nec aliquis aliorū,quare liquet quod propositum est.
 
-*[Figure: dotted number lines beside the text, labelled a, b, c, d, e (long rows of dots, increasing in length), f (4 dots), g (6 dots), h (9 dots)]*
+[Diagram: dotted number lines beside the text, labelled a, b, c, d, e (long rows of dots, increasing in length), f (4 dots), g (6 dots), h (9 dots)]
 
 ## Eucli.ex Zamb. — Theorema 4 — Propositio 6
 
@@ -20,13 +18,11 @@ THEON ex Zamberto, *Sint numeri continue proportionales α,β,γ,δ,ε.Ipse aute
 
 ## Eucli.ex Camp. — Propositio 7
 
-7 SI numerorum continue proportionalium primus ultimum numeret,idem ipse & secundum numerabit.
-
-*[Woodcut: decorated initial S with human figures]*
+7 {dropcap:S|lines=?|style=decorated|decoration="human figures"}I numerorum continue proportionalium primus ultimum numeret,idem ipse & secundum numerabit.
 
 CAMPANVS Sint qui prius,continue proportionales,dico si a numerat e:ipse nūerabit b. alioqui ex præmissa non numeraret e, quod est contrarium & impossibile.Non solum autem numerabit b: sed & omnes,& quisque eorum:quemlibet ipsum sequentem.
 
-*[Figure: dotted number lines beside the text, labelled a (2 dots), b (4 dots), c (8 dots), d (16 dots), e (long row)]*
+[Diagram: dotted number lines beside the text, labelled a (2 dots), b (4 dots), c (8 dots), d (16 dots), e (long row)]
 
 ## Eucli.ex Zamb. — Problema 3 — Propositio 7
 
@@ -34,12 +30,12 @@ CAMPANVS Sint qui prius,continue proportionales,dico si a numerat e:ipse nūerab
 
 THEON ex Zamb. *Sint quotcunque numeri proportionales α,β,γ,δ,at α,ipsum δ metiatur.Dico quod & α,ipsum β metietur.Si autem non metitur α,ipsum β,neque alius ullus (per 7 octaui)alium ullum metietur, quod(per hypothesin)est impoßibile,supponitur enim α,ipsum δ metiri,metitur autem α,ipsum δ,metitur igitur & α, ipsum β,quod oportuit demonstraße.*
 
-*[Figure: dotted number lines beside the Theon proof, labelled α (3 dots), β (7 dots), γ (14 dots), δ (long row)]*
+[Diagram: dotted number lines beside the Theon proof, labelled α (3 dots), β (7 dots), γ (14 dots), δ (long row)]
 
 ## Eucli.ex Camp. — Propositio 8
 
-8 SI inter duos numeros numeri quotlibet in continua proportionalitate ceciderint,totidem inter omnes duos in eadem proportione relatos cadere necesse est.
+8 {dropcap:S|lines=?|style=decorated|decoration="ribbon ornament"}I inter duos numeros numeri quotlibet in continua proportionalitate ceciderint,totidem inter omnes duos in eadem proportione relatos cadere necesse est.
 
-*[Woodcut: decorated initial S with ribbon ornament]*
+<!-- Signature: S -->
 
-<!-- Signature: S --> <!-- Catchword: CAM -->
+<!-- Catchword: CAM -->

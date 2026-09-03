@@ -1,10 +1,12 @@
-<!-- Folio: 478 -->
+<!-- Page number: 478 -->
 
-<!-- # GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
 ## Eucli. ex Camp. — Propositio 11
 
-*[Margin: 11]*
+[Margin]
+11
+[/Margin]
 
 Roposito icosedro, in eodem cubum figurare.
 
@@ -12,7 +14,9 @@ CAMPANVS Icosedro inscribe dodecedron ex sexta, ac dodecedro cubū ex octaua. Co
 
 ## Eucli. ex Camp. — Propositio 12
 
-*[Margin: 12]*
+[Margin]
+12
+[/Margin]
 
 Cosedron datum, pyramidē quatuor basium triangularium atq̃ æquilaterarum sibi postulat inscribi.
 
@@ -20,7 +24,9 @@ CAMPANVS. Si in dato icosedro ex præmissa cubum inscripseris, cuboq̃ ex prima 
 
 ## Eucli. ex Camp. — Propositio 13
 
-*[Margin: 13]*
+[Margin]
+13
+[/Margin]
 
 Abricato quouis quinque regularium corporum sibi sphæram inscribere.
 

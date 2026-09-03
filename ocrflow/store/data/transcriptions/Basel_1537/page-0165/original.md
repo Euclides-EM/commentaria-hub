@@ -1,6 +1,6 @@
-<!-- # GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Folio: 154 -->
+<!-- Page number: 154 -->
 
 sic (per 1 sexti) α β γ triangulum ad α β η triangulum. Triangulum igitur α β γ ad α β η (per eandem diffinitionem) duplicem rationem habet, quàm β γ ad ε ζ. Aequale autem est triangulum α β η, triangulo δ ε ζ. Igitur & triangulum α β γ, ad triangulum δ ε ζ duplicem rationem habet, quàm β γ ad ε ζ. Similia igitur triangula, adinuicem in duplici ratione sunt similis rationis laterum, quod oportebat demonstrare.
 
@@ -8,15 +8,19 @@ CORRELARIVM. Ex hoc utriq́ȝ manifestum est, quod si tres rectæ lineæ proport
 
 ## Eucli. ex Zamb. — Theorema 14. — Propositio 20.
 
-*[Margin: ὁμόλογα]*
+[Margin]
+ὁμόλογα
+[/Margin]
 
 Similia polygona, in similia triangula diuiduntur, & inæqualia numero, & * æqua ratione totis, & polygonum ad polygonum duplicem rationem habet, quàm similis rationis latus ad similis rationis latus.
 
-*[Margin: ὁμόλογα]*
+[Margin]
+ὁμόλογα
+[/Margin]
 
 THEON ex Zamberto. Sint similia polygona, α β γ δ ε & ζ η θ κ λ: similis autem rationis, esto α β ipsi ζ η. Dico quod α β γ δ ε & ζ η θ κ λ polygona, in similia triangula diuiduntur, & in æqualia numero, & * æqua ratione totis: & polygonum α β γ δ ε ad polygonum ζ η θ κ λ, duplam rationem habet, quàm α β ad ζ η. Connectantur β ε, ε β, η λ, & λ θ: & quoniam polygonum α β γ δ ε (per hypothesin) simile est polygono ζ η θ κ λ: æqualis est angulus β α ε ei qui sub η ζ λ est angulo, & est sicut β α ad α ε, sic η ζ ad ζ λ. Quoniā igitur duo triangula sunt α β ε & ζ η λ unum angulum uni angulo æqualem habentia: circum autem æquales angulos latera proportionalia: æquiangulum igitur est (per sextam sexti) triangulum α β ε triangulo ζ η λ: quare & simile. Aequalis aūt est & angulus α β ε, angulo ζ η λ: est autem & totus α β γ, toti ζ η θ æqualis, propter similitudinē polygonorum. Reliquus igitur angulus ε β γ, reliquo angulo λ η θ est æqualis: & quoniam ob similitudinem ipsorū α β ε & ζ η λ triangulorū, est sicut ε β ad β λ, sic λ η ad ζ η, sed & propter similitudinem polygonorum est sicut α β ad β γ, sic ζ η ad η θ: ex æquali igitur (per 22 quinti) est sicut ε β ad β γ, sic λ η ad η θ: & circum æquales angulos ε β γ & λ η θ, latera proportionalia sunt: æquiangulum igitur est (per 6 sexti) triangulum ε β γ, triangulo λ η θ. Quare & triangulum ε β γ, ipsi triangulo λ η θ est simile. Id propterea etiam (per 3 sexti diffinitionem, triangulum ε γ δ, simile est triangulo λ θ κ. Polygona igitur α β γ δ ε & ζ η θ κ λ, in similia triangula diuisa sunt, & æqualia numero.
 
-*[Figure: two pentagons with all diagonals drawn. Left: pentagon α (top), β (right), γ (bottom right), δ (bottom left), ε (left), with interior point μ at the crossing of the diagonals α γ and β ε. Right: smaller pentagon ζ (top), η (right), θ (bottom right), κ (bottom left), λ (left), with interior point ν at the crossing of the diagonals ζ θ and η λ; some labels blurred in the impression]*
+[Diagram: two pentagons with all diagonals drawn. Left: pentagon α (top), β (right), γ (bottom right), δ (bottom left), ε (left), with interior point μ at the crossing of the diagonals α γ and β ε. Right: smaller pentagon ζ (top), η (right), θ (bottom right), κ (bottom left), λ (left), with interior point ν at the crossing of the diagonals ζ θ and η λ; some labels blurred in the impression]
 
 Dico insuper quod similis rationis sunt totis, hoc est, quod sunt proportionalia, & quidem antecedentia α β ε, ε β γ & ε γ δ: sequentia autem illorum ζ η λ, λ η θ & λ θ κ, & quod polygonum α β γ δ ε, ad polygonum ζ η θ κ λ, duplam rationem habet, quam similis rationis latus ad similis rationis latus, hoc est, α β ad ζ η. Connectantur enim α γ & ζ θ: & quoniam propter similitudinem polygonorum, æqualis est angulus α β γ angulo ζ η θ, & est sicut α β ad β γ, sic ζ η ad η θ: æquiangulum est igitur (per sextam sexti) triangulum α β γ triangulo ζ η θ: æqualis igitur est angulus β α γ, angulo η ζ θ: & qui sub β γ α, ei qui sub η θ ζ: & quoniam æqualis est angulus β α μ angulo η ζ ν: patuit autē quod angulus α β μ angulo ζ η ν est æqualis: & reliquus igitur angulus α μ β, reliquo ζ ν η est æqualis. Aequiangulum igitur est (per 6 sexti) triangulum α β μ, triangulo ζ η μ. Similiter quoq́ȝ ostendemus quod & triangulum β μ γ, æquiangulum est triangulo η μ θ, proportionaliter igitur est (per 3 sexti) sicut quidem α μ ad μ β, sicut ζ η ad ν η. Sicut autem β μ ad μ γ, sic η ν ad ν θ. Quare ex æquo (per 22 quinti) sicut α μ ad μ γ, sic ζ ν ad ν θ. Sed sicut α μ ad μ γ, sic triangulum α β μ ad triangulum μ β γ, & α μ ε ad ε μ γ, ad seinuicem enim sunt: sicut bases (per 1 sexti). Et sicut unum antecedentium ad unum sequentium (per 12 quinti) sic omnia antecedentia ad omnia sequentia. Sicut igitur (per conuersionem primæ diffinitionis sexti) triangulum α μ β ad triangulum β μ γ, sic α β ε ad γ β ε. Sed sicut α μ β ad β μ γ, sic α μ ad μ γ: & sicut igitur) per 11 quinti) α μ ad μ γ: sic triangulum α β ε ad triangulum ε β γ. Id propterea, & sicut ζ ν ad ν θ, sic triangulum ζ η λ ad triangulum η λ θ. Estq́ȝ sicut α μ ad μ γ, sic ζ ν ad ν θ, & sicut igitur (per 11 quinti, triangulum α β ε ad triangulum β ε γ, sic triangulum ζ η λ ad triangulum η λ θ & uicissim (per 16 quinti) sicut triangulum α β ε ad triangulum ζ η λ: sic triangulum β ε γ ad triangulum η λ θ, Similiter quoq́ȝ ostendemus connexis β δ & η κ. quod & sicut triangulum ε β γ ad triangulum λ η θ, sic triangulum ε γ δ ad triangulum λ θ κ. Et quoniam est sicut triangulum α β ε ad triangulum ζ η λ, sic triangulum ε β γ ad triangulum λ η α, & etiam triangulum ε γ δ ad triangulum λ θ κ, & sicut igitur (per 12 quinti, unum antecedentium ad unum sequentium: sic omnia antecedentia ad omnia sequentia. Est igitur triangulū α β ζ ad triāgulum ζ η λ, sic polygonū α β γ δ ε ad polygonū ζ η θ κ λ. Sed triangulum α β ε ad triangulum ζ η λ, duplam rattonē habnt, quam α β similis rationis latus ad ζ η similisrationis latus. Similia enim triāgula in duplici ratione sunt simlis ratiōis laterū (per 19 sexti) & polygonū igitur α β δ ε ad polygonū ζ η θ κ λ: duplam habet rationē, quā α β similis rationis latus ad ζ η similis rationis latus. Similia igitur po
 

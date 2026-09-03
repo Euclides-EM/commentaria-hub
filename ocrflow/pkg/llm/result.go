@@ -21,14 +21,14 @@ type Prompt struct {
 // InputTokens includes cached input, while Claude Code reports cache reads and
 // cache creation separately.
 type Usage struct {
-	InputTokens              int64
-	CachedInputTokens        int64
-	CacheCreationInputTokens int64
-	CacheMetricsAvailable    bool
-	OutputTokens             int64
-	ReasoningTokens          int64
-	TotalTokens              int64
-	CostUSD                  *float64
+	InputTokens              int64    `json:"input_tokens"`
+	CachedInputTokens        int64    `json:"cached_input_tokens"`
+	CacheCreationInputTokens int64    `json:"cache_creation_input_tokens"`
+	CacheMetricsAvailable    bool     `json:"cache_metrics_available"`
+	OutputTokens             int64    `json:"output_tokens"`
+	ReasoningTokens          int64    `json:"reasoning_tokens"`
+	TotalTokens              int64    `json:"total_tokens"`
+	CostUSD                  *float64 `json:"cost_usd,omitempty"`
 }
 
 // Add accumulates token counts and any provider-reported cost.
