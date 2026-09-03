@@ -1064,7 +1064,7 @@ export const UpsertEdition = () => {
     try {
       setMappingCSVStatus(`Uploading ${file.name}...`);
       await FacsimilesService.postFacsimiliesMappingCsv({
-        formData: { file },
+        file,
       });
       setMappingCSVStatus("Uploaded facsimile mapping CSV.");
     } catch (error) {
