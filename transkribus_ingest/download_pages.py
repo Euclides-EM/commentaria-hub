@@ -23,6 +23,7 @@ MAX_DOWNLOAD_ATTEMPTS = MAX_DOWNLOAD_RETRIES + 1
 DOWNLOAD_POLL_INTERVAL_SECONDS = 0.25
 DOWNLOAD_STABLE_OBSERVATIONS = 2
 FIRST_PAGE = 1
+EXTRA_PAGES = 5
 
 TRANSKRIBUS_PAGE_URL = (
     "https://app.transkribus.org/sites/noscemus/doc/"
@@ -175,6 +176,8 @@ def main():
             raise ValueError(
                 f"Invalid page_count for document {doc_id}: {row['page_count']!r}"
             ) from error
+
+        page_count += EXTRA_PAGES
 
         first_page = (
             args.start_page if doc_id == args.start_doc_id else FIRST_PAGE
