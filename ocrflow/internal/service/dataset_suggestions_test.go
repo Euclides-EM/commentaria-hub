@@ -48,9 +48,9 @@ func TestSuggestedLLMTranscriptionCorrectorUsesAvailableProviderFallback(t *test
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			dataset := &Dataset{llmAvailability: test.available}
-			rule := dataset.suggestedLLMTranscriptionCorrector()
-			if rule.Provider != test.provider || rule.Model != test.model {
-				t.Fatalf("provider/model = %s/%s, want %s/%s", rule.Provider, rule.Model, test.provider, test.model)
+			provider, model := dataset.suggestedLLMTranscriptionCorrector()
+			if provider != test.provider || model != test.model {
+				t.Fatalf("provider/model = %s/%s, want %s/%s", provider, model, test.provider, test.model)
 			}
 		})
 	}
