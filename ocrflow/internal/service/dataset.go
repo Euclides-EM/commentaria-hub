@@ -337,37 +337,24 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	if err != nil {
 		return nil, fmt.Errorf("failed to list models: %w", err)
 	}
-	suggestedSegModel := lo.MaxBy(allModels, func(m1, m2 *model.Model) bool {
-		if m2.Type != common.OCRModelTypeSegment {
-			return true
-		}
-		if m1.Type != common.OCRModelTypeSegment {
-			return false
-		}
-		if len(m1.BaseAnnotations) > len(m2.BaseAnnotations) {
-			return true
-		}
-		if len(m1.BaseAnnotations) < len(m2.BaseAnnotations) {
-			return false
-		}
-		return m1.CreatedAt.After(m2.CreatedAt)
-	})
 
-	suggestedOCRModel := lo.MaxBy(allModels, func(m1, m2 *model.Model) bool {
-		if m2.Type != common.OCRModelTypeOCR {
-			return true
+	largestModel := func(models []*model.Model, modelType common.OCRModelType) string {
+		m := lo.MaxBy(lo.Filter(allModels, func(m *model.Model, _ int) bool {
+			return m.Type == modelType
+		}), func(m1, m2 *model.Model) bool {
+			if len(m1.BaseAnnotations) > len(m2.BaseAnnotations) {
+				return true
+			}
+			if len(m1.BaseAnnotations) < len(m2.BaseAnnotations) {
+				return false
+			}
+			return m1.CreatedAt.After(m2.CreatedAt)
+		})
+		if m == nil {
+			return ""
 		}
-		if m1.Type != common.OCRModelTypeOCR {
-			return false
-		}
-		if len(m1.BaseAnnotations) > len(m2.BaseAnnotations) {
-			return true
-		}
-		if len(m1.BaseAnnotations) < len(m2.BaseAnnotations) {
-			return false
-		}
-		return m1.CreatedAt.After(m2.CreatedAt)
-	})
+		return m.ID
+	}
 
 	categoriesToRemove := []string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}
 	categoriesToRename :=
@@ -395,7 +382,6 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 		"CatchWord",
 		"DigitizationArtefactZone",
 		"DropCapitalZone",
-		"DropCapitalZone-Plain",
 		"GraphicZone-Decoration",
 		"GraphicZone-Diagram",
 		"GraphicZone-Table",
@@ -407,7 +393,7 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	return [][]annotationrule.AnnotationRule{
 		{
 			annotationrule.NewSlicePagesFixed(fac.MainTextPages),
-			annotationrule.NewModelDetect(lo.TernaryF(suggestedSegModel == nil, func() string { return "" }, func() string { return suggestedSegModel.ID })),
+			annotationrule.NewModelDetect(largestModel(allModels, common.OCRModelTypeSegment)),
 			annotationrule.NewRemoveCategories(categoriesToRemove),
 			annotationrule.NewRenameCategories(categoriesToRename),
 			annotationrule.NewRemoveOverlap(categoriesForOverlapRemove, 1000),
@@ -416,10 +402,12 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 			annotationrule.NewLimitCategoryZones("RunningTitleZone", 1, annotationrule.KeepPositionTop),
 			annotationrule.NewResolveOverlapWithPriority("DropCapitalZone", "GraphicZone-Diagram", 0.8),
 			annotationrule.NewResolveOverlapWithPriority("DropCapitalZone", "GraphicZone-Decoration", 0.8),
-			annotationrule.NewLinesDetect([]string{"MainZone", "MarginTextZone"}, categoriesToExcludeFromLineDetection),
+			annotationrule.NewResolveOverlapWithPriority("MainZone-Head--Book", "MainZone-Head--Section", 0.8),
+			annotationrule.NewLinesDetect([]string{"MainZone", "MarginTextZone", "DropCapitalZone-Plain"}, categoriesToExcludeFromLineDetection),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Book", 5, 0.6),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Section", 5, 0.85),
-			annotationrule.NewOCRModelDetect(lo.TernaryF(suggestedOCRModel == nil, func() string { return "" }, func() string { return suggestedOCRModel.ID })),
+			annotationrule.NewOCRModelDetect(largestModel(allModels, common.OCRModelTypeOCR)),
+			annotationrule.NewLLMTranscriptionCorrector("claude-code", "fable", nil, false),
 		},
 	}, nil
 }
