@@ -11,19 +11,15 @@ import { MultiSelectDropdown } from './core/MultiSelectDropdown.tsx'
 
 import { getStageDisplayName } from '../utils/stages.ts'
 import { Button } from './core/Button.tsx'
+import {
+  DATASET_COMPLETENESS_ITEMS,
+  getDatasetCompleteness,
+  type DatasetCompleteness,
+} from '../utils/datasets.ts'
 
 const Separator = () => <span className="self-stretch bg-gray-600 w-px mx-2" />
 const HIDDEN_FILTER = '__hidden__' as const
 type AnnotationFilterItem = annotationrule_PipelineStage | typeof HIDDEN_FILTER
-type DatasetCompleteness = 'full' | 'partial'
-
-const DATASET_COMPLETENESS_ITEMS: DatasetCompleteness[] = ['full', 'partial']
-
-const isFullDatasetPageRange = (pages?: string) => {
-  const pageRange = pages?.trim() ?? ''
-  // The backend omits `pages` when the dataset uses the entire facsimile.
-  return pageRange === '' || /^1\s*-\s*[1-9]\d*$/.test(pageRange)
-}
 
 export function BreadcrumbNav() {
   const { state, setState } = useAppState()
@@ -78,11 +74,7 @@ export function BreadcrumbNav() {
     return datasets
       .filter((d) => {
         if (!d.id) return false
-        const completeness: DatasetCompleteness = isFullDatasetPageRange(
-          d.pages,
-        )
-          ? 'full'
-          : 'partial'
+        const completeness = getDatasetCompleteness(d.pages)
         return selectedCompleteness.includes(completeness)
       })
       .map((d) => ({
@@ -138,11 +130,7 @@ export function BreadcrumbNav() {
     )
     if (!selectedDataset) return
 
-    const selectedCompleteness: DatasetCompleteness = isFullDatasetPageRange(
-      selectedDataset.pages,
-    )
-      ? 'full'
-      : 'partial'
+    const selectedCompleteness = getDatasetCompleteness(selectedDataset.pages)
     const effectiveItems = items ?? DATASET_COMPLETENESS_ITEMS
     if (!effectiveItems.includes(selectedCompleteness)) {
       handleDatasetChange('')

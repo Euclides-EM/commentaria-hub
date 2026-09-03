@@ -46,6 +46,11 @@ import {
   getFacsimileCopyright,
   type CopyrightStatus,
 } from '../../utils/copyright.ts'
+import {
+  DATASET_COMPLETENESS_ITEMS,
+  getDatasetCompleteness,
+  type DatasetCompleteness,
+} from '../../utils/datasets.ts'
 
 type AnnotationRow = {
   datasetId: string
@@ -201,6 +206,11 @@ export function AnnotationsTable({
   >('annotationsFilterCopyrights', {
     defaultValue: null,
   })
+  const [selectedDatasetCompleteness, setSelectedDatasetCompleteness] =
+    useLocalStorageState<DatasetCompleteness[] | null>(
+      'annotationsFilterDatasetCompleteness',
+      { defaultValue: null },
+    )
   const [groundTruthFilter, setGroundTruthFilter] =
     useLocalStorageState<GroundTruthFilter>('annotationsGroundTruthFilter', {
       defaultValue: 'all',
@@ -445,6 +455,14 @@ export function AnnotationsTable({
     const trimmedGroupQuery = groupSearchQuery.trim().toLowerCase()
 
     return rows.filter((row) => {
+      const selectedCompleteness =
+        selectedDatasetCompleteness ?? DATASET_COMPLETENESS_ITEMS
+      const datasetCompleteness = getDatasetCompleteness(
+        datasetById.get(row.datasetId)?.pages,
+      )
+      if (!selectedCompleteness.includes(datasetCompleteness)) {
+        return false
+      }
       const copyrightStatus = getCopyrightStatus(
         copyrightByDatasetId.get(row.datasetId) ?? 'unknown copyright',
       )
@@ -504,6 +522,7 @@ export function AnnotationsTable({
     })
   }, [
     copyrightByDatasetId,
+    datasetById,
     groundTruthFilter,
     groupSearchQuery,
     groupsByRowKey,
@@ -511,6 +530,7 @@ export function AnnotationsTable({
     rows,
     searchQuery,
     selectedCopyrights,
+    selectedDatasetCompleteness,
     selectedStageFilters,
   ])
 
@@ -1210,6 +1230,25 @@ export function AnnotationsTable({
             onChange={setGroupSearchQuery}
             placeholder="Filter groups..."
             className="w-[18rem] max-w-full"
+          />
+          <MultiSelectDropdown<DatasetCompleteness>
+            allItems={DATASET_COMPLETENESS_ITEMS}
+            selectedItems={selectedDatasetCompleteness}
+            setSelectedItems={setSelectedDatasetCompleteness}
+            itemsLabel="coverage types"
+            getItemLabel={(item) => (item === 'full' ? 'Full' : 'Partial')}
+            getPickerLabel={({ selectedItems }) => {
+              if (
+                selectedItems == null ||
+                selectedItems.length === DATASET_COMPLETENESS_ITEMS.length
+              ) {
+                return 'Full & partial'
+              }
+              if (selectedItems.length === 0) return 'None'
+              return selectedItems[0] === 'full'
+                ? 'Full only'
+                : 'Partial only'
+            }}
           />
           {stages && (
             <MultiSelectDropdown
