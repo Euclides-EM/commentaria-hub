@@ -385,10 +385,12 @@ def glue_lines(alto_path: Path, baselines_json: Path) -> None:
     tree.write(str(alto_path), encoding="UTF-8", xml_declaration=True, pretty_print=True)
 
 
-def detect_lines(image_dir: Path, alto_dir: Path, output_dir: Path) -> None:
+def detect_lines(image_dir: Path, alto_dir: Path, output_dir: Path, artifacts_dir: Path) -> None:
     include = env_list("INCLUDE_CATEGORIES")
     ignore = env_list("IGNORE_CATEGORIES")
     copy_alto(alto_dir, output_dir)
+    line_artifacts_dir = artifacts_dir / "line-detection"
+    line_artifacts_dir.mkdir(parents=True, exist_ok=True)
 
     def process_page(alto_path: Path) -> None:
         tree = delete_lines(alto_path)
@@ -400,10 +402,10 @@ def detect_lines(image_dir: Path, alto_dir: Path, output_dir: Path) -> None:
         for category in categories:
             effective_include = [category] if category else []
             effective_ignore = ignore + [c for c in include if c != category]
-            mask_path = output_dir / f"{alto_path.stem}-{category or 'all'}-mask.png"
+            mask_path = line_artifacts_dir / f"{alto_path.stem}-{category or 'all'}-mask.png"
             if not create_mask(alto_path, mask_path, effective_include, effective_ignore):
                 continue
-            json_path = output_dir / f"{alto_path.stem}-{category or 'all'}-baselines.json"
+            json_path = line_artifacts_dir / f"{alto_path.stem}-{category or 'all'}-baselines.json"
             run(["kraken", "-d", "cuda:0", "-i", str(img_path), str(json_path), "segment", "-bl", "--mask", str(mask_path), "--pad", "2", "2"])
             glue_lines(alto_path, json_path)
 
@@ -501,7 +503,7 @@ def main() -> int:
     model_path = Path(env("MODEL_PATH")) if env("MODEL_PATH") else Path()
     try:
         if mode == "lines":
-            detect_lines(image_dir, alto_dir, output_dir)
+            detect_lines(image_dir, alto_dir, output_dir, artifacts_dir)
         elif mode == "model_segment":
             model_segment(image_dir, output_dir, model_path)
         elif mode == "model_ocr":
