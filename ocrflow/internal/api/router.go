@@ -147,7 +147,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/facsimilies/mapping-csv", httpwrapper.GetZip(h.DownloadFacsimileMappingCSV).CreateFile(h.UploadFacsimileMappingCSV).Build())
 	api.HandleFunc("/facsimilies/{id}/diagrams", httpwrapper.Get(h.GetFacsimileDiagramCrops).Build())
 	api.HandleFunc("/facsimilies/{id}/pdf", httpwrapper.GetFile(h.DownloadFacsimilePDF, "application/pdf").Build())
-	api.HandleFunc("/facsimilies/{id}", httpwrapper.Get(h.GetFacsimile).Update(h.UpdateFacsimile).Build())
+	api.HandleFunc("/facsimilies/{id}", httpwrapper.Get(h.GetFacsimile).Update(h.UpdateFacsimile).Delete(h.DeleteFacsimile).Build())
 
 	api.HandleFunc("/integrations/platforms", httpwrapper.Get(h.ListIntegrationPlatforms).Build())
 	api.HandleFunc("/jobs", httpwrapper.Get(h.ListJobs).Create(h.CreateJobs).Build())

@@ -90,6 +90,26 @@ func (h *Handlers) UpdateFacsimile(r *http.Request) (any, error) {
 	return h.deps.FacsimileSvc.UpdateFacsimile(&facsimile)
 }
 
+// DeleteFacsimile godoc
+// @Summary      Delete Facsimile
+// @Description  Delete a facsimile and its server-managed local PDF. Facsimiles used by datasets cannot be deleted until those datasets are deleted.
+// @Tags         Facsimiles
+// @Param        id  path  string  true  "Facsimile ID"
+// @Security     BearerAuth
+// @Produce      json
+// @Success      200  {object}  map[string]string
+// @Router       /facsimilies/{id} [delete]
+func (h *Handlers) DeleteFacsimile(r *http.Request) (any, error) {
+	id := r.PathValue("id")
+	if id == "" {
+		return nil, fmt.Errorf("missing facsimile ID")
+	}
+	if err := h.deps.FacsimileSvc.DeleteFacsimile(id); err != nil {
+		return nil, err
+	}
+	return map[string]string{"status": "deleted"}, nil
+}
+
 // ImportFacsimilesFromDrive godoc
 // @Summary      Import facsimiles and diagram crops from Google Drive inbox
 // @Description  Copies PDFs from the configured Google Drive folder into FACSIMILES_PDF_DIR, installs diagram crop archives into FACSIMILES_DIAGRAMS_PATH, updates metadata, then deletes successfully imported files from Drive.

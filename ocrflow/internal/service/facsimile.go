@@ -108,6 +108,90 @@ func (e *Facsimile) UpdateFacsimile(f *model.Facsimile) (*model.Facsimile, error
 	return updated, nil
 }
 
+// DeleteFacsimile removes a facsimile that is no longer used by a dataset. If
+// the scan is a local PDF managed by FACSIMILES_PDF_DIR, it is removed as well;
+// otherwise only the database record is deleted.
+func (e *Facsimile) DeleteFacsimile(id string) error {
+	facsimile, err := e.GetFacsimile(id)
+	if err != nil {
+		return err
+	}
+
+	datasetCount, err := e.facsimileStore.CountDatasetsByFacsimileID(id)
+	if err != nil {
+		return fmt.Errorf("failed to check datasets for facsimile %s: %w", id, err)
+	}
+	if datasetCount > 0 {
+		return fmt.Errorf("cannot delete facsimile %s: it is used by %d dataset(s); delete those datasets first", id, datasetCount)
+	}
+
+	localPDFPath, managed, err := e.managedLocalPDFPath(facsimile)
+	if err != nil {
+		return err
+	}
+	if !managed {
+		if err := e.facsimileStore.DeleteFacsimile(id); err != nil {
+			return fmt.Errorf("failed to delete facsimile %s from store: %w", id, err)
+		}
+		return nil
+	}
+
+	// Move the PDF out of the scanner's *.pdf namespace before changing the
+	// database. This prevents startup sync from recreating the row, while still
+	// allowing us to restore the file if the database delete fails.
+	stagedPath := localPDFPath + ".deleting-" + id
+	if _, err := os.Lstat(stagedPath); err == nil {
+		return fmt.Errorf("cannot delete facsimile %s: staged deletion path already exists: %s", id, stagedPath)
+	} else if !os.IsNotExist(err) {
+		return fmt.Errorf("failed to check staged deletion path %s: %w", stagedPath, err)
+	}
+	if err := os.Rename(localPDFPath, stagedPath); err != nil && !os.IsNotExist(err) {
+		return fmt.Errorf("failed to stage facsimile PDF %s for deletion: %w", localPDFPath, err)
+	} else if err == nil {
+		if err := e.facsimileStore.DeleteFacsimile(id); err != nil {
+			if restoreErr := os.Rename(stagedPath, localPDFPath); restoreErr != nil {
+				return fmt.Errorf("failed to delete facsimile %s from store: %w (also failed to restore PDF: %v)", id, err, restoreErr)
+			}
+			return fmt.Errorf("failed to delete facsimile %s from store: %w", id, err)
+		}
+		if err := os.Remove(stagedPath); err != nil && !os.IsNotExist(err) {
+			return fmt.Errorf("facsimile %s was deleted, but its staged PDF could not be removed: %w", id, err)
+		}
+		return nil
+	}
+
+	if err := e.facsimileStore.DeleteFacsimile(id); err != nil {
+		return fmt.Errorf("failed to delete facsimile %s from store: %w", id, err)
+	}
+	return nil
+}
+
+func (e *Facsimile) managedLocalPDFPath(facsimile *model.Facsimile) (string, bool, error) {
+	if facsimile == nil || e.facsimilesPDFDir == "" || !futils.IsLocalFileURL(facsimile.ScanURL) {
+		return "", false, nil
+	}
+	localPath, err := futils.URLToLocalFilePath(facsimile.ScanURL)
+	if err != nil {
+		return "", false, fmt.Errorf("failed to resolve local PDF for facsimile %s: %w", facsimile.ID, err)
+	}
+	pdfDir, err := filepath.Abs(e.facsimilesPDFDir)
+	if err != nil {
+		return "", false, fmt.Errorf("failed to resolve facsimile PDF directory: %w", err)
+	}
+	localPath, err = filepath.Abs(localPath)
+	if err != nil {
+		return "", false, fmt.Errorf("failed to resolve facsimile PDF path: %w", err)
+	}
+	rel, err := filepath.Rel(pdfDir, localPath)
+	if err != nil {
+		return "", false, fmt.Errorf("failed to validate facsimile PDF path: %w", err)
+	}
+	if rel == "." || rel == ".." || filepath.IsAbs(rel) || strings.HasPrefix(rel, ".."+string(os.PathSeparator)) {
+		return "", false, nil
+	}
+	return localPath, true, nil
+}
+
 func (e *Facsimile) validateFacsimileShelfmarkMapping(f *model.Facsimile) error {
 	if f == nil {
 		return fmt.Errorf("facsimile is nil")

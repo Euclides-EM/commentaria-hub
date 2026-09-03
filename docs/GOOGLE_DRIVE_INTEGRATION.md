@@ -147,4 +147,14 @@ curl -fL \
   http://127.0.0.1:8090/api/v1/facsimilies/<facsimile-id>/pdf
 ```
 
+To delete a facsimile, use the authenticated delete endpoint:
+
+```bash
+curl -f -X DELETE \
+  -H "Authorization: Bearer <github-token>" \
+  http://127.0.0.1:8090/api/v1/facsimilies/<facsimile-id>
+```
+
+The endpoint deletes both the database record and a PDF managed under `FACSIMILES_PDF_DIR`, so the startup scan does not import it again. It refuses to delete a facsimile referenced by a dataset; delete those datasets first. PDFs outside the configured server-managed directory are not removed.
+
 After importing PDFs, connect each facsimile to its shelfmark from the edition edit page. A single edition can have multiple facsimiles, but each shelfmark can be connected to at most one facsimile. For bulk cleanup, use the temporary facsimile mapping ZIP from the edition edit page: use `shelfmarks.csv` as the lookup table, edit only `shelfmark_id` and `facsimile_connection_confirmation_status` in `facsimiles.csv`, then upload `facsimiles.csv`.

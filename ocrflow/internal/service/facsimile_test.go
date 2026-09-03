@@ -36,6 +36,63 @@ func TestDownloadableFacsimilePDFPathSkipsUnavailableFacsimile(t *testing.T) {
 	}
 }
 
+func TestDeleteFacsimileRemovesManagedPDFAndRecord(t *testing.T) {
+	dir := t.TempDir()
+	pdfPath := filepath.Join(dir, "Paris_1615.pdf")
+	if err := writeTestPDF(pdfPath); err != nil {
+		t.Fatal(err)
+	}
+
+	svc := newTestFacsimileService(t)
+	svc.facsimilesPDFDir = dir
+	if err := svc.UpdateFromLocalDir(dir); err != nil {
+		t.Fatal(err)
+	}
+	facsimiles, err := svc.ListFacsimiles([]string{"Paris_1615"})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(facsimiles) != 1 {
+		t.Fatalf("got %d facsimiles, want 1", len(facsimiles))
+	}
+
+	if err := svc.DeleteFacsimile(facsimiles[0].ID); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := os.Stat(pdfPath); !os.IsNotExist(err) {
+		t.Fatalf("managed PDF still exists after delete: %v", err)
+	}
+	got, err := svc.ListFacsimiles([]string{"Paris_1615"})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(got) != 0 {
+		t.Fatalf("got %d facsimiles after delete, want 0", len(got))
+	}
+}
+
+func TestDeleteFacsimileRejectsReferencedFacsimile(t *testing.T) {
+	svc, db := newTestFacsimileServiceAndDB(t, nil)
+	created, err := svc.CreateFacsimile(&model.Facsimile{
+		EditionID: "Paris_1615",
+		Meta:      common.NewMeta("").WithName("Paris scan"),
+		ScanURL:   "https://example.test/paris.pdf",
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if _, err := db.Exec(`INSERT INTO datasets (facsimile_id) VALUES (?)`, created.ID); err != nil {
+		t.Fatal(err)
+	}
+
+	if err := svc.DeleteFacsimile(created.ID); err == nil {
+		t.Fatal("DeleteFacsimile() succeeded for a facsimile used by a dataset")
+	}
+	if got, err := svc.GetFacsimile(created.ID); err != nil || got == nil {
+		t.Fatalf("facsimile was removed after rejected delete: facsimile=%v err=%v", got, err)
+	}
+}
+
 func TestUpdateFromLocalDirGroupsVolumePDFsUnderOneEdition(t *testing.T) {
 	dir := t.TempDir()
 	for _, name := range []string{
@@ -383,6 +440,11 @@ func newTestFacsimileService(t *testing.T) *Facsimile {
 }
 
 func newTestFacsimileServiceWithShelfmarks(t *testing.T, shelfmarks []*model.EditionShelfmark) *Facsimile {
+	svc, _ := newTestFacsimileServiceAndDB(t, shelfmarks)
+	return svc
+}
+
+func newTestFacsimileServiceAndDB(t *testing.T, shelfmarks []*model.EditionShelfmark) (*Facsimile, *sql.DB) {
 	t.Helper()
 	db, err := sql.Open("sqlite3", ":memory:")
 	if err != nil {
@@ -404,6 +466,9 @@ func newTestFacsimileServiceWithShelfmarks(t *testing.T, shelfmarks []*model.Edi
 			imported_at TIMESTAMP,
 			facsimile_connection_confirmation_status TEXT NOT NULL DEFAULT '',
 			PRIMARY KEY (edition_id, id)
+		);
+		CREATE TABLE datasets (
+			facsimile_id TEXT NOT NULL
 		)
 	`); err != nil {
 		t.Fatal(err)
@@ -412,7 +477,7 @@ func newTestFacsimileServiceWithShelfmarks(t *testing.T, shelfmarks []*model.Edi
 		return []string{"Paris_1615", "Venice_1482"}, nil
 	}, func() ([]*model.EditionShelfmark, error) {
 		return shelfmarks, nil
-	}, "", "", "", "", "", "", "", "")
+	}, "", "", "", "", "", "", "", ""), db
 }
 
 func mustLocalPDFPath(t *testing.T, fac *model.Facsimile) string {

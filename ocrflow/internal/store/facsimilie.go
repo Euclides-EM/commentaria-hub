@@ -134,6 +134,18 @@ func (s *FacsimileSQL) DeleteFacsimile(id string) error {
 	return err
 }
 
+func (s *FacsimileSQL) CountDatasetsByFacsimileID(id string) (int, error) {
+	var count int
+	if err := s.db.QueryRow(`
+		SELECT COUNT(*)
+		FROM datasets
+		WHERE facsimile_id = ?
+	`, id).Scan(&count); err != nil {
+		return 0, err
+	}
+	return count, nil
+}
+
 func (s *FacsimileSQL) setAvailability(facsimiles ...*model.Facsimile) {
 	diagramKeys, err := LoadDiagramDirectoryKeys(s.itemsMetadataDir)
 	if err != nil {

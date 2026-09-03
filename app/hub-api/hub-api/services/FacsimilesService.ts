@@ -161,6 +161,28 @@ export class FacsimilesService {
         });
     }
     /**
+     * Delete Facsimile
+     * Delete a facsimile and its server-managed local PDF. Facsimiles used by datasets cannot be deleted until those datasets are deleted.
+     * @returns string OK
+     * @throws ApiError
+     */
+    public static deleteFacsimilies({
+        id,
+    }: {
+        /**
+         * Facsimile ID
+         */
+        id: string,
+    }): CancelablePromise<Record<string, string>> {
+        return __request(OpenAPI, {
+            method: 'DELETE',
+            url: '/facsimilies/{id}',
+            path: {
+                'id': id,
+            },
+        });
+    }
+    /**
      * Get Facsimile Diagrams
      * Get diagram image URLs for a specific facsimile.
      * @returns model_DiagramCrops OK
