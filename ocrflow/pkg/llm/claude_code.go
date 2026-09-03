@@ -44,6 +44,11 @@ func NewClaudeCodeClient(executable string) *ClaudeCodeClient {
 	return &ClaudeCodeClient{executable: executable}
 }
 
+func (c *ClaudeCodeClient) IsAvailable() bool {
+	_, err := exec.LookPath(c.executable)
+	return err == nil
+}
+
 func (c *ClaudeCodeClient) Exec(model, prompt, attachmentPath string) (string, error) {
 	return c.ExecWithLogLabel(model, prompt, attachmentPath, "")
 }

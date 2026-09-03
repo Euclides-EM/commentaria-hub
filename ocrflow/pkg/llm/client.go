@@ -33,6 +33,20 @@ func NewClient(openAIKey string, ollamaBaseURL, ollamaAuthToken string) *Client 
 	}
 }
 
+// IsAvailable reports whether the provider is locally configured for use.
+func (c *Client) IsAvailable(provider string) bool {
+	switch strings.ToLower(strings.TrimSpace(provider)) {
+	case ProviderClaudeCode:
+		return c.claudeCode.IsAvailable()
+	case ProviderOpenAI:
+		return c.openAI.IsAvailable()
+	case ProviderOllama:
+		return c.ollama.IsAvailable()
+	default:
+		return false
+	}
+}
+
 func (c *Client) Exec(provider string, model string, prompt string, attachmentPath string) (string, error) {
 	return c.ExecWithLogLabel(provider, model, prompt, attachmentPath, "")
 }
@@ -72,6 +86,7 @@ func (c *Client) ExecPromptResultWithLogLabel(provider string, model string, pro
 }
 
 type AIProviderClient interface {
+	IsAvailable() bool
 	ExecPromptResultWithLogLabel(model string, prompt Prompt, attachmentPath string, logLabel string) (Result, error)
 }
 

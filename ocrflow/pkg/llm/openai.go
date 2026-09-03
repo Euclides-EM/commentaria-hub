@@ -27,6 +27,10 @@ type OpenAIClient struct {
 	openAIKey string
 }
 
+func (c *OpenAIClient) IsAvailable() bool {
+	return strings.TrimSpace(c.openAIKey) != ""
+}
+
 func (c *OpenAIClient) Exec(model, prompt, attachmentPath string) (string, error) {
 	return c.ExecWithLogLabel(model, prompt, attachmentPath, "")
 }

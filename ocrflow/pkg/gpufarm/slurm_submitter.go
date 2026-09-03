@@ -19,7 +19,7 @@ import (
 
 var slurmJobIDPattern = regexp.MustCompile(`Submitted batch job\s+([^\s]+)`)
 
-const completedRunsToKeep = 1
+const completedRunsToKeep = 0
 
 //go:embed templates/cleanup_completed_runs.sh
 var cleanupCompletedRunsScript string

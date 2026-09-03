@@ -51,6 +51,11 @@ func NewOllamaClient(baseURL, authToken string) *OllamaClient {
 	}
 }
 
+func (c *OllamaClient) IsAvailable() bool {
+	_, err := ollamaEndpoint(c.baseURL, "/api/generate")
+	return err == nil
+}
+
 func (c *OllamaClient) Exec(model, prompt, attachmentPath string) (string, error) {
 	return c.ExecWithLogLabel(model, prompt, attachmentPath, "")
 }

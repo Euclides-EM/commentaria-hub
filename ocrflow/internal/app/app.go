@@ -135,6 +135,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		modelSvc,
 		datasetStore,
 		fileSystemManager,
+		llmClient,
 		env.GithubToken,
 		env.DatasetCreateMaxParallel,
 		env.DatasetCreateQueueWait,

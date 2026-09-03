@@ -20,6 +20,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/formatcov"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/name"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/querylang"
@@ -32,12 +33,17 @@ type Dataset struct {
 	modelSvc        *Model
 	datasetStore    *store.DatasetSQL
 	fileSysMgt      *filesys.Manager
+	llmAvailability llmAvailability
 	httpBearerToken string
 	createQueue     chan struct{}
 	createQueueWait time.Duration
 }
 
-func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, httpBearerToken string, maxParallelCreates int, createQueueWait time.Duration) *Dataset {
+type llmAvailability interface {
+	IsAvailable(provider string) bool
+}
+
+func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, llmAvailability llmAvailability, httpBearerToken string, maxParallelCreates int, createQueueWait time.Duration) *Dataset {
 	if maxParallelCreates <= 0 {
 		maxParallelCreates = 1
 	}
@@ -50,10 +56,33 @@ func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *M
 		modelSvc:        modelSvc,
 		datasetStore:    datasetStore,
 		fileSysMgt:      fileSystemMgt,
+		llmAvailability: llmAvailability,
 		httpBearerToken: strings.TrimSpace(httpBearerToken),
 		createQueue:     make(chan struct{}, maxParallelCreates),
 		createQueueWait: createQueueWait,
 	}
+}
+
+func (d *Dataset) suggestedLLMTranscriptionCorrector() (provider, model string) {
+	providers := []struct {
+		provider string
+		model    string
+	}{
+		{provider: llm.ProviderClaudeCode, model: "fable"},
+		{provider: llm.ProviderOpenAI, model: "gpt-5.6-terra"},
+		{provider: llm.ProviderOllama, model: "qwen3-vl:32b"},
+	}
+
+	for _, candidate := range providers {
+		if d.llmAvailability != nil && d.llmAvailability.IsAvailable(candidate.provider) {
+			return candidate.provider, candidate.model
+		}
+	}
+
+	// Preserve Ollama as the final suggested fallback even when no provider is
+	// currently configured; the rule may be saved and executed elsewhere.
+	fallback := providers[len(providers)-1]
+	return fallback.provider, fallback.model
 }
 
 func (d *Dataset) List(filter *querylang.Filter, sort querylang.Sort) ([]*model.Dataset, error) {
@@ -390,6 +419,8 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 		"RunningTitleZone",
 	}
 
+	llmTranscriptionCorrectorProvider, llmTranscriptionCorrectorModel := d.suggestedLLMTranscriptionCorrector()
+
 	return [][]annotationrule.AnnotationRule{
 		{
 			annotationrule.NewSlicePagesFixed(fac.MainTextPages),
@@ -407,7 +438,7 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Book", 5, 0.6),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Section", 5, 0.85),
 			annotationrule.NewOCRModelDetect(largestModel(allModels, common.OCRModelTypeOCR)),
-			annotationrule.NewLLMTranscriptionCorrector("claude-code", "fable", nil, false),
+			annotationrule.NewLLMTranscriptionCorrector(llmTranscriptionCorrectorProvider, llmTranscriptionCorrectorModel, nil, false),
 		},
 	}, nil
 }

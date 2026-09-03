@@ -95,7 +95,7 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 		Ocred:     false,
 	}))
 
-	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, "", 1, 0)
+	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
 	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
 
 	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil)
@@ -149,7 +149,7 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 		}}}}}},
 	}, filepath.Join(annotationAltoDir, "page-0001.xml")))
 
-	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, "", 1, 0)
+	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
 	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
 
 	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil)
