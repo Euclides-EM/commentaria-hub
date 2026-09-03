@@ -238,7 +238,8 @@ func TestUpdateFromLocalDirUpdatesPathWhenPDFDirectoryMoves(t *testing.T) {
 	}
 
 	svc := newTestFacsimileService(t)
-	if _, err := svc.CreateFacsimile(&model.Facsimile{EditionID: "Paris_1615", ScanURL: oldURL}); err != nil {
+	existing, err := svc.CreateFacsimile(&model.Facsimile{EditionID: "Paris_1615", ScanURL: oldURL})
+	if err != nil {
 		t.Fatal(err)
 	}
 	if err := svc.UpdateFromLocalDir(newDir); err != nil {
@@ -252,8 +253,73 @@ func TestUpdateFromLocalDirUpdatesPathWhenPDFDirectoryMoves(t *testing.T) {
 	if len(got) != 1 {
 		t.Fatalf("got %d facsimiles after moving the PDF directory, want 1", len(got))
 	}
+	if got[0].ID != existing.ID {
+		t.Fatalf("facsimile ID = %q, want existing ID %q", got[0].ID, existing.ID)
+	}
 	if path := mustLocalPDFPath(t, got[0]); path != newPath {
 		t.Fatalf("PDF path = %q, want %q", path, newPath)
+	}
+}
+
+func TestUpdateFromLocalDirDifferentPDFNameDoesNotReplaceExistingFacsimile(t *testing.T) {
+	dir := t.TempDir()
+	if err := writeTestPDF(filepath.Join(dir, "Paris_1615.pdf")); err != nil {
+		t.Fatal(err)
+	}
+
+	svc := newTestFacsimileService(t)
+	existing, err := svc.CreateFacsimile(&model.Facsimile{EditionID: "Paris_1615", ScanURL: "file:///previous/Paris_1615_bnf.pdf"})
+	if err != nil {
+		t.Fatal(err)
+	}
+	existing.Name = "Paris_1615"
+	if _, err := svc.UpdateFacsimile(existing); err != nil {
+		t.Fatal(err)
+	}
+
+	if err := svc.UpdateFromLocalDir(dir); err != nil {
+		t.Fatal(err)
+	}
+	got, err := svc.ListFacsimiles([]string{"Paris_1615"})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(got) != 2 {
+		t.Fatalf("got %d facsimiles, want a separate facsimile for the different PDF filename", len(got))
+	}
+}
+
+func TestReplaceDiagramCropsReplacesBaseAndVolumeKeys(t *testing.T) {
+	diagramsDir := t.TempDir()
+	for _, key := range []string{"Paris_1615", "Paris_1615_vol1"} {
+		dst := filepath.Join(diagramsDir, key, "crops")
+		if err := os.MkdirAll(dst, 0o755); err != nil {
+			t.Fatal(err)
+		}
+		if err := os.WriteFile(filepath.Join(dst, "old.jpg"), []byte("old"), 0o600); err != nil {
+			t.Fatal(err)
+		}
+
+		src := filepath.Join(t.TempDir(), key)
+		if err := os.MkdirAll(filepath.Join(src, "crops"), 0o755); err != nil {
+			t.Fatal(err)
+		}
+		if err := os.WriteFile(filepath.Join(src, "crops", "new.jpg"), []byte("new"), 0o600); err != nil {
+			t.Fatal(err)
+		}
+		if err := replaceDiagramCrops(src, diagramsDir, key); err != nil {
+			t.Fatal(err)
+		}
+		if _, err := os.Stat(filepath.Join(dst, "old.jpg")); !os.IsNotExist(err) {
+			t.Fatalf("old crop for %s still exists: %v", key, err)
+		}
+		contents, err := os.ReadFile(filepath.Join(dst, "new.jpg"))
+		if err != nil {
+			t.Fatal(err)
+		}
+		if string(contents) != "new" {
+			t.Fatalf("new crop for %s = %q, want new", key, contents)
+		}
 	}
 }
 

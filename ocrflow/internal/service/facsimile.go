@@ -878,12 +878,8 @@ func (e *Facsimile) importDriveDiagramCrops(entry driveFileEntry) ([]string, err
 
 	imported := make([]string, 0, len(cropDirs))
 	for key, src := range cropDirs {
-		dst := filepath.Join(diagramsDir, key)
-		if err := os.RemoveAll(dst); err != nil {
-			return nil, fmt.Errorf("remove existing diagram crops for %s: %w", key, err)
-		}
-		if err := futils.CopyDir(src, dst); err != nil {
-			return nil, fmt.Errorf("install diagram crops for %s: %w", key, err)
+		if err := replaceDiagramCrops(src, diagramsDir, key); err != nil {
+			return nil, err
 		}
 		if err := e.deleteDiagramCropMetadata(key); err != nil {
 			return nil, err
@@ -892,6 +888,31 @@ func (e *Facsimile) importDriveDiagramCrops(entry driveFileEntry) ([]string, err
 	}
 	slices.Sort(imported)
 	return imported, nil
+}
+
+// replaceDiagramCrops installs all crops for one exact edition key. The key is
+// intentionally not reduced to a base key: both "edition" and
+// "edition_vol1" are valid, independently replaceable crop directories.
+func replaceDiagramCrops(src, diagramsDir, key string) error {
+	staging, err := os.MkdirTemp(diagramsDir, "."+key+"-")
+	if err != nil {
+		return fmt.Errorf("create staging directory for diagram crops %s: %w", key, err)
+	}
+	defer os.RemoveAll(staging)
+
+	staged := filepath.Join(staging, key)
+	if err := futils.CopyDir(src, staged); err != nil {
+		return fmt.Errorf("stage diagram crops for %s: %w", key, err)
+	}
+
+	dst := filepath.Join(diagramsDir, key)
+	if err := os.RemoveAll(dst); err != nil {
+		return fmt.Errorf("remove existing diagram crops for %s: %w", key, err)
+	}
+	if err := os.Rename(staged, dst); err != nil {
+		return fmt.Errorf("install diagram crops for %s: %w", key, err)
+	}
+	return nil
 }
 
 func (e *Facsimile) regenerateDiagramCropMetadata() error {
