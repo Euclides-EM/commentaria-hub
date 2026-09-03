@@ -1245,9 +1245,7 @@ export function AnnotationsTable({
                 return 'Full & partial'
               }
               if (selectedItems.length === 0) return 'None'
-              return selectedItems[0] === 'full'
-                ? 'Full only'
-                : 'Partial only'
+              return selectedItems[0] === 'full' ? 'Full only' : 'Partial only'
             }}
           />
           {stages && (

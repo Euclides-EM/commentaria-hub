@@ -8,28 +8,6 @@ import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class ShelfmarksService {
     /**
-     * List shelfmarks
-     * Lists shelfmarks, optionally filtered by edition ID.
-     * @returns model_EditionShelfmark OK
-     * @throws ApiError
-     */
-    public static getShelfmarks({
-        editionId,
-    }: {
-        /**
-         * Filter by edition ID
-         */
-        editionId?: Array<string>,
-    } = {}): CancelablePromise<Array<model_EditionShelfmark>> {
-        return __request(OpenAPI, {
-            method: 'GET',
-            url: '/shelfmarks',
-            query: {
-                'edition_id': editionId,
-            },
-        });
-    }
-    /**
      * List edition shelfmarks
      * Lists shelfmarks for an edition.
      * @returns model_EditionShelfmark OK
@@ -116,7 +94,7 @@ export class ShelfmarksService {
     /**
      * Delete edition shelfmark
      * Deletes a shelfmark from an edition.
-     * @returns any OK
+     * @returns string OK
      * @throws ApiError
      */
     public static deleteEditionsShelfmarks({
@@ -131,13 +109,35 @@ export class ShelfmarksService {
          * Shelfmark ID
          */
         shelfmarkId: string,
-    }): CancelablePromise<any> {
+    }): CancelablePromise<Record<string, string>> {
         return __request(OpenAPI, {
             method: 'DELETE',
             url: '/editions/{editionId}/shelfmarks/{shelfmarkId}',
             path: {
                 'editionId': editionId,
                 'shelfmarkId': shelfmarkId,
+            },
+        });
+    }
+    /**
+     * List shelfmarks
+     * Lists shelfmarks, optionally filtered by edition ID.
+     * @returns model_EditionShelfmark OK
+     * @throws ApiError
+     */
+    public static getShelfmarks({
+        editionId,
+    }: {
+        /**
+         * Filter by edition ID
+         */
+        editionId?: Array<string>,
+    }): CancelablePromise<Array<model_EditionShelfmark>> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/shelfmarks',
+            query: {
+                'edition_id': editionId,
             },
         });
     }

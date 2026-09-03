@@ -18,3 +18,4 @@ export type model_EditionShelfmark = {
     transcription_available?: model_EditionShelfmarkTranscriptionAvailability;
     volume?: number;
 };
+

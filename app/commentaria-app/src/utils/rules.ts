@@ -105,7 +105,8 @@ export const isRuleApplied = (
   return (
     !!annotation?.applied_rules &&
     annotation.applied_rules.some(
-      (rule) => JSON.stringify(withoutExecutionMetadata(rule)) === serializedRule,
+      (rule) =>
+        JSON.stringify(withoutExecutionMetadata(rule)) === serializedRule,
     )
   )
 }

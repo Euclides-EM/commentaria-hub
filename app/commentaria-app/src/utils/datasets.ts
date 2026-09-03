@@ -11,6 +11,5 @@ export const isFullDatasetPageRange = (pages?: string) => {
   return pageRange === '' || /^1\s*-\s*[1-9]\d*$/.test(pageRange)
 }
 
-export const getDatasetCompleteness = (
-  pages?: string,
-): DatasetCompleteness => (isFullDatasetPageRange(pages) ? 'full' : 'partial')
+export const getDatasetCompleteness = (pages?: string): DatasetCompleteness =>
+  isFullDatasetPageRange(pages) ? 'full' : 'partial'

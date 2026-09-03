@@ -88,21 +88,23 @@ export class FacsimilesService {
     /**
      * Upload facsimile mapping CSV
      * Uploads an edited facsimiles.csv file and updates facsimile shelfmark mappings.
-     * @returns any OK
+     * @returns string OK
      * @throws ApiError
      */
     public static postFacsimiliesMappingCsv({
-        formData,
+        file,
     }: {
-        formData: {
-            file: Blob;
-        },
-    }): CancelablePromise<any> {
+        /**
+         * facsimiles.csv
+         */
+        file: Blob,
+    }): CancelablePromise<Record<string, string>> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/facsimilies/mapping-csv',
-            formData: formData,
-            mediaType: 'multipart/form-data',
+            formData: {
+                'file': file,
+            },
         });
     }
     /**
@@ -159,28 +161,6 @@ export class FacsimilesService {
         });
     }
     /**
-     * Download facsimile PDF
-     * Downloads a local facsimile PDF by facsimile ID.
-     * @returns binary Facsimile PDF
-     * @throws ApiError
-     */
-    public static getFacsimiliesPdf({
-        id,
-    }: {
-        /**
-         * Facsimile ID
-         */
-        id: string,
-    }): CancelablePromise<Blob> {
-        return __request(OpenAPI, {
-            method: 'GET',
-            url: '/facsimilies/{id}/pdf',
-            path: {
-                'id': id,
-            },
-        });
-    }
-    /**
      * Get Facsimile Diagrams
      * Get diagram image URLs for a specific facsimile.
      * @returns model_DiagramCrops OK
@@ -197,6 +177,28 @@ export class FacsimilesService {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/facsimilies/{id}/diagrams',
+            path: {
+                'id': id,
+            },
+        });
+    }
+    /**
+     * Download facsimile PDF
+     * Downloads a local facsimile PDF by facsimile ID.
+     * @returns binary Facsimile PDF
+     * @throws ApiError
+     */
+    public static getFacsimiliesPdf({
+        id,
+    }: {
+        /**
+         * Facsimile ID
+         */
+        id: string,
+    }): CancelablePromise<Blob> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/facsimilies/{id}/pdf',
             path: {
                 'id': id,
             },

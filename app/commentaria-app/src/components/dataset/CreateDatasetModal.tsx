@@ -78,7 +78,10 @@ export function CreateDatasetModal({
   })
 
   const facsimileOptions = useMemo(() => {
-    const shelfmarksByEdition = new Map<string, NonNullable<typeof shelfmarks>>()
+    const shelfmarksByEdition = new Map<
+      string,
+      NonNullable<typeof shelfmarks>
+    >()
     for (const shelfmark of shelfmarks ?? []) {
       const editionId = normalizeEditionId(shelfmark.edition_id ?? '')
       if (!editionId) {
@@ -97,7 +100,9 @@ export function CreateDatasetModal({
       ]),
     )
 
-    const copyrightForFacsimile = (facsimile: NonNullable<typeof facsimiles>[number]) => {
+    const copyrightForFacsimile = (
+      facsimile: NonNullable<typeof facsimiles>[number],
+    ) => {
       const editionId = normalizeEditionId(facsimile.edition_id ?? '')
       const edition = editionById.get(editionId)
       return getFacsimileCopyright(

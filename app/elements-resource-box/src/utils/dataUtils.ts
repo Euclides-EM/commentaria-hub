@@ -14,9 +14,7 @@ type EditionWithShelfmarks = model_Edition & {
 
 const firstOrNull = <T>(arr: T[]): T | null => (arr.length > 0 ? arr[0] : null);
 
-const dedupeShelfmarksByScan = (
-  shelfmarks: model_EditionShelfmark[],
-) =>
+const dedupeShelfmarksByScan = (shelfmarks: model_EditionShelfmark[]) =>
   uniqBy(
     shelfmarks.filter((shelfmark) => shelfmark.scan?.trim()),
     (shelfmark) => shelfmark.scan!.trim(),
@@ -69,7 +67,9 @@ const toBookRanges = (books: number[]) => {
     }, []);
 };
 
-export const mapEditionsToItems = (editions: EditionWithShelfmarks[]): Item[] => {
+export const mapEditionsToItems = (
+  editions: EditionWithShelfmarks[],
+): Item[] => {
   return editions
     .filter((edition) => edition.key)
     .map((edition) => {

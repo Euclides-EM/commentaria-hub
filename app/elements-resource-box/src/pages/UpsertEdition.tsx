@@ -2372,9 +2372,7 @@ export const UpsertEdition = () => {
 
                         <FormField>
                           <Label>Note</Label>
-                          <form.Field
-                            name={`shelfmarks[${i}].note`}
-                          >
+                          <form.Field name={`shelfmarks[${i}].note`}>
                             {(f) => (
                               <TextArea
                                 value={f.state.value || ""}
