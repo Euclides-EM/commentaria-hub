@@ -53,12 +53,12 @@ All by DOVNOT DE BAR-LE-DUC, Doctor
 of Laws, & Professor in the divine Mathematics
 at the King's Academies.",
 Paris_1610,imprint,"IN PARIS, At JACQUES LE ROY, at the Hope before the College of Cambray. M DC. X.",
-Kiel_and_Leipzig_1699,title,"Samuel Reyhers, JCti, At the High-Princely Holstein University Codic. and Mathematics Prof. In German Language presented EUCLIDES, Whose first VI books in a special and very easy way, With Algebraic, or from the latest Art of Solution borrowed signs, so that one can use their proofs also in other languages, arranged, also the lectures of the II. Book together with the common, in an Algebraic manner are proven.",summer_2025
-Kiel_and_Leipzig_1699,imprint,"Kiel, Printed by Joachim Reumann, Academic Book Printer, at Johann Sebastian Riecheln, Academic Bookseller there, and available in Leipzig, In the year 1699.",summer_2025
+Kiel_and_Leipzig_1699,title,"Samuel Reyhers, JCti, At the High-Princely Holstein University Codic. and Mathematics Prof. In German Language presented EUCLIDES, Whose first VI books in a special and very easy way, With Algebraic, or from the latest Art of Solution borrowed signs, so that one can use their proofs also in other languages, arranged, also the lectures of the II. Book together with the common, in an Algebraic manner are proven.",
+Kiel_and_Leipzig_1699,imprint,"Kiel, Printed by Joachim Reumann, Academic Book Printer, at Johann Sebastian Riecheln, Academic Bookseller there, and available in Leipzig, In the year 1699.",
 Lyon_1690,title,"[Vol. 1]: R. P. CLAUDII FRANCISCI MILLIET DECHALES CAMBERENSIS OF THE SOCIETY OF JESUS COURSE OR MATHEMATICAL WORLD. FIRST VOLUME CONTAINING TREATISE.
-ON THE PROGRESS OF MATHEMATICS AND ON Illustrious Mathematicians, Euclid's Fourteen Books, Theodosius's Spherics, Conic Sections, Arithmetic, Trigonometry, Algebra, & refutation of Cartesian Hypotheses. Second edition enlarged & corrected from the Author's Manuscripts, by the work & study of R.P. AMATI VARCIN of the same Society.",summer_2025
+ON THE PROGRESS OF MATHEMATICS AND ON Illustrious Mathematicians, Euclid's Fourteen Books, Theodosius's Spherics, Conic Sections, Arithmetic, Trigonometry, Algebra, & refutation of Cartesian Hypotheses. Second edition enlarged & corrected from the Author's Manuscripts, by the work & study of R.P. AMATI VARCIN of the same Society.",
 Lyon_1690,imprint,"[Vol. 1] LYONS, At ANISSONS, JOHN. POSUEL
-& CLAUD. RIGAUD. 1690. WITH THE PRIVILEGE OF THE KING.",summer_2025
+& CLAUD. RIGAUD. 1690. WITH THE PRIVILEGE OF THE KING.",
 Cambridge_1655,imprint,"CAMBRIDGE: From the Press of the renowned University.
 At the expense of William Nealand, Bookseller. A.D. 1655.",
 Cambridge_1655,imprint,"CAMBRIDGE: From the Press of the renowned University.
@@ -260,8 +260,8 @@ Professor of Mathematics at the Royal Studies of the Imperial College of Madrid;
 Brussels_1689,imprint,"IN BRUSSELS By Francisco Foppens, year of 1689.",
 Lyon_1672,imprint,"IN LYON, At BENOIST CORAL, Merciere street, at the Vic-tory. M. DC. LXXII. With the King's Privilege.",
 Lyon_1672,imprint,"IN LYON, At BENOIST CORAL, Merciere street, at the Vic-tory. M. DC. LXXII. With the King's Privilege.",summer_2025
-Paris_1682,title,"THE ELEMENTS OF EUCLID, EXPLAINED IN A new & very easy MANNER. WITH THE USE OF EACH Proposition for all parts of Mathematics. By P. CLAUDE FRANÇOIS MILLET DECHALLES, of the Society of JESUS. NEW EDITION.",summer_2025
-Paris_1682,imprint,"IN PARIS, At ESTIENNE MICHALLET, St. Jacques street, at the Image St. Paul, near the Saint Severin Fountain. M. DC. LXXXII. WITH THE KING'S PRIVILEGE.",summer_2025
+Paris_1682,title,"THE ELEMENTS OF EUCLID, EXPLAINED IN A new & very easy MANNER. WITH THE USE OF EACH Proposition for all parts of Mathematics. By P. CLAUDE FRANÇOIS MILLET DECHALLES, of the Society of JESUS. NEW EDITION.",
+Paris_1682,imprint,"IN PARIS, At ESTIENNE MICHALLET, St. Jacques street, at the Image St. Paul, near the Saint Severin Fountain. M. DC. LXXXII. WITH THE KING'S PRIVILEGE.",
 Amsterdam_1700,title,"THE ELEMENTS OF EUCLID, EXPLAINED IN A new & very easy MANNER. WITH THE USE OF EACH Proposition for all parts of Mathematics. By P. CLAUDE FRANÇOIS MILLET DECHALLES, of the Society of JESUS. NEW EDITION, Reviewed & corrected.",summer_2025
 Amsterdam_1700,imprint,"AT AMSTERDAM. At the expense of ESTIENNE ROGER, Bookseller where one can find all sorts of Music. M. DCC.",summer_2025
 Madrid_1665,title,SECOND PART OF THE ART AND USE OF ARCHITECTURE DEDICATED TO THE ABANDONMENT THAT MY REDEEMER JESUS CHRIST SUFFERED during the three hours he was alive nailed to the Tree of the Cross. WITH THE FIFTH AND SEVENTH books of Euclid translated from Latin into Romance AND THE DIFFICULT MEASUREMENTS OF Vaults and of the surfaces and cubic feet of Pools. WITH THE ORDINANCES OF The Imperial City of Toledo approved and Confirmed by the Imperial Majesty of Mr. Emperor Charles V of Glorious memory COMPOSED BY P. F. LAURENCE OF SAINT Nicholas Discalced Augustinian Architect and Master of works native of the very noble and crowned Town of Madrid.,summer_2025
@@ -379,8 +379,8 @@ scholia: now published for the fourth time, and enriched with many additions
 since the first edition. By the author CHRISTOPHER CLAVIUS OF BAMBERG from the Society of JESUS.",
 Rome_1603,imprint,"[BOTH VOLUMES] ROME, At Aloysius Zannettus. 1603. WITH PERMISSION OF THE SUPERIORS.",
 Douai_1620,title,"THE FIRST SIX BOOKS OF EUCLID'S ELEMENTS. Whose
-demonstrations both elsewhere scattered, and especially in the fifth book, have been adapted for easier understanding by CAROLUS MALAPERTIUS of Mons from the Society of JESUS.",summer_2025
-Douai_1620,imprint,"DVACI, Printed by BALTAZARIS BELLERI under the Golden Compass YEAR 1620.",summer_2025
+demonstrations both elsewhere scattered, and especially in the fifth book, have been adapted for easier understanding by CAROLUS MALAPERTIUS of Mons from the Society of JESUS.",
+Douai_1620,imprint,"DVACI, Printed by BALTAZARIS BELLERI under the Golden Compass YEAR 1620.",
 Douai_1625,title,"Euclid's ELEMENTS THE FIRST SIX BOOKS. Whose
 demonstrations both elsewhere scattered, and especially in the fifth book, have been adapted for easier understanding by CAROLUS MALAPERTIUS of Mons from the Society of JESUS. Second edition, more corrected.",summer_2025
 Douai_1625,imprint,"DVACI, Printed by BALTAZARIS BELLERI, under the Golden Compass. YEAR 1625. With Privilege.",summer_2025
@@ -409,8 +409,8 @@ Paris_1654,imprint,"PARIS, At IOANNEM HENAVLT, Sworn Bookseller on Jacob Street:
 Rome_1655,title,"EUCLID'S SIX FIRST BOOKS OF THE ELEMENTS OF GEOMETRY
 With part of the Eleventh From the larger COMMENTARIES OF CLAVIUS Condensed into a more convenient form. AND MATHEMATICAL MATTERS OF CHRISTOPHER Grienberger of Oenohal-lensis from the Society of JESUS FIRST WORK. Added are ISAAC THE MONK'S Notes On the same six Books.",
 Rome_1655,imprint,"ROME, Printed by Nicolai Angeli Tinassij. 1655. With permission of the superiors. At the expense of Dominici Grialdi.",
-Lyon_1674,title,"[Vol. 1]: R. P. CLAUDE FRANCIS MILLIET DECHALES OF CHAMBERY FROM THE SOCIETY OF JESUS. COURSE OR MATHEMATICAL WORLD VOLUME ONE ENCOMPASSING EUCLID'S EIGHT BOOKS, ARITHMETIC, Theodosius's Spherics, Trigonometry, Practical Geometry, Mechanics, Statics, Universal Geography, Treatise on the Magnet, Civil Architecture, & the Art of Carpentry. NOW FOR THE FIRST TIME BROUGHT TO LIGHT.",summer_2025
-Lyon_1674,imprint,"[Vol. 1] LYONS, From the ANISSONIAN Office. 1674. WITH THE KING'S PRIVILEGE.",summer_2025
+Lyon_1674,title,"[Vol. 1]: R. P. CLAUDE FRANCIS MILLIET DECHALES OF CHAMBERY FROM THE SOCIETY OF JESUS. COURSE OR MATHEMATICAL WORLD VOLUME ONE ENCOMPASSING EUCLID'S EIGHT BOOKS, ARITHMETIC, Theodosius's Spherics, Trigonometry, Practical Geometry, Mechanics, Statics, Universal Geography, Treatise on the Magnet, Civil Architecture, & the Art of Carpentry. NOW FOR THE FIRST TIME BROUGHT TO LIGHT.",
+Lyon_1674,imprint,"[Vol. 1] LYONS, From the ANISSONIAN Office. 1674. WITH THE KING'S PRIVILEGE.",
 Frankfurt_1607,title,"[Vol. 1]: THE ELEMENTS OF EUCLID BOOKS XV. A sixteenth book has been added
 On the comparison of any regular solids within any other. ALL ILLUSTRATED WITH CLEAR DEMONSTRATIONS, and accurate scholia: now published for the fourth time, and enriched with many additions since the first edition. By the author CHRISTOPHER CLAVIUS of Bamberg from the Society of JESUS.
 [Vol. 2]: THE LATER BOOKS OF EUCLID IX. A sixteenth book has been added
@@ -1175,9 +1175,9 @@ Which contains the Introduction to Mathematics, & the Elements
 of Euclid.
 By Mr. OZANAM, Professor of
 Mathematics.
-NEW EDITION REVIEWED AND CORRECTED.",summer_2025
+NEW EDITION REVIEWED AND CORRECTED.",
 Paris_1697,imprint,"[Vol. 1] IN PARIS, At JEAN JOMBERT's, near the Augustins.
-M. DC. XCVII. WITH THE KING'S PRIVILEGE.",summer_2025
+M. DC. XCVII. WITH THE KING'S PRIVILEGE.",
 Lübeck_and_Frankfurt_1699,title,"Teutsch-Redender Euclides, Or Eight Books On The Beginnings Of The Art Of Measurement, In a new and entirely easy manner, For the benefit of all Generals, Engineers, Natural and Truth Seekers, Architects, Artists and Craftsmen Arranged and proven in the German language, By A. E. B. V. P.",
 Lübeck_and_Frankfurt_1699,imprint,"Lübeck and Franckfurt, In publication Johann Wiedemeyers, Anno 1699.",
 Naples_1701,title,"ELEMENTS
@@ -2104,10 +2104,10 @@ Collected from the best authors, and methodically arranged:
 Now indeed greatly enlarged with many additions, explained with notes, illustrated with examples, and adorned with figures.
 By the labors of
 ISAAC HABRECHT, OF STRASBOURG,
-Doctor of Philosophy and Medicine.",summer_2025
+Doctor of Philosophy and Medicine.",
 Strasbourg_1625,imprint,"ARGENTORATI,
 At the expense of the heirs of Lazarus Zetzner.
-Year 1625.",summer_2025
+Year 1625.",
 ustc-4,title,"BOOK
 OF ARITHMETIC
 AND
@@ -2916,8 +2916,11 @@ With the permission of the superiors.",
 Rome_1679,imprint,"ROME,
 From the Mascardi Press, 1679
 With the permission of the superiors.",summer_2025
-The_Hague_1683,imprint,"AT THE HAGUE,
-At Henry van Bulderen, Bookseller, in the Pooten.",
+The_Hague_1683,imprint,"IN PARIS,
+At GUILLAUME DESPREZ's, S. Jacques street, at S. Prosper
+& at the three Virtues, above the Mathurins.
+M. DC. LXXIII. [1673]
+WITH PRIVILEGE OF THE KING.",
 The_Hague_1683,imprint,"AT THE HAGUE,
 At Henry van Bulderen, Bookseller, in the Pooten.",summer_2025
 Paris_1689,imprint,"[Vol. 1] IN PARIS,
@@ -9243,7 +9246,7 @@ That have magnitudes as their object.
 SECOND VOLUME
 Which includes a body of Analysis, or the art of solving the Questions proposed on all the various magnitudes.
 And where everything is explained in a natural & easy order, & things are treated much more thoroughly, & pushed further than has been done until now.
-By JEAN PRESTET, Priest, formerly Professor of Mathematics at the Universities of Angers & Nantes.",summer_2025
+By JEAN PRESTET, Priest, formerly Professor of Mathematics at the Universities of Angers & Nantes.",
 Rome_1679,title,"EUCLID
 RESTORED
 Again
@@ -9259,12 +9262,18 @@ The_Hague_1683,title,"NEW ELEMENTS
 OF
 GEOMETRY,
 CONTAINING,
-Besides an entirely new order, & new demonstrations of the most common Propositions,
-New means to show which Lines are incommensurable:
-New measures of Angles, which had not yet been devised:
-And new ways to find & demonstrate the proportion of Lines.
+BESIDES A COMPLETELY NEW ORDER,
+& new proofs of the most common
+propositions,
+New means of showing which lines are
+incommensurable:
+New measurements of angles, which had not
+yet been thought of,
+And new ways to find & to prove
+the proportion of Lines.
 SECOND EDITION.
-Where there is an entirely new Treatise on Proportions, & many other considerable changes.",summer_2025
+Where there is a completely new treatise on Proportions,
+& many other considerable changes.",
 Valencia_1569,title,"ELEMENTS of Arithmetic, and
 GEOMETRY, TO
 all disciplines, especially Aristotelian Dialectic, and Philosophy, exceedingly necessary, extracted from Euclid.
@@ -14694,3 +14703,15 @@ MITTED LAND SURVEYOR.",
 By MURRAY AND PLUYGERS,
 1784.",
 Lund_1855,imprint,"Lund, printed at the Berlingska Book Printing Office, 1855.",
+D2WC9V,title,"NEW ELEMENTS
+OF
+GEOMETRY,
+CONTAINING,
+Besides an entirely new order, & new demonstrations of the most common Propositions,
+New means to show which Lines are incommensurable:
+New measures of Angles, which had not yet been devised:
+And new ways to find & demonstrate the proportion of Lines.
+SECOND EDITION.
+Where there is an entirely new Treatise on Proportions, & many other considerable changes.",
+D2WC9V,imprint,"AT THE HAGUE,
+At Henry van Bulderen, Bookseller, in the Pooten.",

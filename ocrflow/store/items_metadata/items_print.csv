@@ -13,8 +13,8 @@ Bologna_1686,,,1686,Bologna,ITALIAN,Giovanni Ricci,Giuseppe Longhi,8,1,,,
 Brussels_1688,,,1688,Brussels,SPANISH,Sebastián Fernández de Medrano,Lamberto Marchant,8,1,-,,
 Paris_1609,"Les Elémens de la géométrie d'Euclides, traduicts et restitués à leur ancienne bréveté, selon l'ordre de Théon, ausquels ont esté adjoustez les quatorze et quinziesme d'Ipsicles, le tout par Dounot,",Provided by catalog,1609,Paris,FRENCH,Didier Dounot,Jacques Le Roy,,,6026094,,
 Paris_1610,Les éléments de la géométrie d’Euclide Mégarien,Specified in source,1610,Paris,FRENCH,Didier Dounot,Jacques Le Roy,4,1,,,
-Kiel_and_Leipzig_1699,,,1699,"Kiel, Leipzig",GERMAN,Samuel Reyher,Joachim Reumann,4,1,-,,
-Lyon_1690,,,1690,Lyon,LATIN,"Claude-François Milliet Dechales, Amatus Varcin","Anisson, Jean Possuel, and Claude Rigaud",4,4,-,,
+Kiel_and_Leipzig_1699,Sechs erste Bücher,Specified in source,1699,"Kiel, Leipzig",GERMAN,Samuel Reyher,Joachim Reumann,4,1,-,,
+Lyon_1690,Claudii Francisci Milliet Dechales ... Cursus seu mundus mathematicus,Specified in source,1690,Lyon,LATIN,"Claude-François Milliet Dechales, Amatus Varcin","Anisson, Jean Possuel, and Claude Rigaud",4,1,-,,
 Cambridge_1655,Euclidis Elementorum Libri XV breviter demonstrati,Specified in source,1655,Cambridge,LATIN,Isaac Barrow,Guilielmi Nealand,6,1,3067707,,
 London_1659,"Euclidis Elementorum libri xv. breviter demonstrati, opera Is. Barrow, Cantabrigiensis, Coll. Trin. Soc.",Provided by catalog,1659,London,LATIN,Isaac Barrow,,8,1,3073895,,
 Osnabrück_1676,,,1676,Osnabrück,LATIN,Isaac Barrow,Schwänderum,8,1,,,
@@ -71,10 +71,10 @@ Cologne_1627,,,1627,Cologne,LATIN,"Jean Magnien, Étienne Gracile",Petrus Cholin
 Lyon_1660,,,1660,Lyon,LATIN,Claude-François Milliet Dechales,Benedictum Coral,18,1,-,,
 Lyon_1675,,,1675,Lyon,LATIN,Claude-François Milliet Dechales,,6,1,,,
 Frankfurt_1674,,,1674,Frankfurt,LATIN,Gaspar Schott,Johann Arnold Cholini,2,1,,,
-Rome_1589,Euclidis elementorum libri XV,Specified in source,1589,Rome,LATIN,Christopher Clavius,"Santi et soc., Bartolomeo Grassi",8,1,828484,,
+Rome_1589,Euclidis elementorum libri XV,Specified in source,1589,Rome,LATIN,Christopher Clavius,"Santi et soc., Bartolomeo Grassi",8,2,828484,,
 Cologne_1591,Euclidis elementorum libri XV; accessit XVI de solidorum regularium cuiuslibet intra quodlibet comparatione,Specified in source,1591,Cologne,LATIN,Christopher Clavius,Giovanni Battista Ciotti,4,1,,"In letter n. 72 in Clavius' correspondence, Jacob Curtz complains that the Cologne edition of Clavius’s Euclides was printed ""infeliciter et plenus omnino mendis excusus est, id me ut primum vidi ex animo male habuit"" (unhappily and full of all manner of errors, when I first saw it, it truly pained me), and recommends using Sartorius in Ingolstadt or the Wechel heirs in Frankfurt for future work in Germany [Source: Clavius, C. 1992. Corrispondenza. Baldini, U. and Napolitani, P.D., Eds. Università di Pisa, Dipartimento di matematica, Pisa., https://echo.mpiwg-berlin.mpg.de/content/mpiwglib/clavius/pdf/clavius_1992_bd_2_1.pdf p. 178]",
 Rome_1603,"Elementorum libri 15, accessit Liber XVI",Provided by catalog,1603,Rome,LATIN,Christopher Clavius,Luigi Zannetti,8,1,,,
-Douai_1620,,,1620,Douai,LATIN,Charles Malapert de Mons,Belleri,8,1,-,,
+Douai_1620,Euclidis Elementorum libri sex priores,Specified in source,1620,Douai,LATIN,Charles Malapert de Mons,Belleri,8,1,-,,
 Douai_1625,,,1625,Douai,LATIN,Charles Malapert de Mons,,12,1,-,,
 Rome_1629,,,1629,Rome,LATIN,"Christopher Clavius, Christoph Grienberger",Heirs of Bartolomeo Zannetti,12,1,-,,
 Douai_1633,,,1633,Douai,LATIN,Charles Malapert de Mons,Balthazar Bellerus,12,1,-,,
@@ -84,7 +84,7 @@ Antwerp_1645,"Euclidis elementorum geometricorum libros tredecim Isidorum et Hyp
 Frankfurt_1654,"Euclidis Posteriores Libri IX Accessit liber XVI. De Solidorum Regularium cuiuslibet intra quodlibet comparatione, Omnes Perspicuis Demonstrationibus, accuratisque scholiis illustrati Auctore Christophoro Clavio Bambergensi e Societate Jesu: nunc quarto editi, ac multarum rerum accessione post primam editionem locupletati",Provided by catalog,1654,Frankfurt,LATIN,Christopher Clavius,Heirs of Jonas Rose,8,2,2658335,,
 Paris_1654,Euclidis elementorum geometricorum libri,Provided by catalog,1654,Paris,LATIN,Georges Fournier,Jean Hénault,8,1,,,
 Rome_1655,Euclidis sex primi elementorum geometricorum libri cum parte vndecimi ex maioribus Clavuii commentarijs in commodiorem formam contracti. Rerumque mathematicarum Christophori Grienbergeri Oenohallensis è Societate Iesu opusculum primum. Accessere Isaaci Monachi In sex eosdem libros scholia,Provided by catalog,1655,Rome,LATIN,"Christopher Clavius, Christoph Grienberger",Nicolai Angeli Tinassij,12,1,-,,
-Lyon_1674,,,1674,Lyon,LATIN,Claude-François Milliet Dechales,Anisson,4,3,,,
+Lyon_1674,R. P. Claudii Francisci Milliet Dechales... Cursus seu Mundus mathematicus...,Specified in source,1674,Lyon,LATIN,Claude-François Milliet Dechales,Anisson,4,3,,,
 Frankfurt_1607,"Elementorum libri 15, accessit Liber XVI",Provided by catalog,1607,Frankfurt,LATIN,Christopher Clavius,Nikolaus Hoffmann,8,1,,,
 London_1654,Euclides: Sex primi elementorum geometricorum libri,Provided by catalog,1654,London,LATIN,Georges Fournier,Edwardi Story,12,1,,,
 Cambridge_1665,"Euclidis sex primi Elementorum geometricorum libri, commodiùs demonstrati. A.P. Georg. Fournier è societate Jesu. Accesserunt elementa astronomica, ubi Theodosii Tripolitæ sphæricorum libri tres, & universa triangulorum resolutio demonstrantur per Johannem Baptistam Duhamel, Mathesews Professorem.",Provided by catalog,1665,Cambridge,LATIN,Georges Fournier,,12,1,3083853,"digital copy exist, but doesn;t contain title page...",
@@ -220,7 +220,7 @@ Paris_1693,Cours de mathematique,Specified in source,1693,Paris,FRENCH,Jacques O
 Vienna_1694,Teutsch-Redender Euclides,Specified in source,1694,Vienna,GERMAN,Anton Ernst Burckhard von Pirckenstein,Philipp Fievets,4,1,-,Author's name: PIRCKENSTEIN (or BIRCKENSTEIN).,
 Amsterdam_1695,,,1695,Amsterdam,DUTCH,Claas Janszen Vooght,Johannes van Keulen,4,1,-,,
 Amsterdam_1697,,,1697,Amsterdam,FRENCH,Jacques Ozanam,George Gallet,8,5,,,
-Paris_1697,,,1697,Paris,"FRENCH, LATIN",Jacques Ozanam,Jean Jombert,8,5,,,
+Paris_1697,"Cours de mathématique, qui comprend toutes les parties de cette science les plus utiles et les plus nécessaires à un homme de guerre... par M. Ozanam",Specified in source,1697,Paris,"FRENCH, LATIN",Jacques Ozanam,Jean Jombert,8,5,,,
 Lübeck_and_Frankfurt_1699,"Teutsch-Redender Euclides, oder Acht Bücher Von Denen Anfängen der Mess=Kunst: Auff eine neue und gantz leichte Art, zu Nutzen, allen Generalen, Ingeniern, Natur- und Warheit-Kündigern, Bau-Meistern, Künstlern und Handwerckern in Teutscher Sprach eingerichtet und bewiesen",Provided by catalog,1699,"Lübeck, Frankfurt",GERMAN,Anton Ernst Burckhard von Pirckenstein,Johann Wiedemeyer,4,1,2683395,,
 Naples_1701,,,1701,Naples,LATIN,Elias Astorinus,Felicis Mosca,8,1,-,,
 Milan_1702,,,1702,Milan,ITALIAN,Pietro Paolo Caravaggi,Giacinto Brenna,6,1,-,,
@@ -317,7 +317,7 @@ ustc-60,"Sommaire de l'algèbre, très-nécessaire pour faciliter l'interprétat
 ustc-11,"Géométrie, ou Mesure des lignes droites esloignées, par le quarré géométrique enrichie de plusieurs figures, nouvellement mise en lumière par le sieur Boulenger,",Provided by catalog,1624,Paris,FRENCH,Jean Boulenger,,,,6026871,,
 ustc-21,L'Usage de la reigle de proportion en l'arithmétique et géométrie,Provided by catalog,1624,Paris,FRENCH,Luis Ballester,,,,6020345,,
 ustc-51,"Géométrie, ou Mesure des lignes droites esloignées, par le quarré géométrique enrichie de plusieurs figures, nouvellement mise en lumière par le sieur Boulenger,",Provided by catalog,1624,Paris,FRENCH,Jean Boulenger,,,,6026871,,
-Strasbourg_1625,,,1625,Strasbourg,LATIN,Joseph Langi,,,,,,True
+Strasbourg_1625,Elementale mathematicum,Specified in source,1625,Strasbourg,LATIN,Joseph Langi,,,1,,,True
 ustc-4,"Livre d'arithmétique et géométrie, avec l'art d'arpenter et mesurer toutes superficies de terre. Nouvellement mis en lumière par le sieur Zacarie, Revu, corrigé et augmenté de nouveau. Ensemble un traicté de la boussole",Provided by catalog,1625,Paris,FRENCH,,,,,6032559,,
 Paris_1626,"Paradoxes de Meynier contre les mathématiciens qui abusent la jeunesse, ensemble les définitions, théorèmes et maximes d'Euclides, d'Archimèdes, de Proclus, de Sacrobosco et d'Aristote... avec un abrégé des reigles de la géométrie, et des principalles max",Provided by catalog,1626,Paris,FRENCH,Honorat de Meynier,"NICOLAS ROUSSET, Ivlian Iacqvin",4,1,6021135,,False
 ustc-9,"Arithmétique logarithmétique, ou la Construction et usage des tables logarithmétiques",Provided by catalog,1626,Paris,FRENCH,Luis Ballester,,,,6019182,,
@@ -368,7 +368,7 @@ Florence_1674,"Quinto Libro degli Elementi di Euclide, ovvero Scienza Universale
 London_1678a,Euclidis Elementa Geometrica Novo Ordine ac Methodo fere demonstrata,Specified in source,1678,London,LATIN,Nicholas Mercator,Martyn,,1,,"https://catalogue.bnf.fr/ark:/12148/cb39315109x
 ",True
 Rome_1679,"Euclides restitutus, sive prisca geometriae elementa",Specified in source,1679,Rome,LATIN,Giovanni Alfonso Borelli,Mascardi,12,1,1704068,,False
-The_Hague_1683,Nouveaux Élémens de géométrie,Specified in source,1683,The Hague,FRENCH,Antoine Arnauld,,,1,,,True
+The_Hague_1683,Nouveaux Élémens de géométrie,Specified in source,1683,Paris,FRENCH,Antoine Arnauld,,,1,,,True
 Paris_1689,"Nouveaux elemens des mathematiques, ou principes generaux de toutes les sciences qui ont les grandeurs pour objet",Specified in source,1689,Paris,FRENCH,Jean Prestet,,,1,,,True
 Venice_1491,Opera,Provided by catalog,1491,Venice,LATIN,,Giovanni and Gregorio De Gregori,2,2,996750,"We don't have the title page, and from the wording of the title we do have, I suspect there is no title page
 The EiP title is: ""
@@ -1160,3 +1160,4 @@ M5BOCD,"De mundi sphaera, seu cosmographia, libri tres figuris et demonstrationi
 Y8F95Y,"Mathematicae collectiones a Federico Commandino Urbinate in Latinum conversae, et commentariis illustrata",Provided by catalog,1588,Pesaro,LATIN,Federico Commandino,Girolamo Concordia,2,1,846711,,
 I2IA25,"De aequationum recognitione et emendatione tractatus duo. Quibus nihil in hoc genere simile aut secundum, huic aevo hactenus visum",Provided by catalog,1615,Paris,LATIN,François Viète,Jean Laquehay,4,1,6016789,,
 O3PAP5,Zeteticorum liber primus [-quintus],Provided by catalog,1593,Tours,LATIN,François Viète,Jamet Mettayer,2,1,1935356,,
+D2WC9V,Nouveaux Élémens de géométrie,Specified in source,1690,The Hague,FRENCH,Antoine Arnauld,Henry van Bulderen,,1,,,
