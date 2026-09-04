@@ -185,6 +185,32 @@ func TestRunLogsAggregateUsageAndProviderReportedCost(t *testing.T) {
 	require.Contains(t, logs.String(), "cached_tokens=45")
 }
 
+func TestRunSkipsExistingRoundOutput(t *testing.T) {
+	root := t.TempDir()
+	imagesDir := filepath.Join(root, "images")
+	sourceDir := filepath.Join(root, "source")
+	outputDir := filepath.Join(root, "output")
+	reusedOutput := filepath.Join(outputDir, "page-0001", "round-01.md")
+	require.NoError(t, os.MkdirAll(imagesDir, 0o755))
+	require.NoError(t, os.MkdirAll(filepath.Join(sourceDir, "page-0001"), 0o755))
+	require.NoError(t, os.MkdirAll(filepath.Dir(reusedOutput), 0o755))
+	require.NoError(t, os.WriteFile(filepath.Join(imagesDir, "page-0001.png"), []byte("image"), 0o644))
+	require.NoError(t, os.WriteFile(filepath.Join(sourceDir, "page-0001", "original.md"), []byte("source\n"), 0o644))
+	require.NoError(t, os.WriteFile(reusedOutput, []byte("existing\n"), 0o644))
+
+	fake := &fakeExecutor{}
+	usage, err := Run(Config{
+		MarkdownDirs: []string{sourceDir}, ImagesDir: imagesDir, OutputDir: outputDir,
+		Rounds: 1, SkipExisting: true, Provider: llm.ProviderClaudeCode, Model: "fable",
+	}, fake)
+	require.NoError(t, err)
+	require.Empty(t, fake.calls)
+	require.Equal(t, llm.Usage{}, usage)
+	final, err := os.ReadFile(filepath.Join(outputDir, "page-0001", "original.md"))
+	require.NoError(t, err)
+	require.Equal(t, "existing\n", string(final))
+}
+
 func testALTO(words ...string) *alto.Alto {
 	tokens := make([]alto.String, 0, len(words))
 	for _, word := range words {

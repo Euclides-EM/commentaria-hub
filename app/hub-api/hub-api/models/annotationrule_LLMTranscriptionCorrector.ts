@@ -15,4 +15,3 @@ export type annotationrule_LLMTranscriptionCorrector = {
     type?: annotationrule_Type;
     readonly usage?: llm_Usage;
 };
-

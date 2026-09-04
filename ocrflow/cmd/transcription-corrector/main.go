@@ -63,6 +63,7 @@ func parseFlags(args []string) (cliConfig, error) {
 	fs.StringVar(&cfg.corrector.ImagesDir, "images-dir", "", "directory containing page-NNNN images")
 	fs.StringVar(&cfg.corrector.OutputDir, "output-dir", "", "directory for corrected markdown")
 	fs.IntVar(&cfg.corrector.Rounds, "rounds", transcriptioncorrector.DefaultRounds, "number of correction rounds (minimum 1)")
+	fs.BoolVar(&cfg.corrector.SkipExisting, "skip-existing", false, "skip pages with existing round output files")
 	fs.StringVar(&cfg.corrector.Provider, "ai-provider", "", "LLM provider: openai, ollama, or claude-code")
 	fs.StringVar(&cfg.corrector.Model, "ai-model", "", "LLM model name")
 	fs.StringVar(&cfg.authToken, "auth-token", "", "provider auth token (OpenAI API key or Ollama bearer token)")
