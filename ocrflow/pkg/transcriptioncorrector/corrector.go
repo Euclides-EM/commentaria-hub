@@ -7,6 +7,7 @@ import (
 	"errors"
 	"fmt"
 	"log"
+	"os"
 	"path/filepath"
 	"strings"
 	"time"
@@ -25,6 +26,7 @@ type Config struct {
 	ImagesDir         string
 	OutputDir         string
 	Rounds            int
+	SkipExisting      bool
 	Provider          string
 	Model             string
 	Logger            *log.Logger
@@ -95,6 +97,19 @@ func Run(cfg Config, client Executor) (llm.Usage, error) {
 
 		for pageIndex, p := range pages {
 			pageStarted := time.Now()
+			roundPath := filepath.Join(cfg.OutputDir, p.key, fmt.Sprintf("round-%02d.md", round))
+			if cfg.SkipExisting {
+				existing, err := os.ReadFile(roundPath)
+				if err == nil {
+					previousRound[p.key] = string(existing)
+					previousPage = string(existing)
+					logger.Printf("page skipped round=%d/%d page=%d/%d key=%s output=%s", round, cfg.Rounds, pageIndex+1, len(pages), p.key, roundPath)
+					continue
+				}
+				if !errors.Is(err, os.ErrNotExist) {
+					return totalUsage, fmt.Errorf("read existing round output for %s: %w", p.key, err)
+				}
+			}
 			base, err := loadCandidates(cfg.MarkdownDirs, cfg.ALTODirs, cfg.TranscriptionDirs, p.key)
 			if err != nil {
 				return totalUsage, fmt.Errorf("round %d page %s: %w", round, p.key, err)
@@ -133,7 +148,6 @@ func Run(cfg Config, client Executor) (llm.Usage, error) {
 					round, p.key, c.label, stats.added, stats.deleted, stats.added+stats.deleted)
 			}
 
-			roundPath := filepath.Join(cfg.OutputDir, p.key, fmt.Sprintf("round-%02d.md", round))
 			if err := writeFileAtomic(roundPath, []byte(corrected)); err != nil {
 				return totalUsage, fmt.Errorf("write round output for %s: %w", p.key, err)
 			}
