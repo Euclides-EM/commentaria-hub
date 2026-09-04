@@ -213,6 +213,22 @@ func (a *AnnotationRuleApplier) applyLLMTranscriptionCorrector(imgPath string, a
 	if err != nil {
 		return nil, fmt.Errorf("parse pages for annotation %s: %w", ann.ID, err)
 	}
+	if strings.TrimSpace(rule.Pages) != "" {
+		requestedPages, err := pagesparser.IntRange(rule.Pages)
+		if err != nil {
+			return nil, fmt.Errorf("parse LLM transcription corrector pages: %w", err)
+		}
+		annotationPages := make(map[int]struct{}, len(pageNumbers))
+		for _, pageNumber := range pageNumbers {
+			annotationPages[pageNumber] = struct{}{}
+		}
+		for _, pageNumber := range requestedPages {
+			if _, ok := annotationPages[pageNumber]; !ok {
+				return nil, fmt.Errorf("LLM transcription corrector page %d is not in annotation %s", pageNumber, ann.ID)
+			}
+		}
+		pageNumbers = requestedPages
+	}
 	pageKeys := make([]string, 0, len(pageNumbers))
 	for _, pageNumber := range pageNumbers {
 		pageKeys = append(pageKeys, pagesparser.PageToFilename(pageNumber, ""))

@@ -120,6 +120,44 @@ func TestApplyLLMTranscriptionCorrectorRejectsNonOCRAnnotation(t *testing.T) {
 	require.ErrorContains(t, err, "only applicable to OCR-ed annotations")
 }
 
+func TestApplyLLMTranscriptionCorrectorLimitsPages(t *testing.T) {
+	root := t.TempDir()
+	manager := filesys.NewFileSystemManager(root, filepath.Join(root, "models"), filepath.Join(root, "diagrams"), filepath.Join(root, "defaults"))
+	target := &annotation.Annotation{DatasetID: "dataset", Ocred: true, Pages: "1-3"}
+	target.ID = "target"
+	altoDir := manager.DatasetAnnotationAltoDir(target)
+	require.NoError(t, os.MkdirAll(altoDir, 0o755))
+	imagesDir := manager.DatasetImagesDirByID("dataset")
+	require.NoError(t, os.MkdirAll(imagesDir, 0o755))
+	for _, page := range []int{1, 2, 3} {
+		pageName := fmt.Sprintf("page-%04d", page)
+		require.NoError(t, alto.SaveToFile(testCorrectionALTO(pageName), filepath.Join(altoDir, pageName+".xml")))
+		require.NoError(t, os.WriteFile(filepath.Join(imagesDir, pageName+".png"), []byte("image"), 0o644))
+	}
+
+	llmClient := &transcriptionLLM{}
+	applier := NewAnnotationRuleApplier(nil, manager, "", nil, nil, nil, llmClient)
+	rule := annotationrule.NewLLMTranscriptionCorrector("ollama", "vision", nil, false)
+	rule.Pages = "2-3"
+
+	_, err := applier.applyLLMTranscriptionCorrector(imagesDir, target, rule)
+	require.NoError(t, err)
+	require.Len(t, llmClient.calls, 2)
+	require.Equal(t, filepath.Join(imagesDir, "page-0002.png"), llmClient.calls[0].image)
+	require.Equal(t, filepath.Join(imagesDir, "page-0003.png"), llmClient.calls[1].image)
+}
+
+func TestApplyLLMTranscriptionCorrectorRejectsPagesOutsideAnnotation(t *testing.T) {
+	target := &annotation.Annotation{DatasetID: "dataset", Ocred: true, Pages: "1-3"}
+	target.ID = "target"
+	applier := &AnnotationRuleApplier{transcriptionLLM: &transcriptionLLM{}}
+	rule := annotationrule.NewLLMTranscriptionCorrector("ollama", "vision", nil, false)
+	rule.Pages = "4"
+
+	_, err := applier.applyLLMTranscriptionCorrector("images", target, rule)
+	require.ErrorContains(t, err, "page 4 is not in annotation target")
+}
+
 func TestApplyLLMTranscriptionCorrectorRejectsNonOCRAdditionalAnnotation(t *testing.T) {
 	target := &annotation.Annotation{DatasetID: "dataset", Ocred: true}
 	target.ID = "target"

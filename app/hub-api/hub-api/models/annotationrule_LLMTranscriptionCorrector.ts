@@ -10,6 +10,7 @@ export type annotationrule_LLMTranscriptionCorrector = {
     applicable_stages?: Array<annotationrule_PipelineStage>;
     include_edition_transcription?: boolean;
     model?: string;
+    pages?: string;
     provider?: string;
     rounds?: number;
     type?: annotationrule_Type;

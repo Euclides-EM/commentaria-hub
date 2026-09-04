@@ -17,6 +17,7 @@ func TestUnmarshalLLMTranscriptionCorrector(t *testing.T) {
 		"provider":"openai",
 		"model":"gpt-test",
 		"rounds":3,
+		"pages":"2-4,7",
 		"additional_annotations":["ann_one","ann_two"],
 		"include_edition_transcription":true
 	}`))
@@ -27,6 +28,7 @@ func TestUnmarshalLLMTranscriptionCorrector(t *testing.T) {
 	require.Equal(t, "openai", corrector.Provider)
 	require.Equal(t, "gpt-test", corrector.Model)
 	require.Equal(t, 3, corrector.Rounds)
+	require.Equal(t, "2-4,7", corrector.Pages)
 	require.Equal(t, []string{"ann_one", "ann_two"}, corrector.AdditionalAnnotations)
 	require.True(t, corrector.IncludeEditionTranscription)
 	require.Equal(t, []PipelineStage{PipelineStageOCR}, corrector.ApplicableStages)
@@ -35,6 +37,7 @@ func TestUnmarshalLLMTranscriptionCorrector(t *testing.T) {
 	require.NoError(t, err)
 	require.Contains(t, string(encoded), `"type":"llm_transcription_corrector"`)
 	require.Contains(t, string(encoded), `"rounds":3`)
+	require.Contains(t, string(encoded), `"pages":"2-4,7"`)
 	require.NotContains(t, string(encoded), `"usage"`)
 }
 
