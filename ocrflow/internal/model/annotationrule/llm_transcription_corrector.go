@@ -10,7 +10,6 @@ type LLMTranscriptionCorrector struct {
 	Provider                    string     `json:"provider" example:"ollama"`
 	Model                       string     `json:"model" example:"gpt-oss:120b"`
 	Rounds                      int        `json:"rounds" example:"1" minimum:"1"`
-	Pages                       string     `json:"pages" example:"1-5,8"`
 	SkipExisting                bool       `json:"skip_existing"`
 	AdditionalAnnotations       []string   `json:"additional_annotations"`
 	IncludeEditionTranscription bool       `json:"include_edition_transcription"`
@@ -25,7 +24,6 @@ func (t *LLMTranscriptionCorrector) SetDefaultValues() {
 	t.Provider = "ollama"
 	t.Model = "gpt-oss:120b"
 	t.Rounds = transcriptioncorrector.DefaultRounds
-	t.Pages = ""
 	t.SkipExisting = false
 	t.AdditionalAnnotations = []string{}
 	t.IncludeEditionTranscription = false
