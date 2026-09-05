@@ -1,0 +1,18 @@
+<!-- Running title: LIBER II. -->
+<!-- Page number: 59 -->
+
+tur angulus C E B ſit ſemirectus: erit & F E G ſemirectus. Quumq́; F D, per trigeſimamtertiam Primi, ſit æquidiſtans E C: erit, per trigeſimamquartam eiuſdem, angulus qui ad F, rectus: ſicq́; angulus E G F, per trigeſimamſecundam, ſemirectus: quia F E G ſemirectus. Et, per eandem, angulus D B G ſemirectus: quum angulus B D G, per decimamtertiam eiuſdem, ſit rectus. Duo igitur latera E F & F G, per ſextam eiuſdem, ſunt æqualia: itidemq́; duo B D & D G æqualia. Quapropter Quadratum E G, per quadrageſimamſeptimam Primi, duplum eſt ad Quadratum E F: ob id, & ad Quadratum C D. Quadratum item A E, per eandem, duplum eſt ad Quadratum A C. Quumq́; Quadratum A G, per eandem, ſit æquale duobus Quadratis A E & E G, ſimiliter & duobus Quadratis A D & D G: ſitq́; Quadratum D G æquale Quadrato B D: erunt duo Quadrata A D & D G (ea ſunt A D & B D) dupla duobus Quadratis A C & C D, Quod fuit demonſtrandum.
+
+ALITER. Sit linea A B bifariam diuiſa in C, eiq́; in continuum adiuncta B D. Dico Quadratum quod ex A D cum Quadrato quod ex B D, duplum eſſe ad vtrunque, & quod ex A C & quod ex C D fit Quadratum.
+
+Ex tota A D deſcribo Quadratum A D E F. Et ſuper dimidia A C deſcribo Quadratum A C G H: protractisq́; G H & C H ad ſectiones duorum laterum E F & D F, deſcribo H L K F: quod erit Quadratum ipſius C D: vt conſtat ducta Diametro A H F, ex Conſectario quartæ huius & ex trigeſimaquarta Primi: eſt enim K F æquale C D. Factis etiam H M & H N vtrique A C & C B æqualibus, protraho M O & N P, ſeſe ſcindentes ad rectos angulos in puncto Q. Quarum vtraque ſecet latera Quadrati A D E F in O & P punctis.
+
+Iam verò nihil attinet probare H Q eſſe Quadratum ipſius A C, quum ſit Quadratum C B: ſicut Q F Quadratum ipſius B D: neque H P Parallelogrammum, æquale eſſe vtrique Supplementorum E H & H D: quum H O ſit eis communiter æquale: Denique N O & Q L Supplementa eſſe æqualia. Atque etiam manifeſta ſunt hæc ex ipſa Figuræ ſpecie: proptereà quòd omnes anguli qui circa Diametrum, ſunt ſemirecti & latera æqualia. Diligenter itaque aduertentes quibus partibus componatur Quadratum H F, quod eſt ex C D; ſic ratiocinabimur. Quum totum D E Quadratum integretur duobus A H & H F Quadratis & duobus Supplementis E H & H D: probandum nobis eſt, hæc ipſa Supplementa cum Quadrato Q F (quod eſt ex B D) eſſe æqualia duobus ipſis A H & H F Quadratis. Tum enim probauerimus hæc duo Quadrata A H & H F bis ſumpta, toti Quadrato D E cum Quadrato Q F eſſe æqualia, quod initio ſuſcepimus. Sic autem erit Demonſtratio.
+
+[Diagram: square A D E F with top corners E and F, base A D containing interior points C and B; inner square A C G H with points H, Q, P and H, M, L on horizontal lines, and diagonals drawn through the squares]
+
+Supplementum E H æquale eſt Parallelogrammo H P: Et Quadratum A H cum Supplemento minori N O, æquum eſt alteri Supplemento H D, per primam animi Notionem, toties ſumptam quoties opus fuerit. Duo igitur Supplementa E H & H D, ſunt æqualia Quadrato A H & Gnomoni K H L Q. Si ergo ad vtrunque accedat Quadratum Q F: erunt duo Supplementa E H & H D cum Quadrato Q F, æqualia Quadrato A H, Gnomoni K H L Q, & Quadrato Q F. Sed hæc tria conſtituunt duo Quadrata A H & H F. Sunt igitur duo Supplementa E H & H D cum Quadrato Q F, æqualia duobus Quadratis A H & H F, Quod erat ſecundarium. Quare duo Quadrata A H & H F bis ſumpta, toti Quadrato D E cum Quadrato Q F ſunt æqualia, Quod erat probandum.
+
+HÆC Demonſtratio longiorem quidem habet deductionem, ſed nihilominus acutam: Quam nos ex Figura Gnomonica venati ſumus: Ex qua huiuſce libri Secundi, immò totius ferè Geometriæ Demonſtrationes inſigniores hauriuntur,
+
+<!-- Catchword: PROB -->

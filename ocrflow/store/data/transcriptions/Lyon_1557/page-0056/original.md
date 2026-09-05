@@ -1,0 +1,20 @@
+<!-- Running title: LIBER I. -->
+<!-- Page number: 47 -->
+
+HÆC EST illa tam celebris Demonſtratio à Pythagora Philoſopho perueſtigata: ob quam præ gaudio bouem Dæmonibus immolauit, ſi Heroni, Proclo, Lycio, & Vitruuio credimus. Quod tamen apud multos fidem non habet. Summa enim religione vir ille à cæde animantium abſtinuit. Vtut eſt, profectò mirabile inuentum eſt, & verè Dei cuiuſdam donum. In cuius ratiocinatione planè Philoſophica, libet paulùm expatiari: vt intueamur vnde hoc Theorema deſumptum ſit: quóque conſilio, ad huius inueſtigationem ſeſe docti homines exercuerint.
+
+Imprimis totius meditationis occaſio à Recto & Æquali profecta eſt: Ex quibus omnes ferè Geometricas probationes originem ſumere diximus. Quod ex Triangulo Iſoſceli Rectangulo, quod dimidium eſt Quadrati, manifeſtum faciemus.
+
+Sit enim Iſoſceles Rectangulum A B C, cuius angulus A rectus. Dico Quadratum lateris B C, æquum eſſe Quadratis duorum laterum A B & A C. Deſcribo ex B C Quadratum B C D E: Cuius duco duas Diametros B E & C D, ſecantes inter ſe in puncto F. Quumq́; duo latera B C & B D Trianguli B D C, ſint æqualia: erunt, per quintam, duo anguli B D C & B C D æquales: ob idq́; ambo ſemirecti, per trigeſimamſecundam: quum ſit angulus C B D rectus. Eadem ratione erunt duo anguli C B E & C E B Trianguli B E C, ſemirecti: Quapropter duo latera B F & C F Trianguli B C F, per ſextam, æqualia. Rurſus quum duo anguli A B C & A C B Trianguli A B C, ſint ſemirecti, per quintam & trigeſimamſecundam: & baſis B C vtrique Triangulorum A B C & B C F communis: erunt duo latera A B & A C, æqualia duobus lateribus F B & F C, per vigeſimamſextam. Eſt igitur A B F C quatuor laterum æqualium, & quatuor angulorum rectorum: quapropter à Definitione, Quadratum. Iam verò quum duo anguli F C E & F E C Trianguli C E F, ſint æquales duobus angulis F B C & F C B ipſius Trianguli C B F, vtpote omnes ſemirecti: & baſis B C æqualis baſi E C: erunt duo Triangula B C F & F E C æqualia. Ex communi itaque Notione, erit totum Triangulum B E C, æquale Quadrato A B F C. Atqui Triangulum B E C, per trigeſimamquartam, dimidium eſt Quadrati B C D E. Et Quadratum igitur A B F C dimidium eſt eiuſdem B C D E. Si itaque bis ſumatur A B F C, ratione duorum laterum A B & A C: duo Quadrata æquabuntur Quadrato B C D E, Quod erat demonſtrandum.
+
+[Diagram: triangle A B C above square B C D E with two diagonals crossing at F]
+
+HÆC Demonſtratio amplior quidem: Sed tamen tota Figuræ ſpecie facilis: adeò Rectum & Æquale ſeſe, vbicunque ſint, manifeſta oſtendunt.
+
+At in Scalenis Rectangulis excogitanda fuit alia Demonſtrationis ratio. Nam deficiente laterum æqualitate, deficiunt quæ ab hac pendent, æqualitates Quadratorum & Triangulorũ. Erat quidem in promptu hæc ratiocinatio, Cuiuſlibet Trianguli Rectanguli, duo reliqui anguli à recto ſunt æquales duobus ſemirectis, per trigeſimamſecundam. Conuenit igitur vt Quadrata duorum laterum ipſos ſubtendentium, quãuis inæqualium, tantum efficiant, quantùm ſi eſſet vterq́; ſemirectus: quum ſint baſes æquales. Quod enim vni laterum inæqualium decreſcit, alteri accreſcit: vt æqualitas potentię compenſetur (Potentia lineæ tanta eſt, quantum eſt ipſius Quadratum). Ac rationi conſentaneum eſt, vt potentia lateris rectum angulum ſubtendentis, æqualis ſit duabus laterum quæ duos ſemirectos ſubtendunt, potentijs. Magnitudo enim angulorum, magnitudinem laterum oppoſitorum metitur: & contrà.
+
+Quod vt clariùs exponamus, In duobus Triangulis Rectangulis A B C & A D E, quorum A B C ſit Iſoſceles, ſed A D E Scalenum: notum eſt, ex vulgata illa trigeſimaſecunda, duos angulos ſemirectos A B C & A C B, Trianguli A B C, æquales eſſe duobus A D E & A E D Trianguli A E D, ſimul ſumptis. Sed non proptereà notũ eſt, ſi Quadratũ baſis B C ſit æquale Quadratis duorũ laterũ A B & A C, continuò Quadratũ baſis D E æquale eſſe Quadratis duorum laterum A D & A E: etiamſi duæ baſes B C & E D ſint æquales. Id verò Pythagoras
+
+[Diagram: triangle with apex A, base B C, point D on side A B and point E beyond C on the extended base]
+
+<!-- Catchword: probauit -->

@@ -264,7 +264,7 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFe
 
 	if ann.Pages == "" {
 		// infer pages from existing images
-		pages, err := store.InferPages(imgPath, annotation.FormatAlto)
+		pages, err := store.InferPages(imgPath, annotation.FormatImage)
 		if err != nil {
 			return nil, fmt.Errorf("failed to infer pages from existing dataset images: %w", err)
 		}
@@ -501,9 +501,21 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
-	pages, err := pagesparser.IntRange(ann.Pages)
-	if err != nil {
-		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
+	var pages []int
+	if strings.TrimSpace(ann.Pages) == "" {
+		ds, err := a.datasetSvc.Get(datasetID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get dataset: %w", err)
+		}
+		pages, err = store.InferPages(a.fileSysMgt.DatasetImagesDir(ds), annotation.FormatImage)
+		if err != nil {
+			return nil, fmt.Errorf("failed to infer pages for annotation %s from dataset images: %w", ann.ID, err)
+		}
+	} else {
+		pages, err = pagesparser.IntRange(ann.Pages)
+		if err != nil {
+			return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
+		}
 	}
 	if len(pages) == 0 {
 		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)

@@ -1,0 +1,18 @@
+<!-- Page number: 106 -->
+<!-- Running title: ELEMENT. EVCLIDIS -->
+
+Sit Circulus ABC, cuius Centrum F, cui circunſcribendum ſit Pentagonum æquilaterum & æquiangulum.
+
+[Figure: circle inscribed in a pentagon, with radial lines from centre F to labelled points G, A, M, D, E, L, H, B, C, K]
+
+Diuido Peripheriam totam in quinque æqualia, per antecedentem, in punctis A, D, B, C, E. Et à Centro F educo quinque lineas, FA, FD, FB, FC, & FE: ad quas hincinde duco quinque perpendiculares: Quæ concurrent in punctis G, H, K, L, M, tangentq́; Circulum, per Conſectarium decimæquintæ Tertij. Tum ad puncta concurſus ipſarum, duco à Centro lineas FG, FH, FK, FL, FM. Et quia GA & GD ab vno puncto cadunt in Circulum: ipſæ erunt æquales, per ea quæ demonſtrauimus ad Trigeſimamquintam Tertij. Atque eadem ratione erit HD ipſi HB æqualis: & KB ipſi KC: ſicq́; ordinatim. Et quoniam quinque Arcus AD, DB, BC, CE, & EA ſunt æquales: erunt, per vigeſimamſextam Tertij, quinque anguli qui ad Centrum, AFD, DFB, BFC, CFE, & EFA, æquales. Et quia duo latera AG & FA, Trianguli FGA, ſunt æqualia duobus DG & FD, Trianguli FGD, & latus GF commune: erunt, per octauam Primi, duo ipſorum anguli qui ad F, inter ſe: duoq́; anguli qui ad G, inter ſe quoque æquales. Similiter erunt duo anguli qui ad F, Triangulorum DFH & HFB, inter ſe: duoq́; qui ad H, inter ſe æquales. Sicq́; trium reliquorum Triangulorum BFC, CFE, & EFA, ſinguli diuidentur per æqualia, lineis FK, FL, & FM: eruntq́; decem anguli qui ad Centrum, æquales. Quoniam igitur duo anguli A & F, Trianguli GAF, ſunt æquales duobus angulis A & F, Trianguli MAF, latusq́; AF commune: erit, per vigeſimamſextam Primi, angulus G vnius, æqualis angulo M alterius: latusq́; GA, æquale lateri AM. Eadem ratione erit angulus G, Trianguli GFD, æqualis angulo H, Trianguli DFH: latusq́; GD æquale lateri DH. Quum itaque GA ſit dimidium GM, & GD dimidium GH: ſintq́; GA & GD æqualia: erunt, per animi Notionem, GM & GH eorum dupla, æqualia.
+
+Similiter probabimus GM, ML, LK, & KH eſſe æqualia. Quare Pentagonum GHKLM, æquilaterum. Sed & æquiangulum. Quum enim duo anguli qui ad G, probati ſint æquales: duoq́; qui ad M, æquales: & G dimidius, æqualis M dimidio: erit totus G, toti M æqualis. Atque eadem ratione reliqui anguli ipſius Pentagoni probabuntur æquales, Quod erat faciendum.
+
+ALITER ex Parallelis. In Circulo ABC, cuius Centrum F, inſcribo Pentagonum æquilaterum & æquiangulum ABCDE, ſicut docet antecedens: per cuius quinque angulos duco à Centro vltra Peripheriam, quinque lineas FG, FH, FK, FL, & FM. Et conſtat quinque angulos qui ad F Centrum, eſſe æquales: quum latera quinq́; intrinſecùs Triangulorum ſint æqualia, & baſes æquales. Conſtat etiam quinq́; angulos Pentagoni, qui ad Peripheriam, eſſe diuiſos in decem angulos æquales, per quartam Primi. Duco itaque inter duas lineas FG & FH, lineam GH, parallelum lateri AB, & tangentem Circulum ABC, per ea quæ docuimus ad decimamſextam Tertij: atque huic ſimiles duco HK, KL, & LM, ſingulis lateribus BC, CD, & DE parallelos.
+
+[Figure: pentagon circumscribed about a circle containing an inscribed pentagon, with labelled points G, P, A, M, H, B, F, E, N, C, D, L, K]
+
+Et quoniam FG cadit in duas parallelos AB & GH, erunt duo anguli FGH & FHG, duobus FAB & FBA mutuò æquales, per ſecundam partẽ vigeſimænonæ Primi: ob idq́;, inter ſe æquales. Et per ſextam igitur Primi, duæ lineæ FG & FH æquales. Eadem ratione erunt duo anguli FHK & FKH, duobus FGH & FHG mutuò æquales: & FK æqualis FH: quapropter & ipſi FG. Quum itaque anguli qui ad F, ſint æquales: erit, per quartam Primi, baſis HK baſi GH æqualis. Similiter probabuntur tres lineæ FK, FL, & FM, æquales duabus FG & FH: Duæ item baſes KL & LM, æquales duabus
+
+<!-- Catchword: GH & -->

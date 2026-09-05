@@ -78,19 +78,23 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	_, err = db.Exec(string(schema))
 	require.NoError(t, err)
 
-	fileSysMgt := filesys.NewFileSystemManager(t.TempDir(), t.TempDir(), t.TempDir(), t.TempDir())
+	baseDir := t.TempDir()
+	fileSysMgt := filesys.NewFileSystemManager(baseDir, t.TempDir(), t.TempDir(), t.TempDir())
 	datasetStore := store.NewDatasetSQL(db, fileSysMgt)
 	annotationStore := store.NewAnnotationSQL(db)
-	require.NoError(t, datasetStore.InsertDataset(&model.Dataset{
+	dataset := &model.Dataset{
 		Meta:        common.Meta{ID: "ds_unprepared", Name: "Unprepared"},
 		EditionID:   "XANRSM",
 		FacsimileID: "facsimile",
 		DPI:         300,
-	}))
+	}
+	require.NoError(t, datasetStore.InsertDataset(dataset))
+	require.NoError(t, os.MkdirAll(fileSysMgt.DatasetImagesDir(dataset), 0o755))
+	require.NoError(t, os.WriteFile(filepath.Join(fileSysMgt.DatasetImagesDir(dataset), "page-0001.png"), nil, 0o644))
 	require.NoError(t, annotationStore.InsertAnnotation(&annotation.Annotation{
 		Meta:      common.Meta{ID: "ann_unprepared", Name: "Unprepared"},
 		DatasetID: "ds_unprepared",
-		Pages:     "1",
+		Pages:     "",
 		Segmented: false,
 		Ocred:     false,
 	}))
@@ -103,6 +107,41 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	require.Equal(t, "ds_unprepared", index.DatasetID)
 	require.Equal(t, "ann_unprepared", index.AnnotationID)
 	require.Empty(t, index.Nodes)
+}
+
+func TestCreateAnnotationInfersPagesFromDatasetImages(t *testing.T) {
+	db, err := sql.Open("sqlite3", ":memory:")
+	require.NoError(t, err)
+	defer db.Close()
+
+	schema, err := os.ReadFile(filepath.Join("..", "migrations", "ocrflow", "1774207510_tables.sql"))
+	require.NoError(t, err)
+	_, err = db.Exec(string(schema))
+	require.NoError(t, err)
+
+	baseDir := t.TempDir()
+	fileSysMgt := filesys.NewFileSystemManager(baseDir, t.TempDir(), t.TempDir(), t.TempDir())
+	datasetStore := store.NewDatasetSQL(db, fileSysMgt)
+	annotationStore := store.NewAnnotationSQL(db)
+	dataset := &model.Dataset{
+		Meta:        common.Meta{ID: "ds_infer_pages", Name: "Infer pages"},
+		FacsimileID: "facsimile",
+		DPI:         300,
+	}
+	require.NoError(t, datasetStore.InsertDataset(dataset))
+	require.NoError(t, os.MkdirAll(fileSysMgt.DatasetImagesDir(dataset), 0o755))
+	for _, filename := range []string{"page-0001.png", "page-0002.png"} {
+		require.NoError(t, os.WriteFile(filepath.Join(fileSysMgt.DatasetImagesDir(dataset), filename), nil, 0o644))
+	}
+
+	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
+	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
+
+	created, err := annotationSvc.Create("ds_infer_pages", &annotation.Annotation{
+		Meta: common.Meta{Name: "Infer pages"},
+	}, false)
+	require.NoError(t, err)
+	require.Equal(t, "1-2", created.Pages)
 }
 
 func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testing.T) {
