@@ -25,11 +25,22 @@ LLM corrector run in two cycles, due to token limit. Log available only from the
 
 ## Basel_1562
 
-The copyright status of the facsimile is currently unknown. The OCR stage has already been completed.
+The facsimile is public domain and can be used. OCR and llm correction with fable has been completed.
 
-**Next steps:** Wait for Liri to update the copyright status. If the facsimile can be used, proceed to the LLM corrector. Otherwise, restart the pipeline with a suitable facsimile.
+Four cycles of LLM corrector run, due to token limit. Summarized metrics:
 
-Q to Liri: there is no public domain scan for this edition, can you check: https://euclides.huma-num.fr/resourcebox/item/edit?key=Basel_1562
+```shell
+pages=388
+tokens_input=796
+tokens_cached=3,701,775
+tokens_cache_creation=1,386,033
+tokens_output=296,854
+tokens_reasoning=0
+tokens_total=5,385,458
+cost_usd=$46.742450
+```
+
+**Next steps:** Manually curate the Fable transcriptions.
 
 ---
 

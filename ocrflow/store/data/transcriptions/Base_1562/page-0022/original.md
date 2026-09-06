@@ -1,0 +1,7 @@
+<!-- Running title: PREFACE. -->
+
+Mais la Geometrie ne ſert pas ſeulement à détacher l'eſprit des choſes ſenſibles, & à inſpirer le gouſt de la verité; elle apprend auſſy à la reconnoiſtre & à ne ſe laiſſer pas tromper par quantité de maximes obſcures & incertaines, qui ſervent de principes aux faux raiſonnemens dont les diſcours des hommes ſont tout remplis. Car ſi l'on y prend garde, ce qui nous jette ordinairement dans l'erreur & nous fait prendre le faux pour le vray, n'eſt pas le defaut de la liaiſon des conſequences avec les principes, en quoy conſiſte ce qu'on appelle la forme des argumens, mais c'eſt l'obſcurité des principes mêmes, qui n'eſtant pas exactement vrais, & n'eſtant pas auſſy evidemment faux, preſentent à l'eſprit une lumiere confuſe où la verité & la fauſſeté ſont mêlées, ce qui cauſe à pluſieurs un eſpece d'ébloüiſſement qui leur fait approuver ces principes ſans les examiner davantage.
+
+Il eſt vray que la Logique nous donne deux excellentes regles pour éviter cette illuſion, qui ſont de definir tous les mots equivoques, & de ne recevoir jamais que des principes clairs & certains. Mais ces regles ne ſuffiſent pas pour nous garantir d'erreur. Premierement, parce qu'on ſe trompe ſouvent dans la notion même de l'evidence en prenant pour evident ce qui ne l'eſt pas. Et en ſecond lieu, parce que quoiqu'on ſçache ces regles, on n'eſt pas toûjours appliqué à les pratiquer. Il n'y a donc que la Geometrie qui remedie en effet à l'un & à l'autre de ces defauts. Car d'une part en four-
+
+<!-- Catchword: niſſant -->
