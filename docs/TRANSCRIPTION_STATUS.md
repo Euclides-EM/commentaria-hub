@@ -25,11 +25,9 @@ LLM corrector run in two cycles, due to token limit. Log available only from the
 
 ## Basel_1562
 
-The copyright status of the facsimile is currently unknown. The OCR stage has already been completed.
+The OCR stage has already been completed on an old facsimile, that has been replaced since with a public domain facsimile. 
 
-**Next steps:** Wait for Liri to update the copyright status. If the facsimile can be used, proceed to the LLM corrector. Otherwise, restart the pipeline with a suitable facsimile.
-
-Q to Liri: there is no public domain scan for this edition, can you check: https://euclides.huma-num.fr/resourcebox/item/edit?key=Basel_1562
+**Next steps:** Recreate the dataset with the new facsimile, run OCR and LLM corrector, and manually curate the Fable transcriptions.
 
 ---
 
@@ -46,9 +44,9 @@ Two facsimiles are available:
 
 ## Paris_1598a
 
-OCR has been completed, but the copyright status is unclear.
+OCR has been completed, but the copyright status is unclear. There is no public domain facsimile available for this edition (Liri checked).
 
-Q to Liri: The copyright status of Paris_1598a is unclear, can you check: https://euclides.huma-num.fr/resourcebox/item/edit?key=Paris_1598a
+**Next steps:** Discuss with PIs what to do with editions that do not have a public domain facsimile available.
 
 ---
 
@@ -56,7 +54,9 @@ Q to Liri: The copyright status of Paris_1598a is unclear, can you check: https:
 
 OCR has been completed, but the facsimile is not copyrighted. There is a new facsimile that has the appropriate copyright.
 
-**Next steps:** Create a new dataset with the new facsimile and run all the steps.
+I created a new dataset, segmentation stage is currently running. I will run the OCR and LLM corrector on it.
+
+**Next steps:** Run all the steps - OCR, LLM corrector, and manual curation - on the new facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_y46hr6&datasetTab=annotations
 
 ---
 
@@ -74,11 +74,16 @@ https://euclides.huma-num.fr/hub/index.html?datasetId=ds_jinmif&datasetTab=detai
 
 OCR has been completed, the facsimile is public domain.
 
-**Next steps:** Liri to run the corrector on the following annotation, with `additional_annotations=["ann_m49sua"]`:  https://euclides.huma-num.fr/hub/index.html?datasetId=ds_tjokpg&datasetTab=details&annotationId=ann_ov9taz&currentPageOrKey=52&annotationTab=details
+Liri run the corrector:
+```shell
+2026/09/05 11:40:17 complete pages=72 rounds=1 requests=72 tokens_input=340 tokens_cached=1697451 tokens_cache_creation=583576 tokens_output=165781 tokens_reasoning=0 tokens_total=2447148 cost_usd=21.876591 cost_reports=72/72 final_outputs=store/data/ds_0n6l0d/annotations/ann_i74rcq/transcriptions/page-NNNN/original.md
+```
+
+**Next steps:** Manually curate the Fable transcriptions.
 
 ---
 
-## Paris_1634
+## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
 
 Full Fable transcriptions exist and have already been manually curated. However, no copyright for the facsimile that the transcriptions were based on. Another public domain facsimile is available, but the transcriptions have not yet been aligned with it.
 
@@ -86,13 +91,11 @@ Full Fable transcriptions exist and have already been manually curated. However,
 
 ---
 
-## Paris_1639 and Kiel_and_Leipzig_1699
+## Paris_1639  
 
-Full Fable transcriptions exist and have already been manually curated. However, the copyright status of the corresponding facsimiles is currently unknown.
+Full Fable transcriptions exist and have already been manually curated. The facsimile is public domain.
 
-**Next steps:** Wait for Liri to update the copyright status. If the existing facsimiles can be used, no further transcription work should be necessary. Otherwise, determine whether the curated transcriptions can be aligned with suitable public-domain facsimiles before considering reprocessing.
-
-Q to Liri: The copyright status of Paris_1639 and Kiel_and_Leipzig_1699 is unclear, can you check: https://euclides.huma-num.fr/resourcebox/item/edit?key=Paris_1639
+DONE
 
 ---
 
@@ -101,15 +104,5 @@ Q to Liri: The copyright status of Paris_1639 and Kiel_and_Leipzig_1699 is uncle
 Full Fable transcriptions exist, but they still require manual curation. Facsimile is public domain.
 
 **Next steps:** Manually curate the Fable transcriptions. 
-
----
-
-## Basel_1537
-
-The copyright status of the facsimiles is currently unknown. Full Fable transcriptions exist, but they still require manual curation.
-
-**Next steps:** Wait for Liri to update the copyright status. If the existing facsimiles can be used, manually curate the Fable transcriptions. Otherwise, attempt to align the existing Fable Markdown files with the new public-domain facsimiles. If the alignment works sufficiently well, manually curate the resulting transcriptions.
-
-Q to Liri: The copyright status of Basel_1537 is unclear, can you check: https://euclides.huma-num.fr/resourcebox/item/edit?key=Basel_1537
 
 ---

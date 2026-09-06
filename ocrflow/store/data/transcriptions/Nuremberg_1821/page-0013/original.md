@@ -1,0 +1,7 @@
+<!-- Page number: 8 -->
+
+## § 4.
+
+So lange nun die reale Möglichkeit, oder die Möglichkeit der räumlichen Darſtellung des Subjects, wenn dieſes ſich auf eine [unclear: ſtreckige] oder räumliche Größe bezieht, nicht gezeigt iſt, bleibt die mathematiſche Erklärung unbrauchbar, und die Lehrſätze, welche auf ihr beruhen, ſind, wenn ihre Wahrheit auch ſtreng bewieſen iſt, dennoch nur hypothetiſch gültig, nemlich nur unter der Vorausſetzung der realen Möglichkeit des Subjects der Erklärung. So kann man z. B. ſtreng erweiſen: daß in dem vorhin genannten Trigonoid, die drei Winkel rechte Winkel ſind, und der äuſſere ein ſtumpfer Winkel iſt, wenn das Trigonoid als Art unter die Gattung der geradlinigen Dreiecke gehört. Allein dieſe erwieſenen Lehrſätze ſind nicht deswegen ungültig, weil ſie andern auch bewieſenen Lehrſätzen widerſprechen, denn dieſer Widerſpruch würde nur den richtigen Schluß begründen, daß entweder die einen oder die andern falſch ſind, welche aber richtig und welche unrichtig ſind, läßt ſich nur durch die Unterſuchung entſcheiden, auf welchen Erklärungen ſie beruhen, und welche von dieſen Erklärungen reale Möglichkeit hat. Es müßte alſo gezeigt werden, wie ein Trigonoid zu beſchreiben iſt, oder die Aufgabe: ein Trigonoid zu beſchreiben, mit Auflöſung und Beweis durchgeführt werden, welches aber unmöglich iſt, wenn das Trigonoid ein geradliniges Dreieck iſt, hingegen möglich, wenn es ein Kugeldreieck iſt. In dieſem Fall hat alſo die Erklärung: ein gleichſeitiges rechtwinkliches Dreieck heißt ein
+
+<!-- Catchword: Tri- -->
