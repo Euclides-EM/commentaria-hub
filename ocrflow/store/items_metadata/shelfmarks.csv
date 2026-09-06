@@ -362,9 +362,8 @@ Amsterdam_1701,,https://www.google.nl/books/edition/De_zes_eerste_Boecken_Euclid
 Ansbach_1610,,https://www.google.com/books/edition/Die_ersten_sechs_B%C3%BCcher_Elementorum_Evc/qrqXNzmumroC,Ansbach_1610_tp.png,,,,unknown,,,,
 Ansbach_1610,,https://www.e-rara.ch/zut/content/titleinfo/2498733,ansbach_1610_tp_v7lt3b.jpg,,,,Public Domain,,,,
 Amsterdam_1662,,https://books.google.nl/books/edition/De_15_boecken_der_elementen_met_korte_ve/tYgf9NvGwggC,Amsterdam_1662_tp.png,,,,,,,,
-Oxford_1701,,https://www.google.com/books/edition/Euclidis_Elementorum_libri_priores_sex_i/z54Oq8BSWKsC,Oxford_1701_tp.png,,,,unknown,,,,
-Oxford_1701,1,https://dlc.mpg.de/!image/868450871/15/-/,oxford_1701_tp_tng133.png,,,,Public Domain,,,,
-Paris_1598a,,https://www.google.nl/books/edition/Les_six_premiers_liures_des_elemens_d_Eu/bW9q_TRw0mcC,Paris_1598a_tp.png,,,,,none,,shm_ddf3cba5db4c,none
+Oxford_1701,,https://www.google.com/books/edition/Euclidis_Elementorum_libri_priores_sex_i/z54Oq8BSWKsC,Oxford_1701_tp.png,,,,unknown,none,,shm_48d08ce25044,none
+Oxford_1701,1,https://dlc.mpg.de/!image/868450871/15/-/,oxford_1701_tp_tng133.png,,,,Public Domain,none,,shm_cae5e191cb76,none
 Paris_1605,,https://www.google.com/books/edition/Les_neuf_premiers_livres_des_elemens_tra/dIlXAAAAcAAJ,Paris_1605_tp.png,,,,unknown,,,,
 Paris_1605,1,https://dlc.mpg.de/!metadata/870649361/5/-/,paris_1605_tp_9102gc.jpg,,,,Public Domain,,,,
 Paris_1629,,https://gallica.bnf.fr/ark:/12148/bpt6k8702181q,Paris_1629_tp.jpeg,,,,,,,,
@@ -472,7 +471,7 @@ Venice_1509,,https://dlc.mpg.de/image/868387185/7/,venice_1509_tp_84i81m.jpg,,,,
 Venice_1510,,https://www.google.com/books/edition/Euclidis_Megarensis_Habent_in_hoc_volumi/iMkxYb4ecgQC,Venice_1510_tp.png,,,,,,,,
 Paris_1516,,https://www.digitale-sammlungen.de/en/details/bsb11111685,Paris_1516_tp.png,,,,,,,,
 Basel_1533,,https://www.google.com/books/edition/Euclidis_Elementorum_libri_XV/VBVSP056oZwC,Basel_1533_tp.png,,many,,"digitization: KB / Google, 2019",none,https://webggc.oclc.org/cbs/DB=2.37/XMLPRS=Y/PPN?PPN=422001511,shm_5d4ba96eeeab,none
-Basel_1537,,https://www.google.com/books/edition/Evclidis_Megariensis_Mathematici_Clariss/2nIkNLZ9GvQC,Basel_1537_tp.png,,,,,,,,
+Basel_1537,,https://www.google.com/books/edition/Evclidis_Megariensis_Mathematici_Clariss/2nIkNLZ9GvQC,Basel_1537_tp.png,,,,,none,,shm_320506fe993e,none
 Strasbourg_1538,,https://www.google.com/books/edition/Eukleidu_T%C5%8Dn_Pente_Kai_Deka_Stoichei%C5%8Dn/PclWAAAAcAAJ,Strasbourg_1538_tp.png,,,,,,,,
 Venice_1543,,https://www.google.com/books/edition/Euclide_megarense_philosopho_solo_introd/aEgC6RV8gIcC,Venice_1543_tp.png,,,,unknown,,,,
 Venice_1543,1,https://www.digitale-sammlungen.de/en/view/bsb10139484,,,,,No Copyright,,,,
@@ -497,10 +496,10 @@ Basel_1558,,http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:1
 Paris_1558,,https://www.google.nl/books/edition/Euclidis_Elementorum_libri_XV/zz8HZKewReUC,Paris_1558_tp.png,,,,,,,,
 Paris_1558a,,https://www.google.com/books/edition/Euclidis_elementorum_libri_quindecim_The/acNlAAAAcAAJ,Paris_1558a_tp.png,,,,,,,,
 Strasbourg_1559,,http://resolver.staatsbibliothek-berlin.de/SBB0001AEB400000000,Strasbourg_1559_tp.png,,,,,,,,
-Basel_1562,,https://www.google.com/books/edition/Die_Sechs_Erste_B%C3%BCcher_Euclidis_Vom_anf/dwZZAAAAcAAJ,Basel_1562_tp.png,,,,unknown,,,,
-Basel_1562,1,https://dlc.mpg.de/image/868394203/5/,basel_1562_tp_tg7qb0.jpg,,,,Public Domain,,,,
-Basel_1562,1,http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb11057832-1,,,,,,,,,
-Basel_1562,1,http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10139482-5,,,,,,,,,
+Basel_1562,,https://www.google.com/books/edition/Die_Sechs_Erste_B%C3%BCcher_Euclidis_Vom_anf/dwZZAAAAcAAJ,Basel_1562_tp.png,,,,unknown,none,,shm_d10b1bb04375,none
+Basel_1562,1,https://dlc.mpg.de/image/868394203/5/,basel_1562_tp_tg7qb0.jpg,,,,Public Domain,none,,shm_b4fe9c73e5e6,none
+Basel_1562,1,http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb11057832-1,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_8412d0e6c510,none
+Basel_1562,1,http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10139482-5,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_f6621496d593,none
 Cologne_1564,,https://www.google.com/books/edition/Tractatus_De_Usu_Globi_Astriferi/zMk7AAAAcAAJ,Cologne_1564_tp.png,,,,unknown,,,,
 Cologne_1564,1,"https://www.digitale-sammlungen.de/en/view/bsb00016105?q=%28Euclidis+Elementa%29&page=4,5",cologne_1564_tp_a0j5vd.jpg,,,,Public Domain,,,,
 Cologne_1564,1,"https://www.digitale-sammlungen.de/en/view/bsb00035113?q=%28Euclidis+Elementa%29&page=10,11",cologne_1564_tp_05iv8m.jpg,,,,Public Domain,,,,
@@ -519,9 +518,9 @@ Strasbourg_1570a,,https://www.google.com/books/edition/Euclidis_Propositiones_El
 Strasbourg_1570a,1,"https://www.digitale-sammlungen.de/en/view/bsb00015398?page=6,7",,,,,Public Domain,,,,
 Strasbourg_1571,,https://www.google.nl/books/edition/Evclidis_Elementorvm_Liber_primus/0d5RAAAAcAAJ,Strasbourg_1571_tp.png,,,,,,,,
 Strasbourg_1571a,,https://www.google.com/books/edition/Evclidis_Omnes_Omnivm_Librorvm_Propositi/BJtoAAAAcAAJ,Strasbourg_1571a_tp.png,,,,,,,,
-Pesaro_1572,,https://www.google.com/books/edition/Euclidis_elementorum_libri_XV/jEoRPuxe_pcC,Pesaro_1572_tp.png,,,,unknown,,,,
-Pesaro_1572,1,https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001102287104#,pesaro_1572_tp_z1ib0x.jpg,,,,Public Domain,,,,
-Pesaro_1572,1,https://dlc.mpg.de/image/868383821/6/,pesaro_1572_tp_rn4hef.jpg,,,,Public Domain,,,,
+Pesaro_1572,,https://www.google.com/books/edition/Euclidis_elementorum_libri_XV/jEoRPuxe_pcC,Pesaro_1572_tp.png,,,,unknown,none,,shm_921e8b8693ae,none
+Pesaro_1572,1,https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001102287104#,pesaro_1572_tp_z1ib0x.jpg,,,,Public Domain,none,,shm_80455651d7a6,none
+Pesaro_1572,1,https://dlc.mpg.de/image/868383821/6/,pesaro_1572_tp_rn4hef.jpg,,,,Public Domain,none,,shm_8857de0a9825,none
 Paris_1573,,https://www.google.com/books/edition/Euclidis_Elementorum_libri_15_Graec%C3%A8_La/4D4Px85-r3gC,Paris_1573_tp.png,,,,unknown,,,,
 Paris_1573,1,https://dlc.mpg.de/image/868395366/5/,paris_1573_tp_z1cp3m.png,,,,Public Domain,,,,
 Urbino_1575,,https://www.google.com/books/edition/De_gli_elementi_d_Euclides/TchCAAAAcAAJ,Urbino_1575_tp.png,,,,unknown,,,,
@@ -590,9 +589,9 @@ Paris_1634,6,https://www.google.com/books/edition/Supplementum_Cursus_mathematic
 Paris_1634,6,https://gallica.bnf.fr/ark:/12148/bpt6k87020213?rk=64378;0,,,,,Public domain,none,,shm_9f45c3638e60,none
 Alcala_1637,,https://www.google.com/books/edition/Elementos_geometricos_de_Euclides_philos/9GH8RqDkKmsC,Alcala_1637_tp.png,,,,,,,,
 Hamburg_1638,,https://www.google.com/books/edition/Euklides_zes_eerste_boekken_van_de_begin/iYrka6yi4XQC,Hamburg_1638_tp.png,,,,,,,,
-Paris_1639,,https://www.google.com/books/edition/Les_six_premiers_livres_des_%C3%A9l%C3%A9ments_d/q5qYhOGvzP4C,Paris_1639_tp.jpeg,,,,unknown,,,,
-Paris_1639,1,https://gallica.bnf.fr/ark:/12148/bpt6k8720488k?rk=107296;4,,,,,unknown,,,,
-Paris_1639,1,https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k8720488k/f5,,,,,unknwon - licence-link has error 404,,,,
+Paris_1639,,https://www.google.com/books/edition/Les_six_premiers_livres_des_%C3%A9l%C3%A9ments_d/q5qYhOGvzP4C,Paris_1639_tp.jpeg,,,,unknown,none,,shm_c32074f2046f,none
+Paris_1639,1,https://gallica.bnf.fr/ark:/12148/bpt6k8720488k?rk=107296;4,,,,,Public domain,none,,shm_c9e25ee155d2,none
+Paris_1639,1,https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k8720488k/f5,,,,,unknwon - licence-link has error 404,none,,shm_ca5f277b6eeb,none
 Venice_1641,,,,,,,,,,,
 Paris_1644,,https://www.google.nl/books/edition/Cvrsvs_mathematicvs_nova_brevi_et_clara/krM4AAAAMAAJ,Paris_1644_tp.jpeg,,,,,,,,
 Paris_1644,1,https://www.digitale-sammlungen.de/en/view/bsb10235919,,,,,,,,,
@@ -675,7 +674,7 @@ Paris_1667,,https://www.google.com/books/edition/Nouveaux_elemens_de_geometrie/X
 Lyon_1669,,https://www.google.com/books/edition/Synopsis_Geometrica/TfsGAAAAcAAJ,Lyon_1669_tp.png,,,,,none,,shm_9689395c7abf,none
 Lyon_1669,1,https://books.google.co.uk/books/about/Synopsis_geometrica_cui_accessere_tria_o.html?id=zbJqDHIzaDcC&redir_esc=y,,,,,,none,,shm_c7f28721a572,none
 Lyon_1669,1,https://www.digitale-sammlungen.de/en/view/bsb10081765,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_97ac6d036008,none
-Oxford_1705,,https://archive.org/details/b30452806/page/n4/mode/1up,,,,,,none,,shm_5f34974d7b87,none
+Oxford_1705,,https://archive.org/details/b30452806/page/n4/mode/1up,,,,,http://creativecommons.org/publicdomain/mark/1.0/,none,,shm_5f34974d7b87,none
 Livorno_1709,,https://www.google.com/books/edition/Euclides_reformatus_sive_plana_et_solida/085et4hApewC,Livorno_1709_tp.png,,,,unknown,,,,
 Livorno_1709,1,https://www.e-rara.ch/zut/content/titleinfo/14575305,,,,,Public Domain https://creativecommons.org/publicdomain/mark/1.0/deed.de ,,,,
 Livorno_1709,1,https://dlc.mpg.de/image/868390151/7/,livorno_1709_tp_x0qhol.jpg,,,,Public Domain,,,,
@@ -703,17 +702,17 @@ London_1747,,https://archive.org/details/bim_eighteenth-century_elements-of-plan
 Glasgow_1756,,https://www.google.com/books/edition/Euclidis_Elementorum_libri_priores_sex_i/sioVAAAAQAAJ,Glasgow_1756_tp.png,,,,unknown,,,,
 Glasgow_1756,1,https://babel.hathitrust.org/cgi/pt?id=mdp.39015009241483,,,,,Public Domain by Google Digitalised https://www.hathitrust.org/the-collection/search-access/access-use-policy/#pd-us-google,,,,
 Glasgow_1756,1,https://dlc.mpg.de/!image/554627701/5/-/,glasgow_1756_tp_7nfb3d.jpg,,,,,,,,
-The_Hague_1758,,https://www.google.com/books/edition/Elemens_de_geometrie/8y4SCfynpxEC,The_Hague_1758_tp.png,,,,unknown,,,,
-The_Hague_1758,1,https://dlc.mpg.de/!metadata/86838870X/5/-/,the_hague_1758_tp_bhxhqy.jpg,,,,Public Domain,,,,
-Halle_1758,,https://digital.slub-dresden.de/werkansicht/dlf/6750/5?tx_dlf_navigation%5Bcontroller%5D=Navigation&cHash=2b7eef6229ba85ff2b6ec7ffb9f4c277,halle_1758_tp_zog3m3.png,,,,Public Domain,,,,
-Halle_1758,1,https://www.e-rara.ch/zut/doi/10.3931/e-rara-9137,,,,,Public Domain,,,,
-Halle_1758,1,https://books.google.de/books?id=zUc-AAAAcAAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false,,,,,unknown,,,,
+The_Hague_1758,,https://www.google.com/books/edition/Elemens_de_geometrie/8y4SCfynpxEC,The_Hague_1758_tp.png,,,,unknown,none,,shm_9df82fa26b5c,none
+The_Hague_1758,1,https://dlc.mpg.de/!metadata/86838870X/5/-/,the_hague_1758_tp_bhxhqy.jpg,,,,Public Domain,none,,shm_24b8c9fc95ce,none
+Halle_1758,,https://digital.slub-dresden.de/werkansicht/dlf/6750/5?tx_dlf_navigation%5Bcontroller%5D=Navigation&cHash=2b7eef6229ba85ff2b6ec7ffb9f4c277,halle_1758_tp_zog3m3.png,,,,Public Domain,none,,shm_ba1dcb834490,none
+Halle_1758,1,https://www.e-rara.ch/zut/doi/10.3931/e-rara-9137,,,,,Public Domain,none,,shm_9fb15176cadf,none
+Halle_1758,1,https://books.google.de/books?id=zUc-AAAAcAAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false,,,,,unknown,none,,shm_17446bf05e22,none
 London_1789,,https://www.google.com/books/edition/Elements_of_Geometry/5ncAAAAAMAAJ,London_1789_tp.png,,,,,none,,shm_d6ac8c7f8fa6,none
 Paris_1794,,https://www.google.com/books/edition/%C3%89l%C3%A9ments_de_g%C3%A9om%C3%A9trie/Sx_WtPKsq98C,Paris_1794_tp.png,,,,,none,,shm_f68b79fa27a1,none
 Paris_1794,1,https://gallica.bnf.fr/ark:/12148/bpt6k1521831j,,,,,Public domain,none,,shm_dafd1aa056c1,none
 Edinburgh_1795,,https://www.google.com/books/edition/Elements_of_Geometry/9y7JI4_79RMC,Edinburgh_1795_tp.png,,,,,none,,shm_40e152f3e11d,none
-Naples_1810,,https://archive.org/details/bub_gb_DI0bsb_dJm0C/page/n9/mode/1up,,,,,"Public Domain, 1818",,,,
-Naples_1810,1,https://archive.org/details/bub_gb_7d1AAgADPuEC/page/n11/mode/1up,,,,,"Public Domain, 1812",,,,
+Naples_1810,,https://archive.org/details/bub_gb_DI0bsb_dJm0C/page/n9/mode/1up,,,,,Public Domain,none,This is the 1818 edition,shm_21a9c974926f,none
+Naples_1810,1,https://archive.org/details/bub_gb_7d1AAgADPuEC/page/n11/mode/1up,,,,,Public Domain,none,This is the 1812 edition,shm_104a0a8ed55a,none
 Paris_1814,1,https://gallica.bnf.fr/ark:/12148/bpt6k1521328b,,,,,unknown,,,,
 Paris_1814,2,https://gallica.bnf.fr/ark:/12148/bpt6k65659793,,,,,unknown,,,,
 Paris_1814,3,https://gallica.bnf.fr/ark:/12148/bpt6k65149676,,,,,unknown,,,,
@@ -724,12 +723,12 @@ Paris_1814,1,https://dlc.mpg.de/!image/867386010/9/-/,paris_1814_tp_pq6kkb.jpg,,
 Paris_1814,3,https://dlc.mpg.de/image/867386029/9/,paris_1814_tp_26efep.jpg,,,,Public Domain,,,,
 Paris_1814,1,https://dlc.mpg.de/toc/867434457/,,,,All three volumes,Public Domain,,,,
 Nuremberg_1821,,https://www.google.com/books/edition/Mathematisch_critische_Bearbeitung_des_e/iG9Qdfm2gasC,Nuremberg_1821_tp.png,,,,,none,,shm_7e9006ffb38f,none
-Berlin_1824,1,https://www.google.com/books/edition/Euclidis_Elementorum_libri_sex_priores/Ap4AAAAAYAAJ,Berlin_1824_tp.png,,,,unknown,,,,
-Berlin_1824,1,https://archive.org/details/bub_gb_Ap4AAAAAYAAJ/page/II/mode/2up,Berlin_1824_tp_alt.png,,,,Public Domain,,,,
-Berlin_1824,2,https://books.google.fr/books?id=MLr7b7f8j7cC&newbks=1&newbks_redir=0&pg=PP11#v=onepage&q&f=false,,,,,unknown,,,,
-Berlin_1824,1,https://dlc.mpg.de/toc/867434198/,berlin_1824_tp_nenzit.jpg,,,,Public Domain,,,,
-Berlin_1824,2,https://dlc.mpg.de/image/867369787/7/,,,,,Public Domain,,,,
-Lund_1855,,https://digital.ub.uni-leipzig.de/object/viewid/0000067015,lund_1855_tp_3jse79.jpg,,,,Public Domain,,,,
+Berlin_1824,1,https://www.google.com/books/edition/Euclidis_Elementorum_libri_sex_priores/Ap4AAAAAYAAJ,Berlin_1824_tp.png,,,,unknown,none,,shm_d0a604876d82,none
+Berlin_1824,1,https://archive.org/details/bub_gb_Ap4AAAAAYAAJ/page/II/mode/2up,Berlin_1824_tp_alt.png,,,,http://creativecommons.org/publicdomain/mark/1.0/,none,,shm_c03c4d5df80e,none
+Berlin_1824,2,https://books.google.fr/books?id=MLr7b7f8j7cC&newbks=1&newbks_redir=0&pg=PP11#v=onepage&q&f=false,,,,,unknown,none,,shm_993907cea209,none
+Berlin_1824,1,https://dlc.mpg.de/toc/867434198/,berlin_1824_tp_nenzit.jpg,,,,Public Domain,none,,shm_19048b6093e0,none
+Berlin_1824,2,https://dlc.mpg.de/image/867369787/7/,,,,,Public Domain,none,,shm_b7cdf18e3c48,none
+Lund_1855,,https://digital.ub.uni-leipzig.de/object/viewid/0000067015,lund_1855_tp_3jse79.jpg,,,,Public Domain,none,,shm_6d36261fa0af,none
 Leipzig_1883,,https://www.google.fr/books/edition/Euclidis_Opera_omnia_Elementa_libri_I_IV/Xl5uadxJRJcC?hl=en&gbpv=1&pg=PP11&printsec=frontcover,Leipzig_1883_tp.png,,,,,none,,shm_9fe641543e97,none
 Leipzig_1883,2,https://books.google.fr/books?id=d7E2AAAAMAAJ&pg=PR3#v=onepage&q&f=false,,,,,,none,,shm_54f14157021c,none
 Leipzig_1883,3,https://books.google.fr/books?id=2qpcwNVz0ywC&pg=PP7#v=onepage&q&f=false,,,,,,none,,shm_5624fdf39fdf,none
@@ -1930,7 +1929,7 @@ I2IA25,1,https://app.transkribus.org/sites/noscemus/doc/689825?colId=88639,,,,,C
 O3PAP5,1,https://app.transkribus.org/sites/noscemus/doc/928892?colId=88639,,,,,CC BY 4.0 (NOSCEMUS),external,"Transkribus: Viète, François - Zeteticorum libri quinque. Tours 1593.pdf",,
 BKH4JK,1,https://app.transkribus.org/sites/noscemus/doc/899970?colId=88639,,,,,CC BY 4.0 (NOSCEMUS),external,"Partial (only the arithmetics part); Transkribus: Wallis, John - Arithmetica infinitorum. Oxford 1656.pdf",,
 Paris_1615,1,https://www.google.com/books/edition/Les_quinze_livres_des_Elements_d_Euclide/XIhmAAAAcAAJ,,,,,,none,Fake,shm_ada3a20aa8f4,none
-Paris_1598a,1,https://www.google.nl/books/edition/Les_six_premiers_liures_des_elemens_d_Eu/bW9q_TRw0mcC,,,,,,none,Fake,shm_3c111711fdb7,none
+Paris_1598a,1,https://www.google.nl/books/edition/Les_six_premiers_liures_des_elemens_d_Eu/bW9q_TRw0mcC,paris_1598a_tp_3ym623.png,,,,,none,,shm_3c111711fdb7,none
 London_1654,1,https://www.digitale-sammlungen.de/en/view/bsb10235960,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_6bedadbd25ab,none
 Paris_1654,1,https://babel.hathitrust.org/cgi/pt?id=ucm.5324246193&seq=5,,,,,"Public Domain, Google-digitized.",none,,shm_0c18bbac1769,none
 Antwerp_1654,1,https://babel.hathitrust.org/cgi/pt?id=ucm.5323607736,,,,,"Public Domain, Google-digitized.",none,,shm_816ee7688356,none
@@ -1962,3 +1961,5 @@ Turin_1671,1,https://www.google.com/books/edition/Evclides_Adavctvs_Et_Methodicv
 Oxford_1705,1,https://ucl.primo.exlibrisgroup.com/discovery/delivery/44UCL_INST:UCL_VU2/12403282330004761,,,,,,none,,shm_3b57b035e0af,none
 UQI2BV,1,https://www.google.co.il/books/edition/Elementa_Geometrica/x2GeQqyLM8YC,,,,,,none,,shm_75785576372c,none
 6X6R6Y,1,https://www.google.co.il/books/edition/Der_furnembsten_notwendigsten_der_gantze/lv7erlEcUtkC,,,,,,none,,shm_f5671c54424d,none
+Basel_1537,1,https://www.digitale-sammlungen.de/en/view/bsb11724610,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_41885d69f1ee,none
+Kiel_and_Leipzig_1699,1,https://www.digitale-sammlungen.de/en/view/bsb10215852,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_227becb0e1b5,none
