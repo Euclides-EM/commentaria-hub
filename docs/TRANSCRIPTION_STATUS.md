@@ -106,3 +106,9 @@ Full Fable transcriptions exist, but they still require manual curation. Facsimi
 **Next steps:** Manually curate the Fable transcriptions. 
 
 ---
+
+## Paris_1794 
+
+Creating the dataset now, facsimile is public domain. 
+
+**Next steps:** Run all the steps - OCR, LLM corrector, and manual curation - on the new facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_fcnxho
