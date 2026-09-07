@@ -1,0 +1,7 @@
+<!-- Running title: PREFACE. -->
+
+niſſant des principes vraiment clairs, elle nous donne le modelle de la clarté & de l'evidence pour diſcerner ceux qui l'ont de ceux qui ne l'ont pas: & de l'autre, comme elle ne ſe diſpenſe jamais de l'obſervation de ces deux regles, elle accoûtume l'eſprit à les pratiquer, & à eſtre toûjours en garde contre les equivoques des mots & contre les principes confus, qui ſont les deux ſources les plus communes des mauvais raiſonnemens.
+
+Il ne faut pas diſſimuler neanmoins, que cette coûtume même de rejetter tout ce qui n'eſt pas entierement clair peut engager dans un défaut tres conſiderable, qui eſt de vouloir pratiquer cette exactitude en toute ſorte de matieres, & de contredire tout ce qui n'eſt pas propoſé avec l'evidence Geometrique. Cependant il y a une infinité de choſes dont on ne doit pas juger en cette maniere, & qui ne peuvent pas eſtre reduites à des demonſtrations methodiques. Et la raiſon en eſt, qu'elles ne dépendent pas d'un certain nombre de principes groſſiers & certains, comme les veritez Mathematiques; mais d'un grand nombre de preuves & de circonſtances qu'il faut que l'eſprit voye tout d'un coup, & qui n'eſtant pas convaincantes ſeparément, ne laiſſent pas de perſuader avec raiſon lors qu'elles ſont jointes & unies enſemble. La pluſpart des matieres morales & humaines ſont de ce nombre; & il y a même des veritez de la Religion qui ſe prouvent beaucoup mieux par la lumiere de pluſieurs principes qui s'entr'aident & ſe
+
+<!-- Signature: é -->

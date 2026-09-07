@@ -25,9 +25,22 @@ LLM corrector run in two cycles, due to token limit. Log available only from the
 
 ## Basel_1562
 
-The OCR stage has already been completed on an old facsimile, that has been replaced since with a public domain facsimile. 
+The facsimile is public domain and can be used. OCR and llm correction with fable has been completed.
 
-**Next steps:** Recreate the dataset with the new facsimile, run OCR and LLM corrector, and manually curate the Fable transcriptions.
+Four cycles of LLM corrector run, due to token limit. Summarized metrics:
+
+```shell
+pages=388
+tokens_input=796
+tokens_cached=3,701,775
+tokens_cache_creation=1,386,033
+tokens_output=296,854
+tokens_reasoning=0
+tokens_total=5,385,458
+cost_usd=$46.742450
+```
+
+**Next steps:** Manually curate the Fable transcriptions.
 
 ---
 

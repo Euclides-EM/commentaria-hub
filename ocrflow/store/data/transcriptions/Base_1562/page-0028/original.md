@@ -1,0 +1,7 @@
+<!-- Running title: PREFACE. -->
+
+par les autres, il a toûjours eu quelque peine de ce que les Elemens d'Euclide eſtoient tellement confus & broüillez, que bien loin de pouvoir donner à l'eſprit l'idée & le gouſt du veritable ordre, ils ne pouvoient au contraire que l'accoûtumer au deſordre & à la confuſion.
+
+Ce défaut luy paroiſſoit conſiderable dans une ſcience dont la principale utilité eſt de perfectionner la raiſon; mais il n'euſt pas penſé neanmoins à y remedier ſans la rencontre que je vas dire qui l'y engagea inſenſiblement. Un des plus grands eſprits de ce ſiecle, & des plus celebres par l'ouverture admirable qu'il avoit pour les Mathematiques, avoit fait en quelques jours un eſſay d'Elemens de Geometrie; & comme il n'avoit pas cette veuë de l'ordre, il s'eſtoit contenté de changer pluſieurs des démonſtrations d'Euclide pour en ſubſtituer d'autres plus nettes & plus naturelles. Ce petit ouvrage eſtant tombé entre les mains de celuy qui a depuis compoſé ces Elemens, il s'étonna qu'un ſi grand eſprit n'euſt pas eſté frappé de la confuſion qu'il avoit laiſſée pour ce qui eſt de la methode, & cette penſée luy ouvrit en même temps une maniere naturelle de diſpoſer toute la Geometrie, les démonſtrations s'arrangerent d'elles mêmes dans ſon eſprit, & tout le corps de l'ouvrage que nous donnons maintenant au public ſe forma dans ſon idée.
+
+Cela luy fit dire en riant à quelques uns de ſes amis, que s'il avoit le loiſir il luy ſeroit facile de
