@@ -67,7 +67,7 @@ OCR has been completed, but the copyright status is unclear. There is no public 
 
 OCR has been completed, but the facsimile is not copyrighted. There is a new facsimile that has the appropriate copyright.
 
-I created a new dataset, run segmentation. Now I'm running the line detection.
+I created a new dataset, run segmentation and line detection. Now I'm running ocr.
 
 **Next steps:** Run all the steps - OCR, LLM corrector, and manual curation - on the new facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_y46hr6&datasetTab=annotations
 
@@ -125,3 +125,13 @@ Full Fable transcriptions exist, but they still require manual curation. Facsimi
 Facsimile is public domain, I run the full OCR pipeline.
 
 **Next steps:** Liri to run the corrector on the Paris_1794 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_fcnxho&datasetTab=annotations&annotationId=ann_1eeww1&currentPageOrKey=210&annotationTab=text
+
+---
+
+# Paris_1566
+
+Facsimile is public domain, I'm creating the dataset and running the OCR pipeline.
+
+**Next steps:** Run the full OCR pipeline on the Paris_1566 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
+
+---
