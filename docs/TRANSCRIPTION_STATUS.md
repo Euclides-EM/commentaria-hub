@@ -147,3 +147,19 @@ OCR has been completed, but the copyright status is unclear. There is no public 
 **Next steps:** Discuss with PIs what to do with editions that do not have a public domain facsimile available.
 
 ---
+
+I could not find any facsimiles with explicit rights for the following works. 
+
+Discuss with PIs what to do with these editions. Think of alternatives before the discussion.
+
+- Paris_1564
+- Paris_1598a
+- London_1747
+- HZ5UVJ
+
+The following editions have facsimiles that have restrictive rights:
+- London_1678a
+- Basel_1533 
+
+Status is unclear for the following editions:
+- Leiden_1606
