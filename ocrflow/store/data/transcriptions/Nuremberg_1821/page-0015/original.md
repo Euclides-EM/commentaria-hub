@@ -1,0 +1,7 @@
+<!-- Page number: 10 -->
+
+## § 6.
+
+Sogenannte Realerklärungen oder genetiſche Definitionen ſind eigentlich Aufgaben, in Form der Lehrſätze vorgetragen. Es iſt nemlich bekannt, daß jede Aufgabe als Lehrſatz dargeſtellt werden kann, deſſen Hypotheſis oder Bedingung, oder Subject, die Auflöſung der Aufgabe: und deſſen Theſis, oder Behauptung oder Prädicat, der dem Satz der Aufgabe gemäs zu conſtruirende (zu beſchreibende) Gegenſtand, als conſtruirter oder gegebener Gegenſtand betrachtet, iſt. Wenn nun eine Aufgabe das Beſchreiben einer krummen Linie, (z. B. des Kreiſes,) oder eines runden Körpers, (z. B. einer geraden Walze, eines geraden Kegels, einer Kugel,) verlangt, ſo kann ſolche nur vermittelſt der Umdrehung einer ſteetigen Größe aufgelöſet werden. So iſt z. B. die Umdrehung einer geraden Linie in einer Ebene, und um einen in dieſer Ebene unbeweglichen Punkt, die Auflöſung der Aufgabe: einen Kreis zu beſchreiben. Ferner: die Umdrehung eines Halbkreiſes um einen ſeiner Durchmeſſer, deſſen Endpunkte ihre Lage nicht ändern, die Auflöſung der Aufgabe: eine Kugel zu beſchreiben. Es iſt ſonderbar, daß die neuern Geometer die Aufgaben: einen geraden Kegel, eine gerade Walze, oder eine Kugel zu beſchreiben, für Poſtulate halten, und ſie in dieſe Rubrik ſetzen, da doch, ihrer Meinung nach, die ganz richtig iſt, ein Poſtulat ein ſolcher Satz iſt, welcher fordert, daß man ſich etwas als möglich vorſtellen ſoll, ohne daß die Art der Möglichkeit, oder die Conſtruction gezeigt werden kann. Ein ſolches Poſtulat
+
+<!-- Catchword: iſt -->
