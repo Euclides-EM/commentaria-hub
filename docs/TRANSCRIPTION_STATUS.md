@@ -10,11 +10,11 @@ Facsimile is public domain, I'm creating the dataset and running the OCR pipelin
 
 ## Paris_1615
 
-OCR has been completed, but the facsimile is not copyrighted. There is a new facsimile that has the appropriate copyright.
+OCR has been completed, but the facsimile is not copyrighted. 
 
-I created a new dataset, run segmentation and line detection. Now I'm running ocr.
+There is a new facsimile that has the appropriate copyright. I run the full OCR pipeline on it.
 
-**Next steps:** Run all the steps - OCR, LLM corrector, and manual curation - on the new facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_y46hr6&datasetTab=annotations
+**Next steps:** Liri to run the LLM corrector on the new facsimile: https://euclides.huma-num.fr/hub/?datasetId=ds_57vh5j&annotationId=ann_joneuv&currentPageOrKey=326&annotationTab=details
 
 ---
 
