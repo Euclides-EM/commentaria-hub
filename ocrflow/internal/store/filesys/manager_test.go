@@ -52,6 +52,12 @@ func TestCleanupLocalStoreDeletesDatasetFilesByAbsolutePath(t *testing.T) {
 	require.Contains(t, toDelete, strayDatasetFile)
 	require.NoFileExists(t, strayDatasetFile)
 	require.FileExists(t, cwdSameNamedFile)
+
+	toDelete, err = m.CleanupLocalStore(false, map[string][]*annotation.Annotation{}, []*model.Dataset{
+		{Meta: common.NewMeta("ds_keep")},
+	})
+	require.NoError(t, err)
+	require.Empty(t, toDelete)
 }
 
 func TestCleanupLocalStorePreservesAllowedDatasetSymlinks(t *testing.T) {

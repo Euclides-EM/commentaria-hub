@@ -29,7 +29,7 @@ func (m *MetaStoreManager) CleanupLocalStore(dryRun bool) ([]string, error) {
 	if err != nil {
 		return nil, fmt.Errorf("failed to list datasets: %w", err)
 	}
-	log.Printf("cleaning up %d datasets from the metastore...", len(dss))
+	log.Printf("checking local store against %d datasets...", len(dss))
 	annsMap := make(map[string][]*annotation.Annotation)
 	for _, ds := range dss {
 		anns, err := m.annotationSvc.ListAnnotations(ds.ID)
@@ -38,11 +38,15 @@ func (m *MetaStoreManager) CleanupLocalStore(dryRun bool) ([]string, error) {
 		}
 		annsMap[ds.ID] = anns
 	}
-	dssActual, err := m.fileSysMgt.CleanupLocalStore(dryRun, annsMap, dss)
+	pathsToDelete, err := m.fileSysMgt.CleanupLocalStore(dryRun, annsMap, dss)
 	if err != nil {
 		return nil, fmt.Errorf("failed to cleanup local datasets: %w", err)
 	}
-	log.Printf("cleaned up %d datasets from the metastore", len(dss)-len(dssActual))
+	if dryRun {
+		log.Printf("found %d orphaned filesystem entries during dry run", len(pathsToDelete))
+	} else {
+		log.Printf("cleaned up %d orphaned filesystem entries", len(pathsToDelete))
+	}
 
-	return dssActual, nil
+	return pathsToDelete, nil
 }
