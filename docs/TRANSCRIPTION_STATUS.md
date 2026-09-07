@@ -1,3 +1,35 @@
+# Run OCR Pipeline
+
+## Paris_1566
+
+Facsimile is public domain, I'm creating the dataset and running the OCR pipeline.
+
+**Next steps:** Run the full OCR pipeline on the Paris_1566 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
+
+---
+
+## Paris_1615
+
+OCR has been completed, but the facsimile is not copyrighted. There is a new facsimile that has the appropriate copyright.
+
+I created a new dataset, run segmentation and line detection. Now I'm running ocr.
+
+**Next steps:** Run all the steps - OCR, LLM corrector, and manual curation - on the new facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_y46hr6&datasetTab=annotations
+
+---
+
+# Run LLM Corrector
+
+## Paris_1667
+
+OCR has been completed, the facsimile is public domain.
+
+**Next steps:** Liri to run the corrector on the two parts of the Paris_1667 facsimile:
+https://euclides.huma-num.fr/hub/index.html?datasetId=ds_jinmif&datasetTab=details&annotationId=ann_thiq1g&currentPageOrKey=171
+https://euclides.huma-num.fr/hub/index.html?datasetId=ds_jinmif&datasetTab=details&annotationId=ann_aotfx5&currentPageOrKey=86
+
+---
+
 ## Venice_1482
 
 Two facsimiles are available:
@@ -8,6 +40,37 @@ Two facsimiles are available:
 **Next steps:** Liri to run the corrector on the Venice_1482 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_6vegrr&annotationId=ann_3pg8ot&currentPageOrKey=149&annotationTab=details
 
 ---
+
+## Rome_1574
+
+Two facsimiles are available:
+
+* **`Rome_1574_transkribus`**: Public domain. The existing Transkribus transcriptions have been scraped and committed. I have also run OCR on the facsimile.
+* **`Rome_1574`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
+
+**Next steps:** Liri to run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
+
+---
+
+## Paris_1794
+
+Facsimile is public domain, I run the full OCR pipeline.
+
+**Next steps:** Liri to run the corrector on the Paris_1794 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_fcnxho&datasetTab=annotations&annotationId=ann_1eeww1&currentPageOrKey=210&annotationTab=text
+
+---
+
+# Alignment
+
+## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
+
+Full Fable transcriptions exist and have already been manually curated. However, no copyright for the facsimile that the transcriptions were based on. Another public domain facsimile is available, but the transcriptions have not yet been aligned with it.
+
+**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
+
+---
+
+# Manual Curation
 
 ## Lyon_1557
 
@@ -44,45 +107,6 @@ cost_usd=$46.742450
 
 ---
 
-## Rome_1574
-
-Two facsimiles are available:
-
-* **`Rome_1574_transkribus`**: Public domain. The existing Transkribus transcriptions have been scraped and committed. I have also run OCR on the facsimile.
-* **`Rome_1574`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
-
-**Next steps:** Liri to run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
-
----
-
-## Paris_1598a
-
-OCR has been completed, but the copyright status is unclear. There is no public domain facsimile available for this edition (Liri checked).
-
-**Next steps:** Discuss with PIs what to do with editions that do not have a public domain facsimile available.
-
----
-
-## Paris_1615
-
-OCR has been completed, but the facsimile is not copyrighted. There is a new facsimile that has the appropriate copyright.
-
-I created a new dataset, run segmentation and line detection. Now I'm running ocr.
-
-**Next steps:** Run all the steps - OCR, LLM corrector, and manual curation - on the new facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_y46hr6&datasetTab=annotations
-
----
-
-## Paris_1667
-
-OCR has been completed, the facsimile is public domain.
-
-**Next steps:** Liri to run the corrector on the two parts of the Paris_1667 facsimile:
-https://euclides.huma-num.fr/hub/index.html?datasetId=ds_jinmif&datasetTab=details&annotationId=ann_thiq1g&currentPageOrKey=171
-https://euclides.huma-num.fr/hub/index.html?datasetId=ds_jinmif&datasetTab=details&annotationId=ann_aotfx5&currentPageOrKey=86
-
----
-
 ## Nuremberg_1821
 
 OCR has been completed, the facsimile is public domain.
@@ -96,13 +120,15 @@ Liri run the corrector:
 
 ---
 
-## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
+## Paris_1536
 
-Full Fable transcriptions exist and have already been manually curated. However, no copyright for the facsimile that the transcriptions were based on. Another public domain facsimile is available, but the transcriptions have not yet been aligned with it.
+Full Fable transcriptions exist, but they still require manual curation. Facsimile is public domain.
 
-**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
+**Next steps:** Manually curate the Fable transcriptions.
 
 ---
+
+# Completed 
 
 ## Paris_1639  
 
@@ -112,26 +138,12 @@ DONE
 
 ---
 
-## Paris_1536
+# Open Questions
 
-Full Fable transcriptions exist, but they still require manual curation. Facsimile is public domain.
+## Paris_1598a
 
-**Next steps:** Manually curate the Fable transcriptions. 
+OCR has been completed, but the copyright status is unclear. There is no public domain facsimile available for this edition (Liri checked).
 
----
-
-## Paris_1794 
-
-Facsimile is public domain, I run the full OCR pipeline.
-
-**Next steps:** Liri to run the corrector on the Paris_1794 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_fcnxho&datasetTab=annotations&annotationId=ann_1eeww1&currentPageOrKey=210&annotationTab=text
-
----
-
-# Paris_1566
-
-Facsimile is public domain, I'm creating the dataset and running the OCR pipeline.
-
-**Next steps:** Run the full OCR pipeline on the Paris_1566 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
+**Next steps:** Discuss with PIs what to do with editions that do not have a public domain facsimile available.
 
 ---
