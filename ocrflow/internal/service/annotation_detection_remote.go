@@ -163,6 +163,7 @@ func (r *AnnotationDetectionRemote) detectionManifest(req remoteDetectionRequest
 	fmt.Fprintf(&b, "export ARTIFACTS_DIR=%s\n", envexec.ShellQuote(path.Join(remoteEnv.RemoteRunDir, "artifacts")))
 	fmt.Fprintf(&b, "export MODEL_PATH=%s\n", envexec.ShellQuote(remoteModelPath))
 	fmt.Fprintf(&b, "export RESULT_UPLOAD_URL=%s\n", envexec.ShellQuote(r.resultUploadURL(req.Annotation)))
+	fmt.Fprintf(&b, "export RESULT_FAILURE_URL=%s\n", envexec.ShellQuote(r.resultFailureURL(req.Annotation)))
 	fmt.Fprintf(&b, "export RESULT_UPLOAD_TOKEN=%s\n", envexec.ShellQuote(r.apiToken))
 	fmt.Fprintf(&b, "export INCLUDE_CATEGORIES=%s\n", envexec.ShellQuote(strings.Join(req.IncludeCategories, "\n")))
 	fmt.Fprintf(&b, "export IGNORE_CATEGORIES=%s\n", envexec.ShellQuote(strings.Join(req.IgnoreCategories, "\n")))
@@ -174,4 +175,8 @@ func (r *AnnotationDetectionRemote) detectionManifest(req remoteDetectionRequest
 
 func (r *AnnotationDetectionRemote) resultUploadURL(ann *annotation.Annotation) string {
 	return fmt.Sprintf("%s/datasets/%s/annotations/%s/detection_upload", r.apiURL, ann.DatasetID, ann.ID)
+}
+
+func (r *AnnotationDetectionRemote) resultFailureURL(ann *annotation.Annotation) string {
+	return fmt.Sprintf("%s/datasets/%s/annotations/%s/detection_failure", r.apiURL, ann.DatasetID, ann.ID)
 }

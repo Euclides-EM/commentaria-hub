@@ -100,6 +100,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/text_block_corrections", httpwrapper.Update(h.ApplyRuleTextBlockCorrections).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/llm_transcription_corrector", httpwrapper.Update(h.ApplyRuleLLMTranscriptionCorrector).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/detection_upload", httpwrapper.CreateFile(h.UploadAnnotationDetectionResult).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/detection_failure", httpwrapper.Create(h.ReportAnnotationDetectionFailure).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/review", httpwrapper.Create(h.CreateAnnotationReview).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/search", httpwrapper.Get(h.SearchAnnotation).Build())

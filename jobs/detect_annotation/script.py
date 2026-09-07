@@ -54,6 +54,23 @@ def run(cmd: list[str]) -> None:
     subprocess.check_call(cmd)
 
 
+def write_xml_atomic(tree: etree._ElementTree, path: Path) -> None:
+    """Serialize an XML tree completely before replacing the destination."""
+    tmp_path = path.with_name(f".{path.name}.{uuid.uuid4().hex}.tmp")
+    try:
+        tree.write(
+            str(tmp_path),
+            encoding="UTF-8",
+            xml_declaration=True,
+            pretty_print=True,
+        )
+        if tmp_path.stat().st_size == 0:
+            raise RuntimeError(f"XML serialization produced an empty file: {path.name}")
+        tmp_path.replace(path)
+    finally:
+        tmp_path.unlink(missing_ok=True)
+
+
 def xpath(el: etree._ElementTree | etree._Element, expr: str) -> list[etree._Element]:
     return el.xpath(expr)
 
@@ -150,6 +167,56 @@ def upload_result(upload_url: str, upload_token: str, mode: str, zip_path: Path)
         raise RuntimeError(f"Detection result upload failed with HTTP {exc.code}: {detail}") from exc
 
 
+def upload_failure(failure_url: str, upload_token: str, mode: str, error: str) -> None:
+    if not failure_url:
+        raise RuntimeError("RESULT_FAILURE_URL is not configured")
+    error = error[:4000]
+    curl_path = shutil.which("curl")
+    if curl_path:
+        cmd = [
+            curl_path,
+            "--fail",
+            "--show-error",
+            "--silent",
+            "--location",
+            "-H",
+            "Expect:",
+            "--form-string",
+            f"mode={mode}",
+            "--form-string",
+            f"error={error}",
+            failure_url,
+        ]
+        if upload_token:
+            cmd[7:7] = ["-H", f"Authorization: Bearer {upload_token}"]
+        redacted_cmd = [
+            "Authorization: Bearer <redacted>" if part.startswith("Authorization: Bearer ") else part
+            for part in cmd
+        ]
+        log("+ " + " ".join(shlex.quote(x) for x in redacted_cmd))
+        result = subprocess.run(cmd, text=True, capture_output=True, check=False)
+        if result.returncode != 0:
+            detail = "\n".join(part for part in [result.stdout.strip(), result.stderr.strip()] if part)
+            raise RuntimeError(f"Detection failure callback failed with curl exit {result.returncode}: {detail}")
+        return
+
+    import urllib.error
+    import urllib.parse
+    import urllib.request
+
+    body = urllib.parse.urlencode({"mode": mode, "error": error}).encode("utf-8")
+    headers = {"Content-Type": "application/x-www-form-urlencoded"}
+    if upload_token:
+        headers["Authorization"] = f"Bearer {upload_token}"
+    request = urllib.request.Request(failure_url, data=body, headers=headers, method="POST")
+    try:
+        with urllib.request.urlopen(request, timeout=300) as response:
+            log(f"Reported detection failure: HTTP {response.status}")
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Detection failure callback failed with HTTP {exc.code}: {detail}") from exc
+
+
 def tag_label_map(tree: etree._ElementTree) -> dict[str, str]:
     out: dict[str, str] = {}
     for tag in xpath(tree, "//*[local-name()='OtherTag']"):
@@ -184,7 +251,6 @@ def create_mask(alto_path: Path, mask_path: Path, main_labels: list[str], ignore
     img.putpalette([255, 255, 255, 0, 0, 0])
     draw = ImageDraw.Draw(img)
 
-    has_regions = False
     for tb in xpath(tree, "//*[local-name()='TextBlock']"):
         if not has_label(tb.get("TAGREFS"), main_set, id_to_label):
             continue
@@ -197,7 +263,6 @@ def create_mask(alto_path: Path, mask_path: Path, main_labels: list[str], ignore
         if w <= 0 or h <= 0:
             continue
         draw.rectangle([x, y, x + w, y + h], fill=1)
-        has_regions = True
 
     for tb in xpath(tree, "//*[local-name()='TextBlock']"):
         if not has_label(tb.get("TAGREFS"), ignore_set, id_to_label):
@@ -210,7 +275,9 @@ def create_mask(alto_path: Path, mask_path: Path, main_labels: list[str], ignore
 
     mask_path.parent.mkdir(parents=True, exist_ok=True)
     img.save(mask_path)
-    return has_regions
+    # Kraken rejects single-colour masks. Ignore regions may have erased every
+    # selected region, so validate the finished image rather than the first pass.
+    return img.getextrema() == (0, 1)
 
 
 def delete_lines(alto_path: Path) -> etree._ElementTree:
@@ -331,7 +398,7 @@ def prepare_alto_for_ocr(alto_path: Path, image_path: Path) -> bool:
             polygon = etree.SubElement(shape, tag("Polygon"))
         polygon.set("POINTS", points)
 
-    tree.write(str(alto_path), encoding="UTF-8", xml_declaration=True, pretty_print=True)
+    write_xml_atomic(tree, alto_path)
     return bool(lines)
 
 
@@ -382,7 +449,7 @@ def glue_lines(alto_path: Path, baselines_json: Path) -> None:
         tl.set("HEIGHT", str(round(max_y - min_y)))
         shape = etree.SubElement(tl, "Shape")
         etree.SubElement(shape, "Polygon", POINTS=rect_points(min_x, min_y, max_x, max_y))
-    tree.write(str(alto_path), encoding="UTF-8", xml_declaration=True, pretty_print=True)
+    write_xml_atomic(tree, alto_path)
 
 
 def detect_lines(image_dir: Path, alto_dir: Path, output_dir: Path, artifacts_dir: Path) -> None:
@@ -394,7 +461,7 @@ def detect_lines(image_dir: Path, alto_dir: Path, output_dir: Path, artifacts_di
 
     def process_page(alto_path: Path) -> None:
         tree = delete_lines(alto_path)
-        tree.write(str(alto_path), encoding="UTF-8", xml_declaration=True, pretty_print=True)
+        write_xml_atomic(tree, alto_path)
         img_path = image_dir / f"{alto_path.stem}.png"
         if not img_path.exists():
             raise FileNotFoundError(f"image not found for {alto_path.name}: {img_path}")
@@ -489,7 +556,7 @@ def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Pat
             file_names = xpath(tree, "//*[local-name()='fileName']")
             if file_names:
                 file_names[0].text = f"{final_path.stem}.png"
-            tree.write(str(tmp), encoding="UTF-8", xml_declaration=True, pretty_print=True)
+            write_xml_atomic(tree, tmp)
         for final_path in ocr_paths:
             Path(str(final_path) + ".ocr.tmp").replace(final_path)
 
@@ -518,6 +585,10 @@ def main() -> int:
         artifacts_dir.mkdir(parents=True, exist_ok=True)
         (artifacts_dir / "error.log").write_text(str(exc), encoding="utf-8")
         log(f"ERROR: {exc}")
+        try:
+            upload_failure(env("RESULT_FAILURE_URL"), env("RESULT_UPLOAD_TOKEN"), mode, str(exc))
+        except Exception as callback_exc:
+            log(f"ERROR: Could not report detection failure: {callback_exc}")
         return 1
 
 

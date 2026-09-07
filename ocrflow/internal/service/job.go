@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
@@ -14,6 +15,7 @@ import (
 )
 
 type Job struct {
+	mu                sync.Mutex
 	jobsStore         *store.JobStore
 	annotationsUpload *AnnotationsUploader
 	annotations       *Annotation
@@ -191,6 +193,11 @@ func (j *Job) progressReporter(jb *job.Job, prefix string) func(string) {
 		if prefix != "" {
 			message = prefix + ": " + message
 		}
+		j.mu.Lock()
+		defer j.mu.Unlock()
+		if jb.Status == job.StatusFailed {
+			return
+		}
 		jb.Details = message
 		jb.UpdatedAt = time.Now()
 		log.Printf("job %s progress: %s", jb.ID, message)
@@ -201,12 +208,22 @@ func (j *Job) progressReporter(jb *job.Job, prefix string) func(string) {
 func (j *Job) run(jb *job.Job, actionName string, action func() (any, error)) {
 	go func() {
 		now := time.Now()
+		j.mu.Lock()
 		jb.Status = job.StatusRunning
 		jb.UpdatedAt = now
 		j.jobsStore.Update(jb)
+		j.mu.Unlock()
 
 		result, err := action()
 
+		j.mu.Lock()
+		defer j.mu.Unlock()
+		// A remote failure callback can arrive while the local dispatcher is
+		// still applying later rules. It is terminal and must not be replaced
+		// with the dispatcher's eventual success result.
+		if jb.Status == job.StatusFailed {
+			return
+		}
 		now = time.Now()
 		jb.UpdatedAt = now
 		jb.FinishedAt = &now
@@ -232,6 +249,8 @@ func (j *Job) run(jb *job.Job, actionName string, action func() (any, error)) {
 }
 
 func (j *Job) CompleteAnnotationRuleCallback(datasetID string, annotationID string) error {
+	j.mu.Lock()
+	defer j.mu.Unlock()
 	jobs, err := j.jobsStore.ListAll()
 	if err != nil {
 		return err
@@ -261,6 +280,47 @@ func (j *Job) CompleteAnnotationRuleCallback(datasetID string, annotationID stri
 			return err
 		}
 		jb.Details = string(encoded)
+		j.jobsStore.Update(jb)
+		return nil
+	}
+	return nil
+}
+
+func (j *Job) FailAnnotationRuleCallback(datasetID string, annotationID string, mode annotation.DetectionMode, failure string) error {
+	j.mu.Lock()
+	defer j.mu.Unlock()
+	jobs, err := j.jobsStore.ListAll()
+	if err != nil {
+		return err
+	}
+	for _, jb := range jobs {
+		if jb.Task != job.AnnotationRuleApply || jb.Status != job.StatusRunning || jb.Target == nil || jb.Target.DatasetID != datasetID || jb.Target.AnnotationID != annotationID {
+			continue
+		}
+		var details annotationRuleDispatchResult
+		if err := json.Unmarshal([]byte(jb.Details), &details); err != nil {
+			// A very fast remote failure can arrive after submission but before
+			// runAnnotationRuleApply has replaced its progress text with JSON.
+			details = annotationRuleDispatchResult{
+				AnnotationID:      annotationID,
+				DatasetID:         datasetID,
+				FollowLogs:        jb.Details,
+				CallbacksExpected: 1,
+			}
+		} else if details.State != "gpu_farm_submitted_waiting_for_callback" {
+			continue
+		}
+		now := time.Now()
+		details.State = "gpu_farm_failed"
+		details.Message = fmt.Sprintf("GPU farm %s detection failed: %s", mode, strings.TrimSpace(failure))
+		encoded, err := json.Marshal(details)
+		if err != nil {
+			return err
+		}
+		jb.Details = string(encoded)
+		jb.Status = job.StatusFailed
+		jb.UpdatedAt = now
+		jb.FinishedAt = &now
 		j.jobsStore.Update(jb)
 		return nil
 	}

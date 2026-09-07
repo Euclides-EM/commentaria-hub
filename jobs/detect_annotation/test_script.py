@@ -6,6 +6,111 @@ from unittest.mock import patch
 import script
 
 
+class XMLAndMaskSafetyTest(unittest.TestCase):
+    def test_atomic_xml_write_preserves_destination_when_serialization_fails(self):
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            path = Path(directory) / "page.xml"
+            path.write_text("original", encoding="utf-8")
+
+            class FailingTree:
+                def write(self, destination, **_kwargs):
+                    Path(destination).write_bytes(b"")
+                    raise OSError("simulated write failure")
+
+            with self.assertRaisesRegex(OSError, "simulated write failure"):
+                script.write_xml_atomic(FailingTree(), path)
+
+            self.assertEqual(path.read_text(encoding="utf-8"), "original")
+            self.assertEqual(list(path.parent.glob(".page.xml.*.tmp")), [])
+
+    def test_create_mask_rejects_region_erased_by_ignore_category(self):
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            alto_path = root / "page.xml"
+            mask_path = root / "mask.png"
+            alto_path.write_text(
+                '<alto><Tags><OtherTag ID="main" LABEL="MainZone"/>'
+                '<OtherTag ID="ignore" LABEL="IgnoreZone"/></Tags><Layout>'
+                '<Page WIDTH="100" HEIGHT="100"><PrintSpace>'
+                '<TextBlock TAGREFS="main" HPOS="10" VPOS="10" WIDTH="20" HEIGHT="20"/>'
+                '<TextBlock TAGREFS="ignore" HPOS="0" VPOS="0" WIDTH="100" HEIGHT="100"/>'
+                '</PrintSpace></Page></Layout></alto>',
+                encoding="utf-8",
+            )
+
+            self.assertFalse(
+                script.create_mask(alto_path, mask_path, ["MainZone"], ["IgnoreZone"])
+            )
+            self.assertEqual(script.Image.open(mask_path).getextrema(), (0, 0))
+
+    def test_create_mask_accepts_finished_bitonal_mask(self):
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            alto_path = root / "page.xml"
+            mask_path = root / "mask.png"
+            alto_path.write_text(
+                '<alto><Tags><OtherTag ID="main" LABEL="MainZone"/></Tags>'
+                '<Layout><Page WIDTH="100" HEIGHT="100"><PrintSpace>'
+                '<TextBlock TAGREFS="main" HPOS="10" VPOS="10" WIDTH="20" HEIGHT="20"/>'
+                '</PrintSpace></Page></Layout></alto>',
+                encoding="utf-8",
+            )
+
+            self.assertTrue(script.create_mask(alto_path, mask_path, ["MainZone"], []))
+            self.assertEqual(script.Image.open(mask_path).getextrema(), (0, 1))
+
+
+class FailureCallbackTest(unittest.TestCase):
+    def test_upload_failure_posts_mode_error_and_bearer_token(self):
+        result = type("Result", (), {"returncode": 0, "stdout": "", "stderr": ""})()
+        with patch.object(script.shutil, "which", return_value="/usr/bin/curl"):
+            with patch.object(script.subprocess, "run", return_value=result) as run:
+                script.upload_failure(
+                    "https://example.test/detection_failure",
+                    "secret-token",
+                    "lines",
+                    "Document is empty",
+                )
+
+        command = run.call_args.args[0]
+        self.assertIn("Authorization: Bearer secret-token", command)
+        self.assertIn("mode=lines", command)
+        self.assertIn("error=Document is empty", command)
+        self.assertEqual(command[-1], "https://example.test/detection_failure")
+
+    def test_main_reports_processing_failure(self):
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            environment = {
+                "MODE": "lines",
+                "IMAGE_DIR": str(root / "images"),
+                "ALTO_DIR": str(root / "alto"),
+                "OUTPUT_DIR": str(root / "output"),
+                "ARTIFACTS_DIR": str(root / "artifacts"),
+                "RESULT_FAILURE_URL": "https://example.test/detection_failure",
+                "RESULT_UPLOAD_TOKEN": "secret-token",
+            }
+            with patch.dict(os.environ, environment, clear=True):
+                with patch.object(script, "detect_lines", side_effect=RuntimeError("boom")):
+                    with patch.object(script, "upload_failure") as upload_failure:
+                        self.assertEqual(script.main(), 1)
+
+            upload_failure.assert_called_once_with(
+                "https://example.test/detection_failure",
+                "secret-token",
+                "lines",
+                "boom",
+            )
+
+
 class WorkerHelpersTest(unittest.TestCase):
     def test_worker_count_uses_slurm_allocation_and_caps_at_jobs(self):
         with patch.dict(os.environ, {"SLURM_CPUS_PER_TASK": "4"}, clear=True):
