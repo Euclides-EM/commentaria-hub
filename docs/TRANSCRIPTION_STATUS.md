@@ -17,6 +17,8 @@ OCR has been completed, but the facsimile is not copyrighted.
 
 There is a new facsimile that has the appropriate copyright. I run the full OCR pipeline on it.
 
+**Status**: currently running with Codex in dir mode.
+
 **Next steps:** Liri to run the LLM corrector on the new facsimile: https://euclides.huma-num.fr/hub/?datasetId=ds_57vh5j&annotationId=ann_joneuv&currentPageOrKey=326&annotationTab=details
 
 ---
@@ -48,6 +50,8 @@ Two facsimiles are available:
 
 * **`Rome_1574_transkribus`**: Public domain. The existing Transkribus transcriptions have been scraped and committed. I have also run OCR on the facsimile.
 * **`Rome_1574`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
+
+**Status**: currently running with Fable page-by-page. Progress so far, around 10%.
 
 **Next steps:** Liri to run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
 
