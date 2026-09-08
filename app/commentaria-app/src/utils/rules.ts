@@ -43,7 +43,7 @@ export type AnnotationRule = BaseAnnotationRule &
   )
 
 export type RuleRequestPayload = AnnotationRule & {
-  execution_mode?: annotationrule_ExecutionMode
+  preferred_execution_mode?: annotationrule_ExecutionMode
   name?: string
   description?: string
 }

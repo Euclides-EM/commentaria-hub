@@ -39,13 +39,13 @@ export function RuleEditModal({
       ...(rule as {
         type?: annotationrule_Type
         applicable_stages?: unknown
-        execution_mode?: unknown
+        preferred_execution_mode?: unknown
         usage?: unknown
       } & Record<string, unknown>),
     }
     delete editablePayload.type
     delete editablePayload.applicable_stages
-    delete editablePayload.execution_mode
+    delete editablePayload.preferred_execution_mode
     delete editablePayload.usage
     return editablePayload
   }
@@ -124,10 +124,12 @@ export function RuleEditModal({
         type: selectedRuleType,
         ...(supportsAsyncPreference
           ? ({
-              execution_mode: (useAsyncExecution
+              preferred_execution_mode: (useAsyncExecution
                 ? 'async'
                 : 'sync') as annotationrule_ExecutionMode,
-            } satisfies { execution_mode: annotationrule_ExecutionMode })
+            } satisfies {
+              preferred_execution_mode: annotationrule_ExecutionMode
+            })
           : {}),
         ...(action === 'create_new' && newAnnotationName
           ? { name: newAnnotationName }
