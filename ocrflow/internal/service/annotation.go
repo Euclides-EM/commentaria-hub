@@ -496,7 +496,7 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	return categories, nil
 }
 
-func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []string) (*annotation.Index, error) {
+func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []string, includeCuratedHeadings bool) (*annotation.Index, error) {
 	ann, err := a.Get(datasetID, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
@@ -530,7 +530,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 
 	// An annotation-level Markdown transcription is an explicit override of the
 	// annotation's original ALTO and must be indexed first.
-	categories, allLocs, annMdErr := a.getIndexFromAnnotationMarkdown(pages, ann, categories)
+	categories, allLocs, annMdErr := a.getIndexFromAnnotationMarkdown(pages, ann, categories, includeCuratedHeadings)
 	if annMdErr == nil {
 		return &annotation.Index{
 			DatasetID:    datasetID,
@@ -574,7 +574,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 		}, nil
 	}
 
-	categories, allLocs, edMdErr := a.getIndexFromEditionMarkdown(pages, ds.EditionID, categories)
+	categories, allLocs, edMdErr := a.getIndexFromEditionMarkdown(pages, ds.EditionID, categories, includeCuratedHeadings)
 	if edMdErr == nil {
 		return &annotation.Index{
 			DatasetID:    datasetID,
@@ -888,14 +888,14 @@ func (a *Annotation) getIndexFromAnnotationAlto(pages []int, ann *annotation.Ann
 	}, "ALTO")
 }
 
-func (a *Annotation) getIndexFromAnnotationMarkdown(pages []int, ann *annotation.Annotation, categories []string) ([]string, []categoryPageContent, error) {
+func (a *Annotation) getIndexFromAnnotationMarkdown(pages []int, ann *annotation.Annotation, categories []string, includeCuratedHeadings bool) ([]string, []categoryPageContent, error) {
 	return getIndexFromMarkdown(pages, categories, func(page int) (*markdown.Markdown, error) {
 		md, err := a.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, fmt.Sprintf("%d", page))
 		if err != nil {
 			return nil, fmt.Errorf("failed to retrieve annotation markdown page: %w", err)
 		}
 		return md, nil
-	}, "annotation markdown")
+	}, "annotation markdown", includeCuratedHeadings)
 }
 
 func (a *Annotation) getIndexFromEditionAlto(pages []int, editionKey string, categories []string) ([]string, []categoryPageContent, error) {
@@ -908,14 +908,14 @@ func (a *Annotation) getIndexFromEditionAlto(pages []int, editionKey string, cat
 	}, "edition ALTO")
 }
 
-func (a *Annotation) getIndexFromEditionMarkdown(pages []int, editionKey string, categories []string) ([]string, []categoryPageContent, error) {
+func (a *Annotation) getIndexFromEditionMarkdown(pages []int, editionKey string, categories []string, includeCuratedHeadings bool) ([]string, []categoryPageContent, error) {
 	return getIndexFromMarkdown(pages, categories, func(page int) (*markdown.Markdown, error) {
 		md, err := a.fileSysMgt.RetrieveEditionMarkdownPage(editionKey, page)
 		if err != nil {
 			return nil, fmt.Errorf("failed to retrieve edition markdown page: %w", err)
 		}
 		return md, nil
-	}, "edition markdown")
+	}, "edition markdown", includeCuratedHeadings)
 }
 
 func getIndexFromAlto(pages []int, categories []string, loadPage func(int) (*alto.Alto, error), source string) ([]string, []categoryPageContent, error) {
@@ -961,7 +961,7 @@ func getIndexFromAlto(pages []int, categories []string, loadPage func(int) (*alt
 	return altoCat, allLocs, nil
 }
 
-func getIndexFromMarkdown(pages []int, categories []string, loadPage func(int) (*markdown.Markdown, error), source string) ([]string, []categoryPageContent, error) {
+func getIndexFromMarkdown(pages []int, categories []string, loadPage func(int) (*markdown.Markdown, error), source string, includeCuratedHeadings bool) ([]string, []categoryPageContent, error) {
 	allLocs := make([]categoryPageContent, 0)
 	seenCategories := make(map[string]struct{})
 	for _, page := range pages {
@@ -969,7 +969,7 @@ func getIndexFromMarkdown(pages []int, categories []string, loadPage func(int) (
 		if err != nil {
 			return nil, nil, err
 		}
-		headers, err := markdown.ExtractCategoryContentsFromMarkdown(md, categories, " / ")
+		headers, err := markdown.ExtractCategoryContentsFromMarkdown(md, categories, " / ", includeCuratedHeadings)
 		if err != nil {
 			return nil, nil, fmt.Errorf("failed to extract headers from %s page %d: %w", source, page, err)
 		}
@@ -991,14 +991,23 @@ func getIndexFromMarkdown(pages []int, categories []string, loadPage func(int) (
 func orderedMarkdownHeaderCategories(seenCategories map[string]struct{}) []string {
 	categories := lo.Keys(seenCategories)
 	slices.SortFunc(categories, func(a, b string) int {
-		return markdownHeaderLevel(a) - markdownHeaderLevel(b)
+		if levelDifference := markdownHeaderLevel(a) - markdownHeaderLevel(b); levelDifference != 0 {
+			return levelDifference
+		}
+		return strings.Compare(a, b)
 	})
 	return categories
 }
 
 func markdownHeaderLevel(category string) int {
-	level, err := strconv.Atoi(strings.TrimPrefix(category, markdown.HeaderPrefix))
-	if err != nil || level < 1 || level > 6 || !strings.HasPrefix(category, markdown.HeaderPrefix) {
+	prefix := markdown.HeaderPrefix
+	if strings.HasPrefix(category, markdown.CuratedHeadingPrefix) {
+		prefix = markdown.CuratedHeadingPrefix
+	} else if !strings.HasPrefix(category, markdown.HeaderPrefix) {
+		return int(^uint(0) >> 1)
+	}
+	level, err := strconv.Atoi(strings.TrimPrefix(category, prefix))
+	if err != nil || level < 1 {
 		return 7
 	}
 	return level
@@ -1007,7 +1016,11 @@ func markdownHeaderLevel(category string) int {
 func buildNodes(categories []string, data []categoryPageContent) []*annotation.IndexNode {
 	categoryRank := make(map[string]int, len(categories))
 	for rank, category := range categories {
-		categoryRank[category] = rank
+		if strings.HasPrefix(category, markdown.HeaderPrefix) || strings.HasPrefix(category, markdown.CuratedHeadingPrefix) {
+			categoryRank[category] = markdownHeaderLevel(category) - 1
+		} else {
+			categoryRank[category] = rank
+		}
 	}
 
 	type rankedNode struct {

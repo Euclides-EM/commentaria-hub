@@ -13,7 +13,7 @@ V E L ſic, angulus A C E cum angulo H ſunt duobus rectis æquales, vt oſtendi
 
 ## PROBLEMA 5, PROPOSITIO XXXII. Theoni 33.
 
-## Super data linea Sectionem Circuli deſcribere, quæ capiat angulum angulo dato æqualem.
+Super data linea Sectionem Circuli deſcribere, quæ capiat angulum angulo dato æqualem.
 
 Sit linea data A B : datus verò angulus C. Volo ſuper linea A B deſcribere Circuli Sectionem, quæ capiat angulum æqualem angulo C.
 

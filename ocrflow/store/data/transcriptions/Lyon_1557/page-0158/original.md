@@ -1,7 +1,7 @@
 <!-- Running title: LIBER VI. -->
 <!-- Page number: 149 -->
 
-## Conſectarium.
+### Conſectarium.
 
 Perpendicularis à recto angulo Trianguli ad baſin deducta, inter duo baſis ſegmenta proportionalis eſt: Et vtrunuis laterum inter baſin & ſegmentum ſibi conterminum, proportionale.
 

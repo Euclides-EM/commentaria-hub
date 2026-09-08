@@ -3,7 +3,7 @@
 
 HACTENVS Euclides huius Quinti Proportiones tradidit. Nouem autem ſequentes Propoſitiones à Campano additæ ſunt, ex alieno quopiam exemplari. ſicut & ſæpè aliàs ordinem Euclidis deſerit, pauca prætermittit, nonnulla ſubſtituit, aliaq́; addit de ſuo. Neque infelici opera. Pleraque enim in demonſtrando facit meliora & clariora, compendij officio : licet in quibuſdam dormitet. Vt vt eſt, Campani conſtructionem retinuit incitando Euclide, Ioannes Regiomontanus noſtræ ætatis Mathematicus clariſſimus. Quin & ſequentes Propoſitiones ab eo citatas inuenimus, in ea quam in Ptolemæum reliquit Epitome. Quæ res effecit vt illas apponeremus : alioqui libenter prætermiſſuri. Nam præter id quòd probationes quas ex ijs venatur Regiomontanus, abundè ex Euclide conſtant : etiam in hac Proportionum materia mihi videntur Propoſitiones reſecandæ potius quàm in longiùs ducendæ. Nam quæ per ſe claræ ſunt, locum tantùm occupant : ingenium etiam onerant. Tædium enim multitudo vbique parit. Eæ itaque ſic habent.
 
-## Prima Additarum.
+### Prima Additarum.
 
 Si fuerit quatuor Quantitatum proportio primæ ad ſecundam, maior quàm tertiæ ad quartam : erit conuerſim econtrariò, ſecundæ ad primam, minor quàm quartæ ad tertiam.
 
@@ -15,7 +15,7 @@ Si enim eſt eadem B ad A, quæ eſt D ad C : erit econuersò A ad B vt C ad D, 
 
 Poſſumus & affirmatè demonſtrare. Ponatur E ad B vt C ad D. Et erit econuersò B ad E vt D ad C. Et quia maior eſt A quàm E, per priorem partem decimæ : erit, ex ſecunda parte octauæ, B ad A minor quàm B ad E. Quare, per duodecimam, B ad A minor quàm D ad C, Quod erat probandum.
 
-## II.
+### II.
 
 Si quatuor Quantitatum fuerit maior proportio primæ ad ſecundam, quàm tertiæ ad quartam : erit permutatim, maior proportio primæ ad tertiam, quàm ſecundæ ad quartam.
 

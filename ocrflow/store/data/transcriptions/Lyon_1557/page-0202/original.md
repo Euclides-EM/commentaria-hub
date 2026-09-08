@@ -1,7 +1,7 @@
-<!-- Page number: [illegible] -->
+# Typus universalis horologiorum muralium, quadruplices complectens horas, æquales, inæquales, Bohemicas & Italicas.
 
-[unclear: uerſalis h rætereaſignis zo. m oet. V quaaie ſ. L p A]
+Præterea signis zodiaci additis sunt menses Romani, quantitates dierum atque noctium, ortus & occasus solis, domus planetarum, litteræ dominicales atque anni bissexti.
 
-[Ornament]
+[Illustration: Universal scheme for mural sundials, by Sebastian Münster, combining equal, unequal, Bohemian and Italian hours with zodiacal, calendrical and astronomical information.]
 
-## I
+PER SEBASTIANVM MVNSTERVM

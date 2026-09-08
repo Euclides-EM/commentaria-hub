@@ -3,7 +3,7 @@
 
 le duobus A H & H E Quadratis : ob idq́;, Quadrato A E, per eandem quadrageſimamſeptimam. At quod fit ex A G in F G cum ipſo E F Quadrato, æquale eſt eidem Quadrato A E. Quod igitur fit ex A C in A D cum Quadrato E F, æquale eſt ei quod ex A G in F G cum eodem E F Quadrato. Ablato itaque communi E F, erit quod fit ex A C in D C æquale ei quod ex A F in F G : Quare & Quadrato A B, vt modò probauimus, Quod fuit demonſtrandum.
 
-## Conſectaria ex Campano.
+### Conſectaria ex Campano.
 
 Si ab eodem puncto extra Circulum ſignato, plures lineæ Circulum ſecent: quæ ex vnaquaque in ſui partem extimam fiunt Rectangula, inter ſe ſunt æqualia.
 

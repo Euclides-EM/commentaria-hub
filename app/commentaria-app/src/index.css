@@ -127,6 +127,31 @@ em {
   line-height: 1.45;
 }
 
+.tei-readable p[data-tei-block-type='curated-heading'] {
+  margin-top: 0.85rem;
+  margin-bottom: 0.5rem;
+  border: 1px dashed #a78bfa;
+  border-left: 3px solid #7c3aed;
+  border-radius: 0.35rem;
+  background: #f5f3ff;
+  color: #4c1d95;
+  font-size: 0.82rem;
+  font-weight: 650;
+  line-height: 1.4;
+  padding: 0.4rem 0.55rem;
+}
+
+.tei-readable p[data-tei-block-type='curated-heading']::before {
+  content: 'Curated structure';
+  display: block;
+  margin-bottom: 0.15rem;
+  color: #7c3aed;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
 .tei-readable p[data-tei-block-type='running-title'],
 .tei-readable p[data-tei-block-type='page-number'],
 .tei-readable p[data-tei-block-type='signature'],

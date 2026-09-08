@@ -9,7 +9,7 @@ Ex poſteriori conſtructione conſtitit, tres Arcus AC, CD, & DE minoris Circul
 
 Nos huic loco hoc ſubnectemus Problema.
 
-## Super data recta linea Pentagonum æquilaterum & æquiangulum conſtituere.
+### Super data recta linea Pentagonum æquilaterum & æquiangulum conſtituere.
 
 Sit ſuper data linea AB conſtituendum Pentagonũ æquilaterũ & æquiangulum.
 

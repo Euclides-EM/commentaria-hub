@@ -11,7 +11,7 @@ Dico inſuper, inter A E & peripheriam, non capi alteram lineam rectam. Quæ ſi
 
 Poſtremò, Dico angulum C A B, qui fit à Diametro C A & Semicirculo A B C, maiorem eſſe omni angulo acuto rectilineo : & E A B eodem minorem. Eſt enim C A E rectus : ob id, omni acuto maior : conſtatq́; duobus E A B & C A B mixtis angulis. At verò inter E A & B A, nulla recta linea capi poteſt, vt modò probauimus. Quapropter quum E A B diuidi nequeat per lineam rectam, erit minima pars quæ à recto poſſit auferri, & C A B maxima. Omnis enim angulus Rectilineus per æqualia diuiditur, ex nona Primi. Ac ſic conſtat tota Propoſitio.
 
-## Conſectarium.
+### Conſectarium.
 
 Recta linea ab extremitate Diametri perpendicularis, Circulum tangit : idq́; in vno puncto.
 

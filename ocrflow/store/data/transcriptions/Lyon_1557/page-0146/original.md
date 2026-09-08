@@ -5,7 +5,7 @@ IDEM affirmatè. Ponatur EB ad B vt CD ad D. Eritq́;, ex priori parte decimæ, 
 
 [Diagram: horizontal lines labelled A, E, B and C, D]
 
-## V.
+### V.
 
 Si fuerint quatuor Quantitates, quarum primæ & ſecundæ ad ſecundam maior ſit proportio, quàm tertiæ & quartæ ad quartam : erit euerſim, minor proportio primæ & ſecundæ ad primam, quàm tertiæ & quartæ ad tertiam.
 
@@ -15,7 +15,7 @@ Erit enim diſiunctim, per antecedentem, maior proportio A ad B, quàm C ad D. I
 
 [Diagram: horizontal lines labelled A, B and C, D]
 
-## VI.
+### VI.
 
 Si fuerint tres Quantitates vnius ordinis, totidemq́; alterius : fueritq́; primæ priorũ ad ſecundam, maior proportio, quàm primæ poſteriorum ad ſecundam : erit quoque primæ priorum ad tertiam, maior proportio, quàm primæ poſteriorum ad tertiam.
 
@@ -25,7 +25,7 @@ Sit enim G ad C vt E ad F. Eritq́;, ex priori parte decimæ huius, G minor B. O
 
 [Diagram: horizontal lines labelled A, B, C, H, G, C and D, E, F]
 
-## VII.
+### VII.
 
 Si fuerint tres Quantitates vnius ordinis, totidemq́; alterius, fueritq́; proportio ſecundæ priorum ad tertiam maior quàm primæ poſteriorum ad ſecundam, itemq́; primæ priorum ad ſecundam, maior quàm
 

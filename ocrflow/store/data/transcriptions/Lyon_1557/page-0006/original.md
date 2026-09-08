@@ -1,20 +1,20 @@
-## AD XLIII.
+### AD XLIII.
 
 Si Parallelogrammum in duo Supplementa æqualia, duoq́; quantacunque Complementa diuiſum fuerit: duorum Complemẽtorum dimetientes in continuum erunt, & vna totius Parallelogrammi dimetiens.
 
-## AD XLIIII.
+### AD XLIIII.
 
 Super data recta linea dato Parallelogrammo æquale Triangulum cõſtituere, habens angulum angulo dato æqualem.
 
-## AD XLV.
+### AD XLV.
 
 Propoſitis duabus Superficiebus rectilineis inæqualibus, exceſſum maioris ſupra minorem cognoſcere.
 
-## AD XLVI.
+### AD XLVI.
 
 Quæ circa Diametrum Quadrati Parallelogramma, ſua latera Quadrati lateribus æquidiſtantia habuerint, Quadrata eſſe oportet.
 
-## AD XLVII.
+### AD XLVII.
 
 Duo Quadrata inæqualia ad duo Quadrata æqualia reducere.
 
@@ -26,7 +26,7 @@ Data Diametro, componere Quadratum cuius eſt Diameter.
 
 Quadratum Diametri, duplum eſt Quadrati cuius eſt Diameter.
 
-## AD XLVIII.
+### AD XLVIII.
 
 Propoſitis duobus Quadratis, alteri illorum Gnomonem reliquo æqualem adiungere.
 
@@ -34,13 +34,13 @@ Et eſt Campani: quam tamen nos compendioſius demonſtrauimus.
 
 Secundo libro nullas Propoſitiones interiecimus.
 
-Libro Tertio.
+## Libro Tertio.
 
-## AD VII.
+### AD VII.
 
 Si duæ lineæ rectæ ab aliquo puncto Diametri exeuntes, angulos æquales cum Diametro fecerint: ipſæ ſunt æquales.
 
-## AD XV, quæ eſt Theoni XVI.
+### AD XV, quæ eſt Theoni XVI.
 
 Contactus duorum Circulorum interior, quantitas non eſt.
 
@@ -50,11 +50,11 @@ Contactus duorum Circulorum exterior, quantitas non eſt.
 
 Anguli qui fiunt à Diametro & Peripheria, ſiue intra ſiue extra Circulum: recti ſunt, & rectis rectilineis æquales.
 
-## AD XVI.
+### AD XVI.
 
 Lineæ rectæ quæ Circulum ſecet, lineam rectam quæ Circulum tangat parallelum ducere.
 
-## AD XXX.
+### AD XXX.
 
 Si in Circulo Triangulum rectangulum inſcriptum fuerit: latus recto angulo oppoſitum, Diameter erit Circuli.
 

@@ -1,4 +1,4 @@
-## AD XXXV.
+### AD XXXV.
 
 Si ab eodem puncto extra Circulum ſignato plures lineæ Circulum ſecent: quæ ex vnaquaque in ſui partem extimam fiunt Rectangula, inter ſe ſunt æqualia.
 
@@ -8,17 +8,17 @@ Atque hæ duæ poſteriores ſunt Campani.
 
 Ab vno puncto extra Circulum ſignato duæ tantùm lineæ ad contactum Circuli demitti poſſunt.
 
-## Libro Quarto.
+### Libro Quarto.
 
-## AD V.
+### AD V.
 
 Per tria data puncta in directam lineam minimè conſtituta, Circulum ducere.
 
-## AD IX.
+### AD IX.
 
 Quadratum Circulo circunſcriptum, duplum eſt Quadrati eidem Circulo inſcripti.
 
-## AD X.
+### AD X.
 
 Super data recta linea Pentagonum æquilaterum & æquiangulum conſtituere.
 
@@ -26,17 +26,17 @@ Ad Librum Quintum nullas Propoſitiones addidimus, eodem quo neque ad Secundum, 
 
 ## Libro Sexto.
 
-## AD IX.
+### AD IX.
 
 Dato Medio proportionali, in data linea duo extrema reperire. Oportet autem Medium datum dimidia parte lineæ datæ non eſſe maius.
 
-## AD XXIII.
+### AD XXIII.
 
 Propoſitis duobus Parallelogrammis æquiangulis, ſed non ſimilibus: ab vno illorum Parallelogrammum alteri ſimile reſecare.
 
 Inter duas Superficies rectilineas mediam Superficiem rectilineam inuenire.
 
-## AD XXXII.
+### AD XXXII.
 
 Si, quæ ab vno laterum Trianguli fit Species, æqua fuerit ijs quæ à duobus reliquis lateribus fiunt Speciebus ſimilibus ſimiliterq́; deſcriptis: Rectangulum eſt ipſum Triangulum.
 

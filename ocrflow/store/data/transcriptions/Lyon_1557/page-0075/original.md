@@ -13,7 +13,7 @@ Nam ſi in F non eſt Centrum, non erit in puncto alio lineæ EB, vt in G: Eſſ
 
 VIDES ex Recto & Æquo, punctum omnium maximè momentaneum perueſtigari. In quo rationi conueniens erat, vt linea EB in vtranque partem æqualiter (vt indicat perpendiculum) inclinata, Circulum diuideret per medium: atq; ob id, Centrum in ſe contineret. Sed quoniam id repræſentabatur tantùm, non conſtabat: ad abſurdum perducitur qui aduerſatur. Vt in Circulo Affirmatio Negatioq́; conueniant: ſicut in Vniuerſo Actio & Priuatio, Generatio & Corruptio. Ac breuiter contrariis omnia conſtant & perficiuntur. Centri igitur inueſtigatio, veritatis conquiſitionem graphicè exponit: quæ quum vna ſit, atq; in medio poſita: tamen inuentu longè difficillima, per controuerſias eluceſcit: ac non niſi bono & æquo obſequitur.
 
-## Conſectarium.
+### Conſectarium.
 
 Si in Circulo recta linea rectam lineam æqualiter & ad angulos rectos diuidat: in diuidente eſt Centrum Circuli.
 

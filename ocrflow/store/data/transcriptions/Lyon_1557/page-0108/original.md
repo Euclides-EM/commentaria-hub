@@ -21,7 +21,7 @@ Per tria data puncta in directam lineam minimè conſtituta, Circulum ducere.
 
 Vt, ſi ſint tria puncta A, B, & C : hæc intelliguntur eſſe connexa per lineas rectas in Triangulum : diuiditurq́; bifariam ſpatium inter A & B : itidem ſpatium inter B & C : & educuntur à punctis diuiſionum, duæ perpendiculares : quales hoc loco ſunt DE & FG, ſecantes ſe in H Centro. Quod fit Circuli officio : ſicut antè demonſtrauimus, ad vigeſimamquartam Tertij.
 
-## Conſectarium.
+### Conſectarium.
 
 Si fuerit Triangulum Orthogonium : cadit Centrum Circuli in medium latus recto angulo oppoſitum : ſi Ambligonium, extra Triangulum : ſi Oxygonium, intra. Si verò Centrum in medium latus ceciderit, Orthogonium eſt Triangulum : ſi extrinſecùs, Amblygonium : ſi introrsùm, Oxygonium.
 

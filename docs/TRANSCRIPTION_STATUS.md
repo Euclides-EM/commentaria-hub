@@ -6,10 +6,7 @@ Facsimile is public domain, I'm creating the dataset and running the OCR pipelin
 
 **Next steps:** Run the full OCR pipeline on the Paris_1566 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
 
----
-
 # Run LLM Corrector
-
 
 ## Paris_1615
 
@@ -19,8 +16,6 @@ There is a new facsimile that has the appropriate copyright. I run the full OCR 
 
 **Next steps:** Liri to run the LLM corrector on the new facsimile: https://euclides.huma-num.fr/hub/?datasetId=ds_57vh5j&annotationId=ann_joneuv&currentPageOrKey=326&annotationTab=details
 
----
-
 ## Paris_1667
 
 OCR has been completed, the facsimile is public domain.
@@ -28,8 +23,6 @@ OCR has been completed, the facsimile is public domain.
 **Next steps:** Liri to run the corrector on the two parts of the Paris_1667 facsimile:
 https://euclides.huma-num.fr/hub/index.html?datasetId=ds_jinmif&datasetTab=details&annotationId=ann_thiq1g&currentPageOrKey=171
 https://euclides.huma-num.fr/hub/index.html?datasetId=ds_jinmif&datasetTab=details&annotationId=ann_aotfx5&currentPageOrKey=86
-
----
 
 ## Venice_1482
 
@@ -40,8 +33,6 @@ Two facsimiles are available:
 
 **Next steps:** Liri to run the corrector on the Venice_1482 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_6vegrr&annotationId=ann_3pg8ot&currentPageOrKey=149&annotationTab=details
 
----
-
 ## Rome_1574
 
 Two facsimiles are available:
@@ -51,15 +42,11 @@ Two facsimiles are available:
 
 **Next steps:** Liri to run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
 
----
-
 ## Paris_1794
 
 Facsimile is public domain, I run the full OCR pipeline.
 
 **Next steps:** Liri to run the corrector on the Paris_1794 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_fcnxho&datasetTab=annotations&annotationId=ann_1eeww1&currentPageOrKey=210&annotationTab=text
-
----
 
 # Alignment
 
@@ -69,23 +56,7 @@ Full Fable transcriptions exist and have already been manually curated. However,
 
 **Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
 
----
-
 # Manual Curation
-
-## Lyon_1557
-
-The facsimile is public domain and can be used. OCR and llm correction with fable has been completed.
-
-LLM corrector run in two cycles, due to token limit. Log available only from the second run:
-
-```shell
-2026/09/04 15:55:49 complete pages=79 rounds=1 requests=79 tokens_input=326 tokens_cached=1509871 tokens_cache_creation=659121 tokens_output=222941 tokens_reasoning=0 tokens_total=2392259 cost_usd=26.574715 cost_reports=79/79 final_outputs=store/data/ds_5da9w5/annotations/ann_8k4g9h/transcriptions/page-NNNN/original.md
-```
-
-**Next steps:** Manually curate the Fable transcriptions.
-
----
 
 ## Basel_1562
 
@@ -106,8 +77,6 @@ cost_usd=$46.742450
 
 **Next steps:** Manually curate the Fable transcriptions.
 
----
-
 ## Nuremberg_1821
 
 OCR has been completed, the facsimile is public domain.
@@ -119,15 +88,11 @@ Liri run the corrector:
 
 **Next steps:** Manually curate the Fable transcriptions.
 
----
-
 ## Paris_1536
 
 Full Fable transcriptions exist, but they still require manual curation. Facsimile is public domain.
 
 **Next steps:** Manually curate the Fable transcriptions.
-
----
 
 # Completed 
 
@@ -137,7 +102,17 @@ Full Fable transcriptions exist and have already been manually curated. The facs
 
 DONE
 
----
+## Lyon_1557
+
+The facsimile is public domain and can be used. OCR and llm correction with fable has been completed.
+
+LLM corrector run in two cycles, due to token limit. Log available only from the second run:
+
+```shell
+2026/09/04 15:55:49 complete pages=79 rounds=1 requests=79 tokens_input=326 tokens_cached=1509871 tokens_cache_creation=659121 tokens_output=222941 tokens_reasoning=0 tokens_total=2392259 cost_usd=26.574715 cost_reports=79/79 final_outputs=store/data/ds_5da9w5/annotations/ann_8k4g9h/transcriptions/page-NNNN/original.md
+```
+
+Curated Fable transcriptions have been committed.
 
 # Open Questions
 
@@ -146,8 +121,6 @@ DONE
 OCR has been completed, but the copyright status is unclear. There is no public domain facsimile available for this edition (Liri checked).
 
 **Next steps:** Discuss with PIs what to do with editions that do not have a public domain facsimile available.
-
----
 
 I could not find any facsimiles with explicit rights for the following works. 
 

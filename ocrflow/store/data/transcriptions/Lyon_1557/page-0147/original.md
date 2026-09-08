@@ -9,7 +9,7 @@ Sit enim G ad C vt D ad E. Et erit, per priorem partem decimæ huius, G minor B 
 
 [Diagram: horizontal lines labelled A, B, C, H, G, C and D, E, F]
 
-## VIII.
+### VIII.
 
 Si fuerit proportio totius ad totum, maior quàm ablati ad ablatum : erit & reliqui ad reliquum, maior proportio, quàm totius ad totum.
 
@@ -19,7 +19,7 @@ Erit enim, per ſecundam additarum, permutatim, maior proportio AB ad AE, quàm 
 
 [Diagram: two horizontal lines, one labelled A, E, B, the other C, G, F, D]
 
-## IX.
+### IX.
 
 Si fuerint tres Quantitates vnius ordinis, ac totidem alterius, fueritq́; cuiuslibet antecedentis ad comparem, maior proportio, quàm cuiuſquam ſubſequentis ad ſuam : erit & harum omnium ad omnes illas maior proportio, quàm alicuius ſubſequentium ad ſuã comparem, aut etiam quàm omnium ad omnes : minor autem, quàm prima ad primam.
 

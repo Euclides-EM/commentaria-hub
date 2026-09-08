@@ -54,6 +54,8 @@ func TestMarkdownBlocksUseCanonicalDialect(t *testing.T) {
 
 # Book
 
+[Curated heading level=2: Editorial division]
+
 [Margin]
 printed note
 [/Margin]
@@ -79,7 +81,7 @@ label
 `}
 	abs := markdownBlocksToABs("12", md)
 	wantTypes := []string{
-		"running-title", "header1", "margin", "other:binding", "diagram",
+		"running-title", "header1", "curated-heading", "margin", "other:binding", "diagram",
 		"illustration", "calculation", "blank-page", "table",
 	}
 	if len(abs) != len(wantTypes) {
@@ -90,10 +92,13 @@ label
 			t.Errorf("block %d type = %q, want %q", i, abs[i].Type, want)
 		}
 	}
-	if got := inlineText(abs[4].Lines[0].Nodes); got != "circle labelled A" {
+	if abs[2].N != "2" || inlineText(abs[2].Lines[0].Nodes) != "Editorial division" {
+		t.Errorf("curated heading = %#v", abs[2])
+	}
+	if got := inlineText(abs[5].Lines[0].Nodes); got != "circle labelled A" {
 		t.Errorf("diagram description = %q", got)
 	}
-	if got := inlineText(abs[8].Lines[1].Nodes); got != "2|2 | x" {
+	if got := inlineText(abs[9].Lines[1].Nodes); got != "2|2 | x" {
 		t.Errorf("table row = %q", got)
 	}
 }

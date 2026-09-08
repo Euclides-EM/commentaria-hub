@@ -5,7 +5,7 @@ Trianguli ABC altitudo, eſt perpendicularis AD. Rectum enim, vt anteà monuimus
 
 [Diagram: triangle with vertices A, B, C and point D on the base]
 
-Ratio ex duabus rationibus aut ex pluribus conſtare dicitur, quum rationes Quantitatum inter ſe multiplicatæ, aliquam rationem efficiunt.
+### Ratio ex duabus rationibus aut ex pluribus conſtare dicitur, quum rationes Quantitatum inter ſe multiplicatæ, aliquam rationem efficiunt.
 
 Rationes Quantitatum hoc loco dicuntur denominationes ipſarum proportionum. Ob id, vocem Quantitatis generaliorem quàm Magnitudinis vſurpauit, vt ſignificaret hunc locum ſine Numerorum conſideratione præteriri non poſſe.
 

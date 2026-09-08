@@ -1,4 +1,4 @@
-<!-- Running title: Index eorum quæ libro huic inſunt. -->
+# Index eorum quæ libro huic inſunt.
 
 A
 

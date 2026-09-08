@@ -7,7 +7,7 @@ tatim, E ad B ſicut C ad D. Quare ex duodecima, maior erit proportio C ad D, qu
 
 IDEM per affirmationem. Sumatur E ad B vt C ad D. Eritq́;, ex priori parte decimæ, E minor A : proptereà quòd, ex priori parte octauæ, maior eſt A ad C, quàm E ad C. Sed ex Permutata proportionalitate, eſt E ad C vt B ad D. Quare, per duodecimam, A ad C maior quàm B ad D, Quod erat oſtendendum.
 
-## III.
+### III.
 
 Si fuerint quatuor Quantitates, quarum primæ ad ſecundam ſit maior proportio, quàm tertiæ ad quartam : erit quoque coniunctim, maior proportio primæ & ſecundæ ad ſecundam, quàm tertiæ & quartæ ad quartam.
 
@@ -21,7 +21,7 @@ Quod ſi ſit minor : ſit EB ad B vt CD ad D. Eritq́;, ex duodecima huius, EB 
 
 IDEM affirmatè. Quum poſita ſit maior proportio A ad B, quàm C ad D : ponatur E ad B vt C ad D. Eritq́;, ex priori parte decimæ, E minor A. Ob id, per animi Notionem, EB erit minor quàm AB. Itaque, ex priori parte octauæ, maior erit proportio AB ad A, quàm EB ad B. At proportio EB ad B, per Coniunctam proportionalitatem, eſt ſicut CD ad D. Poſita enim eſt E ad B vt C ad D. Quare, per duodecimam, maior eſt AB ad B, quàm CD ad D, Quod erat oſtendendum.
 
-## IIII.
+### IIII.
 
 Si fuerint quatuor Quantitates : quarum primæ & ſecundæ ad ſecundam ſit maior proportio, quàm tertiæ & quartæ ad quartam : erit quoque diſiunctim proportio primæ ad ſecundam maior quàm tertiæ ad quartam.
 

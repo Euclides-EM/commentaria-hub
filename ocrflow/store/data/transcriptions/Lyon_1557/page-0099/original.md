@@ -3,7 +3,7 @@
 
 ## PROBLEMA 6, PROPOSITIO XXXIII. Theoni 34.
 
-## A dato Circulo ſegmentum abſcindere, capiens angulum dato angulo rectilineo æqualem.
+A dato Circulo ſegmentum abſcindere, capiens angulum dato angulo rectilineo æqualem.
 
 [Diagram: circle with C at the upper right, B at the left, D below, inscribed triangle, and tangent line E A F at the bottom]
 
@@ -13,7 +13,7 @@ Duco lineam E F, quæ, per decimamſeptimam huius, tangat Circulum in A puncto :
 
 ## THEOREMA 29, PROPOSITIO XXXIIII. Theoni 35.
 
-## Si in Circulo duæ rectæ lineæ ſe inuicem ſecuerint: quod fit ex ſegmentis vnius, Rectangulum, æquum eſt ei quod ex alterius ſegmentis fit, Rectangulo.
+Si in Circulo duæ rectæ lineæ ſe inuicem ſecuerint: quod fit ex ſegmentis vnius, Rectangulum, æquum eſt ei quod ex alterius ſegmentis fit, Rectangulo.
 
 [Diagram: circle with B at the top, C at the right, E within, A at the left and D below, with two intersecting lines]
 

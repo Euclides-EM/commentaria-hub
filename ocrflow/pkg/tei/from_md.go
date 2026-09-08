@@ -12,7 +12,6 @@ import (
 
 var (
 	markdownZoneStartPattern  = regexp.MustCompile(`^\[(Margin|Footnote|Handwritten|Other)(?: type="([^"]+)")?\]$`)
-	markdownDropcapPattern    = regexp.MustCompile(`^\{dropcap:([^|}]+)\|lines=([^|}]+)\|style=(plain|decorated|unknown)(?:\|decoration="([^"]*)")?\}`)
 	markdownCorrectionPattern = regexp.MustCompile(`^\{printer-error-correction:([^}]+)\}`)
 	markdownIllegiblePattern  = regexp.MustCompile(`^\[illegible(?:: ([^\]]+))?\]`)
 	markdownUnclearPattern    = regexp.MustCompile(`^\[unclear: ([^\]]+)\]`)
@@ -75,6 +74,14 @@ func markdownBlocksToABs(pageKey string, md *markdown.Markdown) []model.AB {
 		if level, content := markdown.ParseHeader(line); level > 0 {
 			flushParagraph()
 			abs = append(abs, newMarkdownAB(pageKey, len(abs)+1, markdown.HeaderPrefix+strconv.Itoa(level), []string{content}))
+			continue
+		}
+
+		if level, content := markdown.ParseCuratedHeading(line); level > 0 {
+			flushParagraph()
+			ab := newMarkdownAB(pageKey, len(abs)+1, "curated-heading", []string{content})
+			ab.N = strconv.Itoa(level)
+			abs = append(abs, ab)
 			continue
 		}
 
@@ -152,20 +159,20 @@ func markdownInlineNodes(s string) []model.ABNode {
 
 		switch {
 		case strings.HasPrefix(s, "{dropcap:"):
-			match := markdownDropcapPattern.FindStringSubmatch(s)
-			if match == nil {
+			dropcap, remainder, ok := markdown.ParseDropcapPrefix(s)
+			if !ok {
 				nodes = appendTextNode(nodes, s[:1])
 				s = s[1:]
 				continue
 			}
-			rend := "dropcap lines=" + match[2] + " style=" + match[3]
-			if match[4] != "" {
-				rend += " decoration=" + match[4]
+			rend := "dropcap lines=" + dropcap.Lines + " style=" + dropcap.Style
+			if dropcap.Decoration != "" {
+				rend += " decoration=" + dropcap.Decoration
 			}
 			nodes = append(nodes, model.ABNode{Inline: &model.Inline{
-				XMLName: xml.Name{Local: "hi"}, Rend: rend, Text: match[1],
+				XMLName: xml.Name{Local: "hi"}, Rend: rend, Text: dropcap.Text,
 			}})
-			s = s[len(match[0]):]
+			s = remainder
 		case strings.HasPrefix(s, "{printer-error-correction:"):
 			match := markdownCorrectionPattern.FindStringSubmatch(s)
 			if match == nil {

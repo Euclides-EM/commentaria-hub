@@ -1,7 +1,7 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 13 -->
 
-# PROBLEMA PRIMVM,
+## PROBLEMA PRIMVM,
 
 ## PROPOSITIO PRIMA.
 

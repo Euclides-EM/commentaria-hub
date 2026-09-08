@@ -1,7 +1,7 @@
 <!-- Page number: 156 -->
 <!-- Running title: ELEMENT. EVCLIDIS -->
 
-## Conſectarium.
+### Conſectarium.
 
 Si igitur tres lineæ proportionales fuerint: quanta eſt prima ad tertiam, tanta erit Superficies quæ ſuper primam, ad Superficiem quæ ſuper ſecundam: quum vtraque fuerit ſimilis & ſimiliter deſcripta.
 

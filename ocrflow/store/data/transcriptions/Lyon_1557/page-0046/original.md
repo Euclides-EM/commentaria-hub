@@ -33,7 +33,7 @@ Ducam C K æquidiſtantem A B: & F L æquidiſtantem E D. Eruntq́; per trigeſi
 
 Ex hac facillimè elicitur hoc Problema,
 
-## Datum Triangulum in duo Triangula æqualia partiri.
+### Datum Triangulum in duo Triangula æqualia partiri.
 
 Sit enim Triangulum A B C, diuidendum in duo æqualia.
 

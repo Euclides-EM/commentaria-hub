@@ -15,7 +15,7 @@ erunt anguli E C A & B A C, per primam partem vigeſimænonæ, æquales, vtpotè
 
 Quum itaq́; duo anguli A C B & A C D ſint, per decimamtertiam, æquales duobus rectis: erunt tres anguli A B C, B A C, & A C B, æquales duobus rectis, Quod fuit demonſtrandum.
 
-## Appendix ex Campano.
+### Appendix ex Campano.
 
 Ex hac conſequitur, Cuiuſlibet Figuræ Multilateræ omnes angulos ſimul ſumptos bis tot rectis angulis eſſe æquales, quota eſt ipſa Figura in ordine Multilaterarum.
 

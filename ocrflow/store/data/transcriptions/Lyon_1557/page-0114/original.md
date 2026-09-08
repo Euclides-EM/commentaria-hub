@@ -15,6 +15,6 @@ SED & conſtituto ad Peripheriam angulo B, triplo anguli D, ductis lineis AH & B
 
 ## PROBLEMA 12, PROPOSITIO XII.
 
-## Circa datum Circulum, Pentagonum æquilaterum & æquiangulum deſcribere.
+Circa datum Circulum, Pentagonum æquilaterum & æquiangulum deſcribere.
 
 <!-- Catchword: Sit Circ -->

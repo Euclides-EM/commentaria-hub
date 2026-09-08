@@ -6,35 +6,35 @@ Atque hæc ſunt quibus noſtram demonſtrandi Euclidis rationem exponendam eſ�
 
 Quæ verò à nobis adiectæ ſunt Propoſitiones, ſic habent.
 
-Libro Primo.
+## Libro Primo.
 
-## AD XV PROPOSITIONEM.
+### AD XV PROPOSITIONEM.
 
 Si quatuor lineæ ab vno puncto exeuntes, quatuor angulos fecerint, quorum bini oppoſiti æquales fuerint: binæ aduerſæ in rectum ſibi erunt & linea vna.
 
-## AD XXIII.
+### AD XXIII.
 
 Dato Triangulo Triangulum æquale & æquilaterum conſtituere.
 
-## AD XXIX.
+### AD XXIX.
 
 Si duæ rectæ lineæ quæ duas parallelos ſecant, inter ipſas ad vnum punctum coïerint, duosq́; angulos alternos æquales fecerint, aut angulum exteriorem interiori ſibi oppoſito ex eadem parte æqualem, aut denique duos interiores ex alterutra parte duobus rectis æquales: eæ duæ lineæ in continuum erunt & linea vna.
 
-## AD XXXIIII.
+### AD XXXIIII.
 
 Inter duas lineas interminatas ad angulum datum coniunctas, lineam datæ lineæ æqualem collocare, quæ cum altera illarum faciat angulum alteri dato angulo æqualem. Oportet autem duos angulos datos duobus rectis eſſe minores.
 
-## AD XXXVIII.
+### AD XXXVIII.
 
 Datum Triangulum in duo æqualia partiri.
 
 A puncto in vno laterum Trianguli ſignato lineam ducere, quæ Triangulum bifariam diuidat.
 
-## AD XXXIX.
+### AD XXXIX.
 
 Si linea recta duo Trianguli latera per æqualia ſecuerit, ipſa erit tertio lateri æquidiſtans. Ex Campano.
 
-## AD XLII.
+### AD XLII.
 
 Dato Parallelogrammo æquale Triangulum conſtituere, habens angulum angulo dato æqualem.
 

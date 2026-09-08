@@ -13,7 +13,7 @@ ALITER, ex prima huius. Sumatur G æqualis A C. Et quoniã totum B D Parallelogr
 
 Si recta linea ſecetur vtcunque : Quadrata quæ fiunt ex ſegmentis cum eo quod bis ſub ipſis ſegmentis comprehenditur Rectangulo, æqualia ſunt ei quod à tota fit Quadrato.
 
-## Conſectarium.
+### Conſectarium.
 
 Quæ circa Dimetientem Quadrati conſiſtunt Parallelogramma, Quadrata eſſe oportet.
 

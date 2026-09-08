@@ -38,6 +38,10 @@ book-level headings, `## TEXT` for section or proposition headings, `### TEXT` f
 subordinate headings, and deeper levels only when the edition's structure requires
 them. Use consistent levels within an edition. Never use headings for page furniture.
 
+Editorially supplied structure uses `[Curated heading level=N: TEXT]`, where `N` is
+a positive integer. Curated headings are metadata supplied by a curator; never infer
+them from the page image or treat their wording as printed text.
+
 Page furniture uses exactly one HTML comment per visible item:
 
 ```markdown
@@ -148,8 +152,8 @@ page numbers or other digitization artefacts.
 
 * Do not invent annotation names or vary their capitalization or spelling.
 * Curly braces are only for defined inline features attached to text.
-* Square brackets are only for defined zones, page objects, unreadable text and the
-  blank-page marker.
+* Square brackets are only for defined zones, page objects, unreadable text, the
+  blank-page marker and curated headings explicitly supplied as metadata.
 * HTML comments are only for the four defined page-furniture types above.
 * Prefer a defined specific type over `[Other]`; use `[Other]` rather than inventing
   syntax when a distinct zone has no defined type.
@@ -274,7 +278,8 @@ Inline annotations MUST occur immediately adjacent to the text to which they app
 
 ### 2.4 Square-bracket annotations: zones and objects
 
-Square-bracket annotations represent distinct page zones or non-textual objects.
+Square-bracket annotations represent distinct page zones, non-textual objects and
+defined editorial structural annotations.
 
 A non-textual object may use a single annotation, optionally with a concise
 description after a colon:
@@ -293,6 +298,10 @@ Scholium.
 ```
 
 When a zone cannot be classified using one of the specific zone types defined in this specification, use an `Other` zone as defined below.
+
+Editorial structural annotations use a single annotation:
+
+[Curated heading level=1: Dedications]
 
 ## 3. Main text
 
@@ -328,6 +337,35 @@ Use the same heading level for headings of the same structural type within an ed
 ```
 
 Do not use Markdown headings for running titles or other page furniture.
+
+### 4.1 Curated headings
+
+A curated heading is an editorially supplied structural heading that does not
+correspond to heading text printed in the source. It may be used to group, index or
+provide navigation for textual units that form a meaningful structural division.
+
+Represent a curated heading as:
+
+[Curated heading level=N: TEXT]
+
+where:
+
+* `level` is REQUIRED and gives the structural level of the heading as a positive
+  integer;
+* `TEXT` is REQUIRED and gives the editorially supplied heading text.
+
+For example:
+
+[Curated heading level=1: Dedications]
+
+A curated heading may therefore precede several textual units whose relationship is
+not identified by an equivalent printed heading in the source.
+
+Curated heading text is editorial metadata, not transcribed text. It MUST NOT be
+treated as evidence that the corresponding wording occurs in the source.
+
+Curated headings MUST NOT be inferred from the page image. They may be inserted only
+when explicitly supplied as part of the curated document structure.
 
 ## 5. Page furniture
 
@@ -751,6 +789,7 @@ To be determined.
 | Calculation                 | `[Calculation]...[/Calculation]`                                  |
 | Table                       | Markdown pipe-table syntax                                        |
 | Blank page                  | `[Blank page]`                                                    |
+| Curated heading             | `[Curated heading level=N: TEXT]`                                 |
 
 ## 22. Core syntax constraints
 
@@ -759,7 +798,7 @@ To be determined.
 3. Do not invent annotation names.
 4. Do not vary the capitalization or spelling of annotation names.
 5. Use curly-brace annotations for inline features attached to particular transcribed text.
-6. Use square-bracket annotations for zones and page objects.
+6. Use square-bracket annotations for zones, page objects and defined editorial structural annotations.
 7. Use HTML comments only for defined page-furniture types.
 8. Preserve printed text diplomatically except for the normalization of line wrapping defined above.
 9. Do not modernize or silently correct printed text.

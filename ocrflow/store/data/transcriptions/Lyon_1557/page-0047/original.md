@@ -9,7 +9,7 @@ Mechanicè verò diuidetur Triangulũ in alias partes, diuiſo ſimiliter latere
 
 Subijciemus & hoc Problema,
 
-## A puncto in vno laterum Trianguli ſignato lineam ducere, quæ Triangulum bifariam diuidat.
+### A puncto in vno laterum Trianguli ſignato lineam ducere, quæ Triangulum bifariam diuidat.
 
 Sit punctum A ſignatum in latere B C Trianguli B C D. Volo à puncto A ducere lineam quæ diuidat Triangulum B C D in duas partes æquales.
 

@@ -15,7 +15,7 @@ Quod nulla indiget probatione.
 
 ## THEOREMA 34, PROPOSITIO XLVIII.
 
-## Si quod ab vno laterum Trianguli fit Quadratum, æquale fuerit duorum reliquorum Quadratis: angulus ab illo latere ſubtenſus, rectus erit.
+Si quod ab vno laterum Trianguli fit Quadratum, æquale fuerit duorum reliquorum Quadratis: angulus ab illo latere ſubtenſus, rectus erit.
 
 Sit Triangulum ABC : ſitq́; Quadratum lateris AC æquale Quadratis duorum laterum AB & BC. Dico angulum B oppoſitum AC lateri, eſſe rectum. Conuerſa antecedentis.
 
@@ -33,7 +33,7 @@ Si enim Quadratum lateris AC eſt æquale Quadratis duorum AB & BC, neque angulu
 
 Sed probationes quæ affirmatè concludunt, digniores ſunt ijs quæ ab impoſſibili.
 
-## Ex Campano.
+### Ex Campano.
 
 Propoſitis duobus Quadratis, alteri illorum Gnomonem reliquo æqualem adiungere.
 

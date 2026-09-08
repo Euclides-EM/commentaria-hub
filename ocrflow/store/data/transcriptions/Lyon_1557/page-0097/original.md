@@ -21,7 +21,7 @@ Hinc ſatis manifeſtum eſt, E A F angulum eſſe recto maiorem : ſed G A H mi
 
 Huic tanquam Conſectarium ſubijciemus.
 
-## Si in Circulo Triangulum Rectangulum inſcriptum fuerit : latus recto angulo oppoſitum, Diameter erit Circuli.
+### Si in Circulo Triangulum Rectangulum inſcriptum fuerit : latus recto angulo oppoſitum, Diameter erit Circuli.
 
 Sit enim in Circulo A B C D, Triangulum A B C Rectangulum, cuius angulus B rectus. Dico latus A C eſſe Diametrum Circuli.
 

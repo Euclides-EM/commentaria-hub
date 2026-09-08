@@ -23,7 +23,7 @@ Iſoſcelia verò Rectangula ex Numeris non conficiuntur. In quo id dignum conſ
 
 Illud quoque non omittam, hoc Theorema Pythagoricum non ex Triangulo, ſed ex Parallelogrammo Rectangulo eſſe depromptum. Quod & Numerorum affinitas oſtendit. Nullum enim Numeris cum Triangulis commercium: neque Superficies, per Numeros abſoluitur, niſi multiplicatione. Multiplicatio verò, minimùm, quadrilatera eſt. In Geometricis etiam Superficiebus, Triangula vt dimidia Parallelogrammorum conſiderari debent. Sic itaque proponi poterat Theorema.
 
-## In Parallelogrammis Rectangulis, Quadratum quod à Dimetiente fit, æquale eſt duorum quæ ſubtendit laterum, Quadratis.
+### In Parallelogrammis Rectangulis, Quadratum quod à Dimetiente fit, æquale eſt duorum quæ ſubtendit laterum, Quadratis.
 
 Quia tamen ſimpliciora ſunt Triangula, atque ob id tractabiliora: eorum nobis officium accerſimus. Sed de his aliàs.
 

@@ -331,6 +331,7 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        categories  query     string  false  "Categories for the index"
+// @Param        include_curated_headings query bool false "Include editorial curated headings in the index (default true)" default(true)
 // @Produce      json
 // @Success      200  {object}   annotation.Index
 // @Router       /datasets/{dataSetId}/annotations/{id}/index [get]
@@ -345,7 +346,14 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 	if categoriesStr != "" {
 		categories = lo.Map(strings.Split(strings.TrimSpace(categoriesStr), ","), func(s string, _ int) string { return strings.TrimSpace(s) })
 	}
-	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories)
+	includeCuratedHeadings := true
+	if value := r.URL.Query().Get("include_curated_headings"); value != "" {
+		includeCuratedHeadings, err = strconv.ParseBool(value)
+		if err != nil {
+			return nil, fmt.Errorf("invalid include_curated_headings value %q: %w", value, err)
+		}
+	}
+	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, includeCuratedHeadings)
 }
 
 // ListAnnotationCategories godoc

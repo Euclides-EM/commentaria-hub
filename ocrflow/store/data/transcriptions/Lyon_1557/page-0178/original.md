@@ -2,6 +2,8 @@
 
 [Ornament: floral headpiece]
 
+[Curated heading level=1: Authorial Epistles]
+
 ## IACOBVS PELETARIVS IOANNI FRATRI, NAVARRÆORVM GYMNASIARCHAE S.
 
 [Ornament: small fleuron]

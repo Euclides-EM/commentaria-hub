@@ -6,9 +6,9 @@
 
 ## DEFINITIONES.
 
-{dropcap:F|lines=5|style=decorated|decoration="foliate woodcut initial"}Igura Rectilinea, in altera Rectilinea inſcribi dicitur, quum ſinguli inſcriptæ Figuræ anguli, ſingula eius in qua inſcribitur, latera tangunt.
+### {dropcap:F|lines=5|style=decorated|decoration="foliate woodcut initial"}Igura Rectilinea, in altera Rectilinea inſcribi dicitur, quum ſinguli inſcriptæ Figuræ anguli, ſingula eius in qua inſcribitur, latera tangunt.
 
-2 Figura verò circa Figuram, quum ſingula latera circunſcriptæ, ſingulos eius circa quam deſcribitur, angulos tangunt.
+### 2 Figura verò circa Figuram, quum ſingula latera circunſcriptæ, ſingulos eius circa quam deſcribitur, angulos tangunt.
 
 [Diagram: triangle inscribed within a larger triangle]
 
@@ -16,18 +16,18 @@ Satis conſtat Rectilineas Figuras eiuſdem ſpeciei, alias alijs inſcribi aut 
 
 [Diagram: square inscribed within a circle]
 
-3 Figura Rectilinea in Circulo deſcribi dicitur, quum omnes ipſius anguli, Peripheriam tangunt:
+### 3 Figura Rectilinea in Circulo deſcribi dicitur, quum omnes ipſius anguli, Peripheriam tangunt:
 
-4 Circulus verò circa Figuram Rectilineam, quũ ipſius Peripheria omnes interioris Figuræ angulos tangit.
+### 4 Circulus verò circa Figuram Rectilineam, quũ ipſius Peripheria omnes interioris Figuræ angulos tangit.
 
 [Diagram: circle inscribed within a square]
 
-5 Circulus in Figura Rectilinea deſcribi dicitur, quum ipſius Peripheria ſingula interioris Figuræ latera tangit.
+### 5 Circulus in Figura Rectilinea deſcribi dicitur, quum ipſius Peripheria ſingula interioris Figuræ latera tangit.
 
-6 Figura verò Rectilinea circa Circulum, quum ipſius ſingula latera, Circuli Peripheriam tangunt.
+### 6 Figura verò Rectilinea circa Circulum, quum ipſius ſingula latera, Circuli Peripheriam tangunt.
 
 [Diagram: circle with a straight line drawn within it]
 
-7 Recta linea in Circulo accommodari dicitur, quum ipſius extrema in Circuli Peripheriam cadunt.
+### 7 Recta linea in Circulo accommodari dicitur, quum ipſius extrema in Circuli Peripheriam cadunt.
 
 <!-- Catchword: PRO -->

@@ -19,11 +19,15 @@ func (m *Markdown) GetCategories() []string {
 	seen := make(map[string]struct{})
 	var categories []string
 	for _, line := range strings.Split(m.Content, "\n") {
-		level, _ := ParseHeader(line)
-		if level == 0 {
+		category := ""
+		if level, _ := ParseHeader(line); level > 0 {
+			category = fmt.Sprintf("%s%d", HeaderPrefix, level)
+		} else if level, _ := ParseCuratedHeading(line); level > 0 {
+			category = fmt.Sprintf("%s%d", CuratedHeadingPrefix, level)
+		}
+		if category == "" {
 			continue
 		}
-		category := fmt.Sprintf("%s%d", HeaderPrefix, level)
 		if _, ok := seen[category]; ok {
 			continue
 		}

@@ -99,6 +99,7 @@ const Node = ({
   onExpandedChange: (nodeKey: string, expanded: boolean) => void
 }) => {
   const hasChildren = node.children && node.children.length > 0
+  const isCurated = node.category?.startsWith('curated-heading') ?? false
   const isExpanded = forceExpanded || expandedNodeKeys.has(node.navigationKey)
   const nodePage = getPageNumber(node.location?.page)
   const isActive =
@@ -133,7 +134,15 @@ const Node = ({
           onClick={() => node.location?.page && jumpToPage(node.location.page)}
           className="flex-1 text-left cursor-pointer"
         >
-          {node.content} {node.location?.page && `(p. ${node.location.page})`}
+          {isCurated && (
+            <span className="mr-1.5 rounded border border-violet-300 bg-violet-50 px-1 py-0.5 text-[0.6rem] font-semibold uppercase tracking-wide text-violet-700">
+              Curated
+            </span>
+          )}
+          <span className={isCurated ? 'text-violet-950' : undefined}>
+            {node.content}{' '}
+            {node.location?.page && `(p. ${node.location.page})`}
+          </span>
         </button>
       </div>
       {hasChildren && isExpanded && (
@@ -178,11 +187,20 @@ export function IndexMenu({
   const [expandedNodeKeys, setExpandedNodeKeys] = useState<Set<string>>(
     () => new Set(),
   )
+  const [includeCuratedHeadings, setIncludeCuratedHeadings] =
+    useLocalStorageState('indexIncludeCuratedHeadings', {
+      defaultValue: true,
+      storageSync: false,
+    })
   const {
     data: annotationIndex,
     isLoading,
     error,
-  } = useAnnotationIndexQuery(state.datasetId, state.annotationId)
+  } = useAnnotationIndexQuery(
+    state.datasetId,
+    state.annotationId,
+    includeCuratedHeadings,
+  )
   const normalizedSearchTerm = searchTerm.trim()
   const navigationNodes = useMemo(
     () =>
@@ -221,6 +239,17 @@ export function IndexMenu({
 
   return (
     <div className="flex flex-col min-h-0 h-full">
+      <label className="mx-3 mb-2 flex cursor-pointer items-center gap-2 text-xs text-gray-600">
+        <input
+          type="checkbox"
+          checked={includeCuratedHeadings}
+          onChange={(event) =>
+            setIncludeCuratedHeadings(event.target.checked)
+          }
+          className="accent-violet-600"
+        />
+        Include curated headings
+      </label>
       {isLoading ? (
         <LoadingSpinner size="sm" message="Loading index..." />
       ) : error ? (

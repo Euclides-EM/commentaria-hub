@@ -9,9 +9,9 @@ Vt Qvadratum (primum parium laterum, atque eam ob cauſam etiam tot habet priuil
 
 At verò imparium laterum Figuræ, ideò difficiliores cognitu, quòd pleræq; ipſarum per numeros Primos repræſententur: Quales ſunt 3, 5, 7, 13, 17: ac ſimiles. Sed de his aliàs vberiùs, vt antè polliciti ſumus. Hæc tamen in Hexagono docere potius viſum eſt, quòd ipſum ſit maximè perſpicuum: atque ob eam cauſam quod per ſenarium numerum ſignificetur, qui primus eſt Perfectorum.
 
-## Conſectarium.
+### Conſectarium.
 
-## Latus Hexagoni Circulo inſcripti, æquale eſt Circuli Semidiametro.
+Latus Hexagoni Circulo inſcripti, æquale eſt Circuli Semidiametro.
 
 Hoc verò ſatis conſtat ex vtraque Demonſtrationum: maximè ex ſecunda, quæ per Triangula Æquilatera procedit, quorum latera ſunt Semidiametri.
 
@@ -21,7 +21,7 @@ Hic etiam animaduertemus, quod & ſuprà in quadrageſimaſexta Primi monuimus, 
 
 ## PROBLEMA 16, PROPOSITIO XVI.
 
-## In dato Circulo, Superficiem quindecim laterum æquilateram & æquiangulam inſcribere.
+In dato Circulo, Superficiem quindecim laterum æquilateram & æquiangulam inſcribere.
 
 Sit in dato Circulo ABCD inſcribenda Superficies quindecangula æquilatera & æquiangula.
 

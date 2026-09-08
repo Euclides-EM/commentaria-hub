@@ -68,6 +68,24 @@ func TestBuildNodesRetainsHeaderWhenIntermediateLevelIsMissing(t *testing.T) {
 	require.Equal(t, "19", definitions.Children[1].Location.Page)
 }
 
+func TestBuildNodesNestsCuratedAndPrintedHeadingsByStructuralLevel(t *testing.T) {
+	nodes := buildNodes(
+		[]string{"curated-heading1", "header1", "header2", "curated-heading2"},
+		[]categoryPageContent{
+			{page: 1, category: "curated-heading1", content: "Front matter"},
+			{page: 2, category: "header2", content: "Printed dedication"},
+			{page: 3, category: "curated-heading2", content: "Letters"},
+			{page: 4, category: "header1", content: "Book I"},
+		},
+	)
+
+	require.Len(t, nodes, 2)
+	require.Equal(t, "Front matter", nodes[0].Content)
+	require.Equal(t, "Printed dedication", nodes[0].Children[0].Content)
+	require.Equal(t, "Letters", nodes[0].Children[1].Content)
+	require.Equal(t, "Book I", nodes[1].Content)
+}
+
 func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	db, err := sql.Open("sqlite3", ":memory:")
 	require.NoError(t, err)
@@ -102,7 +120,7 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
 	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
 
-	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil)
+	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil, true)
 	require.NoError(t, err)
 	require.Equal(t, "ds_unprepared", index.DatasetID)
 	require.Equal(t, "ann_unprepared", index.AnnotationID)
@@ -177,7 +195,7 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 		require.NoError(t, os.MkdirAll(filepath.Join(dir, "page-0001"), 0o755))
 		require.NoError(t, os.WriteFile(filepath.Join(dir, "page-0001", "original.md"), []byte(content), 0o644))
 	}
-	writeMarkdownPage(filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "transcriptions"), "# Annotation wins\n")
+	writeMarkdownPage(filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "transcriptions"), "# Annotation wins\n\n[Curated heading level=2: Editorial section]\n")
 	writeMarkdownPage(filepath.Join(baseDir, "transcriptions", "edition_priority"), "# Edition loses\n")
 	annotationAltoDir := filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "alto")
 	require.NoError(t, os.MkdirAll(annotationAltoDir, 0o755))
@@ -191,14 +209,22 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
 	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
 
-	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil)
+	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, true)
 	require.NoError(t, err)
 	require.Len(t, index.Nodes, 1)
 	require.Equal(t, "Annotation wins", index.Nodes[0].Content)
 	require.Equal(t, "header1", index.Nodes[0].Category)
+	require.Len(t, index.Nodes[0].Children, 1)
+	require.Equal(t, "Editorial section", index.Nodes[0].Children[0].Content)
+	require.Equal(t, "curated-heading2", index.Nodes[0].Children[0].Category)
+
+	indexWithoutCuratedHeadings, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, false)
+	require.NoError(t, err)
+	require.Len(t, indexWithoutCuratedHeadings.Nodes, 1)
+	require.Empty(t, indexWithoutCuratedHeadings.Nodes[0].Children)
 
 	annotationTEI := &AnnotationTEI{annotationSvc: annotationSvc, fileSysMgt: fileSysMgt}
 	text, err := annotationTEI.GetTxt("ds_priority", "ann_priority", "1", nil)
 	require.NoError(t, err)
-	require.Equal(t, "# Annotation wins\n", text)
+	require.Equal(t, "# Annotation wins\n\n[Curated heading level=2: Editorial section]\n", text)
 }

@@ -1,6 +1,6 @@
 [Ornament: floral headpiece]
 
-## Quæ ad hos ſex libros Elementorum contulimus præcipua.
+# Quæ ad hos ſex libros Elementorum contulimus præcipua.
 
 [Ornament]
 

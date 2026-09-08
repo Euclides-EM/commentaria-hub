@@ -7,7 +7,7 @@ Hoc Problema Bouillus ideò difficile putauit, quòd ab Euclide eſſet præterm
 
 ## PROBLEMA II, PROPOSITIO XI.
 
-## In dato Circulo Pentagonum æquilaterum & æquiangulum deſcribere.
+In dato Circulo Pentagonum æquilaterum & æquiangulum deſcribere.
 
 Sit datus Circulus ABC, cui inſcribendum ſit Pentagonum æquilaterum & æquiangulum.
 
