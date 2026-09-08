@@ -8,6 +8,9 @@ import type { llm_Usage } from './llm_Usage';
 export type annotationrule_LLMTranscriptionCorrector = {
     additional_annotations?: Array<string>;
     applicable_stages?: Array<annotationrule_PipelineStage>;
+    /**
+     * ExecutionMode selects per-page requests or one local-agent directory request. Directory mode ignores Rounds.
+     */
     execution_mode?: 'page_by_page' | 'directory';
     include_edition_transcription?: boolean;
     model?: string;
@@ -17,3 +20,4 @@ export type annotationrule_LLMTranscriptionCorrector = {
     type?: annotationrule_Type;
     readonly usage?: llm_Usage;
 };
+

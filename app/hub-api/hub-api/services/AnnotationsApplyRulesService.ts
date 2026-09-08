@@ -732,6 +732,48 @@ export class AnnotationsApplyRulesService {
         });
     }
     /**
+     * Report GPU farm annotation detection failure
+     * Marks the waiting annotation-rule job failed when remote detection cannot upload a result.
+     * @returns any Accepted
+     * @throws ApiError
+     */
+    public static postDatasetsAnnotationsDetectionFailure({
+        dataSetId,
+        id,
+        mode,
+        error,
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * Detection mode
+         */
+        mode: 'lines' | 'model_segment' | 'model_ocr',
+        /**
+         * Remote failure message
+         */
+        error: string,
+    }): CancelablePromise<any> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/datasets/{dataSetId}/annotations/{id}/detection_failure',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            formData: {
+                'mode': mode,
+                'error': error,
+            },
+        });
+    }
+    /**
      * Upload GPU farm annotation detection result
      * Uploads ALTO result ZIP produced by a GPU farm detection job.
      * @returns annotation_Annotation OK
