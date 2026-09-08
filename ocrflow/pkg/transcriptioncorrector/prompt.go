@@ -4,11 +4,66 @@ import (
 	"crypto/sha256"
 	"errors"
 	"fmt"
+	"path/filepath"
 	"strings"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 	"github.com/pmezard/go-difflib/difflib"
 )
+
+func buildDirectoryPrompt(cfg Config, pages []page) (llm.Prompt, []string, error) {
+	abs := func(path string) (string, error) {
+		value, err := filepath.Abs(path)
+		if err != nil {
+			return "", fmt.Errorf("resolve path %s: %w", path, err)
+		}
+		return value, nil
+	}
+	imagesDir, err := abs(cfg.ImagesDir)
+	if err != nil {
+		return llm.Prompt{}, nil, err
+	}
+	outputDir, err := abs(cfg.OutputDir)
+	if err != nil {
+		return llm.Prompt{}, nil, err
+	}
+	type sourceGroup struct {
+		label string
+		paths []string
+	}
+	groups := []sourceGroup{{"Markdown", cfg.MarkdownDirs}, {"ALTO XML", cfg.ALTODirs}, {"mixed ALTO/Markdown", cfg.TranscriptionDirs}}
+	readPaths := []string{imagesDir}
+	var sources strings.Builder
+	for _, group := range groups {
+		for _, sourcePath := range group.paths {
+			absolutePath, err := abs(sourcePath)
+			if err != nil {
+				return llm.Prompt{}, nil, err
+			}
+			readPaths = append(readPaths, absolutePath)
+			fmt.Fprintf(&sources, "- %s: %s\n", group.label, absolutePath)
+		}
+	}
+	pageKeys := make([]string, len(pages))
+	for i, p := range pages {
+		pageKeys[i] = p.key
+	}
+	static := fmt.Sprintf(`You are correcting scholarly Markdown transcriptions of early printed pages. Work directly with the local files whose absolute paths are supplied. For each requested page, inspect its image and every available candidate transcription, reconcile disagreements using the image as authority, and write the complete corrected transcription to the requested output path.
+
+Do not modify input files or any file outside the output directory. Do not create correction-round files. Preserve historical text and follow this normative transcription dialect:
+
+--- BEGIN TRANSCRIPTION MARKDOWN DIALECT ---
+%s
+--- END TRANSCRIPTION MARKDOWN DIALECT ---`, strings.TrimSpace(markdownDialect))
+	dynamic := fmt.Sprintf(`Images directory: %s
+Candidate transcription directories:
+%sOutput directory: %s
+Pages to correct: %s
+
+For each page key, find the matching page-NNNN image and candidate files. ALTO XML candidates must be interpreted as OCR text. Write only the corrected transcription to OUTPUT_DIRECTORY/PAGE_KEY/original.md. Complete every requested page.`, imagesDir, sources.String(), outputDir, strings.Join(pageKeys, ", "))
+	cacheHash := sha256.Sum256([]byte(static))
+	return llm.Prompt{Static: static, Dynamic: dynamic, CacheKey: fmt.Sprintf("transcription-corrector-directory-%x", cacheHash[:12])}, readPaths, nil
+}
 
 type diffStats struct {
 	added   int

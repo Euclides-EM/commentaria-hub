@@ -17,6 +17,14 @@ import (
 
 const DefaultRounds = 1
 
+type ExecutionMode string
+
+const (
+	ExecutionModePageByPage ExecutionMode = "page_by_page"
+	ExecutionModeDirectory  ExecutionMode = "directory"
+	DefaultExecutionMode                  = ExecutionModePageByPage
+)
+
 // Config describes one transcription correction run.
 type Config struct {
 	MarkdownDirs      []string
@@ -26,15 +34,22 @@ type Config struct {
 	ImagesDir         string
 	OutputDir         string
 	Rounds            int
-	SkipExisting      bool
-	Provider          string
-	Model             string
-	Logger            *log.Logger
+	// ExecutionMode defaults to page_by_page. Directory mode invokes one local
+	// CLI agent with absolute paths and ignores Rounds.
+	ExecutionMode ExecutionMode
+	SkipExisting  bool
+	Provider      string
+	Model         string
+	Logger        *log.Logger
 }
 
 // Executor is the subset of the shared LLM client used by the corrector.
 type Executor interface {
 	ExecPromptResultWithLogLabel(provider, model string, prompt llm.Prompt, attachmentPath, logLabel string) (llm.Result, error)
+}
+
+type WorkspaceExecutor interface {
+	ExecWorkspaceResultWithLogLabel(provider, model string, prompt llm.Prompt, workingDir string, readPaths []string, logLabel string) (llm.Result, error)
 }
 
 type page struct {
@@ -54,7 +69,10 @@ func Run(cfg Config, client Executor) (llm.Usage, error) {
 	if client == nil {
 		return totalUsage, errors.New("LLM executor is required")
 	}
-	if cfg.Rounds == 0 {
+	if cfg.ExecutionMode == "" {
+		cfg.ExecutionMode = DefaultExecutionMode
+	}
+	if cfg.ExecutionMode == ExecutionModePageByPage && cfg.Rounds == 0 {
 		cfg.Rounds = DefaultRounds
 	}
 	if err := validateConfig(cfg); err != nil {
@@ -72,9 +90,16 @@ func Run(cfg Config, client Executor) (llm.Usage, error) {
 	if logger == nil {
 		logger = log.Default()
 	}
+	if cfg.ExecutionMode == ExecutionModeDirectory {
+		workspaceClient, ok := client.(WorkspaceExecutor)
+		if !ok {
+			return totalUsage, errors.New("LLM executor does not support directory execution")
+		}
+		return runDirectory(cfg, pages, workspaceClient, logger)
+	}
 
-	logger.Printf("start pages=%d rounds=%d markdown_sources=%d alto_sources=%d transcription_sources=%d provider=%s model=%s images=%s output=%s",
-		len(pages), cfg.Rounds, len(cfg.MarkdownDirs), len(cfg.ALTODirs), len(cfg.TranscriptionDirs), cfg.Provider, cfg.Model, cfg.ImagesDir, cfg.OutputDir)
+	logger.Printf("start mode=%s pages=%d rounds=%d markdown_sources=%d alto_sources=%d transcription_sources=%d provider=%s model=%s images=%s output=%s",
+		cfg.ExecutionMode, len(pages), cfg.Rounds, len(cfg.MarkdownDirs), len(cfg.ALTODirs), len(cfg.TranscriptionDirs), cfg.Provider, cfg.Model, cfg.ImagesDir, cfg.OutputDir)
 	for i, dir := range cfg.MarkdownDirs {
 		logger.Printf("markdown source=%d path=%s", i+1, dir)
 	}
@@ -194,8 +219,14 @@ func validateConfig(cfg Config) error {
 	if strings.TrimSpace(cfg.OutputDir) == "" {
 		return errors.New("output directory is required")
 	}
-	if cfg.Rounds < 1 {
+	if cfg.ExecutionMode != ExecutionModePageByPage && cfg.ExecutionMode != ExecutionModeDirectory {
+		return fmt.Errorf("unsupported execution mode %q (use %s or %s)", cfg.ExecutionMode, ExecutionModePageByPage, ExecutionModeDirectory)
+	}
+	if cfg.ExecutionMode == ExecutionModePageByPage && cfg.Rounds < 1 {
 		return errors.New("rounds must be at least 1")
+	}
+	if cfg.ExecutionMode == ExecutionModeDirectory && cfg.Provider != llm.ProviderClaudeCode && cfg.Provider != llm.ProviderCodex {
+		return fmt.Errorf("directory execution requires a local CLI provider (use %s or %s)", llm.ProviderClaudeCode, llm.ProviderCodex)
 	}
 	if strings.TrimSpace(cfg.Provider) == "" {
 		return errors.New("LLM provider is required")
@@ -204,4 +235,51 @@ func validateConfig(cfg Config) error {
 		return errors.New("LLM model is required")
 	}
 	return validateDirectories(cfg)
+}
+
+func runDirectory(cfg Config, pages []page, client WorkspaceExecutor, logger *log.Logger) (llm.Usage, error) {
+	selected := make([]page, 0, len(pages))
+	for _, p := range pages {
+		finalPath := filepath.Join(cfg.OutputDir, p.key, "original.md")
+		if cfg.SkipExisting {
+			if info, err := os.Stat(finalPath); err == nil && !info.IsDir() {
+				logger.Printf("page skipped mode=%s key=%s output=%s", cfg.ExecutionMode, p.key, finalPath)
+				continue
+			} else if err != nil && !errors.Is(err, os.ErrNotExist) {
+				return llm.Usage{}, fmt.Errorf("access existing output for %s: %w", p.key, err)
+			}
+		}
+		selected = append(selected, p)
+	}
+	if len(selected) == 0 {
+		return llm.Usage{}, nil
+	}
+
+	prompt, readPaths, err := buildDirectoryPrompt(cfg, selected)
+	if err != nil {
+		return llm.Usage{}, err
+	}
+	logger.Printf("start mode=%s pages=%d rounds=ignored markdown_sources=%d alto_sources=%d transcription_sources=%d provider=%s model=%s images=%s output=%s",
+		cfg.ExecutionMode, len(selected), len(cfg.MarkdownDirs), len(cfg.ALTODirs), len(cfg.TranscriptionDirs), cfg.Provider, cfg.Model, cfg.ImagesDir, cfg.OutputDir)
+	result, err := client.ExecWorkspaceResultWithLogLabel(cfg.Provider, cfg.Model, prompt, cfg.OutputDir, readPaths, "mode=directory")
+	if err != nil {
+		return llm.Usage{}, fmt.Errorf("directory LLM correction failed: %w", err)
+	}
+	for _, p := range selected {
+		finalPath := filepath.Join(cfg.OutputDir, p.key, "original.md")
+		contents, err := os.ReadFile(finalPath)
+		if err != nil {
+			return result.Usage, fmt.Errorf("directory LLM correction did not produce %s: %w", finalPath, err)
+		}
+		normalized, err := normalizeResponse(string(contents))
+		if err != nil {
+			return result.Usage, fmt.Errorf("directory LLM correction produced invalid output for %s: %w", p.key, err)
+		}
+		if err := writeFileAtomic(finalPath, []byte(normalized)); err != nil {
+			return result.Usage, fmt.Errorf("normalize directory output for %s: %w", p.key, err)
+		}
+	}
+	logger.Printf("complete mode=%s pages=%d requests=1 tokens_input=%d tokens_cached=%d tokens_output=%d tokens_total=%d output=%s/page-NNNN/original.md",
+		cfg.ExecutionMode, len(selected), result.Usage.InputTokens, result.Usage.CachedInputTokens, result.Usage.OutputTokens, result.Usage.TotalTokens, cfg.OutputDir)
+	return result.Usage, nil
 }

@@ -171,3 +171,66 @@ func (c *ClaudeCodeClient) ExecPromptResultWithLogLabel(model string, prompt Pro
 	)
 	return Result{Text: response.Result, Usage: usage}, nil
 }
+
+func (c *ClaudeCodeClient) ExecWorkspaceResultWithLogLabel(model string, prompt Prompt, workingDir string, readPaths []string, logLabel string) (Result, error) {
+	model = strings.TrimSpace(model)
+	if model == "" {
+		return Result{}, fmt.Errorf("llm exec: claude code model is empty")
+	}
+	dynamicPrompt := combinePrompt(prompt)
+	if dynamicPrompt == "" {
+		return Result{}, fmt.Errorf("llm exec: prompt is empty")
+	}
+	commandDir, err := directoryAbsolutePath(workingDir)
+	if err != nil {
+		return Result{}, err
+	}
+	args := []string{
+		"--print", "--output-format", "json", "--model", model,
+		"--permission-mode", "dontAsk", "--no-session-persistence",
+		"--tools", "Read,Write,Glob",
+	}
+	for _, path := range readPaths {
+		absolutePath, err := filepath.Abs(path)
+		if err != nil {
+			return Result{}, fmt.Errorf("llm exec: resolve readable path %s: %w", path, err)
+		}
+		args = append(args, "--add-dir", absolutePath)
+	}
+
+	startedAt := time.Now()
+	ctx, cancel := context.WithTimeout(context.Background(), totalTimeout)
+	defer cancel()
+	logPrefix := logPrefix(logLabel)
+	log.Printf("debug:%s llm exec start provider=claude-code model=%s workspace=true", logPrefix, model)
+	cmd := exec.CommandContext(ctx, c.executable, args...)
+	cmd.Dir = commandDir
+	cmd.Stdin = strings.NewReader(dynamicPrompt)
+	var stdout, stderr bytes.Buffer
+	cmd.Stdout = &stdout
+	cmd.Stderr = &stderr
+	if err := cmd.Run(); err != nil {
+		if ctx.Err() != nil {
+			return Result{}, fmt.Errorf("llm exec: claude code timed out after %s: %w", time.Since(startedAt), ctx.Err())
+		}
+		detail := strings.TrimSpace(stderr.String())
+		if detail == "" {
+			detail = strings.TrimSpace(stdout.String())
+		}
+		return Result{}, fmt.Errorf("llm exec: claude code failed after %s: %w: %s", time.Since(startedAt), err, errorBody([]byte(detail)))
+	}
+	var response claudeCodeResponse
+	if err := json.Unmarshal(stdout.Bytes(), &response); err != nil {
+		return Result{}, fmt.Errorf("llm exec: decode claude code response: %w: %s", err, errorBody(stdout.Bytes()))
+	}
+	if response.IsError {
+		return Result{}, fmt.Errorf("llm exec: claude code returned an error (%s): %s", response.Subtype, strings.TrimSpace(response.Result))
+	}
+	usage := Usage{
+		InputTokens: response.Usage.InputTokens, CachedInputTokens: response.Usage.CacheReadInputTokens,
+		CacheCreationInputTokens: response.Usage.CacheCreationInputTokens, CacheMetricsAvailable: true,
+		OutputTokens: response.Usage.OutputTokens, CostUSD: response.TotalCostUSD,
+	}
+	usage.TotalTokens = usage.InputTokens + usage.CachedInputTokens + usage.CacheCreationInputTokens + usage.OutputTokens
+	return Result{Text: response.Result, Usage: usage}, nil
+}

@@ -22,8 +22,17 @@ type execCall struct {
 }
 
 type fakeExecutor struct {
-	responses []llm.Result
-	calls     []execCall
+	responses      []llm.Result
+	calls          []execCall
+	workspaceCalls []workspaceExecCall
+}
+
+type workspaceExecCall struct {
+	provider, model string
+	prompt          llm.Prompt
+	workingDir      string
+	readPaths       []string
+	logLabel        string
 }
 
 func (f *fakeExecutor) ExecPromptResultWithLogLabel(provider, model string, prompt llm.Prompt, attachmentPath, logLabel string) (llm.Result, error) {
@@ -32,6 +41,23 @@ func (f *fakeExecutor) ExecPromptResultWithLogLabel(provider, model string, prom
 	})
 	if len(f.responses) == 0 {
 		return llm.Result{}, fmt.Errorf("unexpected call")
+	}
+	response := f.responses[0]
+	f.responses = f.responses[1:]
+	return response, nil
+}
+
+func (f *fakeExecutor) ExecWorkspaceResultWithLogLabel(provider, model string, prompt llm.Prompt, workingDir string, readPaths []string, logLabel string) (llm.Result, error) {
+	f.workspaceCalls = append(f.workspaceCalls, workspaceExecCall{provider, model, prompt, workingDir, append([]string(nil), readPaths...), logLabel})
+	for _, pageKey := range []string{"page-0001", "page-0002"} {
+		if strings.Contains(prompt.Dynamic, pageKey) {
+			if err := writeFileAtomic(filepath.Join(workingDir, pageKey, "original.md"), []byte("corrected "+pageKey)); err != nil {
+				return llm.Result{}, err
+			}
+		}
+	}
+	if len(f.responses) == 0 {
+		return llm.Result{Text: "done"}, nil
 	}
 	response := f.responses[0]
 	f.responses = f.responses[1:]
@@ -209,6 +235,40 @@ func TestRunSkipsExistingRoundOutput(t *testing.T) {
 	final, err := os.ReadFile(filepath.Join(outputDir, "page-0001", "original.md"))
 	require.NoError(t, err)
 	require.Equal(t, "existing\n", string(final))
+}
+
+func TestRunDirectoryModePassesAbsolutePathsOnceAndIgnoresRounds(t *testing.T) {
+	root := t.TempDir()
+	imagesDir := filepath.Join(root, "images")
+	sourceDir := filepath.Join(root, "source")
+	outputDir := filepath.Join(root, "output")
+	require.NoError(t, os.MkdirAll(imagesDir, 0o755))
+	require.NoError(t, os.MkdirAll(sourceDir, 0o755))
+	for _, key := range []string{"page-0001", "page-0002"} {
+		require.NoError(t, os.WriteFile(filepath.Join(imagesDir, key+".png"), []byte("image"), 0o644))
+		require.NoError(t, os.MkdirAll(filepath.Join(sourceDir, key), 0o755))
+		require.NoError(t, os.WriteFile(filepath.Join(sourceDir, key, "original.md"), []byte("source"), 0o644))
+	}
+	fake := &fakeExecutor{responses: []llm.Result{{Text: "done", Usage: llm.Usage{InputTokens: 10, OutputTokens: 2, TotalTokens: 12}}}}
+	usage, err := Run(Config{
+		MarkdownDirs: []string{sourceDir}, ImagesDir: imagesDir, OutputDir: outputDir,
+		Rounds: -99, ExecutionMode: ExecutionModeDirectory, Provider: llm.ProviderCodex, Model: "gpt-test",
+	}, fake)
+	require.NoError(t, err)
+	require.EqualValues(t, 12, usage.TotalTokens)
+	require.Empty(t, fake.calls)
+	require.Len(t, fake.workspaceCalls, 1)
+	call := fake.workspaceCalls[0]
+	require.Contains(t, call.prompt.Dynamic, imagesDir)
+	require.Contains(t, call.prompt.Dynamic, sourceDir)
+	require.Contains(t, call.prompt.Dynamic, outputDir)
+	require.NotContains(t, call.prompt.Dynamic, "source text")
+	require.Equal(t, []string{imagesDir, sourceDir}, call.readPaths)
+	for _, key := range []string{"page-0001", "page-0002"} {
+		contents, readErr := os.ReadFile(filepath.Join(outputDir, key, "original.md"))
+		require.NoError(t, readErr)
+		require.Equal(t, "corrected "+key+"\n", string(contents))
+	}
 }
 
 func testALTO(words ...string) *alto.Alto {

@@ -4,6 +4,7 @@ import (
 	"testing"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/transcriptioncorrector"
 	"github.com/stretchr/testify/require"
 )
 
@@ -47,4 +48,15 @@ func TestParseFlagsValidatesRequiredValues(t *testing.T) {
 
 	_, err = parseFlags([]string{"-images-dir", "images", "-output-dir", "out", "-rounds", "0", "-ai-provider", "ollama", "-ai-model", "vision", "source"})
 	require.ErrorContains(t, err, "rounds")
+}
+
+func TestParseFlagsAcceptsCodexDirectoryModeAndIgnoresRounds(t *testing.T) {
+	cfg, err := parseFlags([]string{
+		"-markdown-dir", "source", "-images-dir", "images", "-output-dir", "out",
+		"-execution-mode", "directory", "-rounds", "0", "-ai-provider", "codex", "-ai-model", "gpt-test",
+	})
+	require.NoError(t, err)
+	require.Equal(t, transcriptioncorrector.ExecutionModeDirectory, cfg.corrector.ExecutionMode)
+	require.Equal(t, 0, cfg.corrector.Rounds)
+	require.Equal(t, llm.ProviderCodex, cfg.corrector.Provider)
 }

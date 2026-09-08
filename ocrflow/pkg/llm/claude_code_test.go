@@ -115,6 +115,29 @@ func TestClaudeCodeExecReportsCLIError(t *testing.T) {
 	}
 }
 
+func TestClaudeCodeWorkspaceExecutionEnablesFileToolsAndSourceDirectory(t *testing.T) {
+	executable := fakeClaudeCodeExecutable(t, `{"result":"done","is_error":false,"subtype":"success"}`)
+	workspace := filepath.Join(t.TempDir(), "output")
+	source := t.TempDir()
+
+	_, err := NewClaudeCodeClient(executable).ExecWorkspaceResultWithLogLabel("fable", Prompt{Dynamic: "correct all pages"}, workspace, []string{source}, "test")
+	if err != nil {
+		t.Fatal(err)
+	}
+	invocation, err := os.ReadFile(executable + ".invocation")
+	if err != nil {
+		t.Fatal(err)
+	}
+	got := string(invocation)
+	if !strings.Contains(got, "--tools\nRead,Write,Glob\n") {
+		t.Fatalf("invocation did not enable workspace file tools:\n%s", got)
+	}
+	absoluteSource, _ := filepath.Abs(source)
+	if !strings.Contains(got, "--add-dir\n"+absoluteSource+"\n") {
+		t.Fatalf("invocation did not add source directory %q:\n%s", absoluteSource, got)
+	}
+}
+
 func fakeClaudeCodeExecutable(t *testing.T, response string) string {
 	t.Helper()
 	path := filepath.Join(t.TempDir(), "claude")

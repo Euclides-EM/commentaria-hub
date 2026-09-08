@@ -7,6 +7,7 @@ import (
 
 func TestProviderAvailability(t *testing.T) {
 	executable := fakeClaudeCodeExecutable(t, `{"result":"ok","is_error":false}`)
+	codexExecutable := fakeCodexExecutable(t)
 
 	tests := []struct {
 		name      string
@@ -14,12 +15,14 @@ func TestProviderAvailability(t *testing.T) {
 	}{
 		{name: "claude code", available: NewClaudeCodeClient(executable).IsAvailable()},
 		{name: "missing claude code", available: NewClaudeCodeClient(filepath.Join(t.TempDir(), "missing-claude")).IsAvailable()},
+		{name: "codex", available: NewCodexClient(codexExecutable).IsAvailable()},
+		{name: "missing codex", available: NewCodexClient(filepath.Join(t.TempDir(), "missing-codex")).IsAvailable()},
 		{name: "openai", available: NewOpenAIClient("key").IsAvailable()},
 		{name: "missing openai key", available: NewOpenAIClient(" ").IsAvailable()},
 		{name: "ollama", available: NewOllamaClient("https://ollama.example", "").IsAvailable()},
 		{name: "missing ollama url", available: NewOllamaClient("", "").IsAvailable()},
 	}
-	wants := []bool{true, false, true, false, true, false}
+	wants := []bool{true, false, true, false, true, false, true, false}
 	for i, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			if test.available != wants[i] {

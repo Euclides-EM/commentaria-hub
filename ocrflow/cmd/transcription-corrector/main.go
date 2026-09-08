@@ -63,8 +63,9 @@ func parseFlags(args []string) (cliConfig, error) {
 	fs.StringVar(&cfg.corrector.ImagesDir, "images-dir", "", "directory containing page-NNNN images")
 	fs.StringVar(&cfg.corrector.OutputDir, "output-dir", "", "directory for corrected markdown")
 	fs.IntVar(&cfg.corrector.Rounds, "rounds", transcriptioncorrector.DefaultRounds, "number of correction rounds (minimum 1)")
-	fs.BoolVar(&cfg.corrector.SkipExisting, "skip-existing", false, "skip pages with existing round output files")
-	fs.StringVar(&cfg.corrector.Provider, "ai-provider", "", "LLM provider: openai, ollama, or claude-code")
+	fs.Var((*executionModeFlag)(&cfg.corrector.ExecutionMode), "execution-mode", "correction execution mode: page_by_page or directory")
+	fs.BoolVar(&cfg.corrector.SkipExisting, "skip-existing", false, "skip pages with existing output files")
+	fs.StringVar(&cfg.corrector.Provider, "ai-provider", "", "LLM provider: openai, ollama, claude-code, or codex")
 	fs.StringVar(&cfg.corrector.Model, "ai-model", "", "LLM model name")
 	fs.StringVar(&cfg.authToken, "auth-token", "", "provider auth token (OpenAI API key or Ollama bearer token)")
 	fs.StringVar(&cfg.openAIAPIKey, "openai-api-key", "", "OpenAI API key; defaults to OPENAI_API_KEY")
@@ -81,6 +82,9 @@ func parseFlags(args []string) (cliConfig, error) {
 	cfg.corrector.Model = strings.TrimSpace(cfg.corrector.Model)
 	cfg.corrector.ImagesDir = strings.TrimSpace(cfg.corrector.ImagesDir)
 	cfg.corrector.OutputDir = strings.TrimSpace(cfg.corrector.OutputDir)
+	if cfg.corrector.ExecutionMode == "" {
+		cfg.corrector.ExecutionMode = transcriptioncorrector.DefaultExecutionMode
+	}
 	if err := validateCLIConfig(cfg); err != nil {
 		return cliConfig{}, err
 	}
@@ -98,15 +102,30 @@ func validateCLIConfig(cfg cliConfig) error {
 	if cfg.corrector.OutputDir == "" {
 		return errors.New("-output-dir is required")
 	}
-	if cfg.corrector.Rounds < 1 {
+	if cfg.corrector.ExecutionMode != transcriptioncorrector.ExecutionModePageByPage && cfg.corrector.ExecutionMode != transcriptioncorrector.ExecutionModeDirectory {
+		return fmt.Errorf("unsupported -execution-mode %q (use %s or %s)", cfg.corrector.ExecutionMode, transcriptioncorrector.ExecutionModePageByPage, transcriptioncorrector.ExecutionModeDirectory)
+	}
+	if cfg.corrector.ExecutionMode == transcriptioncorrector.ExecutionModePageByPage && cfg.corrector.Rounds < 1 {
 		return errors.New("-rounds must be at least 1")
 	}
-	if !slices.Contains([]string{llm.ProviderOpenAI, llm.ProviderOllama, llm.ProviderClaudeCode}, cfg.corrector.Provider) {
-		return fmt.Errorf("unsupported -ai-provider %q (use openai, ollama, or claude-code)", cfg.corrector.Provider)
+	if !slices.Contains([]string{llm.ProviderOpenAI, llm.ProviderOllama, llm.ProviderClaudeCode, llm.ProviderCodex}, cfg.corrector.Provider) {
+		return fmt.Errorf("unsupported -ai-provider %q (use openai, ollama, claude-code, or codex)", cfg.corrector.Provider)
+	}
+	if cfg.corrector.ExecutionMode == transcriptioncorrector.ExecutionModeDirectory && cfg.corrector.Provider != llm.ProviderClaudeCode && cfg.corrector.Provider != llm.ProviderCodex {
+		return errors.New("-execution-mode directory requires -ai-provider claude-code or codex")
 	}
 	if cfg.corrector.Model == "" {
 		return errors.New("-ai-model is required")
 	}
+	return nil
+}
+
+type executionModeFlag transcriptioncorrector.ExecutionMode
+
+func (f *executionModeFlag) String() string { return string(*f) }
+
+func (f *executionModeFlag) Set(value string) error {
+	*f = executionModeFlag(strings.ToLower(strings.TrimSpace(value)))
 	return nil
 }
 

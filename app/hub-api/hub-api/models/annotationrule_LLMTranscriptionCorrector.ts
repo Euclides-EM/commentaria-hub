@@ -8,10 +8,12 @@ import type { llm_Usage } from './llm_Usage';
 export type annotationrule_LLMTranscriptionCorrector = {
     additional_annotations?: Array<string>;
     applicable_stages?: Array<annotationrule_PipelineStage>;
+    execution_mode?: 'page_by_page' | 'directory';
     include_edition_transcription?: boolean;
     model?: string;
     provider?: string;
     rounds?: number;
+    skip_existing?: boolean;
     type?: annotationrule_Type;
     readonly usage?: llm_Usage;
 };

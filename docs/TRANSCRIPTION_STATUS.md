@@ -8,17 +8,18 @@ Facsimile is public domain, I'm creating the dataset and running the OCR pipelin
 
 ---
 
+# Run LLM Corrector
+
+
 ## Paris_1615
 
-OCR has been completed, but the facsimile is not copyrighted. 
+OCR has been completed, but the facsimile is not copyrighted.
 
 There is a new facsimile that has the appropriate copyright. I run the full OCR pipeline on it.
 
 **Next steps:** Liri to run the LLM corrector on the new facsimile: https://euclides.huma-num.fr/hub/?datasetId=ds_57vh5j&annotationId=ann_joneuv&currentPageOrKey=326&annotationTab=details
 
 ---
-
-# Run LLM Corrector
 
 ## Paris_1667
 
