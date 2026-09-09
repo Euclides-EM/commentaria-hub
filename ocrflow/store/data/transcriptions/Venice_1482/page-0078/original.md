@@ -1,0 +1,15 @@
+<!-- Running title: [illegible] -->
+
+## Propoſitio.s.
+
+{dropcap:[illegible]|lines=5|style=decorated}J oue quantirates inequales ad vnã quantitatem propor tioncntur. maioz quidem maiorem. minoz vero minoiem optinebit proportionez, illius vero ad illas ad minorem vero proportio maior ad maiorem vero minoz erit.
+
+[Diagram]
+
+¶Sint oue quontitates incquales. a.2.b.c. ſitqz maior. b.c. ⁊ pro? portionentur ad eandem quantitatem que ſit. d.oico q maior eſt proportio. b.c. ad.d.q̃y.a. ad. d.z ꝙ ccontrario maior eſt. d.ad.a.qy d.ad.b.c. Primũ ſic proꝰ batur:ponam.e. b.cqualem. a.z multiplicabo totiens. e.c. ꝙ proucniat ouantitas maion d.ſitoy f.g- c ſumam. R.f. ita multiplicem. b.c. ⁊ ſimuliter.h. ira multiplicẽ. a.ſicut.f.g eſt muiltipley, e.c. critos per primam buius. b.ita multipler.a.ſicut. E. S-eſt multiplex.l.c.erit etiam.b. equalis.E.f. propter boc ꝙ carum ſubmultinlices que ſunt. a.z.b.e poſite ſunt cqualeo: ponam quos ꝙ.h.no ſit minon.d. ſed cqua lis: aut maior: totiens cnim multiplicabo vnãquẽoz trium quantitatum.e. c.h.e ⁊ .equaliter: ꝙ. f.g.multipley.e.c. proueniat maior. d.z ꝙ. h. multipler. a. nõ proue niat minor eadem: veinde totiens multiplicabo. d. quod proueniat quantiras ma ior h.ſitay m, prina quãttas mnltipliciu. d.q ſit maioi.h. Gub qua ſuma mani mam multiplicem. d. aut ſibi equalem :ſi. m.eſt prima in ordinc mnltiplicinm a qque ſit.l.entog nt.l. non ſit maion.b, e conſtabit m. cy d'lz l, propter id qo omue multipler conſtat er prorimo precedenti multiplici z ſimplo: vt triplum er punlo: ſimplo.ercepto primo multiplici quod conſtat ey bis ſimplo.
+
+¶ Duia ergo he cqualis. E.f.non crit. Ef,minon l.itaqy le. f. 2. d.no cfficent minus q̃p l. zA ous re non cficent minus qy m.z quia f.s-eſt maior d.erit l.g-mmaior qsan. d' qny teligo igirur quantiratem. b.c, primam. d. ſecundam.a. tertiani. d. quartam: ⁊oy adprimam e tertiam ſumpta font eque mnultplicia vidclicet. l.g.2h. Simiuer quouy ad ſecundam z quartam cque multiplica:immno idem in ratione onorui on eſt.m. c addit.l.s multipley prime ſuper. mmultipler ſecunde: non addit auten b.multipley tertie ſuper.m.multipley quarte: crit per oiffuitioncn maiouis im p' porionalitatis maion propoitio b.c pume ad. d. ſccunda qy-a tertie ad. d. quar, tam ab eſt pnimum. d Srcundu proiabis per candem oiffintioncn comenloor Aimnervt d iit prima z terpia a ſeconda bs quarlaraddit cnim mamuitipler pu me fuper. h,moitiplicen ſecoinde. Don addi autein.m.mnuipler tertie ſuper Rg¬ mitiplicem quarte: quare maion eſt propomo d.ad.a qj d’ad b c, quoa eit le; cundum.
+
+¶ Ey buins autemn pemonſtrationis modo paret ſufficientia oiffinitio, nis maions inproporionalitatis: q̃y poinit aucio u pnncipios boius quinti. Puſquã enimn eit maion propontio primne quatuon quantratmn ad ſecidam dy ie tie ad quaram,qnin contingat aliqua cque muitiplicoia ad puimam e tcriamre, perirsque cumn rdata fuerint ad aliqua cque multipicia ſcconde e quartes inuenie mur minipler pnime addere ſuper moluipier ſccunde. Ilon autem mulupley ternie ſuper muitipley quare hes auiomn muilupioia ie rcyeriemo :ſicut cemonſtrabie mus infra ſupra.12. buius.
+
+## Propoſirio3

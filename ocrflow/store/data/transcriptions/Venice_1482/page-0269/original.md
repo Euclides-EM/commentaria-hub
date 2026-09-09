@@ -1,0 +1,17 @@
+<!-- Running title: [illegible] -->
+
+## Propoſitio .15.
+
+{dropcap:[illegible]|lines=5|style=decorated}Jramide quatuoz baſium triangulariũ atqz eolaterarũ intra ſperã quãlibet collocata ſi ã quolibet angulox cius
+
+[Diagram]
+
+per ceutrum ſpere recta linca ad balim oucatur in centrũ circuli baſim circuſcribentis cam cadere arqy ciden baii perpendicnlariter inſiſtere neceſſario comprobatnr.
+
+¶oit piramis.a b.c.d.a baſium trangulariu atqy cqlarcray mira ſperã aliouã cuus centru ſit f.collocara z cũ quilibet quatuor anguloy iſtius piramidis noiſit dle conus cius at qliby qruon trianguloy baſis Jmaginemur nũc cius ſolidn ãgu luni. a eſſe conũ ctrianguli. b.c. d.imaginemur eſſc baſim aray buic baſi iutellixa mus circuiſcriptui cle drcolui. b.c. d. oebinc a puncio.a que imaginari ſumus co? num piramidis pucamus ad baſin b.e. d linei recta tranſeunté per punein s.qui eſt centrũ ſpere circũſcribentis piramidé de qua oiſputamus z occurrat bec linea luperficiei. b.c.d. qua imogmati ſumus baſe piramidis ſup punctũ.c. oico jgit g puncti, c.é cétru cireni D.c’d. e qlinca.a.f.e é perpendisnano ad ſupicé hca producam enim lincas. f.b. f.c.f.d. e qr quatnon puncra. a.b.c. d.ſunt in ſupcrficie ſpere cnino centy.l. Pprer boc q uls ſpcram poluu eſt circumſcribere banc pirami dem erunt onnes quatuonr lince.f.a.f.b.f.cf, d.adinuicemn cqual co funt enim oue te a ceutro ſpere ad cius ſuperficiei: crgo qu ouo latera.a.f.z. f.b. trianguli. a.f.b funt cqualia ouobus laterbus.a.f.t.f.c trianguli. a fic.æ balis.a. b. baii.a. e.na piramis poſita eſt cquilatera:ent cy octaua prmi angulus.a. f.b. cquouis angulo a.f.c.idcous piy pumi ãgulꝰ quoq, b.f.e. crit cqlis agulo. cl.c. Eode modo pba bis angulu d.t.e. eſe cquole anguio. cf.e ncceile dſt oni cy octana puinitut angu lus. a.f,e. ſit cqualis angulo.a. f.d, quare peiz primi angulus quoq cf.e, ent eq? lis angulo ,d.f.e. ſunt igitur tres anguli. b.fae.cf.e. d.f.c, adinuicé cqualcs piotra ctis igit lincis, c.b.e.c.1.c.d.ſcquit ey quarta prmi bis aſſumpta cas eſſe adinuis cemn cquales. ideou per.y- terti punctus,e, e centrũ circuli b.cd. c o perpendiour laris oucta a centro ſpere ad ſupcrficié cuiuſlibet circuli cam ſecantis cadit ſnn ceu trui ciuſdé circuli ficur er bis que pmila ſũt vidclicz cr bis q̃ oecima bui’ immedia ate pcedunt oidiciſti couinoit iinea. a f.e. cé ppẽdicularé ad iupfioem arcnli a’bc queadinodu pponit Sun aũt crut cuſdé circuli ouo céira qo natura fandy ipoſfi bile erhonuit.
+
+## PPropoſitio .1s.
+
+{dropcap:[illegible]|lines=5|style=decorated}Oldum ocro baſiũ triangulariu atoz equilaterax qoab aliqua ſpera circuſcribitur oiniſibllé eſt in onas pirami des eque altas quay altitudo cqualis ẽ ſemidiamnetro ſpe re: balis aute vtriuſqz quadratũ qo eſt ſub ouplũ quadra to diametri ſpere.
+
+¶ Eſto corpus octo baſiu rriangularium aior cqulateray cnius ſer angui ſint.a. ba d.e f. circiſcnpra a ſpera cuus centrun a conſtat itaoz ꝙ ſcr puncia .a.b.c. d.e f.ſunt in fuperficie ſpere cuius centromn.g¬ fi igié centru, g iungatur cu quolibet boy ſer punctoy eruit pue lince iugentes iplu cis adinuicé cquales ci iple ſint a centro ſpere ad ſuperſiciẽ: cu auit er conel. iyare decimi ſit oiamerer ſpere potentialiter oupla ad lat bul coipis enit er quaria ſcet latus buins corpous potentialirer ouplu ad ſemidiamery ſpere, quadratu cigo.e. f. ouplui éad quadrati, c.s. ibas cqle ouobus quadrotis onay lincap c'g.2.8.f. qraas npenul paimi angulus ... té rccmus, eaden rone quilos iranguloy. t.g d.

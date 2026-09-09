@@ -2,17 +2,6 @@
 
 # Run LLM Corrector
 
-## Venice_1482
-
-Two facsimiles are available:
-
-* **`Venice_1482_transkribus`**: The Transkribus facsimile is openly licensed, but the image quality is relatively low. I scraped the existing Transkribus transcription and stored it locally, but the transcription quality is poor. On the server, the processing pipeline has reached the **LineDetect** stage for this facsimile.
-* **`Venice_1482`**: The facsimile is public domain. OCR has already been completed.
-
-*Status*: Running with Codex.
-
-**Next steps:** Liri to run the corrector on the Venice_1482 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_6vegrr&annotationId=ann_3pg8ot&currentPageOrKey=149&annotationTab=details
-
 ## Rome_1574
 
 Two facsimiles are available:
@@ -99,6 +88,29 @@ There is a new facsimile that has the appropriate copyright. I run the full OCR 
 Full correction with Codex Sol was run using dir mode. Token logs were lost due to job technical failure.
 
 **Next steps:** Manually curate the Fable transcriptions.
+
+
+## Venice_1482
+
+Two facsimiles are available:
+
+* **`Venice_1482_transkribus`**: The Transkribus facsimile is openly licensed, but the image quality is relatively low. I scraped the existing Transkribus transcription and stored it locally, but the transcription quality is poor. On the server, the processing pipeline has reached the **LineDetect** stage for this facsimile.
+* **`Venice_1482`**: The facsimile is public domain. OCR has already been completed.
+
+Codex usage:
+
+- **Pages:** 284
+- **Requests:** 1
+- **Input tokens:** 1,691,046
+    - Cached: 1,574,528
+    - Non-cached: 116,518
+- **Output tokens:** 19,273
+- **Reasoning tokens:** 0
+- **Total tokens:** 1,710,319
+- **Cached input:** ~93.1%
+- **Cost:** Unavailable
+
+**Next steps:** Manually curate the Codex transcriptions.
 
 # Completed 
 

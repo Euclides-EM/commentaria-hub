@@ -1,0 +1,17 @@
+<!-- Running title: [illegible] -->
+
+luuca. a. b.cum igitur vtraz buarum linearuz.a.b. 2. a. d. ſit biuiſa bin pportionẽ
+
+[Diagram]
+
+babeutei medium ono ertrema:igit ert per premiſſã ambay ipſay ad ſui ma¬ iores portioncs vna pportio.ita. d.a. ad.a.b. que eſt eius maior portio ſicut a b, ad.b.c. que eſt ctiã cius maior portio ſed.d.a.ad.a. b. ficut. a.b.ad. b. d.er piſli nirionc lince oiuiſc bi proportionem babentem medium ono ertrema z maio potrio cius :igitur er vndecima quinti. a.b.ad.b.d. ſicut. a.b.ad. b.c, quare per ſecundã ptem. 9. quinti.b. d.2.b. c.ſunt equales. cum ergo. b. d. ſit latus occagoni erit quoqy ey cõi ſcia.b.c. latus oecagoni. Iel aliter ad lincã.a.b. adiungai.b.d. cqualis. b. c.crit cy. a. tredecimi tora. a.d. oiuiſa bm pportionẽ babentẽ medinz ouoz cytrema e maior portio eiꝰ linea. a.b. itaz per cõuerſã. 9. tredecimi quã cõ¬ tinue poſt ipſã oemõſtranimns cuius circuli linea.a. b. eſt latus eragoni ciuſdez li nea.b. d.ideoz linca.b.c. ſibi cqualis ẽ latus oecagoni. Poſſumus itey idez ala via ſi libet oemonſtrare. Sit eni.e.f.cqualis.a. b. que etiã oinidat i.g. bm pportio nẽ babẽtẽ mediũ ouooz ertrema z lit maior portio eiꝰ linca.f.g.oſtat igir cr pmil ſa q quẽadmob. a.b.ẽ cq̃lis.e.f.fic.a.c.ẽ eq̃lis.c. 6.1.c.b. cq̃lis.g.f.cũz fuerit.b A. adiũcra ad.a. b. latꝰ occagoni illiꝰ circuli cui?. a.b.ẽlat? eragoni erit ſicut prins oiciũ ẽ cx.9 tredecimi tora.a.d.oiuiſa bm pportionẽ babente mediũ ouo cytre ma z maior ciꝰ portio crit linea. a. b. ita ꝑ pmiſſã. a:b ad.b. d. ſicut. f.g.ad g.c. õre p pmã partẽ.15.ſerti qo fir cr.a.b.in.g.e. cquũ eſt ei quod fit cy.b.d.in.f.⁊. cũ cz. a.b. ſit cqualis.c.f. z crit qo fit ex. e.f.in.g.e.equũ ẽ ci qo fit cy. b. d.in.f.g. Sed quod fit cy.c.f.in.g.e. cquũ eſt quadrato. f. g.ex oiffinitione linee oiuiſe bm ppor tionẽ babentem medium ouoqy ertrema z cr prima rte.is. ſexti:igit qb fit cy.b.d. in. f.g. eſt equale quadrato. f.g.idcooz ey prima ſerri linca. b. d.ẽ equalis.f. 4. ⁊oy f.4.é cquulis.c.b. erit quoqz.c.b. cqualis.b. d.z larus oecagoni qo oportebat oſtẽ dere.
+
+## ropoſitio .a
+
+{dropcap:[illegible]|lines=5|style=decorated}Madratũ lateris pentagoni intra circulum oelcripti qua dratum que linee que illius pentagoni angulo ſubtendit lambo bec quadrata pariter accepra quadrati medictatis
+
+[Diagram]
+
+iametri ciuſdem circuli quincuplum eſſe pronuncio.
+
+¶Sit in circulo. a.b.c. cuius centrũ. d.inſcriptns vnus pentagonus cquilatcrus cuius vnũ latus ſit. a.b. z prorrabar biameter. c. d.c. biuidens lineam a.b.z cius arcũ per equalia. Eſt igitur arcus. a.e. medictas quinte ptis circũferen tie illius circuli quare arcus.a.C.ẽ ouc quinte torins circũferentie: protrabant ita,  ouc lince. a.e. 2.a.c. eritz. a.e. latus oecagoni equilatcri co ꝙ eins arcus eſt mcdietas quinte ptis circumferentie. linea vero. a.c.crit que ſubtendit vni ex an? gnlis pentagoni prcdicti: eo ꝙ arcus. a..eſt oue quinte partis circumferentie cir! culi: oico itaz ꝙ quadrata ouarum lincarum. a.b. 2.a.c. pariter accepta quincu? plum ſunt ad quadratum lince. d.e. eſt enim ey quarta ſecundi quadratum lince. c. e. quadruplum ad quadratum linec. d.e. Lum autem angulus. c.a.c. ſit rectus cy prima parte.3o. tertij. eruntoz cx penultima primi quadrata ouay lincarum.c.a.t a.e quadruplum ad quadratum. d.e.igitur quadrata :rium lincarum.t. a..a.e.2 d.e. quincuplum ſunt ad quadratum lince. d.c.z quia ey vecima tredccimilibri q̃ dratum.a.b.eſt cquale quadratis ouaruni lincarum.a.c.2. d.e. ſcquitur vt qua

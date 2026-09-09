@@ -1,0 +1,17 @@
+<!-- Running title: [illegible] -->
+
+clameiri. b.f.⁊ lince g c.e p'h itcnay. El. &mn cquidiſtanter laterbus oppor uis ſecantes ſe mmmee ſop cametp in encpns puneuis p's n'e crn pianciuan cuss' alijo louis r.E ſ.nmnieſi ſoit é'er. aa loru ve cr concarto quarle ſceitv
+
+[Diagram]
+
+onues ſuperficies eyiſtentes in quadrato. a.c quas biameter pinidt per mcdumm ſmt quadrates quatnon amremn ſupericies que font. a rm p n.h'a lce confatar An puimni e puimna ſerti eile adinuice cnnles, nã pue potreme p.h.s. fe ſutad immié couales cr pui ma ſeri oin toit er pnu ppoineit z oifuintiécluce fin o p pont piniſe c pamna pre, ie ſepi qndraiu, cl c cule ſusficid a s’idcomn emus monl. r.ſ., pprer id ab ſupficies a r.é coualis ſuperſiciel. p'h e oin er quana ſe omndi quadraii. cl, cit quidroplas ad qudroiu i'ſ gbe tandy qudrat liuce s'a ſeonitrur er comon ſccentta g oudraiu m. h ſit qunmaplui d’adrail-iite confat out er gnomnone quadraplo &. r.t,impo hos aut cit propoiti. ydes ailsr eu uie linea b.c piuiſa per cqualla in puneio d.g addta eſt cilinca a.c enit cr s ſecudi quodſit er a.b.in a.t. con quadrato s d interlacentis couale qdrato a dat or quod fit er a bain a c cquale é quadrato c'h. cr prima pre. io ſenti hoc autem ait euadruplom ad quadraium c. d manfeſe py veritas cus as bioit. Poits auors ſi libet ctiam cuplici miodo er coſequcte buius foi antercdens codudere prorsilu retrogradu, ſit eni cade oiſpoſitone manente quadraiſi.m.b, auirtplu ad qua draiui.r.f.crtoy quomo.r.f.s. cquale quadrato.cil. Hrrioy eni cit ouadrupin aa quadrati.r.ſ.at qufupficies. a.p é couaio gnomomn predieo necele e vt ſupiieis cade ſit cqualis quadrato predicror quare er ſeoa ple. io ſcrri. ⁊ biffinitione lines a b.é piniſa in pincto c hm poontione pabenté medim e cuo crtremna:s mmaior portio cius clinea.c.d. yde aliter ci ſit er ppoibeſi quadratui lince, a. d quintupin adquadratni lince. c d.scr, s.ſcoi ide ipfi qundratm ſit cquale ci quou fit ersab in.a.c cum quadrato, c d.ſcquit vr id ob fit er a b'i.a.c. cu qusdrato.c d.ſit quin toplum ad idé quadrati,c.d. iocooy eo pempio crit reiduus videlitet qofit er ab r'a c qurdrmpins ad mpimmn e mr cua cromarra ſc odraron inee ché cundn plum ad ide ncceffe e vt qp fit er. a. bin.a c.ſit euale quadrato. c. ouare iterom er ſecunda pre. is ſoyu e pifon mione lncn a’bé iſa bin proponrione babeton medi me ouo crrema in puncro ce maioi eus pouo ot lucea cb.
+
+## Propoſitio.a.
+
+{dropcap:[illegible]|lines=5|style=decorated}I ſcom propontione pabente mediu e ono eytrema que, ſiber linea fuerit piniſa eiqyi longu oirecte tanqs maior ſectio adijciat: erit torã lineã inde cõpoſità fin pportioi
+
+[Diagram]
+
+nem babenté mediu z ouo eytrema dinilay eſle s erit eius Il maioz portio linea prima. Cout imes a.b oinſa qua ſupponit pporione in puncto. c.e ſit eius malor por to.b toitgy a b.adijciat viretie lines. b. d que fit coualis ch oico qtoia a'a cadem propontione oiniſa et in puncto b. & maior cius poiio elinca, a b quee Vneas pnima eit ens cr oifimiuione, a p nda pe floit pe ad ca atdrc ſepus cini a bad b. d iicnt ad. b cipiur er pndeaima cinſde a.b.ad bd foit bis. ad ca, quare per couerſam proportionaliatem.b.d ad. ba ſieut.a.cadc bet comimncin da nd.a Dlicoit a Dad pc cmay dir erſeprima cmint a Paabic ſieur ad b. d enter vndecima cinſde.d.a ad ax ficut ab ad. b.d iigs cr oiffint onc unes .a d.piuiſa cſt in puncio.b-ſecundu proponionen babente medumn
+
+<!-- Catchword: [illegible] -->

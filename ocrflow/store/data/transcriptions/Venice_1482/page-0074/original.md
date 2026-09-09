@@ -1,0 +1,17 @@
+<!-- Running title: [illegible] -->
+
+prime ad ſecũdã ſicut tertic ad quartã.qo autẽ picir in.s. oiflinitione ẽ ac ſi oicerct maioré proportionein voco.a quãtitarũ prime ad ſecundã quã tertic ad quartam quod eſt primã magis ercedere ſecũdã quã tertia excedat quartã. quay aliqua ey multiphcibns prime addir ſuper aliquam ex multiplicibus ſccunde: aliqua cr mui, tiplicibns tertie ſumpra ſecundum numcrationẽ multiplicis prime non addente ſup aliquẽ cx multiplicibus quarte: ſumpta bm numerationẽ mulriphcis ſcoc. qbẽ cefſe maiorẽ propo:tionẽ muiriplicis prime ad mulriplicẽ ſcoe. q̃z multiplicis ter, tic ad multiplicẽ quarte.
+
+¶ Diffinitioncs autẽ iſtas nia ſunt aliqui ocmonſtrare. quoy ametus filius Jolepb tentauit cas oemõſtrare in epiſtola ſua quã de ppor tione z proportiõalitate cõpoſnit.z acccpit tria per modũ politiõis tanq̃z painci, pia que oicit eſſe per ſe nota ⁊ pbatione non indigerc.
+
+¶Ouoy primũ eſt quod ſi fucrint. 4. quãtitates. quaꝑ ſit proportio prime ad ſcoam ſicut tertie ad quartam. crit ecouerſo pportio ſcce ad primã ſicut quarte ad tertiam. z bic eſt modus argu endi que vocauit ſuperins cuclides conuerſam propo:tionaliratẽ.z crrauit qm̃ oi xrit ppolitionem eſſe per ſe notã. cuins antecedens z cõſequẽs ſunt ignora: Igno tum é cnim quid ſit clſe proportionem primc quantiratis ad ſecũdã ſicut terrie ad quartam. quare boc ignoro poſito impoſſibile eſt intelligcre quid er ipſo ſcquatur fimiliter quonz qu cõlequẽs cſt ignorum.impoſſibile eſt intelligere quid ad iplan anteccdat.
+
+¶ Scom prncipiũ cius fuit: q ſi fuerint. a quatirares quaꝑ ſit propo tio prime ad ſcoam ſicut tertie ad quartã.ſi prima ſit maior ſcoa:erit tertia maior quarta.z ſi minor minor. ⁊ ſi equalis cqualis.
+
+¶ Tertiũ fuit ꝙ ſi fucrint. q-cuãtira tes quarum ſit proportio prime ad ſccũdã ſicut terric ad quarrã: crit primd ad qoꝰ libct multipler ſecunde: ſicut tcrtie ad cque multipler er multiplicibus quarte: c ac aidit ſibi in iſtis ouobus principijs idei peccatum qb accidebat in primo. Accepit enimi oibus ignora ſimilrrãq̃z nora, quarc non ocmonſtrauit, peccauit criã in ſeꝰ cunda domnõſtrationc z in tcrria cin quinta.i quarui qualibet arguit ey. s. ol cy io¬ buius que probantur cy biffinitione in continue pportionalitatis : Arguit eni ſic ſi proportio aͬ b.ad.c.eſt maior q.g.ad.d.ſit ergo. v. b. ptis. a. b.ad.c.ſicut 8 ad. d. pcr qo apparct ipſuin ſupponcre ꝙ ouay quãtiratui.a b.2.n. b.in cqualuy relatarum ad.e. maior maiorcmn z minor minorem ad ipſã optinet proportioncn vel q quãtitas ad.e. babcoit minorem proy ortionc q̃y babcat. a.b. crit minon,a b. quorum primuin pcmonſtrat. s buins. t ſcoin. io Ia cui vultis ſumcre quãtirare que ſe babeat ad.e. in pr portionc.g-ad. d. cabo tibi maiorem aut minorein out cqualen. a.b.indifferenter ſicut voluero, quarc autẽ non cemonſtrat aut accidir ſi bi crcnlus e prncipia eſle ignotiora concuſionibus. Supponeda ſunt igir cũ cu cide pnnopis tanos nora.⁊ non ipſa cy conduſionibous led condulioncs cr iplis oemonſtrande ſunt.
+
+## Propoſitio. .1.
+
+[Diagram]
+
+{dropcap:[illegible]|lines=5|style=decorated}J ſuerint quolibet quantitates aliay totidem eque multi plices. aut ſingule ſingulis equalcs nec efſe é qucmadmo dum vna illarum ad ſui cõparcm. totum quoqz cy bie ag gregatum ad omnes illas pariter acceptas ſimiliter ſe ba bere. ( cir quoiliber quãtitates, que ſint. a. b.c. aliarm tcoidem que ſint. def. cque muie pices tmaqucay ad ſui coparé aut ſingule ſint ſmgulis cqules in vidcdite

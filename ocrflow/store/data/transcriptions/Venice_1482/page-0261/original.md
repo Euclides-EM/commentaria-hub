@@ -1,0 +1,17 @@
+<!-- Running title: [illegible] -->
+
+per octana pmié cqualls trigons, ef ⁊ itaoy oës. ao, trigont yrocedi piter accepui
+
+[Diagram]
+
+cum cuncti ſint cqualcs ſimies trigono.c. ſut tanqjy ſeragincuplant trigoni e.f q¬ equper. ia pni qo fit er.e.h.in f.g eſt ouplũ trigont. e.t.g iou trigincupli bui? et cquale ſeragincupls illꝰ eſequit ut trigincuplu, e. h'in, e.f.ſit cquale oibus ſupe ficicous ycocedri piter acccptis ab erat cemoſtrãdu.
+
+¶ IDanifeſtii igitur ẽ qr porpontio ſuperficierũ figure ouodecim baſiu in aliqua ſpera otente ad ſapficies figure vi ginti baſum in cadé ſpera cõcluſe: ẽ tands ppor tio terragoni contenti ſub latere penta gont ipins figure ouodeci ba fiui z ſub perpendiculari ducta a centro ſui circuli adiplũ latus penta goni ad ietragonu contentui ſub latere triangnli ipliux figure viginti baſiu c perpendiculart oucta a centro ſui circili ad ipſu latus triangu Ii corporis viginti alchaiday
+
+¶Os per ilud conel, pocudit vep efe fine hli ura. ia baſiu efigura. xo baſiu ſint as eade ſpera circiſcriptioiles vi pponit:ſie cua fuerint circu cripnboiles a piuerfis ſperis: pponit auré put bee fioure fint oir cuiſcniptiboiles ab cade ſpera oii boc modo vaicr z ſuffioit ad̀ ppolun. Eiꝰ ergots munis veritas fic py coſtat eni er.s. bul' q trigincuplui.o.din b.c.equu e oibus ſupcrficicbous puodccedn pirer acccpris cuins pentagonus. a.eſt vna cr. ia luphici cous zerbac.x. oſtat filt q trigincupli. e h. in.ſf.g cqui é oilbus ſupficico' poce dni piter acceptis cuius trgonus, e.eſt vna er. ao baſibus ſinc ilud ouodecedron riftud pepredron endẽ ſpers drcuiſcrpar ſie bincrle ifis pporto iraicnpli, u’o in.b.c. ad omnes ſopficies ilins ouodecedri piter acceptas eficut trgucupli e. b. in.f.s ad omnes ſupficies poxdri picr accepras vtrobioy eni eſt poito conaii ratis: quare pernutarim trgincuplui.a. d.in. b.c.ad migincuplie. b. in -f.g-ſicut omues ſuperficies uuꝰ ouodcredri ad omnes ſupericies buus yoccdri e peraiy¬ ouinti trisincupli ad trigincuplu é ficut ſimpli ad ſimplu. Lonſtat igié p.i quinti pportio omniu ſupficiez ilins ouodecedri ad oẽs ſupficies buius ycoccdr ẽ ciꝰ quod fit cr. a.d.in. b.c ad id qo fit er. c.b.in.f.g.c bocẽ do cy conclario pponit.
+
+## PPropoſitio..8.
+
+{dropcap:[illegible]|lines=5|style=decorated}Roportio cunctaru ſuperficiez corporis duodecim baͬ ſiumi piter acceprax ad cuctas ſupficies coapis viginti ba ſium piter acceptas que ab vna ſpcra ãbo circuſcribunt eſt tand̃y ppoitio lateris cubi quẽ circũſcribit eadẽ ſpe? ra ad latus trianguli ipſius corporis viginti baſium.
+
+¶Ht ab buius.s. bemõſtratiõis libri ra pceſſu ambiguitas ois abſccdar:iſtue preſcire oportet. Oo ſi aliq̃ linca bi pporioné babenté meduũ ouoqy ertrema fu, crit oiniſa cey medietate cius tanqy oimidiũ ſue maioris portionis oetrabat: ipla quoey medieras fin pportione babente mediu ouooy cyrrema oiuiſa crit e dl'ma ior poiio ẽtanq̃z oimidiũ maioris ſue ouple. verbi grã lit. a.b.oiuiſa bm pportio nẽ babenté mediu ouooy ertrema in. c. ⁊ maior eins portio ſit. a.c.e ſit.de. tandy cimidii. a. b.z. d.f. taqy oimidin. a. c.oico ergo q.d.e. biniſa é i.f.om ppornoan bitemn medinz ouoay ertrema z maionportio ciꝰe. d.f. oſtat eni cr.ais, qnti q pi portio. a. b.ad.a. c.é ſicut. d.e. ad.d.f.vy ouplu; ad oupluz taq̃s ſunplũ ad ſimnplũ q̃re pmutati.a b.ad. d.e ſicut.a.c.ad. d.f.igit p.i9 qnti.c.b.ad.f.e. ſicut. a. b. ad de, e ttagg-c.b.oupla ad.f.e. ſic eni ẽ. a.b.ad. d.e. cu igit tota. e. b.ſit oupla ad to t̃de s hale pies a bad ſiofas pres de, que crair qun vaise de s vionclnee
