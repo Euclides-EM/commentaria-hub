@@ -1,5 +1,18 @@
 # Run OCR Pipeline
 
+
+## Glasgow_1756
+
+Data set is public domain. I run the full OCR pipeline.
+
+**Next steps:** Run the OCR pipeline: https://euclides.huma-num.fr/hub/?datasetId=ds_ii8nbl
+
+## The_Hague_1758
+
+Data set is public domain. I run the full OCR pipeline.
+
+**Next steps:** Run the OCR pipeline: https://euclides.huma-num.fr/hub/index.h?datasetId=ds_9m13nh
+
 # Run LLM Corrector
 
 ## Rome_1574
