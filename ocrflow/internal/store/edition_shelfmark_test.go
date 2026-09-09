@@ -103,3 +103,44 @@ func TestEditionShelfmarkStructuralMetadataAvailabilityDefaultsToNone(t *testing
 		t.Fatalf("availability = %q, want none", got)
 	}
 }
+
+func TestEditionCSVUpsertShelfmarkClearsImages(t *testing.T) {
+	metadataDir := t.TempDir()
+	files := map[string]string{
+		relItemsManuscript: "key,short_title,short_title_source,year_from,year_to,notes,has_diagrams\n",
+		relItemsPrint:      "key,city,short_title,short_title_source,year,language,author_or_editor,publisher,format,volumes,ustc_id,notes,has_diagrams\nedition-1,Paris,Edition 1,,1615,French,,,,1,,,\n",
+		relShelfmarks:      "id,key,volume,scan,title_page_img,frontispiece_img,annotations,shelf_mark,copyright,transcription_available,structural_metadata_available,note\nshm_1,edition-1,1,,old_tp.jpg,old_front.jpg,,Old shelfmark,,,,\n",
+	}
+	for rel, contents := range files {
+		if err := os.WriteFile(filepath.Join(metadataDir, rel), []byte(contents), 0o600); err != nil {
+			t.Fatal(err)
+		}
+	}
+
+	store := NewEditionCSV(metadataDir, nil)
+	if err := store.WarmCache(); err != nil {
+		t.Fatal(err)
+	}
+
+	if _, err := store.UpsertShelfmark("edition-1", &model.EditionShelfmark{
+		ID:        "shm_1",
+		Shelfmark: "Old shelfmark",
+	}); err != nil {
+		t.Fatal(err)
+	}
+
+	ed, err := store.GetEditionByID("edition-1")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(ed.Shelfmarks) != 1 {
+		t.Fatalf("shelfmarks count = %d, want 1", len(ed.Shelfmarks))
+	}
+	if ed.Shelfmarks[0].TitlePageImg != "" {
+		t.Fatalf("TitlePageImg = %q, want empty", ed.Shelfmarks[0].TitlePageImg)
+	}
+	if ed.Shelfmarks[0].FrontispieceImg != "" {
+		t.Fatalf("FrontispieceImg = %q, want empty", ed.Shelfmarks[0].FrontispieceImg)
+	}
+}
+

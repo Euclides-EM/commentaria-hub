@@ -1,5 +1,5 @@
 import { useForm, useStore } from "@tanstack/react-form";
-import { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import styled from "@emotion/styled";
 import {
@@ -626,6 +626,132 @@ const resolvePreviewImageUrl = (value: string | null) => {
     return null;
   }
   return toItemImageUrl(value);
+};
+
+const RemoveImageButton = styled.button`
+  padding: 0.35rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: white;
+  transition: opacity 0.2s;
+  width: fit-content;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`;
+
+type ShelfmarkImageFieldProps = {
+  label: string;
+  value: string | null;
+  onChange: (value: string | null) => void;
+  images: Record<string, File>;
+  setImages: React.Dispatch<React.SetStateAction<Record<string, File>>>;
+};
+
+const ShelfmarkImageField = ({
+  label,
+  value,
+  onChange,
+  images,
+  setImages,
+}: ShelfmarkImageFieldProps) => {
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const localFile = value ? images[value] : undefined;
+  const localPreviewUrl = useMemo(() => {
+    if (localFile) {
+      return URL.createObjectURL(localFile);
+    }
+    return null;
+  }, [localFile]);
+
+  useEffect(() => {
+    return () => {
+      if (localPreviewUrl) {
+        URL.revokeObjectURL(localPreviewUrl);
+      }
+    };
+  }, [localPreviewUrl]);
+
+  const previewUrl = !localFile ? resolvePreviewImageUrl(value) : null;
+  const displayPreviewUrl = localPreviewUrl || previewUrl;
+
+  const handleRemove = () => {
+    if (value && images[value]) {
+      setImages((prev) => {
+        const next = { ...prev };
+        delete next[value];
+        return next;
+      });
+    }
+    onChange(null);
+    if (fileInputRef.current) {
+      fileInputRef.current.value = "";
+    }
+  };
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) {
+      return;
+    }
+    if (value && images[value]) {
+      setImages((prev) => {
+        const next = { ...prev };
+        delete next[value];
+        return next;
+      });
+    }
+    const id = uniqueId();
+    setImages((m) => ({
+      ...m,
+      [id]: file,
+    }));
+    onChange(id);
+  };
+
+  return (
+    <FormField>
+      <Label>{label}</Label>
+      <FileInput
+        ref={fileInputRef}
+        type="file"
+        accept="image/*"
+        onChange={handleFileChange}
+      />
+      {value && (
+        <Row gap={0.5} justifyStart>
+          <SelectedImage>
+            {localFile ? `Selected: ${localFile.name}` : "Image is set"}
+          </SelectedImage>
+          {displayPreviewUrl && (
+            <ExistingImagePreview
+              href={displayPreviewUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Open image in new tab"
+            >
+              <ExistingImageThumbnail
+                src={displayPreviewUrl}
+                alt={`${label} preview`}
+              />
+            </ExistingImagePreview>
+          )}
+          <RemoveImageButton
+            type="button"
+            onClick={handleRemove}
+            title="Remove image"
+          >
+            Remove image
+          </RemoveImageButton>
+        </Row>
+      )}
+    </FormField>
+  );
 };
 
 const LoadingOverlay = styled.div`
@@ -2403,120 +2529,29 @@ export const UpsertEdition = () => {
                           </form.Field>
                         </FormField>
 
-                        <FormField>
-                          <form.Field name={`shelfmarks[${i}].title_page_img`}>
-                            {(f) => {
-                              const previewUrl = !images[f.state.value || ""]
-                                ? resolvePreviewImageUrl(f.state.value)
-                                : null;
-                              return (
-                                <>
-                                  <Label>
-                                    Title Page Image{" "}
-                                    {f.state.value && (
-                                      <>
-                                        <SelectedImage>
-                                          Image is set
-                                        </SelectedImage>
-                                        {previewUrl && (
-                                          <ExistingImagePreview
-                                            href={previewUrl}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            title="Open image in new tab"
-                                          >
-                                            <ExistingImageThumbnail
-                                              src={previewUrl}
-                                              alt="Title page preview"
-                                            />
-                                          </ExistingImagePreview>
-                                        )}
-                                      </>
-                                    )}
-                                  </Label>
-                                  <FileInput
-                                    type="file"
-                                    accept="image/*"
-                                    onChange={(e) => {
-                                      if (!e.target.files?.[0]) {
-                                        f.handleChange(null);
-                                      } else {
-                                        const id = uniqueId();
-                                        setImages((m) => ({
-                                          ...m,
-                                          [id]: e.target.files![0],
-                                        }));
-                                        f.handleChange(id);
-                                      }
-                                    }}
-                                  />
-                                  {f.state.value && images[f.state.value] && (
-                                    <div>
-                                      <SelectedImage>
-                                        Selected: {images[f.state.value].name}
-                                      </SelectedImage>
-                                    </div>
-                                  )}
-                                </>
-                              );
-                            }}
-                          </form.Field>
-                        </FormField>
+                        <form.Field name={`shelfmarks[${i}].title_page_img`}>
+                          {(f) => (
+                            <ShelfmarkImageField
+                              label="Title Page Image"
+                              value={f.state.value}
+                              onChange={f.handleChange}
+                              images={images}
+                              setImages={setImages}
+                            />
+                          )}
+                        </form.Field>
 
-                        <FormField>
-                          <Label>Frontispiece Image</Label>
-                          <form.Field
-                            name={`shelfmarks[${i}].frontispiece_img`}
-                          >
-                            {(f) => {
-                              const previewUrl = !images[f.state.value || ""]
-                                ? resolvePreviewImageUrl(f.state.value)
-                                : null;
-                              return (
-                                <>
-                                  <FileInput
-                                    type="file"
-                                    accept="image/*"
-                                    onChange={(e) => {
-                                      if (!e.target.files?.[0]) {
-                                        f.handleChange(null);
-                                      } else {
-                                        const id = uniqueId();
-                                        setImages((m) => ({
-                                          ...m,
-                                          [id]: e.target.files![0],
-                                        }));
-                                        f.handleChange(id);
-                                      }
-                                    }}
-                                  />
-                                  {f.state.value && (
-                                    <>
-                                      <SelectedImage>
-                                        {images[f.state.value]
-                                          ? `Selected: ${images[f.state.value].name}`
-                                          : "Image is set"}
-                                      </SelectedImage>
-                                      {previewUrl && (
-                                        <ExistingImagePreview
-                                          href={previewUrl}
-                                          target="_blank"
-                                          rel="noopener noreferrer"
-                                          title="Open image in new tab"
-                                        >
-                                          <ExistingImageThumbnail
-                                            src={previewUrl}
-                                            alt="Frontispiece preview"
-                                          />
-                                        </ExistingImagePreview>
-                                      )}
-                                    </>
-                                  )}
-                                </>
-                              );
-                            }}
-                          </form.Field>
-                        </FormField>
+                        <form.Field name={`shelfmarks[${i}].frontispiece_img`}>
+                          {(f) => (
+                            <ShelfmarkImageField
+                              label="Frontispiece Image"
+                              value={f.state.value}
+                              onChange={f.handleChange}
+                              images={images}
+                              setImages={setImages}
+                            />
+                          )}
+                        </form.Field>
 
                         <FormField>
                           <Label>Annotations</Label>
