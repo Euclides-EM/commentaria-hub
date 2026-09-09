@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"path/filepath"
+	"strconv"
 	"strings"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
@@ -44,10 +45,6 @@ func buildDirectoryPrompt(cfg Config, pages []page) (llm.Prompt, []string, error
 			fmt.Fprintf(&sources, "- %s: %s\n", group.label, absolutePath)
 		}
 	}
-	pageKeys := make([]string, len(pages))
-	for i, p := range pages {
-		pageKeys[i] = p.key
-	}
 	static := fmt.Sprintf(`You are correcting scholarly Markdown transcriptions of early printed pages. Work directly with the local files whose absolute paths are supplied. For each requested page, inspect its image and every available candidate transcription, reconcile disagreements using the image as authority, and write the complete corrected transcription to the requested output path.
 
 Do not modify input files or any file outside the output directory. Do not create correction-round files. Preserve historical text and follow this normative transcription dialect:
@@ -58,11 +55,39 @@ Do not modify input files or any file outside the output directory. Do not creat
 	dynamic := fmt.Sprintf(`Images directory: %s
 Candidate transcription directories:
 %sOutput directory: %s
-Pages to correct: %s
+Pages to correct (inclusive ranges): %s
 
-For each page key, find the matching page-NNNN image and candidate files. ALTO XML candidates must be interpreted as OCR text. Write only the corrected transcription to OUTPUT_DIRECTORY/PAGE_KEY/original.md. Complete every requested page.`, imagesDir, sources.String(), outputDir, strings.Join(pageKeys, ", "))
+Each range from page-A through page-B includes every page key between its endpoints. For each requested page key, find the matching page-NNNN image and candidate files. ALTO XML candidates must be interpreted as OCR text. Write only the corrected transcription to OUTPUT_DIRECTORY/PAGE_KEY/original.md. Complete every requested page.
+
+Only pages listed above are requested. Existing output files for all other page keys are complete and must remain untouched: do not read, create, replace, or modify them.`, imagesDir, sources.String(), outputDir, formatDirectoryPageKeys(pages))
 	cacheHash := sha256.Sum256([]byte(static))
 	return llm.Prompt{Static: static, Dynamic: dynamic, CacheKey: fmt.Sprintf("transcription-corrector-directory-%x", cacheHash[:12])}, readPaths, nil
+}
+
+func formatDirectoryPageKeys(pages []page) string {
+	ranges := make([]string, 0, len(pages))
+	for start := 0; start < len(pages); {
+		end := start
+		for end+1 < len(pages) && consecutivePageKeys(pages[end].key, pages[end+1].key) {
+			end++
+		}
+		if start == end {
+			ranges = append(ranges, pages[start].key)
+		} else {
+			ranges = append(ranges, pages[start].key+"–"+pages[end].key)
+		}
+		start = end + 1
+	}
+	return strings.Join(ranges, ", ")
+}
+
+func consecutivePageKeys(first, second string) bool {
+	firstNumber, err := strconv.Atoi(strings.TrimPrefix(first, "page-"))
+	if err != nil {
+		return false
+	}
+	secondNumber, err := strconv.Atoi(strings.TrimPrefix(second, "page-"))
+	return err == nil && secondNumber == firstNumber+1
 }
 
 type diffStats struct {
