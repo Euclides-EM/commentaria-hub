@@ -460,7 +460,7 @@ Amsterdam_1634,1,https://echo-old.mpiwg-berlin.mpg.de/ECHOdocuView?url=/mpiwg/on
 London_1686,,https://www.proquest.com/docview/2240913069,London_1686_tp.jpeg,,,,,,,,
 London_1660,,https://www.proquest.com/docview/2248494297,London_1660_tp.png,,,,,,,,
 Amsterdam_1618,,https://www.google.com/books/edition/Die_sechs_ersten_B%C3%BCcher_Euclidis/s-pZAAAAcAAJ,Amsterdam_1618_tp.png,,,,,,,,
-Arnhem_1605,,https://www.google.nl/books/edition/C_Dibvadii_In_Arithmeticam_Rationalivm_E/03RpAAAAcAAJ,Arnhem_1605_tp.png,,,,,,,,
+Arnhem_1605,,https://www.google.nl/books/edition/C_Dibvadii_In_Arithmeticam_Rationalivm_E/03RpAAAAcAAJ,Arnhem_1605_tp.png,,,,,none,,shm_106efa84150e,none
 Vicenza_1491,,,,,,,,,,,
 Venice_1498a,,https://www.google.com/books/edition/Georgio_Valla_Placentino_interprete_Hoc/EKC8AXlrV30C,Venice_1498a_tp.png,,,,,,,,
 Venice_1505,,https://www.google.com/books/edition/Euclidis_megare_n_sis_philosophi_platoni/8TEeimGzcfAC,Venice_1505_tp.png,,,,,none,,shm_14bf6cdf33c0,none
@@ -540,8 +540,8 @@ Cologne_1600,1,https://dlc.mpg.de/!metadata/868448702/5/-/,cologne_1600_tp_mf1af
 Cologne_1602,,https://www.google.com/books/edition/Elementa/AJdpAAAAcAAJ,Cologne_1602_tp.png,,,,,,,,
 Paris_1602,,,,,,,,,,,
 Arnhem_1603,,https://www.google.com/books/edition/C_Dibvadii_In_Geometriam_Evclidis_priori/xHQ8AAAAcAAJ,Arnhem_1603_tp.png,,,,,,,,
-Arnhem_1605a,,https://www.google.com/books/edition/C_Dibvadii_in_arithmeticam_irrationalivm/gMI2AAAAMAAJ,Arnhem_1605a_tp.png,,,,unknown,,,,
-Arnhem_1605a,1,https://dlc.mpg.de/!image/868450855/5/-/,arnhem_1605a_tp_h950am.jpg,,,,Public Domain,,,,
+Arnhem_1605a,,https://www.google.com/books/edition/C_Dibvadii_in_arithmeticam_irrationalivm/gMI2AAAAMAAJ,Arnhem_1605a_tp.png,,,,unknown,none,,shm_42aaac25883a,none
+Arnhem_1605a,1,https://dlc.mpg.de/!image/868450855/5/-/,arnhem_1605a_tp_h950am.jpg,,,,Public Domain,none,,shm_62dd503305eb,none
 Leiden_1606,,https://www.google.com/books/edition/De_ses_eerste_boucken_Euclidis_van_de_be/QZllAAAAcAAJ,Leiden_1606_tp.png,,,,"digitization: KB / Google, 2015",none,https://webggc.oclc.org/cbs/DB=2.37/XMLPRS=Y/PPN?PPN=401770117,shm_48a188183156,none
 Beijing_1607,,,,,,,,,,,
 Leiden_1607,,,,,,,,,,,
