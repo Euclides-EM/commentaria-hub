@@ -11,7 +11,7 @@ export const TOOLTIP_FILTERS = "filters";
 export const TOOLTIP_TIMELINE_BUTTON = "timeline-button";
 export const TOOLTIP_HELP = "help";
 export const TOOLTIP_MARKER_ARROW = "marker-arrow";
-export const TOOLTIP_SCAN = "view-scan";
+export const TOOLTIP_LINK = "link";
 export const TOOLTIP_BOOK_TYPE = "book-type";
 export const TOOLTIP_TRANSCRIPTION = "transcription";
 export const TOOLTIP_EN_TRANSLATION = "en-translation";
@@ -31,7 +31,7 @@ export const MapTooltips = () => (
     <Tooltip id={TOOLTIP_FILTERS} />
     <Tooltip id={TOOLTIP_TIMELINE_BUTTON} />
     <Tooltip id={TOOLTIP_HELP} />
-    <Tooltip id={TOOLTIP_SCAN} />
+    <Tooltip id={TOOLTIP_LINK} />
     <Tooltip id={TOOLTIP_TRANSCRIPTION}>
       Transcription was constructed in part using an LLM
     </Tooltip>

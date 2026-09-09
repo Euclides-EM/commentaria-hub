@@ -32,12 +32,7 @@ import {
 import { ItemModal } from "../components/tps/modal/ItemModal";
 import { NO_CITY, NO_EDITOR, NO_YEAR } from "../constants";
 import { formatBookRanges, joinArr } from "../utils/util.ts";
-import {
-  FaCheck,
-  FaChevronDown,
-  FaChevronRight,
-  FaFilePdf,
-} from "react-icons/fa";
+import { FaCheck, FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { AiFillEdit, AiOutlineCopy } from "react-icons/ai";
 import { SEA_COLOR } from "../utils/colors.ts";
 import { AuthContext } from "../contexts/Auth.ts";
@@ -675,64 +670,40 @@ export function Catalogue() {
                   <AiOutlineCopy style={{ fontSize: "1rem" }} />
                 )}
               </IconButton>
-              {token &&
-                (
-                  downloadableFacsimilesByEdition.get(info.row.original.key) ??
-                  []
-                ).map((facsimile) => (
-                  <IconButton
-                    key={facsimile.id}
-                    type="button"
-                    onClick={() => openLocalScan(facsimile)}
-                    title={
-                      facsimile.name ? `View ${facsimile.name}` : "View scan"
-                    }
-                    aria-label={
-                      facsimile.name ? `View ${facsimile.name}` : "View scan"
-                    }
-                  >
-                    <FaFilePdf style={{ color: SEA_COLOR, fontSize: "1rem" }} />
-                  </IconButton>
-                ))}
-              {info.row.original.facsimiles.length > 0 && (
+              {(info.row.original.facsimiles.length > 0 ||
+                (token &&
+                  (
+                    downloadableFacsimilesByEdition.get(
+                      info.row.original.key,
+                    ) ?? []
+                  ).length > 0)) && (
                 <FacsimileLinks
                   facsimiles={info.row.original.facsimiles}
+                  localFacsimiles={
+                    token
+                      ? (downloadableFacsimilesByEdition.get(
+                          info.row.original.key,
+                        ) ?? [])
+                      : []
+                  }
+                  onOpenLocalFacsimile={openLocalScan}
                   color={SEA_COLOR}
                 />
               )}
-              {(diagramFacsimilesByEdition.get(info.row.original.key) ?? [])
-                .length > 0
-                ? (
-                    diagramFacsimilesByEdition.get(info.row.original.key) ?? []
-                  ).map((facsimile) => (
-                    <a
-                      key={`diagrams-${facsimile.id}`}
-                      href={withAppBasePath(
-                        `/diagrams?key=${info.row.original.key}&facsimileId=${facsimile.id}`,
-                      )}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title={
-                        facsimile.name
-                          ? `View diagrams for ${facsimile.name}`
-                          : "View Diagrams"
-                      }
-                    >
-                      <SiMaterialdesign style={{ color: SEA_COLOR }} />
-                    </a>
-                  ))
-                : info.row.original.diagramCropsAvailable && (
-                    <a
-                      href={withAppBasePath(
-                        `/diagrams?key=${info.row.original.key}`,
-                      )}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title="View Diagrams"
-                    >
-                      <SiMaterialdesign style={{ color: SEA_COLOR }} />
-                    </a>
+              {((diagramFacsimilesByEdition.get(info.row.original.key) ?? [])
+                .length > 0 ||
+                info.row.original.diagramCropsAvailable) && (
+                <a
+                  href={withAppBasePath(
+                    `/diagrams?key=${info.row.original.key}`,
                   )}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="View Diagrams"
+                >
+                  <SiMaterialdesign style={{ color: SEA_COLOR }} />
+                </a>
+              )}
             </Row>
           ),
           size: 108,

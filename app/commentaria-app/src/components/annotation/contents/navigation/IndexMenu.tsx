@@ -140,8 +140,7 @@ const Node = ({
             </span>
           )}
           <span className={isCurated ? 'text-violet-950' : undefined}>
-            {node.content}{' '}
-            {node.location?.page && `(p. ${node.location.page})`}
+            {node.content} {node.location?.page && `(p. ${node.location.page})`}
           </span>
         </button>
       </div>
@@ -243,9 +242,7 @@ export function IndexMenu({
         <input
           type="checkbox"
           checked={includeCuratedHeadings}
-          onChange={(event) =>
-            setIncludeCuratedHeadings(event.target.checked)
-          }
+          onChange={(event) => setIncludeCuratedHeadings(event.target.checked)}
           className="accent-violet-600"
         />
         Include curated headings

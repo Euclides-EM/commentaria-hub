@@ -2,7 +2,6 @@ import { useContext } from "react";
 import styled from "@emotion/styled";
 import { useQuery } from "@tanstack/react-query";
 import { AiFillEdit } from "react-icons/ai";
-import { FaFilePdf } from "react-icons/fa";
 import { SiMaterialdesign } from "react-icons/si";
 import { FacsimilesService } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
@@ -10,8 +9,8 @@ import { LAND_COLOR } from "../utils/colors.ts";
 import { withAppBasePath } from "../utils/basePath.ts";
 import { openAuthenticatedFacsimilePDF } from "../utils/facsimilePdf.ts";
 import { ITEM_EDIT_ROUTE } from "./layout/routes.ts";
-import { TOOLTIP_SCAN } from "./map/MapTooltips.tsx";
 import { FacsimileLinks } from "./FacsimileLinks.tsx";
+import { TOOLTIP_LINK } from "./map/MapTooltips.tsx";
 import type { Item } from "../types";
 
 const AnchorsRow = styled.div`
@@ -29,18 +28,6 @@ const StyledAnchor = styled.a`
   text-decoration: none;
 `;
 
-const IconButton = styled.button`
-  border: none;
-  background: transparent;
-  color: ${LAND_COLOR};
-  cursor: pointer;
-  padding: 0;
-  font-size: 1rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-`;
-
 const StyledDiagramIcon = styled(SiMaterialdesign)`
   color: white !important;
   background-color: ${LAND_COLOR};
@@ -48,6 +35,8 @@ const StyledDiagramIcon = styled(SiMaterialdesign)`
   height: 20px;
   border-radius: 4px;
 `;
+
+const diagramsTitle = () => "View diagrams";
 
 export const ItemLinksRow = ({
   item,
@@ -95,63 +84,44 @@ export const ItemLinksRow = ({
     return null;
   }
 
+  const editUrl = withAppBasePath(`${ITEM_EDIT_ROUTE}?key=${item.key}`);
+  const diagramsUrl = withAppBasePath(`/diagrams?key=${item.key}`);
+
   return (
-    <AnchorsRow
-      data-tooltip-id={TOOLTIP_SCAN}
-      data-tooltip-content="View Facsimile Online"
-      data-tooltip-place="left"
-    >
-      <FacsimileLinks facsimiles={item.facsimiles} color={LAND_COLOR} />
-      {localScans.map((facsimile) => (
-        <IconButton
-          key={facsimile.id}
-          type="button"
-          onClick={() => openLocalScan(facsimile.id!, facsimile.name)}
-          title={facsimile.name ? `View ${facsimile.name}` : "View scan"}
-          aria-label={facsimile.name ? `View ${facsimile.name}` : "View scan"}
-        >
-          <FaFilePdf />
-        </IconButton>
-      ))}
+    <AnchorsRow>
+      <FacsimileLinks
+        facsimiles={item.facsimiles}
+        localFacsimiles={localScans}
+        onOpenLocalFacsimile={(facsimile) =>
+          openLocalScan(facsimile.id!, facsimile.name)
+        }
+        color={LAND_COLOR}
+      />
       {showEditLink && token && (
         <StyledAnchor
-          href={withAppBasePath(`${ITEM_EDIT_ROUTE}?key=${item.key}`)}
+          href={editUrl}
           target="_blank"
           rel="noopener noreferrer"
-          title="Edit Item"
+          title="Edit item"
+          data-tooltip-id={TOOLTIP_LINK}
+          data-tooltip-content="Edit item"
         >
           <AiFillEdit />
         </StyledAnchor>
       )}
-      {showDiagramsLink && localScansWithDiagrams.length > 0
-        ? localScansWithDiagrams.map((facsimile) => (
-            <StyledAnchor
-              key={`diagrams-${facsimile.id}`}
-              href={withAppBasePath(
-                `/diagrams?key=${item.key}&facsimileId=${facsimile.id}`,
-              )}
-              target="_blank"
-              rel="noopener noreferrer"
-              title={
-                facsimile.name
-                  ? `View diagrams for ${facsimile.name}`
-                  : "View diagrams"
-              }
-            >
-              <StyledDiagramIcon />
-            </StyledAnchor>
-          ))
-        : showDiagramsLink &&
-          item.diagramCropsAvailable && (
-            <StyledAnchor
-              href={withAppBasePath(`/diagrams?key=${item.key}`)}
-              target="_blank"
-              rel="noopener noreferrer"
-              title="View Diagrams"
-            >
-              <StyledDiagramIcon />
-            </StyledAnchor>
-          )}
+      {showDiagramsLink &&
+        (localScansWithDiagrams.length > 0 || item.diagramCropsAvailable) && (
+          <StyledAnchor
+            href={diagramsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            title={diagramsTitle()}
+            data-tooltip-id={TOOLTIP_LINK}
+            data-tooltip-content={diagramsTitle()}
+          >
+            <StyledDiagramIcon />
+          </StyledAnchor>
+        )}
     </AnchorsRow>
   );
 };
