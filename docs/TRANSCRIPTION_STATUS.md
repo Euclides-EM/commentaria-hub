@@ -2,24 +2,6 @@
 
 # Run LLM Corrector
 
-## Paris_1615
-
-OCR has been completed, but the facsimile is not copyrighted.
-
-There is a new facsimile that has the appropriate copyright. I run the full OCR pipeline on it.
-
-**Status**: currently running with Codex in dir mode.
-
-**Next steps:** Liri to run the LLM corrector on the new facsimile: https://euclides.huma-num.fr/hub/?datasetId=ds_57vh5j&annotationId=ann_joneuv&currentPageOrKey=326&annotationTab=details
-
-## Paris_1667
-
-OCR has been completed, the facsimile is public domain.
-
-**Next steps:** Liri to run the corrector on the two parts of the Paris_1667 facsimile:
-https://euclides.huma-num.fr/hub/index.html?datasetId=ds_jinmif&datasetTab=details&annotationId=ann_thiq1g&currentPageOrKey=171
-https://euclides.huma-num.fr/hub/index.html?datasetId=ds_jinmif&datasetTab=details&annotationId=ann_aotfx5&currentPageOrKey=86
-
 ## Venice_1482
 
 Two facsimiles are available:
@@ -52,19 +34,19 @@ Facsimile is public domain, I run the full OCR pipeline.
 
 **Next steps:** Run LLM corrector: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
 
-# Alignment
-
-## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
-
-Full Fable transcriptions exist and have already been manually curated. However, no copyright for the facsimile that the transcriptions were based on. Another public domain facsimile is available, but the transcriptions have not yet been aligned with it.
-
-**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
-
-# Manual Curation
-
 ## Basel_1562
 
-The facsimile is public domain and can be used. OCR and llm correction with fable has been completed.
+The OCR stage has already been completed on an old facsimile, that has been replaced since with a public domain facsimile.
+
+This means we need to re-align ALTOs when running LLM.
+
+**Next steps:** Realign ALTOs and run LLM.
+
+# Alignment
+
+## Paris_1667
+
+OCR has been completed, the facsimile is public domain.
 
 Four cycles of LLM corrector run, due to token limit. Summarized metrics:
 
@@ -79,7 +61,15 @@ tokens_total=5,385,458
 cost_usd=$46.742450
 ```
 
-**Next steps:** Manually curate the Fable transcriptions.
+**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
+
+## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
+
+Full Fable transcriptions exist and have already been manually curated. However, no copyright for the facsimile that the transcriptions were based on. Another public domain facsimile is available, but the transcriptions have not yet been aligned with it.
+
+**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
+
+# Manual Curation
 
 ## Nuremberg_1821
 
@@ -95,6 +85,16 @@ Liri run the corrector:
 ## Paris_1536
 
 Full Fable transcriptions exist, but they still require manual curation. Facsimile is public domain.
+
+**Next steps:** Manually curate the Fable transcriptions.
+
+## Paris_1615
+
+OCR has been completed, but the facsimile is not copyrighted.
+
+There is a new facsimile that has the appropriate copyright. I run the full OCR pipeline on it.
+
+Full correction with Codex Sol was run using dir mode. Token logs were lost due to job technical failure.
 
 **Next steps:** Manually curate the Fable transcriptions.
 

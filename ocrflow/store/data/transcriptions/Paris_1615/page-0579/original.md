@@ -1,0 +1,11 @@
+<!-- Running title: DOVZIESME -->
+
+<!-- Page number: 556 -->
+
+à NM, mais BC eſt à CA, ainſi außi NM eſt à KL, à eauſe de la ſimilitude des triangles Donc par raiſon egale, comme CI ſera à CA, ainſi TN à NL Derechef pource que l’angle folide N, eſt egal, à I’angle ſolide C, à cauſe de la ſimilitude des priſmes, ſi celuy-cy eſt ſaperpoié à l’autre, l’angle MNO conuiendra à l’angle BCD, l’angle TNM à l’angle ICB, & l’angle TNO à l’angle ICD. Mais außi la ligne droicte NL conuient à la ligne CA. pource que les angles MNL, BCA ſont egaux. Donc les angles ICA, TNL font egaux; & partant puu que lescoſtez d’alentour iceux, ont eſté demonſtrez proporiionaux, les parallelogrames CG, NR, ſeront ſemblables. Mais außi les parailelegrames CH, HA. ſont ſemblables aux parallelog. NS, SL, & les triangles ABC, GHI, aux triangles LMN, RST. Donc les priſmes ABCI GH, LMNTRS, ſont ſemblables, par la 8. def.11. On demonſtrera en la meſme maniere que les priſmes CD AGIK, NOLTRV, ſon: femblables, comme außi les priſmes AEDKGF, LPOVRQ. Parquoy les priſoes ABCIGH, CDAGIK, ABDEGF par les choſes demonſtrees àla 34.p.11 ſont aux priſmes LMNTRS, NOLRTV, LPOVRS, chacun au ſien, en raiſon triplee des coſtez homologues BC, CD, DE à MN, NO, OP, chacun au ſien. Et partant en la meſme maniere que oous auons demonſtré cy deſſus des pyramides multangles, on demonſtrera que les priſines ABCDEFGHIK, LMNOPQRSTV, ſont ex raiſon triplee des coſtez homologues BC, MN. De toutes ees cheſee ſe collige, que les pyramides multangles femblables, fe diuiſent en pyramides triangulaires ſemblables, & en nombre egal. & homologues aux toutes. Car cecy eſt manifeſte par la demonſtration du preced. corol. Se collige außi que les pr fmes mult ãgulaires ſemblables, ſe diuiſent e priſmes ſemblables, ayans baſes triangulaires, & en nombre egaux, & bomoiogues aux tous, comme appert par la demonſtrotion de ce ſcholie.
+
+## THEOR. 9. PROP. IX.
+
+Des pyramides egales, ayans baſes triangulaires; leurs hauteurs ſont reciproques aux baſes: Et les pyramides ayans baſes triangulaires reciproques à leurs hauteurs, ſont egales.
+
+Soient les deux pyramides egales ABCD, & EFGH, ayans baſes triangulaires: ie dis que. les. baſes d’icelles ſont reciproques a leurs haueurss eſt adire que eone la baſe ancil

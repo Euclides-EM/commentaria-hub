@@ -1,0 +1,11 @@
+<!-- Running title: CINQVIESME -->
+
+<!-- Page number: 138 -->
+
+Ceſte maniere d’argumenier ſera demonſtrée au coroll de la 4p.de es liuré. Ceste def. a eſté tellement traduicte par Dounot, que le ſens d’Euclide n’y peut eſtre recogneu. 14 Compoſition de raiſon, eſt lors qu’on prend l’antecedét auec le conſequent, comme vne ſeulle choſe, pour le comparer au meſme conſequent. Comme ſi AC eſt à CB, comme DF à FE: & on vien. à conclure que la route AB eſt à CB, comme la toute DE à FE; c’eſt à dire que la compoſée de l’antecedant AC & du conſequent CB, eſt au meſme conſequent CB, comme la compoſée de l’auiecedant DF & du conſequent FE eſt a iceluy con ſequent FE: ceſte maniere d’argumencer ſera dicte compoſition de raiſon: & ſe prononce ainſi: comme AC eſt à CB, ainſi DF à FE: donc en compoſant AB ſera a CB, comme DE à FE: laquelle ſorte d’argumentation ſera demonſtré en la 18.p.de ce liure.
+
+[Diagram]
+
+A ce moyen d’argumenter, par la compo ſition de raiſon, en peuuent eſtre adiouſtez deux autres: le premier peut eſtre dict compoſition conuerſe de raiſon: ſçauoir quand on prend l’antetedent &e conſequent comme vn ſeul, pour le comparer à l’antecedant Comme ſi AC eſt à CB, comme DF à FF, et nou inferons, donc comme AB compoſée de l’antecedant, & du conſequent, eſt à l’antecedant AC, ainſi DE compoſée de l’antecedant & du conſequent est a l’antecedant DF: laquelle argumenta ion nous demonſtrerons eſtre' valide ſur la 18 p.5.
+
+L’autre moyen d’argumenter peut eſtre dict compoſition contraire de raiſon; c’iſt à ſçauoir quand l’autecedant eſt comparé à l’antecedant & conſequent comme vn ſeul. Comme ſi AC eſt a CB, ainſi que DF à FE, & nous inſerons par compoſi ion contraire de ra ſon: donc comme AC l’antecedant ſera à la toute AB compoſee de l’antecedant Et du conſeqeent, ainſi DF antecedant ſera à la toure DE compoſée de l’antecedant et du conſequent. Nous demonſtrerons ſur la 18.p de ce liure que ceſte ſorme d’argumenta: ton eſt vallable. 15. Diuiſion de raiſon, eſt lors qu’on prend l’excez par lequel l’antecedant ſurpaſſe le conſequent, pour le comparer à iceluy meſme conlequent. Comme ſi ou dit qu’il y aſelle raiſon de AB à CB, (ſoit veuë la pre-

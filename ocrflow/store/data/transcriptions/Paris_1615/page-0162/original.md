@@ -1,0 +1,13 @@
+<!-- Running title: ELEMENT. -->
+
+<!-- Page number: 139 -->
+
+cedente figure) que de DE à FE: donc außi AC excez par lequel l’an tecedant ſurpaſſe le conſequent. ſera à CB conſequent, comme DF excez par lequel l’antecedant excede le conſequent, ſera à FE conſequẽt. Or les autheurs concluent ordinairement auec ceſte raiſon ainſi: comme AB eſt à CB, ainſi DE eſt à FE: donc en diuiſant AC ſera außi à CB. comme D F a FE. Ce quiſera demonſtré en la 17. p.de ce liure.
+
+A ce moyen d’argumenier en peuuent außi eſtre adiouſtez deux au tres: le premier peut eſtre appelle diuiſion conuerſe de raiſon, c’eſt à ſçauoir quand le conſequent eſt comparé à l’excez par lequel l’antecedant ſurpaſſe le conſequent. Comme ſi AB eſt à CB, comme DE à FE, &t nous inferons: donc außi par diuiſion conuerſe de raiſoa, comme CB conſequent ſera à AC excez, par lequel l’antecedant ſurmonte le conſequent, ainſi FE conſequent ſera a DF excez par lequel l’antecedant ſurpaſſe le conſequent: laquelle maniere d’arguttuentation nous demon ſtrerons pouuoir eſtre ſur la 17. p.5.Il eſt manifeſte ju’en l’vne & l’autre d’icelles argumentations, par diuiſion de raiſon, l’antecedant doit eſtre plus grand que le conſequint.
+
+L’autre moyen d’argumenter peut eſtre dit diuiſion contraire de raiſon, c’eſt à ſçauoir quand l’antecedãt eſt conferé à l’excez, par lequel le conſequent excede l’antecedã.. Comme quand on dit, AC eſtre à AB, cõme DF à DE: Donc außi par diuiſion contraire de raiſon AC antecedant ſera à CB, excez par lequel le conſequent ſurmonte l’antecedant, comme DF antecedant ſera à FE, excez par lequel le conſequent ſurpaſſe l’ant cedant: lequel moyen d’argumenter nou demonſtrerons ſur la 17 p.de ce liure.
+
+Il eſt euident qu’en ceſte diuiſion contraire de raiſon, le conſequent doit eſtre plus grand que l’antecedant. 16. Conuerſion de raiſon eſt comparer l’antecedant à l’excez, par lequel l’antecedant ſurpaſſe le conſequent.
+
+Comme ſi on dit, que comme AB eſt à CB, (ſoit veuë la figure de la 14.def.)ainſi DE a FE: & on vient à conclure que AB antecedant ſera außi à AC, excez, par lequel il ſurmonte le conſequent, comme D E ant ecedant ſera à DF, excez par lequel l’antecedat excede le conſequent, cela ſera dit conuerſion de raiſon. En ceſte ſorte d’arzumenter les autheurs parlent ordinairement ainſi: comme AB eſt à CB ainſi D E eſt à FE: Donc par conuerſion de raiſon AB ſera à AC, comme DE à DF: laquelle ſorte d’argumenter ſera demonſtree au corell.de la 19.p. de ce liure. Ceſte16.def a eſte retranchee par Dounor. 17. Raiſon egalle eſt lors qu’il y a pluſieurs grandeurs d’vn coſté, & autant de l’autre en
