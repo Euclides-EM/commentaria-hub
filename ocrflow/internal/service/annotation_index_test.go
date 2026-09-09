@@ -1,7 +1,9 @@
 package service
 
 import (
+	"bytes"
 	"database/sql"
+	"log"
 	"os"
 	"path/filepath"
 	"testing"
@@ -120,11 +122,20 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
 	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
 
+	var logs bytes.Buffer
+	originalLogOutput := log.Writer()
+	log.SetOutput(&logs)
+	t.Cleanup(func() { log.SetOutput(originalLogOutput) })
+
 	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil, true)
 	require.NoError(t, err)
 	require.Equal(t, "ds_unprepared", index.DatasetID)
 	require.Equal(t, "ann_unprepared", index.AnnotationID)
 	require.Empty(t, index.Nodes)
+	require.Contains(t, logs.String(), "annotation index unavailable; returning empty index: dataset=ds_unprepared annotation=ann_unprepared edition=XANRSM")
+	require.Contains(t, logs.String(), "annotation_markdown_error=")
+	require.Contains(t, logs.String(), "page-0001")
+	require.Contains(t, logs.String(), "edition_markdown_error=")
 }
 
 func TestCreateAnnotationInfersPagesFromDatasetImages(t *testing.T) {

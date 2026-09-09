@@ -583,6 +583,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 		}, nil
 	}
 	if !ann.Segmented && errors.Is(annMdErr, filesys.ErrMarkdownPageNotFound) && errors.Is(edMdErr, filesys.ErrMarkdownPageNotFound) {
+		log.Printf("annotation index unavailable; returning empty index: dataset=%s annotation=%s edition=%s annotation_markdown_error=%v edition_markdown_error=%v", datasetID, ann.ID, ds.EditionID, annMdErr, edMdErr)
 		return emptyIndex(), nil
 	}
 
