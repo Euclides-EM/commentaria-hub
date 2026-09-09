@@ -140,7 +140,7 @@ func TestApplyLLMTranscriptionCorrectorRetainsUsageAfterDirectoryValidationFailu
 
 	rule := annotationrule.NewLLMTranscriptionCorrector(llm.ProviderCodex, "gpt-test", nil, false)
 	rule.ExecutionMode = transcriptioncorrector.ExecutionModeDirectory
-	applier := NewAnnotationRuleApplier(nil, manager, "", nil, nil, &transcriptionLLM{})
+	applier := NewAnnotationRuleApplier(nil, manager, "", nil, nil, nil, &transcriptionLLM{})
 	_, err := applier.applyLLMTranscriptionCorrector(imagesDir, target, rule)
 	require.ErrorContains(t, err, "directory LLM correction produced invalid output for page-0001")
 	require.NotNil(t, rule.Usage)
