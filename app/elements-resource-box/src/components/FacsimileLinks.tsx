@@ -188,10 +188,14 @@ export const FacsimileLinks = ({
               key={localFacsimile.id}
               type="button"
               onClick={() => onOpenLocalFacsimile?.(localFacsimile)}
-              title={localFacsimileTitle(facsimile)}
-              aria-label={localFacsimileTitle(facsimile)}
+              title={shelfmark ? localFacsimileTitle(shelfmark) : "Facsimile"}
+              aria-label={
+                shelfmark ? localFacsimileTitle(shelfmark) : "Facsimile"
+              }
               data-tooltip-id={TOOLTIP_LINK}
-              data-tooltip-content={localFacsimileTitle(facsimile)}
+              data-tooltip-content={
+                shelfmark ? localFacsimileTitle(shelfmark) : "Facsimile"
+              }
               color={color}
             >
               <FaFilePdf />
