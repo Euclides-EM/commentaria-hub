@@ -9,6 +9,8 @@ Two facsimiles are available:
 * **`Venice_1482_transkribus`**: The Transkribus facsimile is openly licensed, but the image quality is relatively low. I scraped the existing Transkribus transcription and stored it locally, but the transcription quality is poor. On the server, the processing pipeline has reached the **LineDetect** stage for this facsimile.
 * **`Venice_1482`**: The facsimile is public domain. OCR has already been completed.
 
+*Status*: Running with Codex.
+
 **Next steps:** Liri to run the corrector on the Venice_1482 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_6vegrr&annotationId=ann_3pg8ot&currentPageOrKey=149&annotationTab=details
 
 ## Rome_1574
