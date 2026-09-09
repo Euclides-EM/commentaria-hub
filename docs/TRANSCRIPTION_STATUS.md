@@ -97,7 +97,21 @@ Two facsimiles are available:
 * **`Venice_1482_transkribus`**: The Transkribus facsimile is openly licensed, but the image quality is relatively low. I scraped the existing Transkribus transcription and stored it locally, but the transcription quality is poor. On the server, the processing pipeline has reached the **LineDetect** stage for this facsimile.
 * **`Venice_1482`**: The facsimile is public domain. OCR has already been completed.
 
-Codex usage:
+Applied rule:
+
+```json
+{
+  "provider": "codex",
+  "model": "gpt-5.6-sol",
+  "rounds": 1,
+  "execution_mode": "directory",
+  "skip_existing": true,
+  "additional_annotations": null,
+  "include_edition_transcription": false
+}
+```
+
+Usage summary:
 
 - **Pages:** 284
 - **Requests:** 1
