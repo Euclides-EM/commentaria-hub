@@ -199,7 +199,7 @@ func (c *ClaudeCodeClient) ExecWorkspaceResultWithLogLabel(model string, prompt 
 	}
 
 	startedAt := time.Now()
-	ctx, cancel := context.WithTimeout(context.Background(), totalTimeout)
+	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 	logPrefix := logPrefix(logLabel)
 	log.Printf("debug:%s llm exec start provider=claude-code model=%s workspace=true", logPrefix, model)

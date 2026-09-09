@@ -265,6 +265,7 @@ func runDirectory(cfg Config, pages []page, client WorkspaceExecutor, logger *lo
 	if err != nil {
 		return llm.Usage{}, fmt.Errorf("directory LLM correction failed: %w", err)
 	}
+	logDirectoryUsage(logger, cfg, len(selected), result.Usage)
 	for _, p := range selected {
 		finalPath := filepath.Join(cfg.OutputDir, p.key, "original.md")
 		contents, err := os.ReadFile(finalPath)
@@ -279,7 +280,14 @@ func runDirectory(cfg Config, pages []page, client WorkspaceExecutor, logger *lo
 			return result.Usage, fmt.Errorf("normalize directory output for %s: %w", p.key, err)
 		}
 	}
-	logger.Printf("complete mode=%s pages=%d requests=1 tokens_input=%d tokens_cached=%d tokens_output=%d tokens_total=%d output=%s/page-NNNN/original.md",
-		cfg.ExecutionMode, len(selected), result.Usage.InputTokens, result.Usage.CachedInputTokens, result.Usage.OutputTokens, result.Usage.TotalTokens, cfg.OutputDir)
 	return result.Usage, nil
+}
+
+func logDirectoryUsage(logger *log.Logger, cfg Config, pageCount int, usage llm.Usage) {
+	cost := "unavailable"
+	if usage.CostUSD != nil {
+		cost = fmt.Sprintf("%.6f", *usage.CostUSD)
+	}
+	logger.Printf("provider complete mode=%s pages=%d requests=1 tokens_input=%d tokens_cached=%d tokens_cache_creation=%d tokens_output=%d tokens_reasoning=%d tokens_total=%d cost_usd=%s output=%s/page-NNNN/original.md",
+		cfg.ExecutionMode, pageCount, usage.InputTokens, usage.CachedInputTokens, usage.CacheCreationInputTokens, usage.OutputTokens, usage.ReasoningTokens, usage.TotalTokens, cost, cfg.OutputDir)
 }

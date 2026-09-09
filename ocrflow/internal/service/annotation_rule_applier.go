@@ -231,10 +231,10 @@ func (a *AnnotationRuleApplier) applyLLMTranscriptionCorrector(imgPath string, a
 		Model:             strings.TrimSpace(rule.Model),
 	}
 	usage, err := transcriptioncorrector.Run(cfg, a.transcriptionLLM)
+	rule.Usage = &usage
 	if err != nil {
 		return nil, fmt.Errorf("run LLM transcription corrector for annotation %s: %w", ann.ID, err)
 	}
-	rule.Usage = &usage
 	return ann, nil
 }
 

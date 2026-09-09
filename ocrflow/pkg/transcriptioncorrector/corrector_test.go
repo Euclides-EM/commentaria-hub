@@ -148,6 +148,18 @@ func TestBuildPromptDefinesCanonicalMarkdownOutputContract(t *testing.T) {
 	require.NotEmpty(t, prompt.CacheKey)
 }
 
+func TestFormatDirectoryPageKeysUsesInclusiveRanges(t *testing.T) {
+	got := formatDirectoryPageKeys([]page{
+		{key: "page-0001"},
+		{key: "page-0002"},
+		{key: "page-0003"},
+		{key: "page-0005"},
+		{key: "page-0007"},
+		{key: "page-0008"},
+	})
+	require.Equal(t, "page-0001–page-0003, page-0005, page-0007–page-0008", got)
+}
+
 func TestGeneratedMarkdownDialectMatchesSharedDocumentation(t *testing.T) {
 	document, err := os.ReadFile(filepath.Join("..", "..", "..", "docs", "MARKDOWN_DIALECT.md"))
 	require.NoError(t, err)
@@ -269,6 +281,40 @@ func TestRunDirectoryModePassesAbsolutePathsOnceAndIgnoresRounds(t *testing.T) {
 		require.NoError(t, readErr)
 		require.Equal(t, "corrected "+key+"\n", string(contents))
 	}
+}
+
+func TestRunDirectoryModeSkipsExistingOutputs(t *testing.T) {
+	root := t.TempDir()
+	imagesDir := filepath.Join(root, "images")
+	sourceDir := filepath.Join(root, "source")
+	outputDir := filepath.Join(root, "output")
+	reusedOutput := filepath.Join(outputDir, "page-0001", "original.md")
+	require.NoError(t, os.MkdirAll(imagesDir, 0o755))
+	for _, key := range []string{"page-0001", "page-0002"} {
+		require.NoError(t, os.WriteFile(filepath.Join(imagesDir, key+".png"), []byte("image"), 0o644))
+		require.NoError(t, os.MkdirAll(filepath.Join(sourceDir, key), 0o755))
+		require.NoError(t, os.WriteFile(filepath.Join(sourceDir, key, "original.md"), []byte("source"), 0o644))
+	}
+	require.NoError(t, os.MkdirAll(filepath.Dir(reusedOutput), 0o755))
+	require.NoError(t, os.WriteFile(reusedOutput, []byte("existing\n"), 0o644))
+
+	fake := &fakeExecutor{responses: []llm.Result{{Text: "done"}}}
+	_, err := Run(Config{
+		MarkdownDirs: []string{sourceDir}, ImagesDir: imagesDir, OutputDir: outputDir,
+		ExecutionMode: ExecutionModeDirectory, SkipExisting: true, Provider: llm.ProviderCodex, Model: "gpt-test",
+	}, fake)
+	require.NoError(t, err)
+	require.Len(t, fake.workspaceCalls, 1)
+	require.NotContains(t, fake.workspaceCalls[0].prompt.Dynamic, "page-0001")
+	require.Contains(t, fake.workspaceCalls[0].prompt.Dynamic, "page-0002")
+	require.Contains(t, fake.workspaceCalls[0].prompt.Dynamic, "must remain untouched")
+
+	contents, err := os.ReadFile(reusedOutput)
+	require.NoError(t, err)
+	require.Equal(t, "existing\n", string(contents))
+	contents, err = os.ReadFile(filepath.Join(outputDir, "page-0002", "original.md"))
+	require.NoError(t, err)
+	require.Equal(t, "corrected page-0002\n", string(contents))
 }
 
 func testALTO(words ...string) *alto.Alto {

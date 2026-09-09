@@ -71,7 +71,7 @@ func (c *CodexClient) ExecPromptResultWithLogLabel(model string, prompt Prompt, 
 		commandDir = filepath.Dir(absolutePath)
 	}
 	args = append(args, "-")
-	return c.run(model, prompt, commandDir, args, logLabel)
+	return c.run(model, prompt, commandDir, args, logLabel, totalTimeout)
 }
 
 func (c *CodexClient) ExecWorkspaceResultWithLogLabel(model string, prompt Prompt, workingDir string, _ []string, logLabel string) (Result, error) {
@@ -80,10 +80,10 @@ func (c *CodexClient) ExecWorkspaceResultWithLogLabel(model string, prompt Promp
 		return Result{}, err
 	}
 	args := []string{"exec", "--ephemeral", "--skip-git-repo-check", "--sandbox", "workspace-write", "--json", "--model", strings.TrimSpace(model), "--cd", absoluteDir, "-"}
-	return c.run(model, prompt, absoluteDir, args, logLabel)
+	return c.run(model, prompt, absoluteDir, args, logLabel, 0)
 }
 
-func (c *CodexClient) run(model string, prompt Prompt, commandDir string, args []string, logLabel string) (Result, error) {
+func (c *CodexClient) run(model string, prompt Prompt, commandDir string, args []string, logLabel string, timeout time.Duration) (Result, error) {
 	model = strings.TrimSpace(model)
 	combinedPrompt := combinePrompt(prompt)
 	if model == "" {
@@ -93,7 +93,13 @@ func (c *CodexClient) run(model string, prompt Prompt, commandDir string, args [
 		return Result{}, fmt.Errorf("llm exec: prompt is empty")
 	}
 	startedAt := time.Now()
-	ctx, cancel := context.WithTimeout(context.Background(), totalTimeout)
+	var ctx context.Context
+	var cancel context.CancelFunc
+	if timeout > 0 {
+		ctx, cancel = context.WithTimeout(context.Background(), timeout)
+	} else {
+		ctx, cancel = context.WithCancel(context.Background())
+	}
 	defer cancel()
 	logPrefix := logPrefix(logLabel)
 	log.Printf("debug:%s llm exec start provider=codex model=%s workspace=%t", logPrefix, model, commandDir != "")
