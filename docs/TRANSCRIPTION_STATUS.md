@@ -34,6 +34,14 @@ Facsimile is public domain, I run the full OCR pipeline.
 
 **Next steps:** Run LLM corrector: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
 
+## Basel_1562
+
+The OCR stage has already been completed on an old facsimile, that has been replaced since with a public domain facsimile.
+
+This means we need to re-align ALTOs when running LLM.
+
+**Next steps:** Realign ALTOs and run LLM.
+
 # Alignment
 
 ## Paris_1667
@@ -60,14 +68,6 @@ cost_usd=$46.742450
 Full Fable transcriptions exist and have already been manually curated. However, no copyright for the facsimile that the transcriptions were based on. Another public domain facsimile is available, but the transcriptions have not yet been aligned with it.
 
 **Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
-
-## Basel_1562
-
-The OCR stage has already been completed on an old facsimile, that has been replaced since with a public domain facsimile.
-
-This means we need to re-align pages when running LLM.
-
-**Next steps:** Recreate the dataset with the new facsimile, run OCR and LLM corrector, and manually curate the Fable transcriptions.
 
 # Manual Curation
 
