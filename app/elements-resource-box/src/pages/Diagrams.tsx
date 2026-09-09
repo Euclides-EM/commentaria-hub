@@ -357,6 +357,13 @@ export const Diagrams = () => {
       shelfmark.id === selectedFacsimile?.shelfmark_id ||
       shelfmark.scan === selectedFacsimile?.scan_url,
   );
+  const canDownloadFacsimile = (facsimile: model_Facsimile) => {
+    const shelfmark = editionQuery.data?.shelfmarks?.find(
+      (item) =>
+        item.id === facsimile.shelfmark_id || item.scan === facsimile.scan_url,
+    );
+    return Boolean(token || shelfmark?.copyright?.trim());
+  };
 
   useEffect(() => {
     if (!facsimilesQuery.isSuccess) {
@@ -447,7 +454,7 @@ export const Diagrams = () => {
   };
 
   const openScanPage = (facsimile: model_Facsimile) => {
-    if (!token || modal.pageNumber === null) {
+    if (!canDownloadFacsimile(facsimile) || modal.pageNumber === null) {
       return;
     }
     void openAuthenticatedFacsimilePDF(
@@ -461,7 +468,7 @@ export const Diagrams = () => {
   };
 
   const openSelectedFacsimile = () => {
-    if (!token || !selectedFacsimile?.id) {
+    if (!selectedFacsimile?.id || !canDownloadFacsimile(selectedFacsimile)) {
       return;
     }
     void openAuthenticatedFacsimilePDF(
@@ -651,11 +658,12 @@ export const Diagrams = () => {
               {selectedFacsimile.description && (
                 <div>{selectedFacsimile.description}</div>
               )}{" "}
-              {token && selectedFacsimile.download_available && (
-                <ScanPageButton type="button" onClick={openSelectedFacsimile}>
-                  Download PDF
-                </ScanPageButton>
-              )}{" "}
+              {selectedFacsimile.download_available &&
+                canDownloadFacsimile(selectedFacsimile) && (
+                  <ScanPageButton type="button" onClick={openSelectedFacsimile}>
+                    Download PDF
+                  </ScanPageButton>
+                )}{" "}
               {selectedShelfmark?.scan && (
                 <a
                   href={selectedShelfmark.scan}
@@ -843,21 +851,20 @@ export const Diagrams = () => {
             <ModalHeader>
               <ModalTitleRow>
                 <ModalTitle>{modal.title}</ModalTitle>
-                {token &&
-                  modal.pageNumber !== null &&
-                  (
-                    downloadableFacsimilesByScanKey.get(modal.scanKey) ?? []
-                  ).map((facsimile) => (
-                    <ScanPageButton
-                      key={facsimile.id}
-                      type="button"
-                      onClick={() => openScanPage(facsimile)}
-                    >
-                      {facsimile.name
-                        ? `View page in ${facsimile.name}`
-                        : "View page in scan"}
-                    </ScanPageButton>
-                  ))}
+                {modal.pageNumber !== null &&
+                  (downloadableFacsimilesByScanKey.get(modal.scanKey) ?? [])
+                    .filter(canDownloadFacsimile)
+                    .map((facsimile) => (
+                      <ScanPageButton
+                        key={facsimile.id}
+                        type="button"
+                        onClick={() => openScanPage(facsimile)}
+                      >
+                        {facsimile.name
+                          ? `View page in ${facsimile.name}`
+                          : "View page in scan"}
+                      </ScanPageButton>
+                    ))}
               </ModalTitleRow>
               <CloseButton onClick={closeImageModal}>×</CloseButton>
             </ModalHeader>

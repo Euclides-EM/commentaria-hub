@@ -2,11 +2,33 @@ package httpwrapper
 
 import (
 	"encoding/json"
+	"errors"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
 )
+
+type HTTPError struct {
+	StatusCode int
+	Err        error
+}
+
+func (e *HTTPError) Error() string {
+	return e.Err.Error()
+}
+
+func NewHTTPError(statusCode int, err error) error {
+	return &HTTPError{StatusCode: statusCode, Err: err}
+}
+
+func errorStatusCode(err error) int {
+	var httpErr *HTTPError
+	if errors.As(err, &httpErr) {
+		return httpErr.StatusCode
+	}
+	return http.StatusInternalServerError
+}
 
 func writeJSON(w http.ResponseWriter, status int, v any) {
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
@@ -152,7 +174,7 @@ func (wb *wrapperBuilder) GetFile(f func(r *http.Request) (filePath string, down
 	wb.get = func(w http.ResponseWriter, r *http.Request) {
 		filePath, downloadName, err := f(r)
 		if err != nil {
-			http.Error(w, err.Error(), http.StatusInternalServerError)
+			http.Error(w, err.Error(), errorStatusCode(err))
 			return
 		}
 		if contentType != "" {

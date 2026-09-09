@@ -32,7 +32,7 @@ const writeWindowMessage = (
 
 export async function openAuthenticatedFacsimilePDF(
   facsimileId: string,
-  bearerToken: string,
+  bearerToken: string | null,
   pageNumber?: number,
   downloadName?: string,
 ): Promise<void> {
@@ -49,7 +49,7 @@ export async function openAuthenticatedFacsimilePDF(
     const response = await fetch(facsimilePDFURL(facsimileId), {
       headers: {
         Accept: "application/pdf",
-        Authorization: `Bearer ${bearerToken}`,
+        ...(bearerToken ? { Authorization: `Bearer ${bearerToken}` } : {}),
       },
     });
     if (!response.ok) {

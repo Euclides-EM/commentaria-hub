@@ -5,10 +5,12 @@ import (
 	"net/http"
 	"path/filepath"
 	"strconv"
+	"strings"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/job"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/httpwrapper"
 )
 
 // ListFacsimiles godoc
@@ -182,6 +184,21 @@ func (h *Handlers) DownloadFacsimilePDF(r *http.Request) (filePath string, downl
 	id := r.PathValue("id")
 	if id == "" {
 		return "", "", fmt.Errorf("missing facsimile ID")
+	}
+	facsimile, err := h.deps.FacsimileSvc.GetFacsimile(id)
+	if err != nil {
+		return "", "", err
+	}
+	requiresAuthentication := strings.TrimSpace(facsimile.ShelfmarkID) == ""
+	if !requiresAuthentication {
+		shelfmark, err := h.deps.ShelfmarkSvc.GetShelfmark(facsimile.EditionID, facsimile.ShelfmarkID)
+		if err != nil {
+			return "", "", err
+		}
+		requiresAuthentication = strings.TrimSpace(shelfmark.Copyright) == ""
+	}
+	if requiresAuthentication && r.Context().Value(httpwrapper.GitHubUserKey) == nil {
+		return "", "", httpwrapper.NewHTTPError(http.StatusUnauthorized, fmt.Errorf("authorization required to download a facsimile without copyright information"))
 	}
 	filePath, err = h.deps.FacsimileSvc.GetFacsimilePDFPath(id)
 	if err != nil {

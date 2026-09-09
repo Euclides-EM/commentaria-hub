@@ -392,9 +392,6 @@ export function Catalogue() {
   }, []);
   const openLocalScan = useCallback(
     (facsimile: model_Facsimile) => {
-      if (!token) {
-        return;
-      }
       void openAuthenticatedFacsimilePDF(
         facsimile.id!,
         token,
@@ -671,22 +668,19 @@ export function Catalogue() {
                 )}
               </IconButton>
               {(info.row.original.facsimiles.length > 0 ||
-                (token &&
-                  (
-                    downloadableFacsimilesByEdition.get(
-                      info.row.original.key,
-                    ) ?? []
-                  ).length > 0)) && (
+                (
+                  downloadableFacsimilesByEdition.get(info.row.original.key) ??
+                  []
+                ).length > 0) && (
                 <FacsimileLinks
                   facsimiles={info.row.original.facsimiles}
                   localFacsimiles={
-                    token
-                      ? (downloadableFacsimilesByEdition.get(
-                          info.row.original.key,
-                        ) ?? [])
-                      : []
+                    downloadableFacsimilesByEdition.get(
+                      info.row.original.key,
+                    ) ?? []
                   }
                   onOpenLocalFacsimile={openLocalScan}
+                  isAuthenticated={Boolean(token)}
                   color={SEA_COLOR}
                 />
               )}

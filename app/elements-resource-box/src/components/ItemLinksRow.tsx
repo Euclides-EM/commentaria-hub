@@ -51,7 +51,7 @@ export const ItemLinksRow = ({
   const localFacsimilesQuery = useQuery({
     queryKey: ["facsimiles", "download-available", item.key],
     queryFn: () => FacsimilesService.getFacsimilies({ editionId: [item.key] }),
-    enabled: Boolean(token && item.key),
+    enabled: Boolean(item.key),
   });
   const localScans =
     localFacsimilesQuery.data?.filter(
@@ -62,9 +62,6 @@ export const ItemLinksRow = ({
       (facsimile) => facsimile.id && facsimile.diagram_crops_available,
     ) ?? [];
   const openLocalScan = (facsimileId: string, name?: string) => {
-    if (!token) {
-      return;
-    }
     void openAuthenticatedFacsimilePDF(
       facsimileId,
       token,
@@ -76,7 +73,7 @@ export const ItemLinksRow = ({
   };
   const shouldShow =
     item.facsimiles.length > 0 ||
-    (Boolean(token) && localScans.length > 0) ||
+    localScans.length > 0 ||
     (showDiagramsLink && item.diagramCropsAvailable) ||
     (showEditLink && Boolean(token));
 
@@ -95,6 +92,7 @@ export const ItemLinksRow = ({
         onOpenLocalFacsimile={(facsimile) =>
           openLocalScan(facsimile.id!, facsimile.name)
         }
+        isAuthenticated={Boolean(token)}
         color={LAND_COLOR}
       />
       {showEditLink && token && (

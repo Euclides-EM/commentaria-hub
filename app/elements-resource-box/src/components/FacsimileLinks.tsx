@@ -104,6 +104,7 @@ export const FacsimileLinks = ({
   facsimiles,
   localFacsimiles = [],
   onOpenLocalFacsimile,
+  isAuthenticated = false,
   color,
   className,
   ...props
@@ -111,6 +112,7 @@ export const FacsimileLinks = ({
   facsimiles: model_EditionShelfmark[];
   localFacsimiles?: model_Facsimile[];
   onOpenLocalFacsimile?: (facsimile: model_Facsimile) => void;
+  isAuthenticated?: boolean;
   color: string;
   className?: string;
 } & HTMLAttributes<HTMLDivElement>) => {
@@ -128,10 +130,11 @@ export const FacsimileLinks = ({
   return (
     <LinksRow className={className} {...props}>
       {visibleFacsimiles.map((facsimile) => {
-        console.error(facsimile);
         const volume = getDisplayVolume(facsimile, hasAnyValidVolume);
         const linkedLocalFacsimiles = localFacsimiles.filter(
-          (localFacsimile) => localFacsimile.shelfmark_id === facsimile.id,
+          (localFacsimile) =>
+            localFacsimile.shelfmark_id === facsimile.id &&
+            (isAuthenticated || Boolean(facsimile.copyright?.trim())),
         );
         return (
           <FacsimileGroup key={facsimile.scan}>
@@ -172,6 +175,7 @@ export const FacsimileLinks = ({
       {localFacsimiles
         .filter(
           (localFacsimile) =>
+            isAuthenticated &&
             !visibleFacsimiles.some(
               (facsimile) => facsimile.id === localFacsimile.shelfmark_id,
             ),

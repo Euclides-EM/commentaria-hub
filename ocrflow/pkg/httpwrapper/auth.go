@@ -37,13 +37,18 @@ const GitHubTokenKey contextKey = "github_token"
 const GitHubUserKey contextKey = "github_user"
 
 func authorized(r *http.Request) (*http.Request, bool) {
-	if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) && isPublicReadPath(r.URL.Path) {
-		return r, true
-	}
-	if strings.HasSuffix(r.URL.Path, "/search") && r.Method == http.MethodPost {
-		return r, true
+	isPublicRead := lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) && isPublicReadPath(r.URL.Path)
+	if !isPublicRead && !(strings.HasSuffix(r.URL.Path, "/search") && r.Method == http.MethodPost) {
+		return authorizeRequest(r)
 	}
 
+	if strings.TrimSpace(r.Header.Get("Authorization")) == "" {
+		return r, true
+	}
+	return authorizeRequest(r)
+}
+
+func authorizeRequest(r *http.Request) (*http.Request, bool) {
 	auth := r.Header.Get("Authorization")
 	token, ok := strings.CutPrefix(auth, "Bearer ")
 	if !ok || strings.TrimSpace(token) == "" {
@@ -78,7 +83,7 @@ func isPublicReadPath(path string) bool {
 		return false
 	}
 	if strings.HasPrefix(path, "/facsimilies/") && strings.HasSuffix(path, "/pdf") {
-		return false
+		return true
 	}
 	return true
 }
