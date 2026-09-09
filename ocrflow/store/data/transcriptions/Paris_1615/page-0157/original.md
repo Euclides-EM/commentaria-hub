@@ -1,0 +1,11 @@
+<!-- Running title: CINQVIESME -->
+
+<!-- Page number: 134 -->
+
+Aition requierent les grandeurs pour eſtre en meſme raiſon, ſçauoir eſt que les equemultiplices de la premiere & troiſieſme grandeur excedent, ſoient egales, ou deſaillent aux equemultiplices de la2. & 4.en quelque multiplication que ſoiens priſes icelles equemultiplices; comme appert en ces 4. quantitez A, B, C, D, où les equemultiplices de A. B. C. D. A, & C, premiere &; ſont E, & F, & les equemul 6. 3. 4. 2. tiplices de B, & D. 2.& 4. quantitez ſont G, & H; tellement qu’il ſe voit qu’ayant mult plié A, & C, par E.6. P.H. vn meſme nombre, & B, D par quelconque meſme nõ 24.15.16.10. bre; ſi la multiplice E excede la multiplice G qui luy 30..0.20.20 correſpond, außi la multisliceF excede la multiplice H; 12. 218.14. ſi elle eſt egale, l’autre ſera außi egale; ſi elle deſaut, außi fera l’autre, & ce en quelque multiplicat ion qu’on prenne les equemultiplices: & partantily a meſme raiſon de A premiere quantité à B ſeconde, que de C 3.à D4.
+
+Par la conuerſe de cestedef s’il y a telle raiſon de la premiere à la ſeconde, que de la;. à la 4. il s’enſuit que les equemultiplices de la 1. &3. excedent, ſont egales, ou deſaillent aux equemultiplices de la 2. & 4-engendrees de quelque miltiplication que ce ſoit. Et auſi s’il n’ya meſme raiſon de la premiere à la 2 que de la 5.à la 4. il s’enſuiura que les equemultiplices de la 1.et 3. n’excederont, ne ſerõt ales, ou ne defaudront aux equenrultiplices de la 2. & 4. produites de quel que multiplication que ce ſoit. Or ce qui eſt dit icy de 4. grandeurs ſe doit auſii entendre de trois, prenant celle du milieu 2. fois, afin qu’il y en ait 4.
+
+7. Les grandeurs qui ſont en meſme raiſon, ſont appellees proportionnelles. Comme ſi des grandeurs A, B, C, D, il y a meſme raiſon de A à B, que de C à D, icelles grandeurs ſont dites proportionnelles. Et les grandeurs E, F, G, leſquelles ſont en proportion cõtinuë, ſont auſſi dites continuellement proportionnelles. 8. Quand des equemultiplices, celuy de la premiere grãdeur excede celuy de la ſecõde, & le multiplice de la troiſieſme n’excede celuy de la quatrieſme, lors il y aura plus grande raiſon de la premiere grandeur à la ſeconde, que de la troiſieſme à la quatrieſme.
+
+[Diagram]

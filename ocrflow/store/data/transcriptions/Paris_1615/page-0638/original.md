@@ -1,0 +1,11 @@
+<!-- Running title: ELEMENT. -->
+
+<!-- Page number: 615 -->
+
+BD, & du centre E ſoient tirees ſur AD, BD les perpendiculaires EF, EG: & icelle EG eſtant prolongee iuſques à la circonference, elle oouppera l’arc BCD en deux egalement en C: & eſtant tiree la ligne droicte CD, ce ſera le coſté du decagone: & finalement ſoit expoſee la ligne droicte H coſté du cube inſcrit en la meſme ſphere. Ie dis que la ſuperficie du dodecaedre, eſt à la ſuperficie de l’Icoſaedre, comme H coſté du cube, eſt à AD coſté de l’Icoſaedre.
+
+Car d’autant que EC eſt coſté de l’hexagone, & CD coſté du decagone inſcrit en vn meſme cercle; la cõpoſee d’iceux coſtez, ſera couppee en la moyenne & extreme raiſon, dont Ie plus grand ſegment ſera EC par la 9.p.13. & par la 1.p.14.la moitié d’icelle compoſee eſt EG; & par le corol. la 12. p. 13. la moitié d’iceluy plus grand ſegment eſt EF: Et partant puis que par la 15 p.5.les toutes ſont aux toutes, comme les moitiez aux moitiez: il eſt euident que la moitié EG eſtant couppee en la moyenne & extreme raiſon, la moitié EF ſera Ie plus grand ſegment: (car la moitié du plus grand ſegment, & la moitié du plus petit faict la moitié de la toute.) Mais par Ie corol. de la 17.p.13. H coſté du cube eſtant auſſi couppé en la moyenne & extreme raiſon, ſon plus grand ſegment ſera BD coſté du dodecaedre. Donc par la 2.p.14.comme la toute H, ſera à BD ſon plus grand ſegment, ainſi la toute EG ſera à EF ſon plus grand ſegment: Et partant par la 16.p.6. le rectangle compris des extremes H, EF, ſera egal au rectangle des moyennes BD, EG. Et pource que par la 1.p.6.comme H eſt à AD, ainſi le rectangle de H, EF, eſt au rectangle de AD, EF: auſſi comme H ſera à AD, ainſi le rectangle de BD, EC (lequel eſt egal à celuy de H, EF) eſt au meſme rectangle cõpris ſous AD, EF. Parquoy puis que par le corol. de la preced. comme le rectangle compris ſous BD, EG, eſt au rect angle compris de AD, EF, ainſi la ſuperficie du dodecaedre eſt à la fuperficie de l’icoſaedre: pareillement comme H coſté du cube ſera à AD coſté de l’icoſaedre, ainſi ſera la ſuperficie du dodecaedre à la ſuperficie de l’Icoſaedre. Ce qu’il falloit prouuer.
+
+## THEO. 6. PROP. VI.
+
+Si vne ligne droicte eſt couppee en la moyenne & extreme raiſon; cõme les deux quar-

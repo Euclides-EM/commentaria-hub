@@ -1,0 +1,11 @@
+<!-- Running title: ELEMENT. -->
+
+<!-- Page number: 575 -->
+
+Autrement elle ſera plus grande ou plus petite. Soit premierement la ſphere G, plus petite que la ſphere DEF, s’il eſt poſſible: Elle pourra eſtre enfermee dans icelle, ſi on les met toutes deux ſur vn meſme centre: Et partant dans la ſphere DEF, peut eſtre inſcrit vn polyedre qui ne touchera point la plus petite ſphere G par la 17. p.12. Et dedans l’autre ſphere pourra eſtre pareillement inſcrit vn ſemblable polyedre par la meime prop. Et par le corol. d’icelle, ce polyedre cy ſera a celuy la, en raiſon triplee du diametre BC, au diametre EF: mais en telle raiſon, la ſphere BAC eſt poſee eſtre a la ſphere G, & par la 11.p.5. comme la ſphere BAC, a la ſphere G, ainſi Ie polyedre de la ſphere BAC, ſera au polyedre de la ſphere DEF. Or la ſphere BAC, eſt plus grande que ſon polyedre, n’eſtant que partie d’icelle: donc par la 14.p.5. la ſphere G eſt plus grande que le polyedre de la ſphere DEF: ce qui eſt impoſſible, n’eſtant que partie d’iceluy. Donc la ſphere BAC, ne peut eſtre en raiſon triplee des diametres BC & EF, a vne autre ſphere plus petite que DEF.
+
+Soit donc la ſphere G plus grande que DEF, s’il eſt poſſible: Et puis qu’on a poſé que comme la ſphere ABC a la ſphere G, ainſi la raiſon triplee du diametre BC au diametre EF; en changeant la ſpnere G ſera a la ſphere BAC, en raiſon ttiplee du diametre EF, au diametre BC. Item on peut imaginer que comme la ſphere G a la ſphere BAC, ainſi la ſphere DEF, a vne quatrieſme proportionele: laquelle ſera plus petite que BAC par la 14.prop.5. d’autant que G eſt poſee plus grande que DEF: Et partant icelle quatrieſme pourra eſtre inſcrite en la ſpheré BAC: Et ſi par la 11. p.5. la ſphere D EF, ſera à icelle quatrieſme inſcrite dans BAC, en raiſon triplee du diametre EF au diametre BC, ce que nous auous demonſtré eſtre impoſſible. Donc la ſphere G, n’a peu eſtre Plus grande, ne plus petite que la ſphere DEF, mais egale: & par conſequent les ſpheres ſont l’vne à l’autre en raiſon triplee de leurs diametres.
+
+### COROLLAIRE.
+
+De cecy eſt manifeſte, qu’vne ſphere eſt à vne ſphere, comme le polyedre deſerit dans celle-là, eſt au polyadre ſemblable deſcrit en ceſte
