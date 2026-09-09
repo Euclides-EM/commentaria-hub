@@ -37,12 +37,16 @@ const GitHubTokenKey contextKey = "github_token"
 const GitHubUserKey contextKey = "github_user"
 
 func authorized(r *http.Request) (*http.Request, bool) {
-	isPublicRead := lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) && isPublicReadPath(r.URL.Path)
-	if !isPublicRead && !(strings.HasSuffix(r.URL.Path, "/search") && r.Method == http.MethodPost) {
+	if isFacsimilePDFPath(r.URL.Path) {
+		if strings.TrimSpace(r.Header.Get("Authorization")) == "" {
+			return r, true
+		}
 		return authorizeRequest(r)
 	}
-
-	if strings.TrimSpace(r.Header.Get("Authorization")) == "" {
+	if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) && isPublicReadPath(r.URL.Path) {
+		return r, true
+	}
+	if strings.HasSuffix(r.URL.Path, "/search") && r.Method == http.MethodPost {
 		return r, true
 	}
 	return authorizeRequest(r)
@@ -82,10 +86,11 @@ func isPublicReadPath(path string) bool {
 	if strings.HasSuffix(path, "/facsimilies/mapping-csv") {
 		return false
 	}
-	if strings.HasPrefix(path, "/facsimilies/") && strings.HasSuffix(path, "/pdf") {
-		return true
-	}
 	return true
+}
+
+func isFacsimilePDFPath(path string) bool {
+	return strings.HasPrefix(path, "/facsimilies/") && strings.HasSuffix(path, "/pdf")
 }
 
 func authInGithub(token string) (*GitHubUser, bool) {
