@@ -71,9 +71,10 @@ Cologne_1627,,,1627,Cologne,LATIN,"Jean Magnien, Étienne Gracile",Petrus Cholin
 Lyon_1660,,,1660,Lyon,LATIN,Claude-François Milliet Dechales,Benedictum Coral,18,1,-,,
 Lyon_1675,,,1675,Lyon,LATIN,Claude-François Milliet Dechales,,6,1,,,
 Frankfurt_1674,,,1674,Frankfurt,LATIN,Gaspar Schott,Johann Arnold Cholini,2,1,,,
-Rome_1589,Euclidis elementorum libri XV,Specified in source,1589,Rome,LATIN,Christopher Clavius,"Santi et soc., Bartolomeo Grassi",8,2,828484,,
+Rome_1589,Euclidis elementorum libri XV,Specified in source,1589,Rome,LATIN,Christopher Clavius,"Santi et soc., Bartolomeo Grassi",8,1,828484,,
 Cologne_1591,Euclidis elementorum libri XV; accessit XVI de solidorum regularium cuiuslibet intra quodlibet comparatione,Specified in source,1591,Cologne,LATIN,Christopher Clavius,Giovanni Battista Ciotti,4,1,,"In letter n. 72 in Clavius' correspondence, Jacob Curtz complains that the Cologne edition of Clavius’s Euclides was printed ""infeliciter et plenus omnino mendis excusus est, id me ut primum vidi ex animo male habuit"" (unhappily and full of all manner of errors, when I first saw it, it truly pained me), and recommends using Sartorius in Ingolstadt or the Wechel heirs in Frankfurt for future work in Germany [Source: Clavius, C. 1992. Corrispondenza. Baldini, U. and Napolitani, P.D., Eds. Università di Pisa, Dipartimento di matematica, Pisa., https://echo.mpiwg-berlin.mpg.de/content/mpiwglib/clavius/pdf/clavius_1992_bd_2_1.pdf p. 178]",
-Rome_1603,"Elementorum libri 15, accessit Liber XVI",Provided by catalog,1603,Rome,LATIN,Christopher Clavius,Luigi Zannetti,8,1,,,
+Rome_1603,"Elementorum libri 15, accessit Liber XVI",Provided by catalog,1603,Rome,LATIN,Christopher Clavius,Luigi Zannetti,8,1,,"BNF has these marked as Rome editions, but title page shows Cologne - https://catalogue.bnf.fr/ark:/12148/cb30409431m (vol 1)
+Most official record of the vol 2 facs I could find: http://id.sbn.it/bid/UFIE003442 which points to Google Books",
 Douai_1620,Euclidis Elementorum libri sex priores,Specified in source,1620,Douai,LATIN,Charles Malapert de Mons,Belleri,8,1,-,,
 Douai_1625,,,1625,Douai,LATIN,Charles Malapert de Mons,,12,1,-,,
 Rome_1629,,,1629,Rome,LATIN,"Christopher Clavius, Christoph Grienberger",Heirs of Bartolomeo Zannetti,12,1,-,,
