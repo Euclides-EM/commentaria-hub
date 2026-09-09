@@ -12,6 +12,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/transcriptioncorrector"
 	"github.com/stretchr/testify/require"
 )
 
@@ -56,6 +57,20 @@ func (l *transcriptionLLM) ExecPromptResultWithLogLabel(_, _ string, prompt llm.
 			InputTokens: 10, OutputTokens: 2, TotalTokens: 12, CostUSD: &cost,
 		},
 	}, nil
+}
+
+func (l *transcriptionLLM) ExecWorkspaceResultWithLogLabel(_, _ string, _ llm.Prompt, workingDir string, _ []string, _ string) (llm.Result, error) {
+	path := filepath.Join(workingDir, "page-0001", "original.md")
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return llm.Result{}, err
+	}
+	if err := os.WriteFile(path, nil, 0o644); err != nil {
+		return llm.Result{}, err
+	}
+	cost := 0.01
+	return llm.Result{Text: "done", Usage: llm.Usage{
+		InputTokens: 10, OutputTokens: 2, TotalTokens: 12, CostUSD: &cost,
+	}}, nil
 }
 
 func TestApplyLLMTranscriptionCorrectorUsesAnnotationAndEditionInputs(t *testing.T) {
@@ -109,6 +124,30 @@ func TestApplyLLMTranscriptionCorrectorUsesAnnotationAndEditionInputs(t *testing
 	require.EqualValues(t, 36, rule.Usage.TotalTokens)
 	require.NotNil(t, rule.Usage.CostUSD)
 	require.InDelta(t, 0.03, *rule.Usage.CostUSD, 0.0000001)
+}
+
+func TestApplyLLMTranscriptionCorrectorRetainsUsageAfterDirectoryValidationFailure(t *testing.T) {
+	root := t.TempDir()
+	manager := filesys.NewFileSystemManager(root, filepath.Join(root, "models"), filepath.Join(root, "diagrams"), filepath.Join(root, "defaults"))
+	target := &annotation.Annotation{DatasetID: "dataset", Ocred: true, Pages: "1"}
+	target.ID = "target"
+	altoDir := manager.DatasetAnnotationAltoDir(target)
+	require.NoError(t, os.MkdirAll(altoDir, 0o755))
+	require.NoError(t, alto.SaveToFile(testCorrectionALTO("target"), filepath.Join(altoDir, "page-0001.xml")))
+	imagesDir := manager.DatasetImagesDirByID("dataset")
+	require.NoError(t, os.MkdirAll(imagesDir, 0o755))
+	require.NoError(t, os.WriteFile(filepath.Join(imagesDir, "page-0001.png"), []byte("image"), 0o644))
+
+	rule := annotationrule.NewLLMTranscriptionCorrector(llm.ProviderCodex, "gpt-test", nil, false)
+	rule.ExecutionMode = transcriptioncorrector.ExecutionModeDirectory
+	applier := NewAnnotationRuleApplier(nil, manager, "", nil, nil, &transcriptionLLM{})
+	_, err := applier.applyLLMTranscriptionCorrector(imagesDir, target, rule)
+	require.ErrorContains(t, err, "directory LLM correction produced invalid output for page-0001")
+	require.NotNil(t, rule.Usage)
+	require.EqualValues(t, 10, rule.Usage.InputTokens)
+	require.EqualValues(t, 12, rule.Usage.TotalTokens)
+	require.NotNil(t, rule.Usage.CostUSD)
+	require.InDelta(t, 0.01, *rule.Usage.CostUSD, 0.0000001)
 }
 
 func TestApplyLLMTranscriptionCorrectorRejectsNonOCRAnnotation(t *testing.T) {
