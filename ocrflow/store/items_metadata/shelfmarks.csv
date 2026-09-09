@@ -426,7 +426,7 @@ Frankfurt_1674,,https://www.google.com/books/edition/P_GASPARIS_SCHOTTI_REGISCUR
 Rome_1589,1,https://www.google.com/books/edition/Euclidis_Elementorum_Lib_XV/MD6SRC7r204C,Rome_1589_tp.png,,,,,none,,shm_ffad0e62bd63,none
 Rome_1589,2,https://www.google.fr/books/edition/Euclidis_Elementorum_Lib_XV/un-3Dkk1OgAC,,,,,,none,,shm_995c7c96d646,none
 Rome_1589,1,https://archive.org/details/ARes41505/page/859/mode/2up,,,,,,none,,shm_2ed28d2c71a6,none
-Rome_1603,,https://www.google.com/books/edition/Euclidis_Elementorum_libri_15_Accessit_l/Ok5NMkBaRBkC,Rome_1603_tp.png,,,,,,,,
+Rome_1603,1,https://www.google.com/books/edition/Euclidis_Elementorum_libri_15_Accessit_l/Ok5NMkBaRBkC,Rome_1603_tp.png,,,,,none,,shm_85ac60cb864b,none
 Douai_1620,,https://www.google.com/books/edition/Evclidis_Elementorvm_libri_sex_priores/6s5ZAAAAcAAJ,Douai_1620_tp.png,,,,,none,,shm_8faa16eae3f9,none
 Douai_1625,,https://www.google.com/books/edition/Euclidis_elementorum_libri_VI/tjgPAAAAQAAJ,Douai_1625_tp.png,,,,,,,,
 Rome_1629,,,,,,,,,,,
@@ -460,7 +460,7 @@ Amsterdam_1634,1,https://echo-old.mpiwg-berlin.mpg.de/ECHOdocuView?url=/mpiwg/on
 London_1686,,https://www.proquest.com/docview/2240913069,London_1686_tp.jpeg,,,,,,,,
 London_1660,,https://www.proquest.com/docview/2248494297,London_1660_tp.png,,,,,,,,
 Amsterdam_1618,,https://www.google.com/books/edition/Die_sechs_ersten_B%C3%BCcher_Euclidis/s-pZAAAAcAAJ,Amsterdam_1618_tp.png,,,,,,,,
-Arnhem_1605,,https://www.google.nl/books/edition/C_Dibvadii_In_Arithmeticam_Rationalivm_E/03RpAAAAcAAJ,Arnhem_1605_tp.png,,,,,none,,shm_106efa84150e,none
+Arnhem_1605,1,https://www.google.nl/books/edition/C_Dibvadii_In_Arithmeticam_Rationalivm_E/03RpAAAAcAAJ,Arnhem_1605_tp.png,,,,,none,,shm_106efa84150e,none
 Vicenza_1491,,,,,,,,,,,
 Venice_1498a,,https://www.google.com/books/edition/Georgio_Valla_Placentino_interprete_Hoc/EKC8AXlrV30C,Venice_1498a_tp.png,,,,,,,,
 Venice_1505,,https://www.google.com/books/edition/Euclidis_megare_n_sis_philosophi_platoni/8TEeimGzcfAC,Venice_1505_tp.png,,,,,none,,shm_14bf6cdf33c0,none
@@ -748,7 +748,7 @@ Paris_1695,,,,,,,,,,,
 Uppsala_1642,,https://www.google.com/books/edition/Martini_E_Gestrini_in_Geometriam_Euclidi/qIxmAAAAcAAJ,Uppsala_1642_tp.png,,,,unknown,,,,
 Uppsala_1642,1,https://dlc.mpg.de/!metadata/868389269/7/-/,uppsala_1642_tp_fp454s.PNG,,,Edition from 1637,Public Domain,,,,
 1496,,https://www.google.com/books/edition/In_hoc_opere_contenta_Arithmetica_decem/KCJNAAAAcAAJ,1496_tp.png,,,,,,,,
-Mainz_1611_1612,,https://www.google.com/books/edition/Christophori_Clavii_Bambergsensis_Opera/oWBDAAAAcAAJ,Mainz_1611_1612_tp.png,,,,,,,,
+Mainz_1611_1612,1,https://www.google.com/books/edition/Christophori_Clavii_Bambergsensis_Opera/oWBDAAAAcAAJ,Mainz_1611_1612_tp.png,,,,,none,,shm_1dfbfcb3629a,none
 Paris_1532,,https://www.google.com/books/edition/Orontii_Finei_Delphinatis_Protomathesis/x2Ruac-uYXQC,Paris_1532_tp.png,,,,,,,,
 Paris_1532,1,http://hdl.handle.net/2027/ucm.5317952740,,,,,,,,,
 Paris_1532,1,https://search.proquest.com/docview/2090309341,,,,,,,,,
@@ -1963,3 +1963,12 @@ UQI2BV,1,https://www.google.co.il/books/edition/Elementa_Geometrica/x2GeQqyLM8YC
 6X6R6Y,1,https://www.google.co.il/books/edition/Der_furnembsten_notwendigsten_der_gantze/lv7erlEcUtkC,,,,,,none,,shm_f5671c54424d,none
 Basel_1537,1,https://www.digitale-sammlungen.de/en/view/bsb11724610,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_41885d69f1ee,none
 Kiel_and_Leipzig_1699,1,https://www.digitale-sammlungen.de/en/view/bsb10215852,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_227becb0e1b5,none
+Arnhem_1605,1,https://babel.hathitrust.org/cgi/pt?id=mdp.39015063894243,,,,,"Public Domain, Google-digitized",none,,shm_ebf6bcd576c2,none
+Rome_1603,2,https://www.google.co.il/books/edition/Euclidis_Posteriores_libri_9_Accessit_li/YlsnF3w4L8oC,,,,,,none,,shm_4c2338e9969a,none
+Mainz_1611_1612,1,https://www.digitale-sammlungen.de/en/view/bsb10496544,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_b2c4ea4faf61,none
+Mainz_1611_1612,2,https://www.digitale-sammlungen.de/en/view/bsb11770714,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_bb77fc9cc0d8,none
+Mainz_1611_1612,3,https://www.digitale-sammlungen.de/en/view/bsb11770715,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_26b8bfc67f0e,none
+Mainz_1611_1612,4,https://www.google.co.il/books/edition/Christophori_Clavii_Bambergsensis_Opera/9WBDAAAAcAAJ,,,,,,none,,shm_82ee1cb9a563,none
+Mainz_1611_1612,5,https://www.google.co.il/books/edition/Christophori_Clavii_Bambergsensis_Opera/IGFDAAAAcAAJ,,,,,,none,,shm_f331802d8775,none
+Mainz_1611_1612,4,https://www.digitale-sammlungen.de/en/view/bsb11057864,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_4bb00e118e30,none
+Mainz_1611_1612,5,https://www.digitale-sammlungen.de/en/view/bsb11057865,,,,,https://rightsstatements.org/vocab/NoC-NC/1.0/,none,,shm_86152648e8dc,none
