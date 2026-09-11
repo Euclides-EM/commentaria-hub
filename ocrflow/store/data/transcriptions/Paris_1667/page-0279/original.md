@@ -7,6 +7,8 @@ Donc par le precedent Corollaire l'angle qui a *x+b* pour chaque coſté , & *b*
 
 ## DES LIGNES INCOMMENSURABLES.
 
+[Curated heading level=4: LXXVI.]
+
 [Margin]
 LXXVI.
 [/Margin]

@@ -5,6 +5,8 @@
 
 ## PREMIER PROBLEME.
 
+[Curated heading level=4: XXXIII.]
+
 [Margin]
 XXXIII.
 [/Margin]
@@ -18,6 +20,8 @@ Soit le point *k* & la ligne *z*, de *k* pris pour centre, décrire un cercle qu
 [Diagram: two dotted circles intersecting, with points K, m, n and B and a horizontal line through m and n]
 
 ## SECOND PROBLEME.
+
+[Curated heading level=4: XXXIV.]
 
 [Margin]
 XXXIV.

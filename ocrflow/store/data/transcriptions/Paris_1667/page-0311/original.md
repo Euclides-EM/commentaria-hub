@@ -11,6 +11,8 @@ L'equilateral ne ſçauroit eſtre qu'oxygone.
 
 ## Theoreme.
 
+[Curated heading level=4: XXIX.]
+
 [Margin]
 XXIX.
 [/Margin]
@@ -38,6 +40,8 @@ Or l'angle *pmb* eſt droit par la conſtruction.
 Donc l'angle *opd* eſt droit auſſy. Ce qu'il falloit demonſtrer.
 
 ## Corollaire.
+
+[Curated heading level=4: XXX.]
 
 [Margin]
 XXX.

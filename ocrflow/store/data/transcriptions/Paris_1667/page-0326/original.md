@@ -7,6 +7,8 @@ Et quand je parle d'une ligne coupée en pluſieurs parties, j'entens toujours �
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: IX.]
+
 [Margin]
 IX.
 [/Margin]
@@ -18,6 +20,8 @@ Soit p la non coupée, & T la coupée en 5 parties b, c, d, f, g; il eſt bien v
 [Diagram: rectangle labelled T along the top, divided by dotted lines into five columns headed b, c, d, f and g, containing pb, pc, pd, pf and pg, with p at the left side]
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: X.]
 
 [Margin]
 X.
@@ -32,6 +36,8 @@ C'eſt la même choſe que le precedent, excepté que la même ligne faiſant le
 Il eſt donc clair que T eſtant coupé en b, c, d, f, g. TT doit eſtre égal à Tb. Tc. Td. Tf. Tg.
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: XI.]
 
 [Margin]
 XI.

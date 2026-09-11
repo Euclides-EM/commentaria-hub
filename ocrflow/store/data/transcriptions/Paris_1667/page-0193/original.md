@@ -9,6 +9,8 @@ Donc les deux de la baſe plus l'angle donné ſont égaux à deux droits.
 
 ## Dixieme Corollaire.
 
+[Curated heading level=4: LXI.]
+
 [Margin]
 LXI.
 [/Margin]
@@ -19,6 +21,8 @@ Ce ſera la même choſe ſi on prolonge la baſe. Car l'angle exterieur que fer
 
 ## Onzieme Corollaire.
 
+[Curated heading level=4: LXII.]
+
 [Margin]
 LXII.
 [/Margin]
@@ -26,6 +30,8 @@ LXII.
 DEUX angles ſont égaux, quand les angles que les coſtez de l'un font ſur ſa baſe, ſont égaux à ceux que les coſtez de l'autre font ſur la ſienne.
 
 ## Douzieme Corollaire, Troisieme Probleme.
+
+[Curated heading level=4: LXIII.]
 
 [Margin]
 LXIII.

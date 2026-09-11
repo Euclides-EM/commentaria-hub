@@ -11,6 +11,8 @@ Or la raiſon compoſée de ces deux raiſons ſera celle de *bg* à *cf*. Ce qu
 
 ### Sixieme Theoreme.
 
+[Curated heading level=4: XV.]
+
 [Margin]
 XV.
 [/Margin]

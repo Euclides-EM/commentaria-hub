@@ -21,6 +21,8 @@ Donc ces deux produits doivent eſtre égaux au produit des deux premiers par le
 
 ## DIVISION DES GRANDEURS COMPLEXES.
 
+[Curated heading level=4: LXV.]
+
 [Margin]
 LXV.
 [/Margin]
@@ -33,6 +35,8 @@ r + s.
 [/Calculation]
 
 ## DES EQVATIONS.
+
+[Curated heading level=4: LXVI.]
 
 [Margin]
 LXVI.

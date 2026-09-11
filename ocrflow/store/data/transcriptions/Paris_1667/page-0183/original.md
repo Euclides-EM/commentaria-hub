@@ -7,6 +7,8 @@ Que tout angle plus grand que de 90. degrez eſt obtus.
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: XIV.]
+
 [Margin]
 XIV.
 [/Margin]
@@ -16,6 +18,8 @@ TOUTE ligne qui en coupe une autre obliquement fait d'un coſté un angle aigu &
 [Figure: demycirconference coupée par une ligne oblique]
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: XV.]
 
 [Margin]
 XV.
@@ -31,6 +35,8 @@ et du meme coste,
 
 ## DEFINITION.
 
+[Curated heading level=4: XVI.]
+
 [Margin]
 XVI.
 [/Margin]
@@ -38,6 +44,8 @@ XVI.
 L'ANGLE *aigu*, qui avec l'obtus vaut deux angles droits, s'appelle le *complement de l'angle obtus*.
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: XVII.]
 
 [Margin]
 XVII.

@@ -3,7 +3,9 @@
 
 *dans ſon conſequent, il en ſoit de même de celles du ſecond antecedent au regard de ſon conſequent. Mais on verra plus bas par une nouvelle demonſtration des lignes proportionnelles, que non ſeulement cela peut eſtre, mais qu'on en eſt effectivement aſſeuré avec une entiere certitude lors que dans les lignes il n'y a qu'une raiſon ſourde de l'antecedent au conſequent.*
 
-## PREMIER COROLLAIRE.
+### PREMIER COROLLAIRE.
+
+[Curated heading level=4: XXXIX.]
 
 [Margin]
 XXXIX.

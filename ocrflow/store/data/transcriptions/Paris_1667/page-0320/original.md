@@ -13,6 +13,8 @@
 
 ## IDE'E GENERALE DE LA MESURE DES SURFACES.
 
+[Curated heading level=4: I.]
+
 [Margin]
 I.
 [/Margin]

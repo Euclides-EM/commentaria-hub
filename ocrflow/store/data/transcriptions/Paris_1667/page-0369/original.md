@@ -5,17 +5,23 @@
 
 ### DANS LES QUARREZ IMPAIRS.
 
+[Curated heading level=4: XXVI.]
+
 [Margin]
 XXVI.
 [/Margin]
 
 *e*. *m* : : α. *c*. Donc *e*. *c* = *m*. α.
 
+[Curated heading level=4: XXVII.]
+
 [Margin]
 XXVII.
 [/Margin]
 
 *m*. *o* : : α. *c*. Donc *m*. *c* = *o*. α.
+
+[Curated heading level=4: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -25,11 +31,15 @@ XXVIII.
 
 ### DANS LES PAIRS.
 
+[Curated heading level=4: XXIX.]
+
 [Margin]
 XXIX.
 [/Margin]
 
 *e*. *o* : : β. ὰ. Donc *e*. α = *o*. β.
+
+[Curated heading level=4: XXX.]
 
 [Margin]
 XXX.
@@ -39,6 +49,8 @@ XXX.
 
 ## §. 5. METHODE POUR DISPOSER MAGIQUEMENT LE QUARRE' NATUREL.
 
+[Curated heading level=4: XXXI.]
+
 [Margin]
 XXXI.
 [/Margin]
@@ -47,6 +59,8 @@ CEtte methode conſiſte en fort peu de regles ; les unes generales, les autres 
 
 ### PREMIERE REGLE GENERALE.
 
+[Curated heading level=4: XXXII.]
+
 [Margin]
 XXXII.
 [/Margin]
@@ -54,6 +68,8 @@ XXXII.
 IL faut diſpoſer les chiffres par enceintes, ceux d'une enceinte en l'enceinte ſemblable, & tout le ſoin qu'on doit avoir d'abord, eſt de ſçavoir où l'on doit mettre les petits nombres de l'enceinte, parceque la ſituation des *petits* donne celle des *grands* ſelon les deux regles ſuivantes.
 
 ### SECONDE REGLE GENERALE.
+
+[Curated heading level=4: XXXIII.]
 
 [Margin]
 XXXIII.
@@ -64,6 +80,8 @@ QUand on a placé un *petit* chiffre dans un coin, il faut placer ſon *grand* d
 Ainſy α eſtant placé dans le coin gauche de la bande d'enhaut, il faudra mettre *A* dans le coin droit de la bande d'embas.
 
 ### TROISIEME REGLE GENERALE.
+
+[Curated heading level=4: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -76,6 +94,8 @@ C'eſtpourquoy il faut obſerver de ne mettre jamais deux petits en des bandes o
 ### COROLLAIRE DE CES REGLES.
 
 LEs chiffres eſtant diſpoſez ſelon ces regles,
+
+[Curated heading level=4: XXXV.]
 
 [Margin]
 XXXV.

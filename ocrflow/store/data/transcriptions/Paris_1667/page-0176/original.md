@@ -11,6 +11,8 @@ Donc ſi le point où le rayon m c coupe la corde k b eſt h, h ſera auſſy l'
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XXXV.]
+
 [Margin]
 XXXV.
 [/Margin]
@@ -20,6 +22,8 @@ D'UN point hors le cercle on peut tirer deux tangentes au cercle, & non plus.
 Cela eſt clair par ce qui vient d'eſtre demonſtré.
 
 ## SECOND COROLLAIRE.
+
+[Curated heading level=4: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -37,6 +41,8 @@ Car il eſt viſible par la ſolution du 2e Probleme, que dans tous ces cas, ces
 
 ## PREMIER LEMME.
 
+[Curated heading level=4: XXXVII.]
+
 [Margin]
 XXXVII.
 [/Margin]
@@ -44,6 +50,8 @@ XXXVII.
 VNE ligne droite eſt perpendiculaire à une circonference, autant que la nature de l'une & de l'autre le peut ſouffrir, lorſqu'elle eſt perpendiculaire à la tangente au point de la ſection.
 
 ## SECOND LEMME.
+
+[Curated heading level=4: XXXVIII.]
 
 [Margin]
 XXXVIII.

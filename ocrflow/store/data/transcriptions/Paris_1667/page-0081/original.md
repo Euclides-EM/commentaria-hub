@@ -5,6 +5,8 @@
 
 ## DIXIEME THEOREME.
 
+[Curated heading level=4: LVIII.]
+
 [Margin]
 LVIII.
 [/Margin]
@@ -20,6 +22,8 @@ Car les deux extrémes n'aiant fait que devenir tous deux moyens, le produit des
 
 ## ONZIEME THEOREME.
 
+[Curated heading level=4: LIX.]
+
 [Margin]
 LIX.
 [/Margin]
@@ -34,6 +38,8 @@ alternando  b.  f  ::  c.  g.
 C'eſt par la même raiſon que la precedente.
 
 ## DOUZIEME THEOREME.
+
+[Curated heading level=4: LX.]
 
 [Margin]
 LX.

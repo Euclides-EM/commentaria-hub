@@ -23,6 +23,8 @@ Donc les points *x* & *c* ne ſçauroient eſtre que le même point, & *k x* & *
 
 ## PREMIER PROBLEME.
 
+[Curated heading level=4: XXXIV.]
+
 [Margin]
 XXXIV.
 [/Margin]

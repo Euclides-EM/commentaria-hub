@@ -19,6 +19,8 @@ Que ſi on oſte *m* & *n* de *b* & *c*; on montrera par la même voye que b —
 
 ## CINQUIEME THEOREME.
 
+[Curated heading level=4: XLV.]
+
 [Margin]
 XLV.
 [/Margin]

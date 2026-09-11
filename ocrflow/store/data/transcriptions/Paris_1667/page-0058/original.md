@@ -13,6 +13,8 @@ Et par conſequent ce tranſport d'un terme d'un membre à un autre en changeant
 
 ## EXEMPLES. DE LA SOLUTION D'UN PROBLEME PAR EQUATIONS.
 
+[Curated heading level=4: LXX.]
+
 [Margin]
 LXX.
 [/Margin]

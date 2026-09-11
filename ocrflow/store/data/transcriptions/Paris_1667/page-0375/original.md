@@ -9,6 +9,8 @@ Ou directement de gauche à droit; ce qui ſe marquera par *g.*
 
 Ou directement de haut en bas; ce qui ſe marquera par *h.*
 
+[Curated heading level=4: LVI.]
+
 [Margin]
 LVI.
 [/Margin]
@@ -28,6 +30,8 @@ SUIVANT ces remarques, & ſe ſouvenant de ce que ſignifient les 4 nombres (1. 
 | 2. | o | c | g | h | o | c | g | h |
 | 3. | h | o | h | o | c | g | c | g |
 | 4. | c | h | h | c | g | o | o | g |
+
+[Curated heading level=4: LVII.]
 
 [Margin]
 LVII.

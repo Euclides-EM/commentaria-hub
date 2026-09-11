@@ -15,6 +15,8 @@ Car par Liv. II. 35. le produit des extrêmes b. g. qui eſt le premier de ces d
 
 ### Dixieme Theoreme.
 
+[Curated heading level=4: XXXII.]
+
 [Margin]
 XXXII.
 [/Margin]
@@ -31,6 +33,8 @@ C'eſt la converſe de la precedente, & qui ſe prouve auſſi par la converſe 
 
 ### Onzieme Theoreme.
 
+[Curated heading level=4: XXXIII.]
+
 [Margin]
 XXXIII.
 [/Margin]
@@ -46,6 +50,8 @@ b c.  m n  ::  o.  d.
 Car le produit des extrêmes b c d. qui eſt le 1er ſolide, ſera égal au produit des moyens m n o. qui eſt le 2e ſolide.
 
 ## COMPARAISON DES RAISONS INEGALES, ET CE QVI FAIT QVE LES VNES SONT APPELLEES PLUS GRANDES QUE LES AUTRES.
+
+[Curated heading level=4: XXXIV.]
 
 [Margin]
 XXXIV.

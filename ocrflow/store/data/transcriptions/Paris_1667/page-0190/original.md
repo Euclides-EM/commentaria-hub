@@ -17,6 +17,8 @@ On peut tirer de là diverſes propoſitions importantes qui ne ſeront que des 
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: LII.]
+
 [Margin]
 LII.
 [/Margin]
@@ -29,6 +31,8 @@ Car ces angles alternes ont pour rayon cette même ligne oblique b c, & pour ſi
 
 ## SECOND COROLLAIRE.
 
+[Curated heading level=4: LIII.]
+
 [Margin]
 LIII.
 [/Margin]
@@ -36,6 +40,8 @@ LIII.
 LES obliques égales entre les mêmes paralleles font les angles égaux : par la même raiſon.
 
 ## TROISIEME COROLLAIRE.
+
+[Curated heading level=4: LIV.]
 
 [Margin]
 LIV.

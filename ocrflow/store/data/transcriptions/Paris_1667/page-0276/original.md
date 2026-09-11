@@ -3,6 +3,8 @@
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: LXX.]
+
 [Margin]
 LXX.
 [/Margin]
@@ -18,6 +20,8 @@ Car ſi *b—x. x :: x. b.*
 Donc la ligne *x+b* eſt diviſée par *b* en moyenne & extrême raiſon , puiſque *b* eſt moyenne proportionelle entre la toute *x+b*. & ſon autre partie *x*.
 
 ## SECOND COROLLAIRE.
+
+[Curated heading level=4: LXXI.]
 
 [Margin]
 LXXI.
@@ -37,6 +41,8 @@ Donc *dividendo x—y. y :: y. x.* Ce qu'il falloit demonſtrer.
 
 ## TROISIEME COROLLAIRE.
 
+[Curated heading level=4: LXXII.]
+
 [Margin]
 LXXII.
 [/Margin]
@@ -44,6 +50,8 @@ LXXII.
 IL eſt aiſé de conclure de ces deux Corollaires, que lorſqu'on a une ligne diviſée en moyenne & extrême raiſon , on en peut avoir une infinité d'autres plus grandes & plus petites diviſées de la même ſorte.
 
 ## PREUVE DES PLUS GRANDES.
+
+[Curated heading level=4: LXXIII.]
 
 [Margin]
 LXXIII.

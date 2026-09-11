@@ -3,6 +3,8 @@
 
 ## HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.
 
+[Curated heading level=4: LVII.]
+
 [Margin]
 LVII.
 [/Margin]
@@ -13,6 +15,8 @@ C'eſt le Corollaire même de la 2ᵉ Propoſition fondamentale.
 
 ## COROLLAIRE.
 
+[Curated heading level=4: LVIII.]
+
 [Margin]
 LVIII.
 [/Margin]
@@ -22,6 +26,8 @@ Si d'un point quelconque d'un diametre on éleve une perpendiculaire juſques à
 Car il eſt clair que cette perpendiculaire eſt la moitié de la corde qui couperoit le diametre perpendiculairement par ce point. Donc par le Theoreme precedent elle doit eſtre moyenne proportionelle entre les parties du diametre.
 
 ## NEUVIEME THEOREME.
+
+[Curated heading level=4: LIX.]
 
 [Margin]
 LIX.

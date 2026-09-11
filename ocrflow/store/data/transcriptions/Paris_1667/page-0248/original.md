@@ -7,6 +7,8 @@ La ſeconde maniere eſt quand l'angle qu'une baſe fait ſur un coſté eſt é
 
 ## QUATRIEME LEMME.
 
+[Curated heading level=4: IV.]
+
 [Margin]
 IV.
 [/Margin]
@@ -14,6 +16,8 @@ IV.
 LES baſes paralleles d'un même angle ne peuvent eſtre diſpoſées que d'une ſeule maniere, qui eſt d'eſtre toutes ſeparées l'une de l'autre. Car c'eſt le propre des paralleles de ne ſe pouvoir jamais joindre. Mais les antiparalleles peuvent eſtre diſpoſées en trois manieres differentes.
 
 ## PREMIERE DISPOSITION DES ANTIPARALLELES.
+
+[Curated heading level=4: V.]
 
 [Margin]
 V.

@@ -3,6 +3,8 @@
 
 ## PREMIERE PREUVE DANS LA PREMIERE DISPOSITION DES ANTIPARALLELES.
 
+[Curated heading level=4: XVIII.]
+
 [Margin]
 XVIII.
 [/Margin]
@@ -21,6 +23,8 @@ Donc une toute & ſa partie ſont reciproques à l'autre toute & à ſa partie.
 
 ## SECONDE PREUVE DANS LA SECONDE DISPOSITION DES ANTIPARALLELES.
 
+[Curated heading level=4: XIX.]
+
 [Margin]
 XIX.
 [/Margin]
@@ -36,6 +40,8 @@ Donc (par 15. s̄.) T. *T* :: *p*. p.
 Je reſerve la 3e diſpoſition pour un Corollaire à part.
 
 ## COROLLAIRE.
+
+[Curated heading level=4: XX.]
 
 [Margin]
 XX.

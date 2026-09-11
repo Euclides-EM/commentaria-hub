@@ -17,6 +17,8 @@ Donc par V. 57. les perpendiculaires de *k* ſur *b d* & de *b* ſur *c k* ſont
 
 ## SIXIEME THEOREME.
 
+[Curated heading level=4: XXV.]
+
 [Margin]
 XXV.
 [/Margin]
@@ -32,6 +34,8 @@ Les inégales entre paralleles quoy qu'inclinées du même coſté ne peuvent e�
 [Diagram: two horizontal parallel lines with points b and c on the upper line joined by oblique and dotted lines to points d, k and q on the lower line]
 
 ## SEPTIEME THEOREME.
+
+[Curated heading level=4: XXVI.]
 
 [Margin]
 XXVI.

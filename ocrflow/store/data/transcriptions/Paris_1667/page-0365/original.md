@@ -6,6 +6,8 @@
 
 ## §. 1. CE QUE C'EST QUE CE PROBLEME.
 
+[Curated heading level=4: I.]
+
 [Margin]
 I.
 [/Margin]
@@ -22,6 +24,8 @@ Soient pris pour exemples les quarrez d'onze pour les impairs; & de douze pour l
 
 ## §. 2. CONSIDERATIONS SUR LES QUARREZ NATURELS.
 
+[Curated heading level=4: II.]
+
 [Margin]
 II.
 [/Margin]
@@ -29,6 +33,8 @@ II.
 J'appelle quarrez naturels ceux où les chiffres ſont diſpoſez en progreſſion arithmetique en commençant par les plus petits.
 
 ### Sur les Quarrez impairs.
+
+[Curated heading level=4: III.]
 
 [Margin]
 III.

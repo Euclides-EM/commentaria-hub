@@ -3,6 +3,8 @@
 
 ## QUATRIEME DEMONSTRATION.
 
+[Curated heading level=4: L.]
+
 [Margin]
 L.
 [/Margin]
@@ -23,6 +25,8 @@ Donc la moitié de l'arc *k c* eſt la meſure de l'angle *k L q*. Ce qu'il falo
 
 ## DES ANGLES DONT LES DEUX COSTEZ TOUCHENT LE CERCLE.
 
+[Curated heading level=4: LI.]
+
 [Margin]
 LI.
 [/Margin]
@@ -34,6 +38,8 @@ On les peut appeller des angles circonſcripts.
 Et voicy une nouvelle maniere de les meſurer.
 
 ## SEPTIEME THEOREME.
+
+[Curated heading level=4: LII.]
 
 [Margin]
 LII.

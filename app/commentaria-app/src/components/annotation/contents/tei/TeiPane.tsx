@@ -3,13 +3,13 @@ import {
   getTeiHighlightCategories,
   getTeiOriginalEditableLines,
   getTeiSurfaceZones,
-  getTeiTranslations,
+  getTeiAlternatives,
   getTeiZoneToServerTextBlockId,
   hasTeiCertaintyDegrees,
   type TeiHighlightConfig,
   type TeiManualHighlight,
   type TeiSurfaceZone,
-  type TeiTranslation,
+  type TeiAlternative,
   type TeiViewMode,
 } from './tei.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
@@ -237,8 +237,8 @@ export function TeiPane({
     { defaultValue: [] },
   )
 
-  const teiTranslations = useMemo<TeiTranslation[]>(
-    () => (teiContents ? getTeiTranslations(teiContents) : []),
+  const teiAlternatives = useMemo<TeiAlternative[]>(
+    () => (teiContents ? getTeiAlternatives(teiContents) : []),
     [teiContents],
   )
   const showMinCertControl = useMemo(
@@ -247,8 +247,8 @@ export function TeiPane({
   )
 
   const availableViewModes = useMemo<TeiViewMode[]>(
-    () => ['original', ...teiTranslations.map((translation) => translation.id)],
-    [teiTranslations],
+    () => ['original', ...teiAlternatives.map((alternative) => alternative.id)],
+    [teiAlternatives],
   )
 
   useEffect(() => {
@@ -879,7 +879,7 @@ export function TeiPane({
       return 'Original'
     }
     const rawLabel =
-      teiTranslations.find((translation) => translation.id === mode)?.label ||
+      teiAlternatives.find((alternative) => alternative.id === mode)?.label ||
       mode
     return VIEW_LABEL_MAP[rawLabel] || rawLabel
   }

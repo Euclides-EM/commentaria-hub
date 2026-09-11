@@ -1,6 +1,8 @@
 <!-- Page number: 150 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
+[Curated heading level=4: XXXVIII.]
+
 [Margin]
 XXXVIII.
 [/Margin]
@@ -11,6 +13,8 @@ Tout cela ſuppoſé, ſoient conſiderez les Lemmes ſuivans.
 
 ## PREMIER LEMME.
 
+[Curated heading level=4: XXXIX.]
+
 [Margin]
 XXXIX.
 [/Margin]
@@ -18,6 +22,8 @@ XXXIX.
 QUAND on dit que deux angles qu'on veut meſurer par les ſinus ont le rayon égal, c'eſt de même que ſi l'on diſoit qu'ils ſont meſurez par des arcs de cercles égaux; & s'ils ont le rayon inégal, par des arcs de cercles inégaux.
 
 ## SECOND LEMME.
+
+[Curated heading level=4: XL.]
 
 [Margin]
 XL.
@@ -27,6 +33,8 @@ DANS les cercles égaux les arcs égaux ont des ſinus égaux, & les ſinus éga
 
 ## TROISIEME LEMME.
 
+[Curated heading level=4: XLI.]
+
 [Margin]
 XLI.
 [/Margin]
@@ -34,6 +42,8 @@ XLI.
 DANS les cercles égaux les plus grands arcs ont les plus grands ſinus, & les plus grands ſinus donnent les plus grands arcs. VII. 15.
 
 ## QUATRIEME LEMME.
+
+[Curated heading level=4: XLII.]
 
 [Margin]
 XLII.
@@ -43,6 +53,8 @@ DANS des cercles inégaux les arcs eſtant égaux, ceux des plus grands cercles 
 
 ## CINQUIEME LEMME.
 
+[Curated heading level=4: XLIII.]
+
 [Margin]
 XLIII.
 [/Margin]
@@ -50,6 +62,8 @@ XLIII.
 DANS des cercles inégaux les ſinus eſtant égaux, ceux des plus grands cercles donnent des arcs proportionellement plus petits, c'eſtadire de moins de degrez. C'eſt une ſuitte claire du precedent.
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: XLIV.]
 
 [Margin]
 XLIV.

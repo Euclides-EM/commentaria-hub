@@ -38,7 +38,9 @@ Donc { l. m } ſont commenſurables en ſeconde puiſſance.
      { m. n }
 [/Calculation]
 
-## TROISIEME CAS.
+### TROISIEME CAS.
+
+[Curated heading level=4: XXIV.]
 
 [Margin]
 XXIV.
@@ -47,6 +49,8 @@ XXIV.
 Si la raiſon de la 1re à la 4e grandeur n'eſt pas de nombre à nombre, la 1re & 2e, la 2e & 3e, la 3e & 4e, ſont incommenſurables tant en longueur qu'en ſeconde puiſſance. La raiſon du 2e cas prouve qu'elles le ſont en longueur : & elles le ſont en ſeconde puiſſance, parce que la raiſon du cube de la 1re au cube de la 2e, & ainſi des autres, eſt la même que la raiſon de la 1re grandeur à la 4e, que l'on ſuppoſe n'eſtre pas de nombre à nombre.
 
 ## TROISIEME COROLLAIRE.
+
+[Curated heading level=4: XXV.]
 
 [Margin]
 XXV.

@@ -9,6 +9,8 @@ C'eſt ce que nous trouverons facilement apres avoir établi quelques Lemmes.
 
 ## AVERTISSEMENT POUR LES LEMMES SUIVANS.
 
+[Curated heading level=4: III.]
+
 [Margin]
 III.
 [/Margin]
@@ -20,6 +22,8 @@ III.
 *L'autre, que ces coupantes ſoient enfermées entre les coupées, & c'eſt auſſy ce que j'entens dans tout ce Livre quand je parle des lignes entre-paralleles.*
 
 ## PREMIER LEMME.
+
+[Curated heading level=4: IV.]
 
 [Margin]
 IV.

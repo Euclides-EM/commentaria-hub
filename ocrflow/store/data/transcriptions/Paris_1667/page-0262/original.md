@@ -16,6 +16,8 @@ T. p     : :    T. p.
 
 ## SECONDE COMPARAISON.
 
+[Curated heading level=4: XLIII.]
+
 [Margin]
 XLIII.
 [/Margin]
@@ -38,6 +40,8 @@ T. p    : :    T. p.
 [/Calculation]
 
 ## TROISIEME COMPARAISON.
+
+[Curated heading level=4: XLIV.]
 
 [Margin]
 XLIV.

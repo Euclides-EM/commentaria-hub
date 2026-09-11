@@ -5,6 +5,8 @@ tiere, c'eſtadire de 360. degrez, les deux arcs que ſoutiennent les coſtez de
 
 ## SECOND COROLLAIRE.
 
+[Curated heading level=4: XX.]
+
 [Margin]
 XX.
 [/Margin]
@@ -18,6 +20,8 @@ Et cette meſure eſt ſouvent plus commode que l'autre, comme ſi l'on ſçait 
 Et cela eſt encore plus facile, quand l'angle inſcrit eſt Iſoſcele, comme ſi l'un & l'autre de ſes coſtez ſoutient un arc de 36 degrez: car oſtant 36 de 180, ce qui reſte, qui eſt 144, eſt la meſure de cet angle inſcrit.
 
 ## TROISIEME COROLLAIRE.
+
+[Curated heading level=4: XXI.]
 
 [Margin]
 XXI.

@@ -3,6 +3,8 @@
 
 ## CINQUIEME COROLLAIRE.
 
+[Curated heading level=4: XXIII.]
+
 [Margin]
 XXIII.
 [/Margin]
@@ -13,6 +15,8 @@ C'eſt une ſuitte manifeſte du precedent Corollaire. Car ſi chaque partie de 
 
 ## SIXIEME COROLLAIRE.
 
+[Curated heading level=4: XXIV.]
+
 [Margin]
 XXIV.
 [/Margin]
@@ -22,6 +26,8 @@ Si un angle a pluſieurs baſes paralleles, toutes les lignes tirées du ſommet
 Ce n'eſt que les deux precedens Corollaires un peu autrement énoncez.
 
 ## SEPTIEME COROLLAIRE.
+
+[Curated heading level=4: XXV.]
 
 [Margin]
 XXV.

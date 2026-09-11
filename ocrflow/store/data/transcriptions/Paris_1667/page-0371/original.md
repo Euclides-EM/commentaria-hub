@@ -3,6 +3,8 @@
 
 ## §. 6. REGLES PARTICULIERES POUR LES QUARREZ IMPAIRS.
 
+[Curated heading level=4: XL.]
+
 [Margin]
 XL.
 [/Margin]
@@ -23,6 +25,8 @@ A la bande de coſté du coſté d'*a*, *o*.
 
 ### DEMONSTRATION.
 
+[Curated heading level=4: XLI.]
+
 [Margin]
 XLI.
 [/Margin]
@@ -39,6 +43,8 @@ Or *e. c. E* ═ 3 *c*. par 20.
 
 Donc *a. E. m* ═ 3 *c*. Ce qu'il falloit demonſtrer.
 
+[Curated heading level=4: XLII.]
+
 [Margin]
 XLII.
 [/Margin]
@@ -54,6 +60,8 @@ Or *m. c. M* ═ 3 *c*. par 20.
 Donc *a. o. M* ═ 3 *c*.
 
 ### POUR LES ENCEINTES IMPAIRES.
+
+[Curated heading level=4: XLIII.]
 
 [Margin]
 XLIII.

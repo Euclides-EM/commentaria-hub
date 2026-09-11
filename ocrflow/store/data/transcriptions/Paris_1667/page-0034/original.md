@@ -4,7 +4,9 @@ Que ſi l'endroit où l'on renvoie eſt du même livre, on cite quelquefois un t
 
 ## TABLE
 
-## De ce qui eſt traitté dans chaque Livre.
+[Subhead]
+De ce qui eſt traitté dans chaque Livre.
+[/Subhead]
 
 On pourroit dire beaucoup de choſes ſur l'ordre qu'on a ſuivi dans ces Elemens, & pour faire voir qu'il eſt beaucoup plus naturel que celuy qu'on a jamais obſervé dans ces matieres. Mais on aime mieux en laiſſer le jugement à ceux qui les liront, & l'on ſe contente d'en repreſenter le plan en faiſant voir de ſuite ce qui eſt traitté dans chaque livre.
 

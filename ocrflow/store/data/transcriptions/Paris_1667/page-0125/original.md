@@ -3,6 +3,8 @@
 
 ### AVERTISSEMENT.
 
+[Curated heading level=4: XXX.]
+
 [Margin]
 XXX.
 [/Margin]
@@ -10,6 +12,8 @@ XXX.
 *Quoy que deux lignes qui ſe coupent, ſe coupent & ſoient coupées mutuellement, neanmoins afin qu'on ne les confonde pas, nous appellerons l'une coupée & l'autre coupante.*
 
 ### DEFINITION PLVS EXACTE DE LA PERPENDICULAIRE.
+
+[Curated heading level=4: XXXI.]
 
 [Margin]
 XXXI.
@@ -22,6 +26,8 @@ Lors que deux points de la ligne coupée eſtans pris également diſtans de l'u
 [Figure: vertical line marked with points E, D and C, cutting perpendicularly a horizontal line A B]
 
 ### AXIOME.
+
+[Curated heading level=4: XXXII.]
 
 [Margin]
 XXXII.

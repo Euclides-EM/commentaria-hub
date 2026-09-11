@@ -30,6 +30,8 @@ Et ainſi 10 fois 10 n'eſt plus grand que 7 fois 8 ( qui eſt ce que l'on cherc
 
 ## QUATRIEME REGLE.
 
+[Curated heading level=4: LXIV.]
+
 [Margin]
 LXIV.
 [/Margin]

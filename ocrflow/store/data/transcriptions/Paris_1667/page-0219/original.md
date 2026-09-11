@@ -27,6 +27,8 @@ La preuve du troiſiême Cas eſt ſemblable à ces deux là, tenant quelque cho
 
 ## SIXIEME THEOREME.
 
+[Curated heading level=4: XLVI.]
+
 [Margin]
 XLVI.
 [/Margin]

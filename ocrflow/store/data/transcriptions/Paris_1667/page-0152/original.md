@@ -3,6 +3,8 @@
 
 ## TROISIEME THEOREME.
 
+[Curated heading level=4: XXII.]
+
 [Margin]
 XXII.
 [/Margin]
@@ -10,6 +12,8 @@ XXII.
 Les plus inclinées entre les mêmes paralleles ſont les plus longues, & les plus longues ſont les plus inclinées; cela ſe prouve de la même ſorte par V. 54.
 
 ## QUATRIEME THEOREME.
+
+[Curated heading level=4: XXIII.]
 
 [Margin]
 XXIII.
@@ -41,6 +45,8 @@ d k = f g. & par conſequent à b c.
 [/Calculation]
 
 ## CINQUIEME THEOREME.
+
+[Curated heading level=4: XXIV.]
 
 [Margin]
 XXIV.

@@ -5,6 +5,8 @@ On laiſſe à trouver beaucoup d'autres manieres dont on le peut demonſtrer.
 
 ## TROISIEME THEOREME.
 
+[Curated heading level=4: XI.]
+
 [Margin]
 XI.
 [/Margin]
@@ -53,6 +55,8 @@ Pour l'angle d. d r. r q { d b. b q.
 [/Calculation]
 
 ## PREMIER PROBLEME.
+
+[Curated heading level=4: XII.]
 
 [Margin]
 XII.

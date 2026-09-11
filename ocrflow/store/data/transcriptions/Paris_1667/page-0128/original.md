@@ -7,6 +7,8 @@ C'eſt la meſme preuve que du precedent. Car *k* & *b* ſeront chacun égalemen
 
 ## TROISIEME PROBLEME.
 
+[Curated heading level=4: XXXV.]
+
 [Margin]
 XXXV.
 [/Margin]
@@ -18,6 +20,8 @@ Couper une ligne donnée en deux parties égales. Soit la ligne donnée *mn*, en
 [Diagram: vertical line marked K and B meeting a horizontal line marked M, Z and N, with dotted arcs near the top]
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: XXXVI.]
 
 [Margin]
 XXXVI.

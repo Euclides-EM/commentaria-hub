@@ -15,6 +15,8 @@ Donc *bc* eſt la moitié de *db*. Ce qu'il falloit demonſtrer.
 
 ## PROBLEME.
 
+[Curated heading level=4: XXXII.]
+
 [Margin]
 XXXII.
 [/Margin]

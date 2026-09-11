@@ -1,7 +1,7 @@
-export type TeiViewMode = 'original' | `translation:${number}`
+export type TeiViewMode = 'original' | `alternative:${number}`
 
-export type TeiTranslation = {
-  id: `translation:${number}`
+export type TeiAlternative = {
+  id: `alternative:${number}`
   label: string
 }
 
@@ -61,7 +61,7 @@ export type TeiSurfaceZone = {
   hasSurfaceBounds: boolean
 }
 
-export type TeiTranslationSource = {
+export type TeiAlternativeSource = {
   label: string
   element: Element
 }

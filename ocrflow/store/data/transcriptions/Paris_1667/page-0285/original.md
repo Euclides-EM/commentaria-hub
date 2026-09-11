@@ -9,6 +9,8 @@ Les Geometres ſe ſont reſtraints à conſiderer les dernieres, parcequ'on y p
 
 ## ESPECES DES FIGURES RECTILIGNES.
 
+[Curated heading level=4: VII.]
+
 [Margin]
 VII.
 [/Margin]
@@ -34,6 +36,8 @@ Et Polygone, de pluſieurs angles indeterminément.
 Ces noms ſont ſi communs, qu'il eſt bon de ne les pas ignorer; mais on peut ſe paſſer d'en ſçavoir d'autres qui ſont moins communs: & appeller les figures du nombre de leurs coſtez ou de leurs angles. Une figure de quinze coſtez, de trente, de cent, de mille &c.
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: VIII.]
 
 [Margin]
 VIII.

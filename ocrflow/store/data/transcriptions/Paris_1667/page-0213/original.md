@@ -7,6 +7,8 @@ n c B & c n m ſont égaux, parce qu'ils ſont appuyez ſur des arcs égaux. Don
 
 ## I.
 
+[Curated heading level=4: XXXVI.]
+
 [Margin]
 XXXVI.
 [/Margin]
@@ -22,6 +24,8 @@ Car la diſtance eſtant donnée de ce ſommet à l'hypothenuſe, il ne ſe peut
 [Figure: a semicircle on a horizontal diameter, with a horizontal line parallel to the diameter cutting the semicircle]
 
 ## SECOND PROBLEME.
+
+[Curated heading level=4: XXXVII.]
 
 [Margin]
 XXXVII.

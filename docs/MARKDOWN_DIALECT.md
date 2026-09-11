@@ -38,6 +38,10 @@ book-level headings, `## TEXT` for section or proposition headings, `### TEXT` f
 subordinate headings, and deeper levels only when the edition's structure requires
 them. Use consistent levels within an edition. Never use headings for page furniture.
 
+A printed subhead that supplements, qualifies or describes a heading without
+creating a separate hierarchical division uses a paired `[Subhead]...[/Subhead]`
+block. A subhead does not change the Markdown heading level.
+
 Editorially supplied structure uses `[Curated heading level=N: TEXT]`, where `N` is
 a positive integer. Curated headings are metadata supplied by a curator; never infer
 them from the page image or treat their wording as printed text.
@@ -86,6 +90,10 @@ text.
 Textual zones use paired, case-sensitive annotations:
 
 ```markdown
+[Subhead]
+TEXT
+[/Subhead]
+
 [Margin]
 TEXT
 [/Margin]
@@ -107,10 +115,12 @@ TEXT
 [/Other]
 ```
 
-Do not preserve ordinary printed lineation inside textual zones. `[Margin]` is for
-printed marginal text; `[Handwritten]` is for handwritten text. Use a specific zone
-whenever possible. `[Other]` is only for a distinct relevant zone with no defined
-type, may be empty, and must not replace ordinary text or a difficult classification.
+Do not preserve ordinary printed lineation inside textual zones. `[Subhead]` is for
+printed text associated with a heading that is not a separate structural division;
+`[Margin]` is for printed marginal text; `[Handwritten]` is for handwritten text.
+Use a specific zone whenever possible. `[Other]` is only for a distinct relevant
+zone with no defined type, may be empty, and must not replace ordinary text or a
+difficult classification.
 
 Non-textual page objects occur on their own line at the corresponding position.
 Each object may optionally include a concise description after a colon:
@@ -338,7 +348,28 @@ Use the same heading level for headings of the same structural type within an ed
 
 Do not use Markdown headings for running titles or other page furniture.
 
-### 4.1 Curated headings
+### 4.1 Subheads
+
+A subhead is printed text associated with a heading that supplements, qualifies or
+describes that heading without constituting a separate hierarchical division. It
+commonly appears immediately after or beneath a main heading and before the body
+text.
+
+Represent a subhead using a paired block:
+
+```markdown
+## DEFINITIONS DE QUELQUES MOTS
+
+[Subhead]
+dont on s'eſt ſervi dans ces Elemens ſans les definir, parcequ'ils ſont plûtoſt de Logique que de Geometrie.
+[/Subhead]
+```
+
+Do not prefix subhead text with `#`. A subhead supplements the preceding heading
+and MUST NOT create or change a Markdown heading level. Preserve paragraph
+boundaries within the block, but do not preserve ordinary printed line breaks.
+
+### 4.2 Curated headings
 
 A curated heading is an editorially supplied structural heading that does not
 correspond to heading text printed in the source. It may be used to group, index or
@@ -767,6 +798,7 @@ To be determined.
 |-----------------------------|-------------------------------------------------------------------|
 | Book-level heading          | `# TEXT`                                                          |
 | Proposition/section heading | `## TEXT`                                                         |
+| Subhead                     | `[Subhead]...[/Subhead]`                                          |
 | Running title               | `<!-- Running title: TEXT -->`                                    |
 | Page/folio number           | `<!-- Page number: TEXT -->`                                      |
 | Signature                   | `<!-- Signature: TEXT -->`                                        |

@@ -5,6 +5,8 @@ l'autre ( & par conſequent une figure eſt à l'autre ) comme un des triangles 
 
 ## PREMIER PROBLEME.
 
+[Curated heading level=4: XL.]
+
 [Margin]
 XL.
 [/Margin]
@@ -24,6 +26,8 @@ Soit prolongée qg juſques en k, en ſorte que qk ſoit égale à br, joignant 
 Le parallelogramme dhkg ſera égal & equiangle au donné bcdf.
 
 ## SECOND PROBLEME.
+
+[Curated heading level=4: XLI.]
 
 [Margin]
 XLI.

@@ -9,6 +9,8 @@ Donc les 3 coſtez de ces deux triangles ſont égaux chacun à chacun auſſy b
 
 [Figure: two triangles b c d, each with a dotted line c f from the apex c to a point f on the base between b and d, beneath a dotted horizontal line through the two points c]
 
+[Curated heading level=4: XIX.]
+
 [Margin]
 XIX.
 [/Margin]

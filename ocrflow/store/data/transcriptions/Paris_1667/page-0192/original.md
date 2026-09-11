@@ -7,6 +7,8 @@ l'angle aigu vers *d*, au deſſus d'*y*, parcequ'ils ſont alternes, & ce derni
 
 ## Septieme Corollaire.
 
+[Curated heading level=4: LVIII.]
+
 [Margin]
 LVIII.
 [/Margin]
@@ -21,6 +23,8 @@ Donc les rayons de ces angles qui ſont les portions de cette ligne compriſes e
 
 ## Huitieme Corollaire.
 
+[Curated heading level=4: LIX.]
+
 [Margin]
 LIX.
 [/Margin]
@@ -30,6 +34,8 @@ LORS que deux lignes ſont menées d'un même point ſur une autre ligne, c'eſt
 Car on peut par ce point tirer une parallele à la ligne que ces deux lignes coupent.
 
 ## Neuvieme Corollaire.
+
+[Curated heading level=4: LX.]
 
 [Margin]
 LX.

@@ -5,6 +5,8 @@
 
 ## DEFINITION.
 
+[Curated heading level=4: III.]
+
 [Margin]
 III.
 [/Margin]
@@ -15,6 +17,8 @@ Le coſté quelconque d'un triangle en peut eſtre appellé *la baſe*, & les de
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: IV.]
+
 [Margin]
 IV.
 [/Margin]
@@ -22,6 +26,8 @@ IV.
 Tout triangle a ſes trois angles égaux à deux droits. VIII. 59.
 
 ## PREMIER COROLLAIRE.
+
+[Curated heading level=4: V.]
 
 [Margin]
 V.
@@ -31,6 +37,8 @@ Tous les trois angles d'un triangle peuvent eſtre aigus; mais il n'y en peut av
 
 ## SECOND COROLLAIRE.
 
+[Curated heading level=4: VI.]
+
 [Margin]
 VI.
 [/Margin]
@@ -38,6 +46,8 @@ VI.
 Si l'un des angles du triangle eſt droit, les deux autres valent un droit.
 
 ## TROISIEME COROLLAIRE.
+
+[Curated heading level=4: VII.]
 
 [Margin]
 VII.
@@ -48,6 +58,8 @@ Qui connoiſt la grandeur des deux angles d'un triangle, connoiſt la grandeur d
 Qui connoiſt de combien de degrez ſont les deux, ſçait de combien de degrez eſt le 3ᵉ. Car oſtant le nombre des degrez que valent les deux de 180, ce qui reſte eſt le nombre des degrez que vaut le 3ᵉ. Si les deux valent 108 degrez, le 3ᵉ en vaut 72.
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: VIII.]
 
 [Margin]
 VIII.

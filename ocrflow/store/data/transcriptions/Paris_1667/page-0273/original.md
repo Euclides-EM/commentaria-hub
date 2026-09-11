@@ -5,6 +5,8 @@
 
 ### I.
 
+[Curated heading level=4: LXV.]
+
 [Margin]
 LXV.
 [/Margin]
@@ -17,6 +19,8 @@ On peut employer pour trouver la même choſe les Theoremes 2. ( 46. s̄. ) & 6.
 
 ### SECOND PROBLEME.
 
+[Curated heading level=4: LXVI.]
+
 [Margin]
 LXVI.
 [/Margin]
@@ -26,6 +30,8 @@ TROUVER toutes les reciproques poſſibles à deux lignes données. Mettre la pl
 [Figure: circle with vertical diameter K f, point c on the diameter, and a horizontal line through c extended to y]
 
 ### TROISIEME PROBLEME.
+
+[Curated heading level=4: LXVII.]
 
 [Margin]
 LXVII.

@@ -3,6 +3,8 @@
 
 ### Second Corollaire.
 
+[Curated heading level=4: XIX.]
+
 [Margin]
 XIX.
 [/Margin]
@@ -12,6 +14,8 @@ Toute grandeur ſolide eſt à une autre grandeur ſolide en raiſon compoſée 
 C'eſt la même choſe que la propoſition generale.
 
 ### Troisieme Corollaire.
+
+[Curated heading level=4: XX.]
 
 [Margin]
 XX.
@@ -29,6 +33,8 @@ Cela eſt clair par liu. 11. 33. Et par le 1er & 2e Corollaire, joint à 13. ſu
 
 ### Quatrieme Corollaire.
 
+[Curated heading level=4: XXI.]
+
 [Margin]
 XXI.
 [/Margin]
@@ -36,6 +42,8 @@ XXI.
 Les plans dont les deux dimenſions ont même raiſon chacune de l'un à chacune de l'autre, ſont en raiſon doublée de cette raiſon. Cela eſt clair par le 1er Corollaire & la definition de la raiſon doublée.
 
 ### Cinquieme Corollaire.
+
+[Curated heading level=4: XXII.]
 
 [Margin]
 XXII.
@@ -47,6 +55,8 @@ Cela eſt encore clair par le 2e Corollaire, & la definition de la raiſon tripl
 
 ### Sixieme Corollaire.
 
+[Curated heading level=4: XXIII.]
+
 [Margin]
 XXIII.
 [/Margin]
@@ -56,6 +66,8 @@ Tous les quarrez & tous les cubes ſont en raiſon les uns doublée, les autres 
 Car toutes les dimenſions des quarrez & des cubes eſtant égales entr'elles, elles ne peuvent pas n'avoir pas chacune la même raiſon à chacune des dimenſions des autres quarrez & des autres cubes.
 
 ### Septieme Corollaire.
+
+[Curated heading level=4: XXIV.]
 
 [Margin]
 XXIV.

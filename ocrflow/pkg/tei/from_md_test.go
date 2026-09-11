@@ -1,6 +1,7 @@
 package tei
 
 import (
+	"strings"
 	"testing"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/markdown"
@@ -56,6 +57,10 @@ func TestMarkdownBlocksUseCanonicalDialect(t *testing.T) {
 
 [Curated heading level=2: Editorial division]
 
+[Subhead]
+Printed qualification of the heading
+[/Subhead]
+
 [Margin]
 printed note
 [/Margin]
@@ -81,7 +86,7 @@ label
 `}
 	abs := markdownBlocksToABs("12", md)
 	wantTypes := []string{
-		"running-title", "header1", "curated-heading", "margin", "other:binding", "diagram",
+		"running-title", "header1", "curated-heading", "subhead", "margin", "other:binding", "diagram",
 		"illustration", "calculation", "blank-page", "table",
 	}
 	if len(abs) != len(wantTypes) {
@@ -95,11 +100,60 @@ label
 	if abs[2].N != "2" || inlineText(abs[2].Lines[0].Nodes) != "Editorial division" {
 		t.Errorf("curated heading = %#v", abs[2])
 	}
-	if got := inlineText(abs[5].Lines[0].Nodes); got != "circle labelled A" {
+	if got := inlineText(abs[3].Lines[0].Nodes); got != "Printed qualification of the heading" {
+		t.Errorf("subhead = %q", got)
+	}
+	if got := inlineText(abs[6].Lines[0].Nodes); got != "circle labelled A" {
 		t.Errorf("diagram description = %q", got)
 	}
-	if got := inlineText(abs[9].Lines[1].Nodes); got != "2|2 | x" {
+	if got := inlineText(abs[10].Lines[1].Nodes); got != "2|2 | x" {
 		t.Errorf("table row = %q", got)
+	}
+}
+
+func TestMarkdownBlocksJoinConsecutiveHeadersAtSameLevel(t *testing.T) {
+	abs := markdownBlocksToABs("39", &markdown.Markdown{Content: `# NOVVEAVX ELEMENS DE GEOMETRIE.
+
+# LIVRE PREMIER.
+
+Body text.`})
+
+	if len(abs) != 2 {
+		t.Fatalf("got %d blocks, want 2: %#v", len(abs), abs)
+	}
+	if abs[0].Type != "header1" {
+		t.Fatalf("heading type = %q, want header1", abs[0].Type)
+	}
+	if got := inlineText(abs[0].Lines[0].Nodes); got != "NOVVEAVX ELEMENS DE GEOMETRIE. LIVRE PREMIER." {
+		t.Fatalf("heading content = %q", got)
+	}
+}
+
+func TestMarkdownSubheadBecomesTEIAB(t *testing.T) {
+	doc, err := BuildTEIFromMarkdown("32", &markdown.Markdown{Content: `## Main heading
+
+[Subhead]
+Printed qualification.
+[/Subhead]
+
+Body text.`}, nil)
+	if err != nil {
+		t.Fatalf("BuildTEIFromMarkdown() error = %v", err)
+	}
+
+	xmlBytes, err := doc.ToXML()
+	if err != nil {
+		t.Fatalf("ToXML() error = %v", err)
+	}
+	xmlText := string(xmlBytes)
+	if !strings.Contains(xmlText, `<ab xml:id="transcription_anon_blk_page_32_2" type="subhead">`) {
+		t.Fatalf("TEI does not contain a subhead ab:\n%s", xmlText)
+	}
+	if !strings.Contains(xmlText, `>Printed qualification.</l>`) {
+		t.Fatalf("TEI subhead content is not formatted correctly:\n%s", xmlText)
+	}
+	if strings.Contains(xmlText, "[Subhead]") || strings.Contains(xmlText, "[/Subhead]") {
+		t.Fatalf("Markdown subhead markers leaked into TEI:\n%s", xmlText)
 	}
 }
 
@@ -117,6 +171,42 @@ func TestMarkdownInlineAnnotations(t *testing.T) {
 	}
 	if nodes[0].Inline == nil || nodes[0].Inline.Rend != "dropcap lines=3 style=decorated decoration=floral" {
 		t.Fatalf("dropcap node = %#v", nodes[0])
+	}
+}
+
+func TestMarkdownInlineEscapedAsteriskBecomesLiteralText(t *testing.T) {
+	nodes := markdownInlineNodes(`\* 228. *Il manque une raye droite* de *c* à *d*.`)
+	if got := inlineText(nodes); got != "* 228. Il manque une raye droite de c à d." {
+		t.Fatalf("inline text = %q", got)
+	}
+	if len(nodes) != 7 {
+		t.Fatalf("got %d nodes, want 7: %#v", len(nodes), nodes)
+	}
+	for _, index := range []int{1, 3, 5} {
+		if nodes[index].Inline == nil || nodes[index].Inline.Rend != "italic" {
+			t.Fatalf("node %d = %#v, want italic inline", index, nodes[index])
+		}
+	}
+}
+
+func TestMarkdownInlineEscapedAsteriskInMarginTEI(t *testing.T) {
+	doc, err := BuildTEIFromMarkdown("38", &markdown.Markdown{Content: `[Margin]
+\* Le chiffre eſt manqué, ne marque que [unclear: 260], & le ſuivant 221.
+[/Margin]`}, nil)
+	if err != nil {
+		t.Fatalf("BuildTEIFromMarkdown() error = %v", err)
+	}
+
+	xmlBytes, err := doc.ToXML()
+	if err != nil {
+		t.Fatalf("ToXML() error = %v", err)
+	}
+	xmlText := string(xmlBytes)
+	if !strings.Contains(xmlText, `>* Le chiffre eſt manqué, ne marque que `) {
+		t.Fatalf("escaped asterisk was not rendered as literal text:\n%s", xmlText)
+	}
+	if strings.Contains(xmlText, `>\* Le chiffre`) {
+		t.Fatalf("Markdown escape leaked into TEI:\n%s", xmlText)
 	}
 }
 

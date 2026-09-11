@@ -7,6 +7,8 @@ Mais ſi on conſidere *k m*, & *k p*, inclinée du même coſté, il eſt viſi
 
 ## HUITIEME THEOREME.
 
+[Curated heading level=4: LVII.]
+
 [Margin]
 LVII.
 [/Margin]

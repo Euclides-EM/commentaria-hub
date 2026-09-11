@@ -22,7 +22,7 @@ Les Exemplaires ont eſté fournis.
 | 299 | 14 | diviſée en 6, & en *c* | en *b* & en *c* |
 | 306 | 18 | quoy qu'elle ſoit en l'un | quoy qu'en l'un elle ſoit l'un |
 
-## FAUTES DANS LES FIGURES.
+### FAUTES DANS LES FIGURES.
 
 Page 91. *La 1ʳᵉ figure de cette page devroit eſtre au 1ᵉʳ Theoreme de la page precedente.*
 

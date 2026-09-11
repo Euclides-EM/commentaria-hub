@@ -5,6 +5,8 @@ raiſons égales chacune à chacune de part & d'autre par l'hypotheſe : Donc ce
 
 ### Quatrieme Theoreme.
 
+[Curated heading level=4: X.]
+
 [Margin]
 X.
 [/Margin]
@@ -32,6 +34,8 @@ Donc *b. d :: m. o.* *Ce qu'il falloit démonſtrer.*
 
 ### Quatrieme Definition.
 
+[Curated heading level=4: XI.]
+
 [Margin]
 XI.
 [/Margin]
@@ -39,6 +43,8 @@ XI.
 VNE raiſon compoſée de deux raiſons égales, s'appelle *raiſon doublée* de chacune de ces raiſons.
 
 ### Cinquieme Definition.
+
+[Curated heading level=4: XII.]
 
 [Margin]
 XII.
@@ -48,6 +54,8 @@ VNE raiſon compoſée de trois raiſons égales, s'appelle *raiſon triplée* d
 
 ### Avertissement.
 
+[Curated heading level=4: XIII.]
+
 [Margin]
 XIII.
 [/Margin]
@@ -55,6 +63,8 @@ XIII.
 IL *ne faut pas confondre une raiſon double ou triple, avec une raiſon doublée ou triplée ; ce qui eſt tout different. Car la raiſon non ecuple n'eſt pas une raiſon double, quoy qu'elle ſoit doublée de la raiſon triple, parce que l'addition de deux raiſons triples fait la raiſon non ecuple.*
 
 ### Cinquieme Theoreme.
+
+[Curated heading level=4: XIV.]
 
 [Margin]
 XIV.

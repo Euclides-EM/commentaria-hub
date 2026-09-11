@@ -5,6 +5,8 @@ Donc ils ſont tous égaux ſelon le fondement de la Geometrie des indiviſibles
 
 ## SECOND THEOREME.
 
+[Curated heading level=4: V.]
+
 [Margin]
 V.
 [/Margin]
@@ -24,6 +26,8 @@ Or les parallelogrammes qui dans *E* ont *x* pour baſe ſont égaux à ceux qui
 Donc par la definition de l'égalité des raiſons *A* eſt à *E* en même raiſon que la baſe d'*A* à la baſe d'*E*, puiſqu'autant que les aliquotes quelconques de la baſe d'*A* ſont contenues dans la baſe d'*E*, les aliquotes pareilles d'*A* ſont contenues dans *E* : ſi ſans reſte, ſans reſte; ſi avec reſte, avec reſte.
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: VI.]
 
 [Margin]
 VI.

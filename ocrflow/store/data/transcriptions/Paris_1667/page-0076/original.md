@@ -15,6 +15,8 @@ Donc les 3 antecedens aux 3 conſequens comme un antecedent à un conſequent. C
 
 ### AVERTISSEMENT.
 
+[Curated heading level=4: LII.]
+
 [Margin]
 LII.
 [/Margin]

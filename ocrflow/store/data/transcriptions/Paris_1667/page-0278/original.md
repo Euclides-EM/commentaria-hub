@@ -19,6 +19,8 @@ Donc l'angle *K* eſtant égal à l'angle *b d c* , qui eſt la moitié de l'ang
 
 ## COROLLAIRE.
 
+[Curated heading level=4: LXXV.]
+
 [Margin]
 LXXV.
 [/Margin]

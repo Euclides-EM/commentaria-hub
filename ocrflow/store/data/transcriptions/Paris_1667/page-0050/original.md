@@ -2,6 +2,8 @@
 
 <!-- Running title: NOUVEAUX ELEMENS -->
 
+[Curated heading level=4: LV.]
+
 [Margin]
 LV.
 [/Margin]
@@ -9,6 +11,8 @@ LV.
 VOILA ce qu'il faut obſerver generalement dans toute multiplication des grandeurs complexes. Mais il y a une difficulté particuliere pour ſçavoir quand il faut mettre les ſignes de *plus* ou de *moins* avant les produits des multiplications partiales. C'eſt ce qu'on apprendra par ces trois Regles.
 
 ## PREMIERE REGLE.
+
+[Curated heading level=4: LVI.]
 
 [Margin]
 LVI.
@@ -18,6 +22,8 @@ PLUS en *plus* fait *plus* ; c'eſt à dire que la multiplication de deux termes
 
 ## SECONDE REGLE.
 
+[Curated heading level=4: LVII.]
+
 [Margin]
 LVII.
 [/Margin]
@@ -25,6 +31,8 @@ LVII.
 PLUS en *moins* , ou *moins* en *plus* donne *moins*. C'eſt à dire que la multiplication de deux termes dont l'un a *plus* & l'autre *moins* , donne un produit qui doit avoir le ſigne de *moins*.
 
 *b*. En *p* — *q* } *p b* — *q b*. parce que *q* a *moins* & *b plus* ſous-ent.
+
+[Curated heading level=4: LVIII.]
 
 [Margin]
 LVIII.

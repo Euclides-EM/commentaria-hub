@@ -8,6 +8,8 @@ C'EST POURQUOY ayant entrepris de traiter icy de la quantité ou grandeur en gen
 
 ### PREMIERE SUPPOSITION.
 
+[Curated heading level=4: II.]
+
 [Margin]
 II.
 [/Margin]
@@ -16,6 +18,8 @@ IE ſuppoſe donc premierement qu'on ſçache ajoûter & multiplier de petits no
 
 ### SECONDE SUPPOSITION.
 
+[Curated heading level=4: III.]
+
 [Margin]
 III.
 [/Margin]
@@ -23,6 +27,8 @@ III.
 SECONDEMENT qu'on ſçache que c'eſt la meſme choſe dans la multiplication de commencer par lequel on veut des deux nombres que l'on multiplie : comme que 3 fois 5, eſt la meſme choſe que 5 fois 3, que 4 fois 6, eſt la meſme choſe que 6 fois 4.
 
 ### TROISIEME SUPPOSITION.
+
+[Curated heading level=4: IV.]
 
 [Margin]
 IV.

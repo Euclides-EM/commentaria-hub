@@ -11,6 +11,8 @@ Donc kf. kd :: kg. kc.
 
 T. p :: T. p.
 
+[Curated heading level=4: LIII.]
+
 [Margin]
 LIII.
 [/Margin]
@@ -30,6 +32,8 @@ Donc kf. kg :: kd. kc.
 T. T :: p. p.
 
 ## VI. THEOREME, COROLLAIRE DU CINQUIEME.
+
+[Curated heading level=4: LIV.]
 
 [Margin]
 LIV.

@@ -1,6 +1,8 @@
 <!-- Page number: 338 -->
 <!-- Running title: EXPLICATION -->
 
+[Curated heading level=4: LVIII.]
+
 [Margin]
 LVIII.
 [/Margin]
@@ -20,6 +22,8 @@ Voicy un exemple de la 6ᵉ diſpoſition, & un autre de la 16ᵉ. On laiſſe �
 | 1 | 15 | 14 | 4 |
 
 ## DEMONSTRATION.
+
+[Curated heading level=4: LIX.]
 
 [Margin]
 LIX.

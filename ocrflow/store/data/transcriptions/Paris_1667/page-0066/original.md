@@ -7,6 +7,8 @@ reils aux premiers, chacun à chacun & dans le même ordre.
 
 ### QUATRIEME AXIOME.
 
+[Curated heading level=4: XXXIV.]
+
 [Margin]
 XXXIV.
 [/Margin]
@@ -15,7 +17,9 @@ LES multiples pareils de deux grandeurs ſont entr'eux comme d'autres multiples 
 
 3 B. 3 C : : 5 B. 5 C.
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
+
+[Curated heading level=4: XXXV.]
 
 [Margin]
 XXXV.
@@ -24,6 +28,8 @@ XXXV.
 TOUT *ce que j'ay dit des multiples ſe peut dire des aliquotes, n'eſtant que la même choſe ſous un autre nom. Car toute grandeur eſt multiple de ſes aliquotes, & aliquote de ſes multiples.*
 
 ### CINQUIEME AXIOME.
+
+[Curated heading level=4: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -36,6 +42,8 @@ LES equimultiples de deux grandeurs demeurent equimultiples chacun de ſa grande
 Et de meſme 5 A — 3 A & 5 B — 3 B.
 
 ### SIXIEME AXIOME.
+
+[Curated heading level=4: XXXVII.]
 
 [Margin]
 XXXVII.

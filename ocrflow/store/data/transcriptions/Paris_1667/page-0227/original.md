@@ -11,6 +11,8 @@ On dit qu'une ligne eſt parallele à un eſpace quand elle l'eſt aux lignes qu
 
 ### QUATRIEME LEMME.
 
+[Curated heading level=4: V.]
+
 [Margin]
 V.
 [/Margin]
@@ -22,6 +24,8 @@ D'où il s'enſuit que deux lignes ſont également inclinées dans le même eſ
 Et que la moins inclinée eſt celle qui fait ſon angle aigu moins aigu & plus approchant du droit.
 
 ### CINQUIEME LEMME IMPORTANT.
+
+[Curated heading level=4: VI.]
 
 [Margin]
 VI.
@@ -35,6 +39,8 @@ vn
 
 ### SIXIEME LEMME.
 
+[Curated heading level=4: VII.]
+
 [Margin]
 VII.
 [/Margin]
@@ -46,6 +52,8 @@ Et on eſt aſſeuré que cela eſt; 1. quand on ſçait qu'ils ſont égaux, & 
 2. Lors qu'eſtant égaux ils ſont de plus Iſoſceles. VIII.59.
 
 ### SEPTIEME LEMME.
+
+[Curated heading level=4: VIII.]
 
 [Margin]
 VIII.

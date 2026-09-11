@@ -5,6 +5,8 @@ de cette diagonale on tire deux paralleles aux deux coſtez angulaires du parall
 
 ## SEPTIEME THEOREME.
 
+[Curated heading level=4: LII.]
+
 [Margin]
 LII.
 [/Margin]
@@ -22,6 +24,8 @@ Donc *fd. fo :: dc. on.*
 Donc ces parallelogrammes ſont equiangles, & ont les coſtez angulaires proportionels. Donc ils ſont ſemblables par le 5ᵉ Theoreme.
 
 ## DIVISION DU PARALLELOGRAMME EN SES ESPECES.
+
+[Curated heading level=4: LIII.]
 
 [Margin]
 LIII.

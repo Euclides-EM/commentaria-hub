@@ -15,6 +15,8 @@ Mais pour rendre les preuves plus courtes, il eſt bon de ſuppoſer quelques Le
 
 ## PREMIER LEMME. DEFINITION.
 
+[Curated heading level=4: III.]
+
 [Margin]
 III.
 [/Margin]
@@ -24,6 +26,8 @@ LORSQUE dans toutes ces ſortes d'angles on dit qu'un tel arc du cercle auquel i
 Et de là il s'enſuit, que dans ces ſortes d'angles, auſſy bien que dans ceux qui ſont au centre du cercle, deux angles ſont égaux quand ils ont pour meſure des arcs égaux, ou abſolument quand ce ſont des arcs du même cercle, ou de cercles égaux ; ou proportionellement quand ce ſont des arcs de cercles inégaux : l'arc du petit ayant la même raiſon à ſa circonference, que l'arc du grand à la ſienne : comme ſi l'un & l'autre eſtoit la dixiême partie de ſa circonference, c'eſtadire de 36. degrez.
 
 ## SECOND LEMME.
+
+[Curated heading level=4: IV.]
 
 [Margin]
 IV.

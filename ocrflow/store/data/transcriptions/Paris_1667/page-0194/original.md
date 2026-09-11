@@ -9,6 +9,8 @@ CETTE meſure eſt la plus imparfaite, & ne peut ſervir à meſurer les angles 
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: LXIII.]
+
 [Margin]
 LXIII.
 [/Margin]
@@ -26,6 +28,8 @@ Or ces perpendiculaires ſont les ſinus de ces angles qui ont auſſy le rayon 
 2. CAS. Si on ne le peut (comme ſi ces angles eſtoient *c x k* des mêmes figures) alors la perpendiculaire *x p* menée du ſommet même de chacun des angles, feroit voir que les deux angles que les coſtez de chacun de ces angles obtus font ſur leur baſe, ſont égaux chacun à chacun (c'eſtadire l'angle *k* égal à l'angle *k*, & l'angle *c*, à l'angle *c*.) Donc les angles obtus *k c x* ſeront égaux, par 62. s̃.
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: LXIV.]
 
 [Margin]
 LXIV.

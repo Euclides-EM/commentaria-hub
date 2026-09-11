@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	markdownZoneStartPattern  = regexp.MustCompile(`^\[(Margin|Footnote|Handwritten|Other)(?: type="([^"]+)")?\]$`)
+	markdownZoneStartPattern  = regexp.MustCompile(`^\[(Subhead|Margin|Footnote|Handwritten|Other)(?: type="([^"]+)")?\]$`)
 	markdownCorrectionPattern = regexp.MustCompile(`^\{printer-error-correction:([^}]+)\}`)
 	markdownIllegiblePattern  = regexp.MustCompile(`^\[illegible(?:: ([^\]]+))?\]`)
 	markdownUnclearPattern    = regexp.MustCompile(`^\[unclear: ([^\]]+)\]`)
@@ -71,9 +71,10 @@ func markdownBlocksToABs(pageKey string, md *markdown.Markdown) []model.AB {
 			continue
 		}
 
-		if level, content := markdown.ParseHeader(line); level > 0 {
+		if level, content, next := markdown.ParseHeaderBlock(lines, i); level > 0 {
 			flushParagraph()
 			abs = append(abs, newMarkdownAB(pageKey, len(abs)+1, markdown.HeaderPrefix+strconv.Itoa(level), []string{content}))
+			i = next - 1
 			continue
 		}
 
@@ -145,8 +146,8 @@ func markdownInlineNodes(s string) []model.ABNode {
 	var nodes []model.ABNode
 	for len(s) > 0 {
 		linkStart := strings.Index(s, "[")
-		boldStart := strings.Index(s, "**")
-		italicStart := strings.Index(s, "*")
+		boldStart := markdownInlineIndex(s, "**")
+		italicStart := markdownInlineIndex(s, "*")
 		dropcapStart := strings.Index(s, "{dropcap:")
 		correctionStart := strings.Index(s, "{printer-error-correction:")
 		next := firstMarkdownInlineIndex(linkStart, boldStart, italicStart, dropcapStart, correctionStart)
@@ -228,7 +229,7 @@ func markdownInlineNodes(s string) []model.ABNode {
 			}})
 			s = s[endText+2+endTarget+1:]
 		case strings.HasPrefix(s, "**"):
-			end := strings.Index(s[2:], "**")
+			end := markdownInlineIndex(s[2:], "**")
 			if end < 0 {
 				nodes = appendTextNode(nodes, s[:2])
 				s = s[2:]
@@ -241,7 +242,7 @@ func markdownInlineNodes(s string) []model.ABNode {
 			}})
 			s = s[2+end+2:]
 		case strings.HasPrefix(s, "*"):
-			end := strings.Index(s[1:], "*")
+			end := markdownInlineIndex(s[1:], "*")
 			if end < 0 {
 				nodes = appendTextNode(nodes, s[:1])
 				s = s[1:]
@@ -262,7 +263,28 @@ func appendTextNode(nodes []model.ABNode, text string) []model.ABNode {
 	if text == "" {
 		return nodes
 	}
-	return append(nodes, model.ABNode{CharData: text})
+	return append(nodes, model.ABNode{CharData: strings.ReplaceAll(text, `\*`, "*")})
+}
+
+// markdownInlineIndex returns the first occurrence of marker that is not
+// escaped by an odd number of immediately preceding backslashes.
+func markdownInlineIndex(s, marker string) int {
+	for offset := 0; offset < len(s); {
+		idx := strings.Index(s[offset:], marker)
+		if idx < 0 {
+			return -1
+		}
+		idx += offset
+		backslashes := 0
+		for i := idx - 1; i >= 0 && s[i] == '\\'; i-- {
+			backslashes++
+		}
+		if backslashes%2 == 0 {
+			return idx
+		}
+		offset = idx + len(marker)
+	}
+	return -1
 }
 
 func firstMarkdownInlineIndex(indexes ...int) int {

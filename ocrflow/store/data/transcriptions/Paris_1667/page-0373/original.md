@@ -3,6 +3,8 @@
 
 ## DEMONSTRATION.
 
+[Curated heading level=4: XLVIII.]
+
 [Margin]
 XLVIII.
 [/Margin]
@@ -21,6 +23,8 @@ Or par (24) *A. e* ═ *ω. ß.*
 
 Donc les ſix lettres *ω. E. α. o. O. ß* ═ 6 *c*.
 
+[Curated heading level=4: XLIX.]
+
 [Margin]
 XLIX.
 [/Margin]
@@ -35,6 +39,8 @@ Donc la bande égale à la bande par (37)
 
 POUR LES ENCEINTES PAIRES.
 
+[Curated heading level=4: L.]
+
 [Margin]
 L.
 [/Margin]
@@ -44,6 +50,8 @@ LA diſpoſition en eſt tres facile, & ſe figure ainſy.
 [Diagram: two crossing diagonal lines with labels e and o at the top, α and ß at the sides, and è, ò at the bottom]
 
 ## DEMONSTRATION.
+
+[Curated heading level=4: LI.]
 
 [Margin]
 LI.

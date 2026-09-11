@@ -7,6 +7,8 @@ De chacune des deux extremitez de l'une des données décrire un cercle de l'int
 
 ## SECOND PROBLEME.
 
+[Curated heading level=4: XIII.]
+
 [Margin]
 XIII.
 [/Margin]
@@ -19,6 +21,8 @@ Ayant mis ces deux coſtez en ſorte qu'ils faſſent l'angle donné, la ligne q
 
 ## TROISIEME PROBLEME.
 
+[Curated heading level=4: XIV.]
+
 [Margin]
 XIV.
 [/Margin]
@@ -30,6 +34,8 @@ Tirant des lignes ſur les extremitez du coſté donné qui faſſent les angles
 [Figure: triangle with one dotted side]
 
 ## QUATRIEME PROBLEME.
+
+[Curated heading level=4: XV.]
 
 [Margin]
 XV.

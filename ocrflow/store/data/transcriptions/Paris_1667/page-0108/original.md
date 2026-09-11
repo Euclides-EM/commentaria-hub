@@ -21,6 +21,8 @@ On prouvera de la même ſorte par le 4e Theoreme que la raiſon triplée d'une 
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XVII.]
+
 [Margin]
 XVII.
 [/Margin]

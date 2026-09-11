@@ -26,6 +26,8 @@ Donc tous les coſtez ayant la même raiſon, chacun à chacun, & avec les perpe
 
 ## SECOND THEOREME.
 
+[Curated heading level=4: XXVIII.]
+
 [Margin]
 XXVIII.
 [/Margin]
@@ -35,6 +37,8 @@ SI les coſtez homologues de deux triangles ſemblables ſont en même raiſon q
 ## DES FIGURES SEMBLABLES.
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: XXIX.]
 
 [Margin]
 XXIX.

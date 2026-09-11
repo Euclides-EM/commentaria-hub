@@ -7,6 +7,8 @@ Les angles de même ſont proches ou oppoſez.
 
 ## THEOREME.
 
+[Curated heading level=4: XXXVI.]
+
 [Margin]
 XXXVI.
 [/Margin]
@@ -23,6 +25,8 @@ Car tout angle qui a *fc* pour baſe, & qui eſt inſcrit dans ce cercle du coſ
 
 ## DIVISION ET DEFINITIONS.
 
+[Curated heading level=4: XXXVII.]
+
 [Margin]
 XXXVII.
 [/Margin]
@@ -33,6 +37,8 @@ LORSQUE les coſtez oppoſez d'un quadrilatere ſont paralleles, le 1ᵉʳ au 3�
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: XXXVIII.]
+
 [Margin]
 XXXVIII.
 [/Margin]
@@ -41,6 +47,8 @@ SI les coſtez oppoſez d'un quadrilatere ſont égaux, ils ſont paralleles; & 
 
 ## SECOND THEOREME.
 
+[Curated heading level=4: XXXIX.]
+
 [Margin]
 XXXIX.
 [/Margin]
@@ -48,6 +56,8 @@ XXXIX.
 SI tous les 4 angles d'un quadrilatere ſont droits, il eſt parallelogramme. VI. 23.
 
 ## TOISIEME{printer-error-correction:TROISIEME} THEOREME.
+
+[Curated heading level=4: XL.]
 
 [Margin]
 XL.

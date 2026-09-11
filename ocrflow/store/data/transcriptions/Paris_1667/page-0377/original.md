@@ -5,6 +5,8 @@ tans, & qu'on a pratiquez dans les deux exemples qu'on a donnez de quarrez magiq
 
 ## PREMIER MOYEN.
 
+[Curated heading level=4: LX.]
+
 [Margin]
 LX.
 [/Margin]
@@ -13,6 +15,8 @@ Nous avons ſuppoſé qu'on tranſporteroit les chiffres de la premiere enceinte
 
 ## SECOND MOYEN.
 
+[Curated heading level=4: LXI.]
+
 [Margin]
 LXI.
 [/Margin]
@@ -20,6 +24,8 @@ LXI.
 ET pour tous les autres chiffres non marquez de lettres, on les peut tranſporter de quelque enceinte que ce ſoit à quelque autre enceinte que l'on voudra; pourvu qu'on en prenne quatre enſemble qui ſoient en proportion arithmetique, & qu'on ait ſoin de mettre les extrêmes dans une bande, & les moyens dans la bande oppoſée.
 
 ## CONCLUSION.
+
+[Curated heading level=4: LXII.]
 
 [Margin]
 LXII.

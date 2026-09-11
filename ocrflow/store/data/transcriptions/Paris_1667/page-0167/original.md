@@ -9,6 +9,8 @@ Donc par la definition des grandeurs proportionnelles B D eſt à la grande circ
 
 ## DEFINITION.
 
+[Curated heading level=4: XVIII.]
+
 [Margin]
 XVIII.
 [/Margin]
@@ -18,6 +20,8 @@ LES arcs qui ont même raiſon à leur circonference ſoient appellez proportion
 Et comme on ne regarde point la grandeur abſoluë des portions d'une circonference, parce que cette grandeur nous eſt inconnuë, mais ſeulement la grandeur relative, c'eſt à dire par proportion à la circonference; on pourroit appeller les arcs qui ſont proportionellement égaux, parce qu'ils ſont d'autant de degrez ſimplement *égaux*: & appeller *tout-égaux* ceux qui le ſont tout enſemble proportionellement & abſolument comme ſont les arcs d'autant de degrez dans le même cercle.
 
 ## NEUVIEME THEOREME.
+
+[Curated heading level=4: XIX.]
 
 [Margin]
 XIX.

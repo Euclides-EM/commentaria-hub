@@ -19,6 +19,8 @@ Donc *A* ⊹ *E.* = *I.* Ce qu'il falloit demonſtrer.
 
 ## AVERTISSEMENT.
 
+[Curated heading level=4: XXXII.]
+
 [Margin]
 XXXII.
 [/Margin]
@@ -28,6 +30,8 @@ XXXII.
 ## DES FIGURES REGULIERES.
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: XXXIII.]
 
 [Margin]
 XXXIII.

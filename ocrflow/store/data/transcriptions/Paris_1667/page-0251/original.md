@@ -11,6 +11,8 @@ Et ainſy nous devons toûjours nous imaginer dans ces angles qui ont deux baſe
 
 Et de plus il faut remarquer,
 
+[Curated heading level=4: XI.]
+
 [Margin]
 XI.
 [/Margin]
@@ -19,11 +21,15 @@ Que dans la 1re diſpoſition des baſes antiparalleles les deux toutes T & *T* 
 
 [Figure: two crossing lines forming bases, labelled P, *p*, T and *T*]
 
+[Curated heading level=4: XII.]
+
 [Margin]
 XII.
 [/Margin]
 
 Que dans la ſeconde, qui eſt quand les baſes ſe croiſent, T & *p* ſont dans l'eſpace *A*; & *T* & p dans l'eſpace *E*.
+
+[Curated heading level=4: XIII.]
 
 [Margin]
 XIII.
@@ -34,6 +40,8 @@ Que dans la 3e, qui eſt quand elles ſe joignent en un ſeul point d'un coſté
 [Figure: triangle with two bases joined at one point, labelled p, *M*, T, *b* and B]
 
 ## Septieme Lemme.
+
+[Curated heading level=4: XIV.]
 
 [Margin]
 XIV.

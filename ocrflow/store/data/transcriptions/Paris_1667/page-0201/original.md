@@ -21,6 +21,8 @@ Mais pour cela il eſt neceſſaire de marquer la maniere dont on exprime les an
 
 ## DEFINITIONS.
 
+[Curated heading level=4: VIII.]
+
 [Margin]
 VIII.
 [/Margin]

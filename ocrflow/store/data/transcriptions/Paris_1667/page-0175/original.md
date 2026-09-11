@@ -5,6 +5,8 @@ x f pour rayon, auront m f pour tangente par le 1er theorême, & ne rencontreron
 
 ## PREMIER PROBLEME.
 
+[Curated heading level=4: XXXIII.]
+
 [Margin]
 XXXIII.
 [/Margin]
@@ -14,6 +16,8 @@ DESCRIRE la tangente qui touche la circonference à un point donné.
 Tirer un rayon de ce point donné, la perpendiculaire à l'extrémité de ce rayon ſera la tangente que l'on cherche.
 
 ## SECOND PROBLEME.
+
+[Curated heading level=4: XXXIV.]
 
 [Margin]
 XXXIV.

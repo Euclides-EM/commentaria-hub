@@ -3,6 +3,8 @@
 
 ## SIXIEME COROLLAIRE.
 
+[Curated heading level=4: LVIII.]
+
 [Margin]
 LVIII.
 [/Margin]
@@ -12,6 +14,8 @@ LES angles circonſcripts au même cercle ſont égaux quand leur ſommet eſt �
 *Cela eſt facile à prouver par les demyangles circonſcripts, & je le laiſſe à trouver à ceux qui commencent pour faire eſſay de leurs forces.*
 
 ## RECAPITULATION DE LA MESURE DES ANGLES.
+
+[Curated heading level=4: LIX.]
 
 [Margin]
 LIX.

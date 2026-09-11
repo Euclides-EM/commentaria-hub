@@ -5,6 +5,8 @@ Car d'un angle quelconque tirant deux lignes de part & d'autre, qui ſoûtienne 
 
 ## SECOND THEOREME.
 
+[Curated heading level=4: IX.]
+
 [Margin]
 IX.
 [/Margin]

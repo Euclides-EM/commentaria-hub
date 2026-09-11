@@ -3,6 +3,8 @@
 
 ## AVERTISSEMENT.
 
+[Curated heading level=4: XXI.]
+
 [Margin]
 XXI.
 [/Margin]
@@ -13,6 +15,8 @@ On peut rapporter icy tout ce qui a eſté demonſtré dans le 2 & 3ᵉ livre de
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: XXII.]
+
 [Margin]
 XXII.
 [/Margin]
@@ -20,6 +24,8 @@ XXII.
 Si deux lignes ſe coupent dans un cercle, le rectangle des portions de l'une eſt égal au rectangle des portions de l'autre. Voyez XI. 55.
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: XXIII.]
 
 [Margin]
 XXIII.
@@ -29,6 +35,8 @@ Le quarré de la perpendiculaire d'un point de la circonference au diametre, eſ
 
 ## TROISIEME THEOREME.
 
+[Curated heading level=4: XXIV.]
+
 [Margin]
 XXIV.
 [/Margin]
@@ -36,6 +44,8 @@ XXIV.
 Si d'un point hors le cercle deux lignes ſont menées juſqu'à la concavité du cercle, le rectangle d'une toute & de ſa portion qui eſt hors le cercle, eſt égal au rectangle de l'autre toute & de ſa portion, qui eſt auſſy hors le cercle. Voyez XI. 52.
 
 ## QUATRIEME THEOREME.
+
+[Curated heading level=4: XXV.]
 
 [Margin]
 XXV.

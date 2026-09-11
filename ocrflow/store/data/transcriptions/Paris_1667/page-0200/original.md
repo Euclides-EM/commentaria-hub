@@ -5,6 +5,8 @@
 
 ## Quatrieme Lemme.
 
+[Curated heading level=4: VI.]
+
 [Margin]
 VI.
 [/Margin]
@@ -22,6 +24,8 @@ Enfin il ſe faut ſouvenir,
 # LA PREMIERE SORTE D'ANGLES DONT LE SOMMET EST EN LA CIRCONFERENCE D'UN CERCLE DONNE'.
 
 ## Division.
+
+[Curated heading level=4: VII.]
 
 [Margin]
 VII.

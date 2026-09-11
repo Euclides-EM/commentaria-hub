@@ -11,6 +11,8 @@ Et pour avoir l'angle d'une figure de 3600 coſtez, il faut oſter 6 minutes de 
 
 ## TROISIEME PROBLEME.
 
+[Curated heading level=4: XXIII.]
+
 [Margin]
 XXIII.
 [/Margin]
@@ -22,6 +24,8 @@ Il ne faut pour cela que prendre la moitié du nombre des degrez que vaut l'angl
 Ainſy l'angle du raion ſur le coſté dans une figure de 15 coſtez, eſt de 78 degrez, qui eſt la moitié de 156. Et l'angle du raion ſur le coſté d'une figure de 3600 coſtez, eſt de 89. d. 57′.
 
 ## CONSIDERATION SUR LE CERCLE.
+
+[Curated heading level=4: XXIV.]
 
 [Margin]
 XXIV.

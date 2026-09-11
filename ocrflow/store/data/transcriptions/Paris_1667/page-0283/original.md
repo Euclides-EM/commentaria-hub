@@ -5,9 +5,11 @@
 
 # NOVVEAVX ELEMENS DE GEOMETRIE.
 
-## LIVRE DOVZIEME.
+# LIVRE DOVZIEME.
 
 ## DES FIGURES EN GENERAL CONSIDERE'ES SELON LEURS ANGLES ET LEURS COSTEZ.
+
+[Curated heading level=4: I.]
 
 [Margin]
 I.
@@ -20,6 +22,8 @@ Ce qui comprend deux choſes: la premiere, les extremitez de cette ſurface : la
 *Nous les considerons dans ce Livre & le ſuivant ſelon le premier rapport ; & dans d'autres Livres nous les conſidererons ſelon le dernier.*
 
 ## DIVISION.
+
+[Curated heading level=4: II.]
 
 [Margin]
 II.
@@ -34,6 +38,8 @@ Ou curviligne.
 Ou mixte.
 
 ## PREMIERE DEFINITION.
+
+[Curated heading level=4: III.]
 
 [Margin]
 III.

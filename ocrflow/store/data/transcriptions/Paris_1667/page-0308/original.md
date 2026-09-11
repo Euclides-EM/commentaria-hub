@@ -13,6 +13,8 @@ Car alors dans l'un & dans l'autre angle c d b eſt neceſſairement aigu, par 8
 
 ## Cinquieme Theoreme.
 
+[Curated heading level=4: XX.]
+
 [Margin]
 XX.
 [/Margin]
@@ -20,6 +22,8 @@ XX.
 Deux triangles équiangles entr'eux ſont ſemblables. C'eſtadire que les coſtez de l'un ſont proportionnels aux coſtez de l'autre. C'eſt ce qui a eſté prouvé en diverſes manieres dans les deux livres des Proportionnelles. Voyez X. 18.
 
 ## Avertissement et Definition.
+
+[Curated heading level=4: XXI.]
 
 [Margin]
 XXI.
@@ -38,6 +42,8 @@ b. b :: d. d :: h. h.
 Et ces coſtez que l'on doit comparer enſemble s'appellent homologues.
 
 ## Premier Corollaire.
+
+[Curated heading level=4: XXII.]
 
 [Margin]
 XXII.

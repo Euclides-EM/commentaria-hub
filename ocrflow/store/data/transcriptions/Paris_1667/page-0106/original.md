@@ -1,11 +1,11 @@
 <!-- Page number: 68 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## SECONDE PREUVE.
+### SECONDE PREUVE.
 
 *Sans cette reduction on prouve la même choſe en parcourant les 3 manieres dont les raiſons de nombre à nombre ſont égales.*
 
-### PREMIERE MANIERE.
+#### PREMIERE MANIERE.
 
 [Calculation]
 b.    bx  ::  c.    cx.
@@ -43,7 +43,7 @@ le produit  { des antecedens   bici.
 
 oſtant *b c* de l'un & de l'autre , reſte *ii* & *xyxy*. & ce dernier eſt un nombre quarré par le 7e Lemme. *Ce qui ſoit remarqué une fois pour toutes.*
 
-### SECONDE MANIERE.
+#### SECONDE MANIERE.
 
 [Calculation]
 b.    c   ::  bx.   cx.
@@ -62,7 +62,7 @@ Donc le produit  { des antecedens   bibx.
 
 Donc oſtant *i x*. de l'un & de l'autre , reſte *b b* & *c c*.
 
-### TROISIEME MANIERE.
+#### TROISIEME MANIERE.
 
 [Calculation]
 bx.   cx  ::  by.   cy.

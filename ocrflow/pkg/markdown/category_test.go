@@ -17,6 +17,35 @@ func TestExtractCategoryContentsExpandsDropcaps(t *testing.T) {
 	}}, categories)
 }
 
+func TestExtractCategoryContentsJoinsConsecutiveHeadersAtSameLevel(t *testing.T) {
+	md := &Markdown{Content: `# NOVVEAVX ELEMENS DE GEOMETRIE.
+
+# LIVRE PREMIER.
+
+## Definitions
+
+Body text.
+
+## Propositions`}
+
+	categories, err := ExtractCategoryContentsFromMarkdown(md, nil, " / ", true)
+	require.NoError(t, err)
+	require.Equal(t, []Category{
+		{Category: "header1", Content: "NOVVEAVX ELEMENS DE GEOMETRIE. LIVRE PREMIER."},
+		{Category: "header2", Content: "Definitions"},
+		{Category: "header2", Content: "Propositions"},
+	}, categories)
+}
+
+func TestParseHeaderBlockDoesNotJoinDifferentLevels(t *testing.T) {
+	lines := []string{"# Book", "", "## Definitions"}
+
+	level, content, next := ParseHeaderBlock(lines, 0)
+	require.Equal(t, 1, level)
+	require.Equal(t, "Book", content)
+	require.Equal(t, 1, next)
+}
+
 func TestExtractCategoryContentsIncludesCuratedHeadingsByDefault(t *testing.T) {
 	md := &Markdown{Content: "[Curated heading level=1: Dedications]\n\n## Printed heading\n"}
 

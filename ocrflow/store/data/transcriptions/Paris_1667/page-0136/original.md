@@ -7,6 +7,8 @@ Voila ce qui peut ſatisfaire ceux qui aiment mieux ſe ſervir dans la connoiſ
 
 ## EGALITE' DANS LES LIGNES OBLIQUES.
 
+[Curated heading level=4: XLVII.]
+
 [Margin]
 XLVII.
 [/Margin]
@@ -14,6 +16,8 @@ XLVII.
 CETTE ſeule propoſition avec ſon corollaire & l'avertiſſement nous donne moyen de prouver facilement pluſieurs theoremes touchant les lignes obliques. Et voicy premierement ceux de l'égalité.
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: XLVIII.]
 
 [Margin]
 XLVIII.

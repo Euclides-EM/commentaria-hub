@@ -3,6 +3,8 @@
 
 ## AVERTISSEMENT.
 
+[Curated heading level=4: XXVII.]
+
 [Margin]
 XXVII.
 [/Margin]
@@ -10,6 +12,8 @@ XXVII.
 *Comme nous avons beſoin pour prouver l'égalité des angles, qui fait que des baſes ſont antiparalleles de pluſieurs nouvelles maximes touchant l'égalité des angles qui ont eſté demonſtrées dans le Livre IX. nous les propoſerons encore icy en forme de Lemmes, afin qu'en y renvoyant, nous nous diſpenſions de dire ſouvent les mêmes choſes.*
 
 ## DIXIEME LEMME.
+
+[Curated heading level=4: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -20,6 +24,8 @@ L'ANGLE du ſegment (qui eſt celuy qui eſt compris entre une tangente & une co
 [Diagram: circle with tangent and chord meeting at point K, labels c and d]
 
 ## ONZIEME LEMME.
+
+[Curated heading level=4: XXIX.]
 
 [Margin]
 XXIX.
@@ -32,6 +38,8 @@ TOUT angle inſcript au cercle a pour meſure la moitié de l'arc ſur lequel il
 Ainſy l'angle *c k d* a pour meſure la moitié de l'arc *c d*. IX. 18.
 
 ## DOUZIEME LEMME.
+
+[Curated heading level=4: XXX.]
 
 [Margin]
 XXX.

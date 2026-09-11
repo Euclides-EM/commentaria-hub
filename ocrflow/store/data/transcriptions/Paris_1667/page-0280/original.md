@@ -3,6 +3,8 @@
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: LXXVII.]
+
 [Margin]
 LXXVII.
 [/Margin]
@@ -34,6 +36,8 @@ Mais il leur eſt commenſurable en puiſſance, parceque
 [/Calculation]
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: LXXVIII.]
 
 [Margin]
 LXXVIII.

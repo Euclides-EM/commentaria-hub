@@ -7,6 +7,8 @@ Et de même quand un ſinus eſt plus grand que l'autre, la corde dont le plus g
 
 ## SEPTIEME THEOREME.
 
+[Curated heading level=4: XVI.]
+
 [Margin]
 XVI.
 [/Margin]
@@ -18,6 +20,8 @@ Car les ſinus égaux ſont également diſtans du centre. Or cette diſtance du
 Que ſi le ſinus eſt plus grand, cette diſtance eſt plus petite. Donc oſtant moins du rayon, ce qui reſte, qui eſt le ſinus verſe, eſt plus grand.
 
 ## AVERTISSEMENT.
+
+[Curated heading level=4: XVII.]
 
 [Margin]
 XVII.

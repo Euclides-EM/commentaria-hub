@@ -5,6 +5,8 @@ dont la difference eſt moindre avec cette troiſiéme grandeur, a une plus gran
 
 ### Second Axiome.
 
+[Curated heading level=4: XXXIX.]
+
 [Margin]
 XXXIX.
 [/Margin]
@@ -12,6 +14,8 @@ XXXIX.
 Deux raiſons eſtant égales à deux raiſons inégales chacune à chacune, celle qui eſt égale à la plus grande, eſt plus grande que celle qui eſt égale à la plus petite. Cela eſt encore évident.
 
 ### Probleme.
+
+[Curated heading level=4: XL.]
 
 [Margin]
 XL.
@@ -34,6 +38,8 @@ Et m c. c n :: m. n.
 Comme donc ces deux raiſons b n. c n. & m c. c n. ont un terme commun, ſçavoir c n. comparant l’antecedent de chaque raiſon avec ce terme commun, ſi la difference de b n. à c n. eſt plus grande que la difference de m c. avec le même c n. la raiſon de b n. à c n. ſera la plus petite par le 1er Axiome. Et par conſequent celle de b. c. ſera plus petite que celle de m. n. par le 2e.
 
 ### Avertissement.
+
+[Curated heading level=4: XLI.]
 
 [Margin]
 XLI.

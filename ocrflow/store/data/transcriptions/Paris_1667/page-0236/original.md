@@ -21,6 +21,8 @@ B b :: *B b*. Donc *alternando* B *B* :: b *b*.
 
 ## QUATRIEME COROLLAIRE.
 
+[Curated heading level=4: XXII.]
+
 [Margin]
 XXII.
 [/Margin]

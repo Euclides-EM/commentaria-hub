@@ -7,6 +7,8 @@
 
 ## DE LA LIGNE DROITE.
 
+[Curated heading level=4: V.]
+
 [Margin]
 V.
 [/Margin]
@@ -18,6 +20,8 @@ La ligne droite eſt la plus courte eſtenduë entre deux points.
 Et celle qui approche plus de la droite, eſt auſſi la plus courte: ce qui a donné occaſion à Archimede d'établir ce principe ou Axiome.
 
 ### PREMIER AXIOME.
+
+[Curated heading level=4: VI.]
 
 [Margin]
 VI.

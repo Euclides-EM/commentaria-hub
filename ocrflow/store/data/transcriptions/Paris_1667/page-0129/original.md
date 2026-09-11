@@ -7,6 +7,8 @@ Or cela eſtant, il eſt clair que la ligne *k b c* eſtant droitte eſt plus co
 
 ## SECOND THEOREME.
 
+[Curated heading level=4: XXXVII.]
+
 [Margin]
 XXXVII.
 [/Margin]
@@ -20,6 +22,8 @@ La 2e partie eſt encore tres manifeſte, & ſe peut neanmoins prouver de cette 
 [Diagram: vertical line from K meeting a horizontal line through M and N at point B, with point g beside B]
 
 ## PREMIER COROLLAIRE.
+
+[Curated heading level=4: XXXVIII.]
 
 [Margin]
 XXXVIII.

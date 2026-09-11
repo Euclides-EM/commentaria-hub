@@ -3,6 +3,8 @@
 
 toute & ſa partie auront pour moyenne proportionelle celle qui ſera terminée à un point commun à *y*, & à la circonference.
 
+[Curated heading level=4: XXXIX.]
+
 [Margin]
 XXXIX.
 [/Margin]
@@ -19,6 +21,8 @@ C'eſt ce que nous traitterons par divers Theoremes.
 
 ## PREMIER CAS.
 
+[Curated heading level=4: XL.]
+
 [Margin]
 XL.
 [/Margin]
@@ -26,6 +30,8 @@ XL.
 LE 1ᵉʳ Cas eſt quand *y* coupe le cercle. Et alors il n'eſt point neceſſaire de dire que cette ligne doit eſtre perpendiculaire à celle qui eſtant tirée du point K paſſe par le centre : car il ſuffit de dire (ce qui eſt la même choſe) qu'elle doit couper le cercle en deux points, que j'appelleray E & *E*, qui ſoient également diſtans de K. Cela eſtant vray, voicy le 1ᵉʳ Theoreme.
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: XLI.]
 
 [Margin]
 XLI.
@@ -42,6 +48,8 @@ La 2ᵉ. De deux lignes qui ſont toutes deux coupées par la circonference, & t
 La 3ᵉ. De deux lignes, dont l'une eſt coupée par *y*, & terminée par la circonference; & l'autre coupée par la circonference, & terminée par *y*.
 
 ## PREMIERE COMPARAISON.
+
+[Curated heading level=4: XLII.]
 
 [Margin]
 XLII.

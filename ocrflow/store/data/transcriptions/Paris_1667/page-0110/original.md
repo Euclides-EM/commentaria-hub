@@ -1,7 +1,9 @@
 <!-- Page number: 72 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-## TROISIEME CAS.
+### TROISIEME CAS.
+
+[Curated heading level=4: XX.]
 
 [Margin]
 XX.
@@ -17,13 +19,17 @@ Donc la 1re & la 2e ſont incommenſurables en puiſſance. Et il eſt de même 
 
 ## SECOND COROLLAIRE.
 
+[Curated heading level=4: XXI.]
+
 [Margin]
 XXI.
 [/Margin]
 
 4 grandeurs eſtans continuellement proportionelles, la raiſon de la 1re à la 4e ne pouvant eſtre que de 3 ſortes, comme il vient d'eſtre dit, voicy ce qui arrivera.
 
-## PREMIER CAS.
+### PREMIER CAS.
+
+[Curated heading level=4: XXII.]
 
 [Margin]
 XXII.
@@ -42,7 +48,9 @@ Donc { ∺ 8. 12. 18. 27.
      { ∺ xxx. xxy. yyz. yyy.
 [/Calculation]
 
-## SECOND CAS.
+### SECOND CAS.
+
+[Curated heading level=4: XXIII.]
 
 [Margin]
 XXIII.

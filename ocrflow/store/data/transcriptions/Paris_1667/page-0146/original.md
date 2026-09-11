@@ -3,6 +3,8 @@
 
 ## TROISIEME LEMME.
 
+[Curated heading level=4: VII.]
+
 [Margin]
 VII.
 [/Margin]
@@ -17,6 +19,8 @@ Car en élevant de *g*, *g h* perpendiculaire ſur *x*, & oblique ſur *z*, par 
 
 ## QUATRIEME LEMME.
 
+[Curated heading level=4: VIII.]
+
 [Margin]
 VIII.
 [/Margin]
@@ -26,6 +30,8 @@ Deux lignes enfermées ne ſe croiſant point, ne ſçauroient eſtre égales, &
 Car ſi l'une eſtoit perpendiculaire ſur *x*, & oblique ſur *z*, elle ſeroit inégale à l'autre, ou par le ſecond Lemme, ſi l'autre eſtoit auſſy perpendiculaire ſur *x*; ou par le troiſiéme, ſi l'autre eſtoit perpendiculaire ſur *z*. Il faut donc pour eſtre égales qu'elles ſoient perpendiculaires ſur l'une & ſur l'autre des enfermantes.
 
 ## CINQUIEME LEMME.
+
+[Curated heading level=4: IX.]
 
 [Margin]
 IX.

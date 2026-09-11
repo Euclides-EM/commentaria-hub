@@ -5,6 +5,8 @@ l'arc *b g* de commun, qui eſt l'arc d'un des angles obtus: & par conſequent o
 
 ## QUATRIEME THEOREME.
 
+[Curated heading level=4: XVIII.]
+
 [Margin]
 XVIII.
 [/Margin]
@@ -15,6 +17,8 @@ LORSQUE pluſieurs lignes droites ſe rencontrent en un même point eſtant men�
 
 ## DES AUTRES MESURES DE L'ANGLE.
 
+[Curated heading level=4: XIX.]
+
 [Margin]
 XIX.
 [/Margin]
@@ -24,6 +28,8 @@ XIX.
 On les peut rapporter à trois qui ſont toutes priſes de la baſe conſiderée diverſement: ou comme *corde*: ou comme *ſinus*: ou ſimplement comme *baſe*.
 
 ## DE LA SECONDE MESURE DE L'ANGLE QUI EST LA CORDE.
+
+[Curated heading level=4: XX.]
 
 [Margin]
 XX.

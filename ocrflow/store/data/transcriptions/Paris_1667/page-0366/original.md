@@ -2,11 +2,15 @@
 
 <!-- Running title: EXPLICATION -->
 
+[Curated heading level=4: IV.]
+
 [Margin]
 IV.
 [/Margin]
 
 DE tous les autres chiffres la moitié ſont plus petits & les autres plus grands que le centre. Les uns ſoient appellez ſimplement *petits* & les autres *grands*.
+
+[Curated heading level=4: V.]
 
 [Margin]
 V.
@@ -20,6 +24,8 @@ Autour de la ſeconde enceinte, 3e enceinte.
 
 Et ainſy de ſuite.
 
+[Curated heading level=4: VI.]
+
 [Margin]
 VI.
 [/Margin]
@@ -27,6 +33,8 @@ VI.
 LEs enceintes 1. 3. 5. 7. 9. &c. ſoient appellées *enceintes impaires*.
 
 Les 2. 4. 6. 8. 10. &c. *enceintes paires*.
+
+[Curated heading level=4: VII.]
 
 [Margin]
 VII.
@@ -42,6 +50,8 @@ Troiſiêmement dans la bande à droit les plus hauts juſques à celuy qui eſt
 
 ### Sur les Quarrez pairs.
 
+[Curated heading level=4: VIII.]
+
 [Margin]
 VIII.
 [/Margin]
@@ -50,11 +60,15 @@ IL n'y a point de cellule qui ſoit au centre. Mais on doit prendre pour centre 
 
 Et cette ſomme entiere s'appellera 2. c.
 
+[Curated heading level=4: IX.]
+
 [Margin]
 IX.
 [/Margin]
 
 LA moitié des bandes, ſçavoir celles qui ſont les plus hautes contiennent les petits chiffres, & les plus baſſes les grands.
+
+[Curated heading level=4: X.]
 
 [Margin]
 X.
@@ -68,6 +82,8 @@ Celles autour de la ſeconde, la 3e enceinte.
 
 Et ainſy de ſuitte.
 
+[Curated heading level=4: XI.]
+
 [Margin]
 XI.
 [/Margin]
@@ -75,6 +91,8 @@ XI.
 LEs enceintes 1. 3. 5. 7. 9. &c. ſoient auſſy appellées les enceintes impaires.
 
 Et les 2. 4. 6. &c. les paires.
+
+[Curated heading level=4: XII.]
 
 [Margin]
 XII.

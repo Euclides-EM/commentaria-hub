@@ -15,6 +15,8 @@ Que ſi au contraire *x x — z z* n'eſt pas un nombre quarré ( par le 2ᵉ Ca
 
 ## PROBLEME.
 
+[Curated heading level=4: LXXIX.]
+
 [Margin]
 LXXIX.
 [/Margin]
@@ -40,6 +42,8 @@ CC = H + B.
 Or pour trouver toutes ſortes de 3 nombres qui ſoient tels que cy deſſus, il ne faut que voir ce qui en a eſté dit dans le Livre IV. n. 30.
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: LXXX.]
 
 [Margin]
 LXXX.

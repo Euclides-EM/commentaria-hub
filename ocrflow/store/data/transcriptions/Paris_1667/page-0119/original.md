@@ -13,6 +13,8 @@ Et la ſurface qui eſt auſſi indiviſible ſelon la profondeur, eſt l'extrem
 
 ### PREMIER AVERTISSEMENT.
 
+[Curated heading level=4: II.]
+
 [Margin]
 II.
 [/Margin]
@@ -21,6 +23,8 @@ II.
 
 ### SECOND AVERTISSEMENT.
 
+[Curated heading level=4: III.]
+
 [Margin]
 III.
 [/Margin]
@@ -28,6 +32,8 @@ III.
 *Quoy qu'il n'y ait point au monde d'étendüe qui n'ait que longueur & largeur ſans profondeur, ou longueur ſans largeur ny profondeur, & encor moins de point, qui n'ait ny lóngueur, ny largeur, ny profondeur; ce que diſent les Geometres des ſurfaces, des lignes & des points ne laiſſe pas d'eſtre vray, parce qu'il ſuffit pour cela que dans un corps qui eſt veritablement long, large, & profond, je puiſſe n'en conſiderer que la longueur & la largeur, ſans faire attention à la profondeur, ou même la longueur ſeule ſans m'arreſter ny à la largeur, ny à la profondeur. Ainſy pour meſurer un champ, je ne m'amuſe pas à creuſer pour ſçavoir ſi la terre y eſt bien profonde, mais je regarde ſeulement combien il eſt long & large: Et pour ſçavoir combien il y a de Paris à Orleans, je ne meſure pas la largeur des chemins, mais ſeulement la longueur. Et de même ce qu'on appelle Point n'eſt que la ligne même, entant qu'on n'y conſidere que la negation d'une plus longue étendüe.*
 
 ### TROISIEME AVERTISSEMENT.
+
+[Curated heading level=4: IV.]
 
 [Margin]
 IV.

@@ -5,6 +5,8 @@
 
 ## DEFINITIONS.
 
+[Curated heading level=4: XI.]
+
 [Margin]
 XI.
 [/Margin]
@@ -17,6 +19,8 @@ Soit une circonference, dont le centre eſt c, & un arc moindre que la moitié d
 
 ## PREMIER LEMME.
 
+[Curated heading level=4: XII.]
+
 [Margin]
 XII.
 [/Margin]
@@ -24,6 +28,8 @@ XII.
 QUE ſi on continuë f g juſqu'à h, autre point de la circonference, il eſt clair par le 1er Theoreme que f h eſt partagée par la moitié par c d, & qu'ainſy le ſinus f g eſt la moitié de la corde f h.
 
 ## SECOND LEMME.
+
+[Curated heading level=4: XIII.]
 
 [Margin]
 XIII.
@@ -35,6 +41,8 @@ D'où il s'enſuit qu'on peut encore definir le *ſinus*.
 
 ## AUTRE DEFINITION DES SINUS.
 
+[Curated heading level=4: XIV.]
+
 [Margin]
 XIV.
 [/Margin]
@@ -44,6 +52,8 @@ LA moitié de la corde du double de l'arc.
 Car f g eſt la moitié de la corde f h, laquelle corde f g h ſoûtient l'arc f d h, lequel eſt double de l'arc f d. Tout cela eſtant ſuppoſé ſoit.
 
 ## SIXIEME THEOREME.
+
+[Curated heading level=4: XV.]
 
 [Margin]
 XV.

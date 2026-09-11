@@ -9,6 +9,8 @@ Les coſtez des figures ſemblables, entre leſquels il y a même raiſon, s'app
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: XII.]
+
 [Margin]
 XII.
 [/Margin]
@@ -26,6 +28,8 @@ Puiſque *B* eſt à *b*, comme *C* à *c*, & *D* à *d*.
 Les trois d'une part (qui font le circuit de la premiere figure) ſont aux trois de l'autre part (qui font le circuit de la ſeconde) en même raiſon que chacune d'une part à chacune de l'autre. C'eſt ce qui a eſté demonſtré, II. 52.
 
 ## AUTRES DEFINITIONS.
+
+[Curated heading level=4: XIII.]
 
 [Margin]
 XIII.

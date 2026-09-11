@@ -3,6 +3,8 @@
 
 ## AVERTISSEMENT.
 
+[Curated heading level=4: XLVI.]
+
 [Margin]
 XLVI.
 [/Margin]

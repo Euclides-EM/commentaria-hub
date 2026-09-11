@@ -5,6 +5,8 @@
 
 ## QUATRIEME THEOREME.
 
+[Curated heading level=4: XLI.]
+
 [Margin]
 XLI.
 [/Margin]
@@ -23,6 +25,8 @@ Oſtant donc de part & d'autre les deux aigus *c* & *f* qui ſont égaux, les ob
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XLII.]
+
 [Margin]
 XLII.
 [/Margin]
@@ -33,6 +37,8 @@ Car l'oppoſé eſt droit, puiſqu'il eſt égal à celuy là; & les proches ne 
 
 ## SECOND COROLLAIRE.
 
+[Curated heading level=4: XLIII.]
+
 [Margin]
 XLIII.
 [/Margin]
@@ -41,6 +47,8 @@ QUI connoiſt un angle d'un parallelogramme, les connoiſt tous. Car ce qui manq
 
 ## TROISIEME COROLLAIRE.
 
+[Curated heading level=4: XLIV.]
+
 [Margin]
 XLIV.
 [/Margin]
@@ -48,6 +56,8 @@ XLIV.
 DEUX parallelogrammes qui ont un angle égal, ſont equiangles.
 
 ## QUATRIEME COROLLAIRE.
+
+[Curated heading level=4: XLV.]
 
 [Margin]
 XLV.

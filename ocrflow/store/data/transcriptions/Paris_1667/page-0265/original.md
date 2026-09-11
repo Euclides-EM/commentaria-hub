@@ -24,6 +24,8 @@ T.  p : :  T.  p.
 
 ## QUATRIEME THEOREME, COROLLAIRE DU SECOND.
 
+[Curated heading level=4: XLIX.]
+
 [Margin]
 XLIX.
 [/Margin]
@@ -48,6 +50,8 @@ T.  m : :  m.  p.
 [/Calculation]
 
 ## TROISIEME CAS.
+
+[Curated heading level=4: L.]
 
 [Margin]
 L.

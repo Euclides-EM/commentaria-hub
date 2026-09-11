@@ -10,6 +10,8 @@ T.  m : :  m.  p.
 
 ## SECONDE COMPARAISON.
 
+[Curated heading level=4: XLVI.]
+
 [Margin]
 XLVI.
 [/Margin]
@@ -27,6 +29,8 @@ T.  m : :  m.  p.
 
 ## SECOND CAS.
 
+[Curated heading level=4: XLVII.]
+
 [Margin]
 XLVII.
 [/Margin]
@@ -34,6 +38,8 @@ XLVII.
 Le 2ᵉ Cas de la propoſition principale ( §. 39. ) eſt quand la ligne *y* touche le cercle en un point diametralement oppoſé à *k* : ce qui comprend auſſy deux Theoremes.
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: XLVIII.]
 
 [Margin]
 XLVIII.

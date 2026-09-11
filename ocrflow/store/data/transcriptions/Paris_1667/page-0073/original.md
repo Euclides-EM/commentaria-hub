@@ -14,6 +14,8 @@ Dividendo         b — c. c : :  f — g. g.
 
 ## PREUVE DE LA PERMUTATION.
 
+[Curated heading level=4: XLVI.]
+
 [Margin]
 XLVI.
 [/Margin]
@@ -21,6 +23,8 @@ XLVI.
 *Il n'en faut point d'autre que le 6ᵉ Axiome. s̃. 37.*
 
 ## PREUVE DE L'ALTERNE.
+
+[Curated heading level=4: XLVII.]
 
 [Margin]
 XLVII.

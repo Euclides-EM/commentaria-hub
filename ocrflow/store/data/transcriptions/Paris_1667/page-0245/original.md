@@ -15,6 +15,8 @@ Or pour cela il ne faut que tranſporter les termes en commençant par *n*, & le
 
 ## TROISIEME PROBLEME.
 
+[Curated heading level=4: XXXVIII.]
+
 [Margin]
 XXXVIII.
 [/Margin]

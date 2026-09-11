@@ -5,6 +5,8 @@ de ce coſté là, ſe rencontreront à la fin. V 11.
 
 ## DOUZIEME THEOREME.
 
+[Curated heading level=4: XXXIV.]
+
 [Margin]
 XXXIV.
 [/Margin]
@@ -18,6 +20,8 @@ Soient les deux lignes *k z* & *k x*, dont *k z* ſoit coupée en *g*, perpendic
 Donc elles ſe rencontreront eſtant prolongées de ce coſté là par 33. *ſup*.
 
 ## TREIZIEME THEOREME.
+
+[Curated heading level=4: XXXV.]
 
 [Margin]
 XXXV.

@@ -9,6 +9,8 @@ Donc par la definition de l'égalité des raiſons b c & b d ſont en même rai�
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XV.]
+
 [Margin]
 XV.
 [/Margin]
@@ -20,6 +22,8 @@ b c.  m n :: b.  m + c.  n.
 [/Calculation]
 
 ## SECOND COROLLAIRE.
+
+[Curated heading level=4: XVI.]
 
 [Margin]
 XVI.
@@ -37,6 +41,8 @@ Donc cette raiſon eſt doublée de chacune, par la definition de la raiſon dou
 
 ## TROISIEME COROLLAIRE.
 
+[Curated heading level=4: XVII.]
+
 [Margin]
 XVII.
 [/Margin]
@@ -46,6 +52,8 @@ LEs quarrez ſont en raiſon doublée de leurs racines. C'eſt la même choſe q
 Et ainſy ſi b eſt double de d, bb eſt quadruple de dd.
 
 ## QUATRIEME COROLLAIRE.
+
+[Curated heading level=4: XVIII.]
 
 [Margin]
 XVIII.

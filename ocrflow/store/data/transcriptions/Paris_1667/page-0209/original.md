@@ -5,6 +5,8 @@ ment, ſi c'eſt dans des cercles inégaux. Ce qu'il faut auſſy ſuppoſer dan
 
 ## QUATRIEME COROLLAIRE.
 
+[Curated heading level=4: XXII.]
+
 [Margin]
 XXII.
 [/Margin]
@@ -14,6 +16,8 @@ Si deux angles inſcrits en divers cercles ſont égaux, & qu'ils ſoient ſoute
 Car les angles inſcrits en divers cercles ne ſçauroient eſtre égaux, qu'ils ne ſoient appuyez ſur des arcs proportionellement égaux, & des arcs de divers cercles proportionellement égaux ne ſçauroient eſtre ſoutenus par des cordes égales que les cercles ne ſoient égaux. Donc, &c.
 
 ## CINQUIEME COROLLAIRE.
+
+[Curated heading level=4: XXIII.]
 
 [Margin]
 XXIII.
@@ -25,6 +29,8 @@ Lorsque deux cercles dont l'un eſt au dedans de l'autre ſe touchent, ſi du po
 
 ## SIXIEME COROLLAIRE.
 
+[Curated heading level=4: XXIV.]
+
 [Margin]
 XXIV.
 [/Margin]
@@ -34,6 +40,8 @@ Si un cercle a pour centre un point de la circonference d'un autre cercle, & que
 [Diagram: two intersecting circles, one centred on a point of the other's circumference, with two lines drawn from that point cutting both circumferences]
 
 ## SEPTIEME COROLLAIRE.
+
+[Curated heading level=4: XXV.]
 
 [Margin]
 XXV.

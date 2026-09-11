@@ -3,6 +3,8 @@
 
 ## SECOND EXEMPLE.
 
+[Curated heading level=4: LXXI.]
+
 [Margin]
 LXXI.
 [/Margin]
@@ -26,6 +28,8 @@ A = 7.
 Donc il y avoit 7 pauvres. Et j'avois 34 ſols.
 
 ## TROISIEME EXEMPLE.
+
+[Curated heading level=4: LXXII.]
 
 [Margin]
 LXXII.

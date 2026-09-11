@@ -3,6 +3,8 @@
 
 ## TROISIEME THEOREME.
 
+[Curated heading level=4: VIII.]
+
 [Margin]
 VIII.
 [/Margin]
@@ -10,6 +12,8 @@ VIII.
 LA ligne qui paſſant par le centre coupe un arc par la moitié, coupe auſſy par la moitié & perpendiculairement la corde qui ſoûtient cet arc. Car il y a alors deux points dans la ligne qui coupe l'arc par la moitié, le centre & le point de ſection de l'arc dont chacun eſt également diſtant des deux extrémitez de la corde.
 
 ## QUATRIEME THEOREME.
+
+[Curated heading level=4: IX.]
 
 [Margin]
 IX.

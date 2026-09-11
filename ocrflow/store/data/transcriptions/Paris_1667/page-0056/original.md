@@ -3,6 +3,8 @@
 
 Chacune de ces grandeurs égales peut eſtre appellée *membre de l'equation*.
 
+[Curated heading level=4: LXVII.]
+
 [Margin]
 LXVII.
 [/Margin]
@@ -14,6 +16,8 @@ Ainſi aiant une grandeur comme b partagée en deux portions, comme c & d, on pe
 Or il y a beaucoup de rencontres où il eſt plus avantageux de nommer une partie du nom du tout moins l'autre partie que de luy donner un nom propre. Comme au contraire il eſt quelquefois plus utile de donner un nom propre à ce qui eſt marqué par une grandeur moins quelque choſe, comme nous avons veu dans les regles de la multiplication.
 
 ## THEOREME.
+
+[Curated heading level=4: LXVIII.]
 
 [Margin]
 LXVIII.

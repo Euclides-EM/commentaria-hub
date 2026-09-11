@@ -23,6 +23,8 @@ On le peut auſſy prouver immédiatement & par ſoy même ſans avoir recours a
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XIV.]
+
 [Margin]
 XIV.
 [/Margin]

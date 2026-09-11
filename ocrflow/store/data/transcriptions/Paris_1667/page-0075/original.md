@@ -3,6 +3,8 @@
 
 ## SIXIEME THEOREME.
 
+[Curated heading level=4: L.]
+
 [Margin]
 L.
 [/Margin]
@@ -42,6 +44,8 @@ c.  d  : :  n.  o.
 Ce qu'il faloit demonſtrer.
 
 ## SEPTIEME THEOREME.
+
+[Curated heading level=4: LI.]
 
 [Margin]
 LI.

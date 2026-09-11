@@ -5,6 +5,8 @@
 
 ## Second Corollaire.
 
+[Curated heading level=4: XXIII.]
+
 [Margin]
 XXIII.
 [/Margin]
@@ -13,6 +15,8 @@ Deux triangles ſont équiangles, ſi deux angles de l'un ſont égaux aux deux 
 
 ## Sixieme Theoreme.
 
+[Curated heading level=4: XXIV.]
+
 [Margin]
 XXIV.
 [/Margin]
@@ -20,6 +24,8 @@ XXIV.
 Lorsque deux triangles ont un angle égal, & les coſtez qui ſoûtiennent ces angles proportionnels, ils ſont ſemblables. Car alors la baſe eſt auſſy proportionnelle à la baſe, & les deux angles ſur cette baſe égaux, par XI. 63.
 
 ## Septieme Theoreme.
+
+[Curated heading level=4: XXV.]
 
 [Margin]
 XXV.
@@ -30,6 +36,8 @@ Si deux triangles ſont de même hauteur, les paralleles à la baſe également 
 Cela eſt demonſtré X 20.
 
 ## Huitieme Theoreme.
+
+[Curated heading level=4: XXVI.]
 
 [Margin]
 XXVI.

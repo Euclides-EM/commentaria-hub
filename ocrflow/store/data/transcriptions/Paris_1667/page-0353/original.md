@@ -14,6 +14,8 @@ Car { A. E
 
 ## LEMME.
 
+[Curated heading level=4: XXI.]
+
 [Margin]
 XXI.
 [/Margin]
@@ -31,6 +33,8 @@ Or il eſt viſible que ce triangle & ce parallelogramme ſont de même hauteur,
 Donc tout triangle eſt la moitié d'un parallelogramme de même baſe & de même hauteur.
 
 ## THEOREME GENERAL.
+
+[Curated heading level=4: XXII.]
 
 [Margin]
 XXII.

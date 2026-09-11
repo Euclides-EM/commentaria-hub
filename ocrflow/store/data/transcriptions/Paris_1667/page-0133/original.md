@@ -15,6 +15,8 @@ La conſideration de ces trois lignes, *k b* oblique, *k c* perpendiculaire, *b 
 
 Les lignes obliques menées du même point à une même ligne, ſont plus longues, plus elles ſont éloignées du perpendicule.
 
+[Curated heading level=4: XLIV.]
+
 [Margin]
 XLIV.
 [/Margin]

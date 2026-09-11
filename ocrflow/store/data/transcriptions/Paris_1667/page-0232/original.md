@@ -3,6 +3,8 @@
 
 ## SECOND COROLLAIRE.
 
+[Curated heading level=4: XV.]
+
 [Margin]
 XV.
 [/Margin]
@@ -15,6 +17,8 @@ C'eſt la même choſe que le precedent Corollaire, puiſque tirant par le point
 
 ## TROISIEME COROLLAIRE.
 
+[Curated heading level=4: XVI.]
+
 [Margin]
 XVI.
 [/Margin]
@@ -26,6 +30,8 @@ Si deux lignes compriſes dans un même eſpace ſe coupent, elles ſont coupée
 C'eſt encore la même choſe que le 1er Corollaire, puiſque menant une parallele à l'eſpace par le point de la ſection, ce ſeront deux lignes dans le même eſpace total qui ſont coupées par une parallele à cet eſpace, & qui par conſequent le doivent eſtre proportionellement.
 
 ## QUATRIEME COROLLAIRE.
+
+[Curated heading level=4: XVII.]
 
 [Margin]
 XVII.

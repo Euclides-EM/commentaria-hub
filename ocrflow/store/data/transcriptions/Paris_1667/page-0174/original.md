@@ -9,6 +9,8 @@ Toute ligne perpendiculaire à l'extrémité d'un rayon touche le cercle, & ne l
 
 ## SECOND THEOREME.
 
+[Curated heading level=4: XXXII.]
+
 [Margin]
 XXXII.
 [/Margin]

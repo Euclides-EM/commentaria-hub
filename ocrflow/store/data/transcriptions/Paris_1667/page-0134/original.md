@@ -15,6 +15,8 @@ la maxime,
 
 ## COROLLAIRE.
 
+[Curated heading level=4: XLV.]
+
 [Margin]
 XLV.
 [/Margin]

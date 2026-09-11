@@ -33,6 +33,8 @@ De tout cecy il eſt aiſé de conclure que ſi des deux extremitez de la baſe 
 
 ## SEPTIEME THEOREME.
 
+[Curated heading level=4: XXXII.]
+
 [Margin]
 XXXII.
 [/Margin]

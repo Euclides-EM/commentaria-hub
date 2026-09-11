@@ -3,6 +3,8 @@
 
 ## HUITIEME LEMME.
 
+[Curated heading level=4: X.]
+
 [Margin]
 X.
 [/Margin]
@@ -20,6 +22,8 @@ Et quand on le multiplieroit 2 , 3 & 4 fois par l'unité , ce ſeroit toûjours 
 Cette obſervation ſera de grand uſage dans les Theoremes ſuivans.
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: XI.]
 
 [Margin]
 XI.

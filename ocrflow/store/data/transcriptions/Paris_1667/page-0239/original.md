@@ -13,6 +13,8 @@ Donc par le 2ᵉ Theoreme,
 
 ## HUITIEME COROLLAIRE.
 
+[Curated heading level=4: XXVI.]
+
 [Margin]
 XXVI.
 [/Margin]
@@ -23,6 +25,8 @@ C'eſt une ſuitte du precedent. Car les diametres ſoutiennent des arcs proport
 
 ## NEUVIEME COROLLAIRE.
 
+[Curated heading level=4: XXVII.]
+
 [Margin]
 XXVII.
 [/Margin]
@@ -30,6 +34,8 @@ XXVII.
 Si deux cordes égales de divers cercles ſoutiennent chacune autant de degrez, les cercles ſont égaux. Car par le precedent Corollaire elles ſont en même raiſon que les diametres des cercles. Donc ſi elles ſont égales, les diametres ſont éganx{printer-error-correction:égaux}. Donc les cercles ſont égaux.
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: XXVIII.]
 
 [Margin]
 XXVIII.

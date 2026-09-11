@@ -5,6 +5,8 @@
 
 ### DEFINITIONS.
 
+[Curated heading level=4: X.]
+
 [Margin]
 X.
 [/Margin]
@@ -24,6 +26,8 @@ Mais il faut remarquer que cela ne peut eſtre que quand le nombre des angles ou
 ## FIGURES COMPARE'ES.
 
 ### DEFINITIONS.
+
+[Curated heading level=4: XI.]
 
 [Margin]
 XI.

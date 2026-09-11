@@ -25,6 +25,8 @@ Ce qu'il falloit demonſtrer, puiſque k E & k *E* ſont les deux coſtez de l'a
 
 ### COROLLAIRE.
 
+[Curated heading level=4: XXXVI.]
+
 [Margin]
 XXXVI.
 [/Margin]

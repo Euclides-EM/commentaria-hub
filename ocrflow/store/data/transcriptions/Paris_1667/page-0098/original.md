@@ -9,7 +9,9 @@ Donc *b*. *c* :: 9. 10.
 
 Donc *b* eſt à *c* comme nombre à nombre. Et de là il s'enſuit que c'eſt auſſi la même choſe de dire que deux grandeurs ne ſont pas entr'elles comme nombre à nombre, & de dire qu'elles ſont incommenſurables, puiſque ſi elles eſtoient commenſurables elles ſeroient comme nombre à nombre.
 
-### SECOND LEMME.
+## SECOND LEMME.
+
+[Curated heading level=4: III.]
 
 [Margin]
 III.
@@ -19,7 +21,9 @@ Si deux grandeurs n'eſtant pas comme nombre à nombre, leurs quarrez ou leurs c
 
 Et il faut remarquer que le quarré eſt la 1re puiſſance, qui s'appelle ſimplement puiſſance : Le cube la 2e : Le quarré de quarré la 3e ; & ainſi à l'infini.
 
-### TROISIEME LEMME.
+## TROISIEME LEMME.
+
+[Curated heading level=4: IV.]
 
 [Margin]
 IV.
@@ -31,7 +35,9 @@ Mais qu'on ne connoiſt diſtinctement & preciſément quelle eſt une raiſon, 
 
 Soient donc appellez ces plus petits nombres par leſquels chaque raiſon puiſſe eſtre exprimée, *les expoſans de cette raiſon.*
 
-### QUATRIEME LEMME.
+## QUATRIEME LEMME.
+
+[Curated heading level=4: V.]
 
 [Margin]
 V.

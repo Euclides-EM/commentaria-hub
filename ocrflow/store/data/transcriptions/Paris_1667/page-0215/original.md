@@ -9,6 +9,8 @@ Donc le ſegment oppoſé à celuy vers lequel eſt *f b* ſera capable d'un ang
 
 ## CINQUIEME PROBLEME.
 
+[Curated heading level=4: XL.]
+
 [Margin]
 XL.
 [/Margin]

@@ -9,6 +9,8 @@ Et ainſi il ſera bon de donner pour exemple dans les nombres celuy dont nous v
 
 ### Dans les Nombres.
 
+[Curated heading level=4: XLII.]
+
 [Margin]
 XLII.
 [/Margin]

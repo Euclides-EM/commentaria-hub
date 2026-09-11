@@ -96,9 +96,10 @@ export const isRuleApplied = (
   annotation: annotation_Annotation,
 ): boolean => {
   const withoutExecutionMetadata = (rule: AnnotationRule) => {
-    const { usage: _usage, ...definition } = rule as AnnotationRule & {
+    const definition = { ...rule } as AnnotationRule & {
       usage?: unknown
     }
+    delete definition.usage
     return definition
   }
   const serializedRule = JSON.stringify(withoutExecutionMetadata(suggestedRule))

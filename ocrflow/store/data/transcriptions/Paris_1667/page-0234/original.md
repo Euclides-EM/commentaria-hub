@@ -39,6 +39,8 @@ Donc *C c* *D d* } :: *B b*. Ce qu'il falloit demonſtrer.
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XIX.]
+
 [Margin]
 XIX.
 [/Margin]
@@ -46,6 +48,8 @@ XIX.
 Deux angles Iſoſceles eſtant égaux, ils ſont ſemblables, & par conſequent les coſtez ſont aux coſtez comme la baſe à la baſe, & la hauteur à la hauteur. Car deux angles eſtant Iſoſceles, ils ne peuvent eſtre égaux que les angles ſur la baſe de l'un ne ſoient égaux aux angles ſur la baſe de l'autre. VIII. 60.
 
 ## SECOND COROLLAIRE.
+
+[Curated heading level=4: XX.]
 
 [Margin]
 XX.

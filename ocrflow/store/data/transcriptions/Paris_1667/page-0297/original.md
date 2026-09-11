@@ -13,6 +13,8 @@ Donc on doit conclure par une analogie tres certaine, que les circonferences ſo
 
 ## TROISIEME COROLLAIRE.
 
+[Curated heading level=4: XXIX.]
+
 [Margin]
 XXIX.
 [/Margin]
@@ -22,6 +24,8 @@ SI deux figures regulieres de même eſpece ont de l'égalité en l'une de ces q
 C'eſt une ſuite évidente du ſixiême Theoreme.
 
 ## QUATRIEME COROLLAIRE.
+
+[Curated heading level=4: XXX.]
 
 [Margin]
 XXX.

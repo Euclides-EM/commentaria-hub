@@ -13,6 +13,8 @@ Et il eſt clair qu'elles ſont égales, puiſque chacune ſoûtient des arcs é
 
 ## TROISIEME PROBLEME.
 
+[Curated heading level=4: XXXVIII.]
+
 [Margin]
 XXXVIII.
 [/Margin]
@@ -24,6 +26,8 @@ Ayant tiré une tangente au cercle, la corde qui fera avec cette tangente au poi
 [Figure: a circle with a tangent line at a point, and a chord drawn from the point of tangency]
 
 ## QUATRIEME PROBLEME.
+
+[Curated heading level=4: XXXIX.]
 
 [Margin]
 XXXIX.

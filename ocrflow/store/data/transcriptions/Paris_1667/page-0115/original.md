@@ -7,6 +7,8 @@ Ainſi ²⁄₂ ³⁄₃ ⁴⁄₄ &c. font chacun le tout.
 
 ### PREMIER THEOREME.
 
+[Curated heading level=4: XXXIV.]
+
 [Margin]
 XXXIV.
 [/Margin]
@@ -32,6 +34,8 @@ Donc x/⅓. y/¼ } :: 4. 3.
 Ce qu'il falloit demouſtrer{printer-error-correction:demonſtrer}.
 
 ### SECOND THEOREME.
+
+[Curated heading level=4: XXXV.]
 
 [Margin]
 XXXV.

@@ -5,7 +5,7 @@ import {
   getElementAttr,
   getElementCertaintyDegree,
   getLineElements,
-  getTeiTranslationSources,
+  getTeiAlternativeSources,
   getXmlId,
   isElement,
   parseCorrespRefs,
@@ -1024,12 +1024,12 @@ export const renderOriginalView = (
   return parts.join('') || '<p></p>'
 }
 
-export const renderTranslationView = (
+export const renderAlternativeView = (
   body: Element,
   translationIndex: number,
   opts: ReadingOptions,
 ): string => {
-  const sources = getTeiTranslationSources(body)
+  const sources = getTeiAlternativeSources(body)
   const source = sources[translationIndex]
   if (!source) return '<p></p>'
   return renderStructuredDiv(source.element, opts, 'corresp') || '<p></p>'
@@ -1139,9 +1139,9 @@ export const renderTeiHtml = (
   )
 
   if (viewMode !== 'original') {
-    const translationIndex = Number.parseInt(viewMode.split(':')[1] || '', 10)
-    const joined = Number.isFinite(translationIndex)
-      ? renderTranslationView(body, translationIndex, opts)
+    const alternativeIndex = Number.parseInt(viewMode.split(':')[1] || '', 10)
+    const joined = Number.isFinite(alternativeIndex)
+      ? renderAlternativeView(body, alternativeIndex, opts)
       : '<p></p>'
     return applyHighlights(joined, searchResultHighlight)
   }

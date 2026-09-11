@@ -7,6 +7,8 @@ C'eſtpourquoy auſſy par tout où une ligne d'une certaine longueur ſe trouve
 
 ## SECOND AXIOME.
 
+[Curated heading level=4: III.]
+
 [Margin]
 III.
 [/Margin]
@@ -19,6 +21,8 @@ On peut encore dire que les coſtez angulaires d'un rectangle pouvant eſtre mar
 
 ## AVERTISSEMENT.
 
+[Curated heading level=4: IV.]
+
 [Margin]
 IV.
 [/Margin]
@@ -28,6 +32,8 @@ Ces deux axiomes nous font voir que tout ce que nous avons dit dans le premier l
 C'eſt ce que nous verrons en peu de mots en commençant par la puiſſance des lignes.
 
 ## DEFINITION.
+
+[Curated heading level=4: V.]
 
 [Margin]
 V.

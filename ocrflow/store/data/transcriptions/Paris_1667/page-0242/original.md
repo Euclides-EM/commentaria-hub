@@ -9,6 +9,8 @@ J'en laiſſe à trouver la demonſtration, qui n'eſt qu'une application du pre
 
 ## SECOND COROLLAIRE.
 
+[Curated heading level=4: XXXII.]
+
 [Margin]
 XXXII.
 [/Margin]
@@ -30,6 +32,8 @@ Donc par le premier Theoreme,
 *C*. *c* :: *D*. *d*. *& alternando* *C*. *D* :: *c*. *d*.
 
 ## TROISIEME COROLLAIRE.
+
+[Curated heading level=4: XXXIII.]
 
 [Margin]
 XXXIII.

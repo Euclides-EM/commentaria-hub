@@ -3,6 +3,8 @@
 
 ## CINQUIEME PROBLEME.
 
+[Curated heading level=4: LXIX.]
+
 [Margin]
 LXIX.
 [/Margin]

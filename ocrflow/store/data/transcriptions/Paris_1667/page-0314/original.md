@@ -7,6 +7,8 @@ ayant la premiere & la ſeconde, qui eſt la moyenne, on a la 3ᵉ par le Proble
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: XXXIII.]
+
 [Margin]
 XXXIII.
 [/Margin]
@@ -14,6 +16,8 @@ XXXIII.
 LORSQUE l'angle du ſommet d'un triangle Iſoſcele eſt de 36 degrez, chacun des angles ſur la baſe eſt de 72, & la baſe eſt la moyenne proportionelle entre le coſté entier, & le coſté moins cette baſe ( c'eſtadire que la baſe diviſe le coſté en moyenne & extrême raiſon ) & la baſe eſtant ajoûtée au coſté, il s'en fait une ligne diviſée en moyenne & extrême raiſon. Voyez XI. 68. 69. 73.
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -34,6 +38,8 @@ Donc ∴ *bc*. *cd*. *fc*. Ce qu'il falloit demonſtrer.
 ## DES QUADRILATERES.
 
 ## DEFINITIONS.
+
+[Curated heading level=4: XXXV.]
 
 [Margin]
 XXXV.

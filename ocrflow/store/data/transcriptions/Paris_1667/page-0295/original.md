@@ -11,6 +11,8 @@ Et on peut dire auſſy que tout point de la circonference eſt comme le ſommet
 
 ## CINQUIEME THEOREME.
 
+[Curated heading level=4: XXV.]
+
 [Margin]
 XXV.
 [/Margin]
@@ -28,6 +30,8 @@ Et il eſt clair auſſy que b eſt à c, comme 10 b à 10 c, ou 100 b à 100 c,
 Donc les circuits ne ſçauroient manquer d'eſtre en même raiſon que les coſtez.
 
 ## SIXIEME THEOREME.
+
+[Curated heading level=4: XXXV.]
 
 [Margin]
 XXXV.

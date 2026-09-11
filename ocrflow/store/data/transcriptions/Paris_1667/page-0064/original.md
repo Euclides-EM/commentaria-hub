@@ -3,7 +3,9 @@
 
 Et l'addition de ceux du milieu donne auſſi c + n + z. Ce qui eſt la même choſe.
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
+
+[Curated heading level=4: XXVII.]
 
 [Margin]
 XXVII.
@@ -14,6 +16,8 @@ IE *ne diray rien davantage de la proportion arithmetique, parce qu'elle n'eſt 
 ## DE LA PROPORTION GEOMETRIQVE.
 
 ### DEFINITION.
+
+[Curated heading level=4: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -46,6 +50,8 @@ Ou bien ainſi,
 ∺ b. c. d.
 
 ### I. DEFINITION DE L'EGALITE' DES RAISONS.
+
+[Curated heading level=4: XXIX.]
 
 [Margin]
 XXIX.

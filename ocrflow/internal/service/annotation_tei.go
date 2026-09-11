@@ -135,6 +135,11 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		return nil, fmt.Errorf("failed to list features for annotation %s: %v", ann.ID, err)
 	}
 
+	if files, listErr := t.fileSysMgt.ListAnnotationTranscriptionFiles(ann, pageNumOrKey); listErr == nil {
+		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
+		return buildTEIFromTranscriptionFiles(pageNumOrKey, files, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
+	}
+
 	// Annotation-level transcriptions override the annotation's original ALTO.
 	// Within the transcription directory, ALTO is preferred over Markdown.
 	if a, _, err := t.fileSysMgt.RetrieveAnnotationTranscriptionAltoPage(ann, pageNumOrKey); err == nil {

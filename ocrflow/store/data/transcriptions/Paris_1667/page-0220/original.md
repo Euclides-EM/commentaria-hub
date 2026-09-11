@@ -9,6 +9,8 @@ cas cet angle a pour ſa meſure la moitié de l'arc que ſoûtient la partie de
 
 [Figure: a circle with diameter k g prolonged to h, a line from k cutting the circle at c and extended through points l, m, n, with perpendiculars l f, m g, n h dropped to the diameter]
 
+[Curated heading level=4: XLVII.]
+
 [Margin]
 XLVII.
 [/Margin]

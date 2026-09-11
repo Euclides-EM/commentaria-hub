@@ -29,6 +29,8 @@ Kk
 
 ## DIXIEME THEOREME.
 
+[Curated heading level=4: LX.]
+
 [Margin]
 LX.
 [/Margin]
@@ -38,6 +40,8 @@ TOUTE ligne qui coupant perpendiculairement l'hypotenuſe d'un angle droit en co
 [Figure: triangle cut by a line crossing its base and one side perpendicularly]
 
 ## DERNIER THEOREME.
+
+[Curated heading level=4: LXI.]
 
 [Margin]
 LXI.

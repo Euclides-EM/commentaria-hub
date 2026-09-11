@@ -152,6 +152,16 @@ em {
   text-transform: uppercase;
 }
 
+.tei-readable p[data-tei-block-type='subhead'] {
+  margin-top: -0.15rem;
+  margin-bottom: 0.75rem;
+  color: #374151;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
 .tei-readable p[data-tei-block-type='running-title'],
 .tei-readable p[data-tei-block-type='page-number'],
 .tei-readable p[data-tei-block-type='signature'],

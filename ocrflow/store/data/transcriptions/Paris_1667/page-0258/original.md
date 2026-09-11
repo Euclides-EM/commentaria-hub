@@ -25,6 +25,8 @@ L'autre par un angle qui a deux baſes antiparalleles.
 
 ### Theoreme Anomal.
 
+[Curated heading level=4: XXXV.]
+
 [Margin]
 XXXV.
 [/Margin]

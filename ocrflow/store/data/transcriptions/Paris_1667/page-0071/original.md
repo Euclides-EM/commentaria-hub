@@ -9,6 +9,8 @@ b. c : : f b. f c.
 
 ## TROISIEME THEOREME.
 
+[Curated heading level=4: XLIII.]
+
 [Margin]
 XLIII.
 [/Margin]
@@ -35,6 +37,8 @@ m.    n.   }     5 x.  3 x.
 Et ce ſera la même choſe dans les raiſons ſourdes, en ajoûtant ſeulement aux trois conſequens, *plus le reſidu*.
 
 ## QUATRIEME THEOREME.
+
+[Curated heading level=4: XLIV.]
 
 [Margin]
 XLIV.

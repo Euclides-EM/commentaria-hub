@@ -3,6 +3,8 @@
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XXVIII.]
+
 [Margin]
 XXVIII.
 [/Margin]
@@ -17,6 +19,8 @@ Tous les nombres de la 1re regle qui finiſſent par 5 ſont auſſi de la 2e, c
 
 ## SECOND COROLLAIRE.
 
+[Curated heading level=4: XXIX.]
+
 [Margin]
 XXIX.
 [/Margin]
@@ -26,6 +30,8 @@ EN renverſant la 1re regle on peut trouver tant de nombres que l'on voudra dont
 Car tout nombre quarré impair eſtant diviſé en deux parties, dont l'une ne ſurpaſſe l'autre que de l'unité ; le quarré de la plus grande partie eſt égal au quarré de la plus petite, plus le premier quarré impair. La preuve eſt la même que celle de la 1re regle.
 
 ## TROISIEME COROLLAIRE.
+
+[Curated heading level=4: XXX.]
 
 [Margin]
 XXX.

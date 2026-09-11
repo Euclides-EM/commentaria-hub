@@ -7,6 +7,8 @@ Donc par le Theoreme 2ᵉ *h* & *d* ſont incommenſurables en longueur, & comme
 
 ## COROLLAIRE.
 
+[Curated heading level=4: LXXXI.]
+
 [Margin]
 LXXXI.
 [/Margin]
@@ -24,6 +26,8 @@ Donc il eſt une aliquote de l'hypotenuſe.
 Donc par le Theoreme precedent l'autre coſté, qui eſt la perpendiculaire, eſt incommenſurable en longueur, & commenſurable ſeulement en puiſſance avec l'hypotenuſe de cet angle droit, laquelle eſt le coſté de l'angle dont la baſe eſt ſuppoſée égale à chaque coſté.
 
 ## QUATRIEME THEOREME.
+
+[Curated heading level=4: LXXXII.]
 
 [Margin]
 LXXXII.

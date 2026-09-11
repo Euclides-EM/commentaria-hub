@@ -11,6 +11,8 @@ Car les quarrez eſtant en raiſon doublée de leurs racines, & les cubes en rai
 
 ### Huitieme Corollaire.
 
+[Curated heading level=4: XXV.]
+
 [Margin]
 XXV.
 [/Margin]
@@ -28,6 +30,8 @@ Et  bc.  cc  ::  b.   c.
 C'eſt la même choſe de dire que le produit de la toute & d'une partie eſt moyen proportionnel entre le quarré de la toute & le quarré de cette partie. Car il eſt viſible que ſi la toute eſt t. & m. une partie tt. tm :: tm. mm.
 
 ### Neuvieme Corollaire.
+
+[Curated heading level=4: XXVI.]
 
 [Margin]
 XXVI.
@@ -53,6 +57,8 @@ Donc bb.  cc  ::  b.  d.
 [/Calculation]
 
 ### Dixieme Corollaire.
+
+[Curated heading level=4: XXVII.]
 
 [Margin]
 XXVII.

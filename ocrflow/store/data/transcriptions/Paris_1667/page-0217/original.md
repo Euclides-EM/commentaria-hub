@@ -13,6 +13,8 @@ Donc l'angle *f k g* qui leur eſt égal, a pour ſa meſure les moitiez de ces 
 
 ## COROLLAIRE.
 
+[Curated heading level=4: XLIII.]
+
 [Margin]
 XLIII.
 [/Margin]
@@ -26,6 +28,8 @@ Je ne prouve point ce qui eſt ſuppoſé dans ce Corollaire, parce que c'eſt u
 ## III.
 
 ## DES ANGLES DONT LE SOMMET EST HORS LE CERCLE QUE LEURS COSTEZ COUPENT OU TOUCHENT.
+
+[Curated heading level=4: XLIV.]
 
 [Margin]
 XLIV.

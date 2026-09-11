@@ -7,6 +7,8 @@ l'angle *f*. Et par la même raiſon l'angle égal à *g* ayant *c d* pour baſe
 
 ## DES ANGLES DONT LE SOMMET EST AU DEDANS DU CERCLE ET AILLEURS QU'AU CENTRE.
 
+[Curated heading level=4: XLI.]
+
 [Margin]
 XLI.
 [/Margin]
@@ -20,6 +22,8 @@ Et ainſy ces angles ſe reduiſent aux angles qui ſe font dans la ſection de 
 Voicy donc le Theoreme qui nous apprendra la meſure de ces angles.
 
 ## QUATRIEME THEOREME.
+
+[Curated heading level=4: XLII.]
 
 [Margin]
 XLII.

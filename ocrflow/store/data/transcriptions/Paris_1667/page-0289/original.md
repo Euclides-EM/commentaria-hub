@@ -5,6 +5,8 @@
 
 ## DES INSCRITTES.
 
+[Curated heading level=4: XIV.]
+
 [Margin]
 XIV.
 [/Margin]
@@ -16,6 +18,8 @@ On dit qu'une figure rectiligne eſt *inſcritte au cercle*, quand les ſommets 
 2. Qu'ainſy les angles d'une figure inſcritte ne ſçauroient eſtre égaux, que quand les deux arcs qui ſoûtiennent les deux coſtez de chaque angle ſont égaux pris enſemble aux deux arcs que ſoutiennent les deux coſtez de chaque autre angle : parceque chacun de ces angles a pour meſure la demycirconference moins la moitié des deux arcs que ſoutiennent ces coſtez. IX. 19. D'où s'enſuit ce Theoreme.
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: XV.]
 
 [Margin]
 XV.

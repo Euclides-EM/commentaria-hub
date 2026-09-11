@@ -5,6 +5,8 @@ deux angles peuvent eſtre compris dans le même eſpace parallele. Car mettant 
 
 ### HUITIEME LEMME.
 
+[Curated heading level=4: IX.]
+
 [Margin]
 IX.
 [/Margin]
@@ -15,6 +17,8 @@ Et au contraire les eſpaces paralleles ſont égaux quand les également inclin
 
 ### NEUVIEME LEMME.
 
+[Curated heading level=4: X.]
+
 [Margin]
 X.
 [/Margin]
@@ -23,6 +27,8 @@ LORS qu'une même ligne eſt coupée par pluſieurs lignes toutes paralleles, to
 
 ### DIXIEME LEMME.
 
+[Curated heading level=4: XI.]
+
 [Margin]
 XI.
 [/Margin]
@@ -30,6 +36,8 @@ XI.
 LORS qu'il y a proportion entre quatre lignes, on dit que deux de ces lignes ſont proportionelles aux deux autres lignes quand les deux antecedens de la proportion ſe trouvent dans les deux premieres, & les deux conſequens dans les deux dernieres. D'où il s'enſuit auſſy qu'*Alternando*, on peut prendre auſſy les deux premieres pour les deux termes d'une raiſon, & les deux dernieres pour les deux termes de l'autre.
 
 ### PROPOSITION FONDAMENTALE DES LIGNES PROPORTIONELLES.
+
+[Curated heading level=4: XII.]
 
 [Margin]
 XII.

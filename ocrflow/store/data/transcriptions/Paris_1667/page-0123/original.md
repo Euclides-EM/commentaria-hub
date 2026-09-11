@@ -3,6 +3,8 @@
 
 ### PREMIER AXIOME OU DEMANDE.
 
+[Curated heading level=4: XXII.]
+
 [Margin]
 XXII.
 [/Margin]
@@ -13,6 +15,8 @@ La machine la plus ordinaire dont on ſe ſert pour la décrire ſur le papier s
 
 ### SECOND AXIOME OU DEMANDE.
 
+[Curated heading level=4: XXIII.]
+
 [Margin]
 XXIII.
 [/Margin]
@@ -22,6 +26,8 @@ Or comme il faut ſuppoſer dans cette operation que les deux jambes du compas g
 Décrire une ligne égale à une ligne donnée, ſoit par le retranchement d'une autre ligne, ſoit par tout ailleurs.
 
 ### TROISIEME AXIOME.
+
+[Curated heading level=4: XXIV.]
 
 [Margin]
 XXIV.
@@ -36,6 +42,8 @@ Et celles qui ſont décrites d'un plus petit intervale ſont plus petites.
 Et d'un plus grand ſont plus grandes.
 
 ### QUATRIEME AXIOME.
+
+[Curated heading level=4: XXV.]
 
 [Margin]
 XXV.

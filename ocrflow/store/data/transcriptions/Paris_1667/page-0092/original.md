@@ -5,6 +5,8 @@ eux comme les termes de la même progreſſion, entre leſquels il y a deux fois
 
 ### Onzieme Corollaire.
 
+[Curated heading level=4: XXVIII.]
+
 [Margin]
 XXVIII.
 [/Margin]
@@ -25,6 +27,8 @@ Donc bbb.  ccc  ::  b. f.
 
 ### Douzieme Corollaire.
 
+[Curated heading level=4: XXIX.]
+
 [Margin]
 XXIX.
 [/Margin]
@@ -37,6 +41,8 @@ Le cube de c. premiere de ces moyennes proportionelles ſera double du cube de b
 
 ### Treizieme Corollaire.
 
+[Curated heading level=4: XXX.]
+
 [Margin]
 XXX.
 [/Margin]
@@ -44,6 +50,8 @@ XXX.
 On peut dire generalement que les cubes de deux termes d'une progreſſion Geometrique ſont entr'eux, comme les termes de la même progreſſion, entre leſquels il y a trois fois autant d'intervales, qu'entre les termes dont on compare les cubes.
 
 ### IX. Theoreme. Definition.
+
+[Curated heading level=4: XXXI.]
 
 [Margin]
 XXXI.

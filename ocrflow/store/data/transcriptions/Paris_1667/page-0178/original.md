@@ -15,6 +15,8 @@ meſurent f m le plus grand, & g n le plus petit éloignement de ces deux circon
 
 ## COROLLAIRE.
 
+[Curated heading level=4: XLIII.]
+
 [Margin]
 XLIII.
 [/Margin]

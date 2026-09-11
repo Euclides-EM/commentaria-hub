@@ -9,6 +9,8 @@
 
 ## DES ANGLES RECTILIGNES.
 
+[Curated heading level=4: I.]
+
 [Margin]
 I.
 [/Margin]
@@ -16,6 +18,8 @@ I.
 {dropcap:A|lines=4|style=decorated|decoration="foliate woodcut initial"}PRES avoir parlé des lignes, c'eſt ſuivre l'ordre de la nature que de paſſer aux angles qui ſont plus compoſez que les lignes tenant quelque choſe des ſurfaces, comme nous allons voir.
 
 ### DEFINITION DE L'ANGLE RECTILIGNE.
+
+[Curated heading level=4: II.]
 
 [Margin]
 II.
@@ -25,17 +29,23 @@ L'angle rectiligne eſt une ſurface compriſe entre deux lignes droites qui ſe
 
 ### AUTRES DEFINITIONS.
 
+[Curated heading level=4: III.]
+
 [Margin]
 III.
 [/Margin]
 
 Les lignes qui comprennent l'angle s'appellent ſes coſtez.
 
+[Curated heading level=4: IV.]
+
 [Margin]
 IV.
 [/Margin]
 
 Le point où ces lignes ſe joignent s'appelle ſon ſommet.
+
+[Curated heading level=4: V.]
 
 [Margin]
 V.

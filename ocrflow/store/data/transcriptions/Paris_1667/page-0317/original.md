@@ -3,6 +3,8 @@
 
 ## CINQUIEME COROLLAIRE.
 
+[Curated heading level=4: XLVI.]
+
 [Margin]
 XLVI.
 [/Margin]
@@ -12,6 +14,8 @@ QUI connoiſt d'un parallelogramme deux coſtez angulaires & un angle, connoiſt
 Car qui connoiſt un angle, les connoiſt tous; & qui connoiſt deux coſtez angulaires connoiſt les deux autres, chacun eſtant égal à ſon coſté.
 
 ## PROBLEME.
+
+[Curated heading level=4: XLVII.]
 
 [Margin]
 XLVII.
@@ -23,6 +27,8 @@ Les deux coſtez angulaires comprenant cet angle, de l'extremité du plus petit 
 
 ## CINQUIEME THEOREME.
 
+[Curated heading level=4: XLVIII.]
+
 [Margin]
 XLVIII.
 [/Margin]
@@ -33,6 +39,8 @@ Car l'égalité d'un angle donne celle des autres; & deux coſtez angulaires ne 
 
 ## DEFINITION.
 
+[Curated heading level=4: XLIX.]
+
 [Margin]
 XLIX.
 [/Margin]
@@ -42,6 +50,8 @@ LA ligne qui joint deux angles oppoſez s'appelle *Diagonale*, & elle diviſe le
 [Figure: parallelogram with a dotted diagonal joining two opposite angles]
 
 ## SIXIEME THEOREME.
+
+[Curated heading level=4: L.]
 
 [Margin]
 L.
@@ -54,6 +64,8 @@ Demonſtré X. 16.
 [Figure: parallelogram with dotted diagonal and dotted lines parallel to the sides crossing at a point of the diagonal]
 
 ## DEFINITION.
+
+[Curated heading level=4: LI.]
 
 [Margin]
 LI.

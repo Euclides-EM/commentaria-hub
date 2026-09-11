@@ -21,6 +21,8 @@ Donc ces figures ſemblables ſont en raiſon doublée de leurs coſtez homologu
 
 ## COROLLAIRE.
 
+[Curated heading level=4: XXX.]
+
 [Margin]
 XXX.
 [/Margin]
@@ -32,6 +34,8 @@ Car par le Theoreme precedent les figures ſemblables ſont entr'elles en raiſo
 Or les quarrez de ces coſtez homologues ſont auſſy entr'eux en raiſon doublée de ces coſtez qui ſont leurs racines.
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: XXXI.]
 
 [Margin]
 XXXI.

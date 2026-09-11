@@ -5,6 +5,8 @@ paſſe par le centre, eſt perpendiculaire à la circonference.
 
 ## TROISIEME LEMME.
 
+[Curated heading level=4: XXXIX.]
+
 [Margin]
 XXXIX.
 [/Margin]
@@ -17,6 +19,8 @@ Et par conſequent cette ligne eſt perpendiculaire à la circonference par les 
 
 ## DES CIRCONFERENCES PARALLELES.
 
+[Curated heading level=4: XL.]
+
 [Margin]
 XL.
 [/Margin]
@@ -26,6 +30,8 @@ Deux circonferences ſont paralleles, lorſque tous les points de chacune ſont 
 C'eſtadire ſelon les precedens Lemmes, lorſque toutes les lignes droites, menées chacune des points de l'une perpendiculairement ſur l'autre, ſont égales.
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: XLI.]
 
 [Margin]
 XLI.
@@ -38,6 +44,8 @@ Car tous les rayons de la plus grande circonference ſont perpendiculaires à l'
 [Figure: two concentric circles]
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: XLII.]
 
 [Margin]
 XLII.

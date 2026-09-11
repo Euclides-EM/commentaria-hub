@@ -21,6 +21,8 @@ Et l'angle FKG, l'angle dans le grand ſegment.
 
 ## SECOND AVERTISSEMENT.
 
+[Curated heading level=4: IX.]
+
 [Margin]
 IX.
 [/Margin]
@@ -30,6 +32,8 @@ ON peut encore remarquer qu'au regard de l'angle du ſegment, il faut que la cor
 [Figure: circle with triangle inscribed, vertex K at top, points F and G on the circumference, letters x, y and z around the circle]
 
 ## TROISIEME AVERTISSEMENT.
+
+[Curated heading level=4: X.]
 
 [Margin]
 X.

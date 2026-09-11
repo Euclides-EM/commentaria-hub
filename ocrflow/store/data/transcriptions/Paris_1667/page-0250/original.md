@@ -9,6 +9,8 @@ La 1re eſt quand ce ſont les angles alternes qui ſont égaux ſur les deux ba
 
 [Figure: two crossing lines with bases above and below, labelled b, q, q, P, *p* and B]
 
+[Curated heading level=4: IX.]
+
 [Margin]
 IX.
 [/Margin]
@@ -20,6 +22,8 @@ La 2e eſt quand ce ſont les angles de proche en proche qui ſont égaux ſur l
 Ce ſont encore ces baſes que nous appellerons *antiparalleles*, pour marquer leur effet contraire à celuy des paralleles.
 
 ## Sixieme Lemme.
+
+[Curated heading level=4: X.]
 
 [Margin]
 X.

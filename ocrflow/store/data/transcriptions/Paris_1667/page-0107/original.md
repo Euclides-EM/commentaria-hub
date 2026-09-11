@@ -3,6 +3,8 @@
 
 ## QUATRIEME THEOREME.
 
+[Curated heading level=4: XV.]
+
 [Margin]
 XV.
 [/Margin]
@@ -27,7 +29,7 @@ Donc le produit  { des antecedens   bbb.
 
 *Sans cette reduction en parcourant les 3 manieres.*
 
-### PREMIERE MANIERE.
+#### PREMIERE MANIERE.
 
 [Calculation]
 b.   bx  ::  c.   cx  ::  d.   dx.
@@ -46,7 +48,7 @@ Donc oſtant de part & d'autre bcd , reſte  { iii.
                                            { xxx.
 [/Calculation]
 
-### SECONDE MANIERE, qui eſt meſlée de la Troiſiéme.
+#### SECONDE MANIERE, qui eſt meſlée de la Troiſiéme.
 
 [Calculation]
 b.   c  ::  bx.   cx  ::  by.   cy.
@@ -68,7 +70,10 @@ Donc oſtant de part & d'autre ixy , reſte  { bbb.
 C'eſt la même choſe de la 3e maniere.
 
 ## PROPOSITION FONDAMENTALE
-### DES GRANDEVRS INCOMMENSVRABLES.
+
+## DES GRANDEVRS INCOMMENSVRABLES.
+
+[Curated heading level=4: XVI.]
 
 [Margin]
 XVI.

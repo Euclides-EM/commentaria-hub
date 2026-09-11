@@ -3,6 +3,8 @@
 
 ## MESMES COROLLAIRES AUTREMENT PROPOSEZ.
 
+[Curated heading level=4: XIX.]
+
 [Margin]
 XIX.
 [/Margin]
@@ -34,6 +36,8 @@ b b.  cc :: b. d.  par III. 26.
 [/Calculation]
 
 ## CINQUIEME COROLLAIRE.
+
+[Curated heading level=4: XX.]
 
 [Margin]
 XX.

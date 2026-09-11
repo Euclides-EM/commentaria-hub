@@ -7,6 +7,8 @@ Donc par le 4ᵉ Lemme *D* & *d* ſont également inclinées chacune dans ſon e
 
 ## AUTRE DEMONSTRATION.
 
+[Curated heading level=4: XXXI.]
+
 [Margin]
 XXXI.
 [/Margin]
@@ -25,6 +27,8 @@ Or par la conſtruction *P* eſt égale à *D*. Donc
 
 ## AVERTISSEMENT.
 
+[Curated heading level=4: XXXII.]
+
 [Margin]
 XXXII.
 [/Margin]
@@ -38,6 +42,8 @@ XXXII.
 *Or* B *n'eſt que partie de* P, *donc il n'y a pas la même raiſon de* B *à* b, *que de* C *à* c.
 
 ## PREMIER COROLLAIRE.
+
+[Curated heading level=4: XXXIII.]
 
 [Margin]
 XXXIII.

@@ -5,6 +5,8 @@ ordinaire uſage des lettres eſt de ſignifier des nombres quelconques avec cet
 
 ## SEPTIEME LEMME.
 
+[Curated heading level=4: VIII.]
+
 [Margin]
 VIII.
 [/Margin]
@@ -16,6 +18,8 @@ C'eſt qu'un nombre eſt reconnu pour quarré non ſeulement quand il eſt expri
 Vn nombre de même eſt cubique non ſeulement quand il eſt exprimé par les trois mêmes lettres comme *b b b* , mais auſſi quand les lettres qui le marquent peuvent eſtre diviſées en trois parts égales dont chacune contienne les mêmes lettres. Ainſi *b b b c c c* , ou *b b b c c c d d d* ſont deux nombres cubiques , parce que le premier ſe peut partager en *b c* , *b c* & *b c* , & l'autre en *b c d* , *b c d* & *b c d*.
 
 ## COROLLAIRE.
+
+[Curated heading level=4: IX.]
 
 [Margin]
 IX.

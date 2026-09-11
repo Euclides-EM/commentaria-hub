@@ -13,6 +13,8 @@ Donc l'angle F K G, qui eſt égal à tous les deux, a pour meſure l'une & l'au
 
 ## COROLLAIRE.
 
+[Curated heading level=4: XVII.]
+
 [Margin]
 XVII.
 [/Margin]
@@ -32,6 +34,8 @@ Je dis que les angles K c g & k d f ſont égaux.
 Car par le precedent Theoreme l'un & l'autre a pour meſure la moitié des arcs f c, c d, d g.
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: XVIII.]
 
 [Margin]
 XVIII.

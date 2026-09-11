@@ -22,6 +22,8 @@
 
 ### PREMIER LEMME.
 
+[Curated heading level=4: XXXI.]
+
 [Margin]
 XXXI.
 [/Margin]
@@ -29,6 +31,8 @@ XXXI.
 IE ſuppoſe que l'on ſçait qu'une aliquote, qui s'appelle une fraction dans les nombres, s'exprime par deux chiffres au deſſus l'un de l'autre avec une raye entre-deux, [unclear: ⅓ ⅖]. Et que celuy d'embas, qui marque combien de fois l'aliquote eſt contenuë dans ſon tout, eſt appellé dénominateur, & celuy d'enhaut numerateur, parce qu'il marque combien de fois on doit prendre l'aliquote marquée par celuy d'embas. Ainſi ⅓ eſt un tiers, ¾ trois quarts, ⅚ cinq ſixiémes.
 
 ### SECOND LEMME.
+
+[Curated heading level=4: XXXII.]
 
 [Margin]
 XXXII.
@@ -43,6 +47,8 @@ t. ¼ :: 4. 1.
 [/Calculation]
 
 ### TROISIEME LEMME.
+
+[Curated heading level=4: XXXIII.]
 
 [Margin]
 XXXIII.

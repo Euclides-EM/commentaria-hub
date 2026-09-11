@@ -17,7 +17,7 @@ import { TeiDisplayControls } from '../contents/tei/TeiDisplayControls.tsx'
 import {
   getTeiHighlightCategories,
   getTeiSurfaceZones,
-  getTeiTranslations,
+  getTeiAlternatives,
   hasTeiCertaintyDegrees,
   parseTeisXml,
   type TeiHighlightConfig,
@@ -718,13 +718,13 @@ export function GalleryViewTab() {
     () => (teiByPage.size > 0 ? [...teiByPage.values()][0] : null),
     [teiByPage],
   )
-  const teiTranslations = useMemo(
-    () => (firstTei ? getTeiTranslations(firstTei) : []),
+  const teiAlternatives = useMemo(
+    () => (firstTei ? getTeiAlternatives(firstTei) : []),
     [firstTei],
   )
   const availableTeiViewModes = useMemo<TeiViewMode[]>(
-    () => ['original', ...teiTranslations.map((t) => t.id)],
-    [teiTranslations],
+    () => ['original', ...teiAlternatives.map((alternative) => alternative.id)],
+    [teiAlternatives],
   )
   const showMinCertControl = useMemo(
     () => (firstTei ? hasTeiCertaintyDegrees(firstTei) : false),
@@ -738,7 +738,9 @@ export function GalleryViewTab() {
 
   const getViewModeLabel = (mode: TeiViewMode): string => {
     if (mode === 'original') return 'Original'
-    const rawLabel = teiTranslations.find((t) => t.id === mode)?.label || mode
+    const rawLabel =
+      teiAlternatives.find((alternative) => alternative.id === mode)?.label ||
+      mode
     return VIEW_LABEL_MAP[rawLabel] || rawLabel
   }
 

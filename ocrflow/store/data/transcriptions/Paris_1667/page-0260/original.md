@@ -5,6 +5,8 @@ partage par la moitié eſt neceſſairement un diametre. Et de plus les deux po
 
 ## SECONDE MANIERE DE LA MESME VOIE GENERALE.
 
+[Curated heading level=4: XXXVII.]
+
 [Margin]
 XXXVII.
 [/Margin]
@@ -16,6 +18,8 @@ Il faut donc qu'il y ait une ligne droitte outre la circonference, afin que les 
 *Voicy donc la propoſition generale ſur ce ſujet, qui eſt peuteſtre la plus belle & la plus generale qu'on puiſſe trouver ſur les proportions des lignes par la geometrie ordinaire.*
 
 ## PROPOSITION GENERALE.
+
+[Curated heading level=4: XXXVIII.]
 
 [Margin]
 XXXVIII.

@@ -7,6 +7,8 @@ Donc (par le 1er Lemme) l'angle du grand ſegment a pour meſure la moitié de l
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XIV.]
+
 [Margin]
 XIV.
 [/Margin]
@@ -21,6 +23,8 @@ Cela eſt clair par le 2e Lemme.
 
 ## SECOND COROLLAIRE.
 
+[Curated heading level=4: XV.]
+
 [Margin]
 XV.
 [/Margin]
@@ -32,6 +36,8 @@ LORSQUE deux cercles dont l'un eſt dans l'autre ſe touchent, toutes les cordes
 Car les angles m k b & m k d ſont le même angle. Or l'un a pour meſure la moitié de l'arc k b, & l'autre la moitié de l'arc k d. Donc ces deux arcs ſont proportionellement égaux.
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: XVI.]
 
 [Margin]
 XVI.

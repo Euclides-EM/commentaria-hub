@@ -18,7 +18,7 @@ LIVRE XIV. *Des Figures Planes conſiderées ſelon leur aire; c'eſtadire ſelo
 
 LIVRE XV. *De la meſure de l'aire des Parallelogrammes, des Triangles & autres Polygones.* Page 305
 
-## SOLUTION d'un Probléme d'Arithmetique appellé LES QUARREZ MAGIQUES. 325.
+SOLUTION d'un Probléme d'Arithmetique appellé LES QUARREZ MAGIQUES. 325.
 
 [Ornament: basket of fruit]
 

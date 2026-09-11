@@ -11,6 +11,8 @@ b c.    c d.
 
 ### Premier Theoreme.
 
+[Curated heading level=4: VI.]
+
 [Margin]
 VI.
 [/Margin]
@@ -44,6 +46,8 @@ Car    bd.      cf    ::    mp.      nq.
 Et je penſe avoir aſſez fait voir dans le 2e Livre que la même choſe ſe trouveroit dans les raiſons ſourdes, quoy qu'avec plus de longueur. Donc, &c.
 
 ### Second Theoreme.
+
+[Curated heading level=4: VII.]
 
 [Margin]
 VII.

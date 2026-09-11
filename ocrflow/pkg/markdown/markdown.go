@@ -55,3 +55,37 @@ func ParseHeader(line string) (int, string) {
 	}
 	return level, strings.TrimSpace(line[level:])
 }
+
+// ParseHeaderBlock parses a Markdown heading and joins immediately following
+// headings at the same level. Blank lines between the heading lines are ignored.
+// The returned next index points to the first line after the last joined heading.
+func ParseHeaderBlock(lines []string, start int) (level int, content string, next int) {
+	if start < 0 || start >= len(lines) {
+		return 0, "", start
+	}
+
+	level, content = ParseHeader(lines[start])
+	if level == 0 {
+		return 0, "", start
+	}
+
+	parts := []string{content}
+	next = start + 1
+	for {
+		candidate := next
+		for candidate < len(lines) && strings.TrimSpace(lines[candidate]) == "" {
+			candidate++
+		}
+		candidateLevel, candidateContent := 0, ""
+		if candidate < len(lines) {
+			candidateLevel, candidateContent = ParseHeader(lines[candidate])
+		}
+		if candidateLevel != level {
+			break
+		}
+		parts = append(parts, candidateContent)
+		next = candidate + 1
+	}
+
+	return level, strings.Join(parts, " "), next
+}

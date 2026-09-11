@@ -13,6 +13,8 @@ Et tout ce que nous dirons dans celuy-cy ne regarde preſque que le ſecond, & c
 
 ## SECOND LEMME.
 
+[Curated heading level=4: II.]
+
 [Margin]
 II.
 [/Margin]
@@ -20,6 +22,8 @@ II.
 UNE ſeule ligne peut eſtre ditte reciproque à deux lignes, & deux lignes eſtre reciproques à une ſeule. Mais c'eſt lors ſeulement que cette ligne que l'on compare ſeule avec deux autres eſt moyenne proportionelle entre ces deux autres. Car alors elle en vaut deux, parcequ'elle fait deux termes de la proportion. Le premier & le dernier quand on commence par elle: comme ſi je dis, une ligne de 6 pieds eſt à une de 4 comme une de 9 à une de 6: ou le 2ᵉ & le 3ᵉ quand on la met au milieu, comme ſi je dis 4. 6 : : 6. 9. Et il faut remarquer que quoique cette derniere diſpoſition ſoit la plus ordinaire, il y a neanmoins des rencontres où il eſt utile de ſe ſervir de la premiere, comme on pourra voir à la fin de ce Livre.
 
 ## TROISIEME LEMME.
+
+[Curated heading level=4: III.]
 
 [Margin]
 III.

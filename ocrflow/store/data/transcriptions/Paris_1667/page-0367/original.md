@@ -7,6 +7,8 @@
 
 ## §. 3. PREPARATION.
 
+[Curated heading level=4: XIII.]
+
 [Margin]
 XIII.
 [/Margin]
@@ -14,6 +16,8 @@ XIII.
 LE plus grand myſtere de la ſolution de ce Probleme conſiſte à marquer par lettres quelques uns des petits chiffres de chaque bande.
 
 ### Quarrez impairs.
+
+[Curated heading level=4: XIV.]
 
 [Margin]
 XIV.
@@ -26,6 +30,8 @@ Le coin à droit de la même bande par *o*.
 Le milieu de cette bande par *m*.
 
 La cellule à gauche qui eſt vis à vis le centre par *α*.
+
+[Curated heading level=4: XV.]
 
 [Margin]
 XV.
@@ -45,11 +51,15 @@ Et au coſté droit celle qui eſt au deſſus de la cellule qui eſt vis à vis
 
 ### Dans les Quarrez pairs.
 
+[Curated heading level=4: XVI.]
+
 [Margin]
 XVI.
 [/Margin]
 
 NE rien marquer dans les premieres & ſecondes enceintes.
+
+[Curated heading level=4: XVII.]
 
 [Margin]
 XVII.
@@ -64,6 +74,8 @@ A droit par *o*.
 Le plus bas des petits nombres à droit par *α*.
 
 Le plus bas des petits nombres à gauche par *β*.
+
+[Curated heading level=4: XVIII.]
 
 [Margin]
 XVIII.

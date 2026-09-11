@@ -3,6 +3,8 @@
 
 ## TREIZIEME LEMME.
 
+[Curated heading level=4: XXXI.]
+
 [Margin]
 XXXI.
 [/Margin]
@@ -12,6 +14,8 @@ TOUT angle qui ſe fait par la ſection de deux cordes qui ſe coupent au dedans
 [Diagram: circle with two chords crossing at K, labels g, f, d and c on the circumference]
 
 ## QUATORZIEME LEMME.
+
+[Curated heading level=4: XXXII.]
 
 [Margin]
 XXXII.
@@ -25,6 +29,8 @@ TOUT angle dont le ſommet eſt hors le cercle, & dont un coſté coupant le cer
 
 ### 1.
 
+[Curated heading level=4: XXXIII.]
+
 [Margin]
 XXXIII.
 [/Margin]
@@ -34,6 +40,8 @@ XXXIII.
 *Cette preuve eſt convaincante, & on s'en doit paſſer quand on ne peut mieux. Mais il faut avoüer qu'elle n'eſt pas ſi bonne & ne fait pas ſi bien entrer dans la nature des choſes, que celle qui montre poſitivement que l'un & l'autre angle d'une baſe eſt égal à l'un & l'autre angle de l'autre. Et c'eſt pourquoy je ne me contenteray point de la premiere ſorte de preuve, & me ſerviray toûjours de cette derniere.*
 
 ### 2.
+
+[Curated heading level=4: XXXIV.]
 
 [Margin]
 XXXIV.

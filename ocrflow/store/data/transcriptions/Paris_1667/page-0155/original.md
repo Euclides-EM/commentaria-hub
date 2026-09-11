@@ -9,6 +9,8 @@ Car ſi les paralleles *b c* & *f g*, enfermées entre *x* & *z*, eſtoient iné
 
 ## ONZIEME THEOREME.
 
+[Curated heading level=4: XXXI.]
+
 [Margin]
 XXXI.
 [/Margin]
@@ -27,6 +29,8 @@ Donc ( par I. 21. ) *f g* eſt plus courte que *b c* ; & *b c* que *p q*. Ce qu'
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XXXII.]
+
 [Margin]
 XXXII.
 [/Margin]
@@ -34,6 +38,8 @@ XXXII.
 Il s'enſuit de là, 1. Que deux lignes coupées par une ligne qui coupe toutes les deux obliquement, & qui eſt inclinée ſur chacune du même coſté, ne ſçauroient eſtre paralleles.
 
 ## SECOND COROLLAIRE.
+
+[Curated heading level=4: XXXIII.]
 
 [Margin]
 XXXIII.

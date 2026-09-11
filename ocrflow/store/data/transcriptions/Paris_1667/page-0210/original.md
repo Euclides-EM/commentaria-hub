@@ -5,6 +5,8 @@ eſt la meſure de l'angle au centre.
 
 ## HUITIEME COROLLAIRE.
 
+[Curated heading level=4: XXVI.]
+
 [Margin]
 XXVI.
 [/Margin]
@@ -14,6 +16,8 @@ Tous les angles dans un ſegment ſont égaux à l'angle du ſegment oppoſé. E
 Car l'angle du grand ſegment eſt appuyé ſur l'arc du petit. Donc il a pour meſure la moitié de l'arc du petit, qui eſt auſſy la meſure de l'angle du petit ſegment.
 
 ## NEUVIEME COROLLAIRE.
+
+[Curated heading level=4: XXVII.]
 
 [Margin]
 XXVII.
@@ -29,6 +33,8 @@ Cela eſt clair par le 2e Lemme.
 
 ## DIXIEME COROLLAIRE.
 
+[Curated heading level=4: XXVIII.]
+
 [Margin]
 XXVIII.
 [/Margin]
@@ -36,6 +42,8 @@ XXVIII.
 Les angles inſcrits en deux ſegmens oppoſez ſont égaux à deux droits. Car les arcs des deux ſegmens comprennent toute la circonference. Donc la moitié de l'un qui eſt la meſure de l'un de ces angles plus la moitié de l'autre qui eſt la meſure de l'autre angle, valent la demycirconference (par le 3e Lemme). Donc pris enſemble ils ont pour meſure la demycirconference. Donc ils valent deux droits.
 
 ## ONZIEME COROLLAIRE.
+
+[Curated heading level=4: XXIX.]
 
 [Margin]
 XXIX.
@@ -45,6 +53,8 @@ Si quatre cordes ne ſe joignent qu'aux extremitez, ils font quatre angles inſc
 
 ## DOUZIEME COROLLAIRE.
 
+[Curated heading level=4: XXX.]
+
 [Margin]
 XXX.
 [/Margin]
@@ -52,6 +62,8 @@ XXX.
 L'angle aigu qui eſt dans le grand ſegment eſt le complement de l'obtus qui eſt dans le petit. Cela eſt clair, puiſque les deux enſemble valent deux droits.
 
 ## TREIZIEME COROLLAIRE.
+
+[Curated heading level=4: XXXI.]
 
 [Margin]
 XXXI.

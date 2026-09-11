@@ -17,6 +17,8 @@
 
 ## PREMIER LEMME.
 
+[Curated heading level=4: I.]
+
 [Margin]
 I.
 [/Margin]
@@ -24,6 +26,8 @@ I.
 Un angle avec ſa baſe, eſt la même choſe qu'un triangle. Et ainſy tout ce qui a eſté dit dans les livres des angles, des proportionelles, & des reciproques des angles conſiderez avec leur baſe, ſe peut ſans peine appliquer aux triangles.
 
 ## SECOND LEMME.
+
+[Curated heading level=4: II.]
 
 [Margin]
 II.

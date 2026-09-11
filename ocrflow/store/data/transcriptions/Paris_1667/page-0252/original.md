@@ -5,6 +5,8 @@ ainſy l'on aura deux eſpaces paralleles, l'un compris entre le ſommet & *B* (
 
 ## Huitieme Lemme.
 
+[Curated heading level=4: XV.]
+
 [Margin]
 XV.
 [/Margin]
@@ -25,6 +27,8 @@ Si *C* & *c* ſont également inclinées; *C* dans *A*, & *c* dans *E*, & que *D
 
 ## Neuvieme Lemme.
 
+[Curated heading level=4: XVI.]
+
 [Margin]
 XVI.
 [/Margin]
@@ -34,6 +38,8 @@ Pour ne ſe point broüiller en diſpoſant les termes, il eſt bon de s'aſtrai
 ## I. PROPOSITION FONDAMENTALE
 
 ## Des Reciproques.
+
+[Curated heading level=4: XVII.]
 
 [Margin]
 XVII.

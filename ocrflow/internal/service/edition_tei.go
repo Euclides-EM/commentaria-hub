@@ -44,19 +44,21 @@ func (t *EditionTEI) GetTEI(editionID string, pageNum int) ([]byte, error) {
 }
 
 func (t *EditionTEI) getTEI(edition *model.Edition, pageNum int) (*model2.TEI, error) {
+	pageKey := fmt.Sprintf("%d", pageNum)
+	if files, err := t.fileSysMgt.ListEditionTranscriptionFiles(edition.Key, pageNum); err == nil {
+		return buildTEIFromTranscriptionFiles(pageKey, files, nil, "", model.EditionToBiblFull(edition))
+	}
+
 	a, _, err := t.fileSysMgt.RetrieveEditionAltoPage(edition.Key, pageNum)
 	if err == nil {
-		pageKey := fmt.Sprintf("%d", pageNum)
 		return tei2.BuildTEIFromALTO(pageKey, a, nil, "", model.EditionToBiblFull(edition))
 	}
 
 	markdown, err := t.fileSysMgt.RetrieveEditionMarkdownPage(edition.Key, pageNum)
 	if err == nil {
-		pageKey := fmt.Sprintf("%d", pageNum)
 		return tei2.BuildTEIFromMarkdown(pageKey, markdown, model.EditionToBiblFull(edition))
 	}
 
-	pageKey := fmt.Sprintf("%d", pageNum)
 	lines, translations, err := t.fileSysMgt.RetrieveEditionTXTPage(edition.Key, pageKey)
 	if err != nil {
 		return nil, fmt.Errorf("failed to retrieve TXT page for edition %s: %v", edition.Key, err)

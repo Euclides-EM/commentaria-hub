@@ -9,6 +9,8 @@ ques, il faut qu'il y ait auſſy égalité entre les perpendiculaires du centre
 
 ## CINQUIEME THEOREME.
 
+[Curated heading level=4: X.]
+
 [Margin]
 X.
 [/Margin]

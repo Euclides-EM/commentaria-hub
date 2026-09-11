@@ -3,6 +3,8 @@
 
 ## DEMONSTRATION.
 
+[Curated heading level=4: XLIV.]
+
 [Margin]
 XLIV.
 [/Margin]
@@ -22,6 +24,8 @@ Donc *e. m. c. M. E.* ═ *è. α. ò. M. E.* par (22.)
 Or *e. m. c. M. E.* ═ 5 *c*. par 20.
 
 Donc *M. è. α. ò. E.* ═ 5 *c*. Ce qu'il falloit demonſtrer.
+
+[Curated heading level=4: XLV.]
 
 [Margin]
 XLV.
@@ -49,6 +53,8 @@ Donc *m. O. ω. ß. E* ═ 5 *c*. Ce qu'il falloit demonſtrer.
 
 ## §. 7. POUR LES QUARREZ PAIRS.
 
+[Curated heading level=4: XLVI.]
+
 [Margin]
 XLVI.
 [/Margin]
@@ -56,6 +62,8 @@ XLVI.
 ON laiſſe à part les deux premieres enceintes, qui ont leur regle particuliere.
 
 POUR LES AUTRES ENCEINTES IMPAIRES.
+
+[Curated heading level=4: XLVII.]
 
 [Margin]
 XLVII.

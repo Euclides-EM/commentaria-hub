@@ -9,7 +9,9 @@ Mais dans les raiſons d'inégalité cela eſt different. Car dans celles de plu
 
 Mais dans celles de plus petite inégalité, les antecedens ſont contenus dans les conſequens, parce que l'on compare le plus petit terme au plus grand.
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
+
+[Curated heading level=4: XXX.]
 
 [Margin]
 XXX.
@@ -20,6 +22,8 @@ CETTE *notion de l'égalité des raiſons ſuffiroit, s'il eſtoit toujours ais�
 ## PROPORTIONS NATVRELLEMENT CONNVES.
 
 ### PREMIER AXIOME.
+
+[Curated heading level=4: XXXI.]
 
 [Margin]
 XXXI.
@@ -33,6 +37,8 @@ B. 3 B : : C. 3 C.
 
 ### SECOND AXIOME.
 
+[Curated heading level=4: XXXII.]
+
 [Margin]
 XXXII.
 [/Margin]
@@ -44,6 +50,8 @@ LES multiples pareils de deux grandeurs ſont entr'eux comme ces grandeurs: & au
 B. C : : 3 B. 3 C.
 
 ### TROISIEME AXIOME.
+
+[Curated heading level=4: XXXIII.]
 
 [Margin]
 XXXIII.

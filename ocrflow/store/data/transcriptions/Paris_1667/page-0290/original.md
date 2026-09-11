@@ -9,6 +9,8 @@ Mais il eſt bien viſible qu'il faut en ce cas là que le nombre des coſtez ſ
 
 ## DES CIRCONSCRITTES AU CERCLE.
 
+[Curated heading level=4: XVI.]
+
 [Margin]
 XVI.
 [/Margin]

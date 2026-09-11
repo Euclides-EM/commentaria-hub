@@ -29,6 +29,8 @@ Donc tous ces quarts pris comme il a eſté dit, ne vaudront jamais qu'un tiers.
 
 ### PREMIER COROLLAIRE.
 
+[Curated heading level=4: XXXVI.]
+
 [Margin]
 XXXVI.
 [/Margin]

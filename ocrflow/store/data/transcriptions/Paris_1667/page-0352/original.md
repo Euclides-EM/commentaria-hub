@@ -7,6 +7,8 @@ Si leurs coſtez ſont reciproques (c'eſtadire, ſi le grand coſté du premier
 
 ## COROLLAIRE PARTICULIER.
 
+[Curated heading level=4: XVIII.]
+
 [Margin]
 XVIII.
 [/Margin]
@@ -25,6 +27,8 @@ Je ſçay bien que cela ſe prouve ordinairement d'une autre maniere plus palpab
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: XIX.]
+
 [Margin]
 XIX.
 [/Margin]
@@ -32,6 +36,8 @@ XIX.
 Deux parallelogrammes ſemblables (c'eſtadire qui eſtant equiangles ont leurs coſtez proportionels) ſont en raiſon doublée de leurs coſtez homologues, comme il vient d'eſtre dit §. 17.
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: XX.]
 
 [Margin]
 XX.

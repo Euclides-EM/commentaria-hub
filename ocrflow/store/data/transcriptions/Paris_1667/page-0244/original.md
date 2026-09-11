@@ -5,6 +5,8 @@ Le prolongement de *p* juſqu'à la rencontre de *B* ſera la 4ᵉ que l'on cher
 
 p. q :: *p*. *q*.
 
+[Curated heading level=4: XXXV.]
+
 [Margin]
 XXXV.
 [/Margin]
@@ -23,6 +25,8 @@ p. T :: *p*. *T*.
 
 ## COROLLAIRE.
 
+[Curated heading level=4: XXXVI.]
+
 [Margin]
 XXXVI.
 [/Margin]
@@ -30,6 +34,8 @@ XXXVI.
 Trouver une 3ᵉ proportionelle, c'eſtadire faire que l'une des deux données ſoit moyenne proportionelle entre l'autre donnée & la trouvée. C'eſt la même choſe que le precedent, excepté qu'une ſeule des deux données tient lieu de la 2ᵉ & de la 3ᵉ.
 
 ## SECOND PROBLEME.
+
+[Curated heading level=4: XXXVII.]
 
 [Margin]
 XXXVII.

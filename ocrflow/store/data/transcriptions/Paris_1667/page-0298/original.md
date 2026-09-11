@@ -5,6 +5,8 @@ peut eſtre que d'une ſorte, quoiqu'il ne ſoit pas toûjours facile de la déc
 
 ## DE L'INSCRIPTION OU CIRCONSCRIPTION D'UNE FIGURE REGULIERE DE TELLE ESPECE DANS UN CERCLE DONNE'.
 
+[Curated heading level=4: XXXI.]
+
 [Margin]
 XXXI.
 [/Margin]
@@ -14,6 +16,8 @@ IL eſt bien facile par ce qui a eſté dit, une figure reguliere eſtant décri
 Ainſy je penſe que tout ce que l'on peut faire de mieux ſe reduit à ces deux regles generales, & à quelques Problemes particuliers.
 
 ## PREMIERE REGLE GENERALE.
+
+[Curated heading level=4: XXXII.]
 
 [Margin]
 XXXII.

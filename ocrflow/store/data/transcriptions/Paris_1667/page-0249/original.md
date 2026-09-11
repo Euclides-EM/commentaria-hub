@@ -5,6 +5,8 @@ gle que p partie de la premiere toute fait ſur b.
 
 ## Seconde Disposition des Antiparalleles.
 
+[Curated heading level=4: VI.]
+
 [Margin]
 VI.
 [/Margin]
@@ -19,6 +21,8 @@ Or afin que les baſes ſoient antiparalleles dans cette diſpoſition, il eſt 
 
 ## Troisieme Disposition des Antiparalleles.
 
+[Curated heading level=4: VII.]
+
 [Margin]
 VII.
 [/Margin]
@@ -30,6 +34,8 @@ LA troiſiéme eſt quand les deux baſes ſe joignent en un même point de l'un
 Or afin que les baſes *B* & *b* ſoient antiparalleles, il faut que l'angle que T fait ſur *B* ſoit égal à l'angle que *M* fait ſur *b*, & que l'angle que *M* fait ſur *B* (qui comprend celuy qu'elle fait ſur *b*) ſoit égal à l'angle que p fait ſur *b*.
 
 ## Cinquieme Lemme.
+
+[Curated heading level=4: VIII.]
 
 [Margin]
 VIII.

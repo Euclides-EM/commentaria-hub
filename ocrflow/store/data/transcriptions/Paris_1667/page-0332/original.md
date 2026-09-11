@@ -3,6 +3,8 @@
 
 ## CINQUIEME THEOREME.
 
+[Curated heading level=4: XXVI.]
+
 [Margin]
 XXVI.
 [/Margin]
@@ -25,6 +27,8 @@ Et le 4ᵉ par le 5ᵉ Corollaire s̄.
 
 ### PREMIER COROLLAIRE.
 
+[Curated heading level=4: XXVII.]
+
 [Margin]
 XXVII.
 [/Margin]
@@ -32,6 +36,8 @@ XXVII.
 La diagonale d'un rectangle peut autant que les quarrez des deux coſtez.
 
 ### SECOND COROLLAIRE.
+
+[Curated heading level=4: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -41,6 +47,8 @@ La diagonale d'un quarré peut 2 fois le quarré du coſté.
 
 ### TROISIEME COROLLAIRE.
 
+[Curated heading level=4: XXIX.]
+
 [Margin]
 XXIX.
 [/Margin]
@@ -48,6 +56,8 @@ XXIX.
 La diagonale du quarré eſt incommenſurable en longueur au coſté, & commenſurable en puiſſance. XI. 76.
 
 ### QUATRIEME COROLLAIRE.
+
+[Curated heading level=4: XXX.]
 
 [Margin]
 XXX.

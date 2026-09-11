@@ -5,6 +5,8 @@ cette perpendiculaire, & pour baſe tout le perimetre, puiſqu'il eſt égal à 
 
 ## SECOND THEOREME.
 
+[Curated heading level=4: XXXIV.]
+
 [Margin]
 XXXIV.
 [/Margin]
@@ -20,6 +22,8 @@ Donc le rectangle du raion du cercle & de la moitié de la circonference eſt pl
 Et il eſt plus petit que tout polygone circonſcrit, parceque le polygone circonſcrit eſt égal au rectangle du raion du cercle ( qui eſt alors la même choſe que la perpendiculaire au coſté ) & de la moitié de ſon perimetre, lequel perimetre eſt plus grand que la circonference du cercle, puiſqu'il la comprend, ſelon la même maxime d'Archimede. Donc &c.
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: XXXV.]
 
 [Margin]
 XXXV.

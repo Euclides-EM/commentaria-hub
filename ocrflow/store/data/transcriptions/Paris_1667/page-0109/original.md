@@ -3,7 +3,9 @@
 
 3. Ou ſourde & non de nombre à nombre.
 
-## PREMIER CAS.
+### PREMIER CAS.
+
+[Curated heading level=4: XVIII.]
 
 [Margin]
 XVIII.
@@ -22,7 +24,9 @@ Donc { ∺ 4. 6. 9.
      { ∺ xx. xy. yy. par III. 25.
 [/Calculation]
 
-## SECOND CAS.
+### SECOND CAS.
+
+[Curated heading level=4: XIX.]
 
 [Margin]
 XIX.

@@ -19,6 +19,8 @@ Et quand l'un touche & l'autre coupe le cercle, le concave eſt compris entre le
 
 ## CINQUIEME THEOREME.
 
+[Curated heading level=4: XLV.]
+
 [Margin]
 XLV.
 [/Margin]

@@ -13,6 +13,8 @@ Donc ſi on décrit un autre cercle de l'intervale d'un raion droit; c'eſtadire
 
 ## COROLLAIRE.
 
+[Curated heading level=4: XX.]
+
 [Margin]
 XX.
 [/Margin]
@@ -27,6 +29,8 @@ La troiſiême, quel eſt auſſy l'angle que fait un raion ſur un coſté: c'e
 
 ## PREMIER PROBLEME.
 
+[Curated heading level=4: XXI.]
+
 [Margin]
 XXI.
 [/Margin]
@@ -40,6 +44,8 @@ Ainſy l'arc d'une figure de 15 coſtez eſt de 24 degrez, parceque 15 diviſant
 L'arc d'une figure de 3600 coſtez eſt de 6 minutes, parceque 21600 minutes eſtant diviſé par 3600, le quotient eſt 6.
 
 ## SECOND PROBLEME.
+
+[Curated heading level=4: XXII.]
 
 [Margin]
 XXII.

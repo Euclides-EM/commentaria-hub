@@ -7,7 +7,7 @@ export type {
   TeiOriginalEditableLine,
   TeiParagraphSelection,
   TeiSurfaceZone,
-  TeiTranslation,
+  TeiAlternative,
   TeiViewMode,
 } from './teiTypes.ts'
 export { getTeiParagraphSelection } from './teiSelection.ts'
@@ -19,7 +19,7 @@ export {
 export {
   getTeiEditableHighlights,
   getTeiOriginalEditableLines,
-  getTeiTranslations,
+  getTeiAlternatives,
   hasTeiCertaintyDegrees,
 } from './teiExtractors.ts'
 export {

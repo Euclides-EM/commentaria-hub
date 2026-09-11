@@ -3,6 +3,8 @@
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: XIX.]
+
 [Margin]
 XIX.
 [/Margin]
@@ -17,6 +19,8 @@ Donc *x* & *z* auront une même perpendiculaire. Donc elles ſeront paralleles.
 
 ## COROLLAIRE.
 
+[Curated heading level=4: XX.]
+
 [Margin]
 XX.
 [/Margin]
@@ -24,6 +28,8 @@ XX.
 On ne ſçauroit faire paſſer par le méme point deux differentes lignes qui ſoient paralleles à une même. Car il faudroit par le Theoreme precedent qu'elles fuſſent paralleles entr'elles, ce qui eſt abſurde, puis qu'elles auroient un point commun, & qu'il eſt de l'eſſence des paralleles de ne ſe rencontrer jamais.
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: XXI.]
 
 [Margin]
 XXI.

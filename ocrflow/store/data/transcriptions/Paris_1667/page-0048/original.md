@@ -6,6 +6,8 @@ les trouve.
 
 A 2 *b* + 3 *c*. ajoûter 3 *m* + 4 *n*. } Somme 2 *b* + 3 *c* + 3 *m* + 4 *n*.
 
+[Curated heading level=4: XLVII.]
+
 [Margin]
 XLVII.
 [/Margin]
@@ -13,6 +15,8 @@ XLVII.
 LA ſomme eſtant trouvée, ſi le même terme s'y trouve pluſieurs fois, on peut pratiquer ce qui a eſté dit dans le principe 5 & 6. Ce qui ſoit dit une ſeule fois pour toutes les autres operations.
 
 ## SOVSTRACTION DES GRANDEURS COMPLEXES.
+
+[Curated heading level=4: XLVIII.]
 
 [Margin]
 XLVIII.
@@ -23,6 +27,8 @@ POUR ſouſtraire une grandeur complexe d'une autre grandeur ou complexe ou inco
 De *b* + *c*. oſter *m* + *n*. } reſte *b* + *c* — *m* — *n*.
 
 De *b* + *c*. oſter *m* — *n* + *o*. } reſte *b* + *c* — *m* + *n* — *o*.
+
+[Curated heading level=4: XLIX.]
 
 [Margin]
 XLIX.

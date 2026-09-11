@@ -3,6 +3,8 @@
 
 ## HUITIEME THEOREME.
 
+[Curated heading level=4: XVIII.]
+
 [Margin]
 XVIII.
 [/Margin]

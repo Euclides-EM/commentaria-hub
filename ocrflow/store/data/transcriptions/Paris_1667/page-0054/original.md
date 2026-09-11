@@ -36,11 +36,11 @@ Plus le troiſiéme    b }
                   en c } ce qui fait bc.
 [/Calculation]
 
-## I. COROLLAIRE.
+### I. COROLLAIRE.
 
 Trois grandeurs eſtant données comme *b. x. c.* le produit de la 1 plus la 2 par la 2 plus la 3 , eſt égal au produit des 3 par la 2 plus le produit de la 1 par la derniere. C'eſt la meſme choſe.
 
-## 2. COROLLAIRE.
+### 2. COROLLAIRE.
 
 Ce Theoreme fait voir ſur quoy eſt fondée cette regle d'Arithmetique pour la multiplication des nombres digites. On regarde de combien chacun eſt different de 10. On oſte du 1 la difference du 2 , & ce qui reſte eſt pris pour dizaines ; puis ayant multiplié les deux differences , le tout fait le produit de ces deux nombres digites.
 

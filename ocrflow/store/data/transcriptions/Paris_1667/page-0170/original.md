@@ -3,6 +3,8 @@
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: XXIV.]
+
 [Margin]
 XXIV.
 [/Margin]
@@ -18,6 +20,8 @@ Car ſi on la veut comparer avec *k φ*, ſoit tiré le rayon *c φ*, qui eſt �
 Donc *k g*, eſt plus grande que *k φ*.
 
 ## SECOND THEOREME.
+
+[Curated heading level=4: XXV.]
 
 [Margin]
 XXV.
@@ -50,6 +54,8 @@ Or *f c* eſt égale à *y c*.
 Donc *k f* eſt plus courte que *k y*.
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: XXVI.]
 
 [Margin]
 XXVI.

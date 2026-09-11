@@ -9,6 +9,8 @@ Car les deux parties de chacune ſont proportionelles aux deux parties de la dia
 
 ## SECOND THEOREME.
 
+[Curated heading level=4: XVIII.]
+
 [Margin]
 XVIII.
 [/Margin]

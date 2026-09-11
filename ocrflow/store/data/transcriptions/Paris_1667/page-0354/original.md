@@ -5,6 +5,8 @@ ou la moitié de la hauteur & toute la baſe, on a un rectangle qui vaut la moit
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XXIII.]
+
 [Margin]
 XXIII.
 [/Margin]
@@ -14,6 +16,8 @@ LEs triangles de même hauteur & de baſe égale, ſont égaux.
 Car ils ſont tous égaux au même rectangle, qui eſt celuy de la moitié de leur baſe & de toute leur hauteur.
 
 ## SECOND COROLLAIRE.
+
+[Curated heading level=4: XXIV.]
 
 [Margin]
 XXIV.
@@ -27,6 +31,8 @@ On peut auſſy prouver ce ſecond Corollaire par le premier, de la même façon
 
 ## TROISIEME COROLLAIRE.
 
+[Curated heading level=4: XXV.]
+
 [Margin]
 XXV.
 [/Margin]
@@ -34,6 +40,8 @@ XXV.
 LA raiſon de deux triangles quelconques eſt toujours compoſée de la raiſon de la hauteur à la hauteur, & de la baſe à la baſe. Car ces triangles ſont toujours entr'eux comme les rectangles de la moitié de leur baſe & de toute leur hauteur, qui ont entr'eux cette raiſon compoſée.
 
 ## QUATRIEME COROLLAIRE GENERAL.
+
+[Curated heading level=4: XXVI.]
 
 [Margin]
 XXVI.
@@ -44,6 +52,8 @@ TOUT ce qui a eſté dit de la raiſon des rectangles par la comparaiſon de leu
 ## DES TRIANGLES EQUIANGLES OU SEMBLABLES.
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: XXVII.]
 
 [Margin]
 XXVII.

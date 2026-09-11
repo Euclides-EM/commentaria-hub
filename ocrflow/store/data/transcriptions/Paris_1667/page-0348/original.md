@@ -11,6 +11,8 @@ Donc ces triangles ſont égaux.
 
 ## QUATRIEME THEOREME.
 
+[Curated heading level=4: VII.]
+
 [Margin]
 VII.
 [/Margin]
@@ -20,6 +22,8 @@ Les triangles de même hauteur ſont entr'eux comme les baſes.
 C'eſt la même choſe que le 2ᵉ Theoreme, & qui ſe prouve de la même ſorte, excepté qu'on employe icy au lieu de parallelogrammes des triangles qui ont pour baſe, & qui aboutiſſent de part & d'autre au ſommet de chaque triangle dont ils ſont parties. Or ces triangles qui ont *x* pour baſe dans l'un & dans l'autre triangle, ſont auſſy de même hauteur dans l'un & dans l'autre; & par conſequent ils ſont égaux. Enſuite dequoy il ne faut appliquer que ce que nous avons dit pour la demonſtration du 2ᵉ Theoreme.
 
 ## CINQUIEME THEOREME.
+
+[Curated heading level=4: VIII.]
 
 [Margin]
 VIII.

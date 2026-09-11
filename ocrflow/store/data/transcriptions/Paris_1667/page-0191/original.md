@@ -3,6 +3,8 @@
 
 ## QUATRIEME COROLLAIRE.
 
+[Curated heading level=4: LV.]
+
 [Margin]
 LV.
 [/Margin]
@@ -10,6 +12,8 @@ LV.
 LES plus courtes lignes entre paralleles font les plus grands angles ; par le 2ᵉ Theoreme. 2ᵉ Cas.
 
 ## CINQUIEME COROLLAIRE.
+
+[Curated heading level=4: LVI.]
 
 [Margin]
 LVI.
@@ -36,6 +40,8 @@ Donc ces perpendiculaires ſont égales.
 3. CAS. Si les paralleles de part & d'autre ſont également diſtantes, & que les angles ſoient égaux, les obliques ſont égales, 47. s̃.
 
 ## SIXIEME COROLLAIRE.
+
+[Curated heading level=4: LVII.]
 
 [Margin]
 LVII.

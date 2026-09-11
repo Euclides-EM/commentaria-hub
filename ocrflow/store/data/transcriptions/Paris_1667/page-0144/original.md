@@ -19,6 +19,8 @@ Elle eſt compriſe dans la preuve des deux premieres, eſtant clair que toutes 
 
 SECOND LEMME.
 
+[Curated heading level=4: V.]
+
 [Margin]
 V.
 [/Margin]

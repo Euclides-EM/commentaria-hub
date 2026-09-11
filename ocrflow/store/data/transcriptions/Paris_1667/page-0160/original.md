@@ -19,6 +19,8 @@ Il ne faut que faire ce qui a ſervi de preuve au Theoreme precedent, en remarqu
 
 ### SECOND COROLLAIRE.
 
+[Curated heading level=4: IV.]
+
 [Margin]
 IV.
 [/Margin]

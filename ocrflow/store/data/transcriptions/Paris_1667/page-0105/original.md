@@ -14,6 +14,8 @@ by.    cy }  ::  b.  c.
 
 ## AVERTISSEMENT.
 
+[Curated heading level=4: XIII.]
+
 [Margin]
 XIII.
 [/Margin]
@@ -33,6 +35,8 @@ III.  { bx.  cx  ::  by.  cy. }  ::  b.  c.
 [/Calculation]
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: XIV.]
 
 [Margin]
 XIV.

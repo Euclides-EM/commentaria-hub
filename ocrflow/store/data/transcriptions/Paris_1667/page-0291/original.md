@@ -3,6 +3,8 @@
 
 ## TROISIEME THEOREME.
 
+[Curated heading level=4: XVII.]
+
 [Margin]
 XVII.
 [/Margin]
@@ -22,6 +24,8 @@ Car alors chaque coſté ſera compoſé d'une petite & d'une grande tangente (p
 Donc une figure circonſcritte au cercle ne peut eſtre équilaterale, ſi elle n'eſt equiangle, ou abſolument ou alternativement, & en ce dernier cas il faut que le nombre des angles ſoit pair. Ce qu'il falloit demonſtrer.
 
 ## DES FIGURES REGULIERES.
+
+[Curated heading level=4: XVIII.]
 
 [Margin]
 XVIII.

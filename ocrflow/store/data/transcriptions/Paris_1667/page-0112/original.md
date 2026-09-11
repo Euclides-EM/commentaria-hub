@@ -7,6 +7,8 @@ Car les quarrez ſont en raiſon doublée de leurs racines, & les cubes en raiſ
 
 ## PROBLEME.
 
+[Curated heading level=4: XXVI.]
+
 [Margin]
 XXVI.
 [/Margin]
@@ -15,7 +17,7 @@ RECONNOISTRE ſi un nombre donné eſt la racine d'un quarré égal à deux nomb
 
 Cela ſe peut reconnoiſtre par ces deux Regles.
 
-## PREMIERE REGLE.
+### PREMIERE REGLE.
 
 TOUT nombre impair qui eſtant ajoûté à ſoy même moins un, fait un nombre quarré, eſt la racine d'un quarré égal à deux autres quarrez.
 
@@ -37,7 +39,9 @@ Exemple. Soit le nombre propoſé 41. 2 fois 41 moins un, c'eſt à dire 41 & 40
 
 Donc le quarré de 41, qui eſt 1681, eſt égal à 81 ( quarré de 9 ) & à 1600 ( quarré de 40. )
 
-## SECONDE REGLE.
+### SECONDE REGLE.
+
+[Curated heading level=4: XXVII.]
 
 [Margin]
 XXVII.

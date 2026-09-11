@@ -3,17 +3,23 @@
 
 gne, cette ligne s'appelle *la baſe* ou *la ſouſtendante de l'angle*. Et l'on dit que cette ligne *ſoutient* l'angle, & que l'angle eſt *oppoſé* à cette ligne, ou eſt *ſoutenu* par cette ligne.
 
+[Curated heading level=4: VI.]
+
 [Margin]
 VI.
 [/Margin]
 
 CETTE baſe s'appelle *corde* quand les coſtez de l'angle ſont égaux, pource qu'alors ces coſtez de l'angle ſont conſiderez comme rayons d'un cercle dont cette baſe eſt une corde.
 
+[Curated heading level=4: VII.]
+
 [Margin]
 VII.
 [/Margin]
 
 QUE ſi d'un des coſtez on peut faire deſcendre une perpendiculaire ſur l'autre, cette baſe alors s'appelle le *ſinus* de cet angle.
+
+[Curated heading level=4: VIII.]
 
 [Margin]
 VIII.
@@ -22,6 +28,8 @@ VIII.
 CETTE partie proportionelle de la circonference qui meſure la grandeur de l'angle s'appelle *l'arc que comprend l'angle*.
 
 ## PROPOSITION FONDAMENTALE DE LA MESURE DES ANGLES.
+
+[Curated heading level=4: IX.]
 
 [Margin]
 IX.
@@ -36,6 +44,8 @@ Pour montrer donc que les arcs de ces circonferences determinent tous la meſme 
 Or c'eſt ce qui a déja eſté prouvé, Livre VII. 20.
 
 ## DE LA PREMIERE MESURE DE L'ANGLE QUI EST L'ARC COMPRIS ENTRE SES COSTEZ.
+
+[Curated heading level=4: X.]
 
 [Margin]
 X.

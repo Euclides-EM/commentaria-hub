@@ -3,6 +3,8 @@
 
 ## SIXIEME THEOREME.
 
+[Curated heading level=4: XXXI.]
+
 [Margin]
 XXXI.
 [/Margin]

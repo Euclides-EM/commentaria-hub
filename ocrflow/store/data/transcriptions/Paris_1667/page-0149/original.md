@@ -3,6 +3,8 @@
 
 ## PREMIERE PROPOSITION.
 
+[Curated heading level=4: XIII.]
+
 [Margin]
 XIII.
 [/Margin]
@@ -10,6 +12,8 @@ XIII.
 Si deux lignes ſont coupées par une ligne perpendiculaire à l'une & à l'autre, tous les points de chacune ſont également diſtans de l'autre, & par conſequent elles ſont paralleles. 5. & 6e Lemmes.
 
 ## SECONDE PROPOSITION.
+
+[Curated heading level=4: XIV.]
 
 [Margin]
 XIV.
@@ -27,6 +31,8 @@ Donc toutes les autres lignes menées des points de *z* perpendiculairement ſur
 
 ## TROISIEME PROPOSITION.
 
+[Curated heading level=4: XV.]
+
 [Margin]
 XV.
 [/Margin]
@@ -34,6 +40,8 @@ XV.
 Deux lignes ne ſe croiſant point & eſtant enfermées entre deux lignes, ne ſçauroient eſtre égales & eſtre perpendiculaires, l'une ſur une des enfermantes & l'autre ſur l'autre, qu'elles ne le ſoient chacune ſur toutes les deux (par le 4e Lemme) & que par conſequent ces lignes enfermantes ne ſoient paralleles (par le 6e Lemme.)
 
 ## PREMIER COROLLAIRE.
+
+[Curated heading level=4: XVI.]
 
 [Margin]
 XVI.
@@ -43,6 +51,8 @@ Toutes les perpendiculaires entre deux paralleles ſont égales : car c'eſt cel
 
 ## SECOND COROLLAIRE.
 
+[Curated heading level=4: XVII.]
+
 [Margin]
 XVII.
 [/Margin]
@@ -50,6 +60,8 @@ XVII.
 Les obliques entre paralleles ſont plus longues que les perpendiculaires. Car chaque oblique eſt plus longue que ſa perpendiculaire, & toutes les perpendiculaires ſont égales.
 
 ## PROBLEME.
+
+[Curated heading level=4: XVIII.]
 
 [Margin]
 XVIII.

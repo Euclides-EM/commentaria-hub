@@ -14,6 +14,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/markdown"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"
 )
@@ -26,6 +27,26 @@ func TestOrderedMarkdownHeaderCategoriesSortsByHeaderLevel(t *testing.T) {
 	})
 
 	require.Equal(t, []string{"header1", "header2", "header3"}, got)
+}
+
+func TestGetIndexFromMarkdownJoinsConsecutiveHeaders(t *testing.T) {
+	categories, locations, err := getIndexFromMarkdown(
+		[]int{39},
+		nil,
+		func(page int) (*markdown.Markdown, error) {
+			return &markdown.Markdown{Content: "# NOVVEAVX ELEMENS DE GEOMETRIE.\n\n# LIVRE PREMIER.\n"}, nil
+		},
+		"test markdown",
+		true,
+	)
+
+	require.NoError(t, err)
+	require.Equal(t, []string{"header1"}, categories)
+	require.Equal(t, []categoryPageContent{{
+		page:     39,
+		category: "header1",
+		content:  "NOVVEAVX ELEMENS DE GEOMETRIE. LIVRE PREMIER.",
+	}}, locations)
 }
 
 func TestBuildNodesNestsMarkdownHeadersInDocumentOrder(t *testing.T) {

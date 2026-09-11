@@ -3,6 +3,8 @@
 
 ## QUINZIEME COROLLAIRE.
 
+[Curated heading level=4: XXXIII.]
+
 [Margin]
 XXXIII.
 [/Margin]
@@ -12,6 +14,8 @@ Si on fait le diametre d'un cercle de l'hypothenuſe d'un angle droit, le ſomme
 Car chaque demycercle eſt capable de cet angle droit. Donc par le Corollaire precedent nul angle droit ne peut avoir pour l'hypothenuſe la corde du demycercle qui eſt le diametre, que ſon ſommet ne ſe trouve en un des points de la demycirconference.
 
 ## SEIZIEME COROLLAIRE.
+
+[Curated heading level=4: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -26,6 +30,8 @@ Et le ſommet ſe trouvera au dehors du demycercle ſi elle eſt plus longue. Do
 Et il ſe trouvera au dedans du demycercle ſi elle eſt plus courte. Donc l'angle ſera plus grand qu'un droit par le 9e Corollaire. Donc obtus.
 
 ## DIX-SEPTIEME COROLLAIRE.
+
+[Curated heading level=4: XXXV.]
 
 [Margin]
 XXXV.

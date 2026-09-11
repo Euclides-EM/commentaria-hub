@@ -9,6 +9,8 @@ Il faut ſeulement remarquer, qu'il n'y a point de moyenne proportionelle dans c
 
 ## SECONDE VOIE GENERALE POUR TROUVER DES RECIPROQUES QUAND LE POINT COMMUN EST HORS LE CERCLE.
 
+[Curated heading level=4: LI.]
+
 [Margin]
 LI.
 [/Margin]
@@ -16,6 +18,8 @@ LI.
 Quand le point commun eſt hors le cercle, les coſtez de l'angle qui l'a pour ſommet peuvent eſtre coupez chacun deux fois par la circonference du cercle ; une fois par la convexité en entrant dans le cercle, & une fois par ſa concavité, où on les ſuppoſe terminées ; ſi ce n'eſt que le point de l'attouchement tenant lieu tout ſeul de la convexité & de la concavité, un des coſtez peut n'eſtre terminé qu'à ce point. Et alors il ſera tangente du cercle, & les deux baſes antiparalleles n'auront que 3 points differens. C'eſt ce qu'on verra dans les deux Theoremes ſuivans.
 
 ## CINQUIEME THEOREME.
+
+[Curated heading level=4: LII.]
 
 [Margin]
 LII.

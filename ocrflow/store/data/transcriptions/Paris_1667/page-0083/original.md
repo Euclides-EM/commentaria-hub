@@ -3,13 +3,17 @@
 
 [Ornament: decorative headpiece band of typographic ornaments]
 
-# NOVVEAVX ELEMENS DE GEOMETRIE.
+# NOVVEAVX ELEMENS DE GEOMETRIE. 
 
-## LIVRE TROISIEME.
+# LIVRE TROISIEME.
 
-## DES RAISONS COMPOSEES, D'OV DEPEND LA PROPORTION DES GRANDEVRS PLANES ET SOLIDES.
+[Subhead]
+DES RAISONS COMPOSEES, D'OV DEPEND LA PROPORTION DES GRANDEVRS PLANES ET SOLIDES.
+[/Subhead]
 
 ### Premiere Definition.
+
+[Curated heading level=4: I.]
 
 [Margin]
 I.
@@ -24,6 +28,8 @@ Ainſi pour ajoûter la raiſon de *b. c.*
 Il ne faut que multiplier *b* par *f*, ce qui donne *b f* & *c* par *g* ce qui donne *c g*.
 
 ### Seconde Definition.
+
+[Curated heading level=4: II.]
 
 [Margin]
 II.

@@ -21,6 +21,8 @@ Donc *Pp :: Cc :: Bb*. Ce qu'il falloit demonſtrer.
 
 ## PREMIER THEOREME.
 
+[Curated heading level=4: XIII.]
+
 [Margin]
 XIII.
 [/Margin]

@@ -3,11 +3,15 @@
 
 [Ornament: decorative headpiece band of fleurons]
 
-# NOVVEAVX ELEMENS DE GEOMETRIE.
+# NOVVEAVX ELEMENS DE GEOMETRIE. 
 
-## LIVRE QVATRIEME.
+# LIVRE QVATRIEME.
 
-## DES GRANDEVRS COMMENSVRABLES ET INCOMMENSVRABLES.
+[Subhead]
+DES GRANDEVRS COMMENSVRABLES ET INCOMMENSVRABLES.
+[/Subhead]
+
+[Curated heading level=4: I.]
 
 [Margin]
 I.
@@ -15,7 +19,9 @@ I.
 
 {dropcap:N|lines=7|style=decorated|decoration="woodcut initial with a standing figure amid foliage"}Ous *avons dit generalement qu'il y a deux ſortes de raiſons; la raiſon de nombre à nombre, & la raiſon ſourde; & comme c'eſt par là que les grandeurs ſont commenſurables & incommenſurables, la ſuite naturelle nous oblige de parler de ces ſortes de grandeurs; à quoy nous ajoûterons quelque choſe de la proportion entre les diverſes aliquotes d'une même grandeur.*
 
-### PREMIER LEMME.
+## PREMIER LEMME.
+
+[Curated heading level=4: II.]
 
 [Margin]
 II.

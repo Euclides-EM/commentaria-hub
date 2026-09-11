@@ -22,6 +22,8 @@ Donc la circonference paſſant par le point *f*, eſt égale à *f g*, parallel
 
 ## AVERTISSEMENT.
 
+[Curated heading level=4: IX.]
+
 [Margin]
 IX.
 [/Margin]
@@ -31,6 +33,8 @@ IX.
 ## METHODE COMMUNE.
 
 ## LEMME OU AXIOME.
+
+[Curated heading level=4: X.]
 
 [Margin]
 X.

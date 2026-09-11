@@ -5,6 +5,8 @@
 
 ## COROLLAIRE.
 
+[Curated heading level=4: XLII.]
+
 [Margin]
 XLII.
 [/Margin]
@@ -12,6 +14,8 @@ XLII.
 TROUVER le quarré égal à pluſieurs rectangles donnez , il ne faut que trouver les quarrez égaux à chacun de ces rectangles. Et puis on trouvera le quarré égal à tous ces quarrez.
 
 ## QUATRIEME PROBLEME.
+
+[Curated heading level=4: XLIII.]
 
 [Margin]
 XLIII.
@@ -37,6 +41,8 @@ Donc b b. c c : : m. n.
 
 ## CINQUIEME PROBLEME.
 
+[Curated heading level=4: XLIV.]
+
 [Margin]
 XLIV.
 [/Margin]
@@ -46,6 +52,8 @@ DIVISER une ligne , en ſorte que le quarré de la plus grande portion ſoit ég
 Ce Probleme a eſté reſolu (XI. 68.) quand on a appris à couper une ligne en moyenne & extrême raiſon : c'eſtadire , en ſorte que la toute ſoit à la plus grande portion , comme la plus grande portion à la plus petite.
 
 ## SIXIEME PROBLEME.
+
+[Curated heading level=4: XLV.]
 
 [Margin]
 XLV.

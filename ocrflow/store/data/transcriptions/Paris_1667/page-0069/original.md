@@ -9,7 +9,9 @@ Donc les aliquotes pareilles d'x & d'y ſont également contenües dans r & r.
 
 Donc x. r : : y. r. *Ce qu'il faloit démonſtrer.*
 
-## SECOND COROLLAIRE.
+### SECOND COROLLAIRE.
+
+[Curated heading level=4: XL.]
 
 [Margin]
 XL.
@@ -26,6 +28,8 @@ C'eſt ce que l'on fait en prenant les aliquotes pareilles des antecedens, & con
 C'eſt ce qu'on a déja veu dans le premier Corollaire, & on y a reconnu auſſi que cela n'eſt pas ſeulement vray dans les raiſons de nombre à nombre, mais auſſi dans les raiſons ſourdes, autant que cela le peut eſtre, ſelon ce qui a eſté dit dans le ſecond Corollaire.
 
 ## PREMIER THEOREME.
+
+[Curated heading level=4: XLI.]
 
 [Margin]
 XLI.

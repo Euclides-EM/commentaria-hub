@@ -5,6 +5,8 @@ Or le premier ne peut eſtre, que les baſes ne ſoient paralleles. Et le ſecon
 
 ### PREUVE DU PREMIER.
 
+[Curated heading level=4: LXII.]
+
 [Margin]
 LXII.
 [/Margin]
@@ -36,6 +38,8 @@ Or *cx* eſt parallele à *fg*. Donc *cd* luy eſt auſſy parallele.
 Donc les angles ſur la baſe *cd* ſont égaux aux angles ſur la baſe *fg*. Ce qu'il falloit demonſtrer.
 
 ### PREUVE DU SECOND.
+
+[Curated heading level=4: LXIII.]
 
 [Margin]
 LXIII.

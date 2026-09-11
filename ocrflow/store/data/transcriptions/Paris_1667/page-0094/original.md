@@ -7,6 +7,8 @@ C'eſt ce qui n'eſt pas peu embaraſſé. Mais voicy ce me ſemble la plus faci
 
 ### Definition.
 
+[Curated heading level=4: XXXV.]
+
 [Margin]
 XXXV.
 [/Margin]
@@ -17,6 +19,8 @@ Ainſy la raiſon double eſt plus grande que la triple, ou la quadruple; parce 
 
 ### Avertissement.
 
+[Curated heading level=4: XXXVI.]
+
 [Margin]
 XXXVI.
 [/Margin]
@@ -24,6 +28,8 @@ XXXVI.
 Mais cela ne ſuffit pas toûjours pour juger ſi une raiſon eſt plus grande qu'une autre, parce qu'il eſt ſouvent difficile de diſcerner qui eſt celle qui approche le plus de la raiſon d'égalité: Et on s'y pourra tromper, ſi on croit que celle-là en approche toûjours davantage entre les termes de laquelle la difference eſt plus petite. Car par là on jugeroit que la raiſon de 5 à 7 eſt plus grande que celle de 8 à 11. ce qui n'eſt pas. Il faut donc conſiderer la grandeur de cette difference, non abſolument, mais proportionellement, ou bien quelle partie le petit terme eſt du grand. Et ſelon cela on peut faire cette Regle.
 
 ### Theoreme.
+
+[Curated heading level=4: XXXVII.]
 
 [Margin]
 XXXVII.
@@ -36,6 +42,8 @@ Soit b plus grand que c. & m que n.
 Si c eſt le tiers de b, & que n ne ſoit que le quart de m, la raiſon de b. c. approchera plus de l'égalité, & par conſequent ſera plus grande que la raiſon de m. n. Car b. c. ne ſeront pas ſi éloignez d'eſtre égaux. Mais comme cela même n'eſt pas toûjours aiſé à ſçavoir, voicy une autre voye qui peut ſervir à ſortir de cette difficulté, quand les termes d'une raiſon ſont multipliables par ceux de l'autre.
 
 ### Premier Axiome.
+
+[Curated heading level=4: XXXVIII.]
 
 [Margin]
 XXXVIII.

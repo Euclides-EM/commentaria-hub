@@ -6,6 +6,8 @@
 
 ### QUATRIEME SUPPOSITION.
 
+[Curated heading level=4: V.]
+
 [Margin]
 V.
 [/Margin]
@@ -15,6 +17,8 @@ IE ſuppoſe en quatriême lieu, que la multiplication & la diviſion ſe peuven
 [Diagram: a rectangle divided into a grid of 3 columns and 4 rows, with 3 above and 4 at the left side]
 
 ### CINQUIEME SUPPOSITION.
+
+[Curated heading level=4: VI.]
 
 [Margin]
 VI.

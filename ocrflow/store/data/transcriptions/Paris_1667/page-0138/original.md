@@ -7,6 +7,8 @@ Or ſi cela eſtoit, c n ſeroit plus petite que k m, par 44. & 45. ſup. ce qui
 
 ## QUATRIEME THEOREME.
 
+[Curated heading level=4: LII.]
+
 [Margin]
 LII.
 [/Margin]
@@ -16,6 +18,8 @@ QUAND il n'y a égalité donnée que dans l'une de ces trois lignes, voicy ce qu
 1. S'il n'y a égalité que dans la perpendiculaire, le plus grand éloignement du perpendicule donne la plus grande oblique, & la plus grande oblique donne le plus grand éloignement du perpendicule. C'eſt ce qui a eſté prouvé dans la propoſition principale.
 
 ## CINQUIEME THEOREME.
+
+[Curated heading level=4: LIII.]
 
 [Margin]
 LIII.
@@ -28,6 +32,8 @@ Il y a deux parties dont la premiere a eſté prouvée par le corollaire de la p
 [Figure: triangle with apex k above a horizontal line from m to n, with a point c on the perpendicular meeting the line at B]
 
 ## SIXIEME THEOREME.
+
+[Curated heading level=4: LIV.]
 
 [Margin]
 LIV.

@@ -11,6 +11,8 @@ Neanmoins pour plus grande certitude on peut employer deux voies pour prouver ce
 
 ## NOUVELLE METHODE APPELLE'E LA GEOMETRIE DES INDIVISIBLES.
 
+[Curated heading level=4: III.]
+
 [Margin]
 III.
 [/Margin]

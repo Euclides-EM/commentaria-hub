@@ -16,12 +16,15 @@ func ExtractCategoryContentsFromMarkdown(md *Markdown, categories []string, line
 	}
 
 	var results []Category
-	for _, line := range strings.Split(md.Content, "\n") {
+	lines := strings.Split(md.Content, "\n")
+	for i := 0; i < len(lines); i++ {
+		line := lines[i]
 		category := ""
 		content := ""
-		if level, headingContent := ParseHeader(line); level > 0 {
+		if level, headingContent, next := ParseHeaderBlock(lines, i); level > 0 {
 			category = fmt.Sprintf("%s%d", HeaderPrefix, level)
 			content = headingContent
+			i = next - 1
 		} else if level, headingContent := ParseCuratedHeading(line); includeCuratedHeadings && level > 0 {
 			category = fmt.Sprintf("%s%d", CuratedHeadingPrefix, level)
 			content = headingContent

@@ -22,6 +22,8 @@
 
 ### AVERTISSEMENT.
 
+[Curated heading level=4: LVII.]
+
 [Margin]
 LVII.
 [/Margin]

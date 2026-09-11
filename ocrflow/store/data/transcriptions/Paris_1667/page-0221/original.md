@@ -7,6 +7,8 @@ Reſte donc pour la meſure de chacun des autres la moitié de l'arc *k c*. Ce q
 
 ## SECONDE DEMONSTRATION.
 
+[Curated heading level=4: XLVIII.]
+
 [Margin]
 XLVIII.
 [/Margin]
@@ -20,6 +22,8 @@ Or l'angle *c g k* a pour meſure la moitié de l'arc *k c* ſur lequel il eſt 
 Donc la moitié de cet arc *k c* eſt auſſy la meſure de chacun des angles vers *l*, *m*, *n*.
 
 ## TROISIEME DEMONSTRATION.
+
+[Curated heading level=4: XLIX.]
 
 [Margin]
 XLIX.

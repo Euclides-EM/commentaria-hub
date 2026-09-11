@@ -9,6 +9,8 @@
 
 ## DES LIGNES PROPORTIONELLES.
 
+[Curated heading level=4: I.]
+
 [Margin]
 I.
 [/Margin]
@@ -17,6 +19,8 @@ I.
 
 ### PREMIER LEMME. DEFINITION.
 
+[Curated heading level=4: II.]
+
 [Margin]
 II.
 [/Margin]
@@ -24,6 +28,8 @@ II.
 UN eſpace compris d'une part entre deux paralleles & indefiny de l'autre, ſoit appellé eſpace parallele.
 
 ### SECOND LEMME. DEFINITION.
+
+[Curated heading level=4: III.]
 
 [Margin]
 III.
@@ -34,6 +40,8 @@ COMME on ne conſidere dans ces eſpaces que la diſtance entre les paralleles, 
 Et delà il s'enſuit que ces eſpaces ſont égaux quand les perpendiculaires de l'un ſont égales aux perpendiculaires de l'autre.
 
 ### TROISIEME LEMME. DEFINITION.
+
+[Curated heading level=4: IV.]
 
 [Margin]
 IV.

@@ -5,6 +5,8 @@ perpendicule de l'oblique k n ; k m & k n ſeront égales. Car les points m & n 
 
 ## PREMIER COROLLAIRE.
 
+[Curated heading level=4: XLIX.]
+
 [Margin]
 XLIX.
 [/Margin]
@@ -19,6 +21,8 @@ C'eſt la même choſe que la precedente differemment énoncée.
 
 ## SECOND THEOREME.
 
+[Curated heading level=4: L.]
+
 [Margin]
 L.
 [/Margin]
@@ -28,6 +32,8 @@ S'IL y a égalité dans la perpendiculaire & dans l'oblique, il y a égalité da
 Soit fait comme devant. Si k m eſt égale à k n, b m ſera égale à b n. Car ſi m eſtoit plus éloignée de b que n'eſt n, l'oblique k m ſeroit plus éloignée de la perpendiculaire, & par conſequent plus longue par la propoſition principale.
 
 ## TROISIEME THEOREME.
+
+[Curated heading level=4: LI.]
 
 [Margin]
 LI.

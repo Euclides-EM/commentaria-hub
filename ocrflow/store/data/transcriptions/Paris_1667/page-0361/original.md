@@ -25,6 +25,8 @@ Et tirant b n, le triangle b m n ſera égal tant au trapeze b c d m, qu'au pent
 
 ## AVERTISSEMENT ET CONCLUSION.
 
+[Curated heading level=4: XLII.]
+
 [Margin]
 XLII.
 [/Margin]

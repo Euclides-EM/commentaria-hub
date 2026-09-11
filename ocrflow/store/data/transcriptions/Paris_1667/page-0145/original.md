@@ -21,6 +21,8 @@ Donc de tous les points de *z* les perpendiculaires ſur *x* ſont inégales, & 
 
 ## COROLLAIRE.
 
+[Curated heading level=4: VI.]
+
 [Margin]
 VI.
 [/Margin]
