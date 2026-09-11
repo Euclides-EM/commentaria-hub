@@ -1,18 +1,5 @@
 # Run OCR Pipeline
 
-
-## Glasgow_1756
-
-Data set is public domain. I run the full OCR pipeline.
-
-**Next steps:** Run the OCR pipeline: https://euclides.huma-num.fr/hub/?datasetId=ds_ii8nbl
-
-## The_Hague_1758
-
-Data set is public domain. I run the full OCR pipeline.
-
-**Next steps:** Run the OCR pipeline: https://euclides.huma-num.fr/hub/index.h?datasetId=ds_9m13nh
-
 # Run LLM Corrector
 
 ## Rome_1574
@@ -45,6 +32,18 @@ The OCR stage has already been completed on an old facsimile, that has been repl
 This means we need to re-align ALTOs when running LLM.
 
 **Next steps:** Realign ALTOs and run LLM.
+
+## Glasgow_1756
+
+Data set is public domain. I run the full OCR pipeline.
+
+**Next steps:** Liri to run the LLM corrector: https://euclides.huma-num.fr/hub/?datasetId=ds_ii8nbl&annotationId=ann_ab8glk&currentPageOrKey=61&annotationTab=details
+
+## The_Hague_1758
+
+Data set is public domain. I run the full OCR pipeline.
+
+**Next steps:** Liri to run the LLM corrector: https://euclides.huma-num.fr/hub/index.h?datasetId=ds_9m13nh&annotationId=ann_6jfdp6&currentPageOrKey=61&annotationTab=details
 
 # Alignment
 
