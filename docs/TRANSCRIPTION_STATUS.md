@@ -100,6 +100,8 @@ There is a new facsimile that has the appropriate copyright. I run the full OCR 
 
 Full correction with Codex Sol was run using dir mode. Token logs were lost due to job technical failure.
 
+The transcription was not that good, so we tried the page-by-page option with Codex Sol for 30 pages, and added it to the transcriptions. Relevant pages: `17,35,68,82,101,124,156,193,208,227,259,274,296,312,341,363,389,421,437,455,476,494,509,528,551,578,603,615,632,645`
+
 **Next steps:** Manually curate the Fable transcriptions.
 
 
