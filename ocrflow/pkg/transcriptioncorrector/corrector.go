@@ -64,8 +64,7 @@ type candidate struct {
 
 // Run executes the correction and returns aggregate provider usage
 // across every successfully completed page and round.
-func Run(cfg Config, client Executor) (llm.Usage, error) {
-	var totalUsage llm.Usage
+func Run(cfg Config, client Executor) (totalUsage llm.Usage, err error) {
 	if client == nil {
 		return totalUsage, errors.New("LLM executor is required")
 	}
@@ -114,6 +113,26 @@ func Run(cfg Config, client Executor) (llm.Usage, error) {
 	requestCount := 0
 	costReportCount := 0
 	cacheHealth := newCacheHealthTracker(cfg.Provider, cfg.Model)
+	defer func() {
+		status := "complete"
+		if err != nil {
+			status = "failed"
+		}
+		cost := "unavailable"
+		if requestCount > 0 && costReportCount == requestCount && totalUsage.CostUSD != nil {
+			cost = fmt.Sprintf("%.6f", *totalUsage.CostUSD)
+		} else {
+			totalUsage.CostUSD = nil
+		}
+		logger.Printf(
+			"%s pages=%d rounds=%d requests=%d tokens_input=%d tokens_cached=%d tokens_cache_creation=%d tokens_output=%d tokens_reasoning=%d tokens_total=%d cost_usd=%s cost_reports=%d/%d final_outputs=%s/page-NNNN/original.md",
+			status, len(pages), cfg.Rounds, requestCount,
+			totalUsage.InputTokens, totalUsage.CachedInputTokens, totalUsage.CacheCreationInputTokens,
+			totalUsage.OutputTokens, totalUsage.ReasoningTokens, totalUsage.TotalTokens,
+			cost, costReportCount, requestCount, cfg.OutputDir,
+		)
+		cacheHealth.LogSummary(logger)
+	}()
 	for round := 1; round <= cfg.Rounds; round++ {
 		roundStarted := time.Now()
 		var previousPage string
@@ -191,21 +210,6 @@ func Run(cfg Config, client Executor) (llm.Usage, error) {
 			return totalUsage, fmt.Errorf("write final output for %s: %w", p.key, err)
 		}
 	}
-	cost := "unavailable"
-	if requestCount > 0 && costReportCount == requestCount && totalUsage.CostUSD != nil {
-		cost = fmt.Sprintf("%.6f", *totalUsage.CostUSD)
-	} else {
-		// Never expose a partial sum as the cost of the complete rule run.
-		totalUsage.CostUSD = nil
-	}
-	logger.Printf(
-		"complete pages=%d rounds=%d requests=%d tokens_input=%d tokens_cached=%d tokens_cache_creation=%d tokens_output=%d tokens_reasoning=%d tokens_total=%d cost_usd=%s cost_reports=%d/%d final_outputs=%s/page-NNNN/original.md",
-		len(pages), cfg.Rounds, requestCount,
-		totalUsage.InputTokens, totalUsage.CachedInputTokens, totalUsage.CacheCreationInputTokens,
-		totalUsage.OutputTokens, totalUsage.ReasoningTokens, totalUsage.TotalTokens,
-		cost, costReportCount, requestCount, cfg.OutputDir,
-	)
-	cacheHealth.LogSummary(logger)
 	return totalUsage, nil
 }
 
