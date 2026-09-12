@@ -1,5 +1,17 @@
 # Run OCR Pipeline
 
+## Glasgow_1756
+
+Data set is public domain. I run the full OCR pipeline.
+
+**Next steps:** Run the OCR pipeline: https://euclides.huma-num.fr/hub/?datasetId=ds_ii8nbl
+
+## The_Hague_1758
+
+Data set is public domain. I run the full OCR pipeline.
+
+**Next steps:** Run the OCR pipeline: https://euclides.huma-num.fr/hub/index.h?datasetId=ds_9m13nh
+
 # Run LLM Corrector
 
 ## Rome_1574
@@ -9,13 +21,15 @@ Two facsimiles are available:
 * **`Rome_1574_transkribus`**: Public domain. The existing Transkribus transcriptions have been scraped and committed. I have also run OCR on the facsimile.
 * **`Rome_1574`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
 
-**Status**: currently running with Fable page-by-page. Progress so far, around 10%.
+**Status**: currently running with Fable page-by-page. Fable done 734/753. Running the rest with Codex.
 
 **Next steps:** Liri to run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
 
 ## Paris_1794
 
 Facsimile is public domain, I run the full OCR pipeline.
+
+*Status* - Running page-by-page with Codex. Done 329/419
 
 **Next steps:** Liri to run the corrector on the Paris_1794 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_fcnxho&datasetTab=annotations&annotationId=ann_1eeww1&currentPageOrKey=210&annotationTab=text
 
