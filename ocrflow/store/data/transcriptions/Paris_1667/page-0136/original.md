@@ -5,7 +5,7 @@ le point m eſt immediatement ſur le point b, & la perpendiculaire ſur la perp
 
 Voila ce qui peut ſatisfaire ceux qui aiment mieux ſe ſervir dans la connoiſſance des choſes, de leur imagination que de leur intelligence : ce que je trouve fort mauvais, parce que l'eſprit ſe rend par là incapable de bien comprendre les choſes ſpirituelles, s'accouſtumant à ne recevoir pour vray que ce qu'il peut concevoir par des fantômes & des images corporelles : au lieu qu'il y a beaucoup de choſes que nous ſçavons tres certainement ſans que nous les puiſſions concevoir par l'imagination, comme quand je dis : Ie penſe, donc je ſuis, nul fantôme ou image corporelle ne me peut ſervir à me faire concevoir ce que j'entends par ces mots ; je penſe, je ſuis.
 
-## EGALITE' DANS LES LIGNES OBLIQUES.
+### EGALITE' DANS LES LIGNES OBLIQUES.
 
 [Curated heading level=4 type=paragraph_order: XLVII.]
 
@@ -15,7 +15,7 @@ XLVII.
 
 CETTE ſeule propoſition avec ſon corollaire & l'avertiſſement nous donne moyen de prouver facilement pluſieurs theoremes touchant les lignes obliques. Et voicy premierement ceux de l'égalité.
 
-## PREMIER THEOREME.
+### PREMIER THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XLVIII.]
 

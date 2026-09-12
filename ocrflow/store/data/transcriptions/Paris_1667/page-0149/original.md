@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE VI. -->
 <!-- Page number: 111 -->
 
-## PREMIERE PROPOSITION.
+### PREMIERE PROPOSITION.
 
 [Curated heading level=4 type=paragraph_order: XIII.]
 
@@ -11,7 +11,7 @@ XIII.
 
 Si deux lignes ſont coupées par une ligne perpendiculaire à l'une & à l'autre, tous les points de chacune ſont également diſtans de l'autre, & par conſequent elles ſont paralleles. 5. & 6e Lemmes.
 
-## SECONDE PROPOSITION.
+### SECONDE PROPOSITION.
 
 [Curated heading level=4 type=paragraph_order: XIV.]
 
@@ -29,7 +29,7 @@ Donc elles ſeront auſſy perpendiculaires ſur *z*, par le 4e Lemme.
 
 Donc toutes les autres lignes menées des points de *z* perpendiculairement ſur *x*, ſeront auſſy perpendiculaires ſur *z*, & égales à ces deux-là (par le 6e Lemme) Et il en ſera de même de celles qu'on menera des points d'*x* perpendiculairement ſur *z*.
 
-## TROISIEME PROPOSITION.
+### TROISIEME PROPOSITION.
 
 [Curated heading level=4 type=paragraph_order: XV.]
 

@@ -37,7 +37,7 @@ Lors qu'on a d'une ligne, l'une des extremitez donnée de poſition, & ſa longu
 
 ## TROISIEME SECTION.
 
-### DES LIGNES DROITES PERPENDICVLAIRES.
+## DES LIGNES DROITES PERPENDICVLAIRES.
 
 ### DEFINITIONS.
 

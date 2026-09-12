@@ -5,7 +5,7 @@ ction *m* & *n* ſera égal à l'éloignement de la perpendicule de *k m*, qui e
 
 Mais ſi on conſidere *k m*, & *k p*, inclinée du même coſté, il eſt viſible que la diſtance d'*m* & *p*, points de la ſection de ces deux obliques, eſt moindre que l'éloignement du perpendicule de *k m*, qui eſt *m b* de la longueur de *p b*, qui eſt l'éloignement du perpendicule de l'autre oblique *k p*.
 
-## HUITIEME THEOREME.
+### HUITIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LVII.]
 

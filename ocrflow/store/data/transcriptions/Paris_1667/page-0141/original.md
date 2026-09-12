@@ -7,9 +7,11 @@
 
 # NOUVEAUX ELEMENS DE GEOMETRIE.
 
-## LIVRE SIXIEME.
+# LIVRE SIXIEME.
 
-## DES LIGNES PARALLELES.
+[Subhead]
+DES LIGNES PARALLELES.
+[/Subhead]
 
 [Curated heading level=4 type=paragraph_order: I.]
 

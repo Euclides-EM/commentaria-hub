@@ -13,11 +13,11 @@ ou entre *c* & *q*.
 
 Ainſy en l'une ou l'autre de ces trois manieres, on prouvera que *p q* eſt oblique & inclinée vers *k*, comme on l'a prouvé de *f g*.
 
-PREUVE DE LA TROISIEME PARTIE.
+### PREUVE DE LA TROISIEME PARTIE.
 
 Elle eſt compriſe dans la preuve des deux premieres, eſtant clair que toutes les lignes qui ont eſté perpendiculaires ſur *z*, ont eſté obliques ſur *x*, & inclinées vers *k*.
 
-SECOND LEMME.
+## SECOND LEMME.
 
 [Curated heading level=4 type=paragraph_order: V.]
 

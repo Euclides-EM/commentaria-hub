@@ -3,7 +3,7 @@
 
 *de demonſtrer les Problemes ſuivans ſans ſe ſervir des triangles comme fait Euclide.*
 
-## PREMIER PROBLEME.
+### PREMIER PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXIII.]
 
@@ -19,7 +19,7 @@ Soit le point *k* & la ligne *z*, de *k* pris pour centre, décrire un cercle qu
 
 [Diagram: two dotted circles intersecting, with points K, m, n and B and a horizontal line through m and n]
 
-## SECOND PROBLEME.
+### SECOND PROBLEME.
 
 [Curated heading level=4 type=paragraph_order: XXXIV.]
 

@@ -64,7 +64,7 @@ tokens_total=5,385,458
 cost_usd=$46.742450
 ```
 
-**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile + manual curation (I'm currently in p. 114 in my manual curation).
+**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile + manual curation (I'm currently in p. 149 in my manual curation).
 
 ## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
 

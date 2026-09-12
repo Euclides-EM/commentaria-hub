@@ -1,7 +1,7 @@
 <!-- Running title: DE GEOMETRIE. LIVRE V. -->
 <!-- Page number: 97 -->
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: XLVI.]
 

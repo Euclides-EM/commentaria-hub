@@ -9,7 +9,7 @@ Car ſoit la perpendiculaire k b ſur la ligne m n, ſi on tire l'oblique c m, &
 
 [Figure: tall triangle with apex k, a point c below k on the perpendicular, base line from m to n with foot B]
 
-## AVERTISSEMENT.
+### AVERTISSEMENT.
 
 [Curated heading level=4 type=paragraph_order: LV.]
 
@@ -19,7 +19,7 @@ LV.
 
 IE ne dis rien de la diverſe obliquité qu'a la même ligne ſur les deux lignes qui peuvent eſtre reciproquement conſiderées comme ſa perpendiculaire & ſon éloignement du perpendicule, comme k b ſur b c & ſur k c: car cela eſt trop facile à juger par ce qui eſt dit.
 
-## SEPTIEME THEOREME.
+### SEPTIEME THEOREME.
 
 [Curated heading level=4 type=paragraph_order: LVI.]
 

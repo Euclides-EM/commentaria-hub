@@ -13,7 +13,7 @@ la maxime,
 
 [Figure: triangle with apex K above a horizontal line z B g; obliques from K to f and g on the line, prolonged below to the point C, with lines from f and g to C]
 
-## COROLLAIRE.
+### COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XLV.]
 

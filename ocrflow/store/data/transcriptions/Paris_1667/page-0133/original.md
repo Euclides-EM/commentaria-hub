@@ -9,9 +9,9 @@ On pourroit auſſy conſiderer *b c* & *k c* comme obliques ſur *k b*, (car co
 
 La conſideration de ces trois lignes, *k b* oblique, *k c* perpendiculaire, *b c* éloignement du perpendicule, nous fera comprendre pluſieurs choſes des lignes obliques qui n'ont pû encore eſtre expliquées que par des triangles, ce qui eſt un ordre tout renverſé. Et nous verrons d'une part que dans la comparaiſon des obliques, l'égalité en deux de ces lignes donne l'égalité dans la troiſiéme, & nous examinerons de l'autre quand il n'y a égalité que dans une, quelle eſt l'inégalité des deux autres.
 
-## PROPOSITION FONDAMENTALE.
+### PROPOSITION FONDAMENTALE.
 
-## DE LA MESURE DES LIGNES OBLIQUES.
+### DE LA MESURE DES LIGNES OBLIQUES.
 
 Les lignes obliques menées du même point à une même ligne, ſont plus longues, plus elles ſont éloignées du perpendicule.
 

@@ -7,7 +7,7 @@ l'eſt auſſi ſur *z*, lequel coſté j'appelleray *k*.
 
 Les deux premieres parties ſe prouvent enſemble, & la preuve de ces deux premieres emporte celle de la 3e.
 
-PREUVE DES DEUX PREMIERES PARTIES.
+### PREUVE DES DEUX PREMIERES PARTIES.
 
 Soient pris deux points en la ligne *z*, *f* & *p* aux deux coſtez de *b*, d'où ſoient menées *f g* & *p q* perpendiculairement ſur la ligne *x*, il faut prouver qu'elles ſeront obliques ſur *z*, & inclinées vers *k*.
 

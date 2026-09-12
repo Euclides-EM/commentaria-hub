@@ -5,7 +5,7 @@ lement diſtant de *k* & de *c*, que les autres points comme *m* & *n* ne ſoien
 
 Or cela eſtant, il eſt clair que la ligne *k b c* eſtant droitte eſt plus courte que les lignes *k m c*, qui ne font pas une ligne droitte, & par conſequent *k b*, qui eſt la moitié de *k b c*, eſt plus courte que *k m*, qui eſt la moitié de *k m c*.
 
-## SECOND THEOREME.
+### SECOND THEOREME.
 
 [Curated heading level=4 type=paragraph_order: XXXVII.]
 
@@ -21,7 +21,7 @@ La 2e partie eſt encore tres manifeſte, & ſe peut neanmoins prouver de cette 
 
 [Diagram: vertical line from K meeting a horizontal line through M and N at point B, with point g beside B]
 
-## PREMIER COROLLAIRE.
+### PREMIER COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXXVIII.]
 

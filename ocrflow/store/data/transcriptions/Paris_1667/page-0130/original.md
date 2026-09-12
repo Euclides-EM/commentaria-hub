@@ -3,7 +3,7 @@
 
 pouvoit prendre aucune autre qui fuſt ſi propre à meſurer cette diſtance.
 
-## SECOND COROLLAIRE.
+### SECOND COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XXXIX.]
 
@@ -15,7 +15,7 @@ Deux differentes lignes eſtant perpendiculaires à une même ligne, il eſt imp
 
 Car ſi elles ſe rencontroient elles auroient un point commun, & ainſy il y auroit deux lignes menées d'un même point qui ſeroient perpendiculaires à une même ligne, ce qu'on a fait voir eſtre impoſſible.
 
-## TROISIEME COROLLAIRE.
+### TROISIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XL.]
 
@@ -31,7 +31,7 @@ Soit la ligne *b c*, & le point *k* dont ait eſté tirée l'oblique *k g* qui �
 
 De plus ayant pris dans la ligne *b c* deux points également diſtans de *k*, comme pourroit eſtre *b* & *c* (33. ſ̄) le point où tombera la perpendiculaire doit eſtre également diſtant de ces deux points (*i b*); & au contraire celuy où tombe l'oblique doit eſtre plus éloigné du point vers lequel elle eſt inclinée, & par conſequent la perpendiculaire doit tomber du coſté vers lequel cette ligne eſt inclinée.
 
-## QUATRIEME COROLLAIRE.
+### QUATRIEME COROLLAIRE.
 
 [Curated heading level=4 type=paragraph_order: XLI.]
 
