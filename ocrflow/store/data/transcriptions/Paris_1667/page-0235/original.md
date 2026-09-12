@@ -45,7 +45,7 @@ Car cet angle qui a deux baſes paralleles doit eſtre conſideré comme ſi c'e
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.

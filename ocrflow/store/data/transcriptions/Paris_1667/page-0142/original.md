@@ -9,7 +9,7 @@ C'eſt ce que nous trouverons facilement apres avoir établi quelques Lemmes.
 
 ## AVERTISSEMENT POUR LES LEMMES SUIVANS.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.
@@ -23,7 +23,7 @@ III.
 
 ## PREMIER LEMME.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.

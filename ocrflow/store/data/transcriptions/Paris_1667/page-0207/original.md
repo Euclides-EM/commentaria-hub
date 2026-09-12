@@ -29,7 +29,7 @@ Reſte donc pour la meſure de l'angle inſcrit la moitié du troiſiême arc, q
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.

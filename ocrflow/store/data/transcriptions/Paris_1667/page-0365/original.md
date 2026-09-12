@@ -6,7 +6,7 @@
 
 ## §. 1. CE QUE C'EST QUE CE PROBLEME.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.
@@ -24,7 +24,7 @@ Soient pris pour exemples les quarrez d'onze pour les impairs; & de douze pour l
 
 ## §. 2. CONSIDERATIONS SUR LES QUARREZ NATURELS.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.
@@ -34,7 +34,7 @@ J'appelle quarrez naturels ceux où les chiffres ſont diſpoſez en progreſſi
 
 ### Sur les Quarrez impairs.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.

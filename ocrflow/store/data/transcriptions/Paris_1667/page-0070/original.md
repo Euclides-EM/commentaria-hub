@@ -13,7 +13,7 @@ Que ſi on ſuppoſe au contraire que *b* & *f* ſont égales, il s'enſuivra qu
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XLII.]
+[Curated heading level=4 type=paragraph_order: XLII.]
 
 [Margin]
 XLII.

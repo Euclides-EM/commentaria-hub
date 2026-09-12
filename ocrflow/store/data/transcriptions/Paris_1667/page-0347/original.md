@@ -5,7 +5,7 @@ Donc ils ſont tous égaux ſelon le fondement de la Geometrie des indiviſibles
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.
@@ -27,7 +27,7 @@ Donc par la definition de l'égalité des raiſons *A* eſt à *E* en même rai�
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: VI.]
+[Curated heading level=4 type=paragraph_order: VI.]
 
 [Margin]
 VI.

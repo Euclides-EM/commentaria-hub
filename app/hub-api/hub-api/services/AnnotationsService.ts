@@ -416,7 +416,7 @@ export class AnnotationsService {
         dataSetId,
         id,
         categories,
-        includeCuratedHeadings = true,
+        types = 'default',
     }: {
         /**
          * Dataset ID
@@ -431,9 +431,9 @@ export class AnnotationsService {
          */
         categories?: string,
         /**
-         * Include editorial curated headings in the index (default true)
+         * Comma-separated index layers (default: default)
          */
-        includeCuratedHeadings?: boolean,
+        types?: string,
     }): CancelablePromise<annotation_Index> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -444,7 +444,7 @@ export class AnnotationsService {
             },
             query: {
                 'categories': categories,
-                'include_curated_headings': includeCuratedHeadings,
+                'types': types,
             },
         });
     }

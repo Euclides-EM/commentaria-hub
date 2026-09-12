@@ -7,7 +7,7 @@ La ſeconde maniere eſt quand l'angle qu'une baſe fait ſur un coſté eſt é
 
 ## QUATRIEME LEMME.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.
@@ -17,7 +17,7 @@ LES baſes paralleles d'un même angle ne peuvent eſtre diſpoſées que d'une 
 
 ## PREMIERE DISPOSITION DES ANTIPARALLELES.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.

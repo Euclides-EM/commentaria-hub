@@ -13,7 +13,7 @@ Donc par le 2ᵉ Theoreme,
 
 ## HUITIEME COROLLAIRE.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.
@@ -25,7 +25,7 @@ C'eſt une ſuitte du precedent. Car les diametres ſoutiennent des arcs proport
 
 ## NEUVIEME COROLLAIRE.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.
@@ -35,7 +35,7 @@ Si deux cordes égales de divers cercles ſoutiennent chacune autant de degrez, 
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.

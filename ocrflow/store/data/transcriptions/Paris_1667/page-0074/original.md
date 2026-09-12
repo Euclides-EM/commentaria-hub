@@ -7,7 +7,7 @@ Il faudroit donc que 7 x fût égal à 7 x + r, c'eſt à dire la partie au tout
 
 ## PREUVE DE LA COMPOSITION.
 
-[Curated heading level=4: XLVIII.]
+[Curated heading level=4 type=paragraph_order: XLVIII.]
 
 [Margin]
 XLVIII.
@@ -42,7 +42,7 @@ Donc *alternando* b + c. c : : f + g. g. *Ce qu'il falloit demonſtrer.*
 
 ## PREUVE DE LA DIVISION.
 
-[Curated heading level=4: XLIX.]
+[Curated heading level=4 type=paragraph_order: XLIX.]
 
 [Margin]
 XLIX.

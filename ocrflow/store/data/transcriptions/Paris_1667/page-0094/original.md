@@ -7,7 +7,7 @@ C'eſt ce qui n'eſt pas peu embaraſſé. Mais voicy ce me ſemble la plus faci
 
 ### Definition.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.
@@ -19,7 +19,7 @@ Ainſy la raiſon double eſt plus grande que la triple, ou la quadruple; parce 
 
 ### Avertissement.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -29,7 +29,7 @@ Mais cela ne ſuffit pas toûjours pour juger ſi une raiſon eſt plus grande q
 
 ### Theoreme.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.
@@ -43,7 +43,7 @@ Si c eſt le tiers de b, & que n ne ſoit que le quart de m, la raiſon de b. c.
 
 ### Premier Axiome.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.

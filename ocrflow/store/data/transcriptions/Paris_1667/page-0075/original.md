@@ -3,7 +3,7 @@
 
 ## SIXIEME THEOREME.
 
-[Curated heading level=4: L.]
+[Curated heading level=4 type=paragraph_order: L.]
 
 [Margin]
 L.
@@ -45,7 +45,7 @@ Ce qu'il faloit demonſtrer.
 
 ## SEPTIEME THEOREME.
 
-[Curated heading level=4: LI.]
+[Curated heading level=4 type=paragraph_order: LI.]
 
 [Margin]
 LI.

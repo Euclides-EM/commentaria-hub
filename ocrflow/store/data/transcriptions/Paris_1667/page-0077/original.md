@@ -9,7 +9,7 @@ Quoy qu'il en ſoit ne me voulant broüiller avec perſonne, chacun prendra ce q
 
 ### HUITIEME THEOREME.
 
-[Curated heading level=4: LV.]
+[Curated heading level=4 type=paragraph_order: LV.]
 
 [Margin]
 LV.

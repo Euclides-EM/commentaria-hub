@@ -7,7 +7,7 @@ Que tout angle plus grand que de 90. degrez eſt obtus.
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.
@@ -19,7 +19,7 @@ TOUTE ligne qui en coupe une autre obliquement fait d'un coſté un angle aigu &
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.
@@ -35,7 +35,7 @@ et du meme coste,
 
 ## DEFINITION.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -45,7 +45,7 @@ L'ANGLE *aigu*, qui avec l'obtus vaut deux angles droits, s'appelle le *compleme
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.

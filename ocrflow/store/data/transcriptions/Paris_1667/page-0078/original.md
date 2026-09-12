@@ -26,7 +26,7 @@ Car par l'hypotheſe la raiſon de f.g (qui eſt la même que celle de bf. bg) e
 
 ### NEUVIEME THEOREME.
 
-[Curated heading level=4: LIII.]
+[Curated heading level=4 type=paragraph_order: LIII.]
 
 [Margin]
 LIII.

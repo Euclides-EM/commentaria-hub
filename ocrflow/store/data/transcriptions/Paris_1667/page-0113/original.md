@@ -3,7 +3,7 @@
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -19,7 +19,7 @@ Tous les nombres de la 1re regle qui finiſſent par 5 ſont auſſi de la 2e, c
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.
@@ -31,7 +31,7 @@ Car tout nombre quarré impair eſtant diviſé en deux parties, dont l'une ne �
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.

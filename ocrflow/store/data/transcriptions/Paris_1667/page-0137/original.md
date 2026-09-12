@@ -5,7 +5,7 @@ perpendicule de l'oblique k n ; k m & k n ſeront égales. Car les points m & n 
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XLIX.]
+[Curated heading level=4 type=paragraph_order: XLIX.]
 
 [Margin]
 XLIX.
@@ -21,7 +21,7 @@ C'eſt la même choſe que la precedente differemment énoncée.
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: L.]
+[Curated heading level=4 type=paragraph_order: L.]
 
 [Margin]
 L.
@@ -33,7 +33,7 @@ Soit fait comme devant. Si k m eſt égale à k n, b m ſera égale à b n. Car 
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: LI.]
+[Curated heading level=4 type=paragraph_order: LI.]
 
 [Margin]
 LI.

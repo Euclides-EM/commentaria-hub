@@ -3,7 +3,7 @@
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.
@@ -25,7 +25,7 @@ Donc une figure circonſcritte au cercle ne peut eſtre équilaterale, ſi elle 
 
 ## DES FIGURES REGULIERES.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.

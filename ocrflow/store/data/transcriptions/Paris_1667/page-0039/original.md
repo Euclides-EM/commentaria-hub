@@ -12,7 +12,7 @@ DES GRANDEVRS EN GENERAL, ET DES QUATRE OPERATIONS, Ajoûter, Souſtraire, Multi
 
 ### SUPPOSITIONS GENERALES.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.

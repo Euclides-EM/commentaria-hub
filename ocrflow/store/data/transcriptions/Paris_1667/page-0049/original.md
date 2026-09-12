@@ -4,7 +4,7 @@
 
 ## MVLTIPLICATION DES GRANDEURS COMPLEXES.
 
-[Curated heading level=4: L.]
+[Curated heading level=4 type=paragraph_order: L.]
 
 [Margin]
 L.
@@ -14,7 +14,7 @@ POUR multiplier une grandeur complexe par une autre complexe ou incomplexe, il f
 
 DE ſorte que multipliant le nombre des termes d'une grandeur à multiplier, avec le nombre des termes de l'autre, on a le nombre des multiplications partiales qu'il faut faire pour avoir la multiplication totale, ou le produit total.
 
-[Curated heading level=4: LI.]
+[Curated heading level=4 type=paragraph_order: LI.]
 
 [Margin]
 LI.
@@ -24,7 +24,7 @@ AINSI lors qu'une des deux grandeurs n'a qu'un terme & que l'autre en a deux, pa
 
 *b*. En *c* + *d*. } produit *c b* + *d b*.
 
-[Curated heading level=4: LII.]
+[Curated heading level=4 type=paragraph_order: LII.]
 
 [Margin]
 LII.
@@ -34,7 +34,7 @@ LORS que les deux grandeurs ont chacune deux termes, parce que deux fois deux ſ
 
 *b* + *c*. En *p* + *q*. } produit *p b* + *p c* + *q b* + *q c*.
 
-[Curated heading level=4: LIII.]
+[Curated heading level=4 type=paragraph_order: LIII.]
 
 [Margin]
 LIII.
@@ -46,7 +46,7 @@ LORS que chacune a trois termes, parce que trois fois trois ſont neuf, il faudr
 
 & ainſi à l'infini.
 
-[Curated heading level=4: LIV.]
+[Curated heading level=4 type=paragraph_order: LIV.]
 
 [Margin]
 LIV.

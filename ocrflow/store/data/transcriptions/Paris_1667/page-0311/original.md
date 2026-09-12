@@ -11,7 +11,7 @@ L'equilateral ne ſçauroit eſtre qu'oxygone.
 
 ## Theoreme.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.
@@ -41,7 +41,7 @@ Donc l'angle *opd* eſt droit auſſy. Ce qu'il falloit demonſtrer.
 
 ## Corollaire.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.

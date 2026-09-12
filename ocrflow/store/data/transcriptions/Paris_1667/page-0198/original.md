@@ -15,7 +15,7 @@ Mais pour rendre les preuves plus courtes, il eſt bon de ſuppoſer quelques Le
 
 ## PREMIER LEMME. DEFINITION.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.
@@ -27,7 +27,7 @@ Et de là il s'enſuit, que dans ces ſortes d'angles, auſſy bien que dans ceu
 
 ## SECOND LEMME.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.

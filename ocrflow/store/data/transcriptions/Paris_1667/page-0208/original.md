@@ -5,7 +5,7 @@ tiere, c'eſtadire de 360. degrez, les deux arcs que ſoutiennent les coſtez de
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.
@@ -21,7 +21,7 @@ Et cela eſt encore plus facile, quand l'angle inſcrit eſt Iſoſcele, comme �
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.

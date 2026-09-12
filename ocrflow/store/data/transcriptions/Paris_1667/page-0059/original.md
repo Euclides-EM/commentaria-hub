@@ -3,7 +3,7 @@
 
 ## SECOND EXEMPLE.
 
-[Curated heading level=4: LXXI.]
+[Curated heading level=4 type=paragraph_order: LXXI.]
 
 [Margin]
 LXXI.
@@ -29,7 +29,7 @@ Donc il y avoit 7 pauvres. Et j'avois 34 ſols.
 
 ## TROISIEME EXEMPLE.
 
-[Curated heading level=4: LXXII.]
+[Curated heading level=4 type=paragraph_order: LXXII.]
 
 [Margin]
 LXXII.

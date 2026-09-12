@@ -5,7 +5,7 @@ tans, & qu'on a pratiquez dans les deux exemples qu'on a donnez de quarrez magiq
 
 ## PREMIER MOYEN.
 
-[Curated heading level=4: LX.]
+[Curated heading level=4 type=paragraph_order: LX.]
 
 [Margin]
 LX.
@@ -15,7 +15,7 @@ Nous avons ſuppoſé qu'on tranſporteroit les chiffres de la premiere enceinte
 
 ## SECOND MOYEN.
 
-[Curated heading level=4: LXI.]
+[Curated heading level=4 type=paragraph_order: LXI.]
 
 [Margin]
 LXI.
@@ -25,7 +25,7 @@ ET pour tous les autres chiffres non marquez de lettres, on les peut tranſporte
 
 ## CONCLUSION.
 
-[Curated heading level=4: LXII.]
+[Curated heading level=4 type=paragraph_order: LXII.]
 
 [Margin]
 LXII.

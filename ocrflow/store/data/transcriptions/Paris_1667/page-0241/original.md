@@ -7,7 +7,7 @@ Donc par le 4ᵉ Lemme *D* & *d* ſont également inclinées chacune dans ſon e
 
 ## AUTRE DEMONSTRATION.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.
@@ -27,7 +27,7 @@ Or par la conſtruction *P* eſt égale à *D*. Donc
 
 ## AVERTISSEMENT.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.
@@ -43,7 +43,7 @@ XXXII.
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.

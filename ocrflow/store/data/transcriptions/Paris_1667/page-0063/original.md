@@ -3,7 +3,7 @@
 
 des deux raiſons dont l'égalité fait la proportion demandant deux termes, chaque proportion en demande 4. dont le premier eſt un antecedent, le ſecond ſon conſequent : le troiſiéme un antecedent, & le quatriéme ſon conſequent. Ce qui ſe peut marquer ainſi b. c : : f. g.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.
@@ -11,7 +11,7 @@ XXII.
 
 ET de plus, le premier & le dernier terme s'appellent *les extrêmes*, le 2 & le 3 ceux *du milieu*, ou *les moyens*.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.
@@ -21,7 +21,7 @@ NEANMOINS une meſme grandeur peut ſervir de conſequent au premier antecedent,
 
 On peut marquer ainſi cette proportion continuë pour la diſtinguer de l'autre ∺ b. c. d.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.
@@ -31,7 +31,7 @@ QUE ſi cela ſe continuë plus loin que ces 3 premiers termes, cela s'appelle *
 
 ## PROPORTION ARITHMETIQVE.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.
@@ -43,7 +43,7 @@ DANS la proportion arithmetique la difference du premier antecedent à ſon con�
 
 ### THEOREME.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.

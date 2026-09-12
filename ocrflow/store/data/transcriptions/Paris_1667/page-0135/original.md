@@ -3,7 +3,7 @@
 
 ## AVERTISSEMENT.
 
-[Curated heading level=4: XLVI.]
+[Curated heading level=4 type=paragraph_order: XLVI.]
 
 [Margin]
 XLVI.

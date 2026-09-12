@@ -7,7 +7,7 @@ Et de même quand un ſinus eſt plus grand que l'autre, la corde dont le plus g
 
 ## SEPTIEME THEOREME.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -21,7 +21,7 @@ Que ſi le ſinus eſt plus grand, cette diſtance eſt plus petite. Donc oſtan
 
 ## AVERTISSEMENT.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.

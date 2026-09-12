@@ -3,7 +3,7 @@
 
 ## HUITIEME LEMME.
 
-[Curated heading level=4: X.]
+[Curated heading level=4 type=paragraph_order: X.]
 
 [Margin]
 X.
@@ -23,7 +23,7 @@ Cette obſervation ſera de grand uſage dans les Theoremes ſuivans.
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.

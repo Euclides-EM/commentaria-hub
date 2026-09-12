@@ -3,7 +3,7 @@
 
 ## DEMONSTRATION.
 
-[Curated heading level=4: XLVIII.]
+[Curated heading level=4 type=paragraph_order: XLVIII.]
 
 [Margin]
 XLVIII.
@@ -23,7 +23,7 @@ Or par (24) *A. e* ═ *ω. ß.*
 
 Donc les ſix lettres *ω. E. α. o. O. ß* ═ 6 *c*.
 
-[Curated heading level=4: XLIX.]
+[Curated heading level=4 type=paragraph_order: XLIX.]
 
 [Margin]
 XLIX.
@@ -39,7 +39,7 @@ Donc la bande égale à la bande par (37)
 
 POUR LES ENCEINTES PAIRES.
 
-[Curated heading level=4: L.]
+[Curated heading level=4 type=paragraph_order: L.]
 
 [Margin]
 L.
@@ -51,7 +51,7 @@ LA diſpoſition en eſt tres facile, & ſe figure ainſy.
 
 ## DEMONSTRATION.
 
-[Curated heading level=4: LI.]
+[Curated heading level=4 type=paragraph_order: LI.]
 
 [Margin]
 LI.

@@ -9,7 +9,7 @@ Donc par le 5ᵉ Corollaire ( 20 s̄. ) le quarré du pentagone eſt égal au qu
 
 ## ONZIEME THEOREME.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.
@@ -37,7 +37,7 @@ Donc à 5. m m.
 
 ## DOUZIEME THEOREME.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.

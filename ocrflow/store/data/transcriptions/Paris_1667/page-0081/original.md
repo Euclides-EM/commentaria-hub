@@ -5,7 +5,7 @@
 
 ## DIXIEME THEOREME.
 
-[Curated heading level=4: LVIII.]
+[Curated heading level=4 type=paragraph_order: LVIII.]
 
 [Margin]
 LVIII.
@@ -22,7 +22,7 @@ Car les deux extrémes n'aiant fait que devenir tous deux moyens, le produit des
 
 ## ONZIEME THEOREME.
 
-[Curated heading level=4: LIX.]
+[Curated heading level=4 type=paragraph_order: LIX.]
 
 [Margin]
 LIX.
@@ -39,7 +39,7 @@ C'eſt par la même raiſon que la precedente.
 
 ## DOUZIEME THEOREME.
 
-[Curated heading level=4: LX.]
+[Curated heading level=4 type=paragraph_order: LX.]
 
 [Margin]
 LX.

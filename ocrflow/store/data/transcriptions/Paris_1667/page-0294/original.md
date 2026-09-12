@@ -11,7 +11,7 @@ Et pour avoir l'angle d'une figure de 3600 coſtez, il faut oſter 6 minutes de 
 
 ## TROISIEME PROBLEME.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.
@@ -25,7 +25,7 @@ Ainſy l'angle du raion ſur le coſté dans une figure de 15 coſtez, eſt de 7
 
 ## CONSIDERATION SUR LE CERCLE.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.

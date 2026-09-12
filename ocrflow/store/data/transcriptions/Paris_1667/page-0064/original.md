@@ -5,7 +5,7 @@ Et l'addition de ceux du milieu donne auſſi c + n + z. Ce qui eſt la même ch
 
 ### AVERTISSEMENT.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.
@@ -17,7 +17,7 @@ IE *ne diray rien davantage de la proportion arithmetique, parce qu'elle n'eſt 
 
 ### DEFINITION.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -51,7 +51,7 @@ Ou bien ainſi,
 
 ### I. DEFINITION DE L'EGALITE' DES RAISONS.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.

@@ -15,7 +15,7 @@ Que ſi au contraire *x x — z z* n'eſt pas un nombre quarré ( par le 2ᵉ Ca
 
 ## PROBLEME.
 
-[Curated heading level=4: LXXIX.]
+[Curated heading level=4 type=paragraph_order: LXXIX.]
 
 [Margin]
 LXXIX.
@@ -43,7 +43,7 @@ Or pour trouver toutes ſortes de 3 nombres qui ſoient tels que cy deſſus, il
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: LXXX.]
+[Curated heading level=4 type=paragraph_order: LXXX.]
 
 [Margin]
 LXXX.

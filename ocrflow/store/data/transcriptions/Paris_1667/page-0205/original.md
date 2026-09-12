@@ -7,7 +7,7 @@ Donc (par le 1er Lemme) l'angle du grand ſegment a pour meſure la moitié de l
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.
@@ -23,7 +23,7 @@ Cela eſt clair par le 2e Lemme.
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.
@@ -37,7 +37,7 @@ Car les angles m k b & m k d ſont le même angle. Or l'un a pour meſure la moi
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.

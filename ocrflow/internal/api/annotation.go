@@ -9,6 +9,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/httpwrapper"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/markdown"
 	"github.com/samber/lo"
 )
 
@@ -331,7 +332,7 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        categories  query     string  false  "Categories for the index"
-// @Param        include_curated_headings query bool false "Include editorial curated headings in the index (default true)" default(true)
+// @Param        types query string false "Comma-separated index layers (default: default)" default(default)
 // @Produce      json
 // @Success      200  {object}   annotation.Index
 // @Router       /datasets/{dataSetId}/annotations/{id}/index [get]
@@ -346,14 +347,24 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 	if categoriesStr != "" {
 		categories = lo.Map(strings.Split(strings.TrimSpace(categoriesStr), ","), func(s string, _ int) string { return strings.TrimSpace(s) })
 	}
-	includeCuratedHeadings := true
-	if value := r.URL.Query().Get("include_curated_headings"); value != "" {
-		includeCuratedHeadings, err = strconv.ParseBool(value)
-		if err != nil {
-			return nil, fmt.Errorf("invalid include_curated_headings value %q: %w", value, err)
+	typesStr := strings.TrimSpace(r.URL.Query().Get("types"))
+	if typesStr != "" {
+		indexTypes := lo.Map(strings.Split(typesStr, ","), func(s string, _ int) string { return strings.TrimSpace(s) })
+		seen := make(map[string]struct{}, len(indexTypes))
+		uniqueTypes := make([]string, 0, len(indexTypes))
+		for _, indexType := range indexTypes {
+			if !markdown.IsValidIndexType(indexType) {
+				return nil, fmt.Errorf("invalid index type %q", indexType)
+			}
+			if _, ok := seen[indexType]; ok {
+				continue
+			}
+			seen[indexType] = struct{}{}
+			uniqueTypes = append(uniqueTypes, indexType)
 		}
+		return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, uniqueTypes)
 	}
-	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, includeCuratedHeadings)
+	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, nil)
 }
 
 // ListAnnotationCategories godoc

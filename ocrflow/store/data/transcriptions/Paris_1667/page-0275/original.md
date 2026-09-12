@@ -3,7 +3,7 @@
 
 ## CINQUIEME PROBLEME.
 
-[Curated heading level=4: LXIX.]
+[Curated heading level=4 type=paragraph_order: LXIX.]
 
 [Margin]
 LXIX.

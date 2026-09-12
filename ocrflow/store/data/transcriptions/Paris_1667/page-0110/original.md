@@ -3,7 +3,7 @@
 
 ### TROISIEME CAS.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.
@@ -19,7 +19,7 @@ Donc la 1re & la 2e ſont incommenſurables en puiſſance. Et il eſt de même 
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.
@@ -29,7 +29,7 @@ XXI.
 
 ### PREMIER CAS.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.
@@ -50,7 +50,7 @@ Donc { ∺ 8. 12. 18. 27.
 
 ### SECOND CAS.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.

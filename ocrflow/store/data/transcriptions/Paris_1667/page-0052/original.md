@@ -17,7 +17,7 @@ Et par conſequent ces deux multiplications oſtent 4 choſes , *y d*. + *x q*. 
 
 Or elles n'en doivent oſter que trois , ſçavoir *y d* + *x q* + *d q*. Et par conſequent elles oſtent de trop une fois *d q* ( qu'elles oſtent deux fois ) qui eſt le produit des deux termes affectez de *moins*. Et c'eſt ce qui oblige de mettre un *plus* à cette multiplication pour remplacer ce qu'on avoit oſté de trop.
 
-[Curated heading level=4: LXII.]
+[Curated heading level=4 type=paragraph_order: LXII.]
 
 [Margin]
 LXII.
@@ -27,7 +27,7 @@ DE LA il s'enſuit que *b* — *d* par *b* — *d* vaut les deux quarrez *b b* &
 
 Car *b* — *d*. } *b* — *d*. } *b b* — *b d* — *b d* + *d d* c'eſt à dire *b b* + *d d* — 2 *b d*.
 
-[Curated heading level=4: LXIII.]
+[Curated heading level=4 type=paragraph_order: LXIII.]
 
 [Margin]
 LXIII.

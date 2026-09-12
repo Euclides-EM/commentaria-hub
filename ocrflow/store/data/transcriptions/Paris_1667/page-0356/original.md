@@ -21,7 +21,7 @@ Donc ces figures ſemblables ſont en raiſon doublée de leurs coſtez homologu
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.
@@ -35,7 +35,7 @@ Or les quarrez de ces coſtez homologues ſont auſſy entr'eux en raiſon doubl
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.

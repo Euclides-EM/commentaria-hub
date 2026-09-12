@@ -13,7 +13,7 @@ Donc l'angle F K G, qui eſt égal à tous les deux, a pour meſure l'une & l'au
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.
@@ -35,7 +35,7 @@ Car par le precedent Theoreme l'un & l'autre a pour meſure la moitié des arcs 
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.

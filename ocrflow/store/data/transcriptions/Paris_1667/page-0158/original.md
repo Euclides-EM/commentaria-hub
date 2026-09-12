@@ -25,7 +25,7 @@ Et nous y en ajoûterons une 4ᵉ, qui ſera du paralleliſme des lignes circula
 
 ### PREMIER THEOREME.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.

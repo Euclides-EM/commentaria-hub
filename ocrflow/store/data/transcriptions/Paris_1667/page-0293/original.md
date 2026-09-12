@@ -13,7 +13,7 @@ Donc ſi on décrit un autre cercle de l'intervale d'un raion droit; c'eſtadire
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.
@@ -29,7 +29,7 @@ La troiſiême, quel eſt auſſy l'angle que fait un raion ſur un coſté: c'e
 
 ## PREMIER PROBLEME.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.
@@ -45,7 +45,7 @@ L'arc d'une figure de 3600 coſtez eſt de 6 minutes, parceque 21600 minutes eſ
 
 ## SECOND PROBLEME.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.

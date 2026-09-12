@@ -78,10 +78,13 @@ func markdownBlocksToABs(pageKey string, md *markdown.Markdown) []model.AB {
 			continue
 		}
 
-		if level, content := markdown.ParseCuratedHeading(line); level > 0 {
+		if heading, ok := markdown.ParseTypedCuratedHeading(line); ok {
 			flushParagraph()
-			ab := newMarkdownAB(pageKey, len(abs)+1, "curated-heading", []string{content})
-			ab.N = strconv.Itoa(level)
+			ab := newMarkdownAB(pageKey, len(abs)+1, "curated-heading", []string{heading.Text})
+			ab.N = strconv.Itoa(heading.Level)
+			if heading.Type != markdown.DefaultIndexType {
+				ab.Subtype = heading.Type
+			}
 			abs = append(abs, ab)
 			continue
 		}

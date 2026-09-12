@@ -207,6 +207,7 @@ const joinLineTexts = (
   lines: LineTextWithAnchors[],
   alignLines: boolean,
   blockType?: string,
+  blockSubtype?: string,
 ): ParagraphTextWithAnchors[] => {
   if (!alignLines) {
     const paragraphs: ParagraphTextWithAnchors[] = []
@@ -223,6 +224,7 @@ const joinLineTexts = (
         anchors: currentAnchors,
         lineRanges: currentLineRanges,
         blockType,
+        blockSubtype,
       })
       currentText = ''
       currentAnchors = {}
@@ -257,7 +259,7 @@ const joinLineTexts = (
     pushCurrent()
     return paragraphs.length
       ? paragraphs
-      : [{ text: '', anchors: {}, lineRanges: [], blockType }]
+      : [{ text: '', anchors: {}, lineRanges: [], blockType, blockSubtype }]
   }
 
   const paragraphs: ParagraphTextWithAnchors[] = []
@@ -342,12 +344,13 @@ const joinLineTexts = (
   pushCurrent()
   return paragraphs.length
     ? paragraphs
-    : [{ text: '', anchors: {}, lineRanges: [], blockType }]
+    : [{ text: '', anchors: {}, lineRanges: [], blockType, blockSubtype }]
 }
 
 const joinLiteralLineTexts = (
   lines: LineTextWithAnchors[],
   blockType?: string,
+  blockSubtype?: string,
 ): ParagraphTextWithAnchors[] => {
   let text = ''
   const anchors: Record<string, number> = {}
@@ -372,7 +375,7 @@ const joinLiteralLineTexts = (
     }
   }
 
-  return [{ text, anchors, lineRanges, blockType }]
+  return [{ text, anchors, lineRanges, blockType, blockSubtype }]
 }
 
 const getTeiBlockType = (element: Element) =>
@@ -441,6 +444,7 @@ const appendParagraphLines = (
   lines: LineTextWithAnchors[],
   opts: ReadingOptions,
   blockType: string | undefined,
+  blockSubtype: string | undefined,
 ) => {
   const separator = ' | '
   let run: LineTextWithAnchors[] = []
@@ -453,10 +457,12 @@ const appendParagraphLines = (
     if (runIsTable) {
       const table = getParagraphTable(run)
       if (table) {
-        paragraphs.push({ ...table, blockType })
+        paragraphs.push({ ...table, blockType, blockSubtype })
       }
     } else {
-      paragraphs.push(...joinLineTexts(run, opts.alignLines, blockType))
+      paragraphs.push(
+        ...joinLineTexts(run, opts.alignLines, blockType, blockSubtype),
+      )
     }
     run = []
   }
@@ -483,6 +489,7 @@ export const renderStructuredDivToParagraphs = (
 
   for (const container of containers) {
     const blockType = getTeiBlockType(container)
+    const blockSubtype = getElementAttr(container, 'subtype') || undefined
     const lines = getLineElements(container)
     if (lines.length) {
       const renderedLines = lines.map((line) => {
@@ -502,13 +509,24 @@ export const renderStructuredDivToParagraphs = (
         } satisfies LineTextWithAnchors
       })
       if (blockType === 'paragraph') {
-        appendParagraphLines(paragraphs, renderedLines, opts, blockType)
+        appendParagraphLines(
+          paragraphs,
+          renderedLines,
+          opts,
+          blockType,
+          blockSubtype,
+        )
         continue
       }
       const blocks =
         blockType === 'calculation'
-          ? joinLiteralLineTexts(renderedLines, blockType)
-          : joinLineTexts(renderedLines, opts.alignLines, blockType)
+          ? joinLiteralLineTexts(renderedLines, blockType, blockSubtype)
+          : joinLineTexts(
+              renderedLines,
+              opts.alignLines,
+              blockType,
+              blockSubtype,
+            )
       for (const block of blocks) {
         paragraphs.push(block)
       }
@@ -535,6 +553,7 @@ export const renderStructuredDivToParagraphs = (
             ]
           : [],
       blockType,
+      blockSubtype,
     })
   }
 
@@ -815,12 +834,16 @@ const renderParagraphElement = (
   return `<table${attrs} data-tei-table="true"><tbody>${rows}</tbody></table>`
 }
 
-const getBlockTypeAttrs = (blockType?: string) => {
+const getBlockTypeAttrs = (blockType?: string, blockSubtype?: string) => {
   if (!blockType) {
     return ''
   }
 
   let attrs = ` data-tei-block-type="${escapeHtmlAttr(blockType)}"`
+  if (blockSubtype) {
+    attrs += ` data-tei-block-subtype="${escapeHtmlAttr(blockSubtype)}"`
+    attrs += ` data-tei-block-subtype-label="${escapeHtmlAttr(blockSubtype.replaceAll('_', ' '))}"`
+  }
   const otherPrefix = 'other:'
   if (blockType.startsWith(otherPrefix)) {
     const otherType = blockType.slice(otherPrefix.length)
@@ -842,7 +865,7 @@ export const renderStructuredDiv = (
         [],
         index,
         !!opts.showCertaintyVisualization,
-        getBlockTypeAttrs(paragraph.blockType),
+        getBlockTypeAttrs(paragraph.blockType, paragraph.blockSubtype),
       )
     })
     .join('')
@@ -1011,7 +1034,10 @@ export const renderOriginalView = (
   const parts = paragraphs.map((paragraph, index) => {
     const spans = paragraphSpans.get(index) || []
     const paragraphTextAttr = escapeHtmlAttr(encodeURIComponent(paragraph.text))
-    const blockTypeAttrs = getBlockTypeAttrs(paragraph.blockType)
+    const blockTypeAttrs = getBlockTypeAttrs(
+      paragraph.blockType,
+      paragraph.blockSubtype,
+    )
     return renderParagraphElement(
       paragraph,
       spans,

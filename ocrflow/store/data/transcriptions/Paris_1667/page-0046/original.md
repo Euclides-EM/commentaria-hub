@@ -14,7 +14,7 @@ Ayant *b c d*/*b* le quotient ſera *c d*.
 
 ## DES GRANDEVRS INCOMPLEXES ET COMPLEXES.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -22,7 +22,7 @@ XXXVI.
 
 OUTRE ce que nous avons remarqué que l'on pouvoit conſiderer les grandeurs comme n'ayant qu'une dimenſion, ou en ayant pluſieurs : on peut encore conſiderer toutes ces ſortes de grandeurs lineaires, planes, ou ſolides comme incomplexes, ou comme complexes.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.
@@ -30,7 +30,7 @@ XXXVII.
 
 IE les appelle *incomplexes* quand on conſidere une grandeur d'une ou de pluſieurs dimenſions à part, comme *b*, ou *c d*, ou *m n o*, ſans y rien ajoûter ou en rien oſter.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.
@@ -44,7 +44,7 @@ Or comme il y a quelque difficulté un peu plus grande pour faire les operations
 
 ## PRINCIPES POUR FAIRE LES QUATRE OPERATIONS SUR LES GRANDEURS COMPLEXES.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.
@@ -52,7 +52,7 @@ XXXIX.
 
 1. CHAQUE grandeur incomplexe dont la complexe eſt compoſée ſe peut appeller *terme*.
 
-[Curated heading level=4: XL.]
+[Curated heading level=4 type=paragraph_order: XL.]
 
 [Margin]
 XL.
@@ -62,7 +62,7 @@ XL.
 
 LE plus +, *ſigne affirmatif*, le moins, — *ſigne negatif*.
 
-[Curated heading level=4: XLI.]
+[Curated heading level=4 type=paragraph_order: XLI.]
 
 [Margin]
 XLI.

@@ -7,7 +7,7 @@ Ainſi ²⁄₂ ³⁄₃ ⁴⁄₄ &c. font chacun le tout.
 
 ### PREMIER THEOREME.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -35,7 +35,7 @@ Ce qu'il falloit demouſtrer{printer-error-correction:demonſtrer}.
 
 ### SECOND THEOREME.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.

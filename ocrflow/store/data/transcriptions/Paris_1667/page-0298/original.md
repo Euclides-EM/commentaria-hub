@@ -5,7 +5,7 @@ peut eſtre que d'une ſorte, quoiqu'il ne ſoit pas toûjours facile de la déc
 
 ## DE L'INSCRIPTION OU CIRCONSCRIPTION D'UNE FIGURE REGULIERE DE TELLE ESPECE DANS UN CERCLE DONNE'.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.
@@ -17,7 +17,7 @@ Ainſy je penſe que tout ce que l'on peut faire de mieux ſe reduit à ces deux
 
 ## PREMIERE REGLE GENERALE.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.

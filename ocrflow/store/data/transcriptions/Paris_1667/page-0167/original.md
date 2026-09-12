@@ -9,7 +9,7 @@ Donc par la definition des grandeurs proportionnelles B D eſt à la grande circ
 
 ## DEFINITION.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.
@@ -21,7 +21,7 @@ Et comme on ne regarde point la grandeur abſoluë des portions d'une circonfere
 
 ## NEUVIEME THEOREME.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.

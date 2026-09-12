@@ -5,7 +5,7 @@ qu'une raiſon eſt compoſée de deux autres en cette maniere. *bf. cg :: b. c 
 
 ### Premier Avertissement.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.
@@ -15,7 +15,7 @@ III.
 
 ### Second Avertissement.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.
@@ -27,7 +27,7 @@ IV.
 
 ### Troisieme Definition.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.

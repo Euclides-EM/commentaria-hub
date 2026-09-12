@@ -5,7 +5,7 @@
 
 ## CINQUIEME LEMME.
 
-[Curated heading level=4: VI.]
+[Curated heading level=4 type=paragraph_order: VI.]
 
 [Margin]
 VI.
@@ -33,7 +33,7 @@ Obſervant toûjours que les nombres marquez par ces lettres ſe multiplient les
 
 ## SIXIEME LEMME.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.

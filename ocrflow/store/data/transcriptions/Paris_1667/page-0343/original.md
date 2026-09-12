@@ -13,7 +13,7 @@
 
 {dropcap:Q|lines=3|style=decorated|decoration="foliate ornament on dark ground"}Uand on parle des coſtez d'un parallelogramme, on entend les coſtez angulaires, amoins qu'on ne marque autre choſe.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.
@@ -27,7 +27,7 @@ Et la perpendiculaire qui meſure la diſtance entre la baſe & ſon coſté opp
 
 Par ce que nous avons dit au commencement du livre precedent, que dans les parallelogrammes non rectangles ( à qui pour abreger nous donnerons ſimplement le nom
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.

@@ -6,7 +6,7 @@
 
 ### QUATRIEME SUPPOSITION.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.
@@ -18,7 +18,7 @@ IE ſuppoſe en quatriême lieu, que la multiplication & la diviſion ſe peuven
 
 ### CINQUIEME SUPPOSITION.
 
-[Curated heading level=4: VI.]
+[Curated heading level=4 type=paragraph_order: VI.]
 
 [Margin]
 VI.

@@ -7,7 +7,7 @@ l'angle aigu vers *d*, au deſſus d'*y*, parcequ'ils ſont alternes, & ce derni
 
 ## Septieme Corollaire.
 
-[Curated heading level=4: LVIII.]
+[Curated heading level=4 type=paragraph_order: LVIII.]
 
 [Margin]
 LVIII.
@@ -23,7 +23,7 @@ Donc les rayons de ces angles qui ſont les portions de cette ligne compriſes e
 
 ## Huitieme Corollaire.
 
-[Curated heading level=4: LIX.]
+[Curated heading level=4 type=paragraph_order: LIX.]
 
 [Margin]
 LIX.
@@ -35,7 +35,7 @@ Car on peut par ce point tirer une parallele à la ligne que ces deux lignes cou
 
 ## Neuvieme Corollaire.
 
-[Curated heading level=4: LX.]
+[Curated heading level=4 type=paragraph_order: LX.]
 
 [Margin]
 LX.

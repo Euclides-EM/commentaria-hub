@@ -13,7 +13,7 @@ Donc les baſes des deux premiers triangles ſont proportionelles aux baſes des
 
 ## Avertissement.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.
@@ -23,7 +23,7 @@ XXVII.
 
 ## DIVISION DU TRIANGLE EN SES ESPECES.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.

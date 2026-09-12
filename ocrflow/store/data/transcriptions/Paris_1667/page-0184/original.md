@@ -5,7 +5,7 @@ l'arc *b g* de commun, qui eſt l'arc d'un des angles obtus: & par conſequent o
 
 ## QUATRIEME THEOREME.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.
@@ -17,7 +17,7 @@ LORSQUE pluſieurs lignes droites ſe rencontrent en un même point eſtant men�
 
 ## DES AUTRES MESURES DE L'ANGLE.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.
@@ -29,7 +29,7 @@ On les peut rapporter à trois qui ſont toutes priſes de la baſe conſiderée
 
 ## DE LA SECONDE MESURE DE L'ANGLE QUI EST LA CORDE.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.

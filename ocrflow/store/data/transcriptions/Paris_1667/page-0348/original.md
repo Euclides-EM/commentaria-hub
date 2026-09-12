@@ -11,7 +11,7 @@ Donc ces triangles ſont égaux.
 
 ## QUATRIEME THEOREME.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.
@@ -23,7 +23,7 @@ C'eſt la même choſe que le 2ᵉ Theoreme, & qui ſe prouve de la même ſorte
 
 ## CINQUIEME THEOREME.
 
-[Curated heading level=4: VIII.]
+[Curated heading level=4 type=paragraph_order: VIII.]
 
 [Margin]
 VIII.

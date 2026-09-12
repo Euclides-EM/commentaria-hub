@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
+import useLocalStorageState from 'use-local-storage-state'
 import { useAppState } from '../../../../context/useAppState.ts'
 import {
   getTeiParagraphSelection,
@@ -16,6 +17,7 @@ import { parseLineMatchIds } from './teiPaneUtils.tsx'
 
 const TEI_HIGHLIGHT_SELECTOR = '[data-tei-highlight="true"]'
 const TEI_LINE_MATCH_SELECTOR = '[data-tei-line-match-ids]'
+const TEI_CURATED_HEADING_SELECTOR = '[data-tei-block-type="curated-heading"]'
 const TOOLTIP_VIEWPORT_MARGIN = 12
 
 const getTooltipItems = (element: Element | null): TeiTooltipItem[] => {
@@ -195,7 +197,15 @@ export const TeiContentView = ({
   onRequestAddHighlight,
   onRequestRemoveHighlight,
 }: TeiContentViewProps) => {
-  const { searchResultHighlight: contextSearchResultHighlight } = useAppState()
+  const { state, searchResultHighlight: contextSearchResultHighlight } =
+    useAppState()
+  const [selectedIndexTypes] = useLocalStorageState<string[]>(
+    `indexTypes.${state.datasetId}.${state.annotationId}`,
+    {
+      defaultValue: ['default'],
+      storageSync: false,
+    },
+  )
   const [tooltipState, setTooltipState] = useState<TeiTooltipState | null>(null)
   const [selectionState, setSelectionState] = useState<SelectionDraft | null>(
     null,
@@ -273,6 +283,23 @@ export const TeiContentView = ({
       }
     })
   }, [activeLineMatchIds, html])
+
+  useEffect(() => {
+    const root = rootRef.current
+    if (!root) return
+
+    const selectedTypes = new Set(selectedIndexTypes)
+    root
+      .querySelectorAll<HTMLElement>(TEI_CURATED_HEADING_SELECTOR)
+      .forEach((heading) => {
+        const indexType = heading.dataset.teiBlockSubtype || 'default'
+        if (selectedTypes.has(indexType)) {
+          heading.removeAttribute('data-tei-index-layer-unselected')
+        } else {
+          heading.setAttribute('data-tei-index-layer-unselected', 'true')
+        }
+      })
+  }, [html, selectedIndexTypes])
 
   const tooltip =
     tooltipState &&

@@ -17,7 +17,7 @@ Donc les arcs *B D* & *b d* eſtant proportionellement égaux, celuy du plus gra
 
 ## DIXIEME THEOREME.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.

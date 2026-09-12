@@ -19,7 +19,7 @@ Donc l'angle *K* eſtant égal à l'angle *b d c* , qui eſt la moitié de l'ang
 
 ## COROLLAIRE.
 
-[Curated heading level=4: LXXV.]
+[Curated heading level=4 type=paragraph_order: LXXV.]
 
 [Margin]
 LXXV.

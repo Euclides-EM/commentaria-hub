@@ -9,7 +9,7 @@ Donc ( par 15. s̄. ) T. *M* :: *M*. p.
 
 ## II. PROPOSITION FONDAMENTALE DES RECIPROQUES.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.
@@ -33,7 +33,7 @@ Donc les parties d'une ligne ſont reciproques aux parties de l'autre.
 
 ## COROLLAIRE
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.
@@ -45,7 +45,7 @@ Cela eſt clair, puiſque c'eſt la même choſe de donner pour les moyens de ce
 
 ## PLAN GENERAL DE CE QUE L'ON PRETEND MONTRER DANS LA SUITTE DE CE LIVRE.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.

@@ -5,7 +5,7 @@ Or le premier ne peut eſtre, que les baſes ne ſoient paralleles. Et le ſecon
 
 ### PREUVE DU PREMIER.
 
-[Curated heading level=4: LXII.]
+[Curated heading level=4 type=paragraph_order: LXII.]
 
 [Margin]
 LXII.
@@ -39,7 +39,7 @@ Donc les angles ſur la baſe *cd* ſont égaux aux angles ſur la baſe *fg*. C
 
 ### PREUVE DU SECOND.
 
-[Curated heading level=4: LXIII.]
+[Curated heading level=4 type=paragraph_order: LXIII.]
 
 [Margin]
 LXIII.

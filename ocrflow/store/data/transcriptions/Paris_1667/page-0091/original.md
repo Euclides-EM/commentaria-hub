@@ -11,7 +11,7 @@ Car les quarrez eſtant en raiſon doublée de leurs racines, & les cubes en rai
 
 ### Huitieme Corollaire.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.
@@ -31,7 +31,7 @@ C'eſt la même choſe de dire que le produit de la toute & d'une partie eſt mo
 
 ### Neuvieme Corollaire.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.
@@ -58,7 +58,7 @@ Donc bb.  cc  ::  b.  d.
 
 ### Dixieme Corollaire.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.

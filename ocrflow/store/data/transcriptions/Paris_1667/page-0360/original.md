@@ -5,7 +5,7 @@ l'autre ( & par conſequent une figure eſt à l'autre ) comme un des triangles 
 
 ## PREMIER PROBLEME.
 
-[Curated heading level=4: XL.]
+[Curated heading level=4 type=paragraph_order: XL.]
 
 [Margin]
 XL.
@@ -27,7 +27,7 @@ Le parallelogramme dhkg ſera égal & equiangle au donné bcdf.
 
 ## SECOND PROBLEME.
 
-[Curated heading level=4: XLI.]
+[Curated heading level=4 type=paragraph_order: XLI.]
 
 [Margin]
 XLI.

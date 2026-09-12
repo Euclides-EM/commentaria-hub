@@ -3,7 +3,7 @@
 
 ## HUITIEME THEOREME, COROLLAIRE DU SEPTIEME.
 
-[Curated heading level=4: LVII.]
+[Curated heading level=4 type=paragraph_order: LVII.]
 
 [Margin]
 LVII.
@@ -15,7 +15,7 @@ C'eſt le Corollaire même de la 2ᵉ Propoſition fondamentale.
 
 ## COROLLAIRE.
 
-[Curated heading level=4: LVIII.]
+[Curated heading level=4 type=paragraph_order: LVIII.]
 
 [Margin]
 LVIII.
@@ -27,7 +27,7 @@ Car il eſt clair que cette perpendiculaire eſt la moitié de la corde qui coup
 
 ## NEUVIEME THEOREME.
 
-[Curated heading level=4: LIX.]
+[Curated heading level=4 type=paragraph_order: LIX.]
 
 [Margin]
 LIX.

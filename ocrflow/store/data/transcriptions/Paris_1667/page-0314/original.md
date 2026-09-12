@@ -7,7 +7,7 @@ ayant la premiere & la ſeconde, qui eſt la moyenne, on a la 3ᵉ par le Proble
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.
@@ -17,7 +17,7 @@ LORSQUE l'angle du ſommet d'un triangle Iſoſcele eſt de 36 degrez, chacun de
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -39,7 +39,7 @@ Donc ∴ *bc*. *cd*. *fc*. Ce qu'il falloit demonſtrer.
 
 ## DEFINITIONS.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.

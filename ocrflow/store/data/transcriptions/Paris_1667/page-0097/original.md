@@ -11,7 +11,7 @@
 DES GRANDEVRS COMMENSVRABLES ET INCOMMENSVRABLES.
 [/Subhead]
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.
@@ -21,7 +21,7 @@ I.
 
 ## PREMIER LEMME.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.

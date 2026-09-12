@@ -9,7 +9,7 @@ Car ſi les paralleles *b c* & *f g*, enfermées entre *x* & *z*, eſtoient iné
 
 ## ONZIEME THEOREME.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.
@@ -29,7 +29,7 @@ Donc ( par I. 21. ) *f g* eſt plus courte que *b c* ; & *b c* que *p q*. Ce qu'
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.
@@ -39,7 +39,7 @@ Il s'enſuit de là, 1. Que deux lignes coupées par une ligne qui coupe toutes 
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.

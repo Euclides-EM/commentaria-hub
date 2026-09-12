@@ -3,7 +3,7 @@
 
 Chacune de ces grandeurs égales peut eſtre appellée *membre de l'equation*.
 
-[Curated heading level=4: LXVII.]
+[Curated heading level=4 type=paragraph_order: LXVII.]
 
 [Margin]
 LXVII.
@@ -17,7 +17,7 @@ Or il y a beaucoup de rencontres où il eſt plus avantageux de nommer une parti
 
 ## THEOREME.
 
-[Curated heading level=4: LXVIII.]
+[Curated heading level=4 type=paragraph_order: LXVIII.]
 
 [Margin]
 LXVIII.

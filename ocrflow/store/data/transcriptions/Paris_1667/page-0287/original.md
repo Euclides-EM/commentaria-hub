@@ -5,7 +5,7 @@
 
 ### DEFINITIONS.
 
-[Curated heading level=4: X.]
+[Curated heading level=4 type=paragraph_order: X.]
 
 [Margin]
 X.
@@ -27,7 +27,7 @@ Mais il faut remarquer que cela ne peut eſtre que quand le nombre des angles ou
 
 ### DEFINITIONS.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.

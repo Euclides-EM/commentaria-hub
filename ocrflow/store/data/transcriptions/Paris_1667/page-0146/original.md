@@ -3,7 +3,7 @@
 
 ## TROISIEME LEMME.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.
@@ -19,7 +19,7 @@ Car en élevant de *g*, *g h* perpendiculaire ſur *x*, & oblique ſur *z*, par 
 
 ## QUATRIEME LEMME.
 
-[Curated heading level=4: VIII.]
+[Curated heading level=4 type=paragraph_order: VIII.]
 
 [Margin]
 VIII.
@@ -31,7 +31,7 @@ Car ſi l'une eſtoit perpendiculaire ſur *x*, & oblique ſur *z*, elle ſeroit
 
 ## CINQUIEME LEMME.
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.

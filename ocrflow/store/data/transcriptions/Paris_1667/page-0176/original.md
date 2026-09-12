@@ -11,7 +11,7 @@ Donc ſi le point où le rayon m c coupe la corde k b eſt h, h ſera auſſy l'
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.
@@ -23,7 +23,7 @@ Cela eſt clair par ce qui vient d'eſtre demonſtré.
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -41,7 +41,7 @@ Car il eſt viſible par la ſolution du 2e Probleme, que dans tous ces cas, ces
 
 ## PREMIER LEMME.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.
@@ -51,7 +51,7 @@ VNE ligne droite eſt perpendiculaire à une circonference, autant que la nature
 
 ## SECOND LEMME.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.

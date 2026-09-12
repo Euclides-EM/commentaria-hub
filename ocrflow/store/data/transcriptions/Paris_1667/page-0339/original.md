@@ -5,7 +5,7 @@
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XLII.]
+[Curated heading level=4 type=paragraph_order: XLII.]
 
 [Margin]
 XLII.
@@ -15,7 +15,7 @@ TROUVER le quarré égal à pluſieurs rectangles donnez , il ne faut que trouve
 
 ## QUATRIEME PROBLEME.
 
-[Curated heading level=4: XLIII.]
+[Curated heading level=4 type=paragraph_order: XLIII.]
 
 [Margin]
 XLIII.
@@ -41,7 +41,7 @@ Donc b b. c c : : m. n.
 
 ## CINQUIEME PROBLEME.
 
-[Curated heading level=4: XLIV.]
+[Curated heading level=4 type=paragraph_order: XLIV.]
 
 [Margin]
 XLIV.
@@ -53,7 +53,7 @@ Ce Probleme a eſté reſolu (XI. 68.) quand on a appris à couper une ligne en 
 
 ## SIXIEME PROBLEME.
 
-[Curated heading level=4: XLV.]
+[Curated heading level=4 type=paragraph_order: XLV.]
 
 [Margin]
 XLV.

@@ -3,7 +3,7 @@
 
 ## SIXIEME COROLLAIRE.
 
-[Curated heading level=4: LVIII.]
+[Curated heading level=4 type=paragraph_order: LVIII.]
 
 [Margin]
 LVIII.
@@ -15,7 +15,7 @@ LES angles circonſcripts au même cercle ſont égaux quand leur ſommet eſt �
 
 ## RECAPITULATION DE LA MESURE DES ANGLES.
 
-[Curated heading level=4: LIX.]
+[Curated heading level=4 type=paragraph_order: LIX.]
 
 [Margin]
 LIX.

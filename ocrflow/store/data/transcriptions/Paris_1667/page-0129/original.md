@@ -7,7 +7,7 @@ Or cela eſtant, il eſt clair que la ligne *k b c* eſtant droitte eſt plus co
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.
@@ -23,7 +23,7 @@ La 2e partie eſt encore tres manifeſte, & ſe peut neanmoins prouver de cette 
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.

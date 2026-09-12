@@ -5,7 +5,7 @@ raiſons égales chacune à chacune de part & d'autre par l'hypotheſe : Donc ce
 
 ### Quatrieme Theoreme.
 
-[Curated heading level=4: X.]
+[Curated heading level=4 type=paragraph_order: X.]
 
 [Margin]
 X.
@@ -34,7 +34,7 @@ Donc *b. d :: m. o.* *Ce qu'il falloit démonſtrer.*
 
 ### Quatrieme Definition.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.
@@ -44,7 +44,7 @@ VNE raiſon compoſée de deux raiſons égales, s'appelle *raiſon doublée* de
 
 ### Cinquieme Definition.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.
@@ -54,7 +54,7 @@ VNE raiſon compoſée de trois raiſons égales, s'appelle *raiſon triplée* d
 
 ### Avertissement.
 
-[Curated heading level=4: XIII.]
+[Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
 XIII.
@@ -64,7 +64,7 @@ IL *ne faut pas confondre une raiſon double ou triple, avec une raiſon doublé
 
 ### Cinquieme Theoreme.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.

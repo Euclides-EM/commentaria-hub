@@ -13,7 +13,7 @@ Car alors dans l'un & dans l'autre angle c d b eſt neceſſairement aigu, par 8
 
 ## Cinquieme Theoreme.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.
@@ -23,7 +23,7 @@ Deux triangles équiangles entr'eux ſont ſemblables. C'eſtadire que les coſt
 
 ## Avertissement et Definition.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.
@@ -43,7 +43,7 @@ Et ces coſtez que l'on doit comparer enſemble s'appellent homologues.
 
 ## Premier Corollaire.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.

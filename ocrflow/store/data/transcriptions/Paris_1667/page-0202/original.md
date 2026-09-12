@@ -21,7 +21,7 @@ Et l'angle FKG, l'angle dans le grand ſegment.
 
 ## SECOND AVERTISSEMENT.
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.
@@ -33,7 +33,7 @@ ON peut encore remarquer qu'au regard de l'angle du ſegment, il faut que la cor
 
 ## TROISIEME AVERTISSEMENT.
 
-[Curated heading level=4: X.]
+[Curated heading level=4 type=paragraph_order: X.]
 
 [Margin]
 X.

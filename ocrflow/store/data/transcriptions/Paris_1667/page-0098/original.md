@@ -11,7 +11,7 @@ Donc *b* eſt à *c* comme nombre à nombre. Et de là il s'enſuit que c'eſt a
 
 ## SECOND LEMME.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.
@@ -23,7 +23,7 @@ Et il faut remarquer que le quarré eſt la 1re puiſſance, qui s'appelle ſimp
 
 ## TROISIEME LEMME.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.
@@ -37,7 +37,7 @@ Soient donc appellez ces plus petits nombres par leſquels chaque raiſon puiſ�
 
 ## QUATRIEME LEMME.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.

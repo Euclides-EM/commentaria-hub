@@ -5,7 +5,7 @@ me point ſont toûjours égales, par le 2ᵉ Probleme.
 
 ## QUATRIEME COROLLAIRE.
 
-[Curated heading level=4: LVI.]
+[Curated heading level=4 type=paragraph_order: LVI.]
 
 [Margin]
 LVI.
@@ -19,7 +19,7 @@ Car ſi on tire deux rayons au point de l'attouchement, on ne pourra conſiderer
 
 ## CINQUIEME COROLLAIRE.
 
-[Curated heading level=4: LVII.]
+[Curated heading level=4 type=paragraph_order: LVII.]
 
 [Margin]
 LVII.

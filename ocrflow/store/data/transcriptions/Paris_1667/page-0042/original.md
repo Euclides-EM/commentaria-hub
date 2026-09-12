@@ -12,7 +12,7 @@ ET enfin on les conſidere comme ayant trois dimenſions lors qu'on ſuppoſe qu
 
 ### SIXIEME SUPPOSITION.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.

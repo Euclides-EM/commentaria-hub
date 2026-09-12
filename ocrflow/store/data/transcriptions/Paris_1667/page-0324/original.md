@@ -7,7 +7,7 @@ C'eſtpourquoy auſſy par tout où une ligne d'une certaine longueur ſe trouve
 
 ## SECOND AXIOME.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.
@@ -21,7 +21,7 @@ On peut encore dire que les coſtez angulaires d'un rectangle pouvant eſtre mar
 
 ## AVERTISSEMENT.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.
@@ -33,7 +33,7 @@ C'eſt ce que nous verrons en peu de mots en commençant par la puiſſance des 
 
 ## DEFINITION.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.

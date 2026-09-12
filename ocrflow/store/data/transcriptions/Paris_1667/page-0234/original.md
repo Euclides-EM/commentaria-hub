@@ -39,7 +39,7 @@ Donc *C c* *D d* } :: *B b*. Ce qu'il falloit demonſtrer.
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.
@@ -49,7 +49,7 @@ Deux angles Iſoſceles eſtant égaux, ils ſont ſemblables, & par conſequent
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.

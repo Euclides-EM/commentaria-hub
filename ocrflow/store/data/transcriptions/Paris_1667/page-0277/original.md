@@ -13,7 +13,7 @@ Et cette mediane de la 2e toute eſt une 3e toute qui a pour ſa mediane la peti
 
 ## SIXIEME PROBLEME.
 
-[Curated heading level=4: LXXIV.]
+[Curated heading level=4 type=paragraph_order: LXXIV.]
 
 [Margin]
 LXXIV.

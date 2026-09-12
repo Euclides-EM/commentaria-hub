@@ -11,7 +11,7 @@ b c.    c d.
 
 ### Premier Theoreme.
 
-[Curated heading level=4: VI.]
+[Curated heading level=4 type=paragraph_order: VI.]
 
 [Margin]
 VI.
@@ -47,7 +47,7 @@ Et je penſe avoir aſſez fait voir dans le 2e Livre que la même choſe ſe tr
 
 ### Second Theoreme.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.

@@ -11,7 +11,7 @@ Et on peut dire auſſy que tout point de la circonference eſt comme le ſommet
 
 ## CINQUIEME THEOREME.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.
@@ -31,7 +31,7 @@ Donc les circuits ne ſçauroient manquer d'eſtre en même raiſon que les coſ
 
 ## SIXIEME THEOREME.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.

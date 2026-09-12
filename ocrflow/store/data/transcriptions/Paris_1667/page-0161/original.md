@@ -5,7 +5,7 @@
 
 DEUX cercles ne ſe peuvent couper en plus de deux points. Car s'ils ſe coupoient en trois, leurs circonferences auroient 3 points communs, & par conſequent les auroient tous, & ainſy ne ſe couperoient point.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.
@@ -13,7 +13,7 @@ V.
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: VI.]
+[Curated heading level=4 type=paragraph_order: VI.]
 
 [Margin]
 VI.
@@ -27,7 +27,7 @@ Soit la corde m n coupée par f h perpendiculairement & par la moitié ; je dis 
 
 ## COROLLAIRE.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.

@@ -7,7 +7,7 @@ Or ſi cela eſtoit, c n ſeroit plus petite que k m, par 44. & 45. ſup. ce qui
 
 ## QUATRIEME THEOREME.
 
-[Curated heading level=4: LII.]
+[Curated heading level=4 type=paragraph_order: LII.]
 
 [Margin]
 LII.
@@ -19,7 +19,7 @@ QUAND il n'y a égalité donnée que dans l'une de ces trois lignes, voicy ce qu
 
 ## CINQUIEME THEOREME.
 
-[Curated heading level=4: LIII.]
+[Curated heading level=4 type=paragraph_order: LIII.]
 
 [Margin]
 LIII.
@@ -33,7 +33,7 @@ Il y a deux parties dont la premiere a eſté prouvée par le corollaire de la p
 
 ## SIXIEME THEOREME.
 
-[Curated heading level=4: LIV.]
+[Curated heading level=4 type=paragraph_order: LIV.]
 
 [Margin]
 LIV.

@@ -3,7 +3,7 @@
 
 ## MESMES COROLLAIRES AUTREMENT PROPOSEZ.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.
@@ -37,7 +37,7 @@ b b.  cc :: b. d.  par III. 26.
 
 ## CINQUIEME COROLLAIRE.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.

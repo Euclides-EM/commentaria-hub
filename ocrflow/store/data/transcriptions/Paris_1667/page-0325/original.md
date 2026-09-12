@@ -5,7 +5,7 @@ gne, comme bb eſt la puiſſance de b, ou bien le rectangle de deux lignes quan
 
 ## DE LA PUISSANCE D'UNE LIGNE COMPAREE AVEC LA PUISSANCE DE SES PARTIES.
 
-[Curated heading level=4: VI.]
+[Curated heading level=4 type=paragraph_order: VI.]
 
 [Margin]
 VI.
@@ -15,7 +15,7 @@ Tout ce qu'on enſeigne de la puiſſance d'une ligne comparée avec la puiſſa
 
 ## TROISIEME AXIOME.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.
@@ -25,7 +25,7 @@ C'est la même choſe de multiplier le tout par le tout, & de multiplier le tout
 
 ## AVERTISSEMENT.
 
-[Curated heading level=4: VIII.]
+[Curated heading level=4 type=paragraph_order: VIII.]
 
 [Margin]
 VIII.

@@ -5,7 +5,7 @@ ainſy l'on aura deux eſpaces paralleles, l'un compris entre le ſommet & *B* (
 
 ## Huitieme Lemme.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.
@@ -27,7 +27,7 @@ Si *C* & *c* ſont également inclinées; *C* dans *A*, & *c* dans *E*, & que *D
 
 ## Neuvieme Lemme.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -39,7 +39,7 @@ Pour ne ſe point broüiller en diſpoſant les termes, il eſt bon de s'aſtrai
 
 ## Des Reciproques.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.

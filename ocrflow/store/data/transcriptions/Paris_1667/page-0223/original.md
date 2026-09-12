@@ -15,7 +15,7 @@ Par la demonſtration generale l'angle *k* a pour meſure la moitié de l'arc co
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: LIII.]
+[Curated heading level=4 type=paragraph_order: LIII.]
 
 [Margin]
 LIII.
@@ -27,7 +27,7 @@ Car de 180 degrez qui en oſte un nombre égal, ce qui reſte eſt égal, & plus
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: LIV.]
+[Curated heading level=4 type=paragraph_order: LIV.]
 
 [Margin]
 LIV.
@@ -41,7 +41,7 @@ Car oſtant cet arc de la demycirconference, ce qui reſtera ſera la meſure du
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: LV.]
+[Curated heading level=4 type=paragraph_order: LV.]
 
 [Margin]
 LV.

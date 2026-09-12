@@ -11,7 +11,7 @@ Donc kf. kd :: kg. kc.
 
 T. p :: T. p.
 
-[Curated heading level=4: LIII.]
+[Curated heading level=4 type=paragraph_order: LIII.]
 
 [Margin]
 LIII.
@@ -33,7 +33,7 @@ T. T :: p. p.
 
 ## VI. THEOREME, COROLLAIRE DU CINQUIEME.
 
-[Curated heading level=4: LIV.]
+[Curated heading level=4 type=paragraph_order: LIV.]
 
 [Margin]
 LIV.

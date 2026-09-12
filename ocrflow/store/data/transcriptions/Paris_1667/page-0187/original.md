@@ -5,7 +5,7 @@
 
 ## DE LA TROISIEME MESURE DE L'ANGLE, QUI EST LE SINUS.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -13,7 +13,7 @@ XXXIV.
 
 LE ſinus de l'arc qui meſure un angle peut eſtre appellé le ſinus de cet angle. D'où il s'enſuit,
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.
@@ -21,7 +21,7 @@ XXXV.
 
 1. QUE comme il n'y a que les arcs moindres que la moitié de la demycirconference qui ayent un ſinus; il n'y a auſſy que les angles aigus qui en ayent. Ce qui n'empeſche pas qu'on ne ſe puiſſe ſervir des ſinus pour comparer enſemble deux angles obtus, en meſurant par les ſinus les angles aigus qui ſont les complemens de ces obtus. Voyez VII. 17.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -33,7 +33,7 @@ Car ſoit k le ſommet d'un angle aigu, & que de b, point quelconque de l'un de 
 
 [Diagram: angle with vertex K, point b on the upper side, perpendicular b c falling on the lower side d K, with a dotted arc from d to b]
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.

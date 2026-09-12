@@ -5,7 +5,7 @@ de cette diagonale on tire deux paralleles aux deux coſtez angulaires du parall
 
 ## SEPTIEME THEOREME.
 
-[Curated heading level=4: LII.]
+[Curated heading level=4 type=paragraph_order: LII.]
 
 [Margin]
 LII.
@@ -25,7 +25,7 @@ Donc ces parallelogrammes ſont equiangles, & ont les coſtez angulaires proport
 
 ## DIVISION DU PARALLELOGRAMME EN SES ESPECES.
 
-[Curated heading level=4: LIII.]
+[Curated heading level=4 type=paragraph_order: LIII.]
 
 [Margin]
 LIII.

@@ -40,7 +40,7 @@ Donc { l. m } ſont commenſurables en ſeconde puiſſance.
 
 ### TROISIEME CAS.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.
@@ -50,7 +50,7 @@ Si la raiſon de la 1re à la 4e grandeur n'eſt pas de nombre à nombre, la 1re
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.

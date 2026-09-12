@@ -5,7 +5,7 @@
 
 ## Second Corollaire.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.
@@ -15,7 +15,7 @@ Deux triangles ſont équiangles, ſi deux angles de l'un ſont égaux aux deux 
 
 ## Sixieme Theoreme.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.
@@ -25,7 +25,7 @@ Lorsque deux triangles ont un angle égal, & les coſtez qui ſoûtiennent ces a
 
 ## Septieme Theoreme.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.
@@ -37,7 +37,7 @@ Cela eſt demonſtré X 20.
 
 ## Huitieme Theoreme.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.

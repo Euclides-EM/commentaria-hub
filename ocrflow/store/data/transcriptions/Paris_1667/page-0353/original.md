@@ -14,7 +14,7 @@ Car { A. E
 
 ## LEMME.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.
@@ -34,7 +34,7 @@ Donc tout triangle eſt la moitié d'un parallelogramme de même baſe & de mêm
 
 ## THEOREME GENERAL.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.

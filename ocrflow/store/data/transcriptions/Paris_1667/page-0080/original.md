@@ -22,7 +22,7 @@
 
 ### AVERTISSEMENT.
 
-[Curated heading level=4: LVII.]
+[Curated heading level=4 type=paragraph_order: LVII.]
 
 [Margin]
 LVII.

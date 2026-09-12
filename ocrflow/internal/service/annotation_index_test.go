@@ -30,22 +30,24 @@ func TestOrderedMarkdownHeaderCategoriesSortsByHeaderLevel(t *testing.T) {
 }
 
 func TestGetIndexFromMarkdownJoinsConsecutiveHeaders(t *testing.T) {
-	categories, locations, err := getIndexFromMarkdown(
+	categories, locations, availableTypes, err := getIndexFromMarkdown(
 		[]int{39},
 		nil,
 		func(page int) (*markdown.Markdown, error) {
 			return &markdown.Markdown{Content: "# NOVVEAVX ELEMENS DE GEOMETRIE.\n\n# LIVRE PREMIER.\n"}, nil
 		},
 		"test markdown",
-		true,
+		[]string{markdown.DefaultIndexType},
 	)
 
 	require.NoError(t, err)
+	require.Equal(t, []string{markdown.DefaultIndexType}, availableTypes)
 	require.Equal(t, []string{"header1"}, categories)
 	require.Equal(t, []categoryPageContent{{
-		page:     39,
-		category: "header1",
-		content:  "NOVVEAVX ELEMENS DE GEOMETRIE. LIVRE PREMIER.",
+		page:      39,
+		category:  "header1",
+		content:   "NOVVEAVX ELEMENS DE GEOMETRIE. LIVRE PREMIER.",
+		indexType: markdown.DefaultIndexType,
 	}}, locations)
 }
 
@@ -148,7 +150,7 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	log.SetOutput(&logs)
 	t.Cleanup(func() { log.SetOutput(originalLogOutput) })
 
-	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil, true)
+	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil, nil)
 	require.NoError(t, err)
 	require.Equal(t, "ds_unprepared", index.DatasetID)
 	require.Equal(t, "ann_unprepared", index.AnnotationID)
@@ -227,7 +229,7 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 		require.NoError(t, os.MkdirAll(filepath.Join(dir, "page-0001"), 0o755))
 		require.NoError(t, os.WriteFile(filepath.Join(dir, "page-0001", "original.md"), []byte(content), 0o644))
 	}
-	writeMarkdownPage(filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "transcriptions"), "# Annotation wins\n\n[Curated heading level=2: Editorial section]\n")
+	writeMarkdownPage(filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "transcriptions"), "# Annotation wins\n\n[Curated heading level=2 type=myType: Parallel section]\n\n[Curated heading level=3: Editorial section]\n")
 	writeMarkdownPage(filepath.Join(baseDir, "transcriptions", "edition_priority"), "# Edition loses\n")
 	annotationAltoDir := filepath.Join(baseDir, "ds_priority", "annotations", "ann_priority", "alto")
 	require.NoError(t, os.MkdirAll(annotationAltoDir, 0o755))
@@ -241,22 +243,26 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
 	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
 
-	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, true)
+	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, nil)
 	require.NoError(t, err)
 	require.Len(t, index.Nodes, 1)
 	require.Equal(t, "Annotation wins", index.Nodes[0].Content)
 	require.Equal(t, "header1", index.Nodes[0].Category)
 	require.Len(t, index.Nodes[0].Children, 1)
 	require.Equal(t, "Editorial section", index.Nodes[0].Children[0].Content)
-	require.Equal(t, "curated-heading2", index.Nodes[0].Children[0].Category)
+	require.Equal(t, "curated-heading3", index.Nodes[0].Children[0].Category)
+	require.Equal(t, markdown.DefaultIndexType, index.Nodes[0].Children[0].Type)
+	require.Equal(t, []string{"default", "myType"}, index.AvailableTypes)
 
-	indexWithoutCuratedHeadings, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, false)
+	combinedIndex, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, []string{"default", "myType"})
 	require.NoError(t, err)
-	require.Len(t, indexWithoutCuratedHeadings.Nodes, 1)
-	require.Empty(t, indexWithoutCuratedHeadings.Nodes[0].Children)
+	require.Len(t, combinedIndex.Nodes[0].Children, 1)
+	require.Equal(t, "Parallel section", combinedIndex.Nodes[0].Children[0].Content)
+	require.Equal(t, "myType", combinedIndex.Nodes[0].Children[0].Type)
+	require.Equal(t, "Editorial section", combinedIndex.Nodes[0].Children[0].Children[0].Content)
 
 	annotationTEI := &AnnotationTEI{annotationSvc: annotationSvc, fileSysMgt: fileSysMgt}
 	text, err := annotationTEI.GetTxt("ds_priority", "ann_priority", "1", nil)
 	require.NoError(t, err)
-	require.Equal(t, "# Annotation wins\n\n[Curated heading level=2: Editorial section]\n", text)
+	require.Equal(t, "# Annotation wins\n\n[Curated heading level=2 type=myType: Parallel section]\n\n[Curated heading level=3: Editorial section]\n", text)
 }

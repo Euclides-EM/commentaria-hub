@@ -3,7 +3,7 @@
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: LXX.]
+[Curated heading level=4 type=paragraph_order: LXX.]
 
 [Margin]
 LXX.
@@ -21,7 +21,7 @@ Donc la ligne *x+b* eſt diviſée par *b* en moyenne & extrême raiſon , puiſ
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: LXXI.]
+[Curated heading level=4 type=paragraph_order: LXXI.]
 
 [Margin]
 LXXI.
@@ -41,7 +41,7 @@ Donc *dividendo x—y. y :: y. x.* Ce qu'il falloit demonſtrer.
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: LXXII.]
+[Curated heading level=4 type=paragraph_order: LXXII.]
 
 [Margin]
 LXXII.
@@ -51,7 +51,7 @@ IL eſt aiſé de conclure de ces deux Corollaires, que lorſqu'on a une ligne d
 
 ## PREUVE DES PLUS GRANDES.
 
-[Curated heading level=4: LXXIII.]
+[Curated heading level=4 type=paragraph_order: LXXIII.]
 
 [Margin]
 LXXIII.

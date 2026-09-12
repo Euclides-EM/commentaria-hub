@@ -5,7 +5,7 @@ eſt la meſure de l'angle au centre.
 
 ## HUITIEME COROLLAIRE.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.
@@ -17,7 +17,7 @@ Car l'angle du grand ſegment eſt appuyé ſur l'arc du petit. Donc il a pour m
 
 ## NEUVIEME COROLLAIRE.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.
@@ -33,7 +33,7 @@ Cela eſt clair par le 2e Lemme.
 
 ## DIXIEME COROLLAIRE.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -43,7 +43,7 @@ Les angles inſcrits en deux ſegmens oppoſez ſont égaux à deux droits. Car 
 
 ## ONZIEME COROLLAIRE.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.
@@ -53,7 +53,7 @@ Si quatre cordes ne ſe joignent qu'aux extremitez, ils font quatre angles inſc
 
 ## DOUZIEME COROLLAIRE.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.
@@ -63,7 +63,7 @@ L'angle aigu qui eſt dans le grand ſegment eſt le complement de l'obtus qui e
 
 ## TREIZIEME COROLLAIRE.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.

@@ -7,7 +7,7 @@ n c B & c n m ſont égaux, parce qu'ils ſont appuyez ſur des arcs égaux. Don
 
 ## I.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -25,7 +25,7 @@ Car la diſtance eſtant donnée de ce ſommet à l'hypothenuſe, il ne ſe peut
 
 ## SECOND PROBLEME.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.

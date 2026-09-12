@@ -15,7 +15,7 @@ b + d — f = — g.
 
 C'eſt à dire ſera moins que rien. Ce qui ſemble impoſſible à concevoir, quoy que cela ne ſoit pas ſans exemple même dans le langage commun, puis qu'on dit d'un homme endebté qu'il s'en faut vingt mille eſcus qu'il n'ait un ſou.
 
-[Curated heading level=4: LXIX.]
+[Curated heading level=4 type=paragraph_order: LXIX.]
 
 [Margin]
 LXIX.

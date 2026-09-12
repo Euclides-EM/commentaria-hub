@@ -5,7 +5,7 @@ deux angles peuvent eſtre compris dans le même eſpace parallele. Car mettant 
 
 ### HUITIEME LEMME.
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.
@@ -17,7 +17,7 @@ Et au contraire les eſpaces paralleles ſont égaux quand les également inclin
 
 ### NEUVIEME LEMME.
 
-[Curated heading level=4: X.]
+[Curated heading level=4 type=paragraph_order: X.]
 
 [Margin]
 X.
@@ -27,7 +27,7 @@ LORS qu'une même ligne eſt coupée par pluſieurs lignes toutes paralleles, to
 
 ### DIXIEME LEMME.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.
@@ -37,7 +37,7 @@ LORS qu'il y a proportion entre quatre lignes, on dit que deux de ces lignes ſo
 
 ### PROPOSITION FONDAMENTALE DES LIGNES PROPORTIONELLES.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.

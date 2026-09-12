@@ -3,7 +3,7 @@
 
 ## PREMIERE PREUVE DANS LA PREMIERE DISPOSITION DES ANTIPARALLELES.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.
@@ -23,7 +23,7 @@ Donc une toute & ſa partie ſont reciproques à l'autre toute & à ſa partie.
 
 ## SECONDE PREUVE DANS LA SECONDE DISPOSITION DES ANTIPARALLELES.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.
@@ -41,7 +41,7 @@ Je reſerve la 3e diſpoſition pour un Corollaire à part.
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.

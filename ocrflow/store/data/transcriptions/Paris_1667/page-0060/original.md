@@ -15,7 +15,7 @@ DE LA COMPARAISON DES GRANDEURS.
 
 ### DEFINITIONS ET DIVISIONS.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.
@@ -23,7 +23,7 @@ I.
 
 {dropcap:L|lines=6|style=decorated|decoration="woodcut initial with human figure and foliate ornament"}Es grandeurs de meſme genre s'appellent *homogenes*, comme deux nombres, deux lignes, deux ſurfaces.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.
@@ -31,7 +31,7 @@ II.
 
 DE divers genres *eterogenes*, comme un nombre & une ligne; une ſurface & un ſolide.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.
@@ -39,7 +39,7 @@ III.
 
 QUAND on compare deux grandeurs homogenes enſemble, le premier terme de cette comparaiſon s'appelle *antecedent*: & le ſecond *conſequent*.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.

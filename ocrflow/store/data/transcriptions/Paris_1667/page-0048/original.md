@@ -6,7 +6,7 @@ les trouve.
 
 A 2 *b* + 3 *c*. ajoûter 3 *m* + 4 *n*. } Somme 2 *b* + 3 *c* + 3 *m* + 4 *n*.
 
-[Curated heading level=4: XLVII.]
+[Curated heading level=4 type=paragraph_order: XLVII.]
 
 [Margin]
 XLVII.
@@ -16,7 +16,7 @@ LA ſomme eſtant trouvée, ſi le même terme s'y trouve pluſieurs fois, on pe
 
 ## SOVSTRACTION DES GRANDEURS COMPLEXES.
 
-[Curated heading level=4: XLVIII.]
+[Curated heading level=4 type=paragraph_order: XLVIII.]
 
 [Margin]
 XLVIII.
@@ -28,7 +28,7 @@ De *b* + *c*. oſter *m* + *n*. } reſte *b* + *c* — *m* — *n*.
 
 De *b* + *c*. oſter *m* — *n* + *o*. } reſte *b* + *c* — *m* + *n* — *o*.
 
-[Curated heading level=4: XLIX.]
+[Curated heading level=4 type=paragraph_order: XLIX.]
 
 [Margin]
 XLIX.

@@ -9,7 +9,7 @@ Les coſtez des figures ſemblables, entre leſquels il y a même raiſon, s'app
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.
@@ -29,7 +29,7 @@ Les trois d'une part (qui font le circuit de la premiere figure) ſont aux trois
 
 ## AUTRES DEFINITIONS.
 
-[Curated heading level=4: XIII.]
+[Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
 XIII.

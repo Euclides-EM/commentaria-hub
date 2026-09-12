@@ -9,7 +9,7 @@ Les Geometres ſe ſont reſtraints à conſiderer les dernieres, parcequ'on y p
 
 ## ESPECES DES FIGURES RECTILIGNES.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.
@@ -37,7 +37,7 @@ Ces noms ſont ſi communs, qu'il eſt bon de ne les pas ignorer; mais on peut �
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: VIII.]
+[Curated heading level=4 type=paragraph_order: VIII.]
 
 [Margin]
 VIII.

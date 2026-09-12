@@ -19,7 +19,7 @@ Le raion eſt au raion, comme le raion droit à un raion droit, & la moitié du 
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.
@@ -31,7 +31,7 @@ Car ces diametres ſont le double des raions de ces figures. Donc &c.
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.

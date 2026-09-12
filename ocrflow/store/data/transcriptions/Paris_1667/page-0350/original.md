@@ -3,7 +3,7 @@
 
 ## PROPOSITION FONDAMENTALE DE LA MESURE DES PARALLELOGRAMMES, ET DES TRIANGLES.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.
@@ -21,7 +21,7 @@ Car *b c* eſtant égale tant à *d f* qu'à *m n*, *d f* eſt égale à *m n*. 
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.
@@ -33,7 +33,7 @@ Car ils ont tous pour leur meſure commune le même rectangle de cette hauteur &
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XIII.]
+[Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
 XIII.
@@ -47,7 +47,7 @@ On peut auſſy prouver ce 2e Corollaire par le premier de la même façon qu'on
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.

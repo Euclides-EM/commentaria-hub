@@ -5,7 +5,7 @@ abſolüe, mais proportionelle, puiſque, comme nous avons déja dit, il ſignif
 
 ## DE L'ANGLE DROIT.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.
@@ -23,7 +23,7 @@ On appelle angle droit celuy qui a pour meſure la moitié de la demycirconferen
 
 ## DE L'ANGLE AIGU.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.
@@ -35,7 +35,7 @@ Que tout angle moindre que de 90. degrez eſt aigu.
 
 ## DE L'ANGLE OBTUS.
 
-[Curated heading level=4: XIII.]
+[Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
 XIII.

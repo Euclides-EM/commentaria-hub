@@ -47,10 +47,11 @@ func (n ABNode) MarshalXML(e *xml.Encoder, _ xml.StartElement) error {
 
 // AB is a block of text (TEI ab). Use either Segs (one seg per line) or Nodes (mixed content with lb).
 type AB struct {
-	XmlID string `xml:"xml:id,attr,omitempty"`
-	Facs  string `xml:"facs,attr,omitempty"`
-	Type  string `xml:"type,attr,omitempty"`
-	N     string `xml:"n,attr,omitempty"`
+	XmlID   string `xml:"xml:id,attr,omitempty"`
+	Facs    string `xml:"facs,attr,omitempty"`
+	Type    string `xml:"type,attr,omitempty"`
+	Subtype string `xml:"subtype,attr,omitempty"`
+	N       string `xml:"n,attr,omitempty"`
 
 	Lines []L `xml:"l,omitempty"`
 }

@@ -5,7 +5,7 @@ de le multiplier par *x* + *q* , qui eſt égal à *p* ; c'eſt à dire que *b p
 
 ET par conſequent la premiere multiplication partiale donnant pour produit *b p* , qui eſt égal à *b x* + *b q* , comme la multiplication totale ne doit valoir que *b x* , il faut oſter *b q* de *b p* , afin qu'il ne vaille que *b x*. Et c'eſt ce qu'on fait en mettant le ſigne negatif à la ſeconde multiplication partiale qui donne *p q* , & ainſi le produit de *b*. *p* — *q*. } eſt *b p* — *b q*.
 
-[Curated heading level=4: LIX.]
+[Curated heading level=4 type=paragraph_order: LIX.]
 
 [Margin]
 LIX.
@@ -19,7 +19,7 @@ OR par le 5ᵉ principe + *b d* — *b d* ne valent rien , & par conſequent les
 
 ## TROISIEME REGLE.
 
-[Curated heading level=4: LX.]
+[Curated heading level=4 type=paragraph_order: LX.]
 
 [Margin]
 LX.
@@ -29,7 +29,7 @@ MOINS en *moins* donne *plus* : c'eſt à dire que la multiplication de deux ter
 
 *b* — *d*. } *p* — *q*. } *b p* — *b q* — *p d* + *d q*.
 
-[Curated heading level=4: LXI.]
+[Curated heading level=4 type=paragraph_order: LXI.]
 
 [Margin]
 LXI.

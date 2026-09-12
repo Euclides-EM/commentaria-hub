@@ -5,7 +5,7 @@
 
 ## DES INSCRITTES.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.
@@ -19,7 +19,7 @@ On dit qu'une figure rectiligne eſt *inſcritte au cercle*, quand les ſommets 
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.

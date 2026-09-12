@@ -5,7 +5,7 @@ Le prolongement de *p* juſqu'à la rencontre de *B* ſera la 4ᵉ que l'on cher
 
 p. q :: *p*. *q*.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.
@@ -25,7 +25,7 @@ p. T :: *p*. *T*.
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -35,7 +35,7 @@ Trouver une 3ᵉ proportionelle, c'eſtadire faire que l'une des deux données �
 
 ## SECOND PROBLEME.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.

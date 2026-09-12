@@ -13,7 +13,7 @@ par la definition 3e.
 
 ### Troisieme Theoreme.
 
-[Curated heading level=4: VIII.]
+[Curated heading level=4 type=paragraph_order: VIII.]
 
 [Margin]
 VIII.
@@ -23,7 +23,7 @@ DES grandeurs homogenes quelconques eſtant données en quelque nombre que ce ſ
 
 ### Corollaire.
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.

@@ -1,7 +1,7 @@
 <!-- Page number: 338 -->
 <!-- Running title: EXPLICATION -->
 
-[Curated heading level=4: LVIII.]
+[Curated heading level=4 type=paragraph_order: LVIII.]
 
 [Margin]
 LVIII.
@@ -23,7 +23,7 @@ Voicy un exemple de la 6ᵉ diſpoſition, & un autre de la 16ᵉ. On laiſſe �
 
 ## DEMONSTRATION.
 
-[Curated heading level=4: LIX.]
+[Curated heading level=4 type=paragraph_order: LIX.]
 
 [Margin]
 LIX.

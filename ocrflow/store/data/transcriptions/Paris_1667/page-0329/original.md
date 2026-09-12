@@ -9,7 +9,7 @@ Donc par la definition de l'égalité des raiſons b c & b d ſont en même rai�
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.
@@ -23,7 +23,7 @@ b c.  m n :: b.  m + c.  n.
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -41,7 +41,7 @@ Donc cette raiſon eſt doublée de chacune, par la definition de la raiſon dou
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.
@@ -53,7 +53,7 @@ Et ainſy ſi b eſt double de d, bb eſt quadruple de dd.
 
 ## QUATRIEME COROLLAIRE.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.

@@ -3,7 +3,7 @@
 
 ## CINQUIEME COROLLAIRE.
 
-[Curated heading level=4: XLVI.]
+[Curated heading level=4 type=paragraph_order: XLVI.]
 
 [Margin]
 XLVI.
@@ -15,7 +15,7 @@ Car qui connoiſt un angle, les connoiſt tous; & qui connoiſt deux coſtez ang
 
 ## PROBLEME.
 
-[Curated heading level=4: XLVII.]
+[Curated heading level=4 type=paragraph_order: XLVII.]
 
 [Margin]
 XLVII.
@@ -27,7 +27,7 @@ Les deux coſtez angulaires comprenant cet angle, de l'extremité du plus petit 
 
 ## CINQUIEME THEOREME.
 
-[Curated heading level=4: XLVIII.]
+[Curated heading level=4 type=paragraph_order: XLVIII.]
 
 [Margin]
 XLVIII.
@@ -39,7 +39,7 @@ Car l'égalité d'un angle donne celle des autres; & deux coſtez angulaires ne 
 
 ## DEFINITION.
 
-[Curated heading level=4: XLIX.]
+[Curated heading level=4 type=paragraph_order: XLIX.]
 
 [Margin]
 XLIX.
@@ -51,7 +51,7 @@ LA ligne qui joint deux angles oppoſez s'appelle *Diagonale*, & elle diviſe le
 
 ## SIXIEME THEOREME.
 
-[Curated heading level=4: L.]
+[Curated heading level=4 type=paragraph_order: L.]
 
 [Margin]
 L.
@@ -65,7 +65,7 @@ Demonſtré X. 16.
 
 ## DEFINITION.
 
-[Curated heading level=4: LI.]
+[Curated heading level=4 type=paragraph_order: LI.]
 
 [Margin]
 LI.

@@ -9,7 +9,7 @@ La 1re eſt quand ce ſont les angles alternes qui ſont égaux ſur les deux ba
 
 [Figure: two crossing lines with bases above and below, labelled b, q, q, P, *p* and B]
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.
@@ -23,7 +23,7 @@ Ce ſont encore ces baſes que nous appellerons *antiparalleles*, pour marquer l
 
 ## Sixieme Lemme.
 
-[Curated heading level=4: X.]
+[Curated heading level=4 type=paragraph_order: X.]
 
 [Margin]
 X.

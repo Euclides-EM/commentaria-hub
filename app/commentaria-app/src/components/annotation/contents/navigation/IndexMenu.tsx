@@ -136,7 +136,7 @@ const Node = ({
         >
           {isCurated && (
             <span className="mr-1.5 rounded border border-violet-300 bg-violet-50 px-1 py-0.5 text-[0.6rem] font-semibold uppercase tracking-wide text-violet-700">
-              Curated
+              Curated{node.type ? ` · ${node.type}` : ''}
             </span>
           )}
           <span className={isCurated ? 'text-violet-950' : undefined}>
@@ -186,20 +186,18 @@ export function IndexMenu({
   const [expandedNodeKeys, setExpandedNodeKeys] = useState<Set<string>>(
     () => new Set(),
   )
-  const [includeCuratedHeadings, setIncludeCuratedHeadings] =
-    useLocalStorageState('indexIncludeCuratedHeadings', {
-      defaultValue: true,
+  const [indexTypes, setIndexTypes] = useLocalStorageState<string[]>(
+    `indexTypes.${state.datasetId}.${state.annotationId}`,
+    {
+      defaultValue: ['default'],
       storageSync: false,
-    })
+    },
+  )
   const {
     data: annotationIndex,
     isLoading,
     error,
-  } = useAnnotationIndexQuery(
-    state.datasetId,
-    state.annotationId,
-    includeCuratedHeadings,
-  )
+  } = useAnnotationIndexQuery(state.datasetId, state.annotationId, indexTypes)
   const normalizedSearchTerm = searchTerm.trim()
   const navigationNodes = useMemo(
     () =>
@@ -238,15 +236,31 @@ export function IndexMenu({
 
   return (
     <div className="flex flex-col min-h-0 h-full">
-      <label className="mx-3 mb-2 flex cursor-pointer items-center gap-2 text-xs text-gray-600">
-        <input
-          type="checkbox"
-          checked={includeCuratedHeadings}
-          onChange={(event) => setIncludeCuratedHeadings(event.target.checked)}
-          className="accent-violet-600"
-        />
-        Include curated headings
-      </label>
+      <fieldset className="mx-3 mb-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-600">
+        <legend className="mr-1 font-medium">Index layers</legend>
+        {(annotationIndex?.available_types ?? ['default']).map((indexType) => (
+          <label
+            className="flex cursor-pointer items-center gap-1.5"
+            key={indexType}
+          >
+            <input
+              type="checkbox"
+              checked={indexTypes.includes(indexType)}
+              onChange={(event) => {
+                if (event.target.checked) {
+                  setIndexTypes([...new Set([...indexTypes, indexType])])
+                } else if (indexTypes.length > 1) {
+                  setIndexTypes(
+                    indexTypes.filter((value) => value !== indexType),
+                  )
+                }
+              }}
+              className="accent-violet-600"
+            />
+            {indexType.replaceAll('_', ' ')}
+          </label>
+        ))}
+      </fieldset>
       {isLoading ? (
         <LoadingSpinner size="sm" message="Loading index..." />
       ) : error ? (

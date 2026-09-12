@@ -5,7 +5,7 @@ dont la difference eſt moindre avec cette troiſiéme grandeur, a une plus gran
 
 ### Second Axiome.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.
@@ -15,7 +15,7 @@ Deux raiſons eſtant égales à deux raiſons inégales chacune à chacune, cel
 
 ### Probleme.
 
-[Curated heading level=4: XL.]
+[Curated heading level=4 type=paragraph_order: XL.]
 
 [Margin]
 XL.
@@ -39,7 +39,7 @@ Comme donc ces deux raiſons b n. c n. & m c. c n. ont un terme commun, ſçavoi
 
 ### Avertissement.
 
-[Curated heading level=4: XLI.]
+[Curated heading level=4 type=paragraph_order: XLI.]
 
 [Margin]
 XLI.

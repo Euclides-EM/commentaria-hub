@@ -5,7 +5,7 @@ Car d'un angle quelconque tirant deux lignes de part & d'autre, qui ſoûtienne 
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.

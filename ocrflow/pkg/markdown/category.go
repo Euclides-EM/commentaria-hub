@@ -2,50 +2,76 @@ package markdown
 
 import (
 	"fmt"
+	"slices"
 	"strings"
 )
 
-func ExtractCategoryContentsFromMarkdown(md *Markdown, categories []string, lineBreakSeperator string, includeCuratedHeadings bool) ([]Category, error) {
+// ExtractIndexContentsFromMarkdown returns headings in the requested index
+// layers and, in the same pass, all layer names present in the document.
+// Printed headings and untyped curated headings belong to the default layer.
+func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []string) ([]Category, []string, error) {
 	if md == nil {
-		return nil, nil
+		return nil, []string{DefaultIndexType}, nil
 	}
 
-	allowed := make(map[string]struct{}, len(categories))
-	for _, c := range categories {
-		allowed[c] = struct{}{}
+	allowedCategories := make(map[string]struct{}, len(categories))
+	for _, category := range categories {
+		allowedCategories[category] = struct{}{}
+	}
+	selectedTypes := make(map[string]struct{}, len(indexTypes))
+	for _, indexType := range indexTypes {
+		selectedTypes[indexType] = struct{}{}
+	}
+	if len(selectedTypes) == 0 {
+		selectedTypes[DefaultIndexType] = struct{}{}
 	}
 
+	available := map[string]struct{}{DefaultIndexType: {}}
 	var results []Category
 	lines := strings.Split(md.Content, "\n")
 	for i := 0; i < len(lines); i++ {
-		line := lines[i]
-		category := ""
-		content := ""
+		category, content, indexType := "", "", DefaultIndexType
 		if level, headingContent, next := ParseHeaderBlock(lines, i); level > 0 {
 			category = fmt.Sprintf("%s%d", HeaderPrefix, level)
 			content = headingContent
 			i = next - 1
-		} else if level, headingContent := ParseCuratedHeading(line); includeCuratedHeadings && level > 0 {
-			category = fmt.Sprintf("%s%d", CuratedHeadingPrefix, level)
-			content = headingContent
+		} else if heading, ok := ParseTypedCuratedHeading(lines[i]); ok {
+			category = fmt.Sprintf("%s%d", CuratedHeadingPrefix, heading.Level)
+			content = heading.Text
+			indexType = heading.Type
+			available[indexType] = struct{}{}
 		}
 		if category == "" {
 			continue
 		}
-		if len(allowed) > 0 {
-			if _, ok := allowed[category]; !ok {
+		if _, ok := selectedTypes[indexType]; !ok {
+			continue
+		}
+		if len(allowedCategories) > 0 {
+			if _, ok := allowedCategories[category]; !ok {
 				continue
 			}
 		}
 		results = append(results, Category{
-			Category: category,
-			Content:  ExpandDropcaps(content),
+			Category:  category,
+			Content:   ExpandDropcaps(content),
+			IndexType: indexType,
 		})
 	}
-	return results, nil
+
+	availableTypes := make([]string, 0, len(available))
+	for indexType := range available {
+		availableTypes = append(availableTypes, indexType)
+	}
+	slices.Sort(availableTypes)
+	if i := slices.Index(availableTypes, DefaultIndexType); i > 0 {
+		availableTypes[0], availableTypes[i] = availableTypes[i], availableTypes[0]
+	}
+	return results, availableTypes, nil
 }
 
 type Category struct {
-	Category string
-	Content  string
+	Category  string
+	Content   string
+	IndexType string
 }

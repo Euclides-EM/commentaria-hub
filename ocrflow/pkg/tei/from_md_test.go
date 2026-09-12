@@ -57,6 +57,8 @@ func TestMarkdownBlocksUseCanonicalDialect(t *testing.T) {
 
 [Curated heading level=2: Editorial division]
 
+[Curated heading level=3 type=myType: Parallel division]
+
 [Subhead]
 Printed qualification of the heading
 [/Subhead]
@@ -86,7 +88,7 @@ label
 `}
 	abs := markdownBlocksToABs("12", md)
 	wantTypes := []string{
-		"running-title", "header1", "curated-heading", "subhead", "margin", "other:binding", "diagram",
+		"running-title", "header1", "curated-heading", "curated-heading", "subhead", "margin", "other:binding", "diagram",
 		"illustration", "calculation", "blank-page", "table",
 	}
 	if len(abs) != len(wantTypes) {
@@ -100,13 +102,16 @@ label
 	if abs[2].N != "2" || inlineText(abs[2].Lines[0].Nodes) != "Editorial division" {
 		t.Errorf("curated heading = %#v", abs[2])
 	}
-	if got := inlineText(abs[3].Lines[0].Nodes); got != "Printed qualification of the heading" {
+	if abs[3].N != "3" || abs[3].Subtype != "myType" || inlineText(abs[3].Lines[0].Nodes) != "Parallel division" {
+		t.Errorf("typed curated heading = %#v", abs[3])
+	}
+	if got := inlineText(abs[4].Lines[0].Nodes); got != "Printed qualification of the heading" {
 		t.Errorf("subhead = %q", got)
 	}
-	if got := inlineText(abs[6].Lines[0].Nodes); got != "circle labelled A" {
+	if got := inlineText(abs[7].Lines[0].Nodes); got != "circle labelled A" {
 		t.Errorf("diagram description = %q", got)
 	}
-	if got := inlineText(abs[10].Lines[1].Nodes); got != "2|2 | x" {
+	if got := inlineText(abs[11].Lines[1].Nodes); got != "2|2 | x" {
 		t.Errorf("table row = %q", got)
 	}
 }
@@ -154,6 +159,20 @@ Body text.`}, nil)
 	}
 	if strings.Contains(xmlText, "[Subhead]") || strings.Contains(xmlText, "[/Subhead]") {
 		t.Fatalf("Markdown subhead markers leaked into TEI:\n%s", xmlText)
+	}
+}
+
+func TestTypedCuratedHeadingPreservesLayerInTEI(t *testing.T) {
+	doc, err := BuildTEIFromMarkdown("7", &markdown.Markdown{Content: "[Curated heading type=myType level=2: Parallel section]"}, nil)
+	if err != nil {
+		t.Fatalf("BuildTEIFromMarkdown() error = %v", err)
+	}
+	xmlBytes, err := doc.ToXML()
+	if err != nil {
+		t.Fatalf("ToXML() error = %v", err)
+	}
+	if !strings.Contains(string(xmlBytes), `type="curated-heading" subtype="myType" n="2"`) {
+		t.Fatalf("typed curated heading attributes missing from TEI:\n%s", xmlBytes)
 	}
 }
 

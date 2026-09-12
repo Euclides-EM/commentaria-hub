@@ -3,7 +3,7 @@
 
 ## QUINZIEME COROLLAIRE.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.
@@ -15,7 +15,7 @@ Car chaque demycercle eſt capable de cet angle droit. Donc par le Corollaire pr
 
 ## SEIZIEME COROLLAIRE.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -31,7 +31,7 @@ Et il ſe trouvera au dedans du demycercle ſi elle eſt plus courte. Donc l'ang
 
 ## DIX-SEPTIEME COROLLAIRE.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.

@@ -7,7 +7,7 @@
 
 ## DE LA LIGNE DROITE.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.
@@ -21,7 +21,7 @@ Et celle qui approche plus de la droite, eſt auſſi la plus courte: ce qui a d
 
 ### PREMIER AXIOME.
 
-[Curated heading level=4: VI.]
+[Curated heading level=4 type=paragraph_order: VI.]
 
 [Margin]
 VI.

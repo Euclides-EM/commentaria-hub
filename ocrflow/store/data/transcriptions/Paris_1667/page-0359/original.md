@@ -5,7 +5,7 @@ droit, & de la moitié du perimetre. Or le raion droit eſt au raion droit comme
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -15,7 +15,7 @@ LEs cercles ſont entr'eux en raiſon doublée de celle de leurs raions, ou de l
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.
@@ -25,7 +25,7 @@ LEs cercles ſont entr'eux comme les quarrez de leurs diametres. Car les uns & l
 
 ## QUATRIEME THEOREME.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.
@@ -45,7 +45,7 @@ Donc ils ſont auſſy entr'eux comme les cercles & comme les quarrez des diamet
 
 ## CINQUIEME THEOREME.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.

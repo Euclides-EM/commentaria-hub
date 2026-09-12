@@ -7,7 +7,7 @@ Il faut donc bien prendre garde que les lignes ( par le rapport deſquelles on d
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.

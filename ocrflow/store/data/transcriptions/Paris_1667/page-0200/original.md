@@ -5,7 +5,7 @@
 
 ## Quatrieme Lemme.
 
-[Curated heading level=4: VI.]
+[Curated heading level=4 type=paragraph_order: VI.]
 
 [Margin]
 VI.
@@ -25,7 +25,7 @@ Enfin il ſe faut ſouvenir,
 
 ## Division.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.

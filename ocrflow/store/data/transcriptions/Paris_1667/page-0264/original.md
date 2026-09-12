@@ -10,7 +10,7 @@ T.  m : :  m.  p.
 
 ## SECONDE COMPARAISON.
 
-[Curated heading level=4: XLVI.]
+[Curated heading level=4 type=paragraph_order: XLVI.]
 
 [Margin]
 XLVI.
@@ -29,7 +29,7 @@ T.  m : :  m.  p.
 
 ## SECOND CAS.
 
-[Curated heading level=4: XLVII.]
+[Curated heading level=4 type=paragraph_order: XLVII.]
 
 [Margin]
 XLVII.
@@ -39,7 +39,7 @@ Le 2ᵉ Cas de la propoſition principale ( §. 39. ) eſt quand la ligne *y* to
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: XLVIII.]
+[Curated heading level=4 type=paragraph_order: XLVIII.]
 
 [Margin]
 XLVIII.

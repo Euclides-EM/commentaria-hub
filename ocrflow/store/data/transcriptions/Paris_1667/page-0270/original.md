@@ -29,7 +29,7 @@ Kk
 
 ## DIXIEME THEOREME.
 
-[Curated heading level=4: LX.]
+[Curated heading level=4 type=paragraph_order: LX.]
 
 [Margin]
 LX.
@@ -41,7 +41,7 @@ TOUTE ligne qui coupant perpendiculairement l'hypotenuſe d'un angle droit en co
 
 ## DERNIER THEOREME.
 
-[Curated heading level=4: LXI.]
+[Curated heading level=4 type=paragraph_order: LXI.]
 
 [Margin]
 LXI.

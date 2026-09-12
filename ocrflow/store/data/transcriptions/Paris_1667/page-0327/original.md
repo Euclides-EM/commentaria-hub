@@ -7,7 +7,7 @@ Soit T comme auparavant diviſé en 5 parties b. c. d. f. g. il eſt clair par l
 
 ## QUATRIEME THEOREME.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.
@@ -29,7 +29,7 @@ Soit T comme auparavant diviſée en b, c, d, f, g, par le 1ᵉʳ Theoreme ayant
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XIII.]
+[Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
 XIII.

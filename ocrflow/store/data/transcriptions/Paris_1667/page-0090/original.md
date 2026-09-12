@@ -3,7 +3,7 @@
 
 ### Second Corollaire.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.
@@ -15,7 +15,7 @@ C'eſt la même choſe que la propoſition generale.
 
 ### Troisieme Corollaire.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.
@@ -33,7 +33,7 @@ Cela eſt clair par liu. 11. 33. Et par le 1er & 2e Corollaire, joint à 13. ſu
 
 ### Quatrieme Corollaire.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.
@@ -43,7 +43,7 @@ Les plans dont les deux dimenſions ont même raiſon chacune de l'un à chacune
 
 ### Cinquieme Corollaire.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.
@@ -55,7 +55,7 @@ Cela eſt encore clair par le 2e Corollaire, & la definition de la raiſon tripl
 
 ### Sixieme Corollaire.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.
@@ -67,7 +67,7 @@ Car toutes les dimenſions des quarrez & des cubes eſtant égales entr'elles, e
 
 ### Septieme Corollaire.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.

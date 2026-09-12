@@ -13,7 +13,7 @@ DES RAISONS COMPOSEES, D'OV DEPEND LA PROPORTION DES GRANDEVRS PLANES ET SOLIDES
 
 ### Premiere Definition.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.
@@ -29,7 +29,7 @@ Il ne faut que multiplier *b* par *f*, ce qui donne *b f* & *c* par *g* ce qui d
 
 ### Seconde Definition.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.

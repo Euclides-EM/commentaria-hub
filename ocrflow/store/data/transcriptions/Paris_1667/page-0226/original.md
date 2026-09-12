@@ -9,7 +9,7 @@
 
 ## DES LIGNES PROPORTIONELLES.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.
@@ -19,7 +19,7 @@ I.
 
 ### PREMIER LEMME. DEFINITION.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.
@@ -29,7 +29,7 @@ UN eſpace compris d'une part entre deux paralleles & indefiny de l'autre, ſoit
 
 ### SECOND LEMME. DEFINITION.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.
@@ -41,7 +41,7 @@ Et delà il s'enſuit que ces eſpaces ſont égaux quand les perpendiculaires d
 
 ### TROISIEME LEMME. DEFINITION.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.

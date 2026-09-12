@@ -15,7 +15,7 @@
 
 ### DEFINITIONS.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.

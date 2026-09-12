@@ -5,7 +5,7 @@ ment, ſi c'eſt dans des cercles inégaux. Ce qu'il faut auſſy ſuppoſer dan
 
 ## QUATRIEME COROLLAIRE.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.
@@ -17,7 +17,7 @@ Car les angles inſcrits en divers cercles ne ſçauroient eſtre égaux, qu'ils
 
 ## CINQUIEME COROLLAIRE.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.
@@ -29,7 +29,7 @@ Lorsque deux cercles dont l'un eſt au dedans de l'autre ſe touchent, ſi du po
 
 ## SIXIEME COROLLAIRE.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.
@@ -41,7 +41,7 @@ Si un cercle a pour centre un point de la circonference d'un autre cercle, & que
 
 ## SEPTIEME COROLLAIRE.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.

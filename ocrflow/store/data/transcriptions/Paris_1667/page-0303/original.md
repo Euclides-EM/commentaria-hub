@@ -15,7 +15,7 @@ rence: & alors chacun des angles du triangle eſt aigu. (IX. 25.) Et il eſt cla
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.
@@ -29,7 +29,7 @@ Que ſi au contraire on ſuppoſoit les trois angles égaux, on prouveroit de la
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: X.]
+[Curated heading level=4 type=paragraph_order: X.]
 
 [Margin]
 X.

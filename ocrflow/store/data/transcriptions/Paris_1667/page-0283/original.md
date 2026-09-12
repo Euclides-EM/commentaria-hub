@@ -9,7 +9,7 @@
 
 ## DES FIGURES EN GENERAL CONSIDERE'ES SELON LEURS ANGLES ET LEURS COSTEZ.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.
@@ -23,7 +23,7 @@ Ce qui comprend deux choſes: la premiere, les extremitez de cette ſurface : la
 
 ## DIVISION.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.
@@ -39,7 +39,7 @@ Ou mixte.
 
 ## PREMIERE DEFINITION.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.

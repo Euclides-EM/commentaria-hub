@@ -22,7 +22,7 @@
 
 ### PREMIER LEMME.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.
@@ -32,7 +32,7 @@ IE ſuppoſe que l'on ſçait qu'une aliquote, qui s'appelle une fraction dans l
 
 ### SECOND LEMME.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.
@@ -48,7 +48,7 @@ t. ¼ :: 4. 1.
 
 ### TROISIEME LEMME.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.

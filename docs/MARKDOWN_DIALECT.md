@@ -313,6 +313,10 @@ Editorial structural annotations use a single annotation:
 
 [Curated heading level=1: Dedications]
 
+They may optionally identify a parallel index layer:
+
+[Curated heading level=1 type=myType: Dedications]
+
 ## 3. Main text
 
 Represent ordinary body text as plain Markdown paragraphs.
@@ -379,15 +383,37 @@ Represent a curated heading as:
 
 [Curated heading level=N: TEXT]
 
+or, for a named parallel hierarchy:
+
+[Curated heading level=N type=TYPE: TEXT]
+
+The `level` and `type` attributes MAY appear in either order, so
+`[Curated heading type=TYPE level=N: TEXT]` is equivalent.
+
 where:
 
 * `level` is REQUIRED and gives the structural level of the heading as a positive
   integer;
+* `type` is OPTIONAL and assigns the heading to the named parallel index layer;
+  it MUST begin with an ASCII letter or digit and may then contain ASCII letters,
+  digits, `.`, `_` or `-`;
 * `TEXT` is REQUIRED and gives the editorially supplied heading text.
 
 For example:
 
 [Curated heading level=1: Dedications]
+
+[Curated heading level=1 type=genre: Mathematical books]
+
+An untyped curated heading belongs to the `default` index layer together with
+printed Markdown headings. A typed curated heading belongs only to its named layer.
+The name `default` is reserved and MUST NOT be written as an explicit `type` value;
+omit `type` instead.
+
+Named layers make it possible to curate several parallel hierarchical structures
+over the same pages. Within any chosen set of layers, headings remain in document
+order and their `level` values determine parent-child relationships. Consequently,
+including or excluding a layer can change the resulting hierarchy.
 
 A curated heading may therefore precede several textual units whose relationship is
 not identified by an equivalent printed heading in the source.
@@ -822,6 +848,7 @@ To be determined.
 | Table                       | Markdown pipe-table syntax                                        |
 | Blank page                  | `[Blank page]`                                                    |
 | Curated heading             | `[Curated heading level=N: TEXT]`                                 |
+| Typed curated heading       | `[Curated heading level=N type=TYPE: TEXT]`                       |
 
 ## 22. Core syntax constraints
 

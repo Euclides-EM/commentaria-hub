@@ -8,7 +8,7 @@ C'EST POURQUOY ayant entrepris de traiter icy de la quantité ou grandeur en gen
 
 ### PREMIERE SUPPOSITION.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.
@@ -18,7 +18,7 @@ IE ſuppoſe donc premierement qu'on ſçache ajoûter & multiplier de petits no
 
 ### SECONDE SUPPOSITION.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.
@@ -28,7 +28,7 @@ SECONDEMENT qu'on ſçache que c'eſt la meſme choſe dans la multiplication de
 
 ### TROISIEME SUPPOSITION.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.

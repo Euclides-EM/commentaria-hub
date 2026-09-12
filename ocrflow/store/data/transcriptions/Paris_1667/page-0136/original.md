@@ -7,7 +7,7 @@ Voila ce qui peut ſatisfaire ceux qui aiment mieux ſe ſervir dans la connoiſ
 
 ## EGALITE' DANS LES LIGNES OBLIQUES.
 
-[Curated heading level=4: XLVII.]
+[Curated heading level=4 type=paragraph_order: XLVII.]
 
 [Margin]
 XLVII.
@@ -17,7 +17,7 @@ CETTE ſeule propoſition avec ſon corollaire & l'avertiſſement nous donne mo
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XLVIII.]
+[Curated heading level=4 type=paragraph_order: XLVIII.]
 
 [Margin]
 XLVIII.

@@ -5,7 +5,7 @@ parcequ'elles peuvent toutes y eſtre inſcrites, ſelon ce Theoreme.
 
 ## QUATRIEME THEOREME.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.

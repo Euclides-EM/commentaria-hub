@@ -5,7 +5,7 @@
 
 ### PREMIER CAS.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.
@@ -26,7 +26,7 @@ Donc { ∺ 4. 6. 9.
 
 ### SECOND CAS.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.

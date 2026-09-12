@@ -14,7 +14,7 @@ Dividendo         b — c. c : :  f — g. g.
 
 ## PREUVE DE LA PERMUTATION.
 
-[Curated heading level=4: XLVI.]
+[Curated heading level=4 type=paragraph_order: XLVI.]
 
 [Margin]
 XLVI.
@@ -24,7 +24,7 @@ XLVI.
 
 ## PREUVE DE L'ALTERNE.
 
-[Curated heading level=4: XLVII.]
+[Curated heading level=4 type=paragraph_order: XLVII.]
 
 [Margin]
 XLVII.

@@ -7,7 +7,7 @@ Donc pendant que la tortuë parcourra une ⅑ de lieuë, Achile en doit parcouri
 
 ### SECOND COROLLAIRE.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.

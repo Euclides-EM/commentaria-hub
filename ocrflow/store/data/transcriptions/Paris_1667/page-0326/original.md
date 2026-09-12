@@ -7,7 +7,7 @@ Et quand je parle d'une ligne coupée en pluſieurs parties, j'entens toujours �
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.
@@ -21,7 +21,7 @@ Soit p la non coupée, & T la coupée en 5 parties b, c, d, f, g; il eſt bien v
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: X.]
+[Curated heading level=4 type=paragraph_order: X.]
 
 [Margin]
 X.
@@ -37,7 +37,7 @@ Il eſt donc clair que T eſtant coupé en b, c, d, f, g. TT doit eſtre égal �
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.

@@ -7,7 +7,7 @@ Reſte donc pour la meſure de chacun des autres la moitié de l'arc *k c*. Ce q
 
 ## SECONDE DEMONSTRATION.
 
-[Curated heading level=4: XLVIII.]
+[Curated heading level=4 type=paragraph_order: XLVIII.]
 
 [Margin]
 XLVIII.
@@ -23,7 +23,7 @@ Donc la moitié de cet arc *k c* eſt auſſy la meſure de chacun des angles ve
 
 ## TROISIEME DEMONSTRATION.
 
-[Curated heading level=4: XLIX.]
+[Curated heading level=4 type=paragraph_order: XLIX.]
 
 [Margin]
 XLIX.

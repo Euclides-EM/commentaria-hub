@@ -7,7 +7,7 @@ duit des extrémes *b g* eſt égal au produit des moyens *f c*. Et par conſequ
 
 ## TREIZIEME THEOREME.
 
-[Curated heading level=4: LXI.]
+[Curated heading level=4 type=paragraph_order: LXI.]
 
 [Margin]
 LXI.

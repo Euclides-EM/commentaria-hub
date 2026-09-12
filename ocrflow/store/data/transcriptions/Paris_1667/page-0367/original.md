@@ -7,7 +7,7 @@
 
 ## §. 3. PREPARATION.
 
-[Curated heading level=4: XIII.]
+[Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
 XIII.
@@ -17,7 +17,7 @@ LE plus grand myſtere de la ſolution de ce Probleme conſiſte à marquer par 
 
 ### Quarrez impairs.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.
@@ -31,7 +31,7 @@ Le milieu de cette bande par *m*.
 
 La cellule à gauche qui eſt vis à vis le centre par *α*.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.
@@ -51,7 +51,7 @@ Et au coſté droit celle qui eſt au deſſus de la cellule qui eſt vis à vis
 
 ### Dans les Quarrez pairs.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -59,7 +59,7 @@ XVI.
 
 NE rien marquer dans les premieres & ſecondes enceintes.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.
@@ -75,7 +75,7 @@ Le plus bas des petits nombres à droit par *α*.
 
 Le plus bas des petits nombres à gauche par *β*.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.

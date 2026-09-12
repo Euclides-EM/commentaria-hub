@@ -13,7 +13,7 @@ Donc on doit conclure par une analogie tres certaine, que les circonferences ſo
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.
@@ -25,7 +25,7 @@ C'eſt une ſuite évidente du ſixiême Theoreme.
 
 ## QUATRIEME COROLLAIRE.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.

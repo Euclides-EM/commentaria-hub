@@ -11,7 +11,7 @@ C'eſt la même choſe de deux points également diſtans de g.
 
 Si du centre k, intervale kf, ou kg, on décrit un nouveau cercle, il touchera le premier cercle en un ſeul point, c'eſt à dire en f, ou en g, ſans le couper.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.
@@ -27,7 +27,7 @@ Et au contraire ſi kg eſt le rayon du 2e cercle, cette ligne eſtant la plus l
 
 Si du centre k, intervale plus grand que kf, & plus petit que kg, comme pourroit eſtre kx, on décrit un cercle, il coupera la circonference du premier au point x & x. C'eſt à dire à deux points également diſtans de f, (ou également diſtans de g, ſi on avoit pris un point pour determiner cet intervale plus proche de g,) & la partie de la circonference du 1er cercle entre x & x, dont le milieu eſt f, ſe-
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.

@@ -2,7 +2,7 @@
 
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.
@@ -10,7 +10,7 @@ XXI.
 
 SI à grandeurs inégales on en ajoûte d'égales, les tous ſeront inégaux.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.
@@ -18,7 +18,7 @@ XXII.
 
 LES aliquotes pareilles de grandeurs égales ſont égales. Par exemple, ſi *b* eſt égal à *c*, le tiers de *b* ſera égal au tiers de *c*, cela eſt manifeſte.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.
@@ -26,7 +26,7 @@ XXIII.
 
 ET par la meſme raiſon deux grandeurs ſont égales quand leurs aliquotes pareilles ſont égales. Si le tiers de *b* eſt égal au tiers de *c*, *b* eſt égal à *c*, car *b* eſt égal à ſes trois tiers, & *c* aux trois ſiens. Or ſi un tiers eſt égal à un tiers, les trois tiers ſont égaux aux trois tiers: puis que ce n'eſt qu'ajoûter choſes égales à choſes égales. Donc, &c.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.
@@ -38,7 +38,7 @@ ON peut marquer ainſi qu'une grandeur eſt égale à une autre, comme que *b* e
 
 ### ADDITION.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.
@@ -48,7 +48,7 @@ AJoûter ou *Addition* s'exprime ainſi *b*, plus *c*, & ſe marque ainſi *b* +
 
 ### SOUSTRACTION.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.
@@ -58,9 +58,9 @@ SOUSTRAIRE ou *Souſtraction* s'exprime ainſi *b*, moins *c*, & ſe marque ain�
 
 ### MULTIPLICATION.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.
@@ -68,7 +68,7 @@ XXVI.
 
 MULTIPLIER ou *Multiplication* s'exprime ainſi *b* en *c*, & ſe marque ainſi *b* ⨯ *c*, ou plus brévement *b c*. Nous ne nous ſervirons que de ce dernier *b c*.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -76,7 +76,7 @@ XXVIII.
 
 Où il faut remarquer qu'une grandeur marquée par un ſeul caractere comme *b*, ou *c*, s'appelle grandeur lineaire, ſelon la 5ᵉ Suppoſition. Que quand on les joint enſemble en mettant *b c*. cela ne veut pas dire que l'une ſoit ajoûtée à l'autre (ce qu'il faudroit marquer par *b* + *c*, *b* plus *c*,) mais que l'une eſt multipliée par l'autre, d'où naiſt ce qu'on appelle *produit*.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.
@@ -84,7 +84,7 @@ XXIX.
 
 QUE s'il n'y a eu que deux grandeurs lineaires qui ayent eſté multipliées l'une par l'autre, *ce produit* s'appelle *grandeur plane* ou *plan*.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.

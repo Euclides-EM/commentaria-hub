@@ -11,7 +11,7 @@ Que ſi au contraire nous ſuppoſons que φ eſt plus proche de g que z; je dis
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.
@@ -27,7 +27,7 @@ Le point d'où l'on peut mener trois lignes égales à la circonference, en eſt
 
 ## DES TANGENTES.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.

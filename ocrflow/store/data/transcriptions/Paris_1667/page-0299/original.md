@@ -7,7 +7,7 @@ Et au contraire la corde qui ſoûtiendra la moitié de l'arc de cette figure de
 
 ## SECONDE REGLE GENERALE.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.
@@ -21,7 +21,7 @@ Car ayant les points de tous les ſommets des angles de l'inſcrite, les tangent
 
 ## I.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -33,7 +33,7 @@ Deux diametres qui ſe couppent, partagent la circonference en 4 parties; dont c
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.
@@ -43,7 +43,7 @@ INSCRIRE dans un cercle donné une figure de 8 coſtez, de 16, de 32; & ainſy �
 
 ## SECOND PROBLEME.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.

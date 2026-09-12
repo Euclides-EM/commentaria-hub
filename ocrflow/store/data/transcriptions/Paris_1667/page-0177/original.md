@@ -5,7 +5,7 @@ paſſe par le centre, eſt perpendiculaire à la circonference.
 
 ## TROISIEME LEMME.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.
@@ -19,7 +19,7 @@ Et par conſequent cette ligne eſt perpendiculaire à la circonference par les 
 
 ## DES CIRCONFERENCES PARALLELES.
 
-[Curated heading level=4: XL.]
+[Curated heading level=4 type=paragraph_order: XL.]
 
 [Margin]
 XL.
@@ -31,7 +31,7 @@ C'eſtadire ſelon les precedens Lemmes, lorſque toutes les lignes droites, men
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XLI.]
+[Curated heading level=4 type=paragraph_order: XLI.]
 
 [Margin]
 XLI.
@@ -45,7 +45,7 @@ Car tous les rayons de la plus grande circonference ſont perpendiculaires à l'
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XLII.]
+[Curated heading level=4 type=paragraph_order: XLII.]
 
 [Margin]
 XLII.

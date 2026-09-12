@@ -3,7 +3,7 @@
 
 ## AVERTISSEMENT.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.
@@ -13,7 +13,7 @@ XXVII.
 
 ## DIXIEME LEMME.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -25,7 +25,7 @@ L'ANGLE du ſegment (qui eſt celuy qui eſt compris entre une tangente & une co
 
 ## ONZIEME LEMME.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.
@@ -39,7 +39,7 @@ Ainſy l'angle *c k d* a pour meſure la moitié de l'arc *c d*. IX. 18.
 
 ## DOUZIEME LEMME.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.

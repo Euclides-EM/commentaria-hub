@@ -56,33 +56,22 @@ export function useAnnotationsQuery(datasetId: string) {
 const annotationIndexQueryKey = (
   datasetId: string,
   annotationId: string,
-  includeCuratedHeadings: boolean,
-) =>
-  [
-    'annotations',
-    datasetId,
-    annotationId,
-    'index',
-    { includeCuratedHeadings },
-  ] as const
+  indexTypes: string[],
+) => ['annotations', datasetId, annotationId, 'index', { indexTypes }] as const
 
 export function useAnnotationIndexQuery(
   datasetId: string,
   annotationId: string,
-  includeCuratedHeadings = true,
+  indexTypes: string[] = ['default'],
 ) {
   return useQuery({
-    queryKey: annotationIndexQueryKey(
-      datasetId,
-      annotationId,
-      includeCuratedHeadings,
-    ),
+    queryKey: annotationIndexQueryKey(datasetId, annotationId, indexTypes),
     queryFn: () =>
       AnnotationsService.getDatasetsAnnotationsIndex({
         dataSetId: datasetId,
         id: annotationId,
         categories: '',
-        includeCuratedHeadings,
+        types: indexTypes.join(','),
       }),
     enabled: !!datasetId && !!annotationId,
   })

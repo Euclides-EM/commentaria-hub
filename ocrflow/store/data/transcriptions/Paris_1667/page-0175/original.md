@@ -5,7 +5,7 @@ x f pour rayon, auront m f pour tangente par le 1er theorême, & ne rencontreron
 
 ## PREMIER PROBLEME.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.
@@ -17,7 +17,7 @@ Tirer un rayon de ce point donné, la perpendiculaire à l'extrémité de ce ray
 
 ## SECOND PROBLEME.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.

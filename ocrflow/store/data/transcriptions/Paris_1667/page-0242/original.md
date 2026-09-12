@@ -9,7 +9,7 @@ J'en laiſſe à trouver la demonſtration, qui n'eſt qu'une application du pre
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.
@@ -33,7 +33,7 @@ Donc par le premier Theoreme,
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.

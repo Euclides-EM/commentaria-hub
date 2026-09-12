@@ -7,7 +7,7 @@ Soit la ligne *b c* coupée par l'oblique *k g* inclinée vers *b*, ſi du point
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: XLII.]
+[Curated heading level=4 type=paragraph_order: XLII.]
 
 [Margin]
 XLII.
@@ -25,7 +25,7 @@ Soient les points *m* & *n* joints par la ligne *m n*, & la perpendiculaire inde
 
 ### EXPLICATION DE LA MANIERE DONT ON DOIT CONSIDERER LES LIGNES OBLIQUES POUR LES MIEUX COMPRENDRE.
 
-[Curated heading level=4: XLIII.]
+[Curated heading level=4 type=paragraph_order: XLIII.]
 
 [Margin]
 XLIII.

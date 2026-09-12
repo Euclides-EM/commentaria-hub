@@ -17,7 +17,7 @@ Or la raiſon de bf à bg eſt celle de f.g, & la raiſon du même bf à cf (ég
 
 ### COROLLAIRE PREMIER.
 
-[Curated heading level=4: LVI.]
+[Curated heading level=4 type=paragraph_order: LVI.]
 
 [Margin]
 LVI.

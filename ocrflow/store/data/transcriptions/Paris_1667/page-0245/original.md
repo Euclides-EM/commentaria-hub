@@ -15,7 +15,7 @@ Or pour cela il ne faut que tranſporter les termes en commençant par *n*, & le
 
 ## TROISIEME PROBLEME.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.

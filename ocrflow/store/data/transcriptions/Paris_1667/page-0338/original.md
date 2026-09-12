@@ -7,7 +7,7 @@ Donc a n n + 4. n n. Donc a 5. n n. Ce qu'il falloit demonſtrer.
 
 ## TREIZIEME THEOREME.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.
@@ -27,7 +27,7 @@ Donc d d + c c. = 3. b b. Ce qu'il falloit demonſtrer.
 
 ## PREMIER PROBLEME.
 
-[Curated heading level=4: XL.]
+[Curated heading level=4 type=paragraph_order: XL.]
 
 [Margin]
 XL.
@@ -43,7 +43,7 @@ Ou entre les deux lignes qui font l'aire donnée ; comme ſi l'aire eſt ſuppo�
 
 ## SECOND PROBLEME.
 
-[Curated heading level=4: XLI.]
+[Curated heading level=4 type=paragraph_order: XLI.]
 
 [Margin]
 XLI.

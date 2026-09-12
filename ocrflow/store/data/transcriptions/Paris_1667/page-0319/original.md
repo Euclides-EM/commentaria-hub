@@ -5,7 +5,7 @@
 
 ## THEOREME.
 
-[Curated heading level=4: LIV.]
+[Curated heading level=4 type=paragraph_order: LIV.]
 
 [Margin]
 LIV.
@@ -31,7 +31,7 @@ Donc l'angle *cbg* eſt tel par XI. 73. & 69. que la baſe eſtant jointe au co�
 
 ## COROLLAIRE.
 
-[Curated heading level=4: LV.]
+[Curated heading level=4 type=paragraph_order: LV.]
 
 [Margin]
 LV.

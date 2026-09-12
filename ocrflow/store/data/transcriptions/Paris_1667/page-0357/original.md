@@ -19,7 +19,7 @@ Donc *A* ⊹ *E.* = *I.* Ce qu'il falloit demonſtrer.
 
 ## AVERTISSEMENT.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.
@@ -31,7 +31,7 @@ XXXII.
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.

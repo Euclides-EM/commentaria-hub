@@ -7,7 +7,7 @@ Et ainſi tout ce qui arrivera quand on tranſpoſera les termes de chacune de c
 
 ## SECONDE DEFINITION DE L'EGALITE' DES RAISONS.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.

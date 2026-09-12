@@ -3,7 +3,7 @@
 
 ### AVERTISSEMENT.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.
@@ -13,7 +13,7 @@ XXX.
 
 ### DEFINITION PLVS EXACTE DE LA PERPENDICULAIRE.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.
@@ -27,7 +27,7 @@ Lors que deux points de la ligne coupée eſtans pris également diſtans de l'u
 
 ### AXIOME.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.

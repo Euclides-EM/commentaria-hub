@@ -5,7 +5,7 @@ cette perpendiculaire, & pour baſe tout le perimetre, puiſqu'il eſt égal à 
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -23,7 +23,7 @@ Et il eſt plus petit que tout polygone circonſcrit, parceque le polygone circo
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.

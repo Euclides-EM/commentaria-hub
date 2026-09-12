@@ -5,7 +5,7 @@ une ligne égale au raion, cet angle eſt de 60 degrez, puiſque cet angle eſt 
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.
@@ -17,7 +17,7 @@ Doubler l'arc de l'exagone, par la 1re Regle generale.
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.
@@ -27,7 +27,7 @@ INSCRIRE en un cercle donné une figure de 12 coſtez, de 24, de 48. Et ainſy �
 
 ## TROISIEME PROBLEME.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.
@@ -39,7 +39,7 @@ Ayant diviſé le demydiametre en moyenne ou extrême raiſon (par XI. 68.) la p
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XL.]
+[Curated heading level=4 type=paragraph_order: XL.]
 
 [Margin]
 XL.
@@ -51,7 +51,7 @@ Doubler l'arc du decagone, par la 1re Regle generale.
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XLI.]
+[Curated heading level=4 type=paragraph_order: XLI.]
 
 [Margin]
 XLI.
@@ -61,7 +61,7 @@ INSCRIRE en un cercle donné une figure de 20 coſtez, de 40, de 80 : & ainſy �
 
 ## QUATRIEME PROBLEME.
 
-[Curated heading level=4: XLII.]
+[Curated heading level=4 type=paragraph_order: XLII.]
 
 [Margin]
 XLII.
@@ -73,7 +73,7 @@ De l'arc de l'exagone qui eſt de 60 degrez, oſter l'arc du decagone qui eſt d
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XLIII.]
+[Curated heading level=4 type=paragraph_order: XLIII.]
 
 [Margin]
 XLIII.

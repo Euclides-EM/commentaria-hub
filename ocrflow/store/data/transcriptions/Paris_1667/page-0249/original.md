@@ -5,7 +5,7 @@ gle que p partie de la premiere toute fait ſur b.
 
 ## Seconde Disposition des Antiparalleles.
 
-[Curated heading level=4: VI.]
+[Curated heading level=4 type=paragraph_order: VI.]
 
 [Margin]
 VI.
@@ -21,7 +21,7 @@ Or afin que les baſes ſoient antiparalleles dans cette diſpoſition, il eſt 
 
 ## Troisieme Disposition des Antiparalleles.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.
@@ -35,7 +35,7 @@ Or afin que les baſes *B* & *b* ſoient antiparalleles, il faut que l'angle que
 
 ## Cinquieme Lemme.
 
-[Curated heading level=4: VIII.]
+[Curated heading level=4 type=paragraph_order: VIII.]
 
 [Margin]
 VIII.

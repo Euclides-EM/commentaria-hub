@@ -7,7 +7,7 @@ Tout cercle dont la circonference paſſera par le point commun , & qui aura pou
 
 ### QUATRIEME PROBLEME.
 
-[Curated heading level=4: LXVIII.]
+[Curated heading level=4 type=paragraph_order: LXVIII.]
 
 [Margin]
 LXVIII.

@@ -9,7 +9,7 @@ Ou directement de gauche à droit; ce qui ſe marquera par *g.*
 
 Ou directement de haut en bas; ce qui ſe marquera par *h.*
 
-[Curated heading level=4: LVI.]
+[Curated heading level=4 type=paragraph_order: LVI.]
 
 [Margin]
 LVI.
@@ -31,7 +31,7 @@ SUIVANT ces remarques, & ſe ſouvenant de ce que ſignifient les 4 nombres (1. 
 | 3. | h | o | h | o | c | g | c | g |
 | 4. | c | h | h | c | g | o | o | g |
 
-[Curated heading level=4: LVII.]
+[Curated heading level=4 type=paragraph_order: LVII.]
 
 [Margin]
 LVII.

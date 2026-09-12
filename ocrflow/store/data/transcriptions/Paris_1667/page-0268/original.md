@@ -15,7 +15,7 @@ T. m :: m. p.
 
 ## TROISIEME VOIE POUR TROUVER DES RECIPROQUES QUAND LE POINT EST AU DEDANS DU CERCLE.
 
-[Curated heading level=4: LV.]
+[Curated heading level=4 type=paragraph_order: LV.]
 
 [Margin]
 LV.
@@ -23,7 +23,7 @@ LV.
 
 Cette voie eſt pour trouver que les parties d'une ligne ſont reciproques aux parties d'une autre ligne, ou à une ligne quand elle eſt moyenne proportionelle. Et ainſy elle eſt toute appuyée ſur la 2ᵉ Propoſition fondamentale & ſon Corollaire ( 21. & 22. z̃. ) qui eſt des angles oppoſez au ſommet qui ont leurs baſes antiparalleles.
 
-[Curated heading level=4: LVI.]
+[Curated heading level=4 type=paragraph_order: LVI.]
 
 [Margin]
 LVI.

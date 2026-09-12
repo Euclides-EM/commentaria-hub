@@ -3,7 +3,7 @@
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: VIII.]
+[Curated heading level=4 type=paragraph_order: VIII.]
 
 [Margin]
 VIII.
@@ -13,7 +13,7 @@ LA ligne qui paſſant par le centre coupe un arc par la moitié, coupe auſſy 
 
 ## QUATRIEME THEOREME.
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.

@@ -11,7 +11,7 @@ Mais dans celles de plus petite inégalité, les antecedens ſont contenus dans 
 
 ### AVERTISSEMENT.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.
@@ -23,7 +23,7 @@ CETTE *notion de l'égalité des raiſons ſuffiroit, s'il eſtoit toujours ais�
 
 ### PREMIER AXIOME.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.
@@ -37,7 +37,7 @@ B. 3 B : : C. 3 C.
 
 ### SECOND AXIOME.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.
@@ -51,7 +51,7 @@ B. C : : 3 B. 3 C.
 
 ### TROISIEME AXIOME.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.

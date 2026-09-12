@@ -15,7 +15,7 @@ Donc les angles ſur la baſe *cd* ſont égaux aux angles ſur la baſe *fg*. C
 
 ### COROLLAIRE.
 
-[Curated heading level=4: LXIV.]
+[Curated heading level=4 type=paragraph_order: LXIV.]
 
 [Margin]
 LXIV.

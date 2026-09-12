@@ -19,7 +19,7 @@ port. du coſté. perpend :: port. de la perp. port. du coſté.
 
 ## Premier Theoreme.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.

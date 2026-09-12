@@ -5,7 +5,7 @@
 
 ## PREMIER LEMME.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.
@@ -15,7 +15,7 @@ DANS les cercles égaux les cordes égales ſoûtiennent des arcs tout égaux. E
 
 ## SECOND LEMME.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.
@@ -25,7 +25,7 @@ DANS les cercles égaux les plus grandes cordes ſoûtiennent de plus grands arc
 
 ## TROISIEME LEMME.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.
@@ -35,7 +35,7 @@ LES cercles eſtant inégaux les cordes égales ſoûtiennent des arcs de plus d
 
 ## QUATRIEME LEMME.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.
@@ -45,7 +45,7 @@ LES arcs d'un même nombre de degrez ſont ſoûtenus par de plus grandes cordes
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.
@@ -63,7 +63,7 @@ Or deux de ces égalitez eſtant données, donnent la troiſiême.
 
 ## PREMIER CAS.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.
@@ -73,7 +73,7 @@ LES angles equilateres entr'eux & iſocordes ſont égaux. Car ils ont pour meſ
 
 ## SECOND CAS.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.

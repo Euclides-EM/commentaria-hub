@@ -3,7 +3,7 @@
 
 ## PREMIER CAS.
 
-[Curated heading level=4: XLV.]
+[Curated heading level=4 type=paragraph_order: XLV.]
 
 [Margin]
 XLV.
@@ -13,7 +13,7 @@ LES angles qui ont le rayon égal & le ſinus égal ſont égaux. 1er & 2e Lemme
 
 ## SECOND CAS.
 
-[Curated heading level=4: XLVI.]
+[Curated heading level=4 type=paragraph_order: XLVI.]
 
 [Margin]
 XLVI.
@@ -23,7 +23,7 @@ LES angles égaux qui ont le rayon égal ont le ſinus égal. 1er & 2e Lemme.
 
 ## TROISIEME CAS.
 
-[Curated heading level=4: XLVII.]
+[Curated heading level=4 type=paragraph_order: XLVII.]
 
 [Margin]
 XLVII.
@@ -33,7 +33,7 @@ LES angles qui ſont égaux & qui ont le ſinus égal, ont le rayon égal. Car s
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XLVIII.]
+[Curated heading level=4 type=paragraph_order: XLVIII.]
 
 [Margin]
 XLVIII.
@@ -47,7 +47,7 @@ N'Y ayant égalité que dans le rayon, les plus grands ſinus donnent les plus g
 
 ## SECOND CAS.
 
-[Curated heading level=4: XLIX.]
+[Curated heading level=4 type=paragraph_order: XLIX.]
 
 [Margin]
 XLIX.
@@ -57,7 +57,7 @@ N'Y ayant égalité que dans les ſinus, le plus grand rayon donne le plus petit
 
 ## TROISIEME CAS.
 
-[Curated heading level=4: L.]
+[Curated heading level=4 type=paragraph_order: L.]
 
 [Margin]
 L.
@@ -67,7 +67,7 @@ N'Y ayant égalité que dans les angles, le plus grand rayon donne le plus grand
 
 ## DES ANGLES FAITS PAR LES LIGNES ENTRE PARALLELES.
 
-[Curated heading level=4: LI.]
+[Curated heading level=4 type=paragraph_order: LI.]
 
 [Margin]
 LI.

@@ -13,7 +13,7 @@ Car ſi b c doit ſoûtenir un angle aigu, le triangle eſt b c d: & s'il doit �
 
 ## Premier Theoreme.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -23,7 +23,7 @@ Deux triangles ſont tout-égaux, quand les coſtez de l'un ſont égaux aux co�
 
 ## Second Theoreme.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.
@@ -33,7 +33,7 @@ Deux triangles ſont tout-égaux quand ils ont un angle égal, & que les coſtez
 
 ## Troisieme Theoreme.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.

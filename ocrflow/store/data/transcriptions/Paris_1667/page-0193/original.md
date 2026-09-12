@@ -9,7 +9,7 @@ Donc les deux de la baſe plus l'angle donné ſont égaux à deux droits.
 
 ## Dixieme Corollaire.
 
-[Curated heading level=4: LXI.]
+[Curated heading level=4 type=paragraph_order: LXI.]
 
 [Margin]
 LXI.
@@ -21,7 +21,7 @@ Ce ſera la même choſe ſi on prolonge la baſe. Car l'angle exterieur que fer
 
 ## Onzieme Corollaire.
 
-[Curated heading level=4: LXII.]
+[Curated heading level=4 type=paragraph_order: LXII.]
 
 [Margin]
 LXII.
@@ -31,7 +31,7 @@ DEUX angles ſont égaux, quand les angles que les coſtez de l'un font ſur ſa
 
 ## Douzieme Corollaire, Troisieme Probleme.
 
-[Curated heading level=4: LXIII.]
+[Curated heading level=4 type=paragraph_order: LXIII.]
 
 [Margin]
 LXIII.

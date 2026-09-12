@@ -5,7 +5,7 @@
 
 ### DANS LES QUARREZ IMPAIRS.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.
@@ -13,7 +13,7 @@ XXVI.
 
 *e*. *m* : : α. *c*. Donc *e*. *c* = *m*. α.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.
@@ -21,7 +21,7 @@ XXVII.
 
 *m*. *o* : : α. *c*. Donc *m*. *c* = *o*. α.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -31,7 +31,7 @@ XXVIII.
 
 ### DANS LES PAIRS.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.
@@ -39,7 +39,7 @@ XXIX.
 
 *e*. *o* : : β. ὰ. Donc *e*. α = *o*. β.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.
@@ -49,7 +49,7 @@ XXX.
 
 ## §. 5. METHODE POUR DISPOSER MAGIQUEMENT LE QUARRE' NATUREL.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.
@@ -59,7 +59,7 @@ CEtte methode conſiſte en fort peu de regles ; les unes generales, les autres 
 
 ### PREMIERE REGLE GENERALE.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.
@@ -69,7 +69,7 @@ IL faut diſpoſer les chiffres par enceintes, ceux d'une enceinte en l'enceinte
 
 ### SECONDE REGLE GENERALE.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.
@@ -81,7 +81,7 @@ Ainſy α eſtant placé dans le coin gauche de la bande d'enhaut, il faudra met
 
 ### TROISIEME REGLE GENERALE.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -95,7 +95,7 @@ C'eſtpourquoy il faut obſerver de ne mettre jamais deux petits en des bandes o
 
 LEs chiffres eſtant diſpoſez ſelon ces regles,
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.

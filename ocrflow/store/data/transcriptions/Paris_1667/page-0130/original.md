@@ -5,7 +5,7 @@ pouvoit prendre aucune autre qui fuſt ſi propre à meſurer cette diſtance.
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.
@@ -17,7 +17,7 @@ Car ſi elles ſe rencontroient elles auroient un point commun, & ainſy il y au
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XL.]
+[Curated heading level=4 type=paragraph_order: XL.]
 
 [Margin]
 XL.
@@ -33,7 +33,7 @@ De plus ayant pris dans la ligne *b c* deux points également diſtans de *k*, c
 
 ## QUATRIEME COROLLAIRE.
 
-[Curated heading level=4: XLI.]
+[Curated heading level=4 type=paragraph_order: XLI.]
 
 [Margin]
 XLI.

@@ -142,7 +142,7 @@ em {
 }
 
 .tei-readable p[data-tei-block-type='curated-heading']::before {
-  content: 'Curated structure';
+  content: 'Curated heading';
   display: block;
   margin-bottom: 0.15rem;
   color: #7c3aed;
@@ -150,6 +150,25 @@ em {
   font-weight: 700;
   letter-spacing: 0.055em;
   text-transform: uppercase;
+}
+
+.tei-readable
+  p[data-tei-block-type='curated-heading'][data-tei-block-subtype]::before {
+  content: 'Curated ' attr(data-tei-block-subtype-label);
+}
+
+.tei-readable
+  p[data-tei-block-type='curated-heading'][data-tei-index-layer-unselected='true'] {
+  border-color: #d1d5db;
+  border-left-color: #9ca3af;
+  background: #f3f4f6;
+  color: #6b7280;
+  opacity: 0.65;
+}
+
+.tei-readable
+  p[data-tei-block-type='curated-heading'][data-tei-index-layer-unselected='true']::before {
+  color: #6b7280;
 }
 
 .tei-readable p[data-tei-block-type='subhead'] {

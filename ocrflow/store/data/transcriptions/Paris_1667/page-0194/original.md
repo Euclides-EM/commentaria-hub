@@ -9,7 +9,7 @@ CETTE meſure eſt la plus imparfaite, & ne peut ſervir à meſurer les angles 
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: LXIII.]
+[Curated heading level=4 type=paragraph_order: LXIII.]
 
 [Margin]
 LXIII.
@@ -29,7 +29,7 @@ Or ces perpendiculaires ſont les ſinus de ces angles qui ont auſſy le rayon 
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: LXIV.]
+[Curated heading level=4 type=paragraph_order: LXIV.]
 
 [Margin]
 LXIV.

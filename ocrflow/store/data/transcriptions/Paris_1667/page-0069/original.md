@@ -11,7 +11,7 @@ Donc x. r : : y. r. *Ce qu'il faloit démonſtrer.*
 
 ### SECOND COROLLAIRE.
 
-[Curated heading level=4: XL.]
+[Curated heading level=4 type=paragraph_order: XL.]
 
 [Margin]
 XL.
@@ -29,7 +29,7 @@ C'eſt ce qu'on a déja veu dans le premier Corollaire, & on y a reconnu auſſi
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XLI.]
+[Curated heading level=4 type=paragraph_order: XLI.]
 
 [Margin]
 XLI.

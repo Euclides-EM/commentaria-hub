@@ -21,7 +21,7 @@ Donc ces deux produits doivent eſtre égaux au produit des deux premiers par le
 
 ## DIVISION DES GRANDEURS COMPLEXES.
 
-[Curated heading level=4: LXV.]
+[Curated heading level=4 type=paragraph_order: LXV.]
 
 [Margin]
 LXV.
@@ -36,7 +36,7 @@ r + s.
 
 ## DES EQVATIONS.
 
-[Curated heading level=4: LXVI.]
+[Curated heading level=4 type=paragraph_order: LXVI.]
 
 [Margin]
 LXVI.

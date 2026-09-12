@@ -5,7 +5,7 @@ On laiſſe à trouver beaucoup d'autres manieres dont on le peut demonſtrer.
 
 ## TROISIEME THEOREME.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.
@@ -56,7 +56,7 @@ Pour l'angle d. d r. r q { d b. b q.
 
 ## PREMIER PROBLEME.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.

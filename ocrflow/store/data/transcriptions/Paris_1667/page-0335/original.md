@@ -19,7 +19,7 @@ Donc b b = c c + d d + 2. d y. Ce qu'il falloit demonſtrer.
 
 ### AVERTISSEMENT.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.
@@ -29,7 +29,7 @@ On peut faire icy un Corollaire ſemblable à celuy du Theoreme precedent. Ie le
 
 ## HUITIEME THEOREME.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -49,7 +49,7 @@ Donc b b = c c + d d + d c. égal à 2 d y.
 
 ## NEUVIEME THEOREME.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.

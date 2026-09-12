@@ -9,7 +9,7 @@ Il faut ſeulement remarquer, qu'il n'y a point de moyenne proportionelle dans c
 
 ## SECONDE VOIE GENERALE POUR TROUVER DES RECIPROQUES QUAND LE POINT COMMUN EST HORS LE CERCLE.
 
-[Curated heading level=4: LI.]
+[Curated heading level=4 type=paragraph_order: LI.]
 
 [Margin]
 LI.
@@ -19,7 +19,7 @@ Quand le point commun eſt hors le cercle, les coſtez de l'angle qui l'a pour �
 
 ## CINQUIEME THEOREME.
 
-[Curated heading level=4: LII.]
+[Curated heading level=4 type=paragraph_order: LII.]
 
 [Margin]
 LII.

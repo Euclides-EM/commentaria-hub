@@ -5,7 +5,7 @@ manieres; ou par rapport au ſegment dans lequel il eſt inſcrit, ſon ſommet 
 
 ## QUATRIEME AVERTISSEMENT.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.
@@ -15,7 +15,7 @@ IL eſt aiſé de voir que l'angle inſcrit dans un ſegment eſt toûjours appu
 
 ## CINQUIEME AVERTISSEMENT.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.
@@ -25,7 +25,7 @@ ENFIN il faut remarquer, que quand on parle des arcs que ſoutiennent les coſte
 
 ## PREMIER THEOREME, FONDAMENTAL DE TOUS LES AUTRES.
 
-[Curated heading level=4: XIII.]
+[Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
 XIII.

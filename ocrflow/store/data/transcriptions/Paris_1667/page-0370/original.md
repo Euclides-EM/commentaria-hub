@@ -3,7 +3,7 @@
 
 dans les deux bandes. Car un petit & un grand valent deux fois *c*. Or il y a autant de *petits* que de *grands*. Donc
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -11,7 +11,7 @@ XXXVI.
 
 IL s'enſuit, 2. Que lorſqu'on a prouvé que les chiffres d'une bande aprés cette diſpoſition valent autant de fois le centre qu'il y a de chiffres, cette bande eſt égale à ſon oppoſée.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.
@@ -23,7 +23,7 @@ La preuve en eſt facile ſans que je m'arreſte à l'expliquer.
 
 ### QUATRIEME REGLE GENERALE.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.
@@ -41,7 +41,7 @@ Et de plus, ils ſont toujours 4 à 4 en proportion arithmetique.
 
 Donc prenant les extrêmes & les mettant dans une bande, & ceux du milieu dans l'oppoſée, ils ne troubleront point l'égalité qui y eſtoit déja par les chiffres marquez de lettres.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.

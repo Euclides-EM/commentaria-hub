@@ -3,7 +3,7 @@
 
 ## TREIZIEME LEMME.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.
@@ -15,7 +15,7 @@ TOUT angle qui ſe fait par la ſection de deux cordes qui ſe coupent au dedans
 
 ## QUATORZIEME LEMME.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.
@@ -29,7 +29,7 @@ TOUT angle dont le ſommet eſt hors le cercle, & dont un coſté coupant le cer
 
 ### 1.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.
@@ -41,7 +41,7 @@ XXXIII.
 
 ### 2.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.

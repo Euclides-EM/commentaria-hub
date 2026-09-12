@@ -16,7 +16,7 @@ T. p     : :    T. p.
 
 ## SECONDE COMPARAISON.
 
-[Curated heading level=4: XLIII.]
+[Curated heading level=4 type=paragraph_order: XLIII.]
 
 [Margin]
 XLIII.
@@ -41,7 +41,7 @@ T. p    : :    T. p.
 
 ## TROISIEME COMPARAISON.
 
-[Curated heading level=4: XLIV.]
+[Curated heading level=4 type=paragraph_order: XLIV.]
 
 [Margin]
 XLIV.

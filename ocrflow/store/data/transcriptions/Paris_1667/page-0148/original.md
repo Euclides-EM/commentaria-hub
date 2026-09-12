@@ -11,7 +11,7 @@ Mais remarquez que je ne dis pas qu'un point d'*x* ne puiſſe eſtre auſſy di
 
 ## HUITIEME LEMME.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.

@@ -7,7 +7,7 @@ Et quand on dit que deux angles ſont égaux à un droit, cela veut dire que ces
 
 ## TROISIEME LEMME.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.

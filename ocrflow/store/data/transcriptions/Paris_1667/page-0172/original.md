@@ -15,7 +15,7 @@ Et par la même raiſon le point g ſe trouvera au dehors du 2e cercle, parce qu
 
 ## SIXIEME THEOREME.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.

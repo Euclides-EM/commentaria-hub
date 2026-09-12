@@ -3,7 +3,7 @@
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.
@@ -19,7 +19,7 @@ Donc *x* & *z* auront une même perpendiculaire. Donc elles ſeront paralleles.
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.
@@ -29,7 +29,7 @@ On ne ſçauroit faire paſſer par le méme point deux differentes lignes qui �
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.

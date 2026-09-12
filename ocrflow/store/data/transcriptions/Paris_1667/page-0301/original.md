@@ -17,7 +17,7 @@
 
 ## PREMIER LEMME.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.
@@ -27,7 +27,7 @@ Un angle avec ſa baſe, eſt la même choſe qu'un triangle. Et ainſy tout ce 
 
 ## SECOND LEMME.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.

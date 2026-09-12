@@ -5,7 +5,7 @@
 
 ### PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.

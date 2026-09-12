@@ -5,7 +5,7 @@
 
 ### I.
 
-[Curated heading level=4: LXV.]
+[Curated heading level=4 type=paragraph_order: LXV.]
 
 [Margin]
 LXV.
@@ -19,7 +19,7 @@ On peut employer pour trouver la même choſe les Theoremes 2. ( 46. s̄. ) & 6.
 
 ### SECOND PROBLEME.
 
-[Curated heading level=4: LXVI.]
+[Curated heading level=4 type=paragraph_order: LXVI.]
 
 [Margin]
 LXVI.
@@ -31,7 +31,7 @@ TROUVER toutes les reciproques poſſibles à deux lignes données. Mettre la pl
 
 ### TROISIEME PROBLEME.
 
-[Curated heading level=4: LXVII.]
+[Curated heading level=4 type=paragraph_order: LXVII.]
 
 [Margin]
 LXVII.

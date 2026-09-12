@@ -7,7 +7,7 @@ Donc par le Theoreme 2ᵉ *h* & *d* ſont incommenſurables en longueur, & comme
 
 ## COROLLAIRE.
 
-[Curated heading level=4: LXXXI.]
+[Curated heading level=4 type=paragraph_order: LXXXI.]
 
 [Margin]
 LXXXI.
@@ -27,7 +27,7 @@ Donc par le Theoreme precedent l'autre coſté, qui eſt la perpendiculaire, eſ
 
 ## QUATRIEME THEOREME.
 
-[Curated heading level=4: LXXXII.]
+[Curated heading level=4 type=paragraph_order: LXXXII.]
 
 [Margin]
 LXXXII.

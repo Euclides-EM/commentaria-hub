@@ -5,7 +5,7 @@ partage par la moitié eſt neceſſairement un diametre. Et de plus les deux po
 
 ## SECONDE MANIERE DE LA MESME VOIE GENERALE.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.
@@ -19,7 +19,7 @@ Il faut donc qu'il y ait une ligne droitte outre la circonference, afin que les 
 
 ## PROPOSITION GENERALE.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.

@@ -5,7 +5,7 @@ gle inſcrit. Donc la moitié de cette corde eſt ſon ſinus; s'il eſt aigu : 
 
 ## QUATORZIEME COROLLAIRE.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.

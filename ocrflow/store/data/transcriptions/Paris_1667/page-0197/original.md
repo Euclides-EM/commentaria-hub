@@ -11,7 +11,7 @@
 
 {dropcap:I|lines=4|style=decorated|decoration="foliate woodcut initial"}L eſt bien aiſé de reconnoiſtre que les angles ne peuvent avoir pour veritable meſure que les arcs d'un cercle, & que toutes les autres meſures, comme les cordes, les ſinus, & les baſes, ne peuvent eſtre que ſubſidiaires de celle là, & que même elles ne les meſurent qu'imparfaitement.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.
@@ -21,7 +21,7 @@ Mais on a creu juſques icy qu'on ne pouvoit employer pour meſurer un angle que
 
 Cependant il eſt vray qu'il n'y a point d'angle qu'on ne
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.

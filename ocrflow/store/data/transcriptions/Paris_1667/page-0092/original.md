@@ -5,7 +5,7 @@ eux comme les termes de la même progreſſion, entre leſquels il y a deux fois
 
 ### Onzieme Corollaire.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -27,7 +27,7 @@ Donc bbb.  ccc  ::  b. f.
 
 ### Douzieme Corollaire.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.
@@ -41,7 +41,7 @@ Le cube de c. premiere de ces moyennes proportionelles ſera double du cube de b
 
 ### Treizieme Corollaire.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.
@@ -51,7 +51,7 @@ On peut dire generalement que les cubes de deux termes d'une progreſſion Geome
 
 ### IX. Theoreme. Definition.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.

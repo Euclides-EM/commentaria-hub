@@ -3,7 +3,7 @@
 
 ### PREMIER AXIOME OU DEMANDE.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.
@@ -15,7 +15,7 @@ La machine la plus ordinaire dont on ſe ſert pour la décrire ſur le papier s
 
 ### SECOND AXIOME OU DEMANDE.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.
@@ -27,7 +27,7 @@ Décrire une ligne égale à une ligne donnée, ſoit par le retranchement d'une
 
 ### TROISIEME AXIOME.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.
@@ -43,7 +43,7 @@ Et d'un plus grand ſont plus grandes.
 
 ### QUATRIEME AXIOME.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.

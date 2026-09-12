@@ -17,7 +17,7 @@ Donc elles ſont égales.
 
 ## SIXIEME LEMME.
 
-[Curated heading level=4: X.]
+[Curated heading level=4 type=paragraph_order: X.]
 
 [Margin]
 X.
@@ -31,7 +31,7 @@ Donc s'il y en a une ſeule qui ſoit perpendiculaire à toutes les deux, il fau
 
 ## SEPTIEME LEMME.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.

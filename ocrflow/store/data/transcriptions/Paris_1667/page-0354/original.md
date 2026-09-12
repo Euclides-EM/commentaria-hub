@@ -5,7 +5,7 @@ ou la moitié de la hauteur & toute la baſe, on a un rectangle qui vaut la moit
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.
@@ -17,7 +17,7 @@ Car ils ſont tous égaux au même rectangle, qui eſt celuy de la moitié de le
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.
@@ -31,7 +31,7 @@ On peut auſſy prouver ce ſecond Corollaire par le premier, de la même façon
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.
@@ -41,7 +41,7 @@ LA raiſon de deux triangles quelconques eſt toujours compoſée de la raiſon 
 
 ## QUATRIEME COROLLAIRE GENERAL.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.
@@ -53,7 +53,7 @@ TOUT ce qui a eſté dit de la raiſon des rectangles par la comparaiſon de leu
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.

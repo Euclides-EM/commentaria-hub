@@ -3,7 +3,7 @@
 
 toute & ſa partie auront pour moyenne proportionelle celle qui ſera terminée à un point commun à *y*, & à la circonference.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.
@@ -21,7 +21,7 @@ C'eſt ce que nous traitterons par divers Theoremes.
 
 ## PREMIER CAS.
 
-[Curated heading level=4: XL.]
+[Curated heading level=4 type=paragraph_order: XL.]
 
 [Margin]
 XL.
@@ -31,7 +31,7 @@ LE 1ᵉʳ Cas eſt quand *y* coupe le cercle. Et alors il n'eſt point neceſſa
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XLI.]
+[Curated heading level=4 type=paragraph_order: XLI.]
 
 [Margin]
 XLI.
@@ -49,7 +49,7 @@ La 3ᵉ. De deux lignes, dont l'une eſt coupée par *y*, & terminée par la cir
 
 ## PREMIERE COMPARAISON.
 
-[Curated heading level=4: XLII.]
+[Curated heading level=4 type=paragraph_order: XLII.]
 
 [Margin]
 XLII.

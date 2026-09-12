@@ -11,7 +11,7 @@
 
 *Or je penſe avoir trouvé tout ce qui ſe peut trouver ſur cela en n'employant que les lignes droittes & les cercles.*
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.
@@ -19,7 +19,7 @@ XXIV.
 
 *Car 1. I'ay reconnu qu'il n'y a point de voie generale pour couper tout d'un coup les coſtez d'un angle, ou les coſtez de deux angles oppoſez au ſommet par des baſes antiparalleles, qu'en y employant la circonference d'un cercle, & c'eſt pourquoy on ne peut trouver ſans cela de moyenne proportionelle entre deux lignes données.*
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.
@@ -33,7 +33,7 @@ XXV.
 
 *3. Ou le ſommet de deux angles oppoſez à ce ſommet, qui ont auſſy deux baſes antiparalleles.*
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.

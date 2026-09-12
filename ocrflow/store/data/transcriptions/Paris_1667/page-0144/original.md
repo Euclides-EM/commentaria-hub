@@ -19,7 +19,7 @@ Elle eſt compriſe dans la preuve des deux premieres, eſtant clair que toutes 
 
 SECOND LEMME.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.

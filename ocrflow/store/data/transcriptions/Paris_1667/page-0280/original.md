@@ -3,7 +3,7 @@
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: LXXVII.]
+[Curated heading level=4 type=paragraph_order: LXXVII.]
 
 [Margin]
 LXXVII.
@@ -37,7 +37,7 @@ Mais il leur eſt commenſurable en puiſſance, parceque
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: LXXVIII.]
+[Curated heading level=4 type=paragraph_order: LXXVIII.]
 
 [Margin]
 LXXVIII.

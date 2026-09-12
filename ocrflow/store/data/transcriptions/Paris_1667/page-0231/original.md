@@ -23,7 +23,7 @@ On le peut auſſy prouver immédiatement & par ſoy même ſans avoir recours a
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.

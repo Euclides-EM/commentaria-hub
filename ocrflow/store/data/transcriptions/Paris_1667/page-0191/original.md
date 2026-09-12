@@ -3,7 +3,7 @@
 
 ## QUATRIEME COROLLAIRE.
 
-[Curated heading level=4: LV.]
+[Curated heading level=4 type=paragraph_order: LV.]
 
 [Margin]
 LV.
@@ -13,7 +13,7 @@ LES plus courtes lignes entre paralleles font les plus grands angles ; par le 2�
 
 ## CINQUIEME COROLLAIRE.
 
-[Curated heading level=4: LVI.]
+[Curated heading level=4 type=paragraph_order: LVI.]
 
 [Margin]
 LVI.
@@ -41,7 +41,7 @@ Donc ces perpendiculaires ſont égales.
 
 ## SIXIEME COROLLAIRE.
 
-[Curated heading level=4: LVII.]
+[Curated heading level=4 type=paragraph_order: LVII.]
 
 [Margin]
 LVII.

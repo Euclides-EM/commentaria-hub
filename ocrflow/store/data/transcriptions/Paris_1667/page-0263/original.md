@@ -20,7 +20,7 @@ T.  T  : :  p.  p.
 
 ### COROLLAIRE DU PREMIER.
 
-[Curated heading level=4: XLV.]
+[Curated heading level=4 type=paragraph_order: XLV.]
 
 [Margin]
 XLV.

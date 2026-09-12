@@ -9,7 +9,7 @@ Et ainſi il ſera bon de donner pour exemple dans les nombres celuy dont nous v
 
 ### Dans les Nombres.
 
-[Curated heading level=4: XLII.]
+[Curated heading level=4 type=paragraph_order: XLII.]
 
 [Margin]
 XLII.

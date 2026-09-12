@@ -29,7 +29,7 @@ Si f g diviſant m n par la moitié eſtant prolongée paſſe par le centre, il
 
 ### PREMIER COROLLAIRE.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.

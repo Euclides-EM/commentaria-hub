@@ -15,7 +15,7 @@ Mais comme toutes nos connoiſſances qui dependent de l'art en ſuppoſent de n
 
 ## PREMIER AXIOME.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.

@@ -11,7 +11,7 @@ bbc.    bfg  ::  bc.  fg.
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.

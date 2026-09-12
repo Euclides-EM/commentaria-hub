@@ -1,7 +1,7 @@
 <!-- Page number: 24 -->
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-[Curated heading level=4: XIII.]
+[Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
 XIII.
@@ -9,7 +9,7 @@ XIII.
 
 LA raiſon d'inégalité ſe diviſe en celle qu'on appelle *de plus grande inégalité*, qui eſt quand on commence par le plus grand terme en le comparant au plus petit, comme 3 à 2.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.
@@ -17,7 +17,7 @@ XIV.
 
 ET celle *de moindre inégalité*, qui eſt quand on commence par le plus petit terme en le comparant au plus grand, comme 2 à 3.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.
@@ -25,7 +25,7 @@ XV.
 
 QUE ſi ce ne ſont que les mêmes termes dont l'ordre eſt ſeulement renverſé, l'une de ces raiſons eſt appellée *inverſe* au regard de l'autre.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -33,7 +33,7 @@ XVI.
 
 L'UNE & l'autre de ces raiſons d'inégalité eſt *multiple* ou *non multiple*.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.
@@ -41,7 +41,7 @@ XVII.
 
 ON l'appelle *multiple* quand une grandeur entiere eſt contenuë pluſieurs fois preciſément dans une autre. Car alors celle qui contient eſt appellée multiple de celle qui eſt contenuë, & celle qui eſt contenuë *ſous-multiple*. Et l'une & l'autre ſe ſubdiviſe à l'infini ſelon l'infinie varieté des nombres; double, triple, quadruple, &c. moitié, tiers, quart.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.
@@ -53,7 +53,7 @@ LA raiſon non multiple eſt quand il n'y a que quelque aliquote de la grandeur,
 
 ### DEFINITIONS ET DIVISIONS.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.
@@ -63,7 +63,7 @@ NOUS venons de dire que les comparaiſons de deux grandeurs entr'elles s'appelle
 
 Mais on peut comparer enſemble ces comparaiſons mêmes, & c'eſt de là que vient ce qu'on appelle *proportion*.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.
@@ -71,7 +71,7 @@ XX.
 
 CAR l'égalité des differences ou des raiſons s'appelle *proportion* : celle des differences *proportion Arithmetique*, & celle des raiſons *proportion Geometrique*.
 
-[Curated heading level=4: XXI.]
+[Curated heading level=4 type=paragraph_order: XXI.]
 
 [Margin]
 XXI.

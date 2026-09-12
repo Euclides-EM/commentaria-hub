@@ -3,7 +3,7 @@
 
 ## CINQUIEME COROLLAIRE.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.
@@ -15,7 +15,7 @@ C'eſt une ſuitte manifeſte du precedent Corollaire. Car ſi chaque partie de 
 
 ## SIXIEME COROLLAIRE.
 
-[Curated heading level=4: XXIV.]
+[Curated heading level=4 type=paragraph_order: XXIV.]
 
 [Margin]
 XXIV.
@@ -27,7 +27,7 @@ Ce n'eſt que les deux precedens Corollaires un peu autrement énoncez.
 
 ## SEPTIEME COROLLAIRE.
 
-[Curated heading level=4: XXV.]
+[Curated heading level=4 type=paragraph_order: XXV.]
 
 [Margin]
 XXV.

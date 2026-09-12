@@ -5,7 +5,7 @@ conſiderées comme une ſeule ligne faiſoient auſſi des creux de differens c
 
 ### SECOND AXIOME OU DEMANDE.
 
-[Curated heading level=4: VII.]
+[Curated heading level=4 type=paragraph_order: VII.]
 
 [Margin]
 VII.
@@ -19,7 +19,7 @@ Laquelle par conſequent eſt l'unique & naturelle meſure de la diſtance entre
 
 ### TROISIEME AXIOME OU DEMANDE.
 
-[Curated heading level=4: VIII.]
+[Curated heading level=4 type=paragraph_order: VIII.]
 
 [Margin]
 VIII.
@@ -35,7 +35,7 @@ Ou, que deux points eſtant donnez de poſition, toute la ligne droite eſt donn
 
 ### QUATRIEME AXIOME.
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.
@@ -45,7 +45,7 @@ Si une ligne droite eſt immediatement couchée ſur une autre en une de ſes pa
 
 ### CINQUIEME AXIOME.
 
-[Curated heading level=4: X.]
+[Curated heading level=4 type=paragraph_order: X.]
 
 [Margin]
 X.
@@ -55,7 +55,7 @@ Deux lignes droites ne ſe peuvent couper qu'en un point.
 
 ### SIXIEME AXIOME.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.

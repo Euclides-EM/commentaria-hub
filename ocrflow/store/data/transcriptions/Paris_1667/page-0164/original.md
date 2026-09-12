@@ -5,7 +5,7 @@
 
 ## DEFINITIONS.
 
-[Curated heading level=4: XI.]
+[Curated heading level=4 type=paragraph_order: XI.]
 
 [Margin]
 XI.
@@ -19,7 +19,7 @@ Soit une circonference, dont le centre eſt c, & un arc moindre que la moitié d
 
 ## PREMIER LEMME.
 
-[Curated heading level=4: XII.]
+[Curated heading level=4 type=paragraph_order: XII.]
 
 [Margin]
 XII.
@@ -29,7 +29,7 @@ QUE ſi on continuë f g juſqu'à h, autre point de la circonference, il eſt c
 
 ## SECOND LEMME.
 
-[Curated heading level=4: XIII.]
+[Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
 XIII.
@@ -41,7 +41,7 @@ D'où il s'enſuit qu'on peut encore definir le *ſinus*.
 
 ## AUTRE DEFINITION DES SINUS.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.
@@ -53,7 +53,7 @@ Car f g eſt la moitié de la corde f h, laquelle corde f g h ſoûtient l'arc f
 
 ## SIXIEME THEOREME.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.

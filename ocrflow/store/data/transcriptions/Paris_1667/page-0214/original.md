@@ -13,7 +13,7 @@ Et il eſt clair qu'elles ſont égales, puiſque chacune ſoûtient des arcs é
 
 ## TROISIEME PROBLEME.
 
-[Curated heading level=4: XXXVIII.]
+[Curated heading level=4 type=paragraph_order: XXXVIII.]
 
 [Margin]
 XXXVIII.
@@ -27,7 +27,7 @@ Ayant tiré une tangente au cercle, la corde qui fera avec cette tangente au poi
 
 ## QUATRIEME PROBLEME.
 
-[Curated heading level=4: XXXIX.]
+[Curated heading level=4 type=paragraph_order: XXXIX.]
 
 [Margin]
 XXXIX.

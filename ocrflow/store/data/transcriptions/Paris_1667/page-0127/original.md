@@ -5,7 +5,7 @@
 
 ## PREMIER PROBLEME.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.
@@ -21,7 +21,7 @@ Soit le point *k* & la ligne *z*, de *k* pris pour centre, décrire un cercle qu
 
 ## SECOND PROBLEME.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.

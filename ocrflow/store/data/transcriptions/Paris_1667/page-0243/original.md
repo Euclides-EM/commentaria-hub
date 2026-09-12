@@ -23,7 +23,7 @@ Donc les points *x* & *c* ne ſçauroient eſtre que le même point, & *k x* & *
 
 ## PREMIER PROBLEME.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.

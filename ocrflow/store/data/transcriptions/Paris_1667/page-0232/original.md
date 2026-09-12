@@ -3,7 +3,7 @@
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.
@@ -17,7 +17,7 @@ C'eſt la même choſe que le precedent Corollaire, puiſque tirant par le point
 
 ## TROISIEME COROLLAIRE.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -31,7 +31,7 @@ C'eſt encore la même choſe que le 1er Corollaire, puiſque menant une paralle
 
 ## QUATRIEME COROLLAIRE.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.

@@ -3,7 +3,7 @@
 
 ## §. 8. REGLE PARTICULIERE POUR LA PREMIERE ET SECONDE ENCEINTE DES QUARREZ PAIRS.
 
-[Curated heading level=4: LII.]
+[Curated heading level=4 type=paragraph_order: LII.]
 
 [Margin]
 LII.
@@ -15,7 +15,7 @@ CEs deux enceintes ne ſont autre choſe que le quarré de 4 qui fait 16, dans l
 
 Et la 2e & la 3e de gauche à droit.
 
-[Curated heading level=4: LIII.]
+[Curated heading level=4 type=paragraph_order: LIII.]
 
 [Margin]
 LIII.
@@ -23,7 +23,7 @@ LIII.
 
 CE qui eſt cauſe que ces deux enceintes ne ſe peuvent pas diſpoſer par les regles des autres, c'eſt que les 4 chiffres du milieu faiſant en divers ſens quatre bandes de deux chacune en ligne droitte, & deux en diagonale, les bandes droittes ne ſçauroient faire des ſommes égales, mais ſeulement les diagonales.
 
-[Curated heading level=4: LIV.]
+[Curated heading level=4 type=paragraph_order: LIV.]
 
 [Margin]
 LIV.
@@ -35,7 +35,7 @@ Or ces 16 chiffres ſe pouvant diſpoſer en tant de manieres que cela eſt pre�
 
 Il n'y en a proprement que 16 qui ſoient magiques, c'eſtadire où toutes les bandes faſſent des ſommes égales (car je ne compte pas pour differentes diſpoſitions celles qui ne viennent que de la differente ſituation du même quarré.)
 
-[Curated heading level=4: LV.]
+[Curated heading level=4 type=paragraph_order: LV.]
 
 [Margin]
 LV.

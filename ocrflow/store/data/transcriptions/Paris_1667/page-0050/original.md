@@ -2,7 +2,7 @@
 
 <!-- Running title: NOUVEAUX ELEMENS -->
 
-[Curated heading level=4: LV.]
+[Curated heading level=4 type=paragraph_order: LV.]
 
 [Margin]
 LV.
@@ -12,7 +12,7 @@ VOILA ce qu'il faut obſerver generalement dans toute multiplication des grandeu
 
 ## PREMIERE REGLE.
 
-[Curated heading level=4: LVI.]
+[Curated heading level=4 type=paragraph_order: LVI.]
 
 [Margin]
 LVI.
@@ -22,7 +22,7 @@ PLUS en *plus* fait *plus* ; c'eſt à dire que la multiplication de deux termes
 
 ## SECONDE REGLE.
 
-[Curated heading level=4: LVII.]
+[Curated heading level=4 type=paragraph_order: LVII.]
 
 [Margin]
 LVII.
@@ -32,7 +32,7 @@ PLUS en *moins* , ou *moins* en *plus* donne *moins*. C'eſt à dire que la mult
 
 *b*. En *p* — *q* } *p b* — *q b*. parce que *q* a *moins* & *b plus* ſous-ent.
 
-[Curated heading level=4: LVIII.]
+[Curated heading level=4 type=paragraph_order: LVIII.]
 
 [Margin]
 LVIII.

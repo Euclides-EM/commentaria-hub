@@ -5,7 +5,7 @@ la même raiſon les degrez d'une petite circonference ſont plus petits que les
 
 ### CINQUIEME AXIOME.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.
@@ -17,7 +17,7 @@ Il en eſt de même dans deux cercles égaux que dans le même cercle.
 
 ### SIXIEME AXIOME.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.
@@ -27,7 +27,7 @@ Toutes les lignes tirées du centre qui ſont plus petites que les rayons du cer
 
 ### SEPTIEME AXIOME.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -41,7 +41,7 @@ Lors qu'on a d'une ligne, l'une des extremitez donnée de poſition, & ſa longu
 
 ### DEFINITIONS.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.

@@ -9,7 +9,7 @@ Et ainſy l'on peut conſiderer trois choſes dans l'extremité d'une figure rec
 
 ## SECONDE DEFINITION.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.
@@ -21,7 +21,7 @@ Mais on ne conſidere icy des figures curvilignes que le ſeul cercle; parceque 
 
 ## TROISIEME DEFINITION.
 
-[Curated heading level=4: V.]
+[Curated heading level=4 type=paragraph_order: V.]
 
 [Margin]
 V.
@@ -31,7 +31,7 @@ ON appelle figure mixte celle qui eſt terminée en partie par des lignes droitt
 
 ## DES FIGURES RECTILIGNES.
 
-[Curated heading level=4: VI.]
+[Curated heading level=4 type=paragraph_order: VI.]
 
 [Margin]
 VI.

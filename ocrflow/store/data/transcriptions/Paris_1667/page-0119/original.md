@@ -13,7 +13,7 @@ Et la ſurface qui eſt auſſi indiviſible ſelon la profondeur, eſt l'extrem
 
 ### PREMIER AVERTISSEMENT.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.
@@ -23,7 +23,7 @@ II.
 
 ### SECOND AVERTISSEMENT.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.
@@ -33,7 +33,7 @@ III.
 
 ### TROISIEME AVERTISSEMENT.
 
-[Curated heading level=4: IV.]
+[Curated heading level=4 type=paragraph_order: IV.]
 
 [Margin]
 IV.

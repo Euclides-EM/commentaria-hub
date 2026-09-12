@@ -15,7 +15,7 @@ Donc par V. 57. les perpendiculaires de *b* ſur *d k*, & de *k* ſur *b c*, ſo
 
 ## HUITIEME THEOREME.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.
@@ -29,7 +29,7 @@ Mais eſtant égales & inclinées du même coſté, les portions des paralleles 
 
 ## NEUVIEME THEOREME.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -49,7 +49,7 @@ Et paralleles par 24. *ſup*.
 
 ## DIXIEME THEOREME.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.
@@ -59,7 +59,7 @@ Les lignes qui enferment des paralleles égales, ſont paralleles elles mêmes. 
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.

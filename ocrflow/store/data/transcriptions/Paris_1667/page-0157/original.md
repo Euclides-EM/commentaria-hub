@@ -9,7 +9,7 @@
 
 ## DES LIGNES TERMINEES A UNE CIRCONFERENCE, Où il eſt parlé DES SINVS, ET DE LA PROPORTION DES ARCS DE DIVERS CERCLES A LEURS CIRCONFERENCES, ET DV PARALLELISME DES LIGNES CIRCVLAIRES.
 
-[Curated heading level=4: I.]
+[Curated heading level=4 type=paragraph_order: I.]
 
 [Margin]
 I.

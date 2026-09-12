@@ -7,7 +7,7 @@ C'eſt la meſme preuve que du precedent. Car *k* & *b* ſeront chacun égalemen
 
 ## TROISIEME PROBLEME.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.
@@ -21,7 +21,7 @@ Couper une ligne donnée en deux parties égales. Soit la ligne donnée *mn*, en
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.

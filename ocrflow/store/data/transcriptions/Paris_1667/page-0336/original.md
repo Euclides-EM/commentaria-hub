@@ -14,7 +14,7 @@ Donc b b. = c c. + d d. { — 2. d x.
 
 ## DIXIEME THEOREME.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.

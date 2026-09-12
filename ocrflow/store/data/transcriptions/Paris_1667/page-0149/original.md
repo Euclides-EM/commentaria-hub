@@ -3,7 +3,7 @@
 
 ## PREMIERE PROPOSITION.
 
-[Curated heading level=4: XIII.]
+[Curated heading level=4 type=paragraph_order: XIII.]
 
 [Margin]
 XIII.
@@ -13,7 +13,7 @@ Si deux lignes ſont coupées par une ligne perpendiculaire à l'une & à l'autr
 
 ## SECONDE PROPOSITION.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.
@@ -31,7 +31,7 @@ Donc toutes les autres lignes menées des points de *z* perpendiculairement ſur
 
 ## TROISIEME PROPOSITION.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.
@@ -41,7 +41,7 @@ Deux lignes ne ſe croiſant point & eſtant enfermées entre deux lignes, ne ſ
 
 ## PREMIER COROLLAIRE.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -51,7 +51,7 @@ Toutes les perpendiculaires entre deux paralleles ſont égales : car c'eſt cel
 
 ## SECOND COROLLAIRE.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.
@@ -61,7 +61,7 @@ Les obliques entre paralleles ſont plus longues que les perpendiculaires. Car c
 
 ## PROBLEME.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.

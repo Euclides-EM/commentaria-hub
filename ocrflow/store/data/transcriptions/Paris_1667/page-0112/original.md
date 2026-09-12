@@ -7,7 +7,7 @@ Car les quarrez ſont en raiſon doublée de leurs racines, & les cubes en raiſ
 
 ## PROBLEME.
 
-[Curated heading level=4: XXVI.]
+[Curated heading level=4 type=paragraph_order: XXVI.]
 
 [Margin]
 XXVI.
@@ -41,7 +41,7 @@ Donc le quarré de 41, qui eſt 1681, eſt égal à 81 ( quarré de 9 ) & à 160
 
 ### SECONDE REGLE.
 
-[Curated heading level=4: XXVII.]
+[Curated heading level=4 type=paragraph_order: XXVII.]
 
 [Margin]
 XXVII.

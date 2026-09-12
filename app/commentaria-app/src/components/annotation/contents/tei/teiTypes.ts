@@ -151,6 +151,7 @@ export type ParagraphTextWithAnchors = {
   anchors: Record<string, number>
   lineRanges: ParagraphLineRange[]
   blockType?: string
+  blockSubtype?: string
   table?: ParagraphTable
 }
 

@@ -11,7 +11,7 @@ Car ſoit la perpendiculaire k b ſur la ligne m n, ſi on tire l'oblique c m, &
 
 ## AVERTISSEMENT.
 
-[Curated heading level=4: LV.]
+[Curated heading level=4 type=paragraph_order: LV.]
 
 [Margin]
 LV.
@@ -21,7 +21,7 @@ IE ne dis rien de la diverſe obliquité qu'a la même ligne ſur les deux ligne
 
 ## SEPTIEME THEOREME.
 
-[Curated heading level=4: LVI.]
+[Curated heading level=4 type=paragraph_order: LVI.]
 
 [Margin]
 LVI.

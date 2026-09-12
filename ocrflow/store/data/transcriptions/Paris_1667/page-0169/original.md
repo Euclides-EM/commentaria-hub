@@ -3,7 +3,7 @@
 
 ## COROLLAIRE.
 
-[Curated heading level=4: XXII.]
+[Curated heading level=4 type=paragraph_order: XXII.]
 
 [Margin]
 XXII.
@@ -15,7 +15,7 @@ DE là il s'enſuit que plus les arcs ſont grands, plus la difference eſt gran
 
 ### DES SECANTES INTERIEURES ET EXTERIEURES.
 
-[Curated heading level=4: XXIII.]
+[Curated heading level=4 type=paragraph_order: XXIII.]
 
 [Margin]
 XXIII.

@@ -5,7 +5,7 @@ ordinaire uſage des lettres eſt de ſignifier des nombres quelconques avec cet
 
 ## SEPTIEME LEMME.
 
-[Curated heading level=4: VIII.]
+[Curated heading level=4 type=paragraph_order: VIII.]
 
 [Margin]
 VIII.
@@ -19,7 +19,7 @@ Vn nombre de même eſt cubique non ſeulement quand il eſt exprimé par les tr
 
 ## COROLLAIRE.
 
-[Curated heading level=4: IX.]
+[Curated heading level=4 type=paragraph_order: IX.]
 
 [Margin]
 IX.

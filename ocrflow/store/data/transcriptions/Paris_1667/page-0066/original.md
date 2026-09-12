@@ -7,7 +7,7 @@ reils aux premiers, chacun à chacun & dans le même ordre.
 
 ### QUATRIEME AXIOME.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.
@@ -19,7 +19,7 @@ LES multiples pareils de deux grandeurs ſont entr'eux comme d'autres multiples 
 
 ### AVERTISSEMENT.
 
-[Curated heading level=4: XXXV.]
+[Curated heading level=4 type=paragraph_order: XXXV.]
 
 [Margin]
 XXXV.
@@ -29,7 +29,7 @@ TOUT *ce que j'ay dit des multiples ſe peut dire des aliquotes, n'eſtant que l
 
 ### CINQUIEME AXIOME.
 
-[Curated heading level=4: XXXVI.]
+[Curated heading level=4 type=paragraph_order: XXXVI.]
 
 [Margin]
 XXXVI.
@@ -43,7 +43,7 @@ Et de meſme 5 A — 3 A & 5 B — 3 B.
 
 ### SIXIEME AXIOME.
 
-[Curated heading level=4: XXXVII.]
+[Curated heading level=4 type=paragraph_order: XXXVII.]
 
 [Margin]
 XXXVII.

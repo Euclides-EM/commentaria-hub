@@ -7,7 +7,7 @@ Si leurs coſtez ſont reciproques (c'eſtadire, ſi le grand coſté du premier
 
 ## COROLLAIRE PARTICULIER.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.
@@ -27,7 +27,7 @@ Je ſçay bien que cela ſe prouve ordinairement d'une autre maniere plus palpab
 
 ## PREMIER THEOREME.
 
-[Curated heading level=4: XIX.]
+[Curated heading level=4 type=paragraph_order: XIX.]
 
 [Margin]
 XIX.
@@ -37,7 +37,7 @@ Deux parallelogrammes ſemblables (c'eſtadire qui eſtant equiangles ont leurs 
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XX.]
+[Curated heading level=4 type=paragraph_order: XX.]
 
 [Margin]
 XX.

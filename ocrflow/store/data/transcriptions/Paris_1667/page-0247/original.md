@@ -13,7 +13,7 @@ Et tout ce que nous dirons dans celuy-cy ne regarde preſque que le ſecond, & c
 
 ## SECOND LEMME.
 
-[Curated heading level=4: II.]
+[Curated heading level=4 type=paragraph_order: II.]
 
 [Margin]
 II.
@@ -23,7 +23,7 @@ UNE ſeule ligne peut eſtre ditte reciproque à deux lignes, & deux lignes eſt
 
 ## TROISIEME LEMME.
 
-[Curated heading level=4: III.]
+[Curated heading level=4 type=paragraph_order: III.]
 
 [Margin]
 III.

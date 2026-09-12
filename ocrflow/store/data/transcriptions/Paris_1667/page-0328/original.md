@@ -13,7 +13,7 @@ gne eſt coupée en deux. C'eſtpourquoy il faut bien retenir ces trois propoſi
 
 ## PROPOSITION FONDAMENTALE.
 
-[Curated heading level=4: XIV.]
+[Curated heading level=4 type=paragraph_order: XIV.]
 
 [Margin]
 XIV.

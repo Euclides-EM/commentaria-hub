@@ -7,7 +7,7 @@ On prouvera de même tous les autres cas.
 
 ### Septieme Theoreme.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -21,7 +21,7 @@ La 1re partie eſt claire par 4. & la 2e, ſuppoſé cette premiere, n'eſt qu'u
 
 ### Huitieme Theoreme.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.
@@ -33,7 +33,7 @@ Ce n'eſt qu'une application de la definition de la raiſon compoſée. Car comp
 
 ### Premier Corollaire.
 
-[Curated heading level=4: XVIII.]
+[Curated heading level=4 type=paragraph_order: XVIII.]
 
 [Margin]
 XVIII.

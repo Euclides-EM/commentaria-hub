@@ -7,7 +7,7 @@ Car les parallelogrammes ſont toujours entr'eux comme les rectangles de leur ha
 
 ## QUATRIEME COROLLAIRE GENERAL.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.
@@ -19,7 +19,7 @@ Tout ce qui a eſté dit de la raiſon des rectangles par la comparaiſon de leu
 
 ## THEOREME GENERAL.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.
@@ -49,7 +49,7 @@ Donc *b c*. *m n* :: *c. n* + *b. m*. Ce qu'il falloit demonſtrer.
 
 ## COROLLAIRE GENERAL.
 
-[Curated heading level=4: XVII.]
+[Curated heading level=4 type=paragraph_order: XVII.]
 
 [Margin]
 XVII.

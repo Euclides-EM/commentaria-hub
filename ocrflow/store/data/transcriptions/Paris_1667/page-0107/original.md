@@ -3,7 +3,7 @@
 
 ## QUATRIEME THEOREME.
 
-[Curated heading level=4: XV.]
+[Curated heading level=4 type=paragraph_order: XV.]
 
 [Margin]
 XV.
@@ -73,7 +73,7 @@ C'eſt la même choſe de la 3e maniere.
 
 ## DES GRANDEVRS INCOMMENSVRABLES.
 
-[Curated heading level=4: XVI.]
+[Curated heading level=4 type=paragraph_order: XVI.]
 
 [Margin]
 XVI.

@@ -15,7 +15,7 @@ Car par Liv. II. 35. le produit des extrêmes b. g. qui eſt le premier de ces d
 
 ### Dixieme Theoreme.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.
@@ -33,7 +33,7 @@ C'eſt la converſe de la precedente, & qui ſe prouve auſſi par la converſe 
 
 ### Onzieme Theoreme.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.
@@ -51,7 +51,7 @@ Car le produit des extrêmes b c d. qui eſt le 1er ſolide, ſera égal au prod
 
 ## COMPARAISON DES RAISONS INEGALES, ET CE QVI FAIT QVE LES VNES SONT APPELLEES PLUS GRANDES QUE LES AUTRES.
 
-[Curated heading level=4: XXXIV.]
+[Curated heading level=4 type=paragraph_order: XXXIV.]
 
 [Margin]
 XXXIV.

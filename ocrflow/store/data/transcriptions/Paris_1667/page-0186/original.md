@@ -3,7 +3,7 @@
 
 ## TROISIEME CAS.
 
-[Curated heading level=4: XXVIII.]
+[Curated heading level=4 type=paragraph_order: XXVIII.]
 
 [Margin]
 XXVIII.
@@ -13,7 +13,7 @@ LES angles iſocordes & égaux ſont équilateres entr'eux. Car il eſt aiſé d
 
 ## SECOND THEOREME.
 
-[Curated heading level=4: XXIX.]
+[Curated heading level=4 type=paragraph_order: XXIX.]
 
 [Margin]
 XXIX.
@@ -27,7 +27,7 @@ N'Y ayant égalité que dans les coſtez, les plus grandes cordes donnent les pl
 
 ## SECOND CAS.
 
-[Curated heading level=4: XXX.]
+[Curated heading level=4 type=paragraph_order: XXX.]
 
 [Margin]
 XXX.
@@ -37,7 +37,7 @@ N'Y ayant égalité que dans les cordes, les plus grands coſtez donnent les plu
 
 ## TROISIEME CAS.
 
-[Curated heading level=4: XXXI.]
+[Curated heading level=4 type=paragraph_order: XXXI.]
 
 [Margin]
 XXXI.
@@ -47,7 +47,7 @@ N'Y ayant égalité que dans la grandeur des angles, les plus grandes cordes don
 
 ## PREMIER PROBLEME.
 
-[Curated heading level=4: XXXII.]
+[Curated heading level=4 type=paragraph_order: XXXII.]
 
 [Margin]
 XXXII.
@@ -57,7 +57,7 @@ COUPER en deux un angle donné. L'ayant pris iſoſcele, il ne faut qu'en couper
 
 ## SECOND PROBLEME.
 
-[Curated heading level=4: XXXIII.]
+[Curated heading level=4 type=paragraph_order: XXXIII.]
 
 [Margin]
 XXXIII.
