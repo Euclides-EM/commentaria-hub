@@ -128,7 +128,6 @@ export const FacsimileLinks = ({
   return (
     <LinksRow className={className} {...props}>
       {visibleFacsimiles.map((facsimile) => {
-        console.error(facsimile);
         const volume = getDisplayVolume(facsimile, hasAnyValidVolume);
         const linkedLocalFacsimiles = localFacsimiles.filter(
           (localFacsimile) => localFacsimile.shelfmark_id === facsimile.id,

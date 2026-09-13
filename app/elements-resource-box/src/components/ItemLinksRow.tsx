@@ -49,18 +49,20 @@ export const ItemLinksRow = ({
 }) => {
   const { token } = useContext(AuthContext);
   const localFacsimilesQuery = useQuery({
-    queryKey: ["facsimiles", "download-available", item.key],
-    queryFn: () => FacsimilesService.getFacsimilies({ editionId: [item.key] }),
-    enabled: Boolean(token && item.key),
+    queryKey: ["facsimiles", "download-available"],
+    queryFn: () => FacsimilesService.getFacsimilies({}),
+    enabled: Boolean(token),
   });
-  const localScans =
+  const editionFacsimiles =
     localFacsimilesQuery.data?.filter(
-      (facsimile) => facsimile.id && facsimile.download_available,
+      (facsimile) => facsimile.edition_id === item.key,
     ) ?? [];
-  const localScansWithDiagrams =
-    localFacsimilesQuery.data?.filter(
-      (facsimile) => facsimile.id && facsimile.diagram_crops_available,
-    ) ?? [];
+  const localScans = editionFacsimiles.filter(
+    (facsimile) => facsimile.id && facsimile.download_available,
+  );
+  const localScansWithDiagrams = editionFacsimiles.filter(
+    (facsimile) => facsimile.id && facsimile.diagram_crops_available,
+  );
   const openLocalScan = (facsimileId: string, name?: string) => {
     if (!token) {
       return;
