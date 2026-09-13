@@ -1,0 +1,8 @@
+<!-- Running title: NOTE I. -->
+<!-- Page number: 285 -->
+
+coin; plusieurs le sont pour déterminer l’angloïde. En général tout angloïde intercepte, sur la surface de la sphère décrite de son sommet comme centre, un polygone sphérique; et si on appelle *n* le nombre des côtés de ce polygone, le nombre de données nécessaires pour déterminer le polygone et l’angloïde sera 2*n*—3. Quant à l’espace angulaire qui est la grandeur effective de chaque angloïde, il est proportionnel à l’aire du polygone sphérique intercepté.
+
+## NOTE II. *Sur les propositions I et III du livre I.*
+
+On sera peut-être surpris que nous cherchions à démontrer ces propositions qui sont regardées comme axiomes dans Euclide. Mais nous observerons que la définition de la ligne droite donnée par cet auteur nous ayant paru insignifiante, nous lui en avons substitué une autre. Nous appelons *ligne droite* celle qui est la plus courte entre deux points donnés, et nous supposons qu’il n’en existe qu’une. D’après cette définition il nous a paru qu’on pouvoit démontrer rigoureusement que tous les angles droits sont égaux entre eux, et aussi qu’une ligne droite déjà tracée entre deux points ne peut se prolonger que d’une maniere au-delà de ces mêmes points. Nous n’avons donc pas hésité à démontrer l’une et l’autre propositions, quelque évidentes qu’elles puissent paroître par elles-mêmes; et en cela nous avons suivi le principe qu’il ne faut pas multiplier les axiomes sans nécessité. En général notre but sera rempli si on trouve que tout est démontré rigoureusement dans cet ouvrage, d’après notre seule définition de la ligne droite, sans autre supposition ni demande quelconque.

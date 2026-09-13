@@ -1,0 +1,11 @@
+<!-- Running title: EVCLID. GEOM. -->
+
+## COROLLARIVM. III.
+
+CONSTAT etiam, duos numeros minimos in data ratione, metiri omnes medios quotcunque minimorum in eadem ratione; quia ſcilicet producuntur ex illorum multiplicatione in alios quoſdam numeros. Vt in dato exemplo D, medius producitur ex A, in B; & G, H, medij ex A, in D, & E, uel ex B, in C, & D; Item L, M, N, medij ex A, in G, H, I, uel ex B, in F, G, H; ut ex demonſtratione Euclidis, & ea, quam in Scholio tradidimus, apparet.
+
+## SCHOLION.
+
+QVONIAM vero tam numeri A, C, F, K, quam B, E, I, O, ex conſtructione, continue proportionales ſunt ab vnitate, quod illorũ quidẽ proportiones a numero A, horũ vero a B, denominentur, vt clarius demonſtrabitur propos. 9. huius lib. fit vt extremi numeri quotcunque minimorum continue proportionalium ſint vltimi tot continue proportionalium ab vnitate, quorum proportiones a minimis numeris datæ rationis denominantur, quot ſunt propoſiti minimi continue proportionales. Ita enim in ſuperiori exemplo uides C, & E, extremos numeros trium minimorum continue proportionalium in proportione A, ad B, eſſe vltimos trium numerorum continue proportionalium ab vnitate, quorum proportiones denominantur ab A, & B. At vero F, & I, extremos quatuor continue proportionalium, eſſe vltimos quatuor numerorum ab vnitate continue proportionalium, &c. Quamobrem ſi quis optet inuenire quoſcunque numeros minimos in data ratione non multiplici (in multiplici enim res facilis eſt, nempe quæ ab vnitate incipiat) continue proportionales; id facile hac via conſequetur. Inuentis duobus minimis numeris in data ratione, ſumantur ab vnitate tot numeri continue proportionales in proportione, cuius denominator ſit minor illorum, quot numeri minimi inueniendi conſtituuntur. Nam vltimus illorum ab unitate continue proportionalium erit primus continue proportionalium inueniendorum. Vt ſi quis deſideret octo minimos numeros in proportione ſeſquialtera: Inuentis minimis duobus numeris 3. & 2. in ſeſquialtera proportione, ſumendi erunt octo numeri ab vnitate continue proportionales in proportione dupla, quæ denominatur a 2. hoc modo 1. 2. 4. 8. 16. 32. 64. 128. Nam horum vltimus 128. erit primus octo numerorum inueniendorum, qui
+
+<!-- Catchword: minimi -->

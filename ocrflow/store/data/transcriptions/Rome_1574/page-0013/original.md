@@ -1,0 +1,7 @@
+# LECTORI. S.
+
+[Ornament: foliate headpiece with grotesque figures]
+
+{dropcap:S|lines=6|style=decorated|decoration="foliate square woodcut initial"}IQVIS forte miratur, cur poſt tot præclariſſimos in Euclidis elementa Geometrica commentarios ab egregijs, & in primis Mathematicarum rerum peritis ſcriptoribus editos, nouas adhuc ipſi cõmentationes conſcripſerimus, is facile ſibi perſuadebit, non temere id a nobis eße factum, ſi conſilij noſtri rationem cognouerit. Cum enim longa, diuturnaque experientia nobis eſſet perſpectum, atque exploratum, eam eße utilitatem, atque adeo neceſſitatẽ horum elementorum, ut fruſtra quiſquam ſe ſperet ipſorum præſidio, acutiſſimas, ſubtiliſſimaſque Archimedis, Apollonij, Theodoſii, Menelai, Ptolomæi, cæterorumque illuſtrium Mathematicorum demonſtrationes poße percipere; uehementer dolebamus, tam inſignem, & illuſtrem auctorem a pleriſque omnino negligi, a perpaucis uero pro dignitate tractari, ita ut uix hoc noſtro ſeculo reperiantur, qui ſedulã operã, ac ſtudiũ in perdiſcendis his elementis ponant, ob eam potiſſimum, ut arbitror cauſam, quod difficultate rerum, quas tractant, atq; obſcuritate deterreantur, nullũq; habeant hac in re ducẽ, quem ſibi citra erroris periculum ſequendum proponant. Extant quidem commentarij Campani, ac Theonis in ſingulos Euclidis libros ſane eruditi, qui ſatis eſſe poſſint cuiuis ad facile con-
+
+<!-- Catchword: ſequen- -->

@@ -1,0 +1,8 @@
+<!-- Running title: LIBER. V. -->
+<!-- Page number: 152 -->
+
+tis ſeptimas, eſt 1 3⁄7; ſupertripartientis uigeſimas, 1 3⁄20; &c. Denominatores autem proportionum ſubſuperpartientium, ſunt fractiones, quarum numeratores tot unitatibus minores ſunt, quam earundem fractionum denominatores, quot partibus aliquotis maior quantitas minorem ſuperat. Vt denominator proportionis ſubſupertripartientis ſeptimas, eſt 7⁄10; ſubſupertripartientis uigeſimas, 20⁄23; &c. Inuenietur autem denominator cuiuslibet proportionis ſubſuperpartientis, ſi pro numeratore fractionis ſumatur denominator partium aliquotarum, cui ſi addatur numerus partium, habebitur eiuſdem fractionis denominator. Vt denominator proportionis ſubſuperquadripartientis undecimas, eſt 11⁄15; Denominator autem proportionis ſubſupertripartientis quintas eſt hæc fractio 5⁄8. Eademque ratione reperiemus & aliarum proportionum ſubſuperpartientium denominatores.
+
+DENOMINATOR cuiusuis proportionis multiplicis ſuperparticularis, eſt numerus cum una parte aliquota: quia maior quantitas continere debet minorem aliquoties, & inſuper unam eius partem aliquotam. Vt denominator proportionis triplæ ſeſquiſeptimæ, eſt 3 1⁄7. Quintuplæ ſeſquinonæ, 5 1⁄9, &c. Denominatores autem proportionum ſubmultiplicium ſuperparticulariũ, ſunt fractiones, quarũ numeratores numeri ſunt. Vt denominator proportionis ſubtriplæ ſeſquiſeptimæ, eſt 7⁄22; ſubquintuplæ ſeſquinonæ, 9⁄46; etc. Inuenietur autem denominator cuiuslibet proportionis ſubmultiplicis ſuperparticularis, ſi pro numeratore fractionis ſumatur denominator partis aliquotæ, qui ſi multiplicetur per denominatorem proportionis
+
+<!-- Catchword: multipli- -->

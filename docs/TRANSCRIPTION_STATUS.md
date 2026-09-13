@@ -14,28 +14,11 @@ Data set is public domain. I run the full OCR pipeline.
 
 # Run LLM Corrector
 
-## Rome_1574
-
-Two facsimiles are available:
-
-* **`Rome_1574_transkribus`**: Public domain. The existing Transkribus transcriptions have been scraped and committed. I have also run OCR on the facsimile.
-* **`Rome_1574`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
-
-**Status**: currently running with Fable page-by-page. Fable done 734/753. Running the rest with Codex.
-
-**Next steps:** Liri to run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
-
-## Paris_1794
-
-Facsimile is public domain, I run the full OCR pipeline.
-
-*Status* - Running page-by-page with Codex. Done 329/419
-
-**Next steps:** Liri to run the corrector on the Paris_1794 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_fcnxho&datasetTab=annotations&annotationId=ann_1eeww1&currentPageOrKey=210&annotationTab=text
-
 ## Paris_1566
 
 Facsimile is public domain, I run the full OCR pipeline.
+
+**Status**: Running with Codex.
 
 **Next steps:** Run LLM corrector: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
 
@@ -87,6 +70,57 @@ Full Fable transcriptions exist and have already been manually curated. However,
 **Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
 
 # Manual Curation
+
+## Paris_1794
+
+Facsimile is public domain, I run the full OCR pipeline.
+
+Run the corrector on the Paris_1794 facsimile: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_fcnxho&datasetTab=annotations&annotationId=ann_1eeww1&currentPageOrKey=210&annotationTab=text
+using Codex. Partial run stats:
+
+- Requests: 90
+- Input tokens: 2,204,507
+- Cached tokens: 1,490,816
+- Cache creation tokens: 0
+- Output tokens: 96,714
+- Reasoning tokens: 0
+- Total tokens: 2,301,221
+- Cache hit requests: 89/89 (100%)
+
+**Next steps:** Manually curate the transcriptions.
+
+## Rome_1574
+
+Two facsimiles are available:
+
+* **`Rome_1574_transkribus`**: Public domain. The existing Transkribus transcriptions have been scraped and committed. I have also run OCR on the facsimile.
+* **`Rome_1574`**: Copyright status allows research, but probably not display, of the facsimile. OCR has already been completed.
+
+Run the corrector on the Rome_1574_transkribus facsimile with "include_edition_transcription" set to "true": https://euclides.huma-num.fr/hub/index.html?datasetId=ds_0m73by&annotationId=ann_lyz5sb&currentPageOrKey=377
+
+Done 734/753 pages with Fable and the rest with Codex Sol. Got very partial token counts.
+
+Fable:
+- Input tokens: 2
+- Cache creation tokens: 4,951
+- Cache read tokens: 7,346
+- Output tokens: 92
+- Haiku 4.5 tokens: 4,210
+- Total tokens: 16,601
+- Total cost: $0.115292
+
+Codex:
+- Requests: 19
+- Input tokens: 1,536,835
+- Cached tokens: 1,285,504
+- Cache creation tokens: 0
+- Output tokens: 71,078
+- Reasoning tokens: 0
+- Total tokens: 1,607,913
+- Cache hit requests: 18/18 (100%)
+- Cost: unavailable
+
+**Next steps:** Manually curate the transcriptions.
 
 ## Nuremberg_1821
 

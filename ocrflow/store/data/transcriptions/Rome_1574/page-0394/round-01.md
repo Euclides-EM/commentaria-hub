@@ -1,0 +1,11 @@
+<!-- Running title: LIBER V. -->
+<!-- Page number: 155 -->
+
+quàm irrationales. Sint igitur quatuor magnitudines A, prima; B, ſecunda; C, tertia; & D, quarta, ſumanturq́ue primæ, & tertiæ æquemultiplicia quæcunque; E, quidem ipſius A; & F, ipſius C: Item ſumantur ſecundæ, & quartæ aliæ quæcunque æquemultiplicia; G, quidem ipſius B; & H, ipſius D, ſiue hæc duo poſteriora ſint ita multiplicia ſecundæ, & quartæ, ſicut priora duo multiplicia ſunt primæ, & tertiæ, ſiue non. Quod ſi iam inter ſe conferantur ſumpta æque multiplicia ea, quæ inter ſe reſpondent, ut multiplex primæ, & multiplex ſecundæ inter ſe, hoc eſt E, & G; Item multiplex tertiæ & multiplex quartæ inter ſe, hoc eſt F, & H; deprehenſumque fuerit perpetuo, ea ita inter ſe ſe habere, ut ſi E, multiplex primæ magnitudinis A, minus fuerit, quam G. multiplex ſecundæ magnitudinis B; etiam F, multiplex tertiæ magnitudinis C, minus ſit quam H, multiplex quartæ magnitudinis D: Aut ſi E, æquale fuerit ipſi G; etiam F, æquale ſit ipſi H; Aut denique ſi E, maius fuerit quam G; etiam F, maius ſit quam H; (quod eſt utrumque ab utroque vel vna deficere, uel una æqualia eſſe, uel una excedere) ita vt in nullo genere multiplicium contrarium poſſit reperiri, ideſt, vt nunquam E, minus ſit quam G, quin & F, minus ſit quam H; & ut nunquam E, æquale ſit ipſi G, quin & F, ipſi H, ſit æquàle; Denique ut nunquam E, maius ſit quam G, quin & F, maius ſit, quam H. Si inquam deprehenſum fuerit, æque multiplicia quæuis accepta, perpetuo ſe ſe ita habere; vt dictum eſt, dicetur eadem eſſe proportio primæ magnitudinis A, ad ſecundam magnitudinem B, quæ eſt proportio tertiæ magnitudinis C, ad quartam magnitudinem D. Quod ſi deprehenderetur aliquando, etiam in ſolo vno genere multiplicium, multiplex E, deficere a multiplici G; non autem multiplex F, deficere a multiplici H; Aut E, æquale eſſe ipſi G, at F, non æquale ipſi H; Aut denique E, excedere ipſum G, at F, non excedere ipſum H, quamuis in infinitis alijs multiplicibus conditio prædicta reperiatur, nulla ratione dicentur quantitates propoſitæ eandem habere proportionem, ſed diuerſas, ceu in defin. 8. fiet perſpicuum.
+
+[Figure: eight vertical lines of differing heights labelled E, A, B, G, F, C, D and H]
+
+ITAQVE vt demonſtratione aliqua concludantur qua-
+
+<!-- Signature: V 3 -->
+<!-- Catchword: tuor -->

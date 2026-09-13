@@ -1,0 +1,8 @@
+<!-- Running title: NOTE IX. -->
+<!-- Page number: 316 -->
+
+position hors du plan de la base; ce point sera déterminé, si, en imaginant la pyramide MABC, ou seulement le plan MAB, on connoît les angles MAB, ABM, et l’inclinaison du plan MAB sur la base ABC. Si on détermine par le moyen de trois données pareilles la position de chacun des angles solides du polyedre hors du plan de la base, il est clair que le polyedre sera déterminé absolument et d’une maniere unique, de sorte que deux polyedres construits avec les mêmes données seront nécessairement égaux; ils seroient cependant symmétriques l’un de l’autre s’ils étoient construits de différents côtés du plan de la base.
+
+Il n’est pas toujours nécessaire d’avoir trois données pour déterminer chaque angle solide d’un polyedre; car si le point M doit se trouver sur un plan déjà déterminé dont l’intersection avec la base soit FG, il suffira, après avoir pris FG à volonté, de connoître les angles MGF, MFG; ainsi il faudra une donnée de moins. Si le point M doit se trouver sur deux plans déjà déterminés, ou sur leur intersection commune MK qui rencontre le plan ABC en K, on connoîtra déjà le côté AK, l’angle AKM, et l’inclinaison du plan AKM sur la base; il suffira donc d’avoir pour nouvelle donnée l’angle MAK. C’est ainsi que le nombre de données nécessaires pour déterminer un polyedre absolument et d’une maniere unique se réduira toujours au nombre de ses arêtes A.
+
+Le côté AB et un nombre A—1 d’angles donnés déterminent un polyedre; un autre côté à volonté et les mêmes angles détermineront un polyedre semblable. D’où il suit que *le nombre de conditions néces-*

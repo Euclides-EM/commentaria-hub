@@ -1,0 +1,11 @@
+<!-- Running title: EVCLID.GEOM. -->
+
+inſuper eandem partem, nempe ſextam; In ſecundo autem ſemel, & eaſdem partes, nimirum tres quartas; In tertio deinde bis, & adhuc partem eandem, videlicet quintam, continet; In vltima tandem primus ſecundum, & tertius quartum, bis, et præterea eaſdem partes complectitur, puta duas partes quintas. Quod ſi primus numerus ſecundi, & tertius quarti, nõ ſit æque multiplex; vel eadem pars, vel eædem partes; vel denique primus ſecundum, & tertius quartum, non æqualiter contineat, eandemque inſuper illius partem, vel eaſdem partes; nullo pacto dicendi erunt numeri propoſiti proportionales.
+
+QVOTIESCVNQVE igitur quatuor numeri proportionales eſſe ponuntur, concedendum neceſſario erit, ſi quidem maiores cum minoribus cõferuntur, quod primus ſecundi, & tertius quarti, æque multiplex ſit; Vel certe, quod primus ſecundum, & tertius quartum, contineat æqualiter, & inſuper eandem partem, vel eaſdem partes: Et contra, ſi primus ſecundi, & tertius quarti, æque multiplex concedatur: Vel certe primus ſecundum, & tertius quartum, æqualiter dicatur continere, & eandem adhuc partem, vel eaſdem partes, colligetur numeros eſſe proportionales. Quod ſi minores ad maiores referantur, dicanturque eandem habere proportionem, fatendum erit, primum ſecundi, & tertium quarti, eſſe partem eandem, vel partes eaſdem: Et e contrario, ſi primus ſecundi, & tertius quarti, eadem concedatur pars, vel eædem partes, concludetur numeros ipſos eandem habere proportionem.
+
+DEFINIT autem Euclides eos duntaxat numeros proportionales, qui proportionem eandem inæqualitatis habent. Nam ſi de proportione æqualitatis loquamur, perſpicuum eſt, primum ſecundo, & tertium quarto æqualem debere eſſe, vt proportionales numeri dicantur.
+
+EX hac autem definitione aperte colligitur, æquales numeros ad eundem habere eandem proportionem: Et contra, eundẽ ad æquales eandem quoque habere proportionem; Item numeros ad eundem habentes eandem proportionem, vel ad quos idẽ eandẽ habet proportionem, æquales eſſe. Cum enim æquales numeri ſint eiuſdem, vel æque multiplices, vel eadem pars, vel eædẽ partes; Vel certe eundẽ æqualiter cõtineant, eandemq; inſuper illius partem, vel partes; Item cum idem numerus æqualiũ ſit vel æque multiplex, vel eadem pars, vel eadẽ partes:
+
+<!-- Catchword: Vel -->

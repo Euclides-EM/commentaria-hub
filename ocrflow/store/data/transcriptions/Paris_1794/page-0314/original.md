@@ -1,0 +1,8 @@
+<!-- Running title: NOTE III. -->
+<!-- Page number: 286 -->
+
+## NOTE III. *Sur la théorie des paralleles:*
+
+Les propositions XX et XXII du livre I ne sont autre chose que le cinquieme *postulatum* d’Euclide sur lequel la théorie des paralleles est fondée. On sait que ce *postulatum*, qui dans certaines versions est l’axiome XI, a donné beaucoup d’embarras aux commentateurs; et que personne jusqu’à présent ne l’a démontré d’une maniere rigoureuse. Robert Simson, dans son édition d’Euclide, page 545, paroît croire que ce *postulatum* ou cet axiome n’est pas susceptible de démonstration, et en conséquence il se borne à en donner une sorte d’explication. D’Alembert avoit déjà fait sentir, dans ses Mélanges de philosophie, que la théorie des paralleles étoit traitée d’une maniere imparfaite dans les livres d’élémens: or cette théorie repose sur le *postulatum* dont il s’agit; et d’après la démonstration que nous en donnons, nous croyons qu’il n’y a plus rien à desirer à cet égard.
+
+La théorie des paralleles une fois établie, il s’ensuit comme conséquence très immédiate que *la somme des trois angles d’un triangle est égale à deux angles droits.* Ce théorême est cité par-tout comme une vérité constante et pour ainsi dire triviale: cependant il n’étoit pas à l’abri de toute atteinte tant que la théorie des paralleles n’étoit pas pleinement démontrée. La liaison est telle entre le théorême et le *postulatum*, que, si on eût pu démontrer le théorême sans le secours du *postulatum*, celui-ci eût été une suite nécessaire de l’autre, et la théorie des paralleles auroit été complètement démontrée: mais jusqu’à présent on n’a pu y parvenir. La difficulté vient peut-être de ce que l’idée de l’infini se mêle
