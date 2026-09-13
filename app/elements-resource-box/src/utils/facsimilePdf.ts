@@ -30,6 +30,89 @@ const writeWindowMessage = (
   `;
 };
 
+const CHUNK_SIZE = 25 * 1024 * 1024;
+const MAX_RETRIES_PER_CHUNK = 4;
+const RETRY_DELAY_MS = 1_000;
+
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const fetchChunk = async (
+  url: string,
+  bearerToken: string,
+  start: number,
+  end: number,
+): Promise<Response> =>
+  fetch(url, {
+    headers: {
+      Accept: "application/pdf",
+      Authorization: `Bearer ${bearerToken}`,
+      Range: `bytes=${start}-${end}`,
+    },
+  });
+
+const fetchChunkWithRetry = async (
+  url: string,
+  bearerToken: string,
+  start: number,
+  end: number,
+): Promise<Response> => {
+  let lastError: unknown;
+  for (let attempt = 0; attempt < MAX_RETRIES_PER_CHUNK; attempt++) {
+    try {
+      const response = await fetchChunk(url, bearerToken, start, end);
+      if (response.ok) {
+        return response;
+      }
+      lastError = new Error(`Opening the scan failed (${response.status}).`);
+    } catch (error) {
+      lastError = error;
+    }
+    await sleep(RETRY_DELAY_MS * (attempt + 1));
+  }
+  throw lastError instanceof Error
+    ? lastError
+    : new Error("Failed to open the scan.");
+};
+
+async function downloadPDFWithRetry(
+  facsimileId: string,
+  bearerToken: string,
+  onProgress: (loadedBytes: number, totalBytes: number | null) => void,
+): Promise<Blob> {
+  const url = facsimilePDFURL(facsimileId);
+  const firstChunk = await fetchChunkWithRetry(
+    url,
+    bearerToken,
+    0,
+    CHUNK_SIZE - 1,
+  );
+  const contentRange = firstChunk.headers.get("Content-Range");
+  const totalBytes = contentRange
+    ? Number(contentRange.split("/")[1])
+    : Number(firstChunk.headers.get("Content-Length")) || null;
+  const contentType = firstChunk.headers.get("Content-Type") || undefined;
+
+  const parts: Blob[] = [await firstChunk.blob()];
+  let loadedBytes = parts[0].size;
+  onProgress(loadedBytes, totalBytes);
+
+  if (firstChunk.status === 200 || !totalBytes) {
+    return new Blob(parts, contentType ? { type: contentType } : undefined);
+  }
+
+  while (loadedBytes < totalBytes) {
+    const start = loadedBytes;
+    const end = Math.min(start + CHUNK_SIZE, totalBytes) - 1;
+    const chunk = await fetchChunkWithRetry(url, bearerToken, start, end);
+    const chunkBlob = await chunk.blob();
+    parts.push(chunkBlob);
+    loadedBytes += chunkBlob.size;
+    onProgress(loadedBytes, totalBytes);
+  }
+
+  return new Blob(parts, contentType ? { type: contentType } : undefined);
+}
+
 export async function openAuthenticatedFacsimilePDF(
   facsimileId: string,
   bearerToken: string,
@@ -46,22 +129,21 @@ export async function openAuthenticatedFacsimilePDF(
   });
 
   try {
-    const response = await fetch(facsimilePDFURL(facsimileId), {
-      headers: {
-        Accept: "application/pdf",
-        Authorization: `Bearer ${bearerToken}`,
+    const pdfBlob = await downloadPDFWithRetry(
+      facsimileId,
+      bearerToken,
+      (loadedBytes, totalBytes) => {
+        const percent = totalBytes
+          ? Math.min(100, Math.round((loadedBytes / totalBytes) * 100))
+          : null;
+        writeWindowMessage(
+          pdfWindow,
+          "Opening scan",
+          percent === null ? "Loading scan..." : `Loading scan... ${percent}%`,
+          { loading: true },
+        );
       },
-    });
-    if (!response.ok) {
-      writeWindowMessage(
-        pdfWindow,
-        "Scan unavailable",
-        `Opening the scan failed (${response.status}).`,
-      );
-      throw new Error(`Opening the scan failed (${response.status}).`);
-    }
-
-    const pdfBlob = await response.blob();
+    );
     const pdfFile = new File([pdfBlob], downloadName || `${facsimileId}.pdf`, {
       type: pdfBlob.type || "application/pdf",
     });
