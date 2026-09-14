@@ -1,5 +1,7 @@
 package llm
 
+import "fmt"
+
 // Result contains the generated text and the provider-reported usage for one
 // successful LLM request. CostUSD is nil when the provider does not report a
 // request-level cost.
@@ -29,6 +31,20 @@ type Usage struct {
 	ReasoningTokens          int64    `json:"reasoning_tokens"`
 	TotalTokens              int64    `json:"total_tokens"`
 	CostUSD                  *float64 `json:"cost_usd,omitempty"`
+}
+
+// String reports usage fields even when Usage is embedded as a pointer,
+// since fmt's %+v does not dereference nested pointer struct fields.
+func (u *Usage) String() string {
+	if u == nil {
+		return "<nil>"
+	}
+	cost := "<nil>"
+	if u.CostUSD != nil {
+		cost = fmt.Sprintf("%v", *u.CostUSD)
+	}
+	return fmt.Sprintf("{InputTokens:%d CachedInputTokens:%d CacheCreationInputTokens:%d CacheMetricsAvailable:%t OutputTokens:%d ReasoningTokens:%d TotalTokens:%d CostUSD:%s}",
+		u.InputTokens, u.CachedInputTokens, u.CacheCreationInputTokens, u.CacheMetricsAvailable, u.OutputTokens, u.ReasoningTokens, u.TotalTokens, cost)
 }
 
 // Add accumulates token counts and any provider-reported cost.
