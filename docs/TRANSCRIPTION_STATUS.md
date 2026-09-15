@@ -6,7 +6,7 @@
 
 Facsimile is public domain, I run the full OCR pipeline.
 
-**Status**: Running with Codex. Done 140/441
+**Status**: Running with Codex. Done 167/441
 
 **Next steps:** Run LLM corrector: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
 
@@ -22,7 +22,7 @@ This means we need to re-align ALTOs when running LLM.
 
 Data set is public domain. I run the full OCR pipeline.
 
-**Status**: Running with Codex. Done 265/431
+**Status**: Running with Codex. Done 323/431
 
 **Next steps:** Liri to run the LLM corrector: https://euclides.huma-num.fr/hub/?datasetId=ds_ii8nbl&annotationId=ann_ab8glk&currentPageOrKey=61&annotationTab=details
 
