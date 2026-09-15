@@ -1,0 +1,9 @@
+<!-- Running title: N O T A E. -->
+<!-- Page number: 379 -->
+
+## PROP. XXV. LIB. VI.
+
+Liquido patet demonſtrationem hujus quam Euclides dederat vitiatam fuiſſe ab Editore quodam Geometriae minus perito. poſtquam enim oſtenderat " ut rectilineum ABC ad rectilineum KGH, ita BE parallelogrammum ad parallelogrammum EF" opus fuit ſolummodo addere, " eſt autem rectilineum ABC aequale parallelogrammo BE, aequale igitur eſt KGH rectilineum parallelogrammo EF; videlicet per Prop. 14. Lib. 5." ſed inter has duas ſententias interpoſuit " quare permutando ut ABC rectilineum ad parallelogrammum BE, ita rectilineum KGH ad EF parallelogrammum" putavit ſcilicet non tam perſpicuum eſſe concludere ſecundam quatuor proportionalium quartae aequalem eſſe, ex aequalitate primae et tertiae, quod quidem demonſtratum eſt in Prop. 14. Lib. 5. quam concludere tertiam aequalem eſſe quartae, ex aequalitate primae et ſecundae, quod nuſpiam in Elementis quae jam habemus oſtenſum eſt. verum quamvis haec Propoſitio, tertiam ſcilicet quatuor proportionalium aequalem eſſe quartae, ſi prima aequalis fuerit ſecundae, fuiſſet ab Euclide Elementis ſuis inſerta, ut veriſimile eſt eam fuiſſe, nunquam tamen ille in praeſenti caſu eâdem uſus fuiſſet; quoniam, ut dictum fuit, ſine redundante hac permutatione proportionalium concluſio eadem directe elici poteſt. haec autem fuſius oſtendimus, tum quoniam certum praebent indicium textum Euclidis vitiatum fuiſſe, idem enim error invenitur in textu Graeco Prop. 23. Lib. 11. bis, et bis in Prop. 2. Lib. 12. et in Propp. 5. 11. 12. 18. ejuſdem; in quibus Libri 12. locis excepto ultimo, recte omiſſa eſt haec permutatio proportionalium in verſionis Commandini Editione Oxonienſi; tum ut caveant Geometrae ab uſu permutationis in ſimili caſu, non raro enim Recentiores, et inter alios ipſe Commandinus in Commentario ad Prop. 5. Lib. 3. pag. 6. b. Pappi Alexan-
+
+<!-- Signature: Bbb 2 -->
+<!-- Catchword: drini, -->

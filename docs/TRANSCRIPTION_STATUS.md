@@ -6,7 +6,7 @@
 
 Facsimile is public domain, I run the full OCR pipeline.
 
-**Status**: Running with Codex. Done 167/441
+**Status**: Running. Done 167/441 with Codex. Done 43 with Fable.
 
 **Next steps:** Run LLM corrector: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
 
@@ -17,14 +17,6 @@ The OCR stage has already been completed on an old facsimile, that has been repl
 This means we need to re-align ALTOs when running LLM.
 
 **Next steps:** Realign ALTOs and run LLM.
-
-## Glasgow_1756
-
-Data set is public domain. I run the full OCR pipeline.
-
-**Status**: Running with Codex. Done 323/431
-
-**Next steps:** Liri to run the LLM corrector: https://euclides.huma-num.fr/hub/?datasetId=ds_ii8nbl&annotationId=ann_ab8glk&currentPageOrKey=61&annotationTab=details
 
 ## The_Hague_1758
 
@@ -60,6 +52,45 @@ Full Fable transcriptions exist and have already been manually curated. However,
 **Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
 
 # Manual Curation
+
+## Glasgow_1756
+
+Data set is public domain. I run the full OCR pipeline.
+
+Run the LLM corrector: https://euclides.huma-num.fr/hub/?datasetId=ds_ii8nbl&annotationId=ann_ab8glk&currentPageOrKey=61&annotationTab=details
+
+Done 323/431 with Codex, the rest with Fable.
+
+Codex run stats:
+
+- **Provider:** Codex
+- **Model:** GPT-5.6 Sol
+- **Total requests:** 401
+- **Input tokens:** 13,162,647
+- **Cached input tokens:** 9,313,280
+- **Uncached input tokens:** 3,849,367
+- **Output tokens:** 816,648
+- **Reasoning tokens:** 0
+- **Total tokens:** 13,979,295
+- **Cache hit rate (tokens):** ~70.8%
+- **Cache read requests:** 393 / 396 opportunities (~99.2%)
+- **Misses after warmup:** 3
+
+Fable stats:
+
+- **Requests:** 108
+- **Input tokens:** 432
+- **Cached input tokens:** 1,939,980
+- **Cache creation tokens:** 774,316
+- **Output tokens:** 106,875
+- **Reasoning tokens:** 0
+- **Total tokens:** 2,821,603
+- **Cost:** $23.054672
+- **Cache read opportunities:** 107
+- **Cache read requests:** 107
+- **Misses after warmup:** 0
+
+**Next steps:** Manually curate the transcriptions.
 
 ## Paris_1794
 
