@@ -6,7 +6,7 @@
 
 Facsimile is public domain, I run the full OCR pipeline.
 
-**Status**: Running. Done 167/441 with Codex. Done 43 with Fable.
+**Status**: Running. Done 167/441 with Codex. Done 43 with Fable. Another 89 with Codex. 167 pages remain.
 
 **Next steps:** Run LLM corrector: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
 
@@ -21,6 +21,8 @@ This means we need to re-align ALTOs when running LLM.
 ## The_Hague_1758
 
 Data set is public domain. I run the full OCR pipeline.
+
+**Status**: Running. Done 123/410 with Codex.
 
 **Next steps:** Liri to run the LLM corrector: https://euclides.huma-num.fr/hub/index.h?datasetId=ds_9m13nh&annotationId=ann_6jfdp6&currentPageOrKey=61&annotationTab=details
 
