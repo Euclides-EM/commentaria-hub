@@ -8,6 +8,8 @@ The OCR stage has already been completed on an old facsimile, that has been repl
 
 This means we need to re-align ALTOs when running LLM.
 
+**Current status**: ALTOs shifted locally (delta of -1). Running with Fable.
+
 **Next steps:** Liri on to Realign ALTOs and run LLM.
 
 # Alignment
