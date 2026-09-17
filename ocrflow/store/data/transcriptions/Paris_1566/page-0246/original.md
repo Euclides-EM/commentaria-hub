@@ -1,0 +1,22 @@
+<!-- Running title: LIBER DECIMVS. -->
+<!-- Page number: 109 -->
+
+Diſponamus vt prius numeros A B & B G ſecto bifariam A G in D. Auferatur inſuper ab ipſo D G vnitas D E: Dico duos quadratos, ſcilicet eum qui ſub A B B G ſimilibus planis, & eum qui ex G E non componere quadratum numerum, quoniam qui ſub A B B G cum quadrato D G æquus eſt quadrato D B, vt oſtendimus. Sequetur eundem qui ſub A B B G cũ quadrato G E, minorem eſſe quadrato D B, gnomone quidem numerorum lateralium quo quadratus G D excedit quadratum G E. Cùm autem quadratus B D excedat quadratum B E alio & maiori gnomone, ſcilicet numerorum lateralium maioris quadrati B D quo excedit quadratum B E. Sequetur quadratum B D plus excedere quadratum B E, quàm eum qui ſub A B B G cum quadrato G E. Maior itaque erit qui ſub A B B G cum quadrato G E, quadrato B E. Minor autem quadrato B D, inter quos B D & B E non cadit latus quadrati, cùm ſola vnitate diſtent. Qui igitur ſub A B B G ſimilibus planis quadratus, cùm quadrato alio G E, æquantur non quadrato numero qui inter quadratos B D & B E vnitate diſtantes reperitur, non igitur componunt quadratum numerum ipſi qui ſub A B B G & qui ex B E, quadrati.
+
+[Diagram: horizontal line with points A, D, E, G and B and the numbers 5, 1, 4 and 8 above the segments]
+
+## MONITVM.
+
+Animaduertendum curauimus quadratorum numerorum ſeriẽ, ex imparium ſerie ortam eſſe. Soli nempe impares ab vnitate cõiuncti, quadratos efficiunt, ac quotlibet couiuncti: doceamus exemplo, Sumatur vnitas quadratum referens (ea etenim quibuslibet ſubiectis adaptatur vt prima ſeptimi diffinitione diximus) cui proximus addatur impar, qui quidem bina eius latera cum anguli complemento reſtituat, is erit ternarius, qui vnitati additus 4 producit, binarij ſcilicet quadratum. Illi item conſequens impar quinarius addatur is proferet nouem, ſcilicet ternarij quadratum, cui additus quartus impar 7 facit 16 quaternarij quippe quadratum, eidem porrò iungatur 9 fiet 25 quinarij quadratum. Rurſus ipſi copuletur ſequens impar 11 fiet 36 ſenarij quadratum: ſicque infinitè ad quotuis procedemus quadratos, cùm ſcilicet cuilibet quadrato additur gnomon, æquipollens duplicatæ radici, ac inſuper vnitati quæ angulum gnomonis compleat, qui quidem gnomones ſinguli impares numeri ſunt, eò quòd ſeſe excedant tantùm binario, vel quia bina quadrati æqualia latera augẽt vnitate. Quare ſi eorum quadratorum vnitate tantùm augeantur latera, perſpicuum eſt, ea ſerie omnes contineri quadratos, cùm nullus ſit quadratus numerus niſi is cuius latus vnitatibus integris referri poteſt, in ſe multiplicatis ipſum producentibus. Nullius itaque quadrati latus inter duas vnitates cadet, & proinde inter eos cadentium, nullus quadratus erit ab ipſis alius, quorum infiniti rationem non habentes quam quadrati, variis modis educi poſſunt, ſcilicet ſumpto quadrato ad non quadratum, per corollarium vigeſimæquintæ octaui, aliis in ratione ſuperparticulari, ac ſuperbipartiente, per corollarium octauæ octaui. Et demum omnibus dißimilibus planis, per corollarium nonæ huius: qui quidem infiniti ſunt numero ſcilicet primi, per corollarium vigeſimæſextæ octaui, qui ſunt infiniti, per vigeſimamprimam noni, nempe plures omni multitudine, ac alij dißimiles plani innumerabiles. Quod apponit autem græcum lemma huic, corollarium fuit ſextæ huius.
+
+[Diagram: nested square gnomons with interior numbers 36, 25, 16, 9 and 4, horizontal lines labelled 1 to 6 at the right, and the numbers 11, 9, 7, 5, 3 and 1 along the bottom]
+
+## Propoſitio vigeſimanona. Problema 6.
+
+Comperire binas Certas potẽtia tantum commenſurabiles, quarum maior plus poſsit minore, eo quod ex commenſurabili ſibi longitudine.
+
+Sumatur ex ſecunda parte corollarij primi lemmatis vigeſimæ octauæ huius, quadratus numerus G D, excedens quadratum D E non quadrato E G, fiátque (per corollarium ſextæ huius) ſicut G D ad G E numeri, ſic quod ex A B propoſita ad id quod ex A Z, deſcripto namque ſuper A B ſemicirculo, cui (per primam quarti) ipſi A Z æqualis coaptetur, coniuncta Z B: Dico A B & A Z certas eſſe potentia tantùm commenſurabiles, quarum maior A B plus poteſt minore A Z, eò quòd ex Z B ipſi A B longitudine incommẽſurabili: Quoniam quadratum A B excedit quod
+
+[Diagram: semicircle on base A B with point Z on the arc, chords A Z and Z B marked with radical values, the base marked ℞ 72, and below it a horizontal line with points G, E and D and the numbers 5 and 4]
+
+<!-- Signature: Dd iij -->

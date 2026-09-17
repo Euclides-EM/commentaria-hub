@@ -1,0 +1,17 @@
+<!-- Running title: EVCL. ELEMENT. GEOM. -->
+
+Eſto octahedrum A B C D, pyramis verò E F G H, ſuper cuius baſi F G H erectis perpendicularibus vertici pyramidis æqualibus conſtituatur priſma, illud triplum erit pyramidis E F G H, per primum coroll. 7 duodecimi: Dico octahedrum A B C D ſic eſſe ad priſma triplum pyramidis E F G H, vt B C latus ad F G latus. Cùm octahedri latera baſium oppoſitarum ſint rectæ ſeſe tangentes: & parallelæ ad alias ſeſe tãgentes, ſunt enim oppoſita latera quadratorũ ex lateribus octahedri cõpoſitorum. Parallela erũt triangula plana octahedri oppoſita, ſcilicet A B C ipſi K I D, ac reliqua, per 15 vndecimi. Eſto octahedri dimetiens A D, totum octahedrum ſecatur in quatuor pyramides æquas & ſimiles ſuper baſibus octahedri & vertice conſtitutas, ac circa dimetientem A D, ſcilicet quæ ſuper baſi B I D vertice A, & baſi B C D vertice A, ſuper baſi I K D vertice A, & ſuper baſi C K D vertice A cõstituuntur, quæ æquales erunt (nam ſingulæ binis octahedri baſibus, ac binis triangulis ſub dimetiente A D & binis octahedri lateribus comprehenſis conſtant) per octauam diffinitionem vndecimi. Priſma igitur quod ſuper octahedri baſi & vertice conſtituitur, hoc eſt quod ſub vertice parallelarum baſium, vt ex præcedente patuit, æquum eſt tribus illarum octahedri pyramidum, per primum corollar. 7 duodecimi. Illud ideo priſma ad aliud priſma compoſitum ſub eodem vertice ex totius octahedri quatuor pyramidibus, habebit rationem baſium trigonarum, per tertium corollarium eiuſdem: quia igitur 4 pyramides ad 3 rationem habent ſeſquitertiam, ſequetur priſmatis quatuor pyramides cõtinentis trigonam baſim, rationem habere ſeſquitertiam, ad baſim priſmatis tres eiuſdem octahedri pyramides ſuper eius baſi ac vertice continentis, hoc eſt ad baſim octahedri: ſed eiuſdem octahedri baſis ſeſquitertia fuit baſis pyramidis, per decimam huius. Aequales itaque erunt trigonæ baſes, ſcilicet priſmatis quatuor octahedri pyramides ſub eius vertice continentis, baſibus trigonis priſmatis treis pyramides ſub pyramidis E F G H vertice continentis, ſed æquũ eſt priſma octahedri octahedro. Priſma verò pyramidis E F G H, eiuſdem fuit triplum, quæ quidem ſuper æquis baſibus priſmata ad ſe ſunt vt vertices, per corollarium vigeſimæquintæ vndecimi, nempe vt earũ dupla parallelepipeda, per corollarium trigeſimæprimæ vndecimi. Vertex autẽ octahedri, lateri eadem ſphæra contẽti cubi fuit æqualis, per corollarium decimætertiæ huius: latus autem cubi ad pyramidis verticem, rationem habuit potentia quam 12 ad 16, per 18 decimitertij. Latus verò octahedri ad pyramidis latus eam habet quam 18 ad 24, per eandem quæ eadem eſt rationi 12 ad 16 verticum. Priſma igitur æquale octahedro, ad priſma triplum pyramidis eam habet quã vertices ſiue quam latera rationẽ. Octahedrum itaque triplum pyramidis eadem ſphæræ comprehenſæ, rationẽ habet quam latera.
+
+[Diagram: octahedron drawn as hexagon with diagonals, labelled A, B, C, I, K, D]
+
+[Diagram: pyramid with internal lines, labelled E, F, G, H]
+
+## Corollarium.
+
+Pyramidis & Octahedri, proportionalia ſunt latera verticibus. Nam latera ac vertices ſeſquitertia fuêre potentia, inſuper dimetiens ſphæræ ad pyramidis latus, vt octahedri latus ad cubi latus, nempe ſeſquialtera (ex 18 decimitertij) fuerunt potentia.
+
+## Propoſitio decimaquinta.
+
+Si certa propoſita binas potens, totam & maius ſegmentum, rurſúſque binas, totam & minus ſegmentum fecerit, latus Icoſahedri maius erit ſegmentum, latus autem Dodecahedri minus eadem Sphæra cõprehenſorum.
+
+<!-- Catchword: Eſto -->

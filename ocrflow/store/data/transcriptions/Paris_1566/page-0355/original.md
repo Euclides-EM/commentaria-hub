@@ -1,0 +1,15 @@
+<!-- Running title: EVCL. ELEMENT. GEOM. -->
+
+## Corollarium.
+
+Inferemus, Si à centro ſphæræ æquales perpendiculares agantur in circulos ſphæram ſecantes, ipſos circulos æquales eſſe, ac demiſſas perpendiculares in eorum centra cadere ſequetur. Nam ea quæ ex centro ſphæræ, ſemper poteſt perpendicularem, & eam quæ ex contactu in circunferentiam protenditur. Communi igitur ablata perpendiculari, ſequetur reliquas quotcunque, inuicem æquas eſſe. Quare circulos æquales deſcribent per primam diffinit. tertij, & in eorum centra cadunt perpendiculares, per decimamſeptimam diffinit. vndecimi, ſunt enim conorum axes. In quos verò circulos maiores cadunt perpendiculares, minores erunt circuli. Nam ab eadem potentia quæ ex centro ſphæræ, maior perpendicularis ablata potentia, minorem relinquit eius quæ ex circuli centro potentiam, & ideo minorem efficit circulum. Si igitur æquales fuerint circuli illi, in eos demiſſæ perpendiculares æquales erunt. Nam ſi maiores vel minores eſſent, circuli inæquales eſſent, vt patuit, quod obſtaret hypotheſi. Et proinde perpendiculares in baſes, omnium dictarum à centro ſphæræ minimè exiſtunt. Nam ſingulæ aliæ eas poſſunt, & eam quæ à centro circuli ſecantis ſphæram eas iungit.
+
+## Propoſitio decimaſeptima. Problema 2.
+
+Binis ſphæris circa idem centrum exiſtẽtibus, in maiori ſphæra ſolidum polyhedrum inſcribere, non tangens ſphęram minorem in ſuperficie.
+
+Proponantur binæ ſphæræ ABD & ATF, circa idem centrum A conſtitutæ, oportet autẽ maiori ſphæræ ABD inſcribere polyhedrũ, non tangens minorem ſphæram ſua ſuperficie, ſint binæ ſphæræ dimetiẽtes DB & GE, ad rectos ſeſe in A centro ſecantes. Per ſigna verò ABDGE extenſum planum, ſecet ſphæras, hæ ſphærarũ ſectiones circuli erunt, per lemma præfatum, ſed & maiores (cùm per centrum ductæ ſint ſuper maxima dimetiẽte) qui ſint BGDE & AXY. Minoris autem ſphæræ circulum TF tangat recta T ct, quæ ad circunferentiam vſque maioris ſphæræ ducatur, coniuncta inſuper A ct: Diuidatur autem bifariam quadrans EB, idque ſæpe fiat, relinquetur (per coroll. primæ decimi) arcus minor eo quẽ ſubtenderet recta T ct, qui ſit BK. Cùm autem circuli BCD & BEG ſint æquales, per 1 diffinitionẽ tertij, coaptentur circulo BED rectæ ipſi KB ſubtenſæ æquales, per primam quarti, fiet poligonum æquilaterum & parilaterũ, per 16 huius, non tangens circulum ſphæræ ATF minoris, ſint itaque eius poligoni latera BK KL LM ME in quadrante ABE: connectantúrque dimetientes KAV LA MA &c. ſuper plano ADGBE circuli. Ad ſignum A ipſi plano ABGDE perpendicularis excitetur ad ſuperficiem vſque ſphæræ maioris, quæ ſit recta AC per 12 vndecimi. Per rectam AC ducantur plana ſphæram ſecantia in ſingulis poligoni BKLME & reliquis ſectionibus, illæ quidem ſectiones, circuli erunt maiores, nam qui per centrum ſphæræ per
+
+[Figure: two concentric circles about centre A, cut by perpendicular diameters DB and GE; inscribed polygon and connecting lines with points C, R, N, P, G, T, H, O, V, X, S, I, B, Y, Z, K, F, L, M, E marked, and a tangent line to the inner circle]
+
+<!-- Catchword: præfatum -->

@@ -1,0 +1,21 @@
+<!-- Running title: EVCL. ELEMENT. GEO. -->
+
+eam repetentem quantitatem habet, vel diſcreta ad continuam, fatebimur in quauis ratione multiplici, ac eius conuerſa, vnum terminum ſemper metiri alterum, & igitur numeros multiplicem rationem habentes, nuſquam adinuicem primos eſſe, cùm ſemper minor maiorem & ſeipſum metiatur, vtroſque itaque metitur, non igitur primi erunt aliqui numeri rationem habentes multiplicem. Qui verò reliquis rationibus copulantur, omnes rationem numerorum habent, quare appellatione numerorum primi adinuicem eſſe poſſunt, nunquam enim ad vnitatem (quæ non eſt numerus) deueniunt, veluti multiplices ſemper ad eam tandem concidentes. Ea namque ratio non eſt pura numerorum cùm alter terminorum ſit quantitas continua, quare nec minimi eius rationis numeri dici poſſunt, eò quòd non ſint numeri, ſed alter eorum eſt vnitas, ſi ad minimas numerorum partes decurrant, veluti in tripla ratione 12 ad 4 reperiemus primos non eſſe adinuicem: nam 4 metitur ſeipſum & 12, quare vtroſque metitur. Quod autem ad minimos numeros, hæc ratio non perueniat, patet ſi ſuſcipiamus 3 ad 1, videmus triplæ rationis minimas eſſe numerorum partes, non tamen numeros, eò quòd alter ſit vnitas, in reliquis verò rationibus ſecus accidet: omnes enim ſunt rationes numerorum. Nam ſemper minor ſit maioris partes, non autem pars, quæ vnitatis locum obtinet, ſicque minimè eorum partes ſunt ſemper numeri. Cùm itaque de primis adinuicem aut alicuius rationis minimis numeris loquetur Euclides, nos memores eſſe oportet, numeros rationem multiplicem habentes, in eis non comprehendi, cùm non habeant veram numerorum rationem, hoc eſt, diſcretæ quãtitatis ad diſcretam, ſed ſanius continuæ ad diſcretam, aut diſcreta ad continuam, maximè cũ ad minimos perueniet, eò quòd ſemper vnitatem pro altero terminorum reperiat, quod ſi de rationibus in genere, non autem primorum, aut minimorum numerorum dixerit, ibi ſimul rationes multiplices cum reliquis contineri credamus demonſtrandas (vt prima huius diximus diffi. in fine) tam diſcretorum quàm continuorum.
+
+## Diffinitio decimaquarta.
+
+Compoſitus numerus eſt, quem numerus aliquis metitur.
+
+## Diffinitio decimaquinta.
+
+Compoſiti adinuicem numeri, ſunt quos aliquis numerus communi menſura metitur.
+
+Compoſitum vocat numerum qui ex alicuius numeri frequenti ſumptione conſtat, cùm autem ea ſumptio frequens per numerum alium exprimatur, ſequetur numerum compoſitum conſtare ſemper ex duorum facta multiplicatione adinuicem. Cõpoſitos ſimiliter vocat numeros adinuicem eos, qui aliquem numerum pro communi eorum menſura ſuſcipiunt, qui quidem communis menſor, variis ſuiipſius ſumptionibus, varios ſæpius producet, æqualibus verò æquales compoſitos, vt 15 eſt compoſitus, eò quòd 3 per 5 repetitus eum producat, 8 verò ad 12 adinuicem compoſiti dicentur, eò quòd communem menſorem habeant 4 numerum, 9 autem ad 15 habent 3, & 10 ad 35 habet 5, communem menſuram. Non tamen ſequetur idem in primis numeris quod in compoſitis: nam ſi duo ſint cõpoſiti adinuicem, & quiſque eorum compoſitus erit, quod ſi duo primi adinuicem fuerint, non ſequetur ideo eos eſſe ſingulos primos. Nam hi per priuationem, illi verò per habitum qui plus naturæ conuenit ſuas conſequuntur ſpecies.
+
+## Diffinitio decimaſexta.
+
+Numerus numerum multiplicare dicitur, quando quot ſunt in ipſo vnitates, toties componitur multiplicatus, & gignitur aliquis.
+
+Quoniam analoga prius diſtinguenda quàm diffinienda eſſe præcipit Ariſtoteles, antequam quid ſit numerum multiplicare alium numerum dicamus, multiplicandi ſpecies diſtinguemus, eas maximè quæ quantitati (cuius præcipuum agimus negotium) conueniunt. Omnis itaque multiplicatio aut fit ad quantitatem propoſitæ magnitudinis augendam, aut ad eiuſdem magnitudinis quantitatem minuendam, aut equidem ad partim augendam, partimque minuendam. Sed quia hæc multiplicationum diſtributio, paululum a vulgari diſtat, eam ex eadem ſumere non dedignabimur, quoniam diximus libro quinto multiplex diffiniẽtes, nos hoc ſeptimo oſtenſuros varias illas multiplicium leges ab Euclide in obſequium quantitatum continuarum elucidandarum imploratas extra communem arithmeticorum vſum. Id animaduertendum obteſtamur, Euclidem ſola multiplicatione his tribus numerorum libris ſua quæque prælibare axiomata. Ea namque ſola apud arithmeticos
+
+<!-- Catchword: infi- -->

@@ -1,0 +1,21 @@
+<!-- Running title: EVCL. ELEMENT. GEO. -->
+
+G metietur B, vicißim itaque D metietur A vt E ipſum G, ac inſuper D metietur G vt E ipſum B, per 15 ſeptimi. Quoties D E metiuntur A G, tot ſint vnitates in Z. Quoties verò ſimiliter metiuntur iidem D E ipſos G B, tot ſint vnitates in I. Quoniam ſub D & Z comprehenditur A, ſub E & I verò continetur B, ipſi A & B plani ſunt numeri, per 17 diffinitionem ſeptimi. Eorum verò latera D Z & E I. Quia verò ſub D & I extremis fit G & ſub mediis E & Z fit idem G, quatuor magnitudines D ad E vt Z ad I ſunt proportionales, per 16 ſexti, & 19 ſeptimi. Vicißim igitur, per quindecimam ſeptimi, erunt D ad Z, vt E ad I latera proportionalia. Ipſi igitur A & B ſimiles erunt plani, per 22 diffinitionem ſeptimi. Si duorum itaque numerorum vnus medius fuerit, &c.
+
+## MONITVM.
+
+Aliquas ſeorſum demõſtrare voluimus propoſitiones, vt hac ſecũda parte ſegregantes rationis multiplicis naturam, ab aliarum rationũ natura, cùm ea minimos numeros in minimis eius partibus veluti reliquæ nõ ſuſcipiat, ſed loco minimorum ſemper vnitatem cum numero recepit. Quod itaque per minimos in alijs rationibus oſtenderunt Theon & Campanus, illud idem multiplici per vnitatem & numerum cõuenire rationi docuimus hoc loco, licet non ſemper quæ minimis numeris conueniunt, vnitati & numero conuenire recipiamus. Sed cùm rationes puras numerorum per primos & minimos oſtendemus aliquid efficere, ididem cùm opus erit facto, rationes multiplices per vnitatem & numerum efficere demonſtrabimus: nam illæ ſunt eius rationis minimæ partes.
+
+## Propoſitio vigeſimaprima.
+
+Si duorum numerorum duo fuerint medij proportionales numeri, ſimiles ſolidi erunt ipſi duo numeri.
+
+Sint duorum A & B bini medij continuè proportionales G & D: Dico A & B ſimiles eſſe ſolidos. Ponantur enim (per ſecundam huius) tres minimi in ipſorum A G D B ratione, ſintq́; E Z I. Ipſorum igitur extremi E & I ſunt (per 20 huius) ſimiles plani. Sint autem ipſius E latera T & K ipſius I verò latera M & L. Et cùm (per hypotheſim) E Z I ſint in ratione ipſorum A G D, erunt æqua ratione E ad I ſicut A ad D, per 14 ſeptimi. Inſuper cùm E Z I ſint minimi, ipſi metientur ipſos A G D æqualiter, per 21 ſeptimi. Quoties autem E I metiuntur ipſos A D, tot ſunt vnitates in N. Quoties verò metiuntur ipſi E I reliquos G B, eandem rationem habentes, tot ſint vnitates in S. Cùm enim T & K ſint latera ipſius E qui ſumptus per vnitates numeri N faciat A, ſequetur T K N latera eſſe ipſius A ſolidi, per decimamoctauam diffinitionem ſeptimi. Similiter L & M faciunt I, qui per vnitates ipſius S ſumptus facit B, quare L M S erunt ipſius B ſolidi latera, per eandem. Solidi itaque erunt A & B: Dico quòd ſimiles erunt ſolidi, quoniam E multiplicans N & S ipſos fecit A & G. Erit (per 17 ſeptimi) N ad S ſicut A ad G. Sed ſicut A ad G ſic (per hypotheſim) E ad Z, & Z ad I. Quia verò E ad I duplam habet rationem quam ad Z, per 10 diffinitionem quinti, & duplam quam T ad L vel K ad M latera, per 18 huius. Eandem igitur habent T ad L & K ad M rationem quam E ad Z vel Z ad I. Et proinde quam A ad G vel N ad S, quæ fuerunt eædem oſtenſæ. Sicut igitur A ad G ſic fuit N ad S, ſic T ad L, ſicq́; K ad M, latera ſcilicet ipſius A ſolidi, ad latera ipſius B ſolidi proportionalia, qui igitur (per 22 diffinitionem ſeptimi) ſimiles erunt ſolidi. Si itaque duorum numerorum duo fuerint, &c.
+
+[Diagram: horizontal lines labelled T 3, K 3, L 4, M 4, N 3, E 9, Z 12, I 16, S 4, A 27, G 36, D 48, B 64]
+
+## MONITVM.
+
+Hanc in multiplici ratione noluimus oſtendere, prolixitatem vitantes, ſufficit enim præcedentem ac alias quaſdam oſtendiſſe. Cùm enim his demonſtrandis exquiruntur minimi datæ rationis numeri, vt eos eandem rationem habentes alios metiri oſtendamus. Scimus perſpicuè eos quorum vnus eſt vnitas, verè propoſitæ rationis minimas numerorum partes obtinere, & proinde metiri reliquos neceſſario maiores (per 15 ſeptimi) cùm ſint multiplices, vt minimi reliquarum rationum, maiores metiuntur, per 21 ſeptimi. Quia verò his demonſtrationibus, numerorum generalem naturam docentibus, per minimorum numerorum methodum, facilis fit notitia an his conueniant rationes multiplices, minimos numeros non habentes, an non. Demonſtrationem rationum non multipli-
+
+<!-- Catchword: cium -->

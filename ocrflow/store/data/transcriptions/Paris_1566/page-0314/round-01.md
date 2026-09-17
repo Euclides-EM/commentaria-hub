@@ -1,0 +1,20 @@
+<!-- Running title: LIBER VNDECIMVS. -->
+<!-- Page number: 143 -->
+
+[Figure: pyramid-like diagram with apex Z at top, base points A, G, D, B, with E at the centre and points I and T on the base, lines drawn from Z to each base point]
+
+*Recta linea Z E duabus rectis A B G D ſe inuicem ſecantibus in E ad angulos rectos in communi ſectione E ſtet: Dico rectam E Z ad planum (vtraſque A B G D concipiens) rectam eſſe, ponantur inuicem æquales A E B E D E G E, coniunctis A G G B B D D A rectis, quoniam dicimus rectam Z E ad omnes in plano A G B D eam tangentes rectam eſſe, ſi aliqua ad quam E Z recta non credatur inueniri poßit, eſto I E T in plano A B G D, connectantur à Z vertice hypotenuſſe vel ſubtendentes Z A Z I Z D Z B Z T & Z G: æquales igitur erunt A Z D Z B Z & G Z, per quartam primi, ſubtendunt enim æquales angulos qui ad E, æquis lateribus comprehenſos, ſimiliter A D & B G æquales erunt, per eandẽ 4 primi, ſubtendunt enim æquos ad E verticem angulos, per 15 primi, æquis lateribus (ex hypotheſi) cõprehenſos. Triangula igitur A Z D & B Z G (æquis lateribus contenta) æqualia ac æquiangula erunt, per octauam primi, angulus igitur A D Z angulo B G Z æquus erit, cùm inſuper (ex eadem octaua primi) anguli E G B & E D A (triangulorum æquis lineis compoſitorum) ſint æquales, ſequetur triangula G E T & D E I duos angulos duobus angulis ſcilicet G E T ipſi D E I (ad verticem) & E G T ipſi B D I (vt proximè patuit) æquales habentia, & vnum latus E G vni E D (ex hypotheſi) æquale. Reliqua latera E T T G reliquis E I I D æqualia habere, per vigeſimamſextam primi. Cùm inſuper angulus B G Z (hoc eſt T G Z) angulo A D Z (hoc eſt ipſi I D Z) æquus fuerit, & æquis lateribus T G G Z ipſis I D D Z contineantur, baſes Z T & Z I æquales erunt, per quartam primi, quia demum E T T Z ipſis E I I Z rectis æquales, & baſis E Z communis oſtenſæ ſunt, anguli Z E T & Z E I (per octauam primi) æquales erunt, qui ideo (per 13 primi) recti erunt, recta enim E Z ſuper rectam I T conſtituitur: recta igitur eſt E Z ad ipſam I E T, & proinde ad quaſcunque in plano A G B D ipſam E Z tangentes, ſimiliter recta oſtendetur. Si itaque recta linea duabus rectis ſe inuicem diſpeſcentibus, &c.*
+
+## Propoſitio quinta.
+
+Si recta linea tribus rectis ſe inuicem tangentibus ad angulos rectos in communi contactu ſteterit, ipſæ tres rectę lineę in vno ſunt plano.
+
+[Figure: lines meeting at B, with A above, G and E at left, Z at left, D below, and an oblique line extending to upper right]
+
+*Eſto recta linea A B rectos efficiens angulos cum tribus B G B Z D B ſuper earum contactum, B erecta: Dico rectas B G B Z B D in eodẽ eſſe plano, quod ſi aliqua earũ in ſublimi eſſe credatur, ſit B G quæ erit in eodem plano cum recta A B, per ſecũdam huius: nam ſeſe tangunt in B, quia verò planum rectarum A B B G cõcurrit cum plano ipſarum Z B B D in B, ea plana extenſa ſeſe ſecabunt, producatur recta A G in E, ſitq́ planorum communis ſectio B E, quæ (per tertiam huius) recta erit, atque in plano rectarum Z B B D exiſtens B E, efficiet cum recta A B rectos angulos (per ſecundam diffinitionem huius) eò quòd (per quartam huius) ad ipſarum Z B B D planum recta ſit, & ideo ad omnes eam in ipſo plano tangentes recta erit, quoniam inſuper A B B G & B E ſunt (ex hypotheſi) in eodẽ plano, ſed A B E angulus rectus oſtenſus eſt, angulus ſimiliter A B G rectus (ex hypoteſi) fuit, ſunt autem in eodem plano. Rectus itaque A B G recto A B E angulo minor eſſet, quod eſſet abſurdum, ex decima communi ſententia primi: non igitur erit G B recta in ſublimi, nec proinde reliquarum vlla, tres itaque rectæ B G B Z B D in eodem erunt plano. Si ergo recta linea tribus rectis lineis, &c.*
+
+## MONITVM.
+
+*Cogimur finem demonſtrationis à Theonis demonſtrato variare: concludit enim Theon impoßibile eſſe duos angulos æquos eſſe, ſiue rectos, cùm ſint in eodem plano, licet 14 primi aliud concludat, ſcilicet non impoßibile eſſe, ſed ex illo ſequetur tutius, eoſdem angulos inæquales eſſe, & rectos, quo impoßibile oſtenditur, vt diximus, non autem binas rectas ad aliam angulos rectos in eodem plano efficere.*
+
+<!-- Signature: N n -->

@@ -1,0 +1,20 @@
+<!-- Running title: LIBER DECIMVS. -->
+<!-- Page number: 131 -->
+
+*Comprehendatur area A B ſub certa A G & apotome quinta A D: Dico rectam quæ aream A B poteſt, dici cum certo medium totum efficientem. Quoniam apotome quinta eſt A D, congruat illi D I, & reliqua vt prioribus conſtruantur. Rectæ itaque A I & D I certæ potentia tantùm erunt commenſurabiles, per 73 huius. Et quia congruens D I certæ propoſitæ A G eſt longitudine commenſurabilis, per quintam diffinitionem apotomarum. Reliqua A I eidem A G (per coroll. ſecundum decimæ huius) longitudine incommenſurabilis erit. Quare medium erit A K, per 21 huius. Certum item erit D K, per 19 huius, & eius dimidium E K certum, per coroll. 23 huius. Quia verò ad maiorem A I applicatur quod ſub A Z Z I, defficiens ſpecie quadrata, æquum ei quod à dimidia minoris D I, & maior A I maius poteſt minore D I à ſibi longitudine incommenſurabili, cùm ſit apotome quarta A D, per quintam diffinitionem apotomarum. Ipſa igitur A I ſecta eſt in A Z Z I longitudine incommenſurabiles, per ſecundam partem 18 huius. Et ideo (per primam ſexti) A C Z K incommenſurabilia erunt. Cùm autem quod ex L O quadratum L M æquum ſit ipſi A C, quod verò ex N X ipſi Z K. Incommenſurabilia erunt L M & N X quadrata. Et proinde rectæ L O O N (ipſa potentes) incommenſurabiles erunt potentia, per quartam diffinitionem huius. Quia verò compoſitum ex earum quadratis L M N X (ſcilicet totum A K ipſis æquum) medium eſt. Quod verò ſub ipſis L O O N contentum L X (cum O N & O X ſint æquales) fuit æquum ipſi E K certo. Illud ideo L X certum erit: Duæ itaque rectæ, L O O N potentia ſunt incommenſurabiles, efficientes compoſitum ex earum quadratis L M N X medium. Quod verò ſub ipſis L O O N (vel O X) rectangulum L X certum. Reliqua igitur L N vocatur cum certo medium totum efficiens, per 77 huius. Quæ quidem L N poteſt quadratum S H, ipſi A B (ex conſtructione) æquum, & exinde idem poteſt A B ſub certa A G & apotome quinta A D comprehenſum, ipſa L N cum certo medium totum efficiens vocata. Si igitur areola comprehendatur, &c.*
+
+[Diagram: rectangle with points D, E, Z, I along the top, A at upper left, and G, B, T, C, K along the bottom]
+
+[Diagram: square with diagonal, labelled L and O at top, S and X at the sides, R, H and M at the bottom]
+
+## Propoſitio nonageſimaſexta.
+
+Si areola comprehendatur ſub Certa & Apotome ſexta, quæ areolam poteſt, eſt quæ Cum medio medium totum efficit.
+
+*Eſto area A B comprehenſa ſub certa A G & apotome ſexta A D: Dico rectam quæ aream A B poteſt, vocari cum medio medium totum efficientem. Diſponantur eadémque prioribus, tantùm A D ſit apotome ſexta rectæ A I. Quoniam A D eſt apotome, rectæ A I D I certæ ſunt potentia tantùm commenſurabiles, inter ſe. Quia verò eſt ſexta, ipſæ A I D I propoſitæ A G ſunt ſimiliter potentia tantùm commenſurabiles, cum neutra longitudine ipſi A G propoſitæ commenſuretur. Et inſuper maior A I maius poteſt minore D I eò quòd à ſibi longitudine incommenſurabili, per ſextam apotomarum diffinitionem, incommenſurabilia igitur erunt A K & D K, per primam ſexti, & media (per vigeſimamprimam huius) ſub A I A G & ſub A G D I contenta. Medium igitur erit E K ipſius D K dimidium, per coroll. 23 huius, & incommenſurabile ipſi A K, per ſecundum coroll. 10 huius. Quia item A I tota plus poteſt ipſa D I ab incommenſurabili, applicatum ſub A Z Z I ipſam ſecat per incommenſurabiles A Z Z I longitudine, per ſecundam partem decimæoctauæ huius. Et ideo (per primam ſexti) incommenſurabilia ſunt A C Z K. Quæ cum æqualia ſint quadratis L M N X ipſarum L O O N, Rectæ L O O N potentia incommenſurabiles erunt. Efficiunt autem compoſitum ex earum quadratis L M N X, æquum ipſi A K medio, per conſtructionem. Illud itaque compoſitum medium erit. Quod verò ſub ipſis L O O N (vel O X) ſcilicet L X, æquum ipſi E K, medio oſtenſo, erit medium. Incommenſurabile eſt autem illud L X compo*
+
+[Diagram: rectangle with points D, E, Z, I along the top, A at upper left, and G, B, T, C, K along the bottom]
+
+[Diagram: square with diagonal, labelled I and O at top, S and X at the sides, R, H and M at the bottom]
+
+<!-- Signature: K k -->

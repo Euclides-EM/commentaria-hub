@@ -1,0 +1,21 @@
+<!-- Running title: EVCL. ELEMENT. GEOM. -->
+
+Sint tres numeri A B G proportionales A ad B, vt B ad G: Dico ſub extremis A & G cõprehenſum æquũ eſſe ei, qui à medio B fit, ponatur medio B æqualis D: erit igitur D ad G vt B ad G (per 7 quinti) & proinde A ad B, vt D ad G. Qui itaque ſub A & G extremis, æquus eſt ei, qui ſub B & D mediis, per præcedẽtem: atqui ſub B & D æquus eſt ei qui ex B, cùm ſint B & D æquales: qui igitur ſub extremis A & G æquus erit ei, qui à medio B. Ad ſecundum autem, ſupponamus (eiſdem diſpoſitis) eum qui ſub extremis A & G æquum eſſe, ei qui à medio B: Dico ipſos A ad B, vt B ad G eſſe proportionales. Si qui ſub A & G æquetur ei qui ex B fit, æquabitur & ei qui ſub B & D æqualibus, erit itaque (per ſecundam partem præcedentis) ſicut A ad B, ſic D ad G: ſed ſicut D ad G, Sic eſt (per ſeptimum quinti) B ad idem G: ſicut igitur A ad B, ſic erit B ad G. Si igitur tres numeri proportionales, &c.
+
+[Diagram: vertical lines labelled A, B, D and G]
+
+## Propoſitio 21.
+
+Minimi numeri eandem rationem habentium eis, metiuntur eandem rationem habentes æqualiter, antecedens antecedentem, & conſequens conſequentem.
+
+Sint minimi numeri G D & E Z in data numerorum A ad B ratione: Dico G D metiri numerum A æquè vt E Z numerum B. Cùm ex hypotheſi ſint proportionales G D ad E Z vt A ad B. Ipſi G D ad E Z minores, ſunt maiorum A & B pars aut partes, per 4 huius, & eadem, per 21 diffinitionem huius. Sed non ſunt eadem partes: nam ſi G D & E Z ſecarentur in eaſdem partes, ſcilicet G D in G I I D, & E Z in E T T Z, eorum rurſus partes, G I ad E T eandem rationem haberent quam G D ad E Z, per 15 quinti. Non itaque eſſent minimi huius rationis G D ad E Z: Nimirum minores eſſent eorum partes G I ad E T. Sunt itaque G D & E Z (per 4 huius) ipſorum A & B pars. Quare (per tertiam diffinitionem huius) metiuntur numeros A ac B. Et æqualiter G D antecedens ipſum A conſequens, vt E Z ipſum B, per 21 diffinitionem huius, cùm ſint proportionales, ex hypotheſi. Minimi itaque numeri eandem rationem habentium eis metiuntur, &c.
+
+[Diagram: vertical lines labelled G, E, A and B, with points D, Z, I and T marked]
+
+## MONITVM.
+
+Huius theorematis demonſtratio per numeros fieri non poteſt in ratione multiplici, quæ ſemper vnitatem in minimis partibus eius producit. Quare proſequitur Euclides quod diximus, ſuper 13 diffinitione huius, & monito poſt principia huius appoſito, ſcilicet numeros multiplicem habentes rationem, non poſſe in minimos huius rationis numeros cadere, licet aliàs quaſuis proportionalium leges generales ſubeant, non tamen minimi datæ rationis numeri, nec inter ſe primi aliquando dici poſſunt. Ait enim Euclides minimos ſemper metiri maiores eandem rationem habentes, tamen hoc exemplo videmus A & B minimos numeros eſſe triplicis rationis, qui tamen non metiuntur maiores ſcilicet G & D, ſed ſunt eorum partes, contra id quod demonſtratum eſt. Hoc argumentum ſoluitur per ea quæ iam diximus, hoc quidem exemplum in ratione multiplici propoſitum eſſe, cuius nuſquam minimæ partes numeri eſſe poſſunt, cùm non ſit pura numerorum ratio. Quare licet A & B ſint minimi huius rationis numeri, non tamen ſunt minimæ numerorum partes in his multiplicibus rationibus, velut in reliquis, quæ minimas numerorum partes in data ratione numeris depromunt. Multiplices verò vnitate & numero minimas ſuæ rationis partes exibent, non autem numeris, eò quòd ratio multiplex non ſit pura arithmeticorum numerorum ſiue diſcretarum tantùm quantitatum, ſed cadit inter continuam & diſcretam quantitates, ac eius conuerſa. Reliquæ verò tantùm inter diſcretas, per rationis denominationem, ſectas quantitates: non igitur in ratione multiplici minimos haberi numeros dicemus, ſed tantùm in rationibus numerorum. Cæterùm huius theorematis aliquas voces tranſtulimus, ſcilicet antecedentes & conſequentes. Nam vera quantitatum proportionalium relatio, non à magnitudine dependet, ſed à ſitu. Siquidem antecedens alium metitur antecedentem, non eò quòd ſit maior vel minor quantitas, ſed tantùm eò quòd ſimilem ſibi in proportione habeat ſitum. Idem de conſequentibus. Campanus verò id inſequi voluit cùm dixit, Quiſque ſuum correlarium (pro relatiuo) ſecundo exemplo.
+
+[Diagram: vertical lines labelled A, B, G and D]
+
+<!-- Catchword: Propoſi -->

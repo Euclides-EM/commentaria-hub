@@ -2,31 +2,73 @@
 
 # Run LLM Corrector
 
-## Paris_1566
-
-Facsimile is public domain, I run the full OCR pipeline.
-
-**Status**: Running. Done 167/441 with Codex. Done 43 with Fable. Another 89 with Codex. 33 pages remain.
-
-**Next steps:** Run LLM corrector: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc
-
 ## Basel_1562
 
 The OCR stage has already been completed on an old facsimile, that has been replaced since with a public domain facsimile.
 
 This means we need to re-align ALTOs when running LLM.
 
-**Next steps:** Realign ALTOs and run LLM.
+**Next steps:** Liri on to Realign ALTOs and run LLM.
+
+# Alignment
 
 ## The_Hague_1758
 
 Data set is public domain. I run the full OCR pipeline.
 
-**Status**: Running. Done 123/410 with Codex. Continuing with Fable. 156 pages remain.
+Run the LLM corrector: https://euclides.huma-num.fr/hub/index.h?datasetId=ds_9m13nh&annotationId=ann_6jfdp6&currentPageOrKey=61&annotationTab=details with both Fable and Codex Sol, in parts.
 
-**Next steps:** Liri to run the LLM corrector: https://euclides.huma-num.fr/hub/index.h?datasetId=ds_9m13nh&annotationId=ann_6jfdp6&currentPageOrKey=61&annotationTab=details
+Fable usage:
 
-# Alignment
+  - **Requests:** 382
+- **Input tokens:** 1,536
+- **Cached tokens:** 6,908,995
+- **Cache creation tokens:** 2,894,093
+- **Output tokens:** 493,701
+- **Reasoning tokens:** 0
+- **Total tokens:** 10,298,325
+- **Cost:** $90.53
+
+### Codex — GPT-5.6 Sol
+
+- **Requests:** 28
+- **Input tokens:** 1,675,677
+- **Cached tokens:** 1,338,624
+- **Cache creation tokens:** 0
+- **Output tokens:** 81,425
+- **Reasoning tokens:** 0
+- **Total tokens:** 1,757,102
+
+**Next steps:** Mia alignment
+
+## Paris_1566
+
+Facsimile is public domain, I run the full OCR pipeline.
+
+Run LLM corrector: https://euclides.huma-num.fr/hub/index.html?datasetId=ds_sfmbfc with both Fable and Codex Sol, in parts.
+
+Codex usage:
+
+- **Requests:** 246
+- **Input tokens:** 23,798,002
+- **Cached tokens:** 19,914,368
+- **Cache creation tokens:** 0
+- **Output tokens:** 1,209,926
+- **Reasoning tokens:** 0
+- **Total tokens:** 25,007,928
+
+Fable usage:
+
+- **Requests:** 234
+- **Input tokens:** 1,020
+- **Cached tokens:** 5,293,561
+- **Cache creation tokens:** 2,219,009
+- **Output tokens:** 1,137,298
+- **Reasoning tokens:** 0
+- **Total tokens:** 8,650,888
+- **Cost:** $107.55
+
+**Next steps:** Mia alignment
 
 ## Paris_1667
 

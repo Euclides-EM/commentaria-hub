@@ -1,0 +1,5 @@
+<!-- Running title: EVCL. ELEMENT. GEOM. -->
+
+nitorum propoſitorum infinita eſſent, ſiue in augmentum, aut equidem in decrementum obſequia. Cùm autem his quinto & ſexto, vtræque & certarum, & incertarum quantitatum leges præſcribendæ ſint, generalia tantùm proferemus elementa, æque in certas vt in incertas quantitates imperantia, nullo earum perſpecto diſcrimine, quouſque ad decimum librum præfatis prius arethmeticorum elementorum tribus libris nos conferamus. Sed quia incertarum quantitatum methodus, ex certarum traditione patefieri debet, ſuſcipiet hoc quinto Euclides comparandas per multiplicationem, ſeu æque multiplicia magnitudines, quibus adminiculis quantitatum reſpectus, ſiue reſpectuum naturam propalabit, collatis quidem maioribus ad minores, aut certè minoribus ad quantitates maiores, præfata multiplicandi lege. Quãnam verò arte fiant, hæ decrementi multiplicationes, ſeptimo libro dicturi ſumus, ac binis eum ſequentibus, vt tandem decimum attingentes, quantitates numeros recipientes, à quantitatibus numeros non recipientibus ſecernamus: interdum quæ vtriſque conuenient fundamenta iacientes.
+
+<!-- Catchword: EVCLID -->

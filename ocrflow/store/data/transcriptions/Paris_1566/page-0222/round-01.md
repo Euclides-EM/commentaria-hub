@@ -1,0 +1,21 @@
+<!-- Running title: LIBER DECIMVS. -->
+<!-- Page number: 97 -->
+
+tionem, tamen eam habent habitudinem ſiue reſpectum, qui ratio dicitur inter quantitates eiuſdem generis, tertia diffinitione quinti, vt latius proœmio diximus. Quare poſthac cùm omnem irrationalis aut rationalis, licet tritam denominationem, ab huius decimi libri theorematis (lineis ac planis immerito attributam) auferemus, eamque rationalis aut irrationalis vocem in certam aut incertam (propriam earum denominationem) conuertemus, Id nos feciſſe, vt veram harum quantitatum determinatarum aut indeterminatarum ſignificationem propria voce reſonemus. Quinetiam vt impropriarum dictionum (rationalis & irrationalis) alluſionem euitemus, eos qui hæc legerint, arbitrari precamur. Omnium igitur ſibiinuicem incommenſurabilium quamlibet certam dicere poterimus, cùm ea nobis propoſita ea de cauſa fuerit, vt illi reliquas conferentes certas aut incertas dicamus, hypotheſis etenim lineam proponens eam certam denominat, vt ait quinta diffinitio, quæ propoſitam certam dicit, eò quòd propoſita fuerit.
+
+## Diffinitio octaua.
+
+Et quod quidem à propoſita recta linea quadratum certum.
+
+## Diffinitio nona.
+
+Et quæ huic commenſurabilia, certa.
+
+## Diffinitio decima.
+
+Quæ verò huic incommenſurabilia, incerta dicuntur.
+
+Vbi expoſuit Euclides primi generis quantitatum naturam (quod eſt longitudo ſiue linea) ad ſecundum properat eiuſdem quantitatis genus, hoc eſt, ad ſuperficiem, quæ longum & latum continet. Ait igitur quadratum quod fit ex propoſita recta linea (ea inquam quæ certa ſuppoſita fuit) certum ideo eſſe, quòd à certa recta ſeſe multiplicante (veluti in numeris) naſcatur. Et inſuper quæ huic certo quadrato quadrata, areæ, ſuperficies, ſiue quælibet plana commenſurabilia fuerint, certa ſimiliter vocari præcipit. Cùm enim ſatis ſuperque dixerimus commenſurationis originem à numeris prodiiſſe, eò quòd omnes numeros metiatur vnitas. Præterea numeros ex ſe quantitates non eſſe, ſed quantitatibus adaptabiles. Si quantitati cuidam applicetur numerus, eam in totidem æquas partes ſectam eſſe, quot ſunt vnitates in eo numero intelligemus. Si enim illæ vnitates aliam quantitatem metiantur, alia quauis licet repetitione, erunt commenſurabiles (ex prima diffinitione huius) illæ magnitudines. Si itaque binæ lineæ æquales fuerint, æquales vnitates ac vnitatum æquam ſuſcipient multitudinem. Et igitur ſub illis comprehenſum quadratum vnitatibus conſtat ab earum linearum æquis vnitatibus originem ducentibus. Quinetiam naturam illius plani ſequentibus, nempe quadratis, cùm ſub æqualibus contineantur vnitatibus. Si itaque rectæ illæ æquales (hoc eſt, vnica illa certa bis ſumpta) quadratum ſuſcipiant, illud ideo certum erit, quod ex eiſdem propoſitæ lineæ vnitatibus generari potuerit. Quia verò quælibet plana eidem quadrato commenſurabilia eadem menſura metiri poteſt, hæc menſura vnitatis vices vtrumque planum numerantis gerit, ac idcirco illa plana quæ ab eiſdem vnitatibus compoſita diuerſa quauis multitudine fuerint, commenſurabilia dicemus adinuicem, cùm illis eædem applicentur vnitates. Quòd ſi lineæ propoſitæ alia comparetur, potentia, tantùm commenſurabilis longitudine verò nequaquam, perſpicuum erit, comparatæ longitudinem (ſeorſum ſumptam) incertam eſſe, potentiam verò certam. Quare lineæ denominationem certam dicemus: Sufficit namque potentiæ aut longitudinis commenſuratio, ad certæ denominationem acquirendam: Quòd ſi ipſi propoſito certo quadrato ſiue plano, alia comparetur ſuperficies, cuius nullæ vnitates ipſum metiri poſſint quadratum, perſpicuum erit ipſas vnitates alienas eſſe ab his quæ eandem quadratam ſuperficiem compoſuerunt. Et proinde ipſi quadrato comparatam ſuperficiem ab alienis vnitatibus compoſitam, incommenſurabilem eſſe. Nam ſi commenſurabiles eſſent, eadem vnitas vtrumque eorum metiretur. Quare merito hanc ſuperficiem (ipſi certæ incommenſurabilem) incertam dicemus, eò quòd ipſam certæ propoſitæ vnitates determinare ſiue certam reddere non valeant. Nam vt diximus, incertarum denominatio quælibet à relatione ipſius propoſitæ certæ dependet, quæcunque ea fuerit in ſpecie, ſiue quauis vnitatis quantitate numeretur.
+
+<!-- Catchword: Mutatur autem -->
+<!-- Signature: Aa iij -->

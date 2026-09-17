@@ -1,0 +1,17 @@
+<!-- Running title: LIVRE CINQUIEME. -->
+<!-- Page number: 179 -->
+
+## DEFINITIONS.
+
+*finition, découle de cette notion de la proportionalité, à ſçavoir,* ſi quatre grandeurs R & P, r & p, ſont proportionelles, les équimultiples de la I & de la III ſont conſtamment ou égaux, ou plus grands, ou plus petits, que d'autres équimultiples de la II & de la IV, comparés chacun à chacun.
+
+*Car les deux raiſons* R : P & r : p *étant ſemblables, en vertu de cette Définition, il ſuit que* R *ſe rapporte à* P *conſidéré comme Tout ou comme partie, de la même manière que* r *ſe rapporte à* p *conſidéré pareillement ou comme Tout ou comme partie; tellement que les moindres termes,* R & r *par exemple, ſont des parties ſemblables des plus grands* P & p. *Les deux raiſons* R : P & r : p *forment donc deux ſujets ſemblables, de la même manière que deux circonférences, & deux rayons tirés à ces circonférences, forment deux figures ſemblables.*
+
+*§. 9. Mais puiſque la diverſité & la diſſimilitude, ne peuvent s'introduire: où l'on ne ſuppoſe que des principes d'identité & de ſimilitude, on ne peut refuſer de recevoir au nombre des axiomes évidens par les notions communes, cette vérité, que* des opérations ſemblables, faites ſemblablement, ſur des Sujets ſemblables, doivent produire des réſultats ſemblables. *Par conſéquent, ſi on multiplie les antécédens* (R & r) *des deux raiſons ſemblables, par le même nombre* m, *& les conſéquens* P & p *par le même nombre* n, *les réſultats ne peuvent manquer de reſter dans le même cas de ſimilitude; & la comparaiſon des équimultiples des antécédens aux équimultiples des conſéquens, doit toujours conduire aux mêmes rapports d'égalité, de majorité, ou de minorité, ſelon quelque multiplication que ce puiſſe être. Car d'abord les raiſons* R : P, & r : p *ſont ſemblables par l'hypothèſe, & les opérations qui produiſent les équimultiples de chaque couple de termes, ſont ſemblables, puiſqu'on les multiplie par le même nombre. De plus, entant que ces équimultiples ſont formés des termes correſpondans c. à. d. des antécédens & des conſéquens, les opérations ſe font ſemblablement dans des Sujets ſemblables. Par conſéquent les réſultats doivent reſter dans cet état de ſimilitude, tellement que ce que le premier antécédent eſt devenu comparativement à ſon conſéquent, le ſecond antécédent le ſoit devenu comparativement au ſien. D'où il ſuit que, s'il y a une égalité entre le multiple du premier antécédent & celui de ſon conſéquent, la même égalité aura lieu entre l'équimultiple du ſecond antécédent & celui de ſon conſéquent, comme on l'a fait voir pour le cas particulier du §. 2.*
+
+*§. 10. Au reſte, cette propoſition n'eſt qu'un cas particulier, de cette autre plus générale, qui pourroit ſe démontrer des mêmes principes, ſçavoir,* ſi quatre grandeurs A, B, C, D, ſont en proportion, & que quatre autres a, b, c, d, le ſoient pareillement, les produits Aa, Bb, Cc, Dd, réſultant de la multiplication des termes correſpondans, ſeront auſſi en proportion.
+
+*Car 1°. la raiſon* A : B *eſt ſemblable à la raiſon* C : D. *2°. Les termes* A & a, B & b, C & c, D & d, *ſe correſpondent ſemblablement dans les deux proportions, 3°. Les produits* Aa, Bb, Cc, Dd *réſultent ſemblablement de la même opération. Par conſéquent la raiſon entre le premier produit* Aa *& le ſecond* Bb, *doit néceſſairement ſe trouver ſemblable à celle qui a lieu entre le troiſième produit* Cc, *& le quatrième* Dd; *ou bien ces qua-*
+
+<!-- Signature: Z 2 -->
+<!-- Catchword: tre -->

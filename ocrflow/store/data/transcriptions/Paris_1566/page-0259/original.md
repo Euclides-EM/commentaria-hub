@@ -1,0 +1,21 @@
+<!-- Running title: EVCL. ELEMENT. GEO. -->
+
+*rum incertarum ſubiiceret, & eodem ordine apothomes diffiniret. Quare potius vt methodi conſeruaret ſeriem hoc ordine binomia diſpoſuiſſe Euclidem cenſendum erit, quàm vt tantùm præſtantius indigniori præficeret: is nanque geometriam, non autem politicam edocet.*
+
+## Propoſitio quadrageſimaoctaua. Problema 13.
+
+Inuenire Ex binis nominibus primam.
+
+[Diagram: horizontal lines with labels D, I, E, T, A, G, B and numerals 12, 16, 4]
+
+*Sumatur (ex corollario primi lemmatis 28 huius) numerus quadratus A B, excedens quadratum G B non quadrato A G. Sit item propoſita Certa D, cui longitudine commenſurabilis eſto E Z, fiat autem (per corollarium ſextæ huius) ſicut A B ad A G numeri, ſic quod ex E Z ad quod ex Z I. Cùm autem A B ſit quadratus, A G verò non, quod ex E Z ad quadratum ex Z I rationem ipſorum A B ad A G habentes, non habent rationem quam quadrati numeri, per corollarium vigeſimæquintæ octaui. Incõmenſurabiles itaque longitudine erunt, ipſæ E Z Z I, per nonam huius, potentia verò commenſurabiles, per ſextam huius, Certa autem eſt E Z, ipſi nanque propoſitæ D ex hypotheſi commenſurabilis. Certa igitur erit & Z I, binæ igitur E Z Z I Certæ ſint potentia tantùm inter ſe commenſurabiles. Tota itaque E I Ex binis eſt nominibus, per 36 huius. Rurſus quia maior eſt E Z ipſa Z I per 14 quinti, cùm earum potentiæ habeant rationem totius A B ad ablatum A G, inueniatur per 15 huius, quo plus poteſt maior minore, ſitq́ quod ex T. Cùm autem quod ex E Z excedat quadratum Z I quadrato ipſius T. Eſt autem A B ad A G vt quod ex E Z ad quadratum Z I: erit conuerſione rationis ſicut A B ad B G exceſſum, ſic quod ex E Z ad quod ex T exceſſum quo antecedens ex E Z excedit ſuum conſequens ex Z I, per corollarium decimænonæ quinti, ſed A B ad B G (ex hypotheſi) rationem habet quadratorum numerorum. Igitur E Z ad T exceſſum rationem habebit quadratorum numerorum, & ideo ipſæ E Z ad T erũt longitudine commenſurabiles, per nonam huius. Atqui quadratum E Z excedit quod ex Z I minore, eò quòd ex T. Maius igitur nomen E Z, plus poteſt minore Z I, eò quòd ex T ſibi longitudine commenſurab:li: éstque maius nomen E Z propoſitæ D longitudine commenſurabile. Inuenimus igitur Ex binis nominibus primam, per primam diffinitionem binomiorum.*
+
+## Propoſitio quadrageſimanona. Problema 14.
+
+Inuenire Ex binis nominibus ſecundam.
+
+[Diagram: horizontal lines with labels D, E, I, A, G, B, T and numerals 12, 9, 3]
+
+*Eadem cum præcedentis hypotheſis ſumpta, ſcilicet ſit (per corollarium primi lemmat. 28 huius) A B numerus quadratus, excedens quadratum G B non quadrato A G aut equidem A B G B non quadrati ſimiles plani, ſeſe excedentes quadrato A G (vtraque enim hypotheſis idem profert) proponatur item Certa D, cui commenſurabilis exiſtat longitudine Z I, quæ certa igitur erit. Sicut autem numerus A G ad A B, ſic (per corollarium ſextæ huius) fiat quod ex Z I, ad quod ex Z E, Certa igitur erit Z E & longitudine ipſi Z I incommenſurabilis, per vltimam partem nonæ huius, cùm habeant Z I & Z E rationem non quam quadrati, per corollarium 25 octaui. Nam vnus ipſorum A B vel A G quadratus eſt, reliquus verò non, ex hypotheſi, potentia tantùm itaque commenſurabiles ſunt inter ſe Z I & Z E rectæ. Tota igitur E I Ex binis eſt nominibus, per 36 huius: Dico quod & ſecunda, cùm ſit vt A G ad A B, ſic I Z ad Z E, Excedit autem A B ipſum A G numero G B, igitur E Z excedet potentia rectam Z I aliquo, quod ſit (per 15 huius) id quod ex T. Erit igitur conuerſione rationis (per corollarium 19 quinti) ſicut A B antecedens ad exceſſum G B quo A B excedit A G conſequens, ſic (potentia) E Z antecedens ad exceſſum T, quo E Z excedit (potentia) ipſum Z I cõſequens, ſed A B ad G B rationem habent quam quadrati, per 26 octaui, cùm ſint (ex hypotheſi) ſimiles plani. Quod igitur ex E Z ad id quod ex T, rationem habent quã quadrati: & proinde (per nonam huius) latera ſcilicet rectas E Z & T habent longitudine commenſurabiles. Maius itaque nomen E Z plus poteſt minore Z I ipſo quod ex T ſibi longitudine commenſurabili. Eſt autem minus nomen Z I longitudine propoſitæ D commenſurabile, ex hypotheſi. Inuenimus itaque E I Ex binis nominibus ſecundam, per ſecundam diffinitionem binomiorum.*
+
+<!-- Catchword: Propoſ. -->

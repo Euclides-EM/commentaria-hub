@@ -1,0 +1,4 @@
+<!-- Running title: LIBER SECVNDVS. -->
+<!-- Page number: 19 -->
+
+producatur DE verſus T coniuncta TI. Quoniam enim recta CZ ſecta eſt bifariam in I, & per inæqualia in E, rectangulum comprehenſum ſub inæqualibus CE & EZ, cum quadrato IE, quæ inter ſectiones eſt, æquum eſt ei quod à media CI (vel IT quæ ex centro) fit quadrato, per 5 huius. Sed ipſi ex IT quadrato æqualia ſunt ex TE & IE quadrata, per 47 primi, cùm ſit rectus TEI angulus. Quod igitur ſub CE EZ cum quadrato rectæ IE, æqualia erunt quadratis ex TE & IE. Commune auferatur quadratum ex IE, ſubeſt rectangulum ſub CE EZ æquum eſſe quadrato ex TE. Cùm enim EZ æqualis ſit ipſi ED, rectangulum ſub binis CE EZ idem erit cum rectangulo CD. Rectangulo igitur CD æquale quadratum ex TE recta deſcriptum erit, & proinde dato rectilineo AB ipſi CD æquali poſito. Dato itaque rectilineo AB æquale quadratum conſtituemus ex TE recta.
