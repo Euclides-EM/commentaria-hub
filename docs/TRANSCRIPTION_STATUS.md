@@ -6,17 +6,36 @@ WIP https://euclides.huma-num.fr/hub/?datasetId=ds_9ni7al
 
 # Run LLM Corrector
 
+# Alignment
+
 ## Basel_1562
 
 The OCR stage has already been completed on an old facsimile, that has been replaced since with a public domain facsimile.
 
-This means we need to re-align ALTOs when running LLM.
+Re-aligned ALTOs (-1 offset) then run LLM.
 
-**Current status**: ALTOs shifted locally (delta of -1). Running with Fable 39/413. Continuing with Codex. Remaining 98 pages.
+Fable:
 
-**Next steps:** Liri on to Realign ALTOs and run LLM.
+- **Requests:** 39
+- **Input tokens:** 170
+- **Cached tokens:** 844,396
+- **Cache creation tokens:** 349,874
+- **Output tokens:** 126,374
+- **Reasoning tokens:** 0
+- **Total tokens:** 1,320,814
+- **Cost:** $14.30
 
-# Alignment
+Codex:
+
+- **Requests:** 174
+- **Input tokens:** 16,423,825
+- **Cached tokens:** 13,554,432
+- **Cache creation tokens:** 0
+- **Output tokens:** 838,437
+- **Reasoning tokens:** 0
+- **Total tokens:** 17,262,262
+
+**Next steps:** Mia alignment(?)
 
 ## The_Hague_1758
 
