@@ -8,39 +8,12 @@ WIP https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq
 
 ## Antwerp_1654
 
-**Next steps:** Liri to run the LLM Corrector on:
+Run the LLM Corrector on:
 https://euclides.huma-num.fr/hub/?datasetId=ds_9ni7al&annotationId=ann_fy0hyh&currentPageOrKey=209&annotationTab=text
 
+**Status**: Running LLM
+
 # Alignment
-
-## Basel_1562
-
-The OCR stage has already been completed on an old facsimile, that has been replaced since with a public domain facsimile.
-
-Re-aligned ALTOs (-1 offset) then run LLM.
-
-Fable:
-
-- **Requests:** 39
-- **Input tokens:** 170
-- **Cached tokens:** 844,396
-- **Cache creation tokens:** 349,874
-- **Output tokens:** 126,374
-- **Reasoning tokens:** 0
-- **Total tokens:** 1,320,814
-- **Cost:** $14.30
-
-Codex:
-
-- **Requests:** 174
-- **Input tokens:** 16,423,825
-- **Cached tokens:** 13,554,432
-- **Cache creation tokens:** 0
-- **Output tokens:** 838,437
-- **Reasoning tokens:** 0
-- **Total tokens:** 17,262,262
-
-**Next steps:** Mia alignment(?)
 
 ## The_Hague_1758
 
@@ -50,7 +23,7 @@ Run the LLM corrector: https://euclides.huma-num.fr/hub/index.h?datasetId=ds_9m1
 
 Fable usage:
 
-  - **Requests:** 382
+- **Requests:** 382
 - **Input tokens:** 1,536
 - **Cached tokens:** 6,908,995
 - **Cache creation tokens:** 2,894,093
@@ -126,6 +99,36 @@ Full Fable transcriptions exist and have already been manually curated. However,
 **Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
 
 # Manual Curation
+
+
+## Basel_1562
+
+The OCR stage has already been completed on an old facsimile, that has been replaced since with a public domain facsimile.
+
+Re-aligned ALTOs (-1 offset) then run LLM.
+
+Fable:
+
+- **Requests:** 39
+- **Input tokens:** 170
+- **Cached tokens:** 844,396
+- **Cache creation tokens:** 349,874
+- **Output tokens:** 126,374
+- **Reasoning tokens:** 0
+- **Total tokens:** 1,320,814
+- **Cost:** $14.30
+
+Codex:
+
+- **Requests:** 174
+- **Input tokens:** 16,423,825
+- **Cached tokens:** 13,554,432
+- **Cache creation tokens:** 0
+- **Output tokens:** 838,437
+- **Reasoning tokens:** 0
+- **Total tokens:** 17,262,262
+
+**Next steps:** Manually curate the transcriptions.
 
 ## Glasgow_1756
 
@@ -273,8 +276,8 @@ Usage summary:
 - **Pages:** 284
 - **Requests:** 1
 - **Input tokens:** 1,691,046
-    - Cached: 1,574,528
-    - Non-cached: 116,518
+  - Cached: 1,574,528
+  - Non-cached: 116,518
 - **Output tokens:** 19,273
 - **Reasoning tokens:** 0
 - **Total tokens:** 1,710,319
@@ -283,9 +286,9 @@ Usage summary:
 
 **Next steps:** Manually curate the Codex transcriptions.
 
-# Completed 
+# Completed
 
-## Paris_1639  
+## Paris_1639
 
 Full Fable transcriptions exist and have already been manually curated. The facsimile is public domain.
 
@@ -311,7 +314,7 @@ OCR has been completed, but the copyright status is unclear. There is no public 
 
 **Next steps:** Discuss with PIs what to do with editions that do not have a public domain facsimile available.
 
-I could not find any facsimiles with explicit rights for the following works. 
+I could not find any facsimiles with explicit rights for the following works.
 
 Discuss with PIs what to do with these editions. Think of alternatives before the discussion.
 
@@ -322,7 +325,7 @@ Discuss with PIs what to do with these editions. Think of alternatives before th
 
 The following editions have facsimiles that have restrictive rights:
 - London_1678a
-- Basel_1533 
+- Basel_1533
 
 Status is unclear for the following editions:
 - Leiden_1606
