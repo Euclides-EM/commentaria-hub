@@ -17,6 +17,7 @@ from pathlib import Path
 from typing import Optional
 from zipfile import ZipFile
 
+import numpy as np
 import torch
 
 
@@ -192,6 +193,32 @@ def build_manifest(pages_dir: Path, manifest_path: Path) -> int:
     return len(xml_files)
 
 
+def compile_kraken_dataset(manifest_path: Path, dataset_path: Path, seed: int) -> None:
+    """Compile a reproducible 80/10/10 Kraken train/validation/test split."""
+    from kraken.lib.arrow_dataset import build_binary_dataset
+
+    xml_files = [
+        line.strip()
+        for line in manifest_path.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+    if not xml_files:
+        raise RuntimeError(f"No ALTO files listed in manifest {manifest_path}")
+
+    # Kraken 5.3's `ketos compile --random-split` uses NumPy's global RNG but
+    # exposes no seed option. Calling the same compiler API after seeding makes
+    # the split reproducible across identical inputs.
+    np.random.seed(seed)
+    log(f"Compiling Kraken dataset with 80/10/10 random split (seed={seed})")
+    build_binary_dataset(
+        files=xml_files,
+        output_file=dataset_path,
+        format_type="alto",
+        num_workers=1,
+        random_split=(0.8, 0.1, 0.1),
+    )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Train Kraken OCR model from ALTO ZIP exports")
 
@@ -337,14 +364,7 @@ def main() -> int:
     unzip_archives(zip_paths, pages_dir)
     build_manifest(pages_dir, manifest_path)
 
-    run([
-        "ketos",
-        "compile",
-        "-F", str(manifest_path),
-        "--random-split", "0.8", "0.1", "0.1",
-        "-f", "alto",
-        "-o", str(dataset_path),
-    ])
+    compile_kraken_dataset(manifest_path, dataset_path, args.seed)
 
     train_cmd = [
         "ketos",
