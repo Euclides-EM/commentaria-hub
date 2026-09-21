@@ -86,6 +86,17 @@ def copy_alto(alto_dir: Path, output_dir: Path) -> None:
             shutil.copyfile(p, output_dir / p.name)
 
 
+def normalize_alto_image_filenames(alto_dir: Path) -> None:
+    """Remove machine-specific paths before ALTO files leave the GPU worker."""
+    for alto_path in sorted(alto_dir.glob("*.xml")):
+        tree = etree.parse(str(alto_path))
+        file_names = xpath(tree, "//*[local-name()='fileName']")
+        if not file_names:
+            raise RuntimeError(f"ALTO has no source image filename: {alto_path}")
+        file_names[0].text = f"{alto_path.stem}.png"
+        write_xml_atomic(tree, alto_path)
+
+
 def zip_dir(src_dir: Path, dst_zip: Path) -> None:
     dst_zip.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(dst_zip, "w", zipfile.ZIP_DEFLATED) as zf:
@@ -577,6 +588,7 @@ def main() -> int:
             model_ocr(image_dir, alto_dir, output_dir, model_path)
         else:
             raise ValueError(f"unsupported MODE: {mode}")
+        normalize_alto_image_filenames(output_dir)
         result_zip = artifacts_dir / "alto-result.zip"
         zip_dir(output_dir, result_zip)
         upload_result(env("RESULT_UPLOAD_URL"), env("RESULT_UPLOAD_TOKEN"), mode, result_zip)

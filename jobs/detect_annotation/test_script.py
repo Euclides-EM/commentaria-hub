@@ -25,6 +25,27 @@ class XMLAndMaskSafetyTest(unittest.TestCase):
             self.assertEqual(path.read_text(encoding="utf-8"), "original")
             self.assertEqual(list(path.parent.glob(".page.xml.*.tmp")), [])
 
+    def test_normalize_alto_image_filenames_removes_gpu_farm_path(self):
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            alto_dir = Path(directory)
+            alto_path = alto_dir / "page-0008.xml"
+            alto_path.write_text(
+                '<alto><Description><sourceImageInformation><fileName>'
+                '/pbs/home/user/jobs/detect_annotation/run-1/assets/images/page-0008.png'
+                '</fileName></sourceImageInformation></Description></alto>',
+                encoding="utf-8",
+            )
+
+            script.normalize_alto_image_filenames(alto_dir)
+
+            tree = script.etree.parse(str(alto_path))
+            self.assertEqual(
+                script.xpath(tree, "//*[local-name()='fileName']")[0].text,
+                "page-0008.png",
+            )
+
     def test_create_mask_rejects_region_erased_by_ignore_category(self):
         from tempfile import TemporaryDirectory
 

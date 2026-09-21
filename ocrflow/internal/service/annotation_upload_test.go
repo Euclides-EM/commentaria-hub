@@ -2,12 +2,38 @@ package service
 
 import (
 	"errors"
+	"os"
+	"path/filepath"
 	"slices"
 	"testing"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
 )
+
+func TestYoloDirIsComplete(t *testing.T) {
+	t.Parallel()
+
+	dir := t.TempDir()
+	if yoloDirIsComplete(dir) {
+		t.Fatal("empty YOLO directory reported as complete")
+	}
+	if err := os.MkdirAll(filepath.Join(dir, "labels"), 0o755); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(filepath.Join(dir, "labels", "page-0001.txt"), nil, 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if yoloDirIsComplete(dir) {
+		t.Fatal("partial YOLO directory reported as complete")
+	}
+	if err := os.WriteFile(filepath.Join(dir, "labelmap.txt"), []byte("MainZone\n"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if !yoloDirIsComplete(dir) {
+		t.Fatal("completed YOLO directory reported as incomplete")
+	}
+}
 
 func TestMatchingCommentariaFacsimileReturnsAmbiguousNames(t *testing.T) {
 	_, err := matchingCommentariaFacsimile("Paris_1615",

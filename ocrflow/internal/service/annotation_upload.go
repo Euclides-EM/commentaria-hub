@@ -6,6 +6,7 @@ import (
 	"net/url"
 	"os"
 	"path"
+	"path/filepath"
 	"slices"
 	"strings"
 
@@ -43,6 +44,17 @@ func (e *AmbiguousCommentariaFacsimilesError) Error() string {
 	return fmt.Sprintf("multiple matching facsimiles for edition %s: %s", e.EditionID, strings.Join(e.FacsimileNames, ", "))
 }
 
+func yoloDirIsComplete(dir string) bool {
+	// YALTAi writes config.yml and labelmap.txt only after every page has been
+	// converted. Uploaded YOLO datasets commonly use data.yaml instead.
+	for _, name := range []string{"config.yml", "data.yaml", "labelmap.txt"} {
+		if info, err := os.Stat(filepath.Join(dir, name)); err == nil && !info.IsDir() {
+			return true
+		}
+	}
+	return false
+}
+
 func NewAnnotationsUploader(
 	annotationSvc *Annotation,
 	datasetSvc *Dataset,
@@ -72,17 +84,20 @@ func NewAnnotationsUploader(
 // ensureYoloDirForUpload ensures the annotation has a YOLO directory (converting from ALTO if needed).
 // Returns the annotation to use for building the upload path.
 func (a *AnnotationsUploader) ensureYoloDirForUpload(ann *annotation.Annotation, datasetID string, id string) (*annotation.Annotation, error) {
-	if _, err := os.Stat(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
+	yoloDir := a.fileSysMgt.DatasetAnnotationYoloDir(ann)
+	if _, err := os.Stat(yoloDir); err != nil {
 		if !os.IsNotExist(err) {
 			return nil, fmt.Errorf("failed to stat YOLO annotations dir for roboflow upload: %w", err)
 		}
-		converted, err := a.convertAlto2Yolo(datasetID, id)
-		if err != nil {
-			return nil, fmt.Errorf("failed to convert ALTO to YOLO for roboflow upload: %w", err)
-		}
-		return converted, nil
+	} else if yoloDirIsComplete(yoloDir) {
+		return ann, nil
 	}
-	return ann, nil
+
+	converted, err := a.convertAlto2Yolo(datasetID, id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to convert ALTO to YOLO for roboflow upload: %w", err)
+	}
+	return converted, nil
 }
 
 func (a *AnnotationsUploader) doRoboflowUpload(ann *annotation.Annotation, rbu *annotation.UploadRoboflow) error {
