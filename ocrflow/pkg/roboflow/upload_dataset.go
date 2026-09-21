@@ -1,11 +1,14 @@
 package roboflow
 
 import (
-	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
-	"github.com/samber/lo"
 	"path/filepath"
 	"runtime"
+
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
+	"github.com/samber/lo"
 )
+
+const roboflowAPIURL = "https://api.roboflow.com"
 
 type UploadDatasetParams struct {
 	APIKey           string
@@ -49,13 +52,18 @@ func UploadDataset(pythonExecutable string, p *UploadDatasetParams) error {
 	rootDir := filepath.Join(filepath.Dir(filename), "..", "..", "..")
 	scriptPath := filepath.Join(rootDir, "python-tools", "roboflow_upload_dataset.py")
 
-	env := map[string]string{
+	return envexec.PythonCmdWithEnv(uploadDatasetEnv(p), "python", scriptPath)
+}
+
+func uploadDatasetEnv(p *UploadDatasetParams) map[string]string {
+	return map[string]string{
+		// The Roboflow SDK uses the generic API_URL variable for its own API.
+		// Override the Commentaria service's API_URL in this child process.
+		"API_URL":                      roboflowAPIURL,
 		"ROBOFLOW_API_KEY":             p.APIKey,
 		"ROBOFLOW_WORKSPACE_ID":        p.WorkspaceID,
 		"ROBOFLOW_DATASET_PATH":        p.DatasetPath,
 		"ROBOFLOW_PROJECT_ID":          p.ProjectID,
 		"ROBOFLOW_IS_NOT_GROUND_TRUTH": lo.Ternary(p.IsNotGroundTruth, "True", "False"),
 	}
-
-	return envexec.PythonCmdWithEnv(env, "python", scriptPath)
 }
