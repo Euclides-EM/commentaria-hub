@@ -90,11 +90,6 @@ func (a *AnnotationRuleApplier) applyRule(imgPath string, ann *annotation.Annota
 		return a.applyLLMTranscriptionCorrector(imgPath, ann, t)
 	}
 
-	// delete YOLO dir if exists, as it will be invalid after ALTO modification
-	if err := os.RemoveAll(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
-		return nil, fmt.Errorf("failed to remove YOLO dir after ALTO modification: %w", err)
-	}
-
 	// rules that modify ALTO files in a batch:
 	switch t := rule.(type) {
 	case *annotationrule.SlicePages:

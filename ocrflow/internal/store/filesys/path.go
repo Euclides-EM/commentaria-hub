@@ -26,17 +26,9 @@ import (
 //          │  ├─ page-0001.xml
 //          │  ├─ page-0002.xml
 //          │  └─ ...
-//          └─ yolo/
-//             ├─ images/
-//             │  ├─ page-0001.jpg
-//             │  ├─ page-0002.jpg
-//             │  └─ ...
-//             ├─ labels/
-//             │  ├─ page-0001.txt
-//             │  ├─ page-0002.txt
-//             │  └─ ...
-//             ├─ config.yml
-//             └─ labelmap.txt
+//
+// YOLO is an interchange/training format generated in temporary directories;
+// it is not part of the durable per-annotation storage layout.
 
 func (m *Manager) DatasetDir(dsID string) string {
 	return path.Join(m.baseDir, dsID)
@@ -69,10 +61,6 @@ func (m *Manager) baseAnnotationPath(ann *annotation.Annotation) string {
 
 func (m *Manager) DatasetAnnotationAltoDir(ann *annotation.Annotation) string {
 	return path.Join(m.baseAnnotationPath(ann), "alto")
-}
-
-func (m *Manager) DatasetAnnotationYoloDir(ann *annotation.Annotation) string {
-	return path.Join(m.baseAnnotationPath(ann), "yolo")
 }
 
 func (m *Manager) ModelPath(model *model.Model) string {

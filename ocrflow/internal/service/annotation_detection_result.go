@@ -22,10 +22,6 @@ func (a *Annotation) UploadDetectionResult(datasetID string, id string, mode ann
 	}
 	defer release()
 
-	if err := os.RemoveAll(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
-		return nil, fmt.Errorf("failed to remove YOLO dir after ALTO modification: %w", err)
-	}
-
 	altoDir := a.fileSysMgt.DatasetAnnotationAltoDir(ann)
 	if mode == annotation.DetectionModeModelSegment {
 		if err := os.RemoveAll(altoDir); err != nil {

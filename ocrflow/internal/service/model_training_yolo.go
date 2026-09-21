@@ -19,7 +19,7 @@ import (
 func (r *ModelTrainingRemote) submitYOLO(training *model.ModelTraining, progress func(string)) (*model.ModelTraining, error) {
 	mo := training.Model
 
-	tmpDir, err := futils.MkdirTemp("ocrflow-yolo-training-*")
+	tmpDir, err := futils.MkdirTemp("yolo-training")
 	if err != nil {
 		return nil, fmt.Errorf("create YOLO training temp dir: %w", err)
 	}
@@ -81,7 +81,8 @@ func (r *ModelTrainingRemote) stageYOLOTrainingDataset(tmpDir string, refs []*an
 		if !ann.Segmented {
 			return "", 0, fmt.Errorf("base annotation %s:%s is not segmented", ref.DatasetID, ref.ID)
 		}
-		yoloDir, err := r.getOrConvertToYOLO(ann, ref.DatasetID, ref.ID)
+		yoloDir := filepath.Join(tmpDir, "source_yolo", ref.DatasetID+"_"+ref.ID)
+		err = r.convertToTemporaryYOLO(ann, ref.DatasetID, ref.ID, yoloDir)
 		if err != nil {
 			return "", 0, err
 		}
@@ -139,62 +140,63 @@ func (r *ModelTrainingRemote) stageYOLOTrainingDataset(tmpDir string, refs []*an
 	return zipPath, len(samples), nil
 }
 
-func (r *ModelTrainingRemote) getOrConvertToYOLO(ann *annotation.Annotation, datasetID string, annotationID string) (string, error) {
-	yoloDir := r.fileSysMgt.DatasetAnnotationYoloDir(ann)
-	if _, err := os.Stat(yoloDir); err != nil && !os.IsNotExist(err) {
-		return "", fmt.Errorf("stat YOLO dir for annotation %s:%s: %w", datasetID, annotationID, err)
-	} else if err == nil {
-		if _, labelErr := readYoloLabelmap(yoloDir); labelErr == nil {
-			return yoloDir, nil
-		}
-	}
-
+func (r *ModelTrainingRemote) convertToTemporaryYOLO(ann *annotation.Annotation, datasetID string, annotationID string, yoloDir string) error {
 	ds, err := r.datasets.Get(datasetID)
 	if err != nil {
-		return "", fmt.Errorf("get dataset %s for YOLO conversion: %w", datasetID, err)
+		return fmt.Errorf("get dataset %s for YOLO conversion: %w", datasetID, err)
 	}
 	if err := os.RemoveAll(yoloDir); err != nil {
-		return "", fmt.Errorf("clear stale YOLO dir for annotation %s:%s: %w", datasetID, annotationID, err)
+		return fmt.Errorf("clear temporary YOLO dir for annotation %s:%s: %w", datasetID, annotationID, err)
 	}
 	if err := formatcov.Alto2Yolo(r.fileSysMgt.DatasetImagesDir(ds), r.fileSysMgt.DatasetAnnotationAltoDir(ann), yoloDir, 0, "full"); err != nil {
-		return "", fmt.Errorf("convert ALTO to YOLO for annotation %s:%s: %w", datasetID, annotationID, err)
+		return fmt.Errorf("convert ALTO to temporary YOLO for annotation %s:%s: %w", datasetID, annotationID, err)
 	}
-	return yoloDir, nil
+	if err := validateYoloTrainingDir(yoloDir); err != nil {
+		return fmt.Errorf("validate temporary YOLO for annotation %s:%s: %w", datasetID, annotationID, err)
+	}
+	return nil
 }
 
 func readYoloLabelmap(yoloDir string) ([]string, error) {
 	return formatcov.LoadYoloLabelmap(yoloDir)
 }
 
+func validateYoloTrainingDir(yoloDir string) error {
+	return formatcov.ValidateYoloDataset(yoloDir)
+}
+
 func collectYoloSamples(yoloDir string, datasetID string, annotationID string) ([]yoloSample, error) {
-	imageDir := filepath.Join(yoloDir, "images")
-	labelDir := filepath.Join(yoloDir, "labels")
-	entries, err := os.ReadDir(imageDir)
-	if err != nil {
-		return nil, err
-	}
 	var samples []yoloSample
-	for _, entry := range entries {
-		if entry.IsDir() {
+	for _, subDir := range formatcov.SubDirs {
+		labelDir := filepath.Join(yoloDir, subDir, "labels")
+		entries, err := os.ReadDir(labelDir)
+		if os.IsNotExist(err) {
 			continue
 		}
-		ext := strings.ToLower(filepath.Ext(entry.Name()))
-		if ext != ".jpg" && ext != ".jpeg" && ext != ".png" {
-			continue
-		}
-		stem := strings.TrimSuffix(entry.Name(), filepath.Ext(entry.Name()))
-		labelPath := filepath.Join(labelDir, stem+".txt")
-		if _, err := os.Stat(labelPath); err != nil {
-			if os.IsNotExist(err) {
-				continue
-			}
+		if err != nil {
 			return nil, err
 		}
-		samples = append(samples, yoloSample{
-			imagePath: filepath.Join(imageDir, entry.Name()),
-			labelPath: labelPath,
-			name:      datasetID + "_" + annotationID + "_" + stem,
-		})
+		for _, entry := range entries {
+			if entry.IsDir() || strings.ToLower(filepath.Ext(entry.Name())) != ".txt" || entry.Name() == "labelmap.txt" {
+				continue
+			}
+			stem := strings.TrimSuffix(entry.Name(), filepath.Ext(entry.Name()))
+			labelPath := filepath.Join(labelDir, entry.Name())
+			imagePath, err := formatcov.FindYoloImage(labelPath)
+			if err != nil {
+				return nil, err
+			}
+			nameParts := []string{datasetID, annotationID}
+			if subDir != "" {
+				nameParts = append(nameParts, subDir)
+			}
+			nameParts = append(nameParts, stem)
+			samples = append(samples, yoloSample{
+				imagePath: imagePath,
+				labelPath: labelPath,
+				name:      strings.Trim(strings.Join(nameParts, "_"), "_"),
+			})
+		}
 	}
 	return samples, nil
 }

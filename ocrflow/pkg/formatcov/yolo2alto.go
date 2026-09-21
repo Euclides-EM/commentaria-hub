@@ -10,21 +10,23 @@ import (
 	_ "image/png"
 	"log"
 	"os"
-	"path"
 	"path/filepath"
 	"regexp"
 	"strconv"
 	"strings"
 )
 
-var SubDirs = []string{"", "train", "valid", "test"}
+// SubDirs covers the flat layout produced by YALTAi without shuffling and the
+// split layouts commonly produced by YALTAi and Roboflow. Both val and valid
+// occur in real YOLO datasets.
+var SubDirs = []string{"", "train", "val", "valid", "test"}
 
 func Yolo2Alto(src string, dst string) error {
-	lm, err := loadLabelmapFromDataYml(path.Join(src, "data.yaml"))
+	lm, err := LoadYoloLabelmap(src)
 	if err != nil {
-		log.Printf("WARNING: load labelmap from data.yaml failed, this may be ok, trying labelmap.txt: %v", err)
+		log.Printf("WARNING: load YOLO labels from dataset root failed, trying split directories: %v", err)
 	} else {
-		fmt.Println("Loaded labelmap from data.yaml with", len(lm), "labels")
+		fmt.Println("Loaded YOLO label map with", len(lm), "labels")
 	}
 	for _, subDir := range SubDirs {
 		if _, err := os.Stat(filepath.Join(src, subDir, "labels")); os.IsNotExist(err) {
@@ -204,21 +206,9 @@ func convertSingleYoloFile(yoloPath string, dstDir string, otherTags string) err
 		outputBase = p
 	}
 
-	imgFileName := base + ".jpg"
-
-	dir := filepath.Dir(yoloPath)
-
-	candidate1 := filepath.Join(dir, "..", "images", imgFileName)
-	candidate2 := filepath.Join(dir, "../..", "images", imgFileName)
-
-	var imgPath string
-
-	if fileExists(candidate1) {
-		imgPath = candidate1
-	} else if fileExists(candidate2) {
-		imgPath = candidate2
-	} else {
-		return fmt.Errorf("cannot find the image for %s (tried %s and %s)", imgFileName, candidate1, candidate2)
+	imgPath, err := FindYoloImage(yoloPath)
+	if err != nil {
+		return err
 	}
 
 	imgWidth, imgHeight, err := imageSize(imgPath)

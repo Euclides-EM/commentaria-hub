@@ -318,7 +318,7 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFe
 }
 
 func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dstPath string) error) (*annotation.Annotation, error) {
-	_, err := a.datasetSvc.Get(aum.DatasetID)
+	ds, err := a.datasetSvc.Get(aum.DatasetID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
@@ -348,14 +348,23 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewOCRModelDetect(aum.OCRModelID))
 	}
 	dstPath := a.fileSysMgt.DatasetAnnotationAltoDir(ann)
+	var yoloImportDir string
 	if aum.Format == annotation.FormatYolo {
-		dstPath = a.fileSysMgt.DatasetAnnotationYoloDir(ann)
+		yoloImportDir, err = futils.MkdirTemp("yolo-import")
+		if err != nil {
+			return nil, fmt.Errorf("create temporary YOLO import directory: %w", err)
+		}
+		defer os.RemoveAll(yoloImportDir)
+		dstPath = yoloImportDir
 	}
 	if err := save(dstPath); err != nil {
 		return nil, fmt.Errorf("failed to store uploaded annotations: %w", err)
 	}
 	if aum.Format == annotation.FormatYolo {
-		if err := formatcov.Yolo2Alto(a.fileSysMgt.DatasetAnnotationYoloDir(ann), a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
+		if err := formatcov.ValidateYoloImagesAgainstDataset(yoloImportDir, a.fileSysMgt.DatasetImagesDir(ds)); err != nil {
+			return nil, fmt.Errorf("validate uploaded YOLO images against dataset: %w", err)
+		}
+		if err := formatcov.Yolo2Alto(yoloImportDir, a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
 			return nil, fmt.Errorf("failed to convert YOLO annotations to ALTO: %w", err)
 		}
 	}
