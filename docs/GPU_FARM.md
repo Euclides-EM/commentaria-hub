@@ -162,6 +162,45 @@ sbatch job.sbatch
 
 You can exit the server or start another job, the job will run in the background.
 
+## Choosing the wall-time request
+
+The `--time` setting is the maximum elapsed ("wall-clock") time Slurm may run the
+job, not an estimate of how long the job will actually take:
+
+```bash
+#SBATCH --time=15:00:00
+```
+
+The example above allows the job to run for up to 15 hours. Resources are
+released as soon as the job finishes, but Slurm terminates it if it is still
+running when the limit is reached.
+
+Request a realistic duration with some safety margin. Slurm must find an
+uninterrupted scheduling window at least as long as the requested wall time. An
+oversized request can therefore leave a job pending even when `sinfo` reports
+idle GPUs. A typical pending reason is:
+
+```text
+ReqNodeNotAvail, May be reserved for other job
+```
+
+Inspect the job and ask Slurm for an estimated start time with:
+
+```bash
+scontrol show job <JOBID>
+squeue --start -j <JOBID>
+```
+
+For a job that has not started, the time limit can be reduced without cancelling
+and resubmitting it:
+
+```bash
+scontrol update JobId=<JOBID> TimeLimit=15:00:00
+```
+
+Use a limit that the training can safely finish within. A shorter request may
+start sooner, but Slurm will stop the job at that limit if it has not completed.
+
 # Monitoring jobs
 
 Queue:
