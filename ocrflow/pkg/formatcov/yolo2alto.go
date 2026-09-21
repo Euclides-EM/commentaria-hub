@@ -38,6 +38,21 @@ func Yolo2Alto(src string, dst string) error {
 	return nil
 }
 
+// LoadYoloLabelmap loads class names from either of the metadata formats used
+// by YOLO datasets. Uploaded datasets commonly provide data.yaml, while YALTAi
+// conversions provide labelmap.txt.
+func LoadYoloLabelmap(src string) ([]string, error) {
+	labels, dataYAMLErr := loadLabelmapFromDataYml(filepath.Join(src, "data.yaml"))
+	if dataYAMLErr == nil {
+		return labels, nil
+	}
+	labels, labelmapErr := loadLabelmapFromTXTFile(src)
+	if labelmapErr == nil {
+		return labels, nil
+	}
+	return nil, fmt.Errorf("load YOLO labels from data.yaml (%v) or labelmap.txt (%v)", dataYAMLErr, labelmapErr)
+}
+
 //go:embed templates/alto_template.xml
 var altoTemplate string
 

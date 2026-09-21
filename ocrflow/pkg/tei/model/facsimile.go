@@ -24,8 +24,10 @@ type Zone struct {
 	Type  string `xml:"type,attr,omitempty"`
 	Ana   string `xml:"ana,attr,omitempty"`
 
-	ULX float64 `xml:"ulx,attr,omitempty"`
-	ULY float64 `xml:"uly,attr,omitempty"`
+	// A zone origin of (0, 0) is meaningful. Keep these attributes in the XML
+	// rather than dropping zero values via omitempty.
+	ULX float64 `xml:"ulx,attr"`
+	ULY float64 `xml:"uly,attr"`
 	LRX float64 `xml:"lrx,attr,omitempty"`
 	LRY float64 `xml:"lry,attr,omitempty"`
 

@@ -144,7 +144,9 @@ func (r *ModelTrainingRemote) getOrConvertToYOLO(ann *annotation.Annotation, dat
 	if _, err := os.Stat(yoloDir); err != nil && !os.IsNotExist(err) {
 		return "", fmt.Errorf("stat YOLO dir for annotation %s:%s: %w", datasetID, annotationID, err)
 	} else if err == nil {
-		return yoloDir, nil
+		if _, labelErr := readYoloLabelmap(yoloDir); labelErr == nil {
+			return yoloDir, nil
+		}
 	}
 
 	ds, err := r.datasets.Get(datasetID)
@@ -161,18 +163,7 @@ func (r *ModelTrainingRemote) getOrConvertToYOLO(ann *annotation.Annotation, dat
 }
 
 func readYoloLabelmap(yoloDir string) ([]string, error) {
-	raw, err := os.ReadFile(filepath.Join(yoloDir, "labelmap.txt"))
-	if err != nil {
-		return nil, err
-	}
-	var names []string
-	for _, line := range strings.Split(string(raw), "\n") {
-		name := strings.TrimSpace(line)
-		if name != "" {
-			names = append(names, name)
-		}
-	}
-	return names, nil
+	return formatcov.LoadYoloLabelmap(yoloDir)
 }
 
 func collectYoloSamples(yoloDir string, datasetID string, annotationID string) ([]yoloSample, error) {
