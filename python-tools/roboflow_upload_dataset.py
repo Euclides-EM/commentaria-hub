@@ -4,7 +4,6 @@ from urllib.parse import urlsplit
 
 import requests
 import roboflow
-from roboflow.config import API_URL
 
 api_key = os.environ["ROBOFLOW_API_KEY"]
 workspace_id = os.environ["ROBOFLOW_WORKSPACE_ID"]
@@ -19,6 +18,10 @@ def redact_secret(value, secret):
 
 def logged_post(url, *args, **kwargs):
     """Expose the auth response that the Roboflow SDK otherwise hides."""
+    parsed_url = urlsplit(str(url))
+    safe_url = f"{parsed_url.scheme}://{parsed_url.netloc}{parsed_url.path}"
+    print(f"Roboflow auth request: POST {safe_url}", flush=True)
+
     try:
         response = original_post(url, *args, **kwargs)
     except Exception as exc:
@@ -29,12 +32,9 @@ def logged_post(url, *args, **kwargs):
         )
         raise
 
-    parsed_url = urlsplit(str(url))
-    parsed_api_url = urlsplit(API_URL)
-    if parsed_url.netloc == parsed_api_url.netloc and parsed_url.path in ("", "/"):
-        response_body = redact_secret(response.text[:1000], api_key)
-        print(f"Roboflow auth response status: {response.status_code}", flush=True)
-        print(f"Roboflow auth response body: {response_body}", flush=True)
+    response_body = redact_secret(response.text[:1000], api_key)
+    print(f"Roboflow auth response status: {response.status_code}", flush=True)
+    print(f"Roboflow auth response body: {response_body}", flush=True)
 
     return response
 
