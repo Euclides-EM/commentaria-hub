@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=kraken_train
 #SBATCH --partition=gpu_v100
-#SBATCH --gres=gpu:v100:1
+#SBATCH --gpus=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=24G
 #SBATCH --time=16:00:00

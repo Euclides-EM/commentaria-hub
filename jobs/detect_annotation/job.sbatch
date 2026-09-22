@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=annotation_detect
 #SBATCH --partition=gpu_v100
-#SBATCH --gres=gpu:v100:1
+#SBATCH --gpus=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=24G
 #SBATCH --time=12:00:00

@@ -131,13 +131,13 @@ Create a job script:
 vim job.sbatch
 ```
 
-Change the `--partition` and `--gres` lines as needed:
+Change the `--partition` and `--gpus` lines as needed:
 
 ```bash
 #!/bin/bash
 #SBATCH --job-name=hello_gpu
 #SBATCH --partition=gpu_v100
-#SBATCH --gres=gpu:v100:1
+#SBATCH --gpus=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=4G
 #SBATCH --time=00:05:00
