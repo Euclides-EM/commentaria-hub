@@ -15,7 +15,7 @@ WIP https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq
 Run the LLM Corrector on:
 https://euclides.huma-num.fr/hub/?datasetId=ds_9ni7al&annotationId=ann_fy0hyh&currentPageOrKey=209&annotationTab=text
 
-**Status**: Running LLM
+**Status**: Running LLM, Done 38/417
 
 # Alignment
 
