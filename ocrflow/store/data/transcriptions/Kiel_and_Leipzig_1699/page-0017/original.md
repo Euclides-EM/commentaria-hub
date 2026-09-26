@@ -1,26 +1,25 @@
-### Demonstratio II. (Beweiß.)
+[Ornament: Zierleiste (Holzschnitt) aus Rosetten]
 
-Porrò, si linea ab coincidit cum linea AB.
+# Außlegung und Bedeutung derer Zeichen/ welche bey deß Euclidis Erklärung vorkommen.
 
-### Præparatio II. (Vorbereitung)
+1. | Ein gerader Senckstrich bedeutet eine Gleichheit. als A | B, ist so viel als/ A ist gleich oder eben so groß als B.
+2. △ Ein Dreyeck/ es mag spitz- stumpf- oder recht-wincklicht seyn.
+3. ⋀ Ein Winckel.
+4. + Mehr/ oder das Zusammensetzungs-Zeichen. als A + B, ist so viel als/ A mehr B/ oder A zu B gethan.
+5. — Weniger/ oder das Abzugs-Zeichen/ als A — B, ist so viel als/ A weniger B, oder A, von welchem das B abgezogen ist.
+6. ⊣ Das Vergrösserungs-Zeichen. als A ⊣ B, ist so viel als/ A ist grösser als B.
+7. ⊢ Verkleinerungs-Zeichen / als A ⊢ B, ist so viel als/ A ist kleiner als B.
+8. ∟ Rechter Winckel/ als ⋀ A | ∟ das ist/ der Winckel A ist gleich einem rechten Winckel.
+9. ⊾ Zweene rechte Winckel.
+10. = Gerade Nebenstriche/ bißweilen auch ebene Neben-Flächen/ (Parallelæ lineæ.)
+11. ▭ Länglicht Viereck/ Parallelogrammum oblongum.
+12. □ Gleichseitig Viereck/ Quadratum.
+13. ⌂ Ungeschickt Viereck/ Trapezium.
+14. ◠ ◠ Ein Bogen/ Arcus
+15. ◗ Ein Kreyß-Stück/ Segmentum circuli.
+16. ⌐ Ein Winckel-Maß/ Gnomon.
+17. ○ Kreyß/ Circulus.
 
-Linea ac vel in ipsam lineam AC, vel intra in Ag, vel extra in Af cadet.
+<!-- Signature: A -->
 
-[Diagram: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit punktierten Linien zu den Punkten g und f an der Grundlinie]
-
-Si ac cadet intra in Ag.          vel extra in Af.
-Erit BAg ⋏ bac per præparat.  BAf ⋏ bac n. Vorbereit.
-     BAC ⋏ bac per 5 datum    BAC ⋏ bac n. 5. Geg.
-Ergò BAC ⋏ BAg per 1. axioma  BAC ⋏ BAf n. 1. Gr. S.
-
-Neutrum fieri potest. Ergo necessariò cadet linea ac in lineam AC.
-
-### Demonstratio III. (Beweiß.)
-
-Denique: quia lineæ bc ambo termini b & c in ambos lineæ BC terminos B & C cadunt, incidet quoque ipsa linea bc in Basin BC, vel supra, vel infra:
-
-[Diagram: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit punktiertem Bogen unter der Grundlinie BC]
-
-Sed supra vel infra cadere non poterit, alias duæ rectæ describerent figuram, quod est contra axioma 12. n. 12. Gr. S.
-
-<!-- Catchword: Neces- -->
+<!-- Catchword: Deß -->

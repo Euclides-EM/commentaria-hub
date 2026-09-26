@@ -1,39 +1,39 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 365 -->
+<!-- Page number: 379 -->
 
-4. Werde noch ein Strich l gefunden/ zu welchem sich k also / wie cd zu de verhalte.
+9. Aus d werde durch B ein gerader Strich dm gezogen/ welcher den Strich mp in m schneide.
 
-cd : de | k : l n. 12. VI.
+10. Aus m werde gegen pg der Nebenstrich mb gezogen. n. 31. I.
+
+11. Durch B werde auch gegen dq der Nebenstrich on gezogen. n. 31. I.
+
+12. Der Strich AB werde biß f verlängert.
 
 ### Beweiß.
 
-ad : dg | □ ac : □ dh n. 1. VI.
-ad : dg | i : k n. 3. Vorb.
-α Dw. □ ac : □ dh | i : k n. 11. V.
-cd : de | k : l n. 4. Vorb.
-cd : de | □ dh : □ df n. 1. VI.
-β Dw. □ dh : □ df | k : l n. 11. V.
-u. □ ac : □ dh | i : k n. Bew. α
-□ dh , □ df | k : l n. Bew. β
-Dw. □ ac : □ df | i : l n. 22. V.
-i : l | i,k : k,l n. 5. Besch. VI.
-γ Dw. □ ac : □ df | i,k : k,l n. 11. V.
-ad : gd | i : k n. 3. Vorb.
-cd : de | k : l n. 4. Vorb.
-Dw. ad : de | i : l n. 22. V.
-ad, dc : gd, de | i,k : k,l n. 5. Besch. VI.
-Dw. □ ac : □ df | ad, dc : gd, de n. Bw. γ. 11. V.
+|  |  |  |  |
+|---|---|---|---|
+|  | □ dg | □ ih | n. 5. Wirck. |
+|  | △ K | □ ih | n. 3. Wirck. |
+| Dw. | △ K | □ dg | n. 1. Gr. I. |
+|  | □ cn | □ Ad | n. 36. I. |
+| Dw. | □ cn + △ K | □ Ad + □ dg | n. 2. Gr. I. |
+|  | □ dm | □ Ad + □ dg | n. 24. VI. |
+| Dw. | □ cn + △ K | □ dm | n. 1. Gr. I. |
+|  | □ cn | □ cn |  |
+| Dw. | △ K | □ dm — □ cn | n. 3. Gr. I. |
+| oder | ⊡ qBb | □ dm — □ cn | n. 2. Besch. II. |
+| a Dw. | ⊡ qBb | △ K | n. 1. Gr. I. |
+|  | □ fn | □ oC | n. 43. I. |
+|  | □ Cp | □ oC | n. 36. I. |
+| Dw. | □ Cp | □ fn | n. 1. Gr. I. |
+|  | □ oC | □ oC |  |
+|  | □ fo | □ fo |  |
+| Dw. | □ Cp + oC + fo | □ fn + □ oC + □ fo | n. 2. Gr. I. |
+| oder | □ fp | ⊡ qBb | n. 9. Gr. I. q. |
+| Dw. | □ fp | △ K | n. Bew. a. u. 1. Gr. I. |
 
-### Beschluß.
+<!-- Signature: Bbb 2 -->
 
-Haben derowegen gleichwincklichte Nebenstrichichte Vierecke eine solche Verhältnüß zusammen / als diejenige / welche aus ihren Seiten zusammen gesetzet ist. W Z B.
-
-## Der XXIV. Vortrag.
-
-## Das 18. Beweiß-Stück.
-
-In jedwedem nebenstrichichten Viereck sind die
-
-<!-- Signature: Zz 3 -->
-<!-- Catchword: üm -->
+<!-- Catchword: □ fo -->

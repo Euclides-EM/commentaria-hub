@@ -1,35 +1,30 @@
-<!-- Page number: 338 -->
+<!-- Page number: 346 -->
 
 <!-- Running title: Das VI. Buch -->
 
-## Der XII. Vortrag.
+### Beschluß.
 
-## Das 4. Werck-Stück.
+Haben derowegen gleichmässige Dreyecke bey einem gleichmässigen Winckel wechselweiß stehende Seiten. Und die Dreyecke/ welche bey einem gleichmässigen Winckel wechselweiß stehende Seiten haben/ sind gleichmässig. W. Z. B.
 
-Zu dreyen geraden Strichen den Vierten ebenmässigen geraden Strich zu finden.
+## Der XVI. Vortrag.
 
-### Gegebene.
+## Das 11. Beweiß-Stück.
 
-1. Der Strich AB
-2. AC
-3. BD
+Wenn vier ebenmässige Striche gegeben werden/ so ist das von dem ersten und letzten Strich begriffene nebenstrichichte Viereck/ dem von den beyden mitlern Strichen begriffenen Viereck gleichmässig.
 
-### Begehrtes.
+Und wann das von zweyen äusersten Strichen begriffene/ dem von beyden mittelsten Strichen begriffenen Viereck gleichmässig ist/ so stehen auch solche vier Striche in richtiger Ebenmaß.
 
-Vierte ebenmässige Strich ce
+### I. Gegebene.
 
-AB : AC ⊤ BD : ce.
+1. Vier Striche
+a, b, c, d.
+2. Welche ebenmässig
+a : b ⊤ c : d.
 
-[Diagram: Striche A—B und A—B—D—C mit g; darunter ein Winkel aus a mit den Punkten c, e oben und b, d, f auf dem unteren Schenkel]
+### I. Begehrtes.
 
-### Wirckung.
+ad ⌻ bc.
 
-1. Werde ein gerader Strich af gezogen.
-2. Von welchem abgeschnitten werden ab ⊤ AB
-3. Und bd ⊤ BD   n. 3. I.
-4. Aus a wird nach belibigem Winckel der Strich ag gezogen.
-5. Von welchem ac ⊤ AC abgeschnitten wird. n. 3. I.
-6. Werde der gerade Strich bc,
-7. Und gegen diesen Strich bc aus d der gerade Nebenstrich de gezogen. n. 31. I.
+[Diagram: Zwey Rechtecke; das lincke mit den Seiten a, e, d, daneben die einzelnen Striche d, b, c, a; das rechte Rechteck mit den Seiten e, b, f]
 
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Vorbe- -->

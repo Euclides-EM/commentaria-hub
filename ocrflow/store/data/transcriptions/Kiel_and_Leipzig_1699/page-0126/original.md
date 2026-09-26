@@ -1,30 +1,35 @@
+<!-- Page number: 110 -->
+
 <!-- Running title: Das II. Buch -->
 
-<!-- Page number: 108 -->
+4. Und getheilet in d
+5. Daß ad ⊦ bd
+6. ab | ac + cb
+7. ab | ad + bd.
 
-[Diagram: Links ein Quadrat e; daneben vier schmale Rechtecke f, g, h, i mit k, l, n, m oben, unter ihnen der Strich d b c a; rechts ein Quadrat mit gestrichelten Teilungen, Feldern N L G, M K F, I H E.]
+### Vorbereitung.
+
+1. An den Düttel c werde ein Senckstrich ce auffgerichtet. n. 11. Vortr. I.
+2. Senckst. ce | ca n. 2. Vortr.
+3. Auff d werde auch ein Senckstrich dg gesetzet.
+4. Senckstrich dg | da
+5. Werde gezogen gf ⋕ dc
+6. - - - der Zwergstrich gb
+7. - - - Strich ae
+8. - - - - - be
+
+[Diagram: Dreieck über der Grundlinie a d c b mit Spitze e, darin die Punkte g und f, gestrichelte Linien; oben eine Linie von A nach B]
 
 ### Beweiß.
 
-cb | bd — n. 1. Vorber.
-ac | ac
-ac + cb | ac + bd
-cb | cb
-ac + 2cb | ac + cb + bd — n. 2. Gr. I.
-ad | ac + cb + bd — n. 4. Gegeb.
-Dw. ac + 2cb | ad
-u. □ ac + 4 □ acb + □ 4cb | □ ad
-ac + cb | ab
-cb | bc
-□ acb + □ cb | □ abc — n. 3. II.
-4 | 4
-4 □ acb + 4 □ cb | 4 □ abc — n. 6. Gr. I.
-□ ac | □ ac
-u. □ ac + 4 □ acb + 4 □ cb | □ ac + 4 □ abc — n. 2. Gr. I.
-Dw. □ ad | □ ac + 4 □ abc — n. 1. Gr. I.
+ac | cb | n. 3. Gegeb.
+ac | ce | n. 2. Vorber.
+α. Dw. cb | ce | n. 1. Gr. I.
+β. ecb ∠ ∟ | n. 1. Vorbr.
+cbe ∠ ceb | n. 5. I.
+ca | ce | n. 2. Vorbr.
+Dw. cae ∠ cea | n. 5. I.
+ace ∠ ∟ | n. 10. Besch. I.
+cea | ebc | n. 4. I.
 
-### Beschluß.
-
-Muß also allezeit das gleichseytige □ des verlängerten Strichs ad so groß seyn/ als das □, welches vom gantzen Strich ab und dem einen Stück cb begriffen wird/ viermal genom̄en/ samt dem □ des andern Stückes ac. W. Z. B.
-
-<!-- Catchword: Nach -->
+<!-- Catchword: bec -->

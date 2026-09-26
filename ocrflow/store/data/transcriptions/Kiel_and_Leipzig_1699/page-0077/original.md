@@ -1,35 +1,40 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 59 -->
+<!-- Page number: 61 -->
 
-### Beweiß des 3.
+### Beweiß.
 
-        AGH ⋏ GHD           n. 1. Beweiß.
-        AGH ⋏ EGB           n. 15. Vortr.
-β.  Dw.   GHD ⋏ EGB         n. 1. Gr-S.
-
-### Beweiß des 4.
-
-AGH           ⋏ GHD             n. 1. Beweiß.
-        BGH ⋏         BGH
-AGH + BGH ⋏ GHD + BGH   n. 2. Gr-S.
-AGH + BGH ⋏ ⏥            n. 13. Vortr.
-γ. Dw. GHD + BGH ⋏ ⏥     n. 1. und 10. Gr-S.
+ACD ⋏ DCH  n. 4. Wirckung.
+Dw.   AB ╪ CH     n. 27. Vortr.
 
 ### Beschluß.
 
-Werden also die bey denen Neben-Strichen von dem einfallenden Strich gemachte (α) Wechsel-Winckel/ darnach (β) aus- und inwendige Winckel gleich groß/ und (γ) die zweene inwendige Winckel zweyen ⏥ gleich seyn. W. Z. B.
+Ist also dem Strich AB, ein Neben-Strich CH, durch den Düttel C, gezogen W. Z. B.
 
-## Der XXX. Vortrag.
+## Der XXXII. Vortrag.
 
-## Das 21. Werckstück.
+## Das 23. Beweiß-Stück.
 
-Wenn zween Striche neben dem dritten in unveränderter Weite hinlauffen / so sind selbige auch unter sich Neben-Striche.
+Jedwedes Dreyeckes / dessen eine Seite verlängert ist/auswendiger Winckel/ist eben so groß/ als die beeden inwendig gegen überstehende Winckel ; Und jedwedes Dreyeckes drey inwendige Winckel sind zweyen rechten Winckeln gleich.
 
-### Gegebene.                         Begehrtes.
-1. Zween Striche AB und CD        AB ═ CD
-2. Der Strich EF
-3.        AB ╪ EF
-4.        CD ╪ EF
+### Gegebene.                    Begehrte.
+1. △ ABC.                    BAC + ACB ⋏ DBC.
+2. AB verlänget gegen D.     ABC + BAC + ACB ⋏ ⏥
 
-[Diagram: Drei waagerechte Striche AB, EF und CD, geschnitten vom schrägen Strich GH in den Dütteln I, L und K]
+### Vorbereitung.
+
+1. Gegen die Seite AC werde ein Neben-Strich/ und zwar
+2. Aus dem Düttel B gezogen / nemlich BE n. 31. Vortr.
+
+[Diagram: Dreieck ABC, die Seite AB gegen D verlängert, aus B der Strich BE gezogen; punktierter Bogen von C nach E]
+
+### Beweiß.
+
+        AC ╪ BE               n. 1. Vorbereit.
+Dw.   ACB ⋏ CBE  }            n. 29. Vortr.
+und   CAB ⋏ EBD  }
+ACB + CAB ⋏ CBE + EBD         n. 2. Gr-S.
+
+<!-- Signature: H 3 -->
+
+<!-- Catchword: Dw. -->

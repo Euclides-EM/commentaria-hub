@@ -1,34 +1,33 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 283 -->
+<!-- Page number: 291 -->
+
+## Der XXX. Vortrag.
+## Das 30. Beweiß-Stück.
+
+Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte sampt der Vierten zu der Vierten: So wird hingegen ümgekehrt die Erste sampt der Andern / zu der Ersten eine kleinere Verhältnüß / als die Dritte sampt der Vierten zu der Dritten haben.
 
 ### Gegebene.
 
-[Diagram: vier Linien A, B, a, b von verschiedener Länge; auf der Linie a sind die Stücke f und d bezeichnet]
+[Diagram: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]
 
-A : B | a : b
-A ⊣ B
-B ⊣ a
-a ⊣ b
+A + a : a ⊣ B + b : b
 
 ### Begehrtes.
+A + a : A ⊢ B + b : B.
 
-A + b ⊣ B + a
+### Beweiß.
 
-### Vorbereitung.
+|  |  |  |  |
+|---|---|---|---|
+|  | A + a : a ⊣ B + b : b | | n. Geg. |
+| Dw. | A : a ⊣ B : b | | n. 29. V. |
+| und | a : A ⊢ b : B | | n 26. V. |
+| Dw. | a + A : A ⊢ b + B : B | | n. Anh. 28. V. |
 
-1. Von der Grössesten und Ersten Grösse A werde ein Stück e, welches so groß sey / als die Andere Grösse B, abgeschnitten e | B n. 3. I.
+### Beschluß.
+Wenn derowegen die I. sampt der II. zu der II. eine grössere Verhältnüß hat / als die III. sampt der IV. zu der IV. So wird auf verkehrte Art die I. sampt der II. zu der I. eine kleinere Verhältnüß / als die III. und IV. zu der III. haben. W. Z. B.
 
-2. Von der dritten Grösse a werde auch ein Stück f, so groß/ als die vierte Grösse b, abgenommen/ f | b n. 3. I.
+<!-- Signature: Oo 2 -->
 
-3. Dem erst abgeschnittenen Stück e werde die Vierte Grösse beygefüget. e + b
-
-4. Dem andern abgenommenen Stück f werde die Andere Grösse B beygesetzet. f + B
-
-5. Zu denen Ersten beeden e + b werde noch hinzu gethan das Stück/so zuerst übergeblieben/nemlich c e + c + b.
-
-6. Zu denen andern beeden f + B werde das andere übergebliebene d beygethan B + f + d.
-
-<!-- Signature: Nn 2 -->
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Der -->

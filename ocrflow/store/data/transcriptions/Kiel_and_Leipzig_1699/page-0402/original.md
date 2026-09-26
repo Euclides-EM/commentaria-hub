@@ -1,34 +1,35 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 372 -->
+<!-- Page number: 386 -->
 
-2. Unter allen an den Strich ab angeschlagenen nebenstrichichten Vierecken/ das an den halben Strich pb angeschlagene Viereck pe grösser/ als alle andere mangelhaffte an den Strich ap angeschlagene Vierecke.
+wird/ daß die ebenmässigen Seiten nebenstrichicht werden: Alsdenn werden die übrigen Seiten solcher Dreyecke in einem geraden Striche stehen/ (oder einen geraden Strich machen.)
 
-[Diagram: Viereck q, a, p, g unten mit den Punkten d, e, c, i, b, teils mit punctirten Linien gezeichnet]
+### Gegebene.
 
-### Vorbereitung.
+1. Zwey Dreyecke abc und cde, welche
+2. Zwo Seiten ab und ac, zweyen Seiten dc und de, ebenmässig haben. ab : dc | ac : de.
+3. Und mit einem Winckel c zusammen gefüget also/
+4. Daß die ebenmässige Seiten auch nebenstrichicht sind /
 
-1. Aus dem Düttel b werde gegen aq ein gerader Nebenstrich be gezogen. n. 31. I.
+ab ⧣ dc
+ac ⧣ de
 
-2. Biß zu diesem Strich be werde fortgezogen der Strich qic.
+### Begehrte.
 
-3. Aus p werde auch ein Nebenstrich pd gegen aq gezogen. n. 31. I.
+Die übrigen Seiten bc und ce werden einen geraden Strich be machen.
 
-4. Biß zu diesem Strich pd werde aus b durch i der Strich bd gezogen.
-
-5. Aus d werde gegen qc ein Nebenstrich biß an den Strich be, nemlich de gezogen. n. 31. I.
-
-6. Endlich werde der Strich gi biß zu dem Strich de verlängert.
+[Diagram: zwei Dreiecke, ein kleineres mit den Punkten d, e, c und ein grösseres mit den Punkten a, c, b]
 
 ### Beweiß.
 
-□ pi | □ ie n. 43. I.
-□ gc | □ gc
-Dw. □ pi + □ gc | □ ie + □ gc n. 2. Gr. I.
-oder □ pc | □ ge n. 9. Gr. I. q.
-ap | pb n. 7. Geg.
-Dw. □ pq | □ pc n. 1. VI.
-u. □ pq | □ ge n. 1. Gr. I.
-□ pi | □ pi
+|  |  |  |
+|---|---|---|
+|  | ab ⧣ dc | n. 4. Geg. |
+| Dw. | bac ⋀ dca |  |
+| und | cde ⋀ dca | n. 29. I. |
+| Dw. | bac ⋀ cde | n. 1. Gr. I. |
+| und | △ abc ähnlich △ cde |  |
+| und | abc ⋀ dce | n. 6. VI. |
+|  | acb + a ⋀ acb + a |  |
 
 <!-- Catchword: Dw. -->

@@ -1,31 +1,29 @@
-<!-- Page number: 43 -->
+<!-- Page number: 45 -->
 
-<!-- Running title: Euclidis -->
+<!-- Running title: Euclidis. -->
 
-### Beschluß.
-Sind derowegen in jedweden △ zwo Seiten grösser/ als die Dritte. W. Z. B.
+### Wirckung.
 
-## Der XXI. Vortrag.
+1. Ziehe man einen ungeendeten Strich CD
+2. Von diesen Strich CD schneide man ab AC | ac)
+3. Deßgleichen AB | bc)
+4. Wie auch BE | ba) alles n. 3. Vortr.
+5. Werde aus A gezogen der Kreyß CF.
+6. Deßgleichen aus B der Kreyß EF.
+7. Zu dem Düttel F, wo die beeden Kreysse einander durchschneiden/ ziehe man aus A den Strich AF.
+8. und aus B den Strich BF.
 
-## Das 14. Beweiß-Stück.
-
-Wenn in einem Dreyeck / auff einer dessen Seite Endsdüttele/ zween gerade Striche einwerts gesetzet werden; So werden diese beede Striche zwar kleiner seyn/ als die beyden Seiten-Striche des Dreyeckes / sie werden aber einen Winckel / so grösser/ als des Dreyecks Winckel ist/ begreiffen.
-
-### Gegebene. Begerthe.
-1. △ ABC BD + DC ⊢ BA + AC
-2. Zween gerade Striche BD und CD. BDC ⲗ BAC.
-3. Auf die Endsdüttele des Gr-Strichs. B und C
-4. Einwerts auffgesetzet.
-
-### Vorbereitung.
-Es werde der Strich BD biß zu E verlängert.
-
-[Diagram: Dreieck ABC mit A oben, B unten links, C unten rechts; im Innern die Punkte D und E, Striche von B über D nach E und von C nach D und E.]
+[Diagram: Zwei sich durchschneidende punktierte Kreise um A und B; waagerechter Strich C A B E D; Dreieck ABF mit F oben am Schnittpunkt der Kreise; rechts daneben drei Strecken bezeichnet mit c a, a, b b.]
 
 ### Beweiß.
-CED ⲗ CDB |
-BAC ⲗ DEC | n. 16. Vortr.
-Drw. BAC ⲗ CDB n. 1. Grund-S. f.
 
-<!-- Signature: F 2 -->
-<!-- Catchword: CE -->
+AC | ac)
+a. AB | bc)
+BE | ba) nach 3. Vortr.
+AF | AC)
+BF | BE) nach 15. Beschr.
+Dw. ß AF | ac)
+und γ BF | ba) nach 1. Gr-S.
+
+<!-- Signature: F 3 -->
+<!-- Catchword: Be- -->

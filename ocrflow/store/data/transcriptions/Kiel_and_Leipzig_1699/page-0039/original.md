@@ -1,32 +1,31 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 21 -->
+<!-- Page number: 23 -->
 
-Keines von beeden kan seyn/ nach dem 9. GrS. muß derowegen der Strich ac nothwendig auff den Strich AC fallen.
+DA + AC | EA + AB nach 2. Gr.S.
+DAC ⋏ EAB nach 8. Gr.S.
+Dw. DC | EB
+α. und ADC ⋏ AEB } alles nach 4. Vortr.
+β. und ABE ⋏ ACD
 
-Wann nun des Strichs bc beede End-Düttele b und c auff die beeden Endungen des Strichs BC fallen /so muß der Grund-Strich bc entweder auff den Grund-Strich B, oder darüber/ oder darunter fallen.
+BD + DC | CE + EB nach 2. Vortr.
+BDC ⋏ CEB nach Beweiß α.
+δ. Dw. BCD ⋏ CBE
+γ. und BCE ⋏ CBD } alles nach 4 Vortr.
 
-[Diagram: zwey Dreyecke abc und ABC nebeneinander, unter dem zweyten eine punktierte Bogenlinie zwischen B und C]
-
-Uber oder darunter kan er nicht fallen weil sonsten zween gerade Striche eine Gestalt einschliessen würden / welches unmöglich/ nach 12. Grund-Satz.
+ABE ⋏ ACD nach Bew. β
+CBE ⋏ BCD nach Bew. δ
+ABE — CBE ⋏ ACD — BCD nach 3. Gr.S.
+ε. oder ABC ⋏ ACB.
 
 ### Beschluß.
 
-Muß also der Grund-Strich abc auff den Grund-Strich ABC fallen/ und deßwegen mit demselben geschicklich eintreffen / dannenhero auch
+Sind also in dem gleich-schencklichten △ ABC die beeden Winckel auff dem Gr. Strich. ABC ⋏ ACD ε, wie auch unter dem Grund-Strich BCE ⋏ CBD. γ. W. Z. B.
 
-bc | BC
-bca ⋏ BCA
-cba ⋏ CBA
-abc ⏉ ABC
+## Der VI. Vortrag.
 
-alles nach 18. GrS. W. Z. B.
+## Das 3. Beweiß-Stück.
 
-## Der V. Vortrag.
+Wenn in einem △ zweene Winckel/ jedweder jedwedem absonderlich/gleich sind/so sind auch diejenigen Seiten/welche solchen beeden Winckeln gegen überstehen / von gleicher Grösse.
 
-## Das 2. Beweiß-Stück.
-
-In jedwedem gleichseitigen Dreyeck sind die beeden auff dem Grund-Strich stehende Winckel ein ander gleich / und die beeden unter dem Grund-
-
-<!-- Signature: C 3 -->
-
-<!-- Catchword: Strich -->
+<!-- Catchword: Gege- -->

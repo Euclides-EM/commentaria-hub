@@ -1,21 +1,28 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 142 -->
+<!-- Page number: 144 -->
 
-[Diagram: Kreis mit Mittelpunkt b; oberhalb des Kreises der Punkt a, von dem gerade und punktierte Striche durch die Punkte c, d, e, f, g, h, i, k am oberen Kreisbogen gezogen sind; auf dem Kreis ferner die Punkte L und l (waagerechter punktierter Durchmesser), m, n und o unten]
+### Gegebene. — Begehrtes.
 
-### Beweiß.
+1. Der Kreyß bcf.
+2. Düttel a in solchem Kreyß.
+3. Drey gerade Striche von diesem Düttel a zum Umfang gezogen/
+4. Welche gleich lang sind ab | ac | ad
 
-bn | bo — n. 15. Beschr. I.
-ab | ab
-ab + bn | ab + bo — n. 2. Gr. I.
-an ⊢ ab + bn — n. 20. I.
-Dw. an ⊢ ab + bo | ao. — n. 1. Gr. b. I.
+a Der Mittel-Düpffel dieses Kreyses. bcf
 
-ba ⊢ be + ea — n. 20. I.
-ba | bf + fa — n. 9. Gr. q. I.
-Dw. bf + fa ⊢ be + ea — n. 1. Gr. b. I.
-bf | be — n. 15. Besch. I.
-fa ⊢ ea — n. 5. Gr. I.
+### Vorbereitung.
 
-<!-- Catchword: ab -->
+1. Ziehe man die geraden Striche cb und cd.
+2. Theile man dieser Striche jedweden in zween gleiche Theil/
+n. 10. I.
+3. Durch beyder Striche Mittel/ nemlich m und n, werden gerade Senckstriche kh und ef gezogen / n. 11. I.
+
+[Diagram: Kreis mit den Punkten h oben, b links oben, e links, c links unten, k unten, d rechts unten und f rechts; im Innern der Düttel a, die Mittel m und n, mit teils punktierten Strichen verbunden]
+
+### I. Beweiß.
+
+Wolte man sagen/nicht a, sondern ein anderer Düttel were der Mittel-Düpffel/ so würde folgen / daß mehr/ als zween gleichlange Striche aus einem Düttel / so doch nicht der Mittel Düpffel ist / könten zum Umfang gezogen werden / welches aber unmöglich/
+n. 7. III.
+
+<!-- Catchword: II. Be- -->

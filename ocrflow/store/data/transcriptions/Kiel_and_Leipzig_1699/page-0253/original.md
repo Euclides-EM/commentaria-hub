@@ -1,25 +1,32 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 229 -->
+<!-- Page number: 237 -->
 
-|  |  |  |  |
-|---|---|---|---|
-| Dw. | fd | bd | n. 15. IV. |
-| | fd | bd | n. 29. III. |
-| und | fdb | Gleichseitiges △ | n. 23. Besch. I. W. Z. M. |
+[Diagram: vier waagerechte Linien, bezeichnet 2A, 4a, 2B, 4b]
 
-## Der XVI. Vortrag.
+### II. Beweiß.
 
-## Das 16. Werckstück.
+|  |  |  |  |  |
+|---|---|---|---|---|
+| | A | 3a | n. Bew. | ι |
+| | A | a | n. 9. Gr. I. | |
+| Dw. | 2A | 4a | n. 4. Gr. I. | |
+| | B | 3b | n. Bew. | θ |
+| | B | b | n. 9. Gr. I. | |
+| Dw. | 2B | 4b | n. 4. Gr. I. | |
+| [unclear: κ] Und. | 2A + 2B | 4a + 4b | n. 4. Gr. [unclear: g.] I. | |
 
-Dem gegebenen Kreyß ein gleichseitig und gleichwincklicht Funffzehen-Eck einzuschreiben.
+Oder also:
 
-### Gegebenes. — Begehrte.
+### Vorbereitung.
 
-Kreyß abfdea. — 1. Funffzehn-Eck dgafe 2. dem Kreyß eingeschrieben.
+1. A Werde zweymahl/
+2. deßgleichen B zweymahl/ und
+3. a üm die Helffte.
+4. wie auch b üm die Helffte vergrössert.
 
-[Diagram: Kreis mit einbeschriebenem Fünfzehneck, darin punktiert ein Dreieck und ein Fünfeck; Punkte a, b, e, f, g, c, d, n, m]
+[Diagram: vier waagerechte Linien, bezeichnet 2A, 1½a, 2B, 1½b]
 
-<!-- Signature: Ff 3 -->
+<!-- Signature: Gg 3 -->
 
-<!-- Catchword: Wir- -->
+<!-- Catchword: Beweiß -->

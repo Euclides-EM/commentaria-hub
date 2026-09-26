@@ -1,37 +1,36 @@
-<!-- Page number: 39 -->
+<!-- Page number: 41 -->
 
 <!-- Running title: Euclidis. -->
 
-### Beschluß.
-Müssen also jedwedes △es zweene Winckel auff allerley Weise genommen/ kleiner seyn/ als ⊥. W. Z. B.
-
-## Der XIIX. Vortrag.
-
-## Das 11. Beweiß-Stück.
-
-Jedwedes Dreyeckes längste Seite überspannet den grössesten Winckel.
-
 ### Gegebene. Begehrte.
 1. △ ABC
-2. AC ⊣ AB 1. ABC ⲗ BCA.
-3. AC ⊣ CB 2. ABC ⲗ BAC.
-4. AB ⊣ CB 3. ACB ⲗ BAC.
+2. ACB ⲗ ABC. 1. AC ⊢ AB.
+3. BCA ⲗ BAC. 2. BA ⊢ BC.
+4. ABC ⲗ BAC. 3. AC ⊢ BC.
 
-[Diagram: Dreieck ABC mit B oben, A unten links, C unten rechts; Punkte E auf AB, F und D auf AC, punktierte Linien von B nach F und D.]
-
-### 1. Vorbereitung.
-1. Von dem Strich AC werde abgeschnitten AD | AB, n. 3. Vortr.
-2. Werde der Strich BD gezogen.
+[Diagram: Rechtwinkliges Dreieck mit C oben, A unten links, B unten rechts.]
 
 ### Beweiß.
+Es sind die Seiten AC | AB
+oder AC ⊣ AB
+oder AC ⊢ AB.
+Sind AB | AC, so sind auch ACB ⋀ ABC n. 5. Vortrag.
+welches nicht seyn kan / nach 2. Gegebenem
+Ist aber AB ⊢ AC
+so ist auch ACB ⲗ ABC n. 18. Vortr.
+welches abermal nicht seyn kan / n. 2. Gegeben.
+Muß also AB ⊣ AC
+damit auch ACB ⲗ ABC n. 2. Gegeb.
+Gleiche Bewandniß hat es auch mit den andern Seiten und Winckel.
 
-AB ⊢ AC n. 2. Gegeb.
-BA | AD n. 1. Vorber.
-Dw. BDA ⋀ DBA n. 5. Vortr.
-BDA ⲗ BCA n. 16. Vortr.
-Dw. DBA ⲗ BCA n. 1. Gr-S. a.
-ABC ⲗ DBA n. 9. Gr-S.
-Dw. ABC ⲗ BDA n. 1. Gr-S. a.
-und ABC ⲗ BCA n. 1. Gr-S. e.
+### Beschluß.
+Solcher Gestalt muß in jedwedem △ der grösseste Winckel der längsten Seite gegenüber stehen. W. Z. B.
 
-<!-- Catchword: 2. Vor- -->
+## Der XX. Vortrag.
+
+## Das 13. Beweiß-Stück.
+
+In jedwedem Dreyeck sind zwo Seiten zu-
+
+<!-- Signature: F -->
+<!-- Catchword: sam- -->

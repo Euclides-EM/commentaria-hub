@@ -1,39 +1,48 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 245 -->
+<!-- Page number: 253 -->
 
-### I. Beweiß.
+### Gegebene. — Begehrtes.
 
-l | a
-c | a
-d | a — n. 1. Vorb.
-l + c + d | 3a — n. 2. Gr. I.
-l + c + d | A — n. 9. Gr. I.
-δ Dw. A | 3a — n. 1. Gr. I.
-und 3A | 9a — n. 6. Gr. I.
-h | A
-k | A
-m | A — n. 3. Vorb.
-h + k + m | 3A — n. 2. Gr. I.
-h + k + m | C — n. 9. Gr. I.
-δ Dw. C | 3A
-α und C | 9a — n. 1. Gr. I.
-e | b
-f | b
-g | b
-e + f + g | 3b
-e + f + g | B
-B | 3b
-3B | 9b
-n | B
-p | B
-q | B
-n + p + q | 3B
-n + p + q | D
-D | 3B
-3B | 9b
-[unclear: β] D | 9b
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
-<!-- Signature: Hh 3 -->
+A | B — a : A | a : B
+a | 4A
+a | 4B
 
-<!-- Catchword: Vorbe- -->
+### II. Beweiß.
+
+a | a
+A | B
+4A | 4B — n. Geg.
+Dw. a : 4A | a : 4B
+Und a : A | a : B — n. 7. Besch. V.
+
+### Beschluß.
+
+Sind derowegen gleiche Grössen gegen eine Grösse allezeit gleichvielfältig: Und eine einige Grösse ist gegen zwo (oder mehr) gleiche Grössen auch gleichvielfältig. W. Z. B.
+
+## Anhang.
+
+Ebener Gestalt sind gleichgrosse Grössen gegen gleichgrosse Grössen gleichvielfältig.
+
+### Gegebene. — Begehrte.
+
+A B — A : B | a : b
+a / b
+
+### Beweiß.
+
+A | B
+a | b — n. Gegeb.
+A : a | B : b — n. 7. Besch. V. W. Z. B.
+
+## Der VIII. Vortrag.
+
+## Das 8. Beweiß-Stück.
+
+Von ungleichen Grössen ist die Grössere gegen eine einige
+
+<!-- Signature: Ji 3 -->
+
+<!-- Catchword: Grösse -->

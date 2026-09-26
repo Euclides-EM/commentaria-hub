@@ -1,30 +1,39 @@
 <!-- Running title: Das II. Buch -->
 
-<!-- Page number: 96 -->
+<!-- Page number: 98 -->
 
-## Der IV. Vortrag.
+### Nach der Löse-Kunst.
 
-## Das 4. Beweiß-Stück.
+### Gegebene. | Begehrtes.
 
-Wenn ein Strich in zwey Stücke auff waserley weise getheilet ist/ so wird das gleichseitige Viereck des gantzen Strichs eben so groß seyn/ als die beeden gleichseitigen Vierecke der beeden Stücke/ nebst dem Viereck/ so von den beeden Stücken begriffen wird/ zweymahl genommen.
+1. a | AB — aa | bb + 2bc + cc
+2. b + c | AC + CB
+3. a | b + c
 
-### Gegebenes. | Begehrtes.
+### Beweiß.
 
-1. Der gerade Strich AB — □ AB | AC + 2 □ ACB + □ CB
-2. getheilet in C
-3. AB | AC + CB
+a | b + c — n. 3. Gegeb.
+b | b
+ab | bb + bc — n. 3. II.
+a | b + c
+c | c
+ac | bc + bb — n. 3. II.
+ab + ac | bb + 2bc + bb — n. 1. Gr. I.
+b + c | a
+a | a
+ab + ac | aa — n. 2. II.
+Dw. aa | bb + 2bc + bb n. 1. Gr. I. W. Z. B.
 
-### Vorbereitung.
+## Der V. Vortrag.
 
-1. Werde der Strich ab | AB gezogen n. 2. I.
-2. Werde das □ abfd gemacht n. 46. I.
-3. - - Die Seite ab getheilet in c also
-daß ac | AC
-und cb | CB
-4. Es werde auch ad getheilet in e,
-daß ae | AC
-und ed | CB werde n. 3. I.
-5. Werden ek ⧺ ab
-und ci ⧺ ad — n. 31. I.
+## Das 5. Beweiß-Stück.
 
-<!-- Catchword: Beweiß. -->
+Wenn man einen geraden Strich in zween gleiche/ und in zween ungleiche Theile schneidet/ so wird das rechtwincklichte Viereck/ so die beeden ungleichen Theile begreiffen/ samt dem gleichseitigen Vierecke des Mittelstückes/ eben so groß seyn/ als das gleichseitige Viereck des halben Striches.
+
+### Gegebene. | Begehrte.
+
+1. Gerader Strich AD — □ ACD + □ BC | □ AB
+2. In zween gleiche Theil
+in B, als AB | BD
+
+<!-- Catchword: und -->

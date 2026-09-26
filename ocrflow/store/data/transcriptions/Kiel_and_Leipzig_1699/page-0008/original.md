@@ -1,13 +1,15 @@
 <!-- Running title: Vorrede. -->
 
-## Zu dem X. Grundsatz.
+(Operatio)/ bißweilen auch die Vorbereitung (Præparatio): und wenn der Beweiß vollführet ist / so wird der Beschluß angehenget.
 
-(qq) Wenn von zweyen gleichmässigen Winckeln (a und b) einer (a) recht ist/ so ist der andere (b) auch recht.
+Bißweilen wird auch eine Zugabe oder Anhang beygefüget/ wie bey dem VII. und XXIX. Vortrage zu sehen.
 
-[Diagram: schematische Darstellung mit Winkelzeichen]
+Weil aber hernachmahls befunden/ daß auch noch andere Vorträge dergleichen Anhänge nöthig haben/ so kan zum Exempel dem X. Vortrag diese Zugabe angehenget werden:
 
-Die drey Forderungen (oder postulata) habe noch mit einem vermehret/ nemlich: daß man einen Düttel machen könne / und zwar darüm/ weil ich vermercket/ daß Thomas Hobbes in seinem Buche de principiis Geometrarum cap. I. sich daran geärgert/ wann Euclides saget: der Düttel sey ein untheilbahres Zeichen: welches doch vielmehr also zu verstehen/ daß der Düttel ein Zeichen eines untheilbahren Anfangs aller Grössen sey. Weil nun kein Düttel ohne Stifft/ oder sonst einen spitzigen Werckzeug/ kan gemacht werden/ so habe nöthig erach-
+Welche Grössen zu gleichmässigen Grössen gleiche Verhältnüß haben/ die sind gleichmässig.
 
-<!-- Signature: ):( ):( -->
+[Diagram: schematische Darstellung]
 
-<!-- Catchword: tet/ -->
+Wegen der Algebraischen Zeichen/ welche ich gebrauchet/ ist zu mercken/ daß
+
+<!-- Catchword: die -->

@@ -1,34 +1,34 @@
-<!-- Page number: 64 -->
+<!-- Page number: 66 -->
 
 <!-- Running title: Das I. Buch -->
 
-## Der XXXIV. Vortrag.
+### 2. Begebenheit.
 
-## Das 25. Beweiß Stück.
+### Gegebenes. | Begehrtes.
+1. □ ABDC | ABDC ⌻ CDEF
+2. □ CDEF
+3. Grundstrich CD
+4. AE=CD
 
-Aller Nebenstrichichten Vier-Ecke gegen überstehende Seiten und Winckel sind gleich groß/ werden auch von dem Zwerg-Strich in zweene gleiche Theile getheilet.
-
-### Gegebene. | Begehrte.
-Nebenstrichichtes Viereck ABCD | 1. AB | CD
-| 2. AC | BD
-| 3. A ⋀ D
-| 4. B ⋀ C
-| 5. ACD ⩓ ABD
-
-[Diagram: Nebenstrichichtes Viereck (Parallelogramm) ABCD mit punktirter Zwerg-Linie von A nach D]
+[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, F, B, E oben und C, D unten]
 
 ### Beweiß.
 
-AB ⟛ CD n. 35. Beschr.
-Drw. BAD ⋀ ADC n. 29. Vortr.
-AC ⟛ BD n. 35. Beschr.
-Drw. CAD ⋀ ADB n. 29. Vortr.
-AD | AD
-α. Dw. AB | CD
-β. und AC | BD
-γ. und ABD ⋀ ACD
-δ. und ACD ⩓ ABD nach 26. Vortr.
-BAD + DAC ⋀ BDA + ADC n. 2. Gr:S.
-ε. oder BAC ⋀ BDC n. 9. Gr:S. q.
+AB | CD
+FE | CD } n. 34. Vortr.
+Dw. AB | FE n. 1. Gr:S.
+FB | FB
+AB — FB | FE—FB n. 3. Gr:S.
+oder AF | BE
+AC | BD
+FC | ED } n. 34. Vortr.
+Dw. AEF ⩓ BDE n. Zugab. 8. Vortr.
+BFCD ⩓ BFCD
+Dw. △ BFCD + △ AEF | △ BDE + △ BFCD n. 2. Gr:S
+oder ABDC ⌻ CDEF n. 9. Gr:S. q.
+
+### 3. Begebenheit.
+
+[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, B, F, E oben, G in der Mitte und C, D unten]
 
 <!-- Catchword: Be- -->

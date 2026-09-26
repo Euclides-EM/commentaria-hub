@@ -1,34 +1,37 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 266 -->
+<!-- Page number: 274 -->
 
-### Gegebene. | Begehrtes.
+### Begehrtes.
 
-A ________ | a ⊢ b
-a ____
-B ________
-b ____
-
-[Diagram: Strecken A, a, B, b]
-
-A : a | B : b
-A ⊢ B
+a | c
 
 ### Beweiß.
 
-A | 3a
-B | 3b
-A ⊢ B — n. Gegeb.
-Dw. 3a ⊢ B — n. 1. Gr. d. I.
-und 3a ⊢ 3b — n. 1. Gr. b. I.
-Dw. a ⊢ b — n. 7. Gr. p. I.
+|  |  |  |
+|---|---|---|
+| a : b | A : B | ⌉ n. Geg. |
+| A | C | |
+| B | B | |
+| A : B | C : B | n. 7. V. |
+| β Dw. a : b | C : B | n. 11. V. |
+| b : c | B : C | n. Geg: |
+| Dw. c : b | C : B | n. 16. V. |
+| a : b | C : B | n. Bew. β |
+| Dw. a : b | c : b | n. 11. V. |
+| b | b | |
+| und a | c | n. 9. V. |
 
-Wenn derowegen aus Vier Ebenmässigen Grössen die Erste grösser/ als die Dritte/ so ist die Andere auch grösser/ als die Vierte: Und wenn die Erste eben so groß/ als die Dritte/ so ist auch die Andere eben so groß/ als die Vierte: wenn aber die Erste kleiner/ als die Dritte/ so ist die Andere auch kleiner/ als die Vierte. W. Z. B.
+### III. Gegebene.
 
-## Der XV. Vortrag.
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
-## Das 15. Beweiß-Stück.
+A : B | a : b
+B : C | b : c
+A | ⊦ C
 
-Die Theile verhalten sich eben so gegen einander/ wie derselben vielfältige Gantzen: wenn sie nemlich in richtiger Ordnung genommen werden.
+### Begehrtes.
 
-<!-- Catchword: Gege- -->
+a ⊦ c
+
+<!-- Catchword: Beweiß. -->

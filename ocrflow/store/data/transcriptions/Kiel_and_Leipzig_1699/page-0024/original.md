@@ -1,21 +1,21 @@
-<!-- Running title: Beschreibungen. -->
+<!-- Running title: Definitiones. -->
 
-<!-- Page number: 6 -->
+<!-- Page number: 8 -->
 
-XXIV. Ein gleichschencklichtes Drey-Eck (Isoscelium vel æquicrurum) erfordert nur zween gleich-lange Seiten-Striche.
+XXXII. Eine länglichte Raute ( Rhomboides ) hat zwar die gegen einander überstehende Seiten und Winckel unter sich gleich/im übrigen aber ist sie weder gleichseitig/ noch auch gleichwincklicht.
 
-[Diagram: drei gleichschenklige Dreiecke verschiedener Form]
+[Diagram: ein schiefwinkliges Parallelogramm (länglichte Raute)]
 
-XXV. Ein schräges oder schrades Dreyeck (Scalenum) bestehet aus drey ungleichen Strichen.
+XXXIII. Alle übrige Vierecke werden ungeschickte Vierungen (Trapezia) genennet.
 
-[Diagram: drei ungleichseitige Dreiecke]
+[Diagram: drei unregelmäßige Vierecke (Trapeze)]
 
-XXVI. Ein rechtwincklichtes Drey-Eck (Orthogonium vel rectangulum) ist/ welches einen rechten Winckel hat.
+XXXIV. Gerade Neben-Striche (Parallelæ lineæ) sind/ welche auff einer ebenen Fläche ohne auffhören neben einander können verlängert werden/niemals aber zusammen stossen.
 
-[Diagram: drei rechtwinklige Dreiecke]
+[Diagram: zwei parallele punktierte gerade Linien]
 
-XXVII. Ein Stumpff-Wincklichtes Dreyeck ( Amblygonium vel obtusangulum ) ist/ welches einen stumpffen Winckel hat.
+XXXV. Füll-Flächen oder Füll-Münde (Complementa DE & EC) sind zwey Vierecke / durch welche der Zwerg-Strich ( Diagonius vel diameter AB ) der grossen viereckigten Gestalt ACBD, welche in vier Theile getheilet ist/ nicht durchgehet. Die beeden übrigen Vierecke werden umb den Zwerg-Strich stehende Vierecke genennet.
 
-[Diagram: drei stumpfwinklige Dreiecke]
+[Diagram: Parallelogramm ACBD mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Diagonale und Teilungslinien]
 
-<!-- Catchword: XXIIX. -->
+<!-- Catchword: Fo- -->

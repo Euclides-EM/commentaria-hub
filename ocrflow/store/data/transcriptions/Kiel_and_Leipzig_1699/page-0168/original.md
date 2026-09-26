@@ -1,37 +1,30 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 150 -->
+<!-- Page number: 152 -->
 
-Oder:
+### III. Begebenheit.
 
-ab | ae
-bc | cd — n. Angen. und 15. Besch. I.
-ab + bc | ae + cd — n. 2. Gr. I.
-ae + cd | ae + cd
-Dw. de + ae + cd ⊣ ae + cd — n. 4. Gr. I.
-de + ae + cd | ac — n. 9. Gr. q. I.
-Dw. ac ⊣ ab + bc — n. 1. Gr. c.
-Welches aber unmöglich n. 20. I.
+Wenn die beeden Kreyse einander auswendig in k und m anrühren.
 
-Muß also allezeit der gerade Strich / welcher zweene Mittel-Düpffele derer Kreyse/so einander auswendig berühren/ zusammen henget / durch den Anrührungs-Düpffel gehen. W. Z. B.
+[Diagram: zwei einander von aussen berührende Kreise; an der Berührung oben k, darunter m; im linken Kreis der Mittel-Düpffel l, im rechten i; gerade und punktierte Verbindungsstriche]
 
-## Der XIII. Vortrag.
+### Vorbereitung.
 
-## Das 12. Beweiß-Stück.
+1. Ziehe man von dem einen Mittel-Düpffel i einen geraden Strich il zum andern Mittel-Düpffel l.
+2. Aus denen Mittel-Düpffeln i und l werden zum Anrührungs-Düttel k zweene gerade Striche ik und lk gezogen.
 
-Kein Kreyß kan einen andern Kreyß in mehr/ als einem Düttel anrühren/ sie mögen gleich von innen oder von aussen einander berühren.
+### Beweiß.
 
-### Gegebene. — Begehrte.
+kl | lm
+ik | mi — n. 15. Beschr. I.
+ik + kl | lm + mi — n. 2. Gr. I.
+Oder ik + kl | li — n. 9. Gr. q. I.
+Welches aber unmüglich n. 20. I.
 
-1. Zweene Kreyse/
-2. Welche einander anrühren.
+### IV. Begebenheit.
 
-Nicht mehr als ein Anrührungs-Düttel.
+Wenn der kleinere Kreyß den grössern inwendig in q und r berühret.
 
-### I. Begebenheit.
-
-Wann der inwendige Kreyß/ den eussern in c und d anrühret.
-
-[Diagram: zwei Kreise, deren innerer den äusseren oben in c und unten in d berührt; im Innern die Punkte a und b, dazwischen ein punktierter Strich von c nach d]
+[Diagram: zwei Kreise, deren kleinerer den grössern inwendig berühret; oben die Punkte b und r, im Innern o und d, mit punktierten Strichen verbunden]
 
 <!-- Catchword: Vor- -->

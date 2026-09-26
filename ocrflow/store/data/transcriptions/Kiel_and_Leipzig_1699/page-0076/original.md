@@ -1,32 +1,40 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Das I. Buch. -->
 
-<!-- Page number: 58 -->
+<!-- Page number: 60 -->
 
-nommene; Wie auch den auswendigen dem inwendig entgegen stehenden ; Und die beeden inwendig auff einer Seiten befindliche Winckele gleich groß.
+### Vorbereitung.
+
+Durch alle drey Striche AB, EF und CD werde der einfallende Strich GH gezogen.
+
+### Beweiß.
+
+        BIL ⋏ FLK
+        DKH ⋏ FLK   n. 29. Vortr.
+Dw.   DKH ⋏ BIL     n. 1. Gr-S.
+und     AB ╪ CD     n. 28. Vortr.
+
+### Beschluß.
+
+Werden also diejenigen Striche / so neben den dritten in gleicher Weite hinlauffen/ auch Neben-Striche seyn.  W. Z. B.
+
+## Der XXXI. Vortrag.
+
+## Das 22. Werck-Stück.
+
+Gegen einen gegebenen geraden Strich/durch den zur Seiten gegebenen Düttel/ einen Neben-Strich zu ziehen.
 
 ### Gegebene.                    Begehrte.
-1. AB = CD                   1. AGH ⋏ GHD
-2. Einfallender Strich EF    2. BGH ⋏ GHC
-                             3. EGB ⋏ GHD
-                             4. BGH + GHD ⋏ ⏥
+1. Der gerade Strich AB      1. CH = AB
+2.  Der Düttel   C           2. CH durch den Düttel C gezogen.
 
-[Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
+### Wirckung.
 
-### Beweiß des 1. und 2.
+1. Aus dem gegebenen Düttel C wird ein gerader Strich CD nach dem Strich AB gezogen.
+2. Auff den Strich CD und zwar
+3. Auff den Düttel C setze man den Winckel DCH
+4. DCH ⋏ ADC nach 23. Vortr.
+5. Durch H und C ziehe man den Strich CH.
 
-Entweder ist  AGH ⊼ GHD
-        oder  AGH ⊼ GHD
-        oder  AGH ⋏ GHD
-
-Wenn AGH           ⊼ GHD nach Angenommenem
-              BGH ⋏           BGH
-Dw.   AGH + BGH ⊼ GHD + BGH   n. 4. Gr-S.
-      AGH + BGH ⋏ ⏥            n. 13. Vortr.
-Dw.   GHD + BGH ⊼ ⏥            n.1. Gr-S. c.
-
-und werden AB und CD in der gegend B zusammen kommen nach dem Vorsatz (per Lemma) weßwegen sie keine neben-Striche stehen können nach 34. Beschr. welches aber wieder 1. Gegeb.
-Gleiche Bewandniß hat es/ wenn man sagen wolte/es were
-        AGH ⊼ GHD :
-α. muß also nohtwendig   AGH ⋏ GHD.
+[Diagram: Strich AB mit den Dütteln E und D, darüber der Strich CH; punktierte Linien verbinden C, D und H]
 
 <!-- Catchword: Be- -->

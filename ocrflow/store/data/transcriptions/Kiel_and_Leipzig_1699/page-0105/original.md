@@ -1,23 +1,28 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 87 -->
+<!-- Page number: 89 -->
 
-# Das II. Buch Euclidis.
+[Diagram: schiefwincklichtes Viereck mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Zwerg- und Diagonalstrichen]
 
-## Vorbericht.
+## Der I. Vortrag.
 
-Dieweil in diesem Buch solche Auffgaben vorkommen/ welche nicht wol ohne die Lösekunst können auffgelöset werden / so wird nicht undienlich seyn / etliche Beschreibungen und Grundsätze aus gedachter Kunst voranzusetzen.
+## Das 1. Beweiß-Stück.
 
-Die Löse-Kunst (sonst Analysis, Algebra oder Regula Cos genant ) ist eine Wissenschafft/ welche bey aller Grössen Betrachtung das Begehrte/ durch ein oder mehr Gegebene oder Gestandene Dinge/ ausfündig machet.
+Wenn man von zweyen geraden Strichen einen in unterschiedliche Theile zerschneidet/ so werden die rechtwincklichte Vierecke/ welche der ungeschnittene Strich/und die Stücke des getheilten Striches begreiffen/ zusammen eben so groß/ als das recht-wincklichte/von den beeden gantzen Strichen begriffene/ Viereck seyn.
 
-Es gebrauchet sich aber diese Wissenschafft etlicher vortheilhafften Zeichen und Buchstaben/ durch welche sie auff das deutlichste und gewisseste die Auffgaben aufflöset.
+### Gegebene. | Begehrte.
+1. Der Strich AB. | □ be,ac + □ ed,ac + □ da,ac | □ ba,ac
+2. - - - AC. | oder
+3. AB geschnitten in D und E | □ pqn + □ rsl + □ tin | □ bac.
 
-Eine Ziehung (Ductio) wird genennet/ wenn zwo Grössen also zusammen gesetzet werden / daß eine neue Arth von Grössen entstehet. Als wenn eine Länge zu einer Breite kömmet/ so wird eine Fläche daraus/ wenn aber eine Fläche in die Höhe/ oder Tieffe gezogen wird/ so wird ein Leib daraus.
+### Vorbereitung.
 
-In der Rechen-Kunst hat die Vervielfältigung (multiplicatio) eine grosse Verwandschafft mit unserer Ziehung/dahero öffters eines vor das andere genommen wird. Wann mans aber genau betrachtet/ ist ein grosser Unterscheid unter denenselbigen.
+1. Es werde gezogen der gerade Strich ba | AB.
+2. Auff diesen Strich ab, und zwar in den Düttel b, werde ein Senckstrich ac gesetzet nach 10. Vortr. I. B.
+3. ac | AC n. 2. Vortr. des I. Buchs.
+4. Durch den Düttel c werde entgegen ab ein Nebenstrich ch. gezogen/ nach 31. Vortr. I.
+5. Durch b ziehe man gegen über ac , den Nebenstrich bh, nach 31. Vortr. I.
 
-Wenn nun gesetzet wird □ ca,ab: oder □ cab, so heisset es ; der Strich ca gezogen in den Strich ab, das ist/ ein □ , dessen Länge durch ca, und breite durch ab vorgestellet wird.
+<!-- Signature: M -->
 
-Bißweilen wird ein gantzer Strich ( auch wol Fläche oder Leib) durch einen Buchstaben angezeiget/ als ab, welches so viel bedeutet/als der Strich a in den Strich b gezogen.
-
-<!-- Catchword: Wann -->
+<!-- Catchword: 6. Wer- -->

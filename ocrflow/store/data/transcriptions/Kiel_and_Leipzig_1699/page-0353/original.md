@@ -1,40 +1,40 @@
+<!-- Page number: 337 -->
+
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 329 -->
+[Diagram: Strich A—C—B; darunter ein Winkel aus a mit den Punkten c, d oben und b, e, f auf dem unteren Schenkel]
 
-### I. Beweiß.
+### Wirckung.
 
-| bac ⋏ ∟ | n. 2. Gegeb.
-| adb ⋏ ∟ | n. 10. Beschr. I.
-Dw. | adb ⋏ bac | n. 10. Gr. I.
-| abd ⋏ abc | n. 8 Gr. I.
-α Dw. | bad ⋏ acb | n. 32. I.
-u. | △ abd ähnlich △ abc. | n. 1. Beschr. VI.
+1. Man ziehe den Strich af.
+2. Von diesem Strich werde abgeschnitten
+ab ⊤ AB
+3. Deßgleichen be ⊤ AC   n. 3. I.
+4. Aus a werde nach belibigem Winckel gezogen der Strich
+ad
+5. Von diesem Strich werde abgeschnitten
+ac ⊤ AC   n. 3. I.
+6. Es werde der Strich bc gezogen.
+7. Aus e werde gegen den Strich bc der gerade Nebenstrich ed gezogen n. 31. I.
 
-### II. Beweiß.
+### Beweiß.
 
-| bac ⋏ ∟ | n. 2. Geg.
-| adc ⋏ ∟ | n. 10. Beschr.
-| c ⋏ c |
-β Dw. | abc ⋏ adc | n. 32. I.
-u. | △ abc ähnlich △ adc | n. 1. Beschr. VI.
+|  |  |  |
+|---|---|---|
+|  | bc ⊤ ed | n. 7. Wirck. |
+| Dw. | ab : be ⊤ ac : cd | n. 2. VI. |
+|  | ac ⊤ be | n. 5. Wirck. |
+|  | ab ⊤ ab |  |
+| Dw. | ab : ac ⊤ ab : be | n. 7. V. |
+| u. | ab : ac ⊤ ac : cd | n. 11. V. |
+| oder | AB : AC ⊤ AC : cd | n. Anh. 7. V. |
 
-### III. Beweiß.
-
-| adb ⋏ adc | n. 10. Beschr. I.
-| bad ⋏ acb | n. Bew. α.
-| abc ⋏ dac | n. Bew. β.
-Dw. | △ abd ähnlich △ adc | n. 1. Beschr. VI.
+Dw. ist ce der dritte ebenmässige Strich.
 
 ### Beschluß.
 
-Sind derowegen die beyden durch den Senckstrich gemachte Dreyecke dem gantzen rechtwincklichten Dreyecke nicht allein/ sondern auch unter sich gleichähnlich. W. Z. B.
+Ist also zu denen zweyen geraden Strichen ab und ac, oder AB und AC, der Dritte ebenmässige Strich cd gefunden. W. Z. M.
 
-## Der IX. Vortrag.
+<!-- Signature: Uu -->
 
-## Das 1. Werck-Stück.
-
-Von dem gegebenen geraden Strich/ den bebegehrten Theil abzuschneiden.
-
-<!-- Signature: T t -->
-<!-- Catchword: Gege- -->
+<!-- Catchword: Der -->

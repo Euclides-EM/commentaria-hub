@@ -1,34 +1,39 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 25 -->
+<!-- Page number: 27 -->
+
+adb ⋏ abd nach 5. Vortr.
+Drw. cdb ⋏ adb nach 1. Gr.S. d, welches aber unmöglich
+nach 1. Gr.S. c.
+
+Wolte man aber sagen / die beeden andern Striche kämen in den Düttel f zusammen.
+
+so ist ab | AB nach Gegeb. 2.
+DE | AB nach demselben gegeb.
+Dw. ab | DE nach 1. Gr. S.
+af | DE nach angenomn.
+Dw. af | ab nach 1. Gr. S. so unmöglich/ nach 9. Gr. S.
+
+Eben so unmöglich können die beeden Striche in e zusammen kommen.
 
 ### Beschluß.
 
-Weil nun AB weder grösser/ noch kliner seyn kan/ als AC, so folget unümbgänglich/daß AB | AC. W. Z. B.
+Weil nun kein Düttel / ohne allein der Düttel b zu finden / wo die andern beeden Striche zusammen stossen / so müssen sie nothwendig in dem Düttel/ wo die ersten beeden Striche einander berühret/ zusammen kommen. W. Z. B.
 
-## Der VII. Vortrag.
+## Der IIX. Vortrag.
 
-## Das 4. Beweiß Stück.
+## Das 5. Beweiß Stück.
 
-Wenn auff eines Strichs End-Düttel zweene Striche gesetzet werden / und oberhalb in einem Düttel zusammen stossen; Darnach auch zweene andere Striche/ so denen vorigen beeden Strichen/ jedweder jedwedem gleich sind / auff eben desselben Striches Endungen / und zwar auff einerley Weise gesetzet werden/ so müssen sie in eben demselben Düttel/wo die vorigen beeden Striche einander berühret/ auch zusammen kommen.
+Weñ in zweyen Drey-Ecken/ die zween Seiten-Striche des ersten △, denen zween Seiten-Strichen des andern Drey-eckes/ jedweder jedwedem gleich sind / die Grund-Striche aber auch gleich lang sind/ so werden auch die zwischen denen beeden gleich-grossen Seiten begriffene Winckel einander gleich
 
 ### Gegebene. | Begehrtes.
 
-1. Der Strich ac | Die Zusam̃enkunfft der bee-
-2. AB | DE | ab | den Striche de und df in
-3. CB | DF | cb | eben dem Düttel b, wo
-4. AB + CB | DE + DF | ab + cb | die beeden vorigen Stri-
-5. BC auff c | che ab und ac zusammen
-6. AB auff a gesetzt | kommen.
-7. BC und AB zusam̃enkunfft in b
-8. DF auff c
-9. ED auff a gesetzt
-10. Beederseits oberhalb des Strichs ac
+1. Zwey △ △
+2. AB + AC | ED + DF | BAC ⋏ EDF
+3. AB | ED
+4. AC | DF
+5. BC | EF
 
-### Beweiß.
+<!-- Signature: D 2 -->
 
-Wenn die beeden andern Striche nicht in b zusammen kommen / so mögen sie in d an einander stossen. β
-
-<!-- Signature: D -->
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: Be- -->

@@ -1,42 +1,38 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 109 -->
+<!-- Page number: 111 -->
 
-### Nach der Löse-Kunst.
+bec + ebc ∠ ∟ | n. 32. I.
+bec + ebc + cea ∠ ∟ + ebc | n. 2. Gr. I.
+ebc ∠ ebc
+bec + cea ∠ ∟ | n. 3. Gr. I.
+oder bea ∠ ∟ | n. 9. Gr. q. I.
+gdb ∠ ∟
+adg ∠ ∟ | n. 10. Bes. I.
 
-### Gegebene. | Begehrtes.
+---
 
-1. a | ab | dd | bb + 4ac
-2. b | ac
-3. c | cb
-4. a | b + c
-5. d | b + 2c
+dg ⋕ ce | n. 28. I.
+Dw. agd ∠ gef | n. 29. I.
+cae ∠ gef | n. 5. I.
+γ. Dw. cae ∠ agd | n. 1. Gr. I.
+und ad | dg. | n. 6. I.
 
-### Beweiß.
+---
 
-d | b + 2c | n. 5. Gegeb.
-dd | bb + 4bc + 4cc | n. 4. II.
-b + c | a n. 4. Gegeb.
-4c | 4c
-4bc + 4cc | 4ac n. 3. II.
-dd + 4bc + 4cc | bb + 4bc + 4cc + 4ac n. 2. Gr. I.
-4bc + 4cc | 4bc + 4cc
-dd | bb + 4ac | n. 3. Gr. I.
+ec | cb | n. Bew. α.
+□ ce | □ cb | n. 1. Gr. t. II.
+ecb ∠ ∟ | n. Bew. β.
+Dw. □ eb | □ ec + □ cb | n. 47. I.
+2 □ cb | □ ec + □ cb
+Dw. □ eb | 2 □ cb | n. 1. Gr. I.
+und □ eg | 2 □ gf
+□ eg + □ eb | 2 □ cb + 2 □ gf | n. 2. Gr. I.
+□ gb | □ eg + □ eb n. 47. I.
+□ eg + □ eb + □ gb | 2 □ cb + 2 □ gf + □ eg + □ eb | n. 2. Gr. I.
+□ eg + □ eb | □ eg + □ eb
+□ gb | 2 □ cb + 2 □ gf | n. 3. Gr. I.
+gf | cd | n. 36. I.
+□ gf | □ cd | n. 1. Gr. t. II.
 
-W. Z. B.
-
-## Der IX. Vortrag.
-
-## Das 9. Beweiß-Stück.
-
-Wenn man einen geraden Strich in zwey gleiche/ und zwey ungleiche Stücke theilet; So werden der beeden ungleichen Stücke ihre Vierecke/ zweymal so groß/ als das Viereck des halben Striches/ samt dem Vierecke des Mittel-Stückes seyn.
-
-### Gegebene. | Begehrtes.
-
-1. Strich ab | □ bd + □ da | 2 □ bc + 2 □ cd.
-2. Getheilet in c
-3. Daß ac | cb
-
-<!-- Signature: O 3 -->
-
-<!-- Catchword: 4. Und -->
+<!-- Catchword: 2 □ gf -->

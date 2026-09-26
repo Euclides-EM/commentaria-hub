@@ -1,39 +1,29 @@
 <!-- Running title: Das II. Buch -->
 
-<!-- Page number: 100 -->
+<!-- Page number: 102 -->
 
-db + cb | dc — n. 9. G. I.
-ac | ca
-□ db,ac + □ acb | □ dca — n. 1. II.
-□ dca + □ db,ac + □ acb + □ cb | □ ab + □ db,ac + □ acb
-n. 1. Gr. I.
-□ db,ac + □ acb | □ db,ac + □ acb
-□ dca + □ cb | □ ab n. 3. Gr. I.
-
-### Beschluß.
-
-Wird derowegen allezeit das □ der Helffte/ des in gleiche und ungleiche Theil geschnittenen Strichs/ so groß seyn/ als das □ der beeden ungleichen Stücke/ samt den □ des Mittel-Stückes. W. Z. B.
-
-### Nach der Löse-Kunst.
-
-### Gegebene. | Begehrte.
-
-1. Strich a | AD — dc + ee | bb
-2. b + b | AB + BD
-3. a | b + b
-4. d | AC
-5. e | BC
-6. b + e | c
-7. d + e | b
+[Diagram: Senkrechter Strich D B C A links; daran ein Quadrat mit f oben, innen gestrichelte Linien durch c und b, rechts gestrichelt erweitert bis d; unten gestrichelt bis e; Ecken a, c, b, d, e.]
 
 ### Beweiß.
 
-d + e | b — n. 7. Geg.
-dd + 2de + ee | bb — n. 4. II.
-b | d + e — n. 7. Gegeb.
-d | d
-bd | dd + de — n. 3. II.
-dd + 2de + ee + bd | bb + dd + de — n. 2. Gr. I.
-dd + de | dd + de
+ac + cb | ab — n. 9. Gr. q. [unclear: I.]
+□ ac + 2 □ acb + □ cb | □ ab — n. 4. II.
+db | cb
+n. 3. Gegeb.
+ac | ac
+□ acdb | □ acb
+n. 1. Gr. II.
+□ ac + 2 □ acb + □ cb + □ acdb | □ ab + □ acb
+n. 2. Gr. I.
+□ acb | □ acb
+□ ac + □ acb + □ cb + □ acdb | □ ab n. 3. Gr. I.
+da | ac + cd
+ac | ac
+□ dac | □ ac + □ acd
+n. 3. II.
+[unclear: od] | cb + db
+ac | ac
+□ acd | □ acb + □ acdb
+n. 1. II.
 
-<!-- Catchword: de -->
+<!-- Catchword: dac -->

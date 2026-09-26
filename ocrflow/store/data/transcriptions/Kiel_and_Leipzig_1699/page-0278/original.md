@@ -1,35 +1,35 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 254 -->
+<!-- Page number: 262 -->
 
-### Gegebene. — Begehrtes.
+### Gegebene. | Begehrtes.
 
-[Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
+A ______ | A + B + C : a + b + c | A : a
+a __
+B ______
+b __
+C ______
+c __
 
-A ⊣ B — A : a ⊣ B : a
-A | 5a
-B | 3a
+[Diagram: Strecken A, a, B, b, C, c]
 
-### Vorbereitung.
-
-## Des I. Theils.
-
-1. Man nehme A zweymahl
-2. Wie auch B zweymahl
-3. Aber a siebenmahl.
-
-[Diagram: Drey waagerechte Linien, bezeichnet 2A, 7a, 2B]
+A : a | B : b | C : c
 
 ### Beweiß.
 
-A | 5a — n. Geg.
-2A | 10a — n. Vorber. u. 6. Gr. i. I.
-B | 3a — n. Geg.
-2B | 6a — n. Vorber. u. 6. Gr. i. I.
-7a ⊢ 10a — n. 9. Grund. I.
-2A ⊣ 7a — n. 1. Gr. c. I.
-7a ⊣ 6a — n 9. Grund. I.
-Dw. 2B ⊢ 7a — n. 1. Gr. a. I.
-Und A : a ⊣ B : a — n. 8. Beschr. V.
+A ⁘ a
+B ⁘ b | A : a — n. Gegeb.
+C ⁘ c
+Dw. A + B + C : a + b + c | A : a — n. 1. V.
 
-<!-- Catchword: Des -->
+### Beschluß.
+
+Müssen derowegen alle etlicher ebenmässigen Grössen vorgehende zusammen-genommene Grössen zu allen Nachgehenden zusammen-genommenen Grössen sich also verhalten / wie eine der gegebenen Vorgehenden Grössen zu ihrer eigenen Nachgehenden Grösse. W. Z. B.
+
+## Der XIII. Vortrag.
+
+## Das 13. Beweiß-Stück.
+
+Wenn die Erste zu der Andern eben solche Verhältnüß hat/ wie die Dritte zu der Vierten. Die Dritte aber zu der Vierten eine grössere Verhältnüß hat/ als die Fünffte zu der Sechsten: So wird auch die Erste zu der Andern eine grössere Verhältnüß haben/ als die Fünffte zu der Sechsten.
+
+<!-- Catchword: Gegebene. -->

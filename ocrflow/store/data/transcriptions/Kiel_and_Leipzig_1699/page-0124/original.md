@@ -1,38 +1,30 @@
 <!-- Running title: Das II. Buch -->
 
-<!-- Page number: 106 -->
+<!-- Page number: 108 -->
 
-□ ab + □ cb | □ ac + 2 □ acb + 2 □ cb (n. 2. Gr. I
-ac + cb | ab
-cb | bc
-□ acb + □ cb | □ abc — n. 3. II.
-□ □ 2 □ acb + □ 2cb | 2 □ abc □ □ — n. 6. G. i [unclear: I.]
-ab + cb + 2 □ acb + 2 □ cb | 2 □ abc + ac + 2acb + 2 □ cb
-2 □ acb + 2 □ cb | 2 □ acb + 2 □ cb
-□ ab + □ cb | 2 □ abc + □ ac — n. 3. Gr. I.
-
-### Beschluß.
-
-Werden also allezeit die beeden □ □ von dem gantzen Strich ab, und von dem einen Stück cb so groß seyn/ als das zweyfache Viereck/ so von dem übrigen Stück bc und dem gantzen ab begriffen wird/ samt dem □ des andern Stücks ac. W. Z. B.
-
-### Nach der Löse-Kunst.
-
-### Gegebene. | Begehrtes.
-
-1. a | AB — aa + cc | 2ac + bb
-2. b | AC
-3. c | CB
-4. a | b + c
+[Diagram: Links ein Quadrat e; daneben vier schmale Rechtecke f, g, h, i mit k, l, n, m oben, unter ihnen der Strich d b c a; rechts ein Quadrat mit gestrichelten Teilungen, Feldern N L G, M K F, I H E.]
 
 ### Beweiß.
 
-a | b + c — n. 4. Gegeb.
-aa | bb + 2bc + cc — n. 4. II.
-cc | cc
-aa + cc | bb + 2bc + 2cc — n. 2. Gr. I.
-b + c | a
-c | c
-bc + cc | ac — n. 3. II.
-2 | 2
+cb | bd — n. 1. Vorber.
+ac | ac
+ac + cb | ac + bd
+cb | cb
+ac + 2cb | ac + cb + bd — n. 2. Gr. I.
+ad | ac + cb + bd — n. 4. Gegeb.
+Dw. ac + 2cb | ad
+u. □ ac + 4 □ acb + □ 4cb | □ ad
+ac + cb | ab
+cb | bc
+□ acb + □ cb | □ abc — n. 3. II.
+4 | 4
+4 □ acb + 4 □ cb | 4 □ abc — n. 6. Gr. I.
+□ ac | □ ac
+u. □ ac + 4 □ acb + 4 □ cb | □ ac + 4 □ abc — n. 2. Gr. I.
+Dw. □ ad | □ ac + 4 □ abc — n. 1. Gr. I.
 
-<!-- Catchword: 2bc -->
+### Beschluß.
+
+Muß also allezeit das gleichseytige □ des verlängerten Strichs ad so groß seyn/ als das □, welches vom gantzen Strich ab und dem einen Stück cb begriffen wird/ viermal genom̄en/ samt dem □ des andern Stückes ac. W. Z. B.
+
+<!-- Catchword: Nach -->

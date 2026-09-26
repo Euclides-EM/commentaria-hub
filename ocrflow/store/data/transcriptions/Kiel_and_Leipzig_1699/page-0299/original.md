@@ -1,27 +1,34 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 275 -->
+<!-- Page number: 283 -->
 
-### Beweiß.
+### Gegebene.
 
-|  |  |  |
-|---|---|---|
-| a : b | A : B | ⌉ n. Geg. |
-| A | ⊦ C | |
-| B | B | |
-| A : B | ⊦ C : B | n. 8. V. |
-| γ Dw. a : b | ⊦ C : B | n. 13. V. |
-| b : c | B : C | n. Geg. |
-| Dw. c : b | C : B | n. 16. V. |
-| a : b | ⊦ C : B | n. Bew. γ. |
-| Dw. a : b | ⊦ c : b | n. 13. V. |
-| b | b | |
-| und a | ⊦ c | n. 10. V. |
+[Diagram: vier Linien A, B, a, b von verschiedener Länge; auf der Linie a sind die Stücke f und d bezeichnet]
 
-### Beschluß.
+A : B | a : b
+A ⊣ B
+B ⊣ a
+a ⊣ b
 
-Wenn man derowegen drey Grössen hat / und noch drey andere Grössen sind / welche mit denen vorigen in richtiger Ebenmaß stehen; und alsdann die I. der vorigen Ahrt grösser ist / als die III. selbiger Ahrt/ so ist auch die I. der andern Ahrt grösser/als die III. der andern Ahrt; Ist aber die I. der Ersten Ahrt gleich groß oder kleiner/als die III. derselbigen Ahrt / so ist auch die I. der andern Ahrt gleich groß/ oder kleiner/als die III. der Andern Ahrt. W. Z. B.
+### Begehrtes.
 
-<!-- Signature: Mm 2 -->
+A + b ⊣ B + a
 
-<!-- Catchword: Der -->
+### Vorbereitung.
+
+1. Von der Grössesten und Ersten Grösse A werde ein Stück e, welches so groß sey / als die Andere Grösse B, abgeschnitten e | B n. 3. I.
+
+2. Von der dritten Grösse a werde auch ein Stück f, so groß/ als die vierte Grösse b, abgenommen/ f | b n. 3. I.
+
+3. Dem erst abgeschnittenen Stück e werde die Vierte Grösse beygefüget. e + b
+
+4. Dem andern abgenommenen Stück f werde die Andere Grösse B beygesetzet. f + B
+
+5. Zu denen Ersten beeden e + b werde noch hinzu gethan das Stück/so zuerst übergeblieben/nemlich c e + c + b.
+
+6. Zu denen andern beeden f + B werde das andere übergebliebene d beygethan B + f + d.
+
+<!-- Signature: Nn 2 -->
+
+<!-- Catchword: Beweiß. -->

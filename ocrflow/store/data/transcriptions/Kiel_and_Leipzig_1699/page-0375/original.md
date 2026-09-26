@@ -1,45 +1,27 @@
-<!-- Page number: 345 -->
-
 <!-- Running title: Euclidis. -->
 
-|  |  |  |
-|---|---|---|
-| Dw. | △ efd ⊤ △ ABC | n. 1. Gr. I. |
-| u. | △ efd ⊤ △ abc | n. Bew. α |
-|  | △ edc ⊤ △ edc |  |
-| Dw. | △ efd : △ edc ⊤ △ abc : △ edc | n. 7. V. |
-|  | ab : ed ⊤ △ abc : △ edc | n. 1. VI. |
-| Dw. | ab : ed ⊤ ef : bc | n. 11. V. n. B. β |
-| oder | AB : DE ⊤ EF : BC | n. Anh. 7. V. |
+<!-- Page number: 359 -->
 
-### II. Gegebene.
+che gegeben werden/ so werden auch die von solchen Strichen beschriebene Vielecke ebenmässig seyn.
 
-1. △. ABC
-2. △. EFD
-3. ABC ⋏ DEF.
-4. AB : DE ⊤ EF : BC.
+Und wenn von etlichen geraden Strichen ähnliche oder ebenmässige Vielecke beschrieben werden/ so werden dieselben Striche auch in Ebenmaß stehen.
 
-### II. Begehrtes.
+### I. Gegebene. I. Begehrtes.
 
-△ ABC ⊤ △ EFD.
+1. Vier gerade Striche
+ab, cd, ef, gh. △ aob : △ cnd | □ el : □ gi.
+2. Welche in Ebenmaß stehen.
+ab : cd | ef : gh
+3. Geradstrichichte ähnliche Vielecke
+△ aob ähnlich △ cnd
+□ el ähnlich □ gi
+4. Gleicher weise gesetzet.
 
-### II. Vorbereitung wie die I.
+[Diagram: grosses Dreyeck a o b, daneben kleineres Dreyeck c n d mit Strich p, dann Viereck e m l f und kleineres Viereck g k i h mit Strich q; darunter zwey Striche a b e h mit punktierten Linien und den Bezeichnungen d p, c, d, g, hq]
 
-### II. Beweiß.
+### Vorbereitung.
 
-|  |  |  |
-|---|---|---|
-|  | △ edc gleichmässiger Höhe △ efd | n. 4. Besch. VI. |
-| α Dw. | ef : bc ⊤ △ efd : △ bcd | n. 1. VI. |
-|  | △ abc gleichmässiger Höhe △ bdc | n. 4. Besch. VI. |
-| Dw. | ab : de ⊤ △ abc : △ bdc | n. 1 VI. |
-|  | ab : de ⊤ ef : bc | n 4 Geg. |
-| Dw. | △ abc : △ bcd ⊤ ef : bc | n. 11. V. |
-| u. | △ abc : △ bcd ⊤ △ efd : △ bcd | n. Bew. α |
-|  | △ bcd ⊤ △ bcd |  |
-| Dw. | △ abc ⊤ △ efd | n. 9. V. |
-| oder | △ ABC ⊤ △ EFD | n. Anh. 7. V. |
+1. Es werde zu denen beyden Strichen ab und cd der dritte ebenmässige Strich p gefunden n. 11. VI.
+ab : cd | cd : p.
 
-<!-- Signature: Xx -->
-
-<!-- Catchword: Beschluß. -->
+<!-- Catchword: 2. Auch -->

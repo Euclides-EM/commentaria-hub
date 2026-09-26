@@ -1,34 +1,36 @@
-<!-- Page number: 66 -->
+<!-- Page number: 68 -->
 
 <!-- Running title: Das I. Buch -->
 
-### 2. Begebenheit.
+BC | GH
+4. AE = BH
+5. Zwischen welchen die □ □ stehen.
 
-### Gegebenes. | Begehrtes.
-1. □ ABDC | ABDC ⌻ CDEF
-2. □ CDEF
-3. Grundstrich CD
-4. AE=CD
+### Vorbereitung.
 
-[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, F, B, E oben und C, D unten]
+Es werden gezogen die beeden geraden Striche FB und EC.
+
+[Diagram: Vierecke auff den Grundstrichen BC und GH, mit den Puncten A, D, F, E oben und B, C, G, H unten, mit gezogenen Strichen FB und EC]
 
 ### Beweiß.
 
-AB | CD
-FE | CD } n. 34. Vortr.
-Dw. AB | FE n. 1. Gr:S.
-FB | FB
-AB — FB | FE—FB n. 3. Gr:S.
-oder AF | BE
-AC | BD
-FC | ED } n. 34. Vortr.
-Dw. AEF ⩓ BDE n. Zugab. 8. Vortr.
-BFCD ⩓ BFCD
-Dw. △ BFCD + △ AEF | △ BDE + △ BFCD n. 2. Gr:S
-oder ABDC ⌻ CDEF n. 9. Gr:S. q.
+FE ⟛ BC n. 4. Gegeben.
+und FB ⟛ EC n. 33. Vortr.
+AC ⌻ FC
+EG ⌻ FC } n. 35. Vortr.
+Dw. EG ⌻ AC n. 1. Gr:S.
 
-### 3. Begebenheit.
+### Beschluß.
 
-[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, B, F, E oben, G in der Mitte und C, D unten]
+Worauß nun erhellet/ daß alle auff gleichgrossen Grundstrichen/und zwischen einerley Nebenstrichen stehende □ □ gleichgroß seyen. W. Z. B.
 
-<!-- Catchword: Be- -->
+## Der XXXVII. Vortrag.
+
+Das 27 Beweiß-Stück.
+
+Alle auff gleichgrossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Dreyecke sind gleichgroß.
+
+### Gegebene. | Begehrtes.
+1. △ ABC | ABC ⩓ BCD.
+
+<!-- Catchword: 2. △ -->

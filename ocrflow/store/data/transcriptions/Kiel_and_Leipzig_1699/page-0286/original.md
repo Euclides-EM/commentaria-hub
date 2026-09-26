@@ -1,35 +1,43 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 262 -->
+<!-- Page number: 270 -->
 
 ### Gegebene. | Begehrtes.
 
-A ______ | A + B + C : a + b + c | A : a
-a __
-B ______
-b __
-C ______
-c __
+A ________________ | A : a | B : b
+a ____________
+B ________________
+b ________
 
-[Diagram: Strecken A, a, B, b, C, c]
+[Diagram: Strecken A, a, B (mit Theil b), b]
 
-A : a | B : b | C : c
+A—a : a | B—b : b
 
 ### Beweiß.
 
-A ⁘ a
-B ⁘ b | A : a — n. Gegeb.
-C ⁘ c
-Dw. A + B + C : a + b + c | A : a — n. 1. V.
+Wenn das Begehrte nicht eintreffen solte / so nehme man an statt b das Stück c,
 
-### Beschluß.
+B ________________
+b ________
 
-Müssen derowegen alle etlicher ebenmässigen Grössen vorgehende zusammen-genommene Grössen zu allen Nachgehenden zusammen-genommenen Grössen sich also verhalten / wie eine der gegebenen Vorgehenden Grössen zu ihrer eigenen Nachgehenden Grösse. W. Z. B.
+[Diagram: Strecken B (mit Theil c) und b]
 
-## Der XIII. Vortrag.
+und sey alsdann
 
-## Das 13. Beweiß-Stück.
+A—a : a | B—b : b — n. Gegeb.
+A—a : a | B—c : c — n. Genom.
+B—b : b | B—c : c — n. 11. V.
+Dw. B : b | B : c — n. 17. V.
+B | B
+Dw. b | c — n. 14. V.
 
-Wenn die Erste zu der Andern eben solche Verhältnüß hat/ wie die Dritte zu der Vierten. Die Dritte aber zu der Vierten eine grössere Verhältnüß hat/ als die Fünffte zu der Sechsten: So wird auch die Erste zu der Andern eine grössere Verhältnüß haben/ als die Fünffte zu der Sechsten.
+Welches aber unmüglich n. 9. Gr. I.
 
-<!-- Catchword: Gegebene. -->
+Oder man nehme an statt des Stückes b das Stück d.
+
+B ____________
+b ________
+
+[Diagram: Strecken B (mit Theil d) und b]
+
+<!-- Catchword: A— -->

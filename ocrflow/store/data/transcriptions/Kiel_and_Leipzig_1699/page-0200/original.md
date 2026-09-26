@@ -1,38 +1,39 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 182 -->
+<!-- Page number: 184 -->
 
-### III. Begebenheit.
+### V. Beweiß.
 
-### Gegebene.
-1. Kreyß bcedb,
-2. Kreyßstück ced,
-3. ⌓ ced ⊣ Halbkreyß.
-4. Winckel ced.
+|  |  |  |
+|---|---|---|
+|  | bcd ⋀ ∟ | n 1. Bew. |
+| Dw. | bce ⋀ ∟ | n. 13. 1. |
+|  | bcb ⋀ bce | n. 9. Gr. I. |
+| Dw. | bcb ⋀ ∟ | n. 1. Gr. b. I. |
 
-### Begehrtes.
-ced [unclear: ⊢] ∟
+### Beschluß.
 
-[Diagram: Kreyß mit der Sehne cd oben, darüber der Punckt e; unten der Punckt b; die Striche cb und bd punctirt]
+Müssen also 1. Im Halb-Kreyß stehende Winckel alle Rechte /
+2. In grössern/als Halb-Kreysen/stehende Winckel spitzig/
+3. In kleinern Kreyßstücken aber stumpffe Winckel seyn.
+4. Grösserer Kreyßstücke Winckele sind grösser/
+5. Kleinerer Kreyßstücke Winckele aber sind kleiner/ als
+rechte Winckel. W.Z.B.
 
-### Vorbereitung.
-1. Werde durch den Mittel-Düpffel der Durchschlag db,
-2. Wie auch der Strich cb gezogen.
+## Der XXXII. Vortrag.
 
-### III. Beweiß.
-ced + cbd | 2 ∟   n. 22. III.
-cbd ⊣ ∟   n 2 Bew.
-Dw. ced ⊢ ∟   n. 3. Gr. ff. I.
+## Das 18. Beweiß-Stück.
 
-### IV. Begebenheit.
+Wann einen Kreyß ein gerader Strich anrühret / und von dem Rühr-Düpffel ein gerader Strich gezogen/den Kreyß schneidet; so werden die Winckel / welchen solcher Strich mit dem Rühr-Strich macht/ gleichgroß seyn mit denen/ in den abgewendeten Kreyß-Stücken stehenden Winckeln.
 
-### Gegebene.
-1. Kreyß dabecd.
-2. ⌓ [unclear: dabc].
-3. dacb [unclear: ⊢] Halbkreyß.
-4. ecd Kreyßstücks-Winckel.
+### Gegebene. | Begehrte.
 
-### Begehrtes.
-dce ⊢ [unclear: ∟]
+1. Kreyß afgda. | bae ⋀ eda.
+2. Rühr-Strich bac. | eac ⋀ efa.
+3. Rühr-Düpffel a.
+4. Vom Rühr-Düpffel gezogener Striche ae.
+5. Welcher den Kreyß in e schneidet.
+6. Von b abgewandter Winckel eda.
+7. Von c - - - - - : efa.
 
 <!-- Catchword: Vor- -->

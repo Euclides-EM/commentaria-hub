@@ -1,37 +1,29 @@
-<!-- Page number: 340 -->
-
 <!-- Running title: Das VI. Buch -->
 
-2. auf welchen die Längen der Striche AD und
-3. CD gesetzet werden ad ⊤ AD / cd ⊤ CD   n. 3. I.
-4. Der gantze Strich ac wird in zween gleiche Theile getheilet n. 10. I.
-5. Aus dem Mittel g wird nach der Weite ag ein Halbkreyß beschrieben,
-6. Aus dem Düttel d, wo die beyden Striche zusammen stossen/ werde biß zu dem Kreyßzug ein Senckstrich db gezogen. n. 11. I.
+<!-- Page number: 354 -->
+
+[Diagram: zwei Dreyecke, das kleinere d e f und das grössere a b c mit punktiertem Strich von a nach g; darunter ein Strich B E F G mit schräg auffsteigenden Strichen nach C, E und F, punktiert nach F]
 
 ### Vorbereitung.
 
-Es werden die beyden geraden Striche ab und cb gezogen.
+1. Zu des ersten Dreyecks Seite bc und des andern Dreyecks Seite ef werde der dritte ebenmässige Strich BG gefunden n. 11. VI. bc : ef | ef : BG.
+
+2. Diesem Strich BG werde ein gleichmässiger b g von bc abgeschnitten. n. 3. I.
+
+3. werde der Strich ag gezogen.
 
 ### Beweiß.
 
-|  |  |  |
-|---|---|---|
-|  | abc ⋏ ∟ | n. 31. III. |
+ab : bc | de : ef n 3. Geg.
+Dw. ab : de | bc : ef n 16. V.
+bc : ef | ef : bg n 1. Vorb.
+Dw. ab : de | ef : bg n 11. V.
+abg ⋏ def n. 3. Geg.
+α Dw. abg ⩓ def n. 15. VI.
+u. bc : bg | △ abc : △ abg n. 1. VI.
+bc : bg ⊐ bc : ef n. 10. Besch. V.
+Dw. △ abc : △ abg | bc : ef n. 11. V.
+△ abg | △ def n. Bew. α
+△ abc | △ abc
 
-Der Strich bd ist ein aus dem rechten Winckel auf den Grundstrich gezogener Senckstrich n. 6. Wirck.
-
-|  |  |  |
-|---|---|---|
-| Dw. sind | △ abd ähnlich △ cbd | ⟩ |
-| und | △ abd △ abc |  |
-| und | △ cbd △ abc | n. 8. VI. |
-| Dw. | ad : db ⊤ db : cd | n 1. Besch. VI. |
-| oder | AD : db ⊤ db : CD. | n. Anh. 7. V. |
-
-Dw. der Strich db ein Mittel-ebenmässiger Strich.
-
-### Beschluß.
-
-Ist also zu den beyden gegebenen geraden Strichen AB und CD der mittel-ebenmässige Strich db gefunden. W. Z. M.
-
-<!-- Catchword: Der -->
+<!-- Catchword: Dw. -->

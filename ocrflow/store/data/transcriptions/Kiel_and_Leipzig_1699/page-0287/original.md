@@ -1,45 +1,37 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 263 -->
+<!-- Page number: 271 -->
+
+A—a : a | B—b : b, — n. Gegeb.
+A—a : a | B—d : d, — n. Genom.
+Dw. B—b : b | B—d : d, — n. 11. V.
+u. B : b | B : d — n. 17. V.
+B | B
+Dw. b | d — n. 14. V.
+
+Welches aber auch unmüglich n. 9. Gr. I.
+
+Muß Dw. sich A : a | B : b,
+
+### Beschluß.
+
+Wenn derowegen zertheilte Grössen Ebenmässig sind/ so werden dieselben auch zusammen gesetzt Ebenmässig seyn. W. Z. B.
+
+## Der XIX. Vortrag.
+
+## Das 19. Beweiß-Stück.
+
+Wenn eine Gantze Grösse zu einer andern Gantzen Grösse sich also verhält/ wie das von der Ersten abgenommene Stück/ zu dem von der Andern abgenommene Stück: So wird auch das von der Ersten übergebliebene sich zu dem von der Andern übergebliebenen also/ wie das Erste Gantze zu dem Andern Gantzen verhalten.
 
 ### Gegebene. | Begehrtes.
 
-A ________ | A : a ⊣ C : c
-a ____
-B ________
-b ____
-C ________
-c ____
+A __a__c__ | a : b | A : B.
+B __b__d__
 
-[Diagram: Strecken A, a, B, b, C, c]
+[Diagram: Strecken A (mit Theilen a, c) und B (mit Theilen b, d)]
 
-1. A : a | B : b
-2. B : b ⊣ C : c
-
-### Beweiß.
-
-Wenn A : a | C : c — n. Genom.
-und A : a | B : b — n. Gegeb.
-so muß B : b | C : c — n. 11. V.
-
-Welches wider das andere Gegebene.
-
-Wenn aber A : a ⊢ C : c — n. Genom.
-und A : a | B : b — n. Gegeb.
-so muß B : b ⊢ C : c — welches wider das Gegeb.
-
-Weil dieser letzte Schluß nicht schlechter Dinges kan bestätiget werden/ So
-
-### Vorbereitung.
-
-Nehme man A, wie auch C zweymahl.
-Die Grössen a und c aber dreymahl.
-
-2A ________________
-3a ____________
-2C ________________
-3c ________________
-
-[Diagram: Strecken 2A, 3a, 2C, 3c]
+A : B | c : d.
+A | a + c.
+B | b + d.
 
 <!-- Catchword: Beweiß. -->

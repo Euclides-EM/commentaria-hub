@@ -1,32 +1,42 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 252 -->
-
-### Beschluß.
-
-Wenn derowegen die I. Grösse der III. und die II. Grösse der IV. gleichvielfältig sind; darnach das von der I. abgenommene Stück zu der III. eben so vielfältig ist / als das von der II. abgenommene Stück zu der IV. So wird das Erste übergebliebene der III. und das Andere übergebliebene der IV. Grösse gleichgroß / oder die übergebliebenen werden gegen die II. und IV. Grössen gleichvielfältig seyn. W. Z. B.
-
-## Der VII. Vortrag.
-
-## Das 7. Beweiß-Stück.
-
-Gleichgrosse Grössen sind gegen eine einige Grösse gleichvielfältig: Und eine einige Grösse ist auch gegen gleichgrosse Grössen gleichvielfältig.
-
-### Gegebene. — Begehrtes.
-
-[Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
-
-A : a | B : a.
-
-A | B
-A | 3a
-B | 3a
+<!-- Page number: 260 -->
 
 ### I. Beweiß.
 
-A | B
-3a | 3a — n. Gegeb.
-Dw. A : 3a | B : 3a
-Und A : a | B : a — n. 7. Besch. V.
+A | 3a — n. Gegeb.
+2A | 6a — n. 6. Gr. i. I.
+6a ⊣ 4a — n. 9. Gr. I.
+[unclear: α] Dw. 2A ⊣ 4a — n. 1. Gr. c. I.
+B | 3b — n. Gegeb.
+2B | 6b — n. 6. Gr. i. I.
+6b ⊣ 4b — n. 9. Gr. I.
+β Dw. 2B ⊣ 4b — n. 1. Gr. c. I.
 
-<!-- Catchword: Gege- -->
+### Vorbereitung.
+
+Man nehme 1. A und B jedwedes einmahl/
+Darnach 2. Die Grössen a und b jedwede dreymahl.
+
+A ____________
+3a ____________
+B ____________
+3b ____________
+
+[Diagram: Strecken A, 3a, B, 3b]
+
+### II. Beweiß.
+
+A | 3a — n. Gegeb.
+3a | 3a — n. Vorber.
+γ Dw. A | 3a — n. 1. Gr. I.
+B | 3b — n Geg.
+3b | 3b — n. Vorber.
+δ Dw. B | 3b — n. 1. Gr. I.
+
+### Vorbereitung.
+
+Man nehme 1. A und B jedwedes einmahl/
+Darnach 2. die Grössen a und b jedwedes viermahl.
+
+<!-- Catchword: A— -->

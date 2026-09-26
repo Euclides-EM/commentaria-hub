@@ -1,36 +1,30 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 81 -->
+<!-- Page number: 83 -->
 
-[Diagram: Quadrat CDAB mit verlängerter Grundlinie gegen E und punktierten Hülfslinien; Punkte C, D oben, E, B, A unten]
+lichten Dreyeck vermag der/dem rechten Winckel entgegen gesetzte Strich/ so viel/ als die beeden übrigen Seiten.
 
-### Beweiß.
+### Gegebenes. | Begehrtes.
+1. Rechtwincklichtes Dreyeck fxg | □ fg | □ xg + □ fx.
+2. fxg ∠ ⌐
+3. Dem rechten Winckel entgegen gesetzte Seite fg.
+4. Die beeden Seiten xg und xf, welche den ⌐ begreiffen.
 
-BC ist ein Senckstrich. n. 2. Wirckung.
-Dw. CBA ∠ ⌐ | n. 10. Beschr.
-DC = AB | n. 4. Wirck.
-DC | AB | n. 3. Wirck.
-Dw. BC | AD |
-und BC = AD | n. 33. Vortr.
-BC | AB | n. 3. Wirck.
-Drw. AD | AB | n. 1. GrS.
-A ∠ C |
-B ∠ D | n. 34. Vortr.
+### Vorbereitung.
 
-Dw. wird A B C D ein gleichseitig und gleichwincklich Viereck seyn. n. 29. Beschr.
+Es werden gemacht.
 
-### Beschluß.
+1. Auff den Strich fg das □ fpeg
+2. - - - xf - □ fxlr
+3. - - - xg - □ xgh | n. 46. Vortr.
+4. Aus dem Düttel x der Strich xi = ge = fp n. 31. Vortr.
+5. Aus dem Düttel x der Strich xe
+6. - - - - x - - xp
+7. - - - - f - - fh
+8. - - - - g - - gr
 
-Ist also auff den gegebenen Strich AB ein gleichseitig und gleichwincklicht □ gesetzet. W. Z. M.
+[Diagram: rechtwinckliges Dreyeck fxg mit den drey Vierecken über den Seiten und punktierten Hülfslinien; Punkte r, m, s, k, f, i, o, e, b, a, g, c, x, l, d, h]
 
-### Auff eine andere Arth
+<!-- Signature: L 2 -->
 
-Ein gleichseitig und gleichwincklicht □ mit unveränderter Oeffnung des Kreyß-Ziehers (circini) auff den gegebenen Strich zu setzen.
-
-### Wirckung.
-
-1. Thue man den Kreyß-zieher so weit auff/als die länge des gegebenen Strichs AB.
-
-<!-- Signature: L -->
-
-<!-- Catchword: 2. Wird -->
+<!-- Catchword: Beweiß -->

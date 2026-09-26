@@ -1,33 +1,34 @@
+<!-- Page number: 341 -->
+
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 333 -->
+## Der XIV. Vortrag.
 
-Dw. | bc : cd | bi : ih | n. Anh. 7. V.
-| bc : cd | BC : CD | n. 7. V.
-Dw. | BC : CD | bi : ih | n. 11. V.
-| ef : fg | bi : ih | n. Anh. 7. V.
-Dw. | BC : CD | ef : fg | n. 11. V.
+## Das 9. Beweiß-Stück.
 
-## Des X. Vortrags II. Ahrt.
+Gleichmässige Nebenstrichichte Vierecke/ welche einen gleichmässigen oder gleichgrossen Winckel haben/ dieselbigen haben auch bey dem gleichmässigen Winckel wechselmässige (reciproca) Seiten.
 
-### Gegebene.
+Und diejenigen Nebenstrichichten Vierecke/ welche bey dem gleichmässigen Winckel wechselmässige Seiten haben/ sind gleichmässig oder gleichgroß.
 
-1. Ungetheilter Strich FG.
-2. Getheilter Strich AG.
+### I. Gegebene.
 
-### Begehrtes.
+1. Nebenstrichichte Viereck ad
+2. und fh
+3. ad ⌻ fh
+4. d ⋏ e.
 
-Der Strich FG getheilet in b, c, d, e. und t also
-daß | fb : bc | AB : BC.
-| bc : cd | BC : CD
-| de : et | DE : ET
-| tg : TG | et : ET. &c.
+### Begehrte.
 
-[Diagram: von einem Punkt k oben laufen punktierte Linien zu der getheilten Linie G T E D C B A; dazwischen die parallele Linie g t e d c b f h; darunter die Striche F G und G A]
+ab : eh ⊤ fe : db.
+□ ad wechselmässig □ fh.
 
-### Wirckung.
+[Diagram: Zwei kleine Parallelogramme mit den Ecken h, g, a, b, c, d, e, f; darunter grössere Vierecke mit den Ecken F, D, E, H, C, A, B, I, wobei B—I punktiert]
 
-1. Gegen den getheilten Strich AG werde ein Nebenstrich hg nach Nothdurfft gezogen. n. 31. I.
+### Vorbereitung.
 
-<!-- Signature: Tt 3 -->
-<!-- Catchword: 2. Von -->
+1. Es werde gemacht ABDC ⌻ abdc. n. 46. I.
+2. Verlänget man nach Nothdurfft die Striche CD und BD gegen H und F.
+
+<!-- Signature: Uu 3 -->
+
+<!-- Catchword: 3. werde -->

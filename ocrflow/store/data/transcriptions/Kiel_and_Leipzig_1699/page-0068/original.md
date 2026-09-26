@@ -1,33 +1,34 @@
 <!-- Running title: Das I. Buch -->
 
-<!-- Page number: 50 -->
+<!-- Page number: 52 -->
 
-         Ad | AC        n. 2. Gegeb.
-β Drw.   bd | BC        n. 4. Vortr.
-         Ab | AB
-         Ac | AB        n. 1. Gegeb.
-Drw.     Ac | Ab        n. 1. Gr-S.
-und      fbc ⋏ ecb      n. 5. Vortr.
-         fbc ⊼ dbc      n. 9. Gr-S.
-Dw.      ecb ⊼ dbc      n. 1. Gr-S. c.
-         ecb ⊼ dcb      n. 9. Gr-S.
-Dw.      dbc ⊼ dcb      n. 1. Gr-S. e.
-und      dc ⊣ db        n. 19. Vortr.
-         db | BC        n. Beweiß β.
-Dw.      BC ⊢ dc.       n. 1. Gr-S. d.
-
-### Beschluß.
-
-Ist also allezeit des △es / dessen zwo Seiten / zweyen Seiten eines andern △es gleich sind / aber einen grössern Winckel haben / Grundstrich grösser / als des andern △es / welches einen kleinern Winckel hat.   W. Z. B.
-
-## Der XXV. Vortrag.
-
-## Das 16. Beweiß-Stück.
-
-Wenn zwey Dreyecke / zwo Seiten zweyen Seiten/jedwede jedweder/gleich groß/eines aber einen grössern Grundstrich / als das andere hat: So wird selbiges auch einen grössern Winckel/als das andere / zwischen seinen zwo Seiten haben.
+werden die übrigen Seiten / denen übrigen Seiten / jedwede jedweder / und der übrige Winckel/ dem übrigen Winckel auch gleich seyn.
 
 ### Gegebene.                    Begehrte.
-1. Das △ ABC                 BAC ⊼ bac
-2.     △ abc
+1. △ ABC                     A ⋏ a
+2. △ abc                     AB | ab
+3. BC | bc                   AC | ac
+4.   B ⋏ b
+5.   C ⋏ c    Beweiß.
 
-<!-- Catchword: 3.AB -->
+Entweder ist   AB ⊢ ab
+oder           AB ⊣ ab
+oder           AB | ab
+
+[Diagram: Zwei Dreiecke: links ABC, rechts abc mit punktierten Linien und Punkten d und h]
+
+### Vorbereitung.
+
+Wann AB ⊣ ab so werde ba verlängert / biß zu dem Düttel h, damit bh | AB.
+
+### Verfolg des Beweises.
+
+     ab ⊢ AB              nach Angenommen.
+bh        | AB            n. Vorbereit.
+     bc |      BC         n. 3. Gegeben.
+bh + bc | AB + BC         n. 2. Gr-S.
+   hbc    ⋏    ABC        n. 4. Gegeben.
+Dw. hcb   ⋏    ACB        n. 4. Vortr.
+    acb   ⋏    ACB        n. 5. Gegeb.
+
+<!-- Catchword: Dw. -->

@@ -1,42 +1,39 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 260 -->
+<!-- Page number: 268 -->
 
-### I. Beweiß.
+## Der XVI. Vortrag.
 
-A | 3a — n. Gegeb.
-2A | 6a — n. 6. Gr. i. I.
-6a ⊣ 4a — n. 9. Gr. I.
-[unclear: α] Dw. 2A ⊣ 4a — n. 1. Gr. c. I.
-B | 3b — n. Gegeb.
-2B | 6b — n. 6. Gr. i. I.
-6b ⊣ 4b — n. 9. Gr. I.
-β Dw. 2B ⊣ 4b — n. 1. Gr. c. I.
+## Das 16. Beweiß-Stück.
 
-### Vorbereitung.
+Vier Ebenmässige Grössen sind auch wechselweiß genommen Ebenmässig.
 
-Man nehme 1. A und B jedwedes einmahl/
-Darnach 2. Die Grössen a und b jedwede dreymahl.
+### Gegebene. | Begehrtes.
 
 A ____________
-3a ____________
-B ____________
-3b ____________
+B ________ | A : a | B : b
+a ____
+b __
 
-[Diagram: Strecken A, 3a, B, 3b]
+[Diagram: Strecken A, B, a, b]
 
-### II. Beweiß.
+A : B | a : b
+A | 4a
+B | 4b
 
-A | 3a — n. Gegeb.
-3a | 3a — n. Vorber.
-γ Dw. A | 3a — n. 1. Gr. I.
-B | 3b — n Geg.
-3b | 3b — n. Vorber.
-δ Dw. B | 3b — n. 1. Gr. I.
+### Beweiß.
 
-### Vorbereitung.
+A | 4a
+B | 4b — n Gegeb.
+Dw. A : B | 4a : 4b — n. Anh. 7. V.
+4a ⁘ a | 4b : b — n. 7. Besch. V.
+4a ⁘ a | A : a — n. 7. V.
+Dw. A ⁘ a | 4b : b — n. 11. V.
+B : b | 4b : b — n. 7. V.
+Dw. A : a | B : b — n. 11. V.
 
-Man nehme 1. A und B jedwedes einmahl/
-Darnach 2. die Grössen a und b jedwedes viermahl.
+### Beschluß.
 
-<!-- Catchword: A— -->
+Werden derowegen Ebenmässige Grössen auch wechselweiß genommen Ebenmässig seyn. W. Z. B.
+
+<!-- Catchword: Der -->

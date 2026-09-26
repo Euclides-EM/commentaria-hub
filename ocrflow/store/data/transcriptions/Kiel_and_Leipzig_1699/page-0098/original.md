@@ -1,44 +1,22 @@
 <!-- Running title: Das I. Buch -->
 
-<!-- Page number: 80 -->
+<!-- Page number: 82 -->
 
-### Beweiß.
+2. Wird nach dieser Weite aus B. der Bogen AeDg gemacht
+3. - - wie auch aus A - - - BeCf
+4. - - - und aus e - - - fhig
+5. - - - - aus f - - - h
+6. - - - - aus g - - - i.
+7. Aus A gegen h wird biß zum Bogen ef, der Strich AC.
+8. Und aus B gegen i zum Bogen eg, der Strich BD gezogen.
+9. Endlich von C zum D ein gerader Strich/ so ist mit unveränderter Oeffnung des Kreyß-ziehers das begehrte □ verfertiget. W. Z. M.
 
-tce ∠ A. | n. 22. Vortr.
-△ tce | □ a. | n. 44. Vortr.
-Dw. △ A | □ a. | n. 1. Gr-S.
+[Diagram: Quadrat BADC mit punktierten Kreisbögen; Punkte i, h oben, D, C, f, e in der Mitte, g links, B, A unten]
 
-uxg ∠ B | n. 22. Vortr.
-△ uxg | □ b | n. 44. Vortr.
-Dw. △ B | □ b | n 1. GrS.
+## Der XLVII. Vortrag.
 
-△ A + △ B | □ a + □ b | n. 2. GrS.
-□ mngo | □ a + □ b | n. 9. GrS. q.
-Dw. △ A + △ B | □ mngo | n. 1. GrS.
-ypzq | △ A + △ B | n. 9. GrS. q.
-Dw. ypzq | □ mngo | n. 1. GrS.
-und D ∠ fgn | n. 2. Wirck.
+## Das 33. Beweiß-Stück.
 
-### Beschluß.
+In jedwedem rechtwincklichten Dreyeck/ ist das gleichwincklichte und gleichseitige Viereck / welches von dem Strich/so dem rechten Winckel entgegen stehet/ gemacht wird/ eben so groß/ als die beeden Vierecke zusammen / welche von den beeden Seiten/so den rechten Winckel begreiffen/ gemacht werden : oder/In jedwedem rechtwinck-
 
-Ist also der gegebenen Gestalt ypzq, nach dem gegebenen ∠ D, ein gleichhaltendes □ mngo verfertiget. W. Z. M.
-
-## Der XLVI. Vortrag.
-
-## Das 14. Werckstück.
-
-Auff den gegebenen geraden Strich ein gleichseitig und gleichwincklich Viereck zu beschreiben.
-
-### Gegebenes. | Begehrtes.
-Gerader Strich AB | □ ABCD
-
-### Wirckung.
-
-1. AB werde verlänget gegen E.
-2. Auff B werde ein Senckstrich BC gesetzet. n. 11. Vortrag.
-3. Dieser Senckstrich BC | AB n. 2. Vortr.
-4. Aus C gegen über AB = CD n. 31. Vortr.
-5. CD | CB n. 2. Vortr.
-6. Aus A werde gezogen AD
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: lichten -->

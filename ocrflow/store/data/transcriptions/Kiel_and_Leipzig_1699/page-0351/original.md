@@ -1,34 +1,36 @@
+<!-- Page number: 335 -->
+
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 327 -->
+## Des X. Vortrags III. Ahrt.
+
+### Gegebene.
+
+1. Ungetheilter Strich BC.
+2. Getheilter Strich. o4.
+
+### Begehrtes.
+
+Der Strich BC getheilet in 1. 2. 3. also / daß
+oc : oi ⊤ bc : ba.
+
+[Diagram: Geometrische Zeichnung mit den Punkten h, o, b, a, c, den Ziffern 1 2 3 auf schrägen Strichen, sowie unten der Strich B C mit den Theilpunkten o 1 2 3 4 und g]
+
+### Wirckung.
+
+1. Aus b werde nach beliebigem Winckel ein unendlicher Strich bg,
+
+2. Und aus dem Düttel c ein mit bg gerader Nebenstrich ch gezogen. n. 31. I.
+
+3. Auf den Strich bg werden die Theile des getheilten Striches nacheinander gesetzet. n. 3. I.
+
+4. Auf den Strich ch werden eben solche Theile / doch also gesetzet / daß man von c anfange und c 3 ⊤ 4 3.
+Und so ferner n. 3. I.
+
+5. Es werden die Striche 11. 22. 33. gezogen.
 
 ### Vorbereitung.
 
-Wenn man | acb ⋏ dfe | so mache
-| acg ⋏ dfe | n. 23. I.
+Es werden auch o b und c 4 gezogen.
 
-### II. Beweiß.
-
-| acg ⋏ dfe | n. Vorber.
-| cag ⋏ fde | n. 3. Geg.
-Dw. | cga ⋏ def | n. 32. I.
-u. | ac : cg | df : fe | n. 4. VI.
-| ac : cb | df : fe | n. 4. Geg.
-Dw. | ac : cb | ac : cg | n. 11. I.
-u. | cb | cg | n. 9. V.
-Dw. | cgb ⋏ cbg | n. 5. I.
-| cbg ⋏ nicht kleiner als ∟ | n. 1. Geg.
-Dw. auch | cgb ⋏ nicht kleiner als ∟ | n. 1. Gr. d. I.
-u. | cbg + cgb ⋏ nicht kleiner als [unclear: ⌓] | n. 2. Gr. I.
-welches aber unmüglich n. 17. I.
-
-Derowegen muß | abc ⋏ def
-Und ebener Gestalt | bca ⋏ efd
-| bac ⋏ edf | n. 1. Geg.
-Dw. △ abc gleichwincklicht △ def n. 1. Beschr. VI.
-
-### Beschluß.
-
-Wenn derowegen zwey Dreyecke einen gleimässigen Winckel haben / die übrigen Winckel aber von ebenmässigen Seiten begriffen sind / und derer übrigen Winckel allezeit von zweyen jedweder kleiner / oder auch nicht kleiner / als ein rechter Winckel ist: So sind diejenigen Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / beyde Dreyecke auch gleichwincklicht. W. Z. B.
-
-<!-- Catchword: Der -->
+<!-- Catchword: Beweiß. -->

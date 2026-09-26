@@ -1,18 +1,33 @@
+<!-- Page number: 311 -->
+
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 303 -->
+### Begehrtes.
 
-IV. Die Höhe einer jedweden Gestalt wird durch den aus dem Gipffel oder Spitze auf den Grundstrich gezogenen Senckstrich vorgestellet.
+Grundstriche ab | ef.
 
-V. Eine aus Verhältnüssen zusammen gesetzte Verhältnüß wird genennet / wenn die Ersten vorgehenden Grössen durch die Andere vorgehende / und die Erste nachgehende durch die Andere nachgehende Verhältnüß-Grösse vervielfältiget / (oder vielmehr die Erste Vorgehende nach der andern Nachgehenden / und Andere vorgehende durch die andere Nachgehende außgebreitet oder außgespannet) wird.
+[Diagram: Zwei Dreyecke A und B mit den Punkten a, g, b, c, d, e, f, links das Dreyeck A über der Grundlinie a g b, rechts das Dreyeck B über e f, mit gestrichelten Hülffslinien]
 
-VI. Ein an einen geraden Strich angeschlagenes (applicatum) mangelhafftes Viereck wird genennet / welches den geraden Strich nicht außfüllet. Ein übertreffendes Viereck aber ist / welches auf dem Strich / an welchen es angeschlagen wird / nicht Raum hat / sondern einen längern Strich erfordert. Doch also / daß so wol das mangelende / als das überflüssige Viereck eine gleichmässige Höhe mit dem angeschlagenen Vierecke habe / und mit demselbigen ein gantzes nebenstrichiges Viereck mache.
+### Vorbereitung.
 
-VII. Eine Gestalt / wenn sie an einen geraden Strich angeschlagen wird / bedeutet / daß man eine solche Länge finde / nach welcher der gedachte Strich außgebreitet eine der angeschlagenen Gestalt gleichmässige oder gleichgrosse viereckichte Gestalt zuwegen bringet.
+Wenn ab ⊣ ef — so mache man
+bg | ef — n. 3. I.
 
-## Der I. Vortrag.
-## Das 1. Beweiß-Stück.
+und ziehe den Strich cg.
 
-Diejenigen Dreyecke oder Vierecke / welche gleichmässige Höhen haben / verhalten sich also / wie ihre Grundstriche / gegen einander.
+### Beweiß.
 
-<!-- Catchword: I. Ge- -->
+bg | ef — n. Vorb.
+Dw. bc : ed | △ gbc : △ B — n. 1. VI.
+bc : ed | △ abc : △ B — n. Gegeb.
+Dw. △ gbc : △ B | △ abc : △ B — n. 1. V.
+u. △ gbc | △ abc oder △ A — n. 14. V.
+
+Welches aber unmüglich n. 9. Gr. I.
+Eben dergleichen würde folgen/ wenn man sagen wolte
+
+ab ⊢ ef
+
+Gleicher Gestalt kan auch erwiesen werden/ daß derer nebenstrichichten Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ ihre Grundstriche gleicher Grösse seyn müssen. W. Z. B.
+
+<!-- Catchword: Der -->

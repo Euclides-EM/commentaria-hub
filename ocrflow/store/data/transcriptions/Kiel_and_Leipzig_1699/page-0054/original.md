@@ -1,32 +1,35 @@
-<!-- Page number: 36 -->
+<!-- Page number: 38 -->
 
-<!-- Running title: Das I. Buch. -->
+<!-- Running title: Das I. Buch -->
 
-[Diagram: Zwei sich in E durchschneidende gerade Striche: AB schräg von A oben rechts nach B unten links, DC waagerecht.]
+Ist also bey jedwedem △, wan dessen eine Seite verlängert wird/ der auswendige Winckel viel grösser / als einer derer inwendig gegen überstehenden Winckel. W. Z. B.
+
+## Der XVII. Vortrag.
+
+## Das 10. Beweiß-Stück.
+
+In jedwedem Dreyeck sind zween Winckel zusammen/ auff waserley Weise genommen/ kleiner/ als zween rechte Winckel.
+
+### Gegebenes. Begehrte.
+△ ABC. ABC + ACB ⲗ ⊥
+ABC + ACB ⲗ ⊥
+ACB + BAC ⲗ ⊥
+
+### Vorbereitung.
+Es werde nach belieben eine Seite/ und zwar anitzo AB gegen D verlängert.
+
+[Diagram: Dreieck ABC mit waagerechter Grundlinie EABD; C oben rechts, die Grundlinie über A hinaus nach E und über B hinaus nach D verlängert.]
 
 ### Beweiß.
 
-DEA + AEC ⋀ ⊥ ) nach 13. Vortr.
-AEC + CEB ⋀ ⊥ )
-Drw. DEA + AEC ⋀ AEC + CEB nach 10. Gr-S.
-AEC ⋀ AEC
-Drw. DEA ⋀ CEB nach 3. Gr-S.
+ACB ⲗ CBD n. 16. Vortr.
+ABC ⋀ ABC
+ACB + ABC ⲗ CBD + ABC n. 4. Gr-S.
+⊥ ⋀ CBD + ABC n. 13. Vortr.
+Dw. ACB + ABC ⲗ ⊥ n. 1. Gr-S. b.
 
-AEC + CEB ⋀ CEB + BED nach 13. Vortr.
-CEB ⋀ CEB
-Drw. AEC ⋀ BED nach 3. Gr-S.
+Gleicher Gestalt / wenn AC verlängert wird /
+muß CAB + ABC ⲗ ⊥, und wenn man BA gegen E verlängert/
+muß BAC + CBA ⲗ ⊥ seyn.
 
-### Beschluß.
-Sind also allezeit die aneinander stossende Gipffel-Winckel einander gleich. W. Z. B.
-
-## Der XVI. Vortrag.
-
-## Das 9. Beweiß Stück.
-
-Wenn in einem Dreyeck der eine Strich verlängert wird; so wird der auswendige Winckel allezeit grösser seyn/ als einer von beeden inwendig gegen überstehenden Winckeln.
-
-### Gegebene. Begehrte.
-1. △ ABC. DAC ⋀ ACB.
-2. Die verlängerte Seite BA gegen D. DAE ⋀ ABC.
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: Be- -->

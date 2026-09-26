@@ -1,34 +1,37 @@
-<!-- Page number: 324 -->
+<!-- Page number: 332 -->
 
 <!-- Running title: Das VI. Buch -->
 
+I. Ahrt.
+
+### Wirckung.
+
+1. Auf des Striches ag Endedüttel a werde nach beliebigem Winckel ein gerader Strich ak gezogen.
+2. Von diesem Strich ak werden abgeschnitten drey Striche | ab | AB
+| bc | BC
+| cd | CD | n. 3. I.
+3. Aus d werde zu g der gerade Strich dg gezogen.
+4. Aus b und c werden gegen dg gerade Nebenstriche be und cf gezogen. n. 31. I.
+
+### Vorbereitung.
+
+Aus den Düttteln b und c werden gegen ag gerade Nebenstriche bh und co, gezogen. n. 31. I.
+
 ### Beweiß.
 
-deg ⋏ bac
-gde ⋏ abc   n. Vorber.
-α Dw. | egd ⋏ acb | n. 26. I.
-u. | ba : ac | de : eg | n. 4. VI.
-| ba : ac | de : ef | n. 3. Geg.
-Dw. | de : ef | de : eg | n. 11. V.
-β u. | ef | eg | n. 9. V.
+| ab | AB |
+| bc | BC |
+| cd | CD | n. 1. Wirck.
+| be ⧣ dg |
+| cf ⧣ dg | n. 4. Wirck.
+| cf ⧣ be | n. 30. I.
+Dw. | ab : bc | ae : ef | n. 2. V.
+u. | ab : bc | AB : BC | n. 7. V.
+Dw. | AB : BC | ae : ef | n. 11. V.
+| bh ⧣ eg | n. Vorber.
+| be ⧣ hg | n. 4. Wirck.
+Dw. | bi | ef |
+u. | ih | fg | n. 34. I.
+| ci ⧣ dh | n. 4. Wirck.
 
-| deg ⋏ bac | n. Vorber.
-| def ⋏ bac | n. Geg.
-Dw. | deg ⋏ def | n. 1. Gr. I.
-| ef | eg | n. Bew. β.
-| de | de |
-Dw. | ef + de | eg + de | n. 2. Gr. I.
-u. | egd ⋏ efd |
-γ u. | gde ⋏ edf | n. 4. I.
-| egd ⋏ acb | n. Bew. α
-Dw. | acb ⋏ efd | n. 1. Gr. I.
-| gde ⋏ abc | n. Vorber.
-| gde ⋏ edf | n. Bew. γ
-Dw. | abc ⋏ edf | n. 1. Gr. I.
-u. | △ abc gleichwincklicht △ edf | n. 1. Beschr. VI.
-
-### Beschluß.
-
-Wenn derowegen in zweyen Dreyecken zweene gleichmässige Winckel befindlich / und des einen Winckels Seiten mit den beyden Seiten des andern Winckels ebenmässig sind / so werden solche Dreyecke auch im übrigen gleichmässige Winckel / welche ebenmässigen Seiten gegen überstehen / haben / und durchaus gleichwincklicht seyn. W. Z. B.
-
-<!-- Catchword: Der -->
+<!-- Catchword: Dw. -->

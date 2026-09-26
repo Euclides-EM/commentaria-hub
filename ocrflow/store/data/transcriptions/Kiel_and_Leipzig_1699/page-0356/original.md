@@ -1,37 +1,37 @@
-<!-- Page number: 332 -->
+<!-- Page number: 340 -->
 
 <!-- Running title: Das VI. Buch -->
 
-I. Ahrt.
-
-### Wirckung.
-
-1. Auf des Striches ag Endedüttel a werde nach beliebigem Winckel ein gerader Strich ak gezogen.
-2. Von diesem Strich ak werden abgeschnitten drey Striche | ab | AB
-| bc | BC
-| cd | CD | n. 3. I.
-3. Aus d werde zu g der gerade Strich dg gezogen.
-4. Aus b und c werden gegen dg gerade Nebenstriche be und cf gezogen. n. 31. I.
+2. auf welchen die Längen der Striche AD und
+3. CD gesetzet werden ad ⊤ AD / cd ⊤ CD   n. 3. I.
+4. Der gantze Strich ac wird in zween gleiche Theile getheilet n. 10. I.
+5. Aus dem Mittel g wird nach der Weite ag ein Halbkreyß beschrieben,
+6. Aus dem Düttel d, wo die beyden Striche zusammen stossen/ werde biß zu dem Kreyßzug ein Senckstrich db gezogen. n. 11. I.
 
 ### Vorbereitung.
 
-Aus den Düttteln b und c werden gegen ag gerade Nebenstriche bh und co, gezogen. n. 31. I.
+Es werden die beyden geraden Striche ab und cb gezogen.
 
 ### Beweiß.
 
-| ab | AB |
-| bc | BC |
-| cd | CD | n. 1. Wirck.
-| be ⧣ dg |
-| cf ⧣ dg | n. 4. Wirck.
-| cf ⧣ be | n. 30. I.
-Dw. | ab : bc | ae : ef | n. 2. V.
-u. | ab : bc | AB : BC | n. 7. V.
-Dw. | AB : BC | ae : ef | n. 11. V.
-| bh ⧣ eg | n. Vorber.
-| be ⧣ hg | n. 4. Wirck.
-Dw. | bi | ef |
-u. | ih | fg | n. 34. I.
-| ci ⧣ dh | n. 4. Wirck.
+|  |  |  |
+|---|---|---|
+|  | abc ⋏ ∟ | n. 31. III. |
 
-<!-- Catchword: Dw. -->
+Der Strich bd ist ein aus dem rechten Winckel auf den Grundstrich gezogener Senckstrich n. 6. Wirck.
+
+|  |  |  |
+|---|---|---|
+| Dw. sind | △ abd ähnlich △ cbd | ⟩ |
+| und | △ abd △ abc |  |
+| und | △ cbd △ abc | n. 8. VI. |
+| Dw. | ad : db ⊤ db : cd | n 1. Besch. VI. |
+| oder | AD : db ⊤ db : CD. | n. Anh. 7. V. |
+
+Dw. der Strich db ein Mittel-ebenmässiger Strich.
+
+### Beschluß.
+
+Ist also zu den beyden gegebenen geraden Strichen AB und CD der mittel-ebenmässige Strich db gefunden. W. Z. M.
+
+<!-- Catchword: Der -->

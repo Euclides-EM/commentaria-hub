@@ -1,33 +1,35 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 154 -->
+<!-- Page number: 156 -->
+
+2. Aus dem Mittel-Düpffel a
+3. Zu den beyden Strichen bc und de gezogen.
+
+### Beweiß.
+
+ag | af — n. Geg. und 3. III.
+ab | ae — n. 15. Besch. I.
+agb ∠ ∟
+afe ∠ ∟ — n. 3. Vorher.
+□ ag + □ gb | □ ab — n. 47. I.
+□ ae | □ ab — n. 1. Gr. t. II.
+Dw. □ ag + □ gb | □ ae — n. 1. Gr. I.
+□ af + □ fe | □ ae — n. 47. I.
+Dw. □ ag + □ gb | □ af + □ fe — n. 1. Gr. I.
+□ af | □ ag — n. 1. Gr. t. II.
+Dw. □ ag + □ gb + □ af | □ af + □ fe + □ ag — n. 2. Gr. I.
+□ ag + □ af | □ af + □ ag
+Dw. □ gb | □ fe — n. 3. Gr. I.
+und gb | fe — n. 2. Gr. u. II.
+fe | df — n. 3. III.
+Dw. gb | df — n. 1. Gr. I.
+cg | gb — n. 3. III.
+Dw. cg | df — n. 1. Gr. I.
+cg + gb | df + fe — n. 2. Gr. I.
+oder cb | de — n. 9. Gr. q. I.
 
 ### Beschluß.
 
-Derowegen kan auff keinerley Weise ein Kreyß den andern in mehr/als einem Düttel anrühren. W. Z. B.
+Müssen also allezeit gleichlange gerade Striche cb, de in einem Kreyß gleichweit von dem Mittel-Düpffel a entfernet seyn : desgleichen werden auch gleichweit von dem Mittel-Düpffel a abstehende gerade Striche cb, de gleichlang seyn. W. Z. B.
 
-## Der XIV. Vortrag.
-
-## Das 13. Beweiß-Stück.
-
-Alle gleichlange gerade Striche in einem Kreyß/stehen gleichweit von dem Mittel-Düpffel ab. Und gleichweit von dem Mittel-Düpffel abstehende gerade Striche sind gleichlang.
-
-Erster Theil dieses Vortrages.
-
-### Gegebene. Begerthes.
-
-1. Der Kreyß edcb, — ag | af.
-2. Zween gerade Striche cb und de
-3. Jn dem gegebenen Kreyß/
-4. cb | de
-5. Die Senckstriche ag und af
-6. Aus dem Mittel-Düpffel a
-7. Auff die beeden Striche gezogen.
-
-### Vorbereitung.
-
-1. Aus dem Mittel-Düpffel a werden gezogen die Stralen ab und ae.
-2. Beede Striche werden in zween gleiche Theile geschnitten n. 10. I.
-3. Es werden auch die beeden Senckstriche ag, af gezogen. n. 12. I.
-
-<!-- Catchword: Be- -->
+<!-- Catchword: Der -->

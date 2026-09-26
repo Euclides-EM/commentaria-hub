@@ -1,36 +1,33 @@
-<!-- Page number: 74 -->
+<!-- Page number: 76 -->
 
 <!-- Running title: Das I. Buch -->
 
-Gleiche Bewandniß hat es / wenn man den Nebenstrich durch G ziehen wolte.
+### Beweiß.
+
+AG ⟛ BC n. 1. Vorber.
+BE | EC n. 2. Vorber.
+Dw. ABE ⩓ AEC n. 38. Vortr.
+und ABC ⩓ 2 AEC
+□ EFCG | 2 △ AEC n. 41. Vortr.
+Dw. □ EFCG | △ ABC n. 6. Gr:S.
+und ECG ⋀ D n. 3. Vorber.
 
 ### Beschluß.
 
-Müssen also alle gleichgrosse △ △ , so auff gleichlangen Grundstrichen gleichmäßig stehen/ auch zwischen einerley Nebenstrichen stehen. W. Z. B.
+Ist also dem gegebenen △ ein gleichhaltendes □ , und zwar nach dem ∧ D verfertiget. W. Z. M.
 
-## Der XLI. Vortrag.
+## Der XLIII. Vortrag.
 
-## Das 31. Beweiß-Stück.
+## Das 32. Beweiß-Stück.
 
-Wenn ein Nebenstrichiches Viereck mit einem Dreyeck auff einem einigen Grundstrich stehet / und sich zwischen einerley Nebenstrichen befinden; so ist das Viereck noch eins so groß/als das Dreyeck.
+In jedwedem Nebenstrichichen Viereck/sind die Füllflächen derer ümb den Zwergstrich stehenden Vierecke von gleicher grösse.
 
 ### Gegebene. | Begehrtes.
-1. □ ABDE | □ ABDE | 2 △ ABC.
-2. △ ABC
-3. Gemeiner Grundstrich AB
-4. EC = AB
-5. Zwischen welchen □ und △ stehen.
+1. □ ADBC | FH ⌻ GI.
+2. Zwergstrich AB
+3. Ümb den Zwergstrich stehende □ □ FG und HI
+4. Füllflächen FH und GI.
 
-[Diagram: Viereck mit den Puncten C, D, E oben und B, A unten, mit gezogenen und punctirten Strichen]
+[Diagram: Nebenstrichichtes Viereck mit den Puncten A, F, C oben, G, E, H in der Mitte und D, I, B unten, mit dem Zwergstrich und inneren Vierecken]
 
-### Vorbereitung.
-
-Man ziehe den Zwerg-Strich AD
-
-### Beweiß.
-
-□ ABDE | 2 △ ABD n. 34. Vortr.
-ABC ⩓ ABD n. 37. Vortr.
-Drw. □ ABDE | 2 △ ABC n. 6. Grund:S. k.
-
-<!-- Catchword: Beschluß. -->
+<!-- Catchword: Be- -->

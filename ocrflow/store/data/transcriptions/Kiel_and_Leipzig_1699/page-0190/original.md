@@ -1,27 +1,36 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 172 -->
+<!-- Page number: 174 -->
 
-cken / und so ist es auch nicht gleich gestalt / n. 23. III. welches wider das 2. Gegeb. oder es wird sich schicken/ und also wird es gleich groß seyn / n. 8. Gr. I.
-### Beschluß.
-Werden also gleichgestalte auff gleichlangen Strichen stehende Kreyßstücke gleicher grösse seyn. W. Z. B.
+## Der XXVI. Vortrag.
 
-## Der XXV. Vortrag.
+## Das 23. Beweiß-Stück.
+In gleichgrossen Kreyssen/ stehen gleichgrosse Winckel auff gleichgrossen Bogen/ es mögen Mittel-Düpffels- oder im Kreyß stehende Winckel seyn.
 
-## Das 3. Werckstück.
-
-Wenn ein Kreyßstück gegeben wird/ desselben Kreyßstückes Kreyß zu beschreiben.
-
-### Gegebenes.
-Kreyßstück abc.
+### Gegebene.
+1. O bgci | O dhek
+2. bac ⋀ dfe
+bgc ⋀ dhe
 
 ### Begehrtes.
-Kreyß bhac, dessen Theil das gegebene Kreyßstück ist.
+bic ⊻ dke.
 
-[Diagram: Kreyßstück mit den Punckten k, b, h, d, e, c, a, f; der Kreyß ist punctirt vollendet, mit Strichen durch e und f]
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, i, der andere mit h, f, d, e, k; in jedem ein Winckel am Mittel-Düpffel, die Sehnen bc und de punctirt]
 
-### Wirckung.
-1. Man ziehe in dem gegebenen Bogen den geraden Strich ac.
-2. Welcher in zwey gleiche Stücke ea | ec getheilet wird. n. 10. I.
+### I. Vorbereitung.
+Es werden die beeden geraden Striche bc und de gezogen.
+### I. Beweiß.
 
-<!-- Catchword: 3. Durch -->
+O bgci | O dhek   n. 1. Gegeb.
+ba | df
+ac | fe   n. 1. Beschr. III.
+ba + ac | df + fe   n. 2. Gr. I.
+bac ⋀ dfe   n. 2. Gegeb.
+Dw. bc | de   n. 4. I.
+und bic ⊻ dke   n. 24. III.
+
+### II. Vorbereitung.
+Es werden gezogen 1. die Stralen ba, ca und df, ef.
+2. Die geraden Striche bc und de.
+
+<!-- Catchword: II. Be- -->

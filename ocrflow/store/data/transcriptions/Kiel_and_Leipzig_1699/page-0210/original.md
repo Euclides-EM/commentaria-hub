@@ -1,34 +1,30 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 192 -->
+<!-- Page number: 194 -->
 
-2. Welcher von dem andern Strich ae in l,
-3. Und zwar nach rechten Winckeln geschnitten.
+[Diagram: Kreis mit Punkten c links, e und b oben rechts, n in der Mitte, d und l unten links, a unten]
 
-[Diagram: Kreis mit Punkten a oben, d links, b rechts, c unten; Striche db und ac schneiden sich in l, Mittel-Düpffel e]
+### Vorbereitung.
+
+Aus dem Mittel-Düpffel e werden gezogen
+1. Zu des Striches ac Endung c der Strich ec.
+2. Zum Ende des Striches bd der Strich ed.
+3. Zum Düttel l, wo die beeden Striche einander durchschneiden / der Strich el.
+4. Auff den andern Strich bd, der Senckstrich en n 12. I.
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | ▭ bld + □ el | □ ed | n. 5. II. |
-|  | ed | ec | n. 15. Beschr. I. |
+|  | ▭ bld + □ ln | □ dn | n. 5. II. |
+|  | □ en | □ en |  |
+| Dw. | ▭ bld + □ ln + □ en | □ dn + □ en | n. 2. Gr. I. |
+|  | □ ed | □ dn + □ en | n. 47. I. |
+| Dw. | ▭ bld + □ ln + □ en | □ ed | n. 1. Gr. I. |
+|  | □ el | □ ln + □ en | n. 47. I. |
+| Dw. | ▭ bld + □ ln + □ en + □ el | □ ed + □ ln + □ en | n. 2. Gr. I. |
+|  | ▭ bld + □ el | □ ed | n. 3. Gr. I. |
+|  | ed | ec | n. 15 Besch. I. |
 |  | □ ed | □ ec | n. 1. Gr. t. II. |
-| Dw. | ▭ bld + □ el + □ ed | □ ed + □ ec | n. 2. Gr. I. |
-|  | ▭ bld + □ el | □ ec | n. 3. Gr. I. |
-|  | cle ⋀ | ∟ | n. 3. Gegeb. |
-| Dw. | □ el + □ lc | □ ec | n. 47. I. |
-| und | ▭ bld + □ el | □ el + □ lc | n. 1. Gr. I. |
-| Dw. | ▭ bld | □ lc | n. 3. Gr. I. |
 
-### III. Begebenheit.
-
-### Gegeben
-
-1. Nur ein durch den Mittel-Düpffel e gehender Strich db,
-2. Welcher von dem andern Strich ae in l
-3. Nicht nach rechten Winckeln geschnitten.
-
-[Diagram: Kreis mit Punkten c oben, d und n links oben, a links, e in der Mitte, b unten rechts; Striche schneiden sich in l]
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: Dw. -->

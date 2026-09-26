@@ -1,34 +1,35 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 246 -->
+<!-- Page number: 254 -->
+
+### Gegebene. — Begehrtes.
+
+[Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
+
+A ⊣ B — A : a ⊣ B : a
+A | 5a
+B | 3a
 
 ### Vorbereitung.
 
-1. Die Grösse C werde zweymahl /
-2. Deßgleichen die Grösse D auch zweymahl genommen.
-3. Die Grösse a aber viermahl /
-4. Und b auch viermahl genommen.
+## Des I. Theils.
 
-[Diagram: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 4a, 2C, B, 4b, 2D]
+1. Man nehme A zweymahl
+2. Wie auch B zweymahl
+3. Aber a siebenmahl.
 
-### II. Beweiß.
+[Diagram: Drey waagerechte Linien, bezeichnet 2A, 7a, 2B]
 
-9a ⊣ 4a — n. 9. Gr. I.
-9a | C — n. Bew. δ
-Dw. C ⊣ 4a — n 1. Gr. c. I.
-2C ⊣ C — n. 9. Gr. I.
-γ Dw. 2C ⊣ 4a — n. 1. Gr. e. I.
-9b ⊣ 4b — n. Bew. ζ
-9b | D
-Dw. D ⊣ 4b
-2D ⊣ D
-φ Dw. 2D ⊣ 4b
+### Beweiß.
 
-Oder auch also:
+A | 5a — n. Geg.
+2A | 10a — n. Vorber. u. 6. Gr. i. I.
+B | 3a — n. Geg.
+2B | 6a — n. Vorber. u. 6. Gr. i. I.
+7a ⊢ 10a — n. 9. Grund. I.
+2A ⊣ 7a — n. 1. Gr. c. I.
+7a ⊣ 6a — n 9. Grund. I.
+Dw. 2B ⊢ 7a — n. 1. Gr. a. I.
+Und A : a ⊣ B : a — n. 8. Beschr. V.
 
-### Vorbereitung.
-
-1. Es werde a zehen mahl /
-2. Und auch b zehen mahl genommen.
-
-<!-- Catchword: A— -->
+<!-- Catchword: Des -->

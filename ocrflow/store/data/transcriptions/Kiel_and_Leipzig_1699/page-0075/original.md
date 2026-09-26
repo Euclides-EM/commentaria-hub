@@ -1,39 +1,35 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 57 -->
+<!-- Page number: 59 -->
 
-[Diagram: Zwei sich schneidende Striche mit den Dütteln G, M, B, D, E, F, K, I, A, H, C; der einfallende Strich IK senkrecht]
+### Beweiß des 3.
 
-### Beweiß.
+        AGH ⋏ GHD           n. 1. Beweiß.
+        AGH ⋏ EGB           n. 15. Vortr.
+β.  Dw.   GHD ⋏ EGB         n. 1. Gr-S.
 
-1. Entweder sind        AB — DC.
-2. oder lauffen zusammen in H.
-3. oder  -  -  -  -  in G.
+### Beweiß des 4.
 
-### Vorbereitung.
-
-Wann AB = DC so setze man auff E
-einen Winckel IEM ⋏ EFD n. 23. Vortr.
-
-### Verfolg des Beweises.
-
-        IEM ⋏ EFD  n. 1. Vorbereit.
-        BEF ⋏ EFD  n. 1. Angen. uñ 28. Vortr.
-Dw. BEF ⋏ IEM  n. 1. Gr-S.
-Welches aber unmöglich n. 9. Gr-S.
-
-Wann aber die beeden Striche BA und DC in dem Düttel H zusammen kommen / so werden in dem △ EHF zween Winckel HEF + HFE ⋏ ⏥, welches unmüglich / nach 17. Vortr. müssen also die beeden Striche in G zusammen kommen.
+AGH           ⋏ GHD             n. 1. Beweiß.
+        BGH ⋏         BGH
+AGH + BGH ⋏ GHD + BGH   n. 2. Gr-S.
+AGH + BGH ⋏ ⏥            n. 13. Vortr.
+γ. Dw. GHD + BGH ⋏ ⏥     n. 1. und 10. Gr-S.
 
 ### Beschluß.
 
-Wenn derwegen bey den beeden Strichen der einfallende Strich auff einer Seiten zween Winckel/ so kleiner als ⏥, machet so müssen solche Striche auff selbiger Seite/wo die kleinere Winckel stehen/ zusammen kommen. W. Z. B.
+Werden also die bey denen Neben-Strichen von dem einfallenden Strich gemachte (α) Wechsel-Winckel/ darnach (β) aus- und inwendige Winckel gleich groß/ und (γ) die zweene inwendige Winckel zweyen ⏥ gleich seyn. W. Z. B.
 
-## Der XXIX. Vortrag.
+## Der XXX. Vortrag.
 
-## Das 20. Beweiß Stück.
+## Das 21. Werckstück.
 
-Der auff zween gerade neben-Striche einfallende gerade Strich machet die wechsel-weiß ge-
+Wenn zween Striche neben dem dritten in unveränderter Weite hinlauffen / so sind selbige auch unter sich Neben-Striche.
 
-<!-- Signature: H -->
+### Gegebene.                         Begehrtes.
+1. Zween Striche AB und CD        AB ═ CD
+2. Der Strich EF
+3.        AB ╪ EF
+4.        CD ╪ EF
 
-<!-- Catchword: nom- -->
+[Diagram: Drei waagerechte Striche AB, EF und CD, geschnitten vom schrägen Strich GH in den Dütteln I, L und K]

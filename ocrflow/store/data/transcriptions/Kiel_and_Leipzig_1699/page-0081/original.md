@@ -1,38 +1,37 @@
+<!-- Page number: 65 -->
+
 <!-- Running title: Euclidis. -->
-
-<!-- Page number: 63 -->
-
-## Der XXXIII. Vortrag.
-
-## Das 24. Beweiß Stück.
-
-Zween gerade Striche/ welche zween gleichlange Neben-Striche an beeden Enden/auff gleiche Weise/zusammen hengen / sind gleich-lange Neben-Striche.
-
-### Gegebene.                              Begehrte.
-1. Zween gerade Striche AC und BD.     1. AC | BD
-2. AB | CD                             2. AC ╪ BD
-3. AB ╪ CD.
-4. Zusammen hengung
-5. Auff gleiche Weise / das ist / nicht Creutzweiß/sondern auff gleich-ähnliche Weise.
-
-[Diagram: Viereck ABDC mit punktierter Diagonale von C nach B]
-
-### Vorbereitung.
-
-Man ziehe den zwerg-Strich BC.
-
-### Beweiß.
-
-AB           ╪    CD          n. 3. Gegeb.
-Dw.    ABC ⋏ BCD              n. 29. Vortr.
-       BC   |     BC
-AB + BC  |  CD + BC  nach 2. Gr-S.
-Drw.   AC    |    BD   }  nach 4. Vortr.
-und    ACB   ⋏    DBC  }
-Drw.   AC    ╪    BD          nach 27. Vortr.
 
 ### Beschluß.
 
-Werden also diejenigen geraden Striche/ welche Nebenstriche rechtmäßig zusammen hängen/auch gleich-grosse Nebenstriche seyn. W. Z. B.
+Werden also jedwedes Nebenstrichiches Viereckes entgegen stehende Seiten α. β. und gegen einander übergesetzte Winckel γ. ε. wie auch die durch den Zwerg-strich gemachte Dreyecke gleich groß seyn. W. Z. B.
 
-<!-- Catchword: Der -->
+## Der XXXV. Vortrag.
+
+Das 25. Werck-Stück:
+
+Alle auff einen einigen Grundstrich/und zwischen einerley Nebenstrichen stehende Nebenstrichiche Vierecke sind gleich groß.
+
+### 1. Begebenheit.
+
+### Gegebene. | Begehrtes.
+1. □ ABDC | ABDC ⌻ BCDE
+2. □ BCDE
+3. Der gemeine Grundstrich CD
+4. Die Nebenstriche AE=CD
+5. Zwischen welchen die □ □ stehen.
+
+[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten E, B, A oben und D, C unten]
+
+### Beweiß.
+
+ABC ⩓ CDB
+BDE ⩓ CDB } n. 34. Vortr.
+Dw. ABC ⩓ BDE n. 1. Gr:S.
+CDB ⩓ CDB
+Dw. CDB + ABC ⩓ BDE + CDB n. 2. Gr:S.
+oder ABDC ⌻ BCDE n. 9. Gr:S. q.
+
+<!-- Signature: I -->
+
+<!-- Catchword: 2. Be- -->

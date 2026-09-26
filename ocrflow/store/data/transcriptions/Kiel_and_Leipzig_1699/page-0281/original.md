@@ -1,33 +1,49 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 257 -->
+<!-- Page number: 265 -->
+
+### I. Gegebene. | Begehrtes.
+
+A ________ | a ⊣ b.
+a ____
+B ______
+b __
+
+[Diagram: Strecken A, a, B, b]
+
+A : a | B : b
+A ⊣ B
 
 ### Beweiß.
 
-a | 3b
-A | 2b
-B | 2b — n. Gegebenen.
-Dw. A | B — n. 6. Gr. I.
+A | 3a
+B | 3b
+A ⊣ B — n. Gegeb.
+Dw. 3a ⊣ B — n. 1. Gr. c. I.
+und 3a ⊣ 3b — n. 1. Gr. a. I.
+Dw. a ⊣ b — n. 7. Gr. p. I.
 
-Oder also:
+### II. Gegebene. | Begehrte.
 
-Wenn A ⊣ B — so muß
-auch a : A ⊢ a : B — n. 8. V.
-ist aber A ⊢ B — so muß
-auch a : A ⊣ a : B — n. 8. V.
+A ________ | a | b
+a ____
+B ________
+b ____
 
-Welches aber beedes wider das Gegebene.
+[Diagram: Strecken A, a, B, b]
 
-### Beschluß.
+A : a | B : b
+A | B
 
-Müssen also diejenigen Grössen / welche zu einer einigen Grösse gleiche Verhältnüß haben / gleich groß seyn: Und diejenigen Grössen/ zu welchen eine einige Grösse gleiche Verhältnüß hat/ müssen auch gleich groß seyn. W. Z. B.
+### Beweiß.
 
-## Der X. Vortrag.
+A | 3a
+B | 3b — nach Gegeb.
+A | B
+Dw. 3a | B
+und 3a | 3b — n. 1. Gr. I.
+Dw. a | b — n. 7. Gr. p. I.
 
-## Das 10. Beweiß-Stück.
-
-Welche aus zwo Grössen zu einer einigen Grösse die Grössere Verhältnüß hat / dieselbige wird auch die Grösseste seyn: Und zu welcher Grösse eine einige Grösse die grössere Verhältnüß hat / dieselbige wird am kleinesten seyn.
-
-<!-- Signature: Kk -->
+<!-- Signature: Ll -->
 
 <!-- Catchword: Gege- -->

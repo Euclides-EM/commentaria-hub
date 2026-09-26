@@ -1,26 +1,20 @@
 <!-- Running title: Beschreibungen. -->
 
-<!-- Page number: 2 -->
+<!-- Page number: 4 -->
 
-# Deß I. Buchs Anfänge (Principia,) und zwar 1. Beschreibungen der Kunst wörter.
+XII. Ein spitziger Winckel aber ist kleiner/ als ein rechter Winckel.
 
-I. Ein Düpffelein (Punctum) oder Düttel ist ein sichtbares Zeichen eines untheilbaren Anfangs aller Grössen.
-II. Ein Strich (Linea) ist ein Zeichen einer Länge/ die keine Breite hat.
+[Diagram: zwei Winkel mit punktierten Viertelkreis-Bögen, spitzige Winkel darstellend]
 
-[Diagram: waagerechte gerade Linie]
+XIII. Endung (Terminus) ist das eusserste einer Grösse.
+XIV. Gestalt ( Figura ) ist/ welche in eine oder mehr Endungen eingeschlossen/oder eingefasset ist.
+XV. Ein Kreyß ( Circulus ) ist eine flache Gestalt/ von einem einigen Strich (oder Zug) eingeschlossen/welchen man den Umbkreyß ( auch Kreyß-zug ) nennet / zu welchem alle/von einem derer inwendigen Düttele/gezogene Striche (Radii) gleich lang sind.
 
-III. Das Eusserste oder die Endungen (Termini) eines endlichen Striches sind Düpffele oder Düttele.
-IV. Ein gerader Strich (oder Zug) ist/ welcher ohne Außweichung und am kürtzesten zwischen seinen End-Düpffeln außgestrecket ist: die andern / so nicht gleich außgestrecket sind/ werden krumme Züge genennet.
+[Diagram: drei Kreise mit mehreren vom Mittelpunkt gezogenen Radien]
 
-[Diagram: gerade Linie, durchkreuzt von punktierten krummen Schlingenzügen]
+XVI. Dieser Düttel aber wird der Mittel-Düpffel (Centrum) des Kreyses genennet.
+XVII. Der Durchschlag (Diameter) des Kreyses ist ein gerader durch den Mittel-Düpffel gezogener Strich/ welcher auff beiden Seiten an den Umbkreyß stösset/ und denselbigen in zween gleiche Theile schneidet.
 
-V. Eine Fläche (Superficies) ist/ welche nur auß einer Länge und Breite bestehet/ (aber keine Dicke hat.)
+[Diagram: drei Kreise mit je einem Durchmesser: waagerecht, schräg und senkrecht]
 
-[Diagram: Rechteck]
-
-VI. Die endliche Fläche wird von Strichen eingeschrencket.
-VII. Eine ebene Fläche ist/ welche gerade/ ohne Auffblehung oder Niedersinckung/ zwischen ihren Endstrichen lieget / oder stehet.
-
-[Diagram: zwei Vierecke, links ein Trapez, rechts ein nach unten gespitztes Viereck]
-
-<!-- Catchword: IIX. Ein -->
+<!-- Catchword: XIIX. -->

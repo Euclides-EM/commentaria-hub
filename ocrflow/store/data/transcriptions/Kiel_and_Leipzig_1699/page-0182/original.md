@@ -1,34 +1,27 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 164 -->
+<!-- Page number: 166 -->
 
-## Der XIX. Vortrag.
+II. Arth.
 
-## Das 17. Beweiß-Stück.
+cah ∠ 2 cph
+dah ∠ 2 dph — n. 1. Bew.
+Dw. cah + dah ∠ 2 cph + 2 dph — n. 2. Gr. I.
+oder cad ∠ 2 cpd — n. 9. Gr. q. I.
 
-Wenn in einem Kreyß von dem Rührdüpffel des Rührstrichs ein Senckstrich gezogen wird / so ist in solchem Strich des Kreyses Mitteldüpffel.
+[Diagram: Kreis mit Mitteldüpffel a, Punkt p oben, c links unten, d rechts unten, h unten; Striche pc, pd, ac, ad und punktierte Linie ph]
 
-### Gegebene. Begehrtes.
+III. Arth.
 
-1. Kreyß cg — Jn dem gezogenen Senckstrich cd ist des Kreyses cg Mitteldüpffel d.
-2. Rührstrich ab
-3. Rührdüpffel c
-4. Senckstrich cd
-5. Auß deß Rührstriches Rührdüpffel in den Kreyß gezogen.
+eac ∠ 2 efc
+dae ∠ 2 efd — n. 1. Bew.
+eac — dae ∠ 2 efc — 2 efd — n. 3. Gr. I.
+oder dac ∠ 2 dfc
 
-[Diagram: Kreis mit oben anliegendem Rührstrich ab und Rührdüpffel c; im Kreis der Senckstrich cd sowie punktierte Linie ce mit den Düpffeln d, e und g]
+[Diagram: Kreis mit Mitteldüpffel a, Punkt b oben links, f links, e rechts, d rechts unten, c unten; Striche bf, fd, fc, ad, ac und punktierte Linien ba, fe]
 
-### Vorbereitung.
+### Beschluß.
 
-Wenn der Mitteldüpffel nicht in dem Senckstrich cd, so
-1. nehme man den Mitteldüpffel e.
-2. von diesem Mitteldüpffel e werde zu dem Rührdüpffel ein gerader Strich ec gezogen.
+Wird also allezeit der Mittel-Düpffels Winckel noch einmahl so groß seyn / als der auff eben solchem Kreyßzug stehende Kreyßstücks-Winckel. W. Z. B.
 
-### Beweiß.
-
-eca ∠ ∟ — n. 18. III.
-dca ∠ ∟ — n. 4. Gegeb.
-Dw. dca ∠ eca — n. 1 und 10. Gr. I.
-Welches unmüglich — n. 9. Gr. I.
-
-<!-- Catchword: Be- -->
+<!-- Catchword: Der -->

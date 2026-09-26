@@ -1,14 +1,7 @@
 <!-- Running title: Vorrede. -->
 
-die grösseste Deutlichkeit auf dem Zeichen der Gleichmässigkeit beruhe/ welches ein aufrecht stehender gerader Strich ist.
+daß/ ungeachtet unser Euclides von denen meisten Mathematicis, wegen seiner scharffsinnigen und genauen Beweißthümer/ hochgeschätzt und sehr gelobet wird/ doch etliche sonst verständige Mathematici gefunden werden/ welche ihn getadelt: und zwar schon vor etlichen 100. Jahren haben die Pyrrhonii oder Sceptici, welche an allen/ auch an den warhafftigsten dingen zweiffelten/ den Euclidem angefochten: deßgleichen in diesem Seculo hat Marcus Meybomius in seinem Buch de Proportionibus den IIX. und X. Vortrag des V. Buchs Euclid. über einen hauffen zu werffen getrachtet: aber so wol jene/ als auch dieser sind von Wilhelmo Langio, in seinem Tractat de Veritatibus Geometricis, so zu Copenhagen 1656. gedrucket / zur gnüge widerleget worden. In dem vorigen Seculo haben Petrus Ramus und Johannes Thomas Freigius dergleichen versuchet/ sind aber von Joanne Broccio, Professore Cracoviensi, in seiner Apologia pro Aristotele & Euclide, abgefertiget worden. Noch vor nicht gar langer Zeit hat ein unbekanter Auctor in seinem Buche de arte cogitandi den II. und XX. Vortrag vor unnötig gehalten/ weil sie keines Beweises bedürfften: da doch alles/ was bewiesen werden kan/ nicht so schlechter dinges muß angenommen werden: anderer Einwürffe anitzo zu geschweigen.
 
-Und solch Zeichen ist schon vor diesem bey den Rechenmeistern gebräuchlich gewesen / wenn sie bey den Theilungen (oder Divisionibus) die Zahlen also setzen 24/6 | 4 welches nichts anders bedeutet / als daß 24 Sechstheil eben so viel/ als 4. Gantze/ seyn. Deßgleichen gebraucht man sich solches Zeichens auch bey Verwandlung und Verkleinerung der Brüche/ als:
+Endlich ist nöthig/ daß man/ wo nicht alle / doch die vornehmsten Druckfehler ändere / welche füglich in drey Ahrten können abgetheilet werden. Die erste Ahrt bestehet aus solchen/ welche leichtlich durch
 
-96 | 48 | 24 | 12 | 6 | 3
-128 | 64 | 32 | 16 | 8 | 4
-
-da dann 96 hundert-acht und zwantzigtheil eben so viel/ als 48 vier und sechtzig theil/ etc. oder so viel/ als 3 Viertheil ist.
-
-<!-- Signature: ):( ):( 3 -->
-
-<!-- Catchword: Zu -->
+<!-- Catchword: Auf- -->

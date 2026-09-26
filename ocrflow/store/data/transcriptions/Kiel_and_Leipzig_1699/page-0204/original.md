@@ -1,28 +1,37 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 186 -->
+<!-- Page number: 188 -->
+
+[Diagram: Kreis mit Punkten h, g, a, k, b; unten links Winckel mit Punkten d, c, e, f]
+
+### Vorbereitung.
+
+1. In das gefundene Kreyßstück werde der Winckel ahb gesetzt.
+2. Aus g werde gegen ab ein Senckstrich gk gezogen n. 12. I.
+
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-| Dw. | bae + eac | ⋀ eda + efa | n. 1. Gr. I. |
-|  | eda ⋀ | bae | n. 1. Bew. |
-| Dw. | bae + eac + eda ⋀ eda + efa + bae |  | n. 2. Gr. I. |
-|  | bae + eda ⋀ | eda + bae |  |
-| Dw. | eac ⋀ | efa | n. 3. Gr. I. |
+|  | gak ⋀ gbk |  | n. 3. Wirck. |
+| Dw. | bg | ag | n. 6. I. |
+|  | bkg ⋀ | ∟ |  |
+|  | akg ⋀ | ∟ | n. 2. Vorb. und 10. Beschr. I. |
+| Dw. | akg ⋀ bkg |  | n. 1. Gr. und 10. Gr. I. |
+| und | ak | bk | n. 26. I. |
+| Dw. in | kg | Mittel-Düpffel | n. 1. Anhang III. |
+| und in | ag | Mittel-Düpffel | n. 19. III. |
+| Dw. | g | Mittel-Düpffel |  |
 
-### Beschluß.
+III. Arth.
 
-Müssen derowegen allezeit die im abgewandten Krayß-Stück stehende Winckel eda und efa, mit denen Winckeln / bae und eac, welche der aus dem Rühr-Düpffel a in den Kreyß gezogene Strich ae mit dem Rühr-Strich bc machet/ gleich groß seyn. W. Z. B.
+### Gegebenes:
 
-## Der XXXIII. Vortrag.
+Der Winckel ecd | ∟
 
-## Das 5. Werck-Stück.
+### Wirckung.
 
-Auff einen gegebenen geraden Strich ein Kreyß-Stück zu beschreiben/in welchem ein Winckel/ so dem gegebenen Winckel gleichgroß ist/ stehen könne.
+1. Wird der gegebene Strich ab in zween gleiche Theil getheilet. n. 10. I.
+2. Aus dieses Striches ab Mittel m wird nach der weite ma ein Kreyß beschrieben.
 
-### Gegebene. | Begehrte.
-
-1. Gerader Strich ab oder al. | 1. ◠ ahb.
-2. Winckel ecd. | 2. In welchem stehen kan ahb oder abl ⋀ ecd.
-
-[Diagram: zwei Kreise mit Konstruktionen; links Kreis mit Punkten e, h, k, a, b, g, i und Tangenten c, d, f; rechts Kreis mit Punkten h, e, i, g, k, a, b und Tangenten d, c, f]
+[Diagram: Halbkreis über dem Strich a–b mit Mittelpunkt m; Punkte c, h, e oben, d bei a]

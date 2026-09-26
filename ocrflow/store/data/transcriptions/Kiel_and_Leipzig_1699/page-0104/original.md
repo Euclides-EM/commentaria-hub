@@ -1,30 +1,25 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 86 -->
+<!-- Page number: 88 -->
 
-### Beweiß.
+Wann aber nur ein Buchstab / und zwar zweymahl gebraucht wird/ als aa, so bedeutet es das gleichseitige □ des Striches a. Im übrigen bedienet man sich derer zu Anfang des 1. Buchs erklährten Zeichen.
 
-acd ∠ ⌐ | n. 1. Vorber.
-Dw. □ ad | □ cd + □ ac | n. 47. Vort.
-cb | cd | n. 2. Vorbr.
-Dw. □ cb | □ cd | n. 6. GrS. l.
-□ ac | □ ac
-Dw. □ cb + □ ac | □ cd + □ ac | n. 2. GrS.
-□ ad | □ cd + □ ac | n. 1. GrS.
-□ ab | □ cd + □ ac | n. 2. Gegeb.
-Dw. □ ab | □ ad | n. 1. GrS.
-und ab | ad | n. 7. GrS. p.
-bc | dc | n. 2. Vorber.
-ac | ac
-Dw. bc + ac | dc + ac | n. 2. GrS.
-und acb ∠ dca | n. 8. Vortr.
-⌐ ∠ dca | n. 1. Vorber.
-Dw. acb ∠ ⌐ | n. 10. Beschreib.
+Demnach werden aus der Löse-Kunst vor diesesmahl entlehnet nachfolgende
 
-### Beschluß.
+## Grund-Sätze :
 
-Wenn derowegen in einem △ , der einen Seiten □ so groß ist / als die □ □ der ander beeden Seiten / so begreiffen diese beeden Seiten einen rechten Winckel. W. Z. B.
+I. Wenn zwo gleiche Grössen/ in zwo andere gleiche Grössen gezogen werden / so werden auch gleichgrosse Dinge daraus.
 
-[Ornament: Zierstück (Druckervignette in Rautenform)]
+(t) Wenn die Seiten oder Striche gleichlang/so sind auch die Vierecke ( und Würffel ) solcher gleichgrossen Seiten gleichgroß.
 
-<!-- Catchword: Das -->
+II. Wenn zwo ( oder mehr ) gleiche Grössen an gleiche Grössen angeschlagen werden/ so entspringen darauß auch gleichgrosse Dinge.
+
+(u) Gleichgrosse rechtwincklichte Vierecke ( und Würffel ) haben auch gleich lange Striche/ ( oder Vierecke. )
+
+1. Ein jedes rechtwincklichtes Nebenstrichiches Viereck ( Parallelogrammum rectangulum abcd ) wird von zween geraden Strichen ( ab und cb, ) so einen rechten Winckel (abc) machen/ begriffen.
+
+[Diagram: zwey rechtwincklichte Vierecke mit den Eckpunkten d, c oben und a, b unten]
+
+2. In jedwedem nebenstrichichen Viereck (ADBC) wird ein jedes/derer ümb den Zwerg-Strich ( ABC ) stehenden Vierecke (FG oder HI,)samt den zwo nebenstehenden Füllflächen (DE und FH) ein Winckelmaß (Gnomonem) machen.
+
+<!-- Catchword: Der -->

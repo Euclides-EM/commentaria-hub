@@ -1,32 +1,21 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 140 -->
+<!-- Page number: 142 -->
 
-ea + ai ⊣ ei — n. 24. I.
-ec | ei — n. 15. Beschr. I.
-Dw. ec ⊣ ea + ai — n. 1. Gr. a. [unclear: i.]
-ea | ea
-ec — ea ⊢ ai — n. 5. Gr. I.
-oder ac ⊢ ai
+[Diagram: Kreis mit Mittelpunkt b; oberhalb des Kreises der Punkt a, von dem gerade und punktierte Striche durch die Punkte c, d, e, f, g, h, i, k am oberen Kreisbogen gezogen sind; auf dem Kreis ferner die Punkte L und l (waagerechter punktierter Durchmesser), m, n und o unten]
 
-eh | el — n. 15. Beschr. I.
-ea | ea
-eh + ea | el + ea — n. 2. Gr. I.
-aeh ⋀ ael — n. 1. Vorber.
-Dw. ah | al — n. 4. I.
+### Beweiß.
 
-ae + ek | ae + eg — n. 15. Besch. u. 2. Gr. I.
-aek ⋀ aeg — n. 9. Gr. I.
-Dw. ac ⊣ ag. — n. 24. I.
+bn | bo — n. 15. Beschr. I.
+ab | ab
+ab + bn | ab + bo — n. 2. Gr. I.
+an ⊢ ab + bn — n. 20. I.
+Dw. an ⊢ ab + bo | ao. — n. 1. Gr. b. I.
 
-### Beschluß.
+ba ⊢ be + ea — n. 20. I.
+ba | bf + fa — n. 9. Gr. q. I.
+Dw. bf + fa ⊢ be + ea — n. 1. Gr. b. I.
+bf | be — n. 15. Besch. I.
+fa ⊢ ea — n. 5. Gr. I.
 
-Ist also allezeit der / aus dem erwehlten Düttel a, durch den Mittel-Düpffel e gezogene Strich ab, der längste/und das übrige ac der kürtzeste; die andern aber / je näher sie dem Mittel-Düpffel stehen/auch länger/als die/so weiter davon entfernet seyn: Diejenigen aber/welche gleichweit davon abstehen (als ah und [unclear: ab]) gleichlang. W. Z. B.
-
-## Der IIX. Vortrag.
-
-## Das 7. Beweiß-Stück.
-
-Wenn ausser dem Kreyß ein Düttel erwehlet wird / und von selbigem Düttel zu dem Kreyß etliche gerade Striche gezogen werden / deren einer durch den Mittel-Düpffel gehet: So wird unter allen / so auff den Kreyß inwendig stossen / derjenige / welcher durch den Mittel-Düpffel ge-
-
-<!-- Catchword: het/ -->
+<!-- Catchword: ab -->

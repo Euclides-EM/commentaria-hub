@@ -1,19 +1,26 @@
-Necessariò igitur incidit linea bc in ipsam lineam BC.
+<!-- Running title: Beschreibungen. -->
 
-Et propterea linea bc |          | BC
-              △ abc   | congruit | △ ABC
-              ⋀ cba   |          | ⋀ CBA
-&             ⋀ bca   |          | ⋀ BCA
+<!-- Page number: 2 -->
 
-Quamobrem etiam
+# Deß I. Buchs Anfänge (Principia,) und zwar 1. Beschreibungen der Kunst wörter.
 
-bc | BC
-abc ⋏ ABC
-cba ⋏ CBA
-& bca ⋏ BCA juxt. 8. axioma. (n. 8. Gr. S.)
+I. Ein Düpffelein (Punctum) oder Düttel ist ein sichtbares Zeichen eines untheilbaren Anfangs aller Grössen.
+II. Ein Strich (Linea) ist ein Zeichen einer Länge/ die keine Breite hat.
 
-### Conclusio (Beschluß.)
+[Diagram: waagerechte gerade Linie]
 
-Si igitur duo triangula duo latera duobus lateribus æqualia habeant, utrumque utrique; habeant verò & angulum angulo æqualem, sub æqualibus rectis lineis contentum: Et basin basi æqualem habebunt; eritque triangulum triangulo æquale; & reliqui anguli reliquis angulis æquales erunt, uterque utrique, quos æqualia latera subtendunt. q. e. d. (W. Z. B.)
+III. Das Eusserste oder die Endungen (Termini) eines endlichen Striches sind Düpffele oder Düttele.
+IV. Ein gerader Strich (oder Zug) ist/ welcher ohne Außweichung und am kürtzesten zwischen seinen End-Düpffeln außgestrecket ist: die andern / so nicht gleich außgestrecket sind/ werden krumme Züge genennet.
 
-[Ornament: grosse Schlussvignette (Holzschnitt) mit Blumen und Blattwerk]
+[Diagram: gerade Linie, durchkreuzt von punktierten krummen Schlingenzügen]
+
+V. Eine Fläche (Superficies) ist/ welche nur auß einer Länge und Breite bestehet/ (aber keine Dicke hat.)
+
+[Diagram: Rechteck]
+
+VI. Die endliche Fläche wird von Strichen eingeschrencket.
+VII. Eine ebene Fläche ist/ welche gerade/ ohne Auffblehung oder Niedersinckung/ zwischen ihren Endstrichen lieget / oder stehet.
+
+[Diagram: zwei Vierecke, links ein Trapez, rechts ein nach unten gespitztes Viereck]
+
+<!-- Catchword: IIX. Ein -->

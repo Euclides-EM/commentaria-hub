@@ -1,30 +1,33 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 152 -->
+<!-- Page number: 154 -->
 
-### III. Begebenheit.
+### Beschluß.
 
-Wenn die beeden Kreyse einander auswendig in k und m anrühren.
+Derowegen kan auff keinerley Weise ein Kreyß den andern in mehr/als einem Düttel anrühren. W. Z. B.
 
-[Diagram: zwei einander von aussen berührende Kreise; an der Berührung oben k, darunter m; im linken Kreis der Mittel-Düpffel l, im rechten i; gerade und punktierte Verbindungsstriche]
+## Der XIV. Vortrag.
+
+## Das 13. Beweiß-Stück.
+
+Alle gleichlange gerade Striche in einem Kreyß/stehen gleichweit von dem Mittel-Düpffel ab. Und gleichweit von dem Mittel-Düpffel abstehende gerade Striche sind gleichlang.
+
+Erster Theil dieses Vortrages.
+
+### Gegebene. Begerthes.
+
+1. Der Kreyß edcb, — ag | af.
+2. Zween gerade Striche cb und de
+3. Jn dem gegebenen Kreyß/
+4. cb | de
+5. Die Senckstriche ag und af
+6. Aus dem Mittel-Düpffel a
+7. Auff die beeden Striche gezogen.
 
 ### Vorbereitung.
 
-1. Ziehe man von dem einen Mittel-Düpffel i einen geraden Strich il zum andern Mittel-Düpffel l.
-2. Aus denen Mittel-Düpffeln i und l werden zum Anrührungs-Düttel k zweene gerade Striche ik und lk gezogen.
+1. Aus dem Mittel-Düpffel a werden gezogen die Stralen ab und ae.
+2. Beede Striche werden in zween gleiche Theile geschnitten n. 10. I.
+3. Es werden auch die beeden Senckstriche ag, af gezogen. n. 12. I.
 
-### Beweiß.
-
-kl | lm
-ik | mi — n. 15. Beschr. I.
-ik + kl | lm + mi — n. 2. Gr. I.
-Oder ik + kl | li — n. 9. Gr. q. I.
-Welches aber unmüglich n. 20. I.
-
-### IV. Begebenheit.
-
-Wenn der kleinere Kreyß den grössern inwendig in q und r berühret.
-
-[Diagram: zwei Kreise, deren kleinerer den grössern inwendig berühret; oben die Punkte b und r, im Innern o und d, mit punktierten Strichen verbunden]
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: Be- -->

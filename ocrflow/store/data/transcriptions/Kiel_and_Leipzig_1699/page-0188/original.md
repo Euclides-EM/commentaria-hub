@@ -1,30 +1,27 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 170 -->
+<!-- Page number: 172 -->
 
+cken / und so ist es auch nicht gleich gestalt / n. 23. III. welches wider das 2. Gegeb. oder es wird sich schicken/ und also wird es gleich groß seyn / n. 8. Gr. I.
 ### Beschluß.
-Sind also jedes Viereckes / so einem Kreyß eingeschrieben/ gegen einander überstehende Winckel adc + abc ⋀ ⌓
-dcb + adb ⋀ ⌓ W. Z. B.
+Werden also gleichgestalte auff gleichlangen Strichen stehende Kreyßstücke gleicher grösse seyn. W. Z. B.
 
-## Der XXIII. Vortrag.
+## Der XXV. Vortrag.
 
-## Das 21. Beweiß-Stück.
-Auff einen einigen geraden Strich können auff einerley Weise keine zwey gleichgestalte Kreyß-Stücke gesetzet werden/ welche doch ungleicher Grösse seyn.
+## Das 3. Werckstück.
 
-### Gegebene.
-1. Gerader Strich ab
-2. Zwey gleichgestalte ⌓ ⌓
-3. Auff diesen Strich ab
-4. Auff einerley Weise gesetzet.
+Wenn ein Kreyßstück gegeben wird/ desselben Kreyßstückes Kreyß zu beschreiben.
+
+### Gegebenes.
+Kreyßstück abc.
 
 ### Begehrtes.
-Beede Kreyß-Stücke gleicher Grösse.
+Kreyß bhac, dessen Theil das gegebene Kreyßstück ist.
 
-[Diagram: Zwey Kreyß-Stücke über dem Strich ab, mit den Punckten a, b, c, d und punctirten Strichen ad, bc]
+[Diagram: Kreyßstück mit den Punckten k, b, h, d, e, c, a, f; der Kreyß ist punctirt vollendet, mit Strichen durch e und f]
 
-### Vorbereitung.
-Wenn es seyn kan/ so mache man (1) auff den geraden Strich ab auff einerley Weise zwey gleichgestalte oder ähnliche Kreyßstücke ungleicher Grösse ⌓ adb + ⌓ acb.
-2. Werde gezogen der Strich ad.
-3. Aus b werde zu dem Düttel c, wo der Strich ad das Kreyß-Stück acb schneidet/ der Strich bc gezogen.
+### Wirckung.
+1. Man ziehe in dem gegebenen Bogen den geraden Strich ac.
+2. Welcher in zwey gleiche Stücke ea | ec getheilet wird. n. 10. I.
 
-<!-- Catchword: 4. Werde -->
+<!-- Catchword: 3. Durch -->

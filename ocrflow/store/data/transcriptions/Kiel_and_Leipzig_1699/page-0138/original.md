@@ -1,36 +1,40 @@
-<!-- Page number: 120 -->
+<!-- Page number: 122 -->
 
 <!-- Running title: Das II. Buch -->
 
-### Beschluß.
+□ ac | □ ad + □ cd
+□ ac + □ ab + (□ ad + □ cd) | 2 ▭ bad + □ bd + □ cd + (□ ad + □ cd) | n. 47. I.
+n. 2. Gr. I.
+□ ac + □ ab | 2 ▭ bad + □ bd + □ cd n. 3 Gr. I
+□ bd + □ cd | □ cb n. 74. I.
+□ ac + □ ab + (□ bd + □ cd) | 2 ▭ bad + (□ bd + □ cd) + □ cb
+□ ac + □ ab | 2 ▭ bad + □ cb
+2 ▭ bad | 2 ▭ bad
+□ ac + □ ab — 2 ▭ bad | □ cb | n. 3. Gr. I.
 
-Wird also allezeit das □ der Seite ac, welche dem stumpffen Winckel abc gegen-über stehet/ grösser seyn / als die beeden Vierecke derer andern Seiten ab und bc, welche den stumpffen Winckel begreiffen / und zwar so viel/ als das 2 ▭, welches von der Verlängerung bd der einen Seite ab, biß zum Senckstrich cd, so aus dem Ende c der andern Seite bc, auff diese Verlängung bd fället/ und von der Seiten ab selbst gemacht wird. W. Z. B.
+### Auff eine andere Arth.
 
-### Nach der Löse-Kunst.
+### Begehrtes.
 
-### Gegebenes. | Begehrtes.
-
-1. a | ac | aa | bb ✠ 2be ✠ cc.
-2. b | ab
-3. c | bc
-4. d | ad
-5. e | bd
-6. f | cd
-7. d | b ✠ e
-8. adc | ∟
+□ ca | □ ab — 2 ▭ abd + □ cb
 
 ### Beweiß.
 
-adc | ∟ | n. 8. Geg.
-Dw. aa | dd ✠ ff | n. 47. I.
-d | b ✠ e
-dd | bb ✠ 2be + ee | n. 4. I.
-dd ✠ aa | bb ✠ 2be + ee + dd ✠ ff | n. 2. Gr. I.
-dd | dd
-aa | bb ✠ 2be + ee + ff | n. 3 Gr. I.
-ee ✠ ff | cc | n. 47. I.
-ee ✠ ff ✠ aa | bb ✠ 2be + ee + ff ✠ cc | n. 2. Gr. I.
-ee ✠ ff | ee ✠ ff
-aa | bb ✠ 2be + cc | n. 3. Gr. I. W Z. B.
+cda | ∟
+Dw. □ ca | □ ab — 2 ▭ abd + □ bd + □ cd
+und □ bd + □ cd | □ cb | n. 47. I.
+□ ca (+ □ bd + □ cd) | □ ab — 2 ▭ abd (+ □ bd + □ cd) + □ cb n. 2. Gr. I.
+Dw. □ ca | □ ab — 2 ▭ abd + □ cb n. 3. Gr. I.
 
-<!-- Catchword: Der -->
+### Beschluß.
+
+Wird also in jedwedem spitzwincklichten △ das □ der dem spitzigen ∠ b übergespanneten Seite ca so viel kleiner seyn / denn der beeden übrigen/ den spitzigen ∠ b begreiffenden Seiten ab und cb, ihre □ □, als das ▭ der Seite ab und des Stückes bd, so der aus dem ∠ c gezogene Senckstrich cd auff der Seite des ∠ b abgeschneidet. W. Z. B
+
+### Nach der Löß-Kunst.
+
+### Gegebene. | Begehrtes.
+
+a | ac | cc | bb + aa — [unclear: 2ba]
+b | ab
+
+<!-- Catchword: ccb -->

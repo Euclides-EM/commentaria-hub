@@ -1,32 +1,30 @@
 <!-- Running title: Das II. Buch -->
 
-<!-- Page number: 94 -->
+<!-- Page number: 96 -->
 
-Viereck/ so dem gantzen Strich und von einem solchen Stück begriffen wird/ eben so groß seyn/ als das gleichseitige Viereck desselbigen Stückes/ samt dem Viereck/ welches von den beeden Stücken begriffen wird.
+## Der IV. Vortrag.
 
-### Gegebene. | Begehrte.
+## Das 4. Beweiß-Stück.
 
-1. Strich AB | □ ABC | □ ACB + □ CB.
+Wenn ein Strich in zwey Stücke auff waserley weise getheilet ist/ so wird das gleichseitige Viereck des gantzen Strichs eben so groß seyn/ als die beeden gleichseitigen Vierecke der beeden Stücke/ nebst dem Viereck/ so von den beeden Stücken begriffen wird/ zweymahl genommen.
+
+### Gegebenes. | Begehrtes.
+
+1. Der gerade Strich AB — □ AB | AC + 2 □ ACB + □ CB
 2. getheilet in C
-3. AC + CB | AB
+3. AB | AC + CB
 
 ### Vorbereitung.
 
-1. Man nehme noch einen Strich DB, welcher gleich sey dem Stück CB.
-2. mache man ab | AB
-3. - - - cb | CB
-4. - - - ac | AC — n. 2. I.
-5. - - □ cb — n. 46. I.
-6. - - □ acb
-7. - - □ abc
+1. Werde der Strich ab | AB gezogen n. 2. I.
+2. Werde das □ abfd gemacht n. 46. I.
+3. - - Die Seite ab getheilet in c also
+daß ac | AC
+und cb | CB
+4. Es werde auch ad getheilet in e,
+daß ae | AC
+und ed | CB werde n. 3. I.
+5. Werden ek ⧺ ab
+und ci ⧺ ad — n. 31. I.
 
-[Diagram: Oben ein Strich A C B; darunter ein Rechteck mit den Ecken B, D, a, b und gestrichelter Teilungslinie bei c/d; darunter zwei Rechtecke mit den Ecken a, b, c, d bzw. c, b.]
-
-### Beweiß.
-
-ab | AB — n. 2. Vorber.
-bc | BC — n. 3. Vorber.
-□ abc | □ ABC — n. 1. Gr. II.
-ab | ac + cb — n. 3. Gegeb.
-
-<!-- Catchword: bc -->
+<!-- Catchword: Beweiß. -->

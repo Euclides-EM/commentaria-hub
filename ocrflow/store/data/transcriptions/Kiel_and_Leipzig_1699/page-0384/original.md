@@ -1,29 +1,20 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 354 -->
+<!-- Page number: 368 -->
 
-[Diagram: zwei Dreyecke, das kleinere d e f und das grössere a b c mit punktiertem Strich von a nach g; darunter ein Strich B E F G mit schräg auffsteigenden Strichen nach C, E und F, punktiert nach F]
+[Diagram: Fünfeck A mit den Punkten H, I, C, K, D, darunter ein Viereck mit den Punkten c, d, g, m, e, f nebst punctirtem Bogen; rechts oben eine Gestalt B in einem Viereck mit punctirten Linien nach f und c; in der Mitte ein Fünfeck L mit den Punkten D und M; rechts ein hohes Viereck mit den Punkten a, d, k, c, i, d, h und punctirten Linien nach f]
 
-### Vorbereitung.
+### Wirckung.
 
-1. Zu des ersten Dreyecks Seite bc und des andern Dreyecks Seite ef werde der dritte ebenmässige Strich BG gefunden n. 11. VI. bc : ef | ef : BG.
+1. Werde gemacht ein nebenstrichichtes Viereck de
+2. Auf den Strich DC, welches
+3. □ de | ⬠ A. n. 45. I.
+4. Auch werde ein nebenstrichichtes Viereck gf
+5. Auf den Strich df
+6. Nach dem Winckel fdg und
+7. □ gf | ⬠ B gemacht n. 44. I.
+8. Werde zu den beyden Strichen cd und dg ein mittelebenmässiger Strich dm oder DM gefunden. n. 13. VI.
+9. Auf diesen Strich dm oder DM werde ein Fünfeck L, welches
+10. ⬠ L ähnlich ⬠ A, gemacht. n. 18. VI.
 
-2. Diesem Strich BG werde ein gleichmässiger b g von bc abgeschnitten. n. 3. I.
-
-3. werde der Strich ag gezogen.
-
-### Beweiß.
-
-ab : bc | de : ef n 3. Geg.
-Dw. ab : de | bc : ef n 16. V.
-bc : ef | ef : bg n 1. Vorb.
-Dw. ab : de | ef : bg n 11. V.
-abg ⋏ def n. 3. Geg.
-α Dw. abg ⩓ def n. 15. VI.
-u. bc : bg | △ abc : △ abg n. 1. VI.
-bc : bg ⊐ bc : ef n. 10. Besch. V.
-Dw. △ abc : △ abg | bc : ef n. 11. V.
-△ abg | △ def n. Bew. α
-△ abc | △ abc
-
-<!-- Catchword: Dw. -->
+<!-- Catchword: Beweiß. -->

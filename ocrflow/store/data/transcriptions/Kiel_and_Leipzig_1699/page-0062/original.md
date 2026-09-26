@@ -1,36 +1,33 @@
-<!-- Page number: 44 -->
+<!-- Page number: 46 -->
 
 <!-- Running title: Das I. Buch -->
 
-CE + ED ⊣ DC n. 20. Vortr.
-BD | BD
-CE + ED + BD ⊣ DC + BD n. 4. Gr-S.
-oder CE + AB ⊣ DC + BD n. 9. Gr-S. q.
-EA + AB ⊣ EB n. 20. Vortr.
-EC | EC
-EA + AB + EC ⊣ EB + EC n. 4. Gr-S.
-oder CA + AB ⊣ EB + EC n. 9. Gr-S. q.
-ß Drw. CA + AB ⊣ DC + BD n. 1. Gr-S. e.
-
 ### Beschluß.
-Müssen also zwar die einwerts auffgesetzten Striche
-BD + DC ⊢ BA + AC n. Beweiß ß.
-Aber einen grössern Winckel begreiffen / nemlich
-BDC ⲗ BAC n. Bew. a. W. Z. B.
+Ist also das △ ABF verfertiget/ in welchen
+AB | bc. a.
+AF | ac ß.
+und BF | ba γ. W. Z. M.
 
-## Der XXII. Vortrag.
+## Der XXIII. Vortrag.
 
-## Das 8. Werck-Stück.
+## Das 9. Werck-Stück.
 
-Aus drey geraden Strichen / welche drey andern gegebenen geraden Strichen gleich sind / ein Dreyeck zu verfertigen. Es müssen aber allezeit zween Striche/ auff waserley Weise genommen/ zusammen/ grösser seyn/ als der dritte.
+Auff einen gegebenen geraden Strich/ und zwar auff den darin gegebenen Düttel / einen Winckel / welcher dem gegebenen gerad-Strichichen Winckel gleich sey/ zu setzen.
 
 ### Gegebene. Begehrte.
-Drey Striche 1. △ ABF
-1. c —— a 2. AB | bc
-2. c ——— b 3. BF | ba
-3. a ——— b 4. AF | ac
-4. ca + cb ⊣ ab
-5. cb + ab ⊣ ca
-6. ca + ab ⊣ cb
+1. ∧ FED 1. ICK ⋀ FEG
+2. Gerader Strich AB 2. auff den Strich AB
+3. Düttel C 3. im Düttel C
+4. In dem Strich AB 4. auff dem Strich AB.
 
-<!-- Catchword: Wir- -->
+[Diagram: Zwei Winkel: links Winkel bei E mit Schenkeln nach F oben und G, rechts Winkel bei C mit Schenkeln nach I oben und K; waagerechter Strich E G C K, punktierte Kreisbögen FG und IK; Punkte A und B.]
+
+### Wirckung.
+
+1. Auß dem Düttel E wird nach beliebiger grösse ein Kreyßstück FG gezogen/ damit EG | EF.
+2. Werde der Strich FG gezogen.
+3. Auß dem Düttel C wird von dem Strich AB abgeschnitten ein Stück CK | EG n. 3. Vortr.
+4. Auff den Strich CK setze man CI | EF)
+und KI | GF) n. 22. Vort.
+
+<!-- Catchword: Beweiß -->

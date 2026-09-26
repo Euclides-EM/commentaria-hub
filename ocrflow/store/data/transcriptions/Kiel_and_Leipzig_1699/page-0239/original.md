@@ -1,39 +1,29 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 215 -->
+<!-- Page number: 223 -->
 
-Welcher das □ bcde anrühret/n. 17. III.
-Und dem □ eingeschrieben ist/ n. 5. Beschr. IV.
+## Der XIII. Vortrag.
 
-### Beschluß.
+## Das 13. Werckstück.
 
-Ist also dem gegebenen Viereck bcde ein Kreyß fghi einge-
-schrieben. W. Z. M.
-
-## Der IX. Vortrag.
-
-## Das 9. Werckstück.
-
-Umb ein gegebenes Viereck einen Kreyß zube-
-schreiben.
+Einem gegebenen gleichseitigen und gleich-
+wincklichten Fünffeck einen Kreyß einzuschreiben.
 
 ### Gegebenes. — Begehrte.
-Viereck bcde. — 1. Kreyß cdeb
-2. Umb das Viereck beschrieben.
+Fünffeck bcdef. — 1. Kreyß ghikl
+2. in das Fünffeck eingeschrieben.
+
+[Diagram: Fünffeck b c d e f mit einbeschriebenem Kreis; die Berührungspunkte g, h, i, k, l liegen in den Seitenmitten, aus dem Mittelpunkt a laufen punktierte Striche zu den Ecken und Seitenmitten]
 
 ### Wirckung.
 
-1. Werden die Zwergstriche bd, ec gezogen.
-2. Aus dem Düttel a, wo diese Zwergstriche einander durch-
-schneiden/ werde nach der Weite ab ein Kreyß beschrieben.
+1. Werden alle Winckel in zween gleiche Theile getheilet/mit
+den Strichen ba, ca, da, ea, fa, n. 9. I.
+2. Die Seiten werden auch in zween gleiche Theile getheilet/
+n. 10. I.
+3. Aus dem Mittel der Seiten werden Senckstriche ga, ha,
+ia, ka, la gezogen/ n. 11. I.
+4. Aus dem Düttel a, wo alle Striche zusammen lauffen /
+werde nach der Weite ag oder ah ein Kreyß beschrieben.
 
-[Diagram: Quadrat b c d e mit gezogenen Diagonalen, die sich im Mittelpunkt a schneiden, umschrieben von einem Kreis]
-
-### Beweiß.
-
-a. — dcb ∧ ∟
-bc | dc — n. 1. Geg. u. 29. Besch. I.
-ß. Dw. — dbc ∧ bdc — n. 5. I.
-dcb + dbc + bdc ∧ ⌓ — n. 32. I.
-
-<!-- Catchword: Dw. -->
+<!-- Catchword: Be- -->

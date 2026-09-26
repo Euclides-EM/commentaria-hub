@@ -1,33 +1,34 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 353 -->
+<!-- Page number: 367 -->
 
-Dw. △ ABC ähnlich dem △ abc n. 1. Beschr. VI.
-u. AB : BC | ab : bc n. 4. VI.
-Aus eben denen Ursachen sind auch
-BC : CD | bc : cd
-u. CD : DE | cd : de
-u. DE : EF | de : ef
+Dw. AC : CB | AF : FE n. 2. VI.
+u. □ DC ähnlich □ FG n. 1. Besch. VI.
 
-Und ist also abcdef ähnlich der Gestalt ABCDEF n. der 1. Beschr. VI. und auf den gegebenen Strich ab gesetzet n. 2. Wirck. W. Z. M.
+Gleicher Gestalt sind auch
 
-## Der XIX. Vortrag.
+□ DC ähnlich □ HI
+□ FG - - □ HI. n. 21. VI.
 
-## Das 13. Beweiß-Stück.
+### Beschluß.
 
-Aehnliche Dreyecke stehen gegen einander in zwiefach grösserer (duplicata) Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. (homologa latera.)
+Sind also in jedwedem Nebenstrichichten Viereck die üm den Zwergstrich stehende Vierecke nicht allein unter sich/ sondern auch dem grossen Viereck ähnlich. W. Z. B.
+
+## Der XXV. Vortrag.
+
+## Das 7. Werck-Stück.
+
+Einer gegebenen geradstrichichten Gestalt eine ähnliche und eben so gesetzte Gestalt/ die auch einer andern gegebenen Gestalt gleichmässige sey/ zu verfertigen.
 
 ### Gegebene.
 
-1. Dreyeck a b c.
-2. und d e f
-3. △ abc ähnlich dem △ def.
+1. Geradstrichichte Gestalt B
+2. und A
 
 ### Begehrte.
 
-| ab : de
-△ abc : △ def ⊐ | bc : ef
-| ca : fd.
+1. Die Gestalt L | B
+2. ⬠ L ähnlich ⬠ A
+3. und eben so gesetzt.
 
-<!-- Signature: Y y -->
-<!-- Catchword: Vorbe- -->
+<!-- Catchword: Wirckung. -->

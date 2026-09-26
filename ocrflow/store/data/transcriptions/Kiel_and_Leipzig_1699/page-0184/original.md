@@ -1,27 +1,35 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 166 -->
+<!-- Page number: 168 -->
 
-II. Arth.
+[Diagram: Kreyßstück über der Sehne de mit den Punkten b und c oben; von d und e punktierte Linien zu den Düpffeln a, f und g unterhalb der Sehne]
 
-cah ∠ 2 cph
-dah ∠ 2 dph — n. 1. Bew.
-Dw. cah + dah ∠ 2 cph + 2 dph — n. 2. Gr. I.
-oder cad ∠ 2 cpd — n. 9. Gr. q. I.
+### I. Beweiß.
 
-[Diagram: Kreis mit Mitteldüpffel a, Punkt p oben, c links unten, d rechts unten, h unten; Striche pc, pd, ac, ad und punktierte Linie ph]
+dag ∠ 2 dba
+eag ∠ 2 eba — n. 1. Arth.
+dag + eag ∠ 2 dba + 2 eba — n. 2. Gr. I.
+oder dae ∠ 2 dbe — n. 9. Gr. q. I.
 
-III. Arth.
+### II. Begebenheit.
 
-eac ∠ 2 efc
-dae ∠ 2 efd — n. 1. Bew.
-eac — dae ∠ 2 efc — 2 efd — n. 3. Gr. I.
-oder dac ∠ 2 dfc
-
-[Diagram: Kreis mit Mitteldüpffel a, Punkt b oben links, f links, e rechts, d rechts unten, c unten; Striche bf, fd, fc, ad, ac und punktierte Linien ba, fe]
+dbe ∠ ½ dae
+dce ∠ ½ dae — n. 1. Bew.
+Dw. dce ∠ dbe — n. 7. Gr. I.
 
 ### Beschluß.
 
-Wird also allezeit der Mittel-Düpffels Winckel noch einmahl so groß seyn / als der auff eben solchem Kreyßzug stehende Kreyßstücks-Winckel. W. Z. B.
+Sind also allezeit diejenigen Winckel/welche in einem Kreyßstück stehen/ gleich groß. W. Z. B.
 
-<!-- Catchword: Der -->
+## Der XXII. Vortrag.
+
+## Das 20. Beweiß-Stück.
+
+Aller einem Kreyß eingeschriebenen Vierecke gegen einander überstehende Winckel sind eben so groß/ als zween rechte Winckel.
+
+### Gegebene. Begehrte.
+
+1. Viereck abcd, — 1. adc + abc | 2 ∟
+2. Welches dem Kreyß acb eingeschrieben. — 2. dcb + dab | 2 ∟
+
+<!-- Catchword: Vor- -->

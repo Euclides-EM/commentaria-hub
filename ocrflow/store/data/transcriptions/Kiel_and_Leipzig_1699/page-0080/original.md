@@ -1,40 +1,34 @@
+<!-- Page number: 64 -->
+
 <!-- Running title: Das I. Buch -->
 
-<!-- Page number: 62 -->
+## Der XXXIV. Vortrag.
 
-        CBD ⋏ CBE + EBD  n. 9. Gr-S. q.
-α.  Drw.  CBD ⋏ ACB + CAB  n. 1. Gr-S.
+## Das 25. Beweiß Stück.
 
-CBD + CBA ⋏ ⏥                          n. 13. Vortr.
-CBD           ⋏ ACB + CAB              n. Bew. α.
-        CBA ⋏                CBA
-CBD + CBA ⋏ ACB + CAB + CBA   n. 2. Gr-S.
-Dw.        ⏥ ⋏ ACB + CAB + CBA n. 1. Gr-S.
+Aller Nebenstrichichten Vier-Ecke gegen überstehende Seiten und Winckel sind gleich groß/ werden auch von dem Zwerg-Strich in zweene gleiche Theile getheilet.
 
-### Beschluß.
+### Gegebene. | Begehrte.
+Nebenstrichichtes Viereck ABCD | 1. AB | CD
+| 2. AC | BD
+| 3. A ⋀ D
+| 4. B ⋀ C
+| 5. ACD ⩓ ABD
 
-Sind also jedwedes △es zwey inwendige Winckel α. dem auswendig gegen überstehenden gleich : Aber alle 3 ⋀ zusammen so groß/als ⏥.   W. Z. B.
-
-### Andere Arth.
-
-Pythagoras beweiset auff eine andere Arth/ daß drey Winckel des Dreyeckes eben so groß als ⏥
-
-### Vorbereitung.
-
-1. Durch einen des △es Düttel C wird ein gerader
-2. Neben-Strich DE gegen AB gezogen/ n. 31. Vortr.
-
-[Diagram: Dreieck ABC, durch C der punktierte Neben-Strich DE parallel zu AB]
+[Diagram: Nebenstrichichtes Viereck (Parallelogramm) ABCD mit punktirter Zwerg-Linie von A nach D]
 
 ### Beweiß.
 
-DCA                ⋏ CAB                     } n. 29.
-        ECB        ⋏              CBA        } Vortr.
-              ACB ⋏                     ACB
-DCA + ECB + ACB ⋏ CAB + CBA + ACB   n. 2. Gr-S.
-DCA + ECB + ACB ⋏ ⏥                  nach 13. Gr-S.
-CAB + CBA + ACB ⋏ ⏥                  nach 2. Gr-S.
+AB ⟛ CD n. 35. Beschr.
+Drw. BAD ⋀ ADC n. 29. Vortr.
+AC ⟛ BD n. 35. Beschr.
+Drw. CAD ⋀ ADB n. 29. Vortr.
+AD | AD
+α. Dw. AB | CD
+β. und AC | BD
+γ. und ABD ⋀ ACD
+δ. und ACD ⩓ ABD nach 26. Vortr.
+BAD + DAC ⋀ BDA + ADC n. 2. Gr:S.
+ε. oder BAC ⋀ BDC n. 9. Gr:S. q.
 
-W. Z. B.
-
-<!-- Catchword: Der -->
+<!-- Catchword: Be- -->

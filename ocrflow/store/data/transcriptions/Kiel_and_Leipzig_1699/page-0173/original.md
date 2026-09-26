@@ -1,34 +1,28 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 155 -->
+<!-- Page number: 157 -->
 
-[Diagram: Kreis mit Mittel-Düpffel a, oben die Sehne cb mit Punkt g, unten die Sehne de mit Punkt f, punktierte Linien von a nach b und e]
+## Der XV. Vortrag.
 
-### Beweiß.
+## Das 14. Beweiß-Stück.
 
-cb | de — n. 4. Geg.
-cg | gb
-df | fe — n. 2. Vorher.
-Dw. gb | fe — n. 7. Gr. n. I.
-ab | ae — n. 15. Beschr. I.
-bga ∠ ∟
-afe ∠ ∟ — n. 3. Vorb. n. 10. Besch. I.
-Dw. □ ab | □ ae
-und □ bg | □ ef — n. 1. Gr. t. II.
-Dw. □ ab — □ bg | □ ae — □ ef — n. 3. Gr. I.
-□ ab — □ bg | □ ag — n. 47. I.
-Dw. □ ae — □ ef | □ ag — n. 1. Gr. I.
-□ ae — □ ef | □ af — n. 47. I.
-Dw. □ ag | □ af — n. 1. Gr. I.
-und ag gleich af — n. 2. Gr. u. II.
+Jn jedwedem Kreyß ist/ unter allen geraden Strichen/der Durchschlag am längsten : diejenigen Striche auch/ welche näher bey dem Mittel-Düpffel stehen/ sind länger/ als die/ so weiter davon abstehen.
 
-Dw. sind bc und de gleichweit von dem Mittel-Düpffel entfernet. n. 4. Beschr. III.
+### Gegebene. Begehrte.
 
-Anderer Theil dieses Vortrags.
+1. Kreyß begc. — 1. Durchschlag ml am längsten.
+2. Mittel-Düpffel a. — 2. en ⊣ bc
+3. Durchschlag ml. — 3. hg ⊢ bc
+4. Strich bc näher bey a, als hg.
+5. bc weiter vom Mittel-Düpffel/als en.
 
-### Gegebene. Begehrtes.
+[Diagram: Kreis mit Mittel-Düpffel a, Durchschlag ml, Sehnen hg (mit Punkt i), ef (mit Punkten k, o), en, bc (mit Punkt d), punktierte Stralen von a nach h, e, g, f]
 
-1. Zween Senckstriche ag und af. — cb | de
+### Vorbereitung.
 
-<!-- Signature: V 2 -->
-<!-- Catchword: 2. Aus -->
+1. Auß dem Düttel e werde gezogen der Strich ef, also daß
+2. Er gleichweit mit bc von dem Mittel-Düpffel abstehe.
+3. Deßgleichen werden die Stralen ha, ea, ga, fa, na.
+
+<!-- Signature: V 3 -->
+<!-- Catchword: 4. Wie -->

@@ -1,26 +1,25 @@
-<!-- Running title: Postulata. -->
+<!-- Running title: Axiomata. -->
 
-<!-- Page number: 9 -->
+<!-- Page number: 11 -->
 
-## Foderungen oder Heischungen (Postulata.)
+III. Wenn man von (zwey) gleichen Dingen ab und cd (zwey) gleiche Stücke eb und id abnimmt / so bleiben (zwey) gleiche Stücke ae und ci übrig.
 
-Weil man keine Erklärung oder Beweiß nachtrücklich anstellen kan/es werden denn zufoderst etliche begehrte Sätze oder Foderungen zugegeben/so hat Euclides drey solche Foderungen seinen Beweißthümern vorgesetzet/ welchen aber billich die vierte vorgefüget wird/ als
+[Diagram: zwei Striche a–e–b und c–i–d]
 
-1. Daß man einen sichtbahren Düpffel mit der Feder/Stifft/ Kreiden/ oder auff andere Arth/ machen möge/ welcher bey dem Beweiß die Stelle eines zarten unsichtbaren Düttels vertreten könne.
-2. I. Daß man von einem jeden Düpffel zu einem andern Düpffel einen geraden Strich ziehen könne.
-3. II. Daß man einen geendeten Strich nothdürfftig oder so weit / als nöthig ist / ungehindert verlängern könne.
-4. III. Daß man aus jedwedem gegebenen Düpffel/ nach der gegebenen Weite / einen Kreyß beschreiben könne.
+IV. Wenn man (zwey) ungleichen Dingen ab und cd (zwey) gleiche Stücke be und cf beyfüget/ so werden die (zwey) Gantzen ae und df auch ungleich.
 
-## Außsprüche oder Grund-Sätze.
-(Axiomata sive communes notiones.)
+[Diagram: zwei Striche a–b–e und d–c–f]
 
-I. Welche zwo Grössen c oder b ( oder Zalen ) einer dritten Grösse a ( oder Zal ) gleich sind/ dieselbigen sind auch unter sich gleich.
+(g) Wenn man ( zwey ) ungleiche Dinge ac und ef zu ( zwey ) ungleichen Dingen ab und ed setzet/und zwar das Grosse ac dem Grossen ab/ das Kleiner ef aber dem Kleinern de beyfüget / so werden die beeden Gantzen auch ungleich / und zwar jenes bc Grösser / dieses df aber Kleiner.
 
-[Diagram: drei gleich lange Striche, bezeichnet mit b, a, c]
+[Diagram: zwei Striche b–a–c und d–e–f]
 
-(a) Welch Ding a grösser ist/als eins b von zwey gleichen Dingen/ das ist auch grösser / als das andere c.
+V. Wenn man von ( zwey ) ungleichen Dingen bc und df (zwey) gleiche Stücke ab und ef abnimmt / so bleiben ( zwey ) ungleiche Stücke ba und de übrig.
 
-[Diagram: drei Striche, a länger, b und c kürzer und gleich lang]
+[Diagram: zwei Striche a–c–b und d–e–f]
 
-<!-- Signature: B -->
-<!-- Catchword: (b) Welch -->
+(h) Wenn man von (zwey) ungleichen Dingen db und ef (zwey) ungleiche Stücke ab und cf abnimt / und zwar das Kleinere ab von dem Grossen bd / das Grössere cf aber von dem Kleinen ef/ so bleiben (zwey) ungleiche Stücke übrig / nemblich jenes da Grösser/ dieses ce Kleiner.
+
+[Diagram: vier Striche mit den Bezeichnungen d, a–b, c–f, e]
+
+<!-- Catchword: VI. -->

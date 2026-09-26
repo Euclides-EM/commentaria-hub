@@ -1,27 +1,34 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 176 -->
+<!-- Page number: 178 -->
 
-[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten f, a, c, d, g, der andere mit e, b, h, i; darin Winckel am Mittel-Düpffel und im Kreyß, etliche Striche punctirt]
+## Der XXIX. Vortrag.
+
+## Das 26. Beweiß-Stück.
+In gleichgrossen Kreysen werden gleichgrosse Bogen von gleichlangen Strichen überspannet.
+
+### Gegebene.
+1. Gleichgrosse Kreyse bgcb | ebfe.
+2. bc ⊻ ef.
+3. bgc ⏀ ehf.
+
+### Begehrtes.
+bc | ef.
+
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, der andere mit h, d, e, f; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]
 
 ### Vorbereitung.
-Wenn cad ⋀̸ hbi so mache man den
-Winckel cag ⋀ hbi   n. 23. I.
+Es werden gezogen die Stralen ab, ac, de, df.
 ### Beweiß.
-cag ⋀ hbi   n. Vorbereit.
-Dw. cg ⊻ hi   n. 26. III.
-cd ⊻ hi   n. 2. Gegeb.
-Dw. cd ⊻ cg   n. 1. Gr I.
-Welches aber unmöglich n. 9. Gr. I.
-Eben so ungereumt ist es auch/ wenn man sagen wolte
-hbi ⋀̸ cad
-oder cfd ⋀̸ hei.
+
+ba | ed
+ac | df } n. 1. Beschr. III.
+Dw. ba + ac | ed + df   n. 2 Gr. I.
+bc ⊻ ef   n. 2. Gegeb.
+Dw. bac ⋀ edf   n. 27. III.
+und bc | ef   n. 4. I.
+
 ### Beschluß.
-Müssen derowegen allezeit in gleichgrossen Kreyssen diejenigen Winckel/ welche auff gleichgrossen Bogen stehen/ auch gleichgroß seyn. W. Z. B.
+Werden also allezeit in gleichgrossen Kreysen / gleichgrosse Bogen von gleichlangen geraden Strichen überspannet. W. Z. B.
 
-## Der XXIIX. Vortrag.
-
-## Das 25. Beweiß-Stück.
-In gleichgrossen Kreyssen schneiden gleichlange gerade Striche/ gleichgrösse Bogen ab/ und zwar/ daß das grössere Stück / dem grössern/ und das kleinere dem kleineren gleich an Grösse sey.
-
-<!-- Catchword: Ge- -->
+<!-- Catchword: Der -->

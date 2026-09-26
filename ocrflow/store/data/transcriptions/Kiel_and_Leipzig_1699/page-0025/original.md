@@ -1,21 +1,26 @@
-<!-- Running title: Definitiones. -->
+<!-- Running title: Postulata. -->
 
-<!-- Page number: 7 -->
+<!-- Page number: 9 -->
 
-XXIIX. Ein Spitzwincklichtes Drey-Eck ( Oxygonium vel acutangulum) ist / welches lauter spitzige Winckel hat.
+## Foderungen oder Heischungen (Postulata.)
 
-[Diagram: drei spitzwinklige Dreiecke auf einer gemeinsamen Grundlinie, mit den Buchstaben a, d, f oben und b, c, e, g unten]
+Weil man keine Erklärung oder Beweiß nachtrücklich anstellen kan/es werden denn zufoderst etliche begehrte Sätze oder Foderungen zugegeben/so hat Euclides drey solche Foderungen seinen Beweißthümern vorgesetzet/ welchen aber billich die vierte vorgefüget wird/ als
 
-XXIX. Ein gleichseitig und gleichwincklicht Vier-Eck (Quadratum ) ist / welches vier gleiche Seiten/ und auch vier gleiche Winckel hat.
+1. Daß man einen sichtbahren Düpffel mit der Feder/Stifft/ Kreiden/ oder auff andere Arth/ machen möge/ welcher bey dem Beweiß die Stelle eines zarten unsichtbaren Düttels vertreten könne.
+2. I. Daß man von einem jeden Düpffel zu einem andern Düpffel einen geraden Strich ziehen könne.
+3. II. Daß man einen geendeten Strich nothdürfftig oder so weit / als nöthig ist / ungehindert verlängern könne.
+4. III. Daß man aus jedwedem gegebenen Düpffel/ nach der gegebenen Weite / einen Kreyß beschreiben könne.
 
-[Diagram: ein Quadrat]
+## Außsprüche oder Grund-Sätze.
+(Axiomata sive communes notiones.)
 
-XXX. Ein länglicht Vier-Eck ist zwar recht-wincklicht/ hat aber ungleiche Seiten.
+I. Welche zwo Grössen c oder b ( oder Zalen ) einer dritten Grösse a ( oder Zal ) gleich sind/ dieselbigen sind auch unter sich gleich.
 
-[Diagram: zwei Rechtecke, ein breites liegendes und ein hochstehendes]
+[Diagram: drei gleich lange Striche, bezeichnet mit b, a, c]
 
-XXXI. Eine Raute oder geschoben Viereck (Rhombus) hat zwar vier gleiche Seiten/ ist aber nicht recht-wincklicht.
+(a) Welch Ding a grösser ist/als eins b von zwey gleichen Dingen/ das ist auch grösser / als das andere c.
 
-[Diagram: zwei Rauten, ein schief liegendes Parallelogramm mit gleichen Seiten und eine aufrecht stehende Raute]
+[Diagram: drei Striche, a länger, b und c kürzer und gleich lang]
 
-<!-- Catchword: XXXII -->
+<!-- Signature: B -->
+<!-- Catchword: (b) Welch -->

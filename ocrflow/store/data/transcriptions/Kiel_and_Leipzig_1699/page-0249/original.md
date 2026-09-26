@@ -1,45 +1,39 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 225 -->
+<!-- Page number: 233 -->
 
-### Wirckung.
+XI. Verhältniß-ähnliche (Homologæ s. similes ratione) Grössen werden genennet die in der Ebenmaß stehende Vorgehende zu den Vorgehenden/u Nachgehende zu den Nachgehenden Grössen.
 
-1. Zweene des Fünffeckes Winckele / als e und f, werden in
-zween gleiche Theile gea ∧ fea
-efa ∧ dfa — getheilet/n. 9. I.
-2. Werden die Winckeltheilende Striche fa und ea so weit
-verlängert/ biß sie einander in a schneiden.
-3. Nach der Weite ae werde der Kreyß bgefd gezogen.
+3a : 3b | a : b
 
-### Vorbereitung.
+3a und a) 3b und b) verhältniß-ähnliche Grössen.
 
-Aus den übrigen Winckeln werden gerade Striche zu dem
-Düttel a gezogen.
+XII. Verwechselte Verhältnissen sind/ wenn man die Erste Vorhergehende gegen die Andere Vorgehende/ und die Erste Nachgehende gegen die Andere Nachgehende hält.
 
-### Beweiß.
+3a : 3b | a : b
 
-efa ∧ dfa — n. 1. Wirck.
-fe | fd — n. Gegeb.
-af | af
-fe + af | af + fd — n. 2. Gr. I.
-Dw. — ae | ad
-u. — aef ∧ adf — n. 4. I.
-Gleicher Weise — ad | af | ae | ag | ab
-Dw. — a | Mitteldüpffel — n. 9. III.
-und der Kreyß aus solchem Mitteldüpffel a nach der Weite
-af gezogen/ begreifft das Fünffeck in sich/n. 6. Besch. IV.
+3a : a | 3b . b.
 
-### Beschluß.
+XIII. Verkehrte Verhältniß ist/wenn man die Nachgehenden an die Stelle der Vorgehenden/ und die Vorgehenden an die Stelle der Nachgehenden setzet.
 
-Ist also umb das gegebene gleichseitige und gleichwincklichte
-Fünffeck ein Kreyß umbgeschrieben. W. Z. M.
+3a : 3b | a : b
 
-## Der XV. Vortrag.
+3b : 3a | b : a.
 
-## Das 15. Werckstück.
+XIV. Zusammen gesetzte Verhältniß entstehet/wenn man die Vorgehende und Nachgehende zusammen nimt/ und gegen die Nachgehenden hält.
 
-Einem gegebenen Kreyß ein gleichseitig und
-gleichwincklichtes Sechseck einzuschreiben.
+3a : 3b | a : b
 
-<!-- Signature: Ff -->
-<!-- Catchword: Ge- -->
+3a + 3b : 3b | a + b : b.
+
+XV. Zertheilte Verhältniß ist/wenn man den überschuß / womit die Vorgehenden die Nachgehenden übertreffen/ gegen die Nachgehenden hält.
+
+6a : 4a | 3a : 2a
+
+6a — 4a : 4a | 3a — 2a : 2a
+
+oder 2a : 4a | a : 2a.
+
+<!-- Signature: Gg -->
+
+<!-- Catchword: XVI. Ver- -->

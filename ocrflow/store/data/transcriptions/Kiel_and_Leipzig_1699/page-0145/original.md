@@ -1,21 +1,25 @@
-<!-- Page number: 127 -->
+<!-- Page number: 129 -->
 
 <!-- Running title: Euclidis. -->
 
-III. Anrührende Kreyse sind / welche zwar an einander stossen / aber sich nicht durchschneiden.
+[Diagram: zwey ähnliche Kreyßstücke nebst einem flachen Bogen]
 
-[Diagram: ein kleiner Kreis berührt von aussen einen grossen Kreis, in welchem ein weiterer Kreis von innen anrühret]
+Also werden auch gleichgestalte Bogen (arcus similes genennet/ auff welchen gleich-grosse Winckel stehen.
 
-IV. In einem Kreyß von dem Mitteldüpffel gleichabstehende Striche werden genennet / auff welche auß dem Mitteldüpffel gleichlange Senckstriche können gezogen werden: derjenige Strich aber / auff welchen ein längerer Senckstrich fället / ist am weitesten entfernet.
+[Diagram: Kreis mit einbeschriebenem Winckel und kleinerem Kreise darinnen]
 
-[Diagram: Kreis mit einbeschriebenen Sehnen und drei vom Mitteldüpffel ausgehenden Senckstrichen]
+## Der I. Vortrag.
 
-V. Ein Kreyß-Stück (Segmentum) ist eine Gestalt / so von einem Bogen und geraden Strich eingeschlossen wird.
+## Das 1. Werck-Stück:
 
-[Diagram: ein Kreyß-Stück (Halbkreisförmige Gestalt)]
+Eines gegebenen Kreyses Mitteldüpffel zu finden.
 
-VI. Ein Kreyßstücks-Winckel (segmenti angulus) wird von einem Bogen und von einem geraden Strich begriffen.
+### Gegebenes. — Begehrtes.
 
-[Diagram: ein Kreyß-Stück mit punktierten Bögen an beyden Winckeln]
+Der Kreyß bhc. — Mittel-Düpffel a.
 
-<!-- Catchword: VII. -->
+[Diagram: Kreis mit Düpffeln g (oben), b (links), e (Mitte), c (rechts), h (unten), darinnen a, d, f, mit punktierten Strichen von b und c nach d]
+
+<!-- Signature: R -->
+
+<!-- Catchword: Wirckung. -->

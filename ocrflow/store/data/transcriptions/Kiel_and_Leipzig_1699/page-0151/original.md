@@ -1,28 +1,31 @@
-<!-- Page number: 133 -->
+<!-- Page number: 135 -->
 
 <!-- Running title: Euclidis. -->
 
-Dw. gia ⋏ agi — n. 1. Gr. a. I.
-und ia ⊢ ag — n. 18. I.
+## Der IV. Vortrag.
 
-### Beschluß.
+## Das 3. Beweiß-Stück.
 
-Muß also der Düttel i, wie auch alle andere Düttele des Striches hg, und einfolglich der gantze Strich hg, inwendig in den Kreyß fallen. W. Z. B.
-
-## Der III. Vortrag.
-
-## Das 2. BeweißStück.
-
-Wenn ein gerader Strich durch eines Kreyses Mittel-Düpffel gehet / und einen andern in solchem Kreyß stehenden Strich in zwey gleiche Stücke schneidet/ so wird er auch solchen Strich nach rechten Winckeln theilen: Wenn auch der erste Strich den andern nach rechten Winckeln theilet/ so wird er ihn einfolglich in zween gleiche Theile theilen.
+Wenn in einem Kreyß zween gerade Striche ein ander durchschneiden/ aber nicht durch den Mittel-Düpffel gehen/ so werden sie auch einander nicht in gleichgrosse Theile schneiden.
 
 ### Gegebene. — Begehrte.
 
-1. Kreyß ebfc.
-2. Durch den Mittel-Düpffel gehender Strich ef.
-3. Anderer im Kreyß stehender Strich bc, welcher
-4. Jn zween gleiche Theile getheilet ist/ nemlich bd | cd: oder — 1. adb | ∟ und adc | ∟: oder
-5. Der Strich bc vom ersten Strich ef nach rechten Winckeln getheilet/ daß adb ⋏ adc. — 2. bd | dc.
+1. Der Kreyß caeb, — fg ⊢ ge
+2. Gerader Strich cf — dg ⊢ ge
+3. und - - - - - de
+4. Einander durchschneidend /
+5. Keiner durch den Mittel-Düpffel gehend.
 
-<!-- Signature: R 3 -->
+[Diagram: Kreis mit Dütteln d, a (oben), c (links), f, e (rechts), b (unten), die Striche cf und de schneiden einander in g, punktierter Durchschlag von a über g und o nach b]
 
-<!-- Catchword: Vor- -->
+### Vorbereitung.
+
+Wenn man sagen wolte/ sie schnitten einander in zween gleiche Theile / so ziehe man durch den Düttel g, wo sie einander durchschneiden / und durch den Mittel-Düpffel o einen Durchschlag ab.
+
+### Beweiß.
+
+dg | ge — n. angenommen.
+Dw. dga ⋏ ∟ — n. 3. III.
+cg | gf — n. angenommen.
+
+<!-- Catchword: Dw. -->

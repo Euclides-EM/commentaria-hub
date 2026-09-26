@@ -1,27 +1,25 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 359 -->
+<!-- Page number: 373 -->
 
-che gegeben werden/ so werden auch die von solchen Strichen beschriebene Vielecke ebenmässig seyn.
+Dw. □ pq + □ pi | □ ge + □ pi n. 2. Gr. I.
+oder □ ai | ⊾ eip n. 9. Gr. I. q.
+□ pe - | ⊾ eip n. 9. Gr. I.
+Dw. □ pe - | □ ai n. 1. Gr. I. a.
 
-Und wenn von etlichen geraden Strichen ähnliche oder ebenmässige Vielecke beschrieben werden/ so werden dieselben Striche auch in Ebenmaß stehen.
+Auch alle andere mangelhaffte Vierecke sind kleiner/ als das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck.
 
-### I. Gegebene. I. Begehrtes.
+### Beschluß.
 
-1. Vier gerade Striche
-ab, cd, ef, gh. △ aob : △ cnd | □ el : □ gi.
-2. Welche in Ebenmaß stehen.
-ab : cd | ef : gh
-3. Geradstrichichte ähnliche Vielecke
-△ aob ähnlich △ cnd
-□ el ähnlich □ gi
-4. Gleicher weise gesetzet.
+Ist derowegen das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck grösser/ als alle andere mangelhaffte an den gegeben Strich angeschlagene Vierecke. W. Z. B.
 
-[Diagram: grosses Dreyeck a o b, daneben kleineres Dreyeck c n d mit Strich p, dann Viereck e m l f und kleineres Viereck g k i h mit Strich q; darunter zwey Striche a b e h mit punktierten Linien und den Bezeichnungen d p, c, d, g, hq]
+## Der XXIIX. Vortrag.
 
-### Vorbereitung.
+## Das 8. Werck-Stück.
 
-1. Es werde zu denen beyden Strichen ab und cd der dritte ebenmässige Strich p gefunden n. 11. VI.
-ab : cd | cd : p.
+An einen gegebenen geraden Strich ein nebenstrichichtes Viereck/ welches einer gegebenen geradstrichichten Gestalt gleichmässig sey/ also anzuschlagen/ daß es mangelhaft/ und das mangelende nebenstrichichte Viereck einem andern gegebenen nebenstrichichten Viereck ähnlich sey.
 
-<!-- Catchword: 2. Auch -->
+Es muß aber die gegebene geradstrichichte Gestalt / welcher das nebenstrichichte Viereck / so anzuschlagen ist / gleichmässig seyn sol/ nicht grösser seyn / als dasjenige Viereck / welches an die Helffte des gegebenen Striches kan angeschlagen werden: und solches an die Helffte des Striches angeschlagene Viereck / wie auch das mangelende / und die andere gegebene nebenstrichichte Viereck sind alle einander ähnlich.
+
+<!-- Signature: Aaa 3 -->
+<!-- Catchword: Begehr- -->

@@ -1,36 +1,27 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 198 -->
+<!-- Page number: 200 -->
 
-[Diagram: Kreis mit Düttel a oberhalb; Striche von a durch den Kreis mit Punkten b, g, d, f, c, h, e]
+2. Düttel a.
+3. Ausser dem Kreyß.
+4. Zween Striche von solchem Düttel gezogen.
+5. Deren einer ah den Kreyß in g schneidet.
+6. Der andere ak nur darauff stösset.
+7. □ hag | □ ad.
+
+[Diagram: Kreis mit Mittelpunkt c; von einem Punkt a ausserhalb des Kreises gehen ein schneidender Strich durch g nach h und ein Rührstrich nach k; punktierte Linien verbinden c mit d, k und a]
 
 ### Vorbereitung.
 
-Aus dem Mittel-Düpffel ac werden gezogen.
-1. Der Strahl cg.
-2. Der Senckstrich cd.
-3. Ein Senckstrich cf auff den Schneidenden Strich ah n. 12. I.
+1. Werde aus dem Düttel a ein Rührstrich ak zum Kreyß gezogen. n. 17. III.
+2. Werden die Strahlen cd und ck, wie auch
+3. Aus dem Düttel a zu dem Mittel-Düpffel c der Strich ac gezogen.
 
-### I. Beweiß.
+### Beweiß.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | ▭ eab + □ bc | □ ac | n. 6. II. |
-|  | □ ad + □ dc | □ ac | n. 47. I. |
-| Dw. | □ ad + □ dc | ▭ eab + □ bc | n. 1. Gr. I. |
-|  | bc | dc | n. 15 B. I. |
-|  | □ bc | □ dc | n. 1. gr. t. II. |
-|  | □ ad + □ dc + □ bc | ▭ eab + □ bc + □ dc | n. 2. Gr. I. |
-|  | □ ad | ▭ eab | n. 3. Gr. I. |
+ak | Rührstrich n. 1. Vorber.
+Dw. □ ak | □ hag n. 36. III.
+□ ad | □ [unclear: hag] n 7. Gegeb.
+Dw. □ ak | □ ad n. 1. Gr. I.
 
-### II. Beweiß.
-
-|  |  |  |  |
-|---|---|---|---|
-|  | □ ad + □ dc | □ ac |  |
-|  | □ ac | □ af + □ fc | n. 47. I. |
-| Dw. | □ ad + □ dc | □ af + □ fc | n. 1 Gr. I. |
-|  | □ fc + □ fg | □ gc oder □ dc | n. 47. I. |
-| Dw. | □ ad + □ dc + □ fc + □ fg | □ af + □ fc + □ dc | n 2. Gr. I. |
-
-<!-- Catchword: Dw. -->
+<!-- Catchword: und -->

@@ -1,33 +1,34 @@
-<!-- Page number: 311 -->
-
 <!-- Running title: Euclidis. -->
 
-### Begehrtes.
+<!-- Page number: 319 -->
 
-Grundstriche ab | ef.
+Dw. | ba : cd | ba : CD | n. 7. V.
+1. u. | ba : CD | bc : CE | n. 11. V.
+γ | bc : ce | fd : de | n. 2. VI.
+δ | fd | ac | n. 34. I.
+| DE | DE |
+Dw. | fd : DE | ac : DE | n. 7. V.
+| fd | fd |
+| DE | de | n. 3. Vorb.
+Dw. | fd : DE | fd : de | n. 7. V.
+u. | bc : ce | ac : DE | n. 11. V.
+| CE | ce | n. 2. Vorb.
+2. Dw. | bc : CE | ac : DE | n. 7. V.
 
-[Diagram: Zwei Dreyecke A und B mit den Punkten a, g, b, c, d, e, f, links das Dreyeck A über der Grundlinie a g b, rechts das Dreyeck B über e f, mit gestrichelten Hülffslinien]
+| ba : af | bc : ce | n. Bew. α
+| bc : ce | fd : de | n. Bew. γ
+Dw. | ba : af | fd : de | n. 11. V.
+| cd | af | n. Bew. β
+| fd | ac | n. Bew. δ
+Dw. | ba : cd | ac : de | n. Anh. 7. V.
+| DC | cd |
+| de | DE | n. 3. Vorb.
+Dw. | ba : DC | ac : DE | n. Anh. 7. V.
 
-### Vorbereitung.
+[Diagram: kleines Dreieck, blass im Hintergrund der Tabelle]
 
-Wenn ab ⊣ ef — so mache man
-bg | ef — n. 3. I.
+### Beschluß.
 
-und ziehe den Strich cg.
-
-### Beweiß.
-
-bg | ef — n. Vorb.
-Dw. bc : ed | △ gbc : △ B — n. 1. VI.
-bc : ed | △ abc : △ B — n. Gegeb.
-Dw. △ gbc : △ B | △ abc : △ B — n. 1. V.
-u. △ gbc | △ abc oder △ A — n. 14. V.
-
-Welches aber unmüglich n. 9. Gr. I.
-Eben dergleichen würde folgen/ wenn man sagen wolte
-
-ab ⊢ ef
-
-Gleicher Gestalt kan auch erwiesen werden/ daß derer nebenstrichichten Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ ihre Grundstriche gleicher Grösse seyn müssen. W. Z. B.
+So stehen derowegen aller gleichwincklichten Dreyecke Seiten in ebenmässiger Verhällnüß / so ferne sie gleichmässige Winckel einschrencken / oder gleichmässigen Winckeln gegen über stehen. W. Z. B.
 
 <!-- Catchword: Der -->

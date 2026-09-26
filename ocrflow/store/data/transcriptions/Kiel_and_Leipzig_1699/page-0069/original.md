@@ -1,36 +1,46 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 51 -->
+<!-- Page number: 53 -->
 
-3.  AB + AC | ab + ac
-4.  AB      | ab
-5.      AC  |     ac
-6.  CB      ⊢     bc
+Dw.   acb ⋏ hcb        n. 1. Gr-S.
+    welches unmüglich nach 9. Gr-S.
 
-[Diagram: Zwei Dreiecke ABC und abc nebeneinander]
+### Vorbereitung.
+
+Wann ab ⊣ AB, so schneide man bd | AB
+
+### Verfolg des Beweises.
+
+      ab ⊣ AB             nach Angenommen.
+db         | AB           n. Vorber.
+      bc |      BC        n. 3. Gegeben.
+δ.  db + bc | AB + BC     n. 2. Gr-S.
+      abc ⋏ ABC           n. 4. Gegeb.
+Dw.   dcb ⋏ ACB           n. 4. Vortr.
+      acb ⋏ ACB           n. 5. Gegeb.
+Dw.   acb ⋏ dcb           n. 1. Gr-S.
+    welches unmöglich nach 9. Gr-S.
+
+Gleiche Bewandniß hat es / wann man sagen wolte
+        AC ⊣ ac oder AC ⊢ ac
+
+Dieses kan noch anders bewiesen werden / wann man annimmet vor
+
+### Gegeben.
+
+1.  BC  |  bc
+2. ABC ⋏ abc
+3. BAC ⋏ bac
 
 ### Beweiß.
 
-Entweder ist   BAC ⋏ bac
-oder           BAC ⊼ bac
-oder           BAC ⊼ bac
+db + bc | AB + BC             n. Bew. δ.
+      abc ⋏ ABC               n. 2. Gegeb.
+Drw.  bdc ⋏ BAC               n. 4. Vortr.
+      bac ⋏ BAC               n. 3. Gegeb.
+Dw.   bac ⋏ bdc               n. 1. Gr-S.
+Welches aber unmöglich        n. 16. Vortr.
 
-Wann BAC ⋏ bac      So ist BC | bc
-        n. 4. Vortr. welches wider 6. Gegeb.
-ist aber BAC ⊣ bac      So ist BC ⊣ bc
-        n. 24. Vortr. welches auch wider 6. Gegeb.
-Dw. muß BAC ⊼ bac
+<!-- Signature: G 3 -->
 
-### Beschluß.
-
-Ist also jederzeit in dem △, dessen Grund-Seite grösser / als des andern / auch der Winckel grösser/als in dem andern △. W. Z. B.
-
-## Der XXVI. Vortrag.
-
-## Das 17. Beweiß-Stück.
-
-Wann zwey Dreyecke zween Winckel/zweyen Winckeln / jedweden jedwedem / und eine Seite der einen Seite gleich haben / es sey gleich / daß die Seite einem der beeden Winckel übergespannet/oder neben den beeden Winckeln stehet : So
-
-<!-- Signature: G 2 -->
-
-<!-- Catchword: wer- -->
+<!-- Catchword: Beschluß. -->

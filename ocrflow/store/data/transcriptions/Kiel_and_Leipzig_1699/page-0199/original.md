@@ -1,36 +1,34 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 181 -->
+<!-- Page number: 183 -->
 
-Dw. abd + acd ⋀ adb + adc   n. 2. Gr. I.
-bdc ⋀ adb + adc   n. 9. Gr. q. I.
-Dw. bdc ⋀ abd + acd   n. 1. Gr. I.
-edc ⋀ abd + acd   n. 32. I.
-Dw. edc ⋀ bdc   n. 1. Gr. I.
-und bdc ⋀ ∟   n. 10. Beschr. I.
-
-### II. Begebenheit.
-
-### Gegebene.
-1. Kreyß bdcb.
-2. Kreyßstück cabd.
-3. Welches grösser/ als ein Halb-Kreyß.
-4. Winckel cad.
-
-### Begehrtes.
-cad [unclear: ⋀] ∟
-
-[Diagram: Kreyß mit den Punckten a, c, b, d; darin die Striche ac, ad, bd und bc, etliche punctirt]
+[Diagram: Kreyß mit den Punckten d, a, b, c und e unten; der Strich dc, die Striche db und cb punctirt]
 
 ### Vorbereitung.
-1. Durch den Mittel-Düpffel werde der Durchschlag cb,
-2. Der Strich bd gezogen.
+1. Werde durch den Mittel-Düpffel der Durchschlag bd,
+2. Wie auch der Strich bc gezogen.
 
-### II. Beweiß.
-bdc ⋀ ∟   n. 1. Bew.
-cbd [unclear: ⋀] ∟   n. 17. I.
-cad ⋀ cbd   n 21. III.
-Dw. cad [unclear: ⋀] ∟   n. 1. Gr. d. I.
+### IV. Beweiß.
+dcb ⋀ ∟   n. 1. Bew.
+dce ⊢ dcb   n. 9. Gr. I.
+Dw. dce ⊢ ∟   n. 1. Gr. b. I.
 
-<!-- Signature: Q 3 -->
-<!-- Catchword: III. Be- -->
+### V. Begebenheit.
+
+### Gegebene.
+1. Kreyß bhcdb.
+2. Kreyßstück bhc.
+3. ⌓ bhc ⊣ Halbkreyß:
+4. hcb Kreyßstücks-Winckel.
+
+### Begehrtes.
+hcb [unclear: ⊣] ∟
+
+[Diagram: Kreyß mit der Sehne bc oben, darüber der Punckt h; e ausserhalb neben c; unten der Punckt d; der Strich cd punctirt und biß e verlängert]
+
+### Vorbereitung.
+1. Werde durch den Mittel Düpffel der Durchschlag bd,
+2. Wie auch der Strich cd gezogen/
+3. Und biß zu e verlängert.
+
+<!-- Catchword: V. Be- -->

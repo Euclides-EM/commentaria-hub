@@ -1,45 +1,39 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 213 -->
+<!-- Page number: 215 -->
 
-### Beweiß.
-
-cao ∧ ∟ }
-efo ∧ ∟ } n. 3. Wirck.
-Dw. ef ⧣ ca n. 27. I.
-gfo ∧ efo n. 10. Gr. I.
-Dw. gfe ein gerader Strich/n. 14. I.
-Gleicher Weise eg ⧣ bc
-und ghc ein gerader Strich.
-eg | be }
-bc | ge } n. 34. I.
-aoh ∧ ∟ n. 2. Wirck.
-aoh ∧ ach n. 34. I.
-Dw: ach ∧ ∟ n. 1. Ax. I.
-u. beg ∧ ∟ n. 34. I.
-Dw. bcge ein gleichseitig □ , n. 29. Beschr. I.
-u. dem Kreyß dahf umbschrieben/ n. 4. Besch. IV.
+Welcher das □ bcde anrühret/n. 17. III.
+Und dem □ eingeschrieben ist/ n. 5. Beschr. IV.
 
 ### Beschluß.
 
-Ist also umb den O dahf ein □ bcge beschrieben. W. Z. M.
+Ist also dem gegebenen Viereck bcde ein Kreyß fghi einge-
+schrieben. W. Z. M.
 
-## Der VIII. Vortrag.
+## Der IX. Vortrag.
 
-## Das 8. Werckstück.
+## Das 9. Werckstück.
 
-Einem gegebenen Viereck einen Kreyß einzuschreiben.
+Umb ein gegebenes Viereck einen Kreyß zube-
+schreiben.
 
-### Gegebene. Begehrtes.
-
-Viereck bcde. 1. Kreyß fghi
-2. Dem Viereck eingeschrieben.
+### Gegebenes. — Begehrte.
+Viereck bcde. — 1. Kreyß cdeb
+2. Umb das Viereck beschrieben.
 
 ### Wirckung.
 
 1. Werden die Zwergstriche bd, ec gezogen.
-2. Alle Seiten des Vierecks bc, cd, de, eb werden in zwey gleiche Theile bf | fc : ci | id und so weiter/ getheilet/n. 10. I.
+2. Aus dem Düttel a, wo diese Zwergstriche einander durch-
+schneiden/ werde nach der Weite ab ein Kreyß beschrieben.
 
-<!-- Signature: Dd 3 -->
+[Diagram: Quadrat b c d e mit gezogenen Diagonalen, die sich im Mittelpunkt a schneiden, umschrieben von einem Kreis]
 
-<!-- Catchword: 3. Aus -->
+### Beweiß.
+
+a. — dcb ∧ ∟
+bc | dc — n. 1. Geg. u. 29. Besch. I.
+ß. Dw. — dbc ∧ bdc — n. 5. I.
+dcb + dbc + bdc ∧ ⌓ — n. 32. I.
+
+<!-- Catchword: Dw. -->

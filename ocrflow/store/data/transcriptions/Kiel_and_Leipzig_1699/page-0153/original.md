@@ -1,31 +1,39 @@
-<!-- Page number: 135 -->
+<!-- Page number: 137 -->
 
 <!-- Running title: Euclidis. -->
 
-## Der IV. Vortrag.
+### Beweiß.
 
-## Das 3. Beweiß-Stück.
+ab | ad — n. 15. Beschr. I. und n. angenommen.
+ab | ac — n. 15. Beschr.
+Dw. ad | ac — n. 1. Gr. I.
 
-Wenn in einem Kreyß zween gerade Striche ein ander durchschneiden/ aber nicht durch den Mittel-Düpffel gehen/ so werden sie auch einander nicht in gleichgrosse Theile schneiden.
+Welches aber Unmüglich n. 9. Gr. I.
+
+### Beschluß.
+
+Können also zweene Kreyse / so einander durchschneiden/ nicht aus einem einigen Mittel-Düpffel beschrieben seyn. W. Z. B.
+
+## Der VI. Vortrag.
+
+## Das 5. Beweiß-Stück.
+
+Wenn zween Kreyse/ deren einer in dem andern stehet/ einander berühren/ so können sie nicht einen einigen Mittel-Düpffel haben.
 
 ### Gegebene. — Begehrte.
 
-1. Der Kreyß caeb, — fg ⊢ ge
-2. Gerader Strich cf — dg ⊢ ge
-3. und - - - - - de
-4. Einander durchschneidend /
-5. Keiner durch den Mittel-Düpffel gehend.
-
-[Diagram: Kreis mit Dütteln d, a (oben), c (links), f, e (rechts), b (unten), die Striche cf und de schneiden einander in g, punktierter Durchschlag von a über g und o nach b]
+1. Zween Kreyse bfd und bgc. — Diese Kreyse haben verschiedene Mittel-Düpffele.
+2. Der Kreyß bgc rühret den andern bfd inwendig bey b an
 
 ### Vorbereitung.
 
-Wenn man sagen wolte/ sie schnitten einander in zween gleiche Theile / so ziehe man durch den Düttel g, wo sie einander durchschneiden / und durch den Mittel-Düpffel o einen Durchschlag ab.
+Wolte man sagen / sie hätten nur einen eintzigen Mittel-Düpffel/ nemlich a, so ziehe man aus a
 
-### Beweiß.
+1. Zu dem anrührungs-Düpffel b den Strich ab.
+2. Auch den Strich af.
 
-dg | ge — n. angenommen.
-Dw. dga ⋏ ∟ — n. 3. III.
-cg | gf — n. angenommen.
+[Diagram: zween Kreyse, deren innerer den äusseren unten bey b anrühret, mit den Dütteln d, c (oben), f, g (links), e und a in der Mitte, punktierte Striche von a nach b, c und g]
 
-<!-- Catchword: Dw. -->
+<!-- Signature: S -->
+
+<!-- Catchword: Be- -->

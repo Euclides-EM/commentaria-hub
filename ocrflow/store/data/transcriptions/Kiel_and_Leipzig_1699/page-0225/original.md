@@ -1,29 +1,32 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 207 -->
+<!-- Page number: 209 -->
 
-## Der IV. Vortrag.
-
-## Das 4. Werck-Stück.
-
-In ein gegebenes Drey Eck einen Kreyß einzuschreiben.
-
-### Gegebenes. Begehrte.
-
-Dreyeck efg. 1. Kreyß bcd,
-2. Welcher dem gegebenen △ eingeschrieben.
-
-[Diagram: Dreyeck efg mit Spitze e oben; darin eingeschriebener Kreis mit Mittelpunkt a und Rührdüpffeln c, d, b; Winckeltheilende Striche von e und f nach a, punktierter Senckstrich ac]
+[Diagram: drei Kreise, jeder mit einem umschriebenen Dreyeck abc und dem Mittel-Düpffel f; die Seitenmittel d und e mit Senckstrichen df und ef, die Stralen fa, fb, fc punktiert bzw. ausgezogen]
 
 ### Wirckung.
 
-1. Der Winckel e werde in zwey gleiche Theile dea ∧ cea getheilet.
-2. Wie auch der Winckel f in efa ∧ bfa.
-3. Aus dem Düttel a, wo diese beede Winckeltheilende Striche ea und fa einander schneiden / werde auff die Seite ef ein Senckstrich ac gesetzet. n. 12. I.
-4. Nach der Weite ac werde der Kreyß cdb beschrieben.
+1. Eine des Dreyecks Seite ab werde in zween gleiche Theile ad | db getheilet/n. 10. I.
+2. Auff dieser Seite Mittel d werde einwerts ein Senckstrich df gesetzet/n. 11. I.
+3. Deßgleichen werde eine andere Seite ae getheilet ae | ec, n. 10. I.
+4. Auch werde auff dieses Mittel e einwerts ein Senckstrich ef gesetzet/n. 11. I.
+5. Aus f, wo beede Senckstriche einander durchschneiden / werde nach der Weite fb, oder fa ein Kreyß beschrieben.
 
 ### Vorbereitung.
 
-Es werde gezogen aus dem Mittel-Düpffel a
+Aus dem Mittel-Düpffel f werden zu den Ecken des Drey-Ecks die Stralen fa, fb, fc gezogen.
 
-<!-- Catchword: 1. Des -->
+### Beweiß.
+
+ae | ec n. 3. Wirck.
+fea ∧ fec n. 3. III. u. 10. Gr. I.
+fe | fe
+Dw. fa | fc n. 4. I.
+Gleicher Weise fa | fb
+Dw. fc | fb n. 1. Gr. I.
+und f der Mittel-Düpffel des Kreyses abc, n 9. III,
+welcher umb das △ abc umbschrieben / n. 6. Beschr. IV.
+
+<!-- Signature: D d -->
+
+<!-- Catchword: Be- -->

@@ -1,36 +1,33 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 278 -->
-
-### III. Gegebene.
-
-[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
-
-A : B | b : c
-B : C | a : b
-A ⊦ C
-
-### Begehrtes.
-
-a ⊦ c
+<!-- Page number: 286 -->
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| b : c | A : B | ⌉ n. Geg. |
-| A : | ⊦ C | |
-| B | B | |
-| Dw. A : B | ⊦ C : B | n. 8. V. |
-| u. b : c | ⊦ C : B | n. Anh. 13. V. |
-| a : b | B : C | n Gegeb. |
-| Dw. ⌠ b : a | C : B | n. 16. V. |
-| u. b : a | ⊣ b : c | n. 13. V. |
-| b | b | |
-| Dw. a ⊦ | c | n. 10. V. |
+| B : c | A : a | n. Vorbereit. |
+| A : a | ⊣ B : b | n Gegeb. |
+| Dw. B : c | ⊣ B : b | n. 13. V. |
+| und c | ⊦ b | n 10. V. |
+| a : A | c : B | n. Anh. 4. V. |
+| c : B | ⊦ b : B | n. 8. V. |
+| Dw. a : A | ⊦ b : B | n. Anh. 13. V. |
 
 ### Beschluß.
 
-Wenn derowegen Sechs Grössen in verwirreter Ebenmaß stehen/ und die I. grösser ist / als die III. so wird auch die IV. grösser seyn/ als die VI. Ist aber die I. eben so groß/als die III. so ist auch die IV. eben so groß/als die VI. Und wenn die I. kleiner ist/als die III. so ist auch die IV. kleiner/als die VI. W. Z. B.
+Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auf umgekehrte Weise die II. zu der I. eine kleinere Verhältnüß / als die IV. zu der III. haben/ W. Z. B.
 
-<!-- Catchword: Der -->
+## Der XXVII. Vortrag.
+
+## Das 27. Beweiß-Stück.
+
+Wenn man vier Grössen hat/ deren Erste zu der Andern eine grössere Verhältnüß hat / als die Dritte zu der Vierten: So wird auch hinwiederum die Erste zu der Dritten eine grössere Verhältnüß haben/ als die Andere zu der Vierten.
+
+### Gegebene.
+
+[Diagram: fünf Linien A, c, a, B, b von verschiedener Länge am linken Rand]
+
+A : a ⊣ B : b
+
+<!-- Catchword: Begehrtes. -->

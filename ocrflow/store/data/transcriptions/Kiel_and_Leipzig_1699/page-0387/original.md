@@ -1,33 +1,33 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 357 -->
-
-Dw. △ eab : △ kfg ⊐ be : kg n. 19. VI.
-△ bec ähnlich △ kgi n. Bew. δ.
-Dw. △ bec : △ kgi ⊐ be : kg n. 19. VI.
-u. △ eab : △ kfg | △ bec : △ kgi n. 11. V.
-Aus eben diesen Ursachen ist auch
-△ ecd : △ gih | △ bec : △ kgi
-Dw. △ ecd : △ gih | △ eab : △ kfg n. 11. V.
-△ △ △ △ △ △
-eab + bec + ecd : kfg + kgi + gih | △ eab : △ kfg n. 1. V.
-ab : fg = △ eab : △ kfg n. 17. VI.
-Dw. △ △ △ △ △ △
-eab + bec + ecd : kfg + gki + gki = ab : fg n. 11. V.
-△ △ △ △ △ △
-eab + bed + bcd : kfg + gki + ghi | ⬠ cad : ⬠ hfi n. 9. Gr. q. I.
-Dw. ⬠ cad : ⬠ hfi = ab : fg
-u. ⬠ cad : ⬠ hfi | △ eab : △ kfg n. 11. V.
+<!-- Page number: 371 -->
 
 ### Beschluß.
 
-Können derowegen ähnliche Vielecke in ähnliche und gleichviele/ auch mit dem gantzen Vieleck Verhältnüß-ähnliche oder ebenmässige Dreyecke abgetheilet werden. Es stehen auch die ähnliche Vielecke gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
+Müssen derowegen die ähnliche/ gleicherweiß gesetzte/ und gleichmässigen Winckel habende abgenommene Vierecke mit dem gantzen ac üm einen einigen Zwergstrich stehen. W. Z. B.
 
-## Der XXI. Vortrag.
+## Der XXVII. Vortrag.
 
-## Das 15. Beweiß-Stück.
+## Das 20. Beweiß-Stück.
 
-Welche geradstrichichte Gestalte einer einigen Gestalt ähnlich sind/ dieselben sind auch einander selbst ähnlich.
+Wenn an einen gegebenen geraden Strich ein gegebenes nebenstrichichtes und mangelhafftes Viereck angeschlagen wird: So wird unter allen nebenstrichichten und dem mangelenden Viereck ähnlichen Vierecken dasjenige / welches an die Helffte des gegebenen geraden Striches angeschlagen wird/ das Grösseste seyn.
 
-<!-- Signature: Y y 3 -->
-<!-- Catchword: Gegebe- -->
+### Gegebene.
+
+1. Gerader Strich ab
+2. Nebenstrichichtes Viereck ai
+3. □ ai an den Strich ab angeschlagen.
+4. Doch mangelhafft
+5. Uberschuß gb
+6. Mangelendes Viereck gc.
+7. bp die Helffte des Striches ab ap | bp.
+8. Viereck pe.
+9. an des Striches ab Helffte pb angeschlagen.
+10. □ pe ähnlich □ gc
+
+### Begehrte.
+
+1. □ pe ⊣ □ ai
+
+<!-- Signature: Aaa 2 -->
+<!-- Catchword: 2. Unter -->

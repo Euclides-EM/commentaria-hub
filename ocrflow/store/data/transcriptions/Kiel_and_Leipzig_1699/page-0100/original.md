@@ -1,22 +1,37 @@
 <!-- Running title: Das I. Buch -->
 
-<!-- Page number: 82 -->
+<!-- Page number: 48 -->
 
-2. Wird nach dieser Weite aus B. der Bogen AeDg gemacht
-3. - - wie auch aus A - - - BeCf
-4. - - - und aus e - - - fhig
-5. - - - - aus f - - - h
-6. - - - - aus g - - - i.
-7. Aus A gegen h wird biß zum Bogen ef, der Strich AC.
-8. Und aus B gegen i zum Bogen eg, der Strich BD gezogen.
-9. Endlich von C zum D ein gerader Strich/ so ist mit unveränderter Oeffnung des Kreyß-ziehers das begehrte □ verfertiget. W. Z. M.
+### Beweiß.
 
-[Diagram: Quadrat BADC mit punktierten Kreisbögen; Punkte i, h oben, D, C, f, e in der Mitte, g links, B, A unten]
+mn ∠ ko | n. 10. GrS.
+no ∠ on
+α. mn + no ∠ ko + on | n. 2. GrS.
+rf | fx
+fg | pf | n. 46. Vort u. 29. Bes.
+rf + fg | pf + fx | n. 2. GrS.
+ko + on ∠ mn + no | n. Bew. α.
+oder kon ∠ mno | n. 9. GrS. q.
+Dw. fgr ∠ pxf | n. 4. Vortr.
+xi = fp | n. 4. Vorber.
+Dw. □ fpib | 2 △ fpx | n. 41. Vortr.
+und □ fpib | 2 △ fgr | n. 6. GrS.
+fr = lg | n. 46. Vortr.
+□ fx | 2 △ fgr | n. 41. Vortr.
+β. Dw. □ fx | □ fpib | n. 6. GrS.
 
-## Der XLVII. Vortrag.
+ab ∠ dc | n. 4. Wirck.
+bc ∠ cb
+ab + bc ∠ dc + cb | n. 2. GrS.
+oder abc ∠ dcb | n. 9. GrS. q.
+hg | xg
+fg | ge | n. 29. Beschreib.
+Dw. hg + gf | xg + ge | n. 2. GrS.
+und hgf ∠ xge | n. 4. Vortr.
+xi = ge | n. 4. Wirck.
+Dw. □ gbie | 2 △ xge | n. 41. Vortr.
+und □ gbie | 2 △ hgf | n. 6. GrS. k.
+□ gx | 2 △ hgf | n. 41. Vortr.
+Dw. □ gx | □ gbie | n. 6. GrS.
 
-## Das 33. Beweiß-Stück.
-
-In jedwedem rechtwincklichten Dreyeck/ ist das gleichwincklichte und gleichseitige Viereck / welches von dem Strich/so dem rechten Winckel entgegen stehet/ gemacht wird/ eben so groß/ als die beeden Vierecke zusammen / welche von den beeden Seiten/so den rechten Winckel begreiffen/ gemacht werden : oder/In jedwedem rechtwinck-
-
-<!-- Catchword: lichten -->
+<!-- Catchword: □ fpx -->

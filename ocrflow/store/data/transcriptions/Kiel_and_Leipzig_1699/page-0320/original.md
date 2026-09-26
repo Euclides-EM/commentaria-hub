@@ -1,34 +1,30 @@
-<!-- Running title: Das V. Buch -->
+<!-- Page number: 304 -->
 
-<!-- Page number: 296 -->
+<!-- Running title: Das VI. Buch -->
 
-### Beschluß.
-Wenn derowegen Sechs Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die V. zu der VI. Auch die II. zu der III. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
+### I. Gegebene. — Begehrtes.
 
-## Der XXXIII. Vortrag.
-## Das 33. Beweiß-Stück.
+1. Dreyeck abc
+2. Dreyeck def — ab : de | △ abc : △ def.
+3. Die Höhen cq | fq
+4. Grundstriche ab | 3 db
 
-Wenn das Gantze zu dem Gantzen eine grössere Verhältnüß hat / als das Abgenommene zu dem Abgenommenen: So wird das Ubergebliebene zu dem Ubergebliebenen eine grössere Verhältnüß / als das Gantze zu dem Gantzen haben.
+[Diagram: Zwei Dreiecke mit gemeinsamer Grundlinie u t d q e q a r s b, aus den Gipffeln f und c gehen gestrichelte und ausgezogene Striche auf die Grundlinie herab]
 
-### Gegebene.
+### Vorbereitung.
 
-[Diagram: zwei waagerechte Linien A und B, jeweils durch Striche unterteilt]
+1. Des grössern Dreyecks abc Grundstrich ab, welcher dreyfach gegen des kleinern Dreyecks def Grundstrich de ist/ werde in solche Stücke getheilet/ welche dem Grundstrich de gleichmässig sind n. 3. I.
 
-A : B ⊣ a : b
+de|ar|rs|sb.
 
-### Begehrtes.
-A : B ⊢ A — a : B — b
+2. Aus dem Gipffel c werden gerade Striche auf des Grundstrichs Abtheilungen gezogen/ nemlich cr und cs.
 
-### Beweiß.
+3. Der Grundstrich de des kleinern Dreyecks werde verlängert.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | A | \| a + c |  |
-|  | B | \| b + d |  |
-|  | a + c : b + d | ⊣ a : b | n Geg. |
-| Dw. | a + c : a | ⊣ b + d : b | n. 27. V. |
-| und | a + c : c | ⊢ b + d : d | n. 30. V. |
-| Dw. | a + c : b + d | ⊢ c : d | n. 27. V. |
-| oder | A : B | ⊢ A — a : B — b |  |
+4. Von diesem verlängeten Strich werde ein Stück eu|ab abgeschnitten n. 3. I.
 
-<!-- Catchword: Beschluß. -->
+5. Auf diesen Strich ab werden auch gesetzet die Längen dt|tu|de n. 3. I.
+
+6. Werden die Striche ft und fu gezogen.
+
+<!-- Catchword: Beweiß- -->

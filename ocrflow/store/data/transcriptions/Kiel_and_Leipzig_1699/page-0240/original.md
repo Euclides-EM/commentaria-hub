@@ -1,34 +1,35 @@
 <!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 216 -->
+<!-- Page number: 224 -->
 
-dcb ∧ ∟ ω.
-Dw. — dbc + bdc ∧ ∟ — n. 3. Gr. I.
-u. — dbc ∧ bdc ∧ ½ ∟ — ß. n. 7. Gr. n. I.
-Gleicher Weise ebd ∧ bec ∧ dec ∧ edb ∧ ½ ∟
-Dw. — ab | ae | ac | ad — n. 6. I.
-u. — a | Mittel-Düpffel des Kreyses edcb, n. 9. III.
+### Beweiß.
 
-Welcher umb das Viereck beschrieben/ n. 6. Besch. IV.
+ida ∧ hda — n. 1. Wirck.
+dia ∧ dha — n. 3. Wirck. 10. Besch. 10. Gr. I.
+ad | ad
+Dw. — ai | ah — n. 26. I.
+Gleicher Weise ist ah | ag | al | ak
+Dw. — a | Mittel-Düpffel des Kreyses n. 9. u. 19. III.
+Welches das gegebene Fünffeck an allen Seiten anrühret /
+n. 18. III.
 
 ### Beschluß.
 
-Ist also umb das gegebene □ bcde ein Kreyß edcb beschrieben.
-W. Z. M.
+Ist also dem gegebenen gleichseitigen und gleichwincklichten
+Fünffeck ein Kreyß umbschrieben. W. Z. M.
 
-## Der X. Vortrag.
+## Der XIV. Vortrag.
 
-## Das 10. Werck-Stück.
+## Das 14. Werckstück.
 
-Ein gleichschenckliches Dreyeck zu machen/
-dessen jeder Grundwinckel noch einmahl so groß/
-als der Gipffelwinckel.
+Umb ein gegebenes gleichseitiges und gleich-
+wincklichtes Fünffeck einen Kreyß zu beschreiben.
 
-### Gegebene. — Begehrte.
-1. Gleichgrosse Schenckel — 1. Gleichschencklichtes Dreyeck
-2. jedweder Grundwinckel noch einmahl so groß als der Gipffelwinckel. — 2. in welchem der Gipffelwinckel halb so groß als ein Grund-
-winckel.
+### Gegebenes. — Begehrte.
+Fünffeck bgefd — 1. Kreyß fegbd
+2. umb das Fünffeck
+beschrieben.
 
-[Diagram: links ein Quadrat mit Punkten A, C, B auf der Grundlinie und einem Kreisbogen; rechts ein punktierter großer Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c und d]
+[Diagram: Kreis mit einbeschriebenem Fünffeck f d b g e, aus dem Mittelpunkt a laufen gerade Striche zu den Ecken]
 
 <!-- Catchword: Wir- -->

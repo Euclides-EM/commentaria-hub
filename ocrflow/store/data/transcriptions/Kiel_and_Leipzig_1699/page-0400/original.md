@@ -1,36 +1,24 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 370 -->
+<!-- Page number: 384 -->
 
 ### Gegebene.
 
-1. Nebenstrichichtes Viereck bd
-2. Abgenommenes Viereck eg
-3. □ eg ⎫ ähnlich ⎧ □ bd.
-4. ⎬ gleicher Weise gesetzt ⎨
-5. ⎭ gleichmässige Winckel habend ⎩
+1. Dreyeck ABC, welches
+2. Rechtwincklicht und
+3. Auf der dem rechten Winckel A übergespanneten Seite BC stehende □ Bd oder △ BCD.
+4. Zwey Dreyeck AHC und AFB, oder □ AI + □ AF, welche
+5. Auf den beyden Seiten AB und AC, so den rechten Winckel A begreiffen/ stehen.
 
 ### Begehrtes.
 
-[Diagram: Viereck a, g, i, b oben, e und f in der Mitte, d und c unten, mit Diagonalen und punctirten Linien]
+△ DBC | △ AHC + △ AFB.
+□ BD | □ AI + □ AF.
 
-□ eg üm einen einigen Zwergstrich stehende mit □ bd.
+[Diagram: zwei Konstruktionszeichnungen; links Dreieck ABC mit Punkten F, A, H, B, K, C und D; rechts Figur mit Punkten I, H, A, G, C, F, K, B, D, E]
 
 ### Vorbereitung.
 
-Wenn □ eg nicht üm denselben Zwergstrich stehet/ so nehme man das □ ei, welches üm denselben Zwergstrich stehen sol.
+Aus dem rechten Winckel A werde auf den Strich BC ein Senckstrich AK gezogen. n. 12. I.
 
-### Beweiß.
-
-□ ei stehet üm einen einigen Zwergstrich mit □ bd n. Angen.
-Dw. ist □ ei ähnlich □ bd n. 24. VI.
-u. ae : ai | ad : ab n. 1. Besch. VI.
-□ eg ähnlich □ bd n. 3. Geg.
-Dw. ae : ag | ad : ab n. 1. Besch. VI.
-u. ae : ag | ae : ai n. 11. V.
-ae | ae
-Dw. ag | ai n. 9. V.
-
-Welches aber unmüglich n. 9. Gr. I.
-
-<!-- Catchword: Beschluß- -->
+<!-- Catchword: Beweiß. -->

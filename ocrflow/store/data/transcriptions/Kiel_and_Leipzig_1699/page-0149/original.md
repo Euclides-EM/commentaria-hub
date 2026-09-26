@@ -1,38 +1,28 @@
-<!-- Page number: 131 -->
+<!-- Page number: 133 -->
 
 <!-- Running title: Euclidis. -->
 
-Wolte man nun sagen/ der Mittel-Düpffel stehle auff den Strich hg, und zwar auff f oder e, so müste
-
-fg | fh — n. 15. Beschr. I.
-ag ⊢ fg — n. 9. Gr. I.
-Dw. ag ⊢ fh — n. 1. Gr. b. I.
-ag | ah — n. 4. Vorber.
-Dw. ah ⊢ fh — n. 1. Gr. d. I.
-
-Welches aber unmöglich/ nach 9. Grundsatz I. Gleiche Bewandniß hat es/ wenn man den Mittel-Düpffel in e, oder auff die andere Seite des Düttels f, im Strich gh, oder seitwertssetzen wolte.
+Dw. gia ⋏ agi — n. 1. Gr. a. I.
+und ia ⊢ ag — n. 18. I.
 
 ### Beschluß.
 
-Ist also der gefundene Düttel a, der rechte Mittel-Düpffel des gegebenen Kreyses. W. Z. M.
+Muß also der Düttel i, wie auch alle andere Düttele des Striches hg, und einfolglich der gantze Strich hg, inwendig in den Kreyß fallen. W. Z. B.
 
-## I. Anhang.
+## Der III. Vortrag.
 
-Wenn ein gerader Strich in einem Kreyß einen andern Strich des Kreyses / nach rechten Winckeln in zween gleiche Theile schneidet/ so wird auch desselben Kreyses Mittel-Düpffel in solchem Striche seyn/ wie aus dem vorhergesetzten Beweiß erhellet.
+## Das 2. BeweißStück.
 
-## Der II. Vortrag.
+Wenn ein gerader Strich durch eines Kreyses Mittel-Düpffel gehet / und einen andern in solchem Kreyß stehenden Strich in zwey gleiche Stücke schneidet/ so wird er auch solchen Strich nach rechten Winckeln theilen: Wenn auch der erste Strich den andern nach rechten Winckeln theilet/ so wird er ihn einfolglich in zween gleiche Theile theilen.
 
-## Das 1. Beweiß-Stück.
+### Gegebene. — Begehrte.
 
-Wenn in eines Kreyses Umfang zween Düttele erwehlet/ und mit einem geraden Strich zusammen gehänget werden/ so fället solcher Strich inwendig in den Kreyß.
+1. Kreyß ebfc.
+2. Durch den Mittel-Düpffel gehender Strich ef.
+3. Anderer im Kreyß stehender Strich bc, welcher
+4. Jn zween gleiche Theile getheilet ist/ nemlich bd | cd: oder — 1. adb | ∟ und adc | ∟: oder
+5. Der Strich bc vom ersten Strich ef nach rechten Winckeln getheilet/ daß adb ⋏ adc. — 2. bd | dc.
 
-### Gegebene. — Begehrtes.
+<!-- Signature: R 3 -->
 
-1. Der Kreyß hcg, — Strich hg Jnwendig im Kreyß.
-2. Zween Düttel h und g,
-3. Der Strich hg, welcher
-4. Die beyden Düttele zusammen hänget.
-
-<!-- Signature: R 2 -->
-
-<!-- Catchword: Beweiß -->
+<!-- Catchword: Vor- -->

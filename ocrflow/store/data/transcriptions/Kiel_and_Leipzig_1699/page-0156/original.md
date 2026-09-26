@@ -1,30 +1,32 @@
-<!-- Page number: 138 -->
-
 <!-- Running title: Das III. Buch -->
 
-### Beweiß
+<!-- Page number: 140 -->
 
-ab | ad | af — n. angenom. und n. 15. Beschr. I.
-ab | ac | ag — n. 15. Beschr. I.
-Dw. ad | ac
-und af | ag — n. 1. Gr. I.
+ea + ai ⊣ ei — n. 24. I.
+ec | ei — n. 15. Beschr. I.
+Dw. ec ⊣ ea + ai — n. 1. Gr. a. [unclear: i.]
+ea | ea
+ec — ea ⊢ ai — n. 5. Gr. I.
+oder ac ⊢ ai
 
-Welches unmüglich n. 9. Gr. I.
+eh | el — n. 15. Beschr. I.
+ea | ea
+eh + ea | el + ea — n. 2. Gr. I.
+aeh ⋀ ael — n. 1. Vorber.
+Dw. ah | al — n. 4. I.
+
+ae + ek | ae + eg — n. 15. Besch. u. 2. Gr. I.
+aek ⋀ aeg — n. 9. Gr. I.
+Dw. ac ⊣ ag. — n. 24. I.
 
 ### Beschluß.
 
-Können also einander inwendig anrührende Kreyse nicht nur einen einigen Mittel-Düpffel haben. W. Z. B.
+Ist also allezeit der / aus dem erwehlten Düttel a, durch den Mittel-Düpffel e gezogene Strich ab, der längste/und das übrige ac der kürtzeste; die andern aber / je näher sie dem Mittel-Düpffel stehen/auch länger/als die/so weiter davon entfernet seyn: Diejenigen aber/welche gleichweit davon abstehen (als ah und [unclear: ab]) gleichlang. W. Z. B.
 
-## Der VII. Vortrag.
+## Der IIX. Vortrag.
 
-## Das 6. Beweiß-Stück.
+## Das 7. Beweiß-Stück.
 
-Wenn man in eines Kreyses Durchschlag einen Düttel erwehlet / welcher nicht der Mittel-Düpffel ist / und von selbigem etliche gerade Striche zu des Kreyses Umfang zeucht: So wird der durch den Mittel-Düpffel gehende Strich/ der grösseste; dessen übriges aber der kleineste seyn: Alle andere aber / je näher sie dem Mittel-Düpffel kommen / werden länger / und je weiter sie von dem Mittel-Düpffel abstehen/ je kützer werden sie seyn: Zwey aber / welche nemlich gleichweit von dem Mittel-Düpffel entfernet sind / werden allezeit gleichlang seyn.
+Wenn ausser dem Kreyß ein Düttel erwehlet wird / und von selbigem Düttel zu dem Kreyß etliche gerade Striche gezogen werden / deren einer durch den Mittel-Düpffel gehet: So wird unter allen / so auff den Kreyß inwendig stossen / derjenige / welcher durch den Mittel-Düpffel ge-
 
-### Gegebene. — Begehrte.
-
-1. Der Kreyß bhlc. — 1. ab der längste
-2. Durchschlag bc. — 2. ac der kürtzeste.
-3. Erwehlter Düttel a, — 3. ak ⊣ ag
-
-<!-- Catchword: 4. Welcher -->
+<!-- Catchword: het/ -->

@@ -1,20 +1,38 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 368 -->
+<!-- Page number: 382 -->
 
-[Diagram: Fünfeck A mit den Punkten H, I, C, K, D, darunter ein Viereck mit den Punkten c, d, g, m, e, f nebst punctirtem Bogen; rechts oben eine Gestalt B in einem Viereck mit punctirten Linien nach f und c; in der Mitte ein Fünfeck L mit den Punkten D und M; rechts ein hohes Viereck mit den Punkten a, d, k, c, i, d, h und punctirten Linien nach f]
+### Beweiß.
 
-### Wirckung.
+|  |  |  |  |
+|---|---|---|---|
+|  | □ ad | □ am | n. 1. Wirck. |
+|  | □ ak | □ ak |  |
+| Dw. | □ ad — □ ak | □ m — □ ak | n. 3. Gr. |
+| oder | □ bd | □ hm |  |
+|  | bkd | [unclear: ⋀] hkm | n. 13. I. |
+| Dw. | □ hm wechselmässig □ bd |  |  |
+| und | hk : kd | bk : km | n. 14. VI. |
+|  | kd | be | n. 34. I. |
+|  | bi | be | n. 7. Wirck. |
+| Dw. | bi | kd | n. 1. Gr. I. |
+| und | hk : bi | bk : km | n. Anh. 7. V. |
+|  | be | bk | n. 29. Beschr. I. |
+|  | be | bi | n. 7. Wirck. |
+| Dw. | bi | bk | n. 1. Gr. I. |
+| und | hk : bi | bi : km | n. Anh. 7. V. |
+|  | hk | ab | n. 34. I. |
+| Dw. | ab : bi | bi : km | n. Anh. 7. V. |
+|  | bm | ba | n. 29. Besch. I. |
+|  | bk | bi | n. 7. Wirck. |
+| Dw. | bm — bk | ba — bi | n. 3. Gr. I. |
+| oder | km | ia |  |
+| und | ab : bi | bi : ia | n. Anh. 7. V. |
 
-1. Werde gemacht ein nebenstrichichtes Viereck de
-2. Auf den Strich DC, welches
-3. □ de | ⬠ A. n. 45. I.
-4. Auch werde ein nebenstrichichtes Viereck gf
-5. Auf den Strich df
-6. Nach dem Winckel fdg und
-7. □ gf | ⬠ B gemacht n. 44. I.
-8. Werde zu den beyden Strichen cd und dg ein mittelebenmässiger Strich dm oder DM gefunden. n. 13. VI.
-9. Auf diesen Strich dm oder DM werde ein Fünfeck L, welches
-10. ⬠ L ähnlich ⬠ A, gemacht. n. 18. VI.
+Dw. ist ab im i nach der äusersten und mittelsten Verhältnüß getheilet. n. 3. Beschr. VI.
 
-<!-- Catchword: Beweiß. -->
+### Beschluß.
+
+Ist also der Strich ab nach äuserster und mittelsten (secundùm mediam & extremam) Verhältnüß getheilet. W. Z. M.
+
+<!-- Catchword: Andere -->

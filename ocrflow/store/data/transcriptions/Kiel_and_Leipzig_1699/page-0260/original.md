@@ -1,38 +1,25 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 236 -->
+<!-- Page number: 244 -->
+
+tig gegen die Andere / und die Dritte eben so vielfältig gegen die Vierte ist (als nemlich die Erste war gegen die Andere; und man noch nimmt zwo Grössen / deren Erste zu der gegebenen Ersten / und die Andere zu der gegebenen Dritten gleichvielfältig sind: So wird die Erste von denen zwo letzt-genommenen eben so viefältig seyn gegen die Andere (von denen erst gegebenen/) als die Andere von denen Letzt-genommenen ist gegen die Vierte (von denen erst-gegebenen.)
+
+### Gegebene.
+
+[Diagram: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, a, C, B, b, D]
+
+A : a | B : b
+C : A | D : B
+
+### Begehrtes.
+
+C : a | D : b
 
 ### Vorbereitung.
 
-1. A Werde getheilet in c, d, e also/daß c|a. d|a und e|a n. 3. I.
+1. Die Grösse A werde in l, c, d, also getheilet / daß l | a, c | a und d | a werde. n. 3. I.
+2. Deßgleichen werde B in e, f, g, getheilet / daß e | b, f | b und g | b werde. n. 3. I.
+3. Es werde auch C in h, k, m, also getheilet / daß h | A k | A und m | A werde. n. 3. I.
+4. Und D werde in n, p, q, getheilet / daß n | B, p | B q | B werde. n. 3. I.
 
-2. Deßgleichen werde B in f, g, h, also getheilet / daß f|b, g|b, und h|b, n. 3. I.
-
-[Diagram: vier waagerechte Linien: A (getheilet in c, d, e), a, B (getheilet in f, g, h), b]
-
-### I. Beweiß.
-
-|  |  |  |  |  |
-|---|---|---|---|---|
-| | c | a | | |
-| | d | a | | |
-| | e | a | n. 1. Vorb. | α |
-| Dw. | c + d + e | 3a | n. 2. Gr. I. | β |
-| | c + d + e | A | n. 9. Gr. [unclear: q.] I. | γ |
-| [unclear: ε] Dw. | A | 3a | n. 1. Gr. I. | δ |
-| | f | b | | |
-| | g | b | | |
-| | h | b | | α |
-| Dw. | f + g + h | 3b | | β |
-| | f + g + h | B | | γ |
-| [unclear: ζ] Dw. | B | 3b | | δ |
-| [unclear: η] U. | A + B | 3a + 3b | n. 2. Gr. I. | |
-
-### Vorbereitung.
-
-3. A Werden zweymahl/ und
-4. B auch zweymahl genommen.
-5. a werden viermahl/ und
-6. b gleichfals viermahl genommen.
-
-<!-- Catchword: 2 A -->
+<!-- Catchword: I. Be- -->

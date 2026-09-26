@@ -1,36 +1,23 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 360 -->
+<!-- Page number: 374 -->
 
-2. Auch werde zu den Strichen ef und gh und der Dritte ebenmässige Strich q gefunden n. 11. VI. ef : gh | gh : q.
+### Begehrtes.
 
-### I. Beweiß.
+1. Der gerade Strich AB.
+2. Geradstrichichte Gestalt X.
+3. ander nebenstrichichtes Viereck D.
+4. Gestalt X nicht grösser/ als das an den halben Strich angeschlagene Viereck Eg.
+5. Welches dem mangelenden Viereck rs ähnlich ist.
 
-ab : cd | ef : gh n. 2. Geg.
-ab : cd | cd : p n. 1. Vorb.
-Dw. ef : gh | cd : p n. 11. V.
-ef : gh | gh : q n 2. Vorb.
-Dw. cd : p | gh : q n. 11. V.
-ab : cd | fe : gh n. 2. Geg.
-Dw. ab : cd : p | fe : gh : q
-u. ab : p | fe : q n. 22. V.
-ab : p = ab : cd n. 10. Besch. V.
-△ aob : △ cdn = ab : cd n. 19. VI.
-Dw. △ aob : △ cdn | ab : p
-u. △ aob : △ cdn | fe : q n. 11. V.
-fe : q = fe : gh n. 10. Besch. V.
-□ el : □ gi = fe : gh n. 20. VI.
-Dw. □ el : □ gi | fe : q
-γ u. △ aob : △ cde | □ el : □ gi n. 11. V.
+### Begehrte.
 
-### II. Gegebene.
+1. Mangelhafftes □ Ap
+2. □ Ap | △ X.
+3. □ Ap an den Strich AB angeschlagen.
+4. Das mangelende □ pB.
+5. □ pB ähnlich □ D.
 
-1. △ aob : △ cnd | □ el : □ gi
-2. △ aob ähnlich △ cnd
-3. □ el ähnlich □ gi
+[Diagram: oben eine Gestalt X mit Dreieck und Punkt H, daneben ein Viereck D und ein Viereck mit den Punkten A, S, B, g; darunter nochmals die Gestalt X mit den Punkten k, l, q, m, h, daneben Viereck D mit punctirter Diagonale; unten ein Viereck mit den Punkten c, o, g, u, r, q, n, p, A, c, E, s, B, m nebst punctirtem Halbkreis]
 
-### II. Begehrtes.
-
-ab : cd | ef : gh.
-
-<!-- Catchword: II. Beweiß. -->
+<!-- Catchword: Wir- -->

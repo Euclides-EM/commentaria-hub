@@ -1,36 +1,34 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 290 -->
-
-## Der XXIX. Vortrag.
-## Das 29. Beweiß-Stück.
-
-Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte mit der Vierten zu der Vierten : So wird auch zertheiletermassen die Erste zu der Andern eine grössere Verhältnüß / als die Dritte zu der Vierten haben.
+<!-- Page number: 298 -->
 
 ### Gegebene.
 
-[Diagram: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]
+[Diagram: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]
 
-A + a : a ⊣ B + b : b
+A : a ⊣ B : b ⊣ C : c.
 
 ### Begehrtes.
-A : a ⊣ B : b.
+
+a A + B + C : a + b + c ⊣ B + C : b + c
+d A + B + C : a + b + c ⊢ A : a
+n A + B + C : a + b + c ⊣ C : c
 
 ### Beweiß.
-Wenn die Verhältnüß A zu a nicht grösser ist / als B zu b, so
 
 |  |  |  |  |
 |---|---|---|---|
-| sey dann | A : a | \| B : b | n. Ang. |
-| Dw wird | A + a : a | \| B + b : b | n. 28. V. |
-| oder es sey | A : a | ⊢ B : b | n. Angen. |
-| so wird | A + a : a | ⊢ B + b : b | n. 28. V. |
+|  | A : a | ⊣ B : b | n. Gegeb. |
+|  | A : B | ⊣ a : b | n. 27. V. |
+|  | A + B : B | ⊣ a + b : b | n. 28. V. |
+| a | A + B : a + b | ⊣ B : b | n. 33. V. |
+| ß | A : a | ⊣ A + B : a + b | n. 33. V. |
+|  | B : b | ⊣ C : c | n. Geg. |
+| Dw. | B : C | ⊣ b : c | n. 27. V. |
+| u. | B + C : C | ⊣ b + c : c | n. 28. V. |
+| y Dw. | B + C : b + c | ⊣ C : c | n. 27. V. |
+| u. | B : b | ⊣ B + C : b + c | n. 33. V. |
+|  | A + B : a + b | ⊣ B : b | n. Bew. a |
+|  | A : a | ⊣ A + B : a + b | n. Bew. ß |
 
-Beydes ist wider das Gegebene
-
-muß Dw. A : a ⊣ B : b
-
-### Beschluß.
-Wenn derowegen die I. und II. zu der II. eine grössere Verhältnüß / als die III. und IV. zu der IV. haben / so wird auch die I. zu der II. eine grössere Verhältnüß / als die III. zu der IV. haben. W. Z. B.
-
-<!-- Catchword: Der -->
+<!-- Catchword: Dw. -->

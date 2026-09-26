@@ -1,29 +1,42 @@
 <!-- Running title: Das II. Buch -->
 
-<!-- Page number: 102 -->
+<!-- Page number: 104 -->
 
-[Diagram: Senkrechter Strich D B C A links; daran ein Quadrat mit f oben, innen gestrichelte Linien durch c und b, rechts gestrichelt erweitert bis d; unten gestrichelt bis e; Ecken a, c, b, d, e.]
+### Beschluß.
+
+Wird also allezeit das gleichseitige □ des Halben und angesetzten Striches so groß seyn/ als das □, so von dem zusammen gesetzten Strich/ und angesetzten Stück begriffen wird/ samt dem gleichseitigen □ des halben Striches/ W. Z. B.
+
+### Nach der Löse-Kunst.
+
+### Gegebenes. | Begehrtes.
+
+1. c | CD — bb + ca | dd
+2. c | 2b
+3. b | BC | DB
+4. c | AC
+5. b + c | AB | d
+6. a | 2b + c
 
 ### Beweiß.
 
-ac + cb | ab — n. 9. Gr. q. [unclear: I.]
-□ ac + 2 □ acb + □ cb | □ ab — n. 4. II.
-db | cb
-n. 3. Gegeb.
-ac | ac
-□ acdb | □ acb
-n. 1. Gr. II.
-□ ac + 2 □ acb + □ cb + □ acdb | □ ab + □ acb
-n. 2. Gr. I.
-□ acb | □ acb
-□ ac + □ acb + □ cb + □ acdb | □ ab n. 3. Gr. I.
-da | ac + cd
-ac | ac
-□ dac | □ ac + □ acd
-n. 3. II.
-[unclear: od] | cb + db
-ac | ac
-□ acd | □ acb + □ acdb
-n. 1. II.
+b + c | d — n. 5. Gegeb.
+bb + 2bc + cc | dd — n. 4. II.
+a | 2b + c — n. 6. Gegeb.
+c | c
+ca | 2bc + cc — n. 3. II.
+bb + 2bc + cc + ca | dd + 2bc + cc — n. 1. Gr. I.
+2bc + cc | 2bc + cc
+bb + ca | dd — n. 3. Gr. I. W. Z. B.
 
-<!-- Catchword: dac -->
+### Auff die andere Arth.
+
+[Diagram: Waagerechter Strich mit den Punkten A, B, C, D, E.]
+
+### Gegebene. | Begehrte.
+
+c | AC | DE — dd | fc + bb
+b | CB | BD
+c + b | d | AB | BE
+d + b | f | AD
+
+<!-- Catchword: Be- -->

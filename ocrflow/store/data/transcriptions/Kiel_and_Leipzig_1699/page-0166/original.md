@@ -1,33 +1,37 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 148 -->
+<!-- Page number: 150 -->
 
-### II. Begebenheit.
+Oder:
 
-### Vorbereitung.
+ab | ae
+bc | cd — n. Angen. und 15. Besch. I.
+ab + bc | ae + cd — n. 2. Gr. I.
+ae + cd | ae + cd
+Dw. de + ae + cd ⊣ ae + cd — n. 4. Gr. I.
+de + ae + cd | ac — n. 9. Gr. q. I.
+Dw. ac ⊣ ab + bc — n. 1. Gr. c.
+Welches aber unmöglich n. 20. I.
 
-Fället der Strich ba nicht auff c, so falle er auff d.
+Muß also allezeit der gerade Strich / welcher zweene Mittel-Düpffele derer Kreyse/so einander auswendig berühren/ zusammen henget / durch den Anrührungs-Düpffel gehen. W. Z. B.
 
-[Diagram: grosser Kreis mit kleinerem Kreis, der ihn inwendig oben berührt; oben der Punkt c, links d, im kleinen Kreis e und a, unten im grossen Kreis b; Verbindungsstriche]
+## Der XIII. Vortrag.
 
-### Beweiß.
+## Das 12. Beweiß-Stück.
 
-ae | ca — n. 15. Beschr. I.
-ba | ab
-ba + ae | ca + ab — n. 2. Gr. I.
-oder bae | cb — n. 9. Gr. q.
-bad | bc — n. Vorb. und 15. Besch. I.
-Dw. bad | bae — n. 1. Gr. I.
-Welches unmöglich n. 9. Gr. I.
+Kein Kreyß kan einen andern Kreyß in mehr/ als einem Düttel anrühren/ sie mögen gleich von innen oder von aussen einander berühren.
 
-### Beschluß.
+### Gegebene. — Begehrte.
 
-Muß also allezeit der durch beede Mittel-Düpffele cf oder ba, derer einander anrührenden Kreyse gezogene gerade Strich/wen̄ er verlängert wird/auff den Anrührungs-Düttel a oder c stossen. W. Z. B.
+1. Zweene Kreyse/
+2. Welche einander anrühren.
 
-## Der XII. Vortrag.
+Nicht mehr als ein Anrührungs-Düttel.
 
-## Das 11. Beweiß-Stück.
+### I. Begebenheit.
 
-Wann zweene Kreyse einander von aussen anrühren/so wird der gerade Strich/ welcher durch solcher Kreyse Mittel-Düpffele gezogen wird / durch den Anrührungs-Düttel gehen.
+Wann der inwendige Kreyß/ den eussern in c und d anrühret.
 
-<!-- Catchword: Ge- -->
+[Diagram: zwei Kreise, deren innerer den äusseren oben in c und unten in d berührt; im Innern die Punkte a und b, dazwischen ein punktierter Strich von c nach d]
+
+<!-- Catchword: Vor- -->

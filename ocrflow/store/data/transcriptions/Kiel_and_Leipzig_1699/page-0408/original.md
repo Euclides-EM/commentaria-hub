@@ -1,25 +1,56 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Das VI. Buch Euclidis. -->
 
-<!-- Page number: 378 -->
+<!-- Page number: 392 -->
 
-[Diagram: oben eine Gestalt K mit den Punkten i und h nebst punctirten Linien, daneben ein Viereck L; darunter ein grosses Viereck mit den Punkten b, n, d, g oben, B, C, A in der Mitte, f, m, o, q, p unten, nebst punctirtem Kreisbogen]
+### Beschluß.
 
-### Wirckung.
+Verhalten sich derowegen in gleichmässigen Kreisen/ die Winckel also gegen einander/ wie die Bogen / auf welchen dieselben Winckel stehen. Und also verhalten sich auch die Kreißschnitte gegen einander/ nemlich/ wie ihre Mittel-Düpffels-Winckel. W. Z. B.
 
-1. Der gegebene Strich AB werde in zween gleiche Theile in C geschnitten. n. 10. I.
+ENDE
+Des VI. Buchs Euclidis.
 
-2. Auf die Helffte AC werde ein dem Viereck L ähnliches nebenstrichichtes Viereck Ad gesetzet. n. 18. VI.
+---
 
-3. Die Gestalt K werde in ein nebenstrichichtes Viereck hi, welches dem Viereck L gleichwincklicht/ und
+# Druckfehler / welche mit der Feder zu verbessern.
 
-4. Dessen Seite dem Strich Ac gleichmässig. n. 44. I.
+Pag. 21. lin. 20. pro gleichseitig. leg. gleichschencklicht.
 
-5. Dem □ Ad werde das □ dg | □ hi beygefüget.
+24. l. 11. pro AD | AC l. BD | AC
 
-6. Die Vierecke Ad + dg werden in ein dem Viereck L ähnliches nebenstrichichtes Viereck qb verwandelt. n. 25. VI.
+29. l. 17. pro ABC l. BAC
 
-7. Dieses Viereck qb werde an den halben Strich CB also gesetzet/ daß es nicht höher komme/ als der Strich db, so wird ein Ende q unter C fallen. n. 28. VI.
+46. 13. FED FEG
 
-8. Durch q werde der Nebenstrich mp gegen AB gezogen. n. 31. I.
+47. 5. lege FEG ⋀ ICK
 
-<!-- Catchword: 9. Aus -->
+20. pro ⊣ DB lege ⊣ CB
+
+51. 11. lege, ist aber BAC [unclear: ⋀̸] bac
+
+58. 2. lege, entgegen stehenden Winckel gleichgroß.
+
+3. lege, Winckele zweyen rechten Winckeln gleich.
+
+20. pro stehen leg. seyn.
+
+88. l. 16. pro Viereck leg. Seiten.
+
+post l. 16. inseratur : Beschreibungen.
+
+90. l. 16. pro und ah. leg. und eh
+
+96. l. 10. pro □ AB | AC leg. □ AB | □ AC
+
+100. l. 5. pro n. 1. Gr. leg. n. 2. Gr.
+
+105. l. 18. pro | □ abc leg. 2 □ abc
+
+109. l. 23. pro das Viereck leg. das zwiefache Viereck.
+
+24. dem Viereck dem zwiefachen Viereck.
+
+119. l. 6. pro + 2 □ bc leg. + □ bc
+
+13. pro ab □ bd leg. ab + bd
+
+<!-- Catchword: 121. l. -->

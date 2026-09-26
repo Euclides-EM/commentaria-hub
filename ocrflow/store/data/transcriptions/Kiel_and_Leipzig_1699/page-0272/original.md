@@ -1,34 +1,41 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 248 -->
+<!-- Page number: 256 -->
 
-## Der IV. Vortrag.
+## Der IX. Vortrag.
 
-## Das 4. Beweiß-Stück.
+## Das 9. Beweiß-Stück.
 
-Wenn man vier Grössen nimmt / deren die Erste zu der Andern eben solche Verhältnüß hat / als die Dritte zu der Vierten; So werden auch diejenigen (Grössen) welche gleich-vielfältig sind gegen die Ersten und Dritten (Grössen) zu denjenigen Grössen / welche gleich-vielfältig sind gegen die Andern und Vierten (Grössen) nach allerley Vervielfältigung/ gleiche Verhältnüß haben / wenn man sie also / wie sie gegen einander stehen / nimmet.
+Welche Grössen zu einer einigen Grösse gleiche Verhältnüß haben / dieselbigen sind gleich groß; Und zu welchen Grössen eine einige Grösse gleiche Verhältnüß hat / dieselbigen sind gleich groß.
 
-### Gegebene.
+### Gegebene. — Begehrtes.
 
-1. 2a : a | 6a : 3a.
-2. 4a : 2a : | 12a : 6a :
-3. 3a : a | 9a : 3a.
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
-### Begehrtes.
-
-4a : 3a | 12a : 9a.
-
-### Vorbereitung.
-
-Man nehme zu der Ersten und Dritten (Grösse) noch zwo gleich-grosse / und also in gleicher Verhältnüß mit selbigen stehende Grössen.
-
-2a : 2a | 6a : 6a.
+A : a | B : a — A | B.
 
 ### Beweiß.
 
-2a : a | 6a : 3a — n. 1. Geg.
-2a : 2a | 6a : 6a — n. Vorber.
-Dw. 2a + 2a : 2a + a | 6a + 6a : 6a + 3a — n. 1. V.
-oder 4a : 3a | 12a : 9a
+A | 3a
+B | 3a — n. Gegebene.
+Dw. A | B — n. 6. Gr. I.
 
-<!-- Catchword: Beschluß. -->
+Oder also:
+
+Wenn A ⊣ B — so muß
+auch A : a ⊣ B : a — n. 8. V.
+ist aber A ⊢ B — so muß
+A : a ⊢ B : a — n 8. V.
+
+Beedes aber ist wider das Gegebene: müssen derowegen A und B gleichgroß seyn.
+
+### Beweiß des II. Theils.
+
+### Gegebene. — Begehrtes.
+
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
+
+a : A | a : B — A | B
+<!-- Signature: B -->
+
+<!-- Catchword: Beweiß. -->

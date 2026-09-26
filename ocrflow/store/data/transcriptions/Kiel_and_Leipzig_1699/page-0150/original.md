@@ -1,36 +1,30 @@
-<!-- Page number: 132 -->
+<!-- Page number: 134 -->
 
 <!-- Running title: Das III. Buch -->
 
-### Beweiß.
-
-Wenn der Strich nicht inwendig / sondern außwendig solte zu stehen kommen /
-
-[Diagram: Kreis mit Mitteldüpffel a, Sehne hg, Düttel i innen, punktierter Bogen außerhalb mit den Dütteln f und e]
+[Diagram: Kreis mit Düpffeln e (oben), f (unten), b (links), c (rechts), Mittel-Düpffel a und Düttel d, punktierte Striche von b und c nach a]
 
 ### Vorbereitung.
 
-So ziehe man aus dem Mittel-Düpffel a
+Es werden gezogen die beeden Striche ab und ac.
 
-1. Die beeden Striche ah und ag.
-2. Deßgleichen nach dem außwerts fallenden Strich hfg den Strich af.
+### Beweiß des I. Begehrten.
 
-### Verfolg des Beweises.
+ab | ac — n. 15. Beschr. I.
+Dw. abd ⋏ acd — n. 5. I.
+bd | cd — n. 4. Gegeb.
+Dw. adb ⋏ adc — n. 4. I.
+und adb | ∟ — n. 10. Beschr. I.
 
-ah | ag — n. 15. Beschr. I.
-Dw. ahf ⋏ agf — n. 5. I.
-afg ⋏ ahf — n. 16. I.
-Dw. afg ⋏ agf — n. 1. Gr. a I.
-und ag ⊣ af — n. 18. I.
-ag | ae — n. 15. Beschr. I.
-Dw. ae ⊣ af — n. 1. Gr. c. I.
+### Beweiß des II. Begehrten.
 
-Welches aber nicht seyn kan / nach 9. Gr. I.
+ab | ac — n. 15. Beschr. I.
+abd ⋏ acd — n. 5. I.
+adb ⋏ adc — n. 5. Gegeb.
+bd | dc — n. 26. I.
 
-### Auff eine andere Arth
+### Beschluß.
 
-ah | ag — n. 15. Beschreib.
-Dw. ahi ⋏ agi — n. 5. I.
-gia ⋏ iha — n. 16. I.
+Wird also allezeit/ wenn ein Strich von einem Ende des Umbfangs e, durch denn Mittel-Düpffel a, biß zum andern Ende f gehet/ und einen im Kreyß stehenden Strich bc in zween gleiche Theil bd | dc schneidet/ mit dem Strich bc ⊥ machen: oder/ wenn er mit solchem Strich ⊥ machet / denselben auch in zweene gleiche Theile theilen. W. Z. B.
 
-<!-- Catchword: Dw. -->
+<!-- Catchword: Der -->

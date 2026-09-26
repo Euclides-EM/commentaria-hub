@@ -1,36 +1,38 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 228 -->
+<!-- Page number: 236 -->
 
-I. Anhang.
+### Vorbereitung.
 
-Hierauß erhellet / daß die Seiten des Sechseckes eben so
-groß seyn / als der Strahl oder halbe Durchschlag des Kreyses /
-welchem das Sechseck eingeschrieben ist.
+1. A Werde getheilet in c, d, e also/daß c|a. d|a und e|a n. 3. I.
 
-II. Anhang.
+2. Deßgleichen werde B in f, g, h, also getheilet / daß f|b, g|b, und h|b, n. 3. I.
 
-Fast auff gleiche Weise kan ein gleichseitiges Dreyeck einem
-gegebenen Kreyß eingeschrieben werden.
+[Diagram: vier waagerechte Linien: A (getheilet in c, d, e), a, B (getheilet in f, g, h), b]
 
-[Diagram: zwei sich schneidende Kreise; im rechten Kreis ein einbeschriebenes Dreyeck b e d mit Mittelpunkt e und Punkt f als Mittelpunkt des linken Kreises, punktierte Bögen durch o und d]
+### I. Beweiß.
 
-### Wirckung.
+|  |  |  |  |  |
+|---|---|---|---|---|
+| | c | a | | |
+| | d | a | | |
+| | e | a | n. 1. Vorb. | α |
+| Dw. | c + d + e | 3a | n. 2. Gr. I. | β |
+| | c + d + e | A | n. 9. Gr. [unclear: q.] I. | γ |
+| [unclear: ε] Dw. | A | 3a | n. 1. Gr. I. | δ |
+| | f | b | | |
+| | g | b | | |
+| | h | b | | α |
+| Dw. | f + g + h | 3b | | β |
+| | f + g + h | B | | γ |
+| [unclear: ζ] Dw. | B | 3b | | δ |
+| [unclear: η] U. | A + B | 3a + 3b | n. 2. Gr. I. | |
 
-1. Aus f wird ein Kreyß nach der Weite fe dem gegebenen Krey-
-se eingeschrieben / welcher den gegebenen Kreyß in denen Dütteln
-e und o schneidet.
-2. Aus e und o werden nach selbiger Weite zwey Kreyßstücke
-gemacht /welche den Kreyß in d und b schneiden.
-3. Werden die Striche fd und fb gezogen.
-4. Wird der Strich db gezogen.
+### Vorbereitung.
 
-### Beweiß.
+3. A Werden zweymahl/ und
+4. B auch zweymahl genommen.
+5. a werden viermahl/ und
+6. b gleichfals viermahl genommen.
 
-fe ⌒ fo
-ed ⌒ ob — n. 15. IV.
-Dw. — fe + ed ⌒ fo + ob — n. 2. Gr. I.
-u. — fd ⌒ fb — n. 9. Gr. q. I.
-Dw. — fd | fb — n. 29. III.
-
-<!-- Catchword: Dw- -->
+<!-- Catchword: 2 A -->

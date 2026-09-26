@@ -1,30 +1,25 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 221 -->
+<!-- Page number: 229 -->
 
-### Wirckung.
+|  |  |  |  |
+|---|---|---|---|
+| Dw. | fd | bd | n. 15. IV. |
+| | fd | bd | n. 29. III. |
+| und | fdb | Gleichseitiges △ | n. 23. Besch. I. W. Z. M. |
 
-1. Werde in den Kreyß ein gleichseitiges Fünffeck ghikl ein-
-geschrieben/ n. 11. IV.
-2. Aus des Kreyses Mittel-Düpffel a werden zu allen Ecken
-gerade Striche ag, ah, ai, ak, al gezogen.
-3. Auff solche Striche werden zu beeden Seiten Senckstriche
-gb, gc : hc, hd : id, ie : ke, kf : lf, lb gesetzet/ n. 11. I.
+## Der XVI. Vortrag.
 
-[Diagram: Kreis mit einbeschriebenem Fünffeck g h i k l und umschriebenem Fünffeck b c d e f; aus dem Mittelpunkt a gehen Striche zu den Ecken und Berührungspunkten, teils punktiert]
+## Das 16. Werckstück.
 
-### Vorbereitung.
+Dem gegebenen Kreyß ein gleichseitig und gleichwincklicht Funffzehen-Eck einzuschreiben.
 
-Aus dem Mittel-Düpffel a werden zu den Dütteln/ wo die
-Senckstriche einander durchschneiden/ gerade Striche ab, ac, ad,
-ae, af gezogen.
+### Gegebenes. — Begehrte.
 
-### Beweiß.
+Kreyß abfdea. — 1. Funffzehn-Eck dgafe 2. dem Kreyß eingeschrieben.
 
-cga ∧ cha — n. 3. Wirck u 10. Gr. I.
-ag | ah — n. 15. Beschr. I.
-ac | ac
-Dw. — gc | hc — n. 26. I.
+[Diagram: Kreis mit einbeschriebenem Fünfzehneck, darin punktiert ein Dreieck und ein Fünfeck; Punkte a, b, e, f, g, c, d, n, m]
 
-<!-- Signature: Ee 3 -->
-<!-- Catchword: u. -->
+<!-- Signature: Ff 3 -->
+
+<!-- Catchword: Wir- -->

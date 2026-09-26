@@ -1,40 +1,42 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 243 -->
+<!-- Page number: 251 -->
 
-### III. Beweiß.
+### I. Beweiß.
 
-|  |  |  |  |
-|---|---|---|---|
-| | A + C | 5a | n. Bew. α |
-| | 3 | 3 | |
-| | 3A + 3C | 15a | n. Gr. 6. l. I. |
-| | 2a | ⊢ 15a | n. Gr. 9. I. |
-| Dw. | 3A + 3C ⊣ | 2a | n. Gr. 1. c. I. |
-| | B + D | 5b | n. Bew. β |
-| | 3 | 3 | |
-| | 3B + 3D | 15b | n. Gr. 6. l. I. |
-| | 2b | ⊢ 15b | n. Gr. 9. I. |
-| Dw. | 3B + 3D ⊣ | 2a | n. Gr. 1. d. I. |
-| Weil nun 1. | A + C | 5a | n. Bew. α |
-| und | B + D | 5b | n. Bew. β |
-| 2. | A + C ⊢ | 6a | n. Bew. γ |
-| und | B + D ⊢ | 6b | n. Bew. δ |
-| 3. | A + C ⊣ | 2a | n. Bew. ε |
-| und | B + D ⊣ | 2b | n Bew. η |
+Grösse mehr vielfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vielfältig / als gegen die Grössere.
 
-So ist auch A + C : a | B + D : b, n. 6. Beschr. V.
+A | 5a — n. 1. Geg.
+c | 4a — n. 2. Geg.
+Dw. A—c | a — n. 3. Gr. I.
+B | 5b — n. 3. Geg.
+d | 4b — n 4. Geg.
+Dw. B—d | b — n. 3. Gr. I.
 
-### Beschluß.
+### Gegebene. — Begehrtes.
 
-Wenn derohalben die 1. Grösse der 2. gleichvielfältig/ auch die 3. der 4. gleichvielfältig ist. Darnach auch die 5 Grösse zu der 2. so vielfältig ist/als die 6. Grösse zu der 4. So müssen auch die 1. und 5 zusammen genommen/ zu der 2. eben so vielfältig seyn/als die 3. und 6. Grössen zusammen genommen zu der 4. Grösse sind/ W. Z. B.
+I. A ______ — A—c : a | B—d : b
+II. a ___
+III. B ______
+IV. b ___
 
-## Der III. Vortrag.
+[Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet I. A, II. a, III. B, IV. b]
 
-## Das 3. Beweiß-Stück.
+1. A | 5a
+2. c | 3a
+3. B | 5b
+4. d | 3b
 
-Wenn (unter den vier gegebenen Grössen) die Erste vielfäl-
+### II. Beweiß.
 
-<!-- Signature: Hh 2 -->
+A | 5a — n 1. Geg.
+c | 3a — n. 2. Geg.
+Dw. A—c | 2a — n. 3. Gr. I.
+B | 5b — n 3. Geg.
+d | 3b — n. 4. Geg.
+Dw. B—d | 2b — n. 3. Gr. I.
+Und A—c : a | B—d : b — n 7. Beschr. V.
 
-<!-- Catchword: tig -->
+<!-- Signature: Ji 2 -->
+
+<!-- Catchword: Beschluß. -->

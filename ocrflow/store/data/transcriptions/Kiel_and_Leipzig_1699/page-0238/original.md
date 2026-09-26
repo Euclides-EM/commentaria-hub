@@ -1,31 +1,36 @@
 <!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 214 -->
+<!-- Page number: 222 -->
 
-3. Aus dem Mittel-Düpffel a werde zu dem Düpffel f ein gerader Strich af gezogen.
+u. — gca ∧ hca
+u. — cag ∧ cah — n. 4. I.
+α. Dw. — gab ∧ 2gac — n. 9. Gr. q. I.
+Gleicher Weise — gal ∧ 2gab
+gh | gl — n. 1. Wirck.
+Dw — gh ⌒ gl — n. 28. III.
+u. — gab ∧ gal — n. 26. III.
+gac ∧ gab — α. n. 7. Gr. n. I.
+cga ∧ bga — n. 10. Gr. I.
+ga | ga
+Dw. — gca ∧ gba — n. 26. I.
+u. — gc | bg — n. 4. I.
+Gleicher Weise gb | bl | lf | fk | ke | ei | id | dh | hc | cg
+und — gb + gc | bc
+dh + hc | cd — n. 9. Gr. q. I.
+Dw. — bc | cd | de | ef | fb — n. 2. Gr. I.
+Deßgleiche gba ∧ lba ∧ lfa ∧ kfa ∧ kea ∧ iea
+u. — iea ∧ ida ∧ hda ∧ hca ∧ gca ∧ gba
+gba + lba ∧ gal
+lfa + kfa ∧ lak — n. 9. Gr. q. I.
+Dw. gal ∧ lak ∧ kai ∧ iah ∧ hag — n. 2. Gr. I.
+u. — bcdef ein gleichseitig und gleichwincklicht Fünffeck /
+n. 22. Beschr. I.
+Welches ümb den gegebenen Kreyß ghikl beschrieben/
+n. 4. Beschr. I.
 
-4. Nach der Weite af werde ein Kreyß gezogen.
+### Beschluß.
 
-### Vorbereitung.
+Ist also ein gleichseitiges und gleichwincklichtes Fünffeck umb
+den gegebenen Kreyß beschrieben. W. Z. M.
 
-Es werden auch aus dem Mittel-Düpffel die Striche ag, ah, ai gezogen / n. 12. I.
-
-[Diagram: Quadrat b c d e mit einbeschriebenem Kreis um den Mittelpunkt a; die Berührungspunkte f, g, h, i liegen in den Seitenmitten, punktierte Linien verbinden a mit den Ecken und Berührungspunkten]
-
-### Beweiß.
-
-eb | ed — n. 29. Beschr. I.
-eb | 2eg
-ed | 2eh — n. 12. Wirck.
-a. Dw. — eh | eg — n. 7. Gr. n. I.
-ha ⧣ eg
-ga ⧣ eh — n. 31. I.
-Dw. — eh | ga — n. 33. I.
-u. — eg | ga — a. n. 1. Gr. I.
-eg | ha — n. 33. I.
-Dw. — ga | ha — n. 1. Gr. I.
-Gleicher Weise — ia | ha
-u. — ia | fa
-Dw. — a | Mittel-Düpffel des ○ fghi, n. 9. III.
-
-<!-- Catchword: Wel- -->
+<!-- Catchword: Der -->

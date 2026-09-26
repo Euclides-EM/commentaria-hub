@@ -1,32 +1,33 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 105 -->
+<!-- Page number: 107 -->
 
-### Beweiß
+2bc + 2cc | 2ac — n. 6. Gr. i. I.
+aa + cc + 2bc + 2cc | 2ac + bb + 2bc + 2cc — n. 2. Grs. I.
+2bc + 2cc | 2bc + 2cc
+Dw. aa + cc | 2ac + bb — n. 3. Gr. I.
+W. Z. B.
 
-d | d — n. Beweiß.
-b | d − c
-f | d + b
-d | c + b
-c | f
-dd | fc + bb — n. 5. II. W. Z B.
+## Der IIX. Vortrag.
 
-## Der VII. Vortrag.
+## Das 8. Beweiß-Stück.
 
-## Das 7. Beweiß-Stück.
+Weñ ein gerader Strich auff waserley Weise in zwey Stücke geschnitten ist/ so wird das rechtwincklichte Viereck/ so von dem gantzen Strich und dem einen Stück begriffen wird/ viermahl genommen/ samt dem gleichseitigen Viereck des andern Stückes/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem gantzen/ und ersten Stück zusammen gesetzten Strich gemacht wird.
 
-Wenn ein gerader Strich/ auff wasserley weise in zwey Stücke getheilet ist/ so wird das von dem gantzen Strich/ und das von einem Stück begriffene gleichseitige Viereck/ eben so groß seyn/ als das von diesem Stück und dem gantzen Strich begriffene Viereck/ zweymal genommen/ samt dem gleichseitigen Viereck des übrigen Stückes.
+### Gegebene. | Begehrte.
 
-### Gegebene. | Begehrtes.
+1. Gerader Strich ab — □ ad | 4 □ abc + □ ca
+2. Geschnitten in c
+3. Angesetztes Stück. bd | bc
+4. ab + bd | ad
 
-1. Gerader Strich ab. — □ ab + □ cb | □ abc + □ ac
-2. getheilet in c.
+### Vorbereitung.
 
-[Diagram: Links ein Quadrat a c b mit innerer gestrichelter Linie, Punkten e, d, g, c, f, a, h, b; rechts Rechtecke D, E, F mit n oben, darunter H, G mit o, p, m.]
+1. Der Strich ab werde verlänget biß d. daß bd | bc
+2. Auff einen Strich/ so dem Strich ad gleich/ werde ein gleichseitiges □ gesetzet. n. 46. I.
+3. Dieser Strich werde eben so getheilet/ wie der Strich ad. n. 3. I.
+4. Auff ac werde ein gleichseitig □ gesetzet. n. 46. I.
+5. Werden vier □ a b c gemacht.
 
-### Beweiß.
-
-ab | ac + cb — n. 9. Gr. I.
-□ ab | □ ac + 2 □ acb + □ cb — n. 4. II.
-□ cb | □ cb
-<!-- Catchword: D | □ ab -->
+<!-- Signature: O 2 -->
+<!-- Catchword: Beweiß -->

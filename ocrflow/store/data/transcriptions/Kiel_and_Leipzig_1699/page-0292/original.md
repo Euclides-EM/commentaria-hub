@@ -1,39 +1,33 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 268 -->
+<!-- Page number: 276 -->
 
-## Der XVI. Vortrag.
+## Der XXI. Vortrag.
 
-## Das 16. Beweiß-Stück.
+## Das 21. Beweiß-Stück.
 
-Vier Ebenmässige Grössen sind auch wechselweiß genommen Ebenmässig.
+Wenn man drey Grössen hat / und noch andere drey Grössen sind / welche mit den vorigen Grössen in verwirreter Ebenmaß stehen: Auf gleiche Weise aber die Erste grösser ist / als die Dritte/ so wird auch die Vierte grösser seyn/ als die Sechste: Ist aber die Erste mit der Dritten gleichgroß/ so werden auch die Vierte und Sechste gleichgroß seyn: Und wenn die Erste kleiner/ als die Dritte/ so wird auch die Vierte kleiner seyn/ als die Sechste.
 
-### Gegebene. | Begehrtes.
+### I. Gegebene.
 
-A ____________
-B ________ | A : a | B : b
-a ____
-b __
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
-[Diagram: Strecken A, B, a, b]
+A : B ∷ | b : c
+B : C | a : b
+A | ⊦ C
 
-A : B | a : b
-A | 4a
-B | 4b
+### Begehrtes.
+
+a ⊦ c
 
 ### Beweiß.
 
-A | 4a
-B | 4b — n Gegeb.
-Dw. A : B | 4a : 4b — n. Anh. 7. V.
-4a ⁘ a | 4b : b — n. 7. Besch. V.
-4a ⁘ a | A : a — n. 7. V.
-Dw. A ⁘ a | 4b : b — n. 11. V.
-B : b | 4b : b — n. 7. V.
-Dw. A : a | B : b — n. 11. V.
+|  |  |  |
+|---|---|---|
+| b : c | A : B | ⌉ n. Gegeb. |
+| A | ⊦ C | |
+| B | B | |
+| Dw. A : B | ⊦ C : B | n. 8. V. |
+| u. b : c | ⊦ C : B | n. 13. V. |
 
-### Beschluß.
-
-Werden derowegen Ebenmässige Grössen auch wechselweiß genommen Ebenmässig seyn. W. Z. B.
-
-<!-- Catchword: Der -->
+<!-- Catchword: a : b -->

@@ -1,32 +1,39 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 237 -->
+<!-- Page number: 245 -->
 
-[Diagram: vier waagerechte Linien, bezeichnet 2A, 4a, 2B, 4b]
+### I. Beweiß.
 
-### II. Beweiß.
+l | a
+c | a
+d | a — n. 1. Vorb.
+l + c + d | 3a — n. 2. Gr. I.
+l + c + d | A — n. 9. Gr. I.
+δ Dw. A | 3a — n. 1. Gr. I.
+und 3A | 9a — n. 6. Gr. I.
+h | A
+k | A
+m | A — n. 3. Vorb.
+h + k + m | 3A — n. 2. Gr. I.
+h + k + m | C — n. 9. Gr. I.
+δ Dw. C | 3A
+α und C | 9a — n. 1. Gr. I.
+e | b
+f | b
+g | b
+e + f + g | 3b
+e + f + g | B
+B | 3b
+3B | 9b
+n | B
+p | B
+q | B
+n + p + q | 3B
+n + p + q | D
+D | 3B
+3B | 9b
+[unclear: β] D | 9b
 
-|  |  |  |  |  |
-|---|---|---|---|---|
-| | A | 3a | n. Bew. | ι |
-| | A | a | n. 9. Gr. I. | |
-| Dw. | 2A | 4a | n. 4. Gr. I. | |
-| | B | 3b | n. Bew. | θ |
-| | B | b | n. 9. Gr. I. | |
-| Dw. | 2B | 4b | n. 4. Gr. I. | |
-| [unclear: κ] Und. | 2A + 2B | 4a + 4b | n. 4. Gr. [unclear: g.] I. | |
+<!-- Signature: Hh 3 -->
 
-Oder also:
-
-### Vorbereitung.
-
-1. A Werde zweymahl/
-2. deßgleichen B zweymahl/ und
-3. a üm die Helffte.
-4. wie auch b üm die Helffte vergrössert.
-
-[Diagram: vier waagerechte Linien, bezeichnet 2A, 1½a, 2B, 1½b]
-
-<!-- Signature: Gg 3 -->
-
-<!-- Catchword: Beweiß -->
+<!-- Catchword: Vorbe- -->

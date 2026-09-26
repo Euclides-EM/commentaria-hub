@@ -1,37 +1,35 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 271 -->
+<!-- Page number: 279 -->
 
-A—a : a | B—b : b, — n. Gegeb.
-A—a : a | B—d : d, — n. Genom.
-Dw. B—b : b | B—d : d, — n. 11. V.
-u. B : b | B : d — n. 17. V.
-B | B
-Dw. b | d — n. 14. V.
+## Der XXII. Vortrag.
 
-Welches aber auch unmüglich n. 9. Gr. I.
+## Das 22. Beweiß-Stück.
 
-Muß Dw. sich A : a | B : b,
+Es werden Grössen gegeben so viel man wil/ und werden eben so viel darzu genommen/ welche mit denen Ersten in richtiger Ordnung stehen; So werden sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben.
+
+### Gegebene.
+
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
+
+1. A : B : C | a : b : c
+2. A : B | a : b :
+3. B : C | b : c
+
+### Begehrtes.
+
+A : C | a : c
+
+### Beweiß.
+
+|  |  |  |
+|---|---|---|
+| B : C | b : c | n. 3. ⌉ Geg. |
+| A : B | a : b | n. 2. ⌡ |
+| Dw. A : C | a : c | n. 3. V. |
 
 ### Beschluß.
 
-Wenn derowegen zertheilte Grössen Ebenmässig sind/ so werden dieselben auch zusammen gesetzt Ebenmässig seyn. W. Z. B.
+Wenn derowegen zweyerley Ahrt Grössen gegeben werden/ welche in richtiger Ordnung Ebenmässig sind/ so müssen sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
 
-## Der XIX. Vortrag.
-
-## Das 19. Beweiß-Stück.
-
-Wenn eine Gantze Grösse zu einer andern Gantzen Grösse sich also verhält/ wie das von der Ersten abgenommene Stück/ zu dem von der Andern abgenommene Stück: So wird auch das von der Ersten übergebliebene sich zu dem von der Andern übergebliebenen also/ wie das Erste Gantze zu dem Andern Gantzen verhalten.
-
-### Gegebene. | Begehrtes.
-
-A __a__c__ | a : b | A : B.
-B __b__d__
-
-[Diagram: Strecken A (mit Theilen a, c) und B (mit Theilen b, d)]
-
-A : B | c : d.
-A | a + c.
-B | b + d.
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Der -->

@@ -1,11 +1,29 @@
-<!-- Running title: Vorrede. -->
+### Data (Gegebene.)          Quæsita (Begehrte.)
 
-Aufkleisterung oder Anleimung der gehörigen Worte können außgebessert werden/ und deßwegen sind selbige also gedruckt/ daß man sie mit einer Schere außschneiden/ und den Fehler durch Aufleimung damit bedecken kan.
+1. Duo rectilinea triangula
+   ABC & abc                    BC | bc
+2. AB + AC | ab + ac            ABC ⋏ abc
+3. AB      | ab                 BCA ⋏ bca
+4.      AC |      ac            CBA ⋏ cba
+5. BAC ⋏ bac
 
-Die andere Ahrt kan nicht wol anders / als mit der Feder geändert werden.
+### Præparatio I. (Vorbereitung.)
 
-Die Ubrigen werden nicht groß hinderlich seyn/ wenn sie gleich nicht geändert werden.
+Tollatur △ abc, & imponatur △ lo. ABC ita, ut punctum a in punctum A, linea ab in lineam AB incidat.
 
-Und so viel hat man dieses mal zu erinnern vor nohtwendig gehalten. Solte nun dem günstigen Leser diese geringe Arbeit gefallen / so wird man mehr dergleichen/ ob GOtt wil/ an den Tag zu geben gereitzet werden.
+### Demonstratio I. (Beweiß.)
 
-<!-- Catchword: Lecto- -->
+Cadet itaque punctum b aut in punctum B, aut supra illud in punctum d, aut infra in e.
+
+[Diagram: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit Punkt d auf der Seite BA und Punkt e unterhalb]
+
+Si b incidat in d                    vel in e
+erit A d | ab per præparationem      A e | ab n. Vorbereit.
+     AB  | ab  per 3. datum          AB  | ab n. 3. Gegeb.
+Ergo AB  | Ad  per 1. axioma.        AB  | Ae n. 1. Grund-S.
+
+nempe totum erit æquale parti, quod tamen impossibile, per axioma 9. n. 9. Grund-Satz.
+
+Quia igitur punctum b neque supra B, neque infra B cadere potest, necessariò cadet in punctum B.
+
+<!-- Catchword: De- -->

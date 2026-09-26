@@ -1,39 +1,27 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 234 -->
+<!-- Page number: 242 -->
 
-XVI. Verwendete Verhältniß ist/ wenn man die Vorgehenden gegen den Uberschuß/womit die Vorgehenden die Nachgehenden übertroffen / hält.
+[Diagram: sechs waagerechte Linien, bezeichnet A, 6a, C, B, 6b, D]
 
-6a : 4a | 3a : 2a
+### II. Beweiß.
 
-6a : 6a — 4a | 3a : 3a — 2a
+|  |  |  |  |
+|---|---|---|---|
+| | A + C | 5a | n. Bew. α |
+| | 5a | ⊢ 6a | n. 9. Gr. I. |
+| γ Dw. | A + C | ⊢ 6a | n. 4. Gr. I. |
+| | B + D | 5b | n. Bew. β |
+| | 5b | ⊢ 6b | |
+| δ Dw. | B + D | ⊢ 6b. | |
 
-oder 6a : 2a | 3a : a.
+### Vorbereitung.
 
-XVII. Verhältniß aus der Gleichheit (ex æqualitate ratio) ist/ wenn man mehr/als zwo in Verhältniß stehende Grössen hat: und darnach wiederümb eben so viel Grössen / so in gleichmässiger Verhältniß stehen/nimt: so wird in der ersten Ordnung die Erste Grösse sich zu der Letzten eben so/ wie in der andern Ordnung die Erste zu der Letzten verhalten.
+1. Man nehme A + C 3 mahl/
+2. Und B + D auch 3 mahl/
+3. Die Grösse a aber 2 mahl
+4. Und b auch 2 mahl.
 
-Oder:
+[Diagram: sechs waagerechte Linien, bezeichnet 3A, 2a, 3C, 3B, 2b, 3D]
 
-Wenn man die Mittelsten wegwirfft/und die Ersten und Letzten gegen einander hält.
-
-9a : 6a : 4a
-
-18b : 12b : 8b
-
-9a : 4a | 18b : 8b
-
-Oder
-
-16a : 8a : 4a : 2a
-
-24b : 12b : 6b : 3b
-
-16a : 2a | 24b : 3b
-
-XIIX. Ordentliche Ebenmässigkeit ist/ wenn in der ersten Ordnung die Vorgehende zu der Nachgehenden/wie die Vorgehende zu der Nachgehenden in der andern Ordnung sich verhält. Und ferner die Nachgehende in der ersten Ordnung zu etwas Anders/wie die Nachgehende der andern Ordnung zu etwas Anders.
-
-4a : 2a | 2a : (a)
-
-8b : 4b | 4b : (2b.)
-
-<!-- Catchword: XIX. -->
+<!-- Catchword: III. Beweiß. -->

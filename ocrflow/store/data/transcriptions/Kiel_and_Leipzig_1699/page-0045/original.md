@@ -1,39 +1,34 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 27 -->
+<!-- Page number: 29 -->
 
-adb ⋏ abd nach 5. Vortr.
-Drw. cdb ⋏ adb nach 1. Gr.S. d, welches aber unmöglich
-nach 1. Gr.S. c.
+### Wirckung.
 
-Wolte man aber sagen / die beeden andern Striche kämen in den Düttel f zusammen.
+1. Aus dem Düttel A wird ein Kreyß-Stück nach beliebiger grösse gezogen / welches AD | AE von den beeden Winckel-Strichen AB und AC abschneide.
+2. Wird der Strich DE gezogen / nach 1. Foder.
+3. Auff den Strich DE wird ein gleichseitiges △ DEF gesetzt/ nach 1. Vortr.
+4. Aus dem Düttel A wird ein gerader Strich AF zu dem Gipffel des gemachten △ gezogen.
 
-so ist ab | AB nach Gegeb. 2.
-DE | AB nach demselben gegeb.
-Dw. ab | DE nach 1. Gr. S.
-af | DE nach angenomn.
-Dw. af | ab nach 1. Gr. S. so unmöglich/ nach 9. Gr. S.
+[Diagram: Winckel CAB mit Scheitel A, darinn die Düttele E und D, punktierte Striche und der Strich AF zum Gipffel F]
 
-Eben so unmöglich können die beeden Striche in e zusammen kommen.
+### Beweiß.
+
+AD | AE nach 3. Vortrag.
+AF | AF
+AD + AF | AE + AF nach 2. Grund-S.
+DF | EF nach 1. Vortr.
+Dw. DAF ⋏ EAF nach 8. Vortr.
 
 ### Beschluß.
 
-Weil nun kein Düttel / ohne allein der Düttel b zu finden / wo die andern beeden Striche zusammen stossen / so müssen sie nothwendig in dem Düttel/ wo die ersten beeden Striche einander berühret/ zusammen kommen. W. Z. B.
+Und ist also der gegebene Winckel ABC in zween gleiche theile getheilet / W. Z. M.
 
-## Der IIX. Vortrag.
+## Der X. Vortrag.
 
-## Das 5. Beweiß Stück.
+## Das 5. Werckstück.
 
-Weñ in zweyen Drey-Ecken/ die zween Seiten-Striche des ersten △, denen zween Seiten-Strichen des andern Drey-eckes/ jedweder jedwedem gleich sind / die Grund-Striche aber auch gleich lang sind/ so werden auch die zwischen denen beeden gleich-grossen Seiten begriffene Winckel einander gleich
+Einen geraden endlichen Strich in zween gleiche Theile zu theilen.
 
-### Gegebene. | Begehrtes.
+<!-- Signature: D 3 -->
 
-1. Zwey △ △
-2. AB + AC | ED + DF | BAC ⋏ EDF
-3. AB | ED
-4. AC | DF
-5. BC | EF
-
-<!-- Signature: D 2 -->
-
-<!-- Catchword: Be- -->
+<!-- Catchword: Ge- -->

@@ -1,37 +1,40 @@
-<!-- Page number: 334 -->
+<!-- Page number: 342 -->
 
 <!-- Running title: Das VI. Buch -->
 
-2. Von dem ungeendeten Strich hg werde fg ⊤ FG abgeschnitten. n 3. I.
+3. werde DH ⊤ eh
+4. und DF ⊤ ef   n. 3. I.
+5. Gegen EF werde gezogen der Nebenstrich Hd
+6. u. EH Fd   n. 31. I.
+7. Die Nebenstriche AB und dH werden fortgezogen/biß sie in dem Düttel I zusammen kommen.
 
-3. Aus A durch f werde ein gerader Strich Ak nach Nothdurfft gezogen.
-
-4. Desgleichen ein gerader Strich aus G durch g, biß er dem Strich Ak in dem Düttel k aufstosse.
-
-5. Aus diesem Düttel k werden gerade Striche biß auf den getheilten Strich GA gezogen/nemlich kB, kC, kD, kE und kT, welche den ungetheilten Strich fg in b, c, d, e, und t schneiden.
-
-### Beweiß.
+### I. Beweiß.
 
 |  |  |  |
 |---|---|---|
-|  | fb ⊤ AB | n. 1. Wirck. |
-| Dw. | kfd ⋏ kAB | ⟩ n. 29. I. |
-| u. | kbf ⋏ kBA |  |
-|  | fkb ⋏ AkB | n. 8. Gr. I. |
-| Dw. | △ fkb ähnlich △ AkB | n. 1. Besch. VI. |
-| u. | fb : AB ⊤ bc : BC | n. 4. VI. |
-| Dw. | fb : bc ⊤ AB : BC | n. 16. V. |
-|  | bc ⊤ BC | n. 1. Wirck. |
-| Dw. | kbc ⋏ kBC | ⟩ n. 29. I. |
-| u. | kcb ⋏ kCB |  |
-|  | ckb ⋏ CkB | n. 8. Gr. I. |
-| Dw. | △ ckb ähnlich △ CkB | n. 1. Besch. VI. |
-| u. | bc : BC ⊤ cd : CD | n. 4. VI. |
-| Dw. | bc : cd ⊤ BC : CD | n. 16. V. |
+| α. | □ AD : □ EI ⊤ CD : EH | ⟩ n. 1. VI. |
+| β. | □ FH : □ EI ⊤ FE : EB |  |
+|  | □ ad ⊤ □ fh | n. Gegeb. |
+|  | □ AD ⊤ □ FH | n. Vorb. |
+|  | □ EI ⊤ □ EI |  |
+| Dw. | □ AD : □ EI ⊤ □ FH : □ EI | n. 7. V. |
+|  | □ AD : □ EI ⊤ CD : EH | n. Bew. α. |
+| Dw. | □ FH : □ EI ⊤ CD : EH | n. 11. V. |
+|  | □ FH : □ EI ⊤ FE : EB | n. Bew. β. |
+| Dw. | CD : EH ⊤ FE : EB | n. 11. V. |
+| u. | □ AD wechselmässig □ FH | n. 2. Beschr. VI. |
+| oder | □ ad □ fh | n. 1. Vorb. V. |
 
-Gleicher weise kan auch bewiesen werden/
+### II. Gegebene.
 
-Daß de : et ⊤ DE : ET.
-und tg : TG ⊤ et : ET.
+1. □ ad
+2. □ fh
+3. d ⋏ e
+4. ab : eh ⊤ fe : db.
+5. □ ad wechselmässig □ fh.
 
-<!-- Catchword: Des -->
+### II. Begehrtes.
+
+ad ⌻ fh
+
+<!-- Catchword: II. Vor- -->

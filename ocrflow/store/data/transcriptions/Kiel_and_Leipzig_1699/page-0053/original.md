@@ -1,33 +1,39 @@
-<!-- Page number: 35 -->
+<!-- Page number: 37 -->
 
 <!-- Running title: Euclidis. -->
 
-### Beweiß.
-Die Beeden geraden Striche EC und DC werden entweder gerade auff einander stossen/ oder schrad zu sammen lauffen. Wann sie nicht gerade auff einander stossen /
-
 ### Vorbereitung.
-So verlängere man den einen Strich EC gerade aus/ biß in F oder G/ nach 2. Foderung.
 
-### Verfolg des Beweises.
-So werden ECA + ACF |
-oder ECA + ACG ⋀ ⊥ n. Angenom. und n. 13. Vortr.
-ECA + ACD ⋀ ⊥ n. 5. Gegebenem.
-Dw. ECA + ACD ⋀ ECA + ACF) ECA + ACG) n. 1. und 10. Gr-S.
-welches aber unmüglich n. 9. Gr-S.
+Es werden
+1. Die Seite CA gegen G,
+2. - - - BA gegen D verlängert.
+3. - - - CA in zween gleiche Theil bey H bey E, geschnitten
+4. - - - BA - - -
+5. Ein gerader Strich aus B durch E gegen F.
+6. - - - - - - C - - H - - I gezogen.
+8. machet man EF | EB
+9. - - - HI | HC
+10. Zeucht man den geraden Strich AF.
+11. - - - - - - - - AI.
 
-### Beschluß.
-Müssen derowegen die beeden Striche EC und DC gerade auff einander stossen / und von der gegend DC weder auff- noch unterwerts sich lencken. W. Z. B.
+[Diagram: Dreieck mit verlängerten Seiten und punktierten Linien; bezeichnete Punkte D, A oben, E, H in der Mitte, B, C, I unten.]
 
-## Der XV. Vortrag.
+### Beweiß.
 
-## Das 8. Beweiß-Stück.
+EC | EA nach 10. Vortr.
+EB | EF, nach 3. Vortr.
+EC + EB | EA + EF, nach 2. Gr-S.
+BEC ⋀ AEF nach 15. Vortr.
+Drw. BCE ⋀ FAE nach 4. Vortr.
+DAE ⋀ FAE nach 9. Gr-S.
+Drw. DAE ⋀ BCE nach 1. Gr-S. a.
+oder DAC ⋀ BCA.
 
-Wenn zween gerade Striche einander durchschneiden/ so werden sie die gegen einander stehende Gipffel-Winckel einander gleich-groß machen.
+Gleicher gestalt
 
-### Gegebene. Begehrte.
-Die Gipffel-Winckel (anguli ad verticem)
-1. Zween gerade Striche AB und DE. AEC ⋀ DEB.
-2. Welche einander durchschneiden in E. AED ⋀ CEB.
+GAB ⋀ ABC
+GAB ⋀ DAC nach 15. Vortr.
+Drw. DAC ⋀ ABC nach 1. Gr-S. c.
 
-<!-- Signature: E 2 -->
-<!-- Catchword: Be- -->
+<!-- Signature: E 3 -->
+<!-- Catchword: Ist -->

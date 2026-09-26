@@ -1,34 +1,38 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 183 -->
+<!-- Page number: 185 -->
 
-[Diagram: Kreyß mit den Punckten d, a, b, c und e unten; der Strich dc, die Striche db und cb punctirt]
-
-### Vorbereitung.
-1. Werde durch den Mittel-Düpffel der Durchschlag bd,
-2. Wie auch der Strich bc gezogen.
-
-### IV. Beweiß.
-dcb ⋀ ∟   n. 1. Bew.
-dce ⊢ dcb   n. 9. Gr. I.
-Dw. dce ⊢ ∟   n. 1. Gr. b. I.
-
-### V. Begebenheit.
-
-### Gegebene.
-1. Kreyß bhcdb.
-2. Kreyßstück bhc.
-3. ⌓ bhc ⊣ Halbkreyß:
-4. hcb Kreyßstücks-Winckel.
-
-### Begehrtes.
-hcb [unclear: ⊣] ∟
-
-[Diagram: Kreyß mit der Sehne bc oben, darüber der Punckt h; e ausserhalb neben c; unten der Punckt d; der Strich cd punctirt und biß e verlängert]
+[Diagram: Kreis mit einbeschriebenem Dreieck; Punkte g, e, d, f auf dem Kreis, Berührpunkt a unten mit Tangente b–c]
 
 ### Vorbereitung.
-1. Werde durch den Mittel Düpffel der Durchschlag bd,
-2. Wie auch der Strich cd gezogen/
-3. Und biß zu e verlängert.
 
-<!-- Catchword: V. Be- -->
+1. Aus dem Rühr-Düpffel a des Rühr-Striches bc werde ein Senckstrich ag in den Kreyß dge auffgerichtet.
+2. Werde der Strich eg, und
+3. Die Striche ed und ab,
+4. Wie auch ef und fa gezogen.
+
+### I. Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+|  | gea ⋀ ∟ |  | n. 31. III. |
+|  | ega + eag ⋀ ∟ |  | n. 32. I. |
+|  | eag ⋀ | eag |  |
+| Dw. | ega ⋀ | ∟ — eag | n. 3. Gr. I. |
+|  | bae + eag ⋀ ∟ |  | n. 10. Gr. q. I. |
+|  | eag ⋀ | eag |  |
+| Dw. | bae ⋀ | ∟ — eag | n 3. Gr. I. |
+| und | bae ⋀ | ega | n. 1. Gr. I. |
+|  | eda ⋀ | ega | n. 21. III. |
+| Dw. | bae ⋀ | eda | n. 1. Gr. I. |
+
+### II. Beweiß.
+
+|  |  |  |
+|---|---|---|
+| eda + efa | ⋀ ⏥ | n. 22. III. |
+| bae + eac | ⋀ ⏥ | n. 13. I. |
+
+<!-- Signature: Aa -->
+
+<!-- Catchword: Dw. -->

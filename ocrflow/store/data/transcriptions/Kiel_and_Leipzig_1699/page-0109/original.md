@@ -1,38 +1,43 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 91 -->
+<!-- Page number: 93 -->
 
-Auff gleiche weise wird auch bewiesen /
-daß □ np | □ gb
-□ lr | □ fe
-□ it + □ lr + □ np | □ cd + □ fe + □ gb n. 2. Gr-S. I.
-□ cab | □ cd + □ fe + □ gb n. 9 Gr-S. q
-Dw. □ cab | □ it + □ lr + □ np n. 1. Gr-S. I.
+AD | ad | n. 2. I.
+Dw. ad | AB | n. 1. Gr-S. I.
+α. ab | AB | n. 2 I.
+Dw. ab | ad | n. 1. Gr. I.
+ab | ab
+□ ab | □ bad | n. 1. Gr. II.
+□ oni + □ mlg | □ bad | n. 1. II.
+Dw. □ ab | □ oni + □ mlg | n. 1. Gr. I.
+ab | AB | n. Bew. α.
+Dw. □ ab | □ AB | n. 1. Gr. t. II.
+und □ AB | □ oni + □ mlg
+und □ AB | □ CAB + □ CBA | n. 1. Gr. I.
 
 ### Beschluß.
 
-Sind also allezeit diejenigen rechtwincklichten Vierecke/ welche der unzertheilte Strich mit denen Stücken des getheilten Striches begreiffet / eben so groß/ als das Viereck/ so die beeden gantzen Striche begreiffen. W. Z. B.
+Wird also allezeit das □ von dem gantzen Strich AB so groß seyn/ als die beeden □ □ so von den gantzen AB, und den beeden Stücken CA und CB begriffen werden. W. Z. B.
 
-### Nach der Löß-Kunst.
+### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrtes.
-1. Strich a | ae | be + ce + de
-2. Getheilet b + c + d
-3. a | b + c + d
-4. ungetheilter Strich e.
+### Gegebene. | Begehrte.
+1. a. | aa | ab + ac
+2. b + c
+3. a | b + c
 
 ### Beweiß.
 
-a | b + c + d nach 3. Gegeb.
-e | e
-ae | be + ce + de nach 1. Gr-S. II. W. Z. B.
+a | b + c | n. 3. Gegeb.
+a | a
+aa | ab + ac | n. 1. II. W. Z. B.
 
-## Der II. Vortrag.
+## Der III. Vortrag.
 
-## Das 2. BeweißStück.
+## Das 3. Beweiß-Stück.
 
-Wenn man einen geraden Strich/ auff waserley weise/ in zween Theile zerschneidet : So werden die beeden rechtwincklichten Vierecke/ welche der gantze Strich / und die beeden Striche begreiffen/ eben so groß seyn/ als das gleichseitige Viereck des gantzen Striches.
+Wenn man einen geraden Strich/ auff waserley weiß / in zwey Stücke schneidet/ so wird das
 
-<!-- Signature: M 2 -->
+<!-- Signature: M 3 -->
 
-<!-- Catchword: Ge- -->
+<!-- Catchword: Vier- -->

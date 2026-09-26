@@ -1,35 +1,30 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 232 -->
+<!-- Page number: 240 -->
 
-VII. Diejenigen Grössen/ welche in gleicher Verhältniß gegen einander stehen/ werden Ebenmässige (proportionales) genennet.
+## Der II. Vortrag.
 
-IIX. Wenn aber unter etlichen vervielfältigten Grössen der Ersten Grösse ihre Vervielfältigung die Vervielfältigung der andern Grösse übertrifft: die Vervielfältigung aber der Dritten Grösse die Vervielfältigung der Vierdten Grösse nicht übertrifft: alsdenn wird die Erste zu der Andern eine grössere Verhältniß haben/ als die Dritte zu der Vierten.
+## Das 2. Beweißstück.
 
-6a : 4a ⊣ 3a : 6a
+Wenn die Erste Grösse der Andern / und die Dritte der Vierten gleichmäßig vielfältig sind; darnach auch die Fünffte der Andern und die Sechste der Vierten gleichmäßig vielfältig sind: so werden auch die Erste und Fünffte zusammen genommen der Andern eben so vielfältig seyn / als die Dritte und Sechste zusammen genommen der Vierten sind.
 
-IX. Ebenmässigkeit (proportio) erfodert wenigstens drey Grössen.
+### Gegebene. — Begehrtes.
 
-8a : 4a : 2a
+[Diagram: sechs waagerechte Linien, bezeichnet A (getheilet in c, d), a, C (getheilet in e, f, g), B (getheilet in h, k), b, D (getheilet in l, m, n); daneben die Ziffern I. II. V. III. IV. VI.]
 
-8a : 4a | 4a : 2a
+II. A : a | B : b — V. C : a | D : b
 
-X. Wenn drey Grössen ebenmässig (proportionales) sind/so hat die Erste eine zwiefach grössere Verhältniß zu der Dritten/ als zu der andern.
+A + C : a | B + D : b
 
-8a : 4a : 2a
+### Vorbereitung.
 
-8a : 2a = | 8a : 4a
+1. Es werde A getheilet in c, d, also daß
+2. c|a und d|a n. 3. I.
+3. Auch werde B getheilet in h, k, also daß
+4. h|b und k|b n. 3. I.
+5. Deßgleichen C in e, f, g, also daß
+6. e|a, f|a und g|a n. 3. I.
+7. Und D in l, m, n, also daß
+8. l|b, m|b und n|b n. 3. I.
 
-Als das Viereck zur Wurtzel 4 | 2.
-
-Aber wenn vier Grössen in ordentlicher Ebenmaß stehen / so wird die Erste zu der Vierten eine dreyfach grössere Verhältniß haben/als zu der andern
-
-16a : 8a : 4a : 2a
-
-16a : 2a = | 16a : 8a
-
-Als der Würffel zur Wurtzel 8 | 2
-
-Und so offt die Anzahl der Grössen ümb eines zunimmt/so offtmals wird auch die Verhältniß der Ersten Grösse zu der letzten ümb eine Stuffe gegen die Verhältniß der Ersten zu der Andern erhöhet.
-
-<!-- Catchword: XI. Ver- -->
+<!-- Catchword: Beweiß -->

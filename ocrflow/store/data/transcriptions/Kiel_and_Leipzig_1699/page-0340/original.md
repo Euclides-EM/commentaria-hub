@@ -1,36 +1,34 @@
-<!-- Page number: 316 -->
+<!-- Page number: 324 -->
 
 <!-- Running title: Das VI. Buch -->
 
-Dw. eb : ba | cb : ba — n. 7. V.
-eb : ba | cd : da — n. 2. VI.
-Dw. cd : da | cb : ba — n. 11. V.
-
-## Des III. Vortrags II. Gegebene.
-
-1. Dreyeck abc.
-2. Strich bd
-3. Grundstrich ac
-4. getheilet in ad und dc
-5. also/ daß cd : ad | cb : ba.
-
-Die Vorbereitung ist eben so/ wie zuvor.
-
 ### Beweiß.
 
-bd ⧣ ec — n. Vorber.
-∝ Dw. abd ⋏ bec
-β u. dbc ⋏ bce — n. 29. I.
-u. eb : ba | cd : da — n. 2. VI.
-cb : ba | cd : da — n. Gegeb.
-Dw. cb : ba | eb : ba — n. 11. V.
-u. cb | eb — n. 9. V.
-Dw. bec ⋏ bce — n. 5. I. ∝.
-u. abd ⋏ bce
-Dw. abd ⋏ dbc — n. 1. Gr. I. β.
+deg ⋏ bac
+gde ⋏ abc   n. Vorber.
+α Dw. | egd ⋏ acb | n. 26. I.
+u. | ba : ac | de : eg | n. 4. VI.
+| ba : ac | de : ef | n. 3. Geg.
+Dw. | de : ef | de : eg | n. 11. V.
+β u. | ef | eg | n. 9. V.
+
+| deg ⋏ bac | n. Vorber.
+| def ⋏ bac | n. Geg.
+Dw. | deg ⋏ def | n. 1. Gr. I.
+| ef | eg | n. Bew. β.
+| de | de |
+Dw. | ef + de | eg + de | n. 2. Gr. I.
+u. | egd ⋏ efd |
+γ u. | gde ⋏ edf | n. 4. I.
+| egd ⋏ acb | n. Bew. α
+Dw. | acb ⋏ efd | n. 1. Gr. I.
+| gde ⋏ abc | n. Vorber.
+| gde ⋏ edf | n. Bew. γ
+Dw. | abc ⋏ edf | n. 1. Gr. I.
+u. | △ abc gleichwincklicht △ edf | n. 1. Beschr. VI.
 
 ### Beschluß.
 
-Wenn derowegen ein Strich den Winckel eines Dreyeckes in zween gleiche Theile schneidet/ und auch den Grundstrich theilet/ so stehen die Stücke des Grundstriches mit denen Seiten des Dreyeckes in ebenmässiger Verhältnüß.
+Wenn derowegen in zweyen Dreyecken zweene gleichmässige Winckel befindlich / und des einen Winckels Seiten mit den beyden Seiten des andern Winckels ebenmässig sind / so werden solche Dreyecke auch im übrigen gleichmässige Winckel / welche ebenmässigen Seiten gegen überstehen / haben / und durchaus gleichwincklicht seyn. W. Z. B.
 
-<!-- Catchword: Und -->
+<!-- Catchword: Der -->

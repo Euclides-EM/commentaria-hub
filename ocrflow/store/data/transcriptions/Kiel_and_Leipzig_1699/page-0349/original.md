@@ -1,28 +1,33 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 325 -->
+<!-- Page number: 333 -->
 
-## Der VII. Vortrag.
+Dw. | bc : cd | bi : ih | n. Anh. 7. V.
+| bc : cd | BC : CD | n. 7. V.
+Dw. | BC : CD | bi : ih | n. 11. V.
+| ef : fg | bi : ih | n. Anh. 7. V.
+Dw. | BC : CD | ef : fg | n. 11. V.
 
-## Das 7. Beweiß-Stück.
+## Des X. Vortrags II. Ahrt.
 
-Wenn zwey Dreyecke sind / da des einen Winckel einem des andern Dreyeckes Winckel gleichmässig ist / die übrigen Winckel aber von ebenmässigen Seiten begriffen werden; Solcher beeden Winckel auch jeder entweder kleiner / oder nicht kleiner / als ein rechter Winckel ist : So werden solcher Dreyecke Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / die Dreyecke auch selbst gleichwincklicht seyn.
+### Gegebene.
 
-### I. Gegebene.
+1. Ungetheilter Strich FG.
+2. Getheilter Strich AG.
 
-1. Zwey Dreyecke abc, def.
-2. bac ⋏ edf
-3. cba ⋏̸ [unclear: ∟]
-4. def ⋏̸ [unclear: ∟]
-5. ac : cb | df : fe.
+### Begehrtes.
 
-### Begehrte.
+Der Strich FG getheilet in b, c, d, e. und t also
+daß | fb : bc | AB : BC.
+| bc : cd | BC : CD
+| de : et | DE : ET
+| tg : TG | et : ET. &c.
 
-abc ⋏ def
-acb ⋏ dfe
-△ abc gleichwincklicht △ def.
+[Diagram: von einem Punkt k oben laufen punktierte Linien zu der getheilten Linie G T E D C B A; dazwischen die parallele Linie g t e d c b f h; darunter die Striche F G und G A]
 
-[Diagram: zwei Dreiecke, links def, rechts abc mit punktierter Linie von g nach c]
+### Wirckung.
 
-<!-- Signature: Ss 3 -->
-<!-- Catchword: Vorbe- -->
+1. Gegen den getheilten Strich AG werde ein Nebenstrich hg nach Nothdurfft gezogen. n. 31. I.
+
+<!-- Signature: Tt 3 -->
+<!-- Catchword: 2. Von -->

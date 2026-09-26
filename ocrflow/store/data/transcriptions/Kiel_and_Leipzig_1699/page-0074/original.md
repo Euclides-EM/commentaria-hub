@@ -1,37 +1,32 @@
-<!-- Running title: Das I Buch -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 56 -->
+<!-- Page number: 58 -->
 
-### 1. Beweiß.
+nommene; Wie auch den auswendigen dem inwendig entgegen stehenden ; Und die beeden inwendig auff einer Seiten befindliche Winckele gleich groß.
 
-AGH ⋏ EGB           n. 15. Vortr.
-GHD ⋏ EGB           n. 3. Gegeb.
-Dw. GHD ⋏ AGH       n. 1. Gr-S.
-und   AB ╪ CD       n. 27. Vortr. W. Z. B.
+### Gegebene.                    Begehrte.
+1. AB = CD                   1. AGH ⋏ GHD
+2. Einfallender Strich EF    2. BGH ⋏ GHC
+                             3. EGB ⋏ GHD
+                             4. BGH + GHD ⋏ ⏥
 
-### 2. Beweiß.
+[Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
 
-AGH + GHC ⋏ ⏥                     n. 6. Gegeb.
-DHG + GHC ⋏ ⏥                     n. 13. Vortr.
-Dw. DHG + GHC ⋏ AGH + GHC         n.1. und 10. Gr-S.
-          GHC ⋏       GHC
-Dw. DHG        ⋏ AGH              n.3. Gr-S.
-und        AB ╪ CD                n. 27. Vortr.
+### Beweiß des 1. und 2.
 
-### Beschluß.
+Entweder ist  AGH ⊼ GHD
+        oder  AGH ⊼ GHD
+        oder  AGH ⋏ GHD
 
-Werden also allezeit diejenigen Striche/ bey welchen der einfallende Strich die aus-und inwendigen Winckel gleich groß/ die beeden inwendigen Winckel aber zweyen ⏥ gleich machet/ gerade Nebenstriche seyn. W. Z. B.
+Wenn AGH           ⊼ GHD nach Angenommenem
+              BGH ⋏           BGH
+Dw.   AGH + BGH ⊼ GHD + BGH   n. 4. Gr-S.
+      AGH + BGH ⋏ ⏥            n. 13. Vortr.
+Dw.   GHD + BGH ⊼ ⏥            n.1. Gr-S. c.
 
-Vorsatz (Lemma)
-
-Wenn ein auff zween gerade Striche einfallender Strich/ auff der einen Seite zweene Winckel/welche kleiner/als zween rechte Winckel sind/ machet/so werden gedachte beede Striche nach nothturfft verlänget auff selbiger Seite / wo die zween Winckel kleiner/ als zween rechte Winckel sind / zusammen stossen.
-
-### Gegebene.                              Begehrtes.
-1. Zween gerade Striche AB und CD,     1. Zusammenkunfft der beyden Striche AB und CD,
-2. Der gerade
-3. Einfallende Strich IK.
-4. Zween auff einer Seite stehende     2. Und zwar auff der Seite gegen B und D in G.
-        Winckel.
-5. BEF + DFE ⊼ ⏥
+und werden AB und CD in der gegend B zusammen kommen nach dem Vorsatz (per Lemma) weßwegen sie keine neben-Striche stehen können nach 34. Beschr. welches aber wieder 1. Gegeb.
+Gleiche Bewandniß hat es/ wenn man sagen wolte/es were
+        AGH ⊼ GHD :
+α. muß also nohtwendig   AGH ⋏ GHD.
 
 <!-- Catchword: Be- -->

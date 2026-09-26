@@ -1,23 +1,7 @@
-[Handwritten]
-Kx→
-[/Handwritten]
+[Ornament: Putten bei geometrischen Arbeiten mit Winkelmaß, Zirkel und Zeichengerät]
 
-Samuel Reyhers/ JCti,
+# Vorrede an den geneigten Leser.
 
-Bey der Hoch-Fürstl. Holst. Universität Codic. und Mathematum Prof.
+ES haben unterschiedliche Mathematici die sechs ersten Bücher Euclidis in Teutscher Sprache heraus gegeben/ daß man vermeynen möchte/ ich hätte dieser Arbeit wol überhoben seyn können. Weil ich aber fast 40. Jahre mit diesen Büchern ümgangen/ und/ indem ich andere darinne unterwiesen/ befunden habe/ daß die Außleger die Beweis-Art darum nicht deutlich genug vorstellen können/ weil die Grundsätze (axiomata) mehrentheils un-
 
-In Teutscher Sprache vorgestellter
-
-EUCLIDES,
-
-Dessen VI. erste Bücher
-
-auf sonderbahre und sehr leichte Art/
-
-Mit Algebraischen/ oder aus der neuesten Löse-Kunst entlehneten Zeichen/ also daß man deroselben Beweiß auch in andern Sprachen gebrauchen kan/ eingerichtet/
-
-auch des II. Buchs Vorträge nebst der gemeinen/ auff Algebraische Ahrt bewiesen sind.
-
-Kiel/
-
-Druckts Joachim Reumann/ Academischer Buchdrucker/ bey Johann Sebastian Riechelm / Academischen Buchführer daselbst/ und in Leipzig zubekommen/ Im Jahr 1699.
+<!-- Catchword: ge- -->

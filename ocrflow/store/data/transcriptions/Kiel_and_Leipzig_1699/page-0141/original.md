@@ -1,41 +1,36 @@
-<!-- Running title: Euclidis -->
+<!-- Page number: 125 -->
 
-<!-- Page number: 123 -->
+<!-- Running title: Euclidis. -->
 
-c | cb
-d | bd
-f | cd
-e | ad
+[Diagram: links ein schiefes Viereck a b d c; rechts ein Rechteck a g f e mit Punkt k, daneben ein Quadrat mit punktiertem Halbkreis über der Grundlinie a e i h]
 
 ### Beweiß.
 
-2be + dd | bb + ee | n. 7. II.
-ff | ff
-2be + dd + ff | bb + ee + ff | n. 2. Gr. I.
-ee + ff | aa n. 47. I.
-2be + dd + ff + (ee + ff) | bb (+ ee + ff) + aa | n. 2. Gr. I.
-2be + dd + ff | bb + aa | n. 3. Gr. I.
-cc | dd + ff n. 47. I.
-2be (+ dd + ff) + cc | bb + aa (+ dd + ff) | n. 2. Gr. I.
-2be + cc | bb + aa
-2be | 2be
-cc | bb + aa + — 2be | n. 3. Gr. I.
+œ. ▭ ad | ▭ aef — n. 1. Wirck.
+□ ai | ▭ aeh ✠ □ ie — n. 7. II.
+ik | ai — n. 15. Bes. I.
+□ ik | □ ai — n. 1. Gr. t. II.
+(□ ai) ✠ □ ik | ▭ aeh ✠ □ ie (✠ □ ai) — n 2. Gr. I.
+□ ik | ▭ aeh ✠ □ ie — n. 3. Gr. I.
+□ ik | □ ek ✠ □ ie — n 47. I.
+Dw. □ ek (✠ □ ie | ▭ aeh (✠ □ ie) — n. 1. Gr. I.
+a. □ ek | ▭ aeh oder ▭ aef — n. 3. Gr. I.
+Dw. □ ek | ▭ abdc — n. 1. Gr. I.
 
-W. Z. B.
+### Beschluß.
 
-### Andere Arth.
+Ist also die Gestalt abdc in das gleichseitige □ ek verwandelt. W. Z. M.
 
-aa | ff + bb — 2bd + dd | n. 47. I.
-ff + dd | cc
-aa (+ ff + dd) | (ff) + bb — 2bd (+ dd) + cc | n. 2. Gr. I.
-aa | bb — 2bd + cc | n. 3. Gr. I.
+### Nach der Löse-Kunst.
 
-W. Z. B.
+### Gegebene. — Begehrte.
 
-### Anmerckung.
+a | ih | ik — ee | cd
+c | eh | ef
+b | ei
+d | ae
+e | ek
 
-Dieser Beweiß findet auch auff gewisse Maaß statt bey den recht-und stumpffwincklichten △ △ / wenn man das □ einer Seite/ so einem spitzigen Winckel übergespannet ist / vergleichen wil mit den übrigen beeden Seiten / deren eine dem rechten oder stumpffen Winckel / die andere aber dem übrigen spitzigen Winckel gegenüber stehet.
+<!-- Signature: Q 3 -->
 
-<!-- Signature: Q 2 -->
-
-<!-- Catchword: Der -->
+<!-- Catchword: Be- -->

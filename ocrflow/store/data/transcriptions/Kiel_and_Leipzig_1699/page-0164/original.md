@@ -1,33 +1,33 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 146 -->
+<!-- Page number: 148 -->
 
-2. Werden gezogen die geraden Striche fc und cd.
-3. Durch die Mittel dieser beyden Striche werden gerade Senckstriche gezogen / bg und ek.
+### II. Begebenheit.
 
-[Diagram: zwei einander schneidende Kreise; darauf die Punkte i und k oben, d und h, l, b, a, g, m in der Mitte, c und f unten, e zuunterst; punktierte Verbindungsstriche durch a]
+### Vorbereitung.
 
-### I. Beweiß.
+Fället der Strich ba nicht auff c, so falle er auff d.
 
-bg schneidet den Strich dc in zween gleiche Theil e, und zwar nach rechten Winckeln.
-Desgleichen theilet auch ei den Strich cf n. 3. Vorber.
-Dw. wird beeder Kreyse Mittel-Düpffel in a seyn n. 1. Zugab. III.
-Welches aber unmöglich n. 5. III.
+[Diagram: grosser Kreis mit kleinerem Kreis, der ihn inwendig oben berührt; oben der Punkt c, links d, im kleinen Kreis e und a, unten im grossen Kreis b; Verbindungsstriche]
 
-### II. Beweiß.
+### Beweiß.
 
-ad | ac | af — n. 15. Beschr. I.
-Dw. ist a der Mittel-Dupffel beeder Kreyse n. 9. III.
-Welches aber unmöglich nach 5. III.
+ae | ca — n. 15. Beschr. I.
+ba | ab
+ba + ae | ca + ab — n. 2. Gr. I.
+oder bae | cb — n. 9. Gr. q.
+bad | bc — n. Vorb. und 15. Besch. I.
+Dw. bad | bae — n. 1. Gr. I.
+Welches unmöglich n. 9. Gr. I.
 
 ### Beschluß.
 
-Kan also kein Kreyß einen andern Kreyß in drey oder mehr Dütteln durchschneiden. W. Z. B.
+Muß also allezeit der durch beede Mittel-Düpffele cf oder ba, derer einander anrührenden Kreyse gezogene gerade Strich/wen̄ er verlängert wird/auff den Anrührungs-Düttel a oder c stossen. W. Z. B.
 
-## Der XI. Vortrag.
+## Der XII. Vortrag.
 
-## Das 10. Beweiß-Stück.
+## Das 11. Beweiß-Stück.
 
-Wenn zween Kreyse einander inwendig berühren/so wird der gerade Strich/ welcher durch beeder Kreyse Mittel-Düpffele gezogen wird / auff den Anrührungs-Düttel stossen.
+Wann zweene Kreyse einander von aussen anrühren/so wird der gerade Strich/ welcher durch solcher Kreyse Mittel-Düpffele gezogen wird / durch den Anrührungs-Düttel gehen.
 
 <!-- Catchword: Ge- -->

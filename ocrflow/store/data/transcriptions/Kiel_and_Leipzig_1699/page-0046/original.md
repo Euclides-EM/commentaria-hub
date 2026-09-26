@@ -1,34 +1,32 @@
-<!-- Running title: Das I Buch -->
+<!-- Running title: Das I. Buch. -->
 
-<!-- Page number: 28 -->
+<!-- Page number: 30 -->
 
-[Diagram: zwey Dreyecke ABC und DEF nebeneinander]
+### Gegebenes. | Begehrtes.
+
+Der gerade endliche Strich/ AB. | Des Striches zween gleich Theile AC | CB.
+
+### Wirckung.
+
+1. Auff den gegebenen Strich AB wird ein gleichseitiges oder gleichschenckliches △ gemacht/ nach 1. Vortr.
+2. Dieses △es Winckel D wird in zween gleiche theile getheilet/ nach 9. Vortr.
+
+[Diagram: Strich AB mit punktiertem Dreyeck über D und Theilungspunkt C, darunter der Punkt E und ein Strich mit mehreren punktierten senkrechten Theilungslinien und Kreuzlein]
 
 ### Beweiß.
 
-Auff den Grund-Strich BC setze man die zween Striche ED und FD, auff dieselbe Seite / an welcher die Striche AB und AC stehen/ so werden sie zusammen kommen in dem Düttel A, nach 7. Vortr. und werden sich alßdann die beeden Winckel BAC und EDF zusammen schicken/und auch ein ander gleich seyn/nach 8. Grund-Satz. W. Z. B.
+AD | BD nach 1. Vortr.
+DC | DC
+AD + DC | BD + DC nach 2. Gr. S.
+ADC ⋏ BDC nach 2. Wirckung.
+Dw. AC | CB nach 4. Vortr.
 
-I. Zugabe.
+### Beschluß.
 
-Weil in den beeden Dreyecken
-Die Seiten-Striche AB + AC | DE + DF
-und die Grund-Striche BC | EF wären
-Darnach BAC ⋏ EDF bewiesen/
-so folget daß
+Und ist also der gegebene Strich AB in zween gleiche Theile getheilet / W. Z. M.
 
-ABC ⋏ DEF
-BCA ⋏ EFD
-und ABC ⏉ DEF } alles nach 4. Vortr. W. Z. B.
+2. Zugabe
 
-## Der IX. Vortrag.
-
-## Das 4. Werck-Stück.
-
-Einen gegebenen gerad-strichichen Winckel in zweene gleiche Theile zu theilen.
-
-### Gegebenes | Begehrtes
-
-Gerad-strichicher Winckel | 1. theilung des ⋀ BAC.
-⋀ BAC. | 2. BAF ⋏ CAF.
+Einen gegebenen Strich in 4/ 8/ 16 und so ferner / gleiche Theile zu theilen.
 
 <!-- Catchword: Wir- -->

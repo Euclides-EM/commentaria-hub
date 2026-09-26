@@ -1,37 +1,34 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 153 -->
+<!-- Page number: 155 -->
 
-### Vorbereitung.
-
-So ziehe man 1. aus dem Anrührungs-Düttel b einen geraden Strich/durch die beeden Mittel-Düpffele o und d, zu dem eussersten Kreyß.
-2. Es werden zu dem andern Anrührungs-Düttel aus dem Mittel-Düpffel o, wie auch
-3. aus d gerade Striche oa und da gezogen.
+[Diagram: Kreis mit Mittel-Düpffel a, oben die Sehne cb mit Punkt g, unten die Sehne de mit Punkt f, punktierte Linien von a nach b und e]
 
 ### Beweiß.
 
-do + oa ⊣ da — n. 20. I.
-ob | oa — n. 15. Besch. I.
-do + oa + ob ⊣ da + oa — n. 3. Gr. S. I.
-oa | oa
-do + ob ⊣ da — n. 5. Gr. I.
-Oder db ⊣ da — n. 9. Gr. q. I.
-Welches unmüglich nach 15. Beschr. I.
+cb | de — n. 4. Geg.
+cg | gb
+df | fe — n. 2. Vorher.
+Dw. gb | fe — n. 7. Gr. n. I.
+ab | ae — n. 15. Beschr. I.
+bga ∠ ∟
+afe ∠ ∟ — n. 3. Vorb. n. 10. Besch. I.
+Dw. □ ab | □ ae
+und □ bg | □ ef — n. 1. Gr. t. II.
+Dw. □ ab — □ bg | □ ae — □ ef — n. 3. Gr. I.
+□ ab — □ bg | □ ag — n. 47. I.
+Dw. □ ae — □ ef | □ ag — n. 1. Gr. I.
+□ ae — □ ef | □ af — n. 47. I.
+Dw. □ ag | □ af — n. 1. Gr. I.
+und ag gleich af — n. 2. Gr. u. II.
 
-### V. Begebenheit.
+Dw. sind bc und de gleichweit von dem Mittel-Düpffel entfernet. n. 4. Beschr. III.
 
-Wenn zween Kreyse einander auswendig bey s/und t anrühren.
+Anderer Theil dieses Vortrags.
 
-### Vorbereitung.
+### Gegebene. Begehrtes.
 
-Es werde von einem Anrührungs-Düttel s zu dem andern t der gerade Strich st gezogen.
+1. Zween Senckstriche ag und af. — cb | de
 
-[Diagram: zwei einander schneidende Kreise; an den Durchschnitten oben s und unten t, dazwischen ein punktierter Strich; im rechten Kreis der Punkt u]
-
-### Beweiß.
-
-Dieser gerade Strich wird ausser den Kreiß stu fallen / da doch seine beeden Endungen in gedachtem Kreyse stehen / welches unmüglich/n. 2. III.
-
-<!-- Signature: V -->
-
-<!-- Catchword: Be- -->
+<!-- Signature: V 2 -->
+<!-- Catchword: 2. Aus -->

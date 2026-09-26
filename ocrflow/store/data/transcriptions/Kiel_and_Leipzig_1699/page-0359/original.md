@@ -1,36 +1,35 @@
-<!-- Page number: 335 -->
+<!-- Page number: 343 -->
 
 <!-- Running title: Euclidis. -->
 
-## Des X. Vortrags III. Ahrt.
+II. Vorbereitung ist wie die I. Vorher.
 
-### Gegebene.
+### II. Beweiß.
 
-1. Ungetheilter Strich BC.
-2. Getheilter Strich. o4.
+|  |  |  |
+|---|---|---|
+|  | ab : eh ⊤ fe : db | n. 4. Geg. |
+| oder | AB : BI ⊤ FE : EB | n. Anh. 7. V. |
+|  | AB : BI ⊤ □ AD : □ EI | n. 1. VI. |
+| Dw. | FE : EB ⊤ □ AD : □ EI | n. 11. V. |
+|  | FE : EB ⊤ □ FH : □ EI | n. 1. VI. |
+| Dw. | □ AD : □ EI ⊤ □ FH : □ EI | n. 11. V. |
+|  | □ EI ⊤ □ EI |  |
+| Dw. | □ AD ⊤ □ FH | n 9. V. |
+| oder | □ ad ⊤ □ fh | n 1. Vorb. |
 
-### Begehrtes.
+### Beschluß.
 
-Der Strich BC getheilet in 1. 2. 3. also / daß
-oc : oi ⊤ bc : ba.
+Wenn derowegen gleichmässige oder gleichgrosse Nebenstrichichte Vierecke / welche einen gleichmässigen Winckel haben/ gegeben werden/ so haben dieselben auch bey den gleichmässigen Winckeln wechselmässige Seiten.
 
-[Diagram: Geometrische Zeichnung mit den Punkten h, o, b, a, c, den Ziffern 1 2 3 auf schrägen Strichen, sowie unten der Strich B C mit den Theilpunkten o 1 2 3 4 und g]
+Und welche Vierecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ die sind gleichmässig oder gleichgroß. W.Z.B.
 
-### Wirckung.
+## Der XV. Vortrag.
 
-1. Aus b werde nach beliebigem Winckel ein unendlicher Strich bg,
+## Das 10. Beweiß-Stück.
 
-2. Und aus dem Düttel c ein mit bg gerader Nebenstrich ch gezogen. n. 31. I.
+Gleichmässige/ und einen gleichmässigen Winckel habende Dreyecke/ haben auch bey dem gleichmässigen Winckel wechselmässige Seiten.
 
-3. Auf den Strich bg werden die Theile des getheilten Striches nacheinander gesetzet. n. 3. I.
+Und welche Dreyecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ dieselben sind gleichmässig.
 
-4. Auf den Strich ch werden eben solche Theile / doch also gesetzet / daß man von c anfange und c 3 ⊤ 4 3.
-Und so ferner n. 3. I.
-
-5. Es werden die Striche 11. 22. 33. gezogen.
-
-### Vorbereitung.
-
-Es werden auch o b und c 4 gezogen.
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: I. Gegebene. -->

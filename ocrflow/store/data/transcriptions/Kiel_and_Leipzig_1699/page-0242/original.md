@@ -1,28 +1,35 @@
 <!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 218 -->
+<!-- Page number: 226 -->
 
-[Diagram: links ein Quadrat mit Viertelkreisbogen und den Punkten A, C, B; rechts ein punktierter Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c, b, d]
+### Gegebenes. — Begehrte.
+Kreyß bcdefg — 1. Gleichseitig und gleichschenck-
+licht Sechseck
+2. dem gegebenen Kreyß einge-
+schrieben.
 
-Dw. — □ ac | □ bd — α.
-und — ▭ abc | □ bd — ß. — n. 1. Gr. I.
-Dw. — bd | Rührstrich des Kreyses cda, n. 37. III.
-bdc ∧ dac — n. 32. III.
-cda ∧ cda
-cda + bdc ∧ dac + cda — n. 2. Gr. I.
-cda + bdc ∧ bda — n. 9. Gr. q. I.
-Dw. — dac + cda ∧ bda — n. 1. Gr. I.
-γ. — dac + cda ∧ bcd — n. 32. I.
-Dw. — bcd ∧ bda oder cbd — n. 1. Gr. I.
-δ. u. — bd | cd — n. 6. I.
-bd | ac — n. 3. Wirck.
-Dw. — cd | ac — n. 1. Gr. I.
-u. — cda ∧ dac — n. 5. I.
-dcb ∧ dac + cda — γ.
-Dw. — dcb + cda ∧ dac + cda + dac — n. 2. Gr. I.
-dcb ∧ 2dac oder 2dab — n. 3. Gr. I.
-dcb ∧ dba — δ. — n. 5. I.
-Dw. — dba ∧ 2dab — n. 1. Gr. I.
-u. — [unclear: bad] ∧ 2dab — n. 6. Gr. I.
+[Diagram: drei sich schneidende Kreise; im mittleren Kreis ein einbeschriebenes Sechseck g b c d e f mit Mittelpunkt a, punktierte Striche zu den Ecken]
+
+### Wirckung.
+
+1. Wird der Durchschlag fc gezogen.
+2. Nach der Weite ca wird aus dem Düttel c ein Kreyß ge-
+zogen/ welcher den gegebenen Kreyß in den Dütteln d und b schneidet.
+3. Aus dem Düttel f wird nach der Weite fa auch ein Kreyß be-
+schrieben/welcher den gegebenen Kreyß in den Dütteln e und g schneidet.
+4. Werden die Striche bc, cd, de, ef, fg und gb gezogen.
+
+### Vorbereitung.
+
+Es werden gezogen die Strahlen ab, ad, ae, ag.
+
+II. Arth.
+
+1. Werde aus dem Düttel c nach der Weite ca ein Kreyß/
+2. aus dieses Kreyses Mitteldüpffel c werde durch den Mittel-
+düpffel a ein gerader Strich cf,
+3. aus den beyden Dütteln b und d werden auch gerade Stri-
+che be, dg durch a, und
+4. die Striche cb, cd, de, ef, fg und gb gezogen.
 
 <!-- Catchword: Be- -->

@@ -1,28 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 247 -->
+<!-- Page number: 255 -->
 
-[Diagram: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 10a, C, B, 10b, D]
+## Des II. Theils
 
-### III. Beweiß.
+### Gegebene. — Begehrtes.
 
-9a | C — n. Bew. α
-9a ⊢ 10a — n. 9. Gr. I.
-κ Dw. 10a ⊣ C — n. 1. Gr. c. I.
-9b | D — n. Bew. β
-9b ⊢ 10b — n. 9. Gr. I.
-λ Dw. 10b ⊣ D — n. 1. Gr. c. I.
-Weil nun (1) C | 9a — n. Bew. α
-und D | 9b — n. Bew. β
-(2) 2C ⊣ 4a — n. Bew. γ
-und 2D ⊣ 4b — n. Bew. φ
-(3) 10a ⊣ C — n. Bew. κ
-und 10b ⊣ D — n. Bew. λ
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
-Derowegen muß auch C : a | D : b — n. 6. Beschr. V.
+A ⊣ B — a : B ⊣ a : A.
+A | 5a
+B | 3a
+
+### Vorbereitung.
+
+1. Man nehme wiederümb a siebenmahl/
+2. Aber A zweymahl/
+3. Und B auch zweymahl.
+
+### Beweiß.
+
+B | 3a — nach Gegeb.
+2B | 6a — n. 6 Gr. i. I.
+7a ⊣ 6a — n. 9. Gr. I.
+Dw. 7a ⊣ 2B — n. 1. Gr. a. I.
+A | 5a
+2A | 10a
+10a ⊣ 7a
+Dw. 2A ⊣ 7a
+Und a : B ⊣ a : A — n. 8. Beschr. V.
 
 ### Beschluß.
 
-Wenn derowegen vier Grössen gegeben werden / deren Erste zu der Andern sich also / wie die Dritte zu der Vierten verhält: und noch zwo Grossen darzu genommen werden / da die Fünffte zu der Ersten sich also verhält / wie die Sechste zu der Vierten / so muß die Fünffte zu der Andern sich also verhalten / wie die Sechste zu der Vierten/ W. Z. B.
+Derowegen ist allezeit die von ungleichen Grössen Grössere gegen die Dritte mehr vierfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vierfältig / als gegen die Grössere. W. Z. B.
 
 <!-- Catchword: Der -->

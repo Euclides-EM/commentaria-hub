@@ -1,31 +1,36 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 17 -->
+<!-- Page number: 19 -->
+
+### Beweiß.
+
+cf | ab nach 2 Vortr.
+cf | cg nach 15 Beschr.
+Dw. ab | cg nach 1 Grund-S.
 
 ### Beschluß.
 
-Also ist die Gestalt ABC ein gleichseitig Dreyeck/ nach 23. Beschreib. und auff den gegebenen Strich AB gesetzet. W. Z. M. q. e. f.
+Und ist also von dem grössern ch abgeschnitten ein Stück cg | ab
+W. Z. M.
 
-## Der II. Vortrag.
-## Das 2. Werck-Stück.
+## Der IV. Vortrag.
 
-Einem gegebenen Strich/ aus einem gegebenen Düttel/ einen gleichlang-geraden Strich zuziehen.
+## Das I. Beweiß-Stück.
+
+Wenn in zweyen Dreyecken zwo Seiten des einen eben so groß seynd / als zwo Seiten des andern/und zwar jedwede Seite einer jedweden absonderlich; darnach auch diejenigen Winckel/ welche von den gedachten Seiten eingeschlossen werden / gleich sind: so werden auch die beeden Grund-Striche/ und die beeden Dreyecke ein ander gleich seyn; deßgleichen werden die übrigen Winckel/ derer gegenüberstehende Striche gleich groß seynd / auch ein ander gleich seyn.
 
 ### Gegebene. | Begehrte.
-1. Gerader Strich ab, | 1. Der Strich cf,
-2. Düttel c. | 2. Gezogen aus dem Düttel c,
-| 3. Und gleichlang dem Strich ab.
 
-### Wirckung.
+1. Zwey geradstrichiche Dreyecke ABC und abc | BC | bc, ABC ⏉ abc
+2. AB + AC | ab + ac | BCA ⋏ bca
+3. AB | ab | und ABC ⋏ abc
+4. AC | ac
+5. BAC ⋏ bac
 
-1. Aus einem der beeden End-Düttele des Striches ab zeucht man nach belieben einen geraden Strich zum Düttel c.
-2. Auff diesen Strich ac setzet man ein gleichseitiges Dreyeck acd, nach dem I. Vortrag.
-3. Der Strich da wird nach Nothdurfft (in infinitum) verlängert/ nach der II Foderung.
-4. Aus dem Düttel a wird nach der länge ab ein Kreyß be beschrieben / nach der III. Foderung / welcher den verlängten Strich in dem Düttel e durchschneidet.
-5. Aus dem Düttel d wird nach der länge de ein Kreyß ef beschrieben/ nach der III Foderung.
-6. Der Strich dc wird biß an den jetzt gezogenen Umbkreiß verlängt/nemblich zu dem Düttel f, nach der II Foderung.
+### Vorbereitung.
 
-[Diagram: zwei punktierte Kreise, ein grosser und ein kleiner; darin die Punkte d, c, f oben, a, b in der Mitte und e unten, mit geraden Strichen verbunden]
+Man hebe das △ abc auff/ und setze es auff das △ ABC also / daß der Düttel a auff den Düttel A, und der Strich AB auff den Strich AB falle.
 
-<!-- Signature: C -->
-<!-- Catchword: Be- -->
+<!-- Signature: C 2 -->
+
+<!-- Catchword: Beweiß. -->

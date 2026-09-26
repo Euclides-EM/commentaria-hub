@@ -1,29 +1,37 @@
-<!-- Running title: Das V. Buch -->
+<!-- Page number: 308 -->
 
-<!-- Page number: 300 -->
+<!-- Running title: Das VI. Buch -->
 
-|  |  |  |  |
-|---|---|---|---|
-| Dw. | D : d | ⊣ A + B + C : a + b + c | n. Anh. 13. V. |
-|  | D : A + B + C | ⊣ d : a + b + c | n. 27. V. |
-|  | D + A + B + C : A + B + C | ⊣ d + a + b + c : a + b + c | n. 28. V. |
-|  | D + A + B + C : d + a + b + c | ⊣ A + B + C : a + b + c | n. 27. V. |
-|  | D : d | ⊣ D + A + B + C : d + a + b + c | n. 33. V. |
-|  | A + B + C : a + b + c | \| C : c | n. Bew. II. |
-|  | D + A + B + C : d + a + b + c | ⊣ C : c | n. Anh. 13. V. |
+Gleiche Bewandnüß hat es/ wenn man sagen wolte/ daß
+cq ⊢ fp were.
+Muß derowegen cq | fp.
 
 ### Beschluß.
-Sind derowegen nunmehro
 
-1. D + A + B + C : d + a + b + c ⊣ A + B + C : a + b + c
-2. D + A + B + C : d + a + b + c ⊣ D : d
-3. D + A + B + C : d + a + b + c ⊣ C : c.
+Wenn derohalben zwey nebenstrichichte Dreyecke sich also/ wie ihre Grundstriche gegen einander verhalten/ so werden sie auch gleichmässige Höhen haben. W. Z. B.
 
-W. Z. B.
+### II. Gegebenes.
 
-## Der XXXV. Vortrag.
-## Das 35. Beweiß-Stück.
+ab : de | □ ah : □ dg.
 
-Wann zu zwo Grössen / welche ungleicher Grösse sind / zwey gleichmässige Stücke beygefüget werden / so werden die zusammengesetzten eine kleinere Verhältnüß / als die Erstgegebenen / haben: wenn aber gleichgrosse Stücke von selbigen abgeschnitten werden / so werden die übergebliebene Stücke eine grössere Verhältnüß / als die ersten Grössen gehabt / erlangen.
+### Begehrtes.
 
-<!-- Catchword: I. Ge- -->
+Höhen gp | hq.
+
+[Diagram: Zwei Parallelogramme, links mit den Ecken g f d e und Punkt p, rechts mit den Ecken c h b a nebst den Punkten s, r und p, mit gestrichelten Senckstrichen]
+
+### Vorbereitung.
+
+Wenn gp ⊢ hp so schneide man von hq ein Stück ab/ nemlich rp | gp n. 3. I.
+
+2. Ziehe man den Strich sr ⧣ ab.
+
+### Beweiß.
+
+gp | rp — n. Vorber.
+Dw. de : ab | □ dg : □ ar — n. 1. VI.
+de : ab | □ dg : □ ah — n. Geg.
+Dw. □ dg : □ ar | □ dg : □ ah — n. 11. V.
+u. □ ar | □ ah — n. 9. V.
+
+<!-- Catchword: Welches -->

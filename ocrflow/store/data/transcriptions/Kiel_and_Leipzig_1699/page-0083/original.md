@@ -1,37 +1,40 @@
-<!-- Page number: 65 -->
+<!-- Page number: 67 -->
 
-<!-- Running title: Euclidis. -->
-
-### Beschluß.
-
-Werden also jedwedes Nebenstrichiches Viereckes entgegen stehende Seiten α. β. und gegen einander übergesetzte Winckel γ. ε. wie auch die durch den Zwerg-strich gemachte Dreyecke gleich groß seyn. W. Z. B.
-
-## Der XXXV. Vortrag.
-
-Das 25. Werck-Stück:
-
-Alle auff einen einigen Grundstrich/und zwischen einerley Nebenstrichen stehende Nebenstrichiche Vierecke sind gleich groß.
-
-### 1. Begebenheit.
-
-### Gegebene. | Begehrtes.
-1. □ ABDC | ABDC ⌻ BCDE
-2. □ BCDE
-3. Der gemeine Grundstrich CD
-4. Die Nebenstriche AE=CD
-5. Zwischen welchen die □ □ stehen.
-
-[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten E, B, A oben und D, C unten]
+<!-- Running title: Euclides. -->
 
 ### Beweiß.
 
-ABC ⩓ CDB
-BDE ⩓ CDB } n. 34. Vortr.
-Dw. ABC ⩓ BDE n. 1. Gr:S.
-CDB ⩓ CDB
-Dw. CDB + ABC ⩓ BDE + CDB n. 2. Gr:S.
-oder ABDC ⌻ BCDE n. 9. Gr:S. q.
+AB | CD
+FE | CD } n. 34. Vortr.
+Dw. FE | AB n. 1. Gr:S.
+BD | AC
+DE | CF } n. 34. Vortr.
+BF | BF
+BF + FE | AB + BF n. 2. Gr:S.
+oder BE | AF n. 9. Gr:S. q.
+Dw. BDE ⩓ ACF n. Zugab. 8. Vortr.
+BGF ⩓ BGF
+BDE—BGF ⩓ ACF—BGF n. 3. Gr:S.
+oder DEFG ⩓ CABG
+CDG ⩓ CDG
+CDG + DEFG ⌻ CABG + CDG n. 2. Gr:S.
+oder CDEF ⌻ ABDC n. 9. Gr:S. q.
 
-<!-- Signature: I -->
+### Beschluß.
 
-<!-- Catchword: 2. Be- -->
+Müssen also alle □ □ , welche einen einigen Grundstrich haben/ und zwischen einerley Nebenstrichen stehen/ (oder gleich hoch sind) gleich groß seyn. W. Z. B.
+
+## Der XXXVI. Vortrag.
+
+## Das 26. Beweiß-Stück.
+
+Alle auff gleich-grossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Vierecke sind gleich-groß.
+
+### Gegebene. | Begehrte.
+1. □ AC | AC ⌻ EG.
+2. □ EG
+3. Grundstriche
+
+<!-- Signature: I 2 -->
+
+<!-- Catchword: BC -->

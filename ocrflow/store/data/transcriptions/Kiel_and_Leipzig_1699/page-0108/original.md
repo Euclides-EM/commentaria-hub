@@ -1,31 +1,35 @@
 <!-- Running title: Das II. Buch -->
 
-<!-- Page number: 90 -->
+<!-- Page number: 92 -->
 
-6. Werden ad | AD
-de | DE
-eb | EB | nach 3. Vortr. I.
-7. Zeihe man nebenstriche
-df = ac
-eg = ac | n. 31. Vortr. I.
-8. Werden die Zwerg-Striche af, dg und eh gezogen.
-9. Ziehe man auch die Striche
-pq | BE
-rs | ED
-tu | DA | nach 2. Vortr. I.
-10. Diese drey Striche werden gezogen in andere drey Striche qn, sl und ui, welche aber alle dem Striche AC gleich seyn müssen / damit man die Vierecke □ pqn, □ rsl und □ tui bekomme.
-11. Ziehe man die Zwerg-Striche af, dg und ah.
-12. Wie auch - - - uk, sm und qo.
+### Gegebene. | Begehrtes.
+1. Der Strich AB | □ AB | □ CAB + □ CBA.
+2. getheilet in C.
 
-[Diagram: Reihe rechtwincklichter Vierecke mit punktierten Diagonalen; Punkte c, f, g, h, i, k, l, m, n, o oben, E, D links, A, d, e, b, u, t, s, r, q, p unten]
+### Vorbereitung.
+
+Man nehme 1. noch einen Strich AD | AB n. 2. Vortr I. Buchs.
+2. Man mache das rechtwincklichte □ ba,ad n. 11. und 31. I.
+3. Man nehme auch zween Striche/ so groß/ als die beeden Stücke des getheilten Strichs/nemlich
+lm | ca
+no | cb
+4. Deßgleichen auch
+lg | AD
+in | AD | n. 2. I.
+5. Mache man die rechtwincklichte □ mlg und □ oni n. 11. I.
+6. In dem □ bad ziehe man den Neben-Strich ce = ad.
+
+[Diagram: drey rechtwincklichte Vierecke; Punkte D, B, d, e, f, g, h, i, k oben, c links, A, a, c, b, l, m, n, o unten; punktierte Linie im ersten Viereck]
 
 ### Beweiß.
 
-ui + ik | ac + ef | n. 2. Vortr. I.
-i ∠ c | n. 23. - - I.
-Dw. △ uik | △ acf | n. 4. - - I.
-□ cd | 2 △ acf
-□ it | 2 △ uik | n. 41. - - I.
-Dw. □ it | □ cd | n. 6. Gr-S. i. I.
+on | CB
+ni | BA | n. 3. Vorber.
+□ oni | □ CBA | n. 1. Gr-S. II.
+ml | CA
+lg | AB
+□ mlg | □ CAB + | n. 1. Gr-S II.
+□ oni + □ mlg | □ CAB + □ CBA | n. 1. Gr-S. I.
+AD | AB | n. 1. Vorber.
 
-<!-- Catchword: Auff -->
+<!-- Catchword: Dw. -->

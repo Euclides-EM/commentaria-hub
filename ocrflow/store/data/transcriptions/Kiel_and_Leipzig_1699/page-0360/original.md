@@ -1,42 +1,39 @@
-<!-- Page number: 336 -->
+<!-- Page number: 344 -->
 
 <!-- Running title: Das VI. Buch -->
+
+### I. Gegebene.
+
+1. Dreyeck ABC
+2. u. DFE
+3. ABC ⋏ DEF
+4. ABC ⩓ EFD.
+
+### Begehrtes.
+
+AB : DE ⊤ EF : BC.
+
+[Diagram: Dreyecke D E A, F B C oben; darunter die Punkte d, e, b, a und der punktierte Strich nach c]
+
+### I. Vorbereitung.
+
+1. Es werde gemacht abc ⩓ ABC n. 22. I.
+2. Die Seiten ab und ce werden gegen d und f verlängert.
+3. Es werde ed ⊤ ED
+4. und ef ⊤ EF   n. 3. I.
+5. Auch werde df
+6. Wie auch dc gezogen.
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-|  | b1 ⊤ o1 | n. 2. Wirck. |
-|  | b1 ⊤ o1 | n 3. und 4. Wirck. |
-| Dw. | ob ⊤ 11 | n. 33. I. |
-|  | cbo ⋏ ca1 | ⟩ n. 29. I. |
-|  | cob ⋏ c1a |  |
-|  | bco ⋏ ac1 | n. 8. Gr. I. |
-| Dw. | △ boc ähnlich △ ac1 | n 1. Besch. VI. |
-| u. | oc : o1 ⊤ bc : ba | n. 4. VI. |
+| α | △ abc ⊤ △ ABC | n. 1. Vorb. |
+|  | △ efd gleichmässiger Höhe △ edc | n. 4. Beschr. VI. |
+| Dw. | △ efd : △ edc ⊤ ef : ec | n. 1. VI. |
+|  | △ eac gleichmässiger Höhe △ edc | n. 4. Beschr. VI. |
+| β Dw. | △ eac : △ edc ⊤ ab : ed | n. 1. VI. |
+|  | △ efd ⊤ △ FED | n. 4. I. |
+|  | △ ABC ⊤ △ EFD | n. 4. Gegeb. |
 
-Gleicher Gestalt kan auch dargethan werden/ daß die übrigen Theile des gegebenen Striches / mit den andern Theilen des getheilten Striches / in richtiger Ebenmaß stehen.
-
-### Beschluß.
-
-Ist also der gegebene Ungetheilte Strich ag, oder FG oder BC also / wie der getheilte Strich AD, AG oder o4 getheilet/ W. Z. M.
-
-## Der XI. Vortrag.
-
-## Das 3. Werck-Stück.
-
-Zu zweyen gegebenen geraden Strichen den dritten ebenmässigen Strich zu finden.
-
-### Gegebene.
-
-1. Strich AB.
-2. AC.
-
-### Begehrtes.
-
-1. Der dritte Strich cd.
-2. Ebenmässig gegen die beyden
-
-AB : AC ⊤ AC : cd.
-
-<!-- Catchword: Wir- -->
+<!-- Catchword: Dw. -->

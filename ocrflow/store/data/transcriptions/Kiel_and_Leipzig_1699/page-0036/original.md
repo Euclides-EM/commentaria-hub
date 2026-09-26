@@ -1,33 +1,31 @@
 <!-- Running title: Das I. Buch -->
 
-<!-- Page number: 18 -->
+<!-- Page number: 20 -->
 
-### Beweiß
+### Beweiß.
 
-a d | c d nach 1. Vortr.
-d e | d f nach 15. Beschr.
-Dw. d e — a d | d f — c d nach 3. Grund-Satz.
-oder e a | f c
-e a | a b nach 15. Beschr.
-Dw. f c | a b nach 1. Grund-Satz.
+So wird der Düttel b entweder auff den Düttel B, oder über denselben auff d, oder unter denselben auff e fallen.
 
-und ist fc | ab aus dem gegebenen Düttel c gezogen/ W. Z. M.
+[Diagram: zwey Dreyecke abc und ABC nebeneinander, mit den Punkten d und e am zweyten Dreyeck]
 
-## Der III. Vortrag.
-## Das 3. Werck-Stück.
+fället er auff d, | fället er auff e,
 
-Wenn zween ungleiche Striche gegeben werden/ von dem grössern ein Stück abzuschneiden/ welches dem kleinern gleich sey.
+So wird Ad | ab nach der Vorbereit. | Ae | ab
+AB | ab nach 3 Gegebenem - - | AB | ab
+Dw. AB | Ad nach 1. Gr-Satz - - - | AB | Ae
 
-### Gegebene. | Begehrte.
-1. Der gerade kleine Strich ab | 1. Daß vom grössern Strich ch abgeschnittene Stück cg
-2. Der - - Grössere - - ch | 2. cg | ab
+Nemlich daß gantze wird einem seiner Theile gleich seyn / welches wieder den 9. Gr-S.
 
-### Wirckung.
+Weilen nun der Düttel b, weder über/ noch unter den Düttel B fallen kan / so muß er nothwendig auff den Düttel B selbst fallen.
 
-1. Aus einem der beeden End-Düttele c oder h des längern Strichs ch, wird ein gerader Strich cf gezogen.
-2. Welcher Strich cf | ab, nach 2. Vortr.
-3. Auß dem Düttel c, wird nach der Länge cf ein Kreyß-Stück fg gezogen/welches den Strich ch in dem Düttel g durchschneidet.
+Wann aber ab auff AB fället / so muß der andere Strich ac entweder einwerts auff den Strich AC, oder auff Ag, oder außwerts auff Af fallen.
 
-[Diagram: punktierte Kreise mit den Punkten h, f, a, g, c, b und d; der Strich h–c geht durch den Punkt g, dazu Striche nach a, b und d]
+[Diagram: zwey Dreyecke abc und ABC, am zweyten Dreyeck die Punkte g und f mit punktierten Linien]
 
-<!-- Catchword: Beweiß -->
+fället er auff AG, | fället er auff Af
+
+So wird BAg ⋏ bac | nach der Vorber. | BAf ⋏ bac
+BAC ⋏ bac | nach Gegeb. | BAC ⋏ bac
+Dw. BAC ⋏ BAg | nach 1. GrS. | BAC ⋏ BAf
+
+<!-- Catchword: Keines -->

@@ -1,25 +1,26 @@
 <!-- Running title: Axiomata. -->
 
-<!-- Page number: 11 -->
+<!-- Page number: 13 -->
 
-III. Wenn man von (zwey) gleichen Dingen ab und cd (zwey) gleiche Stücke eb und id abnimmt / so bleiben (zwey) gleiche Stücke ae und ci übrig.
+(n) Wenn (zwey) Dinge ab und cd halb so groß sind / als (zwey) andere gleiche Dinge ef und mn / so sind dieselben auch ein ander gleich.
 
-[Diagram: zwei Striche a–e–b und c–i–d]
+[Diagram: vier Striche a–b (kurz), e–f, m–n (länger, gleich), c–d (kurz)]
 
-IV. Wenn man (zwey) ungleichen Dingen ab und cd (zwey) gleiche Stücke be und cf beyfüget/ so werden die (zwey) Gantzen ae und df auch ungleich.
+(o) Wenn von (zwey) gleich grossen Dingen ab und cd, eines ab halb so groß ist/als eins ef von ( zwey ) andern gleichen Dingen ef und mn, so sind dieselben ( beyden ) Dinge ab und cd auch halb so groß / als die andern (beyden) Dinge ef und mn.
 
-[Diagram: zwei Striche a–b–e und d–c–f]
+[Diagram: vier Striche a–b, c–d (kürzer, gleich), e–f, m–n (länger, gleich)]
 
-(g) Wenn man ( zwey ) ungleiche Dinge ac und ef zu ( zwey ) ungleichen Dingen ab und ed setzet/und zwar das Grosse ac dem Grossen ab/ das Kleiner ef aber dem Kleinern de beyfüget / so werden die beeden Gantzen auch ungleich / und zwar jenes bc Grösser / dieses df aber Kleiner.
+(p) Gleiche bewandniß hat es / wenn etliche Dinge ab, cd nur dritte Theile / oder vierte ab, cd Theile / oder noch kleinere Theile sind.
 
-[Diagram: zwei Striche b–a–c und d–e–f]
+[Diagram: links Striche m–n, f–e, a–b, c–d; rechts Striche a–b, c–d (kurz), e–f, m–n (lang)]
 
-V. Wenn man von ( zwey ) ungleichen Dingen bc und df (zwey) gleiche Stücke ab und ef abnimmt / so bleiben ( zwey ) ungleiche Stücke ba und de übrig.
+VIII. Wenn ( zwey ) Dinge ab und cd sich in allen Stücken zusammen schicken/ so sind sie einander gleich.
 
-[Diagram: zwei Striche a–c–b und d–e–f]
+[Diagram: zwei gleiche Striche a–b und c–d; zwei übereinander gelegte Quadrate, zwei übereinander gelegte Dreiecke und zwei übereinander gelegte Kreise]
 
-(h) Wenn man von (zwey) ungleichen Dingen db und ef (zwey) ungleiche Stücke ab und cf abnimt / und zwar das Kleinere ab von dem Grossen bd / das Grössere cf aber von dem Kleinen ef/ so bleiben (zwey) ungleiche Stücke übrig / nemblich jenes da Grösser/ dieses ce Kleiner.
+IX. Das gantze ab ist grösser/ als ein Theil oder Stück ac desselben ( es mag auch seyn so groß / als es immer wolle.)
 
-[Diagram: vier Striche mit den Bezeichnungen d, a–b, c–f, e]
+[Diagram: ein Strich a–b, darunter der Punkt c]
 
-<!-- Catchword: VI. -->
+<!-- Signature: B 3 -->
+<!-- Catchword: (q) Wenn -->

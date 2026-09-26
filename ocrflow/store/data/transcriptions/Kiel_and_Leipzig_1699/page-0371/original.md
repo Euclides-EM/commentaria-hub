@@ -1,34 +1,35 @@
-<!-- Page number: 341 -->
-
 <!-- Running title: Euclidis. -->
 
-## Der XIV. Vortrag.
+<!-- Page number: 355 -->
 
-## Das 9. Beweiß-Stück.
+Dw. △ abc : △ abg | △ abc : △ def n. 7. V.
+u. △ abc : △ def ⊐ bc : ef n. 11. V.
 
-Gleichmässige Nebenstrichichte Vierecke/ welche einen gleichmässigen oder gleichgrossen Winckel haben/ dieselbigen haben auch bey dem gleichmässigen Winckel wechselmässige (reciproca) Seiten.
+### Beschluß.
 
-Und diejenigen Nebenstrichichten Vierecke/ welche bey dem gleichmässigen Winckel wechselmässige Seiten haben/ sind gleichmässig oder gleichgroß.
+Haben derowegen ähnliche Dreyecke zu einander zwiefach grössere Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
 
-### I. Gegebene.
+## Der XX. Vortrag.
 
-1. Nebenstrichichte Viereck ad
-2. und fh
-3. ad ⌻ fh
-4. d ⋏ e.
+## Das 14. Beweiß-Stück.
 
-### Begehrte.
+Aehnliche Vielecke können in ähnliche/ und gleichviele/ und mit denen Gantzen Verhältniß-ähnliche oder ebenmässige Dreyecke abgetheilet werden.
 
-ab : eh ⊤ fe : db.
-□ ad wechselmässig □ fh.
+Die ähnlichen Vielecke stehen auch gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältniß-ähnliche Seiten.
 
-[Diagram: Zwei kleine Parallelogramme mit den Ecken h, g, a, b, c, d, e, f; darunter grössere Vierecke mit den Ecken F, D, E, H, C, A, B, I, wobei B—I punktiert]
+### Gegebene.
 
-### Vorbereitung.
+1. Fünfeck cad
+2. u. hfi
+3. cad ähnlich hfi.
 
-1. Es werde gemacht ABDC ⌻ abdc. n. 46. I.
-2. Verlänget man nach Nothdurfft die Striche CD und BD gegen H und F.
+### I. Begehrte.
 
-<!-- Signature: Uu 3 -->
+1. Beyde Fünfecke in ähnliche/ und
+2. Gleichviele/ und
+3. mit denen Fünfecken/ Verhältnüß-ähnliche Dreyecke abgetheilet.
 
-<!-- Catchword: 3. werde -->
+[Diagram: zwei Fünfecke; das kleinere mit den Ecken f, g, k, h, i und punktierten Diagonalen; das grössere mit den Ecken a, b, e, c, d und punktierten Diagonalen]
+
+<!-- Signature: Y y 2 -->
+<!-- Catchword: Vorbe- -->

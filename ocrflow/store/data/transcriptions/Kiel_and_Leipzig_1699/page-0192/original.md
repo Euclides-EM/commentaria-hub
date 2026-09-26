@@ -1,36 +1,27 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 174 -->
+<!-- Page number: 176 -->
 
-## Der XXVI. Vortrag.
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten f, a, c, d, g, der andere mit e, b, h, i; darin Winckel am Mittel-Düpffel und im Kreyß, etliche Striche punctirt]
 
-## Das 23. Beweiß-Stück.
-In gleichgrossen Kreyssen/ stehen gleichgrosse Winckel auff gleichgrossen Bogen/ es mögen Mittel-Düpffels- oder im Kreyß stehende Winckel seyn.
+### Vorbereitung.
+Wenn cad ⋀̸ hbi so mache man den
+Winckel cag ⋀ hbi   n. 23. I.
+### Beweiß.
+cag ⋀ hbi   n. Vorbereit.
+Dw. cg ⊻ hi   n. 26. III.
+cd ⊻ hi   n. 2. Gegeb.
+Dw. cd ⊻ cg   n. 1. Gr I.
+Welches aber unmöglich n. 9. Gr. I.
+Eben so ungereumt ist es auch/ wenn man sagen wolte
+hbi ⋀̸ cad
+oder cfd ⋀̸ hei.
+### Beschluß.
+Müssen derowegen allezeit in gleichgrossen Kreyssen diejenigen Winckel/ welche auff gleichgrossen Bogen stehen/ auch gleichgroß seyn. W. Z. B.
 
-### Gegebene.
-1. O bgci | O dhek
-2. bac ⋀ dfe
-bgc ⋀ dhe
+## Der XXIIX. Vortrag.
 
-### Begehrtes.
-bic ⊻ dke.
+## Das 25. Beweiß-Stück.
+In gleichgrossen Kreyssen schneiden gleichlange gerade Striche/ gleichgrösse Bogen ab/ und zwar/ daß das grössere Stück / dem grössern/ und das kleinere dem kleineren gleich an Grösse sey.
 
-[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, i, der andere mit h, f, d, e, k; in jedem ein Winckel am Mittel-Düpffel, die Sehnen bc und de punctirt]
-
-### I. Vorbereitung.
-Es werden die beeden geraden Striche bc und de gezogen.
-### I. Beweiß.
-
-O bgci | O dhek   n. 1. Gegeb.
-ba | df
-ac | fe   n. 1. Beschr. III.
-ba + ac | df + fe   n. 2. Gr. I.
-bac ⋀ dfe   n. 2. Gegeb.
-Dw. bc | de   n. 4. I.
-und bic ⊻ dke   n. 24. III.
-
-### II. Vorbereitung.
-Es werden gezogen 1. die Stralen ba, ca und df, ef.
-2. Die geraden Striche bc und de.
-
-<!-- Catchword: II. Be- -->
+<!-- Catchword: Ge- -->

@@ -1,31 +1,44 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 281 -->
+<!-- Page number: 289 -->
+
+## Der Anhang.
+Dieses gehet auch auf verkehrte Weise an.
+
+### Gegebenes.
+
+[Diagram: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]
+
+A : a ⊢ B : b
+
+### Begehrtes.
+A + a : a ⊢ B + b : b.
+
+### Vorbereitung.
+Man nehme die Grösse c, welche sich zu a also / wie B zu b verhalte.
+
+c : a | B : b.
 
 ### Beweiß.
 
-|  |  |  |
-|---|---|---|
-| B : C | a : b | n. Geg. |
-| B : C | c : d | n. Vorb. |
-| Dw. a : b | c : d | n. 11. V. |
-| α a : c | b : d | n. 16. V. |
-| b : c | A : B | n Geg. |
-| c : d | B : C | n. Vorb. |
-| b : d | A : C | n. 22. V. |
-| b : d | a : c | n. Bew. α |
-| Dw. A : C | a : c | |
+|  |  |  |  |
+|---|---|---|---|
+|  | c : a | \| B : b | n. Vorber. |
+|  | A : a | ⊢ B : b | n. Gegeb. |
+| Dw. | A : a | ⊢ c : a | n. 13. V. |
+| u. | A | ⊢ c | n. 10. V. |
+|  | a | \| a |  |
+| Dw. | A + a | ⊢ c + a | n. 4. Gr. I. |
+|  | : a \| | a |  |
+| a Dw. | A + a : a | ⊢ c + a : a | n. 8. V. |
+|  | B : b | \| c : a | n. Vorber. |
+| Dw. | B + b : b | \| c + a : a | n. 18. V. |
+|  | A + a : a | ⊢ c + a : a | n. Bew. a |
+| Dw. | A + a : a | ⊢ B + b : b | n. 13. V. |
 
 ### Beschluß.
+Wenn derowegen die I. zu der II. eine kleinere Verhältnüß / als die III. zu der IV. hat : So wird auch die I. und II. zu der II, eine kleinere Verhältnüß / als die III. und IV. zu der IV. haben. W. Z B.
 
-Werden derowegen Sechs in verwirreter Ebenmaß stehende Grössen auch ein ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
+<!-- Signature: Oo -->
 
-## Der XXIV. Vortrag.
-
-## Das 24. Beweiß-Stück.
-
-Wenn man Sechs Grössen hat/ deren Erste zu der Andern eine solche Verhältnüß hat/ als die Dritte zu der Vierten: darnach auch die Fünffte zu der Andern eine solche Verhältnüß hat / wie die Sechste zu der Vierten: So wird auch die Erste mit der Fünfften zu der Andern/ eine solche Verhältnüß/ wie die Dritte mit der Sechsten zu der Vierten haben.
-
-<!-- Signature: Nn -->
-
-<!-- Catchword: A— -->
+<!-- Catchword: Der -->

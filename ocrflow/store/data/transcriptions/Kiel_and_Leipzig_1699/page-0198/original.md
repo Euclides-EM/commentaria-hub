@@ -1,30 +1,38 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 180 -->
+<!-- Page number: 182 -->
 
-## Der XXXI. Vortrag.
-
-## Das 27. Beweiß-Stück.
-Wann ein Kreyß-Stück ein Halb-Kreyß ist/ so stehet ein rechter Winckel darinn; ist es aber grösser/ so stehet ein spitziger / und so es kleiner/ so stehet ein stumpffer Winckel darinn. Uber dieses ist eines grössern Kreyßstückes Winckel grösser/ und eines kleinern Kreyßstückes Winckel kleiner/ als ein rechter Winckel.
-
-### I. Begebenheit.
+### III. Begebenheit.
 
 ### Gegebene.
-1. Kreyß dbcd.
-2. Halb-Kreyß bdc.
-3. Winckel cdb.
+1. Kreyß bcedb,
+2. Kreyßstück ced,
+3. ⌓ ced ⊣ Halbkreyß.
+4. Winckel ced.
 
 ### Begehrtes.
-cdb ⋀ ∟
+ced [unclear: ⊢] ∟
 
-[Diagram: Kreyß mit dem Zwerg-Strich bc durch den Mittel-Düpffel a, dem Punckt d oben am Kreyß und dem verlängten Strich bis e; der Strahl ad punctirt]
+[Diagram: Kreyß mit der Sehne cd oben, darüber der Punckt e; unten der Punckt b; die Striche cb und bd punctirt]
 
 ### Vorbereitung.
-1. Werde der Strich bd verlängt biß e.
-2. Der Strahl ad gezogen.
+1. Werde durch den Mittel-Düpffel der Durchschlag db,
+2. Wie auch der Strich cb gezogen.
 
-### I. Beweiß.
-abd ⋀ adb
-acd ⋀ adc } n. 5. I.
+### III. Beweiß.
+ced + cbd | 2 ∟   n. 22. III.
+cbd ⊣ ∟   n 2 Bew.
+Dw. ced ⊢ ∟   n. 3. Gr. ff. I.
 
-<!-- Catchword: Dw. -->
+### IV. Begebenheit.
+
+### Gegebene.
+1. Kreyß dabecd.
+2. ⌓ [unclear: dabc].
+3. dacb [unclear: ⊢] Halbkreyß.
+4. ecd Kreyßstücks-Winckel.
+
+### Begehrtes.
+dce ⊢ [unclear: ∟]
+
+<!-- Catchword: Vor- -->

@@ -1,44 +1,34 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 238 -->
-
-### Beweiß.
-
-|  |  |  |  |  |
-|---|---|---|---|---|
-| | 3a | A | n. Bew. | ε. |
-| | 3a | 1½a | n. 9. Gr. I. | |
-| Dw. | A | 1½a | n. 1. Gr. c. I. | |
-| | 2A | A | n. 9. Gr. I. | |
-| Dw. | 2A | 1½a | n. 1. Gr. e. I. | |
-| | 3b | B | n. Bew. | θ |
-| | 3b | 1½b | n. 9. Gr. I. | |
-| Dw. | B | 1½b | n. 2. Gr. c. I. | |
-| | 2B | B | n. 9. Gr. I. | |
-| Dw. | 2B | 1½b | n. 1. Gr. e. I. | |
-| [unclear: κ] Und | 2A + 2B | 1½a + 1½b | n. 4. Gr. g. I. | |
+<!-- Page number: 246 -->
 
 ### Vorbereitung.
 
-1. Zu der Grösse A werde noch die Helffte derselben/
-2. u. zu der Grösse B werde gleichfals die Helffte derselben beygefüget/
-3. a werde fünf mahl/und 4. b auch fünfmahl/ genommen.
+1. Die Grösse C werde zweymahl /
+2. Deßgleichen die Grösse D auch zweymahl genommen.
+3. Die Grösse a aber viermahl /
+4. Und b auch viermahl genommen.
 
-[Diagram: vier waagerechte Linien, bezeichnet 1½A, 5a, 1½B, 5b]
+[Diagram: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 4a, 2C, B, 4b, 2D]
 
-### III. Beweiß.
+### II. Beweiß.
 
-|  |  |  |  |  |
-|---|---|---|---|---|
-| | 3a | A | n. Bew. | ε. α |
-| | 1½a | ½A | n. 7. Gr. n. I. | β |
-| | 2a | 1½a | n. 9 Gr. I. | γ |
-| Dw. | 2a | ½A | n. 1. Gr. a. I. | δ |
-| und | 3a + 2a | [unclear: 1½A] | n. 4. Gr. I. | γ |
-| oder | 5a | 1½A | | |
-| | 3b | B | n. Bew. | θ. α |
-| | 1½b | ½B | | β |
-| | 2b | 1½b | | γ |
-| Dw. | 2b | ½B | | δ |
-| und | 5b | 1½B | | γ |
-| λ Dw. | 5a + 5b | 1½A + 1½B | n. 4. Gr. g. I. | |
+9a ⊣ 4a — n. 9. Gr. I.
+9a | C — n. Bew. δ
+Dw. C ⊣ 4a — n 1. Gr. c. I.
+2C ⊣ C — n. 9. Gr. I.
+γ Dw. 2C ⊣ 4a — n. 1. Gr. e. I.
+9b ⊣ 4b — n. Bew. ζ
+9b | D
+Dw. D ⊣ 4b
+2D ⊣ D
+φ Dw. 2D ⊣ 4b
+
+Oder auch also:
+
+### Vorbereitung.
+
+1. Es werde a zehen mahl /
+2. Und auch b zehen mahl genommen.
+
+<!-- Catchword: A— -->

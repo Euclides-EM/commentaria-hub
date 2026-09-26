@@ -1,31 +1,20 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 284 -->
+<!-- Page number: 292 -->
 
-### Beweiß.
+## Der XXXI. Vortrag.
+## Das 31. Beweiß-Stück.
 
-|  |  |  |
-|---|---|---|
-| A : B | a : b | n. Geg. |
-| Dw. A : a | B : b | n. 16. V. |
-| u. A—a : a | B—b : b | n. 19. V. |
-| Dw. A—a : B—b | a : b | n. 16. V. |
-| u. A—a : B—b | A : B | n. 11. V. |
-| A | ⊣ B | n. Geg. |
-| Dw. A—a | ⊣ B—b | n. 14. V. |
-| oder c | ⊣ d | |
-| e | B | ⌉ n. Vorber. |
-| b | f | |
-| c + e + b | ⊣ B + f + d | n. 4. Gr. I. |
-| A | c + e | n. 9. Gr. q. I. |
-| c + e + A + b | ⊣ B + f + d + c + e | n. 4. Gr. I. |
-| A + b | ⊣ B + f + d | n. 5. Gr. I. |
-| f + d | a | n. 9. Gr. q. I. |
-| f + d + A + b | ⊣ B + a + f + d | n. 4 Gr. I. |
-| A + b | ⊣ B + a | n. 5. Gr. I. |
+Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darzu genommen werden: Unter den Ersten dreyen aber die Erste zu der Andern eine grössere Verhältnüß hat / als in der andern Ahrt die Erste zu der Andern: Deßgleichen die Andere zu der Dritten in der ersten Ahrt / eine grössere Verhältnüß hat / als die Andere zu der Dritten in der andern Ahrt : So wird auch nach der Gleichheit die Erste der ersten Ahrt / zu der Dritten derselben Ahrt / eine grössere Verhältnüß / als die Erste von der andern Ahrt / zu der Dritten solcher Ahrt haben.
 
-### Beschluß.
+### Gegebene.
 
-Werden demnach allezeit aus vier Ebenmässigen Grössen die Grösseste und Kleineste zusammen grösser seyn / als die übrigen beeden zusammen. W. Z. B.
+[Diagram: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]
 
-<!-- Catchword: Anmer- -->
+A B ⊣ a : b
+B : C ⊣ b : c
+
+### Begehrtes.
+A : C ⊣ a : c
+
+<!-- Catchword: Vor- -->

@@ -1,37 +1,36 @@
-<!-- Page number: 118 -->
+<!-- Page number: 120 -->
 
 <!-- Running title: Das II. Buch -->
 
 ### Beschluß.
 
-Ist also der Strich ab also in c geschnitten/ daß das Viereck/ so der gantze Strich ab, und das eine Stück bc begreiffen / eben so groß/ als das gleichseitige □ des übrigen Stückes ac. W. Z. M.
+Wird also allezeit das □ der Seite ac, welche dem stumpffen Winckel abc gegen-über stehet/ grösser seyn / als die beeden Vierecke derer andern Seiten ab und bc, welche den stumpffen Winckel begreiffen / und zwar so viel/ als das 2 ▭, welches von der Verlängerung bd der einen Seite ab, biß zum Senckstrich cd, so aus dem Ende c der andern Seite bc, auff diese Verlängung bd fället/ und von der Seiten ab selbst gemacht wird. W. Z. B.
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrtes.
+### Gegebenes. | Begehrtes.
 
-1. a | ab | 1. a getheilet in c und e getheilet also daß ae | cc.
-2. b | ad
-3. c | ac
-4. e | cb
-5. d | ef
-6. f | db | df.
+1. a | ac | aa | bb ✠ 2be ✠ cc.
+2. b | ab
+3. c | bc
+4. d | ad
+5. e | bd
+6. f | cd
+7. d | b ✠ e
+8. adc | ∟
 
 ### Beweiß.
 
-dc + bb | ff | n. 6. II.
-aa + bb | ff | n. 47. I.
-aa + bb | dc + bb | n. 1. Gr. I.
-bb | bb
-aa | dc
-ac | ac
-aa — ac | dc — ac | n. 3. Gr. I.
-oder ae | cc | W. Z M.
+adc | ∟ | n. 8. Geg.
+Dw. aa | dd ✠ ff | n. 47. I.
+d | b ✠ e
+dd | bb ✠ 2be + ee | n. 4. I.
+dd ✠ aa | bb ✠ 2be + ee + dd ✠ ff | n. 2. Gr. I.
+dd | dd
+aa | bb ✠ 2be + ee + ff | n. 3 Gr. I.
+ee ✠ ff | cc | n. 47. I.
+ee ✠ ff ✠ aa | bb ✠ 2be + ee + ff ✠ cc | n. 2. Gr. I.
+ee ✠ ff | ee ✠ ff
+aa | bb ✠ 2be + cc | n. 3. Gr. I. W Z. B.
 
-## Der XII. Vortrag.
-
-## Das 11. Beweiß-Stück.
-
-In allen stumpffwincklichten Dreyecken ist das gleichseitige Viereck der Seite/ so dem stumpfen Winckel übergespannet ist/ so viel grösser / denn die beeden Vierecke derer Seiten/ welche den stumpffen Winckel begreiffen / als das zwey-
-
-<!-- Catchword: mal -->
+<!-- Catchword: Der -->

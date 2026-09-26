@@ -1,19 +1,38 @@
-<!-- Page number: 128 -->
+<!-- Page number: 130 -->
 
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Das I. Buch -->
 
-VII. Ein im Kreyß-Stück stehender Winckel (angulus in segmento) ist welcher von zween geraden Strichen/ so man aus den beeden Ecken des Kreyß-Stückes zu einem in dem Bogen erwehlten Düttel zeucht / begriffen wird.
+### Wirckung.
 
-[Diagram: Kreyß-Stück mit einbeschriebenem Winckel, dessen Schenckel von den Ecken zu einem Düttel im Bogen gehen]
+1. Man ziehe von dem Düttel b biß zu dem Düttel c einen geraden Strich bc.
 
-IIX. Wenn aber zween gerade / einen winckel machende Striche ein Stück des Umkreyses absondern / so wird es stehender Winckel genennet.
+2. Dieser Strich bc werde in zween gleiche Theile getheilet in e. n. 10. I.
 
-[Diagram: Kreis mit einbeschriebenem Winckel, dessen Spitze am Umkreys stehet]
+3. Durch diesen Düttel e, werde von einem Ende des Kreyses biß zum andern ein gerader Senck-Strich gh gezogen. n. 11. I.
 
-IX. Ein Kreyß-Schnitt (sector circuli) ist/ wenn zween gerade / aus dem Mitteldüpffel gezogene Striche ein Stück des Kreyses begreiffen.
+4. Dieser Strich gh werde in zween gleiche Theile geschnitten in a. n. 10. I.
 
-[Diagram: Kreis mit ausgeschnittenem Sector (Kreyß-Schnitt)]
+### Beweiß.
 
-X. Aehnliche oder gleichgestalte Kreyßstücke sind/ in welchen gleichgrosse Winckel stehen können.
+Wenn der Düttel a nicht der Mittel-Düpffel ist/ so lasse man d den Mittel-Düpffel seyn.
 
-<!-- Catchword: Also -->
+### Vorbereitung.
+
+1. Aus den beeden Enden des Striches bc ziehe man zu dem angenommenem Mittel-Düpffel d zween gerade Striche bd und cd.
+
+2. Aus dem Düttel e, wo die beeden Striche bc und gh einander durchschneiden / ziehe man auch den Strich ed.
+
+### Verfolg des Beweises.
+
+db | dc — n. 15. Beschr. I.
+de | de
+db ✠ de | dc ✠ de — n. 2. Gr. I.
+be | ce — n. 2. Vorber.
+Dw: bed ⋏ ced — n. 8. I.
+und bed ⋏ | ∟ — n. 10. Beschr. I.
+bea ⋏ | ∟ — n. 3 Vorber.
+Dw. bea ⋏ bed — n. 10. Gr. I.
+
+Welches aber nicht seyn kan/ nach 9. Grundsatz. I.
+
+<!-- Catchword: Wolte -->

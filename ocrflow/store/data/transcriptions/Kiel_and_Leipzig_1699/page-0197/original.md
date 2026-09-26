@@ -1,37 +1,36 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 179 -->
+<!-- Page number: 181 -->
 
-## Der XXX. Vortrag.
+Dw. abd + acd ⋀ adb + adc   n. 2. Gr. I.
+bdc ⋀ adb + adc   n. 9. Gr. q. I.
+Dw. bdc ⋀ abd + acd   n. 1. Gr. I.
+edc ⋀ abd + acd   n. 32. I.
+Dw. edc ⋀ bdc   n. 1. Gr. I.
+und bdc ⋀ ∟   n. 10. Beschr. I.
 
-## Das 4. Werckstück.
-Einen gegebenen Bogen in zween gleiche Theile zu theilen.
+### II. Begebenheit.
 
-### Gegebenes.
-Kreyßstück oder Bogen adb.
+### Gegebene.
+1. Kreyß bdcb.
+2. Kreyßstück cabd.
+3. Welches grösser/ als ein Halb-Kreyß.
+4. Winckel cad.
 
 ### Begehrtes.
-ad ⊻ db.
+cad [unclear: ⋀] ∟
 
-### Wirckung.
-1. Der Strich ab werde in zween gleiche Theile getheilet. n. 10. I.
-2. Auff das Mittel c werde ein Senckstrich cd gesetzet. n. 11. I.
-
-[Diagram: Kreyßstück über dem Strich ab mit dem Senckstrich cd; die Striche ad und bd punctirt]
+[Diagram: Kreyß mit den Punckten a, c, b, d; darin die Striche ac, ad, bd und bc, etliche punctirt]
 
 ### Vorbereitung.
-Es werden gezogen die beyden geraden Striche ad und bd.
-### Beweiß.
+1. Durch den Mittel-Düpffel werde der Durchschlag cb,
+2. Der Strich bd gezogen.
 
-ac | bc   n. 1. Wirck.
-cd | cd
-Dw. ac + cd | bc + cd   n. 2. Gr. I.
-acd ⋀ bcd   n 11. I. und n. 10. Beschr. I.
-Dw. ad | bd   n. 4. I.
-und ad ⊻ bd   n. 28. III.
+### II. Beweiß.
+bdc ⋀ ∟   n. 1. Bew.
+cbd [unclear: ⋀] ∟   n. 17. I.
+cad ⋀ cbd   n 21. III.
+Dw. cad [unclear: ⋀] ∟   n. 1. Gr. d. I.
 
-### Beschluß.
-Ist also der gegebene Bogen adb in zween gleiche Theile ad ⊻ bd getheilet. W. Z. M.
-
-<!-- Signature: Q 2 -->
-<!-- Catchword: Der -->
+<!-- Signature: Q 3 -->
+<!-- Catchword: III. Be- -->

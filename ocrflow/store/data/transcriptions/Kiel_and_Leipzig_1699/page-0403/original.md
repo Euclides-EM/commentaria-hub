@@ -1,25 +1,36 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 373 -->
+<!-- Page number: 387 -->
 
-Dw. □ pq + □ pi | □ ge + □ pi n. 2. Gr. I.
-oder □ ai | ⊾ eip n. 9. Gr. I. q.
-□ pe - | ⊾ eip n. 9. Gr. I.
-Dw. □ pe - | □ ai n. 1. Gr. I. a.
-
-Auch alle andere mangelhaffte Vierecke sind kleiner/ als das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck.
+|  |  |  |
+|---|---|---|
+| Dw. | abc + acb + a ⋀ dce + acb + a | n. 2. Gr. I. |
+|  | abc + acb + a ⋀ ⏊ | n. 32. I. |
+| Dw. | dce + acb + a ⋀ ⏊ | n. 1. Gr. I. |
+| oder | dce + dcb ⋀ ⏊ | n 9. Gr. I. q. |
+| Dw. | bc und ca, oder ba ein gerader Strich. | n. 14. I. |
 
 ### Beschluß.
 
-Ist derowegen das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck grösser/ als alle andere mangelhaffte an den gegeben Strich angeschlagene Vierecke. W. Z. B.
+Wenn derowegen zwey Dreyecke / derer zwo Seiten zweyen Seiten ebenmässig sind/ also zusammen gesetzet werden/ daß die ebenmässigen Seiten auch nebenstrichicht werden/ so machen die übrigen beyden Seiten einen geraden Strich. W. Z. B.
 
-## Der XXIIX. Vortrag.
+## Der XXXIII. Vortrag.
 
-## Das 8. Werck-Stück.
+## Das 23. Beweiß-Stück.
 
-An einen gegebenen geraden Strich ein nebenstrichichtes Viereck/ welches einer gegebenen geradstrichichten Gestalt gleichmässig sey/ also anzuschlagen/ daß es mangelhaft/ und das mangelende nebenstrichichte Viereck einem andern gegebenen nebenstrichichten Viereck ähnlich sey.
+In gleichmässigen Kreysen haben die Winckel/ sie mögen Mittel-Düpffels- oder Kreyßzugs-Winckel seyn/ eben solche Verhältnüß zu einander/ als die Kreyßstücke/ auf welchen sie stehen:
 
-Es muß aber die gegebene geradstrichichte Gestalt / welcher das nebenstrichichte Viereck / so anzuschlagen ist / gleichmässig seyn sol/ nicht grösser seyn / als dasjenige Viereck / welches an die Helffte des gegebenen Striches kan angeschlagen werden: und solches an die Helffte des Striches angeschlagene Viereck / wie auch das mangelende / und die andere gegebene nebenstrichichte Viereck sind alle einander ähnlich.
+Auch haben die Kreyßschnitte gleiche Verhältnüß/ weil sie aus Mittel-Düpffels-Winckeln bestehen.
 
-<!-- Signature: Aaa 3 -->
-<!-- Catchword: Begehr- -->
+### 1. Gegebene.
+
+1. Zween gleichmässige Kreyse abc und feg.
+2. Beyde Mittel-Düpffele d und e.
+3. Zween in Kreyßstücken stehende Winckel bac und feg.
+4. Mittel-Düpffels-Winckel bdc und fhg.
+5. Zwey Kreyßstücke bc und fg.
+6. Zween Kreyßschnitte bdc und fhg.
+
+<!-- Signature: Ccc 2 -->
+
+<!-- Catchword: I. Be- -->

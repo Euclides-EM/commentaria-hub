@@ -1,45 +1,36 @@
 <!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 220 -->
+<!-- Page number: 228 -->
 
-3. Der Winckel bca werde in zween gleiche Theile getheilet
-durch den Strich ce. n. 9. I.
-4. Der Winckel cba werde gleicher Weise in zween gleiche
-Theile getheilet/ durch den Strich db. n. 9. I.
-5. Werden die geraden Striche be. ea. ad. dc. gezogen.
+I. Anhang.
 
-### Beweiß
+Hierauß erhellet / daß die Seiten des Sechseckes eben so
+groß seyn / als der Strahl oder halbe Durchschlag des Kreyses /
+welchem das Sechseck eingeschrieben ist.
 
-△ abc gleichwincklicht dem [unclear: ABC] — n. 2. Wirck.
-bce ∧ eca — n. 3. Wirck.
-α. — cbd ∧ dba — n. 4. Wirck.
-cba ∧ 2dba — n. 9. Gr. q. I.
-cba ∧ 2bac — n. 10. IV.
-Dw. — 2dba ∧ 2bac — n. 1. Gr. I.
-u. — dba ∧ bac — n. 7. Gr. o. I.
-u. — bac ∧ cbd — α. — n. 1. Gr. I.
-Dw. — bc ⌒ cd
-bc ⌒ da — n. 26. III.
-Gleicher Weise be ⌒ ea ⌒ bc ⌒ dc ⌒ ad
-u. — be | ea | bc | dc | ad — n. 29. III.
-Dw. ist aebcd ein gleichseitiges Fünffeck/ — n. 22. Beschr. I.
-und dem Kreyß eingeschrieben/ — n. 3. Beschr. IV.
+II. Anhang.
 
-### Beschluß.
+Fast auff gleiche Weise kan ein gleichseitiges Dreyeck einem
+gegebenen Kreyß eingeschrieben werden.
 
-Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
-lichtes Fünffeck eingeschrieben. W. Z. M.
+[Diagram: zwei sich schneidende Kreise; im rechten Kreis ein einbeschriebenes Dreyeck b e d mit Mittelpunkt e und Punkt f als Mittelpunkt des linken Kreises, punktierte Bögen durch o und d]
 
-## Der XII. Vortrag.
+### Wirckung.
 
-## Das 12. Werckstück.
+1. Aus f wird ein Kreyß nach der Weite fe dem gegebenen Krey-
+se eingeschrieben / welcher den gegebenen Kreyß in denen Dütteln
+e und o schneidet.
+2. Aus e und o werden nach selbiger Weite zwey Kreyßstücke
+gemacht /welche den Kreyß in d und b schneiden.
+3. Werden die Striche fd und fb gezogen.
+4. Wird der Strich db gezogen.
 
-Umb einen gegebenen Kreyß ein gleichseitig
-und gleichwincklicht Fünffeck zubeschreiben.
+### Beweiß.
 
-### Gegebenes. — Begehrte.
-Kreyß ghikl — 1. Fünffeck bcdef
-2. dem gegebenen Kreyß ümb-
-schrieben.
+fe ⌒ fo
+ed ⌒ ob — n. 15. IV.
+Dw. — fe + ed ⌒ fo + ob — n. 2. Gr. I.
+u. — fd ⌒ fb — n. 9. Gr. q. I.
+Dw. — fd | fb — n. 29. III.
 
-<!-- Catchword: Wir- -->
+<!-- Catchword: Dw- -->

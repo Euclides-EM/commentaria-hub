@@ -1,27 +1,29 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 200 -->
+<!-- Page number: 202 -->
 
-2. Düttel a.
-3. Ausser dem Kreyß.
-4. Zween Striche von solchem Düttel gezogen.
-5. Deren einer ah den Kreyß in g schneidet.
-6. Der andere ak nur darauff stösset.
-7. □ hag | □ ad.
+IV. Eine geradstrichichte Gestalt wird umb einen Kreyß beschrieben genennet/ wenn sie mit ihren Seiten den Umbfang des Kreyses berühret.
 
-[Diagram: Kreis mit Mittelpunkt c; von einem Punkt a ausserhalb des Kreises gehen ein schneidender Strich durch g nach h und ein Rührstrich nach k; punktierte Linien verbinden c mit d, k und a]
+V. Auff gleiche weise wird ein einer geradstrichichten Gestalt eingeschriebener Kreyß genennet/ welcher mit seinem Umfang alle derselbigen Gestalt Seiten berühret.
 
-### Vorbereitung.
+VI. Ein ümb eine geradstrichichte Gestalt beschriebener Kreyß wird genennet / welcher mit seinem Umfang alle derselben Gestalt Ecken berühret.
 
-1. Werde aus dem Düttel a ein Rührstrich ak zum Kreyß gezogen. n. 17. III.
-2. Werden die Strahlen cd und ck, wie auch
-3. Aus dem Düttel a zu dem Mittel-Düpffel c der Strich ac gezogen.
+VII. Ein dem Kreyß eingesetzter oder eingefügter gerader Strich wird genennet/ dessen beede Ende in dem Kreyßzuge stehen.
 
-### Beweiß.
+8. Gleichwincklichte Dreyecke ( oder Gestalte ) sind/ in welchen alle Winckel des einen/ allen Winckeln des andern / jedweder jedwedem gleich sind.
 
-ak | Rührstrich n. 1. Vorber.
-Dw. □ ak | □ hag n. 36. III.
-□ ad | □ [unclear: hag] n 7. Gegeb.
-Dw. □ ak | □ ad n. 1. Gr. I.
+## Der I. Vortrag.
 
-<!-- Catchword: und -->
+## Das 1. Werckstück.
+
+Einem gegebenen Kreyß einen geraden Strich / welcher dem gegebenen Strich gleich groß / aber nicht so groß/ als des Kreyses Durchschlag sey/ einzufügen.
+
+### Gegebene. Begehrtes.
+
+1. Kreyß cdf. 1. Einem Kreyß eingefügter
+2. Gerader Strich ab. Strich cd.
+3. Der Durchschlag cg ⊣ ab. 2. cd | ab.
+
+[Diagram: links ein senkrechter Strich ab; daneben ein Kreis cdf mit Mittelpunkt e, punktierter Durchmesser gc und eingefügtem Strich cd; ein zweiter punktierter Kreisbogen um c durch d und f]
+
+<!-- Catchword: Wir- -->

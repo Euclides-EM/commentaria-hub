@@ -1,32 +1,37 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 165 -->
+<!-- Page number: 167 -->
 
-### Beschluß.
+## Der XXI. Vortrag.
 
-Man mag nun einen Düttel des Kreyses ausser dem Senckstrich cd nehmen/ welchen man wolle/ so wird allezeit diese Unmügligkeit nach dem 9. Gr. I. erscheinen : Muß derohalben nothwendig der Mitteldüpffel in dem Senckstrich cd stecken. W. Z. B.
+## Das 19. Beweiß-Stück.
 
-## Der XX. Vortrag.
-
-## Das 18. Beweiß-Stück.
-
-Jn jedwedem Kreyß ist des Mitteldüpffels-Winckel noch einmahl so groß / als der auff eben solchem Kreyßzug stehende Kreyßstücks Winckel.
+Alle in einem Kreyßstück stehende Winckel sind gleich groß.
 
 ### Gegebene. Begehrtes.
 
-1. Kreyß bcde. — cad ∠ 2 [unclear: abc]
-2. Kreyßdüpffels-Winckel cad.
-3. Jn dem Kreyß stehender Winckel cbd.
-4. Bogen/ auff welchem beede Winckel stehen cd.
-
-[Diagram: Kreis bcde mit Mitteldüpffel a, Punkt b oben, e rechts oben, c unten links, d unten; Striche bc, bd, ac und ad]
+1. Kreyßstück dbce — dbe ∠ dce
+2. Zweene in solchem Kreyßstück stehende Winckel dbe und dce.
 
 I. Arth.
 
-ab | ac — n. 15. Beschr. I.
-Dw. abc ∠ acb — n. 5. I.
-cad ∠ abc + acb — n. 32. I.
-cad + abc ∠ abc + acb + acb — n. 2. Gr. I.
-abe ∠ [unclear: abc]
-Dw. cad ∠ acb + acb — n. 3. Gr. I.
-oder cad ∠ [unclear: acb] — n. 9. Gr. q. I.
+### Vorbereitung.
+
+Es werde gezogen der Strahl ea
+
+[Diagram: Kreyßstück über der Sehne de mit den Punkten b oben und c rechts, Mitteldüpffel a; Striche bd, be, cd, ce und punktierter Strahl ae]
+
+### Beweiß.
+
+[unclear: dbe] ∠ ½ dae
+dce ∠ ½ dae — n. 20. I.
+Dw. dce ∠ [unclear: dbe] — n. 7. Gr. I.
+
+II. Arth.
+
+### Vorbereitung.
+
+1. Werden auß den Winckeln b und c durch den Mittel-Düpffel a gezogen zween gerade Striche bg und cf.
+2. Werden auch die Strahlen da und ea gezogen.
+
+<!-- Catchword: I. Be- -->

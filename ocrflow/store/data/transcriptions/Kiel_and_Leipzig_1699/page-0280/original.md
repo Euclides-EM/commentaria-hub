@@ -1,41 +1,26 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 256 -->
-
-## Der IX. Vortrag.
-
-## Das 9. Beweiß-Stück.
-
-Welche Grössen zu einer einigen Grösse gleiche Verhältnüß haben / dieselbigen sind gleich groß; Und zu welchen Grössen eine einige Grösse gleiche Verhältnüß hat / dieselbigen sind gleich groß.
-
-### Gegebene. — Begehrtes.
-
-[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
-
-A : a | B : a — A | B.
+<!-- Page number: 264 -->
 
 ### Beweiß.
 
-A | 3a
-B | 3a — n. Gegebene.
-Dw. A | B — n. 6. Gr. I.
+A | 3a — n. Gegeb.
+2A ⊣ A — n. 9. Gr. I.
+α Dw. 2A ⊣ 3a — n. 1. Gr. a. I.
+⅔C | c — n. Gegeb.
+Dw. ⁶⁄₃C | 3c — n. 6. Gr. l. I.
+β oder 2C | 3c — n. 9. Gr. I.
 
-Oder also:
+Weil nun der I. Grösse Vervielfältigung grösser ist/ als die Vervielfältigung der III. Grösse; Die Vervielfältigung aber der II. Grösse nicht grösser ist/ als die Vervielfältigung der IV. Grösse; So ist A : a ⊣ C : c — n. 8. Besch. V.
 
-Wenn A ⊣ B — so muß
-auch A : a ⊣ B : a — n. 8. V.
-ist aber A ⊢ B — so muß
-A : a ⊢ B : a — n 8. V.
+### Beschluß.
 
-Beedes aber ist wider das Gegebene: müssen derowegen A und B gleichgroß seyn.
+Wenn derohalben die I: zu der II. eben solche Verhältnüß hat/ als die III: zu der IV. die III: zu der IV. aber eine grössere Verhältnüß hat/ als die V: zu der VI. so wird auch die I: zu der II. eine grössere Verhältnüß haben/ als die V: zu der VI. W. Z. B.
 
-### Beweiß des II. Theils.
+## Der XIV. Vortrag.
 
-### Gegebene. — Begehrtes.
+## Das 14. Beweiß-Stück.
 
-[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
+Wenn aus etlichen Grössen die Erste zu der Andern eben so vielfältig ist/ als die Dritte zu der Vierten; Die Erste aber grösser ist/ als die Dritte/ so ist die Andere auch grösser/ als die Vierte. Ist aber die Erste eben so groß/ als die Dritte/ so ist auch die Andere eben so groß/ als die Vierte: Und wenn die Erste kleiner ist/ als die Dritte/ so ist auch die Andere kleiner/ als die Vierte.
 
-a : A | a : B — A | B
-<!-- Signature: B -->
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Gegebene. -->

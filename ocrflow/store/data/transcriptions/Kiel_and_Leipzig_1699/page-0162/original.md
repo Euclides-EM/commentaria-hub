@@ -1,28 +1,33 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 144 -->
+<!-- Page number: 146 -->
 
-### Gegebene. — Begehrtes.
+2. Werden gezogen die geraden Striche fc und cd.
+3. Durch die Mittel dieser beyden Striche werden gerade Senckstriche gezogen / bg und ek.
 
-1. Der Kreyß bcf.
-2. Düttel a in solchem Kreyß.
-3. Drey gerade Striche von diesem Düttel a zum Umfang gezogen/
-4. Welche gleich lang sind ab | ac | ad
-
-a Der Mittel-Düpffel dieses Kreyses. bcf
-
-### Vorbereitung.
-
-1. Ziehe man die geraden Striche cb und cd.
-2. Theile man dieser Striche jedweden in zween gleiche Theil/
-n. 10. I.
-3. Durch beyder Striche Mittel/ nemlich m und n, werden gerade Senckstriche kh und ef gezogen / n. 11. I.
-
-[Diagram: Kreis mit den Punkten h oben, b links oben, e links, c links unten, k unten, d rechts unten und f rechts; im Innern der Düttel a, die Mittel m und n, mit teils punktierten Strichen verbunden]
+[Diagram: zwei einander schneidende Kreise; darauf die Punkte i und k oben, d und h, l, b, a, g, m in der Mitte, c und f unten, e zuunterst; punktierte Verbindungsstriche durch a]
 
 ### I. Beweiß.
 
-Wolte man sagen/nicht a, sondern ein anderer Düttel were der Mittel-Düpffel/ so würde folgen / daß mehr/ als zween gleichlange Striche aus einem Düttel / so doch nicht der Mittel Düpffel ist / könten zum Umfang gezogen werden / welches aber unmöglich/
-n. 7. III.
+bg schneidet den Strich dc in zween gleiche Theil e, und zwar nach rechten Winckeln.
+Desgleichen theilet auch ei den Strich cf n. 3. Vorber.
+Dw. wird beeder Kreyse Mittel-Düpffel in a seyn n. 1. Zugab. III.
+Welches aber unmöglich n. 5. III.
 
-<!-- Catchword: II. Be- -->
+### II. Beweiß.
+
+ad | ac | af — n. 15. Beschr. I.
+Dw. ist a der Mittel-Dupffel beeder Kreyse n. 9. III.
+Welches aber unmöglich nach 5. III.
+
+### Beschluß.
+
+Kan also kein Kreyß einen andern Kreyß in drey oder mehr Dütteln durchschneiden. W. Z. B.
+
+## Der XI. Vortrag.
+
+## Das 10. Beweiß-Stück.
+
+Wenn zween Kreyse einander inwendig berühren/so wird der gerade Strich/ welcher durch beeder Kreyse Mittel-Düpffele gezogen wird / auff den Anrührungs-Düttel stossen.
+
+<!-- Catchword: Ge- -->

@@ -1,36 +1,29 @@
-<!-- Page number: 124 -->
+<!-- Page number: 126 -->
 
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Das III. Buch -->
 
-## Der XIV. Vortrag.
+### Beweiß.
 
-## Das 2. Werckstück.
+d ⊣ c
+aa | cd ✠ bb — n. 7. II.
+aa | ee ✠ bb — n. 47. I.
+ee (✠ bb) | cd (✠ bb) — n. 1. Gr. I.
+Dw. ee | cd — n. 3. Gr. I.
 
-Eine gegebene gerad-seitige Gestalt/ in ein gleichseitiges Viereck zuverwandeln.
+W. Z. M.
 
-### Gegebenes. — Begehrte.
+[Diagram: links ein Quadrat (schwach), rechts ein schiefes Viereck]
 
-Die gerad-seitige Gestalt *abdc*.
+# Das III. Buch Euclidis.
 
-1 Das □ ek
-2 □ ek | ▭ abdc.
+## Beschreibungen.
 
-### Wirckung.
+I. Gleichgrosse Kreyse sind / deren Durchschläge gleichlang sind.
 
-1. Verwandelt man die Gestalt abdc in ein rechtwincklichtes □ n. 42. I.
+[Diagram: zwei gleichgrosse Kreise, der linke mit waagerechtem, der rechte mit schrägem Durchmesser]
 
-2. Dieses ▭ Länge ef und Breite ea werden auff einen geraden Strich ah gesetzet.
+II. Ein anrührender Strich ca ist / welcher den Kreyß zwar in dem Düttel a berühret / wenn er aber fort gezogen wird / denselben nicht durchschneidet.
 
-3. Der zusammengesetzte Strich ah wird in zween gleiche theile ai | ih getheilet n 10. I.
+[Diagram: Kreis mit Mitteldüpffel b, oben berührender Strich durch a, punktierte Linie von b nach c]
 
-4. Aus dem Düttel i wird nach der Weite ia oder ih ein Kreyß beschrieben. n. 3. Foder.
-
-5. Aus dem Düttel e, wo die Länge und Breite zusammen gesetzet / wird ein Senckstrich ek biß zu des beschriebenen Kreyses ümbfang gezogen (welches aber hier nicht nöthig / weil solcher Senckstrich in der längern Seite ef stehet.)
-
-6. Auff den Strich ek wird ein gleichseitig □ gesetzet. n. 46. I.
-
-### Vorbereitung.
-
-Aus dem Mitteldüpffel i wird biß zu k der Strich ik gezogen.
-
-<!-- Catchword: Be- -->
+<!-- Catchword: III. An- -->

@@ -1,33 +1,39 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 219 -->
+<!-- Page number: 227 -->
+
+### Beweiß.
+
+cb | ca
+ab | ca — n. 15. Besch. I.
+Dw. — ab | cb — n. 1. Gr. I.
+u. — abc | gleichseitig △ — n. 23. Besch. I
+Dw. — acb ∧ abc ∧ bac — n. 8. I.
+u. — acb ∧ ⅓ ⌓ — n. 32. I.
+bac ∧ cad — n. 8. I.
+bac + cad + dae ∧ ⌓ — n. 13. I.
+bac | ⅓ ⌓
+cad | ⅓ ⌓
+Dw. — dae | ⅓ ⌓ — n. 3. Gr. I.
+bac ∧ fae
+cad ∧ fag
+dae ∧ bag — n. 15. I.
+Dw. — bac ∧ cad ∧ dae ∧ fae ∧ fag ∧ bag, n. 11. Gr. I.
+α. u. — bc ⌒ cd ⌒ de ⌒ fe ⌒ fg ⌒ bg — n. 26. III.
+u. — bc | cd | de | fe | fg | bg — n. 29. III.
+bc ⌒ de — n. Bew. α.
+efgb ⌒ efgb
+Dw. — efgb + bc ⌒ de + efgb — n. 1. Gr. I.
+u. — cde ∧ bcd — n. 27. III.
+Gleicher Weise cde ∧ def ∧ efg ∧ fgb ∧ gbc
+
+Dw. ist das Sechßeck bcdefg gleichseitig und gleichwincklicht/
+und dem gegebenen Kreyß eingeschrieben/ n. 3. Beschr. IV.
 
 ### Beschluß.
 
-Ist also ein gleichschencklichtes Dreyeck abd verfertiget/dessen
-Gipffelswinckel dab halb so groß/als einer von den Grundwinckeln
-dba oder bda. W. Z. M.
+Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
+licht Sechßeck eingeschrieben. W Z. M.
 
-## Der XI. Vortrag.
-
-## Das 11. Werck-Stück.
-
-In den gegebenen Kreyß ein gleichseitig und
-gleichwincklicht Fünffeck einzuschreiben.
-
-### Gegebenes. — Begehrte.
-Kreyß bcdae. — 1. Gleichseitig- und gleichwincklicht Fünffeck
-2. dem Kreyß eingeschrieben.
-
-[Diagram: links ein gleichschencklichtes Dreyeck A B C mit punktierten Bögen; rechts ein Kreis mit einbeschriebenem Fünffeck b c d a e, dessen Ecken durch Zwergstriche (Pentagramm) verbunden sind, unten punktierte Bögen]
-
-### Wirckung.
-
-1. Werde ein gleichschencklicht Dreyeck ABC gemachet/ dessen
-Gipffelwinckel A halb so groß sey/ als einer von den Grundwin-
-ckeln B oder C, n. 10. IV.
-2. Dem gegebenen Kreyß werde ein Dreyeck abc gleichwinck-
-licht dem Dreyeck ABC eingeschrieben/ n. 2. IV.
-
-<!-- Signature: Ee 2 -->
-<!-- Catchword: 3. Der -->
+<!-- Signature: Ff 2 -->
+<!-- Catchword: I. An- -->

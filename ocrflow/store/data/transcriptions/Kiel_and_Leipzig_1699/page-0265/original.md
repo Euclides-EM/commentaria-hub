@@ -1,41 +1,35 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 241 -->
+<!-- Page number: 249 -->
+
+### Beschluß.
+
+Wenn derowegen aus vier Grössen die I. zu der II. in solcher Verhältnüß / wie die III. zu der IV. stehet; Und die V. zu der I. sich also wie die VI. zu der III. und auch die VII. zu der II. wie die IIX. zu der IV. sich verhält: So wird auch die V. zu der VII. also wie die VI. zu der IIX. sich verhalten. W. Z. B.
+
+## Der V. Vortrag.
+
+## Das 5. Beweiß-Stück.
+
+Wenn die Erste Grösse eben so vielfältig ist gegen die Andere Grösse / als das von der Ersten abgenommene Stück gegen das von der andern abgenommene Stück: So wird auch das Erste Übergebliebene gegen das Andere Übergebliebene eben so vielfältig seyn / als die Erste gantze Grösse gegen die Andere gantze Grösse.
+
+### Gegebene. — Begehrtes.
+
+[Diagram: Zwey waagerechte Linien mit Teilstrichen, bezeichnet A und B]
+
+1. A | 2B
+2. a | 2b — A—a : B—b | A : B
+3. A : B | a : b
 
 ### Beweiß.
 
-|  |  |  |  |
-|---|---|---|---|
-| | c | a | |
-| | d | a | n. 2. Vorber. |
-| Dw. | c + d | 2a | n. 2. Gr. I. |
-| | c + d | A | n. 9. Gr. q. I. |
-| [unclear: α] Dw. | A. | 2a | n. 1. Gr. I. |
-| | e | a | |
-| | f | a | |
-| | g | a | n. 6. Vorb. |
-| Dw. | e + f + g | 3a | n. 2. Gr. I. |
-| | e + f + g | C | n. 9. Gr. q. I. |
-| Dw. | C | 3a | n. 1. Gr. I. |
-| und | A + C | 5a | n. 2. Gr. I. |
-| | h. | b | |
-| | k | b | |
-| | h + k | 2b | |
-| | h + k | B | |
-| [unclear: θ] Dw. | B | 2b | |
-| | l | b | |
-| | m | b | |
-| | n | b | |
-| Dw. | l + m + n | 3b | |
-| | l + m + n | D | |
-| Dw. | D | 3b | |
-| β u. | B + D | 5b. | |
+A | 2B — n. 1.
+a | 2b — n. 2. Gegeb.
+A—a | 2B—2b — n. 3. Gr. I.
+2B—2b | Zwiefach B—b
+Dw. A—a | Zwiefach B—b — n. 6. Gr. kk. I.
+und A | Zwiefach B — n. 1. Gegeb.
+Dw. A—a : B—b | A : B. — n 7. Beschr. V.
 
-### Vorbereitung.
+<!-- Signature: Ji -->
 
-1. Es werde die Grösse a sechsmahl/ und
-2. Die Grösse b auch sechsmahl genommen.
-
-<!-- Signature: Hh -->
-
-<!-- Catchword: A -->
+<!-- Catchword: Beschluß. -->

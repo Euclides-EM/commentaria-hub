@@ -1,28 +1,29 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 205 -->
+<!-- Page number: 207 -->
 
-## Der III. Vortrag.
+## Der IV. Vortrag.
 
-## Das 3. Werck-Stück.
+## Das 4. Werck-Stück.
 
-Umb einen gegebenen Kreyß ein DreyEck/welches dem gegebenen DreyEck gleichwincklicht sey/ zubeschreiben.
+In ein gegebenes Drey Eck einen Kreyß einzuschreiben.
 
-### Gegebene. Begehrte.
+### Gegebenes. Begehrte.
 
-1. Kreyß edc. 1. △ afg gleichwincklicht △ ikm.
-2. Drey Eck ikm. 2. Umb den gegebenen O umbgeschrieben.
+Dreyeck efg. 1. Kreyß bcd,
+2. Welcher dem gegebenen △ eingeschrieben.
 
-[Diagram: Kreis mit Mittelpunkt b und Düttelen c, d, e; umbeschriebenes Dreyeck afg mit Rührstrichen; rechts daneben Dreyeck ikm auf der Grundlinie l–i–k–h mit punktierten Halbkreisbögen]
+[Diagram: Dreyeck efg mit Spitze e oben; darin eingeschriebener Kreis mit Mittelpunkt a und Rührdüpffeln c, d, b; Winckeltheilende Striche von e und f nach a, punktierter Senckstrich ac]
 
 ### Wirckung.
 
-1. Des gegebenen △ ikm Grundstrich ik werde auff beeden Seiten nohtdürfftig verlänget gegen h und l.
-2. Werde in dem O der Strahl cb gezogen.
-3. An dem Mittel-Düpffel b auff den Strahl eb werde der Winckel cbe ∧ mil.
-4. Und auff die andere Seite der Winckel cbd ∧ mkh gesetzt. n 23. I.
-5. An die Düttele c, d, e werden Rührstriche ca, cg, eg, ef, df, da, gezogen. n. 17. III.
+1. Der Winckel e werde in zwey gleiche Theile dea ∧ cea getheilet.
+2. Wie auch der Winckel f in efa ∧ bfa.
+3. Aus dem Düttel a, wo diese beede Winckeltheilende Striche ea und fa einander schneiden / werde auff die Seite ef ein Senckstrich ac gesetzet. n. 12. I.
+4. Nach der Weite ac werde der Kreyß cdb beschrieben.
 
-<!-- Signature: Cc 3 -->
+### Vorbereitung.
 
-<!-- Catchword: Vor- -->
+Es werde gezogen aus dem Mittel-Düpffel a
+
+<!-- Catchword: 1. Des -->

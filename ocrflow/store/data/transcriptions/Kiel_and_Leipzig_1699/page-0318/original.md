@@ -1,20 +1,30 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 294 -->
+<!-- Page number: 302 -->
+
+### Oder:
+
+|  |  |  |
+|---|---|---|
+| b + a | ⊣ c + a | n. Geg. |
+| a \| | a |  |
+| b + a : a | ⊣ c + a : a | n. 8. V. |
+| b + a : c + a | ⊣ a a | n. 27. V. |
+| b : c | ⊣ b + a : c + a | n. 33. V. |
 
 ### Beschluß.
-Wenn derowegen VI. Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die IV. zu der V. auch die II. zu der III. eine grössere Verhältnüß / als die V. zu der Sechsten hat: So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
+Wenn man derowegen zu zwo ungleichen Grössen zwey gleiche Stücke thut / so werden die zusammengesetzte Grössen eine kleinere Verhältnüß zu einander haben / als die Ersten beyden Grössen. Schneidet man aber zwey gleiche Stücke von denselben ab / so werden die Ubergebliebene eine grössere Verhältnüß haben / als die Ersten beyden ungleichen Grössen. W. Z. B.
 
-## Der XXXII. Vortrag.
-## Das 32. Beweiß-Stück.
+---
 
-Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darzu genommen werden. Unter den Ersten dreyen aber die Erste zu der Andern eine grössere Verhältnüß hat / als in der andern Ahrt die Andere zu der Dritten. Deßgleichen unter der Ersten die Andere zu der Dritten eine grössere Verhältnüß hat / als unter den Andern die Erste zu der Andern; So wird auch nach der Gleichheit die Erste der ersten Ahrt zu der Dritten selbiger Ahrt eine grössere Verhältnüß haben / als die Erste der andern Ahrt zu der Dritten solcher Ahrt.
+# Das VI. Buch Euclidis.
 
-### Gegebene.
+## Beschreibungen.
 
-[Diagram: sechs waagerechte Linien A, B, C, a, b, c von unterschiedlicher Länge]
+I. Gleichähnliche geradstrichichte ( Similes rectilineæ ) Gestalte sind / welche gleichmässige Winckel und ebenmässige Seiten haben.
 
-A : B ⊣ b : c
-B : C ⊣ a : b
+II. Wechselmässige (Reciprocæ) Gestalte sind / in welchen beyderseits vor- und nachgehende ebenmässige Striche sich befinden.
 
-<!-- Catchword: Begehrtes. -->
+III. Ein nach der äusersten und mittelsten Verhältnüß (secundùm mediam & extremam rationem) getheilter Strich wird genennet / welcher sich zu seinem grösseren Stück also / wie solch grössestes Stück zu dem kleinern / verhält.
+
+<!-- Catchword: IV. Die -->

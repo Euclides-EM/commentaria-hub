@@ -1,29 +1,35 @@
 <!-- Running title: Das I. Buch -->
 
-<!-- Page number: 22 -->
+<!-- Page number: 24 -->
 
-Strich/ bey den verlängeten Seiten-Strichen befindliche Winckel/einer dem andern gleich.
+### Gegebene. | Begehrtes.
 
-### Gegebene. | Begehrte.
+1. Das △ ABC | AB | AC
+2. ABC ⋏ ACB
 
-1. Gleichschenckliches △ ABC | 1. ABC ⋏ ACB
-2. AB | AC | 2. BCE ⋏ CBD
-3. Die verlängte schenckel BD und CE.
-
-### Vorbereitung.
-
-1. Es werde gemacht BD | CE nach 3. Vortrag.
-2. Werde gezogen der Strich BE
-3. Deßgleichen CD
-
-[Diagram: zwey gleichschencklige Dreyecke ABC mit verlängten Schenckeln bis D und E, dazu punktierte Striche BE und CD]
+[Diagram: Dreyeck ABC mit Punkt D auff der Seite AB und punktiertem Strich DC]
 
 ### Beweiß.
 
-BD | CE nach 3. Vortr.
-AB | AC nach 2. Gegebenem
-Dw. AB + BD | AC + CE nach 2. Grund-S.
-oder DA | EA nach 9. GrS.
-AC | AB nach 2. Gegeb.
+Entweder ist AB | AC
+oder AB ⊣ AC
+oder AB ⊢ AC
 
-<!-- Catchword: DA -->
+### Vorbereitung.
+
+wenn AB ⊣ AC
+so schneide man von AB ab
+ein Stück AD | AC nach 3. Vortr.
+α Darnach ziehe man den geraden Strich CD.
+verfolg des Beweises/
+
+DB | AC nach Vorber. α
+BC | BC
+DB + BC | AC + BC nach 2. GrS.
+DBC ⋏ ACB nach Gegeb. 2.
+Dw. DCB ⏉ ABC nach 4. Vortr.
+Welches aber unmüglich nach 9. GrS.
+
+Gleiche Beschaffenheit wird es haben / wenn man sagen wolte AB ⊢ AC.
+
+<!-- Catchword: Beschluß. -->

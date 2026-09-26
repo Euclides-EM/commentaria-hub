@@ -1,41 +1,39 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 187 -->
-
-### Wirckung.
-
-1. Auff den gegebenen Strich ab oder al werde gesetzet der Winckel baf oder laf ⋀ ead. n. 23. I.
-2. Auff den Strich fa und zwar auff den Düttel a werde ein Senckstrich ag gesetzet. n. 11. I.
-3. Der Strich ad werde in zween gleiche Theil geschnitten in k. n. 10. I.
-4. Auff dieses Striches ab oder al Mittel k werde der Senckstrich ki gesetzet. n. 11. I.
-
-Aus dem Düttel g, wo die beeden Senckstriche einander durchschneiden/ werde der Kreyß bha oder lha beschrieben.
+<!-- Page number: 189 -->
 
 ### Vorbereitung.
 
-In das Kreyßstück bha oder lha werde der Winckel ahb oder abl gesetzet.
+Der Winckel bha werde in das gemachte Kreyß-Stück gesetzet.
 
-### I. Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | ak | bk oder lk | n. 3. Wirck. |
-|  | ga | Senckstrich | n. 2. Wirck. |
-| Dw. | g | Mittel-Düpffel | n 1. Anhang III. n. 19. III. |
-| baf oder laf ⋀ ecd |  |  | n. 1. Wirck. |
-| baf oder laf ⋀ bha oder lha |  |  | n. 32. III. |
-| Dw. | ecd ⋀ bha oder lha |  | n. 1. Gr. I. |
+|  | Kreyßstück bha | Halbkreyß | n. 28. Beschr. I. |
+| Dw. | ahb ⋀ ∟ |  | n. 31. III. |
+|  | ecd ⋀ ∟ |  | n. Gegeb. |
+| Dw. | ecd ⋀ ahb |  | n. 1 und 10. Gr. I. |
 
-II. Arth.
+Gleiche bewandniß hat es mit allen Winckeln/ so in das verfertigte Kreyßstück könne gesetzet werden.
 
-### Wirckung.
+### Beschluß.
 
-1. Auff den gegebenen Strich ab werde gesetzet
-baf ⋀ ecd n. 23. I.
-2. Auff a werde der Senckstrich ag gesetzet.
-3. Auff b werde gesetzet abg ⋀ bag n. 23. I.
-4. Aus g nach der weite ga werde der Kreyß ahb beschrieben.
+Ist also das Kreyß-Stück bha oder lha verfertiget / in welchem ein Winckel ahb ⋀ ecd stehen kan. W. Z. M.
 
-<!-- Signature: Aa 2 -->
+## Der XXXIV. Vortrag.
 
-<!-- Catchword: Vor- -->
+## Das 6. Werckstück.
+
+Von einem gegebenen Kreyß ein Stück / in welchem ein Winckel / so dem gegebenen Winckel gleich groß ist/ stehen könne / abzuschneiden.
+
+### Gegebene. | Begehrtes.
+
+1. Kreyß dead. | 1. Abgeschnittenes Kreyßstück dea.
+2. Winckel hfg. | 2. In welchem stehen kan aed ⋀ hfg.
+
+[Diagram: Kreis mit Punkten e, d, n, m, a, b; Tangente g–c–f–a–b unten, Striche h und k links]
+
+<!-- Signature: Aa 3 -->
+
+<!-- Catchword: Wir- -->

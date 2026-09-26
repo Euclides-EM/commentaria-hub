@@ -1,30 +1,37 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 201 -->
+<!-- Page number: 203 -->
 
-und ak | ad n. 2. Gr. u. II.
-cd | ck n. 15. Beschr. I.
-ac | ac
-Dw. ak + cd + ac | ad + ck + ac n. 2. Gr. I.
-und adc ∧ akc n. 8. I.
-akc | ⌐ n. 1. Wirck. u. n. 16. III.
-Dw. adc | ⌐ n. 10. Gr. I.
-und ad | Rührstrich n. 16. III. u. 2. Besch. III.
+### Wirckung.
+
+1. Werde der Durchschlag cg gezogen.
+2. Von diesem Durschlag werde abgeschnitten das Stück ce | ab n. 3. I.
+3. Nach der Weite ce, werde aus c, als einem Mittel-Düpffel/ ein Kreyß gezogen.
+4. Zu dem Düttel d, wo dieser Kreyß den gegebenen Kreyß durchschneidet/werde der Strich cd gezogen.
+
+### Beweiß.
+
+ce | ab n. 1. Wirck.
+ce | cd n. 15. Beschr. I.
+Dw. cd | ab n. 1. Gr. I.
+und cd | dem Kreyß eingefüget n. 7. Beschr. IV.
 
 ### Beschluß.
 
-Wird also allezeit der auff den Kreyß khdg stossende/und aus a gezogene Strich ad, wenn desselben gleichseitiges Viereck eben so groß ist/ als das rechtwincklichte Viereck / welches von dem gantzen schneidenden Strich ah, und dem zwischen dem Düttel a und äussern Kreyßkrümme stehenden Stück ag begriffen wird/ein Rührstrich seyn. W. Z. B.
+Ist also der Strich cd | ab dem Kreyß cdf eingefüget. W. Z. M.
 
-# Das IV. Buch Euclidis.
+## Der II. Vortrag.
 
-## Beschreibungen.
+## Das 2. Werckstück.
 
-I. Diejenige geradstrichichte Gestalt wird einer andern geradstrichichten Gestalt eingeschrieben genennet / welche mit ihren Ecken aller derselben Gestalt/ welcher sie einverleibet ist/ Seiten berühret.
+In den gegebenen Kreyß ein Dreyeck/welches dem gegebenen Dreyeck gleich wincklicht sey/ einzu schreiben.
 
-II. Gleicherweise wird eine einer andern Gestalt umbschriebene Gestalt genennet / welche mit ihren Seiten alle derselben Gestalt/ so sie ümbgiebt/ Ecken berühret.
+### Gegebene. Begehrte.
 
-III. Eine geradstrichichte Gestalt wird einem Kreyß eingeschrieben genennet / wenn sie mit ihren Ecken den Umbkreyß oder Umbfang berühret.
+1. Kreyß abc. 1. In den Kreyß eingeschriebenes
+2. Dreyeck fgh. △ abc.
+2. △ abc gleichwincklicht dem △ fhg.
 
-<!-- Signature: C c -->
+<!-- Signature: Cc 2 -->
 
-<!-- Catchword: IV. Eine -->
+<!-- Catchword: Wir- -->

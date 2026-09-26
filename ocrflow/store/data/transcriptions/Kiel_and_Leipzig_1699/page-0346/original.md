@@ -1,33 +1,32 @@
-<!-- Page number: 322 -->
+<!-- Page number: 330 -->
 
 <!-- Running title: Das VI. Buch -->
 
-| CFD ⋏ bca | n. Bew. α.
-Dw. | bc : CF | ab : CD | n. 4. VI.
-| bc : CE | ab : CD | n. 3. Geg.
-Dw. | bc : CE | bc : CF | n. 11. V.
-u. | CE | CF | n. 9. V.
-Dw. | CDE ⋏ CDF | n. 8. I.
-welches unmüglich n. 9. Gr. I.
+### Gegebene.
 
-III. Ahrt Vorbereitung.
+1. Der gerade Strich ac.
+2. Der begehrte Theil/und zwar allhier 1/6.
 
-Es werde 1. CEG ⋏ bca
-und 2. ECG ⋏ abc   n. 23. I.
+### Begehrtes.
 
-[Diagram: links Dreieck CDE mit punktierten Linien zu einem Punkt G unterhalb; rechts grösseres Dreieck abC]
+Der sechste Theil ec des Striches ac.
+
+[Diagram: Dreieck aus dem Strich ac und dem schräg gezogenen Strich af mit den Punkten d, b, f; punktierte Linien verbinden die Theilpunkte mit der Grundlinie, darauf e nahe c]
+
+### Wirckung.
+
+1. Aus einem der beyden Endcüttele des Striches ac werde der Strich af nach Nothdurfft gezogen.
+2. Auf diesen Strich af werden aus a ordentlich nacheinander sechs gleiche Theile gesetzet n. 3. I.
+3. Aus dem Düttel b, wo der letzte Sechste Theil sich endet/ werde biß c ein gerader Strich bc gezogen.
+4. Aus dem Düttel d, wo das letzte Sechste Theil anfänget/ wird biß an den Strich ac gegen bc ein gerader Nebenstrich de gezogen. n. 31. I.
 
 ### Beweiß.
 
-CEG ⋏ bca
-ECG ⋏ abc   n. Vorber.
-α Dw. | G ⋏ a | n. 32. I.
-u. | ab : bc | CG : CE | n. 4. VI.
-| ab : bc | CD : CE | n. 3. Geg.
-Dw. | CD : CE | CG : CE | n. 11. V.
-u. | CD | CG | n. 9. V.
-u. | DE | EG | n. gleichen Bew.
-Dw. | G ⋏ D | n. 32. I.
-| D ⋏ a | n. Bew. α.
+| de ⧣ bc | n. 4. Werck.
+Dw. | ad : db | ae : ec | n. 2. VI.
+| ad + db : db | ae + ec : ec | n. 18. V.
+oder | ab : db | ac : ec | n. 9. Gr. q. I.
+| ab | 6 |
+| db | 1 | n. 2. Wirck.
 
 <!-- Catchword: Dw. -->

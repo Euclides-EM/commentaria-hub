@@ -1,36 +1,32 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 19 -->
+<!-- Page number: 21 -->
 
-### Beweiß.
+Keines von beeden kan seyn/ nach dem 9. GrS. muß derowegen der Strich ac nothwendig auff den Strich AC fallen.
 
-cf | ab nach 2 Vortr.
-cf | cg nach 15 Beschr.
-Dw. ab | cg nach 1 Grund-S.
+Wann nun des Strichs bc beede End-Düttele b und c auff die beeden Endungen des Strichs BC fallen /so muß der Grund-Strich bc entweder auff den Grund-Strich B, oder darüber/ oder darunter fallen.
+
+[Diagram: zwey Dreyecke abc und ABC nebeneinander, unter dem zweyten eine punktierte Bogenlinie zwischen B und C]
+
+Uber oder darunter kan er nicht fallen weil sonsten zween gerade Striche eine Gestalt einschliessen würden / welches unmöglich/ nach 12. Grund-Satz.
 
 ### Beschluß.
 
-Und ist also von dem grössern ch abgeschnitten ein Stück cg | ab
-W. Z. M.
+Muß also der Grund-Strich abc auff den Grund-Strich ABC fallen/ und deßwegen mit demselben geschicklich eintreffen / dannenhero auch
 
-## Der IV. Vortrag.
+bc | BC
+bca ⋏ BCA
+cba ⋏ CBA
+abc ⏉ ABC
 
-## Das I. Beweiß-Stück.
+alles nach 18. GrS. W. Z. B.
 
-Wenn in zweyen Dreyecken zwo Seiten des einen eben so groß seynd / als zwo Seiten des andern/und zwar jedwede Seite einer jedweden absonderlich; darnach auch diejenigen Winckel/ welche von den gedachten Seiten eingeschlossen werden / gleich sind: so werden auch die beeden Grund-Striche/ und die beeden Dreyecke ein ander gleich seyn; deßgleichen werden die übrigen Winckel/ derer gegenüberstehende Striche gleich groß seynd / auch ein ander gleich seyn.
+## Der V. Vortrag.
 
-### Gegebene. | Begehrte.
+## Das 2. Beweiß-Stück.
 
-1. Zwey geradstrichiche Dreyecke ABC und abc | BC | bc, ABC ⏉ abc
-2. AB + AC | ab + ac | BCA ⋏ bca
-3. AB | ab | und ABC ⋏ abc
-4. AC | ac
-5. BAC ⋏ bac
+In jedwedem gleichseitigen Dreyeck sind die beeden auff dem Grund-Strich stehende Winckel ein ander gleich / und die beeden unter dem Grund-
 
-### Vorbereitung.
+<!-- Signature: C 3 -->
 
-Man hebe das △ abc auff/ und setze es auff das △ ABC also / daß der Düttel a auff den Düttel A, und der Strich AB auff den Strich AB falle.
-
-<!-- Signature: C 2 -->
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Strich -->

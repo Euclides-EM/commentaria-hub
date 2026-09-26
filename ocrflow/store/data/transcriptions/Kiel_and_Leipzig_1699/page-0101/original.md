@@ -1,30 +1,34 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 83 -->
+<!-- Page number: 85 -->
 
-lichten Dreyeck vermag der/dem rechten Winckel entgegen gesetzte Strich/ so viel/ als die beeden übrigen Seiten.
+□ fx | □ fpib | n. Bew. β.
+Dw. □ fx + □ gx | □ gbie + □ fpib | n. 2. Gr S.
+□ fg | □ gbie + □ fpib | n. 9 GrS. q.
+Dw. □ fg | □ fx + □ gx | n. 1. GrS.
 
-### Gegebenes. | Begehrtes.
-1. Rechtwincklichtes Dreyeck fxg | □ fg | □ xg + □ fx.
-2. fxg ∠ ⌐
-3. Dem rechten Winckel entgegen gesetzte Seite fg.
-4. Die beeden Seiten xg und xf, welche den ⌐ begreiffen.
+### Beschluß.
+
+Ist also in jedwedem rechtwincklichten △ das □ des Strichs/ so dem rechten Winckel gegen über stehet/ eben so groß/ als die Vierecke der beeden andern Seiten zusammen. W. Z. B.
+
+## Der XLVIII. Vortrag.
+
+## Das 34. Beweiß-Stück.
+
+Wenn in einem Dreyeck/ das Viereck einer Seite eben so groß ist / als der übrigen beeden Seiten Vierecke/ so werden diese beeden Seiten einen rechten Winckel begreiffen.
+
+### Gegebene. | Begehrtes.
+1. △ abc | acb | ⌐
+2. □ ab | □ cb + □ ac
 
 ### Vorbereitung.
 
-Es werden gemacht.
+1. Auff die Seite ac, und zwar den Düttel c, werde ein Senckstrich cd gesetzet. n. 11. Vortr.
+2. Senckstrich cd | cb n. 2. Vortr.
+3. Werde der Strich ad gezogen.
 
-1. Auff den Strich fg das □ fpeg
-2. - - - xf - □ fxlr
-3. - - - xg - □ xgh | n. 46. Vortr.
-4. Aus dem Düttel x der Strich xi = ge = fp n. 31. Vortr.
-5. Aus dem Düttel x der Strich xe
-6. - - - - x - - xp
-7. - - - - f - - fh
-8. - - - - g - - gr
+[Diagram: Dreyeck mit Spitze a oben, Grundpunkten d und b, Fußpunkt c unten, mit Senckstrich und Winckelzeichen]
 
-[Diagram: rechtwinckliges Dreyeck fxg mit den drey Vierecken über den Seiten und punktierten Hülfslinien; Punkte r, m, s, k, f, i, o, e, b, a, g, c, x, l, d, h]
+<!-- Signature: L 3 -->
 
-<!-- Signature: L 2 -->
-
-<!-- Catchword: Beweiß -->
+<!-- Catchword: Be- -->

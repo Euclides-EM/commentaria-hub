@@ -1,32 +1,39 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 149 -->
-
-### Gegebene. — Begehrtes.
-
-1. Zweene Kreyse ebf und dbg.
-2. Welche auswendig in b
-3. Einander anrühren.
-4. Gerader Strich ac,
-5. Welcher die beeden Mittel-Düpffel a und c zusammen henget.
-
-Strich ac durch den Anrührungs-Düttel b gehend.
-
-[Diagram: zwei einander von aussen berührende Kreise; am Berührungsort der Punkt b, darüber f und g; im linken Kreis a, unten e und d, im rechten Kreis c; gerade und punktierte Verbindungsstriche]
+<!-- Page number: 151 -->
 
 ### Vorbereitung.
 
-Wann der Strich ac nicht durch den Anrührungs-Düttel b gehet/so ziehe man aus den beeden angenom̄enen Mittel-Düpffeln a und c zweene Stralen zum Anrührungs-Düpffel b, nemlich ab und cb.
+So werde durch die beeden angenom̄enen Mittel-Düpffele a und b ein gerader Strich / welcher auf die beeden Anrührungs-Düttele c und d stosse / gezogen.
 
-### Beweiß
+### Beweiß.
 
-ab | ae
-bc | cd — n. Vorb. und n. 15. Besch. I.
-ab + bc | ae + cd — n. 2. Gr. I.
-ab + bc ⊣ ac — n. 20. I.
-Dw. ae + cd ⊣ ac — n. 1. Gr. c. I.
-Welches aber unmöglich n. 9. Gr. I.
+ad | ac — n. 15. Beschr. I. und nach Angen.
+ad ⊣ bd — n. 9. Gr. I.
+Dw. ac ⊣ bd — n. 1. Gr. c. I.
+bc | bd — n. 15. Beschr. I. und nach Angen.
+Dw. ac ⊣ bc — n. 1. Gr. a. I.
+Welches unmüglich n. 9. Gr. I.
 
-<!-- Signature: T 3 -->
+### II. Begebenheit.
 
-<!-- Catchword: Oder -->
+Wann der inwendige Kreyß den eussern in h und g anrühret.
+
+[Diagram: zwei Kreise, deren innerer den äusseren oben in h und g anrühret; im Innern die Mittel-Düpffele f und e mit punktierten Stralen nach h und g]
+
+### Vorbereitung.
+
+So seyen 1. die beeden Mittel-Düpffele e und f.
+2. darnach werden aus den Anrührungs-Dütteln die Stralen hf, he, gf und ge, zu den beeden Mittel-Düpffeln gezogen.
+
+### Beweiß.
+
+hf | gf — n. 15. Beschr. I. und nach angen.
+fe | fe
+hf + fe | gf + fe — n. 2. Gr. I.
+ge ⊢ gf + fe — n. 20. I.
+Dw. ge ⊢ hf + fe — n. 1. Gr. b. I.
+Oder ge ⊢ he — n. 9. Gr. q. I.
+Welches unmüglich n. 15. Beschr. I.
+
+<!-- Catchword: III. Be- -->

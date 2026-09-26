@@ -1,33 +1,27 @@
-<!-- Page number: 306 -->
+<!-- Page number: 314 -->
 
 <!-- Running title: Das VI. Buch -->
 
-### Begehrtes.
+### II. Beweiß.
 
-□ AD : □ BC | ml : gh.
+ae : ec | ad : db — n. Geg.
+△ ade : △ dbe | ad : db — n. 1. VI.
+Dw. △ ade : △ bde | ac : ec — n. 11. V.
+△ ade : △ cde | ae : ec — n. 1. VI.
+Dw. △ ade : △ cde | △ ade : △ bde — n. 11. V.
+u. △ cde | △ bde — n. 9. V.
+Dw. de ⧣ bc — n. 39. I.
 
-[Diagram: Zwei nebenstrichichte Vierecke mit den Buchstaben D, A und C, B, Eckpunkte n r o k i oben und m l g h unten, mit gestrichelten Diagonalen]
+### II. Beschluß.
 
-### Vorbereitung.
+Wenn derowegen ein gerader Strich zwo des Dreyeckes Seiten also schneidet/ daß die Stücke in ebenmässiger Verhältnüß stehen/ so wird der schneidende Strich ein Nebenstrich des Grundstrichs seyn. W. Z. B.
 
-1. Werden die Zwergstriche mo und gi,
-2. Deßgleichen der Senckstrich rm, gezogen.
+## Der III. Vortrag.
 
-### Beweiß.
+## Das 3. Beweiß-Stück.
 
-□ AD | 2 △ A — n. 34. I.
-□ BC | □ BC
-Dw. □ AD : □ BC | 2 △ A : □ BC — n. 7. V.
-2 △ B | □ BC — n. 34. V.
-2 △ A | 2 △ A
-Dw. 2 △ A : 2 △ B | 2 △ A : □ BC — n. 7. V.
-u. 2 △ A : 2 △ B | □ AD : □ BC — n. 11. V.
-Dw. △ A : △ B | □ AD : □ BC — n. 15. V.
-△ A : △ B | ml : gh — n. Bew. ∝
-Dw. □ AD : □ BC | ml : gh — n. 11. V.
+Wenn eines Dreyecks Winckel in zween gleiche Theile/ durch einen geraden Strich/ welcher den Grundstrich auch schneidet/ getheilet wird/ so stehen die Stücke des Grundstriches in ebenmässiger Verhältnüß mit den beyden Seiten des Dreyeckes.
 
-### Beschluß.
+Und wenn ein gerader Strich aus der Spitze des Dreyeckes gezogen/ den Grundstrich also schneidet/ daß dessen Stücke mit denen Seiten in ebenmässiger Verhältnüß stehen/ so theilet der Strich auch den Winckel in zweene gleiche Theile.
 
-Werden derowegen alle Nebenstrichichte Viercke sich gegen einander also/ wie derselben Grundstriche verhalten. W. Z. B.
-
-<!-- Catchword: Des -->
+<!-- Catchword: I. Gege- -->

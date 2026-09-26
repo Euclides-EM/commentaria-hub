@@ -1,34 +1,30 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 178 -->
+<!-- Page number: 180 -->
 
-## Der XXIX. Vortrag.
+## Der XXXI. Vortrag.
 
-## Das 26. Beweiß-Stück.
-In gleichgrossen Kreysen werden gleichgrosse Bogen von gleichlangen Strichen überspannet.
+## Das 27. Beweiß-Stück.
+Wann ein Kreyß-Stück ein Halb-Kreyß ist/ so stehet ein rechter Winckel darinn; ist es aber grösser/ so stehet ein spitziger / und so es kleiner/ so stehet ein stumpffer Winckel darinn. Uber dieses ist eines grössern Kreyßstückes Winckel grösser/ und eines kleinern Kreyßstückes Winckel kleiner/ als ein rechter Winckel.
+
+### I. Begebenheit.
 
 ### Gegebene.
-1. Gleichgrosse Kreyse bgcb | ebfe.
-2. bc ⊻ ef.
-3. bgc ⏀ ehf.
+1. Kreyß dbcd.
+2. Halb-Kreyß bdc.
+3. Winckel cdb.
 
 ### Begehrtes.
-bc | ef.
+cdb ⋀ ∟
 
-[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, der andere mit h, d, e, f; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]
+[Diagram: Kreyß mit dem Zwerg-Strich bc durch den Mittel-Düpffel a, dem Punckt d oben am Kreyß und dem verlängten Strich bis e; der Strahl ad punctirt]
 
 ### Vorbereitung.
-Es werden gezogen die Stralen ab, ac, de, df.
-### Beweiß.
+1. Werde der Strich bd verlängt biß e.
+2. Der Strahl ad gezogen.
 
-ba | ed
-ac | df } n. 1. Beschr. III.
-Dw. ba + ac | ed + df   n. 2 Gr. I.
-bc ⊻ ef   n. 2. Gegeb.
-Dw. bac ⋀ edf   n. 27. III.
-und bc | ef   n. 4. I.
+### I. Beweiß.
+abd ⋀ adb
+acd ⋀ adc } n. 5. I.
 
-### Beschluß.
-Werden also allezeit in gleichgrossen Kreysen / gleichgrosse Bogen von gleichlangen geraden Strichen überspannet. W. Z. B.
-
-<!-- Catchword: Der -->
+<!-- Catchword: Dw. -->

@@ -1,31 +1,37 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 31 -->
+<!-- Page number: 33 -->
 
-### Wirckung.
+### Vorbereitung.
 
-1. Wird der gantze Striche in zween gleiche Theile getheilet.
-2. Jedwede helffte / wird wiederumb in zween gleiche Theile getheilet.
-3. Jedweder Vierthel wird abermahl in zween gleiche Theile geschnitten/ und so fort an.
+Man ziehe die beeden Striche CD und CE.
 
-## Der XI Vortrag.
+### Beweiß.
 
-## Das 6. Werckstück.
+DF | EF nach 10. Vortr.
+CF | CF
+DF + CF | EF + CF nach 2. Gr. S.
+DC | EC nach 15. Beschr.
+Dw. DFC ⋏ EFC nach 8. Vortr.
+und CF | ein bley-rechter Senckstrich n. 10. Beschr.
 
-Auff einen gegebenen geraden Strich / und zwar auff den darin gegebenen Düttel/ einen bleyrechten Senck-Strich zu setzen.
+### Beschluß.
 
-### Gegebene. | Begehrte.
+Ist also der begehrte Senckstrich CF aus dem gegebenen Düttel C auff den gegebenen Strich AB gezogen. W.Z.M.
 
-1. Gerade Strich AB. | 1. Der bley-rechte Senck-strich CD.
-2. Der Düttel C | 2. Auff den gegebenen Düttel C.
-3. In eben demselben Strich AB. | 3. Des gegebenen Striches AB.
+## Der XIII. Vortrag.
 
-### Wirckung.
+## Das 6. Beweiß Stück.
 
-1. Aus dem gegebenen Düttel C wird nach beliebiger weite ein Kreyß gezogen / welcher den gegebenen Strich in E und F durchschneidet.
-2. Auff dem Strich EF wird ein gleichseitiges (oder gleichschenckliches) △ gesetzet/ nach 1. Vortr.
-3. Aus dieses △es Gipffel D wird ein gerader Strich DC zu dem gegebenen Düttel C gezogen.
+Wenn ein gerader Strich auff einen liegenden geraden Strich stösset/ und zween Winckel machet / so werden solche Winckel entweder selbst zween rechte Winckel / oder wenigstes zweyen rechten Winckeln an grösse gleich seyn.
 
-[Diagram: Strich AB mit Düttel C, darüber der Senck-Strich CD mit punktiertem Dreyeck und Kreyß durch E und F]
+### Gegebene. | Begehrtes.
+
+Liegender Strich AB. | ⋀ ACD und DCB zween ∟ ∟. oder
+Darauff stossender Strich DC. | ⋀ ADC + BCD | ⊾.
+
+[Diagram: links liegender Strich AB mit senkrechtem Strich DC auff C; rechts liegender Strich AB mit schrägem Strich DC und punktiertem E]
+
+<!-- Signature: E -->
 
 <!-- Catchword: Be- -->

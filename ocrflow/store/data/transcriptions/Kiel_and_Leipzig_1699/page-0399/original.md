@@ -1,32 +1,28 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 369 -->
+<!-- Page number: 383 -->
+
+### Andere Ahrt.
+
+Noch leichter geschicht diese Theilung nach dem XI. Vortrag des II. Buchs.
+
+[Diagram: Rechteck mit punktierten Bogenlinien und den Punkten b, a, g, c, h, f, a, d, e]
 
 ### Beweiß.
 
-cd : dm | dm : dg n. 8. Wirck.
-oder CD : DM | DM : DG n. Anh. 7. V.
-CD : DG = | CD : DM n. 10. Besch. V.
-⬠ A : ⬠ L = | CD : DM n. 20. VI.
-Dw. CD : DG | ⬠ A : ⬠ L n. 11. V.
-CD : DG | □ DE : □ gf n. 1. VI.
-Dw. □ DE : □ gf | ⬠ A : ⬠ L n. 11. V.
-□ DE | ⬠ A n. 3. Wirck.
-Dw. □ gf | ⬠ L n. 14. V.
-□ gf | △ B n. 7. Wirck.
-Dw. ⬠ L | △ B n. 1. Gr. I.
-⬠ L ähnlich ⬠ A n. 10. Wirck.
-u. Eben so gesetzet.
+|  |  |  |  |
+|---|---|---|---|
+|  | □ ac | □ abc | n. 11. II. |
+|  | acg ⋀ | hcb | n. 13. I. |
+| Dw. | □ ac wechselmässig □ abc |  |  |
+| und | ab : ac | ac : cb | n. 14. VI. |
 
-### Beschluß.
+Dw. ist ab im c nach der äusersten und mittelsten Verhältnüß getheilet. W. Z. M.
 
-Ist also ein Fünfeck L, welches der Gestalt B gleichmässig/ dem Fünfeck A ähnlich/ und auch eben so gesetzet/ verfertiget. W. Z. M.
+## Der XXXI. Vortrag.
 
-## Der XXVI. Vortrag.
+## Das 21. Beweiß-Stück.
 
-## Das 19. Beweiß-Stück.
+In allen rechtwincklichten Dreyecken ist allezeit diejenige geradstrichichte Gestalt/ welche auf die/ dem rechten Winckel gegen überstehende/ Seite gesetzet wird/ denen beyden Gestalten/ so auf den übrigen beyden/ den rechten Winckel begreiffenden/ Seiten stehen/ und der ersten Gestalt ähnlich/ auch gleicher weise gesetzt sind/ gleichmässig.
 
-Wenn von einem nebenstrichichten Viereck ein ander nebenstrichichtes Viereck abgenomen wird/ welches dem gantzen Viereck ähnlich/ gleicher Weise gesetzet ist/ und einen gleichmässigen Winckel mit dem gantzen Viereck hat / so werden solche Vierecke üm einen einigen Zwergstrich stehen.
-
-<!-- Signature: Aaa -->
-<!-- Catchword: Gege- -->
+<!-- Catchword: Gegebene. -->

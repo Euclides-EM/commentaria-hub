@@ -1,38 +1,28 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 239 -->
+<!-- Page number: 247 -->
 
-Oder auch also:
+[Diagram: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 10a, C, B, 10b, D]
 
-### Vorbereitung.
+### III. Beweiß.
 
-1. Die grösse a werde vier mahl/
-2. wie auch b vier mahl genommen:
+9a | C — n. Bew. α
+9a ⊢ 10a — n. 9. Gr. I.
+κ Dw. 10a ⊣ C — n. 1. Gr. c. I.
+9b | D — n. Bew. β
+9b ⊢ 10b — n. 9. Gr. I.
+λ Dw. 10b ⊣ D — n. 1. Gr. c. I.
+Weil nun (1) C | 9a — n. Bew. α
+und D | 9b — n. Bew. β
+(2) 2C ⊣ 4a — n. Bew. γ
+und 2D ⊣ 4b — n. Bew. φ
+(3) 10a ⊣ C — n. Bew. κ
+und 10b ⊣ D — n. Bew. λ
 
-[Diagram: vier waagerechte Linien, bezeichnet A, 4a, B, 4b]
-
-### Beweiß.
-
-|  |  |  |  |  |
-|---|---|---|---|---|
-| | 3a | A | n. Beweiß. | ε |
-| | 4a | 3a | n. 9. Gr. I. | |
-| Dw. | 4a | A | n. 1. Gr. a. I. | |
-| | 3b | B | | |
-| | 4b | 3b | | |
-| Dw. | 4b | B | | |
-| λ und | 4a + 4b | A + B | n. 4. Gr. g. I. | |
-
-Weil nun (1) 3a + 3b | A + B, n. Bew. η
-
-(2) 2a + 2b ⊢ A + B, n. Bew. κ
-
-und (3) 4a + 4b ⊣ A + B, n. Bew. λ
-
-Dw. A + B : a + b | A : B, n. 6. Beschr. V.
+Derowegen muß auch C : a | D : b — n. 6. Beschr. V.
 
 ### Beschluß.
 
-Wenn derowegen die 1. zu der 2. Grösse/ und die 3. zu der 4. gleich-vielfältig sind/ so werden auch die 1. und 3. zusammen genommen / zu denen 2. und 4. zusammen genommenen Grössen eben so vielfältig seyn / als die 1. zu der 2. oder die 3. zu der 4. Grössen sind. W. Z. B.
+Wenn derowegen vier Grössen gegeben werden / deren Erste zu der Andern sich also / wie die Dritte zu der Vierten verhält: und noch zwo Grossen darzu genommen werden / da die Fünffte zu der Ersten sich also verhält / wie die Sechste zu der Vierten / so muß die Fünffte zu der Andern sich also verhalten / wie die Sechste zu der Vierten/ W. Z. B.
 
 <!-- Catchword: Der -->

@@ -1,39 +1,29 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 227 -->
+<!-- Page number: 235 -->
 
-### Beweiß.
+XIX. Verwirrete Ebenmässigkeit ist / wenn man drey Grössen in der ersten Ordnung / und eben so viel in der andern Ordnung hat/da die Vorgehende zu der Nachgehenden in der I. Ordnung sich eben so / wie die Vorgehende zu der Nachgehenden in der II. Ordnung hält: Darnach aber die Nachgehende der I. Ordnung zu etwas Anders: wie etwas Anders zu der Vorgehenden in der II. Ordnung.
 
-cb | ca
-ab | ca — n. 15. Besch. I.
-Dw. — ab | cb — n. 1. Gr. I.
-u. — abc | gleichseitig △ — n. 23. Besch. I
-Dw. — acb ∧ abc ∧ bac — n. 8. I.
-u. — acb ∧ ⅓ ⌓ — n. 32. I.
-bac ∧ cad — n. 8. I.
-bac + cad + dae ∧ ⌓ — n. 13. I.
-bac | ⅓ ⌓
-cad | ⅓ ⌓
-Dw. — dae | ⅓ ⌓ — n. 3. Gr. I.
-bac ∧ fae
-cad ∧ fag
-dae ∧ bag — n. 15. I.
-Dw. — bac ∧ cad ∧ dae ∧ fae ∧ fag ∧ bag, n. 11. Gr. I.
-α. u. — bc ⌒ cd ⌒ de ⌒ fe ⌒ fg ⌒ bg — n. 26. III.
-u. — bc | cd | de | fe | fg | bg — n. 29. III.
-bc ⌒ de — n. Bew. α.
-efgb ⌒ efgb
-Dw. — efgb + bc ⌒ de + efgb — n. 1. Gr. I.
-u. — cde ∧ bcd — n. 27. III.
-Gleicher Weise cde ∧ def ∧ efg ∧ fgb ∧ gbc
+4a : 2a : (a)
 
-Dw. ist das Sechßeck bcdefg gleichseitig und gleichwincklicht/
-und dem gegebenen Kreyß eingeschrieben/ n. 3. Beschr. IV.
+(4b): 2b : b
 
-### Beschluß.
+## Der I. Vortrag.
 
-Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
-licht Sechßeck eingeschrieben. W Z. M.
+## Das 1. Beweiß-Stück.
 
-<!-- Signature: Ff 2 -->
-<!-- Catchword: I. An- -->
+Wann etliche Grössen (und zwar so viel man derer wil) anderer eben so viel Grössen gleichmässig vielfältige (multiplices) sind/so werden die ersten Grössen alle zusammen genommen/derer Anderen allen zusammen genommenen Grössen eben so vielfältig seyn / als eine derer Ersten zu einer deren Anderen in richtiger Ordnung genommenen Grössen.
+
+### Gegebene.
+
+[Diagram: vier waagerechte Linien verschiedener Länge, bezeichnet A, a, B, b]
+
+A : a | B : b
+
+### Begehrtes.
+
+A + B : a + b | A : a — B : b
+
+<!-- Signature: Gg 2 -->
+
+<!-- Catchword: Vor- -->

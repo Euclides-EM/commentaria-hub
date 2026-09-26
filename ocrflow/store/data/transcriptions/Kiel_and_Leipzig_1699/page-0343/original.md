@@ -1,34 +1,34 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 319 -->
+<!-- Page number: 327 -->
 
-Dw. | ba : cd | ba : CD | n. 7. V.
-1. u. | ba : CD | bc : CE | n. 11. V.
-γ | bc : ce | fd : de | n. 2. VI.
-δ | fd | ac | n. 34. I.
-| DE | DE |
-Dw. | fd : DE | ac : DE | n. 7. V.
-| fd | fd |
-| DE | de | n. 3. Vorb.
-Dw. | fd : DE | fd : de | n. 7. V.
-u. | bc : ce | ac : DE | n. 11. V.
-| CE | ce | n. 2. Vorb.
-2. Dw. | bc : CE | ac : DE | n. 7. V.
+### Vorbereitung.
 
-| ba : af | bc : ce | n. Bew. α
-| bc : ce | fd : de | n. Bew. γ
-Dw. | ba : af | fd : de | n. 11. V.
-| cd | af | n. Bew. β
-| fd | ac | n. Bew. δ
-Dw. | ba : cd | ac : de | n. Anh. 7. V.
-| DC | cd |
-| de | DE | n. 3. Vorb.
-Dw. | ba : DC | ac : DE | n. Anh. 7. V.
+Wenn man | acb ⋏ dfe | so mache
+| acg ⋏ dfe | n. 23. I.
 
-[Diagram: kleines Dreieck, blass im Hintergrund der Tabelle]
+### II. Beweiß.
+
+| acg ⋏ dfe | n. Vorber.
+| cag ⋏ fde | n. 3. Geg.
+Dw. | cga ⋏ def | n. 32. I.
+u. | ac : cg | df : fe | n. 4. VI.
+| ac : cb | df : fe | n. 4. Geg.
+Dw. | ac : cb | ac : cg | n. 11. I.
+u. | cb | cg | n. 9. V.
+Dw. | cgb ⋏ cbg | n. 5. I.
+| cbg ⋏ nicht kleiner als ∟ | n. 1. Geg.
+Dw. auch | cgb ⋏ nicht kleiner als ∟ | n. 1. Gr. d. I.
+u. | cbg + cgb ⋏ nicht kleiner als [unclear: ⌓] | n. 2. Gr. I.
+welches aber unmüglich n. 17. I.
+
+Derowegen muß | abc ⋏ def
+Und ebener Gestalt | bca ⋏ efd
+| bac ⋏ edf | n. 1. Geg.
+Dw. △ abc gleichwincklicht △ def n. 1. Beschr. VI.
 
 ### Beschluß.
 
-So stehen derowegen aller gleichwincklichten Dreyecke Seiten in ebenmässiger Verhällnüß / so ferne sie gleichmässige Winckel einschrencken / oder gleichmässigen Winckeln gegen über stehen. W. Z. B.
+Wenn derowegen zwey Dreyecke einen gleimässigen Winckel haben / die übrigen Winckel aber von ebenmässigen Seiten begriffen sind / und derer übrigen Winckel allezeit von zweyen jedweder kleiner / oder auch nicht kleiner / als ein rechter Winckel ist: So sind diejenigen Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / beyde Dreyecke auch gleichwincklicht. W. Z. B.
 
 <!-- Catchword: Der -->

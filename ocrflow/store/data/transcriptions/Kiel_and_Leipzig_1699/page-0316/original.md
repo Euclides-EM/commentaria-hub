@@ -1,20 +1,29 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 292 -->
+<!-- Page number: 300 -->
 
-## Der XXXI. Vortrag.
-## Das 31. Beweiß-Stück.
+|  |  |  |  |
+|---|---|---|---|
+| Dw. | D : d | ⊣ A + B + C : a + b + c | n. Anh. 13. V. |
+|  | D : A + B + C | ⊣ d : a + b + c | n. 27. V. |
+|  | D + A + B + C : A + B + C | ⊣ d + a + b + c : a + b + c | n. 28. V. |
+|  | D + A + B + C : d + a + b + c | ⊣ A + B + C : a + b + c | n. 27. V. |
+|  | D : d | ⊣ D + A + B + C : d + a + b + c | n. 33. V. |
+|  | A + B + C : a + b + c | \| C : c | n. Bew. II. |
+|  | D + A + B + C : d + a + b + c | ⊣ C : c | n. Anh. 13. V. |
 
-Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darzu genommen werden: Unter den Ersten dreyen aber die Erste zu der Andern eine grössere Verhältnüß hat / als in der andern Ahrt die Erste zu der Andern: Deßgleichen die Andere zu der Dritten in der ersten Ahrt / eine grössere Verhältnüß hat / als die Andere zu der Dritten in der andern Ahrt : So wird auch nach der Gleichheit die Erste der ersten Ahrt / zu der Dritten derselben Ahrt / eine grössere Verhältnüß / als die Erste von der andern Ahrt / zu der Dritten solcher Ahrt haben.
+### Beschluß.
+Sind derowegen nunmehro
 
-### Gegebene.
+1. D + A + B + C : d + a + b + c ⊣ A + B + C : a + b + c
+2. D + A + B + C : d + a + b + c ⊣ D : d
+3. D + A + B + C : d + a + b + c ⊣ C : c.
 
-[Diagram: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]
+W. Z. B.
 
-A B ⊣ a : b
-B : C ⊣ b : c
+## Der XXXV. Vortrag.
+## Das 35. Beweiß-Stück.
 
-### Begehrtes.
-A : C ⊣ a : c
+Wann zu zwo Grössen / welche ungleicher Grösse sind / zwey gleichmässige Stücke beygefüget werden / so werden die zusammengesetzten eine kleinere Verhältnüß / als die Erstgegebenen / haben: wenn aber gleichgrosse Stücke von selbigen abgeschnitten werden / so werden die übergebliebene Stücke eine grössere Verhältnüß / als die ersten Grössen gehabt / erlangen.
 
-<!-- Catchword: Vor- -->
+<!-- Catchword: I. Ge- -->

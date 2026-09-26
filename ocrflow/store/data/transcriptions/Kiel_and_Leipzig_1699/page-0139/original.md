@@ -1,31 +1,41 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 121 -->
+<!-- Page number: 123 -->
 
-## Der XIII. Vortrag.
-
-## Das 12. Beweiß-Stück.
-
-In allen spitzwincklichten Dreyecken ist das gleichseitige Viereck der Seite / welche dem spitzigen Winckel übergespannet ist / kleiner/ als der beeden Seiten / so den spitzigen Winckel begreiffen / ihre Vierecke / ümb so viel austrägt das zweyfach genommene Viereck/ so von der am spitzigen Winckel stehenden Seite / auff welches von dem überstehende Winckel ein Senckstrich fället / und von dem zwischen diesem Senckstrich und spitzigen Winckel stehenden Stück gemacht wird.
-
-### Gegebene. | Begehrtes.
-
-1. △ abc | □ cb | □ ac + □ ab — 2 ▭ bad
-2. Spitziger ∠ a
-3. Senckstrich cd, welcher
-4. auff die am ∠ a stehende Seite abfället/
-5. und das zwischen dem Senckstrich cd und ∠ a stehende stück ad abschneidet.
-6. cda | ∟
-
-[Diagram: spitzwinkliges Dreieck a c d mit punktierten Linien von c nach b und von d nach b]
+c | cb
+d | bd
+f | cd
+e | ad
 
 ### Beweiß.
 
-□ ab + □ ad | 2 ▭ bad + □ bd | n. 7. II.
-□ cd | □ cd
-□ ab + □ ad + □ cd | 2 ▭ bad + □ bd + □ cd
-n. 2. Gr. I.
+2be + dd | bb + ee | n. 7. II.
+ff | ff
+2be + dd + ff | bb + ee + ff | n. 2. Gr. I.
+ee + ff | aa n. 47. I.
+2be + dd + ff + (ee + ff) | bb (+ ee + ff) + aa | n. 2. Gr. I.
+2be + dd + ff | bb + aa | n. 3. Gr. I.
+cc | dd + ff n. 47. I.
+2be (+ dd + ff) + cc | bb + aa (+ dd + ff) | n. 2. Gr. I.
+2be + cc | bb + aa
+2be | 2be
+cc | bb + aa + — 2be | n. 3. Gr. I.
 
-<!-- Signature: Q -->
+W. Z. B.
 
-<!-- Catchword: ac -->
+### Andere Arth.
+
+aa | ff + bb — 2bd + dd | n. 47. I.
+ff + dd | cc
+aa (+ ff + dd) | (ff) + bb — 2bd (+ dd) + cc | n. 2. Gr. I.
+aa | bb — 2bd + cc | n. 3. Gr. I.
+
+W. Z. B.
+
+### Anmerckung.
+
+Dieser Beweiß findet auch auff gewisse Maaß statt bey den recht-und stumpffwincklichten △ △ / wenn man das □ einer Seite/ so einem spitzigen Winckel übergespannet ist / vergleichen wil mit den übrigen beeden Seiten / deren eine dem rechten oder stumpffen Winckel / die andere aber dem übrigen spitzigen Winckel gegenüber stehet.
+
+<!-- Signature: Q 2 -->
+
+<!-- Catchword: Der -->

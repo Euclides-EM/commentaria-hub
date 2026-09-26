@@ -1,35 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 173 -->
+<!-- Page number: 175 -->
 
-3. Durch das mittel e werde der gerade Strich hf nach rechten Winckeln gezogen. n. 11. I.
-4. Werde noch ein anderer Düttel dieses Bogens/ nemlich b mit einem geraden Strich an den Düttel c gehänget.
-5. Und in zwey gleiche Theile db | dc getheilet. n. 10. I.
-6. Durchs mittel d wird ein Senckstrich kf gezogen n. 11. I.
-7. Aus dem Düttel f, wo die beeden Senckstriche he und kd einander durchschneiden/ werde der verlangte Kreyß beschrieben.
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, i, der andere mit h, f, d, e, k; in jedem stehen Winckel am Mittel-Düpffel und im Kreyß, die Sehnen punctirt]
 
-### Vorbereitung.
-Aus dem gefundenen Mittel-Düpffel f werden zu der Striche ac und bc Endungen/ die Strahlen fa, fb, fc gezogen.
+### II. Beweiß.
 
-### Beweiß.
+2bgc ⋀ bac
+dfe ⋀ 2dhe } n. 20. III.
+2bgc + dfe ⋀ bac + 2dhe   n. 2. Gr. I.
+bgc ⋀ dhe   n. 2. Geg.
+2bgc ⋀ 2dhe   n. 6. Gr. i. I.
+Dw. dfe ⋀ bac   n. 3. Gr. I.
+und bic ⊻ dke   n. 1. Beweiß.
 
-bd | dc   n. 5. Wirck.
-df | df
-Dw. bd + df ⋀ dc + df   n. 2. Gr. I.
-bdf ⋀ cdf   n. 6. Wirck.
-Dw. bf | cf   n. 4. I.
-
-gleichfals wird bewiesen.
-
-Daß af | cf
-Dw. af | bf   n. 1 Gr. I.
-
-und der Düttel f wird der Mittel-Düpffel seyn   n. 9. III.
-Oder:
-In denen Strichen df und ef muß der Mittel-Düpffel seyn/ n. 1. Anhang des III. Buchs.
-Muß Dw. f der Mittel-Düpffel seyn/ weil sonst kein Düttel/ welcher zugleich in beeden Strichen stehet/ kan gegeben werden.
 ### Beschluß.
-Ist also der Mittel-Düpffel f gefunden / aus welchem der Kreyß bhac, dessen Theil das gegebene Kreyßstück abc ist/ kan beschrieben werden. W. Z. M.
+Müssen also allezeit in gleichgrossen Kreyssen bgci | dhek diejenigen Bogen bic ⊻ dke, auff welchen gleichgrosse Winckel bac ⋀ dfe oder bgc ⋀ dhe stehen/ auch gleich groß seyn. W. Z. B.
 
-<!-- Signature: P 3 -->
-<!-- Catchword: Der -->
+## Der XXVII. Vortrag.
+
+Das 24 Beweiß-Stück.
+In gleichgrossen Kreyssen sind diejenigen Winckel/ welche auff gleichgrossen Bogen stehen/ auch gleich groß/ es mögen Mittel-Düpffels oder im Kreyß stehende Winckel seyn.
+
+### Gegebene.
+1. Gleichgrosse Kreysse fcd | ehi
+2. Gleichgrosse Bogen cd ⊻ hi
+
+### Begehrte.
+1. cad ⋀ hbi
+2. cfd ⋀ hei
+
+<!-- Catchword: Vor- -->

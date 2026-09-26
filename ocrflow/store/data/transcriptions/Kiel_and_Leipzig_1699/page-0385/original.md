@@ -1,35 +1,32 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 355 -->
+<!-- Page number: 369 -->
 
-Dw. △ abc : △ abg | △ abc : △ def n. 7. V.
-u. △ abc : △ def ⊐ bc : ef n. 11. V.
+### Beweiß.
+
+cd : dm | dm : dg n. 8. Wirck.
+oder CD : DM | DM : DG n. Anh. 7. V.
+CD : DG = | CD : DM n. 10. Besch. V.
+⬠ A : ⬠ L = | CD : DM n. 20. VI.
+Dw. CD : DG | ⬠ A : ⬠ L n. 11. V.
+CD : DG | □ DE : □ gf n. 1. VI.
+Dw. □ DE : □ gf | ⬠ A : ⬠ L n. 11. V.
+□ DE | ⬠ A n. 3. Wirck.
+Dw. □ gf | ⬠ L n. 14. V.
+□ gf | △ B n. 7. Wirck.
+Dw. ⬠ L | △ B n. 1. Gr. I.
+⬠ L ähnlich ⬠ A n. 10. Wirck.
+u. Eben so gesetzet.
 
 ### Beschluß.
 
-Haben derowegen ähnliche Dreyecke zu einander zwiefach grössere Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
+Ist also ein Fünfeck L, welches der Gestalt B gleichmässig/ dem Fünfeck A ähnlich/ und auch eben so gesetzet/ verfertiget. W. Z. M.
 
-## Der XX. Vortrag.
+## Der XXVI. Vortrag.
 
-## Das 14. Beweiß-Stück.
+## Das 19. Beweiß-Stück.
 
-Aehnliche Vielecke können in ähnliche/ und gleichviele/ und mit denen Gantzen Verhältniß-ähnliche oder ebenmässige Dreyecke abgetheilet werden.
+Wenn von einem nebenstrichichten Viereck ein ander nebenstrichichtes Viereck abgenomen wird/ welches dem gantzen Viereck ähnlich/ gleicher Weise gesetzet ist/ und einen gleichmässigen Winckel mit dem gantzen Viereck hat / so werden solche Vierecke üm einen einigen Zwergstrich stehen.
 
-Die ähnlichen Vielecke stehen auch gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältniß-ähnliche Seiten.
-
-### Gegebene.
-
-1. Fünfeck cad
-2. u. hfi
-3. cad ähnlich hfi.
-
-### I. Begehrte.
-
-1. Beyde Fünfecke in ähnliche/ und
-2. Gleichviele/ und
-3. mit denen Fünfecken/ Verhältnüß-ähnliche Dreyecke abgetheilet.
-
-[Diagram: zwei Fünfecke; das kleinere mit den Ecken f, g, k, h, i und punktierten Diagonalen; das grössere mit den Ecken a, b, e, c, d und punktierten Diagonalen]
-
-<!-- Signature: Y y 2 -->
-<!-- Catchword: Vorbe- -->
+<!-- Signature: Aaa -->
+<!-- Catchword: Gege- -->

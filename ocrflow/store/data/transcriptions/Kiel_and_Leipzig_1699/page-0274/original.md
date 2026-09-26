@@ -1,27 +1,42 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 250 -->
+<!-- Page number: 258 -->
+
+### Gegebene. — Begehrtes.
+
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
+
+A ⊣ B
+
+A : a ⊣ B : a
+
+### I. Beweiß.
+
+Wenn A | B — so wird
+auch A : a | B : a — n. 7. V.
+
+Oder:
+
+Wenn A ⊢ B — so wird
+auch A : a ⊢ B : a — n. 8. V.
+
+Beedes ist wider das Gegebene.
+
+### Gegebenes. — Begehrtes.
+
+a : B ⊣ a : A — B ⊢ A.
+
+### II. Beweiß.
+
+Wenn B | A — so wird
+auch a : B | a : A — n. 7. V.
+oder wenn B ⊣ A — so wird
+auch a : B ⊢ a : A — n. 8. V.
+
+Beedes ist wiederum gegen das Gegebene.
+
+muß dw. A ⊣ B.
 
 ### Beschluß.
 
-Wann derowegen das I. Gantze zu dem II. Gantzen sich also verhält / wie das von dem Ersten Gantzen abgenommene / zu dem vom Andern abgenommenen; So wird auch das Erste übergebliebene zu dem Andern übergebliebenen sich also / wie das Erste Gantze zu dem Andern Gantzen verhalten.
-
-## Der VI. Vortrag.
-
-## Das 6. Beweiß-Stück.
-
-Wenn zwo Grössen zweyer Andern Grössen gleichvielfältig sind; darnach zwey von denen Ersten Grössen abgenommene Stücke auch so vielfältig zu denen zwo Andern Grössen sind: So werden die übergebliebene Stücke denen andern zwo Grössen gleich an Grösse / oder gegen dieselben gleichvielfältig seyn.
-
-### Gegebene. — Begehrte.
-
-[Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet A, a, B, b]
-
-A—c | a
-B—d | b
-
-1 A | 5a
-2 c | 4a
-3 B | 5b
-4 d | 4b
-
-<!-- Catchword: I. Beweiß. -->
+Wenn derowegen aus zwo Grössen die erste Grösse zu einer einigen Grösse eine grössere Verhältnüß hat / so wird solche erste Grösse grösser seyn/ als die andere: Und dieselbige Grösse zu welcher aus zwo Grössen eine einige Grösse eine grössere Verhältnüß hat / wird die kleineste seyn. W. Z. B.

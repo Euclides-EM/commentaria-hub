@@ -1,39 +1,27 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 195 -->
+<!-- Page number: 197 -->
 
-|  |  |  |  |
-|---|---|---|---|
-|  | ▭ bld + □ el + □ ed | □ ed + □ ec | n. 2. Gr. I. |
-|  | ▭ bld + □ el | □ ec | n. 3. Gr. I. |
-| Dw. | ▭ bld + □ el | □ cl + □ el | n. 1. Gr. I. |
-| und | ▭ bld | □ cl | n. 3. Gr. I. |
-|  | cl | la | n. 2. Geg. |
-|  | cl | cl |  |
-| Dw. | □ cl | ▭ cla | n. 1. Gr. II. |
-| und | ▭ bld | ▭ cla | n. 1. Gr. I. |
+wird/eben so groß seyn/ als das Viereck der beeden Stücke bl, ld des andern Striches. W. Z. B.
 
-### V. Begebenheit.
+## Der XXXVI. Vortrag.
 
-Wan keiner von Beeden Strichen durch den Mittel-Düpffel gehet/auch keiner derselben in zween gleiche Theil geschnitten wird.
+## Das 30. Beweiß-Stück.
 
-[Diagram: Kreis mit Punkten b oben, e in der Mitte, h rechts, a links unten, n, l, c unten, d unten rechts; gestrichelte Striche von e nach b, h, l, c und d]
+Wenn man von einem ausser dem gegebenen Kreyß erwehlten Düttel zween gerade Striche zu dem Kreyß zeucht/ deren einer den Kreyß nur anrühret/ der andere aber selbigen schneidet: So wird das rechtwincklichte Viereck/ welches von dem gantzen schneidenden Strich/und dem Stück desselben/ so zwischen dem Düttel und aussern Kreyß-krümme stehet/ eben so groß seyn / als das rechtwincklichte Viereck/ das von dem Rührstrich kan gemacht werden.
 
-### Vorbereitung.
+### Gegebene. | Begehrtes.
 
-Aus dem Mittel-Düpffel e werden wiederumb gezogen
-1. Die Strahlen eb und ec.
-2. Zum Düttel l, wo die Striche einander schneiden/ der Strich el.
-3. Auff die beeden Striche zween Senckstriche eh und en n. 12. I.
+1. Kreyß edgh. | 1. ▭ ha, ag | □ ad
+2. Düttel a. | 2. ▭ ea, ab | □ ad
+3. Ausser dem Kreyß erwehlet.
+4. Gerade Striche ad, ae, ah.
+5. Von dem Düttel a gezogen.
+6. Also daß ad den Kreyß anrühre.
+7. ah den Kreyß in g,
+8. Und ae denselben in b schneide /
+9. Zugleich aber durch den Mittel-Düpffel c gehe.
 
-### Beweiß.
+<!-- Signature: Bb 3 -->
 
-|  |  |  |  |
-|---|---|---|---|
-|  | en | Senckstrich | n. 3. Vorb. |
-| Dw. | an | nc | n. 3. III. |
-| ▭ alc + □ nl |  | □ nc | n. 5. II. |
-
-<!-- Signature: Bb 2 -->
-
-<!-- Catchword: Dw. -->
+<!-- Catchword: Vor- -->

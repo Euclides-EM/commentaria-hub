@@ -1,25 +1,29 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 272 -->
+<!-- Page number: 280 -->
 
-### Beweiß.
+## Der XXIII. Vortrag.
 
-A | a + c
-B | b + d — n. Gegeb.
-A : B | a + c : b + d — n. Anh. 7. V.
-A : B | c : d — n. Gegeb.
-Dw. a + c : b + d | c : d — n. 11. V.
-und a : b | c : d — n. 17. V.
-Dw. a : b | A : B — n. 11. V.
+## Das 23. Beweiß-Stück.
 
-### Beschluß.
+Wenn drey Grössen gegeben werden/ und noch drey andere Grössen darzu genommen werden/ welche in verwirreter Ebenmaß stehen/ so werden sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben.
 
-Wenn derowegen die Gantzen sich zu einander also/ wie die abgenommenen Stücke zu einander verhalten: So werden die übergeblieben Stücke sich auch also/ wie die Gantzen zu einander verhalten. W. Z. B.
+### Gegebene.
 
-## Der XX. Vortrag.
+[Diagram: sieben Linien A, B, C, a, b, c, d von verschiedener Länge am linken Rand]
 
-## Das 20. Beweiß-Stück.
+A : B : C | a : b : c
+A : B | b : c
+B : C | a : b
 
-Wenn man drey Grössen hat/ welche mit andern drey Grössen in richtiger Ebenmaß stehen/ und die Erste der Ersten Ahrt grösser ist/ als die Dritte selbiger Ahrt/ so wird auch die Erste der andern Ahrt grösser seyn/ als die Dritte derselbē Ahrt: Ist aber die Erste gleichgroß mit der Dritten/ so ist auch in der andern Ahrt die Erste der Dritten gleicher Grösse: Und wenn die Erste kleiner/ als die Dritte/ so ist auch in der andern Ahrt die Erste kleiner/ als die Dritte.
+### Begehrtes.
 
-<!-- Catchword: I. Gegebene. -->
+A : C | a : c
+
+### Vorbereitung.
+
+Man nehme noch eine Grösse d zu welcher sich c also verhalte/ wie B. zu C.
+
+B : C | c : d.
+
+<!-- Catchword: Beweiß. -->

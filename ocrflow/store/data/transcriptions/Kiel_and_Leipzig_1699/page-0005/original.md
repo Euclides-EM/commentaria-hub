@@ -1,7 +1,15 @@
-[Ornament: Putten bei geometrischen Arbeiten mit Winkelmaß, Zirkel und Zeichengerät]
+<!-- Running title: Vorrede. -->
 
-# Vorrede an den geneigten Leser.
+gen Dingen (A und B) ungleiche Stücke (c und d) abnimmt/ so bleiben ungleiche Stücke (e und f) übrig/ und zwar/ von welchem (A) das kleinere Stück (c) abgehet/ da bleibet das grössere (e) übrig: Wo (B) aber das grössere (d) abgenommen wird / da bleibet das kleinere (f) übrig.
 
-ES haben unterschiedliche Mathematici die sechs ersten Bücher Euclidis in Teutscher Sprache heraus gegeben/ daß man vermeynen möchte/ ich hätte dieser Arbeit wol überhoben seyn können. Weil ich aber fast 40. Jahre mit diesen Büchern ümgangen/ und/ indem ich andere darinne unterwiesen/ befunden habe/ daß die Außleger die Beweis-Art darum nicht deutlich genug vorstellen können/ weil die Grundsätze (axiomata) mehrentheils un-
+[Diagram: schematische Darstellung mit Buchstaben A, B, c, d, e, f und Linien]
 
-<!-- Catchword: ge- -->
+## Zu dem VI. Grundsatz.
+
+(kk) Wenn (a) von zwey gleichmässigen Dingen (a und b) zwey- (oder mehr- mahl grösser ist/ als das dritte (c) so ist auch das andere (b) zwey- (oder mehr- mahl) grösser/ als solch drittes (c).
+
+[Diagram: schematische Darstellung mit Buchstaben und Linien]
+
+<!-- Signature: ):( ):( -->
+
+<!-- Catchword: Zu -->

@@ -1,15 +1,9 @@
 <!-- Running title: Vorrede. -->
 
-gen Dingen (A und B) ungleiche Stücke (c und d) abnimmt/ so bleiben ungleiche Stücke (e und f) übrig/ und zwar/ von welchem (A) das kleinere Stück (c) abgehet/ da bleibet das grössere (e) übrig: Wo (B) aber das grössere (d) abgenommen wird / da bleibet das kleinere (f) übrig.
+tet/ daß/ gleich wie durch die alten drey Foderungen das Streich- oder Strich-Höltzlein (Lineal) und der Passer (Circul/ Circinus) gerechtfertiget werden / also durch diese vierte und neue Foderung (oder postulatum) auch der Stifft von aller fernern Ansprache befreyet werde. Und deßwegen sind in dem Kupfferblättlein die drey Mathematischen Werckzeuge/ nemlich der Stifft/ das Streichholtz/ und der Passer vorgestellet/ weil nemlich keine Gestalt/ welche zu ihrer Verfertigung mehr/ als diese drey Werckzeuge/ erfordert/ für eine Mathematische/ sondern nur vor eine Mechanische Gestalt gehalten wird.
 
-[Diagram: schematische Darstellung mit Buchstaben A, B, c, d, e, f und Linien]
+Was die Vorträge betrifft / so sind selbige in ihre gewisse Stücke/ nemlich in die Gegebene (Data), und Begehrte (Quæsita) abgetheilet/ alsdann folget die Wirckung
 
-## Zu dem VI. Grundsatz.
+<!-- Signature: ):( ):( 2 -->
 
-(kk) Wenn (a) von zwey gleichmässigen Dingen (a und b) zwey- (oder mehr- mahl grösser ist/ als das dritte (c) so ist auch das andere (b) zwey- (oder mehr- mahl) grösser/ als solch drittes (c).
-
-[Diagram: schematische Darstellung mit Buchstaben und Linien]
-
-<!-- Signature: ):( ):( -->
-
-<!-- Catchword: Zu -->
+<!-- Catchword: (Ope- -->

@@ -1,35 +1,33 @@
-<!-- Page number: 343 -->
-
 <!-- Running title: Euclidis. -->
 
-II. Vorbereitung ist wie die I. Vorher.
+<!-- Page number: 357 -->
 
-### II. Beweiß.
-
-|  |  |  |
-|---|---|---|
-|  | ab : eh ⊤ fe : db | n. 4. Geg. |
-| oder | AB : BI ⊤ FE : EB | n. Anh. 7. V. |
-|  | AB : BI ⊤ □ AD : □ EI | n. 1. VI. |
-| Dw. | FE : EB ⊤ □ AD : □ EI | n. 11. V. |
-|  | FE : EB ⊤ □ FH : □ EI | n. 1. VI. |
-| Dw. | □ AD : □ EI ⊤ □ FH : □ EI | n. 11. V. |
-|  | □ EI ⊤ □ EI |  |
-| Dw. | □ AD ⊤ □ FH | n 9. V. |
-| oder | □ ad ⊤ □ fh | n 1. Vorb. |
+Dw. △ eab : △ kfg ⊐ be : kg n. 19. VI.
+△ bec ähnlich △ kgi n. Bew. δ.
+Dw. △ bec : △ kgi ⊐ be : kg n. 19. VI.
+u. △ eab : △ kfg | △ bec : △ kgi n. 11. V.
+Aus eben diesen Ursachen ist auch
+△ ecd : △ gih | △ bec : △ kgi
+Dw. △ ecd : △ gih | △ eab : △ kfg n. 11. V.
+△ △ △ △ △ △
+eab + bec + ecd : kfg + kgi + gih | △ eab : △ kfg n. 1. V.
+ab : fg = △ eab : △ kfg n. 17. VI.
+Dw. △ △ △ △ △ △
+eab + bec + ecd : kfg + gki + gki = ab : fg n. 11. V.
+△ △ △ △ △ △
+eab + bed + bcd : kfg + gki + ghi | ⬠ cad : ⬠ hfi n. 9. Gr. q. I.
+Dw. ⬠ cad : ⬠ hfi = ab : fg
+u. ⬠ cad : ⬠ hfi | △ eab : △ kfg n. 11. V.
 
 ### Beschluß.
 
-Wenn derowegen gleichmässige oder gleichgrosse Nebenstrichichte Vierecke / welche einen gleichmässigen Winckel haben/ gegeben werden/ so haben dieselben auch bey den gleichmässigen Winckeln wechselmässige Seiten.
+Können derowegen ähnliche Vielecke in ähnliche und gleichviele/ auch mit dem gantzen Vieleck Verhältnüß-ähnliche oder ebenmässige Dreyecke abgetheilet werden. Es stehen auch die ähnliche Vielecke gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
 
-Und welche Vierecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ die sind gleichmässig oder gleichgroß. W.Z.B.
+## Der XXI. Vortrag.
 
-## Der XV. Vortrag.
+## Das 15. Beweiß-Stück.
 
-## Das 10. Beweiß-Stück.
+Welche geradstrichichte Gestalte einer einigen Gestalt ähnlich sind/ dieselben sind auch einander selbst ähnlich.
 
-Gleichmässige/ und einen gleichmässigen Winckel habende Dreyecke/ haben auch bey dem gleichmässigen Winckel wechselmässige Seiten.
-
-Und welche Dreyecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ dieselben sind gleichmässig.
-
-<!-- Catchword: I. Gegebene. -->
+<!-- Signature: Y y 3 -->
+<!-- Catchword: Gegebe- -->

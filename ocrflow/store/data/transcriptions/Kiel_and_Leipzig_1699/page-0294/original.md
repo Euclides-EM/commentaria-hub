@@ -1,43 +1,36 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 270 -->
+<!-- Page number: 278 -->
 
-### Gegebene. | Begehrtes.
+### III. Gegebene.
 
-A ________________ | A : a | B : b
-a ____________
-B ________________
-b ________
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
-[Diagram: Strecken A, a, B (mit Theil b), b]
+A : B | b : c
+B : C | a : b
+A ⊦ C
 
-A—a : a | B—b : b
+### Begehrtes.
+
+a ⊦ c
 
 ### Beweiß.
 
-Wenn das Begehrte nicht eintreffen solte / so nehme man an statt b das Stück c,
+|  |  |  |
+|---|---|---|
+| b : c | A : B | ⌉ n. Geg. |
+| A : | ⊦ C | |
+| B | B | |
+| Dw. A : B | ⊦ C : B | n. 8. V. |
+| u. b : c | ⊦ C : B | n. Anh. 13. V. |
+| a : b | B : C | n Gegeb. |
+| Dw. ⌠ b : a | C : B | n. 16. V. |
+| u. b : a | ⊣ b : c | n. 13. V. |
+| b | b | |
+| Dw. a ⊦ | c | n. 10. V. |
 
-B ________________
-b ________
+### Beschluß.
 
-[Diagram: Strecken B (mit Theil c) und b]
+Wenn derowegen Sechs Grössen in verwirreter Ebenmaß stehen/ und die I. grösser ist / als die III. so wird auch die IV. grösser seyn/ als die VI. Ist aber die I. eben so groß/als die III. so ist auch die IV. eben so groß/als die VI. Und wenn die I. kleiner ist/als die III. so ist auch die IV. kleiner/als die VI. W. Z. B.
 
-und sey alsdann
-
-A—a : a | B—b : b — n. Gegeb.
-A—a : a | B—c : c — n. Genom.
-B—b : b | B—c : c — n. 11. V.
-Dw. B : b | B : c — n. 17. V.
-B | B
-Dw. b | c — n. 14. V.
-
-Welches aber unmüglich n. 9. Gr. I.
-
-Oder man nehme an statt des Stückes b das Stück d.
-
-B ____________
-b ________
-
-[Diagram: Strecken B (mit Theil d) und b]
-
-<!-- Catchword: A— -->
+<!-- Catchword: Der -->

@@ -1,7 +1,15 @@
-<!-- Running title: Vorrede. -->
+[Ornament: Zierleiste (Holzschnitt) mit Wappen und Löwen]
 
-daß/ ungeachtet unser Euclides von denen meisten Mathematicis, wegen seiner scharffsinnigen und genauen Beweißthümer/ hochgeschätzt und sehr gelobet wird/ doch etliche sonst verständige Mathematici gefunden werden/ welche ihn getadelt: und zwar schon vor etlichen 100. Jahren haben die Pyrrhonii oder Sceptici, welche an allen/ auch an den warhafftigsten dingen zweiffelten/ den Euclidem angefochten: deßgleichen in diesem Seculo hat Marcus Meybomius in seinem Buch de Proportionibus den IIX. und X. Vortrag des V. Buchs Euclid. über einen hauffen zu werffen getrachtet: aber so wol jene/ als auch dieser sind von Wilhelmo Langio, in seinem Tractat de Veritatibus Geometricis, so zu Copenhagen 1656. gedrucket / zur gnüge widerleget worden. In dem vorigen Seculo haben Petrus Ramus und Johannes Thomas Freigius dergleichen versuchet/ sind aber von Joanne Broccio, Professore Cracoviensi, in seiner Apologia pro Aristotele & Euclide, abgefertiget worden. Noch vor nicht gar langer Zeit hat ein unbekanter Auctor in seinem Buche de arte cogitandi den II. und XX. Vortrag vor unnötig gehalten/ weil sie keines Beweises bedürfften: da doch alles/ was bewiesen werden kan/ nicht so schlechter dinges muß angenommen werden: anderer Einwürffe anitzo zu geschweigen.
+# Lectori Benevolo S.
 
-Endlich ist nöthig/ daß man/ wo nicht alle / doch die vornehmsten Druckfehler ändere / welche füglich in drey Ahrten können abgetheilet werden. Die erste Ahrt bestehet aus solchen/ welche leichtlich durch
+HAnc librorum VI. Euclidis in linguam Germanicam translationem non obstare hujus linguæ ignaris, quo minus textu Latino, Italico, Gallico, Anglico &c. adhibito, demonstrationes signis Algebraicis adornatas intelligere queant, tàm in titulo, quàm in præfatione Germanica indicatum est. Ut ergo cupidus Lector felicius progredi possit, Propositionem IV. libri I. utpote pluribus verbis, quam signis demonstratam, maximè tamen ad intelligendas sequentes propositiones necessariam, Latinè hîc exhibere, operæ pretium erit.
 
-<!-- Catchword: Auf- -->
+## Propositio IV. (Vortrag.)
+
+## Theorema I. (Beweiß-Stück.)
+
+Si duo triangula duo latera duobus lateribus æqualia habeant, utrumque utrique; habeant verò & angulum angulo æqualem, sub æqualibus lineis contentum: Et basin basi æqualem habebunt; eritque triangulum triangulo æquale, & reliqui anguli reliquis angulis æquales erunt, uterq; utriq;, quos æqualia latera subtendunt.
+
+<!-- Signature: )( -->
+
+<!-- Catchword: Data -->

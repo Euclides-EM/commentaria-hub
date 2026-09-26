@@ -1,33 +1,35 @@
-<!-- Page number: 76 -->
+<!-- Page number: 78 -->
 
 <!-- Running title: Das I. Buch -->
 
+### Wirckung.
+
+1. Dem △ ABC mache man ein gleichgrosses □ MNC, nach dem gegebenen Winckel D. n. 42. Vortr.
+2. Die Seite NM werde nach nothdurfft verlängert gegen H.
+3. Von dieser verlängten Seite wrdee abgesch. MH | EF. n 3. Vort.
+4. Aus H werde durch C ein gerader Strich nach Nothurfft gezogen.
+5. Gegen diese Strich werde NO verlängert biß G.
+6. Aus H werde gegen über NG ein Nebenstrich gezogen HL
+7. Deßgleich auch auß G nemblich GL = NH.
+8. MC werde verlänget biß I.
+9. Und OC —— —— K.
+
 ### Beweiß.
 
-AG ⟛ BC n. 1. Vorber.
-BE | EC n. 2. Vorber.
-Dw. ABE ⩓ AEC n. 38. Vortr.
-und ABC ⩓ 2 AEC
-□ EFCG | 2 △ AEC n. 41. Vortr.
-Dw. □ EFCG | △ ABC n. 6. Gr:S.
-und ECG ⋀ D n. 3. Vorber.
+FE | MH n. 3. Wirck.
+α. Dw. IL | MH n. 14. Vortr.
+IL | FE n. 1. Gr:S.
+NOC ⋀ MCK
+CIL ⋀ MCK } n. 29. Vortr.
+Dw. CIL ⋀ NOC n. 1. Gr:S.
+D ⋀ NOC n. 23. Vortr.
+β. Dw. D ⋀ CIL n. 1. Gr:S.
+NC ⌻ CL n. 34. Vortr.
+□ NC | △ ABC n. 42. Vortr.
+γ. Dw. □ CL | △ ABC n. 1. Gr:S.
 
 ### Beschluß.
 
-Ist also dem gegebenen △ ein gleichhaltendes □ , und zwar nach dem ∧ D verfertiget. W. Z. M.
+Ist also an den gegebenen Strich EF oder IL. α. nach dem gegebenen ∧ D. β. angesetzet das □ CL | △ ABC. γ. W. Z. M.
 
-## Der XLIII. Vortrag.
-
-## Das 32. Beweiß-Stück.
-
-In jedwedem Nebenstrichichen Viereck/sind die Füllflächen derer ümb den Zwergstrich stehenden Vierecke von gleicher grösse.
-
-### Gegebene. | Begehrtes.
-1. □ ADBC | FH ⌻ GI.
-2. Zwergstrich AB
-3. Ümb den Zwergstrich stehende □ □ FG und HI
-4. Füllflächen FH und GI.
-
-[Diagram: Nebenstrichichtes Viereck mit den Puncten A, F, C oben, G, E, H in der Mitte und D, I, B unten, mit dem Zwergstrich und inneren Vierecken]
-
-<!-- Catchword: Be- -->
+<!-- Catchword: Der -->

@@ -1,33 +1,34 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 190 -->
+<!-- Page number: 192 -->
 
-### Wirckung.
+2. Welcher von dem andern Strich ae in l,
+3. Und zwar nach rechten Winckeln geschnitten.
 
-1. Wird ein gerader Strich bc gezogen /
-2. Welcher den Kreyß anrühre.
-3. Werde aus dem Mittel-Düpffel ein Senckstrich na auff den Rührstrich gezogen. n. 12. I.
-4. Auff den Strich bc und zwar an den Düttel a werde der Winckel bam ⋀ hfg gesetzet. n. 23. I.
-5. Nach diesen Winckel werde der gerade Strich ad gezogen.
-
-[Diagram: Kreis mit Punkten d, e, n, m, a; Tangente b–a–c unten, oben rechts kleiner Winckel f, g, h]
-
-### Vorbereitung.
-
-Es werden in dem abgeschnittenen Kreyßstück gezogen die geraden Striche ae und de.
+[Diagram: Kreis mit Punkten a oben, d links, b rechts, c unten; Striche db und ac schneiden sich in l, Mittel-Düpffel e]
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | bc | Rührstrich des Kreyses dae | n. 2. Wirck. |
-|  | a | Rührdüpffel | n. 18 III. |
-|  | mab ⋀ hfg |  | n. 4. Wirck. |
-|  | aed ⋀ mab |  | n. 32. III. |
-| Dw. | aed ⋀ hfg |  | n. 1. Gr. I. |
+|  | ▭ bld + □ el | □ ed | n. 5. II. |
+|  | ed | ec | n. 15. Beschr. I. |
+|  | □ ed | □ ec | n. 1. Gr. t. II. |
+| Dw. | ▭ bld + □ el + □ ed | □ ed + □ ec | n. 2. Gr. I. |
+|  | ▭ bld + □ el | □ ec | n. 3. Gr. I. |
+|  | cle ⋀ | ∟ | n. 3. Gegeb. |
+| Dw. | □ el + □ lc | □ ec | n. 47. I. |
+| und | ▭ bld + □ el | □ el + □ lc | n. 1. Gr. I. |
+| Dw. | ▭ bld | □ lc | n. 3. Gr. I. |
 
-### Beschluß.
+### III. Begebenheit.
 
-Ist also von dem Kreyß daed ein Stück dfa abgeschnitten/ in welchem ein Winckel aed ⋀ hfg stehen kan. W. Z. M.
+### Gegeben
 
-<!-- Catchword: Der -->
+1. Nur ein durch den Mittel-Düpffel e gehender Strich db,
+2. Welcher von dem andern Strich ae in l
+3. Nicht nach rechten Winckeln geschnitten.
+
+[Diagram: Kreis mit Punkten c oben, d und n links oben, a links, e in der Mitte, b unten rechts; Striche schneiden sich in l]
+
+<!-- Catchword: Vor- -->

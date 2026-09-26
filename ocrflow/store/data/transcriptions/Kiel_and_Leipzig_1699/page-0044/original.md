@@ -1,31 +1,34 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Das I Buch -->
 
-<!-- Page number: 26 -->
+<!-- Page number: 28 -->
 
-### Vorbereitung.
+[Diagram: zwey Dreyecke ABC und DEF nebeneinander]
 
-Man ziehe aus b, wo die ersten beeden Striche sich vereinigen/ zu dem Düttel d, wo die andern beeden Striche zusammen stossen / einen geraden Strich bd.
+### Beweiß.
 
-[Diagram: zwey waagrechte Doppelstriche B–A und C–F–D, darunter ein Dreyeck mit den Düttelen b, d, e und punktierten Strichen]
+Auff den Grund-Strich BC setze man die zween Striche ED und FD, auff dieselbe Seite / an welcher die Striche AB und AC stehen/ so werden sie zusammen kommen in dem Düttel A, nach 7. Vortr. und werden sich alßdann die beeden Winckel BAC und EDF zusammen schicken/und auch ein ander gleich seyn/nach 8. Grund-Satz. W. Z. B.
 
-### Verfolg des Beweises.
+I. Zugabe.
 
-da | DE nach angenommenem β.
-AB | DE nach Gegebenen 2.
-Dw. AB | da nach 1. Grund-Satz.
-AB | ab nach Gegebenen 2.
-Dw. da | ab nach 1. Grund-S.
-und abd ⋏ adb nach 5. Vortrag.
+Weil in den beeden Dreyecken
+Die Seiten-Striche AB + AC | DE + DF
+und die Grund-Striche BC | EF wären
+Darnach BAC ⋏ EDF bewiesen/
+so folget daß
 
-cd | DF nach angenommem β.
-CB | DF nach Gegeb. 3.
-Dw. CB | cd nach 1. Grund-S.
-CB | cb nach Gegeb. 3.
-Dw. cd | cb nach 1. Grund-S.
-α und cbd | cdb nach 5. Vortrag.
+ABC ⋏ DEF
+BCA ⋏ EFD
+und ABC ⏉ DEF } alles nach 4. Vortr. W. Z. B.
 
-cbd ⋏ abd nach 9. Grund-S.
-cbd ⋏ cdb nach 5. Beweiß. α
-cdb ⋏ abd nach 1. Grund-S. c.
+## Der IX. Vortrag.
 
-<!-- Catchword: adb -->
+## Das 4. Werck-Stück.
+
+Einen gegebenen gerad-strichichen Winckel in zweene gleiche Theile zu theilen.
+
+### Gegebenes | Begehrtes
+
+Gerad-strichicher Winckel | 1. theilung des ⋀ BAC.
+⋀ BAC. | 2. BAF ⋏ CAF.
+
+<!-- Catchword: Wir- -->

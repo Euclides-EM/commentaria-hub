@@ -1,31 +1,34 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 23 -->
-
-DA + AC | EA + AB nach 2. Gr.S.
-DAC ⋏ EAB nach 8. Gr.S.
-Dw. DC | EB
-α. und ADC ⋏ AEB } alles nach 4. Vortr.
-β. und ABE ⋏ ACD
-
-BD + DC | CE + EB nach 2. Vortr.
-BDC ⋏ CEB nach Beweiß α.
-δ. Dw. BCD ⋏ CBE
-γ. und BCE ⋏ CBD } alles nach 4 Vortr.
-
-ABE ⋏ ACD nach Bew. β
-CBE ⋏ BCD nach Bew. δ
-ABE — CBE ⋏ ACD — BCD nach 3. Gr.S.
-ε. oder ABC ⋏ ACB.
+<!-- Page number: 25 -->
 
 ### Beschluß.
 
-Sind also in dem gleich-schencklichten △ ABC die beeden Winckel auff dem Gr. Strich. ABC ⋏ ACD ε, wie auch unter dem Grund-Strich BCE ⋏ CBD. γ. W. Z. B.
+Weil nun AB weder grösser/ noch kliner seyn kan/ als AC, so folget unümbgänglich/daß AB | AC. W. Z. B.
 
-## Der VI. Vortrag.
+## Der VII. Vortrag.
 
-## Das 3. Beweiß-Stück.
+## Das 4. Beweiß Stück.
 
-Wenn in einem △ zweene Winckel/ jedweder jedwedem absonderlich/gleich sind/so sind auch diejenigen Seiten/welche solchen beeden Winckeln gegen überstehen / von gleicher Grösse.
+Wenn auff eines Strichs End-Düttel zweene Striche gesetzet werden / und oberhalb in einem Düttel zusammen stossen; Darnach auch zweene andere Striche/ so denen vorigen beeden Strichen/ jedweder jedwedem gleich sind / auff eben desselben Striches Endungen / und zwar auff einerley Weise gesetzet werden/ so müssen sie in eben demselben Düttel/wo die vorigen beeden Striche einander berühret/ auch zusammen kommen.
 
-<!-- Catchword: Gege- -->
+### Gegebene. | Begehrtes.
+
+1. Der Strich ac | Die Zusam̃enkunfft der bee-
+2. AB | DE | ab | den Striche de und df in
+3. CB | DF | cb | eben dem Düttel b, wo
+4. AB + CB | DE + DF | ab + cb | die beeden vorigen Stri-
+5. BC auff c | che ab und ac zusammen
+6. AB auff a gesetzt | kommen.
+7. BC und AB zusam̃enkunfft in b
+8. DF auff c
+9. ED auff a gesetzt
+10. Beederseits oberhalb des Strichs ac
+
+### Beweiß.
+
+Wenn die beeden andern Striche nicht in b zusammen kommen / so mögen sie in d an einander stossen. β
+
+<!-- Signature: D -->
+
+<!-- Catchword: Vor- -->

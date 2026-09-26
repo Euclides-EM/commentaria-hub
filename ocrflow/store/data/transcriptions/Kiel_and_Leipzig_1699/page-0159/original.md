@@ -1,32 +1,27 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 141 -->
+<!-- Page number: 143 -->
 
-het / am längsten; diejenigen aber so näher dem Mittel stehen / länger seyn / als die / so weiter davon sind. Unter denen / welche außwendig den Kreyß berühren / wird der / so zwischen dem erwehlten Düttel und dem Durchschlag stehet / am kürtzesten / und allezeit die / so weiter von diesem Strich sind / länger seyn / als die / so näher bey selbigem sind: Nicht mehr aber / als zween Striche / so woll derer / die den Kreyß inwendig / als welche ihn außwendig berühren / und gleichweit vom längsten und kürtzesten Strich abstehen / können gleichlang seyn.
+ab + bn | ab + bm — n. 15. Beschr. I.
+abn ⋀ abm — n. 9. Gr. I.
+Dw. an ⊣ am — n. 24. I.
 
-### Gegebene. — Begehrte.
+ab + be | ab + bd — n. 15. Beschr. I. u. n. 2. Gr. I.
+abe ⋀ abd — n. 9. Gr. I.
+Dw. ae ⊢ ad — n. 24. I.
 
-1. Der Kreyß Lfmo
-2. Düttel a ausser dem Kreyß
-3. Der Strich durch den Düttel afbo
-4. Striche/so inwendig anstossen. aL, al, am, an,
-5. - - - - - so den Kreyß außwendig berühren. ac, ad, ae, af, ag ai, ah, ak.
+ab + bL | ab + bl — n. 15. Beschr. I. u. n. 2. Gr. I.
+abL ⋀ abl — n. 2. Vorber.
+Dw. aL | al — n. 4. I.
 
-ab ⊣ [unclear: bo]
-oder
-1. ao ⊣ no
-2. fa ⊢ ea
-3. an ⊣ am
-4. ae ⊢ ad
-5. ac | al.
+### Beschluß.
 
-### Vorbereitung.
+Werden demnach allemal die beeden/von dem äussersten Düttel a, nach und durch den Mittel-Düpffel b, gezogene Striche af am kürtzesten/ und ao am längsten seyn. Diejenigen/so zum nechsten inwendig in den Kreyß fallen/ als an, grösser / die so weiter von ao stehen / als am, werden kleiner seyn. Welche aber außwendig den Kreyß berühren / und näher an af stehen / werden kürtzer / und die / so weiter davon / länger seyn. Diejenigen Striche aber / welche von af oder ao gleichweit seitwerts abstehen / als aL und al werden gleichlang seyn. W. Z. B.
 
-1. Auff die gegebene Düttele d, g, e, h, k, m, n. &c. werden
-aus dem Mittel-Düpffel b gerade Striche bn, bm, bk, &c. gezogen.
-2. Werde gemacht fbL ⋀ fbl. n. 23. I.
-3. Werden gezogen aL und al.
+## Der IX. Vortrag.
 
-<!-- Signature: S 3 -->
+## Das 8. Beweiß-Stück.
 
-<!-- Catchword: Be- -->
+Wenn man in einem Kreyß einen Düttel findet / von welchem mehr / als zween gleichlange Striche zum Umfang können gezogen werden / so wird selbiger der Mittel-Düpffel des Kreyses seyn.
+
+<!-- Catchword: Ge- -->

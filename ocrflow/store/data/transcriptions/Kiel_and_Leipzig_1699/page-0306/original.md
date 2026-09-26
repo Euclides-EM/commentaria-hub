@@ -1,39 +1,36 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 282 -->
+<!-- Page number: 290 -->
+
+## Der XXIX. Vortrag.
+## Das 29. Beweiß-Stück.
+
+Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte mit der Vierten zu der Vierten : So wird auch zertheiletermassen die Erste zu der Andern eine grössere Verhältnüß / als die Dritte zu der Vierten haben.
 
 ### Gegebene.
 
-[Diagram: vier Linien mit den Bezeichnungen A und c, B, a, b am linken Rand]
+[Diagram: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]
 
-A : | a :
-: B | : b
-C : | c :
+A + a : a ⊣ B + b : b
 
 ### Begehrtes.
-
-A + C : B | a + c : b.
+A : a ⊣ B : b.
 
 ### Beweiß.
+Wenn die Verhältnüß A zu a nicht grösser ist / als B zu b, so
 
-|  |  |  |
-|---|---|---|
-| C : B | c : b | n Geg. |
-| B : C | b : c | n. 4. V. |
-| A : B | a : b | n. Geg. |
-| Dw. A : C | a : c | n. 22. V. |
-| u. A + C : C | a + c : c | n. 18. V. |
-| C : B | c : b, | n Gegeb. |
-| Dw. A + C : B | a + c : b | n. 22. V. |
+|  |  |  |  |
+|---|---|---|---|
+| sey dann | A : a | \| B : b | n. Ang. |
+| Dw wird | A + a : a | \| B + b : b | n. 28. V. |
+| oder es sey | A : a | ⊢ B : b | n. Angen. |
+| so wird | A + a : a | ⊢ B + b : b | n. 28. V. |
+
+Beydes ist wider das Gegebene
+
+muß Dw. A : a ⊣ B : b
 
 ### Beschluß.
+Wenn derowegen die I. und II. zu der II. eine grössere Verhältnüß / als die III. und IV. zu der IV. haben / so wird auch die I. zu der II. eine grössere Verhältnüß / als die III. zu der IV. haben. W. Z. B.
 
-Wenn derowegen Sechs Grössen gegeben werden/deren I. zu der II. sich also verhält/ wie die III. zu der IV. darnach auch die V. zu der II. wie die VI. zu der III. So müssen auch die I. und V. zusammen sich zu der II. also wie III. und VI. zusammen genommen sich zu der IV. verhalten.
-
-## Der XXV. Vortrag.
-
-## Das 25. Beweiß-Stück.
-
-Wenn vier Ebenmässige Grössen gegeben werden/ so sind die Grösseste und Kleineste derselben grösser / als die beeden übrigen.
-
-<!-- Catchword: Gegebene- -->
+<!-- Catchword: Der -->

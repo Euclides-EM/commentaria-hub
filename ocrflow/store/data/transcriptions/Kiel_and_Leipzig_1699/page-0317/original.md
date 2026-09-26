@@ -1,41 +1,49 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 293 -->
+<!-- Page number: 301 -->
 
-### Vorbereitung.
-1. Nehme man eine Grösse D darzu / welche zu C sich also / wie b zu c verhalte.
+### I. Gegebene.
 
-[Diagram: drei waagerechte Linien d, D, C von unterschiedlicher Länge]
+[Diagram: zwei waagerechte Linien A und B mit angesetzten Stücken a]
 
-D : C | b : c
+A ⊣ B
+a | a
 
-2. Auch nehme man eine Grösse d, welche sich zu D also / wie a : b verhalte.
-
-d : D | a : b
+### Begehrtes.
+A + a : B + a ⊢ A : B
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | D : C | \| b : c | n. 1. Vorb. |
-|  | B : C | ⊣ b : c | n. Geg. |
-| Dw. | B : C | ⊣ D : C | n. Anh. 13. V. |
-| u. | D | ⊢ B | n. 10. V. |
-|  | A | \| A |  |
-| Dw. | A : D | ⊣ A : B | n. 8. V. |
-|  | a : b | ⊢ A : B | n Geg. |
-| a Dw. | A : D | ⊣ a : b | n. 2. Anh. 13. V. |
-|  | d : D | \| a : b | n. 2. Vorb. |
-|  | A : D | ⊣ a : b | n. Bew. a |
-| Dw. | A : D | ⊣ d : D | n. Anh. 13. V. |
-| und | A | ⊣ d | n. 10. V. |
-|  | C \| | C |  |
-| ß Dw. | A : C | ⊣ d : C | n. 8. V. |
-|  | d : D | \| a b |  |
-|  | D : C \| | b : c | } Vorber. |
-| Dw. | d : C | \| a : c | n. 22. V. |
-| und | A : C | ⊣ a : c | n. Bew. ß. u. Anh. 13. V. |
+|  | A | ⊣ B | n. Geg. |
+|  | a | \| a |  |
+| Dw. | A + a | ⊣ B + a | n. 4. Gr. I. |
+|  | a \| | a |  |
+| Dw. | A + a : a | ⊣ B + a : a, | n. 8. V. |
+|  | A + a : A | ⊢ B + a : B | n. 30. V. |
+|  | A + a : B + a | ⊢ A : B | n. Anh. 28. V. |
 
-<!-- Signature: Oo 3 -->
+### II. Gegebene
 
-<!-- Catchword: Beschluß. -->
+[Diagram: zwei waagerechte Linien A und B mit abgeteilten Stücken]
+
+A ⊣ B
+a | a
+
+### Begehrtes.
+A — a : B — a ⊣ A : B
+
+### Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+|  | A | ⊣ B | n. Geg. |
+|  | a \| | a |  |
+| Dw. | A : a | ⊣ B : a | n. 8. V. |
+|  | A : B | \| a : a | n. 27. V. |
+| Dw. | A — a : B — a | ⊣ A : B | n. 33. V. |
+
+<!-- Signature: Pp 3 -->
+
+<!-- Catchword: oder: -->

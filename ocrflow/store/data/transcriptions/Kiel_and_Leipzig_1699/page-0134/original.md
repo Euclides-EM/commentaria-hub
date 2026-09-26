@@ -1,43 +1,37 @@
-<!-- Page number: 116 -->
+<!-- Page number: 118 -->
 
 <!-- Running title: Das II. Buch -->
 
-Striches/ welcher aus dem halben und angesetzten Stück zusammen gesetzet cd, zweymahl genommen. W. Z. B.
+### Beschluß.
+
+Ist also der Strich ab also in c geschnitten/ daß das Viereck/ so der gantze Strich ab, und das eine Stück bc begreiffen / eben so groß/ als das gleichseitige □ des übrigen Stückes ac. W. Z. M.
 
 ### Nach der Löse-Kunst.
 
 ### Gegebene. | Begehrtes.
 
-1. a | ad
-2. b | cd
-3. c | cb
-4. d | bd
-5. a | b + c
-6. d | b — c
+1. a | ab | 1. a getheilet in c und e getheilet also daß ae | cc.
+2. b | ad
+3. c | ac
+4. e | cb
+5. d | ef
+6. f | db | df.
 
 ### Beweiß.
 
-a | b + c | n. 5. Geg.
-aa | bb + 2bc + cc | n. 4. II.
-d | b — c | n. 6. Geg.
-dd | bb — 2bc + cc | n. 4. II.
-aa + dd | bb + 2bc + cc + bb — 2bc + cc | n 2 Gr. I.
-oder aa + dd | 2bb + 2cc | W. Z B.
+dc + bb | ff | n. 6. II.
+aa + bb | ff | n. 47. I.
+aa + bb | dc + bb | n. 1. Gr. I.
+bb | bb
+aa | dc
+ac | ac
+aa — ac | dc — ac | n. 3. Gr. I.
+oder ae | cc | W. Z M.
 
-## Der XI. Vortrag.
+## Der XII. Vortrag.
 
-## Das 1. Werck-Stück.
+## Das 11. Beweiß-Stück.
 
-Einen geraden Strich also zu theilen/ daß das Viereck/ welches der gantze Strich und das eine Stück begreiffen/ eben so groß sey/ als das gleichseitige Viereck des andern Stückes.
+In allen stumpffwincklichten Dreyecken ist das gleichseitige Viereck der Seite/ so dem stumpfen Winckel übergespannet ist/ so viel grösser / denn die beeden Vierecke derer Seiten/ welche den stumpffen Winckel begreiffen / als das zwey-
 
-### Gegebenes. | Begehrtes.
-
-Gerader Strich ab | 1. Getheilet in c also
-2. daß ▭ abc | □ ac
-
-### Wirckung.
-
-1. Auff ab werde ein gleichseitiges □ ab gesetzt/ n. 46. I.
-2. Die Seite ae werde in zween gleiche Theil getheilet in dem Düttel d, n. 10. I.
-
-<!-- Catchword: 3. Aus -->
+<!-- Catchword: mal -->

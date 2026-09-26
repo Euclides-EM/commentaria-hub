@@ -1,42 +1,30 @@
-<!-- Page number: 112 -->
+<!-- Page number: 114 -->
 
 <!-- Running title: Das II. Buch -->
 
-2 | 2
-2 □ gf | 2 □ cd | n. 6. Gr. i. I.
-2 □ gf + □ gb | 2 □ cd + 2 □ cb + 2 □ gf n. 1. Gr. I.
-2 □ gf | 2 □ gf
-δ. □ gb | 2 □ cd + 2 □ cb | n. 3. Gr. I.
-□ gb | □ bd + □ dg | n. 47. I.
-agd ∠ cae n. Bew. γ.
-Dw. dg | da n. 6. I.
-und □ dg | □ da n. 1. Gr. t. II.
-□ dg + □ gb | □ bd + □ dg + □ da | n. 1 Gr. I.
-□ dg | □ dg
-δ. □ gb | □ bd + □ da | n. 3. Gr. I.
-Dw. □ bd + □ da | 2 □ cd + 2 □ cb | n. 1. Gr. I.
-
-### Beschluß.
-
-Sind also allezeit der beeden ungleichen Stücke bd und da ihre □ □ zweymahl so groß / als die beeden □ □ des halben Striches bc, und mittelstückes cd. W Z B.
-
-### Nach der Löse-Kunst.
-
-### Gegebene. | Begerthe.
-
-1. b | ac | cc + dd | 2bb + 2ee
-2. e | cd
-3. c | bd
-4. d | ad
-5. c | b + e
-6. d | b — e
+[Diagram: punktierte Konstruktion; oben Punkte e und f, Grundlinie a c b d, unten rechts Punkt g, gestrichelte Linien verbinden e, f, d und g]
 
 ### Beweiß.
 
-c | b + e | n. 5. Gegeb.
-cc | bb + 2be + ee | n 4. II.
-d | b — e | n 6 Geg.
-dd | bb — 2be + ee | n. 4. II.
-Dw. cc + dd | 2bb + 2ee. | n. 1. Gr. 1. W. Z B.
+ca | ce | n. 2. Vorb.
+α. Dw. eac ∠ aec | n. 5. I.
+β. cb | ce | n. 2. Vorb.
+γ. ceb ∠ cbe
+ce | Senckstrich | n. 1. Vorber.
+Dw. eca ∠ ∟
+δ. ecb ∠ ∟ | n. 10. Beschr.
+eac + aec ∠ ∟
+ceb + cbe ∠ ∟ | n. 34. I.
+aec ∠ ½ ∟ | n. Bew. α.
+ceb ∠ ½ ∟ | n. Bew. γ.
+aec + ceb ∠ ∟
+ε. und aeb ∠ ∟ | n. 9. Gr. q. I.
+Dw. □ ae | □ ac + □ ce | n. 47. I.
+ζ. oder □ ae | 2 □ ac
+fd | ce | n. 34. I.
+cb | ce | n. Bew. β.
+Dw. fd | cb | n. 1. Gr. I.
+η. dg | bd | n. 5. Vorb.
+fd + dg | cb + bd | n. 2. Gr. I.
 
-<!-- Catchword: Der -->
+<!-- Catchword: oder -->

@@ -1,35 +1,30 @@
-<!-- Page number: 136 -->
+<!-- Page number: 138 -->
 
 <!-- Running title: Das III. Buch -->
 
-Dw. cga ⋏ ∟ — n. 3. III.
-und cga ⋏ dga — n. 10. Gr. I.
+### Beweiß
 
-Welches aber unmöglich/ nach 9. Gr. I.
+ab | ad | af — n. angenom. und n. 15. Beschr. I.
+ab | ac | ag — n. 15. Beschr. I.
+Dw. ad | ac
+und af | ag — n. 1. Gr. I.
+
+Welches unmüglich n. 9. Gr. I.
 
 ### Beschluß.
 
-Können also dergleichen Striche/ welche nicht durch den Mittel-Düpffel o gehen/ einander nicht in gleiche Theile schneiden. W. Z. B.
+Können also einander inwendig anrührende Kreyse nicht nur einen einigen Mittel-Düpffel haben. W. Z. B.
 
-## Der V. Vortrag.
+## Der VII. Vortrag.
 
-## Das 4. Beweiß-Stück.
+## Das 6. Beweiß-Stück.
 
-Wenn zween Kreyse einander durchschneiden/ so müssen sie mehr/ als einen Mittel-Düpffel haben.
+Wenn man in eines Kreyses Durchschlag einen Düttel erwehlet / welcher nicht der Mittel-Düpffel ist / und von selbigem etliche gerade Striche zu des Kreyses Umfang zeucht: So wird der durch den Mittel-Düpffel gehende Strich/ der grösseste; dessen übriges aber der kleineste seyn: Alle andere aber / je näher sie dem Mittel-Düpffel kommen / werden länger / und je weiter sie von dem Mittel-Düpffel abstehen/ je kützer werden sie seyn: Zwey aber / welche nemlich gleichweit von dem Mittel-Düpffel entfernet sind / werden allezeit gleichlang seyn.
 
 ### Gegebene. — Begehrte.
 
-1. Zween Kreyse bdg und bce. — Solche zween Kreyse haben zween unterschiedliche Mittel-Düpffel.
-2. Welche einander durchschneiden.
+1. Der Kreyß bhlc. — 1. ab der längste
+2. Durchschlag bc. — 2. ac der kürtzeste.
+3. Erwehlter Düttel a, — 3. ak ⊣ ag
 
-### Vorbereitung.
-
-Wenn man sagen wolte/ sie hätten nur einen einigen Mittel-Düpffel/ nemlich a, so ziehe man
-
-1. Auß a zu dem Düttel b, wo sie einander durchschneiden / einen geraden Strich ab.
-
-2. Ziehe man auch den Strich ad.
-
-[Diagram: zween einander durchschneidende Kreyse mit den Dütteln b (links), g (rechts), d (unten), darinnen a und e, punktierte Striche von a nach b und von e nach d]
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: 4. Welcher -->

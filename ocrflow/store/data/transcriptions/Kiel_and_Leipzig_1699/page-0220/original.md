@@ -1,29 +1,31 @@
 <!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 202 -->
+<!-- Page number: 204 -->
 
-IV. Eine geradstrichichte Gestalt wird umb einen Kreyß beschrieben genennet/ wenn sie mit ihren Seiten den Umbfang des Kreyses berühret.
+[Diagram: links Dreyeck hfg mit punktierten Winckelbögen; rechts Kreis mit eingeschriebenem Dreyeck abc, oben der Rührstrich e–d durch a]
 
-V. Auff gleiche weise wird ein einer geradstrichichten Gestalt eingeschriebener Kreyß genennet/ welcher mit seinem Umfang alle derselbigen Gestalt Seiten berühret.
+### Wirckung.
 
-VI. Ein ümb eine geradstrichichte Gestalt beschriebener Kreyß wird genennet / welcher mit seinem Umfang alle derselben Gestalt Ecken berühret.
+1. Werde an den gegebenen Kreyß bac der Rührstrich de gezogen. n. 17. III.
+2. An den Rührdüpffel a dieses Striches de werde der Winckel dac ∧ hfg n. 23. I.
+3. Und auff die andere Seite gegen e dieses Düttels a, der Winckel eab ∧ fgh gesetzet. n. 23. I.
+4. Werde der Strich bc gezogen.
 
-VII. Ein dem Kreyß eingesetzter oder eingefügter gerader Strich wird genennet/ dessen beede Ende in dem Kreyßzuge stehen.
+### Beweiß.
 
-8. Gleichwincklichte Dreyecke ( oder Gestalte ) sind/ in welchen alle Winckel des einen/ allen Winckeln des andern / jedweder jedwedem gleich sind.
+dac ∧ hfg n. 2. Wirck.
+dac ∧ abc n. 32. III.
+Dw. abc ∧ hfg n. 1. Gr. I.
 
-## Der I. Vortrag.
+eab ∧ fgh n. 3. Wirck.
+eab ∧ acb n. 32. III.
+Dw. acb ∧ fgh n. 1. Gr. I.
+und bac ∧ fhg n. 32. I.
+Dw. △ abc gleichwincklicht △ fha n. 8. Beschr. IV.
+u. △ abc dem O abc eingeschrieben n. 3. Beschr. IV.
 
-## Das 1. Werckstück.
+### Beschluß.
 
-Einem gegebenen Kreyß einen geraden Strich / welcher dem gegebenen Strich gleich groß / aber nicht so groß/ als des Kreyses Durchschlag sey/ einzufügen.
+Ist also dem gegebenen Kreyß ein dem gegebenen Dreyeck gleichwincklichtes Dreyeck eingeschrieben. W. Z. M.
 
-### Gegebene. Begehrtes.
-
-1. Kreyß cdf. 1. Einem Kreyß eingefügter
-2. Gerader Strich ab. Strich cd.
-3. Der Durchschlag cg ⊣ ab. 2. cd | ab.
-
-[Diagram: links ein senkrechter Strich ab; daneben ein Kreis cdf mit Mittelpunkt e, punktierter Durchmesser gc und eingefügtem Strich cd; ein zweiter punktierter Kreisbogen um c durch d und f]
-
-<!-- Catchword: Wir- -->
+<!-- Catchword: Der -->

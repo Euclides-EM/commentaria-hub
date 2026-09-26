@@ -1,43 +1,42 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 93 -->
+<!-- Page number: 95 -->
 
-AD | ad | n. 2. I.
-Dw. ad | AB | n. 1. Gr-S. I.
-α. ab | AB | n. 2 I.
-Dw. ab | ad | n. 1. Gr. I.
-ab | ab
-□ ab | □ bad | n. 1. Gr. II.
-□ oni + □ mlg | □ bad | n. 1. II.
-Dw. □ ab | □ oni + □ mlg | n. 1. Gr. I.
-ab | AB | n. Bew. α.
-Dw. □ ab | □ AB | n. 1. Gr. t. II.
-und □ AB | □ oni + □ mlg
-und □ AB | □ CAB + □ CBA | n. 1. Gr. I.
+bc | cb
+□ abc | □ acb + □ cb — n. 1. II.
+Dw. □ ABC | □ acb + □ cb — n. 1. Gr. I.
+ac | AC — n. 4. Vorb.
+cb | CB — n. 3. Vorber.
+ac + cb | AC + CB — n. 1. Gr. I.
+cb | CB — n. 3. Vorber.
+□ acb + □ cb | □ ACB + □ CB — n. 1. Gr. II.
+Dw. □ ABC | □ ACB + □ CB — n. 1. Gr. I.
 
 ### Beschluß.
 
-Wird also allezeit das □ von dem gantzen Strich AB so groß seyn/ als die beeden □ □ so von den gantzen AB, und den beeden Stücken CA und CB begriffen werden. W. Z. B.
+Gleiche Bewandniß hat es/ wenn man aus dem Stück CA das gleichseitige □ machet/ so wird alsdenn
+
+□ BAC | □ BCA + □ CA seyn.
+
+### Beschluß.
+
+Muß also allezeit das □, welches von dem gantzen Strich AB, und einen Stück desselben AC oder CB gemacht wird/ eben so groß seyn/ als das gleichseitige □ desselben Stücks/ samt dem Viereck/ welches von solchem Stück und von dem gantzen Strich AB begriffen wird. W. Z. B.
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrte.
-1. a. | aa | ab + ac
-2. b + c
+### Gegebene. | Begehrtes.
+
+1. a | AB — ac | bc + cc
+2. b + c | AC + CB — oder ab | cb + bb
 3. a | b + c
 
 ### Beweiß.
 
-a | b + c | n. 3. Gegeb.
-a | a
-aa | ab + ac | n. 1. II. W. Z. B.
+a | b + c — n. 3. Gegeb.
+c | c
+ac | bc + cc — n. 1. II. W. Z. B.
+oder a | b + c — n. 3. Gegeb.
+b | b
+ab | bb + bc — n. 1. II. W. Z. B.
 
-## Der III. Vortrag.
-
-## Das 3. Beweiß-Stück.
-
-Wenn man einen geraden Strich/ auff waserley weiß / in zwey Stücke schneidet/ so wird das
-
-<!-- Signature: M 3 -->
-
-<!-- Catchword: Vier- -->
+<!-- Catchword: Der -->

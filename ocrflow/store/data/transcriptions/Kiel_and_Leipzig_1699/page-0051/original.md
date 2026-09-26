@@ -1,37 +1,33 @@
+<!-- Page number: 35 -->
+
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 33 -->
+### Beweiß.
+Die Beeden geraden Striche EC und DC werden entweder gerade auff einander stossen/ oder schrad zu sammen lauffen. Wann sie nicht gerade auff einander stossen /
 
 ### Vorbereitung.
+So verlängere man den einen Strich EC gerade aus/ biß in F oder G/ nach 2. Foderung.
 
-Man ziehe die beeden Striche CD und CE.
-
-### Beweiß.
-
-DF | EF nach 10. Vortr.
-CF | CF
-DF + CF | EF + CF nach 2. Gr. S.
-DC | EC nach 15. Beschr.
-Dw. DFC ⋏ EFC nach 8. Vortr.
-und CF | ein bley-rechter Senckstrich n. 10. Beschr.
+### Verfolg des Beweises.
+So werden ECA + ACF |
+oder ECA + ACG ⋀ ⊥ n. Angenom. und n. 13. Vortr.
+ECA + ACD ⋀ ⊥ n. 5. Gegebenem.
+Dw. ECA + ACD ⋀ ECA + ACF) ECA + ACG) n. 1. und 10. Gr-S.
+welches aber unmüglich n. 9. Gr-S.
 
 ### Beschluß.
+Müssen derowegen die beeden Striche EC und DC gerade auff einander stossen / und von der gegend DC weder auff- noch unterwerts sich lencken. W. Z. B.
 
-Ist also der begehrte Senckstrich CF aus dem gegebenen Düttel C auff den gegebenen Strich AB gezogen. W.Z.M.
+## Der XV. Vortrag.
 
-## Der XIII. Vortrag.
+## Das 8. Beweiß-Stück.
 
-## Das 6. Beweiß Stück.
+Wenn zween gerade Striche einander durchschneiden/ so werden sie die gegen einander stehende Gipffel-Winckel einander gleich-groß machen.
 
-Wenn ein gerader Strich auff einen liegenden geraden Strich stösset/ und zween Winckel machet / so werden solche Winckel entweder selbst zween rechte Winckel / oder wenigstes zweyen rechten Winckeln an grösse gleich seyn.
+### Gegebene. Begehrte.
+Die Gipffel-Winckel (anguli ad verticem)
+1. Zween gerade Striche AB und DE. AEC ⋀ DEB.
+2. Welche einander durchschneiden in E. AED ⋀ CEB.
 
-### Gegebene. | Begehrtes.
-
-Liegender Strich AB. | ⋀ ACD und DCB zween ∟ ∟. oder
-Darauff stossender Strich DC. | ⋀ ADC + BCD | ⊾.
-
-[Diagram: links liegender Strich AB mit senkrechtem Strich DC auff C; rechts liegender Strich AB mit schrägem Strich DC und punktiertem E]
-
-<!-- Signature: E -->
-
+<!-- Signature: E 2 -->
 <!-- Catchword: Be- -->

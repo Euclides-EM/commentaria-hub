@@ -1,35 +1,29 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Druckfheler/welche mit der Feder zu verbessern. -->
 
-<!-- Page number: 380 -->
+Pag. 121. l. 10. *pro* hende Winckel *lege* henden Winckel.
+123. l. 16. *pro* aa + — 2bc. *leg.* aa — 2bc.
+128. l. 6. *pro* wird es stehender *lege* wird es ein auff solchem Kreiß stehender.
+131. l. 15. *lege* gerader Strich.
+163. l. 3. *lege* RührStrich.
+165. l. *ult. lege* 2 acb n. 9. Gr. q. I.
+251. Werden die 2te und 3te Zeilen außgelöschet/ oder ein weiß Papier darüber geleimet.
+253. l. 22. A | a
+23. B | b
+24. A | a
+25. B | b
+26. A : B | a : b.
+271. l. 17. *lege* abgenommenen Stück:
 
-|  |  |  |  |
-|---|---|---|---|
-|  | □ fo | □ qb | n. 24. VI. |
-|  | □ L ähnlich | □ qb | n. 2. Wirck. |
-| Dw. | □ fo | □ L | n. 21. VI. |
-|  | □ fp — | □ Bp | n. 9. Gr. I. |
-|  | □ fp | □ Bp + □ fo | n. 9. Gr. I. q. |
-| Dw. | ist □ fo der Uberschuß |  | n. 6. Beschr. VI. |
+# Druckfehler/welche leicht können durch aufkleistern geändert werden.
 
-### Beschluß.
+p. 21. lin. 11. pro abc. ABC. leg. bc. BC
+p. 37. lin. 5. 6. pro CA in zween gleiche Theil bey H, bey E,
+BA
+lege CA in zween gleiche Theile bey E
+BA - - - - - bey H
 
-Ist also an den gegebenen Strich AB ein übertreffendes □ fp | △ K also angeschlagen/ daß der Uberschuß □ fo ähnlich dem □ L, auch auf gleiche Weise gesetzet seye. W. Z. M.
+p. 37.
 
-## Der XXX. Vortrag.
+[Diagram: Dreieck B C mit Spitze oben; oberhalb der Spitze der Punkt D, an der Spitze die Punkte G und A, links davon I, rechts F; auf den Seiten die Punkte H und E; punktierte Linien verbinden I, F, B und C.]
 
-## Das 10. Werck-Stück.
-
-Einen gegebenen geraden Strich nach der äusersten und mittelsten Verhältnüß zu theilen.
-
-### Gegebenes.
-
-Gerader Strich ab,
-
-### Begehrte.
-
-1. Strich ab getheilet
-2. Bey 1 nach äuserster und mittelster Verhältnüß.
-
-[Diagram: geometrische Konstruktion aus Quadraten und punktierten Linien mit den Punkten f, a, i, c, b, e, h, g, k, d, m]
-
-<!-- Catchword: Wir- -->
+<!-- Catchword: p. 41. -->

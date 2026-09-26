@@ -1,32 +1,28 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 350 -->
+<!-- Page number: 364 -->
 
-### Beschluß.
-
-Wenn derowegen drey ebenmässige Striche gegeben werden/ so ist das von den äusersten Strichen gemachte Viereck dem gleichseitigen Viereck des mittelsten Striches gleichgroß.
-
-Und wenn der beyden äusersten Striche Viereck dem gleichseitigen Viereck des mittelsten Striches gleichmässig ist/ so stehen die drey Striche in unzertrennter (continua) Ebenmaß. W. Z. B.
-
-## Der XIIX. Vortrag.
-
-## Das 6. Werck-Stück.
-
-Auf einen gegebenen geraden Strich eine der gegebenen geradstrichichten Gestalt ähnliche und ebener massen gesetzte Gestalt zu verfertigen.
+ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüssen zusammen gesetzet ist.
 
 ### Gegebene.
 
-1. Gestalt abhik
-2. Gerader Strich cd
+1. Nebenstrichichte Vierecke ao, und df.
+2. □ ac gleichwincklicht dem □ df.
 
 ### Begehrtes.
 
-1. cdefg ähnlich der Gestalt abhik
-2. cdefg eben so gesetzt als abhik
+□ ac : □ df | ad, dc : gd, de.
 
-[Diagram: zwei fünfeckige Gestalten nebeneinander; die grössere mit den Ecken a, k, i, h, b und punktierten Diagonalen; die kleinere mit den Ecken c, g, f, e, d und punktierten Diagonalen]
+[Diagram: zwey aneinander gefügte Vierecke mit den Punkten b, c, h, a, d, g, e, f nebst den Linien i, k, l; darunter zwey Dreiecksfiguren mit punctirten Linien und den Buchstaben k, g, l, c, d, k, e, d]
 
-### Wirckung.
+### Vorbereitung.
 
-1. Aus h zu denen gegen überstehenden Winckeln a und k werden gerade Striche ha, hk gezogen.
-2. werden auf den Strich cd Winckel gesetzet
+1. Werden die beyden Vierecke bey dem Winckel d also zusammen gefüget/ daß ad und dg, wie auch cd und de zween gerade Striche machen.
+
+2. Die Seiten bc und fg werden fort gezogen/ biß sie in h zusammen kommen.
+
+3. Werden zween gerade Striche i und k, gefunden/ welche eben solche Verhältnüß haben / als ad : dg.
+
+ad : dg | i : k, n. 12. VI.
+
+<!-- Catchword: 4. Werde -->

@@ -1,35 +1,33 @@
-<!-- Page number: 75 -->
+<!-- Page number: 77 -->
 
 <!-- Running title: Euclidis. -->
 
+### Beweiß.
+
+ACB ⩓ ADB
+AFE ⩓ AGF
+EHB ⩓ EIB } n. 34. Vortr.
+Dw. ACB—AEF—FHB ⩓ ADB—AGF—FIB n. 3. Gr:S.
+oder FH ⌻ GI.
+
 ### Beschluß.
 
-Wird dannenhero allezeit das □ , so mit einem △ auff einem Grundstrich / und zwischen einerley Nebenstrichen stehet/ doppelt so groß/als das △ seyn. W. Z. B.
+Aus diesem ist klar zu sehen / daß alle eines durch einen Zwergstrich getheileten Viereckes Füllflächen gleiche Grösse haben müssen. W. Z. B.
 
-## Der XLII. Vortrag.
+## Der XLIV. Vortrag.
 
-## Das 11. Werck-Stück.
+## Das 12. Werckstück.
 
-Einem gegebenen Dreyeck/ nach dem gegebenen Winckel/ ein gleichhaltiges Viereck zu machen.
+An einen gegebenen geraden Strich/nach dem gegebenen Winckel / ein geschicktes Viereck / welches dem gegebenen Dreyeck an grösse gleich sey/ anzusetzen.
 
-### Gegebene. | Begerthe.
-1. △ ABC | 1. □ CEFG
-2. ∧ D | 2. □ CEFG | △ ABC
-| 3. ECG ⋀ D
+### Gegebene. | Begehrte.
+1. Gerader Strich EF | 1. □ IK
+2. ∧ D | 2. □ IK | △ ABC
+3. △ ABC | 3. IL | EF
+| 4. KLI ⋀ D
 
-[Diagram: Dreyeck und Viereck auff dem Grundstrich mit den Puncten G, F, A oben und C, E, B unten, daneben der Winckel D]
+[Diagram: Figur mit den Puncten B, H, M, N oben, E, K, C, A, D, L, I, O, F, G unten und in der Mitte, mit gezogenen und punctirten Strichen]
 
-### Wirckung.
+<!-- Signature: K 3 -->
 
-1. Durch denn Gipffel des △ werde dem Grundstrich gegen über/ der Nebenstrich GA gezogen / nach 31. Vortr.
-2. Der Grundstrich BC werde in zwey gleiche Theile geschnitten in E, nach 10. Vortr.
-3. Auff des Grundstrichs Enddüttel E setze man den Winckel ECG ⋀ D, nach 23. Vortr.
-4. Aus E ziehe man EF ⟛ CG nach 31. Vortr.
-
-### Vorbereitung.
-
-Aus E werde ein gerader Strich EA nach dem Gipffel A gezogen.
-
-<!-- Signature: K 2 -->
-
-<!-- Catchword: Beweiß -->
+<!-- Catchword: Wir- -->

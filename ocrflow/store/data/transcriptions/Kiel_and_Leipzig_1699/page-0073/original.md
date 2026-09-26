@@ -1,30 +1,39 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 55 -->
+<!-- Page number: 57 -->
 
-Solten sie aber bey A zusammen kommen / so würde
-        GHC ⊼ BGH      n. 16. Vortr.
-    welches widerumb gegen das 3. Gegeb.
+[Diagram: Zwei sich schneidende Striche mit den Dütteln G, M, B, D, E, F, K, I, A, H, C; der einfallende Strich IK senkrecht]
+
+### Beweiß.
+
+1. Entweder sind        AB — DC.
+2. oder lauffen zusammen in H.
+3. oder  -  -  -  -  in G.
+
+### Vorbereitung.
+
+Wann AB = DC so setze man auff E
+einen Winckel IEM ⋏ EFD n. 23. Vortr.
+
+### Verfolg des Beweises.
+
+        IEM ⋏ EFD  n. 1. Vorbereit.
+        BEF ⋏ EFD  n. 1. Angen. uñ 28. Vortr.
+Dw. BEF ⋏ IEM  n. 1. Gr-S.
+Welches aber unmöglich n. 9. Gr-S.
+
+Wann aber die beeden Striche BA und DC in dem Düttel H zusammen kommen / so werden in dem △ EHF zween Winckel HEF + HFE ⋏ ⏥, welches unmüglich / nach 17. Vortr. müssen also die beeden Striche in G zusammen kommen.
 
 ### Beschluß.
 
-Können also diese Striche AB und CD weder auff der einen/ noch auff der andern Seite zusammen kommen / sondern müssen Neben-Striche seyn / n. 34 Beschreibung.   W. Z. B.
+Wenn derwegen bey den beeden Strichen der einfallende Strich auff einer Seiten zween Winckel/ so kleiner als ⏥, machet so müssen solche Striche auff selbiger Seite/wo die kleinere Winckel stehen/ zusammen kommen. W. Z. B.
 
-## Der XXIIX. Vortrag.
+## Der XXIX. Vortrag.
 
-## Das 19. Beweiß-Stück.
+## Das 20. Beweiß Stück.
 
-Wenn der auff zween gerade Striche einfallende gerade Strich / den auswendigen / dem auff selbiger Seite inwendig entgegen stehenden Winckel/ gleich groß machet : Oder auch die beeden inwendige aufft eben derselben Seite / neben-Winckel / zweyen rechten Winckeln gleich machet : So werden es auch Neben-Striche seyn.
+Der auff zween gerade neben-Striche einfallende gerade Strich machet die wechsel-weiß ge-
 
-### Gegebene.                              Begehrtes.
-1. Zween gerade Striche AB und CD      AB ═══ CD
-2. Einfallender gerader Strich   EF
-3. Außwen-        EGB ⋏ GHD   inwendig ent-
-        dige      EGA ⋏ GHC   gegen stehende.
-4. [unclear: Inwegendige]
-5. Auff eben selbiger Seite
-6. Gegeneinanderstehende BGH + GHD | [unclear: ⏥]
+<!-- Signature: H -->
 
-[Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
-
-<!-- Catchword: 1. Be- -->
+<!-- Catchword: nom- -->

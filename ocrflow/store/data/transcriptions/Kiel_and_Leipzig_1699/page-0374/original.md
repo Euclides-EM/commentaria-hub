@@ -1,39 +1,35 @@
-<!-- Page number: 344 -->
-
 <!-- Running title: Das VI. Buch -->
 
-### I. Gegebene.
+<!-- Page number: 358 -->
 
-1. Dreyeck ABC
-2. u. DFE
-3. ABC ⋏ DEF
-4. ABC ⩓ EFD.
+### Gegebene. Begehrte.
 
-### Begehrtes.
+1. △ abc \ △ abc ähnlich △ efg
+2. △ efg / ähnlich △ cde
 
-AB : DE ⊤ EF : BC.
-
-[Diagram: Dreyecke D E A, F B C oben; darunter die Punkte d, e, b, a und der punktierte Strich nach c]
-
-### I. Vorbereitung.
-
-1. Es werde gemacht abc ⩓ ABC n. 22. I.
-2. Die Seiten ab und ce werden gegen d und f verlängert.
-3. Es werde ed ⊤ ED
-4. und ef ⊤ EF   n. 3. I.
-5. Auch werde df
-6. Wie auch dc gezogen.
+[Diagram: drey Dreyecke auf einer gemeinsamen Grundlinie b c e g mit den Spitzen a, d und f]
 
 ### Beweiß.
 
-|  |  |  |
-|---|---|---|
-| α | △ abc ⊤ △ ABC | n. 1. Vorb. |
-|  | △ efd gleichmässiger Höhe △ edc | n. 4. Beschr. VI. |
-| Dw. | △ efd : △ edc ⊤ ef : ec | n. 1. VI. |
-|  | △ eac gleichmässiger Höhe △ edc | n. 4. Beschr. VI. |
-| β Dw. | △ eac : △ edc ⊤ ab : ed | n. 1. VI. |
-|  | △ efd ⊤ △ FED | n. 4. I. |
-|  | △ ABC ⊤ △ EFD | n. 4. Gegeb. |
+△ abc ähnlich △ cde n. 1. Geg.
+Dw. abc ⋏ dce n. 1. Besch. VI.
+△ efg ähnlich △ cde n. 2 Geg.
+Dw. feg ⋏ dce n. 1. Beschr. VI.
+u. abc ⋏ feg n. 1. Gr. I.
+Aus gleichen Ursachen ist auch
+a ⋏ f
+Dw. acb ⋏ fge n. 32. I.
+u. ab : bc | fe : eg
+u. ab : ac | fe : fg n. 4. VI.
+Dw. △ abc ähnlich △ efg n. 1. Besch. VI.
 
-<!-- Catchword: Dw. -->
+### Beschluß.
+
+Sind derowegen diejenigen Vielecke / welche einem einigen Vieleck ähnlich sind/ auch unter einander selbst ähnlich. W. Z. B.
+
+## Der XXII. Vortrag.
+
+## Das 16. Beweiß-Stück.
+
+Wenn vier in Ebenmaß stehende gerade Stri-
+<!-- Catchword: che -->

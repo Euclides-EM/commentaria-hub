@@ -1,27 +1,33 @@
-<!-- Page number: 48 -->
-
 <!-- Running title: Das I. Buch -->
 
-4. ac | AD
-5. Werden gezogen cd
-6. und cb.
+<!-- Page number: 50 -->
 
-Erste Begebenheit (1. Casus.)
+         Ad | AC        n. 2. Gegeb.
+β Drw.   bd | BC        n. 4. Vortr.
+         Ab | AB
+         Ac | AB        n. 1. Gegeb.
+Drw.     Ac | Ab        n. 1. Gr-S.
+und      fbc ⋏ ecb      n. 5. Vortr.
+         fbc ⊼ dbc      n. 9. Gr-S.
+Dw.      ecb ⊼ dbc      n. 1. Gr-S. c.
+         ecb ⊼ dcb      n. 9. Gr-S.
+Dw.      dbc ⊼ dcb      n. 1. Gr-S. e.
+und      dc ⊣ db        n. 19. Vortr.
+         db | BC        n. Beweiß β.
+Dw.      BC ⊢ dc.       n. 1. Gr-S. d.
 
-[Diagram: Oben zwei grosse Dreiecke: links Dreieck ABC mit A oben, C unten links, B unten rechts; rechts Dreieck mit a oben, b unten links, d rechts, mit punktierten Linien nach c unten. Darunter (2. Casus): kleines Dreieck a b d mit punktierter Linie, daneben Dreieck ABC mit punktierten Linien nach c.]
+### Beschluß.
 
-### Beweiß
+Ist also allezeit des △es / dessen zwo Seiten / zweyen Seiten eines andern △es gleich sind / aber einen grössern Winckel haben / Grundstrich grösser / als des andern △es / welches einen kleinern Winckel hat.   W. Z. B.
 
-AC | ad n. 4. Gegeb.
-AC | ac n. 2. Vortr.
-Dw. ac | ad n. 1. Gr-S.
-und adc ⋀ acd n. 5. Vortr.
-adc ⲗ bdc n. 9. Gr-S.
-Dw. acd ⲗ bdc n. 1. Gr-S.
-bcd ⲗ acd n. 9. Gr-S.
-Dw. bcd ⲗ bdc n. 1. Gr S. e
-und bd ⊣ bc n. 19. Vortr.
-bc | BC n. 22. Vortr.
-a Dw. bd ⊣ BC n. 1. Gr-S. a
+## Der XXV. Vortrag.
 
-<!-- Catchword: An- -->
+## Das 16. Beweiß-Stück.
+
+Wenn zwey Dreyecke / zwo Seiten zweyen Seiten/jedwede jedweder/gleich groß/eines aber einen grössern Grundstrich / als das andere hat: So wird selbiges auch einen grössern Winckel/als das andere / zwischen seinen zwo Seiten haben.
+
+### Gegebene.                    Begehrte.
+1. Das △ ABC                 BAC ⊼ bac
+2.     △ abc
+
+<!-- Catchword: 3.AB -->

@@ -1,33 +1,38 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 352 -->
+<!-- Page number: 366 -->
 
-Dw. ist cdefg ähnlich der Gestalt abhik, und eben so gesetzet n. 1. Beschr. VI.
+üm den Zwerg-strich stehende Viereck so wol dem Gantzen/ als auch unter sich gleichähnlich.
 
-### Beschluß.
+### Gegebene.
 
-Ist also ein dem gegebenen Fünfeck abhik, ähnliches und eben so gesetztes Fünfeck cdefg auf den gegebenen Strich cd gesetzet. W. Z. M.
+1. □ ADBC
+2. Um den Zwergstrich stehende □ FG und □ HI.
 
-## Des XIIX. Vortrags Anhang.
+### Begehrte.
 
-Vortheilhafftiger kan dieser Aufgabe ein Genügen geschehen/ wenn
+1. □ DC ⎫ ⎧ □ FG
+2. □ DC ⎬ ähnlich ⎨ □ HI
+3. □ FG ⎭ ⎩ □ HI
 
-1. aus dem Winckel A zu denen gegenstehenden Winckeln C D E gerade Striche gezogen werden.
-
-2. Dem gegebenen geraden Strich ab ein gleichmässiger von der Seiten AB abgeschnitten wird n. 3. I.
-
-3. Aus | b gegen | BC ein Nebenstrich | bc,
-4. | c | CD | cd,
-5. | d | DE | de,
-6. | e | EF | ef gezogen wird n. 31. I.
-
-[Diagram: Sechseck ABCDEF mit einwärts liegendem ähnlichen Sechseck abcdef; von A gehen punktierte Striche zu den Ecken; oben der Strich A a—b B]
+[Diagram: schiefwinckliges Viereck ADBC mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, nebst Diagonale und inneren Linien]
 
 ### Beweiß.
 
-BC ∓ bc n. 3. W.
-Dw. ACB ⋏ acb
-u. ABC ⋏ abc n. 29. I.
-CAB ⋏ cab n 8. Gr. I.
+DAC ⋀ GAF n. 8. Gr. I.
+ADB ⋀ AGE
+ACB ⋀ AFE n. 29. I.
+DAC ⋀ CBD
+DAC ⋀ GEF n. 34. I.
+CBD ⋀ GEF n. 1. Gr. I.
+Dw.
+u. □ DC gleichwincklicht □ FG
+
+Gleicher Gestalt ist auch
+
+□ DC gleichwincklicht □ HI
+GE ⧧ DB n. Geg. u. n. 30. Besch. I.
+Dw. AG : AD | GE : DB n. 2. VI.
+AC ⧧ EH n. Geg.
 
 <!-- Catchword: Dw. -->

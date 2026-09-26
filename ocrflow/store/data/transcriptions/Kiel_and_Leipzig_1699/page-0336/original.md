@@ -1,28 +1,37 @@
-<!-- Page number: 312 -->
+<!-- Page number: 320 -->
 
 <!-- Running title: Das VI. Buch -->
 
-## Der II. Vortrag.
+## Der V. Vortrag.
 
-## Das 2. Beweiß-Stück.
+## Das 5. Beweiß-Stück.
 
-Wenn gegen eines Dreyeckes eine Seite ein gerader Nebenstrich gezogen wird/ so schneidet solcher Strich die übrigen Seiten nach der Ebenmaß. Und wenn ein gerader Strich zwo des Dreyeckes Seiten nach der Ebenmaß schneidet; so wird er ein Nebenstrich des Grundstrichs seyn.
+Wenn die Seiten zweyer Dreyecke in ebenmässiger Verhältnüß stehen / so sind solche Dreyecke gleichwincklicht / und denen ebenmässigen Seiten stehen gleichmässige Winckel gegen über.
 
-### I. Gegebene.
+### Gegebene.
 
-1. Dreyeck abc.
-2. Strich de
-3. de ⧣ cb.
-4. Das Dreyeck schneidend.
+1. Zwey Dreyecke abc und DCE, deren Seiten in richtiger Ebenmaß stehen.
 
-### Begehrtes.
+2. | ac : DE | bC : CE
+3. | ab : DC | bC : CE
+4. | ab : DC | aC : DE.
 
-ae : ec | ad : db.
+### Begehrte.
 
-[Diagram: Dreyeck mit Gipffel a und Grundlinie bc, darin der Strich de nebst gestrichelten Strichen be und cd]
+C ⋏ b
+DCE ⋏ aCb
+a ⋏ D.
+
+[Diagram: zwei Dreiecke, ein kleineres abc und ein grösseres DCE mit punktierter Linie DH und Punkten H und E auf der Grundlinie]
+
+### Beweiß.
+
+Wenn die gegebenen Dreyeck nicht gleichwincklicht sind.
 
 ### Vorbereitung.
 
-Es werden die geraden Striche be und cd gezogen.
+So setze man auf den Strich CD und zwar
+auf den Düttel D den Winckel CDH ⋏ baC
+und auf C den Winckel DCH ⋏ abC   n. 32. I.
 
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Ver- -->

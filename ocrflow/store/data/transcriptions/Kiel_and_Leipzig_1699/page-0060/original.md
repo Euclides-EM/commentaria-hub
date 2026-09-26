@@ -1,36 +1,36 @@
-<!-- Page number: 42 -->
+<!-- Page number: 44 -->
 
 <!-- Running title: Das I. Buch -->
 
-sammen / sie mögen genommen werden / wie sie wollen / allezeit grösser / als die dritte.
+CE + ED ⊣ DC n. 20. Vortr.
+BD | BD
+CE + ED + BD ⊣ DC + BD n. 4. Gr-S.
+oder CE + AB ⊣ DC + BD n. 9. Gr-S. q.
+EA + AB ⊣ EB n. 20. Vortr.
+EC | EC
+EA + AB + EC ⊣ EB + EC n. 4. Gr-S.
+oder CA + AB ⊣ EB + EC n. 9. Gr-S. q.
+ß Drw. CA + AB ⊣ DC + BD n. 1. Gr-S. e.
 
-### Gegebenes. Begehrte.
-△ ABC. 1. AB + BC ⊣ CA
-2. CA + AB ⊣ BC
-3. BC + CA ⊣ BA.
+### Beschluß.
+Müssen also zwar die einwerts auffgesetzten Striche
+BD + DC ⊢ BA + AC n. Beweiß ß.
+Aber einen grössern Winckel begreiffen / nemlich
+BDC ⲗ BAC n. Bew. a. W. Z. B.
 
-### Vorbereitung.
+## Der XXII. Vortrag.
 
-1. Werde die Seite CA nach nohturfft verlängert. n. 2. Fod.
-2. werde AD | AB n. 3. Vortr.
-3. Ziehe man den geraden Strich BD.
+## Das 8. Werck-Stück.
 
-[Diagram: Dreieck ABC mit C unten links, B unten rechts, A oben; die Seite CA über A hinaus punktiert verlängert bis D, punktierte Linie von D nach B.]
+Aus drey geraden Strichen / welche drey andern gegebenen geraden Strichen gleich sind / ein Dreyeck zu verfertigen. Es müssen aber allezeit zween Striche/ auff waserley Weise genommen/ zusammen/ grösser seyn/ als der dritte.
 
-### Beweiß.
+### Gegebene. Begehrte.
+Drey Striche 1. △ ABF
+1. c —— a 2. AB | bc
+2. c ——— b 3. BF | ba
+3. a ——— b 4. AF | ac
+4. ca + cb ⊣ ab
+5. cb + ab ⊣ ca
+6. ca + ab ⊣ cb
 
-AD | AB n. 2. Vorbereitung.
-Drw. ADB ⋀ ABD n. 5. Vortr.
-CBD ⲗ ABD n. 9. Gr-S.
-CBD ⲗ CDB n. 1. Gr-S. a.
-CD ⊣ CB n. 19. Vortr.
-CA | CA
-CA + AD | CA + AB n. 2. Gr-S.
-aber CA + AD | CD n. 9. Gr-S. q.
-Drw. CA + AB ⊣ CB n. 1. Gr-S. c.
-
-Gleicher Weise kan auch erwiesen werden
-daß AB + BC ⊣ CA
-und BC + CA ⊣ BA
-
-<!-- Catchword: Beschluß. -->
+<!-- Catchword: Wir- -->

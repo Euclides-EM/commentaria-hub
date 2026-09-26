@@ -1,38 +1,39 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 191 -->
+<!-- Page number: 193 -->
 
-## Der XXXV. Vortrag.
+### Vorbereitung.
 
-## Das 29. Beweiß-Stück.
-
-Wenn in einem Kreyß zween gerade Striche sich Kreutzweiß durchschneiden: So ist das rechtwincklichte Viereck / welches die beeden Stücke des einen Striches begreiffen / eben so groß/ als das Viereck / welches von den beeden Stücken des andern Striches begriffen wird.
-
-### Gegebene. | Begehrte.
-
-1. Kreyß adcb. | deb ⊞ aec
-2. Zween gerade Striche ac, bd. | oder olm ⊞ klp.
-3. Welche in dem Kreyß stehen /
-4. Und einander durchschneiden in e oder l.
-
-### I. Begebenheit.
-
-Gegebenes: Die Striche ac und bd schneiden einander im Mittel-Düpffel e.
-
-[Diagram: Kreis mit den Punkten a, b, d, c und sich im Mittelpunkt e kreutzenden Strichen ac und bd]
+1. Werde auff den Strich ac aus dem Mittel-Düpffel e ein Senckstrich en gezogen n. 12. I.
+2. Werde auch der Strich ec gezogen.
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | de | ae |  |
-|  | eb | ec | n. 15. Beschr. I. |
-| Dw. | deb ⊞ aec |  | n. 1. Gr. II. |
+| α. | ▭ bld + □ le | □ ed |  |
+|  | ▭ cla + □ ln | □ nc | n. 5. II. |
+|  | □ ne | □ ne |  |
+| Dw. | ▭ cla + □ ln + □ ne | □ nc + □ ne | n. 2 Gr. I. |
+|  | □ le | □ ln + □ ne | n. 47. I. |
+| Dw. | ▭ cla + □ ln + □ ne + □ le | □ nc + □ ne + □ ln + □ ne | n. 2. Gr. I |
+| β. | ▭ cla + □ le | □ nc + □ ne | n. 3. Gr. I. |
+|  | ec | ed | n. 15 Beschr. I. |
+|  | □ ec | □ ed | n. 1. Gr. t. II. |
+|  | ▭ bld + □ le | □ ec | α n 1. Gr. I. |
+|  | □ nc + □ ne | □ ec | n. 47. I. |
+| D. | ▭ bld + □ le | □ nc + □ ne |  |
+| und | ▭ bld + □ le | ▭ cla + □ le β | n. 1. Gr. I. |
+| u. | ▭ bld | ▭ cla | n. 3. Gr. I. |
 
-### II. Begebenheit.
+### IV. Begebenheit.
 
-### Gegebenes:
+### Gegebene:
 
-Nur ein durch den Mittel-Düpffel e gehender Strich db,
+1. Von beeden Strichen bd, ac gehet keiner durch den Mittel-Düpffel.
+2. Der Strich ac ist in zween gleiche Theil al | lc
+3. Der Strich bd aber in ungleiche Theile bl ⊣ ld geschnitten in l.
 
-<!-- Catchword: 2. Wel- -->
+<!-- Signature: Bb -->
+
+<!-- Catchword: Vor- -->

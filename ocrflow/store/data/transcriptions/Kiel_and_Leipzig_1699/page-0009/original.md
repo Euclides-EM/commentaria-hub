@@ -1,9 +1,14 @@
 <!-- Running title: Vorrede. -->
 
-tet/ daß/ gleich wie durch die alten drey Foderungen das Streich- oder Strich-Höltzlein (Lineal) und der Passer (Circul/ Circinus) gerechtfertiget werden / also durch diese vierte und neue Foderung (oder postulatum) auch der Stifft von aller fernern Ansprache befreyet werde. Und deßwegen sind in dem Kupfferblättlein die drey Mathematischen Werckzeuge/ nemlich der Stifft/ das Streichholtz/ und der Passer vorgestellet/ weil nemlich keine Gestalt/ welche zu ihrer Verfertigung mehr/ als diese drey Werckzeuge/ erfordert/ für eine Mathematische/ sondern nur vor eine Mechanische Gestalt gehalten wird.
+die grösseste Deutlichkeit auf dem Zeichen der Gleichmässigkeit beruhe/ welches ein aufrecht stehender gerader Strich ist.
 
-Was die Vorträge betrifft / so sind selbige in ihre gewisse Stücke/ nemlich in die Gegebene (Data), und Begehrte (Quæsita) abgetheilet/ alsdann folget die Wirckung
+Und solch Zeichen ist schon vor diesem bey den Rechenmeistern gebräuchlich gewesen / wenn sie bey den Theilungen (oder Divisionibus) die Zahlen also setzen 24/6 | 4 welches nichts anders bedeutet / als daß 24 Sechstheil eben so viel/ als 4. Gantze/ seyn. Deßgleichen gebraucht man sich solches Zeichens auch bey Verwandlung und Verkleinerung der Brüche/ als:
 
-<!-- Signature: ):( ):( 2 -->
+96 | 48 | 24 | 12 | 6 | 3
+128 | 64 | 32 | 16 | 8 | 4
 
-<!-- Catchword: (Ope- -->
+da dann 96 hundert-acht und zwantzigtheil eben so viel/ als 48 vier und sechtzig theil/ etc. oder so viel/ als 3 Viertheil ist.
+
+<!-- Signature: ):( ):( 3 -->
+
+<!-- Catchword: Zu -->

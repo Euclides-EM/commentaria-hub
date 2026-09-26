@@ -1,35 +1,35 @@
-<!-- Page number: 73 -->
+<!-- Page number: 75 -->
 
 <!-- Running title: Euclidis. -->
 
-### Gegebene. | Begehrte.
-1. △ ABC | 1. CE durch die Gipffel der △ △
-2. △ FEH | 2. CE ⟛ AH
-3. ABC ⩓ FEH
-4. Grundstriche AB | FH
-5. Gleichmässiger Stand derer △ △.
+### Beschluß.
 
-[Diagram: zwey Dreyecke auff dem Strich A, B, F, H, mit den Puncten C, D, E, G oben, mit gezogenen und punctirten Strichen]
+Wird dannenhero allezeit das □ , so mit einem △ auff einem Grundstrich / und zwischen einerley Nebenstrichen stehet/ doppelt so groß/als das △ seyn. W. Z. B.
 
-### Beweiß.
+## Der XLII. Vortrag.
 
-Wenn der Nebenstrich des Striches AH nicht durch den Gipffel E gehet/ so ziehe man einen andern.
+## Das 11. Werck-Stück.
+
+Einem gegebenen Dreyeck/ nach dem gegebenen Winckel/ ein gleichhaltiges Viereck zu machen.
+
+### Gegebene. | Begerthe.
+1. △ ABC | 1. □ CEFG
+2. ∧ D | 2. □ CEFG | △ ABC
+| 3. ECG ⋀ D
+
+[Diagram: Dreyeck und Viereck auff dem Grundstrich mit den Puncten G, F, A oben und C, E, B unten, daneben der Winckel D]
+
+### Wirckung.
+
+1. Durch denn Gipffel des △ werde dem Grundstrich gegen über/ der Nebenstrich GA gezogen / nach 31. Vortr.
+2. Der Grundstrich BC werde in zwey gleiche Theile geschnitten in E, nach 10. Vortr.
+3. Auff des Grundstrichs Enddüttel E setze man den Winckel ECG ⋀ D, nach 23. Vortr.
+4. Aus E ziehe man EF ⟛ CG nach 31. Vortr.
 
 ### Vorbereitung.
 
-1. Werde auß C, entgegen AH, der Nebenstrich CD gezogen/ nach 31. Vortrag.
-2. Verlänge man die Seite HE biß D.
-3. Ziehe man den Strich FD.
+Aus E werde ein gerader Strich EA nach dem Gipffel A gezogen.
 
-### Verfolg des Beweises.
+<!-- Signature: K 2 -->
 
-CD ⟛ AH n. 1. Vorbereit.
-AB | FH n. 4. Gegeb.
-Dw. ABC ⩓ FDH n. 38. Vortr.
-ABC ⩓ FEH n. 3. Gegeb.
-Dw. FEH ⩓ FDH n. 1. Grund-Satz.
-welches aber unmöglich n. 9. Gr:S.
-
-<!-- Signature: K -->
-
-<!-- Catchword: Gleiche -->
+<!-- Catchword: Beweiß -->

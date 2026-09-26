@@ -1,40 +1,38 @@
-<!-- Page number: 342 -->
-
 <!-- Running title: Das VI. Buch -->
 
-3. werde DH ⊤ eh
-4. und DF ⊤ ef   n. 3. I.
-5. Gegen EF werde gezogen der Nebenstrich Hd
-6. u. EH Fd   n. 31. I.
-7. Die Nebenstriche AB und dH werden fortgezogen/biß sie in dem Düttel I zusammen kommen.
+<!-- Page number: 356 -->
 
-### I. Beweiß.
+### Vorbereitung.
 
-|  |  |  |
-|---|---|---|
-| α. | □ AD : □ EI ⊤ CD : EH | ⟩ n. 1. VI. |
-| β. | □ FH : □ EI ⊤ FE : EB |  |
-|  | □ ad ⊤ □ fh | n. Gegeb. |
-|  | □ AD ⊤ □ FH | n. Vorb. |
-|  | □ EI ⊤ □ EI |  |
-| Dw. | □ AD : □ EI ⊤ □ FH : □ EI | n. 7. V. |
-|  | □ AD : □ EI ⊤ CD : EH | n. Bew. α. |
-| Dw. | □ FH : □ EI ⊤ CD : EH | n. 11. V. |
-|  | □ FH : □ EI ⊤ FE : EB | n. Bew. β. |
-| Dw. | CD : EH ⊤ FE : EB | n. 11. V. |
-| u. | □ AD wechselmässig □ FH | n. 2. Beschr. VI. |
-| oder | □ ad □ fh | n. 1. Vorb. V. |
+1. Werden gezogen die geraden Striche eb und ec
+2. Deßgleichen kg und ig
 
-### II. Gegebene.
+### Beweiß.
 
-1. □ ad
-2. □ fh
-3. d ⋏ e
-4. ab : eh ⊤ fe : db.
-5. □ ad wechselmässig □ fh.
+Vieleck cad ähnlich ifh n. 3. Geg.
+Dw. eab ⋏ gfk
+u. ea : ab ⋏ gf : fk n. 1. Besch. VI.
+α Dw. △ eab ähnlich △ gik n. 6. VI.
+β u. ab : bc | fk : kg n. 4. VI.
+γ u. abc ⋏ fkg n. 1. Besch. VI.
+⬠ cad ähnlich ⬠ hfi n. 3. Geg.
+Dw. abc ⋏ fki n. 1. Besch. VI.
+abe ⋏ fkg n. Bew. γ.
+Dw. abc — abe ⋏ fki — fkg n. 3. Gr. I.
+oder ebc ⋏ kgh
+ab : be | fk : kg n. Bew. β.
+Dw. ab : fk | be : kg n. 16. V.
+ae : fg | ed : gh n. 1. Besch. VI.
+Dw. eb : gk | ed : gh n. 11. V.
+u. eb : ed | gk : gh n. 16. V.
+δ Dw. △ bec ähnlich △ kgi
+u. bce ⋏ kig n. 6. VI.
+bcd ⋏ kih n 1. Besch. VI.
+Dw. bcd — bce ⋏ kih — kig n 3. Gr. I.
+oder ecd ⋏ gih
+Dw. ced ⋏ igh n 32. I.
+u. △ edc ähnlich △ ghi n. 6. VI.
+△ eab ähnlich △ gfk n. Bew. α.
+Dw. △ eab : △ gfk ⊐ be : kg n. 19. VI.
 
-### II. Begehrtes.
-
-ad ⌻ fh
-
-<!-- Catchword: II. Vor- -->
+<!-- Catchword: △ bec -->

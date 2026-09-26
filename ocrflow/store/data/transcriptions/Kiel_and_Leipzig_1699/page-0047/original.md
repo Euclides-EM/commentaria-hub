@@ -1,34 +1,31 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 29 -->
+<!-- Page number: 31 -->
 
 ### Wirckung.
 
-1. Aus dem Düttel A wird ein Kreyß-Stück nach beliebiger grösse gezogen / welches AD | AE von den beeden Winckel-Strichen AB und AC abschneide.
-2. Wird der Strich DE gezogen / nach 1. Foder.
-3. Auff den Strich DE wird ein gleichseitiges △ DEF gesetzt/ nach 1. Vortr.
-4. Aus dem Düttel A wird ein gerader Strich AF zu dem Gipffel des gemachten △ gezogen.
+1. Wird der gantze Striche in zween gleiche Theile getheilet.
+2. Jedwede helffte / wird wiederumb in zween gleiche Theile getheilet.
+3. Jedweder Vierthel wird abermahl in zween gleiche Theile geschnitten/ und so fort an.
 
-[Diagram: Winckel CAB mit Scheitel A, darinn die Düttele E und D, punktierte Striche und der Strich AF zum Gipffel F]
+## Der XI Vortrag.
 
-### Beweiß.
+## Das 6. Werckstück.
 
-AD | AE nach 3. Vortrag.
-AF | AF
-AD + AF | AE + AF nach 2. Grund-S.
-DF | EF nach 1. Vortr.
-Dw. DAF ⋏ EAF nach 8. Vortr.
+Auff einen gegebenen geraden Strich / und zwar auff den darin gegebenen Düttel/ einen bleyrechten Senck-Strich zu setzen.
 
-### Beschluß.
+### Gegebene. | Begehrte.
 
-Und ist also der gegebene Winckel ABC in zween gleiche theile getheilet / W. Z. M.
+1. Gerade Strich AB. | 1. Der bley-rechte Senck-strich CD.
+2. Der Düttel C | 2. Auff den gegebenen Düttel C.
+3. In eben demselben Strich AB. | 3. Des gegebenen Striches AB.
 
-## Der X. Vortrag.
+### Wirckung.
 
-## Das 5. Werckstück.
+1. Aus dem gegebenen Düttel C wird nach beliebiger weite ein Kreyß gezogen / welcher den gegebenen Strich in E und F durchschneidet.
+2. Auff dem Strich EF wird ein gleichseitiges (oder gleichschenckliches) △ gesetzet/ nach 1. Vortr.
+3. Aus dieses △es Gipffel D wird ein gerader Strich DC zu dem gegebenen Düttel C gezogen.
 
-Einen geraden endlichen Strich in zween gleiche Theile zu theilen.
+[Diagram: Strich AB mit Düttel C, darüber der Senck-Strich CD mit punktiertem Dreyeck und Kreyß durch E und F]
 
-<!-- Signature: D 3 -->
-
-<!-- Catchword: Ge- -->
+<!-- Catchword: Be- -->

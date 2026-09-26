@@ -1,36 +1,21 @@
-<!-- Page number: 125 -->
+<!-- Page number: 127 -->
 
 <!-- Running title: Euclidis. -->
 
-[Diagram: links ein schiefes Viereck a b d c; rechts ein Rechteck a g f e mit Punkt k, daneben ein Quadrat mit punktiertem Halbkreis über der Grundlinie a e i h]
+III. Anrührende Kreyse sind / welche zwar an einander stossen / aber sich nicht durchschneiden.
 
-### Beweiß.
+[Diagram: ein kleiner Kreis berührt von aussen einen grossen Kreis, in welchem ein weiterer Kreis von innen anrühret]
 
-œ. ▭ ad | ▭ aef — n. 1. Wirck.
-□ ai | ▭ aeh ✠ □ ie — n. 7. II.
-ik | ai — n. 15. Bes. I.
-□ ik | □ ai — n. 1. Gr. t. II.
-(□ ai) ✠ □ ik | ▭ aeh ✠ □ ie (✠ □ ai) — n 2. Gr. I.
-□ ik | ▭ aeh ✠ □ ie — n. 3. Gr. I.
-□ ik | □ ek ✠ □ ie — n 47. I.
-Dw. □ ek (✠ □ ie | ▭ aeh (✠ □ ie) — n. 1. Gr. I.
-a. □ ek | ▭ aeh oder ▭ aef — n. 3. Gr. I.
-Dw. □ ek | ▭ abdc — n. 1. Gr. I.
+IV. In einem Kreyß von dem Mitteldüpffel gleichabstehende Striche werden genennet / auff welche auß dem Mitteldüpffel gleichlange Senckstriche können gezogen werden: derjenige Strich aber / auff welchen ein längerer Senckstrich fället / ist am weitesten entfernet.
 
-### Beschluß.
+[Diagram: Kreis mit einbeschriebenen Sehnen und drei vom Mitteldüpffel ausgehenden Senckstrichen]
 
-Ist also die Gestalt abdc in das gleichseitige □ ek verwandelt. W. Z. M.
+V. Ein Kreyß-Stück (Segmentum) ist eine Gestalt / so von einem Bogen und geraden Strich eingeschlossen wird.
 
-### Nach der Löse-Kunst.
+[Diagram: ein Kreyß-Stück (Halbkreisförmige Gestalt)]
 
-### Gegebene. — Begehrte.
+VI. Ein Kreyßstücks-Winckel (segmenti angulus) wird von einem Bogen und von einem geraden Strich begriffen.
 
-a | ih | ik — ee | cd
-c | eh | ef
-b | ei
-d | ae
-e | ek
+[Diagram: ein Kreyß-Stück mit punktierten Bögen an beyden Winckeln]
 
-<!-- Signature: Q 3 -->
-
-<!-- Catchword: Be- -->
+<!-- Catchword: VII. -->

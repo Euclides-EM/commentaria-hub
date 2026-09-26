@@ -1,15 +1,14 @@
 <!-- Running title: Vorrede. -->
 
-(Operatio)/ bißweilen auch die Vorbereitung (Præparatio): und wenn der Beweiß vollführet ist / so wird der Beschluß angehenget.
+## Zu denen 17. Zeichen sind noch diese zusetzen:
 
-Bißweilen wird auch eine Zugabe oder Anhang beygefüget/ wie bey dem VII. und XXIX. Vortrage zu sehen.
+18. ⬠ Fünfeck/ Quinquangulum, Pentagonum.
+19. ◇ Kreißschnitt/ Sector.
+20. ⊐ Zwiefach grössere Verhältnüß/ Duplicata ratio.
+21. ⋣ Dreyfach grössere Verhältnüß/ Triplicata ratio.
 
-Weil aber hernachmahls befunden/ daß auch noch andere Vorträge dergleichen Anhänge nöthig haben/ so kan zum Exempel dem X. Vortrag diese Zugabe angehenget werden:
+Solche Zeichen haben auch den Nutzen/ daß jemand/ so der Teutschen Sprache nicht kundig/ die angestellte Beweise mehrentheils bey einem Lateinischen/ Italiänischen/ Frantzösischen/ etc. Text gebrauchen könne/ wenn er nur etliche wenige Wörter kennen lernet / als: und oder u. ist so viel/ als &: Dw. oder derowegen/ Ergo: n. oder nach / per, juxta: Beschr. Beschreibung Definitio: Gr. Grundsatz/ Axioma: Wirck. Wirckung/ Operatio. Vorb. Vorbereitung/ Præparatio. Angen. Angenommenes / Assumtum, hypothesis. Bew. Beweiß/ Demonstratio. und dergleichen.
 
-Welche Grössen zu gleichmässigen Grössen gleiche Verhältnüß haben/ die sind gleichmässig.
+Ubrigens kan mit Stillschweigen nicht vorbey gehen /
 
-[Diagram: schematische Darstellung]
-
-Wegen der Algebraischen Zeichen/ welche ich gebrauchet/ ist zu mercken/ daß
-
-<!-- Catchword: die -->
+<!-- Catchword: daß -->

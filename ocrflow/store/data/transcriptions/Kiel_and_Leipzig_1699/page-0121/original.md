@@ -1,39 +1,32 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 103 -->
+<!-- Page number: 105 -->
 
-□ dac + □ acd | □ acb + □ acdb + □ ac + □ acd
-n. 2. Gr. I.
-□ acd | □ acd
-□ dac | □ acb + □ acdb + □ ac n. 3. Gr. I.
-□ dac + □ ac + □ acb + □ cb + □ acdb | □ ab + □ acb + □ acdb + □ ac — n. 2. Gr. I.
-□ ac + □ acb + □ acdb | □ acb + □ acdb + □ ac
-□ dac + □ cb | □ ab — n. 3. Gr. I.
+### Beweiß
 
-### Auff eine andere Arth.
+d | d — n. Beweiß.
+b | d − c
+f | d + b
+d | c + b
+c | f
+dd | fc + bb — n. 5. II. W. Z B.
 
-### Vorbereitung.
+## Der VII. Vortrag.
 
-Man setze an das Ende d gerade aus noch einen Strich ed | ca
+## Das 7. Beweiß-Stück.
 
-[Diagram: Waagerechter Strich mit den Punkten a, c, b, d, e.]
+Wenn ein gerader Strich/ auff wasserley weise in zwey Stücke getheilet ist/ so wird das von dem gantzen Strich/ und das von einem Stück begriffene gleichseitige Viereck/ eben so groß seyn/ als das von diesem Stück und dem gantzen Strich begriffene Viereck/ zweymal genommen/ samt dem gleichseitigen Viereck des übrigen Stückes.
+
+### Gegebene. | Begehrtes.
+
+1. Gerader Strich ab. — □ ab + □ cb | □ abc + □ ac
+2. getheilet in c.
+
+[Diagram: Links ein Quadrat a c b mit innerer gestrichelter Linie, Punkten e, d, g, c, f, a, h, b; rechts Rechtecke D, E, F mit n oben, darunter H, G mit o, p, m.]
 
 ### Beweiß.
 
-ed | ca — n. Vorber.
-db | bc — n. 3. Geg.
-ed + db | bc + ca — n. 2. Gr. I.
-oder eb | ba — n. 9. Gr. q. I.
-ad + ae — n. 9. Gr. I.
-Dw. ad + | ed — n. 1. Gr. a. I.
-□ ade + □ db | □ ab — n. 5. II.
-ae | de — n. Vorber.
-da | ad
-□ dac | □ ade — n. 1. Gr. II.
-□ dac + □ ade + □ db | □ ab + □ ade — n. 2. Gr. I.
-□ ade | □ ade
-□ dac + □ db | □ ab — n. 3. Gr. I.
-□ db | □ bc — n. 1. Gr. 1. [unclear: II.]
-Dw. □ dac + □ bc | □ ab — n. 2. Gr. I.
-
-<!-- Catchword: Be- -->
+ab | ac + cb — n. 9. Gr. I.
+□ ab | □ ac + 2 □ acb + □ cb — n. 4. II.
+□ cb | □ cb
+<!-- Catchword: D | □ ab -->

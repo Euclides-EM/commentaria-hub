@@ -1,14 +1,11 @@
 <!-- Running title: Vorrede. -->
 
-## Zu denen 17. Zeichen sind noch diese zusetzen:
+Aufkleisterung oder Anleimung der gehörigen Worte können außgebessert werden/ und deßwegen sind selbige also gedruckt/ daß man sie mit einer Schere außschneiden/ und den Fehler durch Aufleimung damit bedecken kan.
 
-18. ⬠ Fünfeck/ Quinquangulum, Pentagonum.
-19. ◇ Kreißschnitt/ Sector.
-20. ⊐ Zwiefach grössere Verhältnüß/ Duplicata ratio.
-21. ⋣ Dreyfach grössere Verhältnüß/ Triplicata ratio.
+Die andere Ahrt kan nicht wol anders / als mit der Feder geändert werden.
 
-Solche Zeichen haben auch den Nutzen/ daß jemand/ so der Teutschen Sprache nicht kundig/ die angestellte Beweise mehrentheils bey einem Lateinischen/ Italiänischen/ Frantzösischen/ etc. Text gebrauchen könne/ wenn er nur etliche wenige Wörter kennen lernet / als: und oder u. ist so viel/ als &: Dw. oder derowegen/ Ergo: n. oder nach / per, juxta: Beschr. Beschreibung Definitio: Gr. Grundsatz/ Axioma: Wirck. Wirckung/ Operatio. Vorb. Vorbereitung/ Præparatio. Angen. Angenommenes / Assumtum, hypothesis. Bew. Beweiß/ Demonstratio. und dergleichen.
+Die Ubrigen werden nicht groß hinderlich seyn/ wenn sie gleich nicht geändert werden.
 
-Ubrigens kan mit Stillschweigen nicht vorbey gehen /
+Und so viel hat man dieses mal zu erinnern vor nohtwendig gehalten. Solte nun dem günstigen Leser diese geringe Arbeit gefallen / so wird man mehr dergleichen/ ob GOtt wil/ an den Tag zu geben gereitzet werden.
 
-<!-- Catchword: daß -->
+<!-- Catchword: Lecto- -->

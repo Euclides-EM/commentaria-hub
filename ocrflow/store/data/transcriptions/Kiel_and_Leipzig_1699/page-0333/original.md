@@ -1,33 +1,31 @@
-<!-- Page number: 309 -->
+<!-- Page number: 317 -->
 
 <!-- Running title: Euclidis. -->
 
-Welches aber unmüglich n. 9. Gr. I.
-Dergleichen wird auch folgen/ wenn man sagen wolte
-gp ⊣ hp
-muß derowegen gp | hp seyn. II.
+Und wenn der aus der Spitze des Dreyeckes gezogene Strich den Grundstrich also schneidet/ daß dessen Stücke in ebenmässiger Verhältnüß mit den Seiten stehn/ so theilet derselbe Strich den Winckel des Dreyeckes in zweene gleiche Theile. W. Z. B.
 
-### Beschluß.
+## Der IV. Vortrag.
 
-Werden derowegen allezeit solche nebenstrichichte Vierecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ auch gleichmässige Höhen haben. W. Z. B.
+## Das 4. Beweiß-Stück.
 
-## Des I. Vortrags II. Zugabe.
-
-Diejenigen Dreyecke / und nebenstrichichte Vierecke/ welche gleichmässige Grundstriche haben/ verhalten sich also/ wie ihre Höhen/ zusammen.
+Gleichwincklichte Dreyecke haben in ebenmässiger Verhältnüß stehende Seiten/ welche nemlich gleichmässige Winckel einschrencken; und diejenigen Seiten/ welche gleichmässige Winckel überspannen/ sind auch ebenmässig.
 
 ### Gegebene.
 
-1. Zwey Dreyecke A und B.
-2. Beyde Grundstriche ab | ef
-3. Beyde Höhen de ⊣ bc
+1. Zwey Dreyecke abc und CDE,
+2. Welche gleichmässige Winckel haben/
 
-[Diagram: Zwei Dreyecke A und B mit den Punkten a, b, c, d, e, g, f, links das Dreyeck A über der Grundlinie ab, rechts das Dreyeck B über ef, mit gestrichelten Hülffslinien]
+nemlich C ⋏ abc
+D ⋏ bac
+u. DEC ⋏ acb
 
-### Vorbereitung.
+### Begehrte.
 
-1. Weil die Höhe de ⊣ bc — n. 3. Gegeb.
-2. so werde ge | bc — n. 3. I.
-3. werde der gerade Strich gf gezogen.
+1. ba : CD | bc : CE
+2. bc : CE | ac : DE
+3. ab : DC | ac : DE.
 
-<!-- Signature: Qq 3 -->
-<!-- Catchword: Beweiß. -->
+[Diagram: Zwey Dreyecke, oben das kleinere Dreyeck CDE, darunter das grössere Dreyeck abc, dessen Seiten gestrichelt gegen f, d und e verlängert sind]
+
+g
+<!-- Catchword: Vor- -->

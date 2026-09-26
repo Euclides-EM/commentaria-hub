@@ -1,25 +1,28 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Das I Buch -->
 
-<!-- Page number: 14 -->
+<!-- Page number: 16 -->
 
-(q) Wenn alle Theile zusammen genommen werden / so sind sie eben so groß / als das Gantze.
+## Der I. Vortrag.
+## Das I. Werck-Stück.
 
-X. Alle rechte Winckel sind einander gleich/ oder sind gleich groß.
+Auff einen gegebenen geraden und endlichen Strich ein gleichseitiges Dreyeck zu setzen.
 
-XI. Wenn durch zween gerade bey einander stehende Striche ein anderer Strich durchgehet/ und zween inwendige auff einer Seite stehende Winckel kleiner machet/ als zweene rechte Winckel / so werden die beeden Striche / wenn sie zu beeden Seiten verlängert werden / auff der Seite / wo die kleinere Winckel sind / endlich zusammen lauffen.
+### Gegebenes (Datum) | Begehrtes (Quæsitum)
+Der gerade endliche Strich AB. | 1. Das gleichseitige Dreyeck ABC.
+| 2. Welches auff den gegebenen Strich AB. gestellet ist.
 
-(r) Hier ist zu mercken/ daß dieses kein rechter Grundsatz sey / weil er / wie hernach bey dem XXIX. Vortrag wird geschehen / kan bewiesen werden.
+### Wirckung (Operatio)
 
-XII. Zweene gerade Züge oder Striche können keine Gestalt einschliessen/ oder geschlossene Gestalt vorstellen.
+1. Nach der bekanten Weite AB beschreibet man aus A einen Kreyß CBD / nach der III. Foderung.
+2. Nach eben dieser Weite AB wird auch aus dem Düpffel B ein Kreyß beschrieben / nemblich CAD / nach der III Foderung.
+3. Aus A und B werden nach dem Düpffel C/ wo die beyden Kreysse einander durchschneiden / gerade Striche gezogen/ nach der I Foderung.
 
-(s) Müssen also zum wenigsten drey gerade Striche seyn / wenn sie nur die einfältigste Gestalt / nemlich ein Dreyeck / vorstellen sollen.
+[Diagram: zwei punktierte, sich schneidende Kreise mit den Schnittpunkten C oben und D unten; darin das Dreieck ABC über dem Strich AB]
 
-# Das I. Buch Euclidis.
+### Beweiß.
 
-## Vorbericht.
+Der Strich AB | AC nach 15. Beschr.
+Der Strich BC | BA nach 15. Beschr.
+Derowegen der Strich BC | AC nach 1. Grund-Satz.
 
-Nach dem die Anfänge vorhergesetzet/ werden die Beweißthüme angestellet/ und der Grössen ihre Eigenschafften durch vorgehende Anfänge also behauptet / daß kein Verständiger mehr daran zuzweiffeln Ursach habe. Damit aber alles füglich und deutlich geschehen möge/ werden gewisse Vorträge (Propositiones) zugerichtet / welche in Haupt-und Neben-Sätze abgetheilet werden.
-
-Die Haupt-Sätze sind widerum zweyerley / nemlich (1) Würckliche und (2) Beweißliche Vorstellungen. Jene / die Würcklichen/ können füglich Werck-Stücke (Problemata) genennet werden / und geben etwas zu verfertigen auff/ nach der Ver-
-
-<!-- Catchword: ferti- -->
+<!-- Catchword: Be- -->

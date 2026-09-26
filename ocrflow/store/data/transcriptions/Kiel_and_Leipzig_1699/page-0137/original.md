@@ -1,30 +1,31 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 119 -->
+<!-- Page number: 121 -->
 
-mal genommene Vier-Eck/ welches von der einen Seite/ und von dieser Seiten Verlängung biß zum Senckstrich / so aus dem Ende der andern Seite auff solche Verlängung fället/ gemacht wird.
+## Der XIII. Vortrag.
 
-### Gegebene. | Begehrte.
+## Das 12. Beweiß-Stück.
 
-1. Stumpffwincklicht △ abc. | □ ac ) □ ab + 2 ▭ abd + 2 □ bc.
-2. Verlängte Seite ab biß d.
-3. Verlängung bd.
-4. Senckstrich cd.
+In allen spitzwincklichten Dreyecken ist das gleichseitige Viereck der Seite / welche dem spitzigen Winckel übergespannet ist / kleiner/ als der beeden Seiten / so den spitzigen Winckel begreiffen / ihre Vierecke / ümb so viel austrägt das zweyfach genommene Viereck/ so von der am spitzigen Winckel stehenden Seite / auff welches von dem überstehende Winckel ein Senckstrich fället / und von dem zwischen diesem Senckstrich und spitzigen Winckel stehenden Stück gemacht wird.
 
-[Diagram: stumpfwinkliges Dreieck a b c; die Grundlinie ab ist punktiert bis d verlängert, von c fällt ein punktierter Senkstrich auf d]
+### Gegebene. | Begehrtes.
+
+1. △ abc | □ cb | □ ac + □ ab — 2 ▭ bad
+2. Spitziger ∠ a
+3. Senckstrich cd, welcher
+4. auff die am ∠ a stehende Seite abfället/
+5. und das zwischen dem Senckstrich cd und ∠ a stehende stück ad abschneidet.
+6. cda | ∟
+
+[Diagram: spitzwinkliges Dreieck a c d mit punktierten Linien von c nach b und von d nach b]
 
 ### Beweiß.
 
-adc | ∟ | n. 3. Gegeb.
-Dw. □ ac | □ ad + □ cd n. 47. I.
-ad | ab + bd
-□ ad | □ ab + 2 ▭ abd + □ bd n. 4. II.
-□ ad + □ ac | □ ab + 2 ▭ abd + □ bd + □ ad + □ cd n. 2 Gr. 1.
-□ ad | □ ad
-□ ac | □ ab + 2 ▭ abd + □ bd + □ cd | n. 3. Gr. I.
-□ bd + □ cd | □ cb n. 47. I.
-□ bd + □ cd + □ ac | □ ab + 2 ▭ abd + □ bd + □ cd + □ cb | n 2 Gr. I.
-□ bd + □ cd | □ bd + □ cd
-□ ac | □ ab + 2 ▭ abd + □ cb | n. 3. Gr. I.
+□ ab + □ ad | 2 ▭ bad + □ bd | n. 7. II.
+□ cd | □ cd
+□ ab + □ ad + □ cd | 2 ▭ bad + □ bd + □ cd
+n. 2. Gr. I.
 
-<!-- Catchword: Beschluß. -->
+<!-- Signature: Q -->
+
+<!-- Catchword: ac -->

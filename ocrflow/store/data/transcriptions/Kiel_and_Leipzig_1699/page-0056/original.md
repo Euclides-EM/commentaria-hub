@@ -1,35 +1,41 @@
-<!-- Page number: 38 -->
+<!-- Page number: 40 -->
 
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Das I. Buch. -->
 
-Ist also bey jedwedem △, wan dessen eine Seite verlängert wird/ der auswendige Winckel viel grösser / als einer derer inwendig gegen überstehenden Winckel. W. Z. B.
-
-## Der XVII. Vortrag.
-
-## Das 10. Beweiß-Stück.
-
-In jedwedem Dreyeck sind zween Winckel zusammen/ auff waserley Weise genommen/ kleiner/ als zween rechte Winckel.
-
-### Gegebenes. Begehrte.
-△ ABC. ABC + ACB ⲗ ⊥
-ABC + ACB ⲗ ⊥
-ACB + BAC ⲗ ⊥
-
-### Vorbereitung.
-Es werde nach belieben eine Seite/ und zwar anitzo AB gegen D verlängert.
-
-[Diagram: Dreieck ABC mit waagerechter Grundlinie EABD; C oben rechts, die Grundlinie über A hinaus nach E und über B hinaus nach D verlängert.]
+### 2. Vorbereitung.
+1. Von der Seite BA werde abgeschnitten BE | BC n. 3. Vortr.
+2. Werde gezogen der Strich EC
 
 ### Beweiß.
 
-ACB ⲗ CBD n. 16. Vortr.
-ABC ⋀ ABC
-ACB + ABC ⲗ CBD + ABC n. 4. Gr-S.
-⊥ ⋀ CBD + ABC n. 13. Vortr.
-Dw. ACB + ABC ⲗ ⊥ n. 1. Gr-S. b.
+AB ⊣ BC n. 4. Gegeb.
+BE | BC n. Vorber.
+BEC ⋀ BCE n. 5. Vortr.
+BEC ⲗ BAC n. 16. Vortr.
+Drw. BCE ⲗ BAC n. 1. Gr-S. c.
+BCA ⲗ BCE n. 9. Gr-S.
+Drw. BCA ⲗ BAC n. 1. Gr-S. e.
 
-Gleicher Gestalt / wenn AC verlängert wird /
-muß CAB + ABC ⲗ ⊥, und wenn man BA gegen E verlängert/
-muß BAC + CBA ⲗ ⊥ seyn.
+### 3. Vorbereitung.
+1. Von der Seite CA werde abgeschnitten CF | CB n. 3. Vortr.
+2. Werde gezogen der Strich BF.
 
-<!-- Catchword: Be- -->
+### Beweiß.
+
+CA ⊣ CB n. 3. Gegeb.
+CF | CB n. Vorber.
+BFC ⋀ CBF n. 5. Vortr.
+BFC ⲗ BAC n. 16. Vortr.
+Dw. CBF ⲗ BAC n. 1. Gr-S. c
+CBA ⲗ CBF n. 9. Gr-S.
+Dw. CBA ⲗ BAC n. 1. Gr-S. e
+
+Ist also jedwedes △es längste Seite / über den grössesten Winckel gespannet. W. Z. B.
+
+## Der XIX. Vortrag.
+
+## Das 12. Beweiß-Stück.
+
+Jedwedes Dreyeckes grössester Winckel ist der längsten Seite entgegen gesetzet.
+
+<!-- Catchword: Ge- -->

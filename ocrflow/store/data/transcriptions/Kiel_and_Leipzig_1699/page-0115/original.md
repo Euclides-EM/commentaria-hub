@@ -1,32 +1,32 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 97 -->
+<!-- Page number: 99 -->
 
-[Diagram: Strich A C B, darunter ein Quadrat a b f d mit innerer gestrichelter senkrechter Linie durch i, c und gestrichelter waagerechter Linie e g k.]
+3. und in ungleiche Theile getheilet
+in C, als AC + CD
+
+### Vorbereitung.
+
+1. Mache man das rechtwincklichte Viereck ACD (oder gcd)
+2. Werde auff dem Strich AB ein gleichseitiges □, wie auch
+3. Auff das Mittel-Stück CB cb ein gleichseitiges □ gesetzet n. 46. I.
+4. Der Strich cg werde biß zu e,
+5. Und der Strich fg biß zu h fortgezogen.
+
+[Diagram: Waagerechter Strich D B C A (unten d b c a); darüber ein Quadrat über C A mit den Punkten e, g, h und gestrichelten Linien; links der Strich f g; unter b c ein kleineres Rechteck.]
 
 ### Beweiß.
 
-ab | ac + cb — n. 9. Gr. 4. [unclear: I.]
+□ ac + 2 □ acb + □ cb | □ ab — n. 4. II.
+□ ac + □ acb | □ bac — n. 3. II.
+db | ba — n. 2. Geg.
 ac | ac
-□ cab | □ ac + □ acb — n. 3. II.
-ab | ac + cb
-bc | cb
-□ abc | □ acb + □ cb — n. 3. II.
-□ cab + □ abc | □ ac + 2 □ acb + □ cb — n. 1. Gr. I.
-ca + bc | ab
-ab | ab
-□ ab — n. 2. II.
-□ cab + □ abc | □ ca + 2 □ acb + □ cb — n. 1. Gr. I.
-Dw. □ ab | □ AC + 2 □ ACB + □ CB
-oder AB |
+Dw. □ db,ac | □ bac — n. 1. Gr. II.
+und □ db,ac | □ ac + □ acb — n. 1. Gr. I.
+□ db,ac + □ ac + □ acb + □ cb | □ ab + □ ac + □ acb
+n. 2. Gr. I.
+□ ac + □ acb | □ ac + □ acb
+□ db,ac + □ acb + □ cb | □ ab n. 3. Gr. I
 
-### Beschluß.
-
-Ist also allezeit das □ des gantzen Striches AB, so groß/ als die beeden □ □, so von des Strichs AB beeden Stücken AC und CB gemacht/ samt dem □, welches von gedachten beeden Stücken begriffen wird/ zweymahl genommen. W. Z. B.
-
-[Other type="stamp"]
-Bayerische Staatsbibliothek München
-[/Other]
-
-<!-- Signature: N -->
-<!-- Catchword: Nach -->
+<!-- Signature: N 2 -->
+<!-- Catchword: db -->

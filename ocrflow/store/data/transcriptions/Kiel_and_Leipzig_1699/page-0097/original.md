@@ -1,27 +1,36 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 79 -->
+<!-- Page number: 81 -->
 
-## Der XLV. Vortrag.
+[Diagram: Quadrat CDAB mit verlängerter Grundlinie gegen E und punktierten Hülfslinien; Punkte C, D oben, E, B, A unten]
 
-## Das 13. Werckstück.
+### Beweiß.
 
-Einer geradstrichichen Gestalt / nach dem gegebenen Winckel / ein gleichgrosses Viereck zu machen.
+BC ist ein Senckstrich. n. 2. Wirckung.
+Dw. CBA ∠ ⌐ | n. 10. Beschr.
+DC = AB | n. 4. Wirck.
+DC | AB | n. 3. Wirck.
+Dw. BC | AD |
+und BC = AD | n. 33. Vortr.
+BC | AB | n. 3. Wirck.
+Drw. AD | AB | n. 1. GrS.
+A ∠ C |
+B ∠ D | n. 34. Vortr.
 
-### Gegebene. | Begehrte.
-1. Geradstrichiche Gestalt yz. | 1. □ gm | yz.
-2. Winckel D | 2. ogn ∠ D.
+Dw. wird A B C D ein gleichseitig und gleichwincklich Viereck seyn. n. 29. Beschr.
+
+### Beschluß.
+
+Ist also auff den gegebenen Strich AB ein gleichseitig und gleichwincklicht □ gesetzet. W. Z. M.
+
+### Auff eine andere Arth
+
+Ein gleichseitig und gleichwincklicht □ mit unveränderter Oeffnung des Kreyß-Ziehers (circini) auff den gegebenen Strich zu setzen.
 
 ### Wirckung.
 
-1. Werde durch einen ( oder so es nöthig mehr ) zwergstriche die gegebene Gestalt in Dreyecke getheilet.
+1. Thue man den Kreyß-zieher so weit auff/als die länge des gegebenen Strichs AB.
 
-2. Dem einen △ A werde ein gleichhaltendes Viereck nach dem gegebenen ∠ D gemacht/nach 44. Vortr.
+<!-- Signature: L -->
 
-3. Dem andern △ B werde auch ein gleiches □ nach dem ∠ D und nach der einen Seite des □ a. gemacht/nach 44. Vortr.
-
-4. Diese beyden □ □ a und b werden zusammen gesetzet bey ihren gleich langen Seiten/ damit ein □ gomn daraus werde.
-
-[Diagram: Winckel D; Viereck ypzq mit Dreyecken A und B; Parallelogramm-Figur mit Punkten i, x, h, B, u, k, g und b; Figur c, d, e, s, t mit Dreyeck A und Viereck a; Parallelogramm o, g, m, n mit Vierecken b und a]
-
-<!-- Catchword: Be- -->
+<!-- Catchword: 2. Wird -->

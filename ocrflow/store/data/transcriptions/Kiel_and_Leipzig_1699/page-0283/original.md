@@ -1,40 +1,45 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 259 -->
-
-## Der XI. Vortrag.
-
-## Das II. Beweißstück.
-
-Welche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind / dieselbigen Verhältnüsse sind auch unter sich gleichhaltig.
+<!-- Page number: 267 -->
 
 ### Gegebene. | Begehrtes.
 
-A ________ | A : a | B : b.
-a __
-B ________
-b __
-C ________
-c __
+a ____
+b ______ | a : b | A : B.
+A __c__d__e__f__
+B __g__h__i__k__
 
-[Diagram: Strecken A, a, B, b, C, c von verschiedener Länge]
+[Diagram: Strecken a, b; Strecke A in Theile c, d, e, f getheilet; Strecke B in Theile g, h, i, k getheilet]
 
-A : a | C : c
-B : b | C : c
+4a | A
+4a | B
 
-### Vorbereitung:
+### Vorbereitung.
 
-1. Nehme man A zweymahl
-2. Deßgleichen auch B zweymahl
-3. Die Grösse a und b aber jedwede viermahl.
+1. Es werde A in vier gleiche Theile getheilet/ daß c | a, d | a, e | a und f | a, n. 3. I.
+2. Auch werde B also getheilet/ daß g | b, h | b, i | b, und k | b, werde. n. 3. I.
 
-2A ________________
-4a ____________
-2B ________________
-4b ____________
+### Beweiß.
 
-[Diagram: Strecken 2A, 4a, 2B, 4b]
+a | c | d | e | f — n. 1.
+b | g | h | i | k — n. 2. Vorb.
 
-<!-- Signature: Kk 2 -->
+Dw. c ⁘ g
+d ⁘ h | a : b — n. Anh. 7. V.
+e ⁘ i
+f ⁘ k
 
-<!-- Catchword: I. Beweiß. -->
+und c + d + e + f : g + h + i + k | a : b — n. 12. V.
+c + d + e + f | A — n. 9. Gr. q. I.
+Dw. c + d + e + f : g + h + i + k | A : g + h + i + k, n. 7. V.
+g + h + i + k | B — n. 9. Gr. q. I.
+Dw. c + d + e + f : g + h + i + k | A : B — n. Anh. 7. V.
+und a : b | A : B — n. 11. V.
+
+### Beschluß.
+
+Müssen also allezeit die Theile sich also / wie die vielfache Gantzen zu einander verhalten/ W. Z. B.
+
+<!-- Signature: Ll 2 -->
+
+<!-- Catchword: Der -->

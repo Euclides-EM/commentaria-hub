@@ -1,43 +1,31 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 160 -->
+<!-- Page number: 162 -->
 
-### I. Beweiß.
+2. Nach der Weite des Striches eb werde ein Kreyß ea gezogen:
+3. Aus dem Düttel d, wo der gerade Strich eb den Kreyß fcd schneidet/ werde ein Senckstrich da auffgerichtet/ welcher den äussern Kreyß ae in dem Düttel a schneide. n. 11. I.
+4. Aus diesem Düttel a werde zu dem Mittel-Düpffel b der gerade Strich ab gezogen.
+5. Zu dem Düttel c, wo dieser Strich den Kreyß schneidet/ werde aus dem Düttel e ein gerader Strich ec gezogen.
 
-ac | ag — n. 5. Beschr. I.
-ab ⊣ ag — n. 9. Gr. I.
-Dw. ab ⊣ ac — n. 1. Gr. c. I.
+### Beweiß.
 
-Und wird also der Düttel b ausser den Kreyß fallen. Gleiche bewandniß hat es mit allen andern Theilen und Dütteln des Striches cb.
+ab | eb
+bd | bc — n. 15. Beschr. I.
+ab + bd | eb + bc — n. 2. Gr. I.
+abd ∠ ebc — n. 8. Gr. I.
+Dw. adb ∠ ecb — n. 4. I.
+adb ∠ ∟ — n. 3. Vorher.
+Dw. ecb ∠ ∟ — n. 10. Gr.
+und ec ist ein anrührender Strich aus dem Düttel gezogen n. 16. III. n. 2. Beschr. III.
 
-Oder :
+### Beschluß.
 
-∧ acb | ∟ — n. 4. Gegeb.
-∧ abc | Spitziger ∧ — n. 17. I.
-Dw. acb ⅄ abc — n. 12.
-und ab ⊣ ac — n. 19. I.
+Jst also auß dem Düttel e ein gerader Strich ec gezogen/ welcher den gegebenen Kreyß fcd in dem Düttel c anrühret. W. Z. M.
 
-Dahero abermahl der Düttel b, wie auch alle übrige Theile und Düttele des Strichs cb ausser dem Kreyßzug stehen müssen.
+## Der XIIX. Vortrag.
 
-### II. Beweiß.
+## Das 16. Beweiß-Stück.
 
-ad ist ein Senckstrich n. 3. Vorb.
-Dw. adc ⅄ acd — n. 17. I.
-und ac ⊣ ad — n 19. I.
+Wenn ein gerader Strich einen Kreyß anrühret/ von dem Mittel Düpffel aber ein gerader Strich zu dem Rührdüpffel gezogen wird / so wird dieses ein Senckstrich des Rührstriches seyn.
 
-Dw. fället cd in den Kreyß : keines weges aber zwischen den Kreyß und den Strich cb.
-
-### III. Beweiß.
-
-Der Strich dc fället in den Kreyß — n. 2. Bew.
-Derowegen ∟ acg ⅄ ∧ acd — n. 9. Gr. I.
-und ∟ acg ⅄ als alle spitzige Winckel.
-
-### IV. Beweiß.
-
-Kein gerader Strich kan zwischen den Kreyß und den Senckstrich cb fallen — n. 2. Bew.
-Dw. kan kein spitzigerer Winckel gemacht werden/
-als der ∧ gcb
-und ist der ∧ gcb ⋏ als alle spitze ∧
-
-<!-- Catchword: Be- -->
+<!-- Catchword: Gege- -->

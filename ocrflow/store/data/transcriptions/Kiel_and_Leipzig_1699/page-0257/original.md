@@ -1,39 +1,41 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 233 -->
+<!-- Page number: 241 -->
 
-XI. Verhältniß-ähnliche (Homologæ s. similes ratione) Grössen werden genennet die in der Ebenmaß stehende Vorgehende zu den Vorgehenden/u Nachgehende zu den Nachgehenden Grössen.
+### Beweiß.
 
-3a : 3b | a : b
+|  |  |  |  |
+|---|---|---|---|
+| | c | a | |
+| | d | a | n. 2. Vorber. |
+| Dw. | c + d | 2a | n. 2. Gr. I. |
+| | c + d | A | n. 9. Gr. q. I. |
+| [unclear: α] Dw. | A. | 2a | n. 1. Gr. I. |
+| | e | a | |
+| | f | a | |
+| | g | a | n. 6. Vorb. |
+| Dw. | e + f + g | 3a | n. 2. Gr. I. |
+| | e + f + g | C | n. 9. Gr. q. I. |
+| Dw. | C | 3a | n. 1. Gr. I. |
+| und | A + C | 5a | n. 2. Gr. I. |
+| | h. | b | |
+| | k | b | |
+| | h + k | 2b | |
+| | h + k | B | |
+| [unclear: θ] Dw. | B | 2b | |
+| | l | b | |
+| | m | b | |
+| | n | b | |
+| Dw. | l + m + n | 3b | |
+| | l + m + n | D | |
+| Dw. | D | 3b | |
+| β u. | B + D | 5b. | |
 
-3a und a) 3b und b) verhältniß-ähnliche Grössen.
+### Vorbereitung.
 
-XII. Verwechselte Verhältnissen sind/ wenn man die Erste Vorhergehende gegen die Andere Vorgehende/ und die Erste Nachgehende gegen die Andere Nachgehende hält.
+1. Es werde die Grösse a sechsmahl/ und
+2. Die Grösse b auch sechsmahl genommen.
 
-3a : 3b | a : b
+<!-- Signature: Hh -->
 
-3a : a | 3b . b.
-
-XIII. Verkehrte Verhältniß ist/wenn man die Nachgehenden an die Stelle der Vorgehenden/ und die Vorgehenden an die Stelle der Nachgehenden setzet.
-
-3a : 3b | a : b
-
-3b : 3a | b : a.
-
-XIV. Zusammen gesetzte Verhältniß entstehet/wenn man die Vorgehende und Nachgehende zusammen nimt/ und gegen die Nachgehenden hält.
-
-3a : 3b | a : b
-
-3a + 3b : 3b | a + b : b.
-
-XV. Zertheilte Verhältniß ist/wenn man den überschuß / womit die Vorgehenden die Nachgehenden übertreffen/ gegen die Nachgehenden hält.
-
-6a : 4a | 3a : 2a
-
-6a — 4a : 4a | 3a — 2a : 2a
-
-oder 2a : 4a | a : 2a.
-
-<!-- Signature: Gg -->
-
-<!-- Catchword: XVI. Ver- -->
+<!-- Catchword: A -->

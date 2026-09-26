@@ -1,52 +1,33 @@
-<!-- Page number: 347 -->
-
 <!-- Running title: Euclidis. -->
 
-### Vorbereitung.
-
-1. Werde gemacht das □ ad
-2. Deßgleichen auch □ bc.
-3. Und zwar nach gleichmässigen Winckel gemacht. n. 23. I.
-
-### I. Beweiß.
-
-|  |  |  |
-|---|---|---|
-|  | aed ⋏ bfc | n. 3. Vorb. |
-|  | a : b ⊤ c : d | n. 2. Gegeb. |
-
-Und haben die beyden Vierecke also bey wechselmässigen Winckeln wechselmässige Seiten.
-
-|  |  |  |
-|---|---|---|
-| Dw. | ad ⌻ bc. | n. 14. VI. |
-
-### II. Gegebene.
-
-1. Vier gerade Striche
-a, b, c, d.
-2. ad ⌻ bc.
-
-### I. Begehrtes.
-
-a : b ⊤ c : d.
+<!-- Page number: 361 -->
 
 ### II. Beweiß.
 
-|  |  |  |
-|---|---|---|
-|  | ad ⌻ bc. | n 2. Gegeb. |
-|  | aed ⋏ bfc. | n. 3 Vorb. |
-| Dw. | a : b ⊤ c : d | n 14. VI. |
+△ aob : △ cnd | □ el : □ gi n 1. Geg.
+ab : cd | cd : p n. 1. Vorb.
+α Dw. ab : p = ab : cd n. 10. Besch. V.
+△ aob : △ cnd = ab : cd n. 19. VI.
+Dw. △ aob : △ cnd | ab : p
+β u. □ el : □ gi | ab : p n. 11. V.
+ef : gh | gh : q n. 2. Vorb.
+Dw. ef : q = ef : gh n. 10. Beschr. V.
+□ el : □ gi = ef : gh n. 20. VI.
+Dw. □ el : □ gi | ef : q.
+u. ab : p | ef : q n. 11. V u. Bew. β
+u. ab : p = ef : gh
+Dw. ab : cd | ef : gh n. Bew. α | n. 11. V.
 
-Und die vier Striche sind ebenmässig n. 7. Beschr. V.
+## Vorsatz. (Lemma)
 
-### Beschluß.
+Gleichmässige und ähnliche geradstrichichte Gestalte stehen auf gleichmässigen geraden Strichen.
 
-Wenn derowegen vier ebenmässige Striche gegeben werden/ so ist das von den beyden äusersten Strichen gemachte/dem von den beyden mitlern Strichen gemachten Viereck gleichmässig.
+### Gegebene. Begehrtes.
 
-Und wenn das von zweyen äusersten Strichen begriffene Viereck / dem nach gleichem Winckel von denen mittelsten Strichen gemachten Viereck gleichmässig ist/ so stehen dieselben Striche in richtiger Ebenmaß. W. Z. B.
+1. □ gi | □ rt gh | rs
+2. □ gi ähnlich □ rt
 
-<!-- Signature: Xx 2 -->
+[Diagram: zwey Vierecke g k i h und u t s r nebeneinander; darunter ein Strich x und eine Figur mit den Punkten g, s, x, h r und punktiertem Strich nach s]
 
-<!-- Catchword: Der -->
+<!-- Signature: Z z -->
+<!-- Catchword: Vorbe- -->

@@ -1,29 +1,40 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 235 -->
+<!-- Page number: 243 -->
 
-XIX. Verwirrete Ebenmässigkeit ist / wenn man drey Grössen in der ersten Ordnung / und eben so viel in der andern Ordnung hat/da die Vorgehende zu der Nachgehenden in der I. Ordnung sich eben so / wie die Vorgehende zu der Nachgehenden in der II. Ordnung hält: Darnach aber die Nachgehende der I. Ordnung zu etwas Anders: wie etwas Anders zu der Vorgehenden in der II. Ordnung.
+### III. Beweiß.
 
-4a : 2a : (a)
+|  |  |  |  |
+|---|---|---|---|
+| | A + C | 5a | n. Bew. α |
+| | 3 | 3 | |
+| | 3A + 3C | 15a | n. Gr. 6. l. I. |
+| | 2a | ⊢ 15a | n. Gr. 9. I. |
+| Dw. | 3A + 3C ⊣ | 2a | n. Gr. 1. c. I. |
+| | B + D | 5b | n. Bew. β |
+| | 3 | 3 | |
+| | 3B + 3D | 15b | n. Gr. 6. l. I. |
+| | 2b | ⊢ 15b | n. Gr. 9. I. |
+| Dw. | 3B + 3D ⊣ | 2a | n. Gr. 1. d. I. |
+| Weil nun 1. | A + C | 5a | n. Bew. α |
+| und | B + D | 5b | n. Bew. β |
+| 2. | A + C ⊢ | 6a | n. Bew. γ |
+| und | B + D ⊢ | 6b | n. Bew. δ |
+| 3. | A + C ⊣ | 2a | n. Bew. ε |
+| und | B + D ⊣ | 2b | n Bew. η |
 
-(4b): 2b : b
+So ist auch A + C : a | B + D : b, n. 6. Beschr. V.
 
-## Der I. Vortrag.
+### Beschluß.
 
-## Das 1. Beweiß-Stück.
+Wenn derohalben die 1. Grösse der 2. gleichvielfältig/ auch die 3. der 4. gleichvielfältig ist. Darnach auch die 5 Grösse zu der 2. so vielfältig ist/als die 6. Grösse zu der 4. So müssen auch die 1. und 5 zusammen genommen/ zu der 2. eben so vielfältig seyn/als die 3. und 6. Grössen zusammen genommen zu der 4. Grösse sind/ W. Z. B.
 
-Wann etliche Grössen (und zwar so viel man derer wil) anderer eben so viel Grössen gleichmässig vielfältige (multiplices) sind/so werden die ersten Grössen alle zusammen genommen/derer Anderen allen zusammen genommenen Grössen eben so vielfältig seyn / als eine derer Ersten zu einer deren Anderen in richtiger Ordnung genommenen Grössen.
+## Der III. Vortrag.
 
-### Gegebene.
+## Das 3. Beweiß-Stück.
 
-[Diagram: vier waagerechte Linien verschiedener Länge, bezeichnet A, a, B, b]
+Wenn (unter den vier gegebenen Grössen) die Erste vielfäl-
 
-A : a | B : b
+<!-- Signature: Hh 2 -->
 
-### Begehrtes.
-
-A + B : a + b | A : a — B : b
-
-<!-- Signature: Gg 2 -->
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: tig -->

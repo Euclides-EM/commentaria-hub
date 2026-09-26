@@ -1,36 +1,38 @@
-<!-- Page number: 318 -->
+<!-- Page number: 326 -->
 
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Das VI. Buch -->
 
 ### Vorbereitung.
 
-1. Der Grundstrich bc werde nach Nothdurfft gegen g verlängert.
-2. Von cg werde abgeschnitten das Stück ce | CE — n. 3. I.
-3. Es werde gemacht △ ced | △ CED — n. 22. I.
-4. Der Strich ba werde biß f, und
-5. Der Strich ed auch biß f verlängert.
+Wenn man | acb ⋏ dfe, | so mache
+| acg ⋏ dfe | n. 23. I.
 
-### Beweiß.
+### I. Beweiß.
 
-DEC ⋏ dec — n. 3. Vorb.
-Dw. DEC ⋏ dec — n. 8. I.
-DEC ⋏ acb — n. 3. Gegeb.
-Dw. dec ⋏ acb — n. 1. Gr. I.
-u. de ⧣ ac — n. 28. I.
-dce ⋏ abc — n. 8. I.
-Dw. bf ⧣ dc — n. 28. I.
-u. facd ein nebenstrichichtes Viereck — n. 35. Beschr. I.
+| acg ⋏ dfe | n. Vorber.
+| bac ⋏ edf | n. 2. Geg.
+α Dw. | agc ⋏ def | n. 32. I.
+u. | ac : cg | df : fe | n. 4. VI.
+| ac : cb | df : fe | n. 5. Geg.
+Dw. | ac : cb | ac : cg | n. 11. V.
+u. | cb | cg | n. 9. V.
+Dw. | cbg ⋏ bgc | n. 5. I.
+| cbg ⋏̸ [unclear: ∟] | n. 3. Geg.
+Dw. | bgc ⋏̸ [unclear: ∟] | n. 1. Gr. d. I.
+| agc + bgc ⋏ [unclear: ⌓] | n. 13. I.
+Dw. | agc ⋏̸ [unclear: ∟] | n. 5. Gr. I.
+| agc ⋏ def | n. Bew. α.
+Dw. | def ⋏̸ [unclear: ∟] | n. 1. Gr. c. I.
 
-∝ ba : af | bc : ce — n. 2. VI.
-β af | cd — n. 34. I.
-ba : | ba
-Dw. ba : af | ba : cd — n. 7. V.
-ba : cd | bc : ce — n. 11. V.
-ce | CE — n. 2. Vorb.
-bc | bc
-Dw. bc : ce | bc : CE — n. 7. V.
-u. ba : cd | bc : CE — n. 11. V.
-cd | CD — n. 3. Vorb.
-ba | ba
+welches aber wider das 4. Gegebene.
 
-<!-- Catchword: Dw. -->
+## Des VII. Vortrags II. Gegebene.
+
+1 abc oder gbc ⋏ nicht kleiner als ∟,
+2. def ⋏ nicht kleiner als ∟.
+3. cag ⋏ fde
+4. ac : cb | df : fe
+
+[Diagram: zwei Dreiecke, links Dreieck abc mit punktierter Linie von c nach g, rechts Dreieck def]
+
+<!-- Catchword: Vor- -->

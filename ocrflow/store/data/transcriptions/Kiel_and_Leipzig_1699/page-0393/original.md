@@ -1,35 +1,28 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 363 -->
+<!-- Page number: 377 -->
 
-[Diagram: grösseres Viereck m l f e, daneben kleiner Strich t s und kleineres Viereck t w r s; darunter Striche a e, c d r s mit punktierter Linie]
+## Der XXIX. Vortrag.
 
-### Beweiß.
+## Das 9. Werckstück.
 
-▭ el ähnlich ▭ st n. 3. Vorb.
-▭ el - - - ▭ gi n. 3. Geg. I.
-Dw. ▭ st - - - ▭ gi n. 21. VI.
-△ abo : △ cdn | ▭ el : ▭ st 1. Th. dies. Vort.
-△ abo : △ cdn | ▭ el : ▭ gi n 1. Geg.
-Dw. ▭ el : ▭ gi | ▭ el : ▭ st n. 11. V.
-u. ▭ gi | ▭ st n 9 V.
-gh | rs n. Vorsatz. γ
-ef | ef
-ef : gh | ef : rs n. 7. V.
-ab : cd | ef : rs n. 1. Vorb.
-Dw. ab : cd | ef : gh n. 11. V.
+An einen gegebenen geraden Strich ein nebenstrichichtes übertreffendes/ und der gegebenen Gestalt gleichmässiges Viereck anzuschlagen / dessen Uberschuß einem gegebenen nebenstrichichten Viereck ähnlich sey.
 
-### Beschluß.
+### Gegebene.
 
-Werden derowegen aus vier ebenmässigen Strichen/ auch ebenmässige Vielecke beschrieben.
+1. Gerader Strich AB
+2. Geradstrichichte Gestalt K
+3. Nebenstrichichtes Viereck L.
 
-Und derer ebenmässigen Vielecke Seiten oder Striche sind auch ebenmässig. W. Z. B.
+### Begehrte.
 
-## Der XXIII. Vortrag.
+1. Nebenstrichichtes □ Am.
+2. □ Am | △ K.
+3. □ Am an den geraden Strich AB angeschlagen/
+4. Und denselben übertreffend
+5. mit dem □ Bm,
+6. □ Bm ähnlich □ L,
+7. Auf gleiche Weise gesetze.
 
-## Das 17. Beweiß-Stück.
-
-Gleichwincklichte nebenstrichichte Vierecke ha-
-
-<!-- Signature: Z z 2 -->
-<!-- Catchword: ben -->
+<!-- Signature: Bbb -->
+<!-- Catchword: Wirckung. -->

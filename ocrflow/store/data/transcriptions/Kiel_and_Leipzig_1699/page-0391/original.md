@@ -1,33 +1,31 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 361 -->
+<!-- Page number: 375 -->
 
-### II. Beweiß.
+### Wirckung.
 
-△ aob : △ cnd | □ el : □ gi n 1. Geg.
-ab : cd | cd : p n. 1. Vorb.
-α Dw. ab : p = ab : cd n. 10. Besch. V.
-△ aob : △ cnd = ab : cd n. 19. VI.
-Dw. △ aob : △ cnd | ab : p
-β u. □ el : □ gi | ab : p n. 11. V.
-ef : gh | gh : q n. 2. Vorb.
-Dw. ef : q = ef : gh n. 10. Beschr. V.
-□ el : □ gi = ef : gh n. 20. VI.
-Dw. □ el : □ gi | ef : q.
-u. ab : p | ef : q n. 11. V u. Bew. β
-u. ab : p = ef : gh
-Dw. ab : cd | ef : gh n. Bew. α | n. 11. V.
+1. Der Strich AB werde in zween gleiche Theile AE | EB getheilet. n. 10. I.
+2. An den halben Strich EB werde das □ Eg angeschlagen.
+3. □ Eg ähnlich □ D n. 18. VI.
+4. Welche gleicher Weise gesetzet.
+5. Aus A werde gegen Ec ein Nebenstrich Ah gezogen n. 31. I.
+6. Der Strich gc werde biß h verlängert.
+7. Diese Anmerckungen sind zu beobachten.
 
-## Vorsatz. (Lemma)
+(1) Wenn □ Eh | △ X so ist das Werckstück vollzogen.
+(2) Wann □ Eh ⊢ △ X so ist unmüglich/ daß man aus demselben ein Stück könne abschneiden/ so dem △ X gleichmässig/
+(3) Ist aber □ Eh ⊣ △ X so
 
-Gleichmässige und ähnliche geradstrichichte Gestalte stehen auf gleichmässigen geraden Strichen.
+8. Mache man nach dem Winckel cEB, und
+9. Nach dem Strich cg
+10. Ein □ klm | △ X. n. 44. I.
+11. Dieses □ klm werde von dem □ Eg abgeschnitten.
+12. Das übergebliebene □ Eu werde in ein □ no ähnlich dem □ Eg verwandelt. n. 25. VI.
 
-### Gegebene. Begehrtes.
+nemlich man findet zu Ah oder Bg und Bu einen mittel-ebenmässigen Strich An n. 13. VI.
 
-1. □ gi | □ rt gh | rs
-2. □ gi ähnlich □ rt
+13. Das □ no werde von den □ Eg abgeschnitten. Das ist. Es werde von cE abgeschnitten cn | An. n. 3. I.
 
-[Diagram: zwey Vierecke g k i h und u t s r nebeneinander; darunter ein Strich x und eine Figur mit den Punkten g, s, x, h r und punktiertem Strich nach s]
+Durch n werde gegen AB ein gerader Nebenstrich qr, n. 31. I. und aus B zu c ein gerader Strich Bc, auch durch p gegen Bg ein gerader Nebenstrich so gezogen/ n. 31. I. so bleibet übrig das ⊾ BgopnE.
 
-<!-- Signature: Z z -->
-<!-- Catchword: Vorbe- -->
+<!-- Catchword: Beweiß. -->

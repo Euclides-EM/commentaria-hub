@@ -1,23 +1,21 @@
 <!-- Running title: Definitiones. -->
 
-<!-- Page number: 3 -->
+<!-- Page number: 5 -->
 
-IIX. Ein ebener Winckel wird von zween Strichen auff einer ebenen Fläche gemacht/ wenn die Striche nicht neben einander / sondern gegen einander gezogen / einander anrühren.
+XIIX. Ein Halb-kreyß ( Semicirculus ) aber ist eine Gestalt/ welche von dem Durchschlag/ und demjenigen Stück des Umbkreyses/so dieser gerade Strich oder Durchschlag abschneidet / eingeschlossen wird.
 
-[Diagram: mehrere Winkeldarstellungen aus gekrümmten und geraden Strichen]
+[Diagram: ein Halbkreis sowie ein Kreis mit waagerechtem Durchmesser, dessen untere Hälfte punktiert ist]
 
-IX. Ein gerader Winckel bestehet auß geraden Strichen.
+XIX. Gerad-seitige Gestalte (Rectilineæ figuræ) sind/welche mit geraden Strichen eingefasset werden.
+XX. Dreyeckichte (Trilateræ) Gestalte werden von drey geraden Strichen eingeschlossen.
 
-[Diagram: mehrere Winkeldarstellungen aus geraden Strichen]
+[Diagram: drei Dreiecke verschiedener Gestalt]
 
-X. Wenn ein gerader Strich auff einen andern geraden Strich fället oder stösset/ also daß die beeden neben einander stehende Winckel einander gleich werden / so ist jedweder derselben ein rechter Winckel; der anstossende Strich wird ein Bleyrechter Senck-Strich deß gegenstehenden oder unterliegenden Striches genennet.
+XXI. Viereckete (Quadrilateræ) Gestalte aber werden von vier geraden Strichen eingeschrencket.
+XXII. Viel-Eckichte Gestalte haben mehr/ als vier gerade Gräntz-Striche.
+XXIII. Unter den Drey-Ecketen Gestalten wird das gleichseitige Drey-Eck von drey gleichlang-geraden Strichen eingeschrencket.
 
-[Diagram: senkrechter Strich auf waagerechtem Strich mit Halbkreis]
+[Diagram: ein gleichseitiges Dreieck]
 
-XI. Ein stumpffer Winckel ist / welcher einen rechten Winckel übertrifft.
-
-[Diagram: zwei Darstellungen stumpfer Winkel]
-
-<!-- Signature: A 2 -->
-
-<!-- Catchword: XII. Ein -->
+<!-- Signature: A 3 -->
+<!-- Catchword: XXIV. -->

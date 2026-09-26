@@ -1,24 +1,28 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 159 -->
+<!-- Page number: 161 -->
 
-nicht in den Kreyß fallen : Es wird auch zwischen solchen Strich/ und den Kreyßzug kein anderer gerader Strich können gezogen werden : Auch wird der Halb-Kreyß-Winckel grösser/ das übrige Stück aber kleiner/ als alle spitzige geradstrichiche Winckel seyn.
+### Beschluß.
+
+Wenn nun auff eines Kreyses cgf Durchschlags fc Ende-Düttel c ein Senckstrich bc gesetzet ist/ so muß solcher Senckstrich bc ausser den Kreyß fallen ; und zwischen solchem Senckstrich bc und Kreyßzug gdc kan kein anderer gerader Strich stehen. : Es wird auch der gemischte Winckel acg grösser/ und der eussere Winckel gcb kleiner/als alle spitzige Winckel seyn. W. Z. B.
+
+## Der XVII. Vortrag.
+
+## Das 2. Werckstück.
+
+Aus einem gegebenen Düttel einen geraden Strich zu ziehen/ welcher den gegebenen Kreyß anrühre.
 
 ### Gegebene. Begehrtes.
 
-1. Kreyß cgf — 1. Strich bc fället ausser den Kreyß/
-2. Durchschlag cf — 2. Zwischen diesen Strich bc und Kreyßzug fgc wird kein gerader Strich können gezogen werden.
-3. Gerader Strich bc
-4. Rechtwincklicht auff den Durchschlag fc gesetzt.
-3. ∟ acg ⅄ alle ∧
-4. ∟ gcb ⋏ alle ∧
+1. Düttel e. — 1. Gerader Strich ec
+2. Kreyß fcd. — 2. Aus e gezogen also/ daß es
+3. Den Kreyß fcd anrühre.
 
-[Diagram: Kreis mit Mittel-Düpffel a, senkrechter Durchschlag cf, oben am Punkt c die waagerechte Tangente cb mit Punkten d und e, dazu der Punkt g am Kreyßzug und Linien von a nach g und e]
+[Diagram: kleiner Kreis fcd mit Mittel-Düpffel b, darum ein grosser punktierter Kreis durch a und e; vom Düttel e Linien nach a, d und b, mit Punkten c und d]
 
-### Vorbereitung.
+### Wirckung.
 
-1. Aus dem Mittel-Düpffel a werde gegen den Strich bc ein gerader Strich ab gezogen.
-2. Werde aus c zwischen cg und bc ein gerader Strich ec.
-3. Und gegen diesen Strich aus a der Senckstrich ad gezogen.
+1. Aus dem gegebenen Düttel e werde zu des gegebenen Kreyses Mittel-Düpffel b ein gerader Strich eb gezogen.
 
-<!-- Catchword: I. Be- -->
+<!-- Signature: X -->
+<!-- Catchword: 2. Nach -->

@@ -1,37 +1,30 @@
 <!-- Running title: Das I. Buch -->
 
-<!-- Page number: 48 -->
+<!-- Page number: 86 -->
 
 ### Beweiß.
 
-mn ∠ ko | n. 10. GrS.
-no ∠ on
-α. mn + no ∠ ko + on | n. 2. GrS.
-rf | fx
-fg | pf | n. 46. Vort u. 29. Bes.
-rf + fg | pf + fx | n. 2. GrS.
-ko + on ∠ mn + no | n. Bew. α.
-oder kon ∠ mno | n. 9. GrS. q.
-Dw. fgr ∠ pxf | n. 4. Vortr.
-xi = fp | n. 4. Vorber.
-Dw. □ fpib | 2 △ fpx | n. 41. Vortr.
-und □ fpib | 2 △ fgr | n. 6. GrS.
-fr = lg | n. 46. Vortr.
-□ fx | 2 △ fgr | n. 41. Vortr.
-β. Dw. □ fx | □ fpib | n. 6. GrS.
+acd ∠ ⌐ | n. 1. Vorber.
+Dw. □ ad | □ cd + □ ac | n. 47. Vort.
+cb | cd | n. 2. Vorbr.
+Dw. □ cb | □ cd | n. 6. GrS. l.
+□ ac | □ ac
+Dw. □ cb + □ ac | □ cd + □ ac | n. 2. GrS.
+□ ad | □ cd + □ ac | n. 1. GrS.
+□ ab | □ cd + □ ac | n. 2. Gegeb.
+Dw. □ ab | □ ad | n. 1. GrS.
+und ab | ad | n. 7. GrS. p.
+bc | dc | n. 2. Vorber.
+ac | ac
+Dw. bc + ac | dc + ac | n. 2. GrS.
+und acb ∠ dca | n. 8. Vortr.
+⌐ ∠ dca | n. 1. Vorber.
+Dw. acb ∠ ⌐ | n. 10. Beschreib.
 
-ab ∠ dc | n. 4. Wirck.
-bc ∠ cb
-ab + bc ∠ dc + cb | n. 2. GrS.
-oder abc ∠ dcb | n. 9. GrS. q.
-hg | xg
-fg | ge | n. 29. Beschreib.
-Dw. hg + gf | xg + ge | n. 2. GrS.
-und hgf ∠ xge | n. 4. Vortr.
-xi = ge | n. 4. Wirck.
-Dw. □ gbie | 2 △ xge | n. 41. Vortr.
-und □ gbie | 2 △ hgf | n. 6. GrS. k.
-□ gx | 2 △ hgf | n. 41. Vortr.
-Dw. □ gx | □ gbie | n. 6. GrS.
+### Beschluß.
 
-<!-- Catchword: □ fpx -->
+Wenn derowegen in einem △ , der einen Seiten □ so groß ist / als die □ □ der ander beeden Seiten / so begreiffen diese beeden Seiten einen rechten Winckel. W. Z. B.
+
+[Ornament: Zierstück (Druckervignette in Rautenform)]
+
+<!-- Catchword: Das -->

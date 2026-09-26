@@ -1,42 +1,40 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 251 -->
+<!-- Page number: 259 -->
 
-### I. Beweiß.
+## Der XI. Vortrag.
 
-Grösse mehr vielfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vielfältig / als gegen die Grössere.
+## Das II. Beweißstück.
 
-A | 5a — n. 1. Geg.
-c | 4a — n. 2. Geg.
-Dw. A—c | a — n. 3. Gr. I.
-B | 5b — n. 3. Geg.
-d | 4b — n 4. Geg.
-Dw. B—d | b — n. 3. Gr. I.
+Welche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind / dieselbigen Verhältnüsse sind auch unter sich gleichhaltig.
 
-### Gegebene. — Begehrtes.
+### Gegebene. | Begehrtes.
 
-I. A ______ — A—c : a | B—d : b
-II. a ___
-III. B ______
-IV. b ___
+A ________ | A : a | B : b.
+a __
+B ________
+b __
+C ________
+c __
 
-[Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet I. A, II. a, III. B, IV. b]
+[Diagram: Strecken A, a, B, b, C, c von verschiedener Länge]
 
-1. A | 5a
-2. c | 3a
-3. B | 5b
-4. d | 3b
+A : a | C : c
+B : b | C : c
 
-### II. Beweiß.
+### Vorbereitung:
 
-A | 5a — n 1. Geg.
-c | 3a — n. 2. Geg.
-Dw. A—c | 2a — n. 3. Gr. I.
-B | 5b — n 3. Geg.
-d | 3b — n. 4. Geg.
-Dw. B—d | 2b — n. 3. Gr. I.
-Und A—c : a | B—d : b — n 7. Beschr. V.
+1. Nehme man A zweymahl
+2. Deßgleichen auch B zweymahl
+3. Die Grösse a und b aber jedwede viermahl.
 
-<!-- Signature: Ji 2 -->
+2A ________________
+4a ____________
+2B ________________
+4b ____________
 
-<!-- Catchword: Beschluß. -->
+[Diagram: Strecken 2A, 4a, 2B, 4b]
+
+<!-- Signature: Kk 2 -->
+
+<!-- Catchword: I. Beweiß. -->

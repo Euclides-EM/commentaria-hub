@@ -1,30 +1,43 @@
-<!-- Page number: 114 -->
+<!-- Page number: 116 -->
 
 <!-- Running title: Das II. Buch -->
 
-[Diagram: punktierte Konstruktion; oben Punkte e und f, Grundlinie a c b d, unten rechts Punkt g, gestrichelte Linien verbinden e, f, d und g]
+Striches/ welcher aus dem halben und angesetzten Stück zusammen gesetzet cd, zweymahl genommen. W. Z. B.
+
+### Nach der Löse-Kunst.
+
+### Gegebene. | Begehrtes.
+
+1. a | ad
+2. b | cd
+3. c | cb
+4. d | bd
+5. a | b + c
+6. d | b — c
 
 ### Beweiß.
 
-ca | ce | n. 2. Vorb.
-α. Dw. eac ∠ aec | n. 5. I.
-β. cb | ce | n. 2. Vorb.
-γ. ceb ∠ cbe
-ce | Senckstrich | n. 1. Vorber.
-Dw. eca ∠ ∟
-δ. ecb ∠ ∟ | n. 10. Beschr.
-eac + aec ∠ ∟
-ceb + cbe ∠ ∟ | n. 34. I.
-aec ∠ ½ ∟ | n. Bew. α.
-ceb ∠ ½ ∟ | n. Bew. γ.
-aec + ceb ∠ ∟
-ε. und aeb ∠ ∟ | n. 9. Gr. q. I.
-Dw. □ ae | □ ac + □ ce | n. 47. I.
-ζ. oder □ ae | 2 □ ac
-fd | ce | n. 34. I.
-cb | ce | n. Bew. β.
-Dw. fd | cb | n. 1. Gr. I.
-η. dg | bd | n. 5. Vorb.
-fd + dg | cb + bd | n. 2. Gr. I.
+a | b + c | n. 5. Geg.
+aa | bb + 2bc + cc | n. 4. II.
+d | b — c | n. 6. Geg.
+dd | bb — 2bc + cc | n. 4. II.
+aa + dd | bb + 2bc + cc + bb — 2bc + cc | n 2 Gr. I.
+oder aa + dd | 2bb + 2cc | W. Z B.
 
-<!-- Catchword: oder -->
+## Der XI. Vortrag.
+
+## Das 1. Werck-Stück.
+
+Einen geraden Strich also zu theilen/ daß das Viereck/ welches der gantze Strich und das eine Stück begreiffen/ eben so groß sey/ als das gleichseitige Viereck des andern Stückes.
+
+### Gegebenes. | Begehrtes.
+
+Gerader Strich ab | 1. Getheilet in c also
+2. daß ▭ abc | □ ac
+
+### Wirckung.
+
+1. Auff ab werde ein gleichseitiges □ ab gesetzt/ n. 46. I.
+2. Die Seite ae werde in zween gleiche Theil getheilet in dem Düttel d, n. 10. I.
+
+<!-- Catchword: 3. Aus -->

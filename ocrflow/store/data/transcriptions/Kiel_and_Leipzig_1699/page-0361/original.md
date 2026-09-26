@@ -1,40 +1,45 @@
-<!-- Page number: 337 -->
+<!-- Page number: 345 -->
 
 <!-- Running title: Euclidis. -->
 
-[Diagram: Strich A—C—B; darunter ein Winkel aus a mit den Punkten c, d oben und b, e, f auf dem unteren Schenkel]
+|  |  |  |
+|---|---|---|
+| Dw. | △ efd ⊤ △ ABC | n. 1. Gr. I. |
+| u. | △ efd ⊤ △ abc | n. Bew. α |
+|  | △ edc ⊤ △ edc |  |
+| Dw. | △ efd : △ edc ⊤ △ abc : △ edc | n. 7. V. |
+|  | ab : ed ⊤ △ abc : △ edc | n. 1. VI. |
+| Dw. | ab : ed ⊤ ef : bc | n. 11. V. n. B. β |
+| oder | AB : DE ⊤ EF : BC | n. Anh. 7. V. |
 
-### Wirckung.
+### II. Gegebene.
 
-1. Man ziehe den Strich af.
-2. Von diesem Strich werde abgeschnitten
-ab ⊤ AB
-3. Deßgleichen be ⊤ AC   n. 3. I.
-4. Aus a werde nach belibigem Winckel gezogen der Strich
-ad
-5. Von diesem Strich werde abgeschnitten
-ac ⊤ AC   n. 3. I.
-6. Es werde der Strich bc gezogen.
-7. Aus e werde gegen den Strich bc der gerade Nebenstrich ed gezogen n. 31. I.
+1. △. ABC
+2. △. EFD
+3. ABC ⋏ DEF.
+4. AB : DE ⊤ EF : BC.
 
-### Beweiß.
+### II. Begehrtes.
+
+△ ABC ⊤ △ EFD.
+
+### II. Vorbereitung wie die I.
+
+### II. Beweiß.
 
 |  |  |  |
 |---|---|---|
-|  | bc ⊤ ed | n. 7. Wirck. |
-| Dw. | ab : be ⊤ ac : cd | n. 2. VI. |
-|  | ac ⊤ be | n. 5. Wirck. |
-|  | ab ⊤ ab |  |
-| Dw. | ab : ac ⊤ ab : be | n. 7. V. |
-| u. | ab : ac ⊤ ac : cd | n. 11. V. |
-| oder | AB : AC ⊤ AC : cd | n. Anh. 7. V. |
+|  | △ edc gleichmässiger Höhe △ efd | n. 4. Besch. VI. |
+| α Dw. | ef : bc ⊤ △ efd : △ bcd | n. 1. VI. |
+|  | △ abc gleichmässiger Höhe △ bdc | n. 4. Besch. VI. |
+| Dw. | ab : de ⊤ △ abc : △ bdc | n. 1 VI. |
+|  | ab : de ⊤ ef : bc | n 4 Geg. |
+| Dw. | △ abc : △ bcd ⊤ ef : bc | n. 11. V. |
+| u. | △ abc : △ bcd ⊤ △ efd : △ bcd | n. Bew. α |
+|  | △ bcd ⊤ △ bcd |  |
+| Dw. | △ abc ⊤ △ efd | n. 9. V. |
+| oder | △ ABC ⊤ △ EFD | n. Anh. 7. V. |
 
-Dw. ist ce der dritte ebenmässige Strich.
+<!-- Signature: Xx -->
 
-### Beschluß.
-
-Ist also zu denen zweyen geraden Strichen ab und ac, oder AB und AC, der Dritte ebenmässige Strich cd gefunden. W. Z. M.
-
-<!-- Signature: Uu -->
-
-<!-- Catchword: Der -->
+<!-- Catchword: Beschluß. -->

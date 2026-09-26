@@ -1,35 +1,31 @@
 <!-- Running title: Das I. Buch -->
 
-<!-- Page number: 24 -->
-
-### Gegebene. | Begehrtes.
-
-1. Das △ ABC | AB | AC
-2. ABC ⋏ ACB
-
-[Diagram: Dreyeck ABC mit Punkt D auff der Seite AB und punktiertem Strich DC]
-
-### Beweiß.
-
-Entweder ist AB | AC
-oder AB ⊣ AC
-oder AB ⊢ AC
+<!-- Page number: 26 -->
 
 ### Vorbereitung.
 
-wenn AB ⊣ AC
-so schneide man von AB ab
-ein Stück AD | AC nach 3. Vortr.
-α Darnach ziehe man den geraden Strich CD.
-verfolg des Beweises/
+Man ziehe aus b, wo die ersten beeden Striche sich vereinigen/ zu dem Düttel d, wo die andern beeden Striche zusammen stossen / einen geraden Strich bd.
 
-DB | AC nach Vorber. α
-BC | BC
-DB + BC | AC + BC nach 2. GrS.
-DBC ⋏ ACB nach Gegeb. 2.
-Dw. DCB ⏉ ABC nach 4. Vortr.
-Welches aber unmüglich nach 9. GrS.
+[Diagram: zwey waagrechte Doppelstriche B–A und C–F–D, darunter ein Dreyeck mit den Düttelen b, d, e und punktierten Strichen]
 
-Gleiche Beschaffenheit wird es haben / wenn man sagen wolte AB ⊢ AC.
+### Verfolg des Beweises.
 
-<!-- Catchword: Beschluß. -->
+da | DE nach angenommenem β.
+AB | DE nach Gegebenen 2.
+Dw. AB | da nach 1. Grund-Satz.
+AB | ab nach Gegebenen 2.
+Dw. da | ab nach 1. Grund-S.
+und abd ⋏ adb nach 5. Vortrag.
+
+cd | DF nach angenommem β.
+CB | DF nach Gegeb. 3.
+Dw. CB | cd nach 1. Grund-S.
+CB | cb nach Gegeb. 3.
+Dw. cd | cb nach 1. Grund-S.
+α und cbd | cdb nach 5. Vortrag.
+
+cbd ⋏ abd nach 9. Grund-S.
+cbd ⋏ cdb nach 5. Beweiß. α
+cdb ⋏ abd nach 1. Grund-S. c.
+
+<!-- Catchword: adb -->

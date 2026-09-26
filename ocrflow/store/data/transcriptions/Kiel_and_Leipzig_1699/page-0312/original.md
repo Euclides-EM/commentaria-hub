@@ -1,39 +1,34 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 288 -->
+<!-- Page number: 296 -->
+
+### Beschluß.
+Wenn derowegen Sechs Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die V. zu der VI. Auch die II. zu der III. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
+
+## Der XXXIII. Vortrag.
+## Das 33. Beweiß-Stück.
+
+Wenn das Gantze zu dem Gantzen eine grössere Verhältnüß hat / als das Abgenommene zu dem Abgenommenen: So wird das Ubergebliebene zu dem Ubergebliebenen eine grössere Verhältnüß / als das Gantze zu dem Gantzen haben.
 
 ### Gegebene.
 
-[Diagram: zwey Linien A und B; auf der Linie A sind die Stücke a und c, auf der Linie B das Stück b bezeichnet]
+[Diagram: zwei waagerechte Linien A und B, jeweils durch Striche unterteilt]
 
-A : a ⊣ B : b
+A : B ⊣ a : b
 
 ### Begehrtes.
-
-A + a : a ⊣ B + b : b
-
-### Vorbereitung.
-
-Man nehme noch eine Grösse/ nemlich c darzu/ welche sich zu a also/wie B zu b, verhalte. c : a | B : b.
+A : B ⊢ A — a : B — b
 
 ### Beweiß.
 
-|  |  |  |
-|---|---|---|
-| c : a | B : b | n Vorber. |
-| A : a | ⊣ B : b | n. Geg. |
-| Dw. A : a | ⊣ c : a | n. Anh. 13. V. |
-| u. A | ⊣ c | n. 10. V. |
-| a | a | |
-| A + a | ⊣ c + a | n. 4 Gr. I. |
-| a | a | |
-| Dw. A + a : a | ⊣ c + a : a | n. 8. V. |
-| c : a | B : b | n. Geg. |
-| Dw. c + a : a | B + b : b | n. 18. V. |
-| u. A + a : a | ⊣ B + b : b | n. Anh. 13. V. |
+|  |  |  |  |
+|---|---|---|---|
+|  | A | \| a + c |  |
+|  | B | \| b + d |  |
+|  | a + c : b + d | ⊣ a : b | n Geg. |
+| Dw. | a + c : a | ⊣ b + d : b | n. 27. V. |
+| und | a + c : c | ⊢ b + d : d | n. 30. V. |
+| Dw. | a + c : b + d | ⊢ c : d | n. 27. V. |
+| oder | A : B | ⊢ A — a : B — b |  |
 
-### Beschluß.
-
-Wenn derowegen die I. zu der II. Grösse eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. mit der II. zu der II. eine grössere Verhältnüß/ als die III. und IV. zusammen/ zu der IV. haben. W. Z. B.
-
-<!-- Catchword: Der -->
+<!-- Catchword: Beschluß. -->

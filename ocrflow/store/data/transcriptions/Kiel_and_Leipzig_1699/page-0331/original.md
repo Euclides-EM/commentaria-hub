@@ -1,36 +1,34 @@
-<!-- Page number: 307 -->
+<!-- Page number: 315 -->
 
 <!-- Running title: Euclidis. -->
 
-## Des I. Vortrags I. Zugabe.
-
-Diejenigen Dreyecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ haben auch gleichmässige Höhen.
-
 ### I. Gegebene.
 
-ab : ed | △ abc : △ def
+1. Dreyeck abc
+2. Gerader Strich bd,
+3. Welcher den Winckel b theilet
+4. Also/ daß abd ⋏ cbd
+5. Und auch den Grundstrich ac in ad und cd theilet.
 
 ### Begehrtes.
 
-Höhen cq | fp.
+cd : da | cb : ba.
 
-[Diagram: Zwei Dreiecke, links mit Gipffel f über der Grundlinie e p d a, rechts mit Gipffel c und Punkt r über der Grundlinie a q b, mit gestrichelten Höhen und Strichen]
+[Diagram: Dreyeck abc mit dem Strich bd auf den Grundstrich ac, die Seite ab ist gestrichelt gegen e verlängert und der gestrichelte Strich ce gezogen]
 
-### Vorbereitung.
+1. Der Strich oder Seite ab werde nach Nothdurfft verlänget gegen e.
+2. Aus dem Düttel c werde ein Nebenstrich gegen bd gezogen/ biß er dem verlängerten Strich in e aufstösset/ nemlich ce. n. 31. I.
 
-Wenn die Höhe cq länger were/ als die Höhe fp, so schneide man ab ein Stück rq | fp.
-2. Ziehe man die Striche ra und rb.
+### I. Beweiß.
 
-### Beweiß.
+bd ⧣ ec — n. 2. Vorb.
+Dw. bec ⋏ abd
+u. cbd ⋏ bce — n. 29. I.
+cbd ⋏ abd — n. 4. Gegeb.
+Dw. abd ⋏ bce — n. 1. Gr.
+u. cbd ⋏ bce — n. 29. I.
+Dw. be | cb — n. 6. I.
+ba | ba
 
-weil cq ⊣ fp. — n. Angenom.
-und rq | fp — n. Vorber.
-Dw. ab : ed | △ arb : △ def — n. 1. VI.
-ab : ed | △ acb : △ def — n. Gegeb.
-Dw. △ arb : △ def | △ acb : △ def — n. 11. V.
-u. △ arb | △ acb — n. 9. V.
-
-welches aber unmüglich n. 9. Gr. I.
-
-<!-- Signature: Qq 2 -->
-<!-- Catchword: Gleiche -->
+<!-- Signature: Rr 2 -->
+<!-- Catchword: Dw. -->

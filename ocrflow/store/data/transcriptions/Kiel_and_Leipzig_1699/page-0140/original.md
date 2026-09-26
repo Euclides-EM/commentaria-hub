@@ -1,40 +1,36 @@
-<!-- Page number: 122 -->
+<!-- Page number: 124 -->
 
 <!-- Running title: Das II. Buch -->
 
-□ ac | □ ad + □ cd
-□ ac + □ ab + (□ ad + □ cd) | 2 ▭ bad + □ bd + □ cd + (□ ad + □ cd) | n. 47. I.
-n. 2. Gr. I.
-□ ac + □ ab | 2 ▭ bad + □ bd + □ cd n. 3 Gr. I
-□ bd + □ cd | □ cb n. 74. I.
-□ ac + □ ab + (□ bd + □ cd) | 2 ▭ bad + (□ bd + □ cd) + □ cb
-□ ac + □ ab | 2 ▭ bad + □ cb
-2 ▭ bad | 2 ▭ bad
-□ ac + □ ab — 2 ▭ bad | □ cb | n. 3. Gr. I.
+## Der XIV. Vortrag.
 
-### Auff eine andere Arth.
+## Das 2. Werckstück.
 
-### Begehrtes.
+Eine gegebene gerad-seitige Gestalt/ in ein gleichseitiges Viereck zuverwandeln.
 
-□ ca | □ ab — 2 ▭ abd + □ cb
+### Gegebenes. — Begehrte.
 
-### Beweiß.
+Die gerad-seitige Gestalt *abdc*.
 
-cda | ∟
-Dw. □ ca | □ ab — 2 ▭ abd + □ bd + □ cd
-und □ bd + □ cd | □ cb | n. 47. I.
-□ ca (+ □ bd + □ cd) | □ ab — 2 ▭ abd (+ □ bd + □ cd) + □ cb n. 2. Gr. I.
-Dw. □ ca | □ ab — 2 ▭ abd + □ cb n. 3. Gr. I.
+1 Das □ ek
+2 □ ek | ▭ abdc.
 
-### Beschluß.
+### Wirckung.
 
-Wird also in jedwedem spitzwincklichten △ das □ der dem spitzigen ∠ b übergespanneten Seite ca so viel kleiner seyn / denn der beeden übrigen/ den spitzigen ∠ b begreiffenden Seiten ab und cb, ihre □ □, als das ▭ der Seite ab und des Stückes bd, so der aus dem ∠ c gezogene Senckstrich cd auff der Seite des ∠ b abgeschneidet. W. Z. B
+1. Verwandelt man die Gestalt abdc in ein rechtwincklichtes □ n. 42. I.
 
-### Nach der Löß-Kunst.
+2. Dieses ▭ Länge ef und Breite ea werden auff einen geraden Strich ah gesetzet.
 
-### Gegebene. | Begehrtes.
+3. Der zusammengesetzte Strich ah wird in zween gleiche theile ai | ih getheilet n 10. I.
 
-a | ac | cc | bb + aa — [unclear: 2ba]
-b | ab
+4. Aus dem Düttel i wird nach der Weite ia oder ih ein Kreyß beschrieben. n. 3. Foder.
 
-<!-- Catchword: ccb -->
+5. Aus dem Düttel e, wo die Länge und Breite zusammen gesetzet / wird ein Senckstrich ek biß zu des beschriebenen Kreyses ümbfang gezogen (welches aber hier nicht nöthig / weil solcher Senckstrich in der längern Seite ef stehet.)
+
+6. Auff den Strich ek wird ein gleichseitig □ gesetzet. n. 46. I.
+
+### Vorbereitung.
+
+Aus dem Mitteldüpffel i wird biß zu k der Strich ik gezogen.
+
+<!-- Catchword: Be- -->

@@ -1,31 +1,29 @@
 <!-- Running title: Das I. Buch -->
 
-<!-- Page number: 20 -->
+<!-- Page number: 22 -->
+
+Strich/ bey den verlängeten Seiten-Strichen befindliche Winckel/einer dem andern gleich.
+
+### Gegebene. | Begehrte.
+
+1. Gleichschenckliches △ ABC | 1. ABC ⋏ ACB
+2. AB | AC | 2. BCE ⋏ CBD
+3. Die verlängte schenckel BD und CE.
+
+### Vorbereitung.
+
+1. Es werde gemacht BD | CE nach 3. Vortrag.
+2. Werde gezogen der Strich BE
+3. Deßgleichen CD
+
+[Diagram: zwey gleichschencklige Dreyecke ABC mit verlängten Schenckeln bis D und E, dazu punktierte Striche BE und CD]
 
 ### Beweiß.
 
-So wird der Düttel b entweder auff den Düttel B, oder über denselben auff d, oder unter denselben auff e fallen.
+BD | CE nach 3. Vortr.
+AB | AC nach 2. Gegebenem
+Dw. AB + BD | AC + CE nach 2. Grund-S.
+oder DA | EA nach 9. GrS.
+AC | AB nach 2. Gegeb.
 
-[Diagram: zwey Dreyecke abc und ABC nebeneinander, mit den Punkten d und e am zweyten Dreyeck]
-
-fället er auff d, | fället er auff e,
-
-So wird Ad | ab nach der Vorbereit. | Ae | ab
-AB | ab nach 3 Gegebenem - - | AB | ab
-Dw. AB | Ad nach 1. Gr-Satz - - - | AB | Ae
-
-Nemlich daß gantze wird einem seiner Theile gleich seyn / welches wieder den 9. Gr-S.
-
-Weilen nun der Düttel b, weder über/ noch unter den Düttel B fallen kan / so muß er nothwendig auff den Düttel B selbst fallen.
-
-Wann aber ab auff AB fället / so muß der andere Strich ac entweder einwerts auff den Strich AC, oder auff Ag, oder außwerts auff Af fallen.
-
-[Diagram: zwey Dreyecke abc und ABC, am zweyten Dreyeck die Punkte g und f mit punktierten Linien]
-
-fället er auff AG, | fället er auff Af
-
-So wird BAg ⋏ bac | nach der Vorber. | BAf ⋏ bac
-BAC ⋏ bac | nach Gegeb. | BAC ⋏ bac
-Dw. BAC ⋏ BAg | nach 1. GrS. | BAC ⋏ BAf
-
-<!-- Catchword: Keines -->
+<!-- Catchword: DA -->

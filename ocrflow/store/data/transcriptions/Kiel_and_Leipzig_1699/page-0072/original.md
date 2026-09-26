@@ -1,31 +1,37 @@
-<!-- Running title: Das I. Buch. -->
+<!-- Running title: Das I Buch -->
 
-<!-- Page number: 54 -->
+<!-- Page number: 56 -->
+
+### 1. Beweiß.
+
+AGH ⋏ EGB           n. 15. Vortr.
+GHD ⋏ EGB           n. 3. Gegeb.
+Dw. GHD ⋏ AGH       n. 1. Gr-S.
+und   AB ╪ CD       n. 27. Vortr. W. Z. B.
+
+### 2. Beweiß.
+
+AGH + GHC ⋏ ⏥                     n. 6. Gegeb.
+DHG + GHC ⋏ ⏥                     n. 13. Vortr.
+Dw. DHG + GHC ⋏ AGH + GHC         n.1. und 10. Gr-S.
+          GHC ⋏       GHC
+Dw. DHG        ⋏ AGH              n.3. Gr-S.
+und        AB ╪ CD                n. 27. Vortr.
 
 ### Beschluß.
 
-Müssen also allezeit in zweyen △ △, deren beede Winckel/ und eine Seite gleich groß sind/ auch die übrigen Seiten und Winckel unter sich gleich haben.   W. Z. B.
+Werden also allezeit diejenigen Striche/ bey welchen der einfallende Strich die aus-und inwendigen Winckel gleich groß/ die beeden inwendigen Winckel aber zweyen ⏥ gleich machet/ gerade Nebenstriche seyn. W. Z. B.
 
-## Der XXVII. Vortrag.
+Vorsatz (Lemma)
 
-## Das 18. Beweiß-Stück.
-
-Wenn auff zween gerade Striche ein anderer gerader Strich fället / und die Wechsel-Weiß genommene (alternatim sumtos) Winckel gleich groß machet : So werden solches gerade Neben-Striche seyn.
+Wenn ein auff zween gerade Striche einfallender Strich/ auff der einen Seite zweene Winckel/welche kleiner/als zween rechte Winckel sind/ machet/so werden gedachte beede Striche nach nothturfft verlänget auff selbiger Seite / wo die zween Winckel kleiner/ als zween rechte Winckel sind / zusammen stossen.
 
 ### Gegebene.                              Begehrtes.
-1. Zween gerade Striche AB und CD.     AB ═══ CD
-2. Der einfallende gerade Strich EF.
-3. Die Wechsel-Winckel.
-   AGH ⋏ GHD.
-   BGH ⋏ GHC.
+1. Zween gerade Striche AB und CD,     1. Zusammenkunfft der beyden Striche AB und CD,
+2. Der gerade
+3. Einfallende Strich IK.
+4. Zween auff einer Seite stehende     2. Und zwar auff der Seite gegen B und D in G.
+        Winckel.
+5. BEF + DFE ⊼ ⏥
 
-[Diagram: Zwei waagerechte Striche AB und CD, von dem schrägen Strich EF in G und H geschnitten, mit punktierten Linien zum Punkt I]
-
-### Beweiß.
-
-Entweder sind es Neben-Striche/ oder zusammenlauffende Striche.
-
-Lauffen sie zusammen in dem Düttel I.   So machen sie ein △ GIH, und wird     AGH ⊼ GHI. n. 16. Vortr.
-        welches wider das 3. Gegebene.
-
-<!-- Catchword: Solten -->
+<!-- Catchword: Be- -->

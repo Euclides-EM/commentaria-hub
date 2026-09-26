@@ -1,38 +1,30 @@
-<!-- Running title: Das I. Buch. -->
+<!-- Page number: 34 -->
 
-<!-- Page number: 32 -->
+<!-- Running title: Das I. Buch -->
+
+### Beweiß.
+Weil alhier der Strich DC Bley-recht auff AB stösset/ so müssen ∧ ACD und ∧ BCD zween ∟ ∟ Winckel seyn.
+
+### Vorbereitung.
+Weil CD kein bley-rechter Senckstrich ist/ so richte man aus dem Düttel D einen bley-rechten Senckstrich DE auff/ n. 11. Vort.
 
 ### Beweiß.
 
-CE | CF nach 15. Beschr.
-CD | CD
-CE + CD | CF + CD nach 2. Gr.S.
-ED | FD nach 1. Vortr.
-Dw. ECD ⋏ FCD nach 8. Vortr.
-und CD | Bley-rechter Senck-strich/nach 10. Beschr.
+ADE ⋀ BDE nach 11. Vortr.
+ADE + BDE ⋀ ⊥ nach 11. Vortr.
+ADE + BDE ⋀ ADC + BDC nach 8. Gr-S.
+Dw. ADC + BDC ⋀ ⊥ nach 1. Gr-S.
 
 ### Beschluß.
+Müssen derowegen die Winckel von dem herunterfallenden Strich gemacht/ entweder zween ∟ ∟ seyn/ wie an ACD und BCD zu sehen; oder wie ADC + BDC zweyen ⊥ gleich seyn. W. Z. B.
 
-Und ist also der begehrte bley-rechte Senckstrich CD auff den gegebenen Strich AB, und zwar auff den gegebenen Düttel C gesetzet/W. Z. M.
+## Der XIV. Vortrag.
 
-## Der XII. Vortrag.
+## Das 7. Beweiß-Stück
 
-Das 7. Werck Stück:
+Wenn auff einen geraden Strich / und zwar auff einen einigen Düttel desselben/ zween gerade Striche / nicht von einer Seiten gezogen/ zusammen stossen/ und die zween neben einander stehende Winckel zweyen rechten Winckeln gleich groß machen; so werden sie gerade auffeinander stossen.
+(und einen einigen geraden Strich vorstellen.)
 
-Auff einen unendlichen Strich aus einem ausser demselben gegebenen Düttel einen bley-rechten Senckstrich zu ziehen.
+[Diagram: Zwei Diagramme. Links: senkrechter Strich AB durch Düttel C, waagerechter Strich ECD mit punktierten Linien. Rechts: schräger Strich AB durch Düttel C, Strich ED mit punktierten Linien nach F und G.]
 
-### Gegebene. | Begehrte.
-
-1. Der gerade Strich AB | 1. Bley rechte Senckstrich CF.
-2. Der Düttel - - C | 2. Auß dem gegebenen Düttel C.
-3. Ausserhalb dem Strich AB. | 3. Auff den gegebenen Strich AB (gesetzet.
-
-### Wirckung.
-
-1. Aus dem Düttel C wird ein Kreyß-stück gezogen/welches den gegebenen Strich in zwey Orthen/ nemlich in D und E durchschneide.
-2. Der Strich DE wird in zween gleiche Theile getheilet in dem Düttel F.
-3. Wird der gerade Strich CF gezogen.
-
-[Diagram: Strich AB mit den Düttelen D, F, E, darüber der Düttel C mit punktiertem Kreyß-Stück und Senckstrich CF]
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: Be- -->

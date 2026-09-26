@@ -1,29 +1,26 @@
 <!-- Running title: Axiomata. -->
 
-<!-- Page number: 10 -->
+<!-- Page number: 12 -->
 
-(b) Welch Ding a kleiner ist/ als eins b von zwey gleichen Dingen/ das ist auch kleiner / als das andere c.
+VI. Diejenigen (zwey) Dinge ab und cd / welche zweyfach grösser sind / als das dritte ef/ dieselbigen ab und cd sind einander gleich.
 
-[Diagram: drei Striche, a kürzer, b und c länger und gleich lang]
+[Diagram: drei Striche a–b, e–f (kürzer), c–d]
 
-(c) Wenn eins oder das erste b von (zwey) gleichen Dingen b und c grösser ist/als das dritte a / so ist auch das andere c grösser/ als das dritte a.
+(i) Wenn (zwey) Dinge ab und cd zwiefach so groß sind/als (zwey) andere gleiche Dinge ef und im / sind die beeden ersten ab und cd auch einander gleich.
 
-[Diagram: drei Striche, b und c gleich lang, a kürzer]
+[Diagram: vier Striche a–b, e–f, i–m, c–d]
 
-(d) Wenn das eine b von (zwey) gleichen Dingen b und c kleiner ist/ als das dritte a / so ist auch das andere c kleiner / als das dritte a.
+(k) Wenn ein Ding ab zweymal so groß ist / als das eine cd ( zweyer gleichen Dinge cd und ef/ ) so ist ab auch zweymal so groß/ als das andere ef.
 
-[Diagram: drei Striche, b und c gleich lang, a länger]
+[Diagram: drei Striche a–b (lang), c–d, e–f (kürzer, gleich lang)]
 
-(e) Was a grösser ist / als das Grössere b/ das ist auch grösser / als das Kleinere c.
+(l) Eben dieses gehet auch bey denen Dingen ef an / welche drey-vier-oder mehr-mal grösser oder kleiner sind.
 
-[Diagram: drei Striche, a am längsten, b kürzer, c am kürzesten]
+[Diagram: links drei Striche a–b, e–f (kurz), c–d; rechts drei Striche e–f (lang), a–b (kurz), c–d (kurz)]
 
-(f) Was a/ kleiner ist / als das kleinere b / das ist auch kleiner / als das Grössere c.
+VII. Wenn (zwey) Dinge ab und cd halb so groß sind /als das dritte ef/ so sind sie unter einander gleich.
+(m) Welche ab und cd gleich groß sind/ die sind auch halb so groß / als das dritte ef.
 
-[Diagram: drei Striche, a am kürzesten, b länger, c am längsten]
+[Diagram: drei Striche a–b, c–d (gleich lang), e–f (doppelt so lang)]
 
-II. Wenn man zu ( zwey ) gleichen Dingen ab und bc ( zwey ) gleiche Stücke de und ef thut/werden die ( beeden ) Gantzen ae und bf auch gleich.
-
-[Diagram: zwei Striche a–d und b–c, an welche punktierte Stücke d–e und c–f angesetzt sind]
-
-<!-- Catchword: III. -->
+<!-- Catchword: (n) Wenn -->

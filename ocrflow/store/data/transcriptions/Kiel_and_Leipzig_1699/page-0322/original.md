@@ -1,34 +1,33 @@
-<!-- Running title: Das V. Buch -->
+<!-- Page number: 306 -->
 
-<!-- Page number: 298 -->
-
-### Gegebene.
-
-[Diagram: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]
-
-A : a ⊣ B : b ⊣ C : c.
+<!-- Running title: Das VI. Buch -->
 
 ### Begehrtes.
 
-a A + B + C : a + b + c ⊣ B + C : b + c
-d A + B + C : a + b + c ⊢ A : a
-n A + B + C : a + b + c ⊣ C : c
+□ AD : □ BC | ml : gh.
+
+[Diagram: Zwei nebenstrichichte Vierecke mit den Buchstaben D, A und C, B, Eckpunkte n r o k i oben und m l g h unten, mit gestrichelten Diagonalen]
+
+### Vorbereitung.
+
+1. Werden die Zwergstriche mo und gi,
+2. Deßgleichen der Senckstrich rm, gezogen.
 
 ### Beweiß.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | A : a | ⊣ B : b | n. Gegeb. |
-|  | A : B | ⊣ a : b | n. 27. V. |
-|  | A + B : B | ⊣ a + b : b | n. 28. V. |
-| a | A + B : a + b | ⊣ B : b | n. 33. V. |
-| ß | A : a | ⊣ A + B : a + b | n. 33. V. |
-|  | B : b | ⊣ C : c | n. Geg. |
-| Dw. | B : C | ⊣ b : c | n. 27. V. |
-| u. | B + C : C | ⊣ b + c : c | n. 28. V. |
-| y Dw. | B + C : b + c | ⊣ C : c | n. 27. V. |
-| u. | B : b | ⊣ B + C : b + c | n. 33. V. |
-|  | A + B : a + b | ⊣ B : b | n. Bew. a |
-|  | A : a | ⊣ A + B : a + b | n. Bew. ß |
+□ AD | 2 △ A — n. 34. I.
+□ BC | □ BC
+Dw. □ AD : □ BC | 2 △ A : □ BC — n. 7. V.
+2 △ B | □ BC — n. 34. V.
+2 △ A | 2 △ A
+Dw. 2 △ A : 2 △ B | 2 △ A : □ BC — n. 7. V.
+u. 2 △ A : 2 △ B | □ AD : □ BC — n. 11. V.
+Dw. △ A : △ B | □ AD : □ BC — n. 15. V.
+△ A : △ B | ml : gh — n. Bew. ∝
+Dw. □ AD : □ BC | ml : gh — n. 11. V.
 
-<!-- Catchword: Dw. -->
+### Beschluß.
+
+Werden derowegen alle Nebenstrichichte Viercke sich gegen einander also/ wie derselben Grundstriche verhalten. W. Z. B.
+
+<!-- Catchword: Des -->

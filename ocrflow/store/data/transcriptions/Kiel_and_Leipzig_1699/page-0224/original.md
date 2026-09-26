@@ -1,42 +1,42 @@
 <!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 206 -->
+<!-- Page number: 208 -->
 
-### Vorbereitung.
-
-Aus dem Mittel-Düpffel b werde zu dem einen Winckel g ein gerader Strich bg gezogen.
+1. Der Senckstrich ab zu dem Strich gf }
+2. - - - - ad - - - eg } n. 12. I.
 
 ### I. Beweiß.
 
-beg + bcg ∧ ⌓ n. 18. III.
-Dw. ebg + egb ∧ ∟ }
-und cbg + cgb ∧ ∟ } n. 32. I.
-Dw. ebg + ebg + cbg + cgb ∧ ⌓ n. 2. Gr. I.
-a. oder ebc + egc ∧ ⌓ n. 9. Gr. q. I.
-kim + mil ∧ ⌓ n. 13. I.
-Dw. kim + mil ∧ ebc + egc n. 1. und 10. Gr. I.
-mil ∧ ebc n. 1. Wirck.
-Dw. kim ∧ egc n. 3. Gr. I.
+efa ∧ bfa n. 2. Wirck.
+acf ∧ abf n. 3. Wirck. u. 1. Vorb.
+af | af
+a. Dw. ac | ab n. 26. I.
 
 ### II. Beweiß.
 
-bda + acb ∧ ⌓ n. 18. III.
-dac + dbc ∧ ⌓ n. 32. I. a.
-hkm + mki ∧ ⌓ n. 13. I.
-Dw. hkm + mki ∧ dac + dbc n. 1. u. 10. Gr. I.
-hkm ∧ dbc n. 4. Wirck.
-Dw. mki ∧ dac n. 3. Gr. I.
+dea ∧ cea n. 1. Wirck.
+ace ∧ ade n. 2. Vorb. u. 10. Gr. I.
+ae | ae
+Dw. ac | ad n. 26. I.
+u. ab | ad n. 1. Gr. I. a.
 
-### III. Beweiß.
+Und der Kreyß bcd rühret das △ efg an allen Seiten an. n. 18. III.
 
-a + g + f ∧ ⌓ }
-i + k + m ∧ ⌓ } n. 32. I.
-Dw. i + k + m ∧ a + g + f n. 1. u. 10. Gr. I.
-i + k ∧ a + g n. 1. u. 2. Bew.
-Dw. kmi ∧ afg n. 3. Gr. I.
+Ist auch demselben der Kreyß bcd eingeschrieben n. 5. Beschr. IV.
 
 ### Beschluß.
 
-Ist also das △ afg gleichwincklicht mit △ imk, und ümb den gegebenen Kreyß cde beschrieben. n. 4. Beschr. IV. W. Z. M.
+Ist also dem gegebenen △ efg ein O bcd eingeschrieben. W. Z. M.
 
-<!-- Catchword: Der -->
+## Der V. Vortrag.
+
+## Das 5. Werck-Stück.
+
+Umb ein gegebenes Dreyeck einen Kreyß zu beschreiben.
+
+### Gegebenes. Begehrte.
+
+Dreyeck abc 1. Kreyß abc
+2. Umb das △ abc beschrieben.
+
+<!-- Catchword: Wirckung. -->

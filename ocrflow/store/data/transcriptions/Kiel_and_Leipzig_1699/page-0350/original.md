@@ -1,38 +1,37 @@
-<!-- Page number: 326 -->
+<!-- Page number: 334 -->
 
 <!-- Running title: Das VI. Buch -->
 
-### Vorbereitung.
+2. Von dem ungeendeten Strich hg werde fg ⊤ FG abgeschnitten. n 3. I.
 
-Wenn man | acb ⋏ dfe, | so mache
-| acg ⋏ dfe | n. 23. I.
+3. Aus A durch f werde ein gerader Strich Ak nach Nothdurfft gezogen.
 
-### I. Beweiß.
+4. Desgleichen ein gerader Strich aus G durch g, biß er dem Strich Ak in dem Düttel k aufstosse.
 
-| acg ⋏ dfe | n. Vorber.
-| bac ⋏ edf | n. 2. Geg.
-α Dw. | agc ⋏ def | n. 32. I.
-u. | ac : cg | df : fe | n. 4. VI.
-| ac : cb | df : fe | n. 5. Geg.
-Dw. | ac : cb | ac : cg | n. 11. V.
-u. | cb | cg | n. 9. V.
-Dw. | cbg ⋏ bgc | n. 5. I.
-| cbg ⋏̸ [unclear: ∟] | n. 3. Geg.
-Dw. | bgc ⋏̸ [unclear: ∟] | n. 1. Gr. d. I.
-| agc + bgc ⋏ [unclear: ⌓] | n. 13. I.
-Dw. | agc ⋏̸ [unclear: ∟] | n. 5. Gr. I.
-| agc ⋏ def | n. Bew. α.
-Dw. | def ⋏̸ [unclear: ∟] | n. 1. Gr. c. I.
+5. Aus diesem Düttel k werden gerade Striche biß auf den getheilten Strich GA gezogen/nemlich kB, kC, kD, kE und kT, welche den ungetheilten Strich fg in b, c, d, e, und t schneiden.
 
-welches aber wider das 4. Gegebene.
+### Beweiß.
 
-## Des VII. Vortrags II. Gegebene.
+|  |  |  |
+|---|---|---|
+|  | fb ⊤ AB | n. 1. Wirck. |
+| Dw. | kfd ⋏ kAB | ⟩ n. 29. I. |
+| u. | kbf ⋏ kBA |  |
+|  | fkb ⋏ AkB | n. 8. Gr. I. |
+| Dw. | △ fkb ähnlich △ AkB | n. 1. Besch. VI. |
+| u. | fb : AB ⊤ bc : BC | n. 4. VI. |
+| Dw. | fb : bc ⊤ AB : BC | n. 16. V. |
+|  | bc ⊤ BC | n. 1. Wirck. |
+| Dw. | kbc ⋏ kBC | ⟩ n. 29. I. |
+| u. | kcb ⋏ kCB |  |
+|  | ckb ⋏ CkB | n. 8. Gr. I. |
+| Dw. | △ ckb ähnlich △ CkB | n. 1. Besch. VI. |
+| u. | bc : BC ⊤ cd : CD | n. 4. VI. |
+| Dw. | bc : cd ⊤ BC : CD | n. 16. V. |
 
-1 abc oder gbc ⋏ nicht kleiner als ∟,
-2. def ⋏ nicht kleiner als ∟.
-3. cag ⋏ fde
-4. ac : cb | df : fe
+Gleicher weise kan auch bewiesen werden/
 
-[Diagram: zwei Dreiecke, links Dreieck abc mit punktierter Linie von c nach g, rechts Dreieck def]
+Daß de : et ⊤ DE : ET.
+und tg : TG ⊤ et : ET.
 
-<!-- Catchword: Vor- -->
+<!-- Catchword: Des -->

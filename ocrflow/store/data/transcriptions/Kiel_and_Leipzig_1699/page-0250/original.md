@@ -1,35 +1,39 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 226 -->
+<!-- Page number: 234 -->
 
-### Gegebenes. — Begehrte.
-Kreyß bcdefg — 1. Gleichseitig und gleichschenck-
-licht Sechseck
-2. dem gegebenen Kreyß einge-
-schrieben.
+XVI. Verwendete Verhältniß ist/ wenn man die Vorgehenden gegen den Uberschuß/womit die Vorgehenden die Nachgehenden übertroffen / hält.
 
-[Diagram: drei sich schneidende Kreise; im mittleren Kreis ein einbeschriebenes Sechseck g b c d e f mit Mittelpunkt a, punktierte Striche zu den Ecken]
+6a : 4a | 3a : 2a
 
-### Wirckung.
+6a : 6a — 4a | 3a : 3a — 2a
 
-1. Wird der Durchschlag fc gezogen.
-2. Nach der Weite ca wird aus dem Düttel c ein Kreyß ge-
-zogen/ welcher den gegebenen Kreyß in den Dütteln d und b schneidet.
-3. Aus dem Düttel f wird nach der Weite fa auch ein Kreyß be-
-schrieben/welcher den gegebenen Kreyß in den Dütteln e und g schneidet.
-4. Werden die Striche bc, cd, de, ef, fg und gb gezogen.
+oder 6a : 2a | 3a : a.
 
-### Vorbereitung.
+XVII. Verhältniß aus der Gleichheit (ex æqualitate ratio) ist/ wenn man mehr/als zwo in Verhältniß stehende Grössen hat: und darnach wiederümb eben so viel Grössen / so in gleichmässiger Verhältniß stehen/nimt: so wird in der ersten Ordnung die Erste Grösse sich zu der Letzten eben so/ wie in der andern Ordnung die Erste zu der Letzten verhalten.
 
-Es werden gezogen die Strahlen ab, ad, ae, ag.
+Oder:
 
-II. Arth.
+Wenn man die Mittelsten wegwirfft/und die Ersten und Letzten gegen einander hält.
 
-1. Werde aus dem Düttel c nach der Weite ca ein Kreyß/
-2. aus dieses Kreyses Mitteldüpffel c werde durch den Mittel-
-düpffel a ein gerader Strich cf,
-3. aus den beyden Dütteln b und d werden auch gerade Stri-
-che be, dg durch a, und
-4. die Striche cb, cd, de, ef, fg und gb gezogen.
+9a : 6a : 4a
 
-<!-- Catchword: Be- -->
+18b : 12b : 8b
+
+9a : 4a | 18b : 8b
+
+Oder
+
+16a : 8a : 4a : 2a
+
+24b : 12b : 6b : 3b
+
+16a : 2a | 24b : 3b
+
+XIIX. Ordentliche Ebenmässigkeit ist/ wenn in der ersten Ordnung die Vorgehende zu der Nachgehenden/wie die Vorgehende zu der Nachgehenden in der andern Ordnung sich verhält. Und ferner die Nachgehende in der ersten Ordnung zu etwas Anders/wie die Nachgehende der andern Ordnung zu etwas Anders.
+
+4a : 2a | 2a : (a)
+
+8b : 4b | 4b : (2b.)
+
+<!-- Catchword: XIX. -->

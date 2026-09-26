@@ -1,39 +1,39 @@
 <!-- Running title: Das II. Buch -->
 
-<!-- Page number: 98 -->
+<!-- Page number: 100 -->
+
+db + cb | dc — n. 9. G. I.
+ac | ca
+□ db,ac + □ acb | □ dca — n. 1. II.
+□ dca + □ db,ac + □ acb + □ cb | □ ab + □ db,ac + □ acb
+n. 1. Gr. I.
+□ db,ac + □ acb | □ db,ac + □ acb
+□ dca + □ cb | □ ab n. 3. Gr. I.
+
+### Beschluß.
+
+Wird derowegen allezeit das □ der Helffte/ des in gleiche und ungleiche Theil geschnittenen Strichs/ so groß seyn/ als das □ der beeden ungleichen Stücke/ samt den □ des Mittel-Stückes. W. Z. B.
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrtes.
+### Gegebene. | Begehrte.
 
-1. a | AB — aa | bb + 2bc + cc
-2. b + c | AC + CB
-3. a | b + c
+1. Strich a | AD — dc + ee | bb
+2. b + b | AB + BD
+3. a | b + b
+4. d | AC
+5. e | BC
+6. b + e | c
+7. d + e | b
 
 ### Beweiß.
 
-a | b + c — n. 3. Gegeb.
-b | b
-ab | bb + bc — n. 3. II.
-a | b + c
-c | c
-ac | bc + bb — n. 3. II.
-ab + ac | bb + 2bc + bb — n. 1. Gr. I.
-b + c | a
-a | a
-ab + ac | aa — n. 2. II.
-Dw. aa | bb + 2bc + bb n. 1. Gr. I. W. Z. B.
+d + e | b — n. 7. Geg.
+dd + 2de + ee | bb — n. 4. II.
+b | d + e — n. 7. Gegeb.
+d | d
+bd | dd + de — n. 3. II.
+dd + 2de + ee + bd | bb + dd + de — n. 2. Gr. I.
+dd + de | dd + de
 
-## Der V. Vortrag.
-
-## Das 5. Beweiß-Stück.
-
-Wenn man einen geraden Strich in zween gleiche/ und in zween ungleiche Theile schneidet/ so wird das rechtwincklichte Viereck/ so die beeden ungleichen Theile begreiffen/ samt dem gleichseitigen Vierecke des Mittelstückes/ eben so groß seyn/ als das gleichseitige Viereck des halben Striches.
-
-### Gegebene. | Begehrte.
-
-1. Gerader Strich AD — □ ACD + □ BC | □ AB
-2. In zween gleiche Theil
-in B, als AB | BD
-
-<!-- Catchword: und -->
+<!-- Catchword: de -->

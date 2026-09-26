@@ -1,35 +1,40 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 321 -->
+<!-- Page number: 329 -->
 
-### Verfolg des Beweises.
+### I. Beweiß.
 
-CDH ⋏ bac
-DCH ⋏ abc   n. Vorber.
-Dw. | CHD ⋏ bca | n. 32. I.
-u. | ab : DC | bc : CH | n. 4. VI.
-| ab : DC | bc : CE | n. 3. Geg.
-Dw. | bc : CH | bc : CE | n. 11. V.
-u. | CH | CE | n. 9. V.
-welches aber unmüglich / n. 9. Gr. I.
+| bac ⋏ ∟ | n. 2. Gegeb.
+| adb ⋏ ∟ | n. 10. Beschr. I.
+Dw. | adb ⋏ bac | n. 10. Gr. I.
+| abd ⋏ abc | n. 8 Gr. I.
+α Dw. | bad ⋏ acb | n. 32. I.
+u. | △ abd ähnlich △ abc. | n. 1. Beschr. VI.
 
-II. Ahrt Vorbereitung.
+### II. Beweiß.
 
-Man setze wiederum auf CD den
-Winckel   CDF ⋏ bac
-und   DCF ⋏ abc   n. 23. I.
+| bac ⋏ ∟ | n. 2. Geg.
+| adc ⋏ ∟ | n. 10. Beschr.
+| c ⋏ c |
+β Dw. | abc ⋏ adc | n. 32. I.
+u. | △ abc ähnlich △ adc | n. 1. Beschr. VI.
 
-[Diagram: zwei Dreiecke, links das Dreieck abc, rechts das Dreieck DCE mit punktierten Linien zu dem unterhalb liegenden Punkt F]
+### III. Beweiß.
 
-### Beweiß.
+| adb ⋏ adc | n. 10. Beschr. I.
+| bad ⋏ acb | n. Bew. α.
+| abc ⋏ dac | n. Bew. β.
+Dw. | △ abd ähnlich △ adc | n. 1. Beschr. VI.
 
-CDF ⋏ bac
-DCF ⋏ abc   n. Vorber.
-α Dw. | CFD ⋏ bca | n. 32. I.
-u. | ac : DF | ab : DC | n. 4. VI.
-| ac : DE | ab : DC | n. 4. Geg.
-Dw. | ac : DE | ac : DF | n. 11. V.
-u. | DE | DF | n. 9. V.
+### Beschluß.
 
-<!-- Signature: Ss -->
-<!-- Catchword: CFD -->
+Sind derowegen die beyden durch den Senckstrich gemachte Dreyecke dem gantzen rechtwincklichten Dreyecke nicht allein/ sondern auch unter sich gleichähnlich. W. Z. B.
+
+## Der IX. Vortrag.
+
+## Das 1. Werck-Stück.
+
+Von dem gegebenen geraden Strich/ den bebegehrten Theil abzuschneiden.
+
+<!-- Signature: T t -->
+<!-- Catchword: Gege- -->

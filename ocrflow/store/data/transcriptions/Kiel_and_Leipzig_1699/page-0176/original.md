@@ -1,41 +1,43 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 158 -->
-
-4. Wie auch alle Senckstriche ad, ao, ak, ai.
-5. Aus dem Mittel-Düpffel a.
-6. Auff die im Kreyß stehende Striche bc, en, ef, hg gezogen.
+<!-- Page number: 160 -->
 
 ### I. Beweiß.
 
-ea + af ⊣ ef — n. 20. I.
-ea + af | ml — n. 15. Beschr. I.
-Dw. ml ⊣ ef — n. 1. Gr. c. I.
+ac | ag — n. 5. Beschr. I.
+ab ⊣ ag — n. 9. Gr. I.
+Dw. ab ⊣ ac — n. 1. Gr. c. I.
+
+Und wird also der Düttel b ausser den Kreyß fallen. Gleiche bewandniß hat es mit allen andern Theilen und Dütteln des Striches cb.
+
+Oder :
+
+∧ acb | ∟ — n. 4. Gegeb.
+∧ abc | Spitziger ∧ — n. 17. I.
+Dw. acb ⅄ abc — n. 12.
+und ab ⊣ ac — n. 19. I.
+
+Dahero abermahl der Düttel b, wie auch alle übrige Theile und Düttele des Strichs cb ausser dem Kreyßzug stehen müssen.
 
 ### II. Beweiß.
 
-ean ⅄ eaf — n. 9. Gr. I.
-Dw. en ⊣ ef — n. 24. I.
-ef gleichweit vom Mittel a mit bc — n. 2. Vorb.
-Dw. ef | bc — n. 14. III.
-und en ⊣ bc — n. 1. Gr. c. I.
+ad ist ein Senckstrich n. 3. Vorb.
+Dw. adc ⅄ acd — n. 17. I.
+und ac ⊣ ad — n 19. I.
+
+Dw. fället cd in den Kreyß : keines weges aber zwischen den Kreyß und den Strich cb.
 
 ### III. Beweiß.
 
-bc gleichweit vom Mittel a mit ef — n. 2. Vorb.
-Dw. bc | ef — n. 14. III.
-hag ⋏ [unclear: eaf] — n. 9. Gr. I.
-Dw. hg ⊢ ef — n. 24. I.
-und hg ⊢ bc — n. 1. Gr. d. I.
+Der Strich dc fället in den Kreyß — n. 2. Bew.
+Derowegen ∟ acg ⅄ ∧ acd — n. 9. Gr. I.
+und ∟ acg ⅄ als alle spitzige Winckel.
 
-### Beschluß.
+### IV. Beweiß.
 
-Jst also der Durchschlag ml der längste Strich: die Striche so näher bey dem Mittel a, sind länger/ als die/so weiter davon entfernet ; und die/ so weiter vom Mittel a stehen/ sind kürtzer/ als die/ welche dem Mittel a näher stehen. W. Z. B.
+Kein gerader Strich kan zwischen den Kreyß und den Senckstrich cb fallen — n. 2. Bew.
+Dw. kan kein spitzigerer Winckel gemacht werden/
+als der ∧ gcb
+und ist der ∧ gcb ⋏ als alle spitze ∧
 
-## Der XVI. Vortrag.
-
-## Das 15. Beweiß-Stück.
-
-Derjenige Strich/ welchen man auff das Ende eines Durchschlages rechtwincklicht setzet, wird
-
-<!-- Catchword: nicht -->
+<!-- Catchword: Be- -->

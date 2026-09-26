@@ -1,32 +1,34 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 99 -->
+<!-- Page number: 101 -->
 
-3. und in ungleiche Theile getheilet
-in C, als AC + CD
+de + ee + bd | bb — n. 3. Gr. I.
+e | b + e
+d | d
+dc | bd + de — n. 2. II.
+dc + de + ee + bd | bb + bd + de — n. 2. Gr. I.
+de + bd | bd + de
+dc + ee | bb — n. 3. Gr. I. W. Z. B.
+
+## Der VI. Vortrag.
+
+## Das 6. Werckstück.
+
+Wenn ein gerader Strich in zween gleiche Theile getheilet/ und gerade aus ein Strich angesetzet wird; So wird das rechtwincklichte Viereck/ welches von dem zusammen-gesetzten Strich/ und von dem angesetzten Stücke gemacht wird/ samt dem gleichseitigen Viereck des halbē Strichs/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem halben und angesetzten Stück gemacht wird.
+
+### Gegebene. | Begehrte.
+
+1. Gerader Strich cd — □ dac + □ bc | □ ab.
+2. getheilet in b
+3. bd | cb
+4. angesetztes Stück ac
 
 ### Vorbereitung.
 
-1. Mache man das rechtwincklichte Viereck ACD (oder gcd)
-2. Werde auff dem Strich AB ein gleichseitiges □, wie auch
-3. Auff das Mittel-Stück CB cb ein gleichseitiges □ gesetzet n. 46. I.
-4. Der Strich cg werde biß zu e,
-5. Und der Strich fg biß zu h fortgezogen.
+1. Werde das □ dac gemacht.
+2. - - - - □ ab - -
+3. - - - - □ bc - -
+4. - - Der Strich ee verlängert biß f.
 
-[Diagram: Waagerechter Strich D B C A (unten d b c a); darüber ein Quadrat über C A mit den Punkten e, g, h und gestrichelten Linien; links der Strich f g; unter b c ein kleineres Rechteck.]
-
-### Beweiß.
-
-□ ac + 2 □ acb + □ cb | □ ab — n. 4. II.
-□ ac + □ acb | □ bac — n. 3. II.
-db | ba — n. 2. Geg.
-ac | ac
-Dw. □ db,ac | □ bac — n. 1. Gr. II.
-und □ db,ac | □ ac + □ acb — n. 1. Gr. I.
-□ db,ac + □ ac + □ acb + □ cb | □ ab + □ ac + □ acb
-n. 2. Gr. I.
-□ ac + □ acb | □ ac + □ acb
-□ db,ac + □ acb + □ cb | □ ab n. 3. Gr. I
-
-<!-- Signature: N 2 -->
-<!-- Catchword: db -->
+<!-- Signature: N 3 -->
+<!-- Catchword: Be- -->

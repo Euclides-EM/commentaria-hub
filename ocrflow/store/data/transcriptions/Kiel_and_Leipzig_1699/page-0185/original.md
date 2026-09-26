@@ -1,37 +1,34 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 167 -->
+<!-- Page number: 169 -->
 
-## Der XXI. Vortrag.
-
-## Das 19. Beweiß-Stück.
-
-Alle in einem Kreyßstück stehende Winckel sind gleich groß.
-
-### Gegebene. Begehrtes.
-
-1. Kreyßstück dbce — dbe ∠ dce
-2. Zweene in solchem Kreyßstück stehende Winckel dbe und dce.
-
-I. Arth.
+[Diagram: Kreis mit einbeschriebenem Viereck a b c d, darin die Zwerg-Striche ac und bd; die Winckel mit A, B, Γ, Δ und α, β, γ, δ bezeichnet]
 
 ### Vorbereitung.
-
-Es werde gezogen der Strahl ea
-
-[Diagram: Kreyßstück über der Sehne de mit den Punkten b oben und c rechts, Mitteldüpffel a; Striche bd, be, cd, ce und punktierter Strahl ae]
-
+Es werden gezogen die beeden Zwerg-Striche ac und bd.
 ### Beweiß.
 
-[unclear: dbe] ∠ ½ dae
-dce ∠ ½ dae — n. 20. I.
-Dw. dce ∠ [unclear: dbe] — n. 7. Gr. I.
+cab ⋀ cdb
+acb ⋀ adb } n. 21. III.
+Dw. cab + acb ⋀ cdb + adb   n. 2. Gr. I.
+oder cda ⋀ cab + acb   n. 9. Gr. q. l.
+abc + cab + acb ⋀ ⌓   n. 32. I.
+cda + abc + cab + acb ⋀ ⌓ + cab + acb   n. 2. Gr. I.
+cda + abc ⋀ ⌓   n. 3. Gr. l.
 
-II. Arth.
+### Andere Arth.
 
-### Vorbereitung.
+A ⋀ α
+B ⋀ β
+Γ ⋀ γ
+Δ ⋀ δ   n. 21. III.
 
-1. Werden auß den Winckeln b und c durch den Mittel-Düpffel a gezogen zween gerade Striche bg und cf.
-2. Werden auch die Strahlen da und ea gezogen.
+A + B ⋀ A + B
+γ + δ ⋀ Γ + Δ
+A + B + γ + δ ⋀ A + B + Γ + Δ   n. 2. Gr. I.
+A + B + Γ + Δ ⋀ ⊕   n. 32. I.
+Dw. A + B + γ + δ ⋀ ⊕   n. 1. Gr. I.
+oder [unclear: adc] + abc ⋀ ⊕   n. 9. Gr. q. l.
 
-<!-- Catchword: I. Be- -->
+<!-- Signature: P -->
+<!-- Catchword: An -->

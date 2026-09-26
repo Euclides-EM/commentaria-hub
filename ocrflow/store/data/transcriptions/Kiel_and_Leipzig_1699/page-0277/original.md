@@ -1,48 +1,35 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 253 -->
+<!-- Page number: 261 -->
 
-### Gegebene. — Begehrtes.
+A ____________
+4a ____________
+B ____________
+4b ____________
 
-[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
+[Diagram: Strecken A, 4a, B, 4b]
 
-A | B — a : A | a : B
-a | 4A
-a | 4B
+A | 3a — n. Gegeb.
+4a ⊣ 3a — n. 9. Gr. I.
+ε Dw. A ⊢ 4a — n. 1. Gr. d. I.
+B | 3b — n. Geg.
+4b ⊣ 3b — n. 9. Gr. I.
+ζ Dw. B ⊢ 4b — n. 1. Gr. d. I.
 
-### II. Beweiß.
+Weil nun I. die Vervielfältigungen der Grössen A u. B. grösser/ als die Vervielfältigungen der Grössen a u. b. n. I. Bew. α. und β. II. die Vervielfältigten A und B gleichgroß denen Vervielfältigten a und b, n. Bw. γ u. δ III. Die Vervielfältigungen A u. B kleiner/ als die Vervielfältigung a u. b, n. III. Bew. ε u. ζ.
 
-a | a
-A | B
-4A | 4B — n. Geg.
-Dw. a : 4A | a : 4B
-Und a : A | a : B — n. 7. Besch. V.
+Dw. müssen auch A : a | B : b — n. 6. Besch. V.
 
 ### Beschluß.
 
-Sind derowegen gleiche Grössen gegen eine Grösse allezeit gleichvielfältig: Und eine einige Grösse ist gegen zwo (oder mehr) gleiche Grössen auch gleichvielfältig. W. Z. B.
+Wenn derowegen etliche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind/ so sind solche Verhältnüsse auch unter sich selbst gleichhaltig. W. Z. B.
 
-## Anhang.
+## Der XII. Vortrag.
 
-Ebener Gestalt sind gleichgrosse Grössen gegen gleichgrosse Grössen gleichvielfältig.
+## Das 12. Beweiß-Stück.
 
-### Gegebene. — Begehrte.
+Wenn man etliche ebenmässige (und zwar so viel man deren wil) Grössen hat/ so werden/ wie sich eine Vorgehende zu ihrer Nachgehenden hält/ auch alle Vorgehende zusammen genommen zu allen Nachgehenden zusammen verhalten.
 
-A B — A : B | a : b
-a / b
+<!-- Signature: Kk 3 -->
 
-### Beweiß.
-
-A | B
-a | b — n. Gegeb.
-A : a | B : b — n. 7. Besch. V. W. Z. B.
-
-## Der VIII. Vortrag.
-
-## Das 8. Beweiß-Stück.
-
-Von ungleichen Grössen ist die Grössere gegen eine einige
-
-<!-- Signature: Ji 3 -->
-
-<!-- Catchword: Grösse -->
+<!-- Catchword: Gegebene. -->

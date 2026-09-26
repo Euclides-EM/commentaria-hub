@@ -1,36 +1,36 @@
-<!-- Page number: 310 -->
+<!-- Page number: 318 -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Das V. Buch -->
+
+### Vorbereitung.
+
+1. Der Grundstrich bc werde nach Nothdurfft gegen g verlängert.
+2. Von cg werde abgeschnitten das Stück ce | CE — n. 3. I.
+3. Es werde gemacht △ ced | △ CED — n. 22. I.
+4. Der Strich ba werde biß f, und
+5. Der Strich ed auch biß f verlängert.
 
 ### Beweiß.
 
-ab | ef — n. 2. Geg.
-Dw. △ A : △ efg | cb : eg — n. 1. VI.
-u. △ A : cb | △ efg : eg — n. 16. V.
-cb | eg — n. 2. Vorb.
-Dw. △ A | △ efg — n. 14. V.
-△ B — △ B
-Dw. △ A : △ B | △ efg : △ B — n. 7. V.
-△ A : △ B | bc : de — n. 1. VI.
-bc : de | ge : de — n. 7. V.
-Dw. bc : de | △ A : △ B — n. 11. V.
+DEC ⋏ dec — n. 3. Vorb.
+Dw. DEC ⋏ dec — n. 8. I.
+DEC ⋏ acb — n. 3. Gegeb.
+Dw. dec ⋏ acb — n. 1. Gr. I.
+u. de ⧣ ac — n. 28. I.
+dce ⋏ abc — n. 8. I.
+Dw. bf ⧣ dc — n. 28. I.
+u. facd ein nebenstrichichtes Viereck — n. 35. Beschr. I.
 
-Auf gleiche weise kan auch bewiesen werden/ daß
+∝ ba : af | bc : ce — n. 2. VI.
+β af | cd — n. 34. I.
+ba : | ba
+Dw. ba : af | ba : cd — n. 7. V.
+ba : cd | bc : ce — n. 11. V.
+ce | CE — n. 2. Vorb.
+bc | bc
+Dw. bc : ce | bc : CE — n. 7. V.
+u. ba : cd | bc : CE — n. 11. V.
+cd | CD — n. 3. Vorb.
+ba | ba
 
-□ abc : □ def | bc : de.
-
-### Beschluß.
-
-Werden derowegen allezeit die Dreyecke und nebenstrichichte Vierecke/ welche auf gleichmässigen Grundstrichen stehen/ sich also/ wie ihre Höhen/ gegen einander verhalten. W. Z. B.
-
-## Des I. Vortrags III. Zugabe.
-
-Diejenigen Dreyecke und nebenstrichichte Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ stehen auf gleichmässigen/ oder auf einem einigen Grundstriche.
-
-### Gegebene.
-
-1. Zwey Dreyecke A und B
-2. Derselben Höhen bc und ed
-3. bc : ed | △ A : △ B.
-
-<!-- Catchword: Begehrtes. -->
+<!-- Catchword: Dw. -->

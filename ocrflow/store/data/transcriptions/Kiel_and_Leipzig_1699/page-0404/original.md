@@ -1,23 +1,37 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 374 -->
+<!-- Page number: 388 -->
 
-### Begehrtes.
+### I. Begehrte.
 
-1. Der gerade Strich AB.
-2. Geradstrichichte Gestalt X.
-3. ander nebenstrichichtes Viereck D.
-4. Gestalt X nicht grösser/ als das an den halben Strich angeschlagene Viereck Eg.
-5. Welches dem mangelenden Viereck rs ähnlich ist.
+∧ bac : ∧ feg | ⌒ bc : ⌒ fg.
+∧ bdc : fhg | ⌒ bc : ⌒ fg.
+△ bdc : △ fhg | ⌒ bc : ⌒ fg.
 
-### Begehrte.
+[Diagram: zwei punktierte Kreise mit einbeschriebenen Linien und Dreiecken; links die Punkte a, m, d, i, c, b; rechts die Punkte e, l, h, k, f, g]
 
-1. Mangelhafftes □ Ap
-2. □ Ap | △ X.
-3. □ Ap an den Strich AB angeschlagen.
-4. Das mangelende □ pB.
-5. □ pB ähnlich □ D.
+### Vorbereitung.
 
-[Diagram: oben eine Gestalt X mit Dreieck und Punkt H, daneben ein Viereck D und ein Viereck mit den Punkten A, S, B, g; darunter nochmals die Gestalt X mit den Punkten k, l, q, m, h, daneben Viereck D mit punctirter Diagonale; unten ein Viereck mit den Punkten c, o, g, u, r, q, n, p, A, c, E, s, B, m nebst punctirtem Halbkreis]
+1. Es werden die beyden geraden Striche bc und fg gezogen.
 
-<!-- Catchword: Wir- -->
+2. Werden dem Kreyß abm die beyden geraden Striche ci und im eingefüget. n. 1. IV.
+
+3. Welche dem Strich bc gleichmässig.
+
+bc | ci
+bc | im
+
+4. Es werden auch dem Kreyß efm eingefüget die Striche gk und kl. n. 1. IV.
+
+5.
+
+gk | fg
+kl | fg
+
+6. Aus dem Mittel-Düpffel d werden die geraden Striche di und dm, und
+
+7. Aus dem Mittel-Düpffel h werden auch zween Striche hk und hl.
+
+8. Desgleichen die geraden Striche bi und fl gezogen.
+
+<!-- Catchword: I. Beweiß. -->

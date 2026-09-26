@@ -1,33 +1,44 @@
+<!-- Page number: 339 -->
+
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 331 -->
+### Beweiß.
 
-Dw. | ab : db | 6. : 1. | n. Anh. 7. V.
-u. | db | 1/6 ab | n. Anh. 7. V.
+|  |  |  |
+|---|---|---|
+|  | bc ⊤ de | n. 7. Wirck. |
+| Dw. | ab : bd ⊤ ac : ce | n 2. VI. |
+| und | ab : ac ⊤ bd : ce | n. 16. V. |
+| oder | AB : AC ⊤ BD : ce | n. Anh. 7. V. |
+
+Dw. der Strich ce der vierte ebenmässige Strich.
 
 ### Beschluß.
 
-Ist also von dem Strich ab desselben Sechster Theil db abgeschnitten. W. Z. M.
+Ist also zu den drey gegebenen Strichen AB, AC, AD der vierte ebenmässige Strich ce gefunden. W. Z. M.
 
-## Der X. Vortrag.
+## Der XIII. Vortrag.
 
-## Das 2. Werck-Stück.
+## Das 5. Werck-Stück.
 
-Einen gegebenen geraden ungetheilten Strich eben so/ wie der gegebene getheilte Strich ist/ abzutheilen.
+Zu zweyen gegebenen geraden Strichen einen mitlern ebenmässigen (mediam proportionalem) Strich zu finden.
 
 ### Gegebene.
 
-1. Ungetheilter gerader Strich ag.
-2. Getheilter Strich AD in B und C.
+1. Der Strich AD
+2. CD
 
-### Begehrtes.
+### Begehrte.
 
-1. Der Strich ag also
-2. wie AD getheilet/ daß
-| AB : BC | ae : df
-u. | BC : CD | ef : fg.
+1. Der Strich db
+2. AD : db ⊤ db : CD.
 
-[Diagram: zwei Dreiecksfiguren über der Grundlinie A B C D M L C B A; links Dreieck mit den Punkten a, b, c, d, k und punktierten Linien über e, f, g mit i, h; rechts Dreieck mit den Punkten a, b, c, l, m, d und den Zwischenpunkten g, r, f, e, s sowie h, n, i, o, p, q, t, u, x]
+[Diagram: Striche A—D und C—D; darunter ein Halbkreis über der Grundlinie a d g e mit Scheitelpunkt b und Strichen von a und e nach b]
 
-<!-- Signature: Tt 2 -->
-<!-- Catchword: I. Ahrt -->
+### Wirckung.
+
+1. Werde gezogen der Strich ae.
+
+<!-- Signature: Uu 2 -->
+
+<!-- Catchword: 2. auf -->

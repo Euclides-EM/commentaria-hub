@@ -1,39 +1,38 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 189 -->
+<!-- Page number: 191 -->
 
-### Vorbereitung.
+## Der XXXV. Vortrag.
 
-Der Winckel bha werde in das gemachte Kreyß-Stück gesetzet.
+## Das 29. Beweiß-Stück.
+
+Wenn in einem Kreyß zween gerade Striche sich Kreutzweiß durchschneiden: So ist das rechtwincklichte Viereck / welches die beeden Stücke des einen Striches begreiffen / eben so groß/ als das Viereck / welches von den beeden Stücken des andern Striches begriffen wird.
+
+### Gegebene. | Begehrte.
+
+1. Kreyß adcb. | deb ⊞ aec
+2. Zween gerade Striche ac, bd. | oder olm ⊞ klp.
+3. Welche in dem Kreyß stehen /
+4. Und einander durchschneiden in e oder l.
+
+### I. Begebenheit.
+
+Gegebenes: Die Striche ac und bd schneiden einander im Mittel-Düpffel e.
+
+[Diagram: Kreis mit den Punkten a, b, d, c und sich im Mittelpunkt e kreutzenden Strichen ac und bd]
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | Kreyßstück bha | Halbkreyß | n. 28. Beschr. I. |
-| Dw. | ahb ⋀ ∟ |  | n. 31. III. |
-|  | ecd ⋀ ∟ |  | n. Gegeb. |
-| Dw. | ecd ⋀ ahb |  | n. 1 und 10. Gr. I. |
+|  | de | ae |  |
+|  | eb | ec | n. 15. Beschr. I. |
+| Dw. | deb ⊞ aec |  | n. 1. Gr. II. |
 
-Gleiche bewandniß hat es mit allen Winckeln/ so in das verfertigte Kreyßstück könne gesetzet werden.
+### II. Begebenheit.
 
-### Beschluß.
+### Gegebenes:
 
-Ist also das Kreyß-Stück bha oder lha verfertiget / in welchem ein Winckel ahb ⋀ ecd stehen kan. W. Z. M.
+Nur ein durch den Mittel-Düpffel e gehender Strich db,
 
-## Der XXXIV. Vortrag.
-
-## Das 6. Werckstück.
-
-Von einem gegebenen Kreyß ein Stück / in welchem ein Winckel / so dem gegebenen Winckel gleich groß ist/ stehen könne / abzuschneiden.
-
-### Gegebene. | Begehrtes.
-
-1. Kreyß dead. | 1. Abgeschnittenes Kreyßstück dea.
-2. Winckel hfg. | 2. In welchem stehen kan aed ⋀ hfg.
-
-[Diagram: Kreis mit Punkten e, d, n, m, a, b; Tangente g–c–f–a–b unten, Striche h und k links]
-
-<!-- Signature: Aa 3 -->
-
-<!-- Catchword: Wir- -->
+<!-- Catchword: 2. Wel- -->

@@ -1,42 +1,33 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 277 -->
+<!-- Page number: 285 -->
 
-|  |  |  |
-|---|---|---|
-| a : b | B : C | n. Gegeb. |
-| Dw. b : a | C : B | n. 16. V. |
-| u. b : a | ⊦ b : c | n. 13. V. |
-| b | b | |
-| Dw. a | ⊦ c | n. 10. V. |
+### Anmerckung.
 
-### II. Gegebene.
+Dieses ist der letzte Vortrag des V. Buchs Euclidis, die Nachfolgenden sind aus dem Pappo Alexandrino entlehnet/ weil sie öffters von den besten Mathematicis, um etwas darmit zu beweisen / angezogen werden.
 
-[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
+## Der XXVI. Vortrag.
 
-A : B | b : c
-B : C | a : b
-A | C
+## Das 26. Beweiß-Stück.
+
+Wenn man vier Grössen hat / deren Erste zu der Andern eine grössere Verhältnüß hat/als die Dritte zu der Vierten: So wird auf umgekehrte Weise die Andere zu der Ersten eine kleinere Verhältnüß/ als die Vierte zu der Dritten/ haben.
+
+### Gegebene.
+
+[Diagram: fünf Linien A, a, B, b, c von verschiedener Länge am linken Rand]
+
+A : a ⊣ B : b
 
 ### Begehrtes.
 
-a | c
+a : A ⊦ b : B
 
-### Beweiß.
+### Vorbereitung.
 
-|  |  |  |
-|---|---|---|
-| b : a | A : B | ⌉ n. Gegeb. |
-| A | C | |
-| B | B | |
-| Dw. A : B | C : B | n. 7. V. |
-| und b : c | C : B | n. 11. V. |
-| a : b | B : C | n. Gegeb. |
-| b : a | C : B | n. 16. V. |
-| Dw. b : a | b : c | n. 11. V. |
-| b | b | |
-| u. a | c | n. 9. V. |
+Man nehme darzu eine Grösse c, zu welcher sich B also verhalte/wie A zu a.
 
-<!-- Signature: Mm 3 -->
+B : c | A : a.
 
-<!-- Catchword: III. Gege- -->
+<!-- Signature: Nn 3 -->
+
+<!-- Catchword: Beweiß. -->

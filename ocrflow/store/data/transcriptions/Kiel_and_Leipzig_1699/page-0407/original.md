@@ -1,28 +1,52 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 377 -->
+<!-- Page number: 391 -->
 
-## Der XXIX. Vortrag.
+|  |  |  |  |
+|---|---|---|---|
+| Dw. | fha | ⋀ ghk | n. 27. III. |
+| α und | fg | gk |  |
+| β Dw. | △ fhg | △ ghk | n. 4. I. |
+|  | ⌒ fg | ⌒ gk | n 1. Vorb. |
+| Dw. | fhg ⋀ | ghk | n. 27. III. |
+| und | ⌒ fg ähnlich | ⌒ gk | n. 11. Besch. III. |
+|  | fg | gk | n. Bew. α |
+| Dw. | ⌓ fng | ⌓ gok | n. 24. III. |
+| und | △ fhg + ⌓ fng | △ ghk + ⌓ gok | n. 2 Gr. I. |
+| Dw. | ⌓ fhgn | ⌓ ghko | n. 9. Gr. I. q. |
 
-## Das 9. Werckstück.
+Gleicher Gestalt sind auch
 
-An einen gegebenen geraden Strich ein nebenstrichichtes übertreffendes/ und der gegebenen Gestalt gleichmässiges Viereck anzuschlagen / dessen Uberschuß einem gegebenen nebenstrichichten Viereck ähnlich sey.
+⌓ hkl | ⌓ ghk
+und ⌓ bdc | ⌓ cdi | ⌓ idm
 
-### Gegebene.
+Wie vielfältig nun der Bogen fl des Bogens fg, so vielfältig ist der Kreißschnitt / fhl des Kreißschnitts fhg.
 
-1. Gerader Strich AB
-2. Geradstrichichte Gestalt K
-3. Nebenstrichichtes Viereck L.
+⌒ fl : ⌒ fg | ⌓ fhl : ⌓ fhg.
 
-### Begehrte.
+Gleicher Gestalt / wie vielfältig der Bogen bm des Bogens bc, so vielfältig ist auch der Kreißschnitt bdm des Kreißschnitts bdc.
 
-1. Nebenstrichichtes □ Am.
-2. □ Am | △ K.
-3. □ Am an den geraden Strich AB angeschlagen/
-4. Und denselben übertreffend
-5. mit dem □ Bm,
-6. □ Bm ähnlich □ L,
-7. Auf gleiche Weise gesetze.
+⌒ bm : ⌒ bc | ⌓ bdm : ⌓ bdc
 
-<!-- Signature: Bbb -->
-<!-- Catchword: Wirckung. -->
+|  |  |
+|---|---|
+| Ist nun | ⌒ fl ⊣ ⌒ bm |
+| so ist auch | ⌓ fhl ⊣ ⌓ bdm |
+
+oder:
+
+|  |  |
+|---|---|
+| Ist | ⌒ fl \| ⌒ bm |
+| so ist auch | ⌓ fhl \| ⌓ bdm |
+
+oder:
+
+|  |  |  |
+|---|---|---|
+| Ist | ⌒ fl ⊢ ⌒ bm |  |
+| so ist auch | ⌓ fhl ⊢ ⌓ bdm |  |
+| Dw. | ⌒ fg : ⌒ bc \| ⌓ fhg : ⌓ bdc | n. 6. Besch. V. |
+| und | ∧ fhg : ∧ bdc \| ⌓ fhg : ⌓ bdc | n. 11. V. |
+
+<!-- Catchword: Beschluß -->

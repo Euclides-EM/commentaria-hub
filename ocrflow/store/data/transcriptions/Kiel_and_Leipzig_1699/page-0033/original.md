@@ -1,29 +1,31 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 15 -->
+<!-- Page number: 17 -->
 
-fertigung aber wird aus den Anfängen bewiesen / daß der Auffgabe ein Genügen geschehen. Die beweißlichen Vorstellungen/oder Beweiß-Stücke (Theoremata) geben etwas auff/welches lediglich zu beweisen ist.
+### Beschluß.
 
-Die Neben-Sätze sind gleichfalls zweyerley / nemblich Vorsätze/ und Nachsätze oder Anhänge.
+Also ist die Gestalt ABC ein gleichseitig Dreyeck/ nach 23. Beschreib. und auff den gegebenen Strich AB gesetzet. W. Z. M. q. e. f.
 
-Die Vorsätze (Lemmata) sind Vorbereitungen / durch welche man den Beweiß befördert.
+## Der II. Vortrag.
+## Das 2. Werck-Stück.
 
-Die Nachsätze oder Anhänge (Corollaria, consectaria, Zugaben) fliessen auß ihren vorhergehenden Haupt-Sätzen / welche sie noch weiter außführen.
+Einem gegebenen Strich/ aus einem gegebenen Düttel/ einen gleichlang-geraden Strich zuziehen.
 
-Bey jedwedem Vortrage kommen zum öfftern sieben Theile vor/als:
+### Gegebene. | Begehrte.
+1. Gerader Strich ab, | 1. Der Strich cf,
+2. Düttel c. | 2. Gezogen aus dem Düttel c,
+| 3. Und gleichlang dem Strich ab.
 
-(1.) Der Haupt-Satz (Propositio) an sich selbst/in welchem nicht allein etwas begehret / sondern auch etwas gegeben wird.
+### Wirckung.
 
-(2) Die Erklärung des Gegebenen. (Explicatio Dati vel datorum )
+1. Aus einem der beeden End-Düttele des Striches ab zeucht man nach belieben einen geraden Strich zum Düttel c.
+2. Auff diesen Strich ac setzet man ein gleichseitiges Dreyeck acd, nach dem I. Vortrag.
+3. Der Strich da wird nach Nothdurfft (in infinitum) verlängert/ nach der II Foderung.
+4. Aus dem Düttel a wird nach der länge ab ein Kreyß be beschrieben / nach der III. Foderung / welcher den verlängten Strich in dem Düttel e durchschneidet.
+5. Aus dem Düttel d wird nach der länge de ein Kreyß ef beschrieben/ nach der III Foderung.
+6. Der Strich dc wird biß an den jetzt gezogenen Umbkreiß verlängt/nemblich zu dem Düttel f, nach der II Foderung.
 
-(3) Die Erklärung des Begehrten. (Explicatio Quæsiti vel quæsitorum.)
+[Diagram: zwei punktierte Kreise, ein grosser und ein kleiner; darin die Punkte d, c, f oben, a, b in der Mitte und e unten, mit geraden Strichen verbunden]
 
-(4) Die Bewerckstellung deß Auffrisses (Delineatio) oder Wirckung.
-
-(5) Bißweilen eine Vorbereitung. (Præparatio.)
-
-(6) Der Beweiß (Demonstratio,) und endlich
-
-(7) Der Beschluß (Conclusio,) welcher in kurtzer Widerholung des Haupt-Satzes bestehet/ mit diesem Anhange: W. Z. M. das ist / welches zu machen war. ( q. e. f. in Problematibus) oder W. Z. B. das ist/ welches zu beweisen war. (q. e. d. in Theorematibus.)
-
-<!-- Catchword: Der -->
+<!-- Signature: C -->
+<!-- Catchword: Be- -->

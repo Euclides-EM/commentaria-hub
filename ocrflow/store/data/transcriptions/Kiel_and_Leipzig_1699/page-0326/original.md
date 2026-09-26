@@ -1,30 +1,36 @@
-<!-- Running title: Das V. Buch -->
+<!-- Page number: 310 -->
 
-<!-- Page number: 302 -->
+<!-- Running title: Das VI. Buch -->
 
-### Oder:
+### Beweiß.
 
-|  |  |  |
-|---|---|---|
-| b + a | ⊣ c + a | n. Geg. |
-| a \| | a |  |
-| b + a : a | ⊣ c + a : a | n. 8. V. |
-| b + a : c + a | ⊣ a a | n. 27. V. |
-| b : c | ⊣ b + a : c + a | n. 33. V. |
+ab | ef — n. 2. Geg.
+Dw. △ A : △ efg | cb : eg — n. 1. VI.
+u. △ A : cb | △ efg : eg — n. 16. V.
+cb | eg — n. 2. Vorb.
+Dw. △ A | △ efg — n. 14. V.
+△ B — △ B
+Dw. △ A : △ B | △ efg : △ B — n. 7. V.
+△ A : △ B | bc : de — n. 1. VI.
+bc : de | ge : de — n. 7. V.
+Dw. bc : de | △ A : △ B — n. 11. V.
+
+Auf gleiche weise kan auch bewiesen werden/ daß
+
+□ abc : □ def | bc : de.
 
 ### Beschluß.
-Wenn man derowegen zu zwo ungleichen Grössen zwey gleiche Stücke thut / so werden die zusammengesetzte Grössen eine kleinere Verhältnüß zu einander haben / als die Ersten beyden Grössen. Schneidet man aber zwey gleiche Stücke von denselben ab / so werden die Ubergebliebene eine grössere Verhältnüß haben / als die Ersten beyden ungleichen Grössen. W. Z. B.
 
----
+Werden derowegen allezeit die Dreyecke und nebenstrichichte Vierecke/ welche auf gleichmässigen Grundstrichen stehen/ sich also/ wie ihre Höhen/ gegen einander verhalten. W. Z. B.
 
-# Das VI. Buch Euclidis.
+## Des I. Vortrags III. Zugabe.
 
-## Beschreibungen.
+Diejenigen Dreyecke und nebenstrichichte Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ stehen auf gleichmässigen/ oder auf einem einigen Grundstriche.
 
-I. Gleichähnliche geradstrichichte ( Similes rectilineæ ) Gestalte sind / welche gleichmässige Winckel und ebenmässige Seiten haben.
+### Gegebene.
 
-II. Wechselmässige (Reciprocæ) Gestalte sind / in welchen beyderseits vor- und nachgehende ebenmässige Striche sich befinden.
+1. Zwey Dreyecke A und B
+2. Derselben Höhen bc und ed
+3. bc : ed | △ A : △ B.
 
-III. Ein nach der äusersten und mittelsten Verhältnüß (secundùm mediam & extremam rationem) getheilter Strich wird genennet / welcher sich zu seinem grösseren Stück also / wie solch grössestes Stück zu dem kleinern / verhält.
-
-<!-- Catchword: IV. Die -->
+<!-- Catchword: Begehrtes. -->

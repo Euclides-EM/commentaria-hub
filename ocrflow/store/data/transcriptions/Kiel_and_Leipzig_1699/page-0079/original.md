@@ -1,40 +1,38 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 61 -->
+<!-- Page number: 63 -->
 
-### Beweiß.
+## Der XXXIII. Vortrag.
 
-ACD ⋏ DCH  n. 4. Wirckung.
-Dw.   AB ╪ CH     n. 27. Vortr.
+## Das 24. Beweiß Stück.
 
-### Beschluß.
+Zween gerade Striche/ welche zween gleichlange Neben-Striche an beeden Enden/auff gleiche Weise/zusammen hengen / sind gleich-lange Neben-Striche.
 
-Ist also dem Strich AB, ein Neben-Strich CH, durch den Düttel C, gezogen W. Z. B.
+### Gegebene.                              Begehrte.
+1. Zween gerade Striche AC und BD.     1. AC | BD
+2. AB | CD                             2. AC ╪ BD
+3. AB ╪ CD.
+4. Zusammen hengung
+5. Auff gleiche Weise / das ist / nicht Creutzweiß/sondern auff gleich-ähnliche Weise.
 
-## Der XXXII. Vortrag.
-
-## Das 23. Beweiß-Stück.
-
-Jedwedes Dreyeckes / dessen eine Seite verlängert ist/auswendiger Winckel/ist eben so groß/ als die beeden inwendig gegen überstehende Winckel ; Und jedwedes Dreyeckes drey inwendige Winckel sind zweyen rechten Winckeln gleich.
-
-### Gegebene.                    Begehrte.
-1. △ ABC.                    BAC + ACB ⋏ DBC.
-2. AB verlänget gegen D.     ABC + BAC + ACB ⋏ ⏥
+[Diagram: Viereck ABDC mit punktierter Diagonale von C nach B]
 
 ### Vorbereitung.
 
-1. Gegen die Seite AC werde ein Neben-Strich/ und zwar
-2. Aus dem Düttel B gezogen / nemlich BE n. 31. Vortr.
-
-[Diagram: Dreieck ABC, die Seite AB gegen D verlängert, aus B der Strich BE gezogen; punktierter Bogen von C nach E]
+Man ziehe den zwerg-Strich BC.
 
 ### Beweiß.
 
-        AC ╪ BE               n. 1. Vorbereit.
-Dw.   ACB ⋏ CBE  }            n. 29. Vortr.
-und   CAB ⋏ EBD  }
-ACB + CAB ⋏ CBE + EBD         n. 2. Gr-S.
+AB           ╪    CD          n. 3. Gegeb.
+Dw.    ABC ⋏ BCD              n. 29. Vortr.
+       BC   |     BC
+AB + BC  |  CD + BC  nach 2. Gr-S.
+Drw.   AC    |    BD   }  nach 4. Vortr.
+und    ACB   ⋏    DBC  }
+Drw.   AC    ╪    BD          nach 27. Vortr.
 
-<!-- Signature: H 3 -->
+### Beschluß.
 
-<!-- Catchword: Dw. -->
+Werden also diejenigen geraden Striche/ welche Nebenstriche rechtmäßig zusammen hängen/auch gleich-grosse Nebenstriche seyn. W. Z. B.
+
+<!-- Catchword: Der -->

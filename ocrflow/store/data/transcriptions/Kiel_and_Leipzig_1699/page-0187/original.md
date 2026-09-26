@@ -1,34 +1,32 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 169 -->
+<!-- Page number: 171 -->
 
-[Diagram: Kreis mit einbeschriebenem Viereck a b c d, darin die Zwerg-Striche ac und bd; die Winckel mit A, B, Γ, Δ und α, β, γ, δ bezeichnet]
-
-### Vorbereitung.
-Es werden gezogen die beeden Zwerg-Striche ac und bd.
+4. Werde auch bd gezogen.
 ### Beweiß.
+⌓ adb gleichgestalt mit ⌓ acb   n. 1. Vorber.
+Derowegen adb ⋀ acb   n. 10. Besch. III.
+Welches unmüglich   n. 16. I.
+### Beschluß.
+Können also keine zwey gleichgestalte/ und doch von ungleicher Grösse/ Kreyßstücke auff einen einigen geraden Strich auff gleiche Weise gesetzet werden. W. Z. B.
 
-cab ⋀ cdb
-acb ⋀ adb } n. 21. III.
-Dw. cab + acb ⋀ cdb + adb   n. 2. Gr. I.
-oder cda ⋀ cab + acb   n. 9. Gr. q. l.
-abc + cab + acb ⋀ ⌓   n. 32. I.
-cda + abc + cab + acb ⋀ ⌓ + cab + acb   n. 2. Gr. I.
-cda + abc ⋀ ⌓   n. 3. Gr. l.
+## Der XXIV. Vortrag.
 
-### Andere Arth.
+## Das 22. Beweiß-Stück.
+Auff gleichlangen geraden Strichen stehende gleichgestalte Kreyß-Stücke/ sind gleichgroß.
 
-A ⋀ α
-B ⋀ β
-Γ ⋀ γ
-Δ ⋀ δ   n. 21. III.
+### Gegebene.
+1. Zween gerade Striche ab | cd
+2. Gleichgestalte ⌓ aeb und ⌓ cfd
+3. Auff solchen Strichen stehend.
 
-A + B ⋀ A + B
-γ + δ ⋀ Γ + Δ
-A + B + γ + δ ⋀ A + B + Γ + Δ   n. 2. Gr. I.
-A + B + Γ + Δ ⋀ ⊕   n. 32. I.
-Dw. A + B + γ + δ ⋀ ⊕   n. 1. Gr. I.
-oder [unclear: adc] + abc ⋀ ⊕   n. 9. Gr. q. l.
+### Begehrtes.
+aeb [unclear: ⋀] cfd
 
-<!-- Signature: P -->
-<!-- Catchword: An -->
+[Diagram: Zwey Kreyß-Stücke, das eine über dem Strich ab mit dem Punckt e, das andere über dem Strich cd mit dem Punckt f]
+
+### Beweiß.
+Man lege den Strich cd auff den Strich ab, so werden sie sich zusammen schicken n. 8 Beschr. I. Darnach lege man auch den Bogen dfc auff den Bogen bea, so wird er entweder sich nicht schi-
+
+<!-- Signature: P 2 -->
+<!-- Catchword: cken/ -->

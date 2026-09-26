@@ -1,36 +1,31 @@
-<!-- Page number: 41 -->
+<!-- Page number: 43 -->
 
-<!-- Running title: Euclidis. -->
-
-### Gegebene. Begehrte.
-1. △ ABC
-2. ACB ⲗ ABC. 1. AC ⊢ AB.
-3. BCA ⲗ BAC. 2. BA ⊢ BC.
-4. ABC ⲗ BAC. 3. AC ⊢ BC.
-
-[Diagram: Rechtwinkliges Dreieck mit C oben, A unten links, B unten rechts.]
-
-### Beweiß.
-Es sind die Seiten AC | AB
-oder AC ⊣ AB
-oder AC ⊢ AB.
-Sind AB | AC, so sind auch ACB ⋀ ABC n. 5. Vortrag.
-welches nicht seyn kan / nach 2. Gegebenem
-Ist aber AB ⊢ AC
-so ist auch ACB ⲗ ABC n. 18. Vortr.
-welches abermal nicht seyn kan / n. 2. Gegeben.
-Muß also AB ⊣ AC
-damit auch ACB ⲗ ABC n. 2. Gegeb.
-Gleiche Bewandniß hat es auch mit den andern Seiten und Winckel.
+<!-- Running title: Euclidis -->
 
 ### Beschluß.
-Solcher Gestalt muß in jedwedem △ der grösseste Winckel der längsten Seite gegenüber stehen. W. Z. B.
+Sind derowegen in jedweden △ zwo Seiten grösser/ als die Dritte. W. Z. B.
 
-## Der XX. Vortrag.
+## Der XXI. Vortrag.
 
-## Das 13. Beweiß-Stück.
+## Das 14. Beweiß-Stück.
 
-In jedwedem Dreyeck sind zwo Seiten zu-
+Wenn in einem Dreyeck / auff einer dessen Seite Endsdüttele/ zween gerade Striche einwerts gesetzet werden; So werden diese beede Striche zwar kleiner seyn/ als die beyden Seiten-Striche des Dreyeckes / sie werden aber einen Winckel / so grösser/ als des Dreyecks Winckel ist/ begreiffen.
 
-<!-- Signature: F -->
-<!-- Catchword: sam- -->
+### Gegebene. Begerthe.
+1. △ ABC BD + DC ⊢ BA + AC
+2. Zween gerade Striche BD und CD. BDC ⲗ BAC.
+3. Auf die Endsdüttele des Gr-Strichs. B und C
+4. Einwerts auffgesetzet.
+
+### Vorbereitung.
+Es werde der Strich BD biß zu E verlängert.
+
+[Diagram: Dreieck ABC mit A oben, B unten links, C unten rechts; im Innern die Punkte D und E, Striche von B über D nach E und von C nach D und E.]
+
+### Beweiß.
+CED ⲗ CDB |
+BAC ⲗ DEC | n. 16. Vortr.
+Drw. BAC ⲗ CDB n. 1. Grund-S. f.
+
+<!-- Signature: F 2 -->
+<!-- Catchword: CE -->

@@ -1,26 +1,29 @@
-<!-- Running title: Axiomata. -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 13 -->
+<!-- Page number: 15 -->
 
-(n) Wenn (zwey) Dinge ab und cd halb so groß sind / als (zwey) andere gleiche Dinge ef und mn / so sind dieselben auch ein ander gleich.
+fertigung aber wird aus den Anfängen bewiesen / daß der Auffgabe ein Genügen geschehen. Die beweißlichen Vorstellungen/oder Beweiß-Stücke (Theoremata) geben etwas auff/welches lediglich zu beweisen ist.
 
-[Diagram: vier Striche a–b (kurz), e–f, m–n (länger, gleich), c–d (kurz)]
+Die Neben-Sätze sind gleichfalls zweyerley / nemblich Vorsätze/ und Nachsätze oder Anhänge.
 
-(o) Wenn von (zwey) gleich grossen Dingen ab und cd, eines ab halb so groß ist/als eins ef von ( zwey ) andern gleichen Dingen ef und mn, so sind dieselben ( beyden ) Dinge ab und cd auch halb so groß / als die andern (beyden) Dinge ef und mn.
+Die Vorsätze (Lemmata) sind Vorbereitungen / durch welche man den Beweiß befördert.
 
-[Diagram: vier Striche a–b, c–d (kürzer, gleich), e–f, m–n (länger, gleich)]
+Die Nachsätze oder Anhänge (Corollaria, consectaria, Zugaben) fliessen auß ihren vorhergehenden Haupt-Sätzen / welche sie noch weiter außführen.
 
-(p) Gleiche bewandniß hat es / wenn etliche Dinge ab, cd nur dritte Theile / oder vierte ab, cd Theile / oder noch kleinere Theile sind.
+Bey jedwedem Vortrage kommen zum öfftern sieben Theile vor/als:
 
-[Diagram: links Striche m–n, f–e, a–b, c–d; rechts Striche a–b, c–d (kurz), e–f, m–n (lang)]
+(1.) Der Haupt-Satz (Propositio) an sich selbst/in welchem nicht allein etwas begehret / sondern auch etwas gegeben wird.
 
-VIII. Wenn ( zwey ) Dinge ab und cd sich in allen Stücken zusammen schicken/ so sind sie einander gleich.
+(2) Die Erklärung des Gegebenen. (Explicatio Dati vel datorum )
 
-[Diagram: zwei gleiche Striche a–b und c–d; zwei übereinander gelegte Quadrate, zwei übereinander gelegte Dreiecke und zwei übereinander gelegte Kreise]
+(3) Die Erklärung des Begehrten. (Explicatio Quæsiti vel quæsitorum.)
 
-IX. Das gantze ab ist grösser/ als ein Theil oder Stück ac desselben ( es mag auch seyn so groß / als es immer wolle.)
+(4) Die Bewerckstellung deß Auffrisses (Delineatio) oder Wirckung.
 
-[Diagram: ein Strich a–b, darunter der Punkt c]
+(5) Bißweilen eine Vorbereitung. (Præparatio.)
 
-<!-- Signature: B 3 -->
-<!-- Catchword: (q) Wenn -->
+(6) Der Beweiß (Demonstratio,) und endlich
+
+(7) Der Beschluß (Conclusio,) welcher in kurtzer Widerholung des Haupt-Satzes bestehet/ mit diesem Anhange: W. Z. M. das ist / welches zu machen war. ( q. e. f. in Problematibus) oder W. Z. B. das ist/ welches zu beweisen war. (q. e. d. in Theorematibus.)
+
+<!-- Catchword: Der -->

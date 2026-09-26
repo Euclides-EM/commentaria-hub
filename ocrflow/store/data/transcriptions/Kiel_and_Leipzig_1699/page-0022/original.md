@@ -1,20 +1,21 @@
 <!-- Running title: Beschreibungen. -->
 
-<!-- Page number: 4 -->
+<!-- Page number: 6 -->
 
-XII. Ein spitziger Winckel aber ist kleiner/ als ein rechter Winckel.
+XXIV. Ein gleichschencklichtes Drey-Eck (Isoscelium vel æquicrurum) erfordert nur zween gleich-lange Seiten-Striche.
 
-[Diagram: zwei Winkel mit punktierten Viertelkreis-Bögen, spitzige Winkel darstellend]
+[Diagram: drei gleichschenklige Dreiecke verschiedener Form]
 
-XIII. Endung (Terminus) ist das eusserste einer Grösse.
-XIV. Gestalt ( Figura ) ist/ welche in eine oder mehr Endungen eingeschlossen/oder eingefasset ist.
-XV. Ein Kreyß ( Circulus ) ist eine flache Gestalt/ von einem einigen Strich (oder Zug) eingeschlossen/welchen man den Umbkreyß ( auch Kreyß-zug ) nennet / zu welchem alle/von einem derer inwendigen Düttele/gezogene Striche (Radii) gleich lang sind.
+XXV. Ein schräges oder schrades Dreyeck (Scalenum) bestehet aus drey ungleichen Strichen.
 
-[Diagram: drei Kreise mit mehreren vom Mittelpunkt gezogenen Radien]
+[Diagram: drei ungleichseitige Dreiecke]
 
-XVI. Dieser Düttel aber wird der Mittel-Düpffel (Centrum) des Kreyses genennet.
-XVII. Der Durchschlag (Diameter) des Kreyses ist ein gerader durch den Mittel-Düpffel gezogener Strich/ welcher auff beiden Seiten an den Umbkreyß stösset/ und denselbigen in zween gleiche Theile schneidet.
+XXVI. Ein rechtwincklichtes Drey-Eck (Orthogonium vel rectangulum) ist/ welches einen rechten Winckel hat.
 
-[Diagram: drei Kreise mit je einem Durchmesser: waagerecht, schräg und senkrecht]
+[Diagram: drei rechtwinklige Dreiecke]
 
-<!-- Catchword: XIIX. -->
+XXVII. Ein Stumpff-Wincklichtes Dreyeck ( Amblygonium vel obtusangulum ) ist/ welches einen stumpffen Winckel hat.
+
+[Diagram: drei stumpfwinklige Dreiecke]
+
+<!-- Catchword: XXIIX. -->

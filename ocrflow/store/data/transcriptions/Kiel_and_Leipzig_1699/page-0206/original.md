@@ -1,37 +1,33 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 188 -->
+<!-- Page number: 190 -->
 
-[Diagram: Kreis mit Punkten h, g, a, k, b; unten links Winckel mit Punkten d, c, e, f]
+### Wirckung.
+
+1. Wird ein gerader Strich bc gezogen /
+2. Welcher den Kreyß anrühre.
+3. Werde aus dem Mittel-Düpffel ein Senckstrich na auff den Rührstrich gezogen. n. 12. I.
+4. Auff den Strich bc und zwar an den Düttel a werde der Winckel bam ⋀ hfg gesetzet. n. 23. I.
+5. Nach diesen Winckel werde der gerade Strich ad gezogen.
+
+[Diagram: Kreis mit Punkten d, e, n, m, a; Tangente b–a–c unten, oben rechts kleiner Winckel f, g, h]
 
 ### Vorbereitung.
 
-1. In das gefundene Kreyßstück werde der Winckel ahb gesetzt.
-2. Aus g werde gegen ab ein Senckstrich gk gezogen n. 12. I.
+Es werden in dem abgeschnittenen Kreyßstück gezogen die geraden Striche ae und de.
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | gak ⋀ gbk |  | n. 3. Wirck. |
-| Dw. | bg | ag | n. 6. I. |
-|  | bkg ⋀ | ∟ |  |
-|  | akg ⋀ | ∟ | n. 2. Vorb. und 10. Beschr. I. |
-| Dw. | akg ⋀ bkg |  | n. 1. Gr. und 10. Gr. I. |
-| und | ak | bk | n. 26. I. |
-| Dw. in | kg | Mittel-Düpffel | n. 1. Anhang III. |
-| und in | ag | Mittel-Düpffel | n. 19. III. |
-| Dw. | g | Mittel-Düpffel |  |
+|  | bc | Rührstrich des Kreyses dae | n. 2. Wirck. |
+|  | a | Rührdüpffel | n. 18 III. |
+|  | mab ⋀ hfg |  | n. 4. Wirck. |
+|  | aed ⋀ mab |  | n. 32. III. |
+| Dw. | aed ⋀ hfg |  | n. 1. Gr. I. |
 
-III. Arth.
+### Beschluß.
 
-### Gegebenes:
+Ist also von dem Kreyß daed ein Stück dfa abgeschnitten/ in welchem ein Winckel aed ⋀ hfg stehen kan. W. Z. M.
 
-Der Winckel ecd | ∟
-
-### Wirckung.
-
-1. Wird der gegebene Strich ab in zween gleiche Theil getheilet. n. 10. I.
-2. Aus dieses Striches ab Mittel m wird nach der weite ma ein Kreyß beschrieben.
-
-[Diagram: Halbkreis über dem Strich a–b mit Mittelpunkt m; Punkte c, h, e oben, d bei a]
+<!-- Catchword: Der -->

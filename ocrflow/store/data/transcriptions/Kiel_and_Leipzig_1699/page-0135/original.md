@@ -1,33 +1,30 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 117 -->
+<!-- Page number: 119 -->
 
-3. Aus d nach b der gerade Strich db gezogen.
-4. Nach der weite db aus d werde ein Kreyß beschrieben.
-5. Biß zu dieses Kreyses Düttel f, werde der Strich ea verlänget.
-6. Nach der weite af werde aus a ein Kreyß beschrieben / so den Strich ab in c durchschneidet.
+mal genommene Vier-Eck/ welches von der einen Seite/ und von dieser Seiten Verlängung biß zum Senckstrich / so aus dem Ende der andern Seite auff solche Verlängung fället/ gemacht wird.
 
-### Vorbereitung.
+### Gegebene. | Begehrte.
 
-1. Durch c werde gegen fe ein Nebenstrich hg gezogen.
-2. Desgleichen aus f gegen ab der - - - - - fg - - - - | n. 31. I.
+1. Stumpffwincklicht △ abc. | □ ac ) □ ab + 2 ▭ abd + 2 □ bc.
+2. Verlängte Seite ab biß d.
+3. Verlängung bd.
+4. Senckstrich cd.
 
-[Diagram: Rechteck mit den Ecken f, e unten und g, a oben; oben die Punkte b und a, in der Mitte c und h, unten a und d; punktierte Kreisbögen durch b, c und d]
+[Diagram: stumpfwinkliges Dreieck a b c; die Grundlinie ab ist punktiert bis d verlängert, von c fällt ein punktierter Senkstrich auf d]
 
 ### Beweiß.
 
-□ efa + □ ad | □ df | n. 6. II.
-db | df | n. 15 Beschr. I
-□ db | □ df | n 1. Gr. t. II.
-Dw. □ efa + □ ad | □ db | n. 1. Gr. I.
-□ ab + □ ad | □ db | n. 47. I.
-Dw. □ ab + □ ad | ▭ efa + □ ad | n. 1. Gr. I.
+adc | ∟ | n. 3. Gegeb.
+Dw. □ ac | □ ad + □ cd n. 47. I.
+ad | ab + bd
+□ ad | □ ab + 2 ▭ abd + □ bd n. 4. II.
+□ ad + □ ac | □ ab + 2 ▭ abd + □ bd + □ ad + □ cd n. 2 Gr. 1.
 □ ad | □ ad
-Dw. □ ab | ▭ efa | n. 3. Gr. I.
-▭ eac | ▭ eac
-□ ab — ▭ eac | ▭ efa — ▭ eac | n. 3. Gr. I.
-oder □ ac | ▭ abc
-
-<!-- Signature: P 3 -->
+□ ac | □ ab + 2 ▭ abd + □ bd + □ cd | n. 3. Gr. I.
+□ bd + □ cd | □ cb n. 47. I.
+□ bd + □ cd + □ ac | □ ab + 2 ▭ abd + □ bd + □ cd + □ cb | n 2 Gr. I.
+□ bd + □ cd | □ bd + □ cd
+□ ac | □ ab + 2 ▭ abd + □ cb | n. 3. Gr. I.
 
 <!-- Catchword: Beschluß. -->

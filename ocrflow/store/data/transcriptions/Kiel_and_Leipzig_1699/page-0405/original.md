@@ -1,31 +1,53 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 375 -->
+<!-- Page number: 389 -->
 
-### Wirckung.
+### I. Beweiß.
 
-1. Der Strich AB werde in zween gleiche Theile AE | EB getheilet. n. 10. I.
-2. An den halben Strich EB werde das □ Eg angeschlagen.
-3. □ Eg ähnlich □ D n. 18. VI.
-4. Welche gleicher Weise gesetzet.
-5. Aus A werde gegen Ec ein Nebenstrich Ah gezogen n. 31. I.
-6. Der Strich gc werde biß h verlängert.
-7. Diese Anmerckungen sind zu beobachten.
+|  |  |  |
+|---|---|---|
+|  | bc \| ci | n. 3. Vorb. |
+| Dw. | bc ⌒⃒ ci | n. 28. III. |
+| und | bdc ⋀ cdi | n. 27. III. |
 
-(1) Wenn □ Eh | △ X so ist das Werckstück vollzogen.
-(2) Wann □ Eh ⊢ △ X so ist unmüglich/ daß man aus demselben ein Stück könne abschneiden/ so dem △ X gleichmässig/
-(3) Ist aber □ Eh ⊣ △ X so
+Aus eben diesen Ursachen sind auch
 
-8. Mache man nach dem Winckel cEB, und
-9. Nach dem Strich cg
-10. Ein □ klm | △ X. n. 44. I.
-11. Dieses □ klm werde von dem □ Eg abgeschnitten.
-12. Das übergebliebene □ Eu werde in ein □ no ähnlich dem □ Eg verwandelt. n. 25. VI.
+|  |  |  |
+|---|---|---|
+|  | fg ⌒⃒ gk ⌒⃒ kl | n. 3. Vorb. und 28. III. |
+| und | fhg ⋀ ghk ⋀ khl | n. 27. III. |
 
-nemlich man findet zu Ah oder Bg und Bu einen mittel-ebenmässigen Strich An n. 13. VI.
+Wie vielfältig der Bogen bci, des Bogens bc: So vielfältig ist auch der Winckel bdi des Winckels bdc. n. 15. V.
 
-13. Das □ no werde von den □ Eg abgeschnitten. Das ist. Es werde von cE abgeschnitten cn | An. n. 3. I.
+Und wie vielfältig der Bogen fgkl des Bogens fg: Eben so vielfältig ist auch der Winckel fhl des Winckel fhg. n. 15. V.
 
-Durch n werde gegen AB ein gerader Nebenstrich qr, n. 31. I. und aus B zu c ein gerader Strich Bc, auch durch p gegen Bg ein gerader Nebenstrich so gezogen/ n. 31. I. so bleibet übrig das ⊾ BgopnE.
+oder:
 
-<!-- Catchword: Beweiß. -->
+|  |  |  |  |
+|---|---|---|---|
+|  | ⌒ bci : ⌒ bc | ∧ bdi : ∧ bdc |  |
+|  | ⌒ fgkl : ⌒ fg | ∧ fhl : ∧ fhg |  |
+| Dw. | ∧ fgkl : ∧ fhl | ⌒ fg : ∧ fhg | n. 16. V. |
+
+wenn derowegen
+
+|  |  |  |
+|---|---|---|
+|  | bci ⌒⃒ fgkl |  |
+| so muß | bdi ⋀ fhl |  |
+| ist | bci grösser ⌒⃒ fgkl |  |
+| so muß | bdi [unclear: ⋀̸] fhl |  |
+| und wenn | bci kleiner ⌒⃒ fgkl |  |
+| so muß | bdi [unclear: ⋀̸] fhl | n. 14. V. |
+
+|  |  |  |  |
+|---|---|---|---|
+| α Dw. | ⌒ bc : ⌒ fg | ∧ bdc : ∧ fhg | n. 6. Besch. V. |
+|  | ∧ bdc : ∧ fhg | ⌒ bc : ⌒ fg | n. Bew. α |
+| β Dw. | ∧ bdc : ⌒ bc | ∧ fhg : ⌒ fg | n. 16. V. |
+|  | 2 ∧ bac | ∧ bdc | n. 20. III. |
+|  | ⌒ bc | ⌒ bc |  |
+
+<!-- Signature: Ccc 3 -->
+
+<!-- Catchword: Dw. -->

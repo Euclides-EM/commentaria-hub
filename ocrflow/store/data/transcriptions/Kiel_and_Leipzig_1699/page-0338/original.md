@@ -1,27 +1,33 @@
-<!-- Page number: 314 -->
+<!-- Page number: 322 -->
 
 <!-- Running title: Das VI. Buch -->
 
-### II. Beweiß.
+| CFD ⋏ bca | n. Bew. α.
+Dw. | bc : CF | ab : CD | n. 4. VI.
+| bc : CE | ab : CD | n. 3. Geg.
+Dw. | bc : CE | bc : CF | n. 11. V.
+u. | CE | CF | n. 9. V.
+Dw. | CDE ⋏ CDF | n. 8. I.
+welches unmüglich n. 9. Gr. I.
 
-ae : ec | ad : db — n. Geg.
-△ ade : △ dbe | ad : db — n. 1. VI.
-Dw. △ ade : △ bde | ac : ec — n. 11. V.
-△ ade : △ cde | ae : ec — n. 1. VI.
-Dw. △ ade : △ cde | △ ade : △ bde — n. 11. V.
-u. △ cde | △ bde — n. 9. V.
-Dw. de ⧣ bc — n. 39. I.
+III. Ahrt Vorbereitung.
 
-### II. Beschluß.
+Es werde 1. CEG ⋏ bca
+und 2. ECG ⋏ abc   n. 23. I.
 
-Wenn derowegen ein gerader Strich zwo des Dreyeckes Seiten also schneidet/ daß die Stücke in ebenmässiger Verhältnüß stehen/ so wird der schneidende Strich ein Nebenstrich des Grundstrichs seyn. W. Z. B.
+[Diagram: links Dreieck CDE mit punktierten Linien zu einem Punkt G unterhalb; rechts grösseres Dreieck abC]
 
-## Der III. Vortrag.
+### Beweiß.
 
-## Das 3. Beweiß-Stück.
+CEG ⋏ bca
+ECG ⋏ abc   n. Vorber.
+α Dw. | G ⋏ a | n. 32. I.
+u. | ab : bc | CG : CE | n. 4. VI.
+| ab : bc | CD : CE | n. 3. Geg.
+Dw. | CD : CE | CG : CE | n. 11. V.
+u. | CD | CG | n. 9. V.
+u. | DE | EG | n. gleichen Bew.
+Dw. | G ⋏ D | n. 32. I.
+| D ⋏ a | n. Bew. α.
 
-Wenn eines Dreyecks Winckel in zween gleiche Theile/ durch einen geraden Strich/ welcher den Grundstrich auch schneidet/ getheilet wird/ so stehen die Stücke des Grundstriches in ebenmässiger Verhältnüß mit den beyden Seiten des Dreyeckes.
-
-Und wenn ein gerader Strich aus der Spitze des Dreyeckes gezogen/ den Grundstrich also schneidet/ daß dessen Stücke mit denen Seiten in ebenmässiger Verhältnüß stehen/ so theilet der Strich auch den Winckel in zweene gleiche Theile.
-
-<!-- Catchword: I. Gege- -->
+<!-- Catchword: Dw. -->

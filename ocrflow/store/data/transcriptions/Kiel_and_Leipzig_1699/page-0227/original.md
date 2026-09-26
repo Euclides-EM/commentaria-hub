@@ -1,32 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 209 -->
+<!-- Page number: 211 -->
 
-[Diagram: drei Kreise, jeder mit einem umschriebenen Dreyeck abc und dem Mittel-Düpffel f; die Seitenmittel d und e mit Senckstrichen df und ef, die Stralen fa, fb, fc punktiert bzw. ausgezogen]
-
-### Wirckung.
-
-1. Eine des Dreyecks Seite ab werde in zween gleiche Theile ad | db getheilet/n. 10. I.
-2. Auff dieser Seite Mittel d werde einwerts ein Senckstrich df gesetzet/n. 11. I.
-3. Deßgleichen werde eine andere Seite ae getheilet ae | ec, n. 10. I.
-4. Auch werde auff dieses Mittel e einwerts ein Senckstrich ef gesetzet/n. 11. I.
-5. Aus f, wo beede Senckstriche einander durchschneiden / werde nach der Weite fb, oder fa ein Kreyß beschrieben.
-
-### Vorbereitung.
-
-Aus dem Mittel-Düpffel f werden zu den Ecken des Drey-Ecks die Stralen fa, fb, fc gezogen.
+3. Auch werde von a zu h ein Strich ah gezogen.
+4. Dieser Strich werde ebenfals in zween gleiche Theile ag | gc getheilet/ n. 10. I.
+5. Auff das Mittel f werde ein Senckstrich fe gezogen/n. 11. I.
+6. Deßgleichen aus g der Senckstrich ge. n. 11. I.
+7. Aus e, wo diese Senckstriche einander schneiden / werde
+8. Nach der Weite ec oder ea ein Kreyß gezogen.
 
 ### Beweiß.
 
-ae | ec n. 3. Wirck.
-fea ∧ fec n. 3. III. u. 10. Gr. I.
-fe | fe
-Dw. fa | fc n. 4. I.
-Gleicher Weise fa | fb
-Dw. fc | fb n. 1. Gr. I.
-und f der Mittel-Düpffel des Kreyses abc, n 9. III,
-welcher umb das △ abc umbschrieben / n. 6. Beschr. IV.
+Man ziehe die drey Düttele a, h, c mit geraden Strichen ah, hc, ca zusammen/ so ist nach vorhergehendem Vortrag ein Kreyß umb dasselbige Dreyeck (oder durch die 3. Düttele) gezogen / wie allbereit bewiesen. W. Z. M.
 
-<!-- Signature: D d -->
+## Der VI. Vortrag.
+
+## Das 6. Werckstück.
+
+Einem Kreyß ein gleichseitiges Viereck einzuschreiben.
+
+### Gegebenes. Begehrte.
+
+Kreyß dabc. 1. Gleichseitiges Viereck abcd
+2. dem Kreyß dabc eingeschrieben.
+
+### Wirckung.
+
+1. Durch den Mittel-Düpffel e werde der Durchschlag db,
+2. Und durch diesen Durchschlag/ und zwar auch durch den Mittel-Düpffel e, werde ein Senckstrich ac gezogen/ n. 11. I.
+3. Werden die geraden Striche ab, bc, cd, da gezogen.
+
+[Diagram: Kreis mit Mittel-Düpffel e und eingeschriebenem Viereck abcd samt beiden Durchschlägen (Diagonalen) ac und db]
+
+<!-- Signature: Dd 2 -->
 
 <!-- Catchword: Be- -->

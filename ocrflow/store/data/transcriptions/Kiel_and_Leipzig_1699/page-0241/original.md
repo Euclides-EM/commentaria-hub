@@ -1,40 +1,45 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 217 -->
+<!-- Page number: 225 -->
 
 ### Wirckung.
 
-1. Nehme man einen Strich AB,
-2. Welchen man also theile in C, daß des gantzen Strichs AB und
-kleinem Stückes BC länglicht Viereck eben so groß sey/ als des
-Grössern Stückes AC gleichseitiges Viereck/ n. 11. II.
-3. Werde in dem Dreyeck abd der Grundstrich bd eben so groß/
-als das grössere Stück AC gemacht/ n. 2. I.
-4. Zu den beyden Schenckeln ab und ad aber werde der gantze
-Strich AB genommen/ n. 12. I.
+1. Zweene des Fünffeckes Winckele / als e und f, werden in
+zween gleiche Theile gea ∧ fea
+efa ∧ dfa — getheilet/n. 9. I.
+2. Werden die Winckeltheilende Striche fa und ea so weit
+verlängert/ biß sie einander in a schneiden.
+3. Nach der Weite ae werde der Kreyß bgefd gezogen.
 
 ### Vorbereitung.
 
-1. Von der Seiten ab werde ein Stück ac | AC abgeschnitten/
-n. 3. I.
-2. Werde der Strich dc gezogen.
-3. Aus a nach der Weite ab werde ein Kreyß gezogen.
-4. Umb das Dreyeck acd werde auch ein Kreyß gezogen/ n. 5. IV.
+Aus den übrigen Winckeln werden gerade Striche zu dem
+Düttel a gezogen.
 
 ### Beweiß.
 
-db | AC — n. 3. Wirck.
-Dw. — □ db | □ AC — n. 1. Gr. t. II.
-ab | AB — n. 4. Wirck.
-bc | BC
-Dw. — abc ▭ ABC — n. 1. Gr. II.
-AC | ac, n. 1. Vorb.
-a. — AC ▭ ac, n. 1. Gr. t. II.
-Dw. — □ abc + □ AC | ▭ ABC + □ ac, n. 2. Gr. I.
-ß. — □ AC | ▭ ABC — n. 11. II.
-Dw. — □ abc | □ ac, n. 3. Gr. I.
-AC | bd — n. 3. Wirck.
-□ AC | □ bd — n. 1. Gr. t. II
+efa ∧ dfa — n. 1. Wirck.
+fe | fd — n. Gegeb.
+af | af
+fe + af | af + fd — n. 2. Gr. I.
+Dw. — ae | ad
+u. — aef ∧ adf — n. 4. I.
+Gleicher Weise — ad | af | ae | ag | ab
+Dw. — a | Mitteldüpffel — n. 9. III.
+und der Kreyß aus solchem Mitteldüpffel a nach der Weite
+af gezogen/ begreifft das Fünffeck in sich/n. 6. Besch. IV.
 
-<!-- Signature: Ee -->
-<!-- Catchword: Dw. -->
+### Beschluß.
+
+Ist also umb das gegebene gleichseitige und gleichwincklichte
+Fünffeck ein Kreyß umbgeschrieben. W. Z. M.
+
+## Der XV. Vortrag.
+
+## Das 15. Werckstück.
+
+Einem gegebenen Kreyß ein gleichseitig und
+gleichwincklichtes Sechseck einzuschreiben.
+
+<!-- Signature: Ff -->
+<!-- Catchword: Ge- -->

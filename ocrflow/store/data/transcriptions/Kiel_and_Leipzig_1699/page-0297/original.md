@@ -1,47 +1,31 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 273 -->
-
-### I. Gegebene.
-
-A ________ | A : B : C
-B ______ | a : b : c
-C ____
-a ______ | A : B | a : b
-b ____ | B : C | b : c
-c __ | A ⊣ C
-
-[Diagram: Strecken A, B, C, a, b, c]
-
-### Begehrtes.
-
-a ⊣ c
+<!-- Page number: 281 -->
 
 ### Beweiß.
 
-a : b | A : C
-A ⊣ C — n. Geg.
-B | B
-Dw. A : B ⊣ C : B — n. 8. V.
-α und a : b ⊣ C : B — n. 13. V.
-b : c | B : C — n. Geg.
-c : b | C : B — n. 16. V.
-a : b ⊣ C : B — n. Bew. α
-Dw. a : b ⊣ c | b — n. 13. V.
-b | b
-u. a ⊣ c — n. 10. V.
+|  |  |  |
+|---|---|---|
+| B : C | a : b | n. Geg. |
+| B : C | c : d | n. Vorb. |
+| Dw. a : b | c : d | n. 11. V. |
+| α a : c | b : d | n. 16. V. |
+| b : c | A : B | n Geg. |
+| c : d | B : C | n. Vorb. |
+| b : d | A : C | n. 22. V. |
+| b : d | a : c | n. Bew. α |
+| Dw. A : C | a : c | |
 
-### II. Gegebene.
+### Beschluß.
 
-A ________________ | A : B | a : b
-B ______ | B : C | b : c
-C ________________ | A | C
-a ______
-b ____
-c ______
+Werden derowegen Sechs in verwirreter Ebenmaß stehende Grössen auch ein ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
 
-[Diagram: Strecken A, B, C, a, b, c]
+## Der XXIV. Vortrag.
 
-<!-- Signature: Mm -->
+## Das 24. Beweiß-Stück.
 
-<!-- Catchword: Begehr- -->
+Wenn man Sechs Grössen hat/ deren Erste zu der Andern eine solche Verhältnüß hat/ als die Dritte zu der Vierten: darnach auch die Fünffte zu der Andern eine solche Verhältnüß hat / wie die Sechste zu der Vierten: So wird auch die Erste mit der Fünfften zu der Andern/ eine solche Verhältnüß/ wie die Dritte mit der Sechsten zu der Vierten haben.
+
+<!-- Signature: Nn -->
+
+<!-- Catchword: A— -->

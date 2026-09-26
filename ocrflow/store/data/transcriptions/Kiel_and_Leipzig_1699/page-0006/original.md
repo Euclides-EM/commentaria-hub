@@ -1,17 +1,13 @@
 <!-- Running title: Vorrede. -->
 
-zulänglich sind / so habe ich dahero selbige mit etlichen Zusätzen zu vermehren und zu erläutern für nöthig und nützlich erachtet.
+## Zu dem X. Grundsatz.
 
-Ob ich nun gleich denen XII. Grundsätzen allbereit XVII. Nebensätze beygefüget/ so habe nach der Zeit doch noch etliche gefunden / welche man nicht wol entrathen kan / deßwegen ich sie hiernach setzen wollen.
+(qq) Wenn von zweyen gleichmässigen Winckeln (a und b) einer (a) recht ist/ so ist der andere (b) auch recht.
 
-## Als zu dem I. Grundsatz gehöret:
+[Diagram: schematische Darstellung mit Winkelzeichen]
 
-(dd) Wenn eins (a) von zwey gleichmässigen Dingen (a und b) nicht kleiner ist/ als das dritte (c), so ist das andere (b) auch nicht kleiner/ als das dritte (c).
+Die drey Forderungen (oder postulata) habe noch mit einem vermehret/ nemlich: daß man einen Düttel machen könne / und zwar darüm/ weil ich vermercket/ daß Thomas Hobbes in seinem Buche de principiis Geometrarum cap. I. sich daran geärgert/ wann Euclides saget: der Düttel sey ein untheilbahres Zeichen: welches doch vielmehr also zu verstehen/ daß der Düttel ein Zeichen eines untheilbahren Anfangs aller Grössen sey. Weil nun kein Düttel ohne Stifft/ oder sonst einen spitzigen Werckzeug/ kan gemacht werden/ so habe nöthig erach-
 
-[Diagram: je drei mit a, b, c bezeichnete Strecken in zwei Spalten]
+<!-- Signature: ):( ):( -->
 
-## Zu dem III. Grundsatz:
-
-(ff) Wenn man von zweyen gleichmässi-
-
-<!-- Catchword: gen -->
+<!-- Catchword: tet/ -->

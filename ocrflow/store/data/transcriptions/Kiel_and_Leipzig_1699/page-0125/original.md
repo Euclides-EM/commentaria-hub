@@ -1,33 +1,42 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 107 -->
+<!-- Page number: 109 -->
 
-2bc + 2cc | 2ac — n. 6. Gr. i. I.
-aa + cc + 2bc + 2cc | 2ac + bb + 2bc + 2cc — n. 2. Grs. I.
-2bc + 2cc | 2bc + 2cc
-Dw. aa + cc | 2ac + bb — n. 3. Gr. I.
+### Nach der Löse-Kunst.
+
+### Gegebene. | Begehrtes.
+
+1. a | ab | dd | bb + 4ac
+2. b | ac
+3. c | cb
+4. a | b + c
+5. d | b + 2c
+
+### Beweiß.
+
+d | b + 2c | n. 5. Gegeb.
+dd | bb + 4bc + 4cc | n. 4. II.
+b + c | a n. 4. Gegeb.
+4c | 4c
+4bc + 4cc | 4ac n. 3. II.
+dd + 4bc + 4cc | bb + 4bc + 4cc + 4ac n. 2. Gr. I.
+4bc + 4cc | 4bc + 4cc
+dd | bb + 4ac | n. 3. Gr. I.
+
 W. Z. B.
 
-## Der IIX. Vortrag.
+## Der IX. Vortrag.
 
-## Das 8. Beweiß-Stück.
+## Das 9. Beweiß-Stück.
 
-Weñ ein gerader Strich auff waserley Weise in zwey Stücke geschnitten ist/ so wird das rechtwincklichte Viereck/ so von dem gantzen Strich und dem einen Stück begriffen wird/ viermahl genommen/ samt dem gleichseitigen Viereck des andern Stückes/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem gantzen/ und ersten Stück zusammen gesetzten Strich gemacht wird.
+Wenn man einen geraden Strich in zwey gleiche/ und zwey ungleiche Stücke theilet; So werden der beeden ungleichen Stücke ihre Vierecke/ zweymal so groß/ als das Viereck des halben Striches/ samt dem Vierecke des Mittel-Stückes seyn.
 
-### Gegebene. | Begehrte.
+### Gegebene. | Begehrtes.
 
-1. Gerader Strich ab — □ ad | 4 □ abc + □ ca
-2. Geschnitten in c
-3. Angesetztes Stück. bd | bc
-4. ab + bd | ad
+1. Strich ab | □ bd + □ da | 2 □ bc + 2 □ cd.
+2. Getheilet in c
+3. Daß ac | cb
 
-### Vorbereitung.
+<!-- Signature: O 3 -->
 
-1. Der Strich ab werde verlänget biß d. daß bd | bc
-2. Auff einen Strich/ so dem Strich ad gleich/ werde ein gleichseitiges □ gesetzet. n. 46. I.
-3. Dieser Strich werde eben so getheilet/ wie der Strich ad. n. 3. I.
-4. Auff ac werde ein gleichseitig □ gesetzet. n. 46. I.
-5. Werden vier □ a b c gemacht.
-
-<!-- Signature: O 2 -->
-<!-- Catchword: Beweiß -->
+<!-- Catchword: 4. Und -->

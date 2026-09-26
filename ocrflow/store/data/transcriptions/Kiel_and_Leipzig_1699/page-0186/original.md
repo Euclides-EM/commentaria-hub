@@ -1,35 +1,30 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 168 -->
-
-[Diagram: Kreyßstück über der Sehne de mit den Punkten b und c oben; von d und e punktierte Linien zu den Düpffeln a, f und g unterhalb der Sehne]
-
-### I. Beweiß.
-
-dag ∠ 2 dba
-eag ∠ 2 eba — n. 1. Arth.
-dag + eag ∠ 2 dba + 2 eba — n. 2. Gr. I.
-oder dae ∠ 2 dbe — n. 9. Gr. q. I.
-
-### II. Begebenheit.
-
-dbe ∠ ½ dae
-dce ∠ ½ dae — n. 1. Bew.
-Dw. dce ∠ dbe — n. 7. Gr. I.
+<!-- Page number: 170 -->
 
 ### Beschluß.
+Sind also jedes Viereckes / so einem Kreyß eingeschrieben/ gegen einander überstehende Winckel adc + abc ⋀ ⌓
+dcb + adb ⋀ ⌓ W. Z. B.
 
-Sind also allezeit diejenigen Winckel/welche in einem Kreyßstück stehen/ gleich groß. W. Z. B.
+## Der XXIII. Vortrag.
 
-## Der XXII. Vortrag.
+## Das 21. Beweiß-Stück.
+Auff einen einigen geraden Strich können auff einerley Weise keine zwey gleichgestalte Kreyß-Stücke gesetzet werden/ welche doch ungleicher Grösse seyn.
 
-## Das 20. Beweiß-Stück.
+### Gegebene.
+1. Gerader Strich ab
+2. Zwey gleichgestalte ⌓ ⌓
+3. Auff diesen Strich ab
+4. Auff einerley Weise gesetzet.
 
-Aller einem Kreyß eingeschriebenen Vierecke gegen einander überstehende Winckel sind eben so groß/ als zween rechte Winckel.
+### Begehrtes.
+Beede Kreyß-Stücke gleicher Grösse.
 
-### Gegebene. Begehrte.
+[Diagram: Zwey Kreyß-Stücke über dem Strich ab, mit den Punckten a, b, c, d und punctirten Strichen ad, bc]
 
-1. Viereck abcd, — 1. adc + abc | 2 ∟
-2. Welches dem Kreyß acb eingeschrieben. — 2. dcb + dab | 2 ∟
+### Vorbereitung.
+Wenn es seyn kan/ so mache man (1) auff den geraden Strich ab auff einerley Weise zwey gleichgestalte oder ähnliche Kreyßstücke ungleicher Grösse ⌓ adb + ⌓ acb.
+2. Werde gezogen der Strich ad.
+3. Aus b werde zu dem Düttel c, wo der Strich ad das Kreyß-Stück acb schneidet/ der Strich bc gezogen.
 
-<!-- Catchword: Vor- -->
+<!-- Catchword: 4. Werde -->

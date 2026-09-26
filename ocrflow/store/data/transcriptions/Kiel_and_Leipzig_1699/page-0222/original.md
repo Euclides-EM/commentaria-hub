@@ -1,31 +1,42 @@
 <!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 204 -->
+<!-- Page number: 206 -->
 
-[Diagram: links Dreyeck hfg mit punktierten Winckelbögen; rechts Kreis mit eingeschriebenem Dreyeck abc, oben der Rührstrich e–d durch a]
+### Vorbereitung.
 
-### Wirckung.
+Aus dem Mittel-Düpffel b werde zu dem einen Winckel g ein gerader Strich bg gezogen.
 
-1. Werde an den gegebenen Kreyß bac der Rührstrich de gezogen. n. 17. III.
-2. An den Rührdüpffel a dieses Striches de werde der Winckel dac ∧ hfg n. 23. I.
-3. Und auff die andere Seite gegen e dieses Düttels a, der Winckel eab ∧ fgh gesetzet. n. 23. I.
-4. Werde der Strich bc gezogen.
+### I. Beweiß.
 
-### Beweiß.
+beg + bcg ∧ ⌓ n. 18. III.
+Dw. ebg + egb ∧ ∟ }
+und cbg + cgb ∧ ∟ } n. 32. I.
+Dw. ebg + ebg + cbg + cgb ∧ ⌓ n. 2. Gr. I.
+a. oder ebc + egc ∧ ⌓ n. 9. Gr. q. I.
+kim + mil ∧ ⌓ n. 13. I.
+Dw. kim + mil ∧ ebc + egc n. 1. und 10. Gr. I.
+mil ∧ ebc n. 1. Wirck.
+Dw. kim ∧ egc n. 3. Gr. I.
 
-dac ∧ hfg n. 2. Wirck.
-dac ∧ abc n. 32. III.
-Dw. abc ∧ hfg n. 1. Gr. I.
+### II. Beweiß.
 
-eab ∧ fgh n. 3. Wirck.
-eab ∧ acb n. 32. III.
-Dw. acb ∧ fgh n. 1. Gr. I.
-und bac ∧ fhg n. 32. I.
-Dw. △ abc gleichwincklicht △ fha n. 8. Beschr. IV.
-u. △ abc dem O abc eingeschrieben n. 3. Beschr. IV.
+bda + acb ∧ ⌓ n. 18. III.
+dac + dbc ∧ ⌓ n. 32. I. a.
+hkm + mki ∧ ⌓ n. 13. I.
+Dw. hkm + mki ∧ dac + dbc n. 1. u. 10. Gr. I.
+hkm ∧ dbc n. 4. Wirck.
+Dw. mki ∧ dac n. 3. Gr. I.
+
+### III. Beweiß.
+
+a + g + f ∧ ⌓ }
+i + k + m ∧ ⌓ } n. 32. I.
+Dw. i + k + m ∧ a + g + f n. 1. u. 10. Gr. I.
+i + k ∧ a + g n. 1. u. 2. Bew.
+Dw. kmi ∧ afg n. 3. Gr. I.
 
 ### Beschluß.
 
-Ist also dem gegebenen Kreyß ein dem gegebenen Dreyeck gleichwincklichtes Dreyeck eingeschrieben. W. Z. M.
+Ist also das △ afg gleichwincklicht mit △ imk, und ümb den gegebenen Kreyß cde beschrieben. n. 4. Beschr. IV. W. Z. M.
 
 <!-- Catchword: Der -->

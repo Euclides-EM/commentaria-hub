@@ -1,29 +1,27 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 231 -->
 
-<!-- Page number: 223 -->
+# Das V. Buch Euclidis.
 
-## Der XIII. Vortrag.
+## Beschreibungen.
 
-## Das 13. Werckstück.
+I. Ein Theil (Pars) ist ein Stück einer grösseren Grösse/wenn nemlich das Stück die grössere Grösse ohne Bruch (oder also daß nichts überbleibet) theilet. a : 3a
 
-Einem gegebenen gleichseitigen und gleich-
-wincklichten Fünffeck einen Kreyß einzuschreiben.
+II. Vielfältig oder vielfach (multiplex) wird genennet die grössere Grösse/ welche von dem Theil oder Stück ohne Bruch getheilet wird. 3a : a
 
-### Gegebenes. — Begehrte.
-Fünffeck bcdef. — 1. Kreyß ghikl
-2. in das Fünffeck eingeschrieben.
+III. Verhältniß (Ratio) ist eine Bewandniß zweyer Grössen / deren jedwede durch ihre Vervielfältigung die andere (wenn sie unvergrössert bleibet) übertreffen kan a : b
 
-[Diagram: Fünffeck b c d e f mit einbeschriebenem Kreis; die Berührungspunkte g, h, i, k, l liegen in den Seitenmitten, aus dem Mittelpunkt a laufen punktierte Striche zu den Ecken und Seitenmitten]
+IV. Ebenmaaß (Proportio) ist zweyer oder mehrer Verhältnisse Gleichheit. 2a : 2b | a : b
 
-### Wirckung.
+V. Diejenigen Grössen können eine Verhältniß zu einander haben/welche nach Belieben vervielfältiget einander an Grösse übertreffen können. 2a : a.
 
-1. Werden alle Winckel in zween gleiche Theile getheilet/mit
-den Strichen ba, ca, da, ea, fa, n. 9. I.
-2. Die Seiten werden auch in zween gleiche Theile getheilet/
-n. 10. I.
-3. Aus dem Mittel der Seiten werden Senckstriche ga, ha,
-ia, ka, la gezogen/ n. 11. I.
-4. Aus dem Düttel a, wo alle Striche zusammen lauffen /
-werde nach der Weite ag oder ah ein Kreyß beschrieben.
+2a ⊣ a
 
-<!-- Catchword: Be- -->
+2a ⊢ 6a.
+
+VI. In gleicher Verhältniß stehende Grössen werden genennet (nemlich die Erste zu der Andern/und die Dritte zu der Vierten) wenn der Ersten und Dritten auff waserley Weise Vervielfältigung von derer Andern und Vierten Vervielfältigung entweder übertroffen werden / oder denenselbigen an Grösse gleich sind / oder auch dieselbigen übertreffen: Wenn nemlich die Grössen gehöriger Massen gegen einander gehalten werden.
+
+3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a.
+5. 3. 5. 3. — 2. 3. 2. 3. — 2. 5. 2. 5.
+15a : 6a | 30a : 12a. — [unclear: 6q] : 6a | 12a : 12a. — 6a : 10a | 12a : 20a.
+
+<!-- Catchword: VII. -->

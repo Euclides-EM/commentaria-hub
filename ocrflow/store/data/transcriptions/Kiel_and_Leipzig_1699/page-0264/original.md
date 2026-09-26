@@ -1,30 +1,34 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 240 -->
+<!-- Page number: 248 -->
 
-## Der II. Vortrag.
+## Der IV. Vortrag.
 
-## Das 2. Beweißstück.
+## Das 4. Beweiß-Stück.
 
-Wenn die Erste Grösse der Andern / und die Dritte der Vierten gleichmäßig vielfältig sind; darnach auch die Fünffte der Andern und die Sechste der Vierten gleichmäßig vielfältig sind: so werden auch die Erste und Fünffte zusammen genommen der Andern eben so vielfältig seyn / als die Dritte und Sechste zusammen genommen der Vierten sind.
+Wenn man vier Grössen nimmt / deren die Erste zu der Andern eben solche Verhältnüß hat / als die Dritte zu der Vierten; So werden auch diejenigen (Grössen) welche gleich-vielfältig sind gegen die Ersten und Dritten (Grössen) zu denjenigen Grössen / welche gleich-vielfältig sind gegen die Andern und Vierten (Grössen) nach allerley Vervielfältigung/ gleiche Verhältnüß haben / wenn man sie also / wie sie gegen einander stehen / nimmet.
 
-### Gegebene. — Begehrtes.
+### Gegebene.
 
-[Diagram: sechs waagerechte Linien, bezeichnet A (getheilet in c, d), a, C (getheilet in e, f, g), B (getheilet in h, k), b, D (getheilet in l, m, n); daneben die Ziffern I. II. V. III. IV. VI.]
+1. 2a : a | 6a : 3a.
+2. 4a : 2a : | 12a : 6a :
+3. 3a : a | 9a : 3a.
 
-II. A : a | B : b — V. C : a | D : b
+### Begehrtes.
 
-A + C : a | B + D : b
+4a : 3a | 12a : 9a.
 
 ### Vorbereitung.
 
-1. Es werde A getheilet in c, d, also daß
-2. c|a und d|a n. 3. I.
-3. Auch werde B getheilet in h, k, also daß
-4. h|b und k|b n. 3. I.
-5. Deßgleichen C in e, f, g, also daß
-6. e|a, f|a und g|a n. 3. I.
-7. Und D in l, m, n, also daß
-8. l|b, m|b und n|b n. 3. I.
+Man nehme zu der Ersten und Dritten (Grösse) noch zwo gleich-grosse / und also in gleicher Verhältnüß mit selbigen stehende Grössen.
 
-<!-- Catchword: Beweiß -->
+2a : 2a | 6a : 6a.
+
+### Beweiß.
+
+2a : a | 6a : 3a — n. 1. Geg.
+2a : 2a | 6a : 6a — n. Vorber.
+Dw. 2a + 2a : 2a + a | 6a + 6a : 6a + 3a — n. 1. V.
+oder 4a : 3a | 12a : 9a
+
+<!-- Catchword: Beschluß. -->

@@ -1,21 +1,21 @@
 <!-- Running title: Definitiones. -->
 
-<!-- Page number: 5 -->
+<!-- Page number: 7 -->
 
-XIIX. Ein Halb-kreyß ( Semicirculus ) aber ist eine Gestalt/ welche von dem Durchschlag/ und demjenigen Stück des Umbkreyses/so dieser gerade Strich oder Durchschlag abschneidet / eingeschlossen wird.
+XXIIX. Ein Spitzwincklichtes Drey-Eck ( Oxygonium vel acutangulum) ist / welches lauter spitzige Winckel hat.
 
-[Diagram: ein Halbkreis sowie ein Kreis mit waagerechtem Durchmesser, dessen untere Hälfte punktiert ist]
+[Diagram: drei spitzwinklige Dreiecke auf einer gemeinsamen Grundlinie, mit den Buchstaben a, d, f oben und b, c, e, g unten]
 
-XIX. Gerad-seitige Gestalte (Rectilineæ figuræ) sind/welche mit geraden Strichen eingefasset werden.
-XX. Dreyeckichte (Trilateræ) Gestalte werden von drey geraden Strichen eingeschlossen.
+XXIX. Ein gleichseitig und gleichwincklicht Vier-Eck (Quadratum ) ist / welches vier gleiche Seiten/ und auch vier gleiche Winckel hat.
 
-[Diagram: drei Dreiecke verschiedener Gestalt]
+[Diagram: ein Quadrat]
 
-XXI. Viereckete (Quadrilateræ) Gestalte aber werden von vier geraden Strichen eingeschrencket.
-XXII. Viel-Eckichte Gestalte haben mehr/ als vier gerade Gräntz-Striche.
-XXIII. Unter den Drey-Ecketen Gestalten wird das gleichseitige Drey-Eck von drey gleichlang-geraden Strichen eingeschrencket.
+XXX. Ein länglicht Vier-Eck ist zwar recht-wincklicht/ hat aber ungleiche Seiten.
 
-[Diagram: ein gleichseitiges Dreieck]
+[Diagram: zwei Rechtecke, ein breites liegendes und ein hochstehendes]
 
-<!-- Signature: A 3 -->
-<!-- Catchword: XXIV. -->
+XXXI. Eine Raute oder geschoben Viereck (Rhombus) hat zwar vier gleiche Seiten/ ist aber nicht recht-wincklicht.
+
+[Diagram: zwei Rauten, ein schief liegendes Parallelogramm mit gleichen Seiten und eine aufrecht stehende Raute]
+
+<!-- Catchword: XXXII -->

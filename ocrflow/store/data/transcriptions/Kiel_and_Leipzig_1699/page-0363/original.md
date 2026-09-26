@@ -1,44 +1,52 @@
-<!-- Page number: 339 -->
+<!-- Page number: 347 -->
 
 <!-- Running title: Euclidis. -->
 
-### Beweiß.
+### Vorbereitung.
+
+1. Werde gemacht das □ ad
+2. Deßgleichen auch □ bc.
+3. Und zwar nach gleichmässigen Winckel gemacht. n. 23. I.
+
+### I. Beweiß.
 
 |  |  |  |
 |---|---|---|
-|  | bc ⊤ de | n. 7. Wirck. |
-| Dw. | ab : bd ⊤ ac : ce | n 2. VI. |
-| und | ab : ac ⊤ bd : ce | n. 16. V. |
-| oder | AB : AC ⊤ BD : ce | n. Anh. 7. V. |
+|  | aed ⋏ bfc | n. 3. Vorb. |
+|  | a : b ⊤ c : d | n. 2. Gegeb. |
 
-Dw. der Strich ce der vierte ebenmässige Strich.
+Und haben die beyden Vierecke also bey wechselmässigen Winckeln wechselmässige Seiten.
+
+|  |  |  |
+|---|---|---|
+| Dw. | ad ⌻ bc. | n. 14. VI. |
+
+### II. Gegebene.
+
+1. Vier gerade Striche
+a, b, c, d.
+2. ad ⌻ bc.
+
+### I. Begehrtes.
+
+a : b ⊤ c : d.
+
+### II. Beweiß.
+
+|  |  |  |
+|---|---|---|
+|  | ad ⌻ bc. | n 2. Gegeb. |
+|  | aed ⋏ bfc. | n. 3 Vorb. |
+| Dw. | a : b ⊤ c : d | n 14. VI. |
+
+Und die vier Striche sind ebenmässig n. 7. Beschr. V.
 
 ### Beschluß.
 
-Ist also zu den drey gegebenen Strichen AB, AC, AD der vierte ebenmässige Strich ce gefunden. W. Z. M.
+Wenn derowegen vier ebenmässige Striche gegeben werden/ so ist das von den beyden äusersten Strichen gemachte/dem von den beyden mitlern Strichen gemachten Viereck gleichmässig.
 
-## Der XIII. Vortrag.
+Und wenn das von zweyen äusersten Strichen begriffene Viereck / dem nach gleichem Winckel von denen mittelsten Strichen gemachten Viereck gleichmässig ist/ so stehen dieselben Striche in richtiger Ebenmaß. W. Z. B.
 
-## Das 5. Werck-Stück.
+<!-- Signature: Xx 2 -->
 
-Zu zweyen gegebenen geraden Strichen einen mitlern ebenmässigen (mediam proportionalem) Strich zu finden.
-
-### Gegebene.
-
-1. Der Strich AD
-2. CD
-
-### Begehrte.
-
-1. Der Strich db
-2. AD : db ⊤ db : CD.
-
-[Diagram: Striche A—D und C—D; darunter ein Halbkreis über der Grundlinie a d g e mit Scheitelpunkt b und Strichen von a und e nach b]
-
-### Wirckung.
-
-1. Werde gezogen der Strich ae.
-
-<!-- Signature: Uu 2 -->
-
-<!-- Catchword: 2. auf -->
+<!-- Catchword: Der -->

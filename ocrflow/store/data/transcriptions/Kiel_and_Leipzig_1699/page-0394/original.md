@@ -1,28 +1,25 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 364 -->
+<!-- Page number: 378 -->
 
-ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüssen zusammen gesetzet ist.
+[Diagram: oben eine Gestalt K mit den Punkten i und h nebst punctirten Linien, daneben ein Viereck L; darunter ein grosses Viereck mit den Punkten b, n, d, g oben, B, C, A in der Mitte, f, m, o, q, p unten, nebst punctirtem Kreisbogen]
 
-### Gegebene.
+### Wirckung.
 
-1. Nebenstrichichte Vierecke ao, und df.
-2. □ ac gleichwincklicht dem □ df.
+1. Der gegebene Strich AB werde in zween gleiche Theile in C geschnitten. n. 10. I.
 
-### Begehrtes.
+2. Auf die Helffte AC werde ein dem Viereck L ähnliches nebenstrichichtes Viereck Ad gesetzet. n. 18. VI.
 
-□ ac : □ df | ad, dc : gd, de.
+3. Die Gestalt K werde in ein nebenstrichichtes Viereck hi, welches dem Viereck L gleichwincklicht/ und
 
-[Diagram: zwey aneinander gefügte Vierecke mit den Punkten b, c, h, a, d, g, e, f nebst den Linien i, k, l; darunter zwey Dreiecksfiguren mit punctirten Linien und den Buchstaben k, g, l, c, d, k, e, d]
+4. Dessen Seite dem Strich Ac gleichmässig. n. 44. I.
 
-### Vorbereitung.
+5. Dem □ Ad werde das □ dg | □ hi beygefüget.
 
-1. Werden die beyden Vierecke bey dem Winckel d also zusammen gefüget/ daß ad und dg, wie auch cd und de zween gerade Striche machen.
+6. Die Vierecke Ad + dg werden in ein dem Viereck L ähnliches nebenstrichichtes Viereck qb verwandelt. n. 25. VI.
 
-2. Die Seiten bc und fg werden fort gezogen/ biß sie in h zusammen kommen.
+7. Dieses Viereck qb werde an den halben Strich CB also gesetzet/ daß es nicht höher komme/ als der Strich db, so wird ein Ende q unter C fallen. n. 28. VI.
 
-3. Werden zween gerade Striche i und k, gefunden/ welche eben solche Verhältnüß haben / als ad : dg.
+8. Durch q werde der Nebenstrich mp gegen AB gezogen. n. 31. I.
 
-ad : dg | i : k, n. 12. VI.
-
-<!-- Catchword: 4. Werde -->
+<!-- Catchword: 9. Aus -->

@@ -1,33 +1,36 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 371 -->
+<!-- Page number: 385 -->
+
+### Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+|  | BC : CA | CA : CK | n. 8. VI. |
+| Dw. | BC : CK = | BC : CA | n. 10. Bes. V. |
+|  | □ BD : □ AI = | BC : CA | n. 19. VI. |
+| Dw. | BC : CK | □ BD : □ AI | n. 11. VI. |
+| α und | CK : BC | □ AI : □ BD | verkehret |
+|  | BC : BA | BA : BK | n. 8. VI. |
+| Dw. | BC : BK | □ BD : □ AF | n. 19. VI. |
+| β und | BK : BC | □ AF : □ BD | verkehret |
+|  | CK : | □ AI : | n. Bew. α |
+|  | BC | □ BD |  |
+|  | BK : | □ AF : | n. Bew. β |
+| Dw. | CK + BK : BC | □ AI + □ AF : □ BD | n. 24. V. |
+|  | CK + BK | BC | n. 9. Gr. I. q. |
+| Dw. | □ AI + □ AF | □ BD | n. 14. V. |
 
 ### Beschluß.
 
-Müssen derowegen die ähnliche/ gleicherweiß gesetzte/ und gleichmässigen Winckel habende abgenommene Vierecke mit dem gantzen ac üm einen einigen Zwergstrich stehen. W. Z. B.
+Sind derowegen allezeit die beyden/ auf denen beyden/ den rechten Winckel begreiffenden Seiten stehende/ und einander ähnliche Gestalte/ derjenigen Gestalt/ welche auch diesen beyden Gestalten ähnlich/ und auf der dem rechten Winckel übergespanneten Seite stehet/ gleichmässig. W. Z. B.
 
-## Der XXVII. Vortrag.
+## Der XXXII. Vortrag.
 
-## Das 20. Beweiß-Stück.
+## Das 22. Beweiß-Stück.
 
-Wenn an einen gegebenen geraden Strich ein gegebenes nebenstrichichtes und mangelhafftes Viereck angeschlagen wird: So wird unter allen nebenstrichichten und dem mangelenden Viereck ähnlichen Vierecken dasjenige / welches an die Helffte des gegebenen geraden Striches angeschlagen wird/ das Grösseste seyn.
+Wenn zwey Dreyecke gegeben werden/ deren eins zwo Seiten/ zweyen Seiten des andern ebenmässig sind, und das eine Dreyeck mit seinem Winckel an des andern Dreyeck Winckels also gestossen
 
-### Gegebene.
+<!-- Signature: Ccc -->
 
-1. Gerader Strich ab
-2. Nebenstrichichtes Viereck ai
-3. □ ai an den Strich ab angeschlagen.
-4. Doch mangelhafft
-5. Uberschuß gb
-6. Mangelendes Viereck gc.
-7. bp die Helffte des Striches ab ap | bp.
-8. Viereck pe.
-9. an des Striches ab Helffte pb angeschlagen.
-10. □ pe ähnlich □ gc
-
-### Begehrte.
-
-1. □ pe ⊣ □ ai
-
-<!-- Signature: Aaa 2 -->
-<!-- Catchword: 2. Unter -->
+<!-- Catchword: wird/ -->

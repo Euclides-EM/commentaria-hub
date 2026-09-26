@@ -1,37 +1,45 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 211 -->
-
-3. Auch werde von a zu h ein Strich ah gezogen.
-4. Dieser Strich werde ebenfals in zween gleiche Theile ag | gc getheilet/ n. 10. I.
-5. Auff das Mittel f werde ein Senckstrich fe gezogen/n. 11. I.
-6. Deßgleichen aus g der Senckstrich ge. n. 11. I.
-7. Aus e, wo diese Senckstriche einander schneiden / werde
-8. Nach der Weite ec oder ea ein Kreyß gezogen.
+<!-- Page number: 213 -->
 
 ### Beweiß.
 
-Man ziehe die drey Düttele a, h, c mit geraden Strichen ah, hc, ca zusammen/ so ist nach vorhergehendem Vortrag ein Kreyß umb dasselbige Dreyeck (oder durch die 3. Düttele) gezogen / wie allbereit bewiesen. W. Z. M.
+cao ∧ ∟ }
+efo ∧ ∟ } n. 3. Wirck.
+Dw. ef ⧣ ca n. 27. I.
+gfo ∧ efo n. 10. Gr. I.
+Dw. gfe ein gerader Strich/n. 14. I.
+Gleicher Weise eg ⧣ bc
+und ghc ein gerader Strich.
+eg | be }
+bc | ge } n. 34. I.
+aoh ∧ ∟ n. 2. Wirck.
+aoh ∧ ach n. 34. I.
+Dw: ach ∧ ∟ n. 1. Ax. I.
+u. beg ∧ ∟ n. 34. I.
+Dw. bcge ein gleichseitig □ , n. 29. Beschr. I.
+u. dem Kreyß dahf umbschrieben/ n. 4. Besch. IV.
 
-## Der VI. Vortrag.
+### Beschluß.
 
-## Das 6. Werckstück.
+Ist also umb den O dahf ein □ bcge beschrieben. W. Z. M.
 
-Einem Kreyß ein gleichseitiges Viereck einzuschreiben.
+## Der VIII. Vortrag.
 
-### Gegebenes. Begehrte.
+## Das 8. Werckstück.
 
-Kreyß dabc. 1. Gleichseitiges Viereck abcd
-2. dem Kreyß dabc eingeschrieben.
+Einem gegebenen Viereck einen Kreyß einzuschreiben.
+
+### Gegebene. Begehrtes.
+
+Viereck bcde. 1. Kreyß fghi
+2. Dem Viereck eingeschrieben.
 
 ### Wirckung.
 
-1. Durch den Mittel-Düpffel e werde der Durchschlag db,
-2. Und durch diesen Durchschlag/ und zwar auch durch den Mittel-Düpffel e, werde ein Senckstrich ac gezogen/ n. 11. I.
-3. Werden die geraden Striche ab, bc, cd, da gezogen.
+1. Werden die Zwergstriche bd, ec gezogen.
+2. Alle Seiten des Vierecks bc, cd, de, eb werden in zwey gleiche Theile bf | fc : ci | id und so weiter/ getheilet/n. 10. I.
 
-[Diagram: Kreis mit Mittel-Düpffel e und eingeschriebenem Viereck abcd samt beiden Durchschlägen (Diagonalen) ac und db]
+<!-- Signature: Dd 3 -->
 
-<!-- Signature: Dd 2 -->
-
-<!-- Catchword: Be- -->
+<!-- Catchword: 3. Aus -->

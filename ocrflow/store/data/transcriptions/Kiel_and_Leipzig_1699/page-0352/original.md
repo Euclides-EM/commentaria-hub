@@ -1,29 +1,42 @@
-<!-- Page number: 328 -->
+<!-- Page number: 336 -->
 
 <!-- Running title: Das VI. Buch -->
 
-## Der IIX. Vortrag.
+### Beweiß.
 
-## Das 8. Beweiß-Stück.
+|  |  |  |
+|---|---|---|
+|  | b1 ⊤ o1 | n. 2. Wirck. |
+|  | b1 ⊤ o1 | n 3. und 4. Wirck. |
+| Dw. | ob ⊤ 11 | n. 33. I. |
+|  | cbo ⋏ ca1 | ⟩ n. 29. I. |
+|  | cob ⋏ c1a |  |
+|  | bco ⋏ ac1 | n. 8. Gr. I. |
+| Dw. | △ boc ähnlich △ ac1 | n 1. Besch. VI. |
+| u. | oc : o1 ⊤ bc : ba | n. 4. VI. |
 
-Wenn aus dem rechten Winckel eines rechtwincklichten Dreyecks ein bleyrechter Senckstrich auf den (dem rechten Winckel gegen über stehenden) Grundstrich gezogen wird; So sind durch diesen Senckstrich gemachte beyde Dreyecke / so wol unter sich / als auch dem gantzen Dreyecke gleichähnlich.
+Gleicher Gestalt kan auch dargethan werden/ daß die übrigen Theile des gegebenen Striches / mit den andern Theilen des getheilten Striches / in richtiger Ebenmaß stehen.
 
-### Gegebenes.
+### Beschluß.
 
-1. Dreyecke abc
-2. Welches rechtwincklicht/
-3. Aus dessen rechten Winckel a
-4. Ein Strich d
-5. Auf den Grundstrich bc
-6. Bleyrecht gezogen ist.
+Ist also der gegebene Ungetheilte Strich ag, oder FG oder BC also / wie der getheilte Strich AD, AG oder o4 getheilet/ W. Z. M.
+
+## Der XI. Vortrag.
+
+## Das 3. Werck-Stück.
+
+Zu zweyen gegebenen geraden Strichen den dritten ebenmässigen Strich zu finden.
+
+### Gegebene.
+
+1. Strich AB.
+2. AC.
 
 ### Begehrtes.
 
-△ | | △
-abc | | abd
-abc | ähnlich | adc
-abd | | adc
+1. Der dritte Strich cd.
+2. Ebenmässig gegen die beyden
 
-[Diagram: rechtwinkliges Dreieck abc mit punktierter Senkrechte ad auf die Grundlinie cb]
+AB : AC ⊤ AC : cd.
 
-<!-- Catchword: I. Beweiß. -->
+<!-- Catchword: Wir- -->

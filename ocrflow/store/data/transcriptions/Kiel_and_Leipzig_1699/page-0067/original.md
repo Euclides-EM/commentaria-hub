@@ -1,40 +1,36 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 49 -->
+<!-- Page number: 51 -->
 
-Andere Begebenheit (2. Casus.)
+3.  AB + AC | ab + ac
+4.  AB      | ab
+5.      AC  |     ac
+6.  CB      ⊢     bc
 
-AD | ac        n. 2. Gegeb.
-AB | ab        n. 4. Vorber.
-BAC ⋏ bac      n. 23. Vortr.
-D.w   BC | bc      n. 4. Vortr.
-      bc ⊢ cd      n. 9. Gr-S.
-Dw. BC ⊢ cd      n. 1. Gr-S.
-
-Dritte Begebenheit.
-
-### Gegebene.
-
-1. AB | AC
-2. AD | Ad
-
-### Vorbereitung.
-
-1. Auff des Striches Ad Düttel A setze man den ⋀ bAd
-2.        Also daß    bAd ⋏ BAC   nach 23. Vortr.
-3.        und         Ab | AB     n. 3. Vortr.
-4.    Es werden gezogen cb
-5.        wie auch      db
-6.  Ab werde verlängert gegen f.
-7.  Ac  -  -  -  -  -  gegen e.
-
-[Diagram: III. Casus. Zwei Dreiecke: links Dreieck ABC, rechts Dreieck ACd mit punktierten Linien zu b und f]
+[Diagram: Zwei Dreiecke ABC und abc nebeneinander]
 
 ### Beweiß.
 
-bAd ⋏ BAC.     n. 2. Vorber.
-Ab | AB        n. 3. Vorber.
+Entweder ist   BAC ⋏ bac
+oder           BAC ⊼ bac
+oder           BAC ⊼ bac
 
-<!-- Signature: G -->
+Wann BAC ⋏ bac      So ist BC | bc
+        n. 4. Vortr. welches wider 6. Gegeb.
+ist aber BAC ⊣ bac      So ist BC ⊣ bc
+        n. 24. Vortr. welches auch wider 6. Gegeb.
+Dw. muß BAC ⊼ bac
 
-<!-- Catchword: Ad -->
+### Beschluß.
+
+Ist also jederzeit in dem △, dessen Grund-Seite grösser / als des andern / auch der Winckel grösser/als in dem andern △. W. Z. B.
+
+## Der XXVI. Vortrag.
+
+## Das 17. Beweiß-Stück.
+
+Wann zwey Dreyecke zween Winckel/zweyen Winckeln / jedweden jedwedem / und eine Seite der einen Seite gleich haben / es sey gleich / daß die Seite einem der beeden Winckel übergespannet/oder neben den beeden Winckeln stehet : So
+
+<!-- Signature: G 2 -->
+
+<!-- Catchword: wer- -->

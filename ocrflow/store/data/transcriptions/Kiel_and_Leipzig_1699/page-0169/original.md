@@ -1,39 +1,37 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 151 -->
+<!-- Page number: 153 -->
 
 ### Vorbereitung.
 
-So werde durch die beeden angenom̄enen Mittel-Düpffele a und b ein gerader Strich / welcher auf die beeden Anrührungs-Düttele c und d stosse / gezogen.
+So ziehe man 1. aus dem Anrührungs-Düttel b einen geraden Strich/durch die beeden Mittel-Düpffele o und d, zu dem eussersten Kreyß.
+2. Es werden zu dem andern Anrührungs-Düttel aus dem Mittel-Düpffel o, wie auch
+3. aus d gerade Striche oa und da gezogen.
 
 ### Beweiß.
 
-ad | ac — n. 15. Beschr. I. und nach Angen.
-ad ⊣ bd — n. 9. Gr. I.
-Dw. ac ⊣ bd — n. 1. Gr. c. I.
-bc | bd — n. 15. Beschr. I. und nach Angen.
-Dw. ac ⊣ bc — n. 1. Gr. a. I.
-Welches unmüglich n. 9. Gr. I.
+do + oa ⊣ da — n. 20. I.
+ob | oa — n. 15. Besch. I.
+do + oa + ob ⊣ da + oa — n. 3. Gr. S. I.
+oa | oa
+do + ob ⊣ da — n. 5. Gr. I.
+Oder db ⊣ da — n. 9. Gr. q. I.
+Welches unmüglich nach 15. Beschr. I.
 
-### II. Begebenheit.
+### V. Begebenheit.
 
-Wann der inwendige Kreyß den eussern in h und g anrühret.
-
-[Diagram: zwei Kreise, deren innerer den äusseren oben in h und g anrühret; im Innern die Mittel-Düpffele f und e mit punktierten Stralen nach h und g]
+Wenn zween Kreyse einander auswendig bey s/und t anrühren.
 
 ### Vorbereitung.
 
-So seyen 1. die beeden Mittel-Düpffele e und f.
-2. darnach werden aus den Anrührungs-Dütteln die Stralen hf, he, gf und ge, zu den beeden Mittel-Düpffeln gezogen.
+Es werde von einem Anrührungs-Düttel s zu dem andern t der gerade Strich st gezogen.
+
+[Diagram: zwei einander schneidende Kreise; an den Durchschnitten oben s und unten t, dazwischen ein punktierter Strich; im rechten Kreis der Punkt u]
 
 ### Beweiß.
 
-hf | gf — n. 15. Beschr. I. und nach angen.
-fe | fe
-hf + fe | gf + fe — n. 2. Gr. I.
-ge ⊢ gf + fe — n. 20. I.
-Dw. ge ⊢ hf + fe — n. 1. Gr. b. I.
-Oder ge ⊢ he — n. 9. Gr. q. I.
-Welches unmüglich n. 15. Beschr. I.
+Dieser gerade Strich wird ausser den Kreiß stu fallen / da doch seine beeden Endungen in gedachtem Kreyse stehen / welches unmüglich/n. 2. III.
 
-<!-- Catchword: III. Be- -->
+<!-- Signature: V -->
+
+<!-- Catchword: Be- -->

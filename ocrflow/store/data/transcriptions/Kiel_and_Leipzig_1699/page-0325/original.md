@@ -1,49 +1,33 @@
+<!-- Page number: 309 -->
+
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 301 -->
+Welches aber unmüglich n. 9. Gr. I.
+Dergleichen wird auch folgen/ wenn man sagen wolte
+gp ⊣ hp
+muß derowegen gp | hp seyn. II.
 
-### I. Gegebene.
+### Beschluß.
 
-[Diagram: zwei waagerechte Linien A und B mit angesetzten Stücken a]
+Werden derowegen allezeit solche nebenstrichichte Vierecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ auch gleichmässige Höhen haben. W. Z. B.
 
-A ⊣ B
-a | a
+## Des I. Vortrags II. Zugabe.
 
-### Begehrtes.
-A + a : B + a ⊢ A : B
+Diejenigen Dreyecke / und nebenstrichichte Vierecke/ welche gleichmässige Grundstriche haben/ verhalten sich also/ wie ihre Höhen/ zusammen.
 
-### Beweiß.
+### Gegebene.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | A | ⊣ B | n. Geg. |
-|  | a | \| a |  |
-| Dw. | A + a | ⊣ B + a | n. 4. Gr. I. |
-|  | a \| | a |  |
-| Dw. | A + a : a | ⊣ B + a : a, | n. 8. V. |
-|  | A + a : A | ⊢ B + a : B | n. 30. V. |
-|  | A + a : B + a | ⊢ A : B | n. Anh. 28. V. |
+1. Zwey Dreyecke A und B.
+2. Beyde Grundstriche ab | ef
+3. Beyde Höhen de ⊣ bc
 
-### II. Gegebene
+[Diagram: Zwei Dreyecke A und B mit den Punkten a, b, c, d, e, g, f, links das Dreyeck A über der Grundlinie ab, rechts das Dreyeck B über ef, mit gestrichelten Hülffslinien]
 
-[Diagram: zwei waagerechte Linien A und B mit abgeteilten Stücken]
+### Vorbereitung.
 
-A ⊣ B
-a | a
+1. Weil die Höhe de ⊣ bc — n. 3. Gegeb.
+2. so werde ge | bc — n. 3. I.
+3. werde der gerade Strich gf gezogen.
 
-### Begehrtes.
-A — a : B — a ⊣ A : B
-
-### Beweiß.
-
-|  |  |  |  |
-|---|---|---|---|
-|  | A | ⊣ B | n. Geg. |
-|  | a \| | a |  |
-| Dw. | A : a | ⊣ B : a | n. 8. V. |
-|  | A : B | \| a : a | n. 27. V. |
-| Dw. | A — a : B — a | ⊣ A : B | n. 33. V. |
-
-<!-- Signature: Pp 3 -->
-
-<!-- Catchword: oder: -->
+<!-- Signature: Qq 3 -->
+<!-- Catchword: Beweiß. -->

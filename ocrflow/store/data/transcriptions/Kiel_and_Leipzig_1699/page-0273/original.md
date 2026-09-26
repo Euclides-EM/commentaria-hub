@@ -1,35 +1,33 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 249 -->
-
-### Beschluß.
-
-Wenn derowegen aus vier Grössen die I. zu der II. in solcher Verhältnüß / wie die III. zu der IV. stehet; Und die V. zu der I. sich also wie die VI. zu der III. und auch die VII. zu der II. wie die IIX. zu der IV. sich verhält: So wird auch die V. zu der VII. also wie die VI. zu der IIX. sich verhalten. W. Z. B.
-
-## Der V. Vortrag.
-
-## Das 5. Beweiß-Stück.
-
-Wenn die Erste Grösse eben so vielfältig ist gegen die Andere Grösse / als das von der Ersten abgenommene Stück gegen das von der andern abgenommene Stück: So wird auch das Erste Übergebliebene gegen das Andere Übergebliebene eben so vielfältig seyn / als die Erste gantze Grösse gegen die Andere gantze Grösse.
-
-### Gegebene. — Begehrtes.
-
-[Diagram: Zwey waagerechte Linien mit Teilstrichen, bezeichnet A und B]
-
-1. A | 2B
-2. a | 2b — A—a : B—b | A : B
-3. A : B | a : b
+<!-- Page number: 257 -->
 
 ### Beweiß.
 
-A | 2B — n. 1.
-a | 2b — n. 2. Gegeb.
-A—a | 2B—2b — n. 3. Gr. I.
-2B—2b | Zwiefach B—b
-Dw. A—a | Zwiefach B—b — n. 6. Gr. kk. I.
-und A | Zwiefach B — n. 1. Gegeb.
-Dw. A—a : B—b | A : B. — n 7. Beschr. V.
+a | 3b
+A | 2b
+B | 2b — n. Gegebenen.
+Dw. A | B — n. 6. Gr. I.
 
-<!-- Signature: Ji -->
+Oder also:
 
-<!-- Catchword: Beschluß. -->
+Wenn A ⊣ B — so muß
+auch a : A ⊢ a : B — n. 8. V.
+ist aber A ⊢ B — so muß
+auch a : A ⊣ a : B — n. 8. V.
+
+Welches aber beedes wider das Gegebene.
+
+### Beschluß.
+
+Müssen also diejenigen Grössen / welche zu einer einigen Grösse gleiche Verhältnüß haben / gleich groß seyn: Und diejenigen Grössen/ zu welchen eine einige Grösse gleiche Verhältnüß hat/ müssen auch gleich groß seyn. W. Z. B.
+
+## Der X. Vortrag.
+
+## Das 10. Beweiß-Stück.
+
+Welche aus zwo Grössen zu einer einigen Grösse die Grössere Verhältnüß hat / dieselbige wird auch die Grösseste seyn: Und zu welcher Grösse eine einige Grösse die grössere Verhältnüß hat / dieselbige wird am kleinesten seyn.
+
+<!-- Signature: Kk -->
+
+<!-- Catchword: Gege- -->

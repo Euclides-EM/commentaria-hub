@@ -1,42 +1,33 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 323 -->
+<!-- Page number: 331 -->
 
-Dw. | a ⋏ D
-u. | ECD ⋏ abc
-u. | DEC ⋏ acb | n. Zugab 8. I.
+Dw. | ab : db | 6. : 1. | n. Anh. 7. V.
+u. | db | 1/6 ab | n. Anh. 7. V.
 
 ### Beschluß.
 
-Müssen derowegen diejenigen Dreyecke / deren Seiten in richtiger Ebenmaß stehen / gleichwincklicht seyn. W. Z. B.
+Ist also von dem Strich ab desselben Sechster Theil db abgeschnitten. W. Z. M.
 
-## Der VI. Vortrag.
+## Der X. Vortrag.
 
-## Das 6. Beweiß-Stück.
+## Das 2. Werck-Stück.
 
-Wenn in zweyen Dreyecken zweene gleichmässige winckel gefunden werden / deren Seiten ebenmässig sind : So sind diese Dreyecke durchaus gleichwincklicht / und dererselben ebenmässige Seiten überspannen gleichmässige Winckel.
+Einen gegebenen geraden ungetheilten Strich eben so/ wie der gegebene getheilte Strich ist/ abzutheilen.
 
 ### Gegebene.
 
-1. △ abc und △ edf.
-2. bac ⋏ def.
-3. ba : ac | de : ef
+1. Ungetheilter gerader Strich ag.
+2. Getheilter Strich AD in B und C.
 
-### Begehrte.
+### Begehrtes.
 
-1. acb ⋏ efd.
-2. abc ⋏ edf.
-3. △ abc gleichwincklicht △ edf.
+1. Der Strich ag also
+2. wie AD getheilet/ daß
+| AB : BC | ae : df
+u. | BC : CD | ef : fg.
 
-[Diagram: zwei Dreiecke, links abc, rechts edf mit punktierten Linien zu einem Punkt g oberhalb]
+[Diagram: zwei Dreiecksfiguren über der Grundlinie A B C D M L C B A; links Dreieck mit den Punkten a, b, c, d, k und punktierten Linien über e, f, g mit i, h; rechts Dreieck mit den Punkten a, b, c, l, m, d und den Zwischenpunkten g, r, f, e, s sowie h, n, i, o, p, q, t, u, x]
 
-### Vorbereitung.
-
-Auf den Strich ed werden gesetzet
-
-1. deg ⋏ bac
-2. gde ⋏ abc | n. 23. I.
-3. werden gezogen eg und dg.
-
-<!-- Signature: Ss 2 -->
-<!-- Catchword: Beweiß. -->
+<!-- Signature: Tt 2 -->
+<!-- Catchword: I. Ahrt -->

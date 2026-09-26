@@ -1,49 +1,47 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 265 -->
+<!-- Page number: 273 -->
 
-### I. Gegebene. | Begehrtes.
+### I. Gegebene.
 
-A ________ | a ⊣ b.
-a ____
-B ______
-b __
+A ________ | A : B : C
+B ______ | a : b : c
+C ____
+a ______ | A : B | a : b
+b ____ | B : C | b : c
+c __ | A ⊣ C
 
-[Diagram: Strecken A, a, B, b]
+[Diagram: Strecken A, B, C, a, b, c]
 
-A : a | B : b
-A ⊣ B
+### Begehrtes.
+
+a ⊣ c
 
 ### Beweiß.
 
-A | 3a
-B | 3b
-A ⊣ B — n. Gegeb.
-Dw. 3a ⊣ B — n. 1. Gr. c. I.
-und 3a ⊣ 3b — n. 1. Gr. a. I.
-Dw. a ⊣ b — n. 7. Gr. p. I.
+a : b | A : C
+A ⊣ C — n. Geg.
+B | B
+Dw. A : B ⊣ C : B — n. 8. V.
+α und a : b ⊣ C : B — n. 13. V.
+b : c | B : C — n. Geg.
+c : b | C : B — n. 16. V.
+a : b ⊣ C : B — n. Bew. α
+Dw. a : b ⊣ c | b — n. 13. V.
+b | b
+u. a ⊣ c — n. 10. V.
 
-### II. Gegebene. | Begehrte.
+### II. Gegebene.
 
-A ________ | a | b
-a ____
-B ________
+A ________________ | A : B | a : b
+B ______ | B : C | b : c
+C ________________ | A | C
+a ______
 b ____
+c ______
 
-[Diagram: Strecken A, a, B, b]
+[Diagram: Strecken A, B, C, a, b, c]
 
-A : a | B : b
-A | B
+<!-- Signature: Mm -->
 
-### Beweiß.
-
-A | 3a
-B | 3b — nach Gegeb.
-A | B
-Dw. 3a | B
-und 3a | 3b — n. 1. Gr. I.
-Dw. a | b — n. 7. Gr. p. I.
-
-<!-- Signature: Ll -->
-
-<!-- Catchword: Gege- -->
+<!-- Catchword: Begehr- -->

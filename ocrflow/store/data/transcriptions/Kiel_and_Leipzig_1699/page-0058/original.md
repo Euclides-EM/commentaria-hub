@@ -1,41 +1,36 @@
-<!-- Page number: 40 -->
+<!-- Page number: 42 -->
 
-<!-- Running title: Das I. Buch. -->
+<!-- Running title: Das I. Buch -->
 
-### 2. Vorbereitung.
-1. Von der Seite BA werde abgeschnitten BE | BC n. 3. Vortr.
-2. Werde gezogen der Strich EC
+sammen / sie mögen genommen werden / wie sie wollen / allezeit grösser / als die dritte.
 
-### Beweiß.
+### Gegebenes. Begehrte.
+△ ABC. 1. AB + BC ⊣ CA
+2. CA + AB ⊣ BC
+3. BC + CA ⊣ BA.
 
-AB ⊣ BC n. 4. Gegeb.
-BE | BC n. Vorber.
-BEC ⋀ BCE n. 5. Vortr.
-BEC ⲗ BAC n. 16. Vortr.
-Drw. BCE ⲗ BAC n. 1. Gr-S. c.
-BCA ⲗ BCE n. 9. Gr-S.
-Drw. BCA ⲗ BAC n. 1. Gr-S. e.
+### Vorbereitung.
 
-### 3. Vorbereitung.
-1. Von der Seite CA werde abgeschnitten CF | CB n. 3. Vortr.
-2. Werde gezogen der Strich BF.
+1. Werde die Seite CA nach nohturfft verlängert. n. 2. Fod.
+2. werde AD | AB n. 3. Vortr.
+3. Ziehe man den geraden Strich BD.
+
+[Diagram: Dreieck ABC mit C unten links, B unten rechts, A oben; die Seite CA über A hinaus punktiert verlängert bis D, punktierte Linie von D nach B.]
 
 ### Beweiß.
 
-CA ⊣ CB n. 3. Gegeb.
-CF | CB n. Vorber.
-BFC ⋀ CBF n. 5. Vortr.
-BFC ⲗ BAC n. 16. Vortr.
-Dw. CBF ⲗ BAC n. 1. Gr-S. c
-CBA ⲗ CBF n. 9. Gr-S.
-Dw. CBA ⲗ BAC n. 1. Gr-S. e
+AD | AB n. 2. Vorbereitung.
+Drw. ADB ⋀ ABD n. 5. Vortr.
+CBD ⲗ ABD n. 9. Gr-S.
+CBD ⲗ CDB n. 1. Gr-S. a.
+CD ⊣ CB n. 19. Vortr.
+CA | CA
+CA + AD | CA + AB n. 2. Gr-S.
+aber CA + AD | CD n. 9. Gr-S. q.
+Drw. CA + AB ⊣ CB n. 1. Gr-S. c.
 
-Ist also jedwedes △es längste Seite / über den grössesten Winckel gespannet. W. Z. B.
+Gleicher Weise kan auch erwiesen werden
+daß AB + BC ⊣ CA
+und BC + CA ⊣ BA
 
-## Der XIX. Vortrag.
-
-## Das 12. Beweiß-Stück.
-
-Jedwedes Dreyeckes grössester Winckel ist der längsten Seite entgegen gesetzet.
-
-<!-- Catchword: Ge- -->
+<!-- Catchword: Beschluß. -->

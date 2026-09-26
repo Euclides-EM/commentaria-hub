@@ -1,39 +1,37 @@
-<!-- Page number: 37 -->
+<!-- Page number: 39 -->
 
 <!-- Running title: Euclidis. -->
 
-### Vorbereitung.
+### Beschluß.
+Müssen also jedwedes △es zweene Winckel auff allerley Weise genommen/ kleiner seyn/ als ⊥. W. Z. B.
 
-Es werden
-1. Die Seite CA gegen G,
-2. - - - BA gegen D verlängert.
-3. - - - CA in zween gleiche Theil bey H bey E, geschnitten
-4. - - - BA - - -
-5. Ein gerader Strich aus B durch E gegen F.
-6. - - - - - - C - - H - - I gezogen.
-8. machet man EF | EB
-9. - - - HI | HC
-10. Zeucht man den geraden Strich AF.
-11. - - - - - - - - AI.
+## Der XIIX. Vortrag.
 
-[Diagram: Dreieck mit verlängerten Seiten und punktierten Linien; bezeichnete Punkte D, A oben, E, H in der Mitte, B, C, I unten.]
+## Das 11. Beweiß-Stück.
+
+Jedwedes Dreyeckes längste Seite überspannet den grössesten Winckel.
+
+### Gegebene. Begehrte.
+1. △ ABC
+2. AC ⊣ AB 1. ABC ⲗ BCA.
+3. AC ⊣ CB 2. ABC ⲗ BAC.
+4. AB ⊣ CB 3. ACB ⲗ BAC.
+
+[Diagram: Dreieck ABC mit B oben, A unten links, C unten rechts; Punkte E auf AB, F und D auf AC, punktierte Linien von B nach F und D.]
+
+### 1. Vorbereitung.
+1. Von dem Strich AC werde abgeschnitten AD | AB, n. 3. Vortr.
+2. Werde der Strich BD gezogen.
 
 ### Beweiß.
 
-EC | EA nach 10. Vortr.
-EB | EF, nach 3. Vortr.
-EC + EB | EA + EF, nach 2. Gr-S.
-BEC ⋀ AEF nach 15. Vortr.
-Drw. BCE ⋀ FAE nach 4. Vortr.
-DAE ⋀ FAE nach 9. Gr-S.
-Drw. DAE ⋀ BCE nach 1. Gr-S. a.
-oder DAC ⋀ BCA.
+AB ⊢ AC n. 2. Gegeb.
+BA | AD n. 1. Vorber.
+Dw. BDA ⋀ DBA n. 5. Vortr.
+BDA ⲗ BCA n. 16. Vortr.
+Dw. DBA ⲗ BCA n. 1. Gr-S. a.
+ABC ⲗ DBA n. 9. Gr-S.
+Dw. ABC ⲗ BDA n. 1. Gr-S. a.
+und ABC ⲗ BCA n. 1. Gr-S. e.
 
-Gleicher gestalt
-
-GAB ⋀ ABC
-GAB ⋀ DAC nach 15. Vortr.
-Drw. DAC ⋀ ABC nach 1. Gr-S. c.
-
-<!-- Signature: E 3 -->
-<!-- Catchword: Ist -->
+<!-- Catchword: 2. Vor- -->

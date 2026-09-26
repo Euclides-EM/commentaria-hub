@@ -1,33 +1,20 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 286 -->
-
-### Beweiß.
-
-|  |  |  |
-|---|---|---|
-| B : c | A : a | n. Vorbereit. |
-| A : a | ⊣ B : b | n Gegeb. |
-| Dw. B : c | ⊣ B : b | n. 13. V. |
-| und c | ⊦ b | n 10. V. |
-| a : A | c : B | n. Anh. 4. V. |
-| c : B | ⊦ b : B | n. 8. V. |
-| Dw. a : A | ⊦ b : B | n. Anh. 13. V. |
+<!-- Page number: 294 -->
 
 ### Beschluß.
+Wenn derowegen VI. Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die IV. zu der V. auch die II. zu der III. eine grössere Verhältnüß / als die V. zu der Sechsten hat: So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
 
-Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auf umgekehrte Weise die II. zu der I. eine kleinere Verhältnüß / als die IV. zu der III. haben/ W. Z. B.
+## Der XXXII. Vortrag.
+## Das 32. Beweiß-Stück.
 
-## Der XXVII. Vortrag.
-
-## Das 27. Beweiß-Stück.
-
-Wenn man vier Grössen hat/ deren Erste zu der Andern eine grössere Verhältnüß hat / als die Dritte zu der Vierten: So wird auch hinwiederum die Erste zu der Dritten eine grössere Verhältnüß haben/ als die Andere zu der Vierten.
+Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darzu genommen werden. Unter den Ersten dreyen aber die Erste zu der Andern eine grössere Verhältnüß hat / als in der andern Ahrt die Andere zu der Dritten. Deßgleichen unter der Ersten die Andere zu der Dritten eine grössere Verhältnüß hat / als unter den Andern die Erste zu der Andern; So wird auch nach der Gleichheit die Erste der ersten Ahrt zu der Dritten selbiger Ahrt eine grössere Verhältnüß haben / als die Erste der andern Ahrt zu der Dritten solcher Ahrt.
 
 ### Gegebene.
 
-[Diagram: fünf Linien A, c, a, B, b von verschiedener Länge am linken Rand]
+[Diagram: sechs waagerechte Linien A, B, C, a, b, c von unterschiedlicher Länge]
 
-A : a ⊣ B : b
+A : B ⊣ b : c
+B : C ⊣ a : b
 
 <!-- Catchword: Begehrtes. -->

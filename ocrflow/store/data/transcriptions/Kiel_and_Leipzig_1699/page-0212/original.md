@@ -1,30 +1,36 @@
 <!-- Running title: Das III. Buch -->
 
-<!-- Page number: 194 -->
-
-[Diagram: Kreis mit Punkten c links, e und b oben rechts, n in der Mitte, d und l unten links, a unten]
-
-### Vorbereitung.
-
-Aus dem Mittel-Düpffel e werden gezogen
-1. Zu des Striches ac Endung c der Strich ec.
-2. Zum Ende des Striches bd der Strich ed.
-3. Zum Düttel l, wo die beeden Striche einander durchschneiden / der Strich el.
-4. Auff den andern Strich bd, der Senckstrich en n 12. I.
-
-### Beweiß.
+<!-- Page number: 196 -->
 
 |  |  |  |  |
 |---|---|---|---|
-|  | ▭ bld + □ ln | □ dn | n. 5. II. |
 |  | □ en | □ en |  |
-| Dw. | ▭ bld + □ ln + □ en | □ dn + □ en | n. 2. Gr. I. |
-|  | □ ed | □ dn + □ en | n. 47. I. |
-| Dw. | ▭ bld + □ ln + □ en | □ ed | n. 1. Gr. I. |
-|  | □ el | □ ln + □ en | n. 47. I. |
-| Dw. | ▭ bld + □ ln + □ en + □ el | □ ed + □ ln + □ en | n. 2. Gr. I. |
-|  | ▭ bld + □ el | □ ed | n. 3. Gr. I. |
-|  | ed | ec | n. 15 Besch. I. |
-|  | □ ed | □ ec | n. 1. Gr. t. II. |
+| Dw. | ▭ alc + □ nl + □ en | □ nc + □ en | n 2. Gr. I. |
+|  | □ [unclear: el] | □ nc + □ en | □ ec n. 47. I. |
+|  | ▭ alc + □ nl + □ en + □ nc + □ en | □ nc + □ en + □ ec | n. 2. Gr. I. |
+|  | ▭ alc + □ nl + □ en |  | □ ec n. 3. Gr. I. |
+|  | □ el | □ nl + □ en | n. 47. I. |
+|  | ▭ alc + □ nl + □ en + □ el | □ nl + □ en + □ ec | n. 2. Gr. I. |
+| α. | ▭ alc + □ el |  | □ ec n. 3. Gr. I. |
+|  | eh | Senckstr. | n. 3. Vorb. |
+| Dw. | dh | hb | n. 3. III. |
+| und | ▭ dlb + □ lh | ▭ hb | n. 5. II. |
+|  | □ eh | □ eh |  |
+|  | ▭ dlb + □ lh + □ eh | □ hb + □ eh | n. 2. Gr. I. |
+|  | □ hb + □ eh |  | □ eb n. 47. I. |
+| Dw. | ▭ dlb + □ lh + □ eh + □ hb + □ eh | □ hb + □ eh + □ eb | n. 2. Gr. I. |
+|  | ▭ dlb + □ lh + □ eh |  | □ eb n. 3. Gr. I. |
+|  | ec |  | eb n. 15. Besch I. |
+|  | □ ec | □ eb | n. 1. Gr. t. II. |
+| Dw. | ▭ dlb + □ lh + □ eh | □ ec | n. 1. Gr. I. |
+|  | □ el | □ lh + □ eh | n. 47. I. |
+| Dw. | ▭ dlb + □ lh + □ eh + □ el | □ ec + □ lh + □ eh | n. 2. Gr. I. |
+|  | ▭ dlb + □ el | □ ec | n 3 Gr. I. |
+| Dw. | ▭ dlb + □ el | ▭ alc + □ el α | n. 1. Gr. I. |
+| u. | □ dlb | ▭ alc | n. 3. Gr. I. |
 
-<!-- Catchword: Dw. -->
+### Beschluß.
+
+Wird also/ wann zween gerade Striche ac, bd, so in einem Kreyß bcda stehen/ einander durchschneiden/ das rechtwincklichte Viereck/ welches von des einen Striches Stücken al, lc begriffen
+
+<!-- Catchword: wird -->

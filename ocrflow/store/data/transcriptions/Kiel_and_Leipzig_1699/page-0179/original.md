@@ -1,28 +1,35 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 161 -->
-
-### Beschluß.
-
-Wenn nun auff eines Kreyses cgf Durchschlags fc Ende-Düttel c ein Senckstrich bc gesetzet ist/ so muß solcher Senckstrich bc ausser den Kreyß fallen ; und zwischen solchem Senckstrich bc und Kreyßzug gdc kan kein anderer gerader Strich stehen. : Es wird auch der gemischte Winckel acg grösser/ und der eussere Winckel gcb kleiner/als alle spitzige Winckel seyn. W. Z. B.
-
-## Der XVII. Vortrag.
-
-## Das 2. Werckstück.
-
-Aus einem gegebenen Düttel einen geraden Strich zu ziehen/ welcher den gegebenen Kreyß anrühre.
+<!-- Page number: 163 -->
 
 ### Gegebene. Begehrtes.
 
-1. Düttel e. — 1. Gerader Strich ec
-2. Kreyß fcd. — 2. Aus e gezogen also/ daß es
-3. Den Kreyß fcd anrühre.
+1. Kreyß fda. — ba ein Senckstrich des Rührstrichs ca
+2. Gerader Rühr Srich ca.
+3. Rührdüpffel a.
+4. Gerader Strich ba
+5. Auß dem Mittel-Düpffel b
+6. Zu dem Rühr-Düpffel a gezogen.
 
-[Diagram: kleiner Kreis fcd mit Mittel-Düpffel b, darum ein grosser punktierter Kreis durch a und e; vom Düttel e Linien nach a, d und b, mit Punkten c und d]
+[Diagram: Kreis fda mit Mittel-Düpffel b, oben die waagerechte Rührlinie durch a und c, der Strich ba senkrecht, punktierte Linie von b nach c mit Punkt d am Kreyßzug]
 
-### Wirckung.
+### Vorbereitung.
 
-1. Aus dem gegebenen Düttel e werde zu des gegebenen Kreyses Mittel-Düpffel b ein gerader Strich eb gezogen.
+Wenn ba kein Senckstrich/ so ziehe man einen Senckstrich bc.
 
-<!-- Signature: X -->
-<!-- Catchword: 2. Nach -->
+### Beweiß.
+
+bc ein Senckstrich — n. angenommen.
+Dw. bca ∠ ∟ — n. 10. Beschr. I.
+u. bca ⅄ bac — n. 17. I.
+Dw. ba ⊣ bc — n. 19. I.
+ba | bd — n. 15. Beschr. I.
+Dw. bd ⊣ bc — n. 1. Gr. c. I.
+Welches aber unmüglich — n. 9. Gr. I.
+
+### Beschluß.
+
+Wird also der auß dem Mittel-Düpffel b zu dem Rührdüpffel a gezogene Strich ba ein Senckstrich des Rührstrichs ca seyn. W. Z. B.
+
+<!-- Signature: X 2 -->
+<!-- Catchword: Der -->

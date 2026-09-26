@@ -1,35 +1,32 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 163 -->
-
-### Gegebene. Begehrtes.
-
-1. Kreyß fda. — ba ein Senckstrich des Rührstrichs ca
-2. Gerader Rühr Srich ca.
-3. Rührdüpffel a.
-4. Gerader Strich ba
-5. Auß dem Mittel-Düpffel b
-6. Zu dem Rühr-Düpffel a gezogen.
-
-[Diagram: Kreis fda mit Mittel-Düpffel b, oben die waagerechte Rührlinie durch a und c, der Strich ba senkrecht, punktierte Linie von b nach c mit Punkt d am Kreyßzug]
-
-### Vorbereitung.
-
-Wenn ba kein Senckstrich/ so ziehe man einen Senckstrich bc.
-
-### Beweiß.
-
-bc ein Senckstrich — n. angenommen.
-Dw. bca ∠ ∟ — n. 10. Beschr. I.
-u. bca ⅄ bac — n. 17. I.
-Dw. ba ⊣ bc — n. 19. I.
-ba | bd — n. 15. Beschr. I.
-Dw. bd ⊣ bc — n. 1. Gr. c. I.
-Welches aber unmüglich — n. 9. Gr. I.
+<!-- Page number: 165 -->
 
 ### Beschluß.
 
-Wird also der auß dem Mittel-Düpffel b zu dem Rührdüpffel a gezogene Strich ba ein Senckstrich des Rührstrichs ca seyn. W. Z. B.
+Man mag nun einen Düttel des Kreyses ausser dem Senckstrich cd nehmen/ welchen man wolle/ so wird allezeit diese Unmügligkeit nach dem 9. Gr. I. erscheinen : Muß derohalben nothwendig der Mitteldüpffel in dem Senckstrich cd stecken. W. Z. B.
 
-<!-- Signature: X 2 -->
-<!-- Catchword: Der -->
+## Der XX. Vortrag.
+
+## Das 18. Beweiß-Stück.
+
+Jn jedwedem Kreyß ist des Mitteldüpffels-Winckel noch einmahl so groß / als der auff eben solchem Kreyßzug stehende Kreyßstücks Winckel.
+
+### Gegebene. Begehrtes.
+
+1. Kreyß bcde. — cad ∠ 2 [unclear: abc]
+2. Kreyßdüpffels-Winckel cad.
+3. Jn dem Kreyß stehender Winckel cbd.
+4. Bogen/ auff welchem beede Winckel stehen cd.
+
+[Diagram: Kreis bcde mit Mitteldüpffel a, Punkt b oben, e rechts oben, c unten links, d unten; Striche bc, bd, ac und ad]
+
+I. Arth.
+
+ab | ac — n. 15. Beschr. I.
+Dw. abc ∠ acb — n. 5. I.
+cad ∠ abc + acb — n. 32. I.
+cad + abc ∠ abc + acb + acb — n. 2. Gr. I.
+abe ∠ [unclear: abc]
+Dw. cad ∠ acb + acb — n. 3. Gr. I.
+oder cad ∠ [unclear: acb] — n. 9. Gr. q. I.

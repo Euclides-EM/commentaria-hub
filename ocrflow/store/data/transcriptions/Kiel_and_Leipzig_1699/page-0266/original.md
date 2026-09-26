@@ -1,27 +1,27 @@
 <!-- Running title: Das V. Buch -->
 
-<!-- Page number: 242 -->
+<!-- Page number: 250 -->
 
-[Diagram: sechs waagerechte Linien, bezeichnet A, 6a, C, B, 6b, D]
+### Beschluß.
 
-### II. Beweiß.
+Wann derowegen das I. Gantze zu dem II. Gantzen sich also verhält / wie das von dem Ersten Gantzen abgenommene / zu dem vom Andern abgenommenen; So wird auch das Erste übergebliebene zu dem Andern übergebliebenen sich also / wie das Erste Gantze zu dem Andern Gantzen verhalten.
 
-|  |  |  |  |
-|---|---|---|---|
-| | A + C | 5a | n. Bew. α |
-| | 5a | ⊢ 6a | n. 9. Gr. I. |
-| γ Dw. | A + C | ⊢ 6a | n. 4. Gr. I. |
-| | B + D | 5b | n. Bew. β |
-| | 5b | ⊢ 6b | |
-| δ Dw. | B + D | ⊢ 6b. | |
+## Der VI. Vortrag.
 
-### Vorbereitung.
+## Das 6. Beweiß-Stück.
 
-1. Man nehme A + C 3 mahl/
-2. Und B + D auch 3 mahl/
-3. Die Grösse a aber 2 mahl
-4. Und b auch 2 mahl.
+Wenn zwo Grössen zweyer Andern Grössen gleichvielfältig sind; darnach zwey von denen Ersten Grössen abgenommene Stücke auch so vielfältig zu denen zwo Andern Grössen sind: So werden die übergebliebene Stücke denen andern zwo Grössen gleich an Grösse / oder gegen dieselben gleichvielfältig seyn.
 
-[Diagram: sechs waagerechte Linien, bezeichnet 3A, 2a, 3C, 3B, 2b, 3D]
+### Gegebene. — Begehrte.
 
-<!-- Catchword: III. Beweiß. -->
+[Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet A, a, B, b]
+
+A—c | a
+B—d | b
+
+1 A | 5a
+2 c | 4a
+3 B | 5b
+4 d | 4b
+
+<!-- Catchword: I. Beweiß. -->

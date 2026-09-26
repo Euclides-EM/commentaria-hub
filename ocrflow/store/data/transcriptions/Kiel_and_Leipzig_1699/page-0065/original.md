@@ -1,33 +1,40 @@
-<!-- Page number: 47 -->
-
 <!-- Running title: Euclidis. -->
+
+<!-- Page number: 49 -->
+
+Andere Begebenheit (2. Casus.)
+
+AD | ac        n. 2. Gegeb.
+AB | ab        n. 4. Vorber.
+BAC ⋏ bac      n. 23. Vortr.
+D.w   BC | bc      n. 4. Vortr.
+      bc ⊢ cd      n. 9. Gr-S.
+Dw. BC ⊢ cd      n. 1. Gr-S.
+
+Dritte Begebenheit.
+
+### Gegebene.
+
+1. AB | AC
+2. AD | Ad
+
+### Vorbereitung.
+
+1. Auff des Striches Ad Düttel A setze man den ⋀ bAd
+2.        Also daß    bAd ⋏ BAC   nach 23. Vortr.
+3.        und         Ab | AB     n. 3. Vortr.
+4.    Es werden gezogen cb
+5.        wie auch      db
+6.  Ab werde verlängert gegen f.
+7.  Ac  -  -  -  -  -  gegen e.
+
+[Diagram: III. Casus. Zwei Dreiecke: links Dreieck ABC, rechts Dreieck ACd mit punktierten Linien zu b und f]
 
 ### Beweiß.
 
-EG | CK n. Wirck. 3.
-EF | CI)
-FG | IK) n. Wirck. 4.
-Drw. FEG | ICK n. 8. Vortr.
+bAd ⋏ BAC.     n. 2. Vorber.
+Ab | AB        n. 3. Vorber.
 
-### Beschluß.
-Ist also auff den gegebenen Düttel C. in dem gegebenen Strich AB, gesetzt ein Winckel ICK ⋀ FEG. W. Z. M.
+<!-- Signature: G -->
 
-## Der XXIV. Vortrag.
-
-## Das 15. Beweiß-Stück.
-
-Wenn zweyer Drey-Ecke zwo Seiten/ zweyen Seiten / jedwede jedweder eines andern Drey-Eckes / gleich sind / der von den beeden Seiten gefassete Winckel aber grösser/ als der Winckel/ welchen die beeden Seiten des andern Drey-Eckes begreiffen : So ist auch der Grundstrich des ersten Dreyeckes grösser/ als der Grundstrich des andern.
-
-### Gegebene. Begehrte.
-1. △ ABC db ⊣ DB
-2. △ a b d
-3. ab | AB
-4. ad | AC
-5. dab ⲗ DAB
-
-### Vorbereitung.
-1. Auff des Striches ab, Düttel a werde gesetzet der Winckel bac.
-2. bac ⋀ BAD
-3. Werde gezogen der gerade Strich ac
-
-<!-- Catchword: 4. ac -->
+<!-- Catchword: Ad -->

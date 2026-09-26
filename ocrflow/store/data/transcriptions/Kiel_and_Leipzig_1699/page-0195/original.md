@@ -1,33 +1,37 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 177 -->
+<!-- Page number: 179 -->
 
-### Gegebene.
-1. Gleichgrosse Kreysse ahca | dged
-2. Striche ac | de
+## Der XXX. Vortrag.
 
-### Begehrte.
-1. ahc ⏀ dge
-2. ac ⊻ de
+## Das 4. Werckstück.
+Einen gegebenen Bogen in zween gleiche Theile zu theilen.
 
-[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, f, d, e, der andere mit h, b, a, c; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]
+### Gegebenes.
+Kreyßstück oder Bogen adb.
+
+### Begehrtes.
+ad ⊻ db.
+
+### Wirckung.
+1. Der Strich ab werde in zween gleiche Theile getheilet. n. 10. I.
+2. Auff das Mittel c werde ein Senckstrich cd gesetzet. n. 11. I.
+
+[Diagram: Kreyßstück über dem Strich ab mit dem Senckstrich cd; die Striche ad und bd punctirt]
 
 ### Vorbereitung.
-Es werden gezogen die Stralen ba, bc, fd, fe.
+Es werden gezogen die beyden geraden Striche ad und bd.
 ### Beweiß.
 
-ab | df
-bc | fe } n. 1. Beschr. III.
-Dw. ab + bc | df + fe   n. 2. Gr. I.
-ac | de   n 2. Gegeb.
-Dw. abc ⋀ dfe   n. 8. I.
-und ac ⊻ de   n. 26. III.
-O ahca | O dged   n. 1. Geg.
-Dw. O ahca — ◡ ac | O dged — ◡ de   n. 3. Gr. I.
-oder ahc ⏀ dge
+ac | bc   n. 1. Wirck.
+cd | cd
+Dw. ac + cd | bc + cd   n. 2. Gr. I.
+acd ⋀ bcd   n 11. I. und n. 10. Beschr. I.
+Dw. ad | bd   n. 4. I.
+und ad ⊻ bd   n. 28. III.
 
 ### Beschluß.
-Müssen derowegen gleichlange Striche in gleichgrossen Kreysen allezeit gleichgrosse Bogen / und zwar den grossen dem grössern/ und den kleinen dem kleinern in gleicher Grösse abschneiden. W. Z. B.
+Ist also der gegebene Bogen adb in zween gleiche Theile ad ⊻ bd getheilet. W. Z. M.
 
-<!-- Signature: Q -->
+<!-- Signature: Q 2 -->
 <!-- Catchword: Der -->

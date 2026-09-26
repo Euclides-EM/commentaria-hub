@@ -1,27 +1,38 @@
-<!-- Page number: 231 -->
+<!-- Running title: Euclidis. -->
 
-# Das V. Buch Euclidis.
+<!-- Page number: 239 -->
 
-## Beschreibungen.
+Oder auch also:
 
-I. Ein Theil (Pars) ist ein Stück einer grösseren Grösse/wenn nemlich das Stück die grössere Grösse ohne Bruch (oder also daß nichts überbleibet) theilet. a : 3a
+### Vorbereitung.
 
-II. Vielfältig oder vielfach (multiplex) wird genennet die grössere Grösse/ welche von dem Theil oder Stück ohne Bruch getheilet wird. 3a : a
+1. Die grösse a werde vier mahl/
+2. wie auch b vier mahl genommen:
 
-III. Verhältniß (Ratio) ist eine Bewandniß zweyer Grössen / deren jedwede durch ihre Vervielfältigung die andere (wenn sie unvergrössert bleibet) übertreffen kan a : b
+[Diagram: vier waagerechte Linien, bezeichnet A, 4a, B, 4b]
 
-IV. Ebenmaaß (Proportio) ist zweyer oder mehrer Verhältnisse Gleichheit. 2a : 2b | a : b
+### Beweiß.
 
-V. Diejenigen Grössen können eine Verhältniß zu einander haben/welche nach Belieben vervielfältiget einander an Grösse übertreffen können. 2a : a.
+|  |  |  |  |  |
+|---|---|---|---|---|
+| | 3a | A | n. Beweiß. | ε |
+| | 4a | 3a | n. 9. Gr. I. | |
+| Dw. | 4a | A | n. 1. Gr. a. I. | |
+| | 3b | B | | |
+| | 4b | 3b | | |
+| Dw. | 4b | B | | |
+| λ und | 4a + 4b | A + B | n. 4. Gr. g. I. | |
 
-2a ⊣ a
+Weil nun (1) 3a + 3b | A + B, n. Bew. η
 
-2a ⊢ 6a.
+(2) 2a + 2b ⊢ A + B, n. Bew. κ
 
-VI. In gleicher Verhältniß stehende Grössen werden genennet (nemlich die Erste zu der Andern/und die Dritte zu der Vierten) wenn der Ersten und Dritten auff waserley Weise Vervielfältigung von derer Andern und Vierten Vervielfältigung entweder übertroffen werden / oder denenselbigen an Grösse gleich sind / oder auch dieselbigen übertreffen: Wenn nemlich die Grössen gehöriger Massen gegen einander gehalten werden.
+und (3) 4a + 4b ⊣ A + B, n. Bew. λ
 
-3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a.
-5. 3. 5. 3. — 2. 3. 2. 3. — 2. 5. 2. 5.
-15a : 6a | 30a : 12a. — [unclear: 6q] : 6a | 12a : 12a. — 6a : 10a | 12a : 20a.
+Dw. A + B : a + b | A : B, n. 6. Beschr. V.
 
-<!-- Catchword: VII. -->
+### Beschluß.
+
+Wenn derowegen die 1. zu der 2. Grösse/ und die 3. zu der 4. gleich-vielfältig sind/ so werden auch die 1. und 3. zusammen genommen / zu denen 2. und 4. zusammen genommenen Grössen eben so vielfältig seyn / als die 1. zu der 2. oder die 3. zu der 4. Grössen sind. W. Z. B.
+
+<!-- Catchword: Der -->

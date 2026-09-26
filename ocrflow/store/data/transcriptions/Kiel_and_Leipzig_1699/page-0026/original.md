@@ -1,21 +1,29 @@
-<!-- Running title: Definitiones. -->
+<!-- Running title: Axiomata. -->
 
-<!-- Page number: 8 -->
+<!-- Page number: 10 -->
 
-XXXII. Eine länglichte Raute ( Rhomboides ) hat zwar die gegen einander überstehende Seiten und Winckel unter sich gleich/im übrigen aber ist sie weder gleichseitig/ noch auch gleichwincklicht.
+(b) Welch Ding a kleiner ist/ als eins b von zwey gleichen Dingen/ das ist auch kleiner / als das andere c.
 
-[Diagram: ein schiefwinkliges Parallelogramm (länglichte Raute)]
+[Diagram: drei Striche, a kürzer, b und c länger und gleich lang]
 
-XXXIII. Alle übrige Vierecke werden ungeschickte Vierungen (Trapezia) genennet.
+(c) Wenn eins oder das erste b von (zwey) gleichen Dingen b und c grösser ist/als das dritte a / so ist auch das andere c grösser/ als das dritte a.
 
-[Diagram: drei unregelmäßige Vierecke (Trapeze)]
+[Diagram: drei Striche, b und c gleich lang, a kürzer]
 
-XXXIV. Gerade Neben-Striche (Parallelæ lineæ) sind/ welche auff einer ebenen Fläche ohne auffhören neben einander können verlängert werden/niemals aber zusammen stossen.
+(d) Wenn das eine b von (zwey) gleichen Dingen b und c kleiner ist/ als das dritte a / so ist auch das andere c kleiner / als das dritte a.
 
-[Diagram: zwei parallele punktierte gerade Linien]
+[Diagram: drei Striche, b und c gleich lang, a länger]
 
-XXXV. Füll-Flächen oder Füll-Münde (Complementa DE & EC) sind zwey Vierecke / durch welche der Zwerg-Strich ( Diagonius vel diameter AB ) der grossen viereckigten Gestalt ACBD, welche in vier Theile getheilet ist/ nicht durchgehet. Die beeden übrigen Vierecke werden umb den Zwerg-Strich stehende Vierecke genennet.
+(e) Was a grösser ist / als das Grössere b/ das ist auch grösser / als das Kleinere c.
 
-[Diagram: Parallelogramm ACBD mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Diagonale und Teilungslinien]
+[Diagram: drei Striche, a am längsten, b kürzer, c am kürzesten]
 
-<!-- Catchword: Fo- -->
+(f) Was a/ kleiner ist / als das kleinere b / das ist auch kleiner / als das Grössere c.
+
+[Diagram: drei Striche, a am kürzesten, b länger, c am längsten]
+
+II. Wenn man zu ( zwey ) gleichen Dingen ab und bc ( zwey ) gleiche Stücke de und ef thut/werden die ( beeden ) Gantzen ae und bf auch gleich.
+
+[Diagram: zwei Striche a–d und b–c, an welche punktierte Stücke d–e und c–f angesetzt sind]
+
+<!-- Catchword: III. -->

@@ -1,35 +1,33 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 362 -->
-
-### Vorbereitung.
-
-Wenn gh ⊣ rs
-so werde zu diesen beyden gh und rs der dritte ebenmässige Strich x gefunden. n. 11. VI.
-gh : rs | rs : x.
+<!-- Page number: 376 -->
 
 ### Beweiß.
 
-gh : rs | rs : x n. Vorb.
-gh ⊣ rs n. Ang.
-Dw. rs ⊣ x n. 14. V.
-α u. gh ⊣ x n. 1 Gr. e. l.
-gh : x ⊐ gh : rs n. 10. Besch V.
-□ gi : □ rt ⊐ gh : rs n. 19. V.
-Dw. □ gi : □ rt | gh : x n. 11. V.
-u. □ gi ⊣ □ rt n. Bew. α. u. n. 14. V.
+□ no | □ Eg — △ X n. 11. Wirck.
+□ no + △ X | □ Eg n. 2. Gr. I.
+□ no + ⊾ Epg | □ Eg n. 9. Gr. I. q.
+Dw. □ no + ⊾ Epg | □ no + △ X n. 1. Gr. I.
+α u. ⊾ Epg | △ X n. 3. Gr. I.
+□ Ep | □ gp n. 43. I.
+□ sr | □ sr
+Dw. □ Ep + □ sr | □ gp + □ sr n. 2. Gr. I.
+oder □ Er | □ gs n. 9. Gr. I. q.
+□ Er | □ An n. 36. I.
+Dw. □ An | □ gs n. 1. Gr. I.
+□ Ep | □ Ep
+Dw. □ An + □ Ep | □ gs + □ Ep n. 2. Gr. I.
+oder □ Ap | ⊾ Epg n. 9. Gr. I. q.
+△ X | ⊾ Epg n. Bew. α.
+Dw. △ X | □ Ap n. 1. Gr. I.
 
-Welches aber wider das 1. Gegeb.
-Eben so wenig kan auch gh ⊢ rs
-γ Müssen derowegen gh | rs. seyn/ W. Z. B.
+welches angeschlagen ist an den Strich AB also/ daß überbleibe □ sr, welches ähnlich dem □ Eg n. 26. VI.
 
-### Andere Ahrt.
+□ Eg ähnlich □ D n. 3. Wirck.
+Dw. □ sr ähnlich □ D n. 21. VI.
 
-### Vorbereitung.
+### Beschluß.
 
-1. Zu den drey geraden Strichen ab, cd und ef werde der vierte ebenmässige Strich rs gefunden. n. 12. VI.
-2. Auf den Strich rs werde ein geradstrichichtes Vieleck rsut gesetzet/ welches
-3. Vieleck st ähnlich sey dem Vieleck el, n 18. VI. und auch
-4. Auf gleiche Weise gesetzet sey.
+Ist also an den Strich AB ein mangelhafftes □ Ap, welches gleichmässig dem △ X angeschlagen ulso/ daß das mangelende □ sr dem □ D ähnlich sey. W. Z. M.
 
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Der -->

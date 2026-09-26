@@ -1,37 +1,28 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 203 -->
+<!-- Page number: 205 -->
 
-### Wirckung.
+## Der III. Vortrag.
 
-1. Werde der Durchschlag cg gezogen.
-2. Von diesem Durschlag werde abgeschnitten das Stück ce | ab n. 3. I.
-3. Nach der Weite ce, werde aus c, als einem Mittel-Düpffel/ ein Kreyß gezogen.
-4. Zu dem Düttel d, wo dieser Kreyß den gegebenen Kreyß durchschneidet/werde der Strich cd gezogen.
+## Das 3. Werck-Stück.
 
-### Beweiß.
-
-ce | ab n. 1. Wirck.
-ce | cd n. 15. Beschr. I.
-Dw. cd | ab n. 1. Gr. I.
-und cd | dem Kreyß eingefüget n. 7. Beschr. IV.
-
-### Beschluß.
-
-Ist also der Strich cd | ab dem Kreyß cdf eingefüget. W. Z. M.
-
-## Der II. Vortrag.
-
-## Das 2. Werckstück.
-
-In den gegebenen Kreyß ein Dreyeck/welches dem gegebenen Dreyeck gleich wincklicht sey/ einzu schreiben.
+Umb einen gegebenen Kreyß ein DreyEck/welches dem gegebenen DreyEck gleichwincklicht sey/ zubeschreiben.
 
 ### Gegebene. Begehrte.
 
-1. Kreyß abc. 1. In den Kreyß eingeschriebenes
-2. Dreyeck fgh. △ abc.
-2. △ abc gleichwincklicht dem △ fhg.
+1. Kreyß edc. 1. △ afg gleichwincklicht △ ikm.
+2. Drey Eck ikm. 2. Umb den gegebenen O umbgeschrieben.
 
-<!-- Signature: Cc 2 -->
+[Diagram: Kreis mit Mittelpunkt b und Düttelen c, d, e; umbeschriebenes Dreyeck afg mit Rührstrichen; rechts daneben Dreyeck ikm auf der Grundlinie l–i–k–h mit punktierten Halbkreisbögen]
 
-<!-- Catchword: Wir- -->
+### Wirckung.
+
+1. Des gegebenen △ ikm Grundstrich ik werde auff beeden Seiten nohtdürfftig verlänget gegen h und l.
+2. Werde in dem O der Strahl cb gezogen.
+3. An dem Mittel-Düpffel b auff den Strahl eb werde der Winckel cbe ∧ mil.
+4. Und auff die andere Seite der Winckel cbd ∧ mkh gesetzt. n 23. I.
+5. An die Düttele c, d, e werden Rührstriche ca, cg, eg, ef, df, da, gezogen. n. 17. III.
+
+<!-- Signature: Cc 3 -->
+
+<!-- Catchword: Vor- -->

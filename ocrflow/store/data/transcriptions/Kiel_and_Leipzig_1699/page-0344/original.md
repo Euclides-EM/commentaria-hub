@@ -1,37 +1,29 @@
-<!-- Page number: 320 -->
+<!-- Page number: 328 -->
 
 <!-- Running title: Das VI. Buch -->
 
-## Der V. Vortrag.
+## Der IIX. Vortrag.
 
-## Das 5. Beweiß-Stück.
+## Das 8. Beweiß-Stück.
 
-Wenn die Seiten zweyer Dreyecke in ebenmässiger Verhältnüß stehen / so sind solche Dreyecke gleichwincklicht / und denen ebenmässigen Seiten stehen gleichmässige Winckel gegen über.
+Wenn aus dem rechten Winckel eines rechtwincklichten Dreyecks ein bleyrechter Senckstrich auf den (dem rechten Winckel gegen über stehenden) Grundstrich gezogen wird; So sind durch diesen Senckstrich gemachte beyde Dreyecke / so wol unter sich / als auch dem gantzen Dreyecke gleichähnlich.
 
-### Gegebene.
+### Gegebenes.
 
-1. Zwey Dreyecke abc und DCE, deren Seiten in richtiger Ebenmaß stehen.
+1. Dreyecke abc
+2. Welches rechtwincklicht/
+3. Aus dessen rechten Winckel a
+4. Ein Strich d
+5. Auf den Grundstrich bc
+6. Bleyrecht gezogen ist.
 
-2. | ac : DE | bC : CE
-3. | ab : DC | bC : CE
-4. | ab : DC | aC : DE.
+### Begehrtes.
 
-### Begehrte.
+△ | | △
+abc | | abd
+abc | ähnlich | adc
+abd | | adc
 
-C ⋏ b
-DCE ⋏ aCb
-a ⋏ D.
+[Diagram: rechtwinkliges Dreieck abc mit punktierter Senkrechte ad auf die Grundlinie cb]
 
-[Diagram: zwei Dreiecke, ein kleineres abc und ein grösseres DCE mit punktierter Linie DH und Punkten H und E auf der Grundlinie]
-
-### Beweiß.
-
-Wenn die gegebenen Dreyeck nicht gleichwincklicht sind.
-
-### Vorbereitung.
-
-So setze man auf den Strich CD und zwar
-auf den Düttel D den Winckel CDH ⋏ baC
-und auf C den Winckel DCH ⋏ abC   n. 32. I.
-
-<!-- Catchword: Ver- -->
+<!-- Catchword: I. Beweiß. -->

@@ -1,29 +1,19 @@
-<!-- Page number: 126 -->
+<!-- Page number: 128 -->
 
 <!-- Running title: Das III. Buch -->
 
-### Beweiß.
+VII. Ein im Kreyß-Stück stehender Winckel (angulus in segmento) ist welcher von zween geraden Strichen/ so man aus den beeden Ecken des Kreyß-Stückes zu einem in dem Bogen erwehlten Düttel zeucht / begriffen wird.
 
-d ⊣ c
-aa | cd ✠ bb — n. 7. II.
-aa | ee ✠ bb — n. 47. I.
-ee (✠ bb) | cd (✠ bb) — n. 1. Gr. I.
-Dw. ee | cd — n. 3. Gr. I.
+[Diagram: Kreyß-Stück mit einbeschriebenem Winckel, dessen Schenckel von den Ecken zu einem Düttel im Bogen gehen]
 
-W. Z. M.
+IIX. Wenn aber zween gerade / einen winckel machende Striche ein Stück des Umkreyses absondern / so wird es stehender Winckel genennet.
 
-[Diagram: links ein Quadrat (schwach), rechts ein schiefes Viereck]
+[Diagram: Kreis mit einbeschriebenem Winckel, dessen Spitze am Umkreys stehet]
 
-# Das III. Buch Euclidis.
+IX. Ein Kreyß-Schnitt (sector circuli) ist/ wenn zween gerade / aus dem Mitteldüpffel gezogene Striche ein Stück des Kreyses begreiffen.
 
-## Beschreibungen.
+[Diagram: Kreis mit ausgeschnittenem Sector (Kreyß-Schnitt)]
 
-I. Gleichgrosse Kreyse sind / deren Durchschläge gleichlang sind.
+X. Aehnliche oder gleichgestalte Kreyßstücke sind/ in welchen gleichgrosse Winckel stehen können.
 
-[Diagram: zwei gleichgrosse Kreise, der linke mit waagerechtem, der rechte mit schrägem Durchmesser]
-
-II. Ein anrührender Strich ca ist / welcher den Kreyß zwar in dem Düttel a berühret / wenn er aber fort gezogen wird / denselben nicht durchschneidet.
-
-[Diagram: Kreis mit Mitteldüpffel b, oben berührender Strich durch a, punktierte Linie von b nach c]
-
-<!-- Catchword: III. An- -->
+<!-- Catchword: Also -->

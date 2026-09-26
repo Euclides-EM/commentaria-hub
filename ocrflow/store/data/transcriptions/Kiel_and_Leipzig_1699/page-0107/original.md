@@ -1,28 +1,38 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 89 -->
+<!-- Page number: 91 -->
 
-[Diagram: schiefwincklichtes Viereck mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Zwerg- und Diagonalstrichen]
+Auff gleiche weise wird auch bewiesen /
+daß □ np | □ gb
+□ lr | □ fe
+□ it + □ lr + □ np | □ cd + □ fe + □ gb n. 2. Gr-S. I.
+□ cab | □ cd + □ fe + □ gb n. 9 Gr-S. q
+Dw. □ cab | □ it + □ lr + □ np n. 1. Gr-S. I.
 
-## Der I. Vortrag.
+### Beschluß.
 
-## Das 1. Beweiß-Stück.
+Sind also allezeit diejenigen rechtwincklichten Vierecke/ welche der unzertheilte Strich mit denen Stücken des getheilten Striches begreiffet / eben so groß/ als das Viereck/ so die beeden gantzen Striche begreiffen. W. Z. B.
 
-Wenn man von zweyen geraden Strichen einen in unterschiedliche Theile zerschneidet/ so werden die rechtwincklichte Vierecke/ welche der ungeschnittene Strich/und die Stücke des getheilten Striches begreiffen/ zusammen eben so groß/ als das recht-wincklichte/von den beeden gantzen Strichen begriffene/ Viereck seyn.
+### Nach der Löß-Kunst.
 
-### Gegebene. | Begehrte.
-1. Der Strich AB. | □ be,ac + □ ed,ac + □ da,ac | □ ba,ac
-2. - - - AC. | oder
-3. AB geschnitten in D und E | □ pqn + □ rsl + □ tin | □ bac.
+### Gegebene. | Begehrtes.
+1. Strich a | ae | be + ce + de
+2. Getheilet b + c + d
+3. a | b + c + d
+4. ungetheilter Strich e.
 
-### Vorbereitung.
+### Beweiß.
 
-1. Es werde gezogen der gerade Strich ba | AB.
-2. Auff diesen Strich ab, und zwar in den Düttel b, werde ein Senckstrich ac gesetzet nach 10. Vortr. I. B.
-3. ac | AC n. 2. Vortr. des I. Buchs.
-4. Durch den Düttel c werde entgegen ab ein Nebenstrich ch. gezogen/ nach 31. Vortr. I.
-5. Durch b ziehe man gegen über ac , den Nebenstrich bh, nach 31. Vortr. I.
+a | b + c + d nach 3. Gegeb.
+e | e
+ae | be + ce + de nach 1. Gr-S. II. W. Z. B.
 
-<!-- Signature: M -->
+## Der II. Vortrag.
 
-<!-- Catchword: 6. Wer- -->
+## Das 2. BeweißStück.
+
+Wenn man einen geraden Strich/ auff waserley weise/ in zween Theile zerschneidet : So werden die beeden rechtwincklichten Vierecke/ welche der gantze Strich / und die beeden Striche begreiffen/ eben so groß seyn/ als das gleichseitige Viereck des gantzen Striches.
+
+<!-- Signature: M 2 -->
+
+<!-- Catchword: Ge- -->

@@ -1,31 +1,40 @@
-<!-- Page number: 70 -->
+<!-- Page number: 72 -->
 
 <!-- Running title: Das I. Buch -->
 
-### Gegebene. | Begehrtes.
-1. △ ABC | ABC ⩓ DEF.
-2. △ DEF
-3. Grundstriche BC | EF
-4. Nebenstriche AD = BF
-5. Zwischen welchen die △ △ stehen.
+### Verfolg des Beweises.
 
-[Diagram: Viereck mit den Puncten D, H, G, A oben und F, E, C, B unten, darinnen Dreyecke mit gezogenen und punctirten Strichen]
+CE ⟛ AB n. 1. Vorbereit.
+Dw. CAB ⩓ EAB n. 37. Vortr.
+CAB ⩓ DAB n. 3. Gegeb.
+Dw. EAB ⩓ DAB n. 1. Gr:S.
+welches unmöglich n. 9. Gr:S.
+
+### 2. Begebenheit.
 
 ### Vorbereitung.
 
-Es werden Nebenstriche gezogen
-1. Auß C gegen AB nemlich CG
-2. — E — DF — EH.
+1. Man ziehe entgegen dem Strich AB, den Nebenstrich FC.
+2. Ziehe man den Strich AF.
 
 ### Beweiß.
 
-BG ⌻ HF n. 36. Vortrag.
-△ ABC | ½ □ BG
-△ DEF | ½ □ HF } n. 34. Vortr.
-Dw. DEF ⩓ ABC n. 7. Gr:S. n.
+CF ⟛ AB n. 1. Vorbereit.
+Dw. CAB ⩓ FAB n. 37. Vortr.
+CAB ⩓ DAB n. 3. Gegeb.
+Dw. DAB ⩓ FAB n. 1. Gr:S.
+welches unmöglich n. 9. Gr:S.
+
+Weßwegen kein ander Nebenstrich/ als durch den Gipffel D kan gezogen werden.
 
 ### Beschluß.
 
-Müssen also alle auff gleichgrossen Grundstrichen / und zwischen einerley Nebenstrichen stehende △ △ gleich-groß seyn. W. Z. B.
+Müssen also allezeit gleichgrosse und auff gleichlangen Grundstrichen stehende △ △ auch zwischen einerley Nebenstrichen stehen. W. Z. B.
 
-<!-- Catchword: Der -->
+## Der XL. Vortrag.
+
+## Das 30. Beweiß-Stück.
+
+Gleich-große und auff gleich-langen Grundstrichen stehende Dreyecke / stehen auch zwischen einerley Nebenstrichen.
+
+<!-- Catchword: Ge- -->

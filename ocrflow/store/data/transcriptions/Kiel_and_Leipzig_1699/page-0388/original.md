@@ -1,35 +1,34 @@
 <!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 358 -->
+<!-- Page number: 372 -->
 
-### Gegebene. Begehrte.
+2. Unter allen an den Strich ab angeschlagenen nebenstrichichten Vierecken/ das an den halben Strich pb angeschlagene Viereck pe grösser/ als alle andere mangelhaffte an den Strich ap angeschlagene Vierecke.
 
-1. △ abc \ △ abc ähnlich △ efg
-2. △ efg / ähnlich △ cde
+[Diagram: Viereck q, a, p, g unten mit den Punkten d, e, c, i, b, teils mit punctirten Linien gezeichnet]
 
-[Diagram: drey Dreyecke auf einer gemeinsamen Grundlinie b c e g mit den Spitzen a, d und f]
+### Vorbereitung.
+
+1. Aus dem Düttel b werde gegen aq ein gerader Nebenstrich be gezogen. n. 31. I.
+
+2. Biß zu diesem Strich be werde fortgezogen der Strich qic.
+
+3. Aus p werde auch ein Nebenstrich pd gegen aq gezogen. n. 31. I.
+
+4. Biß zu diesem Strich pd werde aus b durch i der Strich bd gezogen.
+
+5. Aus d werde gegen qc ein Nebenstrich biß an den Strich be, nemlich de gezogen. n. 31. I.
+
+6. Endlich werde der Strich gi biß zu dem Strich de verlängert.
 
 ### Beweiß.
 
-△ abc ähnlich △ cde n. 1. Geg.
-Dw. abc ⋏ dce n. 1. Besch. VI.
-△ efg ähnlich △ cde n. 2 Geg.
-Dw. feg ⋏ dce n. 1. Beschr. VI.
-u. abc ⋏ feg n. 1. Gr. I.
-Aus gleichen Ursachen ist auch
-a ⋏ f
-Dw. acb ⋏ fge n. 32. I.
-u. ab : bc | fe : eg
-u. ab : ac | fe : fg n. 4. VI.
-Dw. △ abc ähnlich △ efg n. 1. Besch. VI.
+□ pi | □ ie n. 43. I.
+□ gc | □ gc
+Dw. □ pi + □ gc | □ ie + □ gc n. 2. Gr. I.
+oder □ pc | □ ge n. 9. Gr. I. q.
+ap | pb n. 7. Geg.
+Dw. □ pq | □ pc n. 1. VI.
+u. □ pq | □ ge n. 1. Gr. I.
+□ pi | □ pi
 
-### Beschluß.
-
-Sind derowegen diejenigen Vielecke / welche einem einigen Vieleck ähnlich sind/ auch unter einander selbst ähnlich. W. Z. B.
-
-## Der XXII. Vortrag.
-
-## Das 16. Beweiß-Stück.
-
-Wenn vier in Ebenmaß stehende gerade Stri-
-<!-- Catchword: che -->
+<!-- Catchword: Dw. -->

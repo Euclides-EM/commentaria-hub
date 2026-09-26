@@ -1,43 +1,35 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 349 -->
+<!-- Page number: 363 -->
 
-### Vorbereitung.
-
-1. Man nehme noch darzu d | b n. 2. I.
-2. werde gemacht ▭ ac
-3. Deßgleichen ▭ bd.
-4. Und zwar nach rechten Winckeln.
-
-### I. Beweiß.
-
-b | d n. 1. Vorb.
-a | a
-Dw. a : b | a : d n. 7. V.
-a : b | b : c n. 2. Geg.
-Dw. a : d | b : c n. 11. V.
-u. ▭ ac | ▭ db n. 16. VI.
-▭ db | gleichseitig □ bb n 29. Besch. I.
-Dw. ▭ ac | □ bb
-
-### II. Gegebenes. Begehrte.
-
-▭ ac | □ bb 1. a : b | b : c
-
-2. in ungertrennter Ebenmaß stehend.
+[Diagram: grösseres Viereck m l f e, daneben kleiner Strich t s und kleineres Viereck t w r s; darunter Striche a e, c d r s mit punktierter Linie]
 
 ### Beweiß.
 
-[Diagram: geometrische Skizze mit punktierten Linien, hinter dem Text durchscheinend]
+▭ el ähnlich ▭ st n. 3. Vorb.
+▭ el - - - ▭ gi n. 3. Geg. I.
+Dw. ▭ st - - - ▭ gi n. 21. VI.
+△ abo : △ cdn | ▭ el : ▭ st 1. Th. dies. Vort.
+△ abo : △ cdn | ▭ el : ▭ gi n 1. Geg.
+Dw. ▭ el : ▭ gi | ▭ el : ▭ st n. 11. V.
+u. ▭ gi | ▭ st n 9 V.
+gh | rs n. Vorsatz. γ
+ef | ef
+ef : gh | ef : rs n. 7. V.
+ab : cd | ef : rs n. 1. Vorb.
+Dw. ab : cd | ef : gh n. 11. V.
 
-b | d
-b | b
-□ bb | ▭ bd n. 1. Gr. II.
-□ bb | ▭ ac n Gegeb.
-Dw. ▭ bd | ▭ ac n. 1. Gr. I.
-ac ⋏ bd n. 4. Vorb.
-Dw. a : b | d : c n 16. VI.
-oder a : b | b : d n. Anh. 7. V.
+### Beschluß.
 
-<!-- Signature: X x 3 -->
-<!-- Catchword: Beschluß. -->
+Werden derowegen aus vier ebenmässigen Strichen/ auch ebenmässige Vielecke beschrieben.
+
+Und derer ebenmässigen Vielecke Seiten oder Striche sind auch ebenmässig. W. Z. B.
+
+## Der XXIII. Vortrag.
+
+## Das 17. Beweiß-Stück.
+
+Gleichwincklichte nebenstrichichte Vierecke ha-
+
+<!-- Signature: Z z 2 -->
+<!-- Catchword: ben -->

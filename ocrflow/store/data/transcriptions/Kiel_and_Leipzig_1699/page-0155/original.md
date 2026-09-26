@@ -1,39 +1,36 @@
-<!-- Page number: 137 -->
-
 <!-- Running title: Euclidis. -->
 
-### Beweiß.
+<!-- Page number: 139 -->
 
-ab | ad — n. 15. Beschr. I. und n. angenommen.
-ab | ac — n. 15. Beschr.
-Dw. ad | ac — n. 1. Gr. I.
+4. Welcher nicht in der Mitte des Kreyses stehet.
+5. Die geraden Striche ai, ah, ag, ak, ab, ac.
 
-Welches aber Unmüglich n. 9. Gr. I.
+4. ag ⊣ ah
+5. ah ⊣ ai
+6. ah | al.
 
-### Beschluß.
+6. ab durch den Mittel-Dupffel gehend.
+7. Das übrige dieses Striches / nemlich ac.
+8. Die Striche ah und al gleich weit
+von dem durch den Mittel-Düpffel gehenden Strich entfernet.
 
-Können also zweene Kreyse / so einander durchschneiden/ nicht aus einem einigen Mittel-Düpffel beschrieben seyn. W. Z. B.
-
-## Der VI. Vortrag.
-
-## Das 5. Beweiß-Stück.
-
-Wenn zween Kreyse/ deren einer in dem andern stehet/ einander berühren/ so können sie nicht einen einigen Mittel-Düpffel haben.
-
-### Gegebene. — Begehrte.
-
-1. Zween Kreyse bfd und bgc. — Diese Kreyse haben verschiedene Mittel-Düpffele.
-2. Der Kreyß bgc rühret den andern bfd inwendig bey b an
+[Diagram: Kreis mit den Punkten h, g, k oben, i links, c, a, e, b auf dem waagerechten Durchmesser und l unten; von a und e ausgehende teils punktierte Striche zu den Punkten am Umfang]
 
 ### Vorbereitung.
 
-Wolte man sagen / sie hätten nur einen eintzigen Mittel-Düpffel/ nemlich a, so ziehe man aus a
+1. Werde auff den [unclear: Düttel] a gesetzet ein ∠ ael ⋀ [unclear: aeb]
+n. 23. I.
 
-1. Zu dem anrührungs-Düpffel b den Strich ab.
-2. Auch den Strich af.
+2. Werden aus dem Mittel-Düpffel e gezogen ek,
+eg, eh, ei, el, und al.
 
-[Diagram: zween Kreyse, deren innerer den äusseren unten bey b anrühret, mit den Dütteln d, c (oben), f, g (links), e und a in der Mitte, punktierte Striche von a nach b, c und g]
+### Beweiß.
 
-<!-- Signature: S -->
+eb | ek — n. 15. Beschr. I.
+ae + ke ⊣ ak — n. 20. I.
+ae + ke | ab — n. 9. Gr. q. [unclear: I.]
+Dw. ab ⊣ ak — n. 1. Gr. c. [unclear: I.]
 
-<!-- Catchword: Be- -->
+<!-- Signature: S 2 -->
+
+<!-- Catchword: ea -->

@@ -1,35 +1,32 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 147 -->
+<!-- Page number: 149 -->
 
-### Gegebene. — Begehrte.
+### Gegebene. — Begehrtes.
 
-1. Zweene Kreyse abc und aeq
-2. Deren kleinerer den grössern inwendig berühret in a.
-3. Strich cf durch beede Mittel-Düpffele d und f.
-4. Welcher Strich nach nothdurfft verlängert wird.
+1. Zweene Kreyse ebf und dbg.
+2. Welche auswendig in b
+3. Einander anrühren.
+4. Gerader Strich ac,
+5. Welcher die beeden Mittel-Düpffel a und c zusammen henget.
 
-1. Der verlängerte Strich cf stösset auff den Anrührungs-Düttel a.
+Strich ac durch den Anrührungs-Düttel b gehend.
 
-### I. Begebenheit.
+[Diagram: zwei einander von aussen berührende Kreise; am Berührungsort der Punkt b, darüber f und g; im linken Kreis a, unten e und d, im rechten Kreis c; gerade und punktierte Verbindungsstriche]
 
 ### Vorbereitung.
 
-Stösset der gegebene Strich cf nicht auff a, so lasse man ihn auff b fallen.
+Wann der Strich ac nicht durch den Anrührungs-Düttel b gehet/so ziehe man aus den beeden angenom̄enen Mittel-Düpffeln a und c zweene Stralen zum Anrührungs-Düpffel b, nemlich ab und cb.
 
-[Diagram: zwei einander inwendig berührende Kreise; oben der Punkt a, rechts oben b, im Innern e, f und d, unten q; durch die Mittel-Düpffele gezogene Striche]
+### Beweiß
 
-### Beweiß.
-
-af | ef — n. 15. Beschr. I.
-fc | fc
-af + fc | ef + fc — n. 2. Gr. I.
-oder ac | ef + fc — n. 9. Gr. q. I.
-ac | bf + fc — n. angenom. n. 15. Beschr. I.
-Dw. ef + fc | bf + fc — n. 1. Gr. I.
-oder ef | bf — n. 3. Gr. I.
+ab | ae
+bc | cd — n. Vorb. und n. 15. Besch. I.
+ab + bc | ae + cd — n. 2. Gr. I.
+ab + bc ⊣ ac — n. 20. I.
+Dw. ae + cd ⊣ ac — n. 1. Gr. c. I.
 Welches aber unmöglich n. 9. Gr. I.
 
-<!-- Signature: T 2 -->
+<!-- Signature: T 3 -->
 
-<!-- Catchword: II. Be- -->
+<!-- Catchword: Oder -->

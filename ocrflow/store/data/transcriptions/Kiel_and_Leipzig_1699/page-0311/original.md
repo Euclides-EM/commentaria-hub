@@ -1,38 +1,41 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 287 -->
+<!-- Page number: 295 -->
 
 ### Begehrtes.
-
-A : B ⊣ a : b
+A : C ⊣ a : c
 
 ### Vorbereitung.
+1. Man nehme eine Grösse D darzu / welche sich zu C wie a zu b verhalte.
 
-Man nehme noch eine Grösse nemlich c darzu/welche sich zu a, wie B zu b, verhalte.
+D : C | a : b
 
-c : a | B : b
+2. Auch nehme man die Grösse d, welche sich zu D, wie b zu c verhalte.
+
+d : D | b : c.
+
+[Diagram: drei waagerechte Linien C, D, d von unterschiedlicher Länge]
 
 ### Beweiß.
 
-|  |  |  |
-|---|---|---|
-| c : a | B : b | n. Vorber. |
-| A : a | ⊣ B : b | n Gegeb. |
-| A : a | ⊣ c : a | n. Anh. 13. V. |
-| u. A | ⊣ c | n. 10. V. |
-| B | B | |
-| Dw. A : B | ⊣ c : B | n. 8. V. |
-| a : b | c : B | n. 16. V. |
-| Dw. A : B | ⊣ a : b | n. Anh. 13. V. |
+|  |  |  |  |
+|---|---|---|---|
+|  | D : C | \| a : b | n 1. Vorb. |
+|  | B : C | ⊣ a : b | n. Geg. |
+| Dw. | B : C | ⊣ D : C | n. Anh. 13. V. |
+| u. | D | ⊢ B | n. 10. V. |
+|  | A | \| A |  |
+| Dw. | A : D | ⊣ A : B | n. 8. V. |
+|  | b : c | ⊢ A : B | n. Gegeb. |
+| Dw. | A : D | ⊣ b : c | n. 2. Anh. 13. |
+|  | d : D | \| b : c | n 2. Vorb. |
+| Dw. | A : D | ⊣ d : D | n. Anh. 13. V. |
+| u. | A | ⊣ d | n. 10. V. |
+|  | C \| | C |  |
+| Dw. | A : C | ⊣ d : C | n 8. V. |
+|  | d : D : | \| b : c |  |
+|  | D : C | \| a : b | } n Vorb. |
+| Dw. | d : C | \| a : c | n. 22 V. |
+| u. | A : C | ⊣ a : c | n. Anh. 13. V. |
 
-### Beschluß.
-
-Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat/ als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß/ als die II. zu der IV. haben. W. Z. B.
-
-## Der XXIIX. Vortrag.
-
-## Das 28. Beweiß-Stück.
-
-Wenn vier Grössen gegeben werden/ deren die Erste zu der Andern eine grössere Verhältnüß hat/ als die Dritte zu der Vierten; So wird auch die Erste mit der Andern zusammen/ zu der Andern eine grössere Verhältnüß / als die Dritte und Vierte zusammen zu der Vierten/ haben.
-
-<!-- Catchword: Gege- -->
+<!-- Catchword: Be- -->

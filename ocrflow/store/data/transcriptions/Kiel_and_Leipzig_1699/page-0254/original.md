@@ -1,36 +1,44 @@
-<!-- Running title: Das IV. Buch Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 230 -->
-
-### Wirckung.
-
-1. Dem Kreyß werde ein gleichseitigs Dreyeck afg eingeschrieben / n. 2. IV. oder n. 2. Anhang vorhergehenden Vortrags.
-
-2. Es werde auch solchem Kreyß ein gleichseitig und gleichwincklicht Fünffeck eingeschrieben/ n. 11. IV. doch also/ daß die Spitze desselben auff die Spitze a des Dreyecks falle.
-
-3. Werden die Striche cf und dg gezogen.
-
-4. Werden die übrigen Seiten auch nach der Grösse cf oder dg in den Kreyß herumb gesetzet/ und angefüget/ n. 1. IV.
+<!-- Page number: 238 -->
 
 ### Beweiß.
 
-|  |  |  |  |
-|---|---|---|---|
-| Dw. | ab | Seite des Fünffecks. | |
-| | ab | 1/5 oder 3/15 oder 3 Seiten des Funffzehnecks. | |
-| | ab | bc | n. Wirck. |
-| | bc | 1/15 | n. 1. Gr. I. |
-| | ab + bc | 6/15 oder 6. Seiten des 15-zehnecks / n. 2. Gr. I. | |
-| | af | Seite des 3 Ecks. | |
-| Dw. | af | 5/15 oder 5 Seiten des 15-Ecks. | |
-| | ab + bc — af | 1/15 oder eine Seite des 15-Ecks. n. 3. Gr. I. | |
-| | ab + bc — af | fc | |
-| Dw. | fc | Seite des 15 Ecks. | |
+|  |  |  |  |  |
+|---|---|---|---|---|
+| | 3a | A | n. Bew. | ε. |
+| | 3a | 1½a | n. 9. Gr. I. | |
+| Dw. | A | 1½a | n. 1. Gr. c. I. | |
+| | 2A | A | n. 9. Gr. I. | |
+| Dw. | 2A | 1½a | n. 1. Gr. e. I. | |
+| | 3b | B | n. Bew. | θ |
+| | 3b | 1½b | n. 9. Gr. I. | |
+| Dw. | B | 1½b | n. 2. Gr. c. I. | |
+| | 2B | B | n. 9. Gr. I. | |
+| Dw. | 2B | 1½b | n. 1. Gr. e. I. | |
+| [unclear: κ] Und | 2A + 2B | 1½a + 1½b | n. 4. Gr. g. I. | |
 
-Die Seiten fc, cn, nm, md, dg u. s. f. sind alle einer Grösse / und dem Kreyß eingefüget/und herümbgesetzet/ n. 3. und 4. Wirck. Wenn auch aus dem Mitteldüpffel zu allen Winckeln die Strahlen oder halbe Durchschläge gezogen werden/ kan man leichtlich durch den 4. und 5. Vortrag des I. Buchs erweisen/ daß alle Winckel einer Grösse seyn. Derowegen auch das 15-Eck dem Kreyß eingeschrieben ist/ n. 3. Beschr. IV.
+### Vorbereitung.
 
-### Beschluß.
+1. Zu der Grösse A werde noch die Helffte derselben/
+2. u. zu der Grösse B werde gleichfals die Helffte derselben beygefüget/
+3. a werde fünf mahl/und 4. b auch fünfmahl/ genommen.
 
-Ist also dem gegebenen Kreyß ein gleichseitiges und gleichwincklichtes Funffzehneck eingeschrieben/ W. Z. M.
+[Diagram: vier waagerechte Linien, bezeichnet 1½A, 5a, 1½B, 5b]
 
-<!-- Catchword: Das -->
+### III. Beweiß.
+
+|  |  |  |  |  |
+|---|---|---|---|---|
+| | 3a | A | n. Bew. | ε. α |
+| | 1½a | ½A | n. 7. Gr. n. I. | β |
+| | 2a | 1½a | n. 9 Gr. I. | γ |
+| Dw. | 2a | ½A | n. 1. Gr. a. I. | δ |
+| und | 3a + 2a | [unclear: 1½A] | n. 4. Gr. I. | γ |
+| oder | 5a | 1½A | | |
+| | 3b | B | n. Bew. | θ. α |
+| | 1½b | ½B | | β |
+| | 2b | 1½b | | γ |
+| Dw. | 2b | ½B | | δ |
+| und | 5b | 1½B | | γ |
+| λ Dw. | 5a + 5b | 1½A + 1½B | n. 4. Gr. g. I. | |

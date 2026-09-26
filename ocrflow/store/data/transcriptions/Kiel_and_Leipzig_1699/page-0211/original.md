@@ -1,39 +1,39 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 193 -->
+<!-- Page number: 195 -->
+
+|  |  |  |  |
+|---|---|---|---|
+|  | ▭ bld + □ el + □ ed | □ ed + □ ec | n. 2. Gr. I. |
+|  | ▭ bld + □ el | □ ec | n. 3. Gr. I. |
+| Dw. | ▭ bld + □ el | □ cl + □ el | n. 1. Gr. I. |
+| und | ▭ bld | □ cl | n. 3. Gr. I. |
+|  | cl | la | n. 2. Geg. |
+|  | cl | cl |  |
+| Dw. | □ cl | ▭ cla | n. 1. Gr. II. |
+| und | ▭ bld | ▭ cla | n. 1. Gr. I. |
+
+### V. Begebenheit.
+
+Wan keiner von Beeden Strichen durch den Mittel-Düpffel gehet/auch keiner derselben in zween gleiche Theil geschnitten wird.
+
+[Diagram: Kreis mit Punkten b oben, e in der Mitte, h rechts, a links unten, n, l, c unten, d unten rechts; gestrichelte Striche von e nach b, h, l, c und d]
 
 ### Vorbereitung.
 
-1. Werde auff den Strich ac aus dem Mittel-Düpffel e ein Senckstrich en gezogen n. 12. I.
-2. Werde auch der Strich ec gezogen.
+Aus dem Mittel-Düpffel e werden wiederumb gezogen
+1. Die Strahlen eb und ec.
+2. Zum Düttel l, wo die Striche einander schneiden/ der Strich el.
+3. Auff die beeden Striche zween Senckstriche eh und en n. 12. I.
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-| α. | ▭ bld + □ le | □ ed |  |
-|  | ▭ cla + □ ln | □ nc | n. 5. II. |
-|  | □ ne | □ ne |  |
-| Dw. | ▭ cla + □ ln + □ ne | □ nc + □ ne | n. 2 Gr. I. |
-|  | □ le | □ ln + □ ne | n. 47. I. |
-| Dw. | ▭ cla + □ ln + □ ne + □ le | □ nc + □ ne + □ ln + □ ne | n. 2. Gr. I |
-| β. | ▭ cla + □ le | □ nc + □ ne | n. 3. Gr. I. |
-|  | ec | ed | n. 15 Beschr. I. |
-|  | □ ec | □ ed | n. 1. Gr. t. II. |
-|  | ▭ bld + □ le | □ ec | α n 1. Gr. I. |
-|  | □ nc + □ ne | □ ec | n. 47. I. |
-| D. | ▭ bld + □ le | □ nc + □ ne |  |
-| und | ▭ bld + □ le | ▭ cla + □ le β | n. 1. Gr. I. |
-| u. | ▭ bld | ▭ cla | n. 3. Gr. I. |
+|  | en | Senckstrich | n. 3. Vorb. |
+| Dw. | an | nc | n. 3. III. |
+| ▭ alc + □ nl |  | □ nc | n. 5. II. |
 
-### IV. Begebenheit.
+<!-- Signature: Bb 2 -->
 
-### Gegebene:
-
-1. Von beeden Strichen bd, ac gehet keiner durch den Mittel-Düpffel.
-2. Der Strich ac ist in zween gleiche Theil al | lc
-3. Der Strich bd aber in ungleiche Theile bl ⊣ ld geschnitten in l.
-
-<!-- Signature: Bb -->
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: Dw. -->

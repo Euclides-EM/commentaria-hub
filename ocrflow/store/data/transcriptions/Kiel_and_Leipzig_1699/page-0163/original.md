@@ -1,39 +1,35 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 145 -->
+<!-- Page number: 147 -->
 
-### II. Beweiß.
+### Gegebene. — Begehrte.
 
-ab | ac — n. 4. Gegeb.
-bm | cm — n. 2. Vorber.
-ma | ma
-bm + ma | cm + ma — n. 2. Gr. I.
-Dw. bma ⋀ cma — n. 8. I.
-u. bma ⋀ ∟ — n. 10. Beschr. I.
+1. Zweene Kreyse abc und aeq
+2. Deren kleinerer den grössern inwendig berühret in a.
+3. Strich cf durch beede Mittel-Düpffele d und f.
+4. Welcher Strich nach nothdurfft verlängert wird.
 
-und ef muß durch den Mittel-Düpffel gehen/n. 1. Zugabe III. Gleicher gestalt wird auch dargethan/ daß der Strich kh durch den Mittel-Düpffel gehen müsse. Nun ist kein anderer Düttel im Kreyß/ durch welchen beyde Striche ef und kh gehen können/ als a, so kan auch kein anderer Düttel/als a, der Mittel-Düpffel seyn.
+1. Der verlängerte Strich cf stösset auff den Anrührungs-Düttel a.
 
-### Beschluß.
-
-Wird demnach allezeit derjenige Düttel/ von welchem mehr/ als zween gerade Striche zu des Kreyses Umfang können gezogen werden/ solches Kreyses Mittel-Düpffel seyn. W. Z. B.
-
-## Der X. Vortrag.
-
-## Das 9. Beweiß-Stück.
-
-Es kan kein Kreyß einen andern Kreyß in mehr/ als zween Dütteln schneiden.
-
-### Gegebenes. — Begehrtes.
-
-1. Kreyß ibeg.
-2. Angenommener Kreyß klfm.
-
-Nicht in mehr/als in 2. Dütteln geschnitten.
+### I. Begebenheit.
 
 ### Vorbereitung.
 
-1. Zu drey Dütteln/ wo die Kreyse einander durchschneiden/ nemlich zu f, o, d werden aus dem Mittel-Düpffel gerade Striche af, ac, ad gezogen.
+Stösset der gegebene Strich cf nicht auff a, so lasse man ihn auff b fallen.
 
-<!-- Signature: T -->
+[Diagram: zwei einander inwendig berührende Kreise; oben der Punkt a, rechts oben b, im Innern e, f und d, unten q; durch die Mittel-Düpffele gezogene Striche]
 
-<!-- Catchword: 2. werden -->
+### Beweiß.
+
+af | ef — n. 15. Beschr. I.
+fc | fc
+af + fc | ef + fc — n. 2. Gr. I.
+oder ac | ef + fc — n. 9. Gr. q. I.
+ac | bf + fc — n. angenom. n. 15. Beschr. I.
+Dw. ef + fc | bf + fc — n. 1. Gr. I.
+oder ef | bf — n. 3. Gr. I.
+Welches aber unmöglich n. 9. Gr. I.
+
+<!-- Signature: T 2 -->
+
+<!-- Catchword: II. Be- -->

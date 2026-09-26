@@ -1,35 +1,38 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 279 -->
-
-## Der XXII. Vortrag.
-
-## Das 22. Beweiß-Stück.
-
-Es werden Grössen gegeben so viel man wil/ und werden eben so viel darzu genommen/ welche mit denen Ersten in richtiger Ordnung stehen; So werden sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben.
-
-### Gegebene.
-
-[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
-
-1. A : B : C | a : b : c
-2. A : B | a : b :
-3. B : C | b : c
+<!-- Page number: 287 -->
 
 ### Begehrtes.
 
-A : C | a : c
+A : B ⊣ a : b
+
+### Vorbereitung.
+
+Man nehme noch eine Grösse nemlich c darzu/welche sich zu a, wie B zu b, verhalte.
+
+c : a | B : b
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| B : C | b : c | n. 3. ⌉ Geg. |
-| A : B | a : b | n. 2. ⌡ |
-| Dw. A : C | a : c | n. 3. V. |
+| c : a | B : b | n. Vorber. |
+| A : a | ⊣ B : b | n Gegeb. |
+| A : a | ⊣ c : a | n. Anh. 13. V. |
+| u. A | ⊣ c | n. 10. V. |
+| B | B | |
+| Dw. A : B | ⊣ c : B | n. 8. V. |
+| a : b | c : B | n. 16. V. |
+| Dw. A : B | ⊣ a : b | n. Anh. 13. V. |
 
 ### Beschluß.
 
-Wenn derowegen zweyerley Ahrt Grössen gegeben werden/ welche in richtiger Ordnung Ebenmässig sind/ so müssen sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
+Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat/ als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß/ als die II. zu der IV. haben. W. Z. B.
 
-<!-- Catchword: Der -->
+## Der XXIIX. Vortrag.
+
+## Das 28. Beweiß-Stück.
+
+Wenn vier Grössen gegeben werden/ deren die Erste zu der Andern eine grössere Verhältnüß hat/ als die Dritte zu der Vierten; So wird auch die Erste mit der Andern zusammen/ zu der Andern eine grössere Verhältnüß / als die Dritte und Vierte zusammen zu der Vierten/ haben.
+
+<!-- Catchword: Gege- -->

@@ -1,35 +1,33 @@
 <!-- Running title: Euclidis. -->
 
-<!-- Page number: 115 -->
+<!-- Page number: 117 -->
 
-κ oder fg | cd | n. 9. Gr. q. I.
-ef | cd | n. 34. I.
-Dw. ef | fg | n. 1. Gr. I.
-efg ∠ ecd | n. 34. I.
-∟ ∠ ecd | n. Bew. δ.
-Dw. efg ∠ ∟ | n. 1. Gr. I.
-und □ ge | 2 □ ef | n. 47. I.
-gf | cd | n. Bew. κ
-□ gf | □ cd | n. 1. Gr. t. II.
-θ. Dw. □ ge | 2 □ cd | n. 6 Gr. k. I.
-aeb ∠ ∟ | n. Bew. ε.
-Dw. □ ga | □ ge + □ ae
-□ ga | □ ad + □ dg | n. 47. I.
-Dw. □ ge + □ ae | □ ad + □ dg | n. 1. Gr. I.
-□ ae | 2 □ ac | n. Bew ζ.
-□ ge | 2 □ cd | n. Bew. θ.
-Dw. □ ae + □ ge | 2 □ ac + 2 □ cd | n. 2. Gr. I.
-u. □ ad + □ dg | 2 □ ac + 2 □ cd | n. 1. Gr. I.
-bd | dg n. Bew. η.
-□ bd | □ dg n. 1. Gr. t. II.
-□ ad + □ dg + □ bd | 2 □ ac + 2 □ cd + □ dg | n. 2. Gr. I.
-□ dg | □ dg
-□ ad + □ bd | 2 □ ac + 2 □ cd | n. 3. Gr. I.
+3. Aus d nach b der gerade Strich db gezogen.
+4. Nach der weite db aus d werde ein Kreyß beschrieben.
+5. Biß zu dieses Kreyses Düttel f, werde der Strich ea verlänget.
+6. Nach der weite af werde aus a ein Kreyß beschrieben / so den Strich ab in c durchschneidet.
 
-### Beschluß.
+### Vorbereitung.
 
-Muß also allezeit/ wenn ein Strich in zween gleiche Theile getheilet/ und ein Stück angesetzet wird/ das □ des gantzen und angesetzten ad, samt dem □ des angesetzten Stückes bd absonderlich / so groß seyn/ als die beeden □ □ des halben Striches ac, und des
+1. Durch c werde gegen fe ein Nebenstrich hg gezogen.
+2. Desgleichen aus f gegen ab der - - - - - fg - - - - | n. 31. I.
 
-<!-- Signature: P 2 -->
+[Diagram: Rechteck mit den Ecken f, e unten und g, a oben; oben die Punkte b und a, in der Mitte c und h, unten a und d; punktierte Kreisbögen durch b, c und d]
 
-<!-- Catchword: Stri- -->
+### Beweiß.
+
+□ efa + □ ad | □ df | n. 6. II.
+db | df | n. 15 Beschr. I
+□ db | □ df | n 1. Gr. t. II.
+Dw. □ efa + □ ad | □ db | n. 1. Gr. I.
+□ ab + □ ad | □ db | n. 47. I.
+Dw. □ ab + □ ad | ▭ efa + □ ad | n. 1. Gr. I.
+□ ad | □ ad
+Dw. □ ab | ▭ efa | n. 3. Gr. I.
+▭ eac | ▭ eac
+□ ab — ▭ eac | ▭ efa — ▭ eac | n. 3. Gr. I.
+oder □ ac | ▭ abc
+
+<!-- Signature: P 3 -->
+
+<!-- Catchword: Beschluß. -->

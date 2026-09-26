@@ -1,35 +1,42 @@
-<!-- Page number: 110 -->
+<!-- Page number: 112 -->
 
 <!-- Running title: Das II. Buch -->
 
-4. Und getheilet in d
-5. Daß ad ⊦ bd
-6. ab | ac + cb
-7. ab | ad + bd.
+2 | 2
+2 □ gf | 2 □ cd | n. 6. Gr. i. I.
+2 □ gf + □ gb | 2 □ cd + 2 □ cb + 2 □ gf n. 1. Gr. I.
+2 □ gf | 2 □ gf
+δ. □ gb | 2 □ cd + 2 □ cb | n. 3. Gr. I.
+□ gb | □ bd + □ dg | n. 47. I.
+agd ∠ cae n. Bew. γ.
+Dw. dg | da n. 6. I.
+und □ dg | □ da n. 1. Gr. t. II.
+□ dg + □ gb | □ bd + □ dg + □ da | n. 1 Gr. I.
+□ dg | □ dg
+δ. □ gb | □ bd + □ da | n. 3. Gr. I.
+Dw. □ bd + □ da | 2 □ cd + 2 □ cb | n. 1. Gr. I.
 
-### Vorbereitung.
+### Beschluß.
 
-1. An den Düttel c werde ein Senckstrich ce auffgerichtet. n. 11. Vortr. I.
-2. Senckst. ce | ca n. 2. Vortr.
-3. Auff d werde auch ein Senckstrich dg gesetzet.
-4. Senckstrich dg | da
-5. Werde gezogen gf ⋕ dc
-6. - - - der Zwergstrich gb
-7. - - - Strich ae
-8. - - - - - be
+Sind also allezeit der beeden ungleichen Stücke bd und da ihre □ □ zweymahl so groß / als die beeden □ □ des halben Striches bc, und mittelstückes cd. W Z B.
 
-[Diagram: Dreieck über der Grundlinie a d c b mit Spitze e, darin die Punkte g und f, gestrichelte Linien; oben eine Linie von A nach B]
+### Nach der Löse-Kunst.
+
+### Gegebene. | Begerthe.
+
+1. b | ac | cc + dd | 2bb + 2ee
+2. e | cd
+3. c | bd
+4. d | ad
+5. c | b + e
+6. d | b — e
 
 ### Beweiß.
 
-ac | cb | n. 3. Gegeb.
-ac | ce | n. 2. Vorber.
-α. Dw. cb | ce | n. 1. Gr. I.
-β. ecb ∠ ∟ | n. 1. Vorbr.
-cbe ∠ ceb | n. 5. I.
-ca | ce | n. 2. Vorbr.
-Dw. cae ∠ cea | n. 5. I.
-ace ∠ ∟ | n. 10. Besch. I.
-cea | ebc | n. 4. I.
+c | b + e | n. 5. Gegeb.
+cc | bb + 2be + ee | n 4. II.
+d | b — e | n 6 Geg.
+dd | bb — 2be + ee | n. 4. II.
+Dw. cc + dd | 2bb + 2ee. | n. 1. Gr. 1. W. Z B.
 
-<!-- Catchword: bec -->
+<!-- Catchword: Der -->
