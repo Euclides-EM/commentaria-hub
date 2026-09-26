@@ -10,13 +10,6 @@ WIP https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq
 
 # Run LLM Corrector
 
-## Antwerp_1654
-
-Run the LLM Corrector on:
-https://euclides.huma-num.fr/hub/?datasetId=ds_9ni7al&annotationId=ann_fy0hyh&currentPageOrKey=209&annotationTab=text
-
-**Status**: Running LLM, Done 38/417
-
 # Alignment
 
 ## The_Hague_1758
@@ -104,6 +97,31 @@ Full Fable transcriptions exist and have already been manually curated. However,
 
 # Manual Curation
 
+## Antwerp_1654
+
+Run the LLM Corrector on:
+https://euclides.huma-num.fr/hub/?datasetId=ds_9ni7al&annotationId=ann_fy0hyh&currentPageOrKey=209&annotationTab=text
+
+Codex Sol:
+
+- **Requests:** 37
+- **Input tokens:** 1,078,204
+- **Cached tokens:** 673,152
+- **Cache creation tokens:** 0
+- **Output tokens:** 53,313
+- **Reasoning tokens:** 0
+- **Total tokens:** 1,131,517
+
+Fable:
+
+- **Requests:** 376
+- **Input tokens:** 1,508
+- **Cached tokens:** 6,677,114
+- **Cache creation tokens:** 2,221,300
+- **Output tokens:** 434,684
+- **Reasoning tokens:** 0
+- **Total tokens:** 9,334,606
+- **Cost:** $73.72
 
 ## Basel_1562
 

@@ -1,0 +1,6 @@
+bemus, Elementa item conſcripſit, & generaliora effecit, & ſectiones à Platone inchoatas auxit; inſuper aſtronomicarum hypotheſium primus fabricator extitit, & Geometriæ fontes, vt ſupra Archytas, ad organicam ac mechanicam deriuauit. Amyclas Heracleotes & Menechmus, eiuſque frater Dinoſtratus, Helicon Cyzicenus, Theudius, Hermotimus Colophonius, Philippus Mendæus, omnes Platonici, Geometriam multo perfectiorem reddiderunt. Et Menechmus quidem ſectiones conicas inuenit, ac harum ope duas medias, cuius inuentio ab Eutocio reliquis præfertur. Theudius & Hermotimus elementa fecerunt vniuerſaliora & auctiora. Atque hi omnes ex Platonis Academia, Mathematicam Philoſophiam ad perfectionem adduxerunt, ait Proclus. Sed & Xenocrates Platonis auditor, & Ariſtotelis magiſter, ipſeque Ariſtoteles cognitione Mathematum clari fuêre. Illius cum auditor quidam eſſe vellet Geometriæ imperitus, abi, inquit, anſas enim Philoſophiæ non habes.
+
+De Ariſtotele verò quid dicam, libri illius omnes locis Mathematicis ſunt referti, ex quibus in vnum collectis librum confecit Blancanus. Ex Ariſtotelis ſchola duo præcipuè celebrantur Eudemus, & Theophraſtus. Hic ſcripſit de numeris libros duos, de
+
+<!-- Signature: b -->
+<!-- Catchword: Geo- -->

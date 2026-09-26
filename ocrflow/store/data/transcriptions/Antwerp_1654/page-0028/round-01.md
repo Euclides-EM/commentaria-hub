@@ -1,0 +1,6 @@
+libri 14 & 15, ab Hypſicle contracti. Hipparchus & Menelaus, de ſubtenſis in circulo hic 6, ille 12 libros primi conſcripſêre, pro quo inuento tam vtili & neceſſario non parua vtrique laus & gratia debetur. Extant etiam Menelai de triangulis ſphæricis libri tres. Theodoſij tripolitæ vtiliſſimi ſphæricorum libri tres in omnium manibus verſantur. Atque hi quidem, ſi Menelaum excipias, ante Chriſtum vixêre omnes.
+
+Anno poſt Chriſtum 70. venit in lucem Claudius Ptolomæus, aſtronomorum princeps, vir planè mirabilis, ſupraque (inquit Plinius) naturam mortalium. Is verò non Aſtronomiæ tantum, ſed etiam Geometriæ peritiſſimus fuit; quod teſtantur, tum alia multa ab eo ſcripta, tum in primis libri de ſubtenſis, Menelai quidem 6, Hipparchi verò 12, ab illo ad 5 theoremata contracti. Plutarchi etiam nominatiſſimi Philoſophi extant Mathematica problemata. Iã Eutocij Aſcalonitæ erudita in Archimedem cõmentaria quis ignorat? Ab eo Philonis, Dioclis, Nicomedis, Spori, Heronis, tanquam excellentium in Mathematicis Magiſtrorũ inuenta de duplicando cubo recenſentur. Et Heronis quidem tam in mechanicis quam in Geometricis excellens ingenium fuit. Cubi certè duplicatio ab eo tradita, à Pappo l.3.p.7. laudatur præ omnibus. Cteſibij A-
+
+<!-- Signature: b 2 -->
+<!-- Catchword: lexan- -->

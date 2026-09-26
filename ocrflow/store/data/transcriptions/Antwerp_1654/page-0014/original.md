@@ -1,0 +1,4 @@
+vnam, eminentem ſuâ certitudine inter omnes; ſummis parem ingenijs, quia veram; quin & mihi homini etiam religioſo conuenientem, quia bonam; hoc eſt omnino remotam à periculis illis, in quæ ſubinde diſciplinæ aliæ diſcentium vitio & errore declinant. Habet ſanè Geometria, quod & ego, & multi mecum experti ſunt doctiſſimi iuxta & innocentiſſimi viri, quo hominis animum ſibi deditum, ex contemplatione vnius, veri, bonique corporis attollat ad laudandum, amandumque vnum, verum, bonum, hoc eſt Deum incorporeum, & immenſum dimenſi corporis Architectum. Huc te meque ducant hæc Elementa Geometrica, quæ inſcribo Tibi; cumque arcanam admirandamque & pluſquam harmonicam variorum inter ſe corporum, & ipſius adeò Circuli ſphæræq; conſenſionẽ animo ſuggerent, doceant hunc ipſum cum Deo, mente illa primâ & immenſâ, & quodam quaſi
+
+<!-- Signature: a 3 -->
+<!-- Catchword: cir- -->
