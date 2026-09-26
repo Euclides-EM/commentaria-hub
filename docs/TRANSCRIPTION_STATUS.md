@@ -12,12 +12,6 @@ WIP https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq
 
 # Alignment
 
-## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
-
-Full Fable transcriptions exist and have already been manually curated. However, no copyright for the facsimile that the transcriptions were based on. Another public domain facsimile is available, but the transcriptions have not yet been aligned with it.
-
-**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
-
 # Manual Curation
 
 ## Paris_1667
@@ -311,6 +305,10 @@ Usage summary:
 **Next steps:** Manually curate the Codex transcriptions.
 
 # Completed
+
+## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
+
+Full Fable transcriptions exist and have already been manually curated. Transcriptions manually aligned to public the new public-domain facsimile.
 
 ## Paris_1639
 
