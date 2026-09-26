@@ -1,40 +1,59 @@
-<!-- Running title: ELEM.. EVCLID. LI. IV. -->
-
-Si chaque nombre de ces quatre progressions est diuisé en deux parties, dont la moindre soit l'vnité, & que les angles aigus d'vn triangle rectangle soient en mesme raison que les deux parties de quelqu'vn de ces nombres, la raison des angles du triangle estant donnée, la raison des costez se trouuera par la methode suiuante.
-
-Tab.. proport.. <.. △ rectang.
-
-part..nr..1.progress. 1π1, 1π3, 1π7, 1π15, 1π31, 1π63, &c.
-part..nr..2.progress. 1π2, 1π5, 1π11, 1π23, 1π47, &c.
-part..nr..3.progress. 2π3, 1π4, 1π9, 1π19, 1π39, &c.
-part..nr.4.progress. 2π13, 1π14, 1π29, 1π59, 1π119, &c.
+<!-- Running title: ELEM.. EVDLID. LI. IV. -->
 
 [Figure: triangle rectangle A—B—E, l'angle droict en B, auec les poincts C, D sur la base B—E et les lignes A—C, A—D]
 
-Hypoth.
+| ae est 4 3702/3864.
 
-<bae 2|2, 7<bea,
+Exempl. 2.
 
-Req. est △ rectang. abc.
+hyp. | ad est 3,
+hyp. | ae est 10,
+
+Req. est de,
+
+α | bd est 3732,
+β | ad est 3864,
+| ad π ae 2|2 ad π ae,
+| 3, π, 10, 3864, π, O.
+| ae est 12880.
+47.1 | be, est 12841,
+3.a.1 | de est 9109,
+| ad π de 2|2 ad π de,
+concl. | 3864, π, 9109, 3, π, O.
+| de est 7 279/3864.
+
+Exempl. 3.
+
+hyp. | 11<adb 2|2 <dac
+| + <dca,
+hyp. | ad est 10,
+hyp. | ac est 3,
+
+Req. est cd,
+
+2.s.16.4 | <bac 2|2, 2<bca,
+β | ad est 3864,
+α | bd est 3732, γ
+| ad π ac 2|2 ad π ac,
+| 10, π, 3, 3864, π, O,
+| ac est 1159,
+47.1 | bc est 586,
+γ.3.a.1 | cd est 3146,
+concl. | ad π cd 2|2 ad π cd
+| 3864, π, 1346, 10, π, O.
+| cd est 8 540/3874.
+
+Exempl. 4.
+
+| ad est 10,
+| cd est 3,
+
+Req. est ac.
 
 Constr.
 
-1.p.1 | be est — infini.
-11.1 | ba ⊥ be arbitr.
-3.1 | bc 2|2 ba,
-1.p.1 | ac est —,
-3.1 | cd 2|2 ac,
-1.p.1 | ad est —,
-3.1 | de 2|2 ad,
-1.p.1 | ae est —,
-symp. | △abe est req.
-
-Demonstr.
-
-5.1 | <bac 2|2 <bca, α
-5.1 | <cad 2|2 <cda, β
-5.1 | <dae 2|2 <dea, γ
-β.32.1 | <bca 2|2, 2<cda,
-γ.32.1 | <cda 2|2, 2<dea,
-1.a.f | <bcaubac 2|2 4<e, κ
-32.1 | <bca 2|2 <cae + <e,
+β | ad est 3864,
+α | bd est 3732,
+| ad π cd 2|2 ad π cd,
+| 10, π, 3, 3864, π, O.
+| cd est 1159.

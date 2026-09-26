@@ -1,43 +1,33 @@
-<!-- Running title: APPEND.. GEOM. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-Estant donnee l'hypothenuse d'vn triangle rectangle, & la moyenne proportionnelle entre la base & la perpendiculaire, trouuer le triangle.
+## THEOR. II. PROPOS. XII.
 
-Vieta in effectionibus Geometricis.
+Si acta à vertice trianguli ad basin, verticis angulum bifariam secet ; erit rectangulum sub cruribus, æquale ei, quod fit sub basis segmentis, vnà cum secantis quadrato.
 
-[Figure: deux demicercles sur D B, auec les poincts C, F, A, E ; ligne G à part]
+Si la ligne menee du sommet d'vn triangle à la base, couppe l'angle du sommet en deux parties egales ; le rectangle contenu sous les costez, sera egal au rectangle des segments de la base, & au quarré de la couppante.
 
 Hypoth.
 
-abf est Δ rectang.
+abc est Δ,
 
-ab est hypothenus. D.
+<eab 2|2 eac,
 
-g, est — D.
+Req. π. demonstr.
 
-af π g 2|2 g π fb,
+▭.ab,ac 2|2 ▭.bec + □.ae,
 
-Req. est Δafb.
+Præpar.
 
-Constr.
+5.4 | bacd est ⊙,
+1&2.p.1 | aed & cd snt —,
 
-11.1 | <bac est ⌐,
-3.1 | ac 2|2 g,
-3.p.1 | bfa & bcd snt semic.
-2.p.1 | bad est —,
-s.28.6 | ef ⊥ ab & 2|2 ad, α
-1.p.1 | af & bf snt —,
-symp. | Δafb est req.
+[Figure: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas]
 
 Demonstr.
 
-1.concl. 31.3 | <afb est ⌐,
-constr. | ac 2|2 g,
-s.5.2 | □.g u ac 2|2 ▭.dab,
-α.3.s.1.d.2 | ▭.dab 2|2 ▭.ef,ab,
-s.22.6 | ▭.ef,ab 2|2 ▭.af,fb
-1.a.1 | □.g 2|2 ▭.af,fb,
-2.concl. 17.6 | af π g 2|2 g π fb.
-
-## THEOR. I. PROPOS. XI.
-
-Inter figuras ordinatas eidem circulo adscriptas, inscripta duplo laterum numero, media proportionalis est.
+hyp. | <dac 2|2 <dab,
+21.3 | <adc 2|2 <abc,
+32.1 | Δadc æquiang. Δabe,
+4.6 | da π ac 2|2 ab π ae,
+α.16.6 | ▭.ab,ac 2|2 ▭.dae,
+3.2 | ▭.dea + □.ae 2|2 ▭.dae,

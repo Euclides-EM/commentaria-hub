@@ -1,33 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-adcbhefg 2|2 adcbimlк.
+suppos. | ch, pq, fd, on, n̄ snt ⊥ ◇ cpfo,
+11. 11 | gt, mu, bs, ir snt ⊥ plan. aleк,
+11. 11 | hy, qε, dz, nx snt ⊥ plan. cpfo
+1. p. 1 | rt, su, xy, zε snt ——;
 
-Præpar.
-
-2. p. 1 | heo, gfn, lmo, кip snt ——;
-1. p. 1 | ap, do, bq, cn snt ——.
+[Figure: labels arranged I B N D / G M H Q / K R E S X O Z F / A T L V Y C ε P]
 
 Demonstr.
 
-34. 1 | dc, ab, hg, ef, pq, on snt 2|2 & == ꝗe,
-34. 1 | ad, he gf, bc, кl, im, qn, po snt 2|2 & == ꝗe,
-29. 11 | ◇piped. adcbhefg 2|2 ◇piped. adcbponq,
-29. 11 | ◇piped. adcbimlк 2|2 ◇piped. adcbponq,
-concl. 1. a. 1 | ◇piped. adcbhefg 2|2 ◇piped. adcbimlк.
+29. 11 | ◇piped. gmbialeк 2|2 ◇piped. gmbitusr,
+β | ◇piped. gmbitusr 2|2 ◇piped. hqdnyεzx,
+29. 11 | ◇piped. hqdnyεzx 2|2 ◇piped. hqdncpfo,
+2 concl. 1. a. 1 | ◇piped. gmbialeк 2|2 ◇piped. hqdncpfo.
 
-## THEOR. XXVI. PROPOS. XXXI.
+## THEOR. XXVII. PROPOS. XXXII.
 
-Solida parallelepipeda super æquales bases cōstituta, & in eadem altitudine, æqualia sunt inter se.
+Solida parallelepipeda sub eadem altitudine, inter se sunt vt bases.
 
-*Les solides parallelipipedes constituez sur bases egales & de mesme hauteur, sont egaux entr'eux.*
+*Les solides parallelipipedes de mesmè hauteur, sont entr'eux comme leurs bases.*
 
-In hac & sequentibus demonstrationibus, voce altitudinis intelligenda est perpendicularis ducta à plano basis ad planum oppositum.
-
-*En ceste demonstration & aux suiuantes, par ce mot de hauteur il faut entendre la perpendiculaire menee du plan de la base au plan opposé.*
+[Figure: labels arranged C G M K / B F / L N / A D E H I]
 
 Hypoth.
 
-aleкgmbi, est ◇piped.
-cpωohqdn, est ◇piped.
-bas. aleк 2|2 bas. cpωo,
-alt.. ◇piped. ab 2|2 alt.. ◇piped. cd.
+abcd & efgl snt ◇piped.
+bas. ab 2|2 bas. ef,
+alt.. ◇piped. abcd 2|2 alt. ◇piped. efgl, α
+
+Req. π. demonstr.
+
+◇piped. abcd π ◇piped. efgl 2|2 bas. ab π bas. ef.
+
+Præpar.
+
+2. p. 1 | chi, est ——,
+45. 1 | ◇ fi 2|2 ◇ ab, β

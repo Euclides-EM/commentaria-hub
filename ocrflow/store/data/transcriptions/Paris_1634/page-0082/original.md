@@ -1,31 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-[Figure: ligne A—E—B en haut, ligne C—F—D au dessous]
+Sed rectæ AC & AB ducuntur à centro ad circunferentiam. | Mais les lignes droictes AC & AB sont menées du centre à la circonference.
 
-hyp. | ab 2|2 2cd.
-hyp. | ae 2|2 2cf.
-20.a.1. | eb 2|2 2fd.
+Igitur rectæ AC & AB sunt inter se æquales. | Donc les lignes droictes AC & AB sont égales entr'elles.
 
-### 20. a. b.
+Secundus syllogismus non differt à primo, quòd eandem habeat citationem quam primus. | Le second syllogisme ne differe point du premier, à cause qu'il a la mesme citation que le premier.
 
-Si singulæ partes primæ magnitudinis sint duplæ singularum partium secundæ magnitudinis, prima magnitudo erit dupla secundæ magnitudinis. | Si chaque partie de la premiere grandeur est double de chaque partie de la seconde grandeur, la premiere grandeur sera double de la seconde.
+III. SYLLOGISMVS. | III. SYLLOGISME.
 
-[Figure: ligne A—E—B en haut, ligne C—F—D au dessous]
+Quæ eidem æqualia sunt, inter se sunt æqualia. | Les choses égales à vne mesme, sont égales entr'elles.
 
-hyp. | ae 2|2 2cf.
-hyp. | eb 2|2 2fd.
-20.a.b. | ab 2|2 2cd.
+Sed rectæ AC & BC sunt eidem rectæ æquales. | Mais les lignes droictes AC & CB sont égales à vne mesme ligne droicte.
 
-### 21. a. 1.
+Igitur rectæ AC & BC sunt inter se æquales. | Donc les lignes droictes AC & BC sont égales entr'elles.
 
-Omnis magnitudo est talis qualis dicitur esse, si aliter esse non potest. | Toute grandeur est telle qu'elle se dit, si elle ne peut estre autrement.
+IV. SYLLOGISMVS. | IV. SYLLOGISME.
 
-[Figure: ligne A en haut, ligne B plus courte au dessous]
+Omne triangulum habens tria latera æqualia, est æquilaterum. | Tout triangle qui a trois costez égaux, est equilateral.
 
-hyp. | a ñ est 3|2 b.
-hyp. | a ñ est 2|3 b.
-21.a.1 | a 2|2 b.
+Sed triangulum ABC tria habet æqualia latera. | Mais le triangle ABC a trois costez égaux.
 
-[Ornament: cul-de-lampe]
+Igitur triangulum ABC est æquilaterum. | Donc le triangle ABC est equilateral.
 
-EVCLIDIS
+## PROBL. II. PROPOS. II.
+
+Ad datum punctum, datæ rectæ lineæ æqualem rectam lineam ponere.
+
+A vn poinct donné, poser vne ligne droicte, égale à vne ligne droicte donnée.
+
+Hypoth.
+
+a est • D.
+bc est — D.
+
+Req. π. fa.
+
+ag 2|2 bc,
+
+Constr.
+
+3.p.1. | cbe est ⊙,
+1.p.1. | ca est —,

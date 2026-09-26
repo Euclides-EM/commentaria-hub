@@ -1,27 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-ſ,46.1 | dr 2|2 rſ, β
-d. α 1.concl | □.cſ 2|2 4□.pſ, □.ct 2|2, 4□.tq, &c.
-d. β | dr, rſ, ſc, ct, tp ſnt 2|2 ꝗe,
-6. 11, & 7. 11 | tqhnu, eſt plan.
-conſtr. | hi π iq 2|2 iq, Ⅱ tq π qh,
-conſtr. | hn π nu 2|2 tq π qh,
-6. 11 | tq == hn, & qh == nu,
-32. 6 | thu, eſt ——,
-1. & 2.11 | dtcſr, eſt plan.
-5. 13 | pк π кn 2|2 кn π np,
-47. 1 | □.dſ 2|2 □.dp + □.pſ, γ
-1. a. f | □.dp + □.pſ, □.dp + □.pn,
-47. 1 | □.dp + □.pn 2|2 □.dк + □.кp + □.pn,
-4. 13 | □.dк + □.kp + □.pn 2|2 □.dк + 3□.kn,
-ſ. 4. 2 | □.dk + 3□кn 2|2, 4□.dк, Ⅱ 4□.dh, Ⅱ □.dc,
-γ. 1.a.1 | □.dſ 2|2 □.dc,
-ſ. 46. 1 | dſ 2|2 dc,
-8. 1 | <drſ 2|2 <dtc, δ
-d. | <cſr 2|2 <dtc,
-2 concl. 7. 13 | 5<, dtcſr, eſt æquiang.
-15. 13 | x, eſt centr.. cub. Ⅱ.. ſphær. circſcri.. cub.
-15. 13 | ax, dx, cx, &c. ſnt ſemidiamet;. cub.
-15 13 | xn 2|2 ih, Ⅱ кn,
-1.a.1 | xu 2|2 kp,
-47. 1 | □.rx 2|2 □.xu + □.ru, ε
+## COROLL. II.
+
+Sequitur etiam, si rectæ lineæ sectæ extrema ac media ratione, minus segmentum sit latus dodecaedri, maius segmentum esse latus cubi eiusdem sphæræ.
+
+*Il s'ensuit außi, que si d'vne ligne droicte couppee en la moyenne & extreme raison, le moindre segment est le costé du dodecaedre, le plus grand segment sera le costé du cube inscrit en la mesme sphere.*
+
+## COROLL. III.
+
+Liquet etiam latus cubi æquale esse lineæ rectæ subtendenti angulum pentagoni dodecaedri eadem sphæra comprehensi.
+
+*Il est manifeste außi que le costé du cube est egal à la ligne droicte subtendante l'angle du pentagone du dodecaedre inscrit en la mesme sphere.*
+
+## PROBL. VI. PROPOS. XVIII.
+
+Latera quinque figurarum exponere, & inter se comparare.
+
+*Exposer les costez des cinq figures precedentes, & les comparer entr'eux.*
+
+Conſtr.
+
+arbitr. | ab, eſt diamet. ſphær.
+3. p. 1 | caeb, eſt ſemic.
+ſ 10.6 | ab 2|2, 3ad,
+11. 1 | ce, df, bg ſnt ⊥ ab,
+1.p.1 | af, ae, be, bf ſnt ——,
+3. 1 | bg 2|2 ab,
+1. p. 1 | cg, eſt ——,
+12. 1 | hi ⊥ ab,
+3. 1 | cк 2|2 ci,
+11. 1 | кl ⊥ ab,
+1. p. 1 | al, eſt ——,

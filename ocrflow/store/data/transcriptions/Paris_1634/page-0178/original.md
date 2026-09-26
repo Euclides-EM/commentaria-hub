@@ -1,30 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-reliquis duobus quadratis, esse acutum.
+1.a.1 | 3<cbe 2|2, 2∟,
+7.a.1 | <cbe 2|2, ⅓..2∟,
+3.a.b | <bce + <bec 2|2, ⅔..2∟,
+α.5.1 | <bce 2|2 <bec,
+19.a.b | <bce 2|2, ⅓. 2∟,
+19.a.b | <bec 2|2, ⅓..2∟,
+c.6.1 | △bce est æquilat.
+constr. | bd 2|2 de,
+8.1 | <cdb 2|2 <cde,
+10.d.1 | cd ⊥ be,
+12.2 36.1 3.s.1.d.2 | ▭.ac, ▭.ab + ▭.bc + 2▭.abd, ▭.ab + ▭.bc + ▭.abe, ▭.ab + ▭.bc + ▭.abc, snt 2|2 ⁊e,
+concl. 1.a.1 | ▭.ac 2|2 ▭.ab + ▭.bc + ▭.abc.
 
-Perspicuum autem est ex 47. primi, perpendicularem, ex angulo verticis in lineam basis ductam, non cadere extra triangulum, nisi quadratum, vnius laterum circa angulum verticis, excedat aggregatum quadratorum, quæ à duobus reliquis lateribus fiunt.
+[Figure: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]
 
-quarrez de deux autres, soit aigu.
+## SCHOL. III.
 
-Or il est manifeste de la 47. du premier, que la perpendiculaire menée de l'angle du sommet à la ligne de la base ne tombe point hors le triangle, si le quarré de l'vn des costez de l'angle du sommet n'excede l'aggregé des quarrez de deux autres costez.
+Si trianguli vnus angulus fuerit dimidium aggregati reliquorum, quadratum quod fit à latere dimidium angulum subtendente, minus est quadratis, quæ fiunt à lateribus dimidium angulum comprehendentibus, rectangulo sub lateribus dimidium angulum continentibus comprehenso.
 
-## SCHOL. I.
+Si vn angle d'vn triangle est égal à la moitié de l'aggregé de deux autres, le quarré du costé qui le soustient, est moindre que les quarrez des costez qui le contiennent, du rectangle contenu sous les costez qui le contiennent.
 
-Cognitis lateribus trianguli, inuenire segmentum inter perpendicularem & acutum angulum interceptum.
+Hypoth.
 
-Estans cognus les costez d'vn triangle, trouuer le segment compris entre la perpendiculaire & l'angle aigu.
+abc est △,
+2<b 2|2 <a + <acb.
 
-[Figure: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]
-
-hyp. | ab est 8,
-hyp. | ac est 5,
-hyp. | bc est 7,
-1.s.1.d.2 | ▭.ac est 25,
-1.s.1.d.2 | ▭.bc est 49,
-2.a.1. | ▭.ac + ▭.bc snt 74,
-1.s.1.d.2 | ▭.ab est 64,
-13.2 | ▭.ac + ▭.bc ~ ▭.ab 2|2 2▭.bcd,
-3.a.1. | 2▭.bcd snt 10,
-7.a.1 | ▭.bcd est 5,
-hyp. | bc est 7,
-concl. 1.s.1.d.2 | cd est 5/7.
+Req. π. demonstr.

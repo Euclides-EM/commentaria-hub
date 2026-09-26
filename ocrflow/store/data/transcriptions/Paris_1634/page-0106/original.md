@@ -1,41 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-3.1. | ad 2|2 ac,
-1.p.1. | cd est —.
+[Figure: trois lignes A, B, C en haut ; deux cercles s'entrecoupans en K & I, centres F & G, ligne D—F—M—L—G—H—E, triangle FGK]
+
+3.p.1. | ghkm est ⊙,
+1.p.1. | fk & gk snt —,
+symp. | △fgk est req.
 
 Demonstr.
 
-constr. | ad 2|2 ac,
-5.1. | <acd 2|2 <d,
-9.a.1. | <bcd 3|2 <acd,
-1.a.c. | <bcd 3|2 <d,
-19.1. | bd 3|2 bc, α
-constr. | ac 2|2 ad,
-| ba commun. add.
-2.a.1. | ba + ac 2|2 bd,
-α.1.a.d. | ba + ac 3|2 bc.
+15.d.1. | fk 2|2 fd,
+constr. | a 2|2 fd,
+1.concl. 1.a.1. | fk 2|2 a,
+2.cöcl. constr. | fg 2|2 b,
+15.d.1. | gk 2|2 gh,
+constr. | c 2|2 gh,
+3.concl. 1.a.1. | gk 2|2 c.
 
-## THEOR. XIV. PROPOS. XXI.
+## PROBL. IX. PROPOS. XXIII.
 
-Si super trianguli vno latere, ab extremitatibus duæ rectæ lineæ interius constitutæ fuerint ; hæ constitutæ reliquis trianguli duobus lateribus minores quidem erunt, maiorem vero angulum continebunt.
+Ad datam rectam lineam, datúmque in ea punctum, dato angulo rectilineo æqualem angulum rectilineum constituere.
 
-Si des extremitez d'vn costé de quelque triangle, on mene deux lignes droictes se rencontrans au dedans d'iceluy ; icelles seront plus petites que les deux autres costez du triangle, mais elles contiendront vn plus grand angle.
+A vne ligne droicte donnée, & à vn poinct donné en icelle, faire vn angle rectiligne égal à vn angle rectiligne donné.
 
-[Figure: triangle ABC, poincts D & E au dedans, D sur BE, lignes BD, DC, BE prolongée iusques à E sur AC]
+[Figure: angle DCE auec poincts F, E ; triangle AGH auec poinct B, G & H sur la base]
 
 Hypoth.
 
-abc est △.
+ab est — D.
+a est • D.
+cde est < D.
 
-Req. π. demonstr.
+Req. π. fa.
 
-bd + cd 2|3 ba + ca,
-<bdc 3|2 <bac.
+<a 2|2 <d.
 
-Præpar.
+Constr.
 
-2.p.1. | bde est —.
-
-Demonstr.
-
-20.1. | cd 2|3 ce + ed,
+| c & f snt • arbitr.
+1.p.1. | cf est —,

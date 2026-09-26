@@ -1,36 +1,53 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## THEOR. XV. PROPOS. XVII.
-
-Si numerus duos numeros multiplicans fecerit aliquos, geniti ex ipsis eandem rationem habebunt, quam multiplicati.
-
-*Si vn nombre en multipliant deux autres, en produict quelques-vns, les produicts d'iceux auront mesme raison entr'eux que les multipliez.*
-
-F. vnit.
-A...3
-B..2 C.....4
-D......6 E............12
-
-Hypoth.
-
-▭.ba est d,
-▭.ca est e.
-
 Req. π. demonstr.
 
-d π e 2|2 b π c.
+e 2|2 f.
+
+Præpar.
+
+3.p.7 | ▭.ac est g. γ
 
 Demonstr.
 
-suppos. | f, est vnit.
-c.15.d.7 | f, msur: a, b, msur: d,
-c.15.d.7 | f, msur: a, c, msur: e,
-2.a.7 | b, msur: d, c, msur: e,
-1c20.d7 | b π d 2|2 c π e,
-concl. 13.7 | b π c 2|2 d π e.
+hyp. | a π b 2|2 c π d,
+αγ.17.7 | g π e 2|2 c π d,
+11.5 | a π b 2|2 g π e,
+βγ.17.7 | a π b 2|2 g π f,
+11.5 | g π e 2|2 g π f,
+1.concl. 9.5 | e 2|2 f.
 
-## THEOR. XVI. PROPOS. XVIII.
+Hypoth. 2.
 
-Si duo numeri numerum quempiam multiplicantes, fecerint aliquos: geniti ex ipsis eandem rationem habebunt, quam multiplicantes.
+e 2|2 f.
 
-*Si deux nombres multiplians quelque nombre en produisent quelques-vns: les produicts d'iceux auront mesme raison, que les multiplians.*
+Req. π demonstr.
+
+a π b 2|2 c π d.
+
+Demonstr.
+
+αγ.18.7 | c π d 2|2 g π e u f,
+βγ.17.7 | a π b 2|2 g π f,
+2.concl. 11.5 | a π b 2|2 c π d.
+
+## THEOR. XVIII. PROPOS. XX.
+
+Si tres numeri proportionales fuerint, qui sub extremis continetur, æqualis est ei, qui à medio efficitur: & si, qui sub extremis continetur, æqualis fuerit ei, qui à medio describitur ; ipsi tres numeri proportionales erunt.
+
+*Si trois nombres sont proportionaux le produict des extremes est egal au produict de celuy du milieu : & si le produict des extremes est egal au produict de celuy du milieu ; iceux trois nombres seront proportionaux.*
+
+A.........9 B......6 C....4
+D.......6
+
+Hypoth.
+
+a π b 2|2 b π c.
+
+Req. π. demonstr.
+
+▭.ac 2|2 □.b.
+
+Demonstr.
+
+suppos. | d 2|2 b,

@@ -1,19 +1,39 @@
-<!-- Running title: ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
 
-partesque primi tum inter se, tum partibus secundi sunt æquales, necnon partes tertij, inter se & partibus quarti. Et contrà, cum partes primi tum inter se, tùm partibus secundi sunt æquales, necnon partes tertij, inter se & partibus quarti, & multitudo partium primi est æqualis multitudini partium tertij, necnon multitudo partium secundi multitudini partium quarti; primus numerus est eædem partes secundi, quæ tertius quarti.
+5, 15, sunt numeri impares.
 
-*& les parties du premier sont egales, tant entr'elles, qu'aux parties du second : & aussi les parties du troisiesme sont egales, tant entr'elles, qu'aux parties du quatriesme. Et au contraire, quand les parties du premier sont egales, tant entr'elles qu'aux parties du second, & aussi les parties du troisiesme tant entr'elles qu'aux parties du quatriesme : & la multitude des parties du premier est egale à la multitude des parties du troisiesme, & la multitude des parties du second à la multitude des parties du quatriesme : le premier nombre est telles parties du second que le troisiesme l'est du quatriesme.*
+impa. impar. *impair.*
 
-hyp. | a, msur: b 2|2 c, msur: d. A,2. B,6. C,5. D,15.
-s.4.d.7 | a, par.. b 2|2 c par.. d.
+*differe du nombre pair, de l'vnité : comme 5, 7, 15, sont nombres impairs.*
 
-Vel sic, *Ou ainsi.*
+## DEFINIT. VIII.
 
-hyp. | a, msur: b, c, msur: d,
-s.4.d.7 | a, par.. b, c, par.. d.
+Pariter par numerus est, quem par numerus metitur per numerum parem.
 
-Explicatio notarum. Explication des notes.
+*Nombre pairement pair, est celuy qu'vn nombre pair mesure par vn nombre pair.*
 
-Quoties A, metitur B, toties C, metitur D : igitur quæ pars est A, numeri B, eadem pars est C, innumeri D.
+## DEFINIT. IX.
 
-*A, mesure B, autant de fois que C, mesure D : partant A, est la mesme partie de B, que C, l'est du nombre D.*
+Pariter autem impar est, quem par numerus metitur per numerum imparem.
+
+*Mais nombre pairement impair, est celuy qu'vn nombre pair mesure par vn nombre impair.*
+
+Nicomacho & Boëtio paris numeri species sunt tres, nempe pariter par, pariter impar, & impariter par.
+
+Numerus pariter par est, qui ad vnitatem vsque, bifariam diuiditur, vt 32.
+
+Pariter impar est numerus, qui dimidium habet imparem, vt 18.
+
+Impariter par numerus est, qui est pariter par, & pariter impar, vt 20.
+
+Qui igitur his est pariter par, Euclides pariter parem tantùm vocat; qui verò his est pariter
+
+*Nicomachus & Boëtius diuisent le nombre pair en trois especes, à sçauoir en pairement pair, pairement impair, & impairemēt pair.*
+
+*Le nombre pairement pair est celuy qui se diuise par moitié iusques à l'vnité, comme 32.*
+
+*Nōbre pairemēt impair est celuy qui a sa moitié impair, comme 18.*
+
+*Nombre impairement pair, est celuy qui est pairement pair & pairement impair, comme 20.*
+
+*Partant celuy qui est à ceux-cy pairement pair, Euclide l'appelle pairemēt pair seulement ; & celuy qui est à ceux-cy pairemēt impair,*

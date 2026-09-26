@@ -1,45 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
+symp. | am, mo, op, pq, qb snt 2|2 ⁊e,
+
 Demonstr.
 
-8.6 | Δabc, Δadb, Δadc snt æquiang.
-1.concl. 4.6 | bd π da 2|2 da π dc,
-2.concl. 4.6 | bc π ac 2|2 ac π dc,
-3.concl. 4.6 | cb π ab 2|2 ab π bd.
+29.1 | bh == ad,
+constr. | lt 2|2 & == rs,
+33.1 | lr == ts, α
+d.α | lr, ts, xu, zn snt == ⁊e,
+2.6 | am π mo 2|2 ar π rs,
+constr. | ar 2|2 rs,
+4.d.5 | am 2|2 mo, β
+concl. d.β | am, mo, op, pq, qb snt 2|2 ⁊e.
 
-## PROBL. I. PROPOS. IX.
+## PROBL. III. PROPOS. XI.
 
-A data recta linea imperatam partem auferre.
+Duabus datis rectis lineis tertiam proportionalem adinuenire.
 
-D'vne ligne droicte dōnee en oster vne partie demādee.
+A deux lignes droictes donnees, trouuer la troisiesme proportionelle.
 
-[Figure: ligne A—G—B avec ligne oblique A, D, E, F, C]
+[Figure: triangle A, B, C avec D, E]
 
 Hypoth.
 
-ab est — D.
+ab & bc snt — D.
 
 Req. π. fa.
 
-ag 2|2 ⅓ab.
+ab π bc 2|2 ad π de.
 
 Constr.
 
-| <baf est arbitr.
-3.1 | ad, de, ef snt 2|2 ⁊e,
-1.p.1 | fb est —,
-31.1 | dg == fb, α
-symp. | ag 2|2 ⅓ab.
+3.1 | abc est —,
+| <cae est arbitr.
+3.1 | ad 2|2 bc, α
+1.p.1 | db est —,
+31.1 | ce == bd,
+symp. | de est req.
 
 Demonstr.
 
-α.2.6 | ag π gb 2|2 ad π df,
-2.s.18.5 | ag π ab 2|2 ad π af,
-constr. | ad 2|2 ⅓af,
-concl. 4.d.5 | ag 2|2 ⅓ab.
-
-## PROBL. II. PROPOS. X.
-
-Datam rectam lineam insectam similiter secare, vt data altera secta fuerit.
-
-Coupper vne ligne droicte donnee non couppee semblablement à vne ligne droicte donnee & couppee.
+concl. α.2.6 | ab π bc 2|2 ad π de.

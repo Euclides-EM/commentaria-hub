@@ -1,44 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-D'vn poinct donné mener vne ligne droicte, qui touche vn cercle donné.
+12.a.1 | <fcb 2|2 <ecb, contr. 9.a.1.
+concl. 21.a.1 | centr.. ⊙ est in ec.
 
-[Figure: deux cercles concentriques, D au centre, E en haut, A à gauche, B et C au dedans, lignes A—E, A—C, D—E, D—B, E—B]
+## THEOR. XVIII. PROPOS. XX.
+
+In circulo, angulus ad centrum duplex est anguli ad periferiam, cùm fuerit eadem peripheria basis angulorum.
+
+Au cercle, l'angle qui est au centre, est double de l'angle qui est à la circonference ; quand ils ont pour leur base vne mesme circonference.
+
+[Figure: trois cercles marquez 1, 2, 3 ; le premier A—B—C, D au dedans, E en bas, lignes A—B, A—C, D—B, D—C, A—E ; le second A—B—C, D au dedans, lignes A—B, A—C, D—B, D—C ; le troisiesme A—B—C, D au dedans, E à gauche, lignes E—A, E—C, D—A, D—B, B—A]
 
 Hypoth.
 
-a, est • D.
-dbc est ⊙ D.
+dabc est ⊙.
 
-Req. π. fa.
+Req. π. demonstr.
 
-ac tangen.. ⊙ dbc.
+<bdc 2|2, 2<bac.
 
-Constr.
+Præpar.
 
-1.p.1 | ad est —,
-3.p.1 | dae est ⊙,
-11.1 | be ⊥ ad,
-1.p.1 | de & ac snt —,
-symp. | ac tang: ⊙ dbc.
+2.p.1 | ade est —.
 
 Demonstr.
 
-15 d.1 | da 2|2 de,
-15.d.1 | dc 2|2 db,
-| <adc est commun.
-4.1 | <dca 2|2 <dbe,
-constr. | <dbe est ∟,
-12.a.b | <dca est ∟,
-concl. c.16.3 | ac tang: ⊙dbc.
+32.1 | <bde 2|2 <dab + <dba
+5.1 | <dab 2|2 <dba,
+19.a.b | <bde 2|2, 2<dab, α
+d.α. | <edc 2|2, 2<dac,
+concl. α.20.a.1 | <bdc 2|2, 2<bac.
 
-## THEOR. XVI. PROPOS. XVIII.
+## THEOR. XIX. PROPOS. XXI.
 
-Si circulum tangat recta quæpiam linea, à centro autem ad contactum adiungatur recta quædam linea: quæ adiuncta fuerit, ad ipsam contingentem perpendicularis erit.
-
-Si quelque ligne droicte touche vn cercle, & du centre à l'attouchement on mene vne ligne droicte, elle sera perpendiculaire à la touchante.
-
-Hypoth.
-
-fedc est ⊙,
-ab tang: ⊙ fed,
-e, est • contact.
+In circulo, qui in eodem segmento sunt anguli, sunt inter se æquales.

@@ -1,38 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*quarré à nombre quarré : & les quarrez qui ont mesme raison entr'eux que nombre quarré à nombre quarré, auront aussi les costez commensurables en longitude. Mais les quarrez descrits de lignes droictes incommensurables en longitude, n'ont mesme raison entr'eux que nombre quarré à nombre quarré : & les quarrez qui n'ont mesme raison entr'eux que nombre quarré à nombre quarré, n'auront les costez commensurables en longitude.*
+Quæ vero potentia commensurabiles, non omnino & longitudine. Et quæ longitudine incommensurabiles sunt, non omnino & potentia incommensurabiles esse : Quæ vero potentia incommensurabiles sunt, omnino & longitudine incommensurabiles esse.
 
-A------B C------D
-E,4. F,3.
-G,16. H,9.
+*De ces choses, & du troisiesme scholie de l'vnziesme definition il est manifeste, que les lignes droictes commensurables en longitude, sont aussi commensurables en puissance : mais que celles qui sont commensurables en puissance, ne le sont pas necessairement en longitude : & que celles qui sont incommensurables en longitude, ne le sont pas necessairement en puissance : Mais les incommensurables en puissance, le sont aussi en longitude.*
+
+## SCHOL.
+
+Si numerus lateris sit irrationalis, omnes quoque potestates erunt irrationales, exceptis iis quarum exponentes sunt multiplices exponentis primæ potestatis rationalis.
+
+*Si le nombre du costé est irrationel, toutes les puissances seront irrationelles, exceptez celles dont les exposans sont multiples de l'exposant de la premiere puissance rationelle.*
+
+a, a2, a3, a4, a5, a6, a7, &c.
 
 Hypoth. 1.
 
-ab & cd snt comm. ꝗe.
+a, est nr. irration.
+a2, est nr. ration.
 
 Req. π. demonstr.
 
-□.ab π □.cd 2|2 nr. □ π nr. □.
-
-Præpar.
-
-5.10 | ab π cd 2|2 nr. e π nr. f,
-ʒ.p.7 | g, est □.e, & h, est □.f.
+a3, a5, a7, &c. snt irration;
 
 Demonstr.
 
-20.6 | raō. □.ab π □.cd 2|2, 2raō; ab π cd,
-11.8 | raō. g π h 2|2, 2raō; e π f,
-1.concl. 1.s.23.5 | □.ab π □.cd 2|2 nr. □.g π nr. □.h, α
-
-Hypoth. 2.
-
-□.ab π □.cd 2|2 g π h. γ
-
-Req. π. demonstr.
-
-ab & cd snt comm. ꝗe.
-
-Demonstr.
-
-20.6 | raō. □.ab π □.cd 2|2, 2raō; ab π cd,
+1.suppo. | a3, est nr. ration.
+hyp. | a2, est nr. ration.
+s.11.9 | a2, msur: a3 ꝑ a,
+3s1.d10 | a, est nr. ration.
+contr. hypoth.
+1.concl. 21.a.1 | a3, est nr. irration.
+2 suppo. | a5, est nr. ration.
+hyp. | a2, est nr. ration.

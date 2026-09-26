@@ -1,26 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Si deux grandeurs n'ont mesme raison entr'elles que nombre à nombre ; icelles grandeurs seront incommensurables.*
+11.8 | raō. g π h 2|2, 2raō; e π f,
+γ.2s23.5 | ab π cd 2|2 nr. e π nr. f, β
+2 concl. 6.10 | ab & cd snt comm. ꝗe.
 
-A----------
-B--------
+Hypoth. 3.
 
-Hypoth.
+A------B C------D
+E,4. F,3.
+G,16. H,9.
 
-a π b, n̄, est 2|2 nr. π. nr.
+ab & cd snt incomm. ꝗe.
 
 Req. π. demonstr.
 
-a & b snt incomm.
+□.ab π □.cd, n̄, est 2|2 nr. □ π nr. □.
 
 Demonstr.
 
-suppos. | a & b snt comm.
-concl. 5.10 | a π b 2|2 nr. π. nr.
+suppos. | □.ab π □.cd 2|2 nr. □ π nr. □,
+β | ab & cd snt comm. ꝗe,
 contr. hypoth.
+3 concl 21.a.1 | □.ab π □.cd, n̄, est 2|2 nr. □. π nr. □.
 
-## THEOR. VII. PROPOS. IX.
+Hypoth. 4.
 
-Quæ à rectis lineis longitudine commensurabilibus fiunt quadrata, inter se proportionem habent, quam quadratus numerus ad quadratum numerum : & quadrata inter se proportionem habentia, quam quadratus numerus ad quadratum numerum ; & latera habebunt longitudine commensurabilia. Quæ vero à rectis lineis longitudine incommensurabilibus fiunt quadrata, inter se proportionem non habent, quam quadratus numerus ad quadratum numerum : & quadrata inter se proportionem non habentia, quam quadratus numerus ad quadratum numerum, neque latera habebunt longitudine commensurabilia.
+□.ab π □.cd, n̄, est nr. □. π nr. □.
 
-*Les quarrez descrits de lignes droictes commensurables en longitude, ont mesme raison entr'eux que nombre*
+Req. π. demonstr.
+
+ab & cd snt incomm. ꝗe.
+
+Demonstr.
+
+suppos. | ab & cd snt comm. ꝗe,
+α | □.ab π □.cd 2|2 nr. □. π nr. □.
+contr. hypoth.
+4.cōcl. 21.a.1 | ab & cd snt incomm. ꝗe.
+
+## COROLL.
+
+Ex his, & ex tertio scholio vndecimæ definitionis manifestum est, rectas lineas, quæ longitudine sunt commensurabiles, omnino & potentia commensurabiles esse :

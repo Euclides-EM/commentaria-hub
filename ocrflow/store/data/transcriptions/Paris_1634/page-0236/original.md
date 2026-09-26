@@ -1,51 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-[Figure: triangle A—B—C auec cercle E—G—F inscrit, D au centre, lignes B—D—G, A—D—C prolongées, D—E, D—F, D—G]
+[Figure: trois cercles auec triangle A—B—C, D et E au dedans, F au centre ; au premier F dedans le triangle, au second F hors du triangle, au troisiesme F sur le costé B—C]
 
-Hypoth.
-
-abc est △ D.
-
-Req. π. fa.
-
-inscri. in △abc, ⊙ efg.
-
-Constr.
-
-9.1 | <dba 2|2 <dbc,
-9.1 | <dcb 2|2 <dca,
-11.1 | df ⊥ bc, α
-3.p.1 | dfeg est ⊙,
-symp. | ⊙efg est req.
-
-Præpar.
-
-12.1 | de ⊥ ab, α
-12.1 | dg ⊥ ac. α
+1.p.1 | fb, fc snt —.
 
 Demonstr.
 
-constr. | <dbe 2|2 <dbf,
-12.a.1 | <deb 2|2 <dfb,
-| bd est commun.
-26.1 | de 2|2 df, β
-d.β | dg 2|2 df,
-1.a.1 | ed 2|2 dg,
-c.15.d.1 | • e, f, g snt in ∩ .. ⊙ efg,
-c.16.3 | ab, bc, ac tang: ⊙ efg,
-concl. 5.d.4 | ⊙efg est inscre. in △abc.
+constr. | ad 2|2 db,
+| fd est commun.
+constr. | <fda 2|2 <fdb,
+4.1 | fb 2|2 fa, α
+constr. | ce 2|2 ea,
+| fe est commun.
+constr. | <fec 2|2 fea,
+4.1 | fc 2|2 fa,
+α.1.a.1 | fc 2|2 fb,
+concl. 6.d.4 | ⊙abc est circscri. △abc.
 
-## SCHOL. I.
+## COROLL.
 
-Cognitis lateribus trianguli inuenire eorum segmenta quæ fiunt à contactibus circuli inscripti.
+Hinc manifestum est, si triangulum fuerit acutangulum centrum cadere intra triangulum : si rectangulum, in latus recto angulo oppositum : si denique obtusangulum, extra triangulum
 
-Les costez d'vn triangle estans cognus trouuer les segments d'iceux faicts par les attouchemens du cercle inscrit.
+Il est manifeste de cette proposition, que si le triangle est oxygone, le centre tombera en iceluy : si rectangle, au costé qui soustient l'angle droict : & si amblygone dehors.
 
-hyp. | ab est 12,
-hyp. | bc est 16,
-hyp. | ac est 18,
-| bf, fc, ag snt req.
-2.c.36.3 | be 2|2 bf, α
-2.c.36.3 | ae 2|2 ag, α
-2.c.36.3 | cf 2|2 cg, α
-2.a.1 | ab + bc 2|2, 28,
+## SCHOL.
+
+Eadem methodo describetur circulus, qui transeat per data tria puncta, non in vna recta linea existentia.
+
+Par la mesme methode on pourra descrire vn cercle, qui passe par trois poincts donnez, qui ne soient en vne ligne droicte.
+
+## PROBL. VI. PROPOS. VI.
+
+In dato circulo quadratum describere.
+
+Dans vn cercle donné, inscrire vn quarré.

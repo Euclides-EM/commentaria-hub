@@ -1,41 +1,18 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-A,5. B,8. C,16. D---
+6.d.7 | c, msur: e,
+2c20.d7 | d, msur: b,
+contr. 3.s.29.9.
+2.concl. 21.a.1 | d & e n̄ snt nr;pa.pa.
 
-Req. π. demonstr.
+## THEOR. XXXII. PROPOS. XXXIV.
 
-a, est pr. π. c,
+Si par numerus neque à binario duplus sit, neque dimidium habeat imparem ; pariter par est, & pariter impar.
 
-Demonstr.
+*Si vn nombre pair n'est de ceux qui sont doubles depuis l'vnité, & n'a sa moitié impair ; il est pairement pair & pairement impair.*
 
-suppos. | d, msur: a & c, α
-3.s.29 | d, est nr. impa.
-6.d.7 | c, est nr.pa.
-α.30.9 | d, msur: b, β
-αβ | d, msur: a & b,
-14.d.7 | a & b snt nr; compos;
-contr. hypoth.
-concl. 21.a.1 | a, est pr. π. c.
+A,24.
 
-## COROLL.
+Numerus A, neque sit à binario duplus, neque dimidium habeat imparem. Dico A & pariter parem, & pariter imparem esse : at verò A, pariter esse parem, manifestum est ; cùm dimidium imparem non habeat. Dico etiam pariter imparem esse ; nam si A, bifariam secetur, & rursus dimidium ipsius bifariam, & hoc semper fiat, tandem sectio incidet in aliquem imparem, qui ipsum A, per numerum parem metietur : si enim incidat in binariam, erit A à binario duplus quod non
 
-Sequitur hinc, numerum imparem, qui ad aliquem numerum progressionis duplæ primus est, primum quoque esse ad omnes numeros illius progressionis.
-
-*Il s'ensuit de ceste proposition, qu'vn nombre impair, qui est premier à quelque nombre d'vne progression double, qu'il est aussi premier à tous les nombres de ceste progression.*
-
-## THEOR. XXX. PROPOS. XXXII.
-
-Numerorum à binario duplorum vnusquisque pariter par est tantum.
-
-*Tous les nombres qui suiuent le binaire en progression double, sont seulement pairement pairs.*
-
-F,1. A,2. B,4. C,8. D,16. E,32.
-
-Hypoth.
-
-f, est vnit.
-a 2|2 2f, b 2|2, 2a, c 2|2, 2b, &c.
-
-Req. π. demonstr.
-
-b,c,d,&c. snt nr; pa.pa;
+*Le nombre A, ne soit de ceux qui sont doubles depuis l'vnité, & qu'il n'aye sa moitié impair. Ie dis que A, est pairement pair & pairement impair : que A, est pairement pair, il est manifeste, veu que sa moitié n'est pas impair. Ie dis aussi qu'il est pairement impair ; car si on diuise A, en deux parties egales, & derechef sa moitié en deux parttes egales, & que cela se face tousiours on viendra en fit à vn nombre impair, lequel mesurera A, par vn nombre pair ; car si on venoit au binaire, A seroit de ceux qui sont doubles depuis*

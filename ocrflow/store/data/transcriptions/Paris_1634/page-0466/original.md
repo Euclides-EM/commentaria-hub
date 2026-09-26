@@ -1,41 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-a + c + e, multipl.. b + d + f,
-β.3.d.7 | e, multipl.. f,
-u a, multipl.. b,
-2.concl. 20.d.7 | a + c + e π b + d + f 2|2 a π b.
-
-## THEOR. XI. PROPOS. XIII.
-
-Si quatuor numeri proportionales sint: & vicissim proportionales erunt.
-
-*Si quatre nombres sont proportionaux; aussi en changeant ils seront proportionaux.*
-
-A....4 B..2
-C......6 D...3
+A.1 B...3
+D..2 E......6
 
 Hypoth.
 
-a π b 2|2 c π d.
+a, msur: b,
+d, msur: e, α
 
 Req. π. demonstr.
 
-a π c 2|2 b π d.
+a, msur: d,
+b, msur: e,
 
 Demonstr.
 
-hyp. | a π b 2|2 c π d,
-ɔ.20.d7 | a 8,2,3,6|4 b, c 8,2,3,6|4 d,
-suppos. | a, multipl. b, c, multipl. d,
-3.d.7 | b, par. a, d, par. c,
-9.7 | b, par. u part.. d, a, par. u part.. c,
-20.d.7 | a π c 2|2 b π d.
+α.1c20.d7 | a π b 2|2 d π e,
+13.7 | a π d 2|2 b π e,
+5.a.7 | a, msur: d,
+concl. 2c20d7 | a, msur: d, b, msur: e.
 
-A...2 B....4
-C...3 D......6
+## THEOR. XIV. PROPOS. XVI.
+
+Si duo numeri mutuò sese multiplicantes fecerint aliquos; geniti ex ipsis æquales inter se erunt:
+
+*Si deux nombres se multiplians l'vn l'autre en produisent quelques-vns, les produicts d'iceux seront egaux entr'eux.*
+
+E. vnit.
 A...3 B....4
-C......6 D........8
+C...........12
+D...........12
 
-suppos. | a, par. u part.. b, c, par. u part.. d,
-9&10.7 | a, par. u part.. c, b, par. u part.. d,
-2.concl. 20.d.7 | a π c 2|2 b π d.
+Hypoth.
+
+▭.ba est C, α
+▭.ab est D. β
+
+Req. π. demonstr.
+
+c 2|2 d.
+
+Demonstr.
+
+suppos. | e, est vnit.
+α.c15 d.7 | e, msur: a, b, msur: c,
+15.7 | e, msur: b, a, msur: c, γ
+β.c15 d.7 | e, msur: b, a, msur: d,
+γ.2.a.7 | a, msur: c, a, msur: d,
+concl. 6.a.1 | c 2|2 d.

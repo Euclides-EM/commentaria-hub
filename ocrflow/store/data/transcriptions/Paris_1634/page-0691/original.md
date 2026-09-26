@@ -1,42 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-γ.c 17.5 | ab π ac 2|2 □.df π □.h, ♪
-α.cōstr. | ab π ac, n̄, est 2|2 nr.□ π nr. □,
-2 concl. ♪.9 10 | df, incomm. h,
-3.concl. 4d85.10 | df, est apotom. 4.
+[Figure: labels arranged A D F G E / B L C N K H I]
+[Figure: labels arranged N P / T S O / V X / Q R M]
 
-## PROBL. XXIII. PROPOS. XC.
+s.28.6 | ▭.age 2|2 □.fe, α
+2.p.1 | bci, est ——,
+31. 1 | fк, gh, ei snt == dc,
+14.2 | □lm 2|2 ▭ah, β
+14.2 | □no 2|2 ▭gi, γ
+2.p.1 | nsr & ost snt ——.
 
-Inuenire quintam apotomen.
+Req. π. demonstr.
 
-*Trouuer vn apotome, ou residu cinquiesme.*
-
-A... 3 C...... 6 B (line)
-G —— (line)
-D —— E —— F (line)
-H —— (line)
-
-Constr.
-
-arbitr. | ab, est nr. □,
-2 l29.10 | ac & cb, n̄ snt nr. □, α
-arbitr. | g, est ration. expos.
-2.l.10.10 | ef, comm. g,
-3.l.10.10 | nr. cb π nr. ab 2|2 □.ef π □.df, β
-symp. | Req. est de.
-
-Præpar.
-
-6.app. | □.df 2|2 □.ef + □.h. γ
+▭ai 2|2 aggreg.. □.to + □.so,
+▭dк, ▭fi, / ▭lo, / ▭nm, snt 2|2 ꝗe
+□tr 2|2 ▭ac,
+df, fe, de snt cōm. ꝗe.
 
 Demonstr.
 
-β. c. 4.5 | ab π cb 2|2 □.df π □.ef,
-γ.c.19.5 | ab π ac 2|2 □.df π □.h,
-α.cōstr. | ab π ac, n̄ est 2|2 nr. □ π nr. □,
-γ. 9.10 | df, incomm. h,
-concl. 5d85.10 | de, est apotom. 5.
+1.concl. βγ 2.a.1 | ▭ai 2|2 lm □.to + no □.so, ♪
+1c19.10 | dк, fi, lo, nm snt ▭,
+α.14.6 | ag π fe 2|2 fe π ge,
+1. 6 | ▭ah π| ▭fi, / ▭fi π| ▭gi,
+s.22.6 | □lm π| ▭lo, / ▭lo π| □no,
+constr. | □lm 2|2 ▭ah, / & □no 2|2 ▭gi,
+9. 5 | ▭lo 2|2 ▭fi,
+36. 1 | ▭dк 2|2 ▭fi,
+2.a.1 | ▭lo 2|2 ▭nm,
+2.concl. 1.a.1 | ▭dk, / ▭fi, / ▭lo, / ▭nm, snt 2|2 ꝗe, ε
+♪ | □lm + □no 2|2 ▭ai,
+3.concl. 3.a.1 | tr □.ts 2|2 ▭ac,
+constr. | df 2|2 fe,
+4.concl. 16. 10 | df, fe, de snt cōm. ꝗe. θ
 
-## PROBL. XXIV. PROPOS. XCI.
+## COROLL. I.
 
-Inuenire sextam apotomen.
+hyp. | ae, comm. de ꝗn □, к
+hyp. | □.ae 3|2 □.de..□.—— comm. ae, λ

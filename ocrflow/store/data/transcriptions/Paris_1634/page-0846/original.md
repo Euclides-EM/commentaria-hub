@@ -1,21 +1,20 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-*Descrire vn icosaedre, & l'enuironner d'vne mesme sphere que les figures deuant dictes; & monstrer que le costé de l'icosaedre est ligne irrationelle, laquelle est appellee mineure.*
-
 [Figure: labels arranged B / D C / A]
 
 [Figure: labels arranged R F X / L P / G K / Z E Q Y / M O / S H I V / N / T]
 
-Hypoth.
-
-ab, eſt diamet. ſphær.
-
-Conſtr.
-
-ſ.10.10 | ab 2|2, 5cb,
-3.p.1 | adb, eſt ſemic.
-11. 1 | cd ⊥ ab,
-1.p.1 | ad & db ſnt ——,
-3. 1 | ef 2|2 bd,
-3.p.1 | efкng, eſt ⊙,
-11. 4 | fкihg, eſt 5< æquilat. inſcri. ꝗn ⊙fnкng, α
+1. a. 1 | □.fr 2|2 □.fg, & fr 2|2 fg,
+δ. 1.a.b | rſ, fg, fr, rg, gſ, gh, ſh, ſt, &c. ſnt 2|2 ꝗe,
+conſtr. | <fey, eſt ⌐,
+c.14.11 | xqy, eſt ⌐,
+47. 1 | □.xy 2|2 □.qx + □.qy,
+10. 13 | □.ux, Ⅱ □.fg 2|2 □.qx + □.qy,
+1. a. 1 | □.xy 2|2 □.ux, Ⅱ □.fg,
+ſ. 46.1 | xy 2|2 ux, θ
+d. θ | zg 2|2 gh, к
+1.concl. εθк | icoſaedr. eſt æquilat.
+15. d. 1 | qx 2|2 qu,
+29. 1 | <eqx & <equ ſnt ⌐;
+47.1 | αx 2|2 αu, λ
+d. λ | ax, αr, αſ, αt, αu, αf, αg, αh, αi, αк ſnt 2|2 ꝗe, μ

@@ -1,45 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-1.a.1 | <cae + <e 2|2 4<e,
-3.a.1 | <cae 2|2 3<e,
-concl. κ.2.a.1 | <bae 2|2 7<bea.
+3.a.1 | bc est 2573,
+47.1 | ac est 2760,
+| ad π ac 2|2 ad π ac,
+| 3864, π, 2760, 10, π, O
+| ac est 7 552/3864.
 
-Explicat. p̄ nr.
+## SCHOL. IV.
 
-arbitr. | ab est 1000,
-1.a.1 | bc est 1000,
-47.1 | ac u cd est 1414,
-2.a.1 | bd est 2414,
-47.1 | adude est 2613,
-2.a.1 | be est 5027,
-47.1 | ae est 5126.
+Omnis figura æquilatera circulo inscripta, est quoque æquiangula: sed non omnis figura æquilatera circulo circumscripta est quoque æquiangula, nisi numerus angulorum ipsius sit impar.
 
-## SCHOL. III.
+Toute figure equilaterale inscrite au cercle est aussi equiangle: mais toute figure equilaterale circonscrite au cercle n'est pas aussi equiangle, si le nombre de ses angles n'est impair.
 
-Cognitis duobus lateribus trianguli obliquanguli, & ratione vnius anguli, ad aggregatum reliquorum duorum, quæ sit eadem alicui rationi præcedentis tabulæ, inuenire tertium latus.
+Hypoth. 1.
 
-Estant cognus deux costez d'vn triangle obliquangle, & la raison de l'vn de ses angles à l'aggregé des deux autres, qui soit mesme qu'vne des raisons de la table precedente, trouuer le troisiesme costé.
+abcde est æquilat. α
 
-Exempl. 1.
+Req. π. demonstr.
 
-hypoth. | ade est △ propos.
-hyp. | <ade 2|2, 11<e
-| + 11<dae,
-hyp. | ad est 3,
-hyp. | de, est 2.
+abcde est æquiang.
 
-Req. est ae,
+[Figure: pentagone A—B—C—D—E inscrit dans vn cercle]
 
-2.s.16.4 | <bac 2|2, 2<bca,
-arbitr. | ab est 1000,
-15.4 | acucd est 2000,
-47.1 | bc est 1732,
-2.a.1 | bd est 3732, α
-47.1 | ad est 3864, β
-| ad π de 2|2 ad π de,
-| 3 π 2, 3864, π, O.
-| de, est 2576,
-2.a.1 | be est 6308,
-47.1 | ae est 6386,
-concl. | ad π ae 2|2 ad π ae,
-| 3864, π, 6386, 3, π, O.
+Demonstr.
+
+α.28.3 | ∩ab, ∩bc, ∩cd, ∩de, ∩ea snt 2|2 ⁊e,
+concl. 27.3 | <abc, <bcd, <cde, <dea, <eab snt 2|2 ⁊e,
+
+Hypoth. 2.
+
+fghi est rhomb.
+<fgh 3|2 <gfi,
+
+[Figure: rhombe F—G—H—I auec cercle inscrit, O au centre, les poincts L, M, N, P sur le cercle]
+
+Præpar.
+
+9.1 | <ogh 2|2 <ogf,
+9.1 | ohg 2|2 <ohi,
+12.1 | om, ol, on, op snt ⊥,

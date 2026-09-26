@@ -1,27 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-## COROLL.
+Req. π. fa.
 
-Sequitur ex huius problematis demonstratione, si duo anguli proximi, figuræ æquilateræ & æquiangulæ, diuidantur bifariam, & à puncto in quo coeunt lineæ angulos bifariam secantes, ducantur rectæ lineæ ad reliquos figuræ angulos, omnes angulos figuræ fore sectos bifariam.
+inscri. in ⊙abdf, 6<abcdef æquilat. & æquiang.
 
-Il s'ensuit de la demonstration de ce probleme, que si deux angles prochains d'vne figure equilaterale & equiangle sont diuisez chacun en deux parties égales, & du poinct où se rencontrent les deux lignes qui diuisent les angles également soient menées des lignes droictes à tous les autres angles de la figure, tous les angles de la figure seront diuisez également.
+Constr.
+
+arbitr. | ad est diamet.
+3.p.1 | dgce est ⊙,
+1.&2.p.1 | cgf & egb snt —,
+1.p.1 | ab, bc, cd, de, ef, fa snt —,
+symp. | 6<abcde est req.
+
+[Figure: cercle auec hexagone A—F—E—D—C—B inscrit, G au centre, diametres A—D, B—E, C—F ; second cercle au dessous passant par G]
+
+Demonstr.
+
+15.d.1 | △gcd est æquilat.
+c.5.1 | △gcd est æquiang.
+32.1 | <dgc 2|2, ⅓..2∟, α
+32.1 | <dge 2|2, ⅓..2∟, β
+13.1 | <egf 2|2, ⅓..2∟, β
+α.β.15.1 | <fga,<agb,<bgc,<cgd,<dge,<egf snt 2|2 ⁊e,
+26.3 | ∩ab, ∩bc, ∩cd, ∩de, ∩ef, ∩fa snt 2|2 ⁊e,
+1.concl. 29.3 | ab, bc, cd, de, ef, fa snt 2|2 ⁊e,
+2.concl. 27.3 | <abc,<bcd,<cde,<def,<efa,<fab snt 2|2 ⁊e,
+
+Coroll. 1.
+
+| √.6< 2|2 semidiamet.
+
+Coroll. 2.
+
+29.3 | ace est △ æquilat.
 
 ## SCHOL.
 
-Eadem prorsus methodo in qualibet figura æquilatera, & æquiangula circulus describitur.
+Demonstratio praxis vndecimæ propositionis libri primi, quam in hunc locum demonstrandam distulimus.
 
-Par la mesme methode en toute figure equilaterale & equiangle se descrira le cercle.
-
-## PROPOS. XIV. PROPOS. XIV.
-
-Circa datum pentagonum æquilaterum, & æquiangulum circulum describere.
-
-A l'entour d'vn pentagone donné, equilateral & equiangle descrire vn cercle.
-
-Hypoth.
-
-abcde est 5< æquilat. & æquiang.
-
-Req. π. fa.
-
-circscri. ⊙abcde. π. 5<abcde.
+Demonstration de la practique de l'vnziéme proposition du premier liure, que nous auons remise à demonstrer icy.

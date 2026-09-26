@@ -1,29 +1,45 @@
-<!-- Running title: ELEM.. EVCLD. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-*Si depuis l'vnité il y a tant de nombres qu'on voudra continuellement proportionaux ; le plus petit mesure le plus grand par quelqu'vn de ceux qui sont entre les nombres proportionaux.*
+*dra continuellement proportionaux, tous les nombres premiers qui mesurent le dernier, mesurent aussi celuy qui est proche de l'vnité.*
 
-H,1. A,3. B,9. C,27. D,81. E,243. F,729. G,2187.
+E,1. A,6. B,36. C,216. D,1296.
+F,3.
 
 Hypoth.
 
-h,a,b,c,d,&c. snt contin. proport;
+e,a,b,c,d snt contin. proport.
+f, est nr. pr.
+f, msur: d.
 
 Req. π. demonstr.
 
-nr.minr.proport. msur: nr.majr.proport. ꝑ proport.
+f, msur: a.
 
 Demonstr.
 
-hyp. | h π a 2|2 a π b, u b π c, u c π d, &c.
-5.a.7 | h, msur: a ꝑ a,
-3c20.d7 | a, msur: b ꝑ a, b msur: c ꝑ a, c msur: d ꝑ a, &c.
-14.7 | h π b 2|2 a π c, u b π d, u c π e, &c.
-5.a.7 | h, msur: b ꝑ b,
-3c20.d7 | a, msur: c ꝑ b. b, msur: d ꝑ b. c, msur: e ꝑ b, &c.
-14.7 | h π c 2|2 a π d, u b π e, u c π f, &c.
-5.a.7 | h, msur: c ꝑ c,
-3c20.d7 | a, msur: d ꝑ c. b, msur: e ꝑ c. c, msur: f ꝑ c, &c.
+suppos. | f, n̄, msur: a,
+31.7 | f & a snt pr; ꝫe,
+c.11.9 | b, est □.a,
+27.7 | f & b snt pr; ꝫe,
+c.11.9 | c 2|2 ▭.ab,
+26.7 | f & c snt pr; ꝫe,
+c.11.9 | d 2|2 ▭.ac,
+26.7 | f & d snt pr; ꝫe.
+contr. hypoth.
+21.a.1 | f, msur: d.
 
-## COROLL.
+## COROLL. I.
 
-Hinc perspicuum est si numerus qui metitur aliquem ex proportionalibus non sit vnus proportionalium, neque numerum per quem metitur esse aliquem ex proportionalibus.
+Itaque omnis numerus primus vltimum metiens, metitur quoque omnes alios vltimum præcedentes.
+
+*Partant tout nombre premier qui mesure le dernier, mesure aussi tous les autres qui precedent le dernier.*
+
+## COROLL. II.
+
+Si aliquis numerus non metiens proximum vnitati, metiatur vltimum, erit numerus compositus.
+
+*Si quelque nombre ne mesurant pas le prochain à l'vnité, mesure le dernier, il sera nombre composé.*
+
+## COROLL. III.
+
+Si proximus vnitati sit numerus primus, nullus alius primus numerus vltimum metietur.

@@ -1,13 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-æquè metiuntur, primus numerus est eadem pars secundi, quæ tertius quarti: Et multitudo partium secundi, æqualium primo, est æqualis multitudini partium quarti, æqualium tertio.
+A,4. B,6. C,10. D,15.
 
-*que le troisiesme mesure le quatriesme, le premier nombre est telle partie du second, que le troisiesme du quatriesme : Et la multitude des parties du second, egales au premier, est egale à la multitude des parties du quatriesme, egales au troisiesme.*
+hyp. | par.. a, msur: b, par.. c, msur: d,
+s.4.d.7 | a, part. b, c, part. d.
 
-Et contra, cum multitudo partium secundi æqualium primo, est æqualis multitudini partium quarti æqualium tertio : primus numerus est eadem pars secundi, quæ tertius quarti.
+Explicatio notarum. Explication des notes.
 
-*Et au contraire, quand la multitude des parties du second egales au premier, est egale à la multitude des parties du quatriesme, egales au troisiesme : le premier nombre est telle partie du second, que le troisiesme du quatriesme.*
+Quæ pars numeri A, metitur B, eadem pars numeri C, metitur D; igitur numerus A, est eædem partes numeri B, quæ numerus C, numeri D.
 
-Cùm vero primus numerus, & tertius non metiuntur secundum & quartum; sed pars primi metitur secundum, eadem pars tertij quartum, primus numerus est eædem partes secundi, quæ tertius quarti : Et multitudo partium primi, est æqualis multitudini partium tertij, multitudo vero partium secundi, multitudini partium quarti :
+*La partie de A, qui mesure B, est la mesme, que la partie de C, qui mesure D; partant le nombre A, est telles parties de B, que le nombre C, l'est du nombre D.*
 
-*Mais quand le premier & troisiesme nombre ne mesurent point le second & le quatriesme; ains vne partie du premier mesure le second, & la mesme partie du troisiesme le quatriesme. Le premier nombre est telles parties du second, que le troisiesme du quatriesme : & la multitude des parties du premier, est egale à la multitude des parties du troisiesme, & la multitude des parties du second, à la multitude des parties du quatriesme :*
+## DEFINIT. V.
+
+Multiplex vero maior minoris, cùm maiorem metitur minor : vt 15, est multiplex 5.
+
+*Vn nombre est dit multiple d'vn autre plus petit, lors que le plus petit mesure le plus grand : comme 15, est multiple de 5.*
+
+## DEFINIT. VI.
+
+Par numerus est, qui bifariam diuiditur : vt 6, 8, 10, sunt numeri pares.
+
+*Nombre pair, est celuy qui peut estre diuisé en deux egalement : comme 6, 8, 10, sont nombres pairs.*
+
+pa. id est par.
+
+*pa. signifie pair.*
+
+## DEFINIT. VII.
+
+Impar vero, qui bifariā non diuiditur, vel qui vnitate differt à pari : vt
+
+*Mais nombre impair est celuy qui ne se peut diuiser en deux egalement, ou qui*

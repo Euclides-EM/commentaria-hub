@@ -1,44 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## THEOR. XXII. PROPOS. XXV.
+commensurabilibus descriptorum, & duplum rectangulum sub eisdem rectis contentum, sunt incommensurabilia, tum inter se, tum quadratis aggregati & differentiæ earundem rectarum.
 
-Quod sub mediis longitudine cómensurabilibus rectis lineis continetur rectangulum, medium est.
+*L'aggregé des quarrez de deux lignes commensurables en puissance seulement, & le double du rectangle contenu sous icelles, sont incommensurables, tant entr'eux qu'aux quarrez de l'aggregé, & de la difference d'icelles lignes.*
 
-*Le rectangle contenu sous deux lignes droictes mediales, commensurables en longitude, est medial.*
-
-F D E (rectangle B C A)
+A----B C-- A---- C--B
 
 Hypoth.
 
-dc & cb snt medi.
-dc, comm. cb.
+abc est ——,
+ab comm. bc ꝗn □. α
 
 Req. π. demonstr.
 
-▭db, est medi.
-
-Præpar.
-
-46.1 | da, est □.dc.
+aggreg..□.ab + □.bc incomm. 2▭abc,
+aggreg..□.ab + □.bc, & 2▭abc snt incom. □.ac.
 
 Demonstr.
 
-1.6 | ac, u de π | cb,
-da π | db,
-hyp. | dc, u ca, comm. cb,
-10.10 | da, comm. db,
-hyp. | da, est medi.
-concl. s.24.10 | db, est medi.
-
-## THEOR. XXIII. PROPOS. XXVI.
-
-Quod sub mediis potentia tantum commensurabilibus rectis lineis continetur rectangulum, vel rationale est, vel medium.
-
-*Le rectangle contenu sous deux lignes droictes mediales commensurables en puissance seulement, est rationel, ou medial.*
-
-Hypoth.
-
-ab & bc snt medi.
-ab, comm. bc ꝗn □, α
-
-Req. π. demonstr.
+1.6 | ab π bc 2|2 □.ab π ▭.abc,
+hyp. | ab, incomm. bc,
+10.10 | □.ab, incomm. ▭.abc,
+α.hyp. | □.ab, comm. □.bc,
+16.10 | aggreg..□.ab + □.bc, comm. □.ab,
+14.10 | aggreg..□.ab + □.bc, incomm. ▭.abc,
+1.concl 14.10 | aggreg..□.ab + □.bc, incomm. 2▭abc, β
+4.2 7.2 | □.ac 2|2 □.ab + □.bc + 2▭.abc,
+u □.ab + □.bc ∼ 2▭.abc,
+2 concl. β.16.10 | aggreg..□.ab + □.bc, & 2▭.abc snt incōm. □.ac.

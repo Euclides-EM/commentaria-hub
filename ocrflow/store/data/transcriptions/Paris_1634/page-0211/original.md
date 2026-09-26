@@ -1,36 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle A—B—C—D, lignes A—B, B—C, A—C, A—D, D—C, B—D]
+arbitr. | b est • in ∩ abc,
+1.p.1 | cb, ab, ad snt —,
+α.10.d.3 | <adc 2|2 <abc, contr. 16.1.
+concl. 21.a.1 | ac ñ est bas. commun.
 
-Demonstr.
+## THEOR. XXII. PROPOS. XXIV.
 
-21.3 | <bdc 2|2 <bac,
-21.3 | <bda 2|2 <bca,
-2.a.1 | <adc 2|2 <bac + <bca,
-| <abc commun. add.
-2.a.1 | <adc + <abc 2|2 <bac + <bca + <abc,
-32.1 | <abc + <bac + <bca 2|2, 2∟
-1.concl. 1.a.1 | <adc + <abc 2|2, 2∟,
-21.3 | <dac 2|2 <dbc,
-21.3 | <bac 2|2 <bdc,
-2.a.1 | <dab 2|2 <dbc + <bdc,
-| <dcb commun. add.
-2.a.1 | <dab + <dcb 2|2 <dbc + <bdc + <dcb,
-32.1 | <dbc + <bdc + <dcb 2|2, 2∟,
-2.concl. 1.a.1 | <dab + <dcb 2|2, 2∟,
+Super æqualibus rectis lineis, similia circulorum segmenta sunt inter se æqualia.
 
-Coroll: 1.
+Semblables segments de cercles, constituez sur lignes droictes égales, sont égaux entr'eux.
 
-hyp. | <dab est ∟,
-1.c.22.3 | <dcb est ∟.
+[Figure: quatre segments ; le premier A—B—C sur la base A—C ; le second D—E—F sur la base D—F ; le troisiesme et le quatriesme superposez A/D—B—E—C/F, G en haut à droicte]
 
-Coroll: 2.
+Hypoth.
 
-hyp. | <abc 2|3 ∟,
-2.c.22.3 | <adc 3|2 ∟.
+ac 2|2 df,
+⌓ abc & ⌓ def snt sml.
 
-## SCHOL.
+Req. π. demonstr.
 
-Si vnum latus quadrilateri in circulo descripti producatur, erit angulus externus æqualis angulo interno qui opponitur ei qui est deinceps externo.
+⌓ abc 2|2 ⌓ def.
 
-Si vn costé d'vn quadrilatere inscrit dans le cercle, est prolongé, l'angle externe sera égal à l'interne, qui est opposé à celuy qui est de suitte à l'externe.
+Demonstratio.
+
+Bases AC & DF cum sint æquales congruent inter se, si altera alteri superponatur, segmentum ABC congruet etiā segmento DEF, si enim nō cōgruat, cadet aut extra, aut intra, aut partim extra,
+
+Demonstration.
+
+Les bases AC & DE, estans égales, conuiendront entr'elles si on entend que l'vne soit posée sur l'autre, & le segment ABC conuiendra aussi auec le segmēt DEF; car s'il ne conuient point il tombera au dehors, ou au de-

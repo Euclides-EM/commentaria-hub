@@ -1,27 +1,55 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-38.1 | Δdkm 2|2 Δdef,
-7.5 | Δabc π Δdef 2|2 Δali π Δdkm,
-1.6 | Δali π Δdkm 2|2 bas. ai, π bas. dk,
-1.concl. 11.5 | Δabc π Δdef 2|2 ai π dk,
-15.5 | ◇agbc π ◇defh 2|2 Δabc π Δdef,
-2.concl. 11.5 | ◇agbc π ◇defh 2|2 ai π dk.
+costez du triangle, la ligne droicte menée du sommet au poinct de la section, couppe l'angle du triangle en deux egalement.
 
-## THEOR. II. PROPOS. II.
-
-Si ad vnum trianguli latus parallela ducta fuerit recta quædam linea, hæc proportionaliter secabit ipsius trianguli latera. Et si trianguli latera proportionaliter secta fuerint, quæ ad sectiones adiuncta fuerit recta linea, erit ad reliquum ipsius trianguli latus parallela.
-
-Si à l'vn des costez d'vn triangle on mene quelque ligne droicte parallele, elle couppera les costez du triangle proportionellement : Et si les costez sont couppez proportionellement, la ligne droicte conioignant les poincts des sections, sera parallele à l'autre costé du triangle.
-
-[Figure: triangle A, B, C avec ligne D—E parallele à BC]
+[Figure: triangle B, D, C avec sommet A et ligne A—E]
 
 Hypoth. 1.
 
 abc est Δ,
-de == bc.
+<dab 2|2 <dac.
 
 Req. π. demonstr.
 
-ad π db 2|2 ae π ec.
+bd π dc 2|2 ab π ac.
 
 Præpar.
+
+31.1 | ce == ad, α
+2.p.1 | bae est —.
+
+Demonstr.
+
+α.29.1 | <bda 2|2 <bce,
+17.1 | <b+<bda 2|3,2 ⌐
+1.a.c | <b+<bce 2|3,2 ⌐
+13.a.1 | bce est Δ,
+hyp. | <dab 2|2 <dac,
+29.1 | <e 2|2 <dab,
+29.1 | <ace 2|2 <dac,
+1.a.b | <e 2|2 <ace,
+6.1 | ae 2|2 ac,
+1.concl. 2.6 | bd π dc 2|2 ba π ae. u ac,
+
+Hypoth. 2.
+
+bd π dc 2|2 ab π ac.
+
+Req. π. demonstr.
+
+<dab 2|2 <dac,
+
+Demonstr.
+
+hyp. | ba π ac 2|2 bd π dc,
+α.2.6 | bd π dc 2|2 ba π ae,
+11.5 | ba π ac 2|2 ba π ae,
+9.5 | ac 2|2 ae,
+5.1 | <e 2|2 <ace,
+29.1 | <dab 2|2 <e,
+29.1 | <dac 2|2 <ace,
+2.concl. 1.a.b | <dab 2|2 <dac.
+
+## THEOR. IV. PROPOS. IV.
+
+Æquiangulorum triangulorum proportionalia

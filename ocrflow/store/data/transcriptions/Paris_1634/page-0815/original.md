@@ -1,28 +1,20 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-1.concl. 11. 5 | alt. md π alt. la 2|2 baſ. bc π baſ. ef.
-
-Hypoth. 2.
-
-alt. dm π alt. al 2|2 baſ. bc π baſ. ef.
-
-Req. π. demonstr.
-
-cylindr. bh 2|2 cylindr. eк.
-
-Demonstr.
-
-cylindr. eк π cylindr. eq, α / 14. 12 | alt. dm π alt. om, Ⅱ al / hyp. | baſ. bc π baſ. ef / 11. 12 | cylindr. bh π cylindr. eq, α, ſnt raō; 2|2 ꝗe,
-2 concl. α. 9 5 | cylindr. eк 2|2 cylindr. bh.
-
-Demonstratio conorum fiet eodem modo constructis conis EFO & PQD sub altitudinibus MO vel AL & OD. | *La demonstration des cones se fera par la mesme methode en construisant les cones EFO & PQD sous les hauteurs MO ou AL & OD.*
-
-## PROBL. I. PROPOS. XVI.
-
-Duobus circulis circa idem centrum existentibus in majori circulo polygonum æquilaterum, & parium laterum inscribere, quod non tangat minorem circulum.
-
-*Deux cercles inegaux estans à l'entour d'vn mesme centre; inscrire au plus grand cercle vn polygone equilateral, ayant le nombre des costez pair, & lequel ne touche point le plus petit cercle.*
+[Figure: labels arranged O R / B Q / α F τ δ / A E D S P / ζ C / H y N / V M L]
 
 Hypoth.
 
-mabcg & mdef ſnt ⊙;
+dabcu & defgh ſnt ſphær. D;
+
+Req. π. fa.
+
+inſcri. polyedr. ꝗn ſphær. abcu, q n̄ tang: ſphær. efgh.
+
+Constr.
+
+p. 11, & 2. 15. d. 1 | abcu, efgh ſnt ⊙; ꝗn vn plan. ſecan. ſphær ꝑ centr.
+1&2. p. 1 | ac & bu ſnt diametr. ⊙abcu ⊥ ꝗe,
+16. 12 | polyg. umlnc, &c. eſt inſcri. ꝗn ⊙abcu n̄ tangen. ⊙ efgh,
+16. 12 | cn, nl, lm, mu ſnt ∩; 2|2 ꝗe,
+1&2. p. 1 | nα, eſt diametr.. ⊙ abcu,
+12. 11 | do, eſt ⊥ plan.. ⊙; abcu & efgh,

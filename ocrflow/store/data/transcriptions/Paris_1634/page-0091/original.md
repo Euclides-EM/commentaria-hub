@@ -1,51 +1,48 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-sub æqualibus rectis lineis contentum angulo æqualem habebunt.
-
-Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & qu'ils ayent la base égale à la base, ils auront außi l'angle contenu d'iceux costez égaux égal à l'angle.
-
-[Figure: deux triangles, ABC à gauche et DEF à droite]
-
-Hypoth.
-
-ab 2|2 de,
-ac 2|2 df,
-bc 2|2 ef,
-
-Req. π. demonst.
-
-<bac 2|2 <edf.
+9.1. | <dca 2|2 <dcb,
+symp. | ad 2|2 db.
 
 Demonstr.
 
-suppos. | • b est ⟨n e,
-suppos. | bc est ⟨n ef,
-hypoth. | bc 2|2 ef,
-9.a.1. | • c est ⟨n f,
-7.1. | • a est ⟨n d,
-14.a.1. | △bac & △edf, conunt.
-concl. 8.a.1. | <a 2|2 <d.
+constr. | ca 2|2 cb,
+| cd est commun.
+constr. | △dca 2|2 <dcb,
+concl. 4.1. | ad 2|2 db.
 
-Coroll.
+CONSTR.. PRA.
 
-1.concl. 8.a.1. | <b 2|2 <e,
-2.concl. 8.a.1. | <c 2|2 <f,
-3.concl. 8.a.1. | △abc 2|2 △def.
+hyp. | ab est — D.
+3.p.1. | acd, & bcd snt ⊙ 2|2 ꝗe, arb.
+1.p.1. | cd est —,
+symp. | ae 2|2 eb.
 
-## PROBL. IV. PROPOS. IX.
+Demonstr.
 
-Datum angulum rectilineum bifariam secare. | Coupper en deux également vn angle rectiligne döné.
+8.1. | <dca 2|2 <dcb,
+concl. 4.1. | ae 2|2 eb.
+
+[Figure: ligne A—E—B horizontale, arcs s'entrecoupans en C au dessus et en D au dessous, ligne pointillée CD passant par E]
+
+## PROBL. VI. PROPOS. XI.
+
+Data recta linea, à puncto in ea dato, rectam lineam ad angulos rectos excitare.
+
+Sur vne ligne droicte donnée, & d'vn poinct donné en icelle éleuer vne ligne droicte perpendiculaire.
+
+[Figure: ligne A—D—C—E—B horizontale, triangle DEF, F au sommet, ligne verticale FC]
 
 Hypoth.
 
-<bac est D.
+ab est — D.
+c est • D. ⟨n ab.
 
 Req. π. fa.
 
-<fab 2|2 <fac.
+cf ⊥ ab.
 
 Constr.
 
-| ad est arbitr.
-3.1. | ae 2|2 ad,
-1.p.1. | de est —,
+| d est • arbitr.
+3.1. | ce 2|2 cd,
+1.1. | def est △ æquilat.

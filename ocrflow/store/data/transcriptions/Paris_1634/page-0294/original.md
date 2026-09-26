@@ -1,31 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## THEOR. VI. PROPOS. VI.
+## THEOR. VIII. PROPOS. VIII.
 
-Si duæ magnitudines duarum magnitudinum sint æquè multiplices, & detractæ quædam sint earundem æquè multiplices : & reliquæ eisdem aut æquales sunt, aut æquè ipsarum multiplices.
+Inæqualium magnitudinum maior ad eandem, maiorem rationem habet, quàm minor : Et eadem ad minorem, maiorem rationem habet, quàm ad maiorem.
 
-Si deux grandeurs sont equimultiples de deux autres grandeurs, & quelques retranchées d'icelles soient equimultiples des mesmes grandeurs, ou les restes seront égaux aux mesmes, ou equimultiples d'icelles.
+Des grandeurs inégales, la plus grande a plus grande raison à vne mesme que la plus petite : Et vne mesme grandeur a plus grande raison à la plus petite grandeur qu'à la plus grande.
 
-Hyoth.
+Hyppoth.
 
-ab, multipl.. e, 2|2, cd multipl.. f,
-ag, multipl.. e, 2|2, ch, multipl. f.
+ab 3|2 c.
 
-[Figure: lignes verticales B—G—A et D—H—C, auec E, F]
+[Figure: lignes verticales B—E—A, C, D et H—G—F, I—K]
 
 Req. π. demonstr.
 
-gb 2|2 e & hd 2|2 f,
-ugb multipl.. e, 2|2, hd, multipl.. f.
+raō.. ab π d 3|2 raō. c π d,
+raō.. d π c 3|2 raō. d π ab.
+
+Præpar.
+
+3.1 | ae 2|2 c,
+3.1 | hg multipl.. aeuc 2|2 gf multipl.. eb,
+4.p.1 | hg 3|2 d & gf 3|2 d, α
+3.1 | ik multipl.. d,
+α.3.1 | ik 3|2 hg & ik 2|3 hf, β
 
 Demonstr.
 
-s.2.d.5 | multd.. part.. ab, 2|2, multd.. part.. cd,
-s.2.d.5 | multd.. part.. ag, 2|2, multd.. part.. ch,
-3.a.1 | multd.. part.. gb, 2|2, multd.. part.. hd,
-concl. | gb 2|2 e & hd 2|2 f,
-3.a.1 | ugb multipl.. e 2|2 hd multipl.. f.
-
-## THEOR. VII. PROPOS. VII.
-
-Æquales ad eandem, eandem habent rationem : & eadem ad æquales.
+1.5 | hf multipl.. ab 2|2 hg multipl.. aeugf multipl. eb,
+β.cōstr. | hf 3|2 ik & hg 2|3 ik,
+1.concl. 8.d.5 | raō.. ab π d 3|2 raō. c π d,

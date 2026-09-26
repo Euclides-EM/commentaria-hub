@@ -1,20 +1,23 @@
-# EVCLIDIS ELEMENTORVM LIBER TERTIVS.
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-# LE TROISIESME LIVRE DES ELEMENTS D'EVCLIDE.
+Circulus FBG tāgit eumdem circulum ABE exterius in B.
 
-## DEFINIT. I.
+Circuli BFG & HFG se mutuo secant in F & G.
 
-ÆQVALES circuli sunt, quorum diametri sunt æquales; vel quorum, quæ ex centris, rectæ lineæ sunt æquales.
+Le cercle FBG touche le mesme cercle ABE par dehors en B.
 
-CERCLES égaux sont ceux desquels les diametres sont égaux; ou desquels les lignes droictes menées des centres aux circonferences sont égales.
+Les cercles BFG & HFG s'entrecouppent l'vn l'autre en F & G.
 
-hyp. | semidiamet. ga 2|2 semidiamet. hd,
-1.d.3 | ⊙gabc 2|2 ⊙hdef.
+## DEFINIT. IV.
 
-[Figure: deux cercles égaux, le premier A—B—C avec centre G et I en bas, le second D—E—F avec centre H et K en bas, triangles G—A—C et H—D—F]
+In circulo æqualiter distare à centro rectæ lineæ dicuntur, cùm perpendiculares, quæ à centro in ipsas ducuntur, sunt æquales. Longius autem abesse illa dicitur, in quam maior perpendicularis cadit.
 
-## DEFINIT. II.
+Au cercle, les lignes droictes sont dites estre également distantes du centre, quand les perpendiculaires, qui sont menées du centre sur icelles sont égales. Mais celle-là est dite estre plus esloignée du centre sur laquelle tombe la plus grande perpendiculaire.
 
-Recta linea circulum tangere dicitur, quæ cum
+[Figure: cercle avec F, A, K, B en haut, E, D, L, C en bas, centre G, ligne H—I horizontale par le centre, N sous I, cordes F—E, A—D, K—L, B—C, lignes du centre G vers K, B et N]
 
-Vne ligne droicte est dite toucher le cercle, laquelle
+## DEFINIT. V.
+
+Segmentum circuli est figura, quæ sub recta li-
+
+Segment ou section de cercle, est vne figure compri-

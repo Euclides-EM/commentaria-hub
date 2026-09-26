@@ -1,31 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-hyp. | cb 2|2 bd,
-s.46.1. | ▭ch, ▭bm, ▭nq, ▭hp, snt 2|2 ⁊e,
-3.s.1.d.2 | ▭.abc, ▭ah, ▭he, ▭lq, ▭ng, snt 2|2 ⁊e,
-s.46.1. | ▭bm 2|2 ▭nq,
-1.a.s. | 4▭.abc 2|2 odi, gnom.
-| oi ▭.ac commun. add.
-2.a.1. | 4▭.abc + ▭.ac 2|2 gnom. odi + oi ▭.ac,
-19.a.1 | gnom. odi + oi ▭.ac 2|2 ae ▭.ad,
-concl. 1.a.g. | 4▭.abc + ▭.ac 2|2 ▭.ad,
-
-[Figure: quarré F—E—H—A, diagonale F—D, I, G en haut, R, T, K, Q au milieu, O, L à gauche, N, H, S en bas, P à droite, A—C—B—D en bas]
-
-## PROPOS. VIII. ALITER. — AVTREMENT.
-
-Si recta linea secetur in duo segmenta inæqualia, rectangulum quater comprehensum sub segmentis, vnà cum quadrato differentiæ segmentorum, est æquale totius quadrato.
-
-Si vne ligne droicte est couppée en deux parties inegales, le rectangle contenu quatre fois sous les deux parties, auec le quarré de la difference des parties, est égale au quarré de la toute.
+& du quarré de la section du milieu.
 
 Hypoth.
 
 ab est —,
-ad 3|2 db,
-ad ~ db 2|2 fd.
+ac 2|2 cb,
+ad 3|2 db.
 
-[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D]
+[Figure: triangle A—E—B, E au sommet, C, D sur la base, F au dessus de D, G au milieu, lignes E—C, F—D, A—F, G—F]
 
 Req. π. demonstr.
 
-4▭.adb + ▭.fd 2|2 ▭.ab,
+▭.ad + ▭.db 2|2, 2▭.ac + 2▭.cd.
+
+Præpar.
+
+11.1 | ce ⊥ ab,
+10.1 | ce 2|2 ca u cb,
+1.p.1 | ae & be snt —,
+31.1 | df == ce,
+31.1 | fg == ab,
+1.p.1 | af est —.
+
+Demonstr.
+
+constr. | ac 2|2 ce, α
+constr. | <ace est ∟,
+2.c.32.1 | <cea est ½ ∟,
+constr. | cb 2|2 ce,
+constr. | <bce est ∟, β
+2.c.32.1 | <ceb est ½ ∟,
+19.a.1 | <aef est ∟,
+32.1. | <cbe est ½ ∟, γ
+29.1 | <bdf 2|2 <bce,
+β.19.a.1 | <bdf est ∟,

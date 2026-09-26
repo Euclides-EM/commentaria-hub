@@ -1,33 +1,43 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-## THEOR. II. PROPOS. XII.
+## THEOR. III. PROPOS. XIV.
 
-Si acta à vertice trianguli ad basin, verticis angulum bifariam secet ; erit rectangulum sub cruribus, æquale ei, quod fit sub basis segmentis, vnà cum secantis quadrato.
+In omni triangulo, tres perpendiculares, ab angulis ad opposita latera ductæ, in eodem puncto se mutuò intersecant.
 
-Si la ligne menee du sommet d'vn triangle à la base, couppe l'angle du sommet en deux parties egales ; le rectangle contenu sous les costez, sera egal au rectangle des segments de la base, & au quarré de la couppante.
+En tout triangle, les trois perpendiculaires, tirees de trois angles sur les costez opposez, s'entrecouppent en vn mesme poinct.
 
-Hypoth.
+[Figure: demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E]
 
-abc est Δ,
+Hypoth. 1.
 
-<eab 2|2 eac,
+acb est Δ rectang.
+
+12.1 | ce ⊥ ab,
+1.concl. 11.a.1 | c, est inters..ac,bc,ce
+
+Hypoth. 2.
+
+adb est Δ oxygon.
+
+constr. | acb est semic.
+12.1 | de ⊥ ab,
+1.p.1 | ag est —,
+1.p.1 | bi & if snt —.
 
 Req. π. demonstr.
 
-▭.ab,ac 2|2 ▭.bec + □.ae,
-
-Præpar.
-
-5.4 | bacd est ⊙,
-1&2.p.1 | aed & cd snt —,
-
-[Figure: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas]
+bif est —,
 
 Demonstr.
 
-hyp. | <dac 2|2 <dab,
-21.3 | <adc 2|2 <abc,
-32.1 | Δadc æquiang. Δabe,
-4.6 | da π ac 2|2 ab π ae,
-α.16.6 | ▭.ab,ac 2|2 ▭.dae,
-3.2 | ▭.dea + □.ae 2|2 ▭.dae,
+suppos. | bhf est —,
+31.3 | <hfd est ⌐,
+constr. | <aed est ⌐,
+32.1 | Δaed æquiāg. Δhfd
+4.6 | ed π ad 2|2 fd π hd,
+16.6 | ▭.edh 2|2 ▭.adf, α
+31.3 | <igd est ⌐,
+32.1 | Δbed æquiāg. Δigd
+4.6 | ed π bd 2|2 gd π id,
+16.6 | ▭.edi 2|2 ▭.bdg,
+1.c.36.3 | ▭.bdg 2|2 ▭.adf,

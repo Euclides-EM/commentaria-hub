@@ -1,38 +1,27 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-dh 2|2 he,
+## COROLL.
 
-Req. π. demonstr.
+Sequitur ex huius problematis demonstratione, si duo anguli proximi, figuræ æquilateræ & æquiangulæ, diuidantur bifariam, & à puncto in quo coeunt lineæ angulos bifariam secantes, ducantur rectæ lineæ ad reliquos figuræ angulos, omnes angulos figuræ fore sectos bifariam.
 
-<hab 2|2 hag.
+Il s'ensuit de la demonstration de ce probleme, que si deux angles prochains d'vne figure equilaterale & equiangle sont diuisez chacun en deux parties égales, & du poinct où se rencontrent les deux lignes qui diuisent les angles également soient menées des lignes droictes à tous les autres angles de la figure, tous les angles de la figure seront diuisez également.
 
-Præpar.
+## SCHOL.
 
-1.p.1 | ac, ad, ae, af snt —.
+Eadem prorsus methodo in qualibet figura æquilatera, & æquiangula circulus describitur.
 
-Demonstr.
+Par la mesme methode en toute figure equilaterale & equiangle se descrira le cercle.
 
-hyp. | ab, ag, bc, gf, cd, fe, de snt 2|2 ⁊e,
-hyp. | <abc, <agf, <bcd, <gfe, <cde, <fed snt 2|2 ⁊e,
-4.1 | ac 2|2 af,
-4.1 | <bac 2|2 <gaf,
-4.1 | <bca 2|2 gfa,
-3.a.1 | <acd 2|2 <afe,
-4.1 | ad 2|2 ae,
-4.1 | <cad 2|2 <fae,
-4.1 | <cda 2|2 <fea,
-3.a.1 | <adh 2|2 <aeh,
-hyp. | dh 2|2 he,
-8.1 | <had 2|2 <hae,
-concl. 2.a.1 | <hab 2|2 <hag, α
+## PROPOS. XIV. PROPOS. XIV.
 
-[Figure: deux heptagones A—B—C—D—H—E—F—G marquez 1 et 2, auec les lignes menées de l'angle A]
+Circa datum pentagonum æquilaterum, & æquiangulum circulum describere.
 
-Demonstr.. 2. cas.
+A l'entour d'vn pentagone donné, equilateral & equiangle descrire vn cercle.
 
-d.α. | <eab 2|2 <eah,
-| <aed 2|2 <aef.
+Hypoth.
 
-## PROBL. XIII. PROPOS. XIII.
+abcde est 5< æquilat. & æquiang.
 
-In dato pentagone æquilatero & æquiangulo circulum describere.
+Req. π. fa.
+
+circscri. ⊙abcde. π. 5<abcde.

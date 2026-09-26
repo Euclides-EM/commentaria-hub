@@ -1,15 +1,17 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### XX.
+### XXIV.
 
-Trilateræ quidem, quæ sub tribus. | Figures trilateres sont celles qui sont contenuës sous trois costez.
+Isosceles autem est, quod duo tantùm æqualia habet latera, vt triangulum B. | Mais le triangle Isoscele est, celuy qui a seulement deux costez égaux, comme le triangle B.
 
-### XXI.
+[Figure: triangle isoscele B]
 
-Quadrilateræ verò, quæ sub quatuor. | Les figures quadrilateres sont celles qui sont contenues sous trois{printer-error-correction:quatre} costez.
+### XXV.
 
-### XXII.
+Scalenum verò, quod tria inæqualia habet latera, vt triangulum C. | Et le scalene qui a les trois costez inegaux, comme le triangle C.
 
-Multilateræ autem, quæ sub pluribus quàm quatuor rectis lineis comprehenduntur. | Les figures multilateres ou de plusieurs costez, sont celles qui sont cötenuës sous plus de quatre lignes droites.
+[Figure: triangle scalene C]
 
-Species figurarum rectilinearum sunt innumerabiles : nam tres rectæ lineæ claudentes figuram, efficiunt primam speciem, quatuor constituunt secundam, quinque tertiam componunt speciem, atque ita deinceps in infinitum. Euclides verò ne infinitatem figurarum cogeretur persequi, vocat omnes alias fi- | Les especes des figures rectilignes sont innumerables, à cause du progrez infini des nombres : car trois lignes droites enuironnant vne figure, constituent la premiere espece, quatre lignes droites la seconde espece, cinq lignes droites la troisiesme espece, & ainsi de suite à l'infini. Or Euclide afin de n'estre contraint de poursuiure ceste infinité, il appelle
+### XXVI.
+
+Adhæc etiam trilaterarum figurarum rectangulum quidem triangulum est, quod rectum angulum habet, vt triangulum A. | Au surplus des figures trilateres, le triangle ortogone ou rectangle est celuy qui a vn angle droict, comme le triangle A.

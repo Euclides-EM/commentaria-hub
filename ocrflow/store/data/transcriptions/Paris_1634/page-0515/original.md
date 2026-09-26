@@ -1,29 +1,59 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-αγ. 17.7 | c π e 2|2 a π g, ε
-βγδ 17.7 | g π b 2|2 d π f, u c π e,
-1.concl. 11.5 | a π g 2|2 g π b,
-2.concl. 10.d.5 | raō.. a π b 2|2, 2;raō.. a π g, u c π e.
+A,2. B,3. C,4.
+D,6. H,8. F,12.
+E,24. K,24. G,24.
 
-## COROLL.
+Hypoth. 1.
 
-Hinc perspicuum est, inter duos similes planos cadere vnum medium proportionalem, in ratione laterum homologorum.
-
-*D'icy il est manifeste, qu'entre deux plans semblables tombe vn moyen proportionel en la raison des costez homologues.*
-
-## THEOR. XVII. PROPOS. XIX.
-
-Duorum similium solidorum numerorum duo medij proportionales sunt numeri : Et solidus ad solidum triplicatam rationem habet lateris homologi ad latus homologum.
-
-*Entre deux nombres solides semblables il y a deux nombres moyens proportionaux : Et le solide est au solide en raison triplee du costé homologue au costé homologue, ou de semblable raison.*
-
-A,30. M,60. N,120. B,240.
-I,6. L,12. K,24.
-C,2. D,3. E,5. F,4. G,6. H,10.
-
-hyp. | a & b snt nr; solid; sml;
+a, b, c snt nr; D;
+d 2|2 ▭.a,b, α
+e 2|2 ▭.d,c, β
+f 2|2 ▭.c,b, γ
+g 2|2 ▭.f,a, δ
+h 2|2 ▭.a,c, ε
+k 2|2 ▭.h,b. θ
 
 Req. π. demonstr.
 
-ꝗntr. a & b snt 2; medi; proport;
-raō. a π b 2|2, 3;raō. c π f, u d π g, u e π g.
+e,k,g snt 2|2 ꝫe.
+
+Demonstr.
+
+αγ.17.7 | a π c 2|2 d π f,
+1.concl. δβ.19.7 | ▭.a,f, u g 2|2 ▭.d,c, u e, κ
+γε.17.7 | a π b 2|2 h π f,
+2.concl. δθ.19.7 | ▭.a,f, u g 2|2 ▭.h,b, u k,
+3.concl. κ.1.a.1 | g,e,k snt 2|2 ꝫe. λ
+
+E,24. F,60.
+A,2. B,3. C,4. D,5.
+G,12.
+K,120. H,120.
+
+Hypoth. 2.
+
+a,b,c,d snt nr; D;
+e, est solid.. a,b,c,
+k, est ▭.e,d, μ
+f, est solid.. b,c,d,
+h, est ▭.f,a. ν
+
+Req. π. demonstr.
+
+k 2|2 h.
+
+Præpar.
+
+g 2|2 ▭.b,c.
+
+Demonstr.
+
+d. λ | e 2|2 ▭.g,a, ϖ
+f 2|2 ▭.g,d,
+ϖ.17.7 | e π f 2|2 a π d,
+1.concl. μν.19.7 | ▭.e,d, u k 2|2 ▭.f,a, u h.
+
+## SCHOL. II.
+
+Si numerus per quotcunque numeros continuè diuidatur, quocunque ordine fiant diuisiones, idem semper numerus orietur.

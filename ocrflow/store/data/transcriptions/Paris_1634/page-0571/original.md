@@ -1,29 +1,26 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## DEFINIT. IX.
+ter se commensurabilium ; aut enim duarum linearum rationalium longitudine inter se commensurabilium, altera æqualis est expositæ rationali ; aut neutra rationali expositæ æqualis est, longitudine tamen ei vtraque est commensurabilis : aut denique vtraque expositæ rationali commensurabilis est solùm potentia.
 
-Et huic commensuralia quidem Rationalia.
+*longitude entr'elles ; car de deux lignes rationelles commensurables en longitude entr'elles, l'vne est egale à la rationelle exposee, ou l'vne ny l'autre ne luy est egale ; & toutesfois toutes deux commensurables en longitude à icelle rationelle exposee : ou finalement l'vne & l'autre est commensurable à l'exposee rationelle en puissance seulement.*
 
-*Et les figures commensurables à ce quarré rationel, soient appellees Rationelles.*
+hyp. | cadb, est semic.
+suppos. | cb, ration. expos. est 2,
+1.c.15.4 | bp, √.6<, est 2,
+2.c.15.4 | ap, √.Δ æquilat. est √.12,
+6.4 | bd, √.□, est √.8,
+11.4 | fd, √.5< est √..10~√.20,
+7.a.1 | ce 2|2 eb est 1,
+7.a.1 | ak 2|2 kp est √.3,
+bp & ab snt ration.. 1. gen. β
+ce & ab snt ration.. 2. gen. γ
+ak & ap snt ration.. 3. gen. δ
+fd, est irration. ε
 
-## DEFINIT. X.
+Explicatio notarum.
 
-Huic vero incommensurabilia, Irrationalia dicantur.
+α | CB, est rationalis exposita.
 
-*Mais les figures incommensurables au quarré rationel, soient appellees Irrationelles.*
+Explication des notes.
 
-## DEFINIT. XI.
-
-Et rectæ quæ ipsa possunt Irrationales.
-
-*Et les lignes droictes qui peuuent icelles figures irrationnelles, soient dites Irrationelles.*
-
-## SCHOL. I.
-
-Magnitudines incommensurabiles natura sua sunt incommensurabiles, nec vllo modo possunt esse commensurabiles.
-
-*Les grandeurs incommensurables sont de leur nature incommensurables, & ne peuuent en aucune façon estre commensurables.*
-
-Magnitudines vero irrationales non natura sua, sed habita ratione expositæ rationalis sunt irrationales, sumptaque alia exposita ra-
-
-*Mais les grandeurs irrationelles sont irrationelles, non de leur nature, mais à raison de la rationelle exposee, & peuuent estre rationelles en chan-*
+α | *CB, est la rationelle exposee.*

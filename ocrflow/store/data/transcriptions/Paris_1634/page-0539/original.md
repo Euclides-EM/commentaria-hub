@@ -1,33 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-b, d, e, g, &c. n̄, snt nr; cub;
-
-Demonstr.
-
-suppos. | d, est nr. cub. γ
-14.7 | d π f 2|2 a π c,
-c.4.5 | f π d 2|2 c π a,
-8.9 | c & f snt nr; cub;
-γ | d, est nr. cub.
-25.8 | a, est nr. cub.
-contr. hypoth.
-21.a.1 | d, n̄, est nr. cub. β
-suppos. | e, est nr. cub. δ
-14.7 | c π e 2|2 a π c,
-c.4.5 | e π c 2|2 c π a,
-8.9 | c, est nr. cub.
-δ | e, est nr. cub.
-25.8 | a, est nr. cub.
-contr. hypoth.
-21.a.1 | e, n̄, est nr. cub. ε
-d. βε | b,g,&c. n̄ snt nr; cub;
+*D'icy il est manifeste, que si le nombre qui mesure quelqu'vn des proportionaux n'est l'vn des proportionaux, le nombre par lequel il mesurera ne sera pas aussi aucun des proportionaux.*
 
 ## SCHOL.
 
-Ex hac propositione sequitur, si primus gradus parodicus non sit quadratus, neque alium vllum gradum parodicum esse numerum quadratum, præter eos quorum exponentes sunt numeri pares. Si verò primus non sit cubus, nullum quoque alium gradum parodicum esse numerum cubum, præter eos quorum exponentes numerus ternarius metitur.
+Si sint quotcunque numeri deinceps proportionales, additio exponentium respondebit multiplicationi proportionalium.
 
-*De cette proposition s'ensuit, que si le premier degré parodique n'est vn nombre quarré, qu'aucun autre degré parodique ne seroit nombre quarré, hormis ceux dont les exposans sont nombres pairs. Mais si le premier n'est vn nombre cube, il n'y aura point aussi aucun autre degré parodique cube, excepté ceux dont les exposans sont mesurez par trois.*
+*S'il y a tant de nombres qu'on voudra continuellement proportionaux, l'addition des exposans correspondra à la multiplication des proportionaux.*
 
-## THEOR. XI. PROPOS. XI.
+A,2. B,6. C,18. D,54. E,162. F,486. G,1358.
+1, 2, 3, 4, 5, 6, 7, expo.
 
-Si ab vnitate quotcunque numeri deinceps proportionales fuerint ; minor maiorem metitur per aliquem eorum qui in proportionalibus sunt numeris.
+Hypoth.
+
+a,b,c,d,e,&c. snt contin. proport.
+1,2,3,4,5, &c. snt expo.
+1 + 5, 2|2, 2 + 4,
+2 + 7, 2|2, 4 + 5.
+
+Req. π. demonstr.
+
+▭.ae 2|2 ▭.bd,
+▭.bg 2|2 ▭.ed.
+
+Demonstr.
+
+hyp. | a π b 2|2 d π e,
+1.concl. 19.7 | ▭.a,e 2|2 ▭.b,d,
+14.7 | b π e 2|2 d π g,
+2.concl. 19.7 | ▭.b,g 2|2 ▭,ed.
+
+## THEOR. XII. PROPOS. XII.
+
+Si ab vnitate quotcunque numeri deinceps proportionales fuerint, quicunque primorum numerorum vltimum metiuntur, iidem & eum qui vnitati proximus est, metientur.
+
+*Si depuis l'vnité il y a tant de nombres qu'on vou-*

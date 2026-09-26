@@ -1,36 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-Demonstr.
+1.6 | ▭.bg,ac π ▭.ab,ac 2|2 bg π ab,
+4.6 | bg π ab 2|2 eh π de,
+1.6 | eh π de 2|2 ▭.eh,df π ▭.de,df,
+11.5 | ▭.bg,ac π ▭.ab,ac 2|2 ▭.eh,df π ▭.de,df,
+16.5 | ▭.bg,ac π ▭.eh,df 2|2 ▭.ab,ac π ▭.de,df, α
+41.1 | ▭.bg,ac 2|2, 2 Δabc,
+41.1 | ▭.eh,df 2|2, 2 Δdef,
+7.5 | 2 Δabc π 2 Δdef 2|2 ▭.bg,ac π ▭.eh,df.
+15.5 | Δabc π Δdef 2|2 ▭.bg,ac π ▭.eh,df,
+concl. α.11.5 | Δabc π Δdef 2|2 ▭.ab,ac π ▭.de,df.
 
-31.3 | <aeb est ⌐,
-constr. | ed ⊥ ab,
-c.8.6 | ad π de 2|2 de π db,
-22.6 | □.ad π □.de 2|2 □.de π □.db,
-17.6 | □.de 2|2 ▭.adb,
-1.concl. 1.a.f | □.ad π ▭.adb 2|2 ▭.adb π □.db,
-c.8.6 | ba π ae 2|2 ae π ad,
-22.6 | □.ba π □.ae 2|2 □.ae π □.ad,
-17.6 | □.ae 2|2 ▭.bad,
-2.concl. 1.a.f | □.ba π ▭.bad 2|2 ▭.bad π □.ad, α
-3.concl. d.α | □.ab π ▭.abd 2|2 ▭.abd π □.db.
+## SCHOL. II.
 
-## THEOR. XVII. PROPOS. XXIII.
+Triangula, quæ vnum angulum vni angulo æqualem habent, proportionem habent ex lateribus æqualem angulum comprehendentibus compositam.
 
-Æquiangula parallelogramma inter se rationem habent eam, quæ ex lateribus componitur.
+Les triangles qui ont vn angle egal à vn angle, sont en raison composee des costez qui contiennent l'angle egal.
 
-Les parallelogrammes equiangles, sont l'vn à l'autre en raison composee de celle de leurs costez.
-
-[Figure: parallelogrammes A, B, C, D, H, G et C, E, F, G se touchant en C]
+[Figure: parallelogramme A, B, C, G auec triangle et parallelogramme D, E, F, H]
 
 Hypoth.
 
-◇ac æquiang. ◇cf,
-<bcd 2|2 <ecg,
+abc & def snt Δ,
+<b 2|2 <e.
 
 Req. π. demonstr.
 
-raō.. ◇ac.π.◇cf 2|2 raō.. bc π cg + raō.. dc.π.ce,
+raō.. Δabc π Δdef 2|2 raō.. bc π ef + raō.. ab π de.
 
 Præpar.
 
-3.1 | bcg est —,
+31.1 | cg == ba,
+31.1 | ag == bc,

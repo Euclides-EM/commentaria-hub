@@ -1,51 +1,51 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-*Si tant de nombres pairs que l'on voudra sont adioustez, le tout sera pair.*
-
-A....4E....4B...3F...3C..2G..2D
-
-Hypoth.
-
-ab, bc, cd snt nr; pa;
-
-Req. π. demonstr.
-
-aggreg.ad, est nr.pa.
-
-Demonstr.
-
-6.d.7 | eb, est ½.. ab,
-6.d.7 | fc, est ½.. bc,
-6.d.7 | gd, est ½..cd,
-20.d.7 | ab π eb, bc π fc, cd π gd, snt raō. 2|2 ꝫe,
-ad π | eb + fc + gd,
-12.7 | ab π | eb,
-constr. | eb, est ½ ab,
-c.20.d7 | eb + fc + gd est ½.. ad,
-concl. 6.d.7 | aggreg. ad, est nr.pa.
-
-## THEOR. XX. PROPOS. XXII.
-
-Si impares numeri quotcunque componantur, multitudo autem ipsorum sit par : totus par erit.
-
-*Si tant de nombres impairs que l'on voudra, sont adioustez, & que la multitude d'iceux soit pair : le tout sera pair.*
-
-A.........8F.1B......6G.1C....4H1D..2L1E
-
-Hypoth.
-
-ab,bc,cd,de snt nr; impa;
-multd. ab,bc,cd,de, est pa.
-
-Req. π. demonstr.
-
-aggreg. ae, est nr.pa.
+A....4B.....5D.1C
 
 Præpar.
 
-fb,gc,hd,le snt vnits;
+dc, est vnit.
 
 Demonstr.
 
-7.d.7 | af, bg, ch, dl snt nr; pa;
-21.7 | aggreg.. af + bg + ch + dl, est nr. pa.
+suppos. | bd, est nr. impa.
+1.concl. 7.d.7 | bc, est nr.pa.
+suppos. | bd, est nr.pa.
+21.9 | ad, est nr.pa.
+7.d..7 | ac, est nr. impa.
+contr. hypoth.
+21.a.1 | bd, est nr. impa.
+
+## THEOR. XXIII. PROPOS. XXV.
+
+Si à pari numero impar detrahatur, & reliquus impar erit.
+
+*Si d'vn nombre pair on retranche vn nombre impair : le reste sera aussi impair.*
+
+A......6D.1C...3B
+
+Hypoth.
+
+ab, est nr.pa.
+ac, est nr. impa.
+
+Req. π. demonstr.
+
+cb, est impa.
+
+Præpar.
+
+dc, est vnit.
+
+Demonstr.
+
+hyp. | ab, est nr. pa.
+7.d.7 | ad, est nr. pa.
+24.9 | db, est nr.pa.
+concl. 7.d.7 | cd, est nr. impa.
+
+## THEOR. XXIV. PROPOS. XXVI.
+
+Si à pari numero impar detrahatur : & reliquus impar erit.
+
+*Si d'vn nombre impair on retranche vn nombre impair : le reste sera pair.*

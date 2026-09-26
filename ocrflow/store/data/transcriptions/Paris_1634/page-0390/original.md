@@ -1,40 +1,47 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-46.1 | gh est □.eg,
-symp. | □gh est req.
+A vn rectiligne donné descrire vn rectiligne semblable, plus grand ou plus petit, selon la raison donnee.
 
-Dmonstr.
-
-47.1 | □.gh 2|2 □.gf + □.ef,
-47.1 | □.ef 2|2 □.ed + □.df,
-concl. 1.a.f | □gh 2|2 □.ed + □.df + □.fg u □.a + □.b + □.c.
-
-## PROBL. VI. PROPOS. VI.
-
-Propositis duobus quadratis inæqualibus, inuenire quadratum, quo maius excedit minus.
-
-Estant proposez deux quarrez inegaux, trouuer vn quarré egal à l'exces, par lequel le plus grand excede le plus petit.
-
-[Figure: demicercle A, D, B, le quarré E sur A D, & la ligne C F à part]
+[Figure: quadrilatere G, H, A, B ; quadrilatere E, F, C, D ; lignes R, M, S à part]
 
 Hypoth.
 
-ab & cf snt — D.
+abhg est rectil. D.
 
-ab 3|2 cf.
+r π s est raō. D.
 
 Req. π. fa.
 
-□de 2|2 □.ab ~ □.cf.
+r π s 2|2 abg π cde.
 
 Constr.
 
-3.p.1 | adb est semic.
-1.4 | bd 2|2 cf,
-1.p.1 | ad est —,
-46.1 | de est □.ad,
-symp. | □.de est req.
+13.6 | r π m 2|2 m π s,
+11.6 | r π m 2|2 ab π cd,
+18.6 | cdfe est sml. abhg,
+symp. | req. est cdfe,
 
 Demonstr.
 
-31.3 | <adb est ⌐,
+constr. | ab π cd 2|2 r π m,
+20.6 | abhg π cdfe 2|2, 2 raō.. ab π cd,
+10.d.5 | r π s 2|2, 2 raō.. r π m,
+concl. 1.s.13.5 | abhg π cdfe 2|2 r π s.
+
+## SCHOL.
+
+Additio & subductio linearum rectarum fiunt per tertiam primi.
+
+Linea recta in lineam rectam ducitur per 13. sexti.
+
+Planum ad lineam rectam applicatur per 4. appendicis.
+
+Additio similium planorum fit per 5. appendicis.
+
+Subductio similium planorum fit per 6. appendicis.
+
+L'addition & soustraction des lignes droictes se font par la troisiesme du premier.
+
+La ligne droicte est multipliee par la ligne droicte par la treiziesme du sixiesme.
+
+Vn plan est appliqué à vne ligne droicte par la quatriesme de l'appendix.

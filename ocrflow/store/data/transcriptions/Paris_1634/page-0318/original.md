@@ -1,41 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-[Figure: lignes verticales A, B, C, D, E, F ; G, H, K, I, L, M]
-
-3.1 | g, multipl.. | a,
-| h, multipl.. | b,
-| i, multipl.. | d,
-3.1 | k, multipl.. | c,
-| l, multipl.. | e,
-| m, multipl.. | f.
-
-Demonstr.
-
-15.5 | g π h 2|2 a π b,
-hyp. | a π b 2|2 e π f,
-15.5 | e π f 2|2 l π m,
-11.5 | g π h 2|2 l π m,
-hyp. | b π c 2|2 d π e,
-4.5 | h π k 2|2 i π l,
-21.5 | g 2, 3, 4 | 3 k,
-| i 2, 3, 4 | 3 m,
-concl. 6.d.5 | a π c 2|2 d π f.
-
-## SCHOL. I.
-
-Si fuerint plures magnitudines tribus, fueritque earum proportio perturbata, nihilominus ex æqualitate erunt in eadem proportione.
-
-Que s'il y a plus de trois grandeurs, & que leur proportion soit troublee, neantmoins en raison egale elles seront proportionelles.
-
-A, 4. B, 6. C, 3. D, 12.
-E, 5. F, 20. G, 10. H, 15.
-
-Hypoth.
-
-a π b 2|2 g π h, α
-b π c 2|2 f π g, α
-c π d 2|2 e π f.
+[Figure: lignes verticales A, B, C, D, E, F, avec L, H, L marquées sur la ligne B]
 
 Req. π. demonstr.
 
-a π d 2|2 e π h.
+a π bh 2|2 d π e, α
+
+Demonstr.
+
+suppos. | a π bl 2|2 d π e,
+16.5 | a π d 2|2 bl π e,
+α.16.5 | a π d 2|2 bh π e,
+11.5 | bl π e 2|2 bh π e,
+9.5 | bl 2|2 bh,
+| contr. 9.a.1.
+concl. 2.a.1 | a π b 2|2 d π e.
+
+## THEOR. XXIV. PROPOS. XXIV.
+
+Si prima ad secundam eandem habuerit rationem quam tertia ad quartam ; habuerit autem & quinta ad secundam eandem rationem, quam sexta ad quartam : Etiam composita prima cum quinta ad secundam eandem habebit rationem, quam tertia cum sexta ad quartam.
+
+Si la premiere a mesme raison à la seconde que la troisiesme à la quatriesme, & que la cinquiesme ait aussi mesme raison à la seconde que la sixiesme à la quatriesme : Aussi la composee de la premiere & de la cinquiesme aura mesme raison à la seconde, que la composee de la troisiesme & de la sixiesme à la quatriesme.
+
+Hypoth.
+
+ab π c 2|2 de π f,
+bg π c 2|2 eh π f. α
+
+Req. π. demonstr.
+
+ag π c 2|2 dh π f.
+
+Demonstr.

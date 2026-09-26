@@ -1,54 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-E---- F.1.
-A---------- C.4.
-B-------- D.3.
+*quarré à nombre quarré : & les quarrez qui ont mesme raison entr'eux que nombre quarré à nombre quarré, auront aussi les costez commensurables en longitude. Mais les quarrez descrits de lignes droictes incommensurables en longitude, n'ont mesme raison entr'eux que nombre quarré à nombre quarré : & les quarrez qui n'ont mesme raison entr'eux que nombre quarré à nombre quarré, n'auront les costez commensurables en longitude.*
 
-Hypoth.
+A------B C------D
+E,4. F,3.
+G,16. H,9.
 
-a π b 2|2 nr. c π nr. d.
+Hypoth. 1.
+
+ab & cd snt comm. ꝗe.
 
 Req. π. demonstr.
 
-a & b snt comm.
+□.ab π □.cd 2|2 nr. □ π nr. □.
 
 Præpar.
 
-suppos. | f, est vnit.
-9.6 | e π a 2|2 f π c, α
+5.10 | ab π cd 2|2 nr. e π nr. f,
+ʒ.p.7 | g, est □.e, & h, est □.f.
 
 Demonstr.
 
-hyp. | a π b 2|2 c π d,
-α.22.5 | e π b 2|2 f π d,
-5.a.7 | f, msur: d,
-1c20.d7 | e, msur: b,
-α.cōstr. | e, msur: a,
-concl. 1.d.10 | a & b snt comm.
+20.6 | raō. □.ab π □.cd 2|2, 2raō; ab π cd,
+11.8 | raō. g π h 2|2, 2raō; e π f,
+1.concl. 1.s.23.5 | □.ab π □.cd 2|2 nr. □.g π nr. □.h, α
 
-## THEOR. V. PROPOS. VII.
+Hypoth. 2.
 
-Incōmensurabiles magnitudines inter se proportionem non habent quam numerus ad numerum.
-
-*Les grandeurs incommensurables n'ont pas mesme raison entr'elles que nombre à nombre.*
-
-A----------
-B--------
-
-Hypoth.
-
-a & b snt magnitud. incōm.
+□.ab π □.cd 2|2 g π h. γ
 
 Req. π. demonstr.
 
-a π b, n̄, est 2|2 nr. π. nr.
+ab & cd snt comm. ꝗe.
 
 Demonstr.
 
-suppos. | a π b 2|2 nr. π. nr.
-concl. 6.10 | a & b snt comm.
-contr. hypoth.
-
-## THEOR. VI. PROPOS. VIII.
-
-Si duæ magnitudines inter se proportionem non habeant, quam numerus ad numerum, incommensurabiles erunt magnitudines.
+20.6 | raō. □.ab π □.cd 2|2, 2raō; ab π cd,

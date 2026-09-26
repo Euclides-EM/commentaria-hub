@@ -1,7 +1,17 @@
-## AD LECTOREM.
+# PROLEGOMENA.
 
-nihil asseratur, nisi aliqua citatione corroboretur, quod cæteri authores non exactè obseruant, sed ex iis quæ sibi apperta aut obscura videntur, citationum necessitatem metientes, pluribus vtuntur consequentiis absque vllis citationibus, quas tamen rudioribus, & parùm exercitatis, magno esse adiumento nemo nescit. Huc etiam accedit, quòd in vulgari & communi docendi ratione, plurima proferantur vocabula, & axiomata absque vlla illorum in præmissis explicatione : sed in hac methodo nihil adfertur, nisi fuerit in præmissis explicatum & concessum. Quum etiam longiores occurrunt demonstrationes, quæ iam in serie demonstrationis sunt probata, litteris Græcis citantur. Et quoniam singulæ consequentiæ ex propositionibus allegatis immediatè pendent, demonstratio ab initio ad finem, serie continua,
+## De diuisione Mathematicarum disciplinarum.
 
-## AV LECTEVR.
+## De la diuision des Mathematiques.
 
-par ce qui leur est manifeste, ou obscur, vsent de beaucoup de consequences sans citations, qui neantmoins seroiët necessaires à ceux qui sont moins aduancez. Ioint aussi qu'en la methode ordinaire on se sert de beaucoup de mots & d'axiomes sans les auoir premierement expliquez, mais en ceste methode on ne dit rien qui n'aye esté expliqué & concedé aux premices : mesme aux demonstrations, qui sont quelque peu longues, on cite par lettres Grecques, ce qui a esté demonstré en la suite de la demonstration. Et parce que chaque consequence depend immediatement de la proposition citée, la demonstration s'entretient depuis son commencemët iusques à la conclusion, par vne suite continuë de consequences legitimes, necessaires & immediates, contenuës chacune en vne petite ligne, lesquelles se peuuent resoudre facilement en syllogismes, à cause qu'en la proposition citée, & en celle qui correspond à la citation, se
+PYthagorei, qui Mathematicarum disciplinarum primi inuentores crediti sunt, earum in vniuersum quatuor partes fecerunt, nempe Arithmeticam, Geometriam, Astronomiam, & Musicam.
+
+Alij subtilius, Mathematicum genus in duas species diuiserunt, Puram scilicet & Mixtam, quarü illa quantitatem ab omni materia abstractam contemplatur : & quia sunt duo genera quantitatis, nimirùm continuæ & discretæ, Mathematica pura ab obiecto diuisa est in Geometriam & Arithmeticam.
+
+Mixta verò, quantitatem rebus immersam & materiæ inuolutam considerat, subdiuiditurque in Opticam, Mechanicam, Astronomiam, & Musicam.
+
+LES Pythagoriciens, qu'on estime estre les premiers inuenteurs des Mathematiques, les ont toutes diuisées en quatre parties, sçauoir en l'Arithmetique, la Geometrie, l'Astronomie, & la Musique.
+
+D'autres diuisent plus subtilement tout le corps Mathematique en deux especes, sçauoir en Pure & Mixte, dont celle-là considere la quantité separée de toute matiere : & parce qu'il y a deux genres de quantité, sçauoir la continuë & discrete, la Mathematique pure à raison de son object est diuisée en la Geometrie & Arithmetique.
+
+La Mathematique mixte considere la quantité conjointe & meslée auec la matiere, & se subdiuise en l'Optique, la Mechanique, l'Astronomie & la Musique.

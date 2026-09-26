@@ -1,43 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-[Figure: labels arranged D B / E / A C]
+[Figure: labels arranged F / A C / G E H / D B]
 
-ab & cd snt ꝗn vn. plan.
-△deb, est ꝗn vn. plan.
+γδ | fa, fb, fc, fd snt 2|2 ꝗe, ε
+8. 1 | <daf 2|2 <cbf, θ
+β | ag 2|2 bh,
+ε | af 2|2 bf,
+θ | <gaf 2|2 hbf,
+4. 1 | fg 2|2 fh,
+α. 8. 1 | <feg 2|2 <feh,
+concl. 3. d. 11 | ef ⊥ plan. acbd.
 
-Demonstr.
+## THEOR. V. PROPOS. V.
 
-suppos. | ●; a, b, c snt ꝗn plan. abc,
-14.a.1 | ab, est ꝗn plan. abc,
-14.a.1 1.concl. | ce, est ꝗn plan. abc,
-1. 11 | ced, est ꝗn plan. abc, α
-14. a. 1 | db, est ꝗn plan. abc, β
-2 concl. αβ | △deb, est ꝗn plan. abc.
+Si recta linea rectis tribus lineis se mutuo tangentibus in communi sectione ad rectos angulos insistat: illæ tres rectæ in vno sunt plano.
 
-## THEOR. III. PROPOS. III.
+*Si à trois lignes droictes se touchantes l'vne l'autre, vne autre ligne droicte est constituee à angles droicts au poinct de la commune section: icelles trois lignes droictes sont en vn mesme plan.*
 
-Si duo plana se mutuò secent, communis eorum sectio est linea recta.
-
-*Si deux plans se coupent l'vn l'autre, la commune section d'iceux est vne ligne droicte.*
-
-[Figure: labels arranged A C / E F / D B]
+[Figure: labels arranged B / F / A E G / D / C]
 
 Hypoth.
 
-ab & cd snt plan;
-ef, est intersect.
+ab ⊥ ac, ad, ae.
 
 Req. π. demonstr.
 
-ef, est ——.
+ac, ad, ae snt ꝗn vn. plan.
 
 Demonstr.
 
-arbitr. | e & f snt ●; ꝗn intersect.
-1. p. 1 | ef, est ——,
-14.a.1 | ef, est ꝗn plan; ab,cd,
-concl. 14.a.c. | ef, est intersect.
-
-## THEOR. IV. PROPOS. IV.
-
-Si recta linea rectis duabus lineis se mutuò secan-
+2. 11 | ac & ad snt ꝗn plan. fc,
+2. 11 | ad & ae snt ꝗn plan. be,
+suppos. | ag, est intersect.. plan. fc, &.. plan. be,

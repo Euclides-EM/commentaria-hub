@@ -1,20 +1,26 @@
-<!-- Running title: ELEM.. EVCLID. LI, XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-[Figure: labels arranged A K E M / T Y P S / B I D F L H / V X Q R / C G / O N]
+[Figure: labels arranged A K E M / T Y P S / B I D F L H N / V X Q R O / C G]
 
-pyram. abuyк π pyram. epfqſm / 6. 12 | polyg. atbuy π polyg. epfqgr / c. 2. 12 | ⊙abx π ⊙efr / α | con. abxк π ſolid. n, ſnt raō; 2|2 ꝗe,
-11. 5 | pyram. atbuyк π con. abxk 2|2 pyram. ebfqſm, π ſolid. n,
-9. a. 1 | pyram. atbucxdyк 2|3 con. abxк,
-14. 5 | pyram. epfqgrhſm 2|3 ſolid. n,
+iк & lm ſnt alt; Ⅱ axes, ⊥ π baſ; abcd & efgh.
 
-contr. concl. β
+Req. π. demonstr.
 
-21. a. 1 | ſolid. n̄ est 2|3 con. efgrm. γ
-2ſuppo. | ſolid. n 3|2 con. efgrm, δ
-α | ⊙abcd π ⊙efgr 2|2 con. abcdk π ſolid. n,
-c. 4. 5 | ſolid. n π con. abxк 2|2 ⊙efgr π ⊙abcd, ε
-ſuppoſ. | ſolid. n π con. abxk 2|2 con. efrm π ſolid. o, ε
-ſ. 14. 5 | con. abxк 3|2 ſolid. o, θ
-ε. 11. 5 | ⊙efgr π abcd 2|2 con. efrm π ſolid. o,
-θ | contr. concl. γ
-concl. 21. a. 1 | ⊙abcd π ⊙efgr 2|2 con. abcdk π con. efgrm.
+raō.. con. abcdk π con. efgh 2|2, 3; raō; tx π pr.
+
+Demonstr.
+
+ſuppoſ. | raō. con. abcdк π ſolid. n 2|2, 3; raō; tx π pr, α
+1. ſuppo | ſolid. n + ſolid. o 2|2 con. efghm,
+ſ. 7. 12 | ſegm;. con. ep, + ph, + fq, &c. ſnt 2|3 ſolid. o,
+ſ. a. b | ſolid. n 2|3 pyram. epfqgrhſm, β
+constr. | polyg. atbucxdy ſml. polyg. epfqgrhſ, γ
+constr | uck & qgm ſnt △;. pyram;
+24. d. 11 | ui π iк 2|2 ql π lm,
+d. 11 | uik & qlm ſnt ⊥;
+6. 6 | △uiк æquiang. △qlm,
+4. 1 | uk 2|2 ck, qm 2|2 gm, δ
+constr. | <uic 2|2 <qlg,
+32. 1 | △uic æquiang. △qlg,
+4. 6 | uc π ui 2|2 qg π ql,
+4. 6 | ui π uk 2|2 ql π qm,

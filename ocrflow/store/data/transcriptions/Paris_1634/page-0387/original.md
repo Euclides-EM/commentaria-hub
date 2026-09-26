@@ -1,55 +1,51 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-Constr.
+1.concl. constr. | bd est ▭.bc,cd,
+constr. | bc π a 2|2 a π cd,
+2.concl. 17.6 | ▭bd 2|2 □.a.
 
-12.1 | cd ⊥ ab,
-arbitr. | dhg & chg snt ⊙ 2|2 ⁊e,
-1.p.1 | ehfg est —,
-31.1 | ae & bf snt == dl,
-symp. | ▭aefb est req.
+Hypoth. 2.
 
-Demonstr.
-
-constr. | af est ▭,
-10.1 | dl 2|2 lc,
-1.6 | ▭.ab,dc 2|2, 2 ▭af,
-41.1 | ▭.ab,dc 2|2, 2 Δabc
-concl. 7.a.1 | ▭af 2|2 Δabc.
-
-Aliter, Autrement.
-
-Constr.
-
-10.1 | am 2|2 mb,
-31.1 | cn == ab,
-11.1 | mp ⊥ ab,
-31.1 | ao == mp,
-symp. | ▭.aopm est req.
-
-Demonstr.
-
-constr. | ap est ▭,
-constr. | am 2|2 mb,
-1.6 | ▭.ab,ao 2|2, 2 ▭ap,
-41.1 | ▭.ab,ao 2|2, 2 Δabc
-concl. 7.a.1 | ▭.ap 2|2 Δabc.
-
-## PROBL. III. PROPOS. III.
-
-Dato triangulo æquale quadratum describere.
-
-Descrire vn quarré egal à vn triangle donné.
-
-14.2.Elem.
-
-[Figure: triangle A, C, B auec E, G, H, F & le quarré N, M sous la base, & le demicercle passant par N, M iusques à I]
-
-Hypoth.
-
-abc est Δ D.
+bc & ▭eg snt D.
 
 Req. π. fa.
 
-□bn 2|2 Δabc.
+▭bd 2|2 ▭eg.
 
 Constr.
+
+12.6 | bc π ef 2|2 fg π cd,
+1.1.d.2 | bd est ▭.bc,cd,
+symp. | req. est ▭bd.
+
+Demonstr.
+
+1.concl. constr. | bd est ▭.bc,cd,
+constr. | bc π ef 2|2 fg π cd,
+2.concl. 14.6 | ▭bd 2|2 ▭eg.
+
+## PROBL. V. PROPOS. V.
+
+Propositis quotcunque quadratis, inuenire quadratum omnibus illis æquale.
+
+Descrire vn quarré egal à plusieurs quarrez donnez.
+
+Hypoth.
+
+□.a, □.b, □.c snt D.
+
+Req. π. fa.
+
+□gh 2|2 □.a + □.b + □.c.
+
+Constr.
+
+2.1 | ed 2|2 a,
+11.1 | fd ⊥ ed,
+3.1 | fd 2|2 b,
+1.p.1 | ef est —
+11.1 | fg ⊥ ef,
+3.1 | fg 2|2 c,
+1.p.1 | eg est —,
+
+[Figure: lignes E D, D F, F G, G E & le quarré G, H sur E G ; lignes A, B, C à part]

@@ -1,23 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-ctum constitutis, continetur.
+pta figura. Atque si quiescens recta linea æqualis sit reliquæ, quæ circa rectum angulum cótinetur, orthogonius erit conus: si verò minor amblyonius: si verò major oxygonius.
 
-*mesme poinct.*
+*il a commencé de mouuoir. Et si ledit costé immobile est egal à l'autre costé comprenant l'angle droict, le cone sera rectangle : si plus petit, il sera amblygone : si plus grand, il sera oxygone.*
 
-## DEFINIT. XII.
+## DEFINIT. XIX.
 
-Pyramis est figura solida, planis comprehensa, quæ ab vno plano ad vnum punctum constituuntur.
+Axis autem coni, est quiescens illa linea,circa quam triangulum vertitur.
 
-*Pyramide est vne figure solide contenuë de plusieurs plans, se rencontrans à vn mesme poinct,estans menez d'vn autre plan, qui est la base de la pyramide.*
+*L'axe du cone est la ligne droicte immobile, à l'entour de laquelle le triangle tourne.*
 
-## DEFINIT. XIII.
+## DEFINIT. XX.
 
-Prisma est figura solida, quæ planis continetur, quorum aduersa duo sunt & æqualia, & similia, & parallela,alia vero parallelogramma.
+Basis verò coni est circulus qui à circumducta linea recta describitur.
 
-*Prisme est vne figure solide contenuë de plans, deux desquels, qui sont opposez,sont egaux,semblables, & paralleles; mais les autres sont parallelogrammes.*
+*Mais la base du cone est le cercle descrit par l'autre costé mené à l'entour.*
 
-## DEFINIT. XIV.
+## DEFINIT. XXI.
 
-Sphæra est,quando,semicirculi manente diametro, circumductus semicirculus in se ipsum rursus reuoluitur, vnde moueri cæperat circum assumpta figura.
+Cylindrus est, quando rectanguli parallelográmi manente vno latere eorum, quæ circa rectum angulum, circumductum parallelogram-
 
-*Sphere est vne figure solide contenuë en la reuolution d'vn demy cercle,quand son diametre demeurant immobile,il tourne iusqu'à ce qu'il reuienne au lieu où il a commencé de mouuoir.*
+*Cylindre est vne figure solide cótenuë en la reuolutió d'vn parallelográme rectágle, quád l'vn des costez de ceux qui sót à l'entour d'vn angle droict, demeurát im-*

@@ -1,26 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-### VII.
+### XII.
 
-Si numerus numerum multiplicans, aliquem produxerit, metietur multiplicās productum per multiplicatum, multiplicatus autem eūdem per multiplicantem.
+Numerus metiens totum & ablatum, metitur & reliquum.
 
-*Si vn nombre multipliāt vn nōbre, en produict quelqu'vn, le multipliant mesurera le produict, par le multiplie : mais le multiplié mesurera le mesme par le multipliant.*
+*Le nombre qui mesure le tout & le retranché, mesure aussi le reste.*
 
-hyp. | ▭.a,b est c, A,5. B,3. C,15.
-7.a.7 | b, msur: c ꝑ a,
-7.a.7 | a, msur: c ꝑ b.
+D,4. A,20. B,12. C,8.
 
-### COROLL.
+hyp. | a 2|2 b + c,
+hyp. | d, msur: a,
+hyp. | d, msur: b,
+12.a.7 | d, msur: c.
 
-Ex hoc manifestum est, nullum numerum primum, esse planum, solidum, quadratum, aut cubum.
+## THEOR. I. PROPOS. I.
 
-*De cecy il est manifeste, qu'il n'y a aucun nombre premier qui soit plan, solide, quarré, ou cube.*
+Si duobus numeris inæqualibus propositis, detrahatur, semper minor de maiore, alterna quadam detractione, neque reliquus vnquam metiatur præcedentem, quoad assumpta sit vnitas : qui principio propositi sunt numeri, primi inter se erunt.
 
-### VIII.
+*Si de deux nombres inegaux proposez, on en retranche tousiours alternatiuement le plus petit du plus grand, & que le restant ne mesure iamais sont precedent iusques à ce que l'on ait pris l'vnité ; les nombres proposez au commencement seront premiers entr'eux.*
 
-Si numerus numerum metiatur, & ille, per quem metitur, eundem metietur per eas, quæ in metiente sunt, vnitates, hoc est, per ipsum numerum metientem.
+A.....5F..2G.1B
+C...3H..2D
+E - - -
 
-*Si vn nombre en mesure vn autre, celuy par lequel il le mesure, mesure le mesme par les vnitez qui sont au mesurant ; c'est à dire par le mesme nombre mesurant.*
+Hypoth.
 
-hyp. | a, msur: b ꝑ c, A,3. B,15. C,5.
-8.a.7 | c, msur: b ꝑ a.
+ab & cd snt nr. D,
+
+cd msur: af,
+
+fb msur: ch,
+
+hd msur: fg,
+
+gb est vnit.
+
+Req. π. demonstr.

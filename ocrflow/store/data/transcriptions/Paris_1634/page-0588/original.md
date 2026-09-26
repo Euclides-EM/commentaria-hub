@@ -1,46 +1,61 @@
-<!-- Running title: ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLD. LI. X. -->
 
-vel duplam, vel etiam duo quiuis numeri primi : nam huiusmodi numeri non sunt similes plani numeri, vt demonstrauimus in scholiis ad 27. propos. lib. 8.
+A---------- B,20.
+C--------
+D-------- C,16.
 
-*double, & aussi tous nombres premiers : car tels nombres ne sont point plans semblables, comme nous auons demonstré aux scholies de la vingtseptiesme proposition du huictiesme liure.*
+2 concl. 9.10 | a, incomm. d, β
 
-## LEMM. II.
-
-Inuenire lineam ad quam data recta sit in ratione datorum numerorum.
-
-*Trouuer vne ligne droicte à laquelle vne ligne droicte donnee soit en la raison de deux nombres donnez.*
-
-K A G F L M
-D------ B,5. C,3.
-H E P R
-
-Hypoth.
-
-b & c snt nr; D.
-km, est —— D.
-
-Req. π. fa.
-
-b π c 2|2 km π hr.
+Req. 2. est □.e, incomm. a.
 
 Constr.
 
-s.10.6 | ka, ag, gf,
-fl, lm snt 2|2 ꝗe,
-s.10.6 | multd..
-part. km 2|2 nr. b
-ʒ. 1 | ka, he
-ep, pr snt 2|2 ꝗe,
-ʒ. 1 | multd..
-part. hr 2|2 nr. c,
-symp. | Req. est hr.
+13.6 | a π e 2|2 e π d, γ
+symp. | req. est e.
 
 Demonstr.
 
-concl. 20.d7 | km π hr 2|2 b π c.
+c.20.6 | □.a π □.e 2|2 a π d,
+β | a. incomm. d,
+3.concl 10.10 | □.a, incomm. □.e.
 
-## LEMM. III.
+## THEOR. IX. PROPOS. XII.
 
-Inuenire lineam ad cuius quadratum datæ rectæ quadratum sit in ratione datorum numerorum.
+Quæ eidem magnitudini sunt commensurabiles, & inter se sunt commensurabiles.
 
-*Trouuer vne ligne droicte au quarré de laquelle le quarré d'vne ligne droicte donnee soit en la raison de deux nombres donnez.*
+*Les grandeurs commensurables à vne mesme grandeur, sont aussi commensurables entr'elles.*
+
+ACB
+
+D,10. E,8.
+F,2. G,3.
+H,5. I,4. K,6.
+
+Hypoth.
+
+a, comm. c,
+b, comm. c.
+
+Req. π. demonstr.
+
+a, comm. b.
+
+Præpar.
+
+5.10 | a π | c,
+nr. d π | nr. e, α
+5.10 | c π | b,
+nr. f π | nr. g, β
+4.8 | h π i 2|2 d π e, γ
+4.8 | i π k 2|2 f π g. ♪
+
+Demonstr.
+
+αγ.11.5 | a π c 2|2 h π i,
+β♪.11.5 | c π b 2|2 i π k,
+22.5 | a π b 2|2 h π k,
+concl. 6.10 | a & b snt comm. ꝗe.
+
+## SCHOL.
+
+Sequitur ex hac propositione omnem rectam lineam

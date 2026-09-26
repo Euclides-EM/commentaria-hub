@@ -1,36 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-▭.ab 2|2 ▭.bad + ▭.abd.
+tis describuntur, quadratis, & ei, quod bis sub segmentis comprehenditur, rectangulo.
 
-[Figure: quarré C—F—G en haut, A—D—B en bas, ligne F—D]
+Si vne ligne droicte est couppée comme on voudra : le quarré de la toute est égal aux quarrez des parties, & a deux fois le rectangle contenu sous icelles parties.
+
+Hypoth.
+
+ab est —.
+ac & cb snt par.. ab,
+
+Req. π. demonstr.
+
+▭.ab 2|2 ▭.ac + ▭.cb + 2▭.acb,
+
+[Figure: quarré E—F—D en haut, A—C—B en bas, H—G—I au milieu, diagonale E—G—B, ligne F—G—C]
 
 Præpar.
 
-46.1. | ag est ▭.ab,
-| df == ac u bg.
+46.1. | ad est ▭.ab
+1.p.1. | eb est —,
+31.1. | cf == ae u bd,
+31.1. | hgi == ab u ed.
 
 Demonstr.
 
-constr. | ag est ▭.ab,
-35.d.1. | af & dg snt ◊,
-2.s.19.1. | af & dg snt ▭,
-3.s.1.d.2 | ▭af 2|2 ▭.bad,
-3.s.1.d.2 | ▭dg 2|2 ▭.abd,
-19.a.1. | ▭ag 2|2 ▭af + ▭dg,
-concl. 1.a.g. | ▭.ab 2|2 ▭.bad + ▭.abd.
-
-Explicat. p nr.
-
-hypoth. | ad est 5,
-hyp. | db est 2,
-2.a.1. | ab est 7,
-1.s.1.d.2 | ag ▭.ab est 49,
-1.s.1.d.2 | af ▭.bad est 35,
-1.s.1.d.2 | dg ▭.abd est 14,
-2.a.1. | ▭af + ▭dg snt 49.
-
-## THEOR. III. PROPOS. III.
-
-Si recta linea secta sit vtcunque : Rectangulum sub tota & vno segmentorum comprehensum, æquale est illi, quod sub segmentis comprehenditur, rectangulo, & illi, quod à prædicto segmento describitur, quadrato.
-
-Si vne ligne droicte est couppée comme on voudra : le
+29.d.1. | <a, <aed, <d, <abd snt ∟,
+2.c.29.1 | <ehg, <efg, <hgf snt ∟, α
+29.d.1. | ae 2|2 ab,
+2.c.32.1. | <aeb est ½ ∟, β
+2.c.32.1. | <deb est ½ ∟,
+α.β.32.1 | <hge est ½ ∟,
+α.32.1. | <fge est ½ ∟,
+6.1. | he 2|2 hg,
+6.1. | ef 2|2 fg,

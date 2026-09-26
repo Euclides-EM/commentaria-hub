@@ -1,18 +1,17 @@
-<!-- Running title: EXPLICATION DES CITATIONS. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### Propos. 2. libr. 1.
+ctui, non est magnitudo, sed initium omnis magnitudinis.
 
-symp. | ac 2|2 bc.
+Punctum in aliquibus quadrat cum vnitate, in aliquibus discrepat : Nam vt illa est principium omnis numeri, ita punctum est principium omnis magnitudinis : sed in hoc discrimen est, quod vnitas est pars numeri, punctum verò, quamuis sit initium & finis lineæ, non tamen est pars lineæ. Differunt etiam in eo, quod vnitas nullam positionem aut situm postulet, punctum verò habeat situm & positionem in magnitudine.
 
-Dico rectam AC esse æqualem rectæ BC : & sic in aliis. | Ie dis que la ligne droicte AC est égale à la ligne droicte BC : & ainsi aux autres.
+Punctum est quoque simile, sono in musica, instanti in tempore, & mutato esse in motu.
 
-suppos. Suppositio, supposition.
-arbitr. Arbitrarium, arbitraire.
+Mathematici verò, cùm magnitudines ab omni materia abstractas considerent, non possunt eas ob oculos ponere, nisi physicè : vt in
 
-ɔ.34.1 { Conuersa trigesimæ quartæ primi. / Conuerse de la trente-quatriesme du premier.
+lect, ce n'est pas vne grandeur, mais il est commencement de toute grandeur.
 
-concl. Conclusio, conclusion.
+Le poinct conuient auec l'vnité en quelques choses, & differe en d'autres : Car comme l'vnité est le principe & commencement de tout nombre, ainsi le poinct est le principe de toute grandeur : mais ils different aussi en ce que, l'vnité est partie du nombre, mais le poinct, encore qu'il soit le commencement & la fin de la ligne, il n'est pas neantmoins partie de la ligne. Ils different aussi en ce que, l'vnité ne requiert aucune position ny situation au nombre, mais le poinct a sa situation & position en la grandeur.
 
-d.α { Eadem demonstratione qua probata est conclusio α. / Par la mesme demonstration qu'a esté prouuée la conclusion α.
+Le poinct a quelque similitude, auec le son en la musique, auec l'instant au temps, auec le changement de lieu au mouuement.
 
-α { Est citatio alicuius conclusionis quæ in eadem propositione iam demonstrata est. / Est la citation de quelque conclusion qu'on aura desia demonstré en la mesme proposition.
+Or les Mathematiciens, qui considerent les grandeurs separées de toute matiere, ne les peuuent exposer à la veuë que physiquement : comme en

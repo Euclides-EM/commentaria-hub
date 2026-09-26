@@ -1,42 +1,44 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-[Figure: labels arranged F H G E / N K Q O / R / L T I M / P / S / A D C B]
+α. hyp. | ab π ad 2|2 ac π cb,
+c. 4. 5 | ad π ab 2|2 cb π ac,
+concl. 18. 5 | db π ab 2|2 ab π ac, Ⅱ ad.
 
-Præpar.
+## THEOR. VI. PROPOS. VI.
 
-46. 1 | ae, eſt □.ab,
-1. p. 1 | bf, eſt diamet.
-31. 1 | cg & dh ſnt == be,
-31. 1 | lim == ab,
-31. 1 | nкo == ab.
+Si recta linea rationalis extrema ac media ratione secetur; vtrumque segmentorum irrationalis linea est, quæ vocatur apotome.
 
-Demonstr.
+*Si vne ligne droicte rationelle est couppee en la moyenne & extreme raison; l'vn & l'autre segment est ligne irrationelle, laquelle est appellee apotome ou residu.*
 
-1. c. 4. 2 | lg, eſt □.ac,
-1. c. 4. 2 | pq, eſt □.dc,
-1. c. 4. 2 | do, eſt □.db,
-hyp. | ab π ac 2|2 ac π cb,
-17. 6 | ▭am 2|2 □lg,
-α. 1. ſ. 4. 2 | □lg 2|2, 4□pq,
-1. a. 1 | ▭am 2|2, 4□pq,
-α. 36. 1 | ▭ap 2|2 ▭di, Ⅱ io,
-1. a. f | gnom. pbq 2|2, 4□pq
-concl. 2. a. 1 | do □.db 2|2, 5□.dc.
-
-## THEOR. IV. PROPOS. IV.
-
-Si recta linea secundum extremam & mediam rationem secetur; quod à tota, quodque à minore segmento, simul vtraque quadrata, tripla sunt eius, quod à majore segmento describitur, quadrati.
-
-*Si vne ligne droicte est couppee selon la moyenne & extreme raison; le quarré de la toute, & le quarré du petit segment ensemble, sont triples du quarré du plus grand segment.*
+[Figure: labels arranged D A C B]
 
 Hypoth.
 
-ad π gd 2|2 gd π ag, α
+ab, eſt ration. propoſ.
+ab π ac 2|2 ac π cb.
 
 Req. π. demonstr.
 
-□.ad + □.ag 2|2, 3□;. gd.
+ac & cb ſnt apotom;
 
 Præpar.
 
-46. 1 | bd, eſt □. ad,
+3. 1 | ad 2|2, ½ab. α
+
+Demonstr.
+
+1. 13 | □.dc 2|2, 5□.da, β
+6. 10 | □.dc, comm. □.da, γ
+hyp. | ab, eſt ration.
+αſ.12.10 | ad, eſt ration.
+γſ.12.10 | dc, eſt ration.
+β. 9.10 | dc, incomm. da,
+1.concl. 74. 10 | ac, eſt apotom.
+hyp. | ab π ac 2|2 ac π cb,
+17. 6 | □.ac 2|2 ▭.abc,
+13. 6 | ab, mſur: □.ac ꝑ bc,
+2concl. 98.10 | bc, eſt apotom. pr.
+
+## THEOR. VII. PROPOS. VII.
+
+Si pentagoni æquilateri tres anguli, siue qui deinceps, siue qui non deinceps sint, æquales

@@ -1,25 +1,28 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-| ▭.dg commun. subtr.
-concl. 3.a.1 | ah ▭.ag 2|2 gc ▭.abg.
+laterum, quæ sunt circa acutum angulum, in quod perpendicularis cadit, & ab assumpta interius linea sub perpendiculari prope acutum angulum.
 
-## THEOR. XI. PROPOS. XII.
+Aux triangles oxygones, le quarré du costé qui soustient l'angle aigu, est moindre que les quarrez des costez qui le contiennent, de deux fois le rectangle contenu sous l'vn des costez qui sont autour de l'angle aigu, sçauoir celuy sur lequel tombe la perpendiculaire, & de la ligne prise au dedans entre la perpendiculaire & l'angle aigu.
 
-In amblygoniis triangulis, quadratum quod fit à latere angulum obtusum subtendente, maius est quadratis, quæ fiunt à lateribus obtusum angulum comprehendentibus, rectangulo bis comprehenso, & ab vno laterum, quæ sunt circa obtusum angulum, in quod cùm protractum fuerit, cadit perpendicularis, & ab assumpta exterius linea sub perpendiculari prope angulum obtusum.
+Hypoth.
 
-Aux triangles amblygones, le quarré du costé qui soustient l'angle obtus, est plus grand que les quarrez des costez qui contiennent l'angle obtus, de deux fois le rectangle contenu sous l'vn des costez qui sont à l'entour de l'angle obtus, sçauoir celuy, sur lequel estant prolongé, tombe la perpendiculaire, & de la ligne prise au dehors entre la perpendiculaire & l'angle obtus.
+<acb 2|3 ∟,
 
-hypoth. | <abc 3|2 ∟,
-
-Præpar.
-
-2.p.1 | cbd est —,
-12.1 | ad ⊥ cd.
-
-[Figure: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]
+[Figure: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]
 
 Req. π. demonstr.
 
-▭.ac 2|2 ▭.ab + ▭.bc + 2▭.cbd.
+▭.ac + ▭.bc 2|2 ▭.ab + 2▭.bcd.
+
+Præpar.
+
+ad ⊥ bc.
 
 Demonstr.
+
+47.1 7.2 47.1 | ▭.ac + ▭.bc, ▭.ad + ▭.dc + ▭.bc, ▭.ad + 2▭.bcd + ▭.bd, ▭.ab + 2▭.bcd, snt 2|2 ⁊e,
+concl. 1.a.1. | ▭.ac + ▭.bc 2|2 ▭.ab + 2▭.bcd.
+
+In hac propositione non est necesse omnes angulos trianguli esse acutos; sed sufficit angulum quem subtendit latus cuius quadratum comparatur cum
+
+En cette proposition il n'est pas necessaire que tous les angles du triangle soient aigus, mais il suffit que l'angle que soustient le costé, dont le quarré est comparé aux

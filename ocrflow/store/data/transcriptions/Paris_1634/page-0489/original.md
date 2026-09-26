@@ -1,35 +1,35 @@
-<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-δ | a & b msur: f,
-ε.37.7 | d, msur: f,
-δ | c, msur: f,
-γ | e, n̄ est mi.c.diuidu.. c & d.
-contr. constr.
+## PROBL. VI. PROPOS. XLI.
 
-## COROLL.
+Numerum reperire, qui minimus cum sit, habeat datas partes.
 
-Sequitur ex his, si tres numeri numerum quempiam metiantur; etiam minimum, quem illi metiuntur, eundem metiri.
+*Trouuer le plus petit nombre qui ait les parties donnees.*
 
-*D'icy il s'ensuit, que si trois nombres mesurent quelque nombre, que le moindre nombre, qu'ils mesurent, mesure aussi ce mesme nombre.*
-
-## THEOR. XXXIV. PROPOS. XXXIX.
-
-Si numerum quispiam numerus metiatur; ille, quem metitur, partem habebit à metiente denominatam.
-
-*Si vn nombre mesure vn autre nombre ; celuy lequel il mesure, aura vne partie denommee du mesurant.*
-
-A.............12
-B....4 C...3
-D. vnit.
+D..2 A, 1/2
+E...3 B, 1/3
+F...4 C, 1/4
+G..........12
+H----
 
 Hypoth.
 
-b, msur: a ꝑ c. α
+a,b,c snt part. D.
+d,e,f snt denomination.. part. a,b,c,
 
-Req. π. demonstr.
+Req. est mi. nr. q̄ conti.part.a,b,c.
 
-c, est par.. nr. a, denom. ꝑ b,
+Constr.
+
+38.7 | g, est mi. c. diuidu.. d,e,f.
+symp. | g, est nr. req.
 
 Demonstr.
 
-c.23.d.7 | d π c 2|2 b π a,
+constr. | d, e, f msur: g,
+1.concl. 39.7 | a,b,c snt part.. nr. g,
+suppos. | h, 2|3 g, α
+suppos. | h, conti. part. a, b, c,
+40.7 | d,e,f msur: h,
+α | g, n̄ est mi. c. diuidu.. d,e,f,
+contr. constr.

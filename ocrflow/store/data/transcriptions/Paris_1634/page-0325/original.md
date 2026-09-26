@@ -1,43 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-[Figure: lignes G ; A—B—C ; D—E—F]
+quàm secundæ posteriorum ad tertiam : Erit quoque ex æqualitate maior proportio primæ priorum ad tertiam, quàm primæ posteriorum ad tertiam.
 
-Demonstr.
+S'il y a trois grandeurs, & d'autres egales à icelles en nombre, & qu'il y ait plus grande raison de la premiere des premieres à la seconde, que de la premiere des dernieres à la seconde ; pareillement qu'il y ait plus grande raison de la seconde des premieres à la tierce, que de la seconde des dernieres à la tierce : En raison egale, il y aura aussi plus grande raison de la premiere des premieres à la tierce, que de la premiere des dernieres à la tierce.
 
-suppos. | gb π bc 2|2 de π ef, α
-hyp. | de π ef 2|3 ad π bc,
-13.5 | gb π bc 2|3 ab π bc,
-10.5 | ab 3|2 gb,
-| bc commun. add.
-4.a.1 | ac 3|2 gc, β
-α.18.5 | df π ef 2|2 gc π bc,
-β.8.5 | gc π bc 2|3 ac π bc,
-concl. 13.5 | df π ef 2|3 ac π bc.
-
-## THEOR. XXIX. PROPOS. XXIX.
-
-Si composita prima cum secunda ad secundam maiorem habuerit proportionem, quàm composita tertia cum quarta ad quartam ; habebit quoque diuidendo prima ad secundam maiorem proportionem, quàm tertia ad quartam.
-
-Si la composee de la premiere auec la seconde a plus grande raison à la seconde, que la composee de la tierce auec la quarte à la quarte ; en diuisant la premiere aura aussi plus grande raison à la seconde, que la tierce à la quarte.
-
-[Figure: lignes G ; A—B—C ; D—E—F]
+[Figure: lignes A ; B ; C ; G ; H ; D ; E ; F]
 
 Hypoth.
 
-ac π bc 3|2 df π ef.
+a π b 3|2 d π e,
+b π c 3|2 e π f.
 
 Req. π. demonstr.
 
-ab π bc 3|2 de π ef.
+a π c 3|2 d π f.
 
 Demonstr.
 
-suppos. | gc π bc 2|2 df π ef, α
-hyp. | df π ef 2|3 ac π bc,
-13.5 | gc π bc 2|3 ac π bc,
-10.5 | ac 3|2 gc,
-| bc commun. subtr.
-5.a.1 | ab 3|2 gb, β
-α.17.5 | de π ef 2|2 gb π bc,
-β.8.5 | gb π bc 2|3 ab π bc,
-concl. 13.5 | de π ef 2|3 ab π bc.
+suppos. | g π c 2|2 e π f,
+hyp. | e π f 2|3 b π c,
+13.5 | g π c 2|3 b π c,
+10.5 | b 3|2 g,
+8.5 | a π g 3|2 a π b, α
+suppos. | h π g 2|2 d π e,
+α.hyp. | d π e 2|3 a π g,
+13.5 | h π g 2|3 a π g,
+10.5 | a 3|2 h, β
+22.5 | d π f 2|2 h π c,
+β.8.5 | h π c 2|3 a π c,
+concl. 13.5 | d π f 2|3 a π c.
+
+## THEOR. XXXII. PROPOS. XXXII.
+
+Si sint tres magnitudines, & aliæ ipsis æquales

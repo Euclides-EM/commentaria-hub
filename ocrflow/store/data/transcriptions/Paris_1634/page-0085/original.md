@@ -1,49 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-[Figure: deux cercles, triangle DAC au centre, points H, F, G à droite, B à gauche, E en bas]
+1.concl. 8.a.1. | bc 2|2 ef,
+2.concl. 8.a.1. | △abc 2|2 △def,
+3.concl. 8.a.1. | <b 2|2 <e,
+4.cöcl. 8.a.1. | <c 2|2 <f.
 
-1.1. | cad est △ æquilat.
-2.p.1. | dce est —,
-3.p.1. | deh est ⊙,
-2.p.1. | daf est —,
-symp. | ag 2|2 bc,
+## THEOR. II. PROPOS. V.
 
-Demonstr.
+Isoscelium triangulorum qui ad basim sunt anguli, inter se sunt æquales : Et productis æqualibus rectis lineis, qui sub basi sunt anguli, inter se æquales erunt.
 
-constr. | da 2|2 dc,
-15.d.1. | dg 2|2 de,
-3.a.1. | ag 2|2 ce,
-15.d.1. | bc 2|2 ce,
-concl. 1.a.1. | ag 2|2 bc.
+Des triangles isosceles, les angles qui sont à la base, sont égaux entr'eux : Et les lignes droictes égales estans prolongées, les angles qui sont sous la base, seront égaux entr'eux.
 
-## PROBL. III. PROPOS. III.
-
-Duabus datis rectis lineis inæqualibus, de majore æqualem minori rectam lineam detrahere.
-
-Deux lignes droictes inégales estans données, oster de la plus grande vne ligne droicte égale à la plus petite.
-
-[Figure: cercle de centre B, ligne A verticale à gauche, points D, E, C à droite]
+[Figure: triangle A en haut, B et C au milieu, D et E en bas, F entre C et E, lignes BE et CD s'entrecroisant]
 
 Hypoth.
 
-a & bc snt — D.
+ab 2|2 ac,
+abd & ace snt —.
 
-Req. π. fa.
+Req. π. demonstr.
 
-be 2|2 a,
+<abc 2|2 <acb,
+<cbd 2|2 <bce.
 
-Constr.
+Præpar.
 
-2.1. | bd 2|2 a,
-3.p.1 | bde est ⊙,
-sym. | be 2|2 a,
+ad est arbitr.
+3.1. | af 2|2 ad,
+1.p.1. | cd & bf snt —.
 
 Demonstr.
 
-15.d.1. | be 2|2 bd,
-constr. | a 2|2 bd,
-concl. 1.a.1. | be 2|2 a,
-
-## THEOR. I. PROPOS. IV.
-
-Si duo triangula duo latera duobus lateribus æqualia habeant, vtrumque vtrique, habeant verò
+constr. | ad 2|2 af,
+hyp. | ac 2|2 ab,
+| <a est commun.
+4.1. | dc 2|2 bf, α
+4.1. | <adc 2|2 <afb, β
+4.1. | <acd 2|2 <abf, γ
+constr. | ad 2|2 af,
+hyp. | ab 2|2 ac,
+3.a.1. | bd 2|2 cf,
+α | dc 2|2 bf,

@@ -1,28 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-laterum, quæ sunt circa acutum angulum, in quod perpendicularis cadit, & ab assumpta interius linea sub perpendiculari prope acutum angulum.
+## SCHOL. II.
 
-Aux triangles oxygones, le quarré du costé qui soustient l'angle aigu, est moindre que les quarrez des costez qui le contiennent, de deux fois le rectangle contenu sous l'vn des costez qui sont autour de l'angle aigu, sçauoir celuy sur lequel tombe la perpendiculaire, & de la ligne prise au dedans entre la perpendiculaire & l'angle aigu.
+Si trianguli vnus angulus fuerit duplus aggregati reliquorum, quadratum, quod fit à latere duplum angulum subtendente, maius est quadratis, quæ fiunt à lateribus duplum angulum comprehendentibus, rectangulo sub lateribus duplum angulum continentibus comprehenso.
+
+Si vn angle d'vn triangle est double de l'aggregé de deux autres, le quarré du costé qui soustient l'angle double, est plus grand que les quarrez des costez qui le contiennent; du rectangle contenu sous les costez qui sont à l'entour de l'angle double.
 
 Hypoth.
 
-<acb 2|3 ∟,
-
-[Figure: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]
+abc est △,
+<abc 2|2, 2<a + 2<acb.
 
 Req. π. demonstr.
 
-▭.ac + ▭.bc 2|2 ▭.ab + 2▭.bcd.
+▭.ac 2|2 ▭.ab + ▭.bc + ▭.abc,
 
 Præpar.
 
-ad ⊥ bc.
+2.p.1 | abe est —,
+3.1 | be 2|2 bc, α
+10.1 | bd 2|2 de,
+1.p.1 | cd, & ce snt —.
+
+[Figure: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]
 
 Demonstr.
 
-47.1 7.2 47.1 | ▭.ac + ▭.bc, ▭.ad + ▭.dc + ▭.bc, ▭.ad + 2▭.bcd + ▭.bd, ▭.ab + 2▭.bcd, snt 2|2 ⁊e,
-concl. 1.a.1. | ▭.ac + ▭.bc 2|2 ▭.ab + 2▭.bcd.
-
-In hac propositione non est necesse omnes angulos trianguli esse acutos; sed sufficit angulum quem subtendit latus cuius quadratum comparatur cum
-
-En cette proposition il n'est pas necessaire que tous les angles du triangle soient aigus, mais il suffit que l'angle que soustient le costé, dont le quarré est comparé aux
+hyp. | <abc 2|2, 2<a + 2<acb,
+32.1 | <cbe 2|2 <a + <acb,
+1.a.1 | <abc 2|2, 2<cbe,
+| <cbe commun. add.
+2.a.1 | <abc + <cbe 2|2, 3<cbe,
+13.1 | <abc + <cbe 2|2, 2∟,

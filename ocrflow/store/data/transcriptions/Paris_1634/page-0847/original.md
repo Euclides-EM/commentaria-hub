@@ -1,30 +1,28 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-30. 3 | ∩ fl 2|2 ∩ lg, ∩ gm 2|2 ∩ mh, &c.
-30. 3, & 1.p.1 | flgmhnioкp, eſt 10<, æquilat. inſcri. ꝗn ⊙,
-12. 11, & 3. 1 | ef, Ⅱ bd, eq, lr / mſ, nt, ou, px ſnt 2|2 ꝗe, & ⊥ plan.. ⊙fnкg, β
-1.p.1 | rſ, ſt, tu, ux, xr ſnt ——,
-1.p.1 | fx, fr, gr, gſ, hſ, ht, it, iu, кu, кx ſnt ——;
-2.p.1 | zeqy, eſt ——,
-3. 1 | fl, ez, qy ſnt 2|2 ꝗe,
-1.p.1 | zg, zh, zi, zк, zf ſnt ——;
-1.p.1 | yu, yx, yr, yſ, yt ſnt ——,
-ſymp. | zghiкfyuxrſt, eſt req.
+9. 13 | zq π qe 2|2 qe π ze,
+3. 13 | □.zα 2|2, 5□.ea, ν
+1.ſ.4.2 | □.ef 2|2, 4□.ea,
+47.1 | □.αf 2|2 □.ef + □.eα,
+1. a. 1 | □.zα 2|2 □.αf,
+ſ. 46. 1 | zα 2|2 αf, ϖ
+2 concl. μϖ | α, eſt centr.. icoſaedr. Ⅱ centr.. ſphær.
+15. 5 | zα π αe 2|2 zy π qe,
+22. 6 | □.zα π □.αe 2|2 □.zy π □.qe,
+ν | □.zα 2|2, 5□.ea,
+14. 5 | □.zy 2|2, 5□.qe, Ⅱ 5□.bd,
+22. 6 | □.ab π □.bd 2|2 ab π bc,
+conſtr. | ab 2|2, 5bc,
+14. 6 | □.ab 2|2, 5□.bd, ρ
+1. a. 1 | □.zy 2|2 □.ab,
+3.concl. ſ. 46.1 | zy 2|2 ab,
+hyp. | ab, eſt ration.
+ρ | □.ab 2|2, 5□.bd, Ⅱ 5□.ef,
+ſ. 12.10 | ef, eſt ration.
+4concl. 11. 13 | fg, eſt minr.
 
-Præpar.
+## COROLL. I.
 
-1.p.3 | eg, eh, ei, ek, ef, qx, qr, qſ, qt, qu ſnt ——,
-10. 1 | eα 2|2 αq,
-1.p.1 | αf, αx, αu ſnt ——,
-3.p.1 | qxrſtu, eſt ⊙.
+Ex dictis infertur, sphæræ diametrum esse potentia quintuplum semidiametri circuli quinque latera icosaedri ambientis.
 
-Demonſtr.
-
-β.cōſtr. & 6.11 | eq, lr, mſ, nt, ou, px ſnt 2|2 & == ꝗe,
-33. 1 | el, qr, em, qſ, en, qt, eo, qu, ep, qx ſnt 2|2 & == ꝗe
-1.d.3.& 15. 11 | qxrſtu & eplmno ſnt ⊙, 2|2 & == ꝗe, γ
-33. 1 | fg, Ⅱ lm, rſ, mn, ſt, no, tu, op, ux, pl, xr ſnt 2|2 ꝗe, δ
-α.1.a.b | rſtux, eſt 5< æquilat.
-conſtr. | lr 2|2 eq, Ⅱ ef,
-β. 47.1 | □.fr 2|2 □.fl + □.lr, Ⅱ □.ef,
-10.13 | □.fg 2|2 □.fl + □.ef,
+*De cecy on peut colliger, que le diametre de la sphere est quin-*

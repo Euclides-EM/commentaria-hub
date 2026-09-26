@@ -1,44 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-opposées seront constituées directement.
+## THEOR. X. PROPOS. XVII.
 
-[Figure: lignes A—E—B et C—E—D s'entrecoupans en E]
+Cuiuscunque trianguli duo anguli, duobus rectis sunt minores, omnifariam sumpti.
 
-Hypoth.
+De tout triangle, deux angles, sont plus petits que deux droicts, de quelque façon qu'ils soient prins.
 
-<aed 2|2 <ceb, α
-<aec 2|2 <deb, α
-
-Req. π. demonstr.
-
-aeb & ced snt —.
-
-Demonstr.
-
-2.c.15.1. | <aed + <aec + <ceb + <deb 2|2 4∟,
-α.2.a.1. | <aed + <aec 2|2 <ceb + <deb,
-19.a b. | <aed + <aec 2|2 2∟,
-1.concl. 14.1. | ced est —,
-1.f.15.1. | aeb est —.
-
-## THEOR. IX. PROPOS. XVI.
-
-Cuiuscunque trianguli vno latere producto, externus angulus vtrolibet interno, & opposito maior est.
-
-De tout triangle, vn costé estant prolongé l'angle externe est plus grand que chacun des internes & opposez.
-
-[Figure: triangle ABC, costé BC prolongé vers D, poinct E au milieu de AC, lignes BE prolongée vers G, AH et CF, poinct I au dessous]
+[Figure: triangle ABC, costé BC prolongé vers D]
 
 Hypoth.
 
-abc est △,
-bcd est —.
+abc est △.
 
 Req. π. demonstr.
 
-<acd 3|2 <cab,
-<acd 3|2 <cba.
+<abc + <acb 2|3 2∟,
+<bac + <acb 2|3 2∟
+<a + <b 2|3 2∟.
 
 Præpar.
 
-10.1. | ae 2|2 ec,
+2.p.1. | bcd est —.
+
+Demonstr.
+
+16.1. | <b 2|3 <acd,
+| <acb commun. add.
+4.a.1. | <acb + <b 2|3 <acb + acd,
+13.1. | <acb + <acd 2|2 2∟,
+1.concl. 1.a.c. | <acb + <b 2|3 2∟, α
+2.concl. d. α | <acb + <a 2|3 2∟,
+3.concl. d. α | <a + <b 2|3 2∟.
+
+COROLL. I.
+
+Ex hac propositione colligitur in omni triangulo, cuius vnus angulus fuerit rectus vel obtusus, reliquos esse acutos.

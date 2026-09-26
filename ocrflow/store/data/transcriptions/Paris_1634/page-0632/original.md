@@ -1,39 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-24.10 | ▭.cf, est medi.
-23.10 | cb, est ration.
-γ♪.4.2 | ▭ad 2|2, 2▭.ghк,
-α.24.10 | 2▭.ghk, est medi.
-24.10 | ▭.ad, est medi.
-23.10 | ac, est ration.
-β.14.10 | 2▭.ghк, incomm. / aggreg.□.gh + □.hk
-γ♪ hyp. | ▭.ad, incōm. ▭.cf,
-1.6 | ad π cf 2|2 ac π cb,
-10.10 | ac, incomm. cb,
-37.10 | ab, est irration.
-l.38.10 | ▭.af, est irration.
-concl. γ.11d.10 | gк, est irration.
+c.17.ap. | □.ad + □.db ∼ □.ae ∼ □.eb 2|2, 2▭.aeb ∼ 2▭.adb
+s.12.10 | □.ad + □.db ∼ □.ae ∼ □.eb, est ration.
+γ | contr. 27.10.
 
-## THEOR. XXXI. PROPOS. XLIII.
+## THEOR. XXX. PROPOS. XLV.
 
-Quæ ex binis nominibus, ad vnum duntaxat punctum diuiditur in nomina.
+Quæ ex binis mediis secunda, ad vnum duntaxat punctum diuiditur in nomina.
 
-*La ligne de deux noms peut estre diuisee en ses noms, à vn poinct seulement.*
+*La ligne de deux mediales seconde, est diuisee en ses noms à vn poinct seulement.*
+
+A D C B (line) E L I F K H G (rectangle)
 
 Hypoth.
 
-ab, est binom.
-ad & db snt nom; α
+ab, est bimed. 2.
+ac & cb snt nom.
 Req. π. demonstr.
-ae & eb, n̄, snt nom;
+ad & db, n̄, snt nom.
 
-A C F E D B (demi-cercles G L)
+Præpar.
 
-Demonst.
+suppos. | ad & db snt nom.
+suppos. | ef, est ration. α
+4.app. | ▭.eg 2|2 □.ab,
+4.app. | ▭eh 2|2 □.ac / + □.cb, β
+4.app. | ▭ek 2|2 □.ad / + □.db, γ
 
-3.p.1 | falb, fcgd snt ⊙;
-suppos. | ae & eb snt nom; β
-α.37.10 | af, n̄, est 2|2 ae, u ad,
-22.10 | ▭.aeb & ▭.adb snt medi; γ
-αβ | □.ad, □.db, □.ae, □.eb snt ration;
-2s.27.10 | aggreg.. □.ad + □.db, est ration.
+Demonstr.
+
+β.4.2 | ▭ig 2|2, 2▭.acb, ♪
+7.2 | ▭eg 3|2 ▭ig,
+1.6 | fh 3|2 hg,
+hyp. | □.ac & □.cb snt / medi. ε
+hyp. | □.ac, comm. □.cb,
+16.10 | aggreg.. / □.ac / + □.cb / cōm. □.ac,
+ε.24.10 | aggreg.. / □.ac / + □.cb / est medi.
+β.24.10 | ▭eh, est medi.

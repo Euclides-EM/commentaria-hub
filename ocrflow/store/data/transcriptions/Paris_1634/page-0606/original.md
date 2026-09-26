@@ -1,51 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-C (rectangle F D E) A B
+E D B C A (squares) F I L G H K M (rectangles)
 
-4.app. | ▭cf 2|2 □.b. ♪
+□.ac, est ration.
+u medi.
+
+Præpar.
+
+46.1 | ad, est □.ab,
+46.1 | ec, est □.bc,
+suppos. | fg, est ration. expos.
+4.app. | ▭fh 2|2 ▭ad, β
+4.app. | ▭ik 2|2 ▭ac, γ
+4.app. | ▭lm 2|2 □ec. ♪
 
 Demonstr.
 
-hyp. | □.a, u ▭ce, est medi.
-β | cd, est ration.
-23.10 | de, est ration. ε
-23.10 | de, comm. cd ꝗn □,
-αγ♪ | ▭.ce, comm. ▭.cf,
-1.6 | ce π cf 2|2 ed π df,
-10.10 | ed, comm. df, θ
-ε | ed, est ration.
-s.12.10 | fd, est ration.
-θ | ed, incomm. cd,
-13.10 | fd, incomm. cd,
-concl. ♪.22.10 | ▭.cf & b snt medi.
-
-## COROLL.
-
-Ex hoc manifestum est, spatium medio spatio commensurabile medium esse.
-
-*De ceste demonstration il est manifeste qu'vn espace commensurable à vn espace medial, est aussi medial.*
+hyp. | ad & ce snt medi.
+β♪.24.10 | fh & lm snt medi.
+constr. | fg est ration. expos.
+23.10 | gh & km snt ration. ε
+23.10 | fg, comm. km ꝗn □,
+α. hyp. | □ad, comm. □ce,
+β♪.10.10 | ▭fh, comm. ▭lm,
+1.6 | fh π lm 2|2 gh π km
+10.10 | gh, comm. km,
+ε.20.10 | ▭.gh,km, est ration. θ
+22.6 | □ad, ▭ac, □ce snt proport.
+βγ♪ | ▭fh, ▭ik, ▭lm snt proport.
+1.6 | gh, hk, km snt proport.
+17.6 | ▭.gh,km 2|2 □.hk,
+θ.12.10 | hk est ration.
+hk, comm. fg, u hi,
+u □.hk comm. □.hi,
+suppos. | hk, comm. hi,
+1.concl. 10.10 | ▭ik, est ration.
+suppos | hk, comm. hi ꝗn □,
+2 concl. 22.10 | ▭ik, est medi.
 
 ## LEMM.
 
-Duas rectas medias longitudine commensurabiles; item duas potentia tantùm commensurabiles inuenire.
-
-*Trouuer deux lignes droictes mediales commensurables en longitude ; semblablement en trouuer deux commensurables en puissance seulement.*
-
-A--------
-B------
-C----
-
-Constr.
-
-ʒ. 21.10, & 13.6 | a, est medi.
-2l.10.10 | b, comm. a, α
-3.l.10.10 | c, comm. a ꝗn □, β
-symp. | req. snt a, b & a, c.
-
-Demonstr.
-
-constr. | a, est medi.
-α.24.10 1.concl. | b, est medi.
-α.cōstr. | b, comm. a,
-α.24.10 2 concl. | c, est medi.
-β.cōstr. | c, comm. a ꝗn □.
+Aggregatum quadratorum à rectis potentia tantùm

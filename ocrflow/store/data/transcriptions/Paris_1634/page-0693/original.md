@@ -1,40 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
+ma prima; recta linea spatium potens apotome est.
+
+*Si vn espace est contenu sous vne ligne rationelle, & vn apotome premier; la ligne droicte qui peut iceluy espace, est apotome.*
+
 [Figure: labels arranged A D F G E / B L C N K H I]
 [Figure: labels arranged N P / T S O / V X / Q R M]
 
-s.28.6 | ▭.age 2|2 □.fe, α
-2.p.1 | bci, est ——,
-31. 1 | fк, gh, ei snt == dc,
-14.2 | □lm 2|2 ▭ah, β
-14.2 | □no 2|2 ▭gi, γ
-2.p.1 | nsr & ost snt ——.
+Hypoth.
+
+ac, est ▭.ab, ad,
+ab, est ration.
+ad, est apotom. 1. α
+de, est congruen.
 
 Req. π. demonstr.
 
-▭ai 2|2 aggreg.. □.to + □.so,
-▭dк, ▭fi, / ▭lo, / ▭nm, snt 2|2 ꝗe
-□tr 2|2 ▭ac,
-df, fe, de snt cōm. ꝗe.
+▭ac 2|2 □.apotom.
+
+Lemm. 91.10. est præpar.
 
 Demonstr.
 
-1.concl. βγ 2.a.1 | ▭ai 2|2 lm □.to + no □.so, ♪
-1c19.10 | dк, fi, lo, nm snt ▭,
-α.14.6 | ag π fe 2|2 fe π ge,
-1. 6 | ▭ah π| ▭fi, / ▭fi π| ▭gi,
-s.22.6 | □lm π| ▭lo, / ▭lo π| □no,
-constr. | □lm 2|2 ▭ah, / & □no 2|2 ▭gi,
-9. 5 | ▭lo 2|2 ▭fi,
-36. 1 | ▭dк 2|2 ▭fi,
-2.a.1 | ▭lo 2|2 ▭nm,
-2.concl. 1.a.1 | ▭dk, / ▭fi, / ▭lo, / ▭nm, snt 2|2 ꝗe, ε
-♪ | □lm + □no 2|2 ▭ai,
-3.concl. 3.a.1 | tr □.ts 2|2 ▭ac,
-constr. | df 2|2 fe,
-4.concl. 16. 10 | df, fe, de snt cōm. ꝗe. θ
+l.91.10 | tr□.ts 2|2 ▭ac,
+α. hyp. | □.ae 3|2 □. de..□. ——, comm. ae,
+l.91.10 | ag, ge, ae snt comm. ꝗe, β
+l.91.10 | df, fe, de snt comm. ꝗe, γ
+α. hyp. | ae, comm. ab, ♪
+γ.12.10 | ag, comm. ab,
+20. 10 | ▭ah, est ration.
+constr. | □lm 2|2 ▭ah,
+s.12.10 | lm□.to, est ration. ε
+β♪12.10 | ge, comm. ab,
+20.10 | ▭gi, est ration
+constr. | □no 2|2 ▭gi,
+s.12.10 | no□.so, est ration.
+ε.l.91.10 | to & so snt ration. comm. ꝗn □,
+concl. 74. 10 | ts, est apotom.
 
-## COROLL. I.
+## THEOR. LXIX. PROPOS. XCIII.
 
-hyp. | ae, comm. de ꝗn □, к
-hyp. | □.ae 3|2 □.de..□.—— comm. ae, λ
+Si spatium contineatur sub rationali, & apoto-

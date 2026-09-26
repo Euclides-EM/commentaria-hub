@@ -1,32 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-rum, cum eo, quod à reliquo segmento fit, quadrato, æquale est ei, quod à tota, & dicto segmento, tanquam ab vna linea describitur, quadrato.
-
-Si vne ligne droicte est couppée, comme on voudra : quatre fois le rectangle, contenu sous la toute & l'vn des segments auec le quarré de l'autre segment, est égal au quarré descrit de la toute & dudit segment, comme d'vne.
-
-Hypoth.
-
-ab est —,
-ac & cb snt par.. ab,
-bd 2|2 cb.
-
-[Figure: quarré F—E—H—A, diagonale F—D, I, G en haut, R, T, K, Q au milieu, O, L à gauche, N, H, S en bas, P à droite, A—C—B—D en bas]
-
-Req. π. demonstr.
-
-4▭.abc + ▭.ac 2|2 ▭.ad,
-
 Præpar.
 
-46.1. | ae est ▭.ad,
-31.1. | ci == af,
-31.1. | bg == af,
-1.p.1. | fd est diamet.
-31.1. | lhm == ad,
-31.1. | okp == ad,
+aeb est figur.. schol.. 6. 2.
 
 Demonstr.
 
-1.c.4.2 | oi, est ▭.ac,
-1.c.4.2 | bm est ▭.bd,
-1.c.4.2 | nq est ▭.cb,
+s.5.2 | 4▭.ed 2|2 4▭.adb, α
+| ▭.ab β
+1.s.4.2 | 4▭.ce
+47.1 | 4▭.ed + 4▭.cd
+1.s.4.2 | 4▭.ed + ▭.fd
+α.1.a.s. | 4▭.adb + ▭.fd β
+snt 2|2 ⁊e,
+concl. 1.a.1 | 4▭.adb + ▭.fd 2|2 ▭.ab.
+
+Explicat. p nr.
+
+hyp. | ad est 7,
+hyp. | db est 3,
+3.a.1 | fd est 4,
+2.a.1 | ab est 10,
+1.concl. 1.s.1.d.2 | ▭.ab est 100,
+1.s.1.d.2 | ▭.adb est 21,
+6.a.1 | 4▭.adb snt 84,
+1.s.1.d.2 | ▭.fd est 16,
+2.concl. 2.a.1 | 4▭.adb + ▭.fd 100.
+
+## THEOR. IX. PROPOS. IX.
+
+Si recta linea secetur in æqualia, & non æqualia : Quadrata quæ ab inæqualibus totius segmentis fiunt, simul duplicia sunt, & eius, quod à dimidia, & eius, quod ab intermedia sectionum fit, quadrati.
+
+Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales : les quarrez des segments inégaux de la toute, sont doubles du quarré de la moitié,

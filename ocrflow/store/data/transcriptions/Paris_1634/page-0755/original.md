@@ -1,49 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-Constr.
+## THEOR. XXII. PROPOS. XXV.
 
-3. 1 | ab, ae, be, bf, cf, cg snt 2|2 ꝗe, α
-12. 1 | hi 2|2 de, ik 2|2 ef, & hк 2|2 fg,
-5. 4 | lhкi, est ⊙,
-6 app. | □ ad 2|2 □.hl + □.lm
-12. 11 | lm ⊥ ⊙hкi,
-1. p. 1 | hm, im, кm snt ——,
-symp. | req. est < solid. mhiк.
+Si solidum parallelepipedum plano secetur aduersis planis parallelo; erit quemadmodum basis ad basim, ita solidum ad solidum.
 
-Demonstr.
+*Si vn solide parallelipipede est couppé par vn plan parallel aux plans opposez, comme la base sera à la base, ainsi le solide sera au solide.*
 
-constr. | <hlm, est ⊥,
-47. 1 | □.hm 2|2 □.hl + □.lm,
-constr. | □.ad 2|2 □.hl + □.lm
-1. a. 1 | □.hm 2|2 □.ad,
-c. 46. 1 | hm 2|2 ad,
-47. 1 | mh, mi, mk snt 2|2 ꝗe
-α. 1.a.1 | mh, mi, mк, ab, ae &c. snt 2|2 ꝗe,
-1.concl. β. 8.1 | <hmi 2|2 <a,
-2 concl. β.8. 1 | <imk 2|2 <b,
-3.concl. β. 8.1 | <hmk 2|2 <c.
+[Figure: labels arranged Q D F C P / L G O / M H N / I A E B K]
+
+Hypoth.
+
+abcd, est ◇piped.
+ef, bc, ad snt ◇; == ꝗe,
 
 Req. π. demonstr.
 
-ad, est 3|2 hl.
+solid. ahd π solid. bhc 2|2 bas. ah π bas. hb.
+
+Præpar.
+
+3. 1 | ai 2|2 ae, & bk 2|2 be,
+31. 1 | amdqi, & bcpnк snt ◇piped;
 
 Demonstr.
 
-suppos. | hl 2|2 ad,
-8. 1 | <hli 2|2 <a,
-β. 8. 1 | <ilк 2|2 <b,
-8. 1 | <hlk 2|2 <c,
-1.c.15.1 | <hli + <ilk + <hlk 2|2, 4 ⊥,
-1. a. 1 | <a + <b + <c 2|2, 4 ⊥,
-contr. hypoth.
-suppos. | hl 3|2 ad,
-21. 1 | <a 3|2 <hli,
-21. 1 | <b 3|2 <ilк,
-21. 1 | <c 3|2 <hlk,
-1.c.15.1 | <hli + <ilk + <hlk 2|2, 4 ⊥,
-1.a. c | <a + <b + <c 3|2, 4 ⊥,
-contr. hypoth.
-
-## THEOR. XXI. PROPOS. XXIV.
-
-Si solidum parallelis planis contineatur; aduersa
+36.1, & 1 d. 6 | ◇im 2|2 & sml. ◇ah,
+24. | ◇ld 2|2 & sml. ◇im, & ◇dg 2|2 & sml ◇me,
+24. 11 | iq, ad, ef snt ◇; 2|2 & sml; ꝗe,
+9. d. 11 | ◇piped. aq 2|2 ◇piped. af, α
+d. α | ◇piped. bp 2|2 ◇piped. bf,
+15. 5 | solid. if multipl.. solid. af,
+bas. im multipl.. bas. ah,

@@ -1,33 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-## COROLL. II.
+αβγ | □.bf, eſt 4, □.be, eſt 3, □.af, eſt 2,
+15. 6 | ab π ad 2|2 □.ab π □.af, / 3 π 1 6 π 2
+ſ.12.10 9. 10 | bf, be, af ſnt ration; comm; ꝗn □,
+conſtr. c. 8. 6 | 3ad 2|2 ab, 3□.af 2|2 □.ab,
+ε | 5□.кl, Ⅱ 5□.кi 2|2 □.ab,
+1. a. 1 | 3□.af 2|2 5□.кl, θ
+conſtr. | ao 3|2 of,
+1. 6 | ▭.af,ao 3|2 ▭.af,of,
+4. a. 1 | ▭.af, ao + ▭.af, of 3|2, 2▭.af, of,
+1. 2 | □.af 2|2 ▭.af, ao + ▭.af, of,
+17. 6 | 2□.ao 2|2, 2▭.af, of,
+1.a.f | □.af 3|2, 2□.ao,
+θ. 15.5 | 3□.af, Ⅱ 5□.кl 3|2, 6□.ao,
+ſ.46.1 4. a. c | кl 3|2 ao, al 3|2 ao.
 
-Sequitur etiam, si rectæ lineæ sectæ extrema ac media ratione, minus segmentum sit latus dodecaedri, maius segmentum esse latus cubi eiusdem sphæræ.
+Explicat. ꝑ nr;
 
-*Il s'ensuit außi, que si d'vne ligne droicte couppee en la moyenne & extreme raison, le moindre segment est le costé du dodecaedre, le plus grand segment sera le costé du cube inscrit en la mesme sphere.*
+arbitr. | □.ab, eſt 60,
+13. 13 | □.bf, eſt 40,
+14. 13 | □.be, eſt 30,
+15. 13 | □.af, eſt 20,
+16. 13 | □.al, eſt 30 ~ γ.180,
+17. 13 | □.ao, eſt 30 ~ γ.500.
 
-## COROLL. III.
+## SCHOL.
 
-Liquet etiam latus cubi æquale esse lineæ rectæ subtendenti angulum pentagoni dodecaedri eadem sphæra comprehensi.
-
-*Il est manifeste außi que le costé du cube est egal à la ligne droicte subtendante l'angle du pentagone du dodecaedre inscrit en la mesme sphere.*
-
-## PROBL. VI. PROPOS. XVIII.
-
-Latera quinque figurarum exponere, & inter se comparare.
-
-*Exposer les costez des cinq figures precedentes, & les comparer entr'eux.*
-
-Conſtr.
-
-arbitr. | ab, eſt diamet. ſphær.
-3. p. 1 | caeb, eſt ſemic.
-ſ 10.6 | ab 2|2, 3ad,
-11. 1 | ce, df, bg ſnt ⊥ ab,
-1.p.1 | af, ae, be, bf ſnt ——,
-3. 1 | bg 2|2 ab,
-1. p. 1 | cg, eſt ——,
-12. 1 | hi ⊥ ab,
-3. 1 | cк 2|2 ci,
-11. 1 | кl ⊥ ab,
-1. p. 1 | al, eſt ——,
+Præter dictas quinque figuras, non posse aliam constitui figuram solidam, quæ planis & æquilateris & æquiangulis contineatur inter se æqualibus hac ratione demonstratur. | *On demonstrera comme s'ensuit, qu'outre les cinq figures desia dittes, on ne peut constituer d'autre figure, laquelle soit contenuë des figures equilateres & equiangles egales entr'elles.*

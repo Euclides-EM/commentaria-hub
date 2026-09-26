@@ -1,36 +1,19 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-[Figure: labels arranged M K / D L H / I / B / A C E F G ▭ Q O P N]
+& eorum pyramides earundem altitudinum cum ipsis, & super easdem bases, æquales; cum sint eorum tertiæ partes, ex coroll. propos. 7. huius lib. Quare vt modo demonstrauimus, bases harum pyramidum atque altitudines reciprocantur. Cum ergo hæ bases & altitudines eædem sint, quæ prismatum; reciprocabuntur quoque bases prismatum atque altitudines. | *mesme hauteur qu'iceux ayant mesme base seront egales entr'elles, estant les tierces parties des prismes par le corollaire de la septiesme proposition de ce liure. Donc comme nous venons de demonstrer les bases & hauteurs d'icelles pyramides seront reciproques: & ces bases & hauteurs estans les mesmes que de prismes, les bases & les hauteurs des prismes seront reciproques.*
 
-nes: Et quarum pyramidum triangulares bases non habentium reciprocantur bases & altitudines, illas esse æquales.
+Rursus, si prismatum bases, & altitudines reciprocentur, reciprocabuntur quoque bases, & altitudines pyramidum easdem bases & altitudines cum prismatis habentium. Quare vt demonstratum est, pyramides æquales sunt; ac propterea prismata, cum earum sint tripla: quod est propositum. | *Derechef, si les bases & les hauteurs des prismes sont reciproques, les bases & hauteurs des pyramides ayant mesme bases & hauteurs que les prismes seront außi reciproques: Donc comme a esté demonstré les pyramides sont egales: & partant außi les prismes estant triples d'icelles pyramides. Ce qui est proposé.*
 
-*Il est certain außi que les bases & hauteurs des pyramides egales, dont les bases ne sont triangulaires, sont reciproques: Et que les pyramides, dont les bases sont triangulaires, ayans les bases & les hauteurs reciproques, sont egales.*
+## THEOR. X. PROPOS. X.
 
-[Figure: labels arranged D I K / A E H / B C F G L N M]
+Omnis conus tertia pars est cylindri eandem cum ipso basin habentis, & altitudinem æqualem.
 
-Hypoth. 1.
+*Tout cone est la troisiesme partie du cylindre qui a mesme base qu'iceluy, & la hauteur egale.*
 
-pyram. abcd 2|2 pyram. efgh. α
+Hypoth.
 
-Req. π. demonstr.
-
-baſ. abc π baſ. efgh 2|2 alt. i π alt. d.
-
-Præpar.
-
-1. app. | △lmn 2|2 baſ. efgh,
-constr. | alt. pyram. lmnк 2|2 alt. pyram. efghi.
-
-Demonstr.
-
-c. 6. 12 | pyram. lmnк 2|2 pyram. efghi, β
-α. 1. a. 1 | pyram. abcd 2|2 pyram. lmnк,
-1.concl. 9. 12 | abcd π lmn, Ⅱ efgh 2|2 alt.. к, Ⅱ i π alt. d. γ
-
-Hypoth. 2.
-
-baſ. abc π baſ. efgh 2|2 alt. i π alt. d.
+⊙abcd, est baſ.. cylindr.. & con.
 
 Req. π. demonstr.
 
-pyram. abcd 2|2 pyram. efghi.
+cylindr. 2|2 3; con;

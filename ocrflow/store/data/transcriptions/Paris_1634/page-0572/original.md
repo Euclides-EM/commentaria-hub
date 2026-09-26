@@ -1,23 +1,29 @@
-<!-- Running title: ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLD. LI. X. -->
 
-tionali, quæ antea erant irrationales, possunt esse rationales.
+β | BP & AB, sunt rationales primi generis.
+γ | CE & AB, sunt rationales secundi generis.
+δ | AK & AP, sunt rationales tertij generis.
+ε | FD, est linea irrationalis.
 
-*geant la rationelle exposee en vne autre rationelle exposee.*
+β | *BP & AB, sont rationelles de la premiere sorte.*
+γ | *CE & AB, sont rationelles de la seconde sorte;*
+δ | *AK & AP, sont rationelles de la troisiesme sorte.*
+ε | *FD, est vne ligne irrationelle.*
 
-## SCHOL. II.
+## POSTVLATVM, SIVE PETITIO.
 
-Omnis numerus incommensurabilis vnitati dicitur irrationalis vel surdus : nec vlla magnitudo, præter lineam, est rationalis nisi numero rationali exprimatur. Recta vero linea, quamuis non exprimatur numero rationali, dummodo habeat quadratum numero rationali expressum dicitur rationalis.
+Postuletur, quamlibet magnitudinem toties posse multiplicari, donec quamlibet magnitudinem eiusdem generis excedat.
 
-*Tout nombre incommensurable à l'vnité s'appelle irrationel ou sourd : & n'y a aucune grandeur, excepté la ligne, qui soit rationelle, si elle n'est exprimee par vn nombre rationel. Mais la ligne droicte encore qu'elle ne soit pas exprimee par vn nombre rationel, pourueu qu'elle aye son quarré exprimé par vn nombre rationel, elle sera rationelle.*
+## DEMANDE.
 
-## SCHOL. III.
+*Soit concedé qu'on puisse multiplier quelcōque grandeur tant de fois, qu'elle excede quelconque grandeur proposee de mesme genre.*
 
-Nulla regula Arithmetica gignit numeros irrationales præter extractiones radicum, ac proinde omnis potestas numeri rationalis est rationalis : sed si potestas est numerus rationalis, non est necesse latus quoque esse numerum rationalem.
+## AXIOMATA, SIVE PRONVNTIATA.
 
-*Il n'y a point aucune regle d'Arithmetique qui engendre des nombres sourds, que les extractions des racines, par consequent toute puissance d'vn nombre rationel est rationelle : mais si la puissance est vn nombre rationel, il n'est pas necessaire que le costé soit aussi vn nombre rationel.*
+## AXIOMES, OV communes sentences.
 
-## SCHOL. IV.
+I.
 
-Tria sunt genera linearum rationalium longitudine in-
+Magnitudo quotcunque magnitudines metiens, compositam quoque ex ipsis metitur.
 
-*Il y a trois sortes de lignes rationelles commensurables en*
+*Vne grandeur mesurant tant de grādeurs qu'on voudra, mesure aussi la grādeur composee d'icelles.*

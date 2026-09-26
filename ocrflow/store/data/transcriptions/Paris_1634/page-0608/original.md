@@ -1,43 +1,52 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-E D B C A (squares) F I L G H K M (rectangles)
+Coroll.
 
-□.ac, est ration.
-u medi.
+6.10 | ▭acb, comm. 2▭acb,
+α.16.10 | □.ab & □.bc snt comm. aggreg..□.ab + □.bc,
+γ.14.10 | ▭.acb, & 2▭acb snt incom. □.ab, □.bc,
+& aggreg..□.ab + □bc.
+
+## THEOR. XXIV. PROPOS. XXVII.
+
+Medium non superat medium rationali.
+
+*Vn medial n'excede pas vn medial d'vn rationel.*
+
+A C D B (rectangle) E K I F H G (rectangle)
+
+Hypoth.
+
+ab & ac snt medi.
+
+Req. π. demonstr.
+
+db, n̄. est ration.
 
 Præpar.
 
-46.1 | ad, est □.ab,
-46.1 | ec, est □.bc,
-suppos. | fg, est ration. expos.
-4.app. | ▭fh 2|2 ▭ad, β
-4.app. | ▭ik 2|2 ▭ac, γ
-4.app. | ▭lm 2|2 □ec. ♪
+suppos. | ef, est ration. expos. α
+4.app. | ▭eg 2|2 ▭ab, β
+4.app. | ▭eh 2|2 ▭ac, β
 
 Demonstr.
 
-hyp. | ad & ce snt medi.
-β♪.24.10 | fh & lm snt medi.
-constr. | fg est ration. expos.
-23.10 | gh & km snt ration. ε
-23.10 | fg, comm. km ꝗn □,
-α. hyp. | □ad, comm. □ce,
-β♪.10.10 | ▭fh, comm. ▭lm,
-1.6 | fh π lm 2|2 gh π km
-10.10 | gh, comm. km,
-ε.20.10 | ▭.gh,km, est ration. θ
-22.6 | □ad, ▭ac, □ce snt proport.
-βγ♪ | ▭fh, ▭ik, ▭lm snt proport.
-1.6 | gh, hk, km snt proport.
-17.6 | ▭.gh,km 2|2 □.hk,
-θ.12.10 | hk est ration.
-hk, comm. fg, u hi,
-u □.hk comm. □.hi,
-suppos. | hk, comm. hi,
-1.concl. 10.10 | ▭ik, est ration.
-suppos | hk, comm. hi ꝗn □,
-2 concl. 22.10 | ▭ik, est medi.
+β.3.a.1 | ▭kg 2|2 ▭db,
+hyp. | ab & ac snt medi.
+24.10 | eg & eh snt medi.
+α | ef, est ration.
+23.10 | fg & fh snt ration. γ
+23.10 | fg & fh snt comm.
+ef ꝗn □, ♪
+suppos. | ▭kg, est ration.
+21.10 | hg, comm. hk,
+♪ | fh, incomm. hk,
+13.10 | fh, incomm. hg,
+♪ | fh, comm. hg ꝗn □,
+1.26.10 | □.fg, incomm. □.fh,
+γ | □fh, est ration.
+s.12.10 | fg, n̄, est ration.
+contr. concl. γ
+concl. 21.a.1 | kg, n̄, est ration.
 
-## LEMM.
-
-Aggregatum quadratorum à rectis potentia tantùm
+SCHOL.

@@ -1,41 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle A—B—C—D, E au dehors à gauche, lignes E—C, E—A—B, A—C, A—D, B—C, B—D, D—C]
+partim intra; si cadat extra aut intra, segmenta erunt dissimilia per præcedentem, quod est contra hypothesim. Si cadat partim extra, partim intra, sese mutuò secabunt in pluribus punctis quàm duobus, nimirum in A, F, G, quod est impossibile per decimam tertij, congruet igitur segmentum ABC segmento DEF, atque adeo ipsa inter se æqualia erunt per 8. ax. 1.
+
+dans, ou partie dehors, & partie dedans, s'il tombe au dehors ou au dedans, les segments seront dissemblables par la precedente, ce qui est contre l'hypothese. S'il tombe en partie au dedans, en partie au dehors, ils s'entrecouperōt en plus de deux poincts, à sçauoir en A, F, G, ce qui est impossible par la 10. du 3. donc le segment ABC conuiendra auec le segment DEF, & partant seront égaux entr'eux par 8. ax. 1.
+
+Scholium.
+
+Cùm peripheriæ ABC DEF inter se congruant, erunt quoque inter se æquales.
+
+Scholie.
+
+Veu que les circonferences ACB, DEF conniennent entre elles, elles seront aussi égales.
+
+## PROBL. III. PROPOS. XXV.
+
+Circuli segmento dato, describere circulum, cuius est segmentum.
+
+Le segment d'vn cercle estant donné, descrire le cercle duquel il est segment.
+
+[Figure: arc A—B—C, D et E au dedans, F en bas, lignes A—B, B—C, D—F, E—F]
 
 Hypoth.
 
-acbd est ⊙,
-acbd est 4< in ⊙,
-dae est —,
+abc est segm. D.
 
-Req. π. demonstr.
+Req. π. fa.
 
-<cae 2|2 <dbc.
-
-Demonstr.
-
-13.1 | <cae + <cad 2|2, 2∟,
-22.3 | <dbc + <cad 2|2, 2∟,
-1.a.1 | <cae + <cad 2|2 <dbc + <cad,
-| <cad commun. subtr.
-concl. 3.a.1 | <cae 2|2 <dbc.
-
-## THEOR. XXI. PROPOS XXIII.
-
-Super eadem recta linea, duo segmenta circulorum similia, & inæqualia non constituentur ad easdem partes.
-
-Sur vne mesme ligne droicte, on ne pourra constituer deux segments de cercles semblables & inégaux, & de mesme part.
-
-[Figure: segments A—B—D—C sur la base A—C, lignes A—B, A—D, B—C, D—C, α]
-
-Hypoth.
-
-abc,adc snt ⌓ sml.
-
-Req. π. demonstr.
-
-ac ñ est bas. commun.
-
-Demonstr.
-
-suppos | ac est bas. commun.
+inuen. centr. f.

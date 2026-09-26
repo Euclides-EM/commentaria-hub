@@ -1,21 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-8.concl. 12.5 | abcde π fghik,
-| Δabc π Δfgh,
-9.concl. 19.6 | u 2 raō.. ab π fg.
+Si quatre lignes droictes sont proportionelles, les figures rectilignes semblables & semblablement descrites sur icelles seront proportionelles : Et si les figures rectilignes semblables & semblablement descrites sur lignes droictes sont proportionelles, icelles lignes droictes seront außi proportionelles.
 
-## COROL. I.
+[Figure: triangles A, B, I et C, D, K ; quarrez E, F, L, M et G, H, N, O]
 
-Hinc manifestum est, si fuerint tres lineæ rectæ proportionales, vt est prima ad tertiam, ita esse polygonum super primam descriptum, ad polygonum super secundam simile similiterque descriptum : vel ita esse polygonum super secundam descriptum ad polygonum super tertiam simile similiterque descriptum.
+Hypoth. 1.
 
-De cecy il est manifeste, que s'il y a trois lignes proportionelles, comme la premiere sera à la troisiesme, ainsi le polygone descrit sur la premiere, sera au polygone semblable, & semblablement descrit sur la seconde : ou bien ainsi sera le polygone descrit sur la seconde au polygone semblable, & semblablement descrit sur la troisiesme.
+ab π cd 2|2 ef π gh, α
+abi, sml. cdk,
+efml, sml. ghon.
 
-## COROLL. II.
+Req. π. demonstr.
 
-Perspicuum quoque est, similia rectilinea super æqualibus rectis lineis descripta, esse inter se æqualia : & contrà homologa latera æqualium & similium rectilineorum esse inter se æqualia.
+abi π cdk 2|2 em π go.
 
-Il est außi manifeste, que les rectilignes semblables descrits sur lignes droictes egales, sont egaux entr'eux : & au contraire, les costez de mesme raison des rectilignes egaux & semblables, sont egaux entr'eux.
+Demonstr.
 
-## THEOR. XV. PROPOS. XXI.
+hyp. | ab π cd 2|2 ef π gh,
+19.6 | raō.. Δabi π Δcdk 2|2, 2 raō.. ab π cd u ef π gh,
+20.6 | raō.. em π go 2|2, 2 raō.. ef π gh,
+1.concl. 1.s.13.5 | Δabi π Δcdk 2|2 em π go.
 
-Quæ eidem rectilineo sunt similia, & inter se sunt similia.
+Hypoth. 2.
+
+Δabi π Δcdk 2|2 em π go.
+
+Req. π. demonstr.
+
+ab π cd 2|2 ef π gh.

@@ -1,47 +1,27 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-Demonstr.
+ponitur, quare A & pariter impar est : ostensum autem est & pariter esse parem, est igitur A, & pariter par, & pariter impar quod demonstrare oportebat.
 
-20.d.7 | f,a,b,c,d,&c. snt contin. proport;
-6.d.7 | a,b,c,d,&c. snt nr;pa. α
-11.d.7 | a, est nr. pr.
-13.9 | nul. nr. extern. msur: a,b,c,d,&c.
-11.9 | nr; a,b,c,d,&c. msur: nr; a,b,c,d, &c. ꝑ nr; a,b,c,d,&c.
-concl. α.8.d.7 | nr; a,b,c,d, &c. snt pa.pa;
+*l'vnité qui repugne à l'hypothese ; partant A, est pairement impair : mais il a esté demonstré qu'il est pairement pair ; par consequent A, est pairement pair & pairement impair, ce qu'il falloit demonstrer.*
 
-## THEOR. XXXI. PROPOS. XXXIII.
+## THEOR. XXXIII. PROPOS. XXXV.
 
-Si numerus dimidium habeat imparem : pariter impar est tantum.
+Si sint quotcunque numeri deinceps proportionales, detrahantur autem à secundo, & vltimo æquales ipsi primo : erit vt secundi excessus ad primum, ita vltimi excessus ad omnes ipsum antecedentes.
 
-*Si vn nombre a sa moitié impair, il est pairement impair tant seulement.*
+*S'il y a tant de nombres qu'on voudra continuellement proportionaux, & qu'on retranche tant du second que du dernier, vn nombre egal au premier : comme l'excez du second sera au premier, ainsi l'excez du dernier sera à tous les antecedens.*
 
-A,30. B,15. C,2.
-D--- E---
+A........8
+B....4F........8G
+C..................18
+D.........9H......6L....4K.........8N
 
 Hypoth.
 
-a, est nr. propos.
-½a est nr. impa.
+a, bg, c, dn snt contin. proport.
+
+fg 2|2 a,
+kn 2|2 a.
 
 Req. π. demonstr.
 
-a, est nr.pa.impa.
-
-Præpar.
-
-6.d.7 | b, est ½a,
-3.p.7 | b, msur: a ꝑ c. α
-
-Demonstr.
-
-hyp. | b, est nr. impa.
-19.a.1 | c, est 2;
-8.a.7 | c, msur: a ꝑ b,
-1.concl. 9.d.7 | a, est nr.pa.impa.
-suppos. | d, est nr. pa.
-suppos. | e, est nr. pa.
-suppos. | d, msur: a ꝑ e,
-9.a.7 | a 2|2 ▭.d,e,
-α.9.a.7 | a 2|2 ▭.b,c,
-1.a.1 | ▭.e,d 2|2 ▭.b,c,
-19.7 | c π e 2|2 d π b,
+bf π a 2|2 dk π a + b + c.

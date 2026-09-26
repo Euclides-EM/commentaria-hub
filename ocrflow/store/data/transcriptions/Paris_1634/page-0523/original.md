@@ -1,45 +1,48 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-C,64. E,96. F,144. D,216.
-A,8. G,12. H,18. B,27.
+Conuers.
+
+A,16. B,54.
+C,64. D,216.
 
 Hypoth.
 
 c & d snt nr; cub;
-a π b 2|2 c π d,
-a, est nr. cub.
+a π b 2|2 c π d.
 
 Req. π. demonstr.
 
-b, est nr. cub.
+a & b snt sml; solid;
 
 Demonstr.
 
-12.8 | ꝗntr. c & d snt 2; medi;proport; e & f,
-8.8 | ꝗntr. a & b snt 2; medi;proport; g & h,
-hyp. | a, est nr. cub.
-concl. 23.8 | b, est nr. cub.
+19.8 | ꝗntr. c & d snt 2; medi; proport;
+8.8 | ꝗntr. a & b snt 2; medi; proport;
+concl. 21.8 | a & b snt sml; solid;
 
-## THEOR. XXIV. PROPOS. XXVI.
+## SCHOL. I.
 
-Similes plani numeri rationem inter se habent, quam quadratus numerus ad quadratū numerum.
+Ex his omnibus perspicuè infertur, nullos numeros habentes proportionem superparticularem, vel superbipartientem, vel duplam, aut aliam quamcunque multiplam non denominatam à numero quadrato esse similes planos.
 
-*Les nombres plans semblables ont mesme raison entre eux, que nombre quarré à nombre quarré.*
+*De toutes ces choses il est manifeste, qu'aucuns nombres en raison superparticuliere, ou superbipartiente, ou double, ou en quelque autre raison multiple, qui ne soit denommée par quelque nombre quarré, ne sont plans semblables.*
 
-A,20. C,30. B,45.
-D,4. E,6. F,9.
+A,9. B,8.
 
-Hypoth.
+Hypoth. 1.
 
-a & b snt nr; plan; sml;
+a π b est proport. superparticul.
 
 Req. π. demonstr.
 
-a π b 2|2 nr. □. π nr. □.
+a & b n̄ snt plan; sml;
 
 Demonstr.
 
-18.8 | ꝗntr. a & b est vn. medi. proport. c
-33.7 | d,e,f snt mi. proport; ꝗn raō. a π c,
-1.c.2.8 | extrem; d & f snt nr; □;
-concl. 14.7 | a π b 2|2 d π f.
+2.d.7 | ꝗntr. a & b n̄, est nr.
+concl. 18.8. | a & b n̄ snt plan; sml;
+
+A,5. C,4. B,3.
+
+Hypoth. 2.
+
+a π b est proport. superbipart.

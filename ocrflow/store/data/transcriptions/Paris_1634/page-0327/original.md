@@ -1,35 +1,28 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-quàm secundæ posteriorum ad tertiam : Erit quoque ex æqualitate maior proportio primæ priorum ad tertiam, quàm primæ posteriorum ad tertiam.
+## THEOR. XXXIII. PROPOS. XXXIII.
 
-S'il y a trois grandeurs, & d'autres egales à icelles en nombre, & qu'il y ait plus grande raison de la premiere des premieres à la seconde, que de la premiere des dernieres à la seconde ; pareillement qu'il y ait plus grande raison de la seconde des premieres à la tierce, que de la seconde des dernieres à la tierce : En raison egale, il y aura aussi plus grande raison de la premiere des premieres à la tierce, que de la premiere des dernieres à la tierce.
+Si fuerit maior proportio totius ad totum, quàm ablati ad ablatum : Erit & reliqui ad reliquum maior proportio, quàm totius ad totum.
 
-[Figure: lignes A ; B ; C ; G ; H ; D ; E ; F]
+S'il y a plus grande raison du tout au tout, que du retranché au retranché ; il y aura aussi plus grande raison du reste au reste, que du tout au tout.
+
+[Figure: lignes A—E—B ; C—F—D]
 
 Hypoth.
 
-a π b 3|2 d π e,
-b π c 3|2 e π f.
+ab π cd 3|2 ae π cf.
 
 Req. π. demonstr.
 
-a π c 3|2 d π f.
+eb π fd 3|2 ab π cd.
 
 Demonstr.
 
-suppos. | g π c 2|2 e π f,
-hyp. | e π f 2|3 b π c,
-13.5 | g π c 2|3 b π c,
-10.5 | b 3|2 g,
-8.5 | a π g 3|2 a π b, α
-suppos. | h π g 2|2 d π e,
-α.hyp. | d π e 2|3 a π g,
-13.5 | h π g 2|3 a π g,
-10.5 | a 3|2 h, β
-22.5 | d π f 2|2 h π c,
-β.8.5 | h π c 2|3 a π c,
-concl. 13.5 | d π f 2|3 a π c.
+hyp. | ab π cd 3|2 ae π cf,
+27.5 | ab π ae 3|2 cd π cf,
+30.5 | ab π eb 2|3 cd π fd,
+concl. 27.5 | ab π cd 2|3 eb π fd.
 
-## THEOR. XXXII. PROPOS. XXXII.
+## THEOR. XXXIV. PROPOS. XXXIV.
 
-Si sint tres magnitudines, & aliæ ipsis æquales
+Si sint quotcunque magnitudines, & aliæ ipsis æquales numero, sitque maior proportio primæ priorum ad primam posteriorum, quàm secundæ ad secundam ; & hæc maior, quàm tertiæ ad tertiam ; & sic deinceps : Habebunt omnes priores simul ad omnes posteriores simul, maiorem proportionem, quàm omnes priores, relicta prima, ad omnes posteriores, relicta quoque prima ; minorem autem, quàm prima priorum ad primam posterio

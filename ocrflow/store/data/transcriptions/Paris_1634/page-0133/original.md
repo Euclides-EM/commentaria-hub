@@ -1,40 +1,52 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-lelogrammes qui sont à l'entour du diametre, sont égaux entr'eux.
+[Figure: à gauche quadrilatere ABCD, B & C en haut, A & D en bas, diagonale poinctée B—D ; l'angle E ; à droicte parallelogramme F—G—H—L en haut, F—I—K en bas, ligne H—I]
 
-[Figure: parallelogramme ABCD, A & E & B en haut, H & D à gauche, I & C à droicte, F en bas ; diametre A—C, lignes E—F & H—I se coupans en G sur le diametre]
+Req. π. fa,
 
-Hypoth.
+◊fl 2|2 abcd.
 
-abcd est ◊,
-ef == bc u ad,
-hgi == ab u dc.
+Constr.
 
-Req. π. demonstr.
-
-◊dg 2|2 ◊gb.
+1.p.1. | bd est —,
+20.d.1. | dba & dbc snt △,
+44.1. | ◊gfih 2|2 △abd, & <gfi 2|2 <e,
+44.1. | ◊hikl 2|2 △dbc,
+44.1. | <hik 2|2 <e,
+symp. | ◊fl est req.
 
 Demonstr.
 
-34.1. | △acd 2|2 △acb,
-34.1. | △agh 2|2 △age,
-34.1. | △gcf 2|2 △gci,
-concl. 3.a.1. | ◊dg 2|2 ◊gb.
+constr. | ◊gfih 2|2 △dba,
+constr. | ◊hikl 2|2 △dbc,
+1.concl. 2.a.1. | ◊fh + ◊il 2|2 abcd,
+2.concl. constr. | <f 2|2 <e,
+constr. | <hik 2|2 <e,
+1.a.1. | <hik 2|2 <f,
+1.s.29.1. | fik est —,
+s.30.1. | ghl est —,
+3.concl. 35.d.1. | fl est ◊.
 
-## PROBL. XII. PROPOS. XLIV.
+## SCHOL.
 
-Ad datam rectam lineam, dato triangulo æquale parallelogrammum applicare in dato angulo rectilineo.
+Datis duobus rectilineis inæqualibus, excessum maioris supra minus inquirere.
 
-Sur vne ligne droicte donnée, descrire vn parallelogramme égal à vn triangle donné, en vn angle rectiligne donné.
+Deux figures rectilignes estans proposées, trouuer l'excez dont la plus grande excede la plus petite.
 
-[Figure: à gauche triangle B auec base A & l'angle C ; à droicte figure D—E—I en haut, G—F—H au milieu, K—M—L en bas ; diametre K—F—I, lignes E—M & G—H se coupans en F]
+[Figure: deux figures rectilignes A & B ; à droicte rectangle C—H—F en haut, D—G—E en bas, ligne H—G]
 
 Hypoth.
 
-a est — D.
-b est △ D.
-c est < D.
+a & b snt rectilig. D.
+a 3|2 b,
 
 Req. π. fa.
 
-◊fl 2|2 △b,
+◊ghfe 2|2 a~b.
+
+Constr.
+
+<cde est arbitr.
+cd est arbitr.
+45.1. | ◊cdef 2|2 a,
+45.1. | ◊cdgh 2|2 b,

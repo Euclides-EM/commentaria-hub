@@ -1,20 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-interponitur; aliarum autem ea, quæ propinquior est minimæ, remotiore semper minor est. Duæ autem tantùm rectæ lineæ æquales ab eo puncto in ipsum circulum cadunt, ad vtrasque partes minimæ, vel maximæ.
+les à la circonference: le poinct pris est le centre du cercle.
 
-Si hors le cercle on prend quelque poinct, & d'iceluy poinct on mene quelques lignes droictes au cercle, l'vne desquelles passe par le centre, & les autres où l'on voudra: de toutes les lignes droictes qui tombent en la circonference concaue; la plus grande est celle qui passe par le centre; mais des autres, tousiours la plus proche de celle qui passe par le centre, sera plus grande que celle qui en est plus esloignée: mais de celles qui tombent à la circonference conuexe, la plus petite est celle qui est comprise entre le poinct & le diametre: Et des autres, celle-là laquelle est plus proche de la plus petite est tousiours moindre, que celle qui en est plus esloignée; & de ce poinct, seront menées au cercle tant seulement deux lignes droictes égales entr'elles de part & d'autre, de la plus petite, ou de la plus grande.
+[Figure: cercle B—C—K, A au dedans, lignes A—B, A—C, A—K]
 
 Hypoth.
 
-kbfh est ⊙,
-a, est • arbitr. extr. ⊙.
-
-Præpar.
-
-1.p.1 | aki, ah, ag, af snt —
-1.p.1 | kh, kg, kf, kc, kd, ke snt —
-23.1 | <akl 2|2 <akc,
+bck est ⊙,
+ab, ac, ak snt 2|2 ⁊e.
 
 Req. π. demonstr.
 
-ai 3|2 ah,
+• a est centr.. ⊙.
+
+Demonstr.
+
+suppos. | a, ñ est centr.. ⊙,
+7.3 | ab, ac, ak, ñ snt 2|2 ⁊e contr. hypoth.
+concl. 21.a.1 | a, est centr.. ⊙.
+
+## THEOR. IX. PROPOS. X.
+
+Circulus circulum in pluribus, quàm duobus punctis non secat.
+
+Vn cercle ne couppe pas vn cercle, à plus de deux poincts.
+
+[Figure: deux cercles s'entrecouppans, A en haut, C en bas, I, E, M, K en haut au dedans, H, D, O, N, B, F sur la ligne horizontale, G et L en bas, lignes I—K, H—F, A—C]
+
+Hypoth.
+
+iakbl & iekfl snt ⊙
+
+Req. π. demonstr.
+
+i, k, l, ñ snt intersect.
+
+Demonstr.
+
+suppos. | i, k, l snt intersect.
+1 p.1 | ik & kl snt —,
+10.1 | im 2|2 mk,
+10.1 | kn 2|2 nl,
+11.1 | mc ⊥ ik,
+11.1 | nh ⊥ kl,

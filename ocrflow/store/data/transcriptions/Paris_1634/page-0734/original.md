@@ -1,29 +1,17 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-mum in se ipsum rursus reuoluitur, vnde cæperat moueri, circumassumpta figura.
+quadrilateris, quarum, quæ ex aduerso, parallelæ sunt contenta.
 
-*mobile, le parallelogramme tourne à l'entour iusques à ce qu'il reuienne au lieu où il a commencé de mouuoir.*
+*six figures quadrilateres, desquelles les opposees sont paralleles.*
 
-## DEFINIT. XXII.
+## DEFINIT. XXXI.
 
-Axis autem cylindri,est quiescens illa recta linea, circum quam parallelogrammum conuertitur.
+Solida figura in solida figura dicitur inscribi, quando omnes anguli figuræ inscriptæ constituuntur, vel in angulis, vel in lateribus, vel denique in planis figuræ, cui inscribitur.
 
-*L'axe du cylindre est la ligne droicte immobile, à l'entour de laquelle est menee le parallelogramme.*
+*Vne figure solide est dite estre inscrite en vne figure solide,quand tous les angles de la figure inscrite sont constituez, ou aux angles, ou aux costez, ou finalemét aux plans de la figure en laquelle elle est inscrite.*
 
-## DEFINIT. XXIII.
+## DEFINIT. XXXII.
 
-Bases verò cylindri sunt circuli à duobus aduersis lateribus, quæ circumaguntur, descripti.
+Solida figura solidæ figuræ vicissim circumscribi dicitur, quando vel anguli,vel latera,vel denique plana figuræ circumscriptæ tangunt omnes angulos figuræ, circum quam describitur.
 
-*Mais les bases du cylindre sont les cercles descrits de deux costez opposez menez à l'entour.*
-
-## DEFINIT. XXIV.
-
-Similes coni & cylindri sunt,quorum & axes, & basium diametri proportionales sunt.
-
-*Cones & cylindres semblables sont ceux, desquels les axes & les diametres des bases ont mesme proportion entr'eux.*
-
-## DEFINIT. XXV.
-
-Cubus est figura solida sub sex quadratis æqualibus contenta.
-
-*Le cube est vne figure solide contenuë sous six quarrez egaux.*
+*Mais vne figure solide est dite estre circonscrite à vne figure solide, quand les angles, ou les costez, ou finalement les plans de la figure circonscrite, touchent tous les angles de la figure à l'entour de laquelle elle est descrite.*

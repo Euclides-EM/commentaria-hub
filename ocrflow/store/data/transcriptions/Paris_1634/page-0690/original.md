@@ -1,41 +1,43 @@
-<!-- Running title: ELEM.. EVCLID.. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-γ.cōstr. | l π cb, n̄, est 2|2 nr.□ π nr.□,
-4.cōcl. 7. 10 | ef, incomm. g,
-ε. cōstr. | ab π cb 2|2 □.df π □.ef,
-θ. c.19.5 | ab π ac 2|2 □.df π □.h,
-constr. | ab π ac 2|2 nr.□ π nr.□,
-5 concl. 9. 10 | df, comm. h,
-3d85. 10 | de, est apotom. 3.
+*Trouuer vn apotome ou residu sixiesme.*
 
-## PROBL. XXII. PROPOS. LXXXIX.
+Constr.
 
-Inuenire quartam apotomen.
+arbitr. | ab, est nr. n̄ □,
+arbitr. | ac & cb snt nr. pr. ꝗe,
+30. 7 | ab, est pr. π ac & cb,
+c27.8 | ab, ac, cb snt plan. dissembl. α
+arbitr. | l, est nr. □,
+arbitr. | g, est ration. expos.
+3.l.10.10 | l π ab 2|2 □.g π □.df,
+3.l.10.10 | ab π cb 2|2 □. df π □ef,
+symp. | Req. est de.
 
-*Trouuer vn apotome ou residu quatriesme.*
-
-A... 3 C...... 6 B (line)
+A..... 5 C........ 7 B (line)
+L......... 9 (line)
 G —— (line)
 D —— E —— F (line)
 H —— (line)
 
-Constr.
-
-arbitr. | ab, est nr. □,
-2s.29 10 | ac & cb, n̄ snt nr.□, α
-arbitr. | g, est ration. expos.
-2l 10.10 | df, comm. g,
-3l.10.10 | nr. ab π nr. cb 2|2 □.df π □.ef, β
-symp. | Req. est de.
-
 Præpar.
 
-6.app. | □.df 2|2 □.ef + □.h. γ
+6.app. | □.df 2|2 □.ef + □.h,
 
-ꝑ demonstr. 86. 10.
+ꝑ demonstr. 51. 10.
 
-1.concl. | de, est apotom. / ef, est congruen.
+de, est apotom.
+ef, est congruen.
+df & ef, incomm. g.
 
-Demonst.
+Demonstr.
 
-β.cōstr. | ab π cb 2|2 □.df π □.ef,
+constr. | ab π cb 2|2 □.df π □.ef,
+c 19.5 | ab π ac 2|2 □.df π □.h,
+α | ab π ac, n̄ est 2|2 nr. □ π nr. □,
+9.10 | df, incomm. h,
+concl. 6d 85.10 | de, est apotom. 6.
+
+## LEMM.
+
+hyp. | ac, est ▭ab, ad, | 10. 1 | df 2|2 fe,

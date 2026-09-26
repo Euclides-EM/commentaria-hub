@@ -1,42 +1,52 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-ma quarta; recta linea spatium potens minor est.
-
-*Si vn espace est contenu sous vne ligne rationelle & vn apotome quatriesme, la ligne droicte pouuant iceluy espace, est ligne mineure.*
-
-[Figure: labels arranged A D F G E / B C K H I]
-[Figure: labels arranged L N P / T S O / V X / Q R M]
+ꝗn figur. præced.
 
 Hypoth.
 
-ac, est ▭.ab, ad,
+ac, est ▭, ab, ad,
 ab, est ration.
-ad, est apotom. 4. α
+ad, est apotom. 6. α
 de, est congruen.
 
 Req. π. demonstr.
 
-▭ac 2|2 □. min.
+□.ac 2|2 □.—— fa. 2; med.
 
 Lemm. 91. 10. est præpar.
 
 Demonstr.
 
-l.91.10 | tr□.ts 2|2 ▭ac,
+l.91.10 | tr □.ts ▭ac,
 α. hyp. | □.ae 3|2 □.de..□. ——, incomm. ae,
-ε.l.91.10 | □.to, incomm. □.so,
-α. hyp. | ae, est ration. cōm. ab,
-20.10 | ▭ai, est ration.
-l 91.10 | □lm + □no 2|2 ▭ai,
-s.12.10 | aggreg.. □.lm + □. no, est ration.
+c.l91.10 | □.to, incomm. □.so,
+α. hyp. | ae, est ration. incomm. ab,
+
+ꝑ demonstr. 96. 10.
+
+aggreg.. □.lm + □.no, est medi.
+
 α. hyp. | de, est ration. incomm. ab.
 
 ꝑ demonstr. 94. 10.
 
 lo ▭.to, os, est medi.
 
-concl. 77. 10 | ts, est min.
+l.91.10 | aggreg.. □.to + □. so, incomm. ▭to, os,
+concl. 79. 10 | ts, est ——, fa. 2; medi;
 
-## THEOR. LXXII. PROPOS. XCVI.
+## LEMM.
 
-Si spatium contineatur sub rationali, & apotoma quinta, recta linea spatium potens, est quæ cum rationali medium totum efficit.
+[Figure: labels arranged A B C / D G M I L / E F N H K]
+
+4.app. | ▭df 2|2 □.ab, α
+4. app. | ▭dh 2|2 ▭.ac, β
+4. app. | ▭iк 2|2 □.bc, γ
+10. 1 | gm 2|2 ml,
+31. 1 | mn == gf.
+
+Req. π. demonstr.
+
+▭dk 2|2 □.ac + □.bc
+▭acb, / ▭gn, / ▭mk, snt 2|2 ꝗe,
+▭dil 2|2 □.mk.

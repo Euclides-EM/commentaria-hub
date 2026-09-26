@@ -1,40 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-1.concl. 2.s.4.d7 | vnits..nr. a snt part.. nr.b,
+ab + de part..c + f 2|2 ab part..c, u de part..f.
 
-A......5B..........10
+Demonstr.
 
-suppos. | a, msur: b,
-2.concl. 3.d.7 | a, est par..b,
+hyp. | ag,gb part..c 2|2 dh,he part..f,
+s.4.d.7 | multd..part.. ab 2|2 multd..part.. de,
+7.a.1 | ag 2|2 gb & dh 2|2 he,
+2.a.1 | ag + dh 2|2 gb + he,
+hyp. | ag par.. c 2|2 dh par.. f,
+5.7 | ag + dh par..c + f 2|2 ag par..c, u gb par..c,
+5.7 | gb + he par..c + f 2|2 gb par..c,
+concl. 2.a.7 | ab + de part.. c + f 2|2 ab part..c, u de part.. f.
 
-A......6
-A...3D...3E,B.........9
-C...3
+## THEOR. V. PROPOS. VII.
 
-suppos. | ae & b snt nr. compos.ꝫe,
-suppos. | c, est ma.c.me.. ae & b, β
-3.P.7 | c,ad,de snt 2|2 ꝫe, γ
-β.3.d.7 | c, est par.. b,
-γ.1.a.7 | ad est par.. b, δ
-γ.1.a.1 3.concl. | de est par.. b, δ
-δ | ae u a est part..b,
+Si numerus numeri pars fuerit, qualis ablatus ablati : & reliquus reliqui eadem pars erit, qualis totus totius.
 
-## THEOR. III. PROPOS. V.
+*Si vn nombre est telle partie d'vn nombre que le retranché du retranché : le reste sera telle partie du reste que le tout l'est du tout*
 
-Si numerus numeri pars fuerit, & alter alterius eadem pars : & simul vterque vtriusque simul eadem pars erit, quæ vnus vnius.
-
-*Si vn nombre est telle partie d'vn nombre, qu'vn autre l'est d'vn autre : l'vn & l'autre ensemble sera telle partie de l'vn & l'autre ensemble, qu'vn seul l'est d'vn seul.*
-
-A...3, B...3E...3F...3C
-D....4, G....4H....4L....4M
+A......5E...3B
+G......6C...........10F......6D
 
 Hypoth.
 
-a, par. bc,
-d, par. gm.
+ab par.. cd 2|2 ae par.. cf.
 
 Req. π. demonstr.
 
-a + d par. bc + gm,
-a par. bc,
-u d par. gm.
+eb par..fd 2|2 ab par..cd, u ae par.. cf.

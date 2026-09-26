@@ -1,51 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-Demonstr.
+A,3. B,9. C,36. D,45.
 
-21.d.7 | e & f snt plan; sml;
-
-A,6. B,4. C,5. D,10.
-E,24. F,50.
-
-Req. snt 2; nr; plan; dissml;
-
-arbitr. | a, b, c, d n̄, snt proport;
-3.p.7 | e 2|2 ▭.a,b,
-3.p.7 | f 2|2 ▭.c,d,
-symp. | Req. snt e & f.
+d 2|2 b + c,
+Req. snt b & c.
 
 Demonstr.
 
-ɔ.21.d.7 | e & f snt plan; disml,
+constr. | b, est nr. □. α
+constr. | b π c 2|2, 1 π 4,
+α.24.8 | c, est nr. □,
+18.5 | b + c, u d π c 2|2, 5 π 4
+concl. s.27.8 | d, n̄, est nr. □.
 
-## LEMM. I.
+A,36. B,24. C,12. D,3. E,2. F,1.
 
-Duos numeros quadratos inuenire, ita vt compositus ex ipsis quadratus etiam sit.
+Constr.. 2. req.
 
-*Trouuer deux nombres quarrez, tels que le composé d'iceux soit aussi quarré.*
+arbitr. | a, est nr. □, α
+s.27.8 | d, e, f snt nr; plan;
+dissml;
+19.a.1 | d 2|2 e + f,
+12.6 | d π e 2|2 a π b, γ
+12.6 | d π f 2|2 a π c.
 
-A F C D B (demi-cercle E)
+Req. π. demonstr.
 
-Constr.
-
-s.29.10 | ad, est 24,
-s.29.10 | db, u af, est 6,
-s.29.10 | ad & db snt nr; plan;
-sml; pa; u impa;
-13.6 | de, est 12,
-3.a.1 | df, est 18,
-7.a.1 | cd 2|2, ½fd, est 9,
-2.a.1 | ab, est 30,
-7.a.1 | ce 2|2, ½ab, est 15,
-symp. | Req. snt □.de &
-□.cd,
+b & c, n̄ snt nr; □;
 
 Demonstr.
 
-1.9 | de, est nr. ration.
-2.s1.d10 | cd & ce snt nr; ratiō;
-concl. 47.1 | □.cd + □.de | □. 2|2 ce.
+suppos. | b, est nr. □,
+α.21.7 | a & b snt plan; sml;
+26.8 | d & e snt plan; sml;
+contr. s.27.8.
+1.concl. 21.a.1 | b & c, n̄ snt nr; □;
+s.22.5 | d π e + f 2|2 a π b + c,
+constr. | d 2|2 e + f,
+2 concl. 14.5 | a 2|2 b + c.
 
-## SCHOL. II.
+## PROBL. VI. PROPOS. XXX.
 
-Facilè itaque inuenientur duo numeri quadrati quorum excessus sit quadratus, vel non quadratus numerus.
+Inuenire duas rationales potentia tantùm commensurabiles, ita vt major, quàm minor, plus possit quadrato rectæ lineæ longitudine sibi commensurabilis.
+
+*Trouuer deux lignes rationelles commensurables en puissance seulement, en sorte que la plus grande puisse plus que la moindre du quarré d'vne ligne droicte qui luy soit commensurable en longitude.*

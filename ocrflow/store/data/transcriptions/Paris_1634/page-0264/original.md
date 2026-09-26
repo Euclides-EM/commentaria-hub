@@ -1,21 +1,22 @@
-<!-- Running title: ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-cio triangulorum isoscelium, quorum anguli æquales ad basim multiplices sunt eorum qui ad verticem sunt angulorum, parium verò laterum figuræ in circulo inscribuntur, beneficio isoscelium triangulorum, quorum anguli ad basim multiplices sesquialteri sunt eorum, qui ad verticem sunt angulorum.
+1.d.5 | a, est par.. b,
+2.d.5 | b, est multipl.. a.
 
-Les figures de costez impairs sont inscrites dans le cercle par le moyen des triangles isosceles, desquels les angles égaux à la base sont multiples des angles du sommet : Mais les figures de costez pairs sont inscrites dans le cercle par le moyen des triangles dont les angles à la base sont multiples sesquialteres des angles du sommet.
+Explicatio notarum.
 
-[Figure: triangle isoscele A—B—C, le sommet en C]
+A, metitur magnitudinē B.
+A, est pars magnitudinis B.
+B, est multiplex magnitudinis A.
 
-hyp. | ca 2|2 cb,
-suppos. | <a & <b 2|2 <c,
-1.concl. 26.3 | ab est subtens.. ⅓.. ⊙,
-suppos. | <a & <b 2|2, 2<c,
-2.concl. 26.3 | ab est subtens.. ⅕.. ⊙,
-suppos. | <a & <b 2|2, 3<c,
-3.concl. 26.3 | ab est subtens.. 1/7.. ⊙,
-suppos. 4.cōcl. | <a & <b 2|2, 1½<c,
-26.3 | ab est subtens.. ¼.. ⊙,
-suppos | <a & <b 2|2, 2½<c,
-5.concl 26.3 | ab est subtens.. ⅙.. ⊙,
-suppos. 6.concl. 26.3 | <a & <b 2|2, 3½<c,
-| ab est subtens.. ⅛.. ⊙.
+Explication des notes.
+
+A, mesure la grandeur B.
+A, est partie de la grandeur B.
+B, est multiple de la grandeur A.
+
+## SCHOL.
+
+Cùm primam magnitudinem secunda & tertiam quarta æquè metiuntur, prima & tertia sunt æquè multiplices secundæ & quartæ. Et multitudo partium primæ est æqualis multitudini partium tertiæ. Et singulæ partes primæ sunt æquales secundæ, & singulæ partes tertiæ quartæ. Et contrà cùm multitudo partium æqualium primæ magnitudinis est æqualis multitudini partium æqualium tertiæ magnitudinis : quàm multiplex est prima magnitudo vnius suarum partium æqualium, tàm multiplex est & tertia magnitudo
+
+Quand la premiere grandeur par la seconde, & la troisiesme par la quatriesme sont mesurées également ; la premiere & troisiesme sont equimultiples de la seconde & quatriesme. Et la multitude des parties de la premiere est égale à la multitude des parties de la troisiesme. Et chaque partie de la premiere est égale à la seconde, & chaque partie de la troisiesme à la quatriesme. Et au contraire, quand la multitude des parties égales de la premiere grandeur est égale à la multitude des parties égales de la troisiesme grandeur, la premiere grandeur est autant multiple de l'vne de ses parties égales, que la troisiesme l'est

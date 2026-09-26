@@ -1,17 +1,25 @@
-# PROLEGOMENA.
+<!-- Running title: PROLEGOMENES. -->
 
-## De diuisione Mathematicarum disciplinarum.
+Tertius, constructionem ac vsum Canonis sinuum & logarithmorum : Geometriam practicam : Artem muniendi : Militiam : & Mechanicas.
 
-## De la diuision des Mathematiques.
+Quartus, Sphæræ mundi doctrinam : Geographiam : & Artem nauigädi.
 
-PYthagorei, qui Mathematicarum disciplinarum primi inuentores crediti sunt, earum in vniuersum quatuor partes fecerunt, nempe Arithmeticam, Geometriam, Astronomiam, & Musicam.
+Quintus, Opticam : Catoptricam : Dioptricam : Perspectiuam : Theodosij Sphæricorum lib. III. vnà cum tractatu de dimensione triangulorum Sphæricorum : Theoricam Planetarum : Gnomonicam : & Musicam.
 
-Alij subtilius, Mathematicum genus in duas species diuiserunt, Puram scilicet & Mixtam, quarü illa quantitatem ab omni materia abstractam contemplatur : & quia sunt duo genera quantitatis, nimirùm continuæ & discretæ, Mathematica pura ab obiecto diuisa est in Geometriam & Arithmeticam.
+Hæ sunt omnes Mathematicarum disciplinarum partes, quas in lucem edendas in hoc Cursu proposuimus.
 
-Mixta verò, quantitatem rebus immersam & materiæ inuolutam considerat, subdiuiditurque in Opticam, Mechanicam, Astronomiam, & Musicam.
+Le troisiesme, la construction & vsage des Tables des sinus & logarithmes : la Geometrie practique : les Fortifications : la Milice : & les Mechaniques.
 
-LES Pythagoriciens, qu'on estime estre les premiers inuenteurs des Mathematiques, les ont toutes diuisées en quatre parties, sçauoir en l'Arithmetique, la Geometrie, l'Astronomie, & la Musique.
+Le quatriesme, la Doctrine de la Sphere du monde : la Geographie : & l'Art de nauiger.
 
-D'autres diuisent plus subtilement tout le corps Mathematique en deux especes, sçauoir en Pure & Mixte, dont celle-là considere la quantité separée de toute matiere : & parce qu'il y a deux genres de quantité, sçauoir la continuë & discrete, la Mathematique pure à raison de son object est diuisée en la Geometrie & Arithmetique.
+Le cinquiesme, l'Optique : la Catoptrique : la Dioptrique : la Perspectiue : Trois liures des Spheriques de Theodose, auec vn traicté de la mesure des Triangles Spheriques : la Theorie des Planetes : la Gnomonique : & la Musique.
 
-La Mathematique mixte considere la quantité conjointe & meslée auec la matiere, & se subdiuise en l'Optique, la Mechanique, l'Astronomie & la Musique.
+Voila toutes les parties des Mathematiques, que nous esperons mettre en lumiere en ce Cours.
+
+## Diuisio Elementorum Euclidis.
+
+## Diuision des Elements d'Euclide.
+
+TOTVM hoc volumen Elementorum Geometricorum quindecim libris comprehensum (quo-
+
+TOVT ce volume des Elements Geometriques comprins en quinze liures, (dont les treize premiers sont

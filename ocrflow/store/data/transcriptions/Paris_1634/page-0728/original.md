@@ -1,17 +1,27 @@
-<!-- Running title: ELEM.. EVCLD. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-ctas omnes lineas, à quibus illa tangitur, quæque in proposito sunt plano, rectos angulos efficit.
+## DEFINIT. IX.
 
-*vn plan, quand elle faict angles droicts auec toutes les lignes droictes qui la touchent, au mesme plan proposé.*
+Similes solidæ figuræ sunt, quæ similibus planis continentur multitudine æqualibus.
 
-## DEFINIT. IV.
+*Semblables figures solides sont celles-là lesquelles sont contenues sous semblables plans, egaux en nombre.*
 
-Planum ad planum rectum est, cùm rectæ lineæ, quæ communi planorum sectioni ad rectos angulos in vno plano ducuntur, alteri plano ad rectos sunt angulos.
+## DEFINIT. X.
 
-*Vn plan est esleué perpendiculairement sur vn plan, quand toutes les lignes menees sur l'vn d'iceux plans à angles droicts à la ligne de commune section, sont à angles droicts à l'autre plan.*
+Æquales, & similes solidæ figuræ sunt,quæ similibus planis, multitudine, & magnitudine æqualibus continentur.
 
-## DEFINIT. V.
+*Egales & semblables figures solides sont celles qui sont contenuës de plans semblables,egaux en multitude & grandeur.*
 
-Rectæ lineæ ad planum inclinatio est, cùm à sublimi termino rectæ illius lineæ ad planum deducta fuerit perpendicularis, atque à puncto, quod perpendicularis in ipso plano effecerit, ad propositæ illius
+## DEFINIT. XI.
 
-*L'inclination d'vne ligne droicte à vn plan, est l'angle aigu contenu sous icelle, & vne autre ligne droicte menee sur le plan proposé, par l'extremité de l'inclinante, qui est au plan proposé, & par le poinct auquel tombe la ligne droicte*
+Solidus angulus est plurium quàm duarum linearum, quæ se mutuò contingant, nec in eadem sint superficie, ad omnes lineas inclinatio.
+
+*Angle solide est l'inclination de plus de deux lignes droictes se touchans à vn poinct n'estans en vne mesme superficie.*
+
+ALITER.
+
+Solidus angulus est,qui pluribus, quàm duobus planis angulis in eodem non consistentibus plano, sed ad vnum pun-
+
+AVTREMENT.
+
+*Angle solide est celuy qui est contenu sous plus de deux angles non constituez en vne mesme superficie, mais se rencontrans en vn*

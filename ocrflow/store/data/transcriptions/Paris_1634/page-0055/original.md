@@ -1,11 +1,11 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-ab hisce parallelis in quatuor distribuatur parallelogramma : appellantur duo illa, per quæ diameter non transit, complementa ; duo verò reliqua, per quæ diameter incedit, circa diametrum consistere dicuntur. | rallelogramme soit diuisé par icelles lignes paralleles, en quatre parallelogrammes ; les deux par où le diametre ne passe, sont appellez complements : mais les deux autres, par lesquels le diametre passe, sont dits estre à l'entour du diametre.
+### XLI.
 
-[Figure: parallelogramme ABCD, A en haut à gauche, E en haut vers la droite, B en haut à droite, H à gauche, D en bas à gauche, F et C en bas à droite, I à droite, G au milieu ; diagonale AC, ligne HI parallele au costé superieur, ligne EF parallele aux costez, se coupant en G sur la diagonale]
+Theorema est, cùm proponitur aliquid ad demonstrandum. | Theoreme est, quand on propose quelque chose à demonstrer.
 
-Parallelogramma DG & GB sunt complementa, parallelogramma verò HE & FI dicuntur consistere circa diametrum. | Les parallelogrammes DG & GB sont complements, mais les parallelogrammes HE & FI sont dits estre à l'entour du diametre.
+Finis problematis est constructio, vel inuentio : finis verò theorematis est cognitio causæ proprietatis, quæ inest propositæ quantitati. | La fin du probleme est la construction, ou l'inuention : mais la fin du theoreme, est la cognoissance de la cause de la proprieté qui se trouue en la quantité proposée.
 
-### XXXVII.
+In problemate, oppositum quæsito potest esse verum, in theoremate oppositum quæsito est semper falsum. | Au probleme, l'opposé du requis peut estre vray, au theoreme l'opposé du requis est tousiours faux.
 
-Figura regularis siue ordinata dicitur, quæ & æquilatera & æquiangula est. | La figure reguliere est, celle qui est equilatere & equiangle.
+Vt si proponatur, datam rectam lineam bifariam secare, propositiö erit problema, quia recta linea inæqualiter secari potest : Si verò proponatur, inuenire triangulum, cuius duo latera simul sumpta reliquo sint maiora, propositio, quamuis instar problematis proponatur, est theorema, cùm pars opposita non possit esse vera : cuiuscunque enim trianguli duo latera omnifariam | Comme si on proposoit, couper vne ligne droite donnée en deux parties egales, la proposition sera vn probleme, à cause qu'vne ligne droite peut estre coupée inegalement. Mais si on propose à trouuer vn triangle, duquel deux cöstez adjoustez ensemble excedent le troisiesme, la proposition, encore qu'elle soit proposee en forme de probleme, est vn theoreme, à cause que la partie opposée ne peut estre vraye : car de tout triangle, deux co-

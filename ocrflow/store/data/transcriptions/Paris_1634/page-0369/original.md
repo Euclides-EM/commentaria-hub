@@ -1,36 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-1.s.23.6 | Δabc π Δdef 2|2 ▭.ab,bc π ▭.de,ef,
-concl. 11.5 | ◇bg π ◇eh 2|2 ▭.ab,bc π ▭.de,ef.
+## PROBL. VII. PROPOS. XXV.
 
-## SCHOL. IV.
+Dato rectilineo simile similiterque positum, & alteri dato æquale idem constituere.
 
-Triangula & parallelogramma inter se proportionem habent compositam ex proportione altitudinum, & proportione basium.
+Descrire vne figure rectiligne, semblable à vne figure rectiligne donnee, laquelle soit egale à vne autre, proposee.
 
-Les triangles & les parallelogrammes sont entr'eux, en raison composee, de la raison des bases, & de la raison des hauteurs.
-
-[Figure: triangles et parallelogrammes A, G, M, L, N, H, D sur la base B, I, C, E, F, K]
+[Figure: rectiligne A, B, E, D, C auec demi-cercle A, G, H et rectangles I, L, M ; triangle F ; rectiligne P sur N—O]
 
 Hypoth.
 
-abc & def snt Δ,
-abcg & hefd snt ◇,
-ai ⊥ bc,
-dk ⊥ ek,
+abedc & f, snt D.
 
-Req. π. demonstr.
+Req. π. fa.
 
-raō.. Δabc π def 2|2 raō.. ai π dk + raō.. bc π ef.
+rectili. p, sml. rectili. abedc & 2|2 rectili. f.
 
-Præpar.
+Constr.
 
-31.1 | li 2|2 dk,
-31.1 | mln == bc,
-1.p.1 | mc est —.
+45.1 | ◇abli 2|2 abedc,
+44.1 | ◇bhml 2|2 rectili. f,
+14.1 | abh est —,
+3.p.1 | agh est semic.
+1.p.1 | lbg est —,
+3.1 | no 2|2 bg,
+18.6 | rectili. p, sml. abedc,
+symp. | req. est rectili. p.
 
 Demonstr.
 
-20.d.5 | raō.. Δabc π Δdef 2|2 raō.. Δabc π Δmbc + raō.. Δmbc π Δdef,
-s.1.6 | Δabc π Δmbc 2|2 ai π li u dk,
-1.6 | Δmbc π Δdef 2|2 bc π ef,
-1.concl. 11.5 | raō.. Δabc π Δdef 2|2 raō.. ai π dk + raō.. bc π ef, α
+10.d.1 | gb ⊥ ah,
+c.13.6 | ab π bg 2|2 bg u no π bh,
+c.20.6 | abedc π p 2|2 ab π bh,
+1.6 | ab π bh 2|2 al π bm,
+11.5 | abedc π p 2|2 al π bm,
+constr. | abedc 2|2 ◇al,
+1.concl. 14.5 | rectili. p 2|2 bm u f,
+2.concl. constr. | rectili. p, sml. abedc.

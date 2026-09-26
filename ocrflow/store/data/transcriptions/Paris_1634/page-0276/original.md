@@ -1,43 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+hyp. | e 3|2 g,
+hyp. | f 2|3 h,
+concl. 8.d.5 | a π b 3|2 c π d.
+
+Conuers.. 8. Definit. 5.
+
 hyp. | e, multipl.. a,
 | f, multipl.. c,
 hyp. | g, multipl.. b,
 | h, multipl.. d,
+hyp. | a π b 3|2 c π d,
+hyp. | e 3|2 g,
+concl. c.8.d.5 | f 2|3 h,
 
-hyp. | e, 2, 3, 4. | 3, g,
-| f, 2, 3, 4. | 3, h,
-6.d5 | a π b 2|2 c π d.
+Conuersa octauæ definitionis non concludit E, esse maiorem G, & F minorem H ; sed concedit tantùm fieri posse, E esse maiorem G, & F minorem A.
 
-Explicatio notarum.
+La conuerse de la huictiesme definition ne conclud pas que E est plus grande que G, & F moindre que H ; mais elle concede seulement, qu'il est possible que E soit plus grande que G, & F moindre que H.
 
-E & F sunt æquè multiplicia magnitudinum A & C per hypoth.
+## DEFINIT. IX.
 
-G & H sunt æquè multiplicia magnitudinum B & D per hypoth.
+Proportio autem in tribus terminis paucissimis consistit.
 
-E & F vel vnà deficiunt, vel vnà æqualia sunt, vel vnà excedunt G & H per hypoth.
+La proportion ne peut estre constituée en moins de trois termes.
 
-Igitur per sextam definitionem quinti, A est ad B vt C ad D.
+Ratio constat duobus terminis, proportio seu proportionalitas duabus rationibus ; quæ si fuerit cōtinua, erunt tres termini ; si verò non sit continua, erunt saltem quatuor termini.
 
-Explication des notes.
-
-E & F sont equimultiples des grandeurs A & C par l'hypoth.
-
-G & H sont equimultiples des grandeurs B & D par l'hypoth.
-
-E & F ou ensemble defaillent, ou ensemble sont égaux, ou ensemble excedent G & H par l'hypoth.
-
-Par consequent, par la sixiesme definition du cinquiesme, A est à B comme C à D.
-
-Conuers.. 6. Definit.
-
-E, 12. A, 4. B, 6. G, 24.
-F, 30. C, 10. D, 15. H, 60.
-
-hyp. | a πb 2|2 c πd,
-| e, multipl.. a,
-hyp. | f, multipl.. c,
-hyp. | g, multipl.. b,
-| h, multipl.. d,
-c.6.d5 | e, 2, 3, 4. | 3, g,
-| f, 2, 3, 4. | 3, h,
+La raison a deux termes, la proportion ou proportionalité deux raisons ; que si elle est cōtinüe, il y aura trois termes ; mais si elle n'est continuë, il y aura à tout le moins quatre termes.

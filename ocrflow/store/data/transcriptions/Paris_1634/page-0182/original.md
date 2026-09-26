@@ -1,43 +1,38 @@
-<!-- Running title: ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-| ▭.abf commun. add.
-2.a.1. | ▭.ac + ▭.abf u ▭.abc 2|2 ▭.af + 2▭.abf,
-7.2 | ▭.ab + ▭.bc u ▭.bf 2|2 ▭.af + 2▭.abf,
-concl. 1.a.1 | ▭.ac + ▭.abc 2|2 ▭.ab u ▭.bc.
+circulum tangat, si producatur, circulum non secat.
 
-## PROBL. II. PROPOS. XIV.
+touchant le cercle, si elle est prolongée, ne le couppe point.
 
-Dato rectilineo æquale quadratum constituere.
+2.d.3 | ab tang: ⊙fed in, e,
+2.d.3 | fg secat: ⊙fed in, d,
+2.d.3 | eb est tangen.
+2.d.3 | fg est secan.
 
-Descrire vn quarré égal à vn rectiligne donné.
+[Figure: cercle C—F—D, ligne A—E—G—B tangente en bas, ligne C—E verticale, lignes F—D et F—G]
 
-[Figure: rectiligne A à gauche, quarré M—N—L—I au milieu, demi-cercle D—H—F sur le diametre D—F, rectangle D—E—B—F dessous, G et C sur le diametre, lignes G—H, C—H]
+Explicatio notarum.
 
-Hypoth.
+AB tangit circulum FED in E.
+FG secat ⊙ FED in D.
+EB est tangens.
+FG est secans.
 
-a est rectilin. D.
+Explication des notes.
 
-Req. π. fa.
+AB touche le cercle FED en E.
+FG couppe le ⊙ FED en D.
+EB est tangente ou touchante.
+FG est secante ou couppante.
 
-▭.ml 2|2 rectilin. a,
+## DEFINIT. III.
 
-Constr.
+Circuli se mutuo tangere dicuntur, qui se mutuo tangétes sese mutuo non secant.
 
-45.1 | ▭db 2|2 rectilin. a,
-2.p.1 | dcf est —,
-3.1 | cf 2|2 cb,
-10.1 | dg 2|2 gf,
-3.p.1 | gdhf est semic.
-2.p.1 | bch est —,
-3.1 | il 2|2 ch,
-46.1 | in est ▭.il,
-symp. | ▭in est req.
+Les cercles sont dits se toucher l'vn l'autre, lesquels en se touchant l'vn l'autre, ne se couppent point.
 
-Præpar.
+[Figure: trois cercles, le premier A—C—E contenant vn petit cercle D—A—C touchant par dedans en A, le second cercle B—G—F touchant le premier en B, le troisiesme cercle G—F—H couppant le second en G et F]
 
-1.p.1 | gh est —.
+Circulus DAC tangit circulum ABE interius in A.
 
-Demonstr.
-
-constr. 3.s.1.d.2 s.5.2 s.46.1 | a, ▭.db, ▭.dcf, ▭.ch, ▭.ml, snt 2|2 ⁊e,
-concl. 1.a.1 | ▭ml 2|2 rectilin. a.
+Le cercle DAC touche le cercle ABE par dedans en A.

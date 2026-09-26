@@ -1,49 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-Req. π. demonstr.
+ma secunda; recta linea spatium potens, mediæ est apotome prima.
 
-ag, ge, ae snt cōm. ꝗe,
-aggreg.. □.to + □.so, / incomm. ▭to, os,
-to, comm. so ꝗn □.
+*Si vn espace est contenu sous vne ligne rationelle, & vn apotome second; la ligne droicte qui peut iceluy espace, est apotome du medial premier.*
 
-Demonstr.
+[Figure: labels arranged A D F G E / B C K H I]
+[Figure: labels arranged L N P / T S O / V X / Q R M]
 
-constr. | ▭age 2|2 □.fe,
-λ. 18.10 | ag, comm. ge,
-1.concl. 16. 10 | ag, ge, ae snt comm. ꝗe, μ
-к. hyp. | ae, incomm. de,
-16.10 | fe, comm. de,
-13. 10 | ae, incomm. fe,
-1. 6, & 10. 10 | ▭ai, incomm. ▭fi,
-♪ | □lm + □no 2|2 ▭ai,
-ε | ▭lo 2|2 ▭fi,
-2.concl. 10. 10 | aggreg. lm□.to + no □.so, incōm. ▭to, os,
-μ | ag, comm. ge,
-10. 10 | ▭ag, comm. ▭gi,
-3.concl. βγ10.10 | lm□.to, cōm. no □.so,
-к. hyp. | ae, incomm. de,
-θμ14.10 | fe, incomm. ge,
-1.6, & 10. 10 | ▭fi, incomm. ▭gi,
-γε10.10 | ▭lo, incomm. □.no,
-4.concl. 10. 10 | to, incomm. so.
+Hypoth.
 
-## COROLL. II.
-
-hyp. | □.ae 3|2 □.de.□.——, / incomm. de.
+ac, est ▭.ab, ad,
+ab, est ration.
+ad, est apotom. 2. α
+de, est congruen.
 
 Req. π. demonstr.
 
-ag, ge, ae snt incomm. ꝗe,
-□.to, incom. □.so.
+▭ac 2|2 □. apotom. 1.. medi.
+
+Lemm. 91. 10. est præpar.
 
 Demonstr.
 
-constr. | ▭age 2|2 □.e,
-γ. 19.10 | ag, incomm. ge,
-1.concl. 17. 10 | ag, ge, ae snt incomm. ꝗe,
-10.10 | ▭ah, incomm. ▭gi,
-2.concl. βγ10.10 | lm□.to, incomm. no□.so.
-
-## THEOR. LXVIII. PROPOS. XCII.
-
-Si spatium contineatur sub rationali, & apoto-
+l 91.10 | tr□.ts 2|2 ▭ac,
+α. hyp. | □.ae 3|2 □.de..□. ——, comm. ae,
+l. 91. 10 | ag, ge, ae snt comm. ꝗe, β
+l. 91. 10 | df, fe, de snt comm. ꝗe, γ
+α. hyp. | ae, est ration. incōm. ab, ♪
+γ.12.10 | ag, est ration. incōm. ab,
+22. 10 | ▭ah, est medi.
+constr. | □lm 2|2 ▭ah,
+24. 10 | lm□.to, est medi. ε
+β♪14 10 | ge, est ration. incōm. ab,
+22. 10 | ▭gi, est medi.
+constr. | □no 2|2 ▭gi,
+24. 10 | no□.so, est medi.

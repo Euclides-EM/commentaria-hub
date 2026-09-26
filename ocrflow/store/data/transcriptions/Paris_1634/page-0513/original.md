@@ -1,64 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-Demonstr.
+αγ. 17.7 | c π e 2|2 a π g, ε
+βγδ 17.7 | g π b 2|2 d π f, u c π e,
+1.concl. 11.5 | a π g 2|2 g π b,
+2.concl. 10.d.5 | raō.. a π b 2|2, 2;raō.. a π g, u c π e.
 
-suppos. | c, msur: d,
-14 8 | a, msur: b,
+## COROLL.
 
-contr. hypoth.
+Hinc perspicuum est, inter duos similes planos cadere vnum medium proportionalem, in ratione laterum homologorum.
 
-1.concl. 21.a.1 | c, n̄, msur: d,
+*D'icy il est manifeste, qu'entre deux plans semblables tombe vn moyen proportionel en la raison des costez homologues.*
 
-Hypoth. 2.
+## THEOR. XVII. PROPOS. XIX.
 
-c, n̄, msur: d.
+Duorum similium solidorum numerorum duo medij proportionales sunt numeri : Et solidus ad solidum triplicatam rationem habet lateris homologi ad latus homologum.
 
-Req. π. demonstr.
+*Entre deux nombres solides semblables il y a deux nombres moyens proportionaux : Et le solide est au solide en raison triplee du costé homologue au costé homologue, ou de semblable raison.*
 
-a, n̄, msur: b.
+A,30. M,60. N,120. B,240.
+I,6. L,12. K,24.
+C,2. D,3. E,5. F,4. G,6. H,10.
 
-Demonstr.
-
-suppos. | a, msur: b,
-14. 8 | c, msur: d.
-
-contr. hypoth.
-
-2.concl. 21.a.1 | a, n̄, msur: b.
-
-## THEOR. XV. PROPOS. XVII.
-
-Si cubus numerus cubum numerum non metiatur, neque latus vnius latus alterius metietur. Et si latus cubi vnius latus alterius non metiatur, neque cubus cubum metietur.
-
-*Si vn nombre cube ne mesure vn nombre cube, aussi le costé ne mesurera le costé : Et si le costé ne mesure le costé, aussi le cube ne mesurera le cube.*
-
-A,8. B,27.
-C,2. D,3.
-
-Hypoth. 1.
-
-a & b snt nr; cub;
-c, est γc.a.
-d, est γc.b,
-a, n̄, msur: b.
+hyp. | a & b snt nr; solid; sml;
 
 Req. π. demonstr.
 
-c, n̄, mesur: d.
-
-Demonstr.
-
-suppos. | c, msur: d,
-15. 8 | a, msur: b,
-
-contr. hypoth.
-
-1.concl. 21.a 1 | c, n̄, msur: d.
-
-Hypoth. 2.
-
-c, n̄, msur: d.
-
-Req. π. demonstr.
-
-a, n̄, msur: b.
+ꝗntr. a & b snt 2; medi; proport;
+raō. a π b 2|2, 3;raō. c π f, u d π g, u e π g.

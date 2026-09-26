@@ -1,48 +1,42 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-1.a.1 | ▭.ab,ac 2|2 ▭.dea + □.ae,
-35.3 | ▭.bec 2|2 ▭.dea,
-concl. 1.a.f | ▭.ab,ac 2|2 ▭ bec + □.ae.
+[Figure: demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E]
 
-## PROBL. XI. PROPOS. XIII.
+α | ▭.adf 2|2 ▭.edh,
+1.a.1 | ▭.edi 2|2 ▭.edh,
+14.6 | ed π hd 2|2 ed π id,
+14.5 | hd 2|2 id,
 
-Data base trianguli, angulo verticis, & ratione crurum, inuenient triangulum.
+contr. 9. ax. 1.
 
-Estant donnee la base d'vn triangle, l'angle du sommet, & la raison des costez qui le comprennent, trouuer le triangle.
+2.concl. 21.a.1 | bif est — & ⊥ ad. β
 
-Pappus lib. 7. propos. 155.
+Hypoth. 3.
 
-[Figure: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas ; l'angle G & les lignes L, M à part]
+aib est Δ amblygon.
+
+12.1 | die ⊥ ab,
+1&2.p.1 | aig, bgd, ad snt —,
+31.3 | ag ⊥ bd,
+31.3 | <abd 2|3 ⌐,
+1.c.17.1 | <ead 2|3 ⌐,
+1.c.17.1 | <adg 2|3 ⌐,
+3.concl. d. β | i, est inters.. perpend. de, ag & bf.
+
+## SCHOL.
+
+Commandinus ad 62. propos. lib. 7. Pappi adfert demonstrationem ostensiuam huius theorematis : sed eius demonstratio nihil probat ; quoniam non demonstrauit circulos se mutuo tangere.
+
+## THEOR. IV. PROPOS. XV.
+
+[Figure: quatre figures numerotees 1, 2, 3, 4 : cercles auec les poincts A, B, C, D & les lignes E, F, G au bas]
+
+Pappus lib. 7. propos. 107.
 
 Hypoth.
 
-bc est — D.
+abd est ⊙,
 
-g est < D.
+eb est tangen.
 
-l π m est raō. D.
-
-Req. est Δabc,
-
-<bac 2|2 <g,
-
-ab π ac 2|2 l π m.
-
-Constr.
-
-10.6 | be π ec 2|2 l π m,
-33.3 | ◠ bac capa.. <g,
-10.1 | bf 2|2 fc,
-11.1 | fd ⊥ bc,
-1&2.p.1 | dea est —,
-1.p.1 | ab & ac snt —,
-symp. | Δbac est req.
-
-Demonstr.
-
-1.concl. constr. | <bac 2|2 <g,
-30.3 | ◠bd 2|2 ◠dc,
-27.3 | <dab 2|2 <dac,
-3.6 | ab π ac 2|2 be π ec,
-constr. | l π m 2|2 be π ec,
-2.concl. 11.5 | ab π ac 2|2 l π m.
+ef π eb 2|2 eb π eg, α

@@ -1,38 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle B—C—D—A, E au centre, F sous E sur la corde A—C, lignes B—D, A—C, E—A, E—C]
+[Figure: deux cercles s'entrecouppans en B et C, E au dedans, A et D à gauche, lignes B—E et E—D—A]
 
-1.p.1 | ea, ec snt —,
+15.d.1 | ed 2|2 eb,
+15.d.1 | ea 2|2 eb,
+1.a.1 | ed 2|2 ea, contr. 9.a.1.
+concl. 21.a.1 | e ñ est centr.. ⊙ bac &.. ⊙bdc.
 
-Demonstr.
+## THEOR. V. PROPOS. VI.
 
-hyp. | af 2|2 fc,
-| fe est commun.
-15.d.1 | ae 2|2 ec,
-8.1 | <afe 2|2 <cfe,
-1.concl. 10.d.1 | ef ⊥ ac.
+Si duo circuli sese mutuò interius tangant; eorum non erit idem centrum.
 
-Hypoth. 2.
+Si deux cercles se touchent l'vn l'autre au dedans, ils n'auront pas mesme centre.
 
-ef ⊥ ac. α
+[Figure: deux cercles se touchans en B, le petit au dedans du grand, F au dedans, E à droite, A et D à gauche, C en bas à droite, lignes B—F et F—D—A]
+
+Hypoth.
+
+bac & bde snt ⊙.
 
 Req. π. demonstr.
 
-af 2|2 fc.
+f, ñ est centr.. ⊙ bac &.. ⊙bde.
 
 Demonstr.
 
-α.12.a.1 | <efa 2|2 <efc,
-5.1 | <eac 2|2 <eca,
-| ef est commun.
-2.cōcl. 26.1 | af 2|2 fc.
+suppos. | f, est centr.. ⊙bac &.. ⊙bde,
+1.p.1. | fa est —,
+15.d.1 | fd 2|2 fb,
+15.d.1 | fa 2|2 fb,
+1.a.1. | fd 2|2 fa, contr. 9.a.1.
+concl. 21.a.1 | f, ñ est centr.. ⊙bac &..⊙bde.
 
-## COROLL.
+## THEOR. VI. PROPOS. VII.
 
-Ex hac demonstratione sequitur, in quouis triangulo duorum laterum æqualium, siue æquilaterum illud sit, siue isosceles, lineam quæ ab angulo verticis ductam basim bifariam secat perpendicularem esse ad basin. Et contra lineam quæ ab angulo verticis ductam ad basin est perpendicularis, secare basin bifariam.
-
-De cette demonstration s'ensuit qu'en tout triangle isoscele ou equilateral, que la ligne menée de l'angle du sommet au milieu de la base est perpendiculaire à la base: & au contraire la ligne perpendiculaire à la base, menée de l'angle opposé, la couppera en deux également.
-
-## THEOR. III. PROPOS. IV.
-
-Si in circulo duæ rectæ lineæ sese mutuo secent non per centrum extensæ; sese mutuo bifariam non secabunt.
+Si in diametro circuli quodpiam sumatur punctum quod circuli centrum non sit, ab eoque puncto in circulum quædam rectæ lineæ cadant: Maxima

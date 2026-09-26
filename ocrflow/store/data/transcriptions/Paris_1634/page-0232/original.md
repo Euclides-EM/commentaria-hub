@@ -1,25 +1,49 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-## DEFINIT. IV.
+Demonstr.
 
-Figura verò rectilinea circa circulum describi dicitur, cùm singula latera eius, quæ circumscribitur, circuli peripheriam tangunt.
+15.d.1 | ab 2|2 ae,
+constr. | d 2|2 ae,
+concl. 1.a.1 | ab 2|2 d.
 
-Mais vne figure rectiligne est dite estre descrite à l'entour du cercle, lors que chacun costé de la circonscrite, touche la circonference du cercle.
+## PROBL. II. PROPOS. II.
 
-## DEFINIT. V.
+In dato circulo triangulum describere dato triangulo æquiangulum.
 
-Similiter & circulus in figura rectilinea inscribi dicitur, cùm circuli peripheria singula latera tangit eius figuræ, cui inscribitur.
+Dedans vn cercle donné, inscrire vn triangle equiangle à vn triangle donné.
 
-Semblablement le cercle est dit estre inscrit en vne figure rectiligne, lors que la circonference du cercle touche chacun costé de la figure en laquelle il est inscrit.
+[Figure: triangle D—E—F ; cercle A—B—C auec triangle A—B—C inscrit, ligne G—A—H tangente en haut]
 
-## DEFINIT. VI.
+Hypoth.
 
-Circulus autem circum figuram describi dicitur, cùm circuli peripheria singulos tangit eius figuræ, quam circumscribit, angulos.
+abc est ⊙ D.
+def est △ D.
 
-Mais vn cercle est dit estre descrit à l'entour d'vne figure, quand la circonference du cercle touche chacun angle de la figure à l'entour de laquelle il est descrit.
+Req. π. fa.
 
-## DEFINIT. VII.
+inscri. in ⊙abc, △ abc æquiang. △def.
 
-Recta linea in circulo accommodari, seu coa-
+Constr.
 
-Vne ligne droicte est dite estre accommodée ou adaptée
+17.3 | hg tang: ⊙acb,
+| a, est • .. contact.
+23.1 | <hac 2|2 <e,
+23.1 | <gab 2|2 <f,
+1.p.1 | bc est —,
+symp. | △abc est req.
+
+Demonstr.
+
+constr. | <hac 2|2 <e,
+constr. | <gab 2|2 <f,
+1.concl. 3.a.1 | <bac 2|2 <d,
+32.3 | <abc 2|2 <hac,
+constr. | <e 2|2 <hac,
+2.concl. 1.a.1 | <abc 2|2 <e,
+32.3 | <acb 2|2 <gab,
+constr. | <f 2|2 <gab,
+3.concl. 1.a.1 | <acb 2|2 <f.
+
+## PROBL. III. PROPOS. III.
+
+Circa datum circulum triangulum describere dato triangulo æquiangulum.

@@ -1,35 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-2.concl. α.15.5 | raō.. ◇bg π ◇hf 2|2 raō.. ai π dk + raō.. bc π ef.
+## THEOR. XIX. PROPOS. XXVI.
 
-## THEOR. XVIII. PROPOS. XXIV.
+Si à parallelogrammo parallelogrammum ablatum sit, & simile toti, & similiter positum, communem cum eo habens angulum ; hoc circum eandem cum toto diametrum consistit.
 
-In omni parallelogrammo, quæ circa diametrum sunt parallelogrāma & toti, & inter se sunt similia.
+Si d'vn parallelogramme on retranche vn parallelogramme semblable au tout, & semblablement posé, ayant vn angle commun auec le tout ; le retranché est à l'entour d'vn mesme diametre auec le tout.
 
-En tout parallelogramme, les parallelogrammes qui sont à l'entour du diametre, sont semblables à leur tout, & entr'eux.
-
-[Figure: parallelogramme A, B, C, D auec diametre A—C, points E, G, I, H, F]
+[Figure: parallelogramme A, B, C, D auec poincts I, G, E, H, F et diametre A—C]
 
 Hypoth.
 
-abcd est ◇,
-ac est diamet.
-eg & hf snt ◇.
+◇agfe, sml. ◇abcd,
+<eag est commun.
+ag homolog. ab.
 
 Req. π. demonstr.
 
-◇eg, ◇hf, ◇bd snt sml. ⁊e.
+afc est —, u diamet.
 
 Demonstr.
 
-hyp. | ef == bc,
-hyp. | gih == ab,
-15.1 | <eig 2|2 <hif,
-s.14.6 | ◇eg, ◇hf, ◇bd snt æquiang. ⁊e,
-29.1 | Δabc, Δaei, Δihc snt æquiang. ⁊e,
-29.1 | Δadc, Δagi, Δifc snt æquiang. ⁊e,
-4.6 | ae π ei 2|2 ab π bc,
-4.6 | ae π ai 2|2 ab π ac,
-4.6 | ai π ag 2|2 ac π ad,
-22.5 | ae π ag 2|2 ab π ad, &c.
-concl. 1.d.6 | ◇eg, ◇bd, ◇hf snt sml. ⁊e.
+suppos. | ahc est —, u diamet.
+31.1 | hi == ae,
+24.6 | aehi, sml. abcd,
+hyp. | aefg, sml. abcd,
+1.d.6 | ae π eh 2|2 ad π dc,
+1.d.6 | ad π dc 2|2 ae π ef,
+11.5 | ae π eh 2|2 ae π ef,
+9.5 | eh 2|2 ef,
+
+contr. 9.a.1.
+
+concl. 21.a.1 | afc est —.
+
+## THEOR. XX. PROPOS. XXVII.
+
+Omnium parallelogrammorum secundum eandem rectam lineam applicatorum deficientiumque

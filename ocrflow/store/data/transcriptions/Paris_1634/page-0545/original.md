@@ -1,34 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-A,30.
-B,2. C,3. D,5.
-E-- F--
+2.concl. β.27.7 | b + c est pr. π.a,
+δ.26.7 | b, est pr. π. d + e,
+27.7 | b, est pr. π.□.d + e,
+4.2 | □.d + e 2|2 a + c + 2b,
+27.7 | a + c + b + b, est pr. π.b,
+30.7 | a + c + b, est pr.π.b
+3.concl. 30.7 | a + c, est pr. π. b.
+
+## THEOR. XVI. PROPOS. XVI.
+
+Si duo numeri primi inter se fuerint : Non erit vt primus ad secundum, ita secundus ad alium quempiam.
+
+*Si deux nombres sont premiers entr'eux : comme le premier au second, ainsi le second ne sera pas à quelque autre.*
+
+A,3. B,5. C---
 
 Hypoth.
 
-b, c, d snt nr; pr;
-a, est mi.diuidu.. b, c, d,
-e, n̄, est b, u c, u d.
-e, est nr. pr.
+a & b snt pr; ꝫe.
 
 Req. π. demonstr.
 
-e, n̄, msur: a.
+a,b,c n̄ snt proport;
 
 Demonstr.
 
-suppos. | e, msur: a ꝑ f, β
-9.a.7 | a 2|2 ▭.e,f,
-32.7 | b, c, d, msur: e u f,
-α.11.d.7 | b, u c, u d, n̄, msur: e,
-32.7 | b, c, d, msur: f, γ
-β.8.a.8 | f, msur: a ꝑ e,
-9.a β | f 2|3 a,
-concl. γ | a, n̄, est mi. diuidu.
-contr. hyp.
+suppos. | a π b 2|2 b π c,
+23.7 | a & b snt term. raō.
+21.7 | a, msur: b,
+6.a.7 | a, msur: a,
+12.d.7 | a & b n̄ snt pr; ꝫe.
+contr. hypoth.
+21.a.1 | b,n̄,est π c 2|2 a π b.
 
-## SCHOL.
+## THEOR. XVII. PROPOS. XVII.
 
-Quamuis Theon in sequente theoremate quædam assumat in numeris quæ demonstrata sunt de lineis libro secundo, nihilominus nonnulli Interpretes hic demonstrant de numeris decem priora theoremata libri secundi. Sed inutile mihi videtur illa decem theoremata hic repetere, & demonstrare de numeris : cùm præsertim concesso primo scholio definitionis primæ secundi libri, tanquam per se perspicuum, demonstrationes illic de lineis exhibitæ non minus concludant de numeris quàm de lineis : firmiusque inhæreant memoriæ, quàm demonstrationes numerorum, quæ sola ratiocinatione constant, nulliusque figuræ
-
-*Encore que Theon au theoreme suiuant concede és nombres quelques theoremes, qui ont esté demonstrez par lignes au second liure : neantmoins quelques Interpretes demonstrent icy en nombres les dix premieres propositions du second liure. Mais il me semble inutil de repeter icy ces dix theoremes, & les demonstrer en nombres, veu que le premier scholie de la premiere definition du second liure estant concedé, comme chose tres-manifeste, ces dix demonstrations du second liure ne concluent pas moins en nombres qu'en lignes, & aussi qu'elles sont plus faciles à retenir par cœur, que les demonstrations des nombres, qui ne consistent qu'en ratiocination, & ne donnent point les especes d'au-*
+Si fuerint quotcunque numeri deinceps proportionales, extremi autem ipsorum primi inter se sint : non erit vt primus ad secundum, ita vltimus ad alium quempiam.

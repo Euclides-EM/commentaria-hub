@@ -1,30 +1,32 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
+### I. a. f.
+
+Permutatio æqualium non immutat æqualitatem. | Le changement des choses egales n'oste pas l'egalité.
+
+[Figure: lignes A et C longues en haut, lignes B et D courtes au dessous]
+
+hyp. | a + b 2|2 c + d.
+hyp. | b 2|2 d.
+1.a.f. | a + d 2|2 c + b.
+
+### I. a. g.
+
+Interpretatio non immutat æqualitatem. | L'interpretation ne change point l'egalité.
+
+[Figure: deux quarrez auec diagonales, ABFE à gauche, diagonale de E à B ; CDGH à droite, diagonale de H à D]
+
+hyp. | □af 2|2 □cg.
+hyp. | af est □.ab.
+hyp. | cg est □.cd.
+1.a.g. | □.ab 2|2 □.cd.
+
 Explicatio notarum. | Explication des notes.
 
-AB est æqualis EF per hypothesim. | AB est egal EF par l'hypothese.
+Quadratum AF est æquale quadrato CG, per hyp. | Le quarré AF est egal au quarré CG, par l'hyp.
 
-CD est æqualis EF per hypothesim. | CD est egal EF par l'hypothese.
+AF est quadratum lateris AB, per hyp. | AF est le quarré de AB, par l'hyp.
 
-AB est æqualis CD per primum axioma libri primi. | AB est egal CD par le premier axiome du premier liure.
+CG est quadratum lateris CD, per hyp. | CG est le quarré de CD, par l'hyp.
 
-### I. a. b.
-
-Quæ æqualibus sunt æqualia, & inter se sunt æqualia. | Les choses egales aux choses egales, sont außi egales entr'elles.
-
-[Figure: quatre lignes droictes horizontales, A et C en haut, B et D au dessous]
-
-hyp. | c 2|2 d.
-hyp. | a 2|2 c.
-hyp. | b 2|2 d.
-1.a.b | a 2|2 b.
-
-### I. a. c.
-
-Et quod vno æqualium maius est, aut minus ; maius quoque est, aut minus altero æqualium. | Et ce qui est plus grand ou plus petit que l'vn des egaux, est außi plus grand ou plus petit que l'autre des égaux.
-
-[Figure: ligne A plus longue à gauche, lignes B et C plus courtes à droite l'vne sur l'autre]
-
-hyp. | b 2|2 c.
-hyp. | a 3|2 b.
-1.a.c | a 3|2 c.
+Quadratum lateris AB est æquale quadrato lateris CD, per primü axioma G. | Le quarré de AB est egal au quarré de CD, par le premier axiome G.

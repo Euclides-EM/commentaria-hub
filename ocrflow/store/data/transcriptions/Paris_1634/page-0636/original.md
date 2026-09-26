@@ -1,31 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-s.12.10 | ▭.aeb ∼ ▭.adb, est ration.
-α | contr. 27.10.
+## Definitiones secundæ.
 
-## THEOR. XXXV. PROPOS. XLVII.
+*Secondes definitions.*
 
-Rationale ac medium potens, ad vnum duntaxat punctum diuiditur in nomina.
+Ex posita rationali, & quæ ex binis nominibus, diuisa in nomina, cuius majus nomen plus possit quam minus, quadrato rectæ lineæ sibi longitudine commensurabilis.
 
-*La ligne pouuant vn rationel & vn medial, est diuisee en ses noms, à vn poinct seulement.*
+*Vne ligne rationelle estant exposee, & le binome diuisé en ses noms : duquel le plus grand nom puisse plus que le moindre, du quarré d'vne ligne droicte qui luy est commensurable en longitude.*
 
-Hypoth.
+## I.
 
-ab, est rat. & medi. p.
-ad & db snt nom.
-Req. π. demonstr.
-ae & eb, n̄, snt nom;
+Si quidem maius nomen expositæ Rationali commensurabile sit longitudine, vocetur tota ex binis nominibus prima.
 
-A F E D B (line)
+*Si le plus grand nom est commensurable en longitude à la Rationelle exposée, la toute soit appellée binome premier.*
 
-Demonstr.
+## II.
 
-suppos. | ae & eb snt nom;
-41.10 | aggreg.. □.ad + □.db, est medi. α
-41.10 | aggreg.. □.ae + □.eb, est medi. α
-41.10 | ▭.adb & ▭.aeb snt ration;
-s.12.10 | 2▭.adb & 2▭.aeb snt ration;
-s.27.10 | 2▭.aeb ∼ 2▭.adb, est ration.
-c.17.ap. | 2▭.aeb / ∼ 2▭.adb / 2|2 □.ad + □.db ∼ □.ae ∼ □.eb,
-s12.10 | □.ad + □.db ∼ □.ae ∼ □.eb, est ration.
-α | contr. 27.10.
+Si vero maius nomen expositæ Rationali longitudine sit commensurabile; vocetur ex binis nominibus secunda.
+
+*Mais si le moindre nom est commensurable en longitude à la Rationelle exposée, soit appellee binome second.*
+
+## III.
+
+Quod si neutrum ipsorum nominum sit longitudine commensurabile expositæ Rationali, vocetur ex binis nominibus tertia.
+
+*Que si l'vne ne l'autre d'iceux noms n'est commensurable en longitude à la Rationelle exposée, soit appellée binome troisiesme.*
+
+Rursus si maius nomen plus possit quam minus, quadrato rectæ lineæ, sibi longitudine incommensurabilis.
+
+*Derechef si le grand nom peut plus que le moindre, du quarré d'vne ligne droicte, qui luy soit incommensurable en longitude.*
+
+## IV.
+
+Si quidem maius nomen
+
+*Si le plus grand nom est*

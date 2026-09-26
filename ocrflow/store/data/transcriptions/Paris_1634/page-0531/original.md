@@ -1,49 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-8.8 | ꝗntr. d & c snt 2; medi;proport;
-3.9 | d, est nr. cub.
-concl. 23.8 | c, est nr. cub.
+*Si depuis l'vnité tant de nombres qu'on voudra sont continuellemēt proportionaux, le troisiesme depuis l'vnité est quarré, & tous les autres qui en laissent vn : mais le quatriesme est cube, & tous les autres qui en laissent deux, & le septiesme est cube & quarré ensemble, & tous les autres qui en laissent cinq.*
 
-## THEOR. V. PROPOS. V.
-
-Si cubus numerus numerum quendam multiplicans faciat cubum; & multiplicatus cubus erit.
-
-*Si vn nombre cube multipliant quelque autre nombre, produit vn cube; le multiplié sera aussi cube.*
-
-A,8. B,27.
-D,64. C,216.
+H,1. A,3. B,9. C,27. D,81. E,243. F,729. G,2187.
 
 Hypoth.
 
-a & c snt nr; cub;
-c, est ▭.a,b. α
+h,a,b,c,d,e,f,g snt contin. proport;
 
 Req. π. demonstr.
 
-b, est nr. cub.
-
-Præpar.
-
-d, est □.a. β
+3.5.7.9. &c. snt nr; □;
+4.7.10. &c. snt nr; cub;
+7.13.19. &c. snt nr; qc;
 
 Demonstr.
 
-αβ.17.7 | a π b 2|2 d π c,
-3.9 & hyp. | d & c snt nr; cub;
-12.8 | ꝗntr. d & c snt 2; medi; proport;
-8.8 | ꝗntr. a & b snt 2; medi; proport;
-hyp. | a, est nr. cub.
-concl. 23.8 | b, est nr. cub.
-
-## THEOR. VI. PROPOS. VI.
-
-Si numerus seipsum multiplicans cubum faciat: & ipse cubus erit.
-
-*Si vn nombre se multipliant soy-mesme, faict vn cube, iceluy sera aussi cube.*
-
-Hypoth.
-
-b, est nr. cub.
-b, est □.a.
-
-Req. π. demonstr.
+hyp. | h π a 2|2 a π b,
+5.a.7 | h, msur: a ꝑ a,
+3c20.d7 | a, msur: b ꝑ a,
+9.a.7 | b 2|2 □.a, α
+18.d.7 | b, est nr. □, β
+hyp. | b, c, d snt contin; proport;
+β | b, est nr. □,
+12.8 | d, est nr. □, γ
+1.concl. d. γ | 7.9.11. &c. snt nr; □; ε
+hyp. | h π a 2|2 b π c,
+5.a.7 | h, msur: a ꝑ a,
+3c20.d7 | b, msur: c ꝑ a,
+9.a.7 | c 2|2 ▭.a,b,
+α | b est □.a,
+19.d.7 | c, est nr. cub.
+hyp. | c,d,e,f snt contin. proport;
+23.8 | f, est nr. cub. κ
+d κ | 10.13.16. &c. snt nr; cub;
+d. εκ | 7.13.19. &c. snt nr; qc;

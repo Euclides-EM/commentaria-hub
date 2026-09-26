@@ -1,19 +1,34 @@
-<!-- Running title: ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID LI. XII. -->
 
-[Figure: labels arranged G R / H F S Q / I K T V / A L / M / B E P / C D N O]
+quarum bases plura latera, quam tria continent, habere proportionem laterum homologorum triplicatam.
 
-α | prism. nq 2|2, 3; pyram. mnoplſ,
-hyp. | alt.. prism. bf 2|2 alt.. prism. nq,
-6. 12 | abcde π lmnop 2|2 abcdeh π lmnopſ,
-15. 5 | prism. bf π prism. nq 2|2 abcdeh π lmnopſ,
-concl. 11. 5 | abcde π lmnop 2|2 prism. bf π prism. nq.
+*Il est außi manifeste, que les pyramides semblables, dont les bases ont plus de trois costez, sont en raison triplee de leurs costez homologues.*
 
-## SCHOL. II.
+Hypoth.
 
-Hinc sequitur si iuxta tertium lemma propos. primæ huius libri adscribatur circulo polygonum intelligatúrque super illud polygonum, sub altitudine dati cylindri vel coni, erectum prisma, vel pyramis: solida comprehēsa inter superficiem concauam vel conuexam cylindri vel coni, & superficiem prismatis vel pyramidis, fore tandem minora quocunque dato solido.
+abcdef & ghiklm ſnt pyram. ſml; ꝗe.
 
-*D'icy il s'ensuit que si on descrit en vn cercle ou à l'entour d'vn cercle vn polygone, selon la methode du troisiesme lēme de ce liure, & que sur ce polygone soit esleué vn prisme ou pyramide de la hauteur du cylindre ou cone proposé, les solides cōpris entre la superficie du cylindre ou du cosne, & la superficie du prisme ou pyramide, seront en fin moindres que quelconque solide donné.*
+Req. π. demonstr.
 
-## THEOR. VIII. PROPOS. VIII.
+raō. abcdef π ghiklm 2|2, 3; raō; fa π mg.
 
-Similes pyramides, quæ triangulares habent
+Præpar.
+
+1. p. 1 | ac, ad, gi, gk ſnt ——.
+
+Demonstr.
+
+hyp. | abcde ſml. ghikl,
+20. 6 | △abc, ſml. △ghi, △acd, ſml. △giк, △ade, ſml △gкl,
+hyp. | △abf ſml. △ghm, △bcf ſml. △him, △dcf ſml. △iкm, △aef ſml. △glm, △edf ſml. △lкm,
+1. d. 6 | fa π ab 2|2 mg π gh,
+1. d. 6 | ab π ac 2|2 gh π gi,
+22. 5 | fa π ac 2|2 mg π gi,
+1. d. 6 | ac π cb 2|2 gi π ih,
+1. d. 6 | cb π cf 2|2 ih π im,
+22. 5 | ac π cf 2|2 gi π im,
+22. 5 | fa π fc 2|2 mg π mi,
+4. 6 | △fac ſml. △mgi,
+9. d. 11 | piram. abcf ſml. piram. ghim, α
+
+[Figure: labels arranged F M / E L / A D G K / B C N I]

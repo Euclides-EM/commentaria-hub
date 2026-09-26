@@ -1,17 +1,42 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-V,1.
-A,2. B,3.
-C,4. D,6. E,9.
-F,8. G,12. H,18. K,27.
-L,16. M,24. N,36. P,54. Q,81.
+constr. | k,l,m,n snt mi. ꝗn raō. e π f,
+hyp. | a, b, c, d snt mi. ꝗn raō. e π f,
+22.a.1 | a 2|2 k, b 2|2 l, c 2|2 m, d 2|2 n,
+2.c.2.8 | k & n snt pr. ꝫe,
+concl. 1.a.7 | a & d snt pr. ꝫe.
 
-## COROLL. IV.
+## PROBL. III. PROPOS. IV.
 
-Perspicuum quoque est ex constructione, series numerorum V, A, C, F, L. V, B, E, K, Q. L, M, N, P, Q. constare æquali multitudine numerorum, ac proinde extremos numeros quotcunque minimorum continuè proportionalium, esse vltimos totidem continuè proportionalium ab vnitate : vt extremi L & Q, continuè proportionalium L, M, N, P, Q. sunt vltimi totidem proportionalium ab vnitate : V, A, C, F, L. & V, B, E, K, Q.
+Rationibus datis quotcunque in minimis numeris, reperire numeros deinceps minimos in datis rationibus.
 
-*Il appert aussi de la construction, que les suittes des nombres V, A, C, F, L. V, B, E, K, Q. L, M, N, P, Q. sont egales en multitudes, & par consequent que les extremes de tant de proportionelles qu'on voudra, des plus petits continuellement proportionaux, sont les derniers, d'autant d'autres continuellement proportionaux depuis l'vnité, comme les extremes L & Q. des continuellement proportionaux L, M, N, P, Q. sont les derniers d'autant d'autres continuellement proportionaux depuis l'vnité : V, A, C, F, L. & V, B, E, K, Q.*
+*Estant donnees tant de raisons qu'on voudra és plus petits nombres d'icelles, trouuer tant de nombres qu'on voudra continuellement proportionaux les plus petits selon les raisons donnees.*
 
-## COROLL. V.
+A,6. B,5. C,4. D,3.
+H,4. F,24. E,20 G,15.
+I-- K-- L--
 
-Constat etiam numeros seriei V, A, C, F, L, & aliarum illi æquidistantium, quales sunt B, D, G, M. E, H, N, & K, P, esse quoque continuè proportionales in ratione V, ad A, numeros verò seriei, V, B, E, K, Q, & aliarum illi æquidistantium quales sunt A, D, H, P. C, G, N. & FM. esse quoque continuè proportionales in ratione V ad B.
+Hypoth. 1.
+
+a π b, c π d snt term.. raō; D;
+
+Req. snt f, e, g, mi. nr; ꝗn raō; D;
+
+Constr.
+
+36.7 | e, est mi.diuid.. b & c
+3.p.7 | b, msur: e, α
+a, msur: f,
+3.p.7 | c, msur: e,
+d, msur: g,
+symp. | f, e, g snt nr. req.
+
+Demonstr.
+
+suppos. | a, msur: f ꝑ h,
+α | b, msur: e ꝑ h,
+9.a.7 | ▭.ah 2|2 f,
+9.a.7 | ▭.bh 2|2 e,
+1.concl. 18.7 | a π b 2|2 f π e, β
+2.concl. d.β | c π d 2|2 e π g,
+suppos. | i,k,l snt mi. ꝗn raō; D

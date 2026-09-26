@@ -1,32 +1,23 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Figure: lignes A et B courtes à gauche, ligne C longue à droite]
+### 10. a. 1.
 
-hyp. | a 2|2 ½c.
-hyp. | b 2|2 ½c.
-7.a.1. | a 2|2 b.
+Duæ rectæ lineæ non habent vnum & idem segmentum commune. | Deux lignes droictes n'ont pas vn mesme segment commun.
 
-### 7. a. b.
+[Figure: ligne A—B—C horizontale, point G au dessus de A, ligne GB rejoignant B]
 
-Dimidium maioris maius est dimidio minoris. | La moitié du plus grand excede la moitié du plus petit.
+hyp. | abc est —.
+10.a.1. | gbc ñ est —.
 
-[Figure: lignes A et B à gauche, lignes C et D à droite]
+Explicat.. not;
 
-hyp. | c 3|2 d.
-hyp. | a 2|2 ½c.
-hyp. | b 2|2 ½d.
-7.a.b. | a 3|2 b.
+AB & BC sunt in directum positæ, per hyp. | AB & BC sont constituez directement, par l'hyp.
+Igitur GB & BC non sunt in directum positæ, id est non constituunt vnam rectam lineam, per 10.a.1. | Partant GB & BC ne sont pas constituez directement, c'est à dire qu'ils ne font pas vne ligne droite, par le 10.ax. du 1.
 
-### 7. a. c.
+### 11. a. 1.
 
-Et quod vnius æqualium dimidium est, alterius quoque æqualiü est dimidium. | Et ce qui est moitié de l'vn des egaux, est außi moitié de l'autre des egaux.
+Duæ rectæ in vno puncto concurrentes, si producantur ambæ, necessariò se mutuò in eo puncto intersecabunt. | Deux lignes droictes se rencontrant à vn poinct, si elles sont toutes deux prolongees, elles s'entrecouperöt necessairement au mesme poinct.
 
-[Figure: ligne A courte à gauche, lignes B et C longues à droite]
+### 12. a. 1.
 
-hyp. | b 2|2 c.
-hyp. | a 2|2 ½b.
-7.a.c. | a 2|2 ½c.
-
-### 7. a. d.
-
-Et si vnum æqualium dimidium est cuiuspiam magnitudinis, alterum quoque æqualium dimidium est eiusdem magnitudinis. | Et si l'vn des egaux est moitié de quelque grandeur, l'autre des egaux sera außi moitié de la mesme grandeur.
+Item omnes anguli recti sunt inter se æquales. | Tous les angles droicts sont egaux entr'eux.

@@ -1,24 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
-## THEOR. IV. PROPOS. IV.
+Præpar.
 
-Si ex centro circuli triangulum icosaedri circumscribentis, perpendicularis ducatur ad vnum latus trianguli; erit quod sub dicto latere, & perpendiculari comprehenditur rectangulum trigesies sumptum, icosaedri superficiei æquale.
+ſuppoſ. | eabcd, eſt ⊙ cirſcri. 5<.. docaedr. & △.. icoſaedr. α
+c. 15. 4 | ∩abcd 2|2, ⅓.. ⊙,
+11. 4 | ∩bcd 2|2, ⅓.. ⊙,
+1. p. 1 | ad & bd ſnt ——,
+α | ad, eſt γ. icoſaedr.
+12. 1 | ef ⊥ ad,
+12. 1 | egc ⊥ bd,
+1. p. 1 | cd, eſt ——,
+c.10.13 | ∩bc 2|2 ∩cd,
+ſuppoſ | h, eſt γ.. extraedr. inſcri. ꝗn ſphær.
 
-*Si du centre du cercle circonscrit à l'entour du pentagone du dodecaedre, est menee vne ligne droicte perpendiculaire à vn costé d'iceluy pentagone; trente fois le rectangle contenu sous ledit costé & la perpendiculaire, sera egal à la superficie du dodecaedre.*
-
-Hypoth.
-abcde, eſt 5<.. dodecaedr.
-fabd, eſt ⊙ circſcri.
-fa, fb, fc, fd, fe ſnt ——;
-fg ⊥ cd.
+[Figure: labels arranged E / A F G D / B C — H]
 
 Req. π. demonſtr.
-30▭. cd, fg 2|2 ſuperfic. dodecaedr.
+h π ad 2|2 ſuperfic.. dodecaedr. π ſuperfic.. icoſaedr.
 
 Demonſtr.
 
-c. 8. 1 | cfd, dfe, efa, afb, bfc ſnt △; 2|2 ꝗe,
-41. 1 | ▭.cd, fg 2|2, 2△cfd,
-15. 5 | 30▭.cd, fg 2|2, 60△cfd,
-6. a. 1 | 60△cfd 2|2, 12 pentag; abcde,
-17. 13 | 12 pentagon; abcde 2|2 ſuperfic. dodecaedr.
+9. 13 | ec + cd π ec 2|2 ec π cd,
+c.12.13 | ef 2|2, ½ ec, eg 2|2, ½ ec + cd,
+1. 14 / 15. 5 | eg π ef 2|2 ef π eg~ef,
+c. 17.13 | h π bd 2|2 bd π h~bd,
+2. 14 | h π bd 2|2 eg π ef,
+16. 6 | □.h, ef 2|2 □.bd, eg,
+1. 6 | h π ad 2|2 □.h, ef π □.ad, ef,
+7. 5 | h π ad 2|2 □.bd, eg π □.ad, ef,
+c.4.14 | □.bd, eg π □.ad, ef, / ſuperfic.. dodecaedr. π ſuperfic.. icoſaedr.
+concl. 11. 5 | h π ad 2|2 ſuperfic..dodecaedr. π ſuperfic.icoſaedr.

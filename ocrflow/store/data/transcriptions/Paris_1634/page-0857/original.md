@@ -1,29 +1,11 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-αβγ | □.bf, eſt 4, □.be, eſt 3, □.af, eſt 2,
-15. 6 | ab π ad 2|2 □.ab π □.af, / 3 π 1 6 π 2
-ſ.12.10 9. 10 | bf, be, af ſnt ration; comm; ꝗn □,
-conſtr. c. 8. 6 | 3ad 2|2 ab, 3□.af 2|2 □.ab,
-ε | 5□.кl, Ⅱ 5□.кi 2|2 □.ab,
-1. a. 1 | 3□.af 2|2 5□.кl, θ
-conſtr. | ao 3|2 of,
-1. 6 | ▭.af,ao 3|2 ▭.af,of,
-4. a. 1 | ▭.af, ao + ▭.af, of 3|2, 2▭.af, of,
-1. 2 | □.af 2|2 ▭.af, ao + ▭.af, of,
-17. 6 | 2□.ao 2|2, 2▭.af, of,
-1.a.f | □.af 3|2, 2□.ao,
-θ. 15.5 | 3□.af, Ⅱ 5□.кl 3|2, 6□.ao,
-ſ.46.1 4. a. c | кl 3|2 ao, al 3|2 ao.
+lis, solidus angulus constabit. | *quatre tels angles.*
 
-Explicat. ꝑ nr;
+Ex tribus denique pentagonis æquilateris, & æquiangulis, dodecaedri angulus componitur. | *L'angle du dodecaedre est contenu de trois pentagones equilateres & equiangles.*
 
-arbitr. | □.ab, eſt 60,
-13. 13 | □.bf, eſt 40,
-14. 13 | □.be, eſt 30,
-15. 13 | □.af, eſt 20,
-16. 13 | □.al, eſt 30 ~ γ.180,
-17. 13 | □.ao, eſt 30 ~ γ.500.
+Sed ex quatuor huiusmodi angulis, nullus solidus angulus confici potest. Cùm enim vnus, maior est recto, erunt quatuor maiores quatuor rectis. Quare nullus angulus solidus ex ipsis cōstituetur; ac propterea multò minus ex pluribus, quā quatuor eiusmodi angulis, solidus angulus constabit. Nec sanè ex aliis figuris æquilateris, & æquiangulis cōstitui poterit angulus solidus. Nam cùm sex anguli hexagoni æquales sint octo rectis; ac proinde vnus angulus contineat vnū rectum, ac præterea tertiam partem vnius recti; continebunt tres anguli eiusmodi quatuor rectos; quare ex ipsis nullo modo componetur angulus solidus; atque idcirco multò minus ex pluribus eiusmodi angulis quam tribus, angulus solidus conficietur; neque propterea ex aliis polygonis. | *Mais de quatre angles du pentagone il ne se peut faire aucun angle solide, car chacun d'iceux estant plus grand que le droict, quatre ensemble seront plus grands que quatre droicts; & par consequent ils ne pourront constituer aucun angle solide. Pour la mesme raison vn angle solide ne pourra estre constitué de plus de quatre tels angles: on ne pourra außi constituer aucun angle solide d'angles plans d'autres figures; car six angles de l'hexagone estant egaux à huict droicts vn chacun d'iceux contiendra vn droict, & le tiers d'vn droict, & par consequent les trois vaudront quatre droicts; partant il ne s'en pourra faire aucun angle solide d'iceux; à plus forte raison il ne s'en fera point de plus de trois tels angles; pour les mesmes raisons il ne s'en fera point d'autres polygones.*
 
-## SCHOL.
+Quamobrem perspicuum est, præter dictas quinque figuras, aliam figuram solidam non posse constitui, quæ planis æquilateris, & æquiangulis inter se æqualibus contineatur. | *Donc il est manifeste qu'outre les figures desia dites, aucune autre figure solide contenuë de figures equilateres & equiangles egales entre elles ne peut estre constituee.*
 
-Præter dictas quinque figuras, non posse aliam constitui figuram solidam, quæ planis & æquilateris & æquiangulis contineatur inter se æqualibus hac ratione demonstratur. | *On demonstrera comme s'ensuit, qu'outre les cinq figures desia dittes, on ne peut constituer d'autre figure, laquelle soit contenuë des figures equilateres & equiangles egales entr'elles.*
+VT AVTEM innotescat nu- | *POVR trouuer le nombre des*

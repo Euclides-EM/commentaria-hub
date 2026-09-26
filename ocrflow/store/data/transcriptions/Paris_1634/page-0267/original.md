@@ -1,34 +1,49 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-vnius suarum partium æqualium.
+sunt inter se æquales ; & rationes quarum quantitates sunt æquales, dicuntur eædem seu æquales inter se.
 
-multiple de l'vne de ses parties égales.
+les entr'elles ; & les raisons dōt les denominateurs ou quantitez sont égales, se disent estre de mesme ou égales entr'elles.
 
-A, 12. B, 4. C, 15. D, 5.
+A, 15. B, 5. E, 3. C, 6. D, 2. F, 3.
 
-hyp. | b msur: a,
-| d msur: c,
-s.2.d.5 | multd.. part.. a, 2|2, multd.. part.. c,
-s.2.d.5 | vn. par.. a 2|2 b,
-s.2.d.5 | vn. par.. c 2|2 d.
-
-Vel sic, Où ainsi.
-
-hyp. | b msur: a 2|2 d, msur: c,
-s.2.d.5 | multd.. part.. a 2|2 multd.. part.. c,
-s.2.d.5 | vn. par.. a 2|2 b,
-s.2.d.5 | vn. par.. c 2|2 d.
+hyp. | raō. aπb 2|2 raō. cπd.
+hyp. | b, msur: a, p̄, e.
+hyp. | d, msur: c, p̄, f.
+2.s3.d5. | e 2|2 f.
 
 Explicatio notarum.
 
-B & D metiuntur æque A & C, igitur multitudo partium A est æqualis multitudini partium C : & vna pars magnitudinis A, est æqualis magnitudini B.
+Ratio A ad B est æqualis rationi C ad D.
+B, metitur A, per E.
+D, metitur C per F.
+Igitur E est æqualis F.
 
 Explication des notes.
 
-B & D mesurent également A & C, par consequent la multitude des parties de A est égale à la multitude des parties de C : & vne partie de la grandeur A est égale à la grandeur B.
+La raison de A à B est égale à la raison de C à D.
+B, mesure A, par E.
+D, mesure C, par F.
+Donc E est egal à F.
 
-## DEFINIT. III.
+## DEFINIT. IV.
 
-Ratio est duarum magnitudinum eiusdem generis mutua quædam, secundum quantitatem habitudo.
+Proportio verò est rationum similitudo.
 
-Raison est vne habitude de deux grandeurs de mesme genre, comparées l'vne à l'autre selon la quantité.
+Mais proportion est vne similitude de raisons.
+
+A 4. B 6, C 10. D 15.
+
+hypoth. | a π b,
+| c π d,
+
+Vel sic. Où ainsi.
+
+hyp. | a πb 2|2 c πd.
+
+Explicatio notarum.
+
+A ad B est vt C ad D.
+
+Explication des notes.
+
+A à B est comme C à D.

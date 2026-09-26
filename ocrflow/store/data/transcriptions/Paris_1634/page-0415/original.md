@@ -1,47 +1,38 @@
-<!-- Running title: APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM. PLAN. -->
 
-29.1 | Δagb, Δheb, Δhfa snt æquiang.
-4.6 | ag π gb 2|2 hf π fa,
-4.6 | gb π gk 2|2 lf π fh,
-23.5 | ag π gk 2|2 lf π fa, ε
-α.1.6 | □.ag π ▭.agk u ▭.bgc 2|2 ag π gk u lf π fa,
-β.1.6 | ▭.lfa u ▭.dfh π □.fa 2|2 lf π fa,
-concl. 11.5 | □.ag π ▭.bgc 2|2 ▭.dfh π fa.
+α.4.6 | raō..ce π ed 2|2 raō..ac π dg,
+11.5 | raō..□.ac π □.ad 2|2 raō..cb π bd + raō..ce π ed,
+23.6 | raō..▭.bce π ▭.bde 2|2 raō..bc π bd + raō..ce π ed,
+concl. 11.5 | ▭.bce π ▭.bde 2|2 □.ac π □.ad.
 
-## THEOR. XVII. PROPOS. XXVIII.
+## THEOR. XIX. PROPOS. XXX.
 
-Pappus lib. 7. propos. 28.
+Pappus lib. 6. propos. 12.
 
-[Figure: cercle auec les poincts G, F, A, B, D, E, C]
+[Figure: cercle auec les poincts A, F, G, B, D, E, C]
 
 Hypoth.
 
 abc & ade snt Δ,
 
-<bac + <dae 2|2, 2⌐
+<bad 2|2 <cae,
 
 Req. π. demonstr.
 
-▭.bcd π ▭.bed,
-
-□.ac π □.ae,
+▭.dce π ▭.ebd 2|2 □.ac π □.ab,
 
 Præpar.
 
-5.4 | adb est ⊙,
-2.p.1 | cag & eaf snt —,
-1.p.1 | bf & gf snt —.
+5.4 | ade est ⊙,
+1.p.1 | fg est —.
 
 Demonstr.
 
-13.1 | <bac + <bag 2|2, 2⌐
-hyp. | <bac + <dae 2|2, 2⌐
-3.a.1 | <bag 2|2 <dae,
-s.22.3 | <dbf 2|2 <dae,
-1.a.1 | <dbf 2|2 <bag,
-21.3 | <bfg 2|2 <bag,
-1.a.1 | <dbf 2|2 <bfg,
-27.1 | bd == gf,
-29.1 | Δ.gaf æquiāg. Δaec,
-c.4.6 | ga π ac 2|2 fa π ae,
-18.5 | gc π ac 2|2 fe π ae,
+hyp. | <dab 2|2 <eac,
+26.3 | ◠df 2|2 ◠eg,
+s.27.3 | fg == bc,
+2.6 | ag π gc 2|2 af π fb,
+18.5 | ac π gc 2|2 ab π fb,
+1.6 | □.ac π ▭.acg 2|2 □.ab π ▭.abf,
+16.5 | □.ac π □.ab 2|2 ▭.acg π ▭.abf,
+36.3 | ▭.dce 2|2 ▭.acg,

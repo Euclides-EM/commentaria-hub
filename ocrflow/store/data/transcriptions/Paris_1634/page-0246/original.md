@@ -1,34 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-11.1 | gah ⊥ fa,
-| hbi ⊥ fb,
-| ick ⊥ fc,
-| kdl ⊥ fd,
-| leg ⊥ fe,
-13.a.1 | ahb,bic,ckd,
-| dle,ega
-| snt △,
-symp. | 5<ghikl est req.
+dh 2|2 he,
 
-[Figure: pentagone G—E—L—D—K—C—I—B—H—A circonscrit à vn cercle, F au centre, auec toutes les lignes menées du centre]
+Req. π. demonstr.
+
+<hab 2|2 hag.
 
 Præpar.
 
-1.p.1 | fg, fh, fi, fk, fl snt —,
+1.p.1 | ac, ad, ae, af snt —.
 
 Demonstr.
 
-1.concl. c.16.3 | gh, hi, ik, kl, lg. tang: ⊙abcde,
-2.c.36.3 | ga 2|2 ge, α
-| ha 2|2 hb, α
-| ib 2|2 ic, α
-| kc 2|2 kd, α
-| ld 2|2 le, α
-8.1 | <gfa 2|2 gfe,
-8.1 | <hfa 2|2 hfb,
-27.3 | <afe 2|2 <afb, &c. β
-7.a.1 | <gfe,<gfa,<afh,<hfb,<bfi,<ifc, &c. snt 2|2 ⁊e,
-26.1 | ag 2|2 ah, α
-26.1 | hb 2|2 bi, &c. α
-2.concl. α.2.a.1 | gh, hi, ik, kl, lg snt 2|2 ⁊e,
-3.concl. β.s.32.1 | <ahb, <bic, <ckd, <dle, <ega, snt 2|2 ⁊e.
+hyp. | ab, ag, bc, gf, cd, fe, de snt 2|2 ⁊e,
+hyp. | <abc, <agf, <bcd, <gfe, <cde, <fed snt 2|2 ⁊e,
+4.1 | ac 2|2 af,
+4.1 | <bac 2|2 <gaf,
+4.1 | <bca 2|2 gfa,
+3.a.1 | <acd 2|2 <afe,
+4.1 | ad 2|2 ae,
+4.1 | <cad 2|2 <fae,
+4.1 | <cda 2|2 <fea,
+3.a.1 | <adh 2|2 <aeh,
+hyp. | dh 2|2 he,
+8.1 | <had 2|2 <hae,
+concl. 2.a.1 | <hab 2|2 <hag, α
+
+[Figure: deux heptagones A—B—C—D—H—E—F—G marquez 1 et 2, auec les lignes menées de l'angle A]
+
+Demonstr.. 2. cas.
+
+d.α. | <eab 2|2 <eah,
+| <aed 2|2 <aef.
+
+## PROBL. XIII. PROPOS. XIII.
+
+In dato pentagone æquilatero & æquiangulo circulum describere.

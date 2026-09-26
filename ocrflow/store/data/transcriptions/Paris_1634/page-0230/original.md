@@ -1,15 +1,25 @@
-# EVCLIDIS ELEMENTORVM LIBER QVARTVS.
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-# LE QVATRIESME LIVRE DES ELEMENTS D'EVCLIDE.
+## DEFINIT. IV.
 
-## DEFINIT. I.
+Figura verò rectilinea circa circulum describi dicitur, cùm singula latera eius, quæ circumscribitur, circuli peripheriam tangunt.
 
-Figvra rectilinea in figura rectilinea inscribi dicitur, cùm singuli eius figuræ quæ inscribitur, anguli singula latera eius, in qua inscribitur, tangunt.
+Mais vne figure rectiligne est dite estre descrite à l'entour du cercle, lors que chacun costé de la circonscrite, touche la circonference du cercle.
 
-Vne figure rectiligne est dite estre inscrite en vne figure rectiligne, quand chacun des angles de la figure inscrite, touche chacun costé de celle en laquelle elle est inscrite.
+## DEFINIT. V.
 
-## DEFINIT. II.
+Similiter & circulus in figura rectilinea inscribi dicitur, cùm circuli peripheria singula latera tangit eius figuræ, cui inscribitur.
 
-Similiter & figura circum figuram describi dicitur, cùm singula eius, quæ circumscribitur, la-
+Semblablement le cercle est dit estre inscrit en vne figure rectiligne, lors que la circonference du cercle touche chacun costé de la figure en laquelle il est inscrit.
 
-Semblablement vne figure est dite estre descrite à l'entour d'vne figure, quand chacun costé de la circonscri-
+## DEFINIT. VI.
+
+Circulus autem circum figuram describi dicitur, cùm circuli peripheria singulos tangit eius figuræ, quam circumscribit, angulos.
+
+Mais vn cercle est dit estre descrit à l'entour d'vne figure, quand la circonference du cercle touche chacun angle de la figure à l'entour de laquelle il est descrit.
+
+## DEFINIT. VII.
+
+Recta linea in circulo accommodari, seu coa-
+
+Vne ligne droicte est dite estre accommodée ou adaptée

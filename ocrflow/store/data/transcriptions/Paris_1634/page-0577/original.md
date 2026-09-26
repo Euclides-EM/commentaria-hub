@@ -1,35 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## THEOR. II. PROPOS. II.
+*laquelle mesure deux grandeurs, mesure aussi leur plus grande commune mesure.*
 
-Si duabus magnitudinibus inæqualibus propositis, detrahatur semper minor de majore, alterna quadam detractione, & reliqua minimè præcedentem metiatur : incommensurabiles erunt ipsæ magnitudines.
+## PROBL. II. PROPOS. IV.
 
-*Deux grandeurs inegales estans proposees, si on retranche tousiours alternatiuement la plus petite de la plus grande, & que la grandeur restante ne mesure iamais sa precedente : icelles grandeurs seront incommensurables.*
+Tribus magnitudinibus commensurabilibus datis, maximam earum mensuram communem inuenire.
+
+*Trois grandeurs commensurables estant donnees, trouuer la plus grande commune mesure d'icelles.*
+
+A----------
+B---------- D----
+C---------- E---- F----
 
 Hypoth.
 
-ab 2|3 cd,
-nul. resid. msur: præceden.
+a, b, c snt magnitud.
+comm. D.
 
-Req. π. demonstr.
+Req. est ma.c.me.. a, b, c.
 
-ab & cd snt incomm;
+Constr.
+
+ʒ. 10 | d, est ma.c.me..a & b,
+ʒ. 10 | e, est ma.c.me..c & d,
+symp. | req. est e.
 
 Demonstr.
 
-suppos. | e, msur: ab & cd, α
-ʒ. 1 | ab, msur: cf, β
-ʒ. 1 | fd, msur: ag, γ
-1.10 | gb 2|3 e, ♪
-2.a.10 | e, msur: cf,
-α | e, msur: cd,
-3.a.10 | e, msur: fd,
-γ | fd, msur: ag,
-2.a.10 | e, msur: ag,
-α.3.a.10 | e, msur: gb,
-♪ | contr. 9.a.b.
-concl. 21.a.1 | ab, cd snt incomm;
+constr. | e, msur: d,
+constr. | d, msur: a & b,
+2.a.10 | e, msur: a & b,
+constr. | e, msur: c,
+1.concl. 1.a.10 | e, msur: a, b, c,
+suppos. | f 3|2 e, α
+suppos. | f, msur: a, b, c, β
+β | f, msur: a & b,
+c.ʒ.10 | f, msur: d,
+β | f, msur: c,
+c.ʒ.10 | f, msur: e,
+α | contr. 9.a.b.
+2 concl. 21.a.1 | e, est ma.c.me. a, b, c.
 
-## PROBL. I. PROPOS. III.
+## COROLL.
 
-Duabus magnitudinibus commensurabilibus datis, maximam earum communem mensuram inuenire.
+Apertè quoque ex hoc colligitur, quòd magnitudo metiens tres magnitudines, metitur quoque maximam earum mensuram communem.

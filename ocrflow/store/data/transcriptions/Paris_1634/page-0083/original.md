@@ -1,40 +1,49 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-## PROBL. I. PROPOS. I.
+[Figure: deux cercles, triangle DAC au centre, points H, F, G à droite, B à gauche, E en bas]
 
-SVper data recta linea terminata, triangulum æquilaterum constituere.
-
-Sur vne ligne droicte donnée & terminée, descrire vn triangle equilateral.
-
-[Figure: deux cercles s'entrecoupant, centres A et B, points D, C, E en haut, triangle ABC inscrit]
-
-Hypoth.
-
-ab est — D.
-
-Req. π. fa.
-
-△abc æquilat.
-
-Constr.
-
-3.p.1. | abcd est ⊙,
-3.p.1. | bace est ⊙,
-1.p.1. | ac & bc, snt —,
-symp. | △abc est æquilat.
+1.1. | cad est △ æquilat.
+2.p.1. | dce est —,
+3.p.1. | deh est ⊙,
+2.p.1. | daf est —,
+symp. | ag 2|2 bc,
 
 Demonstr.
 
-constr. | abcd & bace snt ⊙,
-15.d.1. | ac 2|2 ab,
-15.d.1. | bc 2|2 ba,
-1.a.1. | ac 2|2 bc,
-concl. 23.d.1. | △abc est æquilat.
+constr. | da 2|2 dc,
+15.d.1. | dg 2|2 de,
+3.a.1. | ag 2|2 ce,
+15.d.1. | bc 2|2 ce,
+concl. 1.a.1. | ag 2|2 bc.
 
-SCHOLIVM. | SCHOLIE.
+## PROBL. III. PROPOS. III.
 
-Hæc demonstratio fit quatuor syllogismis, vt perspicuum est ex numero citationum. | Cette demonstration se fait par quatre syllogismes, comme il appert du nombre des citations.
+Duabus datis rectis lineis inæqualibus, de majore æqualem minori rectam lineam detrahere.
 
-I. SYLLOGISMVS. | I. SYLLOGISME.
+Deux lignes droictes inégales estans données, oster de la plus grande vne ligne droicte égale à la plus petite.
 
-Rectæ lineæ quæ ducuntur à centro ad circunferentiam, sunt inter se æquales. | Les lignes droictes menées du centre à la circonference, sont égales entr'elles.
+[Figure: cercle de centre B, ligne A verticale à gauche, points D, E, C à droite]
+
+Hypoth.
+
+a & bc snt — D.
+
+Req. π. fa.
+
+be 2|2 a,
+
+Constr.
+
+2.1. | bd 2|2 a,
+3.p.1 | bde est ⊙,
+sym. | be 2|2 a,
+
+Demonstr.
+
+15.d.1. | be 2|2 bd,
+constr. | a 2|2 bd,
+concl. 1.a.1. | be 2|2 a,
+
+## THEOR. I. PROPOS. IV.
+
+Si duo triangula duo latera duobus lateribus æqualia habeant, vtrumque vtrique, habeant verò

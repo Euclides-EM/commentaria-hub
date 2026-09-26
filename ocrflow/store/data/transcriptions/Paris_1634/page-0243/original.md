@@ -1,34 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-| <abd
-5.1 | <adb
-19.a.1 | <cdb + <cda
-α.32.3 | <cad + <cda
-32.1 | <bcd
-| snt 2|2 ⁊e,
-1.a.1 | <abd 2|2 <bcd,
-6.1 | cd 2|2 bduac,
-5.1 2.concl | <cad 2|2 <cda, β
-β.32.1 | <bcdu<cbdu<bda 2|2, 2<bad.
+1.p.1 | ed est —,
+3.1 | ef 2|2 ed,
+1.p.1 | df est —,
+symp. | df est √.5< inscri. in ⊙adbn.
 
-## COROLL.
+Demonstr. est in schol. 10..13.
 
-Cùm tres anguli trianguli sint æquales duobus rectis, perspicuum est angulum BAD esse quintam partem duorum rectorum.
+[Figure: cercle auec D en haut, A à gauche, points F, C, E sur le diametre, H, K, L, O au dedans, G, M, N, P vers le bas]
 
-Veu que les trois angles d'vn triangle sont égaux à deux droicts, il est manifeste que l'angle BAD est la cinquiéme partie de deux droicts.
+Explicat. p̄ nr.
 
-## PROBL. XI. PROPOS. XI.
+hyp. | cducb est 2,
+7.a.1 | ce est 1,
+47.1 | □.ed est 5,
+c.46.1 | eduef est √.5,
+3.a.1 | cf est √.5~1,
+47.1 | □.fd est 10~√.20,
+c.46.1 | fd est √.. 10~√.20.
 
-In dato circulo, pentagonum æquilaterum & æquiangulum inscribere.
+## PROBL. XII. PROPOS. XII.
 
-En vn cercle donné, inscrire vn pentagone, equilateral & equiangle.
+Circa datum circulum, pentagonum æquilaterum & æquiangulum describere.
+
+A l'entour d'vn cercle donné, descrire vn pentagone, equilateral & equiangle.
 
 Hypoth.
 
-abcde est ⊙ D.
+fabcde est ⊙ D.
 
 Req. π. fa.
 
-inscri. in ⊙abcd 5<abcde æquilat. & æquiang.
+circscri. π. ⊙abcde 5<ghikl æquilat. & æquiang.
+
+[Figure: pentagone G—E—L—D—K—C—I—B—H—A circonscrit à vn cercle, auec toutes les lignes menées du centre]
 
 Constr.
+
+11.4 | 5<abcde est inscri. in ⊙fabd,
+1.p.1 | fa, fb, fc, fd, fe snt —,

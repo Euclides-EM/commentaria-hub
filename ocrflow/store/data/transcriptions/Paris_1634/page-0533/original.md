@@ -1,37 +1,25 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-*Si depuis l'vnité tant de nombres qu'on voudra sont continuellemēt proportionaux, le troisiesme depuis l'vnité est quarré, & tous les autres qui en laissent vn : mais le quatriesme est cube, & tous les autres qui en laissent deux, & le septiesme est cube & quarré ensemble, & tous les autres qui en laissent cinq.*
+progressionis nuncupátur characteres cossici : vt qq, significat D, esse quadrato-quadratum.
 
-H,1. A,3. B,9. C,27. D,81. E,243. F,729. G,2187.
+*de cette progression s'appellent characteres cossiques, comme qq. signifie que D, est quarré. Les exposans des characteres cossiques monstrent la quantiesme est vne chacune des proportionelles depuis la premiere A. comme 4. monstre que D, est la quatriesme proportionelle.*
 
-Hypoth.
+Exponentes characterum cossicorum ostendunt quota sit vnaquæque proportionalium à prima proportionali A : vt 4. ostendit D, esse quartam proportionalem.
 
-h,a,b,c,d,e,f,g snt contin. proport;
+In hac octaua propositione demonstratum est, omnes numeros, quorum exponentes sunt pares, esse quadratos : vt B,D,F,&c.
 
-Req. π. demonstr.
+*En cette huictiesme proposition il est demonstré que tous les nombres qui ont leurs exposans pairs, sont quarrez : comme B,D,F,&c.*
 
-3.5.7.9. &c. snt nr; □;
-4.7.10. &c. snt nr; cub;
-7.13.19. &c. snt nr; qc;
+Item omnes numeros, quorum exponentes numerus ternarius metitur, esse cubos : vt C,F,&c.
 
-Demonstr.
+*Pareillemēt que tous les nombres, les exposans desquels peuuent estre mesurez par trois, sont cubes : comme C,F,&c.*
 
-hyp. | h π a 2|2 a π b,
-5.a.7 | h, msur: a ꝑ a,
-3c20.d7 | a, msur: b ꝑ a,
-9.a.7 | b 2|2 □.a, α
-18.d.7 | b, est nr. □, β
-hyp. | b, c, d snt contin; proport;
-β | b, est nr. □,
-12.8 | d, est nr. □, γ
-1.concl. d. γ | 7.9.11. &c. snt nr; □; ε
-hyp. | h π a 2|2 b π c,
-5.a.7 | h, msur: a ꝑ a,
-3c20.d7 | b, msur: c ꝑ a,
-9.a.7 | c 2|2 ▭.a,b,
-α | b est □.a,
-19.d.7 | c, est nr. cub.
-hyp. | c,d,e,f snt contin. proport;
-23.8 | f, est nr. cub. κ
-d κ | 10.13.16. &c. snt nr; cub;
-d. εκ | 7.13.19. &c. snt nr; qc;
+Item omnes numeros, quorum exponentes numerus senarius metitur, esse cubos simul & quadratos: vt F,&c.
+
+*Et aussi que les nombres, les exposans desquels peuuent estre mesurez par six, sont cubes & quarrez : comme F,&c.*
+
+## THEOR. IX. PROPOS. IX.
+
+Si ab vnitate quotcunque numeri deinceps proportionales fuerint ; qui verò post vnitatem sit quadratus, & reliqui omnes quadrati erunt. At si qui post vnitatem sit cubus, & reliqui omnes cubi erunt.
+
+*Si depuis l'vnité il y a tant de nombres qu'on voudra continuellement proportionaux, & que celuy qui suit apres l'vnité soit quarré, aussi tous les autres se-*

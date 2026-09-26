@@ -1,40 +1,44 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-extremis comprehenditur rectangulum, æquale est ei, quod à media describitur, quadrato. Et si sub extremis comprehensum rectangulum æquale sit ei, quod à media describitur, quadrato : illæ tres rectæ lineæ proportionales erunt.
+32.1 | <ahb 2|2 <cfd,
+constr. | <hag 2|2 <fce,
+constr. | <ahg 2|2 <cfe,
+32.1 | <g 2|2 <e,
+2.a.1 | <bag 2|2 <dce,
+1.a.1 | <bhg 2|2 <dfe,
+4.6 | ab π bh 2|2 cd π df, α
+4.6 | ag π gh 2|2 ce π ef,
+4.6 | ag π ah 2|2 ce π cf,
+4.6 | ah π ab 2|2 cf π cd,
+22.5 | ag π ab 2|2 ce π cd, β
+d.β 1.concl. | gh π hb 2|2 ef π fd,
+1.d.6 2.concl. | abhg, sml. cdfe,
+α | ab est homolog. cf.
 
-Si trois lignes droictes sont proportionelles : le rectangle contenu sous les extremes est egal au quarré de la moyenne : Et si le rectangle contenu sous les extremes est egal au quarré de la moyenne, les trois lignes droictes seront proportionelles.
+## THEOR. XIII. PROPOS. XIX.
 
-[Figure: lignes A—B ; E—F ; F—G ; C—B et rectangle A, B, D, C ; quarré E, F, H, G]
+Similia triangula inter se sunt in duplicata ratione laterum homologorum.
 
-Hypoth. 1.
+Les triangles semblables sont entr'eux en raison doublee de leurs costez de mesme raison.
 
-ab π ef 2|2 ef π cb.
+Hypoth.
+
+Δabc est sml. Δdef, α
+<b 2|2 <e,
+<c 2|2 <f.
 
 Req. π. demonstr.
 
-▭ab,cb 2|2 □.ef, u ▭ac 2|2 □eg.
+raō.. Δabc π Δdef 2|2, 2 raō.. bc π ef.
+
+[Figure: triangles A, B, G, C et D, E, F]
 
 Præpar.
 
-3.1 | fg 2|2 ef, α
-
-hyp. | ab π ef,
-| ef u fg π cb,
-16.6 | ▭.ab,cb 2|2 ▭ef,fg
-α.29.d.1 | ▭ef,fg est □.ef,
-1.concl. 1.a.g | ▭.ab,cb 2|2 □.ef.
-
-Hypoth. 2.
-
-▭ac 2|2 □eg.
-
-Req. π. demonstr.
-
-ab π ef 2|2 ef π bc.
+11.6 | bc π ef 2|2 ef π bg,
+1.p.1 | ag est —.
 
 Demonstr.
 
-hyp. | ▭ac 2|2 □eg,
-12.a.1 | <abc 2|2 <efg,
-2.concl. 14.6 | ab π ef,
-| fg u ef π bc.
+α.4.6 | ab π de 2|2 bc π ef,
+constr. | bc π ef 2|2 ef π bg,

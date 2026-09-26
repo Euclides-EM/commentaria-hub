@@ -1,39 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Si vn espace est contenu sous vne ligne rationelle, & vn apotome cinquiesme, la ligne droicte, qui peut iceluy espace, est ligne faisant auec vn espace rationel, vn tout medial.*
+Demonstr.
 
-Hypoth.
+1.concl. βγ.2.a.1 | ▭dк 2|2 □.ac + □.bc, ♪
+7. 2 | 2▭acb + □.ab 2|2 □.ac + □.bc,
+1.a.1 | ▭dk 2|2, 2▭acb + □.ab,
+α.3.2.1 | ▭gk 2|2, 2▭acb,
+36. 1 | ▭gn 2|2 ▭mк,
+2 concl. 7.a.1 | ▭acb, ▭gn, ▭mk snt 2|2 ꝗe, ε
+s.22.6 | □.ac π ▭.acb 2|2 ▭.acb π □.bc,
+βγε | ▭dh π ▭mk 2|2 ▭mк π ▭ik,
+1. 6, & 10. 10 | di π ml 2|2 ml π il,
+3.concl. 16. 6 | ▭dil 2|2 □:ml. θ
 
-ac, est ▭.ab, ad,
-ab, est ration.
-ad, est apotom. 5. α
-de, est congruen.
+## COROLL. I.
+
+hyp. | ac, comm. bc ꝗn □. к
 
 Req. π. demonstr.
 
-▭ac 2|2 □.——, fa. ration. & med.
-
-Lemm. 91. 10. est præpar.
+▭dk, comm. □.ac,
+□.dl 3|2 □.gl..□.——, comm. dl,
+dl, incomm. gl.
 
 Demonstr.
 
-l.91.10 | tr□.ts 2|2 ▭ac,
-α. hyp. | □.ae 3|2 □.de..□. ——, incomm. ae,
-c l 91.10 | □.to, incomm. □.so,
-α. hyp. | ae, est ration. incomm. ab,
-22.10 | ▭ai, est medi.
-l.91.10 | □lm + □no 2|2 ▭ai,
-24. 10 | aggreg.. □.lm + □. no, est medi.
-α. hyp. | de, est ration. cōm. ab
-
-ꝑ demonstr. 93. 10.
-
-lo ▭.to, os, est ratio.
-
-concl. 78.10 | ts, est ——, fa. rat. & med.
-
-## THEOR. LXXIII. PROPOS. XCVII.
-
-Si spatium contineatur sub rationali, & apotoma sexta; recta linea spatium potens, est quæ cum medio medium totum efficit.
-
-*Si vn espace est contenu sous vne ligne rationelle & vn apotome sixiesme; la ligne droicte pouuant iceluy espace, est ligne faisant auec vn espace medial vn tout medial.*
+к.16.10 1.concl. | aggreg.. □.ac + □.bc, comm. □.ac,
+♪.12.10 | ▭dk, comm. □.ac,
+к. hyp. | □.ac, comm. □.bc,
+βγ10.10 | ▭dh, comm. ▭iк,
+10.10 | di, comm. il,
+2 concl. θ. 18.10 | □.dl 3|2 □.gl..□.——, comm. dl,
+кl16.10 | □.ac + □.bc, incomm. 2▭acb,

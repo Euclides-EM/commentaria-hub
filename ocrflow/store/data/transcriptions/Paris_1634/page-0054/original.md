@@ -1,13 +1,15 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-Trapezium scalenum est, cuius duo latera opposita sunt parallela, & reliqua duo latera inter se inæqualia, vt DHFK. | Trapeze scale est celuy qui a deux costez opposez paralleles, & les deux autres costez inegaux entr'eux, cöme DHFK.
+### XXXVIII.
 
-[Figure: trapeze scalene DHFK, D en haut à gauche, H en haut à droite, K en bas à gauche, F en bas ; à costé : dh Ⅱ kf. fh 3|2 kd.]
+Describere siue construere figuram Geometricam, est ipsam exhibere determinatam proportione suarum partium. | Descrire ou construire vne figure Geometrique, est la representer auec les iustes mesures de toutes ses parties.
 
-Trapezium irregulare est, cuius nulla latera inter se sunt parallela, vt ABCD. | Trapeze irregulier est celuy qui n'a aucuns costez paralleles, comme ABCD.
+### XXXIX.
 
-[Figure: quadrilatere irregulier ABCD, D au sommet, A en bas à gauche, B en bas au milieu, C en bas à droite]
+Scire in Geometricis, est nota mensura dimetiri, seu omnes partes figuræ propositæ, suis numeris expressas, exhibere. | En la Geometrie, sçauoir est mesurer par vne mesure cognuë, ou d'exprimer chaque partie de la figure proposee par nombres.
 
-### XXXVI.
+Constructio exhibet figuram sua forma præditam. Cognitio verò exhibet figuram nota mensura dimensam, & suis numeris expressam. | La construction represente vne figure en sa vraye forme. Mais la cognoissance, la represente mesurée d'vne mesure cognuë, & exprimée par ses nombres.
 
-Cùm verò in parallelogrammo diameter ducta fuerit, duæque lineæ lateribus parallelæ secantes diametrum in vno eodemque puncto, ita vt parallelogrammü | Mais quand en vn parallelogramme on meine vn diametre ou diagonale, & deux lignes droites paralleles aux costez, coupantes le diametre en vn mesme poinct, en sorte que le pa-
+### XL.
+
+Problema est, cùm proponitur aliquid ad efficiendum, vel cognoscendum. | Probleme est, quand on propose quelque chose à faire, ou à cognoistre.

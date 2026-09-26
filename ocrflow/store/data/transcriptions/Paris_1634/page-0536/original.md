@@ -1,51 +1,33 @@
-<!-- Running title: ELEM.. EVCLID.. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-*ront quarrez : Et si celuy qui est apres l'vnité est cube, aussi tous les autres seront cubes.*
+proportionales fuerint, qui verò post vnitatem, non sit quadratus, neque alius vllus quadratus erit, præter tertium ab vnitate, & vnum intermittentes omnes. At si, qui post vnitatem, non sit cubus, neque alius vllus cubus erit, præter quartum ab vnitate, & duos intermittentes omnes.
 
-G,1. A,4. B,16. C,64. D,256. E,1024. F,4096.
+*Si depuis l'vnité, il y tant de nombres qu'on voudra continuellement proportionaux, & que celuy qui est apres l'vnité ne soit quarré, aussi pas vn autre ne sera quarré, outre le troisiesme depuis l'vnité, & tous les autres qui en laissent vn : Et si celuy qui est apres l'vnité n'est cube, aussi aucun autre ne sera cube, outre le quatriesme depuis l'vnité, & tous les autres qui en laissent deux.*
+
+H,1. A,2. B,4. C,8. D,16. E,32. F,64. G,128.
 
 Hypoth. 1.
 
-g,a,b,c,&c. snt contin. proport.
-a, est nr. □.
+h, a, b, c, &c. snt contin. proport.
+a, n̄, est nr. □.
 
 Req. π. demonstr.
 
-b,c,d,&c snt nr; □;
+c,e,g,&c. n̄ snt nr; □
 
 Demonstr.
 
-1.concl. 8.9 | b,d,f,&c. snt nr; □;
-hyp. | a, b, c snt contin. proport;
-hyp. | a, est nr. □,
-2.concl. 22.8 | c, &c. snt nr; □;
-
-G,1. A,8. B,64. C,512. D,4096. E,32768. F,262144.
+suppos. | e, est nr. □. α
+hyp. | a π b 2|2 d π e,
+c.4.5 | b π a 2|2 e π d,
+8.9 | b & d snt nr; □;
+α.24.8 | a, est nr. □.
+contr. hypoth.
+11.a.1 | e, n̄, est nr. □. β
+d.β | c, g, &c. n̄, snt nr; □;
 
 Hypoth. 2.
 
-g, a, b, c snt contin. proport;
-a, est nr. cub.
+a, n̄, est nr. cub.
 
 Req. π. demonstr.
-
-b,c,d,&c. snt nr; cub;
-
-Demonstr.
-
-1.concl. 8.9 | c,f,&c. snt nr; cub; α
-hyp. | g π a 2|2, a π b,
-5.a.7 | g, msur: a ꝑ a,
-3c20.d7 | a, msur: b ꝑ a,
-9.a.7 | b 2|2 □.a,
-hyp. | a, est nr. cub.
-2.concl. 3.9 | b, est nr. cub. β
-hyp. | a, b, c, d snt contin. proport;
-hyp. | a, est nr. cub.
-3.concl. 3.9 | d, est nr. cub.
-hyp. | b, c, d, e snt contin. proport;
-β | b, est nr. cub.
-4.concl. 3.9 | e, est nr. cub.
-hyp. | c,d, e, f snt contin. proport;
-α | c, est nr. cub.
-5.concl. 3.9 | f, est nr. cub.

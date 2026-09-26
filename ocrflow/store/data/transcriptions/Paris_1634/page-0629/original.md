@@ -1,36 +1,28 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-Demonstr.
+## THEOR. XXX. PROPOS. XLII.
 
-hyp. | □.ab, comm. □.bc,
-16.10 | □.ab + □.bc, comm. □.ab,
-hyp. | □.ab, est medi.
-β.24.10 | ▭dg, est medi.
-αβ.4.2 | ▭hf 2|2 2▭.abc, γ
-hyp. | ▭.abc, est medi.
-24.10 | 2▭.abc, u ▭hf, / est medi.
-23.10 | eg & gf snt ration. ♪
-γ.1.26.10 | ▭dg, incomm. ▭hf,
-1.6 | eg π gf 2|2 dg π hf,
-10.10 | eg, incomm. gf,
-♪.37.10 | ef, est irration.
-l.38.10 concl. | ▭df, est irration.
-α.11.d.10 | ac, est irration.
+Si duæ rectæ lineæ potentia incommensurabiles componantur, quæ faciant & compositum ex ipsarum quadratis medium, & quod sub ipsis continetur medium, incommensurabiléque composito ex quadratis ipsarum; tota recta linea irrationalis erit: vocetur autem bina media potens.
 
-## THEOR. XXVIII. PROPOS. XL.
+*Si deux lignes droictes incommensurables en puissance sont composees, lesquelles facent le composé de leurs quarrez medial, & le rectangle contenu sous icelles, medial, & incommensurable au composé de leurs quarrez, la toute sera irrationelle : soit icelle appellee pouuant deux mediaux.*
 
-Si duæ rectæ lineæ potentia incommensurabiles componantur, quæ faciant compositum quidem ex ipsarum quadratis rationale, quod autem sub ipsis continetur, medium; tota recta linea irrationalis erit: vocetur autem major.
-
-*Si deux lignes droictes incommensurables en puissance, faisant le composé de leurs quarrez rationel, & le rectangle contenu sous icelles medial, sont composees ; la toute sera irrationelle: soit icelle appellee majeure.*
-
-A B C (line)
+G H K (line) E L F A C B (rectangle)
 
 Hypoth.
 
-□.ab, incomm. □.bc,
-aggreg..□.ab + □.bc / est ration.
-▭.abc, est medi. α
+gh, incomm. hk ꝗn □,
+□.gh + □.hk, est medi.
+▭.ghk, est medi. α
+▭.ghk, incomm. aggreg.. / □.gh + □.hk, β
 Req. π. demonstr.
-ac, est irration.
+gk, est irration.
+
+Præpar.
+
+suppos. | fb, est ration. expos.
+4.app. | ▭af 2|2 □.gk, γ
+4.app. | ▭cf 2|2 □.gh / + □.hk. ♪
 
 Demonstr.
+
+hyp. | □.gh + □.hk, est / medi.

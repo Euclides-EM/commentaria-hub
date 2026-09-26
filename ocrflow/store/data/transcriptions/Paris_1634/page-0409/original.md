@@ -1,32 +1,39 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-## THEOR. XII. PROPOS. XXIII.
+1.2 | ▭.cb,ef 2|2 ▭.cb,ed + ▭.cb,df,
+concl. 1.a.f | ▭.cae 2|2 bad + ▭.cb,ed + ▭.cb,df + ▭.bg,ed. β
 
-Snelius in Apollonio Batauo
+Hypoth. 3. cas.
 
-[Figure: deux rectangles B, C, D, A & E, F, G, H auec la diagonale E G ; au dessous les lignes K, L, N, M]
+[Figure: deux figures auec les poincts D, F, I, E, A, C, H, G, B]
 
-Hypoth.
+Δabc sml. Δade,
 
-▭bd π ▭hf 2|2 k π l.
+<abc, <ade snt 2|3 ⌐,
 
-Req. π. demonstr.
-
-▭.fg,k π ▭.dc,l 2|2 ad π hg,
+ac 3|2 ab, & ae 3|2 ad.
 
 Præpar.
 
-4.app. | ▭.k,m 2|2 ▭bd, α
-4.app. | ▭.l,n 2|2 ▭hf, β
+afg ⊥ cb & ed,
+
+gh 2|2 gb,
+
+ahi est —.
+
+Req. π. demonstr.
+
+▭.cae 2|2 ▭.bad + ▭.ch,ed u ▭.ei,cb.
 
 Demonstr.
 
-7.5 | ▭.k,m π ▭.l,n 2|2 ▭bd π ▭hf,
-hyp. | k π l 2|2 ▭bd π ▭hf,
-11.5 | ▭,k,m π ▭.l,n 2|2 k π l,
-c.1.6 | m 2|2 n,
-α.14.6 | ad π m 2|2 k π dc, γ
-β.14.6 | m u n π hg 2|2 fg π l, γ
-20.d.5 γ | raō.ad π hg 2|2 raō.ad π m + raō.m π hg, u raō.k π cd + raō.fg π l,
-23.6 | raō.▭.fg,k π ▭.dc,l 2|2 raō.k π cd + raō.fg π l,
-concl. 11.5 | ▭.fg,k π ▭.dc,l 2|2 ad π hg.
+s.4.6 | if 2|2 fd,
+4.1 | ah 2|2 ab,
+4.1 | ai 2|2 ad,
+3.s.1.d.2 | ▭.hai 2|2 ▭.bad, γ
+s.4.6 | gh π ch 2|2 fi π ie,
+16.6 | ▭.gh,ie 2|2 ▭.ch,fi u ▭.ch,fd, δ
+s.4.6 | bh π hc 2|2 di π ie,
+18.5 | bc π hc 2|2 de π ei,
+16.4 | ▭.bc,ei 2|2 ▭.hc,de, ε
+β | ▭.cae 2|2 ▭.hai + ▭.ch,ei + ▭.hg,ei + ▭.ch,if,

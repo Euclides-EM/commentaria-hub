@@ -1,25 +1,52 @@
-<!-- Running title: ELEM.. EVCLID.. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-quos; qui ab illis producti fuerint, proportionales erunt : Et si numeri primùm positi multiplicantes iam factos fecerint aliquos : ipsi quoque proportionales erunt : Et semper circa extremos hoc eueniet.
+Demonstr.
 
-*S'il y a tant de nombres qu'on voudra continuellement proportionaux, & que chacun multipliant soy-mesme en face quelques-vns, les produicts d'iceux seront proportionaux. Et si les nombres pris au commencement multiplians leurs produicts, en font quelques-vns, iceux seront aussi proportionaux, & tousiours cela aduiendra enuiron les extremes.*
+hyp. | a & b snt nr; □,
+2.&11.8 | a, e, b snt proport. ꝗn raō. c π d,
+hyp. | a, msur: b,
+7.8 | a, msur: e,
+1.concl. 2c20.d7 | c, msur: d.
 
-A,2. B,4. C,8.
-D,4. N,8. E,16. O,32. F,64.
-G,8. P,16. Q,32. H,64. P,128. S,256. T,512.
+Hypoth. 2.
 
-Hypoth.
-
-a, b, c snt contin. proport;
-d, est □.a. e, est □.b. f, est □.c,
-g, est ▭.d,a. h, est ▭.eb. t, est ▭.f,c.
+c, msur: d.
 
 Req. π. demonstr.
 
-d, e, f snt contin. proport;
-g, h, i snt contin. proport;
+a, msur: b.
+
+Demonstr.
+
+11.8 | a,e,b snt contin. proport; ꝗn raō.. c π d,
+hyp. | c, msur: d,
+2c20.d7 | a, msur: e,
+2c20.d7 | e, msur: b,
+11.a.7 | a, msur: b.
+
+## THEOR. XIII. PROPOS. XV.
+
+Si cubus numerus cubum numerum metiatur; & latus vnius metietur latus alterius. Et si latus vnius cubi latus alterius metiatur ; & cubus cubum metietur.
+
+*Si vn nombre cube mesure vn nombre cube, aussi le costé mesurera le costé. Et si le costé mesure le costé, aussi le cube mesurera le cube.*
+
+A,8. H,24. I,72. B,216.
+E,4. G,12. F,36.
+C,2. D,6.
+
+Hypoth. 1.
+
+a & b snt nr; cub;
+a, msur: b,
+c, est γc.a. d, est γc.b
+
+Req. π. demonstr.
+
+c, msur: d.
 
 Præpar.
 
-n, est ▭.b,a. o, est ▭.c,b. p, est ▭.n,a,
-q, est ▭.e,a. p, est ▭.o,b. s, est ▭.f,b.
+e, est □.c,
+f, est □.d,
+g, est ▭.c,d,
+h, est ▭.c,g,

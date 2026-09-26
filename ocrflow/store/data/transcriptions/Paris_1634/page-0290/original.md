@@ -1,27 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## THEOR. III. PROPOS. III.
-
-Sit prima secundæ æquè multiplex, atque tertia quartæ ; sumantur autem æque multiplices primæ & tertiæ : erit & ex æquo, sumptarum vtraque vtriusque æquè multiplex, altera quidem secundæ, altera autem quartæ.
-
-Si la premiere est autant multiple de la seconde, comme la troisiesme l'est de la quatriesme, & on prend les equimultiples de la premiere & de la troisiesme : en raison égale, la multiple de la premiere sera autant multiple de la seconde, que la multiple de la troisiesme le sera de la quatriesme.
-
-Hypoth.
-
-a, multipl.. b 2|2 c, multipl.. d,
-ei, multipl.. a 2|2 fm, multipl.. c, α
-
-[Figure: lignes verticales E—G—H—I auec A, B ; F—K—L—M auec C, D]
-
-Req. π. demonstr.
-
-ei, multipl.. b 2|2 fm multipl.. d.
+| l, multipl.. g, 2|2, m, multipl.. h. α
 
 Demonstr.
 
-hyp. | a, eg, gh, hi snt 2|2 ⁊e,
-hyp. | c, fk, kl, lm snt 2|2 ⁊e,
-α.s.2.d.5 | multd.. part.. ei 2|2 multd.. part.. fm,
-hyp. | egua, multipl.. b 2|2 fkuc, multipl.. d
-hyp. | ghua, multipl.. b 2|2 kl,uc multipl.. d,
-2.5 | eh multipl.. b 2|2 fl multipl.. d, β
+3.5 | i, multipl.. a, 2|2, k, multipl.. c,
+3.5 | l, multipl.. b, 2|2, m, multipl.. d,
+hyp. | a π b 2|2 c π d,
+c.6.d.5 | i, 2, 3, 4 | 3, l,
+| k, 2, 3, 4 | 3, m,
+concl. α.6.d.5 | e π g, 2|2, f π h.
+
+## COROLL.
+
+Hinc facilè demonstrabitur inuersa ratio.
+
+Par cette demonstration est manifeste la preuue de la raison inuerse.
+
+Hypoth.
+
+a π b 2|2 c π d, α
+
+Req. π. demonstr.
+
+b π a 2|2 d π c.
+
+Præpar.
+
+e, multipl.. | a,
+f, multipl.. | c,
+g, multipl.. | b,
+h, multipl.. | d.
+
+[Figure: lignes verticales I—E—A—B—G—L et K—F—C—D—H—M]
+
+Demonstr.
+
+α.c.6.d.5 | e, 2, 3, 4 | 3 g, β
+| f, 2, 3, 4 | 3 h,

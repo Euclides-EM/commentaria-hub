@@ -1,36 +1,54 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-γ | ▭.hai 2|2 ▭.bad,
-1.2 | ▭.ch,ef 2|2 ▭ ch,ei + ▭ ch,if,
-δ | ▭.ch,fi u ▭.ch,fd 2|2 ▭ hg,ei,
-1.a.f | ▭.cae 2|2 ▭.bad + ▭.ch,ef + ▭.ch,fd,
-1.2 | ▭.ch,ed 2|2 ▭.ch,ef + ▭ ch,fd,
-concl. ε.1.a.f | ▭.cae 2|2 ▭.bad + ▭.ch,ed u ▭bc,ei.
+β | <cga 2|2 <cgh,
+4.1 | <chg 2|2 <cag, u <eca,
+32.1 | Δach æquiāg. Δaec,
+4.6 | ha π ac 2|2 ac π ae,
+2.concl. 17.6 | ▭.hae 2|2 □.ac,
+26.1 & 3.3 | cg, bi, id snt 2|2 ʒe,
+ac π cb, γ
+4.6 | cg π gb,
+15.5 | db π fb, γ
+3.concl. γ.16.6 | ▭.bc,db 2|2 ▭.ac,fb.
 
-## THEOR. XIV. PROPOS. XXV.
+## THEOR. XVI. PROPOS. XXVII.
 
-Snelius in Apollonio Batauo.
+Pappus lib. 7. propos. 175.
 
-[Figure: six figures auec les poincts B, N, E, D, G, A, F, H, C, M]
+[Figure: deux figures : triangles auec les poincts D, F, A, L, H, B, E, G, C, K]
 
 Hypoth.
 
-arbitr. | aedf est ◊,
-arbitr. | g, est • in mabn,
-arbitr. | c, est • in afc,
+abc est Δ,
 
-gdh & cdb snt —
+cad est —,
+
+arbitr. | e, est • in bc,
+
+de est —,
+
+agk == de,
+
+afl == bc.
 
 Req. π. demonstr.
 
-ch π gb 2|2 hf π be.
+□.ag π ▭.bgc,
+
+▭.dfh π □.fa.
+
+Præpar.
+
+12.6 | ag π gc 2|2 bg π gk, α
+12.6 | af π fd 2|2 hf π fl, β
+1.p.1 | bk & lh snt —.
 
 Demonstr.
 
-29.1 | Δedb æquiāg. Δfdc,
-4.6 | cf π fd 2|2 de π eb,
-16.6 | ▭.cf,eb 2|2 ▭.fd,de, α
-29.1 | Δedg æquiāg. Δfdh,
-4.6 | df π fh 2|2 ge π ed,
-16.6 | ▭.fh,ge 2|2 ▭.df,ed,
-α.1.a.1 | ▭.cf, eb 2|2 ▭.fh,ge
+α.6.6 | <k 2|2 <c u <daf,
+β.6.6 | <fhl 2|2 <daf,
+1.a.1 | <k 2|2 <fhl,
+29.1 | <bgk 2|2 <ged,
+29.1 | <lfh 2|2 <ged,
+1.a.1 | <bgk 2|2 <lfh,
+32.1 | Δbgk æquiāg. Δfhl

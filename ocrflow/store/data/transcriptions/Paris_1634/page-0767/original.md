@@ -1,23 +1,20 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-Demonstr.
+32. 11 | ◇piped. adcb π ◇piped. ehiк 2|2 bas. ad π bas. eh,
+hyp. | bas. ad π bas. eh 2|2 alt. eg π alt. ei,
+1. 6 | eg π ei 2|2 bas. gl π bas. il,
+32. 11 | bas. gl π bas. il 2|2 ◇piped. ehgf π ◇piped. ehiк,
+11. 5 | adcb π ehiк 2|2 ehgf π ehiк,
+2 concl. 9. 5 | ◇piped. adcb 2|2 ◇piped. ehgf.
 
-hyp. | ai π il, Ⅱ gr, di π io, Ⅱ gu, bi π in, Ⅱ gs snt raō; 2|2 ꝗe,
-1. 6 | ◇ ad π ◇ dl
-1. 6 | ◇ dl π ◇ ix
-1. 5 | ◇ bl π ◇ im snt raō; 2|2 ꝗe,
-32. 11 | ◇piped. abcd π ◇piped. dlqy 2|2 ◇ ad π ◇ iz,
-32. 11 | ◇piped. dlqy π ◇piped. ixbp 2|2 ◇dl π ◇ ix,
-32. 11 | ◇piped. ixbp π ◇piped. ixmt 2|2 ◇ bo π ◇ it,
-11. 5 | abcd, dlqy, ixbp, ixmt, Ⅱ gfhe snt ◇piped; contin. proport;
-concl. 10.d.5 | raō. abcd π gfhe 2|2, 3raō; abcd π dlqy, Ⅱ ai π eк.
+## SCHOL.
 
-## COROLL.
+Si insistentes lineæ propositorum parallelepidorum nō sint perpendiculares ad bases, demonstratio fiet reductis prius ad perpendiculares vt in 31. propos. huius libri.
 
-Ex hoc perspicuum est, si fuerint quatuor lineæ rectæ continuè proportionales, vt est prima ad quartam, ita esse parallelepipedum super primam descriptum ad parallelepipedum simile, similiterq. descriptum super secundam.
+Omnia vero quæ demonstrata sunt in sex proximis propositionibus, nimirum 29, 30, 31.32, 33, & 34, conueniunt quoque prismatis, quæ habēt duo plana opposita triangularia, si prædictæ hypotheses seruentur. Nam si duobus prismatis eiusmodi eiusdem altitudinis, & super eandem basin, vel super æquales bases constitutis, apponantur duo alia prismata illis æqualia & similia, conficientur duo parallelepipeda eiusdem altitudinis, & super eandem, vel æquales bases existētia. b Quare æqualia erunt eiusmodi parallelepipeda; ac proinde
 
-*De cecy est manifeste, que si quatre lignes droictes sont continuellement proportionelles, comme la premiere est à la quatriesme, ainsi le parallelipipede descrit sur la premiere sera au parallelipipede semblable, & semblablement descrit sur la seconde.*
+b 29, 30,31 11
 
-## THEOR. XXIX. PROPOS. XXXIV.
+*Si les lignes insistentes des parallelipipedes proposez ne sont perpendiculaires aux bases, la demonstration se fera en les reduisant premierement en perpendiculaires, comme en la 31, de ce liure.*
 
-Æqualium solidorum parallelepipedorum bases,
+*Or toutes les choses demōstrees aux six dernieres propositions, sçauoir 29, 30, 31, 32, 33, & 34, conuiennent aussi aux prismes qui ont deux plans opposez triangulaires, les hypotheses susdites estant obseruees; car à deux tels prismes de mesme hauteur, constituez sur mesme base ou bases egales estant apposez deux autres prismes egaux & semblables à iceux, on fera deux paralelipipedes de mesme hauteur constituez sur vne mesme base ou sur bases egales, b donc tels paralelipipedes seront egaux: Et partant aussi les prismes donnez, sçauoir leurs moitiez.*

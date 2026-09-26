@@ -1,28 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-D, est æqualis numero qui fit ex mutua multiplicatione numerorū A, B, C : igitur D, est numerus cubus.
+## COROL. III.
 
-*A, B, C multipliez l'vn par l'autre font D : partant D, est nombre cube.*
+A,5. B,15. C,8. D,24. F,3.
 
-In hac definitione & trib. præcedentibus vnitas est numerus.
-
-*En ceste definition, & aux trois precedentes l'vnité est nombré.*
-
-## DEFINIT. XX.
-
-Numeri proportionales sunt, cùm primus secundi, & tertius quarti, æquè multiplex est, vel eadem pars, vel denique, cùm pars primi secundum, & eadem pars tertij æquè metitur quartum.
-
-*Les nombres sont proportionaux quand le premier est autant multiple du second, ou mesme partie, que le troisiesme du quatriesme, ou bien quand vne partie du premier mesure le secōd, autant de fois que la mesme partie du troisiesme le quatriesme.*
-
-hyp. | a, 8,2,3,6|4, b, c, 8,2,3,6|4, d,
-20 d.7 | a π b 2|2 c π d,
-
-A,6. B,2. C,15. D,5.
-A,10. B,15. C,8. D,12.
-A,15. B,10. C,12. D,8.
+hyp. | a π b 2|2 c π d.
+hyp. | a, msur: b ꝑ f,
+3c20 d7 | c, msur: d ꝑ f,
 
 Explicatio notarum. Explication des notes.
 
-Numerus A, numeri B, & numerus C, numeri D, est æquè multiplex, vel eadem pars, vel æque multiplex eiusdem partis : igitur A, est ad B, vt C, ad D.
+A, est ad B, vt C, ad D.
 
-*Le nombre A, du nombre B, & le nombre C, du nombre D, est equimultiple, ou mesme partie, ou equimultiple de mesme partie : partant A, est à B, comme C, à D.*
+A, metitur B, per F.
+
+igitur C, metitur D, per F.
+
+*A, est à B, comme C à D.*
+
+*A, mesure B par F.*
+
+*donc C, mesure D par F.*
+
+Qui censent in demonstrationibus numerorum, propositiones quinti libri non esse assumendas, citant hanc 20, definitionem, loco 7, 8, 9, 10, 11, & 14, quinti libri. Nos verò in demonstrationibus numerorum, propositiones quinti libri assumimus, quòd demonstrationes quinti libri sint de omni genere magnitudinum, nec minus perspicuæ sint in numeris quàm in quantitate continua, & nonnunquam eadem citatio, vt videbitur in 10. libro, debeat conuenire rationibus, tùm magnitudinum, tùm numerorum.
+
+*Ceux qui estiment qu'aux demonstrations des nombres, on ne se doit point seruir des propositions du cinquiesme liure, citent ceste 20. definition au lieu du 7, 8, 9, 10, 11, 14, du cinquiesme. Mais nous nous seruirons aux demonstrations des nombres des propositions du cinquiesme liure ; à cause que les demonstrations du cinquiesme liure sont de toutes sortes de grandeurs, & qu'elles ne sont point moins manifestes aux nombres, qu'en la quantité continue ; ioint aussi que quelquefois, comme on verra au dixiesme liure, la mesme citation doit seruir aux raisons, tant des grandeurs que des nōbres.*
+
+## DEFINIT. XXI.
+
+Similes plani, & solidi numeri sunt, qui proportionalia habent latera.
+
+*Les nombres plans semblables & solides, sont ceux-là qui ont les costez proportionaux.*

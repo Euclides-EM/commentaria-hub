@@ -1,40 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-*Si vn solide parallelipipede est couppé par vn plan mené par les lignes diagonales des plans opposez: le solide sera couppé par ce plan, en deux egalement.*
+adcbhefg 2|2 adcbimlк.
 
-[Figure: labels arranged E B / D C / F G / A H]
+Præpar.
 
-Hypoth.
-
-ab, est ◇piped.
-◇ ahcd == ◇fgbe,
-fgcd, est plan.
-
-Req. π. demonstr.
-
-fgcdah 2|2 fgcdeb.
+2. p. 1 | heo, gfn, lmo, кip snt ——;
+1. p. 1 | ap, do, bq, cn snt ——.
 
 Demonstr.
 
-34. 1 | ◇ae 2|2 & sml. ◇hb,
-34. 1 | afd, dfe, hgc, cgb snt △; 2|2 & sml; ꝗe,
-24. 11 | ◇ag 2|2 sml. ◇db,
-24. 11 | ◇ac 2|2 sml. ◇fb,
-◇fgcd, est commun.
-concl. 9. d.11 | fgcdah 2|2 fgcdeb.
+34. 1 | dc, ab, hg, ef, pq, on snt 2|2 & == ꝗe,
+34. 1 | ad, he gf, bc, кl, im, qn, po snt 2|2 & == ꝗe,
+29. 11 | ◇piped. adcbhefg 2|2 ◇piped. adcbponq,
+29. 11 | ◇piped. adcbimlк 2|2 ◇piped. adcbponq,
+concl. 1. a. 1 | ◇piped. adcbhefg 2|2 ◇piped. adcbimlк.
 
-## THEOR. XXIV. PROPOS. XXIX.
+## THEOR. XXVI. PROPOS. XXXI.
 
-Solida parallelepipeda super eandem basin constituta, & in eadem altitudine, quorum insistentes lineæ in iisdem collocantur rectis lineis, sunt inter se æqualia.
+Solida parallelepipeda super æquales bases cōstituta, & in eadem altitudine, æqualia sunt inter se.
 
-*Les solides parallelipipedes constituez sur vne mesme base, & de mesme hauteur, & desquelles les lignes insistentes sont colloquees en mesmes lignes droictes sont egaux entr'eux.*
+*Les solides parallelipipedes constituez sur bases egales & de mesme hauteur, sont egaux entr'eux.*
+
+In hac & sequentibus demonstrationibus, voce altitudinis intelligenda est perpendicularis ducta à plano basis ad planum oppositum.
+
+*En ceste demonstration & aux suiuantes, par ce mot de hauteur il faut entendre la perpendiculaire menee du plan de la base au plan opposé.*
 
 Hypoth.
 
-aghef bcd, est ◇piped.
-aghemlki, est ◇piped.
-◇ aghe == ◇ flkd.
-
-Req. π. demonstr.
-
-aghef bcd 2|2 aghemlki,
+aleкgmbi, est ◇piped.
+cpωohqdn, est ◇piped.
+bas. aleк 2|2 bas. cpωo,
+alt.. ◇piped. ab 2|2 alt.. ◇piped. cd.

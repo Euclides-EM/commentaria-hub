@@ -1,50 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-*S'il y a tant de nombres qu'on voudra continuellement proportionaux, & que les extremes soient premiers entre eux : comme le premier sera au second, ainsi le dernier ne sera à quelque autre.*
+19.4 | ▭.a,d 2|2 ▭.b,c u e
+7.a.7 | a, msur: ▭.ad, u e
+contr. hypoth.
+2.concl. 21.a.1 | a,b,c,d n̄ snt proport;
 
-A,8. B,12. C,18. D,27. E---
+## THEOR. XVIII. PROPOS. XX.
+
+Primi numeri plures sunt omni proposita multitudine primorum numerorum.
+
+*Les nombres premiers sont en plus grande multitude, que quelconque multitude de nombres premiers proposez.*
+
+A,2. B,3. C,5.
+D,30. F,1. H,31. G---
 
 Hypoth.
 
-a,b,c,d snt contin. proport;
-extrem; a & d snt pr. ꝫe, α
+a,b,c snt nr; pr; proposi
 
 Req. π. demonstr.
 
-d, n̄ est π e 2|2 a π b,
+multd. a,b,c, n̄ est ma. multd.. nr; pr;
+
+Præpar.
+
+38.7 | d, est mi.diuidu.a,b,c, α
+f, est vnit.
+h 2|2 d + f, α
 
 Demonstr.
 
-suppos. | a π b 2|2 d π e,
-13.7 | a π d 2|2 b π e,
-α.23.7 | a π d snt term; raō.
-21.7 | a, msur: b,
-2c20d7 &11.a.7 | a, msur: d,
-6.a.7 | a, msur: a,
-12.a.7 | a & d n̄ snt pr. ꝫe,
-contr. hyp.
-concl. 21.a.1 | d,n̄ est π e 2|2 a π b.
+1.concl. 1.suppo. | h, est nr.pr.
+2.suppo. | h, est nr. compos.
+34.7 | nr.pr.g, msur: h, β
+suppos | g, est a, u b, u c, γ
+β | g, msur: h,
+α.γ | g, msur: d,
+α.12.a.7 | g, msur: f,
+contr. 9.a.b.
+2.concl. 21.a.1 | g, n̄ est a, u b, u c.
 
-## PROBL. I. PROPOS. XVIII.
+## THEOR. XIX. PROPOS. XXI.
 
-Duobus numeris datis, considerare an possit ipsis tertius proportionalis inueniri.
-
-*Deux nombres estans donnez, considerer s'il est possible de trouuer vn troisiesme proportionel à iceux.*
-
-A,4. B,6. C,9.
-D,36.
-
-Hypoth. 1.
-
-a & b snt nr; D.
-d, est □.b,
-a, msur: d ꝑ c. α
-
-Req. π. demonstr.
-
-a, b, c snt proport;
-
-Demonstr.
-
-α.9.a.7 | d 2|2 ▭.a,c,
-hyp. | d 2|2 □.b,
+Si pares numeri quotcunque componantur, totus par erit.

@@ -1,40 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-A.........9 B......6 C....4
-D......6
+A....4 B...3 C..2
+D...........12 E.........8 F......6
 
-hyp. | a π b u d 2|2 b π c,
-1.concl. 19.7 | ▭.ac 2|2 ▭.db, u □.b,
-
-Hypoth. 2.
-
-▭.ac 2|2 □.b.
-
-Req. π. demonstr.
-
-a π b 2|2 b π c.
+a π c 2|2 d π f.
 
 Demonstr.
 
-hyp. | ▭.ac 2|2 □.b, u ▭.bd,
-2.concl. 19.7 | a π b 2|2 d u b π c.
+α.19.7 | ▭.af 2|2 ▭.be,
+β.19.7 | ▭.cd 2|2 ▭.be,
+1.a.1 | ▭.af 2|2 ▭.cd,
+concl. 19.7 | a π c 2|2 d π f.
 
-## THEOR. XIX. PROPOS. XXI.
+## THEOR. XXI. PROPOS. XXIII.
 
-Minimi numeri omnium eandem cum eis rationem habentium, metiuntur æquè numeros eandem cum eis rationem habentes, maior quidem maiorem, minor verò minorem.
+Primi inter se numeri, minimi sunt omnium eandem cum eis rationem habentium.
 
-*Les nombres plus petits de tous ceux qui ont mesme raison auec iceux, mesurent egalement les nombres qui ont mesme raison auec iceux ; à sçauoir le plus grand, le plus grand, & le plus petit, le plus petit.*
+*Les nombres premiers entr'eux, sont les plus petits de tous ceux qui ont la mesme raison.*
 
-A...3G..2B E...........10
-C..2H.1D F......
+A.........9 B....4
+C---- D---
+E-- G,1.
 
 Hypoth.
 
-ab π cd 2|2 e π f,
-ab & cd snt term.. raō. ab π cd.
+a & b snt pr. ꝫe.
 
 Req. π. demonstr.
 
-ab msur: e 2|2 cd msur: f.
+a & b snt term.. raō. a π b.
 
 Demonstr.
+
+suppos. | g, est vnit.
+suppos. | c & d snt term.. raō. a π b,
+21.7 | c, msur: a, & d, msur: b,
+suppos. | c, msur: a ꝑ e,
+20.d.7 | d, msur: b ꝑ e,

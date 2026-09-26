@@ -1,53 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-Demonstr.
+## SCHOL.
 
-suppos. | b, est nr. compos.
-suppos. | c, msur: b, β
-hyp. | b, msur: a,
-11.a.7 | c, msur: a,
-β.3.d.7 | c 2|3 b,
-contr. hyp. α
-concl. 21.a.1 | b, est nr. pr.
+Ex his facili via reperiemus duos minimos numeros, qui eandem habeant proportionem, quam quotcunque numeri dati continuè proportionales.
 
-## THEOR. XXXI. PROPOS. XXXIV.
+*Par ce que dessus, nous pouuons trouuer les deux plus petits nombres qui sont en mesme raison, que tant de nombres qu'on voudra continuellement proportionaux.*
 
-Omnis numerus aut primus est, aut eum aliquis primus metitur.
-
-*Tout nombre est premier, ou mesuré par quelque nombre premier.*
-
-A.........9
+A,16. B,24. C,36. D,54. E,81.
+H,8.
+F,2. G,3.
 
 Hypoth.
 
-a, est nr.
+a,b,c,d,e snt contin. proport.
 
-Req. π. demonstr.
+Req. snt mi. nr.. raō.
 
-a, est nr. pr.
-u nr. pr. msur: a,
-
-suppos. | a, est nr. compos.
-concl. 33.7 | nr. pr. msur: a.
-
-## PROBL. III. PROPOS. XXXV.
-
-Numeris datis quotcunque, reperire minimos omnium eandem rationem cum eis habentium.
-
-*Tant de nombres qu'on voudra estant donnez, trouuer les plus petits nombres qui ont la mesme raison.*
-
-A.......6 B....4 C.........8
-D..2
-E...3 F..2 G.....4
-H--- I--- K....4
-L---
-
-Hypoth.
-
-a,b,c snt nr. D.
-
-Req. snt term.. raō; a,b,c.
+a π b, u b π c.
 
 Constr.
 
-1.suppo. | a,b,c snt pr. ꝫe,
+3.7 | h, est ma.c.me.. a & b,
+suppos. | h, msur: a ꝑ f,
+suppos. | h, msur: b ꝑ g,
+35.7 | f & g snt nr. req.
+
+## PROBL. IV. PROPOS. XXXVI.
+
+Duobus numeris datis, reperire quem illi minimum metiantur, numerum.
+
+*Deux nombres estans donnez, trouuer le plus petit nombre, qu'ils mesurent.*
+
+A.....4 B......5
+C,20.
+D--------
+E--- F---
+
+Hypoth.
+
+a & b snt nr. D.
+
+Req. est mi.c.diuidu.. a & b.

@@ -1,38 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-stantes du centre : Et celles qui sont également distantes du centre, sont égales entr'elles.
-
-Hypoth. 1.
-
-eabc est ⊙,
-ad 2|2 bc,
-
-[Figure: cercle A—B—C—D, E au centre, F et G au dedans, lignes A—D, B—C, E—A, E—B, E—F, E—G]
-
-Præpar.
-
-1.p.1 | ea & eb snt —,
-12.1 | ef ⊥ ad, α
-12.1 | eg ⊥ bc. α
-
-Req. π. demonstr.
-
-ef 2|2 eg,
+11.1 | knl ⊥ gi,
+1.p.1 | gk, gb, gc, gl snt —
 
 Demonstr.
 
-hyp. | ad 2|2 bc,
-3.3 | af 2|2 fd,
-α.3.3 | bg 2|2 gc,
-7.a.1 | af 2|2 bg,
-s.46.1 | ▭.af 2|2 ▭.bg, β
-s.46.1 | ▭.ae 2|2 ▭.eb,
-47.1 | ▭.af + ▭.fe 2|2 ▭.ae,
-47.1 | ▭.gb + ▭.ge 2|2 ▭.eb,
-1.a.1 | ▭.af + ▭.fe 2|2 ▭.gb + ▭.ge,
-β.3.a.1 | ▭.fe 2|2 ▭.ge,
-1.concl. s.46.1 | fe 2|2 ge.
+15.d.1 | ga 2|2 gk,
+15.d.1 | gd 2|2 gl,
+2.a.1 | ad 2|2 gk + gl,
+20.1 | gk + gl 3|2 kl,
+1.a.d. | ad 3|2 kl,
+α.14.3 | kl 2|2 fe,
+1.concl. 1.a.c | ad 3|2 fe,
+9.a.1 | <lgk 3|2 <cgb,
+2.concl. 24.1 | klufe 3|2 bc.
 
-Hypoth. 2.
+## THEOR. XV. PROPOS. XVI.
 
-ef 2|2 eg. γ
+Quæ ab extremitate diametri cuiusque circuli ad angulos rectos ducitur, extra ipsum circulum cadet; & in locum inter ipsam rectam lineam, & peripheriam comprehensum, altera recta linea non cadet: & semicirculi quidem angulus, quouis angulo acuto rectilineo maior est; reliquus autem minor.
+
+La ligne droicte menée de l'extremité du diametre du cercle, à angles droicts à iceluy diametre ; tombera hors le cercle, & en l'espace compris entre icelle ligne droicte & la circonference ne tombera pas d'autre ligne droicte : & l'angle du demy cercle est plus que tout angle rectiligne aigu, mais le reste est plus petit.
+
+Hypoth.
+
+balh est ⊙,
+cad ⊥ ah,
+<bal 2|3 ∟.
+
+Req. π. demonstr.
+
+ac est extr. ⊙,
+ae ñ est extr. ⊙,
+<bai 3|2 <bae,
+<iad 2|3 <ead.
+
+Præpar.

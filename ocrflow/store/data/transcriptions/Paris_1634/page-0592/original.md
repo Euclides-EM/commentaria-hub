@@ -1,57 +1,25 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-ΔB ΔC □A
+quarta, quantum est quadratum rectæ lineæ sibi longitudine commensurabilis : Quod si prima tantò plus possit quàm secunda, quantum est quadratum rectæ lineæ sibi incommensurabilis longitudine, & tertia tantò plus poterit quàm quarta, quantum est quadratum rectæ lineæ sibi longitudine incommeusurabilis.
 
-Demonstr.
+*Si quatre lignes droictes sont proportionelles, & la premiere peut plus que la seconde du quarré d'vne ligne qui soit commensurable en longitude à icelle, la troisiesme pourra plus aussi que la quatriesme du quarré d'vne ligne qui luy sera commensurable en longitude : Et si la premiere peut plus que la seconde du quarré d'vne ligne incommensurable en longitude à icelle, la troisiesme pourra aussi plus que la quatriesme du quarré d'vne ligne incommensurable en longitude à icelle.*
 
-suppos. | □a, est ration. expos.
-hyp. | Δb, comm. Δc,
-9.d.10 | □a, comm. Δc,
-12.10 | Δb, comm. □a,
-3.concl. 9.d.10 | Δb, est ration. β
-
-Hypoth. 4.
-
-b & c snt ration. γ
-
-Req. π. demonstr.
-
-b & c snt comm. ꝗe.
-
-Demonstr.
-
-γ.9d.10 | b, comm. □a,
-γ.9d.10 | c, comm. □a,
-4 concl. 12.10 | b, comm. c.
-
-Hypoth. 5.
-
-b, est ration.
-c, est irrat.
-
-Req. π. demonstr.
-
-b & c snt incom. ꝗe.
-
-Demonstr.
-
-suppos. | b, comm. c,
-hyp. | b, est ration.
-d.β | c, est ration.
-contr. hypoth.
-21.a.1 | b & c snt incom. ꝗe.
-
-## THEOR. X. PROPOS. XIII.
-
-Si sint duæ magnitudines, & altera quidem eidem sit commensurabilis, altera vero incommensurabilis ; incommensurabiles erunt magnitudines.
-
-*S'il y a deux grandeurs, & que l'vne soit commensurable à vne mesme grandeur, & l'autre incommensurable ; icelles grandeurs seront incommensurables entr'elles.*
-
-A----------
-C--------
-B----------
+ABECDF
 
 Hypoth.
 
-a, comm. c,
-b, incomm. c.
+a π b 2|2 c π d, α
+□.a 2|2 □.b + □.e, β
+□.c 2|2 □.d + □.f, γ
+
+Demonstr.
+
+α.22.6 | □.a π | □.b,
+□.c π | □.d,
+βγ.7.5 | □.b + □.e π | □.b,
+□.d + □.f π | □.d,
+17.5 | □.e π | □.b,
+□.f π | □.d,
+22.6 | e π b 2|2 f π d,
+c.4.5 | b π e 2|2 d π f,
+α.22.5 | a π e 2|2 d π f,

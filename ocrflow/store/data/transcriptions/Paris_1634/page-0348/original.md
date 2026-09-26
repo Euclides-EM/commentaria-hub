@@ -1,48 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-[Figure: triangle A, F, G, B avec points C, E, D, H, I]
+## PROBL. IV. PROPOS. XII.
+
+Tribus datis rectis lineis, quartam proportionalem inuenire.
+
+A trois lignes droictes donnees, trouuer la quatriesme proportionelle.
+
+[Figure: lignes A ; B ; C et triangle D, E, F avec G, H]
 
 Hypoth.
 
-ab & ac snt — D.
-part.. ac snt ad, de, ec
-
-Constr.
-
-<bac est arbitr.
-1.p.1 | bc est —,
-31.1 | df == cb,
-31.1 | eg == cb,
-symp. | af, fg, gb snt req.
-
-Præpar.
-
-31.1 | dh == ab.
-
-Demonstr.
-
-1.concl. 2.6 | ad π de 2|2 af π fg,
-2.concl. 2.6 | de π ec 2|2 di π ih
-34.1 | u fg π gb.
-
-## SCHOL.
-
-Datam rectam lineam finitam in quotlibet partes æquales secare.
-
-Coupper vne ligne droicte finie en tant de parties egales qu'on voudra.
-
-[Figure: ligne A—B avec lignes H, L, T, G, X, Z, M, O, C, F, P, Q, R, S, E, V, N, D]
-
-Hypoth.
-
-ab est — D.
+a, b, c snt — D.
 
 Req. π. fa.
 
-diuis.. ab ⁊n spart. 2|2 ⁊e,
+a π b 2|2 c π gh.
 
 Constr.
 
-arbitr. | <bad 2|2 abh,
-arbitr. | ar, rs, su, un, bz, zx, xt, tl snt 2|2 ⁊e,
-symp. | lr, ts, xu, zn snt —,
+<fdh est arbitr.
+3.1 | de 2|2 a,
+3.1 | ef 2|2 b,
+3.1 | dg 2|2 c,
+1.p.1 | ge est —,
+31.1 | fh == eg,
+symp. | gh est req.
+
+Demonstr.
+
+concl. 2.6 | deua π efub,
+| dguc π gh.
+
+## PROBL. V. PROPOS. XIII.
+
+Duabus datis rectis lineis, mediam proportionalem adinuenire.
+
+A deux lignes droictes donnees, trouuer la moyenne proportionelle.

@@ -1,26 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-ε. 47.1 | □.am 2|2 □.ac + □.cm,
-1. a. f | □.al 2|2 □.lm + □.mc + □.ac,
-47. 1 | □lc 2|2 □.lm + □.mc,
-1. a. f | □.al 2|2 □.lc + □.ac,
-48. 1 | <acl, est ⊥, λ
-47. 1 | □.al 2|2 □ lm + □.ma,
-θ. 47.1 | □.ma 2|2 □.mb + □.ba,
-1. a. f | □.al 2|2 □.lm + □.mb + □.ba,
-47. 1 | □.lb 2|2 □.lm + □.mb,
-1. a. f | □.al 2|2 □.ab + □.bl,
-48. 1 | <abl, est ⊥, μ
-d. λ | <dfh, est ⊥,
-d. μ | <deh, est ⊥,
-β. 26.1 | ab 2|2 de, & bl 2|2 eh,
-γ. 26.1 | ac 2|2 df, & cl 2|2 fh,
-α. 4. 1 | bc 2|2 ef, ν
-α. 4 1 | <abc 2|2 <def,
-α. 4. 1 | <acb 2|2 <dfe,
-θк. 3.a.1 | <cbm 2|2 <feк,
-εк. 3.a.1 | <bcm 2|2 <efк,
-ν. 26.1 | cm 2|2 fк,
-εк. 47. 1 | am 2|2 dk,
-47. 1 | lm 2|2 hk,
-concl. 8. 1 | <lam 2|2 <hdк.
+[Figure: labels arranged A B C D / G H / F M / D E / N / L / I K]
+
+efgh, est ◇piped.
+<iklm 2|2 <defg,
+<kil 2|2 <edf, α
+<lim 2|2 <fdg, α
+b,ik,il,im snt 2|2 ꝗe,
+klmn, est ◇piped.
+
+Req. π. demonstr.
+
+klmn 2|2 efgh.
+
+Demonstr.
+
+hyp. | a Ⅱ de π b Ⅱ ik, / b Ⅱ il π c Ⅱ df,
+14. 6 | ◇ fe 2|2 ◇ lk,
+◇eg, & ◇km snt bas.
+αc.35.11 | alt.. ●f 2|2 alt.. ●l,
+concl. 31. 11 | klmn 2|2 efgh.
+
+## THEOR. XXXII. PROPOS. XXXVII.
+
+Si quatuor rectæ lineæ proportionales fuerint, & solida parallelepipeda quæ ab ipsis & similia, & similiter describuntur, proportionalia erunt: Et si solida parallelepipeda, quæ & similia, & similiter describuntur, fuerint proportionalia; & ipsæ rectæ lineæ proportionales erunt.
+
+*Si quatre lignes droictes sont proportionelles, les solides parallelipipedes semblables & semblablement descrits d'icelles, seront aussi proportionaux : Et si les solides parallelipipedes, semblables & semblablement descrits, sont proportionaux; icelles lignes droictes seront aussi proportionelles.*
+
+Hypoth.
+
+a, b, c, d snt ——;

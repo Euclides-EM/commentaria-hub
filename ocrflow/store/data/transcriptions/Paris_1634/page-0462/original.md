@@ -1,28 +1,42 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-A...3, B...3G...3C
-D....4, E....4H....4F
+A....4E...3B
+C........8F......6D
+
+ɔ.20.d7 | ab 8,2,3,6|4 cd, ae 8,2,3,6|4 cf,
+suppos. | ab par. u part. cd,
+ɔ.20.d7 | ae par. u part. cf,
+7.& 8.7 | eb par. u part. fd,
+1.concl. 20.d.7 | eb π fd 2|2 ab π cd.
+
+A........8E......6B
+C....4F...3D
+
+suppos. | ab multipl. cd, α
+ɔ.20.d7 | ae multipl. cf,
+α.5.d 7 | cd par. ab, β cf par. ae,
+7.7 | fd par. eb, β
+β.3.d.7 | ab multipl. cd, eb multipl. fd,
+2.concl. 20.d 7 | ab π cd 2|2 eb π fd.
+
+## THEOR. X. PROPOS. XII.
+
+Si sint quotcunque numeri proportionales, erit quemadmodum vnus antecedentium ad vnum consequentium, ita omnes antecedentes ad omnes consequentes.
+
+*S'il y a tant de nombres qu'on voudra proportionaux, comme vn des antecedens sera à vn des consequens ; ainsi tous les antecedens seront à tous les consequens.*
+
+A......6 B..........9
+C....4 D.......6
+E..2 F...3
 
 Hypoth.
 
-a, par..bc 2|2 d, par.. ef,
+a π b, c π d, e π f snt raō. 2|2 ꝫe,
 
-a 2|3 d & bc 2|3 ef.
+Req. π. demonstr.
 
-Req. π demonstr.
-
-a, par. u part.. d 2|2 bc par. u part.. ef.
+a + c + e π b + d + f 2|2 a π b,
 
 Demonstr.
 
-3.p.7 | bg & gc snt part.. bc 2|2 a, α
-3.p.7 | eh & hf snt part.. ef 2|2 d, α
-s.4.d.7 | multd..part.. bc 2|2 multd..part.. ef,
-α.1.a.7 & 4.7 | a, par. u part.. d 2|2 bg par. u part.. eh, & gc par. u part.. hf,
-concl. 5 & 6.7 | bc par. u part.. ef 2|2 bg par. u part.. eh, u a, par. u part. d.
-
-## THEOR. VIII. PROPOS. X.
-
-Si numerus numeri partes fuerit, & alter alterius eædem partes : & vicissim, quæ partes est primus tertij, aut pars eædem partes erit & secundus quarti, aut pars.
-
-*Si vn nombre est telles parties d'vn nombre qu'vn autre est partie d'vn autre : aussi en changeant le premier sera telles parties ou partie du troisiesme, que le second du quatriesme.*
+ɔ.20.d7 | a,8,2,3,6|4, b, c,8,2,3,6|4, d, e,8,2,3,6|4, f,

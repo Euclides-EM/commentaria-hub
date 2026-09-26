@@ -1,37 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-sub tota, & altero segmentorum rectangulum, æquale sit ei, quod à reliquo segmēto fit, quadrato.
+2.c.17.1 | perpendic. ad est vers. d,
+4.2 | ▭.cd 2|2 ▭.cb + ▭.bd + 2▭.cbd,
+| ▭.ad commun. add.
+2.a.1 | ▭.cd + ▭.ad 2|2 ▭.cb + ▭.ba + 2▭.cbd,
+47.1 | ▭.cd + ▭.ad 2|2 ▭.ac,
+concl. 1.a.f | ▭.ac 2|2 ▭.ab + ▭.bc + 2▭.cbd.
 
-Coupper vne ligne droicte donnée de telle sorte, que le rectangle contenu sous la toute & l'vn des segments, soit égal au quarré de l'autre segment.
+## SCHOL.
 
-Hypoth.
+Cognitis lateribus trianguli amblygonij inuenire segmentum inter perpendicularem & obtusum angulum interceptum.
 
-ab est — D.
+Estans cognus les costez d'vn triangle obtusangle, trouuer le segment comprins entre la perpendiculaire & l'angle obtus.
 
-[Figure: quarré C—B—A—D, ligne I—G—H, D, E, A, F en bas, G sous B, ligne oblique E—B, rectangle G—H—F—A à droite]
+[Figure: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]
 
-Req. π. fa.
+hypoth. | ac est 10,
+hyp. | ab est 7,
+hyp. | cb est 5,
+1.s.1.d.2 | ▭.ac est 100,
+1.s.1.d.2 | ▭.ab est 49,
+1.s.1.d.2 | ▭.cb est 25,
+2.a.1. | ▭.ab + ▭.cb snt 74,
+12.2 | ▭.ac ~ ▭.ab ~ ▭.cb 2|2, 2▭.cbd
+3.a.1 | 2▭.cbd snt 26,
+7.a.1 | ▭.cbd est 13,
+hyp. | cb est 5,
+concl. 1.s.1.d.2 | bd est 2⅗.
 
-▭.abg 2|2 ▭.ag,
+## THEOR. XII. PROPOS. XIII.
 
-Constr.
-
-46.1 | ac est ▭.ab,
-10.1 | ae 2|2 ed,
-1.p.1 | be est —,
-3.1 | eaf 2|2 eb,
-46.1 | ah est ▭.af,
-symp. | ▭.abg 2|2 ▭.ag.
-
-Præpar.
-
-2.p.1 | hgi est —.
-
-Demonstr.
-
-constr. | de 2|2 ea,
-6.2 | dh ▭.dfa + ▭.ea 2|2 ▭.ef u ▭.eb,
-47.1 | ac ▭.ab + ▭.ea 2|2 eb,
-1.a.1 | ▭.dfa + ▭.ea 2|2 ac ▭.ab + ▭.ea,
-| ▭.ea commun. subtr.
-3.a.1 | dh ▭.dfa 2|2 ac ▭.ab,
+In oxygoniis triangulis, quadratum à latere angulum acutum subtendente minus est quadratis, quæ fiunt à lateribus acutum angulum comprehendentibus, rectangulo bis comprehenso, & ab vno

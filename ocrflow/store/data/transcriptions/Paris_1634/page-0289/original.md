@@ -1,25 +1,26 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## THEOR. II. PROPOS. II.
+hypoth. | hiua, multipl.. b, 2|2, lm, uc, multipl.. d,
+concl. β.2.5 | ei, multipl.. b, 2|2, fm, multipl.. d.
 
-Si prima secundæ æquè fuerit multiplex, atque tertia quartæ ; fuerit autem & quinta secundæ æquè multiplex, atque sexta quartæ ; erit & composita prima cum quinta, secundæ æquè multiplex, atque tertia cum sexta quartæ.
+## THEOR. IV. PROPOS. IV.
 
-Si la premiere est autant multiple de la seconde, que la troisiesme l'est de la quatriesme, & que la cinquiesme soit aussi autant multiple de la seconde que la sixiesme l'est de la quatriesme ; la composée de la premiere, & de la cinquiesme, sera autant multiple de la seconde, que la composée de la troisieme & de la sixiesme l'est de la quatriesme.
+Si prima ad secūdam eandem habuerit rationem, & tertia ad quartam : etiam æquè multiplices primæ & tertiæ, ad æquè multiplices secundæ & quartæ, iuxta quamuis multiplicationem, eandem habebunt rationem, si prout inter se respondent, ita sumptæ fuerint.
+
+Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme, aussi les equimultiples de la premiere & de la troisiesme auront mesme raison aux equimultiples de la seconde & de la quatriesme, selon quelque multiplication que ce soit, si elles sont prises ainsi qu'elles s'entre respondent.
 
 Hypoth.
 
-ab multipl.. c 2|2 de multipl.. f, α
-bg multipl.. c 2|2 eh multipl.. f, β
+a π b 2|2 c π d,
+e, multipl.. a, 2|2 f, multipl.. c,
+g, multipl.. b, 2|2, h, multipl.. d.
 
-[Figure: lignes verticales A—B—G auec C, et D—E—H auec F]
+[Figure: lignes verticales I—E—A—B—G—L et K—F—C—D—H—M]
 
 Req. π. demonstr.
 
-ag multipl.. c 2|2 dh multipl.. f.
+e π g, 2|2, f π h.
 
-Demonstr.
+Præpar.
 
-α.s.2.d.5 | multd.. part.. ab 2|2 multd.. part.. de,
-β.s.2.d.5 | multd.. part.. bg 2|2 multd. part. eh,
-2.a.1 | multd.. part.. ag 2|2 multd.. part.. dh,
-s.2.d.5 | ag multipl.. c 2|2 dh multipl.. f.
+i, multipl.. e, 2|2, k, multipl.. f, α

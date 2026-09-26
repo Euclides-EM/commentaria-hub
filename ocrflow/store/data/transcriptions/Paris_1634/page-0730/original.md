@@ -1,27 +1,25 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-## DEFINIT. IX.
+## DEFINIT. XV.
 
-Similes solidæ figuræ sunt, quæ similibus planis continentur multitudine æqualibus.
+Axis autem sphæræ, est quiescés illa recta linea, circum quam semicirculus conuertitur.
 
-*Semblables figures solides sont celles-là lesquelles sont contenues sous semblables plans, egaux en nombre.*
+*L'axe de la sphere est ceste ligne droicte immobile, à l'entour de laquelle tourne le demy cercle.*
 
-## DEFINIT. X.
+## DEFINIT. XVI.
 
-Æquales, & similes solidæ figuræ sunt,quæ similibus planis, multitudine, & magnitudine æqualibus continentur.
+Centrum sphæræ est idem, quod & semicirculi.
 
-*Egales & semblables figures solides sont celles qui sont contenuës de plans semblables,egaux en multitude & grandeur.*
+*Le centre de la sphere est le mesme, que celuy du demy cercle.*
 
-## DEFINIT. XI.
+## DEFINIT. XVII.
 
-Solidus angulus est plurium quàm duarum linearum, quæ se mutuò contingant, nec in eadem sint superficie, ad omnes lineas inclinatio.
+Diameter autem sphæræ, est recta quædam linea per centrum ducta, & vtrinque à sphæræ superficie terminata.
 
-*Angle solide est l'inclination de plus de deux lignes droictes se touchans à vn poinct n'estans en vne mesme superficie.*
+*Mais le diametre de la sphere est vne ligne droicte menee par le centre, se terminant de part & d'autre en la superficie de la sphere.*
 
-ALITER.
+## DEFINIT. XVIII.
 
-Solidus angulus est,qui pluribus, quàm duobus planis angulis in eodem non consistentibus plano, sed ad vnum pun-
+Conus est, quando rectanguli trianguli manente vno latere eorum, quæ circa rectum angulum, circúductum triangulum in seipsum rursus reuoluitur,vnde moueri cæperat, circumassum-
 
-AVTREMENT.
-
-*Angle solide est celuy qui est contenu sous plus de deux angles non constituez en vne mesme superficie, mais se rencontrans en vn*
+*Cone est vne figure solide contenuë en la reuolution d'vn triágle rectágle,quand l'vn des costez qui contiennent l'angle droict, demeurant immobile, le triangle est mené à l'entour iusqu'à ce qu'il retourne au lieu où*

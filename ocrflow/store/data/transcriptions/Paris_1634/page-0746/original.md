@@ -1,45 +1,45 @@
-<!-- Running title: ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID.. LI. XI. -->
 
-## PROBL. II. PROPOS. XII.
+eodem consistentes plano: parallela sunt, quæ per illa ducuntur, plana.
 
-Dato plano à puncto, quod in illo datum est, ad rectos angulos rectam lineam excitare.
+*Si deux lignes droictes se touchantes l'vne l'autre, sont paralleles à deux autres lignes droictes se touchantes l'vne l'autre; n'estans pas en vn mesme plan: les plans menez par icelles lignes sont paralleles.*
 
-*A vn plan donné, & d'vn poinct donné en iceluy, mener vne ligne droicte à angles droicts.*
-
-[Figure: labels arranged F D / B / A E / C]
+[Figure: labels arranged D / A G F / C I / B E H]
 
 Hypoth.
 
-bc, est plan. D.
-a, est ● D. ꝗn plan. bc.
-
-Req. π. fa.
-
-af ⊥ plan. bc.
-
-Constr.
-
-arbitr. | d, est ●, extr. plan. bc
-11. 11 | de ⊥ plan. bc,
-31. 1 | af == ed,
-symp. | req. est af.
-
-Demonstr.
-
-constr. | ed ⊥ plan. bc,
-constr. | af == ed,
-concl. 8. 11 | af ⊥ plan. bc.
-
-## THEOR. XI. PROPOS. XIII.
-
-Dato plano, à puncto, quod in illo datum est, duæ rectæ lineæ ad rectos angulos non excitabuntur, ab eadem parte.
-
-*A vn plan donné, d'vn mesme poinct donné en iceluy, on ne pourra pas mener de mesme part deux lignes droictes à angles droicts.*
-
-Hypoth.
-
-● c, est D. ꝗn plan. ab.
+ab == de, α
+ac == df. β
 
 Req. π. demonstr.
 
-cd & ce, n̄ snt ⊥ plan. ab.
+plan. bac == plan. [edf.
+
+Præpar.
+
+11. 11 | ag ⊥ plan. edf, γ
+31. 1 | gh == de, δ
+31. 1 | gi == df. ε
+
+Demonstr.
+
+αδ.30.1 | ab == gh,
+γ.3.d.11 | <agh, est ⊥,
+29. 1 | <gab, est ⊥,
+βε. 30.1 | gi == ac,
+γ.3 d.11 | <gai, est ⊥,
+29. 1 | <gac, est ⊥,
+4. 11 | ga ⊥ plan. bac,
+concl. 14. 11 | plan. bc == plan. ef.
+
+## THEOR. XIV. PROPOS. XVI.
+
+Si duo plana parallela plano quopiam secentur; communes illorum sectiones sunt parallelæ.
+
+*Si deux plans paralleles sont coupez par quelque autre plan, les lignes de leurs cōmunes sections seront paralleles.*
+
+Hypoth.
+
+plan. ab == plan. cd,
+heigf, est plan. secan.
+eh & gf snt intersect;

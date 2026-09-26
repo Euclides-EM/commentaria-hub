@@ -1,40 +1,54 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: arc A—B—C sur la base A—D—C, lignes A—B, B—C, B—D]
-
-Constr.
-
-1.p.1 | ac est —,
-10.1 | ad 2|2 dc,
-11.1 | db ⊥ ac, α
-symp. | ∩ab 2|2 ∩bc.
-
-Præpar.
-
-1.p.1 | ab & bc snt —.
-
-Demonstr.
-
-constr. | ad 2|2 dc,
-| db est commun.
-α.11.a.1 | <adb 2|2 <bdc,
-4.1 | ab 2|2 bc,
-concl. 28.3 | ∩ab 2|2 ∩bc.
-
-## THEOR. XXVII. PROPOS. XXXI.
-
-In circulo angulus, qui in semicirculo, rectus est: qui autem in maiore segmento, minor recto : qui vero in minore segmento, maior est recto. Et insuper angulus maioris segmenti, recto quidem maior est : minoris autem segmenti angulus, minor est recto.
-
-Au cercle, l'angle qui est au demy cercle est droict : mais celuy qui est au plus grand segment est plus petit qu'vn droict ; & celuy qui est au plus petit segment, est plus grand qu'vn droict. Et dauantage, l'angle du plus grand segment, est plus grand qu'vn droict ; mais l'angle du plus petit segment, est plus petit qu'vn droict.
+[Figure: cercle D—E—F, ligne A—C—B tangente en bas, lignes C—D, C—E, C—F, D—E, E—F]
 
 Hypoth.
 
-dabf est ⊙,
-adc est diamet.
+cfd est ⊙,
+ab, tang: ⊙,
+c, est • .. contact.
+ce, est — arbitr.
+
+Req. π. demonstr.
+
+<ecb 2|2 <edc,
+<eca 2|2 <efc.
 
 Præpar.
 
-arbitr. | b & f snt • in ∩abc
-1.p.1 | abe,db, cb,bf,cf snt —.
+11.1 | cd ⊥ ab,
+arbitr. | f, est • in ∩cfe,
+1.p.1 | cf, fe, ed snt —.
 
-Req. π. demonstr.
+Demonstr.
+
+19.3 | cd est diamet.
+31.3 | <ced est ∟,
+constr. | <dcb est ∟,
+32.1 | <edc + <ecd 2|2 ∟,
+1.a.1 | <dcb 2|2 <edc + <ecd,
+| <ecd commun. subtr.
+1.concl. 3.a.1 | <ecb 2|2 <edc, α
+22.3 | <efc + <edc 2|2, 2∟,
+13.1 | <eca + <ecb 2|2, 2∟,
+2.concl. α.3.a.1 | <eca 2|2 <efc.
+
+## PROBL. V. PROPOS. XXXIII.
+
+Super data recta linea describere segmentum circuli, quod capiat angulum æqualem dato angulo rectilineo.
+
+Sur vne ligne droicte donnée, descrire vn segment de cercle, lequel reçoiue vn angle égal à vn angle rectiligne donné.
+
+Hypoth.
+
+ab est — D.
+c, est < D.
+
+Req. π. fa.
+
+⌓ aieb capa.. <c.
+
+Constr.
+
+23.1 | <bad 2|2 <c,
+11.1 | ae ⊥ hd,

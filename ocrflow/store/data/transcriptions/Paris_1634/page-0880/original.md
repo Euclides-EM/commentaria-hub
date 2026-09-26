@@ -1,12 +1,28 @@
-<!-- Running title: ELEM.. EVCLID.. LI. XV. -->
+<!-- Running title: ELEM.. EVCLID. LI. XV. -->
 
-4. 1 | gh, hi, iк, kl, lg ſnt 2|2 ꝗe,
-31.d.11 | ghiкl, eſt pentagon. req.
+Aliter. | *Autrement.*
 
-Quod si eadem arte, in reliquis vndecim pyramidibus icosaedri, centra triangulorum rectis connectentur lineis, describentur pentagona æqualia & similia pentagono GHIKL, quamobrem duodecim huiusmodi pentagona dodecaedrum constituent: quòd quidem in icosaedro erit descriptum cum viginti anguli dodecaedri in centris viginti basium icosaedri cōsistant. Quapropter in dato icosaedro dodecaedrum descripsimus. | *Que ſi en la meſme maniere, aux autres vnze pyramides de l'icoſaedre, on conjoint des lignes droictes aux centres des triangles, on deſcrira des pentagones egaux & ſemblables au pentagone GHIKL: Parquoy douze pentagones conſtitueront vn dodecaedre, lequel ſera inſcrit en l'icoſaedre, les vingt angles du dodecaedre eſtans conſtituez aux centres des vingt baſes de l'icoſaedre. Donc en l'icoſaedre donné nous auons inſcrit vn dodecaedre; ce qu'il falloit faire.*
+[Figure: labels arranged B / H G / F / A C / D / E]
 
-SCHOL.
+Hypoth.
+abce, eſt □,
+ace, eſt rectili. D.
 
-Quoniam in nulla propositione horum Elementorum rectilinea cum curuilineis comparantur subnectam, hic duo problemata in quibus rectilinea curuilineis æquantur. | *A cauſe qu'il n'y a aucune propoſition en ces Elements où les rectilignes ſoient comparez auec les curuilignes, ie mettray icy deux problemes où les rectilignes ſont egaux aux curuilignes.*
+Conſtr.
 
-Dato angulo rectilineo æqualem angulum curuilineum describere.
+8. 4 | dabce, eſt ⊙,
+3. p. 1 | eafc, eſt ⊙,
+ſymp. | req. eſt afcgbha.
+
+Demonſtr.
+
+47. 1 | □.ea 2|2, 2□.ad,
+2. 12 | ⊙eafc 2|2, 2⊙dabc,
+7. a. 1 | ſectr. eafc & / ſemic. abc ſnt 2|2 ꝗe,
+concl. 3. a.1 | afcgh 2|2 △ace.
+
+Inuentio quadraturæ huius lunulæ, quæ est circulorum in ratione dupla existentium, refertur ad Hippocratem Chium; sed Franciscus Vieta variorum 8. cap. 9. dedit artem generalem quadrandi lunulas circulorum in data quacunque ratione multipla existentium. | *On attribue à Hippocrate la quadrature de ceſte lune, qui eſt compris de deux cercles qui ſont en raiſon double: Mais Monſieur Viete au 8. des diuerſes reſponſes a donné vne methode generale de quarrer les lunes des cercles multiples en telle raiſon qu'on voudra.*
+
+Finis decimiquinti & vltimi Elementorum Euclidis. | *Fin du quinzieſme & dernier liure des Elements d'Euclide.*
+
+[Ornament]

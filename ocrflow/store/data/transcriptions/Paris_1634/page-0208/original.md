@@ -1,45 +1,53 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle C—D, F au centre, ligne A—E—G—B tangente en bas, lignes C—E, F—D]
+Au cercle, les angles qui sont en vn mesme segment, sont égaux entr'eux.
 
-efc est diamet.
-
-Req. π. demonstr.
-
-fe ⊥ ab.
-
-Demonstr.
-
-suppos. | fg ⊥ ab,
-constr. | <fge est ∟,
-1.c.17.1 | <feg 2|3 ∟,
-19.1 | fe 3|2 fg,
-15.d.1 | fd 2|2 fe,
-1.a.d | fd 3|2 fg, contr. 9.a.1.
-concl. 21.a.1 | fe ⊥ ab.
-
-## THEOR. XVII. PROPOS. XIX.
-
-Si circulum tetigerit recta quæpiam linea, à contactu autem recta linea ad angulos rectos ipsi tangenti excitetur : in excitata erit centrum circuli.
-
-Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene vne ligne droicte, à angles droicts à la touchante; en icelle menée sera le centre du cercle.
-
-[Figure: cercle C—E, F au dedans, ligne A—C—B tangente en haut, ligne C—E, ligne C—F]
+[Figure: deux cercles ; le premier A—B—C—D, E au dedans, lignes A—C, A—D, B—D, B—C, D—C, E—D, E—C ; le second A—B—C—D, F au dedans, E au dessous, lignes A—B, A—C, B—D, B—C, D—C]
 
 Hypoth.
 
-ce est ⊙,
-ab tang: ⊙ cde,
-c, est •.. contact.
-ec ⊥ ab.
+edac est ⊙,
 
 Req. π. demonstr.
 
-centr.. ⊙ est in ec.
+<dac 2|2 <dbc,
+
+Præpar.. 1. cas:
+
+1.p.1 | ed & ec snt —.
 
 Demonstr.
 
-suppos | • f, est centr.. ⊙,
-1.p.1 | fc est —,
-18.3 | <fcb est ∟,
-hyp. | <ecb est ∟,
+20.3 | <dac 2|2, ½<dec,
+20.3 | <dbc 2|2, ½<dec,
+1.concl. 7.a.1 | <dac 2|2 <dbc, α
+
+Præpar.. 2. cas.
+
+1.p.1 | ab est —,
+
+Demonstr.
+
+d.α. | <adb 2|2 <acb,
+15.1 | <afd 2|2 <bfc,
+2.cōcl. 1.c.32.1 | <dac 2|2 <dbc.
+
+## THEOR. XX. PROPOS. XXII.
+
+Quadrilaterorum in circulis descriptorum anguli, qui ex aduerso, duobus rectis sunt æquales.
+
+Les figures de quatre costez inscrites au cercle, ont les angles opposez égaux à deux angles droicts.
+
+Hypoth.
+
+abcd est ⊙,
+abcd est 4<.
+
+Req. π. demonstr.
+
+<adc + <abc 2|2, 2∟
+<dab + <dcb 2|2, 2∟
+
+Præpar.
+
+1.p.1 | ac & bd snt —.

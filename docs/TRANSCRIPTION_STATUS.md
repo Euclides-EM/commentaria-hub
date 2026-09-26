@@ -12,34 +12,32 @@ WIP https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq
 
 # Alignment
 
-## The_Hague_1758
+## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
 
-Data set is public domain. I run the full OCR pipeline.
+Full Fable transcriptions exist and have already been manually curated. However, no copyright for the facsimile that the transcriptions were based on. Another public domain facsimile is available, but the transcriptions have not yet been aligned with it.
 
-Run the LLM corrector: https://euclides.huma-num.fr/hub/index.h?datasetId=ds_9m13nh&annotationId=ann_6jfdp6&currentPageOrKey=61&annotationTab=details with both Fable and Codex Sol, in parts.
+**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
 
-Fable usage:
+# Manual Curation
 
-- **Requests:** 382
-- **Input tokens:** 1,536
-- **Cached tokens:** 6,908,995
-- **Cache creation tokens:** 2,894,093
-- **Output tokens:** 493,701
-- **Reasoning tokens:** 0
-- **Total tokens:** 10,298,325
-- **Cost:** $90.53
+## Paris_1667
 
-### Codex — GPT-5.6 Sol
+OCR has been completed, the facsimile is public domain.
 
-- **Requests:** 28
-- **Input tokens:** 1,675,677
-- **Cached tokens:** 1,338,624
-- **Cache creation tokens:** 0
-- **Output tokens:** 81,425
-- **Reasoning tokens:** 0
-- **Total tokens:** 1,757,102
+Four cycles of LLM corrector run, due to token limit. Summarized metrics:
 
-**Next steps:** Mia alignment
+```shell
+pages=388
+tokens_input=796
+tokens_cached=3,701,775
+tokens_cache_creation=1,386,033
+tokens_output=296,854
+tokens_reasoning=0
+tokens_total=5,385,458
+cost_usd=$46.742450
+```
+
+**Next steps:** manual curation (I'm currently in p. 149 in my manual curation).
 
 ## Paris_1566
 
@@ -68,34 +66,7 @@ Fable usage:
 - **Total tokens:** 8,650,888
 - **Cost:** $107.55
 
-**Next steps:** Mia alignment
-
-## Paris_1667
-
-OCR has been completed, the facsimile is public domain.
-
-Four cycles of LLM corrector run, due to token limit. Summarized metrics:
-
-```shell
-pages=388
-tokens_input=796
-tokens_cached=3,701,775
-tokens_cache_creation=1,386,033
-tokens_output=296,854
-tokens_reasoning=0
-tokens_total=5,385,458
-cost_usd=$46.742450
-```
-
-**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile + manual curation (I'm currently in p. 149 in my manual curation).
-
-## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
-
-Full Fable transcriptions exist and have already been manually curated. However, no copyright for the facsimile that the transcriptions were based on. Another public domain facsimile is available, but the transcriptions have not yet been aligned with it.
-
-**Next steps:** Align the existing Fable Markdown files with the new public-domain facsimile.
-
-# Manual Curation
+**Next steps:** Manually curate the transcriptions.
 
 ## Antwerp_1654
 
@@ -122,6 +93,37 @@ Fable:
 - **Reasoning tokens:** 0
 - **Total tokens:** 9,334,606
 - **Cost:** $73.72
+
+**Next steps:** Manually curate the transcriptions.
+
+## The_Hague_1758
+
+Data set is public domain. I run the full OCR pipeline.
+
+Run the LLM corrector: https://euclides.huma-num.fr/hub/index.h?datasetId=ds_9m13nh&annotationId=ann_6jfdp6&currentPageOrKey=61&annotationTab=details with both Fable and Codex Sol, in parts.
+
+Fable usage:
+
+- **Requests:** 382
+- **Input tokens:** 1,536
+- **Cached tokens:** 6,908,995
+- **Cache creation tokens:** 2,894,093
+- **Output tokens:** 493,701
+- **Reasoning tokens:** 0
+- **Total tokens:** 10,298,325
+- **Cost:** $90.53
+
+### Codex — GPT-5.6 Sol
+
+- **Requests:** 28
+- **Input tokens:** 1,675,677
+- **Cached tokens:** 1,338,624
+- **Cache creation tokens:** 0
+- **Output tokens:** 81,425
+- **Reasoning tokens:** 0
+- **Total tokens:** 1,757,102
+
+**Next steps:** Manually curate the transcriptions.
 
 ## Basel_1562
 

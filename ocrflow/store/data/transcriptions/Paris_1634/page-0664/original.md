@@ -1,46 +1,51 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-4.cōcl. 10.10 | aggreg..□.ac + □.cb, comm. aggreg..□.df + □.fe.
+l.66.10 | df, comm. ac,
+l.66.10 | fe, comm. cb,
+α.hyp. | ac & cd snt medi.
+24.10 | df & fe snt medi.
+α.hyp. | ac, comm. cb ꝗn □,
+10.10 | fd, comm. fe ꝗn □,
+38.10 | de, est bimed.
+suppos. | ▭.acb, est ration.
+l.66.10 | ▭.dfe, cōm. ▭acb, β
+s.12.10 | ▭dfe, est ration.
+1.concl. 38.10 | de, est bimed. 1.
+suppos. | ▭.acb, est medi.
+β.24.10 | ▭.dfe, est medi.
+2 concl. 39.10 | de, est bimed. 2.
 
-Coroll. 1.
+## THEOR. LI. PROPOS. LXIX.
 
-hyp. | ac, comm. cb ꝗn □,
-s.10.10 | df, comm. fe ꝗn □.
+Majori commensurabilis, & ipsa major est.
 
-Coroll. 2.
-
-hyp. | □.ac, incomm. □.cb,
-ε.10.10 | □.df, incomm. □.fe.
-
-## THEOR. XLIX. PROPOS. LXVII.
-
-Ei, quæ ex binis nominibus, longitudine commensurabilis, & ipsa ex binis nominibus est, atque ordine eadem.
-
-*La ligne commensurable en longitude au binome, est aussi binome, & de mesme ordre.*
+*La ligne droicte commensurable à vne ligne majeure, est aussi ligne majeure.*
 
 A C B / D F E (lines)
 
 Hypoth.
 
-ab, est binom. α
+ab, est maj. α
 ac & cb snt nom.
-ac 3|2 cb,
+ae 3|2 cb,
 de, comm. ab.
 
 Req. π. demonstr.
 
-de, est binom..ord..ab
+de, est maj.
 
 Præpar.
 
-12.6 | ab π de 2|2 ac π df.
+12.16 | ab π de 2|2 ac π df.
 
 Demonstr.
 
-l.66.10 | df, comm. ac, & fe, comm. cb, β
-α.hyp. | ac & cb snt ration.
-s.12.10 | df & fe snt ration.
-α.hyp. | ac, comm. cb ꝗn □,
-c.l66.10 | df, comm. fe ꝗn □,
-37.10 | de, est binom.
-l.66.10 | ac π cb 2|2 df π fe,
+α.hyp. | □.ac, incomm. □.cb,
+l.61.10 | □.df, incomm. □.fe,
+α.hyp. | aggreg..□.ac + □.cb, est ration.
+l.66.10 | aggreg..□.df + □fe, comm. aggreg.□..□.ac + □.cb,
+s.12.10 | aggreg..□.df + □.fe, est ration.
+α.hyp. | ▭.acb, est medi.
+l.66.10 | ▭.dfe, cōm. ▭.acb,
+24.10 | ▭.dfe, est medi.
+concl. 40.10 | de, est maj.

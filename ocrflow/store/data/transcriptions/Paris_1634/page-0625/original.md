@@ -1,33 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-1.concl. | □.ba, incomm. □.ac, ꝑ demonstr. 34.10.
-47.1 | □.ba + □.ac 2|2 □.bc,
-hyp. | □.bc, est medi.
-2 concl. 24.10 | aggreg..□.ba + □.ac, est medi.
-hyp. | ▭.bc,ef, est medi.
-d.34.10 | ▭.bc,ef 2|2, 2▭.bc,da,
-24.10 | ▭.bc,da, est medi.
-s.22.6 | ▭.ba,ac 2|2 ▭.bc,da,
-3.concl. 24.10 | ▭.ba,ac, est medi.
-hyp. | bc, incomm. ef,
-13.10 | bc, incomm. eg,
-bc π eg,
-1.6 | □.bc π ▭.eg,bc / snt raō; 2|2 ꝗe,
-7.5 | □.bc π ▭.da,bc
-7.5 | □.bc π ▭.ba,ac
-10.10 | □.bc, incomm. ▭.ba,ac,
-47.1 | □.ab + □.ac 2|2 □.bc,
-4.concl. 14.10 | aggreg..□.ab + □.ac, incomm. ▭.ab,bc.
+ac, est irration.
 
-## SCHOL.
+Demonstr.
 
-Inuenire duas medias longitudine, & potentia incommensurabiles.
+hyp. | ab comm. bc ꝗn □,
+1.26.10 | □.ac, incomm. □.ab,
+hyp. | □.ab, est ration.
+concl. 10.d.10 | ac, est irration.
 
-*Trouuer deux lignes mediales incommensurables en longitude & en puissance.*
+## THEOR. XXVI. PROPOS. XXXVIII.
 
-Constr.
+Si duæ mediæ potentia tantùm commensurabiles componantur, quæ rationale contineant; tota irrationalis erit : vocetur autem ex binis mediis prima.
 
-36.10 | bc, est medi.
-36.10 | ▭.ba,ac, est medi.
-36.10 | ▭.ba,ac, incomm. □.bc,
-13.6 | ba π h 2|2 h π ac, α
+*Si deux lignes mediales commensurables en puissance seulement contenant vn rectangle rationel sont cōposees; la toute sera irrationelle : soit icelle appellee premiere de deux mediales.*
+
+A B C (line)
+
+Hypoth.
+
+ab & bc snt medi. comm. ꝗn □,
+▭.abc, est ration.
+Req. π. demonstr.
+
+ac, est irration.
+
+Demonstr.
+
+hyp. | □.ab, comm. □.bc ꝗn □,
+1.26.10 | □.ac, incōm. ▭.abc,
+hyp. | ▭.abc, est ration.
+concl. 10.d.10 | ac, est irration.
+
+## LEMM.
+
+Quod sub linea rationali, & irrationali continetur rectangulum, irrationale est.
+
+*Le rectangle contenu sous vne ligne rationelle, & vne irrationelle, est irrationel.*

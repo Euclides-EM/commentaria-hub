@@ -1,47 +1,21 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-suppos. | a, comm. e,
-1.concl. 10.10 | c, comm. f,
-suppos. | a, incomm. e,
-2 concl. 10.10 | c, incomm. f.
-
-## THEOR. XIII. PROPOS. XVI.
-
-Si duæ magnitudines commensurabiles componantur, & tota magnitudo vtrique ipsarum commensurabilis erit : Quod si tota magnitudo vni ipsarum commensurabilis fuerit, & quæ à principio magnitudines commensurabiles erunt.
-
-*Si deux grandeurs commensurables sont composees, la toute sera aussi commensurable à chacune d'icelles : Et si la toute est commensurable à vne d'icelles, les grandeurs proposees au commencement seront commensurables entr'elles.*
-
-A------B------C
-D------
-
-Hypoth. 1.
-
-ab, comm. bc.
-
 Req. π. demonstr.
 
-ac, est comm. ab, bc.
-
-Præpar.
-
-ʒ. 10 | d, est msur..ab & bc.
+ab, est incomm. bc.
 
 Demonstr.
 
-constr. | d, msur: ab & bc,
-1.a.10 | d, msur: ac,
-1.concl. 1.d.10 | ac, comm. ab, & bc.
+suppos. | ab, comm. bc,
+16.1 | ac, comm. ab,
+contr. hypoth.
 
-Hypoth. 2.
+## COROLL.
 
-ac, comm. ab.
+Sequitur ex his, si tota magnitudo ex duabus composita incommensurabilis sit alteri ipsarum, eandem & reliquæ incommensurabilem esse.
 
-Req. π. demonstr.
+*Il s'ensuit de ces demonstrations, que si vne grandeur composee de deux est incommensurable à vne d'icelles, qu'elle l'est aussi à l'autre.*
 
-ab, comm. bc.
+## THEOR. XV. PROPOS. XVIII.
 
-Demonstr.
-
-ʒ. 10 | d, msur: ac & ab, α
-ʒ.a.10 | d, msur: bc, α
-2 concl. α.1.d.10 | ab, comm. bc.
+Si fuerint duæ rectæ lineæ inæquales, quartæ autem parti quadrati, quod fit à minori, æquale parallelogrammum ad majorem applicetur, deficiens figura quadrata, & in partes longitudine commensurabiles ipsam diuidat ; major tantò plus poterit quàm minor, quantum est quadratum rectæ lineæ sibi longitudine commensurabilis : Quod si major tantò plus possit quàm minor, quantum est quadratum rectæ lineæ sibi longitudine commensurabilis, quartæ autem parti quadrati, quod fit à minori, æquale parallelogrammum ad majorem applicetur, deficiens figura quadrata, in partes longitudine commensurabiles ipsam diuidet.

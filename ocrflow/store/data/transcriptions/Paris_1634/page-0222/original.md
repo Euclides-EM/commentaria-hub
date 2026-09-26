@@ -1,49 +1,28 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle A—I—E—B, F au dedans, H au dehors à gauche, D en bas, lignes A—B, A—E, F—I, F—A, F—B, A—D, H—A ; angle G—C à part]
+β.3.3 | cg 2|2 gd, γ
+| ▭.aeb + □.fe
+5.2 | □.fbu□.fd
+β.47.1 | □.fg + □.gd
+γ.5.2. | □.fg + ▭.ced + □.ge
+47.1. | ▭.ced + □.fe
+| snt 2|2 ⁊e,
+1.a.1 | ▭.aeb + □.fe 2|2 ▭.ced + □.fe,
+| □.fe commun. subtr.
+3.concl 3.a.1 | ▭.aeb 2|2 ▭.ced, κ
 
-23.1 | <abf 2|2 <baf,
-3.p.1 | faib est ⊙,
-symp. | aib est ⌓ req.
+Demonstr.. 4. cas.
 
-Demonstr.
+| ab & cd ñ snt diamet.
+1.&2.p.1 | geh est diametr.
+d.κ | ▭.aeb 2|2 ▭.geh,
+d.κ | ▭.dec 2|2 ▭.geh,
+4.concl. 1.a.1 | ▭.aeb 2|2 ▭.dec.
 
-c.16.3 | had tang: ⊙,
-32.3 | <aib 2|2 <bad,
-constr. | <c 2|2 <bad,
-concl. 1.a.1 | <aib 2|2 <c.
+[Figure: quatre cercles marquez 1, 2, 3, 4 ; le premier A—C—B—D, E au dedans, lignes A—B, C—D ; le second A—C—D, F au dedans, E et B en bas, lignes A—E—B, C—D, F—D ; le troisiesme A—C—D—B, F au dedans, G et E en bas, lignes A—B, C—D, F—G, F—D ; le quatriesme G—A—C—B—H—D, F et E au dedans, lignes G—H, A—C, D—C, D—B]
 
-## THEOR. VI. PROPOS. XXXIV.
+## THEOR. XXX. PROPOS. XXXVI.
 
-A dato circulo segmentum abscindere capiens angulum æqualem dato angulo rectilineo.
+Si extra circulum sumatur punctum aliquod, ab eóque puncto in circulum cadant duæ rectæ lineæ, quarum altera quidem circulum secet, altera verò tangat : Quod sub tota secante, & exterius inter punctum & conuexam peripheriam assumpta comprehenditur rectangulum, æquale erit ei, quod à tangente describitur, quadrato.
 
-D'vn cercle donné, retrancher vn segment, qui reçoiue vn angle égal à vn angle rectiligne donné.
-
-[Figure: cercle B—C—A, lignes B—C, B—A, C—A, ligne E—A—F tangente en bas ; angle D à part]
-
-Hypoth.
-
-abc est ⊙,
-d, est < D.
-
-Constr.
-
-17.3 | ef tang: ⊙ abc, α
-17.3 | a, est • .. contact. α
-23.1 | <fac 2|2 <d,
-symp. | abc est ⌓ req.
-
-Præpar.
-
-arbitr. | b, est • in ∩ abc,
-1.p.1 | ab & cb snt —.
-
-Demonstr.
-
-α.32.3 | <abc 2|2 <caf,
-constr. | <d 2|2 <caf,
-concl. 1.a.1 | <abc 2|2 <d.
-
-## THEOR. XXIX. PROPOS. XXXV.
-
-Si in circulo duæ rectæ lineæ sese mutuò secuerint, rectangulum comprehensum sub segmentis vnius,
+Si on prend quelque poinct hors le cercle, & d'iceluy

@@ -1,34 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-## SCHOL. II.
-
-Si trianguli vnus angulus fuerit duplus aggregati reliquorum, quadratum, quod fit à latere duplum angulum subtendente, maius est quadratis, quæ fiunt à lateribus duplum angulum comprehendentibus, rectangulo sub lateribus duplum angulum continentibus comprehenso.
-
-Si vn angle d'vn triangle est double de l'aggregé de deux autres, le quarré du costé qui soustient l'angle double, est plus grand que les quarrez des costez qui le contiennent; du rectangle contenu sous les costez qui sont à l'entour de l'angle double.
-
-Hypoth.
-
-abc est △,
-<abc 2|2, 2<a + 2<acb.
-
-Req. π. demonstr.
-
-▭.ac 2|2 ▭.ab + ▭.bc + ▭.abc,
+▭.ac + ▭.abc 2|2 ▭.bc + ▭.ab.
 
 Præpar.
 
-2.p.1 | abe est —,
-3.1 | be 2|2 bc, α
-10.1 | bd 2|2 de,
-1.p.1 | cd, & ce snt —.
+3.1 | bf 2|2 bc, α
+10.1 | bd 2|2 df,
+1.p.1 | cf & cd snt —,
 
-[Figure: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]
+[Figure: triangle A—C—B, C au sommet, A, F, D, B en bas, lignes C—F, C—D]
 
 Demonstr.
 
-hyp. | <abc 2|2, 2<a + 2<acb,
-32.1 | <cbe 2|2 <a + <acb,
-1.a.1 | <abc 2|2, 2<cbe,
-| <cbe commun. add.
-2.a.1 | <abc + <cbe 2|2, 3<cbe,
-13.1 | <abc + <cbe 2|2, 2∟,
+hyp. | 2<b 2|2 <a + <acb,
+| <b commun. add.
+2.a.1 | 3<b 2|2 <a + b + <acb,
+32.1 | <a + <b + <acb 2|2, 2∟,
+1.a.1 | 3<b 2|2, 2∟,
+19.a.b | <b 2|2, ⅓..2∟,
+3.a.b | <bfc + <bcf 2|2, ⅔ ∟,
+α.5.1 | <bfc 2|2 <bcf,
+19.a | <bfc 2|2, ⅓ .2∟,
+19.a | <bcf 2|2, ⅓..2∟,
+c.6.1 | △bfc est æquilat.
+8.1 | <cdf 2|2 <cdb,
+1.d.1 | cd ⊥ ab,
+12.2 1.a.f 36.1 1.a.f | ▭.ac, ▭.af + ▭.fc + 2▭.afd, ▭.af + ▭.fb + 2▭.afd, ▭.af + ▭.fb + ▭.afb, ▭.af + ▭.abf. snt 2|2 ⁊e,
+1.a.1 | ▭.ac 2|2 ▭.af + ▭.abf,

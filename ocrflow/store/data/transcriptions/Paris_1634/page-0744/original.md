@@ -1,46 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-[Figure: labels arranged A H B / E G F / C I D]
+## PROBL. II. PROPOS. XII.
+
+Dato plano à puncto, quod in illo datum est, ad rectos angulos rectam lineam excitare.
+
+*A vn plan donné, & d'vn poinct donné en iceluy, mener vne ligne droicte à angles droicts.*
+
+[Figure: labels arranged F D / B / A E / C]
 
 Hypoth.
 
-ab, cd snt == ef.
+bc, est plan. D.
+a, est ● D. ꝗn plan. bc.
 
-Req. π. demonstr.
+Req. π. fa.
 
-ab == cd.
+af ⊥ plan. bc.
 
-Præpar.
+Constr.
 
-arbitr. | g, est ●, ꝗn ef,
-11. 1 | <egi & <egh snt ⊥
+arbitr. | d, est ●, extr. plan. bc
+11. 11 | de ⊥ plan. bc,
+31. 1 | af == ed,
+symp. | req. est af.
 
 Demonstr.
 
-4. 11 | gh & gi snt ꝗn vn. plan.
-4. 11 | eg ⊥ plan. hgi, α
-hyp. | ah == eg,
-α. 8.11 | ah ⊥ plan. hgi, β
-hyp. | ci == eg,
-α. 8.11 | ci ⊥ plan. hgi,
-concl. β. 6.11 | ab == cd.
+constr. | ed ⊥ plan. bc,
+constr. | af == ed,
+concl. 8. 11 | af ⊥ plan. bc.
 
-## THEOR. X. PROPOS. X.
+## THEOR. XI. PROPOS. XIII.
 
-Si duæ rectæ lineæ se mutuò tangentes, ad duas rectas se mutuò tangentes sint parallelæ, non autem in eodem plano; illæ angulos æquales comprehendent.
+Dato plano, à puncto, quod in illo datum est, duæ rectæ lineæ ad rectos angulos non excitabuntur, ab eadem parte.
 
-*Si deux lignes droictes se touchantes l'vne l'autre sont paralleles à deux lignes droictes se touchantes l'vne l'autre, & n'estans en vn mesme plan; icelles contiendront angles egaux.*
+*A vn plan donné, d'vn mesme poinct donné en iceluy, on ne pourra pas mener de mesme part deux lignes droictes à angles droicts.*
 
 Hypoth.
 
-ab == de,
-ac == df.
+● c, est D. ꝗn plan. ab.
 
 Req. π. demonstr.
 
-<bac 2|2 <edf.
-
-Præpar.
-
-3. 1 | ab, ac, de, df snt 2|2 ꝗe, α
-1. p. 1 | ad, bc, ef, be, cf snt ——.
+cd & ce, n̄ snt ⊥ plan. ab.

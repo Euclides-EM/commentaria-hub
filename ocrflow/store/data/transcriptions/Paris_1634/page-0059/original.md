@@ -1,5 +1,15 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-Postulatum à problemate sola construendi facilitate differt : nulla enim inest difficultas exhibendi quod exposcit postulatum, nec opus est demonstrare quæsitum esse factu possibile, & qua ratione ac methodo possit fieri : quoniam in postulato constructio quæsiti, & demonstratio constructionis per se sunt perspicua ; in problemate verò, constructio quæsiti non est ita manifesta, vt non indigeat demonstratione. | Le postulat differe du probleme de la seule facilité de construire, car il n'y a aucune difficulté d'exhiber le requis du postulat, & n'est pas besoin de monstrer que le requis se peut faire, ny comment, & par quelle methode il se peut faire : parce que postulat la construction du requis, & la demonstration de la construction, sont d'elles-mesmes manifestes : mais au probleme, la construction du requis n'est pas si manifeste qu'elle n'aye besoin de demonstration.
+seorsim : vt in 25 propositione appendicis, quoniam sunt quinque figuræ iisdem litteris notatæ, intelligenda est demonstratio in singulis figuris, ac proinde repetenda erit quinquies. | ment : comme en la 25 proposition de l'appendix, à cause qu'il y a cinq figures marquées par mesmes lettres, il faut entendre la demonstration en chaque figure ; & par consequent il faut la recommencer cinq fois.
 
-Pronunciatum siue axioma differt quoque à theoremate sola euidentia consequentiæ, quæ fit ab hypothesi ad quæsitum : in axiomate enim illa consequentia est per se perspicua & manifesta : in theoremate verò per se non est ita perspicua, vt non indigeat demonstratione : vt autem fiat euidens & perspicua, inter datum & quæsitum interponuntur plures consequentiæ, nobis euidentes | La maxime ou axiome differe außi du theoreme par la seule euidence de la consequence, qui se fait de l'hypothese au requis : car en l'axiome icelle consequence est de soy euidente & manifeste ; mais au theoreme, elle n'est pas de soy si manifeste, qu'elle n'ait besoin de demonstration : & afin de la rendre euidente & manifeste, entre le donné & le requis s'interposent plusieurs consequences, à nous manifestes ou d'elles-mesmes, ou par
+### XLII.
+
+Corollarium est consectarium, quod è facta demonstratione tanquam lucrum aliquod colligitur. | Corollaire est vne consequence, outre le requis qu'on infere de la demonstration.
+
+### XLIII.
+
+Lemma est demonstratio seorsim facta alicuius præmissæ, vt demonstratio quæsiti euadat breuior. | Lemme est vne demonstration qu'on fait separément, pour rendre la demonstration du requis plus briefue.
+
+### XLIV.
+
+Arbitrarium est, quod ad libitum sumitur vel fit. | Arbitraire est ce qui est pris ou faict à la volonté.

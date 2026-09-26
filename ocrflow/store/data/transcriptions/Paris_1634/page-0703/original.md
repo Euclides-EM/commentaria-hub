@@ -1,45 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-24. 10 | ▭gк, est medi.
-23.10 | gl, est ration. incomm. de, ♪
-γ. 13. 10 | dl, incomm. gl,
-γ♪s12 10 | □.dl, comm. □.gl,
-74. 10 | dg, est apotom.
-1cl97.10 | □.dl 3|2 □.gl..□. / ——, comm. dl,
-concl. 1d85. 10 | dg, est apotom. 1.
+## THEOR. LXXVII. PROPOS. CI.
 
-## THEOR. LXXV. PROPOS. XCIX.
+Quadratum minoris ad rationalem applicatum, latitudinem facit apotomen quartam.
 
-Quadratum mediæ apotomæ primæ ad rationalem applicatum, latitudinem facit apotomen secundam.
-
-*Le quarré d'vn apotome premier appliqué à vne ligne rationelle, fait la latitude apotome second.*
+*Le quarré d'vne ligne mineure, appliqué à vne ligne rationelle, fait la latitude apotome quatriesme.*
 
 Hypoth.
 
-ab, est apotom. 1.. medi. α
+ab, est min. α
 bc, est congruen.
 de, est ration.
 ▭df 2|2 □.ab.
 
 Req. π. demonstr.
 
-dg, est apotom. 2.
+dg, est apotom. 4.
 
 Lemm. 97. 10. est præpar.
 
 Demonstr.
 
-α. hyp. | ac & bc snt medi; comm. ꝗn □,
-l 97.10 | ▭dk 2|2 □.ac + □.bc
-1cl97.10 | ▭dk, comm. □.ac,
-α. 24.10 | ▭dk, est medi.
-23 10 | dl, est ration. incomm. de, γ
-α. hyp. | ▭acb, est ration.
-l.97.10 | ▭gk, 2▭acb,
-s 12.10 | ▭gк, est ration.
-21. 10 | gl, est ration. cōm. de,
-γ. 13. 10 | dl, incomm. gl,
-γs12.10 | □.dl, comm. □.gl,
-74. 10 | dg, est apotom.
-c l79.10 | □.dl 3|2 □.gl..□. / ——, comm. dl,
-concl. 2d85.10 | dg, est apotom. 2.
+l.97.10 | ▭dk 2|2 □.ac + □.bc
+α. hyp. | aggreg.. □.ac + □.bc est ration.
+s.12.10 | ▭dк, est ration.
+21. 10 | dl, est ration. comm. de, β
+α. hyp. | ▭.acb, est medi.
+l.97.10 | ▭gк 2|2, 2▭acb,
+24. 10 | ▭gк, est medi.
+23. 10 | gl, est ration. incomm. de,
+β. 13. 10 | dl, incomm. gl,
+s.12.10 | □.dl, comm. □.gl,
+64. 10 | dg, est apotom.
+α. hyp. | □.ac, incomm. □.bc,
+cl.97.10 | □.dl 3|2 □.gl..□. / ——, incomm. dl,
+concl. 4d85.10 | dg, est apotom. 4.
+
+## THEOR. LXXVIII. PROPOS. CII.
+
+Quadratum eius, quæ cum rationali medium totum efficit, ad rationalem applicatum, latitudinem facit apotomen quintam.

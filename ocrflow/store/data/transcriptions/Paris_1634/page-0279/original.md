@@ -1,22 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## DEFINIT. X.
+dicuntur antecedentes quidem antecedentibus, consequentes verò consequentibus.
 
-Cùm autem tres magnitudines proportionales fuerint, prima ad tertiam duplicatam rationem habere dicetur eius, quam habet ad secundam : at cùm quatuor magnitudines proportionales fuerint, prima ad quartam triplicatam rationem habere dicetur eius quam habet ad secundam, & semper deinceps, vno amplius, quandiu proportio extiterit.
+ble raison, les antecedentes aux antecedentes, & les consequentes aux consequentes.
 
-Quand il y a trois grandeurs proportionnelles, la premiere à la troisiesme est dite auoir la raison doublée de la premiere à la seconde : mais quand quatre grandeurs sont proportionnelles, la premiere à la quatriesme est dite auoir la raison triplée de la premiere à la seconde, & tousiours de mesme ordre, vne de plus, iusques à ce que la proportion soit acheuée.
+A, 4. B, 6. C, 10. D, 15.
 
-A, 2. B, 6. C, 18. D, 54. E, 162.
+hyp. | a π b 2|2 c π d,
+11.d.5 | a & c snt homolg. ⁊e. item b & d ⁊e.
 
-hyp. | a, b, c, d, e snt contin. proport.
-10.d.5 | raō.. a π c 2|2, 2 raō.. a π b,
-10.d.5 | raō.. a π d 2|2, 3 raō.. a π b,
-10.d.5 | raō.. a π e 2|2, 4 raō.. a π b.
+## DEFINIT. XI.
 
-Explicatio notarum.
+Alterna ratio, est sumptio antecedentis ad antecedentem, & consequētis ad consequētem.
 
-A, B, C, D, E sunt continuè proportionales.
+La raison alterne, est prendre l'antecedent pour le comparer à l'antecedent, & le consequent au consequent.
 
-Explication des notes.
+A, 6. B, 4. C, 12. D, 8.
 
-A, B, C, D, E sont continuellement proportionnelles.
+hyp. | a π b 2|2 c π d,
+16.5 | a π c 2|2 b π d.
+
+In hac definitione & quinque sequentibus imponuntur tantùm nomina sex modis argumētandi quibus Mathematici frequenter vtuntur : demonstrationes verò huiusmodi illationum inuenientur in propositionibus huius libri, quæ in explicationibus harū definitionum citantur.
+
+En ceste definition & aux cinq suiuantes sont seulement imposez les noms aux six façons d'argumenter, dont l'vsage est fort frequent entre les Mathematiciens : mais les demonstrations de telles consequences se trouuent aux propositions de ce liure, qui sont citées en l'explication de ces definitions.
+
+## DEFINIT. XIII.
+
+Inuersa ratio, est sumptio consequentis, ceu
+
+Raison inuerse, est prendre le consequent comme ante-

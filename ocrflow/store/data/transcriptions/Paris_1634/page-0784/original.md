@@ -1,34 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-9.a. 1 | △bdg 3|2 bdgob,
-9.a. 1 | △cfg 3|2 cfgzc,
-concl. 1. a. c | △adf 3|2 bogzcfd.
+[Figure: labels arranged A / K V P E / L O / Q / B D F H / I / K / S T / M N / C G]
 
-## LEMM. III.
+β. 4.a.b | plan. i, 2|3 polyg. gmfleohn, γ
+constr. | polyg. absctdu, sml. polyg. elfmgnho,
+1. 12 | polyg. asu π polyg. emo 2|2 □.ac π □.eg,
+α | ⊙abt π i 2|2 □.ac π □.eg,
+11. 5 | polyg. asu π polyg. emo 2|2 ⊙abt π i,
+9. a. 1 | polyg. asu 2|2 ⊙abt,
+14. 5 | polyg. emo 2|3 plan. i,
 
-Rectilineum circulo inscribere, & aliud circumscribere, ita vt plana comprehensa inter periphæriam & rectilineum inscriptum, vel circumscriptum sint minora dato quocunque plano.
+contr. concl. γ
 
-*Inscrire vn rectiligne dans le cercle, & circonscrire vn autre à l'entour, en sorte que les plans compris entre la circonference & le rectiligne inscrit ou circonscrit soient moindres que quelconque plan donné.*
+1.concl. 21. a. 1 | plan. i, n̄ est 2|3 ⊙efn, δ
+2 suppo. | plan. i 3|2 ⊙efn, ε
+α | □.ac π □.eg 2|2 ⊙abt π plan. i,
+c. 4. 5 | i π ⊙abt 2|2 □.eg π □.ac, θ
+suppos. | i π ⊙abt 2|2 ⊙efn π plan. к, θ
+ε. 14.5 | ⊙abt 3|2 plan. к, λ
+θ. 11. 5 | □.eg π □.ac 2|2 ⊙efd π plan. k,
 
-[Figure: labels arranged E N B O F / I L / M R P / V C / T / S Q / G D H]
+contr. concl. δ
 
-Hypoth.
+2 concl. 21. a. 1 | □.ac π □.eg 2|2 ⊙abt π ⊙efn.
 
-aibld, est ⊙,
-r, est plan. D.
+## COROLL.
 
-Constr.
-
-6. 4 | abcd, est □. inscri. ⊙,
-30.3 | aib, est △ isosc. &c.
-7. 4 | gefh, est □ circscri.
-30. 3 | mn tang: ⊙ ꝗn i &c.
-
-Demonstr.
-
-47.1 | □ac 2|2, ½ □gf,
-9.a. 1 | ⊙abcd 2|3 □gf,
-6. a. b | □ac 3|2, ½ ⊙abld,
-1.l.1.12 | △aib 3|2, ½ D aib,
-1.l.1.12 | △blc 3|2, ½ D blc, &c.
-1.concl. 1. 10 | aggreg.. D ai + D ib + D bl + D lc + cq &c. 2|3 r
+Hinc constat ita esse circulum ad circulum, vt polygo-

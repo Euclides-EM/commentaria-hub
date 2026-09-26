@@ -1,46 +1,26 @@
-<!-- Running title: ELEM.. EVDLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-Si au cercle deux lignes se couppent l'vne l'autre, n'estant point menées par le centre, elles ne se coupperont point l'vne l'autre en deux également.
+ma quidem erit ea, in qua centrum, minima vero reliqua; aliarum vero propinquior illi, quæ per centrum ducitur, remotiore semper maior est: Duæ autem solum rectæ lineæ æquales ab eodem puncto in circulum cadunt, ad vtrasque partes minimæ, vel maximæ.
 
-[Figure: cercle A—C—B—D, E au dedans, F au croisement, lignes A—B et C—D se couppant en F, ligne E—F]
+Si au diametre d'vn cercle on prend quelque poinct, lequel ne soit point le centre du cercle; & de ce poinct, à la circonference tombent quelques lignes droictes, la plus grande sera celle-là en laquelle est le centre, mais la plus petite sera celle qui reste. Des autres tousiours la plus proche de celle qui passe par le centre, est plus grande que celle qui en est plus esloignée: & deux lignes droictes égales tant seulement tombent d'iceluy poinct au cercle, de part & d'autre de la plus petite, ou de la plus grande.
+
+[Figure: cercle A—C—D—E—B—H, F au centre, G sous F, lignes de G vers C, D, E, H, diametre A—B, lignes F—C, F—D, F—E]
 
 Hypoth.
 
-eacd est ⊙,
-af 2|2 fb.
-
-Req. π. demonstr.
-
-cf ñ est 2|2 fd.
+fadh est ⊙,
+ab est diamet.
 
 Præpar.
 
-1.p.1 | fe est —.
-
-Demonstr.
-
-suppos. | cf 2|2 fd,
-3.3 | <efd est ∟,
-hyp. | af 2|2 fb,
-3.3 | <efb est ∟,
-12.a.1 | <efd 2|2 <efb, contr. 9.a.1.
-concl. 21.a.1 | cf ñ est 2|2 fd.
-
-## THEOR. IV. PROPOS. V.
-
-Si duo circuli sese mutuò secent; non erit illorum idem centrum.
-
-Si deux cercles se couppent l'vn l'autre, ils n'auront pas le mesme centre.
-
-[Figure: deux cercles s'entrecouppans en B et C, E au dedans, A et D à gauche, lignes B—E et E—D—A]
-
-hyp. | bac & bdc snt ⊙.
+g, est • arbitr. in fb,
+1.p.1 | gc, gd, ge snt —,
+1.p.1 | fc, fd, fe snt —,
+23.1 | <gfh 2|2 gfe,
+1.p.1 | gh est —,
 
 Req. π. demonstr.
 
-e ñ est centr.. ⊙ bac &.. ⊙ bdc.
-
-Demonstr.
-
-suppos. | e, est centr.. ⊙ bac &.. ⊙ bdc,
-1.p.1 | eda est —,
+ga 3|2 gc,
+gc 3|2 gd,
+ge 3|2 gb,

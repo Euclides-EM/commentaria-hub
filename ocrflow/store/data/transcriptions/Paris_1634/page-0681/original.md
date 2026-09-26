@@ -1,29 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-suppos. | ef, est ration. expos.
-4.app. | ▭eg 2|2 □.ac + □.bc,
-4.app. | ▭ei 2|2 □.ab,
-4.app. | ▭el 2|2 □.ad + □.bd.
+αs 12.10 | 2▭.acb .∼: 2▭.adb, est ration.
+
+contr. 27.10.
+
+## THEOR. LXVI. PROPOS. LXXXIV.
+
+Ei, quæ cum rationali mèdium totum facit, vna tantùm congruit recta linea potentia incommensurabilis existens toti, & cum tota faciens compositum quidem ex ipsarum quadratis medium; quod autem sub ipsis continetur rationale.
+
+*A la ligne faisant auec vn espace rationel vn tout medial, conuient vne seule ligne droicte incommensurable en puissance à la toute, & faisant auec la toute le composé de leurs quarrez medial; mais le rectangle contenu sous icelles rationel.*
+
+Hypoth.
+
+ab, est fa. ration. & med.
+bc, est congruen.
+
+Req. π. demonstr.
+
+A B C D (line)
+
+bd, n̄, est congruen.
 
 Demonstr.
 
-7.2 | 2▭.acb + □.ab 2|2 □.ac + □.bc,
-constr. | ▭eg 2|2 □.ac + □.bc,
-1.a.1 | 2▭acb + □.ab 2|2 ▭eg,
-constr. | ▭ei 2|2 □.ab,
-3.a.1 | 2▭.acb 2|2 ▭kg, α
-d. α | 2▭.adb 2|2 ▭kl,
-hyp. | □.ac & □.bc sut medi.
-hyp. | □.ac, comm. □.bc,
-16.10 | aggreg.. □.ac + □.bc, comm. □.bc,
-c 24.10 | aggreg..□.ac + □.bc, u ▭eg, est medi.
-1.concl. 23.10 | eh, est ration. & incomm. ef,
-hyp. | ▭.acb, est medi.
-c.24.10 | 2▭.acb, u kg, est medi.
-2 concl. 23.10 | kh, est ration. & incomm. ef,
-c.l26.10 | aggreg.□.ac + □.bc, u ▭eg, incomm. 2▭.acb, / u ▭.kg,
-3.concl. 1.6, & 10.10 | eh, incomm. кh,
-74.10 | eк, est apotom. & kh, congruen. β
-d. β | ek, est apotom. & кm, congruen.
-
-contr. 80.10.
+suppos. | bd, est congruen.
+hyp. & suppos. | ▭.acb & ▭.adb snt ration.
+s. 12.10 | 2▭.acb & 2▭.adb snt ration.
+s. 17.10 | 2▭.acb .∼: 2▭.adb, est ration. α
+hyp. | □.ac + □.bc, & □.ad + □.bd snt medi; β

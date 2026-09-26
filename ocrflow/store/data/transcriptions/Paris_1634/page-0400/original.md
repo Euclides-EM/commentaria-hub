@@ -1,42 +1,39 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-[Figure: demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E]
+15.1 | <fed 2|2 <beh,
+β.6.6 | <dfe 2|2 <ebh,
+32.3 | <dcb 2|2 <ebh,
+1.a.1 | <dfe 2|2 <dcb,
+concl. 29.1 | bc == ef.
 
-α | ▭.adf 2|2 ▭.edh,
-1.a.1 | ▭.edi 2|2 ▭.edh,
-14.6 | ed π hd 2|2 ed π id,
-14.5 | hd 2|2 id,
+## THEOR. VI. PROPOS. XVII.
 
-contr. 9. ax. 1.
+Pappus lib. 7. propos. 57.
 
-2.concl. 21.a.1 | bif est — & ⊥ ad. β
-
-Hypoth. 3.
-
-aib est Δ amblygon.
-
-12.1 | die ⊥ ab,
-1&2.p.1 | aig, bgd, ad snt —,
-31.3 | ag ⊥ bd,
-31.3 | <abd 2|3 ⌐,
-1.c.17.1 | <ead 2|3 ⌐,
-1.c.17.1 | <adg 2|3 ⌐,
-3.concl. d. β | i, est inters.. perpend. de, ag & bf.
-
-## SCHOL.
-
-Commandinus ad 62. propos. lib. 7. Pappi adfert demonstrationem ostensiuam huius theorematis : sed eius demonstratio nihil probat ; quoniam non demonstrauit circulos se mutuo tangere.
-
-## THEOR. IV. PROPOS. XV.
-
-[Figure: quatre figures numerotees 1, 2, 3, 4 : cercles auec les poincts A, B, C, D & les lignes E, F, G au bas]
-
-Pappus lib. 7. propos. 107.
+[Figure: deux demicercles sur A B & sur C D, auec les poincts A, C, F, E, D, B, & les lignes F G, E L]
 
 Hypoth.
 
-abd est ⊙,
+af 2|2 fb,
 
-eb est tangen.
+cf 2|2 fd,
 
-ef π eb 2|2 eb π eg, α
+ad 3|2 ae.
+
+Req. π. demonstr.
+
+▭.aeb 2|2 ▭.adb + ▭.ced,
+
+□.ad + □.db 2|2 □.ae + □.eb + 2▭.ced.
+
+Demonstr.
+
+5.2 | ▭.aeb + □.fe 2|2 □.fb,
+5.2 | ▭.adb + □.fd 2|2 □.fb,
+1.a.1 | ▭.aeb + □.fe 2|2 ▭.adb + □.fd,
+4.2 | ▭.ced + □.fe 2|2 □.fd,
+1.a.f | ▭.aeb + □.fe 2|2 ▭.adb + ▭.ced + □.fe,
+1.concl. 3.a.1 | ▭.aeb 2|2 ▭.adb + ▭.ced, α
+4.2 | □.ad + □.db + 2adb 2|2 □.ab,
+4.2 | □.ae + □.eb + 2▭.aeb 2|2 □.ab,
+1.a.1 | □.ad + □.db + 2▭.adb 2|2 □.ae + □.eb + 2▭.aeb,

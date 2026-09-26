@@ -1,17 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-tera singulos eius figuræ angulos tetigerint, circū quam illa describitur.
+ptari dicitur, cùm eius extrema in circuli peripheria fuerint.
 
-te, touche chacun angle, de celle à l'entour de laquelle elle est descrite.
+au cercle, quand les extremitez d'icelle sont en la circonference du cercle.
 
-[Figure: triangle A—B—C auec triangle D—E—F inscrit dedans, F sur B—C ; triangle G—H—I auec triangle L—M—N, N au dedans ne touchant pas H—I]
+[Figure: cercle A—B—C auec triangle inscrit ; triangle D—E—F auec cercle G—I—H inscrit ; cercle A—D—B auec cordes C—D et A—B, et E au dedans]
 
-Vt triangulum DEF est inscriptū in triangulo ABC, quia singuli anguli inscripti DEF tangunt singula latera circumscripti ABC ; è contrario triangulum ABC est descriptum circa triangulum DEF, quoniam singula latera illius singulos angulos huius tangunt : Triangulum verò LMN non est inscriptum in triangulo GHI propterea quòd angulus N non tangat latus HI.
+## PROBL. I. PROPOS. I.
 
-Comme le triangle DEF est inscrit dans le triangle ABC, à cause que chacun des angles de l'inscrit DEF touchent chacun des costez du circonscrit ABC ; & au contraire le triangle ABC est descrit à l'entour du triangle DEF, à cause que chacun des costez de celuy-là touche chacun des angles de celuy-cy : Mais le triangle LMN n'est pas inscrit dans le triangle GHI, à cause que l'angle N ne touche point le costé HI.
+In dato circulo rectam lineam accommodare æqualem datæ rectæ lineæ, quæ circuli diametro non sit maior.
 
-## DEFINIT. III.
+Au cercle donné, accommoder vne ligne droicte, égale à vne ligne droicte donnée, laquelle ne soit pas plus grande que le diametre du cercle.
 
-Figura rectilinea in circulo inscribi dicitur, cùm singuli eius figuræ, quæ inscribitur, anguli tetigerunt circuli peripheriam.
+[Figure: deux cercles s'entrecouppans, le grand B—E—C de centre A, le petit B—D autour de A, ligne A—E—C, ligne A—B, ligne D]
 
-Vne figure rectiligne est dite estre inscrite en vn cercle, quand vn chacun angle de l'inscrite, touche la circonference du cercle.
+Hypoth.
+
+abc est ⊙ D.
+ac est diamet.
+d, est — D.
+d 2|3 ac.
+
+Req. π. fa.
+
+accommod. ab 2|2 d, in ⊙ abc.
+
+Constr.
+
+3.1 | ae 2|2 d,
+3.p.1 | aeb est ⊙,
+1.p.1 | ab est —,
+symp. | ab est req.

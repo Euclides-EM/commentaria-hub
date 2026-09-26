@@ -1,45 +1,17 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-Ratio est duarum magnitudinum habitudo.
+quotam qualis est proportio 3. ad 2. quæ sesquialtera vocatur 9. à 8. dicitur sesquioctaua.
 
-Proportionalitas seu analogia est rationum similitudo.
+Proportio superpartiens est habitudo maioris quantitatis ad minorem, quando maior minorem semel duntaxat continet, & insuper aliquot eius partes aliquotas, non efficientes vnam aliquotam ; qualis est proportio 8. ad 5. quæ dicitur super tripartiens quintas, 5. ad 3. dicitur superbi partiens tertias.
 
-Proportio sumitur in vtramque significationem.
+Proportio multiplex superparticularis est habitudo maioris quantitatis ad minorem, quando maior minorem aliquoties continet, & præterea vnam eius partem aliquotam, vt proportio 5. ad 2. quæ dupla sesqui altera vocatur 26. ad 8. tripla sesquiquarta.
 
-Proportio geometrica, quatenus significat rationem, diuiditur in proportionem rationalem & irrationalem.
+Proportio denique multiplex superpartiēs est habitudo maioris quātitatis ad minorem, quando maior aliquoties complectitur minorem, & insuper aliquot eius partes aliquotas, non conficientes vnam ; qualis est proportio 8. ad 3. quæ vocatur dupla superbipartiens tertias 30. ad 8.
 
-Rationalis est ea, quæ in numeris potest exhiberi, qualis est proportio 6. ad 4.
+partie aliquote d'icelle moindre, comme est la proportion de 3. à 2. qui s'appelle sesquiseconde, & de 9. à 8. sesquioctaue.
 
-Irrationalis verò proportio ea est, quæ in numeris exhiberi nequit, qualis est proportio diametri cuiuslibet quadrati ad latus eiusdem quadrati ; hæc enim in numeris reperiri non potest.
+La proportion superpartiente est l'habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite vne fois seulement, & en outre, quelques parties aliquotes d'icelle moindre, lesquelles prises ensemble, ne font pas vne partie aliquote, comme est la proportion de 8. à 5. qui s'appelle proportion supertripartiente quintes, & 5. à 3. superbipartiente tierces.
 
-Proportio diuiditur etiam in proportionem æqualitatis & inæqualitatis.
+La proportion multiple superparticuliere est l'habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite certain nombre de fois, & en outre vne partie aliquote de la moindre, comme est la proportion de 5. à 2. qui s'appelle double sesquiseconde, & 26. à 8. triple sesquiquarte.
 
-Æqualitatis proportio est inter duas quantitates æquales, qualis est proportio 6. ad 6.
-
-Inæqualitatis verò proportio inter duas quantitates inæquales reperitur, qualis est proportio 6. ad 4.
-
-Proportio inæqualitatis subdiuiditur in proportionem maioris inæqualitatis, & minoris inæqualitatis.
-
-Proportio maioris inæqualitatis est, quando maior quanti-
-
-Raison est l'habitude de deux grandeurs.
-
-Proportionalité ou analogie est vne similitude de raisons.
-
-Proportion se prend en l'vne & l'autre signification.
-
-La proportion geometrique, la prenant pour raison, se diuise en proportion rationnelle & irrationnelle.
-
-La rationnelle est celle-là, laquelle peut estre exprimée par nombres, comme est la proportion de 6 à 4.
-
-L'irrationnelle est celle-là, laquelle ne peut estre exprimée par nombres, cōme est la proportion du diametre d'vn quarré au costé du mesme quarré ; car ceste raison ne peut estre trouuée aux nombres.
-
-La proportion se diuise aussi en proportion d'egalité & d'inegalité.
-
-La proportion d'egalité est celle qui est entre deux quantitez égales, comme est la proportion de 6. à 6.
-
-La proportion d'inégalité est celle qui est entre deux quantitez inégales, comme est la proportion de 6. à 4.
-
-La proportion d'inégalité est subdiuisée en proportion d'inegalité maieure, & d'inégalité mineure.
-
-La proportion d'inégalité maieure est quand la plus grande
+Finalement la proportion multiple superpartiente, est l'habitude d'vne plus grande quantité à vne moindre, quand la plus grande contient la moindre certain nombre de fois, & en outre quelques parties aliquotes de la moindre, lesquelles prises ensemble ne font pas vne partie aliquote, comme est la proportion de 8. à 3. qui s'appelle

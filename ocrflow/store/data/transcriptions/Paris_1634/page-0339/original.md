@@ -1,33 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-1.p.1 | cd & be snt —.
+sunt latera, quæ circum æquales angulos, & homologa sunt latera, quæ æqualibus angulis subtenduntur.
 
-Demonstr.
+Des triangles equiangles les costez qui sont autour des angles egaux, sont proportionaux : Et les costez qui soustiennent les angles egaux, sont homologues, ou de mesme raison.
 
-hyp. | de == bc,
-37.1 | Δdeb 2|2 Δdec, α
-1.6 | ad π db 2|2 Δade π Δdbe,
-α.7.5 | Δade π Δdbe 2|2 Δade π Δedc,
-1.6 | Δade π Δedc 2|2 ae π ec,
-1.concl. s.11.5 | ad π db 2|2 ae π ec.
+[Figure: triangles A, B, C et D, C, E avec F au sommet]
 
-Hypoth. 2.
+Hypoth.
 
-ad π db 2|2 ae π ec.
+Δabc & Δdce snt æquiang.
+<b 2|2 <dce,
+<acb 2|2 <e,
+<bac 2|2 <cde.
 
 Req. π. demonstr.
 
-de == bc.
+ab π bc 2|2 dc π ce,
+bc π ca 2|2 ce π ed,
+ab π ac 2|2 dc π de.
+
+Præpar.
+
+3.1 | bce est —,
+2.p.1 | baf & edf snt —.
 
 Demonstr.
 
-1.6 | ad π db 2|2 Δade π Δdbe,
-hyp. | ad π db 2|2 ae π ec,
-1.6 | ae π ec 2|2 Δade π Δecd,
-2.concl. s.11.6 | Δade π Δdbe 2|2 Δade π Δecd.
-
-## THEOR. III. PROPOS. III.
-
-Si trianguli angulus bifariam sectus sit, secans autem angulum recta linea secuerit & basin : basis segmenta eandem habebunt rationem, quam reliqua ipsius trianguli latera. Et si basis segmenta eandem habeant rationem, quam reliqua ipsius trianguli latera ; recta linea, quæ à vertice ad sectionem ducitur, bifariam secat trianguli ipsius angulum.
-
-Si vn angle d'vn triangle est couppé en deux parties egales, & que la ligne droicte qui couppe l'angle, couppe aussi la base ; les segments de la base auront mesme raison entr'eux que les autres costez du triangle : Et si les segments de la base ont mesme raison entr'eux que les autres
+hyp. | <b 2|2 <ecd,
+29.1 | bf == cd,
+17.1 | <ecd+<e 2|3, 2 ⌐,
+1.a.d | <b+<e 2|3, 2 ⌐,
+13.a.1 | bef est Δ,
+hyp. | <bca 2|2 <ced,
+29.1 | ca == ef,
+35.d.1 | cafd est ◇,
+34.1 | af 2|2 cd,
+34.1 | ca 2|2 df,
+2.6 | ab π afucd, α
+| bc π ce, a
+1.concl. 16.5 | ab π bc 2|2 dc π ce,
+2.6 | bc π ce,
+| fduac π de, α
+1.concl. 16.5 | bc π ac 2|2 ce π de,
+3.concl. 22.5 | ab π ac 2|2 dc π de.

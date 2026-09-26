@@ -1,35 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-propositiones additæ sunt, propter frequentem earum vsum apud grauissimos scriptores.
-
-Icy Euclide finit le cinquiesme liure : les propositions suiuantes ont esté adioustees, à cause que les bons autheurs se seruent fort souuent d'icelles.
-
-## THEOR. XXVI. PROPOS. XXVI.
-
-Si prima ad secundam habuerit maiorem proportionem quàm tertia ad quartam : habebit conuertendo secunda ad primam minorem proportionem, quàm quarta ad tertiam.
-
-Si la premiere a plus grande raison à la seconde, que la troisiesme à la quatriesme ; par raison inuerse la seconde aura moindre raison à la premiere, que la quatriesme à la troisiesme.
-
-[Figure: lignes A ; B ; E ; C ; D]
-
-Hypoth.
-
-a π b 3|2 c π d.
-
-Req. π. demonstr.
-
-b π a 2|3 d π c.
+[Figure: lignes G ; A—B—C ; D—E—F]
 
 Demonstr.
 
-suppos. | e π b 2|2 c π d, α
-hyp. | c π d 2|3 a π b,
-13.5 | e π b 2|3 a π b,
-10.5 | a 3|2 e,
-α.c.4.5 | d π c 2|2 b π e,
-8.5 | b π e 3|2 b π a,
-concl. 13.5 | d π c 3|2 b π a.
+suppos. | gb π bc 2|2 de π ef, α
+hyp. | de π ef 2|3 ad π bc,
+13.5 | gb π bc 2|3 ab π bc,
+10.5 | ab 3|2 gb,
+| bc commun. add.
+4.a.1 | ac 3|2 gc, β
+α.18.5 | df π ef 2|2 gc π bc,
+β.8.5 | gc π bc 2|3 ac π bc,
+concl. 13.5 | df π ef 2|3 ac π bc.
 
-## THEOR. XXVII. PROPOS. XXVII.
+## THEOR. XXIX. PROPOS. XXIX.
 
-Si prima ad secundam habuerit maiorem proportionem quàm tertia ad quartam ; habebit quo
+Si composita prima cum secunda ad secundam maiorem habuerit proportionem, quàm composita tertia cum quarta ad quartam ; habebit quoque diuidendo prima ad secundam maiorem proportionem, quàm tertia ad quartam.
+
+Si la composee de la premiere auec la seconde a plus grande raison à la seconde, que la composee de la tierce auec la quarte à la quarte ; en diuisant la premiere aura aussi plus grande raison à la seconde, que la tierce à la quarte.
+
+[Figure: lignes G ; A—B—C ; D—E—F]
+
+Hypoth.
+
+ac π bc 3|2 df π ef.
+
+Req. π. demonstr.
+
+ab π bc 3|2 de π ef.
+
+Demonstr.
+
+suppos. | gc π bc 2|2 df π ef, α
+hyp. | df π ef 2|3 ac π bc,
+13.5 | gc π bc 2|3 ac π bc,
+10.5 | ac 3|2 gc,
+| bc commun. subtr.
+5.a.1 | ab 3|2 gb, β
+α.17.5 | de π ef 2|2 gb π bc,
+β.8.5 | gb π bc 2|3 ab π bc,
+concl. 13.5 | de π ef 2|3 ab π bc.

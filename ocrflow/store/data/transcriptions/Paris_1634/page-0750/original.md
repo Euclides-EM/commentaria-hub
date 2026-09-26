@@ -1,37 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-## THEOR. XVI. PROPOS. XVIII.
+[Figure: labels arranged D / A / B E C]
 
-Si recta linea plano cuipiam ad rectos sit angulos; & omnia quæ per ipsam plana, eidem plano ad rectos angulos erunt.
-
-*Si vne ligne droicte est à angles droicts à quelque plan; tous les plans menez par icelle seront aussi à angles droicts au mesme plan.*
-
-[Figure: labels arranged I A / C F / E I B G / D]
-
-Hypoth.
-
-ab ⊥ plan. cd, α
-ab, est ꝗn plan. ef.
-
-Req. π. demonstr.
-
-plan. ef ⊥ plan. cd.
-
-Præpar.
-
-suppos. | eg, est intersect.. plan; cd, ef,
-arbitr. | h, est ● ꝗn eg,
-11. 1 | hi == ba ꝗn plan. ef.
+1. p. 1 | db & dc snt ——.
 
 Demonstr.
 
-hyp. | ab ⊥ plan. cd,
-constr. | ih == ab,
-8. 11 | ih ⊥ plan. cd,
-concl. 4. d. 11 | plan. ef ⊥ plan. cd.
+αβ. 4.1 | bc 2|2 bd,
+20. 1 | bd + dc 3|2 bc,
+5. a. 1 | dc 3|2 ec,
+β. 25.1 | <cad 3|2 <cae,
+concl. α. 4.a.1 | <bad + <dac 3|2 <bac.
 
-## THEOR. XVII. PROPOS. XIX.
+## THEOR. XIX. PROPOS. XXI.
 
-Si duo plana se mutuò secantia, plano cuidam ad rectos sint angulos, communis etiam illorum sectio ad rectos eidem plano angulos erit.
+Omnis solidus angulus sub minoribus, quam quatuor rectis angulis planis continetur.
 
-*Si deux plans s'entrecouppans sont à angles droicts à quelque plan; leur ligne de commune section sera aussi à angles droicts au mesme plan.*
+*Tout angle solide est contenu sous des angles plans, lesquels sont plus petits que quatre angles plans droicts.*
+
+[Figure: labels arranged D / A / B C]
+
+Hypoth.
+
+abcd, est < solid.
+
+Req. π. demonstr.
+
+<bac + <cad + <bad snt 2|3, 4 ⊥;
+
+Præpar.
+
+1. p. 1 arbitr. | bc, cd, bd snt ——.
+
+Demonstr.
+
+2. 11 | △bcd, △bac, △cad, △bad snt plan.
+32. 1 | <bac + <abc + <acb + <cad + acd + <adc + <bad + <abd + <adb 2|2, 6 ⊥,
+32. 1 | <dbc + <bcd + <bdc 2|2, 2 ⊥,
+20. 11 | <abc + <abd 3|2 <dbc,
+20. 11 | <acb + <acd 3|2 <bcd,

@@ -1,28 +1,48 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
+[Figure: triangle A, F, G, B avec points C, E, D, H, I]
+
 Hypoth.
 
-<bac est ⌐,
-ad ⊥ bc,
+ab & ac snt — D.
+part.. ac snt ad, de, ec
 
-Req. π. demonstr.
+Constr.
 
-Δadb, Δadc, Δabc snt æquiang. ⁊e,
+<bac est arbitr.
+1.p.1 | bc est —,
+31.1 | df == cb,
+31.1 | eg == cb,
+symp. | af, fg, gb snt req.
 
-[Figure: triangle B, A, C avec perpendiculaire A—D]
+Præpar.
+
+31.1 | dh == ab.
 
 Demonstr.
 
-12.a.1 | <bac 2|2 <adb, α
-| <b est commun. Δabc & Δabd,
-1.concl. α.32.1 | Δadb est æquiang. Δabc, β
-12.a.1 | <bac 2|2 <adc,
-| <c est commun. Δabc & Δadc,
-2.concl. 32.1 | Δdac est æquiang. Δabc, γ
-3.concl. β,γ | Δabd est æquiang. Δadc.
+1.concl. 2.6 | ad π de 2|2 af π fg,
+2.concl. 2.6 | de π ec 2|2 di π ih
+34.1 | u fg π gb.
 
-## COROLL.
+## SCHOL.
 
-Ex hoc manifestum est, perpendicularem, quæ in rectangulo triangulo ab angulo recto in basin demittitur, esse mediam proportionalem inter duo basis segmenta : Item vtrumlibet laterum angulum rectum ambientium, medium proportionale inter totam basin, & illud segmentum basis quod ei lateri adjacet.
+Datam rectam lineam finitam in quotlibet partes æquales secare.
 
-De cette proposition il est euident que la perpendiculaire menée de l'angle droict sur la base, au triangle rectangle, est moyenne proportionelle entre les deux segments de la base : Semblablement vn chacun des costez qui contiennent l'angle droict, est moyen proportionel entre toute la base, & le segment de la base qui est adjacent à iceluy costé.
+Coupper vne ligne droicte finie en tant de parties egales qu'on voudra.
+
+[Figure: ligne A—B avec lignes H, L, T, G, X, Z, M, O, C, F, P, Q, R, S, E, V, N, D]
+
+Hypoth.
+
+ab est — D.
+
+Req. π. fa.
+
+diuis.. ab ⁊n spart. 2|2 ⁊e,
+
+Constr.
+
+arbitr. | <bad 2|2 abh,
+arbitr. | ar, rs, su, un, bz, zx, xt, tl snt 2|2 ⁊e,
+symp. | lr, ts, xu, zn snt —,

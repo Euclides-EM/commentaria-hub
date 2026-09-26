@@ -1,41 +1,19 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-Req. π. demonstr.
+## COROLL. I.
 
-a, b, c, d snt term.. raō.
+Hinc perspicuum est, si tres numeri minimi sint proportionales, extremos quadratos esse : si autem fuerint quatuor numeri, minimi continuè proportionales extremos esse cubos, &c.
 
-Demonstr.
+*D'icy il est manifeste, que si trois nombres sont proportionaux, & les plus petits de leur raison, les extremes seront quarrez : & si quatre nombres sont continuellement proportionaux, & les plus petits de leur raison, les extremes seront cubes, &c.*
 
-suppos. | e, f, g, h snt term.. raō.
-14.7 | a π d 2|2 e π h,
-hyp. | a & d snt pr. ꝫe,
-23.7 | a & d snt term.. raō.. a π d,
-21.7 | a, msur: e, d, msur: h,
-3.d.7 | e 3|2 a,
-contr. suppos.
-21.a.7 | a, b, c, d snt term.. raō.
+## COROLL. II.
 
-## PROBL. I. PROPOS. II.
+Perspicuum quoque est ex hac proportione, & vigesima nona septimi, extremos numeros, proportionalium quotcunque secundum hanc propositionem inuentorum, in data ratione minorum, inter se primos esse.
 
-Numeros reperire deinceps proportionales minimos, quotcunque iusserit quispiam, in data ratione.
+*Il s'ensuit aussi de ceste proposition, & de la vingtneufiesme du septiesme, que les extremes des nombres continuellement proportionaux, les plus petits en la raison donnee, trouuez par ceste proposition, sont premiers entr'eux.*
 
-*Trouuer tant de nombres qu'on voudra continuellement proportionaux, les plus petits en vne raison donnee.*
+## COROLL. III.
 
-V,1.
-A,2. B,3.
-C,4. D,6. E,9.
-F,8. G,12. H,18. K,27.
-L,16. M,24. N,36. P,54. Q,81.
+Constat etiam, duos numeros minimos in data ratione, metiri omnes medios quotcunque minimorum in eadem ratione, quia scilicet producuntur ex illorum multiplicatione in alios quosdam numeros.
 
-Hypoth.
-
-a & b snt term..raō. D.
-
-Req. snt mi. nr. proport; ꝗn raō. a π b,
-
-Constr.
-
-c 2|2 □.a, α
-d 2|2 ▭.ab β
-3 proport. | e 2|2 □.b, γ
-f 2|2 ▭.ca, δ
+*Il appert aussi que deux nombres les plus petits en la raison donnee, mesurent tous les moyens quelconques, les plus petits en la mesme raison, à cause qu'ils sont produicts de la multiplication d'iceux par quelques autres nombres.*

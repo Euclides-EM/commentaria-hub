@@ -1,28 +1,20 @@
-<!-- Running title: ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI, XII. -->
 
-[Figure: labels arranged L A / F I / K / B D / E / G H / C]
+[Figure: labels arranged A K E M / T Y P S / B I D F L H / V X Q R / C G / O N]
 
-Demonstr.
+pyram. abuyк π pyram. epfqſm / 6. 12 | polyg. atbuy π polyg. epfqgr / c. 2. 12 | ⊙abx π ⊙efr / α | con. abxк π ſolid. n, ſnt raō; 2|2 ꝗe,
+11. 5 | pyram. atbuyк π con. abxk 2|2 pyram. ebfqſm, π ſolid. n,
+9. a. 1 | pyram. atbucxdyк 2|3 con. abxк,
+14. 5 | pyram. epfqgrhſm 2|3 ſolid. n,
 
-1. ſupp. | cylindr. 2|2 3; con; + ſolid. e,
-ſ. 7. 12 | ſegm. cylindr, af + fb + bg, &c. 2|3 ſolid. e,
-ſ. a. b | priſm. afbgchdi 3|2 3; con; afgd,
-c. 7. 12 | priſm. afbgchdi 2|2 3; pyram;
-1. a. c | 3; con; 2|3 3; pyram;
+contr. concl. β
 
-contr. 9. a. 1.
-
-2ſuppo. | ⅓. cylindr. + ſolid. e 2|2 con.
-ſ 7. 12 | ſegm. con. af, + fb, + bg, &c. 2|3 ſolid. e,
-ſ. a. b | ⅓. cylindr. 2|3 pyram.
-c. 7. 12 | ⅓. priſm. 2|2 pyram.
-1. a. c | ⅓. cylindr. 2|3, ⅓ priſm.
-6. a. 1 | cylindr. 2|3 priſm.
-
-contr. 9. a. 1.
-
-In hac demonstratione cylindrus, conus, prisma, & pyramis sunt eiusdem altitudinis. | *En ceste demonstration le cylindre, le cone, le prisme, & la pyramide ont la mesme hauteur.*
-
-Basis cylindri & coni est circulus AFGD. | *La base du cylindre & du cone est le cercle AFGD.*
-
-Basis vero prismatis atque pyramidis est polygonum circulo inscriptū nimirū AFBGCHDI. | *La base du prisme & de la pyramide est le polygone inscrit au cercle à sçauoir AFBGCHDI.*
+21. a. 1 | ſolid. n̄ est 2|3 con. efgrm. γ
+2ſuppo. | ſolid. n 3|2 con. efgrm, δ
+α | ⊙abcd π ⊙efgr 2|2 con. abcdk π ſolid. n,
+c. 4. 5 | ſolid. n π con. abxк 2|2 ⊙efgr π ⊙abcd, ε
+ſuppoſ. | ſolid. n π con. abxk 2|2 con. efrm π ſolid. o, ε
+ſ. 14. 5 | con. abxк 3|2 ſolid. o, θ
+ε. 11. 5 | ⊙efgr π abcd 2|2 con. efrm π ſolid. o,
+θ | contr. concl. γ
+concl. 21. a. 1 | ⊙abcd π ⊙efgr 2|2 con. abcdk π con. efgrm.

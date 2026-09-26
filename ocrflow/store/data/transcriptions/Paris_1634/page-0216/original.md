@@ -1,45 +1,58 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: deux cercles ; le premier A—B—C, G au dedans, lignes A—B, B—C, A—C, G—A, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]
-
-1.p.1 | ac & df snt —.
-
-Demonstr.
-
-1.d.3 | ga,gc, hd,hf snt 2|2 ⁊e,
-hyp. | <agc 2|2 <dhf,
-4.1 | ac 2|2 df,
-20.3 | <b 2|2, ½<g,
-20.3 | <e 2|2, ½<h,
-7.a.1 | <abc 2|2 def,
-10.d.3 | ⌓ abc sml. ⌓ def,
-24.3 | ⌓ abc 2|2 ⌓ def,
-hyp. | ⊙abc 2|2 ⊙def,
-3.a.1 | ∪ac 2|2 ∪df,
-concl. s.24.3 | ∩ ac 2|2 ∩ df.
-
-## SCHOL.
-
-[Figure: cercle A—D—C—B, E au dedans, lignes A—D, B—C, A—C, B—D, A—B, D—C]
-
-Hypoth.
-
-abcd est ⊙,
-∩ab 2|2 ∩dc, α
-
-Req. π. demonstr.
-
-ad == bc.
+∩abc 2|2 ∩def,
+∪ aic 2|2 ∪ dkf.
 
 Præpar.
 
-1.p.1 | ac est —.
+1.p.1 | ga,gc,dh,hf snt —
 
 Demonstr.
 
-α.26.3 | <acb 2|2 <cad,
-concl. 27.1 | ad == bc.
+α.8.1 | <g 2|2 <h,
+1.concl. 26.3 | ∪ aic 2|2 ∪ dkf,
+2.concl. 3.a.1 | ∩abc 2|2 ∩def.
 
-## THEOR. XXIV. PROPOS. XXVII.
+## THEOR. XXVI. PROPOS. XXIX.
 
-In æqualibus circulis, anguli, qui æqualibus peripheriis insistunt, sunt inter se æquales, siue ad centra, siue ad peripherias constituti insistant.
+In æqualibus circulis, æquales peripherias, æquales rectæ lineæ subtendunt.
+
+Aux cercles égaux, les circonferences égales, soustendent lignes droictes égales.
+
+[Figure: deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—C, G—A, G—C ; le second D—E—F, H au dedans, K en bas, lignes D—F, H—D, H—F]
+
+Hypoth.
+
+gabc & hdef snt ⊙ 2|2 ⁊e, α
+∩abc 2|2 ∩def. α
+
+Req. π. demonstr.
+
+ac 2|2 df.
+
+Præpar.
+
+1.p.1 | ga,gc,hd,hf snt —
+
+Demonstr.
+
+α.27.3 | <g 2|2 <h,
+concl. 4.1 | ac 2|2 df.
+
+Hæc propositio & tres proximè præcedentes intelligendæ etiam sunt in eodem circulo : eadem enim erit demonstratio.
+
+En ceste proposition, & aux trois precedentes, ce qui est dit des cercles égaux, doit aussi estre entendu d'vn mesme cercle : car ce sera la mesme demonstration.
+
+## PROBL. IV. PROPOS. XXX.
+
+Datam peripheriam bifariam secare.
+
+Coupper en deux également vne circonference donnée.
+
+Hypoth.
+
+abc est ∩ D.
+
+Req. π. fa.
+
+∩ab 2|2 ∩bc.

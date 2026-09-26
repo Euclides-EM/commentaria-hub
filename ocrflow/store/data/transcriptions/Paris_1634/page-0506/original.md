@@ -1,34 +1,31 @@
-<!-- Running title: ELEM.. EVCLD. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VIII. -->
 
-Demonstr.
+## SCHOL. II.
 
-1.concl. 2.8 | e, h, g, & a, i, k, b snt contin. proport.
-2.concl. 4.c.2.8 | multd.. contin. proport. a, i, k, b, a, e, d, c, & b, g, f, c. snt 2|2 ꝫe,
+Si sint plures numeri continuè proportionales, quadratus primi ductus in quartum, facit cubum secundi : cubus verò eiusdem primi ductus in quintum, facit quadrato-quadratum secundi, & ita deinceps.
 
-## THEOR. IX. PROPOS. XI.
+*S'il y a plusieurs nombres continuellement proportionaux, le quarré du premier multiplié par le quatriesme, fait le cube du second : & le cube du premier estant multiplié par le cinquiesme, fait le quarré du second, & ainsi de suite.*
 
-Duorum quadratorum numerorum vnus medius proportionalis est numerus : Et quadratus ad quadratum duplicatam habet lateris ad latus rationem.
-
-*Entre deux nombres quarrez il y a vn nombre moyen proportionel : Et le quarré est au quarré en raison doublee du costé au costé.*
-
-A,4. E,6. B,9.
-C,2. D,3.
+A,32. B,48. C,72. D,108. E,243. F.
 
 Hypoth.
 
-a & b snt nr; □.
+a, b, c, d, e, f snt contin. proport.
 
 Req. π. demonstr.
 
-ꝗntr. a & b est vn. medi. proport.
-raō a π b 2|2 2; raō. c π d.
-
-Præpar.
-
-3.p.7 | c, est γ.a, & d, est γ.b,
-e 2|2 ▭.cd.
+a2d 2|2 b3,
+a3e 2|2 b4.
 
 Demonstr.
 
-1.concl. 2.8 | a, e, b snt contin. proport. ꝗn raō. c π d,
-2.concl. 10.d.5 | raō. a π b 2|2 raō. a π e + raō. e π b, u 2;raō. c π d.
+11.8 | a2 π b2, 2|2 a π c, u b π d,
+1.concl. 19.7 | a2d 2|2 b3,
+12.8 | a3 π b3, 2|2 a π d, u b π e,
+2.concl. 19.7 | a3e 2|2 b4,
+1.s.12.8 | a4 π b4, 2|2 a π e, u b π f,
+3.concl. 16.7 | a4f 2|2 b5.
+
+## THEOR. XI. PROPOS. XIII.
+
+Si sint quotlibet numeri deinceps proportionales, & multiplicans quisque seipsum faciat ali-

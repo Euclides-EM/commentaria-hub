@@ -1,31 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-### III.
+### IX.
 
-Qui numeri æqualium numerorū, vel eiusdem eædem partes fuerint, æquales inter se sunt.
+Si numerus numerum metiēs, multiplicet eum, per quem metitur, vel ab eo multiplicetur, illum quem metitur producit.
 
-*Les nombres qui sont mesmes parties des nōbres egaux ou d'vn mesme nombre sont egaux entr'eux.*
+*Si vn nombre mesurant vn nombre, multiplie celuy par lequel il le mesure, ou s'il est multiplié par iceluy, il produira celuy par lequel il mesure.*
 
-hyp. | a, part.. c 2|2 b, part.. c, A,4. B,4. C,6.
-3.a.7 | a 2|2 b.
+hyp. | a, msur: b ꝑ c, A,3. B,15. C,5.
+9.a.7 | ▭.c,a 2|2 b.
 
-### IV.
+### X.
 
-Quorum idem numerus, vel æquales, eædem partes fuerint, æquales inter se sunt.
+Numerus quotcunque numeros metiens, compositum quoque ex ipsis metitur.
 
-*Les nombres desquels vn mesme nombre ou nombres egaux sont mesmes parties sont egaux entr'eux.*
+*Le nombre qui mesure tant d'autres nōbres qu'on voudra, mesure aussi le composé d'iceux.*
 
-hyp. | c, part.. a 2|2 c, part. b, C,4. A,6. B,6.
-4.d.7 | a 2|2 b.
+hyp. | a + b + c 2|2 d, A,9. B,12. C,15. D,36. E,3.
+hyp. | e, msur: a, b, c,
+10.a.7 | e, msur: d.
 
-### V.
+### XI.
 
-Vnitas omnem numerum per vnitates, quæ in ipso sunt, hoc est, per ipsummet numerum metitur.
+Numerus quemcunque numerum metiens, metitur quoque omnem numerū, quem ille metitur.
 
-*L'vnité mesure tout nōbre, par les vnitez qui sont en iceluy, c'est à dire, par le mesme nombre.*
+*Le nombre qui mesure quelconque nombre, mesure aussi tout nombre que celuy-là mesure.*
 
-### VI.
-
-Omnis numerus seipsum metitur per vnitatem.
-
-*Tout nōbre se mesure soy-mesme par l'vnité.*
+hyp. | a, msur: b, C,4. A,8. B,24.
+hyp. | c, msur: a,
+11.a.7 | c, msur: b.

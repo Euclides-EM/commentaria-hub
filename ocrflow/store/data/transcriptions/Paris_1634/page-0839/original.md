@@ -1,37 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-[Figure: labels arranged D / A C E / I F / H / E K G]
+## COROLL. III.
 
-3. 1 | hi 2|2 ca,
-2. p. 1 | ihк, eſt ——,
-3. 1 | iк 2|2 ab,
-1. p. 1 | ie, if, ig ſnt ——,
-ſymp. | req. eſt pyram. egfi.
+α2.ſ.7.5 | ab π hi 2|2 6 π 4, Ⅱ 3 π 2.
+
+## COROLL. IV.
+
+2.ſ.7.5 | □.ab π □.hi 2|2, 36 π 16, Ⅱ 9 π 4.
+
+## PROBL. II. PROPOS. XIV.
+
+Octaedrum constituere, & sphæra complecti, qua & pyramidem; & demonstrare, quod sphæræ diameter potentia sit dupla lateris ipsius octaedri.
+
+*Descrire vn octaedre, & l'enuironner d'vne mesme sphere que la pyramide, & monstrer que le diametre de la sphere est double en puissance, du costé d'iceluy octaedre.*
+
+[Figure: labels arranged H L / F G / B C I / E D / A K]
+
+Hypoth.
+
+ah, eſt diamet. ſphær. D.
+
+Conſtr.
+
+10. 1 | ab 2|2 bh,
+3. p. 1 | bhca, eſt ſemic.
+1. p. 1 | ac, hc ſnt ——;
+4. 1 | ac 2|2 hc,
+3. 1 | ed 2|2 ac, Ⅱ hc,
+46. 1 | efgd, eſt □.ed,
+1. p. 1 | df, eg ſnt diamet;
+12. 11 | il ⊥ plan.. □efgd,
+3. 1 | il 2|2 ab, Ⅱ bc,
+2. p. 1 | lik, eſt ——,
+3. 1 | ik 2|2 il,
+1. p. 1 | ke, kf, kg, kd / le, lf, lg, ld ſnt ——;
+ſymp. | kefgdl, eſt octaedr.
 
 Demonstr.
 
-3. d. 11 | ihe, ihf, ihg ſnt ⌐;
-conſtr. & 15.d.1 | cd, he / hf, hg ſnt 2|2 ꝗe,
-conſtr. | ih 2|2 ac,
-47.1 | ad, ie, if, ig ſnt 2|2 ꝗe,
-20.6 | ac π cb, / □.ac π □.cd,
-conſtr. | ac 2|2, 2cb,
-14. 5 | □.ac 2|2, 2□.cd,
-2. a. 1 | □.ac / + □.cd 2|2; 3□.cd,
-47. 1 | □.ad 2|2, 3□.cd,
-12.13 | □.ef 2|2, 3□.eh, Ⅱ cd
-1. a. 1 | □.ad 2|2 □ef,
-ſ.46.1 | ad 2|2 ef,
-concl. α. 1.a.1 | pyram. efgi, eſt æquil.
-ſuppoſ. | ●c, eſt ꝗn ●h,
-ſuppoſ. | ●a, eſt ꝗn ●i,
-3.8.a.1 | ●b, eſt ꝗn ●к,
-c.15.d.1 | ●d, eſt ꝗn ∩ efg,
-concl. 31.d.11 | pyram. egfi, eſt ꝗn ſphær. abd,
-conſtr. | ba π ac 2|2, 3 π 2,
-c. 8. 6 | ba π ac, / □.ba π □.ad,
-3.concl. 11. 5 | □.ba π □.ad, / 3 π 2,
-
-## COROLL. I.
-
-Hinc colligemus, diametrum ſphæræ eſſe potentia quadruplam ſeſquialteram ſemidiametri circuli circa
+conſtr. | ed, ef, ac, ch ſnt 2|2 ꝗe

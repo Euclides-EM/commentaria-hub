@@ -1,34 +1,39 @@
-<!-- Running title: ELEM.. EVCLID LI. XII. -->
-
-quarum bases plura latera, quam tria continent, habere proportionem laterum homologorum triplicatam.
-
-*Il est außi manifeste, que les pyramides semblables, dont les bases ont plus de trois costez, sont en raison triplee de leurs costez homologues.*
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
 Hypoth.
 
-abcdef & ghiklm ſnt pyram. ſml; ꝗe.
+abcd & efgh ſnt pyram; propoſ; 2|2 ꝗe,
+△abc & △efg ſnt baſ;
 
 Req. π. demonstr.
 
-raō. abcdef π ghiklm 2|2, 3; raō; fa π mg.
-
-Præpar.
-
-1. p. 1 | ac, ad, gi, gk ſnt ——.
+baſ. abc π baſ. efg 2|2 alt.. ●h π alt.. ●d.
 
 Demonstr.
 
-hyp. | abcde ſml. ghikl,
-20. 6 | △abc, ſml. △ghi, △acd, ſml. △giк, △ade, ſml △gкl,
-hyp. | △abf ſml. △ghm, △bcf ſml. △him, △dcf ſml. △iкm, △aef ſml. △glm, △edf ſml. △lкm,
-1. d. 6 | fa π ab 2|2 mg π gh,
-1. d. 6 | ab π ac 2|2 gh π gi,
-22. 5 | fa π ac 2|2 mg π gi,
-1. d. 6 | ac π cb 2|2 gi π ih,
-1. d. 6 | cb π cf 2|2 ih π im,
-22. 5 | ac π cf 2|2 gi π im,
-22. 5 | fa π fc 2|2 mg π mi,
-4. 6 | △fac ſml. △mgi,
-9. d. 11 | piram. abcf ſml. piram. ghim, α
+ꝑ præpar. & demonstr.. præceden. propoſ.
+◇piped. abicdmkl 2|2, 6 pyram; abcd, α
+item, ◇piped. efnghqop 2|2, 6 pyram; efgh, α
+6. a. 1 | ◇piped. abicdmkl 2|2 ◇piped. efnghqop,
+15. 5 | △abc π △efg 2|2 ◇ abic π ◇ efng,
+34. 11 | ◇ abic π ◇ efng 2|2 alt.. ●h π alt.. ●d,
+concl. 1. 5 | △abc π △efg 2|2 alt.. ●h π alt.. ●d.
 
-[Figure: labels arranged F M / E L / A D G K / B C N I]
+Hypoth. 2.
+
+△abc π △efg 2|2 alt.. ●h π alt.. ●d. β
+
+Req. π. demonstr.
+
+pyram. abcd 2|2 pyram. efgh.
+
+Demonstr.
+
+15. 5 | ◇abic π ◇efng 2|2 △abc π △efg,
+β. 11. 5 | ◇abic π ◇efng 2|2 alt. h● π alt. ●d,
+34. 11 | ◇piped. abicdmkl 2|2 ◇piped. efnghqop,
+concl. α. 7. a. 1 | pyram. abcd 2|2 pyram. efgh.
+
+## SCHOL.
+
+Constat etiam æqualium pyramidum, quarum bases non sunt triangulares, reciprocari bases atque altitudi-

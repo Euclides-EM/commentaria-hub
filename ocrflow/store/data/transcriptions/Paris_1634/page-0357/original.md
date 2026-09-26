@@ -1,39 +1,20 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
+11.5 | ab π de 2|2 ef π bg,
+hyp. | <b 2|2 <e,
+15.6 | Δabg 2|2 Δdef,
+1.6 | Δabc π Δabg u π Δdef 2|2 bc π bg,
+10.d.5 | raō.. bc π bg 2|2, 2 raō.. bc π ef,
+concl. 11.5 | raō.. Δabc π Δdef 2|2, 2 raō.. bc π ef.
+
 ## COROLL.
 
-Ex posteriori huius demonstrationis parte efficitur, quamlibet rectam lineam esse mediam proportionalem inter quasuis alias duas rectas, quæ comprehendunt rectangulum quadrato illius æquale.
+Hinc manifestum est, si tres rectæ lineæ proportionales fuerint, vt est prima ad tertiam, ita esse triangulum super primam descriptum ad triangulum super secundam simile similiterque descriptum : vel ita esse triangulum super secundam descriptum ad triangulum super tertiam simile similiterque descriptum.
 
-De la derniere partie de ce theoreme, il s'ensuit que toute ligne droicte est moyenne proportionelle entre deux autres quelconques lignes droictes, qui contiennent vn rectangle egal au quarré d'icelle.
+Il est manifeste de ceste demonstration, que si trois lignes droictes sont proportionelles, comme la premiere sera à la troisiesme, ainsi le triangle descrit sur la premiere sera au triangle semblable, & semblablement descrit sur la seconde : ou bien ainsi sera le triangle descrit sur la seconde au triangle semblable, & semblablement descrit sur la troisiesme.
 
-## PROBL. VI. PROPOS. XVIII.
+## THEOR. XIV. PROPOS. XX.
 
-A data recta linea dato rectilineo simile, similiterque positum rectilineum describere.
+Similia polygona in similia triangula diuiduntur, & numero æqualia, & homologa totis : Et polygona duplicatā habent eam inter se rationem, quam latus homologum ad homologum latus.
 
-Sur vne ligne droicte donnee, descrire vne figure rectiligne semblable, & semblablement posee à vne figure rectiligne donnee.
-
-[Figure: quadrilatere A, G, H, B et quadrilatere C, E, F, D]
-
-Hypoth.
-
-ab est — D.
-cefd est rectil. D.
-
-Req. π. fa.
-
-abhg, sml. cefd,
-ab homolog. cd,
-
-Constr.
-
-1.p.1 | cf est —,
-20.d.1 | cfe & cfd snt Δ,
-23.1 | <abh 2|2 <d,
-23.1 | <bah 2|2 <dcf,
-23.1 | <ahg 2|2 <cfe,
-23.1 | <hag 2|2 <fce.
-
-Demonstr.
-
-constr. | <b 2|2 <d,
-constr. | <bah 2|2 <dcf,
+Les polygones semblables se diuisent en nombre egal de triangles semblables, & proportionaux à leurs touts :

@@ -1,15 +1,13 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-ræ sunt, triangulum, quadratum, cubus, pyramis, &c. | le triangle, le quarré, le cube, la pyramide, &c.
+[Figure: demy cercle ABC, diametre AC horizontal, B au sommet de l'arc]
 
-### XV.
+ABC est semicirculus. | ABC est vn demy cercle.
 
-Circulus est figura plana, sub vna linea comprehensa, quæ peripheria appellatur, ad quam ab vno puncto eorum, quæ intra figuram sunt posita, cadentes omnes rectæ lineæ inter se sunt æquales. | Le cercle est vne figure plane, contenuë sous vne seule ligne, appellee circonference, à laquelle toutes les lignes droictes menees d'vn seul poinct, de ceux qui sont posez au dedans de la figure, sont egales entr'elles.
+### XIX.
 
-### COROLL.
+Rectilineæ figuræ sunt, quæ sub rectis lineis continentur. | Figures rectilignes sont celles qui sont contenuës sous des lignes droictes.
 
-Ex hac definitione sequitur, ea quorum distantia à centro circuli est æqualis semidiametro, esse in circunferentia circuli, quorum minor in circulo, quorum maior extra circulum, dummodo sint in eodem plano cum circulo. | De ceste definition s'ensuit, que ce qui est esloigné du centre du cercle de la quantité du semidiametre est en la circonference, si moins dans le cercle, si plus hors du cercle, pourueu qu'ils soient en mesme plan que le cercle.
+Omnes figuræ planæ, quæ vndique rectis clauduntur lineis rectilineæ nuncupantur, ex quo perspicuum est figuras planas curuis lineis comprehensas, dici curuilineas : eas verò, quæ partim curuis, partim rectis circumscribuntur, appellari mixtas. | Toutes les figures planes encloses de tous costez de lignes droites, sont appellées figures rectilignes : d'où il appert que les figures planes enuironnées des lignes courbes sont appellées curuilignes : mais celles qui sont circonscriptes en partie de lignes droictes & en partie de courbes sont appellées mixtes.
 
-### XVI.
-
-Hoc verò punctum, centrum circuli appellatur. | Mais ce poinct est appellé centre du cercle.
+[Figure: A quarré rectiligne, B figure curuiligne, C figure mixte]

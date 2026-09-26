@@ -1,32 +1,28 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## THEOR. LXXXIX. PROPOS. CXIII.
-
-Quadratum rationalis ad eam, quæ ex binis nominibus, applicatum, latitudinem facit apotomen cuius nomina commensurabilia sunt nominibus eius, quæ ex binis nominibus, & in eadem proportione; & adhuc apotomæ, quæ fit, eundem habet ordinem, quem ea, quæ ex binis nominibus.
-
-*Le quarré d'vne rationelle estant appliqué à vne ligne binome, fait la latitude apotome, de laquelle les noms sont commensurables & proportionaux aux noms du binome, & en outre l'apotome est de mesme ordre que le binome.*
-
 [Figure: labels arranged H C E G F / D / A B]
+
+——, incomm. bd,
+θк.15.10 | □.eh 3|2 □.ch..□. ——, incomm. eh,
+suppos | bd, comm. ration.
+ρ. 12.10 | eh, comm. ration.
+4d48.10 | bc, est binom. 4.
+4d85.10 | ec, est apotom. 4.
+suppos. | dc, comm. ration.
+ϖ12.10 | ch, comm. ration.
+5d48.10 | bc, est binom. 5.
+5d85.10 | ec, est apotom. 5.
+suppos. | bd & dc snt incōm. ration.
+12. 10 | eh & ch snt incōm. ration.
+6d48.10 | bc, est binom. 6.
+6d85.10 | ec, est apotom. 6.
+
+## THEOR. XC. PROPOS. CXIV.
+
+Quadratum rationalis ad apotomen applicatum, latitudinem facit eam, quæ ex binis nominibus, cuius nomina commensurabilia sunt apotomæ nominibus, & in eadem proportione; & adhuc, quæ ex binis nominibus fit, eundem habet ordinem quem ipsa apotome.
+
+*Le quarré d'vne ligne rationelle appliqué à vn residu, fait la latitude binome, dont les noms sont commensurables aux noms du residu, & en mesme raison; & en outre le binome est de mesme ordre que le residu.*
 
 Hypoth.
 
 a, est ration.
-bc, est binom.
-bd & dc snt nom.
-bd 3|2 dc,
-▭be 2|2 □.a. α
-
-Præpar.
-
-4.app. | ▭.df 2|2 □.a,
-α. 1.a.1 | ▭df 2|2 ▭be,
-14. 6 | bc π cd 2|2 fc π ce,
-17. 5 | bd π dc 2|2 fe π ec, β
-hyp. | bd 3|2 dc,
-14. 6 | fe 3|2 ec,
-10. 10 | eg 2|2 ec,
-12. 6 | fg π ge 2|2 ec π ch. γ
-
-Req. π. demonstr.
-
-eh, ch, ec snt sml; bd, dc, bc.

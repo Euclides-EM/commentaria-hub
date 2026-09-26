@@ -1,25 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-## DEFINIT. XV.
+mum in se ipsum rursus reuoluitur, vnde cæperat moueri, circumassumpta figura.
 
-Axis autem sphæræ, est quiescés illa recta linea, circum quam semicirculus conuertitur.
+*mobile, le parallelogramme tourne à l'entour iusques à ce qu'il reuienne au lieu où il a commencé de mouuoir.*
 
-*L'axe de la sphere est ceste ligne droicte immobile, à l'entour de laquelle tourne le demy cercle.*
+## DEFINIT. XXII.
 
-## DEFINIT. XVI.
+Axis autem cylindri,est quiescens illa recta linea, circum quam parallelogrammum conuertitur.
 
-Centrum sphæræ est idem, quod & semicirculi.
+*L'axe du cylindre est la ligne droicte immobile, à l'entour de laquelle est menee le parallelogramme.*
 
-*Le centre de la sphere est le mesme, que celuy du demy cercle.*
+## DEFINIT. XXIII.
 
-## DEFINIT. XVII.
+Bases verò cylindri sunt circuli à duobus aduersis lateribus, quæ circumaguntur, descripti.
 
-Diameter autem sphæræ, est recta quædam linea per centrum ducta, & vtrinque à sphæræ superficie terminata.
+*Mais les bases du cylindre sont les cercles descrits de deux costez opposez menez à l'entour.*
 
-*Mais le diametre de la sphere est vne ligne droicte menee par le centre, se terminant de part & d'autre en la superficie de la sphere.*
+## DEFINIT. XXIV.
 
-## DEFINIT. XVIII.
+Similes coni & cylindri sunt,quorum & axes, & basium diametri proportionales sunt.
 
-Conus est, quando rectanguli trianguli manente vno latere eorum, quæ circa rectum angulum, circúductum triangulum in seipsum rursus reuoluitur,vnde moueri cæperat, circumassum-
+*Cones & cylindres semblables sont ceux, desquels les axes & les diametres des bases ont mesme proportion entr'eux.*
 
-*Cone est vne figure solide contenuë en la reuolution d'vn triágle rectágle,quand l'vn des costez qui contiennent l'angle droict, demeurant immobile, le triangle est mené à l'entour iusqu'à ce qu'il retourne au lieu où*
+## DEFINIT. XXV.
+
+Cubus est figura solida sub sex quadratis æqualibus contenta.
+
+*Le cube est vne figure solide contenuë sous six quarrez egaux.*

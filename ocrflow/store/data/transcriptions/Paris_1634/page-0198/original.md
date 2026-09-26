@@ -1,37 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle L—E—F—G—H—I, K au centre, A au dessus du cercle, B, C, D entre L et E, lignes de A vers L, B, C, D, E, K, F, G, lignes de K vers E, F, G, H]
+c.1.13 | • o, est centr.. ⊙ iak &.. ⊙ iek. contr. 5.3.
+21.a.1 | i, k, l, ñ snt intersect.
 
-ah 3|2 ag,
-ag 3|2 af,
-ab 2|3 ac,
-ac 2|3 ad,
-ad 2|3 ae,
-al, ac, ad, ñ snt 2|2 ⁊e,
+## THEOR. X. PROPOS. XI.
+
+Si duo circuli sese intus contingant, atque accepta fuerint eorum centra; ad eorum centra adiuncta recta linea, & producta, in contactum circulorum cadet.
+
+Si deux cercles se touchent l'vn l'autre au dedans, & qu'on prenne les centres d'iceux, la ligne droicte conioignant iceux centres, estant prolongée, tombera à l'attouchement des cercles.
+
+[Figure: deux cercles se touchans en A, le petit au dedans du grand, B et D en haut à gauche, G et F au dedans, E et C en bas, ligne A—C par G et F, ligne B—D—G]
+
+Hypoth.
+
+gade & fabc snt ⊙,
+a, est •.. contact.
+
+Req. π. demonstr.
+
+fga est —.
 
 Demonstr.
 
-15.d.1 | ki 2|2 kh,
-| ak commun. add.
-2.a.1 | ai 2|2 ak + kh,
-20.1 | ak + kh 3|2 ah,
-1.concl. 1.a.c | ai 3|2 ah,
-9.a.1 2.concl. 24.1 | <akh 3|2 <akg, ah 3|2 ag,
-9.a.1 3.concl 24.1 | <akg 3|2 <akf, ag 3|2 af,
-20.1 | ak 2|3 ac + ck,
-15.d.1 | kb 2|2 kc,
-4 cōcl. 5.a.1. | ab 2|3 ac,
-21.1 | ac + ck 2|3 ad + dk,
-15.d.1 | ck 2|2 dk,
-5.concl. 5.a.1 | ac 2|3 ad, α
-d.α. | ad 2|3 ae,
-constr. | <akl 2|2 <akc,
-4.1 | al 2|2 ac,
-α | ad 3|2 ac, β
-β | al, ac, ad, ñ snt 2|2 ⁊e.
+suppos | cfgb est —,
+15.d.1 | gd 2|2 ga,
+7.3. | ga 3|2 gb,
+1.a.d | gd 3|2 gb, contr. 9.a.1.
+21.a.1 | cfga est —.
 
-## THEOR. VIII. PROPOS. IX.
+## THEOR. XI. PROPOS. XII.
 
-Si in circulo acceptum fuerit punctum aliquod, & ab eo puncto ad circulum cadant plures quàm duæ rectæ lineæ æquales; acceptum punctum centrum est ipsius circuli.
-
-Si au dedans du cercle on prend quelque poinct, & d'iceluy poinct tombent plus de deux lignes droictes éga-
+Si duo circuli sese intus contingant, linea recta, quæ ad centra eorum adiungitur, per contactum transibit.

@@ -1,47 +1,47 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-## THEOR. XXVIII. PROPOS. XXX.
+Demonstr.
 
-Si impar numerus parem numerum metiatur, & illius dimidium metietur.
+20.d.7 | f,a,b,c,d,&c. snt contin. proport;
+6.d.7 | a,b,c,d,&c. snt nr;pa. α
+11.d.7 | a, est nr. pr.
+13.9 | nul. nr. extern. msur: a,b,c,d,&c.
+11.9 | nr; a,b,c,d,&c. msur: nr; a,b,c,d, &c. ꝑ nr; a,b,c,d,&c.
+concl. α.8.d.7 | nr; a,b,c,d, &c. snt pa.pa;
 
-*Si vn nombre impair mesure vn nombre impair, il mesurera aussi sa moitié.*
+## THEOR. XXXI. PROPOS. XXXIII.
 
-A,3. B,24. C.8.
-D,12. E,4.
+Si numerus dimidium habeat imparem : pariter impar est tantum.
+
+*Si vn nombre a sa moitié impair, il est pairement impair tant seulement.*
+
+A,30. B,15. C,2.
+D--- E---
 
 Hypoth.
 
-a, est nr. impa.
-b, est nr.pa.
-a, msur: b.
+a, est nr. propos.
+½a est nr. impa.
 
 Req. π. demonstr.
 
-a, msur: ½b.
+a, est nr.pa.impa.
+
+Præpar.
+
+6.d.7 | b, est ½a,
+3.p.7 | b, msur: a ꝑ c. α
 
 Demonstr.
 
-hyp. | b, est pa.
-6.d.7 | d, est ½..b,
-hyp. | a, msur: b ꝑ c,
-1.s.29.9 | c, est nr.pa.
-6.d.7 | e, est ½c,
-9.a.9 | ▭.a,c 2|2 b, u 2d,
-1.2 | ▭.ac 2|2, 2▭.a,e,
-1.a.1 | 2d 2|2, 2▭.a,e,
-7.a.1 | d 2|2 ▭.a,e,
-concl. 7.a.7 | a, msur: ▭.ae, u d.
-
-## THEOR. XXIX. PROPOS. XXXI.
-
-Si impar numerus ad aliquem numerum primus sit : & ad illius duplum primus erit.
-
-*Si vn nombre impair est premier à quelque nombre ; il sera aussi premier au double d'iceluy.*
-
-A,5. B,8. C,16. D---
-
-Hypoth.
-
-a, est nr. impa.
-a, est pr. π. b,
-c 2|2, 2b.
+hyp. | b, est nr. impa.
+19.a.1 | c, est 2;
+8.a.7 | c, msur: a ꝑ b,
+1.concl. 9.d.7 | a, est nr.pa.impa.
+suppos. | d, est nr. pa.
+suppos. | e, est nr. pa.
+suppos. | d, msur: a ꝑ e,
+9.a.7 | a 2|2 ▭.d,e,
+α.9.a.7 | a 2|2 ▭.b,c,
+1.a.1 | ▭.e,d 2|2 ▭.b,c,
+19.7 | c π e 2|2 d π b,

@@ -1,38 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-31.1 | fh == ed,
-31.1 | dh == ef.
+2.concl. α.15.5 | raō.. ◇bg π ◇hf 2|2 raō.. ai π dk + raō.. bc π ef.
 
-[Figure: parallelogramme A, B, C, G auec triangle et parallelogramme D, E, F, H]
+## THEOR. XVIII. PROPOS. XXIV.
 
-Demonstr.
+In omni parallelogrammo, quæ circa diametrum sunt parallelogrāma & toti, & inter se sunt similia.
 
-constr. | bg & eh snt ◇,
-34.1 | ◇bg 2|2, 2 Δabc,
-34.1 | ◇eh 2|2, 2 Δdef,
-15.5 | Δabc π Δdef 2|2 ◇bg π ◇eh,
-23.6 | raō.. ◇bg π ◇eh 2|2 raō.. bc π ef + raō.. ab π de
-concl. 11.5 | raō.. Δabc π Δdef 2|2 raō.. bc π ef + raō.. ab π de.
+En tout parallelogramme, les parallelogrammes qui sont à l'entour du diametre, sont semblables à leur tout, & entr'eux.
 
-## SCHOL. III.
-
-Parallelogramma æquiangula, eandem habent proportionem, quam rectangula sub lateribus ipsorum æqualem angulum continentibus comprehensa.
-
-Le parallelogrammes equiangles, sont en mesme raison que les rectangles contenus sous les costez d'iceux, contenans l'angle egal.
+[Figure: parallelogramme A, B, C, D auec diametre A—C, points E, G, I, H, F]
 
 Hypoth.
 
-bg & eh snt ◇,
-<b 2|2 <e. α
+abcd est ◇,
+ac est diamet.
+eg & hf snt ◇.
 
 Req. π. demonstr.
 
-◇bg π ◇eh 2|2 ▭.ab,bc π ▭.de,ef.
-
-Præpar.
-
-ac, & df snt —.
+◇eg, ◇hf, ◇bd snt sml. ⁊e.
 
 Demonstr.
 
-15.5 | ◇bg π ◇eh 2|2 Δabc π Δdef,
+hyp. | ef == bc,
+hyp. | gih == ab,
+15.1 | <eig 2|2 <hif,
+s.14.6 | ◇eg, ◇hf, ◇bd snt æquiang. ⁊e,
+29.1 | Δabc, Δaei, Δihc snt æquiang. ⁊e,
+29.1 | Δadc, Δagi, Δifc snt æquiang. ⁊e,
+4.6 | ae π ei 2|2 ab π bc,
+4.6 | ae π ai 2|2 ab π ac,
+4.6 | ai π ag 2|2 ac π ad,
+22.5 | ae π ag 2|2 ab π ad, &c.
+concl. 1.d.6 | ◇eg, ◇bd, ◇hf snt sml. ⁊e.

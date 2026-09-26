@@ -1,43 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-Præpar.
+*du pentagone diuise en deux egalement l'arc que le costé opposé à iceluy angle soustend, & aussi ledit costé en deux egalement, & à angles droicts.*
 
-3. 1 | bf 2|2 ab. γ.10<.
+## SCHOL.
+
+Demonstratio praxis vndecimæ propositionis libri quarti quam in hunc locum demonstrandam distulimus.
+
+*Demonstration de la practique de l'vnziesme proposition du quatriesme liure, que nous auons remise à demonstrer icy.*
+
+[Figure: labels arranged D / A F C E / H K / G / L O / M P / N]
 
 Demonstr.
 
-9. 13 | ae π be 2|2 be π bf,
-concl. 19. 5 | be π bf 2|2 bf π fe.
+6. 2 | ▭.bfc + □.ec / □.ef, Ⅱ □.ed ſnt
+47. 1 | □.dc + □.ec / 2|2 ꝗe
+1. a. f | □.cb + □.ec
+3. a. 1 | ▭bfc 2|2 □.cb,
+17. 6 | fb π cb 2|2 cb π fc,
+c.15. 4 | cb, Ⅱ cd, eſt γ. 6<,
+9. 13 | cf, eſt γ. 10<,
+47. 1 concl. 10. 13 | □.df 2|2 □.cd + □.cf / df, eſt γ. 5<.
 
-## THEOR. X. PROPOS. X.
+## THEOR. XI. PROPOS. XI.
 
-Si in circulo pentagonum æquilaterum describatur; pentagoni latus potest & latus hexagoni, & latus decagoni, in eodem circulo descriptorum.
+Si in circulo rationalem habente diametrum, pentagonum æquilaterum describatur; pentagoni latus irrationalis est linea, quæ vocatur minor.
 
-*Si vn pentagone equilateral est inscrit au cercle; le costé du pentagone, peut le costé de l'hexagone, & le costé du decagone inscrits au mesme cercle.*
-
-[Figure: labels arranged K A / H L / M / I / B E / F / C D / G]
+*Si au cercle duquel le diametre est rationel, est inscrit vn pentagone equilateral, le costé du pentagone est ligne irrationelle, appellee mineure.*
 
 Hypoth.
 
-fabce, eſt ⊙,
-abcde, eſt 5<, æquil.
-
-Præpar.
-
-1&2. p.1 | afg, eſt diamet.
-30. 3 | ∩ah 2|2 ∩hb, α
-30. 3 | ∩aк 2|2 ∩ kh, β
-1. p. 1 | fк, fh, fb / ah, bh, hm ſnt ——
-
-Req. π. demonstr.
-
-□.ab 2|2 □.fb / + □.ah.
-
-Demonstr.
-
-28. 3 | ∩abc 2|2 ∩aed,
-3. a 1 | ∩cg 2|2 ∩gd,
-α. 7.a.1 | cg, ah / hb ſnt ∩ 2|2 ꝗe,
-β20.a.b | ∩bcg 2|2, 2 ∩bhk
-33. 6 | <bfg 2|2, 2<bfк,
-20. 6 | <bfg 2|2, 2<bag,
+fabcd, eſt ⊙,

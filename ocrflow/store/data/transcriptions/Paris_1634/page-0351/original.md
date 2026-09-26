@@ -1,38 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-[Figure: demi-cercle A, E, B avec point F]
+## SCHOL.
+
+Parallelogramma vnum angulum vni angulo æqualem habentia sunt inter se æquiangula.
+
+Les parallelogrammes qui ont vn angle egal à vn angle sont equiangles entr'eux.
+
+[Figure: parallelogrammes A, B, H, G avec D, C, E, F, I, K, L]
 
 Hypoth.
 
-ae & eb snt — D.
+ac & cf snt ◇,
+<bcd 2|2 <ecg.
 
-Req. π. fa.
+Req. π. demonstr.
 
-ae π ef 2|2 ef π eb.
-
-Constr.
-
-3.1 | aeb est —,
-3.p.1 | afb est semic.
-11.1 | ef ⊥ ab,
-symp. | ef est req.
-
-Præpar.
-
-1.p.1 | af & bf snt —.
+◇bcda æquiang. ◇ecgf.
 
 Demonstr.
 
-31.3 | <afb est ⌐,
-constr. | fe ⊥ ab,
-concl. c.8.6 | ae π ef 2|2 ef π eb.
+29.1 | <bcd+<cda 2|2, 2 ⌐,
+29.1 | <ecg+<cgf 2|2, 2 ⌐,
+hyp. | <bcd 2|2 <ecg,
+1.concl. 3.a.1 | <cda 2|2 <cgf,
+34.1 | <a 2|2 <bcd,
+2.concl. 34.1 | <f 2|2 <ecg u <a,
+34.1 | <b 2|2 <adc,
+3.concl. 34.1 | <e 2|2 <cgf u <b.
 
-## SCHOL.
+## THEOR. X. PROPOS. XV.
 
-Perspicuum hinc fit, lineam rectam, quæ in circulo à quouis puncto diametri ipsi diametro perpendicularis ducitur ad circumferentiam vsque, mediam esse proportionalem inter duo diametri segmenta, quæ à perpendiculari facta sunt.
+Æqualium, & vnum vni æqualem habentium angulum, triangulorum, reciproca sunt latera, quę circum æquales angulos. Et quorum triangulorum vnum angulum vni æqualem habentium reciproca sunt latera, quæ circum æquales angulos, illa sunt æqualia.
 
-Par ceste demonstration il est manifeste que la ligne droicte menee de quelconque poinct du diametre du cercle à la circonference, perpendiculaire à iceluy diametre, est moyenne proportionelle entre les segmēs du diametre faits par la perpendiculaire.
-
-## THEOR. IX. PROPOS. XIV.
-
-Æqualium & vnum vni æqualem habentium angulum, parallelogrammorum, reciproca sunt latera, quæ circum æquales angulos : Et quorum parallelogrammorum vnum angulum vni angulo
+Des triangles egaux, & qui ont vn angle egal à vn angle, les costez qui sont autour des angles egaux sont reciproques : Et les triangles qui ont vn angle egal à vn

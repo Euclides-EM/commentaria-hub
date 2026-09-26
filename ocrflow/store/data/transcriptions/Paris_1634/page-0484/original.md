@@ -1,45 +1,55 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-A.......6 B....4 C.........8
-D..2
-E...3 F..2 G.....4
-H--- I--- K---
-L---
+A.....4 B......5
+C,20.
+D-------
+E--- F---
 
-1.concl. 23.7 | a, b, c snt term.. raō;
-1.suppo. | a, b, c snt compos. ꝫe,
-3.7 | d, est ma.c.me.. a,b,c,
-suppos. | d, msur: a ꝑ e,
-suppos. | d, msur: b ꝑ f,
-suppos. | d, msur: c ꝑ g,
-symp. | e, f, g snt nr. req.
+Constr..1.cas.
+
+suppos. | a & b snt pr. ꝫe,
+suppos. | ▭.ab est c, α
+symp. | c, est nr. req.
 
 Demonstr.
 
-9.a.7 | ▭.ed 2|2 a,
-9.a.7 | ▭.fd 2|2 b,
-9.a.7 | ▭.gd 2|2 c,
-17.7 | e π f 2|2 a π b,
-1.concl. 17.7 | f π g 2|2 b π c,
-suppos. | h, i, k snt term.. raō; a π b, & b π c, β
-21.7 | h, msur: a,
-suppos. | h, msur: a ꝑ l,
-21.7 | i, msur: b ꝑ l,
-21.7 | k, msur: c ꝑ l,
-9.a.7 | ▭.hl 2|2 a,
-9.a.7 | ▭.il 2|2 b,
-9.a.7 | ▭.kl 2|2 c,
-1.a.1 | ▭.hl 2|2 ▭.ed,
-19.7 | h π e 2|2 d π l,
-β | h 2|3 e,
-14.5 | d 2|3 l, δ
-9.a.7 | l, msur: a, b, c,
-δ | d, n̄, est ma.c.me.
-contr. constr.
-21.a.1 | e, f, g snt term.. raō; nr; a,b,c.
+7.a.7 | a & b msur: c,
+suppos. | d, est mi. commun. diuidu.. a & b, β
+suppos. | a, msur: d ꝑ e,
+suppos. | b, msur: d ꝑ f,
+9.a.7 | ▭.ae 2|2 d, α
+9.a.7 | ▭.bf 2|2 d,
+19.7 | a π b 2|2 f π e,
+hyp. | a & b snt pr. ꝫe,
+23.7 | a & b snt term.. raō.. a π b,
+21.7 | a, msur: f, b, msur: e, γ
+α.17.7 | b π e 2|2 c π d,
+γ.2.c.20 d.7 | c, msur: d,
+contr. suppos. β
+1.concl. 21.a.1 | d, est mi. commun. diuidu.. a & b,
 
-## COROLL.
+A.....4 B......6
+C..2 D...3
+E,12.
+F-----
+G--- H---
 
-Hinc perspicuum est, maximam mensuram quotlibet numerorum metiri ipsos per numeros, qui minimi sunt omnium eandem proportionem cum ipsis habentium.
+Constr..2.cas.
 
-*Il est manifeste de cecy, que la plus grande commune mesure le tant de nombres qu'on voudra, les mesure par les plus petits nombres de tous ceux qui ont la mesme proportion.*
+suppos. | a & b snt compos. ꝫe,
+35.7 | c & d snt term.. raō.. a π b, δ
+suppos. | ▭.ad, u bc 2|2 e, ε
+symp. | e, est nr. req.
+
+Demonstr.
+
+7.a.7 | a & b msur: e,
+suppos. | f, est mi. commun. diuidu.. a & b,
+suppos. | a, msur: f ꝑ g,
+suppos. | b, msur: f ꝑ h,
+9.a.7 | ▭.ag 2|2 f, θ
+9.a.7 | ▭.bh 2|2 f,
+1.a.1 | ▭.ag 2|2 ▭.bh,
+19.7 | a π b 2|2 h π g,
+δ.21.7 | c, msur: h, d, msur: g, λ
+ε.θ.17.7 | e π f 2|2 d π g,

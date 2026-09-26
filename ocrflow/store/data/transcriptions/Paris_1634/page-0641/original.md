@@ -1,41 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-6.app. | □.ef 2|2 □.fg + □.h, γ
+*Trouuer vn binome quatriesme.*
 
-Demonstr.
-
-1.concl. constr. | fg, comm. d,
-6.d.10 | fg, est ration.
-b.6.10 | ef, comm. fg ꝗn □,
-2 concl. s.12.10 | ef, est ration.
-constr. | cb π | ab, / n̄, est nr. □ π | nr.□,
-3 concl 9.10 | ef, incomm. fg,
-β.c.4.5 | ab π | cb, / □.ef π | □.fg,
-γ.c.19.5 | ab π | ac, / □.ef π | □.h,
-constr. | ab π | ac, / nr. □ π | nr.□,
-4 concl. 9.10 | ef, comm. h,
-2.d.48.10 | eg, est binom. 2.
-
-Explicat. ꝑ nr;
-
-arbitr. | d, est 8,
-arbitr. | fg, est 10.
-β.12.6 | ef, est √.180.
-2.a.1 | eg, est 10 + √.180,
-
-## PROBL. XV. PROPOS. LI.
-
-Inuenire ex binis nominibus tertiam.
-
-*Trouuer vn binome troisiesme.*
+A...3 C......6 B
+G——— ———
+D——— ——— F (E)
+H———
 
 Constr.
 
-2s.29.10 | ab & ac snt nr; □; cb, n̄, est nr. □. α
-constr. | l 2|2 cb + 1, u cb + 2
-constr. | l, n̄, est nr. □. β
-s.37.8 | l & cb, n̄, snt plan; sml; γ
-arbitr. | g est ration. expos.
-3l.10.10 | l π ab 2|2 □.g π □.de. ♪
-3l.10.10 | ab π cb 2|2 □.de π □.ef. ε
-symp. | req. est df.
+arbitr. | ab, est nr. □,
+2s29.10 | ac & cb, n̄ snt nr. □, α
+arbitr. | g, est ration. expos.
+2l.10.10 | de, comm. g,
+3l.10.10 | nr. ab π nr. cb 2|2 □.de π □.ef, β
+symp. | Req. est df.
+
+Præpar.
+
+β.14.5 | □.de 3|2 □.ef,
+6.app. | □.de 2|2 □.ef + □.h, γ
+
+Demonstr.
+
+ꝑ demonstr. sml. 49.10. df, est binom.
+
+constr. | ab π cb 2|2 □.de π □.ef,
+γ.c.19.5 | ab π ac 2|2 □.de π □.h,
+constr. | ab π ac, n̄, est 2|2 nr. □ π nr. □,
+9.10 | de, incomm. h,
+concl. 4d48.10 | df, est binom. 4.
+
+Explicat. ꝑ nr;
+
+arbitr. | g, est 8,
+arbitr. | de, est 6,
+β.12.6 | ef, est √.24,
+2.a.1 | df est 6 + √.24.
+
+## PROBL. XVIII. PROPOS. LIII.
+
+Inuenire ex binis nominibus quintam.
+
+*Trouuer vn binome cinquiesme.*

@@ -1,13 +1,23 @@
 <!-- Running title: PROLEGOMENA. -->
 
-Nos autem, vt quam quisque partem sibi necessariam ducit, seorsim habere possit, partiemur hunc Cursum Mathematicum in quinque tomos, in quorum prioribus traduntur partes, quæ ad intelligentiam posteriorum sunt necessariæ, vt ordo doctrinæ postulat, in singulisque tomis continentur cognatæ partes, eadem serie qua addiscendæ sunt, videlicet hoc ordine.
+rum quidem priores tredecim, sine vlla controuersia Euclidi ascribuntur ab omnibus ; posteriores verò duo à nonnullis Hypsiclis Alexandrini esse creduntur) secari rectè poterit in quatuor partes, quarum prima pars contenta sex prioribus libris agit de planis.
 
-Primus tomus continet Euclidis Elementorum lib. XV. Appendicem Geometriæ planorum : Euclidis Data : Apollonij Pergei de loco resoluto lib. V. Doctrinam angularium Sectionum.
+Secunda, tres sequentes complectens, passiones numerorum perscrutatur.
 
-Secundus complectitur Arithmeticam practicam : Computum Ecclesiasticü : Algebram, tum vulgarem, tum speciosam, vnà cum ratione componendi ac demonstrandi per regressum seu repetitionem vestigiorum analyseos.
+Tertia, quam solus decimus constituit liber, de lineis commensurabilibus, incommensurabilibusque disputat.
 
-Mais nous partirons ce Cours en cinq tomes, afin que chacun puisse auoir separément la partie qu'il iugera luy estre necessaire, aux premiers desquels sont contenuës les parties qui sont necessaires à l'intelligence de celles qui sont aux suiuans, comme requiert l'ordre de doctrine, & sont contenuës en chaque tome les parties qui ont plus d'affinité & rapport, en mesme ordre qu'on les doit apprendre, comme s'ensuit.
+Quarta denique, reliquis quinque libris absoluta sciëtiam solidorum siue corporum complectitur.
 
-Le premier tome contient les quinze liures des Elements d'Euclide : vn Appendix de la Geometrie des Plans : les Dates d'Euclide : cinq liures d'Apollonius Pergeus du lieu resolu : la Doctrine de la Section des angles.
+Prima pars rursum triplex est, nam in prioribus quatuor libris agitur de planis absolutè, inuestigando eorum æqualitatem & inæqualitatem. In quinto verò libro de proportionibus magnitudinum in genere disputatur : in sexto denique
 
-Le second comprend l'Arithmetique practique : le Calcul Ecclesiastique : l'Algebre, tant vulgaire que specieuse, auec la methode de composer & faire les demonstrations par le retour & repetition des vestiges de l'analyse.
+attribuez à Euclide sans aucune controuerse ; mais les deux derniers sont estimez par quelques-vns estre à Hypsile Alexandrin) pourra estre diuisé en quatre parties, dont la premiere contiendra les six premiers Liures qui traictent des plans.
+
+La seconde, les trois suiuants laquelle recherche les passions & proprietez des nombres.
+
+La troisiesme, contenant le dixiesme liure seulement, dispute des lignes commensurables & incommensurables.
+
+La quatriesme finalement, composée des cinq derniers liures, contient la science des solides ou corps.
+
+La premiere partie est diuisée derechef en trois, car aux quatre premiers liures est traicté des plans absolument, recherchant leur egalité ou inegalité. Au cinquiesme est disputé des proportions des grandeurs en general : & au sixiéme finalement les proportions
+
+propor-

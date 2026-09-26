@@ -1,35 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-## SCHOL.
+æquale est ei, quod sub mediis, comprehenditur, rectangulo. Et si sub extremis comprehensum rectangulum æquale fuerit ei, quod sub mediis continetur, rectangulo : illæ quatuor rectæ lineæ proportionales erunt.
 
-Parallelogramma vnum angulum vni angulo æqualem habentia sunt inter se æquiangula.
+Si quatre lignes droictes sont proportionelles, le rectangle contenu sous les extremes, est egal au rectangle contenu sous les moyennes : Et si le rectangle contenu sous les extremes est egal au rectangle contenu sous les moyennes, icelles quatre lignes droictes seront proportionelles.
 
-Les parallelogrammes qui ont vn angle egal à vn angle sont equiangles entr'eux.
+[Figure: lignes A—B, F—G, E—B, C et rectangles A, D, C, B, E ; H, G, F]
 
-[Figure: parallelogrammes A, B, H, G avec D, C, E, F, I, K, L]
+Hypoth. 1.
 
-Hypoth.
-
-ac & cf snt ◇,
-<bcd 2|2 <ecg.
+ab π fg 2|2 ef π cb.
 
 Req. π. demonstr.
 
-◇bcda æquiang. ◇ecgf.
+▭.ab,cb 2|2 ▭.fg,ef u ▭ac 2|2 ▭eg.
 
 Demonstr.
 
-29.1 | <bcd+<cda 2|2, 2 ⌐,
-29.1 | <ecg+<cgf 2|2, 2 ⌐,
-hyp. | <bcd 2|2 <ecg,
-1.concl. 3.a.1 | <cda 2|2 <cgf,
-34.1 | <a 2|2 <bcd,
-2.concl. 34.1 | <f 2|2 <ecg u <a,
-34.1 | <b 2|2 <adc,
-3.concl. 34.1 | <e 2|2 <cgf u <b.
+constr. | <b 2|2 <f,
+hyp. | ab π fg 2|2 ef π cb,
+1.concl. 14.6 | ▭ac 2|2 ▭eg.
 
-## THEOR. X. PROPOS. XV.
+Hypoth. 2.
 
-Æqualium, & vnum vni æqualem habentium angulum, triangulorum, reciproca sunt latera, quę circum æquales angulos. Et quorum triangulorum vnum angulum vni æqualem habentium reciproca sunt latera, quæ circum æquales angulos, illa sunt æqualia.
+▭ac 2|2 ▭eg.
 
-Des triangles egaux, & qui ont vn angle egal à vn angle, les costez qui sont autour des angles egaux sont reciproques : Et les triangles qui ont vn angle egal à vn
+Req. π. demonstr.
+
+ab π fg 2|2 ef π cb.
+
+Demonstr.
+
+hyp. | ▭ac 2|2 ▭eg,
+12.a.1 | <abc 2|2 <efg,
+2.concl. 14.6 | ab π fg 2|2 ef π cb.
+
+## THEOR. XII. PROPOS. XVII.
+
+Si tres rectæ lineæ sint proportionales : quod sub

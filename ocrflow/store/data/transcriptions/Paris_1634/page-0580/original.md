@@ -1,43 +1,26 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Il est manifeste aussi qu'vne grandeur qui mesure trois grandeurs, mesure aussi la plus grande commune mesure d'icelles.*
+*Si deux grandeurs n'ont mesme raison entr'elles que nombre à nombre ; icelles grandeurs seront incommensurables.*
 
-## THEOR. III. PROPOS. V.
-
-Commensurabiles magnitudines inter se rationem habent, quam numerus ad numerum.
-
-*Les grandeurs commensurables ont mesme raison l'vne à l'autre, que nombre à nombre.*
-
-A---------- D.4.
-C-- F.1.
-B------ E.3.
+A----------
+B--------
 
 Hypoth.
 
-a & b snt magnitud. comm.
+a π b, n̄, est 2|2 nr. π. nr.
 
 Req. π. demonstr.
 
-a π b 2|2 nr. π. nr.
-
-Præpar.
-
-ʒ. 10 | c, est ma.c.me..a & b,
-suppos. | f, est vnit.
-suppos. | c, msur: | a,
-f, msur: | d, α
-suppos | c, msur: | b,
-f, msur: | e, β
+a & b snt incomm.
 
 Demonstr.
 
-α.1c20.d7 | c π a 2|2 f π d,
-c.4.5 | a π c 2|2 d π f,
-β.1c20.d7 | c π b 2|2 f π e,
-concl. 22.5 | a π b 2|2 f π e.
+suppos. | a & b snt comm.
+concl. 5.10 | a π b 2|2 nr. π. nr.
+contr. hypoth.
 
-## THEOR. IV. PROPOS. VI.
+## THEOR. VII. PROPOS. IX.
 
-Si duæ magnitudines inter se proportionem habeant quam numerus ad numerum, commensurabiles erunt magnitudines.
+Quæ à rectis lineis longitudine commensurabilibus fiunt quadrata, inter se proportionem habent, quam quadratus numerus ad quadratum numerum : & quadrata inter se proportionem habentia, quam quadratus numerus ad quadratum numerum ; & latera habebunt longitudine commensurabilia. Quæ vero à rectis lineis longitudine incommensurabilibus fiunt quadrata, inter se proportionem non habent, quam quadratus numerus ad quadratum numerum : & quadrata inter se proportionem non habentia, quam quadratus numerus ad quadratum numerum, neque latera habebunt longitudine commensurabilia.
 
-*Si deux grandeurs ont mesme raison entr'elles que nombre à nombre, elles seront commensurables.*
+*Les quarrez descrits de lignes droictes commensurables en longitude, ont mesme raison entr'eux que nombre*

@@ -1,17 +1,20 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-ctui, non est magnitudo, sed initium omnis magnitudinis.
+### IV.
 
-Punctum in aliquibus quadrat cum vnitate, in aliquibus discrepat : Nam vt illa est principium omnis numeri, ita punctum est principium omnis magnitudinis : sed in hoc discrimen est, quod vnitas est pars numeri, punctum verò, quamuis sit initium & finis lineæ, non tamen est pars lineæ. Differunt etiam in eo, quod vnitas nullam positionem aut situm postulet, punctum verò habeat situm & positionem in magnitudine.
+Recta linea est, quæ ex æquo sua interiacet puncta. | La ligne droite est, celle qui est également estenduë entre ses poincts.
 
-Punctum est quoque simile, sono in musica, instanti in tempore, & mutato esse in motu.
+A ————— B
 
-Mathematici verò, cùm magnitudines ab omni materia abstractas considerent, non possunt eas ob oculos ponere, nisi physicè : vt in
+C ⌒ D
 
-lect, ce n'est pas vne grandeur, mais il est commencement de toute grandeur.
+[Figure: ligne courbe]
 
-Le poinct conuient auec l'vnité en quelques choses, & differe en d'autres : Car comme l'vnité est le principe & commencement de tout nombre, ainsi le poinct est le principe de toute grandeur : mais ils different aussi en ce que, l'vnité est partie du nombre, mais le poinct, encore qu'il soit le commencement & la fin de la ligne, il n'est pas neantmoins partie de la ligne. Ils different aussi en ce que, l'vnité ne requiert aucune position ny situation au nombre, mais le poinct a sa situation & position en la grandeur.
+AB est recta linea. | AB est vne ligne droite.
+CD est curua linea. | CD est vne ligne courbe.
 
-Le poinct a quelque similitude, auec le son en la musique, auec l'instant au temps, auec le changement de lieu au mouuement.
+Triplex est linea apud Mathematicos recta, circularis siue curua, & mixta siue composita, ex his describit hoc loco Euclides lineam rectam, in qua nihil flexuosum reperitur, neque est hic humilior illic altior, sed est breuissima ex vno puncto in aliud extensio. | Les Mathematiciens considerent trois sortes de lignes, la droite, la circulaire ou courbe, & la mixte, qui est composée de l'vne & de l'autre : Euclide descrit en ce lieu la droite, en laquelle il n'y a rien de courbe, & n'est point plus abaissé ou esleué en vn endroit qu'en vn autre, mais elle est le plus court chemin d'vn poinct à l'autre.
 
-Or les Mathematiciens, qui considerent les grandeurs separées de toute matiere, ne les peuuent exposer à la veuë que physiquement : comme en
+### V.
+
+Superficies est, quæ longitudinem, latitudinemque tantùm habet, vt ABCD. | La superficie est, ce qui a tant seulement longueur & largeur, cöme ABCD.

@@ -1,35 +1,52 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-tis describuntur, quadratis, & ei, quod bis sub segmentis comprehenditur, rectangulo.
+descriptum, quadruplum est quadrati ex hac descripti.
 
-Si vne ligne droicte est couppée comme on voudra : le quarré de la toute est égal aux quarrez des parties, & a deux fois le rectangle contenu sous icelles parties.
+Si vne ligne droicte est double d'vne ligne droicte, le quarré descrit de celle-là, est quadruple du quarré descrit de celle-cy.
+
+[Figure: quarré E—G—F en haut, A—C—B en bas, H—K—I au milieu, diagonale E—K—B, ligne G—K—C]
 
 Hypoth.
 
-ab est —.
-ac & cb snt par.. ab,
+ac 2|2 cb.
 
 Req. π. demonstr.
 
-▭.ab 2|2 ▭.ac + ▭.cb + 2▭.acb,
-
-[Figure: quarré E—F—D en haut, A—C—B en bas, H—G—I au milieu, diagonale E—G—B, ligne F—G—C]
+▭.ab 2|2 4▭.ac u cb.
 
 Præpar.
 
-46.1. | ad est ▭.ab
-1.p.1. | eb est —,
-31.1. | cf == ae u bd,
-31.1. | hgi == ab u ed.
+46.1. | af est ▭.ab,
+1.p.1. | eb est diametr.
+31.1. | cg == ae u bf,
+31.1. | hki == ab u ef,
 
 Demonstr.
 
-29.d.1. | <a, <aed, <d, <abd snt ∟,
-2.c.29.1 | <ehg, <efg, <hgf snt ∟, α
-29.d.1. | ae 2|2 ab,
-2.c.32.1. | <aeb est ½ ∟, β
-2.c.32.1. | <deb est ½ ∟,
-α.β.32.1 | <hge est ½ ∟,
-α.32.1. | <fge est ½ ∟,
-6.1. | he 2|2 hg,
-6.1. | ef 2|2 fg,
+constr. | af est ▭.ab,
+1.c.4.2. | ci est ▭.cb,
+1.c.4.2. | hg est ▭.ac,
+29.d.1. | eh 2|2 hk,
+34.1. | hk 2|2 ac,
+hyp. | ac 2|2 cb,
+29.d.1. | cb 2|2 ck,
+34.1. | cb 2|2 ki,
+29.d.1. | ak & kf snt ▭,
+s.46.1. | ▭ak, ▭kf, ▭ci, ▭hg snt 2|2 ⁊e,
+concl. 19.a.b. | ▭af 2|2 4▭ac u cb.
+
+Explicat. p nr.
+
+hyp. | ac est 3,
+hyp. | cb est 3,
+2.a.1. | ab est 6,
+1.s.1.d.2 | af ▭.ab est 36,
+1.s.1.d.2 | ak ▭.ac est 9,
+1.s.1.d.2 | hg ▭.ac est 9,
+1.s.1.d.2 | ci ▭.cb est 9,
+1.s.1.d.2 | kf ▭.cb est 9,
+2.a.1. | af ▭.ab est 36.
+
+## SCHOL. II.
+
+Si quadratus numerus addatur & auferatur ab eodem numero dato, & dimidium summæ & residui, diuidatur

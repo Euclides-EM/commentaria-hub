@@ -1,38 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-## THEOR. XIX. PROPOS. XXVI.
+parallelogrammum applicare deficiens figura parallelogramma, quæ similis sit alteri parallelagrammo dato. Oportet autem datum rectilineum cui æquale applicandum est, non maius esse eo, quod ad dimidiam applicatur similibus existentibus defectibus, & eius, quod ad dimidiam applicatur, & eius, cui simile deesse debet.
 
-Si à parallelogrammo parallelogrammum ablatum sit, & simile toti, & similiter positum, communem cum eo habens angulum ; hoc circum eandem cum toto diametrum consistit.
+A vne ligne droicte donnee appliquer vn parallelogramme egal à vne figure rectiligne donnee ; defaillant d'vne figure parallelogramme, laquelle soit semblable à vn autre parallelogramme donné. Mais il faut que la figure rectiligne donnee, à laquelle il en faut appliquer vne egale, ne soit plus grande que celle qui est appliquee à la moitié de la ligne donnee ; les defauts estans semblables de celuy qui est appliqué à la moitié, & de celuy qui doit defaillir d'vn semblable.
 
-Si d'vn parallelogramme on retranche vn parallelogramme semblable au tout, & semblablement posé, ayant vn angle commun auec le tout ; le retranché est à l'entour d'vn mesme diametre auec le tout.
-
-[Figure: parallelogramme A, B, C, D auec poincts I, G, E, H, F et diametre A—C]
+[Figure: quarré K, T, N, M ; triangle I ; parallelogramme D ; triangle C, S ; parallelogramme H, F, Q, G auec poincts O, P, R sur la base A, E, Z, B]
 
 Hypoth.
 
-◇agfe, sml. ◇abcd,
-<eag est commun.
-ag homolog. ab.
+ab est — D.
+c, est rectili. D.
+d, est ◇ D.
 
-Req. π. demonstr.
+Req. π. fa.
 
-afc est —, u diamet.
+◇ap 2|2 rectili. c,
+◇zr, sml. ◇d.
 
-Demonstr.
+Constr.
 
-suppos. | ahc est —, u diamet.
-31.1 | hi == ae,
-24.6 | aehi, sml. abcd,
-hyp. | aefg, sml. abcd,
-1.d.6 | ae π eh 2|2 ad π dc,
-1.d.6 | ad π dc 2|2 ae π ef,
-11.5 | ae π eh 2|2 ae π ef,
-9.5 | eh 2|2 ef,
-
-contr. 9.a.1.
-
-concl. 21.a.1 | afc est —.
-
-## THEOR. XX. PROPOS. XXVII.
-
-Omnium parallelogrammorum secundum eandem rectam lineam applicatorum deficientiumque
+10.1 | ae 2|2 eb, α
+18.6 | ◇eg, sml. ◇d,

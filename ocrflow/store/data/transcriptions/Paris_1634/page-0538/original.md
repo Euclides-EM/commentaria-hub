@@ -1,33 +1,29 @@
-<!-- Running title: ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLD. LI. IX. -->
 
-proportionales fuerint, qui verò post vnitatem, non sit quadratus, neque alius vllus quadratus erit, præter tertium ab vnitate, & vnum intermittentes omnes. At si, qui post vnitatem, non sit cubus, neque alius vllus cubus erit, præter quartum ab vnitate, & duos intermittentes omnes.
+*Si depuis l'vnité il y a tant de nombres qu'on voudra continuellement proportionaux ; le plus petit mesure le plus grand par quelqu'vn de ceux qui sont entre les nombres proportionaux.*
 
-*Si depuis l'vnité, il y tant de nombres qu'on voudra continuellement proportionaux, & que celuy qui est apres l'vnité ne soit quarré, aussi pas vn autre ne sera quarré, outre le troisiesme depuis l'vnité, & tous les autres qui en laissent vn : Et si celuy qui est apres l'vnité n'est cube, aussi aucun autre ne sera cube, outre le quatriesme depuis l'vnité, & tous les autres qui en laissent deux.*
+H,1. A,3. B,9. C,27. D,81. E,243. F,729. G,2187.
 
-H,1. A,2. B,4. C,8. D,16. E,32. F,64. G,128.
+Hypoth.
 
-Hypoth. 1.
-
-h, a, b, c, &c. snt contin. proport.
-a, n̄, est nr. □.
+h,a,b,c,d,&c. snt contin. proport;
 
 Req. π. demonstr.
 
-c,e,g,&c. n̄ snt nr; □
+nr.minr.proport. msur: nr.majr.proport. ꝑ proport.
 
 Demonstr.
 
-suppos. | e, est nr. □. α
-hyp. | a π b 2|2 d π e,
-c.4.5 | b π a 2|2 e π d,
-8.9 | b & d snt nr; □;
-α.24.8 | a, est nr. □.
-contr. hypoth.
-11.a.1 | e, n̄, est nr. □. β
-d.β | c, g, &c. n̄, snt nr; □;
+hyp. | h π a 2|2 a π b, u b π c, u c π d, &c.
+5.a.7 | h, msur: a ꝑ a,
+3c20.d7 | a, msur: b ꝑ a, b msur: c ꝑ a, c msur: d ꝑ a, &c.
+14.7 | h π b 2|2 a π c, u b π d, u c π e, &c.
+5.a.7 | h, msur: b ꝑ b,
+3c20.d7 | a, msur: c ꝑ b. b, msur: d ꝑ b. c, msur: e ꝑ b, &c.
+14.7 | h π c 2|2 a π d, u b π e, u c π f, &c.
+5.a.7 | h, msur: c ꝑ c,
+3c20.d7 | a, msur: d ꝑ c. b, msur: e ꝑ c. c, msur: f ꝑ c, &c.
 
-Hypoth. 2.
+## COROLL.
 
-a, n̄, est nr. cub.
-
-Req. π. demonstr.
+Hinc perspicuum est si numerus qui metitur aliquem ex proportionalibus non sit vnus proportionalium, neque numerum per quem metitur esse aliquem ex proportionalibus.

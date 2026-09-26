@@ -1,32 +1,23 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Figure: lignes A et B longues à gauche, lignes C et D courtes à droite]
-
-hyp. | c 3|2 d.
-hyp. | a 2|2 2c.
-hyp. | b 2|2 2d.
-6.a.b | a 3|2 b.
-
-### 6. a. c.
-
-Et quod vnius æqualium duplum est, duplum est & alterius æqualium. | Et ce qui est double de l'vn des egaux, est außi double de l'autre des egaux.
-
-[Figure: ligne A longue à gauche, lignes B et C courtes à droite]
-
-hyp. | b 2|2 c.
-hyp. | a 2|2 2b.
-6.a.c. | a 2|2 2c.
-
-### 6. a. d.
-
-Et si vnum æqualium duplum est cuiuspiam magnitudinis, alterum quoque æqualium duplum est eiusdem magnitudinis. | Et si l'vn des egaux est double de quelque grandeur, l'autre des egaux sera außi double de la mesme grandeur.
-
-[Figure: lignes A et B longues à gauche, ligne C courte à droite]
+[Figure: lignes A et B courtes à gauche, ligne C longue à droite]
 
 hyp. | a 2|2 b.
-hyp. | a 2|2 2c.
-6.a.d. | b 2|2 2c.
+hyp. | a 2|2 ½c.
+7.a.d. | b 2|2 ½c.
 
-### 7. a. 1.
+Quæ in sexto & septimo axiomate dicta sunt de duplo & dimidio, possunt etiam sumi de triplo, quadruplo, quintuplo, &c. & de partibus tertiis, quartis, quintis, &c. | Aux sixiesme & septiesme axiomes, les choses qui ont esté dictes du double & de la moitié, se peuuent außi entendre du triple, quadruple, quintuple, &c. & des tierces, quartes, quintes, &c.
 
-Et quæ eiusdem, vel æqualium sunt dimidia, inter se sunt æqualia. | Et les choses qui sont moitiés d'vne mesme, ou des choses egales, sont aussi egales entr'elles.
+### 8. a. 1.
+
+Et quæ sibi mutuò congruunt, ea inter se sunt æqualia. | Et les choses qui conuiennent entr'elles, sont egales entr'elles.
+
+Magnitudines congruæ sunt, quarum partes applicatæ partibus, æqualem vel eundem locum occupant. | Les grandeurs qui conuiennent sont celles dont les parties estans mises l'vne sur l'autre, occupent espace egal, ou vn mesme lieu.
+
+### 9. a. 1.
+
+Et totum sua parte maius est. | Et le tout est plus grand que sa partie.
+
+### 9. a. b.
+
+Mensura non est maior mensurato, | La mesure n'est pas plus grande que la chose mesurée.

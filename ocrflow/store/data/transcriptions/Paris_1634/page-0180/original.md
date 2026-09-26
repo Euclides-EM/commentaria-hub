@@ -1,29 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-1.a.1 | 3<cbe 2|2, 2∟,
-7.a.1 | <cbe 2|2, ⅓..2∟,
-3.a.b | <bce + <bec 2|2, ⅔..2∟,
-α.5.1 | <bce 2|2 <bec,
-19.a.b | <bce 2|2, ⅓. 2∟,
-19.a.b | <bec 2|2, ⅓..2∟,
-c.6.1 | △bce est æquilat.
-constr. | bd 2|2 de,
-8.1 | <cdb 2|2 <cde,
-10.d.1 | cd ⊥ be,
-12.2 36.1 3.s.1.d.2 | ▭.ac, ▭.ab + ▭.bc + 2▭.abd, ▭.ab + ▭.bc + ▭.abe, ▭.ab + ▭.bc + ▭.abc, snt 2|2 ⁊e,
-concl. 1.a.1 | ▭.ac 2|2 ▭.ab + ▭.bc + ▭.abc.
+| ▭.abf commun. add.
+2.a.1. | ▭.ac + ▭.abf u ▭.abc 2|2 ▭.af + 2▭.abf,
+7.2 | ▭.ab + ▭.bc u ▭.bf 2|2 ▭.af + 2▭.abf,
+concl. 1.a.1 | ▭.ac + ▭.abc 2|2 ▭.ab u ▭.bc.
 
-[Figure: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]
+## PROBL. II. PROPOS. XIV.
 
-## SCHOL. III.
+Dato rectilineo æquale quadratum constituere.
 
-Si trianguli vnus angulus fuerit dimidium aggregati reliquorum, quadratum quod fit à latere dimidium angulum subtendente, minus est quadratis, quæ fiunt à lateribus dimidium angulum comprehendentibus, rectangulo sub lateribus dimidium angulum continentibus comprehenso.
+Descrire vn quarré égal à vn rectiligne donné.
 
-Si vn angle d'vn triangle est égal à la moitié de l'aggregé de deux autres, le quarré du costé qui le soustient, est moindre que les quarrez des costez qui le contiennent, du rectangle contenu sous les costez qui le contiennent.
+[Figure: rectiligne A à gauche, quarré M—N—L—I au milieu, demi-cercle D—H—F sur le diametre D—F, rectangle D—E—B—F dessous, G et C sur le diametre, lignes G—H, C—H]
 
 Hypoth.
 
-abc est △,
-2<b 2|2 <a + <acb.
+a est rectilin. D.
 
-Req. π. demonstr.
+Req. π. fa.
+
+▭.ml 2|2 rectilin. a,
+
+Constr.
+
+45.1 | ▭db 2|2 rectilin. a,
+2.p.1 | dcf est —,
+3.1 | cf 2|2 cb,
+10.1 | dg 2|2 gf,
+3.p.1 | gdhf est semic.
+2.p.1 | bch est —,
+3.1 | il 2|2 ch,
+46.1 | in est ▭.il,
+symp. | ▭in est req.
+
+Præpar.
+
+1.p.1 | gh est —.
+
+Demonstr.
+
+constr. 3.s.1.d.2 s.5.2 s.46.1 | a, ▭.db, ▭.dcf, ▭.ch, ▭.ml, snt 2|2 ⁊e,
+concl. 1.a.1 | ▭ml 2|2 rectilin. a.

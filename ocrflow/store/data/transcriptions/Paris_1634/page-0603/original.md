@@ -1,45 +1,49 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-11.10 | b, comm. a, ꝗn. □, α
-11.10 | c, comm. b, ꝗn. □, β
-symp. | req. snt b & c.
+D (rectangle B C) A (rectangle E G F)
 
 Demonstr.
 
-1.concl. α.6d.10 | b, est ration.
-2 concl. β s12.10 | c, est ration.
-3.concl β.cōstr. | b, comm. c, ꝗn. □.
+suppos. | ▭eg 2|2 □.a, α
+suppos. s.22.10 | ef & fg snt ration;
+comm; ꝗn □, β
+hyp. | ▭bd 2|2 □.a,
+α.1a.1 | □.eg 2|2 ▭bd,
+14.6 | bc π ef 2|2 fg π cd,
+22.6 | □.bc π | □,ef,
+□.fg π | □.cd,
+s.12.10 | □.bc, comm. □.ef,
+10.10 | □.fg, comm. □.cd, γ
+β | fg, est ration.
+1.concl. γ.s12.10 | cd, est ration. ♪
+1.6 | ef π fg,
+□.ef π | ▭eg u ▭bd
+β. hyp. | ef, incomm. fg,
+10.10 | □.ef, incomm. ▭bd,
+♪.s12.10 | □.ef comm. □.cd,
+13.10 | □.cd, incomm. ▭bd,
+1.6 | □.cd π | ▭bd,
+cd π | bc,
+2 concl. 10.10 | cd, incomm. bc.
 
-## THEOR. XIX. PROPOS. XXII.
+## THEOR. XXI. PROPOS. XXIV.
 
-Quod sub rationalibus potentia solum commensurabilibus rectis lineis continetur rectangulum, irrationale est : & recta linea ipsum potens, irrationalis ; vocetur autem media.
+Mediæ commensurabilis, media est.
 
-*Le rectangle contenu sous deux lignes droictes rationelles, commensurables en puissance seulement, est irrationel : & la ligne droicte pouuant iceluy est irrationelle ; soit icelle appellee mediale.*
+*La ligne droicte commensurable à vne ligne mediale, est aussi mediale.*
 
-E D F (rectangle A C B G H)
+C (rectangle F D E) A B
 
 Hypoth.
 
-dc & cb snt ration.
-comm. ꝗn □,
-db, est ▭.dc, cb.
+a, est medi.
+b, comm. a. α
 
 Req. π. demonstr.
 
-▭db, est irration.
+b, est medi.
 
 Præpar.
 
-suppos. | g, est ration. expos.
-46 1 | da, est □.dc,
-4.app. | □.h 2|2 ▭db,
-
-Demonstr.
-
-1.6 | ac π cb 2|2 da π db,
-hyp. | ac, u cd, incomm. cb,
-10.10 | db, incomm. da,
-9.d.10 | □.g, comm. da,
-13.10 | db, incomm. □.g,
-1.concl. 10 d.10 | db, est irration.
-2 concl. 11.d.10 | h, est irration.
+suppos. | cd, est ration. expos. β
+4.app. | ▭ce 2|2 □.a, γ

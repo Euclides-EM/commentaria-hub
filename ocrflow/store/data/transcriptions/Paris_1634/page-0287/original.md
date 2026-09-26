@@ -1,26 +1,25 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## DEFINIT. XX.
+## THEOR. II. PROPOS. II.
 
-Quotlibet magnitudinib. ordine positis, proportio primæ ad vltimam componitur ex proportionibus primæ ad secundam, & secundæ ad tertiam, & tertiæ ad quartam, & ita deinceps donec extiterit proportio.
+Si prima secundæ æquè fuerit multiplex, atque tertia quartæ ; fuerit autem & quinta secundæ æquè multiplex, atque sexta quartæ ; erit & composita prima cum quinta, secundæ æquè multiplex, atque tertia cum sexta quartæ.
 
-S'il y a tant de grandeurs qu'on voudra, la raison de la premiere à la derniere est composée des raisons de la premiere à la seconde, & de la seconde à la troisiesme, & de la troisiesme à la quatriesme, & ainsi d'ordre iusques à ce que la proportion soit acheuée.
+Si la premiere est autant multiple de la seconde, que la troisiesme l'est de la quatriesme, & que la cinquiesme soit aussi autant multiple de la seconde que la sixiesme l'est de la quatriesme ; la composée de la premiere, & de la cinquiesme, sera autant multiple de la seconde, que la composée de la troisieme & de la sixiesme l'est de la quatriesme.
 
-A, 24. B, 12. C, 8. D, 6.
+Hypoth.
 
-hyp. | a, b, c, d snt magnitud. propos.
-20.d.5 | raō.. a π c 2|2 raō.. a π b + raō.. b π c,
-20.d.5 | raō.. a π d 2|2 raō.. a π b + raō.. b π c + raō.. c π d.
+ab multipl.. c 2|2 de multipl.. f, α
+bg multipl.. c 2|2 eh multipl.. f, β
 
-## AXIOM.
+[Figure: lignes verticales A—B—G auec C, et D—E—H auec F]
 
-Æquèmultiplices eidē multiplici sunt quoque inter se æquèmultiplices.
+Req. π. demonstr.
 
-Les equimultiples à vne mesme multiple, sont aussi equimultiples entre elles.
+ag multipl.. c 2|2 dh multipl.. f.
 
-A, 12. B, 4. E, 15. F, 5.
-C, 21. D, 7.
+Demonstr.
 
-hyp. | a, multipl.. b 2|2 e, multipl.. f,
-hyp. | c, multipl.. d 2|2 e, multipl.. f,
-a..5 | a, multipl.. b 2|2 c, multipl.. d.
+α.s.2.d.5 | multd.. part.. ab 2|2 multd.. part.. de,
+β.s.2.d.5 | multd.. part.. bg 2|2 multd. part. eh,
+2.a.1 | multd.. part.. ag 2|2 multd.. part.. dh,
+s.2.d.5 | ag multipl.. c 2|2 dh multipl.. f.

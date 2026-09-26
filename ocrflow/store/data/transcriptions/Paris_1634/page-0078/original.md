@@ -1,17 +1,27 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-faciat, duæ illæ rectæ lineæ in infinitum productæ, sibi mutuò incident ad eas partes vbi sunt anguli duobus rectis minores. | droicts, icelles deux lignes droictes estant prolongees infiniment, se coupperont l'vne l'autre de la part où les deux angles sont moindres que deux droicts.
+[Figure: ligne A—G—B—E en haut, ligne C—D—F au dessous]
 
-[Figure: ligne horizontale AD en bas, ligne verticale AB, ligne oblique BCD descendant de B vers D, ligne pointillée BF horizontale vers la droite]
+hyp. | ag 2|2 ab~cd.
+hyp. | be 2|2 df.
+16.a.1. | ag 2|2 ae~cf.
 
-hyp. | <bad + <abc snt 2|3 2∟.
-13.a.1 | ad & bc ñ snt == ꝗe.
+### 17. a. 1.
 
-Explicat.. not;
+Si ab æqualibus inæqualia demantur, erit residuorum excessus excessui ablatorum æqualis. | Si de choses egales on retranche choses inegales, l'excez des restantes sera egal à l'excez des retranchees.
 
-Angulus BAD, plus angulo ABC, sunt minores duobus rectis, per hyp. | L'angle BAD, plus l'angle ABC, sont plus petits que deux droicts, par l'hyp.
-Igitur rectæ AD & BC non sunt inter se parallelæ, sed conueniët productæ versus D, per 13.ax. 1. | Partant les lignes AD & BC ne sont point paralleles entr'elles, ains estät continuées vers D, se rencontreront l'vne l'autre, par le 13.ax.du 1.
+[Figure: ligne A—E—B en haut, ligne C—F—G—D au dessous]
 
-### 14. a. 1.
+hyp. | ab 2|2 cd.
+hyp. | fg 2|2 ae~cf.
+17.a.1. | fg 2|2 fd~eb.
 
-Duæ rectæ lineæ spatiü non comprehëdunt. | Deux lignes droictes ne contiennent pas vn espace.
+### 18. a. 1.
+
+Si ab inæqualibus æqualia demantur, erit residuorum excessus excessui totorum æqualis. | Si de choses inegales on retranche choses egales, l'excez des restantes sera egal à l'excez des toutes.
+
+[Figure: ligne A—G—E—B en haut, ligne C—F—D au dessous]
+
+hyp. | ag 2|2 ab~cd.
+hyp. | eb 2|2 fd.
+18.a.1. | ag 2|2 ae~cf.

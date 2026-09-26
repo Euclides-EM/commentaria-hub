@@ -1,29 +1,35 @@
-<!-- Running title: ELEM.. EVCLD. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-β | BP & AB, sunt rationales primi generis.
-γ | CE & AB, sunt rationales secundi generis.
-δ | AK & AP, sunt rationales tertij generis.
-ε | FD, est linea irrationalis.
+*continuant, il demeurera en fin quelque grandeur, plus petite que la moindre grandeur proposee.*
 
-β | *BP & AB, sont rationelles de la premiere sorte.*
-γ | *CE & AB, sont rationelles de la seconde sorte;*
-δ | *AK & AP, sont rationelles de la troisiesme sorte.*
-ε | *FD, est vne ligne irrationelle.*
+Hypoth.
 
-## POSTVLATVM, SIVE PETITIO.
+ab 3|2 c,
 
-Postuletur, quamlibet magnitudinem toties posse multiplicari, donec quamlibet magnitudinem eiusdem generis excedat.
+Præpar.
 
-## DEMANDE.
+ʒ. 1 | c, df, fg, ge snt 2|2 ꝫe,
+II.p.II | de 3|2 ab,
+suppos. | ah 3|2 hb, α
+suppos. | hi 3|2 ib, β
+suppos. | multd.. ah, hi, ib 2|2 multd.. df, fg, ge.
 
-*Soit concedé qu'on puisse multiplier quelcōque grandeur tant de fois, qu'elle excede quelconque grandeur proposee de mesme genre.*
+Req. π. demonstr.
 
-## AXIOMATA, SIVE PRONVNTIATA.
+ib 2|3 c,
 
-## AXIOMES, OV communes sentences.
+Demonstr.
 
-I.
+constr. | de 3|2 ab,
+3.a.b | fe, n̄, est 2|3, ½de,
+α.3.a.b | hb 2|3, ½ab,
+7.a.b | fe 3|2 hb,
+3.a.b | ge, n̄, est 2|3, ½fe,
+β.3.a.b | ib 2|3, ½hb,
+concl. 7.a.b | ge, u c 3|2 ib.
 
-Magnitudo quotcunque magnitudines metiens, compositam quoque ex ipsis metitur.
+## SCHOL.
 
-*Vne grandeur mesurant tant de grādeurs qu'on voudra, mesure aussi la grādeur composee d'icelles.*
+Idem demonstrabitur si ex AB, auferatur dimidium AH, & ex reliquo HB, rursus dimidium HI, & ita deinceps.
+
+*On demonstrera la mesme chose si de AB, est ostee la moitié AH, & du reste HB, derechef la moitié HI, & ainsi tousiours.*

@@ -1,56 +1,48 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-Hypoth.
+rationali lineæ commēsurabilem longitudine vel potentia esse quoque rationalem, & omnes rectas rationales esse inter se commensurabiles saltem potentia : item omne spatium rationali spatio commensurabile esse quoque rationale, & cōtrà, omnia spatia rationalia esse inter se cōmensurabilia : magnitudines vero quarum altera est rationalis, altera irrationalis, esse inter se incommensurabiles.
 
-b & c snt nr; D;
-km, est —— D.
+*Il s'ensuit de ceste proposition que toute ligne droicte commensurable en longueur ou en puissance à vne ligne rationelle est aussi rationelle : pareillement que tout espace commensurable à vn espace rationel est aussi rationel ; & au contraire, que tous les espaces rationaux sont commensurables entr'eux : mais les grandeurs, l'vne desquelles est rationelle & l'autre irrationelle, sont incommensurables entr'elles.*
 
-Req. π. fa.
+A------ C------
+B----
 
-b π c 2|2 □.km π □.d
+Hypoth. 1.
 
-Constr.
+a, est ration.
+b, comm. a ꝗn □.
 
-2l10.10 | b π c 2|2 km π hr,
-13.6 | km π d 2|2 d π hr, α
-symp. | d, est nr. req.
+Req. π. demonstr.
 
-Demonstr.
-
-α.c20.6 | □.km π | □.d,
-km π | hr,
-constr. | b π c 2|2 km π hr,
-concl. 11.5 | □.km π □.d 2|2 b π c.
-
-## PROBL. III. PROPOS. XI.
-
-Propositæ rectæ lineæ inuenire duas rectas lineas incommensurabiles, alteram quidem longitudine tantùm, alteram vero etiam potentia.
-
-*Trouuer deux lignes droictes incommensurables à vne ligne droicte proposee, à sçauoir l'vne en longitude seulement, & l'autre en longitude & puissance.*
-
-A---------- B,20.
-E--------
-D---------- C,16.
-
-Hypoth.
-
-a, est —— D.
-
-Req. 1. est d incomm. a.
-
-Constr.
-
-1.l10.10 | b π | c,
-n̄, est nr. □ π | nr. □,
-2l10.10 | b π c 2|2 □.a π □.d,
-symp. | req. est d.
+b, est ration.
 
 Demonstr.
 
-constr. | □.a π | □.d,
-nr. b π | nr. c,
-1.concl. 6.10 | □.a, comm. □.d,
-constr. | b π | c,
-n̄, est nr. □ π | nr. □,
-α.11.5 | □.a π | □.d,
-n̄, est nr. □ π | nr. □,
+suppos. | c, est ration. expos.
+hyp. | □.b, comm. □.a,
+6.d.10 | □.c, comm. □.a,
+12.10 | □.b, comm. □.c,
+1.concl. 6.d.10 | b, est rationel.
+
+Hypoth. 2.
+
+a & b snt ration. α
+
+Req. π. demonstr.
+
+□.a comm. □.b.
+
+Demonstr.
+
+α.6d.10 | □.a, comm. □.c,
+α.6d.10 | □.b, comm. □.c,
+2 concl. 12.10 | □.a, comm. □.b.
+
+Hypoth. 3.
+
+Δc, est ration.
+Δb, comm. Δc.
+
+Req. π. demonstr.
+
+Δb, est ration.

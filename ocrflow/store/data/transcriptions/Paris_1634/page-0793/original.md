@@ -1,25 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-altitudinem: Et pyramides triangulares æquales eandemque habentes altitudinem, bases habere æquales, si non eandem habuerint.
+2 concl. 24. 5 | abcde π ghi 2|2 abcdef π ghiк, δ
 
-*D'icy il aduient que les pyramides de mesme hauteur constituees sur mesme base, ou bases egales triangulaires sont egales entr'elles.*
+[Figure: labels arranged F L / A / E G K / B / C DH I]
 
-*Il s'ensuit au contraire que les pyramides triangulaires egales, constituees sur vne mesme base ou bases egales, sont de mesme hauteur: Et que les pyramides triangulaires egales ayant mesme hauteur, ont bases egales ou vne mesme.*
+γ | abcd π ghiк 2|2 abcdf π ghikl,
+δ | ade π ghiк 2|2 adef π ghikl,
+3 concl 24. 5 | abcde π ghiк 2|2 abdef π ghiкl.
 
-## THEOR. VI. PROPOS. VI.
+## COROLL.
 
-Sub eadem altitudine existentes pyramides, & polygonas habentes bases, inter se sunt vt bases.
+Perspicuum quoque inde efficitur, pyramides eiusdem altitudinis super æquales bases multangulas, vel eandem constitutas, esse inter se æquales.
 
-*Les pyramides qui sont de mesme hauteur, & ayans les bases polygones, sont l'vne à l'autre comme leurs bases.*
+Rursus contrà fit, pyramides multangulas æquales, & super æquales bases, vel super eandem constitutas, eandem habere altitudinem: Et pyramides multangulas æquales, eandémque habentes altitudinem, æquales habere bases, si non habuerint eandem.
 
-[Figure: labels arranged F M / A G / E L / B H / C D I K]
+*Il est außi manifeste de là, que les pyramides de mesme hauteur constituees sur bases egales multilateres ou sur vne mesme, sont egales entr'elles.*
 
-Hypoth.
+*Derechef il s'ensuit au contraire que les pyramides multilateres egales, & constituees sur bases egales, ou vne mesme, ont mesme hauteur: Et que les pyramides multilateres egales ayant mesme hauteur, ont les bases egales, si elles n'ont la mesme.*
 
-abcdef & ghiкlm snt pyram;
-abcde & ghikl snt bas;
-alt.. f 2|2 alt.. m,
+## THEOR. VII. PROPOS. VII.
 
-Req. π. demonstr.
-
-abcdef π ghiкlm 2|2 abcde π ghiкl.
+Omne prisma triangularem habens basim, di-

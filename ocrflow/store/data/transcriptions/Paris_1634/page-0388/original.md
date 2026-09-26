@@ -1,45 +1,40 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-[Figure: triangle A, C, B auec E, G, H, F, le demicercle A, N, M, L & le quarré B, N, M]
+46.1 | gh est □.eg,
+symp. | □gh est req.
 
-12.1 | cd ⊥ ab,
-arbitr. | def & cef snt ⊙ 2|2 ⁊e,
-1.p.1 | ef est —,
-2.p.1 | abl est —,
-3.1 | bl 2|2 dg,
-3.p.1 | aml est semic.
-11.1 | bm ⊥ al,
-46.1 | bn est □.bm,
-symp. | □bn 2|2 Δabc,
+Dmonstr.
 
-Demonstr.
+47.1 | □.gh 2|2 □.gf + □.ef,
+47.1 | □.ef 2|2 □.ed + □.df,
+concl. 1.a.f | □gh 2|2 □.ed + □.df + □.fg u □.a + □.b + □.c.
 
-2.app. | Δabc 2|2 ▭.ab,dg u ab,bl,
-s.5.2 | □.bm 2|2 ▭.ab,bl,
-concl. 1.a.1 | □.bm 2|2 Δabc.
+## PROBL. VI. PROPOS. VI.
 
-## PROBL. IV. PROPOS. IV.
+Propositis duobus quadratis inæqualibus, inuenire quadratum, quo maius excedit minus.
 
-Ad datam rectam lineam, datum quadratum, vel rectangulum applicare.
+Estant proposez deux quarrez inegaux, trouuer vn quarré egal à l'exces, par lequel le plus grand excede le plus petit.
 
-A vne ligne droicte donnee, appliquer vn quarré, ou rectangle donné.
+[Figure: demicercle A, D, B, le quarré E sur A D, & la ligne C F à part]
 
-45.1.Elem.
+Hypoth.
 
-[Figure: quarré D, B, C ; ligne A ; rectangle G, E, F]
+ab & cf snt — D.
 
-Hypoth. I.
-
-bc & a snt D.
+ab 3|2 cf.
 
 Req. π. fa.
 
-▭bd 2|2 □.a.
+□de 2|2 □.ab ~ □.cf.
 
 Constr.
 
-11.6 | bc π a 2|2 a π cd,
-1.1.d.2 | bd est ▭.bc,cd,
-symp. | req. est ▭bd.
+3.p.1 | adb est semic.
+1.4 | bd 2|2 cf,
+1.p.1 | ad est —,
+46.1 | de est □.ad,
+symp. | □.de est req.
 
 Demonstr.
+
+31.3 | <adb est ⌐,

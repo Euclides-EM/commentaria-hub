@@ -1,20 +1,21 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-11.5 | ab π de 2|2 ef π bg,
-hyp. | <b 2|2 <e,
-15.6 | Δabg 2|2 Δdef,
-1.6 | Δabc π Δabg u π Δdef 2|2 bc π bg,
-10.d.5 | raō.. bc π bg 2|2, 2 raō.. bc π ef,
-concl. 11.5 | raō.. Δabc π Δdef 2|2, 2 raō.. bc π ef.
+8.concl. 12.5 | abcde π fghik,
+| Δabc π Δfgh,
+9.concl. 19.6 | u 2 raō.. ab π fg.
 
-## COROLL.
+## COROL. I.
 
-Hinc manifestum est, si tres rectæ lineæ proportionales fuerint, vt est prima ad tertiam, ita esse triangulum super primam descriptum ad triangulum super secundam simile similiterque descriptum : vel ita esse triangulum super secundam descriptum ad triangulum super tertiam simile similiterque descriptum.
+Hinc manifestum est, si fuerint tres lineæ rectæ proportionales, vt est prima ad tertiam, ita esse polygonum super primam descriptum, ad polygonum super secundam simile similiterque descriptum : vel ita esse polygonum super secundam descriptum ad polygonum super tertiam simile similiterque descriptum.
 
-Il est manifeste de ceste demonstration, que si trois lignes droictes sont proportionelles, comme la premiere sera à la troisiesme, ainsi le triangle descrit sur la premiere sera au triangle semblable, & semblablement descrit sur la seconde : ou bien ainsi sera le triangle descrit sur la seconde au triangle semblable, & semblablement descrit sur la troisiesme.
+De cecy il est manifeste, que s'il y a trois lignes proportionelles, comme la premiere sera à la troisiesme, ainsi le polygone descrit sur la premiere, sera au polygone semblable, & semblablement descrit sur la seconde : ou bien ainsi sera le polygone descrit sur la seconde au polygone semblable, & semblablement descrit sur la troisiesme.
 
-## THEOR. XIV. PROPOS. XX.
+## COROLL. II.
 
-Similia polygona in similia triangula diuiduntur, & numero æqualia, & homologa totis : Et polygona duplicatā habent eam inter se rationem, quam latus homologum ad homologum latus.
+Perspicuum quoque est, similia rectilinea super æqualibus rectis lineis descripta, esse inter se æqualia : & contrà homologa latera æqualium & similium rectilineorum esse inter se æqualia.
 
-Les polygones semblables se diuisent en nombre egal de triangles semblables, & proportionaux à leurs touts :
+Il est außi manifeste, que les rectilignes semblables descrits sur lignes droictes egales, sont egaux entr'eux : & au contraire, les costez de mesme raison des rectilignes egaux & semblables, sont egaux entr'eux.
+
+## THEOR. XV. PROPOS. XXI.
+
+Quæ eidem rectilineo sunt similia, & inter se sunt similia.

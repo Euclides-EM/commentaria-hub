@@ -1,17 +1,23 @@
-<!-- Running title: PROLEGOMENA. -->
+<!-- Running title: EXPLICATIO NOTARVM. -->
 
-sum exposcant, ne vlla sit in demonstrando hæsitatio, aut difficultas.
+mus, vt possint citari vbi opus erit : & ne series axiomatum Euclidis mutaretur, quæ adiunximus axiomata, præter vltimum, subiecimus iis, cum quibus habent maiorem cognitionem, cum litteris alphabeti, vt distinguantur ab aliis quæ sunt Euclidis, vel adiecta à Clauio, cuius translationem & ordinem secuti sumus.
 
-Ad tertium genus referuntur axiomata, seu communes animi notiones, quæ non solùm in scientia proposita, sed etiam in omnibus aliis ita manifesta sunt & euidentia, vt ab eis nulla ratione dissentire queat is, qui ipsa vocabula rectè perceperit.
+mis le dernier, nous les auons mis en suite de ceux auec lesquels ils ont plus d'affinité & similitude auec des lettres de l'alphabet, pour les distinguer des autres, qui sont d'Euclide, ou adjoustez par Clauius, la version & ordre duquel nous auons suiui.
 
-Porrò in huiusmodi principiis tradendis hic ordo ab Euclide seruatur, vt in ipso quidem introitu scientiæ proponat principia toti Geometriæ communia, in aliis autem deinde libris, vbi res postulat, ea exponat principia, quæ propriè, & peculiari quadam ratione, ad materiam illorum subiectam videntur spectare.
+## Explicatio Notarum.
 
-Neque verò omnia principia Geometrica ab Euclide in his elementis sunt explicata, sed plurima sunt pronuntiata, quibus Eucli-
+## Explication des Notes.
 
-afin qu'il n'y ait aucune hesitation ou difficulté en la demonstration.
-
-Au troisieme sont les axiomes ou maximes & communes notions de l'esprit, lesquelles non seulement en la science proposée, mais aussi en toutes les autres, sont tellement manifestes & euidentes, que celuy qui entendra bien les termes, ne pourra en aucune façon douter de leur verité.
-
-Or Euclide en la tradition de ces principes a obserué cét ordre, qu'il met en l'entrée de la science les principes communs à toute la Geometrie, puis aux commencements des autres liures, selon que la chose requiert, il explique les principes, lesquels proprement & pour certaine raison particuliere, semblent appartenir à la matiere dont il s'agist en iceux.
-
-Or Euclide n'a pas expliqué en ces Elements tous les principes Geometriques, ains il y a beaucoup d'autres axiomes, desquels Euclide & ses Inter-
+add. adde, adjoustez.
+æquiang. æquiangulum, equiangle.
+æquilat. æquilaterum, equilateral.
+aggreg. aggregatum, aggregé.
+alt. altitudo, hauteur.
+arbitr. arbitrarium, arbitraire.
+arithm. arithmetica, arithmetique.
+bas. basis, base.
+capa. capax, capable.
+cas. casus, cas.
+centr. centrum, centre.
+circscr. circumscripta, circonscripte.
+c.me. communis mensura, commune mesure.

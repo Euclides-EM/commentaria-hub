@@ -1,25 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-quarta, quantum est quadratum rectæ lineæ sibi longitudine commensurabilis : Quod si prima tantò plus possit quàm secunda, quantum est quadratum rectæ lineæ sibi incommensurabilis longitudine, & tertia tantò plus poterit quàm quarta, quantum est quadratum rectæ lineæ sibi longitudine incommeusurabilis.
+## COROLL.
 
-*Si quatre lignes droictes sont proportionelles, & la premiere peut plus que la seconde du quarré d'vne ligne qui soit commensurable en longitude à icelle, la troisiesme pourra plus aussi que la quatriesme du quarré d'vne ligne qui luy sera commensurable en longitude : Et si la premiere peut plus que la seconde du quarré d'vne ligne incommensurable en longitude à icelle, la troisiesme pourra aussi plus que la quatriesme du quarré d'vne ligne incommensurable en longitude à icelle.*
+Hinc sequitur, si tota magnitudo ex duabus composita, commensurabilis sit alteri ipsarum, eandem & reliquæ commensurabilem esse.
 
-ABECDF
+*D'icy il s'ensuit, que si vne grandeur composee de deux, est commensurable à vne d'icelles, qu'elle sera aussi commensurable à l'autre.*
 
-Hypoth.
+## THEOR. XIV. PROPOS. XVII.
 
-a π b 2|2 c π d, α
-□.a 2|2 □.b + □.e, β
-□.c 2|2 □.d + □.f, γ
+Si duæ magnitudines incommensurabiles componantur, & tota magnitudo vtrique ipsarum incommensurabilis erit : Quod si tota magnitudo vni ipsarum incommensurabilis fuerit, & quæ à principio magnitudines incōmensurabiles erunt.
+
+*Si deux grandeurs incommensurables sont composees, la toute sera aussi incommensurable à chacune d'icelles : Et si la toute est incommensurable à vne d'icelles, les grandeurs proposees au commencement seront incommensurables.*
+
+A------B--C
+D------
+
+Hypoth. 1.
+
+ab, incomm. bc.
+
+Req. π. demonstr.
+
+ac, est incomm. ab & bc.
 
 Demonstr.
 
-α.22.6 | □.a π | □.b,
-□.c π | □.d,
-βγ.7.5 | □.b + □.e π | □.b,
-□.d + □.f π | □.d,
-17.5 | □.e π | □.b,
-□.f π | □.d,
-22.6 | e π b 2|2 f π d,
-c.4.5 | b π e 2|2 d π f,
-α.22.5 | a π e 2|2 d π f,
+suppos. | d, msur: ac & ab, α
+ʒ.a.10 | d, msur: bc, α
+α.1.d.10 | ab, comm. bc,
+contr. hypoth.
+
+Hypoth. 2.
+
+ac, incomm. ab.

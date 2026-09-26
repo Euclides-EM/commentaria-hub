@@ -1,35 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-COROLL. I.
+Il s'ensuit außi que tous les angles constituez alentour d'vn mesme poinct, sont tant seulement égaux à quatre angles droicts.
 
-hyp. | <ebd est ∟,
-1.c.13.1. | <ebc est ∟.
+SCHOL. I.
 
-COROLL. II.
+Si ad aliquam rectam lineam, atque ad eius punctum, duæ rectæ lineæ non ad easdem partes sumptæ angulos ad verticem æquales fecerint ; ipsæ rectæ lineæ in directum sibi inuicem erunt.
 
-hyp. | <abd 2|3 ∟,
-2.c.13.1. | <abc 3|2 ∟.
+Si à quelque ligne droicte ; & a vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles opposez au sommet égaux entr'eux : icelles lignes droictes se rentreront directement.
 
-## THEOR. VII. PROPOS. XIV.
-
-Si ad aliquam rectam lineam, atque ad eius punctum, duæ rectæ lineæ non ad easdem partes ductæ eos, qui sunt deinceps angulos, duobus rectis æquales fecerint ; in directum erunt inter se ipsæ rectæ lineæ.
-
-Si à quelque ligne droicte ; & à vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles de part & d'autre égaux à deux droicts : icelles lignes droictes se rencontreront directement l'vne l'autre.
-
-[Figure: ligne horizontale C—B—D, ligne verticale BA, ligne oblique BE vers la droite]
+[Figure: lignes E—A—F et G—A—H s'entrecoupans en A, poincts D, B, C autour de A]
 
 Hypoth.
 
-<abc + <abd snt 2|2 2∟,
+gah est —, α
+<d 2|2 <b.
 
 Req. π. demonstr.
 
-cbd est —,
+eaf est —.
 
 Demonstr.
 
-suppos. | cbe est —,
-13.1. | <abc + <abe 2|2 2∟,
-hyp. | <abc + <abd 2|2 2∟,
-1.a.1. | <abc + <abe 2|2 <abc + <abd.
-| <abc commun. subtr.
+hyp. | <d 2|2 <b,
+| <a commun. add.
+2.a.1. | <d + <a 2|2 <b + <a
+α.13.1. | <d + <a 2|2 2∟,
+1.a.1. | <b + <a 2|2 2∟,
+concl. 14.1. | eaf est —.
+
+SCHOL. II.
+
+Si quatuor rectæ lineæ ab vno puncto exeuntes binos angulos oppositos ad verticem æquales inter se fecerint, erunt quælibet duæ lineæ aduersæ in directum positæ.
+
+Si quatre lignes droictes tirées d'vn mesme poinct font les angles opposez au sommet égaux entr'eux, chaque deux lignes

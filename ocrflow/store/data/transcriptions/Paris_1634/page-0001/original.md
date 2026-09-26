@@ -1,2 +1,1 @@
-[Other type="transcription-note"]
-[/Other]
+[Blank page]

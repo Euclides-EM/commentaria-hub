@@ -1,25 +1,27 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-[Figure: labels arranged A / M / I L / N D O / B K C / E / S / P R / T H V / F Q G]
+[Figure: labels arranged X / A Y E / M S / I L P R / D H V / B K C F Q G]
 
-ꝑ constr. 3. 11.
+4. 12 | △abc π △efg, / ibklmn + кlcnmo π pfqrſt + qrgtſu,
+9. a. 1 | pyram. abcd 3|2 prism. ibкlmn + prism. кlcnmo,
+14. 5 | x 3|2 prism. pfqrſt + prism. qrgtſn,
 
-abcd, ailm, mnod snt pyram. sml; ꝗe, &c.
-efch, eprs, stuh snt pyram. sml; ꝗe, &c.
-ibklmn & кlcnmo snt prism. 2|2 ꝗe, &c.
-pfqrst & qrctsu snt prism; 2|2 ꝗe, &c.
+contr. concl. β
 
-Req. π. demonstr.
+21. a. 1 | x, n̄ est 2|3 pyram. efgh. γ
+2 ſuppo. | x 3|2 pyram. efgh, δ
+α. c. 4. 5 | △efg π △abc 2|2 ſolid. x π pyram. abcd, ε
+ſuppoſ. | x π pyram. abcd 2|2 pyram. efgh π y, ε
+δ | x 3|2 pyram. efgh,
+1. 14. 5 | pyram. abcd 3|2 ſolid. y, θ
+θ. 11. 5 | △efg π △abc 2|2 pyram. efgh π y,
 
-aggreg.. prism; bklinm + klcnmo, &c. π aggreg.. prism; fqrpts + qrctsu, &c. / △abc π △efg.
+contr. concl. γ
 
-Demonstr.
+concl. 21. a. 1 | pyram. abcd π pyram. efgh 2|2 △abc π △efg.
 
-15. 11 | △mno == △abc, & △stu == △efg,
-hyp. | alt.. ●d 2|2 alt.. ●h,
-α. 2. 6, & 7. a.1 | alt.. △mno 2|2 alt.. △stu,
-ſ.34.11 | prism. klcnmo π prism. qrgtsu, β / △klc π △qrg,
-constr. | bк 2|2 кc, & fq 2|2 qg,
-29. 1, & 1. d. 6 | △abc sml. △lкc, & △efg sml. △rqg,
-15. 5 | bc π ck 2|2 fc π cq,
-22.6 | △abc π △lkc 2|2 △efc π △rqc,
+## COROLL.
+
+Hinc fit pyramides eiusdem altitudinis super eandem vel æquales bases triangulares constitutas, esse inter se æquales.
+
+Item sequitur è conuerso, pyramides triangulares æquales super eandem, vel æquales bases eandem habere

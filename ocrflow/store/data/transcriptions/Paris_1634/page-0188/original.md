@@ -1,30 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-per hanct octauam definitionem insistit siue opponitur peripheriæ ADC.
+[Figure: cercle A—B—C—D, G au dedans, F et E sur les lignes, lignes B—D, A—C, G—A, G—C, G—E]
 
-definition il s'appuye où est opposé à la circonference ADC.
+15.d.1 | ga 2|2 gc,
+8.1 | <ceg 2|2 <aeg,
+10.d.1 | <ceg est ∟,
+constr. | <ceb est ∟,
+12.a.1 | <ceg 2|2 <ceb, contr. 9.a.1.
+concl 21.a.1 | • f est centr.. ⊙.
 
-## DEFINIT. IX.
+## COROLL.
 
-Sector autem circuli est, cum ad ipsius circuli centrum constitutus fuerit angulus, comprehensa nimirum figura & à rectis lineis angulum continentibus, & à peripheria ab illis assumpta.
+Hinc manifestum est, si in circulo recta aliqua linea aliquam rectam lineam bifariam, & ad angulos rectos secet, in secante esse centrum circuli.
 
-Secteur du cercle est vne figure, contenuë sous deux lignes droictes qui constituent vn angle au centre, & de la circonference comprise entre icelles lignes.
+De cette proposition il est euident, que si au cercle, vne ligne droicte est couppée en deux également & à angles droicts, par vne autre ligne droicte, le centre du cercle sera en icelle couppāte.
 
-hypoth. | d est centr.. ⊙,
-9.d.3 | adb est sectr.. ⊙,
+## THEOR. I. PROPOS. II.
 
-[Figure: cercle avec A et B en haut, C en bas, D au centre, lignes D—A et D—B]
+Si in circuli peripheria duo quælibet puncta accepta fuerint; recta linea, quæ ad ipsa puncta adiungitur, intra circulum cadet.
 
-Explicatio notarum.
+Si en la circonference d'vn cercle on prend deux poincts tels qu'on voudra; la ligne droicte coniointe à iceux poincts tombera dedans le cercle.
 
-D, est cétrum circuli, ADB est sector ctirculi.
+[Figure: cercle avec C au dedans en haut, A à gauche, B à droite, D en bas sur la corde, lignes C—A, C—B, C—D, A—B]
 
-Explication des notes.
+Hypoth.
 
-D, est centre du cercle, ADB est secteur du cercle.
+cab est ⊙,
+arbitr. | a & b snt • in ∩,
+| ab est —,
 
-## DEFINIT. X.
+Req. π. demonstr.
 
-Similia circuli segmenta sunt, quæ angulos capiunt æquales: aut in quibus anguli inter se sunt æquales.
+ab est in ⊙.
 
-Semblables segments ou sections de cercles sont celles, qui reçoiuent angles égaux; ou esquelles les angles sont égaux entr'eux.
+Præpar.
+
+arbitr. | d est • in ab,

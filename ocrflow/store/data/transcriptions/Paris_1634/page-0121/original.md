@@ -1,23 +1,19 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-simul conficiunt vnum rectum cùm omnes simul sint æquales duobus rectis & tertius ille ponatur rectus; quare cum duo reliqui inter se sint æquales, erit quilibet eorum semirectus.
+quot latera angulosve figura ipsa continet : at anguli eorumdem triangulorum, circa punctum intra figuram assumptum consistentes, non pertinent ad angulos figuræ rectilineæ propositæ, vt constat. Quare si hi auferantur, erunt reliqui triangulorum anguli constituentes angulos figuræ propositæ, bis tot rectis æquales, demptis illis circa punctum assumptum constitutis, quot latera vel angulos continet figura, sunt autem omnes illi anguli, quotquot sint, circa dictum punctum existentes æquales quatuor rectis tantummodo vt collegimus ex propositione decimaquinta. Quäobrem omnes anguli, &c.
 
-Il est außi euident qu'en tout triangle isoscele, duquel l'angle contenu des costez égaux est droict, qu'vn chacun des autres qui sont sur la base est demy-droict. Car ces deux ensemble constituent vn droict : puis que les trois sont égaux à deux droicts, & que le troisiesme est posé droict ; partant puis que les deux restans sont égaux entr'eux, vn chacun d'eux sera demy-droict.
+figure a de costez ou d'angles, mais les angles de ces triangles, lesquels sont constituez, alentour du poinct prins au dedans de la figure n'appartiennent pas aux angles de la figure rectiligne proposée, comme il appert. Parquoy si ces angles là sont ostez, les autres angles des triangles, constituant les angles de la figure proposée, seront égaux à deux fois autant de droicts, ceux qui sont constituez autour du poinct prins au dedans de la figure estans ostez, que la figure a d'angles ou de costez. Or tous ces angles là constituez alentour de ce poinct prins en la figure, en quelque nombre qu'ils soient, sont égaux à quatre droicts, tant seulement comme nous auons colligé de la 15. proposition. Donc tous les angles, &c.
 
-## COROLL. III.
+## PROBL. XXIII. PROPOS. XXXIII.
 
-Perspicuum quoque est si vnus angulus trianguli æqualis sit reliquis duobus; triangulum esse rectangulum.
+Rectæ lineæ, quæ æquales, & parallelas lineas ad partes easdem coniungunt ; & ipsæ æquales, & parallelæ sunt.
 
-Il est manifeste außi que si vn angle d'vn triangle est égal aux deux autres, que le triangle est rectangle.
+Les lignes droictes qui conioignent deux lignes droictes égales & paralleles, & de mesme part ; sont außi égales & paralleles.
 
-## SCHOL. I.
+[Figure: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale B—C]
 
-Omnes anguli figuræ rectilineæ cuiusuis sunt æquales bis tot rectis angulis, quota ipsa est inter figuras rectilineas.
+Hypoth.
 
-Tous les angles de quelconque figure rectiligne, sont égaux à deux fois autant d'angles droicts, que le nombre de son ordre entre les figures rectilignes.
+ab 2|2 & == cd.
 
-[Figure: vn triangle ; vn quadrilatere diuisé en deux triangles par vne diagonale ; vn pentagone diuisé en trois triangles]
-
-Omnis enim figura rectilinea in triangula resoluitur, cùm nulla figura sit pauciorum laterum quam triangulum. Vna quæque autem in triangula binario pauciora, quam sint propria latera,
-
-Car toute figure rectiligne se resout en triangles, à cause qu'il n'y a aucune figure de moins de costez que le triangle. Or chaque figure rectiligne se diuise en triangles, qui sont en moindre nombre de deux,
+Req. π. demonstr.

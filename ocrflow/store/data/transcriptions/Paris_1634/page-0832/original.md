@@ -1,40 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-*en vn mesme cercle sont composez; la ligne droicte totale est couppee en la moyenne & extreme raison, & le plus grand segment d'icelle est le costé de l'hexagone.*
+[Figure: labels arranged K A / H M / I / B E / F / C D / G]
 
-[Figure: labels arranged E / F / B / A D C]
+1. a. 1 | <bfк 2|2 <bag,
+<fba, eſt commun.
+32. 1 | △bfm æquāg. △fab,
+4. 6 | ab π bf 2|2 bf π bm
+17. 6 | ▭.ab,bm 2|2 □.bf, γ
+27. 3 | <afк 2|2 <hfк,
+5. 1 | <fah 2|2 <fha,
+32. 1 | fl ⊥ ah,
+4. 1 | la 2|2 lh,
+4. 1 | <lhm 2|2 <lam,
+α. 27.3 | <hba 2|2 <hab,
+32. 1 | △ahb æquiang. △amh,
+4. 6 | ab π ah 2|2 ah π am,
+▭.ab,am 2|2 □.ah, δ
+4. 2 | □.ab 2|2 ab,bm / + ab,am,
+concl. γδ 2.a.1 | □.ab 2|2 □.bf + □.ah
 
-Hypoth.
+## COROLL. I.
 
-dabc, eſt ⊙,
-ab, eſt γ. 10<, α
-abe, eſt ——,
-bd, Ⅱ be, eſt γ. 6<. β
+Hinc sequitur, lineam rectam, quæ ex centro diuidit arcum quempiam bifariam, diuidere quoque rectam illi arcui subtensam bifariam, & ad angulos rectos.
 
-Req. π. demonstr.
+*De ceste demonstration s'ensuit que la ligne droicte menee du centre qui diuise vn arc en deux egalement, diuise aussi la ligne droicte soustendante iceluy, à angles droicts & en deux egalement.*
 
-ae π be 2|2 be π ab.
+## COROLL. II.
 
-Præpar.
+Perspicuum quoque est, diametrum circuli ex angulo quouis pentagoni ductam diuidere & arcum, quem latus pentagoni illi angulo oppositum subtendit, & latus ipsum oppositum bifariam, & ad angulos rectos.
 
-1. p. 1 | adc, eſt diamet.
-1. p. 1 | db & de ſnt ——;
-
-Demonstr.
-
-α. hyp. | ∩ab, eſt ⅕. ∩abc,
-27. 3 | <bdc 2|2, 4<bda,
-32. 1 | <bdc 2|2 <dab / + <dba,
-1. a. 1 | <abd 2|2, 2<bda,
-32. 1 | <abd 2|2 <bed / + <bde,
-β. 5. 1 | <bde 2|2 bed,
-32. 1 | <abd 2|2, 2<bde,
-1. a. 1 | <ade 2|2 <abd / Ⅱ <dae,
-32. 1 | △ade æquiāg. △adb,
-concl. 4. 6 | ae π ad, Ⅱ be, / ad, Ⅱ be π ab,
-
-## COROLL.
-
-Hinc perspicuum est, si latus hexagoni alicuius circuli secetur extrema ac media ratione; majus illius segmentum esse latus decagoni eiusdem circuli.
-
-*De ceste demonstration il est manifeste que si le costé de l'hexagone de quelque cercle est couppé en la moyenne & extreme raison, son plus grand segment sera le costé du decogone descrit au mesme cercle.*
+*Il est manifeste aussi que le diametre du cercle mené de l'angle*

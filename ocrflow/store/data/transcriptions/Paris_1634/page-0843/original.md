@@ -1,35 +1,27 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-æquales EFGDL & EFGDK quarum basis communis est quadratum EFGD.
+2 concl. ſ. 46.1 | ba 2|2 el, Ⅱ fm,
+3.concl αβ | □.el, Ⅱ ba 2|2, 3□.ef.
 
-*L'octaedre est diuisé en deux pyramides semblables & egales EFGDL & EFGDK, ayant pour base commune le quarré EFGD.*
+## COROLL. I.
 
-## COROLL. IV.
+Ex his manifestum est, omnes diametros cubi inter se esse æquales, seseque mutuò bifariam in centro sphæræ secare. Atque eadem ratione rectas, quæ centra quadratorum oppositorum conjungunt, bifariam diuidi in eodem centro.
 
-Denique sequitur, bases octaedri oppositas esse inter se parallelas.
+*De cecy est manifeste, que tous les diametres du cube sont egaux entr'eux, & se couppent en deux egalement au centre de la sphere: & par mesme raison, que les lignes droictes conjoignantes les centres des quarrez, se diuisent egalement au mesme centre.*
 
-*Finalement il s'ensuit que les bases opposees de l'octaedre sont paralleles entr'elles.*
+## COROLL. II.
+
+Rursus potentia diametri sphæræ, seu cubi, æqualis est potentiis laterum tetraedri, & cubi simul sumptis.
+
+*Derechef, la puissance du diametre de la sphere, ou du cube, est egale aux puissances des costez de la pyramide & du cube ensemble.*
 
 Demonstr.
 
-29. d.1 | ed == fg, ek == lg, dk == fl,
-concl. 15. 11 | △fgl == △edк, &c.
+hyp. | ab, eſt diamet. ſphær.
+13. 13 | bc, eſt γ. pyram.
+15. 13 | ac, eſt γ. cub.
+47. 1 | □.ab 2|2 □.bc / + □.ac.
 
-## PROBL. III. PROPOS. XV.
+## PROBL. IV. PROPOS. XVI.
 
-Cubum constituere, & sphæra complecti qua & priores figuras; & demonstrare quod sphæræ diameter potentia sit tripla lateris ipsius cubi.
-
-*Descrire vn cube, & l'enuironner d'vne mesme sphere que les precedentes figures; & demonstrer que le diametre de la spere est triple en puissance du costé d'iceluy cube.*
-
-Hypoth.
-
-ab, eſt diamet. ſphær. D.
-
-Conſtr.
-
-ſ 10. 6 | bd 2|2, 2ad,
-3. p. 1 | acb, eſt ſemic.
-11. 10 | dc ⊥ ab,
-1. p. 1 | ac & bc ſnt ——,
-3. 1 | ef 2|2 ac,
-46. 1 | efgh, eſt □.ef,
+Icosaedrum constituere, & sphæra complecti, qua & antedictas figuras; & demonstrare, quod icosaedri latus irrationalis est linea, quæ vocatur minor.

@@ -1,39 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-ac, est irration.
-
 Demonstr.
 
-hyp. | ab comm. bc ꝗn □,
-1.26.10 | □.ac, incomm. □.ab,
-hyp. | □.ab, est ration.
-concl. 10.d.10 | ac, est irration.
+hyp. | □.ab, comm. □.bc,
+16.10 | □.ab + □.bc, comm. □.ab,
+hyp. | □.ab, est medi.
+β.24.10 | ▭dg, est medi.
+αβ.4.2 | ▭hf 2|2 2▭.abc, γ
+hyp. | ▭.abc, est medi.
+24.10 | 2▭.abc, u ▭hf, / est medi.
+23.10 | eg & gf snt ration. ♪
+γ.1.26.10 | ▭dg, incomm. ▭hf,
+1.6 | eg π gf 2|2 dg π hf,
+10.10 | eg, incomm. gf,
+♪.37.10 | ef, est irration.
+l.38.10 concl. | ▭df, est irration.
+α.11.d.10 | ac, est irration.
 
-## THEOR. XXVI. PROPOS. XXXVIII.
+## THEOR. XXVIII. PROPOS. XL.
 
-Si duæ mediæ potentia tantùm commensurabiles componantur, quæ rationale contineant; tota irrationalis erit : vocetur autem ex binis mediis prima.
+Si duæ rectæ lineæ potentia incommensurabiles componantur, quæ faciant compositum quidem ex ipsarum quadratis rationale, quod autem sub ipsis continetur, medium; tota recta linea irrationalis erit: vocetur autem major.
 
-*Si deux lignes mediales commensurables en puissance seulement contenant vn rectangle rationel sont cōposees; la toute sera irrationelle : soit icelle appellee premiere de deux mediales.*
+*Si deux lignes droictes incommensurables en puissance, faisant le composé de leurs quarrez rationel, & le rectangle contenu sous icelles medial, sont composees ; la toute sera irrationelle: soit icelle appellee majeure.*
 
 A B C (line)
 
 Hypoth.
 
-ab & bc snt medi. comm. ꝗn □,
-▭.abc, est ration.
+□.ab, incomm. □.bc,
+aggreg..□.ab + □.bc / est ration.
+▭.abc, est medi. α
 Req. π. demonstr.
-
 ac, est irration.
 
 Demonstr.
-
-hyp. | □.ab, comm. □.bc ꝗn □,
-1.26.10 | □.ac, incōm. ▭.abc,
-hyp. | ▭.abc, est ration.
-concl. 10.d.10 | ac, est irration.
-
-## LEMM.
-
-Quod sub linea rationali, & irrationali continetur rectangulum, irrationale est.
-
-*Le rectangle contenu sous vne ligne rationelle, & vne irrationelle, est irrationel.*

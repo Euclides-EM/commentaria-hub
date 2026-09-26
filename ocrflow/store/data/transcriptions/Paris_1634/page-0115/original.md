@@ -1,31 +1,55 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-13.1. | <agh + <bgh 2|2 2∟,
-12.&1.a.1. | <agh + <chg 2|2 <agh + <bgh,
-| <agh commun. subtr.
-3.a.1. | <chg 2|2 <bgh,
-2.concl. 27.1. | ab == cd.
+## SCHOL. II.
 
-## THEOR. XX. PROPOS. XXIX.
+Omne parallelogrammum, habens vnum angulum rectum, est parallelogrammum rectangulum.
 
-In parallelas rectas lineas recta incidens linea ; & alternatim angulos inter se æquales efficit; & externum interno, & opposito, & ad easdem partes æqualem; & internos, & easdem partes duobus rectis æquales facit.
+Tout parallelogramme, qui a vn angle droict, est parallelogramme rectangle.
 
-Si vne ligne droicte tombe sur deux lignes droictes paralleles; elle fera les angles alternes égaux entr'eux, & l'externe égal à son interne & opposé de mesme part ; & les deux internes de mesme part, égaux à deux droicts.
-
-[Figure: ligne A—G—B, ligne C—H—D, ligne transversale E—G—H—F, E en haut à droicte, F en bas à gauche]
+[Figure: parallelogramme BCDA, B & C en haut, A & D en bas]
 
 Hypoth.
 
-ab == cd.
+ac est ◊, α
+<a est ∟,
 
 Req. π. demonstr.
 
-<dhg 2|2 <agh,
-<bge 2|2 <dhe,
-<agh + <chg 2|2 2∟.
+ac est ▭.
 
 Demonstr.
 
-suppos. | <agh + <chg n. snt 2|2 2∟,
-13.a.1. | ab n. est == cd,
-| contr. hyp.
+α.35.d.1. | ad == bc,
+α.35.d.1. | ab == dc,
+29.1. | <a + <b 2|2 2∟,
+hyp. | <a est ∟,
+3.a.b. | <b est ∟, β
+d. β | <d & <c snt ∟.
+
+## THEOR. XXI. PROPOS. XXX.
+
+Quæ eidem rectæ lineæ parallelæ, & inter se sunt parallelæ.
+
+Les lignes droictes paralleles à vne mesme ligne droicte, sont außi paralleles entr'elles.
+
+[Figure: trois lignes A—G—B, E—H—F, C—I—D, transversale passant par G, H & I]
+
+Hypoth.
+
+ab == ef, α
+cd == ef, β
+
+Req. π. demonstr.
+
+ab == cd,
+
+Præpar.
+
+arbitr. | gi est —.
+
+Demonstr.
+
+α.29.1. | <agi 2|2 <ehi,
+β.29.1. | <dig 2|2 <ehi,
+1.a.1. | <agi 2|2 <dig,
+concl. 27.1. | ab == cd.

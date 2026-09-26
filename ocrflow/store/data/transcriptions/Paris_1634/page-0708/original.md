@@ -1,36 +1,37 @@
-<!-- Running title: ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID.. LI. X. -->
 
-*apotome, est aussi apotome, & de mesme ordre.*
+l.66.10 | ▭.dfe, comm. ▭.acb, β
+s.12.10 | ▭.dfe, est ration.
+1.concl. 30. 10 | de, est apotom. 1.. medi.
+suppos. | ▭.acb, est medi.
+β. 24.10 | ▭.dfe, est medi.
+2 concl. 39. 10 | de, est apotom. 2.. medi.
 
-[Figure: labels arranged A B C / D E F]
+## THEOR. LXXXII. PROPOS. CVI.
+
+Recta linea minori commensurabilis; & ipsa minor est.
+
+*La ligne droicte commensurable à vne ligne mineure, est aussi ligne mineure.*
 
 Hypoth.
 
-ab, est apotom. α
+ab, est min.
 bc, est congruen.
 de, comm. ab.
 
+[Figure: labels arranged A B C / D E F]
+
 Req. π. demonstr.
 
-de, est apotom.. ord.. ab.
+de, est min.
 
-Lemm. 66. 10. est præpar.
+Præpar.
+
+12. 6 | ab π de 2|2 ac π df.
 
 Demonstr.
 
-l.66.10 | df, comm. ac, & ef, comm. bc,
-α. hyp. | ac & bc snt ration.
-s.12.10 | df & ef snt ration.
-α. hyp. | ac, comm. bc ꝗn □,
-cl.66.10 | df, comm. ef ꝗn □,
-74.10 | de, est apotom.
-l.66.10 | ac π bc 2|2 df π ef, β
-suppos. | ac 3|2 cb.. □. ——, comm. ac,
-15. 10 | df 3|2 fe.. □. ——, comm. df,
-apoto.1 suppos. | ac, comm. ration. expos.
-l 66.10 | df, comm. ac,
-apoto.1. 12. 10 | df, comm. ration. expos.
-apot. 2. suppos. | bc, comm. ration. expos.
-l.66.10 | ef, comm. bc,
-apot. 2. 12. 10 | ef, comm. ration. expos.
-apot.3. suppos. | ac & bc, incomm; ration. expos.
+hyp. | □.ac, incomm. □.bc,
+1.66.10 | □.df, incomm. □.ef,
+α. hyp. | aggreg.. □.ac + bc, est ration.
+1.66.10 | aggreg.. □.df + □.ef, comm. aggreg.. □.ac + □.bc,

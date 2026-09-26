@@ -1,29 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-| bd commun. add.
-4.a.1. | bd + dc 2|3 be + ec, α
-20.1. | be 2|3 ab + ae,
-| ec commun. add.
-4.a.1. 1.concl. | be + ec 2|3 ba + ac,
-α 1.a.c. | bd + dc 2|3 ba + ac,
-16.1. | <bdc 3|2 <bec,
-16.1. | <bec 3|2 <a,
-2.concl. 1.a.c. | <bdc 3|2 <a.
+22.1. | △agh & △dcf snt æquil.
+symp. | <a 2|2 <d.
 
-## PROBL. VIII. PROPOS. XXII.
+Demonstr.
 
-Ex tribus rectis lineis quæ sint tribus datis rectis lineis æquales triangulum constituere. Oportet autem duas reliqua esse maiores omnifariam sumptas : quoniam vniuscuiusque trianguli duo latera omnifariam sumpta reliquo sunt maiora.
+constr. | ag 2|2 dc,
+constr. | ah 2|2 df,
+constr. | gh 2|2 cf,
+concl. 8.1. | <gah 2|2 <cdf.
 
-Des trois lignes droictes égales à trois lignes droictes données, descrire vn triangle : mais il faut que deux, de quelque façon qu'elles soient prises, soient plus grandes que l'autre ; d'autant que de tout triangle deux costez de quelque façon qu'ils soient prins, sont plus grands que l'autre.
+## CONSTR.. PRA.
+
+[Figure: triangle BAC, A en haut, poincts F & G sur les costez ; ligne verticale N—D—H—E, poinct L à droicte, arcs se coupans en L]
 
 Hypoth.
 
-a, b, c, snt — D.
+ne est — D.
+d est • D.
+a est < D.
 
 Constr.
 
-arbitr. | de 3|2 a + b + c,
-3.1. | df 2|2 a,
-3.1. | fg 2|2 b,
-3.1. | gh 2|2 c,
-3.p.1. | fdkl est ⊙,
+3.p.1. | afg & dhl snt ⊙ 2|2 ꝗe, arbitr.
+3.p.1. | ⊙hl 2|2 ⊙fg,
+1.p.1. | dl est —,
+symp. | <hdl 2|2 <a,
+
+Demonstr.
+
+8.1. | <hdl 2|2 <a.
+
+## THEOR. XV. PROPOS. XXIV.
+
+Si duo triangula duo latera duobus lateribus æqualia habuerint, vtrumque vtrique, angulum vero angulo maiorem sub æqualibus rectis lineis contentum: & basim basi maiorem habebunt.
+
+Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & l'angle contenu d'iceux costez plus

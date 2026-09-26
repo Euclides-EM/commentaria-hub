@@ -1,33 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-ptari dicitur, cùm eius extrema in circuli peripheria fuerint.
+A l'entour d'vn cercle donné, descrire vn triangle, equiangle à vn triangle donné.
 
-au cercle, quand les extremitez d'icelle sont en la circonference du cercle.
-
-[Figure: cercle A—B—C auec triangle inscrit ; triangle D—E—F auec cercle G—I—H inscrit ; cercle A—D—B auec cordes C—D et A—B, et E au dedans]
-
-## PROBL. I. PROPOS. I.
-
-In dato circulo rectam lineam accommodare æqualem datæ rectæ lineæ, quæ circuli diametro non sit maior.
-
-Au cercle donné, accommoder vne ligne droicte, égale à vne ligne droicte donnée, laquelle ne soit pas plus grande que le diametre du cercle.
-
-[Figure: deux cercles s'entrecouppans, le grand B—E—C de centre A, le petit B—D autour de A, ligne A—E—C, ligne A—B, ligne D]
+[Figure: triangle D—E—F auec la base prolongée en la ligne G—E—F—H ; triangle L—M—N auec cercle A—C—B au dedans, I au centre, lignes I—A, I—C, I—B]
 
 Hypoth.
 
-abc est ⊙ D.
-ac est diamet.
-d, est — D.
-d 2|3 ac.
+iacb est ⊙ D.
+def est △ D.
 
 Req. π. fa.
 
-accommod. ab 2|2 d, in ⊙ abc.
+circscri. π. ⊙abc, △ lmn æquiang. △ efd.
 
 Constr.
 
-3.1 | ae 2|2 d,
-3.p.1 | aeb est ⊙,
-1.p.1 | ab est —,
-symp. | ab est req.
+2.p.1 | gefh est —,
+arbitr. | a, est • in ∩ acb,
+1.p.1 | ai est —,
+23.1. | <aib 2|2 <deg,
+23.1 | <bic 2|2 <dfh,
+11.1 | ln ⊥ ai, α
+11.1 | lm ⊥ ib, α
+11.1 | mn ⊥ ic, α
+symp. | △lmn est req.
+
+Demonstr.
+
+α.s.32.1 | <aib + <l 2|2, 2∟,
+13.1 | <deg + <def 2|2, 2∟
+constr. | <aib 2|2 <deg,
+1.concl. 3.a.1 | <l 2|3 def, β
+α.s.32.1 | <bic + <m 2|2, 2∟,
+13.1 | <dfh + <dfe 2|2, 2∟
+constr. | <bic 2|2 <dfh,
+2.concl. 3.a.1 | <m 2|2 <dfe, β
+β.13.a.1 | lmn est △,
+3.concl. β.1.c.32.1 | <n 2|2 <d,
+4.cōcl. 4.d.4 | △lmn est circscri. π. ⊙abc.
+
+## PROBL. IV. PROPOS. IV.
+
+In dato triangulo, circulum inscribere
+
+Dans vn triangle donné, descrire vn cercle.

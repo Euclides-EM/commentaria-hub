@@ -1,29 +1,25 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-16. 5 | △abc π △efg / △lкc π △rqg / β | prism. кlcnmo π prism. qrgtsu / 7. 5 | prism. ibklmn π prism. pfqrst / 12. 5 | кlcnmo + ibklmn π qrgtsu + pfqrst, snt raō; 2|2 ꝗe,
-concl. 11. 5 | △abc π △efg, / кlcnmo + ibкlmn π qrgtsu + pfqrst.
+altitudinem: Et pyramides triangulares æquales eandemque habentes altitudinem, bases habere æquales, si non eandem habuerint.
 
-## THEOR. V. PROPOS. V.
+*D'icy il aduient que les pyramides de mesme hauteur constituees sur mesme base, ou bases egales triangulaires sont egales entr'elles.*
 
-Sub eadem altitudine existentes pyramides, & triangulares habentes bases; inter se sunt vt bases.
+*Il s'ensuit au contraire que les pyramides triangulaires egales, constituees sur vne mesme base ou bases egales, sont de mesme hauteur: Et que les pyramides triangulaires egales ayant mesme hauteur, ont bases egales ou vne mesme.*
 
-*Les pyramides de mesme hauteur ayans bases triangulaires, sont l'vne à l'autre comme leurs bases.*
+## THEOR. VI. PROPOS. VI.
 
-[Figure: labels arranged X / A Y E / M S / I L P R / D H V / B K C F Q G]
+Sub eadem altitudine existentes pyramides, & polygonas habentes bases, inter se sunt vt bases.
+
+*Les pyramides qui sont de mesme hauteur, & ayans les bases polygones, sont l'vne à l'autre comme leurs bases.*
+
+[Figure: labels arranged F M / A G / E L / B H / C D I K]
 
 Hypoth.
 
-abc & efg snt △,
-abcd & efgh snt pyram;
-alt.. ●d 2|2 alt.. ●h.
+abcdef & ghiкlm snt pyram;
+abcde & ghikl snt bas;
+alt.. f 2|2 alt.. m,
 
 Req. π. demonstr.
 
-pyram. abcd π pyram. efgh 2|2 △abc π △efg.
-
-Demonstr.
-
-suppos. | △abc π △efg 2|2 pyram. abc π x, α
-1. suppo. | x + y 2|2 pyram. efgh,
-ſ. 3. 12 | pyram. eprſ + pyram. ſtuh 2|3 y,
-ſ. a. b | x 2|3 prism. pfqrſt + prism. qrgtſu, β
+abcdef π ghiкlm 2|2 abcde π ghiкl.

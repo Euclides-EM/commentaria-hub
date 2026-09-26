@@ -1,55 +1,44 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-costez du triangle, la ligne droicte menée du sommet au poinct de la section, couppe l'angle du triangle en deux egalement.
+Coroll.
 
-[Figure: triangle B, D, C avec sommet A et ligne A—E]
+α | ab π dc 2|2 bc π ce u ac π de.
 
-Hypoth. 1.
+## SCHOL.
 
-abc est Δ,
-<dab 2|2 <dac.
+[Figure: triangles C, B, G, C, B, G avec lignes F, D, E, E, A, F]
 
-Req. π. demonstr.
+Hypoth.
 
-bd π dc 2|2 ab π ac.
-
-Præpar.
-
-31.1 | ce == ad, α
-2.p.1 | bae est —.
-
-Demonstr.
-
-α.29.1 | <bda 2|2 <bce,
-17.1 | <b+<bda 2|3,2 ⌐
-1.a.c | <b+<bce 2|3,2 ⌐
-13.a.1 | bce est Δ,
-hyp. | <dab 2|2 <dac,
-29.1 | <e 2|2 <dab,
-29.1 | <ace 2|2 <dac,
-1.a.b | <e 2|2 <ace,
-6.1 | ae 2|2 ac,
-1.concl. 2.6 | bd π dc 2|2 ba π ae. u ac,
-
-Hypoth. 2.
-
-bd π dc 2|2 ab π ac.
+agc est Δ,
+dab, gaf, cae snt —
+ef == gc. α
 
 Req. π. demonstr.
 
-<dab 2|2 <dac,
+ed π df 2|2 cb π bg.
 
 Demonstr.
 
-hyp. | ba π ac 2|2 bd π dc,
-α.2.6 | bd π dc 2|2 ba π ae,
-11.5 | ba π ac 2|2 ba π ae,
-9.5 | ac 2|2 ae,
-5.1 | <e 2|2 <ace,
-29.1 | <dab 2|2 <e,
-29.1 | <dac 2|2 <ace,
-2.concl. 1.a.b | <dab 2|2 <dac.
+α.29.1 | Δade, sml. Δabc,
+α.29.1 | Δadf, sml. Δabg,
+c.4.6 | cb π ed 2|2 ab π ad,
+c.4.6 | bg π df 2|2 ab π ad,
+11.5 | cb π ed 2|2 bg π df,
+concl. 16.5 | cb π bg 2|2 ed π df.
 
-## THEOR. IV. PROPOS. IV.
+## THEOR. V. PROPOS. V.
 
-Æquiangulorum triangulorum proportionalia
+Si duo triangula latera proportionalia habeant, æquiangula erunt triangula, & æquales habebunt eos angulos, sub quibus homologa latera subtenduntur.
+
+Si deux triangles ont les costez proportionaux, iceux triangles seront equiangles, & auront les angles egaux, sous lesquels les costez de mesme raison sont soustendus.
+
+Hypoth.
+
+ab π bc 2|2 de π ef,
+ac π bc 2|2 df π fe,
+ab π ac 2|2 de π df.
+
+Req. π. demonstr.
+
+Δabc & Δdef snt æquiang.

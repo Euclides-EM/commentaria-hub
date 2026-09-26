@@ -1,29 +1,22 @@
-<!-- Running title: ELEM.. EVCLID. LI. XII. -->
+<!-- Running title: ELEM.. EVCLD. LI. XII. -->
 
-[Figure: labels arranged A / K V P E / L O / Q / B D F H / I / K / S T / M N / C G]
+29.1, & 9. 11 | acb, ahe, eib, hic, fgк snt △ æquiang. ꝗe,
+26.1 | ahe, eib, hic, fgк snt △ 2|2 ꝗe, α
+d. α | bfi, fdk, ikc, egh snt △ æquiang. & 2|2 ꝗe,
+d. α | ahg, gdк, hкc, efi snt △ æquiang. & 2|2 ꝗe,
+15. 11 | △hiк == △abd, △egh == △bdc, △efi == adc, △fgк == △abc,
+1.concl 10.d.11 | pyram. aegh, sml. & 2|2 pyram. hiкc,
+2. a. 1 | ◇ bfge 2|2, 2△fgd,
+2 concl. 40. 11 | prism. bfgeih 2|2 prism. fgdihk,
+9 a. 1 | prism. bfgeih 3|2 pyram. bfei,
+10.d.11 | pyram. bfei 2|2 pyram. aegh,
+1. a. c | prism. bfgeih 3|2 pyram. aegh, Ⅱ hiкc,
+3.concl. 4. a. c | prism. bfgeih + prism. fgdihк 3|2, ½ pyram. abdc.
 
-β. 4.a.b | plan. i, 2|3 polyg. gmfleohn, γ
-constr. | polyg. absctdu, sml. polyg. elfmgnho,
-1. 12 | polyg. asu π polyg. emo 2|2 □.ac π □.eg,
-α | ⊙abt π i 2|2 □.ac π □.eg,
-11. 5 | polyg. asu π polyg. emo 2|2 ⊙abt π i,
-9. a. 1 | polyg. asu 2|2 ⊙abt,
-14. 5 | polyg. emo 2|3 plan. i,
+[Figure: labels arranged A / H G / E / Ɔ K / I / B F C]
 
-contr. concl. γ
+## SCHOL.
 
-1.concl. 21. a. 1 | plan. i, n̄ est 2|3 ⊙efn, δ
-2 suppo. | plan. i 3|2 ⊙efn, ε
-α | □.ac π □.eg 2|2 ⊙abt π plan. i,
-c. 4. 5 | i π ⊙abt 2|2 □.eg π □.ac, θ
-suppos. | i π ⊙abt 2|2 ⊙efn π plan. к, θ
-ε. 14.5 | ⊙abt 3|2 plan. к, λ
-θ. 11. 5 | □.eg π □.ac 2|2 ⊙efd π plan. k,
+Ex hac propositione & prima decimi sequitur, si quælibet pyramis diuidatur in duas pyramides æquales & in duo prismata, iuxta hanc propositionem. Rursus eodem modo factæ pyramides in duas pyramides æquales, & in bina prismata æqualia, & sic deinceps, aggregatum omnium pyramidum quæ tandem relinquentur, esse minus quacunque proposita magnitudine.
 
-contr. concl. δ
-
-2 concl. 21. a. 1 | □.ac π □.eg 2|2 ⊙abt π ⊙efn.
-
-## COROLL.
-
-Hinc constat ita esse circulum ad circulum, vt polygo-
+*De ceste proposition & de la premiere du dixiesme s'ensuit, que si quelconque pyramide est diuisee en deux pyramides egales, & en deux prismes egaux, comme veut ceste troisiesme proposition. Derechef semblablement les pyramides qui en seront faites soient diuisees de mesme; & ainsi de suite, l'aggregé de toutes les pyramides qui se trouueront en fin, sera moindre que quelconque grandeur proposee.*

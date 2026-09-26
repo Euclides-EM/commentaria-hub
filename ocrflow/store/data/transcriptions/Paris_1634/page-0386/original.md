@@ -1,43 +1,45 @@
-<!-- Running title: APPEND.. GEOM. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-[Figure: rectiligne B, C, D, E sur la base L, A, F, G, H, avec lignes ponctuées ioignant D aux poincts de la base]
+[Figure: triangle A, C, B auec E, G, H, F, le demicercle A, N, M, L & le quarré B, N, M]
 
-1.p.1 | dg est —,
-1.p.1 | cg est —,
-31.1 | dh == cg, β
-1.p.1 | ch est —,
-1.p.1 | ca est —,
-1.p.1 | bl == ca, γ
-1.p.1 | cl est —,
-symp. | Δlch 2|2 abcdef.
+12.1 | cd ⊥ ab,
+arbitr. | def & cef snt ⊙ 2|2 ⁊e,
+1.p.1 | ef est —,
+2.p.1 | abl est —,
+3.1 | bl 2|2 dg,
+3.p.1 | aml est semic.
+11.1 | bm ⊥ al,
+46.1 | bn est □.bm,
+symp. | □bn 2|2 Δabc,
 
 Demonstr.
 
-α.37.1 | Δfde 2|2 Δfdg,
-abcdf commun. add.
-1.concl. 2.a.1 | abcdef 2|2 abcdg,
-β.37.1 | Δgcd 2|2 Δgch,
-abcg commun. add.
-2.concl. 2.a.1 | abcdg 2|2 abch, δ
-γ.37.1 | Δcal 2|2 Δcab,
-ach commun. add.
-3.concl. 2.a.1 | abch 2|2 Δlch, δ
-4.cōcl. δ.1.a.f | abcdef 2|2 Δlch.
+2.app. | Δabc 2|2 ▭.ab,dg u ab,bl,
+s.5.2 | □.bm 2|2 ▭.ab,bl,
+concl. 1.a.1 | □.bm 2|2 Δabc.
 
-## PROBL. II. PROPOS. II.
+## PROBL. IV. PROPOS. IV.
 
-Dato triangulo æquale rectangulum describere.
+Ad datam rectam lineam, datum quadratum, vel rectangulum applicare.
 
-Descrire vn rectangle egal à vn triangle donné.
+A vne ligne droicte donnee, appliquer vn quarré, ou rectangle donné.
 
-42.1.Elem.
+45.1.Elem.
 
-[Figure: triangle A, C, B auec E, H, L, F, G & le poinct D en la base ; rectangle N, O, P, C sur la base A, M, B]
+[Figure: quarré D, B, C ; ligne A ; rectangle G, E, F]
 
-Hypoth.
+Hypoth. I.
 
-abc est Δ.
+bc & a snt D.
 
 Req. π. fa.
 
-▭aefb 2|2 Δabc.
+▭bd 2|2 □.a.
+
+Constr.
+
+11.6 | bc π a 2|2 a π cd,
+1.1.d.2 | bd est ▭.bc,cd,
+symp. | req. est ▭bd.
+
+Demonstr.

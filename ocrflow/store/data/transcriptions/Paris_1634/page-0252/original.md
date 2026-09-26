@@ -1,41 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-Req. π. fa.
-
-inscri. in ⊙abdf, 6<abcdef æquilat. & æquiang.
-
-Constr.
-
-arbitr. | ad est diamet.
-3.p.1 | dgce est ⊙,
-1.&2.p.1 | cgf & egb snt —,
-1.p.1 | ab, bc, cd, de, ef, fa snt —,
-symp. | 6<abcde est req.
-
-[Figure: cercle auec hexagone A—F—E—D—C—B inscrit, G au centre, diametres A—D, B—E, C—F ; second cercle au dessous passant par G]
+symp. | eibf, &c. est 15< req.
 
 Demonstr.
 
-15.d.1 | △gcd est æquilat.
-c.5.1 | △gcd est æquiang.
-32.1 | <dgc 2|2, ⅓..2∟, α
-32.1 | <dge 2|2, ⅓..2∟, β
-13.1 | <egf 2|2, ⅓..2∟, β
-α.β.15.1 | <fga,<agb,<bgc,<cgd,<dge,<egf snt 2|2 ⁊e,
-26.3 | ∩ab, ∩bc, ∩cd, ∩de, ∩ef, ∩fa snt 2|2 ⁊e,
-1.concl. 29.3 | ab, bc, cd, de, ef, fa snt 2|2 ⁊e,
-2.concl. 27.3 | <abc,<bcd,<cde,<def,<efa,<fab snt 2|2 ⁊e,
+constr. | ab
+| bc
+| ca
+| snt 2|2 ⁊e,
+28.3 | ∩ab
+| ∩bc
+| ∩ca
+| snt 2|2 ⁊e
+hyp. | ∩ab + ∩bc + ∩ca 2|2, 15part.
+7.a.1 | ∩ab 2|2, 5part. α
+constr. | ae, ef, fg, gh, ha snt 2|2 ⁊e,
+28.3 | ∩ae, ∩ef, ∩fg, ∩gh, ∩ha snt 2|2 ⁊e,
+hyp. | ∩ae + ∩ef + ∩fg
+| + gh∩ + ∩ha
+| snt 2|2, 15part.
+7.a.1 | ∩ae 2|2, 3part.
+6.a.1 | ∩ae + ∩ef 2|2, 6part.
+α.3.a.1 | ∩bf 2|2, 1part.
+1.concl. constr. | 15<, eibf, &c. est æquilat.
+2.concl. 27.3 | 15<, eibf, &c. est æquiang.
 
-Coroll. 1.
+[Figure: cercle auec quintidecagone inscrit, triangle equilateral A—B—C et pentagone A—E—F—G—H inscrits, I entre E et B ; à part petit triangle D]
 
-| √.6< 2|2 semidiamet.
+Explicat. p̄ nr.
 
-Coroll. 2.
-
-29.3 | ace est △ æquilat.
-
-## SCHOL.
-
-Demonstratio praxis vndecimæ propositionis libri primi, quam in hunc locum demonstrandam distulimus.
-
-Demonstration de la practique de l'vnziéme proposition du premier liure, que nous auons remise à demonstrer icy.
+hyp. | cadp est ⊙,
+1.c.15.4 | cbubp est √.6<,
+2.c.15.4 | ap est √.△ æquilat.
+12.1 | ckm ⊥ ap & gn,
+constr.. | gn est √.5<,
+12.1 | gh ⊥ ap,
+1.p.1 | ag est —,
+16.4 | ag est √.15<,

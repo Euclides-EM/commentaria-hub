@@ -1,48 +1,47 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-9.1. | <dca 2|2 <dcb,
-symp. | ad 2|2 db.
-
-Demonstr.
-
-constr. | ca 2|2 cb,
-| cd est commun.
-constr. | △dca 2|2 <dcb,
-concl. 4.1. | ad 2|2 db.
-
-CONSTR.. PRA.
-
-hyp. | ab est — D.
-3.p.1. | acd, & bcd snt ⊙ 2|2 ꝗe, arb.
-1.p.1. | cd est —,
-symp. | ae 2|2 eb.
-
-Demonstr.
-
-8.1. | <dca 2|2 <dcb,
-concl. 4.1. | ae 2|2 eb.
-
-[Figure: ligne A—E—B horizontale, arcs s'entrecoupans en C au dessus et en D au dessous, ligne pointillée CD passant par E]
-
-## PROBL. VI. PROPOS. XI.
-
-Data recta linea, à puncto in ea dato, rectam lineam ad angulos rectos excitare.
-
-Sur vne ligne droicte donnée, & d'vn poinct donné en icelle éleuer vne ligne droicte perpendiculaire.
-
-[Figure: ligne A—D—C—E—B horizontale, triangle DEF, F au sommet, ligne verticale FC]
+[Figure: arc de cercle, ligne A—E—G—F—B horizontale, poinct C au sommet, D sous la ligne, triangle ECF]
 
 Hypoth.
 
 ab est — D.
-c est • D. ⟨n ab.
+c est • D.
 
 Req. π. fa.
 
-cf ⊥ ab.
+cg ⊥ ab.
 
 Constr.
 
-| d est • arbitr.
-3.1. | ce 2|2 cd,
-1.1. | def est △ æquilat.
+arbitr. | d est • infr. ab,
+3.p.1. | cdef est ⊙,
+10.1. | eg 2|2 gf,
+1.p.1. | cg est —,
+symp. | cg ⊥ ab.
+
+Præpar.
+
+1.p.1. | ce & cf snt —.
+
+Demonstr.
+
+constr. | cg 2|2 gf,
+| cg est commun.
+15.d.1. | ce 2|2 cf,
+8.1. | <egc 2|2 <fgc,
+10.d.1. | <egc & <fgc snt ∟,
+concl. 10.d.1. | cg ⊥ ab.
+
+CONSTR.. PRA.
+
+[Figure: poinct C en haut, ligne A—D—G—E—B horizontale, arcs D et E, arcs s'entrecoupans en F au dessous, ligne pointillée GF]
+
+hyp. | ab est — D.
+| c est • D.
+3.p.1. | cde, df, ef, snt ⊙ 2|2 ꝗe, arbitr.
+1.p.1. | cf est —,
+symp. | cg ⊥ ab,
+
+Demonstr.
+
+8.& 4.1. | cg ⊥ ab.

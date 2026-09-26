@@ -1,52 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-[Figure: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale C—B]
-
-ac 2|2 & == bd.
-
-Præpar.
-
-1.p.1. | bc est —.
+symp. | cd == ab.
 
 Demonstr.
 
-hyp. | ab == cd,
-29.1. | <abc 2|2 <bcd,
-hyp. | ab 2|2 cd,
-| bc commun.
-1.concl. 4.1. | ac 2|2 bd,
-4.1. | <acb 2|2 <cbd,
-2.cöcl. 27.1. | ac == bd.
+constr. | cd 2|2 ef,
+constr. | fd 2|2 ec,
+1.s.34.1. | cefd est ◊,
+concl. 35.d.1. | cd == ef.
 
-## THEOR. XXIII. PROPOS. XXXIV.
+## SCHOL. III.
 
-Parallelogrammorum spatiorum æqualia sunt inter se, quæ ex aduerso & latera, & anguli ; atque illa bifariam secat diameter.
+Omne quadrilaterum habens angulos oppositos æquales, est parallegrammum.
 
-Les costez & les angles opposez des figures ou espaces parallelogrammes, sont égaux entr'eux : & le diametre couppe iceux parallelogrammes en deux également.
+Tout quadrilatere qui a les angles opposez égaux, est parallelogramme.
 
-hypoth. | abdc est ◊.
+[Figure: quadrilatere ABCD, B & C en haut, A & D en bas]
+
+Hypoth.
+
+<a 2|2 <c, α
+<b 2|2 <d, α
 
 Req. π. demonstr.
 
-ab 2|2 cd,
-ac 2|2 bd,
-<a 2|2 <d,
-<abd 2|2 <acd,
-△abc 2|2 △cbd.
-
-Præpar.
-
-1.p.1. | bc est —.
+abcd est ◊.
 
 Demonstr.
 
-35.d.1. | ab == cd,
-29.1. | <abc 2|2 <bcd, α
-35.d.1. | ac == bd,
-29.1. | <bca 2|2 <cbd α
-| bc est commun.
-concl. 26.1. | ab 2|2 cd,
-26.1. | ac 2|2 bd,
-26.1. | <a 2|2 <d,
-α.2.a.1. | <abd 2|2 <acd,
-26.1. | △abc 2|2 △cbd.
+s.32.1. | <a + <b + <c + <d 2|2 4∟,
+α 2.a.1. | <a + <b 2|2 <c + <d,
+19.a.b. | <a + <b 2|2 2∟, β
+28.1. | ad == bc,
+d. β | <b + <c 2|2 2∟,
+28.1. | ab == dc,
+concl. 35.d.1. | ac est ◊.
+
+## SCHOL. IV.
+
+In omni figura rectilinea latebra habente numero paria, si quidem fuerit æqualatera, & æquiangula : erunt duo quælibet latera opposita, parallela inter se.
+
+En toute figure rectiligne si les costez sont en nostre pair, &

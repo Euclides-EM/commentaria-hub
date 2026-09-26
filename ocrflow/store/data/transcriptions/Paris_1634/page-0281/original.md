@@ -1,31 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-dicuntur antecedentes quidem antecedentibus, consequentes verò consequentibus.
+dentis ad antecedentem & consequētem, ceu ad vnam.
 
-ble raison, les antecedentes aux antecedentes, & les consequentes aux consequentes.
-
-A, 4. B, 6. C, 10. D, 15.
-
-hyp. | a π b 2|2 c π d,
-11.d.5 | a & c snt homolg. ⁊e. item b & d ⁊e.
-
-## DEFINIT. XI.
-
-Alterna ratio, est sumptio antecedentis ad antecedentem, & consequētis ad consequētem.
-
-La raison alterne, est prendre l'antecedent pour le comparer à l'antecedent, & le consequent au consequent.
+pour le comparer à l'antecedent & consequēt, comme à vn seul.
 
 A, 6. B, 4. C, 12. D, 8.
 
 hyp. | a π b 2|2 c π d,
-16.5 | a π c 2|2 b π d.
+2.s.18.5 | a π a+b 2|2 c π c+d.
 
-In hac definitione & quinque sequentibus imponuntur tantùm nomina sex modis argumētandi quibus Mathematici frequenter vtuntur : demonstrationes verò huiusmodi illationum inuenientur in propositionibus huius libri, quæ in explicationibus harū definitionum citantur.
+## SCHOL. III.
 
-En ceste definition & aux cinq suiuantes sont seulement imposez les noms aux six façons d'argumenter, dont l'vsage est fort frequent entre les Mathematiciens : mais les demonstrations de telles consequences se trouuent aux propositions de ce liure, qui sont citées en l'explication de ces definitions.
+Compositio rationis inuersè contraria, est sumptio consequentis ad antecedentem & consequentem, ceu ad vnam.
 
-## DEFINIT. XIII.
+Composition de raison inuersement contraire, est prendre le consequent pour le comparer à l'antecedent & consequent, comme à vn seul.
 
-Inuersa ratio, est sumptio consequentis, ceu
+A, 6. B, 4. C, 12. D, 8.
 
-Raison inuerse, est prendre le consequent comme ante-
+hyp. | a π b 2|2 c π d,
+3.s.18.5 | b π a+b 2|2 d π c+d.
+
+## DEFINIT. XV.
+
+Diuisio rationis, est sumptio excessus, quo consequentem superat anteeedēs ad ipsam consequentem.
+
+Diuision de raison est lors qu'on prend l'exces par lequel l'antecedent surpasse le consequent, pour le comparer au mesme consequent.
+
+A, 6. B, 4. C, 12. D, 8.
+
+hyp. | a π b 2|2 c π d,
+17.5 | a~b π b 2|2 c~d π d.
+
+## SCHOL. I.
+
+Diuisio ratione inuersa, est sumptio consequentis ad excessum quo consequentem superat antecedens.
+
+Diuision de raison conuerse, est prendre le consequent pour le comparer à l'exces par lequel l'antecedent surpasse le consequent.

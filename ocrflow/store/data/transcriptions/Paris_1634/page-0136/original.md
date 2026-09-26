@@ -1,58 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-symp. | ◊gf est req.
+[Figure: triangle rectangle ABC, A au sommet, B à gauche, C à droicte ; quarré F—G—A—B sur AB, quarré A—H—I—C sur AC, quarré B—C—E—D dessous auec ligne L—M ; lignes F—C, A—D, B—I, A—E, A—M]
+
+Præpar.
+
+46.1. | be est ▭.bc,
+46.1. | af est ▭.ab,
+46.1. | ai est ▭.ac,
+31.1. | am == bd u ce,
+1.p.1. | ad, ae, bi, cf snt —,
 
 Demonstr.
 
-constr. | ◊df 2|2 a,
-constr. | ◊dh 2|2 b,
-3.a.1. | ◊gf 2|2 a~b.
+hyp. | <bac est ∟,
+constr. | <bag est ∟,
+14.1. | gac est —,
+29.d.1. | ab 2|2 bf,
+29.d.1. | bd 2|2 bc,
+12.a.1. | <dbc 2|2 <fba,
+| <abc commun. add.
+2.a.1. | <abd 2|2 <fbc,
+4.1. | △abd 2|2 △fbc, α
+41.1. | ◊blmd 2|2 2△abd,
+41.1. | ▭af 2|2 2△fbc,
+6.a.1. | ◊blmd 2|2 ▭af, β
+d. α | △ace 2|2 △icb,
+d. β | ◊clme 2|2 ▭ch,
+concl. 2.a.1. | ▭be 2|2 ▭af + ▭ai.
 
-## PROBL. XIV. PROPOS. XLVI.
+## THEOR. XXXIV. PROPOS. XLVIII.
 
-A data recta linea quadratum describere.
+Si quadratum, quod ab vno laterum trianguli describitur, æquale sit eis, quæ à reliquis trianguli lateribus describuntur, quadratis : Angulus comprehensus sub reliquis duobus trianguli lateribus, rectus est.
 
-D'vne ligne droicte donnée, descrire vn quarré.
-
-[Figure: quarré ABCD, B & C en haut, A & D en bas]
-
-Hypoth.
-
-ad est — D.
-
-Req. π. fa.
-
-ac ▭.ad.
-
-Constr.
-
-11.1. | <dab est ∟,
-3.1. | ab 2|2 ad,
-31.1. | bc == ad,
-31.1. | dc == ab,
-symp. | ▭ac est req.
-
-Demonstr.
-
-constr. | ac est ◊,
-constr. | <a est ∟,
-1.concl. 2.s.29.1. | <b, <c, <d, snt ∟,
-constr. | ab 2|2 ad,
-34.1. | bc 2|2 ad,
-34.1. | dc 2|2 ab,
-1.a.1. | bc 2|2 dc,
-2.cöcl. 29.d.1. | ac est ▭.ad.
-
-## SCHOL.
-
-Linearum æqualium æqualia sunt quadrata : & quadratorum æqualium æquales sunt lineæ.
-
-Les quarrez des lignes égales sont égaux entr'eux : & des quarrez égaux, les lignes sont égales.
-
-Hypoth. 1.
-
-ab 2|2 cd.
-
-Req. π. demonstr.
-
-▭. ab 2|2 ▭. cd.
+Si le quarré de l'vn des costez d'vn triangle, est égal aux quarrez des deux autres costez ; le triangle sera rectangle.

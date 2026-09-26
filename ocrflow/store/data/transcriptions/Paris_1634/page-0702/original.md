@@ -1,50 +1,39 @@
-<!-- Running title: ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID.. LI. X. -->
 
-♪ε 3.concl 10. 10 | ▭dk, incomm. ▭gk, / dl, incomm. gl.
+## THEOR. LXXVI. PROPOS. C.
 
-## COROLL. II.
+Quadratum mediæ apotomæ secundæ ad rationalem applicatum, latitudinem facit apotomen tertiam.
 
-hyp. | □.ac, incōm. □.bc. λ
-
-Req. π. demonstr.
-
-□.dl 3|2 □.gl..□.
-——, incomm. dl.
-
-Demonstr.
-
-λ. hyp. | □.ac, incomm. □.bc,
-βγ10.10 | ▭dh, incomm. ▭iк,
-10. 10 | di, incomm. il,
-concl. θ. 19.10 | □.dl 3|2 □.gl..□. / ——, incomm. dl.
-
-## THEOR. LXXIV. PROPOS. XCVIII.
-
-Quadratum apotomæ ad rationalem applicatum, latitudinem facit apotomen primam.
-
-*Le quarré d'vn apotome appliqué à vne ligne rationelle, fait la latitude apotome premier.*
+*Le quarré d'vn apotome medial second appliqué à vne ligne rationelle, fait la latitude apotome troisiesme.*
 
 [Figure: labels arranged A B C / D G M I L / E F N H K]
 
 Hypoth.
 
-ab, est apotom. α
+ab, est apotom. 2.. medi. α
 bc, est congruen.
 de, est ration.
 ▭df 2|2 □.ab.
 
 Req. π. demonstr.
 
-dg, est apotom. 1.
+dg, est apotom. 3.
 
 Lemm. 97. 10. est præpar.
 
 Demonstr.
 
-α. hyp. | ac & bc snt ration. comm. ꝗn □, β
+α. hyp. | ac & bc snt medi; comm; ꝗn □, β
 l 97.10 | ▭dk 2|2 □.ac + □.bc
-c.l97.10 | ▭dk, comm. □.ac,
-βs.12.10 | ▭dk, est ration.
-21. 10 | dl, est ration. comm. de, γ
-β. 22.10 | ▭acb, est medi.
-l.97.10 | ▭gk 2|2, 2▭acb,
+c l97.10 | ▭dк, comm. □.ac,
+β. 24.10 | ▭dk, est medi.
+23. 10 | dl, est ration. incomm. de,
+α. hyp. | ▭acb, est medi.
+l.97.10 | ▭gк 2|2, 2▭acb,
+24.10 | ▭gк, est medi.
+23. 10 | gl, est ration. incomm. de,
+l.26.10 | dl, incomm. gl,
+s.12.10 | □dl, comm. □.gl,
+74. 10 | dg, est apotom.
+c l97.10 | □.dl 3|2 □.gl..□. / ——, comm. dl,
+concl. 3d 85.10 | dg, est apotom. 3.

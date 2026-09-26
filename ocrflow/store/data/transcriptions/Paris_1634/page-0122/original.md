@@ -1,17 +1,52 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-resoluitur ; vt si quatuor latera habeat, in duo resoluitur triangula ; si quinque in tria, si sex in quatuor, & similiter reliquæ. Quòd cùm omnis trianguli tres anguli sint æquales duobus rectis, numerus triangulorum, ex quibus vnaquæque figura constat, duplicatus dabit numerum rectorum quibus omnes anguli figuræ propositæ æquiualent. Quapropter omnis quadrilatera figura ex duobus triangulis constans angulos habet quatuor rectis æquales, & omne pentagonum habet angulos æquales sex rectis, & deinceps eodem modo.
+[Figure: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale C—B]
 
-que les costez de la figure ; comme si elle a quatre costez, elle se diuisera en deux triangles ; si cinq en trois, si six en quatre, & de mesme les autres. Et à cause que de tout triangle les trois angles sont égaux à deux droicts, le nombre des triangles, dont chaque figure est composée, estant doublé, donnera le nombre des angles droicts, auquel tous les angles de la figure proposée sont égaux. Partant toute figure quadrilatere estant composée de deux triangles a ses angles égaux à quatre droicts, & tout pentagone a ses angles égaux à six droicts, & ainsi des autres.
+ac 2|2 & == bd.
 
-## SCHOL. II.
+Præpar.
 
-Omnes anguli figuræ rectilineæ cuiusuis æquales sunt bis tot rectis angulis, demptis quatuor, quod ipsa continet latera, seu angulos.
+1.p.1. | bc est —.
 
-Tous les angles de quelconque figure rectiligne, sont égaux à deux fois autant d'angles droicts, quatre estant ostez, qu'elle a de costez ou d'angles.
+Demonstr.
 
-[Figure: vn quadrilatere, vn pentagone & vn hexagone, chacun diuisé en triangles par des lignes menées d'vn poinct au dedans à tous les angles]
+hyp. | ab == cd,
+29.1. | <abc 2|2 <bcd,
+hyp. | ab 2|2 cd,
+| bc commun.
+1.concl. 4.1. | ac 2|2 bd,
+4.1. | <acb 2|2 <cbd,
+2.cöcl. 27.1. | ac == bd.
 
-Si enim, à quocunque puncto intra figuram assumpto, ad omnes angulos rectæ lineæ ducantur, efficientur tot triangula,
+## THEOR. XXIII. PROPOS. XXXIV.
 
-Car si de quelconque poinct pris en la figure on mene des lignes droictes à tous les angles, il s'en fera autant de triangles, que ladite
+Parallelogrammorum spatiorum æqualia sunt inter se, quæ ex aduerso & latera, & anguli ; atque illa bifariam secat diameter.
+
+Les costez & les angles opposez des figures ou espaces parallelogrammes, sont égaux entr'eux : & le diametre couppe iceux parallelogrammes en deux également.
+
+hypoth. | abdc est ◊.
+
+Req. π. demonstr.
+
+ab 2|2 cd,
+ac 2|2 bd,
+<a 2|2 <d,
+<abd 2|2 <acd,
+△abc 2|2 △cbd.
+
+Præpar.
+
+1.p.1. | bc est —.
+
+Demonstr.
+
+35.d.1. | ab == cd,
+29.1. | <abc 2|2 <bcd, α
+35.d.1. | ac == bd,
+29.1. | <bca 2|2 <cbd α
+| bc est commun.
+concl. 26.1. | ab 2|2 cd,
+26.1. | ac 2|2 bd,
+26.1. | <a 2|2 <d,
+α.2.a.1. | <abd 2|2 <acd,
+26.1. | △abc 2|2 △cbd.

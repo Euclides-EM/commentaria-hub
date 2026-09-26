@@ -1,45 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-COROLL.
+| bd commun. add.
+4.a.1. | bd + dc 2|3 be + ec, α
+20.1. | be 2|3 ab + ae,
+| ec commun. add.
+4.a.1. 1.concl. | be + ec 2|3 ba + ac,
+α 1.a.c. | bd + dc 2|3 ba + ac,
+16.1. | <bdc 3|2 <bec,
+16.1. | <bec 3|2 <a,
+2.concl. 1.a.c. | <bdc 3|2 <a.
 
-Sequitur ex hac propositione omnium rectarum ex quouis puncto ad rectam quamcumque ductarum, eam quæ perpendicularis est esse minimam.
+## PROBL. VIII. PROPOS. XXII.
 
-Il s'ensuit de cette proposition, que si de quelconque poinct on tire sur vne ligne droicte tant de lignes droictes qu'on voudra, l'vne desquelles soit perpendiculaire, icelle perpendiculaire sera la plus petite de toutes.
+Ex tribus rectis lineis quæ sint tribus datis rectis lineis æquales triangulum constituere. Oportet autem duas reliqua esse maiores omnifariam sumptas : quoniam vniuscuiusque trianguli duo latera omnifariam sumpta reliquo sunt maiora.
 
-[Figure: triangle ABC, poinct A en haut, ligne AD perpendiculaire sur BC, D entre B et C]
-
-Hypoth.
-
-ad ⊥ bc,
-
-Req. π. demonstr.
-
-ad 2|3 ab & ac,
-
-Demonstr.
-
-hyp. | <adb est ∟,
-1.c.17.1. | <b 2|3 ∟,
-12.d.1. | <b 2|3 <adb,
-19.1. | ad 2|3 ab, α
-d. α | ad 2|3 ac.
-
-## THEOR. XIII. PROPOS. XX.
-
-Omnis trianguli duo latera reliquo sunt maiora, quomodocunque assumpta.
-
-De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'ils soient pris.
-
-[Figure: triangle ABC, costé BA prolongé vers D en haut, ligne DC]
+Des trois lignes droictes égales à trois lignes droictes données, descrire vn triangle : mais il faut que deux, de quelque façon qu'elles soient prises, soient plus grandes que l'autre ; d'autant que de tout triangle deux costez de quelque façon qu'ils soient prins, sont plus grands que l'autre.
 
 Hypoth.
 
-abc est △.
+a, b, c, snt — D.
 
-Req. π. demonstr.
+Constr.
 
-ba + ac 3|2 bc.
-
-Præpar.
-
-2.p.1. | bad est —,
+arbitr. | de 3|2 a + b + c,
+3.1. | df 2|2 a,
+3.1. | fg 2|2 b,
+3.1. | gh 2|2 c,
+3.p.1. | fdkl est ⊙,

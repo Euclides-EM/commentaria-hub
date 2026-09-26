@@ -1,37 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-s.12.10 | aggreg.. □.df + □.fe, est ration.
-α. hyp. | ▭.acb, est medi.
-l.66.10 | ▭.dfe, cōm. ▭.acb,
+24.10 | aggreg.. □.df + □.fe, est medi.
+hyp. | ▭.abc, est medi.
+l.66 10 | ▭dfe, comm. ▭.acb, γ
 24.10 | ▭.dfe, est medi.
-concl. 77. 10 | de, est min.
+hyp. | aggreg.. □.ac + □.bc, incomm. ▭.acb,
+βγ14.10 | aggreg.. □.df + □.fe, incomm. ▭.dfe,
+concl. 79. 10 | de, est ——, fa. 2; medi.
 
-## THEOR. LXXXIII. PROPOS. CVII.
+## THEOR. LXXXV. PROPOS. CIX.
 
-Recta linea commensurabilis ei, quæ cum rationali medium totum efficit; & ipsa cum rationali medium totum efficiens est.
+Medio à rationali detracto; recta linea, quæ reliquum spatium potest, vna ex duabus irrationalibus fit, vel apotome, vel minor.
 
-*La ligne droicte commensurable à vne ligne laquelle auec vn espace rationel, fait vn tout medial; est aussi ligne faisant auec vn espace rationel vn tout medial.*
+*Si vn espace medial est retranché d'vn rationel; la ligne droicte qui peut le reste de l'espace, est vne de deux irrationelles, sçauoir apotome, ou mineure.*
+
+[Figure: labels arranged H A B C D / F K E I]
 
 Hypoth.
 
-ab, est ——, fa. rat. & medi. α
-bc, est congruen.
-de, comm. ab.
-
-[Figure: labels arranged A B C / D E F]
+▭a + b, est ration.
+▭b, est medi.
+□.h 2|2 ▭a.
 
 Req. π. demonstr.
 
-de, est ——, fa. rat. & medi.
+h, est apotom. Ⅱ min.
 
 Præpar.
 
-12. 6 | ab π de 2|2 ac π df.
+suppos | cd, est ration. expos.
+4.app. | ▭ci 2|2 ▭a + b, α
+4.app. | ▭fi 2|2 ▭b. β
 
 Demonstr.
 
-α. hyp. | □.ac, incomm. □.bc,
-l.66.10 | □.df, incomm. □.fe,
-α. hyp. | aggreg.. □.ac + □.bc, est medi.
-l.66.10 | aggreg.. □.df + □.ef, comm. aggreg.. □.ac + □.bc,
-24.10 | aggreg.. □.df + □.ef, est medi.
+αβ.3.a.1 | ▭ce 2|2 ▭a, Ⅱ □.h,
+hyp. | ▭a + b, est ration.
+αs.12.10 | ▭ci, est ration.

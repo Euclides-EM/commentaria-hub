@@ -1,49 +1,57 @@
-<!-- Running title: ELEM.. EVCLD. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-*tre ensemble sera premier à chacun d'iceux : Et si l'vn & l'autre ensemble est premier à quelqu'vn d'iceux, les nombres proposez au commencement seront aussi premiers entr'eux.*
+A....4 B......6
+C,24
+D...3 E........8
 
-A.........8B......5C
-D----
+β.supp. | d, msur: c ꝑ e,
+9.a.7 | ▭.de 2|2 c,
+hyp. | ▭.ab 2|2 c,
+1.a.1 | ▭.de 2|2 ▭.ab,
+19.7 | d π a 2|2 b π e, γ
+suppos. | d, n̄. msur: a,
+α.31.7 | d & a snt pr. ꝫe,
+23.7 | d & a snt term.. raō.. d π a,
+concl. 21.7 | d, msur: b.
 
-Hypoth. 1.
+## SCHOL.
 
-ab & bc snt pr. ꝫe.
+A...3 B....4
+C............12
+D.........8
+
+Hypoth.
+
+▭.ab est c,
+d, est nr. compos.
+d & c snt compos. ꝫe,
 
 Req. π. demonstr.
 
-ac est pr. π. ab & bc.
+d, est compos. π a, u b.
 
 Demonstr.
 
-suppos. | ac & ab n̄. snt pr ꝫe,
-suppos. | d, est c.me.. ac & ab,
-12.a.7 | d, msur: ab & bc.
-contr. 12.d.7.
-1.concl. 21.a.1 | ac & ab snt pr. ꝫe, α
-2.concl. d.α | ac & bc snt pr. ꝫe.
+suppos. | d, est pr. π. a & b,
+26.7 | d, est pr. π. c,
+contr. hyp.
+concl. 21.a.1 | d, est cōpos. π. a, u b.
 
-Hypoth. 2.
+## THEOR. XXXI. PROPOS. XXXIII.
 
-ac & ab snt pr. ꝫe.
+Omnem compositum numerum, aliquis primus numerus metitur.
+
+*Tout nombre composé, est mesuré par quelque nombre premier.*
+
+A.............12
+B..2
+C---
+
+Hypoth.
+
+a, est nr. compos.
+b, est mi.msur.. nr. a, α
 
 Req. π. demonstr.
 
-ab & bc snt pr. ꝫe.
-
-Demonstr.
-
-suppos. | ab & bc n̄. snt pr. ꝫe,
-suppos. | d, est c.me.. ab & bc,
-10.a.7 | d, msur: ab & ac.
-contr. 12.d.7.
-3.concl. 21.a.1 | ab & bc snt pr. ꝫe.
-
-## COROLL.
-
-Ex hoc sequitur, numerum, qui ex duobus compositus ad vnum illorum primus est, ad reliquum quoque primum esse.
-
-*Il s'ensuit de cecy que le nombre, lequel estant composé de deux autres, est premier à l'vn d'iceux, il sera aussi premier à l'autre.*
-
-## THEOR. XXIX. PROPOS. XXXI.
-
-Omnis primus numerus, ad omnem numerum quem non metitur, primus est.
+b, est nr. pr.

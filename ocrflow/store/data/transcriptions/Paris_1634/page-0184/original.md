@@ -1,38 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-circulum tangat, si producatur, circulum non secat.
+nea, & circuli peripheria comprehenditur.
 
-touchant le cercle, si elle est prolongée, ne le couppe point.
+se, sous vne ligne droicte, & la circonference du cercle.
 
-2.d.3 | ab tang: ⊙fed in, e,
-2.d.3 | fg secat: ⊙fed in, d,
-2.d.3 | eb est tangen.
-2.d.3 | fg est secan.
+5.d.3 | abc & def snt ⌓.
 
-[Figure: cercle C—F—D, ligne A—E—G—B tangente en bas, ligne C—E verticale, lignes F—D et F—G]
+[Figure: deux segments de cercle, le premier A—B—C, le second D—E—F, sur les bases A—C et D—F]
 
 Explicatio notarum.
 
-AB tangit circulum FED in E.
-FG secat ⊙ FED in D.
-EB est tangens.
-FG est secans.
+ABC & DEF sunt segmenta circuli.
 
 Explication des notes.
 
-AB touche le cercle FED en E.
-FG couppe le ⊙ FED en D.
-EB est tangente ou touchante.
-FG est secante ou couppante.
+ABC & DEF sont segments de cercle.
 
-## DEFINIT. III.
+## DEFINIT. VI.
 
-Circuli se mutuo tangere dicuntur, qui se mutuo tangétes sese mutuo non secant.
+Segmenti autem angulus est, qui sub recta linea, & circuli peripheria comprehenditur.
 
-Les cercles sont dits se toucher l'vn l'autre, lesquels en se touchant l'vn l'autre, ne se couppent point.
+L'angle du segment ou de la section, est celuy qui est compris sous vne ligne droicte, & la circonference du cercle.
 
-[Figure: trois cercles, le premier A—C—E contenant vn petit cercle D—A—C touchant par dedans en A, le second cercle B—G—F touchant le premier en B, le troisiesme cercle G—F—H couppant le second en G et F]
+6.d.3 | cab est <.. segm.
 
-Circulus DAC tangit circulum ABE interius in A.
+Explicatio notarum.
 
-Le cercle DAC touche le cercle ABE par dedans en A.
+CAB est angulus segmenti.
+
+Explication des notes.
+
+CAB est l'angle du segment.
+
+## DEFINIT. VII.
+
+In segmento autem angulus est, cum in segmenti peripheria sumptum fuerit quodpiam punctum, & ab illo in terminos rectæ eius lineæ, quæ segmenti basis est, adiunctæ fuerint rectæ li-
+
+Mais vn angle est au segment ou en la section, lors qu'on prend quelque poinct en la circonference du segment, & d'iceluy sont menées deux lignes droictes sur les extremitez de la ligne droicte, laquelle

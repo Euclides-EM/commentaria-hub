@@ -1,34 +1,33 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-[Figure: cercle auec les poincts F, A, D, B, E, G, C ; ligne H à part]
+Entre deux figures rectilignes, dont l'vne soit inscrite & l'autre circonscrite ; l'inscrite qui aura deux fois autant de costez sera moyenne proportionelle.
 
-3.p.1 | age est semic.
-2.p.1 | cbg est —,
-1.p.1 | ag & eg snt —,
-symp. | Δabg est req.
+Snelius in Cyclometria.
+
+[Figure: quarré K, M, L auec le cercle inscrit, l'octogone A, P, D, G, B, O, N, R, E, & le quarré A, D, B, E ; poincts C, H au dedans]
+
+Hypoth.
+
+cadb est ⊙,
+
+adbe & ikml snt 4< regul.
+
+apdgbner est 8< regul.
+
+Req. π. demonstr.
+
+adbe, apdgbner, ikml snt proport.
+
+Præpar.
+
+1.p.1 | ab, ed, im, & kl snt —.
 
 Demonstr.
 
-15.d.1 | fd 2|2 de,
-constr. | ad 2|2 db,
-3.a.1 | af 2|2 be,
-ab commun. add.
-2.a.1 | fb 2|2 ae,
-s.5.2 | □.bc 2|2 ▭.fbe,
-3.s.1.d.2 | ▭.fbe 2|2 ▭.aeb,
-s.22.6 | ▭.aeb 2|2 □.ge,
-1.a.1 | □.bc 2|2 □.ge,
-s.46.1 | bc 2|2 ge,
-8.6 | Δabg, sml. Δbge,
-4.6 | ab π ag 2|2 bg π ge,
-16.6 | ▭.ag,bg 2|2 ▭.ab,ge
-3.s.1.d.2 | ▭.ab,ge 2|2 ▭.ab,bc
-α.17.6 | ▭.ab,bc 2|2 □.h,
-1.a.1 | ▭.ag,bg 2|2 □.h
-1.concl. 17.6 | ag π h 2|2 h π bh,
-constr. | <abc est ⌐,
-2.concl. 1.c.13.1 | <abg est ⌐.
-
-## PROBL. X. PROPOS. X.
-
-Data hypothenusa trianguli rectanguli, & media proportionali inter basin & perpendiculum, inuenire ttiangulum.
+8.6 | Δcbm & Δcbh snt æquiang.
+4.6 | cm π cb u cg 2|2 cb u cg π ch,
+1.6 | Δcbm π cbg 2|2 Δcbg π Δcbh,
+19.a.1 | 8Δcbm 2|2 □ikml,
+19.a.1 | 8Δcbg 2|2 8<apdgbner,
+19.a.1 | 8Δcbh 2|2 □adbe,
+concl. 15.5 | adbe π apdgbner 2|2 apdgbner π ikml,

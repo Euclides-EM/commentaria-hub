@@ -1,32 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-[Figure: labels arranged K A / H M / I / B E / F / C D / G]
+[Figure: labels arranged A / E F / F L / K / M / H / P —— / N —— / C I D / G / N]
 
-1. a. 1 | <bfк 2|2 <bag,
-<fba, eſt commun.
-32. 1 | △bfm æquāg. △fab,
-4. 6 | ab π bf 2|2 bf π bm
-17. 6 | ▭.ab,bm 2|2 □.bf, γ
-27. 3 | <afк 2|2 <hfк,
-5. 1 | <fah 2|2 <fha,
-32. 1 | fl ⊥ ah,
-4. 1 | la 2|2 lh,
-4. 1 | <lhm 2|2 <lam,
-α. 27.3 | <hba 2|2 <hab,
-32. 1 | △ahb æquiang. △amh,
-4. 6 | ab π ah 2|2 ah π am,
-▭.ab,am 2|2 □.ah, δ
-4. 2 | □.ab 2|2 ab,bm / + ab,am,
-concl. γδ 2.a.1 | □.ab 2|2 □.bf + □.ah
+diamet. ag, eſt ration.
+abcde, eſt 5< inſcri. ꝗn ⊙.
 
-## COROLL. I.
+Req. π. demonstr.
 
-Hinc sequitur, lineam rectam, quæ ex centro diuidit arcum quempiam bifariam, diuidere quoque rectam illi arcui subtensam bifariam, & ad angulos rectos.
+ab, eſt min.
 
-*De ceste demonstration s'ensuit que la ligne droicte menee du centre qui diuise vn arc en deux egalement, diuise aussi la ligne droicte soustendante iceluy, à angles droicts & en deux egalement.*
+Præpar.
 
-## COROLL. II.
+1. p. 1 | bfh, ac, ah ſnt ——;
+ſ.10. 6 | fl 2|2, ¼fh,
+ſ. 10. 6 | cm 2|2, ¼ca,
+3. 1 | ac 2|2 cd + p,
+6. app. | □.bl 2|2 □.kl + □.n.
 
-Perspicuum quoque est, diametrum circuli ex angulo quouis pentagoni ductam diuidere & arcum, quem latus pentagoni illi angulo oppositum subtendit, & latus ipsum oppositum bifariam, & ad angulos rectos.
+Demonstr.
 
-*Il est manifeste aussi que le diametre du cercle mené de l'angle*
+c.10.13 | aкf, aic ſnt ⊥;
+4. 6 | ci π fк / ca π fa ſnt raō; / ca π fb 2|2 ꝗe, / cm π fl
+7. 5
+15. 5
+11. 5 | ci π fк 2|2 cm π fl,
+16. 5 | ci π cm 2|2 fк π fl,
+15. 5 | cd π cк 2|2 fк π fl,
+18. 5 | cd + cк π cк 2|2 kl π fl
+22.6 | □.aggre.. / cd + cк π □.cк, / □.kl π □.fl, α
+8. 13 | ac π cd 2|2 cd π p,
+1. 13 | □.aggreg.. / cd + ck 2|2, 5□. / cк,
+α | □.kl 2|2 5□.fl, β
+hyp. | bh, eſt ration.
+arbitr. | bh, eſt 8,
+7. a. 1 | fh, eſt 4,
+7. a. 1 | fl, eſt 1,
+2. a. 1 | bl, eſt 5,
+1.ſ.1.d. 2 | □.bl, eſt 25, γ
+9. 10 | bl, comm. fl, δ
+1.ſ.1.d. 2 | □.fl, eſt 1,
+β | □.кl, eſt 5, ε
+9. 10 | kl, incomm. fl,
+13. 10 | bl, incomm. kl,
+γε | bl, comm. кl ꝗn □,
+74.10 | bk, eſt apotom.
+74. 10 | кl, eſt congruen.
+conſtr. | □.bl 2|2 □.кl + □.n,
+1. a. 1 | □.kl + □.n ſnt 25,
+3. a. 1 | □.n, eſt 20, θ

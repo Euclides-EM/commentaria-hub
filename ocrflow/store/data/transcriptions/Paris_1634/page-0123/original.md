@@ -1,19 +1,55 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-quot latera angulosve figura ipsa continet : at anguli eorumdem triangulorum, circa punctum intra figuram assumptum consistentes, non pertinent ad angulos figuræ rectilineæ propositæ, vt constat. Quare si hi auferantur, erunt reliqui triangulorum anguli constituentes angulos figuræ propositæ, bis tot rectis æquales, demptis illis circa punctum assumptum constitutis, quot latera vel angulos continet figura, sunt autem omnes illi anguli, quotquot sint, circa dictum punctum existentes æquales quatuor rectis tantummodo vt collegimus ex propositione decimaquinta. Quäobrem omnes anguli, &c.
+## SCHOL. I.
 
-figure a de costez ou d'angles, mais les angles de ces triangles, lesquels sont constituez, alentour du poinct prins au dedans de la figure n'appartiennent pas aux angles de la figure rectiligne proposée, comme il appert. Parquoy si ces angles là sont ostez, les autres angles des triangles, constituant les angles de la figure proposée, seront égaux à deux fois autant de droicts, ceux qui sont constituez autour du poinct prins au dedans de la figure estans ostez, que la figure a d'angles ou de costez. Or tous ces angles là constituez alentour de ce poinct prins en la figure, en quelque nombre qu'ils soient, sont égaux à quatre droicts, tant seulement comme nous auons colligé de la 15. proposition. Donc tous les angles, &c.
+Omne quadrilaterum habens latera opposita æqualia, est parallelogrammum.
 
-## PROBL. XXIII. PROPOS. XXXIII.
-
-Rectæ lineæ, quæ æquales, & parallelas lineas ad partes easdem coniungunt ; & ipsæ æquales, & parallelæ sunt.
-
-Les lignes droictes qui conioignent deux lignes droictes égales & paralleles, & de mesme part ; sont außi égales & paralleles.
-
-[Figure: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale B—C]
+Tout quadrilatere qui a les costez opposez égaux, est parallelogramme.
 
 Hypoth.
 
-ab 2|2 & == cd.
+ab 2|2 cd,
+ac 2|2 bd.
 
 Req. π. demonstr.
+
+ad est ◊.
+
+Præpar.
+
+1.p.1. | bc est —.
+
+Demonstr.
+
+hyp. | ab 2|2 cd,
+| bc est commun.
+hyp. | ac 2|2 bd,
+8.1. | <abc 2|2 <bcd α
+8.1. | <bca 2|2 <cbd, β
+α.27.1. | ab == cd,
+β.29.1. | ac == bd,
+concl. 35.d.1. | abdc est ◊.
+
+## SCHOL. II.
+
+Ex hoc scholio perspicua est demonstratio methodi qua expeditus recta linea, per datum punctum, parallela datæ rectæ lineæ ducitur.
+
+De cet scholie est manifeste la demonstration d'vne methode plus briefue de mener vne ligne droicte, par vn poinct donné, parallele à vne ligne droicte donnée.
+
+[Figure: ligne A—E—F—B en haut, ligne C—D en bas, arcs se coupans en D]
+
+Hypoth.
+
+c est • D.
+ab est — D.
+
+Req. π. fa.
+
+cd == ab,
+
+Constr.
+
+3.p.1. | e est • arbitr. ⟨n ab,
+arbitr. | ef,cd snt ⊙ 2|2 ꝗe.
+3.p.1. | ⊙fd 2|2 ⊙ec,
+1.p.1. | cd est —,

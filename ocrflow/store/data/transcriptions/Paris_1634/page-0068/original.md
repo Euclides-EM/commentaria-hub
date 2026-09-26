@@ -1,32 +1,34 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### I. a. f.
+hyp. | ac 2|2 ½ab,
+3.a.b. | cb 2|2 ½ab.
+hyp. | df 3|2 ½de.
+3.a.b. | fe 2|3 ½de.
+hyp. | hl 2|2 ⅓gl.
+3.a.b. | gh 2|2 ⅔gl.
 
-Permutatio æqualium non immutat æqualitatem. | Le changement des choses egales n'oste pas l'egalité.
+[Figure: trois lignes horizontales, ACB en haut, DFE au milieu, GHL au dessous]
 
-[Figure: lignes A et C longues en haut, lignes B et D courtes au dessous]
+### 4. a. 1.
 
-hyp. | a + b 2|2 c + d.
-hyp. | b 2|2 d.
-1.a.f. | a + d 2|2 c + b.
+Et si inæqualibus æqualia adiecta sint, tota sunt inæqualia. | Et si à choses inegales on adiouste choses egales, les tous sont inegaux.
 
-### I. a. g.
+[Figure: ligne ABE en haut, ligne CDF au dessous]
 
-Interpretatio non immutat æqualitatem. | L'interpretation ne change point l'egalité.
+hyp. | ab 3|2 cd.
+hyp. | be 2|2 df.
+4.a.1 | ab 3|2 cf.
 
-[Figure: deux quarrez auec diagonales, ABFE à gauche, diagonale de E à B ; CDGH à droite, diagonale de H à D]
+### 4. a. b.
 
-hyp. | □af 2|2 □cg.
-hyp. | af est □.ab.
-hyp. | cg est □.cd.
-1.a.g. | □.ab 2|2 □.cd.
+Et si æqualibus inæqualia adiecta sint, tota sunt inæqualia. | Et si à choses egales on adjouste choses inegales, les tous sont inegaux.
 
-Explicatio notarum. | Explication des notes.
+[Figure: ligne ABE en haut, ligne CDF au dessous]
 
-Quadratum AF est æquale quadrato CG, per hyp. | Le quarré AF est egal au quarré CG, par l'hyp.
+hyp. | ab 2|2 cd.
+hyp. | be 3|2 df.
+4.a.b. | ae 3|2 cf.
 
-AF est quadratum lateris AB, per hyp. | AF est le quarré de AB, par l'hyp.
+### 4. a. c.
 
-CG est quadratum lateris CD, per hyp. | CG est le quarré de CD, par l'hyp.
-
-Quadratum lateris AB est æquale quadrato lateris CD, per primü axioma G. | Le quarré de AB est egal au quarré de CD, par le premier axiome G.
+Et si inæqualibus inæqualia adiecta sint, maiori maius & minori minus, tota | Et si à choses inegales on adjouste choses inegales, à la plus grande la plus grande,

@@ -1,31 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-a π b 2|2 e π f.
+Demonstr.
+
+concl. 4.c.2.8 | multd.. contin. proport. a, c, d, b, u, e, g, a, & u, f, i, b. snt 2|2 ꝫe,
+
+## THEOR. VIII. PROPOS. X.
+
+Si inter duos numeros, & vnitatem continuè proportionales ceciderint numeri ; quot inter vtrumque ipsorum, & vnitatem deinceps medij continua proportione cadunt numeri, totidem & inter ipsos medij continua proportione cadent.
+
+*Si entre deux nombres & l'vnité tombent des nombres continuellement proportionaux ; autant qu'il en tombe de continuellement proportionaux entre chacun d'iceux & l'vnité, il en tombera autant de continuellement proportionaux entre iceux.*
+
+Hypoth.
+
+c, est vnit.
+a, e, d, c, & b, g, f, c snt contin. proport.
 
 Req. π. demonstr.
 
-multd.. contin. proport. e,l,m,f 2|2 multd.. contin. proport. a, c, d, b,
+multd.. contin. proport. a,i,k,b 2|2 multd. a,e,d,c, u b, g, f, c.
+
+A,8. I,12. K,18. B,27.
+E,4. H,6. G,9.
+D,2. F,3.
+C,1.
 
 Præpar.
 
-35.7 | g,h,i,k snt term..raō. a π c, u c π d, u d π b, α
-
-Demonstr.
-
-α.14.7 | g π k 2|2 a π b, u e π f,
-3.8 | g & k snt pr. ꝫe,
-21.7 | g, msur: e 2|2 k, msur: f,
-constr. | g, msur: e 2|2 h, msur: l,
-constr. | g, msur: e 2|2 i, msur: m,
-constr. | g, h, i, k snt contin. proport.
-concl. 17.7 | e, l, m, f snt contin. proport.
-
-## SCHOL I.
-
-Ex hac demonstratione constat, non solùm totidem medios proportionales cadere inter E & F, quot inter A & B ; verùm etiam eandem esse proportionem numerorum E, L, M, F, quæ est numerorum A, C, D, B.
-
-*Il est manifeste de ceste demonstration, que non seulement il tombe autant de moyens entre E & F, qu'entre A & B : mais aussi que la proportion des nombres E, L, M, F, est la mesme que des nombres A, C, D, B.*
-
-## SCHOL II.
-
-Constat etiam ex hoc theoremate, & ex primo corollario secundæ propositionis huius libri, medium propor-
+h 2|2 ▭.df,
+i 2|2 ▭.dh,
+k 2|2 ▭.dg.

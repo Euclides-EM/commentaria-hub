@@ -1,58 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-∩abc 2|2 ∩def,
-∪ aic 2|2 ∪ dkf.
+[Figure: cercle A—B—E—F—C, D au dedans, E au dehors en haut, lignes A—C, B—E, B—F, B—C, B—D, F—C]
 
-Præpar.
-
-1.p.1 | ga,gc,dh,hf snt —
-
-Demonstr.
-
-α.8.1 | <g 2|2 <h,
-1.concl. 26.3 | ∪ aic 2|2 ∪ dkf,
-2.concl. 3.a.1 | ∩abc 2|2 ∩def.
-
-## THEOR. XXVI. PROPOS. XXIX.
-
-In æqualibus circulis, æquales peripherias, æquales rectæ lineæ subtendunt.
-
-Aux cercles égaux, les circonferences égales, soustendent lignes droictes égales.
-
-[Figure: deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—C, G—A, G—C ; le second D—E—F, H au dedans, K en bas, lignes D—F, H—D, H—F]
-
-Hypoth.
-
-gabc & hdef snt ⊙ 2|2 ⁊e, α
-∩abc 2|2 ∩def. α
-
-Req. π. demonstr.
-
-ac 2|2 df.
-
-Præpar.
-
-1.p.1 | ga,gc,hd,hf snt —
+<abc est ∟,
+<cab 2|3 ∟,
+<cfb 3|2 ∟,
+<.. ⌓ cba 3|2 ∟,
+<.. ⌓ cbf 2|3 ∟.
 
 Demonstr.
 
-α.27.3 | <g 2|2 <h,
-concl. 4.1 | ac 2|2 df.
+5.1 | <dba 2|2 <dab,
+5.1 | <dbc 2|2 <dcb,
+2.a.1 | <abc 2|2 <dab + <dcb
+32.1 | <cbe 2|2 <dab + <dcb
+1.a.1 | <abc 2|2 <cbe,
+1.concl. 10.d.1 | <abc est ∟,
+2.concl 1.c.17.1 | <cab 2|3 ∟,
+3 concl. 2.c.22.3 | <bfc 3|2 ∟,
+4.cōcl. 9.a.1 | <.. ⌓ cba 3|2 ∟,
+5.concl. 9.a.1 | <.. ⌓ cbf 2|3 ∟,
 
-Hæc propositio & tres proximè præcedentes intelligendæ etiam sunt in eodem circulo : eadem enim erit demonstratio.
+Schol.
 
-En ceste proposition, & aux trois precedentes, ce qui est dit des cercles égaux, doit aussi estre entendu d'vn mesme cercle : car ce sera la mesme demonstration.
+hypoth. | af 3|2 ab,
+9.a.1 | <acf 3|2 <acb.
 
-## PROBL. IV. PROPOS. XXX.
+## THEOR. XXVIII. PROPOS. XXXII.
 
-Datam peripheriam bifariam secare.
+Si circulum tetigerit aliqua recta linea, à contactu autem producatur quædā recta linea circulum secans: anguli, quos ad contingentem facit, æquales sunt iis, qui in alternis circuli segmentis consistunt, angulis.
 
-Coupper en deux également vne circonference donnée.
-
-Hypoth.
-
-abc est ∩ D.
-
-Req. π. fa.
-
-∩ab 2|2 ∩bc.
+Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene quelque ligne droicte au cercle, le couppant ; les angles qu'elle fait auec l'attouchante seront égaux aux angles qui sont aux segments alternes.

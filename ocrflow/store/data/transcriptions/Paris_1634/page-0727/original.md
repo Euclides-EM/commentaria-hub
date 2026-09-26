@@ -1,21 +1,25 @@
-# EVCLIDIS ELEMENTORVM LIBER VNDECIMVS, ET PRIMVS SOLIDORVM.
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-# L'VNZIESME LIVRE DES ELEMENTS D'EVCLIDE, ET LE PREMIER DES SOLIDES.
+lineæ extremum, quod in eodem est plano,altera recta linea fuerit
 
-## DEFINIT. I.
+*perpendiculaire menee du sommet de l'inclinante sur iceluy plan.*
 
-SOLIDVM est,quod longitudinem, latitudinem, & crassitudinem habet.
+adiuncta; est,inquam, angulus acutus insistente linea, & adiuncta comprehensus.
 
-*SOLIDE est ce qui a longueur, largeur, & profondeur.*
+## DEFINIT. VI.
 
-## DEFINIT. II.
+Plani ad planum inclinatio,est angulus acutus rectis lineis contentus, quæ in vtroque planorum ad idem communis sectionis punctum ductæ, rectos cum sectione angulos efficiunt.
 
-Solidi autem extremum, est superficies.
+*L'inclination d'vn plan à vn autre plan, est l'angle aigu contenu sous les lignes droictes,menees sur l'vn & l'autre plan à angles droicts à la ligne de commune section, & à vn poinct d'icelle.*
 
-*Mais les termes du solide sont superficies.*
+## DEFINIT. VII.
 
-## DEFINIT. III.
+Planum ad planum similiter inclinatum esse dicitur, atque alterum ad alterum, cùm dicti inclinationum anguli inter se fuerint æquales.
 
-Linea recta est ad planum recta, cùm ad re-
+*Vn plan est dit estre semblablement incliné à vn plan, & vn autre plan à vn autre, quand les angles susdits des inclinations sont egaux entr'eux.*
 
-*Vne ligne droicte est esleuee à angles droicts sur*
+## DEFINIT. VIII.
+
+Parallela plana sunt, quæ inter se non conueniunt.
+
+*Plans paralleles sont ceux lesquels ne se rencontrent point estans prolongez.*

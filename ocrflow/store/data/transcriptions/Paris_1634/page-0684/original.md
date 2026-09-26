@@ -1,26 +1,45 @@
-<!-- Running title: ELEM.. EVCLD. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-A B C D (line)
+II.
 
-7.2 | □.ac + □.bc ∼ 2▭.acb 2|2 □.ab,
-7.2 | □.ad + □.bd ∼ 2▭.adb 2|2 □.ab,
-l.79.10 | □.ac + □.bc .∼: □.ad + □.bd 2|2, 2▭.acb .∼: / 2▭.adb,
-α | □.ac + □ bc .∼: □.ad + □.bd, est ration.
-β | contr. s. 27.10.
+Si verò congruens expositæ rationali longitudine commensurabilis, vocetur apotome secunda.
 
-## THEOR. LXVII. PROPOS. LXXXV.
+*II.*
 
-Ei, quæ cum medio medium totum facit, vna tantùm congruit recta linea potentia incommensurabilis existens toti, & cum tota faciens & compositum ex ipsarum quadratis medium, & quod sub ipsis continetur medium, incommensurabiléque composito ex ipsarum quadratis.
+*Mais si la conuenable est commensurable en longitude à la rationelle exposee, soit appellee apotome second.*
 
-*A vne ligne faisant auec vn espace medial, vn tout medial, conuient vne seule ligne droicte incommensurable en puissance à la toute, & faisant auec la toute le composé de leurs quarrez medial & le rectangle contenu sous icelles, medial, & incommensurable au composé de leurs quarrez.*
+III.
 
-Hypoth.
+Quod si neque tota, neque congruens expositæ rationali sit longitudine commensurabilis, vocetur apotome tertia.
 
-ab, est fa. 2; medi;
-bc, est congruen.
+*III.*
 
-Req. π. demonstr.
+*Et si ny la toute, ny la conuenable, n'est commensurable en longitude à la rationelle exposee, soit appellee apotome troisiesme.*
 
-bd, n̄, est congruen.
+Rursus si tota plus possit, quàm congruens, quadrato rectæ lineæ sibi longitudine incommensurabilis.
 
-Præpar.
+*Derechef si la toute peut plus que la conuenable du quarré d'vne ligne droicte incommensurable en longitude à icelle.*
+
+IV.
+
+Si quidem tota expositæ rationali sit longitudine commensurabilis, vocetur apotome quarta.
+
+*IV.*
+
+*Si la toute est commensurable en longitude à la rationelle exposee, soit appellee apotome quatriesme.*
+
+V.
+
+Si verò congruens expositæ rationali sit longitudine commensurabilis, vocetur apotome quinta.
+
+*V.*
+
+*Mais si la conuenable est commensurable en longitude à la rationelle proposee, soit appellee apotome cinquiesme.*
+
+VI.
+
+Quod si neque tota neque congruens expositæ rationali sit longitudine commensurabilis, vocetur apotome sexta.
+
+*VI.*
+
+*Et si ny la toute ny la conuenable, n'est commensurable en longitude à la rationelle exposee, soit appellee apotome sixiesme.*

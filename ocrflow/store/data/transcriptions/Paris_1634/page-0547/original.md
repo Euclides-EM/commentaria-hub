@@ -1,24 +1,14 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-2.concl. β.27.7 | b + c est pr. π.a,
-δ.26.7 | b, est pr. π. d + e,
-27.7 | b, est pr. π.□.d + e,
-4.2 | □.d + e 2|2 a + c + 2b,
-27.7 | a + c + b + b, est pr. π.b,
-30.7 | a + c + b, est pr.π.b
-3.concl. 30.7 | a + c, est pr. π. b.
+1.a.1 | ▭.a,c 2|2 □.b,
+1.concl. 20.7 | a,b,c snt proport;
 
-## THEOR. XVI. PROPOS. XVI.
+A,6. B,4. C--
+D,16.
 
-Si duo numeri primi inter se fuerint : Non erit vt primus ad secundum, ita secundus ad alium quempiam.
+Hypoth. 2.
 
-*Si deux nombres sont premiers entr'eux : comme le premier au second, ainsi le second ne sera pas à quelque autre.*
-
-A,3. B,5. C---
-
-Hypoth.
-
-a & b snt pr; ꝫe.
+a, n̄ msur: d.
 
 Req. π. demonstr.
 
@@ -26,14 +16,49 @@ a,b,c n̄ snt proport;
 
 Demonstr.
 
-suppos. | a π b 2|2 b π c,
-23.7 | a & b snt term. raō.
-21.7 | a, msur: b,
-6.a.7 | a, msur: a,
-12.d.7 | a & b n̄ snt pr; ꝫe.
+suppos. | a,b,c snt proport;
+20.7 | ▭.a,c 2|2 □.b, u d,
+7.a.7 | a, msur: ▭.a,c ꝑ c,
+7.a.7 | a, msur: d ꝑ c,
 contr. hypoth.
-21.a.1 | b,n̄,est π c 2|2 a π b.
+2.concl. 21.a.1 | a,b,c n̄ snt proport;
 
-## THEOR. XVII. PROPOS. XVII.
+## PROBL. II. PROPOS. XIX.
 
-Si fuerint quotcunque numeri deinceps proportionales, extremi autem ipsorum primi inter se sint : non erit vt primus ad secundum, ita vltimus ad alium quempiam.
+Tribus numeris datis, considerare an possit ipsis quartus proportionalis inueniri.
+
+*Trois nombres estans donnez, considerer s'il est possible d'en trouuer vn quatriesme proportionel à iceux.*
+
+A,8. B,12. C,18. D,27.
+E,216.
+
+Hypoth. 1.
+
+a, b, c snt nr; D;
+e, est ▭.b,c, α
+a, msur: e ꝑ d. β
+
+Req. π. demonstr.
+
+a,b,c,d snt proport;
+
+Demonstr.
+
+β.9.a.7 | e 2|2 ▭.a,d.
+α.1.a.1 | ▭.a,d 2|2 ▭.b,c,
+1.concl. 19.7 | a π b 2|2 c π d.
+
+A,4. B,6. C,9. D---
+E,54.
+
+Hypoth. 2.
+
+a, n̄, msur: e.
+
+Req. π. demonstr.
+
+a,b,c,d n̄ snt proport;
+
+Demonstr.
+
+suppos. | a π b 2|2 c π d,

@@ -1,6 +1,6 @@
-<!-- Running title: ELEM.. EVCLID.. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*S'il y a deux lignes droictes inegales, & à la plus grāde on applique vn parallelogramme egal à la quatriesme partie du quarré de la plus petite, defaillant d'vne figure quarree, & qu'il diuise icelle plus grande en parties commensurables en longitude ; la plus grande pourra plus que la moindre du quarré d'vne ligne qui luy sera commensurable en longitude : Et si la plus grande peut plus que la plus petite du quarré d'vne ligne qui luy soit commensurable en longitude, & qu'on applique vn parallelogramme sur la plus grande egal au quart du quarré de la plus petite, defaillant d'vne figure quarree, il diuisera icelle en parties commensurables en longitude.*
+*longitude, la plus grande pourra plus que la plus petite du quarré d'vne ligne qui sera incommensurable en longitude à icelle. Et si la plus grande peut plus que la plus petite du quarré d'vne ligne incommensurable en longitude à icelle, & qu'on applique à la plus grande vn parallelogramme egal à la quarte partie du quarré de la moindre, defaillant d'vne figure quarré, il diuisera icelle en parties incommensurables en longitude.*
 
 A F C D B (demi-cercle E)
 G----H----K
@@ -8,24 +8,40 @@ G----H----K
 hyp. | ab 3|2 gk,
 10.1 | ac 2|2 cb,
 10.1 | gh 2|2 hk,
-γ.18.6 | ▭.adb 2|2 □.gh,
+c.28.6 | ▭.adb 2|2 □.gh,
 u ¼□.gk,
 ʒ. 1 | af 2|2 db, α
-8.2, & 1.s.4.2 | □.ab 2|2 □.fd
-+ 4▭.adb, u □.gk
+8.2 | □.ab 2|2 □.fd,
++ 4▭.adb, u □.gk.
 
 Hypoth. 1.
 
-ad, comm. db, u af. β
+ad, incomm. db, u af.
 
 Req. π. demonstr.
 
-ab, est comm. fd.
+ab, est incomm. fd.
 
 Demonstr.
 
-hyp. | ad, comm. db,
-16.10 | ab, comm. db,
-16.10 | db + af, comm. db,
-12.10 | ab, comm. db + af,
-1.concl. c.16.10 | ab, comm. fd.
+hyp. | ad, incomm. db,
+17.10 | ab, incomm. db,
+16.10 | db, comm. db + af,
+13.10 | ab, incomm. db + af,
+1.concl. c.17.10 | ab, incomm. fd.
+
+Hypoth. 2.
+
+ab, incomm. fd.
+
+Req. π. demonstr.
+
+ad, incomm. db,
+
+Demonstr.
+
+hyp. | ab, incomm. fd,
+c.17.10 | ab, incomm. db + af,
+12.10 | db, comm. db + af,
+13.10 | ab, incomm. db,
+2 concl. 17.10 | ad, incomm. db.

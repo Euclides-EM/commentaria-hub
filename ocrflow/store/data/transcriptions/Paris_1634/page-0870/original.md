@@ -1,32 +1,20 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
-Præpar.
+2. 14 | □.bg π □.bf 2|2 □.ab π □.ac,
+11. 5 | □.bg π □.bf 2|2 □.bk π □.e,
+16. 5 | □.bg π □.bk 2|2 □.bf π □.e,
+concl. 22. 6 | bg π bк 2|2 bf π e.
 
-ſuppoſ. | eabcd, eſt ⊙ cirſcri. 5<.. docaedr. & △.. icoſaedr. α
-c. 15. 4 | ∩abcd 2|2, ⅓.. ⊙,
-11. 4 | ∩bcd 2|2, ⅓.. ⊙,
-1. p. 1 | ad & bd ſnt ——,
-α | ad, eſt γ. icoſaedr.
-12. 1 | ef ⊥ ad,
-12. 1 | egc ⊥ bd,
-1. p. 1 | cd, eſt ——,
-c.10.13 | ∩bc 2|2 ∩cd,
-ſuppoſ | h, eſt γ.. extraedr. inſcri. ꝗn ſphær.
+## THEOR. VII. PROPOS. VII.
 
-[Figure: labels arranged E / A F G D / B C — H]
+Dodecaedrum ad icosaedrum, est vt cubi latus ad latus icosaedri; in vna eadémque sphæra inscripti.
 
-Req. π. demonſtr.
-h π ad 2|2 ſuperfic.. dodecaedr. π ſuperfic.. icoſaedr.
+*Le dodecaedre à l'icosaedre est comme le costé du cube au costé de l'icosaedre inscrit en la mesme sphere.*
 
-Demonſtr.
+Demonſtratio. | Demonſtration.
 
-9. 13 | ec + cd π ec 2|2 ec π cd,
-c.12.13 | ef 2|2, ½ ec, eg 2|2, ½ ec + cd,
-1. 14 / 15. 5 | eg π ef 2|2 ef π eg~ef,
-c. 17.13 | h π bd 2|2 bd π h~bd,
-2. 14 | h π bd 2|2 eg π ef,
-16. 6 | □.h, ef 2|2 □.bd, eg,
-1. 6 | h π ad 2|2 □.h, ef π □.ad, ef,
-7. 5 | h π ad 2|2 □.bd, eg π □.ad, ef,
-c.4.14 | □.bd, eg π □.ad, ef, / ſuperfic.. dodecaedr. π ſuperfic.. icoſaedr.
-concl. 11. 5 | h π ad 2|2 ſuperfic..dodecaedr. π ſuperfic.icoſaedr.
+Idem circulus comprehendit & dodecaedri pentagonum, & icosaedri triangulum. α | α. 3.14 | *Vn mesme cercle comprēd le pentagone du dodecaedre, & le triangle de l'icosaedre. α*
+
+Perpendiculares à centro sphæræ ad plana pentagoni & trianguli ductæ sunt inter se æquales. β | β. 47.1 | *La perpendiculaire menee du centre de la sphere aux plans desdits pentagones & triangles sont egales entr'elles. β*
+
+Itaque si dodecaedrum & icosaedrum intelligantur esse diuisa in pyramides, ductis rectis à centro sphæræ ad omnes angulos, altitudines omnium pyramidum erunt inter se æquales. γ | γ. 2.d.6 | *Partant si le dodecaedre & l'isocaedre sont diuisez en pyramides, menant des lignes droictes du centre de la sphere à tous les angles, les hauteurs de toutes les pyramides seront egales entr'elles. γ*

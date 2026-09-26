@@ -1,54 +1,47 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-A,3. B,4. C,12.
+## THEOR. XXVIII. PROPOS. XXX.
+
+Si impar numerus parem numerum metiatur, & illius dimidium metietur.
+
+*Si vn nombre impair mesure vn nombre impair, il mesurera aussi sa moitié.*
+
+A,3. B,24. C.8.
+D,12. E,4.
 
 Hypoth.
 
 a, est nr. impa.
 b, est nr.pa.
-c, est ▭.b,a.
+a, msur: b.
 
 Req. π. demonstr.
 
-c, est nr.pa.
+a, msur: ½b.
 
 Demonstr.
 
-hyp. | b, est nr.pa.
-15.d.7 | c 2|2, 3b,
-concl. 21.9 | c, est nr.pa.
+hyp. | b, est pa.
+6.d.7 | d, est ½..b,
+hyp. | a, msur: b ꝑ c,
+1.s.29.9 | c, est nr.pa.
+6.d.7 | e, est ½c,
+9.a.9 | ▭.a,c 2|2 b, u 2d,
+1.2 | ▭.ac 2|2, 2▭.a,e,
+1.a.1 | 2d 2|2, 2▭.a,e,
+7.a.1 | d 2|2 ▭.a,e,
+concl. 7.a.7 | a, msur: ▭.ae, u d.
 
-## SCHOL.
+## THEOR. XXIX. PROPOS. XXXI.
 
-Eadem demonstratione ostendetur, si A, est numerus par, C, esse numerum parem.
+Si impar numerus ad aliquem numerum primus sit : & ad illius duplum primus erit.
 
-*Par la mesme demonstration sera demonstré, que si A, est nombre pair, C, est nombre pair.*
+*Si vn nombre impair est premier à quelque nombre ; il sera aussi premier au double d'iceluy.*
 
-## THEOR. XXVII. PROPOS. XXIX.
-
-Si impar numerus imparem numerum multiplicans fecerit aliquem ; factus impar erit.
-
-*Si vn nombre impair multipliant vn nombre impair en faict quelqu'vn, le produict sera impair.*
-
-A,3. B,5. C,15.
+A,5. B,8. C,16. D---
 
 Hypoth.
 
-a & b snt nr; impa;
-c, est ▭.a,b.
-
-Req. π. demonstr.
-
-c, est nr. impa.
-
-Demonstr.
-
-hyp. | b, est nr. impa.
-15.d.7 | c 2|2, 3b,
-concl. 23.9 | c, est nr. impa.
-
-## SCHOL. I.
-
-Numerus impar numerum parem metiens, per numerum parem eum metitur.
-
-*Vn nombre impair qui mesure vn nombre pair, il le mesure par vn nombre pair.*
+a, est nr. impa.
+a, est pr. π. b,
+c 2|2, 2b.

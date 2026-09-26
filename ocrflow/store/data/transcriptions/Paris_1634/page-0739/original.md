@@ -1,42 +1,48 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-tibus in communi sectione ad rectos angulos insistat: illa ducto etiam per ipsas plano ad angulos rectos erit.
+hyp. | ab ⊥ ac & ad,
+4. 11 | ab ⊥ plan. fc,
+3. d. 11 | <bag, est ⊥,
+hyp. | <bae, est ⊥,
+12.a.1 | <bae 2|2 <bag,
+contr. 9. a. 1.
 
-*Si deux lignes droictes se couppent l'vne l'autre, & au poinct de leur commune section est menee vne autre ligne droicte à angles droicts: elle sera aussi à angles droicts sur le plan d'icelles.*
+## THEOR. VI. PROPOS. VI.
 
-[Figure: labels arranged F / A C / G E H / D B]
+Si duæ rectæ lineæ eidem plano ad rectos sint angulos; parallelæ erunt illæ rectæ lineæ.
+
+*Si deux lignes droictes sont à angles droicts sur vn mesme plan; icelles lignes droictes seront paralleles.*
+
+[Figure: labels arranged B C / E / A D / G / F]
 
 Hypoth.
 
-ab, cd snt —— ꝗplan. acbd,
-e, est intersect.
-ef ⊥ ab & dc.
+ef, est plan.
+ab & dc ⊥ plan. ef.
 
 Req. π. demonstr.
 
-ef ⊥ plan. acbd.
+ab == dc.
 
 Præpar.
 
-3. p. 1 | ea, ec, eb, ed snt 2|2 ꝗe,
-1. p. 1 | ac, cb, bd, ad snt ——
-arbitr. | geh, est ——,
-1. p. 1 | fa, fc, fg, fh, fd, fb snt ——,
+11. 1 | <adg, est ⊥, α
+3. 1 | dg 2|2 ab, β
+1. p. 1 | bd, bg, ag snt ——.
 
 Demonstr.
 
-15. 1 | <aed 2|2 <bec,
-4. 1 | ad 2|2 cb,
-15. 1 | <aec 2|2 <deb,
-4. 1 | ac 2|2 db,
-s.34. 1 | acbd, est ◇,
-constr. | ea 2|2 eb,
-29. 1 | <cag 2|2 ebh,
-29. 1. | <ega 2|2 <ehb,
-26. 1 | eg 2|2 eh, α
-26. 1 | ag 2|2 bh, β
-hyp. & 12.a.1 | <fea 2|2 feb,
-4. 1 | fa 2|2 fb, γ
-hyp. & 12.a.1 | <fea 2|2 <fec,
-constr. | ea 2|2 ec,
-4. 1 | fa 2|2 fc, δ
+hyp. | <dab, est ⊥,
+constr. | <adg, est ⊥,
+β. 4. 1 | ag 2|2 bd,
+β. 8. 1 | <bdg 2|2 <bag,
+3. d. 1 | <bag, est ⊥,
+12. a. b | <bdg, est ⊥,
+3. d. 11 | <gdc, est ⊥,
+5. 11. & 2. 11 | da, db, dc, ba snt ꝗn vn. plan.
+hyp. | <bad, <cda snt ⊥;
+concl. 28. 1 | ab == dc.
+
+## THEOR. VII. PROPOS. VII.
+
+Si duæ sint parallelæ rectæ lineæ, in quarum

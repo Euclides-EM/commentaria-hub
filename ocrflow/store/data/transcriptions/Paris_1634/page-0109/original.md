@@ -1,38 +1,42 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-22.1. | △agh & △dcf snt æquil.
-symp. | <a 2|2 <d.
+α | bc 2|2 eg,
+2.concl. 1.a.d. | bc 3|2 ef,
 
-Demonstr.
+Demonstr. 3. cas.
 
-constr. | ag 2|2 dc,
-constr. | ah 2|2 df,
-constr. | gh 2|2 cf,
-concl. 8.1. | <gah 2|2 <cdf.
+21.1. | eg + dg 3|2 ef + df,
+β | dg 2|2 df,
+3.concl. 5.a.1. | eg u bc 3|2 ef.
 
-## CONSTR.. PRA.
+## THEOR. XVI. PROPOS. XXV.
 
-[Figure: triangle BAC, A en haut, poincts F & G sur les costez ; ligne verticale N—D—H—E, poinct L à droicte, arcs se coupans en L]
+Si duo triangula duo latera duobus lateribus æqualia habuerint, vtrumque vtrique, basim verò basi maiorem : & angulum sub æqualibus rectis lineis contentum angulo maiorem habebunt.
+
+Si deux triangles ont deux costez égaux à deux costez chacun au sien, & la base plus grande que la base ; ils auront außi l'angle contenu d'iceux plus grand que l'angle.
+
+[Figure: deux triangles ABC & DEF, A & D en haut]
 
 Hypoth.
 
-ne est — D.
-d est • D.
-a est < D.
+ab 2|2 de, α
+ac 2|2 df, α
+bc 3|2 ef,
 
-Constr.
+Req. π. demonstr.
 
-3.p.1. | afg & dhl snt ⊙ 2|2 ꝗe, arbitr.
-3.p.1. | ⊙hl 2|2 ⊙fg,
-1.p.1. | dl est —,
-symp. | <hdl 2|2 <a,
+<bac 3|2 <edf.
 
 Demonstr.
 
-8.1. | <hdl 2|2 <a.
+suppos. | <bac 2|2 <edf,
+α 4.1. | bc 2|2 ef,
+| contr. hypoth.
+suppos. | <bac 2|3 <edf,
+α 24.1. | bc 2|3 ef.
+| contr. hypoth.
+concl. 21.a.1. | <bac 3|2 <edf.
 
-## THEOR. XV. PROPOS. XXIV.
+## THEOR. XVII. PROPOS. XXVI.
 
-Si duo triangula duo latera duobus lateribus æqualia habuerint, vtrumque vtrique, angulum vero angulo maiorem sub æqualibus rectis lineis contentum: & basim basi maiorem habebunt.
-
-Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & l'angle contenu d'iceux costez plus
+Si duo triangula duos angulos duobus angulis æquales habuerint, vtrumque vtrique, vnumque latus vni lateri æquale, siue quod æqualibus adja-

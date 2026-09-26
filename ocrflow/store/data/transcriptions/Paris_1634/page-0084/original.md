@@ -1,43 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-Sed rectæ AC & AB ducuntur à centro ad circunferentiam. | Mais les lignes droictes AC & AB sont menées du centre à la circonference.
+& angulum angulo æqualem sub æqualibus rectis lineis contentum : Et basim basi æqualem habebunt : eritque triangulum triangulo æquale ; ac reliqui anguli reliquis angulis æquales erunt, vterque vtrique, sub quibus æqualia latera subtëdütur.
 
-Igitur rectæ AC & AB sunt inter se æquales. | Donc les lignes droictes AC & AB sont égales entr'elles.
+Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & l'angle contenu d'iceux costez égaux, égal à l'angle. Ils auront la base égale à la base, & le triangle sera égal au triangle, & les autres angles soustendans iceux costez égaux, seront égaux aux autres angles chacun au sien.
 
-Secundus syllogismus non differt à primo, quòd eandem habeat citationem quam primus. | Le second syllogisme ne differe point du premier, à cause qu'il a la mesme citation que le premier.
-
-III. SYLLOGISMVS. | III. SYLLOGISME.
-
-Quæ eidem æqualia sunt, inter se sunt æqualia. | Les choses égales à vne mesme, sont égales entr'elles.
-
-Sed rectæ AC & BC sunt eidem rectæ æquales. | Mais les lignes droictes AC & CB sont égales à vne mesme ligne droicte.
-
-Igitur rectæ AC & BC sunt inter se æquales. | Donc les lignes droictes AC & BC sont égales entr'elles.
-
-IV. SYLLOGISMVS. | IV. SYLLOGISME.
-
-Omne triangulum habens tria latera æqualia, est æquilaterum. | Tout triangle qui a trois costez égaux, est equilateral.
-
-Sed triangulum ABC tria habet æqualia latera. | Mais le triangle ABC a trois costez égaux.
-
-Igitur triangulum ABC est æquilaterum. | Donc le triangle ABC est equilateral.
-
-## PROBL. II. PROPOS. II.
-
-Ad datum punctum, datæ rectæ lineæ æqualem rectam lineam ponere.
-
-A vn poinct donné, poser vne ligne droicte, égale à vne ligne droicte donnée.
+[Figure: deux triangles, ABC à gauche et DEF à droite]
 
 Hypoth.
 
-a est • D.
-bc est — D.
+ab 2|2 de,
+ac 2|2 df,
+<bac 2|2 <edf.
 
-Req. π. fa.
+Requ. π. demonstr.
 
-ag 2|2 bc,
+bc 2|2 ef,
+△abc 2|2 △def,
+<b 2|2 <e,
+<c 2|2 <f.
 
-Constr.
+Demonstr.
 
-3.p.1. | cbe est ⊙,
-1.p.1. | ca est —,
+suppos. | a est ⟨n d,
+suppos. | ab est ⟨n de,
+hyp. | ab 2|2 de,
+9.a.1. | b est ⟨n e,
+hyp. | <bac 2|2 <edf,
+9.a.1. | ac est ⟨n df,
+hyp. | ac 2|2 df,
+9.a.1. | c est ⟨n f,
+14.a.1. | △abc △def conunt.

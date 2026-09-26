@@ -1,38 +1,40 @@
-<!-- Running title: ELEM.. EVCLD. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-finitiones, postula, communesque animi notiones.
+A,18. B,18.
+A,28. B,28.
+A,5. B,5. C,10. D,15.
+A,12. B,12. C,3. D,4.
 
-*tions, demandes, & axiomes qui suiuent.*
+hyp. | a 2|2 b,
+hyp. | a, est nr. pa.
+1.a.7 | b, est nr. pa.
+hyp. | a, est nr. ꝑfct,
+1.a.7 | b, est nr. ꝑfct,
+hyp. | a, est c.me.. c & d,
+1.a.7 | b, est c.me.. c & d,
+hyp. | a, est ma.c.me.. c & d,
+1.a.7 | b, est ma.c.me.. c & d
+hyp. | a, est mi. c. diuid.. c & d,
+1.a.7 | b, est mi. c. diuid.. c & d.
 
-## DEFINIT. XXIII.
+Explicatio notarum. Explication des notes.
 
-Numerus numerū metiri dicitur, per illum numerum, quem multiplicans, vel à quo multiplicatus, illum producit.
+Numerus A, est æqualis numero B, numerus A est par; igitur numerus B, est par.
 
-*Vn nombre est dit mesurer vn nombre par celuy-là, lequel multipliant, ou par lequel estāt multiplié produit le mesme nombre.*
+A, est numerus perfectus; igitur B, est numerus perfectus.
 
-## COROLL.
+A, est communis mensura C & D; igitur B, est communis mensura C & D.
 
-In omni diuisione vnitas est ad quotientem vt diuidens ad diuisum.
+A, est maxima communis mensura C & D; igitur B, est maxima communis mensura C & D.
 
-*En toute diuision l'vnité est au quotient, comme le diuiseur au nombre diuisé.*
+Numerus A, est minimus communis diuiduus numerorum C & D; igitur nu-
 
-A,3. B,15. D,1. C,5.
+*Le nombre A, est egal au nombre B; le nombre A, est nombre pair ; partant le nombre B, est pair.*
 
-hyp. | a, msur: b ꝑ c,
-c.23.d.7 | d π c 2|2 a π b.
+*A, est nombre parfaict ; donc B, est nombre parfaict.*
 
-## DEFINIT. XXIV.
+*A, est commune mesure de C & D; donc B, est commune mesure de C & D.*
 
-Termini siue radices proportionis dicuntur duo numeri, quibus in eadem proportione minores sumi nequeunt.
+*A, est la plus grande commune mesure de C & D ; donc B, est la plus grande commune mesure de C & D.*
 
-*Deux nombres sont dits termes ou racines de la proportion, ausquels on n'en peut trouuer deux autres plus petits en la mesme raison ou proportion.*
-
-## POSTVLATA, SIVE PETITIONES.
-
-## PETITIONS, OV DEMANDES.
-
-### I.
-
-Postuletur, cuilibet
-
-*A tout nombre donné en*
+*Le nombre A, est le moindre commun partissable par les nombres C & D; par consequēt*

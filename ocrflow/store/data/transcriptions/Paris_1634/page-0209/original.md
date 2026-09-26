@@ -1,36 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-12.a.1 | <fcb 2|2 <ecb, contr. 9.a.1.
-concl. 21.a.1 | centr.. ⊙ est in ec.
-
-## THEOR. XVIII. PROPOS. XX.
-
-In circulo, angulus ad centrum duplex est anguli ad periferiam, cùm fuerit eadem peripheria basis angulorum.
-
-Au cercle, l'angle qui est au centre, est double de l'angle qui est à la circonference ; quand ils ont pour leur base vne mesme circonference.
-
-[Figure: trois cercles marquez 1, 2, 3 ; le premier A—B—C, D au dedans, E en bas, lignes A—B, A—C, D—B, D—C, A—E ; le second A—B—C, D au dedans, lignes A—B, A—C, D—B, D—C ; le troisiesme A—B—C, D au dedans, E à gauche, lignes E—A, E—C, D—A, D—B, B—A]
-
-Hypoth.
-
-dabc est ⊙.
-
-Req. π. demonstr.
-
-<bdc 2|2, 2<bac.
-
-Præpar.
-
-2.p.1 | ade est —.
+[Figure: cercle A—B—C—D, lignes A—B, B—C, A—C, A—D, D—C, B—D]
 
 Demonstr.
 
-32.1 | <bde 2|2 <dab + <dba
-5.1 | <dab 2|2 <dba,
-19.a.b | <bde 2|2, 2<dab, α
-d.α. | <edc 2|2, 2<dac,
-concl. α.20.a.1 | <bdc 2|2, 2<bac.
+21.3 | <bdc 2|2 <bac,
+21.3 | <bda 2|2 <bca,
+2.a.1 | <adc 2|2 <bac + <bca,
+| <abc commun. add.
+2.a.1 | <adc + <abc 2|2 <bac + <bca + <abc,
+32.1 | <abc + <bac + <bca 2|2, 2∟
+1.concl. 1.a.1 | <adc + <abc 2|2, 2∟,
+21.3 | <dac 2|2 <dbc,
+21.3 | <bac 2|2 <bdc,
+2.a.1 | <dab 2|2 <dbc + <bdc,
+| <dcb commun. add.
+2.a.1 | <dab + <dcb 2|2 <dbc + <bdc + <dcb,
+32.1 | <dbc + <bdc + <dcb 2|2, 2∟,
+2.concl. 1.a.1 | <dab + <dcb 2|2, 2∟,
 
-## THEOR. XIX. PROPOS. XXI.
+Coroll: 1.
 
-In circulo, qui in eodem segmento sunt anguli, sunt inter se æquales.
+hyp. | <dab est ∟,
+1.c.22.3 | <dcb est ∟.
+
+Coroll: 2.
+
+hyp. | <abc 2|3 ∟,
+2.c.22.3 | <adc 3|2 ∟.
+
+## SCHOL.
+
+Si vnum latus quadrilateri in circulo descripti producatur, erit angulus externus æqualis angulo interno qui opponitur ei qui est deinceps externo.
+
+Si vn costé d'vn quadrilatere inscrit dans le cercle, est prolongé, l'angle externe sera égal à l'interne, qui est opposé à celuy qui est de suitte à l'externe.

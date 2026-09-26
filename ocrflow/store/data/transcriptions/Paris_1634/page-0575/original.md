@@ -1,23 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-II.
+## THEOR. II. PROPOS. II.
 
-Magnitudo quancunque magnitudinem metiens, metitur quoque omnem magnitudinem, quam illa metitur.
+Si duabus magnitudinibus inæqualibus propositis, detrahatur semper minor de majore, alterna quadam detractione, & reliqua minimè præcedentem metiatur : incommensurabiles erunt ipsæ magnitudines.
 
-*Vne grandeur qui mesure quelconque grandeur, mesure aussi toute grandeur que celle-la mesure.*
+*Deux grandeurs inegales estans proposees, si on retranche tousiours alternatiuement la plus petite de la plus grande, & que la grandeur restante ne mesure iamais sa precedente : icelles grandeurs seront incommensurables.*
 
-III.
+Hypoth.
 
-Magnitudo metiens totam magnitudinem, & ablatam metitur & reliquam.
+ab 2|3 cd,
+nul. resid. msur: præceden.
 
-*Vne grandeur mesurant toute vne grandeur, & la retranchee d'icelle, mesure aussi le reste.*
+Req. π. demonstr.
 
-Hæc axiomata, vt ad numeros pertinent, iam explicata sunt in vltimis tribus pronuntiatis libri septimi.
+ab & cd snt incomm;
 
-*Ces communes sentences, en tant qu'elles appartiennent aux nombres, ont desia esté expliquees aux trois derniers axiomes du 7. liure.*
+Demonstr.
 
-## THEOR. I. PROPOS. I.
+suppos. | e, msur: ab & cd, α
+ʒ. 1 | ab, msur: cf, β
+ʒ. 1 | fd, msur: ag, γ
+1.10 | gb 2|3 e, ♪
+2.a.10 | e, msur: cf,
+α | e, msur: cd,
+3.a.10 | e, msur: fd,
+γ | fd, msur: ag,
+2.a.10 | e, msur: ag,
+α.3.a.10 | e, msur: gb,
+♪ | contr. 9.a.b.
+concl. 21.a.1 | ab, cd snt incomm;
 
-Duabus magnitudinibus inæqualibus propositis, si à maiore auferatur maius quàm dimidium ; & ab eo, quod reliquum est, rursus detrahatur maius quàm dimidium, & hoc semper fiat : relinquetur tandem quædam magnitudo, quæ minor erit proposita minore magnitudine.
+## PROBL. I. PROPOS. III.
 
-*Deux grandeurs inegales estans proposees, si de la plus grande on retranche plus de la moitié, & du reste encore plus de la moitié, & que cela se face tousiours ainsi en*
+Duabus magnitudinibus commensurabilibus datis, maximam earum communem mensuram inuenire.

@@ -1,27 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-numero quotlibet posse sumi æquales vel multiplices.
+merus B, est minimus communis diuiduus numerorum C & D.
 
-*pouuoir prendre tant qu'on voudra d'egaux ou multiples.*
+*le nombre B, est le moindre commun partissable par les nombres C & D.*
 
 ### II.
 
-Quolibet numero sumi posse maiorem.
+Partes eidem parti, vel iisdem partibus eædem, sunt quoque inter se eædem.
 
-*A tout nombre donné en pouuoir prendre vn plus grand.*
+*Les parties qui sont de mesme à vne mesme partie, ou aux mesmes parties, sont aussi de mesme entr'elles.*
 
-### III.
+A,2. B,6.
+C,8. D,24. E,5. F,15.
 
-Additio, subtractio, multiplicatio, diuisio, extractionesq. radicum, seu laterū, numerorum quadratorum & cuborum, conceduntur etiam tanquam possibilia.
+hyp. | a, par.. b, e, par.. f,
+hyp. | c, par.. d, e, par.. f,
+2.a.7 | a, par.. b, c, par.. d.
 
-*L'addition, la soustractiō, la multiplication, la diuision, & les extractions des racines, ou costez des nombres quarrez & cubes sont aussi concedees comme choses possibles.*
+Vel sic. *Ou ainsi.*
 
-## AXIOMATA, SIVE PRONVNCIATA.
+hyp. | a, par.. b 2|2 e, par.. f,
+hyp. | c, par.. d 2|2 e, par.. f,
+2.a.7 | a, par.. b 2|2 c, par.. d.
 
-## AXIOMES, OV communes sentences.
+A,4. B,6.
+C,16. D,24. E,10. F,15.
 
-### I.
-
-Quidquid conuenit vni æqualium numerorum, cōuenit & reliquis æqualibus numeris.
-
-*Tout ce qui conuient à vn des nombres egaux conuient aussi à tous les autres nombres egaux.*
+hyp. | a, part.. b 2|2 e, part.. f,
+hyp. | c, part.. d 2|2 e, part.. f,
+2.a.7 | a, part.. b 2|2 c, part.. d,

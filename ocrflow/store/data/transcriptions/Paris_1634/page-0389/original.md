@@ -1,51 +1,39 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-1.concl. constr. | bd est ▭.bc,cd,
-constr. | bc π a 2|2 a π cd,
-2.concl. 17.6 | ▭bd 2|2 □.a.
+47.1 | □.ab 2|2 □.ad + □.bd u □.cf,
+□.cf commun. subtr.
+concl. 2.a.1 | □.ab ~ □.cf 2|2 □.ad.
 
-Hypoth. 2.
+## PROBL. VII. PROPOS. VII.
 
-bc & ▭eg snt D.
+Inuenire rectam lineam, ad quam data recta, sit in ratione similium datorum rectilineorum.
 
-Req. π. fa.
+Trouuer vne ligne droicte, à laquelle vne ligne droicte donnee, soit en la raison de deux rectilignes semblables donnez.
 
-▭bd 2|2 ▭eg.
-
-Constr.
-
-12.6 | bc π ef 2|2 fg π cd,
-1.1.d.2 | bd est ▭.bc,cd,
-symp. | req. est ▭bd.
-
-Demonstr.
-
-1.concl. constr. | bd est ▭.bc,cd,
-constr. | bc π ef 2|2 fg π cd,
-2.concl. 14.6 | ▭bd 2|2 ▭eg.
-
-## PROBL. V. PROPOS. V.
-
-Propositis quotcunque quadratis, inuenire quadratum omnibus illis æquale.
-
-Descrire vn quarré egal à plusieurs quarrez donnez.
+[Figure: pentagone A, B, C, D, E ; pentagone F, G, H, I, K ; lignes L, M, N à part]
 
 Hypoth.
 
-□.a, □.b, □.c snt D.
+cdeab & hikfg snt rectili. sml. D.
+
+m est — D.
 
 Req. π. fa.
 
-□gh 2|2 □.a + □.b + □.c.
+cda π hil 2|2 m π n.
 
 Constr.
 
-2.1 | ed 2|2 a,
-11.1 | fd ⊥ ed,
-3.1 | fd 2|2 b,
-1.p.1 | ef est —
-11.1 | fg ⊥ ef,
-3.1 | fg 2|2 c,
-1.p.1 | eg est —,
+11.6 | cd π hi 2|2 hi π l, α
+11.6 | cd π l 2|2 m π n,
+symp. | req. est n.
 
-[Figure: lignes E D, D F, F G, G E & le quarré G, H sur E G ; lignes A, B, C à part]
+Demonstr.
+
+constr. | m π n 2|2 cd π l,
+α.c.20.6 | cda π hif 2|2 cd π l,
+concl. 11.5 | cda π hif 2|2 m π n.
+
+## PROBL. VIII. PROPOS. VIII.
+
+Dato rectilineo simile rectilineum describere, maius, vel minus, secundum proportionem datam.

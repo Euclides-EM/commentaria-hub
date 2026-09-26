@@ -1,38 +1,23 @@
-<!-- Running title: APPEND.. GEOM. PLAN. -->
+<!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-α.4.6 | raō..ce π ed 2|2 raō..ac π dg,
-11.5 | raō..□.ac π □.ad 2|2 raō..cb π bd + raō..ce π ed,
-23.6 | raō..▭.bce π ▭.bde 2|2 raō..bc π bd + raō..ce π ed,
-concl. 11.5 | ▭.bce π ▭.bde 2|2 □.ac π □.ad.
-
-## THEOR. XIX. PROPOS. XXX.
-
-Pappus lib. 6. propos. 12.
-
-[Figure: cercle auec les poincts A, F, G, B, D, E, C]
-
-Hypoth.
-
-abc & ade snt Δ,
-
-<bad 2|2 <cae,
+[Figure: deux cercles auec les poincts N, B, F, G, L, A, E, C, D, H]
 
 Req. π. demonstr.
 
-▭.dce π ▭.ebd 2|2 □.ac π □.ab,
+ad π dc 2|2 ae π ec,
+
+item fd π dl 2|2 fg π gl.
 
 Præpar.
 
-5.4 | ade est ⊙,
-1.p.1 | fg est —.
+3.p.1 | fnl est semic.
+11.1 | gn ⊥ fd,
+1.p.1 | ab, bc & dn snt —.
 
 Demonstr.
 
-hyp. | <dab 2|2 <eac,
-26.3 | ◠df 2|2 ◠eg,
-s.27.3 | fg == bc,
-2.6 | ag π gc 2|2 af π fb,
-18.5 | ac π gc 2|2 ab π fb,
-1.6 | □.ac π ▭.acg 2|2 □.ab π ▭.abf,
-16.5 | □.ac π □.ab 2|2 ▭.acg π ▭.abf,
-36.3 | ▭.dce 2|2 ▭.acg,
+36.3 | ▭.adc 2|2 □.bd,
+31.app. 4.6 1.c.20.6 | ad π dc, □.ab π □.bc, □.ae π □.eb, ae π ec snt raō. 2|2 ʒe,
+1.concl. 11.5 | ad π dc 2|2 ae π ec, α
+36.3 | ▭.fdl 2|2 □.bd,
+47.1 | □.de + □.eb 2|2 □.bd,

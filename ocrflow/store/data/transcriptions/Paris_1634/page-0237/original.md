@@ -1,41 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-hyp. | acuag + fc 2|2, 18,
-3.a.1 | be + bf 2|2, 10,
-1.concl. 7.a.1 | beubf 2|2, 5,
-2.concl. 3.a.1 | aeuag 2|2, 7,
-3.concl 3.a.1 | fcucg 2|2, 11.
-
-## SCHOL. II.
-
-Eadem methodo inuenientur tres numeri, quorum bini quique faciant tres numeros propositos ; segmenta enim laterum trianguli circumscripti erunt tres quæsiti numeri.
-
-Par la mesme methode on trouuera trois nombres, lesquels les prenant deux à deux feront trois nombres proposez ; car les segments des costez du triangle circonscrit seront les trois nombres requis.
-
-## PROBL. V. PROPOS. V.
-
-Circa datum triangulum, circulum describere.
-
-A l'entour d'vn triangle donné, descrire vn cercle.
-
-[Figure: trois cercles auec triangle A—B—C inscrit, D et E au dedans, F au dessous du triangle ; au premier F dedans le triangle, au second F hors du triangle, au troisiesme F sur le costé B—C]
-
 Hypoth.
 
-abc est △ D.
+eabcd est ⊙ D.
 
 Req. π. fa.
 
-circscri. π. △abc ⊙abc,
+inscri. in ⊙.abcd □..abcd.
 
 Constr.
 
-10.1 | bd 2|2 da,
-10.1 | ae 2|2 ec,
-11.1 | df ⊥ ab,
-11.1 | ef ⊥ ac,
-1.p.1 | fa est —,
-1.p.1 | fabc est ⊙,
-symp. | ⊙abc est req.
+1.p.1 | ac est diamet.
+11.1 | bed ⊥ ac,
+1.p.1 | ab, bc, ad dc snt —,
+symp. | □abcd est req.
 
-Præpar.
+[Figure: cercle auec quarré A—B—C—D inscrit, E au centre, diagonales A—C et B—D]
+
+Demonstr.
+
+constr. | abcd est 4<,
+constr. | <bea, <bec, <aed, <ced snt 2|2 ⁊e,
+26.3 | ∩ab, ∩bc, ∩ad, ∩dc snt 2|2 ⁊e,
+29.3 | ab, bc, ad, dc snt 2|2 ⁊e,
+31.3 | <bad, <abc, <adc, <bcd snt ∟,
+29.d.1 | abcd est □,
+concl. 3.d.4 | □.abc est inscri. in ⊙abcd.
+
+Explicat. p̄ nr.
+
+hyp. | aeueb est 2,
+1.s.1.d.2 | □.aeu□.eb est 4,
+47.1 | □.ab 2|2 □.ae + □.eb,
+1.a.1 | □.ab est 8,
+s.46.1 | ab est √.8.

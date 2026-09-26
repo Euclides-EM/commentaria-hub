@@ -1,30 +1,40 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-32.1 | <fea + <efa 2|2 ⌐,
-3.a.1 | <ceb 2|2 <efa,
-32.1 | Δafe æquiang. Δebc,
-4.6 | fe π fa 2|2 ec π eb,
-16.6 | ▭.fe,eb 2|2 ▭.fa,ec, α
-4.6 | fe π ea 2|2 ec π cb,
-16.6 | ▭.fe,cb 2|2 ▭.ea,ec, β
-1.2 | ▭.ec,fd 2|2 ▭.ec,bc ~ ▭.ec,af,
-α | ▭.fe,eb 2|2 ▭.ec,af,
-1.concl. 1.a.f | ▭.ec,fd 2|2 ▭.ec,bc ~ ▭.fe,eb,
-1.2 | ▭.ec,dc u ▭.ec,ab 2|2 ▭.ec,ae + ▭.ec,eb,
-β | ▭.fe,cb 2|2 ▭.ec,ae,
-2.concl. 1.a.1 | ▭.ec,dc 2|2 ▭.fe,cb + ▭.ec,eb,
-1.2 | ▭.fe,ae 2|2 ▭.fe,ab ~ ▭.fe,eb,
-α | ▭.fa,ec 2|2 ▭.fe,eb,
-1.a.f | ▭,fe,ae 2|2 2|2 ▭.fe,ab u ▭.fe,dc ~ ▭.fa,ec,
+## THEOR. X. PROPOS. XXI.
 
-▭.fa,ec commun. add.
+Pappus lib. 7. propos. 118.
 
-3.concl. 2.a.1 | ▭.fe,ae + ▭.fa,ec 2|2 ▭.fe,dc,
-1.2 | ▭.fe,fd 2|2 ▭.fe,bc ~ ▭.fe,af,
-β | ▭.ea,ec 2|2 ▭.fe,bc,
-4.cōcl. 1.a.f | ▭.fe,fd 2|2 ▭.ea,ec ~ ▭.fe,af,
-13.1 | <efc + <efa + <cfd 2|2, 2⌐,
-32.1 | <fea + <fcd + <efa + <cfd 2|2, 2⌐,
-5.concl. 3.a.1 | <efc 2|2 <fea + <fcd.
+Hypoth.
 
-Si demonstratio huius theorematis non supponeret, tres angulos
+kab & lhf snt ⊙,
+
+km π ml 2|2 ak π el, α
+
+arbitr. | mfb est —,
+
+[Figure: deux figures : trois cercles auec les poincts A, B, K, I, N, C, M, H, P, G, L, F, E ; & deux cercles auec les poincts A, B, K, N, I, C, F, L, P, G, H, M]
+
+Req. π demonstr.
+
+◠ cnb, ◠ gpf snt sml.
+
+▭.bmg 2|2 ▭.amh,
+
+Præpar.
+
+1.p.1 | kb, kc, lf, lg, ic, hg snt —,
+
+Demonstr.
+
+α. hyp. | km π ml 2|2 kb π fl,
+7.6 | Δbkm est æquiang. Δflm,
+7.6 | <bkm 2|2 <flm, β
+α. hyp. | km π ml 2|2 kc π lg,
+7.6 | Δckm est æquiang. Δglm,
+7.6 | <ckm 2|2 <gml, γ
+β. 3.a.1 | <bkc 2|2 <flg,
+1.concl. 10.d.3 | ◠◠ baic sml. ◠◠ fehg,
+2.concl. 10.d.3 | ◠ bno sml. ◠ gpf,
+γ | <ckm 2|2 <glm,
+32.1 | <kic 2|2 <lhg,
+13.1 | <mic 2|2 <mhg,

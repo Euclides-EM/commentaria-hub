@@ -1,28 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle A—C—D—E—B—H, F au centre, G sous F, lignes de G vers C, D, E, H, diametre A—B, lignes F—C, F—D, F—E]
+[Figure: cercle L—E—F—G—H—I, K au centre, A au dessus du cercle, B, C, D entre L et E, lignes de A vers L, B, C, D, E, K, F, G, lignes de K vers E, F, G, H]
 
-gh, ge, gd ñ snt 2|2 ⁊e
+ah 3|2 ag,
+ag 3|2 af,
+ab 2|3 ac,
+ac 2|3 ad,
+ad 2|3 ae,
+al, ac, ad, ñ snt 2|2 ⁊e,
 
 Demonstr.
 
-15.d.1 | fa 2|2 fc,
-| gf commun. add.
-2.a.1 | ga 2|2 gf + fc,
-20.1 | gf + fc 3|2 gc,
-1.concl. 1.a.c | ga 3|2 gc,
-9.a.1 2.concl. 24.1 | <gfc 3|2 <gfd, gc 3|2 gd,
-9.a.1 3 concl. 24.1 | <gfd 3|2 <gfe, gd 3|2 ge, α
-15.d.1 | fe 2|2 fb,
-20.1 | fg + ge 3|2 fe,
-1.a.c | fg + ge 3|2 fb,
-| fg commun. subtr.
-4.cōcl. 5.a.1 | ge 3|2 gb,
-constr. | <gfh 2|2 <gfe,
-4.1 | gh 2|2 ge,
-α | gd 3|2 ge, β
-5.concl. β | gh, ge, gd ñ snt 2|2 ⁊e
+15.d.1 | ki 2|2 kh,
+| ak commun. add.
+2.a.1 | ai 2|2 ak + kh,
+20.1 | ak + kh 3|2 ah,
+1.concl. 1.a.c | ai 3|2 ah,
+9.a.1 2.concl. 24.1 | <akh 3|2 <akg, ah 3|2 ag,
+9.a.1 3.concl 24.1 | <akg 3|2 <akf, ag 3|2 af,
+20.1 | ak 2|3 ac + ck,
+15.d.1 | kb 2|2 kc,
+4 cōcl. 5.a.1. | ab 2|3 ac,
+21.1 | ac + ck 2|3 ad + dk,
+15.d.1 | ck 2|2 dk,
+5.concl. 5.a.1 | ac 2|3 ad, α
+d.α. | ad 2|3 ae,
+constr. | <akl 2|2 <akc,
+4.1 | al 2|2 ac,
+α | ad 3|2 ac, β
+β | al, ac, ad, ñ snt 2|2 ⁊e.
 
-## THEOR. VII. PROPOS. VIII.
+## THEOR. VIII. PROPOS. IX.
 
-Si extra circulum sumatur punctum quodpiam, ab eoque puncto ad circulum deducantur rectæ quædam lineæ, quarum vna quidem per centrum protendatur, reliquæ verò vt libet: In cauam peripheriam cadentium rectarum linearum maxima quidem est illa, quæ per centrum ducitur; aliarum autem propinquior ei, quæ per centrum transit, remotiore semper maior est: In conuexam verò peripheriam cadentium rectarum linearum minima quidem est illa, quæ inter punctum, & diametrum
+Si in circulo acceptum fuerit punctum aliquod, & ab eo puncto ad circulum cadant plures quàm duæ rectæ lineæ æquales; acceptum punctum centrum est ipsius circuli.
+
+Si au dedans du cercle on prend quelque poinct, & d'iceluy poinct tombent plus de deux lignes droictes éga-

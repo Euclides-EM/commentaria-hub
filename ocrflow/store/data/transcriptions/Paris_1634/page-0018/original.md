@@ -1,23 +1,17 @@
 <!-- Running title: PROLEGOMENA. -->
 
-rum quidem priores tredecim, sine vlla controuersia Euclidi ascribuntur ab omnibus ; posteriores verò duo à nonnullis Hypsiclis Alexandrini esse creduntur) secari rectè poterit in quatuor partes, quarum prima pars contenta sex prioribus libris agit de planis.
+sum exposcant, ne vlla sit in demonstrando hæsitatio, aut difficultas.
 
-Secunda, tres sequentes complectens, passiones numerorum perscrutatur.
+Ad tertium genus referuntur axiomata, seu communes animi notiones, quæ non solùm in scientia proposita, sed etiam in omnibus aliis ita manifesta sunt & euidentia, vt ab eis nulla ratione dissentire queat is, qui ipsa vocabula rectè perceperit.
 
-Tertia, quam solus decimus constituit liber, de lineis commensurabilibus, incommensurabilibusque disputat.
+Porrò in huiusmodi principiis tradendis hic ordo ab Euclide seruatur, vt in ipso quidem introitu scientiæ proponat principia toti Geometriæ communia, in aliis autem deinde libris, vbi res postulat, ea exponat principia, quæ propriè, & peculiari quadam ratione, ad materiam illorum subiectam videntur spectare.
 
-Quarta denique, reliquis quinque libris absoluta sciëtiam solidorum siue corporum complectitur.
+Neque verò omnia principia Geometrica ab Euclide in his elementis sunt explicata, sed plurima sunt pronuntiata, quibus Eucli-
 
-Prima pars rursum triplex est, nam in prioribus quatuor libris agitur de planis absolutè, inuestigando eorum æqualitatem & inæqualitatem. In quinto verò libro de proportionibus magnitudinum in genere disputatur : in sexto denique
+afin qu'il n'y ait aucune hesitation ou difficulté en la demonstration.
 
-attribuez à Euclide sans aucune controuerse ; mais les deux derniers sont estimez par quelques-vns estre à Hypsile Alexandrin) pourra estre diuisé en quatre parties, dont la premiere contiendra les six premiers Liures qui traictent des plans.
+Au troisieme sont les axiomes ou maximes & communes notions de l'esprit, lesquelles non seulement en la science proposée, mais aussi en toutes les autres, sont tellement manifestes & euidentes, que celuy qui entendra bien les termes, ne pourra en aucune façon douter de leur verité.
 
-La seconde, les trois suiuants laquelle recherche les passions & proprietez des nombres.
+Or Euclide en la tradition de ces principes a obserué cét ordre, qu'il met en l'entrée de la science les principes communs à toute la Geometrie, puis aux commencements des autres liures, selon que la chose requiert, il explique les principes, lesquels proprement & pour certaine raison particuliere, semblent appartenir à la matiere dont il s'agist en iceux.
 
-La troisiesme, contenant le dixiesme liure seulement, dispute des lignes commensurables & incommensurables.
-
-La quatriesme finalement, composée des cinq derniers liures, contient la science des solides ou corps.
-
-La premiere partie est diuisée derechef en trois, car aux quatre premiers liures est traicté des plans absolument, recherchant leur egalité ou inegalité. Au cinquiesme est disputé des proportions des grandeurs en general : & au sixiéme finalement les proportions
-
-propor-
+Or Euclide n'a pas expliqué en ces Elements tous les principes Geometriques, ains il y a beaucoup d'autres axiomes, desquels Euclide & ses Inter-

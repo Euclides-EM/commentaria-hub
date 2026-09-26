@@ -1,19 +1,51 @@
-<!-- Running title: ELEM.. EVCLID. LI. IX. -->
+<!-- Running title: ELEM.. EVCLID.. LI. IX. -->
 
-## SCHOL.
+*ront quarrez : Et si celuy qui est apres l'vnité est cube, aussi tous les autres seront cubes.*
 
-A,3. B,9. C,27. D,81. E,243. F,729. &c. nr.. progress.
-l, q, c, qq, qc, cc, &c. charact;
-1 2 3 4 5 6. expo.
+G,1. A,4. B,16. C,64. D,256. E,1024. F,4096.
 
-Cùm nulla sit quantitas continua quæ gerat vicem vnitatis, hæc series numerorū continuè proportionalium in quantitate continua initium sumit à prima proportionali quæ sequitur vnitatem, nimirùm ab A, quæ est radix, seu latus sequentium proportionalium. Secunda proportionalis, ab hoc initio, nempe B, est quadratum lateris seu primæ proportionalis. Tertia proportionalis C, est cubus eiusdem primæ proportionalis A. Quarta, est quadrato-quadratum. Quinta, quadrato-cubus. Sexta, cubo-cubus. Et ea deinceps serie & methodo denominantur reliqua. Vnde sequitur omnes magnitudines huius progressionis esse heterogeneas.
+Hypoth. 1.
 
-*A cause qu'il n'y a aucune quantité continue qui corresponde à l'vnité, cette suitte de nombres continuellement proportionnaux, en la quantité continue prend son commencement du premier terme qui suit l'vnité, à sçauoir de A, qui est la racine ou costé des proportionelles suiuantes. La seconde proportionelle depuis ce commencement, à sçauoir B, est le quarré du costé ou premiere proportionelle. La troisiesme proportionelle C, est le cube de la mesme premiere proportionelle. La quatriesme est quarre-quarré. La cinquiesme, quarre-cube. La sixiesme, cube-cube. Et suiuant cet ordre sont denommées toutes les suiuantes. D'où s'ensuit, que toutes les grandeurs de cette progression sont heterogenes.*
+g,a,b,c,&c. snt contin. proport.
+a, est nr. □.
 
-In Algebra speciosa altior gradus seu vltima proportionalium vocatur potestas lateris A, reliquæ verò magnitudines vsque ad potestatem nuncupantur gradus parodici ad potestatem.
+Req. π. demonstr.
 
-*En l'Algebre specieuse le plus haut degré ou la derniere proportionelle s'apelle la puissance du costé A. Et les autres grandeurs iusques à la puissance se nomment degrez parodiques à la puissance.*
+b,c,d,&c snt nr; □;
 
-Signa, quibus designantur genera magnitudinum huius
+Demonstr.
 
-*Les signes par lesquels sont distinguez les genres des grandeurs*
+1.concl. 8.9 | b,d,f,&c. snt nr; □;
+hyp. | a, b, c snt contin. proport;
+hyp. | a, est nr. □,
+2.concl. 22.8 | c, &c. snt nr; □;
+
+G,1. A,8. B,64. C,512. D,4096. E,32768. F,262144.
+
+Hypoth. 2.
+
+g, a, b, c snt contin. proport;
+a, est nr. cub.
+
+Req. π. demonstr.
+
+b,c,d,&c. snt nr; cub;
+
+Demonstr.
+
+1.concl. 8.9 | c,f,&c. snt nr; cub; α
+hyp. | g π a 2|2, a π b,
+5.a.7 | g, msur: a ꝑ a,
+3c20.d7 | a, msur: b ꝑ a,
+9.a.7 | b 2|2 □.a,
+hyp. | a, est nr. cub.
+2.concl. 3.9 | b, est nr. cub. β
+hyp. | a, b, c, d snt contin. proport;
+hyp. | a, est nr. cub.
+3.concl. 3.9 | d, est nr. cub.
+hyp. | b, c, d, e snt contin. proport;
+β | b, est nr. cub.
+4.concl. 3.9 | e, est nr. cub.
+hyp. | c,d, e, f snt contin. proport;
+α | c, est nr. cub.
+5.concl. 3.9 | f, est nr. cub.

@@ -1,24 +1,17 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-[Figure: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]
+resoluitur ; vt si quatuor latera habeat, in duo resoluitur triangula ; si quinque in tria, si sex in quatuor, & similiter reliquæ. Quòd cùm omnis trianguli tres anguli sint æquales duobus rectis, numerus triangulorum, ex quibus vnaquæque figura constat, duplicatus dabit numerum rectorum quibus omnes anguli figuræ propositæ æquiualent. Quapropter omnis quadrilatera figura ex duobus triangulis constans angulos habet quatuor rectis æquales, & omne pentagonum habet angulos æquales sex rectis, & deinceps eodem modo.
 
-Demonstr.
+que les costez de la figure ; comme si elle a quatre costez, elle se diuisera en deux triangles ; si cinq en trois, si six en quatre, & de mesme les autres. Et à cause que de tout triangle les trois angles sont égaux à deux droicts, le nombre des triangles, dont chaque figure est composée, estant doublé, donnera le nombre des angles droicts, auquel tous les angles de la figure proposée sont égaux. Partant toute figure quadrilatere estant composée de deux triangles a ses angles égaux à quatre droicts, & tout pentagone a ses angles égaux à six droicts, & ainsi des autres.
 
-α.29.1. | <eca 2|2 <a,
-α.29.1. | <ecd 2|2 <b,
-1.concl. 2.a.1. | <acd 2|2 <a + <b, β
-β | <a + <b 2|2 <acd,
-| <acb commun. add.
-2.a.1. | <a + <b + <acb 2|2 <acd + <acb,
-13.1. | <acd + <acb 2|2 2∟,
-2.concl. 1.a.1. | <a + <b + <acb 2|2 2∟.
+## SCHOL. II.
 
-## COROLL. I.
+Omnes anguli figuræ rectilineæ cuiusuis æquales sunt bis tot rectis angulis, demptis quatuor, quod ipsa continet latera, seu angulos.
 
-Ex hac propositione colligitur, tres angulos cuiuslibet trianguli simul sumptos æquales esse tribus angulis cuiuslibet alterius trianguli simul sumptis : quoniam tam illi tres quàm hi sunt æquales duobus angulis rectis. Vnde si duo anguli vnius trianguli fuerint æquales duobus angulis alterius trianguli, erit & reliquus illius reliquo huius æqualis.
+Tous les angles de quelconque figure rectiligne, sont égaux à deux fois autant d'angles droicts, quatre estant ostez, qu'elle a de costez ou d'angles.
 
-De cette proposition se collige, que les trois angles de quelconque triangle prins ensemble, sont égaux aux trois angles prins ensemble de quelconque autre triangle : Dautant que les trois angles, tant de l'vn que de l'autre, sont égaux à deux droicts. Donc si deux angles d'vn triangle sont égaux à deux angles d'vn autre triangle, le troisiesme de l'vn sera außi égal au troisiesme de l'autre.
+[Figure: vn quadrilatere, vn pentagone & vn hexagone, chacun diuisé en triangles par des lignes menées d'vn poinct au dedans à tous les angles]
 
-## COROLL. II.
+Si enim, à quocunque puncto intra figuram assumpto, ad omnes angulos rectæ lineæ ducantur, efficientur tot triangula,
 
-Constat etiam in omni triangulo isoscele, cuius angulus lateribus æqualibus comprehensus rectus fuerit, quemlibet reliquorum esse semirectum : nam reliqui illi duo
+Car si de quelconque poinct pris en la figure on mene des lignes droictes à tous les angles, il s'en fera autant de triangles, que ladite

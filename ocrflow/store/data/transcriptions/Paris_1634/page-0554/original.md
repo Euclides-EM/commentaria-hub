@@ -1,56 +1,67 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-A....4C......6D.1B
+A,3. B,12. C,4.
 
 Hypoth.
 
-ab & cb snt nr; impa; α
+a, est nr. impa.
+a, msur: b ꝑ c.
 
 Req. π. demonstr.
 
-ac, est nr.pa.
-
-Præpar.
-
-db, est vnit.
+c, est nr.pa.
 
 Demonstr.
 
-7.d.7 | ad, est nr.pa.
-α.7.d.7 | cd, est nr.pa.
-24.7 | ac, est nr.pa.
+suppos. | c, est nr. impa.
+29.9 | ▭.a,c, u b est impa.
+contr. hypoth.
+21.a.1 | c, est nr.pa.
 
-## THEOR. XXV. PROPOS. XXVII.
+## SCHOL. II.
 
-Si ab impari numero par detrahatur : reliquus impar erit.
+Numerus impar numerum imparem metiens, per numerum imparem eum metitur.
 
-*Si d'vn nombre impair on retranche vn nombre pair, le reste sera impair.*
+*Vn nombre impair mesurant vn nombre impair, il le mesure par vn nombre impair.*
 
-A.1D....4C......6B
+A,3. B,15. C,5.
 
 Hypoth.
 
-ab, est nr. impa.
-cb, est nr.pa.
+a, est nr. impa.
+a, msur: b ꝑ c.
 
 Req. π. demonstr.
 
-ac, est nr. impa.
-
-Præpar.
-
-ad, est vnit.
+c, est nr; impa;
 
 Demonstr.
 
-hyp. | ab, est nr. impa.
-7.d.7 | db, est nr.pa.
-hyp. | cb, est nr.pa.
-24.7 | dc, est nr. pa.
-concl. 7.d.7 | ac, est nr. impa.
+suppos. | c, est nr.pa.
+28.9 | ▭.a,c, u b est nr.pa.
+contr. hypoth.
+21.a.1 | c, est nr. impa.
 
-## THEOR. XXVI. PROPOS. XXVIII.
+## SCHOL. III.
 
-Si impar numerus parem multiplicans fecerit aliquem ; factus par erit.
+Omnis numerus metiēs imparem numerum, est impar.
 
-*Si vn nombre impair multipliant vn nombre pair, en fait quelqu'vn ; le produit sera pair.*
+*Tout nombre qui mesure vn nombre impair, est impair.*
+
+A,3. B,15. C,5.
+
+Hypoth.
+
+b, est nr. impar,
+a & c msur: b.
+
+Req. π. demonstr.
+
+a & c snt nr. impa.
+
+Demonstr.
+
+suppos. | a u c, est nr.pa.
+28.9 | b, est nr.pa.
+contr. hypoth.
+21.a.1 | a & c snt nr; impa;

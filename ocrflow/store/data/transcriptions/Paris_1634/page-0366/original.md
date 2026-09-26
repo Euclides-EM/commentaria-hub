@@ -1,43 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-hyp. | <bcd 2|2 <ecg,
-1.s.1.51 | dce est —,
-2.p.1 | adh & fgh snt —.
+31.1 | fh == ed,
+31.1 | dh == ef.
 
-[Figure: parallelogrammes A, B, C, D, H, G et C, E, F, G se touchant en C]
+[Figure: parallelogramme A, B, C, G auec triangle et parallelogramme D, E, F, H]
 
 Demonstr.
 
-20.d.5 | raō.. ac π cf 2|2 raō.. ac π ch + raō.. ch π cf,
-1.6 | ac π ch 2|2 bc π cg,
-1.6 | ch π cf 2|2 dc π ce,
-concl. 1.s.23.5 | raō.. ac π cf 2|2 raō.. bc π cg + raō.. dc π ce.
+constr. | bg & eh snt ◇,
+34.1 | ◇bg 2|2, 2 Δabc,
+34.1 | ◇eh 2|2, 2 Δdef,
+15.5 | Δabc π Δdef 2|2 ◇bg π ◇eh,
+23.6 | raō.. ◇bg π ◇eh 2|2 raō.. bc π ef + raō.. ab π de
+concl. 11.5 | raō.. Δabc π Δdef 2|2 raō.. bc π ef + raō.. ab π de.
 
-## SCHOL. I.
+## SCHOL. III.
 
-Triangula, quæ vnum angulum vni angulo æqualem habent, eandem proportionem habent, quam rectangula, quæ sub lateribus æqualem angulum comprehendentibus continentur.
+Parallelogramma æquiangula, eandem habent proportionem, quam rectangula sub lateribus ipsorum æqualem angulum continentibus comprehensa.
 
-Les triangles qui ont vn angle egal à vn angle, sont en mesme raison, que les rectangles contenus sous les costez comprenans l'angle egal.
-
-[Figure: triangles A, B, C auec poinct G et D, E, F auec poinct H]
+Le parallelogrammes equiangles, sont en mesme raison que les rectangles contenus sous les costez d'iceux, contenans l'angle egal.
 
 Hypoth.
 
-abc & def snt Δ,
-<a 2|2 <d.
+bg & eh snt ◇,
+<b 2|2 <e. α
 
 Req. π. demonstr.
 
-Δabc π Δdef,
-▭.ab,ac π ▭.de,df
+◇bg π ◇eh 2|2 ▭.ab,bc π ▭.de,ef.
 
 Præpar.
 
-12.1 | bg ⊥ ac,
-12.1 | eh ⊥ df.
+ac, & df snt —.
 
 Demonstr.
 
-hyp. | <a 2|2 <d,
-12.a.1 | <bga 2|2 <ehd,
-32.1 | Δabg æquiāg. Δdeh
+15.5 | ◇bg π ◇eh 2|2 Δabc π Δdef,

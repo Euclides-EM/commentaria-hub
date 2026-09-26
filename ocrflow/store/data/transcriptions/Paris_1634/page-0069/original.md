@@ -1,25 +1,33 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### 2. a. 1.
+sunt inæqualia, illud nimirùm maius & hoc minus. | & à la plus petite la plus petite, les tous sont inegaux, celuy-là plus grand & cestuy-cy plus petit.
 
-Et si æqualibus æqualia adiecta sint, tota sunt æqualia. | Et si à choses egales on adiouste choses egales, les tous sont egaux.
+[Figure: ligne ABE en haut, ligne CDF au dessous]
 
-[Figure: ligne ABF en haut, ligne CDG au dessous]
+hyp. | ab 3|2 cd.
+hyp. | be 3|2 df.
+4.a.c. | ab 3|2 cf.
 
-hyp. | ab 2|2 cd.
-hyp. | bf 2|2 dg.
-2.a.1 | af 2|2 cg.
+### 5. a. 1.
 
-### 3. a. 1.
+Et si ab inæqualibus æqualia ablata sint, reliqua sunt inæqualia. | Et si de choses inegales on oste choses egales, les restes sont inegaux.
 
-Et si ab æqualibus æqualia ablata sint, quæ relinquuntur sunt æqualia. | Et si des choses egales on retranche choses egales, les restes sont egaux.
+[Figure: ligne AEB en haut, ligne CFD au dessous]
+
+hyp. | ab 3|2 cd.
+hyp. | eb 2|2 fd.
+5.a.1 | ae 3|2 cf.
+
+### 5. a. b.
+
+Et si ab æqualibus inæqualia ablata sint, reliqua sunt inæqualia. | Et si de choses egales on oste choses inegales, les restes sont inegaux.
 
 [Figure: ligne AEB en haut, ligne CFD au dessous]
 
 hyp. | ab 2|2 cd.
-hyp. | ae 2|2 cf.
-3.a.1 | eb 2|2 fd.
+hyp. | ae 3|2 cf.
+5.a.b. | eb 2|3 fd.
 
-### 3. a. b.
+### 5. a. c.
 
-Et si à toto auferatur dimidium, remanebit dimidium : si auferatur maius dimidio, remanebit minus dimidio : si autem auferatur tertia pars, remanebunt duæ tertiæ, &c. | Et si d'vn tout on retranche la moitié, restera la moitié : & si on retranche plus de la moitié, restera moins de la moitié : mais si on retranche la troisiesme partie, resteront les deux tiers, &c.
+Et si ab inæqualibus inæqualia ablata sint, à ma- | Et si de choses inegales on oste choses inegales, sçauoir

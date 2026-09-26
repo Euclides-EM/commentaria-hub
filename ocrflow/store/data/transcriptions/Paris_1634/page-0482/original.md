@@ -1,57 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-A....4 B......6
-C,24
-D...3 E........8
+A.......6 B....4 C.........8
+D..2
+E...3 F..2 G.....4
+H--- I--- K---
+L---
 
-β.supp. | d, msur: c ꝑ e,
-9.a.7 | ▭.de 2|2 c,
-hyp. | ▭.ab 2|2 c,
-1.a.1 | ▭.de 2|2 ▭.ab,
-19.7 | d π a 2|2 b π e, γ
-suppos. | d, n̄. msur: a,
-α.31.7 | d & a snt pr. ꝫe,
-23.7 | d & a snt term.. raō.. d π a,
-concl. 21.7 | d, msur: b.
-
-## SCHOL.
-
-A...3 B....4
-C............12
-D.........8
-
-Hypoth.
-
-▭.ab est c,
-d, est nr. compos.
-d & c snt compos. ꝫe,
-
-Req. π. demonstr.
-
-d, est compos. π a, u b.
+1.concl. 23.7 | a, b, c snt term.. raō;
+1.suppo. | a, b, c snt compos. ꝫe,
+3.7 | d, est ma.c.me.. a,b,c,
+suppos. | d, msur: a ꝑ e,
+suppos. | d, msur: b ꝑ f,
+suppos. | d, msur: c ꝑ g,
+symp. | e, f, g snt nr. req.
 
 Demonstr.
 
-suppos. | d, est pr. π. a & b,
-26.7 | d, est pr. π. c,
-contr. hyp.
-concl. 21.a.1 | d, est cōpos. π. a, u b.
+9.a.7 | ▭.ed 2|2 a,
+9.a.7 | ▭.fd 2|2 b,
+9.a.7 | ▭.gd 2|2 c,
+17.7 | e π f 2|2 a π b,
+1.concl. 17.7 | f π g 2|2 b π c,
+suppos. | h, i, k snt term.. raō; a π b, & b π c, β
+21.7 | h, msur: a,
+suppos. | h, msur: a ꝑ l,
+21.7 | i, msur: b ꝑ l,
+21.7 | k, msur: c ꝑ l,
+9.a.7 | ▭.hl 2|2 a,
+9.a.7 | ▭.il 2|2 b,
+9.a.7 | ▭.kl 2|2 c,
+1.a.1 | ▭.hl 2|2 ▭.ed,
+19.7 | h π e 2|2 d π l,
+β | h 2|3 e,
+14.5 | d 2|3 l, δ
+9.a.7 | l, msur: a, b, c,
+δ | d, n̄, est ma.c.me.
+contr. constr.
+21.a.1 | e, f, g snt term.. raō; nr; a,b,c.
 
-## THEOR. XXXI. PROPOS. XXXIII.
+## COROLL.
 
-Omnem compositum numerum, aliquis primus numerus metitur.
+Hinc perspicuum est, maximam mensuram quotlibet numerorum metiri ipsos per numeros, qui minimi sunt omnium eandem proportionem cum ipsis habentium.
 
-*Tout nombre composé, est mesuré par quelque nombre premier.*
-
-A.............12
-B..2
-C---
-
-Hypoth.
-
-a, est nr. compos.
-b, est mi.msur.. nr. a, α
-
-Req. π. demonstr.
-
-b, est nr. pr.
+*Il est manifeste de cecy, que la plus grande commune mesure le tant de nombres qu'on voudra, les mesure par les plus petits nombres de tous ceux qui ont la mesme proportion.*

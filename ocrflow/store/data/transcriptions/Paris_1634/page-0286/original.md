@@ -1,24 +1,27 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-A, 4. B, 6. C, 12. D, 8. E, 10. F, 15. G, 30. H, 20.
+## THEOR. I. PROPOS. I.
 
-hyp. | a π b 2|2 e π f,
-hyp. | b π c 2|2 f π g,
-hyp. | c π d 2|2 g π h,
-22.5 | a π d 2|2 e π h.
+Si sint quotcunque magnitudines quotcunque magnitudinum æqualium numero, singulæ singularum, æque multiplices ; quam multiplex est vnius vna magnitudo, tam multiplices erunt & omnes omnium.
 
-## DEFINIT. XIX.
+S'il y a tant de grandeurs qu'on voudra equimultiples d'autant d'autres grandeurs, chacune de la sienne ; comme l'vne des grandeurs sera multiple d'vne ; ainsi les toutes seront multiples des toutes.
 
-Perturbata autem proportio est, cum tribus positis magnitudinibus, & aliis quæ sint his multitudine pares, vt in primis quidē magnitudinib. se habet antecedēs ad cōsequentem, ita in secūdis magnitudinibus antecedens ad cōsequentem : vt autē in primis magnitudinib. consequēs ad aliud quidpiam, sic in secundis magnitudinibus aliud quidpiā ad antecedentē.
+Hypoth.
 
-Proportion perturbée est, lors que trois grandeurs sont posées d'vne part, & d'autres égales en multitude à icelles, & comme aux premieres grandeurs l'antecedent est au consequent, ainsi aux secondes grandeurs, l'antecedent est au consequent : mais comme aux premieres grandeurs le consequent est à quelque autre, ainsi aux secondes grandeurs quelque autre est à l'antecedent.
+ab multipl.. | e,
+cd multipl.. | f. α
 
-A, 4. B, 6. C, 3. E, 20. F, 10. G, 15.
+[Figure: deux lignes A—G—H—B et E ; C—I—K—D et F]
 
-hyp. | a π b 2|2 f π g,
-hyp. | b π c 2|2 e π f,
-23.5 | a π c 2|2 e π g.
+Req. π. demonstr.
 
-His 19. definitionibus Euclidis annectam definitionem & axioma quæ sequuntur.
+ab, multipl.. e 2|2 ab + cd multipl.. e + f.
 
-A ces 19. definitions d'Euclide i'adiousteray la definition, & l'axiome qui suiuent.
+Demonstr.
+
+hyp. | e, ag, gh, hb snt 2|2 ⁊e,
+hyp. | f, ci, ik, kd snt 2|2 ⁊e,
+α.s.2.d.5 | multd.. part.. ab, 2|2 multd. part. cd,
+2.a.1 | e + f, ag + ci, gh + ik, hb + kd snt 2|2 ⁊e,
+19.a.1 | ab + cd 2|2 ag + ci, + gh + ik, + hb + kd,
+c.2.d.5 | ab, multipl.. e 2|2 ab + cd multipl.. e + f.

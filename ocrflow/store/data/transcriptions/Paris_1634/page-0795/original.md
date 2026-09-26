@@ -1,23 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-2 concl. 24. 5 | abcde π ghi 2|2 abcdef π ghiк, δ
+*tout prisme est triple de la pyramide qui a mesme hauteur qu'iceluy, & mesme base.*
 
-[Figure: labels arranged F L / A / E G K / B / C DH I]
+Hypoth.
 
-γ | abcd π ghiк 2|2 abcdf π ghikl,
-δ | ade π ghiк 2|2 adef π ghikl,
-3 concl 24. 5 | abcde π ghiк 2|2 abdef π ghiкl.
+abcdeghiкf, est prism.
+abcdeh, est pyram.
 
-## COROLL.
+[Figure: labels arranged G R / H F S / I K T V / A L / M / B E N / C D O]
 
-Perspicuum quoque inde efficitur, pyramides eiusdem altitudinis super æquales bases multangulas, vel eandem constitutas, esse inter se æquales.
+Req. π. demonstr.
 
-Rursus contrà fit, pyramides multangulas æquales, & super æquales bases, vel super eandem constitutas, eandem habere altitudinem: Et pyramides multangulas æquales, eandémque habentes altitudinem, æquales habere bases, si non habuerint eandem.
+prism. abcdeghiкf 2|2, 3; pyram; abcdeh.
 
-*Il est außi manifeste de là, que les pyramides de mesme hauteur constituees sur bases egales multilateres ou sur vne mesme, sont egales entr'elles.*
+Præpar.
 
-*Derechef il s'ensuit au contraire que les pyramides multilateres egales, & constituees sur bases egales, ou vne mesme, ont mesme hauteur: Et que les pyramides multilateres egales ayant mesme hauteur, ont les bases egales, si elles n'ont la mesme.*
+1. p. 1 | ac, ad, gi, gh ſnt ——.
 
-## THEOR. VII. PROPOS. VII.
+Demonstr.
 
-Omne prisma triangularem habens basim, di-
+9. a. 1 | abcghi, acdgik, adegкf ſnt prism; 2|2 prism. bf,
+9. a. 1 | abch, acdh, adeh ſnt pyram; 2|2 pyram. abcdeh,
+c. 5. 12 | pyram. acdh 2|2 pyram. acdi,
+c. 5. 12 | pyram. adeh 2|2 pyram. adek,
+7. 12 | prism. abcghi 2|2, 3; pyram; abch,
+7. 12 | prism. acdgiк 2|2, 3; pyram. acdi, Ⅱ acdh,
+7. 12 | prism. adegkf 2|2, 3; pyram. adeк, Ⅱ adeh,
+concl. 1. 5 | prism. abcdeghikf 2|2, 3; pyram; abcdeh. α
+
+## SCHOL. I.
+
+Sub eadem altitudine existentia prismata, quascunque habeant bases, sunt inter se vt bases.
+
+*Les prismes qui sont sous mesme hauteur, quelconques soient leurs bases, sont entr'eux comme leurs bases.*
+
+Demonstr.
+
+α | prism. bf 2|2, 3; pyram; abcdeh.

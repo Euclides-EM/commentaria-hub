@@ -1,48 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-[Figure: à gauche deux quarrez auec diagonales, E—F en haut & A—B—C en bas pour le premier, F—H—G en haut & C—D en bas pour le second ; à droicte deux quarrez N—O—P—Q en haut, I—K—L—T—M en bas, ligne poinctée R—S]
-
-Præpar.
-
-46.1. | af est ▭.ab,
-46.1. | cg est ▭.cd,
-1.p.1. | eb & hd snt —.
-
-Demonstr.
-
-α. 4.1. | △eab 2|2 △hcd,
-34.1. | ▭af 2|2 2△eab,
-34.1. | ▭cg 2|2 2△hcd,
-concl. 6.a.1. | ▭af 2|2 ▭cg, β
-
-Hypoth. 2.
-
-▭nk 2|2 ▭pm.
-
-Req. π. demonstr.
-
-ik 2|2 lm.
-
-Demonstr.
-
-suppos. | lt 2|2 ik,
-46.1. | ls est ▭.lt,
-β | ▭ls 2|2 ▭nk,
-hyp. | ▭lq 2|2 ▭nk,
-1.a.1. | ▭ls 2|2 ▭lq,
-contr. 9.a.1.
-21.a.1. | lm 2|2 ik.
-
-## THEOR. XXXIII. PROPOS. XLVII.
-
-In rectangulis triangulis, quadratum, quod à latere rectum angulum subtendente describitur, æquale est eis, quæ à lateribus rectum angulum continentibus describuntur.
-
-Aux triangles rectangles, le quarré du costé qui soustient l'angle droict, est égal aux quarrez des costez qui contiennent l'angle droict.
+[Figure: triangle BAC, B à gauche, C à droicte, A au milieu ; ligne A—D vers le haut à droicte, ligne D—C]
 
 Hypoth.
 
-<bac est ∟,
+▭.bc 2|2 ▭.ab + ▭.ac,
 
 Req. π. demonstr.
 
-▭.bc 2|2 ▭.ab + ▭.ac.
+<bac est ∟.
+
+Præpar.
+
+11.1. | <cad est ∟,
+3.1. | ad 2|2 ab,
+1.p.1. | cd est —.
+
+Demonstr.
+
+constr. | ad 2|2 ab,
+s.46.1. | ▭.ad 2|2 ▭.ab,
+hyp. | ▭.bc 2|2 ▭.ab + ▭.ac, α
+constr. | <cad est ∟,
+47.1. | ▭.cd 2|2 ▭.ac + ▭.ad, u ▭.ab,
+α.1.a.1. | ▭.bc 2|2 ▭.cd,
+s.46.1. | bc 2|2 cd,
+8.1. | <cab 2|2 cad,
+constr. | <cad est ∟,
+concl. 12.a.b. | <cab est ∟.

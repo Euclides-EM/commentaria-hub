@@ -1,43 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-1.concl. 8.a.1. | bc 2|2 ef,
-2.concl. 8.a.1. | △abc 2|2 △def,
-3.concl. 8.a.1. | <b 2|2 <e,
-4.cöcl. 8.a.1. | <c 2|2 <f.
+suppos. | db 2|2 ac,
+1.p.1. | cd est —,
+| bc est commun.
+hyp. | <dbc 2|2 <acb,
+4.1. | △dbc 2|2 △acb,
+| contr. 9. a. 1.
+concl. 21.a.1. | ab 2|2 ac.
 
-## THEOR. II. PROPOS. V.
+COROLL.
 
-Isoscelium triangulorum qui ad basim sunt anguli, inter se sunt æquales : Et productis æqualibus rectis lineis, qui sub basi sunt anguli, inter se æquales erunt.
-
-Des triangles isosceles, les angles qui sont à la base, sont égaux entr'eux : Et les lignes droictes égales estans prolongées, les angles qui sont sous la base, seront égaux entr'eux.
-
-[Figure: triangle A en haut, B et C au milieu, D et E en bas, F entre C et E, lignes BE et CD s'entrecroisant]
+Sequitur ex hac propositione omne triangulum æquiangulum esse quoque æquilaterum. | Il s'ensuit de cette proposition que tout triangle equiangle est außi equilateral.
 
 Hypoth.
 
-ab 2|2 ac,
-abd & ace snt —.
+abc est △ æquiang.
 
 Req. π. demonstr.
 
-<abc 2|2 <acb,
-<cbd 2|2 <bce.
-
-Præpar.
-
-ad est arbitr.
-3.1. | af 2|2 ad,
-1.p.1. | cd & bf snt —.
+abc est △ æquilater.
 
 Demonstr.
 
-constr. | ad 2|2 af,
-hyp. | ac 2|2 ab,
-| <a est commun.
-4.1. | dc 2|2 bf, α
-4.1. | <adc 2|2 <afb, β
-4.1. | <acd 2|2 <abf, γ
-constr. | ad 2|2 af,
-hyp. | ab 2|2 ac,
-3.a.1. | bd 2|2 cf,
-α | dc 2|2 bf,
+hyp. | <abc 2|2 <acb,
+1.concl. 6.1. | ac 2|2 ab, α
+hyp. | <bac 2|2 <bca,
+2.concl. 6.1. | bc 2|2 ab,
+α. 1.a.1. | ac 2|2 bc,
+23.d.1. | △abc est æquilat.
+
+## THEOR. IV. PROPOS. VII.
+
+Super eadem recta linea, duabus eisdem rectis lineis aliæ duæ rectæ lineæ æquales, vtraque vtrique, non constituentur, ad aliud atque aliud punctum, ad easdem partes, eosdémque terminos cum duabus initio ductis rectis lineis habentes.
+
+Si des extremitez de quelque ligne droicte on mene deux autres lignes droictes, se rencontrant à vn poinct ; des mesmes extremitez on n'en pourra pas mener deux autres égales à icelles, chacune à la sienne, & de mesme part, se rencontrant à vn autre poinct.

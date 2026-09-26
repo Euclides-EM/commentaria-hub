@@ -1,44 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-32.1 | <ahb 2|2 <cfd,
-constr. | <hag 2|2 <fce,
-constr. | <ahg 2|2 <cfe,
-32.1 | <g 2|2 <e,
-2.a.1 | <bag 2|2 <dce,
-1.a.1 | <bhg 2|2 <dfe,
-4.6 | ab π bh 2|2 cd π df, α
-4.6 | ag π gh 2|2 ce π ef,
-4.6 | ag π ah 2|2 ce π cf,
-4.6 | ah π ab 2|2 cf π cd,
-22.5 | ag π ab 2|2 ce π cd, β
-d.β 1.concl. | gh π hb 2|2 ef π fd,
-1.d.6 2.concl. | abhg, sml. cdfe,
-α | ab est homolog. cf.
+Et les polygones sont l'vn à l'autre en raison doublee de leurs costez de mesme raison.
 
-## THEOR. XIII. PROPOS. XIX.
-
-Similia triangula inter se sunt in duplicata ratione laterum homologorum.
-
-Les triangles semblables sont entr'eux en raison doublee de leurs costez de mesme raison.
+[Figure: pentagones A, B, C, D, E et F, G, H, I, K]
 
 Hypoth.
 
-Δabc est sml. Δdef, α
-<b 2|2 <e,
-<c 2|2 <f.
+abcde, sml fghik.
 
 Req. π. demonstr.
 
-raō.. Δabc π Δdef 2|2, 2 raō.. bc π ef.
-
-[Figure: triangles A, B, G, C et D, E, F]
-
-Præpar.
-
-11.6 | bc π ef 2|2 ef π bg,
-1.p.1 | ag est —.
+Δabc, sml. Δfgh,
+Δacd, sml. Δfhi,
+Δade, sml. Δfik,
+Δabc π Δfgh,
+Δacd π Δfhi,
+Δade π fik,
+abcde π fghik,
+raō.. Δabc π Δfgh 2 raō.. ab π fg,
+abcde π fghik, 2 raō.. ab π fg.
 
 Demonstr.
 
-α.4.6 | ab π de 2|2 bc π ef,
-constr. | bc π ef 2|2 ef π bg,
+hyp. | <b 2|2 <g,
+1.d.6 | ab π bc 2|2 fg π gh,
+1.concl. 6.6 | <acb 2|2 <fhg,
+2.concl. 6.6 | <bac 2|2 <gfh,
+1.d.6 | <bcd 2|2 <ghi,
+3.concl. 3.a.1 | <acd 2|2 <fhi,
+4.6 | ac π cb 2|2 fh π hg,
+1.d.6 | bc π cd 2|2 gh π hi,
+22.5 | ac π cd 2|2 fh π hi,
+4.cōcl. 6.6 | <cda 2|2 <hif,
+5.concl. 6.6 | <cad 2|2 <hfi,
+1.d.6 | <cde 2|2 <hik,
+6.concl. 3.a.1 | <ade 2|2 <fik,
+1.d.6 | <e 2|2 <k,
+7.concl. 32.1 | <dae 2|2 <ifk,
+| ab π fg,
+4.6 | ac π fh,
+4.6 | ad π fi,
+19.6. & 1.s.23.5 | Δabc π Δfgh,
+| Δacd π Δfhi,
+| Δade π Δfik,

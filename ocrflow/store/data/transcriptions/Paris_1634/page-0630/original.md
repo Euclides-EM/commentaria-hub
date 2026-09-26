@@ -1,33 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-A B C (line)
+24.10 | ▭.cf, est medi.
+23.10 | cb, est ration.
+γ♪.4.2 | ▭ad 2|2, 2▭.ghк,
+α.24.10 | 2▭.ghk, est medi.
+24.10 | ▭.ad, est medi.
+23.10 | ac, est ration.
+β.14.10 | 2▭.ghк, incomm. / aggreg.□.gh + □.hk
+γ♪ hyp. | ▭.ad, incōm. ▭.cf,
+1.6 | ad π cf 2|2 ac π cb,
+10.10 | ac, incomm. cb,
+37.10 | ab, est irration.
+l.38.10 | ▭.af, est irration.
+concl. γ.11d.10 | gк, est irration.
 
-hyp. | aggreg..□.ab + □.bc / est ration.
-α.24.10 | 2▭.abc, est medi.
-s12.10 | 2▭.abc, incomm. / aggreg.□.ab + □.bc,
-4.2. & 17.10 | □.ac, incōm. aggreg.. / □.ab + □.bc,
-concl. 11.d.10 | ac, est irration.
+## THEOR. XXXI. PROPOS. XLIII.
 
-## THEOR. XXIX. PROPOS. XLI.
+Quæ ex binis nominibus, ad vnum duntaxat punctum diuiditur in nomina.
 
-Si duæ rectæ lineæ potentia incommensurabiles componátur, quæ faciant compositum quidem ex ipsarum quadratis medium, quod autem sub ipsis continetur, rationale ; tota recta linea irrationalis erit: vocetur autem rationale ac medium potens.
-
-*Si deux lignes droictes incommensurables en puissance sont composees, lesquelles facent le composé de leurs quarrez medial; mais le rectangle contenu sous icelles, rationel, la toute sera irrationelle : soit appellee pouuant vn rationel & vn medial.*
-
-A C B (line)
+*La ligne de deux noms peut estre diuisee en ses noms, à vn poinct seulement.*
 
 Hypoth.
 
-□.ac, incomm. □.cb,
-aggreg. □.ac + □.cb, / est medi. α
-▭.acb, est ration.
+ab, est binom.
+ad & db snt nom; α
 Req. π. demonstr.
-ab, est irration.
+ae & eb, n̄, snt nom;
 
-Demonstr.
+A C F E D B (demi-cercles G L)
 
-s.12.10 | 2▭.acb, est ration.
-α.s12.10 | 2▭.acb, incomm. / aggreg. □.ac + □.cb
-4.2. & 17.10 | □.ab, incōm. ▭.acb,
-β.s12.10 | □.ab, est irration. β
-concl. 11.d.10 | ab, est irration.
+Demonst.
+
+3.p.1 | falb, fcgd snt ⊙;
+suppos. | ae & eb snt nom; β
+α.37.10 | af, n̄, est 2|2 ae, u ad,
+22.10 | ▭.aeb & ▭.adb snt medi; γ
+αβ | □.ad, □.db, □.ae, □.eb snt ration;
+2s.27.10 | aggreg.. □.ad + □.db, est ration.

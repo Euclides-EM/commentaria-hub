@@ -1,43 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## THEOR. XLVI. PROPOS. LXIV.
-
-Quadratum majoris ad rationalem applicatum, latitudinem facit ex binis nominibus quartam.
-
-*Le quarré d'vne ligne majeure, appliqué à vne ligne rationelle, fait la latitude binome quatriesme.*
+*qué à vne ligne rationelle, fait la latitude, binome sixiesme.*
 
 B D C / E A (left) I L M G / H K N F (rectangle)
 
 Hypoth.
 
-ab, est maj. α
+ab, est 2; medi. po.
 ac & cb snt nom;
-ab 3|2 cb,
+ac 3|2 cb,
 de, est ration. expos.
 ▭df 2|2 □.ab.
 
 Req. π. demonstr.
 
-dg, est binom. 4.
+dg, est binom. 6.
 
 Lemm. 60.10. est præpar.
 
 Demonstr.
 
-α.hyp. | aggreg..□.ac + □.cb, est ration.
-l.60.10 | ▭dk 2|2 □.ac + □.cb,
-s.12.10 | ▭dk, est ration.
-21.10 | dl, est ration. comm. de, β
-α.hyp. | ▭.acb, est medi.
-24.10 | 2▭.acb, est medi.
-l.60.10 | ▭lf 2|2, 2▭.acb,
-24.10 | ▭lf, est medi.
-23.10 | lg, est ration. incomm. de,
-β.12.10 | dl, incomm. lg,
-α.hyp. | □.ac, incomm. □.bc,
+ꝑ demonstr. 65.10. dl, est ration. incomm. de,
+ꝑ demonstr. 64.10. lg, est ration. incomm. de,
 l.60.10 | □.dl 3|2 □.lg..□.——, incomm. dl,
-concl. 4d48.10 | dg, est binom. 4.
+α.hyp. | aggreg..□.ac + □.cb, incomm. ▭.acb,
+l.60.10 | ▭dk 2|2 □.ac + □.cb,
+l.60.10 | ▭ln 2|2 ▭.acb,
+14.10 | ▭dк, incomm. ▭ln,
+1.6 | ▭lf 2|2, 2▭ln,
+10.10 | ▭dк, incomm. ▭lf,
+1.6, & 10.10 | dl, incomm. lg,
+concl. 6d48.10 | dg, est binom. 6.
 
-## THEOR. XLVII. PROPOS. LXV.
+## Lemm.
 
-Quadratum eius, quæ rationale ac medium
+hyp. | de, comm. ab,

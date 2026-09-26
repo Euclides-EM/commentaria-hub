@@ -1,40 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-A,18. B,18.
-A,28. B,28.
-A,5. B,5. C,10. D,15.
-A,12. B,12. C,3. D,4.
+### III.
 
-hyp. | a 2|2 b,
-hyp. | a, est nr. pa.
-1.a.7 | b, est nr. pa.
-hyp. | a, est nr. ꝑfct,
-1.a.7 | b, est nr. ꝑfct,
-hyp. | a, est c.me.. c & d,
-1.a.7 | b, est c.me.. c & d,
-hyp. | a, est ma.c.me.. c & d,
-1.a.7 | b, est ma.c.me.. c & d
-hyp. | a, est mi. c. diuid.. c & d,
-1.a.7 | b, est mi. c. diuid.. c & d.
+Qui numeri æqualium numerorū, vel eiusdem eædem partes fuerint, æquales inter se sunt.
 
-Explicatio notarum. Explication des notes.
+*Les nombres qui sont mesmes parties des nōbres egaux ou d'vn mesme nombre sont egaux entr'eux.*
 
-Numerus A, est æqualis numero B, numerus A est par; igitur numerus B, est par.
+hyp. | a, part.. c 2|2 b, part.. c, A,4. B,4. C,6.
+3.a.7 | a 2|2 b.
 
-A, est numerus perfectus; igitur B, est numerus perfectus.
+### IV.
 
-A, est communis mensura C & D; igitur B, est communis mensura C & D.
+Quorum idem numerus, vel æquales, eædem partes fuerint, æquales inter se sunt.
 
-A, est maxima communis mensura C & D; igitur B, est maxima communis mensura C & D.
+*Les nombres desquels vn mesme nombre ou nombres egaux sont mesmes parties sont egaux entr'eux.*
 
-Numerus A, est minimus communis diuiduus numerorum C & D; igitur nu-
+hyp. | c, part.. a 2|2 c, part. b, C,4. A,6. B,6.
+4.d.7 | a 2|2 b.
 
-*Le nombre A, est egal au nombre B; le nombre A, est nombre pair ; partant le nombre B, est pair.*
+### V.
 
-*A, est nombre parfaict ; donc B, est nombre parfaict.*
+Vnitas omnem numerum per vnitates, quæ in ipso sunt, hoc est, per ipsummet numerum metitur.
 
-*A, est commune mesure de C & D; donc B, est commune mesure de C & D.*
+*L'vnité mesure tout nōbre, par les vnitez qui sont en iceluy, c'est à dire, par le mesme nombre.*
 
-*A, est la plus grande commune mesure de C & D ; donc B, est la plus grande commune mesure de C & D.*
+### VI.
 
-*Le nombre A, est le moindre commun partissable par les nombres C & D; par consequēt*
+Omnis numerus seipsum metitur per vnitatem.
+
+*Tout nōbre se mesure soy-mesme par l'vnité.*

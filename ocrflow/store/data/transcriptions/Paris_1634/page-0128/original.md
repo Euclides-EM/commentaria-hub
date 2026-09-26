@@ -1,50 +1,54 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-## THEOR. XXV. PROPOS. XXXV.
-
-Parallelogramma super eadem basi, & in eisdem parallelis constituta, inter se sunt æqualia.
-
-Les parallelogrammes constituez sur vne mesme base, & entre mesmes paralleles, sont égaux entr'eux.
-
-[Figure: ligne A—D—E—F en haut, poinct G entre D & E vn peu plus bas, ligne B—C en bas ; parallelogrammes BCDA & BCFE, lignes B—E & C—F se coupans en G]
+[Figure: ligne G—A—D—H en haut, ligne B—C—E—F en bas ; triangles BCA & EFD dans le trapeze GBFH]
 
 Hypoth.
 
-af == bc,
-bcda & bcfe snt ◊, α
+gh == bf, α
+bc 2|2 ef. α
 
 Req. π. demonstr.
 
-◊bcda 2|2 ◊bcfe.
+△bca 2|2 △efd.
+
+Præpar.
+
+31.1. | bg == ca,
+31.1. | fh == ed.
 
 Demonstr.
 
-α.34.1. | ad 2|2 bc,
-α.34.1. | ef 2|2 bc,
-1.a.1. | ad 2|2 ef,
-| de commun. add.
-2.a.1. | ae 2|2 df,
-α.34.1. | ab 2|2 dc,
-α.29.1. | <bae 2|2 cdf,
-4.1. | △bae 2|2 △cdf,
-| gde commun. subtr.
-3.a.1. | badg 2|2 cgef,
-| bgc commun. add.
-concl. 2.a.1. | ◊badc 2|2 ◊bcfe.
+α 36.1. | ◊bcag 2|2 ◊edhf,
+34.1. | △bca 2|2 ½ ◊bcag,
+34.1. | △efd 2|2 ½ ◊edhf,
+concl. 7.a.1. | △bca 2|2 △efd.
 
-## PROBL. XXVI. PROPOS. XXXVI.
+## THEOR. XXIX. PROPOS. XXXIX.
 
-Parallelogramma super æqualibus basibus, & in eisdem parallelis constituta, inter se sunt æqualia.
+Triägula æqualia super eadem basi, & ad easdem partes constituta; & in eisdem sunt parallelis.
 
-Les parallelogrammes constituez sur bases égales, & entre mesmes paralleles sont égaux entr'eux.
+Les triangles égaux constituez sur mesme base, & de mesme part, sont entre mesmes paralleles.
 
-[Figure: ligne A—D—E—F en haut, ligne B—C—G—H en bas ; parallelogrammes BCDA & GHFE, lignes diagonales B—D & C—E & G—F]
+[Figure: A en haut à gauche, D & F en haut à droicte, E entre deux, B & C en bas ; triangles BCA & BCD, lignes B—D, B—F, C—F, A—C]
 
 Hypoth.
 
-af == bh,
-bc 2|2 gh,
+△bca 2|2 △bcd.
 
 Req. π. demonstr.
 
-◊bcda 2|2 ◊ghfe.
+ad == bc.
+
+Demonstr.
+
+suppos. | af == bc,
+1.p.1. | cf est —,
+37.1. | △bcf 2|2 △bca,
+hyp. | △bcd 2|2 △bca,
+1.a.1. | △bcf 2|2 bcd,
+| contr. 9.a.1.
+21.a.1. | bd == bc.
+
+## THEOR. XXX. PROPOS. XL.
+
+Triangula æqualia super æqualibus basibus, & ad easdem partes constituta, & in eisdë sunt parallelis.

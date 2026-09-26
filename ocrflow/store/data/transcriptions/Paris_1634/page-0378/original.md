@@ -1,47 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-3.a.1 | gnom. eng 2|2 c, β
-α.36.1 | ◇al 2|2 ◇eo u ◇bm,
-◇lp commun. add.
-2.a.1 | ◇an 2|2 gnom. eng,
-1.concl. β.1.a.1 | ◇an 2|2 rectili. c.
+rectum angulum subtēdente descripta, æqualis est figuris, quæ priori illi similes, & similiter positæ à lateribus rectum angulū continētibus describūtur.
 
-Si ad datam rectam lineam applicandum sit parallelogrammum excedens quadrato, facilius soluetur problema sequenti methodo proponendo sic.
+Aux triangles rectangles, la figure descrite sur le costé qui soustient l'angle droict, est egale aux deux figures des costez qui contiennent l'angle droict, semblables à icelle, & semblablement descrites.
 
-Si à la ligne donnee il faut appliquer vn parallelogramme excedant d'vn quarré, la solution se trouuera plus briefuement par la methode suiuante proposant ainsi.
-
-## SCHOL.
-
-Data differentia extremarum, & rectangulo sub extremis, inuenire extremas.
-
-Estant donnee la difference des extremes, & le rectangle contenu sous les extremes, trouuer les extremes.
-
-Vel sic. Ou ainsi.
-
-Data media trium proportionalium, & differentia extremarum, inuenire extremas.
-
-Estant donné la moyenne de trois proportionnelles, & la difference des extremes, trouuer les extremes.
-
-[Figure: demi-cercle E sur la base A, F, C, D, B]
+[Figure: triangle B, A, C auec poinct D, parallelogrammes G, H et I, L sur les costez, et rectangle E, F sous la base]
 
 Hypoth.
 
-fd est diff. D.
-de est 2. D.
+<bac est ⌐,
+bf, bg, al snt sml. ⁊e, α
+bc, ba, ac snt homolog.
 
-Req. π. fa.
+Req. π. demonstr.
 
-inuen. ad & db.
+bf 2|2 bg + al.
 
-Constr.
+Præpar.
 
-11.1 | <fde est ⌐,
-10.1 | fc 2|2 cd,
-1.p.1 | ce est —,
-3.p.1 | ceab est semic.
-2.p.1 | afdb est diamet.
-symp. | req. snt ad & db,
+12.1 | ad ⊥ bc.
 
 Demonstr.
 
-15.d.1 | ac 2|2 cb,
+c.8.6 | dc π ca 2|2 ca π cb,
+c.8.6 | db π ba 2|2 ba π bc,
+c.20.6 | dc π bc 2|2 al π bf,
+c.20.6 | db π bc 2|2 bg π bf,
+24.5 | al + bg π bf 2|2 bc π bc,
+concl. s.14.5 | al + bg 2|2 bf.
+
+## THEOR. XXII. PROPOS. XXXII.
+
+Si duo triangula, quæ duo latera duobus lateribus proportionalia habeant, secundum vnum angulum composita fuerint, ita vt homologa eorum latera sint etiam parallela : tum reliqua illorum

@@ -1,20 +1,19 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### IV.
+igitur neque anguli magnitudinem. | quent la quantité de l'angle.
 
-Recta linea est, quæ ex æquo sua interiacet puncta. | La ligne droite est, celle qui est également estenduë entre ses poincts.
+### IX.
 
-A ————— B
+Cùm autem, quæ angulum continent lineæ, rectæ fuerint, rectilineus ille angulus appellatur. | Or quand les lignes, qui comprennent l'angle, sont droictes, l'angle s'appelle rectiligne.
 
-C ⌒ D
+[Figure: trois angles, A formé de deux lignes droites, B formé de deux lignes courbes, C formé d'vne ligne droite & d'vne courbe]
 
-[Figure: ligne courbe]
+Omnis angulus planus conficitur aut ex duabus lineis rectis, qui rectilineus est, de quo solùm hic agit Euclides : aut ex duabus curuis, quem curuilineum vocare licet : aut ex vna curua & altera recta, qui mixtus appellatur. | Tout angle plan est faict, ou de deux lignes droites, & est appellé angle rectiligne, & d'iceluy traicte seulement icy Euclide : ou de deux lignes courbes, qui peut estre appellé curuiligne : ou d'vne ligne droite & d'vne courbe, qui s'appelle mixtiligne.
 
-AB est recta linea. | AB est vne ligne droite.
-CD est curua linea. | CD est vne ligne courbe.
+Angulus A est rectilineus, | L'angle A est droict.
+B curuilineus, | B curuiligne.
+C mixtus. | C mixtiligne.
 
-Triplex est linea apud Mathematicos recta, circularis siue curua, & mixta siue composita, ex his describit hoc loco Euclides lineam rectam, in qua nihil flexuosum reperitur, neque est hic humilior illic altior, sed est breuissima ex vno puncto in aliud extensio. | Les Mathematiciens considerent trois sortes de lignes, la droite, la circulaire ou courbe, & la mixte, qui est composée de l'vne & de l'autre : Euclide descrit en ce lieu la droite, en laquelle il n'y a rien de courbe, & n'est point plus abaissé ou esleué en vn endroit qu'en vn autre, mais elle est le plus court chemin d'vn poinct à l'autre.
+### X.
 
-### V.
-
-Superficies est, quæ longitudinem, latitudinemque tantùm habet, vt ABCD. | La superficie est, ce qui a tant seulement longueur & largeur, cöme ABCD.
+Cùm verò recta linea | Quand vne ligne droicte

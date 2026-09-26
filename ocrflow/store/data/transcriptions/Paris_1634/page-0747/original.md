@@ -1,40 +1,47 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
+Req. π. demonstr.
+
+he == fg.
+
 Demonstr.
 
-suppos. | cd & ce snt ⊥ plan. ab, α
-2. 11 | cd & ce snt ꝗn plan. fg,
-3. 11 | intersect. hg, est ——,
-α.3.d.11 | <dcg & <ecg snt ⊥;
-12. a. 1 | <ecg 2|2 <dcg,
-contr. 9. a. 1.
+suppos. | hei & fgi snt ——,
+1. 11 | hei, est ꝗn plan. ab, α
+1. 11 | fgi, est ꝗn plan. cd, α
+α | i, est ꝗn plan; ab & cd,
+contr. hypoth.
 
-[Figure: labels arranged F D E / A / H C G / B]
+[Figure: labels arranged I / A E C G / H B F D]
 
-## THEOR. XII. PROPOS. XIV.
+## THEOR. XV. PROPOS. XVII.
 
-Ad quæ plana, eadem recta linea recta est; illa sunt parallela.
+Si duæ rectæ lineæ parallelis planis secentur; in easdem rationes secabuntur.
 
-*Les plans ausquels vne mesme ligne droicte est à angles droicts, iceux sont paralleles.*
+*Si deux lignes droictes sont couppees par des plans paralleles; icelles seront couppees proportionellement.*
 
-[Figure: labels arranged G / I / C H E / A B / D F]
+[Figure: labels arranged A C F / E / L N M H / G / B D K / I]
 
 Hypoth.
 
-ab, est ⊥ plan; cd & fe,
+ef, gh, ik snt plan; == ꝗe,
+alb, cmd snt ——,
+a, l, b & c, m, d snt ●; ꝗn plan; ef, gh, ik.
 
 Req. π. demonstr.
 
-plan. cd == plan. fe.
+al π lb 2|2 cm π md.
+
+Præpar.
+
+1. p. 1 | ac & bd snt ——,
+1. p. 1 | and, est ——,
+1. p. 1 | nl & nm snt ——.
 
 Demonstr.
 
-suppos. | gh, est intersect.. plan; cd & fe,
-arbitr. | i, est ● ꝗn gh,
-1. p. 1 | ia & ib snt ——,
-hyp. | <iab & <iba snt ⊥;
-contr. 17. 1.
-
-## THEOR. XIII. PROPOS. XV.
-
-Si duæ rectæ lineæ se mutuò tangentes, ad duas rectas se mutuò tangentes sint parallelæ, non in
+2. 11 | △adb & △adc snt plan;
+16. 11 | ln == bd, nm == ac,
+2. 6 | al π lb 2|2 an π nd,
+2. 6 | cm π md 2|2 an π nd,
+concl. 11. 5 | al π lb 2|2 cm π md.

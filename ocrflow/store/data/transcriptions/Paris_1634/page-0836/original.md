@@ -1,50 +1,55 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-[Figure: labels arranged A / E F / F L / K / M / H / P —— / N —— / C I D / G / N]
+[Figure: labels arranged A / D / B F C / E]
 
-diamet. ag, eſt ration.
-abcde, eſt 5< inſcri. ꝗn ⊙.
+concl. αβ | □.ae π □.ab 2|2, 4 π 3
 
-Req. π. demonstr.
+Coroll. 2.
 
-ab, eſt min.
-
-Præpar.
-
-1. p. 1 | bfh, ac, ah ſnt ——;
-ſ.10. 6 | fl 2|2, ¼fh,
-ſ. 10. 6 | cm 2|2, ¼ca,
-3. 1 | ac 2|2 cd + p,
-6. app. | □.bl 2|2 □.kl + □.n.
+□.ab π □.af 2|2, 4 π 3
 
 Demonstr.
 
-c.10.13 | aкf, aic ſnt ⊥;
-4. 6 | ci π fк / ca π fa ſnt raō; / ca π fb 2|2 ꝗe, / cm π fl
-7. 5
-15. 5
-11. 5 | ci π fк 2|2 cm π fl,
-16. 5 | ci π cm 2|2 fк π fl,
-15. 5 | cd π cк 2|2 fк π fl,
-18. 5 | cd + cк π cк 2|2 kl π fl
-22.6 | □.aggre.. / cd + cк π □.cк, / □.kl π □.fl, α
-8. 13 | ac π cd 2|2 cd π p,
-1. 13 | □.aggreg.. / cd + ck 2|2, 5□. / cк,
-α | □.kl 2|2 5□.fl, β
-hyp. | bh, eſt ration.
-arbitr. | bh, eſt 8,
-7. a. 1 | fh, eſt 4,
-7. a. 1 | fl, eſt 1,
-2. a. 1 | bl, eſt 5,
-1.ſ.1.d. 2 | □.bl, eſt 25, γ
-9. 10 | bl, comm. fl, δ
-1.ſ.1.d. 2 | □.fl, eſt 1,
-β | □.кl, eſt 5, ε
-9. 10 | kl, incomm. fl,
-13. 10 | bl, incomm. kl,
-γε | bl, comm. кl ꝗn □,
-74.10 | bk, eſt apotom.
-74. 10 | кl, eſt congruen.
-conſtr. | □.bl 2|2 □.кl + □.n,
-1. a. 1 | □.kl + □.n ſnt 25,
-3. a. 1 | □.n, eſt 20, θ
+c. 8 6 | ea π ab 2|2 ab π af,
+concl. 11. 5 | □.ab π □.af 2|2, 4 π 3.
+
+Coroll. 3.
+
+df 2|2 fe.
+
+Demonstr.
+
+15. 4 | △ebd, eſt æquilat.
+c. 3. 3 | bf ⊥ ed,
+c. 3. 3 | ef 2|2 fd.
+
+Coroll. 4.
+
+af 2|2, 3df.
+
+Demonstr.
+
+3.c.12.13 | ad, Ⅱ de 2|2, 2df,
+concl. 2. a. 1 | af 2|2, 3df.
+
+## PROBL. I. PROPOS. XIII.
+
+Pyramidem constituere, & data sphæra complecti; & demonstrare, quòd sphæræ diameter potentia sit sesquialtera lateris ipsius pyramidis.
+
+*Descrire vne pyramide, & l'enuironner d'vne sphere donnee; & monstrer que le diametre de la sphere, est sesquialtere en puissance au costé de la pyramide.*
+
+Hypoth.
+
+ab, eſt diamet.. ſphær. D.
+
+Conſtr.
+
+1. 10 | al 2|2 lb,
+3 p.1 | ladb, eſt ſemic.
+ſ 10.6 | ac 2|2, 2cb,
+11. 1 | cd ⊥ ab,
+1. p. 1 | ad & db ſnt ——,
+3. 1 | he 2|2 cd,
+3. p. 1 | hefg, eſt ⊙,
+c. 15. 4 | efg, eſt △ æquilat. α
+12. 11 | hi ⊥ plan.. ⊙ efg,

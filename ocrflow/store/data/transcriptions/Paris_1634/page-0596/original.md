@@ -1,35 +1,31 @@
-<!-- Running title: ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID.. LI. X. -->
 
-## COROLL.
+*S'il y a deux lignes droictes inegales, & à la plus grāde on applique vn parallelogramme egal à la quatriesme partie du quarré de la plus petite, defaillant d'vne figure quarree, & qu'il diuise icelle plus grande en parties commensurables en longitude ; la plus grande pourra plus que la moindre du quarré d'vne ligne qui luy sera commensurable en longitude : Et si la plus grande peut plus que la plus petite du quarré d'vne ligne qui luy soit commensurable en longitude, & qu'on applique vn parallelogramme sur la plus grande egal au quart du quarré de la plus petite, defaillant d'vne figure quarree, il diuisera icelle en parties commensurables en longitude.*
 
-Hinc sequitur, si tota magnitudo ex duabus composita, commensurabilis sit alteri ipsarum, eandem & reliquæ commensurabilem esse.
+A F C D B (demi-cercle E)
+G----H----K
 
-*D'icy il s'ensuit, que si vne grandeur composee de deux, est commensurable à vne d'icelles, qu'elle sera aussi commensurable à l'autre.*
-
-## THEOR. XIV. PROPOS. XVII.
-
-Si duæ magnitudines incommensurabiles componantur, & tota magnitudo vtrique ipsarum incommensurabilis erit : Quod si tota magnitudo vni ipsarum incommensurabilis fuerit, & quæ à principio magnitudines incōmensurabiles erunt.
-
-*Si deux grandeurs incommensurables sont composees, la toute sera aussi incommensurable à chacune d'icelles : Et si la toute est incommensurable à vne d'icelles, les grandeurs proposees au commencement seront incommensurables.*
-
-A------B--C
-D------
+hyp. | ab 3|2 gk,
+10.1 | ac 2|2 cb,
+10.1 | gh 2|2 hk,
+γ.18.6 | ▭.adb 2|2 □.gh,
+u ¼□.gk,
+ʒ. 1 | af 2|2 db, α
+8.2, & 1.s.4.2 | □.ab 2|2 □.fd
++ 4▭.adb, u □.gk
 
 Hypoth. 1.
 
-ab, incomm. bc.
+ad, comm. db, u af. β
 
 Req. π. demonstr.
 
-ac, est incomm. ab & bc.
+ab, est comm. fd.
 
 Demonstr.
 
-suppos. | d, msur: ac & ab, α
-ʒ.a.10 | d, msur: bc, α
-α.1.d.10 | ab, comm. bc,
-contr. hypoth.
-
-Hypoth. 2.
-
-ac, incomm. ab.
+hyp. | ad, comm. db,
+16.10 | ab, comm. db,
+16.10 | db + af, comm. db,
+12.10 | ab, comm. db + af,
+1.concl. c.16.10 | ab, comm. fd.

@@ -1,55 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-## SCHOL. I.
+qu'elle soit æquilateral & æquiangle : les costez opposez seront paralleles entr'eux.
 
-Omne quadrilaterum habens latera opposita æqualia, est parallelogrammum.
-
-Tout quadrilatere qui a les costez opposez égaux, est parallelogramme.
+[Figure: octogone ABCDEFGH, A & B en haut, H & C aux costez, G & D plus bas, F & E en bas, ligne poinctée B—E]
 
 Hypoth.
 
-ab 2|2 cd,
-ac 2|2 bd.
+abdf est rectilig. æquilat. & æquiang. α
+multd. <abc, <c, <d, <def 2|2 multd. <a, <h, <g, <f.
 
 Req. π. demonstr.
 
-ad est ◊.
+ab == fe,
+bc == gf & c.
 
 Præpar.
 
-1.p.1. | bc est —.
+1.p.1. | be est —.
 
 Demonstr.
 
-hyp. | ab 2|2 cd,
-| bc est commun.
-hyp. | ac 2|2 bd,
-8.1. | <abc 2|2 <bcd α
-8.1. | <bca 2|2 <cbd, β
-α.27.1. | ab == cd,
-β.29.1. | ac == bd,
-concl. 35.d.1. | abdc est ◊.
-
-## SCHOL. II.
-
-Ex hoc scholio perspicua est demonstratio methodi qua expeditus recta linea, per datum punctum, parallela datæ rectæ lineæ ducitur.
-
-De cet scholie est manifeste la demonstration d'vne methode plus briefue de mener vne ligne droicte, par vn poinct donné, parallele à vne ligne droicte donnée.
-
-[Figure: ligne A—E—F—B en haut, ligne C—D en bas, arcs se coupans en D]
-
-Hypoth.
-
-c est • D.
-ab est — D.
-
-Req. π. fa.
-
-cd == ab,
-
-Constr.
-
-3.p.1. | e est • arbitr. ⟨n ab,
-arbitr. | ef,cd snt ⊙ 2|2 ꝗe.
-3.p.1. | ⊙fd 2|2 ⊙ec,
-1.p.1. | cd est —,
+s.32.a.1. | <abc + <c + d + <def + <f + <g + <h + <a 2|2 12∟,
+α 2.a.1. | <abc + <c + <d + <def 2|2 <f + <g + <h + <a,
+7.a.1. | <abc + <c + <d + <def 2|2 6∟,
+s.32.1. | <ebc + <c + <d + deb 2|2 4∟,
+3.a.1. | <abe + <bef 2|2 2∟,
+28.1. | ab == fe, β
+d. β | bc == gf.

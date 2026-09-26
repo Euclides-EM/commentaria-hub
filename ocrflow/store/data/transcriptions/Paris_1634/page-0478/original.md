@@ -1,36 +1,49 @@
-<!-- Running title: ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLD. LI. VII. -->
 
-vtrumque, primi fuerint ; & qui ex eis gignentur, primi inter se erunt.
+*tre ensemble sera premier à chacun d'iceux : Et si l'vn & l'autre ensemble est premier à quelqu'vn d'iceux, les nombres proposez au commencement seront aussi premiers entr'eux.*
 
-*Si deux nombres sont premiers à deux autres nombres, l'vn & l'autre à l'vn & à l'autre ; les produits d'iceux seront aussi premiers entr'eux.*
+A.........8B......5C
+D----
 
-A......5 C.....4
-B...3 D..2
-E................15
-F.........8
+Hypoth. 1.
 
-Hypoth.
-
-a, est pr. π. c & d,
-b, est pr. π. c & d,
-▭.ab 2|2 e, α
-▭.cd 2|2 f. β
+ab & bc snt pr. ꝫe.
 
 Req. π. demonstr.
 
-e & f snt pr. ꝫe.
+ac est pr. π. ab & bc.
 
 Demonstr.
 
-hyp. | a & b snt pr. π. c,
-α.26.7 | e, est pr. π. c, γ
-hyp. | a & b snt pr. π. d,
-α.26.7 | e, est pr. π. d, γ
-γ | c & d snt pr. π. e,
-concl. β.26.7 | f & e snt pr. π. ꝫe.
+suppos. | ac & ab n̄. snt pr ꝫe,
+suppos. | d, est c.me.. ac & ab,
+12.a.7 | d, msur: ab & bc.
+contr. 12.d.7.
+1.concl. 21.a.1 | ac & ab snt pr. ꝫe, α
+2.concl. d.α | ac & bc snt pr. ꝫe.
 
-## THEOR. XXVII. PROPOS. XXIX.
+Hypoth. 2.
 
-Si duo numeri primi inter se fuerint, & multiplicans vterque se ipsum fecerit aliquem ; & geniti ex ipsis primi inter se erunt : Et si, qui in principio, genitos ipsos multiplicantes fecerint aliquos ; & hi quoque primi inter se erunt: & semper circa extremos hoc eueniet.
+ac & ab snt pr. ꝫe.
 
-*Si deux nombres sont premiers entr'eux ; & l'vn & l'autre se multipliant soy-mesme en fait quelqu'vn, les prduicts d'iceux seront premiers entr'eux: Et si les nom-*
+Req. π. demonstr.
+
+ab & bc snt pr. ꝫe.
+
+Demonstr.
+
+suppos. | ab & bc n̄. snt pr. ꝫe,
+suppos. | d, est c.me.. ab & bc,
+10.a.7 | d, msur: ab & ac.
+contr. 12.d.7.
+3.concl. 21.a.1 | ab & bc snt pr. ꝫe.
+
+## COROLL.
+
+Ex hoc sequitur, numerum, qui ex duobus compositus ad vnum illorum primus est, ad reliquum quoque primum esse.
+
+*Il s'ensuit de cecy que le nombre, lequel estant composé de deux autres, est premier à l'vn d'iceux, il sera aussi premier à l'autre.*
+
+## THEOR. XXIX. PROPOS. XXXI.
+
+Omnis primus numerus, ad omnem numerum quem non metitur, primus est.

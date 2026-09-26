@@ -1,20 +1,18 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-32. 11 | ◇piped. adcb π ◇piped. ehiк 2|2 bas. ad π bas. eh,
-hyp. | bas. ad π bas. eh 2|2 alt. eg π alt. ei,
-1. 6 | eg π ei 2|2 bas. gl π bas. il,
-32. 11 | bas. gl π bas. il 2|2 ◇piped. ehgf π ◇piped. ehiк,
-11. 5 | adcb π ehiк 2|2 ehgf π ehiк,
-2 concl. 9. 5 | ◇piped. adcb 2|2 ◇piped. ehgf.
+dem laterum homologorum, quæ quoque sunt latera homologa prismatum.
 
-## SCHOL.
+Denique si dictis duobus prismatis æqualibus adiungantur alia duo prismata illis æqualia & similia, componentur duo parallelepipeda æqualia earundem altitudinum cum prismatis. g Quare cùm bases, & altitudines parallelepipedorum sint reciprocæ; & bases prismatum eædem sint, vel certè triangula earum dimidia h eandem habētia proportionem, erunt quoque bases prismatum & eorum altitudines reciprocæ.
 
-Si insistentes lineæ propositorum parallelepidorum nō sint perpendiculares ad bases, demonstratio fiet reductis prius ad perpendiculares vt in 31. propos. huius libri.
+g 34. 11
+h 15. 5
 
-Omnia vero quæ demonstrata sunt in sex proximis propositionibus, nimirum 29, 30, 31.32, 33, & 34, conueniunt quoque prismatis, quæ habēt duo plana opposita triangularia, si prædictæ hypotheses seruentur. Nam si duobus prismatis eiusmodi eiusdem altitudinis, & super eandem basin, vel super æquales bases constitutis, apponantur duo alia prismata illis æqualia & similia, conficientur duo parallelepipeda eiusdem altitudinis, & super eandem, vel æquales bases existētia. b Quare æqualia erunt eiusmodi parallelepipeda; ac proinde
+*costez homologues des prismes.*
 
-b 29, 30,31 11
+*Finalement, si ausdits deux prismes egaux & semblables on adiouste deux autres prismes egaux & semblables, deux paralelipipedes egaux, de mesme hauteur que les prismes seront composez. g Parquoy les bases & les hauteurs des parallelipides estant reciproques; les bases des prismes estant les mesmes, ou les triangles qui sont moitiez d'icelles h ayant mesme raison; les bases des prismes & leurs hauteurs seront reciproques.*
 
-*Si les lignes insistentes des parallelipipedes proposez ne sont perpendiculaires aux bases, la demonstration se fera en les reduisant premierement en perpendiculaires, comme en la 31, de ce liure.*
+## THEOR. XXX. PROPOS. XXXV.
 
-*Or toutes les choses demōstrees aux six dernieres propositions, sçauoir 29, 30, 31, 32, 33, & 34, conuiennent aussi aux prismes qui ont deux plans opposez triangulaires, les hypotheses susdites estant obseruees; car à deux tels prismes de mesme hauteur, constituez sur mesme base ou bases egales estant apposez deux autres prismes egaux & semblables à iceux, on fera deux paralelipipedes de mesme hauteur constituez sur vne mesme base ou sur bases egales, b donc tels paralelipipedes seront egaux: Et partant aussi les prismes donnez, sçauoir leurs moitiez.*
+Si fuerint duo plani anguli æquales, quorum verticibus sublimes rectæ lineæ insistant, quæ cum lineis primo positis angulos contineant æquales, vtrumque vtrique; in sublimibus autem lineis quælibet sumpta fuerint puncta, & ab his ad plana, in quibus consistunt anguli primùm positi, ductæ fuerint perpendiculares; à punctis vero, quæ in planis à perpendicularibus fiunt, ad angulos primum positos adjunctæ fuerint rectæ lineæ: hæ cum sublimibus æquales angulos comprehendent.
+
+*S'il y a deux angles plans egaux, au sommet desquels*

@@ -1,48 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-[Figure: quarré A—D—C—B auec cercle inscrit, I au centre, lignes H—F et E—G]
-
-10.1 | dg 2|2 gc,
-1.p.1 | hf & eg snt —,
-3.p.1 | iefgh est ⊙,
-symp. | ⊙efgh est req.
-
-Demonstr.
-
-7.a.1 | ah,hd,bf
-| fc, ae, eb
-| dg, gc
+| <abd
+5.1 | <adb
+19.a.1 | <cdb + <cda
+α.32.3 | <cad + <cda
+32.1 | <bcd
 | snt 2|2 ⁊e,
-33.1 | hf == ab & dc,
-33.1 | eg == ad & bc,
-2.s.29.1 | ia,id,ib,ic snt ▭,
-34.1.& 1.a.1 | ie,ih,ig,if snt 2|2 ⁊e,
-concl. 5.d.4 | ⊙efg est inscri. in □bd.
+1.a.1 | <abd 2|2 <bcd,
+6.1 | cd 2|2 bduac,
+5.1 2.concl | <cad 2|2 <cda, β
+β.32.1 | <bcdu<cbdu<bda 2|2, 2<bad.
 
-## PROBL. IX. PROPOS. IX.
+## COROLL.
 
-Circa datum quadratum circulum describere.
+Cùm tres anguli trianguli sint æquales duobus rectis, perspicuum est angulum BAD esse quintam partem duorum rectorum.
 
-A l'entour d'vn quarré donné descrire vn cercle.
+Veu que les trois angles d'vn triangle sont égaux à deux droicts, il est manifeste que l'angle BAD est la cinquiéme partie de deux droicts.
+
+## PROBL. XI. PROPOS. XI.
+
+In dato circulo, pentagonum æquilaterum & æquiangulum inscribere.
+
+En vn cercle donné, inscrire vn pentagone, equilateral & equiangle.
 
 Hypoth.
 
-abcd est □ D.
+abcde est ⊙ D.
 
 Req. π. fa.
 
-circscri. π. □abcd, ⊙abcd,
+inscri. in ⊙abcd 5<abcde æquilat. & æquiang.
 
 Constr.
-
-1.p.1 | ac & bd snt —,
-3.p.1 | eabcd est ⊙,
-symp. | ⊙eabcd est req.
-
-[Figure: cercle auec quarré A—B—C—D inscrit, E au centre, diagonales A—C et B—D]
-
-Demonstr.
-
-2.c.4.2 | <cab 2|2 <cad,
-2.c.4.2 | <dba 2|2 <dbc,
-29.d.1 | <dab 2|2 abc,

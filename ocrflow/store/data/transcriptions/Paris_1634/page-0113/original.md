@@ -1,55 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-4.1. | <edg 2|2 <a.
+13.1. | <agh + <bgh 2|2 2∟,
+12.&1.a.1. | <agh + <chg 2|2 <agh + <bgh,
+| <agh commun. subtr.
+3.a.1. | <chg 2|2 <bgh,
+2.concl. 27.1. | ab == cd.
 
-Hypoth. 2.
+## THEOR. XX. PROPOS. XXIX.
 
-ed 2|2 ba.
+In parallelas rectas lineas recta incidens linea ; & alternatim angulos inter se æquales efficit; & externum interno, & opposito, & ad easdem partes æqualem; & internos, & easdem partes duobus rectis æquales facit.
 
-Req. π. demonstr.
+Si vne ligne droicte tombe sur deux lignes droictes paralleles; elle fera les angles alternes égaux entr'eux, & l'externe égal à son interne & opposé de mesme part ; & les deux internes de mesme part, égaux à deux droicts.
 
-eg 2|2 bc,
-gd 2|2 ca,
-<edg 2|2 <a.
-
-Demonstr.
-
-suppos. | ei 2|2 bc,
-1.p.1. | di est —,
-hyp. | ed 2|2 ba,
-hyp. | <e 2|2 <b,
-4.1. | <eid 2|2 <c,
-hyp. | <egd 2|2 <c,
-1.a.1. | <eid 2|2 <egd,
-| contr. 16. 1.
-2.concl. 21.a.1. | eg 2|2 bc,
-4.1. | gd 2|2 ca,
-4.1. | <edg 2|2 <bac.
-
-Coroll.
-
-4.1. | △egd 2|2 △bca.
-
-## THEOR. XVIII. PROPOS. XXVII.
-
-Si in duas rectas lineas recta incidens linea alternatim angulos æquales inter se fecerit : parallelæ erunt inter se illæ rectæ lineæ.
-
-Si vne ligne droicte tombant sur deux autres lignes droictes, faict les angles alternes égaux entr'eux : icelles lignes droictes seront paralleles entr'elles.
-
-[Figure: ligne A—E—B, ligne C—F—D, ligne transversale passant par E & F, poinct G à droicte]
+[Figure: ligne A—G—B, ligne C—H—D, ligne transversale E—G—H—F, E en haut à droicte, F en bas à gauche]
 
 Hypoth.
 
-<aef 2|2 <dfe.
+ab == cd.
 
 Req. π. demonstr.
 
-ab == cd.
+<dhg 2|2 <agh,
+<bge 2|2 <dhe,
+<agh + <chg 2|2 2∟.
 
 Demonstr.
 
-suppos. | ab n. est == cd.
-2.34.d.1. | egf est △,
-16.1. | <aef 3|2 dfe.
+suppos. | <agh + <chg n. snt 2|2 2∟,
+13.a.1. | ab n. est == cd,
 | contr. hyp.
-concl. 21.a.1. | ab == cd.

@@ -1,37 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-Constr.
+Aux cercles égaux les angles appuyez sur circonferences égales sont égaux entr'eux; soit qu'ils y soient appuyez estant constituez aux centres, ou bien estant constituez aux circonferences.
 
-arbitr. | a,b,c snt • in ∩,
-1.p.1 | ab & bc snt —,
-10.1 | ad 2|2 db,
-10.1 | be 2|2 ec,
-11.1 | df ⊥ ab,
-11.1 | ef ⊥ bc,
-symp. | intersect. f, est centr.
-
-Demonstr.
-
-c.1.3 | centr. est in df,
-c.1.3 | centr. est in ef,
-concl. 14.a.b | centr. est in f.
-
-## THEOR. XXIII. PROPOS. XXVI.
-
-In æqualibus circulis, æquales anguli æqualibus peripheriis insistunt, siue ad centra, siue ad peripherias constituti insistant.
-
-Aux cercles égaux, les angles égaux s'appuyent sur circonferences égales, soit qu'ils s'appuyent, estant constituez aux centres, ou aux circonferences.
-
-[Figure: deux cercles ; le premier A—B—C, G au dedans, lignes A—B, B—C, A—C, G—A, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]
+[Figure: deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—B, B—C, B—I, A—C, G—A, G—I, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]
 
 Hypoth.
 
 gabc & hdef snt ⊙ 2|2 ⁊e,
-<agc 2|2 <dhf,
-u<abc 2|2 <def.
+∪ ac 2|2 ∪ df.
 
 Req. π. demonstr.
 
-∩ ac 2|2 ∩ df.
+<agc 2|2 <dhf,
+<abc 2|2 <def.
 
-Præpar.
+Demonstr.
+
+suppos. | <agi 2|2 <dhf,
+16.3 | ∪ ai 2|2 ∪ df,
+hyp. | ∪ ac 2|2 ∪ df,
+1.a.1 | ∪ ai 2|2 ∪ ac. contr. 9.a.1.
+1.concl. 21.a.1 | <agc 2|2 <dhf, α
+2.concl. α.7.a.1 | <abc 2|2 <def.
+
+## THEOR. XXV. PROPOS. XXVIII.
+
+In æqualibus circulis, æquales rectæ lineæ æquales peripherias auferunt, maiorem quidem maiori, minorem autem minori.
+
+Aux cercles égaux, les lignes droictes égales ostent circonferences égales, sçauoir la plus grande à la plus grande, & la plus petite à la plus petite.
+
+Hypoth.
+
+gabc & hdef snt ⊙ 2|2 ⁊e, α
+ac 2|2 df, α
+
+Req. π. demonstr.
+
+[Figure: deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—C, G—A, G—C ; le second D—E—F, H au dedans, K en bas, lignes D—F, H—D, H—F]

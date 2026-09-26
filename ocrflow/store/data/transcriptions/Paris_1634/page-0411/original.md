@@ -1,39 +1,53 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-1.2 | ▭.cb,ef 2|2 ▭.cb,ed + ▭.cb,df,
-concl. 1.a.f | ▭.cae 2|2 bad + ▭.cb,ed + ▭.cb,df + ▭.bg,ed. β
+16.6 | cf π fh 2|2 ge π eb,
+17. & 18.5 | ch π hf 2|2 gb π be,
+concl. 16.5 | ch π gb 2|2 hf π be,
 
-Hypoth. 3. cas.
+## THEOR. XV. PROPOS. XXVI.
 
-[Figure: deux figures auec les poincts D, F, I, E, A, C, H, G, B]
+Snelius in Cyclometria.
 
-Δabc sml. Δade,
+[Figure: demicercle auec les poincts D, C, A, E, F, G, B, H]
 
-<abc, <ade snt 2|3 ⌐,
+Hypoth.
 
-ac 3|2 ab, & ae 3|2 ad.
+eadcb est semic.
+
+◠dc 2|2 ◠cb,
+
+abh est —,
+
+ad, af, bh snt 2|2 ʒe,
 
 Præpar.
 
-afg ⊥ cb & ed,
-
-gh 2|2 gb,
-
-ahi est —.
+1.p.1 | dc, cb, ce, cf snt —
+10.1 | fg 2|2 gb,
+1.p.1 | cg, db, ac, ch snt —
 
 Req. π. demonstr.
 
-▭.cae 2|2 ▭.bad + ▭.ch,ed u ▭.ei,cb.
+□.bc 2|2 ▭.ebf,
+
+□.ac 2|2 ▭.hae,
+
+▭.ac,fb 2|2 ▭.bc,bd,
 
 Demonstr.
 
-s.4.6 | if 2|2 fd,
-4.1 | ah 2|2 ab,
-4.1 | ai 2|2 ad,
-3.s.1.d.2 | ▭.hai 2|2 ▭.bad, γ
-s.4.6 | gh π ch 2|2 fi π ie,
-16.6 | ▭.gh,ie 2|2 ▭.ch,fi u ▭.ch,fd, δ
-s.4.6 | bh π hc 2|2 di π ie,
-18.5 | bc π hc 2|2 de π ei,
-16.4 | ▭.bc,ei 2|2 ▭.hc,de, ε
-β | ▭.cae 2|2 ▭.hai + ▭.ch,ei + ▭.hg,ei + ▭.ch,if,
+hyp. | ◠dc 2|2 ◠cb,
+29.3 | dc 2|2 cb,
+27.3 | <caf 2|2 <cad,
+hyp. | af 2|2 ad,
+4.1 | cf 2|2 cd u cb, α
+constr. | fg 2|2 gb,
+8.1 | <cgf 2|2 <cgb, β
+10.d.1 | cg ⊥ ab,
+α.5.1 | <ecb, <ebc, <cfb snt 2|2 ʒe,
+32.1 | Δebc æquiāg. Δcfb,
+4.6 | eb π bc 2|2 bc π bf,
+1.concl. 17.6 | ▭.ebf 2|2 □.bc,
+pyh. | af 2|2 bh,
+constr. | fg 2|2 gb,
+2.a.1 | ag 2|2 gh,

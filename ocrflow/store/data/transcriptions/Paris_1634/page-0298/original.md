@@ -1,58 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-Des grandeurs qui ont raison à vne mesme grandeur, celle-là qui a plus grande raison, est la plus grande : Mais celle-là à laquelle vne mesme grandeur a plus grande raison, est la plus petite.
+les : quemadmodum se habuerit vna antecedentium ad vnam consequentium, ita se habebunt omnes antecedentes ad omnes consequentes.
 
-[Figure: trois lignes verticales A, B, C]
+Si tant de grandeurs qu'on voudra sont proportionelles : comme l'vne des antecedentes sera à l'vne des consequentes, ainsi toutes les antecedentes seront à toutes les consequentes.
 
-Hypoth. 1.
-
-a π c 3|2 b π c,
-
-Req. π. demonstr.
-
-a 3|2 b.
-
-Demonstr.
-
-suppos. | a 2|2 b,
-7.5 | a π c 2|2 b π c
-| contr. hyp.
-suppos. | a 2|3 b,
-8.5 | a π c 2|3 b π c,
-| contr. hyp.
-
-Hypoth. 2.
-
-c π b 3|2 c π a.
-
-Req. π. demonstr.
-
-b 2|3 a,
-
-suppos | b 2|2 a,
-7.5 | c π a 2|2 c π b,
-| contr. hyp.
-suppos. | b 3|2 a,
-8.5 | c π a 3|2 c π b,
-| contr. hyp.
-
-## THEOR. XI. PROPOS. XI.
-
-Quæ eidem sunt eædem rationes, & inter se sunt eædem.
-
-Les raisons qui sont de mesme à vne mesme raison, sont aussi de mesme entr'elles.
+[Figure: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]
 
 Hypoth.
 
-a π b 2|2 e π f, α
-c π d 2|2 e π f, β
+a π b
+c π d
+e π f
+snt raō 2|2 ⁊e.
 
 Req. π. demonstr.
 
-a π b 2|2 c π d.
+a π b 2|2 a+c+e π b+d+f,
 
 Præpar.
 
 3.1 | g, multipl.. | a,
 | h, multipl.. | c,
 | i, multipl.. | e,
+3.1 | k, multipl.. | b,
+| l, multipl.. | d,
+| m, multipl.. | f,
+
+Demonstr.
+
+1.5 | g+h+i, multipl.. a+c+e 2|2 g, multipl.. a,

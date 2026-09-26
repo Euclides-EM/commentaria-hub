@@ -1,38 +1,13 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-[Figure: labels arranged G / L F E H / A K D C I B]
+Ex duobus triangulis, vel ex duabus figuris aliis, solidus angulus constitui non potest, cùm saltem tres anguli plani requirantur ad solidi anguli constitutionem. | *On ne peut constituer vn angle solide de deux triangles, ou de deux autres plans, veu qu'il faut à tout le moins trois plans pour faire vn angle solide.*
 
-30. 6 | fa π ao 2|2 ao π of,
+Ex tribus autem triangulis æquilateris, constat pyramidis angulus. | *Mais de trois triangles equilateres est fait l'angle de la pyramide.*
 
-Demonſtr.
+Ex quatuor, octaedri angulus. | *De quatre, l'angle de l'octaedre.*
 
-conſtr. | ab π bd 2|2, 3 π 2,
-c. 8. 6 | □.ab π □.bf, / ab π bd,
-11. 5 | □.ab π □.bf 2|2, 3 π 2
-1.concl. 13. 13 | bf, eſt γ. pyram. α
-15. d. 1 | ab 2|2, 2cb,
-c. 8. 6 | □.ab 2|2, 2□.be,
-2 concl. 14. 13 | be, eſt γ. octaedr. β
-conſtr. | ab 2|2, 3ad,
-c. 8. 6 | □.ab 2|2, 3□.af,
-3.concl. 15. 13 | af, eſt γ. exaedr. γ
-conſtr. | af π ao 2|2 ao π of,
-4.cōcl. c.17.13 | ao, eſt γ. dodecaedr.
-conſtr. | bg 2|2 ba,
-15. d. 1 | bg 2|2, 2bc,
-4. 6 | gb π bc 2|2 hi π ic,
-14. 5 | hi 2|2, 2ci, Ⅱ 2cк, δ
-ſ. 4. 2 | □.hi 2|2, 4□.ci,
-47. 1 | □.hc, / Ⅱ □.ac 2|2, 5□.ci,
-15d.1, & conſtr | ab 2|2, 2ac, кi 2|2, 2ci
-15. 5 | □.ab 2|2, 5□.кi, ε
-c.16.13 | кi, eſt ſemidiamet.. ⊙ circſcri. 5<..icoſaedr.
-c.16.13 | aк, Ⅱ ib, eſt γ. 10< inſcri. ꝗn ⊙,
-conſtr. | кi 2|2, 2ci,
-δ | hi 2|2, 2ci,
-6.a.1 | кi 2|2 hi, Ⅱ кl,
-10. 13 | al, eſt γ. 5< inſcri. ꝗn ⊙
-5 concl. 16. 13 | al, eſt γ. icoſaedr.
-arbitr. | □.ab, eſt 6,
-13. 13 | ab π bd / 3 π 2 / □.ab π □.bf, / 6 π 4
-14. 13 | ab π bc, / 2 π 1 / □.ab π □.be, / 6 π 3
+Ex quinque, angulus icosaedri. | *De cinq l'angle de l'icosaedre.*
+
+Ex sex autem huiusmodi triangulis ad idem punctum coeuntibus fieri non potest angulus solidus. Cùm enim trianguli æquilateri angulus contineat duas tertias partes vnius recti erunt eiusmodi anguli sex, duodecim tertiæ partes vnius recti, hoc est, erunt quatuor rectis æquales. Quare ex ipsis nullus angulus solidus constituetur, nam solidus omnis angulus minoribus quàm quatuor rectis angulis continetur. Multò ergo minus ex pluribus, quam sex planis eiusmodi angulis, solidus angulus constabit. | *Mais de six triangles equilateres constituez à vn poinct vn angle solide ne se peut faire. Car l'angle d'vn triangle equilatere estant les deux tiers d'vn droict, six tels angles seront douze tierces d'vn droict, c'est à dire qu'ils seront egaux à quatre droicts; par tant d'iceux il ne sera constitué aucun angle solide: Car tout angle solide est contenu sous des angles plans moindres que quatre droicts: à plus forte raison vn angle solide ne pourra estre constitué de plus de six tels angles plans.*
+
+Ex tribus quadratis, cubi angulus conficitur: ex quatuor autem quadratis nullus angulus solidus constitui potest sunt enim æquales quatuor rectis. Multò ergo minus ex pluribus, quam quatuor eiusmodi angu- | *L'angle du cube est contenu de trois quarrez, mais de quatre quarrez il ne se peut faire aucun angle solide, à cause qu'ils sont egaux à quatre droicts. Par consequent il ne s'en fera aucun angle solide de plus de*

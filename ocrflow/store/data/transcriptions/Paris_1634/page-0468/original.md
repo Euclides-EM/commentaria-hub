@@ -1,50 +1,42 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-A.1 B...3
-D..2 E......6
+A..2 B....4
+C...3
+D......6 E............12
 
 Hypoth.
 
-a, msur: b,
-d, msur: e, α
+▭.ca est d,
+▭.cb est e.
 
 Req. π. demonstr.
 
-a, msur: d,
-b, msur: e,
+a π b 2|2 d π e.
 
 Demonstr.
 
-α.1c20.d7 | a π b 2|2 d π e,
-13.7 | a π d 2|2 b π e,
-5.a.7 | a, msur: d,
-concl. 2c20d7 | a, msur: d, b, msur: e.
+16.7 | ▭.ac 2|2 ▭.ca,
+hyp. | d 2|2 ▭.ca,
+1.a.1 | ▭.ac 2|2 d, α
+16.7 | ▭.bc 2|2 ▭.cb,
+hyp. | e 2|2 ▭.cb,
+1.a.1 | ▭.bc 2|2 e,
+concl. α.17.7 | a π b 2|2 d π e.
 
-## THEOR. XIV. PROPOS. XVI.
+## THEOR. XVII. PROPOS. XIX.
 
-Si duo numeri mutuò sese multiplicantes fecerint aliquos; geniti ex ipsis æquales inter se erunt:
+Si quatuor numeri proportionales fuerint ; qui ex primo, & quarto fit, numerus, æqualis erit ei, qui ex secundo & quarto fit, numero : & si, qui ex primo & quarto fit numerus, æqualis fuerit ei, qui ex secundo, & tertio fit numero ; ipsi quatuor numeri proportionales erunt.
 
-*Si deux nombres se multiplians l'vn l'autre en produisent quelques-vns, les produicts d'iceux seront egaux entr'eux.*
+*Si quatre nombres sont proportionaux, le produict du premier & du quatriesme sera egal au produict du second & du troisiesme nombre: & si le nombre produict du premier & du quatriesme est egal au produict du second & du troisiesme; iceux quatre nombres seront proportionaux.*
 
-E. vnit.
-A...3 B....4
-C...........12
-D...........12
+A...3 B..2
+C......6 D....4
+E............12
+F............12
+G................18
 
 Hypoth.
 
-▭.ba est C, α
-▭.ab est D. β
-
-Req. π. demonstr.
-
-c 2|2 d.
-
-Demonstr.
-
-suppos. | e, est vnit.
-α.c15 d.7 | e, msur: a, b, msur: c,
-15.7 | e, msur: b, a, msur: c, γ
-β.c15 d.7 | e, msur: b, a, msur: d,
-γ.2.a.7 | a, msur: c, a, msur: d,
-concl. 6.a.1 | c 2|2 d.
+a π b 2|2 c π d,
+▭.ad est e, α
+▭.bc est f. β

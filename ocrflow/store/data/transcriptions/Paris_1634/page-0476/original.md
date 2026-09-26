@@ -1,50 +1,36 @@
-<!-- Running title: ELEM. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## THEOR. XXIII. PROPOS. XXV.
+vtrumque, primi fuerint ; & qui ex eis gignentur, primi inter se erunt.
 
-Si duo numeri primi inter se fuerint ; qui vnum eorum metitur numerus, ad reliquum primus erit.
+*Si deux nombres sont premiers à deux autres nombres, l'vn & l'autre à l'vn & à l'autre ; les produits d'iceux seront aussi premiers entr'eux.*
 
-*S'il y a deux nombres premiers entr'eux, le nombre qui en mesure l'vn d'iceux, sera premier à l'autre.*
-
-A.........9 B....4
-C...3 D--
+A......5 C.....4
+B...3 D..2
+E................15
+F.........8
 
 Hypoth.
 
-a & b snt pr. ꝫe,
-c, msur: a.
+a, est pr. π. c & d,
+b, est pr. π. c & d,
+▭.ab 2|2 e, α
+▭.cd 2|2 f. β
 
 Req. π. demonstr.
 
-c, est pr. π. b.
+e & f snt pr. ꝫe.
 
 Demonstr.
 
-suppos. | c & b snt compos. ꝫe,
-suppos. | d, est c.me. c & b, α
-α | d, msur: c,
-hyp. | c, msur: a,
-11.a.7 | d, msur: a, β
-α | d, msur: b, β
-β | d, msur: a & b,
-12.d.7 | a & b n̄ snt pr. ꝫe,
-contr. hyp.
-concl. 21.a.1 | c, est pr. π. b.
+hyp. | a & b snt pr. π. c,
+α.26.7 | e, est pr. π. c, γ
+hyp. | a & b snt pr. π. d,
+α.26.7 | e, est pr. π. d, γ
+γ | c & d snt pr. π. e,
+concl. β.26.7 | f & e snt pr. π. ꝫe.
 
-## THEOR. XXIV. PROPOS. XXVI.
+## THEOR. XXVII. PROPOS. XXIX.
 
-Si duo numeri ad quempiam primi fuerint; etiam ex illis genitus ad eundem primus erit.
+Si duo numeri primi inter se fuerint, & multiplicans vterque se ipsum fecerit aliquem ; & geniti ex ipsis primi inter se erunt : Et si, qui in principio, genitos ipsos multiplicantes fecerint aliquos ; & hi quoque primi inter se erunt: & semper circa extremos hoc eueniet.
 
-*Si deux nombres sont premiers à quelqu'autre nombre; le produict d'iceux sera aussi premier à cet autre.*
-
-A.....5 B...3
-C.........8
-D...............15
-E---- F---
-
-Hypoth.
-
-a & b snt pr. π. c, α
-▭.ab 2|2 d.
-
-Req. π. demonstr.
+*Si deux nombres sont premiers entr'eux ; & l'vn & l'autre se multipliant soy-mesme en fait quelqu'vn, les prduicts d'iceux seront premiers entr'eux: Et si les nom-*

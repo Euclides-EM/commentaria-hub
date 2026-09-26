@@ -1,45 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-rectangle contenu sous la toute & vne des parties, est égal au rectangle contenu sous icelles parties, & au quarré de la partie premierement prise.
-
-[Figure: deux rectangles ; le premier E—D—F en haut, A—C—B en bas ; le second F—D—E en haut, B—C—A en bas, ligne D—C]
-
-Hypoth.
-
-ab est —.
-ac & cb snt par.. ab.
-
-Req. π. demonstr.
-
-▭.bac 2|2 ▭.bca + ▭.ac,
-
-Præpar.
-
-46.1. | ad est ▭.ac, α
-31.1. | bf == cd,
-2.p.1. | edf est —,
-
-Demonstr.
-
-α.29.d.1 | ac, ae, cd snt 2|2 ⁊e,
-2.s.29.1 | af est ▭,
-2.s.29.1 | cf est ▭,
-3.s.1.d.2 | ▭af 2|2 ▭.bac,
-3.s.1.d.2 | ▭cf 2|2 ▭.bca,
-constr. | ad est ▭.ac,
-19.a.1. | ▭af 2|2 ▭cf + ▭ad,
-concl. 1.a.g. | ▭.bac 2|2 ▭.bca + ▭.ac.
+34.1. | ef 2|2 hg,
+29.d.1. | hf est ▭.hg u ac, γ
+d.γ | cgib est ▭.cb,
+3.s.1.d.2 | ▭ag 2|2 ▭.acb,
+43.1. | ▭ag 2|2 ▭gd,
+1.a.1. | ▭gd 2|2 ▭.acb,
+19.a.1. | ▭ad 2|2 ▭hf + ▭ci + ▭ag + ▭gd,
+concl. 1.a.g. | ▭.ab 2|2 ▭.ac + ▭.cb + 2▭.acb.
 
 Explicat. p nr.
 
-hyp. | ac est 2,
-hyp. | cb est 5,
+hypoth. | ac est 5,
+hyp. | cb est 2,
 2.a.1. | ab est 7,
-1.s.1.d.2 | af ▭.bac est 14,
-1.s.1.d.2 | cf ▭.bca est 10,
-1.s.1.d.2 | ad ▭.ac est 4,
-2.a.1. | cf + ad snt 14,
+1.s.1.d.2 | ad ▭.ab est 49,
+1.s.1.d.2. | hf ▭.ac est 25,
+1.s.1.d.2 | ci ▭.cb est 4,
+1.s.1.d.2 | ag ▭.acb est 10,
+1.s.1.d.2 | gd ▭.acb est 10,
+2.a.1. | ad ▭.ab est 49.
 
-## THEOR. IV. PROPOS. IV.
+## COROLL. I.
 
-Si recta linea secta sit vtcüque : Quadratum, quod à tota describitur, æquale est & illis, quæ à segmen-
+Hinc manifestum est parallelogramma circa diametrum quadrati esse quadrata.
+
+De cette demonstration il s'ensuit que les parallelogrammes descrits à l'entour du diametre d'vn quarré, sont quarrez.
+
+## COROLL. II.
+
+Sequitur etiam diametrum cuiusuis quadrati diuidere eius angulos bifariam.
+
+Il s'ensuit außi que le diametre de quelconque quarré diuise les angles d'iceluy en deux également.
+
+## SCHOL. I.
+
+Si linea recta fuerit dupla lineæ rectæ, quadratum ex illa

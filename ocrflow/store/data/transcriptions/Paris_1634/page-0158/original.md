@@ -1,37 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-## SCHOL.
+2.a.1. | gnom. kdg + ▭kg 2|2 ai ▭.adb + kg ▭.cb,
+19.a.1. | gnom. kdg + ▭kg, 2|2 ce ▭.cb,
+concl. 1.a.g. | ▭.adb + ▭.cb 2|2 ▭.cd,
 
-Quadratum perpendicularis, à quouis puncto circunferentiæ in diametrum ductæ, est æquale rectangulo, comprehenso sub segmentis diametri, quæ ab ipsa perpendiculari fiunt.
+Explicat. p nr.
 
-Le quarré de la perpendiculaire, qui tombe de la circonference sur le diametre ; est égal au rectangle compris sous les segments du diametre faicts par icelle perpendiculaire.
+[Figure: rectangle L—I—D—A, quarré F—E au dessus, G, M, K, O, H au milieu, N, A—C—B—D en bas, diagonale F—H—D, demi-cercle au milieu]
 
-Hypoth.
+hyp. | ac est 3,
+hyp. | cb est 3,
+arbitr. | bd est 2,
+2.a.1. | ad est 8,
+1.s.1.d.2 | ai ▭.adb est 16,
+1.s.1.d.2 | kg ▭.cb est 9,
+2.a.1. | ai + kg snt 25,
+1.s.1.d.2 | ce ▭.cd est 25.
 
-caeb est semic.
-ab est diamet.
-ed ⊥ ab.
+## PROPOS. VI. ALITER. — AVTREMENT.
+
+Si recta linea secetur in duo segmenta inæqualia, rectangulum comprehensum sub tota & differentia partium, vnà cum quadrato minoris segmenti, est æquale maioris segmenti quadrato.
+
+Si vne ligne droicte est couppée en deux parties inégales, le rectangle contenu sous la toute & la difference des parties, auec le quarré de la moindre partie, est égal au quarré de la plus grande partie.
 
 [Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]
 
-Req. π. demonstr.
+Hypoth.
 
-▭.ed 2|2 ▭.adb.
+ad est —.
+segm. ac 3|2 segm. cd.
 
 Præpar.
 
-1.p.1. | ec est —.
-
-Demonstr.
-
-hyp. | <edc est ∟,
-15.d.1. | ac 2|2 cb,
-5.2. | ▭.adb + ▭.cd 2|2 ▭.cb u ce,
-47.1. | ▭.ed + ▭.cd 2|2 ▭.ce,
-1.a.1. | ▭.adb + ▭.cd 2|2 ▭.ed + ▭.cd,
-| ▭.cd commun. subtr.
-concl. 3.a.1. | ▭.adb 2|2 ▭.ed.
-
-## PROBL. VI. PROPOS. VI.
-
-Si recta linea bifariam secetur, & illi recta quæ-
+3.p.1. | caeb est semic.
+2.p.1. | adb est —,
+11.p.1. | de ⊥ ab,
+1.p.1. | ce est —,

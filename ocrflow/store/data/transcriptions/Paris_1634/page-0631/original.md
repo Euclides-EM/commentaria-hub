@@ -1,28 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## THEOR. XXX. PROPOS. XLII.
+2s.27.10 | aggreg..□.ae + □.eb, est ration.
+1s.27.10 | □.ad + □.db ∼ □.ae ∼ □.eb, est ration.
+c.17.ap. | □.ad + □.db ∼ □.ae ∼ □.eb 2|2, 2aeb ∼ 2▭.adb,
+s.12.10 | 2▭.aeb ∼ 2▭.adb, est ration.
+s.12.10 | ▭.aeb ∼ ▭.adb, est ration.
+γ | contr. 27.10.
 
-Si duæ rectæ lineæ potentia incommensurabiles componantur, quæ faciant & compositum ex ipsarum quadratis medium, & quod sub ipsis continetur medium, incommensurabiléque composito ex quadratis ipsarum; tota recta linea irrationalis erit: vocetur autem bina media potens.
+## THEOR. XXXII. PROPOS. XLIV.
 
-*Si deux lignes droictes incommensurables en puissance sont composees, lesquelles facent le composé de leurs quarrez medial, & le rectangle contenu sous icelles, medial, & incommensurable au composé de leurs quarrez, la toute sera irrationelle : soit icelle appellee pouuant deux mediaux.*
+Quæ ex binis mediis prima, ad vnum duntaxat punctum diuiditur in nomina.
 
-G H K (line) E L F A C B (rectangle)
+*La ligne de deux mediales premiere est diuisee en ses noms, à vn poinct seulement.*
 
 Hypoth.
 
-gh, incomm. hk ꝗn □,
-□.gh + □.hk, est medi.
-▭.ghk, est medi. α
-▭.ghk, incomm. aggreg.. / □.gh + □.hk, β
+ab, est bimed. 1.
+ad & db snt nom; α
 Req. π. demonstr.
-gk, est irration.
-
-Præpar.
-
-suppos. | fb, est ration. expos.
-4.app. | ▭af 2|2 □.gk, γ
-4.app. | ▭cf 2|2 □.gh / + □.hk. ♪
+ae & eb, n̄, snt nom;
 
 Demonstr.
 
-hyp. | □.gh + □.hk, est / medi.
+3.p.1 | falb & fcgd snt ⊙,
+suppos. | ae & eb snt nom; β
+α.38.10 | af, n̄, est 2|2 ae, u ad,
+αβ38.10 | □.ad, □.db, □.ae, □.eb snt medi. γ
+38.10 | ▭.aeb & ▭.adb snt ration.
+s.27.30 | ▭.aeb ∼ ▭.adb, est ration.
+s.6.2. & s.12.10 | 2▭.aeb ∼ 2▭.adb, est ration.
+
+ꝗn figur. præceden.

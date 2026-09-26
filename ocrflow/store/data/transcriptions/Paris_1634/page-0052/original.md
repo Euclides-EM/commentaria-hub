@@ -1,15 +1,13 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Figure: trapeze GNDH, H en haut à gauche, D en haut à droite, G en bas à gauche, N en bas]
+Trapezium scalenum est, cuius duo latera opposita sunt parallela, & reliqua duo latera inter se inæqualia, vt DHFK. | Trapeze scale est celuy qui a deux costez opposez paralleles, & les deux autres costez inegaux entr'eux, cöme DHFK.
 
-### XXXIV.
+[Figure: trapeze scalene DHFK, D en haut à gauche, H en haut à droite, K en bas à gauche, F en bas ; à costé : dh Ⅱ kf. fh 3|2 kd.]
 
-Parallelæ rectæ lineæ sunt, quæ cum in eodem sint plano, & ex vtraque parte, in infinitum producantur, in neutram sibi mutuò incidunt, vt A & B. | Paralleles sont lignes droictes, lesquelles estant en vn mesme plan, & prolongees infiniment de part & d'autre, ne se rencontrent d'vn costé ny d'autre, comme A & B.
+Trapezium irregulare est, cuius nulla latera inter se sunt parallela, vt ABCD. | Trapeze irregulier est celuy qui n'a aucuns costez paralleles, comme ABCD.
 
-[Figure: deux lignes droictes horizontales paralleles A et B]
+[Figure: quadrilatere irregulier ABCD, D au sommet, A en bas à gauche, B en bas au milieu, C en bas à droite]
 
-Hic finem imposuit Euclides definitionibus primi libri, sequentes duæ sunt ex Clauio, quæ deinceps sequütur sunt à nobis additæ. | Euclide a icy fini les definitions du premier liure, les deux suiuantes sont de Clauius, & celles qui suiuent nous les auons adjoustées.
+### XXXVI.
 
-### XXXV.
-
-Parallelogrammum est figura quadrilatera, cuius bina opposita latera sunt parallela, seu æquidistantia, vt GLHM. | Parallelogramme est vne figure quadrilatere, de laquelle les costez opposez sont paralleles ou equidistantes, comme GLMH.
+Cùm verò in parallelogrammo diameter ducta fuerit, duæque lineæ lateribus parallelæ secantes diametrum in vno eodemque puncto, ita vt parallelogrammü | Mais quand en vn parallelogramme on meine vn diametre ou diagonale, & deux lignes droites paralleles aux costez, coupantes le diametre en vn mesme poinct, en sorte que le pa-

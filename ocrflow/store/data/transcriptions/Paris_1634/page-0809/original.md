@@ -1,21 +1,22 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-Quod de conis demonstratum est debet etiam intelligi de cylindris, eodémque modo fiet demonstratio, si loco conorum, & pyramidum concipiantur cylindri & prismata. | *Ce qui a esté prouué des cones se doit außi entendre des cylindres, & se demonstrera ainsi que des cones, si au lieu des cones & des pyramides on entend des cylindres & des prismes.*
+22. 5 | uc π uк 2|2 qg π qm,
+δ. 7. 5 | uk π ck 2|2 qm π mg,
+22. 5, & 5. 6 | △uкc ſml. △qmg, ε
+d. ε | △;. pyram. atbucxdyк ſml. △;. pyram. epfqgrhſm,
+γ. 9. d. 11 | pyram. atbucxdyk ſml. pyram. epfqgrhſm.
+pyram. atbucxdyк π pyram. epfqgrhſm / c. 8. 12 | 3; raō; uc π qg / 4. 6 | Ⅱ 3; raō; ui π ql / 15. 5 | Ⅱ 3; raō;. diamet. tx π diamet. pr / α | con. abcdк π ſolid. n, ſnt raō; 2|2 ꝗe
+11. 5 | pyram. atbucdyк π con. abcdк 2|2 pyram. epfqgrhſm, π ſolid. n, θ
+9. a. 1 | pyram. atbucdyк 2|3 con. abcdк,
+14. 5 | pyram. epfqgrhſm 2|3 ſolid. n,
 
-## COROLL.
+contr. concl. β
 
-Hinc sequitur, conos & cylindros eiusdem altitudinis super eandem vel æquales bases constitutos, esse inter se æquales: Et contrà conos & cylindros æquales super eandem vel æquales bases in eadem esse altitudine: Et æquales in eadem altitudine, super æquales bases esse si non habuerint eandem.
-
-*D'où il s'ensuit que les cones & cylindres constituez sur mesme base, ou bases egales, & de mesme hauteur sont egaux: & au contraire les cones & cylindres egaux constituez sur mesme base, ou sur egales, sont de mesme hauteur: Et les cones & cylindres egaux de mesme hauteur sont außi sur bases egales ou vne mesme.*
-
-## THEOR. XII. PROPOS. XII.
-
-Similes coni & cylindri, in triplicata ratione sunt diametrorum quæ in basibus.
-
-*Les cones & les cylindres semblables, sont l'vn à l'autre en raison triplee des diametres de leurs bases.*
-
-Hipoth.
-
-abcdк & efghm ſnt con; ſml. ꝗe,
-⊙iabcd & ⊙lefgh ſnt baſ;
-tx & pr ſnt diamet;
+21. a. 1 | ſolid. n n̄ eſt 2|3 con. efgm, к
+2ſuppo. | ſolid. n 3|2 con. efghm, λ
+θ | con. abcdk π n 2|2 pyram. atck π pyram. eprm,
+c. 4. 5 | n π con. abcdk 2|2 pyram. eprm π pyram. atck,
+c. 8. 12 | raō.. pyram. eprm π pyram. atck 2|2, 3; raō. qg π uc Ⅱ pr π tx,
+11. 5 | raō. n π con. abcdk 2|2, 3; raō; pr π tx,
+ſuppoſ. | n π con. abcdк 2|2 con. efghm π ſolid. o, μ
+11. 5 | raō. con. efghm π ſolid. o 2|2, 3; raō; pr π tx,

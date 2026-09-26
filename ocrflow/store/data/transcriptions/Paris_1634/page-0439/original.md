@@ -1,38 +1,41 @@
-<!-- Running title: ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
 
-## DEFINIT. XV.
+## DEFINIT. XVIII.
 
-Numerus numerū multiplicare dicitur, cum toties compositus fuerit is, qui multiplicatur, quot sunt in ipso multiplicāte vnitates, & procreatus fuerit aliquis.
+Quadratus numerus est, qui æqualiter æqualis, vel qui sub duobus æqualibus numeris continetur.
 
-*Vn nombre est dit en multiplier vn autre, quand il en est produit quelqu'vn, qui est composé autant de fois du multiplié, qu'il y a d'vnitez au multipliant.*
+*Nombre quarré est celuy qui est egalement egal, ou qui est contenu sous deux nombres egaux.*
 
-A,15. B,3. C,45.
+A,2. B,3. C,9.
 
-c 2|2 ▭.a,b,
-
-Vel sic. *Ou ainsi.*
-
-c 2|2 ab.
+hyp. | a 2|2 b,
+hyp. | ▭.a,b est c,
+18 d.7 | c, est nr. □.
 
 Explicatio notarum. Explication des notes.
 
-C, est æqualis numero, qui fit ex multiplicatione A in B.
+Numerus A, est æqualis numero B.
 
-*C, est egal au produit qui vient en multipliant A, par B.*
+*Le nombre A, est egal au nombre B.*
 
-## COROLL.
+Numerus A, ductus in numerum B, facit numerum C : igitur C, est numerus quadratus.
 
-In omni multiplicatione vnitas est ad multiplicatorem, vt multiplicatus ad productum.
+*A, estant multiplié par B, fait C : partant C, est nombre quarré.*
 
-*En toute multiplication l'vnité est au multiplicateur, comme le multiplié au produit.*
+## DEFINIT. XIX.
 
-D,1. A,15. B,3. C,45.
+Cubus verò, qui æqualiter æqualis æqualiter, vel qui sub trib. æqualibus numerus cōtinetur.
 
-hyp. | ▭.a,b 2|2 c,
-c.15.d.7 | d π b 2|2 a π c.
+*Nombre cube est celuy qui est egalement egal egalement, ou qui est contenu sous trois nombres egaux.*
 
-## DEFINIT. XVI.
+A,3. B,3. C,3. D,27.
 
-Cum autē duo numeri sese multiplicantes aliquē fecerint, qui factus
+hyp. | a,b,c snt nr. 2|2 ꝫe,
+hyp. | d 2|2 abc,
+19.d.7 | d, est nr. cub.
 
-*Mais quand deux nombres se multipliant l'vn l'autre en produisent quel-*
+Explicatio notarum. Explication des notes.
+
+A, B, C sunt numeri æquales inter se.
+
+*A, B, C sont nombres egaux entr'eux.*

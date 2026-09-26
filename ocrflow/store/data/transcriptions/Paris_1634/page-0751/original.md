@@ -1,46 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-[Figure: labels arranged C / A E H / I K / B / G F D]
+20. 11 | <adb + <adc 3|2 <bdc,
+4 a. c | <abc + <abd + <acb + <acd + <adc + <adb 3|2, 2 ⊥;
+concl. 5. a. b | <bac + <cad + <bad 2|3, 4
+
+## THEOR. XX. PROPOS. XXII.
+
+Si fuerint tres anguli plani, quorum duo vt libet assumpti reliquo sint majores; comprehendant autem ipsos rectæ lineæ æquales, fieri potest, vt ex lineis æquales illas rectas connectentibus triangulum constituatur.
+
+*S'il y a trois angles plans, deux desquels, pris comme on voudra, sont plus grands que l'autre; mais qu'iceux soient contenus de lignes droictes egales; il se peut faire, que des lignes droictes conjoignantes icelles lignes egales, soit constitué vn triangle.*
+
+[Figure: labels arranged A / D E F / B / K G / C / H I]
 
 Hypoth.
 
-plan; ab & cd snt ⊥ plan. gh,
-fe, est intersect.. plan. ab & cd.
+a, b, hci snt <; plan;
+ad, ae, bf, bg, ch, ci snt 2|2 ꝗe, α
+<a 2|3 <b + <hci, β
+<b 2|3 <a + <hci,
+<hci 2|3 <a + <b.
 
 Req. π. demonstr.
 
-ef, est ⊥ plan. gh.
-
-Demonstr.
-
-suppos. | ef ⊥ fb & fd,
-1. concl 4. 11 | ef ⊥ plan. gh,
-suppos. | ef ⊥ fb,
-2 concl. 2.4.d.11 | ef ⊥ plan. gh, α
-suppos. | ef n̄ est ⊥ fb, Ⅱ fd,
-11. 11 | fi, ꝗn plan. cd ⊥ fd,
-11. 11 | fk, ꝗn plan. ab ⊥ fb,
-α | fi, fk snt ⊥ plan. gh
-contr. 13. 11.
-
-## THEOR. XVIII. PROPOS. XX.
-
-Si solidus angulus tribus angulis planis contineatur: ex his duo quilibet vtvt assumpti tertio sunt majores.
-
-*Si vn angle solide, est contenu de trois angles: deux d'iceux pris de quelque façon que ce soit, sont plus grands que le troisiesme.*
-
-[Figure: labels arranged D / A / B E C]
-
-Hypoth.
-
-<abcd, est solid.
-
-Req. π. demonstr.
-
-<bad + <dac 3|2 <bac.
+de 2|3 fg + hi,
+fg 2|3 de + hi,
+hi 2|3 de + fg.
 
 Præpar.
 
-23. 10 | <bae 2|2 <bad, α
-3. 1 | ad 2|2 ae, β
-arbitr. | bec, est ——,
+23. 1 | <hck 2|2 <b,
+3. 1 | ck 2|2 ch, γ
+1. p. 1 | hк & iк snt ——.

@@ -1,38 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle A—B—C—D, G au dedans, F et E sur les lignes, lignes B—D, A—C, G—A, G—C, G—E]
+[Figure: cercle B—C—D—A, E au centre, F sous E sur la corde A—C, lignes B—D, A—C, E—A, E—C]
 
-15.d.1 | ga 2|2 gc,
-8.1 | <ceg 2|2 <aeg,
-10.d.1 | <ceg est ∟,
-constr. | <ceb est ∟,
-12.a.1 | <ceg 2|2 <ceb, contr. 9.a.1.
-concl 21.a.1 | • f est centr.. ⊙.
+1.p.1 | ea, ec snt —,
 
-## COROLL.
+Demonstr.
 
-Hinc manifestum est, si in circulo recta aliqua linea aliquam rectam lineam bifariam, & ad angulos rectos secet, in secante esse centrum circuli.
+hyp. | af 2|2 fc,
+| fe est commun.
+15.d.1 | ae 2|2 ec,
+8.1 | <afe 2|2 <cfe,
+1.concl. 10.d.1 | ef ⊥ ac.
 
-De cette proposition il est euident, que si au cercle, vne ligne droicte est couppée en deux également & à angles droicts, par vne autre ligne droicte, le centre du cercle sera en icelle couppāte.
+Hypoth. 2.
 
-## THEOR. I. PROPOS. II.
-
-Si in circuli peripheria duo quælibet puncta accepta fuerint; recta linea, quæ ad ipsa puncta adiungitur, intra circulum cadet.
-
-Si en la circonference d'vn cercle on prend deux poincts tels qu'on voudra; la ligne droicte coniointe à iceux poincts tombera dedans le cercle.
-
-[Figure: cercle avec C au dedans en haut, A à gauche, B à droite, D en bas sur la corde, lignes C—A, C—B, C—D, A—B]
-
-Hypoth.
-
-cab est ⊙,
-arbitr. | a & b snt • in ∩,
-| ab est —,
+ef ⊥ ac. α
 
 Req. π. demonstr.
 
-ab est in ⊙.
+af 2|2 fc.
 
-Præpar.
+Demonstr.
 
-arbitr. | d est • in ab,
+α.12.a.1 | <efa 2|2 <efc,
+5.1 | <eac 2|2 <eca,
+| ef est commun.
+2.cōcl. 26.1 | af 2|2 fc.
+
+## COROLL.
+
+Ex hac demonstratione sequitur, in quouis triangulo duorum laterum æqualium, siue æquilaterum illud sit, siue isosceles, lineam quæ ab angulo verticis ductam basim bifariam secat perpendicularem esse ad basin. Et contra lineam quæ ab angulo verticis ductam ad basin est perpendicularis, secare basin bifariam.
+
+De cette demonstration s'ensuit qu'en tout triangle isoscele ou equilateral, que la ligne menée de l'angle du sommet au milieu de la base est perpendiculaire à la base: & au contraire la ligne perpendiculaire à la base, menée de l'angle opposé, la couppera en deux également.
+
+## THEOR. III. PROPOS. IV.
+
+Si in circulo duæ rectæ lineæ sese mutuo secent non per centrum extensæ; sese mutuo bifariam non secabunt.

@@ -1,54 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle D—E—F, ligne A—C—B tangente en bas, lignes C—D, C—E, C—F, D—E, E—F]
+æquale est ei, quob sub segmentis alterius comprehenditur, rectangulo.
+
+Si au cercle deux lignes droictes se couppent l'vne l'autre; le rectangle contenu sous les deux parties de l'vne, est égal au rectangle contenu sous les deux parties de l'autre.
+
+[Figure: quatre cercles marquez 1, 2, 3, 4 ; le premier A—C—B—D, E au dedans, lignes A—B, C—D ; le second A—C—D, F au dedans, E et B en bas, lignes A—E—B, C—D, F—D ; le troisiesme A—C—D—B, F au dedans, G et E en bas, lignes A—B, C—D, F—G, F—D ; le quatriesme G—A—C—B—H—D, F et E au dedans, lignes G—H, A—C, D—C, D—B]
 
 Hypoth.
 
-cfd est ⊙,
-ab, tang: ⊙,
-c, est • .. contact.
-ce, est — arbitr.
+fbca est ⊙,
+ab, & dc snt —.
 
 Req. π. demonstr.
 
-<ecb 2|2 <edc,
-<eca 2|2 <efc.
+▭.aeb 2|2 ▭.ced.
 
-Præpar.
+Demonstr.. 1. cas.
 
-11.1 | cd ⊥ ab,
-arbitr. | f, est • in ∩cfe,
-1.p.1 | cf, fe, ed snt —.
+suppos | ab & cd snt diamet.
+15.d.1 | ea,eb,ed,ec snt 2|2 ⁊e
+1.concl. 3.s.1.d.2 | ▭.aeb 2|2 ▭.ced.
 
-Demonstr.
+Demonstr.. 2. cas.
 
-19.3 | cd est diamet.
-31.3 | <ced est ∟,
-constr. | <dcb est ∟,
-32.1 | <edc + <ecd 2|2 ∟,
-1.a.1 | <dcb 2|2 <edc + <ecd,
-| <ecd commun. subtr.
-1.concl. 3.a.1 | <ecb 2|2 <edc, α
-22.3 | <efc + <edc 2|2, 2∟,
-13.1 | <eca + <ecb 2|2, 2∟,
-2.concl. α.3.a.1 | <eca 2|2 <efc.
+suppos. | ab est diamet.
+suppos. | ce 2|2 ed, α
+1.p.1 | fd est —,
+α.3.3 | <fed est ∟,
+2.concl. s.5.2 | ▭.aeb 2|2 ▭.edu▭.ced.
 
-## PROBL. V. PROPOS. XXXIII.
+Demonstr.. 3. cas.
 
-Super data recta linea describere segmentum circuli, quod capiat angulum æqualem dato angulo rectilineo.
-
-Sur vne ligne droicte donnée, descrire vn segment de cercle, lequel reçoiue vn angle égal à vn angle rectiligne donné.
-
-Hypoth.
-
-ab est — D.
-c, est < D.
-
-Req. π. fa.
-
-⌓ aieb capa.. <c.
-
-Constr.
-
-23.1 | <bad 2|2 <c,
-11.1 | ae ⊥ hd,
+suppos | ab est diamet.
+suppos. | ce 3|2 ed,
+12.1 | fg ⊥ cd, β
+1.p.1 | fd est —,

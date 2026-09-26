@@ -1,15 +1,15 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-guras rectilineas, quæ pluribus quam quatuor rectis lineis circumscribuntur generali vocabulo multilateras. | toutes autres figures rectilignes, circonscriptes de plus de quatre lignes, d'vn nom general multilateres.
+[Figure: triangle rectangle A, triangle obtusangle B]
 
-[Figure: triangle equilateral A]
+### XXVII.
 
-### XXIII.
+Amblygonium autem quod obtusum angulum habet, vt triangulum B. | L'amblygone est celuy qui a vn angle obtus ou moussu, comme le triägle B.
 
-Trilaterarum autem figurarum, æquilaterum est triangulum, quod tria latera habet æqualia, vt A. | Or des figures trilateres, celle qui a trois costez egaux, s'appelle triangle equilateral, comme A.
+### XXVIII.
 
-Triangulorum species, vel è laterum vel ex angulorum differentiis emergunt. | Les especes des triangles se prennent des differences des costez ou angles.
+Oxygonium verò, quod tres habet acutos angulos, vt triangulü C. | L'oxygone est celuy qui a tous les trois angles aigus, comme le triangle C.
 
-Habita ratione laterum, triangulum est æquilaterum, isosceles siue æquicrurum, & scalenum. | A raison des costez le triangle est equilateral, isoscele, & scalene.
+[Figure: triangle acutangle C]
 
-Habita verò ratione angulorum, triangulum est rectägulum, amblygonium siue obtusangulum, & oxygonium siue acutangulum. | A raison des angles, le triangle est rectangle, amblygone ou obtusangle, & oxygone ou aiguangle.
+Figura æquiangula est, cuius omnes anguli sunt inter se æquales : Duæ verò figuræ æquiangulæ sunt, si singuli anguli vnius singulis angulis alterius sint æquales. | Vne figure est equiangle, si tous ses angles sont egaux entr'eux : Mais deux figures sont equiangles, si chaque angle de l'vne est egal à chaque angle de l'autre.

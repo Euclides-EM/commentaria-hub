@@ -1,39 +1,48 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-15.1 | <fed 2|2 <beh,
-β.6.6 | <dfe 2|2 <ebh,
-32.3 | <dcb 2|2 <ebh,
-1.a.1 | <dfe 2|2 <dcb,
-concl. 29.1 | bc == ef.
-
-## THEOR. VI. PROPOS. XVII.
-
-Pappus lib. 7. propos. 57.
-
-[Figure: deux demicercles sur A B & sur C D, auec les poincts A, C, F, E, D, B, & les lignes F G, E L]
-
-Hypoth.
-
-af 2|2 fb,
-
-cf 2|2 fd,
-
-ad 3|2 ae.
-
 Req. π. demonstr.
 
-▭.aeb 2|2 ▭.adb + ▭.ced,
+▭.ac,bd 2|2 ▭.ad,bc + ▭.ab,cd,
 
-□.ad + □.db 2|2 □.ae + □.eb + 2▭.ced.
+[Figure: ligne A B C D]
 
 Demonstr.
 
-5.2 | ▭.aeb + □.fe 2|2 □.fb,
-5.2 | ▭.adb + □.fd 2|2 □.fb,
-1.a.1 | ▭.aeb + □.fe 2|2 ▭.adb + □.fd,
-4.2 | ▭.ced + □.fe 2|2 □.fd,
-1.a.f | ▭.aeb + □.fe 2|2 ▭.adb + ▭.ced + □.fe,
-1.concl. 3.a.1 | ▭.aeb 2|2 ▭.adb + ▭.ced, α
-4.2 | □.ad + □.db + 2adb 2|2 □.ab,
-4.2 | □.ae + □.eb + 2▭.aeb 2|2 □.ab,
-1.a.1 | □.ad + □.db + 2▭.adb 2|2 □.ae + □.eb + 2▭.aeb,
+1.2 | ▭.ac,bd 2|2 ▭.ab,cd + ▭.bc,cd + ▭.ac,bc,
+1.2 | ▭.ad,bc 2|2 ▭.bc,cd + ▭.bc,ac,
+concl. 1.a.f | ▭.ac,bd 2|2 ▭.ab,cd + ▭.ad,bc.
+
+## THEOR. VIII. PROPOS. XIX.
+
+Vaulezard sur la 2. du 4. liure des Zetetiques de Viette.
+
+[Figure: rectangle B, C, D, A auec les poincts E sur A B & F sur A D, & les lignes E C, F C, E F]
+
+Hypoth.
+
+abcd est ▭,
+
+arbitr. | e, est • in ab,
+
+ec est —,
+
+<cef est ⌐,
+
+fc est —.
+
+Req. π. demonstr.
+
+▭.ec,bc ~ ▭.fe,eb 2|2 ▭.ec,fd,
+
+▭.fe,cb + ▭.ec,eb 2|2 ▭.ec,dc,
+
+▭.fe,ae + ▭.fa,ec 2|2 ▭.fe,dc,
+
+▭.ea,ec ~ ▭.fe,af 2|2 fe,fd,
+
+<efc 2|2 <fea + <fcd.
+
+Demonstr.
+
+hyp. | <fec est ⌐,
+13.1 | <fea + <ceb 2|2 ⌐,

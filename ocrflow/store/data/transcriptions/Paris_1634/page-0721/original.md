@@ -1,28 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-[Figure: labels arranged H C E G F / D / A B]
+## THEOR. XCI. PROPOS. CXV.
 
-——, incomm. bd,
-θк.15.10 | □.eh 3|2 □.ch..□. ——, incomm. eh,
-suppos | bd, comm. ration.
-ρ. 12.10 | eh, comm. ration.
-4d48.10 | bc, est binom. 4.
-4d85.10 | ec, est apotom. 4.
-suppos. | dc, comm. ration.
-ϖ12.10 | ch, comm. ration.
-5d48.10 | bc, est binom. 5.
-5d85.10 | ec, est apotom. 5.
-suppos. | bd & dc snt incōm. ration.
-12. 10 | eh & ch snt incōm. ration.
-6d48.10 | bc, est binom. 6.
-6d85.10 | ec, est apotom. 6.
+Si spatium contineatur sub apotoma, & ea, quæ ex binis nominibus, cuius nomina commensurabilia sunt nominibus apotomæ, & in eadem proportione;recta linea spatium potens,est rationalis.
 
-## THEOR. XC. PROPOS. CXIV.
+*Si vn espace est contenu sous vn apotome & sous vne ligne appellee binome, de laquelle les noms sont commensurables aux noms de l'apotome & en mesme raison; la ligne droicte pouuant iceluy espace est rationelle.*
 
-Quadratum rationalis ad apotomen applicatum, latitudinem facit eam, quæ ex binis nominibus, cuius nomina commensurabilia sunt apotomæ nominibus, & in eadem proportione; & adhuc, quæ ex binis nominibus fit, eundem habet ordinem quem ipsa apotome.
-
-*Le quarré d'vne ligne rationelle appliqué à vn residu, fait la latitude binome, dont les noms sont commensurables aux noms du residu, & en mesme raison; & en outre le binome est de mesme ordre que le residu.*
+[Figure: labels arranged E F G / A C / D / I B H]
 
 Hypoth.
 
-a, est ration.
+ab, est ▭.ac, ab,
+ac, est apotom.& ae, congruen.
+cb, est binom.
+cd & db snt nom.
+cd 3|2 db,
+cd, comm. ce,
+db, comm. ae,
+ce π ea 2|2 cd π db,
+□.f 2|2 ▭ab.
+
+Req. π. demonstr.
+
+f, est ration.
+
+Præpar.
+
+arbitr. | g, est ration.
+4. app. | ▭ch 2|2 □.g,
+
+Demonstr.
+
+113.10 | bh, est apotom.
+113.10 | hi, comm. cd,
+111.10 | bi, comm. db,
+113.10 | hi π bi 2|2 cd π db, Ⅱ ce π ea,
+16. 5 | hi π ce 2|2 bi π ea,
+19. 5 | bh π ac 2|2 hi π ce, Ⅱ bi π ea,

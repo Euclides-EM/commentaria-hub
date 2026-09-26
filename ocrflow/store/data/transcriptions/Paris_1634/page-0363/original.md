@@ -1,30 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-Si quatre lignes droictes sont proportionelles, les figures rectilignes semblables & semblablement descrites sur icelles seront proportionelles : Et si les figures rectilignes semblables & semblablement descrites sur lignes droictes sont proportionelles, icelles lignes droictes seront außi proportionelles.
-
-[Figure: triangles A, B, I et C, D, K ; quarrez E, F, L, M et G, H, N, O]
-
-Hypoth. 1.
-
-ab π cd 2|2 ef π gh, α
-abi, sml. cdk,
-efml, sml. ghon.
-
-Req. π. demonstr.
-
-abi π cdk 2|2 em π go.
-
 Demonstr.
 
-hyp. | ab π cd 2|2 ef π gh,
-19.6 | raō.. Δabi π Δcdk 2|2, 2 raō.. ab π cd u ef π gh,
-20.6 | raō.. em π go 2|2, 2 raō.. ef π gh,
-1.concl. 1.s.13.5 | Δabi π Δcdk 2|2 em π go.
+31.3 | <aeb est ⌐,
+constr. | ed ⊥ ab,
+c.8.6 | ad π de 2|2 de π db,
+22.6 | □.ad π □.de 2|2 □.de π □.db,
+17.6 | □.de 2|2 ▭.adb,
+1.concl. 1.a.f | □.ad π ▭.adb 2|2 ▭.adb π □.db,
+c.8.6 | ba π ae 2|2 ae π ad,
+22.6 | □.ba π □.ae 2|2 □.ae π □.ad,
+17.6 | □.ae 2|2 ▭.bad,
+2.concl. 1.a.f | □.ba π ▭.bad 2|2 ▭.bad π □.ad, α
+3.concl. d.α | □.ab π ▭.abd 2|2 ▭.abd π □.db.
 
-Hypoth. 2.
+## THEOR. XVII. PROPOS. XXIII.
 
-Δabi π Δcdk 2|2 em π go.
+Æquiangula parallelogramma inter se rationem habent eam, quæ ex lateribus componitur.
+
+Les parallelogrammes equiangles, sont l'vn à l'autre en raison composee de celle de leurs costez.
+
+[Figure: parallelogrammes A, B, C, D, H, G et C, E, F, G se touchant en C]
+
+Hypoth.
+
+◇ac æquiang. ◇cf,
+<bcd 2|2 <ecg,
 
 Req. π. demonstr.
 
-ab π cd 2|2 ef π gh.
+raō.. ◇ac.π.◇cf 2|2 raō.. bc π cg + raō.. dc.π.ce,
+
+Præpar.
+
+3.1 | bcg est —,

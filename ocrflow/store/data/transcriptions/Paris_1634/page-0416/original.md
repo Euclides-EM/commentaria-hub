@@ -1,39 +1,50 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-1.6 | ▭.gca π □.ac, 36.3 | ▭.bcd 2|2 ▭.gca,
-1.6 | ▭.fea π □.ea, 36.3 | ▭.bed 2|2 ▭.fea,
-16.5 | ▭.gca π ▭.fea, concl. 7.5 | ▭.bcd π ▭.bed,
-16.5 | □.ac π □.ea, concl. 7.5 | □.ac π □.ea.
+36.3 | ▭.ebd 2|2 ▭.abf,
+concl. 11.5 | □.ac π □.ab 2|2 ▭.dce π ▭.ebd.
 
-## THEOR. XVIII. PROPOS. XXIX.
+## THEOR. XX. PROPOS. XXXI.
 
-Pappus lib. 7. propos. 28.
+Pappus lib. 7. propos. 119.
 
-[Figure: triangle auec les poincts F, B, A, D, E, C, G]
+[Figure: triangle auec les poincts A, B, C, D]
 
 Hypoth.
 
-abc & dae snt Δ,
+abd & abc snt Δ,
 
-<bae & <dac snt ⌐.
+▭.bdc 2|2 □.ad.
 
 Req. π. demonstr.
 
-▭.bce π ▭.bde 2|2 □.ac π □.ad.
-
-Præpar.
-
-11.1 | fdg ⊥ ad,
-2.p.1 | aeg est —.
+bd π dc 2|2 □.ab π □.ac.
 
 Demonstr.
 
-hyp. | <dac est ⌐,
-constr. | <adg est ⌐,
-28.1 | fdg == ac,
-29.1 | Δaec æquiang. Δdeg, α
-29.1 | Δabc æquiang. Δfbd, β
-hyp. | <fag est ⌐,
-8.6, & 17.6 | □.ad 2|2 ▭.fdg,
-13.6 | raō..□.ac π □.ad u ▭.fdg 2|2 raō..ac π fd + raō..ac π dg,
-s.4.6 | raō.,cb π bd 2|2 raō..ac π fd,
+14.6 | bd π da 2|2 da π dc, α
+6.6 | Δbda æquiang. Δacd,
+6.6 | <b 2|2 <cad.
+c.4.6 | ab π ac, bd π ad, ad π cd snt raō. 2|2 ʒe,
+α.10.d.5 | raō..bd π cd 2|2, 2 raō..bd π ad,
+20.6 | raō..□.ab π □.ac 2|2, 2 raō..ab π ac,
+concl. 11.5 | bd π cd 2|2 □.ab π □.ac.
+
+## THEOR. XXI. PROPOS. XXXII.
+
+Pappus lib. 7. propos. 144.
+
+Hypoth.
+
+abc est semic.
+
+bd est tangen.
+
+b, est • ..contact.
+
+acd est —,
+
+beh ⊥ ac,
+
+arbitr. | f, est • in ◠ ab,
+
+fd est —.

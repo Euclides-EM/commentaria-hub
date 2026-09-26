@@ -1,47 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-[Figure: angle en A, poincts D et E sur les costez, F en bas, triangle DEF]
-
-1.1. | def est △ æquilat.
-1.p.1. | af est —,
-symp. | <fad 2|2 <fae
+1.p.1. | cf est —,
+symp. | cf ⊥ ab.
 
 Demonstr.
 
-constr. | ad 2|2 ae,
-| af est commun.
+constr. | ce 2|2 cd,
+| cf est commun.
 constr. | df 2|2 ef,
-concl. 8.1. | <fad 2|2 <fae.
+8.1. | <fcd 2|2 <fce,
+10.d.1. | <fcd & <fce snt ∟,
+concl. 10.d.1. | fc ⊥ ab.
 
 CONSTR.. PRA.
 
-hyp. | bac est < D.
-3.p.1. | ade, df, ef, snt ⊙ 2|2 ꝗe, arbitr.
-1.p.1. | af est —,
-symp. | <fab 2|2 <fac.
+[Figure: à gauche, ligne B—A—C, arcs D et G, ligne verticale AE, arcs s'entrecoupans en E ; à droite, ligne D—A—C, trois cercles s'entrecoupans, poincts E en haut, G à droite, A en bas]
 
-Demonstr.
+hyp. | a est • D. ⟨n bc,
+3.p.1. | acgd, cg, gde, dge snt ⊙ 2|2 ꝗe arbitr.
+1.p.1. | ae est —,
+symp. | ae ⊥ bc.
 
-8.1. | <fad 2|2 <fae.
+Demonstr. est ⟨n schol. 15.. 4.
 
-[Figure: angle en A, D et E sur les costez, B et C en bas, ligne pointillée AF, arcs s'entrecoupans en F]
+## PROBL. VII. PROPOS. XII.
 
-## PROBL. V. PROPOS. X.
+Super datam rectam lineam infinitam, à dato puncto, quod in ea non est, perpendicularem rectam deducere.
 
-Datam rectam lineam bifariam secare.
-
-Coupper vne ligne droicte donnée & terminé en deux parties égales.
-
-[Figure: triangle ABC, C au sommet, ligne verticale de C au milieu de AB]
-
-Hypoth.
-
-ab est — D.
-
-Req. π. fa.
-
-ad 2|2 db.
-
-Constr.
-
-1.1. | abc est △ æquilat.
+Sur vne ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle abbaisser vne ligne perpendiculaire.

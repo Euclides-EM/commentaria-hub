@@ -1,47 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-Req. π. demonstr.
-
-he == fg.
-
-Demonstr.
-
-suppos. | hei & fgi snt ——,
-1. 11 | hei, est ꝗn plan. ab, α
-1. 11 | fgi, est ꝗn plan. cd, α
-α | i, est ꝗn plan; ab & cd,
-contr. hypoth.
-
-[Figure: labels arranged I / A E C G / H B F D]
-
-## THEOR. XV. PROPOS. XVII.
-
-Si duæ rectæ lineæ parallelis planis secentur; in easdem rationes secabuntur.
-
-*Si deux lignes droictes sont couppees par des plans paralleles; icelles seront couppees proportionellement.*
-
-[Figure: labels arranged A C F / E / L N M H / G / B D K / I]
+[Figure: labels arranged C / A E H / I K / B / G F D]
 
 Hypoth.
 
-ef, gh, ik snt plan; == ꝗe,
-alb, cmd snt ——,
-a, l, b & c, m, d snt ●; ꝗn plan; ef, gh, ik.
+plan; ab & cd snt ⊥ plan. gh,
+fe, est intersect.. plan. ab & cd.
 
 Req. π. demonstr.
 
-al π lb 2|2 cm π md.
-
-Præpar.
-
-1. p. 1 | ac & bd snt ——,
-1. p. 1 | and, est ——,
-1. p. 1 | nl & nm snt ——.
+ef, est ⊥ plan. gh.
 
 Demonstr.
 
-2. 11 | △adb & △adc snt plan;
-16. 11 | ln == bd, nm == ac,
-2. 6 | al π lb 2|2 an π nd,
-2. 6 | cm π md 2|2 an π nd,
-concl. 11. 5 | al π lb 2|2 cm π md.
+suppos. | ef ⊥ fb & fd,
+1. concl 4. 11 | ef ⊥ plan. gh,
+suppos. | ef ⊥ fb,
+2 concl. 2.4.d.11 | ef ⊥ plan. gh, α
+suppos. | ef n̄ est ⊥ fb, Ⅱ fd,
+11. 11 | fi, ꝗn plan. cd ⊥ fd,
+11. 11 | fk, ꝗn plan. ab ⊥ fb,
+α | fi, fk snt ⊥ plan. gh
+contr. 13. 11.
+
+## THEOR. XVIII. PROPOS. XX.
+
+Si solidus angulus tribus angulis planis contineatur: ex his duo quilibet vtvt assumpti tertio sunt majores.
+
+*Si vn angle solide, est contenu de trois angles: deux d'iceux pris de quelque façon que ce soit, sont plus grands que le troisiesme.*
+
+[Figure: labels arranged D / A / B E C]
+
+Hypoth.
+
+<abcd, est solid.
+
+Req. π. demonstr.
+
+<bad + <dac 3|2 <bac.
+
+Præpar.
+
+23. 10 | <bae 2|2 <bad, α
+3. 1 | ad 2|2 ae, β
+arbitr. | bec, est ——,

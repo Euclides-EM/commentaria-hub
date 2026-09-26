@@ -1,41 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-[Figure: labels arranged D / A / B E C]
-
-1. p. 1 | db & dc snt ——.
+[Figure: labels arranged A / D E F / B / K G / C / H I]
 
 Demonstr.
 
-αβ. 4.1 | bc 2|2 bd,
-20. 1 | bd + dc 3|2 bc,
-5. a. 1 | dc 3|2 ec,
-β. 25.1 | <cad 3|2 <cae,
-concl. α. 4.a.1 | <bad + <dac 3|2 <bac.
+constr. | <hcк 2|2 <b,
+α. 4. 1 | кh 2|2 fg,
+2.a. 1 | <kci 2|2 <b + <hci,
+β. 1.a.c | <a 2|3 <kci,
+γ.cōstr. | ab, ae, ck, ci snt 2|2 ꝗe
+24. 1 | кi 3|2 de, δ
+20. 1 | hi + kh, Ⅱ fg 3|2 кi,
+1.concl. δ. 1. a.c | hi + fg 3|2 de, ε
+2 concl. d. ε | hi + de 3|2 fg,
+3.concl. d. ε | de + fg 3|2 hi.
 
-## THEOR. XIX. PROPOS. XXI.
+## PROBL. III. PROPOS. XXIII.
 
-Omnis solidus angulus sub minoribus, quam quatuor rectis angulis planis continetur.
+Ex tribus angulis planis, quorum duo quomodocunque assumpti reliquo sunt majores, solidum angulum constituere: oportet autem illos tres angulos quatuor rectis minores esse.
 
-*Tout angle solide est contenu sous des angles plans, lesquels sont plus petits que quatre angles plans droicts.*
+*Constituer vn angle solide de trois angles plans, deux desquels pris comme on voudra, sont plus grands que l'autre: mais il faut que ces trois angles soient plus petits que quatre droicts.*
 
-[Figure: labels arranged D / A / B C]
+[Figure: labels arranged A / B / C / M K / D E F G / H L E]
 
 Hypoth.
 
-abcd, est < solid.
+<a 2|3 <b + <c,
+<b 2|3 <a + <c,
+<c 2|3 <a + <b,
+<a + <b + <c 2|3, 4 ⊥.
 
-Req. π. demonstr.
+Req. π. fa.
 
-<bac + <cad + <bad snt 2|3, 4 ⊥;
-
-Præpar.
-
-1. p. 1 arbitr. | bc, cd, bd snt ——.
-
-Demonstr.
-
-2. 11 | △bcd, △bac, △cad, △bad snt plan.
-32. 1 | <bac + <abc + <acb + <cad + acd + <adc + <bad + <abd + <adb 2|2, 6 ⊥,
-32. 1 | <dbc + <bcd + <bdc 2|2, 2 ⊥,
-20. 11 | <abc + <abd 3|2 <dbc,
-20. 11 | <acb + <acd 3|2 <bcd,
+< solid. mhik 2|2 <a + <b + <c.

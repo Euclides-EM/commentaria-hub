@@ -1,53 +1,28 @@
-<!-- Running title: ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
 
-Req. π. demonstr.
+hyp. | ab π cd 2|2 e π f,
+13.7 | ab π e 2|2 cd π f,
+hyp. | ab 2|3 e & cd 2|3 f,
+4.7. & ɔ.20.d7 | ab par. u part.. e 2|2 cd par. u part.. f.
+suppos. | ab par.. e 2|2 cd par. f,
+concl. s.4.d.7 | ab msur: e 2|2 cd msur: f,
+suppos. | ab part.. e 2|2 cd part.. f,
+s.4.d.7 | multd.. part.. ab 2|2 multd.. part.. cd,
+suppos. | ag, gb snt part.. ab, & ch, hd snt part.. cd,
+s.4.d.7 | ag msur: e 2|2 ch msur: f,
+20.d.7 | ag π e 2|2 ch π f,
+13.7 | ag π ch 2|2 e π f,
+9.a.1 | ab & cd n̄ snt term.. raō. contr. hypoth.
 
-e 2|2 f.
+## THEOR. XX. PROPOS. XXII.
 
-Præpar.
+Si fuerint tres numeri, & alij ipsis multitudine æquales, qui bini sumantur, & in eadem ratione, fuerit autem perturbata eorum proportio ; etiam ex æqualitate in eadem ratione erunt.
 
-3.p.7 | ▭.ac est g. γ
-
-Demonstr.
-
-hyp. | a π b 2|2 c π d,
-αγ.17.7 | g π e 2|2 c π d,
-11.5 | a π b 2|2 g π e,
-βγ.17.7 | a π b 2|2 g π f,
-11.5 | g π e 2|2 g π f,
-1.concl. 9.5 | e 2|2 f.
-
-Hypoth. 2.
-
-e 2|2 f.
-
-Req. π demonstr.
-
-a π b 2|2 c π d.
-
-Demonstr.
-
-αγ.18.7 | c π d 2|2 g π e u f,
-βγ.17.7 | a π b 2|2 g π f,
-2.concl. 11.5 | a π b 2|2 c π d.
-
-## THEOR. XVIII. PROPOS. XX.
-
-Si tres numeri proportionales fuerint, qui sub extremis continetur, æqualis est ei, qui à medio efficitur: & si, qui sub extremis continetur, æqualis fuerit ei, qui à medio describitur ; ipsi tres numeri proportionales erunt.
-
-*Si trois nombres sont proportionaux le produict des extremes est egal au produict de celuy du milieu : & si le produict des extremes est egal au produict de celuy du milieu ; iceux trois nombres seront proportionaux.*
-
-A.........9 B......6 C....4
-D.......6
+*S'il y a trois nombres d'vne part, & autant d'vne autre, lesquels soient pris de deux en deux, & en mesme raison, & que leur proportion soit troublee ; aussi en raison egale, ils seront en mesme raison.*
 
 Hypoth.
 
-a π b 2|2 b π c.
+a π b 2|2 e π f, α
+b π c 2|2 d π e. β
 
 Req. π. demonstr.
-
-▭.ac 2|2 □.b.
-
-Demonstr.
-
-suppos. | d 2|2 b,

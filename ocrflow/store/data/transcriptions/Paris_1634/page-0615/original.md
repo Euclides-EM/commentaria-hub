@@ -1,40 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Partant on trouuera facilement deux nombres quarrez, l'exces desquels soit nombre quarré ou nombre non quarré.*
+A B (demi-cercle F) C......E...D
 
-A F C D B (demi-cercle E)
+Constr.
 
-Constr.. 1. req.
-
-1.s29.10 | ad & db snt nr; plan; sml. pa; u impa;
-1l.29.10 | cd, ce, de snt nr; ration;
-symp. | Req. snt □.cd & □.ce.
-
-Demonstr.
-
-47.1 | □.ce ∼ □.cd 2|2 □.de,
-1.9 | □.de, est nr. □.
-
-Constr.. 2. req.
-
-1s.29.10 | ad & db snt nr; plan; pa; u impa; dissml;
-1l.29.10 | cd & ce snt nr. ration.
-ɔ.1.9 | de, est nr. irration.
-Req. snt □.cd & □.ce.
+arbitr. | ab, est ration.
+2s29.10 | cd & ce snt nr; □;
+ed, n̄, est nr. □,
+3.l.10.10 | cd π | de,
+□.ab π | □.af,
+3.p.1 | afb, est semic.
+1.4 & 1p1 | af & bf snt ——;
+Req. snt ab & af.
 
 Demonstr.
 
-ɔ.1.9 | □.ce ∼ □.cd 2|2 □.de,
-constr. | □.de, n̄, est nr. □.
+31.3 | <afb, est ⌐,
+47.1 | □.ab 2|2 □.af + □.bf
+constr. | □.ab π | □.af,
+nr. cd π | nr. de, α
+6.10 | □.ab, comm. □.af,
+constr. | □.ab, est ration.
+s.12.10 | □.af, est ration.
+constr. | ed, n̄, est nr. □,
+1.concl. α.9.10 | ab, incomm. af,
+α.c.19.5 | cd π | ce,
+□.ab π | □.fb, β
+constr. | cd & ce snt nr; □,
+2 concl. β.9.10 | ab, comm. bf.
 
-## LEMM. II.
+Explicat. ꝑ nr;
 
-Duos numeros quadratos inuenire, ita vt compositus ex ipsis non sit quadratus; vel quadratum numerum diuidere in duos numeros non quadratos.
+arbitr. | ab, est 6, α
+2 s29.10 | cd, est 9, nr. □;
+ce, est 4, nr. □,
+ed, 5, n̄, est nr. □,
+12.6 | af, est √.20,
+α.47.1 | bf, est 4,
+ab π | af,
+√.36 π | √.20,
+ab π bf 2|2, 3 π 2.
 
-*Trouuer deux nombres quarrez, tels que le composé d'iceux ne soit quarré ; ou bien diuiser vn nombre quarré en deux nombres non quarrez.*
+## PROBL. VII. PROPOS. XXXI.
 
-Constr.. 1. req.
-
-a, est nr. arbitr.
-b, est nr. □,
-c 2|2 4b,
+Inuenire duas rationales potentia tantùm commensurabiles, ita vt major, quàm minor, plus possit

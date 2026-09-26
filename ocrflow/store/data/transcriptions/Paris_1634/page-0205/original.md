@@ -1,37 +1,44 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-11.1 | knl ⊥ gi,
-1.p.1 | gk, gb, gc, gl snt —
+D'vn poinct donné mener vne ligne droicte, qui touche vn cercle donné.
 
-Demonstr.
-
-15.d.1 | ga 2|2 gk,
-15.d.1 | gd 2|2 gl,
-2.a.1 | ad 2|2 gk + gl,
-20.1 | gk + gl 3|2 kl,
-1.a.d. | ad 3|2 kl,
-α.14.3 | kl 2|2 fe,
-1.concl. 1.a.c | ad 3|2 fe,
-9.a.1 | <lgk 3|2 <cgb,
-2.concl. 24.1 | klufe 3|2 bc.
-
-## THEOR. XV. PROPOS. XVI.
-
-Quæ ab extremitate diametri cuiusque circuli ad angulos rectos ducitur, extra ipsum circulum cadet; & in locum inter ipsam rectam lineam, & peripheriam comprehensum, altera recta linea non cadet: & semicirculi quidem angulus, quouis angulo acuto rectilineo maior est; reliquus autem minor.
-
-La ligne droicte menée de l'extremité du diametre du cercle, à angles droicts à iceluy diametre ; tombera hors le cercle, & en l'espace compris entre icelle ligne droicte & la circonference ne tombera pas d'autre ligne droicte : & l'angle du demy cercle est plus que tout angle rectiligne aigu, mais le reste est plus petit.
+[Figure: deux cercles concentriques, D au centre, E en haut, A à gauche, B et C au dedans, lignes A—E, A—C, D—E, D—B, E—B]
 
 Hypoth.
 
-balh est ⊙,
-cad ⊥ ah,
-<bal 2|3 ∟.
+a, est • D.
+dbc est ⊙ D.
 
-Req. π. demonstr.
+Req. π. fa.
 
-ac est extr. ⊙,
-ae ñ est extr. ⊙,
-<bai 3|2 <bae,
-<iad 2|3 <ead.
+ac tangen.. ⊙ dbc.
 
-Præpar.
+Constr.
+
+1.p.1 | ad est —,
+3.p.1 | dae est ⊙,
+11.1 | be ⊥ ad,
+1.p.1 | de & ac snt —,
+symp. | ac tang: ⊙ dbc.
+
+Demonstr.
+
+15 d.1 | da 2|2 de,
+15.d.1 | dc 2|2 db,
+| <adc est commun.
+4.1 | <dca 2|2 <dbe,
+constr. | <dbe est ∟,
+12.a.b | <dca est ∟,
+concl. c.16.3 | ac tang: ⊙dbc.
+
+## THEOR. XVI. PROPOS. XVIII.
+
+Si circulum tangat recta quæpiam linea, à centro autem ad contactum adiungatur recta quædam linea: quæ adiuncta fuerit, ad ipsam contingentem perpendicularis erit.
+
+Si quelque ligne droicte touche vn cercle, & du centre à l'attouchement on mene vne ligne droicte, elle sera perpendiculaire à la touchante.
+
+Hypoth.
+
+fedc est ⊙,
+ab tang: ⊙ fed,
+e, est • contact.

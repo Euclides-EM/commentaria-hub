@@ -1,34 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-1.p.1. | eb est diamet.
-31.1. | cf == bd,
-31.1. | hgi == ab,
+rum, cum eo, quod à reliquo segmento fit, quadrato, æquale est ei, quod à tota, & dicto segmento, tanquam ab vna linea describitur, quadrato.
 
-Demonstr.
-
-1.c.4.2. | ci est ▭.cb,
-1.c.4.2. | hf est ▭.ac,
-3.s.1.d.2 | ▭.abc 2|2 ▭ai u ▭cd,
-2.a.1. | 2▭.abc 2|2 gnom. hbf + ▭ci,
-| ▭hf commun. add.
-concl. 2.a.1. | 2▭.abc + ▭hf 2|2 ad ▭.ab + ci ▭.cb.
-
-## PROPOS. VII. ALITER. — AVTREMENT.
-
-Si recta linea secetur in duo segmenta inæqualia, rectangulum bis comprehensum sub segmentis vnà cum quadrato differentiæ segmentorum, æquale est aggregato quadratotum quæ describuntur à segmentis.
-
-Si vne ligne droicte est couppée en deux parties inégales, le rectangle compris deux fois sous les parties auec le quarré de la difference des parties, est égal à l'aggregé des quarrez descrits de deux parties.
+Si vne ligne droicte est couppée, comme on voudra : quatre fois le rectangle, contenu sous la toute & l'vn des segments auec le quarré de l'autre segment, est égal au quarré descrit de la toute & dudit segment, comme d'vne.
 
 Hypoth.
 
-ab est —
-ad 3|2 db,
-ad ~ db 2|2 fd.
+ab est —,
+ac & cb snt par.. ab,
+bd 2|2 cb.
 
-[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes A—E, E—F, E—C, E—D, E—B]
+[Figure: quarré F—E—H—A, diagonale F—D, I, G en haut, R, T, K, Q au milieu, O, L à gauche, N, H, S en bas, P à droite, A—C—B—D en bas]
 
 Req. π. demonstr.
 
-2▭.adb + ▭.fd 2|2 ▭.ad + ▭.db.
+4▭.abc + ▭.ac 2|2 ▭.ad,
 
 Præpar.
+
+46.1. | ae est ▭.ad,
+31.1. | ci == af,
+31.1. | bg == af,
+1.p.1. | fd est diamet.
+31.1. | lhm == ad,
+31.1. | okp == ad,
+
+Demonstr.
+
+1.c.4.2 | oi, est ▭.ac,
+1.c.4.2 | bm est ▭.bd,
+1.c.4.2 | nq est ▭.cb,

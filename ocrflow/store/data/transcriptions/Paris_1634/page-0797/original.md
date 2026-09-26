@@ -1,39 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-*tout prisme est triple de la pyramide qui a mesme hauteur qu'iceluy, & mesme base.*
+bases, in triplicata sunt homologorum laterum ratione.
+
+*Les pyramides semblables, & qui ont les bases triangulaires, sont en raison triplee de leurs costez homologues.*
 
 Hypoth.
 
-abcdeghiкf, est prism.
-abcdeh, est pyram.
+abcd & efgh ſnt pyram; ſml; ꝗe,
+abc & efg ſnt baſ;
+ab π ac 2|2 ef π eg, α
+ab π ad 2|2 ef π eh. α
 
-[Figure: labels arranged G R / H F S / I K T V / A L / M / B E N / C D O]
+[Figure: labels arranged M K Q O / D L H P / I N / B F / C E G]
 
 Req. π. demonstr.
 
-prism. abcdeghiкf 2|2, 3; pyram; abcdeh.
+raō. abcd π efgh 2|2, 3; raō; ac π eg.
 
 Præpar.
 
-1. p. 1 | ac, ad, gi, gh ſnt ——.
+27. 11 | abicdmkl & efnghqop ſnt ◇piped;
 
 Demonstr.
 
-9. a. 1 | abcghi, acdgik, adegкf ſnt prism; 2|2 prism. bf,
-9. a. 1 | abch, acdh, adeh ſnt pyram; 2|2 pyram. abcdeh,
-c. 5. 12 | pyram. acdh 2|2 pyram. acdi,
-c. 5. 12 | pyram. adeh 2|2 pyram. adek,
-7. 12 | prism. abcghi 2|2, 3; pyram; abch,
-7. 12 | prism. acdgiк 2|2, 3; pyram. acdi, Ⅱ acdh,
-7. 12 | prism. adegkf 2|2, 3; pyram. adeк, Ⅱ adeh,
-concl. 1. 5 | prism. abcdeghikf 2|2, 3; pyram; abcdeh. α
+α. 1. d. 6 | ◇ abic ſml. ◇ efng,
+α. 1. d. 6 | ◇ abmd ſml. ◇ efqh,
+α. 1. d. 6 | ◇ acld ſml. ◇ egph,
+9. d. 11 | ◇piped. abicdmкl ſml. ◇piped. efnghqop,
+28. 11, & 7. 12 | ◇piped. abicdmkl 2|2, 6; pyram; abcd,
+28. 11, & 7. 12 | ◇piped. efnghqop 2|2, 6; pyram; efgh,
+33. 11 | raō. abicdmkl π efnghqop 2|2, 3; raō; ac π eg,
+concl. 15. 5 | raō. abcd π efgh 2|2, 3; raō; ac π eg.
 
-## SCHOL. I.
+## COROLL.
 
-Sub eadem altitudine existentia prismata, quascunque habeant bases, sunt inter se vt bases.
-
-*Les prismes qui sont sous mesme hauteur, quelconques soient leurs bases, sont entr'eux comme leurs bases.*
-
-Demonstr.
-
-α | prism. bf 2|2, 3; pyram; abcdeh.
+Ex hoc quoque manifestum est, similes pyramides,

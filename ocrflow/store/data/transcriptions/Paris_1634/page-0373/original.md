@@ -1,37 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-figuris parallelogrammis similibus similiterque positis, ei, quod à dimidia describitur, maximum est quod ad dimidiam est applicatum simile existens defectui.
-
-De tous les parallelogrammes appliquez selon vne mesme ligne droicte, & defaillans de figures parallelogrammes semblables, & semblablement posees à celuy qui est descrit sur la moitié, le plus grand est celuy qui est appliqué à la moitié estant semblable au defaut.
-
-[Figure: parallelogramme A, B, D, H auec poincts E, F, L, M, G, N, I, C, K et diametre D—B]
-
-Hypoth.
-
-ac 2|2 cb,
-◇acdh, sml. ◇cbed,
-db est diametr.
-k, in ab est arbitr.
-kgn == be,
-fgi == ab.
-
-Req. π. demonstr.
-
-◇acdh 3|2 ◇akgf.
+1.p.1 | fb est —,
+31.1 | ah == ef,
+2.p.1 | gfh est —,
+hyp. | c, n̄ est 3|2 ◇af,
+45.1 | ◇eg 2|2 c + i, β
+25.6 | ◇nt 2|2 i, & sml. d, γ
+3.1 | fo 2|2 kn,
+3.1 | fq 2|2 kt,
+31.1 | for == ab,
+31.1 | zpq == ef,
+symp. | ◇ap est req.
 
 Demonstr.
 
-1.concl. 24.6 | ◇ki, sml. ◇ce,
-43.1 | ◇ge 2|2 ◇gc,
-◇ki commun. add.
-2.a.1 | ◇ke 2|2 ◇ci,
-36.1 | ◇am 2|2 ◇ci,
-1.a.1 | ◇ke 2|2 ◇am,
-◇cg commun. add.
-2.a.1 | ◇ag 2|2 gnom. mbn,
-9.a.1 | ◇ce 3|2 gnom. mbn,
-2.concl. 1.a.c | ◇ce u ◇ad 3|2 ◇ag.
+constr. 24.6 | ◇d, ◇eg, ◇oq, ◇zr, ◇nt snt sml. ⁊e, δ
+β.γ.constr. | ◇eg 2|2 ◇nt + c,
+2.c.20.6 | ◇oq 2|2 ◇nt,
+3.a.1 | gnom. obq 2|2 c, ε
+α.36.1 | ◇ao 2|2 ◇er u ◇zg,
+◇ep commun. add.
+2.a.1 | gnom. obq 2|2 ◇ap,
+1.concl. ε.1.a.1 | ◇ap 2|2 c,
+2.concl. δ | zr sml. ◇d.
 
-## PROBL. VIII. PROPOS. XXVIII.
+Si ad datam rectam lineam applicandum sit parallelogrammum deficiens quadrato, expeditius soluetur problema sequenti methodo proponendo sic.
 
-Ad datam lineam rectam, dato rectilineo æquale
+Si à la ligne donnee il faut appliquer vn parallelogramme defaillant d'vn quarré, la solution se trouuera plus briefuement par la methode suiuante proposant le probleme ainsi.
+
+## SCHOL.
+
+Dato aggregato extremarum, & rectangulo sub extremis inuenire extremas.
+
+Estant donné l'aggregé des extremes & le rectangle contenu sous les extremes, trouuer les extremes.
+
+Vel sic. Ou ainsi.
+
+E serie trium proportionalium, data media & summa extremarum inuenire extremas.

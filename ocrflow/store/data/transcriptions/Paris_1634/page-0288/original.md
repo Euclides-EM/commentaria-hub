@@ -1,27 +1,27 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## THEOR. I. PROPOS. I.
+## THEOR. III. PROPOS. III.
 
-Si sint quotcunque magnitudines quotcunque magnitudinum æqualium numero, singulæ singularum, æque multiplices ; quam multiplex est vnius vna magnitudo, tam multiplices erunt & omnes omnium.
+Sit prima secundæ æquè multiplex, atque tertia quartæ ; sumantur autem æque multiplices primæ & tertiæ : erit & ex æquo, sumptarum vtraque vtriusque æquè multiplex, altera quidem secundæ, altera autem quartæ.
 
-S'il y a tant de grandeurs qu'on voudra equimultiples d'autant d'autres grandeurs, chacune de la sienne ; comme l'vne des grandeurs sera multiple d'vne ; ainsi les toutes seront multiples des toutes.
+Si la premiere est autant multiple de la seconde, comme la troisiesme l'est de la quatriesme, & on prend les equimultiples de la premiere & de la troisiesme : en raison égale, la multiple de la premiere sera autant multiple de la seconde, que la multiple de la troisiesme le sera de la quatriesme.
 
 Hypoth.
 
-ab multipl.. | e,
-cd multipl.. | f. α
+a, multipl.. b 2|2 c, multipl.. d,
+ei, multipl.. a 2|2 fm, multipl.. c, α
 
-[Figure: deux lignes A—G—H—B et E ; C—I—K—D et F]
+[Figure: lignes verticales E—G—H—I auec A, B ; F—K—L—M auec C, D]
 
 Req. π. demonstr.
 
-ab, multipl.. e 2|2 ab + cd multipl.. e + f.
+ei, multipl.. b 2|2 fm multipl.. d.
 
 Demonstr.
 
-hyp. | e, ag, gh, hb snt 2|2 ⁊e,
-hyp. | f, ci, ik, kd snt 2|2 ⁊e,
-α.s.2.d.5 | multd.. part.. ab, 2|2 multd. part. cd,
-2.a.1 | e + f, ag + ci, gh + ik, hb + kd snt 2|2 ⁊e,
-19.a.1 | ab + cd 2|2 ag + ci, + gh + ik, + hb + kd,
-c.2.d.5 | ab, multipl.. e 2|2 ab + cd multipl.. e + f.
+hyp. | a, eg, gh, hi snt 2|2 ⁊e,
+hyp. | c, fk, kl, lm snt 2|2 ⁊e,
+α.s.2.d.5 | multd.. part.. ei 2|2 multd.. part.. fm,
+hyp. | egua, multipl.. b 2|2 fkuc, multipl.. d
+hyp. | ghua, multipl.. b 2|2 kl,uc multipl.. d,
+2.5 | eh multipl.. b 2|2 fl multipl.. d, β

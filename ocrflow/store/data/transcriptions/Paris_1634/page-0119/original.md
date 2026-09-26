@@ -1,49 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-face vn angle égal à vn angle rectiligne donné.
+simul conficiunt vnum rectum cùm omnes simul sint æquales duobus rectis & tertius ille ponatur rectus; quare cum duo reliqui inter se sint æquales, erit quilibet eorum semirectus.
 
-[Figure: ligne E—A—F en haut, angle G à droicte, ligne B—D—C en bas, ligne A—D]
+Il est außi euident qu'en tout triangle isoscele, duquel l'angle contenu des costez égaux est droict, qu'vn chacun des autres qui sont sur la base est demy-droict. Car ces deux ensemble constituent vn droict : puis que les trois sont égaux à deux droicts, & que le troisiesme est posé droict ; partant puis que les deux restans sont égaux entr'eux, vn chacun d'eux sera demy-droict.
 
-Hypoth.
+## COROLL. III.
 
-bc est — D.
-a est • D.
-g est < D.
+Perspicuum quoque est si vnus angulus trianguli æqualis sit reliquis duobus; triangulum esse rectangulum.
 
-Req. π. fa.
+Il est manifeste außi que si vn angle d'vn triangle est égal aux deux autres, que le triangle est rectangle.
 
-<adc 2|2 <g,
+## SCHOL. I.
 
-Constr.
+Omnes anguli figuræ rectilineæ cuiusuis sunt æquales bis tot rectis angulis, quota ipsa est inter figuras rectilineas.
 
-31.1. | ae == bc,
-23.1. | <ead 2|2 <g,
-symp. | <adc 2|2 <g.
+Tous les angles de quelconque figure rectiligne, sont égaux à deux fois autant d'angles droicts, que le nombre de son ordre entre les figures rectilignes.
 
-Demonstr.
+[Figure: vn triangle ; vn quadrilatere diuisé en deux triangles par vne diagonale ; vn pentagone diuisé en trois triangles]
 
-constr. | ae == bc,
-29.1. | <adc 2|2 <ead,
-constr. | <g 2|2 <ead,
-concl. 1.a.1. | <adc 2|2 <g.
+Omnis enim figura rectilinea in triangula resoluitur, cùm nulla figura sit pauciorum laterum quam triangulum. Vna quæque autem in triangula binario pauciora, quam sint propria latera,
 
-## THEOR. XXII. PROPOS. XXXII.
-
-Cuiuscunque trianguli vno latere producto: Externus angulus duobus internis, & oppositis, est æqualis. Et trianguli tres interni anguli duobus sunt rectis æquales.
-
-De tout triangle, l'vn des costez estant prolongé, l'angle externe est égal aux deux internes & opposez: & les trois angles internes de tout triangle, sont égaux à deux droicts.
-
-[Figure: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]
-
-Hypoth.
-
-abc est △,
-bcd est —.
-
-Req. π. demonstr.
-
-<acd 2|2 <a + <b.
-
-Præpar.
-
-31.1. | ce == ba. α
+Car toute figure rectiligne se resout en triangles, à cause qu'il n'y a aucune figure de moins de costez que le triangle. Or chaque figure rectiligne se diuise en triangles, qui sont en moindre nombre de deux,

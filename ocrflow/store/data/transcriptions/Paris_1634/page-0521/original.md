@@ -1,47 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-primus autem sit quadratus, & tertius quadratus erit.
-
-*Si trois nombres sont continuellement proportionaux, & que le premier soit quarré, aussi le troisiesme sera quarré.*
-
-A,4. B,6. C,9.
+C,64. E,96. F,144. D,216.
+A,8. G,12. H,18. B,27.
 
 Hypoth.
 
-a,b,c snt contin. proport;
-a, est nr. □.
-
-Req. π. demonstr.
-
-c, est nr. □.
-
-Demonstr.
-
-hyp. | ꝗntr. a & c est medi. proport. b,
-20.8 | a & c snt plan; sml;
-hyp. | a, est nr. □,
-21.d.7 | c, est nr. □.
-
-## THEOR. XXI. PROPOS. XXIII.
-
-Si quatuor numeri deinceps sint proportionales, primus autem sit cubus, & quartus cubus erit.
-
-*Si quatre nombres sont continuellement proportionaux, & que le premier soit cube, aussi le quatriesme sera cube.*
-
-A,8. B,12. C,18. D,27.
-
-Hypoth.
-
-a,b,c,d snt contin. proport;
+c & d snt nr; cub;
+a π b 2|2 c π d,
 a, est nr. cub.
 
 Req. π. demonstr.
 
-d, est nr. cub.
+b, est nr. cub.
 
 Demonstr.
 
-hyp. | ꝗntr. a & d snt 2; medi.proport; b & c,
-21.8 | a & d snt solid; sml;
+12.8 | ꝗntr. c & d snt 2; medi;proport; e & f,
+8.8 | ꝗntr. a & b snt 2; medi;proport; g & h,
 hyp. | a, est nr. cub.
-21.d.7 | d, est nr. cub.
+concl. 23.8 | b, est nr. cub.
+
+## THEOR. XXIV. PROPOS. XXVI.
+
+Similes plani numeri rationem inter se habent, quam quadratus numerus ad quadratū numerum.
+
+*Les nombres plans semblables ont mesme raison entre eux, que nombre quarré à nombre quarré.*
+
+A,20. C,30. B,45.
+D,4. E,6. F,9.
+
+Hypoth.
+
+a & b snt nr; plan; sml;
+
+Req. π. demonstr.
+
+a π b 2|2 nr. □. π nr. □.
+
+Demonstr.
+
+18.8 | ꝗntr. a & b est vn. medi. proport. c
+33.7 | d,e,f snt mi. proport; ꝗn raō. a π c,
+1.c.2.8 | extrem; d & f snt nr; □;
+concl. 14.7 | a π b 2|2 d π f.

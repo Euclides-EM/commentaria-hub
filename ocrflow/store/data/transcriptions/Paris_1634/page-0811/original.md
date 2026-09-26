@@ -1,22 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-22. 5 | uc π uк 2|2 qg π qm,
-δ. 7. 5 | uk π ck 2|2 qm π mg,
-22. 5, & 5. 6 | △uкc ſml. △qmg, ε
-d. ε | △;. pyram. atbucxdyк ſml. △;. pyram. epfqgrhſm,
-γ. 9. d. 11 | pyram. atbucxdyk ſml. pyram. epfqgrhſm.
-pyram. atbucxdyк π pyram. epfqgrhſm / c. 8. 12 | 3; raō; uc π qg / 4. 6 | Ⅱ 3; raō; ui π ql / 15. 5 | Ⅱ 3; raō;. diamet. tx π diamet. pr / α | con. abcdк π ſolid. n, ſnt raō; 2|2 ꝗe
-11. 5 | pyram. atbucdyк π con. abcdк 2|2 pyram. epfqgrhſm, π ſolid. n, θ
-9. a. 1 | pyram. atbucdyк 2|3 con. abcdк,
-14. 5 | pyram. epfqgrhſm 2|3 ſolid. n,
+Demonstr.
 
-contr. concl. β
+c. 11. 12 | cylindr. an 2|2 cylinr. af,
+c. 11. 12 | bf, bo, op ſnt cylindr. 2|2 ꝗe,
+15. 5 | cylindr. en multipl.. cylindr. ed 2|2 iк multipl.. ig,
+15. 5 | cylindr. pf multipl.. cylindr. bf 2|2 im, multipl.. ih,
+c. 11. 12 | iк, 2, 3, 4 / 3, im,
+cylindr. em 2, 3, 4 / 3, cylindr. fp,
+concl. 6. d. 5 | cylindr. aefd π cylindr. ebcf 2|2 gi π ih.
 
-21. a. 1 | ſolid. n n̄ eſt 2|3 con. efgm, к
-2ſuppo. | ſolid. n 3|2 con. efghm, λ
-θ | con. abcdk π n 2|2 pyram. atck π pyram. eprm,
-c. 4. 5 | n π con. abcdk 2|2 pyram. eprm π pyram. atck,
-c. 8. 12 | raō.. pyram. eprm π pyram. atck 2|2, 3; raō. qg π uc Ⅱ pr π tx,
-11. 5 | raō. n π con. abcdk 2|2, 3; raō; pr π tx,
-ſuppoſ. | n π con. abcdк 2|2 con. efghm π ſolid. o, μ
-11. 5 | raō. con. efghm π ſolid. o 2|2, 3; raō; pr π tx,
+## THEOR. XIV. PROPOS. XIV.
+
+Super æqualibus basibus existentes coni, & cylindri, inter se sunt vt altitudines.
+
+*Les cones & cylindres constituez sur bases egales, sont entr'eux comme leurs hauteurs.*
+
+Hypoth.
+
+ah & cк ſnt cylindr;
+abe & cdf ſnt con;
+baſ; ab & cd ſnt ⊙ 2|2 ꝗe,
+me & nf ſnt alt;
+
+[Figure: labels arranged G E H / A M B F K / O L P C N L]
+
+Req. π. demonstr.
+
+alt. me π alt. nf / cylindr. ah π cylindr. cк / con. abe π con. cdf, ſnt raō. 2|2 ꝗe,
+
+Præpar.
+
+2. p. 1 | gao & hbp ſnt ——,

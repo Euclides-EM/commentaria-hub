@@ -1,19 +1,17 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-hac definitione, punctum Mathematicum designant per punctum Physicum, quale est punctum A.
+[Figure: rectangle BCDA, B en haut à gauche, C en haut à droite, A en bas à gauche, D en bas à droite]
 
-ceste definition, ils representët le poinct Mathematique par le poinct Physique, tel qu'est le poinct A.
+### VI.
 
-• A
+Superficiei autem extrema sunt lineæ. | Mais les extremitez de la superficie sont lignes.
 
-### II.
+### VII.
 
-Linea verò, longitudo latitudinis expers. | La ligne est vne longueur sans largeur.
+Plana superficies est, quæ ex æquo suas interiacet lineas. | Superficie plane, est celle qui est egalement estenduë entre ses lignes.
 
-Definitur quoque linea fluxus puncti, quia nullam habet crassitudinem. | La ligne se definit aussi estre le flus ou coulement d'vn poinct, parce qu'elle n'a aucune grosseur.
+### VIII.
 
-### III.
+Planus verò angulus, est duarum linearum in plano se mutuò tangentium, & non in directum iacentium, alterius ad alteram inclinatio. | Angle plan est l'inclination de deux lignes, lesquelles se touchent l'vne l'autre en vn plan, & ne se rencontrent directement.
 
-Lineæ autem termini sunt puncta. | Les extremitez de la ligne sont poincts.
-
-Omnis linea, vt omnis magnitudo, est finita actu, nec vlla magnitudo consideratur à Mathematico nisi quatenus est terminata, cùm verò Euclides dicit, lineam infinitam, intelligit indeterminatam & habentem quamcunque libuerit longitudinem. | Toute ligne, & toute grandeur, est terminée actuellemët, & le Mathematicien ne considere aucune quantité qu'elle ne soit terminée, & quand Euclide parle de la ligne infinie, il entend qu'elle n'est point terminée, & qu'elle a telle longueur qu'on voudra.
+Anguli cuiuscüque quantitas consistit in sola inclinatione, non in longitudine linearum, lineæ enim longiùs excurrentes non augent suam inclinationem, | La quantité de tout angle consiste en la seule inclination, & non en la longueur des lignes, car le prolongement des lignes n'augmente point leur inclination, ny par conse-

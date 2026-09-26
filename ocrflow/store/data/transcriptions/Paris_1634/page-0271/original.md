@@ -1,25 +1,17 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-tas cum minore confertur ; qualis est proportio 6. ad 4.
+dicitur tripla super tripartiens quartas.
 
-Proportio minoris inæqualitatis est quando minor quantitas ad maiorem refertur ; qualis est proportio 4. ad 6.
+Omnia quæ dicta hactenus sunt de quinque generibus proportionum rationalium maioris inæqualitatis, intelligenda sunt quoque de quinque generibus correspondentibus minoris inæqualitatis, præmissa tamen semper præpositione (sub) vt dictum est.
 
-Proportio rationalis maioris inæqualitatis distribuitur in quinque genera, vt in proportionem multiplicem, super particularem, super partientem, multiplicem super particularem & multiplicem super partientem.
+Proportio autem, quatenus significat proportionalitatem, diuiditur in geometricam, arithmeticam & musicam.
 
-Pari ratione proportio rationalis minoris inæqualitatis in eadem genera secatur, si modò singulis vocabulis præponatur præpositio (sub) vt in proportionem submultiplicem sub super particularem, sub super partientem, sub multiplicem super particularem, & submultiplicem super partientem.
+Proportio quam definit hic Euclides, & de qua solùm agit hoc libro, est geometrica, quæ quidem duplex est, continua altera, in qua singulæ quantitates intermediæ bis sumuntur, ita vt nulla fiat proportionum interruptio, sed quælibet quantitas intermedia sit & antecedens, & consequens : Antecedēs quidem quantitatis subsequentis, consequens verò quantitatis antecedentis, vt si dicatur, quæ est proportio 9. ad 6. ea est 6. ad 4. vocabitur hæc proportionalitas continua. Altera verò discreta seu non continua dicitur, in qua singulæ quantitates intermediæ semel tantum accipiuntur, ita vt fiat proportionum interruptio,
 
-Proportio multiplex est habitudo maioris quantitatis ad minorem, quando maior minorem aliquoties continet, vt 20. ad 4. quæ est quintupla, 15. ad 5. est tripla.
+double superbipartiente tierces, & 30. à 8. triple supertripartiente quartes.
 
-Proportio superparticularis est habitudo maioris quantitatis ad minorem, quando maior minorem semel duntaxat continet, & insuper vnam eius partem ali-
+Tout ce qui a esté dit iusques icy de cinq genres des proportions rationnelles, de l'inegalité maieure, doit pareillement estre entendu des cinq genres correspondans de l'inégalité mineure, apposant neantmoins tousiours ceste præposition (sub) qui signifie sous, comme il a esté dit.
 
-quantité est comparée à la plus petite, cōme est la proportion de 6. à 4.
+Or la proportion, la prenant pour proportionalité, se diuise en geometrique, arithmetique & musique.
 
-La proportion d'inegalité mineure est quand la moindre quantité est comparée à la plus grande, comme est la proportion de 4. à 6.
-
-La proportion rationnelle d'inegalité maieure est diuisée en cinq genres, sçauoir en la proportion multiple, superparticuliere, superpartiente, multiple superparticuliere, & multiple superpartiente.
-
-Semblablement la proportion d'inegalité mineure est diuisée selon les mesmes genres, pourueu qu'au deuant de chacun terme de la proportion on mette ceste preposition (sub) c'est à dire sous, comme en la raison submultiple ou sous multiple, sous superparticuliere, sous superpartiente, sous multiple superparticuliere, sous multiple superpartiente.
-
-Proportion multiple est vne habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite, certain nombre de fois precisément, comme 20 à 4. qui s'appelle quintuple & 15. à 5. triple.
-
-La proportion superparticuliere est vne habitude d'vne plus grande quantité à vne moindre, quand la plus grande contient la plus petite vne fois seulement, & en outre vne
+La proportion que definit icy Euclide, & de laquelle seulement il traite en ce liure, est la geometrique, & y en a de deux sortes, l'vne continuë, en laquelle les quantitez entremoyennes sont prises deux fois, en sorte qu'il ne se fait aucune interruption de proportions, mais chaque quantité entremoyenne est consequent de la quantité precedente, & antecedent de la suiuante, comme si on dit, qu'il y a mesme raison de 4. à 6. que de 6. à 9 Ceste proportion s'appellera continuë, mais l'autre se dit discrete ou discontinuë, en laquelle chaque quantité entremoyenne est prise vne fois seulement ; en sorte qu'il se fait interruption des proportions, & aucune quantité n'est antecedent & conse-

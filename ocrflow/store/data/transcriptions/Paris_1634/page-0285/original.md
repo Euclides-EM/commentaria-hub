@@ -1,13 +1,26 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## DEFINIT. XVII.
+## DEFINIT. XX.
 
-Ex æqualitate ratio est, si plures duabus sint magnitudines, & his aliæ multitudine pares, quæ binæ sumantur, & in eadem ratione : cùm vt in primis magnitudinibus prima ad vltimam sic & in secundis magnitudinibus prima ad vltimam sese habuerit. Vel aliter, sumptio extremorū, per subductionem mediorū.
+Quotlibet magnitudinib. ordine positis, proportio primæ ad vltimam componitur ex proportionibus primæ ad secundam, & secundæ ad tertiam, & tertiæ ad quartam, & ita deinceps donec extiterit proportio.
 
-Raison égale ou d'egalité, est quand il y a plusieurs grandeurs, & d'autres égales à icelles en multitude, qui soient prises deux à deux, & en mesme raison : & que, comme aux premieres grandeurs la premiere est à la derniere, ainsi aux secōdes grādeurs la premiere est à la derniere : autrement, c'est prēdre les extremes par la soustraction des moyēnes.
+S'il y a tant de grandeurs qu'on voudra, la raison de la premiere à la derniere est composée des raisons de la premiere à la seconde, & de la seconde à la troisiesme, & de la troisiesme à la quatriesme, & ainsi d'ordre iusques à ce que la proportion soit acheuée.
 
-## DEFINIT. XVIII.
+A, 24. B, 12. C, 8. D, 6.
 
-Ordinata proportio est, cùm fuerit, quemadmodum antecedens ad consequentem, ita antecedens ad consequentem : fuerit etiam, vt consequens ad aliud quidpiam, ita consequens ad aliud quidpiam.
+hyp. | a, b, c, d snt magnitud. propos.
+20.d.5 | raō.. a π c 2|2 raō.. a π b + raō.. b π c,
+20.d.5 | raō.. a π d 2|2 raō.. a π b + raō.. b π c + raō.. c π d.
 
-Proportion ordonnée est lors que, comme l'antecedent est au consequent, ainsi l'antecedent est au consequent ; & comme le consequent est à quelque autre, ainsi le consequent est aussi à quelque autre.
+## AXIOM.
+
+Æquèmultiplices eidē multiplici sunt quoque inter se æquèmultiplices.
+
+Les equimultiples à vne mesme multiple, sont aussi equimultiples entre elles.
+
+A, 12. B, 4. E, 15. F, 5.
+C, 21. D, 7.
+
+hyp. | a, multipl.. b 2|2 e, multipl.. f,
+hyp. | c, multipl.. d 2|2 e, multipl.. f,
+a..5 | a, multipl.. b 2|2 c, multipl.. d.

@@ -1,27 +1,27 @@
 <!-- Running title: EXPLICATION DES NOTES. -->
 
-~ minus, moins.
-.~: differentia, difference.
-⟨e inter se, entr'elles.
-⟨n, in, en.
-⟨ntr. inter, entre.
-Ⅱ, vel, ou.
-π, ad, à.
-5< pentagonum, pentagone.
-6< hexagonum, hexagone, &c.
-√.4< latus quadrati, le costé d'vn quarré.
-√.5< latus pentagoni, le costé d'vn pentagone.
-a2 A quadratum, le quarré de A.
-a3 A cubus, le cube de A.
-a4 A quadrato-quadratü, le quarré-quarré de A.
-Et sic infinitum, & ainsi à l'infini.
-== parallela, parallele.
-⊥ perpendicularis, perpendiculaire.
-.. est nota genitiui, signifie (de)
-; est nota numeri pluralis, signifie le plurier.
-2|2 æqualis, egale.
-3|2 maior, plus grande.
-2|3 minor, plus petite.
-⅓ tertia pars, le tiers.
-¼ quarta pars, le quart
-⅔ duæ tertiæ, deux tiers.
+a 2|2 ⅔b { A est æqualis duabus tertiis B. / A est égale aux deux tiers de B.
+
+▭.a,b, Ⅱ ▭.ab { Numerus planus qui fit ductu A in B. / Le nombre plan qui s'engendre en multipliant A par B.
+
+solid. abc { Numerus solidus qui gignitur ex continua multiplicatione numerorum A, B, C. / Le nombre solide qui s'engendre en multipliant continuëmët les nöbres A, B, C, l'vn par l'autre.
+
+a & b snt 2|2 ⟨e { A & B sunt æquales inter se. / A & B sont égales entr'elles.
+
+Req. π. fa. { Requisitum, vel quæsitum ad faciendum. / Requis à faire.
+
+a π b 2|2 c π d { A est ad B vt C ad D. / A est à B comme C à D.
+
+a π b 2|2 c π d { vt A ad B ita C ad D. / comme A est à B ainsi C est à D.
+
+Vel sic, ou ainsi.
+
+a π |b
+c π |d
+A est ad B vt C ad D. / A est à B comme C à D.
+
+a π b 3|2 c π d { A ad B habet maiorem rationem quàm C ad D. / A à B a plus grande raison que C à D.
+
+a π b 2|3 c π d { A ad B habet minorem rationem quàm C ad D. / A à B a plus petite raison que C à D.
+
+4 π 6 2|2 10 π 15 { 4 est ad 6 vt 10 ad 15. / 4 est à 6 comme 10 à 15.

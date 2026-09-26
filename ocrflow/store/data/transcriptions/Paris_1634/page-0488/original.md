@@ -1,50 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## PROBL. V. PROPOS. XXXVII.
+5.7 | d π b 2|2 c π a,
+6.a.7 | d, est par.. nr. b, denom. ꝑ b,
+concl. 20.d.7 | c, est par.. nr. a, denom. ꝑ b.
 
-Tribus numeris datis reperire, quem illi minimum metiantur, numerum.
+## THEOR. XXXV. PROPOS. XL.
 
-*Trois nombres estans donnez, trouuer le plus petit nombre qu'ils mesurent.*
+Si numerus partem habuerit quamlibet; metietur illum numerus à quo ipsa pars denominatur.
 
-A...3 B....4 C......6
-D............12
-E----
+*Si vn nombre a vne partie quelconque, le nombre par lequel ceste partie est denommee le mesurera.*
+
+A...............15
+B...3 C......5
+D. vnit.
 
 Hypoth.
 
-a, b, c snt nr. D.
+b, est par.. nr. a, denom. ꝑ c.
 
-Req. est mi. c. diuidu.. a,b,c.
+Req. π. demonstr.
 
-Constr.
-
-36.7 | d, est mi. c. diuidu.. a & b,
-1.suppo. | c, msur: d,
-symp. | d, est nr. req.
+c, msur: a.
 
 Demonstr.
 
-suppos. | e 2|3 d,
-suppos. | e, est mi. c. diuidu.. a, b, c, α
-α | d, n̄ est mi. c. diuidu.. a & b.
-Contr. constr.
-concl. 21.a.1 | d, est mi. c. diuidu.. a,b,c.
-
-A..2 B...3 C.....4
-D......6
-E............12
-F----
-
-2.supp. | c, n̄ msur: d,
-36.7 | e, est mi. c. diuidu.. c & d, β
-symp. | e, est nr. req.
-
-Demonstr.
-
-constr. | a & b msur: d,
-constr. | d, msur: e,
-11.a.7 | a & b msur: e, α
-constr. | c, msur: e, α
-1.concl. α | a, b, c, msur: e,
-suppos. | f 2|3 e, γ
-suppos. | f, est mi. c. diuidu.. a,b,c, δ
+suppos. | d, est vnit.
+5.a.7 | d, est par.. nr. c. denom. ꝑ c,
+hyp. | b, est par.. nr. a, denom. ꝑ c,
+5.a.7 | d, msur: c,
+s.4.d.7 | b, msur: a,
+concl. 15.7 | d, msur: b, c, msur: a.

@@ -1,33 +1,31 @@
 <!-- Running title: EXPLICATION DES NOTES. -->
 
-comm. commensurabilis, commensurable.
-commun. communis, commune.
-complem. complementum, le complement.
-compos. compositus, composé.
-concl. conclusio, conclusion.
-constr. constructio, construction.
-contact. contactus, le contact ou attouchement.
-conti. continet, contient.
-contin. continuè, continuëment.
-contr. contrà, contraire.
-conunt. conueniunt vel congruunt, conuiennent.
-D. datum, donné.
-definit. definitio, definition.
-demonstr. demonstratio, demonstration.
-denom. denominatus, denommé.
-diamet. diameter, diametre.
-differen. differentia, difference.
-dissml. dissimilis, dissemblable.
-diuidend. diuidendus, diuidende.
-diuidu. diuiduus, le diuidu.
-diuis. diuisio, diuision.
-elem. elementa, elements.
-exempl. exemplum, exemple.
-explicat. explicatio, explication.
-expo. exponens, l'exposant.
-expos. exposita, exposee.
-extr. extrà, externe ou hors.
-fa. facit, faict.
-fa. faciendum, faire.
-figur. figura, figure.
-gen. genus, genre.
+nr. numerus, le nombre.
+o, in regula trium significat numerum ignotum siue quæsitum.
+o, en la reigle de trois signifie le nombre incognu ou le requis.
+operat. operatio, l'operation.
+p per, par.
+pa. par, pair.
+pa. pa. pariter par, pairement pair.
+pa. impa. pariter impar, pairement impair.
+par. pars, partie.
+part. partes, parties.
+pfct: perfectus, parfaict.
+plan. planum, vn plan.
+polyg. polygonum, vn polygone
+pr. primus, premier.
+pra. praxis, practique.
+præceden. præcedens, la precedente.
+præpar. præparatio, preparation.
+progress. progressio, progression.
+proport. proportio, proportion.
+propos. propositio, proposition.
+propos. proposita, proposée.
+q quàm, que.
+quotien. quotiens, le quotient.
+raō. rao. ratio, raison.
+ration. rationalis, rationelle.
+recipro. reciproca, reciproque.
+rectili. rectilinea, rectiligne.
+reg. regula, reigle.
+regul. regularis, reguliere.

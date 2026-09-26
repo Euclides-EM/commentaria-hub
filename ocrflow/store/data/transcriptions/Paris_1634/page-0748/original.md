@@ -1,45 +1,37 @@
-<!-- Running title: ELEM.. EVCLID.. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-eodem consistentes plano: parallela sunt, quæ per illa ducuntur, plana.
+## THEOR. XVI. PROPOS. XVIII.
 
-*Si deux lignes droictes se touchantes l'vne l'autre, sont paralleles à deux autres lignes droictes se touchantes l'vne l'autre; n'estans pas en vn mesme plan: les plans menez par icelles lignes sont paralleles.*
+Si recta linea plano cuipiam ad rectos sit angulos; & omnia quæ per ipsam plana, eidem plano ad rectos angulos erunt.
 
-[Figure: labels arranged D / A G F / C I / B E H]
+*Si vne ligne droicte est à angles droicts à quelque plan; tous les plans menez par icelle seront aussi à angles droicts au mesme plan.*
+
+[Figure: labels arranged I A / C F / E I B G / D]
 
 Hypoth.
 
-ab == de, α
-ac == df. β
+ab ⊥ plan. cd, α
+ab, est ꝗn plan. ef.
 
 Req. π. demonstr.
 
-plan. bac == plan. [edf.
+plan. ef ⊥ plan. cd.
 
 Præpar.
 
-11. 11 | ag ⊥ plan. edf, γ
-31. 1 | gh == de, δ
-31. 1 | gi == df. ε
+suppos. | eg, est intersect.. plan; cd, ef,
+arbitr. | h, est ● ꝗn eg,
+11. 1 | hi == ba ꝗn plan. ef.
 
 Demonstr.
 
-αδ.30.1 | ab == gh,
-γ.3.d.11 | <agh, est ⊥,
-29. 1 | <gab, est ⊥,
-βε. 30.1 | gi == ac,
-γ.3 d.11 | <gai, est ⊥,
-29. 1 | <gac, est ⊥,
-4. 11 | ga ⊥ plan. bac,
-concl. 14. 11 | plan. bc == plan. ef.
+hyp. | ab ⊥ plan. cd,
+constr. | ih == ab,
+8. 11 | ih ⊥ plan. cd,
+concl. 4. d. 11 | plan. ef ⊥ plan. cd.
 
-## THEOR. XIV. PROPOS. XVI.
+## THEOR. XVII. PROPOS. XIX.
 
-Si duo plana parallela plano quopiam secentur; communes illorum sectiones sunt parallelæ.
+Si duo plana se mutuò secantia, plano cuidam ad rectos sint angulos, communis etiam illorum sectio ad rectos eidem plano angulos erit.
 
-*Si deux plans paralleles sont coupez par quelque autre plan, les lignes de leurs cōmunes sections seront paralleles.*
-
-Hypoth.
-
-plan. ab == plan. cd,
-heigf, est plan. secan.
-eh & gf snt intersect;
+*Si deux plans s'entrecouppans sont à angles droicts à quelque plan; leur ligne de commune section sera aussi à angles droicts au mesme plan.*

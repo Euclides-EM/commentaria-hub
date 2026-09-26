@@ -1,41 +1,44 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Le quarré d'vne ligne faisant auec vn espace medial, vn tout medial; appliqué à vne ligne rationelle, faict la latitude apotome sixiesme.*
+apot.3. 14. 10 | df & fe, incomm, ration. expos.
+suppos 15. 10 | ac 3|2 bc.. □. ——, incomm ac,
+apot. 4. suppos. | df 3|2 ef.. □. ——, incomm. df,
+apot. 4. | ac, comm. ration. expos.
+12. 10 apot.5. | df, comm. ration. expos.
+suppos apot.5. | bc, comm. ration. expos.
+12. 10 apot. 6. | ef, comm. ration. expos.
+suppos apot. 6. | ac & bc, incomm. ration. expos.
+l.4 10 | df & ef, incomm, ration. expos.
+
+## THEOR. LXXXI. PROPOS. CV.
+
+Recta linea mediæ apotomæ commensurabilis, & ipsa mediæ apotomæ est, atque ordine eadem.
+
+*La ligne droicte commensurable à vn apotome medial; est aussi apotome medial & de mesme ordre.*
+
+[Figure: labels arranged A B C / D E F]
 
 Hypoth.
 
-ab, est ——, fa. 2; med; α
+ab, est apotom.. medi. α
 bc, est congruen.
-de, est ration.
+de, comm. ab.
 
 Req. π. demonstr.
 
-dg, est apotom. 6.
+de, est apoto.. medi. ord.. ab,
 
-Lemm. 97. 10. est præpar.
+Præpar.
+
+12. 10 | ab π de 2|2 ac π df.
 
 Demonstr.
 
-l.97.10 | ▭dк 2|2 □.ac / + □.bc, β
-α. hyp. | aggreg.. □.ac + □.bc est medi.
-24. 10 | ▭dк, est medi.
-25. 10 | dl, est ration. incomm. de,
-α. hyp. | □.acb, est medi.
-l.97.10 | ▭gк 2|2, 2▭acb,
-24. 10 | ▭gк, est medi.
-23. 10 | gl, est ration. incomm. de,
-α. hyp. | aggreg.. □.ac + □.bc, incomm. ▭acb,
-β. 14. 10 | ▭dк, incōm. ▭acb,
-l.97.10 | ▭gк 2|2, 2▭acb,
-14. 10 | ▭dк, incomm. ▭gк
-10. 10 | dl, incomm. gl,
-74. 10 | dg, est apotom.
-α. hyp. | □.ac, incomm. □.bc,
-c.l97.10 | □.dl 3|2 □.gl..□. / ——, incomm. dl,
-concl. 6d85.10 | dg, est apotom. 6.
-
-## THEOR. LXXX. PROPOS. CIV.
-
-Recta linea apotomæ longitudine commensurabilis; & ipsa apotome est, atque ordine eadem.
-
-*La ligne droicte commensurable en longitude à vn*
+l.66.10 | df, comm. ac,
+l.66.10 | fe, comm. cb,
+α. hyp. | ac & bc snt medi;
+24. 10 | df & fe snt medi;
+α. hyp. | ac, comm. bc ꝗn □,
+10.10 | df, comm. ef ꝗn □,
+38. 10 | de, est apotom.. medi.
+suppos. | ▭.acb, est ration.

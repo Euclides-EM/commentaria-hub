@@ -1,21 +1,29 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-DA, descriptus est circulus ABC, per tertium postulatum. | DA, a esté descrit le cercle ABC, par la troisiesme demande.
+Explicatio notarum. | Explication des notes.
 
-### IV.
+B est æqualis C, per hyp. | B est egal à C, par l'hyp.
 
-Item quacunque magnitudine data sumi posse aliam magnitudinem, vel æqualem, vel maiorem vel minorem. | Semblablement quelconque grandeur estant donnee, pouuoir prendre vne autre plus grande ou plus petite.
+A est maior B, per hyp. | A est plus gräd que B, par l'hyp.
 
-## COMMVNES NOTIONES SIVE axiomata, quæ & pronunciata dici solent, vel dignitates.
+A est maior C, per primum axioma C. | A est plus grand que C, par le premier axiome C.
 
-## COMMVNES NOTIONS OV sentences, qui s'appellent außi maximes.
+### I. a. d.
 
-### I. a. 1.
+Et si vnum æqualium maius est, aut minus magnitudine quapiam, alterum quoque æqualium eadem magnitudine maius est aut minus. | Et si l'vn des egaux est plus grand ou plus petit que quelque grandeur, l'autre des egaux sera außi plus grand ou plus petit que la mesme grandeur.
 
-Quæ eidem æqualia, & inter se sunt æqualia. | Les choses egales à vne mesme, sont außi egales entr'elles.
+[Figure: lignes A et B egales à gauche, ligne C plus courte à droite]
 
-[Figure: trois lignes droictes horizontales, AB en haut à gauche, EF à droite, CD au dessous de AB]
+hyp. | a 2|2 b.
+hyp. | a 3|2 c.
+1.a.d. | b 3|2 c.
 
-hyp. | ab 2|2 ef,
-hyp. | cd 2|2 ef,
-1.a.1 | ab 2|2 cd.
+### I. a. e.
+
+Et quod est maius maiore est etiam maius minore, & quod est minus minore est etiam minus maiore. | Et ce qui est plus grand que le plus grand, est außi plus grand que le plus petit, & ce qui est plus petit que le plus petit, est außi plus petit que le plus grand.
+
+[Figure: trois lignes, A la plus longue, B moyenne, C la plus courte]
+
+hyp. | b 3|2 c.
+hyp. | a 3|2 b.
+1.a.e. | a 3|2 c.

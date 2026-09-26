@@ -1,33 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-c.1.13 | • o, est centr.. ⊙ iak &.. ⊙ iek. contr. 5.3.
-21.a.1 | i, k, l, ñ snt intersect.
+[Figure: deux cercles se touchans en A au dedans, B et C au milieu, D à gauche, H en bas, lignes A—H, D—B, D—C, et vn troisiesme cercle E—F—G touchant au dehors, lignes E—F]
 
-## THEOR. X. PROPOS. XI.
-
-Si duo circuli sese intus contingant, atque accepta fuerint eorum centra; ad eorum centra adiuncta recta linea, & producta, in contactum circulorum cadet.
-
-Si deux cercles se touchent l'vn l'autre au dedans, & qu'on prenne les centres d'iceux, la ligne droicte conioignant iceux centres, estant prolongée, tombera à l'attouchement des cercles.
-
-[Figure: deux cercles se touchans en A, le petit au dedans du grand, B et D en haut à gauche, G et F au dedans, E et C en bas, ligne A—C par G et F, ligne B—D—G]
-
-Hypoth.
-
-gade & fabc snt ⊙,
-a, est •.. contact.
-
-Req. π. demonstr.
-
-fga est —.
+1.p.1 | bd, cd snt —.
 
 Demonstr.
 
-suppos | cfgb est —,
-15.d.1 | gd 2|2 ga,
-7.3. | ga 3|2 gb,
-1.a.d | gd 3|2 gb, contr. 9.a.1.
-21.a.1 | cfga est —.
+suppos. | h, est •.. contact.
+11.3 | abc est —,
+9.a.1 | bh 3|2 ch,
+α.15.d.1 | ch 2|2 ca,
+1.a.b | bh 3|2 ca,
+α.15.d.1 | bh 2|2 ba,
+1.a.d | ba 3|2 ca, contr. 9.a.1.
+suppos. | d, est •.. contact.
+α.15.d.1 | bd 2|2 ba,
+| cb commun. add.
+2.a.1 | cb + bd 2|2 ca,
+15.d.1 | cd 2|2 ca,
+1.a.1 | cd 2|2 cb + bd, controu. 20.1.
 
-## THEOR. XI. PROPOS. XII.
+Hypoth. 2.
 
-Si duo circuli sese intus contingant, linea recta, quæ ad centra eorum adiungitur, per contactum transibit.
+cae & feg snt ⊙,
+f, est •.. contact.
+
+Req. π. demonstr.
+
+e, ñ est •.. contact.
+
+Præpar.
+
+1.p.1 | fe est —.
+
+Demonstr.
+
+2.3 | fe est in ⊙ afe & in ⊙ feg,
+2.3.d.3 | ⊙afe secat: ⊙feg in f contr. hypoth.
+
+## THEOR. XIII. PROPOS. XIV.
+
+In circulo æquales rectæ lineæ æqualiter distant à centro. Et quæ æqualiter distant à centro, æquales sunt inter se.
+
+Au cercle les lignes droictes égales sont également di-

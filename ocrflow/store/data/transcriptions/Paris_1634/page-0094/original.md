@@ -1,30 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-1.p.1. | cf est —,
-symp. | cf ⊥ ab.
+## THEOR. VI. PROPOS. XIII.
+
+Cum recta linea super rectam consistens lineam angulos facit, aut duos rectos, aut duobus rectis æquales efficiet.
+
+Quand vne ligne droicte tombant sur vne ligne droicte, fait angles, ou elle fera deux angles droicts, ou égaux à deux droicts.
+
+[Figure: ligne horizontale C—B—D, ligne verticale BE, ligne oblique BA]
+
+Hypoth.
+
+cbd est —,
+ab est —,
+
+Req. π. demonstr.
+
+<abd + <abc 2|2 2∟.
+
+Præpar.
+
+11.1. | be ⊥ cd. α
 
 Demonstr.
 
-constr. | ce 2|2 cd,
-| cf est commun.
-constr. | df 2|2 ef,
-8.1. | <fcd 2|2 <fce,
-10.d.1. | <fcd & <fce snt ∟,
-concl. 10.d.1. | fc ⊥ ab.
-
-CONSTR.. PRA.
-
-[Figure: à gauche, ligne B—A—C, arcs D et G, ligne verticale AE, arcs s'entrecoupans en E ; à droite, ligne D—A—C, trois cercles s'entrecoupans, poincts E en haut, G à droite, A en bas]
-
-hyp. | a est • D. ⟨n bc,
-3.p.1. | acgd, cg, gde, dge snt ⊙ 2|2 ꝗe arbitr.
-1.p.1. | ae est —,
-symp. | ae ⊥ bc.
-
-Demonstr. est ⟨n schol. 15.. 4.
-
-## PROBL. VII. PROPOS. XII.
-
-Super datam rectam lineam infinitam, à dato puncto, quod in ea non est, perpendicularem rectam deducere.
-
-Sur vne ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle abbaisser vne ligne perpendiculaire.
+19.a.1. | <ebd 2|2 <eba + <abd,
+| <ebc commun. add.
+2.a.1. | <ebd + <ebc 2|2 <eba + <abd + <ebc, β
+19.a.1. | <abc 2|2 <abe + <ebc,
+| <abd commun. add.
+2.a.1. | <abc + <abd 2|2 <abe + <ebc + <abd,
+β.1.a.1. | <abc + <abd 2|2 <ebd + <ebc,
+α.10.d.1. | <ebd + <ebc 2|2 2∟,
+1.a.1. | <abc + <abd 2|2 2∟.

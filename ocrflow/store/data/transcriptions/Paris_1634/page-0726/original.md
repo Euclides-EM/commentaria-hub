@@ -1,20 +1,17 @@
-<!-- Running title: ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLD. LI. XI. -->
 
-*Qu'il nous soit proposé de monstrer qu'aux figures quarrees le diametre est incommensurable en longitude au costé.*
+ctas omnes lineas, à quibus illa tangitur, quæque in proposito sunt plano, rectos angulos efficit.
 
-[Figure: labels arranged A D / B C]
+*vn plan, quand elle faict angles droicts auec toutes les lignes droictes qui la touchent, au mesme plan proposé.*
 
-Hypoth.
+## DEFINIT. IV.
 
-bd, est □. ab,
-ac, est diamet.
+Planum ad planum rectum est, cùm rectæ lineæ, quæ communi planorum sectioni ad rectos angulos in vno plano ducuntur, alteri plano ad rectos sunt angulos.
 
-Req. π. demonstr.
+*Vn plan est esleué perpendiculairement sur vn plan, quand toutes les lignes menees sur l'vn d'iceux plans à angles droicts à la ligne de commune section, sont à angles droicts à l'autre plan.*
 
-ab, est incomm. ac.
+## DEFINIT. V.
 
-Demonstr.
+Rectæ lineæ ad planum inclinatio est, cùm à sublimi termino rectæ illius lineæ ad planum deducta fuerit perpendicularis, atque à puncto, quod perpendicularis in ipso plano effecerit, ad propositæ illius
 
-47. 1 | □.ab + □.bc, Ⅱ 2□;. ab 2|2 □.ac,
-s.17.8 | □.ab & □.ac snt plan; dissml;
-concl. 9. 10 | ab, incomm. ac.
+*L'inclination d'vne ligne droicte à vn plan, est l'angle aigu contenu sous icelle, & vne autre ligne droicte menee sur le plan proposé, par l'extremité de l'inclinante, qui est au plan proposé, & par le poinct auquel tombe la ligne droicte*

@@ -1,44 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-speciem nobis exhibent qua theorematis demonstratio in memoriam reuocetur.
+*S'il y a tant de nombres qu'on voudra continuellement proportionaux, & que les extremes soient premiers entre eux : comme le premier sera au second, ainsi le dernier ne sera à quelque autre.*
 
-*cune figure qui nous les facent retenir.*
-
-## THEOR. XV. PROPOS. XV.
-
-Si tres numeri deinceps proportionales, fuerint minimi omnium eandem cum ipsis rationem habentium ; duo quilibet compositi, ad reliquum primi erunt.
-
-*Si trois nombres sont continuellement proportionaux ; & les plus petits de tous ceux qui ont mesme raison qu'iceux. Le composé de deux tels qu'on voudra d'iceux sera premier au restant.*
-
-A,9. B,12. C,16.
-D,3. E,4.
+A,8. B,12. C,18. D,27. E---
 
 Hypoth.
 
-a,b,c snt mi. contin. proport.
+a,b,c,d snt contin. proport;
+extrem; a & d snt pr. ꝫe, α
 
 Req. π. demonstr.
 
-a + b est pr. π.c,
-b + c est pr. π.a,
-a + c est pr. π.b.
-
-Præpar.
-
-35.7 | d & e snt mi. ꝗn raō. a π b. α
+d, n̄ est π e 2|2 a π b,
 
 Demonstr.
 
-2.8 | a, est □.d, β
-2.8 | c, est □.e, γ
-21 8 | b, est ▭.d,e, δ
-α.24.7 | d & e snt pr. ꝫe,
-30.7 | d + e est pr. π.e, & d
-26.7 | □.d + e,d est pr. π.e
-βδ.3.2 | □.d + e,d 2|2 a + b,
-2.d.7 | a + b est pr. π.e,
-concl. γ.27.7 | a + b est pr. π.c,
-30.7 | d + e est pr. π.d,
-26.7 | □.d + e,e est pr. π.d
-γδ.3.2 | □.d + e,e 2|2 b + c
-2.d.7 | b + c est pr. π.d,
+suppos. | a π b 2|2 d π e,
+13.7 | a π d 2|2 b π e,
+α.23.7 | a π d snt term; raō.
+21.7 | a, msur: b,
+2c20d7 &11.a.7 | a, msur: d,
+6.a.7 | a, msur: a,
+12.a.7 | a & d n̄ snt pr. ꝫe,
+contr. hyp.
+concl. 21.a.1 | d,n̄ est π e 2|2 a π b.
+
+## PROBL. I. PROPOS. XVIII.
+
+Duobus numeris datis, considerare an possit ipsis tertius proportionalis inueniri.
+
+*Deux nombres estans donnez, considerer s'il est possible de trouuer vn troisiesme proportionel à iceux.*
+
+A,4. B,6. C,9.
+D,36.
+
+Hypoth. 1.
+
+a & b snt nr; D.
+d, est □.b,
+a, msur: d ꝑ c. α
+
+Req. π. demonstr.
+
+a, b, c snt proport;
+
+Demonstr.
+
+α.9.a.7 | d 2|2 ▭.a,c,
+hyp. | d 2|2 □.b,

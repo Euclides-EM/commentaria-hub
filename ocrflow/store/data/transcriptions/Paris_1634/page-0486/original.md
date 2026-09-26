@@ -1,55 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-A.....4 B......5
-C,20.
-D-------
-E--- F---
+## PROBL. V. PROPOS. XXXVII.
 
-Constr..1.cas.
+Tribus numeris datis reperire, quem illi minimum metiantur, numerum.
 
-suppos. | a & b snt pr. ꝫe,
-suppos. | ▭.ab est c, α
-symp. | c, est nr. req.
+*Trois nombres estans donnez, trouuer le plus petit nombre qu'ils mesurent.*
+
+A...3 B....4 C......6
+D............12
+E----
+
+Hypoth.
+
+a, b, c snt nr. D.
+
+Req. est mi. c. diuidu.. a,b,c.
+
+Constr.
+
+36.7 | d, est mi. c. diuidu.. a & b,
+1.suppo. | c, msur: d,
+symp. | d, est nr. req.
 
 Demonstr.
 
-7.a.7 | a & b msur: c,
-suppos. | d, est mi. commun. diuidu.. a & b, β
-suppos. | a, msur: d ꝑ e,
-suppos. | b, msur: d ꝑ f,
-9.a.7 | ▭.ae 2|2 d, α
-9.a.7 | ▭.bf 2|2 d,
-19.7 | a π b 2|2 f π e,
-hyp. | a & b snt pr. ꝫe,
-23.7 | a & b snt term.. raō.. a π b,
-21.7 | a, msur: f, b, msur: e, γ
-α.17.7 | b π e 2|2 c π d,
-γ.2.c.20 d.7 | c, msur: d,
-contr. suppos. β
-1.concl. 21.a.1 | d, est mi. commun. diuidu.. a & b,
+suppos. | e 2|3 d,
+suppos. | e, est mi. c. diuidu.. a, b, c, α
+α | d, n̄ est mi. c. diuidu.. a & b.
+Contr. constr.
+concl. 21.a.1 | d, est mi. c. diuidu.. a,b,c.
 
-A.....4 B......6
-C..2 D...3
-E,12.
-F-----
-G--- H---
+A..2 B...3 C.....4
+D......6
+E............12
+F----
 
-Constr..2.cas.
-
-suppos. | a & b snt compos. ꝫe,
-35.7 | c & d snt term.. raō.. a π b, δ
-suppos. | ▭.ad, u bc 2|2 e, ε
+2.supp. | c, n̄ msur: d,
+36.7 | e, est mi. c. diuidu.. c & d, β
 symp. | e, est nr. req.
 
 Demonstr.
 
-7.a.7 | a & b msur: e,
-suppos. | f, est mi. commun. diuidu.. a & b,
-suppos. | a, msur: f ꝑ g,
-suppos. | b, msur: f ꝑ h,
-9.a.7 | ▭.ag 2|2 f, θ
-9.a.7 | ▭.bh 2|2 f,
-1.a.1 | ▭.ag 2|2 ▭.bh,
-19.7 | a π b 2|2 h π g,
-δ.21.7 | c, msur: h, d, msur: g, λ
-ε.θ.17.7 | e π f 2|2 d π g,
+constr. | a & b msur: d,
+constr. | d, msur: e,
+11.a.7 | a & b msur: e, α
+constr. | c, msur: e, α
+1.concl. α | a, b, c, msur: e,
+suppos. | f 2|3 e, γ
+suppos. | f, est mi. c. diuidu.. a,b,c, δ

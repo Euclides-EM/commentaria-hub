@@ -1,35 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-α. hyp | ▭.acb, est ration.
-l.66 10 | ▭.dfe, comm. ▭.acb,
-s.12.10 | ▭.dfe, est ration.
-concl. 78. 10 | de, est ——, fa. rat. & medi.
+21. 10 | ck, est ration. comm. cd, γ
+hyp. | ▭b, est medi.
+β. 24.10 | ▭fi, est medi.
+23.10 | fк, est ration. incomm. cd,
+γ. 13.10 | ck, incomm. fк,
+74.10 | cf, est apotom.
+suppos. | □.ck 3|2 □.fк..□. ——, comm. ck,
+1d85.10 | cf, est apotom. 1.
+1.concl. 92.10 | ▭ce, Ⅱ □.h, est apotom.
+suppos. | □.ck 3|2 □.fк..□. ——, incomm. cк,
+4d.85 10 | cf, est apotom. 4.
+2 concl. 95.10 | ▭ce, Ⅱ □.h, est min.
 
-## THEOR. LXXXIV. PROPOS. CVIII.
+## THEOR. LXXXVI. PROPOS. CX.
 
-Recta linea commensurabilis ei, quæ cum medio medium totum efficit; & ipsa cum medio medium totum efficiens est.
+Rationali à medio detracto; aliæ duæ irrationales fiunt, vel mediæ apotome prima, vel cum rationali medium totum efficiens.
 
-*La ligne droicte commensurable à vne ligne, laquelle auec vn espace medial, fait vn tout medial; icelle est aussi ligne faisant auec vn espace medial vn tout medial.*
+*Si vne superficie rationelle est retranchee d'vne mediale, il se fait deux autres irrationelles, sçauoir, ou vn apotome medial premier, ou vne ligne faisant auec vn espace rationel, vn tout medial.*
 
 Hypoth.
 
-ab, est ——, fa. 2; medi. α
-bc, est congruen.
-de, comm. ab.
-
-[Figure: labels arranged A B C / D E F]
+▭a + b, est medi.
+▭b, est ration.
+□.h 2|2 ▭a.
 
 Req. π. demonstr.
 
-de, est ——, fa. 2; medi.
-
-Præpar.
-
-12. 6 | ab π de 2|2 ac π df.
-
-Demonstr.
-
-hyp. | □.ac, incomm. □.bc,
-l.66.10 | □.df, incomm. □.fe,
-hyp. | aggreg.. □.ac + □.bc, est medi.
-l.66.10 | aggreg.. □.df + □.fe, cōm. aggreg.. □.ac + □bc, β
+h, est apotom. 1.. medi. Ⅱ ——, fa. rat. & med.

@@ -1,40 +1,32 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-## THEOR. X. PROPOS. XXI.
+## THEOR. XII. PROPOS. XXIII.
 
-Pappus lib. 7. propos. 118.
+Snelius in Apollonio Batauo
+
+[Figure: deux rectangles B, C, D, A & E, F, G, H auec la diagonale E G ; au dessous les lignes K, L, N, M]
 
 Hypoth.
 
-kab & lhf snt ⊙,
+▭bd π ▭hf 2|2 k π l.
 
-km π ml 2|2 ak π el, α
+Req. π. demonstr.
 
-arbitr. | mfb est —,
-
-[Figure: deux figures : trois cercles auec les poincts A, B, K, I, N, C, M, H, P, G, L, F, E ; & deux cercles auec les poincts A, B, K, N, I, C, F, L, P, G, H, M]
-
-Req. π demonstr.
-
-◠ cnb, ◠ gpf snt sml.
-
-▭.bmg 2|2 ▭.amh,
+▭.fg,k π ▭.dc,l 2|2 ad π hg,
 
 Præpar.
 
-1.p.1 | kb, kc, lf, lg, ic, hg snt —,
+4.app. | ▭.k,m 2|2 ▭bd, α
+4.app. | ▭.l,n 2|2 ▭hf, β
 
 Demonstr.
 
-α. hyp. | km π ml 2|2 kb π fl,
-7.6 | Δbkm est æquiang. Δflm,
-7.6 | <bkm 2|2 <flm, β
-α. hyp. | km π ml 2|2 kc π lg,
-7.6 | Δckm est æquiang. Δglm,
-7.6 | <ckm 2|2 <gml, γ
-β. 3.a.1 | <bkc 2|2 <flg,
-1.concl. 10.d.3 | ◠◠ baic sml. ◠◠ fehg,
-2.concl. 10.d.3 | ◠ bno sml. ◠ gpf,
-γ | <ckm 2|2 <glm,
-32.1 | <kic 2|2 <lhg,
-13.1 | <mic 2|2 <mhg,
+7.5 | ▭.k,m π ▭.l,n 2|2 ▭bd π ▭hf,
+hyp. | k π l 2|2 ▭bd π ▭hf,
+11.5 | ▭,k,m π ▭.l,n 2|2 k π l,
+c.1.6 | m 2|2 n,
+α.14.6 | ad π m 2|2 k π dc, γ
+β.14.6 | m u n π hg 2|2 fg π l, γ
+20.d.5 γ | raō.ad π hg 2|2 raō.ad π m + raō.m π hg, u raō.k π cd + raō.fg π l,
+23.6 | raō.▭.fg,k π ▭.dc,l 2|2 raō.k π cd + raō.fg π l,
+concl. 11.5 | ▭.fg,k π ▭.dc,l 2|2 ad π hg.

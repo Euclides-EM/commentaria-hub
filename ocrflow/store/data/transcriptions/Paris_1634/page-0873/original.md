@@ -1,17 +1,23 @@
-<!-- Running title: ELEM.. EVCLID. LI. XIV. -->
+# EVCLIDIS ELEMENTORVM LIBER DECIMVSQVINTVS.
 
-Cùm igitur pyramides eiusdem altitudinis sint inter se vt bases, δ & superficies dodecaedri sit æqualis 12, pentagonis superficies verò icosaedri 20, triangulis erit dodecaedrum ad icosaedrum vt superficies dodecaedri ad superficiem icosaedri, vel vt latus cubi ad latus icosaedri. ε | δ. 5.&6 12 / ε. 5.14 | *Par consequent puis que les pyramides de mesme hauteur sont l'vne à l'autre comme leurs bases, δ & que la superficie du dodecaedre est egal à 12 pentagones, & la superficie de l'icosaedre à 20 triangles, le dodecaedre sera à l'icosaedre comme la superficie du dodecaedre à la superficie de l'isocaedre, ou comme le costé du cube au costé de l'icosaedre. ε*
+# LE QVINZIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
-## THEOR. VIII. PROPOS. VIII.
+## PROBL. I. PROPOS. I.
 
-Idem circulus comprehendit & cubi quadratum, & octaedri triangulum eiusdem sphæræ.
+In dato cubo pyramidem describere.
 
-*Vn mesme cercle contient le quarré du cube, & le triangle de l'octaedre inscrits en vne mesme sphere.*
-
-[Figure: labels arranged B / C I E / D — F / K / G H / A]
+*En vn cube donné inſcrire vne pyramide.*
 
 Hypoth.
-a, eſt diamet.. ſphær.
-bd, eſt □. cub. inſcri. ꝗn ſphær.
-fgh, eſt △. octaedr. inſcri. ꝗn ſphær.
-ibedc & кfhg ſnt ⊙; circſcri;
+abghdcfe, eſt cub. D.
+
+Conſtr.
+
+1. p. 1 | ca, cg, ce, ag, ge, ea ſnt ——;
+ſymp. | Req. eſt pyram. agec.
+
+[Figure: labels arranged E F / D C / H / G / A B]
+
+Demonſtr.
+
+conſtr. | ca, eſt diamet.. □.abcd, / cg, eſt diamet.. □.bgfc, / ce, eſt diamet.. □. dcfe, / ag, eſt diamet.. □. abgh,

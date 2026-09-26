@@ -1,36 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-1.concl. 21.a.1. | <agh + <chg 2|2 2∟,
-13.1. | <dhg + <chg 2|2 2∟,
-12.a.1. | <chg + <agh 2|2 <chg + <dhg,
-| <chg commun. subtr.
-2.cöcl. 3.a.1. | <dhg 2|2 <agh, α
-15.1. | <bge 2|2 <agh,
-α | <dhg 2|2 <agh,
-13.concl. 1.a..1 | <bge 2|2 <dhg.
+## SCHOL.
 
-## SCHOL. I.
+Rectæ lineæ eidem rectæ parallelæ, si in directum continuatæ inter se coeant: erunt partes eiusdem rectæ lineæ, vt AG & GB sunt partes rectæ lineæ AB.
 
-Si externus angulus sit æqualis interno & opposito ad easdem partes, linea incidens in rectas parallelas est recta.
+Les lignes droictes paralleles à vne mesme ligne droicte estäs continuées directement, si elles se rencontrent: elles seront parties d'vne mesme ligne droicte, comme AG & GB sont parties de la droicte AB.
 
-Si l'angle externe est égal à l'interne & opposé de mesme part, la ligne tombant sur lignes droictes paralleles est droicte.
+## PROBL. X. PROPOS. XXXI.
 
-[Figure: ligne A—G—B, ligne C—H—D, ligne transversale E—G—H—F, E en haut à droicte, F en bas à gauche]
+A dato puncto, datæ rectæ lineæ parallelam rectam lineam ducere.
+
+D'vn poinct donné, mener vne ligne droicte parallele à vne ligne droicte donnée.
+
+[Figure: ligne E—A—F en haut, ligne B—D—C en bas, ligne A—D]
 
 Hypoth.
 
-ab == cd,
-<egb 2|2 <ghd.
+a est • D.
+bc est — D.
 
-Req. π. demonstr.
+Req. π. fa.
 
-egh est —.
+ae == bc.
+
+Constr.
+
+ad est — arbitr.
+23.1. | <dae 2|2 <adc,
+symp. | ae == bc.
 
 Demonstr.
 
-hyp. | <egb 2|2 <ghd,
-| <bgh commun. add.
-2.a.1. | <egb + <bgh 2|2 <ghd + <bgh,
-29.1. | <ghd + <bgh 2|2 2∟,
-1.a.1. | <egb + <bgh 2|2 2∟,
-concl. 14.1. | egh est —.
+constr. | <dae 2|2 <adc,
+concl. 27.1. | ae == bc.
+
+## SCHOL.
+
+Super datam rectam lineam infinitam, à dato puncto, quod in ea non est, rectam lineam ducere, quæ cum data constituat angulum æqualem dato angulo rectilineo.
+
+Sur vne ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle, mener vne ligne droicte qui auec la ligne donnée,

@@ -1,33 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Si vne superficie mediale est retranchee d'vne superficie mediale, incommensurable à la toute; il se fait les deux autres irrationelles, sçauoir l'apotome medial second, ou la ligne faisant auec vne superficie mediale vn tout medial.*
+37. 10 | bf & fd snt ration. comm. ꝗn □, γ
+1d48.10 | bf, comm. bc,
+β. 12.10 | be, comm. bf,
+c.16.10 | be, comm. fe, ♪
+s.12.10 | fe, est ration. ε
+α | be, incomm. de, θ
+♪. 14.10 | fe, incomm. de,
+αε | fe & de snt ration;
+θ. 74.10 | fd, est apotom.
+contr. concl. γ
+concl. 21.a.1 | a, n̄ est binom.
 
-Hypoth.
+Nomina 13, linearum irrationalium inter se differentium.
 
-▭a + b, est medi.
-▭a, est medi. incomm. ▭.a + b,
-□ h 2|2 ▭a.
+*Les noms des 13, lignes irrationelles differentes entr'elles.*
 
-Req. π. demonstr.
+1 | medi.
+2 | binom.
+3 | bimed. 1.
+4 | bimed. 2.
+5 | maj.
+6 | po. rat. & medi.
+7 | po. 2; medi;
+8 | apotom.
+9 | apotom. 1.. medi.
+10 | apotom. 2... medi.
+11 | min.
+12 | fa. rat. & medi.
+13 | fa. 2; medi;
 
-h, est apotom. 2.. medi. Ⅱ ——, fa. 2; medi;
+Cùm latitudinum differentiæ arguant differentias rectarum, quarum quadrata sunt applicata ad aliquam rationalem, sitque demonstratum in præcedétibus, latitudines quæ oriuntur ex applicationibus quadratorum harum 13, linearum inter se differre: perspicuè sequitur has 13, lineas inter se differre.
 
-Præpar.
-
-suppos. | cd, est ration. expos.
-4.app. | ▭ci 2|2 ▭a + b, α
-4.app. | ▭fi 2|2 ▭b. β
-
-*in figur. præced.*
-
-Demonstr.
-
-αβ.3.a.1 | ▭ce 2|2 ▭a, Ⅱ □.h,
-hyp. | ▭a + b, est medi.
-α.24.10 | ▭ci, est medi.
-23. 10 | ck, est ration. incomm. cd, γ
-hyp. | ▭b, est medi.
-β. 24.10 | ▭fi, est medi.
-23.10 | fк, est ration. incomm. cd,
-hyp. | ▭a + b, incomm. ▭b,
-10.10 | ▭ci, incomm. ▭fi,
+*A cause que les latitudes ne peuuent estre differentes, si les lignes dont les quarrez ont esté appliquez à quelque rationnelle, ne different entr'elles, & qu'il a esté monstré cy deuant, que les latitudes qui viennent par l'application des quarrez de ces 13, lignes sont differentes entr'elles, il est euident que ces 13, lignes sont differentes entr'elles.*

@@ -1,36 +1,28 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-[Figure: triangles A, B, C et D, G avec E, F]
-
 Hypoth.
 
-<b 2|2 <def, α
-ab π bc 2|2 de π ef.
+<bac est ⌐,
+ad ⊥ bc,
 
 Req. π. demonstr.
 
-Δabc & Δdef snt æquiang.
-<a 2|2 <d,
-<c 2|2 <dfe.
+Δadb, Δadc, Δabc snt æquiang. ⁊e,
 
-Præpar.
-
-<feg 2|2 <b, β
-<efg 2|2 <c.
+[Figure: triangle B, A, C avec perpendiculaire A—D]
 
 Demonstr.
 
-β.32.1 | <g 2|2 <a,
-4.6 | ge π ef 2|2 ab π bc,
-hyp. | de π ef 2|2 ab π bc,
-11.5 | de π ef 2|2 ge π ef,
-9.5 | de 2|2 ge,
-α.β.1.a.1 | <def 2|2 <gef,
-1.concl. | <d 2|2 <gu<a,
-β.4.1 2.concl. 32.1 | <efd 2|2 <c.
+12.a.1 | <bac 2|2 <adb, α
+| <b est commun. Δabc & Δabd,
+1.concl. α.32.1 | Δadb est æquiang. Δabc, β
+12.a.1 | <bac 2|2 <adc,
+| <c est commun. Δabc & Δadc,
+2.concl. 32.1 | Δdac est æquiang. Δabc, γ
+3.concl. β,γ | Δabd est æquiang. Δadc.
 
-## THEOR. VII. PROPOS. VII.
+## COROLL.
 
-Si duo triangula vnum angulum vni angulo æqualem, circum autem alios angulos latera proportionalia habeāt, reliquorum verò simul vtrumque aut minorem, aut non minorem recto : æquiangula erunt triangula, & æquales habebunt eos angulos, circum quos proportionalia sunt latera.
+Ex hoc manifestum est, perpendicularem, quæ in rectangulo triangulo ab angulo recto in basin demittitur, esse mediam proportionalem inter duo basis segmenta : Item vtrumlibet laterum angulum rectum ambientium, medium proportionale inter totam basin, & illud segmentum basis quod ei lateri adjacet.
 
-Si deux triangles ont vn angle egal à vn angle, & à l'entour d'vn autre angle les costez proportionaux, estans les troisiesmes angles de mesme espece : les triangles seront equiangles, & auront les angles egaux à l'entour desquels les costez sont proportionaux.
+De cette proposition il est euident que la perpendiculaire menée de l'angle droict sur la base, au triangle rectangle, est moyenne proportionelle entre les deux segments de la base : Semblablement vn chacun des costez qui contiennent l'angle droict, est moyen proportionel entre toute la base, & le segment de la base qui est adjacent à iceluy costé.

@@ -1,17 +1,13 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### XXXI.
+[Figure: parallelogramme GLMH, H en haut à gauche, M en haut à droite, G en bas à gauche, L en bas à droite]
 
-Rhombus autem, quæ æquilatera, sed rectangula non est, vt A. | Rhombe est vne figure equilatere, mais n'est pas rectangle, comme A.
+Quadrilateræ figuræ diuiduntur in parallelogrammum & trapezium. | Les figures quadrilateres sont diuisées en parallelogrämes & trapezes.
 
-[Figure: rhombe A, parallelogramme incliné]
+Parallelogrammorum species sunt quatuor, nempe quadratum, altera parte longior figura siue rectangulum, rhombus & rhomboïdes. | Il y a quatre especes de parallelogrammes, à sçauoir le quarré, le rectangle, le rhombe, & le rhomboïde.
 
-### XXXII.
+Trapeziorum quoque sunt tres species, nimirum trapezium isosceles, trapezium scalenum, & trapezium irregulare. | Il y a außi trois especes de trapezes, à sçauoir trapeze isoscele, trapeze scalene, & trapeze irregulier.
 
-Rhomboïdes verò, quæ aduersa & latera & angulos habens inter se æquales, neque æquilatera est, neque rectangula, vt GLMH. | Rhomboïde est vne figure, laquelle a les costez opposez egaux, & les angles opposez außi egaux, mais n'est pas equilatere ny rectägle, comme GLMH.
+Trapezium isosceles est, cuius duo latera opposita sunt parallela, & reliqua duo non quidem parallela, sed inter se æqualia, vt ABED. | Trapeze isoscele est celuy qui a deux costez opposez, & les deux autres costez egaux entr'eux, mais non paralleles, comme ABED.
 
-[Figure: rhomboïde GLMH, H en haut à gauche, M en haut à droite, G en bas à gauche, L en bas à droite]
-
-### XXXIII.
-
-Præter has autem, reliquæ quadrilateræ figuræ, trapezia appellentur, vt GNDH. | Mais outre ces figures, toutes les autres quadrilateres sont appellees trapezes, comme GNDH.
+[Figure: trapeze isoscele ABED, D et E en haut, A et B en bas ; à costé : de Ⅱ ab. ad 2|2 be.]

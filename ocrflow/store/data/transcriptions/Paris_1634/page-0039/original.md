@@ -1,19 +1,17 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-igitur neque anguli magnitudinem. | quent la quantité de l'angle.
+[Figure: ligne BD horizontale passant par C, ligne CA oblique montant vers la droite]
 
-### IX.
+### XI.
 
-Cùm autem, quæ angulum continent lineæ, rectæ fuerint, rectilineus ille angulus appellatur. | Or quand les lignes, qui comprennent l'angle, sont droictes, l'angle s'appelle rectiligne.
+Obtusus angulus est, qui recto maior est, vt ACB. | L'angle obtus est, celuy qui est plus grand qu'vn droict, comme ACB.
 
-[Figure: trois angles, A formé de deux lignes droites, B formé de deux lignes courbes, C formé d'vne ligne droite & d'vne courbe]
+### XII.
 
-Omnis angulus planus conficitur aut ex duabus lineis rectis, qui rectilineus est, de quo solùm hic agit Euclides : aut ex duabus curuis, quem curuilineum vocare licet : aut ex vna curua & altera recta, qui mixtus appellatur. | Tout angle plan est faict, ou de deux lignes droites, & est appellé angle rectiligne, & d'iceluy traicte seulement icy Euclide : ou de deux lignes courbes, qui peut estre appellé curuiligne : ou d'vne ligne droite & d'vne courbe, qui s'appelle mixtiligne.
+Acutus verò, qui minor est recto, vt ACD. | Mais l'aigu est, celuy qui est plus petit qu'vn droict, comme ACD.
 
-Angulus A est rectilineus, | L'angle A est droict.
-B curuilineus, | B curuiligne.
-C mixtus. | C mixtiligne.
+### XIII.
 
-### X.
+Terminus est, quod alicuius extremum est. | Terme, est l'extremité de quelque chose.
 
-Cùm verò recta linea | Quand vne ligne droicte
+Tres sunt termini iuxta hanc definitionem : punctum enim est terminus, seu extremum lineæ : linea superficiei : & superficies corporis : corpus autem terminare, amplius nihil potest, quòd non reperiatur alia | Il y a trois sortes de termes selon ceste definition : car le poinct est le terme ou l'extremité de la ligne : la ligne est le terme de la superficie du corps : mais le corps ne peut rien terminer, d'autant qu'il ne se trouue aucune quantité

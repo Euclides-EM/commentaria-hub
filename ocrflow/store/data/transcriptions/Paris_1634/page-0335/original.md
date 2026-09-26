@@ -1,33 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-## DEFINIT. IV.
+41.1 | ◇ce 2|2, 2Δacb,
+41.1 | ◇cf 2|2, 2Δacd,
+2.concl. γ.15.5 | ◇ce π ◇cf 2|2 Δacb π Δacd u bc π cd.
 
-Altitudo cuiusque figuræ est linea perpendicularis à vertice ad basin deducta.
+## SCHOL.
 
-La hauteur de quelconque figure est la ligne perpendiculaire menee du sommet sur la base.
+Triangula & parallelogramma, quorum æquales sunt bases, vel eadem ; ita se habent inter se vt altitudines.
 
-[Figure: triangle A, B, C avec perpendiculaire A—D]
+Les triangles & les parallelogrammes constituez sur bases egales, ou sur vne mesme base ; sont entr'eux comme leurs hauteurs.
 
-hyp. | ad ⊥ bc,
-4.d.5 | ad est alt.. Δabc, α
+[Figure: triangles et parallelogrammes G, A ; B, L, C, I, K, E ; D, H ; M, F]
 
-EXPL. NOT.
+Hypoth.
 
-α | AD est altitudo trianguli ABC.
-| AD est la hauteur du triangle ABC.
+abc & def snt Δ,
+agbc & defh snt ◇,
+bc 2|2 ef,
 
-## DEFINIT. V.
+Præpar.
 
-Ratio ex rationibus componi dicitur, cùm rationum quantitates inter se multiplicatæ, aliquā effecerint rationem.
+2.p.1 | bci est —,
+2.p.1 | fek est —,
+12.1 | ai ⊥ bi,
+12.1 | dk ⊥ kf,
+3.1 | il 2|2 cb,
+3.1 | km 2|2 ef,
+1.p.1 | la, lg, md, mh snt —.
 
-Vne raison est dite estre composee de raisons, quand les quantitez des raisons multipliees entr'elles font quelque raison.
+Req. π. demonstr.
 
-Quantitates rationum intermediarum inter se multiplicatas efficere quantitatem rationis extremarum, sic demonstrabitur,
+Δabc π Δdef 2|2 ai π dk,
+◇agbc π ◇defh 2|2 ai π dk.
 
-Que les quantitez des raisons entremoyennes estāt multipliées l'vne par l'autre, font la quantité de la raison des extremes, on demonstrera ainsi.
+Demonstr.
 
-A, 24. B, 6. C, 3.
-
-1.s3.d.5 | quantit.. raō.. a π b est a/b
-1.s3.d.5 | quantit.. raō.. b π c est b/c
-1.s1.d.2 | ▭. a,b / b,c est ab/bc,
+38.1 | Δali 2|2 Δabc,

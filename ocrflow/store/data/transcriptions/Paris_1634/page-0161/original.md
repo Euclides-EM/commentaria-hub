@@ -1,34 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-3.1. | cf 2|2 cd,
-
-Req. π. demonstr.
-
-▭.daf + ▭.cd 2|2 ▭.ac.
+1.p.1. | eb est diamet.
+31.1. | cf == bd,
+31.1. | hgi == ab,
 
 Demonstr.
 
-15.d.1. | ac 2|2 cb,
-constr. | cd 2|2 cf,
-3.a.1. | af 2|2 db,
-3.s.1.d.2 | ▭.daf 2|2 ▭.adb,
-s.5.2. | ▭.de 2|2 ▭.adb,
-1.a.1. | ▭.daf 2|2 ▭.de,
-| ▭.cd commun. add.
-2.a.1. | ▭.daf + ▭.cd 2|2 ▭.de + ▭.cd,
-47.1. | ▭.de + ▭.cd 2|2 ▭.ce u ca,
-concl. 1.a.1. | ▭.daf + ▭.cd 2|2 ▭.ac.
+1.c.4.2. | ci est ▭.cb,
+1.c.4.2. | hf est ▭.ac,
+3.s.1.d.2 | ▭.abc 2|2 ▭ai u ▭cd,
+2.a.1. | 2▭.abc 2|2 gnom. hbf + ▭ci,
+| ▭hf commun. add.
+concl. 2.a.1. | 2▭.abc + ▭hf 2|2 ad ▭.ab + ci ▭.cb.
 
-## SCHOL. I.
+## PROPOS. VII. ALITER. — AVTREMENT.
 
-Si tres rectæ sint in proportione arithmetica, rectangulum sub extremis contentum, vnà cum quadrato excessus, æquale erit quadrato mediæ.
+Si recta linea secetur in duo segmenta inæqualia, rectangulum bis comprehensum sub segmentis vnà cum quadrato differentiæ segmentorum, æquale est aggregato quadratotum quæ describuntur à segmentis.
 
-Si trois lignes droictes sont en proportion arithmetique, le rectangle compris sous les extremes, auec le quarré de l'excez, sera égal au quarré de la moyenne.
+Si vne ligne droicte est couppée en deux parties inégales, le rectangle compris deux fois sous les parties auec le quarré de la difference des parties, est égal à l'aggregé des quarrez descrits de deux parties.
 
-s.4.d.5. | af, af + fc, af + fc + cd snt in propor. arithm.
-| u, af, ac, ad.
-concl. 6.2. | ▭.af,ad + ▭.cd u fc 2|2 ▭.ac.
+Hypoth.
 
-## SCHOL. II.
+ab est —
+ad 3|2 db,
+ad ~ db 2|2 fd.
 
-Si quantitas quantitatem excedat, semissis illius semissem huius superabit excessus semisse.
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes A—E, E—F, E—C, E—D, E—B]
+
+Req. π. demonstr.
+
+2▭.adb + ▭.fd 2|2 ▭.ad + ▭.db.
+
+Præpar.

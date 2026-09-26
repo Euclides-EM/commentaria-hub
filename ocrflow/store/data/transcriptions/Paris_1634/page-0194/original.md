@@ -1,37 +1,28 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: deux cercles s'entrecouppans en B et C, E au dedans, A et D à gauche, lignes B—E et E—D—A]
+[Figure: cercle A—C—D—E—B—H, F au centre, G sous F, lignes de G vers C, D, E, H, diametre A—B, lignes F—C, F—D, F—E]
 
-15.d.1 | ed 2|2 eb,
-15.d.1 | ea 2|2 eb,
-1.a.1 | ed 2|2 ea, contr. 9.a.1.
-concl. 21.a.1 | e ñ est centr.. ⊙ bac &.. ⊙bdc.
-
-## THEOR. V. PROPOS. VI.
-
-Si duo circuli sese mutuò interius tangant; eorum non erit idem centrum.
-
-Si deux cercles se touchent l'vn l'autre au dedans, ils n'auront pas mesme centre.
-
-[Figure: deux cercles se touchans en B, le petit au dedans du grand, F au dedans, E à droite, A et D à gauche, C en bas à droite, lignes B—F et F—D—A]
-
-Hypoth.
-
-bac & bde snt ⊙.
-
-Req. π. demonstr.
-
-f, ñ est centr.. ⊙ bac &.. ⊙bde.
+gh, ge, gd ñ snt 2|2 ⁊e
 
 Demonstr.
 
-suppos. | f, est centr.. ⊙bac &.. ⊙bde,
-1.p.1. | fa est —,
-15.d.1 | fd 2|2 fb,
-15.d.1 | fa 2|2 fb,
-1.a.1. | fd 2|2 fa, contr. 9.a.1.
-concl. 21.a.1 | f, ñ est centr.. ⊙bac &..⊙bde.
+15.d.1 | fa 2|2 fc,
+| gf commun. add.
+2.a.1 | ga 2|2 gf + fc,
+20.1 | gf + fc 3|2 gc,
+1.concl. 1.a.c | ga 3|2 gc,
+9.a.1 2.concl. 24.1 | <gfc 3|2 <gfd, gc 3|2 gd,
+9.a.1 3 concl. 24.1 | <gfd 3|2 <gfe, gd 3|2 ge, α
+15.d.1 | fe 2|2 fb,
+20.1 | fg + ge 3|2 fe,
+1.a.c | fg + ge 3|2 fb,
+| fg commun. subtr.
+4.cōcl. 5.a.1 | ge 3|2 gb,
+constr. | <gfh 2|2 <gfe,
+4.1 | gh 2|2 ge,
+α | gd 3|2 ge, β
+5.concl. β | gh, ge, gd ñ snt 2|2 ⁊e
 
-## THEOR. VI. PROPOS. VII.
+## THEOR. VII. PROPOS. VIII.
 
-Si in diametro circuli quodpiam sumatur punctum quod circuli centrum non sit, ab eoque puncto in circulum quædam rectæ lineæ cadant: Maxima
+Si extra circulum sumatur punctum quodpiam, ab eoque puncto ad circulum deducantur rectæ quædam lineæ, quarum vna quidem per centrum protendatur, reliquæ verò vt libet: In cauam peripheriam cadentium rectarum linearum maxima quidem est illa, quæ per centrum ducitur; aliarum autem propinquior ei, quæ per centrum transit, remotiore semper maior est: In conuexam verò peripheriam cadentium rectarum linearum minima quidem est illa, quæ inter punctum, & diametrum

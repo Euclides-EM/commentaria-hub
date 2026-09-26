@@ -1,9 +1,11 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-sumpta reliquo sunt maiora. | stez sont plus grands que l'autre, en quelque façon qu'ils soient pris.
+& perspicuæ per se, aut per acquisitam cognitionem, quæ nobis ostendunt, consequentiam illam ab hypothesi ad quæsitum, esse certam & necessariam. | la cognoissance que nous auons desia acquise, qui nous donnent à cognoistre, qu'icelle consequence de l'hypothese au requis, est certaine & necessaire.
 
-Partes problematis sunt, explicatio hypotheseos, si datum fuerit aliquid : Constructio siue inuentio quæsiti, nonnunquam etiam præparatio ad demonstrandum : demonstratio, qua ostenditur, exhibita methodo, necessariò quæsitum inueniri. | Les parties du probleme sont, l'explication de l'hypothese, s'il y a quelque chose de donnée, la construction ou inuention du requis, & außi quelquefois la preparation pour la demonstration : la demonstration, par laquelle est demonstré que par la methode enseignée en la construction, on trouuera necessairement le requis.
+Sunt autem duo genera demöstrationum apud Mathematicos, nimirùm ostensiuum, & deducens ad impossibile. | Or il y a deux sortes de demonstrations parmy les Mathematiciens, à sçauoir l'ostensiue, & celle qui nous conduit à l'impossible.
 
-Partes theorematis sunt, explicatio hypotheseos, siue datorum : explicatio quęsiti : præparatio ad demonstrandum, quæ non semper sed plerumque est necessaria : Demonstratio, qua perspicuum fit, passionem proprietatemve de qua quæritur, inesse iis quæ proponuntur. | Les parties du theoreme sont, l'explication de l'hypothese, ou de ce qui est donné : l'explication du requis : la preparation pour la demonstration, qui n'est pas tousiours necessaire, mais le plus souuent : Et la demonstration, par laquelle il est rendu manifeste, que la paßion ou proprieté, dont est question, se trouue aux grandeurs proposées.
+In demonstratione ostensiua, series consecutionum fit ab hypothesi ad quæsiti finem & comprehësionem. | En l'ostensiue la suite des consequences se fait de l'hypothese au requis.
 
-Problema indiget theoremate propter demonstrationem, theorema problemate propter præparationem. | Le probleme a besoin du theoreme à cause de la demonstration, & le theoreme du probleme à cause de la preparation.
+Conttà in deducente ad impossibile, progredimur ab eo quod quæsito contradicit ab hypothesim siue datum & concessum donec incidamus in aliquod absurdum, vnde concluditur, suppositum quæsito contradicens esse falsum, ac proinde quæsitum esse verum. | Et au contraire, en celle qui nous conduict à l'impossible, la suite des consequences se fait du contraire de ce qui est à conclure vers l'hypothese, ou vers ce qui est donné & concedé iusques à ce que nous tombions en quelque absurdité ; d'où on conclud, que ce qui a esté supposé contraire au requis est faux, & par consequent que le requis est vray.
+
+Notandum quoque est demonstrationes quæ ad diuersas figuras iisdem litteris notatas pertinent legendas esse cum singulis figuris | Il faut außi remarquer que si la demonstration appartient à diuerses figures marquées par mesmes lettres, qu'il la faudra lire auec chaque figure separé-

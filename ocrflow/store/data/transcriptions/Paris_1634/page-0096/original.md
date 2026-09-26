@@ -1,34 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-## THEOR. VI. PROPOS. XIII.
+3.a.1. | <abe 2|2 <abd,
+| contr. 9. a. 1.
+concl. 21.a.1. | cbd est —.
 
-Cum recta linea super rectam consistens lineam angulos facit, aut duos rectos, aut duobus rectis æquales efficiet.
+## THEOR. VIII. PROPOS. XV.
 
-Quand vne ligne droicte tombant sur vne ligne droicte, fait angles, ou elle fera deux angles droicts, ou égaux à deux droicts.
+Si duæ rectæ lineæ se mutuo secuerint, angulos ad verticem æquales inter se efficient.
 
-[Figure: ligne horizontale C—B—D, ligne verticale BE, ligne oblique BA]
+Si deux lignes droictes se couppent l'vne l'autre, elles feront les angles au sommet égaux entr'eux.
+
+[Figure: ligne A—E—B horizontale, ligne oblique C—E—D]
 
 Hypoth.
 
-cbd est —,
-ab est —,
+ab & cd snt —.
 
 Req. π. demonstr.
 
-<abd + <abc 2|2 2∟.
-
-Præpar.
-
-11.1. | be ⊥ cd. α
+<aec 2|2 <deb,
+<aed 2|2 <ceb.
 
 Demonstr.
 
-19.a.1. | <ebd 2|2 <eba + <abd,
-| <ebc commun. add.
-2.a.1. | <ebd + <ebc 2|2 <eba + <abd + <ebc, β
-19.a.1. | <abc 2|2 <abe + <ebc,
-| <abd commun. add.
-2.a.1. | <abc + <abd 2|2 <abe + <ebc + <abd,
-β.1.a.1. | <abc + <abd 2|2 <ebd + <ebc,
-α.10.d.1. | <ebd + <ebc 2|2 2∟,
-1.a.1. | <abc + <abd 2|2 2∟.
+13.1. | <aec + <ceb 2|2 2∟
+13.1. | <deb + <ceb 2|2 2∟
+| <ceb commun. subtr.
+3.a.1. | <aec 2|2 <deb, α
+d. α. | <aed 2|2 ceb.
+
+COROLL. I.
+
+Ex hac propositione sequitur, duas rectas lineas se mutuo secantes, efficere ad punctum sectionis quatuor angulos quatuor rectis æquales. | De cette proposition s'ensuit, que deux lignes droictes s'entrecouppant l'vne l'autre, font quatre angles égaux à quatre angles droicts.
+
+COROLL. II.
+
+Sequitur etiam omnes angulos circa vnum & idem punctum constitutos, quatuor duntaxat rectis esse æquales.

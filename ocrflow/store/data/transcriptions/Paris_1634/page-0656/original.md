@@ -1,37 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-2 concl. 1.6 | dl 3|2 lg.
+l.60.10 | ▭lf 2|2, 2▭acb,
+24.10 | ▭lf, est medi.
+23.10 | lg, est ration. incomm. de,
+γ.13.10 | dl, incomm. lg,
+1cl60.10 | □.dl 3|2 □.lg..□.——, comm. dl,
+concl. 1d48.10 | dg, est binom. 1.
 
-Coroll. 1.
+## THEOR. XLIV. PROPOS. LXII.
 
-hyp. | ac, comm. cb ꝗn □.
+Quadratum eius, quæ ex binis mediis prima, ad rationalem applicatum, latitudinem facit ex binis nominibus secundam.
+
+*Le quarré d'vne ligne premiere de deux mediales appliqué sur vne ligne rationelle, faict la latitude vn binome second.*
+
+B D C / E A (left) I L M G / H K N F (rectangle)
+
+Hypoth.
+
+ab, est bimed. 1. α
+ac & cb snt nom.
+ac 3|2 cb,
+de, est ration. expos.
+▭df 2|2 □.ab.
 
 Req. π. demonstr.
 
-▭dк, comm. □.ac, & □.cb,
-dl, incomm. lg,
-□.dl 3|2 □.lg..□.——, comm. dl.
+dg, est binom. 2.
+
+Lemm. 60.10. est præpar.
 
 Demonstr.
 
-hyp. | □.ac, comm. □.cb,
-16.10 | aggreg..□.ac + □.cb, comm. □.ac & □.cb,
-1.concl. κ.10.10 | ▭dk, comm. □.ac & □.cb,
-l.26.10 | aggreg..□.ac + □.cb, incomm. 2▭.acb,
-2 concl. εκ.13.10 | dl, incomm. lg,
-s.22.6 | □.ac π ▭.acb 2|2 ▭.acb π □.cb,
-βθ.7.5 | ▭dh π ▭ln 2|2 ▭ln π ▭iк,
-1.6 | di π lm 2|2 lm π il,
-17.6 | ▭dil 2|2 □.lm, λ
-hyp. | □.ac, comm. □.cb,
-♪ε.10.10 | ▭dh, comm. ▭ik,
-10.10 | di, comm. il,
-3.concl 18.10 | □.dl 3|2 □.lg..□.——, comm. dl.
-
-Coroll. 2.
-
-hyp. | □ ac, incomm. □.cb.
-
-Req. π. demonstr.
-
-□.dl 3|2 □.lg..□.——, incomm. dl.
+α.hyp. | ac & cb snt medi. comm. ꝗn □,
+l.60.10 | ▭dk, comm. □.ac,
+24.10 | ▭dk, est medi.
+23.10 | dl, est ration. incomm. de, γ
+α.hyp. | ▭.acb, est ration.
+s.12.10 | 2▭acb, est ration.
+l.60.10 | ▭lf 2|2, 2▭acb,
+s.12.10 | ▭lf, est ration.

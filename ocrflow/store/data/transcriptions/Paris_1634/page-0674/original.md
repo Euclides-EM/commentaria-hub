@@ -1,32 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-compositum quidem ex ipsarum quadratis rationale, quod autem sub ipsis continetur, medium; reliqua irrationalis est: vocetur autem minor.
+βs.12.10 | □.ef, est irration.
+concl. 11.d.10 | ef, est irration.
 
-*Si d'vne ligne droicte on retranche vne ligne droicte, incommensurable en puissance à la toute, faisant auec la toute le composé de leurs quarrez rationel, & le rectangle contenu sous icelles medial; la restante est irrationelle: soit icelle appellee mineure.*
-
-A B C (line)
-
-Hypoth.
-
-□.ac, incomm. □.ab,
-aggreg..□.ac + □.ab, est ration.
-▭.cab, est medi. α
-
-Req. π. demonstr.
-
-bc, est irration.
-
-Demonstr.
-
-hyp. | aggreg..□.ac + □.ab, est ration.
-α.24.10 | 2▭.cab, est medi.
-s.12.10 | 2▭.cab, incomm. aggreg..□.ac + □.ab,
-7.2 | □.ac + □.ab 2|2, 2▭.cab + □.bc,
-17.10 | □.bc, incomm. aggreg.□.ac + □.ab,
-concl. 27.10 | bc, est irration.
+D E F (line)
 
 Explicat. ꝑ nr;
 
-ac, est √..18 + √.108,
-ab, est √..18 ∼ √.108,
-bc, est √..18 + √.108, ∼ √..18 ∼ 108.
+df, est √.. √.216 + √.72,
+de, est √.. √.216 ∼ √.72,
+ef, est √.. 216 + √.72, ∼ √..216 ∼ √.72,
+
+## THEOR. LXI. PROPOS. LXXIX.
+
+Si à recta, recta auferatur potentia incommensurabilis existens toti, quæ cum tota faciat & compositum ex ipsarum quadratis, medium, & quod sub ipsis continetur, medium, incommensurabiléque composito ex quadratis ipsarum: reliqua irrationalis est. Vocetur autem cum medio medium totum efficiens.
+
+*Si d'vne ligne droicte on retranche vne ligne droicte, incommensurable en puissance à la toute, laquelle auec la toute face le composé de leurs quarrez medial, & le rectangle contenu sous icelles medial, & incommensurable au composé de leurs quarrez: la restante est irrationelle. Soit appellee faisant vn tout medial auec vn rectangle medial.*
+
+Hypoth.
+
+□.df, incomm. □.de,
+aggreg..□.df + □.de, / est medi. α

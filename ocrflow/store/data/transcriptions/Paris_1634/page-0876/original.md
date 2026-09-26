@@ -1,36 +1,21 @@
 <!-- Running title: ELEM.. EVCLID. LI. XV. -->
 
-conſtr. | ge, eſt diamet. □.hgfe, / ea, eſt diamet.. □.ahed,
-47. 1 | ca, cg, ce, ag, ge, ea ſnt 2|2 ꝗe,
-concl. 31. 11 | pyram. agec, eſt inſcri. ꝗn cub. abhdcfe.
-
-## PROBL. II. PROPOS. II.
-
-In data pyramide octaedrum describere.
-
-*En vne pyramide donnee deſcrire vn octaedre.*
-
-Hypoth.
-abdc, eſt pyram. D.
-
 Conſtr.
 
-10. 1 | ae 2|2 eb, bf 2|2 fd, dg 2|2 ga, / ah 2|2 hc, bi 2|2 ic, dk 2|2 kc,
-1. p. 1 | ef, fg, ge, ei, ih, he, fк, кi, if, gh, hк, kg ſnt ——,
-ſymp. | Req. eſt octaedr. egkifh.
+10. 1 | el 2|2 la, em 2|2 mb, en 2|2 nc, eo 2|2 od,
+1. p. 1 | lm, mn, no, ol ſnt ——,
+10. 1 | lg 2|2 gm, mh 2|2 hn,
+10. 1 | nk 2|2 ko, oi 2|2 il,
+1. p. 1 | gh, hk, ki, ig ſnt ——.
 
-[Figure: labels arranged A / H / E G / K / I / B F C]
+[Figure: labels arranged E / L I O / A P D / G K / M H N / B C / F]
 
 Demonſtr.
 
-7.a.1, & 4. 1 | eg, gk, кi, ei, fe, fg, fк, fi, he, hg, hк, hi ſnt 2|2 ꝗe,
-2. 6 | eg == bd, iк == bd, ei == ac, gк == ac,
-9. 11 | eg == iк, & ei == gк,
-29. d. 1 | egki, eſt □,
-concl. 31. 11 | egkifh, eſt octaedr. inſcri. ꝗn pyram. abdc.
+4. 1 | lm, mn, no, ol ſnt 2|2 ꝗe,
+4. 1 | gh, hк, кi, ig ſnt 2|2 ꝗe,
+2. 6 | lm == ab, on == dc, Ⅱ ab,
+29.d.1 | lmno, eſt □,
+29.d.1 | ghкi, eſt □.. cub. req.
 
-## PROBL. III. PROPOS. III.
-
-In dato cubo octaedrum describere.
-
-*En vn cube donné deſcrire vn octaedre.*
+Quod si eadem arte, in reliquis quinque pyramidibus octaedri, centra triangulorum rectis coniungantur, describentur quadrata similia & æqualia quadrato GHKI: Quare sex huiusmodi quadrata cubū component; qui quidem intra octaedrum descriptus erit, cùm octo eius anguli tangant octo octaedri bases in earum cētris. Quare in dato octaedro cubum descripsimus, quod faciendum erat. | *Que si en la mesme maniere aux autres cinq pyramides de l'octaedre, les centres des triangles sont conjoincts par des lignes droictes, on descrira des quarrez semblables & egaux au quarré GHKI; parquoy six tels quarrez composeront vn cube, lequel sera descrit en l'octaedre, puis que les huict angles d'iceluy touchent les huict bases de l'octaedre à leurs centres: Partant en l'octaedre donné nous auons descrit vn cube, ce qu'il faloit faire.*

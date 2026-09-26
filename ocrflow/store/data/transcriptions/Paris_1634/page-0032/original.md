@@ -1,31 +1,15 @@
-<!-- Running title: EXPLICATIO CITATIONVM. -->
+# EVCLIDIS ELEMENTORVM LIBER PRIMVS.
 
-c.l.60.10 { Corollarium lemmatis sexagesimæ decimi. / Corollaire du lemme de la soixantiéme du dixiéme.
+# PREMIER LIVRE DES ELEMENTS D'EVCLIDE.
 
-2.se.det. { Secunda de sectione determinata. / Seconde de la section determinée.
+## DEFINITIONES. / DEFINITIONS.
 
-1sec.spa. { Prima de sectione spatij. / Premiere de la section de l'espace.
+### I.
 
-1.sec.pr. { Prima de sectione proportionis. / Premiere de la section de la proportion.
+PVNCTVM est, cuius pars nulla est. | LE poinct est, ce qui n'a aucune partie.
 
-2. incli. { Secunda de inclinatione. / La seconde d'inclination
+Duplex est punctum, Physicum & Mathematicum. | Il y a deux sortes de poincts, à sçauoir le Physique & le Mathematique.
 
-8. t. { Octaua tactionum. / Huictiesme des attouchements.
+Physicum est minimum obiectum sensui oculorum, vt cuspis tenuissimæ acus. | Le poinct Physique est le moindre object de la veuë, comme la pointe d'vne aiguille tres-pointuë.
 
-l.9.t. { Lemma nonæ tactionum. / Lemme de la neufiesme des attouchements.
-
-2.ang. { Secunda angularium sectionum. / Seconde de la section des angles.
-
-constr. { Constructio, id est, per constructionem. / Construction, c'est à dire, par la construction.
-
-symp. Symperasma, symperasme.
-
-Symperasma est finis constructionis, qua peracta, asserimus constructum aut inuentum esse quod iubet problema, itaque in symperasmate loquimur sic.
-
-Symperasme est la fin de la construction, laquelle estant acheuée, on affirme qu'on a construict ou inuenté ce que demande le probleme, partant au symperasme on parle ainsi.
-
-### Propos. 1. libr. 1.
-
-symp. | △abc est æquilat.
-
-Dico triangulum ABC esse æquilaterum. | Ie dis que le triangle ABC est equilateral.
+Mathematicum est minimum obiectum intelle- | Le poinct Mathematique est le moindre objet de l'intel-

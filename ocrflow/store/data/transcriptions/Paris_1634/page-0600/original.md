@@ -1,47 +1,51 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*longitude, la plus grande pourra plus que la plus petite du quarré d'vne ligne qui sera incommensurable en longitude à icelle. Et si la plus grande peut plus que la plus petite du quarré d'vne ligne incommensurable en longitude à icelle, & qu'on applique à la plus grande vn parallelogramme egal à la quarte partie du quarré de la moindre, defaillant d'vne figure quarré, il diuisera icelle en parties incommensurables en longitude.*
+Explicat. ꝑ nr;
 
-A F C D B (demi-cercle E)
-G----H----K
+hyp. | bc, est √.8,
+hyp. | cd, est √.18,
+1 s1.d.2 | ▭bd, est 12.
 
-hyp. | ab 3|2 gk,
-10.1 | ac 2|2 cb,
-10.1 | gh 2|2 hk,
-c.28.6 | ▭.adb 2|2 □.gh,
-u ¼□.gk,
-ʒ. 1 | af 2|2 db, α
-8.2 | □.ab 2|2 □.fd,
-+ 4▭.adb, u □.gk.
+## THEOR. XVIII. PROPOS. XXI.
 
-Hypoth. 1.
+Si rationale ad rationalem applicetur, latitudinem efficit rationalem, & ei ad quam applicatum est, longitudine commensurabilem.
 
-ad, incomm. db, u af.
+*Si vn rectangle ou espace rationel est appliqué à vne ligne rationelle, il fait la latitude rationelle commensurable en longitude à la ligne à laquelle il est appliqué.*
 
-Req. π. demonstr.
+E D F (rectangle A C B G)
 
-ab, est incomm. fd.
+Hypoth.
 
-Demonstr.
-
-hyp. | ad, incomm. db,
-17.10 | ab, incomm. db,
-16.10 | db, comm. db + af,
-13.10 | ab, incomm. db + af,
-1.concl. c.17.10 | ab, incomm. fd.
-
-Hypoth. 2.
-
-ab, incomm. fd.
+▭db, est ration.
+dc, est ration.
 
 Req. π. demonstr.
 
-ad, incomm. db,
+cb, est ration.
+
+Præpar.
+
+suppos. | g, est ration. expos.
+46.1 | da, est □.dc.
 
 Demonstr.
 
-hyp. | ab, incomm. fd,
-c.17.10 | ab, incomm. db + af,
-12.10 | db, comm. db + af,
-13.10 | ab, incomm. db,
-2 concl. 17.10 | ad, incomm. db.
+hyp. | da, est ration.
+1.6 | db π da 2|2 bc π ca,
+s.12.10 1.concl. | db, comm. da,
+10.10 | cb, comm. ca, u cd,
+2 concl. s.12.10 | bc, est ration.
+
+## LEMM.
+
+Duas rectas rationales potentia solùm commensurabiles inuenire.
+
+*Trouuer deux lignes droictes rationelles commensurables en puissance seulement.*
+
+A------
+B------
+C------
+
+Constr.
+
+arbitr. | a, est ration. expos.

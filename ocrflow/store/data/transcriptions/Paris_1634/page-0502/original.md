@@ -1,32 +1,26 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-A,3. B,6. C,12. D,24. E,48.
+tionalem non posse cadere inter duos numeros, quorum proportio in minimis numeris non reperiatur in quadratis numeris.
+
+*Il appert aussi de ce theoreme, & du premier corollaire de la seconde proposition de ce liure, qu'il ne peut tomber vn moyen proportionel entre deux nombres, dont la proportion és moindres nombres n'est trouué en nombres quarrez.*
+
+## THEOR. VII. PROPOS. IX.
+
+Si duo numeri sint inter se primi, & inter eos medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri, totidem & inter vtrumque eorum, ac vnitatem medij continua proportione cadent.
+
+*Si deux nombres sont premiers entre eux, & entre iceux tombent des nombres moyens continuellement proportionaux : autant qu'il en tombera de nombres moyens continuellement proportionaux entre eux, il en tombera autant entre vn chacun d'iceux & l'vnité.*
+
+V,1.
+E,2. F,3.
+G,4. H,6. I,9.
+A,8. C,12. D,18. B,27.
 
 Hypoth.
 
-a,b,c,d,e snt cōtin.proport.
-a, msur: e.
+a & b snt pr. ꝫe,
+a,c,d,b snt mi.contin.propor.
+u, est vnit.
 
 Req. π. demonstr.
 
-a, msur: b,
-
-Demonstr.
-
-suppos. | a, n̄, msur: b,
-6.7 | a, n̄, msur: e,
-contr. hypoth.
-
-## THEOR. VI. PROPOS. VIII.
-
-Si inter duos numeros medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri: tot & inter alios eandem cum illis habentes rationem medij continua proportione cadent.
-
-*Si entre deux nombres tombent des nombres moyens proportionaux, en proportion continuë : autant qu'il en tombera entre iceux, de moyens continuellement proportionaux ; il en tombera autant de moyens continuellement proportionaux entre deux autres qui auront la mesme raison.*
-
-A,24. C,36. D,54. B,81.
-G,8. H,12. I,18. K,27.
-E,32. L,48. M,72. F,108.
-
-Hypoth.
-
-a, c, d, b snt contin. proport.
+multd.. contin. proport. a, c, d, b, u, e, g, a. & u, f, i, b. snt 2|2 ꝫe,

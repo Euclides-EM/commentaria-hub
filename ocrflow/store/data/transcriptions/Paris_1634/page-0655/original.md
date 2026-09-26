@@ -1,35 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-Explicat. ꝑ nr;
+Demonstr.
 
-hyp. | ab, est 5,
-hyp. | ac, est √.12 + √.8,
-▭ad, est √.300 + √.200,
-op, est √..√.300 + √.200.
+λ | ▭dil 2|2 □.lm,
+hyp. | □.ac, incomm. □.cb,
+♪ε | ▭dh, incomm. ▭iк,
+10.10 | di, incomm. il,
+concl. 19.10 | □.dl 3|2 □.lg..□.——, incomm. dl.
 
-## Lemm.
+## THEOR. XLIII. PROPOS. LXI.
 
-hyp. | ab, est ——,
-hyp. | ac 3|2 cb,
-4.app. | ▭df 2|2 □.ab, α
-4.app. | ▭dh 2|2 □.ac, β
-4.app. | ▭iк 2|2 □.cb, γ
-10.1 | lm 2|2 cb, ♪
-31.1 | mn == lk, u gf.
+Quadratum eius, quæ ex binis nominibus, ad rationalem applicatum, latitudinem facit ex binis nominibus primam.
+
+*Le quarré d'vn binome, appliqué sur vne ligne rationelle, fait la latitude binome premier.*
 
 B D C / E A (left) I L M G / H K N F (rectangle)
 
+Hypoth.
+
+ab, est binom. α
+ac & cb snt nom.
+ac 3|2 cb,
+de, est ration. expos.
+▭df 2|2 □.ab.
+
 Req. π. demonstr.
 
-▭.acb, ▭ln, ▭mf snt 2|2 ꝗe,
-dl 3|2 lg.
+dg, est binom. 1.
+
+Lemm. 60.10. est præpar.
 
 Demonstr.
 
-αβγ4.2, & 3.a.1 | ▭lf 2|2 2▭.acb, ε
-♪.36.1 | ▭ln 2|2 ▭mf,
-1.concl. 7.a.1 | ▭.acb, ▭ln. ▭mf snt ꝗe, θ
-7.2 | □.ac + □.cb 3|2 2▭acb,
-βγ.2.a.1 | ▭dк 2|2 □.ac + □.cb, κ
-ε | ▭lf 2|2 2▭acb,
-1.a.b | ▭dк 3|2 ▭lf,
+α.hyp. | ac & cb snt ration. comm. ꝗn □, β
+l.60.10 | ▭dk, comm. □.ac,
+s.12.10 | ▭dk, est ration.
+21.10 | dl, est ration. comm. de, γ
+β.22.10 | ▭acb, est medi.
+24.10 | 2▭acb, est medi.

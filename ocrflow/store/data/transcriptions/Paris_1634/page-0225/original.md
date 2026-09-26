@@ -1,34 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-tombent deux lignes droictes au cercle, l'vne desquelles couppe le cercle & l'autre le touche ; le rectangle contenu sous toute la couppante, & sa partie de dehors pris entre le poinct, & la circonference conuexe, est égal au quarré de la touchante.
+36.3 | ▭.caf 2|2 □.ad,
+concl. 1.a.1 | ▭.bae 2|2 ▭.caf.
 
-[Figure: deux cercles ; le premier B—C—A, E au dedans, D au dehors en haut, lignes D—B, D—C—E—A, B—E ; le second B—C—A, F au dedans, D au dehors en haut, E à droicte, lignes D—B, D—C, D—E, B—E, F—E, A—E]
+## COROLL. II.
+
+Constat etiam, duas rectas ab eodem puncto ductas, quæ circulum tangant, inter se esse æquales.
+
+Il est manifeste aussi, que si deux lignes droictes menées d'vn mesme poinct, touchent le cercle, qu'elles sont égales entr'elles.
+
+[Figure: cercle B—E—C marqué 2, D et F au dedans, A au dehors en haut, lignes A—B, A—C, A—D—E, F sur A—E]
 
 Hypoth.
 
-ebc est ⊙,
-d, est • D.
-db tang: ⊙.
+ab & ac tang: ⊙.
 
 Req. π. demonstr.
 
-▭.adc 2|2 □.db.
+ab 2|2 ac.
 
-Demonstr.. 1. cas.
+Demonstr.
 
-1.p.1 | eb est —,
-18.3 | <ebd est ∟, α
-15.d.1 | ec 2|2 eb,
-| □.bd + □.be
-α.47.1 | □.ed
-6.2 | ▭.adc + □.ec
-1.a.f | ▭.adc + □.be
-| snt 2|2 ⁊e,
-1.a.1 | ▭.adc + □.be 2|2 □.bd + □.be,
-| □.be commun. subtr.
-3.a.1 | ▭.adc 2|2 □.db.
+36.3 | □.ab 2|2 ▭.eaf,
+36.3 | □.ac 2|2 ▭.eaf,
+1.a.1 | □.ab 2|2 □.ac,
+concl. s.46.1 | ab 2|2 ac.
 
-Demonstr.. 2. cas.
+## COROLL. III.
 
-1.p.1 | ec & eb snt —,
-12.1 | ef ⊥ da,
+Perspicuum quoque est, ab eodem puncto extra circulum assumpto, duci tantùm posse duas lineas quæ circulum tangant.
+
+Semblablement il est manifeste, que d'vn poinct pris hors le cercle on peut mener seulement deux lignes droictes qui touchent le cercle.
+
+Hypoth.
+
+ab & ac tang: ⊙bdc
+
+Req. π. demonstr.
+
+ad ñ tang: ⊙bdc.
+
+Demonstr.
+
+suppos. | ad tang: ⊙,
+2.c.36.3 | ab,ad,ac snt 2|2 ⁊e, contr. 8.3.

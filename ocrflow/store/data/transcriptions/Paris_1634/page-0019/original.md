@@ -1,21 +1,5 @@
 <!-- Running title: PROLEGOMENES. -->
 
-proportiones figurarum planarum discutiuntur.
+des eiusque Interpretes, absque vlla ipsorum in præmissis explicatione vtuntur, quæ nisi concederentur, nihil illorum demonstrationes probarent. Nostra verò methodus, in qua nihil dici potest, nisi fuerit in præmissis explicatum, nihilque asseritur, nisi ex prius explicatorum & concessorum citatione confirmetur, postulat, vt præmittantur ea omnia ex quibus deducenda est demonstrationis conclusio. Itaque quamuis ex iis quæ tradita sunt ab Euclide, cætera axiomata facilè percipi ac intelligi possint : & sint pleraque ipsorum quæ desunt manifestiora quàm vlla explicatione indigeant, nihilominus, omnia axiomata, quæ in demonstrationibus Euclidis, eiusque Interpretum, absque vlla præmissa explicatione, tanquam conspicua & per se nota assumuntur, in ordinem axiomatum redegi-
 
-des figures planes sont examinées.
-
-## De principiis Mathematicis.
-
-## Des principes des Mathematiques.
-
-PRincipia sunt fontes ac origines omnis cognitionis, neque probationem recipiunt, sed probationum sunt fundamenta : Horum in Mathematicis triplex est genus.
-
-In primo genere reponuntur omnes definitiones, quas nonnulli suppositiones appellant : his autem vocabula artis explicantur, ne in tractatione ipsa nominum ambiguitate, aut obscuritate circumuenti, in paralogismos incidamus.
-
-Secundum genus complectitur petitiones siue postulata, quæ quidem adeo clara sunt & perspicua in hac scientia, vt nulla indigeant confirmatione : sed auditoris duntaxat ascen-
-
-LES principes sont les sources & origines de toute cognoissance, & ne reçoiuent point de preuue, mais ils sont les fondemens de toutes preuues : Il y en a de trois genres aux Mathematiques.
-
-Au premier, se trouuent toutes les definitions, que quelques-vns appellent suppositions, par icelles sont expliquées les termes de l'art, afin qu'au traicté de la science ne soyons trompez par l'ambiguité & obscurité des noms, & ne tombions en des parallogismes.
-
-Au second genre sont les petitions ou demandes, lesquelles sont tellement claires & manifestes en ceste science qu'elles n'ont besoin d'aucune preuue : mais demandent seulemët le consentement de l'auditeur,
+pretes se seruent sans les auoir expliqué aux premices, lesquels s'ils n'estoient concedé, leurs demonstrations ne prouueroiët rien. Mais nostre methode, en laquelle on ne peut rien dire qu'il n'aye esté expliqué aux premices, ny rien affirmer qu'il ne soit confirmé par la citation de ce qui a esté expliqué & concedé auparauant, requiert que tous les principes dont on se veut seruir aux demonstrations soient premierement expliquez : partant, encore que les autres axiomes se puissent entendre facilement de ceux qu'a expliqué Euclide, & que la pluspart d'iceux sont si manifestes, qu'ils n'ont besoin d'aucune explication, neantmoins nous auons mis au rang des axiomes afin de les pouuoir citer au besoin, tous ceux dont Euclide & ses Interpretes se seruent comme de choses manifestes sans les auoir premierement expliqué : Et afin de ne changer point l'ordre des axiomes d'Euclide, ceux que nous auons adjousté, hors-

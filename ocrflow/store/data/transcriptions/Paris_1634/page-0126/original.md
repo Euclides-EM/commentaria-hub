@@ -1,43 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-symp. | cd == ab.
+## THEOR. XXV. PROPOS. XXXV.
 
-Demonstr.
+Parallelogramma super eadem basi, & in eisdem parallelis constituta, inter se sunt æqualia.
 
-constr. | cd 2|2 ef,
-constr. | fd 2|2 ec,
-1.s.34.1. | cefd est ◊,
-concl. 35.d.1. | cd == ef.
+Les parallelogrammes constituez sur vne mesme base, & entre mesmes paralleles, sont égaux entr'eux.
 
-## SCHOL. III.
-
-Omne quadrilaterum habens angulos oppositos æquales, est parallegrammum.
-
-Tout quadrilatere qui a les angles opposez égaux, est parallelogramme.
-
-[Figure: quadrilatere ABCD, B & C en haut, A & D en bas]
+[Figure: ligne A—D—E—F en haut, poinct G entre D & E vn peu plus bas, ligne B—C en bas ; parallelogrammes BCDA & BCFE, lignes B—E & C—F se coupans en G]
 
 Hypoth.
 
-<a 2|2 <c, α
-<b 2|2 <d, α
+af == bc,
+bcda & bcfe snt ◊, α
 
 Req. π. demonstr.
 
-abcd est ◊.
+◊bcda 2|2 ◊bcfe.
 
 Demonstr.
 
-s.32.1. | <a + <b + <c + <d 2|2 4∟,
-α 2.a.1. | <a + <b 2|2 <c + <d,
-19.a.b. | <a + <b 2|2 2∟, β
-28.1. | ad == bc,
-d. β | <b + <c 2|2 2∟,
-28.1. | ab == dc,
-concl. 35.d.1. | ac est ◊.
+α.34.1. | ad 2|2 bc,
+α.34.1. | ef 2|2 bc,
+1.a.1. | ad 2|2 ef,
+| de commun. add.
+2.a.1. | ae 2|2 df,
+α.34.1. | ab 2|2 dc,
+α.29.1. | <bae 2|2 cdf,
+4.1. | △bae 2|2 △cdf,
+| gde commun. subtr.
+3.a.1. | badg 2|2 cgef,
+| bgc commun. add.
+concl. 2.a.1. | ◊badc 2|2 ◊bcfe.
 
-## SCHOL. IV.
+## PROBL. XXVI. PROPOS. XXXVI.
 
-In omni figura rectilinea latebra habente numero paria, si quidem fuerit æqualatera, & æquiangula : erunt duo quælibet latera opposita, parallela inter se.
+Parallelogramma super æqualibus basibus, & in eisdem parallelis constituta, inter se sunt æqualia.
 
-En toute figure rectiligne si les costez sont en nostre pair, &
+Les parallelogrammes constituez sur bases égales, & entre mesmes paralleles sont égaux entr'eux.
+
+[Figure: ligne A—D—E—F en haut, ligne B—C—G—H en bas ; parallelogrammes BCDA & GHFE, lignes diagonales B—D & C—E & G—F]
+
+Hypoth.
+
+af == bh,
+bc 2|2 gh,
+
+Req. π. demonstr.
+
+◊bcda 2|2 ◊ghfe.

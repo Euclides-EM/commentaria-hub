@@ -1,48 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-hyp. | ab ⊥ ac & ad,
-4. 11 | ab ⊥ plan. fc,
-3. d. 11 | <bag, est ⊥,
-hyp. | <bae, est ⊥,
-12.a.1 | <bae 2|2 <bag,
-contr. 9. a. 1.
+ad rectos cuidam plano sit angulos; & reliqua eidem plano ad rectos angulos erit.
 
-## THEOR. VI. PROPOS. VI.
-
-Si duæ rectæ lineæ eidem plano ad rectos sint angulos; parallelæ erunt illæ rectæ lineæ.
-
-*Si deux lignes droictes sont à angles droicts sur vn mesme plan; icelles lignes droictes seront paralleles.*
+*S'il y a deux lignes droictes paralleles, l'vne desquelles soit à angles droicts à quelque plan; l'autre sera aussi à angles droicts au mesme plan.*
 
 [Figure: labels arranged B C / E / A D / G / F]
 
 Hypoth.
 
-ef, est plan.
-ab & dc ⊥ plan. ef.
+ab == cd ꝗn, plan. badc,
+ab ⊥ plan. ef.
 
 Req. π. demonstr.
 
-ab == dc.
-
-Præpar.
-
-11. 1 | <adg, est ⊥, α
-3. 1 | dg 2|2 ab, β
-1. p. 1 | bd, bg, ag snt ——.
+cd, est ⊥ plan. ef.
 
 Demonstr.
 
-hyp. | <dab, est ⊥,
-constr. | <adg, est ⊥,
-β. 4. 1 | ag 2|2 bd,
-β. 8. 1 | <bdg 2|2 <bag,
-3. d. 1 | <bag, est ⊥,
-12. a. b | <bdg, est ⊥,
-3. d. 11 | <gdc, est ⊥,
-5. 11. & 2. 11 | da, db, dc, ba snt ꝗn vn. plan.
-hyp. | <bad, <cda snt ⊥;
-concl. 28. 1 | ab == dc.
+ꝑ præpar. & demonstr. 6.11. gda & gdb snt ⊥; α
+s.34.d.1 & 7. 11 | ab, dc, da, db snt ꝗn plan. badc,
+α. 4.11 | gd ⊥ plan. badc,
+3. 11 | <cdg, est ⊥, β
+hyp. | <bad, est ⊥,
+29. 1 | <cda, est ⊥,
+concl. β. 4.11 | cd ⊥ plan. ef.
 
-## THEOR. VII. PROPOS. VII.
+## THEOR. IX. PROPOS. IX.
 
-Si duæ sint parallelæ rectæ lineæ, in quarum
+Quæ eidem rectæ lineæ sunt parallelæ, sed non in eodem cum illa plano; hæ quoque sunt inter se parallelæ.
+
+*Les lignes droictes paralleles à vne mesme, n'estant en vn mesme plan qu'icelle; elles sont aussi paralleles entr'elles.*

@@ -1,31 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-nullaque quantitas sit antecedens & consequens, sed antecedens tantùm vel consequens tantùm, vt si dicatur quæ est proportio 4. ad 6. ea est 10. ad 15. appellabitur hæc proportionalitas, discreta siue non continua.
+hyp. | e, multipl.. a,
+| f, multipl.. c,
+hyp. | g, multipl.. b,
+| h, multipl.. d,
 
-Proportio arithmetica est quando tres vel plures magnitudines æqualiter sese excedunt, vt
+hyp. | e, 2, 3, 4. | 3, g,
+| f, 2, 3, 4. | 3, h,
+6.d5 | a π b 2|2 c π d.
 
-4, ad 6, ita 6. ad 8, continua,
-4, ad 6, ita 8 ad 10, discreta.
+Explicatio notarum.
 
-Proportio musica seu harmonica est quando tres magnitudines ita ordinantur, vt eadem sit proportio primæ ad tertiam, quæ differentiæ primæ & secundæ ad differentiam secundæ & tertiæ, vt 3, 4, 6 sunt in proportione musica, quia eadem est proportio primi numeri 3. ad tertium 6. quæ differentiæ primi & secundi, quæ est 1, ad differentiam secundi & tertij, quæ est 2.
+E & F sunt æquè multiplicia magnitudinum A & C per hypoth.
 
-Progressio geometrica est series plurium magnitudinum sese in eadem proportione superantium, vt apparet in his numeris.
+G & H sunt æquè multiplicia magnitudinum B & D per hypoth.
 
-quent, mais antecedent seulement, ou consequent, comme si on dit qu'il y a mesme raison de 4. à 6. que de 10. à 15. ceste proportion sera appellée discrete ou discontinuë.
+E & F vel vnà deficiunt, vel vnà æqualia sunt, vel vnà excedunt G & H per hypoth.
 
-Proportion arithmetique est quād trois ou plusieurs grandeurs s'excedent également, comme
+Igitur per sextam definitionem quinti, A est ad B vt C ad D.
 
-4, à 6, ainsi 6, à 8, continuë,
-4, à 6, ainsi 8, à 10, discrete.
+Explication des notes.
 
-La proportion musique ou harmonique est quand de trois grandeurs la premiere est à la seconde, comme la difference de la premiere & seconde à la difference de la seconde & troisiesme, comme 3, 4, 6, sont en proportion musique, à cause qu'il y a mesme proportion du premier nombre 3. au troisiesme, 6, que de la difference du premier & second, qui est 1. à la difference du second & troisiesme qui est 2.
+E & F sont equimultiples des grandeurs A & C par l'hypoth.
 
-La progression geometrique est vne suite de plusieurs grandeurs qui s'excedent en mesme raison, comme il appert en ces nombres,
+G & H sont equimultiples des grandeurs B & D par l'hypoth.
 
-1.2.4 8.16 32.64.128 &c. 1.3.9.27.81.243.729. &c.
+E & F ou ensemble defaillent, ou ensemble sont égaux, ou ensemble excedent G & H par l'hypoth.
 
-Progressio arithmetica est series plurium magnitudinum sese æqualiter superantium, vt hic apparet.
+Par consequent, par la sixiesme definition du cinquiesme, A est à B comme C à D.
 
-La progression arithmetique est vne suite de plusieurs grandeurs qui s'excedent également, comme il appert en ces nombres,
+Conuers.. 6. Definit.
 
-1.2.3.4.5.6.7.8. &c. 1.3.5.7.9.11.13.15 &c.
+E, 12. A, 4. B, 6. G, 24.
+F, 30. C, 10. D, 15. H, 60.
+
+hyp. | a πb 2|2 c πd,
+| e, multipl.. a,
+hyp. | f, multipl.. c,
+hyp. | g, multipl.. b,
+| h, multipl.. d,
+c.6.d5 | e, 2, 3, 4. | 3, g,
+| f, 2, 3, 4. | 3, h,

@@ -1,15 +1,17 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Figure: triangle rectangle A, triangle obtusangle B]
+### XXXI.
 
-### XXVII.
+Rhombus autem, quæ æquilatera, sed rectangula non est, vt A. | Rhombe est vne figure equilatere, mais n'est pas rectangle, comme A.
 
-Amblygonium autem quod obtusum angulum habet, vt triangulum B. | L'amblygone est celuy qui a vn angle obtus ou moussu, comme le triägle B.
+[Figure: rhombe A, parallelogramme incliné]
 
-### XXVIII.
+### XXXII.
 
-Oxygonium verò, quod tres habet acutos angulos, vt triangulü C. | L'oxygone est celuy qui a tous les trois angles aigus, comme le triangle C.
+Rhomboïdes verò, quæ aduersa & latera & angulos habens inter se æquales, neque æquilatera est, neque rectangula, vt GLMH. | Rhomboïde est vne figure, laquelle a les costez opposez egaux, & les angles opposez außi egaux, mais n'est pas equilatere ny rectägle, comme GLMH.
 
-[Figure: triangle acutangle C]
+[Figure: rhomboïde GLMH, H en haut à gauche, M en haut à droite, G en bas à gauche, L en bas à droite]
 
-Figura æquiangula est, cuius omnes anguli sunt inter se æquales : Duæ verò figuræ æquiangulæ sunt, si singuli anguli vnius singulis angulis alterius sint æquales. | Vne figure est equiangle, si tous ses angles sont egaux entr'eux : Mais deux figures sont equiangles, si chaque angle de l'vne est egal à chaque angle de l'autre.
+### XXXIII.
+
+Præter has autem, reliquæ quadrilateræ figuræ, trapezia appellentur, vt GNDH. | Mais outre ces figures, toutes les autres quadrilateres sont appellees trapezes, comme GNDH.

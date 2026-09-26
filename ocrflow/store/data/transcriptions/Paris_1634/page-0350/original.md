@@ -1,38 +1,52 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-## PROBL. IV. PROPOS. XII.
+æqualem habentium reciproca sunt latera, quæ circum æquales angulos, illa sunt æqualia.
 
-Tribus datis rectis lineis, quartam proportionalem inuenire.
+Des parallelogrammes egaux qui ont vn angle egal à vn angle, les costez qui sont au tour des angles egaux sont reciproques : Et les parallelogrammes qui ont vn angle egal à vn angle, & les costez autour des angles egaux reciproques, sont egaux.
 
-A trois lignes droictes donnees, trouuer la quatriesme proportionelle.
+[Figure: parallelogrammes D, C, H ; A, B, G ; E, F]
 
-[Figure: lignes A ; B ; C et triangle D, E, F avec G, H]
+Hypoth. commun.
 
-Hypoth.
+<abc 2|2 <ebg,
 
-a, b, c snt — D.
+Hypoth. 1.
 
-Req. π. fa.
+◇abcd 2|2 ◇befg.
 
-a π b 2|2 c π gh.
+Req. π. demonstr.
 
-Constr.
+ab π bg 2|2 eb π bc.
 
-<fdh est arbitr.
-3.1 | de 2|2 a,
-3.1 | ef 2|2 b,
-3.1 | dg 2|2 c,
-1.p.1 | ge est —,
-31.1 | fh == eg,
-symp. | gh est req.
+Præpar.
+
+3.1 | abg est —,
+2.p.1 | dch & fgh snt —.
 
 Demonstr.
 
-concl. 2.6 | deua π efub,
-| dguc π gh.
+constr. | abg est —,
+hyp. | <abc 2|2 <ebg,
+1.s.15.1 | ebc est —,
+35.d.1 | bchg est ◇,
+hyp. | ◇abcd 2|2 ◇befg,
+1.6 | ab π bg 2|2 ac π bh,
+7.5 | ac π bh 2|2 bf π bh,
+1.6 | bf π bh 2|2 eb π bc,
+1.concl. 11.5 | ab π bg 2|2 eb π bc.
 
-## PROBL. V. PROPOS. XIII.
+Hypoth. 2.
 
-Duabus datis rectis lineis, mediam proportionalem adinuenire.
+ab π bg 2|2 eb π bc
 
-A deux lignes droictes donnees, trouuer la moyenne proportionelle.
+Req. π. demonstr.
+
+◇abcd 2|2 ◇ebgf.
+
+Demonstr.
+
+1.6 | ac π bh 2|2 ab π bg
+hyp. | ab π bg 2|2 eb π bc
+1.6 | eb π bc 2|2 bf π bh
+11.5 | ac π bh 2|2 bf π bh
+2.concl. 9.5 | ◇ac 2|2 ◇bf.

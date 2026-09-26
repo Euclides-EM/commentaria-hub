@@ -1,39 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-Aux cercles égaux les angles appuyez sur circonferences égales sont égaux entr'eux; soit qu'ils y soient appuyez estant constituez aux centres, ou bien estant constituez aux circonferences.
+[Figure: arc A—B—C sur la base A—D—C, lignes A—B, B—C, B—D]
 
-[Figure: deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—B, B—C, B—I, A—C, G—A, G—I, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]
+Constr.
 
-Hypoth.
+1.p.1 | ac est —,
+10.1 | ad 2|2 dc,
+11.1 | db ⊥ ac, α
+symp. | ∩ab 2|2 ∩bc.
 
-gabc & hdef snt ⊙ 2|2 ⁊e,
-∪ ac 2|2 ∪ df.
+Præpar.
 
-Req. π. demonstr.
-
-<agc 2|2 <dhf,
-<abc 2|2 <def.
+1.p.1 | ab & bc snt —.
 
 Demonstr.
 
-suppos. | <agi 2|2 <dhf,
-16.3 | ∪ ai 2|2 ∪ df,
-hyp. | ∪ ac 2|2 ∪ df,
-1.a.1 | ∪ ai 2|2 ∪ ac. contr. 9.a.1.
-1.concl. 21.a.1 | <agc 2|2 <dhf, α
-2.concl. α.7.a.1 | <abc 2|2 <def.
+constr. | ad 2|2 dc,
+| db est commun.
+α.11.a.1 | <adb 2|2 <bdc,
+4.1 | ab 2|2 bc,
+concl. 28.3 | ∩ab 2|2 ∩bc.
 
-## THEOR. XXV. PROPOS. XXVIII.
+## THEOR. XXVII. PROPOS. XXXI.
 
-In æqualibus circulis, æquales rectæ lineæ æquales peripherias auferunt, maiorem quidem maiori, minorem autem minori.
+In circulo angulus, qui in semicirculo, rectus est: qui autem in maiore segmento, minor recto : qui vero in minore segmento, maior est recto. Et insuper angulus maioris segmenti, recto quidem maior est : minoris autem segmenti angulus, minor est recto.
 
-Aux cercles égaux, les lignes droictes égales ostent circonferences égales, sçauoir la plus grande à la plus grande, & la plus petite à la plus petite.
+Au cercle, l'angle qui est au demy cercle est droict : mais celuy qui est au plus grand segment est plus petit qu'vn droict ; & celuy qui est au plus petit segment, est plus grand qu'vn droict. Et dauantage, l'angle du plus grand segment, est plus grand qu'vn droict ; mais l'angle du plus petit segment, est plus petit qu'vn droict.
 
 Hypoth.
 
-gabc & hdef snt ⊙ 2|2 ⁊e, α
-ac 2|2 df, α
+dabf est ⊙,
+adc est diamet.
+
+Præpar.
+
+arbitr. | b & f snt • in ∩abc
+1.p.1 | abe,db, cb,bf,cf snt —.
 
 Req. π. demonstr.
-
-[Figure: deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—C, G—A, G—C ; le second D—E—F, H au dedans, K en bas, lignes D—F, H—D, H—F]

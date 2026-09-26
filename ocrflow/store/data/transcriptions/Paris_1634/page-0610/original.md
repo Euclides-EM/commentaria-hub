@@ -1,52 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-Coroll.
+*Trouuer deux lignes mediales, commensurables en puissance seulement, qui contiennent vn rectangle rationel.*
 
-6.10 | ▭acb, comm. 2▭acb,
-α.16.10 | □.ab & □.bc snt comm. aggreg..□.ab + □.bc,
-γ.14.10 | ▭.acb, & 2▭acb snt incom. □.ab, □.bc,
-& aggreg..□.ab + □bc.
+A C B D (lines)
 
-## THEOR. XXIV. PROPOS. XXVII.
+Constr.
 
-Medium non superat medium rationali.
-
-*Vn medial n'excede pas vn medial d'vn rationel.*
-
-A C D B (rectangle) E K I F H G (rectangle)
-
-Hypoth.
-
-ab & ac snt medi.
-
-Req. π. demonstr.
-
-db, n̄. est ration.
-
-Præpar.
-
-suppos. | ef, est ration. expos. α
-4.app. | ▭eg 2|2 ▭ab, β
-4.app. | ▭eh 2|2 ▭ac, β
+l.21.10 | a & b snt ration.
+comm. ꝗn □, α
+13.6 | a π c 2|2 c π b,
+12.6 | a π b 2|2 c π d,
+symp. | req. snt c & d.
 
 Demonstr.
 
-β.3.a.1 | ▭kg 2|2 ▭db,
-hyp. | ab & ac snt medi.
-24.10 | eg & eh snt medi.
-α | ef, est ration.
-23.10 | fg & fh snt ration. γ
-23.10 | fg & fh snt comm.
-ef ꝗn □, ♪
-suppos. | ▭kg, est ration.
-21.10 | hg, comm. hk,
-♪ | fh, incomm. hk,
-13.10 | fh, incomm. hg,
-♪ | fh, comm. hg ꝗn □,
-1.26.10 | □.fg, incomm. □.fh,
-γ | □fh, est ration.
-s.12.10 | fg, n̄, est ration.
-contr. concl. γ
-concl. 21.a.1 | kg, n̄, est ration.
+α.22.10 | ▭.a,b, est medi.
+17.6 | □.c 2|2 ▭.a,b,
+1.concl. 24.10 | c, est medi.
+a π b 2|2 c π d,
+constr. | a, comm. b ꝗn □,
+2 concl. 10.10 | c, comm. d ꝗn □,
+3.concl. 24.10 | d, est medi.
+constr. | a π b 2|2 c π d,
+16.5 | a π c 2|2 b π d,
+constr. | a π c 2|2 c π b,
+11.5 | c π b 2|2 b π d,
+17.6 | □.b 2|2 ▭.c,d,
+constr. | □.b, est ration.
+4 concl. s.12.10 | ▭.cd, est ration.
 
-SCHOL.
+Explicat. ꝑ nr;
+
+a, est √.2,
+b, est √.6,
+c, est √√.12,
+d, est √√.108,
+c π d 2|2, 1 π √.3,
+▭.c,d, est 6.
+
+## PROBL. V. PROPOS. XXIX.
+
+Medias inuenire potentia tantùm commensurabiles, quæ medium contineant.
+
+*Trouuer deux lignes mediales commensurables en puissance seulement, qui contiennent vn rectangle medial.*

@@ -1,17 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-quadrilateris, quarum, quæ ex aduerso, parallelæ sunt contenta.
+[Figure: labels arranged D B / E / A C]
 
-*six figures quadrilateres, desquelles les opposees sont paralleles.*
+ab & cd snt ꝗn vn. plan.
+△deb, est ꝗn vn. plan.
 
-## DEFINIT. XXXI.
+Demonstr.
 
-Solida figura in solida figura dicitur inscribi, quando omnes anguli figuræ inscriptæ constituuntur, vel in angulis, vel in lateribus, vel denique in planis figuræ, cui inscribitur.
+suppos. | ●; a, b, c snt ꝗn plan. abc,
+14.a.1 | ab, est ꝗn plan. abc,
+14.a.1 1.concl. | ce, est ꝗn plan. abc,
+1. 11 | ced, est ꝗn plan. abc, α
+14. a. 1 | db, est ꝗn plan. abc, β
+2 concl. αβ | △deb, est ꝗn plan. abc.
 
-*Vne figure solide est dite estre inscrite en vne figure solide,quand tous les angles de la figure inscrite sont constituez, ou aux angles, ou aux costez, ou finalemét aux plans de la figure en laquelle elle est inscrite.*
+## THEOR. III. PROPOS. III.
 
-## DEFINIT. XXXII.
+Si duo plana se mutuò secent, communis eorum sectio est linea recta.
 
-Solida figura solidæ figuræ vicissim circumscribi dicitur, quando vel anguli,vel latera,vel denique plana figuræ circumscriptæ tangunt omnes angulos figuræ, circum quam describitur.
+*Si deux plans se coupent l'vn l'autre, la commune section d'iceux est vne ligne droicte.*
 
-*Mais vne figure solide est dite estre circonscrite à vne figure solide, quand les angles, ou les costez, ou finalement les plans de la figure circonscrite, touchent tous les angles de la figure à l'entour de laquelle elle est descrite.*
+[Figure: labels arranged A C / E F / D B]
+
+Hypoth.
+
+ab & cd snt plan;
+ef, est intersect.
+
+Req. π. demonstr.
+
+ef, est ——.
+
+Demonstr.
+
+arbitr. | e & f snt ●; ꝗn intersect.
+1. p. 1 | ef, est ——,
+14.a.1 | ef, est ꝗn plan; ab,cd,
+concl. 14.a.c. | ef, est intersect.
+
+## THEOR. IV. PROPOS. IV.
+
+Si recta linea rectis duabus lineis se mutuò secan-

@@ -1,31 +1,19 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-mero vnitatum constant, sunt inter se æquales.
+partesque primi tum inter se, tum partibus secundi sunt æquales, necnon partes tertij, inter se & partibus quarti. Et contrà, cum partes primi tum inter se, tùm partibus secundi sunt æquales, necnon partes tertij, inter se & partibus quarti, & multitudo partium primi est æqualis multitudini partium tertij, necnon multitudo partium secundi multitudini partium quarti; primus numerus est eædem partes secundi, quæ tertius quarti.
 
-*posez de mesmes nombres d'vnitez sont egaux.*
+*& les parties du premier sont egales, tant entr'elles, qu'aux parties du second : & aussi les parties du troisiesme sont egales, tant entr'elles, qu'aux parties du quatriesme. Et au contraire, quand les parties du premier sont egales, tant entr'elles qu'aux parties du second, & aussi les parties du troisiesme tant entr'elles qu'aux parties du quatriesme : & la multitude des parties du premier est egale à la multitude des parties du troisiesme, & la multitude des parties du second à la multitude des parties du quatriesme : le premier nombre est telles parties du second que le troisiesme l'est du quatriesme.*
 
-## DEFINIT. III.
+hyp. | a, msur: b 2|2 c, msur: d. A,2. B,6. C,5. D,15.
+s.4.d.7 | a, par.. b 2|2 c par.. d.
 
-Pars est numerus, numeri, minor maioris, cum minor metitur maiorem.
+Vel sic, *Ou ainsi.*
 
-*Vn nombre est partie d'vn autre nōbre ; le plus petit du plus grand, lors que le plus petit mesure le plus grand.*
+hyp. | a, msur: b, c, msur: d,
+s.4.d.7 | a, par.. b, c, par.. d.
 
-Omnis pars ab eo numero nomen sibi sumit, per quem ipsa numerum, cuius est pars, metitur vt 4. dicitur tertia pars numeri 12. quòd metiatur 12. per 3.
+Explicatio notarum. Explication des notes.
 
-*Toute partie prend son nom du nombre, par lequel elle mesure le nombre duquel elle est partie, comme 4 est le tiers de 12. à cause que 4. mesure 12. par trois.*
+Quoties A, metitur B, toties C, metitur D : igitur quæ pars est A, numeri B, eadem pars est C, innumeri D.
 
-## DEFINIT. IV.
-
-Partes autem cùm non metitur.
-
-*Vn nombre est dit parties d'vn autre plus grand, quād le plus petit ne mesure le plus grand.*
-
-Partes quæcunque nomen accipiunt à duobus illis numeris, per quos maxima communis duorum numerorum mensura vtrumque eorum metitur, vt 10. dicitur duæ tertiæ numeri 15. quod maxima communis mensura nempe 5 metiatur 10. per 2. & 15. per 3.
-
-*Toutes parties prennent leur nom de deux nombres, par lesquels la plus grande commune mesure de deux nombres mesure l'vne & l'autre, comme 10. est deux tiers de 15. à cause que la plus grande commune mesure de 10. & 15. qui est 5. mesure 10. par 2. & 15. par 3.*
-
-## SCHOL.
-
-Cùm primus numerus secundum, & tertius quartum
-
-*Quand le premier nombre mesure le second autant de fois*
+*A, mesure B, autant de fois que C, mesure D : partant A, est la mesme partie de B, que C, l'est du nombre D.*

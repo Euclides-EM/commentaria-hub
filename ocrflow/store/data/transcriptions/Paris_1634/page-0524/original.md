@@ -1,45 +1,55 @@
-<!-- Running title: ELEM.. EVCLID. LI. VIII. -->
+<!-- Running title: ELEM. EVCLID. LI. VIII. -->
 
-Conuers.
-
-A,8. B,18.
-C,16. D,36.
-
-Hypoth.
-
-c & d snt nr; □;
-a π b 2|2 c π d.
+A,5. C,4. B,3.
 
 Req. π. demonstr.
 
-a & b snt sml; plan;
+a & b n̄ snt plan; sml;
 
 Demonstr.
 
-11.8 | ꝗntr. c & d est vn. medi. proport.
-8.8 | ꝗntr. a & b est vn. medi. proport.
-20.8 | a & b snt sml; plan;
+suppos. | a π c 2|2 c π b,
+19.5 | a π c 2|2 i π i,
+19.5 | c π b 2|2 i π i,
+20.d.5 | a π b 2|2 i π i,
+contr. hyp.
+concl. 18.8 | a & b n̄ snt plan; sml;
 
-## THEOR. XXV. PROPOS. XXVII.
+A,8. B,4. D,2. E,1.
+A,42. B,7. D,6. E,1.
 
-Similes solidi numeri rationem habent inter se, quam cubus numerus ad cubum numerum.
+Hypoth. 3.
 
-*Les solides semblables ont mesme raison entre eux, qu'vn nombre cube à vn nombre cube.*
-
-A,16. C,24. D,36. B,54.
-E,8. F,12. G,18. H,27.
-
-Hypoth.
-
-a & b snt nr; solid; sml;
+b, msur: a ꝑ d,
+d, n̄ est nr. □.
 
 Req. π. demonstr.
 
-a π b 2|2 nr. cub. π nr. cub.
+a & b n̄ snt plan; sml;
 
 Demonstr.
 
-19.8 | ꝗntr. a & b snt 2; medi; proport; c & d,
-35.7 | e,f,g,h snt mi; contin. proport; ꝗn raō. a π c,
-1.c.2.8 | extrem; e & h snt nr; cub;
-concl. 14.7 | a π b 2|2 e π h.
+suppos. | e, est vnit.
+23.d.7 | d π e 2|2 a π b,
+suppos. | ꝗntr. a & b, est vn. medi. proport.
+8.8 | ꝗntr. d & e, est vn. medi. proport.
+18.d.7 | e, est nr. □.
+22.8 | d, est nr. □.
+contr. hypoth.
+concl. 18.8 | a & b n̄ snt plan; sml;
+
+## SCHOL. II.
+
+Similiter nec duo quiuis numeri primi, neque duo quicunque numeri inter se primi, qui quadrati non sint, plani similes esse possunt.
+
+*Semblablement deux quelconques nombres premiers, ny deux quelconques nombres premiers entre eux, qui ne sont quarrez, ne peuuent estre plans semblables.*
+
+A,13. B,7. C,1.
+
+Hypoth.
+
+a & b snt nr; pr;
+
+Req. π. demonstr.
+
+a & b n̄ snt plan; sml;

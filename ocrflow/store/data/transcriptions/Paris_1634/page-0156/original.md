@@ -1,31 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-l'vnité sont gnomons : Et tous les aggregez des gnomons qui s'entresuiuent commençant à l'vnité sont nombres quarrez ; Et tout nombre quarré est composé d'autant de nombres impairs qu'il y a d'vnitez en son costé.
+## SCHOL.
 
-gnom. | fb, 1. fob, 3. gpc, 5. hqd, 7. progress. impar.
-19.a.1. | fb + fob snt ao ▭.ag. 4,
-19.a.1. | fb + fob + gpc snt ap ▭.ah. 9,
-19.a.1. | fb + fob + gpc + hqd snt aq ▭.al 16.
+Quadratum perpendicularis, à quouis puncto circunferentiæ in diametrum ductæ, est æquale rectangulo, comprehenso sub segmentis diametri, quæ ab ipsa perpendiculari fiunt.
 
-## THEOR. V. PROPOS. V.
-
-Si recta linea secetur in æqualia, & non æqualia : Rectangulum sub inæqualibus segmentis totius comprehensum, vnà cum quadrato, quod ab intermedia sectionum, æquale est ei, quod à dimidia describitur, quadrato.
-
-Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales, le rectangle contenu des parties inégales de la toute, auec le quarré de la section du milieu, est égal au quarré de la moitié de la toute.
-
-[Figure: rectangle L—I—B—A en bas, quarré E—F au dessus, G, M, K, O, H au milieu, N en bas, A—C—D—B en bas, diagonale E—H—B]
+Le quarré de la perpendiculaire, qui tombe de la circonference sur le diametre ; est égal au rectangle compris sous les segments du diametre faicts par icelle perpendiculaire.
 
 Hypoth.
 
-ab est —.
-ac 2|2 cb,
-ad 3|2 db.
+caeb est semic.
+ab est diamet.
+ed ⊥ ab.
+
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]
 
 Req. π. demonstr.
 
-▭.adb + ▭.cd 2|2 ▭.cb.
+▭.ed 2|2 ▭.adb.
 
 Præpar.
 
-46.1. | cf est ▭.cb,
-1.p.1. | eb est diametr.
+1.p.1. | ec est —.
+
+Demonstr.
+
+hyp. | <edc est ∟,
+15.d.1. | ac 2|2 cb,
+5.2. | ▭.adb + ▭.cd 2|2 ▭.cb u ce,
+47.1. | ▭.ed + ▭.cd 2|2 ▭.ce,
+1.a.1. | ▭.adb + ▭.cd 2|2 ▭.ed + ▭.cd,
+| ▭.cd commun. subtr.
+concl. 3.a.1. | ▭.adb 2|2 ▭.ed.
+
+## PROBL. VI. PROPOS. VI.
+
+Si recta linea bifariam secetur, & illi recta quæ-

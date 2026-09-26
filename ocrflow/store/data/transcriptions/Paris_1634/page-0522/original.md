@@ -1,33 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-## THEOR. XXII. PROPOS. XXIV.
+Conuers.
 
-Si duo numeri rationem habeant inter se, quam quadratus numerus ad quadratū numerū, primus autem sit quadratus, & secundus quadratus erit.
-
-*Si deux nombres sont en mesme raison l'vn à l'autre que nombre quarré à nombre quarré, & que le premier soit quarré, le second sera aussi quarré.*
-
-A,16. D,24. B,36.
-C,4. E,6. D,9.
+A,8. B,18.
+C,16. D,36.
 
 Hypoth.
 
 c & d snt nr; □;
-a π b 2|2 c π d,
-a, est nr. □.
+a π b 2|2 c π d.
 
 Req. π. demonstr.
 
-b, est nr. □.
+a & b snt sml; plan;
 
 Demonstr.
 
-11.8 | ꝗntr. c & d, est vn. medi. proport.
-8.8 | ꝗntr. a & b, est vn. medi. proport.
-hyp. | a, est nr. □,
-concl. 22.8 | b, est nr. □.
+11.8 | ꝗntr. c & d est vn. medi. proport.
+8.8 | ꝗntr. a & b est vn. medi. proport.
+20.8 | a & b snt sml; plan;
 
-## THEOR. XXIII. PROPOS. XXV.
+## THEOR. XXV. PROPOS. XXVII.
 
-Si duo numeri rationem inter se habeant, quam cubus numerus ad cubum numerum, primus autem sit cubus, & secundus cubus erit.
+Similes solidi numeri rationem habent inter se, quam cubus numerus ad cubum numerum.
 
-*Si deux nombres ont mesme raison l'vn à l'autre, qu'vn nombre cube à vn nombre cube, & que le premier soit cube aussi, le second sera cube.*
+*Les solides semblables ont mesme raison entre eux, qu'vn nombre cube à vn nombre cube.*
+
+A,16. C,24. D,36. B,54.
+E,8. F,12. G,18. H,27.
+
+Hypoth.
+
+a & b snt nr; solid; sml;
+
+Req. π. demonstr.
+
+a π b 2|2 nr. cub. π nr. cub.
+
+Demonstr.
+
+19.8 | ꝗntr. a & b snt 2; medi; proport; c & d,
+35.7 | e,f,g,h snt mi; contin. proport; ꝗn raō. a π c,
+1.c.2.8 | extrem; e & h snt nr; cub;
+concl. 14.7 | a π b 2|2 e π h.

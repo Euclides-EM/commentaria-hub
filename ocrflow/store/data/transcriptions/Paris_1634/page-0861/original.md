@@ -1,25 +1,7 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-quitur numerum basium quinque figurarum regularium esse æqualem numero angulorum solidorum earumdem quinque figurarum. | *des bases des cinq figures regulieres est egal au nombre des angles solides des mesmes cinq figures.*
+## SCHOL.
 
-Proportiones sphæræ, & quinque figurarum regularium eidem inscriptarum.
+Quod si ex charta conficiantur quinque figuræ æquilateræ & æquiangulæ, similes his quæ sunt in subjecta figura, componentur quinque figuræ solidæ, si ritè complicentur. | *Que si auec de la carte on fait cinq figures equilateres & equiangles semblables à celles qui sont en la figure suiuante, en les pliant comme il faut, il s'en fera les cinq corps reguliers.*
 
-*Proportions de la sphere, & de cinq figures regulieres inscrites en icelle.*
-
-diamet.. ſphær. eſt 2,
-∩.. ⊙, maj. eſt 628318'''',
-ſuperfic.. ⊙, maj. eſt 314159'''',
-ſuperfic.. ſphær. eſt 1256637'''',
-ſolidit.. ſphær. 41879'''',
-γ. tetraedr. eſt 162299'''',
-ſuperfic. tetraedr. eſt 46188'''',
-ſolidit. tetraedr. eſt 5132'''',
-γ. exaedr. eſt 11547'''',
-ſuperfic.. exaedr. eſt 8,
-ſolidit.. exaedr. eſt 15396'''',
-γ. octaedr. eſt 141421'''',
-ſuperfic. octaedr. eſt 69282'''',
-ſolidit. octaedr. eſt 133333'''',
-γ. dodecaedr. eſt 71364'''',
-ſuperfic.. dodecaedr. eſt 1051462'''',
-ſolidit. dodecaedr. eſt 278516'''',
+[Figure: labels arranged 6 / 20 / 4 / 12]

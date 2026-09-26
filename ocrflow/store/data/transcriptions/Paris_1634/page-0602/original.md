@@ -1,51 +1,30 @@
-<!-- Running title: ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLD. LI. X. -->
 
 Explicat. ꝑ nr;
 
-hyp. | bc, est √.8,
-hyp. | cd, est √.18,
-1 s1.d.2 | ▭bd, est 12.
+hyp. | dc est 3,
+hyp. | cb, est √.6,
+1.concl. 1.s1.d.2 | ▭db, u □.h, est √.54
+2 concl. s 46.1 | h, est √√.54.
 
-## THEOR. XVIII. PROPOS. XXI.
+## SCHOL.
 
-Si rationale ad rationalem applicetur, latitudinem efficit rationalem, & ei ad quam applicatum est, longitudine commensurabilem.
+Omne rectangulum, quod potest contineri sub duabus rectis rationalibus potentia solùm commensurabilibus, est medium, quamuis contineatur sub duabus rectis irrationalibus ; atque omne medium potest contineri sub duabus rectis rationalibus potentia tantùm commensurabilibus.
 
-*Si vn rectangle ou espace rationel est appliqué à vne ligne rationelle, il fait la latitude rationelle commensurable en longitude à la ligne à laquelle il est appliqué.*
+*Tout rectangle qui peut estre contenu sous deux lignes droictes rationelles commensurables en puissance seulement, est medial, encore qu'il soit contenu sous deux lignes irrationelles ; & tout medial peut estre contenu sous deux lignes droictes rationelles, commensurables en puissance seulement.*
 
-E D F (rectangle A C B G)
+## THEOR. XX. PROPOS. XXIII.
+
+Quod à media fit, ad rationalem applicatum, latitudinem efficit rationalem, & ei, ad quam applicatum est, longitudine incommensurabilem.
+
+*Le quarré d'vne ligne mediale appliqué à vne ligne rationelle, fait la latitude rationelle, & incommensurable en longitude à la ligne à laquelle il est appliqué.*
 
 Hypoth.
 
-▭db, est ration.
-dc, est ration.
+a, est medi.
+bc, est ration.
+▭bd 2|2 □.a,
 
 Req. π. demonstr.
 
-cb, est ration.
-
-Præpar.
-
-suppos. | g, est ration. expos.
-46.1 | da, est □.dc.
-
-Demonstr.
-
-hyp. | da, est ration.
-1.6 | db π da 2|2 bc π ca,
-s.12.10 1.concl. | db, comm. da,
-10.10 | cb, comm. ca, u cd,
-2 concl. s.12.10 | bc, est ration.
-
-## LEMM.
-
-Duas rectas rationales potentia solùm commensurabiles inuenire.
-
-*Trouuer deux lignes droictes rationelles commensurables en puissance seulement.*
-
-A------
-B------
-C------
-
-Constr.
-
-arbitr. | a, est ration. expos.
+cd, est ration. incomm. bc.

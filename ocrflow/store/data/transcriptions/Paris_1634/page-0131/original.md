@@ -1,52 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-Les triangles égaux constituez sur bases égales, & de mesme part; sont entre mesmes paralleles.
+lelogrammes qui sont à l'entour du diametre, sont égaux entr'eux.
 
-[Figure: ligne A—D—H en haut, poinct H aussi vn peu plus bas, ligne B—C—E—F en bas ; triangles BCA & EFD, lignes A—E, D—B, E—H, F—H]
-
-Hypoth.
-
-△bca 2|2 △efd,
-bc 2|2 ef.
-
-Req. π. demonstr.
-
-ad == bf.
-
-Demonstr.
-
-suppos. | ah == bf,
-1.p.1. | fh est —,
-hyp. | bc 2|2 ef,
-38.1. | △efh 2|2 △bca,
-hyp. | △efd 2|2 △bca,
-1.a.1. | △efh 2|2 △efd,
-contr. 9.a.1.
-21.a.1. | ad == bf.
-
-## THEOR. XXXI. PROPOS. XLI.
-
-Si parallelogrammum cum triangulo eandem basin habuerit, in eisdemque fuerit parallelis, duplum erit parallelogrammum ipsius trianguli.
-
-Si vn parallelogramme, & vn triangle ont vne mesme base, & sont entre mesmes paralleles; le parallelogramme sera double du triangle.
-
-[Figure: ligne A—D—E en haut, ligne B—C en bas ; parallelogramme ABCD auec diagonales, lignes B—E & C—E]
+[Figure: parallelogramme ABCD, A & E & B en haut, H & D à gauche, I & C à droicte, F en bas ; diametre A—C, lignes E—F & H—I se coupans en G sur le diametre]
 
 Hypoth.
 
-ae == bc.
+abcd est ◊,
+ef == bc u ad,
+hgi == ab u dc.
 
 Req. π. demonstr.
 
-◊abcd 2|2 2△bce.
-
-Præpar.
-
-1.p.1. | ac est —.
+◊dg 2|2 ◊gb.
 
 Demonstr.
 
-hyp. | ae == bc,
-37.1. | △bca 2|2 △bce,
-34.1. | ◊abcd 2|2 2△bca,
-concl. 6.a.c. | ◊abcd 2|2 2△bce.
+34.1. | △acd 2|2 △acb,
+34.1. | △agh 2|2 △age,
+34.1. | △gcf 2|2 △gci,
+concl. 3.a.1. | ◊dg 2|2 ◊gb.
+
+## PROBL. XII. PROPOS. XLIV.
+
+Ad datam rectam lineam, dato triangulo æquale parallelogrammum applicare in dato angulo rectilineo.
+
+Sur vne ligne droicte donnée, descrire vn parallelogramme égal à vn triangle donné, en vn angle rectiligne donné.
+
+[Figure: à gauche triangle B auec base A & l'angle C ; à droicte figure D—E—I en haut, G—F—H au milieu, K—M—L en bas ; diametre K—F—I, lignes E—M & G—H se coupans en F]
+
+Hypoth.
+
+a est — D.
+b est △ D.
+c est < D.
+
+Req. π. fa.
+
+◊fl 2|2 △b,

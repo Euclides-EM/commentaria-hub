@@ -1,33 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-2.c.17.1 | perpendic. ad est vers. d,
-4.2 | ▭.cd 2|2 ▭.cb + ▭.bd + 2▭.cbd,
-| ▭.ad commun. add.
-2.a.1 | ▭.cd + ▭.ad 2|2 ▭.cb + ▭.ba + 2▭.cbd,
-47.1 | ▭.cd + ▭.ad 2|2 ▭.ac,
-concl. 1.a.f | ▭.ac 2|2 ▭.ab + ▭.bc + 2▭.cbd.
+reliquis duobus quadratis, esse acutum.
 
-## SCHOL.
+Perspicuum autem est ex 47. primi, perpendicularem, ex angulo verticis in lineam basis ductam, non cadere extra triangulum, nisi quadratum, vnius laterum circa angulum verticis, excedat aggregatum quadratorum, quæ à duobus reliquis lateribus fiunt.
 
-Cognitis lateribus trianguli amblygonij inuenire segmentum inter perpendicularem & obtusum angulum interceptum.
+quarrez de deux autres, soit aigu.
 
-Estans cognus les costez d'vn triangle obtusangle, trouuer le segment comprins entre la perpendiculaire & l'angle obtus.
+Or il est manifeste de la 47. du premier, que la perpendiculaire menée de l'angle du sommet à la ligne de la base ne tombe point hors le triangle, si le quarré de l'vn des costez de l'angle du sommet n'excede l'aggregé des quarrez de deux autres costez.
 
-[Figure: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]
+## SCHOL. I.
 
-hypoth. | ac est 10,
-hyp. | ab est 7,
-hyp. | cb est 5,
-1.s.1.d.2 | ▭.ac est 100,
-1.s.1.d.2 | ▭.ab est 49,
-1.s.1.d.2 | ▭.cb est 25,
-2.a.1. | ▭.ab + ▭.cb snt 74,
-12.2 | ▭.ac ~ ▭.ab ~ ▭.cb 2|2, 2▭.cbd
-3.a.1 | 2▭.cbd snt 26,
-7.a.1 | ▭.cbd est 13,
-hyp. | cb est 5,
-concl. 1.s.1.d.2 | bd est 2⅗.
+Cognitis lateribus trianguli, inuenire segmentum inter perpendicularem & acutum angulum interceptum.
 
-## THEOR. XII. PROPOS. XIII.
+Estans cognus les costez d'vn triangle, trouuer le segment compris entre la perpendiculaire & l'angle aigu.
 
-In oxygoniis triangulis, quadratum à latere angulum acutum subtendente minus est quadratis, quæ fiunt à lateribus acutum angulum comprehendentibus, rectangulo bis comprehenso, & ab vno
+[Figure: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]
+
+hyp. | ab est 8,
+hyp. | ac est 5,
+hyp. | bc est 7,
+1.s.1.d.2 | ▭.ac est 25,
+1.s.1.d.2 | ▭.bc est 49,
+2.a.1. | ▭.ac + ▭.bc snt 74,
+1.s.1.d.2 | ▭.ab est 64,
+13.2 | ▭.ac + ▭.bc ~ ▭.ab 2|2 2▭.bcd,
+3.a.1. | 2▭.bcd snt 10,
+7.a.1 | ▭.bcd est 5,
+hyp. | bc est 7,
+concl. 1.s.1.d.2 | cd est 5/7.

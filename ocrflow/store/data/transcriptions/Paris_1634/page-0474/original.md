@@ -1,39 +1,50 @@
-<!-- Running title: ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM. EVCLID. LI. VII. -->
 
-A....4 B...3 C..2
-D...........12 E.........8 F......6
+## THEOR. XXIII. PROPOS. XXV.
 
-a π c 2|2 d π f.
+Si duo numeri primi inter se fuerint ; qui vnum eorum metitur numerus, ad reliquum primus erit.
 
-Demonstr.
-
-α.19.7 | ▭.af 2|2 ▭.be,
-β.19.7 | ▭.cd 2|2 ▭.be,
-1.a.1 | ▭.af 2|2 ▭.cd,
-concl. 19.7 | a π c 2|2 d π f.
-
-## THEOR. XXI. PROPOS. XXIII.
-
-Primi inter se numeri, minimi sunt omnium eandem cum eis rationem habentium.
-
-*Les nombres premiers entr'eux, sont les plus petits de tous ceux qui ont la mesme raison.*
+*S'il y a deux nombres premiers entr'eux, le nombre qui en mesure l'vn d'iceux, sera premier à l'autre.*
 
 A.........9 B....4
-C---- D---
-E-- G,1.
+C...3 D--
 
 Hypoth.
 
-a & b snt pr. ꝫe.
+a & b snt pr. ꝫe,
+c, msur: a.
 
 Req. π. demonstr.
 
-a & b snt term.. raō. a π b.
+c, est pr. π. b.
 
 Demonstr.
 
-suppos. | g, est vnit.
-suppos. | c & d snt term.. raō. a π b,
-21.7 | c, msur: a, & d, msur: b,
-suppos. | c, msur: a ꝑ e,
-20.d.7 | d, msur: b ꝑ e,
+suppos. | c & b snt compos. ꝫe,
+suppos. | d, est c.me. c & b, α
+α | d, msur: c,
+hyp. | c, msur: a,
+11.a.7 | d, msur: a, β
+α | d, msur: b, β
+β | d, msur: a & b,
+12.d.7 | a & b n̄ snt pr. ꝫe,
+contr. hyp.
+concl. 21.a.1 | c, est pr. π. b.
+
+## THEOR. XXIV. PROPOS. XXVI.
+
+Si duo numeri ad quempiam primi fuerint; etiam ex illis genitus ad eundem primus erit.
+
+*Si deux nombres sont premiers à quelqu'autre nombre; le produict d'iceux sera aussi premier à cet autre.*
+
+A.....5 B...3
+C.........8
+D...............15
+E---- F---
+
+Hypoth.
+
+a & b snt pr. π. c, α
+▭.ab 2|2 d.
+
+Req. π. demonstr.

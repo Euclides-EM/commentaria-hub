@@ -1,34 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-[Figure: labels arranged F / A C / G E H / D B]
+vtraque sumpta sint quælibet puncta: illa linea, quæ ad hæc puncta adiungitur, in eodem est cum parallelis plano.
 
-γδ | fa, fb, fc, fd snt 2|2 ꝗe, ε
-8. 1 | <daf 2|2 <cbf, θ
-β | ag 2|2 bh,
-ε | af 2|2 bf,
-θ | <gaf 2|2 hbf,
-4. 1 | fg 2|2 fh,
-α. 8. 1 | <feg 2|2 <feh,
-concl. 3. d. 11 | ef ⊥ plan. acbd.
+*S'il y a deux lignes droictes paralleles, en l'vne & l'autre desquelles soient pris des poincts comme on voudra: la ligne droicte menee par iceux poincts, est en vn mesme plan que les paralleles.*
 
-## THEOR. V. PROPOS. V.
-
-Si recta linea rectis tribus lineis se mutuo tangentibus in communi sectione ad rectos angulos insistat: illæ tres rectæ in vno sunt plano.
-
-*Si à trois lignes droictes se touchantes l'vne l'autre, vne autre ligne droicte est constituee à angles droicts au poinct de la commune section: icelles trois lignes droictes sont en vn mesme plan.*
-
-[Figure: labels arranged B / F / A E G / D / C]
+[Figure: labels arranged A E B / G / F D]
 
 Hypoth.
 
-ab ⊥ ac, ad, ae.
+ab == cd, ꝗn plan. abdc,
+arbitr. | e & f snt ●; ꝗn ab & cd,
+ef, est ——,
 
 Req. π. demonstr.
 
-ac, ad, ae snt ꝗn vn. plan.
+ef, est ꝗn plan. abdc.
 
 Demonstr.
 
-2. 11 | ac & ad snt ꝗn plan. fc,
-2. 11 | ad & ae snt ꝗn plan. be,
-suppos. | ag, est intersect.. plan. fc, &.. plan. be,
+s.34.d.1 | ab, dc snt ꝗn vn. plan
+suppos. | egf, est intersect. ꝑ e & f,
+3. 11 | egf, est ——,
+hyp. | ef, est ——,
+contr. 14. a. 1.
+
+## SCHOL.
+
+Hæc eadem propositio vera est, etiamsi duæ rectæ AB & CD, parallelæ non sint, dummodo in eodem plano existant, vt manifestum est ex demonstratione.
+
+*Ceste proposition est aussi veritable, encore que AB & CD, ne soient paralleles, pourueu qu'elles soient en vn mesme plan, comme il appert par la demonstration.*
+
+## THEOR. VIII. PROPOS. VIII.
+
+Si duæ sint parallelæ rectæ lineæ, quarum altera

@@ -1,15 +1,9 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### XXXVIII.
+sumpta reliquo sunt maiora. | stez sont plus grands que l'autre, en quelque façon qu'ils soient pris.
 
-Describere siue construere figuram Geometricam, est ipsam exhibere determinatam proportione suarum partium. | Descrire ou construire vne figure Geometrique, est la representer auec les iustes mesures de toutes ses parties.
+Partes problematis sunt, explicatio hypotheseos, si datum fuerit aliquid : Constructio siue inuentio quæsiti, nonnunquam etiam præparatio ad demonstrandum : demonstratio, qua ostenditur, exhibita methodo, necessariò quæsitum inueniri. | Les parties du probleme sont, l'explication de l'hypothese, s'il y a quelque chose de donnée, la construction ou inuention du requis, & außi quelquefois la preparation pour la demonstration : la demonstration, par laquelle est demonstré que par la methode enseignée en la construction, on trouuera necessairement le requis.
 
-### XXXIX.
+Partes theorematis sunt, explicatio hypotheseos, siue datorum : explicatio quęsiti : præparatio ad demonstrandum, quæ non semper sed plerumque est necessaria : Demonstratio, qua perspicuum fit, passionem proprietatemve de qua quæritur, inesse iis quæ proponuntur. | Les parties du theoreme sont, l'explication de l'hypothese, ou de ce qui est donné : l'explication du requis : la preparation pour la demonstration, qui n'est pas tousiours necessaire, mais le plus souuent : Et la demonstration, par laquelle il est rendu manifeste, que la paßion ou proprieté, dont est question, se trouue aux grandeurs proposées.
 
-Scire in Geometricis, est nota mensura dimetiri, seu omnes partes figuræ propositæ, suis numeris expressas, exhibere. | En la Geometrie, sçauoir est mesurer par vne mesure cognuë, ou d'exprimer chaque partie de la figure proposee par nombres.
-
-Constructio exhibet figuram sua forma præditam. Cognitio verò exhibet figuram nota mensura dimensam, & suis numeris expressam. | La construction represente vne figure en sa vraye forme. Mais la cognoissance, la represente mesurée d'vne mesure cognuë, & exprimée par ses nombres.
-
-### XL.
-
-Problema est, cùm proponitur aliquid ad efficiendum, vel cognoscendum. | Probleme est, quand on propose quelque chose à faire, ou à cognoistre.
+Problema indiget theoremate propter demonstrationem, theorema problemate propter præparationem. | Le probleme a besoin du theoreme à cause de la demonstration, & le theoreme du probleme à cause de la preparation.

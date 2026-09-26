@@ -1,34 +1,17 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-rectum angulum subtēdente descripta, æqualis est figuris, quæ priori illi similes, & similiter positæ à lateribus rectum angulū continētibus describūtur.
+## THEOR. XXIII. PROPOS. XXXIII.
 
-Aux triangles rectangles, la figure descrite sur le costé qui soustient l'angle droict, est egale aux deux figures des costez qui contiennent l'angle droict, semblables à icelle, & semblablement descrites.
+In æqualibus circulis, anguli eandem habēt rationem cum peripheriis, quibus insistunt, siue ad centra, siue ad peripherias constituti insistant: insuper vero & sectores, quippe qui ad centra consistunt.
 
-[Figure: triangle B, A, C auec poinct D, parallelogrammes G, H et I, L sur les costez, et rectangle E, F sous la base]
+Aux cercles egaux, les angles ont mesme raison entr'eux, que les circonferences sur lesquelles ils sont appuyez, soit qu'ils soient appuyez estant constituez aux centres ou aux circonferences : les secteurs sont außi de mesme entr'eux, d'autant qu'ils sont constituez au centre.
+
+[Figure: cercle A, D, I, N, C, M, B et cercle E, H, P, L, G, F]
 
 Hypoth.
 
-<bac est ⌐,
-bf, bg, al snt sml. ⁊e, α
-bc, ba, ac snt homolog.
+⊙dbca 2|2 ⊙hfgp, α
 
 Req. π. demonstr.
 
-bf 2|2 bg + al.
-
-Præpar.
-
-12.1 | ad ⊥ bc.
-
-Demonstr.
-
-c.8.6 | dc π ca 2|2 ca π cb,
-c.8.6 | db π ba 2|2 ba π bc,
-c.20.6 | dc π bc 2|2 al π bf,
-c.20.6 | db π bc 2|2 bg π bf,
-24.5 | al + bg π bf 2|2 bc π bc,
-concl. s.14.5 | al + bg 2|2 bf.
-
-## THEOR. XXII. PROPOS. XXXII.
-
-Si duo triangula, quæ duo latera duobus lateribus proportionalia habeant, secundum vnum angulum composita fuerint, ita vt homologa eorum latera sint etiam parallela : tum reliqua illorum
+⌒bmc π ⌒fg, <bdc π <fhg, <bac π <feg, sect. bdc π sect. fhg. snt raō. 2|2 ⁊e.

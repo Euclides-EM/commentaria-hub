@@ -1,41 +1,47 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-*bres proposez au commencement, multiplians iceux produicts en font quelques vns, iceux seront aussi premiers entr'eux : & cecy aduiendra tousiours enuiron les extremes.*
+*Tout nombre premier est premier à tout autre nombre, lequel il ne mesure point.*
 
-A...3 B..2
-C.........9 D....4
-E,27. F,8
-G,81. H,16.
+A......5 B........8
+C----
 
 Hypoth.
 
-a & b snt pr. ꝫe,
-□.a est c, α
-□.b est d, β
-▭.ca est e, γ
-▭.db est f, δ
-▭.ea est g,
-▭.fb est h.
+a, est nr. pr.
+a, n̄. msur: b.
 
 Req. π. demonstr.
 
-c & d snt pr. ꝫe,
-e & f snt pr. ꝫe,
-g & h snt pr. ꝫe.
+a, est pr. π. b.
 
 Demonstr.
 
-hyp. | a & b snt pr. ꝫe, ε
-α.27.7 | c & b snt pr. ꝫe, ε
-1.concl. β.27.7 | c & d snt pr. ꝫe,
-β.27.7 | d & a snt pr. ꝫe,
-2.concl. γδ.28.7 | e & f snt pr. ꝫe,
-εγ.26.7 | e & b snt pr. ꝫe,
-δ.26.7 | f & a snt pr. ꝫe,
-3.concl. 28.7 | g & h snt pr. ꝫe.
+suppos. | a & b snt compos. ꝫe,
+suppos. | c, msur: a & b, α
+hyp. | a, n̄. msur: b,
+1.a.7 | c, n̄. est 2|2 a,
+α.11.d.4 | a, n̄. est pr.
+contr. hyp.
+21.a.1 | a & b snt pr. ꝫe.
 
-## THEOR. XXVIII. PROPOS. XXX.
+## THEOR. XXX. PROPOS. XXXII.
 
-Si duo numeri primi inter se fuerint : etiam vterque simul ad quemlibet illorum primus erit : Et si vterque simul ad vnum aliquem illorum primus fuerit: etiam, qui in principio, numeri primi inter se erunt.
+Si duo numeri sese mutuò multiplicantes fecerint aliquem : genitum autem ex ipsis metiatur aliquis primus numerus ; is etiam vnum eorum, qui à principio, metietur.
 
-*Si deux nombres sont premiers entr'eux, l'vn & l'au-*
+*Si deux nombres se multiplians l'vn l'autre, en font quelque autre : & que quelque nombre premier mesure leur produict, il mesurera aussi l'vn des nombres proposez au commencement.*
+
+A....4 B......6
+C,24
+D...3 E........8
+
+Hypoth.
+
+▭.ab est c,
+d, est nr. pr. α
+d, msur: c. β
+
+Req. π. demonstr.
+
+d, msur: a, u b.
+
+Demonstr.

@@ -1,32 +1,44 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-quod à composita ex dimidia & adiuncta, tāquam ab vna, descriptum sit quadrati.
-
-Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adiouste directement quelque ligne droicte: les deux quarrez ensemble de la toute auec l'adioustée, & de l'adioustée, sont doubles, du quarré descrit de la moitié, & du quarré de la ligne composée de la moitié, & de l'adioustée comme d'vne.
+Si vne ligne droicte est couppée en deux parties inégales, les quarrez descrits de la toute & de la difference des parties, sont doubles de ceux qui sont faicts des deux parties de la toute.
 
 Hypoth.
 
-ac 2|2 cb,
-bd est arbitr.
-abd est —.
+ad est —,
+ac 3|2 cd,
+ac ~ cd est af,
 
-[Figure: triangle A—E—B avec E au sommet, F en haut à droite, C, B sur la base, D à droite, G en bas à droite, lignes E—F, F—D, A—G, E—G]
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—A, E—F, E—C, E—D, E—B]
 
-Req. π. demonst.
+Req. π. demonstr.
 
-▭.ad + ▭.bd 2|2, 2▭.ac + 2▭.cd.
+▭.ad + ▭.af 2|2, 2▭.ac + 2▭.cd.
 
 Præpar.
 
-11.1. | ec ⊥ ad,
-3.1 | ce 2|2 ac u cb,
-1.p.1 | ae est —,
-31.1 | ef == ad,
-31.1 | fg == ec,
-1.&2.p.1 | ebg est —,
-1.p.1 | ag. est —.
+aeb est figur.. schol.. 6. 2.
 
 Demonstr.
 
-constr. | ac 2|2 ce,
-constr. | <ace est ∟,
+constr. | cf 2|2 cd,
+3.1 | af 2|2 db,
+concl. 9.2 | ▭.ad + ▭.db u ▭.af 2|2, 2▭.ac + 2▭.cd.
+
+Explicat. p nr.
+
+hyp. | ad est 10,
+hyp. | ac est 7,
+3.a.1 | cd u cf est 3,
+3.a.1 | af u db est 4,
+1.s.1.d.2 | ▭.ad est 100,
+1.s.1.d.2 | ▭.af est 16,
+1.concl. 2.a.1 | ▭.ad + ▭.af snt 116,
+1.s.1.d.2 | ▭.ac est 49,
+6.a.1 | 2▭.ac snt 98,
+1.s.1.d.2 | ▭.cd est 9,
+6.a.1 | 2▭.cd snt 18,
+2.cōcl. 2.a.1 | 2▭.ac + 2▭.cd snt 116.
+
+## PROBL. I. PROPOS. XI.
+
+Datam rectam lineam secare, vt comprehensum

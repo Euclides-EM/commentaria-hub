@@ -1,37 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-*D'icy il est manifeste, que si le nombre qui mesure quelqu'vn des proportionaux n'est l'vn des proportionaux, le nombre par lequel il mesurera ne sera pas aussi aucun des proportionaux.*
+*Si le nombre prochain à l'vnité est nombre premier, il n'y aura point d'autre nombre premier qui mesure le dernier.*
 
-## SCHOL.
+## THEOR. XIII. PROPOS. XIII.
 
-Si sint quotcunque numeri deinceps proportionales, additio exponentium respondebit multiplicationi proportionalium.
+Si ab vnitate quotcunque numeri deinceps proportionales fuerint ; qui verò post vnitatem, primus sit ; maximum nullus alius metietur, præter eos, qui sunt in numeris proportionalibus.
 
-*S'il y a tant de nombres qu'on voudra continuellement proportionaux, l'addition des exposans correspondra à la multiplication des proportionaux.*
+*Si depuis l'vnité il y a tant de nombres qu'on voudra continuellement proportionaux ; & que celuy d'apres l'vnité soit premier : aucun autre ne mesurera le plus grand, outre ceux qui sont entre les proportionaux.*
 
-A,2. B,6. C,18. D,54. E,162. F,486. G,1358.
-1, 2, 3, 4, 5, 6, 7, expo.
+K,1. A,5. B,25. C,125. D,625.
+H-- G-- F-- E--
 
 Hypoth.
 
-a,b,c,d,e,&c. snt contin. proport.
-1,2,3,4,5, &c. snt expo.
-1 + 5, 2|2, 2 + 4,
-2 + 7, 2|2, 4 + 5.
+k,a,b,c,d snt contin. proport;
+a, est nr. pr.
+e, n̄, est vn.. proport;
 
 Req. π. demonstr.
 
-▭.ae 2|2 ▭.bd,
-▭.bg 2|2 ▭.ed.
+e, n̄, msur: d.
 
 Demonstr.
 
-hyp. | a π b 2|2 d π e,
-1.concl. 19.7 | ▭.a,e 2|2 ▭.b,d,
-14.7 | b π e 2|2 d π g,
-2.concl. 19.7 | ▭.b,g 2|2 ▭,ed.
-
-## THEOR. XII. PROPOS. XII.
-
-Si ab vnitate quotcunque numeri deinceps proportionales fuerint, quicunque primorum numerorum vltimum metiuntur, iidem & eum qui vnitati proximus est, metientur.
-
-*Si depuis l'vnité il y a tant de nombres qu'on vou-*
+hyp. | e, n̄, est a, u b, u c,
+suppos. | e, msur: d ꝑ f, α
+c.11.9 | f, n̄, est a, u b, u c, β
+hyp. | a, est nr. pr.
+11.d.7 | e, n̄, msur: a,
+2.c.12.9 | e, est nr. compos.
+33.7 | nr. pr. msur: e,
+3.c.12.9 | a, msur: e, γ
+α.8.a.7 | f, msur: d ꝑ e,
+β.11.d.7 | f, n̄, msur: a,
+2.c.12.9 | f, est nr. compos.
+33.7 | nr. pr. msur: f,
+3.c.12.9 | a, msur: f, δ
+α.9.a.7 | d 2|2 ▭.e,f,
+c.11.9 | d 2|2 ▭.a,c,

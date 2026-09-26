@@ -1,48 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-illius plana, parallelogramma sunt similia, & æqualia.
+15. 5 | solid. ep multipl.. solid. ec,
+bas. hк bas. bh,
+24.11,& 9.d.11 | ◇ih. 2, 3, 4 3 ◇hк,
+solid. if. 2, 3, 4 3 solid. ep,
+concl. 6.d.5 | solid. ahd π solid. bhc 2|2 bas. ah π bas. hb.
 
-*Si vn solide est contenu sous des plans paralleles; les plans opposez d'iceluy sont parallelogrammes semblables & egaux.*
+## SCHOL.
 
-[Figure: labels arranged E B / D C / F G / A H]
+Hæc propositio accommodari etiam potest omni prismati; si enim eadem fiat constructio producto prismate in vtramque partem, erunt omnia plana parallela secantia, inter se æqualia, & similia: vnde vt in parallelepipedo, ostendetur prismata ex vna parte esse inter se æqualia, necnon & prismata ex altera parte, &c.
 
-Hypoth.
+*Ceste proposition conuient à tout prisme; car si on fait la mesme construction en prolongeant le prisme par les deux bouts, tous les plans des sections seront egaux & semblables entr'eux; & par consequent sera demonstré comme au parallelipipede que les prismes de chaque bouts sont egaux entr'eux.*
 
-ab, est ◇piped.
-afgh == debc,
-adch == febg,
-afed == hgbc. α
+## COROLL.
 
-Req. π. demonstr.
+Ex his infertur, si prisma quodcunque secetur plano oppositis planis æquidistante, sectionem esse figuram æqualem & similem planis oppositis.
 
-ag, est ◇ sml, & 2|2 ◇db,
-ac, est ◇ sml, & 2|2 ◇fb,
-ae, est ◇ sml, & 2|2 ◇hb.
+*De ces choses s'ensuit, que si quelconque prisme est couppé par vn plan equidistant aux plans opposez, que la section est vne figure egale & semblable aux plans opposez.*
 
-Præpar.
+## PROBL. IV. PROPOS. XXVI.
 
-1. p. 1 | fd & gc snt ——;
-
-Demonstr.
-
-γ.16.11 | ah == dc, & ad == hc,
-35. d. 1 | ahcd, est ◇, β
-α. 16. 11 | ah == fg, & af == hg,
-35. d. 1 | ahgf, est ◇, β
-α.16.1 | af == de, & ad == fe,
-35.d. 1 | afed, est ◇, β
-d. β | bcde, bgfe, bghc snt ◇,
-α. 16 11 | af == de, & fg == eb,
-10. 11 | <afg 2|2 <deb,
-c.14. 6 | ◇afgh sml. ◇debc, γ
-d. γ | ◇adch sml. ◇febg,
-d. γ | ◇afed sml. ◇hgbc,
-34. 1 | fa 2|2 gh, & ad 2|2 hc
-7. 5 | fa π ad 2|2 gh π hc, δ
-10. 11 | <fad 2|2 <ghc, δ
-1.concl 1. d. 6 | ◇afed sml. ◇hgbc, ε
-δ. 6.6 | △fad sml. △ghc,
-4. 1 | △fad 2|2 △ghc,
-2 concl. 6.a. 1 | ◇afed 2|2 ◇hgbc, ε
-d. ε | ◇ag 2|2 & sml. ◇db,
-d. ε | ◇ac 2|2 & sml. ◇fb, &c.
+Ad datam rectam lineam, eiusque punctum an-

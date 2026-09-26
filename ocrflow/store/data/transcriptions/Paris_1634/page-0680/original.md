@@ -1,33 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-A B C D (line)
+## THEOR. LXV. PROPOS. LXXXIII.
 
-hyp. & suppos. | ▭.acb & ▭.adb snt ration.
-s.12.10 | 2▭.acb & 2▭.adb snt ration.
-s.17.10 | 2▭.acb.∼: 2▭.adb, est ration. γ
-7.2 | □.ac + □.bc ∼ 2▭.acb 2|2 □.ab,
-7.2 | □.ad + □ bd ∼ 2▭.adb 2|2 □.ab,
-l.79.10 | □.ac + □.bc .∼: / □.ad + □.bd / 2|2, 2▭.acb.∼: 2▭.adb, ♪
-γ♪ | □.ac + □.bc .∼: □.ad + □.bd, est ration.
-αβ | contr. 27.10.
+Minori vna tantùm congruit recta linea potentia incommensurabilis existens toti, & cum tota faciens compositum quidem ex ipsarum quadratis rationale; quod autem sub ipsis cōtinetur medium.
 
-## THEOR. LXIV. PROPOS. LXXXII.
-
-Mediæ apotomæ secundæ vna tantùm congruit recta linea media potentia solùm commensurabilis existens toti, & cum tota medium continens.
-
-*Au residu medial second, ne peut conuenir qu'vne seule ligne droicte mediale, commensurable en puissance seulement à la toute, & contenant vn rectangle medial auec la toute.*
+*A la ligne mineure conuient vne seule ligne droicte incommensurable en puissance à la toute, & faisant auec la toute le composé de leurs quarrez rationel; & le rectangle sous icelles medial.*
 
 Hypoth.
 
-ab, est apotom. 2.. medi.
+ab, est min.
 bc, est congruen.
+
+A B C D (line)
 
 Req. π. demonstr.
 
 bd, n̄, est congruen.
 
-A B C D (line) E K H M / F I G L (rectangle)
-
-Præpar.
+Demonstr.
 
 suppos. | bd, est congruen.
+7.2 | □.ac + □.bc ∼ 2▭.acb 2|2 □.ab,
+7.2 | □.ad + □.bd ∼ 2▭.adb 2|2 □.ab,
+l 97.10 | □.ac + □.bc .∼: □.ad + □.bd 2|2, 2▭.acb .∼: / 2▭adb,
+hyp. | ▭.acb, est medi.
+c.24.10 | 2▭.acb, est medi. β
+d. β | 2▭.adb, est medi.
+s.27.10 | □.ac + □.bc.∼: □.ad + □.bd, est ration.

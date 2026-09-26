@@ -1,34 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-31.1. | dg == bf u ce,
-31.1. | al == ce,
-31.1. | lhi == ab,
+dam linea in directum adiiciatur : Rectangulum comprehensum sub tota cum adiecta, & adiecta, vnà cum quadrato à dimidia, æquale est quadrato à linea, quæ tum ex dimidia, tum ex adiecta componitur, tanquam ab vna, descripto.
+
+Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adiouste quelque ligne droicte directement, le rectangle contenu sous la toute auec l'adioustée, & l'adioustée auec le quarré de la moitié, est égal au quarré descrit de la ligne composée de la moitié, & de l'adioustée comme d'vne.
+
+[Figure: rectangle L—I—D—A, quarré F—E au dessus, G, M, K, O, H au milieu, N, A—C—B—D en bas, diagonale F—H—D, demi-cercle au milieu]
+
+Hypoth.
+
+ac 2|2 cb, α
+abd est —.
+
+Req. π. demonstr.
+
+▭.adb + ▭.cb 2|2 ▭.cd,
+
+Præpar.
+
+46.1. | ce est ▭.cd,
+1.p.1. | fd est diamet.
+31.1. | bg == cf u de,
+31.1. | al == cf,
+31.1. | lhi == ad,
 
 Demonstr.
 
-1.c.4.2. | kg & di snt ▭,
-2.s.19.1 | ak, ch, hf snt ▭,
-43.1. | ▭hf 2|2 ▭ch,
-| ▭di est commun. add.
-2.a.1. | ▭df 2|2 ▭ci,
-36.1. | ▭ak 2|2 ▭ci,
-1.a.1. | ▭df 2|2 ▭ak,
-| ▭ch commun. add.
-2.a.1. | gnom. kbg 2|2 ▭ah,
+constr. | ce est ▭.cd,
+1.c.4.2. | kg & bi snt ▭,
+43.1. | ▭he 2|2 ▭ch,
+α.36.1. | ▭ak 2|2 ▭ch,
+1.a.1. | ▭he 2|2 ▭ak,
+| ▭ci commun. add.
+2.a.1. | gnom. kdg 2|2 ▭ai
 | ▭kg commun. add.
-2.a.1. | gnom. kbg + ▭kg 2|2 ah ▭.adb + kg ▭.cd,
-19.a.1. | gnom. kbg + ▭kg 2|2 cf ▭.cb,
-concl. 1.a.g. | ▭.adb + ▭.cd 2|2 ▭.cb.
-
-Explicat. p nr.
-
-hyp. | ac est 5,
-hyp. | cb est 5,
-2.a.1. | ab est 10,
-hyp. | ad est 8,
-3.a.1. | db est 2,
-3.a.1. | cd est 3,
-1.s.1.d.2. | ah ▭.adb est 16,
-1.s.1.d.2. | kg ▭.cd est 9,
-2.a.1. | ah + kg snt 25,
-concl. 1.s.1.d.2 | cf ▭.cb est 25.

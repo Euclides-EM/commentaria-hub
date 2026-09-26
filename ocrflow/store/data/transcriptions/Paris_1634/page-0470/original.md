@@ -1,42 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-A..2 B....4
-C...3
-D......6 E............12
+A.........9 B......6 C....4
+D......6
 
-Hypoth.
+hyp. | a π b u d 2|2 b π c,
+1.concl. 19.7 | ▭.ac 2|2 ▭.db, u □.b,
 
-▭.ca est d,
-▭.cb est e.
+Hypoth. 2.
+
+▭.ac 2|2 □.b.
 
 Req. π. demonstr.
 
-a π b 2|2 d π e.
+a π b 2|2 b π c.
 
 Demonstr.
 
-16.7 | ▭.ac 2|2 ▭.ca,
-hyp. | d 2|2 ▭.ca,
-1.a.1 | ▭.ac 2|2 d, α
-16.7 | ▭.bc 2|2 ▭.cb,
-hyp. | e 2|2 ▭.cb,
-1.a.1 | ▭.bc 2|2 e,
-concl. α.17.7 | a π b 2|2 d π e.
+hyp. | ▭.ac 2|2 □.b, u ▭.bd,
+2.concl. 19.7 | a π b 2|2 d u b π c.
 
-## THEOR. XVII. PROPOS. XIX.
+## THEOR. XIX. PROPOS. XXI.
 
-Si quatuor numeri proportionales fuerint ; qui ex primo, & quarto fit, numerus, æqualis erit ei, qui ex secundo & quarto fit, numero : & si, qui ex primo & quarto fit numerus, æqualis fuerit ei, qui ex secundo, & tertio fit numero ; ipsi quatuor numeri proportionales erunt.
+Minimi numeri omnium eandem cum eis rationem habentium, metiuntur æquè numeros eandem cum eis rationem habentes, maior quidem maiorem, minor verò minorem.
 
-*Si quatre nombres sont proportionaux, le produict du premier & du quatriesme sera egal au produict du second & du troisiesme nombre: & si le nombre produict du premier & du quatriesme est egal au produict du second & du troisiesme; iceux quatre nombres seront proportionaux.*
+*Les nombres plus petits de tous ceux qui ont mesme raison auec iceux, mesurent egalement les nombres qui ont mesme raison auec iceux ; à sçauoir le plus grand, le plus grand, & le plus petit, le plus petit.*
 
-A...3 B..2
-C......6 D....4
-E............12
-F............12
-G................18
+A...3G..2B E...........10
+C..2H.1D F......
 
 Hypoth.
 
-a π b 2|2 c π d,
-▭.ad est e, α
-▭.bc est f. β
+ab π cd 2|2 e π f,
+ab & cd snt term.. raō. ab π cd.
+
+Req. π. demonstr.
+
+ab msur: e 2|2 cd msur: f.
+
+Demonstr.

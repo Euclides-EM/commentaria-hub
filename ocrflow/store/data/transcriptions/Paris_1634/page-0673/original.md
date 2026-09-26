@@ -1,37 +1,26 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-dium contineat, reliqua irrationalis est: vocetur autem mediæ apotome secunda.
+## THEOR. LX. PROPOS. LXXVIII.
 
-*Si d'vne ligne mediale on retranche vne ligne mediale, commensurable en puissance seulement à la toute, laquelle contienne auec la toute vn rectangle medial, le reste est irrationel; soit appellé apotome ou residu medial second.*
+Si à recta, recta auferatur potentia incommensubilis existens toti, quæ cum tota faciat compositum quidem ex ipsarum quadratis medium; quod autem sub ipsis continetur, rationale: reliqua irrationalis est: vocetur autem cum rationali medium totum efficiens.
+
+*Si d'vne ligne droicte est retranchee vne ligne droicte, incommensurable en puissance à la toute; faisant auec la toute le composé de leurs quarrez medial; mais le rectangle contenu sous icelles rationel, la restante est irrationelle: soit appellee ligne faisant auec vn espace rationel vn tout medial.*
 
 D E F (line)
 
 Hypoth.
 
-df & de snt medi; comm. ꝗn □,
-▭.fde, est medi.
+□.df, incomm. □.de,
+aggreg..□.df + □.de, est medi. α
+▭.fde, est ration. β
 
 Req. π. demonstr.
 
-ef, est resid. 2.
+ef, est irration.
 
 Demonstr.
 
-hyp. | □.fd, □.de snt medi;
-hyp. | □.fd, comm. □.de,
-16.10 | □.fd + □.de, comm. □.de,
-c.24.10 | aggreg.. / □.fd + □.de / est medi.
-hyp. | ▭.fde, est medi.
-c.24.10 | 2▭.fde, est medi.
-7.2 | □.fd + □.de ∼ 2▭.fde / 2|2 □.ef,
-concl. 27.10 | ef, est irration.
-
-Explicat. ꝑ nr;
-
-df, est √√.18,
-de, est √√.8,
-ef, est √√.18 ∼ √√.8.
-
-## THEOR. LIX. PROPOS. LXXVII.
-
-Si à recta linea, recta auferatur potentia incommensurabilis existens toti, quæ cum tota faciat
+βs.12.10 | 2▭fde, est ration.
+αs.12.10 | 2▭fde, incomm. aggreg..□.df + □.de,
+7.2 | □.df + □.de 2|2 2▭.fde + □.ef,
+17.10 | 2▭.fde, incomm. □.ef,

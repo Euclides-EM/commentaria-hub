@@ -1,45 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-19.4 | ▭.a,d 2|2 ▭.b,c u e
-7.a.7 | a, msur: ▭.ad, u e
-contr. hypoth.
-2.concl. 21.a.1 | a,b,c,d n̄ snt proport;
+hyp. | aggreg.. fb + gc + hd + le, est nr.pa.
+concl. 21.7 | aggreg. ae, est nr.pa.
 
-## THEOR. XVIII. PROPOS. XX.
+## THEOR. XXI. PROPOS. XXIII.
 
-Primi numeri plures sunt omni proposita multitudine primorum numerorum.
+Si impares numeri quotcunque componantur, multitudo autem ipsorum sit impar : & totus impar erit.
 
-*Les nombres premiers sont en plus grande multitude, que quelconque multitude de nombres premiers proposez.*
+*Si tant de nombres impairs que l'on voudra, sont adioustez, & que la multitude d'iceux soit impair : le tout sera aussi impair.*
 
-A,2. B,3. C,5.
-D,30. F,1. H,31. G---
+A........7B.....5C..2E.1D
 
 Hypoth.
 
-a,b,c snt nr; pr; proposi
+ab, bc, cd snt nr; impa;
+multd.. ab, bc, cd est impa.
 
 Req. π. demonstr.
 
-multd. a,b,c, n̄ est ma. multd.. nr; pr;
+aggreg. ad, est nr. impa.
 
 Præpar.
 
-38.7 | d, est mi.diuidu.a,b,c, α
-f, est vnit.
-h 2|2 d + f, α
+ed, est vnit.
 
 Demonstr.
 
-1.concl. 1.suppo. | h, est nr.pr.
-2.suppo. | h, est nr. compos.
-34.7 | nr.pr.g, msur: h, β
-suppos | g, est a, u b, u c, γ
-β | g, msur: h,
-α.γ | g, msur: d,
-α.12.a.7 | g, msur: f,
-contr. 9.a.b.
-2.concl. 21.a.1 | g, n̄ est a, u b, u c.
+2.29 | ac, est nr.pa.
+7.d.7 | ce, est nr.pa.
+21.9 | ae, est nr. pa.
+concl. 7.d.7 | ad, est nr. impa.
 
-## THEOR. XIX. PROPOS. XXI.
+## THEOR. XXII. PROPOS. XXIV.
 
-Si pares numeri quotcunque componantur, totus par erit.
+Si à pari numero par detrahatur, & reliquus par erit.
+
+*Si d'vn nombre pair on retranche vn nombre pair, le reste sera aussi pair.*
+
+Hypoth.
+
+ac & ab snt nr; pa;
+
+Req. π. demonstr.
+
+bc, est nr. pa.

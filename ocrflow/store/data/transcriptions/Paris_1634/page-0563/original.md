@@ -1,37 +1,64 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-Demonstr.
+31.7 | e, est pr. π. r,
+23.7 | e & r snt term.. raō.
+| e, msur: | q,
+21.7 | r, msur: | d,
+13.9 | r, est a, u b, u c,
+suppos. | r, est b, μ
+14.7 | b π d 2|2 e π h,
+19.7 | □.b,h 2|2 □.d,e,
+λ.1.a.1 | □.b,h 2|2 □.q,r,
+19.7 | r π b 2|2 h π q,
+μ | r est b,
+2c2od7 | q, est h,
+contr. suppos. θ
+2.concl. 21.a.1 | q, n̄, msur: f.
 
-35.9 | b~a π a 2|2 d~a π a + b + c,
-concl. 18.5 | b π a 2|2 b + c + d π a + b + c.
+## SCHOL. I.
 
-## THEOR. XXXIV. PROPOS. XXXVI.
-
-Si ab vnitate quotcunque numeri deinceps exponantur in dupla proportione, quoad totus compositus fiat primus, & totus hic in vltimum multiplicatus faciat aliquem; factus erit perfectus.
-
-*Si depuis l'vnité on prend tant de nombres qu'on voudra continuellement proportionaux, en proportion double, iusques à ce que le tout composé soit nombre premier, & qu'iceluy tout multiplié par le dernier en face quelqu'vn ; le produict sera nombre parfaict.*
-
-V,1. A,2. B,4. C,8. D,16.
-E,31. G,62. H,124. L,248. F,496.
-K,31. M,31. P,31. N,465.
-Q--- R---
+A,48.
+B,8. C,3.
+D,6. E,16.
 
 Hypoth.
 
-u, est 1,
-a, est 2,
-b 2|2, 2a,
-c 2|2, 2b,
-d 2|2, 2c, [d, α
-e, est aggr..u,a,b,c,
-e, est nr. pr.
-f, est ▭.e,d. β
+b, msur: a ꝑ d, α
+c, msur: a ꝑ e. β
 
 Req. π. demonstr.
 
-f, est nr. ꝑfect.
+b π c 2|2 e π d.
 
-Præpar.
+Demonstr.
 
-g 2|2, 2e,
-h 2|2, 2g,
+α.9.a.7 | a 2|2 □.b,d,
+β.9.a.7 | a 2|2 □.c,e,
+1.a.1 | □.b,d 2|2 □.c,e,
+concl. 19.7 | b π c 2|2 e π d.
+
+## SCHOL. II.
+
+A,48.
+B,1. C,2. D,4 E,8.
+F,48. G,24. H,12. K,6.
+
+A,15.
+B,1. C,2. D,4. E,8.
+F,15. G,7½. H,3¾. K,1⅞.
+
+Hypoth.
+
+b, c, d, e snt contin. proport; α
+b, msur: a ꝑ f,
+c, msur: a ꝑ g,
+d, msur: a ꝑ h,
+e, msur: a ꝑ k.
+
+Req. π. demonstr.
+
+k, h, g, f snt contin. proport. ꝗn raō.. b π c.
+
+Demonstr.
+
+1.s.36.9 | b π c 2|2 g π f, β

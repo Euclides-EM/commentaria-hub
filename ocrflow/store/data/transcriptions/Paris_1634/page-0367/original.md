@@ -1,34 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-1.6 | ▭.bg,ac π ▭.ab,ac 2|2 bg π ab,
-4.6 | bg π ab 2|2 eh π de,
-1.6 | eh π de 2|2 ▭.eh,df π ▭.de,df,
-11.5 | ▭.bg,ac π ▭.ab,ac 2|2 ▭.eh,df π ▭.de,df,
-16.5 | ▭.bg,ac π ▭.eh,df 2|2 ▭.ab,ac π ▭.de,df, α
-41.1 | ▭.bg,ac 2|2, 2 Δabc,
-41.1 | ▭.eh,df 2|2, 2 Δdef,
-7.5 | 2 Δabc π 2 Δdef 2|2 ▭.bg,ac π ▭.eh,df.
-15.5 | Δabc π Δdef 2|2 ▭.bg,ac π ▭.eh,df,
-concl. α.11.5 | Δabc π Δdef 2|2 ▭.ab,ac π ▭.de,df.
+1.s.23.6 | Δabc π Δdef 2|2 ▭.ab,bc π ▭.de,ef,
+concl. 11.5 | ◇bg π ◇eh 2|2 ▭.ab,bc π ▭.de,ef.
 
-## SCHOL. II.
+## SCHOL. IV.
 
-Triangula, quæ vnum angulum vni angulo æqualem habent, proportionem habent ex lateribus æqualem angulum comprehendentibus compositam.
+Triangula & parallelogramma inter se proportionem habent compositam ex proportione altitudinum, & proportione basium.
 
-Les triangles qui ont vn angle egal à vn angle, sont en raison composee des costez qui contiennent l'angle egal.
+Les triangles & les parallelogrammes sont entr'eux, en raison composee, de la raison des bases, & de la raison des hauteurs.
 
-[Figure: parallelogramme A, B, C, G auec triangle et parallelogramme D, E, F, H]
+[Figure: triangles et parallelogrammes A, G, M, L, N, H, D sur la base B, I, C, E, F, K]
 
 Hypoth.
 
 abc & def snt Δ,
-<b 2|2 <e.
+abcg & hefd snt ◇,
+ai ⊥ bc,
+dk ⊥ ek,
 
 Req. π. demonstr.
 
-raō.. Δabc π Δdef 2|2 raō.. bc π ef + raō.. ab π de.
+raō.. Δabc π def 2|2 raō.. ai π dk + raō.. bc π ef.
 
 Præpar.
 
-31.1 | cg == ba,
-31.1 | ag == bc,
+31.1 | li 2|2 dk,
+31.1 | mln == bc,
+1.p.1 | mc est —.
+
+Demonstr.
+
+20.d.5 | raō.. Δabc π Δdef 2|2 raō.. Δabc π Δmbc + raō.. Δmbc π Δdef,
+s.1.6 | Δabc π Δmbc 2|2 ai π li u dk,
+1.6 | Δmbc π Δdef 2|2 bc π ef,
+1.concl. 11.5 | raō.. Δabc π Δdef 2|2 raō.. ai π dk + raō.. bc π ef, α

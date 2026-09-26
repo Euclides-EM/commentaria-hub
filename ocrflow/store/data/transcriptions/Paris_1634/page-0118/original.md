@@ -1,41 +1,24 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-## SCHOL.
-
-Rectæ lineæ eidem rectæ parallelæ, si in directum continuatæ inter se coeant: erunt partes eiusdem rectæ lineæ, vt AG & GB sunt partes rectæ lineæ AB.
-
-Les lignes droictes paralleles à vne mesme ligne droicte estäs continuées directement, si elles se rencontrent: elles seront parties d'vne mesme ligne droicte, comme AG & GB sont parties de la droicte AB.
-
-## PROBL. X. PROPOS. XXXI.
-
-A dato puncto, datæ rectæ lineæ parallelam rectam lineam ducere.
-
-D'vn poinct donné, mener vne ligne droicte parallele à vne ligne droicte donnée.
-
-[Figure: ligne E—A—F en haut, ligne B—D—C en bas, ligne A—D]
-
-Hypoth.
-
-a est • D.
-bc est — D.
-
-Req. π. fa.
-
-ae == bc.
-
-Constr.
-
-ad est — arbitr.
-23.1. | <dae 2|2 <adc,
-symp. | ae == bc.
+[Figure: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]
 
 Demonstr.
 
-constr. | <dae 2|2 <adc,
-concl. 27.1. | ae == bc.
+α.29.1. | <eca 2|2 <a,
+α.29.1. | <ecd 2|2 <b,
+1.concl. 2.a.1. | <acd 2|2 <a + <b, β
+β | <a + <b 2|2 <acd,
+| <acb commun. add.
+2.a.1. | <a + <b + <acb 2|2 <acd + <acb,
+13.1. | <acd + <acb 2|2 2∟,
+2.concl. 1.a.1. | <a + <b + <acb 2|2 2∟.
 
-## SCHOL.
+## COROLL. I.
 
-Super datam rectam lineam infinitam, à dato puncto, quod in ea non est, rectam lineam ducere, quæ cum data constituat angulum æqualem dato angulo rectilineo.
+Ex hac propositione colligitur, tres angulos cuiuslibet trianguli simul sumptos æquales esse tribus angulis cuiuslibet alterius trianguli simul sumptis : quoniam tam illi tres quàm hi sunt æquales duobus angulis rectis. Vnde si duo anguli vnius trianguli fuerint æquales duobus angulis alterius trianguli, erit & reliquus illius reliquo huius æqualis.
 
-Sur vne ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle, mener vne ligne droicte qui auec la ligne donnée,
+De cette proposition se collige, que les trois angles de quelconque triangle prins ensemble, sont égaux aux trois angles prins ensemble de quelconque autre triangle : Dautant que les trois angles, tant de l'vn que de l'autre, sont égaux à deux droicts. Donc si deux angles d'vn triangle sont égaux à deux angles d'vn autre triangle, le troisiesme de l'vn sera außi égal au troisiesme de l'autre.
+
+## COROLL. II.
+
+Constat etiam in omni triangulo isoscele, cuius angulus lateribus æqualibus comprehensus rectus fuerit, quemlibet reliquorum esse semirectum : nam reliqui illi duo

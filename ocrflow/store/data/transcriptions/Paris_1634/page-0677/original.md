@@ -1,47 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-▭.fde, est medi. β
+7.2 | □.ad + □.bd ∼ 2▭.adb 2|2 □.ab,
+l.79.10 | □.ac + □.bc / .∼: □.ad + □.bd / 2|2 2▭.acb.∼: 2▭.adb, β
+hyp. & suppos. | □.ac + □.bc, & □.ad + □.bd snt ration;
+s 27.10 | □.ac + □.bc .∼: □.ad + □.bd, est ration. γ
+βγ | 2▭.acb.∼: 2▭.adb, est ration.
+α | contr. 27.10.
 
-Req. π. demonstr.
+## THEOR. LXIII. PROPOS. LXXXI.
 
-ef, est irration.
+Mediæ apotomæ primæ vna tantùm congruit recta linea media, potentia solùm commensurabilis existens toti, & cum tota rationale continens.
 
-D E F (line)
+*Au residu medial premier ne conuient qu'vne seule ligne mediale, commensurable en puissance seulement à la toute, contenant auec la toute vn rectangle rationel.*
 
-Demonstr.
-
-β.24.10 | 2▭.fde, est medi.
-7.2 | □.df + □.de ∼ 2▭fde 2|2 □.ef,
-concl. 27.10 | ef, est irration.
-
-Explicat. ꝑ nr;
-
-df, est √..√.180 + √.60,
-de, est √..√.180 ∼ √.60,
-ef, est √..√.180 + √.60, ∼ √..√.180 ∼ √.60.
-
-## LEMM.
-
-Si idem sit excessus inter primam magnitudinem & secundam, qui inter tertiam magnitudinem & quartam; erit & vicissim idem excessus inter primam magnitudinem & tertiam, qui inter secundam & quartam.
-
-*S'il y a mesme excez entre la premiere & seconde grandeur, qu'entre la troisiesme & la quatriesme; il y aura außi alternatiuement mesme excez entre la premiere grandeur & la troisiéme, qu'entre la seconde & la quatriesme.*
-
-B M G (line) D E F (line) / C (line) H (line)
+A B C D (line)
 
 Hypoth.
 
-bg.∼:c 2|2 df.∼:h.
+ab, est apotom. 1.. medi.
+bc, est congruen.
 
 Req. π. demonstr.
 
-bg.∼:df 2|2 c.∼:h.
-
-Præpar.
-
-3.1 | mg 2|2 c,
-3.1 | ef 2|2 h.
+bd, n̄, est congruen.
 
 Demonstr.
 
-hyp. | bm 2|2 de,
-concl. 16.a.1 | bg.∼:df 2|2 c.∼:h.
+suppos. | bd, est congruen.
+hyp. | □.ac & □.bc snt medi.
+hyp. | □.ac, comm. □.bc,
+16.10 | aggreg.. □.ac + □.bc comm. □.ac,
+c.24.10 | aggreg..□.ac + □.bc est medi. α
+suppos. | □.ad & bd snt medi.
+d. α | aggreg.. □.ad + □.bd, est medi. β

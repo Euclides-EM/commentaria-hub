@@ -1,44 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-apot.3. 14. 10 | df & fe, incomm, ration. expos.
-suppos 15. 10 | ac 3|2 bc.. □. ——, incomm ac,
-apot. 4. suppos. | df 3|2 ef.. □. ——, incomm. df,
-apot. 4. | ac, comm. ration. expos.
-12. 10 apot.5. | df, comm. ration. expos.
-suppos apot.5. | bc, comm. ration. expos.
-12. 10 apot. 6. | ef, comm. ration. expos.
-suppos apot. 6. | ac & bc, incomm. ration. expos.
-l.4 10 | df & ef, incomm, ration. expos.
+s.12.10 | aggreg.. □.df + □.fe, est ration.
+α. hyp. | ▭.acb, est medi.
+l.66.10 | ▭.dfe, cōm. ▭.acb,
+24.10 | ▭.dfe, est medi.
+concl. 77. 10 | de, est min.
 
-## THEOR. LXXXI. PROPOS. CV.
+## THEOR. LXXXIII. PROPOS. CVII.
 
-Recta linea mediæ apotomæ commensurabilis, & ipsa mediæ apotomæ est, atque ordine eadem.
+Recta linea commensurabilis ei, quæ cum rationali medium totum efficit; & ipsa cum rationali medium totum efficiens est.
 
-*La ligne droicte commensurable à vn apotome medial; est aussi apotome medial & de mesme ordre.*
-
-[Figure: labels arranged A B C / D E F]
+*La ligne droicte commensurable à vne ligne laquelle auec vn espace rationel, fait vn tout medial; est aussi ligne faisant auec vn espace rationel vn tout medial.*
 
 Hypoth.
 
-ab, est apotom.. medi. α
+ab, est ——, fa. rat. & medi. α
 bc, est congruen.
 de, comm. ab.
 
+[Figure: labels arranged A B C / D E F]
+
 Req. π. demonstr.
 
-de, est apoto.. medi. ord.. ab,
+de, est ——, fa. rat. & medi.
 
 Præpar.
 
-12. 10 | ab π de 2|2 ac π df.
+12. 6 | ab π de 2|2 ac π df.
 
 Demonstr.
 
-l.66.10 | df, comm. ac,
-l.66.10 | fe, comm. cb,
-α. hyp. | ac & bc snt medi;
-24. 10 | df & fe snt medi;
-α. hyp. | ac, comm. bc ꝗn □,
-10.10 | df, comm. ef ꝗn □,
-38. 10 | de, est apotom.. medi.
-suppos. | ▭.acb, est ration.
+α. hyp. | □.ac, incomm. □.bc,
+l.66.10 | □.df, incomm. □.fe,
+α. hyp. | aggreg.. □.ac + □.bc, est medi.
+l.66.10 | aggreg.. □.df + □.ef, comm. aggreg.. □.ac + □.bc,
+24.10 | aggreg.. □.df + □.ef, est medi.

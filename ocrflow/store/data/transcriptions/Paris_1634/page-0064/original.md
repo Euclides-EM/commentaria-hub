@@ -1,25 +1,30 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### II.
-
-Et rectam lineam terminatam in continuum recta producere. | Et de prolonger directement vne ligne droite donnee & terminee.
-
-[Figure: ligne droicte horizontale de A à C, B marqué entre A et C]
-
-2.p.1 | abc est —.
-
 Explicatio notarum. | Explication des notes.
 
-Recta AB est in continuum producta ad punctum C, per secundum postulatum. | La ligne droite AB a esté continuée directement au poinct C, par la seconde demande.
+AB est æqualis EF per hypothesim. | AB est egal EF par l'hypothese.
 
-### III.
+CD est æqualis EF per hypothesim. | CD est egal EF par l'hypothese.
 
-Item quouis centro, & interuallo circulum describere. | Semblablement de quelconque centre & interualle descrire vn cercle.
+AB est æqualis CD per primum axioma libri primi. | AB est egal CD par le premier axiome du premier liure.
 
-[Figure: cercle de centre D, rayon DA vertical vers le haut, ligne DB du centre vers B en haut à droite, C au bas du cercle]
+### I. a. b.
 
-3.p.1 | dabc est ⊙.
+Quæ æqualibus sunt æqualia, & inter se sunt æqualia. | Les choses egales aux choses egales, sont außi egales entr'elles.
 
-Explicatio notarum. | Explication des notes.
+[Figure: quatre lignes droictes horizontales, A et C en haut, B et D au dessous]
 
-Centro D & interuallo | Du centre D & interualle
+hyp. | c 2|2 d.
+hyp. | a 2|2 c.
+hyp. | b 2|2 d.
+1.a.b | a 2|2 b.
+
+### I. a. c.
+
+Et quod vno æqualium maius est, aut minus ; maius quoque est, aut minus altero æqualium. | Et ce qui est plus grand ou plus petit que l'vn des egaux, est außi plus grand ou plus petit que l'autre des égaux.
+
+[Figure: ligne A plus longue à gauche, lignes B et C plus courtes à droite l'vne sur l'autre]
+
+hyp. | b 2|2 c.
+hyp. | a 3|2 b.
+1.a.c | a 3|2 c.

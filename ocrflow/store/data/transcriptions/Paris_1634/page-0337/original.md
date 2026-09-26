@@ -1,38 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-41.1 | ◇ce 2|2, 2Δacb,
-41.1 | ◇cf 2|2, 2Δacd,
-2.concl. γ.15.5 | ◇ce π ◇cf 2|2 Δacb π Δacd u bc π cd.
-
-## SCHOL.
-
-Triangula & parallelogramma, quorum æquales sunt bases, vel eadem ; ita se habent inter se vt altitudines.
-
-Les triangles & les parallelogrammes constituez sur bases egales, ou sur vne mesme base ; sont entr'eux comme leurs hauteurs.
-
-[Figure: triangles et parallelogrammes G, A ; B, L, C, I, K, E ; D, H ; M, F]
-
-Hypoth.
-
-abc & def snt Δ,
-agbc & defh snt ◇,
-bc 2|2 ef,
-
-Præpar.
-
-2.p.1 | bci est —,
-2.p.1 | fek est —,
-12.1 | ai ⊥ bi,
-12.1 | dk ⊥ kf,
-3.1 | il 2|2 cb,
-3.1 | km 2|2 ef,
-1.p.1 | la, lg, md, mh snt —.
-
-Req. π. demonstr.
-
-Δabc π Δdef 2|2 ai π dk,
-◇agbc π ◇defh 2|2 ai π dk.
+1.p.1 | cd & be snt —.
 
 Demonstr.
 
-38.1 | Δali 2|2 Δabc,
+hyp. | de == bc,
+37.1 | Δdeb 2|2 Δdec, α
+1.6 | ad π db 2|2 Δade π Δdbe,
+α.7.5 | Δade π Δdbe 2|2 Δade π Δedc,
+1.6 | Δade π Δedc 2|2 ae π ec,
+1.concl. s.11.5 | ad π db 2|2 ae π ec.
+
+Hypoth. 2.
+
+ad π db 2|2 ae π ec.
+
+Req. π. demonstr.
+
+de == bc.
+
+Demonstr.
+
+1.6 | ad π db 2|2 Δade π Δdbe,
+hyp. | ad π db 2|2 ae π ec,
+1.6 | ae π ec 2|2 Δade π Δecd,
+2.concl. s.11.6 | Δade π Δdbe 2|2 Δade π Δecd.
+
+## THEOR. III. PROPOS. III.
+
+Si trianguli angulus bifariam sectus sit, secans autem angulum recta linea secuerit & basin : basis segmenta eandem habebunt rationem, quam reliqua ipsius trianguli latera. Et si basis segmenta eandem habeant rationem, quam reliqua ipsius trianguli latera ; recta linea, quæ à vertice ad sectionem ducitur, bifariam secat trianguli ipsius angulum.
+
+Si vn angle d'vn triangle est couppé en deux parties egales, & que la ligne droicte qui couppe l'angle, couppe aussi la base ; les segments de la base auront mesme raison entr'eux que les autres costez du triangle : Et si les segments de la base ont mesme raison entr'eux que les autres

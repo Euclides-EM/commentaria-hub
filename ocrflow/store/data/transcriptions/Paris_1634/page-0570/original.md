@@ -1,23 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-lineas multitudine infinitas & cómensurabiles esse & incommensurabiles ; alias quidem longitudine & potentia; alias vero potétia solum. Vocetur autem proposita recta linea Rationalis.
+tionali, quæ antea erant irrationales, possunt esse rationales.
 
-*lignes droictes en multitude sont commensurables, & infinies incommensurables : les vnes en longitude & puissance, les autres en puissance seulement. Or ceste ligne droicte proposee soit appellee Rationelle.*
+*geant la rationelle exposee en vne autre rationelle exposee.*
 
-## DEFINIT. VI.
+## SCHOL. II.
 
-Et huic commensurabiles siue longitudine & potentia, siue potentia tantum Rationales.
+Omnis numerus incommensurabilis vnitati dicitur irrationalis vel surdus : nec vlla magnitudo, præter lineam, est rationalis nisi numero rationali exprimatur. Recta vero linea, quamuis non exprimatur numero rationali, dummodo habeat quadratum numero rationali expressum dicitur rationalis.
 
-*Et les lignes droictes commēsurables à ceste ligne rationelle, soit en longitude & puissance seulement, soient appellees aussi Rationelles.*
+*Tout nombre incommensurable à l'vnité s'appelle irrationel ou sourd : & n'y a aucune grandeur, excepté la ligne, qui soit rationelle, si elle n'est exprimee par vn nombre rationel. Mais la ligne droicte encore qu'elle ne soit pas exprimee par vn nombre rationel, pourueu qu'elle aye son quarré exprimé par vn nombre rationel, elle sera rationelle.*
 
-## DEFINIT. VII.
+## SCHOL. III.
 
-Huic vero incommensurabiles Irrationales vocentur.
+Nulla regula Arithmetica gignit numeros irrationales præter extractiones radicum, ac proinde omnis potestas numeri rationalis est rationalis : sed si potestas est numerus rationalis, non est necesse latus quoque esse numerum rationalem.
 
-*Et les lignes incommensurables à ceste ligne rationelle, soient appellees Irrationelles.*
+*Il n'y a point aucune regle d'Arithmetique qui engendre des nombres sourds, que les extractions des racines, par consequent toute puissance d'vn nombre rationel est rationelle : mais si la puissance est vn nombre rationel, il n'est pas necessaire que le costé soit aussi vn nombre rationel.*
 
-## DEFINIT. VIII.
+## SCHOL. IV.
 
-Et quadratum, quod à proposita recta fit, dicatur Rationale.
+Tria sunt genera linearum rationalium longitudine in-
 
-*Et le quarré descrit de la rationelle, soit appellé Rationel.*
+*Il y a trois sortes de lignes rationelles commensurables en*

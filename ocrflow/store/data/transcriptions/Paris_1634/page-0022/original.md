@@ -1,23 +1,30 @@
 <!-- Running title: EXPLICATIO NOTARVM. -->
 
-mus, vt possint citari vbi opus erit : & ne series axiomatum Euclidis mutaretur, quæ adiunximus axiomata, præter vltimum, subiecimus iis, cum quibus habent maiorem cognitionem, cum litteris alphabeti, vt distinguantur ab aliis quæ sunt Euclidis, vel adiecta à Clauio, cuius translationem & ordinem secuti sumus.
-
-mis le dernier, nous les auons mis en suite de ceux auec lesquels ils ont plus d'affinité & similitude auec des lettres de l'alphabet, pour les distinguer des autres, qui sont d'Euclide, ou adjoustez par Clauius, la version & ordre duquel nous auons suiui.
-
-## Explicatio Notarum.
-
-## Explication des Notes.
-
-add. adde, adjoustez.
-æquiang. æquiangulum, equiangle.
-æquilat. æquilaterum, equilateral.
-aggreg. aggregatum, aggregé.
-alt. altitudo, hauteur.
-arbitr. arbitrarium, arbitraire.
-arithm. arithmetica, arithmetique.
-bas. basis, base.
-capa. capax, capable.
-cas. casus, cas.
-centr. centrum, centre.
-circscr. circumscripta, circonscripte.
-c.me. communis mensura, commune mesure.
+geometr. geometrica, geometrique.
+gnom. gnomon, gnomon.
+homolog. homologus, homologue.
+hypoth. hyp. hypothesis, hypothese.
+impa. impar, impair.
+impa. pa. impariter par, impairemet pair.
+impa. impa. impariter impariter, impairement impair.
+incomm. incommensurabilis, incommensurable.
+infin. infinita, infinie.
+infr. infrà, inferieur.
+inscri. inscripta, inscripte.
+intersect. intersectio, intersection.
+inuent. inuentio, inuention.
+inuers. inuersa, inuerse.
+irrat. irrationalis, irrationelle.
+iust. iustum, iuste.
+ma. c. diuid. { maximus communis diuiduus, le plus grand commun diuidu.
+ma. c. me. { maxima communis mensura, la plus grande commune mesure.
+magd. magnitudo, magnitude ou grandeur.
+mair. maior, majeure, ou plus grande.
+medi. medium, medial.
+minr. minor, mineure, moindre.
+mi. c. diuidu. { minimus communis diuiduus, le moindre commun diuidu.
+msur. mensura, la mesure.
+msur: mensurat, mesure.
+multd. multitudo, multitude.
+multipl. multiplex, multiple.
+ñ. n. non, non.

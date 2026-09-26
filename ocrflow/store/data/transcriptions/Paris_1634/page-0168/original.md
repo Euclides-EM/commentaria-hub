@@ -1,37 +1,28 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-& du quarré de la section du milieu.
+3.s.1.d.2 | ▭.daf 2|2 ▭.adb, α
+s.46.1 7.2 α.1.a.s. 5.2 1.s.4.2 47.1 | ▭.ad + ▭.db, ▭.ad + ▭.af, 2▭.daf + ▭.fd, 2▭.adb + ▭.fd, 2▭.ed + ▭.fd, 2▭.ed + 4▭.cd, 2▭.ce + 2▭.cd, snt 2|2 ⁊e,
+concl. 1.a.1. | ▭.ad + ▭.db 2|2, 2▭.ce + 2▭.cd.
 
-Hypoth.
+Explicat. p nr.
 
-ab est —,
-ac 2|2 cb,
-ad 3|2 db.
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D]
 
-[Figure: triangle A—E—B, E au sommet, C, D sur la base, F au dessus de D, G au milieu, lignes E—C, F—D, A—F, G—F]
+hypoth. | ab est 10,
+| ac u ce est 5,
+hyp. | ad est 7,
+| db u af est 3,
+3.a.1 | fd est 4,
+7.a.1 | cd est 2,
+1.s.1.d.2 | ▭.ad est 49,
+1.s.1.d.2 | ▭.db est 9,
+1.concl. 1.s.1.d.2 | ▭.ad + ▭.db snt 58,
+1.s.1.d.2 | ▭.ce est 25,
+1.s.1.d.2 | ▭.cd est 4,
+6.a.1 | 2▭.ce snt 50,
+6.a.1 | 2▭.cd snt 8,
+2.cōcl. 2.a.1 | 2▭.ce + 2▭.cd snt 58
 
-Req. π. demonstr.
+## THEOR. X. PROPOS. X.
 
-▭.ad + ▭.db 2|2, 2▭.ac + 2▭.cd.
-
-Præpar.
-
-11.1 | ce ⊥ ab,
-10.1 | ce 2|2 ca u cb,
-1.p.1 | ae & be snt —,
-31.1 | df == ce,
-31.1 | fg == ab,
-1.p.1 | af est —.
-
-Demonstr.
-
-constr. | ac 2|2 ce, α
-constr. | <ace est ∟,
-2.c.32.1 | <cea est ½ ∟,
-constr. | cb 2|2 ce,
-constr. | <bce est ∟, β
-2.c.32.1 | <ceb est ½ ∟,
-19.a.1 | <aef est ∟,
-32.1. | <cbe est ½ ∟, γ
-29.1 | <bdf 2|2 <bce,
-β.19.a.1 | <bdf est ∟,
+Si recta linea secetur bifariam, adiiciatur autem ei in rectum quæpiam recta linea : Quod à tota cum adiuncta, & quod ab adiuncta, vtraque simul quadrata duplicia sunt & eius, quod à dimidia, & eius

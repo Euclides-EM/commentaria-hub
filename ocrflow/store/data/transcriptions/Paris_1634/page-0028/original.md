@@ -1,23 +1,20 @@
-<!-- Running title: EXPLICATIO NOTARVM. -->
+<!-- Running title: EXPLICATIO CITATIONVM. -->
 
-a,b, Ⅱ ab { rectangulum quod fit ductu A in B. / le rectangle qui se fait en multipliät A par B.
-• est punctum, est vn poinct.
-— est recta linea, est vne ligne droicte.
-<, ∠ est angulus, est vn angle.
-⌐ est angulus rectus, est vn angle droict.
-⊙ est circulus, est vn cercle.
-⌒, ◡ { est pars circumferentiæ circuli. / est vne partie de la circonference du cercle.
-⌓, ◡ est segmentü circuli, est vn segment de cercle.
-△ est triangulum, est vn triangle.
-□ est quadratum, est vn quarré.
-▭ est rectangulum, est vn rectangle.
-◇ est parallelogrammum, est vn parallelogramme.
-◇piped. est parallelepipedum, est vn parallelipipede.
+raō.▭.fg,k π ▭.dc,l 2|2 raō.k π cd, + raō.fg π l.
 
-### Exempla. Exemples.
+Ratio rectanguli FG in K ad rectangulum DC in L, est æqualis, siue eadem rationi K ad CD, & rationi FG ad L.
 
-a 2|2 b { A est æqualis B. / A est égal à B.
-a 3|2 b { A est maior B. / A est plus grand que B.
-a 2|3 b { A est minor B. / A est plus petit que B.
-a 2|2 5b { A est æqualis 5b, vel est quintupla B. / A est egal à 5b, ou elle est quintuple de B.
-a 2|2 ½b { A est æqualis semissi B. / A est égal à la moitié de B.
+La raison du rectangle contenu sous FG & K au rectangle contenu sous DC & L, est egale à la raison de K à CD, plus à la raison de FG à L.
+
+ag & gb snt part.. ab 2|2 part.. cd.
+
+AG & GB sunt partes numeri AB, æquales partibus numeri CD : id est, AG & GB sunt omnes partes inter se æquales numeri AB, nimirum semisses, quarum vtraque est æqualis singulis partibus numeri CD in plures partes æquales diuisi.
+
+AG & GB sont parties du nombre AB, égales aux parties du nombre CD : c'est à dire, que AG & GB sont toutes les parties égales entr'elles du nombre AB, sçauoir les moitiés, chacune desquelles est égale à chaque partie du nombre CD diuisé en plusieurs parties égales entr'elles.
+
+## Explicatio Citationum.
+
+## Explication des Citations.
+
+15.d.1 { Decima quinta definitio libri primi. / Quinziesme definition du premier liure.
+10.d.3 { Decima definitio libri tertij. / Dixiesme definition du troisiesme liure.

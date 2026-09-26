@@ -1,38 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-fuerint; æquiangulum erit ipsum pentagonum.
+*en vn mesme cercle sont composez; la ligne droicte totale est couppee en la moyenne & extreme raison, & le plus grand segment d'icelle est le costé de l'hexagone.*
 
-*Si trois angles d'vn pentagone equilateral, pris comme on voudra sont egaux; il sera equiangle.*
-
-[Figure: labels arranged A / E B / C D]
+[Figure: labels arranged E / F / B / A D C]
 
 Hypoth.
 
-abcde, eſt 5<, æquil.
-arbitr. | <a, <bcd / <cde ſnt 2|2 ꝗe.
+dabc, eſt ⊙,
+ab, eſt γ. 10<, α
+abe, eſt ——,
+bd, Ⅱ be, eſt γ. 6<. β
 
 Req. π. demonstr.
 
-5<abcde, eſt æquiāg.
+ae π be 2|2 be π ab.
 
 Præpar.
 
-1. p. 1 | be, bd, ce ſnt ——.
+1. p. 1 | adc, eſt diamet.
+1. p. 1 | db & de ſnt ——;
 
 Demonstr.
 
-4. 1 | be, bd, ce ſnt 2|2 ꝗe,
-8. 1 | <dbc 2|2 <dec,
-5. 1 | <abe 2|2 <aeb,
-8. 1 | <ceb 2|2 <dbe,
-1.concl 2. a. 1 | <abc 2|2 <aed, α
-8. 1 | <abe 2|2 <dce,
-5. 1 | <cbe 2|2 <bce,
-2concl. 2. a. 1 | <abc 2|2 <bcd, β
-3. concl. αβ.1.a.1 | <a, <bcd / <cde, <aed / <abc ſnt 2|2 ꝗe.
+α. hyp. | ∩ab, eſt ⅕. ∩abc,
+27. 3 | <bdc 2|2, 4<bda,
+32. 1 | <bdc 2|2 <dab / + <dba,
+1. a. 1 | <abd 2|2, 2<bda,
+32. 1 | <abd 2|2 <bed / + <bde,
+β. 5. 1 | <bde 2|2 bed,
+32. 1 | <abd 2|2, 2<bde,
+1. a. 1 | <ade 2|2 <abd / Ⅱ <dae,
+32. 1 | △ade æquiāg. △adb,
+concl. 4. 6 | ae π ad, Ⅱ be, / ad, Ⅱ be π ab,
 
-## THEOR. VIII. PROPOS. VIII.
+## COROLL.
 
-Si pentagoni æquilateri, & æquianguli duos angulos, qui deinceps sint, subtendant rectæ lineæ: hæ extrema ac media ratione se mutuo secant, & majora ipsarum segmenta æqualia sunt pentagoni lateri.
+Hinc perspicuum est, si latus hexagoni alicuius circuli secetur extrema ac media ratione; majus illius segmentum esse latus decagoni eiusdem circuli.
 
-*Si deux lignes droictes soustendent deux angles d'vn pentagone equiangle & equilateral, lesquels s'entresui-*
+*De ceste demonstration il est manifeste que si le costé de l'hexagone de quelque cercle est couppé en la moyenne & extreme raison, son plus grand segment sera le costé du decogone descrit au mesme cercle.*

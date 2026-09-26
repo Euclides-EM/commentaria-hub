@@ -1,27 +1,22 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## DEFINIT. VII.
+## DEFINIT. X.
 
-Eandem autem habentes rationem magnitudines, proportionales vocentur.
+Cùm autem tres magnitudines proportionales fuerint, prima ad tertiam duplicatam rationem habere dicetur eius, quam habet ad secundam : at cùm quatuor magnitudines proportionales fuerint, prima ad quartam triplicatam rationem habere dicetur eius quam habet ad secundam, & semper deinceps, vno amplius, quandiu proportio extiterit.
 
-Les grandeurs qui ont mesme raison, soient appellées proportionnelles.
+Quand il y a trois grandeurs proportionnelles, la premiere à la troisiesme est dite auoir la raison doublée de la premiere à la seconde : mais quand quatre grandeurs sont proportionnelles, la premiere à la quatriesme est dite auoir la raison triplée de la premiere à la seconde, & tousiours de mesme ordre, vne de plus, iusques à ce que la proportion soit acheuée.
 
-A, 4. B, 6. C, 8. D, 12.
+A, 2. B, 6. C, 18. D, 54. E, 162.
 
-hyp. | a π b 2|2 c π d. α
-α.7.d.5 | Magnitudines A, B, C, D, sunt proportionales.
-7.d.5 | Les grandeurs A, B, C, D, sont proportionnelles.
+hyp. | a, b, c, d, e snt contin. proport.
+10.d.5 | raō.. a π c 2|2, 2 raō.. a π b,
+10.d.5 | raō.. a π d 2|2, 3 raō.. a π b,
+10.d.5 | raō.. a π e 2|2, 4 raō.. a π b.
 
-## DEFINIT. VIII.
+Explicatio notarum.
 
-Cum verò æquè multiplicium, multiplex primæ magnitudinis excesserit multiplicem secundæ, at multiplex tertiæ non excesserit multiplicem quartæ ; tunc prima ad secundam maiorem rationem habere dicetur, quàm tertia ad quartam.
+A, B, C, D, E sunt continuè proportionales.
 
-Mais quand des equimultiples, le multiple de la premiere grandeur excedera celuy de la seconde, mais le multiple de la troisiesme grandeur n'excedera pas celuy de la quatriesme ; alors la premiere grandeur sera dite auoir plus grande raison à la seconde, que la troisiesme à la quatriesme.
+Explication des notes.
 
-E, 30. A, 6. B, 4. G, 28.
-F, 60. C, 12. D, 9. H, 63.
-
-hyp. | e, multipl.. a,
-| f, multipl.. c,
-hyp. | g, multipl.. b,
-| h, multipl.. d,
+A, B, C, D, E sont continuellement proportionnelles.

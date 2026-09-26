@@ -1,30 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-αs 12.10 | 2▭.acb .∼: 2▭.adb, est ration.
+A B C D (line) E K H M / F I G L (rectangle)
 
-contr. 27.10.
+suppos. | bd, est congruen.
+suppos. | ef, est ration. expos.
+4.app. | ▭eg 2|2 □.ac / + □.bc, α
+4.app. | ▭ei 2|2 □.ab,
+4.app. | ▭el 2|2 □.ad + □.bd
 
-## THEOR. LXVI. PROPOS. LXXXIV.
+ꝑ demonstr. 81.10.
 
-Ei, quæ cum rationali mèdium totum facit, vna tantùm congruit recta linea potentia incommensurabilis existens toti, & cum tota faciens compositum quidem ex ipsarum quadratis medium; quod autem sub ipsis continetur rationale.
+▭.kg 2|2 2▭.acb, β
+▭kl 2|2, 2▭.adb,
 
-*A la ligne faisant auec vn espace rationel vn tout medial, conuient vne seule ligne droicte incommensurable en puissance à la toute, & faisant auec la toute le composé de leurs quarrez medial; mais le rectangle contenu sous icelles rationel.*
-
-Hypoth.
-
-ab, est fa. ration. & med.
-bc, est congruen.
-
-Req. π. demonstr.
-
-A B C D (line)
-
-bd, n̄, est congruen.
+1.concl. | eh, est ration. & incomm. ef,
+2 concl. | kh, est ration. & incomm. ef,
 
 Demonstr.
 
-suppos. | bd, est congruen.
-hyp. & suppos. | ▭.acb & ▭.adb snt ration.
-s. 12.10 | 2▭.acb & 2▭.adb snt ration.
-s. 17.10 | 2▭.acb .∼: 2▭.adb, est ration. α
-hyp. | □.ac + □.bc, & □.ad + □.bd snt medi; β
+α. hyp. | ▭eg, incōm. ▭.acb,
+β.14.10 | ▭eg, incōm. ▭.kg,
+3.concl. 1.6, & 10.10 | eh, incomm. kh,
+4.concl. 74.10 | eк, est apotom. & kh congruen. γ
+d. γ | ek, est apotom. & km congruen.
+
+contr. 80.10.
+
+Definitiones tertiæ.
+
+Exposita rationali & apotoma; si tota plus possit, quàm congruens, quadrato rectæ lineæ sibi longitudine commensurabilis.
+
+*Definitions troisiesmes.*
+
+*Vne ligne rationelle estant exposee, & vn apotome ou residu; quand la toute peut plus que la conuenable du quarré d'vne ligne qui luy est commensurable en longitude.*
+
+I.
+
+Si quidem tota expositæ rationali sit longitudine commensurabilis; vocetur apotome prima.
+
+*I.*
+
+*Si la toute est commensurable en longitude à la rationelle, le residu soit appellé apotome premier.*

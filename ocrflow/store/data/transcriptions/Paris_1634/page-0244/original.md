@@ -1,35 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-10.4 | △fgh est isosc.
-| <gu<h 2|2, 2<f, α
-2.4 | △acd est æquiang.
-| △fgh, α
-9.1 | <bdc 2|2 <bda, α
-9.1 | <ecd 2|2 <eca, α
-1.p.1 | ab, bc, de, ea snt —,
-symp. | 5<abcde est req.
+11.1 | gah ⊥ fa,
+| hbi ⊥ fb,
+| ick ⊥ fc,
+| kdl ⊥ fd,
+| leg ⊥ fe,
+13.a.1 | ahb,bic,ckd,
+| dle,ega
+| snt △,
+symp. | 5<ghikl est req.
 
-[Figure: cercle auec pentagone A—B—C—D—E inscrit et toutes ses diagonales ; à droicte triangle isoscele F—G—H]
+[Figure: pentagone G—E—L—D—K—C—I—B—H—A circonscrit à vn cercle, F au centre, auec toutes les lignes menées du centre]
+
+Præpar.
+
+1.p.1 | fg, fh, fi, fk, fl snt —,
 
 Demonstr.
 
-α. 7.a.1 | <cad, <cdb, <bda, <dce, <eca snt 2|2 ⁊e,
-26.3 | ∩cd, ∩de, ∩ea, ∩ab, ∩bc snt 2|2 ⁊e,
-1.concl. 29.3 | cd, de, ea, ab, bc snt 2|2 ⁊e,
-2.a.1 | ∩bcde, ∩cdea, ∩deab
-| ∩eabc, ∩abcd
-| snt 2|2 ⁊e,
-2.concl. 27.3 | <bae, <abc, <bcd, <cde, dea snt 2|2 ⁊e.
-
-## COROLL.
-
-Sequitur hinc, angulum pentagòni æquilateri & æquianguli complecti tres quintas partes duorum rectorum vel sex quintas recti.
-
-D'icy il s'ensuit, que l'angle du pentagone equilateral & equiangle, est les trois cinquiesmes de deux droicts ou les six cinquiémes d'vn droict.
-
-## CONSTR.. PRA.
-
-hyp. | cadbn est ⊙,
-1.p.1 | ab est diamet.
-11.1 | cd ⊥ ab,
-10.1 | ce 2|2 eb.
+1.concl. c.16.3 | gh, hi, ik, kl, lg. tang: ⊙abcde,
+2.c.36.3 | ga 2|2 ge, α
+| ha 2|2 hb, α
+| ib 2|2 ic, α
+| kc 2|2 kd, α
+| ld 2|2 le, α
+8.1 | <gfa 2|2 gfe,
+8.1 | <hfa 2|2 hfb,
+27.3 | <afe 2|2 <afb, &c. β
+7.a.1 | <gfe,<gfa,<afh,<hfb,<bfi,<ifc, &c. snt 2|2 ⁊e,
+26.1 | ag 2|2 ah, α
+26.1 | hb 2|2 bi, &c. α
+2.concl. α.2.a.1 | gh, hi, ik, kl, lg snt 2|2 ⁊e,
+3.concl. β.s.32.1 | <ahb, <bic, <ckd, <dle, <ega, snt 2|2 ⁊e.

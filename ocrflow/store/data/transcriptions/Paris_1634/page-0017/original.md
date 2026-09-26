@@ -1,25 +1,21 @@
 <!-- Running title: PROLEGOMENES. -->
 
-Tertius, constructionem ac vsum Canonis sinuum & logarithmorum : Geometriam practicam : Artem muniendi : Militiam : & Mechanicas.
+proportiones figurarum planarum discutiuntur.
 
-Quartus, Sphæræ mundi doctrinam : Geographiam : & Artem nauigädi.
+des figures planes sont examinées.
 
-Quintus, Opticam : Catoptricam : Dioptricam : Perspectiuam : Theodosij Sphæricorum lib. III. vnà cum tractatu de dimensione triangulorum Sphæricorum : Theoricam Planetarum : Gnomonicam : & Musicam.
+## De principiis Mathematicis.
 
-Hæ sunt omnes Mathematicarum disciplinarum partes, quas in lucem edendas in hoc Cursu proposuimus.
+## Des principes des Mathematiques.
 
-Le troisiesme, la construction & vsage des Tables des sinus & logarithmes : la Geometrie practique : les Fortifications : la Milice : & les Mechaniques.
+PRincipia sunt fontes ac origines omnis cognitionis, neque probationem recipiunt, sed probationum sunt fundamenta : Horum in Mathematicis triplex est genus.
 
-Le quatriesme, la Doctrine de la Sphere du monde : la Geographie : & l'Art de nauiger.
+In primo genere reponuntur omnes definitiones, quas nonnulli suppositiones appellant : his autem vocabula artis explicantur, ne in tractatione ipsa nominum ambiguitate, aut obscuritate circumuenti, in paralogismos incidamus.
 
-Le cinquiesme, l'Optique : la Catoptrique : la Dioptrique : la Perspectiue : Trois liures des Spheriques de Theodose, auec vn traicté de la mesure des Triangles Spheriques : la Theorie des Planetes : la Gnomonique : & la Musique.
+Secundum genus complectitur petitiones siue postulata, quæ quidem adeo clara sunt & perspicua in hac scientia, vt nulla indigeant confirmatione : sed auditoris duntaxat ascen-
 
-Voila toutes les parties des Mathematiques, que nous esperons mettre en lumiere en ce Cours.
+LES principes sont les sources & origines de toute cognoissance, & ne reçoiuent point de preuue, mais ils sont les fondemens de toutes preuues : Il y en a de trois genres aux Mathematiques.
 
-## Diuisio Elementorum Euclidis.
+Au premier, se trouuent toutes les definitions, que quelques-vns appellent suppositions, par icelles sont expliquées les termes de l'art, afin qu'au traicté de la science ne soyons trompez par l'ambiguité & obscurité des noms, & ne tombions en des parallogismes.
 
-## Diuision des Elements d'Euclide.
-
-TOTVM hoc volumen Elementorum Geometricorum quindecim libris comprehensum (quo-
-
-TOVT ce volume des Elements Geometriques comprins en quinze liures, (dont les treize premiers sont
+Au second genre sont les petitions ou demandes, lesquelles sont tellement claires & manifestes en ceste science qu'elles n'ont besoin d'aucune preuue : mais demandent seulemët le consentement de l'auditeur,

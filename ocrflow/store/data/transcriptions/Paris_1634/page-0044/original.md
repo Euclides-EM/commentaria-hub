@@ -1,15 +1,15 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### XVII.
+### XX.
 
-Diameter autem circuli, est recta quædam linea per centrum ducta, & ex vtraque parte in circuli peripheriam terminata, quæ circulum bifariam secat. | Le diametre du cercle est vne ligne droicte menee par le centre, & terminé de part & d'autre à la circonference du cercle, laquelle diuise le cercle en deux egalement.
+Trilateræ quidem, quæ sub tribus. | Figures trilateres sont celles qui sont contenuës sous trois costez.
 
-[Figure: cercle ABCD, diametre AC horizontal passant par le centre E, ligne EB menée du centre vers B en haut à droite, D en bas]
+### XXI.
 
-ABCD est circulus. | ABCD est vn cercle.
-E centrum circuli. | E est le centre du cercle.
-AC diameter circuli. | AC est le diametre du cercle.
+Quadrilateræ verò, quæ sub quatuor. | Les figures quadrilateres sont celles qui sont contenues sous trois{printer-error-correction:quatre} costez.
 
-### XVIII.
+### XXII.
 
-Semicirculus verò est figura, quæ continetur sub diametro, & sub ea linea, quæ de circuli peripheria aufertur. | Le demy cercle est vne figure, contenuë sous le diametre, & sous la ligne retranchée de la circonference du cercle.
+Multilateræ autem, quæ sub pluribus quàm quatuor rectis lineis comprehenduntur. | Les figures multilateres ou de plusieurs costez, sont celles qui sont cötenuës sous plus de quatre lignes droites.
+
+Species figurarum rectilinearum sunt innumerabiles : nam tres rectæ lineæ claudentes figuram, efficiunt primam speciem, quatuor constituunt secundam, quinque tertiam componunt speciem, atque ita deinceps in infinitum. Euclides verò ne infinitatem figurarum cogeretur persequi, vocat omnes alias fi- | Les especes des figures rectilignes sont innumerables, à cause du progrez infini des nombres : car trois lignes droites enuironnant vne figure, constituent la premiere espece, quatre lignes droites la seconde espece, cinq lignes droites la troisiesme espece, & ainsi de suite à l'infini. Or Euclide afin de n'estre contraint de poursuiure ceste infinité, il appelle

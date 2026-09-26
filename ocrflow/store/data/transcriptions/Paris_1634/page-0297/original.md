@@ -1,44 +1,51 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-β.cōstr | ik 3|2 hg & ik 2|3 hf,
-2.concl. 8.d.5 | raō. d π c 3|2 raō. d π ab.
+[Figure: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]
 
-## THEOR. IX. PROPOS. IX.
-
-Quæ ad eandem, eandem habent rationem, æquales sunt inter se : Et ad quas eadem eandem habet rationem, eæ quoque sunt inter se æquales.
-
-Les grandeurs qui ont mesme raison à vne mesme grandeur, sont égales entr'elles : Et celles-là ausquelles vne mesme grandeur a mesme raison, sont aussi égales entr'elles.
-
-[Figure: trois lignes verticales A, B, C]
-
-Hypoth. 1.
-
-a π c 2|2 b π c.
-
-Req. π. demonstr.
-
-a 2|2 b.
+3.1 | k, multipl.. | b,
+| l, multipl.. | d,
+| m, multipl.. | f,
 
 Demonstr.
 
-suppos. | a 3|2 b,
-8.5 | a π c 3|2 b π c,
-| contr. hyp.
+suppos. | i, 2|3 m,
+α.c.6.d.5 | g, 2|3 k,
+β.c.6.d.5 | h, 2|3 l,
+suppos. | i, 2|2 m,
+α.c.6.d.5 | g, 2|2 k,
+β.c.6.d.5 | h, 2|2 l,
+suppos. | i, 3|2 m,
+α.c.6.d.5 | g, 3|2 k,
+β.c.6.d.5 | h, 3|2 l,
+6.d.5 | a π b 2|2 c π d.
 
-Hypoth. 2.
+## SCHOL.
 
-c π a 2|2 c π b.
+Quæ eisdem rationibus sunt eædem rationes, sunt quoque inter se eædem.
+
+Les raisons qui sont de mesme aux raisons de mesme, ou égales, sont aussi de mesme, ou égales entr'elles.
+
+A, 2. B, 3. E, 8. F, 12.
+C, 10. D, 15. G, 6. H, 9.
+
+Hypoth.
+
+e π f 2|2 g π h,
+a π b 2|2 e π f,
+c π d 2|2 g π h.
 
 Req. π. demonstr.
 
-a 2|2 b.
+a π b 2|2 c π d.
 
 Demonstr.
 
-suppos. | a 3|2 b,
-8.5 | c π b 3|2 c π a,
-| contr. hyp.
+hyp. | a π b 2|2 e π f,
+hyp. | g π h 2|2 e π f,
+11.5 | a π b 2|2 g π h,
+hyp. | c π d 2|2 g π h,
+concl. 11.5 | a π b 2|2 c π d.
 
-## THEOR. X. PROPOS. X.
+## THEOR. XII. PROPOS. XII.
 
-Ad eandem magnitudinem rationem habentium, quæ maiorem rationem habet, illa maior est : Ad quam autem eadem maiorem rationem habet, illa minor est.
+Si sint magnitudines quotcunque proportiona-

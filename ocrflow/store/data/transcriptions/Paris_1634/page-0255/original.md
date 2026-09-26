@@ -1,34 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-[Figure: cercle auec D en haut, A—B diametre, F, C, E sur le diametre, H, K, G, L, O au dedans, M, N, P vers le bas]
+1.a.1 | <cae + <e 2|2 4<e,
+3.a.1 | <cae 2|2 3<e,
+concl. κ.2.a.1 | <bae 2|2 7<bea.
 
-3.3 | ak 2|2 kp,
-3.3 | gl 2|2 ln,
-hyp. | ab est 2000,
-1.c.15.4 | bp est 1000,
-47.1 | ap est 1732,
-7.a.1 | ak est 866,
-47.1 | ck est 500,
-12.4 | gn est 1176,
-7.a.1 | gl est 588,
-47.1 | cl est 809,
-3.a.1 | klugh est 309,
-3.a.1 | ah est 278,
-concl. 47.1 | ag est 415.
+Explicat. p̄ nr.
 
-## SCHOL. I.
+arbitr. | ab est 1000,
+1.a.1 | bc est 1000,
+47.1 | ac u cd est 1414,
+2.a.1 | bd est 2414,
+47.1 | adude est 2613,
+2.a.1 | be est 5027,
+47.1 | ae est 5126.
 
-Partes æquales, in quas circulus diuiditur geometricè, continentur quatuor sequentibus progressionibus.
+## SCHOL. III.
 
-Les parties égales ausquelles le cercle se peut diuiser geometriquement, sont contenues aux quatre progessions suiuantes.
+Cognitis duobus lateribus trianguli obliquanguli, & ratione vnius anguli, ad aggregatum reliquorum duorum, quæ sit eadem alicui rationi præcedentis tabulæ, inuenire tertium latus.
 
-Tab.. part.. ⊙.
+Estant cognus deux costez d'vn triangle obliquangle, & la raison de l'vn de ses angles à l'aggregé des deux autres, qui soit mesme qu'vne des raisons de la table precedente, trouuer le troisiesme costé.
 
-p̄ 6. 4 & 9. 1. in part. 4, 8, 16, 32, 64, 128, &c.
-p̄ 15. 4 & 9. 1. in part. 3, 6, 12, 24, 48, 96, &c.
-p̄ 11. 4 & 9. 1. in part. 5, 10, 20, 40, 80, 160, &c.
-p̄ 16. 4 & 9. 1. in part. 15, 30, 60, 120, 240, 480, &c.
+Exempl. 1.
 
-## SCHOL. II.
+hypoth. | ade est △ propos.
+hyp. | <ade 2|2, 11<e
+| + 11<dae,
+hyp. | ad est 3,
+hyp. | de, est 2.
 
-Si singuli numeri harum quatuor progressionum diuidantur in duas partes, quarum minor sit vnitas, & sit eadem proportio acutorum angulorum trianguli rectanguli, quæ partium alicuius numeri harum quatuor progressionum: data ratione angulorum trianguli inuenietur laterum ratio sequenti methodo.
+Req. est ae,
+
+2.s.16.4 | <bac 2|2, 2<bca,
+arbitr. | ab est 1000,
+15.4 | acucd est 2000,
+47.1 | bc est 1732,
+2.a.1 | bd est 3732, α
+47.1 | ad est 3864, β
+| ad π de 2|2 ad π de,
+| 3 π 2, 3864, π, O.
+| de, est 2576,
+2.a.1 | be est 6308,
+47.1 | ae est 6386,
+concl. | ad π ae 2|2 ad π ae,
+| 3864, π, 6386, 3, π, O.

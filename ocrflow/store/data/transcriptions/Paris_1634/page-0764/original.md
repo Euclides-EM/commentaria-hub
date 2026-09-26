@@ -1,35 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-Req. π. demonstr.
-
-◇piped. ab 2|2 ◇piped. cd.
-
-Præpar.. suppos. 1.
-
-1. suppo. | ag, lm, eb, кi snt ⊥ ◇aleк,
-2 suppo. | ch, pq, ωd, on snt ⊥ ◇ cpωo,
-hyp. | ag & ch snt alt; 2|2 ꝗe,
-2. p. 1 | cpr, est ——,
-3. 1 | pr 2|2 кe,
-18. 6 & 36.1 | ◇ prts 2|2, & sml. ◇ кela;
-27.11,& 10.d.11 | ◇piped. prtsquyx 2|2, & sml. ◇piped. ab,
-2. p. 1 | oωε, ndδ, ωpz, dqf, εrb, δuγ, tsz, yxf snt ——;
-1. p. 1 | εδ, bγ, zf snt ——.
-
-[Figure: labels arranged I B / K G E C M / A L / N D A / O H ω ε V / P Q F X R / Z S B T]
+1&.2p.1 & 31.1 | finm, est ◇piped.
 
 Demonstr.
 
-30.d.11 | oεδn, cruh, ztyf snt plan; == ꝗe,
-hyp. & 35. 1 | aleк, cpωo, prts, prbz snt ◇ 2|2 ꝗe, α
-25. 11 | ◇piped. cqdo π ◇piped. pudε 2|2 ◇ cω π ◇ pε,
-25. 11 | ◇piped. pbfu π ◇piped. puδω 2|2 ◇ pb π ◇ pε,
-α | ◇ cpωo 2|2 ◇ prbz,
-9. 5 | ◇piped. cpωohqdn 2|2 ◇piped. prbzquγf,
-29. 11 | ◇piped. prbzquγf 2|2 ◇piped. pruqstyx,
-constr | ◇piped. pruqstyx 2|2 ◇piped. ab,
-1.concl. 1. a. 1 | ◇piped. cpωohqdn 2|2 ◇piped. ab. β
+constr. | ◇ fi 2|2 ◇ ab,
+α. 31.11 | ◇piped. finm 2|2 ◇piped. abcd,
+concl. 25.11 | ◇piped. finm, Ⅱ cd π ◇piped. efgl,
+◇ fi, Ⅱ ab π ◇ ef.
 
-Præpar.. 2. suppos.
+## THEOR. XXVIII. PROPOS. XXXIII.
 
-suppos. | ag, lm, eb, кi, n̄ snt ⊥; ◇ aleк,
+Similia solida parallelepipeda, inter se sunt in triplicata ratione homologorum laterum.
+
+*Les solides semblables parallelipipedes sont l'vn à l'autre en raison triplee de leurs costez homologues, ou de mesme raison.*
+
+[Figure: labels arranged C Q θ / B Y / D Z ε / A I L P / G R N X / V M / S F T ω / E K]
+
+Hypoth.
+
+◇piped. efgh sml. ◇piped. abcd,
+<aid 2|2 <eкh, Ⅱ <ogr, α
+ek, kh, kf snt homolog. ai, id, ib,
+
+Req. π. demonstr.
+
+raō. ◇piped. abcd π ◇piped. efgh 2|2 3raō; ai π eк,
+
+Præpar.
+
+2. p. 1 | ail, dio, bin snt ——,
+3. 1 | il 2|2 ek, Ⅱ gr, io 2|2 gu,
+α. 27.11 | ◇piped. ilxonmωt 2|2 & sml. ◇piped. efgh,
+2.p 1,& 31. 1 | ilxobypε, est ◇piped.
+1&2. p.1 | idzlbqθy, est ◇piped.

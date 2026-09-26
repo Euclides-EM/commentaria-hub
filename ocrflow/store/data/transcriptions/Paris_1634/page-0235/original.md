@@ -1,46 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-A l'entour d'vn cercle donné, descrire vn triangle, equiangle à vn triangle donné.
+hyp. | acuag + fc 2|2, 18,
+3.a.1 | be + bf 2|2, 10,
+1.concl. 7.a.1 | beubf 2|2, 5,
+2.concl. 3.a.1 | aeuag 2|2, 7,
+3.concl 3.a.1 | fcucg 2|2, 11.
 
-[Figure: triangle D—E—F auec la base prolongée en la ligne G—E—F—H ; triangle L—M—N auec cercle A—C—B au dedans, I au centre, lignes I—A, I—C, I—B]
+## SCHOL. II.
+
+Eadem methodo inuenientur tres numeri, quorum bini quique faciant tres numeros propositos ; segmenta enim laterum trianguli circumscripti erunt tres quæsiti numeri.
+
+Par la mesme methode on trouuera trois nombres, lesquels les prenant deux à deux feront trois nombres proposez ; car les segments des costez du triangle circonscrit seront les trois nombres requis.
+
+## PROBL. V. PROPOS. V.
+
+Circa datum triangulum, circulum describere.
+
+A l'entour d'vn triangle donné, descrire vn cercle.
+
+[Figure: trois cercles auec triangle A—B—C inscrit, D et E au dedans, F au dessous du triangle ; au premier F dedans le triangle, au second F hors du triangle, au troisiesme F sur le costé B—C]
 
 Hypoth.
 
-iacb est ⊙ D.
-def est △ D.
+abc est △ D.
 
 Req. π. fa.
 
-circscri. π. ⊙abc, △ lmn æquiang. △ efd.
+circscri. π. △abc ⊙abc,
 
 Constr.
 
-2.p.1 | gefh est —,
-arbitr. | a, est • in ∩ acb,
-1.p.1 | ai est —,
-23.1. | <aib 2|2 <deg,
-23.1 | <bic 2|2 <dfh,
-11.1 | ln ⊥ ai, α
-11.1 | lm ⊥ ib, α
-11.1 | mn ⊥ ic, α
-symp. | △lmn est req.
+10.1 | bd 2|2 da,
+10.1 | ae 2|2 ec,
+11.1 | df ⊥ ab,
+11.1 | ef ⊥ ac,
+1.p.1 | fa est —,
+1.p.1 | fabc est ⊙,
+symp. | ⊙abc est req.
 
-Demonstr.
-
-α.s.32.1 | <aib + <l 2|2, 2∟,
-13.1 | <deg + <def 2|2, 2∟
-constr. | <aib 2|2 <deg,
-1.concl. 3.a.1 | <l 2|3 def, β
-α.s.32.1 | <bic + <m 2|2, 2∟,
-13.1 | <dfh + <dfe 2|2, 2∟
-constr. | <bic 2|2 <dfh,
-2.concl. 3.a.1 | <m 2|2 <dfe, β
-β.13.a.1 | lmn est △,
-3.concl. β.1.c.32.1 | <n 2|2 <d,
-4.cōcl. 4.d.4 | △lmn est circscri. π. ⊙abc.
-
-## PROBL. IV. PROPOS. IV.
-
-In dato triangulo, circulum inscribere
-
-Dans vn triangle donné, descrire vn cercle.
+Præpar.

@@ -1,20 +1,43 @@
-<!-- Running title: ELEM.. EVCLID. LI. VI. -->
+<!-- Running title: APPEND.. GEOM. PLAN. -->
 
-d.δ | sect. fhg, ghl, lhp snt ⁊e,
-d.δ | ⌒bci 2, 3, 4|3 ⌒fgp,
-sect. bdi 2, 3, 4|3 sect. fhp,
-3.concl. 6.d.5 | sect. bdcm π sect. fhg 2|2 ⌒bmc π ⌒fg.
+[Figure: rectiligne B, C, D, E sur la base L, A, F, G, H, avec lignes ponctuées ioignant D aux poincts de la base]
 
-## COROLL. I.
+1.p.1 | dg est —,
+1.p.1 | cg est —,
+31.1 | dh == cg, β
+1.p.1 | ch est —,
+1.p.1 | ca est —,
+1.p.1 | bl == ca, γ
+1.p.1 | cl est —,
+symp. | Δlch 2|2 abcdef.
 
-γ.11.5 | sect. bdcm π sect. fhg 2|2 <bdc π <fhg.
+Demonstr.
 
-## COROLL. II.
+α.37.1 | Δfde 2|2 Δfdg,
+abcdf commun. add.
+1.concl. 2.a.1 | abcdef 2|2 abcdg,
+β.37.1 | Δgcd 2|2 Δgch,
+abcg commun. add.
+2.concl. 2.a.1 | abcdg 2|2 abch, δ
+γ.37.1 | Δcal 2|2 Δcab,
+ach commun. add.
+3.concl. 2.a.1 | abch 2|2 Δlch, δ
+4.cōcl. δ.1.a.f | abcdef 2|2 Δlch.
 
-Hinc manifestum est, vt est angulus in centro ad quatuor rectos, ita esse arcum subtensum illi angulo ad totam circumferentiam. Et contrà, vt sunt quatuor recti ad angulum in centro, ita esse totam circumferentiam ad arcum illi angulo subtensum.
+## PROBL. II. PROPOS. II.
 
-Il est manifeste de cecy, que comme l'angle au centre est à quatre droicts, ainsi l'arc qui soustient iceluy angle est à toute la circonference. Et au contraire, comme quatre angles droicts sont à l'angle qui est au centre, ainsi toute la circonference est à l'arc qui soustient ledit angle.
+Dato triangulo æquale rectangulum describere.
 
-His sex elementorum Euclidis libris, annectam variorum problematum atque theorematum appendicem ; quorum alia ad Algebram, alia ad Astronomiam, omnia vero ad pleniorem Geometriæ planorum intelligentiam sunt necessaria.
+Descrire vn rectangle egal à vn triangle donné.
 
-A ces six liures des Elements d'Euclide, i'adiousteray vn appendix de diuers problemes & theoremes, dont les vns sont necessaires à l'Algebre, les autres à l'Astronomie ; mais tous sont necessaires pour auoir plus ample intelligence de la Geometrie des plans.
+42.1.Elem.
+
+[Figure: triangle A, C, B auec E, H, L, F, G & le poinct D en la base ; rectangle N, O, P, C sur la base A, M, B]
+
+Hypoth.
+
+abc est Δ.
+
+Req. π. fa.
+
+▭aefb 2|2 Δabc.

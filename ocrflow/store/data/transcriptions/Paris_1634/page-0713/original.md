@@ -1,39 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-24.10 | aggreg.. □.df + □.fe, est medi.
-hyp. | ▭.abc, est medi.
-l.66 10 | ▭dfe, comm. ▭.acb, γ
-24.10 | ▭.dfe, est medi.
-hyp. | aggreg.. □.ac + □.bc, incomm. ▭.acb,
-βγ14.10 | aggreg.. □.df + □.fe, incomm. ▭.dfe,
-concl. 79. 10 | de, est ——, fa. 2; medi.
-
-## THEOR. LXXXV. PROPOS. CIX.
-
-Medio à rationali detracto; recta linea, quæ reliquum spatium potest, vna ex duabus irrationalibus fit, vel apotome, vel minor.
-
-*Si vn espace medial est retranché d'vn rationel; la ligne droicte qui peut le reste de l'espace, est vne de deux irrationelles, sçauoir apotome, ou mineure.*
-
-[Figure: labels arranged H A B C D / F K E I]
-
-Hypoth.
-
-▭a + b, est ration.
-▭b, est medi.
-□.h 2|2 ▭a.
-
-Req. π. demonstr.
-
-h, est apotom. Ⅱ min.
-
 Præpar.
 
-suppos | cd, est ration. expos.
+suppos. | cd, est ration. expos.
 4.app. | ▭ci 2|2 ▭a + b, α
-4.app. | ▭fi 2|2 ▭b. β
+4.app. | ▭fi 2|2 ▭b, β
+
+[Figure: labels arranged H A B C D / F K E I]
 
 Demonstr.
 
 αβ.3.a.1 | ▭ce 2|2 ▭a, Ⅱ □.h,
-hyp. | ▭a + b, est ration.
-αs.12.10 | ▭ci, est ration.
+hyp. | ▭a + b, est medi.
+α.24.10 | ▭ci, est medi.
+23. 10 | ck, est ration. incomm. cd, γ
+hyp. | ▭b, est ration.
+βs.12.10 | ▭fi, est ration.
+21. 10 | fк, est ration. comm. cd,
+γ. 13. 10 | ck, incomm. fк,
+74. 10 | cf, est apotom.
+suppos. | □.ck 3|2 □.fк..□. ——, comm. ck,
+2d85.10 | cf, est apotom. 2.
+1.concl. 93. 10 | ▭ce, Ⅱ □.h, est apotom. 1.. medi.
+suppos. | □.ck 3|2 □.fк..□. ——, incomm. ck,
+5d85.10 | cf, est apotom. 5.
+2 concl. 96. 10 | h, est ——, fa. rat. & med.
+
+## THEOR. LXXXVII. PROPOS. CXI.
+
+Medio à medio detracto, quod sit incommensurabile toti; reliquæ duæ irrationales fiunt, vel mediæ apotome secunda, vel cum medio medium totum efficiens.

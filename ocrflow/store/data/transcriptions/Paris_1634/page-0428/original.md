@@ -1,45 +1,47 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-<b π <bca 2|3 cd π db.
+15.3 | gi 3|2 gk,
+38.app. | gi π id 3|2 <kdg π <kgd,
+26.5 | id π gi 2|3 <kgd π <kdg,
+28.5 | dg π gi 2|3 <gkh π <kdg,
+α.2.s.13.5 | <gba π bdg 2|3 <gkh π <kdg,
+27.3 | <gba 2|2 <gkh,
+concl. 10.5 | <bdg 3|2 <adg.
+
+## THEOR. XXVIII. PROPOS. XLI.
+
+Theon in tertium lib. Almagesti.
+
+[Figure: cercle auec les poincts A, L, G, C, H, F, E, B, K, D]
+
+Hypoth.
+
+cage est ⊙,
+
+acb est diamet.
+
+◠ag 2|2 ◠gh,
+
+arbitr. | f, est • in cb,
+
+fg & fh snt —.
+
+Req. π. demonstr.
+
+<gfh 3|2 <gfa.
 
 Præpar.
 
-supposi. | cd 2|2 ca,
-1.p.1 | ad est —,
-31.1 | ae 2|2 & == cd, α,
-2.p.1 | cef & baf snt —
-3.p.1 | aceg est ⊙.
-
-[Figure: triangle auec les poincts G, F, A, E, B, H, D, C]
+2.p.1 | gfe est —,
+1.p.1 | ea & eh snt —,
+15.3 | ea 3|2 eh,
+3.1 | el 2|2 eh, α
+1.p.1 | fl est —.
 
 Demonstr.
 
-α.33.1 | de est ◊,
-α.29.1 | <eaf 2|2 <b,
-α.29.1 | <cae 2|2 <acb,
-29.1 | Δeaf æquiang. Δbda,
-3.c.17.1 | <aec 2|3 ⌐,
-2.c.13.1 | <aef 3|2 ⌐,
-19.1 | af 3|2 ae,
-c.37.ap. | <cae u <acb π <eaf u <b 3|2 ce u da π ef,
-4.6 | bd π dc u ae 2|2 da π ef,
-13.5 | <acb π <b 3|2 bd π dc,
-concl. 26.5 | <b π <acb 2|3 dc π bd.
-
-## THEOR. XXVI. PROPOS. XXXIX.
-
-Ptolomeus lib. 3. Almagesti.
-
-cafg est ⊙,
-
-acd est diamet.
-
-arbitr. | b, est • in cd,
-
-bf ⊥ ad,
-
-arbitr. | e & g snt • in ◠ afd
-
-cf, ce, be, cg, bg snt —,
-
-Req. π. demonstr.
+27.3 | <fel 2|2 <fch,
+α.4.1 | <efh 2|2 <efl,
+13.1 | <gfh 2|2 <gfl,
+9.a.1 | <gfl 3|2 <gfa,
+concl. 1.a.c | <gfh 3|2 <gfa.

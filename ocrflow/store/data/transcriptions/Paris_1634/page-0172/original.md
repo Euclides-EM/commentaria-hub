@@ -1,25 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-2.c.32.1 | <cea est ½ ∟,
-constr. | cb 2|2 ce,
-constr. | <bce est ∟, α
-2.c.32.1 | <ceb est ½ ∟,
-19.a.1 | <aeg est ∟,
-constr. | cefd est ◊,
-constr. | <ecb est ∟,
-2.c.29.1 | cefd est ▭,
-3.a.b | <gef est ½ ∟,
-32.1 | <fge est ½ ∟, β
-6.1 | ef 2|2 fg, γ
-1.c.13.1 | <bdg est ∟,
-β.32.1 | <dbg est ½ ∟,
-6.1 | bd 2|2 dg,
-34.1 | ef 2|2 cd,
-s.46.1 47.1 47.1 47.1 | ▭.ad + ▭.bd, ▭.ad + ▭.dg, ▭.ag, ▭.ae + ▭.eg, 2▭.ac + 2▭.cd, snt 2|2 ⁊e,
-concl. 1.a.1 | ▭.ad + ▭.bd 2|2 2▭.ac + 2.▭cd.
+sub tota, & altero segmentorum rectangulum, æquale sit ei, quod à reliquo segmēto fit, quadrato.
 
-[Figure: triangle A—E—B avec E au sommet, F en haut à droite, C, B sur la base, D à droite, G en bas à droite, lignes E—F, F—D, A—G, E—G]
+Coupper vne ligne droicte donnée de telle sorte, que le rectangle contenu sous la toute & l'vn des segments, soit égal au quarré de l'autre segment.
 
-## PROPOS. X. ALITER. — AVTREMENT.
+Hypoth.
 
-Si recta linea secetur in duo segmenta inæqualia, quod à tota quodque à differentia segmentorum describuntur quadrata : duplicia sunt eorum, quæ ab inæqualibus segmentis fiunt, quadratorum.
+ab est — D.
+
+[Figure: quarré C—B—A—D, ligne I—G—H, D, E, A, F en bas, G sous B, ligne oblique E—B, rectangle G—H—F—A à droite]
+
+Req. π. fa.
+
+▭.abg 2|2 ▭.ag,
+
+Constr.
+
+46.1 | ac est ▭.ab,
+10.1 | ae 2|2 ed,
+1.p.1 | be est —,
+3.1 | eaf 2|2 eb,
+46.1 | ah est ▭.af,
+symp. | ▭.abg 2|2 ▭.ag.
+
+Præpar.
+
+2.p.1 | hgi est —.
+
+Demonstr.
+
+constr. | de 2|2 ea,
+6.2 | dh ▭.dfa + ▭.ea 2|2 ▭.ef u ▭.eb,
+47.1 | ac ▭.ab + ▭.ea 2|2 eb,
+1.a.1 | ▭.dfa + ▭.ea 2|2 ac ▭.ab + ▭.ea,
+| ▭.ea commun. subtr.
+3.a.1 | dh ▭.dfa 2|2 ac ▭.ab,

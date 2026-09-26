@@ -1,33 +1,48 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-Quæ vero potentia commensurabiles, non omnino & longitudine. Et quæ longitudine incommensurabiles sunt, non omnino & potentia incommensurabiles esse : Quæ vero potentia incommensurabiles sunt, omnino & longitudine incommensurabiles esse.
+*Si quatre grandeurs sont proportionelles, & que la premiere soit commensurable à la seconde, la troisiesme sera aussi commensurable à la quatriesme. Et si la premiere est incommensurable à la seconde, la troisiesme sera aussi incommensurable à la quatriesme.*
 
-*De ces choses, & du troisiesme scholie de l'vnziesme definition il est manifeste, que les lignes droictes commensurables en longitude, sont aussi commensurables en puissance : mais que celles qui sont commensurables en puissance, ne le sont pas necessairement en longitude : & que celles qui sont incommensurables en longitude, ne le sont pas necessairement en puissance : Mais les incommensurables en puissance, le sont aussi en longitude.*
-
-## SCHOL.
-
-Si numerus lateris sit irrationalis, omnes quoque potestates erunt irrationales, exceptis iis quarum exponentes sunt multiplices exponentis primæ potestatis rationalis.
-
-*Si le nombre du costé est irrationel, toutes les puissances seront irrationelles, exceptez celles dont les exposans sont multiples de l'exposant de la premiere puissance rationelle.*
-
-a, a2, a3, a4, a5, a6, a7, &c.
+CABD
 
 Hypoth. 1.
 
-a, est nr. irration.
-a2, est nr. ration.
+c π a 2|2 b π d,
+c & a snt comm. ꝗe.
 
 Req. π. demonstr.
 
-a3, a5, a7, &c. snt irration;
+b & d snt comm. ꝗe.
 
 Demonstr.
 
-1.suppo. | a3, est nr. ration.
-hyp. | a2, est nr. ration.
-s.11.9 | a2, msur: a3 ꝑ a,
-3s1.d10 | a, est nr. ration.
-contr. hypoth.
-1.concl. 21.a.1 | a3, est nr. irration.
-2 suppo. | a5, est nr. ration.
-hyp. | a2, est nr. ration.
+hyp. | c & a snt comm. ꝗe,
+5.10 | c π a 2|2 nr. π. nr.
+hyp. | b π d 2|2 c π a,
+11.5 | b π d 2|2 nr. π. nr.
+1.concl. 6.10 | b & d snt comm. ꝗe.
+
+Hypoth. 2.
+
+c & a snt incomm. ꝗe.
+
+Req. π. demonstr.
+
+b & d snt incomm. ꝗe.
+
+Demonstr.
+
+hyp. | c & a snt incomm. ꝗe.
+7.10 | c π a n̄ est 2|2 nr. π. nr.
+hyp. | b π d 2|2 c π a,
+11.5 | b π d n̄ est 2|2 nr. π. nr.
+2 concl. 8.10 | b & d snt incomm. ꝗe.
+
+## LEMM. I.
+
+Duos numeros planos inuenire, qui proportionem non habeant, quam quadratus numerus ad quadratum numerum.
+
+*Trouuer deux nombres plans, lesquels n'ayent mesme raison entr'eux que nombre quarré à nombre quarré.*
+
+Huic lemmati satisfacient duo quilibet numeri plani non similis, quales sunt numeri habentes proportionem superparticularem, vel superbipartientem,
+
+*A ce lemme pourront satisfaire deux nombres plans dissemblables tels qu'on voudra, comme sont les nombres qui ont proportion superparticuliere, ou superbipartiēte, ou*

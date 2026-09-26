@@ -1,45 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Deux grandeurs commensurables estant donnees, trouuer la plus grande commune mesure d'icelles.*
+*Il est manifeste aussi qu'vne grandeur qui mesure trois grandeurs, mesure aussi la plus grande commune mesure d'icelles.*
+
+## THEOR. III. PROPOS. V.
+
+Commensurabiles magnitudines inter se rationem habent, quam numerus ad numerum.
+
+*Les grandeurs commensurables ont mesme raison l'vne à l'autre, que nombre à nombre.*
+
+A---------- D.4.
+C-- F.1.
+B------ E.3.
 
 Hypoth.
 
-ab & cd snt magnitud.
-comm. D.
+a & b snt magnitud. comm.
 
-Req. est ma.c.me..ab & cd.
+Req. π. demonstr.
 
-Constr.
+a π b 2|2 nr. π. nr.
 
-ʒ. 1 | ab, msur: ce,
-ʒ. 1 | ed, msur: af,
-suppos. | fb, msur: ed, α
-symp. | req. est fb.
+Præpar.
+
+ʒ. 10 | c, est ma.c.me..a & b,
+suppos. | f, est vnit.
+suppos. | c, msur: | a,
+f, msur: | d, α
+suppos | c, msur: | b,
+f, msur: | e, β
 
 Demonstr.
 
-α | fb, msur: ed,
-constr. | ed, msur: af,
-2.a.10 | fb, msur: af,
-1.a.10 | fb, msur: ab, β
-constr. | ab, msur: ce,
-2.a.10 | fb, msur: ce,
-γ.1.a.10 | fb, msur: cd, γ
-1.concl. γ | fb, msur: ab & cd,
-suppos. | g 3|2 fb, ♪
-suppos. | g, msur: ab & cd, ε
-constr. | ab, msur: ce,
-ε.2.a.10 | g, msur: ce,
-ε.3.a.10 | g, msur: cd,
-constr. | ed, msur: af,
-2.a.10 | g, msur: af,
-ε.3.a.10 | g, msur: fb,
-♪ | contr. 9.a.1.
-2 concl. 21.a.1 | fb, est ma.c.me..
-ab & cd.
+α.1c20.d7 | c π a 2|2 f π d,
+c.4.5 | a π c 2|2 d π f,
+β.1c20.d7 | c π b 2|2 f π e,
+concl. 22.5 | a π b 2|2 f π e.
 
-## COROLL.
+## THEOR. IV. PROPOS. VI.
 
-Ex hoc manifestum est, quòd magnitudo metiens duas magnitudines, metitur & maximam earum mensuram communem.
+Si duæ magnitudines inter se proportionem habeant quam numerus ad numerum, commensurabiles erunt magnitudines.
 
-*De ceste demonstration il est manifeste, qu'vne grandeur*
+*Si deux grandeurs ont mesme raison entr'elles que nombre à nombre, elles seront commensurables.*

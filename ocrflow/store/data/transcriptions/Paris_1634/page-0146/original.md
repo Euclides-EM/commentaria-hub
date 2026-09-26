@@ -1,31 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-cunque segmenta: Rectangulum comprehensum sub illis duabus rectis lineis, æquale est eis, quæ sub singulis segmentis vnius, & quolibet segmentorum alterius continentur rectangulis.
+▭.ab 2|2 ▭.bad + ▭.abd.
 
-S'il y a deux lignes droictes, & que toutes deux soient couppées, en tant de parties qu'on voudra : le rectangle contenu sous icelles deux lignes droictes, est égal aux rectangles contenus sous chacune partie de l'vne & de l'autre.
-
-Hypoth.
-
-ab & ac snt — D.
-par.. ab snt ad, de, eb,
-par.. ac snt ag, gc.
-
-Req. π. demonstr.
-
-▭.ab,ac 2|2 ▭.ad,ag + ▭.de,ag, + ▭.eb,ag + ▭.ad,gc, + ▭.de,gc + ▭.eb,gc,
-
-[Figure: rectangle C—I—K—H en haut, A—D—E—B en bas, G & L aux costez, N & O au milieu]
+[Figure: quarré C—F—G en haut, A—D—B en bas, ligne F—D]
 
 Præpar.
 
-l.1.d.2. | ah est ▭.ab,ac,
-31.1. | di & ek snt == ac,
-31.1. | gl est == ab u ch.
+46.1. | ag est ▭.ab,
+| df == ac u bg.
 
 Demonstr.
 
-1.d.2. | an est ▭.ad,ag,
-3.s.1.d.2 | ▭do 2|2 ▭.de,ag,
-3.s.1.d.2 | ▭el 2|2 ▭.eb,ag,
-3.s.1.d.2 | ▭gi 2|2 ▭.ad,gc,
-3.s.1.d.2 | ▭nk 2|2 ▭.de,gc,
+constr. | ag est ▭.ab,
+35.d.1. | af & dg snt ◊,
+2.s.19.1. | af & dg snt ▭,
+3.s.1.d.2 | ▭af 2|2 ▭.bad,
+3.s.1.d.2 | ▭dg 2|2 ▭.abd,
+19.a.1. | ▭ag 2|2 ▭af + ▭dg,
+concl. 1.a.g. | ▭.ab 2|2 ▭.bad + ▭.abd.
+
+Explicat. p nr.
+
+hypoth. | ad est 5,
+hyp. | db est 2,
+2.a.1. | ab est 7,
+1.s.1.d.2 | ag ▭.ab est 49,
+1.s.1.d.2 | af ▭.bad est 35,
+1.s.1.d.2 | dg ▭.abd est 14,
+2.a.1. | ▭af + ▭dg snt 49.
+
+## THEOR. III. PROPOS. III.
+
+Si recta linea secta sit vtcunque : Rectangulum sub tota & vno segmentorum comprehensum, æquale est illi, quod sub segmentis comprehenditur, rectangulo, & illi, quod à prædicto segmento describitur, quadrato.
+
+Si vne ligne droicte est couppée comme on voudra : le

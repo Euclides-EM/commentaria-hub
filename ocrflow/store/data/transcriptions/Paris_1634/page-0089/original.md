@@ -1,36 +1,51 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-suppos. | db 2|2 ac,
-1.p.1. | cd est —,
-| bc est commun.
-hyp. | <dbc 2|2 <acb,
-4.1. | △dbc 2|2 △acb,
-| contr. 9. a. 1.
-concl. 21.a.1. | ab 2|2 ac.
+sub æqualibus rectis lineis contentum angulo æqualem habebunt.
 
-COROLL.
+Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & qu'ils ayent la base égale à la base, ils auront außi l'angle contenu d'iceux costez égaux égal à l'angle.
 
-Sequitur ex hac propositione omne triangulum æquiangulum esse quoque æquilaterum. | Il s'ensuit de cette proposition que tout triangle equiangle est außi equilateral.
+[Figure: deux triangles, ABC à gauche et DEF à droite]
 
 Hypoth.
 
-abc est △ æquiang.
+ab 2|2 de,
+ac 2|2 df,
+bc 2|2 ef,
 
-Req. π. demonstr.
+Req. π. demonst.
 
-abc est △ æquilater.
+<bac 2|2 <edf.
 
 Demonstr.
 
-hyp. | <abc 2|2 <acb,
-1.concl. 6.1. | ac 2|2 ab, α
-hyp. | <bac 2|2 <bca,
-2.concl. 6.1. | bc 2|2 ab,
-α. 1.a.1. | ac 2|2 bc,
-23.d.1. | △abc est æquilat.
+suppos. | • b est ⟨n e,
+suppos. | bc est ⟨n ef,
+hypoth. | bc 2|2 ef,
+9.a.1. | • c est ⟨n f,
+7.1. | • a est ⟨n d,
+14.a.1. | △bac & △edf, conunt.
+concl. 8.a.1. | <a 2|2 <d.
 
-## THEOR. IV. PROPOS. VII.
+Coroll.
 
-Super eadem recta linea, duabus eisdem rectis lineis aliæ duæ rectæ lineæ æquales, vtraque vtrique, non constituentur, ad aliud atque aliud punctum, ad easdem partes, eosdémque terminos cum duabus initio ductis rectis lineis habentes.
+1.concl. 8.a.1. | <b 2|2 <e,
+2.concl. 8.a.1. | <c 2|2 <f,
+3.concl. 8.a.1. | △abc 2|2 △def.
 
-Si des extremitez de quelque ligne droicte on mene deux autres lignes droictes, se rencontrant à vn poinct ; des mesmes extremitez on n'en pourra pas mener deux autres égales à icelles, chacune à la sienne, & de mesme part, se rencontrant à vn autre poinct.
+## PROBL. IV. PROPOS. IX.
+
+Datum angulum rectilineum bifariam secare. | Coupper en deux également vn angle rectiligne döné.
+
+Hypoth.
+
+<bac est D.
+
+Req. π. fa.
+
+<fab 2|2 <fac.
+
+Constr.
+
+| ad est arbitr.
+3.1. | ae 2|2 ad,
+1.p.1. | de est —,

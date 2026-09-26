@@ -1,42 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-constr. | k,l,m,n snt mi. ꝗn raō. e π f,
-hyp. | a, b, c, d snt mi. ꝗn raō. e π f,
-22.a.1 | a 2|2 k, b 2|2 l, c 2|2 m, d 2|2 n,
-2.c.2.8 | k & n snt pr. ꝫe,
-concl. 1.a.7 | a & d snt pr. ꝫe.
+i, msur: k,
+3.p.7 | g, msur: l,
+3.p.7 | h, msur: m,
+3.p.7 | e, msur: k,
+f, msur: n,
+d. δ | m,l,k,n snt nr. req.
 
-## PROBL. III. PROPOS. IV.
+## THEOR. III. PROPOS. V.
 
-Rationibus datis quotcunque in minimis numeris, reperire numeros deinceps minimos in datis rationibus.
+Plani numeri rationem inter se habent ex lateribus compositam.
 
-*Estant donnees tant de raisons qu'on voudra és plus petits nombres d'icelles, trouuer tant de nombres qu'on voudra continuellement proportionaux les plus petits selon les raisons donnees.*
+*Les nombres plans sont l'vn à l'autre en raison composee de leurs costez.*
 
-A,6. B,5. C,4. D,3.
-H,4. F,24. E,20 G,15.
-I-- K-- L--
+A,24. B,48.
+C,4. D,6. E,3. F,16
+G,18.
 
-Hypoth. 1.
+Hypoth.
 
-a π b, c π d snt term.. raō; D;
+▭.cd 2|2 a, α
+▭.ef 2|2 b, β
 
-Req. snt f, e, g, mi. nr; ꝗn raō; D;
+Req. π. demonstr.
 
-Constr.
+raō. a π b 2|2 raō. c π e + raō. d π f.
 
-36.7 | e, est mi.diuid.. b & c
-3.p.7 | b, msur: e, α
-a, msur: f,
-3.p.7 | c, msur: e,
-d, msur: g,
-symp. | f, e, g snt nr. req.
+Præpar.
+
+▭.e,d 2|2 g. γ
 
 Demonstr.
 
-suppos. | a, msur: f ꝑ h,
-α | b, msur: e ꝑ h,
-9.a.7 | ▭.ah 2|2 f,
-9.a.7 | ▭.bh 2|2 e,
-1.concl. 18.7 | a π b 2|2 f π e, β
-2.concl. d.β | c π d 2|2 e π g,
-suppos. | i,k,l snt mi. ꝗn raō; D
+αγ.17.7 | a π g 2|2 c π e,
+βγ.17.7 | g π b 2|2 d π f,
+concl. 20.d.5 | raō. a π b 2|2 raō. c π e + raō. d π f.
+
+## THEOR. V. PROPOS. VI.
+
+Si sint quotcunque numeri deinceps proportionales, primus autem secundum non metiatur ; neque alius quispiam vllum metietur.

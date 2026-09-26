@@ -1,31 +1,26 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-merus B, est minimus communis diuiduus numerorum C & D.
+### VII.
 
-*le nombre B, est le moindre commun partissable par les nombres C & D.*
+Si numerus numerum multiplicans, aliquem produxerit, metietur multiplicās productum per multiplicatum, multiplicatus autem eūdem per multiplicantem.
 
-### II.
+*Si vn nombre multipliāt vn nōbre, en produict quelqu'vn, le multipliant mesurera le produict, par le multiplie : mais le multiplié mesurera le mesme par le multipliant.*
 
-Partes eidem parti, vel iisdem partibus eædem, sunt quoque inter se eædem.
+hyp. | ▭.a,b est c, A,5. B,3. C,15.
+7.a.7 | b, msur: c ꝑ a,
+7.a.7 | a, msur: c ꝑ b.
 
-*Les parties qui sont de mesme à vne mesme partie, ou aux mesmes parties, sont aussi de mesme entr'elles.*
+### COROLL.
 
-A,2. B,6.
-C,8. D,24. E,5. F,15.
+Ex hoc manifestum est, nullum numerum primum, esse planum, solidum, quadratum, aut cubum.
 
-hyp. | a, par.. b, e, par.. f,
-hyp. | c, par.. d, e, par.. f,
-2.a.7 | a, par.. b, c, par.. d.
+*De cecy il est manifeste, qu'il n'y a aucun nombre premier qui soit plan, solide, quarré, ou cube.*
 
-Vel sic. *Ou ainsi.*
+### VIII.
 
-hyp. | a, par.. b 2|2 e, par.. f,
-hyp. | c, par.. d 2|2 e, par.. f,
-2.a.7 | a, par.. b 2|2 c, par.. d.
+Si numerus numerum metiatur, & ille, per quem metitur, eundem metietur per eas, quæ in metiente sunt, vnitates, hoc est, per ipsum numerum metientem.
 
-A,4. B,6.
-C,16. D,24. E,10. F,15.
+*Si vn nombre en mesure vn autre, celuy par lequel il le mesure, mesure le mesme par les vnitez qui sont au mesurant ; c'est à dire par le mesme nombre mesurant.*
 
-hyp. | a, part.. b 2|2 e, part.. f,
-hyp. | c, part.. d 2|2 e, part.. f,
-2.a.7 | a, part.. b 2|2 c, part.. d,
+hyp. | a, msur: b ꝑ c, A,3. B,15. C,5.
+8.a.7 | c, msur: b ꝑ a.

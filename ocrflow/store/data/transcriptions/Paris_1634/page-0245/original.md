@@ -1,41 +1,18 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-1.p.1 | ed est —,
-3.1 | ef 2|2 ed,
-1.p.1 | df est —,
-symp. | df est √.5< inscri. in ⊙adbn.
+## COROLL.
 
-Demonstr. est in schol. 10..13.
+Sequitur ex huius problematis demonstratione; si in circulo quæcunque figura æquilatera & æquiangula describatur, & ad extrema semidiametrorum, ex centro ad angulos ductarum, excitentur lineæ perpendiculares: has perpendiculares constituere aliam figuram, totidem laterum & angulorū æqualium circulo circumscriptam.
 
-[Figure: cercle auec D en haut, A à gauche, points F, C, E sur le diametre, H, K, L, O au dedans, G, M, N, P vers le bas]
+Il s'ensuit de la demonstration de ce probleme, que si dans le cercle est descrit vne figure equilaterale & equiangle, & aux extremitez des semidiametres, menez du centre aux angles, soient faites des perpendiculaires : ces perpendiculaires feront vne figure circonscripte au cercle equilaterale & equiangle, qui aura autant de costez & angles que l'inscripte.
 
-Explicat. p̄ nr.
+## SCHOL.
 
-hyp. | cducb est 2,
-7.a.1 | ce est 1,
-47.1 | □.ed est 5,
-c.46.1 | eduef est √.5,
-3.a.1 | cf est √.5~1,
-47.1 | □.fd est 10~√.20,
-c.46.1 | fd est √.. 10~√.20.
+In figura æquilatera, & æquiangula, si quidem angulorum numerus impar est, recta linea ex quouis angulo demissa secans oppositum latus bifariam, diuidit quoque angulum bifariam: Si verò numerus angulorum est par, recta linea, ex quouis angulo ad oppositum angulum ducta, secat vtrumque angulum bifariam.
 
-## PROBL. XII. PROPOS. XII.
+En vne figure equilaterale & equiangle, si le nombre des angles est impair, la ligne droicte menée de quelconque angle au milieu du costé opposé, diuise aussi l'angle en deux parties égales : Mais si le nombre des angles est pair, la ligne droicte menée de quelconque angle à l'angle opposé, diuise l'vn & l'autre angle en parties égales.
 
-Circa datum circulum, pentagonum æquilaterum & æquiangulum describere.
+Hypoth. 1.cas.
 
-A l'entour d'vn cercle donné, descrire vn pentagone, equilateral & equiangle.
-
-Hypoth.
-
-fabcde est ⊙ D.
-
-Req. π. fa.
-
-circscri. π. ⊙abcde 5<ghikl æquilat. & æquiang.
-
-[Figure: pentagone G—E—L—D—K—C—I—B—H—A circonscrit à vn cercle, auec toutes les lignes menées du centre]
-
-Constr.
-
-11.4 | 5<abcde est inscri. in ⊙fabd,
-1.p.1 | fa, fb, fc, fd, fe snt —,
+abcdefg est figur. æquilat. & æquiang.
+multd.. √.ab, bc, cd 2|2 multd.. √.ag, gf, fe,

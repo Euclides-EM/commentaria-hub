@@ -1,38 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-suppos. | ch, pq, fd, on, n̄ snt ⊥ ◇ cpfo,
-11. 11 | gt, mu, bs, ir snt ⊥ plan. aleк,
-11. 11 | hy, qε, dz, nx snt ⊥ plan. cpfo
-1. p. 1 | rt, su, xy, zε snt ——;
-
-[Figure: labels arranged I B N D / G M H Q / K R E S X O Z F / A T L V Y C ε P]
-
 Demonstr.
 
-29. 11 | ◇piped. gmbialeк 2|2 ◇piped. gmbitusr,
-β | ◇piped. gmbitusr 2|2 ◇piped. hqdnyεzx,
-29. 11 | ◇piped. hqdnyεzx 2|2 ◇piped. hqdncpfo,
-2 concl. 1. a. 1 | ◇piped. gmbialeк 2|2 ◇piped. hqdncpfo.
+hyp. | ai π il, Ⅱ gr, di π io, Ⅱ gu, bi π in, Ⅱ gs snt raō; 2|2 ꝗe,
+1. 6 | ◇ ad π ◇ dl
+1. 6 | ◇ dl π ◇ ix
+1. 5 | ◇ bl π ◇ im snt raō; 2|2 ꝗe,
+32. 11 | ◇piped. abcd π ◇piped. dlqy 2|2 ◇ ad π ◇ iz,
+32. 11 | ◇piped. dlqy π ◇piped. ixbp 2|2 ◇dl π ◇ ix,
+32. 11 | ◇piped. ixbp π ◇piped. ixmt 2|2 ◇ bo π ◇ it,
+11. 5 | abcd, dlqy, ixbp, ixmt, Ⅱ gfhe snt ◇piped; contin. proport;
+concl. 10.d.5 | raō. abcd π gfhe 2|2, 3raō; abcd π dlqy, Ⅱ ai π eк.
 
-## THEOR. XXVII. PROPOS. XXXII.
+## COROLL.
 
-Solida parallelepipeda sub eadem altitudine, inter se sunt vt bases.
+Ex hoc perspicuum est, si fuerint quatuor lineæ rectæ continuè proportionales, vt est prima ad quartam, ita esse parallelepipedum super primam descriptum ad parallelepipedum simile, similiterq. descriptum super secundam.
 
-*Les solides parallelipipedes de mesmè hauteur, sont entr'eux comme leurs bases.*
+*De cecy est manifeste, que si quatre lignes droictes sont continuellement proportionelles, comme la premiere est à la quatriesme, ainsi le parallelipipede descrit sur la premiere sera au parallelipipede semblable, & semblablement descrit sur la seconde.*
 
-[Figure: labels arranged C G M K / B F / L N / A D E H I]
+## THEOR. XXIX. PROPOS. XXXIV.
 
-Hypoth.
-
-abcd & efgl snt ◇piped.
-bas. ab 2|2 bas. ef,
-alt.. ◇piped. abcd 2|2 alt. ◇piped. efgl, α
-
-Req. π. demonstr.
-
-◇piped. abcd π ◇piped. efgl 2|2 bas. ab π bas. ef.
-
-Præpar.
-
-2. p. 1 | chi, est ——,
-45. 1 | ◇ fi 2|2 ◇ ab, β
+Æqualium solidorum parallelepipedorum bases,

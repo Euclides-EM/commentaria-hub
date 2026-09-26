@@ -1,40 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-[Figure: lignes A—B—G ; C ; D—E—H ; F]
+propositiones additæ sunt, propter frequentem earum vsum apud grauissimos scriptores.
 
-hyp. | ab π c 2|2 de π f,
-α.c.4.5 | c π bg 2|2 f π eh,
-22.5 | ab π bg 2|2 de π eh
-18.5 | ag π bg 2|2 dh π eh
-hyp. | bg π c 2|2 eh π f,
-concl. 22.5 | ag π c 2|2 dh π f.
+Icy Euclide finit le cinquiesme liure : les propositions suiuantes ont esté adioustees, à cause que les bons autheurs se seruent fort souuent d'icelles.
 
-## SCHOL.
+## THEOR. XXVI. PROPOS. XXVI.
 
-Si duæ magnitudines ad duas magnitudines eandem habeant proportionem, & detractæ quædam habeant ad easdem eandem proportionem ; & reliquæ ad easdem eandem proportionem habebunt.
+Si prima ad secundam habuerit maiorem proportionem quàm tertia ad quartam : habebit conuertendo secunda ad primam minorem proportionem, quàm quarta ad tertiam.
 
-Si deux grandeurs ont mesme proportion à deux grandeurs, & que quelques retranchees ayent mesme proportion à icelles ; les restantes auront aussi mesme proportion à icelles.
+Si la premiere a plus grande raison à la seconde, que la troisiesme à la quatriesme ; par raison inuerse la seconde aura moindre raison à la premiere, que la quatriesme à la troisiesme.
+
+[Figure: lignes A ; B ; E ; C ; D]
 
 Hypoth.
 
-ag π c 2|2 dh π f,
-ab π c 2|2 de π f, α
+a π b 3|2 c π d.
 
-Req. π. demonst.
+Req. π. demonstr.
 
-bg π c 2|2 eh π f.
+b π a 2|3 d π c.
 
 Demonstr.
 
-hyp. | ag π c 2|2 dh π f,
-α.c.4.5 | c π ab 2|2 f π de,
-22.5 | ag π ab 2|2 dh π de,
-17.5 | bg π ab 2|2 eh π de,
-hyp. | ab π c 2|2 de π f,
-concl. 22.5 | bg π c 2|2 eh π f.
+suppos. | e π b 2|2 c π d, α
+hyp. | c π d 2|3 a π b,
+13.5 | e π b 2|3 a π b,
+10.5 | a 3|2 e,
+α.c.4.5 | d π c 2|2 b π e,
+8.5 | b π e 3|2 b π a,
+concl. 13.5 | d π c 3|2 b π a.
 
-## THEOR. XXV. PROPOS. XXV.
+## THEOR. XXVII. PROPOS. XXVII.
 
-Si quatuor magnitudines proportionales fuerint, maxima & minima reliquis duabus maiores erunt.
-
-Si quatre grandeurs sont proportionelles, la plus grande & la plus petite sont plus grandes que les deux autres.
+Si prima ad secundam habuerit maiorem proportionem quàm tertia ad quartam ; habebit quo

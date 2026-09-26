@@ -1,29 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## PROBL. XI. PROPOS. XXXV.
+1.concl. | □.ba, incomm. □.ac, ꝑ demonstr. 34.10.
+47.1 | □.ba + □.ac 2|2 □.bc,
+hyp. | □.bc, est medi.
+2 concl. 24.10 | aggreg..□.ba + □.ac, est medi.
+hyp. | ▭.bc,ef, est medi.
+d.34.10 | ▭.bc,ef 2|2, 2▭.bc,da,
+24.10 | ▭.bc,da, est medi.
+s.22.6 | ▭.ba,ac 2|2 ▭.bc,da,
+3.concl. 24.10 | ▭.ba,ac, est medi.
+hyp. | bc, incomm. ef,
+13.10 | bc, incomm. eg,
+bc π eg,
+1.6 | □.bc π ▭.eg,bc / snt raō; 2|2 ꝗe,
+7.5 | □.bc π ▭.da,bc
+7.5 | □.bc π ▭.ba,ac
+10.10 | □.bc, incomm. ▭.ba,ac,
+47.1 | □.ab + □.ac 2|2 □.bc,
+4.concl. 14.10 | aggreg..□.ab + □.ac, incomm. ▭.ab,bc.
 
-Inuenire duas rectas lineas potentia incommensurabiles, quæ faciant compositum quidem ex ipsarum quadratis medium; rectangulum verò sub ipsis contentum rationale.
+## SCHOL.
 
-*Trouuer deux lignes droictes incommensurables en puissance, lesquelles facent le composé de leurs quarrez medial ; & le rectangle contenu sous icelles rationel.*
+Inuenire duas medias longitudine, & potentia incommensurabiles.
 
-F G C (lines) A D B (demi-cercle E)
+*Trouuer deux lignes mediales incommensurables en longitude & en puissance.*
 
 Constr.
 
-32.10 | ab & cf snt medi; comm. ꝗn □,
-32.10 | ▭.ab, cf, est raō.
-32.10 | □.ab 3|2 □.cf..□. —— incomm. ab,
-10.1 | cg 2|2 gf,
-s.28.6 | ▭.adb 2|2 □cg,
-3.p.1 | aeb, est semic.
-11.1 | de ⊥ ab,
-1.p.1 | ae & eb snt ——,
-symp. | Req. snt ae & eb,
-
-Demonstr.
-
-1.concl. | □.ae incomm. □.eb, ꝑ demonstr. sml. 34.10.
-47.1 | □.ae + □.eb 2|2 □.ab,
-hyp. | □.ab, est medi.
-2 concl. 24.10 | aggreg..□.ae + □.eb, est medi.
-hyp. | ▭.ab, cf, est raō.
+36.10 | bc, est medi.
+36.10 | ▭.ba,ac, est medi.
+36.10 | ▭.ba,ac, incomm. □.bc,
+13.6 | ba π h 2|2 h π ac, α

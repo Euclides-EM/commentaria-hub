@@ -1,46 +1,45 @@
-<!-- Running title: ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM. EVCLID. LI. X. -->
 
-A,3. B,9. C,36. D,45.
+quadrato rectæ lineæ sibi longitudine incommensurabiles.
 
-d 2|2 b + c,
-Req. snt b & c.
+*Trouuer deux lignes rationelles, commensurables en puissance seulement, en sorte que la plus grande puisse plus que la plus petite, du quarré d'vne ligne qui luy est incommensurable en longitude.*
 
-Demonstr.
+A B (demi-cercle F) C......E...D
 
-constr. | b, est nr. □. α
-constr. | b π c 2|2, 1 π 4,
-α.24.8 | c, est nr. □,
-18.5 | b + c, u d π c 2|2, 5 π 4
-concl. s.27.8 | d, n̄, est nr. □.
+Constr.
 
-A,36. B,24. C,12. D,3. E,2. F,1.
-
-Constr.. 2. req.
-
-arbitr. | a, est nr. □, α
-s.27.8 | d, e, f snt nr; plan;
-dissml;
-19.a.1 | d 2|2 e + f,
-12.6 | d π e 2|2 a π b, γ
-12.6 | d π f 2|2 a π c.
-
-Req. π. demonstr.
-
-b & c, n̄ snt nr; □;
+arbitr. | ab, est ration.
+2l.29.10 | ce & cd snt nr; □,
+cd, n̄, est nr. □,
+3.l.10.10 | cd π | de,
+□.ab π | □.af,
+3.p.1 | afb, est semic.
+1.4 & 1p1 | af & bf snt ——;
+Req. snt ab & af.
 
 Demonstr.
 
-suppos. | b, est nr. □,
-α.21.7 | a & b snt plan; sml;
-26.8 | d & e snt plan; sml;
-contr. s.27.8.
-1.concl. 21.a.1 | b & c, n̄ snt nr; □;
-s.22.5 | d π e + f 2|2 a π b + c,
-constr. | d 2|2 e + f,
-2 concl. 14.5 | a 2|2 b + c.
+31.3 | <afb, est ⌐,
+47.1 | □.ab 2|2 □.af + □.bf
+constr. | □.ab π | □.af,
+nr. cd π | nr. ed, α
+6.10 | □.ab, comm. □.af,
+constr. | □.ab, est ration.
+s.12.10 | af, est ration.
+constr. | cd, n̄, est nr. □,
+1.concl. α.9.10 | ab, incomm. af,
+β.c.19.5 | cd π | ce,
+□.ab π | □.bf, β
+constr. | cd, n̄, est nr. □,
+2 concl. α.9.10 | ab, incomm. bf.
 
-## PROBL. VI. PROPOS. XXX.
+Explicat. ꝑ nr;
 
-Inuenire duas rationales potentia tantùm commensurabiles, ita vt major, quàm minor, plus possit quadrato rectæ lineæ longitudine sibi commensurabilis.
-
-*Trouuer deux lignes rationelles commensurables en puissance seulement, en sorte que la plus grande puisse plus que la moindre du quarré d'vne ligne droicte qui luy soit commensurable en longitude.*
+arbitr. | ab, est 3, α
+arbitr. | cd, est 36, nr. □,
+2l.19.10 | ce, est 24,
+ed, est 12,
+12.6 | af, est √.3,
+α.47.1 | bf, est √.6,
+ab π af 2|2, 3 π √.3,
+ab π bf 2|2 3 π √.6

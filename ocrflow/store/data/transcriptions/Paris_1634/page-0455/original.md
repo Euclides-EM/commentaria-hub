@@ -1,45 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-constr. | eb msur: cf,
-11.a.7 | fd msur: cf,
-6.a.7 | fd msur: fd,
-1.concl. 10.a.7 | fd msur: cd,
-constr. | cd msur: ae,
-11.a.7 | fd msur: ae,
-constr. | fd msur: eb,
-2.concl. 10.a.7 | fd msur: ab,
-suppos. | g 3|2 fd,
-suppos. | g, msur: ab & cd, β
-constr. | cd msur: ae,
-11.a.7 | g, msur: ae,
-β | g, msur: ab,
-12.a.7 | g, msur: eb,
-constr. | eb msur: cf,
-11.a.7 | g, msur: cf,
-β | g, msur: cd,
-12.a.7 | g, msur: fd,
-contr. 9.a.b.
-3.concl. 21.a.1 | fd est ma. c.me.. ab & cd.
+1.concl. 2.s.4.d7 | vnits..nr. a snt part.. nr.b,
 
-## COROLL.
+A......5B..........10
 
-Ex hoc manifestum est, numerum metientem duos numeros, metiri quoque maximam eorum communem mensuram.
+suppos. | a, msur: b,
+2.concl. 3.d.7 | a, est par..b,
 
-*De ceste demonstration il est manifeste que le nombre qui en mesure deux autres, mesure aussi la plus grande commune mesure d'iceux.*
+A......6
+A...3D...3E,B.........9
+C...3
 
-## PROBL. II. PROPOS. III.
+suppos. | ae & b snt nr. compos.ꝫe,
+suppos. | c, est ma.c.me.. ae & b, β
+3.P.7 | c,ad,de snt 2|2 ꝫe, γ
+β.3.d.7 | c, est par.. b,
+γ.1.a.7 | ad est par.. b, δ
+γ.1.a.1 3.concl. | de est par.. b, δ
+δ | ae u a est part..b,
 
-Tribus numeris datis non primis inter se, maximam eorum communem mensuram reperire.
+## THEOR. III. PROPOS. V.
 
-*Trouuer la plus grande commune mesure de trois nombres donnez, non premiers entr'eux.*
+Si numerus numeri pars fuerit, & alter alterius eadem pars : & simul vterque vtriusque simul eadem pars erit, quæ vnus vnius.
+
+*Si vn nombre est telle partie d'vn nombre, qu'vn autre l'est d'vn autre : l'vn & l'autre ensemble sera telle partie de l'vn & l'autre ensemble, qu'vn seul l'est d'vn seul.*
+
+A...3, B...3E...3F...3C
+D....4, G....4H....4L....4M
 
 Hypoth.
 
-a,b,c snt nr. compos.ꝫe,
+a, par. bc,
+d, par. gm.
 
-Req. est ma.c.me.. a,b,c.
+Req. π. demonstr.
 
-Constr.
-
-2.7 | d, est ma.c.me.. a & b,
-2.7 | e, est ma.c.me.. c & d, α
+a + d par. bc + gm,
+a par. bc,
+u d par. gm.

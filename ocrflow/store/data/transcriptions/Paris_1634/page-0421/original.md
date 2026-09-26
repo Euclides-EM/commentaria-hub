@@ -1,47 +1,31 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-[Figure: demicercle auec les poincts G, F, H, A, E, D, C, B, L]
+4.6 | el π lh 2|2 bl π li,
+19.5 | ce π kh 2|2 eb π hi.
+concl. 16.5 | ce π eb 2|2 kh π hi.
 
-dhb est semic.
+## PROBL. XIII. PROPOS. XXXV.
 
-arbitr. | h, est • in ◠ dhb,
+Dato circulo, & duobus punctis in eius circumferentia signatis, inuenire diametrum, in quam, cum demittentur à datis punctis normales, segmentum diametri ab iis normalibus interceptum erit dato æquale.
 
-ge, gd, gb, ha, hd, hc snt —.
+*Estant donné vn cercle & deux poincts en sa circonference, trouuer vn diametre tel, que les perpendiculaires menees sur iceluy, de deux poincts donnez, le couppent en sorte, que le segment compris entre icelles soit egal à vne ligne donnee.*
 
-Req. π. demonstr.
+Vieta in appendice apollonij galli.
 
-be π ec, ec π ed, bc π cd, bg π gd snt raō. 2|2 ʒe,
+[Figure: deux figures : cercles auec les poincts B, L, C, M, D, E, K, A, I, F, Z et L, B, M, D, C, E, A, K, F, Z]
 
-<dge 2|2 <dbg,
+Hypoth.
 
-<dha 2|2 <dhc.
+aebc est ⊙,
 
-Præpar.
+b & c snt • in ◠..⊙
 
-1.p.1 | hb est —,
-2.p.1 | hcl est —,
-31.1 | idl == hb.
+z, est — D.
 
-Demonstr.
+Constr.
 
-α.8.6 | Δefb æquiāg. Δefd
-be π ef u ec, β
-1.concl. 4.6 | ef u ec π ed,
-2.concl. 19.6 | be π cd,
-4.6 | be π ef u eg,
-ef u eg π ed,
-6.6 | Δbeg æquiāg. Δged
-3.concl. 6.6 | <egd 2|2 <ebg,
-4.concl. c.4.6 | bg π gd,
-be π eg u ec,
-29.1 | Δahb æquiāg. Δaid
-29.1 | Δdlc æquiāg. Δhcb
-32.app. | ab π bc 2|2 ad π dc
-16.5 | ab π ad 2|2 bc π dc, γ
-4.6 γ c.4.6 | ab π ad, bh π di, δ, bc π cd, bh π dl, δ snt raō. 2|2 ʒe,
-δ.9.5 | di 2|2 dl,
-19.1 | <idh 2|2 <dhb,
-31.1 | <dhb est ⌐,
-12.a.b | <idh est ⌐,
-1.c.13.1 | <ldh est ⌐,
-5.concl. 4.1 | <dha 2|2 <dhc.
+1.p.1 | bc est —,
+3.p.1 | bdc est semic.
+1.4 | cd 2|2 z,
+31.1 | eaf == dc,
+symp. | ef est req.

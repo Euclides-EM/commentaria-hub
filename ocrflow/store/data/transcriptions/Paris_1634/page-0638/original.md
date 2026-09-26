@@ -1,37 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## Definitiones secundæ.
+β.6.10 | ef, comm. fg ꝗn □,
+2 concl. s.12.10 | fg, est ration.
+α.cōstr. | ab π cb n̄, est 2|2 nr.□ π nr.□,
+3.concl | ef, incomm. fg,
+β.9.10 constr. | ab π cb 2|2 □.ef π □.fg,
+γ.c.19.5 | ab π ac 2|2 □.ef π □.h,
+constr. | ab π ac 2|2 nr.□ π nr.□,
+4 concl. 1.d.9.10 | ef, comm. h,
+48.10 | eg, est binom. 1.
 
-*Secondes definitions.*
+Explicat. ꝑ nr;
 
-Ex posita rationali, & quæ ex binis nominibus, diuisa in nomina, cuius majus nomen plus possit quam minus, quadrato rectæ lineæ sibi longitudine commensurabilis.
+arbitr. | d, est 8,
+arbitr. | ef, est 6,
+12.6 | ab π cb 2|2 □.ef π □.fg, / 9 5 36 20
+s.46.1 | fg, est √.20.
+ef, est 6 + √.20.
 
-*Vne ligne rationelle estant exposee, & le binome diuisé en ses noms : duquel le plus grand nom puisse plus que le moindre, du quarré d'vne ligne droicte qui luy est commensurable en longitude.*
+## PROBL. XIV. PROPOS. L.
 
-## I.
+A....4 C.....5 B
+D——— ———
+E———— F—— G
+H———
 
-Si quidem maius nomen expositæ Rationali commensurabile sit longitudine, vocetur tota ex binis nominibus prima.
+Constr.
 
-*Si le plus grand nom est commensurable en longitude à la Rationelle exposée, la toute soit appellée binome premier.*
+2s29.10 | ab & ac snt nr; □; / cb, n̄, est nr. □. α
+arbitr. | d, est ration. expos.
+2l.10.10 | fg, comm. d,
+3.l.10.10 | nr.cb π | ab, / □.fg π | □.ef, β
+symp. | Req. est eg.
 
-## II.
+Præpar.
 
-Si vero maius nomen expositæ Rationali longitudine sit commensurabile; vocetur ex binis nominibus secunda.
-
-*Mais si le moindre nom est commensurable en longitude à la Rationelle exposée, soit appellee binome second.*
-
-## III.
-
-Quod si neutrum ipsorum nominum sit longitudine commensurabile expositæ Rationali, vocetur ex binis nominibus tertia.
-
-*Que si l'vne ne l'autre d'iceux noms n'est commensurable en longitude à la Rationelle exposée, soit appellée binome troisiesme.*
-
-Rursus si maius nomen plus possit quam minus, quadrato rectæ lineæ, sibi longitudine incommensurabilis.
-
-*Derechef si le grand nom peut plus que le moindre, du quarré d'vne ligne droicte, qui luy soit incommensurable en longitude.*
-
-## IV.
-
-Si quidem maius nomen
-
-*Si le plus grand nom est*
+β.14.5 | □.ef 3|2 □.fg,

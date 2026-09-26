@@ -1,31 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-arbitr. | b est • in ∩ abc,
-1.p.1 | cb, ab, ad snt —,
-α.10.d.3 | <adc 2|2 <abc, contr. 16.1.
-concl. 21.a.1 | ac ñ est bas. commun.
+Constr.
 
-## THEOR. XXII. PROPOS. XXIV.
+arbitr. | a,b,c snt • in ∩,
+1.p.1 | ab & bc snt —,
+10.1 | ad 2|2 db,
+10.1 | be 2|2 ec,
+11.1 | df ⊥ ab,
+11.1 | ef ⊥ bc,
+symp. | intersect. f, est centr.
 
-Super æqualibus rectis lineis, similia circulorum segmenta sunt inter se æqualia.
+Demonstr.
 
-Semblables segments de cercles, constituez sur lignes droictes égales, sont égaux entr'eux.
+c.1.3 | centr. est in df,
+c.1.3 | centr. est in ef,
+concl. 14.a.b | centr. est in f.
 
-[Figure: quatre segments ; le premier A—B—C sur la base A—C ; le second D—E—F sur la base D—F ; le troisiesme et le quatriesme superposez A/D—B—E—C/F, G en haut à droicte]
+## THEOR. XXIII. PROPOS. XXVI.
+
+In æqualibus circulis, æquales anguli æqualibus peripheriis insistunt, siue ad centra, siue ad peripherias constituti insistant.
+
+Aux cercles égaux, les angles égaux s'appuyent sur circonferences égales, soit qu'ils s'appuyent, estant constituez aux centres, ou aux circonferences.
+
+[Figure: deux cercles ; le premier A—B—C, G au dedans, lignes A—B, B—C, A—C, G—A, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]
 
 Hypoth.
 
-ac 2|2 df,
-⌓ abc & ⌓ def snt sml.
+gabc & hdef snt ⊙ 2|2 ⁊e,
+<agc 2|2 <dhf,
+u<abc 2|2 <def.
 
 Req. π. demonstr.
 
-⌓ abc 2|2 ⌓ def.
+∩ ac 2|2 ∩ df.
 
-Demonstratio.
-
-Bases AC & DF cum sint æquales congruent inter se, si altera alteri superponatur, segmentum ABC congruet etiā segmento DEF, si enim nō cōgruat, cadet aut extra, aut intra, aut partim extra,
-
-Demonstration.
-
-Les bases AC & DE, estans égales, conuiendront entr'elles si on entend que l'vne soit posée sur l'autre, & le segment ABC conuiendra aussi auec le segmēt DEF; car s'il ne conuient point il tombera au dehors, ou au de-
+Præpar.

@@ -1,42 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-21.10 | lg, est ration. comm. de,
-γ.13.10 | dl, incomm. lg,
-β.cl.60.10 | □.dl 3|2 □.lg..□.——, comm. dl,
-concl. 2d48.10 | dg, est binom. 2.
+potest, ad rationalem applicatum, latitudinem facit ex binis nominibus quintam.
 
-## THEOR. XLV. PROPOS. LXIII.
-
-Quadratum eius, quæ ex binis mediis secunda, ad rationalem applicatum, latitudinem facit ex binis nominibus tertiam.
-
-*Le quarré d'vne ligne seconde de deux mediales, appliqué à vne ligne rationelle, fait la latitude binome troisiesme.*
+*Le quarré d'vne ligne pouuant vn rationel & vn medial, appliqué à vne ligne rationelle, fait la latitude binome cinquiesme.*
 
 Hypoth.
 
-ab, est bimed. 2. α
-ac & cb snt nom;
+ab, est rat. & med. po.
+ac & cb snt nom.
 ac 3|2 cb,
 de, est ration. expos.
 ▭df 2|2 □.ab.
 
 Req. π. demonstr.
 
-dg, est binom. 3.
+dg, est binom. 5.
 
 Lemm. 60.10. est præpar.
 
 Demonstr.
 
-α.hyp. | ac & cb snt medi. comm. ꝗn □, β
-l.60.10 | ▭dk, comm. □.ac,
-α.hyp. | □.ac, est medi.
-24.10 | ▭dk, est medi.
-23.10 | dl, est ration. incomm. de,
-α.hyp. | ▭.acb, est medi.
-24.10 | 2▭.acb, est medi.
+α.hyp. | aggreg..□.ac + □.cb est medi.
+l.60.10 | ▭dk 2|2 □.ac + □.cb,
+24.10 | ▭dк, est medi.
+23.10 | dl, est ration. incomm. de, β
+α.hyp. | ▭.acb, est ration.
+s.12.10 | 2▭acb, est ration.
 l.60.10 | ▭lf 2|2, 2▭acb,
-24.10 | ▭lf, est medi.
-23.10 | lg, est ration. incomm. de,
-cl 60.10 | dl, incomm. lg,
-β.cl.60.10 | □.dl 3|2 □.lg..□.——, comm. dl,
-concl. 3d48.10 | dg, est binom. 3.
+s.12.10 | ▭lf, est ration.
+21.10 | lg, est ration. cōm. de,
+β.13.10 | dl, incomm. lg,
+α.hyp. | □.ac, incomm. □.bc,
+l.60.10 | □.dl 3|2 □.lg..□.——, incomm. dl,
+concl. 5d48.10 | dg, est binom. 5.
+
+## THEOR. XLVIII. PROPOS. LXVI.
+
+Quadratum eius, quæ bina media potest, ad rationalem applicatum, latitudinem facit ex binis nominibus sextam.
+
+*Le quarré d'vne ligne pouuant deux mediaux, appli-*

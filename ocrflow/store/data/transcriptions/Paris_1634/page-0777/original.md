@@ -1,33 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-puncto eorum, quæ in vno sunt planorum, ad alterum planum perpendicularis ducta fuerit: in communem sectionem cadet planorum ducta perpendicularis.
+## COROLL.
 
-*Si vn plan est perpendiculaire à vn plan; & de quelque poinct de ceux qui sont en l'vn des plans, on mene vne ligne perpendiculaire à l'autre plan : la perpendiculaire menee tombera sur la commune section des plans.*
+Hinc efficitur, in omni parallelepipedo diametros omnes se mutuò bifariam secare in vno puncto, nimirum in puncto V.
 
-[Figure: labels arranged A / G E / F / B / D / C]
+*Il s'ensuit de ceste demonstration qu'en tout parallelipipede, tous les diametres se couppent l'vn l'autre en deux egalement à vn poinct, sçauoir au poinct V.*
+
+## THEOR. XXXV. PROPOS. XL.
+
+Si fuerint duo prismata æqualis altitudinis, quorum hoc quidem habeat basin, parallelogrammum, illud vero, triangulum, duplum autem fuerit parallelogrammum trianguli; æqualia erunt ipsa prismata.
+
+*Si deux prismes sont de mesme hauteur, desquels l'vn ait vn parallelogramme pour base, & l'autre vn triangle, & que le parellelogramme soit double du triangle, iceux prismes seront egaux.*
+
+[Figure: labels arranged O / N K / E / D / L / M / I / P / F / C / α / A / B / G / H]
 
 Hypoth.
 
-plan. ab ⊥ plan. ac,
-ad, est intersect.
-e, est ● ꝗn plan. ab,
-ef, est ——, ⊥ plan. ac,
-f, est ● ꝗn plan. ac.
+abcfed & ghmlik snt prism;
+◇abcf 2|2, 2 △ghm. α
 
 Req. π. demonstr.
 
-● f, est ꝗn intersect. ad
+prism. abcfed 2|2 prism. ghmlik.
 
 Demonstr.
 
-suppos. | ● f, n̄ est ꝗn intersect. ad,
-12. 1 | fg ⊥ intersect. ad, α
-1. p. 1 | eg, est ——,
-hyp. | <efg, est ⊥, β
-α. 4.d.11 | fg ⊥ plan. ab,
-3. d. 11 | <fge, est ⊥,
-β | contr. 17. 1.
-
-## THEOR. XXXIV. PROPOS. XXXIX.
-
-Si solidi parallelepipedi eorum, quæ ex aduerso, planorum latera bifariam secta sint; per sectiones autem plana sint extensa: communis sectio planorum, & solidi parallelepipedi diameter, bifariam se mutuò secabunt.
+28. 11 | ◇piped. abcfedno 2|2, 2; prism. abcfed,
+28. 11 | ◇piped. ghpmliqк 2|2, 2; prism. ghmlik,

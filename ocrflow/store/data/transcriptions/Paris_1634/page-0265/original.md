@@ -1,19 +1,34 @@
-# EVCLIDIS ELEMENTORVM LIBER QVINTVS.
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-# LE CINQVIESME LIVRE DES ELEMENTS D'EVCLIDE.
+vnius suarum partium æqualium.
 
-## DEFINIT. I.
+multiple de l'vne de ses parties égales.
 
-Pars est magnitudo magnitudinis, minor maioris, cùm minor metitur maiorem.
+A, 12. B, 4. C, 15. D, 5.
 
-Partie est vne grandeur d'vne grandeur, la plus petite de la plus grande, lors que la plus petite mesure la plus grande.
+hyp. | b msur: a,
+| d msur: c,
+s.2.d.5 | multd.. part.. a, 2|2, multd.. part.. c,
+s.2.d.5 | vn. par.. a 2|2 b,
+s.2.d.5 | vn. par.. c 2|2 d.
 
-## DEFINIT. II.
+Vel sic, Où ainsi.
 
-Multiplex autem est maior minoris, cùm minor metitur maiorem.
+hyp. | b msur: a 2|2 d, msur: c,
+s.2.d.5 | multd.. part.. a 2|2 multd.. part.. c,
+s.2.d.5 | vn. par.. a 2|2 b,
+s.2.d.5 | vn. par.. c 2|2 d.
 
-Mais multiple est la plus grande de la plus petite, quand la plus petite mesure la plus grande.
+Explicatio notarum.
 
-A, 4. B, 12.
+B & D metiuntur æque A & C, igitur multitudo partium A est æqualis multitudini partium C : & vna pars magnitudinis A, est æqualis magnitudini B.
 
-hyp. | a, msur: b,
+Explication des notes.
+
+B & D mesurent également A & C, par consequent la multitude des parties de A est égale à la multitude des parties de C : & vne partie de la grandeur A est égale à la grandeur B.
+
+## DEFINIT. III.
+
+Ratio est duarum magnitudinum eiusdem generis mutua quædam, secundum quantitatem habitudo.
+
+Raison est vne habitude de deux grandeurs de mesme genre, comparées l'vne à l'autre selon la quantité.

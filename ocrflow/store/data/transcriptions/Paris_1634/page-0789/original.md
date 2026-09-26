@@ -1,13 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-## THEOR. IV. PROPOS. IV.
+16. 5 | △abc π △efg / △lкc π △rqg / β | prism. кlcnmo π prism. qrgtsu / 7. 5 | prism. ibklmn π prism. pfqrst / 12. 5 | кlcnmo + ibklmn π qrgtsu + pfqrst, snt raō; 2|2 ꝗe,
+concl. 11. 5 | △abc π △efg, / кlcnmo + ibкlmn π qrgtsu + pfqrst.
 
-Si fuerint duæ pyramides eiusdem altitudinis, triangulares habentes bases; sit autem illarum vtraque diuisa & in duas pyramides æquales inter se, & similes toti, & in duo prismata æqualia; ac eodem modo diuisa sit vtraque pyramidum, quæ ex superiore diuisione natæ sunt, idque semper fiat; erit vt vnius pyramidis basis ad alterius pyramidis basin, ita & omnia, quæ in vna pyramide, prismata ad omnia quæ in altera pyramide, prismata multitudine æqualia.
+## THEOR. V. PROPOS. V.
 
-*S'il y a deux pyramides de mesme hauteur ayant les bases triangulaires, & que chacune d'icelles soit diuisee en deux pyramides egales entr'elles, & semblables à la toute, & en deux prismes egaux; & que semblablement l'vne & l'autre des pyramides prouenuës de ceste premiere diuision soit diuisee, & que cela se face tousiours de mesme façon: cōme la base de l'vne des pyramides sera à la base de l'autre; ainsi aussi tous les prismes qui sont en l'vne des pyramides seront à tous les prismes de l'autre, egaux en multitude.*
+Sub eadem altitudine existentes pyramides, & triangulares habentes bases; inter se sunt vt bases.
+
+*Les pyramides de mesme hauteur ayans bases triangulaires, sont l'vne à l'autre comme leurs bases.*
+
+[Figure: labels arranged X / A Y E / M S / I L P R / D H V / B K C F Q G]
 
 Hypoth.
 
 abc & efg snt △,
 abcd & efgh snt pyram;
-alt.. d 2|2 alt.. h. α
+alt.. ●d 2|2 alt.. ●h.
+
+Req. π. demonstr.
+
+pyram. abcd π pyram. efgh 2|2 △abc π △efg.
+
+Demonstr.
+
+suppos. | △abc π △efg 2|2 pyram. abc π x, α
+1. suppo. | x + y 2|2 pyram. efgh,
+ſ. 3. 12 | pyram. eprſ + pyram. ſtuh 2|3 y,
+ſ. a. b | x 2|3 prism. pfqrſt + prism. qrgtſu, β

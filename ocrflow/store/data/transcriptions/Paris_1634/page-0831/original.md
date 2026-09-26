@@ -1,38 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-*uent; icelles se couppent l'vne l'autre en la moyenne & extreme raison, & les plus grands segments d'icelles sont egaux du costé du pentagone.*
-
-[Figure: labels arranged A / B E / F / C D]
-
-Hypoth.
-
-abcde, eſt 5<, æquilat. & æquiang.
-bd & ce ſnt ——.
-
-Req. π. demonstr.
-
-bd π bf 2|2 bf π fd, Ⅱ ec π ef 2|2 ef π fc.
-
 Præpar.
 
-14. 4 | abd, eſt ⊙ circſcri.
+3. 1 | bf 2|2 ab. γ.10<.
 
 Demonstr.
 
-28. 3 | ab, bc, cd / de, ea ſnt ∩ / 2|2 ꝗe,
-27. 3 | <fcd 2|2 <fdc,
-32. 1 | <bfc 2|2 <fcd / + <fdc,
-1. a. f | <bfc 2|2, 2<fcd,
-2. a. 1 | ∩bae 2|2, 2 ∩ed,
-33. 6 | <bcf 2|2, 2<fcd,
-1. a. 1 | <bfc 2|2 <bcf,
-5. 1 | bf 2|2 bc,
-27. 3 | △bcd æquiāg. △cfd.
-1.concl. 4. 6 | bd π dc, Ⅱ bf, / cd, Ⅱ bf π fd, α
-2 concl. d. α | ec π ef 2|2 ef π fc.
+9. 13 | ae π be 2|2 be π bf,
+concl. 19. 5 | be π bf 2|2 bf π fe.
 
-## THEOR. IX. PROPOS. IX.
+## THEOR. X. PROPOS. X.
 
-Si hexagoni latus, & decagoni, in eodem circulo descriptorum, componantur: tota recta linea extrema ac media ratione secatur, & majus eius segmentum est hexagoni latus.
+Si in circulo pentagonum æquilaterum describatur; pentagoni latus potest & latus hexagoni, & latus decagoni, in eodem circulo descriptorum.
 
-*Si le costé de l'exagone, & le costé du decagone, inscrits*
+*Si vn pentagone equilateral est inscrit au cercle; le costé du pentagone, peut le costé de l'hexagone, & le costé du decagone inscrits au mesme cercle.*
+
+[Figure: labels arranged K A / H L / M / I / B E / F / C D / G]
+
+Hypoth.
+
+fabce, eſt ⊙,
+abcde, eſt 5<, æquil.
+
+Præpar.
+
+1&2. p.1 | afg, eſt diamet.
+30. 3 | ∩ah 2|2 ∩hb, α
+30. 3 | ∩aк 2|2 ∩ kh, β
+1. p. 1 | fк, fh, fb / ah, bh, hm ſnt ——
+
+Req. π. demonstr.
+
+□.ab 2|2 □.fb / + □.ah.
+
+Demonstr.
+
+28. 3 | ∩abc 2|2 ∩aed,
+3. a 1 | ∩cg 2|2 ∩gd,
+α. 7.a.1 | cg, ah / hb ſnt ∩ 2|2 ꝗe,
+β20.a.b | ∩bcg 2|2, 2 ∩bhk
+33. 6 | <bfg 2|2, 2<bfк,
+20. 6 | <bfg 2|2, 2<bag,

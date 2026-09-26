@@ -1,35 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-vtraque sumpta sint quælibet puncta: illa linea, quæ ad hæc puncta adiungitur, in eodem est cum parallelis plano.
-
-*S'il y a deux lignes droictes paralleles, en l'vne & l'autre desquelles soient pris des poincts comme on voudra: la ligne droicte menee par iceux poincts, est en vn mesme plan que les paralleles.*
-
-[Figure: labels arranged A E B / G / F D]
+[Figure: labels arranged A H B / E G F / C I D]
 
 Hypoth.
 
-ab == cd, ꝗn plan. abdc,
-arbitr. | e & f snt ●; ꝗn ab & cd,
-ef, est ——,
+ab, cd snt == ef.
 
 Req. π. demonstr.
 
-ef, est ꝗn plan. abdc.
+ab == cd.
+
+Præpar.
+
+arbitr. | g, est ●, ꝗn ef,
+11. 1 | <egi & <egh snt ⊥
 
 Demonstr.
 
-s.34.d.1 | ab, dc snt ꝗn vn. plan
-suppos. | egf, est intersect. ꝑ e & f,
-3. 11 | egf, est ——,
-hyp. | ef, est ——,
-contr. 14. a. 1.
+4. 11 | gh & gi snt ꝗn vn. plan.
+4. 11 | eg ⊥ plan. hgi, α
+hyp. | ah == eg,
+α. 8.11 | ah ⊥ plan. hgi, β
+hyp. | ci == eg,
+α. 8.11 | ci ⊥ plan. hgi,
+concl. β. 6.11 | ab == cd.
 
-## SCHOL.
+## THEOR. X. PROPOS. X.
 
-Hæc eadem propositio vera est, etiamsi duæ rectæ AB & CD, parallelæ non sint, dummodo in eodem plano existant, vt manifestum est ex demonstratione.
+Si duæ rectæ lineæ se mutuò tangentes, ad duas rectas se mutuò tangentes sint parallelæ, non autem in eodem plano; illæ angulos æquales comprehendent.
 
-*Ceste proposition est aussi veritable, encore que AB & CD, ne soient paralleles, pourueu qu'elles soient en vn mesme plan, comme il appert par la demonstration.*
+*Si deux lignes droictes se touchantes l'vne l'autre sont paralleles à deux lignes droictes se touchantes l'vne l'autre, & n'estans en vn mesme plan; icelles contiendront angles egaux.*
 
-## THEOR. VIII. PROPOS. VIII.
+Hypoth.
 
-Si duæ sint parallelæ rectæ lineæ, quarum altera
+ab == de,
+ac == df.
+
+Req. π. demonstr.
+
+<bac 2|2 <edf.
+
+Præpar.
+
+3. 1 | ab, ac, de, df snt 2|2 ꝗe, α
+1. p. 1 | ad, bc, ef, be, cf snt ——.

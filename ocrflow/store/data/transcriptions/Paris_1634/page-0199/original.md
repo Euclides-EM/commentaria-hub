@@ -1,45 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-les à la circonference: le poinct pris est le centre du cercle.
+Si deux cercles se touchent l'vn l'autre, au dehors, la ligne droicte menée d'vn centre à l'autre, passera par l'attouchement.
 
-[Figure: cercle B—C—K, A au dedans, lignes A—B, A—C, A—K]
-
-Hypoth.
-
-bck est ⊙,
-ab, ac, ak snt 2|2 ⁊e.
-
-Req. π. demonstr.
-
-• a est centr.. ⊙.
-
-Demonstr.
-
-suppos. | a, ñ est centr.. ⊙,
-7.3 | ab, ac, ak, ñ snt 2|2 ⁊e contr. hypoth.
-concl. 21.a.1 | a, est centr.. ⊙.
-
-## THEOR. IX. PROPOS. X.
-
-Circulus circulum in pluribus, quàm duobus punctis non secat.
-
-Vn cercle ne couppe pas vn cercle, à plus de deux poincts.
-
-[Figure: deux cercles s'entrecouppans, A en haut, C en bas, I, E, M, K en haut au dedans, H, D, O, N, B, F sur la ligne horizontale, G et L en bas, lignes I—K, H—F, A—C]
+[Figure: deux cercles se touchans en C, D et E en haut, A centre du premier, B centre du second, ligne A—C—B, arcs D—C et E—C]
 
 Hypoth.
 
-iakbl & iekfl snt ⊙
+acd & bce snt ⊙,
+c, est •.. contact.
 
 Req. π. demonstr.
 
-i, k, l, ñ snt intersect.
+acb est —.
 
 Demonstr.
 
-suppos. | i, k, l snt intersect.
-1 p.1 | ik & kl snt —,
-10.1 | im 2|2 mk,
-10.1 | kn 2|2 nl,
-11.1 | mc ⊥ ik,
-11.1 | nh ⊥ kl,
+suppos. | adb est —,
+20.1 | ac + cb 3|2 ad + db,
+15.d.1 | ac 2|2 ad,
+15.d.1 | bc 2|2 be,
+1.a.c | ad + be 3|2 ad + db, contr. 9.a.1.
+21.a.1 | acb est —.
+
+## THEOR. XII. PROPOS. XIII.
+
+Circulus circulum non tangit in pluribus punctis, quàm vno, siue intus, siue extra tangat.
+
+Vn cercle ne touche point vn cercle à plus d'vn poinct: soit qu'il le touche au dedans, ou au dehors.
+
+[Figure: deux cercles se touchans en A au dedans, B et C au milieu, D à gauche, H en bas, lignes A—H, D—B, D—C, et vn troisiesme cercle E—F—G touchant au dehors, lignes E—F]
+
+Hypoth. 1.
+
+caf, bad snt ⊙,
+a, est •.. contact. α
+
+Req. π. demonstr.
+
+hud ñ est •.. contact.
+
+Præpar.
+
+1.&2.p.1 | ab & bch snt —,
+| d, est • arbitr.

@@ -1,26 +1,19 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-*tuple en puissance du demidiametre qui enuironne les costez de l'icosaedre.*
+[Figure: labels arranged M B / R V S / F O N P L / D H X C / Q / T / E I F / A G]
 
-## COROLL. II.
-
-Item manifestum est sphæræ diametrum esse compositam ex latere hexagoni, hoc est, ex semidiametro, & duobus lateribus decagoni circuli ambientis quinque latera icosaedri.
-
-*Pareillement il est manifeste que le diametre de la sphere est composé du costé de l'hexagone, c'est à dire, du demidiametre, & de deux costez du decagone du cercle qui enuironne les cinq costez de l'icosaedre.*
-
-## COROLL. III.
-
-Constat denique latera icosaedri opposita, qualia sunt RX, HI, esse parallela.
-
-*Il appert finalement que les costez de l'icosaedre opposez, comme sont RX, HI sont paralleles.*
+1.p.1. & 39. 11 | unx, eſt —— q ſecat. diamet.. cub. ꝗn x,
+1.p.1 | rx, eſt ——.
 
 Demonſtr.
 
-33. 1 | rx == lp,
-ſ.27.3 concl. 9. 11 | hi == lp, / rx == hi.
-
-## PROBL. V. PROPOS. XVII.
-
-Dodecaedrum constituere, & sphæra complecti, qua & prædictas figuras; & demonstrare, quod dodecaedri latus irrationalis est linea, quæ vocatur apotome.
-
-*Descrire vn dodecaedre, & l'enuironner d'vne mesme sphere que les figures deuant dites; & monstrer que le costé du dodecaedre est ligne irrationelle, laquelle est appellee residu.*
+7.a.1 | ae, dк, кn ſnt ꝗe,
+conſtr. | or 2|2 on,
+47.1 | □.do 2|2 □.кo + □.dk,
+1.a.f | □.кo + □.dk 2|2 □.кo + □kn,
+4. 13 | □.кo + □.кn 2|2, 3□.on, Ⅱ 3□.or,
+1.a.1 | □.do 2|2, 3□.or, α
+2.a.1 | □.do + □.or 2|2, 4□.or,
+47.1 | □.dr 2|2 □.do + □.or,
+ſ. 4. 2 | □.op, Ⅱ □.rſ 2|2 4□.or,
+6.a.1 | □.dr 2|2 □.rſ,

@@ -1,34 +1,34 @@
-<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. XIII. -->
 
-[Figure: labels arranged E G F / I O H K / P / D A C B / L N M]
+[Figure: labels arranged A G D / E I F / B H C]
 
-præpar. eſt ſml. præpar.. propoſ. præced.
+1. p. 1 | ac, eſt diamet.
+31. 1 | gih == ab,
+31. 1 | eif == ad.
 
 Demonstr.
 
-1. c. 4. 2 | ai, eſt □.ad,
-1. c. 4. 2 | gк, eſt □.ac,
-hyp. | ab, Ⅱ al 2|2, 2ah,
-1. 6 | ▭.an 2|2, 2▭aк,
-43. 1 | ▭.an 2|2 □.ak / + ▭.ig, β
-hyp. | □ec 2|2, 5□ai,
-α. 1. ſ. 4. 2 | □am 2|2, 4□ad,
-3. a. 1 | □am 2|2 gnom. afi,
-β. 3. a. 1 | ▭.cm 2|2 gк□.ac,
-concl. 17. 6 | ab π ac 2|2 ac π cb.
+α. 17. 6 | ▭af 2|2 □hf,
+43. 1 | ▭.af, ▭.ah, □.hf ſnt 2|2 ꝗe,
+7. 2 | □bd + □eg 2|2, 2▭af + □hf, Ⅱ 3□;hf,
+concl. 1. a. g | □.ad + □.ag 2|2, 3□;.gd.
 
-## THEOR. III. PROPOS. III.
+## THEOR. V. PROPOS. V.
 
-Si recta linea secundum extremam ac mediam rationem secetur; minus segmentum assumens dimidiam majoris segmenti, quintuplum potest eius, quod à dimidia majoris segmenti describitur quadrati.
+Si recta linea secundum extremam & mediam rationem secetur, apponatúrque ei æqualis majori segmento: tota recta linea secundum extremam & mediam rationem secatur, & majus segmentum est, quæ à principio recta linea.
 
-*Si vne ligne droicte est couppee, selon la moyenne & extreme raison; la ligne faite du moindre segment & de la moitié du plus grand, peut le quintuple du quarré descrit de la moitié du plus grand segment.*
+*Si vne ligne droicte est couppee selon la moyenne & extreme raison, & qu'on adjouste à icelle vne ligne egale au plus grand segment: la totale est couppee en la moyenne & extreme raison, & le plus grand segment est la ligne droicte, qui estoit proposee au commencement.*
+
+[Figure: labels arranged D A C B]
 
 Hypoth.
 
 ab, eſt —— propoſ.
-ba π ac 2|2 ac π cb,
-ad 2|2 dc. α
+ab π ac 2|2 ac π cb, α
+ad 2|2 ac.
 
 Req. π. demonstr.
 
-□.db 2|2, 5□.dc.
+db π ab 2|2 ab π ad.
+
+Demonstr.

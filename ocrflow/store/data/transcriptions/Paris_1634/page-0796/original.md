@@ -1,34 +1,19 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-uiditur in tres pyramides æquales inter se, triangulares bases habentes.
+[Figure: labels arranged G R / H F S Q / I K T V / A L / M / B E P / C D N O]
 
-*Tout prisme ayant la base triangulaire, peut estre diuisé en trois pyramides egales entr'elles, ayant les bases triangulaires.*
+α | prism. nq 2|2, 3; pyram. mnoplſ,
+hyp. | alt.. prism. bf 2|2 alt.. prism. nq,
+6. 12 | abcde π lmnop 2|2 abcdeh π lmnopſ,
+15. 5 | prism. bf π prism. nq 2|2 abcdeh π lmnopſ,
+concl. 11. 5 | abcde π lmnop 2|2 prism. bf π prism. nq.
 
-Hypoth.
+## SCHOL. II.
 
-abcdfe, est prism.
+Hinc sequitur si iuxta tertium lemma propos. primæ huius libri adscribatur circulo polygonum intelligatúrque super illud polygonum, sub altitudine dati cylindri vel coni, erectum prisma, vel pyramis: solida comprehēsa inter superficiem concauam vel conuexam cylindri vel coni, & superficiem prismatis vel pyramidis, fore tandem minora quocunque dato solido.
 
-[Figure: labels arranged A D / F E / B C]
+*D'icy il s'ensuit que si on descrit en vn cercle ou à l'entour d'vn cercle vn polygone, selon la methode du troisiesme lēme de ce liure, & que sur ce polygone soit esleué vn prisme ou pyramide de la hauteur du cylindre ou cone proposé, les solides cōpris entre la superficie du cylindre ou du cosne, & la superficie du prisme ou pyramide, seront en fin moindres que quelconque solide donné.*
 
-Præpar.
+## THEOR. VIII. PROPOS. VIII.
 
-1. p. 1 | ac, cf & fd ſnt ——.
-
-Req. π. demonstr.
-
-acbf, acdf, cdfe ſnt pyram; 2|2 ꝗe.
-
-Demonstr.
-
-13. d. 11 | △abf 2|2 == & ſml. △dce,
-34. 1 | △acb 2|2 △acd,
-1.concl. 5. 12 | pyram. acbf 2|2 pyram. acdf,
-34. 1 | △dfa 2|2 △dfe,
-2 concl. 5. 12 | pyram. dfac, Ⅱ acdf 2|2 pyram. dfe, Ⅱ cdfe,
-3.concl. 1. a. 1 | pyram. acbf 2|2 pyram. cdfe.
-
-## COROLL.
-
-Hinc colligitur quamlibet pyramidem esse tertiam partem prismatis, quod eandem cum illa habet & basin, & altitudinem: siue prisma quodlibet triplum esse pyramidis, quæ eandem cum ipso habet & basin & altitudinem.
-
-*Il s'ensuit de cecy que toute pyramide est la tierce partie du prisme, qui a mesme hauteur, & mesme base qu'icelle: ou bien*
+Similes pyramides, quæ triangulares habent

@@ -1,45 +1,49 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-rallelogramma, quæ similis sit parallelogrammo alteri dato.
+constr. | fc 2|2 cd,
+3.a.1 | af 2|2 db,
+1.concl. 19.a.1 | ad ~ af u db est fd,
+s.13.6 | ad π de 2|2 de π db,
+2.concl. 17.6 | ▭.adb 2|2 □.de.
 
-A vne ligne droicte donnee appliquer vn parallelogramme egal à vne figure rectiligne donnee, excedant icelle d'vn parallelogramme semblable à vn autre donné.
+Explicat. p nr.
 
-[Figure: parallelogramme D ; parallelogramme A, F, G auec poincts E, B, P, M sur la base R, L, O, N ; triangle C ; parallelogramme I, K, H, S]
+hyp. | de est 12,
+hyp. | fd est 10,
+ad & db sont req.
+7.a.1 | cd est 5, α
+1.s.1.d.2 | □.cd est 25,
+1.s.1.d.2 | □.de est 144,
+47.1 | □.ce est 169,
+s.46.3 | ce u ac u cb est 13,
+α.2.a.1 | ad est 18,
+α.3.a.1 | db est 8.
+
+## PROBL. X. PROPOS. XXX.
+
+Propositam rectam lineam terminatam extrema, ac media ratione secare.
+
+Coupper vne ligne droicte proposee & terminee, selon la moyenne & extreme raison.
+
+[Figure: rectangle C, B, I, G, H sur la base D, E, A, F]
 
 Hypoth.
 
 ab est — D.
-c, est rectili. D.
-d, est ◇. D.
 
 Req. π. fa.
 
-◇an 2|2 rectili. c,
-◇op, sml. ◇d.
+ba π ag 2|2 ag π gb.
 
 Constr.
 
-10.1 | ae 2|2 eb, α
-18.6 | ◇eg, sml. ◇d,
-25.6 | ◇hk 2|2 ◇eg + c,
-◇hk, sml. ◇d u ◇eg,
-3.1 | fel 2|2 ih,
-3.1 | fgm 2|2 ik,
-31.1 | rln == fm,
-31.1 | mn == fl,
-31.1 | ar == fl,
-2.p.1 | abp & gbo snt —
-1.p.1 | fb & bn snt —,
-symp. | ◇an est req.
+11.2 | ▭.abg 2|2 □.ag, u ▭bi 2|2 □ah.
 
 Demonstr.
 
-constr. | ◇d, ◇eg, ◇hk snt sml. ⁊e,
-constr. | ◇lm 2|2 & sml. ◇hk,
-constr. | ◇eg, sml. ◇hk,
-21.6 | ◇lm, sml. ◇eg,
-26.6 | fbn est —,
-1.concl. 24.6 | ◇op, sml. ◇eg u ◇d,
-constr. | ◇hk 2|2 ◇eg + c,
-1.a.1 | ◇lm 2|2 ◇eg + c,
-◇eg commun. subtr.
+constr. | ▭.abg 2|2 □.ag,
+concl. 14.6 | ab π ag 2|2 ag π gb.
+
+## THEOR. XXI. PROPOS. XXXI.
+
+In rectangulis triangulis, figura quæuis à latere

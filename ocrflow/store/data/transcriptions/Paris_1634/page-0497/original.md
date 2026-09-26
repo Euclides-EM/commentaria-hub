@@ -1,33 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-*Il est euident aussi que les nombres des suittes V, A, C, F, L, & des autres qui luy sont paralleles, comme sont B, D, G, M. E, H, N, & K, P, sont aussi continuellement proportionaux en la raison de V à A, & les nombres de la suitte V, B, E, K, Q, & des autres qui luy sont paralleles, comme sont A, D, H, P. C, G, N, & F, M, sont aussi continuellement proportionaux en la raison de V à B.*
+21.7 | a, msur: i, 2|2 b, msur: k, γ
+21.7 | c, msur: k 2|2 d, msur: l, γ
+γ | b & c, msur: k,
+37.7 | e, msur: k,
+contra. 9.a.b
+21.a.1 | f, e, g snt mi. nr; ꝗn raō; D. δ
 
-## PROBL. II. PROPOS. III.
+A,6. B,5. C,4. D,3. E,5. F,7.
+H,24. G,20. I,15. K,21.
 
-Si sint quotcunque numeri deinceps proportionales minimi omnium eādem cum eis rationem habentium; illorum extremi sunt inter se primi.
+1.cas.. hypoth. 2.
 
-*S'il y a tant de nombres qu'on voudra continuellement proportionaux, les plus petits de tous ceux qui ont la mesme raison; les extremes seront les premiers entr'eux.*
+a π b, c π d, e π f snt term.. raō; D.
 
-A,8. B,12. C,18. D,27.
-E,2. F,3.
-G,4. H,6. I,9.
-K,8. L,12. M,18. N,27.
+req. snt h, g, i, k. mi. ꝗn raō; D
 
-Hypoth.
+Constr.
 
-a,b,c,d snt contin. proport.
-a,b,c,d snt term.. raō.
+cōstr. δ | h, g, i snt mi. ꝗn raō; a π b, c π d,
+suppos. | e, msur: i, 2|2 f, msur: k,
+d. δ | h, g, i, k snt nr; req.
 
-Req. π. demonstr.
+A,6. B,5. C,4. D,3. E,2. F,7.
+H,24. G,20. I,15.
+M,48. L,40. K,30. N,105.
+O-- P-- Q-- R--
 
-extrem. a & d snt pr. ꝫe.
+2. cas.. hypoth. 2.
 
-Præpar.
-
-35.7 | e & f snt term.. raō. a π b,
-2.8 | g, h, i snt mi. ꝗn raō. e π f,
-2.8 | k, l, m, n snt mi. ꝗn raō. e π f.
-
-Demonstr.
-
-constr. | multd. k,l,m,n 2|2 multd. a,b,c,d,
+suppos. | e, n̄ msur: i,
+36.7 | k, est mi. diuidu.. i & e,

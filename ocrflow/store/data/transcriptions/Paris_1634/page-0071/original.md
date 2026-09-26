@@ -1,33 +1,32 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-sunt inæqualia, illud nimirùm maius & hoc minus. | & à la plus petite la plus petite, les tous sont inegaux, celuy-là plus grand & cestuy-cy plus petit.
+[Figure: lignes A et B longues à gauche, lignes C et D courtes à droite]
 
-[Figure: ligne ABE en haut, ligne CDF au dessous]
+hyp. | c 3|2 d.
+hyp. | a 2|2 2c.
+hyp. | b 2|2 2d.
+6.a.b | a 3|2 b.
 
-hyp. | ab 3|2 cd.
-hyp. | be 3|2 df.
-4.a.c. | ab 3|2 cf.
+### 6. a. c.
 
-### 5. a. 1.
+Et quod vnius æqualium duplum est, duplum est & alterius æqualium. | Et ce qui est double de l'vn des egaux, est außi double de l'autre des egaux.
 
-Et si ab inæqualibus æqualia ablata sint, reliqua sunt inæqualia. | Et si de choses inegales on oste choses egales, les restes sont inegaux.
+[Figure: ligne A longue à gauche, lignes B et C courtes à droite]
 
-[Figure: ligne AEB en haut, ligne CFD au dessous]
+hyp. | b 2|2 c.
+hyp. | a 2|2 2b.
+6.a.c. | a 2|2 2c.
 
-hyp. | ab 3|2 cd.
-hyp. | eb 2|2 fd.
-5.a.1 | ae 3|2 cf.
+### 6. a. d.
 
-### 5. a. b.
+Et si vnum æqualium duplum est cuiuspiam magnitudinis, alterum quoque æqualium duplum est eiusdem magnitudinis. | Et si l'vn des egaux est double de quelque grandeur, l'autre des egaux sera außi double de la mesme grandeur.
 
-Et si ab æqualibus inæqualia ablata sint, reliqua sunt inæqualia. | Et si de choses egales on oste choses inegales, les restes sont inegaux.
+[Figure: lignes A et B longues à gauche, ligne C courte à droite]
 
-[Figure: ligne AEB en haut, ligne CFD au dessous]
+hyp. | a 2|2 b.
+hyp. | a 2|2 2c.
+6.a.d. | b 2|2 2c.
 
-hyp. | ab 2|2 cd.
-hyp. | ae 3|2 cf.
-5.a.b. | eb 2|3 fd.
+### 7. a. 1.
 
-### 5. a. c.
-
-Et si ab inæqualibus inæqualia ablata sint, à ma- | Et si de choses inegales on oste choses inegales, sçauoir
+Et quæ eiusdem, vel æqualium sunt dimidia, inter se sunt æqualia. | Et les choses qui sont moitiés d'vne mesme, ou des choses egales, sont aussi egales entr'elles.

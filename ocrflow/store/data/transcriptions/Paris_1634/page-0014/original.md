@@ -1,7 +1,13 @@
-## AD LECTOREM.
+<!-- Running title: PROLEGOMENA. -->
 
-legitimarü, necessariarumque consecutionum immediatarum, singulis lineolis comprensarum aptè cohæret : quarum vnaquæque nullo negotio in syllogismum potest conuerti, quòd in propositione citata, & in ea quæ citationi respondet, omnes syllogismi partes reperiätur : vt videre est in prima libri primi demonstratione, quæ in syllogismos est conuersa. Præterea distinctio propositionis in sua membra, scilicet in hypothesin, explicationem quæsiti, constructionem, vel præparationem, & demonstrationem non parum iuuat quoque memoriam, & ad intelligendam demonstrationem multùm prodest. Atquæ hæc sunt commoda, quæ in hac noua methodo demonstrandi reperiuntur. Quid autem in singulis huius Cursus partibus præstiterim, iudicabunt studiosi, quibus opto hunc meum laborem vtilem esse. Vale.
+Nos autem, vt quam quisque partem sibi necessariam ducit, seorsim habere possit, partiemur hunc Cursum Mathematicum in quinque tomos, in quorum prioribus traduntur partes, quæ ad intelligentiam posteriorum sunt necessariæ, vt ordo doctrinæ postulat, in singulisque tomis continentur cognatæ partes, eadem serie qua addiscendæ sunt, videlicet hoc ordine.
 
-## AV LECTEVR.
+Primus tomus continet Euclidis Elementorum lib. XV. Appendicem Geometriæ planorum : Euclidis Data : Apollonij Pergei de loco resoluto lib. V. Doctrinam angularium Sectionum.
 
-trouuent toutes les parties du syllogisme : comme on peut voir en la premiere demonstration du premier liure, qui a esté reduicte en syllogismes. La distinction de la proposition en ses membres, sçauoir en l'hypothese, l'explication du requis, la construction, ou preparation, & la demonstration, soulage aussi la memoire, & sert grandement à l'intelligence de la demonstration. Voila les principales commoditez qui se trouuent en nostre nouuelle methode de demonstrer. Ceux qui aiment ces diuines sciences iugeront ce que i'ay apporté du mien en chacune partie de ce Cours, que ie souhaite qu'il leur soit vtile & profitable. Adieu.
+Secundus complectitur Arithmeticam practicam : Computum Ecclesiasticü : Algebram, tum vulgarem, tum speciosam, vnà cum ratione componendi ac demonstrandi per regressum seu repetitionem vestigiorum analyseos.
+
+Mais nous partirons ce Cours en cinq tomes, afin que chacun puisse auoir separément la partie qu'il iugera luy estre necessaire, aux premiers desquels sont contenuës les parties qui sont necessaires à l'intelligence de celles qui sont aux suiuans, comme requiert l'ordre de doctrine, & sont contenuës en chaque tome les parties qui ont plus d'affinité & rapport, en mesme ordre qu'on les doit apprendre, comme s'ensuit.
+
+Le premier tome contient les quinze liures des Elements d'Euclide : vn Appendix de la Geometrie des Plans : les Dates d'Euclide : cinq liures d'Apollonius Pergeus du lieu resolu : la Doctrine de la Section des angles.
+
+Le second comprend l'Arithmetique practique : le Calcul Ecclesiastique : l'Algebre, tant vulgaire que specieuse, auec la methode de composer & faire les demonstrations par le retour & repetition des vestiges de l'analyse.

@@ -1,13 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-moindre raison de la premiere à la seconde, que de la cinquiesme à la sixiesme, comme il est manifeste par la mesme demonstration.
+tertiam quoque maiorem esse, vel æqualem, vel minorem quàm quartam : vtraque enim ratio erit aut minoris inęqualitatis, aut æqualitatis, aut maioris inęqualitatis ; si minoris inæqualitatis, vtraque antecedens erit minor suâ consequente ; si æqualitatis, vtraque antecedens erit æqualis suæ consequenti ; si maioris inæqualitatis, vtraque antecedens erit maior sua consequente.
+
+Or il est manifeste, à cause de la similitude des raisons, que si la premiere est plus grande, ou égale, ou moindre que la seconde ; que la troisiesme sera plus grande, ou égale, ou moindre que la quatriesme : car l'vne & l'autre raison sera ou d'inégalité mineure, ou d'égalité, ou d'inégalité maieure ; si d'inégalité mineure, chaque antecedente sera plus petite que sa consequente ; si d'égalité, chaque antecedente sera égale à sa consequente ; si d'inégalité maieure, chaque antecedente sera plus grande que sa consequente.
 
 ## SCHOL. II.
 
-Eodem modo, si prima ad secundam, maiorem habuerit rationem quàm tertia ad quartam ; tertia autem ad quartam, maiorem habuerit quàm quinta ad sextam : prima quoque multò magis ad secundam, maiorem rationem habebit, quàm quinta ad sextam. Quod si prima ad secundam, minorem habuerit rationem quàm tertia ad quartam ; tertia autem ad quartam, minorem habuerit quàm quinta ad sextam : prima quoque multò magis ad secundam, minorem rationem habebit quàm quinta ad sextam.
+Si prima ad secundam, minorem habeat rationem quàm tertia ad quartam ; prima verò quàm tertia maior fuerit, erit & secunda maior quàm quarta.
 
-En la mesme maniere, si la premiere a plus grande raison à la seconde que la troisiesme à la quatriesme ; & que la troisiesme ait plus grande raison à la quatriesme, que la cinquiesme à la sixiesme : pareillement la premiere aura beaucoup plus grande raison à la seconde, que la cinquiesme à la sixiesme. Mais si la premiere a moindre raison à la seconde, que la troisiesme à la quatriesme ; & que la troisiesme ait moindre raison à la quatriesme, que la cinquiesme à la sixiesme : pareillement la premiere aura beaucoup moindre raison à la seconde, que la cinquiesme à la sixiesme.
+Si la premiere a moindre raison à la seconde, que la troisiesme à la quatriesme ; & que la premiere soit plus grande que la troisiesme, la seconde sera aussi plus grande que la quatriesme.
 
-## THEOR. XIV. PROPOS. XIV.
+Hypoth.
 
-Si prima ad secundam eandem habuerit rationem, quam tertia ad quartam ; prima verò quàm tertia maior fuerit, erit & secunda maior quàm quarta. Quod si prima fuerit æqualis tertiæ, erit &
+a π bc 2|3 d π e,
+a 3|2 d.
+
+Req. π. demonstr.
+
+bc 3|2 e.
+
+[Figure: lignes verticales C—F et A, B, D, E]
+
+Demonstr.
+
+suppos. | a π bf 2|2 d π e,
+hyp. | a 3|2 d,
+14.5 | bf 3|2 e,
+10.5. | bc 3|2 bf,
+concl. 1.a.c | bc 3|2 e.

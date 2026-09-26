@@ -1,32 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-ad rectos cuidam plano sit angulos; & reliqua eidem plano ad rectos angulos erit.
-
-*S'il y a deux lignes droictes paralleles, l'vne desquelles soit à angles droicts à quelque plan; l'autre sera aussi à angles droicts au mesme plan.*
-
-[Figure: labels arranged B C / E / A D / G / F]
-
-Hypoth.
-
-ab == cd ꝗn, plan. badc,
-ab ⊥ plan. ef.
-
-Req. π. demonstr.
-
-cd, est ⊥ plan. ef.
+[Figure: labels arranged A / B C / D / E F]
 
 Demonstr.
 
-ꝑ præpar. & demonstr. 6.11. gda & gdb snt ⊥; α
-s.34.d.1 & 7. 11 | ab, dc, da, db snt ꝗn plan. badc,
-α. 4.11 | gd ⊥ plan. badc,
-3. 11 | <cdg, est ⊥, β
-hyp. | <bad, est ⊥,
-29. 1 | <cda, est ⊥,
-concl. β. 4.11 | cd ⊥ plan. ef.
+α. 33.1 | ab 2|2 & == de,
+33. 1 | be 2|2 & == ad,
+α. 33.1 | ac 2|2 & == df,
+33. 1 | cf 2|2 & == ad,
+33. 1 | bc 2|2 & == ef,
+concl. α. 8.1 | <bac 2|2 <edf.
 
-## THEOR. IX. PROPOS. IX.
+## PROBL. I. PROPOS. XI.
 
-Quæ eidem rectæ lineæ sunt parallelæ, sed non in eodem cum illa plano; hæ quoque sunt inter se parallelæ.
+A dato puncto in sublimi, ad subjectum planum perpendicularem rectam lineam ducere.
 
-*Les lignes droictes paralleles à vne mesme, n'estant en vn mesme plan qu'icelle; elles sont aussi paralleles entr'elles.*
+*D'vn poinct donné en l'air mener vne ligne droicte perpendiculaire sur le plan qui est au dessous.*
+
+[Figure: labels arranged D K A H / B / I / G F E L C]
+
+Hypoth.
+
+bc, est plan. propos.
+a, est ●, D.
+
+Req. π. fa.
+
+ai ⊥ plan. bc.
+
+Constr.
+
+arbitr. | de, est ——, ꝗn plan. bc,
+12. 1 | af ⊥ de,
+11. 1 | fh ⊥ de,
+12. 1 | ai ⊥ fh, α
+symp. | req. est ai.
+
+Præpar.
+
+31. 1 | kil == de. β
+
+Demonstr.
+
+constr. | de ⊥ fa & fh,
+4. 11 | de ⊥ plan. ifa,
+β. 8.11 | kil ⊥ plan. ifa,
+3. d. 11 | <kia, est ⊥,
+α | ai ⊥ ik & if,
+concl. 4.11 | ai ⊥ plan. bc.

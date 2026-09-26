@@ -1,18 +1,53 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-## COROLL.
+En vn pentagone donné, equilateral & equiangle inscrire vn cercle.
 
-Sequitur ex huius problematis demonstratione; si in circulo quæcunque figura æquilatera & æquiangula describatur, & ad extrema semidiametrorum, ex centro ad angulos ductarum, excitentur lineæ perpendiculares: has perpendiculares constituere aliam figuram, totidem laterum & angulorū æqualium circulo circumscriptam.
+[Figure: pentagone A—L—E—K—D—I—C—H—B—G auec cercle inscrit, F au centre, et toutes les lignes menées du centre]
 
-Il s'ensuit de la demonstration de ce probleme, que si dans le cercle est descrit vne figure equilaterale & equiangle, & aux extremitez des semidiametres, menez du centre aux angles, soient faites des perpendiculaires : ces perpendiculaires feront vne figure circonscripte au cercle equilaterale & equiangle, qui aura autant de costez & angles que l'inscripte.
+Hypoth.
 
-## SCHOL.
+abcde est 5<,
+æquilat. & æquiang.
 
-In figura æquilatera, & æquiangula, si quidem angulorum numerus impar est, recta linea ex quouis angulo demissa secans oppositum latus bifariam, diuidit quoque angulum bifariam: Si verò numerus angulorum est par, recta linea, ex quouis angulo ad oppositum angulum ducta, secat vtrumque angulum bifariam.
+Req. π. fa.
 
-En vne figure equilaterale & equiangle, si le nombre des angles est impair, la ligne droicte menée de quelconque angle au milieu du costé opposé, diuise aussi l'angle en deux parties égales : Mais si le nombre des angles est pair, la ligne droicte menée de quelconque angle à l'angle opposé, diuise l'vn & l'autre angle en parties égales.
+inscri. in 5<.abcde ⊙ghikl.
 
-Hypoth. 1.cas.
+Constr.
 
-abcdefg est figur. æquilat. & æquiang.
-multd.. √.ab, bc, cd 2|2 multd.. √.ag, gf, fe,
+9.1 | <fab 2|2 <fae,
+9.1 | <fba 2|2 <fbc,
+s.12.4 | f, est intersect.
+12.1 | fg ⊥ ab,
+3.p.1 | fghikl est ⊙,
+symp. | ⊙fghikl est req.
+
+Præpar.
+
+12.1 | fh ⊥ bc,
+12.1 | fi ⊥ cd,
+12.1 | fk ⊥ de,
+12.1 | fl ⊥ ae,
+1.p.1 | fc, fd, fe snt —.
+
+Demonstr.
+
+hyp. | ba 2|2 bc,
+| bf est commun.
+constr. | <fba 2|2 <fbc,
+4.1 | <fcb 2|2 <fad, α
+hyp. | <bcd 2|2 <bae,
+3.a.1 | <fcd 2|2 <fae, β
+constr. | <baf 2|2 <fae,
+β.1.a.b | <fcb 2|2 <fcd, γ
+d.γ. | <fcd,<fdc
+| <fde,<fed
+| <fea,&c.
+| snt 2|2 ⁊e
+26.1 | fg 2|2 fl,
+26.1 | fh 2|2 fg, &c. β
+d.β. | fg, fh, fi
+| fk, fl
+| snt 2|2 ⁊e,
+c.16.3 | ⊙fghk tang: √.5< abd,
+concl. 5.d.4 | ⊙fghk est inscri. in 5<abd.

@@ -1,12 +1,33 @@
-<!-- Running title: ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-[Figure: lignes A ; B ; C ; G ; D ; E ; F ; H]
+hyp. | bc π ca 2|2 ce π ed,
+1.d.6 | Δabc sml. Δdce. α
 
-27.5 | a π b+c+g 3|2 d π e+f+h,
-28.5 | a+b+c+g π b+c+g 3|2 d+e+f+h π e+f+h,
-4.cōcl. 27.5 | a+b+c+g π d+e+f+h 3|2 b+c+g π e+f+h, τ
-5.concl. 33.5 | a π d 3|2 a+b+c+g π d+e+f+h,
-ω | b+c+g π e+f+h 3|2 g π h,
-6.concl. τ.13.5 | a+b+c+g π d+e+f+h 3|2 g π h.
+EXPL. NOT.
 
-[Ornament: vignette]
+α | Triangulum ABC est simile triangulo DCE.
+α | Le triangle ABC est semblable au triangle DCE.
+
+## DEFINIT. II.
+
+Reciprocæ autem figuræ sunt cùm in vtraque figura antecedentes & consequentes rationum termini fuerint.
+
+Les figures sont reciproques, quand les termes antecedens & consequens des raisons sont en l'vne & en l'autre figure.
+
+[Figure: parallelogrammes A, B, C, D et E, B, G, H, F]
+
+hyp. | abcd & ebgf snt ◇,
+hyp. | ab π bg 2|2 eb π bc,
+2.d.6 | abcd & ebgf snt figur. recipro.
+
+## DEFINIT. III.
+
+Secūdum extremam & mediam rationem recta linea secta esse dicitur, cùm vt tota ad maius segmentum, ita maius ad minus se habuerit.
+
+Vne ligne droicte est dite estre couppee selon la moyenne & extreme raison, quād la toute est au plus grand segment, comme le plus grād segment est au moindre.
+
+[Figure: ligne A—C—B]
+
+hyp. | ab π ac 2|2 ac π cb.
+3.d.6 | AB est secta secūdum extremā ac mediā rationem.
+3.d.6 | AB est coupee en la moyenne & extreme raison.

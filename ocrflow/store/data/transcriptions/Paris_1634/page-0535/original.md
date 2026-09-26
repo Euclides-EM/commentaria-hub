@@ -1,25 +1,17 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-progressionis nuncupátur characteres cossici : vt qq, significat D, esse quadrato-quadratum.
+## SCHOL. I.
 
-*de cette progression s'appellent characteres cossiques, comme qq. signifie que D, est quarré. Les exposans des characteres cossiques monstrent la quantiesme est vne chacune des proportionelles depuis la premiere A. comme 4. monstre que D, est la quatriesme proportionelle.*
+Ex hac propositione sequitur, si latus siue primus gradus parodicus sit numerus quadratus, omnes gradus parodicos esse numeros quadratos : si verò primus gradus parodicus sit cubus, omnes esse cubos.
 
-Exponentes characterum cossicorum ostendunt quota sit vnaquæque proportionalium à prima proportionali A : vt 4. ostendit D, esse quartam proportionalem.
+*De cette proposition s'ensuit, que si le costé ou premier degré parodique est vn nombre quarré, tous les degrez parodiques sont quarrez. Mais si le premier degré parodique est cube, tous sont cubes.*
 
-In hac octaua propositione demonstratum est, omnes numeros, quorum exponentes sunt pares, esse quadratos : vt B,D,F,&c.
+## SCHOL. II.
 
-*En cette huictiesme proposition il est demonstré que tous les nombres qui ont leurs exposans pairs, sont quarrez : comme B,D,F,&c.*
+Sequitur etiam numeros quorum exponentes sunt numeri primi esse potestates vnius gradus parodici, nimirum primi gradus A. Numeros verò quorum exponentes sunt numeri compositi, esse potestates tot graduum parodicorum quot exponentes metiuntur eorum exponentem : vt numerus F, cuius exponens est 6. est potestas trium graduum parodicorum, nempe primi, secundi & tertij, quorum exponentes metiuntur exponentem numeri F, ac proinde radix cubo-cubica numeri F, potest extrahi tribus modis : nempe vel vnica extractione cubo-cubica, vel duabus extractionibus, prima cubica, secunda quadratica, vel prima quadratica, secunda cubica.
 
-Item omnes numeros, quorum exponentes numerus ternarius metitur, esse cubos : vt C,F,&c.
+*Il s'ensuit aussi que les nombres, desquels les exposans sont nombres premiers, sont puissances d'vn seul degré parodique, à sçauoir du premier degré A. Mais les nombres desquels les exposans sont nombres composez, sont puissances d'autant de degrez parodiques, qu'il y a d'exposans qui mesurent leur exposant : comme le nombre F, dont l'exposant est 6. est la puissance de trois degrez parodiques, à sçauoir du premier, second, & troisiesme, les exposans desquels mesurent l'exposant du nombre F, & partant la racine cube-cubique du nombre F, se peut extraire en trois façons : à sçauoir, ou par vne extraction cube-cubique, ou par deux extractiōs, la premiere cubique, & la seconde quarrée, ou la premiere quarrée, & la seconde cubique.*
 
-*Pareillemēt que tous les nombres, les exposans desquels peuuent estre mesurez par trois, sont cubes : comme C,F,&c.*
+## THEOR. X. PROPOS. X.
 
-Item omnes numeros, quorum exponentes numerus senarius metitur, esse cubos simul & quadratos: vt F,&c.
-
-*Et aussi que les nombres, les exposans desquels peuuent estre mesurez par six, sont cubes & quarrez : comme F,&c.*
-
-## THEOR. IX. PROPOS. IX.
-
-Si ab vnitate quotcunque numeri deinceps proportionales fuerint ; qui verò post vnitatem sit quadratus, & reliqui omnes quadrati erunt. At si qui post vnitatem sit cubus, & reliqui omnes cubi erunt.
-
-*Si depuis l'vnité il y a tant de nombres qu'on voudra continuellement proportionaux, & que celuy qui suit apres l'vnité soit quarré, aussi tous les autres se-*
+Si ab vnitate quotcunque numeri deinceps

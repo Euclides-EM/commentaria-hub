@@ -1,39 +1,21 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-Demonstr.
+cio triangulorum isoscelium, quorum anguli æquales ad basim multiplices sunt eorum qui ad verticem sunt angulorum, parium verò laterum figuræ in circulo inscribuntur, beneficio isoscelium triangulorum, quorum anguli ad basim multiplices sesquialteri sunt eorum, qui ad verticem sunt angulorum.
 
-hypoth. | <eab, <abc, <bcd, <cde, <dea snt 2|2 ⁊e,
-c.37.3 & 7.a.1 | <fae, <fab, <fba, <fbc
-| <fcb, <fcd, <fdc, &c.
-| snt 2|2 ⁊e, α
-α | <fab 2|2 <fae,
-α | <fba 2|2 <fea,
-| af est commun.
-26.1 | ab 2|2 ae, β
-1.concl. d.β | abcde est æquilat.
+Les figures de costez impairs sont inscrites dans le cercle par le moyen des triangles isosceles, desquels les angles égaux à la base sont multiples des angles du sommet : Mais les figures de costez pairs sont inscrites dans le cercle par le moyen des triangles dont les angles à la base sont multiples sesquialteres des angles du sommet.
 
-[Figure: pentagone A—B—C—D—E circonscrit au cercle, F au centre, les poincts G, L, H, K, I sur le cercle]
+[Figure: triangle isoscele A—B—C, le sommet en C]
 
-Hypoth 2.
-
-mopq est ⊙,
-
-[Figure: cercle auec quadrilatere M—O—P—Q inscrit et ses diagonales]
-
-Præpar.
-
-1.p.1 | mp est diamet. arbitr.
-arbitr. | mo 2|3 op, α
-1&2.p.1 | oq est diamet.
-1.p.1 | mq & pq snt —.
-
-Demonstr.
-
-31.3 | <mop, <opq, <mqp, <omq snt ∟,
-12.a.1 | <mop, <opq, <mqp, <omq snt 2|2 ⁊e, β
-β3.s.34.1 | mopq est ▭ æquiang.
-α.cōstr. | mopq ñ est ▭ æquilat.
-
-Hypoth. 3.
-
-5<abcde est æquiang.
+hyp. | ca 2|2 cb,
+suppos. | <a & <b 2|2 <c,
+1.concl. 26.3 | ab est subtens.. ⅓.. ⊙,
+suppos. | <a & <b 2|2, 2<c,
+2.concl. 26.3 | ab est subtens.. ⅕.. ⊙,
+suppos. | <a & <b 2|2, 3<c,
+3.concl. 26.3 | ab est subtens.. 1/7.. ⊙,
+suppos. 4.cōcl. | <a & <b 2|2, 1½<c,
+26.3 | ab est subtens.. ¼.. ⊙,
+suppos | <a & <b 2|2, 2½<c,
+5.concl 26.3 | ab est subtens.. ⅙.. ⊙,
+suppos. 6.concl. 26.3 | <a & <b 2|2, 3½<c,
+| ab est subtens.. ⅛.. ⊙.

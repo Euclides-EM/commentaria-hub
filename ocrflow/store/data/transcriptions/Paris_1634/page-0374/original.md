@@ -1,23 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-parallelogrammum applicare deficiens figura parallelogramma, quæ similis sit alteri parallelagrammo dato. Oportet autem datum rectilineum cui æquale applicandum est, non maius esse eo, quod ad dimidiam applicatur similibus existentibus defectibus, & eius, quod ad dimidiam applicatur, & eius, cui simile deesse debet.
+De trois proportionnelles estant donnee la moyenne & la somme des extremes trouuer les extremes.
 
-A vne ligne droicte donnee appliquer vn parallelogramme egal à vne figure rectiligne donnee ; defaillant d'vne figure parallelogramme, laquelle soit semblable à vn autre parallelogramme donné. Mais il faut que la figure rectiligne donnee, à laquelle il en faut appliquer vne egale, ne soit plus grande que celle qui est appliquee à la moitié de la ligne donnee ; les defauts estans semblables de celuy qui est appliqué à la moitié, & de celuy qui doit defaillir d'vn semblable.
-
-[Figure: quarré K, T, N, M ; triangle I ; parallelogramme D ; triangle C, S ; parallelogramme H, F, Q, G auec poincts O, P, R sur la base A, E, Z, B]
+[Figure: demi-cercle H, G, E sur la base A, F, C, D, B, auec ligne K]
 
 Hypoth.
 
-ab est — D.
-c, est rectili. D.
-d, est ◇ D.
+ab est aggreg. D.
+k est 2. D.
 
 Req. π. fa.
 
-◇ap 2|2 rectili. c,
-◇zr, sml. ◇d.
+inuen. ad & db.
 
 Constr.
 
-10.1 | ae 2|2 eb, α
-18.6 | ◇eg, sml. ◇d,
+10.1 | ac 2|2 cb,
+3.p.1 | cahb est semic.
+11.1 | ch ⊥ ab,
+3.1 | cg 2|2 k,
+31.1 | ge == ab,
+12.1 | ed ⊥ ab, α
+symp. | ad & db snt req.
+
+Demonstr.
+
+1.concl. 19.a.1 | ad + db 2|2 ab,
+α.s.13.6 | ad π de 2|2 de π db,
+2.concl. 17.6 | ▭.adb 2|2 □.de,
+34.1 | de 2|2 cg,
+constr. | k 2|2 cg,
+3.concl. 1.a.1 | de 2|2 k.
+
+Explicat. p nr.
+
+hyp. | ab est 26,
+hyp. | de est 12, α
+ad & db snt req.
+15.d.1 | ac u cb u ce est 13,
+1.s.1.d.2 | □.ce est 169,
+α.1.s.1.d.2 | □.ed est 144,
+47.1 | □.cd est 25,
+s.46.3 | cd est 5,
+1.concl. 2.a.1 | ad est 18,
+2.concl. 3.a.1 | db est 8.
+
+## PROBL. IX. PROPOS. XXIX.
+
+Ad datam rectam lineam, dato rectilineo æquale parallelogrammum applicare, excedens figura pa-

@@ -1,36 +1,17 @@
-<!-- Running title: ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-Si hors le cercle on prend quelque poinct, & d'iceluy poinct, tombent au cercle deux lignes droictes, vne desquelles couppe le cercle & l'autre l'atteint. Et que le rectangle contenu sous toute la couppante, & sa partie de dehors, prise entre le poinct & la circonference conuexe soit égal au quarré de l'atteignante, icelle atteignante touchera le cercle.
+tera singulos eius figuræ angulos tetigerint, circū quam illa describitur.
 
-[Figure: cercle B—F—A, C et E au dedans, D au dehors en haut, lignes D—B, D—C—E—A, D—F, B—E, F—E]
+te, touche chacun angle, de celle à l'entour de laquelle elle est descrite.
 
-Hypoth.
+[Figure: triangle A—B—C auec triangle D—E—F inscrit dedans, F sur B—C ; triangle G—H—I auec triangle L—M—N, N au dedans ne touchant pas H—I]
 
-ebf est ⊙,
-▭.adc 2|2 □.db.
+Vt triangulum DEF est inscriptū in triangulo ABC, quia singuli anguli inscripti DEF tangunt singula latera circumscripti ABC ; è contrario triangulum ABC est descriptum circa triangulum DEF, quoniam singula latera illius singulos angulos huius tangunt : Triangulum verò LMN non est inscriptum in triangulo GHI propterea quòd angulus N non tangat latus HI.
 
-Req. π. demonstr.
+Comme le triangle DEF est inscrit dans le triangle ABC, à cause que chacun des angles de l'inscrit DEF touchent chacun des costez du circonscrit ABC ; & au contraire le triangle ABC est descrit à l'entour du triangle DEF, à cause que chacun des costez de celuy-là touche chacun des angles de celuy-cy : Mais le triangle LMN n'est pas inscrit dans le triangle GHI, à cause que l'angle N ne touche point le costé HI.
 
-db tang: ⊙ abf.
+## DEFINIT. III.
 
-Præpar.
+Figura rectilinea in circulo inscribi dicitur, cùm singuli eius figuræ, quæ inscribitur, anguli tetigerunt circuli peripheriam.
 
-17.3 | df tang: ⊙ abf,
-1.p.1 | ed,eb,ef snt —.
-
-Demonstr.
-
-36.3 | □.df 2|2 ▭.adc,
-hyp. | □.db 2|2 ▭.adc,
-1.a.1 | □.df 2|2 □.db,
-s.46.1 | df 2|2 db,
-15.d.1 | eb 2|2 ef,
-| ed est commun.
-8.1 | <ebd 2|2 <efd, α
-18.3 | <efd est ∟,
-12.a.b | <ebd est ∟,
-c.16.3 | db tang: ⊙abf.
-
-## COROLL.
-
-α.8.1 | <edb 2|2 <edf.
+Vne figure rectiligne est dite estre inscrite en vn cercle, quand vn chacun angle de l'inscrite, touche la circonference du cercle.

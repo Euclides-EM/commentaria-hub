@@ -1,33 +1,42 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-21.7 | a, msur: i, 2|2 b, msur: k, γ
-21.7 | c, msur: k 2|2 d, msur: l, γ
-γ | b & c, msur: k,
-37.7 | e, msur: k,
-contra. 9.a.b
-21.a.1 | f, e, g snt mi. nr; ꝗn raō; D. δ
+*S'il y a tant de nombres qu'on voudra continuellement proportionaux, & que le premier ne mesure le second; aussi pas vn autre ne mesurera pas vn autre.*
 
-A,6. B,5. C,4. D,3. E,5. F,7.
-H,24. G,20. I,15. K,21.
+A,16. B,24. C,36. D,54. E,81.
+F,4. G,6. H,9.
 
-1.cas.. hypoth. 2.
+Hypoth.
 
-a π b, c π d, e π f snt term.. raō; D.
+a,b,c,d,e snt cōtin.proport.
+a 2|3 b,
+a, n̄, msur: b.
 
-req. snt h, g, i, k. mi. ꝗn raō; D
+Req. π. demonstr.
 
-Constr.
+a,b,c,d,e, n̄, msur: ꝫe.
 
-cōstr. δ | h, g, i snt mi. ꝗn raō; a π b, c π d,
-suppos. | e, msur: i, 2|2 f, msur: k,
-d. δ | h, g, i, k snt nr; req.
+Præpar.
 
-A,6. B,5. C,4. D,3. E,2. F,7.
-H,24. G,20. I,15.
-M,48. L,40. K,30. N,105.
-O-- P-- Q-- R--
+f,g,h snt term..raō. a π b. α
 
-2. cas.. hypoth. 2.
+Demonstr.
 
-suppos. | e, n̄ msur: i,
-36.7 | k, est mi. diuidu.. i & e,
+hyp. | a, n̄, msur: b,
+1c20 d7 | b, n̄, msur: c,
+1c20 d7 | c, n̄, msur: d,
+1c20.d7 | d, n̄, msur: e,
+α.14.7 | a π c 2|2 f π h,
+constr. | a π b 2|2 f π g,
+hyp. | a, n̄, msur: b,
+1c20.d7 | f, n̄, msur: g,
+5.a.7 | f, n̄, est vnit.
+α.3.8 | f & h snt pr. ꝫe,
+11.d.7 | f, n̄, msur: h,
+1.concl. 1c20.d7 | a, n̄, msur: c, β
+d. β | a, n̄, msur: d, u e.
+
+## THEOR. V. PROPOS. VII.
+
+Si sint quotcunque numeri deinceps proportionales, primus autem extremum metiatur, is etiam metitur secundum.
+
+*S'il y a tant de nombres qu'on voudra continuellement proportionaux, & que le premier mesure le dernier, il mesurera aussi le second.*

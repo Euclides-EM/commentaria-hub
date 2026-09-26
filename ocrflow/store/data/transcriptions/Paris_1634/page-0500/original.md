@@ -1,41 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-i, msur: k,
-3.p.7 | g, msur: l,
-3.p.7 | h, msur: m,
-3.p.7 | e, msur: k,
-f, msur: n,
-d. δ | m,l,k,n snt nr. req.
-
-## THEOR. III. PROPOS. V.
-
-Plani numeri rationem inter se habent ex lateribus compositam.
-
-*Les nombres plans sont l'vn à l'autre en raison composee de leurs costez.*
-
-A,24. B,48.
-C,4. D,6. E,3. F,16
-G,18.
+A,3. B,6. C,12. D,24. E,48.
 
 Hypoth.
 
-▭.cd 2|2 a, α
-▭.ef 2|2 b, β
+a,b,c,d,e snt cōtin.proport.
+a, msur: e.
 
 Req. π. demonstr.
 
-raō. a π b 2|2 raō. c π e + raō. d π f.
-
-Præpar.
-
-▭.e,d 2|2 g. γ
+a, msur: b,
 
 Demonstr.
 
-αγ.17.7 | a π g 2|2 c π e,
-βγ.17.7 | g π b 2|2 d π f,
-concl. 20.d.5 | raō. a π b 2|2 raō. c π e + raō. d π f.
+suppos. | a, n̄, msur: b,
+6.7 | a, n̄, msur: e,
+contr. hypoth.
 
-## THEOR. V. PROPOS. VI.
+## THEOR. VI. PROPOS. VIII.
 
-Si sint quotcunque numeri deinceps proportionales, primus autem secundum non metiatur ; neque alius quispiam vllum metietur.
+Si inter duos numeros medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri: tot & inter alios eandem cum illis habentes rationem medij continua proportione cadent.
+
+*Si entre deux nombres tombent des nombres moyens proportionaux, en proportion continuë : autant qu'il en tombera entre iceux, de moyens continuellement proportionaux ; il en tombera autant de moyens continuellement proportionaux entre deux autres qui auront la mesme raison.*
+
+A,24. C,36. D,54. B,81.
+G,8. H,12. I,18. K,27.
+E,32. L,48. M,72. F,108.
+
+Hypoth.
+
+a, c, d, b snt contin. proport.

@@ -1,13 +1,11 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Figure: parallelogramme GLMH, H en haut à gauche, M en haut à droite, G en bas à gauche, L en bas à droite]
+ab hisce parallelis in quatuor distribuatur parallelogramma : appellantur duo illa, per quæ diameter non transit, complementa ; duo verò reliqua, per quæ diameter incedit, circa diametrum consistere dicuntur. | rallelogramme soit diuisé par icelles lignes paralleles, en quatre parallelogrammes ; les deux par où le diametre ne passe, sont appellez complements : mais les deux autres, par lesquels le diametre passe, sont dits estre à l'entour du diametre.
 
-Quadrilateræ figuræ diuiduntur in parallelogrammum & trapezium. | Les figures quadrilateres sont diuisées en parallelogrämes & trapezes.
+[Figure: parallelogramme ABCD, A en haut à gauche, E en haut vers la droite, B en haut à droite, H à gauche, D en bas à gauche, F et C en bas à droite, I à droite, G au milieu ; diagonale AC, ligne HI parallele au costé superieur, ligne EF parallele aux costez, se coupant en G sur la diagonale]
 
-Parallelogrammorum species sunt quatuor, nempe quadratum, altera parte longior figura siue rectangulum, rhombus & rhomboïdes. | Il y a quatre especes de parallelogrammes, à sçauoir le quarré, le rectangle, le rhombe, & le rhomboïde.
+Parallelogramma DG & GB sunt complementa, parallelogramma verò HE & FI dicuntur consistere circa diametrum. | Les parallelogrammes DG & GB sont complements, mais les parallelogrammes HE & FI sont dits estre à l'entour du diametre.
 
-Trapeziorum quoque sunt tres species, nimirum trapezium isosceles, trapezium scalenum, & trapezium irregulare. | Il y a außi trois especes de trapezes, à sçauoir trapeze isoscele, trapeze scalene, & trapeze irregulier.
+### XXXVII.
 
-Trapezium isosceles est, cuius duo latera opposita sunt parallela, & reliqua duo non quidem parallela, sed inter se æqualia, vt ABED. | Trapeze isoscele est celuy qui a deux costez opposez, & les deux autres costez egaux entr'eux, mais non paralleles, comme ABED.
-
-[Figure: trapeze isoscele ABED, D et E en haut, A et B en bas ; à costé : de Ⅱ ab. ad 2|2 be.]
+Figura regularis siue ordinata dicitur, quæ & æquilatera & æquiangula est. | La figure reguliere est, celle qui est equilatere & equiangle.

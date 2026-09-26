@@ -1,39 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-nea, & circuli peripheria comprehenditur.
+per hanct octauam definitionem insistit siue opponitur peripheriæ ADC.
 
-se, sous vne ligne droicte, & la circonference du cercle.
+definition il s'appuye où est opposé à la circonference ADC.
 
-5.d.3 | abc & def snt ⌓.
+## DEFINIT. IX.
 
-[Figure: deux segments de cercle, le premier A—B—C, le second D—E—F, sur les bases A—C et D—F]
+Sector autem circuli est, cum ad ipsius circuli centrum constitutus fuerit angulus, comprehensa nimirum figura & à rectis lineis angulum continentibus, & à peripheria ab illis assumpta.
 
-Explicatio notarum.
+Secteur du cercle est vne figure, contenuë sous deux lignes droictes qui constituent vn angle au centre, & de la circonference comprise entre icelles lignes.
 
-ABC & DEF sunt segmenta circuli.
+hypoth. | d est centr.. ⊙,
+9.d.3 | adb est sectr.. ⊙,
 
-Explication des notes.
-
-ABC & DEF sont segments de cercle.
-
-## DEFINIT. VI.
-
-Segmenti autem angulus est, qui sub recta linea, & circuli peripheria comprehenditur.
-
-L'angle du segment ou de la section, est celuy qui est compris sous vne ligne droicte, & la circonference du cercle.
-
-6.d.3 | cab est <.. segm.
+[Figure: cercle avec A et B en haut, C en bas, D au centre, lignes D—A et D—B]
 
 Explicatio notarum.
 
-CAB est angulus segmenti.
+D, est cétrum circuli, ADB est sector ctirculi.
 
 Explication des notes.
 
-CAB est l'angle du segment.
+D, est centre du cercle, ADB est secteur du cercle.
 
-## DEFINIT. VII.
+## DEFINIT. X.
 
-In segmento autem angulus est, cum in segmenti peripheria sumptum fuerit quodpiam punctum, & ab illo in terminos rectæ eius lineæ, quæ segmenti basis est, adiunctæ fuerint rectæ li-
+Similia circuli segmenta sunt, quæ angulos capiunt æquales: aut in quibus anguli inter se sunt æquales.
 
-Mais vn angle est au segment ou en la section, lors qu'on prend quelque poinct en la circonference du segment, & d'iceluy sont menées deux lignes droictes sur les extremitez de la ligne droicte, laquelle
+Semblables segments ou sections de cercles sont celles, qui reçoiuent angles égaux; ou esquelles les angles sont égaux entr'eux.

@@ -1,36 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-## THEOR. XIX. PROPOS. XXVIII.
+1.concl. 21.a.1. | <agh + <chg 2|2 2∟,
+13.1. | <dhg + <chg 2|2 2∟,
+12.a.1. | <chg + <agh 2|2 <chg + <dhg,
+| <chg commun. subtr.
+2.cöcl. 3.a.1. | <dhg 2|2 <agh, α
+15.1. | <bge 2|2 <agh,
+α | <dhg 2|2 <agh,
+13.concl. 1.a..1 | <bge 2|2 <dhg.
 
-Si in duas rectas lineas recta incidens linea externum angulum interno, & opposito, & ad easdem partes, æqualem fecerit; aut internos, & ad easdem partes duobus rectis æquales : parallelæ erunt inter se ipsæ rectæ lineæ.
+## SCHOL. I.
 
-Si vne ligne droicte tombant sur deux lignes droictes, faict l'angle externe égal à l'interne, & opposé & de mesme part ; où les internes de mesme part égaux à deux droicts, icelles lignes droictes seront paralleles entr'elles.
+Si externus angulus sit æqualis interno & opposito ad easdem partes, linea incidens in rectas parallelas est recta.
+
+Si l'angle externe est égal à l'interne & opposé de mesme part, la ligne tombant sur lignes droictes paralleles est droicte.
 
 [Figure: ligne A—G—B, ligne C—H—D, ligne transversale E—G—H—F, E en haut à droicte, F en bas à gauche]
 
-Hypoth. 1.
+Hypoth.
 
-<ega 2|2 <ghc.
-
-Req. π. demonstr.
-
-ab == cd.
-
-Demonstr.
-
-15.1. | <hgb 2|2 <ega,
-hyp. | <ghc 2|2 <ega,
-1.a.1. | <hgb 2|2 <ghc,
-1.concl. 27.1. | ab == cd.
-
-Hypoth. 2.
-
-<agh + <chg 2|2 2∟.
+ab == cd,
+<egb 2|2 <ghd.
 
 Req. π. demonstr.
 
-ab == cd.
+egh est —.
 
 Demonstr.
 
-hyp. | <agh + <cgh 2|2 2∟,
+hyp. | <egb 2|2 <ghd,
+| <bgh commun. add.
+2.a.1. | <egb + <bgh 2|2 <ghd + <bgh,
+29.1. | <ghd + <bgh 2|2 2∟,
+1.a.1. | <egb + <bgh 2|2 2∟,
+concl. 14.1. | egh est —.

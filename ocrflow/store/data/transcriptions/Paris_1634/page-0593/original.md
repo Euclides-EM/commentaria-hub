@@ -1,42 +1,47 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-Req. π. demonstr.
+suppos. | a, comm. e,
+1.concl. 10.10 | c, comm. f,
+suppos. | a, incomm. e,
+2 concl. 10.10 | c, incomm. f.
 
-a, incomm. b.
+## THEOR. XIII. PROPOS. XVI.
 
-Demonstr.
+Si duæ magnitudines commensurabiles componantur, & tota magnitudo vtrique ipsarum commensurabilis erit : Quod si tota magnitudo vni ipsarum commensurabilis fuerit, & quæ à principio magnitudines commensurabiles erunt.
 
-suppos. | b, comm. a,
-hyp. | c, comm. a,
-12.10 | b, comm. c,
-contr. hypoth.
-concl. 21.a.1 | a, incomm. b.
+*Si deux grandeurs commensurables sont composees, la toute sera aussi commensurable à chacune d'icelles : Et si la toute est commensurable à vne d'icelles, les grandeurs proposees au commencement seront commensurables entr'elles.*
 
-## THEOR. XI. PROPOS. XIV.
+A------B------C
+D------
 
-Si sint duæ magnitudines commensurabiles, altera autem ipsarum magnitudini cuipiam incommensurabilis fuerit ; & reliqua eidem incommensurabilis erit.
+Hypoth. 1.
 
-*S'il y a deux grandeurs commensurables, & que l'vne d'icelles soit incommensurable à quelque grandeur ; l'autre sera aussi incommensurable à la mesme.*
-
-ABC
-
-Hypoth.
-
-a, comm. b,
-a, incomm. c.
+ab, comm. bc.
 
 Req. π. demonstr.
 
-b, incomm. c.
+ac, est comm. ab, bc.
+
+Præpar.
+
+ʒ. 10 | d, est msur..ab & bc.
 
 Demonstr.
 
-suppos | c, comm. b,
-hyp. | a, comm b,
-12.10 | a, comm. c.
-contr. hypoth.
-21.a.1 | b, incomm. c.
+constr. | d, msur: ab & bc,
+1.a.10 | d, msur: ac,
+1.concl. 1.d.10 | ac, comm. ab, & bc.
 
-## THEOR. XII. PROPOS. XV.
+Hypoth. 2.
 
-Si quatuor rectæ lineæ proportionales fuerint, prima verò tantò plus possit quàm secunda, quantum est quadratum rectæ lineæ sibi commensurabilis longitudine, & tertia tantò plus poterit quàm
+ac, comm. ab.
+
+Req. π. demonstr.
+
+ab, comm. bc.
+
+Demonstr.
+
+ʒ. 10 | d, msur: ac & ab, α
+ʒ.a.10 | d, msur: bc, α
+2 concl. α.1.d.10 | ab, comm. bc.

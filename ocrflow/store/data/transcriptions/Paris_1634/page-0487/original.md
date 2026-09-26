@@ -1,41 +1,35 @@
-<!-- Running title: ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
 
-λ.2c.20 d.7 | e, msur: f,
-contr. suppos. μ
-2.concl. 21.a.1 | e, est mi. commun. diuidu.. a & b.
+δ | a & b msur: f,
+ε.37.7 | d, msur: f,
+δ | c, msur: f,
+γ | e, n̄ est mi.c.diuidu.. c & d.
+contr. constr.
 
 ## COROLL.
 
-Hinc sequitur, si duo numeri multiplicent minimos eandem rationem habentes, maior minorem, & minor maiorem, produci numerum minimum, quem illi metiuntur.
+Sequitur ex his, si tres numeri numerum quempiam metiantur; etiam minimum, quem illi metiuntur, eundem metiri.
 
-*D'icy il s'ensuit que si deux nombres multiplient les plus petits ayans la mesme raison, le plus grand le plus petit & le plus petit le plus grand, le produit sera le plus petit nombre qu'iceux mesurent.*
+*D'icy il s'ensuit, que si trois nombres mesurent quelque nombre, que le moindre nombre, qu'ils mesurent, mesure aussi ce mesme nombre.*
 
-## THEOR. XXXIII. PROPOS. XXXVII.
+## THEOR. XXXIV. PROPOS. XXXIX.
 
-Si duo numeri numerū quempiā metiantur: etiam minimus, quem illi metiuntur, eundem metietur.
+Si numerum quispiam numerus metiatur; ille, quem metitur, partem habebit à metiente denominatam.
 
-*Si deux nombres mesurēt quelque autre nombre: le plus petit qu'ils mesurent, mesurera aussi le mesme nombre.*
+*Si vn nombre mesure vn autre nombre ; celuy lequel il mesure, aura vne partie denommee du mesurant.*
 
-A..2 B..3
-C----F---D
-E.......6
+A.............12
+B....4 C...3
+D. vnit.
 
 Hypoth.
 
-a & b msur: cd,
-e, est mi. c. diuidu.. a & b.
+b, msur: a ꝑ c. α
 
 Req. π. demonstr.
 
-e, msur: cd.
+c, est par.. nr. a, denom. ꝑ b,
 
 Demonstr.
 
-suppos. | e, msur: cf,
-suppos. | fd est 2|3 e, α
-hyp. | a & b msur: e,
-11.a.7 | a & b msur: cf,
-hyp. | a & b msur: cd,
-12.a.7 | a & b msur: fd,
-α | e, n̄ est mi. c. diuidu.. a & b.
-contr. hyp.
+c.23.d.7 | d π c 2|2 b π a,

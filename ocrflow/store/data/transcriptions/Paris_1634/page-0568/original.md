@@ -1,21 +1,23 @@
-# EVCLIDIS ELEMENTORVM LIBER DECIMVS.
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-# LE DIXIESME LIVRE DES ELEMENTS D'EVCLIDE.
+lineas multitudine infinitas & cómensurabiles esse & incommensurabiles ; alias quidem longitudine & potentia; alias vero potétia solum. Vocetur autem proposita recta linea Rationalis.
 
-## DEFINIT. I.
+*lignes droictes en multitude sont commensurables, & infinies incommensurables : les vnes en longitude & puissance, les autres en puissance seulement. Or ceste ligne droicte proposee soit appellee Rationelle.*
 
-Commensurabiles magnitudines dicuntur, quas eadem mensura metitur.
+## DEFINIT. VI.
 
-*Commēsurables grandeurs sont celles-là, lesquelles sont mesurees par vne mesme cōmune mesure.*
+Et huic commensurabiles siue longitudine & potentia, siue potentia tantum Rationales.
 
-## DEFINIT. II.
+*Et les lignes droictes commēsurables à ceste ligne rationelle, soit en longitude & puissance seulement, soient appellees aussi Rationelles.*
 
-Incommēsurabiles autem sunt, quarum nullam communem mensuram contigit reperiri.
+## DEFINIT. VII.
 
-*Mais les grandeurs incommensurables sont celles-là, lesquelles n'ont aucune commune mesure.*
+Huic vero incommensurabiles Irrationales vocentur.
 
-## DEFINIT. III.
+*Et les lignes incommensurables à ceste ligne rationelle, soient appellees Irrationelles.*
 
-Rectæ lineæ potentia commensurabiles sunt,
+## DEFINIT. VIII.
 
-*Les lignes droictes sont cōmensurables en puissance,*
+Et quadratum, quod à proposita recta fit, dicatur Rationale.
+
+*Et le quarré descrit de la rationelle, soit appellé Rationel.*

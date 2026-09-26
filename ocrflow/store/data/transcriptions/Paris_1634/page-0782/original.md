@@ -1,45 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-[Figure: labels arranged A / B E G R / C D H M / L]
+9.a. 1 | △bdg 3|2 bdgob,
+9.a. 1 | △cfg 3|2 cfgzc,
+concl. 1. a. c | △adf 3|2 bogzcfd.
 
-Præpar.
+## LEMM. III.
 
-1.3, & 1 & 2. p.1 | al & fm snt diamet.
-1. p.1 | ac, bl, fh, gm snt ——
+Rectilineum circulo inscribere, & aliud circumscribere, ita vt plana comprehensa inter periphæriam & rectilineum inscriptum, vel circumscriptum sint minora dato quocunque plano.
 
-Req. π. demonstr.
+*Inscrire vn rectiligne dans le cercle, & circonscrire vn autre à l'entour, en sorte que les plans compris entre la circonference & le rectiligne inscrit ou circonscrit soient moindres que quelconque plan donné.*
 
-polyg. abcde π polyg. fghiк, / □.al π □.fm.
-
-Demonstr.
-
-α. 1.d.6 | <abc 2|2 <fgh,
-α. 1.d.6 | ab π bc 2|2 fg π gh,
-6. 6 | <acb 2|2 <fhg,
-21. 3 | <alb 2|2 <acb,
-21. 3 | <fmg 2|2 <fhg,
-1. a b | <acb 2|2 <fmg,
-31. 3 | <abl & <fgm snt ⊥;
-c.4.6 | ab π fg 2|2 al π fm,
-concl. 22. 6 | polyg.ab π poly.fg, / □.al π □.fm.
-
-## LEMM. I.
-
-Sectio semicirculo non major cedit trianguli æquicruri sibi inscripti duplo.
-
-*Vn segment qui n'excede le demy cercle est moindre que le double du triangle isoscele qui luy est inscrit.*
-
-[Figure: labels arranged D C E / A F B]
+[Figure: labels arranged E N B O F / I L / M R P / V C / T / S Q / G D H]
 
 Hypoth.
 
-acb, est segm.. ⊙,
-acb, est △ isosc. inscri. ꝗn D
+aibld, est ⊙,
+r, est plan. D.
 
-Req. π. demonstr.
+Constr.
 
-D acb 2|3 △ acb.
+6. 4 | abcd, est □. inscri. ⊙,
+30.3 | aib, est △ isosc. &c.
+7. 4 | gefh, est □ circscri.
+30. 3 | mn tang: ⊙ ꝗn i &c.
 
-Præpar.
+Demonstr.
 
-12. 1 | cf ⊥ ab,
+47.1 | □ac 2|2, ½ □gf,
+9.a. 1 | ⊙abcd 2|3 □gf,
+6. a. b | □ac 3|2, ½ ⊙abld,
+1.l.1.12 | △aib 3|2, ½ D aib,
+1.l.1.12 | △blc 3|2, ½ D blc, &c.
+1.concl. 1. 10 | aggreg.. D ai + D ib + D bl + D lc + cq &c. 2|3 r

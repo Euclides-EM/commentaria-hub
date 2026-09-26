@@ -1,23 +1,43 @@
-<!-- Running title: ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
+
+A....4G....4B C.............12
+D.....5H.....5E F................15
+
+Hypoth.
+
+ab part.. c 2|2 de part.. f,
+
+ab 2|3 d & c 2|3 f. α
+
+Req. π. demonstr.
+
+ab par. u part.. de 2|2 c, par. u part.. f.
 
 Demonstr.
 
-3.p.7 | ag & gb snt part.. ab 2|2 part..cd, α
-3.p.7 | ah & he snt part..ae 2|2 part.. cf,
-constr. | gl 2|2 ah u he,
-3.a.1 | hg 2|2 el,
-α.7.a.1 | ag 2|2 gb,
-3.a.1 | hg 2|2 lb,
-1.a.1 | hg, el, lb snt 2|2 ꝫe,
-19.a.1 | ab ~ ae 2|2 eb u el + hg,
-hyp. | ag par.. cd 2|2 ah par.. cf,
-7.7 | ag par.. cd 2|2 hg u el par.. fd, β
-hyp. | gb par.. cd 2|2 he u gl par.. cf,
-7.7 | gb par.. cd 2|2 lb par.. fd, γ
-concl. βγ | eb part.. fd 2|2 ab par.. cd u ae par.. cf.
+3.p.7 | ag & gb snt part.. ab 2|2 part.. c,
+3.p.7 | dh & he snt part.. de 2|2 part.. f,
+s.4.d.7 | multd.. part.. ab 2|2 multd.. part.. de,
+9.7 | c, par. u part.. f 2|2 ag, par. u part.. dh, u gb, par. u part.. he,
+concl. 5 & 6.7 | ab par. u part.. de 2|2 c, par. u part.. f.
 
-## THEOR. VII. PROPOS. IX.
+## THEOR. IX. PROPOS. XI.
 
-Si numerus numeri pars fuerit, & alter alterius eadem pars : & vicissim, quæ pars est, aut partes primus tertij, eadem pars erit, vel eædem partes & secundus quarti.
+Si fuerit vt totus ad totū, ita ablatus ad ablatum : & reliquus ad reliquum erit, vt totus ad totum.
 
-*Si vn nombre est telle partie d'vn nombre, qu'vn autre est partie d'vn autre ; aussi en changeant le premier sera telle partie ou telles parties du troisiesme que le second du quatriesme.*
+*Si comme le tout est au tout, ainsi le retranché est au retranché : aussi le reste sera au reste comme le tout au tout.*
+
+A.....4E...3B
+C........8F......6D
+
+Hypoth.
+
+ab π cd 2|2 ae π cf.
+
+Req. π. demonstr.
+
+eb π fd 2|2 ab π cd.
+
+Demonstr.
+
+hyp. | ab π cd 2|2 ae π cf,

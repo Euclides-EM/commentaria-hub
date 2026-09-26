@@ -1,44 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-Coroll.
-
-α | ab π dc 2|2 bc π ce u ac π de.
-
-## SCHOL.
-
-[Figure: triangles C, B, G, C, B, G avec lignes F, D, E, E, A, F]
+[Figure: triangles A, B, C et D, G avec E, F]
 
 Hypoth.
 
-agc est Δ,
-dab, gaf, cae snt —
-ef == gc. α
-
-Req. π. demonstr.
-
-ed π df 2|2 cb π bg.
-
-Demonstr.
-
-α.29.1 | Δade, sml. Δabc,
-α.29.1 | Δadf, sml. Δabg,
-c.4.6 | cb π ed 2|2 ab π ad,
-c.4.6 | bg π df 2|2 ab π ad,
-11.5 | cb π ed 2|2 bg π df,
-concl. 16.5 | cb π bg 2|2 ed π df.
-
-## THEOR. V. PROPOS. V.
-
-Si duo triangula latera proportionalia habeant, æquiangula erunt triangula, & æquales habebunt eos angulos, sub quibus homologa latera subtenduntur.
-
-Si deux triangles ont les costez proportionaux, iceux triangles seront equiangles, & auront les angles egaux, sous lesquels les costez de mesme raison sont soustendus.
-
-Hypoth.
-
-ab π bc 2|2 de π ef,
-ac π bc 2|2 df π fe,
-ab π ac 2|2 de π df.
+<b 2|2 <def, α
+ab π bc 2|2 de π ef.
 
 Req. π. demonstr.
 
 Δabc & Δdef snt æquiang.
+<a 2|2 <d,
+<c 2|2 <dfe.
+
+Præpar.
+
+<feg 2|2 <b, β
+<efg 2|2 <c.
+
+Demonstr.
+
+β.32.1 | <g 2|2 <a,
+4.6 | ge π ef 2|2 ab π bc,
+hyp. | de π ef 2|2 ab π bc,
+11.5 | de π ef 2|2 ge π ef,
+9.5 | de 2|2 ge,
+α.β.1.a.1 | <def 2|2 <gef,
+1.concl. | <d 2|2 <gu<a,
+β.4.1 2.concl. 32.1 | <efd 2|2 <c.
+
+## THEOR. VII. PROPOS. VII.
+
+Si duo triangula vnum angulum vni angulo æqualem, circum autem alios angulos latera proportionalia habeāt, reliquorum verò simul vtrumque aut minorem, aut non minorem recto : æquiangula erunt triangula, & æquales habebunt eos angulos, circum quos proportionalia sunt latera.
+
+Si deux triangles ont vn angle egal à vn angle, & à l'entour d'vn autre angle les costez proportionaux, estans les troisiesmes angles de mesme espece : les triangles seront equiangles, & auront les angles egaux à l'entour desquels les costez sont proportionaux.

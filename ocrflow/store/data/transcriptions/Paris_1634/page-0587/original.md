@@ -1,48 +1,56 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Si quatre grandeurs sont proportionelles, & que la premiere soit commensurable à la seconde, la troisiesme sera aussi commensurable à la quatriesme. Et si la premiere est incommensurable à la seconde, la troisiesme sera aussi incommensurable à la quatriesme.*
+Hypoth.
 
-CABD
+b & c snt nr; D;
+km, est —— D.
 
-Hypoth. 1.
+Req. π. fa.
 
-c π a 2|2 b π d,
-c & a snt comm. ꝗe.
+b π c 2|2 □.km π □.d
 
-Req. π. demonstr.
+Constr.
 
-b & d snt comm. ꝗe.
-
-Demonstr.
-
-hyp. | c & a snt comm. ꝗe,
-5.10 | c π a 2|2 nr. π. nr.
-hyp. | b π d 2|2 c π a,
-11.5 | b π d 2|2 nr. π. nr.
-1.concl. 6.10 | b & d snt comm. ꝗe.
-
-Hypoth. 2.
-
-c & a snt incomm. ꝗe.
-
-Req. π. demonstr.
-
-b & d snt incomm. ꝗe.
+2l10.10 | b π c 2|2 km π hr,
+13.6 | km π d 2|2 d π hr, α
+symp. | d, est nr. req.
 
 Demonstr.
 
-hyp. | c & a snt incomm. ꝗe.
-7.10 | c π a n̄ est 2|2 nr. π. nr.
-hyp. | b π d 2|2 c π a,
-11.5 | b π d n̄ est 2|2 nr. π. nr.
-2 concl. 8.10 | b & d snt incomm. ꝗe.
+α.c20.6 | □.km π | □.d,
+km π | hr,
+constr. | b π c 2|2 km π hr,
+concl. 11.5 | □.km π □.d 2|2 b π c.
 
-## LEMM. I.
+## PROBL. III. PROPOS. XI.
 
-Duos numeros planos inuenire, qui proportionem non habeant, quam quadratus numerus ad quadratum numerum.
+Propositæ rectæ lineæ inuenire duas rectas lineas incommensurabiles, alteram quidem longitudine tantùm, alteram vero etiam potentia.
 
-*Trouuer deux nombres plans, lesquels n'ayent mesme raison entr'eux que nombre quarré à nombre quarré.*
+*Trouuer deux lignes droictes incommensurables à vne ligne droicte proposee, à sçauoir l'vne en longitude seulement, & l'autre en longitude & puissance.*
 
-Huic lemmati satisfacient duo quilibet numeri plani non similis, quales sunt numeri habentes proportionem superparticularem, vel superbipartientem,
+A---------- B,20.
+E--------
+D---------- C,16.
 
-*A ce lemme pourront satisfaire deux nombres plans dissemblables tels qu'on voudra, comme sont les nombres qui ont proportion superparticuliere, ou superbipartiēte, ou*
+Hypoth.
+
+a, est —— D.
+
+Req. 1. est d incomm. a.
+
+Constr.
+
+1.l10.10 | b π | c,
+n̄, est nr. □ π | nr. □,
+2l10.10 | b π c 2|2 □.a π □.d,
+symp. | req. est d.
+
+Demonstr.
+
+constr. | □.a π | □.d,
+nr. b π | nr. c,
+1.concl. 6.10 | □.a, comm. □.d,
+constr. | b π | c,
+n̄, est nr. □ π | nr. □,
+α.11.5 | □.a π | □.d,
+n̄, est nr. □ π | nr. □,

@@ -1,15 +1,15 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### XXIX.
+[Figure: trapeze GNDH, H en haut à gauche, D en haut à droite, G en bas à gauche, N en bas]
 
-Quadrilaterarum autem figurarum, quadratum quidem est, quod & æquilaterum & rectangulum est, vt ABCD. | Or des figures quadrilateres, le quarré est celuy qui est equilatere & rectangle, comme ABCD.
+### XXXIV.
 
-[Figure: quarré ABCD, B en haut à gauche, C en haut à droite, A en bas à gauche, D en bas à droite]
+Parallelæ rectæ lineæ sunt, quæ cum in eodem sint plano, & ex vtraque parte, in infinitum producantur, in neutram sibi mutuò incidunt, vt A & B. | Paralleles sont lignes droictes, lesquelles estant en vn mesme plan, & prolongees infiniment de part & d'autre, ne se rencontrent d'vn costé ny d'autre, comme A & B.
 
-### XXX.
+[Figure: deux lignes droictes horizontales paralleles A et B]
 
-Altera verò parte longior figura est, quæ rectangula quidem, at æquilatera non est, vt ABCD. | Le quarré long ou rectangle est, vne figure qui a les angles droits, mais qui n'est pas equilateral, comme ABCD.
+Hic finem imposuit Euclides definitionibus primi libri, sequentes duæ sunt ex Clauio, quæ deinceps sequütur sunt à nobis additæ. | Euclide a icy fini les definitions du premier liure, les deux suiuantes sont de Clauius, & celles qui suiuent nous les auons adjoustées.
 
-[Figure: rectangle ABCD, B en haut à gauche, C en haut à droite, A en bas à gauche, D en bas à droite, E au milieu du costé AD]
+### XXXV.
 
-XXXI.
+Parallelogrammum est figura quadrilatera, cuius bina opposita latera sunt parallela, seu æquidistantia, vt GLHM. | Parallelogramme est vne figure quadrilatere, de laquelle les costez opposez sont paralleles ou equidistantes, comme GLMH.

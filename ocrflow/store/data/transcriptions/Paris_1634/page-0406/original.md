@@ -1,36 +1,54 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-acutos ad punctum C æquiualere vni recto, non opus esset alia demōstratione, ad demonstranda primum & secundum theorema angularium sectionum Francisci Vietæ : conclusiones enim huius à conclusionibus illorum non differunt, triangula primi theorematis Vietæ sunt EFC primum, ECB secundum, FCD tertium : acuti anguli sunt EFC, ECB & FCD. Triangula secundi theorematis sunt, FEC primum, AFE secundum, FCD tertium : acuti anguli sunt FCE, FEA, CFD.
+32.1 | Δmic est æquiang. Δmhg,
+4.6 | mh π mg 2|2 mi π mc, δ
+1.c.36.3 & 16.6 | mb π ma 2|2 mi π mc,
+11.5 | mh π mg 2|2 mb π ma,
+3.concl. δ.16.6 | ▭.bmg 2|2 ▭amh.
 
-Si la demonstration de ce theoreme ne supposoit point que les trois angles du poinct C sont egaux à vn angle droict, il ne faudroit point d'autre demonstration, pour prouuer le premier & le second theoreme de de la section des angles de Monsieur Viete : car les conclusions de celuy-cy ne different point des conclusions de ceux-là. Les triangles du premier theoreme de Viete sont EFC le premier, ECB le second, FCD le troisiesme : les angles aigus sont EFC, ECB & FCD. Les triangles du second theoreme sont FEC le premier, AFE le second, & FCD le troisiesme : les angles aigus sont FCE, FEA, CFD.
+## THEOR. XI. PROPOS. XXII.
 
-## THEOR. IX. PROPOS. XX.
+Pappus lib. 7. propos. 75. & 76.
 
-Io. Baptista Benedictus in Epistolis.
-
-[Figure: deux figures : demicercle sur A B auec les poincts E, D, F, C ; & demicercle sur A B auec les poincts E, D, C]
+[Figure: cercle sur le diametre A B auec les poincts G, C, H, R, M, S, D, E, F, L, N, O, I, P]
 
 Hypoth.
 
-aeb est semic.
+cagbh est ⊙,
 
-<acd est ⌐,
+ab est diamet.
 
-aed u ade est —,
+arbitr. | d est • in ◠agb,
 
-af & be snt —.
+ad & bd snt —,
+
+lbf == ad,
+
+arbitr. | ef & gh == db.
 
 Req. π. demonstr.
 
-▭.dae 2|2 ▭.bac.
+ed 2|2 fb,
+
+dr 2|2 bs,
+
+da 2|2 bl,
+
+ep 2|2 if.
+
+Præpar.
+
+co == ae.
 
 Demonstr.
 
-hyp. | <acd est ⌐,
-31.3 | <aeb est ⌐,
-
-<dac est commun.
-
-32.1 | Δdac sml. Δeab,
-4.6 | da π ac 2|2 ab π ae,
-concl. 16.6 | ▭.dae 2|2 ▭.bac.
+constr. | eb & ds snt ◊,
+31.3 | <adb est ⌐,
+2.s.29.1 | ds & eb snt ▭,
+2.s.29.1 | dm & en snt ▭,
+1.concl. 34.1 | ed 2|2 fb,
+2.concl. 34.1 | dr 2|2 bs,
+3.3 | dn u eo 2|2 nb u of, α
+3.concl. 14.3 | da 2|2 bl,
+3.3 | po 2|2 oi,
+4.concl. α.3.a.1 | ep 2|2 if.

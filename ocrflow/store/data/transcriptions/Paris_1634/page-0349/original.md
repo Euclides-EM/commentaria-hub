@@ -1,43 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-symp. | am, mo, op, pq, qb snt 2|2 ⁊e,
-
-Demonstr.
-
-29.1 | bh == ad,
-constr. | lt 2|2 & == rs,
-33.1 | lr == ts, α
-d.α | lr, ts, xu, zn snt == ⁊e,
-2.6 | am π mo 2|2 ar π rs,
-constr. | ar 2|2 rs,
-4.d.5 | am 2|2 mo, β
-concl. d.β | am, mo, op, pq, qb snt 2|2 ⁊e.
-
-## PROBL. III. PROPOS. XI.
-
-Duabus datis rectis lineis tertiam proportionalem adinuenire.
-
-A deux lignes droictes donnees, trouuer la troisiesme proportionelle.
-
-[Figure: triangle A, B, C avec D, E]
+[Figure: demi-cercle A, E, B avec point F]
 
 Hypoth.
 
-ab & bc snt — D.
+ae & eb snt — D.
 
 Req. π. fa.
 
-ab π bc 2|2 ad π de.
+ae π ef 2|2 ef π eb.
 
 Constr.
 
-3.1 | abc est —,
-| <cae est arbitr.
-3.1 | ad 2|2 bc, α
-1.p.1 | db est —,
-31.1 | ce == bd,
-symp. | de est req.
+3.1 | aeb est —,
+3.p.1 | afb est semic.
+11.1 | ef ⊥ ab,
+symp. | ef est req.
+
+Præpar.
+
+1.p.1 | af & bf snt —.
 
 Demonstr.
 
-concl. α.2.6 | ab π bc 2|2 ad π de.
+31.3 | <afb est ⌐,
+constr. | fe ⊥ ab,
+concl. c.8.6 | ae π ef 2|2 ef π eb.
+
+## SCHOL.
+
+Perspicuum hinc fit, lineam rectam, quæ in circulo à quouis puncto diametri ipsi diametro perpendicularis ducitur ad circumferentiam vsque, mediam esse proportionalem inter duo diametri segmenta, quæ à perpendiculari facta sunt.
+
+Par ceste demonstration il est manifeste que la ligne droicte menee de quelconque poinct du diametre du cercle à la circonference, perpendiculaire à iceluy diametre, est moyenne proportionelle entre les segmēs du diametre faits par la perpendiculaire.
+
+## THEOR. IX. PROPOS. XIV.
+
+Æqualium & vnum vni æqualem habentium angulum, parallelogrammorum, reciproca sunt latera, quæ circum æquales angulos : Et quorum parallelogrammorum vnum angulum vni angulo

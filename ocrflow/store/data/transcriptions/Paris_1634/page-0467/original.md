@@ -1,34 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## THEOR. XII. PROPOS. XIV.
+## THEOR. XV. PROPOS. XVII.
 
-Si sint quotcunque numeri, & alij ipsis æquales multitudine, qui bini sumantur, & in eadem ratione; etiam ex æqualitate in eadem ratione erunt.
+Si numerus duos numeros multiplicans fecerit aliquos, geniti ex ipsis eandem rationem habebunt, quam multiplicati.
 
-*S'il y a tant de nombres qu'on voudra, d'vne part & autant d'vne autre, lesquels soient prins de deux en deux, & en mesme raison ; aussi en raison egale ils seront en mesme raison.*
+*Si vn nombre en multipliant deux autres, en produict quelques-vns, les produicts d'iceux auront mesme raison entr'eux que les multipliez.*
 
-A.........9 B......6 C...3
-D......6 E....4 F..2
+F. vnit.
+A...3
+B..2 C.....4
+D......6 E............12
 
 Hypoth.
 
-a π b 2|2 d π e,
-b π c 2|2 e π f.
+▭.ba est d,
+▭.ca est e.
 
 Req. π. demonstr.
 
-a π c 2|2 d π f.
+d π e 2|2 b π c.
 
 Demonstr.
 
-hyp. | a π b 2|2 d π e,
-13.7 | a π d 2|2 b π e, α
-hyp. | b π c 2|2 e π f,
-13.7 | b π e 2|2 c π f,
-α.11.5 | a π d 2|2 c π f,
-concl. 13.7 | a π c 2|2 d π f.
+suppos. | f, est vnit.
+c.15.d.7 | f, msur: a, b, msur: d,
+c.15.d.7 | f, msur: a, c, msur: e,
+2.a.7 | b, msur: d, c, msur: e,
+1c20.d7 | b π d 2|2 c π e,
+concl. 13.7 | b π c 2|2 d π e.
 
-## THEOR. XIII. PROPOS. XV.
+## THEOR. XVI. PROPOS. XVIII.
 
-Si vnitas numerum quempiam metiatur, æquè autem alter numerus alterum quendam numerum metiatur ; & vicissim æque vnitas tertium numerum metietur, & secundus quartum.
+Si duo numeri numerum quempiam multiplicantes, fecerint aliquos: geniti ex ipsis eandem rationem habebunt, quam multiplicantes.
 
-*Si l'vnité mesure quelque nombre, & qu'vn autre nombre en mesure autant de fois quelqu'autre ; aussi en changeant l'vnité mesurera le troisiesme nombre autant de fois que le second mesurera le quatriesme.*
+*Si deux nombres multiplians quelque nombre en produisent quelques-vns: les produicts d'iceux auront mesme raison, que les multiplians.*

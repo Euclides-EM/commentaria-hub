@@ -1,31 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-Demonstr.
+## THEOR. X. PROPOS. XII.
 
-concl. 4.c.2.8 | multd.. contin. proport. a, c, d, b, u, e, g, a, & u, f, i, b. snt 2|2 ꝫe,
+Duorum cuborum numerorum duo medij proportionales sunt numeri : Et cubus ad cubum triplicatam habet lateris ad latus rationem.
 
-## THEOR. VIII. PROPOS. X.
+*Entre deux nombres cubes il y a deux nombres moyens proportionaux : Et le cube est au cube en raison triplee du costé au costé.*
 
-Si inter duos numeros, & vnitatem continuè proportionales ceciderint numeri ; quot inter vtrumque ipsorum, & vnitatem deinceps medij continua proportione cadunt numeri, totidem & inter ipsos medij continua proportione cadent.
-
-*Si entre deux nombres & l'vnité tombent des nombres continuellement proportionaux ; autant qu'il en tombe de continuellement proportionaux entre chacun d'iceux & l'vnité, il en tombera autant de continuellement proportionaux entre iceux.*
+A,27. H,36. I,48. B,64.
+E,9. G,12. F,16.
+C,3. D,4.
 
 Hypoth.
 
-c, est vnit.
-a, e, d, c, & b, g, f, c snt contin. proport.
+a & b snt nr; cub;
 
 Req. π. demonstr.
 
-multd.. contin. proport. a,i,k,b 2|2 multd. a,e,d,c, u b, g, f, c.
-
-A,8. I,12. K,18. B,27.
-E,4. H,6. G,9.
-D,2. F,3.
-C,1.
+ꝗntr. a & b snt 2; medi. proport.
+raō. a π b 2|2 3; raō; c π d.
 
 Præpar.
 
-h 2|2 ▭.df,
-i 2|2 ▭.dh,
-k 2|2 ▭.dg.
+c, est γc.a. & d, est γc.b,
+e, est □.c. f, est □.d. g, est ▭.cd. h, est ▭.cg. i, est ▭.cf.
+
+Demonstr.
+
+1.concl. 2.8 | a,h,i,b snt contin. proport. ꝗn raō.. c π d,
+2.concl. 10.d.5 | raō.. a π b 2|2 3;raō.. a π h, u c π d.
+
+## SCHOL. I.
+
+Eodem modo demonstrabitur quadrato-quadrata esse in quadruplicata ratione lateris ad latus, & quadrato-cubos in quintuplicata, &c.
+
+*Par la mesme methode on demonstrera que les quarre-quarrez sont en raison quadruplee du costé au costé, & les quarrez cubes en raison quintuplee, &c.*

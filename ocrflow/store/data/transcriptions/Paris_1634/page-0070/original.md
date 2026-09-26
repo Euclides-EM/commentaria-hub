@@ -1,34 +1,25 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-hyp. | ac 2|2 ½ab,
-3.a.b. | cb 2|2 ½ab.
-hyp. | df 3|2 ½de.
-3.a.b. | fe 2|3 ½de.
-hyp. | hl 2|2 ⅓gl.
-3.a.b. | gh 2|2 ⅔gl.
+iori minus, & à minori maius, reliqua sunt inæqualia, illud nimirùm maius & hoc minus. | de la plus grande moins, & de la plus petite plus, les restes sont inegaux, sçauoir est celuy-là plus grand & celuy-cy plus petit.
 
-[Figure: trois lignes horizontales, ACB en haut, DFE au milieu, GHL au dessous]
-
-### 4. a. 1.
-
-Et si inæqualibus æqualia adiecta sint, tota sunt inæqualia. | Et si à choses inegales on adiouste choses egales, les tous sont inegaux.
-
-[Figure: ligne ABE en haut, ligne CDF au dessous]
+[Figure: ligne AEB en haut, ligne CFD au dessous]
 
 hyp. | ab 3|2 cd.
-hyp. | be 2|2 df.
-4.a.1 | ab 3|2 cf.
+hyp. | cf 3|2 ae.
+5.a.c. | eb 3|2 fd.
 
-### 4. a. b.
+Porrò in his omnibus pronunciatis, primo excepto, nomine æqualium quantitatum intelligenda est etiam vna & eadem multis communis. | Or en toutes ces notions, excepté la premiere, par le mot de quantitez egales, faut entendre außi vne mesme, commune à plusieurs.
 
-Et si æqualibus inæqualia adiecta sint, tota sunt inæqualia. | Et si à choses egales on adjouste choses inegales, les tous sont inegaux.
+### 6. a. 1.
 
-[Figure: ligne ABE en haut, ligne CDF au dessous]
+Et quæ eiusdem, vel æqualium sunt duplicia, inter se sunt æqualia. | Et les choses qui sont doubles d'vne mesme ou des egales, sont aussi doubles entr'elles.
 
-hyp. | ab 2|2 cd.
-hyp. | be 3|2 df.
-4.a.b. | ae 3|2 cf.
+[Figure: lignes A et B longues à gauche, ligne C courte à droite]
 
-### 4. a. c.
+hyp. | a 2|2 2c.
+hyp. | b 2|2 2c.
+6.a.1 | a 2|2 b.
 
-Et si inæqualibus inæqualia adiecta sint, maiori maius & minori minus, tota | Et si à choses inegales on adjouste choses inegales, à la plus grande la plus grande,
+### 6. a. b.
+
+Duplum maioris maius est duplo minoris. | Le double du plus grand est plus grand que le double du plus petit.

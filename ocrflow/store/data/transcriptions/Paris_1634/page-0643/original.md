@@ -1,45 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Trouuer vn binome quatriesme.*
-
-A...3 C......6 B
+A......5 C.........7 B
+L.........9
 G——— ———
 D——— ——— F (E)
 H———
 
 Constr.
 
-arbitr. | ab, est nr. □,
-2s29.10 | ac & cb, n̄ snt nr. □, α
+arbitr. | ac & cb snt nr; pr;
+arbitr. | ab, n̄ est nr. □,
+30.7 | ab, est pr. π. ac & cb,
+s.27.8 | ab, ac, cb snt plan. dissml.
+arbitr. | l, est nr. □;
 arbitr. | g, est ration. expos.
-2l.10.10 | de, comm. g,
-3l.10.10 | nr. ab π nr. cb 2|2 □.de π □.ef, β
+3.l.10.10 | l π ab 2|2 □.g π □.de
+3.l.10.10 | ab π | cb, / □.de π | □.ef,
 symp. | Req. est df.
 
 Præpar.
 
-β.14.5 | □.de 3|2 □.ef,
-6.app. | □.de 2|2 □.ef + □.h, γ
+14.5 | □.de 3|2 □.ef,
+6.app. | □.de 2|2 □.ef + □.h.
 
 Demonstr.
 
-ꝑ demonstr. sml. 49.10. df, est binom.
+ꝑ demonstr. sml. 51.10. df, est binom. & de, ef snt incōm. g,
 
-constr. | ab π cb 2|2 □.de π □.ef,
-γ.c.19.5 | ab π ac 2|2 □.de π □.h,
-constr. | ab π ac, n̄, est 2|2 nr. □ π nr. □,
+constr. | ab π | cb, / □.de π | □.ef,
+c.19.5 | ab π ac 2|2 □.de □.h
+constr. | ab π | ac, / n̄, est nr.□ π | nr.□,
 9.10 | de, incomm. h,
-concl. 4d48.10 | df, est binom. 4.
+concl. 60.48.1 | df, est binom. 6.
 
 Explicat. ꝑ nr;
 
-arbitr. | g, est 8,
-arbitr. | de, est 6,
-β.12.6 | ef, est √.24,
-2.a.1 | df est 6 + √.24.
+arbitr. | g, est 6,
+12.6 | de, est √.48,
+12.6 | ef, est √.28,
+2.a.1 | df, est √.48. + √.28.
 
-## PROBL. XVIII. PROPOS. LIII.
+## Lemm.
 
-Inuenire ex binis nominibus quintam.
-
-*Trouuer vn binome cinquiesme.*
+hyp. | ad, est ▭.ab,ac,
+10.1 | ef 2|2 fc,
+s.28.6 | ▭.age 2|2 □.ef, α
+31.1 | gh, ei, fк —— ab,
+14.2 | □lm 2|2 ▭bg,
+2.p.1 | omp, est ——,

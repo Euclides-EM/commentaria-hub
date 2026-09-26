@@ -1,45 +1,33 @@
-<!-- Running title: APPEND.. GEOM.. PLAN. -->
+<!-- Running title: APPEND.. GEOM. PLAN. -->
+
+◠ab π ◠bc 3|2 ab π bc,
 
 Præpar.
 
-1 & 2.p.1 | bdk est —,
-31.1 | ci == bk.
+9.1 | <abd 2|2 <cbd,
+1.p.1 | ac, ad, cd snt —,
+3.p.1 | degh est ⊙,
+10.1 | af 2|2 fc,
+2.p.1 | dfh est —.
+
+[Figure: cercle auec les poincts A, B, H, E, C, F, G, D]
 
 Demonstr.
 
-31.3 | <bdc est ⌐,
-29.1 | <dki 2|2 <bdc,
-12.a.b | <dki est ⌐,
-2.c.29.1 | dkic est ▭,
-34.1 | ki 2|2 dc,
-constr. | z 2|2 dc,
-concl. 1.a.1 | ki 2|2 z.
-
-## THEOR. XXIII. PROPOS. XXXVI.
-
-Si in circulo quadrilaterum describatur; erit rectangulum sub diametris comprehensum æquale aggregato duorum rectangulorum, quæ sub lateribus oppositis continentur.
-
-*Si en vn cercle est descrit vn quadrilatere ; le rectangle contenu sous les diametres sera egal à l'aggregé de deux rectangles contenus sous les costez opposez.*
-
-Ptolomeus lib. 1. Almagesti.
-
-[Figure: cercle auec le quadrilatere A, D, E, B, C]
-
-Hypoth.
-
-abcd est ⊙,
-
-abcd est 4< inscri. in ⊙ abcd.
-
-Req. π. demonstr.
-
-▭.ac,ab 2|2 ▭.ad,bc + ▭.ab,dc,
-
-Præpar.
-
-23.1 | <bae 2|2 <dac.
-
-Demonstr.
-
-constr. | <bae 2|2 <cad, α
-23.1 | <abe 2|2 <acd,
+constr. | <dba 2|2 <dbc,
+26.3 | ◠da 2|2 ◠dc,
+29.3 | da 2|2 dc,
+8.1 | <dfa 2|2 <dfc,
+10.d.1 | <dfc est ⌐,
+3.6 | ab π bc 2|2 ae π ec,
+hyp. | ab 3|2 bc,
+s.14.5 | ae 3|2 ec,
+c.17.1 | <dea 2|3 ⌐,
+c.13.1 | <dec 3|2 ⌐,
+17.1 | <dce 2|3 ⌐,
+19.1 | dc 3|2 de,
+19.1 | de 3|2 df,
+33.6 | <hde π <edg 2|2 sect. hde π sect. edg, α
+8.5 | sect. hde π sect. edg 3|2 Δfde π sect. edg,
+8.5 | Δfde π sect. edg 3|2 Δfde π Δedc,
+α.13.5 | <hde π <edg 3|2 Δfde π Δedc,

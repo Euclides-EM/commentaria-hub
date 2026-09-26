@@ -1,17 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-quotam qualis est proportio 3. ad 2. quæ sesquialtera vocatur 9. à 8. dicitur sesquioctaua.
+nullaque quantitas sit antecedens & consequens, sed antecedens tantùm vel consequens tantùm, vt si dicatur quæ est proportio 4. ad 6. ea est 10. ad 15. appellabitur hæc proportionalitas, discreta siue non continua.
 
-Proportio superpartiens est habitudo maioris quantitatis ad minorem, quando maior minorem semel duntaxat continet, & insuper aliquot eius partes aliquotas, non efficientes vnam aliquotam ; qualis est proportio 8. ad 5. quæ dicitur super tripartiens quintas, 5. ad 3. dicitur superbi partiens tertias.
+Proportio arithmetica est quando tres vel plures magnitudines æqualiter sese excedunt, vt
 
-Proportio multiplex superparticularis est habitudo maioris quantitatis ad minorem, quando maior minorem aliquoties continet, & præterea vnam eius partem aliquotam, vt proportio 5. ad 2. quæ dupla sesqui altera vocatur 26. ad 8. tripla sesquiquarta.
+4, ad 6, ita 6. ad 8, continua,
+4, ad 6, ita 8 ad 10, discreta.
 
-Proportio denique multiplex superpartiēs est habitudo maioris quātitatis ad minorem, quando maior aliquoties complectitur minorem, & insuper aliquot eius partes aliquotas, non conficientes vnam ; qualis est proportio 8. ad 3. quæ vocatur dupla superbipartiens tertias 30. ad 8.
+Proportio musica seu harmonica est quando tres magnitudines ita ordinantur, vt eadem sit proportio primæ ad tertiam, quæ differentiæ primæ & secundæ ad differentiam secundæ & tertiæ, vt 3, 4, 6 sunt in proportione musica, quia eadem est proportio primi numeri 3. ad tertium 6. quæ differentiæ primi & secundi, quæ est 1, ad differentiam secundi & tertij, quæ est 2.
 
-partie aliquote d'icelle moindre, comme est la proportion de 3. à 2. qui s'appelle sesquiseconde, & de 9. à 8. sesquioctaue.
+Progressio geometrica est series plurium magnitudinum sese in eadem proportione superantium, vt apparet in his numeris.
 
-La proportion superpartiente est l'habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite vne fois seulement, & en outre, quelques parties aliquotes d'icelle moindre, lesquelles prises ensemble, ne font pas vne partie aliquote, comme est la proportion de 8. à 5. qui s'appelle proportion supertripartiente quintes, & 5. à 3. superbipartiente tierces.
+quent, mais antecedent seulement, ou consequent, comme si on dit qu'il y a mesme raison de 4. à 6. que de 10. à 15. ceste proportion sera appellée discrete ou discontinuë.
 
-La proportion multiple superparticuliere est l'habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite certain nombre de fois, & en outre vne partie aliquote de la moindre, comme est la proportion de 5. à 2. qui s'appelle double sesquiseconde, & 26. à 8. triple sesquiquarte.
+Proportion arithmetique est quād trois ou plusieurs grandeurs s'excedent également, comme
 
-Finalement la proportion multiple superpartiente, est l'habitude d'vne plus grande quantité à vne moindre, quand la plus grande contient la moindre certain nombre de fois, & en outre quelques parties aliquotes de la moindre, lesquelles prises ensemble ne font pas vne partie aliquote, comme est la proportion de 8. à 3. qui s'appelle
+4, à 6, ainsi 6, à 8, continuë,
+4, à 6, ainsi 8, à 10, discrete.
+
+La proportion musique ou harmonique est quand de trois grandeurs la premiere est à la seconde, comme la difference de la premiere & seconde à la difference de la seconde & troisiesme, comme 3, 4, 6, sont en proportion musique, à cause qu'il y a mesme proportion du premier nombre 3. au troisiesme, 6, que de la difference du premier & second, qui est 1. à la difference du second & troisiesme qui est 2.
+
+La progression geometrique est vne suite de plusieurs grandeurs qui s'excedent en mesme raison, comme il appert en ces nombres,
+
+1.2.4 8.16 32.64.128 &c. 1.3.9.27.81.243.729. &c.
+
+Progressio arithmetica est series plurium magnitudinum sese æqualiter superantium, vt hic apparet.
+
+La progression arithmetique est vne suite de plusieurs grandeurs qui s'excedent également, comme il appert en ces nombres,
+
+1.2.3.4.5.6.7.8. &c. 1.3.5.7.9.11.13.15 &c.

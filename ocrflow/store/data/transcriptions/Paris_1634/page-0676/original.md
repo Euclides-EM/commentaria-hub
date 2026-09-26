@@ -1,23 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-βs.12.10 | □.ef, est irration.
-concl. 11.d.10 | ef, est irration.
+Hæc nota .∼: significat differentiam.
 
-D E F (line)
+*Ceste note .∼: signifie la difference.*
 
-Explicat. ꝑ nr;
+## COROLL.
 
-df, est √.. √.216 + √.72,
-de, est √.. √.216 ∼ √.72,
-ef, est √.. 216 + √.72, ∼ √..216 ∼ √.72,
+Ex hoc lemmate constat, quatuor magnitudines Arithmeticam proportionem habentes, habere quoque vicissim Arithmeticam proportionem.
 
-## THEOR. LXI. PROPOS. LXXIX.
+*Il appert de ce lemme, que quatre grandeurs ayans proportion Arithmetique, qu'en permutant elles auront außi proportion Arithmetique.*
 
-Si à recta, recta auferatur potentia incommensurabilis existens toti, quæ cum tota faciat & compositum ex ipsarum quadratis, medium, & quod sub ipsis continetur, medium, incommensurabiléque composito ex quadratis ipsarum: reliqua irrationalis est. Vocetur autem cum medio medium totum efficiens.
+## THEOR. LXII. PROPOS. LXXX.
 
-*Si d'vne ligne droicte on retranche vne ligne droicte, incommensurable en puissance à la toute, laquelle auec la toute face le composé de leurs quarrez medial, & le rectangle contenu sous icelles medial, & incommensurable au composé de leurs quarrez: la restante est irrationelle. Soit appellee faisant vn tout medial auec vn rectangle medial.*
+Apotomæ vna tantum congruit recta linea rationalis potentia solùm commensurabilis existens toti.
+
+*Au residu ou apotome conuient tant seulement vne seule ligne droicte rationelle, commensurable en puissance seulement à la toute.*
+
+A B C D (line)
 
 Hypoth.
 
-□.df, incomm. □.de,
-aggreg..□.df + □.de, / est medi. α
+ab, est apotom.
+bc, est congruen.
+
+Req. π. demonstr.
+
+bd, n̄, est congruen.
+
+Demonstr.
+
+suppos. | bd, est congruen.
+22.10 | ▭.acb, & ▭.adb snt medi;
+c.24.10 | 2▭.acb & 2▭.adb snt medi; α
+7.2 | □.ac + □.bc ∼ 2▭.acb 2|2 □.ab,

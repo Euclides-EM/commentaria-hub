@@ -1,42 +1,40 @@
-<!-- Running title: ELEM.. EVCLID. LI. II. -->
+<!-- Running title: ELEM.. EVDLID. LI. II. -->
 
-[Figure: deux rectangles auec diagonales ; le premier A—B en haut, D—C en bas, diagonale A—C ; le second E—F en haut, H—G en bas, diagonale E—G]
+Req. π. demonstr.
 
-Demonstr.
+▭.ab,c 2|2 ▭.ad,c, + ▭.de,c, + ▭.eb,c.
 
-α 4.1. | △adc 2|2 △ehg,
-34.1. | ▭db 2|2 2△adc,
-34.1. | ▭hf 2|2 2△ehg,
-concl. 6.a.1. | ▭db 2|2 ▭hf.
+Præpar.
 
-## LEMM.
-
-Describere rectangulum quod sub duabus datis rectis lineis contineatur.
-
-Descrire vn rectangle qui soit contenu sous deux lignes droictes donneés.
-
-[Figure: rectangle ABCD, B & C en haut, A & D en bas ; à gauche ligne E]
-
-Hypoth.
-
-e & ad snt — D.
-
-Constr.
-
-11.1. | <dab est ∟,
-3.1. | ab 2|2 e,
-31.1. | bc == ad,
-13.1. | dc == ab,
-symp. | ac est ▭ req.
+l.1.d.2. | ag est ▭.ab.c, u af,
+31.1. | dh == af u bg,
+31.1. | ei == af u bg.
 
 Demonstr.
 
-constr. | ac est ◊,
-constr. | <a est ∟,
-2.s.29.1. | ac est ▭,
-constr. | ab 2|2 e,
-concl. 1.d.2. | ac est ▭. ad, ab u e.
+2.c.29.1 | ah, di, eg snt ▭, α
+34.1. | af, dh, ei, bg, snt 2|2 ⁊e, α
+constr. | af 2|2 c,
+3.s.1.d.2 | ▭ag 2|2 ▭.ab,c,
+3.s.1.d.2 | ▭ah 2|2 ▭.ad,c,
+3.s.1.d.2 | ▭di 2|2 ▭.de,c,
+3.s.1.d.2 | ▭eg 2|2 ▭.eb,c,
+19.a.1. | ▭ag 2|2 ▭ah + ▭di + ▭eg,
+1.a.g. | ▭.ab,c 2|2 ▭.ad,c + ▭.de,c + ▭.eb,c.
 
-## DEFINIT. II.
+Explicat. p nr.
 
-In omni parallelogrammo spatio, vnumquodlibet eorum, quæ circa diametrum illius sunt, parallelogrammorum, cum duobus complementis, Gnomon vocetur.
+hyp. | c u af est 6,
+hyp. | ad est 5,
+hyp. | de est 3,
+hyp. | eb est 4,
+2.a.1. | ab est 12,
+1.s.1.d.2 | ▭ag est 72,
+1.s.1.d.2 | ▭ah est 30,
+1.s.1.d.2 | ▭di est 18,
+1.s.1.d.2 | ▭eg est 24,
+2.a.1. | ▭ag est 72.
+
+## SCHOL.
+
+Si fuerint duæ rectæ lineæ, secenturque ambæ in quot-

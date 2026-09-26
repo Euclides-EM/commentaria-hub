@@ -1,53 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-De tout triangle, le plus grand costé soustient le plus grand angle.
+3.1. | ad 2|2 ac,
+1.p.1. | cd est —.
 
-[Figure: triangle ABC, poinct D sur AC, ligne BD]
+Demonstr.
+
+constr. | ad 2|2 ac,
+5.1. | <acd 2|2 <d,
+9.a.1. | <bcd 3|2 <acd,
+1.a.c. | <bcd 3|2 <d,
+19.1. | bd 3|2 bc, α
+constr. | ac 2|2 ad,
+| ba commun. add.
+2.a.1. | ba + ac 2|2 bd,
+α.1.a.d. | ba + ac 3|2 bc.
+
+## THEOR. XIV. PROPOS. XXI.
+
+Si super trianguli vno latere, ab extremitatibus duæ rectæ lineæ interius constitutæ fuerint ; hæ constitutæ reliquis trianguli duobus lateribus minores quidem erunt, maiorem vero angulum continebunt.
+
+Si des extremitez d'vn costé de quelque triangle, on mene deux lignes droictes se rencontrans au dedans d'iceluy ; icelles seront plus petites que les deux autres costez du triangle, mais elles contiendront vn plus grand angle.
+
+[Figure: triangle ABC, poincts D & E au dedans, D sur BE, lignes BD, DC, BE prolongée iusques à E sur AC]
 
 Hypoth.
 
-abc est △,
-ac 3|2 ab.
+abc est △.
 
 Req. π. demonstr.
 
-<abc 3|2 <acb.
+bd + cd 2|3 ba + ca,
+<bdc 3|2 <bac.
 
 Præpar.
 
-3.1. | ad 2|2 ab,
-1.p.1. | bd est —.
+2.p.1. | bde est —.
 
 Demonstr.
 
-constr. | ad 2|2 ab,
-5.1. | <abd 2|2 <adb,
-16.1. | <adb 3|2 <acb,
-1.a.d. | <abd 3|2 <acb,
-concl. 1.a.c. | <abc 3|2 <acb.
-
-## THEOR. XII. PROPOS. XIX.
-
-Omnis trianguli maior angulus maiori lateri subtenditur.
-
-De tout triangle, le plus grand angle est soustenu du plus grand costé.
-
-[Figure: triangle ABC, poinct B en haut, A à gauche, C à droicte]
-
-Hypoth.
-
-<b 3|2 <c.
-
-Req. π. demonstr.
-
-ac 3|2 ab.
-
-Demonstr.
-
-suppos. | ac 2|2 ab,
-5.1. | <b 2|2 <c,
-| contr. hypoth.
-suppos. | ac 2|3 ab,
-18.1. | <b 2|3 <c,
-| contr. hypoth.
-21.a.1. | ac 3|2 ab.
+20.1. | cd 2|3 ce + ed,

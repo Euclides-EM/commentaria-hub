@@ -1,26 +1,26 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-8.8 | ꝗntr. d & c est vn. medi. proport.
-constr. | d, est nr. □,
-concl. 22.8 | c, est nr. □.
+8.8 | ꝗntr. d & c snt 2; medi;proport;
+3.9 | d, est nr. cub.
+concl. 23.8 | c, est nr. cub.
 
-## THEOR. II. PROPOS. II.
+## THEOR. V. PROPOS. V.
 
-Si duo numeri se mutuò multiplicantes faciant quadratum; similes plani erunt.
+Si cubus numerus numerum quendam multiplicans faciat cubum; & multiplicatus cubus erit.
 
-*Si deux nombres se multiplians l'vn l'autre, font vn quarré; iceux sont plans semblables.*
+*Si vn nombre cube multipliant quelque autre nombre, produit vn cube; le multiplié sera aussi cube.*
 
-A,6. B,54.
-D,36. C,324.
+A,8. B,27.
+D,64. C,216.
 
 Hypoth.
 
-c, est nr. □,
+a & c snt nr; cub;
 c, est ▭.a,b. α
 
 Req. π. demonstr.
 
-a & b snt nr; plan; sml;
+b, est nr. cub.
 
 Præpar.
 
@@ -29,19 +29,21 @@ d, est □.a. β
 Demonstr.
 
 αβ.17.7 | a π b 2|2 d π c,
-11.8 | ꝗntr. d & c est vn. medi. proport.
-8.8 | ꝗntr. a & b est vn. medi. proport.
-concl. 20.8 | a & b snt plan; sml;
+3.9 & hyp. | d & c snt nr; cub;
+12.8 | ꝗntr. d & c snt 2; medi; proport;
+8.8 | ꝗntr. a & b snt 2; medi; proport;
+hyp. | a, est nr. cub.
+concl. 23.8 | b, est nr. cub.
 
-## THEOR. III. PROPOS. III.
+## THEOR. VI. PROPOS. VI.
 
-Si cubus numerus seipsum multiplicans procreet aliquem; productus cubus erit.
+Si numerus seipsum multiplicans cubum faciat: & ipse cubus erit.
 
-*Si vn nombre cube se multipliant soy-mesme en produict quelqu'vn; le produict sera cube.*
+*Si vn nombre se multipliant soy-mesme, faict vn cube, iceluy sera aussi cube.*
 
 Hypoth.
 
-a, est nr. cub.
-b, est □.a
+b, est nr. cub.
+b, est □.a.
 
 Req. π. demonstr.

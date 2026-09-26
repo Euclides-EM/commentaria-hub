@@ -1,40 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-*Si le nombre prochain à l'vnité est nombre premier, il n'y aura point d'autre nombre premier qui mesure le dernier.*
-
-## THEOR. XIII. PROPOS. XIII.
-
-Si ab vnitate quotcunque numeri deinceps proportionales fuerint ; qui verò post vnitatem, primus sit ; maximum nullus alius metietur, præter eos, qui sunt in numeris proportionalibus.
-
-*Si depuis l'vnité il y a tant de nombres qu'on voudra continuellement proportionaux ; & que celuy d'apres l'vnité soit premier : aucun autre ne mesurera le plus grand, outre ceux qui sont entre les proportionaux.*
-
-K,1. A,5. B,25. C,125. D,625.
-H-- G-- F-- E--
+A,30.
+B,2. C,3. D,5.
+E-- F--
 
 Hypoth.
 
-k,a,b,c,d snt contin. proport;
-a, est nr. pr.
-e, n̄, est vn.. proport;
+b, c, d snt nr; pr;
+a, est mi.diuidu.. b, c, d,
+e, n̄, est b, u c, u d.
+e, est nr. pr.
 
 Req. π. demonstr.
 
-e, n̄, msur: d.
+e, n̄, msur: a.
 
 Demonstr.
 
-hyp. | e, n̄, est a, u b, u c,
-suppos. | e, msur: d ꝑ f, α
-c.11.9 | f, n̄, est a, u b, u c, β
-hyp. | a, est nr. pr.
-11.d.7 | e, n̄, msur: a,
-2.c.12.9 | e, est nr. compos.
-33.7 | nr. pr. msur: e,
-3.c.12.9 | a, msur: e, γ
-α.8.a.7 | f, msur: d ꝑ e,
-β.11.d.7 | f, n̄, msur: a,
-2.c.12.9 | f, est nr. compos.
-33.7 | nr. pr. msur: f,
-3.c.12.9 | a, msur: f, δ
-α.9.a.7 | d 2|2 ▭.e,f,
-c.11.9 | d 2|2 ▭.a,c,
+suppos. | e, msur: a ꝑ f, β
+9.a.7 | a 2|2 ▭.e,f,
+32.7 | b, c, d, msur: e u f,
+α.11.d.7 | b, u c, u d, n̄, msur: e,
+32.7 | b, c, d, msur: f, γ
+β.8.a.8 | f, msur: a ꝑ e,
+9.a β | f 2|3 a,
+concl. γ | a, n̄, est mi. diuidu.
+contr. hyp.
+
+## SCHOL.
+
+Quamuis Theon in sequente theoremate quædam assumat in numeris quæ demonstrata sunt de lineis libro secundo, nihilominus nonnulli Interpretes hic demonstrant de numeris decem priora theoremata libri secundi. Sed inutile mihi videtur illa decem theoremata hic repetere, & demonstrare de numeris : cùm præsertim concesso primo scholio definitionis primæ secundi libri, tanquam per se perspicuum, demonstrationes illic de lineis exhibitæ non minus concludant de numeris quàm de lineis : firmiusque inhæreant memoriæ, quàm demonstrationes numerorum, quæ sola ratiocinatione constant, nulliusque figuræ
+
+*Encore que Theon au theoreme suiuant concede és nombres quelques theoremes, qui ont esté demonstrez par lignes au second liure : neantmoins quelques Interpretes demonstrent icy en nombres les dix premieres propositions du second liure. Mais il me semble inutil de repeter icy ces dix theoremes, & les demonstrer en nombres, veu que le premier scholie de la premiere definition du second liure estant concedé, comme chose tres-manifeste, ces dix demonstrations du second liure ne concluent pas moins en nombres qu'en lignes, & aussi qu'elles sont plus faciles à retenir par cœur, que les demonstrations des nombres, qui ne consistent qu'en ratiocination, & ne donnent point les especes d'au-*

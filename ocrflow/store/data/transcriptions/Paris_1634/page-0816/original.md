@@ -1,39 +1,17 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-[Figure: labels arranged B H / E / A D M F L C / G K]
+[Figure: labels arranged O R / B Q / α F τ δ / A E D S P / ζ C / H y N / V M L]
 
-Req. π. fa.
-
-inscri. polygon. ꝗn ⊙ abcg q n̄ tāg: ⊙def.
-
-Constr.
-
-1&2. p. 1 | ac & df ſnt diamet;
-11. 1 | fh ⊥ df,
-30. 3 | ∩ ic 2|2, ¼ ∩ cab. Ⅱ ⅛, Ⅱ 1/16, Ⅱ 1/32, Ⅱ 1/64, &c.
-1. 10 | ∩ ic 2|3 ∩ hc, α
-1. p. 1 | ic, eſt ——,
-ſymp. | ic, eſt ν. polyg. req.
+p. 11, & 2. 15. d. 1 18. 11 | doc, don, dol, dom, &c. ſnt ⊙; ꝑ centr.. ſphær. & ſnt ⊥; plan.. ⊙; abcu & efgh,
+3. d. 11 | cdo, ndo, &c. ſnt ⊥;
+46. 3 | co, no, cu ſnt quadrant;. ⊙; 2|2 ꝗe,
+1. 4 | cn, cp, pq, qr, ro, nſ, ſt, tγ, γo, &c. ſnt ——; 2|2 ꝗe,
+ſ. 2. d. 5 | multd; part.. uc, no, co ſnt 2|2 ꝗe,
+1. p. 1 | ſp, tq, γr, &c. ſnt ——,
+ſymp. | req. eſt polyedr. orqpcn, &c.
 
 Præpar.
 
-12. 1 | il ⊥ ac.
-
-Demonstr.
-
-12. a. 1 | <ilc 2|2 <hfc,
-28. 1 | ik == hg,
-c. 16. 3 | hg tang: ⊙def ꝗn f,
-34. d. 1 | iк n̄ tang: Ⅱ ſecat: ⊙ def,
-15. 3 | ic, cк, &c. n̄ tang: Ⅱ ſecat: ⊙def, β
-concl. β | req. eſt polyg. ic, ck, &c.
-
-Coroll.
-
-кi, n̄ tang: Ⅱ ſecat: ⊙ def.
-
-## PROBL. II. PROPOS. XVII.
-
-Duabus sphæris circa idem centrum existētibus, in majori sphæra solidum polyedrum inscribere, quod non tangat minoris sphæræ superficiem.
-
-*Deux spheres estant donnees à l'entour d'vn mesme centre, inscrire en la plus grande sphere vn solide polyedre, lequel ne touche point la superficie de la plus petite sphere.*
+11. 1 | px & ſy ſnt ⊥ plan.. ⊙ abcu,
+11. 11 | dz ⊥ plan. ncpſ, dδ ⊥ plan. ſpqt,
+1. p. 1 | zn, zc, zſ, zp, δp, δq, δt, δſ ſnt ——;

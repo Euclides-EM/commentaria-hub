@@ -1,40 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-| l, multipl.. g, 2|2, m, multipl.. h. α
+## THEOR. VI. PROPOS. VI.
 
-Demonstr.
+Si duæ magnitudines duarum magnitudinum sint æquè multiplices, & detractæ quædam sint earundem æquè multiplices : & reliquæ eisdem aut æquales sunt, aut æquè ipsarum multiplices.
 
-3.5 | i, multipl.. a, 2|2, k, multipl.. c,
-3.5 | l, multipl.. b, 2|2, m, multipl.. d,
-hyp. | a π b 2|2 c π d,
-c.6.d.5 | i, 2, 3, 4 | 3, l,
-| k, 2, 3, 4 | 3, m,
-concl. α.6.d.5 | e π g, 2|2, f π h.
+Si deux grandeurs sont equimultiples de deux autres grandeurs, & quelques retranchées d'icelles soient equimultiples des mesmes grandeurs, ou les restes seront égaux aux mesmes, ou equimultiples d'icelles.
 
-## COROLL.
+Hyoth.
 
-Hinc facilè demonstrabitur inuersa ratio.
+ab, multipl.. e, 2|2, cd multipl.. f,
+ag, multipl.. e, 2|2, ch, multipl. f.
 
-Par cette demonstration est manifeste la preuue de la raison inuerse.
-
-Hypoth.
-
-a π b 2|2 c π d, α
+[Figure: lignes verticales B—G—A et D—H—C, auec E, F]
 
 Req. π. demonstr.
 
-b π a 2|2 d π c.
-
-Præpar.
-
-e, multipl.. | a,
-f, multipl.. | c,
-g, multipl.. | b,
-h, multipl.. | d.
-
-[Figure: lignes verticales I—E—A—B—G—L et K—F—C—D—H—M]
+gb 2|2 e & hd 2|2 f,
+ugb multipl.. e, 2|2, hd, multipl.. f.
 
 Demonstr.
 
-α.c.6.d.5 | e, 2, 3, 4 | 3 g, β
-| f, 2, 3, 4 | 3 h,
+s.2.d.5 | multd.. part.. ab, 2|2, multd.. part.. cd,
+s.2.d.5 | multd.. part.. ag, 2|2, multd.. part.. ch,
+3.a.1 | multd.. part.. gb, 2|2, multd.. part.. hd,
+concl. | gb 2|2 e & hd 2|2 f,
+3.a.1 | ugb multipl.. e 2|2 hd multipl.. f.
+
+## THEOR. VII. PROPOS. VII.
+
+Æquales ad eandem, eandem habent rationem : & eadem ad æquales.

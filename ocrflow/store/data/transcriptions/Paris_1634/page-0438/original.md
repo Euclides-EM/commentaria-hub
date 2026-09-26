@@ -1,35 +1,27 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## DEFINIT. XII.
+erit, planus appellabitur. Qui verò numeri mutuò sese multiplicarint, latera illius dicentur.
 
-Primi inter se numeri sunt, quos sola vnitas, communis mensura metitur : vt 8, & 15, sunt numeri primi inter se.
+*qu'vn, celuy qui est produit, est appellé plan. Et les nombres qui se multiplient l'vn l'autre seront dits costez d'iceluy.*
 
-*Nōbres premiers entr'eux, sont ceux-là, lesquels ont la seule vnité pour commune mesure : cōme 8, & 15, sont nombres premiers entr'eux.*
+A,15. B,3. C,45.
 
-pr.ꝫe, id est primi inter se.
+hyp. | ▭.a,b est c,
+16.d 7 | c, est nr. plan.
 
-*pr.ꝫe, signifie premiers entr'eux.*
+## DEFINIT. XVII.
 
-## DEFINIT. XIII.
+Cùm verò tres numeri mutuò se multiplicantes aliquem fecerint, qui procreatus erit, solidus appellabitur : qui autem numeri mutuò sese multiplicarint, latera illius dicentur.
 
-Compositus numerus est, quem numerus quispiam metitur : vt 4, 6, 8, sunt numeri compositi.
+*Quand trois nombres se multiplians l'vn l'autre en produisent quelqu'vn, celuy qui est procreé sera appellé solide : & les nombres qui se multiplient l'vn l'autre, seront appellez costez d'iceluy.*
 
-*Nombre composé, est celuy lequel, quelque nombre peut mesurer : comme 4, 6, 8, sont nombres composez.*
+A,3. B,4. C,10. D,120.
 
-compos. id est compositus.
+hyp. | d 2|2 abc,
+17.d.7 | d, est nr. solid.
 
-*compos. signifie composé.*
+Explicatio notarum. Explication des notes.
 
-## DEFINIT. XIV.
+Numero D, est æqualis numerus qui fit ex mutua multiplicatione numerorū A, B, C. Igitur D, est numerus solidus.
 
-Compositi autem inter se numeri sunt, quos numerus aliquis communis mensura metitur : vt 9, & 15, sunt numeri compositi inter se.
-
-*Mais nombres composez entr'eux, sont ceux-là lesquels sont mesurez par quelque nombre comme commune mesure : comme 9, & 15, sont nombres composez entr'eux.*
-
-compos. ꝫe, id est compositi inter se.
-
-*compos. ꝫe, signifie composez entr'eux.*
-
-Euclidi in hac definitione & præcedente vnitas non est numerus.
-
-*L'vnité n'est pas nombre à Euclide en ceste definition, & en la precedente.*
+*Le nombre D, est egal au nombre qui vient en multipliant les trois nombres A, B, C, l'vn par l'autre; partant D, est nombre solide.*

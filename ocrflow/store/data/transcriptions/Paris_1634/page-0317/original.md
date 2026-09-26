@@ -1,28 +1,59 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-4.cōcl. θ.22.5 | a+b+c π a 2|2 e+f+g π e, θ
-5.concl. c.19.5 | a+b+c π b+c 2|2 e+f+g π f+g,
-6.concl. α.22.5 | a+b+c π b 2|2 e+f+g π f, κ
-7.concl. c.19.5 | a+b+c π a+c 2|2 e+f+g π e+g,
-8.concl. γε.22.5 | a+b+c+d π d 2|2 e+f+g+h π h,
-9.concl. c.4.5 | a+b+c+d π a+b+c 2|2 e+f+g+h π e+f+g, λ
-10.cōcl. λε.22.5 | a+b+c+d π c 2|2 e+f+g+h π g,
-11.cōcl. λθ.22.5 | a+b+c+d π a 2|2 e+f+g+h π e,
-12.concl. λκ.22.5 | a+b+c+d π b 2|2 e+f+g+h π f, &c.
+Demomstr.
 
-## THEOR. XXIII. PROPOS. XXIII.
+α.23.5 | a π c 2|2 f π h, β
+hyp. | c π d 2|2 e π f,
+β.23.5 | a π d 2|2 e π h.
 
-Si sint tres magnitudines, aliæque ipsis æquales numero, quæ binæ in eadem ratione sumantur, fuerit autem perturbata earum proportio : etiam ex æqualitate in eadem ratione erunt.
+## SCHOL. II.
 
-S'il y a trois grandeurs, & d'autres egales à icelles en nombre, en mesme raison, prises de deux en deux, & que leur proportion soit troublée : icelles en raison egale seront proportionelles.
+Rationes compositæ ex ijsdem rationibus, sunt inter se eædem.
 
-Hypoth.
+Les raisons composees de mesmes raisons, sont de mesme ou egales entr'elles.
 
-a π b 2|2 e π f,
-b π c 2|2 d π e.
+A, 12. B, 8. C, 4. D, 15. E, 10. F, 5.
+A, 12. C, 4. B, 8. D, 15. F, 5. E, 10.
+
+Hypoth.. 1. exempl.
+
+a π b 2|2 d π e, α
+b π c 2|2 e π f. α
 
 Req. π. demonstr.
 
 a π c 2|2 d π f.
 
-Præpar.
+Demonstr.
+
+concl. α.22.5 | a π c 2|2 d π f.
+
+A, 12. B, 8. C, 6. D, 3.
+H, 8. G, 4. E, 3. F, 2.
+
+Hypoth.. 2. exempl.
+
+a π b 2|2 e π f, β
+b π c 2|2 g π e, β
+c π d 2|2 h π g. β
+
+Req. π. demonstr.
+
+a π d 2|2 h π f.
+
+Demonstr.
+
+β.23.5 | a π d 2|2 h π f.
+
+## SCHOL. III.
+
+Earundem rationum eædem partes sunt inter se eædem.
+
+Des raisons egales les mesmes parties sont egales entr'elles.
+
+Hypoth.
+
+a, bh, c snt proport.
+d, e, f snt proport.
+
+a π c 2|2 d π f.

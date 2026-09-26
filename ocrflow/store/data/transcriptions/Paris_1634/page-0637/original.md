@@ -1,41 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## THEOR. XXXVI. PROPOS. XLVIII.
+expositæ Rationali commensurabile sit longitudine, vocetur ex binis nominibus quarta.
 
-Bina media potens, ad vnum duntaxat punctum diuiditur in nomina.
+*commensurable en longitude à la Rationelle exposée, soit appellée binome quatriesme.*
 
-*La ligne pouuant deux mediaux, est diuisee en ses noms, à vn poinct seulement.*
+## V.
 
-A D C B (line) E L I F K H G (rectangle)
+Si vero minus nomen, vocetur quinta.
 
-Hypoth.
+*Mais si le moindre nom est commensurable en longitude à la Rationelle exposée, soit appellée binome cinquiesme.*
 
-ab, est bimed. p.
-ac & cb snt nom;
-Req. π. demonstr.
-ad & db, n̄, snt nom;
+## VI.
+
+Quod si neutrum ipsorum nominum, vocetur sexta.
+
+*Que si l'vn ne l'autre d'iceux noms n'est commensurable en longitude à la Rationelle exposée, soit appellée binome sixiesme.*
+
+## PROBL. XIII. PROPOS. XLIX.
+
+Inuenire ex binis nominibus primam.
+
+*Trouuer vn binome premier.*
+
+A....4 C.....5 B
+D——— ———
+E———— F—— G
+H———
+
+Constr.
+
+2s19.10 | ab & ac snt nr; □; / cb, n̄, est nr. □, α
+arbitr. | d, est ration. expos.
+2l.10.10 | ef, comm. d,
+3l.10.10 | nr. ab π | nr. cb, β / □.ef π | □.fg,
+symp. | Req. est eg.
 
 Præpar.
 
-suppos. | ad & db snt nom;
-suppos. | ef, est ration. α
-4.app. | ▭eg 2|2 □.ab,
-4.app. | ▭.eh 2|2 □.ac / + □.cb, β
-4.app. | ▭.ek 2|2 □.ad / + □.db. γ
+β.14.5 | □.ef 3|2 □.fg,
+6.app. | □.ef 2|2 □.fg + □.h, γ
 
 Demonstr.
 
-β.4.2 | ▭ig 2|2, 2▭.acb, ♪
-7.2 | ▭eh 3|2 ▭ig,
-1.6 | fh 3|2 hk,
-hyp. & 42.10 | aggreg.. / □.ac / + □.cb / est medi.
-β.24.10 | ▭eh, est medi.
-α.23.10 | fh, est ration.
-hyp. | ▭.acb, est medi.
-24.10 | 2▭.acb / u ▭ig / est medi.
-α.23.10 | hg, est ration.
-β♪42.10 | ▭eh, incomm. ▭ig,
-1.6 | fh, incomm. hg,
-37.10 | fh & hg snt nom.. / fg, κ
-d. κ | fк & кg snt nom.. fg
-contr. 43.10.
+cōstr. | ef, est comm. d,
+1 concl 6.d.10 | ef, est ration.

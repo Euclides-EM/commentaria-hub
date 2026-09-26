@@ -1,39 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-1.p.1 | fb est —,
-31.1 | ah == ef,
-2.p.1 | gfh est —,
-hyp. | c, n̄ est 3|2 ◇af,
-45.1 | ◇eg 2|2 c + i, β
-25.6 | ◇nt 2|2 i, & sml. d, γ
-3.1 | fo 2|2 kn,
-3.1 | fq 2|2 kt,
-31.1 | for == ab,
-31.1 | zpq == ef,
-symp. | ◇ap est req.
+rallelogramma, quæ similis sit parallelogrammo alteri dato.
+
+A vne ligne droicte donnee appliquer vn parallelogramme egal à vne figure rectiligne donnee, excedant icelle d'vn parallelogramme semblable à vn autre donné.
+
+[Figure: parallelogramme D ; parallelogramme A, F, G auec poincts E, B, P, M sur la base R, L, O, N ; triangle C ; parallelogramme I, K, H, S]
+
+Hypoth.
+
+ab est — D.
+c, est rectili. D.
+d, est ◇. D.
+
+Req. π. fa.
+
+◇an 2|2 rectili. c,
+◇op, sml. ◇d.
+
+Constr.
+
+10.1 | ae 2|2 eb, α
+18.6 | ◇eg, sml. ◇d,
+25.6 | ◇hk 2|2 ◇eg + c,
+◇hk, sml. ◇d u ◇eg,
+3.1 | fel 2|2 ih,
+3.1 | fgm 2|2 ik,
+31.1 | rln == fm,
+31.1 | mn == fl,
+31.1 | ar == fl,
+2.p.1 | abp & gbo snt —
+1.p.1 | fb & bn snt —,
+symp. | ◇an est req.
 
 Demonstr.
 
-constr. 24.6 | ◇d, ◇eg, ◇oq, ◇zr, ◇nt snt sml. ⁊e, δ
-β.γ.constr. | ◇eg 2|2 ◇nt + c,
-2.c.20.6 | ◇oq 2|2 ◇nt,
-3.a.1 | gnom. obq 2|2 c, ε
-α.36.1 | ◇ao 2|2 ◇er u ◇zg,
-◇ep commun. add.
-2.a.1 | gnom. obq 2|2 ◇ap,
-1.concl. ε.1.a.1 | ◇ap 2|2 c,
-2.concl. δ | zr sml. ◇d.
-
-Si ad datam rectam lineam applicandum sit parallelogrammum deficiens quadrato, expeditius soluetur problema sequenti methodo proponendo sic.
-
-Si à la ligne donnee il faut appliquer vn parallelogramme defaillant d'vn quarré, la solution se trouuera plus briefuement par la methode suiuante proposant le probleme ainsi.
-
-## SCHOL.
-
-Dato aggregato extremarum, & rectangulo sub extremis inuenire extremas.
-
-Estant donné l'aggregé des extremes & le rectangle contenu sous les extremes, trouuer les extremes.
-
-Vel sic. Ou ainsi.
-
-E serie trium proportionalium, data media & summa extremarum inuenire extremas.
+constr. | ◇d, ◇eg, ◇hk snt sml. ⁊e,
+constr. | ◇lm 2|2 & sml. ◇hk,
+constr. | ◇eg, sml. ◇hk,
+21.6 | ◇lm, sml. ◇eg,
+26.6 | fbn est —,
+1.concl. 24.6 | ◇op, sml. ◇eg u ◇d,
+constr. | ◇hk 2|2 ◇eg + c,
+1.a.1 | ◇lm 2|2 ◇eg + c,
+◇eg commun. subtr.

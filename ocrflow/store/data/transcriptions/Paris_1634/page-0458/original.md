@@ -1,28 +1,29 @@
-<!-- Running title: ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
 
-A...3, B...3E...3F...3C
-D....4, G....4H....4L....4M
+A......5E...3B
+G......6C...........10F...... 6D
 
 Demonstr.
 
-3.p.7 | part.. nr. bc 2|2 nr. a snt be,ef,fc,
-3.p.7 | part.. nr. gm 2|2 nr. d snt gh, hl, lm,
-s.4.d.7 | multd..part. bc 2|2 muld..part. gm,
-2.a.1 | a + d, be + gh, ef + hl, fc + lm snt 2|2 ꝫe,
-2.a.1 | multd..part..be + gh, ef + hl, fc + lm 2|2 multd..part..be,ef,fc,
-concl. s.4.d.7 | a + d, par..bc + gm 2|2 a, par..bc, u d, par..gm.
+suppos. | eb par.. gc 2|2 ab par.. cd u ae par.. cf,
+5.7 | ab par.. gf 2|2 ae par.. cf u ab par.. cd,
+6.a.1 | gf 2|2 cd,
+3.a.1 | gc 2|2 fd,
+concl. 2.a.7 | eb par.. fd 2|2 ab par.. cd u ae par.. cf.
 
-## THEOR. IV. PROPOS. VI.
+## THEOR. VI. PROPOS. VIII.
 
-Si numerus numeri partes fuerit, & alter alterius eædem partes : & simul vterque vtriusque simul eædem partes erit, quæ vnus vnius.
+Si numerus numeri partes fuerit, quales ablatus ablati : & reliquus reliqui eædem partes erit, quales totus totius.
 
-*Si vn nombre est telles parties d'vn nōbre qu'vn autre l'est d'vn autre : l'vn & l'autre ensemble sera telles parties de l'vn & l'autre ensemble, qu'vn seul l'est d'vn seul.*
+*Si vn nombre est telles parties d'vn autre nombre, que le retranché du retranché : le reste sera aussi telles parties du reste, que le tout l'est du tout.*
 
-A...3G...3B, C..........9
-D......5H.....5E, F................15
+A......6H..2G....4E..2L..2B
+C.....................18F...... 6D
 
 Hypoth.
 
-ab part.. c 2|2 de part.. f.
+ab part.. cd 2|2 ae part.. cf.
 
 Req. π. demonstr.
+
+eb part.. fd 2|2 ab part.. cd u ae part.. cf.

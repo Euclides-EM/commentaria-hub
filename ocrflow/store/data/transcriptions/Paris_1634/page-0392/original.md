@@ -1,47 +1,34 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-A vn rectiligne donné descrire vn rectiligne semblable, plus grand ou plus petit, selon la raison donnee.
+[Figure: cercle auec les poincts F, A, D, B, E, G, C ; ligne H à part]
 
-[Figure: quadrilatere G, H, A, B ; quadrilatere E, F, C, D ; lignes R, M, S à part]
-
-Hypoth.
-
-abhg est rectil. D.
-
-r π s est raō. D.
-
-Req. π. fa.
-
-r π s 2|2 abg π cde.
-
-Constr.
-
-13.6 | r π m 2|2 m π s,
-11.6 | r π m 2|2 ab π cd,
-18.6 | cdfe est sml. abhg,
-symp. | req. est cdfe,
+3.p.1 | age est semic.
+2.p.1 | cbg est —,
+1.p.1 | ag & eg snt —,
+symp. | Δabg est req.
 
 Demonstr.
 
-constr. | ab π cd 2|2 r π m,
-20.6 | abhg π cdfe 2|2, 2 raō.. ab π cd,
-10.d.5 | r π s 2|2, 2 raō.. r π m,
-concl. 1.s.13.5 | abhg π cdfe 2|2 r π s.
+15.d.1 | fd 2|2 de,
+constr. | ad 2|2 db,
+3.a.1 | af 2|2 be,
+ab commun. add.
+2.a.1 | fb 2|2 ae,
+s.5.2 | □.bc 2|2 ▭.fbe,
+3.s.1.d.2 | ▭.fbe 2|2 ▭.aeb,
+s.22.6 | ▭.aeb 2|2 □.ge,
+1.a.1 | □.bc 2|2 □.ge,
+s.46.1 | bc 2|2 ge,
+8.6 | Δabg, sml. Δbge,
+4.6 | ab π ag 2|2 bg π ge,
+16.6 | ▭.ag,bg 2|2 ▭.ab,ge
+3.s.1.d.2 | ▭.ab,ge 2|2 ▭.ab,bc
+α.17.6 | ▭.ab,bc 2|2 □.h,
+1.a.1 | ▭.ag,bg 2|2 □.h
+1.concl. 17.6 | ag π h 2|2 h π bh,
+constr. | <abc est ⌐,
+2.concl. 1.c.13.1 | <abg est ⌐.
 
-## SCHOL.
+## PROBL. X. PROPOS. X.
 
-Additio & subductio linearum rectarum fiunt per tertiam primi.
-
-Linea recta in lineam rectam ducitur per 13. sexti.
-
-Planum ad lineam rectam applicatur per 4. appendicis.
-
-Additio similium planorum fit per 5. appendicis.
-
-Subductio similium planorum fit per 6. appendicis.
-
-L'addition & soustraction des lignes droictes se font par la troisiesme du premier.
-
-La ligne droicte est multipliee par la ligne droicte par la treiziesme du sixiesme.
-
-Vn plan est appliqué à vne ligne droicte par la quatriesme de l'appendix.
+Data hypothenusa trianguli rectanguli, & media proportionali inter basin & perpendiculum, inuenire ttiangulum.

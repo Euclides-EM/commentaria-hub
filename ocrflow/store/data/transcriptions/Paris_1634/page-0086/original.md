@@ -1,32 +1,48 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-& angulum angulo æqualem sub æqualibus rectis lineis contentum : Et basim basi æqualem habebunt : eritque triangulum triangulo æquale ; ac reliqui anguli reliquis angulis æquales erunt, vterque vtrique, sub quibus æqualia latera subtëdütur.
+β | <bdc 2|2 <cfb,
+1.concl. 4.1. | <dbc 2|2 <fcb,
+4.1. | <dcb 2|2 <fbc,
+γ | <acd 2|2 <abf,
+1.concl. 3.a.1. | <acb 2|2 <abc.
 
-Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & l'angle contenu d'iceux costez égaux, égal à l'angle. Ils auront la base égale à la base, & le triangle sera égal au triangle, & les autres angles soustendans iceux costez égaux, seront égaux aux autres angles chacun au sien.
+COROLL.
 
-[Figure: deux triangles, ABC à gauche et DEF à droite]
+Ex hac quinta propositione liquet omne triangulum æquilaterum esse quoque æquiangulum. | De cette cinquiesme proposition il s'ensuit que tout triangle equilateral est außi equiangle.
+
+[Figure: triangle ABC, C au sommet]
 
 Hypoth.
 
-ab 2|2 de,
-ac 2|2 df,
-<bac 2|2 <edf.
+abc est △ æquilat.
 
-Requ. π. demonstr.
+Req. π. demonstr.
 
-bc 2|2 ef,
-△abc 2|2 △def,
-<b 2|2 <e,
-<c 2|2 <f.
+abc est △ æquiang.
 
 Demonstr.
 
-suppos. | a est ⟨n d,
-suppos. | ab est ⟨n de,
-hyp. | ab 2|2 de,
-9.a.1. | b est ⟨n e,
-hyp. | <bac 2|2 <edf,
-9.a.1. | ac est ⟨n df,
-hyp. | ac 2|2 df,
-9.a.1. | c est ⟨n f,
-14.a.1. | △abc △def conunt.
+hyp. 1.concl. | ac 2|2 ab,
+5.1. | <b 2|2 <c, α
+hyp. 2.concl. | bc 2|2 ba,
+5.1. | <a 2|2 <c,
+1.concl. α. 1.a.1. | <a 2|2 <b,
+f. 8.d.1. | △abc est æquiang.
+
+## THEOR. III. PROPOS. VI.
+
+Si trianguli duo anguli æquales inter se fuerint, & sub æqualibus angulis subtensa latera, æqualia inter se erunt.
+
+Si deux angles d'vn triangle sont égaux entr'eux, les costez soustendans iceux angles égaux, seront außi égaux entr'eux.
+
+[Figure: triangle ABC, A au sommet, D sur le costé AB, ligne DC]
+
+Hypoth.
+
+<abc 2|2 <acb,
+
+Req. π. demonstr.
+
+ab 2|2 ac.
+
+Demonstr.

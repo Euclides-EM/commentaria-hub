@@ -1,43 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## SCHOL.
+λ.2c.20 d.7 | e, msur: f,
+contr. suppos. μ
+2.concl. 21.a.1 | e, est mi. commun. diuidu.. a & b.
 
-Ex his facili via reperiemus duos minimos numeros, qui eandem habeant proportionem, quam quotcunque numeri dati continuè proportionales.
+## COROLL.
 
-*Par ce que dessus, nous pouuons trouuer les deux plus petits nombres qui sont en mesme raison, que tant de nombres qu'on voudra continuellement proportionaux.*
+Hinc sequitur, si duo numeri multiplicent minimos eandem rationem habentes, maior minorem, & minor maiorem, produci numerum minimum, quem illi metiuntur.
 
-A,16. B,24. C,36. D,54. E,81.
-H,8.
-F,2. G,3.
+*D'icy il s'ensuit que si deux nombres multiplient les plus petits ayans la mesme raison, le plus grand le plus petit & le plus petit le plus grand, le produit sera le plus petit nombre qu'iceux mesurent.*
 
-Hypoth.
+## THEOR. XXXIII. PROPOS. XXXVII.
 
-a,b,c,d,e snt contin. proport.
+Si duo numeri numerū quempiā metiantur: etiam minimus, quem illi metiuntur, eundem metietur.
 
-Req. snt mi. nr.. raō.
+*Si deux nombres mesurēt quelque autre nombre: le plus petit qu'ils mesurent, mesurera aussi le mesme nombre.*
 
-a π b, u b π c.
-
-Constr.
-
-3.7 | h, est ma.c.me.. a & b,
-suppos. | h, msur: a ꝑ f,
-suppos. | h, msur: b ꝑ g,
-35.7 | f & g snt nr. req.
-
-## PROBL. IV. PROPOS. XXXVI.
-
-Duobus numeris datis, reperire quem illi minimum metiantur, numerum.
-
-*Deux nombres estans donnez, trouuer le plus petit nombre, qu'ils mesurent.*
-
-A.....4 B......5
-C,20.
-D--------
-E--- F---
+A..2 B..3
+C----F---D
+E.......6
 
 Hypoth.
 
-a & b snt nr. D.
+a & b msur: cd,
+e, est mi. c. diuidu.. a & b.
 
-Req. est mi.c.diuidu.. a & b.
+Req. π. demonstr.
+
+e, msur: cd.
+
+Demonstr.
+
+suppos. | e, msur: cf,
+suppos. | fd est 2|3 e, α
+hyp. | a & b msur: e,
+11.a.7 | a & b msur: cf,
+hyp. | a & b msur: cd,
+12.a.7 | a & b msur: fd,
+α | e, n̄ est mi. c. diuidu.. a & b.
+contr. hyp.

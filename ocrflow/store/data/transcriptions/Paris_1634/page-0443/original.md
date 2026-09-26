@@ -1,47 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-Conuers. 20. def. 7.
+Vt planus numerus plano numero sit similis, non necesse est, quælibet duo latera illius quibusuis duobus lateribus huius esse proportionalia : sed satis est, illum habere aliqua latera, quæ sint proportionalia quibusuis duobus lateribus huius vt numeri plani 24, & 6, similes sunt, quoniam illius latera 6, & 4, proportionalia sunt lateribus huius 3, & 2, quamuis his eisdem non sint proportionalia alia illius latera nempe 8, & 3, vel 12, & 2. Eodem modo intelligenda est definitio solidorum.
 
-A,8. B,12. C,4. D,6.
+*Afin qu'vn nombre plan soit semblable à vn nombre plan, il n'est pas necessaire que deux costez de l'vn tels qu'on voudra soient proportionaux à deux costez de l'autre tels qu'on voudra ; mais suffit que l'vn ait deux costez quels qu'ils soient proportionaux à deux quelconques costez de l'autre, comme les nombres plans 24, & 6, sont semblables, d'autant que les costez de celuy-là, 6, & 4, sont proportionaux aux costez de cestuy-cy, 3, & 2, combien que les autres costez de ce premier 8, & 3, ou 12, & 2, ne sont proportionaux à ceux-cy. Il faut entendre de mesme la definition des solides.*
 
-hyp. | a π b 2|2 c π d,
-ɔ.20.d7 | a, 8,2,3,6|4, b, c, 8,2,3,6|4, d.
+## DEFINIT. XXII.
 
-Explicatio notarum. Explication des notes.
+Perfectus numerus est qui suis ipsius partibus est æqualis : vt 6. & 28.
 
-A, ad B, est vt C, ad D; igitur A, & C, sunt æquè multiplices B, & D : vel A, est eadem pars numeri B, quæ numerus C, numeri D : vel denique eadem pars numeri A, metitur numerum B, quæ numeri C, numerū D.
+*Nombre parfaict est celuy-là qui est egal à toutes ses parties aliquotes : comme sont 6. & 28.*
 
-*A à B, est comme C à D : partant A & C, sont equimultiples de B & D : ou A, est mesme partie de B, que C, l'est du nombre D : ou bien la partie de A, qui mesure B, est la mesme que la partie de C, qui mesure D.*
+nr. ꝑfct, id est numerus perfectus.
 
-## COROLL. I.
+*nr. ꝑfct, signifie nombre parfaict.*
 
-hyp. | a, msur: b, c, msur: d,
+Numerus qui suis ipsius partibus minor est, abundans appellatur, qui verò maior, diminutus : vt 12, est abundans, 15 est diminutus.
 
-A,5. B,15. C,8. D,24.
+*Le nombre qui est moindre que ses parties s'appelle abondant, & celuy qui excede ses parties est diminutif, comme 12, est abundant, & 15, diminutif.*
 
-1c.20d7 | a π b 2|2 c π d.
+His definitionibus Euclidis, adiungemus cum Clauio aliisque interpretibus sequentes de-
 
-Explicatio notarum. Explication des notes.
-
-A & C, metiuntur æquè B & D : igitur A, est ad B, vt C ad D.
-
-*A & C, mesurent egalement B & D : partant A, est à C, comme C à D.*
-
-## COROLL. II.
-
-hyp. | a π b 2|2 c π d.
-hyp. | a, msur: b
-
-A,5. B,15. C,8. D,24.
-
-2c20 d7 | a, msur: b 2|2 c, msur: d,
-
-Explicatio notarum. Explication des notes.
-
-A, est ad B, vt C, ad D.
-
-A, metitur B : igitur A & C, metiuntur æquè B & D.
-
-*A, est à B, comme C à D.*
-
-*A, mesure B : par consequēt A & C, mesurēt egalemēt B & D.*
+*A ces definitions d'Euclide nous adiousterons, apres Clauius & autres interpretes, les defini-*

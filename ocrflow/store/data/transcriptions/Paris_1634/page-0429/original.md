@@ -1,49 +1,29 @@
-<!-- Running title: APPEND.. GEOM.. PLAN. -->
+# EVCLIDIS ELEMENTORVM LIBER SEPTIMVS.
 
-<bfc 3|2 <bec u <bgc,
+# LE SEPTIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
-Præpar.
+## DEFINIT. I.
 
-3.p.1 | cibl est ⊙,
-2.p.1 | gbl est —,
-1.p.1 | cl est —.
+Vnitas est, secundam quam vnumquodque eorum, quæ sunt vnum dicitur.
 
-[Figure: cercle auec les poincts A, E, C, I, L, F, B, G, D]
+vnit. vel 1. id est vnitas.
 
-Demonstr.
+vnits. id est vnitates.
 
-15.d.1 | ce, cf, cg snt 2|2 ʒe,
-19.1 | cb 3|2 cl u ci,
-concl. s.31.3 | <bfc 3|2 cei u cel.
+*L'vnité est selon laquelle vne chacune chose de celles qui sont, est dite vne.*
 
-## THEOR. XXVII. PROPOS. XL.
+*vnit. ou 1. signifie l'vnité.*
 
-Theon in tertium lib. Almagesti.
+*vnits. signifie vnitez.*
 
-Hypoth.
+## DEFINIT. II.
 
-cage est ⊙,
+Numerus autem, est vnitatibus composita multitudo.
 
-acd est —,
+*Nombre, est vne multitude composee d'vnitez.*
 
-◠ag 2|2 ◠gh,
+## COROLL.
 
-arbitr. | d, est • in bd,
+Æquales numeri, æquali numero vnitatem constant: Et numeri, qui æquali nu-
 
-dg & dh snt —.
-
-[Figure: cercle auec les poincts A, L, G, C, H, F, E, B, I, K, D]
-
-Req. π. demonstr.
-
-<gda 3|2 <gdh.
-
-Præpar.
-
-gb & gk snt —.
-
-Demonstr.
-
-8.3 | di 3|2 db,
-38.app. | di π gi 3|2 <bgd π <bdg,
-28.5 | dg π gi 3|2 <gba π <bdg, α
+*Les nombres egaux, sont composez de mesmes nombre d'vnitez: & les nombres com-*

@@ -1,17 +1,21 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-## PETITIONES SIVE POSTVLATA.
+DA, descriptus est circulus ABC, per tertium postulatum. | DA, a esté descrit le cercle ABC, par la troisiesme demande.
 
-## PETITIONS OV DEMANDES.
+### IV.
 
-### I.
+Item quacunque magnitudine data sumi posse aliam magnitudinem, vel æqualem, vel maiorem vel minorem. | Semblablement quelconque grandeur estant donnee, pouuoir prendre vne autre plus grande ou plus petite.
 
-Postuletur, vt à quouis puncto in quoduis punctum, rectam lineam ducere, concedatur. | Soit demandé, de tout poinct donné, à tout autre poinct donné, mener vne ligne droicte, soit concedé.
+## COMMVNES NOTIONES SIVE axiomata, quæ & pronunciata dici solent, vel dignitates.
 
-[Figure: ligne droicte horizontale de A à B]
+## COMMVNES NOTIONS OV sentences, qui s'appellent außi maximes.
 
-1.p.1 | ab est —.
+### I. a. 1.
 
-Explicatio notarum. | Explication des notes.
+Quæ eidem æqualia, & inter se sunt æqualia. | Les choses egales à vne mesme, sont außi egales entr'elles.
 
-AB est recta per primum postulatum, vel à puncto A ad punctum B, ducta est recta linea AB per primum postulatum. | AB est vne ligne droite par la premiere demande : ou bien, du poinct A au poinct B a esté menée la ligne droite AB, par la premiere demande ou postulat.
+[Figure: trois lignes droictes horizontales, AB en haut à gauche, EF à droite, CD au dessous de AB]
+
+hyp. | ab 2|2 ef,
+hyp. | cd 2|2 ef,
+1.a.1 | ab 2|2 cd.

@@ -1,38 +1,60 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-sextam : prima quoque ad secundam maiorem rationem habebit, quàm quinta ad sextam.
+secunda æqualis quartæ : si verò minor, & minor erit.
 
-Si la premiere a mesme raison à la seconde que la troisiesme à la quatriesme ; mais la troisiesme a plus grande raison à la quatriesme, que la cinquiesme à la sixiesme : aussi la premiere aura plus grande raison à la seconde, que la cinquiesme à la sixiesme.
+Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme ; & que la premiere soit plus grande que la troisiesme, la seconde sera aussi plus grande que la quatriesme. Et si la premiere est égale à la troisiesme, aussi la seconde sera égale à la quatriesme ; & si plus petite, plus petite.
 
-[Figure: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]
+[Figure: quatre lignes verticales A, B, C, D]
 
-Hypoth.
+Hypoth. commun.
 
 a π b 2|2 c π d,
-c π d 3|2 e π f,
 
-Req. π. demonstr.
+Hypoth. 1.
 
-a π b 3|2 e π f.
+a 3|2 c, α
 
-Præpar.
+Req π. demonstr.
 
-3.1 | g, multipl.. | a,
-| h, multipl.. | c,
-| i, multipl.. | e,
-3.1 | k, multipl.. | b,
-| l, multipl.. | d,
-| m, multipl.. | f,
+b 3|2 d.
 
 Demonstr.
 
-suppos. | h 3|2 l,
-c.6.d.5 | g 3|2 k, α
-c.8.d.5 | i 2|3 m, α
-concl. 8.d.5 | a π b 3|2 e π f.
+hyp. | c π d 2|2 a π b,
+α.8.5 | a π b 3|2 c π b,
+13.5 | c π d 3|2 c π b,
+1.concl. 10.5 | b 3|2 d.
+
+Hypoth. 2.
+
+a 2|2 c, β
+
+Req. π. demonstr.
+
+b 2|2 d.
+
+Demonstr.
+
+hyp. | c π d 2|2 a π b,
+β.9.5 | c π b 2|2 a π b,
+11.5 | c π d 2|2 c π b,
+2.concl. 9.5 | b 2|2 d.
+
+Hypoth. 3.
+
+a 2|3 c. γ
+
+Req. π. demonstr.
+
+b 2|3 d,
+
+Demonstr.
+
+hyp. | c π d 2|2 a π b,
+γ.8.5 | a π b 2|3 c π b,
+13.5 | c π d 2|3 c π b,
+3.concl. 1.13.5 | b 2|3 d.
 
 ## SCHOL. I.
 
-Quod si proportio tertiæ ad quartam minor fuerit quàm quintæ ad sextam, erit quoque proportio primæ ad secundam minor quàm quintæ ad sextam, vt perspicuum est eadem demonstratione.
-
-Que si la raison de la troisiesme à la quatriesme est moindre que celle de la cinquiesme à la sixiesme, il y aura pareillement
+Perspicuum autem est, ob similitudinem rationum, si prima maior est, vel æqualis, vel minor quàm secunda,

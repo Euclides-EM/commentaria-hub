@@ -1,28 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## THEOR. XXXIII. PROPOS. XXXIII.
-
-Si fuerit maior proportio totius ad totum, quàm ablati ad ablatum : Erit & reliqui ad reliquum maior proportio, quàm totius ad totum.
-
-S'il y a plus grande raison du tout au tout, que du retranché au retranché ; il y aura aussi plus grande raison du reste au reste, que du tout au tout.
-
-[Figure: lignes A—E—B ; C—F—D]
-
-Hypoth.
-
-ab π cd 3|2 ae π cf.
-
-Req. π. demonstr.
-
-eb π fd 3|2 ab π cd.
+a+b+c+g π d+e+f+h 3|2 g π h,
 
 Demonstr.
 
-hyp. | ab π cd 3|2 ae π cf,
-27.5 | ab π ae 3|2 cd π cf,
-30.5 | ab π eb 2|3 cd π fd,
-concl. 27.5 | ab π cd 2|3 eb π fd.
-
-## THEOR. XXXIV. PROPOS. XXXIV.
-
-Si sint quotcunque magnitudines, & aliæ ipsis æquales numero, sitque maior proportio primæ priorum ad primam posteriorum, quàm secundæ ad secundam ; & hæc maior, quàm tertiæ ad tertiam ; & sic deinceps : Habebunt omnes priores simul ad omnes posteriores simul, maiorem proportionem, quàm omnes priores, relicta prima, ad omnes posteriores, relicta quoque prima ; minorem autem, quàm prima priorum ad primam posterio
+hyp. | a π d 3|2 b π e,
+27.5 | a π b 3|2 d π e,
+28.5 | a+b π b 3|2 d+e π e,
+27.5 | a+b π d+e 3|2 b π e, α
+33.5 | a π d 3|2 a+b π d+e, β
+d.α | b+c π e+f 3|2 c π f, λ
+d.β | b π e 3|2 b+c π e+f, γ
+hyp. | a π d 3|2 b π e,
+γ | b π e 3|2 b+c π e+f,
+13.5 | a π d 3|2 b+c π e+f, δ
+d.δ | b π e 3|2 c+g π f+h,
+δ.27.5 | a π b+c 3|2 d π e+f,
+28.5 | a+b+c π b+c 3|2 d+e+f π e+f,
+1.concl. 27.5 | a+b+c π d+e+f 3|2 b+c π e+f, ε
+2.concl. 33.5 | a π d 3|2 a+b+c π d+e+f, θ
+λ | b+c π e+f 3|2 c π f,
+3.concl. ε.13.5 | a+b+c π d+e+f 3|2 c π f, ν
+d.ε | b+c+g π e+f+h 3|2 c+g π f+h,
+d.θ | b π e 3|2 b+c+g π e+f+h, μ
+d.ν | b+c+g π e+f+h 3|2 g π h, ω
+hyp. | a π d 3|2 b π e,
+μ | b π e 3|2 b+c+g π e+f+h,
+13.5 | a π d 3|2 b+c+g π e+f+h,

@@ -1,42 +1,42 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-## THEOR. I. PROPOS. I.
+tibus in communi sectione ad rectos angulos insistat: illa ducto etiam per ipsas plano ad angulos rectos erit.
 
-Rectæ lineæ pars quædam non est in subiecto plano, quædam verò in sublimi.
+*Si deux lignes droictes se couppent l'vne l'autre, & au poinct de leur commune section est menee vne autre ligne droicte à angles droicts: elle sera aussi à angles droicts sur le plan d'icelles.*
 
-*Vne partie d'vne ligne droicte ne peut estre en vn plan proposé, & vne partie au dessus.*
-
-[Figure: labels arranged D B / A C F / E]
+[Figure: labels arranged F / A C / G E H / D B]
 
 Hypoth.
 
-adfe, est plan.
-acf, est ——,
-ac, est ꝗn plan. de.
+ab, cd snt —— ꝗplan. acbd,
+e, est intersect.
+ef ⊥ ab & dc.
 
 Req. π. demonstr.
 
-cf, est ꝗn plan. de.
+ef ⊥ plan. acbd.
+
+Præpar.
+
+3. p. 1 | ea, ec, eb, ed snt 2|2 ꝗe,
+1. p. 1 | ac, cb, bd, ad snt ——
+arbitr. | geh, est ——,
+1. p. 1 | fa, fc, fg, fh, fd, fb snt ——,
 
 Demonstr.
 
-suppos. | acb, est ——,
-hyp. | acf, est ——,
-contr. 10. a. 1.
-concl. 21.a.1 | cb, est ꝗn plan. de.
-
-## THEOR. II. PROPOS. II.
-
-Si duæ rectæ lineæ se mutuò secent, in vno sunt plano: atque triangulum omne in vno est plano.
-
-*Si deux lignes droictes se couppent l'vne l'autre, elles sont en vn mesme plan: & tout triangle est en vn mesme plan.*
-
-[Figure: labels arranged D F / E / A C]
-
-Hypoth.
-
-ab & cd snt ——;
-e, est intersect.
-arbitr. | db, est ——.
-
-Req. π. demonstr.
+15. 1 | <aed 2|2 <bec,
+4. 1 | ad 2|2 cb,
+15. 1 | <aec 2|2 <deb,
+4. 1 | ac 2|2 db,
+s.34. 1 | acbd, est ◇,
+constr. | ea 2|2 eb,
+29. 1 | <cag 2|2 ebh,
+29. 1. | <ega 2|2 <ehb,
+26. 1 | eg 2|2 eh, α
+26. 1 | ag 2|2 bh, β
+hyp. & 12.a.1 | <fea 2|2 feb,
+4. 1 | fa 2|2 fb, γ
+hyp. & 12.a.1 | <fea 2|2 <fec,
+constr. | ea 2|2 ec,
+4. 1 | fa 2|2 fc, δ

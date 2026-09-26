@@ -1,41 +1,32 @@
-<!-- Running title: ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVDLID. LI. III. -->
 
-Req. π. demonstr.
+[Figure: cercle G—I—L—H, B au centre, ligne C—F—A—D tangente en haut, E au dedans, lignes B—G, B—E, B—H, A—I, A—L]
 
-ad 2|2 bc.
-
-[Figure: cercle A—B—C—D, E au centre, F et G au dedans, lignes A—D, B—C, E—A, E—B, E—F, E—G]
+arbitr. | f, est • in ac,
+1.p.1 | bf est —,
+12.1 | be ⊥ al.
 
 Demonstr.
 
-47.1 | ▭.af + ▭.fe 2|2 ▭.ae,
-47.1 | ▭.gb + ▭.eg 2|2 ▭.eb,
-1.a.1 | ▭.af + ▭.fe 2|2 ▭.gb + ▭.eg,
-3.a.1 | ▭.af 2|2 ▭.gb,
-s.46.1 | af 2|2 gb,
-2.concl. 6.a.1 | ad 2|2 bc.
+hyp. | <baf est ∟,
+1.c.17.1 | <bfa 2|3 ∟,
+19.1 | bf 3|2 baubg,
+c.15.d.1 | • f, est extr. ⊙,
+1.concl. c.38 d.1 | ac est extr. ⊙,
+hyp. | <bae 2|3 ∟,
+constr. | <aeb est ∟,
+19.1 | be 2|3 ba,
+c.15 d.1 2.concl. | e, est in ⊙, α
+α | al ñ est extr. ⊙,
+3.concl. 9.a.1 | <bai 3|2 <bae,
+4.concl. 9.a.1 | <iad 2|3 <ead,
 
-## THEOR. XIV. PROPOS. XV.
+## COROLL.
 
-In circulo maxima quidem linea est diameter; aliarum autem propinquior centro, remotiore semper maior est.
+Hinc manifestum est, rectam à diametri circuli extremitate ad angulos rectos ductam, ipsum circulum tangere. Ostensum enim est, ipsam cadere extra circulum; quare solum in puncto illo diametri extremo circulum attingit.
 
-Au cercle la plus grande ligne est le diametre ; mais des autres, tousiours celle qui est plus proche du centre, est plus grande que celle qui en est plus esloignée.
+Il est d'icy manifeste que la ligne droicte tirée de l'extremité du diametre, à angles droicts touche le cercle. Car il a esté demonstré qu'elle tombe dehors le cercle. Partant elle atteint le cercle à ce poinct extreme du diametre seulement.
 
-[Figure: cercle F—A—K—B—E—D—L—C, G au centre, H et I au dedans, N sous G, lignes F—E, A—D, K—L, B—C, H—I, lignes de G vers B et C]
+## PROBL. II. PROPOS. XVII.
 
-Hypoth.
-
-gabc est ⊙,
-ad est diamet.
-gi ⊥ bc,
-gh ⊥ fe,
-gi 3|2 gh.
-
-Req. π. demonstr.
-
-ad 3|2 fe,
-fe 3|2 bc.
-
-Præpar.
-
-3.1 | gn 2|2 gh, α
+A dato puncto rectam lineam ducere, quæ datum tangat circulum.

@@ -1,39 +1,13 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## THEOR. XCI. PROPOS. CXV.
+rationale ex lemmate 38. huius libri.
 
-Si spatium contineatur sub apotoma, & ea, quæ ex binis nominibus, cuius nomina commensurabilia sunt nominibus apotomæ, & in eadem proportione;recta linea spatium potens,est rationalis.
+Possit autem ipsum recta linea BE: ergo BE irrationalis est, & nulli priorum eadem : Nullum enim quadratum alicuius priorum ad rationalem applicatum latitudinem efficit mediam. Rursus compleatur DE, erit DE irrationale; & recta ipsum potens irrationalis. Possit enim ipsum recta linea EF, quæ erit irrationalis, & nulli priorum eadem. Nullum enim priorum quadratum,si ad rationalem applicetur, latitudinem efficit ipsam BE; ergo à media infinitæ irrationales fiunt, & nulla alicui priorum est eadem.
 
-*Si vn espace est contenu sous vn apotome & sous vne ligne appellee binome, de laquelle les noms sont commensurables aux noms de l'apotome & en mesme raison; la ligne droicte pouuant iceluy espace est rationelle.*
+*rationelle: Donc AD est irrationelle par le lemme de la 38. proposition de ce liure.*
 
-[Figure: labels arranged E F G / A C / D / I B H]
+*Soit BE pouuant iceluy espace AD, BE sera irrationelle : par consequent BE,est irrationelle, & n'est aucune de 13.precedentes: Car il n'y a point aucun quarré des precedentes qui face la mediale estant appliqué à la rationelle. Derechef soit accomply le rectangle DE, lequel sera irrationel, & aussi la ligne qui la peut; car soit FE, pouuant iceluy, qui sera irrationelle, & ne sera aucune des precedentes; car il n'y a aucun des quarrez des precedens qui face icelle BE, estant appliqué à vne ligne rationelle; partant de la mediale se font infinies irrationelles, & aucune n'est la mesme que quelqu'vne des antecedentes.*
 
-Hypoth.
+## THEOR. XCIII. PROPOS. CXVII.
 
-ab, est ▭.ac, ab,
-ac, est apotom.& ae, congruen.
-cb, est binom.
-cd & db snt nom.
-cd 3|2 db,
-cd, comm. ce,
-db, comm. ae,
-ce π ea 2|2 cd π db,
-□.f 2|2 ▭ab.
-
-Req. π. demonstr.
-
-f, est ration.
-
-Præpar.
-
-arbitr. | g, est ration.
-4. app. | ▭ch 2|2 □.g,
-
-Demonstr.
-
-113.10 | bh, est apotom.
-113.10 | hi, comm. cd,
-111.10 | bi, comm. db,
-113.10 | hi π bi 2|2 cd π db, Ⅱ ce π ea,
-16. 5 | hi π ce 2|2 bi π ea,
-19. 5 | bh π ac 2|2 hi π ce, Ⅱ bi π ea,
+Propositum sit nobis ostendere, in quadratis figuris diametrum lateri incommensurabilem esse longitudine.

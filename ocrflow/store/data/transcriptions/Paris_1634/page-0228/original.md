@@ -1,29 +1,15 @@
-<!-- Running title: ELEM.. EVDLID. LI. III. -->
+# EVCLIDIS ELEMENTORVM LIBER QVARTVS.
 
-## COROLL. IV.
+# LE QVATRIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
-Illud denique constat etiam, si duæ rectæ æquales ex puncto quopiam in conuexam peripheriam incidant, & earum vna circulum tangat, alteram quoque circulum tangere.
+## DEFINIT. I.
 
-Il est finalement euident, que si deux lignes droictes égales, sont menées de quelconque poinct à la circonference conuexe, & que l'vne d'icelles touche le cercle, l'autre aussi le touchera.
+Figvra rectilinea in figura rectilinea inscribi dicitur, cùm singuli eius figuræ quæ inscribitur, anguli singula latera eius, in qua inscribitur, tangunt.
 
-[Figure: cercle B—E—C marqué 2, D et F au dedans, A au dehors en haut, lignes A—B, A—C, A—D—E, F sur A—E]
+Vne figure rectiligne est dite estre inscrite en vne figure rectiligne, quand chacun des angles de la figure inscrite, touche chacun costé de celle en laquelle elle est inscrite.
 
-Hypoth.
+## DEFINIT. II.
 
-ab 2|2 ac,
-ac tang: ⊙ bdc,
+Similiter & figura circum figuram describi dicitur, cùm singula eius, quæ circumscribitur, la-
 
-Req. π. demonstr.
-
-ab tang: ⊙ bdc.
-
-Demonstr.
-
-suppos. | ad tang: ⊙ bdc,
-2.c.36.3 | ad 2|2 ac,
-hyp. | ab 2|2 ac,
-1.a.1 | ab, ad, ac snt 2|2 ⁊e, contr. 8. 3.
-
-## THEOR. XXXI. PROPOS. XXXVII.
-
-Si extra circulum sumatur punctum aliquod, ab eoque in circulum cadant duæ rectæ lineæ, quarum altera circulum secet, altera in eum incidat ; sit autem, quod sub tota secante, & exterius inter punctum, & conuexam peripheriam assumpta, comprehenditur rectangulum, æquale ei, quod ab incidente describitur, quadrato ; incidens ipsa circulum tanget.
+Semblablement vne figure est dite estre descrite à l'entour d'vne figure, quand chacun costé de la circonscri-

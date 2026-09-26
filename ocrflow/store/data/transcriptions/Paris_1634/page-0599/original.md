@@ -1,22 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-Hypoth. 2.
+Egit hactenus Euclides de magnitudinibus commensurabilibus, & incommensurabilibus, nunc ad rationales & medias transit in sequentibus.
 
-ab, comm. fd. γ
+*Iusques icy Euclide a traicté des grandeurs rationelles & irrationelles, il traictera des rationelles & mediales cy-apres.*
+
+## THEOR. XVII. PROPOS. XX.
+
+Quod sub rationibus longitudine commensurabilibus rectis lineis, secundum aliquem prædictorum modorum α, continetur rectangulum, rationale est.
+
+α Id est, Secundum aliquem trium modorum quos in scholio vndecimæ definitionis huius libri explicuimus.
+
+*Le rectangle contenu sous deux lignes rationelles commensurables en longitude, selon quelqu'vne des manieres deuant dites β, est rationel.*
+
+β *C'est à dire, selon quelqu'vne des trois manieres expliquees au scholie de l'vnziesme definition de ce liure.*
+
+A B (rectangle E C D)
+
+Hypoth.
+
+bd, est ▭.bc, cd,
+bc & cd snt ration;
+comm; ꝗe.
 
 Req. π. demonstr.
 
-ad, est comm. db.
+▭bd, est ration.
+
+Præpar.
+
+suppos. | a, est ration. expos.
+46.1 | be, est □.bc.
 
 Demonstr.
 
-γ c16.10 | ab, comm. af + db,
-α.16.10 | db, comm. af + db,
-12.10 | ab, comm. db,
-2 concl. 16.10 | ad, comm. db.
-
-## THEOR. XVI. PROPOS. XIX.
-
-Si fuerint duæ rectæ lineæ inæquales, quartæ autem parti quadrati, quod fit à minore, æquale parallelogrammum ad majorem applicetur deficiens figura quadrata, & in partes incommensurabiles longitudine ipsam diuidat ; major tantò plus poterit, quàm minor, quantum est quadratum rectæ lineæ sibi longitudine incommensurabilis. Quod si major tantò plus possit, quàm minor, quantum est quadratum rectæ lineæ sibi longitudine incommensurabilis, quartæ autem parti quadrati, quod fit à minore, æquale parallelogrammum ad majorem applicetur deficiens figura quadrata, in partes longitudines incommensurabiles ipsam diuidet.
-
-*S'il y a deux lignes droictes inegales, & à la plus grande on applique vn rectangle egal à la quarte partie du quarré de la plus petite, defaillant d'vne figure quarree, & qu'il diuise icelle en parties incommensurables en*
+1.6 | dc π ce 2|2 bd π be,
+hyp. | dc, comm. cb, u ce,
+10.10 | bd, comm. be,
+9.d.10 | □.a, comm. be,
+12.10 | bd, comm. □.a,
+concl. 9.d.10 | bd, est ration.

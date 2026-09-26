@@ -1,31 +1,27 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIV. -->
 
-concl. 1. a. 1 | 30▭.cd, fg 2|2 ſuperfic. dodecaedr.
+## THEOR. VI. PROPOS. VI.
 
-Hypoth. 2.
-ihк, eſt △.. icoſaedr.
-lihк, eſt ⊙ cirſcri.
-li, lh, lк ſnt ——,
-lm ⊥ hк.
+Si recta linea secetur extrema ac media ratiöne; erit vt recta potens id, quod à tota, & id quod à majori segmento, ad rectam potentem id, quod à tota, & id quod à minori segmento, ita latus cubi ad latus icosaedri eidē sphæræ cum cubo inscripti.
 
-[Figure: labels arranged A / B F E / C G D — I / L / H M K]
+*Si vne ligne droicte est couppee en la moyenne & extreme raison; la ligne qui peut la toute & le plus grand segment sera à la ligne qui peut la toute & le moindre segment, comme le costé du cube au costé de l'icosaedre inscrit en vne mesme sphere que le cube.*
+
+Præpar.
+
+arbitr. | abfl, eſt ⊙,
+ſuppoſ. | bfghi, eſt 5<.. dodecaedr.
+3. 14 | bкl, eſt △.. icoſaedr.
+c.17.13 | bg γ. cub. inſcri. ꝗn ſphær.
+30. 6 | ab π ac 2|2 ac π bc,
+5. app. | □.e 2|2 □.ab + □.bc.
+
+[Figure: labels arranged B / F c I / A / K L / G H E]
 
 Req. π. demonſtr.
-30▭.hк, lm 2|2 ſuperfic.. icoſaedr.
+bg π bк 2|2 bf π e.
 
 Demonſtr.
 
-41. 1 | ▭.hk, lm 2|2, 2△lhk,
-15. 5 | 30▭.hk, lm 2|2, 60△lhk,
-16. 13 | 60△lhk 2|2 ſuperfic. icoſaedr.
-concl. 1. a. 1 | 30▭.hk, lm 2|2 ſuperfic. icoſaedr.
-
-Coroll.
-
-15. 5 | ▭.cd, fg π ▭.hk, lm, / ſuperfic.. dodecaedr. π ſuperfic.. icoſaedr.
-
-## THEOR. V. PROPOS. V.
-
-Superficies dodecaedri ad superficiem icosaedri in eadem sphæra descripti, eandem proportionem habet, quam latus cubi ad latus icosaedri.
-
-*Comme la superficie du dodecaedre est à la superficie de l'icosaedre, ainsi le costé du cube est au costé de l'icosaedre inscrits en vne mesme sphere.*
+12. 13 | □.bк 2|2, 3□.ab,
+4. 13 | □.ab + □.bc, Ⅱ □.e 2|2, 3□.ac,
+15. 5 | □.bк π □.e 2|2 □.ab π □.ac,

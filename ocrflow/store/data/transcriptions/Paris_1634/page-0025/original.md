@@ -1,31 +1,27 @@
 <!-- Running title: EXPLICATION DES NOTES. -->
 
-nr. numerus, le nombre.
-o, in regula trium significat numerum ignotum siue quæsitum.
-o, en la reigle de trois signifie le nombre incognu ou le requis.
-operat. operatio, l'operation.
-p per, par.
-pa. par, pair.
-pa. pa. pariter par, pairement pair.
-pa. impa. pariter impar, pairement impair.
-par. pars, partie.
-part. partes, parties.
-pfct: perfectus, parfaict.
-plan. planum, vn plan.
-polyg. polygonum, vn polygone
-pr. primus, premier.
-pra. praxis, practique.
-præceden. præcedens, la precedente.
-præpar. præparatio, preparation.
-progress. progressio, progression.
-proport. proportio, proportion.
-propos. propositio, proposition.
-propos. proposita, proposée.
-q quàm, que.
-quotien. quotiens, le quotient.
-raō. rao. ratio, raison.
-ration. rationalis, rationelle.
-recipro. reciproca, reciproque.
-rectili. rectilinea, rectiligne.
-reg. regula, reigle.
-regul. regularis, reguliere.
+~ minus, moins.
+.~: differentia, difference.
+⟨e inter se, entr'elles.
+⟨n, in, en.
+⟨ntr. inter, entre.
+Ⅱ, vel, ou.
+π, ad, à.
+5< pentagonum, pentagone.
+6< hexagonum, hexagone, &c.
+√.4< latus quadrati, le costé d'vn quarré.
+√.5< latus pentagoni, le costé d'vn pentagone.
+a2 A quadratum, le quarré de A.
+a3 A cubus, le cube de A.
+a4 A quadrato-quadratü, le quarré-quarré de A.
+Et sic infinitum, & ainsi à l'infini.
+== parallela, parallele.
+⊥ perpendicularis, perpendiculaire.
+.. est nota genitiui, signifie (de)
+; est nota numeri pluralis, signifie le plurier.
+2|2 æqualis, egale.
+3|2 maior, plus grande.
+2|3 minor, plus petite.
+⅓ tertia pars, le tiers.
+¼ quarta pars, le quart
+⅔ duæ tertiæ, deux tiers.

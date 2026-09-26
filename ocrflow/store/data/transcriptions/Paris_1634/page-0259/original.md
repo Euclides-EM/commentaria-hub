@@ -1,41 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-3.a.1 | bc est 2573,
-47.1 | ac est 2760,
-| ad π ac 2|2 ad π ac,
-| 3864, π, 2760, 10, π, O
-| ac est 7 552/3864.
+α.2.a.1 | <abc 2|2 <aed, β
+d.β. | <bae 2|2 <bcd,
+d.β. | <bcd 2|2 <dea,
+concl. 1.a.1 | abcde est æquiang.
 
-## SCHOL. IV.
+## SCHOL. V.
 
-Omnis figura æquilatera circulo inscripta, est quoque æquiangula: sed non omnis figura æquilatera circulo circumscripta est quoque æquiangula, nisi numerus angulorum ipsius sit impar.
+Eadem demonstratione ostendetur, si numerus laterum figuræ propositæ sit par, omnes eius angulos numero pari distantes esse inter se æquales, vt initio facto à quocunque angulo 1. 3. 5. 7. &c. erunt inter se æquales. Item 2. 4. 6. 8. &c.
 
-Toute figure equilaterale inscrite au cercle est aussi equiangle: mais toute figure equilaterale circonscrite au cercle n'est pas aussi equiangle, si le nombre de ses angles n'est impair.
+Par la mesme demonstration on prouuera, que si le nombre des costez de la figure proposée est pair, tous les angles distans d'vn nombre pair sont égaux entr'eux : par exemple commençant par tel angle qu'on voudra le 1. 3. 5. 7. &c, seront égaux entr'eux : & aussi le 2. 4. 6. 8. &c.
+
+## SCHOL. VI.
+
+Omnis figura æquiangula circulo circumscripta, est etiam æquilatera: sed non omnis figura æquiangula circulo inscripta est quoque æquilatera, nisi numerus laterum ipsius sit impar.
+
+Toute figure equiangle descrite à l'entour du cercle, est aussi equilaterale: mais toute figure equiangle inscrite au cercle, n'est pas aussi equilaterale, si le nombre des costez n'est impair.
 
 Hypoth. 1.
 
-abcde est æquilat. α
+5<abcde est æquiang.
+5<abcde est circscrit. ⊙fghinl,
 
 Req. π. demonstr.
 
-abcde est æquiang.
-
-[Figure: pentagone A—B—C—D—E inscrit dans vn cercle]
-
-Demonstr.
-
-α.28.3 | ∩ab, ∩bc, ∩cd, ∩de, ∩ea snt 2|2 ⁊e,
-concl. 27.3 | <abc, <bcd, <cde, <dea, <eab snt 2|2 ⁊e,
-
-Hypoth. 2.
-
-fghi est rhomb.
-<fgh 3|2 <gfi,
-
-[Figure: rhombe F—G—H—I auec cercle inscrit, O au centre, les poincts L, M, N, P sur le cercle]
+5<abcde est æquilat.
 
 Præpar.
 
-9.1 | <ogh 2|2 <ogf,
-9.1 | ohg 2|2 <ohi,
-12.1 | om, ol, on, op snt ⊥,
+1.p.1 | fa, fb, fc, fd, fe snt —.

@@ -1,28 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## THEOR. XXX. PROPOS. XXX.
+numero, sitque maior proportio primæ priorum ad secundam, quàm secundæ posteriorum ad tertiam ; item secundæ priorum ad tertiam maior, quàm primæ posteriorum ad secūdam : erit quoque ex æqualitate, maior proportio primæ priorum ad tertiam, quàm primæ posteriorum ad tertiam.
 
-Si composita prima cum secunda, ad secundam habuerit maiorem proportionem, quàm composita tertia cum quarta, ad quartam : Habebit per conuersionem rationis, prima cum secunda ad primam, minorem proportionem, quàm tertia cum quarta ad tertiam.
+S'il y a trois grandeurs, & d'autres egales à icelles en nombre, & qu'il y ait plus grande raison de la premiere des premieres à la seconde, que de la seconde des dernieres à la tierce ; pareillement qu'il y ait plus grande raison de la seconde des premieres à la tierce, que de la premiere des dernieres à la seconde : En raison egale, il y aura aussi plus grande raison de la premiere des premieres à la tierce, que de la premiere des dernieres à la tierce.
 
-Si la composee de la premiere auec la seconde, a plus grande raison à la seconde, que la composee de la tierce auec la quarte, à la quarte. Par conuersion de raison, la premiere auec la seconde aura moindre raison à la premiere, que la tierce auec la quarte à la tierce.
-
-[Figure: lignes A—B—C ; D—E—F]
+[Figure: lignes A ; B ; G ; G ; H ; D ; E ; F]
 
 Hypoth.
 
-ac π bc 3|2 df π ef.
+a π b 3|2 e π f,
+b π c 3|2 d π e.
 
 Req. π. demonstr.
 
-ac π ab 2|3 df π de.
+a π c 3|2 d π f.
 
 Demonstr.
 
-hyp. | ac π bc 3|2 df π ef,
-19.5 | ab π bc 3|2 de π ef,
-26.5 | bc π ab 2|3 ef π de,
-concl. 28.5 | ac π ab 2|3 df π de.
-
-## THEOR. XXXI. PROPOS. XXXI.
-
-Si sint tres magnitudines, & aliæ ipsis æquales numero, sitque maior proportio primæ priorum ad secundam, quàm primæ posteriorum ad secundam ; item secundæ priorum ad tertiam maior,
+suppos. | g π c 2|2 d π e,
+hyp. | d π e 2|3 b π c,
+13.5 | g π c 2|3 b π c,
+10.5 | b 3|2 g,
+8.5 | a π g 3|2 a π b, α
+suppos. | h π g 2|2 e π f,
+α.hyp. | e π f 2|3 a π g,
+13.5 | h π g 2|3 a π g,
+10.5 | a 3|2 h, β
+23.5 | d π f 2|3 h π c,
+β.8.5 | h π c 2|3 a π c,
+concl. 13.5 | d π f 2|3 a π c.

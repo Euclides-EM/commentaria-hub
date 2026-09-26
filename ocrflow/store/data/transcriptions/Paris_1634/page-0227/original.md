@@ -1,46 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-36.3 | ▭.caf 2|2 □.ad,
-concl. 1.a.1 | ▭.bae 2|2 ▭.caf.
+Si hors le cercle on prend quelque poinct, & d'iceluy poinct, tombent au cercle deux lignes droictes, vne desquelles couppe le cercle & l'autre l'atteint. Et que le rectangle contenu sous toute la couppante, & sa partie de dehors, prise entre le poinct & la circonference conuexe soit égal au quarré de l'atteignante, icelle atteignante touchera le cercle.
 
-## COROLL. II.
-
-Constat etiam, duas rectas ab eodem puncto ductas, quæ circulum tangant, inter se esse æquales.
-
-Il est manifeste aussi, que si deux lignes droictes menées d'vn mesme poinct, touchent le cercle, qu'elles sont égales entr'elles.
-
-[Figure: cercle B—E—C marqué 2, D et F au dedans, A au dehors en haut, lignes A—B, A—C, A—D—E, F sur A—E]
+[Figure: cercle B—F—A, C et E au dedans, D au dehors en haut, lignes D—B, D—C—E—A, D—F, B—E, F—E]
 
 Hypoth.
 
-ab & ac tang: ⊙.
+ebf est ⊙,
+▭.adc 2|2 □.db.
 
 Req. π. demonstr.
 
-ab 2|2 ac.
+db tang: ⊙ abf.
+
+Præpar.
+
+17.3 | df tang: ⊙ abf,
+1.p.1 | ed,eb,ef snt —.
 
 Demonstr.
 
-36.3 | □.ab 2|2 ▭.eaf,
-36.3 | □.ac 2|2 ▭.eaf,
-1.a.1 | □.ab 2|2 □.ac,
-concl. s.46.1 | ab 2|2 ac.
+36.3 | □.df 2|2 ▭.adc,
+hyp. | □.db 2|2 ▭.adc,
+1.a.1 | □.df 2|2 □.db,
+s.46.1 | df 2|2 db,
+15.d.1 | eb 2|2 ef,
+| ed est commun.
+8.1 | <ebd 2|2 <efd, α
+18.3 | <efd est ∟,
+12.a.b | <ebd est ∟,
+c.16.3 | db tang: ⊙abf.
 
-## COROLL. III.
+## COROLL.
 
-Perspicuum quoque est, ab eodem puncto extra circulum assumpto, duci tantùm posse duas lineas quæ circulum tangant.
-
-Semblablement il est manifeste, que d'vn poinct pris hors le cercle on peut mener seulement deux lignes droictes qui touchent le cercle.
-
-Hypoth.
-
-ab & ac tang: ⊙bdc
-
-Req. π. demonstr.
-
-ad ñ tang: ⊙bdc.
-
-Demonstr.
-
-suppos. | ad tang: ⊙,
-2.c.36.3 | ab,ad,ac snt 2|2 ⁊e, contr. 8.3.
+α.8.1 | <edb 2|2 <edf.

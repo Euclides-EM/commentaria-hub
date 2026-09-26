@@ -1,15 +1,19 @@
-# EVCLIDIS ELEMENTORVM LIBER PRIMVS.
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
-# PREMIER LIVRE DES ELEMENTS D'EVCLIDE.
+hac definitione, punctum Mathematicum designant per punctum Physicum, quale est punctum A.
 
-## DEFINITIONES. / DEFINITIONS.
+ceste definition, ils representët le poinct Mathematique par le poinct Physique, tel qu'est le poinct A.
 
-### I.
+• A
 
-PVNCTVM est, cuius pars nulla est. | LE poinct est, ce qui n'a aucune partie.
+### II.
 
-Duplex est punctum, Physicum & Mathematicum. | Il y a deux sortes de poincts, à sçauoir le Physique & le Mathematique.
+Linea verò, longitudo latitudinis expers. | La ligne est vne longueur sans largeur.
 
-Physicum est minimum obiectum sensui oculorum, vt cuspis tenuissimæ acus. | Le poinct Physique est le moindre object de la veuë, comme la pointe d'vne aiguille tres-pointuë.
+Definitur quoque linea fluxus puncti, quia nullam habet crassitudinem. | La ligne se definit aussi estre le flus ou coulement d'vn poinct, parce qu'elle n'a aucune grosseur.
 
-Mathematicum est minimum obiectum intelle- | Le poinct Mathematique est le moindre objet de l'intel-
+### III.
+
+Lineæ autem termini sunt puncta. | Les extremitez de la ligne sont poincts.
+
+Omnis linea, vt omnis magnitudo, est finita actu, nec vlla magnitudo consideratur à Mathematico nisi quatenus est terminata, cùm verò Euclides dicit, lineam infinitam, intelligit indeterminatam & habentem quamcunque libuerit longitudinem. | Toute ligne, & toute grandeur, est terminée actuellemët, & le Mathematicien ne considere aucune quantité qu'elle ne soit terminée, & quand Euclide parle de la ligne infinie, il entend qu'elle n'est point terminée, & qu'elle a telle longueur qu'on voudra.

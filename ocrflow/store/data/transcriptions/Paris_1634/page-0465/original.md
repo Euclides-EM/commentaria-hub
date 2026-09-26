@@ -1,28 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-suppos. | a, par. u part.. b,
-ɔ.20.d7 | c, par. u part.. d,
-ɔ.20.d7 | e, par. u part.. f,
-a + c, par. u part.. b + d,
-5. & 6.7 | a par. u part.. b,
-u e par. u part.. f,
-a + c + e, par. u part.. b + d + f,
-5. & 6.7 | a, par. u part.. b,
-u e, par. u part.. f,
-1.concl. 20.d.7 | a + c + e π b + d + f 2|2 a π b.
+## THEOR. XII. PROPOS. XIV.
 
-A............12 B......6
-C........8 D....4
-E....4 F..2
+Si sint quotcunque numeri, & alij ipsis æquales multitudine, qui bini sumantur, & in eadem ratione; etiam ex æqualitate in eadem ratione erunt.
 
-suppos. | a, multipl.. b, α
-ɔ.20.d7 | c, multipl.. d,
-ɔ.20.d7 | e, multipl.. f,
-5.d.7 | b, par. a,
-α.5.d.7 | d, par. c,
-5.d.7 | f, par. e,
-b + d, par. a + c,
-5.7 | b, par. a,
-u f, par. e,
-b + d + f, par. a + c + e,
-5.7 | f, par. e, β
+*S'il y a tant de nombres qu'on voudra, d'vne part & autant d'vne autre, lesquels soient prins de deux en deux, & en mesme raison ; aussi en raison egale ils seront en mesme raison.*
+
+A.........9 B......6 C...3
+D......6 E....4 F..2
+
+Hypoth.
+
+a π b 2|2 d π e,
+b π c 2|2 e π f.
+
+Req. π. demonstr.
+
+a π c 2|2 d π f.
+
+Demonstr.
+
+hyp. | a π b 2|2 d π e,
+13.7 | a π d 2|2 b π e, α
+hyp. | b π c 2|2 e π f,
+13.7 | b π e 2|2 c π f,
+α.11.5 | a π d 2|2 c π f,
+concl. 13.7 | a π c 2|2 d π f.
+
+## THEOR. XIII. PROPOS. XV.
+
+Si vnitas numerum quempiam metiatur, æquè autem alter numerus alterum quendam numerum metiatur ; & vicissim æque vnitas tertium numerum metietur, & secundus quartum.
+
+*Si l'vnité mesure quelque nombre, & qu'vn autre nombre en mesure autant de fois quelqu'autre ; aussi en changeant l'vnité mesurera le troisiesme nombre autant de fois que le second mesurera le quatriesme.*

@@ -1,29 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-partim intra; si cadat extra aut intra, segmenta erunt dissimilia per præcedentem, quod est contra hypothesim. Si cadat partim extra, partim intra, sese mutuò secabunt in pluribus punctis quàm duobus, nimirum in A, F, G, quod est impossibile per decimam tertij, congruet igitur segmentum ABC segmento DEF, atque adeo ipsa inter se æqualia erunt per 8. ax. 1.
+[Figure: deux cercles ; le premier A—B—C, G au dedans, lignes A—B, B—C, A—C, G—A, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]
 
-dans, ou partie dehors, & partie dedans, s'il tombe au dehors ou au dedans, les segments seront dissemblables par la precedente, ce qui est contre l'hypothese. S'il tombe en partie au dedans, en partie au dehors, ils s'entrecouperōt en plus de deux poincts, à sçauoir en A, F, G, ce qui est impossible par la 10. du 3. donc le segment ABC conuiendra auec le segment DEF, & partant seront égaux entr'eux par 8. ax. 1.
+1.p.1 | ac & df snt —.
 
-Scholium.
+Demonstr.
 
-Cùm peripheriæ ABC DEF inter se congruant, erunt quoque inter se æquales.
+1.d.3 | ga,gc, hd,hf snt 2|2 ⁊e,
+hyp. | <agc 2|2 <dhf,
+4.1 | ac 2|2 df,
+20.3 | <b 2|2, ½<g,
+20.3 | <e 2|2, ½<h,
+7.a.1 | <abc 2|2 def,
+10.d.3 | ⌓ abc sml. ⌓ def,
+24.3 | ⌓ abc 2|2 ⌓ def,
+hyp. | ⊙abc 2|2 ⊙def,
+3.a.1 | ∪ac 2|2 ∪df,
+concl. s.24.3 | ∩ ac 2|2 ∩ df.
 
-Scholie.
+## SCHOL.
 
-Veu que les circonferences ACB, DEF conniennent entre elles, elles seront aussi égales.
-
-## PROBL. III. PROPOS. XXV.
-
-Circuli segmento dato, describere circulum, cuius est segmentum.
-
-Le segment d'vn cercle estant donné, descrire le cercle duquel il est segment.
-
-[Figure: arc A—B—C, D et E au dedans, F en bas, lignes A—B, B—C, D—F, E—F]
+[Figure: cercle A—D—C—B, E au dedans, lignes A—D, B—C, A—C, B—D, A—B, D—C]
 
 Hypoth.
 
-abc est segm. D.
+abcd est ⊙,
+∩ab 2|2 ∩dc, α
 
-Req. π. fa.
+Req. π. demonstr.
 
-inuen. centr. f.
+ad == bc.
+
+Præpar.
+
+1.p.1 | ac est —.
+
+Demonstr.
+
+α.26.3 | <acb 2|2 <cad,
+concl. 27.1 | ad == bc.
+
+## THEOR. XXIV. PROPOS. XXVII.
+
+In æqualibus circulis, anguli, qui æqualibus peripheriis insistunt, sunt inter se æquales, siue ad centra, siue ad peripherias constituti insistant.

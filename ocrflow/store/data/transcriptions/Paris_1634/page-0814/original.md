@@ -1,34 +1,39 @@
-<!-- Running title: ELEM.. EVCLID.. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-3. 1 | mf 2|2 fn,
+[Figure: labels arranged B H / E / A D M F L C / G K]
 
-Demonstr.
+Req. π. fa.
 
-α. 13. 12 | cylindr. ap 2|2 cylindr. cк,
-1.concl. α. 11. 12 | cylindr. ah π cylindr. ap 2|2 me π ml, Ⅱ fn, β
-10. 12 | con. abe 2|2, ⅓ cylindr. ah,
-10. 12 | con. cdf 2|2, ⅓ cylindr. cк,
-2 concl. β. 15, 5 | con. abf π con. cdf 2|2 me π fn.
+inscri. polygon. ꝗn ⊙ abcg q n̄ tāg: ⊙def.
 
-## THEOR. XV. PROPOS. XV.
+Constr.
 
-Æqualium conorum, & cylindrorum reciprocantur bases & altitudines: & quorum conorum, & cylindrorum reciprocantur bases & altitudines, illi sunt æquales.
+1&2. p. 1 | ac & df ſnt diamet;
+11. 1 | fh ⊥ df,
+30. 3 | ∩ ic 2|2, ¼ ∩ cab. Ⅱ ⅛, Ⅱ 1/16, Ⅱ 1/32, Ⅱ 1/64, &c.
+1. 10 | ∩ ic 2|3 ∩ hc, α
+1. p. 1 | ic, eſt ——,
+ſymp. | ic, eſt ν. polyg. req.
 
-*Des cones & cylindres egaux, les bases & les hauteurs sont reciproques: Et les cones & les cylindres desquels les bases & les hauteurs sont reciproques sont egaux.*
+Præpar.
 
-Hypoth. 1.
-
-bh & ek ſnt cylindr; 2|2 ꝗe,
-bca & efo ſnt con; 2|2 ꝗe,
-
-[Figure: labels arranged N I D K / G A H P Q / E L C F M]
-
-Req. π. demonstr.
-
-alt; dm π alt. la 2|2 baſ. bc π baſ. ef,
+12. 1 | il ⊥ ac.
 
 Demonstr.
 
-constr. | alt. cylindr. eq 2|2 alt. cylindr. eh, / alt. md π alt. mo, Ⅱ la
-14. 12 | cylindr. ek, Ⅱ bh π cylindr. eq, ſnt raō; 2|2 ꝗe,
-11. 12 | baſ. bc π baſ. ef
+12. a. 1 | <ilc 2|2 <hfc,
+28. 1 | ik == hg,
+c. 16. 3 | hg tang: ⊙def ꝗn f,
+34. d. 1 | iк n̄ tang: Ⅱ ſecat: ⊙ def,
+15. 3 | ic, cк, &c. n̄ tang: Ⅱ ſecat: ⊙def, β
+concl. β | req. eſt polyg. ic, ck, &c.
+
+Coroll.
+
+кi, n̄ tang: Ⅱ ſecat: ⊙ def.
+
+## PROBL. II. PROPOS. XVII.
+
+Duabus sphæris circa idem centrum existētibus, in majori sphæra solidum polyedrum inscribere, quod non tangat minoris sphæræ superficiem.
+
+*Deux spheres estant donnees à l'entour d'vn mesme centre, inscrire en la plus grande sphere vn solide polyedre, lequel ne touche point la superficie de la plus petite sphere.*

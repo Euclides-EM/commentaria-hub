@@ -1,39 +1,17 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-& altitudines reciprocantur; & quorum solidorum parallelepipedorum bases, & altitudines reciprocantur, illa sunt æqualia.
+& data prismata, eorum videlicet dimidia.
 
-*Les bases & les hauteurs des solides parallelipipedes egaux, sont reciproques; & les solides parallelipipedes desquels les bases & les hauteurs sont reciproques, sont egaux.*
+Rursus si duobus prismatis prædictis eiusdem altitudinis, & super diuersas bases constitutis adjiciantur duo alia prismata illis æqualia & similia, conficientur iterum duo parallelepipeda eiusdem altitudinis. c Quare erit parallelepipedum ad parallelepipedum, vt basis ad basin; d atque adeò prisma ad prisma, nempe dimidium vnius parallelepipedi, ad dimidium alterius, vt eadem basis ad basin, si prismatum bases fuerint parallelogrammæ, vel certe vt triangulum ad triangulum, dimidium scilicet vnius basis ad dimidium alterius, si bases prismatum fuerint triangulæ.
 
-[Figure: labels arranged B F / G K / C I / D / L H / A E]
+c 32. 11
+d 15. 5
 
-Hypoth. 1.
+Præterea, si duobus prismatis præfatis similibus addantur alia duo prismata illis æqualia & similia, constituentur duo parallelepipeda similia, e quæ inter se habent proportionem triplicatam proportionis laterum homologorum. Igitur & prismata, eorū nimirum dimidia, f cùm eandem habent proportionem cum parallelepipedis, proportionem habebunt triplicatam proportionis eorun-
 
-◇piped. adcb 2|2 ◇piped. ehgf, α
+e 33 11
+f 15.5
 
-Req. π. demonstr.
+*Derechef aux deux susdits prismes de mesme hauteur constituez sur diuerses bases, estant deux autres prismes egaux & semblables à iceux, on fera aussi deux parallelipipedes de mesme hauteur. c Parquoy le parallelipipede sera au parallelipipede comme la base à la base; d & partant le prisme au prisme, sçauoir la moitié d'vn des parallelipides à la moitié de l'autre, comme la mesme base à la base, si les bases des prismes sont parallelogrammes, ou comme le triangle au triangle, sçauoir comme la moitié d'vne des bases à la moitié de l'autre, si les bases des prismes sont triangles.*
 
-bas. ad π bas. eh 2|2 alt. eg π alt. ac,
-
-Præpar.
-
-3. 1 | ei 2|2 ac, β
-31. 1 | plan. iк == bas. eh.
-
-Demonstr.
-
-α. 7.5 | adcb π ehiк 2|2 ehgf π ehik,
-32. 11 | ◇piped. adcb π ◇piped. ehik 2|2 bas. ad π bas. eh,
-32. 11 | ◇piped. ehgf π ◇piped. ehiк 2|2 bas. gl π bas. il,
-1.concl. 1. 6 | bas. gl π bas. il 2|2 alt. ge π alt. ie, Ⅱ ac.
-
-Hypoth. 2.
-
-bas. ad π bas. eh 2|2 alt. eg π alt. ei, Ⅱ ac.
-
-Req. π. demonstr.
-
-◇piped. adcb 2|2 ◇piped. ehgf.
-
-Demonstr.
-
-24. 11 | eh 2|2 iк,
+*Dauantage, si aux deux prismes semblables susdits sont adioustez deux prismes semblables & egaux à iceux, deux parallelipipedes semblables seront constituez, e qui seront entre eux en raison triplee de la raison de leurs costez homologues. f Donc leurs prismes, sçauoir est leurs moitiez, ayant mesme raison que les parallelipipedes, seront en raison triplee, de la raison de leurs costez homologues, qui sont aussi*

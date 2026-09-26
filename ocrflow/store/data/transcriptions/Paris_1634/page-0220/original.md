@@ -1,33 +1,49 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle A—B—E—F—C, D au dedans, E au dehors en haut, lignes A—C, B—E, B—F, B—C, B—D, F—C]
+[Figure: cercle A—I—E—B, F au dedans, H au dehors à gauche, D en bas, lignes A—B, A—E, F—I, F—A, F—B, A—D, H—A ; angle G—C à part]
 
-<abc est ∟,
-<cab 2|3 ∟,
-<cfb 3|2 ∟,
-<.. ⌓ cba 3|2 ∟,
-<.. ⌓ cbf 2|3 ∟.
+23.1 | <abf 2|2 <baf,
+3.p.1 | faib est ⊙,
+symp. | aib est ⌓ req.
 
 Demonstr.
 
-5.1 | <dba 2|2 <dab,
-5.1 | <dbc 2|2 <dcb,
-2.a.1 | <abc 2|2 <dab + <dcb
-32.1 | <cbe 2|2 <dab + <dcb
-1.a.1 | <abc 2|2 <cbe,
-1.concl. 10.d.1 | <abc est ∟,
-2.concl 1.c.17.1 | <cab 2|3 ∟,
-3 concl. 2.c.22.3 | <bfc 3|2 ∟,
-4.cōcl. 9.a.1 | <.. ⌓ cba 3|2 ∟,
-5.concl. 9.a.1 | <.. ⌓ cbf 2|3 ∟,
+c.16.3 | had tang: ⊙,
+32.3 | <aib 2|2 <bad,
+constr. | <c 2|2 <bad,
+concl. 1.a.1 | <aib 2|2 <c.
 
-Schol.
+## THEOR. VI. PROPOS. XXXIV.
 
-hypoth. | af 3|2 ab,
-9.a.1 | <acf 3|2 <acb.
+A dato circulo segmentum abscindere capiens angulum æqualem dato angulo rectilineo.
 
-## THEOR. XXVIII. PROPOS. XXXII.
+D'vn cercle donné, retrancher vn segment, qui reçoiue vn angle égal à vn angle rectiligne donné.
 
-Si circulum tetigerit aliqua recta linea, à contactu autem producatur quædā recta linea circulum secans: anguli, quos ad contingentem facit, æquales sunt iis, qui in alternis circuli segmentis consistunt, angulis.
+[Figure: cercle B—C—A, lignes B—C, B—A, C—A, ligne E—A—F tangente en bas ; angle D à part]
 
-Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene quelque ligne droicte au cercle, le couppant ; les angles qu'elle fait auec l'attouchante seront égaux aux angles qui sont aux segments alternes.
+Hypoth.
+
+abc est ⊙,
+d, est < D.
+
+Constr.
+
+17.3 | ef tang: ⊙ abc, α
+17.3 | a, est • .. contact. α
+23.1 | <fac 2|2 <d,
+symp. | abc est ⌓ req.
+
+Præpar.
+
+arbitr. | b, est • in ∩ abc,
+1.p.1 | ab & cb snt —.
+
+Demonstr.
+
+α.32.3 | <abc 2|2 <caf,
+constr. | <d 2|2 <caf,
+concl. 1.a.1 | <abc 2|2 <d.
+
+## THEOR. XXIX. PROPOS. XXXV.
+
+Si in circulo duæ rectæ lineæ sese mutuò secuerint, rectangulum comprehensum sub segmentis vnius,

@@ -1,42 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-A....4E...3B
-C........8F......6D
+a + c + e, multipl.. b + d + f,
+β.3.d.7 | e, multipl.. f,
+u a, multipl.. b,
+2.concl. 20.d.7 | a + c + e π b + d + f 2|2 a π b.
 
-ɔ.20.d7 | ab 8,2,3,6|4 cd, ae 8,2,3,6|4 cf,
-suppos. | ab par. u part. cd,
-ɔ.20.d7 | ae par. u part. cf,
-7.& 8.7 | eb par. u part. fd,
-1.concl. 20.d.7 | eb π fd 2|2 ab π cd.
+## THEOR. XI. PROPOS. XIII.
 
-A........8E......6B
-C....4F...3D
+Si quatuor numeri proportionales sint: & vicissim proportionales erunt.
 
-suppos. | ab multipl. cd, α
-ɔ.20.d7 | ae multipl. cf,
-α.5.d 7 | cd par. ab, β cf par. ae,
-7.7 | fd par. eb, β
-β.3.d.7 | ab multipl. cd, eb multipl. fd,
-2.concl. 20.d 7 | ab π cd 2|2 eb π fd.
+*Si quatre nombres sont proportionaux; aussi en changeant ils seront proportionaux.*
 
-## THEOR. X. PROPOS. XII.
-
-Si sint quotcunque numeri proportionales, erit quemadmodum vnus antecedentium ad vnum consequentium, ita omnes antecedentes ad omnes consequentes.
-
-*S'il y a tant de nombres qu'on voudra proportionaux, comme vn des antecedens sera à vn des consequens ; ainsi tous les antecedens seront à tous les consequens.*
-
-A......6 B..........9
-C....4 D.......6
-E..2 F...3
+A....4 B..2
+C......6 D...3
 
 Hypoth.
 
-a π b, c π d, e π f snt raō. 2|2 ꝫe,
+a π b 2|2 c π d.
 
 Req. π. demonstr.
 
-a + c + e π b + d + f 2|2 a π b,
+a π c 2|2 b π d.
 
 Demonstr.
 
-ɔ.20.d7 | a,8,2,3,6|4, b, c,8,2,3,6|4, d, e,8,2,3,6|4, f,
+hyp. | a π b 2|2 c π d,
+ɔ.20.d7 | a 8,2,3,6|4 b, c 8,2,3,6|4 d,
+suppos. | a, multipl. b, c, multipl. d,
+3.d.7 | b, par. a, d, par. c,
+9.7 | b, par. u part.. d, a, par. u part.. c,
+20.d.7 | a π c 2|2 b π d.
+
+A...2 B....4
+C...3 D......6
+A...3 B....4
+C......6 D........8
+
+suppos. | a, par. u part.. b, c, par. u part.. d,
+9&10.7 | a, par. u part.. c, b, par. u part.. d,
+2.concl. 20.d.7 | a π c 2|2 b π d.

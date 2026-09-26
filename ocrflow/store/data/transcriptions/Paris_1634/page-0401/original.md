@@ -1,59 +1,38 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-gc est tangen. β
+α | 2▭.aeb 2|2, 2▭.adb + 2▭.ced,
+2.concl. 3.a.1 | □.ad + □.db 2|2 □.ae + □.eb + 2▭.ced.
 
-eca, adf, cd snt —.
+Coroll.
 
-Req. π. demonstr.
+2.s.6.2 & 3.a.1 | □.ad + □.db ~ □.ae ~ □.eb 2|2, 2▭.aeb ~ 2▭.adb.
 
-cd == ef,
+## SCHOL.
 
-Demonstr.
+Ex prima parte huius theorematis perspicua est demonstratio regulæ arithmeticæ, qua productus duorum numerorum denario minorum inuenitur, reiecto denario ex propositorum numerorum summa, deinde subducto vtroq;numero à denario, & multiplicatis inter se residuis.
 
-α.17.6 | ▭.ef,eg 2|2 □.eb,
-36.3 | ▭.ae,ec 2|2 □.eb,
-1.a.1 | ▭.ef,eg 2|2 ▭.ae,ec
-16.6 | ef π ea 2|2 ec π eg,
-6.6 | <egc 2|2 <eaf, γ
-6.6 | <efd 2|2 <ecg, δ
+De la premiere partie de ce theoreme est manifeste la demonstration de la regle d'Arithmetique, par laquelle le produit de deux nombres est trouuee, en rejettant la dixaine de la somme de deux nombres, puis soustrayant de dix l'vn & l'autre nombre, & multipliant les deux restes l'vn par l'autre.
 
-in 1. & 2. figur.
+Explicat. p nr.
 
-β.32.3 | <gcd 2|2 <eaf,
-γ.1.a.1 | <egc 2|2 <gcd,
-1.concl. 27.1 | cd == ef,
+hyp. | ae est 8, α
+hyp. | eb est 7, β
 
-in 3. & 4. figur.
+Req. est ▭.ae,eb, 56,
 
-β.32.3 | <fdc 2|2 <ecg,
-δ.1.a.1 | <efd 2|2 <fdc,
-2.concl. 27.1 | cd == ef.
+2.a.1 | ab est 15, γ
+suppos. | ad u cb est 10, δ
+α.3.a.1 | db est 5,
+1.s.1.d.2 | ▭.adb est 50,
+αδ.3.a.1 | ed est 2,
+βδ.3.a.1 | ce est 3,
+1.s.1.d.2 | ▭.ced est 6,
+concl. 16.app. | ▭.adb + ▭.ced 2|2 ▭.aeb u 56.
 
-## THEOR. V. PROPOS. XVI.
+## THEOR. VII. PROPOS. XVIII.
 
-Pappus lib. 7. propos. 108.
+Snelius in Apollonio Batauo.
 
-[Figure: cercle auec les poincts A, D, F, E, B, C, G ; ligne H E F, & tangente H B]
+ad est —,
 
-Hypoth.
-
-ef est — in ⊙,
-
-arbitr. | aeg est — inscr.
-
-fe π ea 2|2 eg π eh, α
-
-hb est tangen.
-
-bed, dfc & bc snt —.
-
-Req. π. demonstr.
-
-bc == ef.
-
-Demonstr.
-
-α.16.6 | ▭.fe,eh 2|2 ▭.ea,eg,
-35.3 | ▭.ea,eg 2|2 ▭.de,eb,
-1.a.1 | ▭.fe,eh 2|2 ▭.de,eb,
-16.6 | fe π ed 2|2 eb π eh, β
+arbitr. | b & c snt • in ad.

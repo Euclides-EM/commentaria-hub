@@ -1,41 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-V,1, A,2. B,4. C,8. D,16.
-E,31. G,62. H,124. L,248. F,496.
-K,31. M,31. P,31. N,465.
-Q--- R---
+1.s.36.9 | c π d 2|2 h π g, β
+1.s.36.9 | d π e 2|2 k π h, β
+concl. α.β | k, h, g, f snt contin. proport.. ꝗn raō. b π c.
 
-l 2|2, 2h,
-multd.. e,g,h,l 2|2 multd.. a,b,c,d
-k 2|2 e,
-p 2|2 e,
-m 2|2 g~k,
-n 2|2 f~p.
+## SCHOL. III.
 
-Demonstr.
+Si summa quotuis numerorum continuè proportionalium per eos sigillatim diuidatur ; & quotientum summa per ipsos quotientes ; & horum secundorum quotientum summa per eosdem secundos quotientes ; & sic deinceps in infinitum : procreabuntur alternis diuisionibus semper iidem primi quotientes ordine conuerso.
 
-14.7 | a π d 2|2 e π l,
-α.19.7 | □.a,l 2|2 □.d,e, u f,
-7.a.7 | l, msur: □.a,l ꝑ a,
-1.a.7 | l, msur: f ꝑ a,
-9.a.7 | f 2|2, 2l,
-35.9 | m π e 2|2 n π e + g + h + l,
-3.a.b | m 2|2 e,
-14.5 | n 2|2 e + g + h + l,
-2.a.1 | p + n 2|2 f,
-1.concl. 2.1 | f 2|2 u + b + b + c + d + e + g + h + l,
-β.7.a.7 | d, msur: f,
-11.9 | u,a,b,c,d msur: d,
-11.a.7 | u,a,b,c,d msur: f,
-11.9 | e,g,h,l msur: f,
-2.concl. 3.d.7 | u,a,b,c,d,e,g,h,l, snt part.. nr. f,
-suppos. | q, n̄, est a, u b, u c, u d, u e, u g, u h, u l, θ
-suppos. | q, msur: f ꝑ r,
-9.a.7 | f 2|2 □.q,r,
-β. hyp. | f 2|2 □.d,e,
-1.a.1 | □.q,r 2|2 □.d,e, λ
-19.7 | e π r 2|2 q π d,
-hyp. | e, est nr. pr.
-θ.13.9 | q, n̄, msur: d,
-2c20d7 | e, n̄, msur: r,
-hyp. | e, est nr. pr.
+*Si la somme de tant de nombres qu'on voudra continuellement proportionaux est diuisée par chacun d'iceux : & la somme des quotiens par chacun des quotiens ; & la somme des derniers quotiens par chacun des derniers quotiens, & ainsi à l'infiny : les quotiens alternatiuement seront les mesmes en ordre conuerse.*
+
+A,1. B,2. C,4. D,8.
+E,15.
+F,15. G,7½. H3¾. P1⅞.
+K,28⅛.
+L,1⅞. M,3¾. N,7½. R,15.
+
+Hypoth.
+
+a, b, c, d snt contin. proport.
+
+e 2|2 a + b + c + d,
+a, msur: e ꝑ f,
+b, msur: e ꝑ g,
+c, msur: e ꝑ h,
+d, msur: e ꝑ p,
+k 2|2 f + g + h + p,
+f, msur: k ꝑ l,
+g, msur: k ꝑ m,
+h, msur: k ꝑ n,
+p, msur: k ꝑ r.
+
+Req. π. demonstr.
+
+f 2|2 r,
+g 2|2 n,

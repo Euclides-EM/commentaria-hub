@@ -1,30 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-A C B / D F E (lines) A B C / D E F (lines)
+suppos. | ac 3|2 cb..□.——, comm. ac,
+15.10 | df 3|2 fe..□.——, comm. df,
+bino.1. suppos. | ac, cōm. ration. expos.
+β | df, comm. ac,
+bino.1. 12.10 | df, cōm. ration. expos.
+bino.2. suppos. | cb, cōm. ration. expos.
+β | fe, comm. cb,
+bino.2. 12.10 | fe, cōm. ration. expos.
+bino.3. suppos. | ac & cb, incomm. ration. expos.
+bino.3. 14.10 | df & fe, incomm. ration. expos.
+suppos. | ac 3|2 cb..□..——, incomm. ac,
+15.10 | df 3|2 fe..□..——, incomm. df,
+bino.4. suppos | ac, cōm. ration. expos.
+bino.4. 12.10 | df, cōm. ration. expos.
+bino.5. suppos. | cb, cōm. ration. expos.
+binom.5 12.10 | fe, cōm. ration. expos.
+bino.6. suppos. | ac & cb, incomm. ration. expos.
+bino.6. 14.10 | df & fe, incomm. ration. expos.
 
-hyp. | ab π de 2|2 ac π df. α
+## THEOR. L. PROPOS. LXVIII.
+
+Ei, quæ ex binis mediis, longitudine commensurabilis, & ipsa ex binis mediis est, atque ordine eadem.
+
+*La ligne droicte commensurable à vne ligne bimediale; icelle est aussi bimediale, & de mesme ordre.*
+
+Hypoth.
+
+ab, est bimed. α
+ac & cb snt nom;
+ac 3|2 cb,
+de, comm. ab.
 
 Req. π. demonstr.
 
-df, comm. ac, & fe, comm. cb,
-df π fe 2|2 ac π cb,
-▭.acb, comm. ▭.dfe,
-aggreg..□.ac + □.cb, comm. aggreg..□.df + □.fe.
+de, est bimed..ord.ab.
+
+Præpar.
+
+12.6 | ab π de 2|2 ac π df.
 
 Demonstr.
-
-α.19.5 | ab π de 2|2 cb π fe, β
-hyp. | de, comm. ab,
-1.concl. 10.10 | df, comm. ac, & fe, comm. cb, γ
-αβ.11.5 | ac π df 2|2 cb π fe,
-2 concl. 16.5 | ac π cb 2|2 df π fe, ♪
-1.6 | □.ac π ▭.acb 2|2 ac π cb, u df π fe,
-1.6 | □.df π ▭.dfe 2|2 df π fe,
-11.5 | □.ac π ▭acb 2|2 □.df π ▭.dfe,
-16.5 | □.ac π □.df 2|2 ▭acb π ▭.dfe,
-γ | □.ac, comm. □.df,
-3.concl. 10.10 | ▭.acb, comm. ▭.dfe,
-♪.22.6 | □.ac π □.cb 2|2 □.df π □.fe, ε
-2.s.18.5 | □.cb π □.ac + □.cb 2|2 □.fe π □.df + □.fe,
-16.5 | □.cb π □.fe 2|2 □.ac + □.cb π □.df + □.fe,
-γ | □.cb, comm. □.fe,

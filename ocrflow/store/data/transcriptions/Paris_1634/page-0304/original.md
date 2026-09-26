@@ -1,60 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-secunda æqualis quartæ : si verò minor, & minor erit.
+## THEOR. XV. PROPOS. XV.
 
-Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme ; & que la premiere soit plus grande que la troisiesme, la seconde sera aussi plus grande que la quatriesme. Et si la premiere est égale à la troisiesme, aussi la seconde sera égale à la quatriesme ; & si plus petite, plus petite.
+Partes cum pariter multiplicibus in eadem sunt ratione, si provt sibi mutuò respondent, ita sumantur.
 
-[Figure: quatre lignes verticales A, B, C, D]
+Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles sont prises comme elles s'entre-respondent.
 
-Hypoth. commun.
+[Figure: lignes verticales B—G—A, E—H, C, D, F]
 
-a π b 2|2 c π d,
+Hypoth.
 
-Hypoth. 1.
-
-a 3|2 c, α
-
-Req π. demonstr.
-
-b 3|2 d.
-
-Demonstr.
-
-hyp. | c π d 2|2 a π b,
-α.8.5 | a π b 3|2 c π b,
-13.5 | c π d 3|2 c π b,
-1.concl. 10.5 | b 3|2 d.
-
-Hypoth. 2.
-
-a 2|2 c, β
+ab multipl.. | c,
+de multipl.. | f.
 
 Req. π. demonstr.
 
-b 2|2 d.
+ab π de 2|2 c π f.
 
 Demonstr.
 
-hyp. | c π d 2|2 a π b,
-β.9.5 | c π b 2|2 a π b,
-11.5 | c π d 2|2 c π b,
-2.concl. 9.5 | b 2|2 d.
+hypoth. | c, ag, gb snt 2|2 ⁊e,
+hyp. | f, dh, he snt 2|2 ⁊e,
+s.2.d.5 | multd.. par.. ab 2|2 multd.. par.. de,
+s.7.5 | ag π dh 2|2 c π f,
+s.7.5 | gb π he 2|2 c π f,
+concl. 12.5 | ab π de 2|2 c π f.
 
-Hypoth. 3.
+## THEOR. XVI. PROPOS. XVI.
 
-a 2|3 c. γ
+Si quatuor magnitudines proportionales fuerint, & vicissim proportionales erunt.
+
+Si quatre grandeurs sont proportionelles, elles seront aussi alternatiuement proportionelles.
+
+| a π b 2|2 c π d.
 
 Req. π. demonstr.
 
-b 2|3 d,
+a π c 2|2 b π d.
 
-Demonstr.
+Præpar.
 
-hyp. | c π d 2|2 a π b,
-γ.8.5 | a π b 2|3 c π b,
-13.5 | c π d 2|3 c π b,
-3.concl. 1.13.5 | b 2|3 d.
-
-## SCHOL. I.
-
-Perspicuum autem est, ob similitudinem rationum, si prima maior est, vel æqualis, vel minor quàm secunda,
+3.1 | e multipl.. | a
+| f multipl.. | b α
+3.1 | g multipl.. | c,
+| h multipl.. | d,

@@ -1,28 +1,46 @@
-<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-hyp. | ab π cd 2|2 e π f,
-13.7 | ab π e 2|2 cd π f,
-hyp. | ab 2|3 e & cd 2|3 f,
-4.7. & ɔ.20.d7 | ab par. u part.. e 2|2 cd par. u part.. f.
-suppos. | ab par.. e 2|2 cd par. f,
-concl. s.4.d.7 | ab msur: e 2|2 cd msur: f,
-suppos. | ab part.. e 2|2 cd part.. f,
-s.4.d.7 | multd.. part.. ab 2|2 multd.. part.. cd,
-suppos. | ag, gb snt part.. ab, & ch, hd snt part.. cd,
-s.4.d.7 | ag msur: e 2|2 ch msur: f,
-20.d.7 | ag π e 2|2 ch π f,
-13.7 | ag π ch 2|2 e π f,
-9.a.1 | ab & cd n̄ snt term.. raō. contr. hypoth.
+c.23.d.7 | g, msur: e 2|2 c, msur: a,
+15.7 | g, msur: c 2|2 e, msur: a, α
+c.23.d.7 | g, msur: e 2|2 d, msur: b,
+15.7 | g, msur: d 2|2 e, msur: b, β
+5.a.7 | g, msur: c & d,
+αβ | e, msur: a & b,
+contr. hypoth.
 
-## THEOR. XX. PROPOS. XXII.
+## THEOR. XXII. PROPOS. XXIV.
 
-Si fuerint tres numeri, & alij ipsis multitudine æquales, qui bini sumantur, & in eadem ratione, fuerit autem perturbata eorum proportio ; etiam ex æqualitate in eadem ratione erunt.
+Minimi numeri omnium eandem cum eis rationem habentium, primi inter se sunt.
 
-*S'il y a trois nombres d'vne part, & autant d'vne autre, lesquels soient pris de deux en deux, & en mesme raison, & que leur proportion soit troublee ; aussi en raison egale, ils seront en mesme raison.*
+*Les plus petits nombres de tous ceux qui ont vne mesme raison, sont premiers entr'eux.*
+
+A.........9 B....4
+C--
+D--- E---
 
 Hypoth.
 
-a π b 2|2 e π f, α
-b π c 2|2 d π e. β
+a & b snt term.. raō.. a π b,
 
 Req. π. demonstr.
+
+a & b snt pr. ꝫe.
+
+Demonstr.
+
+suppos. | a & b snt compos. ꝫe,
+suppos. | c, est c. me. a & b,
+suppos. | c, msur: a ꝑ d,
+suppos. | c, msur: b ꝑ e,
+8.a.7 | d, msur: a ꝑ c,
+3.d.7 | d, est par.. a,
+9.a.1 | d 2|3 a, α
+8.a.7 | e, msur: b ꝑ c,
+3.d.7 | e, est par.. b,
+9.a.1 | e 2|3 b, β
+9.a.7 | ▭.dc 2|2 a,
+9.a.7 | ▭.ec 2|2 b,
+17.7 | d π e 2|2 a π b,
+αβ | a & b n̄ snt term.. raō.. a π b,
+contr. hyp.
+concl. 21.a.1 | a & b snt pr. ꝫe.
