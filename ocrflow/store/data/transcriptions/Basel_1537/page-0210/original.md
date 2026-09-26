@@ -1,17 +1,27 @@
-<!-- Running title: LIBER SEPTIMVS -->
+<!-- Page number: 200 -->
 
-<!-- Page number: 199 -->
+# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS.
 
-e,f,esset minimus continens partes propositas,plurimas enim contingit partes reperire,quas numerus numeratus ab eorum denominatoribus non continet,uerbi gratia Tres numeri qui sunt 120.90,& 72,sunt eiusdem numeri partes,primus quidem tertia, secūdus uero quarta,& tertius quinta,nec tamē minimus quē numerant denominatores eorū qui est 60:partes istas cōtinet.Instandū igitur est(si partes sub certa quātitate pouantur)primæ consequentiæ huius demōstrationis.Non enim sequitur ut arguit per 37 si ternarius hunc numerat,ergo hic numerus positus est eius tertia,sed ergo habet tertiam,quapropter idem est quod proponitur secundum utrunq̃ modū,sed secundum primum:conuenientius uidetur quod intēditur proponi. Attendere autem oportet cum omnis pars habeat quantitatem,quod in eo cōtingit ponere quotlibet & quaslibet partes secundum quantitatem,& inquirere quis minimus eas continet: & sub quibus denominationibus.Minimum autem eas continentem constat esse minimum numeratum ab eis:secundum quos uero numerat:sunt qui illas in illo denominant.Contingit iterum ponere quotlibet & quaslibet denominationes,& inquirere in quo minimo hæ denominationes reperiuntur & secundum quas quantitates. Minimum quoque constat esse minimum numeratum ab illis,secundum quos uero numerant:sunt qui quantitates determināt,utrobique autem idcirco inquiritur minimus, quia infiniti sunt hinc quidem qui has partes continent:inde uero in quibus hæ denominationes reperiuntur.Contingit rursus ponere quotlibet partes & totidem denominationes uel quotlibet denominationes & totidem partes,non autem quaslibet cū quibuslibet:sed certas cum certis.Si enim ponam partes tres,quatuor,quinque & denominationes earum 6,7,8,& inquiram quis numerus continet has partes sub istis denominationibus:similis ero inquisitori uano quærenti impossibile. Certas igitur conuenit ponere partes cum denominationibus certis & nō ut cōtingit,& inquirere quis numerus positas partes sub positis denominationibus continet,non autem quos minimus,unicus enim est,nam siue proposita fuerit una pars & una denominatio, siue plures & plures,non erit sumere plures numeros quod propositum erit cōtinentes. Solus enim est cuius ternarius est quinta:non plures.Solus quoque cuius ternarius octaua,& senarius quarta:nō plures.Ideoq̃ proponētem partes & denominationes ipsarum in toto,non est quærere quis minimus continet has partes sub istis denominationibus:sed quis unus continet.proponentem autem partes tantū,cōtingit quærere quis minimas continet & à quibus in eo denominantur:solas quoque proponētem denominationes,cōuenit quærere quæ partes ab illis dictæ & in quo minimo reperiuntur.Conuenientius autem uidetur partes per denominationes,inquirere, quā denominationes per partes,diuersitatem quidem denominationum nō partium:comitatur proportionum diuersitas.
+Ex Campano. — *Diffinitiones*
 
-Encli.ex Zamb. — Problema 6 — Propositio 41
+{dropcap:L|lines=?|style=decorated|decoration="depicting Coriolanus and Veturia, inscribed CORIOLAN above and VETVRIA below"}Atera numerorum dicuntur,quorum multiplicatione numeri producuntur. 2 Superficialis appellatur numerus,qui sub duobus lateribus continerur. 3 Solidus uero, qui sub tribus,ex quorum continua multiplicatione habet procreari. 4 Quadratus,est numerus superficialis æqualibus lateribus consistens. 5 Cubus,est solidus æqualibus consistens lateribus. 6 Similes dicuntur numeri superficiales siue solidi,quorū latera sunt proportionalia.
 
-## 41 Numerum inuenire, qui minimus existens habeatdatas partes.
+## Eucli.ex Camp. — Propositio 1
 
-THEON ex Zamb. *Sint datæ partes α,β γ,oportet iam numerum inuenire, qui minimus existens habeat ipsas α,β,γ.partes.Sint(per 39 septimi,)ipse α,β,γ,partes cognominatæ numeris δ,ε,ζ,& sumatur,(per 38 septimi η, minimus numerus , quem δ,ε,ζ.metiuntur. Quoniam igitur ipsi δ,ε,ζ,metiuntur η, cognominatam partem habet η,ipsis δ,ε,ζ,(per 39 septimi.Ipsis aūt δ,ε,ζ,cognominatæ partes sunt α,β,γ.Igitur η,habet partes α,β,γ.Dico quod & minimus existens.Si autē η,non existat minimus habensipsas α,β,γ,partes:erit aliquis numerus minor ipso η,qui habebit ipsas partes α,β,γ. Sit (per 40. septimi,) θ,quoniam θ,habet ipsas partes α,β,γ,igitur numeri cognominati partibus α,β,γ, metientur ipsum θ,partibus autem α β γ,numeri δ,ε,ζ,cognominatæ sunt.Igitur ipsi δ,ε,ζ, ipsum θ metientur, qui minor est ipso η.Quod est impossibile.Non erit igitur aliquis numerus minor ipso η:qui habeat ipsas α,β,γ,partes:quod oportebat demonstrare.*
+1 {dropcap:S|lines=?|style=decorated|decoration="figures"}I numerotum quotlibet continuæ proportionalitatis duo extremi fuerint contra se primi,eos omnes secundum suam proportionem minimos esse necesse est.
 
-[Diagram: dotted number lines beside the Theon proof: a "secunda" d (2 dots); b "tertia" e (3 dots); c "quarta" f (4 dots); g (long); h (long)]
+CAMPANVS. Sint continue proportionales a,b,c,duoque extremi qui sunt a,c,sint contra se primi,dico quod in eadem proportione,non reperientur totidem minores. Si autem contingit:sint d,e,f,eritque per 15 septimi,a ad c, sicut d ad f,& quia a & c sunt minimi in sua proportione per 25 eiusdem,sequitur per 21 ut a numeret d,& c,f,maiores scilicet minores, quod esse non potest.
 
-SEPTIMI LIBRI FINIS
+[Diagram: dotted number lines beside the text: a (4 dots), b (6 dots), c (9 dots); below: d (3 dots), e (5 dots), f (8 dots)]
 
-<!-- Signature: r 4 -->
+## Eucli.ex Zamb. — Theorema 1 — Propositio 1
+
+1 {dropcap:S|lines=?|style=decorated|decoration="foliate dragon"}I fuerint quotcunque numeri continue proportionales extremi uero ipsorū primi adinuicem fuerint,minimi sunt eādem rationem habentium eis.
+
+THEON ex Zamberto. *Sint quotcunque numeri continue proportionales α,β,γ,δ,extremi autem ipsorum hoc est α,δ,primi sint adinuicem.Dico quod ipsi α,β,γ,δ, minimi sunt eandem rationem habentium eis.Si autem non: sint minores ipsis α,β,γ,δ,ipsi ε,ζ,η,θ,in eadem ratione existentes eis. Et quoniam ipsi α,β,γ,δ,in eadem sunt ratione ipsis ε,ζ,η,θ,& æqualis est multitudo ipsorum ε,ζ,η,θ,at α,δ,multitudini ipsorum α,β,γ,δ,æque igitur est sicut α ad δ,sic ε,ad θ,primi sunt adinuicem,primi uero,& minimi(per 14 septimi,)minimi autem numeri metiuntur eandem rationem habentes æqualiter , antecedens antecedentem, & sequens sequētem(per 21 septimi.)Metitur igitur α,ipsum ε,maior minorem,quod est impossibile. Igitur ipsi ε,ζ,η,θ, minores existentes ipsis α,β,γ,δ,in eadem non sunt ratione ipsis.Igitur α,β,γ,δ,minimi sunt eandem rationem habentium eis quod oportebat demonstrare.*
+
+[Diagram: dotted number lines beside the Theon proof, labelled α, β, γ, δ (of increasing length) and ε, ζ, η, θ (of increasing length, each shorter than the corresponding line above)]
+
+## Eucli.ex Camp. — Propositio 2
+
+2 {dropcap:N|lines=?|style=decorated|decoration="figures"}Vmeros quotlibet continuæ proportionalitatis, secundum proportionem datam minimos,inuenire,

@@ -1,65 +1,55 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER PRIMVS. -->
 
-<!-- Page number: 14 -->
+<!-- Page number: 15 -->
 
-tem angulus a b d est æqualis angulo c b d, quod oportebat efficere.
-
-## Eucli. ex Zamb. Problema 4. Propositio 9.
+laterum ζ δ ε, & connectatur linea ζ γ. Dico quod datæ rectæ lineæ α β, à dato in ipsa signo quod est γ, ad rectos angulos, ζ γ recta linea excitata est. Quoniam enim δ γ æqualis est ipsi γ ε, cōmunis uero linea γ ζ: duæ igitur δ γ, γ ζ, duabus ε γ, γ ζ, altera alteri sunt æquales: & basis δ ζ, basi ε ζ est æqualis. Angulus igitur δ γ ζ, angulo ε γ ζ (per 8 propositionē) est æqualis. Cum autem recta linea super recta linea cōsistens, * utrobiq̃ angulos ad inuicem æquales fecerit, uterq̃ æqualium angulorum rectus est, (per 10 diffinitionem.) igitur angulus δ γ ζ, & angulus ε γ ζ sunt recti. Datæ igitur rectæ lineæ α β, à dato in ea signo γ, ad rectos angulos recta linea ζ γ excitata est, quod fecisse oportuit.
 
 [Margin]
-9
+printed two-line note, partly legible: ipsius / ipsius
 [/Margin]
 
-Datum angulum rectilineum, bifariam secare.
+[Diagram: triangle with apex ζ above the horizontal line α β; on the line the points δ, γ, ε, with the perpendicular ζ γ drawn]
 
-THEON. ex Zamberto. Sit datus rectilineus angulus β α γ. Oportet ipsum bifariam secare. Suscipiatur super linea α β cōtingens signum, sitq̃ illud δ. & à linea α γ (per 3 propositionem) auferatur α ε: ipsi α δ æqualis. & (per 1 postulatum connectatur linea δ ε: cōstituaturq̃ (per 1 propositionem) super δ ε, triangulum æquilaterum, sitq̃ illud δ ζ ε, & cōnectatur (per primum postulatum) linea α ζ. Dico quod angulus β α γ: à linea α ζ bifariam secatur. Quoniam α δ est æqualis ipsi α ε, cōmunis uero α ζ: duæ igitur δ α, α ζ, duabus ε α, α ζ sunt altera alteri æquales. At basis δ ζ, basi ε ζ, (per 1 propositionē) est æqualis: angulus igitur δ α ζ, angulo ε α ζ (per 8 propositionē) est æqualis. Datus igitur rectilineus qui sub β α γ, bifariā sectus est à recta linea α ζ, quod fecisse oportuit.
-
-[Diagram: angle at α opening downwards to β and γ; points δ and ε on the two legs, the line δ ε drawn, the equilateral triangle δ ζ ε below it with ζ at the bottom, and the bisecting line α ζ]
-
-## Eucli. ex Camp. Propositio 10.
+## Eucli. ex Camp. Propositio 12.
 
 [Margin]
-10
+12
 [/Margin]
 
-{dropcap:P|lines=?|style=decorated}Roposita recta linea: eam per æqualia diuidere.
+{dropcap:A|lines=?|style=decorated|decoration="foliage"} Puncto extra signato, ad datam lineam indefinitæ quantitatis, perpendicularem deducere.
 
-CAMPANVS. Sit proposita linea quā oportet diuidere per æqualia: linea a b, super ipsam cōstituam triangulum æquilaterū a b c, & angulum c diuido per æqualia secundum doctrinā præcedentis, per lineam c d. Dico quòd linea c d: diuidit datam lineā a b per æqualia. Intelligo enim duos triangulos: a c d & b c d, & argumentor sic: duo latera a c & c d triāguli a c d, sunt æqualia duobus lateribus b c & c d triāguli b c d, & angulus c unius angulo c alterius: ergo per 4. basis a d, basi b d q̃d est ꝓpositū.
+CAMPANVS. Sit a, punctus signatus extra lineā b c, à quo ad ipsam oportet deducere perpendicularem. Protraham ergo lineam b c in utranq̃ partem, quantum libuerit: & super punctum a, describā circulum b c, sic ut secet lineam datam in punctis b, c, & protrabam lineas a b & a c, & diuidam angulū b a c per æqualia, per 9 propositionem. Dico q̃ a d est perpendicularis super lineam b c. Intelligo duos triangulos, a b d & a c d, & quia duo latera a b & a d, trianguli a b d, sunt æqualia duobus lateribus a c & a d triāguli a c d, & angulus b a d æqualis angulo c a d, erit per 4 propositionē basis b d æqualis basi d c, & angulus a d b æqualis angulo a d c: quare uterq̃ eorum rectus, & linea a d perpendicularis super lineam b c, per diffinitionem anguli recti & lineæ perpendicularis, quod est propositum.
 
-[Diagram: equilateral triangle with apex c above the base a b; the line c d drawn from the apex to the midpoint d of the base]
+[Diagram: circle with centre a; the horizontal line cuts the circle at b and c below, with d between them; the lines a b, a c and the perpendicular a d drawn]
 
-## Euclides ex Zamb. Problema 5. Propositio 10.
+## Eucli. ex Zamb. Problema 7. Propositio 12.
 
 [Margin]
-10
+12
 [/Margin]
 
-Datam rectam lineam terminatam: bifariam secare.
+Super datam rectam lineam infinita, à dato signo quod in ea non est, perpendicularem rectam lineam deducere.
 
-THEON. ex Zamberto. Sit data linea terminata α β. oportet lineā α β bifariam secare. Constituatur (per 1 propositionem) super ea, triangulum æquilaterum α β γ. Et (per 9 propositionem) secetur angulus α γ β bifariam: à recta linea γ δ. Dico quod linea recta α β: bifariam secatur in signo δ. Quoniam enim (per 1 propositionem) α γ ipsi γ β est æqualis, cōmunis uero γ δ: duæ igitur α γ, γ δ, duabus β γ, γ δ sunt æquales altera alteri. & angulus α γ δ, angulo β γ δ æquus est. basis igitur α δ, (per 4 propositionem) basi β δ est æqualis. Data igitur recta linea terminata α β, bifariam secta est in signo δ. quod faciendum fuerat.
-
-[Diagram: equilateral triangle with apex γ above the base α β; the line γ δ drawn from the apex to the midpoint δ of the base]
-
-## Eucli. ex Camp. Propositio 11.
+THEON ex Zamb. Sit data recta linea infinita, sitq̃ illa α β. datum uero signum quod in ea non est, sit γ. Oportet super datam rectam lineam infinitam α β, à dato signo γ quod in ea non est, perpendicularem rectam lineam ducere. Suscipiatur enim in altera parte ipsius α β rectæ lineæ contingens signum, sitq̃ illud δ, & centro quidem γ, interuallo uero γ δ, (per 3 postulatum) circulus describatur ε ζ η. seceturq̃ (per 10 propositionem) ε η bifariam, in signo θ, & connectantur (per 1 postulatum) rectæ lineæ γ η, γ θ, γ ε. Dico quod super datam rectam lineam infinitā α β, à dato signo quod in ea nō est, uidelicet γ, perpendicularis deducta est γ θ. Quoniā η θ ipsi θ ε est æqualis, cōmunis uero θ γ: duæ igitur η θ, θ γ, duabus ε θ, θ γ, sunt altera alteri æquales, & basis γ η, basi γ ε (per 15 diffinitionē) est æqualis. Angulus igitur γ θ η, angulo γ θ ε (per 8 propositionē) est æqualis, suntq̃ * utrobiq̃. Cum autem recta linea super rectam lineam consistens, * utrobiq̃ adinuicem æquales fecerit, uterq̃ æqualium angulorū rectus est (per 10 diffinitionem) & superstans recta linea perpendicularis uocatur. super datam igitur rectam lineam infinitam α β, à dato signo quod in ea non est, perpendicularis ducta est γ θ, quod fecisse oportuit.
 
 [Margin]
-11
+printed two-line note, partly legible: ipsius / æqua fecerit
 [/Margin]
 
-{dropcap:D|lines=?|style=decorated|decoration="foliage"}Ata linea recta, à puncto in ea signato perpendicularem extrahere: duobus quidem angulis æqualibus ac rectis utrinque subnixam.
+[Diagram: circle with ζ at the top and centre γ; the horizontal line α β below cuts the circle at η and ε, with θ between them; the lines γ η, γ ε and the perpendicular γ θ drawn, δ on the far side of the line]
 
-CAMPANVS. Sit data linea a b: in qua sit datus punctus c, à quo oportet perpendicularem extrahere. Faciam ergo per 3 propositionem: lineam b c æqualem lineæ a c. & super totam a b constituo triangulum æquilaterum a b d. & protraho lineam c d. de qua dico quod ipsa est perpendicularis super lineam a b. Intelligo duos triangulos a c d & b c d. & quia duo latera a c & c d, trianguli a c d sunt æqualia duobus lateribus c b & c d, trianguli c b d, & basis a d basi b d: erit per 8 propositionē angulus a c d æqualis angulo b c d. quare uterque eorum erit rectus, per diffinitionem anguli recti: & linea c b perpendicularis super lineam a b, per diffinitionem lineæ perpendicularis. Quod est propositum.
-
-[Diagram: triangle with apex d above; base line a b with the point c between a and b, and the perpendicular line d c drawn from the apex to c]
-
-## Eucli. ex Zamb. Problema 6. Propositio 11.
+## Eucli. ex Camp. Propositio 13.
 
 [Margin]
-11
+13
 [/Margin]
 
-Data recta linea, à signo in ea dato rectā lineā ad angulos rectos excitare.
+{dropcap:O|lines=?|style=decorated|decoration="a face"}Mnis rectæ lineæ super rectam lineam stantis duo utrobiq̃ anguli, aut sunt recti, aut duobus rectis æquales.
 
-THEON. ex Zamb. Sit data recta linea α β. datū uero in ea signum sit γ. Oportet ab ipso signo γ, ipsius rectæ lineæ α β: ad angulos rectos rectā lineam excitare. Suscipiatur in ipsa α γ, cōtingens signū, sitq̃ illud δ. ponatur ipsi δ γ: (per 3 propositionem) æqualis linea γ ε, & super δ ε, (per 1 propositionē) cōstruatur triangulum æqui
+CAMPANVS. Sit ut linea a b, superstet lineæ c d, quæ si fuerit super eam perpendicularis, faciet duos angulos rectos per conuersionē diffinitionis lineæ perpendicularis. Si autem non fuerit super eam perpēdicularis, à puncto b ducatur b e perpendicularis super c d per 11, eruntq̃ duo anguli e b c & e b d recti per conuersionē dictæ diffinitionis. Quia ergo duo anguli d b a & a b e adæquātur angulo d b e, ipsi cum angulo c b e, erunt æquales duobus rectis: quare tres anguli qui sunt d b a, a b e, & c b e, sunt æquales duobus rectis, sed angulus c b a, est æqualis duobus angulis c b e & e b a, ergo duo anguli c b a & a b d sunt æquales
 
-<!-- Catchword: laterum -->
+[Diagram: horizontal line c b d with the point b; the oblique line b a rising to the upper right and the perpendicular b e rising vertically from b]
+
+<!-- Signature: b 2 -->
+
+<!-- Catchword: duobus -->

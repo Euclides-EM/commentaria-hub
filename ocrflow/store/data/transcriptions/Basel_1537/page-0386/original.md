@@ -1,31 +1,33 @@
-<!-- Running title: LIBER VNDECIMVS. -->
+<!-- Page number: 376 -->
 
-<!-- Page number: 375 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-tur & simile est ρ ψ parallelogrammū ipsi α μ parallelogrāmo. Iam idq́̃ proptereà & λ ε, ipsi σ υ, est æquale & simile. Tria igitur parallelogrāma ipsius α ε, solidi, tribus parallelogrāmis ipsius ψ υ, solidi æqua sunt & similia. Sed tria, tribus ijs quæ ex opposito æqua sunt & similia. Totū igitur solidū α ε parallelepipedū, toti ψ υ, solido parallelepipedo æquum est. Extendātur (per 2 postulatum) ipsæ δ ρ & χ υ, quæ ueniant in congressum in ω, & per τ (per 31 primi) ipsi ρ ω parallelus excitetur τ T, extendaturq́̃ τ T & ο δ quæ ueniāt in congressum in Α, cōpleanturq́̃ ipsa ω ψ, & ρ ε, solida. Aequū iam est ψ ω, solidum cuius basis quidem est ρ ψ, parallelogrammū, ex opposito uero ω Γ, ipsi ψ υ, solido cuius quidem basis est ρ ψ parallelogrammū ex opposito uero υ φ. In eadem siquidem sunt basi ρ ψ, sub eodēq́̃ fastigio, & stantes ρ ω, ρ υ, τ T, τ χ, σ ε, σ υ, ψ Γ, & ψ φ, super eisdem sunt rectis lineis ω χ, & ε φ. Sed solidum ψ φ, ipsi α ε, solido æquū est, & solidū igitur ψ ω, ipsi α ε solido æquū est. Quoniā autē ipsum ρ υ, χ τ, parallelogrammū ipsi ω τ parallelogrāmo (per 35 primi) æquū est, æquū est autē & α β, parallelogrammum ipsi ρ χ. parallelogrammo, æquū igitur est & ω τ ipsi α β. Aequū autē est & γ δ ipsi α β, æquū igitur est & ω τ ipsi γ δ. Est autē aliud δ τ, est igitur (per 7 quinti,) sicut γ δ, basis ad δ τ basin, sic ω τ basis ad δ τ basin. Et quoniā parallelepipedum γ ε, plano ρ ζ secatur, parallelo existente eis quæ ex opposito planis, est igitur sicut γ δ basis ad δ τ basin, sic γ ζ, solidum ad ρ ε solidum. Idque propterea iam quoniā solidum parallelepipedum ω ε, plano ρ ψ, secatur parallelo existente eis quæ ex opposito planis: est igitur sicut ω τ basis ad δ τ, basin, sic ω ψ solidū ad ρ ε solidum. Sed sicut γ δ basis ad δ τ basin, sic ω τ. ad τ δ & sicut igitur (per 11 quinti,) γ ζ, solidū ad ρ ε solidū, sic ω ψ solidū ad ρ ε. Vtrūq̃ igitur ipsorū γ ζ, ω ψ, solidorū, ad ρ ε solidū eandē habet rationē. Aequū igitur est γ ζ solidū, ipsi ω ψ solido. Sed ostensum est, quod ω ψ, ipsi α ε, æquū est, & γ ζ, igitur ipsi α ε æquū est. Non sint iam stantes α η, θ κ, β ε, λ μ, γ ν, ο π, δ ζ, ρ σ, ad angulos rectos, ipsis α β, γ δ, basibus. Dico quod rursus solidum α ε, æquum est ipsi γ ζ, solido. Excitentur (per 11 undecimi) ab ipsis κ ε, η μ, π ζ, ν σ, η signis, ad suppositum planum, κ ξ, ε τ, η υ, μ φ, π χ, ζ ψ, ν ω, σ ι, perpendiculares, & connectantur ξ τ, υ φ, ξ υ, τ φ, χ ψ, χ ω, ω ι, ψ ι. Aequū iam est (per 31 undecimi) κ φ, solidū ipsi π ι solido, in æqualibus siquidē sunt basibus κ μ, π σ, & sub eodē fastigio quorum stantes ad angulos rectos sunt ipsis basibus. Sed ipsum quidē κ φ solidū, ipsi α ε, solido (per 30 undecimi) est æquale, & π ι ipsi γ ζ, in eadē siquidē sunt basi & sub eodem fastigio, quorum stantes non sunt in eisdem rectis lineis. Et α ε solidum igitur, ipsi γ ζ solido æquum est. Super æqualibus igitur basibus existentia solida parallelepipeda & sub eodem fastigio, inuicem sunt æqualia. Quod demonstrare oportebat.
+ges super lineā b f æquidistāter duobus lateribus oppositis, erit ex 25 ꝓportio solidi f e ad solidū a b, sicut basis f e ad basin a b, Cūq̃ sint c d & f e tam bases quàm solida æqualia. bases quidem ex hypothesi, solida aūt ex 31 uel 32, sequitur ex 7 quinti bis assumpta semel pro basibus & semel pro solidis, ꝙ solidorū a b & c d basiumq̃ a b & c d sit proportio una. Quod demōstrare uoluimus. Huius quoq̃ conuersam ipsa eadē mediāte demonstrare quemadmodū cōuersas præcedentiū, non est difficile. Pones enim duo solida parallelogrāma esse suis basibus proportionalia, & conuinces ea esse æque alta. Abscisoq̃ ab eo quod altius mentietur aduersarius uno solido parallelogrāmo æque alto demissiori, erunt abscisum & demissius suis basibus proportionalia ex hypothesi & ex hac 33. Cumq̃ etiā essent totale altius à quo partiale abscidisti, & ipsum demissius eisdē basibus proportionalia ex hypothesi, sequitur (ex prima parte 9 quinti) totale aduersarius dicit altius, & partiale quod ab eo abscidisti, esse æqualia.
 
-[Diagram: a parallelepiped at the upper right with visible labels κ, θ, β at the top, α at the lower left and λ at the lower right]
-
-[Diagram: a composite construction of trapezoidal and square panels with crossing diagonals, with visible labels ξ, σ at the top, ρ and γ at the left, ε, ν within, and ω, υ, τ along the base line]
-
-[Diagram: a parallelepiped with visible labels α and β at the top, ξ at the left face, and μ, ν at the bottom]
-
-[Diagram: a parallelepiped with visible labels π at the top left, χ on the left face, and ν, κ, φ along the bottom]
-
-## Eucl. ex Camp. Propositio 33.
+## Eucl. ex Zamb. Theorema 27 Propositio 32
 
 [Margin]
-33
+32
 [/Margin]
 
-## {dropcap:O|lines=?|style=decorated|decoration="a face"}Mnia solida æquidistātium superficierū. æque alta suis basibus sunt ꝓportiōalia.
+Sub eadem altitudine existentia solida parallelepipeda, adinuicem sunt sicut bases.
 
-CAMPANVS Sint duo solida æquidistantiū superficierū æque alta, cōstituta super duas bases a b & c d. Dico quod proportio illorū duorū solidorum unius ad alterū. est sicut proportio suarū basiū quæ sunt a b & c d, unius ad alterā. Constat quidē ex 24, utrāq̃ harū duarū basium esse æquidistātium laterū, duo igitur latera opposita & æquidistantia, in superficie a b protrahantur, & inter ea fiat superficies æquidistantiū laterum quæ sit f e, æqualis c d. Dehinc supra superficiē f e, cōpleatur solidū parallelogrammū æque altū ei quod cōstitutū est super basin a b, sitq́̃ amborū cōmunis terminis illa superficies quæ exurgit super lineam b f, hæc autem solida & suæ bases, eisdem nūcupentur nominibus. Quia igitur basis f e est æqualis basi c d. erit ex 31 uel 32 solidū f e æquale solido c d. At quia totale solidū a e secat superficies, exur
+THEON ex Zamb. Sint sub eadem altitudine solida parallelepipeda, α β, γ δ. Dico quod ipsa α β, γ δ, solida parallelepipeda adinuicē sunt sicut bases hoc est quod sicut α ε, basis ad γ ζ, basin, sic est α β solidum ad γ δ solidum. Prætendatur enim (per 45 primi) ad ipsam ζ η, ipsi α ε æquū ζ θ, & à basi quidē ζ θ, altitudine autē ipsius γ δ, solidū parallelepipedū compleatur η κ. Aequum iam est (per 31 undecimi) α β solidū, ipsi η κ solido, in æqualibus enim sunt basibus α ε, η θ, & sub eadem altitudine. Et quoniam solidum parallelepipedum γ κ, à plano δ θ, secatur parallelo existenti eis quæ ex opposito planis, est igitur (per 25 undecimi) sicut θ ζ, basis ad ζ γ, basin, sic est β δ, ad ipsum η δ, solidum. Aequalis uero est ipsa quidem ζ θ, basis ipsi α ε basi, & η κ solidum ipsi α β solido, est igitur & sicut α ε basis ad γ ζ, basin, sic α β solidum ad δ solidum. Sub eadem igitur altitudine existentia solida parallelepipeda, & reliqua ut supra, quod erat ostendendum.
 
-[Diagram: a plain parallelogram with label c at the left and d at the right]
+[Diagram: two solid parallelepipeds side by side: at left a cube with β at top, ε on the front face, α at bottom left; at right a wider parallelepiped divided by a vertical plane, with δ and κ at top, ζ on the front face, and γ, η, θ along the bottom]
 
-[Diagram: a rectangle divided by a horizontal line, with labels a at the upper right, f at the left, b at the right and e at the lower left]
+## Eucl. ex Camp. Propositio 34
 
-<!-- Signature: I 2 -->
+[Margin]
+34
+[/Margin]
 
-<!-- Catchword: gens -->
+SI duo solida æquidistantium superficierum lineis altitudinum super bases orthogonaliter erectis fuerint æqualia. eorum bases eorundem altitudinibus mutuas esse. Si uero fuerint duæ bases suis altitudinibus mutuæ, ipsa solida sibi inuicem æqualia esse necesse est.
+
+CAMPANVS. Quæcunque sint duo solida æquidistantium superficierum æqualia, eorum bases & altitudines necesse est esse mutekefias, & econuerso, quēadmodū de superficiebus æquidistātium laterū æquiangulis 13 sexti proposuit. Attamē hac 34 istud demonstrādum proponitur de illis solidis parallelogrāmis, in quibus lineæ altitudinum suis basibus parallelogrāmis orthogonaliter insistūt, ea uero quæ sequitur, proponit idē de cæteris. Sint ergo nūc duo solida parallelogrāma a b & c d æqualia, quorū bases sint a e & c f, lineæq̃ altitudinum ipsorum sint super has bases orthogonaliter erectæ, & sit altitudo solidi a b, linea e b, & solidi c d linea f d. Si igitur fuerint duæ lineæ e b & f d determinātes ipsorum solidorū altitudines, æquales adinuicem, cū ipsa quoque solida sint ex hypothesi æqualia, erūt ex conuersa 31 bases eorum, quæ sunt a e & c f, æquales, ideoq̃ bases & altitudines erunt mutuæ, sicq̃ cōstabit propositi prima pars. Econuerso cōstabit secunda. Vt si altitudines & bases sint mutuæ, ponantur altitudines æquales, erunt quoq̃ bases æquales: ideoq̃ per 31 & solida æqualia & sic constat secunda pars. At uero si li
+
+[Diagram: a rectangular parallelepiped with a at top left, e at the right, b at bottom]
+
+[Diagram: a wider parallelepiped divided by a vertical plane, with m and d at top, l and g above the top face, k on the left face, f on the base, c at bottom left]
+
+<!-- Catchword: neæ -->

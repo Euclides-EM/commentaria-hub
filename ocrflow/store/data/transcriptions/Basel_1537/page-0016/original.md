@@ -1,25 +1,41 @@
-# EVCLIDIS MEGARENSIS GEOMETRICA ELEMENTA: EX CAMPANO.
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 7 -->
+<!-- Page number: 8 -->
 
-## Primi libri propositio prima.
+re a k, est maior b k. Sed & b k, est maior a b: triangulus ergo a b k, est trium inæqualiū laterū. Sic igitur super datam lineā rectam, omnes triangulorū species collocauimus.
+
+## Euclides ex Zamberto. Problema 1. Propositio 1.
 
 [Margin]
 1
 [/Margin]
 
-{dropcap:T|lines=?|style=decorated|decoration="foliage"}Riangulum æquilaterum : supra datam lineam rectam collocare.
+Super data recta linea terminata : triangulū æquilaterū constituere.
 
-Esto data linea recta: a b. uolo: super ipsam, triangulum æquilaterum constituere. Super alteram eius extremitatē, scilicet in puncto a, ponam pedem circini immobilem, & alterum pedem mobilem extendam usq̃ ad ad b: & describam secundum quantitatem ipsius lineæ datæ, per secundam petitionem circulum c b d f. Rursus alterā eius extremitatem, scilicet punctum b faciam centrum: & per eandem petitionem & secundum eiusdem quantitatem, lineabo circulū c a d h. qui circuli intersecabūt se in duobus punctis, quæ sint c & d. Et alteram duarū sectionū sicut sectionem d, continuabo cum ambabus extremitatibus datæ lineæ: protractis lineis d a, d b per primam petitionē. Quia ergo à puncto a, quod est centrum circuli c b d, protractæ sunt lineæ a d & a b usque ad eius circunferentiam: ipsæ erunt æquales, per diffinitionem circuli. Similiter quoq̃ quia à puncto b quod est centrū circuli c a d h, protractæ sunt lineæ b a & b d usq̃ ad eius circunferentiam, ipsæ erunt etiam æquales. Quia ergo utraq̃ duarum linearum a d, b d, æqualis est lineæ a b, ut probatū est: ipsæ erunt æquales inter se, per primam cōmunem animi conceptionē. Ergo super datam rectam lineam : collocauimus triangulum æquilaterum, quod est propositum.
+THEON ex Zamberto. Sit data recta terminata linea: α β. Oportet super α β: triangulum æquilaterum cōstituere. Centro quidem α, spatio uero α β, circulus describatur β γ δ (per 3 postulatū) & rursus (per idem) centro quidem β, spatio uero β α, alter circulus describatur α γ ε. Et (per 1 postulatū) à signo γ, in quo se circuli adinuicē secant, ad α β, signa connectantur rectæ lineæ γ α, γ β. Et quoniā α signū, centrū est circuli γ β δ, æqualis est (per 15 diffinitionē) α γ ipsi α β. Rursus quoniā β signum, centrū est circuli γ α ε, æqualis est β γ ipsi β α (per 15 diffinitionē). At ostensa est linea α γ, ipsi α β æqualis: utraq̃ igitur γ α & γ β, ipsi α β est æqualis. Quæ autē eidem æqualia, & adinuicē sunt æqualia (per 1 cōmunem sententiā) & γ α igitur, ipsi γ β est æqualis. Tres igitur lineæ γ α, α β, β γ, æquales adinuicē sunt. Aequilaterū igitur est triangulum α β γ, & constitutum super data recta linea terminata α β, quod fecisse oportuit.
 
-[Diagram: two equal intersecting circles with centres a and b on a horizontal line, meeting in d above and c below; triangle a b d drawn on the line; the line produced reaches f at the left and b at the right of the circles]
+[Diagram: two equal intersecting circles with centres α and β, meeting above in γ; triangle α β γ drawn on the line α β; δ at the left extremity, ε at the right]
 
-CAMPANI additio. Si autē super eandem lineam libeat collocare reliquas duas triangulorū species, scilicet triangulum duūm æqualium laterum, & triangulū trium inæqualiū laterum: protrahatur linea a b, in utranq̃ partem, usq̃ quo occurret circūferentijs amborum circulorum super duo puncta f & h. Et posito centro in puncto a: lineetur circulus e h g, secūdum quantitatē lineæ a h. Item posito centro in puncto b: lineetur circulus e f g, secundum quantitatē lineæ b f. Hi autē circuli intersecabunt se in duobus punctis quæ sunt e, g. Coniungantur igitur extremitates datæ lineæ cum altera dictarū sectionum: per duas lineas rectas quæ sint a g, b g. Et quia hæ lineæ a b, & a f, exeunt à centro circuli c d f, ad eius circūferentiā: ipsæ erunt æquales. Similiter quoq̃ b a & b h quia exeunt à centro circuli c a d h usque ad ipsius circunferentiā: ipsæ erunt æquales. Quia ergo utraq̃ duarum linearū a f & b h æqualis est lineæ a b: ipsæ erunt inter se æquales, ergo posita a b cōmuni: erit b f æqualis a h. sed b f æqualis ipsi b g: quia ambæ exeūt à centro circuli e f g, ad eius circunferentiā. Similiter quoq̃ a h: est æqualis ipsi a g. & utraq̃ earum est maior a b: eo quod utraq̃ duarum linearum b f & a h maior est a b. Quare super datam lineam: collocauimus triangulum duorum æqualium laterum.
+## Euclides ex Campano. Propositio 2.
 
-[Diagram: the line f a b h with the two small circles about a and b intersecting in d and c, and the two larger circles e f g and e h g intersecting in e below and g above; points k and l above near g, with lines drawn from a and b to g and to k]
+[Margin]
+2
+[/Margin]
 
-Triangulum etiam trium inæqualium laterum super eandem lineam collocabimus: si aliquod punctum existens in circunferentia alterutrius duorum maiorū circulorum quod non sit in altera duarum sectionū, & cui non obuiet f h, cum in utramlibet partem producta fuerit in continuum & directum, coniunxerimus per duas lineas rectas cum ambabus extremitatibus datæ lineæ. Sit enim punctus k signatus in circunferentia circuli e f g: & non sit in altera sectionum, nec occurrat ei f h, cum protraheretur in continuum & directum. eius usq̃ ad circunferentiā: protraham ergo lineas a k & b k. & secabit lineā a k : circūferentia circuli e h g: secet ergo in puncto l, eritq̃ b k per cōmunem animi conceptionem æqualis a l, quia b k per diffinitionē circuli est æqualis b g, & a l æqualis a g: quā
+{dropcap:A|lines=?|style=decorated} Dato puncto: cuilibet lineæ rectæ propositæ æquam rectam lineam ducere.
 
-<!-- Signature: a 4 -->
+CAMPANVS. Sit a, punctus datus: & b c linea recta data. uolo à puncto a, ducere lineam unam æqualem lineæ b c: in quamcunq̃ partem contingat. Coniungam ergo punctum a, cum altera extremitate lineæ b c: cum qua uoluero: & coniungam ipsum a, cum extremitate c, per lineam a c: super quam constituam triangulum æquilaterū secundum doctrinā præcedentis. qui sit a c d. & in illa extremitate lineæ datæ cum qua coniunxi punctum datum, a scilicet: in extremitate c ponam pedem circini immobilem, describamq̃ super ipsum (per 2 petitionem) circulum secūdū quantitatem ipsius datæ lineæ: qui sit circulus e b. & latus trianguli æquilateri q̃d opponitur puncto dato, scilicet latus d c protraham per centrum circuli descripti usq̃ ad eius circūferentiam: & sit tota linea sic protracta d e. secundum cuius quantitatē, lineabo circulum, posito centro in d: qui sit circulus e f. Postea protraham latus d a usque ad circunferentiam huius ultimi circuli: & occurrat circunferentiæ ipsius in puncto f. Dico igitur quod a f: est æqualis b c. nam b c, & c e sunt æquales: quia exeunt a centro circuli e b, ad eius circunferentiam. Similiter quoq̃ d f & d e sunt æquales: quia exeunt à centro circuli e f, ad circunferentiā. sed d a & d c sunt æquales: quia sunt latera trianguli æquilateri. ergo si d a & d c demantur de d e & d f quæ sunt æquales: erunt residua quæ sunt a f & c e, æqualia. Quia ergo utraq̃ duarū linearū a f & c b est æqualis c e: ipsæ per 1 cōmunem animi conceptionē adinuicem sunt æquales. Quare à puncto a, protraximus lineam a f æqualē b c: quod est propositū.
 
-<!-- Catchword: re a k -->
+[Diagram: two circles, the smaller e b with centre c inside the larger e f with centre d; small triangle a c d at the centre, b at the left on the smaller circle, line d c produced to e below and line d a produced to f at the right]
+
+## Eucl. ex Zamb. Problema 2. Propositio 2.
+
+[Margin]
+2
+[/Margin]
+
+Ad datum signum, datæ rectæ lineæ æquam rectam lineam ponere.
+
+THEON ex Zamb. Sit datum signum, α: data autē recta linea, β γ. oportet ad ipsum α: ipsi β γ rectæ lineæ æquā rectam lineam ponere. Ducatur enim ab α, signo in β signum, recta α β, (per 1 postulatum) cōstituatur super ea (per 1 propositionem) triangulum æquilaterum: sitq̃ illud, α β δ. producantur (per 2 postulatum) in rectum ipsis δ α, δ β lineæ α ε, β ζ. & (per 3 postulatum) centro β, spatio uero β γ: circulus describatur γ η. Rursus centro δ, spatio uero δ η: circulus describatur η κ λ: Quoniam igitur β signum, centrū est circuli γ η θ, æqualis est (per 15 diffinitionem) β γ ipsi β η: & quoniam δ signum centrum est circuli η κ λ: æqualis est (per eandem) δ λ ipsi δ η, quarum δ α ipsi δ β,
+
+[Diagram: two circles, the smaller about β inside the larger about δ; above them the point δ with the equilateral triangle α β δ, the sides produced through α and β to the circumferences, with points γ, η, κ, λ marked on the circles]

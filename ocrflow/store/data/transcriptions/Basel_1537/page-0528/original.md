@@ -1,9 +1,65 @@
-<!-- Running title: PERSPECTIVA -->
+<!-- Page number: 518 -->
 
-<!-- Page number: 517 -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-suppositis corporibus minores. Aequales quidem emittunt umbras quæcunque lucētibus illustrantibusq́ ignibus sunt æqualia, extremi nāq́ radij in hijs in parallelis cōueniunt, fitq́ ut umbræ neque cōcurrentes imminuant, neque hijs umbræ crescant, sed sicut se habet offensio corporis, talem quoque umbræ cōmensurationē obtineat. Minores uero corporibus umbræ sunt, quando illustrantes ignes maiores fuerint, extremi namque radij in ipsis concurrunt, idq́ propterea umbras imminuunt. Maiores porro corporibus umbræ sunt, quando illuminantes ignes minores fuerint: extremos nāq́ radios in his rotundis contingit inumbratāq́ maiorem partem perficere. Id minime fieret nisi ab igne delati radij in rectas lineas protenderentur. Clarius quoque hoc & alijs effectibus deprehendi contingit. Lucerna &enim utcunq́ iacente si apposita fuerit portula subtilem habens rimulā ut seræ, proueniatque rimula ex opposito lucernæ. Ipsi autem portulæ in alteram partem propior apponatur portula, in quam, per rimulam lux delata procidat, omnino procidentem lucem in ipsam portulam rectis contētam lineis inueniemus, connectentemq́ interuallum medium inter rimulam portulāq́ in eandem rectam lineam existere. Cum igitur manifestum sit quod omne lumen in rectam lineam protēditur, & omnibus cōstat in recti aspectū euenire, ab ipso erūpentes radios, eiusdem esse rationis hoc est per rectas protēdi lineas hoscē in interuallis, idque propterea ea quæ spectantur, simul tota aspici non posse, præceptionē attulit huiusmodi. Acu siquidem siue alio huiusmodi corpusculo sepius in pauimentum delapso aliquibusq́ accuratius indagantibus, locumq́ ipsum sepius nullo corpusculum quæsitum prohibente tangentibus, deinde rursus uisum proijcientibus ad locum in quo erat corpusculum, acum perspexerunt. Manifestum nempe quod id quod inuentum est, neque etiam locus in quo erat uidebatur, proinde quæsito sub aspectū exposito, loci partes omnes non spectantur. Si enim uideretur, & quæsitum quoque aspiceretur, non aspicitur autem. Itidem quoque eos qui libris accurate assistunt neque omnes literas in margine existentes intueri posse. Sepius namq́ coactos ostēdere raro descriptas literas, minime ipsas ostendere posse, eo quia ad omnes literas uisus nō efferuntur, sed per interualla ipsos existere, ac perinde ordine expositarum literarum plures percipi nō possunt: proinde manifestum est quod neque toti marginis locus aspicitur, itidem quoque in alijs spectaculis euenit, quare quæcunque spectatur simul tota non spectantur, uidentur tamen aspici ob nimiam uisuum celeritatē, nihilq́ relinquentium, hoc est in cōtinuū delatorū, minimèq́ salientiū. Sub uisum namq́ cadit spectatæ rei imago, ut inde motus uisus rem uisam percipiat, causāq́ has attulit. In quæsto namq́ corpore, & in eo qui accurate libro studet, dubiū sumitur ut dicatur. Si imaginibus procidentibus passio uisua gignitur, & si ab omni corpore cōtinue imagines prōfluunt quæ nostros sensus cōmouent, qua causa fit ut quæres acum, itidemq́ librum accurate legens omnes literas non perspicit. Eo quia quandoque intellectu eleuantur nihil minus ratiocinantes quærunt, sed omnino non inueniunt: sepius autē cū alijs ratiocinantes, intellectuque atrahentes, celerius inueniunt. Sed non omnes imagines per aspectū iudicantur, & qui nam causa iudicata permanent, dixerūt, inquā, naturam esse iuxta animalia. Eorum uero quæ sensus habent aliqua ad receptaculū recta linea sunt cōstructa, aliqua uero non, auditum &enim & gustum & olfactum cōstruxit intrinsecus, ut extrinsecus procideutia{printer-error-correction:procidentia} corpora eisdē sensus huiusmodi mouerent, auditui siquidem uox procidens locū aptum inuenire debet ut permaneat, ac ne ut obtigerit è uestigio transiliat, sed sensum immobilem seruet, ac delatam uocē confundat. Similiter quoque & olfactū, at de gustu aliquid dicere oportet, & maxime quo modo ipsi sensus conuexi & in speluncæ similitudinem sint constructi, ad hoc ut procidentia corpora plurimo tempore permaneāt, & in ipsis quoque igitur si extrinsecus eidem ceciderint ipsum corpora mouentia, & non ab ipso in eadē aliquid sit emissum. Illius constructionem couexam{printer-error-correction:conuexam} beneq́ cōpositam ad receptaculum corporū præcedentium esse oportuit, nunc autem spectatur hoc non sic sese habēs, sed potius sphæricus uisus apparet, fidemq́ huiusmodi efficiunt in præsentia radij effusi passionēq́ ut suam mouentes. At de huiusmodi satis dictum uidetur. Cur autem uisui in eodem existenti plano superficies iacentes in rectam lineam appareant, hæc asseruit: quippe quoniam in eodem plano existens uisus rei uisæ idem est, neque sublimior, neque humilior eo quia in eodem situs est plano, si igitur neque sublimior, neque humilior est uisus in eodem existente plano circunferētia. In partes aliquas sublimiores, & in partes aliquas humiliores radios minime transfundit. Sed omnibus circunferentiæ partibus
+æquos per planum delatos radios trāsmittit. Quare hac de causa fit ut planum rectas per phantasiam lineas relinquat, & in plano descriptam circunferentiam: planum etenim in rectas uisui lineas iacens, inuisibile siquidem est eo quia in illud nullus ab uisū emissorum radiorum cadit, at illius finis spectatur, quæ linea est. Inquit enim quod eo quia in uisu linea manet, quæ reliquis plani partibus adiecta inuisibile planum efficit. Eadem quoque causa asseritur de plano in rectas lineas posito ad oculum, efficit nāq́ rectas lineas relinquere phantasiam, circunferentiarūq́ in eodē plano ad oculum expositarum apparere, ut maior pars appareat quando plures uisus emittuntur, æqualis uero quando æquales, minor autē quando minores, fiunt uisibus sicut anguli quidem ad oculum.
 
-<!-- Signature: X -->
+## Suppositio prima.
 
-<!-- Catchword: æquos -->
+Supponatur ab oculo uisus emissos in rectas lineas ferri, interuallūq́ quoddā inuicem efficientes, & sub uisibus figuram comprehensam esse conum uerticem habentem ad oculum, basim uero ad fines rerum uisarum.
+
+## Suppositio secunda.
+
+Ea uidentur ad quæ uisus perueniunt.
+
+## Suppositio tertia.
+
+Ad quæ uisus non perueniunt, ea non spectantur.
+
+## Suppositio quarta.
+
+Sub maiori angulo spectata: maiora apparent.
+
+## Suppositio quinta.
+
+Sub minori angulo minora uidentur.
+
+## Suppositio sexta.
+
+Aequalia uero uidentur quæ æqualibus angulis spectantur.
+
+## Suppositio septima.
+
+Quæ sub sublimioribus radijs spectantur: sublimiora apparent.
+
+## Suppositio octaua.
+
+Quæ uero sub humilioribus radijs uidentur, humiliora apparent.
+
+## Suppositio nona.
+
+Et similiter quæ sub dexterioribus spectantur radijs, dexteriora apparent.
+
+## Suppositio decima.
+
+Quæ uero sub sinisterioribus radijs spectantur: sinisteriora uidentur.
+
+## Suppositio undecima.
+
+Quæ sub pluribus angulis spectantur: expeditius uidentur.
+
+## Theorema primum.
+
+{dropcap:E|lines=?|style=decorated|decoration="woodcut"}Orum quæ sub aspectum cadunt quicquā simul totum aspici minime potest.
+
+Sit nāq́ uisile{printer-error-correction:uisibile} quoduis a d, oculus uero sit b, à quo procidant uisus b a, b c, b κ, b d. igitur quoniam in interuallo feruntur uisus procidentes uisus non prociderent continui ad a d, quare fient quoque & ad a d, interualla, ad quæ uisus non ueniunt ea non spectantur per 3 suppositionem: totū igitur a d, simul minime spectabitur uidetur autem simul spectari uisibus celerrime delatis.
+
+[Diagram: horizontal line with points a, e, κ, d; rays from each point converging downward to the eye b]
+
+## Theorema secundum.
+
+{dropcap:A|lines=?|style=decorated|decoration="woodcut"}Equalibus magnitudinibus interuallo positis, propius positæ euidentius spectantur.
+
+Sit oculus b, quod autē spectatur sit c d, & k l oportet, inquā, ipsa æqualia esse propius uero sit c d, procidantq́ uisus b c, b d, b κ, & b l, non utique dixerimus quod ab ipso b, oculo ad ipsam k l procidentes uisus ueniant per c d, signa, fuerit namque triangulū, b k l, & b c d, ipsum k l, maius quàm ipsum c d, arqui{printer-error-correction:atqui} positum est quod & æquale. igitur sub pluribus uisibus spectatur c d, quàm κ l, euidentius igitur apparebit c d, quàm k l.
+
+[Diagram: horizontal line with points c, κ, l, d; rays from all four points converging downward to the eye b, forming nested triangles]

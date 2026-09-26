@@ -1,31 +1,33 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVARTVS -->
 
-<!-- Page number: 98 -->
+<!-- Page number: 99 -->
 
-Quia ergo duo anguli g & b trianguli g f b sunt æquales duobus angulis h & b trianguli h f b, & latus f b commune, erit per 26 primi, f h æqualis f g. Eodem modo probabis f k, æqualem f l: sumptis triangulis l f d, k f d. Quoniã igitur quinq̃ lineæ f g, f h, f k, f l, & f m sunt æquales: erit f, centrum circuli per 9 tertij. Quem circulum describemus secundum quantitatem unius earum: & tanget omnia latera pentagoni, propter æqualitatem linearum: & nullum eorum secabit: per primam partem 15 tertij: sicq̃ cõstat propositum.
+## Eucli.ex Zamb. Problema 14. Propositio 14.
 
-## Eucli.ex Zamb.  Problema 13.  Propositio 13.
+14 Circa datum pentagonum æquilaterum & æquiangulum, circulum describere.
 
-[Margin]
-13
-[/Margin]
+THEON ex Zamberto. *Sit datum pentagogonum æquilaterum & æquiangulum α β γ δ ε: oportet iam circa pentagonum α β γ δ ε, circulum describere Secetur iam (per 9 primi) uterq̃, eorum qui sunt sub β γ δ & γ δ ε angulorum bifariam, per utramq̃ ipsarum γ ζ & δ ζ. Et à ζ signo in quo concurrunt ipsæ rectæ lineæ, ad signa β, α, ε, coniungantur rectæ lineæ ζ β, ζ α & ζ ε. Similiter præcedenti ostendetur, quod & unusquisq̃ eorū qui sunt sub γ β α, β α ε & α ε δ angulorum, bifariam secatur per unamquanq̃ ipsarum ζ β, ζ α, ζ ε rectarum linearum. Et quoniam æqualis est angulus β γ δ angulo γ δ ε, & angulus ζ γ δ dimidium est anguli β γ δ: anguli autem γ δ ε dimidiū est angulus ζ δ γ: & angulus ζ γ δ igitur angulo ζ δ γ est æqualis. Quare & latus ζ γ, lateri ζ δ est æquale. Similiter iam ostendetur, quod & unaquæq̃ ipsarum ζ β, ζ α, utraq̃ ipsarum ζ γ & ζ δ est æqualis. Quinq̃ igitur rectæ lineæ ζ α, ζ β, ζ γ, ζ δ, ζ ε, sibi inuicem sunt æquales. Centro igitur ζ, & spatio aut ζ α aut ζ β aut ζ γ aut ζ δ aut ζ ε, circulus descriptus: ueniet per reliqua signa, & descriptus erit circa α β γ δ ε pentagonum quod æquilaterum & æquiangulum est. Describatur & sit α β γ δ ε. Circa datum igitur pentagonum quod est æquiangulum & æquilaterum, circulus descriptus est, quod facere oportebat.*
 
-In dato pentagono æquilatero & æquiangulo, circulum describere.
+[Diagram: pentagon α β γ δ ε (α at top) with lines drawn from the interior point ζ to all five vertices]
 
-THEON ex Zamberto. Sit datum pentagonum æquilaterum & æquiangulum α β γ δ ε: oportet iam in pentagono α β γ δ ε: circulum describere. Secetur (per 9 primi) uterq̃ eorum qui sunt sub β γ δ & γ δ ε angulorum bifariam, per rectas lineas γ ζ & δ ζ: ab ζ signo in quo concurrant ad inuicem ipsæ rectæ lineæ γ ζ & δ ζ: coniungantur rectæ lineæ ζ β, ζ α, ζ ε. Et quoniam æqualis est β γ ipsi γ δ, communis autem γ ζ: duæ iam β γ & γ ζ, duabus δ γ & γ ζ sunt æquales: & angulus β γ ζ, angulo δ γ ζ æqualis: basis igitur β ζ (per 4 primi) basi δ ζ est æqualis: & triangulum β γ ζ, triangulo δ γ ζ æquale: & reliqui anguli reliquis angulis sunt æquales: sub quibus æqualia latera subtenduntur. Aequalis igitur est angulus γ β ζ, angulo γ δ ζ. Et quoniam angulus γ δ ε, duplus est anguli γ δ ζ, æqualis autem est angulus γ δ ε ei qui sub α β γ, eius qui sub γ δ ζ est angulo, & angulus γ δ ζ angulo γ β ζ: angulus igitur γ β α: angulus γ β ζ duplus: æqualis igitur est angulus α β ζ angulo ζ β γ. Angulus igitur α β γ, bifariam sectus est per ζ β rectam lineam. Similiter quoq̃, ostendetur quod & uterq̃, eorum qui sunt sub β α ε angulorum, bifariam diuisus est per utrãq̃: rectarum linearum ζ α & ζ ε. Excitentur (per 12 primi) ab ζ signo ad α β, β γ, γ δ, δ ε & ε α rectas lineas perpendiculares ζ η, ζ θ, ζ κ, ζ λ & ζ μ. Et quoniã, æqualis est angulus θ γ ζ ei qui est aũt angulus ζ θ γ rectus, angulo ζ κ γ recto æqualis: duo iam triangula ζ θ γ & ζ κ γ, duos angulos duobus angulis æquales habentia alterum alteri, & unum latus uni lateri æquum: commune enim eorum ζ γ, subtensum sub uno æqualium angulorum: & reliqua igitur latera reliquis lateribus (per 26 primi) æqualia habebunt: æqualis igitur est perpendicularis ζ θ: ipsi ζ κ perpendiculari. Similiter quoq̃, ostendetur, quod & unaquæq̃ ipsarum ζ λ, ζ μ, ζ η, unicuiq̃ ipsarum ζ θ & ζ κ est æqualis. Quinq̃ igitur rectæ lineæ ζ η, ζ θ, ζ κ, ζ λ & ζ μ, sibi’nuicem sunt æquales. Centro igitur ζ, & spatio uero aut ζ η aut ζ θ aut ζ κ aut ζ λ aut ζ μ, circulus descriptus: per reliqua quoq̃: ueniet signa. Et tanget rectas lineas α β, β γ, γ δ, δ ε, ε α, (per correlarium 16 tertij: quoniam anguli qui sunt ad η, θ, κ, λ, μ, signa recti sunt. Si enim non tanget eas, sed secabit: continget quod ei quæ à diametri circuli extremitate ad angulos rectos ducta intra ipsum circulum cadet: quod esse impossibile ostensum est (per 16 tertij. igitur centro ζ, spatio uero uno ipsorum ζ η, ζ θ, ζ κ, ζ λ, ζ μ, signorum descriptus circulus, rectas lineas α β, β γ, γ δ, δ ε & ε α, minime secabit: tanget igitur eas (per correlarium 16 tertij) describatur sicut η θ κ λ μ. In dato igitur pentagono æquilatero & æquiangulo: circulus descriptus est, quod facere oportebat.
+## Eucli.ex Camp. Propositio 15.
 
-[Diagram: pentagon α β γ δ ε with all lines drawn from the interior point ζ to the vertices and to the points η θ κ λ μ on the sides, forming a radiating star pattern]
+15 Ntra propositum circulum, hexagonum æquilaterum atque æquiangulum describere.
 
-## Eucli.ex Camp.  Propositio 14.
+Ex hoc itaq̃ manifestum est quod latus hexagoni, æquū est dimidio diametri circuli qui inscribitur.
 
-[Margin]
-14
-[/Margin]
+CAMPANVS. Sit propositus circulus a b c d: cuius centrum e: uolo sibi inscribere hexagonum æquilaterum atq̃ æquiangulum. Produco diametrū a e c, & secundum quantitatem semidiametri e c, facto centro puncto c, describo circulum e b d, secantē priorem in duobus punctis b, d: à quibus produco duas diametros in circulo primo, quæ sint b e g. d e f. Trium ergo diametrorum extremitates coniungo sex lineis quæ sunt a f, f b, b c, c e, d, d g & g a: quas dico continere hexagonum quæsitum. Erit enim ut demonstrat prima primi, uterq̃ triangulorum b e c, c e d, æquilaterus: quare & æquiangulus per 5 eiusdem: ergo per 32 primi, duo anguli b e c & c e d, cum uno æquali uni eorum, sunt æquales duobus rectis: propter id quod quisq̃ eorū est tertia duorum rectorū: sed ipsi per 13 eiusdem, cum angulo d e g, sunt æquales duobus rectis: ergo angulus d e g, est æqualis utriq̃ eorum, quare per 15 eiusdem, sex anguli qui sunt ad e sunt adinuicem æquales: ergo per 26 tertij, arcus in quos cadunt, sunt æquales: quare & eorū chordæ per 28 eiusdem, quæ sunt latera ipsius hexagoni. Aequilaterus igitur est. Sed & æquiangulus per 26 tertij, propter id quod sex arcus in quos anguli hexagoni diuidunt circulum: bini & bini sumpti sunt adinuicē æquales, ut arcus a f b, arcui f b c: & ideo angulus f qui consistit, in primo, est æqualis angulo b qui consistit in secundo, idem in cæteris, quare constat propositio.
 
-Irca datum pentagonum quod sit æquilaterum atq̃ æquiangulum, circulum describere.
+[Diagram: circle a b c d with centre e and inscribed hexagon a f b c d g; a second equal circle centred on c passes through e and cuts the first at b and d]
 
-{dropcap:C|lines=?|style=decorated}AMPANVS. Sit ut prius datus pentagonus, æquilaterus atq̃ æquiangulus (quia de alijs non est necessarium hoc esse possibile) a b c d e: uolo circa ipsum, describere circulum. Hæc est quasi cõuersa 12. Duos eius ppinquos angulos qui sunt a & e, diuido per æqualia, ductis lineis a f & e f quousq̃ concurrãt intra ipsum pentagonum in puncto f: cõcurrent enim & intra pentagonũ, ut probatum est in præmissa. A puncto concursus, duco ad reliquos angulos, lineas quæ sint b f, c f, f d: & quia duo latera a f & a b triãguli a f b sunt æqualia duobus lateribus a f & a e trianguli a f e, & angulus a unius angulo a alterius: erit per 4 primi, f e, & angulus b partialis angulo e partiali. Et quia b totalis est æqualis a totalis, & e totalis diuisus est per æqualia: erit similiter b totalis diuisus per æqualia. Hoc quoq̃ modo probabis utrunq̃ angulorum c & d, diuisum esse per æqualia: & quinq̃ lineas f a, f b, f c, f d, f e, esse æquales: quare per 9 tertij erit centrũ circuli. Sicq̃ patet propositum.
+Correlarium ex hoc paeet, quod dimidiū diametri & latus hexagoni, sunt latera eiusdem trianguli æquilateri, ut e c & c b & c d.
 
-[Diagram: pentagon with vertices b, a, m at top and l, d, k below, interior point f with lines radiating to all vertices and side-points; labels a, m, b, f, e, l, d, k]
+CAAMPANI additio. Et nota quod non proponitur circa propositum circulum hexagonū æquilaterum & æquiangulum designare. Nec intra talem hexagonū aut circa talem circulum describere quemadmodum fecit de triangulo, quadrato, & pentagono: non quia non sit necessarium hoc esse possibile: sed quia hæc tria per eadem præcepta fiunt in pentagono æquilatero & æquiangulo, & in omni figura æquilatera atq̃ æquiangula quæcunq̃ fuerit. Vnde quamcunq̃ figuram æquilateram & æquiangulam scimus circulo inscribere: eandem circulo, extra & circulum sibi intra & extra, ijsdem medijs, per quæ hoc in pentagono fecimus: describemus. Nota etiam quod
 
-<!-- Catchword: Eucli. -->
+<!-- Signature: i 2 -->
+
+<!-- Catchword: omnis -->
+
+[Other type="stamp"]
+Staats-Bibliothek Bamberg
+[/Other]

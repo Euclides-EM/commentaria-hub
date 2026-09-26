@@ -1,21 +1,37 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER SECVNDVS. -->
 
-<!-- Page number: 48 -->
+<!-- Page number: 49 -->
 
-stantem cd, & produco f d & e b, quousq̃ concurrant in puncto g, & produco lineam a g. Eritq̃ per ultimā partem 29 primi, angulus c e f rectus, sed angulus c e b, est medietas recti, ergo angulus b e f est similiter medietas recti, & quia per 33 primi, f d est æquidistans c e, erit per 34 eiusdem, angulus f rectus, ergo per 32 eiusdē, erit angulus e g f medietas recti: item per eandem, angulus d b g similiter medietas recti, propter id q̃ angulus b d g est rectus, ergo per 6 eiusdē, duo latera e f & f g sunt æqualia, item duo latera d b & d g sunt æqualia. Ergo per penultimā eiusdem, quadratum e g, duplum est ad quadratum e f: quare ad quadratum c d. Itemq̃ per eandem, quadratum a e, duplum est ad quadratū a c. Et quia quadratū a g est per eandem æquale quadratis a e & e g, similiter quoq̃ & quadratis a d & d g, at quia quadratum d g est æquale quadrato b d, erunt duo quadrata duarum linearum a d & b d pariter accepta, dupla duobus quadratis duarum linearū a c & c d pariter acceptis, quod est propositum. Hæc autem & omnes præmissæ, ueritatem habent in numeris sicut in lineis.
-
-[Diagram: base line a c b d with apex e above c, point f at upper right, lines e f, f d and e b produced meeting at g below right]
-
-## Eucli. ex Zamb. Theorema 10. Propositio 10.
+## Eucli. ex Camp. Propositio 11.
 
 [Margin]
-10
+11
 [/Margin]
 
-Si recta linea secetur bifariam, apponatur autē ei quæpiam recta linea in rectum, quod ex tota cum apposita & quod ex apposita utraque quadrata, dupla sunt eius quod ex dimidia & eius quod ex composita ex dimidia & adiuncta tanquam ex una descriptorum quadratorum.
+DAtam lineam sic secare, ut quod sub tota & una portione rectangulum cōtinetur, æquum sit ei quod fit ex reliqua sectione quadratum.
 
-THEON ex Zamb. Recta enim quædam linea α β, secetur bifariam in γ, apponaturq̃ ei quæpiam recta linea in rectum, β δ. Dico quod quadrata quæ ex α δ & δ β, dupla sunt quadratorū quæ fiunt ex α γ & γ δ. Excitetur (per 11 primi) ab ipso γ signo, ipsi α β ad angulos rectos γ ε, & ponatur (per 3 primi) æqualis utriq̃ ipsarum α γ & γ β, & (per 1 postulatum) connectantur α ε & ε β. Et (per 31 primi) per ε ipsi α δ parallelus excitetur ε ζ, & (per eandem) per δ, ipsi γ ε parallelus excitetur δ ζ. Et quoniam in parallelos rectas lineas γ ε & ζ δ, recta quædam linea incidit ε ζ, anguli igitur γ ε ζ & ε ζ δ, (per 29 primi) duobus rectis sunt æquales. Anguli igitur ζ ε β & ε ζ δ, duobus rectis sunt minores, (per eandem.) Quæ autem à minoribus duobus rectis producuntur (per 5 postulatum) coincidunt: igitur ε β & ζ δ productæ ad partes β δ, coincidunt, producantur, & coincidant in η, & (per 1 postulatum) connectantur α η. Et quoniam æqualis est α γ ipsi γ ε, angulus quoq̃ ε α γ angulo α ε γ est æqualis (per 5 primi) & rectus est qui ad γ, dimidius ergo recti, uterq̃ qui sub γ α ε & α ε γ. Et propterea uterq̃, etiam qui sub γ ε β & ε β γ, recti dimidius est: rectus igitur qui sub α ε β. Et quoniam angulus ε β γ, recti dimidius est, & (per 15 primi) angulus igitur δ β η, recti dimidius est. Est autem & rectus qui ad δ, æqualis enim est ei qui ad γ, alterni enim, reliquus igitur angulus δ η β, recti dimidius est. Igitur (per 6 cōmunem sententiam) angulus δ η β, angulo δ β η est æqualis. Quare (per 6 primi) & latus β δ, lateri δ η est æquale. Rursus quoniam angulus ε η ζ, recti dimidius est, rectus est autem qui ad ζ, æqualis enim est ei qui ad γ opposito. Angulus igitur ζ ε η, angulo ζ η ε est æqualis, Quare (per 6 primi) & latus ζ η, lateri ζ ε est æquale. Et quoniam æqualis est ε γ ipsi γ α, quadratum quoq̃ quod ex ε γ, ei quod ex γ α, est æquale, quadrato: quadrata igitur quæ sunt ex ε γ & γ α, dupla sunt eius quod ex γ α, quadrati. Eis autem quæ fiunt ex ε γ & γ α, (per 47 primi) æquum est id quod ex ε α. Quadratum igitur quod fit ex ε α, duplum est eius quod ex α γ. Rursus quoniam æqualis est ε ζ ipsi ζ η, quadratum quoq̃ quod fit ex ε ζ, æquum est ei quod fit ex ζ η, quadrato: quadrata igitur quæ ex ε ζ & ζ η fiunt, eius quod fit ex ε ζ, dupla sunt. Eis autem quæ fiunt ex ε ζ & ζ η, (per 47 primi) æquum est id quadratum quod fit ex ε η: id igitur quod fit ex ε η, duplum est eius quod fit ex ε ζ. Aequalis autem est ε ζ ipsi γ δ, quadratum igitur quod fit ex ε η, duplum est eius quod fit ex γ δ. Ostensum autem est & id quod fit ex ε α, duplum eius quod fit ex α γ. Quadrata igitur quæ fiunt ex α ε & ε η, quadratorum quæ fiunt ex α γ & γ δ, dupla sunt. Quadratis autem quæ fiunt ex α ε & ε η, æquum est id quod ex α η quadratum (per 47 primi.) Quadratum igitur quod fit ex α η, eorum quæ fiunt ex α γ & γ δ, duplum est. Ei autem quod fit ex α η, æqualia sunt quadrata quæ fiunt ex α δ & δ η. Quadrata igitur quæ fiunt ex α δ & δ η, dupla sunt eorum quæ ex α γ & γ δ fiunt, quadratorum: æqualis autem est δ η ipsi δ β. Quadrata igitur quæ sunt ex α δ & δ β, dupla sunt eorum quæ sunt ex α γ & γ δ quadratorū. Si recta igitur linea secetur bifariam, &c. quæ sequuntur reliqua ut in theoremate, quod ostendere oportebat.
+CAMPANVS. Sit linea data a b, quā uolumus sic diuidere: ut quod ex tota & una eius portione producitur, æquū sit quadrato alterius. Describo quadratū ipsius a b, quod sit a b c d. Latus b d diuido per æqualia in e, & produco a e, & e b produco usq̃ ad f, ita q̃d e f sit æqualis a e. Et ex b f portione extrinseca, describo quadratū quod ex latere a b resecat portionem æqualē b f, quæ sit b h: & quadratū descriptū sit b f h g. Dico quod a b sic est diuisa in puncto h: quod illud quod fit ex tota a b in eius portionem h a, est æquale quadrato h b. Produco g h usque ad k: quæ erit æquidistans a c. Quia ergo linea d b diuisa est per æqualia in e, & est sibi addita linea b f: erit per 6 huius quod fit ex d f in b f cum quadrato e b, æquale quadrato e f: quare & quadrato e a: quare per penultimam primi, quadratis duarum linearum e b & b a. Ergo dempto ab utrisque quadrato lineæ e b: erit quod fit ex d f in b f & ipsum est superficies d g æquale quadrato lineæ a b. Ergo dempto ab utrisque parallelogrāmo h d: erit quadratum h f æquale parallelogrāmo h c. Et quia quadratum h f est quadratum lineæ h b, & parallelogrammum h c producitur ex c a quæ est æqualis a b in a h, patet factum esse propositum. ¶ Ad hoc autem faciendum in numeris, non labores, quia impossibile est numerum sic diuidi, ut hic undecima proponit, sicut scies, sexti 16 te docente.
 
-[Diagram: base line α γ β δ with apex ε above γ, point ζ at upper right, lines ε β and ζ δ produced meeting at η below right, line α η drawn]
+[Diagram: square with c and a at the top, k and h at the sides, d, e, b, f along the bottom, g at the right; a diagonal line runs from a down to e]
 
-<!-- Catchword: Euclides -->
+## Eucli. ex Zamb. Problema 1. Propositio 11.
+
+[Margin]
+11
+[/Margin]
+
+Datam rectā lineā secare: ut quod sub tota & altero segmēto cōprehensum rectangulum, æquum sit ei quod fit ex reliquo segmento, quadrato.
+
+THEON ex Zamb. Sit data recta linea α β: oportet autem ipsam α β secare, ut quod sub tota & altero segmento comprehensum rectangulum, æquum sit ei quod fit ex reliquo segmēto, quadrato. Describatur (per 46 primi) ex α β, quadratum α β γ δ, & secetur (per 10 primi) bifariam, in ε, signo, & cōnectatur β ε. Et extendatur (per 2 postulatum) γ α, in ζ, & ponatur (per 3 primi) ipsi β ε æqualis ε ζ. Et (per 46 primi) ex α ζ describatur quadratum ζ η, & extendatur (per 2 postulatum) η θ in κ. Dico quod α β, secatur in θ, ut quod sub α β & β θ, comprehensum rectangulum, æquum sit ei quod fit ex α θ, quadrato. Quoniam enim recta linea α γ, secta est bifariam in ε, adiacet autem ei α ζ, igitur (per 6 secundi) quod sub γ ζ & ζ α, comprehensum rectangulum, una cum eo quod fit ex α ε, quadrato, æquum est ei quod fit ex ζ ε, quadrato, æqualis autem est ζ ε ipsi ε β: rectangulum igitur comprehensum sub γ ζ & ζ α, una cum eo quod ex α ε, ei quod ex β ε est æquale, quadrato: æquum est ei quod fit ex α β, quadrato. Sed ei quod ex β ε, æqualia sunt (per 47 primi) ea quæ fiunt ex β α & α ε, quadrata: rectus enim est angulus qui ad α. Quod igitur est sub γ ζ, ζ α, cum eo quod fit ex α ε, æquum est eis quæ ex β α & α ε sunt. Cōmune auferatur id quod ex α ε, reliquum igitur rectangulum comprehēsum sub γ ζ & ζ α: æquum est ei quod ex α β, quadrato. Et id quidem quod sub γ ζ & ζ α, est ipsum ζ κ, æqualis enim est α ζ, ipsi ζ η: id autem quod fit ex α β, ipsum α δ. Igitur ζ κ æquale est α δ. Cōmune auferatur α κ, reliquum igitur, ipsū ζ θ, ipsi θ δ, est æquale. Est autem θ δ, id quod sub α β & β θ, æqualis enim est α β, ipsi β δ. At ζ θ, id quod ex α θ. Rectangulum igitur comprehensum sub α β & β θ, æquum est ei quod ex θ α, quadrato. Data igitur recta linea α β, in θ, dissecta est, ut rectangulum sub α β & β θ, comprehensum, sit ei quod fit ex α θ, quadrato, quod fecisse oportuit.
+
+[Diagram: square α β γ δ with a smaller square on α ζ adjoined above, points ε, ζ, η, θ, κ marking the construction; a diagonal line runs across the figure]
+
+## Eucli. ex Camp. Propositio 12.
+
+[Margin]
+12
+[/Margin]
+
+IN his triangulis qui obtusum habent angulum, tanto ea quæ obtusum subtendit angulum, ambobus reliquis lateribus quæ obtusum continent angulum amplius potest, quātum est quod continetur bis sub uno eorum atque ea quæ ei directe iuncta ad obtusum angulum, à perpendiculari extra deprehenditur.
+
+<!-- Signature: e Eucli. -->

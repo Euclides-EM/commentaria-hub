@@ -1,29 +1,23 @@
-<!-- Running title: DATA -->
+<!-- Page number: 560 -->
 
-<!-- Page number: 557 -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-### Aliter.
+magnitudine datur igitur d f e triangulum specie. Et quoniam bina triangula a b c,d e f unum angulum uni angulo æquum habent eum scilicet qui sub b a c,ei qui sub d f e,ea uero quæ circum eos qui sub b a c,d f e,angulos latera proportionalia,simile igitur est & æquale per primam diffinitionem & 6 propositionem sexti elementorum triangulũ a b c ipsi d e f triangulo. Datur autem d f e,specie,datur igitur & a b c triangulum specie
 
-In parallelos siquidem positione datas a b, c d, à dato signo e, recta linea agatur f e g. Dico quod ipsius g e ad e f ratio data est: excitetur siquidem ab e signo per duodecimam primi elementorum in ipsam c d, perpendicularis e h, & extendatur in k. Quoniam à dato signo e in positione datam rectam lineam c d, recta lineā acta est efficiens angulum qui sub e h g, positione igitur est ipse h e a, positione autem & utraq̃ ipsarum a b, c d. Datum igitur est utrunque ipsorum h k, signorum, est autem & e datum. Data igitur est utraque ipsarum h e, e ad k. Ratio igitur ipsius h e ad e k data: sicut autem h e, ad e k, sic g e ad e f. Ratio igitur & ipsius g e ad e f data est.
+## Theorema 42 Propositio 42
 
-[Diagram: two horizontal parallels, a f k b above and c h g d below, crossed at e by transversal f e g and perpendicular k e h]
+SI trianguli latera adinuicem rationem habuerint datam,datur triangulum specie.
 
-## Theorema 35 Propositio 35
+Triãguli enim a b c,latera adinuicem rationem habeant datam. Dico quod ipsum a b c,triangulũ datur specie:exponatur enim data magnitudine recta linea d,& quoniã ratio ipsius a b,ad b c data est. Eadem eidem fiat ipsius d ad e. Data autem d. Data igitur & e. Rursus quoniã ratio ipsiꝰ b c,ad a b data est,eadem eidem fiat ipsius e ad f. Data autẽ e data igitur & f,& ex tribus rectis lineis quæ æquales sunt tribus datis d e f,quarum binæ reliqua quomodocunque assumptæ sunt maiores,per 22 primi elementorum triangulum constituatur g h k. Quoniam æqualis est d ipsi g h,& e ipsi h k & f ipsi g k, Data autem unaqueq̃ ipsarum d e f. Data igitur & unaqueque ipsarum g h,h k,k g magnitudine. Datur igitur triangulũ g h k, specie,& quoniam est sicut a b ad b c,sic est d ad e. Aequalis autẽ est d ipsi g h,& e ipsi h k:est igitur sicut a b ad b c, sic g h ad h k. Rursus quoniam est sicut b c ad c a sic e ad f. Aequalis autem est e ipsi h k:& f ipsi g k. Est igitur sicut b c ad c a sic h k ad k g. Ostensum autem est sicut a b ad b c,sic g h ad h k,ex æquali igitur per 22 quinti elemẽtorum,sicut b a ad a c,sic g h ad g k. Simile igitur est per primam diffinitionem 6 elementorum a b c triangulum ipsi g h k triangulo. Datur autem g h k triangulum specie. Datur igitur & a b c triangulum specie.
 
-SI à dato signo in positione datā rectam lineam, recta linea acta fuerit & secta fuerit in datam rationem, & per sectionem ad positionem datam rectā lineam recta linea acta fuerit, datur acta positione.
+[Diagram: triangle with apex a and base corners c, b; below it a second triangle with apex g and base corners k, b (for h); below these, three horizontal lines labelled d, e, f]
 
-A dato siquidem signo a in positione datam rectam lineam c b, recta linea agatur à d seceturq̃ per præcedentem in datam rationem ipsius d e, e a. Exciteturq̃ per trigesimamprimā primi elemen. per e signum ipsi b c parallelos f e g. Dico quod positione est ipsa f e g. Excitetur enim per duodecimam primi elemētorum ab ipso a in ipsam b c, perpendicularis a h, quoniā à dato signo a in positiōe datam rectam lineam b c, recta excitatur linea a h, datū efficiens angulum qui sub a h d, positione igitur est per trigesimamprimam propositionē ipsa a h, positione autem & b c. Datum igitur h signum. Est autem & a datum. Data igitur est per uigesimamsextam propositionem & a h. Et quōniam ratio ipsius d e ad e a, data est: sicut autem d e ad e a, sic h k ad k a. Ratio igitur & ipsius h k ad k a, data est. Componendo igitur per decimamoctauā quinti elementorū: ratio ipsius h a ad a k, data est, data autem ipsa a h, data igitur & a k. Sed & positione, estq̃ a datum, datum igitur & k. Quoniā igitur per datum signum k, ad positione datam rectam lineam b c, recta linea excitatur f g, positione igitur est per 28 propositionem ipsa & f g.
+## Theorema 43 Propositio 43
 
-[Diagram: point a above; horizontal line g k e f through k and e; base line c h d b below; lines drawn from a through e to d and from a through k to h]
+SI trianguli rectanguli circa unum acutorum angulorum latera adinuicem rationem habuerint datam, datur triangulum specie.
 
-## Theorema 36 Propositio 36
+Trianguli enim rectanguli a b c,rectum habentis eum qui sub b a c,angulum,circa unum acutorum eiusdem angulorũ qui sub a b c latera c b,b a,adinuicem rationem habeãt datam. Dico quod ipsum a b c,triangulum datur specie. Exponatur enim positione & magnitudine data recta linea d e. Describaturq̃ super d e semicirculus d g e,positione igitur est d g e semicirculus,& quoniam ratio ipsius c b ad b a,data est, eadem eidem fiat ipsius d e ad f. Ratio igitur ipsius d e ad f data est. Data autem d e,data igitur & f & quoniam maior est c b ipsa b a,maior igitur est & e d,ipsa f. Congruat ipsi f per primam quarti elementorum,d g,connectaturque g e & centro quidem d,interuallo autem d g, per tertium postulatum circulus describatur h g k , positione igitur est circulus h g k. Datur enim ipsius centrũ positiõe,& quæ ex centro magnitudine,positione autem & d g e,semicirculus datũ igitur est & g signum,est autem utrunque ipsorum d e,datum. Data igitur est , per uigesimamsextam propositionem unaquæque ipsarum g d,d e.e g,positione & magnitudine. Datur igitur triangulum g d e specie. Quoniam igitur bina triangula sunt a b c,d e g unum angulum uni angulo æquum habentia. eum scilicet qui sub b a c,ei qui sub d g e. Circum uero alios angulos qui sub c b a;e d g. latera proportionalia. Reliquorum autem qui sub b c a,d e g, utrumque simul minorem recto. Simile igitur est per septimam sexti elemen. triãgulum a b c ipsi d e g, triãgu
 
-SI à dato signo in positione datam rectam lineam recta linea acta fuerit, proiectaque fuerit eidem aliqua recta linea rationem habens ad eandem datam, ac per proiectæ finem ad positione datam rectam lineā linea acta fuerit, datur acta positione.
+[Diagram: a large circle with points g, b, e, k, d marked; a semicircle described on e d with vertex g joined to e and d; a short line labelled f below at left; beside it a small triangle with vertices a, c, b]
 
-A dato enim signo a in positione datam rectam lineam b c, recta agatur linea a d, & apponatur ipsi a d ipsa a e, rationem habens ad a d datam, ac per e, per 31 primi elemen. ipsi b c parallelus excitetur f k. Dico quod positione est ipsa f k, excitetur per duodecimam primi elementorum ab ipso a in b c, perpēdicularis a h, extendaturq̃ in g. Quoniā à dato signo a in positione datam rectam lineam b c, recta excitata est linea a h, datum efficiens angulum a h c, positione igitur datur per 31 propositionem h a g, positione autem & b c. Datum igitur est h signum, est autem & a datum. Data igitur est ipsa a h per 26 propositionem. Et quoniam ratio ipsius d a ad a e, data est, sicut autem d a, e, sic h a ad a g. Ratio igitur & ipsius h a ad a g, data est, data autem h a. Data igitur & a g, sed & positione, estq̃ a datum, datum igitur & g. Quoniam igitur per datum signum g ad positiōe datā rectam lineam b c, recta excitatur linea f g k, positione igitur est per 28 propositionem ipsa f g k.
-
-[Diagram: line b c and parallel line f k; point a between them; transversal a d and extension to e; perpendicular h a extended to g; labels c, k above, e, b, a, g in the middle, d, f, b below]
-
-<!-- Signature: Aa 3 -->
-
-<!-- Catchword: Theore -->
+<!-- Catchword: lo -->

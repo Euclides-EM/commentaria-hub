@@ -1,25 +1,31 @@
-<!-- Running title: LIBER VNDECIMVS. -->
+<!-- Page number: 384 -->
 
-<!-- Page number: 383 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-cōstituatur angulus solidus æqualis angulo solido a,secundū quod docet 26 lineæq̃ cæteræ solidū angulum b cōtinentes resecētur ad æqualitatem lineæ b c,& perficiatur solidum æquidistātiū superficierū cuius lōgitudo,latitudo,& altitudo sit linea b c,& ipsum appelletur b c.Dico itaque duo solida a d & b c esse æqualia.Menifestū{printer-error-correction:Manifestū} est enim, quod cūctæ superficies unius sunt æquiāgulæ suis relatiuis superficiebus alterius. Quod ex 34 primi patere potest,nā cū solidus angulus b ponatur æqualis solido angulo a, necesse est ut unus angulus uniuscuiusque superficiei solidi a d sit æqualis uni angulo suæ relatiuæ superficiei in solido b c.itaque per 34 primi eorū oppositi,erūt æquales. At quia uniuscuiusque superficiei quadrilateræ omnes anguli sūt æquales quatuor rectis ex 32 primi,necesse est duos reliquos unius esse æquales duobus reliquis suæ relatiuæ.Cūq̃ ipsi duo reliqui in qualibet sint etiā adinuicē æquales, conuincitur necessario ut unaquæq̃ ex superficiebus solidi a d sit æquiangula suæ relatiuæ in solido b c, quare ex secunda parte 15 sexti bases duorū solidū propositorū erunt æquales: sunt enim æquiāgulæ & laterū mutuorū.Si itaque lineæ altitudinum super bases ipsorū orthogonaliter insistunt,constat ex 31 ipsa esse æqualia,cum enim hæ lineæ sint æquales & ipsæ determinent altitudinē solidorū,erunt solida æque alta.At si lineæ altitudinum ipsorum non insistunt suis basibus orthogonaliter,ab ipsarum summitatibus ad bases perpendicularibus demissis,erūt ex præmissa hæ perpendiculares adinuicem æquales,ipsæ enim erunt,sicut erant & in præmissæ demonstratiōis figura duæ lineæ p q & l n,quas demōstrauimus oportere esse æquales.Quia igitur omnium solidorū altitudo ex perpendicularibus à sūmitatibus ipsorū ad suas bases descēdentibus diffinitur,erūt ex 32 duo solida a d & c b æqualia. Conuersam quoq̃ huius possumus,si delectat,cōuerso modo probare. Vt si parallelogrāmū corpus a d sit æquale & æquiangulū corpori parallelogrāmo b c,& corpus b c cōtineatur à media triū linearū cōtinentiū corpus a d,erunt tres lineæ cōtinentes corpus a b cōtinue proportionales.Cum enim duo solida parallelogramma a d & c b sint æqualia & æque alta,ex hypothesi ipsa erunt super bases æquales per conuersas 331{printer-error-correction:31} & 32.Et quia ipsæ bases eorum sunt æquiāgulæ,sequitur ex prima parte 15 sexti quod ipsæ sunt mutuorum laterum.Itaque proportio a b ad b c,sicut b c ad c d.Quare constat propositum.
+tes cum ijs quæ in principio rectis lineis alterum alteri. ipsæ igitur quæ ex κ, ξ. signis perpendiculares ductæ ad ea quæ per ν λ μ, δ ε ζ, plana, (per corollariū præcedentis) inuicem sunt æquales. Quare λ θ, ε κ, solida, sub eadem sunt altitudine. Super æqualibus autē basibus & sub eisdē altitudinis constituta solida parallelepipeda, inuicem sunt æqualia (pea{printer-error-correction:per} 31 undecimi.) Igitur solidum θ λ, solido ε κ est æquale. At λ θ, solidū, est ex ipsis α. β, γ, & ε κ, solidū est ex β. Igitur quod ex α, β γ, solidum parallelepipedum, æquum est ei quod ex β solido æquilatero quidem, sed æquiangulo prædicto. Quod erat ostendendum.
 
-[Diagram: three line segments — a to b, b to c, c to d]
-
-[Diagram: two parallelepipeds side by side; the left with point labels d, c, a, b; the right with point labels c, d, b, c]
-
-## Eucli.ex Zamb. Theorema 31 Propositio 36
+## Eucli. ex Camp. Propositio 39
 
 [Margin]
-36
+39
 [/Margin]
 
-## Si tres rectæ lineæ proportionales fuerint,ex ipsis tribus rectis lineis solidū parallelepipedū æquū est ei qd̕ ex media fit solido parallelepipedo æquilatero quidem,æquiangulo autē prædicto.
+SI fuerint quotlibet lineæ proportionales, solida quoque sua æquidistantium atque similium uniuscuiusque creationis superficierū erunt proportionalia. Si uero solida æquidistantium atque similium uniuscuiusque creationis superficierum fuerint proportionalia, lineæ quoque à quibus ipsa solida continentur, erunt proportionales.
 
-[Diagram: three line segments labelled α, β, γ]
+CAMPANVS Simile proponit uigesima prima sexti de superficiebus. Sint itaq̃ quatuor lineæ a, b, & c, d, proportionales, & super has fabricentur quatuor solida parallelogramma eisdē nominibus dicta, quæ sint expresse similia, duobus enim ad libitum fabricatis super duas lineas a & c, cætera secūdum præcepta 27 constituenda erūt. Dico hæc 4 solida esse proportionalia. Et econuerso. Subiūgantur enim duabus lineis a & b: in cōtinua proportiōe duæ quæ sunt e & f, quemadmodū docet 10 sexti, & duabus lineis c & d, aliæ duæ quæ sint g & h. Cōstat igitur ex 36 & ex diffinitione proportionis triplicatæ quæ posita est in principio quinti, & ex hac hypothesi ꝙ solida a & b sibi inuicē & solida c & d sibi adinuicē sunt expresse similia: ꝙ ꝓportio solidi a ad solidum b est sicut ꝓportio lineæ a ad lineā f: solidi quoq̃ c ad solidū d, sicut lineæ c ad lineā h. Et quia p̱ 22 quinti ꝓportio lineæ a ad lineā f est sicut lineæ c ad lineā h, erit ex 11 quinti solidū a ad solidū b, sicut solidū c ad solidū d. Cōstat igitur prima pars. Secunda sic, Sint duo solida a & b sibi adinuicē. duoq̃ alia quæ sint c & d, sibi adinuicē expresse similia, sintq̃ cuncta parallelogramma, & ponantur proportionalia. Dico quod lineæ a, b, & c, d, super quas sunt constituta, sunt proportionales. Sit enim ex 10 sexti sicut linea a ad lineā b, ita linea c ad lineam k. Et fiat secundū 27 huius super lineam K solidum expresse simile solido d, quod etiā dicatur k. Eritq̃ ex diffinitionibus similiū corporū & similium superficierum, & 20 sexti, corpus K expresse simile corpori c, ideoq̃ per primam partem huius 39 iam probatam erit proportio solidi a ad solidū b, sicut solidi c ad solidū K. Et quia eadē erat solidi c ad solidū d, erit ex secunda parte nonæ quinti solidū K æquale solido d. Cūq̃ esset sibi expresse simile, sequitur lineā k esse æqualem lineæ d. Aequalitas enim nō producitur ex aliqua proportione triplicata uel quotieslibet sumpta, nisi ex æquali. Igitur ex secunda parte 7 quinti constat etiā huiusmodi pars secunda. Deciperis autē si arbitraris oportere unumquodq̃ quatuor solidorū a, b, c, d, esse simile cuilibet aliorū. Necesse est enim duo solida a & b sibi adinuicem, itēq̃ duo c & d sibi adinuicem esse similia. solida autem c & d solidis a & b esse similia contingens est, necessariū autem non. Idem ex hac 39 de serratilibus facile poteris concludere.
 
-THEON ex Zamb. Sint tres rectæ lineæ proportionales α,β,γ sicut α,ad β,sic β ad γ.Dico quod ex α,β,γ,solidum,æquū est ei quod ex β solido æquilatero quidē æquiangulo autē prædicto. Exponatur(per 23 undecimi)solidus angulus qui ad ε.comprehensus sub tribus angulis planis hoc est δ ε η,η ε ζ,ζ ε δ,ponaturq̃; (per 2 primi,) ipsi quidē β,æqualis unaquæq̃; ipsarum δ ε,η ε,ε ζ, compleaturq̃; ipsum ε κ,solidum.Ipsi autē α,æqualis esto(per eandem λ μ),cōstituaturq̃; (per 26 undecimi)ad ipsam λ μ rectam lineam ad signūq̃; in ea λ,ipsi qui ad ε solido angulo æquus comprehensus sub ν λ ξ, ξ λ μ,ν λ μ,ponaturq̃;(per 2 primi)ipsi quidem β æqualis λ ξ,ipsi autē γ æqualis λ ν.Et quoniam est sicut α ad β,sic est β ad γ, æqualis autem est α ipsi λ μ,& β unicuiq̃; ipsarū λ ξ,ε ζ,ε η,ε δ,& γ ipsi λ ν,est igitur λ μ ad ε ζ.sic est δ ε ad λ ν,& circū æquos angulos qui sub μ λ ν δ ε ζ.latera sunt reciproca.Igitur parallelogrammum μ ν, æquum est ipsi δ ζ,parallelogrammo(per 14 sexti.Et quoniā bini anguli plani rectilinei æquales sunt, qui sub δ ε ζ,ν λ μ, super ipsis sublimes rectæ lineæ sunt cōstitutæ λ ξ,ε η,inuicē æquales(per præcedentē,)æquos angulos cōprehēden
+[Diagram: two horizontal line segments labelled e and f, above two parallelepipeds labelled a and b]
 
-[Diagram: two parallelepipeds with Greek point labels — left solid with θ, ν, μ, λ; right solid with κ, δ, η, ε, ζ]
+[Diagram: two horizontal line segments labelled g and h, above two parallelepipeds labelled c and d]
 
-<!-- Catchword: tes. -->
+[Diagram: a parallelepiped labelled K]
+
+## Eucli. ex Zamb. Theorema 32 Propositio 37
+
+[Margin]
+37
+[/Margin]
+
+Si quatuor rectæ lineæ proportionales fuerint, & quæ ex ipsis solida palelepipeda{printer-error-correction:parallelepipeda} similia similiterq̃ descripta proportionalia erunt. Et si quæ ex
+
+<!-- Catchword: ipsis -->

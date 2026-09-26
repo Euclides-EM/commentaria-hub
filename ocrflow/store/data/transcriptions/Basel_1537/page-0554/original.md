@@ -1,23 +1,55 @@
-<!-- Running title: DATA -->
+<!-- Running title: EVLCIDIS MEGARENSIS{printer-error-correction:EVCLIDIS} -->
 
-<!-- Page number: 543 -->
+<!-- Page number: 544 -->
 
-test. dispositionē huiusmodi difflauit. factum nāq̃ est ut cū me accingerē ut ipsius Euclidis opera seponerē, ecce ut euenire solet, ad manus ipsius Euclidis data peruenerūt, opus sane præter id quod iucūdum studentibus etiam necessariū, quādoquidē ex eo facillime datur intelligi, quod toties Euclides ipse in elementis datum appellat. Quod opus quoniā pulchrū, utile, necessariū, scitu iucundū, & quia ex hijs laqueis mathematicis me eximere, nescio, tum quoniam hucusq̃ latinis ignotū extitit. latinū id à me propterea faciendum esse censui, tuoq̃ nomini humanissime philosophe destinandum. Eo sane argumento ut meā erga te obseruātiam, amorēq̃ singularē inde cognosceres. Tū quoniā cū hisce diebus triūuiratū. Rei. pu. patrocinatorijq̃ ageres, magistratum sane in ciuitate grauissimū, à quo sicut uirtutes benignissime fouentur, sic uitia & scelera seuerissime uindicātur, quē cū per pauculos dies mira integritate, sed miranda te adeuntiū satisfactione exercueris, & adeo ut Brixiēsiū præfectus omnium pene comitiorū suffragijs designatus extiteris, tu te meo patri nescio qua liberalitate te me uel libenter cognoscere uelle dixisti. Cognosces igitur me, & quid tui uetustissimi mācipiū, quale uero quis nescit, ineruditū, indoctū, incultū, philosophū tamē, & eū qui diuini Platonis decreta auidissime sequi cupiat. ita tamē ut quādoq̃ uelut trāsfuga & explorator castra philosophātiū petat. Sed quoniā si uelis binas lōge inæquales magnitudines cōponere: id, inquā, haud facile factu tibi fuerit, nisi medius quidā sit, ppositus limes quo analogico medio extrema cōueniant, coalescant, seq̃ mutuo pulsent. Nā si sexdecim ad quaternariū cōparare uolueris quippe quoniā lōge distāt, medio indigent: octonario sane, ad quē ea sexdecim habēt, quā ipse ad quatuor habitudinē, dupla quidē. Sed quoniā bini dupli quaternarij cōficiūt, ex ea igitur analogia ipsorū sexdecim, ad octo, & octo ad quatuor, ea scatet rō quadrupla qua & sexdecim, & quatuor reuinciūtur. Quod cū ita sese habeat, cū mea paruitas tuæ magnitudini nulla ex parte cohereat, fuit igitur medium adhibendū, quo hijs uir clarissime fuisset satisfactū, & id sane q̃ tuæ illi rarissimæ doctrinæ correspōderet. Data igitur ipsius Euclidis ea erūt quibus me cognosces, quibus meā erga te fidē, & obseruātiā magnitudinem intueberis. Quæ cū in præsentia græca ueste reposita, latina induta sint, te petūt, te adeūt, te uir doctissime uidere gestiunt, tuoq̃ sublimi iudicio comprobata, sub tuo nomine in manus studentiū uenire cupiunt. Tantū igitur hospitem philosophe præstantissime hilari fronte serenoq̃ uultu accipies, & eo sane quo uiros doctos aspicere, & tibi beneuolentia deuincire soles. Verū quoniā priscorū fuit cōsuetudo ut maximos uiros absque munere adire nulli liceret, id propterea, tibi nō orientaliū gēmas: non Arabū munera uulgo præciosa, non id quod plures hominū preclarissimū bonū existimāt, aurū scilicet, nō id demū quod paruo tēporis interuallo exiguo nutu fortunæ euanescit afferimus. id quoniā tibi tradere conamur quod rarissimum sit, idq̃ propterea omni thesauro fœlicisq̃ Arabiæ ditissimis muneribus lōge preciosius, lōgeq̃ preclarius, hæc igitur nostra tibi erūt tradita munera, quæ si talia fuerint, quæ tua excelsū  doctrina amplexetur, tuū illud ferax ingenij benigne foueat. Curabimus nostris laboribus, præclaris illorum ueterū operibus, & huic nostræ ætati ignotis nomen tuū illustrare, ut tu multis annis etiā post mortē uiuere possis. Sed hoc iam satis est, hoc libello, iam peruenimus usq̃ ad umbilicū, lōgaq̃ nimis ac inculta oratione, quæ ne quā par est prolixior euadat, iam te ad sublimē datorum doctrinā philosophe doctissime transmittā. Valeas æternū philosophantiū exemplar rarissimū. Venetijs. M. D. V. VIII. ID. Sextilis.
+## Diffinitio quarta.
 
-# EVCLIDIS MEGARENSIS PHILOSOPHI PLATOnici mathematiciq̃ præstantissimi Incipit liber Datorum ex traditione Pappi Bartholomæo Zamberto Veneto interprete.
+Positione dari dicuntur signa, lineæ, & anguli, quæ eundē semper locum obtinent.
 
-## {dropcap:D|lines=?|style=decorated}iffinitio prima.
+## Diffinitio quinta.
 
-DATA magnitudine dicitur areæ lineæ, & anguli quibus æqualia possumus exhibere.
+Circulus magnitudine dari dicitur, cuius quæ ex centro magnitudine datur.
 
-## Diffinitio secunda.
+## Diffinitio sexta.
 
-Ratio dati dicitur cui eandem possumus exhibere.
+Positione magnitudineq̃ circulus dari dicitur, cuius centrū positiōe datur, ea quæq̃ ex centro magnitudine.
 
-## Diffinitio tertia.
+## Diffinitio septima.
 
-Rectilineæ figuræ specie dari dicuntur, quarū anguli dati sunt ad unum, & laterum rationes adinuicem datæ.
+Segmenta circuli magnitudine dari dicūtur, in quibus anguli dati sunt, & segmentorum bases magnitudine.
 
-<!-- Signature: Z 2 -->
+## Diffinitio octaua.
 
-<!-- Catchword: Diffinitio -->
+Positione & magnitudine segmenta dari dicuntur, in quibus & anguli dati sunt magnitudine, & bases segmentorum positione & magnitudine.
+
+## Diffinitio nona.
+
+Magnitudo magnitudine dato maior est, quando sublato dato, reliquū eidē æquū fuerit.
+
+## Diffinitio decima
+
+Magnitudo magnitudine dato minor est, quando adiecto dato, totū eidem æquum fuerit.
+
+## Diffinitio undecima.
+
+Magnitudo magnitudine dato maior est quā in ratione, quādo ablato dato reliquū ad idem rationem datam habuerit.
+
+## Diffinitio duodecima.
+
+Magnitudo magnitudine dato minor est quàm in ratione, quādo apposito dato reliquum ad idem rationem habuerit datam.
+
+## Diffinitio decimatertia.
+
+Producta est quæ à dato signo in positione rectam lineam acta recta linea in datum angulum, uel in datum signum.
+
+## Diffinitio decimaquarta.
+
+Reducta quæ à dato signo ad positionē rectam lineā, recta linea in angulo dato acta est.
+
+## Diffinitio decimaquinta.
+
+Appositione est quæ per datum signum positione rectæ lineæ parallelus acta est.
+
+## Interpres
+
+Quoniam in eo uolumine ex quo Data huiusmodi transcripsimus, in latinumq̃ conuertimus, quod sane uetustissimū est, nōnullas adiectiōes cōperimus, quæ licet breues & cōcisæ sint, quoniā ad datorū intelligentiá plurimū conferunt, ut sese habēt sic eas sumus interpretati, studētes uero iudicabūt. Apud græcos id obseruatum, inquā, inuenimus, ut nō omnes interpretatiōes autorū scribant aut cōficiant, sed hij tantū qui inter autores nominari possint, ut fuerunt homerici & pyndarici interpretes, & alij plures uiri sane grauissimi in disciplinis humanioribus. Itidē quoq̃ in physiologicis ut sunt interpretes Aristotelici, Ammonius, Alexander, Ioannes grā. Themistius, & Platonici, sic etiā in mathematicis, ut Theon, Hypsicles, Pappus, Heron Alexandrinus, Proclus Lycius qui in Euclidē scripserūt, factūq̃ est id propterea ut apud Græcos nō uideamus ista immensa nugarū uolumina, quorū nos latini pleni sumus. Videmus enim unūquēque autorē tribus & quatuor cōmentationibus esse nō interpretatū, sed laceratum, & adeo ut crebro studentes nesciāt ubi nā sit incipiendū, quippe quoniā sunt adeo nugis & laruis nescio quibus obsiti, ut cæcutiētes in tenebris ambulent, illud, inquā, Horatianū si unquā nūc mirū in modū uerū est, nā scribimus indocti doctiq̃ poëmata passim, nolim tamen detrahere famæ & autoritati. Seruij, Acronis, Porphyrij, Donati, Lactantij grauissimorum autorū, qui linguā latinam illustrarūt, de illis uero alijs quid dicendum supersit ignoramus. Ecce etiā plurima uideas opuscula in grāmaticis composita quæ in eū creuerunt numerū ut studentes superauerint. Miramur plurimum quod in hac nostra ætate tāta sit audacia, ut quasi Priscianus, Diomedes, Agretius, Phocas, Donatus, & alij autores grauissimi non satis exquisite ea quæ in grāmaticis erant dicenda conscripserint, nescio qui insurrexerint conantes ut suæ nugæ neglectis autoribus bonis legantur, & hijs assuescant adolescentes, qui hijs nugis cura præceptorum iudicio carentium studentes scholis ignorantissimi exeunt, sed hos iam missos faciamus cū cuilibet audēdi semper æqua fuerit potestas, redeamusq̃ ad rem nostram. Vbicūq̃ igitur in datorum theorematibus lector humanissime uidebis aliqua dicta per Scholium, ea omnia ex græcis adiectionibus sumpta esse censeto. Ea enim à græcis scholia nuncupātur, quæ à nobis latine postilla dicuntur.

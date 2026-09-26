@@ -1,41 +1,47 @@
-<!-- Running title: LIBER SEXTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 145 -->
+<!-- Page number: 146 -->
 
-## CORRELARIVM
+neas e a & e d, eritque per 30 tertij, angulus e totalis: rectus, quare per primam partem correlarij præmissæ, proportio a b ad b e, sicut b e ad b d, quod est propositum.
 
-Vnde etiam manifestum est, quia in omni triangulo rectangulo, si ab eius angulo recto ad basin perpendicularis ducatur, erit ipsa perpendicularis inter duas sectiones ipsius basis proportionalis. Itemq̃ utrumq̃ latus inter totam basin atque sibi conterminalem basis portionem.
-
-CAMPANVS. Sit trigonus a b c, orthogonus, eiusque angulus a, rectus, à quo ducatur a d perpendicularis ad basin, dico quod uterque duorum triangulorum partialium qui sunt a b d, a d c, similis est totali triangulo a b c, & unus eorum alteri: est enim uterque ipsorum æquiãgulus totali per 32 primi, eo quod uterque est orthogonius & in uno angulo cõmunicat cum totali, quare & sibi inuicem sunt æquianguli, ita quod angulus b est æqualis angulo d a c. & angulus b a d, angulo c, & duo anguli qui sunt ad d, sibijnuicem & angulo a totali æquales, quare per 4 huius latera æquos eorum angulorum angulos respicientia: sunt proportiõalia, ergo per diffinitionem sunt similes, quod est propositum. Vtrumq̃ correlarium ex his euidenter apparet.
-
-[Diagram: right triangle with apex a, base from b to c, perpendicular a d drawn from a to foot d on the base between b and c]
-
-## Eucli. ex Zamb. — Theorema 8 — Propositio 8
+## Eucli. ex Camp. — Propositio 10
 
 [Margin]
-8
+10
 [/Margin]
 
-## Si in triangulo rectangulo ab angulo recto in basin perpendicularis agatur, quæ ad perpendicularem triangula, similia sunt toti & adinuicem.
+## Duabus lineis datis, tertiam eis in continua proportionalitate subiungere.
 
-THEON ex Zamb. Sit triangulum rectangulum α β γ, rectum habens eum qui sub β α γ, angulum, & excitetur (per 12 primi) ab α, in β γ, perpendicularis α δ. Dico quod simile est utrumque ipsorum α β δ, & α δ γ, triangulorum, toti α β γ, & insuper adinuicem. Quoniam enim (per 4 postulatum.) æqualis est angulus β α γ, angulo α δ β, rectus enim uterque est, communis autem est ipsorum duorum triangulorum α β γ, & α β δ, angulus qui ad β, reliquus igitur angulus α γ β, reliquo β α δ, est æqualis (per 32 primi. Aequiangulum igitur est triangulum α β γ, triangulo α β δ. Est igitur (per 4 sexti) sicut γ β, subtendens angulum rectum, α β γ. trianguli ad β α, subtendentem rectum angulum ipsius α β δ, trianguli, sic eadem α β, subtendens angulum qui ad γ, trianguli α β γ, ad β δ. subtendentem æqualem angulum β α δ, ipsius α β δ, trianguli, & insuper α γ, ad α δ, subtendentem angulum qui ad β, communem duorum triangulorum. Triangulum igitur α β γ, triangulo α β δ, æquiangulum est (per 7 sexti) & quæ circum æquales angulos sunt, latera proportionalia habet. Simile igitur est triangulum α β γ, triangulo α β δ, (per 1 diffinitionem sexti. Similiter iam ostendemus quod & triangulo α δ γ, simile est triangulum α β γ, utrumque igitur ipsorum α β δ, & α δ γ, triangulorum simile est toti α β γ. Dico etiam quod & adinuicẽ sunt similia: triangula α β δ, & α δ γ, Quoniam enim rectus angulus β δ α, recto angulo α δ γ, est æqualis (per 4 postulatum) sed & angulus, β α δ ei qui ad γ ostensum est quod est æqualis: reliquus igitur qui ad β, reliquo qui sub δ α γ, est æqualis.. Aequiangulum igitur est triangulum α β δ, triangulo α δ γ, est igitur sicut β δ, ipsius α β δ, trianguli subtendens angulum qui sub β α δ, ad δ α ipsius α δ γ, trianguli subtendentẽ angulũ qui ad γ, æqualem ei qui sub β α δ, sic ipsa α δ, trianguli α β δ, subtendens angulum qui ad β, ad δ γ, subtendentẽ angulũ qui sub δ α γ, ipsius trianguli α δ γ, æqualem ei qui ad β, & insuper β α ad α γ, subtendens rectos angulos. Simile igitur est triangulum α β δ, triangulo α δ γ. Si in rectangulo triangulo igitur ab angulo recto in basin perpendicularis agatur, triangula quæ circum perpendicularem similia sunt toti & adinuicem, quod demonstrasse oportuit.
+CAMPANVS Sint duæ lineæ propositæ a b & c: quibus uolo tertiam in continua proportionalitate subiungere. Coniungo lineam c angulariter ut contingit, cum linea a b. sitq̃ a d: ei æqualis. & produco lineã a b usque ad e: donec fiat b e æqualis a d. & protracta linea b d: a puncto e duco lineam sibi æquidistantem. quam & lineã a d: produco quousque concurrant in puncto f, dico igitur lineam d f, esse quam quærimus. est enim per secundã huius, proportio a b ad b e: sicut a d ad d f, ed a ab ad b e: est sicut a b ad a d per 2 partem 7 quinti. quare a b ad a d: sicut a d ad d f. quod est propositum.
 
-[Diagram: right triangle with apex α, base from β to γ, perpendicular α δ drawn to foot δ on the base near γ]
+[Diagram: horizontal line a b e with slanted line a d f rising from a to f at top right; d on the slant joined to b, the slant produced to f above e; below, a separate horizontal segment labelled c]
 
-CORRELARIVM. Ex hoc manifestum est, quod si in rectangulo triangulo ab angulo recto in basin perpendicularis agatur: acta, ipsius basis segmentis media proportionalis est. Et insuper ipsius basis & uniuscuiusq̃ segmentorum, latus quod ad segmentum, medium proportionale est, quod erat demonstrandum.
+CAMPANI additio. Quod si propositis tribus lineis uelimus inuenire quartam, ad quam sit proportio tertiæ sicut prima ad secundã: ex prima & secunda fiat linea una & toti compositæ tertia angulariter adiungatur, & a communi termino primæ & secũdæ: ducatur linea ad extremitatem tertiæ. & ab altero termino secundæ ducatur huic lineæ æquidistans: quousque concurrat cum tertia in cõtinuum rectũque protracta: eritque per secundam huius, linea quã hæc æquidistans abscindet: quæ quæritur. quẽadmodum si in hac figura fuerit prima a b, secunda b e, tertia a d: erit quarta d f.
 
-## Eucli. ex Camp. — Propositio 9
+## Eucli. ex Camp. — Propositio 11.
 
 [Margin]
-9.
+11
 [/Margin]
 
-## DVabus lineis propositis tertiam inter eas sub proportionalitate continua collocare.
+## AB assignata linea, quotamcumque iubearis, partem abscindere.
 
-CAMPANVS. Sint duæ lineæ propositæ a b & c, inter quas uolo unam lineam in proportionalitate continua collocare. Adiungam unam earum alteri, sitque tota ex eis composita, a d, ita quod b d, sit æqualis c, & super totam describo semicirculum a e d, & produco b e usque ad circũferentiam, perpendicularem ad lineam a d, dico lineam b e, esse quam quærimus, produco enim li
+CAMPANVS Sit a b linea assignata, ab ea uolo aliquotam partem utpote tertiam abscindere, coniungo ei angulariter ut contingit lineam indefinitæ quantitatis: quæ sit a c, a qua reseco tres æquas portiones: quæ sunt a d, d e, & e c, & produco lineas c b & d f: sibi æquidistãtes, dico a f esse tertiam a b, est enim per secundam huius, proportio c d ad d a, sicut b f ad f a, quare cõiunctim, c a ad d a: sicut b a ad f a. Cum igitur c a sit tripla ad d a: patet a f esse tertiam a b, quod est propositum.
 
-[Diagram: semicircle a e d on diameter a d with apex e, chords e a and e d, perpendicular e b to the diameter at b; below the diameter a separate short line segment labelled c]
+[Diagram: triangle with apex a at top, b at bottom left, c at bottom right; f on side a b and d on side a c joined by a line parallel to the base, e on side a c below d]
 
-<!-- Signature: n -->
+## Eucli. ex Camp. — Propositio 12.
 
-<!-- Catchword: neas -->
+[Margin]
+12
+[/Margin]
+
+## DVabus lineis propositis altera indiuisa altera per partes diuisa, indiuisam quidẽ ad modum diuisæ diuidere.
+
+CAMPANVS. Sint duæ lineæ quas angulariter ut cõtinget coniungam a b & a c, sitque a b diuisa in tres uel qualescũque portiones: signatis in ea punctis d & e, uolo secundum easdem portiones diuidere lineam a c, cum igitur ipsas angulariter coniunxero: protraham lineam b c & æquidistantes ei d f & e g, dico istas æquidistantes diuidere lineam a c: in partes proportionales partibus a b, protraham enim f a æquidistãtem a b, quæ secet e g in puncto k, eritque per secundã huius, proportio g f ad f a: sicut e d ad d a. & c g ad g f: situt h k ad k f, quare & sicut b e ad e d per 34 primi. & secundã partem 7 quinti, quod est propositum. Oportet autem secundã huius toties repetere: quot erunt partes lineæ a b, minus una. At uero 34 ptimi & 7 quinti, minus duabus.
+
+[Diagram: right triangle with horizontal base a d e b, vertical side b c at the right, and hypotenuse a c; verticals d f and e g drawn parallel to b c meeting the hypotenuse at f and g; a horizontal line through f crosses e g at k and reaches the side b c at a point labelled b]
+
+Quinque sequentes ex Zamberto Euclidis propositiones, præpostero ordine quatuor ex Campano præcedentibus respondent, nona undecimæ, decima duodecimæ. undecima & duodecima decimæ cũ additione, decimatertia nonæ.
+
+<!-- Catchword: Eucli. -->

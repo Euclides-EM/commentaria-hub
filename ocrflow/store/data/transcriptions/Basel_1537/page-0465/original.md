@@ -1,35 +1,21 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVSQVARTVS -->
 
-<!-- Page number: 454 -->
+<!-- Page number: 455 -->
 
-æquum ei quod fit ex b d in f g. Sed quod fit ex e f, in g e, æquum est quadrato f{printer-error-correction:f g} ex diffinitione lineæ diuisæ secundū proportionem habentem medium duoqꝫ extrema, & ex prima parte 16 sexti, igitur ꝙ fit ex b p{printer-error-correction:b d} in f g est æquale quadrato f g, ideoqꝫ ex prīa sexti linea b d, æqualis f g. Et quia f g est æqualis c b, erit quoqꝫ c b æqualis b d, & latus decagoni. Quod oportebat ostendere.
+dium duoqꝫ extrema. sitqꝫ maior portio eius linea l n. & secūdū quantitatē totius l m lineetur circulus p q. Itaqꝫ semidiameter circuli p q, erit æqualis lineæ l m. eritqꝫ ex correlario 15 quarti, linea l m, tāquā latus hexagoni æquilateri circulo p q inscripti, ideoqꝫ per tertiā huius, linea l n, erit tāquā latus decagoni æquilateri eidē circulo inscripti. Igitur ex 11 quarti inscribatur pētagonus æquilaterus circulo p q, cuius unū latus sit p q. eritqꝫ ex 10 tredecimi libri quadratū lineæ p q, æquale quadratis duarū linearū l m & l n. pariter acceptis. Cōstat autē ex demōstratiōe 18 tredecimi, quod n K{printer-error-correction:h K} est æqualis p, q ergo quadratū h K, est æquale quadratis duarū linearū l m & l n pariter acceptis. At uero ex demōstratione 17 tredecimi, manifestū est ꝙ e g latus cubi ab eadē sphæra circunscriptibilis. quare per correlariū 14 tredecimi a b quæ est diameter sphæræ, potentialiter est tripla ad e g quæ est latus cubi. Si autē e g diuidatur secundū ꝓportionē habētē mediū duomque{printer-error-correction:duoque} extrema, patet ex demōstratione tredecimi quod e f est tāquā maior portio eius, igitur ex secunda huius, e g ad l m, sicut e f ad l n, nā ut tota ad totā, sic maior portio ad maiorē. Itaque per 21 sexti quadratū e g ad quadratū l m, sicut quadratū e f ad quadratū l n. quare ꝑ 13 q̄nti, quadrata duarū linearū e g & e f p̃iter accepta, ad quadrata duarū linearū l m & l n, p̃iter accepta, sicut quadratū e g ad quadratū l m. Ergo per 15 quinti & permutatā proportiōalitatē, & æquā, triplū duorum quadratorū duarū linearū e g & e f pariter acceptorum ad quadrata duarū linearū l m & l n, pariter accepta. sicut triplū quadrati e g ad quadratū l m. Triplū aūt quadrati e g, est tanquā quadratū a b ex correlario 14 tredecimi, at quadratum a b, est per hypothesin quincuplū ad quadratū l m. ergo triplum quadrati e g, quincuplū quoqꝫ est quadrati l m. Quare etiā triplū quadratorū duarū linearū e g & e f pariter acceptorum, est quincuplū ad quadrata duarū linearum l m & l n pariter accepta. Et quia probatū est quod quadratum h K est æquale e  quadratis duarum linearum l m & l n pariter acceptis, sequitur ex cōi scientia ut triplū quadratorum e g & e f sit quincuplū ad quadratum h K. Cōstat autē ex 8 tredecimi, quod quincuplum quadrati h K est quindecuplū ad quadratū d k, nā simplum est triplū. Et ex quarta huius cōstat, quod triplū quadratorū e g & e f, est quindecuplū quadrati e f, nā simplum est quincuplum. Itaqꝫ quindecuplū quadrati c f est æquale quindecuplo quadrati d K, ideoqꝫ per 15 quinti quadratum c f, est æquale quadrato d K, quare etiā linea c f, est æqualis lineæ d K. Ergo ex diffinitiōe circulorū æqualium, circulus circunscribēs pētagonum c, est æqualis circulo circūscribenti trigonum, nā semidiametri horum circulorum sunt æquales, uidelicet c f & d K quod erat ex principio demonstrandum.
 
-## Eucli.ex Camp. Propositio 4
+[Diagram: two horizontal lines: the upper marked a at the left end and b at the right end; the lower, shorter line marked with n and m (the point l at its left end)]
 
-[Margin]
-4
-[/Margin]
+[Diagram: circle with an inscribed equilateral triangle, its apex k at the top joined by a vertical line to the centre d; a further vertex labelled h at the lower right]
 
-{dropcap:Q|lines=?|style=decorated}Vadratum lateris pētagoni intra circulum descripti. quadratūqꝫ lineæ quæ illus{printer-error-correction:illius} pentagoni angulo subtenditur, ambo hæc quadrata pariter accepta, quadrati medietatis diametri eiusdem circuli quincuplum esse pronuncio,
+[Diagram: circle with an inscribed pentagon, the vertex q at the top joined by a vertical line to the centre, and p at the left]
 
-CAMPANVS Sit in circulo a b c cuius centrum d, inscriptus unus pentagonus æquilaterus cuius unū latus sit a b, & protrahatur diameter c d e. diuidens lineā a b & eius arcū per æqualia. Est igitur arcus a e medietas quintæ partis circunferentiæ illius circuli, quare arcus a c est duæ quintæ totius circunferentiæ. Protrahantur itaque duæ lineæ a e & a c, eritque a e latus decagoni æquilateri. eo quod eius arcus est medietas quintæ partis circunferentiæ, linea uero a c, erit quæ subtēditur uni ex angulis pentagoni prædicti, eo quod arcus a c est duæ quintæ partes circunferentiæ circuli Dico itaque quod quadrata duarum linearum a b & a c pariter accepta, quincuplum sunt ad quadratum lineæ d e. Est enim ex 4 secūdi quadratum lineæ c e, quadruplū ad quadratum lineæ d e. Cum aūt angulus c a e sit rectus ex prima parte 30 tertij, erūtque ex penultima primi quadrata duarū linearū c a & a e quadruplum ad quadratū d c{printer-error-correction:d e}. igitur quadrata trium linearū c a & a e & d e, quincuplum sunt ad quadratū lineæ d e. Et quia ex 10 tredecimi quadratum a b est æquale quadratis duarū linearū a e & d e, sequitur ut quadrata duarū linearū a b & e a{printer-error-correction:c a} sint quincuplum ad quadratū d e, quod est propositum.
+## Eucli.ex Camp. Propositio 6
 
-[Diagram: circle with an inscribed pentagon whose uppermost side is a b (a at the left, b at the right); the vertical diameter runs from e at the top, through the centre d, to the bottom of the circle; lines join a to e and a to the opposite vertex]
+{dropcap:Q|lines=?|style=decorated}Vadratum quoqꝫ quod est triangulum alias trigincuplum tetragoni qui sub perpēdiculari ducta à centro circuli circunscribentis pentagonū figuræ duodecim basiū ad latus pentagoni, atqꝫ sub latere ipsius pentagoni cōtinetur, oībus superficiebus corꝑis duodecim basiū p̃iter acceptis esse æquale ex necessitate cōuincit.
 
-CORRELARIVM. Manifestum est ergo quod quadratum lateris cubi atque quadratum lateris figuræ duodecim basium, cū cubum & figurā duodecim basiū eadem sphæra circunscribit, ambo quadrata pariter accepta quincuplum sunt quadrati medietatis diametri circuli qui circunscribit pentagonum eiusdem figuræ duodecim basium.
+CAMP. Sit pētagonus a. una ex 12 basibꝰ figuræ dodecedri, & unū ex eius lateribus sit b c, sibiqꝫ ex 14 quarti circūscribatur circulus supra cētrū a & ꝓtrahātur lineæ a b & a c & a d ꝑpēdicularis ad b c. Dico ergo ꝙ trigincuplū eiusꝙ fit ex a d in b c, est æquale oībus supficiebus dodecedri p̃iter acce{printer-error-correction:pariter acceptis} Cōstat enim pētagonū d{printer-error-correction:a} esse diuisibilē in q̄nqꝫ triāgulos æquales triāgulo a b c ex 8 primi. Itaqꝫ oēs 12 pētagoni dodecedri (cū oēs sint æquales & similes pētagono a) diuisibiles sūt in 60 triāgulos, quorū q̄sqꝫ p̄ 8 primi. est æqualis triāgulo a b c. Quod aūt fit ex a d in b c est duplū per 41 primi. ad triāgulū a b c. Ergo trigincu
 
-Istud correlarium uere manifestum est, constat enim ex demōstratione 17 tredecimi quod latus cubi subtenditur angulo pētagoni dodecedri, cum cubum & dodecedron una eadēqꝫ sphæra circunscribit, itaque per hanc 4 sine obice constat correlarium.
+[Diagram: circle with an inscribed pentagon; a marks the centre, from which lines run to the two lowest vertices b (left) and c (right), forming the triangle a b c; d marks the foot of the perpendicular from a on the side b c]
 
-## Eucli.ex Camp. Propositio 5
-
-[Margin]
-5
-[/Margin]
-
-{dropcap:P|lines=?|style=decorated}Entagonus figuræ duodecim basium, triangulusqꝫ figuræ uiginti basium, quos eadem sphæra circunscribit, uno eodemqꝫ circulo circunscribuntur.
-
-CAMPANVS. Sit sphæra cuius diameter a b, circunscribens duas solidas figuras, uidelicet dodecedron cuius unus ex duodecim pentagonis sit c, & icosedron cuius unus ex 20 triangulis sit d, pētagono autem c, & trigono d. super duo centra d & c. circunscribantur duo circuli, huic quidem f c ex 14 quarti, illi uero f d, ex 5 eiusdem. Dico itaque qꝺ hi duo circuli sphæræ propositæ, quorum alter circunscribit pentagonū c, alter uero trigonū d. sunt æquales. Signentur enim duo latera pentagoni c, unū ex suis angulis continentia, literis e f & f g & protrahantur, linea e g quæ subtendat angulū f, & semidiameter circuli quæ sit c f. Vnum quoque ex lateribus trigoni d, signetur literis k h. & protrahatur semidiameter sui circuli quæ sit d k. Dehinc sumatur linea l m, ad quā sit linea a b quæ est diameter sphæræ assignatæ. quincupla in potentia quæ quidem l m diuidatur in n secundum proportionē habentem me
-
-[Diagram: circle with an inscribed pentagon, its apex f at the top; e and g mark the ends of the two sides containing the angle at f, with the chord e g drawn; c is the centre, and the line f c is drawn from the apex through the centre]
-
-<!-- Catchword: dium -->
+<!-- Catchword: plum -->

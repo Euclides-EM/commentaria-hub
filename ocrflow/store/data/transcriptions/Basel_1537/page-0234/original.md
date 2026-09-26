@@ -1,31 +1,27 @@
-<!-- Running title: LIBER NONVS. -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 223 -->
+<!-- Page number: 224 -->
 
-per eas quæ in α sunt unitates, igitur & α ipsum β metitur per eas quæ in ipso α sunt unitates: & quoniam α ipsum β metitur per eas quæ in ipso α sunt unitates, igitur α seipsum multiplicans, ipsum effecit β, quadratus igitur est β. Et quoniam ipsi β, γ, δ, ordinatim sunt proportionales, & β quadratus est, igitur (per 22 octaui) & δ quadratus est, & iam id propterea & ζ quadratus est. Similiter iam demonstrabimus quod & unum relinquentes, quadrati sunt omnes. Dico iam quod & quartus ab untiate, hoc est γ, cubus est, & binos relinquentes omnes. Quoniam enim est sicut unitas ad α numerum sic β ad γ, æque igitur unitas ipsum α numerum, & β ipsum γ metitur, at unitas ipsum α metitur per eas quæ in α sunt unitates, igitur & β ipsum γ metitur per eas quæ in ipso α sunt unitates, & α igitur ipsum β multiplicans, ipsum effecit γ. Quoniam igitur α seipsum quidem multiplicans, ipsum effecit β, ipsum autem β multiplicans ipsum γ fecit, cubus igitur est ipse γ. Et quoniam ipsi γ, δ, ε, ζ, ordinatim sunt proportionales, ipse autē γ cubus est, & ζ igitur (per 22 octaui) cubus est. Demonstratū autem est, quod ζ septimus ab unitate existens, quadratus est. Igitur ζ cubus est & quadratus. Similiter iam ostendemus quod & quinq; relinquentes cubi sunt omnes & quadrati, quod oportuit demonstrasse.
+bus est, & binos relinquētes omnes, (ex præcedenti) patet. Dico iam quod & reliqui omnes cubi sunt. Quoniam enim est sicut unitas ad α, sic α ad β, æque igitur unitas ipsum α numerum metitur, & α ipsum β metitur. Vnitas autem ipsum α metitur per eas quæ in ipso sunt unitates: & α igitur ipsum β metitur per eas quæ in ipso sunt unitates. Igitur α seipsum multiplicās, ipsum β fecit. Est autem & α cubus. Si autē cubus numerus seipsum multiplicans fecerit aliquē, factus cubus est (per 3 noni,) & β igitur cubus est. Et quoniā quatuor numeri ordine proportionales sunt ipsi α, β, γ, δ, & α cubus est, & δ igitur (per 23 octaui) cubus est. Iam id propterea & ε cubus est, & similiter reliqui omnes sunt. Quod oportuit demonstrasse.
 
-[Diagram: dotted number lines from unitas labelled α, β, γ, δ, ε, ζ with values 3, 9, 27, 81, 243, 729]
+[Diagram: dotted number lines from μονάς labelled α, β, γ, δ, ε, ζ, with values at left 9, 81, 729, 6561, 59049, 531441 and at right 81, 729, 6561, 59049, 531441, 732969; rotated Greek caption τετράγωνοι at left]
 
-## Eucli. ex Camp. Propositio 9
+## Eucli. ex Camp. Propositio 10
 
-**9** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numeris quotlibet ab unitate continua proportionalitate dispositis, unitatem sequens quadratus fuerit, cæteri quoq̃ omnes erunt quadrati. Si uero qui unitatē sequitur fuerit cubus, cæteri quoq̃ omnes erunt cubi.
+**10** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numeris quotlibet ab unitate continua proportionalitate dispositis, unitatē sequens non quadratus fuerit, non erit aliorū quisq̃ quadratus, exceptis ab unitate tertio & ijs qui deinceps uno semper intermisso reperiūtur tetragoni. Si uero secundus ab unitate non fuerit cubus, nullus cæterorū erit cubus, exceptis ab unitate quarto & deinceps ijs qui duorū semper intermissione formantur cubicis.
 
-CAMPANVS. Sint qui prius continue proportionales ab unitate, sitq̃ a quadratus, dico omnes esse quadratos. Aut sit idem cubus, tunc quoq̃ dico omnes esse cubos, b enim constat esse quadratum per præmissam, quia ergo a ad b, sicut b ad c, ex 22 octaui, sequitur c esse quadratum, idem quoq̃ ex eiusdem 17 uel 20 potes arguere. De sequētibus autem idem eodemq̃ modo probabis, quare patet primum. Secūdum autem sic. Cum b fiat ex a in se, si fuerit a cubus, erit per tertiam ipse quoq̃ cubus, c uero constat esse cubum per præmissam, itaque per 25 octaui, d omnesq̃ sequentes cubicos esse probabis, est enim a ad b, sicut c ad d. Idem quoq̃ arguere potes ex 19 uel 21 eiusdem, sunt enim a, b, c, d, sed & b,c,d,e, singuliq̃ quatuor continue sumpti, continue proportionales.
+CAMPANVS. Hæc ex opposito subiecti præmissæ, infert partē oppositi passionis. Dico autem partem, quoniam ex 8 constat omnes in locis imparibus constitutos esse quadratos, omnesq̃ quorū locus super ternarium uel quemlibet ipsius multiplicem addit unitatē, esse cubos. Sint itaq̃ qui prius ab unitate continue proportionales, non sit autem a quadratus, sed nec cubus, dico nullum ex omnibus esse quadratū aut cubicum, nisi quos octaua proponit. Si enim quis alius ponatur quadratus, sequitur per 22 octaui, a esse quadratū. Quod si cubus, sequitur per 25 eiusdem, a esse cubum, quorum utrunq̃, contrarium est hypothesi Constat ergo propositum.
 
-[Diagram: dotted number lines from unitas labelled a, b, c, d, e, f, g, h, k, l, m, n]
+## Eucli. ex Zamb. Theorema 10 Propositio 10
 
-## Eucli. ex Zamb. Theorema 9 Propositio 9
+**10** Si ab unitate quotcunq̃ numeri ordinatim proportionales fuerint, qui uero post unitatem non fuerit quadratus, neq̃ alius ullus quadratus erit, exceptis tertio ab unitate & unum relinquentibus omnibus, & si qui post unitatem, cubus non fuerit, neq̃ alius ullus cubus erit exceptis quarto ab unitate & binos relinquentibus omnibus.
 
-**9** Si ab unitate quotcunq̃ numeri * consequenter proportionales fuerint, qui uero post unitatem quadratus fuerit, & reliqui omnes quadrati ernrt. Et si qui post unitatem cubus fuerit, & reliqui omnes cubi erunt.
+THEON ex Zamber. Sint ab unitate ordinatim proportionales quilibet numeri α,β,γ,δ,ε,ζ, qui uero post unitatem α non sit quadratus. Dico quod neq; alius ullus quadratus erit exceptis tertio ab unitate & unum relinquentibus omnibus. Si enim possibile, esto γ quadratus, est autem & β quadratus, ipsi igitur β,γ, adinuicem rationem habent quam quadratus numerus ad quadratū numerum. Estq̃ sicut β ad γ, sic α ad β, ipsi igitur α,β, adinuicē rationem habent, quam quadratus numerus ad quadratū numerū. quare (per 26 octaui) ipsi α,β, similes plani sunt, & quadratus est β, igitur α est quadratus, quod non suppositū est. Igitur γ non est quadratus, neq; ullus alius eadem ratione, exceptis ab unitate tertio & unum relinquentibus omnibus. Sed iam α non sit cubus. Dico quod neq; alius ullus cubus, erit exceptis ab unitate quarto & binos relinquentibus omnibus. Si enim est possibile sit, δ cubus. Est autem & γ cubus (per 8 noni) quartus enim ab unitate. Estq̃ sicut γ ad δ, sic β ad γ, igitur β ad γ rationē habet quam cubus numerus ad cubum numerū, quare (per 27 octaui) ipsi β,γ, similes solidi sunt, & cubus est γ, igitur β cubus est. Estq̃ sicut unitas ad α, sic α ad β. At unitas metitur ipsum α per eas quæ in ipso sunt unitates, igitur & α ipsum β metitur per eas quæ in ipso sunt unitates. Igitur α seipsum multiplicās, ipsum β cubum effecit. Si uero numerus seipsum multiplicans, cubum fecerit, & ipse cubus erit (per 6 noni). Cubus igitur est & α, quod suppositū non est. Igitur δ cubus non est. Similiter iam ostendemus quod neq; alius ullus cubus est, præter quartū ab unitate & binos relinquētes omnes, quod ostendendū fuerat.
 
-[Margin]
-ἑξῆς
-[/Margin]
+[Diagram: vertical dotted lines of increasing height from unitas labelled α, β, γ, δ, ε, ζ, with values 3, 9, 27, 81, 243, 729 written vertically above]
 
-THEON ex Zamberto. Sint ab unitate consequenter proportionales, quotcunq; numeri α,β,γ,δ,ε,ζ, qui uero post unitatem, α sit quadratus. Dico quod & reliqui omnes quadrati erunt. Quod quidem tertius ab unitate, β sit quadratus & unum relinquentes omnes, patet (ex præcedenti). Dico quod & reliqui omnes quadrati sunt. Nam quoniam ipsi α,β,γ, ordinati sunt proportionales, & α est quadratus, igitur (per 22 octaui) & γ est quadratus. Rursus quoniam ipsi β,γ,δ, ordine sunt proportionales, & β est quadratus, & δ igitur (per 22 octaui) est quadratus. Similiter iam ostendemus quod & reliqui omnes quadrati sunt. Sed iam esto α cubus. Dico quod reliqui omnes cubi sunt. Quod quidem quartus ab unitate, hoc est γ cu
+## Eucli. ex Camp. Propositio 11
 
-[Diagram: dotted number lines from μονάς labelled α, β, γ, δ, ε, ζ, with values at left 9, 81, 729, 6561, 59049, 531441 and at right 81, 729, 6561, 59049, 531441, 732969; rotated Greek captions τετράγωνοι at left and κύβοι at right]
+**11** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numeris quotlibet ab unitate continua proportionalitate dispositis aliquis numerus primus ultimum numeret, eum quoq̃ qui unitatem sequitur numerare necesse est.
 
-<!-- Signature: t 4 -->
-
-<!-- Catchword: bus est. -->
+<!-- Catchword: CAMPANVS -->

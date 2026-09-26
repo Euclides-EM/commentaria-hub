@@ -1,31 +1,41 @@
-<!-- Page number: 262 -->
+<!-- Running title: LIBER DECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 263 -->
 
-proportio quadrati lineæ a b ad quadratũ lineæ a n sicut d ad l, & producatur n b, erunt duæ lineæ a b & b n quales inquirimus. Quod si rursus diuidatur d in p quadratum & in q nõ quadratum, & fuerit proportio quadrati lineæ a b ad quadratũ lineæ a r sicut d ad p, & protracta fuerit linca{printer-error-correction:linea} r b, erũt etiam duæ a b & b r, quales inquirimus. Sunt itaque lineæ a b, b c, b k, b n, b r, potentia tantũ rationales & in ea cõmunicantes, quarum una uidelicet a b est potentior qualibet aliarũ in quadrato lineæ secũ communicantis in longitudine. Si igitur quatuor linearum b c, b k, b n, b r, nulla communicat alij in longitudine, cõstat propositum. Istud autẽ sic probatur, patet enim ex præmissis, quod quadratũ lineæ b c ad quadratũ lineæ a b est sicut numerus f ad numerũ d, & quadratũ lineæ a b ad quadratũ lineæ b k est sicut numerus f ad numerũ d, & quadratũ lineæ a b ad quadratũ lineæ b k est sicut numerus d ad numerũ h, ergo per æquã proportionalitatẽ quadratũ lineæ b c ad quadratum lineæ b k, est sicut numerus f ad numerũ h, sed nullus quatuor numerorũ f, h, m, k, se habet ex hypothesi ad alium sicut numerus quadratus ad numerum quadratum, quare per 3 partem septimæ, duæ lineæ b c, b k, sunt incommensurabiles in longitudine. Eadem ratiõne quælibet duæ ex illis quatuor sunt incommensurabiles in longitudine. Liquet ergo quod uolumus.
+a c est irrationalis, ideoq̃ & suum latus tetragonicum est etiã irrationale. Dicitur autem hæc superficies medialis, quoniã ipsa est medio loco proportionalis inter duas superficies rationales, uidelicet inter quadrata duarum linearũ ipsam cõtinentium. Et lineam potens in ipsam dicitur medialis, quoniam ipsa quoque est medio loco proportiõalis inter duas lineas potentia tantum rationales communicantes, & hæ duæ lineæ, sunt latera dictæ superficiei. Et hoc est quod uolumus.
 
-## Eucli. ex Camp. Propositio 18
+[Diagram: rectangle divided by a vertical line into two rectangles; labels a, b, d along the top and c below the middle]
 
-[Margin]
-18
-[/Margin]
+## THEON Lemma,
 
-DVas lineas in potentia tantum rationales communicantes quarum longior plus possit breuiori quantum quadratum lineæ sibi incommensurabilis in longitudine inuenire.
+Potens irrationalem aream, irrationalis est.
 
-CAMPANVS In hac quoq̃ remaneat eadem dispositio eædẽq̃ hypotheses quæ in præmissa, hoc solum mutato quod proportio numeri d e ad neutrum duorum numerorum d f & f e, sit sicut numeri quadrati ad numerum quadratũ. hoc aũt facile fiet, posito d, e quolibet nũero quadrato diuiso in duos numeros nõ quadratos, ut si d e sit 9, & d f, 6, & f e 3, argumẽtãdo ut prius, hoc dũtaxat excepto qd' a b & a c sint incõmẽsurabiles in lõgitudine per ultimã partẽ 7.
+Poßit enim α, irrationalem aream, hoc est id quod ex α, quadratum æquale irrationale areæ. Dico quod α irrationalis est: si enim est rationalis, erit rationale quoq̃ id quod ex α quadratum, sic enim in diffinitionibus, non est autem. Irrationalis igitur est α. Potens irrationalem igitur, & reliqua, quod erat demonstrandum.
 
-[Diagram: semicircle on base a b with apex c on the arc, lines drawn from a and b to c forming an inscribed triangle; below, a dotted horizontal segment with points d, f, e]
+[Diagram: horizontal line segment labeled α]
 
-CAMPANI additio Et sciendũ quod duæ lineæ quales hæc & præmissa docẽt inuenire, cõponũt binomiũ, & minori earum abscisa de maiori, quæ reliqua est dicitur residuũ. Nota etiam quod lineæ tantum potentia rationales communicantes, possunt esse una rationalis & alia irrationalis, sicut latera tetragonica duarum superficierum quarũ una sit 25 pedum & alia 24, sunt rationalia potentia tantum communicantia, latus enim primæ superficici{printer-error-correction:superficiei} est 5 latus uero secundæ non numeratur. Et possunt esse ambæ irrationales, ut latera tetragonica duarum superficierum quarum una sit 24 pedum & alia 23, neutrius enim numeratur latus, suntq̃ in longitudine incommensurabilia ex ultima parte septimæ, Quod si libeat etiam inuenire plures lineas duabus potentia tantum rationales communicantes, quarum una sit potentior qualibet aliarũ in quadrato lineæ secum non cõmunicantis in longitudine, sumatur talis numerus qui possit pluries sic diuidi quod ipsius ad nullam suarum partium nec alicuius ad aliquã aliarum sit proportio ut numeri quadrati ad numerũ quadratũ, ut 25, potest diuidi in 2 & 23, item in 5 & 20, & rursus in 7 & 18. Et sic processus idem qui fuit in præmissa.
-
-## Eucli. ex Camp. Propositio 19
+## Eucli. ex Zamb. Theorema 81{printer-error-correction:18} Propositio 21
 
 [Margin]
-19
+21
 [/Margin]
 
-OMnis superficies quam continent duæ lineæ potentialiter tãtum rationales communicantes, est irrationalis, diciturq̃ superficies medialis, eiusque latus tetragonicum scilicet quod in eam potest, est irrationale, diciturq̃ linea medialis.
+Sub rationalibus potentia tantũ commensurabilibus rectis lineis comprehehensum{printer-error-correction:comprehensum} rectangulum, irrationale est, illudq̃ potens irrationalis est, uoceturq̃ media.
 
-CAMPANVS Sint duæ lineæ a b, b c, continentes superficiem a c, rationales potentia tantũ communicantes, quæ qualiter reperiantur, ex præmissa & antepræmissam manifestum est, dico superficiem a c esse irrationalem. Sit enim d c quadratum b c, eritque rationale per hypothesin, eo quod linea b c est rationalis in potentia. Et quia ex prima sexti a c ad c d sicut a b ad b d, non communicat autem a b cum b d, quia ex hypothesi non communicat cũ sua æquali, quæ est b c, sequitur per secundam partem 10 ut etiam a c non cõmunicet cum c d, quare per diffinitionem, superficies
+THEON ex Zamberto. Sub rationalibus enim potentia tantum commensurabilibus rectis lineis α β, & β γ comprehendatur rectangulum α γ, Dico quod α γ, irrationale est potensq̃ illud irrationalis est & media appellatur. Describatur enim (per 46 primi) ex α β, quadratum α δ, rationale igitur est ipsum α δ. Et quoniam incommensurabilis est α β, ipsi β γ, longitudine (potentia namq̃ tantum supponuntur cõmensurabiles) æqualis autem est α β ipsi β δ, incommensurabilis igitur est & β δ, ipsi β γ longitudine. Estq̃ sicut δ β ad β γ, sic est α δ, ad α γ, incommensurabile igitur est (per 11 decimi) δ α, ipsi α γ. Rationale autem est δ α, irrationale igitur est α γ, quare & ipsum potens α γ, hoc est potens æquale ei quadratum, irrationalis est: uoceturq̃ media, eo quia ex ipsa quadratum, æquale est ei quod α β, β γ, & eo quia ipsa media (per secundam partem 17 sexti,) proportionalis est ipsis α β, & β γ. Sub rationalibus igitur potentia tantum, & reliqua, quod oportuit demonstraße.
 
-<!-- Catchword: a c -->
+[Diagram: rectangle divided by a vertical line into two rectangles; labels δ, β, γ along the top]
+
+## Eucli. ex Camp. Propositio 20
+
+[Margin]
+20
+[/Margin]
+
+CVm adiuncta fuerit lineæ in longitudine rationali superficies æqualis quadrato lineæ medialis, latus eius secundũ potẽtialiter tantũ erit ratiõale, laterique primo in lõgitudine incõmẽsurabile.
+
+CAMPANVS Hæc est quasi cõuersa præmissæ. Sit a linea medialis, sitq̃ linea b c ratiõalis in longitudine, cui adiungatur superficies b d æqualis quadrato lineæ a. Quod hoc modo fiet. Subiũgatur duabus lineis b c & a, linea c d in continua proportionalitate ut docet 10 sexti, eritq̃ superficies ex b c in d æqualis quadrato lineæ a, per 16 eiusdem, dico latus eius secundũ, quod est d c, esse rationale in potẽtia tantũ, & incõmensurabile in lõgitudine lateri b c. Eritq̃ ex præmissa per diffinitionẽ lineæ medialis, ut linea a possit in aliquã superficiẽ cõtentã à duabus lineis potẽtia tantũ rationalibus cõmunicãtibus, quæ sit superficies e g cuius latera e f & f g. Erũtq̃ duæ superficies b d & e g per primam partem 15 sexti laterum mutuorũ, propter hoc quod ipsæ sunt æquales & rectãgulæ, proportio ergo b c ad e f, est sicut f g ad c d. Quare pet{printer-error-correction:per} 10 cũ b c cõmunicet in potẽtia cũ e, f, eo quod quadrata utriusq̃ earum sunt rationalia ex hypothesi, f g cõmunicabit in potentia cũ c d. Cum igtur{printer-error-correction:igitur} quadratum f g sit rationale per hypothesin, erit quoq̃ quadratũ c d rationale per diffinitionẽ. At quia superficies b d est irratiõalis sicut sua æqualis e g. per præmissam, sequitur ut quadratũ lineæ c d nõ communicet cũ superficie b d. Et quia quadratum lineæ c d ad superficiẽ b d est per primam sexti sicut c d ad c b, erit per secundã partem 10 ut c d non communicet cum b c. Quare cũ b c sit rationalis in longitudine ex hypothesi, erit c d irrationalis in longitudine, & potẽtia tantum rationalis. Patet ergo proposita conclusio.
+
+[Diagram: tall rectangle with labels d at top right, b at bottom left, c at bottom right; beside it a smaller rectangle with labels g at right, e at bottom left, f at bottom right; below, a horizontal segment labeled a]
+
+<!-- Signature: Si -->

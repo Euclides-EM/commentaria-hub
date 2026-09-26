@@ -1,65 +1,51 @@
-<!-- Running title: LIBER SEPTIMVS -->
+<!-- Page number: 182 -->
 
-<!-- Page number: 181 -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-prætermisit demonstrare. Primum itaque demonstrabimus conuersam, ut si sit a ad b, sicut c ad d, dico quod erit econuerso
-
-[Diagram: a . . . . . . . . c . . . . . . b . . . . d . . .]
-
-b ad a, sicut d ad c: si enim fuerit a minor b, tunc quoq́; erit c minor d, & tota pars aut partes a, b, quota uel quotæ c, d, quare per secundam partem 11, erit b ad a, sicut d ad c: si autẽ fuerit a maior b, erit quoq́; & c maior d, & per primam partem 11 b tota pars aut partes a, quota uel quotæ d, c, per diffinitionem igitur, b ad a, sicut d ad c.
-
-## Disiunctam proportionalitatem ostendere.
-
-Vt si sit a b ad b, sicut c d ad d, erit a ad b, sicut c ad d, erit enim permutatim a b ad c d, sicut b ad d, & per 11 sicut a ad c,
-
-[Diagram: a . . . . . . . . . b . . . c . . . . . . . d . .]
-
-quia ergo a ad c, sicut b ad d, erit permutatim a ad b, sicut c ad d.
-
-## Coniunctæ proportionalitati demonstrationem afferre.
-
-Vt si sit a ad b, sicut c ad d, erit a b ad b, sicut c d ad d: erit enim permutatim a ad c, sicut b ad d: quare per 11 a b ad c d, sicut b ad d, permutatim igitur erit a b ad b, sicut c d ad d.
-
-[Diagram: a . . . . . . b . . . / c . . . . d . .]
-
-## Euersam proportionalitatem restat in numeris stabilire.
-
-Vt si sit a b ad b, sicut c d ad d, erit a b ad a, sicut c d ad c, erit enim
-
-[Diagram: a . . . . . . b . . . / c . . . . d . .]
-
-permutatim a b ad c d, sicut b ad d, quare per 11 sicut a ad c, permutatim igitur erit a b ad a, sicut c d ad c, patet itaq́; totum. Ex his quoq́; leue est demonstrare in numeris, quod Euclides proponit per penultimam quinti de quantitatibus in genere, uidelicet.
-
-Si proportio primi ad secundum fuerit sicut tertij ad quartum, quinti quoq́; ad secundum sicut sexti ad quartũ, erit proportio primi & quinti pariter acceptorũ ad secundũ sicut tertij & sexti pariter acceptorũ ad quartũ.
-
-Vt si sit a ad b, sieut c ad d, itemq́; e ad b. sicut f ad d, erunt a & e pariter accepti ad b, sicut c & f pariter accepti ad d, erit enim per
-
-[Diagram: a . . . . . . . . . . e . . . . c . . . . . . . f . . .]
-
-conuersam proportionalitatem b ad e, sicut d ad f: quare per
-
-[Diagram: b . . . . d . . .]
-
-æquam proportionalitatem a ad e, sicut c ad f, ergo coniunctim a & e ad e, sicut c & f ad f, itaq́; per æquam proportionalitatem a & e ad b, sicut c & f ad d, quod est propositũ.
-
-Eodemq́; modo probabis econuerso, si sit b ad a, sicut d ad c, itemq́; b ad e, sicut d ad f, erit b ad a & e, sicut d ad c & f, erit enim per conuersam proportionalitatẽ a ad b, sicut c ad d: quare per æquam a ad e, sicut c ad f, & cõiunctim a & e ad e, sicut c & f ad f: igitur econuerso e ad a & e, sicut f ad c & f, per æquam itaq́; prrportionalitatẽ erit b ad a & e, sicut d ad c & f, quod erat propositum. Ex hoc quoq́; manifestum rst quod si fuerit proportio quotlibet numerorũ ad primum sicut totidem aliorum ad secundum, erit aggregari ex omnibus antecedẽtibus ad primum, ad primum, sicut aggregati ex omnibus antecedentibus ad secundum, ad secundum. Itemq́; econuerso si fuerit proportio primi ad quotlibet numeros sicut secundi ad totidem alios, erit primi ad aggregatum ex omnibus consequentibus ad ipsum, sicut secundi ad aggregatum ex omnibus consequentibus ad ipsum.
-
-## Eucli.ex Zamb. Theorema 12 Propositio 14
+## Eucli. ex Camp. Propositio 16
 
 [Margin]
-14
+16
 [/Margin]
 
-Si fuerint quotcunq́; numeri, & alij eisdem æquales numero *cum duobus sumpti & in eadem ratione, & ex æquali in eadem ratione erunt.
+SI numeret unitas aliquem numerum quoties quilibet tertius aliquem quartum, erit quoq́; permutatim ut quoties unitas numerat tertium, toties secundus numeret quartum.
+
+CAMPANVS. Vt si sit unitas ad a, sicut b ad c, erit permutatim unitas ad b, sicut a ad c. Non superfluit autem hæc, demonstrata permutata proportione, non enim ex illa potest concludi quod hic proponitur. Nam illa demonstrata est de quatuor numeris proportionalibus, unitas uero non est numerus per diffinitionem. Hoc ergo modo pateat propositum. Diuidatur a per unitates, & c, secundum quantitatẽ b, eruntq́; per præsentẽ hypothesin tot partes a, quot c, & quia unaquæq́; partium a est unitas, & unaquæq́; partium c est æqualis b, erit ut quoties unitas in b, toties unaquæq́; partium a in sua compari ex partibus c, per modum itaq́; demonstrationis quintæ, sequetur toties esse a in c, quoties unitas in b, quod est propositum.
+
+[Diagram: unitas . — b . . — a . . . . — c . . . . . . . .]
+
+## Eucli.ex Zamb. Theorema 13 Propositio 15
 
 [Margin]
-σύνδυο bini, duo & duo
+15
 [/Margin]
 
-THEON ex Zamberto. Sint quotcunq́; numeri α, β, γ & alij eisdem æquales numero cum duobus sumpti in eadem ratione δ, ε, ζ, sicut quidem α ad β, sic δ ad ε, sicutq́; β ad γ, sic γ ad ζ. Dico quod & ex æquali est sicut α ad γ, sic δ ad ζ. Quoniam enim (per hypothesin) est sicut α ad β, sic δ ad ε, & uicissim igitur (per 13 septimi) est sicut α ad δ, sic β ad ε. Rursus quoniam est sicut β ad γ, sic est ε ad ζ, uicissim igitur (per eandem) est sicut β ad ε, sic γ ad ζ, sicut autem β ad ε, sic α ad δ, & sicut igitur (per 11 quinti) α ad δ, sic γ ad ζ. Vicissim igitur (per 13 septimi) est sicut α ad γ, sic δ ad ζ, quod oportuit demonstrasse.
+Si unitas numerum aliquem metiatur, pariter autem alter numerus alium quempiam numerum metiatur, & uicissim pariter unitas tertium numerum metietur, & secundus quartum.
 
-[Diagram: two groups of vertical dotted columns representing the numbers, the left group labeled ζ, ε, δ and the right group labeled γ, β, α at the foot]
+THEON ex Zamberto. Vnitas, inquam, α numerum aliquem β γ metiatur, pariter autem alius numerus δ. alium quempiam numerum ε ζ metiatur. Dico quod & uicissim pariter α ipsum δ numerum metietur, & β δ ipsum ε ζ. Quoniam enim æque α unitas ipsum β γ numerum metitur, & δ ipsum ε ζ: quot igitur sunt in β γ unitates, tot sunt in ε ζ numeri æquales ipsi δ. Diuidatur, inquam, β γ in eas quæ in eo sunt unitates, hoc est β η, η θ & θ γ. Ipse uero ε ζ in ipsi δ æquales, hoc est ε κ, κ λ & λ ζ. est iam æqualis multitudo ipsorum β η, η θ & θ γ, multitudini ipsorum ε κ, κ λ & λ ζ: & quoniam β η, η θ & θ γ unitates sibi inuicem sunt æquales, & ε κ, κ λ & λ ζ numeri sibi inuicem sunt æquales, & est æqualis multitudo ipsarum β η, η θ & θ γ unitatum multitudini ipsorum ε κ, κ λ & λ ζ numerorum, est igitur sicut β η unitas ad ε κ numerum, sic est η θ unitas ad κ λ numerum, & β γ unitas ad λ ζ numerum: erit igitur (per 12 septimi) & sicut unus antecedentium ad unum consequentium, sic omnes antecedentes ad omnes consequentes. Est igitur sicut β η unitas ad ε κ numerum, sic β γ ad ε ζ: æqualis autem est β η unitas ipsi α unitati, & ε κ numerus ipsi δ numero: est igitur (per 11 quinti) sicut α unitas ad δ numerum, sic β γ ad ε ζ: pariter igitur α unitas ipsum δ numerum metitur, & β γ ipsum ε ζ, quod oportuit demonstrasse.
 
-<!-- Signature: q -->
+[Diagram: α . — β . η . θ . γ — δ . . — ε . . κ . . λ . . ζ]
 
-<!-- Catchword: Euclidis -->
+## Eucli. ex Camp. Propositio 17
+
+[Margin]
+17
+[/Margin]
+
+SI duorum numerorũ uterque ducatur in alterum, qui inde producentur erunt æquales.
+
+CAMPANVS. Sicut si ex a in b proueniat c b, & ex b in a proueniat d, erunt c & d æquales. Cum enim b multiplicatus per a producat c, erit per conuersionẽ diffinitionis b in c, quoties unitas in a, ergo per præmissam, erit a in c, quoties unitas in b. Et quia toties est a etiam in d, quia ex b in a fit d, sequitur ut toties sit a in c quoties in d, per conceptionem igitur c & d sunt æquales.
+
+[Diagram: unitas . — a . . . b . . . . — c . . . . . . . . . . . . — d . . . . . . . . . . . .]
+
+CAMPANI annotatio. Possumus quoq́; hanc conclusionem alio modo proponere. Si duorum numerorum uterque ducatur in alterum idem numerus utrobique proueniet, ut si ex a in b proueniat c, idem etiam ex b in proueniet. Quia enim ex a in b fit c, erit prius per conuersionem diffinitionis b in c quoties unitas in a. Et permutatim per præmissam a in c, quoties unitas in b, quia igitur a toties sibi coaceruatur in c, quoties in b est unitas, sequitur per diffinitionem quod ex b in a fit c.
+
+## Eucli.ex Zamb. Theorema 14 Propositio 16
+
+[Margin]
+16
+[/Margin]
+
+Si bini numeri multiplicantes se adinuicem, fecerint aliquos, geniti ex eis æquales adinuicem erunt.
+
+<!-- Catchword: THEON ex -->

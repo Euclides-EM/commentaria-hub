@@ -1,43 +1,65 @@
-<!-- Running title: LIBER PRIMVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 13 -->
+<!-- Page number: 14 -->
 
-## Eucli. ex Camp. Propositio 8.
+tem angulus a b d est æqualis angulo c b d, quod oportebat efficere.
 
-[Margin]
-8
-[/Margin]
-
-{dropcap:O|lines=?|style=decorated|decoration="a face"}Mniū duorū triāgulorū quorū duo latera unius duobus lateribus alterius fuerit æqualia, basisq̃ unius basi alteri æqualis duos angulos æquis lateribus contentos, æquales esse necesse est.
-
-CAMPANVS. Sint duo triāguli a b c, d e f: sitq̃ a c æqualis d f et b c æqualis e f, & a b æqualis d e. Dico ergo q̃d angulus c est æqualis āgulo f, & angulus a, angulo d, & angulus b angulo e. Superponā basin a b, basi d e quæ cū sint æquales neutra excedit alteram per conuersionem penultimæ conceptionis. Aut ergo punctus c cadet super punctum f: aut nō. Si sic, tunc quia angulus c superpositus est angulo f, & neuter excedit alterū eo quòd a c super d f & b c super e f cadunt, ipsi sunt æquales per eandem conceptionem. Similiter argue reliquos angulos esse æquales. Si autem punctus c non cadat super f: cadat super quemlibet aliū qui sit punctus g. quia e g est æqualis b c, imo eadē: itemq̃ quia d g est æqualia a c: erit d g æqualis d f, & e g æqualis e f, quod est impossibile per præcedentē.
-
-[Diagram: three tall triangles side by side: triangle with apex c on base a b; triangle with apex f on base d e; and a third with the bases superposed, apexes c, g and f close together at the top with crossing lines]
-
-## Eucli. ex Zam. Theorema 5. Propositio 8
-
-[Margin]
-8
-[/Margin]
-
-Si bina triangula duo latera duobus lateribus alterum alteri æqualia habuerint, & basin quoq̃ basi æquale: angulum quoq̃ angulo suo æqualibus rectis lineis contentum æqualem habebunt.
-
-THEON ex Zamb. Sint bina triangula α β γ, δ ε ζ, duo latera α β, α γ, duobus lateribus δ ε, δ ζ, æqualia habentia alterum alteri, hoc est α β ipsi δ ε, & α γ ipsi δ ζ: habeantq̃ basin β γ basi ε ζ æquale. Dico quod angulus β α γ: angulo ε δ ζ est æqualis. Cōgruente enim triangulo α β γ ipsi δ ε ζ, & posito quidem β signo, super ε signum & recta linea β γ super ε ζ: congruit quoq̃ signū γ ipsi ζ signo, quoniā β γ æqualis est ipsi ε ζ: cōgruēte uero β γ ipsi ε ζ: cōgruūt quoq̃ & β α, α γ ipsi ε δ, δ ζ. Si enim basis β γ basi ε ζ cōgruit, at β α, α γ latera, lateribus ε δ, δ ζ, nō congruent, sed different, sicut ε η, η ζ: constituentur super eadem recta linea duobus eisdem rectis lineis aliæ duæ rectæ lineæ æquales altera alteri, ad aliud & aliud signū ad easdem partes, eosdemq̃ fines possidentes. Non constituuntur aūt (per 7 propositionem.) Nō igitur congruente basi β γ basi ε ζ, non cōgruunt quoque & β α, α γ, latera, ipsis ε δ, δ ζ, lateribus, congruunt igitur. Quare & angulus β α γ, angulo ε δ ζ cōgruet: & eidem æqualis erit. Si bina igitur triangula duo latera duobus lateribus alterum alteri æqualia habuerint, basinq̃ basi æqualem: angulum quoq̃ angulo sub æqualibus rectis lineis contentum æqualem habebunt. quod erat ostendendum.
-
-[Diagram: three tall triangles side by side with Greek labels: one with two apexes γ and η close together above the base α β with crossing lines; one with apex ζ on base δ ε; one with apex γ on base α β]
-
-## Eucli. ex Camp. Propositio 9.
+## Eucli. ex Zamb. Problema 4. Propositio 9.
 
 [Margin]
 9
 [/Margin]
 
-{dropcap:D|lines=?|style=decorated}Atum angulum: per æqualia secare.
+Datum angulum rectilineum, bifariam secare.
 
-CAMPANVS. Sit datus angulus quē oportet diuidere: angulus a b c. Lineas ipsum cōtinentes quæ sunt a b & b c, ponam æquales, per 3 propositionem, & producā lineam a c: super quā constituam triangulum a d c, per 1 propositionē, & protraham lineā b d. Dico quod ipsa diuidit datum angulū per æqualia. Intelligo duos triangulos a b d & c b d, duo latera a b & b d trianguli a b d sunt æqualia duobus lateribus c b et b d trianguli c b d: & basis a d basi c d. ergo per præceden
+THEON. ex Zamberto. Sit datus rectilineus angulus β α γ. Oportet ipsum bifariam secare. Suscipiatur super linea α β cōtingens signum, sitq̃ illud δ. & à linea α γ (per 3 propositionem) auferatur α ε: ipsi α δ æqualis. & (per 1 postulatum connectatur linea δ ε: cōstituaturq̃ (per 1 propositionem) super δ ε, triangulum æquilaterum, sitq̃ illud δ ζ ε, & cōnectatur (per primum postulatum) linea α ζ. Dico quod angulus β α γ: à linea α ζ bifariam secatur. Quoniam α δ est æqualis ipsi α ε, cōmunis uero α ζ: duæ igitur δ α, α ζ, duabus ε α, α ζ sunt altera alteri æquales. At basis δ ζ, basi ε ζ, (per 1 propositionē) est æqualis: angulus igitur δ α ζ, angulo ε α ζ (per 8 propositionē) est æqualis. Datus igitur rectilineus qui sub β α γ, bifariā sectus est à recta linea α ζ, quod fecisse oportuit.
 
-[Diagram: rhombus-shaped construction with b at the top, a at the left, c at the right and d at the bottom; the diagonals a c and b d drawn, the sides b a and b c produced below]
+[Diagram: angle at α opening downwards to β and γ; points δ and ε on the two legs, the line δ ε drawn, the equilateral triangle δ ζ ε below it with ζ at the bottom, and the bisecting line α ζ]
 
-<!-- Signature: b -->
+## Eucli. ex Camp. Propositio 10.
 
-<!-- Catchword: tem -->
+[Margin]
+10
+[/Margin]
+
+{dropcap:P|lines=?|style=decorated}Roposita recta linea: eam per æqualia diuidere.
+
+CAMPANVS. Sit proposita linea quā oportet diuidere per æqualia: linea a b, super ipsam cōstituam triangulum æquilaterū a b c, & angulum c diuido per æqualia secundum doctrinā præcedentis, per lineam c d. Dico quòd linea c d: diuidit datam lineā a b per æqualia. Intelligo enim duos triangulos: a c d & b c d, & argumentor sic: duo latera a c & c d triāguli a c d, sunt æqualia duobus lateribus b c & c d triāguli b c d, & angulus c unius angulo c alterius: ergo per 4. basis a d, basi b d q̃d est ꝓpositū.
+
+[Diagram: equilateral triangle with apex c above the base a b; the line c d drawn from the apex to the midpoint d of the base]
+
+## Euclides ex Zamb. Problema 5. Propositio 10.
+
+[Margin]
+10
+[/Margin]
+
+Datam rectam lineam terminatam: bifariam secare.
+
+THEON. ex Zamberto. Sit data linea terminata α β. oportet lineā α β bifariam secare. Constituatur (per 1 propositionem) super ea, triangulum æquilaterum α β γ. Et (per 9 propositionem) secetur angulus α γ β bifariam: à recta linea γ δ. Dico quod linea recta α β: bifariam secatur in signo δ. Quoniam enim (per 1 propositionem) α γ ipsi γ β est æqualis, cōmunis uero γ δ: duæ igitur α γ, γ δ, duabus β γ, γ δ sunt æquales altera alteri. & angulus α γ δ, angulo β γ δ æquus est. basis igitur α δ, (per 4 propositionem) basi β δ est æqualis. Data igitur recta linea terminata α β, bifariam secta est in signo δ. quod faciendum fuerat.
+
+[Diagram: equilateral triangle with apex γ above the base α β; the line γ δ drawn from the apex to the midpoint δ of the base]
+
+## Eucli. ex Camp. Propositio 11.
+
+[Margin]
+11
+[/Margin]
+
+{dropcap:D|lines=?|style=decorated|decoration="foliage"}Ata linea recta, à puncto in ea signato perpendicularem extrahere: duobus quidem angulis æqualibus ac rectis utrinque subnixam.
+
+CAMPANVS. Sit data linea a b: in qua sit datus punctus c, à quo oportet perpendicularem extrahere. Faciam ergo per 3 propositionem: lineam b c æqualem lineæ a c. & super totam a b constituo triangulum æquilaterum a b d. & protraho lineam c d. de qua dico quod ipsa est perpendicularis super lineam a b. Intelligo duos triangulos a c d & b c d. & quia duo latera a c & c d, trianguli a c d sunt æqualia duobus lateribus c b & c d, trianguli c b d, & basis a d basi b d: erit per 8 propositionē angulus a c d æqualis angulo b c d. quare uterque eorum erit rectus, per diffinitionem anguli recti: & linea c b perpendicularis super lineam a b, per diffinitionem lineæ perpendicularis. Quod est propositum.
+
+[Diagram: triangle with apex d above; base line a b with the point c between a and b, and the perpendicular line d c drawn from the apex to c]
+
+## Eucli. ex Zamb. Problema 6. Propositio 11.
+
+[Margin]
+11
+[/Margin]
+
+Data recta linea, à signo in ea dato rectā lineā ad angulos rectos excitare.
+
+THEON. ex Zamb. Sit data recta linea α β. datū uero in ea signum sit γ. Oportet ab ipso signo γ, ipsius rectæ lineæ α β: ad angulos rectos rectā lineam excitare. Suscipiatur in ipsa α γ, cōtingens signū, sitq̃ illud δ. ponatur ipsi δ γ: (per 3 propositionem) æqualis linea γ ε, & super δ ε, (per 1 propositionē) cōstruatur triangulum æqui
+
+<!-- Catchword: laterum -->

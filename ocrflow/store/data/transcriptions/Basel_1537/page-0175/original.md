@@ -1,49 +1,37 @@
-<!-- Page number: 154 -->
+<!-- Running title: LIBER SEXTVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 165 -->
 
-ponatur ε ξ, totum igitur α ξ, æquum est ipsi φ χ ψ, gnomoni. Sed φ χ ψ gnomon æqualis est ipsi γ. Igitur α ξ, ipsi γ est æquale. Ad datam igitur rectam lineam α β, dato rectilineo γ, æquale parallelogrammum comparatum est α ξ, excedens specie parallelogrammo π ο simili existente ipsi δ. Igitur δ, simile est ipsi β ξ, & β ξ. ipsi ο π, est simile, circum enim eandem dimetientem consistunt, quod fecisse oportuit.
+sin̄ & 6 huius:ipsi trianguli sunt æquianguli, & angulus b,est æqualis angulo d c e,& angulus a c b angulo e, quare per 32 primi tres anguli qui sunt ad c,sunt æquales duobus rectis, ipsi enim æquātur tribus angulis utriuslibet duobustriangulorum,ergo per 14 primi b c,est linea una quod est propositū.
 
-## Eucli.ex Camp. Propositio 29.
+[Diagram: two triangles standing on a common base line b c e: triangle with apex a on base b c, and triangle with apex d on base c e]
 
-[Margin]
-29
-[/Margin]
+## Eucli.ex Camp. Propositio 31
 
-QVamlibet lineam propositam, secundum proportionem habentem medium duóque extrema secare.
+## 31
 
-CAMPANVS Sit proposita linea a b: quam uolo diuidere secundũ proportionem habentẽ mediũ & duo extrema. Ex ipsa describo quadratum b c: & ad eius latus a c adiungo secundũ quod docet præmissa, parallelogrammũ c d æquale quadrato b c: quod sit simile b c, sitque latus parallelogrãmi c d, quod æquidistat a c: d e, & secet lineã a b in pũcto f. Dico, lineã a b esse diuisam in puncto f sicut proponitur. Est enim a d quadratũ, propter id quod est simile b c, quare a f. est æquale f d, sed & f e est æqualis a b: propter id quod est æqualis a c per 34 primi, & quia c d æquale b c: dempto ab utroque c f: erit a d æquale e b. & angulus f unius angulo f alterius. ergo per 15 huius latera sunt mutekefia: ergo e f ad f d sicut a f ad f b: & quia e f est æqualis a b, & f d: erit a b ad a f sicut a f ad f b: ergo per diffinitionem est diuisa ut proponitur. Idẽ etiã potest demõstrari ex 11 secũdi. Diuidatur enim a b in puncto f: secundũ quod docet 11 secundi, sitque c b quod continetur sub tota a b & eius parte f b: ita quod f e sit æqualis a b & a d sit quadratum a f: est itaque per prædictã 11 secũdi e b: æquale a d. Quod restat arguere ut prius per 15 huius, uel sic: cum A b sit diuisa in puncto f secundum quod docet 11 secundi: quod fit ex a b prima in f b tertiam est æquale quadrato a f secundæ: ergo per secundã partem 16 huius proportio a b primæ ad a f, secũdam est sicut a f secundæ ad f b tertiã: per diffinitionem itaque diuisa est a b ut proponitur.
+IN omni triāgulo rectāgulo superficies lateris quod subtēditur angulo recto, æqualis est superficiebus duorū laterū angulū rectum continentiū pariter acceptis,cū fuerint similes ei in lineatione & creatiōe.
 
-[Diagram: rectangle with c at top left and a at top right, divided by a vertical line toward the right and a horizontal line below; e on the left side, f and d at the right of the vertical divider, b at bottom right]
+CAMPANVS Quod proponit penultima primi de superficiebus quadratis, proponit hic penultima sexti de omnibus superficiebus similibus,unde hæc est illa tanto uniuersalior,quanto superficies laterata quadrato. Sit itaque triangulus rectangulus a b c,cuius angulus a sit rectus. Dico quod superficies constituta super latus b c,est æqualis duabus superficiebus constitutis super a b & a c,cum omnes tres superficies fuerint similes in figura & situ. Ducam perpēdicularē a d,ad lineam b c,eritq̃ per secundam partē correllarij 8 huius,proportio b c ad c a,sicut c a ad d c,& c b ad b a,sicut b a ad d b. Si itaque super quālibet trium linearum b c, c a & a b fiat superficies similis alijs in figura & situ. erit per correllarium 17 huius proportio superficiei constitutæ super b c primam ad constitutam super c a secūdam,sicut b c prima ad d c tertiam:& itē eiusdem superficiei constitutæ super b c primam ad constitutam super a b secundā:sicut b c primæ ad d b tertiam per idē correlariū.Quare per conuersam proportionalitatē superficiei a c ad superficiē c b, sicut c d ad c b,& similiter superficiei a b ad superficiem b c, sicut b d ad superficiē b c,& ponatur a c prima & c b secunda & quarta:& c d superficies tertia,& a b superficies quinta,& b d superficies sexta,& arguatur per 24 quinti quod proportio superficiei constitutæ super b c ad duas superficies cōstitutas super c a & c b simul:est sicut b c ad c d & d b simul:quia igitur b c est æqualis duabus lineis c d & d b simul sumptis,erit superficies constituta super b c æqualis duabus superficiebus constitutis super c a & a b simul sumptis:quod est propositum.
 
-## Eucli.ex Zamb. Problema 10 Propositio 30
+[Diagram: right triangle with apex a above base line b d e, perpendicular a d drawn to the base, with rectangular parallelograms constructed on the sides]
 
-[Margin]
-* τεμεῖν secare
-[/Margin]
+CAMPANI additio Cōuersam quoq̃ huius possumus facile demonstrare per modū demōstrationis ultimæ primi, sit enim triāgulus a b c,sitq̃ superficies cōstituta b c æqualis duabus superficiebus cōstitutis super duas lineas a b & a c sibi similibus Dico quod angulus a est rectꝰ,ponā enim angulum c a d rectū & lineā a d æqualē a b,& claudo superficiem ducta linea d c,eritq̃ per hanc 31 superficies constituta super c d æqualis duabus constitutis super duas lineas c a & a d similibus, quare etiam constitutæ super b c sibi simili,hæc enim posita est æqualis duabus constitutis super a b & a c sibi similibus,erit ergo linea b c æqualis c d,quare per 8 primi angulus a est rectus. Quod est propositum.
 
-Datam rectam lineam terminatam, extrema ac media ratione * dispescere.
+[Diagram: triangle with apex c at top, base d b, interior point a on the base with a line from c to the base]
 
-THEON ex Zamberto. Sit data recta linea terminata α β, oportet iam ipsam α β, rectam lineam extrema
+Sequentes duæ ex Zamberto propositiones,duabus præcedētibus ex Campano præpostero ordine respondent.
 
-[Margin]
-* τεμεῖν
-[/Margin]
+## Eucli.ex Zamb. Theorema 21 Propositio 31
 
-& media ratione *dispescere. Describatnr enim, (per 46 primi) ex α β, quadratum β γ. Compareturque (per 29 sexti,) ad α γ, ipsi β γ. æquum parallelogrammũ γ δ excedens specie α δ, simili ipsi β γ. Quadratũ autẽ est β γ, quadratũ igitur est & α δ, & quoniã æquũ est β γ, ipsi γ δ, cõmune auferatur γ ε, reliquum igitur β ζ, reliquo α δ est æquale, est autẽ & æquiangulũ. Igitur (per diffinitionem 2 tertij, & per 14 sexti) ipsorum β ζ, & δ α, reciproca sunt latera: quæ circũ æquales angulos. Est igitur sicut ζ ε, ad ε δ, sic α ε, ad ε β. Aequalis autem est ζ ε, ipsi α γ, hoc est ipsi α β. Ipsa autẽ ε δ, ipsi α ε. Est igitur sicut β α, ad α ε, sic α ε, ad ε β, maior autem est (per 34 primi,) α β, quàm α ε: maior igitur est & α ε, quàm ε β. Igitur α β, recta linea extrema & media ratione secta est, in ε, & maius segmentum ipsius est α γ, quod fecisse oportuit.
+## 31
 
-[Diagram: tall rectangle divided by a horizontal line at α on the left side and by a vertical line; δ at upper right, ε and β at middle right, γ and ζ at the bottom]
-
-ALITER Sit data recta linea α β, oportet ipsam iã α β, extrema, & media ratione secare, secetur enim α β, in γ, (per 11 secundi): ut quod sub α β, & β γ, æquum sit ei quod ex γ α, quadrato. Quoniã igitur quod sub α β & β γ. æquũ est ei quod ex γ α, est igitur (per 17 huius) sicut β α, ad α γ sic α γ, ad γ β. Igitur α β, media & extrema diuisa est ratione in γ, quod oportebat facere.
-
-## Eucli.ex Camp. Propositio 30
+In rectangulis triangulis quæ ab rectum angulum subrendente latere species, æqualis est eis quæ ab rectum angulum comprehendentibus lateribus speciebus similibus similiterq̃ descriptis.
 
 [Margin]
-30
+uide figurā
 [/Margin]
 
-SI fuerint duo anguli super unum angulum constituti quorum duo latera angulum illum continentia duobus alijs eorum lateribus æquidistet, fuerintq́; illa quatuor latera secundum æquidistantiam relata, proportionalia, illos duos triangulos super unam lineam rectam constitutos esse necesse est.
+THEON ex Zamberto. Sit triangulum α β γ,rectum habens angulum qui sub β α γ.Dico quod quæ ex β γ, species,æqualis est eis quæ ex β α,& α γ,speciebus similibus similiterque descriptis.Excitetur (per 12 primi,) perpendicularis α δ,Quoniā igitur in triangulo rectāgulo α β γ,ab α recto angulo β γ,in basin perpendicularis acta est α δ,triangula α β δ,& α δ γ,quæ ad perpendicularem,similia sunt toti α β γ,& sibi inuicem (per 8 sexti,) quoniam simile est α β γ,ipsi α β δ,est igitur sicut γ β,ad β α,sic α β,ad β δ.At quoniam tres rectæ lineæ proportionales sunt est igitur (per correlarium secundum 20 sexti,) sicut prima ad tertiam sic quæ à prima species ad eam quæ
 
-CAMPANVS Sint duo anguli a b c, d c e constituti super angulum a c d. sitque a c æquidistans d e & d c: a b, & sit proportio a c ad d e, sicut a b ad d c, dico quod duæ bases eorũ b c & c e, sunt linea una. Est enim angulus a æqualis angulo d: quia uterq́; eorũ est æqualis angulo a c d per primam partem 29 primi, igitur per præsentem hypothe
-
-<!-- Catchword: sin -->
+<!-- Catchword: à secunda -->

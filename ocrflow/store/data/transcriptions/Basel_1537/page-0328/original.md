@@ -1,43 +1,55 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 317 -->
+<!-- Page number: 318 -->
 
-## Ex Zamberto. Apotomarum Diffinitiones.
+dine commensurabili, estque tota β η, ipsi α expositæ rationali commensurabilis. Igitur (per tertias dffinitiones.{printer-error-correction:diffinitiones}) β γ apotome est prima. Inuenta igitur est prima apotome β γ. quod erat agendum.
 
-1 Siquidem tota expositæ rationali longitudine cōmensurabilis fuerit, appellatur apotome prima. 2 Si uero congruens commensurabilis fuerit, longitudine expositæ rationali, secunda appellatur apotome. 3 Si autem neutra commensurabilis fuerit expositæ rationali longitudine, tertia appellatur apotome. 4 Si quidem tota commensurabilis fuerit expositæ rationali longitudine, appellatur apotome quarta. 5 Si uero congruens, quinta. 6 Si autem neutra, sexta.
-
-### Commune initium triū priorum diffinitionū.
-
-Supposita rationali & apotomæ, siquidem tota, congruente maius potuerit eo quod fit ex sibi lōgitudine cōmēsurabili
-
-### Commune trium initium posteriorum diffinitionum.
-
-Rursus supposita rationali & apotomæ, si tota maius potuerit cōgruente eo quod fit ex sibi longitudine incommensurabili.
-
-## Eucli.ex Camp. Propositio 80
+## Eucli.ex Camp. Propositio 81
 
 [Margin]
-80
+81
 [/Margin]
 
-REsiduum primum inuestigare.
+REsiduum secundum patefacere,
 
-CAMPANVS Ab inuentione omniū specierum residui, facile nos absoluat inuentio per ordinem omnium specierum binomij. Nam in qualibet specie binomiorū si minor portio abscindatur de maiori, linea reliqua erit residuum similis speciei ut patet ex diffinitionibus tam binomiorum quàm residuorum. Proprijs tamen inuentionibus residuorum insistentes: sic inquiramus primum. Sit linea a rationalis posita, cui commensurabilis in longitudine sumatur b c, sitq̃ e numerus quadratus diuisus in f non quadratum & in quadradratum{printer-error-correction:quadratum} g. sitque proportio quadrati lineæ b c ad quatum{printer-error-correction:quadratum} lineæ c d, sicut e ad f, eritq̃ per ultimam partem septimæ, c d rationalis in potentia tantum. Cum itaque sit c b potentior c d in quadrato lineæ sibi communicantis id{printer-error-correction:in} longitudine quod patet in explanatione binomij primi, cōstat ex diffinitione lineam b d esse residuum primum.
+CAMPANVS Ad habendum residuum secundum, sit a linea rationalis posita, eique communicans in longitudine c d, & sit quadratum c d ad quadratum b c, sicut f ad e. eritq̃ b d residuum secundum ex diffinitiōe. Si dubitas, aut positas non seruas hypotheses, aut binomij secundi repetitione indiges.
 
-[Diagram: four horizontal lines: line a; line b c with intermediate point d near b; shorter line e; dotted number lines f and g]
+[Diagram: line a; line with points c, d, b (c at left, d toward the right, b at the right end); a shorter line e; dotted number line with labels f and g]
 
-## Eucli.ex Zamb. Problema 19 Propositio 85
+## Eucli.ex Zãb. Problema 19 Propositio 86
 
 [Margin]
-85
+86
 [/Margin]
 
-Inuenire primam apotomen.
+Inuenire secundam apotomen.
 
-THEON ex Zãb. Exponatur rationalis α, & ipsi α longitudine commensurabilis esto β η, rationalis igitur est β η. Exponanturq̃ bini quadrati numeri δ ε, ε ζ, quorum exceßus δ ζ non sit quadratus. Igitur (per correlariū 1 lemmatis 28 decimi.) ε δ, ad δ ζ, rationem non habet quam numerus quadratus ad quadratū numerum. Fiatq̃ (per correlariū 6 decimi) sicut ε δ, ad δ ζ, sic quod ex β η quadratū ad id quod ex η γ, quadratū, cōmēsurabile igitur est quod ex β η, ei quod ex η γ. Rōnale aūt quod ex β η, rationale igitur & quod ex η γ. Rationalis igitur est (per diffinitionem, & η γ. Et quoniā ε δ ad δ ζ rōnem nō habet quā quadratus nūerus ad quadratū nūerū. neq̃ igitur quod ex β η, ad η γ rationē habet quā quadratus numerus ad quadratū numerum, Incommensurabilis igitur est β η ipsi η γ longitudine, utræque autem sunt rationales. Ipsæ igitur β η, η γ, (per 9 decimi) rationales sunt potentia commensurabiles. Igitur ipsa β γ, apotome est (per 73 decimi. Dico quod & prima, Quo namque maius est quod ex β η, eo quod ex η γ, sit quod ex θ. Et quoniam sicut ε δ ad δ ζ, sic est quod ex β η, ad id quod ex η γ, conuertendo igitur (per correlarium 18 quinti) sicut δ ε, ad ε ζ, sic quod ex η β ad id quod ex θ, At δ ε ad ε ζ, rationē habet, quā quadratus nūerus ad quadratū numerū, uterq̃ enim quadratus est. Quod igitur ex η β, ad id quod ex θ, rationem habet quam quadratus numerus ad quadratum numerum, commēsurabilis igitur est β η ipsi θ longitudine, & β η ipsa η γ maius potest, eo quod ex θ, ipsa igitur β η ipsa η γ maius potest eo quod ex sibi longitu-
+THEON ex Zamb. Exponatur rationalis α. & ipsi α longitudine commensurabilis esto η γ. Rationalis igitur est η γ. Et exponantur bini numeri quadrati δ ε, & ε ζ, quorum exceßus δ ζ non sit quadratus. Fiatq̃ (per correrium{printer-error-correction:correlarium} 1 lēmatis 28 decimi) sicut δ ζ ad δ ε, sic quadratū quod ex η γ, ad quadratum quod ex η β, cōmensurabile igitur est (per 11 decimi,) quod ex η γ quadratū, ei quod ex η β, quadrato. Rationale autem est quod ex γ η, rationale igitur est quod ex η β. Rationalis igitur est β η. Et quoniā quod ex η γ quadratū ad id quod ex η β, rationem non habet quā quadratus numerus ad quadratū numerū, incōmensurabilis igitur est (per 19 decimi γ η. ipsi η β longitudine, & ambæ sunt rōnales. Ipsæ igitur γ η, η β, rōnales sunt potētia tantū cōmēsurabiles. Igitur (per 73 ) β γ apotome est. Dico quod & secūda. Quo etenim maius est quod ex β η, eo quod ex η γ, esto quod ex θ. Quoniam igitur est (per correlariū 6 decimi,) sicut quod ex β η, ad id quod ex η γ, sic est ε δ numerus ad δ ζ, numerum, conuertendo igitur (per correlariū 19 quinti. ) est sicut quod ex β η, ad id quod ex θ, sic est δ ε, ad δ ζ{printer-error-correction:ε ζ}, & uterque ipsorum δ ε, ε ζ, quadratus est, quod igitur ex β η, ad id quod ex θ. per 9 decimi,) rationem habet quam quadratus numerus ad quadratum numerum, commensurabilis igitur est β η, ipsi θ, & β η, ipsa η γ, maius potest, eo quod ex θ. Igitur β η, ipsa η γ, maius potest eo quod ex sibi longitudine commensurabili. Et congruens est γ η, commensurabilis longitudine ipsi α expositæ rationali. Ipsa igitur β γ per tertias diffinitiones) secunda est apotome. Inuenta est igitur secunda apotome β γ. Quod facere oportebat.
 
-[Diagram: four horizontal lines: rational line α (label printed above the middle of the line); line with points β, γ, η marked above; shorter line θ; dotted number line with points δ, ζ, ε (the numbers δ ε and ε ζ)]
+[Diagram: four horizontal lines: line α; line with points β, γ, η (β at the left end, γ near it, η at the right end); shorter line θ; dotted number line with points δ, ζ, ε]
 
-<!-- Signature: D 3 -->
+## Eucli.ex Camp. Propositio 82
 
-<!-- Catchword: dine -->
+[Margin]
+82
+[/Margin]
+
+REsiduum tertium perscrutari.
+
+CAMPANVS Residuum tertium sic habetur. Posita ut prius a rationali numeróque e quadrato diuiso in f non quadratum & g quadratū, assumptoq̃ h numero primo, sit quadratum lineæ a ad quadratum lineæ b c, sicut h ad e, sitq̃ quadratum lineæ b c ad quadratū lineæ c d, sicut e ad f. eritq̃ ex diffinitione (de quo si hæsitas consule binomium tertium) linea d b, residuum tertium.
+
+[Diagram: dotted number line e divided into parts f and g; dotted number line h; line a; line with points b, d, c (b at the left end, d in the middle, c at the right end)]
+
+## Eucli.ex Zamb. Problema 20 Propositio 87
+
+[Margin]
+87
+[/Margin]
+
+Inuenire tertiam apotomen,
+
+THEON ex Zamb. Exponatur rationalis α, explicentur tres numeri ε, β γ, γ δ, rationem adinuicem nō habentes quam quadratus numerus ad quadratum numerum. Ipse autē β γ, ad δ β rationem habeat, quam quadratus numerus ad quadratū numerū. Fiatq̃ (per correlariū 6 decimi,) sicut ε ad β γ, sic quod ex α quadratū ad id quod ex ζ η, quadratū, sicut uero β γ ad γ δ, sic quod ex ζ η, quadratū ad id quod ex η θ. Quoniam igitur est sicut η{printer-error-correction:ε} ad β γ, sic quod ex α, quadratū ad id quod ex ζ η quadratū, quod igitur ex α, quadratū ei quod ex ζ η quadrato est cōmensurabile. Quadratū autē ex α, ratiōale est. rationale igitur est & quod ex ζ η, rationalis igitur est ζ η. Et quoniā ε, ad β γ, rationem non habet quam quadratus numerus ad quadratum numerū, neque igitur quod ex α, quadratū, ad id quod ex ζ η, quadratum rationē habet quam quadratus numerus ad quadratum numerū. Incōmensurabilis igitur est (per 9 decimi) α, ipsi ζ η longitudine. Rursus quoniā est sicut β γ ad γ δ sic quod ex ζ η, quadratū ad id quod ex η θ. cōmensurabile igitur est quod ex ζ η, ei quod ex η θ. Rationale autem est quod ex ζ η. rationale igitur quod ex η θ, rationalis igitur est η θ. Et quoniam β γ, ad γ δ, rationē non habet quam quadratus numerus ad quadratum numerum, neq̃ igitur quod ex ζ η, ad id quod ex η θ, rationē habet quā quadratus nūerus ad quadratū numerū. Incōmensurabilis igitur est ζ η, ipsi η θ lōgitudine. Et utræq̃ sunt rationales, ipsæ igitur ζ η, η θ, rationales sunt, potentia tantū cōmensurabiles. Apotome igitur est
+
+[Diagram: five horizontal lines: dotted number line ε; dotted number line with labels β, δ, γ; line α; line with points ζ, θ, η; shorter line κ]
+
+<!-- Catchword: ζ θ -->

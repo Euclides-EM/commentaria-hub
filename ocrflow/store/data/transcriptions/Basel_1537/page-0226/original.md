@@ -1,33 +1,39 @@
-<!-- Running title: LIBER OCTAVVS -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 215 -->
+<!-- Page number: 216 -->
 
-quoniam est sicut γ, ad δ, sic est ζ, ad η, uicissim igitur (per 13 septimi,) est sicut γ, ad ζ, sic est δ, ad η. Rursus quoniā est sicut δ, ad ε, sic η, ad θ, uicissim igitur (per 13 septimi, est sicut δ, ad η, sic est ε, ad θ. Ipsi igitur κ, λ, μ, continue sunt proportionales in ipsius γ, ad ζ, & δ, ad η ratione, & insuper ipsius ε, ad θ. Vterque iam ipsorum ε, θ. ipsum μ, multiplicans, utrūque ipsorum, ν, ξ, faciat. & quoniam α, solidus est, latera autē eius ipsi γ, δ. ε, igitur ε, cum qui ex γ, δ, multiplicans ipsum, effecit α, at qui gignitur ex γ, δ, est κ. Igitur ε, ipsum κ, multiplicans, ipsum effecit α. Id propterea etiam θ, ipsum qui gignitur ex ζ, η, hoc est λ, multiplicās, ipsum effecit β. Et quoniam ε, ipsum κ multiplicans ipsum α, effecit, sed & ipsum μ, multiplicans ipsum ν, effecit, est igitur (per 17 septimi. sicut κ, ad μ, sic est α, ad ν. Sicut autem κ, ad μ, sic est γ, ad ζ, & δ, ad η, & insuper ε ad θ, sicut igitur γ ad ζ, & δ, ad η, & ε, ad θ, sic est α, ad ν. Rursus quoniam uterque ipsorum ε, θ, ipsum multiplicans μ, utrūq; ipsorū ν, ξ, fecit, est igitur (per 18 septimi,) sicut ε, ad θ, sic est ν, ad ξ. Sed sicut ε, ad θ, sic est γ, ad ζ, & δ, ad η, & sicut igitur (per 11 quinti,) γ ad ζ, & δ, ad η, & ε, ad θ, sic est α, ad ν. & ν, ad ξ. Rursus quoniā θ, ipsum μ, multiplicans ipsum fecit ξ, sed & ipsum λ, multiplicās ipsum effecit β, est igitur (per 17 septimi,) sicut μ, ad λ. sic ξ, ad β. Sed sicut μ, ad λ, sic est γ, ad ζ, & δ, ad η. & ε, ad θ, & sicut igitur γ, ad ζ, & δ, ad η. & ε, ad θ, sic non solam ξ ad β. sed & α, ad ν, & ν ad ξ. Igitur ipsi α, ν, ξ, β: continue sunt proportionales in prædictis laterum rationibus. Dico insuper quod & α, ad β, triplam rationē habet, quàm similis rationis latus ad similis rationis latus hoc est, quàm γ, numerus ad ζ, uel δ ad η, & insuper quàm ε, ad θ. Quoniam enim quatuor numeri continue sunt proportionales, hoc est, α, ν, ξ, β, igitur (per 10 diffinitionem quinti,) α, ad β, triplam rationē habet, quàm α, ad ν. Sed sicut α ad ν sic patuit γ, ad ζ, δ ad η, & insuper ε ad θ. Igitur α, ad β, triplā rationē habet, quàm similis rationis latus ad similis rationis latus, hoc est, quàm γ, numerus ad ζ, numerū & δ, ad η, & ε ad θ, quod erat demonstrandū.
+Sint igitur ipsius quidem ε, latera θ, κ, ipsius autem η, sint λ, μ. Manifestum igitur est ex hoc, quod ipsi ε, ζ, η, continue proportionales sunt in ipsius θ, ad λ, ratione, & ipsius κ, ad μ. Et quoniam ipsi ε, ζ. η, minimi sunt eandem rationem habentiū ipsis α, γ, δ, ex æquali igitur (per 14 septimi) est sicut ε, ad η, sic est α. ad δ. At ε, η, (per 3 octaui primi,) sunt, primi autem, & minimi, minimi uero, (per 21 septimi,) metiuntur eandem rationem habentes æqualiter: maior maiorem, & minorem, hoc est antecedens antecedentem, & sequens sequentem: æque igitur ε, ipsum α, metitur, & η, ipsum δ, quoties igitur ε, ipsum α, metitur: tot unitates sint in ipso ν. Igitur ν, ipsum ε, multiplicans, ipsum effecit α. At ε, est ex θ, κ. Igitur ν, eum qui ex θ, κ, gignitur multiplicans ipsum effecit α. Solidus igitur est α, latera autem eius sunt θ, κ, ν, Rursus quoniam ipsi ε, ζ, η, minimi sunt eandem rationem habentium ipsis γ, δ, β, æque igitur ε, ipsum γ, metitur & η, ipsum β. Quoties autem η, ipsum β metitur: tot unitates sint in ξ. Igitur η, ipsum β metitur per eas quæ in ξ, sunt unitates. Igitur ξ, ipsum η multiplicans, ipsum effecit β. At η, est ex λ, μ. Igitur ξ, cum qui ex λ, μ, gignitur multiplicās ipsum fecit β. Solidus igitur est β, latera autem eius sunt λ, μ, ξ. Igitur ipsi α, β, solidi sunt. Dico msuper quod & similes, quoniam ν ξ, ipsum ε, multiplicātes ipsos fecerunt α, γ, est igitur (per 18 septimi,) sicut ν, ad ξ, sic est α, ad γ, hoc est ε, ad ζ. Sed sicut ε, ad ζ, sic est θ, ad λ, et λ, ad μ, & sicut igitur (per 11 quinti,) θ, ad λ, sic κ, ad μ, & ν, ad ξ, & sunt quidem ipsi θ, κ, μ, latera ipsius α, ipsi uero ξ, λ, μ, latera sunt ipsius β. Igitur ipsi α, β, numeri solidi sunt similes, quod oportuit demonstrasse.
 
-[Diagram: dotted number lines α, ν, ξ, β, γ, δ, ε, ζ, η, θ, κ, μ, λ]
+[Diagram: dotted number lines α, γ, δ, β, ε, ζ, η, θ, κ, ν, λ, μ, ξ]
 
-## Eucli. ex Zamb. Theorema 18 Propositio 20
+## Eucli. ex Camp. Propositio 20
 
-**20** Si binorum numerorum unus medius proportionalis fuerit numerus, similes plani erunt ipsi numeri.
+**20** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I trium numerorum continue proportionalium primus fuerit quadratus, tertium quoque quadratum esse.
 
-THEON ex Zamberto. Duorum enim numerorum α, β, unus medius proportionalis esto γ, nnmerus. Dico quod ipsi α, β: similes plani sunt numeri, Sumantur (per 35 septimi) enim minimi numeri eandem rationem habentiū ipsis α, γ, β, duo: sintq́; δ, ε. Est igitur sicut δ, ad ε, sic est α, ad γ, sed sicut α, ad γ, sic est γ, ad β, & sicut igitur (per 11 quinti,) δ, ad ε, sic γ ad β, Aeque igitur δ, ipsum α metitur, & ε, ipsum γ, quoties autē δ, ipsum α metitur, tot unitates sint in ζ, igitur ζ, ipsum δ multiplicans ipsum effecit α, Ipsum autem ε, multiplicans, ipsum fecit γ, quare α, planus est: latera autem eius sunt δ, ζ, (per 22 diffinitionē septimi.) Rursus quoniam ipsi δ, ε, minimi sunt eandem rationem habentium ipsis γ, β, æque igitur (per 21 septimi,) δ, ipsum γ, metitur & ε, ipsum β. Quoties, autē ε, ipsum β, metitur, tot unitates sint in ipso η, Igitur ε, ipsum β, metitur per eas quæ in η, sunt unitates, igitur η, ipsum ε multiplicās, ipsum effecit β, igitur planus est (per 23 diffinitionē septimi,) latera aūt eius sunt ε, η. Igitur ipsi α β, plani sunt duo numeri. Dico insuper quod & similes. Quoniam enim uetrq́; ipsorū ζ, η, ipsum ε, multiplicans, utrunque ipsorū γ, β, effecit, est igitur (per 17 septimi,) sicut ζ ad η, sicut est γ, ad β. Sicut autem γ, ad β, sic δ ad ε, & sicut igitur (per 11 quinti,) δ ad ε, sic ζ, ad ζ. Ipsi igitur α, β similes plani sunt numeri, eorum enim latera proportionalia sunt quod erat demonstrandum.
+CAMPANVS Sint tres numeri continue proportionales a, b, c, sitque a quadratus. Dico quod c est etiam quadratus: sunt enim per 17 a & c superficiales & similes, cum igitur a sit quadratus: per hypothesin, erit c quadratus.
 
-[Diagram: dotted number lines α, γ, β, δ, ε, ζ, η]
+[Diagram: dotted number lines a, b, c]
 
-[Margin]
-Hoc fiet, per 35 septimi, sumendo ipsorum aut α γ, aut γ β, maximam dimensionem per quam inuenientur duo in eadem ratione miuimi, hoc est δ, ε.
-[/Margin]
+## Eucli. ex Zamb. Theorema 20 Propositio 22
 
-## Eucli. ex Zamb. Theorema 19 Propositio 21
+**22** Si tres numeri continue proportionales fuerint, primusque fuerit quadratus, & tertius quadratus erit.
 
-**21** Si duorum numerorū duo medij proportionales fuerint numeri similes solidi sunt ipsi numeri.
+THEON ex Zamberto. Sint tres numeri continue proportionales α, β, γ, primus autem sit quadratus. Eico quod & tertius quadratus est, quoniam enim ipsorum α, γ, (per 20 octaui,) unus medius proportioualis est numerus β, igitur α, γ, similes plani sunt, at quadratus est α, quadratus igitur est & γ, quod erat demonstrādum.
 
-THEON ex Zamberto. Duorum enim numerorum α, β, duo medij proportionales sint numeri γ, δ, dico quod ipsi α, β, similes solidi sunt. Sumantur enim (per 35 septimi, aut 2 octaui,) minimi numeri eandem rationem habentium eisdem α, γ, δ, β, tres: sintque ε, ζ, η. Igitur (per tertiā octaui) eorum extremi ε, η, primi adinuicē sunt, & quoniā ipsorū ε, η, unus medius proportionalis est numerus, similes igitur plani sunt (per 20 octaui.)
+[Diagram: dotted number lines β, β, δ (sic, for α, β, γ)]
 
-[Diagram: dotted number lines α, γ, δ, β, ε, ζ, η, θ, κ, λ, μ]
+## Eucli. ex Camp. Propositio 21
 
-[Margin]
-Hoc fiet, per 35 sep. sumendo ipsorū aut α γ δ, aut γ δ β, maximā dimēsionē per quā inueniētur tres in eadē ratione minimi. Aut ipsorū uel α γ, uel γ δ, uel δ β, sumendo maximū dimensionē per quā sumētur duo in eadē ratione minimi, per quos per 2 octaui sumētur tres, hoc est ε ζ, η
-[/Margin]
+**21** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I quatuor numerorum continue proportionalium primus fuit cubus, quartum cubum esse necesse est.
 
-<!-- Catchword: Sint -->
+CAMPANVS Sint quatuor numeri continue proportionales a, b, c, d sitque a cubus, dico quod d est etiam cubus, constat enim per 19 quod a & d sunt solidi similes, & quia a est cubus per hypothesin, erit etiam d cubus.
+
+## Eucli. ex Zamb. Theorema 22 Propositio 23
+
+**23** Si quatuor numeri continue proportionales fuerint, primus autem cubus fuerit, & quartus cubus erit.
+
+THEON ex Zamberto. Sint quatuor numeri proportionales continue, α, β, γ, δ, sit autem α, cubus, dico quod & δ, cubus erit. Quoniam enim ipsorum α, δ, duo medij proportionales sunt numeri β, γ, Ipsi igitur α, δ, similes sunt solidi numeri, at α, cubus est, cubus igitur est & δ, quod demonstrasse oportuit.
+
+[Diagram: dotted number lines α, β, γ, δ]
+
+<!-- Catchword: Eucli. -->

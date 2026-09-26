@@ -1,23 +1,33 @@
-<!-- Running title: DATA -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-<!-- Page number: 571 -->
+<!-- Page number: 574 -->
 
-est ei quod bis sub utroque e c d & a b. Quare quod ex utroq; b a c maius est eo quod ex b c, eo quod bis sub utroq; c a d & a b. Quare quod ab utroque b a c maius est eo q̃ ex b c, eo quod bis sub utroq; d a c & b a, & quoniam angulus b a c datus est, & qui sub a d c quoque datus est. Et reliquus igitur qui sub d c a datus est. Datur igitur triangulum a d c, specie. Ratio igitur ipsius a d ad a c, data est, quare & utriusque d a c ad a c, ratio est data. Et eius igitur quod sub utroque d a c, & a b ad id quod sub b a c, ratio est data. Et eius quod bis sub utroque d a c & a b ad id quod sub b a c ratio est data. Eo quia qui sub b a c, angulus datus est, & eius quod bis sub utroque d a c, & a b igitur ad a b c triangulum ratio data est. Sed iam esto angulus qui sub b a c obtusus, & producta b a in eam per duodecimam primi elementorum perpēdicularis agatur c e, & ponatur per secundam primi elementorum ipsi a e æqualis a f.
-
-[Diagram: a right triangle with b at the top left, a at the bottom left and c at the bottom right; the hypotenuse runs from b down to c]
-
-Quoniā igitur angulus b a c, est obtusus excitaturq́; perpendicularis c e, quæ igitur ex b a, a c una cum eo quod bis sub b a e, hoc est bis sub b a f, æqua sunt ei quod ex b c. Cōmune proiectum sit quod bis sub b a c. Quæ igitur ex b a, a c unà cum eo quod bis sub b a c, hoc est, ex utroque b a c, una cum eo quod bis sub b a f, æqua sunt ei quod ex b c, una cum eo quod bis sub b a c. Cōmune auferatur quod bis sub b a f, quod igitur ab utroque b a c æquū est ei quod ex b c, & ei q̃ bis sub b a c f. Quare quæ ex utroque b a c, id quod ex b c, excedit eo quod bis sub b a e f, & quoniam angulus b a c. datus est, & qui sub e a c, igitur datus est. Sed & qui sub c e a, datus est, & reliquus igitur qui sub a c e. datus est. Datur igitur a e c triāgulum specie. Ratio igitur ipsius c a ad a e, data est, hoc est ad a f. Quare & ipsius a c ad c f, ratio est data. Ipsius autem a c ad c e ratio est data, & ipsius e c ad c f igitur ratio est data. Quare & eius qd' sub e c, a b ad id quod sub c f a b ratio est data. Ipsius autē q̃ ex a b, c e ad a b c, triāgulum ratio est data: quare & eius quod sub c f, b a ad b c triangulum ratio est data, estque quod bis sub f c b a, quo maius est quod ex b c: eo igitur maius est quod ex utroque b a c eo quod ex b c, ea area ad triangulum rationem habet datam.
-
-[Diagram: a triangle with apex a at the top, d on the right side below a, c at the bottom left and b at the bottom right; lines run from c to d and from c to a]
-
-[Diagram: an elongated obtuse triangle with e at the upper left, c at the lower left, b at the right and a in the middle of the upper side; f inside at the left, with lines from c to a and from e to b crossing]
+ipsi c d, est autem & æquiangulum. Igitur per 14 sexti elementorum latera quæ circum æquos angulos sunt reciproca, est igitur sicut e b ad f d, sic est c f ad e h. Ratio autē ipsius e b ad f d data, & ipsius igitur c f ad e h, ratio est data, ipsius autem e h ad a e, ratio est data, & ipsius igitur a e ad c f, ratio est data.
 
 ### Aliter.
 
-Excitetur b a & ipsi a c æqualis ponatur d a connectaturque d c. Quoniam igitur angulus a b c datus est, & eius uterque qui sub a d c, a c d, dimidium est. Datur ergo uterque eorum qui sub a d c, a c d, & reliquus igitur qui sub d a c, datus est. Datur ergo triangulum a c d specie. Ratio igitur ipsius a c ad c d, data est. Et quoniam qui sub a d c, datus est, excitetur eidem æquus uterque eorum qui sub d e c, a f c, per uigesimamsecundam primi elementorum. Et quoniam angulus b d c, ipsi d e c æquus est. Cōmunis autem qui sub a b c, ipsius d b e trianguli existens, & ipsius d b c. Reliquus igitur angulus d b e, reliquo angulo b c d est æqualis, æquiangulum igitur est b d e, triangulum ipsi d b c triangulo. Est igitur sicut e b ad b d, sic est d b ad c b. Quod igitur sub e b, b c, hoc est quod sub e c b, una cum eo quod ex c b ei æquum est quod ex b d, hoc est ei quod ex utroque b a c, æqualis enim est d a ipsi a c. Quod igitur sub e c b, una cum eo quod ex c b, æquum est ei quod ex utroque b a c. Quod igitur ex utroq; b a c, id qd' ex b c excedit eo q̃ sub b c e. Dico igitur quod ratio ipsius qui sub b c e ad a b c, triangulū data est. Quoniā æqualis est angulus b d e, angulo b c d, quorū qui sub a d c, ei qui sub a c d, est æqualis. Reliquus ergo qui sub c d e, reliquo qui sub a c b est æqualis. Est autem & qui sub d e c, ei qui sub a f c, æqualis: reliquus ergo qui sub c a f, reliquo qui sub d c e, est æqualis, æquiangulum igitur est triangulum a c f, triangulo d e c. Est igitur sicut c a ad a f, sic d c ad c e: & uicissim igitur per decimāsextam quinti
+Exponatur data recta linea k, & quoniam ratio ipsius a ad b data est, eadem eidem fiat quæ ipsius k ad l. Ratio autē ipsius a ad b data, & ipsius igitur k ad l ratio est data. Data autem est k, data igitur & l per cōuersionem primæ diffinitionis. Rursus quoniam ipsius c d ad e f, ratio est data, eadem eidem fiat quæ ipsius k ad m. Igitur ratio ipsius k ad m data est. Data autem & k, data igitur & m, est autem & l data. Ratio igitur & ipsius l ad m data est, & quoniam æquiangulum est a ipsi b, igitur a ad b rationē habet ex lateribus cōpositam, per 23 sexti ele. hoc est ex ea ratione quam habet c d ad e f, & h c ad e g. Sed & k ad l rationem habet cōpositā ex ea quam habet k ad m, & m ad l. Ratio igitur composita ex ea quam habet c d ad e f, & h c ad g e eadem est compositæ rationi ex ea quam habet k ad m, & m ad l. Quarū ipsius c d ad e f, ratio eadē est ei quæ est ipsius k ad m ratiōi, reliqua ergo quæ ipsius h c ad g e, ratio eadē est ei quæ est ipsius m ad l. ipsius autē m ad l ratio est data. Igitur & ipsius h c ad e g, ratio est data.
 
-[Diagram: a large triangle with apex d at the top, c at the bottom left and b at the bottom right; a smaller point a on the right side, with lines fanning from a down to points e, g, f on the base; a vertical line drops from d to the base]
+[Diagram: at right, two pairs of rectangles: the upper pair with c at the top left of the first, k and a at the top of the second, b between them, e at the right, and d, f, g, b along the bottom; the lower pair with g at the top left, b inside the left rectangle, f and e at its base, d inside the right rectangle with l above and c at its base; below them three horizontal line segments labelled k, m, l]
 
-<!-- Signature: Bb 4 -->
+### Scholium.
 
-<!-- Catchword: elemē. -->
+Si fuerint binæ rectæ lineæ, assumaturq́; quædam una recta linea, una priorum ad alteram rationem habet cōpositam ex ea quam habet prima ad extrinsecus utcunq; sumptam, & quam assumpta ad alteram.
+
+## Theorema 69 — Propositio 69
+
+SI bina parallelogramma datos angulos habuerint, habuerint autem & ad inuicem rationem datam, unumq́; latus uni lateri rationem habuerit datam, & reliquum latus ad reliquum latus rationem datam habebit,
+
+Bina siquidem parallelogramma a b, g e, datos habētia angulos, eos qui ad d f, adinuicem rationē datā habeant. Ipsius autem d b ad f g, ratio sit data. Dico quod & ipsius a d ad e f ratio data est. Siquidem igitur æquiangulum est a b parallelogrammum ipsi e g, parallelogrammo, manifestū est. Si autē non. Cōstituatur per 23 primi elemen. ad ipsam d b ad signumq́; in ea d ei qui sub e f g, æqualis angulus b d k. Compleaturq́; d l, parallelogrammum. Quoniā uterq; ipsorū d a c, a k d, angulorum datus est, & reliquus igitur qui sub a d k, datus est. Datur igitur triangulum a d k specie. Igitur ipsius a d ad d k, ratio data est. Et qm̄ ipsius d c ad f h ratio est data, supponitur enim & est æquū d c ipsi d l, per 35 primi ele. Ratio igitur ipsius d l ad f h data est. Et æquiangulum est d l ipsi f h, & ratio ipsius d l ad f h data est. Estq́; ipsius d l ad e g, ratio data, & insuper ipsius d b ad f g id enim est receptum. Ratio igitur & ipsius d k ad e f data est, & ipsius d k ad d a ratio est data, & ipsius igitur a d ad e f, ratio est data.
+
+[Diagram: at left a rectangle with b at its top left, e at its top right, and g, f at its base; at right a parallelogram with e, l, a, k along its top edge, b and d at its base, crossed by slanted lines]
+
+### Scholium.
+
+In uniuersum enim si parallelogrammi unus angulus datus fuerit, & reliqui dati erunt, uno enim dato necessario & consequentes dabuntur, quare & econuerso.
+
+## Theorema 70 — Propositio 70
+
+SI binorum parallelogrammorum quæ circum æquales angulos
+
+<!-- Catchword: uel -->

@@ -1,55 +1,29 @@
-<!-- Running title: LIBER SECVNDVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 41 -->
+<!-- Page number: 42 -->
 
-Sint duæ lineæ a b & c, quarū una scilicet a b, in quotlibet partes diuidatur quæ sint a d & d e & e b: dico q̃ illud quod fit ex ductu c in totum a b, æquum est illis parallelogrāmis rectangulis simul iunctis quæ fiunt ex c in a d & in d e & in e b. Super puncta a, b, erigam lineas a f & b g perpendiculares super lineam a b, quarū utraq̃ sit æqualis lineæ c, & complebo rectangulā superficiē a f b g, ducta linea f g, quæ per diffinitionem producitur ex c in a b, & sub illis dicitur cōtineri. Protraham quoq̃ per 31 primi a punctis d & e, lineas d h & e k æquidistātes lateribus a f & b g, eritq̃ utraq̃ earum æqualis c per 34 primi, quoniā utraq̃ earū est æqualis a f: per diffinitionem igitur superficies a d f h producitur ex c in a d, & sub illis dicitur contineri, & rectangulū d h e k, ex c in d e, & rectangulū e k g b, ex c in e b. Et quia hæc rectangula simul iuncta sunt æqualia totali rectangulo a f b g, patet uerū esse propositū.
+seipsam & alterius in alteram.
 
-[Diagram: rectangle on base a b divided by the verticals d h and e k into three rectangles; f, h, k, g along the top, a, d, e, b along the bottom; beside it the separate line c]
+CAMPANVS. Sit linea a b diuisa in a c & b c, dico q̃ illud quod fit ex tota a b in eius partem a c, æquũ est quadrato eiusdem a c partis, & ei quod fit ex eadem parte a c in b c. Fiat quadratũ lineæ a c q̃d sit a c d f, & perficiatur superficies a b d e, patebitq̃ propositũ. Aliter. Sumatur g æqualis a c. Et quia b a in a c tantũ est quantũ a c in a b & ecõuerso, & a c in a b, item & in c b & in seipsam quantũ g in easdem, at g in totã a b quantũ in a c & in c b per primã huius, patet propositũ, scilicet, q̃ tantũ erit a c in a b quantũ in se & in c b. Quare ecõuerso a b in a c quantũ a c in se & in c b. Quod uolum⁹ demõstrare.
 
-## Eucli. ex Zamb. Theorema 1 Propositio 1
+[Diagram: rectangle a b d e with top corners e, d and bottom corners b, a; vertical line f c divides it, f on the top side, c on the bottom side; letter g stands alone outside to the left]
 
-[Margin]
-1
-[/Margin]
+## Eucli.ex Zamb. Theorema 3 Propositio 3
 
-Si fuerint binæ rectæ lineæ, seceturq̃ ipsarū altera in quotcunq̃ segmēta, rectangulum sub duabus rectis lineis, æquum est eis quæ ab insecta & quolibet segmento rectangulis comprehenduntur.
+3 Si recta linea secetur utcunq̃, rectangulũ sub tota & uno segmentorũ comprehensum, æquum est ei quod sub segmentis cõprehenditur rectangulo, & ei quod ex prædicto segmento fit quadrato.
 
-THEON ex Zamb. Sint binæ rectæ lineæ α & β γ, seceturq̃ earū altera β γ utcunq̃, in δ, ε, signis. Dico quod rectangulū cōprehensum sub α & β γ, æquū est rectangulo cōprehenso sub α & β δ, & ei quod sub α & δ ε, & etiā ei quod sub α & ε γ. Excitetur nanq̃ (per 11) ipsi β γ ad angulos rectos β ζ: ponatur quoq̃ (per 3 primi) ipsi α æqualis β η, & per η ipsi β γ (per 31 primi) parallelus excitetur η θ, per δ, ε, γ uero ipsi β η excitentur paralleli δ κ, ε λ, γ θ. Æquū est iam β θ ipsis β κ, δ λ, ε θ. Et β θ quidem est id quod sub α & β γ: cōprehenditur enim sub η β & β γ, æqualis autē est η β ipsi α. At β κ ei quod ex α & β δ: comprehenditur nanq̃ sub η β & β δ, æqualis autē est β η ipsi α. At δ λ ei quod sub α & δ ε: æqualis nanq̃ est δ κ, hoc est β η, ipsi α. Et insuper similiter & ε θ ei quod sub α & ε γ. Quod igitur sub α & β γ, cōprehenditur, æquum est ei quod sub α & β δ, & ei quod sub α & δ ε, & ei insuper quod sub α & ε γ. Si fuerint ergo binæ rectæ lineæ, seceturq̃ earū altera, & quæ sequitur reliqua, quod erat ostendendum.
+THEON ex Zamb. Recta enim linea α β, secetur utcunq̃ in signo γ. Dico quod rectangulũ comprehensum sub α β & β γ, æquũ est rectangulo cõprehenso sub α γ & γ β, cum quadrato quod ex β γ. Describatur enim (per 46 primi) ex β γ, quadratũ γ δ ε β, & extendatur ε δ in ζ, (per 2 postulatũ.) Et per α, utriq̃ γ δ & β ε, (per 31 primi) parallelus excitetur α ζ. Aequũ iam est α ε, ipsis α δ & γ ε, estq̃ α ε rectangulum cõprehensum sub α β & β γ, cõprehenditur etenim sub α β & β ε, & æqualis est β ε ipsi β γ. Et α δ est quod sub α γ & γ β, æqualis enim est δ γ ipsi γ β, at δ β quadratũ est q̃d fit ex γ β. Rectangulũ igitur contentũ sub α β & β γ, æquũ est rectangulo cõprehenso sub α γ & γ β cum quadrato quod ex β γ. Si recta igitur linea secetur & quæ sequũtur reliqua ut in theoremate. Quod demõstrasse oportuit.
 
-[Diagram: rectangle β γ θ η divided by the verticals δ κ and ε λ into three rectangles; β, δ, ε, γ along the top, η, κ, λ, θ along the bottom, ζ below η; beneath it the separate line α]
+[Diagram: rectangle with top side marked β, γ, α and bottom side marked ε, δ, ζ; the vertical line γ δ divides it into the square β γ δ ε and the rectangle γ α ζ δ]
 
-## Eucli. ex Camp. Propositio 2.
+## Eucli.ex Camp. Propositio 4
 
-[Margin]
-2
-[/Margin]
+4 SI fuerit linea in duas partes diuisa, illud quod ex ductu totius in seipsam fit, æquũ est ĳs quæ ex ductu utriusq̃ partis in seipsam & alterius in alterã bis. Ex hoc manifestũ est q̃ in omni quadrato duæ superficies quas diameter secat per mediũ, sunt ambæ qnadratæ. {dropcap:S|lines=?|style=decorated|decoration="woodcut"}
 
-SI fuerit linea in partes diuisa, illud quod ex ductu totius lineæ in seipsam fit, æquū erit ijs quæ ex ductu eiusdē in omnes suas p̄tes.
+CAMPANVS. Sit linea a b diuisa in a c & b c, dico q̃ quadratũ totius a b, æquũ est duob. quadratis duarũ linearũ a c & b c & duplo eius quod fit ex ductu unius earũ in alterã. Describã quadratũ alterius partium, sitq̃ c d b e, quadratũ lineæ c b, cui adiungam gnomonẽ secundũ ductum directiuũ lineæ alterius, scilicet a c, quem faciã hoc modo. In quadrato descripto protrahã diametrũ b d, & à pũcto a educã perpendicularẽ super lineam a b, quæ sit a k, quã a k & diametrũ b d, producã usquequo per penultimã petitionẽ concurrant in puncto f, & à puncto f, producã f h æquidistantẽ lineæ a b, quam f h & b e, producã usq̃quo concurrãt in puncto g, & producã c d usq̃ ad h, & e d usq̃ ad k. Et quia duo latera d e & e b, trianguli d e b sunt æqualia, erunt per 5 primi, duo anguli e d b & e b d æquales; & quia angulus e est rectus, erit per 32 primi uterq̃ eorũ medietas recti, eadem ratione uterq̃ duorũ angulorũ c d b & c b d, erit medietas recti. Quare per secũdam partẽ 29 primi, & 15 eiusdẽ, erit unusquisq̃ quatuor angulorũ qui sunt h f d & h d f & k f d & k d f, medietas recti: ergo per 6 primi, f g & g h sunt æquales, similiter quoq̃ f a & a b, pari ratione f h & h d, itemq̃ f k & k d, quare utraq̃ duarũ superficierũ a b g f & k d h f, est quadrata. Et quia totale quadratũ a b f g quod est quadratũ lineæ a b, constat ex duobus quadratis quæ consistunt circa diametrũ quæ sunt quadrata duarũ linearũ a c & c b, & ex duobus supplemẽtis quorũ unumquodq̃ producitur ex a c in b c, patet propositũ nostrũ. Aliter. Sit linea a b, ut prius diuisa in a c & c b, eritq̃ per 2 huius quod fit ex tota a b in se, æquũ ei quod fit ex ipsa in a c & c b, sed ex ipsa in a c tantum fit quantũ ex a c in se & ex a c in b c, per 3 huius. Itemq̃ ex ipsa a b tota in b c tantum fit quantum ex c b in se & ex c b in a c per eandem, ergo quod fit ex tota a b in se, æquum est ei quod fit ex a c in se & in c b, & ex c b in se & in a c, quod est propositũ. Sed hac uia non patet correlarium, sicut uia præcedenti patet, unde prima est autori magis consona.
 
-CAMPANVS. Sit linea diuisa in a c & c d & d b, dico q̃ illud quod fit ex ductu totius a b in se, quod sit a e b f, æquū est ijs quæ fiunt ex tota a b in unamquamq̃ dictarū partium, quod palàm patebit, ductis c g & d h æquidistanter a e & b f. Aliter. Sumatur k æqualis a b, & dico per præmissam q̃d fit ex ductu k in totā a b, æquū ei quod fit ex ductu k in omnes partes a b. Et quia ex k in a b tantū fit, quantū ex a b in se, & ex k in omnes partes a b, quantū ex a b in omnes partes eiusdē, propter id q̃ k & a b sunt æquales, patet uerum esse propositū.
+[Diagram: square with corners f (top left), g (top right), a (bottom left), b (bottom right); diagonal f b; h on the top side, k on the left side, e on the right side, c on the bottom side, d inside where the vertical line h c and the horizontal line k e cross the diagonal, forming the square c d e b and the gnomon]
 
-[Diagram: rectangle on base a b divided by the verticals c g and d h into three rectangles; e, g, h, f along the top, a, c, d, b along the bottom; beside it the separate vertical line k]
+## Eucli. ex Zamb. Theorema 4 Propositio 4
 
-## Eucli. ex Zamb. Theorema 2 Propositio 2
-
-[Margin]
-2
-[/Margin]
-
-Si recta linea secetur utcunq̃, quæ sub tota & quolibet segmentorū rectangula cōprehenduntur, æqualia sunt ei quod ex toto est quadrato.
-
-THEON ex Zamb. Recta enim linea α β, secetur utcunq̃, in signo γ. Dico quod rectangulū comprehensum sub α β & β γ, cum rectangulo cōprehenso sub β α & α γ, æquū est quadrato quod ex α β. Describatur enim (per 46 primi) ex α β, quadratū α δ ε β, exciteturq̃ (per 31 primi) per γ, utriq̃ α δ & β ε parallelus γ ζ. Æquū est igitur α ε ipsis α ζ & γ ε. Et α ε quidē est quadratū quod ex α β. Α ζ uero rectangulū contentū sub β α & α γ: comprehenditur enim sub δ α & α γ, æqualis autē est α δ ipsi α β. Et γ ε ei quod sub α β & β γ: æqualis enim est β ε ipsi α β. Quod igitur sub β α & α γ, cum eo quod sub α β & β γ, æquū est quadrato quod ex α β. Si recta igitur linea, & quæ sequuntur reliqua, ut in theoremate, quod ostendere oportuit.
-
-[Diagram: square on α β with α, γ, β along the top and δ, ζ, ε along the bottom; the vertical γ ζ dividing it in two]
-
-## Eucli. ex Camp. Propositio 3.
-
-[Margin]
-3
-[/Margin]
-
-SI fuerit linea in duas partes diuisa, illud quod fiet ex ductu totius in alterutrā partem, æquū erit ijs quæ ex ductu eiusdem partis in
-
-<!-- Signature: d 3 -->
-
-<!-- Catchword: seipsam -->
+<!-- Catchword: Si recta -->

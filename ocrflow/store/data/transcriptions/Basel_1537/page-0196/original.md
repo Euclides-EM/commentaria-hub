@@ -1,45 +1,51 @@
-<!-- Running title: LIBER SEPTIMVS -->
+<!-- Page number: 186 -->
 
-<!-- Page number: 185 -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-## Eucli.ex Zamb. Theorema 17 Propositio 19
+Similiter quoq̃.
 
-[Margin]
-19
-[/Margin]
+## Quotlibet numeri, siue in eadem proportione siue in diuersis minimi, numerant omnes in eadem proportione quisque suum correlarium æqualiter.
 
-Si quatuor numeri proportionales fuerint, qui ex primo & quarto fit, æquus est ei qui ex secundo & tertio . Etsi qui ex primo & quarto fit numerus æqualis fuerit ei qui ex secundo & tertio, ipsi quatuor numeri proportionales erunt.
+Vt si sint a,b,c, minimi in eadem proportione uel in diuersis, sintq̃ in eadem uel eisdem d,e,f, ita quod sit d ad e, ut a ad b, & e ad f, ut b ad c: dico quod a numerat d, & b,e, & c,f, æqualiter: quia enim est a ad b, ut d ad e, erit permutatim a ad d, ut b ad e: & quia b ad c, ut e ad f, erit etiam permutatim b ad e, ut c ad f, quare b ad e, & c ad f, sicut a ad d, & quia a,b,c, sunt minores d,e,f, erit b,e, & c,f, tota pars aut partes, quota est a,d. Si itaq̃ pars, constat propositum. At si partes, sit g una partium a, & h una partium b, & k una c, eritq̃ per præsentem hypothesin tota pars h,e, & k,f, quota g,d: quare per diffinitionem h ad e, & k ad f, sicut g ad d, permutatim igitur erit g ad h, ut d ad e, & h ad κ, ut e ad f: quare g ad h, ut a ad b, & h ad κ, ut b ad c, quia ergo g,h,κ, sunt minores a,b,c, & in eadem proportione, sequitur contrarium positi.
 
-THEON ex Zamberto. Sint quatuor numeri proportionales α,β, γ,δ, sicut α ad β, sic γ ad δ : & α quidem ipsum δ multiplicans, efficiat ipsum ε, & β ipsum γ multiplicans, efficiat ipsum ζ. Dico quod æqualis est ε ipsi ζ . Ipse autem α ipsum γ multiplicans, efficiat ipsum η. Quoniam igitur α ipsum γ multiplicans , ipsum η fecit , multiplicans autem ipsum δ , ipsum ε fecit , numerus iam α duos numeros γ,δ, multiplicans, ipsos η,ε, fecit, & igitur (per 17 septimi) sicut γ ad δ, sic est η ad ε. Sicut autem γ ad δ, sic α ad β: & sicut igitur (per 11 quinti) α ad β , sic η ad ε . Rursus quoniam α ipsum γ multiplicans , ipsum η fecit , sed β ipsum γ multiplicans, ipsum ζ fecit , duo iam numeri α, β, numerum aliquem γ multiplicantes, ipsos fecerunt η,ζ : est igitur (per 18 septimi) sicut α ad β, sic η ad ζ, sed sicut α ad β, sic η ad ε, & sicut igitur (per 11 quinti) η ad ε, sic η ad ζ. Igitur η ad utrunq̃ ipsorum ε, ζ. eandem habet rationem : æqualis igitur est ε ipsi ζ (per 7 quinti.) Sit uero rursus æqualis ε ipsi ζ. Dico quod est sicut α ad β, sic est γ ad δ. Eisdem namq̃ dispositis, quoniam α ipsos γ, δ, multiplicans, ipsos η, ε, fecit, est igitur (per 17 septimi) sicut γ ad δ, sic η ad ε : æqualis autem est ε ipsi ζ: est igitur sicut η ad ε, sic η ad ζ (per secundam partem septimæquinti.) Sed sicut quidem η ad ε, sic γ ad δ : sicut igitur γ ad δ, sic η ad ζ : sicut autem η ad ad ζ, sic α ad β , (per 18 septimi) sicut igitur (per 11 quinti) α ad β, sic γ ad δ . Quod oportebat demonstrare.
+[Diagram: dotted number lines beside the text: d········ e······ f···· / a···· b··· c·· / d········ e······· e···· the third label is printed e for f / a···· b··· c·· / g··· h·· k·]
 
-[Diagram: dot-columns in the right margin labelled at the foot η, ζ, ε, δ, γ, β, α]
-
-## Eucli. ex Zamb. Theorema 18 Propositio 20
-
-[Margin]
-20
-[/Margin]
-
-Si tres numeri proportionales fuerint, qui sub extremis æqualibus est ei qui à medio . Et si qui sub extremis æqualibus fuerit ei qui à medio, ipsi tres numeri proportionales erunt.
-
-THEON ex Zamberto. Sint tres numeri proportionales α, β, γ, sicut α ad β, sic β ad γ. Dico quod qui ex ipsis α,γ, æquus est ei qui ex β. Ponatur enim ipsi β æqualis δ: est igitur sicut α ad β , sic δ ad γ . Igitur qui ex ipsis α, γ, æquus est ei qui ex β, δ, atqui ex β, δ, æquus est ei qui ex β: æqualis enim est β ipsi δ . Qui igitur ex α, γ, æquus est ei qui β.
-
-Sed qui ex α,γ, æquus esto ei qui ex β. Dico quod sicut α ad β, sic est β ad γ. Quoniam enim qni ex α,γ, æquus est ei qui ex β, qui uero ex β, æquus est ei qui ex β,δ, est igitur (per undecimam quinti) sicut α ad β, sic δ ad γ, æquus autem est β ipsi δ : est igitur sicut α ad β, sic β ad γ, quod erat demonstrandum.
-
-[Diagram: dot-columns in the right margin labelled at the foot δ, γ, β, α]
-
-## Euclides ex Campano. Propositio 21
+## Eucli. ex Zamb. — Theorema 19 — Propositio 21
 
 [Margin]
 21
 [/Margin]
 
-NVmeri secundum quamlibet proportionem minimi, numerant quoslibet in eadem proportione, minor minorem & maior maiorem æqualiter.
+## Minimi numeri eandem rationem habentium eis, metiuntur eandem rationem habentes æqualiter, maior maiorem, minor minorem.
 
-CAMPANVS. Sint a & b, minimi numeri in sua proportione, sitq̃ c ad d , sicut a ad b : dico quod a numerat c, & b, d, æqualiter . Cum sit enim a ad b, sicut c ad d, erit permutatim a ad c, sieut b ad d : erit igitur a, c tota pars uel partes, quota uel quotæ b,d: si itaq̃ fuerit pars, constat propositum. At si partes, sit e una partium a, & f una partium b, & quia tota pars est e, c per hypothesin quota f, d, erit per diffinitionem proportio e ad c, sicut f ad d, quare permutatim e ad f, sicut c ad d; quare etiam sicut a ad b: non sunt itaque a & b, minimi suæ proportionis , quod est contrarium positis.
+THEON ex Zamberto. Sint enim minimi numeri eandem rationem habentium ipsis α,β, ipsi γδ & εζ. Dico quod æqualiter γδ ipsum α metitur, & εζ ipsum β. ipse enim γδ, ipsius α non est partes. Si enim possibile, esto γδ ipsius α partes: & εζ igitur ipsius β eædem partes est, quæ & γδ ipsius α. Igitur quot sunt in γδ, partes ipsius α, tot sunt & in εζ, partes ipsius β. Diuidatur quidem γδ in ipsius α partes, hoc est γη & ηδ. Sicq̃ εζ in ipsius β partes, hoc est εθ & θζ, erit iam æqualis multitudo ipsorum γη & ηδ, multitudini ipsorum εθ & θζ: & quoniam æquales sunt γη & ηδ numeri adinuicem, sunt autem & εθ,θζ numeri inuicem æquales, estq̃ multitudo ipsorum γη & ηδ æqualis multitudini ipsorum εθ & θζ: est igitur (per 7 quinti) sicut γη ad εθ, sic ηδ ad θζ. Erit igitur (per 12 septimi) & sicut unus antecedentiū ad unum sequentium, sic omnes antecedentes ad omnes sequentes. Est igitur sicut γη ad εθ, sic γδ ad εζ. Igitur γη & εθ, ipsius γδ & εζ in eadem ratione sunt, minores existentes eis, quod est impossibile. Supponuntur enim ipsi γδ & εζ minimi, eandem rationem habentium eis. Igitur γδ minime partes est ipsius α, pars igitur, & εζ igitur ipsius β eadem pars est quæ & γδ ipsius α, pariter igitur γδ ipsum α metitur, & εζ ipsum β, quod oportebat demonstrare.
 
-[Diagram: dot-rows in the right margin: c (4 dots) and d (2 dots); a (2 dots) and b (1 dot); lower, c (6 dots) and d (3 dots); a (4 dots) and b (2 dots); e (2 dots) and f (1 dot)]
+[Diagram: dotted number lines beside the text: γ··η··δ / ε···θ·ζ / α········· / β·······]
 
-<!-- Signature: q 3 -->
+Huic ex Zamberto propositioni respondet id quod supra, ad 19 addidit Campanus.
 
-<!-- Catchword: Similiter -->
+## Eucli. ex Zamb. — Theorema 20 — Propositio 22
+
+[Margin]
+22
+[/Margin]
+
+[Margin]
+σύνδυο bini
+[/Margin]
+
+## Si fuerint tres numeri, & alij eisdem æquales numero,* cum duobus sumpti & in eadem ratione, fuerit autem perturbata eorum proportio, & ex æquali in eadem ratione erunt.
+
+THEON ex Zamberto. Sint numeri α,β,γ, & alij eisdem æquales numero δ,ε,ζ, cum duobus sumpti, & in eadem ratione: sit autem perturbata eorum proportio: sicut quidem α ad β, sic ε ad ζ, & sicut β ad γ, sic δ ad ε. Dico quod & ex æquali est sicut α ad γ, sic est δ ad ζ. Quoniam enim est sicut α ad β, sic ε ad ζ, qui igitur ex α,ζ, (per 20 septimi) æqualis est ei qui ex β,ε. Rursus quoniam est sicut β ad γ, sic est δ ad ε, qui igitur ex δ,γ, æqualis est ei qui ex β,ε: ostensum autem est quod qui ex α,ζ, æquus est ei qui ex β,ε, & qui ex α,ζ igitur, (per 20 septimi,) æquus est ei qui ex δ,γ. Est igitur (per 11 quinti) sicut α ad γ, sic δ ad ζ, quod oportebat demonstrare.
+
+[Diagram: dotted number lines beside the text: α······ / β···· / γ··· / δ············ / ε········· / ζ······]
+
+## Eucli. ex Camp. — Propositio 22
+
+[Margin]
+22
+[/Margin]
+
+## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duo numeri secundum suam proportionem minimi, ipsi erunt adinuicem primi.
+
+<!-- Catchword: CAMPANVS -->

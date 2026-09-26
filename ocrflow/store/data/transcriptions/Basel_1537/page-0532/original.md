@@ -1,49 +1,41 @@
-<!-- Running title: PERSPECTIVA -->
+<!-- Page number: 522 -->
 
-<!-- Page number: 521 -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-spectatur sicut per 3 theorema apparet, igitur angulus c non spectatur. At signa d f, solum apparent. Similiter etiā & in unoquoque reliquorum angulorū hoc eueniet, quare totum circūductum apparebit.
+## Theorema decimumquintum.
 
-## Theorema decimum.
+{dropcap:E|lines=?|style=decorated|decoration="woodcut"}Orum quæ sub oculum posita sunt, quæ sese inuicem excedunt adhærente oculo maiore supra spectatū maius apparet, recedente uero minore minus,
 
-{dropcap:S|lines=?|style=decorated|decoration="woodcut"}Vb oculo positorū planorum quæ remotiora sublimiora apparent.
+Sit nempe maius b c ipso h f, ponaturq́ ut oculus sit k, super ipsa b c, & h f, procidatq́ radius per h, sitq́ k d. igitur b c ipso h f maius apparet ipso b d, æquum enim apparebat h f ipsi d c, quoniam iam sub eodem oculo κ & radio k d aspiciebatur. Rursus iam permutetur oculus k, sitq́ oculus in l & ꝑ h, procidat radius l n, igitur rursus b c ipso h f maius apparet ipso b n minore, igitur ipsum b c, ipsum h f. uidetur excedere abeunte oculoque adhærente.
 
-Sit, inquam, oculus b super ipso c κ, plano, à quo oculo procidant radij, b c, b d: b f, & b κ, perpendicularis autem esto per 11 undecimi elementorum b k ad subiectum planum. Dico quod c d ipso f sublimius apparet. igitur ipso quidem, c d ipso d f, sublimius apparet, & d f ipso f k. quæ uero sub sublimioribus radijs spectantur sublimiora uidentur, sicut per suppositionem septimam perspectiuæ apparet.
+[Diagram: vertical line b–c at left with points n, h, d on it; eye κ above and second eye position l at right; rays κ–d and l–n crossing the vertical line at h]
 
-[Diagram: eye b at upper left; rays descending to points c, d, f, κ on a horizontal base line]
+## Theorema decimumsextum
 
-## Theorema undecimum.
+{dropcap:Q|lines=?|style=decorated|decoration="woodcut"}Væ sese inuicem excedunt inferius oculo posito, adhærente oculo minore minus super spectatum apparet, recedente uero maius maiore.
 
-{dropcap:P|lines=?|style=decorated|decoration="woodcut"}Lanorum super oculo positorum quæ remotiora humiliora apparent.
+Esto, inquam, maius b ipso h κ, & oculo l inferius posito cadat radius l c. per h. igitur b ipso h k maius apparet ipso c b. Immutetur iam l oculus sitq́ oculus n cadatq́ radius n d, per h igitur rursus b ipso h k maius ipso b d apparet. Adhærente igitur oculo minore maius, & recedente maiore ipsum b f, ipsum h k uidetur excedere.
 
-Sit oculus b sub ipso d f plano positus. à quo exeuntes radij procidant ut b c, b d: & b f humilima omnium quæ ex b ad ipsum d ꝓdūt, planum est ipsa b d, & b c etiam ipso b humilior est. Sed per b d, & b c, radios spectatur ipsum d c, & per b c & b f, spectatur ipsum c f, ipsum igitur d c humilius ipso c f spectatur.
+[Diagram: vertical line at left with e at top and d below it; diagonal lines crossing at b right of centre; base line with points f, κ, l, n]
 
-[Diagram: horizontal line with points d, c, f at top; rays descending to the eye b below]
+## Theorema decimumseptimum.
 
-## Theorema duodecimum.
+{dropcap:Q|lines=?|style=decorated|decoration="woodcut"}Væcunque sese inuicem excedunt, oculo posito in recta linea minori magnitudine existente, adhærēte & recedente oculi æquali semper superius spectatum minus uidebitur excedere.
 
-{dropcap:Q|lines=?|style=decorated|decoration="woodcut"}Væ obijciuntur longitudinem habentium quæ sunt in dextris, in sinistra procedere uidentur, quæ uero in sinistris in dextra.
+Excedat, inquam, b d ipsum h g ipso b c & connexa c h per 1 postulatum extēdatur, sitq́ oculus in f. igitur ab ipso f radius procidens per f c, annectetur. Rursus iam permutetur oculus in k, igitur per hoc ab ipso κ oculo radius procidens per k c annectetur, eodem igitur excedet b d, ipsum h g & adhærente & recedente oculo.
 
-Sint enim spectata b c d f. oculus uero sit κ: à quo procidant uisus k c, k a, k b, k f, κ g, & κ d. Igitur ipsum d in sinistrā magis quàm g, similiter quoque b dextrorsum magis quàm a uidetur procedere. Quare quæ obijciuntur longitudinem habentium quæ in dextris sinistrorsum & quæ in sinistris dextrorsum uidentur procedere.
+[Diagram: horizontal line through the eye positions f and κ ending at h; vertical line b–d at right with points c and g on it]
 
-[Diagram: fan of rays from the eye κ at bottom to points g and f at left, b at top, and a, c, d at right around the outline of the object]
+## Theorema decimumoctauum.
 
-## Theorema decimumtertium.
+{dropcap:D|lines=?|style=decorated|decoration="woodcut"}Atam altitudinem cognoscere quanta sit.
 
-{dropcap:A|lines=?|style=decorated|decoration="woodcut"}Equalium magnitudinum sub oculum positorum quæ longe positæ sunt sublimiores apparent.
+Sit, inquam, quā oportet cognoscere. quanta sit data altitudo b c, cadatq́ radius solis ab ipso b ut b d, igitur umbra erit ut c d, cape magnitudinem quampiam notam sitque κ f annectatur per trigesimamprimam primi elemētorum sub angulo d, parallelū b c. igitur est sicut c ad c b, sic f ad f k. & nota est ratio ipsius d f ad ipsam f k, nota igitur est ipsius d c ad c b ratio. Sed d c umbra non est ipsa igitur c b altitudo nota est.
 
-Sint enim æquæ magnitudines b c d f, k l, sub oculum n positæ & ab ipso n oculo procident radij n b, n d, n κ, igitur sublimior est n b, reliquis radijs, quare & b signum. Igitur b c ipsa d f: sublimior apparet & d f ipsa k l: æqualium igitur magnitudinum sub oculum positorum, quæ longe positæ sunt sublimiores apparent.
+[Diagram: right triangle with d at left, c at bottom right, b at top right; vertical κ–f inside the triangle parallel to b c]
 
-[Diagram: eye n at top; three equal vertical magnitudes b–e, d–f, κ–l receding below it, rays from n to their upper ends]
+## Theorema decimumnonum.
 
-## Theorema decimumquartum.
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}Ole non apparente datam altitudinem quanta sit cognoscere.
 
-{dropcap:A|lines=?|style=decorated|decoration="woodcut"}Equalium magnitudinum supra oculum positorum quæ longe positæ sunt humiliores apparent.
-
-Sint æquæ magnitudines k n, l f, c d, super oculū positæ. qui sit b & ab ipso b oculo procidant radij b n, b f & b d. Igitur humilima est b d, quare & d signum. Ac per hoc c d, humilior apparet ipsa l f, & l f ipsa κ n.
-
-[Diagram: eye b at bottom left; three equal vertical magnitudes κ–n, l–f, c–d above it, rays from b to n, f, d]
-
-<!-- Signature: X 3 -->
-
-<!-- Catchword: Theorema -->
+<!-- Catchword: Sit -->

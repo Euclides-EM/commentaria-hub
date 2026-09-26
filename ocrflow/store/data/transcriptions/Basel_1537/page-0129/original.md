@@ -1,21 +1,59 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVINTVS -->
 
-<!-- Page number: 120 -->
-
-k f, non erit k f minor d, itaque k f & d non efficient minus quam l & d, quare non efficient minus quàm m, & quia f g, est maior d, erit k g maior quam m. Intelligo igitur quātitatem b c primam, d secundam, a tertiam, & quartam, & quia ad primam & tertiā sumpta sunt æque multiplicia uidelicet k g & h, similiter quoque ad secundam & quartam æque multiplicia immo idem in ratione duorū quod est m, addit k g, multiplex primæ super m multiplex secundæ, non addit autē h multiplex tertiæ super m multiplex quartæ, erit per diffinitionem maioris improportionalitatis, maior proportio b c primæ ad d secundam quam a tertiæ ad d quartam, quod est primum. Secundum probabis per eandem diffinitionem conuerso ordine, ut d sit prima & tertia, a secunda b c quarta, addit enim m multiplex primæ super h multiplicem secundæ, non addit aucem m multiplex tertiæ super k g, multiplicē quartæ, quare maior est proportio d ad a quàm d ad b c quod est secundum. Ex huius autem demonstrationis modo, patet sufficientia diffinitionis maioris improportionalitatis, quam posuit author in principio huius quinti. Nusquam enim est maior, proportio primæ quatuor quantitatū ad secundam quam tertiæ ad quartam: quin cōtingat aliqua æque multiplicia ad primā & tertiā reperiri, quæ cum relata fuerint ad aliqua æque multiplicia secundæ & quartæ, inuenietur multiplex primæ addere super multiplex secūdæ, non autē multiplex tertiæ super multiplex quartæ. Hæc autē multiplicia sic reperiemus, sicut demōstrabitur infra supra 8 huius.
-
-## Eucli. ex Zamb. Theorema 8 Propositio 8
+<!-- Page number: 121 -->
 
 [Margin]
-8
+9
 [/Margin]
 
-In æqualium magnitudinum maior ad eandem, maiorem rationem habet, quàm minor, & eadem ad minorem, maiorem rationem habet, quàm ad maiorem.
+SI fuerit aliquarum quantitatum ad unam quātitatem proportio una, ipsas esse æquales, si uero unius ad eas proportio una, ipsas æquales esse necesse est.
 
-THEON ex Zamb. Sint inæquales magnitudines, α β, & γ, & sit maior α β, quàm γ. Alia autem quæuis, sit ut δ. Dico quod α β, ad δ, maiorem rationem habet, quàm γ ad δ, & δ ad γ, maiorem rationem habet, quàm ad α β. Quoniam enim maior est α β, quàm γ, ponatur ipsi γ, æqualis β ε, multiplicata: maior aliquando fiet quàm δ. Sit primum α ε, minor quàm ε β. Et multiplicetur α ε, quoad quod fiet, maius sit ipso δ, & sit illius multiplex ζ η, quod maius sit ipso δ. Et quàm multiplex est ζ η, ipsius α ε, tam multiplex esto & η θ, ipsius ε β, & κ, ipsius γ. Sumatur ipsius δ, duplum, sitq̃ illud λ, triplum postmodū: sitq̃ illud μ, & deinceps uno plus, quoad sumptum multiplex fiat ipsius δ, primo maius quàm κ, sumaturq̃, & sit ν, quadruplum quidem ipsius δ, primo autem maius quàm κ. Quoniam igitur κ, ipso ν, primo est minor, igitur ipso μ non est minor. Et quoniam æque multiplex est ζ η, ipsius α ε, atque æque multiplex est ζ θ, ipsius α β, (per 1 quinti,) & ζ η, ipsius α ε, æque igitur est multiplex ζ θ, ipsius α β, & κ, ipsius γ. Igitur ζ θ, & κ, ipsarum α β, γ, æque sunt multiplices. Rursus quoniā æque multiplex est η θ, ipsius ε β, & κ, ipsius γ, æqualis aūt est ε β, ipsi γ, æqualis igitur est & η θ, ipsi κ. At κ, non est minor quàm μ: neq̃ igitur η θ, minor est quàm μ. Maior aūt est ζ η, quàm δ, tota igitur ζ θ, ipsis δ & μ, simul ambabus est maior. Sed ambæ δ & μ, ipsi ν, sunt æquales: quandoquidē μ, ipsius δ triplū est, ambæ autem μ & δ, ipsius δ, quadruplices sunt, est autem & ν, ipsius δ, quadruplum: ambæ igitur μ & δ, ipsi ν, sunt æquales. Sed ζ θ, ipsis μ & δ maior est, igitur ζ θ, ipsum ν, excedit. κ uero ipsum ν, nōn excedit. Et sunt quidē ζ θ, κ, ipsarum α β, γ, æque multiplices, ν autem, ipsius δ, alia quæuis multiplex. Igitur α β, ad δ, ad maiorem rationem habet, quàm γ, ad δ. Dico iam quod & δ, ad γ, maiorem rationē habet, quàm δ ad α β. Nam illis sic descriptis similiter ostēdemus quod ν, maior quidem est quàm κ, non uero maior quàm ζ θ. est quidē & ipsius ζ, multiplex. Ipsa uero ζ θ, & κ ipsarum α β & γ, aliæ quæuis æque multiplices. Igitur δ ad γ, maiorem rationem habet: quàm δ ad α β. Sed iam sit maior est quàm ε β, iam minor ι, ε multiplicata: maior aliquando fiet quàm δ. Multiplicetur, & esto η θ, multiplex quidem ipsius ε β, tam multiplex fiat ζ η, ipsius α ε, & κ, ipsius γ, similiter ostēdemus quod ζ θ, & κ ipsarum α β, γ, æque sunt multiplices. Sumaturq̃ similiter ν multiplex quidē ipsius δ, primo autem maior quàm ζ η, quare rursus ζ η, nō est minor quàm μ, maior autem est η θ, quàm δ. Tota igitur ζ θ, ipsas δ & μ, hoc est ipsam ν, excedit, κ, ipsam ν, non excedit. Quoniam & ζ η, quæ maior est quàm η θ, hoc est quàm κ, ipsam ν, non excedit: pariterq̃ superiora consequuti demonstrationem conficiemus. Inæqualium igitur magnitudinum maior ad eandem, maiorem rationem habet, quàm minor & eadem ad minorem, maiorem rationem habet quàm ad maiorem. Quod demonstrasse oportuit.
+CAMPANVS. Sit duarum quantitatum a & b, proportio una ad c, dico eas esse æquales, & si econuerso fuerit eadem proportio c ad utrāq̃ earum, adhuc dico eas esse æquales, hæc est cōuersa septimæ huius. Primum sic patet. Si enim non sunt æquales, sed altera earum maior, utpote a, erit per primam partem præmissæ, maior proportio a ad c, quàm b ad c, quod est contra hypothesin. Secundum quoque patet. quia si a est maior b, erit per secundam partem præmissæ, maior proportio c ad b, quàm ad a, quod est etiam contra hypothesin
 
-[Diagram: two groups of vertical line segments of graduated heights with division marks, representing the magnitudes and their multiples, with letters α ε β, γ and ζ η θ, κ, δ, λ, μ, ν beneath, set within the proof]
+[Diagram: horizontal line segments a and b above, with segment c below, in the right margin]
 
-## Eucli. ex Camp. Propositio 9
+## Eucli. ex Zamb. Theorema 9 Propositio 9
 
-<!-- Catchword: SI -->
+[Margin]
+9
+[/Margin]
+
+Quæ ad eandem, eandem habent rationem, æquales adinuicem sunt, & ad quas eadem, eandem habet rationem, ipsæ sunt æquales.
+
+THEON ex Zamb. Habeat inquam utraque ipsarum α β, ad γ, eandē rationem. Dico quod æqualis est α, ipsi β. Si autem non utraque ipsarum ad γ, ad ipsam γ, eandem non haberet rationem, (per 8 quinti,) habet autem, æqualis igitur est α, ipsi β. Habeat rursus γ, ad utrāq̃: ipsarum α β, eandem rationē. Dico quod æqualis est α, ipsi β. Si autem non, ipsa γ, ad utramq̃ ipsarum α β, non haberet eandem rationem, habet autem, æqualis igitur est α, ipsi β. Quæ ad eandem igitur, eandē habēt rationem, adinuicem sunt æquales, & ad quas eadem, eandem habet rationem, ipsæ sunt æquales. Quod demonstrandum fuerat.
+
+[Diagram: three vertical line segments labelled α, β, γ in the right margin]
+
+## Eucli. ex Camp. Propositio 10
+
+[Margin]
+10
+[/Margin]
+
+SI fuerit unius quantitatis ad quantitatem unam proportio maior, quantitatem maiorem esse. Si uero unius ad eaudem proportio maior, minorem esse necesse est.
+
+CAMPANVS. Quod si fuerit maior proportio a ad c quàm b ad c, dico a esse maiorem b, & si fuerit maior c ad b quàm c ad a, adhuc dico a esse maiorem b. Hæc est conuersa 8. Primum patet per primam partem 7 & per primam 8, nam per primam partem septimæ, non erit a æqualis b, nec etiam minor, per primam octauæ. Secūdum uero patet ex secundis partibus earundem.
+
+[Diagram: horizontal line segments a and b above, with segment c below, in the right margin]
+
+## Eucli. ex Zamb. Theorema 10 Propositio 10
+
+[Margin]
+10
+[/Margin]
+
+Ad eandem, rationem habentium, maiorem rationem habens, illa maior est, ad quam autem eadem maiorem ratione habet, illa minor est.
+
+THEON ex Zamb. Habeat enim α, ad γ, maiorem rationem, quàm β, ad γ. Dico quod α maior est quàm β. Si autem non, aut est ipsi γ, æqualis, aut ea minor, æqualis autem minime est, ipsi ε, utraque etenim ipsarum α β, ad γ, eandem rationem haberet: (per 9 quinti) non habet autem, igitur α, ipsi β minime æqualis est. Neque etiam minor est α, quàm β, nam α, ad ipsum γ, minorem rationem haberet, quàm β, ad γ, (per 8 quinti) non habet autem, igitur α, quàm β, minor non est. Ostēsum autem est, quod neque est æqualis, maior igitur est α, quàm β. Habeat rursus γ, ad α c, maiorem rationem, quàm γ ad α. Dico quod minor est α, quàm β. Si autem non, aut est ei æqualis aut ea maior, æqualis quidem non est, β. Nam γ, ad utramque ipsarum α β, eandem haberet rationem, (per 6 quinti,) non habet autem, Igitur α, ipsi β, minime est æqualis. Neque etiam maior est γ, quàm α, nam γ, ad β, maiuorem rationem haberet, quàm ad α, (per 8 quinti), non habes autem. Igitur maior nō est γ quàm α: patuit autem quod neque æqualis est, minor igitur est β, quàm α. Ad eandem igitur rationem habentium, maior est, & ad quam autem eadem maiorem rationē habet, ipsa minor est. Quod erat demonstrandum.
+
+[Diagram: three vertical line segments labelled α, β, γ in the right margin]
+
+## Eucli. ex Camp. Propositio 11
+
+[Margin]
+11
+[/Margin]
+
+SI fuerint quantitatum proportiones alicui uni æquales, ipsas quoque proportiones sibi inuicem æquales esse necesse est.
+
+<!-- Signature: l -->

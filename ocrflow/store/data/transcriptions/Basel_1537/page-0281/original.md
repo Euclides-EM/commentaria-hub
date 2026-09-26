@@ -1,47 +1,45 @@
-<!-- Page number: 270 -->
+<!-- Running title: LIBER DECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 271 -->
 
-[Margin]
-συναχθήσεται colligetur
-[/Margin]
+possit amplius breuiori in quadrato alicuius lineæ sibi cōmunicantis in longitudine, quæ contineant superficiem rationalem. Ad hoc secundum doctrinam 17 sumo duas lineas a & b potentia tantum rationales cōmunicantes, quarum longior quæ sit a , possit amplius breuiori quæ sit b , in quadrato alicuius lineæ secum cōmunicantis in lōgitudine, & ponam lineam c secundum doctrinam 9 sexti , medio loco proportionalē inter a & b,& ponam ut sit proportio a ad b, sicut c ad d, quod qualiter fiat, in 10 sexti dictū est. Dico tunc duas lineas c & d,esse quas quærimus. Patet enim ex 19, quod superficies quam continent duæ lineæ a & b,est medialis . Et quia per primam partem 16 sexti,quadratū lineæ c est dictæ superficiei æquale,erit igitur per 19 linea c medialis . Cum autē sit a ad b,sicut c ad d,& b communicet cum a in potentia tantum ex hypothesi,quia tam a quàm b rationalis est in potentia , sequitur per 10 quod c quoq́ʒ communicet cum d in potentia tantum. Itaq́ʒ per 21 cum c sit linea medialis,erit etiam d medialis, & per primā partem 12 , erit linea c potentior linea d, in quadrato lineæ sibi communicantis in longitudine. Si ergo duæ lineæ c & d contineant superficiem rationalem , ipsæ sunt quales inquirimus.Eas autem continere superficiem rationalem,sic habeto. Cum sit a ad b,sicut c ad d,erit permutatim a ad c,sicut b ad d,sed erat a ad c,sic c ad b. igitur est c ad b,sicut b ad d, itaque per primam partem 16 sexti,superficies quam continent duæ lineæ c & d, est æqualis quadrato b,est autem quadratum b,rationale per hypothesin,cum ipsa sit rationalis in potentia . Superficies ergo quam continent duæ lineæ c & d, est rationalis. Quare constat propositum.
 
-ipsius δ ζ duplus ponatur θ α. * Conducaturq́ʒ duplus rursus θ γ ipsius γ ζ, & quod ipse θ γ bifariam sectus est in ζ, ac per hoc is qui sub θ β,β γ,una cum eo qui ex ζ γ,æquus erit ei qui ex β ζ.Supponitur autem quod qui sub α β,β γ, una cum eo qui ex γ ε,est æqualis ei qui ex β ζ. Conducetur igitur qui sub α β, β γ,una cum eo qui ex γ ε æqualis ei qui ex θ β & β γ una cum eo qui ex γ ζ,quod absurdū est. Igitur qui sub α β, β γ, una cum eo qui ex γ ε, æquus non est minori eo qui ex β ε, patuit autem quod neq́ʒ ei qui ex β ε, neq́ʒ eo maiori . Igitur qui sub α β, β γ, una cum eo qui ex γ ε, quadratus non est . Cum autem sit poßibile & pluribus modis prædicta ostendere, sufficiant nobis tamen prædicta, ne materia longior existens longius protrahatur.
+[Diagram: four horizontal lines in the right margin, labelled: a R. 36 — c — b 20 — d]
 
-[Diagram: a dotted horizontal line with the points α . . η . . θ . δ . ε . ζ . . . γ . . . . . . . . β]
-
-## Eucli.ex Zamb. Problema 6 Propositio 29
+## Eucli ex Camp. Propositio 25
 
 [Margin]
-29 Camp.17
+25
 [/Margin]
 
-Comperire binas rationales potentia tantum cōmensurabiles,ut maior minore maius possit eo quod ex cōmensurabili sibi longitudine.
+{dropcap:D|lines=?|style=decorated|decoration="ornamental"}Vas lineas mediales potentia tantum communicantes superficiemq́ʒ rationalem continentes , quarum longior sit potentior breuiori,quadrato lineæ eidem longiori in longitudine incommensurabilis,inuenire.
 
-THEON ex Zamb. Exponatur enim quædam rationalis α β,& bini quadrati numeri γ δ,δ ε,ut ipsorum residuus γ ε non sit quadratus (per correlarium 1 lemmatis 28 decimi,) & super α β describatur semicirculus α ζ β. Fiatq́ʒ sicut (per correlarium 6 decimi) δ γ ad γ ε, sic quod ex β α quadratū ad id quod ex α ζ quadratū,connectaturq́ʒ ζ β.Quoniam igitur est sicut quod ex β α ad id quod est ex α ζ, sic γ δ ad δ γ{printer-error-correction:γ ε}, igitur quod ex β α ad id qtod{printer-error-correction:quod} ex α ζ, eam habet rationem quam numerus γ δ ad numerū γ ε. Cōmensurabile igitur est quod ex β α,ei quod ex α ζ.Rationale autem quod ex α β,rationale igitur & id quod ex α ζ.Rationalis igitur est & α ζ.Et quoniam δ γ ad γ ε rationem non habet quam quadratus numerus ad quadratū numerum , neq́ʒ quod ex α β igitur ad id quod ex α ζ rationem habet quam quadratus numerus ad quadratū numerum. Igitur α β(per 9 decimi)ipsi α ζ longitudine incōmensurabilis est.Ipsæ igitur α ζ,α β,rationales sunt potentia tantum cōmensurabiles. Et quoniam est sicut δ γ ad γ ε,sic est quod ex α β ad id quod ex α ζ,conuertendo igitur (per correlariū 19 quinti)sicut γ δ ad δ ε,sic quod ex α β ad id quod ex β ζ.At γ δ ad δ ε eam habet rationem quam quadratus numerus ad quadratū numerum.Quod igitur ex α β ad id quod ex β ζ,eam habet rationem quam quadratus numerus ad quadratum numerum. Cōmensurabilis igitur est(per 9 decimi) α β ad β ζ longitudine.Et quod ex α β(per 47 primi)æquū est eis quæ ex α ζ & ζ β. Igitur α β ipsa α ζ maius potest ipsa β ζ sibi cōmensurabili.Inuentæ igitur sunt binæ rationales potentia tantum cōmensurabiles β α & α ζ, ut β maior ipsa α ζ maius poßit eo quod ex ζ β sibi longitudine cōmensurabili . Quod facere oportebat.
+CAMPANVS. Positis duabus lineis a & b rationalibus potentia tantum cōmunicantibus,quarū longior possit amplius breuiori in quadrato lineæ secum non communicantis in longitudine,quæ quidem reperiuntur secundum doctrinam 18,cæterisq́ʒ positionibus manentibus sicut in præmissa , argumentando modo consimili patebit duas lineas c & d esse quales quærimus. Et nota quod duæ lineæ quas hæc & præmissa docent inuenire , componunt bimediale primum , & minori earum abscisa de maiori, quæ reliqua est,dicitur residuum mediale primum.
 
-[Diagram: semicircle on base β α (β at the left end, α at the right end) with an inscribed triangle whose apex, labelled ζ, stands near the top of the arc, with tick marks on the left chord and on the base; below, a dotted line with the points δ . . . . ε . . . . γ]
+[Diagram: four horizontal lines in the right margin, labelled: a 36 — c — b R. 18 — d]
 
-## Eucli. ex Zamb. Problema 7 Propositio 30
+## Eucli.ex Zamb. Problema 8 Propositio 31
 
 [Margin]
-30 Camp.18
+31
 [/Margin]
 
-Comperire binas rationales potentia tantum cōmensurabiles,ut maior minore maius possit eo quod fit à sibi longitudine incōmensurabili.
-
-THEON ex Zamb. Exponatur rationalis α β, biniq́ʒ numeri quadrati γ ε & ε δ,ut ex eis compositus γ δ non sit quadratus(per lemma secundum 28 decimi.) Describaturq́ʒ super α β,semicirculus α ζ β,fiatq́ʒ(per correlariū 6 decimi)sicut δ γ ad γ ε,sic quod ex α β ad id quod ex α ζ conectaturq́ʒ ζ β. Similiter iam ostendemus sicut in præcedenti,quod ipsæ β α & α ζ rationales sunt potentia tantum cōmensurabiles. Et quoniam est sicut δ γ ad γ ε,sic est quod ex β α ad id quod ex α ζ,conuertendo igitur (per correlariū 19 quinti)sicut γ δ ad δ ε,sic quod ex α β ad id quod ex ζ β. At γ δ ad δ ε rationem non habet quam quadratus numerus ad quadratum numerum,neq́ʒ igitur quod ex α β , ad id quod ex β ζ rationem habet quam numerus quadratus ad quadratū numerum. Incōmensurabilis igitur est α β ipsi β ζ longitudine,potestq́ʒ α β,quàm ipsa α ζ maius eo quod ex β ζ sibi incommensurabili. Ipsæ igitur α β, β ζ, rationales sunt potentia tantum commensurabiles & α β quàm ipsa α ζ maius potest eo quod ex ζ β sibi longitudine incommensurabili,quod fecisse oportuit.
-
-[Diagram: semicircle on base α β (α at the left end, β at the right end) with an inscribed triangle whose apex, labelled ζ, stands near the top right of the arc; beneath the base, R. 18; below, a dotted line with the points γ . . . . . . ε . . . . δ]
-
-## Eucli.ex Camp. Propositio 24
+Comperire binas medias potentia tantum commensurabiles rationale comprehendentes,ut maior minore maius possit eo quod fit à sibi longitudine commensurabili.
 
 [Margin]
-24
+Camp.24
 [/Margin]
 
-{dropcap:D|lines=?|style=decorated|decoration="ornamental"}Vas lineas mediales potentia tantum communicantes superficiemq́ʒ rationalem continentes , quarum longior sit potentior breuiore,augmento quadrati lineæ communicantis eidem longiori in longitudine,inuenire.
+THEON ex Zamb. Exponantur(per 29 decimi)binæ rationales potentia tantum commensurabiles α,β,ut α maior existens, ipsa β minore maius poßit eo quod ex sibi longitudine cōmensurabili, & ei quod sub α,β,comprehenditur æquum esto id quod ex γ. Medium autem est quod sub α,β, medium igitur est(per correlariū 23 decimi)quod sub γ,media igitur est γ (per 21 decimi.)Ei uero quod ex β,æquū esto quod sub γ,δ.Rationale autē est quod ex β, rationale igitur & quod sub γ,δ. Et quoniam(per 1 sexti)est sicut α ad δ{printer-error-correction:β},sic est quod sub α,β,ad id quod ex β,sed ei quidem quod sub α, β, æquum est id quod ex γ, ei autem quod ex β æquum est quod sub γ,δ, sicut igitur α ad β, sic quod ex γ ad id quod sub γ,δ.Sicut autē quod ex γ ad id quod sub γ,δ,sic est γ ad δ,& sicut igitur α ad β,sic γ ad δ. Cōmensurabilis autem est(per hypothesin) α,ipsi β potentia tantum:cōmensurabilis igitur(per 11 decimi)& γ ipsi δ potentia tantum.At γ,media est,media igitur est(per 2 decimi)& δ.Et quoniam est sicut α ad β & γ ad δ, at α ipsa β maius potest eo quod ex sibi cōmensurabili, & γ igitur ipsa δ maius potest eo quod ex sibi cōmensurabili . Inuentæ sunt igitur binæ mediæ potentia tantum cōmensurabiles γ, δ, rationale cōprehendentes, & γ ipsa δ maius potest eo quod ex sibi longitudine cōmensurabili. Similiter uero ostendetur & id quod ex incōmensurabili, quando α ipsa
 
-CAMPANVS. Cum omnes duæ lineæ mediales potentia tantum communicantes,contineāt superficiem rationalem aut medialem , ut ex præmissa patet,docet inuenire eas duas quæ cōtinent superficiem rationalem & eas quæ medialem . Vnde propositū est inuenire duas lineas mediales potentia tantum communicantes , quarum longior
+[Margin]
+Camp.25
+[/Margin]
 
-<!-- Catchword: possit -->
+β maius potuerit eo quod fit ex sibi incommensurabili.Quod facere oportuit.
+
+[Diagram: four horizontal lines in the right margin, labelled: α 64 — γ — β R. 28 — δ]
+
+<!-- Signature: z 4 -->
+
+<!-- Catchword: Eucli.ex -->

@@ -1,41 +1,31 @@
-<!-- Running title: LBER SEXTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 149 -->
+<!-- Page number: 150 -->
 
-logrammum ad ζ ε, & ut igitur (per 11 quinti) α β, ad ζ ε, sic β γ, ad ζ ε, æquum igitur est α β, parallelogrammum, ipsi β γ, parallelogrammo. Aequalium igitur & æquiangulorum parallelogrammorum reciproca sunt latera: quæ circum æquales angulos, & quorum æquiangulorum parallelogrammorum reciproca sunt latera, quæ circum æqua les angulos, ea quoque sunt æqualia. quod demonstrasse oportuit.
+rit ei quod duabus reliquis continetur rectangulum, quatuor lineas proportionales esse conuenit.
 
-## Eucli.ex Camp. Propositio 14
+CAMPANVS, Sint quatuor lineæ a b c d, proportionales, sitque proportio a ad b, sicut c ad d, dico quod superficies contenta sub a & d, æqualis est superficiei contētæ sub b & c. & superficies cōtēta sub a & d, est æqualis superficiei contentæ sub b & c. Et si superficies cōtenta sub a & d est æqualis superficiei cōtētæ, sub b & c. dico quod proportio a ad b est sicut c ad d. Fiāt enim superficies cōtēta sub a & d, & superficies cōtenta sub b & c. Si ergo est proportio a ad b sicut c ad d, latera illarū superficierū erūt mutekesia, sed & anguli ab eis contenti æquales: quia utraq̃ est rectorum angulorū, quare per secundā partē 13, huius, ipsi sunt æquales: quod est primum. Secūdū patet per primā partem eiusdem. si enim ipsæ sunt æquales, quia omnes anguli earū sunt recti: latera earum erūt mutekesia, quare proportio a ad b, sicut c ad d, quod est secūdū.
 
-[Margin]
-14
-[/Margin]
+[Diagram: at the right, a tall narrow rectangle labelled a with d at its lower left corner; beside it four vertical line segments of decreasing length labelled a, b, c, d; below, a wide rectangle labelled b with c at its right side]
 
-### {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I duo trianguli quorum unus angulus unius uni angulo alterius æqualis,æquales fuerint.latera duos angulos æquos continentia erunt mutekesia.Si uero latera duos æquos angulos cōtinentia fuerint mutekesia,duo trianguli æquales esse comprobantur.
-
-CAMPANVS Sint duo trianguli a b c, c d e, æquales, sitque angulus c. unius, æqualis angulo c alterius, dico proportionem a c ad c e, esse sicut d c ad c b, & si fuerit proportio a c ad c e, sicut d c ad c b, & prædicti anguli fuerint adhuc æquales, dico illos duos triangulos esse æquales. Coniungam enim eos angulariter ita quod latera a c & c e, fiant linea una eruntq̃ similiter b c, & c d, linea una, aliter sequeretur partem esse æqualem toti per 15 primi, & protraham lineam b e, eritque per primam partem 7 quinti, utriusque dictorum triangulorum ad triangulum c b e, proportio una, & quia per primam huius, primi eorum ad ipsum est, sicut a c ad c e, & secundi eorum ad eundem sicut d c ad c b, manifesta est prima pars propositæ conclusionis. Secunda pars econuerso probatur, quia a c ad c e est sicut primi triāguli ad triangulum b c e, & d c ad c b, sicut secundi ad eūdem (per primā huius,) & quia positum est ut sit a c ad c e, sicut d c ad c b, erit utriusque dictorum triangulorum ad triangulum b c e una proportio, quare per primam partem 9 quinti, ipsi sunt æquales, sicque patet secūda pars.
-
-[Diagram: two triangles joined at the common point c: a at top left, d at top right, b at bottom left, e at bottom right; the lines a c e and d c b cross at c, and the line b e is drawn]
-
-## Eucli.ex Zamb. Theorema 10 Propositio 15
+## Eucli.ex Zamb. Theorema 11 Propositio 16
 
 [Margin]
-15
+16
 [/Margin]
 
-### Æqualium & unum uni æqualem habentium angulum triangulorum reciproca sunt latera,quæ circum æquales angulos,& quorum unum uni angulum æqualem habentium rriangulorum reciproca sunt latera, quæ circum æquales angulos.ea quoque sunt æqualia.
+### Si quatuor rectæ lineæ proportionales fuerint,quod sub extremis comprehensum rectangulum,æquum est ei quod sub medijs continetur rectāgulo.Et si sub extremis comprehensum rectangulū æquum fuerit ei quod sub medijs continetur rectangulo, quatuor rectæ lineæ proportionales erunt.
 
-THEON ex Zamberto. Sint æqualia triangula α β γ, & α δ ε, unum uni æqualem habentia angulum, cū scilicet qui sub β α γ: ei qui sub δ α ε. Dico quod ipsorum α β γ, & α δ ε, triangulorum reciproca sunt latera: quæ circum æquales angulos, hoc est sicut γ α, ad α δ, sic ε α, ad α β. Constituantur enim (per 14 primi) in rectas lineas, γ α, ipsi α δ, In directum igitur est ε α, ipsi α β, & connectatur β δ. Quoniam igitur (per hypothesin) æquum est triangulum α β γ, triangulo α δ ε, aliud autem quoddam θ α δ, est igitur (per 7 quinti) sicut triangulum β α γ, ad ipsum β α δ, triangulum sic triangulum ε α δ, ad triangulum β α δ. Sed sicut quidem γ α β, ad β α δ, sic γ α, ad α δ, sicut autem (per primam sexti,) ε α δ, ad β α δ, sic ε α, ad α β, & sicut igitur (per 11 quinti) γ α ad α δ, sic ε α, ad α β. Triangulorum igitur α β γ, & α δ ε, reciproca sunt latera: quæ circum æquales angulos. Verum reciproca sint latera ipsorum α β γ, & α δ ε, triangulorum, estoq́; sicut γ α, ad α δ, sic ε α, ad α β. Dico quod æquum est triangulum α β γ, triangulo α δ ε. Connexa enim rursus β δ, quoniam est sicut γ α, ad α δ, sic ε α, ad α β, sed sicut quidem γ α, ad α δ, sic triangulum α β γ, ad triangulum β α δ. sicut autē ε α, ad α β, sic triāgulū ε α δ, ad triangulū β α δ, sicut igitur triangulum α β γ, ad triangulum β α δ, sic triangulum ε α δ, ad triangulum β α δ. Vtrumque igitur ipsorum α β γ, & ε α δ, ad β α δ, eandem habet rationem, Aequum igitur est (per nonam quinti,) triangulum α β γ, triangulo ε α δ, Aequalium igitur & unum uni æqualem habentium angulum triangulorum reciproca sunt latera: quæ circum æquales augulos. Et quorum unum uni æqualem habentium angulū triangulorum reciproca sunt latera, quæ circum æquales angulos: ea quoque sunt æqualia, quod demonstrare oportuit.
+THEON ex Zamberto. Sint quatuor rectæ lineæ proportionales α β γ δ ε ζ, sicut α β, ad γ δ. sic ε. ad ζ. Dico quod sub ipsis α β, & ζ, comprehensum rectangulum, æquum est ei quod sub γ δ, & ε, continetur rectangulo. Excitetur enim (per 11 primi,) ab α γ, signis, ipsis α β, & γ δ, rectis lineis, ad angulos rectos α η, & γ θ, & ponatur (per secundam primi,) ipsi ζ, æqualis α η, ipsi autem ε, æqualis γ θ, compleanturq́; η β, & θ δ, parallelogramma. Et quoniam est sicut α β ad γ δ. sic est ε, ad ζ, æqualis autem est ε, ipsi γ θ, & ζ, ipsi α η, est igitur sicut α β, ad γ δ. sic γ θ, ad α η. Igitnr (per 14 sexti β η, & δ θ, parallelogrammorum reciproca sunt latera, quæ circum æquales angulos. Quorum autem parallelogrammorum æquiangulorum reciproca sunt latera quæ circum æquales angulos, ea quoque sunt æqualia. Aequum igitur est parallelogrammum β η, ipsi δ θ, parallelograumo, & est β η, id quod sub α β, & ζ, æqualis enim est α η, ipsi ζ. At δ θ, id est quod sub γ δ, & ε, æqualis enim est γ θ. ipsi ε. Igitur quod sub α β. & ζ, continetur rectangulum: æquum est ei quod sub γ δ, & ε, continetur rectangulo. Sed iam quod sub α β, & ζ, comprehenditur rectangulum, æquum esto ei quod sub γ δ, & ε, continetur rectangulo. Dico quod quatuor rectæ lineæ proportionales erūt, sicut α β, ad γ δ. sic ε, ad ζ. Eisdem namque constructis: quoniam quod sub α β, & ζ, æquum est ei quod sub γ δ, & est quidem quod sub α β. & ζ, ipsum β η, æqualis enim est α η, ipsi ζ, quod autem sub γ δ, & ε, est ipsum δ θ, æqualis enim est γ θ, ipsi ε, igitur β η, æquū est ipsi δ θ, & æquiangula sunt. Aequaliū autem & æquiangulorū parallelogrammorū (per 14 sexti) reciproca sunt latera: quæ circum æqua les angulos. Est igitur (per 10 quinti,) sicut α β, ad γ δ, sic γ θ, ad α η, æqualis autem est γ θ, ipsi ε. & α η, ipsi ζ est igitur sicut α β, ad γ δ, sic ε, ad ζ. Si quatuor igitur rectæ lineæ proportionales fuerint, quod sub extremis cōprehensum rectangulū, æquum est ei quod sub medijs comprehenditur rectangulo, & si quod sub extremis comprehenditur rectangulū æquum fuerit ei quod sub mediis continetur rectangulo, ipsæ quatuor rectæ lineæ proportionales erunt quod oportebat demonstrare.
 
-[Diagram: two triangles joined at the common point α: β at top left, δ at top right, γ at bottom left, ε at bottom right; the lines γ α δ and ε α β cross at α, and the line β δ is drawn]
+[Diagram: four horizontal line segments, the first labelled α and β at its ends, the second γ and δ, the third ε, the fourth ζ; below, a wide rectangle with η at the top left, α at the bottom left and β at the bottom right; at the right, a tall rectangle with θ at the top left, γ at the bottom left and δ at the bottom right]
 
-## Eucli.ex Camp. Propositio 15
+## Eucli.ex Camp. Propositio 16
 
 [Margin]
-15
+16
 [/Margin]
 
-### {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerint quatuor lineæ proportionales,quod sub prima & ultima rectangulum continetur,æquum erit ei quod sub dnabus reliquis.S iuero quod sub prima & ultima continetur,æquum fue-
+### {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerint tres lineæ proportionales,quod sub prima , & tertia rectangulum continetur,æquum erit ei quod à secunda quadrato describitur.Si uero quod sub prima & tertia continetur æquum ei quadrato quod à secūda producitur,ipsæ tres lineæ proportionales erunt.
 
-<!-- Signature: n 3 -->
-
-<!-- Catchword: rit -->
+<!-- Catchword: CAM- -->

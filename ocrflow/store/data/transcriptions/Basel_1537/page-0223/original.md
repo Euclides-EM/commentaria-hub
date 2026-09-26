@@ -1,39 +1,31 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER OCTAVVS -->
 
-<!-- Page number: 212 -->
+<!-- Page number: 213 -->
 
-numeret, quadratus is quadratum illum non numerare ex necessitate conuincitur.
+itaque g ex e in d, eritque per 19 septimi, a ad g, sicut c ad e. & per 18 eiusdem g ad b sicut d ad f, quare a ad g, sicut g ad b, est itaque g, contiuua proportionalitate medius inter a & b, quod est propositum. Correlarium autem patet, cum sit a ad b per diffinitionem sicut a ad g duplicata, quæ eadem est illi quæ est c ad e.
 
-CAMPANVS. Hæc 15 proponit negationes conuerti, quæ affirmationibus quas 13 huius cōuerti proposuit opponūtur. Vt si sint duo numeri quadrati a & b, quorū latera c & d, si a nō numerat b, c quoq̃ nō numerabit d, econuerso etiam si c non numerat d, nec a, b. Sit enim primo ut a non numereret b, si itaque c numerat d, per secundam partem 13 huius & a numerabit b, quod est cōtrarium positioni, sicque patet primum. Secundum quoque sic: sit ut c non numeret d, itaque si a numeret b, per primā partem 13 necesse est ut c numeret d, necesse est igitur ut c numeret ipsum, cum numerat ipsum, quod est impossibile.
+## Eucli. ex Camp. Propositio 17
 
-[Diagram: dotted number lines a, b and c, d]
+**17** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I secundum continuam proportionalitatē tertius numerus duobus numeris intersit, illi duo numeri superficiales sunt & similes.
 
-CAMPANI annotatio. Quemadmodū autem necesse est conuerti negationes oppositas affirmationibus quas 13 demonstrauit conuerti, sic quoque necesse est eas negationes quæ opponuntur illis affirmationibus quas præmissa conuerti demonstrauit, cōuertantur. Vnde si cubus nō numerat cubū: nec latus eius numerabit latus illius, econuerso quoque si latus unius non numerat latus alterius, nec ipse cubus numerabit alterum cubum, demonstratur autem hoc per præmissam à destructione consequentis, sicut quod propositum est per 13, ideoque hoc auctor non proposuit, sed per id quod propositum est, ipsum dedit intelligi.
+CAMPANVS Hæc est conuersa ptæmissæ. Vt si inter a & b sit c sub continua proportionalitate constitutus, a & b erunt superficiales & similes, sint enim d & e minimi in proportione qua continuantur a, c, b. qui per 21 septimi, numerabunt a & c æqualiter, sitque ut secundum f, & per eandem c & b æqualiter, sitque ut secundum g, erunt igitur per diffinitionem a & b superficiales, & erunt etiam per diffinitionem, d & f, latera numeri a, e quoque & g, latera numeri b, Quod autē ipsi sint similes, sic habeto, cum, cum enim ex d in g, sit c, & ex e in f sit idem c, erit per secundam partem 20 septimi, d ad e. sicut f ad g, per diffinitionem igitur a & b sunt similes, quod est propositum. Hoc autem ultimnm quod est a & b esse similes, potest etiam per 19 & 18 septimi. & per has hypotheses quod a, c, b, sunt continue proportionales in proportione d ad e minimorum numerantium a & c secundum f, & c & b secundum g
 
-## Hæ sequentes ex Zamberto duæ propositiones præcedenti ex Campano cum annotatione eiusdem respondent.
+[Diagram: dotted number lines a, c, b, d, e, f, g]
 
-## Eucli. ex Zamb. Theorema 14 Propositio 16 Conuersa 14
+## Eucli. ex Camp. Propositio 18
 
-**16** Si quadratus numerus quadratum numerum mensus non fuerit, neq̃ latus latus metietur. Et si latus latus mensum non fuerit, neque quadratus quadratum metietur,
+**18** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duo numeri solidi similes, necesse est eis duos numeros secundū continuā proportionalitē interesse, eritq̃ proportio unius solidi ad alterū sibi similē, uelut cuiuslibet sui lateris ad latus alterius respiciēs se proportiōaliter, proportio triplicata.
 
-THEON ex Zamberto. Sint quadrati numeri α, β: eorum autem latera sint γ, δ. At α, ipsum β non metiatur. Dico quod neque γ, ipsum δ, metietur. Si autem γ ipsum δ, metitur, metitur (per 14 octaui,) & α ipsum β: non metitur autem (per hypothesin) β, ipsum β, neque igitur γ, ipsum δ metietur. Non metiatur autem rursus γ, ipsum δ. Dico quod neque α, ipsum β, metietur. Si autem α, ipsum β metitur, & γ, (per 14 octaui) ipsum δ. Nō metitur autē γ, ipsum δ, (per hypothesin,) neque α igitur, ipsum β metietur, quod erat demonstrandum.
+CAMPANVS. Sint duo numeri a & b, solidi similes. dico quod inter ipsos cadent duo numeri in continua proportione. Sint enim latera numeri a, c, d. e: latera uero b, sint f, g, h. eruntq̃ ex conuersione diffinitionis numerorum similium, c ad f, & d ad g, sicut c ad h. Sit igitur ex c in d, K, & ex f in g. l, erūtque ex diffinitione. K & l, superficiales & similes, quare per 16 huius, unus numerus cadit inter eos medius secundū proportionem c ad f, qui s.t m. Manifestum autem est quod ex e in K, sit a & ex h in l, b, si igitur ex e in m & l fiant n & p, erunt per 18 septimi, a ad n sicut K ad m & n ad p, sicut m ad l, quare a, n, p, sunt continue proportionales in proportione c ad f, & quia per 19 eiusdem p ad b sicut e ad h. & ideo sicut c ad f, sequitur ut quatuor numeri a, n, p, b sint continue proportionales secundum proportionem c ad f, sunt itaque inter a & b duo numeri n & p, medij in continua proportionalitate suorum laterū interpositi, quod est propositū Correlariū autē patet, cū proportio a ad b sit per diffinitionē sicut a ad n triplicata quæ est eadē illi quæ est c ad f.
 
-[Diagram: dotted number lines α, β, γ, δ]
+[Diagram: dotted number lines a, n, p, b, c, d, e, f, g, h, K, m, l]
 
-## Eucli. ex Zamb. Theorema 15 Propositio 17 Conuersa 15
+## Eucli. ex Camp. Propositio 19
 
-**17** Si cubus numerus cubum numerum non metiatur, neque latus latus metietur. Et si latus latus non metiatur, neque cubus cubum metietur.
+**19** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I eis secundum cōtinuam proportionalitatem duo numeri interiacent, quilibet duo numeri, solidi sunt atque similes.
 
-THEON ex Zamb. Cubus enim numerus α, cubum numerum β non metiatur, & ipsius quidem α, latus esto γ, ipsius uero β, sit δ. Dico quod & γ, ipsum δ non metietur, Si enim γ ipsum δ metitur, & α, ipsum β metietur, (per 15 octaui,) non metitur autem α, ipsum β, (per hypothesin,) neque igitur γ, ipsum δ metietur. Sed iam non metiatur γ ipsum δ. Dico quod & α ipsum β non metietur, si enim α ipsum β, metitur, & γ, ipsum δ, metietur (per 15 octaui,) non metitur autem γ, ipsum δ, (per hypothesin,) neque α igitur ipsum β, metietur: quod oportuit demonstrasse.
+CAMP. Hæc est cōuersa præmissæ, ut si inter a & b sint duo numeri c & d medij in continua proportione, erunt a & b solidi & similes. Sumantur enim tres minimi in eadem proportione continue proportionales: qui sunt e, f, g, erúntque per 17 e, & g, superficiales & similes, sint ergo h & k, latera e, at l, & m, latera g eritque per correlarium 16 huius, e ad f, sicut h ad l, aut sicut K ad m. Manifestum autem est ex tertia quod e & g, sunt contra se
 
-[Diagram: dotted number lines α, β, γ, δ]
+[Diagram: dotted number lines a, c, d, b; e, h, K, n; f; g, m, l, p]
 
-## Eucli. ex Camp. Propositio 16
-
-**16** {dropcap:S|lines=?|style=decorated|decoration="two figures"}I duo numeri superficiales fuerint similes, necesse est tertium numerum secundum proportionalitatem continuam eis interesse. Eritq̃ proportio unius numeri ad alterum sibi similem, uelut unius lateris sui ad latus alterius ipsum respiciens proportio duplicata.
-
-CAMPANVS Sint duo numeri a & b, superficiales & similes, dico quod inter ipsos cadet unus numerus in continua proportione, latera enim a sint c & d, b uero latera, sint e & f, erūt que ex conuersione diffinitionis numerorū similiū, c ad e, sicut d ad f, constat autem quod ex c in d fiat a, & ex e in f, b, fiat itaque
-
-[Diagram: dotted number lines a, g, b, c, d, e, f]
-
-<!-- Catchword: itaque -->
+<!-- Catchword: primi -->

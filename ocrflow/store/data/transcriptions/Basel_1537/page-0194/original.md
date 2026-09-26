@@ -1,53 +1,37 @@
-<!-- Running title: LIBER SEPTIMVS -->
+<!-- Page number: 184 -->
 
-<!-- Page number: 183 -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-THEON ex Zamberto. Sint bini numeri α,β, & α quidem ipsum β multiplicans, efficiat γ, & β ipsum α multiplicās, efficiat δ. Dico quod æqualis est γ ipsi δ. Quoniam enim α ipsum β multiplicans, γ fecit, & β igitur ipsum γ metitur per eas quæ in α sunt unitates: metitur autem & ε unitas ipsum α numerum per eas quæ in eo sunt unitates : pariter igitur (per 11 quinti) ε unitas ipsum α numerū metitur & β ipsum γ. Vicißim igitur (per 15 septimi) pariter ε unitas ipsum β numerum metitur, & α ipsum γ. Rursus quoniam β ipsum α multiplicans, fecit ipsum δ, igitur α ipsum δ metitur per eas quæ in ipso β sunt unitates. Metitur autem & ε unitas, ipsum β per eas quæ in eo sunt unitates : pariter igitur (per 11 quinti) ε unitas ipsum β numerum metitur, & α ipsum δ: pariter autem ε unitas ipsum β numerum metitur, & α ipsum γ. Pariter igitur α, utrunq̃; γ,δ, metitur: æqualis igitur est γ ipsi δ, quod erat demonstrandum.
+Vt si sit a ad b, sicut d ad f, & b ad e, sicut c ad d, erit a ad e, sicut c ad f: ducatur enim c in d & f, & proueniāt g & h, eritq̃ per præmissam g ad h, sicut d ad f, quare & sicut a ad b, ducatur item f in d, & proueniat k: eritq̃ per hanc 19 g ad k, sicut c ad f, & quia ex f in d fit k, fiet idem econuerso per 16 ex d in f, quia igitur ex c & d in f fiunt h & K, erit per hanc 19, h ad K, sicut c ad d, quare sicut b ad e, & quia iam ostensum est quod est g ad h sicut a ad b, erit per 15, a ad e sicut g ad k, sed sic erat etiā c ad f: est igitur a ad e, sicut c ad f, quod est propositū . Idem probabis si fuerint in utroq̃ ordine numeri plures tribus quemadmodū probatur in 13 quinti, de quantitatibus pluribus tribus.
 
-[Diagram: dot-rows in the right margin, ε (1 dot), α (2 dots), β (4 dots), γ (8 dots), δ (8 dots)]
+[Diagram: dot-rows in the right margin labelled g (12 dots); h (8 dots); a and c; b and d; c and f; k]
 
-## Eucli.ex Camp. Propositio 18
+## Eucli.ex Zamb. Theorema 16 Propositio 18
 
 [Margin]
 18
 [/Margin]
 
-SI unus numerus in duos ducatur, tantus erit duorum inde productorum alter ad alterum, quantus duorum multiplicatorum alter ad alterum.
+Si duo numeri numerum aliquem multiplicantes, fecerint aliquos, geniti ex eis eandem habebunt rationem quam multiplicantes.
 
-CAMPANVS. Multiplicet a utrunq̃ duorum numerorū b & c, & proueniant d & e. Dico quod erit proportio d ad e, sicut b ad c: sequitur enim per conuersionē diffinitionis eius quod est multiplicari, ut b in d, & c in e sit, quoties unitas in a: quare per diffinitionē, proportio d ad b, est sicut e ad c: æqualiter enim eos continent, quia quoties unitatem, ergo permutatim d ad e, sicut b ad c, quod est propositum.
+THEON ex Zamberto. Duo enim α, β. numerum aliquem δ multiplicantes, efficiant ipsos δ,ε. Dico quod est sicut α ad β, sic est δ ad ε. Quoniā α enim multiplicans ipsum γ. fecit ipsum δ, & γ igitur ipsum α multiplicans, facit ipsum δ. Id propterea γ ipsum β multiplicans, ipsum ε fecit. Numerus iam γ duos numeros α, β, multiplicans, fecit ipsos δ, ε. Est igitur (per 17 septimi) sicut α ad β, sic est δ ad ε, quod oportuit demonstrasse.
 
-[Diagram: dot-rows in the right margin, d and e in one row; below, b and c; below, a (2 dots); below, a single dot above the word Vnitas]
+[Diagram: dot-rows in the right margin labelled α, β, γ, δ (12 dots), ε (15 dots)]
 
-## Eucli.ex Zamb. Theorema 15 Propositio 17
-
-[Margin]
-17
-[/Margin]
-
-Si numerus duos numeros multiplicans, fecerit aliquos, geniti ex eis eandem rationem habebunt quam multiplicati.
-
-THEON ex Zamb. Numerus enim α duos numeros β,γ, multiplicans, efficiat ipsos δ,ε. Dico quod est sicut β ad γ, sic est δ ad ε. Quoniam enim α ipsum β multiplicans, ipsum δ fecit, & β igitur ipsum δ metitur per eas quæ in α sunt unitates . Metitur autem & ζ unitas, ipsum α numerum, per eas quæ in eo sunt unitates. Pariter igitur ζ unitas ipsum α numerum metitur, & β ipsum δ: est igitur sicut ζ unitas ad α numerum, sic est β ad δ. Propterea iam & sicut ζ unitas ad α numerum, sic γ ad ε: & sicut igitur (per 11 quinti) β ad δ, sic γ ad ε. Vicißim igitnr (per 15 septimi) est sicut β ad γ, sic est δ ad ε. Si igitur numerus duos, & reliqua quæ sequuntur, quod oportebat demonstrare.
-
-[Diagram: dot-rows in the right margin, ζ (1 dot), α (3 dots), β (4 dots), γ (5 dots), δ (12 dots), ε (15 dots)]
-
-## Eucli. ex Camp. Propositio 19
+## Eucli. ex Camp. Propositio 20
 
 [Margin]
-19
+20
 [/Margin]
 
-SI duo numeri unum multiplicent, erit proportio duorum inde productorum tanquam duorum multiplicantium.
+SI fuerint quatuor numeri proportionales, quod ex ductu primi in ultimum producetur, æquum erit ei quod ex ductu secundi in tertium. Si uero quod ex primo in ultimum producetur, æquum est ei quod ex secundo in tertium, illi quatuor numeri sunt proportionales.
 
-CAMPANVS. Ex conuersione antecedentis præmissæ, cōcluditur hæc eadem passio quæ in præmissa, ut si uterq̃ duorum numerorum b & c multiplicet a, & proueniant d & e, erit d ad e, sicut b ad c: erit enim per ante præmissam ut ex a in b & c fiant d & e: quare per præmissam d ad e, sicut b ad c, quod est propositum.
+CAMPANVS. Quod proposuit Euclides per 15 sexti, de quatuor lineis proportionalibus, proponit hic de quatuor numeris proportionalibus, uerbi gratia . Sit proportio a ad b, sicut c ad d, fiatq̃ ex a in d, e, & b in c, f: dico quod e & f sunt æquales, & econuerso. Ducatur enī a in b, & fiat g, eritq̃ per 18 g ad e, sicut b ad d, & quia per 17 ex b in a fit g, & ex eodem b in c, f, erit per 18 g ad f, sicut a ad c: æquales igitur sunt f & e, quod est primum. Nec oportet prædemōstrare si unius numeri ad duos sit una proportio, quod sunt æquales, aut si ipsi sunt æquales, quod unius ad ipsos sit una proportio. Si enim est una proportio g ad e & ad f, aut ipse erit tota pars uel partes e quota uel quotæ idem est f, & tunc per conceptionem patet e & f esse æquales, aut toties g continebit e quoties f, & superfluent in eo tota pars uel partes e quota uel quotæ in eodem superfluent f, & tunc etiam per conceptionem patet eos esse æquales. Quod si ipsi fuerint æquales patet per conceptionē, quod aut g erit tota pars uel partes e quota uel quotæ f, & tunc per diffinitionē erit ipsius g ad utrunq̃ eorum proportio una, aut æqualiter continebit utrunq̃ cum superfluitate similium & tot numero partium, & tunc etiam per diffinitionem erit eius ad utrunq̃ proportio una.
 
-[Diagram: dot-rows in the right margin, d and e in one row; below, a (2 dots)]
+[Diagram: dot-rows in the right margin, e (12 dots); g (18 dots); f (12 dots); a (6 dots) and c (4 dots); b (3 dots) and d (2 dots)]
 
-CAMPANI annotatio. Potes autem quod proponit per hanc & præmissam de duobus numeris, ad quotlibet numeros ampliare, quod si unus multiplicet quotlibet, erit productorum & multiplicatorum una proportio . Similiter quoq̃ si quotlibet multiplicent unum erit, erit productorū & multiplicantium una proportio, quod per hanc & præmissam quoties oportuerit repetitas, facile probabis. Hic autem (ut supra polliciti sumus) demonstrare uolumus æquam proportionalitatem in quotlibet numeris duorum ordinum indirectæ proportionalitis, quam demonstrat Euclides per 13 quinti, in quantitatibus in genere. Dicimus igitur:
+Secundum sic patet. Sit e productus ex a in d, æqualis f producto ex b in c: dico proportio a ad b est, sicut c ad d, & est hæe conuersa primæ partis . Sit enim ut prius g, qui fit ex a in b, & quia e & f sunt æquales, erit g ad utrunq̃ eorum proportio una, & quia ut prius per 18, g ad f sicut a ad c, & ad e sicut b ad e, erit a ad c, sicut b ad d, quare permutatim a ad b, sicut c ad d.
 
-[Diagram: dot-rows in the right margin beside the annotatio, b (3 dots) and c (4 dots)]
+CAMPANI annotatio. Non proponit autem Euclides de tribus numeris continue proportionalibus, quod ille qui ex ductu primi in tertium producitur, sit æqualis quadrato medij, & si ille qui ex primo in tertium producitur, fuerit æqualis quadrato medij, quod illi tres numeri sint continue proportionales, sicut proponit in 16 sexti. de tribus lineis: hoc enim facile demonstratur per hanc 20, medio illorum trium numerorum, æquali assumpto, quemadmodū in sexto de tribus lineis probatur per quatuor, assumpta quarta æquali mediæ.
 
-Si quotlibet numeri totidem alijs fuerint indirecte proportionales, extremi quoq̃ in eadem proportione proportionales erunt.
-
-<!-- Signature: q 2 -->
-
-<!-- Catchword: Vt si -->
+<!-- Catchword: Eucli. ex -->

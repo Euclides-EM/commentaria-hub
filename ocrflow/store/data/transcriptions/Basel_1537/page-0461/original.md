@@ -1,55 +1,27 @@
-<!-- Page number: 450 -->
+<!-- Running title: LIBER TERTIVSDECIMVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 451 -->
 
-festum est ex 2 decimiquarti, quæ sine auxilio alicuius earum quæ sequuntur firma demonstratione solidatur: ergo per 15 primi a fortiori n b, maior est quàm p b. Quare patet latera horum corporum præmissorum fere eo ordine quo corpora seinuicem sequuntur: seinuicem excedere. In cubo enim dūtaxat & octoedro habet hic instantias, nam latus octoedri excedit latus cubi, quamuis cubus antecedat octoedron. Cubum autem præmittunt idcirco octoedro, quia eadē diuisione diametri, assignatæ sphæræ, latus pyramidis 4 bases triangulas habentis, & latus cubi inuenitur. Est igitur a e latus pyramidis, maius lateribus cæterorum corporū, post ipsum autē, est f b latus octoedri maius sequentium corporū lateribus. Tertio ordine sequitur in magnitudine e b, latus cubi. Quarto uero loco est n b latus icosedri. Minimū autem est omniū p b, latus dodecedri.
-
-## Eucli. ex Zamb. — Problema 6. Propositio 18
+prima ad id quod ex sc̃da. Est igitur sicut δ β ad β α, sic quod ex δ β ad id quod ex ζ β. Cōuersim igitur sicut α β ad β δ, sic quod ex ζ β ad id quod ex β δ. Tripla autē est α β ipsius β δ, triplum igitur quod ex ζ β, eius quod ex β δ. Est autē & quod ex α δ, quadruplum eius quod ex δ β, dupla enim est α δ ipsius δ β. Maius igitur quod ex α δ eo quod ex ζ β, & maior igitur est α δ, ipsa ζ β, multo igitur maior est α λ, ipsa ζ β. Et ipsa quidē α λ, extrema & media ratione diuisa, maius segmentum est κ λ, quoniam ipsa quidē λ κ, hexagoni est, ipsa uero α κ, decagoni, ipsa aūt ζ β extrema & media ratione diuisa, maius segmentum est ν β. Æqualis autē est κ λ ipsi λ μ, maior igitur est λ μ, ipsa ν β, multo igitur maior est μ β latus existēs icosahedri, ipsa ν β latere existēte ipsius dodecahedri. Quod facere & ostendere oportuit. Aliter, quod maior est μ β ipsa ν β. Quoniā enim dupla est α δ ipsius δ β, tripla igitur est α β ipsius δ β. Sicut autē α β ad β δ, sic quod ex α β ad id quod ex β ζ, quoniam triangulum α ζ β ipsi triangulo ζ δ β æquiangulum est, triplum igitur est quod ex α β, eius quod ex ζ β. Est autē & quod ex α β, eius quod ex κ λ, quincupla. Quinque igitur quæ ex κ λ, tribus, quæ ex ζ β, sunt æqualia. Sed tria quæ ex β ζ, quæ ex β ν, sunt maiora. Quare & quinq́; quæ ex κ λ, ijs quæ ex β ν, sunt maiora, maior igitur est & κ λ, ipsa β ν, æqualis aūt est κ λ ipsi λ μ, maior igitur est & λ μ, ipsa ν β, multo igitur maior μ β, ipsa ν β. Quod ostendere oportuit. Dico iam quod præter prædictas quinque figuras, non cōstruetur alia figura cōprehēsa sub æq̃lateris & æq̃angulis inuicē æqualibus. Sub binis nāq́; triāgulis, neq́; sub duobus planis, solidus angulus nō cōstruitur. Sub tribus triāgulis, q̃; pyramis, sub quatuor, quæ octahedri, sub q̃nq́;, quæ icosahedri. Sub sex uero triāgulis æq̃lateris & æq̃angulis ad unū signū cōstitutis, nō erit solidus angulus, existēte nāq́; æquilateri triāguli angulo duarū partiū rectis, erūt sex quatuor rectis æquales. Quod est impossibile. Oīs nāq́; solidus angulus, sub paucioribus q̀m quatuor rectis cōprehēditur (per 21 undecimi) Id 'ppterea, neque sub pluribus planis angulis cōstruitur solidus angulus, æqualibus. Sub quadratis tribus, cubi angulus cōprehēditur. Sub quatuor aūt impossibile, erūt enim rursus quatuor recti. Sub pētagonis æq̃lateris & æquiangulis tribus, dodecahedri. At sub quatuor impossibile, erūt nāq́; quatuor anguli quatuor rectis maiores, quod est impossibile. Neq́; sub polygonis alijs figuris cōprehēdetur solidus angulus, quoniā absurdū esset. Igitur præter prædictas quinq́; figuras alia figura nō cōstruetur sub æq̃lateris & æq̃gulis cōprehēsa, q̃d erat ostendendū. Quod aūt æq̃lateri & æq̃anguli quinquanguli angulus unius recti est & quintæ, sic ostēdētur. Sit enim quinquangulum æquilaterū & æquiāgulū α β γ δ ε, circūscribatur ei (per 14 quarti) de circulus, & accipiatur (per 1 tertij) illius cētrū ζ, sitq́; cōnectātur ζ α, ζ β, ζ γ, ζ δ, ζ ε. Bifariā igitur secāt ipsius pētagoni angulos ad ipsa α, β, γ, δ, ε signa. Et quoniā anguli qui ad ζ, quinque quatuor rectis sunt æquales, & sunt æquales, igitur unus ipsorū (sicut qui sub α ζ β,) unius recti est præter quintū. Reliqui igitur qui sub ζ α β & α β ζ, unius sunt recti & quintæ. Æqualis aūt est qui sub ζ α β ei qui sub ζ α ε, totus igitur ipsius pētagoni angulus, qui sub ε α β, unius recti est & quintæ. Quod ostēdere oportuit.
 
 [Margin]
-18
+παρὰ πέμπτον, præter quintū, id est quinta parte minor recto.
 [/Margin]
 
-Latera quinque figurarum exponere, & adinuicem comparare.
+[Diagram: circle with inscribed pentagon α β γ δ ε and its centre ζ]
 
-THEON ex Zamb. Exponatur datæ sphæræ diameter α β, seceturq́; in γ, ut α γ ipsi γ β sit æqualis, & in δ, ut α δ ipsius δ β dupla sit, & super α β describatur semicirculus α ε β, & ab ipsis γ, δ, (per 11 primi) ad angulos rectos excitentur ε γ, ζ δ, & cōnectātur α ζ, ζ β, ε β. Et quoniā dupla est α δ ipsius δ β, tripla igitur est α β ipsius β δ. Cōuertendo igitur (per correlariū 19 quinti) sesqualtera est β α ipsius α δ. Sicut aūt β α ad α δ, sic quod ex β α ad id quod ex α ζ, æquiangulum enim est α ζ β triangulum, ipsi α ζ δ triangulo, sesqualterum igitur est quod ex β α eius quod ex α ζ. Est autem & ipsius sphæræ diameter, potentia sesqualtera lateris pyramidis, & est α β ipsius sphæræ diameter, ipsius igitur pyramidis latus est α ζ.
+F I N I S.
+
+# EVCLIDI MEGARENSI CLARISSIMO PHILOSOPHO MATHEMATICORVMQVE facile principi deputatus liber de regularium corporū proportione Campano cōmentatore, qui in ordine est decimusquartus.
+
+## Eucli. ex Camp. — Propositio 1
 
 [Margin]
-Latus pyramidis
+1
 [/Margin]
 
-Rursus quoniam dupla est α δ ipsius δ β, tripla igitur est α β ipsius β δ. Sicut autē α β ad β δ, sic quod ex α β ad id quod ex β ζ, triplū igitur est quod ex α β eius quod ex β ζ. Est autem & sphæræ diameter, potētia tripla lateris ipsius cubi (per 15 decimitertij,) & est α β sphæræ diameter, ipsius igitur cubi latus est β ζ.
+OMnis perpendicularis à centro circuli ducta ad latus pentagoni intra circulū ipsum descripti dimidium, lateris decagoni atque dimidio lateris hexagoni intra circulum eundē descriptorū ambobus dimidijs in longū directisq́; cōiunctis æqualis esse probatur. Patet igitur quod perpēdicularis ducta à centro circuli ad latus pētagoni, est æqualis perpendiculari ductæ à centro ad latus triāguli dimidioq́; lateris decagoni intra eundem circulum descripti directe coniunctis.
 
-[Margin]
-Latus cubi.
-[/Margin]
+<!-- Signature: P 4 -->
 
-Et quoniā æqualis est α γ ipsi γ β, dupla igitur est α β ipsius β γ. Sicut autē α β ad β γ, sic quod ex α β ad id quod ex β ε. Duplū igitur est quod ex α β eius quod ex β ε, est aūt & ipsius sphæræ diameter, potentia dupla lateris octahedri (per 14 decimitertij,) & est α β datæ sphæræ diameter, ipsius igitur octahedri latus est ε β.
-
-[Margin]
-Latus octahedri.
-[/Margin]
-
-Excitetur iā (per 11 primi) ab ipso α signo ipsi α β rectæ lineæ ad angulos rectos, α η. Ponaturq́; α η æqualis ipsi α β, & cōnectatur η γ, & ab ipso θ (per 12 primi) in ipsam α β perpēdicularis excitetur θ κ. Et quoniā dupla est η α ipsius α γ, æqualis enim est η α ipsi α β, sicut η α ad α γ, sic θ κ ad κ γ, dupla igitur est & θ κ ipsius κ γ. Quadruplū igitur est quod ex θ κ, eius quod ex κ γ. Quæ igitur ex θ κ, κ γ, quæ idē sūt ei quod ex θ γ, quincuplū sunt eius quod ex κ γ. Æqualis aūt est θ γ ipsi γ β, quincuplū igitur est quod ex β γ eius quod ex γ κ. Et quoniā dupla est α β ipsius β γ, quarū α δ ipsius δ β dupla est, reliqua igitur β δ reliquæ δ γ est dupla. Tripla igitur est β γ ipsius γ δ, maior igitur est κ γ ipsa γ δ. Ponatur (per 2 primi) ipsi κ γ æqualis γ λ, & ab ipso λ (per 11 primi) ipsi α β ad angulos rectos excitetur λ μ, & cōnectātur μ β. Et quoniā quod ex β γ eius quod ex γ κ quincuplū est, dupla autē est α β ipsius β γ, & dupla κ λ ipsius γ κ, quincuplum igitur est quod ex α β eius quod ex κ λ. Est autem sphæræ diameter potentia quincupla eius quæ ex cētro est circuli à quo icosahedrū describitur, estq́; α β ipsius sphæræ diameter, ipsa igitur κ λ ex cētro est circuli à quo icosahedrum describitur, ipsa igitur κ λ, hexagoni est latus dicti circuli. Et quoniā sphæræ diameter cōponitur ex hexagoni & binis decagoni in dicto circulo descriptorū lateribus (per correlariū 16 decimitertij), estq́; α β sphæræ diameter, & κ λ hexagoni latus, & α κ ipsi λ β æqualis, utraq́; igitur ipsarū α κ, λ β, decagoni latus est descripti in circulo à quo icosahedrum describitur. Et quoniā decagoni quidem est λ β, hexagoni uero λ μ, æqualis enim est ipsi κ λ, quoniā & ipsi θ κ, æqualiter enim distāt à centro, & utraq́; ipsarū θ κ, λ μ dupla est ipsius κ γ, pentagoni igitur est latus μ β. Quod aūt pentagoni, & icosahedri. icosahedri igitur latus est μ β.
-
-[Margin]
-Latus icosahedri
-[/Margin]
-
-Et quoniā ζ β est latus cubi, secetur extrema & media ratione in ν, sitq́; maius segmētū ν β, ipsa igitur ν β, dodecahedri est latus.
-
-[Margin]
-Latus dodecahedri
-[/Margin]
-
-Et quoniā ipsius sphæræ diameter ostēsa est, potētia quidē sesqualtera lateris pyramidis, potētia autē dupla lateris octahedri, potentia uero tripla, lateris cubi: qualis igitur sphæræ diameter potētia sex taliū, ipsius quidē pyramidis latus quatuor, octahedri uero latus triū, cubi uero duorū. Latus igitur pyramidis lateris quidē octahedri, potentia est epitritū. Cubi aūt lateris, potentia est dupli. Octahedri aūt latus lateris, cubi potētia est hemioliū. Ipsa quidē igitur dicta tria figurarū latera, dico aūt pyramidis & octahedri & cubi, in rōnibus rōnalibus subsistunt. Reliqua uero duo id est icosahedri & dodecahedri, nec adinuicē, neq́; ad prædicta in rōnibus rōnalibus existunt, irratiōalia sunt etenim, hoc est minor & apotome.
-
-[Margin]
-Comparatio. 5. laterum
-[/Margin]
-
-Quod autē maius est icosahedri latus id est μ β, dodecahedri latere, hoc est ν β, sic ostendemus. Quoniā triangulum ζ δ β, ipsi triangulo ζ α β æquiangulum est, proportionaliter est sicut β δ ad β ζ, sic ζ β ad β α. Et quoniā tres rectæ lineæ proportionales sunt, est igitur sicut prima ad tertiā, sic quod ex
-
-[Diagram: semicircle on diameter α β with the perpendicular α η erected at α, line η γ cutting the arc at θ, perpendiculars θ κ, ε γ, ζ δ, λ μ let fall on α β, and chords α ζ, ζ β, ε β, μ β; base points labeled α, κ, γ, δ, λ, β, with η, θ, ε, ζ, μ above]
-
-<!-- Catchword: prima -->
+<!-- Catchword: CAMP -->

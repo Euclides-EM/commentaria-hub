@@ -1,29 +1,37 @@
-<!-- Running title: LIBER SEPTIMVS. -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 175 -->
+<!-- Page number: 176 -->
 
-α ipsius βγ. Quoniam enim α pars est ipsius βγ, eademq̃ pars est δ ipsius εζ, quot igitur sunt in ipso βγ numeri æquales ipsius α, tot sunt & in ipso εζ numeri æquales ipsi δ. Diuidatur, inquam, βγ in æquales ipsi α, hoc est βη & ηγ, & εζ in æquales ipsi δ, hoc est εθ, & θζ, erit iam æqualis multitudo ipsorum βη & ηγ, multitudini ipsorū εθ & θζ. Et quoniā æqualis est βη ipsi α, & εθ ipsi δ, igitur βη & εθ, α, δ sunt æquales. Id propterea etiam ηγ ipsi α est æqualis, & θζ ipsi δ: ipsi igitur ηγ θζ ipsis α δ æquales sunt. Quot igitur sunt in ipso βγ numeri æquales ipsi α, tot sunt & in βγ & εζ æquales ipsis α, δ. Quotuplex igitur est βγ ipsius α, totuplex est & uterque βγ & εζ, utriusq̃ α, δ. Quæ igitur pars est α ipsius βγ, eadem pars est, & uterque α, δ, utriusq̃ βγ & εζ, quod oportebat demonstrare.
+## Eucli. ex Camp. Propositio 7
 
-[Diagram: dot-rows: βγ (row of dots with interior point η), δ (4 dots), εζ (row of dots with interior point θ)]
+**7** {dropcap:S|lines=?|style=decorated|decoration="foliate decoration"}I fuerint duo numeri quorum unus alterius pars, detrahaturq̃ ab ambobus ipsa pars, erit reliquus tota pars reliqui, quota totus totius.
 
-## Euclides ex Campano. Propositio 6
+CAMPANVS. Quod proponit hic Euclides de numeris, proposuit superius in quinta quinti de quantitatibus in genere. Sit ita ut quota pars est totus a totius b, totus sit c detractus ab a, d detracti a b: dico ꝙ tota erit e residuus a f residui b, quota est totus a totius b, & hæc est quasi conuersa quintæ. Sit enim per petitionem, e tota pars g, quota c est d, eritq̃ per 5, tota pars a compositi ex g & d, quota est c, d: quare & quota est a, b: igitur per secundam conceptionem compositus ex g & d est æqualis b: dempto itaque ab utroque numero, d, erit g æqualis f, quare erit e tota pars f, quota est a, b, tota enim erat e, g, quod est propositum.
 
-**6** {dropcap:S|lines=?|style=decorated|decoration="foliate decoration"}I fuerint quatuor numeri quorum primus totæ partes secundi quotæ tertius quarti, erunt primus & tertius pariter accepti totæ partes secundi & quarti pariter acceptorum, quotæ primus secundi.
+[Diagram: dot diagram: g at top with a diagonal column of single dots descending; then b; then row f (8 dots) with d (4 dots); then a; then row e (5 dots) with c (2 dots)]
 
-CAMPANVS. Quod proposuit præmissa de parte, proponit ista de partibus. Sint itaq̃ ut prius quatuor numeri a, b, c, d, sitq̃ ut b sit tot & totæ partes a, quot & quotæ d est c: dico quod b & d pariter accepti erunt tot & totæ partes a & c pariter acceptorū, quot & quotæ b est a. Dico autem tot & totas, quia partium pluralitas duobus numeris diffinitur, quorum alter numerator dicitur, alter denominator, ut cum dicimus tres quintæ, ternarius numerat, quinarius denominat. Quia igitur b est partes a, sit ut sint partes eius numeratæ ab h & denominatæ a k, eritq̃ similiter per positionem, d partes c numeratæ ab h & denominatæ a k. Vna itaq̃ partium b sit e, & una partium d sit f, eritq̃ per hypothesin, e pars b denominata ab h, & pars a denominata a k. Similiter quoq̃ & f erit pars d secundum h, & pars c secūdum k. Compositus igitur ex e & f sit g, eritq̃ per præmissam, g pars b & d pariter acceptorum, secundum h, itemq̃ per eandem erit pars a & c pariter acceptorum, secundum k: quare per 16 diffinitionem erunt b & d pariter accepti partes a & c pariter acceptorū numeratæ ab h & denominatæ a k, eo quod eorum communis pars est g minoris secundum h & maioris secundum k, & quia sic erat b, a, constat propositum.
+## Eucli. ex Zamb. Theorema 5 Propositio 7
 
-[Diagram: dot-rows: a (7 dots) with c (12 dots); b (4 dots) with d (8 dots); g; e (2 dots) with f (4 dots); b (2 dots) and k (3 dots)]
+**7** Si numerus numeri pars fuerit qualis ablatus ablati, & reliquus reliqui pars erit qualis totus totius.
 
-CAMPANI annotatio. Potes autem & per hanc & præmissam, quod proponit de quatuor numeris, ad quotlibet numeros ampliare, quot si quotlibet numeri minores ad totidem maiores comparentur, fuerintq̃ singuli singulorum tota pars aut partes, quota uel quotæ primus secūdi, erunt quoq̃ omnes pariter accepti tota pars aut partes omnium pariter acceptorū, quota uel quotæ primus secundi, quod facile probatur per hanc & præmissam, quoties oportuerit repetitas. Et si crederemus esse intentionem Euclidis assumere ex prius demonstratis, aliqua ad demonstrationem eorum quæ hic proponit, ex 11 quinti facile demonstrassemus hanc sextam. Nunc autem quia uidetur oppositum (aliter enim superuacue proposuisset multa de numeris, quæ demonstrata sunt in quinto de quantitatibus in genere) necesse habuimus proprijs uti demonstrationibus tanquā ex prioribus nihil sumentes, solis huius septimi contenti principijs: propter quod & petitiones & communes animi conceptiones, proposito proprias non inconuenienter huius septimi principio apposuimus.
+THEON ex Zamberto. Numerus enim αβ numeri γδ pars esto, qualis ablatus αε ablati γζ. Dico quod & reliquus εβ reliqui ζδ eadem est pars, qualis est totius αβ totius γδ. Qualis enim pars est αε ipsius γζ, talis pars esto & εβ ipsius γη. Et quoniam qualis pars est αε ipsius γζ, talis pars est & εβ ipsius γη, qualis igitur pars est αε ipsius γζ, talis est (per 5 septimi) & αβ ipsius ζη. Qualis autem pars est αε ipsius γζ, talis pars supponitur αβ ipsius γδ. Qualis pars igitur est αβ ipsius ζη, talis pars est αβ ipsius γδ: igitur αβ, utriusq̃ ipsorum ηζ & γδ eadem pars est: æqualis igitur est ζη ipsi γδ. Communis auferatur γζ. Reliquus igitur ηγ, reliquo ζδ est æqualis. Et quoniam qualis pars est αε ipsius εζ, talis pars est εβ ipsius ηγ, æqualis autem est ηγ ipsi ζδ, qualis igitur pars est αε ipsius γζ, talis pars est & εβ ipsius ζδ. Sed qualis pars est αε ipsius γζ, talis pars est & αβ ipsius γδ: qualis igitur pars est εβ ipsius ζδ, talis pars est & αβ ipsius γδ. Et reliquus igitur εβ, reliqui ζδ talis est pars, qualis totus αβ totius γδ, quod oportebat demonstrare.
 
-## Eucli. ex Zamb. Theorema 4 Propositio 6
+[Diagram: dot-rows: η (4 dots) γ (9 dots) ζ (4 dots) δ in one line; α (5 dots) ε (2 dots) β in a second line]
 
-**6** Si numerus numeri partes fuerit, & alter alterius eædem partes, & uterque utriusque eædem partes erunt, quæ unus unius.
+## Eucli. ex Camp. Propositio 8
 
-THEON ex Zamberto. Numerus enim αβ, numeri γ esto partes, & alter δε, alterius ζ eædem partes, quæ αβ ipsius γ. Dico quod & uterq̃ αβ & δε, utriusq̃ γ, ζ, eædem partes sunt, quæ αβ ipsius γ. Quoniā enim quales partes est αβ ipsius γ, eædem partes est & δε ipsius ζ: quot igitur partes sunt in ipso αβ ipsius γ, tot partes & in δε, ipsius ζ. Diuidatur quidem αβ in partes ipsius γ, hoc est αη & ηβ, necnon δε in partes ipsius ζ, hoc est δθ, & θε. Erit multitudo ipsorum αη, ηβ æqualis multitudini ipsorum δθ, θε: & quoniam qualis pars est αη ipsius γ, talis pars est & δθ ipsius ζ: qualis igitur pars est αη ipsius γ, talis pars est ut uterque αη & δθ utriusq̃ γ, ζ. Id propterea & qualis pars ηβ ipsius γ, talis pars est & uterque ηβ & θε utriusq̃ γ ζ. Quales igitur partes sunt αβ ipsius γ, tales partes sunt & uterque αβ & δε utriusq̃ γ, ζ quod demonstrare oportebat.
+**8** {dropcap:S|lines=?|style=decorated|decoration="foliate decoration"}I à duobus numeris (quorum alter alterius partes) propositis partes illæ subtrahātur, erit reliquus reliqui eædem partes quæ est totus totius.
 
-[Diagram: dot-rows: αβ (row of dots with interior point η); γ (9 dots); δε (row of dots with interior point θ); ζ (13 dots)]
+CAMPANVS. Hæc est quasi conuersa sextæ, ut si sit quot & quotæ partes est totus a totius b, tot & totæ c detractus a, b, ad detracti a b, erit e residuus a, tot & totæ partes f residui b, quot & quotæ est a, b. Sit enim g una partium a, & h una partiū c, eritq̃ propter hypothesin, g tota pars a, quota h, c, & tota b, quota h, d: detrahatur igitur h d g, & remaneat k, eritq̃ k per præmissam, tota pars e, quota g, a, & tota f per eandem, quota g, b: quia igitur e & f habent partem cōmunem quæ est k, erit per 16 diffinitionem, e partes f tot quidem quota pars est k, e, & totæ, quota est k, f. & quia tot & totæ erat a, b, patet propositum.
 
-<!-- Signature: p 4 -->
+[Diagram: dot diagram: b; row f (3 dots) with d (6 dots); a; row e (2 dots) with c (4 dots); row g (2 dots) with k (1 dot); b (2 dots)]
 
-<!-- Catchword: Euclidis -->
+## Eucli. ex Zamb. Theorema 6 Propositio 8
+
+**8** Si numerus numeri partes fuerit quæ ablatus ablati, & reliquus reliqui eædem partes erit, quæ totus totius.
+
+THEON ex Zamberto. Numerus enim αβ, numeri γδ partes esto, quæ ablatus αε, ablati γζ. Dico quod reliquus εβ, reliqui ζδ eædem partes est, quæ totus αβ totius γδ. Ponatur enim ipsi αβ æqualis ηθ, quæ igitur partes est ηθ ipsius γδ, eædem partes est & αε ipsius γζ. Diuidatur quidem ηθ in ipsius γδ partes, hoc est ηκ & κθ & αε in ipsius γζ partes, hoc est αλ & λε, erit autem æqualis multitudo ipsorū ηκ & κθ multitudini ipsorum αλ & λε. & quoniam qualis pars est ηκ ipsius γδ talis pars est & αλ ipsius γζ, maior autem est γδ ipso γζ, maior igitur est & ηκ ipso αλ, ponatur ipsi αλ æqualis μκ. Igitur qualis pars est ηκ ipsius γδ, talis
+
+[Diagram: dot-rows: α (3 dots) λ (5 dots) β; γ (9 dots) ζ (3 dots) δ; η (3 dots) μ (1 dot) κ (4 dots) θ]
+
+<!-- Catchword: pars est -->

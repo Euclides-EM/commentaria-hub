@@ -1,55 +1,43 @@
-<!-- Running title: EVLCIDIS MEGARENSIS{printer-error-correction:EVCLIDIS} -->
+<!-- Running title: DATA -->
 
-<!-- Page number: 544 -->
+<!-- Page number: 547 -->
 
-## Diffinitio quarta.
+## Theorema 8 — Propositio 8
 
-Positione dari dicuntur signa, lineæ, & anguli, quæ eundē semper locum obtinent.
+EAndem ad idem rationem datam habentia, & adinuicem rationem datam habebunt.
 
-## Diffinitio quinta.
+Habeat siquidē utraq̃ ipsarū a, c ad b rationē datā. Dico quod & a ad c, rationē habebit datā. Sit, inquā, data magnitudo d, & quoniā ratio ipsius a b data est, eadē eidē fiat quæ ipsius d ad e. Data, inquā, est d, data igitur & e. Rursꝰ quoniā ratio ipsius b ad c data est, eadē eidē fiat quæ ipsius e ad f, data est e, data igitur est & f. Est autē & d. data. Ratio igitur ipsius d ad f, est data. Et quoniā est sicut d ad e, sic a ad b, & sicut b ad c, sic est e ad f, sed ratio ipsius d ad f, data est, ratio igitur & ipsius a ad c data est.
 
-Circulus magnitudine dari dicitur, cuius quæ ex centro magnitudine datur.
+[Diagram: six horizontal line segments in two columns, labelled d, e, f and a, b, e (the last for c)]
 
-## Diffinitio sexta.
+## Scholium
 
-Positione magnitudineq̃ circulus dari dicitur, cuius centrū positiōe datur, ea quæq̃ ex centro magnitudine.
+Aequa est ratio sicut in 17 diffinitiōe & 11 propositiōe 5 ele. patet.
 
-## Diffinitio septima.
+## Theorema 9 — Propositio 9
 
-Segmenta circuli magnitudine dari dicūtur, in quibus anguli dati sunt, & segmentorum bases magnitudine.
+SI binæ aut plures maguitudines{printer-error-correction:magnitudines} inuicē rationē habuerint datam, habuerint autē eædē magnitudines inuicē ad alias quasdam magnitudines rationes datas, neque easdem, & ipsæ magnitudines inuicem rationem datam habebunt.
 
-## Diffinitio octaua.
+Binæ, inquā, siue plures magnitudines a, b, c adinuicem rationē habeāt datā, habeant aūt ipsæ a, b, c magnitudines ad alias quasdā magnitudines d, e, f, datas rationes, nō aūt easdē. Dico quod & ipsæ d, e, f magnitudines ad inuicē rationē datā habebunt. Quoniā ipsius a ad b, ratio est data, & ipsius a ad d, ratio est data, & ipsius igitur d ad b ratio est data. Sed ipsius b ad e ratio est data, & ipsius igitur d ad e, ratio est data. Rursus quoniā ipsius b ad c ratio est data, ipsius autem b ad e, ratio est data, & ipsius igitur e ad c ratio data est. Ipsius autem c ad f ratio est data, & ipsius igitur e ad f ratio est data, ipsæ igitur d, e, f, adinuicē rationem datam hahent{printer-error-correction:habent}.
 
-Positione & magnitudine segmenta dari dicuntur, in quibus & anguli dati sunt magnitudine, & bases segmentorum positione & magnitudine.
+[Diagram: three vertical line segments labelled c, b, a, and below them three vertical line segments labelled f, e, d]
 
-## Diffinitio nona.
+## Scholium
 
-Magnitudo magnitudine dato maior est, quando sublato dato, reliquū eidē æquū fuerit.
+Si enim de substantia se habet ostensio quando hoc fuit eadē, uel ratio propositarum ad aliquas contingentes magnitudines eadem, uel quod contingentes rationē habebūt datā, in hoc exercetur problema.
 
-## Diffinitio decima
+## Theorema 10 — Propositio 10
 
-Magnitudo magnitudine dato minor est, quando adiecto dato, totū eidem æquum fuerit.
+SI magnitudo magnitudine dato maior fuerit quàm in ratione, & utraque eadem dato maior erit quàm in ratione, & si utraq̃ eadē dato maior fuerit quàm in ratione, & reliqua eadē uel dato maior est quàm in ratione, uel reliqua cū consequenti ad quā altera rationem habet datam, data est:
 
-## Diffinitio undecima.
+Magnitudo, inquā, a b magnitudine b c dato maior esto quàm in ratione, dico quod & utraque a c, eadē c b, dato maior est quàm in ratione. Quoniā enim a b, ipsa b c, dato maior est quàm in ratione auferatur data magnitudo a d. Reliquæ igitur d b, ad b c, per 4 propositionem ratio est data, & cōponēdo per 18 quinti ele. & 3 datorū ipsius d c ad b c, rō data est, & est data a d igitur ipsa d a ipsa c d dato maior est quàm in rōne.
 
-Magnitudo magnitudine dato maior est quā in ratione, quādo ablato dato reliquū ad idem rationem datam habuerit.
+[Diagram: one horizontal line segment with points c, b, d, a]
 
-## Diffinitio duodecima.
+Rursus iam a c, ipsa c b, dato maior esto quàm in ratiōe. Dico quod & reliqua a b, eadē b c, aut dato maior erit quæ in ratione, uel ipsa a b cum consequenti ad eam ad quam ipsa b c, rationem datam habet, data est. Quoniam enim a c, ipsa c b, dato maior est quā in ratione, auferatut{printer-error-correction:auferatur} data magnitudo. Data iam aut ipsa a b, minor, aut maior est. Sit prius minor, sitq̃ a d. reliquæ igitur d c ad c b, ratio per 4 propositionē data est. Distribuendo igitur quod ipsius d b ad b c, ratio data est, per 7 propositionē estq̃ data ipsa a d. Igitur a b ipsa b c dato maior est q̃ in ratione. Sed iam data maior esto ipsa a b, ponaturq̃ per diffinitionem primam datorum eidem æqualis a e. Ratio
 
-Magnitudo magnitudine dato minor est quàm in ratione, quādo apposito dato reliquum ad idem rationem habuerit datam.
+[Diagram: one horizontal line segment with points c, e, b, d, a]
 
-## Diffinitio decimatertia.
+<!-- Signature: Z 4 -->
 
-Producta est quæ à dato signo in positione rectam lineam acta recta linea in datum angulum, uel in datum signum.
-
-## Diffinitio decimaquarta.
-
-Reducta quæ à dato signo ad positionē rectam lineā, recta linea in angulo dato acta est.
-
-## Diffinitio decimaquinta.
-
-Appositione est quæ per datum signum positione rectæ lineæ parallelus acta est.
-
-## Interpres
-
-Quoniam in eo uolumine ex quo Data huiusmodi transcripsimus, in latinumq̃ conuertimus, quod sane uetustissimū est, nōnullas adiectiōes cōperimus, quæ licet breues & cōcisæ sint, quoniā ad datorū intelligentiá plurimū conferunt, ut sese habēt sic eas sumus interpretati, studētes uero iudicabūt. Apud græcos id obseruatum, inquā, inuenimus, ut nō omnes interpretatiōes autorū scribant aut cōficiant, sed hij tantū qui inter autores nominari possint, ut fuerunt homerici & pyndarici interpretes, & alij plures uiri sane grauissimi in disciplinis humanioribus. Itidē quoq̃ in physiologicis ut sunt interpretes Aristotelici, Ammonius, Alexander, Ioannes grā. Themistius, & Platonici, sic etiā in mathematicis, ut Theon, Hypsicles, Pappus, Heron Alexandrinus, Proclus Lycius qui in Euclidē scripserūt, factūq̃ est id propterea ut apud Græcos nō uideamus ista immensa nugarū uolumina, quorū nos latini pleni sumus. Videmus enim unūquēque autorē tribus & quatuor cōmentationibus esse nō interpretatū, sed laceratum, & adeo ut crebro studentes nesciāt ubi nā sit incipiendū, quippe quoniā sunt adeo nugis & laruis nescio quibus obsiti, ut cæcutiētes in tenebris ambulent, illud, inquā, Horatianū si unquā nūc mirū in modū uerū est, nā scribimus indocti doctiq̃ poëmata passim, nolim tamen detrahere famæ & autoritati. Seruij, Acronis, Porphyrij, Donati, Lactantij grauissimorum autorū, qui linguā latinam illustrarūt, de illis uero alijs quid dicendum supersit ignoramus. Ecce etiā plurima uideas opuscula in grāmaticis composita quæ in eū creuerunt numerū ut studentes superauerint. Miramur plurimum quod in hac nostra ætate tāta sit audacia, ut quasi Priscianus, Diomedes, Agretius, Phocas, Donatus, & alij autores grauissimi non satis exquisite ea quæ in grāmaticis erant dicenda conscripserint, nescio qui insurrexerint conantes ut suæ nugæ neglectis autoribus bonis legantur, & hijs assuescant adolescentes, qui hijs nugis cura præceptorum iudicio carentium studentes scholis ignorantissimi exeunt, sed hos iam missos faciamus cū cuilibet audēdi semper æqua fuerit potestas, redeamusq̃ ad rem nostram. Vbicūq̃ igitur in datorum theorematibus lector humanissime uidebis aliqua dicta per Scholium, ea omnia ex græcis adiectionibus sumpta esse censeto. Ea enim à græcis scholia nuncupātur, quæ à nobis latine postilla dicuntur.
+<!-- Catchword: igitur -->

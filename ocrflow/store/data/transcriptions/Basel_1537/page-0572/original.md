@@ -1,37 +1,39 @@
-<!-- Running title: DATA -->
+<!-- Page number: 562 -->
 
-<!-- Page number: 559 -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-nem datorum. Rursus centro quidem f interuallo uero f g, per idem postulatum circulus describatur g k l, positione igitur est ipse g k l circulus per eādem diffinitionem, positione autem & circulus d k h. Datum igitur est & k, signum est autem & utrunque ipsorum e f datum. Data igitur est unaquæq̃ ipsarū k e, e f, f k positione & magnitudine. Datur igitur k e f triangulum specie, & æquum ac simile est ipsi a b c. Datur igitur a b c triāgulum specie.
+tus igitur est qui sub a b c,angulus est autem qui sub b a c, datus,& reliquus qui sub a c b datus est. Datur igitur a b c,triangulum specie.
 
-### Scholium.
+## Scholium
 
-Quoniam igitur datæ sunt ipsæ k e, e f earum adinuicem ratio data est per primū theorema datorum, similiter autem & ipsarum e f, k ratio data est, estque ipsarum f k, k e ratio data. Rursus quoniam ipsæ k e, e f, datæ sunt positione, eundem igitur semper locū obtinent, ac per hoc qui sub k e f magnitudine datur, similiter autem & qui sub e f k, datur magnitudine, & insuper qui sub f k e, datur magnitudine.
+Quoniam enim angulus qui ad a datus est.& qui ad a eis qui ad d c,angulis exterior binis interioribus est æqualis,& opposito per 32 pri elemen. & anguli d h,quare & anguli a c,dati sunt.
 
-## Theorema 40 Propositio 40
+## Theorema 46 Propositio 46
 
-SI trianguli unusquisque angulus datus fuerit magnitudine, datur triangulum specie.
+SI triangulum unum habuerit angulum datum, circum uero aliũ angulum latera utraque sicut unum ad reliquum rationem datam habuerint,datur triangulum specie.
 
-Trianguli enim a b c unusquisque angulus datus sit magnitudine. Dico quod a b c triangulum specie datur. exponatur enim positione & magnitudine data recta linea d e, & construatur ad d e, ad signaque in ea d e, per uigesimamtertiā primi elemen. ei qui sub c b a, angulo æquus rectilineus angulus qui sub e d f, ei aūt qui sub b c a, æquus qui sub d e f. Reliquus igitur qui sub b a c, reliquo ei qui sub d f e, est æquus. Datus autem unusquisq̃ eorū qui ad a b c signa. Datus igitur & unusquisque eorum qui ad d e f. Quoniā igitur additione data recta linea d e, & ad signum in ea datū d recta excitatur linea d f, datum efficiens angulum d. Igitur per 29 propositionem d f positione est, idque propterea iam & e f positione est. Datum igitur est f signum. est autem & utrūq̃ ipsorum d e datum. Data igitur est unaquæq̃ ipsarū d f, d e, e f, positiōe & magnitudine, datum igitur d f e triāgulum specie, & simile est ipsi a b c triangulo. Datur igitur & a b c triangulū specie.
+Esto triangulum a b c,unum habens angulum datum qui sub a b c,circulum{printer-error-correction:circum} uero alium angulum b a c,latera utraq̃ hoc est b a c ad b c,rationem habeant datam. Dico quod ipsum a b c,triangulum specie datur. Secetur enim per 9 primi elementorũ angulus b a c,bifariã à recta linea a d. Est igitur utrũque b a c ad c b.sicut a b ad b d. Ratio autem utriusque b a c ad c b data est. Ratio igitur & ipsius a b ad b d, data est. Estq̃ datus qui sub a b d,angulus. Datur igitur triangulũ specie. Datus igitur est qui sub a b d,angulus,est autem duplus eius qui sub b a c. Datus igitur est & qui sub b a c. Est autẽ & qui sub a b c,datus,& reliquus igitur qui sub a c b datus est. Datur igitur a b c triangulũ specie.
 
-[Diagram: triangle with apex a and vertex b at lower right]
+[Diagram: triangle with apex a and base c, d, b; the cevian a d drawn]
 
-[Diagram: triangle with apex a, base vertices e and b]
+## Aliter
 
-### Scholium.
+Ponatur ipsi c a,æqualis d a,& connectatur d c. Qnoniã{printer-error-correction:Quoniã} ratio utriusque b a c ad c b data est. Aequalis autem est c a ipsi a d. Ratio igitur & ipsius d b ad,b c data est. Et qui sub d b c angulus datus est. Datur igitur triãgulũ d b c specie. Datus igitur est qui sub b d c angulus. Et eius est duplus qui sub b a c. Qui sub b a c,angulus igitur datus est. Datur igitur a b c triangulum specie.
 
-Quoniam igitur datur utraque ipsarum d e, e f, datur & earum adinuicem ratio per primum theorema. Similiter iam & ipsarum e f, f d, ratio datur, & insuper ipsorum f d, e d, ratio. Insuper & unusquisque ipsorum d e f angulorū datus est magnitudine. Datur igitur d e f triangulum specie sicut in diffinitionibus.
+[Diagram: triangle with d at top right, b at bottom left, c at bottom right; a on the side b d, joined to c]
 
-[Diagram: triangle with apex f, base vertices e and d]
+## Theorema 47 Propositio 47
 
-## Theorema 41 Propositio 41
+DAta rectilinea specie,in data triangula specie diuiduntur.
 
-SI triangulum unum angulum datum habuerit, circum uero datum angulum latera adinuicem rationem habuerint datam, datur triāgulum specie.
+Esto datum rectilineum specie a b c d e. Dico quod ipsum a b c d e,rectilineum in data triangula specie diuiditur. Connectantur enim a e,e c. Quoniam rectilineũ a b c d e, specie datur. Igitur angulus q̃ sub b a e,datus est,& ratio data est. Quoniam igitur angulus b a e,datus est,& ratio ipsius b a ad e a,data est. Datur igitur triangulũ b a e specie. Datus igitur est qui sub a b e,angulus. Est autem & totus qui sub a b c,angulus datus. & reliquus igitur qui sub e b c datus est. Estq̃ ratio ipsius a b ad b e data,ipsius autem a b ad b c,ratio data est. & ipsius igitur e b ad b c,ratio data est,& datus est qui sub c b e angulus. Datur igitur b c e triangulum specie. Ac per hoc iam & c d e,triangulũ specie datur. Data igitur rectilinea specie in data triangula specie diuiduntur.
 
-Habeat enim triangulum a b c, unum angulum datū cū qui sub b a c, circum ucro{printer-error-correction:uero} b a c, latera b a, a c, adinuicē rationem habeant datam. Dico quod a b c, triangulum specie datur. Exponatur enim in positione data recta linea d f, constituaturque per uigesimamtertiā primi elemento rum ad ipsam d f, rectam lineā, ad signū in ea f, ei qui sub b a c angulo æqualis angulus qui sub d f e. Datus autem qui sub b a c, datus & qui sub d f e. Quoniam igitur additione data recta linea d f, & ad signū datum in ea f, recta linea acta est f e, datum efficiens angulum d f e. igitur per 29 propositionem ipsa f e: positione est. Et quoniam ratio ipsius b a ad a c data est, eadem eidem fiat, quæ ipsius d f ad f e, & connectatur d e. Ratio igitur & ipsius d f ad f e data est. Data autem d f, data igitur & f e. Sed & positione, & f est datum, datum igitur & e, est autem & utrunque ipsorum d f, datum. Data igitur est unaquæque ipsarum d f, f e, d e, positione &
+[Diagram: pentagon with a at top, b at left, e at right, c at bottom left, d at bottom right; diagonals drawn from e to b and from e to c]
 
-[Diagram: two triangles side by side, apexes f and e, on a base line with labels d, c, b]
+## Theorema 48 Propositio 48
 
-<!-- Signature: Bb 4 -->
+SI ab eadem recta linea descripta fuerint triangula specie data adinuicem rationem habebunt datam.
 
-<!-- Catchword: magni -->
+Ab eadem enim recta linea a b bina triangula specie data describantur a b c,& a b d. Dico quod ratio ipsius a b c ad a b d,data est. Excitentur per undecimam primi elementorum ab ipsis a b ,signis ipsi a b, rectæ lineæ ad angulos rectos a e. b g. Extendanturq̃ in f h, ac per c d signa per 31 primi elementorum ipsi a b paralleli excitẽtur e c,d h. Quoniam datur a b c,triangulũ specie. Ratio ipsius a c ad
+
+[Diagram: rectangle with corners g, e at the top and h, f at the bottom; c at the middle of the top side, d at the middle of the bottom side, b at the left, a at the right; triangles a b c and a b d inscribed]

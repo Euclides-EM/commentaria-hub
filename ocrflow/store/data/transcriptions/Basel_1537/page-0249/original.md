@@ -1,63 +1,41 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER NONVS. -->
 
-<!-- Page number: 238 -->
+<!-- Page number: 239 -->
 
-## Eucli. ex Camp. Propositio 28
+CAMPANVS. Sit a numerus par cuius dimidium b, sitq̃ c numerus impar qui numeret a, dico quod c numerabit b, numeret enim a secūdum d, eritq̃ per 31, d numerus par. Esto igitur eius dimidiū, e, ducaturq̃ c in e, & proueniat f, eritq̃ per 15 septimi, a ad f, sicut d ad e, & quia etiam est a ad b, sicut d ad e, sequitur b & f esse æquales, cum itaq̃ c numeret f, idem numerabit b, quod est propositū.
 
-**28** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I à numero impari numerum parem subtrahas, qui relinquitur impar est.
+[Diagram: dotted lines labelled a, b, c at left and f, e, d at right]
 
-CAMPANVS. Sit a b impar, à quo detrahatur a c qui sit par. Dico b c residuū esse imparem. Sit enim b d unitas, eritq̃ a d par. Et quia a c est par, erit per 25 c d par, cum itaq̃ sit d b unitas, erit c b impar, quod est propositum.
+## Eucli. ex Zamb. Theorema 30 Propositio 30
 
-[Diagram: dotted line with points a, c, d, b]
+**30** Si impar numerus parem numerum mensus fuerit, & eius dimidium metietur.
 
-## Eucli. ex Zamb. Theorema 27 Propositio 27
+THEON ex Zamb. Impar enim numerus α, parem numerum β metiatur. Dico quod & eius dimidium metietur. Nam quoniam α ipsum β metitur, ipsum metiatur per γ. Dico quod γ non est impar. Si enim possibile, sit impar. Et quoniam α metitur ipsum β per γ, igitur α ipsum γ multiplicans, ipsum effecit β. Igitur β componitur ex imparibus numeris, quorum multitudo impar est. Igitur β impar est, quod est absurdum, supponitur enim par. Igitur impar non est, par igitur est γ. Quare α ipsum β metitur pariter, & γ igitur ipsum β metitur per α: habet autem uterq̃ ipsorum γ,β, partem dimidiam, est igitur sicut γ ad β, sic dimidium ad dimidium: metitur autem γ, ipsum β per α, & dimidium ipsius metietur ipsius β dimidium per α, igitur α, dimidium multiplicans ipsius γ dimidium ipsius β efficit. Igitur α ipsius β dimidium metitur, metiturq́; per ipsius γ dimidium. Idq́; propterea α ipsius dimidium metietur, quod ostendere oportuit.
 
-**27** Si ab impari numero par auferatur, reliquus impar erit.
+[Diagram: dotted lines labelled α, γ, β]
 
-THEON ex Zamberto. Ab impari nanq̃ α β, par auferatur β γ. Dico quod reliquus γ α impar est. Auferatur unitas α δ, igitur δ β par est: est autem β γ par, & reliquus igitur γ δ, par est, est autem & unitas δ α, igitur γ α impar est, quod ostendere oportuit.
+## Eucli. ex Camp. Propositio 34
 
-[Diagram: dotted line with points α, δ, γ, β]
+**34** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numerus impar ad aliquem fuerit primus, idem ad eiusdem duplum erit primus.
 
-## Eucli. ex Camp. Propositio 29
+CAMPANVS. Sit a numerus impar primus ad b, cuius duplum sit c. Dico quod a est primus ad c, sin autem, numeret eos d. Cumq̃ a sit impar, sequitur d esse imparem, quicunq̃ enim impar parem numerat, pari numero cum numerabit per 31, per præmissam itaq̃ a numerabit b, non sunt igitur a & b contra se primi, quod est contra hypothesin.
 
-**29** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numerus impar in numerum parem ducatur, qui inde producetur erit par.
+[Diagram: dotted lines c, a, b; solid line d at right]
 
-CAMPANVS. Ex 23 manifestum est quod dicitur.
+## Eucli. ex Zamb. Theorema 31 Propositio 31
 
-## Eucli. ex Zamb. Theorema 28 Propositio 28
+**31** Si impar numerus ad numerum aliquem primus fuerit, & ad ipsius duplum primus erit.
 
-**28** Si impar numerus parem multiplicans, aliquem fecerit, qui gignitur par est.
+THEON ex Zamb. Impar enim numerus α, ad numerum aliquem β, primus esto, ipsi is{printer-error-correction:ipsius} autem β, duplus esto γ. Dico quod α ad γ primus est. Si autem α,γ, non sunt primi, metitur eos aliquis numerus, metiatur, & esto δ: est autem impar numerus, α, impar igitur & δ. Et quoniam δ impar existens ipsum γ metitur, est autem & γ par, igitur δ metietur ipsius γ dimidium (per præcedentem) Dimidium autem ipsius γ, est β, igitur δ ipsum β metitur. metitur autem & α. Igitur δ, ipsos α,β, metitur primos adinuicem existentes, quod est absurdum. Igitur α ad γ primus est. Ipsi igitur α,γ, primi sunt adinuicē, quod erat ostendendum.
 
-THEON ex Zamberto. Impar enim numerus α, parem β multiplicans, ipsum efficiat. Dico quod γ par est. Nam quoniam α ipsum β multiplicans, ipsum γ fecit, igitur γ ex totidem ipsi β æqualibus quotæ sunt in α unitates componitur: estq́; β par, igitur γ ex paribus componitur. Si uero numeri pares quotcunq̃ componantur, totus par est, (per 21 noni) igitur γ par est, quod ostendere oportuit.
+[Diagram: dotted lines α, β, γ; solid line δ]
 
-[Diagram: dotted lines labelled γ, β, α]
+## Eucli. ex Camp. Propositio 35
 
-## Eucli. ex Camp. Propositio 30
+**35** {dropcap:N|lines=?|style=decorated|decoration="foliate ornament"}Vmeri à duobus dupli, sunt pariter pares tantum.
 
-**30** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I in imparem ducatur impar, qui producetur erit impar.
+CAMPANVS. Sint unitas a,b,c,d, continue proportionales, sitq̃ a binarius. Dico ommes{printer-error-correction:omnes} eos esse pariter pares, eisq̃ secundum hanc proportionem in infinitū auctis, nullum alium esse pariter parem. De his quidem constat per diffinitionem, cum per 12 quilibet præcedens numeret quemlibet, sequentem per aliquem eorum quos omnes oportet esse pares, & nullus alius numeret aliquem eorum per 13 eo quod a qui est binarius unitatem sequens est primus. Quod autem nullus alius ab his sit pariter par, cōstat sic. Posito enim aliquo, diuidatur in duas medietates, eiusq̃ medietas in duas, & hoc toties fiat, quousque numerus aut unitas diuisionem impediat, quod necesse est euenire per ultimam petitionem. Siquidem numerus hanc prohibeat, ipse erit impar, qui cum nūmeret pariter parem positum, non erat pariter par, qui positus est pariter par. Si autem unitas, non erit is alius a continue duplis ab unitate.
 
-CAMPANVS. Hæc quoq̃ ex 24 manifesta est.
-
-Hæ sequentes 2 ex Campano propositiones, nullas sibi ex Zamberto respondentes habent.
-
-## Eucli. ex Camp. Propositio 31
-
-**31** Si numerus impar numerum parem numeret, numero pari eum numerabit.
-
-CAMPANVS. Si enim numero impari eum numeraret, ex impari in imparem fieret par, quod est inconueniens per præmissam.
-
-## Eucli. ex Camp. Propositio 32
-
-**32** Si impar imparem numeret, impariter eum numerat.
-
-CAMPANVS. Si enim pariter eum numeraret, ex numero impari in numerū parem fieret impar, quod est inconueniens per 29.
-
-## Eucli. ex Zamb. Theorema 29 Propositio 29
-
-**29** Si impar numerus imparem numerum multiplicans, fecerit aliquem, factus impar erit.
-
-THEON ex Zamberto. Impar enim numerus α, imparem numerum β multiplicans, ipsum efficiat γ. Dico quod γ impar est. Nam quoniam α ipsum β multiplicans, ipsum fecit γ, igitur γ ex totidem ipsi β æqualibus quotæ sunt in α unitates, componitur. Est autem uterq̃ ipsorum α, β, impar. Igitur γ ex imparibus conflatur numeris, quorum multitudo impar est. Quare (per 23 noni) impar est, quod ostendere oportuit.
-
-[Diagram: dotted lines labelled γ, β, α]
+[Diagram: dotted lines labelled d, c, b, a, with a single dot labelled unitas]
 
 <!-- Catchword: Eucli. ex -->

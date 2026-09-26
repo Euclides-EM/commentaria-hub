@@ -1,55 +1,43 @@
-<!-- Running title: LIBER QVINTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 125 -->
+<!-- Page number: 126 -->
 
-sumptæ sunt ipsarū α γ, æque multiplices μ η, ipsarū β δ, aliæ quæuis æque multiplices ν κ: si excedit igitur μ, ipsam ν, excedit & η, ipsam κ, & si æqualis, æqualis, & si minor, minor: (per cōuersionem sextæ diffinitionis quinti. Excedit autem η ipsam κ, excedit igitur & μ, ipsam ν, θ autem, ipsam λ, non excedit, sunt autem μ θ, æque multiplices ipsarum α ε, ν λ, ipsarum β ζ, aliæ quæuis æque multiplices. Igitur α, ad ε, maiorē habet rationē, quàm ε, ad ζ. Si prima igitur ad secundam eandem habuerit rationem & tertia ad quartam, tertia autem ad quartam maiorē rationē habeat quàm quinta ad sextam, prima ad secundam quoque maiorem rationem habebit, quàm quinta ad sextam, quod demonstrare oportebit.
+ipsorum δ κ, κ λ, & λ ε. Et quoniam α η, η θ, & θ β, sibi inuicem sunt æquales, & δ κ, κ λ, & λ ε, quoque sibi inuicem sunt æquales, est igitur sicut α η, ad δ κ, sic est η θ, ad κ λ, & β θ, ad λ ε, erit igitur (per 12 quinti,) sicut unum antecedentium ad unum consequentium, sic omnia antecedentia ad omnia consequentia. Est igitur sicut α η, ad δ κ, sic est α β, ad δ ε, æqualis autem est α η, ipsi γ, ipsum autem δ κ, ipsi ζ, est igitur sicut γ, ad ζ, sic est α β, ad δ ε. Partes igitur eodem modo multiplicium, eaudem habent rationem sumptæ adinuicem, quod demonstraße oportuit.
 
-## Eucli. ex Camp. Propositio 14.
-
-[Margin]
-14
-[/Margin]
-
-SI fuerint quatuor quantitates proportionales, fueritque prima maior tertia. necesse est secundam quarta esse maiorem. Quod si minor, & minorem, si uero æqualis, & æqualem esse.
-
-CAMPANVS Sit proportio a ad b, sicut c ad d. Dico quod si a est maior c, b erit maior d, & si minor, minor, & si æqualis, æqualis. Si enim a sit maior c, erit per primam partem 8 huius. maior proportio a ad d quàm c ad d. Quare maior erit a ad d, quàm a ad b, ergo per secūdam partem 10 huius, b erit maior d, quod est propositum. Quod si a sit minor c, erit per primam partem 8, minor proportio a ad d, quàm c ad d. Quare maior erit a ad b, per secundam partem ergo 10, b erit minor d Si autem a sit æqualis c, erit per primam partem 7, a ad d sicut c ad d Quare a ad b sicut a ad d, itaque per secundam partem 9, b erit æqualis d, sicque patet propositum.
-
-[Diagram: horizontal line segments a, c above and b, d below, set beside the paragraph]
-
-## Eucli.ex Zamb. Theorema 14 Prepositio 14
+## Eucli.ex Camp. Propositio 16
 
 [Margin]
-14
+16
 [/Margin]
 
-Si prima ad secundam eandem habuerit rationem & tertia quartam, prima uero tertia maior fuerit, & secunda, quarta maior erit, & si æqualis, æqualis. & si minor, minor.
+SI fuerint quatuor quãtitates proportiõales, permutatim quoq̃ proportionales erunt.
 
-THEON ex Zamberto. Primum enim α, ad secundum β, eandem habeat rationem, & tertium γ, ad δ, quartum, maius autem esto α, quàm γ. Dico quod & β, maius est quàm δ. Quoniam enim α, est maius quàm γ, & est alia quædam magnitudo β, igitur (per 8 quinti) α, ad β. maiorem rationem habet quàm γ, ad β, sicutque α, ad β, sic γ, ad δ, & γ, ad δ, maiorem rationem habet, quàm γ ad β. Ad quod autem eadem maiorem rationem habet, illud minus est (per 10 quinti,) minus igitur est δ, quàm β, quare maior est β, quàm δ. Similiter quoque ostendemus quod & si æquale fuerit α, ipsi γ, æquale erit quoque & β, ipsi δ, & si minus fuerit α, quàm γ, minus erit quoque & β, quàm δ. Si prima igitur ad secundam eandem habuerit rationem & tertia ad quartam, prima autem tertia maior fuerit, & secunda quarta maior erit, & si æqualis, æqualis: & si minor, minor: quod demonstrare oportebat.
+CAMPANVS. Sit proportio a ad b, sicut c ad d. Dico quod erit a ad c sicut b ad d. Et iste est modus arguendi, qui dicitur proportionalitas permutata, cuius demõstratio sic patet. Sumã e ad a, & f ad b, æque multiplices: itẽq̃ g ad c & h ad d, æque multiplices, eritq̃ per præmissam e ad f, sicut g ad h, quare per 14 si e addit super g, & f addit super h. & si minuit, minuit & si æquat, æquat: per diffinitionẽ igitur incõtinuæ proportiõalitatis erit a ad c, sicut b ad d. Quod est propositũ. Necesse est autem, ut in permutata proportionalitate sint omnes quatuor quantitates, eiusdem generis.
 
-[Diagram: four vertical line segments of unequal heights with division marks, letters α β γ δ beneath, in the right margin]
+[Diagram: six horizontal line segments with tick marks, labeled g, e, a with c, b with d, f with h]
 
-## Eucli. ex Camp. Propositio 15
+## Eucli ex Zamb. Theorema 16 Propositio 16
 
 [Margin]
-15
+16
 [/Margin]
 
-SI fuerint aliquibus quantitatibus æque multiplices assignatæ, erit ipsarum multiplicium atque submultiplicium una proportio.
+Si quatuor magnitudines proportionales fuerint, & uicissim proportionales erunt.
 
-CAMPANVS Sint c ad a, & d ad b, æque multiplices. Dico quod quæ est proportio a ad b, eadem est c ad d. Diuidatur c secundum quantitatem a, & d secūdum quantitatem b, sunt que tot partes e, quot d, & quia quælibet pars c ad quamlibet partem d se habet sicut a ad b, erit per 13 huius, c ad d, sicut a ad b. quod est propositum.
+THEON ex Zamberto. Sint quatuor magnitudines proportionales α β γ δ, sicut α, ad β, sic γ, ad δ. Dico quod & uicissim proportionales erunt, sicut α, ad γ, sic β, ad δ. Sumantur quidem ipsarum α β, æqui multiplices ε ζ, & ipsarū γ δ. & aliæ quæuis, æque multiplices η θ, & quoniam æque multiplex est ε, ipsius α, & ζ, ipsius β, partes aūt eodem modo multipliciū eandẽ habent rationẽ sumptæ adinuicem (per præcedentem, est igitur sicut α ad β, sic ε ad ζ, Sicut autem α, ad β, sic & γ, ad δ, & sicut igitur γ, ad δ, sic ε, ad ζ, (per 11 quinti. Rursus quoniam η θ, ipsarum γ δ. æque sunt multiplices, partes autem eodem modo multiplicium eandem habent rationem sumptæ adinuicem (per 15 quinti,) est igitur sicut γ, ad δ, sic est η, ad θ. Sicut autem γ, ad δ, sic ε, ad ζ, & sicut igitur ε, ad ζ, sic η, ad θ, (per 11 quinti.) Si quatuor autem magnitudines proportionales fuerint, prima uero tertia maior sit, & secũda quarta maior erit, & si æqualis, æqualis: & si minor, minor: (per 14 quinti.) Si igitur excedit ε, ipsum η, excedit & ζ, ipsum θ: & si æquale, æquale: & si minus, minus: (per 6 diffinitionem quinti.) Sunt autem ε ζ, ipsarum α β, æque multiplices, & η θ, ipsarum γ δ: aliæ quæuis æque multiplices. Est igitur sicut α, ad γ, sic est β, ad δ. Si quatuor igitur magnitudines proportionales fuerint, & uicißim proportionales erunt, quod demonstraße oportuit.
 
-[Diagram: horizontal line segments c and d with division marks above, segments a and b below, set beside the paragraph]
+[Diagram: eight vertical bars of differing heights with tick marks, labeled below ε α β ζ η γ δ θ]
 
-## Eucli. ex Zamb. Theorema 15 Propositio 15
+## Eucli.ex Camp. Propositio 17
 
 [Margin]
-15
+17
 [/Margin]
 
-Partes eodem modo multiplicium, eandem rationem habent sumptæ adinuicem.
+SI fuerint quantitates coniũctim proportionales, easdem disiũctim quoque proportionales esse.
 
-THEON ex Zamberto. Sit igitur æque multiplex α β, ipsius γ, & δ ε, ipsius ζ. Dico quod est sicut γ, ad ζ, sic est α β, ad δ ε. Quoniam enim æque multiplex est α β, ipsius γ, & δ ε, ipsius ζ, quot igitur magnitudines sunt in α β, ipsi γ, æquales, tot sunt in δ ε, æquales ipsi ζ. Diuidatur α β, in magnitudines æquales ipsi γ, hoc est α η, η θ, & θ β, ipsum autē δ ε, in magnitudines æquales ipsi ζ, hoc est δ κ, κ λ, & λ ε, erit iam magnitudo ipsorum α η, η θ, & θ β, æqualis multitudini
+CAMPANVS. Demonstrato modo arguendi qui dicitur proportionalitas permutata, demonstrat illum qui dicitur proportionalitas disiuncta. Sit itaque proportio a b ad b c, sicut d e ad e f. Dico quod erit a c ad c b, sicut d f ad f e Sumam enim g h ad a c, & h k ad c b, itemque l m ad d f, & m n ad f e, æque multiplices. Eritque per primam huius, g k ita multiplex a b: sicut g h est multiplex a c, & l n, ita multiplex d e sicut l m est multiplex d f, & ideo per præmissas hypotheses, g k, est ita multiplex a b, sicut est l n, d e. Ponam iterum k p ad c b, & n q, ad f e, æque multiplices, eruntque per secundam, h p ad c b, & n q ad f e, æque multiplices, per conuersionem igitur diffinitionis incontinuæ proportionalitatis. si g k addit super h p, l n, addit super m q, & si minuit, minuit: & si æquat, æquat: demptis itaque com
 
-[Diagram: vertical line segments divided into equal parts, with letters α η θ β, γ and δ κ λ ε, ζ, in the right margin]
+[Diagram: four horizontal lines: a long line with points g, h, k, p; a segment a—c—b; a segment d—f—e; a long line with points l, m, n, q]
 
-<!-- Signature: l 3 -->
+<!-- Catchword: mu -->

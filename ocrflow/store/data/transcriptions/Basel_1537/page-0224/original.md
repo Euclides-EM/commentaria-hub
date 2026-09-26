@@ -1,31 +1,25 @@
-<!-- Running title: LIBER OCTAVVS -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 213 -->
+<!-- Page number: 214 -->
 
-itaque g ex e in d, eritque per 19 septimi, a ad g, sicut c ad e. & per 18 eiusdem g ad b sicut d ad f, quare a ad g, sicut g ad b, est itaque g, contiuua proportionalitate medius inter a & b, quod est propositum. Correlarium autem patet, cum sit a ad b per diffinitionem sicut a ad g duplicata, quæ eadem est illi quæ est c ad e.
+primi, ideoque per 21 septimi, in sua proportione minimi, & quia per æquam proportionalitatem sunt a ad d & c ad b sicut e ad g, sequitur per 21 septimi. ut ipsi numerent a & d æqualiter, quod sit secundum n, & item c & b æqualiter, quod secundum p. Quia igitur ex h in K fit e, & ex e in n fit a, sequitur per diffinitionem ut a sit solidus eiusque latera h, k, n, similiter quia ex l, in m fit g, & ex g in p, b, sequitur etiam ut b, sit solidus & eius latera l, m, p. Ipsos autem esse similes sic constabit. Cum ex g in n fiat d, & ex eodē in p, b: erit per 18 septimi, n, ad p, sicut d ad b, & quia sic erant h ad l, & k ad m, per diffinitionem manifestum est a & b, esse similes: quod est propositum.
 
-## Eucli. ex Camp. Propositio 17
+## Quatuor præcedentes ex Campano Euclidis propositiones scilicet 16, 17, 18, 19, quatuor sequentibus ex Zamberto propositionibus puta 18, 19, 20. 21, hoc ordine respondent, prima primæ, secunda tertiæ, tertia secundæ, quarta quartæ.
 
-**17** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I secundum continuam proportionalitatē tertius numerus duobus numeris intersit, illi duo numeri superficiales sunt & similes.
+## Eucli. ex Zamb. Theorema 16 Propositio 18
 
-CAMPANVS Hæc est conuersa ptæmissæ. Vt si inter a & b sit c sub continua proportionalitate constitutus, a & b erunt superficiales & similes, sint enim d & e minimi in proportione qua continuantur a, c, b. qui per 21 septimi, numerabunt a & c æqualiter, sitque ut secundum f, & per eandem c & b æqualiter, sitque ut secundum g, erunt igitur per diffinitionem a & b superficiales, & erunt etiam per diffinitionem, d & f, latera numeri a, e quoque & g, latera numeri b, Quod autē ipsi sint similes, sic habeto, cum, cum enim ex d in g, sit c, & ex e in f sit idem c, erit per secundam partem 20 septimi, d ad e. sicut f ad g, per diffinitionem igitur a & b sunt similes, quod est propositum. Hoc autem ultimnm quod est a & b esse similes, potest etiam per 19 & 18 septimi. & per has hypotheses quod a, c, b, sunt continue proportionales in proportione d ad e minimorum numerantium a & c secundum f, & c & b secundum g
+**18** Duorum similium planorum numerorum, unus medius proportionalis est numerus. Et planus ad planum duplam habet rationem, quàm similis rationis latus ad similis rationis latus.
 
-[Diagram: dotted number lines a, c, b, d, e, f, g]
+THEON ex Zamberto. Sint bini plani similes numeri α, β. & ipsius α, latera sint γ, δ, ipsius autem β sint, ε, ζ. Et quoniam similes plani sunt, qui proportionalia habent latera, (per 32 diffinitionē septimi,) est igitur sicut γ ad δ, sic est ε, ad ζ. Dico igitur quod ipsorū α, β, unus medius proportionalis est numerus & α ad β, duplam rationem habet, quàm γ, ad ε, uel δ, ad ζ, hoc est quàm similis rationis latus, ad similis rationis latus. Et quoniā est sicut γ, ad δ, sic est ε, ad ζ, uicissim igitur est (per 13 septimi,) sicut γ, ad ε, sic est δ ad ζ. Et quoniā α planus est, ipsius aūt latera sunt γ, δ, igitur δ, ipsum γ, multiplicās, ipsum α fecit. Id propterea etiā ε, ipsum ζ, multiplicās, ipsum effecit β. At δ, ipsum ε multiplicās, ipsum efficiat η, & quoniā δ, ipsum quidē γ, multiplicās ipsū effecit α, ipsum aūt ε multiplicās ipsum fecit η, est igitur (per 17 septimi,) sicut γ, ad ε, sic est α ad η. Sed sicut γ, ad ε. sic est δ ad ζ, & sicut igitur (per 11 quinti,) δ ad ζ: sic α. ad η. Rursus quoniam ε, ipsum quidem δ multiplicans ipsum effecit η, ipsum aūt ζ, multiplicans ipsum β, fecit: est igitur, (per 17 septimi,) sicut δ ad ζ, sic est η ad β, ostensum autem est quod & sicut δ, ad ζ, sic est a ad η, & sicut igitur (per 11 quinti,) α, ad η, sic est η, ad β. Igitur ipsi α, η, β, cōtinue sunt proportionales. Ipsorum igitur α, β, unus medius proportionalis est numerus. Dico iam quod & α, ad β, duplam rationē habet, quàm similis rationis latus ad similis rationis latus, hoc est quàm γ, ad ε, uel quàm δ, ad ζ. Quoniam enim ipsi α, η, β, continue proportionales sunt, igitur (per 10 diffinitionem quinti,) α, ad β, duplam habet rationem quàm ad η, & est sicut α, ad η, sic est γ, ad ε, & δ, ad ζ, & α, igitur ad β, duplam rationem habet quàm γ, ad ε, uel δ, ad ζ, quod erat demonstrandum.
 
-## Eucli. ex Camp. Propositio 18
+[Diagram: dotted number lines α, η, β, γ, δ, ε, ζ]
 
-**18** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duo numeri solidi similes, necesse est eis duos numeros secundū continuā proportionalitē interesse, eritq̃ proportio unius solidi ad alterū sibi similē, uelut cuiuslibet sui lateris ad latus alterius respiciēs se proportiōaliter, proportio triplicata.
+## Eucli. ex Zamb. Theorema 17 Propositio 19
 
-CAMPANVS. Sint duo numeri a & b, solidi similes. dico quod inter ipsos cadent duo numeri in continua proportione. Sint enim latera numeri a, c, d. e: latera uero b, sint f, g, h. eruntq̃ ex conuersione diffinitionis numerorum similium, c ad f, & d ad g, sicut c ad h. Sit igitur ex c in d, K, & ex f in g. l, erūtque ex diffinitione. K & l, superficiales & similes, quare per 16 huius, unus numerus cadit inter eos medius secundū proportionem c ad f, qui s.t m. Manifestum autem est quod ex e in K, sit a & ex h in l, b, si igitur ex e in m & l fiant n & p, erunt per 18 septimi, a ad n sicut K ad m & n ad p, sicut m ad l, quare a, n, p, sunt continue proportionales in proportione c ad f, & quia per 19 eiusdem p ad b sicut e ad h. & ideo sicut c ad f, sequitur ut quatuor numeri a, n, p, b sint continue proportionales secundum proportionem c ad f, sunt itaque inter a & b duo numeri n & p, medij in continua proportionalitate suorum laterū interpositi, quod est propositū Correlariū autē patet, cū proportio a ad b sit per diffinitionē sicut a ad n triplicata quæ est eadē illi quæ est c ad f.
+**19** Duorum similium solidorum numerorum, bini medij proportionales sunt numeri, Et solidus ad solidum simile triplam rationem habet, quàm similis rationis latus ad similis rationis latus.
 
-[Diagram: dotted number lines a, n, p, b, c, d, e, f, g, h, K, m, l]
+THEON ex Zamberto. Sint bini similes solidi numeri, α, β, & ipsius quidem α, latera sint γ δ, ε, numeri ipsius autē β, sint ζ, η, θ, & quoniam (per 22 diffinitionem septimi. similes solidi latera habent proportionalia, est igitur sicut γ ad δ, sic est ζ, ad η, sicut autem δ ad ε, sic η ad θ Dico quod ipsorum α, β, bini medij proportiōales sunt numeri, & quod α, ad β, triplam rationē habet, quàm γ, ad ζ, uel δ, ad η, uel insuper γ, ad θ. Igitur γ ipsum δ, multiplicans, ipsum efficiat κ: at ζ, ipsum η, multiplicans ipsum efficiat λ. Et quoniā ipsi γ, δ, ipsis ζ, η, in eadem sunt ratione ex ipsisq́; γ, δ, gignitur κ, ex ipsis autem ζ, η, gignitur λ, igitur κ, λ, similes plani sunt numeri. Ipsorum igitur κ, λ, unus medius proportionalis est numerus (per 18 octaui) sit μ. Igitur μ ex ipsis δ, ζ. gignitur, quēadmodum ex præcedenti patuit theoremate. Est igitur sicut κ, ad μ, sic est μ, ad λ. Et quoniam δ, ipsum quidē γ, multiplicans fecit ipsum κ, ipsum aūt ζ, multiplicās fecit ipsum μ, est igitur (per 17 septimi) sicut γ, ad ζ, sic est κ, ad μ, sed sicut κ, ad μ, sic μ ad λ. Ipsi igitur κ, μ, λ, cōtinue sunt proportiōales, in ipsius γ, ad δ, ratiōe. Et
 
-## Eucli. ex Camp. Propositio 19
+[Diagram: dotted number lines α, ν, ξ, β, γ, δ, ε, ζ, η, θ, κ, μ, λ]
 
-**19** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I eis secundum cōtinuam proportionalitatem duo numeri interiacent, quilibet duo numeri, solidi sunt atque similes.
-
-CAMP. Hæc est cōuersa præmissæ, ut si inter a & b sint duo numeri c & d medij in continua proportione, erunt a & b solidi & similes. Sumantur enim tres minimi in eadem proportione continue proportionales: qui sunt e, f, g, erúntque per 17 e, & g, superficiales & similes, sint ergo h & k, latera e, at l, & m, latera g eritque per correlarium 16 huius, e ad f, sicut h ad l, aut sicut K ad m. Manifestum autem est ex tertia quod e & g, sunt contra se
-
-[Diagram: dotted number lines a, c, d, b; e, h, K, n; f; g, m, l, p]
-
-<!-- Catchword: primi -->
+<!-- Catchword: quoniam -->

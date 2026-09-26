@@ -1,45 +1,19 @@
-<!-- Page number: 260 -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 261 -->
 
-## THEON Lemma.
+Subsequentes ex Campano propositiones 17 scilicet & 18 respondent 29 & 30 ex Zamberto infra suo loco & ordine dispositis.
 
-Quoniam ostensum est quod quæ longitudine commēsurabiles omnino etiam potentia sunt commensurabiles,quæ autem potentia non omnino etiam longitudine,sed uidelicet,possunt & longitudine commensurabiles esse & incommensurabiles,manifestum quod si positæ rationali commensurabilis aliqua fuerit longitudine,rationalis appellatur,& ei commensurabilis non solum longitudine uerum & potentia, quæ enim lōgitudine commensurabiles,omnino & potentia.Si autem positæ rationali commensurabilis aliqua fuerit potentia, siquidem & longitudine dicitur,etiam rationalis & ei commensurabilis longitudine & potentia.Quæ uero expositæ rursus rationali commensurabilis existens potentia,longitudine fuerit ei incommensurabilis,dicitur sic rationalis,potentia tantum commensurabilis.Procli scholion.Rationales appellat,expositæ rationali longitudine & potentia commensurabiles,aut potentia tantum.Sunt autem aliæ quoque rectæ lineæ quæ longitudine incommensurabiles sunt expositæ rationali,potentia uero tantum commensurabiles,& id propterea rursus appellantur rationales,commensurabiles adinuicem quatenus rationales.Sed commensurabiles adinuicem uel non solum potentia ueruntamen & longitudine,uel potentia tantum,& si longitudine quidem,& ipsæ rationales longitudine commensurabiles,audito quod & potētia.Si uero potentia tantum adinuicem sunt commēsurabiles:appellantur & ipsæ rationales potentia tantum commensurabiles.Quod autem rationales commēsurabiles sunt,hinc certum est. Quoniam enim rationales sunt quæ expostæ{printer-error-correction:expositæ} rationali sunt commensurabiles,quæ uero eidem commensurabiles & adinuicem sunt commensurabiles(per 12 decimi,)quæ rationales igitur,sunt commensurabiles.
+## Eucli.ex Camp. Propositio 17
 
-## Eucli.ex Zamb. Theorema 16 Propositio 19
+{dropcap:D|lines=?|style=decorated|decoration="ornamental"}Vas lineas inuenire potentia tantum rationales commensurabiles,quarum longior plus possit breuiori,quadrato lineæ sibi commensurabilis in longitudine.
 
-[Margin]
-19
-[/Margin]
+CAMPANVS Propositum est inuenire duas lineas rationales potentia tantum cōmunicantes,quarum longior sit potentior bteuiori{printer-error-correction:breuiori},quadrato lineæ sibi communicantis in longitudine.Sumo itaque aliquam lineam rationalem quæ sit a b,super quam describo semicirculum a c b,& sumpto aliquo numero ut d e,diuido ipsum in duos numeros d f & f e,ita quod sit proportio d e ad d f sicut numeri quadrati ad numerum quadratum:non sit autem proportio d e ad f e.ut numeri quadrati ad numerum quadratum,talis autem numerus est quilibet quadratus diuisibilis in quadratum & non quadratum,ut 9 qui diuiditur in 4 & 5,& omnes horum æque multiplices.Et inuenio lineā,a d ad cuius quadratū se habeat quadratum lineæ a b,sicut numerus d e ad numerū d f,qualiter autem ipsa reperiatur,in demonstratione 5 dictum est.Hāc lineam inuentam quæ necessario est minor a b,coapto per primam quarti intra semicirculum a c b, sitque a c,& subtrahā lineā c b.Dico duas lineas a b & c b, esse quas quærimus.Erit enim primā partem 30 tertij,angulus c rectus,& ideo per penultimam primi,quadratū a b æquale est quadratis duarum linearū a c & c b.Et quia proportio quadrati lineæ a b ad quadratū lineæ a c est sicut d e ad f per hypothesin,erit per euersam proportionalitatem proportio quadrati lineæ a b ad quadratum lineæ c b,sicut d e ad f e,ergo quadratum c b, communicat cum quadrato a b per 6 huius,erit igitur quadratum c b,rationale per diffinitionem. cum communicet rationali superficiei.Et quia c b & a b sunt incommensurabiles per ultimam partem 7,constat duas lineas a b & c b esse rationales,potentia tantum communicantes.At quia linea a b est potentior linea c b in quadrato lineæ a c quæ per secundam partem septimæ communicat secum in longitudine,cōstat habitum esse propositum.
 
-Sub rationalibus longitudine commensurabilibus rectis lineis iuxta aliquem prædictorum modorū comprehensum rectāgulum rationale est.
+[Diagram: semicircle on base a b with inscribed triangle: a chord from a to c (marked with two ticks) and a chord from c to b (marked with one tick); labels: c on the arc at the upper right, a at the lower left, b at the lower right; below, a dotted line divided as d ......... f .... e]
 
-THEON ex Zāb. Sub ratiōalibus enim lōgitudine cōmensurabilibus rectis lineis α β,& β γ,rectangulum comprehendatur α γ.Dico quod α γ,rationale est. Describatur enim(per 46 primi,)ex α β,quadratū α δ,ratiōale igitur est α δ.Et quoniā cōmensurabilis est α β,ipsi β γ,longitudine,æqualis autē est α β,ipsi β δ, commensurabilis est igitur β δ,ipsi β γ longitudine,estque sicut β δ,ad β γ,sic est δ α ad α γ.Commensurabilis autem est β δ ipsi β γ,commensurabile igitur & δ α, ipsi α γ:rationale autem δ α,rationale igitur(per 11 decimi,est & α γ. Quod sub rationalibus commensurabilibus igitur lōgitudine,& reliqua oportuit ostendiße.
+CAMPANI annotatio Si autem lineæ plures duabus potentia tantum rationales communicantes quarum una potentior longior sit qualibet aliarū in quadrato alicuius lineæ secū cōmunicātis in longitudine, reperire,sit ut prius linea a b rationalis in lōgitudine,super quā describatur semicirculus a c b, sumaturq́ʒ nūerus quadratus, qui sit diuisibilis in multos quadratos & nō quadratos.quorū nō quadratorū minime sit,pportio{printer-error-correction:proportio} sicut aliquorum numerorum quadratorū,tales autem numeri ultro se offerunt,ut 36,qui est diuisibilis in 25 & 11,itemq́ʒ in 16 & 20,rursusq́ʒ in 9 & 27,ac iterum in 4 & 27,ac iterum in 4 & 32,istorum uero non quadratorum qui sunt 11,20,27,32.adinuicem,nō est proportio sicut alicuius numeri quadrati ad alium nūerū quadratum Esto igitur ut nūerus d quadratus,diuidatur in e quadratum & f non quadratum.Sitq́ʒ quadratum lineæ a b ad quadratum lineæ a c,sicut numerus d ad numerum e,ducatur linea c b, & constat propositum ut prius demonstratum est a b & b c esse duas tales lineas quas inquirimus. Similiter quoq́ʒ diuidam d in g quadratum & h non quadratum,sitque quadratum lineæ a b ad quadratum lineæ a K, sicut d ad g,& ducatur linea K b,eruntque ut prius duæ lineæ a b & k b,quales inquirimus. Eodem modo si rursus diuidatur d in l quadratum & m non quadratum,& ponatur
 
-[Diagram: rectangle divided by a vertical line into two compartments; labels: δ above the left corner, β above the divider, γ above the right corner (faintly printed), α below the base at the divider]
+[Diagram: semicircle on base a b crossed by several chords drawn from a and from b, with tick marks on the base and chords; labels: r at the left edge of the arc, n and K on the upper arc, c at the upper right of the arc, a at the lower left, b at the lower right. Below, four dotted lines, each with the letter d centered above it, divided respectively at the letters e / f, g / h, l / m, and p / q]
 
-## Eucli.ex Camp. Propositio 16
-
-[Margin]
-16
-[/Margin]
-
-{dropcap:C|lines=?|style=decorated|decoration="ornamental"}Vm adiuncta fuerit lineæ in longitudine rationali superficies rationalis rectangula.latus eius secundum erit in longitudine rationale,lateriq́ʒ primo in longitudine commensurabile.
-
-CAMPANVS Hæc est quasi conuersa prioris. Vt si superficies a c adiuncta ad lineam ab rationalē in longitudine,fuerit ratiōalis, dico quod latus eius secundum quod est b c erit etiam rationale in longitudine,& communicans inter primo.Sit enim a d quadratum a b,eritq́ʒ rationale ex diffinitione.& propter hoc erit communicās cum superficie a c rationali.Quia igitur per primam sexti sicut a d ad a c ita est etiam d b ad b c, comunicat autem d a cum a c,erit per primam partem decimæ b d communicans cum b c.ergo cum b a sua æquali. Sed b a,rationalis est, quare per diffinitionem & b c.Constat itaque propositum.
-
-[Diagram: tall rectangle divided at its middle by a horizontal line; labels: d at the top right corner, a and b at the ends of the dividing line (a left, b right), c at the bottom right corner]
-
-## Eucli,ex Zamb. Theorema 17 Propositio 20
-
-[Margin]
-20
-[/Margin]
-
-Si rationale ad rationalem comparatum fuerit,latitudinem efficit rationalem,commensurabilēq́ʒ ei ad quam comparatur longitudine.
-
-THEON ex Zamb. Rationale enim α γ,ad rationalē iuxta aliquē prædictorum modorū α β,comparetur,latitudinem efficiens β γ.Dico quod rationalis est β γ.& cōmensurabilis ipsi β γ{printer-error-correction:β α} longitudine.Describatur enim(per 46 primi)ex α β,quadratum α δ.Rationale igitur(per 9 diffinitionem decimi)est α δ,rationale autem & α γ,cōmensurabile igitur(per cōuersionem 10 diffinitionis est δ α,ipsi α γ.Estq́ʒ sicut δ α ad α γ,sic est δ β,ad β γ commensurabilis igitur est(per 11 decimi,)δ β,ipsi β γ.Aequalis autem est δ β,ipsi β α, commensurabilis igitur est α β.ipsi β γ.Rationalis autē est α β, rationalis igitur est(per conuersionē 7 diffinitionis.)& β γ,& commensurabilis ipsi β α,longitudine.Si rationale igitur ad rationalem comparatum fuerit,& quæ sequūtur reliqua,quod erat ostendendum.
-
-[Diagram: rectangle divided by a vertical line into two compartments; labels: α above the divider, δ below the left corner, β below the divider, γ below the right corner]
-
-<!-- Catchword: Subse -->
+<!-- Catchword: pro -->

@@ -1,59 +1,47 @@
-<!-- Running title: LIBER VNDECIMVS. -->
+<!-- Page number: 356 -->
 
-<!-- Page number: 355 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-η θ, η κ, plano ad angulos est rectos. Si autẽ binæ rectæ lineæ eidem plano ad rectos fuerint angulos, parallelæ erunt ipsæ rectæ lineæ (per 6 undecimi.) Parallelus igitur est α β ipsi γ δ. Quod erat ostendendum.
-
-## Eucli. ex Camp. Propositio 10
+THEON ex Zamb. Sit datum quidem signũ in sublimi α, datũ autem planũ suppositũ. Oportet iam ab ipso α signo, in subiectũ planũ perpendicularẽ rectã lineam ducere.\*
 
 [Margin]
-10
+διήχθω
 [/Margin]
 
-## SI duæ lineæ se angulariter contingẽtes, duabus alijs se contingentibus eis oppositis æquidistantes fuerint, non autem in superficie una, qui ab eis fiunt duo anguli æqui sibi inuicem esse comprobantur.
+Extendatur enim quædã in subiecto plano recta linea utcunq̃, sitq̃ θ γ{printer-error-correction:β γ}, exciteturq̃ (per 12 primi) ab ipso α signo, in ipsam β γ, perpendicularis α δ. Si igitur α δ perpendicularis est ad subiectũ planũ, factũ iam est quod quæritur. Si autẽ non, excitetur (per 11 primi) ab ipso δ signo ipsi β in γ{printer-error-correction:ipsi β γ in} subiecto plano ad angulos rectos δ ε. Exciteturq̃ (per 11 primi) ab ipso α, in ipsam δ ε, perpendicularis α ζ, & per ζ signum ipsi β γ parallelus excitetur (per 31 primi) ζ θ. Et quoniã β γ utriq̃ ipsarũ δ α, δ ε, ad angulos est rectos, igitur (per 4 undecimi) β γ ad id quod per ε δ α planũ ad angulos est rectos. Et ei parallelus est η θ. Si autẽ fuerint binæ rectæ lineæ parallelæ, altera uero ipsarũ plano alicui ad angulos fuerit rectos, & reliqua ad idem planũ ad angulos erit rectos (per 8 undecimi) linea igitur η θ ei quod per ε δ, δ α, plano ad angulos est rectos, & ad omnes rectas lineas eam tangentes, & in eo quod per ε δ, δ α, plano existentes, ipsa η θ recta est (per conuersionẽ diffinitionis 2 undecimi.) Tangit autẽ ipsam, ipsa α ζ existens in eo quod per ε δ, δ α, plano. Igitur η θ, ad ipsam ζ α recta est (per 2 undecimi.) Quare & ζ α, recta est ad ipsam η θ. Est autẽ & α ζ ad ipsam δ ε recta, igitur α ζ ad utrãq̃ ipsarũ θ η, δ ε, recta est. Si autẽ recta linea (per 4 undecimi) duabus rectis lineis inuicẽ se tangẽtibus in contactu ad angulos rectos steterit, & ad id quod per ipsa planũ ad angulos rectos erit. Igitur ζ α ad id quod sub ε δ, η θ, planũ ad angulos rectos est. Quod autẽ per ε δ, η θ, planũ est subiectũ. Ipsa igitur α ζ, ipsi subiecto plano ad angulos rectos est. A dato igitur signo in sublimi α, in subiectum planũ perpendicularis recta linea acta est. Quod facere oportebat.
 
-CAMPANVS. Sint duæ lineæ a b & a c, se angulariter contingentes in puncto a, æquidistantes alijs duabus quæ sunt d e & d f, se quoq̃ angulariter contingentibus in puncto d, nec sint cum eis in superficie una. Dico angulũ a, esse æqualẽ angulo d. Esto enĩ linea d c{printer-error-correction:d e} æqualis lineæ a b, cui ipsa posita est esse æquidistans, & d f æqualis a c, cui etiam ipsa æquidistare ponitur, & ducantur lineæ d a & e b & f c, eritq̃ ex 33 primi bis assumpta, utraq̃ duarum linearũ b e & e f{printer-error-correction:c f}, æqualis & æquidistans lineæ a d: per conceptionẽ igitur & præmissam, eædem sunt æquales & æquidistãtes sibi inuicẽ, & itaq̃ per 33 primi denuo repetitã duæ lineæ b c & e f, sunt etiam æquales & æquidistantes. Igitur per 8 primi constat propositũ.
+[Diagram: the horizontal line η θ; beneath it the line β δ γ; from α at the upper right the line α δ falls to δ; from δ the line δ ε rises toward ε at the upper left crossing η θ; α ζ drawn to ζ upon δ ε]
 
-[Diagram: the angle b a c at the top, a at the apex joined to b (left) and c (right) with the line b c between them; from a a line descends to d, whence the angle e d f opens to the bottom corners e and f; the sides b e and c f complete the prism-like figure]
-
-## Eucli. ex Zamb. Theorema 10 Propositio 10
+## Eucli. ex Camp. Propositio 12
 
 [Margin]
-10
+12
 [/Margin]
 
-## Si binæ rectæ lineæ sese inuicem tangentes, ad binas rectas lineas sese inuicem tangentes parallelæ, in eodem non fuerint plano, æquales angulos comprehendent.
+## SVperficie proposita, punctoq̃ in ea assignato, ab eo puncto ad datam superficiem, lineam orthogonaliter erigere.
 
-THEON ex Zamb. Binæ, inquam, rectæ lineæ sese inuicem tangentes α β, β γ, ad binas rectas lineas δ ε, ε ζ, sese inuicẽ tangentes parallelæ sint, non tamen in eodem plano. Dico quod angulus qui sub α β γ, æquus est angulo δ ε ζ.\*
+CAMPANVS. Cum à pũcto quolibet in superficie proposita assignato, perpendicularẽ educere libuerit, à quolibet puncto sursum in aere ad libitum posito, ad eandem superficiẽ perpendicularẽ (quemadmodũ præmissa docuit) demitte, quæ si assignatũ punctũ ceciderit, ipsa est quã quæris. Sin autẽ, ab ipsa assignato pũcto ad demissam perpendicularẽ, æquidistantẽ ducito, eamq̃ per 8 huius probabis esse quam quæris.
+
+## Eucli. ex Zamb. Problema 2 Propositio 12
 
 [Margin]
-ἀπειλήφθωσαν
+12
 [/Margin]
 
-Suscipiantur enim ipsæ β α, β γ, ε δ, ε ζ, sibi inuicem æquales, cõnectanturq̃ α δ, γ ζ, β ε, α γ, δ ζ. Et quoniam β α ipsi ε δ æqualis & parallelus est, & α δ igitur ipsi β ε æqualis & parallelus est. Idq̃ propterea ipsa γ ζ, ipsi β ε est æqualis & parallelus. Vtraq̃ igitur ipsarũ α δ, γ ζ, ipsi ε β est æqualis & parallelus (per 33 primi.) Quæ autem eidem rectæ lineæ parallelæ, & in eodem plano non existentes, & adinuicẽ sunt parallelæ (per 9 undecimi,) parallelus igitur est α δ ipsi γ ζ, & æquales eidem. Et ipsas connectunt, ipsæ α γ, δ ζ. Igitur (per 33 primi) & α γ ipsi δ ζ est æqualis, & parallelus. Et quoniã binæ α β, β γ, duabus δ ε, ε ζ, sunt æquales, & basis etiã α γ basi δ ζ est æqualis, angulus igitur qui sub α β γ, (per 8 primi) angulo qui sub δ ε ζ est æqualis. Si igitur duæ rectæ lineæ inuicem sese tangentes, fuerint ad binas rectas liues{printer-error-correction:lineas} inuicem sese tangentes parallelæ, non in eodem plano, æquos angulos comprehendent. Quod erat ostendendum.
+## Ad datũ planũ, à dato in eo signo, ad angulos rectos rectã lineã constituere.
 
-[Diagram: the angle α β γ at the top, β at the apex joined to α (left) and γ (right); below, the angle δ ε ζ, ε joined to δ and ζ at the bottom corners; the sides α δ and γ ζ complete the prism-like figure]
+THEON ex Zamb. Sit datũ planũ suppositũ, signũ autẽ in eo sit α. Oportet ab ipso α signo, ipsi supposito plano ad angulos rectos rectam lineã constituere. Intelligatur signũ quoddã in sublimi, sitq̃ β, & ab ipso β (per 11 undecimi) ad subiectum planũ perpendicularis excitetur β γ, exciteturq̃ (per 11 primi) ab ipso α signo, ad angulos rectos α δ. Quoniam igitur binæ rectæ lineæ parallelæ sunt α δ, γ β, altera autem ipsarũ β γ ad subiectũ planũ ad rectos est angulos, reliqua igitur α δ ad subiectũ ad angulos est rectos (per 8 undecimi:) ad datum igitur planũ, à signo in eo dato α, ad rectos angulos constituta est α δ. Quod facere oportebat.
 
-## Eucli. ex Camp. Propositio 11
+[Diagram: two vertical parallel lines, δ above α at the left and β above γ at the right]
+
+## Eucli.ex Camp. Propositio 13
 
 [Margin]
-11
+13
 [/Margin]
 
-## PVncto in aère assignato, ab eo ad datam superficiẽ, perpendicularem ducere.
+## DVas lineas super punctum unum ad superficiem unam orthogonaliter insistere, impossibile est.
 
-CAMPANVS. Sit punctus a, sursum in aere, à quo uolumus ad superficiem subiacentem, perpendicularẽ ducere. Ducatur igitur in plano illo linea b c utcunq̃ cõtigerit, ad quam ab ipso puncto a ducatur perpẽdicularis a d, secundũ doctrinã 12 primi. Rursusq̃ à puncto d, in plano illo ad quod ducenda est perpendicularis à puncto a, extrahatur linea d e quæ sit perpẽdicularis ad lineam b c, ut docet 11 primi. Ad hãc quoq̃ lineam d e, ducatur alia linea perpẽdicularis à puncto a, quæ sit a f. Hanc dico esse eam quam intendimus. Sit enĩ linea f g æquidistans lineæ b c. Et quia uterq̃ duorũ angulorũ b d a & b d f est rectus, erit ex 4 huius, linea b d perpẽdicularis ad superficiem in qua est triangulus a d f, ideoq̃ etiam per 8 huius erit linea g f perpẽdicularis ad eandem superficiem. Igitur à diffinitione erit angulus g f a, rectus. Cumq̃ etiã angulus d f a, sit rectus, sequitur ex 4 huius, lineam a f esse perpendicularẽ ad superficiẽ in qua sunt duæ lineæ d f & f g. Quod est propositũ.
+CAMPANVS. Si enim possibile est ut duæ lineæ uni eidemq̃ superficiei super punctũ unum perpẽdiculariter insistant, superficies in qua ipsæ perpẽdiculares sitæ sunt intelligatur ꝓduci quousq̃ secet in superficiẽ, cui dictæ lineæ perpẽdiculariter insistunt, eritq̃ per 3 huius, cõmunis earũ sectio linea recta. Et quia ex diffinitione utraq̃ illarũ duarũ perpendiculariũ cum cõmuni sectione continet angulum rectũ, sequitur ut angulus rectus sit pars anguli recti. Quod est impossibile. Quemadmodũ autem demonstratũ est impossibile esse ab uno eodemq̃ puncto extra superficiem duas lineas super punctũ unũ ad eandem superficiẽ esse perpẽdiculares, ita etiã demõstrabimus impossibile esse duas lineas ab uno eodemq̃ puncto extra superficiẽ signato ad eandem superficiẽ protractas ad ipsam esse perpẽdiculares. Si enim hoc fuerit, ipsæ erunt æquidistãtes ex 6 huius. Quod est impossibile ex diffinitiõe linearũ æquidistantiũ. Constat igitur ex hac, ꝙ si aliqua superficies plana aliam planã superficiẽ orthogonaliter secet, & ab aliquo puncto secantis supficiei ad superficẽ sectam perpẽdicularis ducatur, in cõmuni earũ sectione eam cadere necesse est. Alioqui ab eodem pũcto secãtis superficiei ad cõmunem earũ sectionẽ perpẽdicularis ꝓtrahatur, ut docet 12 primi, & à puncto in quo incidit cum cõmuni sectione, alia perpẽdicularis ad eaudem{printer-error-correction:eandem} cõmunẽ sectionẽ in superficie secta educatur ut docet 11 primi. Eritq̃ ex diffinitione superficiei super aliam superficiem orthogonaliter erectæ angulus quem continent hæ duæ lineæ perpẽdiculares, rectus: quare per 4 huius prima harum duarũ perpendiculariũ
 
-[Diagram: the horizontal line b d c at the bottom; from the point a at the upper left, lines descend to d and to f; the line e f descends vertically from e at the top to f, whence the horizontal through g at the left; f marked at the crossing]
-
-## Eucli. ex Zamb. Problema 1 Propositio 11
-
-[Margin]
-11
-[/Margin]
-
-## A dato signo in sublimi, ad subiectũ planũ perpendicularẽ lineã ducere.
-
-<!-- Signature: G 4 -->
-
-<!-- Catchword: THEON -->
+<!-- Catchword: etiam -->

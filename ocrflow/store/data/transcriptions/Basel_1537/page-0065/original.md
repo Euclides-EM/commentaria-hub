@@ -1,43 +1,55 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER TERTIVS -->
 
-<!-- Page number: 56 -->
+<!-- Page number: 57 -->
 
-ipsam circunferentiam, intra igitur. Si in circuli circunferentia igitur, & quæ sequuntur reliqua ut in theoremate quod demonstrasse oportuit.
+utraque. Quod si fuerit hoc possibile: ponatur, & sit primo, ut neutra transeat per centrum. A centro e producam lineam e f, eritq́ue per primam partem præmissæ, unusquisque quatuor angulorũ qui sunt a f e, e f c, b f e & e f d, rectus, quod est impossibile, sic enim rectus esset minor recto. Sit igitur ut altera earum trãseat per centrũ, adhuc dico quod nõ diuidũt sese per æqualia. Quod si sic: tunc per primam partem præmissæ, cũ b d ducta à centro diuidat a c per æqualia, diuidet eã orthogonaliter, quare etiam a c diuidet b d orthogonaliter. Et quia diuidit a c ipsam b d per æqualia ut ponit, aduersarius: ipsa trãsibit per centrum, per correlarium primæ huius. Quare ambæ transeunt per centrum, quod est contra hypothesin.
 
-## Eucli. ex Camp. Propositio 3.
+[Diagram: circle with centre e; vertical line b d and chord a c meeting it at f; labels b, b at top, e at centre, a, f, c across the middle, d at bottom]
 
-[Margin]
-3
-[/Margin]
-
-SI lineam intra circulum præter centrum collocatam alia à centro ueniens per æqua secet: orthogonaliter super eam insistere. & si in eam orthogonaliter steterit, eam per æqualia diuidere necesse est.
-
-CAMPANVS. Sit ut lineam a b collocatam intra circulum a b, cuius centrū sit c, linea c d ueniens à centro, diuidat per æqualia. Dico q̃d diuidit eā orthogonaliter, & ecōuerso, uidelicet si diuidit eā orthogonaliter, diuidit eā per æqualia. Producā lineas c a & c b, & ponā primo quod diuidat eā per æqualia, erunt ergo duo latera c d & d a, triāguli c d a: æqualia duobus lateribus c d, & d b, triāguli c d b, & basis c a basi c b: ergo per 8 primi, angulus d unius, est æqualis angulo d alterius: uterque igitur est rectus. Quare c d, est perpendicularis super a b quod est propositum.
-
-Ponam iterum quod c d sit perpēdicularis super a b, & ostendam quod ipsa diuidit a b, per æqualia, erit enim propter hanc positionem: uterque angulorum qui sunt, ad d, rectus: quare unus æqualis alteri. At quia per 5 primi angulus c a d, est æqualis angulo c b d, & latus c a, æquale lateri c b, per 26 primi erit linea a d, æqualis lineæ d b, quod est propositum.
-
-[Diagram: circle with c near the centre, chord a b at the bottom divided at d, lines c a and c b drawn to the ends of the chord]
-
-## Eucli. ex Zamb. Theorema 2 Propositio 3
-
-[Margin]
-3
-[/Margin]
-
-Si in circulo recta linea quædam per centrum extensa, quandam non per centrum extensam rectam lineam bifariam secuerit, & ad angulos rectos ipsam secabit. Et si ad angulos rectos ipsam seuerit, bifariam quoque ipsam secabit.
-
-THEON ex Zamberto. Sit circulus α β γ, & in eo recta quædam linea per centrum extensa γ δ, rectam lineam quandam non extensam per centrum α β, bifariam secet in signo ζ. Dico quod & ad angulos rectos eam secat. Contingat siue accipiatur centrum circuli α β γ, (per primam tertij,) sitque illud ε, & (per primum postulatum connectantur ε α, & ε β. Et quoniam æqualis est α ζ, ipsi ζ β, communis autem ζ ε, duæ igitur ζ ε, & ζ α, duabus ζ ε, & ζ β, sunt æquales. Et basis ε α, basi ε β, (per 15 diffinitionem primi) est æqualis. Igitur (per 8 primi) angulus α ζ ε, angulo β ζ ε, est æqualis. Cum autem recta linea super rectam lineam consistens, utrobique angulos sibi inuicem æquos fecerit, (per 10 diffinitionem primi,) uterque ipsorum angulorum rectus erit, uterque igitur eorum qui sunt sub α ζ ε, & β ζ ε rectus est. Igitur γ δ, quæ per centrum secans, ipsam α β, non per centrum extensam bifariam, & ad angulos rectos secat. Sed secet γ δ, ipsam α β, ad angulos rectos. Aio quod bifariam ipsam secat, hoc est quod æqualis est α ζ ipsi ζ β. Eisdē nāq̃ dispositis & constructis, quoniam æqualis est ε α, ipsi ε β, (per 15 diffinitionem primi,) æqualis est angulus ε α ζ, angulo ε β ζ. Et angulus α ζ ε, rectus: æqualis est (per quartum postulatum,) angulo recto qui est sub β ζ ε. Duo igitur triangula sunt ε ζ α, & ε ζ β, duos angulos duobus angulis æquales habentia, & unum latus uni lateri æquale: ζ ε, scilicet quod (per 26 primi,) cōmune ipsis est subtendens unum æqualium angulorum, & reliqua igitur latera reliquis lateribus habebunt æqualia: æqualis igitur est α ζ, ipsi ζ β. Si igitur linea, & quæ sequuntur reliqua ut in theoremate, quod demonstrasse oportuit.
-
-[Diagram: circle with γ at the top and δ at the bottom joined by a vertical diameter, ε at the centre, chord α β cut at ζ, lines ε α and ε β drawn]
-
-## Eucli. ex Camp. Propositio 4.
+## Eucli. ex Zamb. Theorema 3. Propositio 4.
 
 [Margin]
 4
 [/Margin]
 
-SI intra circulum duæ lineæ se inuicem secent, & super centrum nō transeant, non per æqualia eas secari necesse est.
+Si in circulo binæ rectæ lineæ sese inuicem secuerint non per centrum extensæ, sese inuicem bifariam non secabunt.
 
-CAMPANVS. Sit ut in circulo a b c d, cuius centrum sit e, duæ lineæ a c, & b d, secent se in puncto f, & utraque earū uel altera nō transeat per centrū. Dico q̃ ipsæ nō diuidūt sese per æqualia: ita q̃ utraq̃ per æqualia diuidatur ab utraque
+THEON ex Zamb. Sit circulus α β γ δ, & in eo binæ rectæ lineæ α γ, & β δ, sese inuicem secent in ε, non per centrum extensæ: Dico quod bifariam non secãt. Si enim est possibile: sese inuicẽ secent bifariã ita ut æqualis sit ipsi α ε, ε γ, & ipsi β ε, ε δ, sumatur centrum circuli α β γ δ, sitq̃ illud ζ (per primam tertij), & (per primum postulatum) connectatur ζ ε. Quoniam recta linea quædam per centrum extensa ζ ε, rectam aliquam lineam non per centrum extensam α γ, bifariam secat, & ad angulos rectos ipsam (per 3 tertij) secat. igitur angulus ζ ε α, rectus est. Rursus quoniam recta linea quædam ζ ε, rectam quandam lineam non per centrum extensam β δ, etiam bifariam secat: & (per 3 tertij) ad angulos rectos eam secat. Angulus igitur ζ ε β, rectus est. patuit autem quod angulus ζ ε α, rectus est. Angulus igitur ζ ε α, (per quartã postulatum) angulo ζ ε β, est æqualis, minor maiori, quod est impossibile. Rectæ igitur lineæ α γ, & β δ, se inuicem bifariam minime secant. Si in circulo igitur, & quæ sequuntur reliqua, quod demonstrasse oportuit.
 
-<!-- Catchword: utraque -->
+[Diagram: circle α β γ δ with chords α γ and β δ crossing at ε; ζ marks the centre above ε, line ζ ε drawn]
+
+## Eucli. ex Camp. Propositio 5.
+
+[Margin]
+5
+[/Margin]
+
+CIrculorum se inuicem secantium, centra diuersa esse.
+
+CAMPANVS. Sint duo circuli a c b, a d b, secantes se super puncta a & b. Dico quod eorum sunt diuersa centra. Si enim haberẽt idem centrum: ipsum esset per diffinitionem, in portione utrique circulo communi, sitque illud e, & ducantur lineæ e a & e f c, erũtq̃ per diffinitionẽ circuli duæ lineæ e a & e f, æquales. Itemq̃ per eandẽ diffinitionẽ duæ lineæ e a & e c, æquales, quare e f est æqualis e c, cũ utraq̃ earũ sit æqualis e a, pars uidelicet toti, quod est impossibile.
+
+[Diagram: two circles intersecting at a and b; points c and f on the upper arc, e within the common portion, d on the lower circle]
+
+## Eucli. ex Zamb. Theorema 4. Propositio 5.
+
+[Margin]
+5
+[/Margin]
+
+Si bini circuli sese inuicem secuerint, non erit eorum idem centrum.
+
+THEON ex Zamberio. Duo inquam circuli α β γ, & γ δ κ, sese inuicem secent in signis γ, & β. Dico quod eorum non est idem centrum. Si enim possibile: esto ε, & (per primum postulatum) connectatur γ ε, & ε ζ ducatur, utcunque. Et quoniam ε, signum, centrum est circuli α β γ, æqualis est ε γ, ipsi ε ζ, (per 15 diffinitionem primi.) Rursus quoniam ε, signũ, centrum est circuli γ δ κ, æqualis est (per eandem diffinitionem) ε γ, ipsi ε κ. ostensum est autem quod ε γ, ipsi ε ζ, est æqualis, & igitur ε κ, ipsi ε ζ, est æqualis, minor maiori, quod est impossibile. Igitur ε, signum: centrum non est circulorum α β γ, & γ δ κ. Si duo igitur circuli & reliqua quæ sequuntur quod demonstrare oportebat.
+
+[Diagram: two intersecting circles; γ at top, ε within with lines to γ and through ζ and κ; labels δ, α, β on the circumferences]
+
+## Eucli. ex Camp. Propositio 6
+
+[Margin]
+6
+[/Margin]
+
+CIrculorũ sese contingentium, non idem centrum esse necesse est.
+
+CAMPANVS. Sint duo circuli a b & a c, contingentes se in puncto a.
+
+<!-- Catchword: Dico -->

@@ -1,57 +1,29 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER PRIMVS. -->
 
-<!-- Page number: 26 -->
+<!-- Page number: 27 -->
 
-THEON ex Zamb. In parallelos enim rectas lineas α β & γ δ, recta incidat linea ε ζ. Dico quod & alternos angulos æquos efficit, & exteriorē angulum ε η β, interiori & opposito & ad easdem partes, hoc est η θ δ æqualem, & interiores & ad easdem partes, hoc est β η θ & η θ δ duobus rectis æquales. Si enim æqualis nō est angulus α η θ, angulo η θ δ, alter eorū maior est. Sit maior α η θ. Quoniam igitur α η θ, maior est ipso η θ δ, cōmunis ponatur angulus β η θ: anguli ergo α η θ & β η θ, maiores sunt ipsis β η θ & η θ δ. Sed anguli α η θ & β η θ (per 13 propositiōe) duobus rectis sunt æquales: anguli igitur β η θ & η θ δ duobus rectis sunt minores: quæ autē à minoribus duobus rectis producūtur in infinitū, concurrunt (per 5 postulatū). Rectæ igitur lineæ α β & γ δ, in infinitū productæ, concurrūt: non concurrunt autem, quoniam parallelæ, per hypothesin. Angulus igitur α η θ, angulo η θ δ inæqualis nō est: æqualis igitur. Sed angulus α η θ, angulo ε η β (per 15 propositiōe) est æqualis, igitur & ε η β (per 1 cōmunem sententiam) angulo η θ δ est æqualis, cōmunis ponatur β η θ, anguli ergo ε η β & β η θ, ipsis β η θ & η θ δ sunt æquales. Sed anguli ε η β & β η θ, duobus rectis sunt æquales (per 13 propositionem) & anguli β η θ & η θ δ, duobus rectis sunt æquales. In parallelos igitur rectas lineas & quæ sequuntur reliqua. Quod ostendere oportebat.
+propositionē) in rectis ipsis α ε, linea α ζ. Et quoniā in rectas lineas β γ, ε ζ, recta linea incidens α γ, alternos angulos, ε α γ, α γ β æquales adinuicē fecit, parallelus est igitur ε ζ ipsi β γ (per 27 propositionē.) Per datum ergo signum α, datæ rectæ lineæ β γ parallelus recta linea ε α ζ ducta est, quod fecisse oportuit.
 
-[Diagram: transversal line ε ζ crossing the parallel lines α β and γ δ at points η and θ; labels ε, α, β, η, γ, θ, δ, ζ]
+[Diagram: line ε α ζ through point α, parallel to line β γ below, with transversal α γ]
 
-## Eucli. ex Camp. Propositio 30.
-
-[Margin]
-30
-[/Margin]
-
-SI fuerint duæ lineæ uni æquidistantes, eædem sibi inuicem æquidistantes erunt.
-
-CAMPANVS. Sint duæ lineæ a b & c d, quarum utraq̃ æquidistet lineæ e f. Dico illas duas, uidelicet, a b & c d, esse æquidistantes. Hoc autem est uniuersaliter uerum, siue duæ lineæ a b & c d sint in una superficie cum linea e f, siue non: hic tamen non intelligitur, nisi secūdum quod omnes sunt in superficie una, secundum enim quod sunt in diuersis superficiebus, probatur in 9 undecimi libri, quod sunt æquidistantes. Sint ergo omnes in superficie una: protraham autem lineam g h, secantē lineas a b, e f, & c d, in punctis k, l, m. Et quia a b æquidistat e f, erit angulus b k l æqualis angulo e l k per primā partē præcedentis, cum illi sint coalterni: at quia c d æquidistat e f, erit angulus k l e extrinsecus æqualis angulo l m c intrinseco, per secūdā partem præcedentis, ergo angulus b k l, est æqualis angulo l m c, qui cum sint coalterni, erunt per 27, lineæ a b & c d æquidistantes. Quod est propositum.
-
-[Diagram: transversal line g h crossing three lines: a b at k, e f at l, c d at m; labels g at top, a, k, b, e, l, f, c, m, d, h at bottom]
-
-## Eucli. ex Zamb. Theorema 21. Propositio 30.
+## Eucli. ex Camp. Propositio 32.
 
 [Margin]
-30
+32
 [/Margin]
 
-Quæ eidem rectæ lineæ paralleli, & adinuicem sunt paralleli.
+{dropcap:O|lines=?|style=decorated}Mnis trianguli angulus extrinsecus, duobus intrinsecis sibi oppositis est æqualis. Omnes autem tres angulos eius, duobus rectis angulis æquos esse necesse est.
 
-THEON ex Zamb. Sint α β & γ δ, ipsi ε ζ paralleli, dico quod & α β, ipsi γ δ est parallelus. Incidat enim in eas recta linea η θ. Et quoniā in parallelos rectas lineas α β & ε ζ, recta linea η θ incidit: æqualis est igitur angulus α κ λ, angulo κ λ ζ (per 29 propositiōe). Rursus quoniā in parallelos rectas lineas ε ζ & γ δ, recta linea η θ incidit, (per eandē) æqualis est angulus κ λ ζ, angulo λ μ δ: patet aut quod & angulus α κ λ, angulo λ μ δ est æqualis, & quod alterni: æqualis igitur, ipsi κ μ δ est æqualis, & sunt alterni: parallelus igitur est α β ipsi γ δ. Quod ostendendum erat.
+CAMPANVS. Sit triāgulus a b c, cuius latus b c protrahatur usq̃ ad d, dico quod angulus c extrinsecus, est æqualis duobus angulis a & b intrinsecis sibi oppositis simul iunctis: & q̃ tres anguli triāguli a b c simul iuncti, sunt æquales duobus rectis. A pūcto c protrahā c f æquidistantē a b, secūdum doctrinā præcedentis, eritq̃ angulus f c a æqualis angulo a, quia sunt coalterni per primā partem 29 propositionis, & angulus f c d extrinsecus, æqualis angulo b intrinseco per secundā partem eiusdem, quare totus a c d extrinsecus, est æqualis duobus angulis a & b intrinsecis sibi oppositis, quod est primū. Et quia duo anguli a c b & a c d sunt æquales duobus rectis per 13 propositionē, erunt tres anguli a, b, & c intrinseci æquales duobus rectis, quod est secundum propositum.
 
-[Diagram: transversal line η θ crossing three lines α β, ε ζ, γ δ; labels α, β, ε, ζ, γ, δ with the transversal points on each line]
+[Diagram: triangle a b c with base b c produced to d, and line c f drawn from c parallel to a b]
 
-## Eucli. ex Camp. Propositio 31.
+CAMPANI additio. Ex hac arte patet, quòd omnis figuræ polygoniæ omnes anguli simul sumpti tot rectis angulis sunt æquales, quotus est numerus quo a prima destiterit, duplicatus. Verbi gratia, polygoniarū figurarum, est triangula prima, quia si esset duarum linearū, cum figura sit clausio linearū, tunc duæ lineæ rectæ includerent superficiem, quod est impossibile per ultimā petitionē. Quadrilatera, secunda, pentagona, tertia. Similiter autem quælibet tota erit in ordine, quotus erit numerus laterū aut angulorū eius, inde dempto binario. Dico ergo q̃ triāgulæ (quæ est prima) omnes anguli sunt æquales duobus rectis, quadrilateræ (quæ est secūda) erūt æquales quatuor rectis: & pentagonæ (quæ est tertia) erunt æquales sex rectis. Hoc autē inde manifestum est, quòniam cum quælibet talis figura sit in tot triāgulos resolubilis, quota ipsa fuerit a prima ductis lineis a quouis angulorū eius ad omnes angulos oppositos, sintq̃ omnes anguli omnis trianguli duobus rectis æquales, erunt omnis lateratæ figuræ omnes anguli, bis tot rectis æquales, quota ipsa fuerit a prima, quod est propositū. Sit enim exempli gratia, pentagonus a b c d e, a cuius angulo a, ducam lineas ad angulos c, d, ipsi oppositos, erit totus pentagonus resolutus in tres triangulos a b c, a c d, & a d e, quorum cum cuiuslibet sint anguli æquales duobus rectis, erunt pentagoni anguli æquales sex rectis. quod est duplum eius numeri quo a prima distat, siue duplum numeri angulorū aut laterum eius, inde dempto binario. Possumus quoq̃ & sic idem proponere, dicētes quod omnis figuræ polygoniæ omnes anguli pariter accepti sunt tot rectis angulis æquales, quantus est numerus quem eius anguli duplicāt, inde demptis quatuor: puncto enim quouis intra figuram signato, & ab eo ad singulos angulos lineis protractis, erit ipsa figura in tot triangulos resoluta quoti fuerint eius anguli, ideoq̃ omnes anguli omniū illorū triangulorū pariter accepti, tot rectis angulis erunt æquales, quantus est numerus quem duplicāt anguli propositæ figuræ. Cum itaq̃ sint omnes anguli triangulorū in quos ipsa resoluta est, punctum medium circunstantes, quatuor rectis æquales per 13 propositionē, manifestum constat propositū. Similiter quoq̃ patet, quod omnis figuræ polygoniæ anguli omnes extrinseci, quatuor rectis angulis sunt
 
-[Margin]
-31
-[/Margin]
+[Diagram: square with one diagonal, marked l; pentagon a b c d e with diagonals drawn from a to c and d; hexagon with all diagonals through the centre]
 
-A Puncto extra lineam dato, lineæ propositæ æquidistantē ducere.
+[Diagram: irregular polygon with sides produced, points l, k, b, f, e, a, c, g, h, δ; five-pointed star (pentagram) formed by mutually intersecting sides of pentagon, with points b, f, e, a, δ, c]
 
-CAMPANVS. Punctus extra lineā datus intelligitur, cum linea utrinq̃ protracta, per ipsum non transit. Sit ergo punctus a, datus extra lineā b c, ab eodem pūcto a, à quo oportet protrahere lineā æquidistantē ipsi b c, protraho lineam a d lineæ b c superstantem qualitercūq̃ contingat, & super punctū a qui est extremitas lineæ a d, cōstituo angulum e a d per doctrinā 23 propositionis, æqualem angulo b d a sibi coalterno, eritq̃ a e æquidistans b c per 27 propositionē, quod est propositū.
+<!-- Signature: c 2 -->
 
-[Diagram: point a above with line a e drawn to the right, slant line a d descending to the lower line b c at d; labels a, e, d, f on the lines]
-
-## Eucli. ex Zamb. Problema 10. Propositio 31.
-
-[Margin]
-31
-[/Margin]
-
-Per datum signum, datæ rectæ lineæ parallelum rectam lineam ducere.
-
-THEON ex Zamb. Sit quidem datum signū α, data uero recta linea sit β γ. Oportet iam per datum signū α, ipsi β γ, lineæ parallelam rectam lineam ducere. Suscipiatur in ipsa β γ, contingens signum, sitq̃ illud δ, cōnectatur (per 1 postulatū) α δ, & cōstituatur (per 23 propositiōe) ad datam rectam lineam α δ, ad datumq̃ in ea signū α, dato angulo α δ γ, æqualis angulo δ α ε, & producatur (per 14
-
-[Diagram: line ε α ζ through the point α above, and line β δ γ below with the connecting line α δ; labels ε, α, ζ, β, δ, γ]
-
-<!-- Catchword: propositio -->
+<!-- Catchword: æquales -->

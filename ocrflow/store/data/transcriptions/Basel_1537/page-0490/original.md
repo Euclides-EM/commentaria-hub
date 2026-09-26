@@ -1,71 +1,37 @@
-<!-- Page number: 479 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-# EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI MATHEMATICORVMQVE facile principis, ex Hypsiclis Alexandrini, Græci philosophi traditione, Geometricorum Elementorum Liber decimusquintus,
+<!-- Page number: 480 -->
 
-## Eucli. ex Zamb. — Problema 1 — Propositio 1
+μ ζ, μ ο, ipsi θ ζ est æqualis, æqualis igitur & γ ε ipsi λ μ, ipsi ν η, & ν μ ipsi θ, qui autem sub θ μ ν, & θ ο [illegible], ex quo manifestum est, quod η θ æqualis est ipsi κ ε. Et id propterea iam & reliqua. Quoniam igitur η θ κ λ parallelogrammum est in uno est plano. Et quoniam dimidium est uterque ipsorū qui sub μ κ θ, κ ν ε, reliquus igitur qui sub θ κ ν, rectus est. Similiter & reliqui. Quadratum igitur est η θ κ λ. Possibile autem est quæ in principio assūpta η, θ, κ, λ, centra & parallelos cōficientia μ ν, γ ξ, ζ ο, ω μ, cōnectere ipsas ζ θ, λ κ, ν κ, & dicere ipsum η θ κ λ quadratum. Si uero assūmamus & reliquorum triangulorum centra connectamusq̃ eadem, ostendemus reliqua quadrata, habebimusq̃ in dato octahedro cubum descriptum, quod agendum fuerat.
 
-[Margin]
-Cāp. 1.
-[/Margin]
+[Diagram: the octahedron drawn as a wide lozenge with the inscribed cube shown as an inner square; points labeled α, β, γ, δ, ε, ζ, η, θ, κ, λ, μ, ν]
 
-[Margin]
-1
-[/Margin]
+## Eucli. ex Zamb. — Theorema 5. — Propositio 5
 
-{dropcap:I|lines=?|style=decorated|decoration="figured scene"}N dato cubo pyramida describere.
+## 5 In dato icosahedro dodecahedrum inscribere.
 
-HYPSICLES ex Zāb. Esto datus cubus α β γ δ ε ζ η θ, in quo oportet pyramida inscribere, connectātur α γ, γ ε, α ε, α θ, ε θ, θ γ. Manifestū iā, q̃ ipsa α ε γ, α θ ε, α θ γ, γ θ ε, triāgula æq̃latera sūt. quadratorū enim diametri sunt latera. Pyramis igitur igitur est ipsa α ε γ θ, & describitur in dato cubo quod facere oportebat.
+HYPSICLES ex Zamb. Exponatur quinquangulum ipsius icosahedri α β γ δ ε, & centra circulorum qui circū ζ α β, ζ β γ, ζ γ δ, ζ δ ε, ζ ε α triangula, sintq̃ η, θ, κ, λ, μ, connectanturq̃ η θ, θ κ, κ λ, λ μ, μ η. Et rursus connexæ α ζ, β ζ, extendantur in ζ ν, ζ ξ, bifariam nempe ipsæ α β, secabuntur in ipsis ζ ν, ζ ξ signis. Et sicut ζ ν ad ν ο, sic η θ ad θ κ, æqualis igitur & η θ ipsi θ κ. Similiter iam & reliqua ipsius η θ κ λ μ pentagoni latera, æqualia demonstrabuntur. Dico quod & æquiangulū.
 
-[Diagram: cube in perspective with the face-diagonals drawn, forming the inscribed pyramid α ε γ θ; corner labels partly legible]
-
-## Eucli, ex Zāb. — Problema 2 — Propositio 2
+[Diagram: pentagon α β γ δ ε with centre ζ, inscribed pentagon η θ κ λ μ, and connecting lines; further points ν, ξ, ο on the produced lines]
 
 [Margin]
-Cāp. 2
+Greek partly illegible (παρ…), id est parallel
 [/Margin]
+
+Quoniam enim duæ ε ζ, γ ε, ad binas ζ, η, æquos comprehēdūt & reliqua manifesta sunt. Intelligatur ad ipsius α β γ δ ε pentagoni planum perpendicularis acta quæ cadit in cētrum eius qui circū pentagonum circuli. Si uero ab ipso ε in signū in quod concurrit quæ ex ζ perpendicularis connectamus, ac per ε parallelum agemus ad eam, manifestum quod concurrit ei quæ ex ζ perpendiculari, & quæ ab ipso ε parallelus rectum comprehēdit angulum una cum ea quæ ex ζ perpendiculari. Rursus si connectamus ab ipsis ζ, ν, in centrum eius qui circum α β γ pentagoni circuli, in signū in quo cōcurrit quæ ex α β μ perpendicularis, ac recta quo cum eadem comprehendet. Ex quo manifestum est quod quinquangulum η θ κ λ μ in uno est plano.
+
+Nos uero scire oportet, quod si quis nos interroget quot latera habet icosahedrum, sic dicemus. Manifestum quod icosahedrum, sub uiginti triangulis comprehenditur, & quod unumquodq̃ triangulum tribus rectis lineis constat. Oportet igitur nos multiplicare uiginti triangula in ipsa trianguli latera, fiunt sexaginta, quorum medietas sunt triginta. Similiterq̃ & in dodecahedro. Rursus quoniam duodecim quinquangula dodecahedrum conficiunt, & unumquodque quinquangulum quinque continet rectas lineas, efficimus duodecies quinque, & fiunt sexaginta: rursus eorum medietas sunt triginta. Cur autem dimidium efficiamus e quia quodlibet latus etiam si fuerit trianguli, siue quinquangulum siue quadratum ut in cubo, tex secundo capitur.
 
 [Margin]
-2
+Greek partly illegible (ἀν δ…), id est repetitus
 [/Margin]
 
-In data pyramide octahedrū describere.
-
-HYPSIC. ex Zamb. Esto data pyramis α β γ δ, seceturq̃ bifariā ipsis ε, ζ, η, θ, κ, λ, signis: & connectantur ipsæ θ κ, θ λ, ε ζ, ζ κ, & reliquæ. Et quoniam α β, dupla est utriusq̃ ipsarū θ κ, κ ζ, æqualis igitur est θ κ, ipsi κ ζ, & parallelus, similiter & θ η, ipsi ζ κ est æqualis & parallelus, æquilaterū igitur est θ κ ζ η. Dico quod & rectāgulū. Si enim ab ipsa κ λ, perpēdiculares agātur ad plana ε ζ β η, ε ζ κ ε, ε ζ θ η, θ κ ζ η, similiter ostendemus quæ in ipsius θ κ ζ η, quadrati æquilatera: Quod facere oportebat.
-
-[Diagram: triangle α β γ with the sides bisected and the inscribed octahedron drawn; visible interior labels include η, λ]
-
-## Eucli. ex Zamb, — Probleme 3 — Propositio 3
+Itidem eadem disciplina in cubo & in pyramide, & in octahedro eadem efficiens, latera comperies. Si uero uelis rursus uniuscuiusque figurarū angulorū numerum inuenire, rursus eadem efficiens diuide per plana comprehendentia unum angulum solidi. Et quoniam icosahedri angulum quinque triangula cōprehēdūt, diuide sexaginta per quinque, fiunt duodecim icosahedri anguli. In dodecahedro, tria pentagona angulum comprehendunt, diuide per tria, & uiginti habebis dodecahedri angulos. Similiter aūt & in reliquis angulos inuenies. Quæsitū est quomodo ab una quaq̃ quinq̃ solidarum figurarū uno plano cōprehendentium quomodocunq̃ dato, inueniatur & inclinatio, in quam adinuicem inclinantur comprehendentia plana unamquamque figurarum. Inuentio autem (sicut Isidorus noster magnus magister enarrabat) hunc habet modum.
 
 [Margin]
-Cāp. 3
+περιφέρειαι τῶν … (Greek partly illegible), id est comprehendēt cū quæsita inclinatio in duobus rectis deficit
 [/Margin]
 
-[Margin]
-3
-[/Margin]
+Quod quidem in cubo per rectū angulum dissecant ipsum comprehendentia plana adinuicem manifestum. In pyramide uero expolito uno triangulo, centris terminis unius lateris, spacio uero à uertice in basin perpendiculari acta, ambitiones descriptæ inuicem se secent, & ab ipsa sectione ad centra connexæ rectæ lineæ comprehendent inclinationem planorum pyramidem comprehendentium. In octahedro uero à latere trianguli descripto quadrato, centris terminis diagonij, interuallo autem itidem trianguli perpendiculari, describantur circunferentiæ, & rursus ab ipsa sectione ad centra connexæ rectæ lineæ comprehendent desinentem in binas rectas quæsitæ inclinationis. In icosahedro porro, à latere trianguli descripto pentagono connectatur sub binis lateribus subtensa recta linea, & centris terminis eiusdem, interuallo autem ipsius trianguli perpendiculari descriptis, circunferentiis, quæ ex communi se
 
-In dato cubo octahedrum describere.
-
-HYPSICLES ex Zamb. Esto datus cubus α β γ δ ε ζ η, Et capiantur centra* insidentium quadratorum, κ, λ, μ, ν. Dico quod κ λ μ ν. quadratum est. Excitentur per ipsa κ λ. paralleli (per 31 primi) ξ ο, π ο. Quoniā igitur dupla est π ο ipsius ο κ, & ξ ο ipsius ο λ, id propterea quod ex ο κ igitur ei est æquum quod ex λ ο, & per hoc & ο κ, ipsi ο λ est æqualis. Quod igitur ex κ λ, duplum est eius quod ex ο λ. Ac per hoc: & quod ex μ λ duplū est eius quod ex λ ξ, quod igitur ex κ λ, æquū est ei quod ex μ λ. Aequilaterū igitur est κ λ μ ν, manifestum est, quod & rectangulum, Assumantur ipsi β δ ε η, bina quadrata, & centra ρ, σ, & connectantur ρ λ, ρ μ, ρ ν, σ κ, σ λ, σ ν, σ μ, manifestum est quod triāgula efficientia octahedrū æquilatera sunt eadem nāq̃ ostendemus ratione.
-
-[Margin]
-ἐφεςώτων ſtãtiũ
-[/Margin]
-
-## Eucl. ex Zāb. — Problema 4 — Propositio 4
-
-[Margin]
-Cāp. 4
-[/Margin]
-
-[Margin]
-4
-[/Margin]
-
-In dato octahedro, cubum describere.
-
-HYPSICLES ex Zamb. Capiātur (per primā tertij) eorū qui circū α β γ, α γ δ, α β ε, α δ ε, triangula, circulorū centra η, θ, κ, η , λ, & connectantur η θ, κ η, κ λ, λ θ. Dico quod η θ κ λ est quadratum. Excitentur (per 31 primi) per ipsa η, θ, κ. λ, ipsis β γ, β ε, γ δ, δ ε, paralleli, μ ν, μ ο, ν ξ, ξ ο. Quoniam igitur æquilaterū est α β γ triāgulum, quæ ex α in θ centrum, eius qui circū α β γ triāgulum circuli, bifariā dispescit eū q̃ ad α ipsius α β γ triāguli, æqualis igitur est γ θ ipsi θ μ. Ac per hoc iam & μ η ipsi η ε: & ο η ipsi η ξ est æqualis. Quoniam autem ipsa μ ν, ipsū
-
-[Diagram: large cube in perspective with the inscribed octahedron and connecting lines, serving propositions 3 and 4; visible labels include η, θ, γ, β, ξ, ε, μ, ο, σ, τ]
-
-<!-- Catchword: μ ο -->
+<!-- Catchword: ctione -->

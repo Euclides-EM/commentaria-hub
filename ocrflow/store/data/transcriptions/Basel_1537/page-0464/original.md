@@ -1,21 +1,35 @@
-<!-- Running title: LIBER DECIMVSQVARTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 453 -->
+<!-- Page number: 454 -->
 
-tione lineæ secundum proportionem medium duoqꝫ extrema diuisæ & ea parte 16 sexti, quod illud quod fit ex a b in b c, est æquale quadrato a c, eodēqꝫ modo quod fit ex d e in e f, est æquale quadrato d f. ideoqꝫ proportio eius quod fit ex a b in b c, ad quadratum a c est sicut eius quod fit ex d e in e f ad quadratum d f, utraque enim est ꝓportio æqualitatis. Igitur quadruplū eius quod fit ex a b in b c ad quadratum a c, sicut quadruplum eius quod fit ex d e in e f ad quadratū d f, quod ex 15 quinti & permutata & æqua proportionalitate manifestū est. Quare coniunctim quadruplum eius quod fit ex a b in b c cū quadrato a c, ad quadratū a c, sicut quadruplū eius quod fit ex d e, in e f cū quadrato d f, ad quadratū d f. Adiūgatur autē secundū rectitudinē ad lineam a b, una linea quæ sit æqualis b c, quæ dicatur b g, & ad d e adiungatur æqualis e f, quæ dicatur e h. Manifestū est igitur ex octaua secundi, quod quadruplū eius quod fit ex a b in b g cum quadrato a e{printer-error-correction:a c}, est æquale quadrato lineæ a g. At uero similiter quadruplū eius quod fit ex d e in c h{printer-error-correction:e h} cū quadrato d f, est æquale quadrato d h. At uero ex communi sciētia quadruplū eiusꝙ fit ex a b in b c æquū est quadruplo eiusꝙ fit ex a b in b g, eoꝙ b c & b g sūt æquales, similiter quoqꝫ quadruplū eius ꝙ fit ex d e in e f, æquū est quadruplo eiꝰ qꝺ fit ex d e in e h, eo quod e f & e h sunt etiā æquales. Igitur ex prīa parte 7 quinti & ex 11 quinti quadratū a g ad quadratū a c. sicut quadratum d h ad quadratm  d f. Quare ex secunda parte 11 sexti, proportio lineæ a g ad lineā a c est sicut lineæ d h ad lineā d f, & coniunctim a g & a c ad a c, sicut d h & d f ad d f. At uero a g cum a c, sunt taquam  duplum a b, & d cum d f{printer-error-correction:d h cum d f}, tāquam duplum d e. Quare dupla a b ad a c, sicut duplū d c{printer-error-correction:d e} ad d f & permutatim duplum a b ad duplum d e sicut a c ad d f. Sed duplum a b ad duplum d e. sicut a b ad d e ex 15 quinti. Igitur a b ad d e, sicut a c ad d f. Itaque permutatim & euersim & conuersim & disiunctim & coniunctim. Quod oportebat ostendere.
+æquum ei quod fit ex b d in f g. Sed quod fit ex e f, in g e, æquum est quadrato f{printer-error-correction:f g} ex diffinitione lineæ diuisæ secundū proportionem habentem medium duoqꝫ extrema, & ex prima parte 16 sexti, igitur ꝙ fit ex b p{printer-error-correction:b d} in f g est æquale quadrato f g, ideoqꝫ ex prīa sexti linea b d, æqualis f g. Et quia f g est æqualis c b, erit quoqꝫ c b æqualis b d, & latus decagoni. Quod oportebat ostendere.
 
-[Diagram: two horizontal lines: the upper marked with the points a, c, b, g; the lower with the points d, f, e, h]
-
-## Eucl.ex Camp. Propositio 3
+## Eucli.ex Camp. Propositio 4
 
 [Margin]
-3
+4
 [/Margin]
 
-{dropcap:D|lines=?|style=decorated}Iuiso latere hexagoni secundum proportionem habentem mediū duoqꝫ extrema, maior eius portio erit latus decagoni circunscripti à circulo ipsum hexagonum circunscribente.
+{dropcap:Q|lines=?|style=decorated}Vadratum lateris pētagoni intra circulum descripti. quadratūqꝫ lineæ quæ illus{printer-error-correction:illius} pentagoni angulo subtenditur, ambo hæc quadrata pariter accepta, quadrati medietatis diametri eiusdem circuli quincuplum esse pronuncio,
 
-CAMPANVS Sit linea a b latus hexagoni alicuius circuli diuisa secundū proportionē habente mediū duoqꝫ extrema in puncto c, sitqꝫ maior proportio eius b c. Dico qꝺ cuiuscūqꝫ circuli a b est latus hexagōi, eiusdē, b c erit latꝰ decagoni. Adiūgatur enim ad lineā a b, linea d b, quæ sit latus decagoni illius circuli cuius a b est latus hexagoni, eritque ex 9 tredecimi, linea a d diuisa secundū ꝓportionē habentē mediū duoqꝫ extrema & maior portio eius erit linea b{printer-error-correction:linea a b}. Cū igitur utraqꝫ duarū linearū a b & a d sit diuisa secūdum proportionē habentē medium duoqꝫ extrema, igitur erit per præmissam ambarum ipsarū ad sui maiores portiones una proportio. Itaqꝫ d a ad a b quæ est eius maior portio, sicut a b ad b c quæ est etiam eius maior portio. sed d a ad a b, sicut a b ad b d ex diffinitiōe lineæ diuisæ secundū proportionē habentem mediū duoqꝫ extrema, & maior portio eius igitur ex undecima quinti a b ad b d, sicut a b ad b c. Quare per secundā partē 9 quinti b d & b c. sunt æquales. Cū ergo d b sit latus decagoni. erit quoqꝫ ex cōmuni scientia b c latus decagoni. Vel aliter. Ad lineā a b adiūgatur b d æqualis b c, eritqꝫ ex 4 tredecimi tota a d diuisa secundū proportionem habētē mediū duoqꝫ extrema, & maior portio eius linea a b. Itaqꝫ per cōuersam 9 tredecimi quā cōtinue post ipsam demōstrauimus circuli linea a b est latus hexagoni, eiusdē linea b d (ideoqꝫ linea b c sibi æqualis) est latus decagoni. Possumus iterū idem alia uia (si libet) demōstrare. Sit enim e f æqualis a b, quæ etiā diuidatur in g secundū proportionē habentē mediū duoqꝫ extrema. & sit maior portio, eius linea f g. Cōstat igitur ex præmissa ꝙ quēadmodū a b est æqualis e f, sic a c est æqualis e g, & c b æqualis g f. Cūqꝫ fuerit b d adiūcta ad a b latus decagōi illiꝰ circuli cuius a b est latus hexagoni, erit (sicut prius dictū est) ex 9 tredecimi tota a d diuisa scd'm ꝓportionē habētē mediū duoqꝫ extrema, & maior eius portio erit linea a b. Itaqꝫ ꝑ præmissā a b ad b d, sicut f g ad g e, quare ꝑ primā partē 15 sexti ꝙ fit ex a b in g e, æquum est ei quod fit ex b d in f g. cūqꝫ a b sit æqualis e f, & erit quod fit ex e f in g e
+CAMPANVS Sit in circulo a b c cuius centrum d, inscriptus unus pentagonus æquilaterus cuius unū latus sit a b, & protrahatur diameter c d e. diuidens lineā a b & eius arcū per æqualia. Est igitur arcus a e medietas quintæ partis circunferentiæ illius circuli, quare arcus a c est duæ quintæ totius circunferentiæ. Protrahantur itaque duæ lineæ a e & a c, eritque a e latus decagoni æquilateri. eo quod eius arcus est medietas quintæ partis circunferentiæ, linea uero a c, erit quæ subtēditur uni ex angulis pentagoni prædicti, eo quod arcus a c est duæ quintæ partes circunferentiæ circuli Dico itaque quod quadrata duarum linearum a b & a c pariter accepta, quincuplum sunt ad quadratum lineæ d e. Est enim ex 4 secūdi quadratum lineæ c e, quadruplū ad quadratum lineæ d e. Cum aūt angulus c a e sit rectus ex prima parte 30 tertij, erūtque ex penultima primi quadrata duarū linearū c a & a e quadruplum ad quadratū d c{printer-error-correction:d e}. igitur quadrata trium linearū c a & a e & d e, quincuplum sunt ad quadratū lineæ d e. Et quia ex 10 tredecimi quadratum a b est æquale quadratis duarū linearū a e & d e, sequitur ut quadrata duarū linearū a b & e a{printer-error-correction:c a} sint quincuplum ad quadratū d e, quod est propositum.
 
-[Diagram: two horizontal lines: the upper marked with the points a, c, b, d; the lower with the points f, g, e]
+[Diagram: circle with an inscribed pentagon whose uppermost side is a b (a at the left, b at the right); the vertical diameter runs from e at the top, through the centre d, to the bottom of the circle; lines join a to e and a to the opposite vertex]
 
-<!-- Catchword: æquum -->
+CORRELARIVM. Manifestum est ergo quod quadratum lateris cubi atque quadratum lateris figuræ duodecim basium, cū cubum & figurā duodecim basiū eadem sphæra circunscribit, ambo quadrata pariter accepta quincuplum sunt quadrati medietatis diametri circuli qui circunscribit pentagonum eiusdem figuræ duodecim basium.
+
+Istud correlarium uere manifestum est, constat enim ex demōstratione 17 tredecimi quod latus cubi subtenditur angulo pētagoni dodecedri, cum cubum & dodecedron una eadēqꝫ sphæra circunscribit, itaque per hanc 4 sine obice constat correlarium.
+
+## Eucli.ex Camp. Propositio 5
+
+[Margin]
+5
+[/Margin]
+
+{dropcap:P|lines=?|style=decorated}Entagonus figuræ duodecim basium, triangulusqꝫ figuræ uiginti basium, quos eadem sphæra circunscribit, uno eodemqꝫ circulo circunscribuntur.
+
+CAMPANVS. Sit sphæra cuius diameter a b, circunscribens duas solidas figuras, uidelicet dodecedron cuius unus ex duodecim pentagonis sit c, & icosedron cuius unus ex 20 triangulis sit d, pētagono autem c, & trigono d. super duo centra d & c. circunscribantur duo circuli, huic quidem f c ex 14 quarti, illi uero f d, ex 5 eiusdem. Dico itaque qꝺ hi duo circuli sphæræ propositæ, quorum alter circunscribit pentagonū c, alter uero trigonū d. sunt æquales. Signentur enim duo latera pentagoni c, unū ex suis angulis continentia, literis e f & f g & protrahantur, linea e g quæ subtendat angulū f, & semidiameter circuli quæ sit c f. Vnum quoque ex lateribus trigoni d, signetur literis k h. & protrahatur semidiameter sui circuli quæ sit d k. Dehinc sumatur linea l m, ad quā sit linea a b quæ est diameter sphæræ assignatæ. quincupla in potentia quæ quidem l m diuidatur in n secundum proportionē habentem me
+
+[Diagram: circle with an inscribed pentagon, its apex f at the top; e and g mark the ends of the two sides containing the angle at f, with the chord e g drawn; c is the centre, and the line f c is drawn from the apex through the centre]
+
+<!-- Catchword: dium -->

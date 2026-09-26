@@ -1,31 +1,33 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER SEPTIMVS -->
 
-<!-- Page number: 172 -->
+<!-- Page number: 173 -->
 
-& sit residuum f d,& quia huius diminutio non potest fieri infinities per ultimam petitionem, nec potest etiam ad unitatem peruenire in proposito per præcedentem,quia tunc essent numeri propositi contra se primi , quod est contra hypothesin,sit ut cum detraxero f d ex e b quoad potero,quod nihil sit residuū : dico tunc f d esse maximum numerum numerantem a b & c d.Quod enim numeret eos,patet per penultimam & antepenultimam conceptionē, alternatim quoties oportuerit repetitas, sicut in demonstratione conuersæ præcedentis. Numerat enim f d,e b,quia cum ab ipso detrahitur quoad potest , nihil fit residuum , ergo & c f per penultimam conceptionem, ergo & c d per antepenultimam, quare & a e per penultimam, igitur & a b per antepenultimam. Quod autem nullus maior f d,numeret a b,& c d,sic patet. Si enim fieri potest,sit uumerus g maior f d, numerans utrumq̃ duorum numerorum a b & c d : quia igitur g numerat c d, numerabit per penultimam conceptionem a e, & quia numerat a b, numerabit per ultimam e b . ergo per penultimam numerat c f. & quia etiam numerat c d,numerabit per ultimam f d,maior,uidesicet,minorem,quod est impossibile. Ex hoc secundo processu liquet correlarium.
+contra hypothesin. Si autem c & d sunt cōpositi, erūt etiam a, b, c adinuicem compositi. Sit enim per præmissam, e, maximus numerans c & d, qui etiam per penultimam conceptionem numerabit a & b, quare per diffinitionem a, b, c, sunt adinuicem compositi.
 
-[Diagram: dotted number-lines at right: a . . . . . . . . . e . . . . . b; c . . . . . f . . . d; g . . . .]
+[Diagram: numbers as dot-rows: a (10 dots), b (7 dots), c (3 dots)]
 
-## Eucli.ex Zamb. Problema 1 Propositio 2
+Simili quoq̃ modo scietur, propositis quotlibet pluribus quàm tribus, an omnes sint adinuicem compositi. Propositis itaque tribus qui sunt adinuicem compositi, qui etiam sint a, b, c, uolo inuenire maximum numerum numerantem omnes. Sumo secundum doctrinam præmissæ, d maximum numerantē a & b, qui si numerat c, ipse est quem quærimus: alioqui per correlarium præcedentis sequeretur maiorem numerare minorem. Si autem non numerat c, erunt tamen c & d adinuicem compositi per hypothesin & correlarium præcedentis & diffinitionem: sit igitur maximus eos numerans e, dico e esse maximum numerantem a, b, c. Quod enim eos numeret, patet per hanc ultimam hypothesin quæ est ipsum esse maximum numerantem c & d, & per penultimam conceptionem. Et quod nullus eo maior numeret eos, sic patet: sit enim si potest fieri, f maior e, qui numeret a, b, c, qui cum numeret a & b, numerabit per correlarium præmissæ d, & quia etiam numerat c, numerabit per idem correlarium e, maior, uidelicet, minorem, quod est impossibile. Non erit igitur numerus aliquis maior e, numerans a, b, c, quod est propositum.
 
-## 2
+[Diagram: numbers as dot-rows in two groups: a (12 dots) with d (4 dots), b (9 dots) with e (2 dots), c (4 dots), c (7 dots), c (6 dots); and a (13 dots) with d (4 dots), b (8 dots) with e (2 dots), c (4 dots) with f (3 dots), c (6 dots)]
 
-Duobus numeris datis non primis adinuicem, maximam eorum commuuem dimensionem inuenire.
+CAMPANI additio. Simili quoq̃ modo inuenietur maximus numerus, numerans quotlibet plures tribus adinuicem compositos. Vnde non oportuit Euclidem de pluribus tribus hoc docere, quia idem est modus & ars in tribus & pluribus.
 
-THEON ex Zamberto. Sint dati bini mumeri non primi adinuicem,α β & γ δ: oportet iam ipsorum α β & γ δ, maximam dimensionem inuenire. Si quidem γ δ ipsum α β metitur, metitur autem & seipsum. Igitur γ δ, ipsorum γ δ & α β communis dimensio est, & manifestum est quod maxima, nullus enim maior ipso γ δ, ipsum γ δ metietur. Si autem γ δ non metitur ipsum α β, ipsorum α β & γ δ sublato (per primam septimi) semper minore à maiore, sumetur numerus aliquis qui metietur præcedentem, unitas quidem non sumetur . Si autem non, erunt α β & γ δ primi adinuicem, quod non supponitur . Sumetur aliquis numerus igitur qui metietur præcedentem,& γ δ quidem ipsum α β metiens, (per primam septimi) relinquat se minorem α ε:α ε autem ipsum γ δ metiens, relinquat se minorem γ ζ & γ ζ,ipsum α ε metiatur. Quoniam igitur γ ζ ipsum α ε metitur,& α ε ipsum δ ζ metitur: igitur γ ζ ipsum δ ζ metietur,metitur & seipsum,& totum igitur γ δ metietur. At γ δ ipsum β ε metitur, & ε ζ igitur ipsum β ε metitur : metitur autem & ε α, igitur & totum β α metietur : metietur quoq̃ ipsum γ δ,igitur γ ζ ipsos α β & γ δ metitur. Igitur γ ζ ipsorum α β & γ δ cōmunis dimensio est.Dico enim quod & maxima,si γ ζ ipsorum α β & γ δ non est maxima communis mensura,metietur ipsos α β & γ δ numeros aliquis numerus maior existens ipso γ ζ metiatur,estoq̃ η.Et quoniam η ipsum γ δ,& γ δ ipsum β ε metitur,& η igitur ipsum β ε metitur . Metitur autem & totum α β,& reliquum igitur α ε metietur:at α γ ipsum δ ζ metitur,& η igitur psum δ ζ metietur:metietur autem & totum γ δ,& reliquum igitur γ ζ metietur,maior minorem,quod est impossibile. Igitur ipsos α β & γ δ numeros numerus non metietur,maior existens ipso γ ζ.Igitur γ ζ ipsorutm α β & γ δ maxima est cōmunis mensura,quod oportebat facere.
+Ex ultimo autem huius demonstrationis processu, possumus etiam istud correlarium huic tertiæ conclusioni adijcere.
 
-[Diagram: dotted number-lines at right: β . . . . . . . . α; δ . . . . γ; β . . . . . . ε . . . . α; δ . . . . ζ . . γ; and further below: β . . . . . . . ε . . . α; η . . . .; δ . . . . ζ . . γ]
+CORRELARIVM. Vnde manifestum est quod omnis numerus numerans quotlibet adinuicem compositos, numerat maximum numerantē eos omnes, & etiam maximos numerantes binos & binos eorum.
 
-CORRELARIVM. Ex hoc manifestum est quod si numerus binos numeros metitur,& maximam communem eorum dimensionem metietur.
+## Eucli. ex Zamb. Problema 2 Propositio 3
 
-## Eucli. ex Camp. Propositio 3
+**3** Tribus numeris datis non primis adinuicem, maximam eorum communem mensuram inuenire.
 
-## 3
+THEON ex Zamberto. Sint dati tres numeri non primi adinuicem α, β, γ, oportet iam ipsorum α, β, γ, maximam communem dimensionem inuenire. Sumatur ipsorum α, β, maxima communis mensura δ, (per secundam septimi.) Iam ipse δ, ipsum γ aut metitur aut non metitur, metiatur primum: metitur autem ipsos & α, β. Igitur δ metitur ipsos α, β, γ. Igitur δ, ipsorum α, β, γ communis dimensio est. Dico iam quod & maxima. Si autem δ ipsorum α, β, γ non est maxima communis mensura, metietur ipsos α, β, γ, numeros aliquis numerus maior ipso δ. Metiatur, & esto ε. Quoniam enim ε metitur ipsos α, β, γ, metietur igitur & ipsos α, β. Igitur & ipsorum α, β, maximam communem mensuram metietur, (per correlarium secundæ septimi.) Ipsorum autem α, β, maxima cōmunis mensura est δ. Igitur γ ipsum δ metietur, maior minorem, quod est impoßibile (per constructionem.) Ipsos igitur α, β, γ, numeros, numerus aliquis non metietur maior existens ipso δ. Igitur δ ipsorum α, β, γ, maxima communis dimensio est.
 
-{dropcap:P|lines=?|style=decorated|decoration="woodcut"}Ropositis tribus numeris adinuicem compositis, maximum numerorum eos communiter numerantium inuenire.
+[Diagram: numbers as dot-rows: α (8 dots), β (7 dots), γ (5 dots), δ (2 dots), ε (4 dots)]
 
-CAMPANVS. Priusquam hanc tertiam conclusionem demonstremus, demonstrandum arbitramur ipsius antecedens , uidelicet, propositis tribus numeris, qualiter poterimus certificare an ipsi sint adinuicem compositi. Sint itaque tres numeri a,b,c,de quibus uolo uidere utrum ipsi sint adinuicem cōpositi : per primam igitur inquiro an duo primi qui sunt a & b sint adinuicē primi,quod si sic,non erunt a,b,c,adiuuicē compositi per diffinitioucm. Si autem a & b sunt adinuicē compositi , sit per præcedentem d maximus numerus eos numerans,qui si numerat c, erunt per diffinitionem, a, b, c, adinuicem compositi . Si autem non numerat ipsum,sed ipsi c, & d quidem sunt contra se primi, non erunt a, b, c, adinuicem cōpositi, nam quicunq̃ numeraret eos, numeraret etiam d per correlarium præcedentis, sicq̃ essent d & c compositi,quod est
+Non metiatur iam δ ipsum γ. Dico quod primum δ & γ, non sunt primi adinuicem. Quoniam enim α, β, γ, (per hypothesin) non sunt primi adinuicem, metietur eos aliquis numerus. At ipsos α, β, γ, metiens, metietur & ipsos α, β, & ipsorum α, β, maximam mensuram δ, metietur (per correlarium secundæ septimi.) Metitur autem & γ. Ipsos igitur δ, γ, numeros, numerus aliquis metietur: igitur δ & γ, non sunt primi adinuicem. Sumatur (per primam septimi) igitur ipsorum δ, γ, maxima communis mensura ε, & quoniam ε ipsum δ metitur, at δ ipsos α, β, metitur, & ε igitur ipsos α, β, metitur: metitur autem & γ. Igitur ε ipsos α, β, γ, metitur. Igitur ε ipsorum α, β, γ, communis dimensio est. Dico autem quod & maxima. Si autem ε ipsorum α, β, γ, non est maxima mensura, ipsos α, β, γ, numeros metietur aliquis numerus maior existens ipso ε, metiatur, & esto ζ. Et quoniam ζ ipsos α, β, γ, metitur, & ipsos α, β, metitur, & ipsorum α, β, igitur communem maximam
 
-[Diagram: dotted number-lines at right: a . . . . . . . . .; b . . . . . . .; c . . .; and further below: a . . . . . . . . . with d . . .; b . . . . . . . . with e . .; c . . . .; c . . . . . . .; c . . . . . .]
+[Diagram: numbers as dot-rows: α (21 dots), β (14 dots), γ (9 dots), δ (8 dots), ε (2 dots), ζ (3 dots)]
 
-<!-- Catchword: contra -->
+<!-- Signature: p 3 -->
+
+<!-- Catchword: mensuram -->

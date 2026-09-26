@@ -1,55 +1,45 @@
-<!-- Running title: LIBER SEPTIMVS -->
+<!-- Page number: 196 -->
 
-<!-- Page number: 195 -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-merent, patet per conceptionem. sed si non est minimus, ponatur ergo h, quem quia numerāt a & b, numerabit etiā ipsum, e per correlarium præmissæ, per idem quoque correlariū, numerabit ipsum f, sed & g, maior itaq̃ numerat minorē. qd̕ est impossibile
+quoties α, ipsum δ, metitur, tot unitates sint in ε, quoties autē β, ipsum γ, metitur, tot unitates sint in ζ. Igitur α, ipsum ε, multiplicans, effecit ipsum δ, & β, multiplicans ipsum γ, effecit ipsum δ, æqualis igitur est qui ex α ε, ei qui ex β ζ, est gitur (per 15 septimi,) sicut α ad β, sic est ζ, ad ε, ipsi autē α β, sunt primi, primi autē (per 23 septimi,) & minimi, minimi uero metiuntur eandem rationem habentes æqualiter: maior maiorē, & minor minorem. Igitur (per 21 septimi) β. metitur ipsum ε, sequēs uidelicet sequentē. Et quoniā α, ipsos β,ε, multiplicās ipsos γ,δ, fecit: est igitur (per 17 septimi,) sicut β, ad ε sic γ ad δ. At β, ipsum ε metitur, metitur ergo & γ, ipsum δ, maior minorē, quod est impossibile. Igitur ipsi α,β, non metiuntur aliquem numerum minorem existentem ipso γ, quando ipsi α,β, primi adinuicem fuerint. Igitur γ, minimus est qui sub ipsorum α,β, dimensionem cadit.
 
-CAMPANI additio. Hæc & præmissa proponūtur in alia loco sub tribus conclusionibus, quarū prima æquiualet præmissæ, secūda componitur ex correlarijs ambobus, tertia proponit de tribus: quod hæc de quotlibet numeris. Est itaque prima.
+[Diagram: dotted number lines beside the text: α···· β····· / γ·············· / γ········· / ε····· / ζ······]
 
-[Margin]
-Zamb. 36
-[/Margin]
+Non sint primi ipsi α,β, adinuicem, & sumantur (per 35 septimi. minimi numeri eandem rationem habentium ipsis α,β, sintq̃ ζ,ε, æqualis igitur est qui ex α,ε, ei qui ex β,ζ, (per decimamnonam septimi,) & α, ipsum ε multiplicans: efficiat ipsum γ, & β, igitur ipsum α multiplicās effecit ipsum β. Igitur α,β: ipsum γ, metiuntur. Dico iam quod & minimum, si non: metiuntur ipsi numeri α,β, aliquē numerum minorem existentem ipso γ, metiantur, & esto δ, & quoties quidem α, ipsum δ, metitur: tot unitates sint in η. Quoties autem β, ipsum δ, metitur: tot unitates sint in θ, α, igitur η multiplicans: effecit ipsum δ, ipse β. uero ipsum θ, multiplicans, effecit ipsum δ, æqualis igitur est qui ex α,η, ei qui ex β,θ. Est igitur (per decimānonā septimi, ) sicut α, ad β, sic est θ, ad η. Sicut autem α, ad β, sic ζ ad ε, & (per undecimam quinti,) igitur sicut ζ, ad ε, sic θ ad η, ipsi autem ζ,ε: minimi uero eandem rationem habentes æque metiūtur: maior maiorem, & minor minorem, (per 21 septimi.) Igitur ε, ipsum η, metitur, & quoniam α, ipsos ε,ζ, multiplicans, ipsos fecit γ δ, est igitur, (per 17 septimi,) sicut ε ad η, sic est γ, ad δ. At ε, ipsum η metitur, & ε, igitur ipsum δ, metitur, maior minorem, quod est impossibile Ipsi igitur α,β, non metientur aliquem numerum minorem existētem ipso γ. Igitur γ, minimus existens: sub ipsorum α,β, dimensionem cadit, quod oportuit facere,
 
-## Datis duobus numeris, minimum ab eis numeratum inuenire.
+[Diagram: dotted number lines beside the text: ζ·· α···· / ε··· β······ / γ············ / δ········· / θ·· / η···]
 
-Dati numeri sint a & b, quorū minor si numerat maiorem, est maior quem quærimus, alioqui maior eorū numeraret minorē se. Si aūt neuter neutrū numeret, si ipsi sunt cōtra se primi, erit qui ex a in b prouenit (qui sit c) minimus omniū quē numerāt a & b. Nā si minorē eo numerauerint, esto d, quē nūerent secundū e & f, eritq̃ per secūdā partē 20 a ad b, sicut f ad e, & quia a & b sunt suæ proportionis minimi per 33, numerabit a f, per 21, & quia per 18 est c ad d sicut a ad f, nā ex b in a & f fiūt c & d, sequitur c numerare d. sed erat d minor c, quare impossibile. Si autē a & b sint cōmunicantes, negociare propositū ut in 35.
-
-Secunda trium conclusionū ex ambobus correlarijs est confecta.
-
-[Diagram: dotted number lines beside the text: a··· b···· / c············ / d·········· / e·· f·····]
+## Eucli. ex Zamb. — Theorema 33 — Propositio 37
 
 [Margin]
-Zamb. 37
+37
 [/Margin]
 
-## Si plures numeri numerum unum numerent, necesse est ut minimus quem numerant eundem numerum numeret.
+## Si bini numeri numerum aliquem mēsi fuerint, & minimus qui sub eorum dimensionem cadit, eundem metietur.
 
-Vt si sit quilibet numerus quē nūerat a & b, d: minimusq̃ ab eisdē numeratus c, erit ut c, numeret d. cum enim sit d maior c, si c non numerat ipsum: numerabit tamen aliquid eius, sitque plurimum quod numerat e, & residuū sit f, eritq̃ f minus c, quia igitur a & b numerāt c: numerabūt per cōmunem scientiā & è sed numerabunt d, itaque per aliam cōmunē sciētiā numerabūtur f, inconueniens ergo sequitur quod c non fuit minimus quē numerāt a & b. Idē quod cōuinces & eodē modo de quolibet nūerato a quotlibet pluribus, scilicet quod minimus ab illis quotlibet pluribus numeratus eundem numeret. Vltima trium conclusionum.
+THEON ex Zamberto, Bini enim numeri α,β, numerum aliquem γ δ metiantur, minimus uero sit ε. Dico quod ε quoque ipsum γ δ, metitur. Si autem ε, ipsum γ δ, non metitur, ipsum δ ζ, metiens ipse ε, relinquat seipso minorem hoc est γ ζ, & quoniam ipsi α β, ipsum ε metiuntur, at ε, ipsum δ ζ, & ipsi α,β, igitur ipsum δ ζ, metientur, metiuntur autē & totum δ, & reliquū igitur γ ζ, metientur minorem existentem ipso γ: quod est impossibile. Haud igitur non metitur ε, ipsum γ δ, metitur ergo quod erat demonstrandum.
 
-[Diagram: dotted number lines beside the text: a·· b··· / d / e········· f··· / c······]
+[Diagram: dotted number lines beside the text: α·· / β··· / ε······· / β·····ζ·········· (a single dotted line divided at the point ζ; the first label apparently printed β)]
+
+## Eucli. ex Zamb. — Problema 5 — Propositio 38
 
 [Margin]
-Zamb. 38
+38
 [/Margin]
 
-## Propositis tribus numeris, minimum numerorum ab eis numeratorū inuenire.
+## Tribus numeris datis, inuenire quem minimum numerū metiuntur.
 
-Tres numeri propositi sint a, b, c, minimusq̃ quem numerant a, & b, sit d, qui sumetur ut prima trium conclusionum docet. Si igitur c numerat d, scito d esse quem quærimus. Si enim a,b,c, minorem eo numerant, sit e, quem per præmissam conclusionem numerabit d, quod est impossibile. Si autem c non numerat d, sumatur e minimus numeratus ab eis. Quòd autē e numeretur ab a, b, c, patet, quia c numerat ipsum, & d similiter, ergo & a,b: qui numerant d, quare e numerabitur ab a, b, c. Eritq̃ e minimus quē numerant a,b, c. Sin autem, sit f, quem per præmissam conclusionem numerabit d, sed c numerat f, quia a, b, c, numerantū e, quare c, d numerabunt eum, quare c,d, numerabunt eum: quare per præmissam e numerabit eum, maior minorem, quod esse non potest. Idem inuenies & eodem modo: quotlibet propositis.
+THEON ex Zamberto. Sint dati numeri α,β,γ, oportet iam inuenire, quem minimum numerum metiuntur Suscipiatur enim (per 36 septimi ) minimus numerus δ, qui sub ipsorum α,β, dimensionem cadat. Iam γ, ipsum δ, aut metitur, aut non metitur. metiatur prius, metiuntur autem & ipsi α,β, ipsum γ. Igitur ipsi α,β, γ, ipsum δ, metiuntur. Dico quod & minimum. Si autem non: ipsi α,β,γ, numeri metientur numerum minorem ipso δ, metiantur ε. Quoniam ipsi α,β,γ, ipsum ε. metiuntur, igitur & α,β, ipsum ε metiuntur, & minimus igitur quem ipsi α,β, metiuntur, metietur ipsum ε, per 37 septimi. At minimus quem ipsi α β, metiuntur, est δ. Igitur δ, ipsum ε metietur, maior minorē, quod est impossibile. Ipsi α,β,γ, igitur, non mentientur{printer-error-correction:metientur} numerum aliquem minorem existētem ipso δ. Igitur ipsi α,β,γ, minimum δ, metiuntur. Non metiatur rursus γ, ipsum δ, & suscipiatur (per 36 septimi) minimus numerus ε, quem metiantur ipsi γ δ. Quoniam α, β, ipsum δ, metiuntur, at δ, ipsum ε, metitur, & α,β, ipsum ε, igitur metiuntur, metitur autem & γ, ipsum ε, igitur ipsi α,β,γ, ipsum ε. metiuntur. Dico quod & minimum, si autem non ipsi α,β,γ, metiuntur aliquem numerum minorem existentem ipso ε, metiantur ζ. Quoniam ipsi α,β,γ, ipsum ζ, metiuntur, & ipsi α, β, igitur ipsum ζ, metiuntur, & minimus igitur quem α,β, metiuntur, ipsum ζ, metietur (per 37 septimi,) minimus aūt quē ipsi α,β, metiūtur, est δ, igitur δ, ipsum ζ, metitur, metitur aūt & γ, ipsum ζ. Igitur ipsi δ,γ, ipsum ζ, metiuntur, quare (per eandē) & minimus quē ipsi γ,δ, metiūtur: ipsum ζ, metietur. At minimus quem ipsi γ,δ, metiūtur: est ε. Igitur ε ipsum ζ metitur: maior minorem, quod est impossibile. Ipsi α,β, γ, igitur non metiuntur aliquem numerum minorem existentem ipso ε. Igitur ε minimus est: quem ipsi α,β,γ, metiuntur, quod oportebat facere.
 
-[Diagram: dotted number lines beside the text: a··· b···· c······· / d············ / e·········· — and lower: a··· b···· c········ / d············ / e························ / f················]
+[Diagram: dotted number lines beside the text: α··· / β···· / γ······ / δ············ / ε········ — and lower: α··· / β····· / γ········ / δ············ / ε··························· / ζ················]
 
-Duæ præcedentes ex Campano propositiones, 35 scilicet & 36, tribus ex Zamberto sequentibus Euclidis propositionibus si respondent, ut correlarium 35 ex Campano, 37 ex Zamberto respondeat. 36 autem ex Campano, sit ad 36 & 38 ex Zamberto propositiones uniuersales.
-
-## Eucli. ex Zamb. — Problema 4 — Propositio 36
+Euili. ex Camp.{printer-error-correction:Eucli.} — Propositio 37
 
 [Margin]
-36
+37
 [/Margin]
 
-## Duobus numeris datis, inuenire quem minimum metiūtur numerum.
+## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I numerus aliquis alium numerum numeret, erit in numerato pars à numerante denominata.
 
-THEON ex Zāb. Sint dati bini numeri α β, oportet iam inuenire quem minimū numerū metiuntur. Ipsi α β certe aut primi sunt adinuicem, aut nō. Sint prius α,β, primi adinuicē & α, ipsum β, multiplicans, efficiat ipsum γ, & igitur ipsum α multiplicans, ipsum effecit γ, (per 16 septimi. Igitur ipsi α,β, ipsum γ metiuntur. Dico iam quod & minimum. Si autem non, ipsi numeri α β, metiuntur aliquem numerum minorem existentem γ, metiantur, & esto δ, &
-
-<!-- Signature: r 2 -->
-
-<!-- Catchword: quoties -->
+<!-- Catchword: CAM- -->

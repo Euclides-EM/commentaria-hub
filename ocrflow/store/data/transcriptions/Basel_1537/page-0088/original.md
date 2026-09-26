@@ -1,45 +1,35 @@
-<!-- Running title: LIBER TERTIVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 79 -->
-
-bus maioris segmenti, maior est recto: minoris autem segmenti, recto minor, quod demonstrasse oportuit.
-
-A L I A ostensio, quod angulus qui sub β α γ rectus est. Quoniā angulus α ε γ, eius qui sub β α ε duplus est (per 32 primi) æqualis nanq̃ est duobus interioribus ex opposito: interiores autē (per 5) sunt æquales: angulus aūt α ε β, eius qui sub ε α γ duplus est: anguli igitur α ε β & α ε γ, ipsius β α γ dupli sunt. Sed anguli α ε β & α ε γ: duobus rectis sunt æquales. Angulus igitur qui sub β α γ, rectus est q̃d erat demonstrandum.
-
-[Diagram: circle with inscribed triangle, apex α at top joined to β at left and γ at right, centre ε on the diameter β γ; a line runs from α to a point δ outside the circle above]
-
-CORRELARIVM. Hinc manifestum est, quod si trianguli angulus unus, reliquis duobus æqualis fuerit, rectus est: eo quod illi contiguus (qui scilicet producto latere extra triangulum fit) eisdem est æqualis, sed quādo utrobiq̃ æquales fuerint, recti sunt.
-
-## Eucli. ex Camp. Propositio 31.
-
-[Margin]
-31
-[/Margin]
-
-SI circulum linea recta contingat, & à cōtactu in circulum quædam circulum secans recta linea, præter centrum ducatur, quousq̃ duos angulos cū cōtingēte facit, duobus angulis qui in alternatis circuli super arcus cōsistūt portionibus, æquales sunt.
-
-[Margin]
-13
-[/Margin]
-
-CAMPANVS. Si recta linea a b, contingens circulum c d e f, cuius centrum g, in puncto d: à quo ducatur in circulum præter centrum, linea d f: secans ipsum: fiantq̃ anguli, d c f consistens super arcum portionis d c f, ductis lineis c d & c f: & angulus d e f consistens super arcum portionis d e f, ductis lineis d e & e f. Dico angulo c, esse æqualem angulum b d f: & angulo e, angulum a d f. Ducantur enim, diameter d g h & linea f h: eritq̃ per 17 huius, d h, perpendicularis super a b: & per primā partem præmissæ, angulus d f h, rectus. Quare duo anguli a d h & d f h, sunt æquales. Posito ergo communi angulo h d f: erit angulus a d f, æqualis duobus angulis qui sunt d f h, & h d f: sed hi duo cum angulo h, sunt æquales duobus rectis per 32 primi: ergo angulus a d f cum angulo h, æquales duobus rectis. Sed angulus a d f cum angulo b d f: æquiualet duobus rectis per 13 primi: ergo angulus b d f, est æqualis angulo h: ergo & angulo c, per 20 huius: & hoc est primum. Et quia duo anguli c & e sunt æquales duobus rectis per 21 huius: erit angulus e æqualis angulo a d f: quod est secundum. Vel illud secundū sic. Angulus a d f cum angulo h æquiualet duobus rectis, ut præmonstratum est: sed angulus e cū angulo h, æquiualet duobus rectis per 21 huius: ergo angulus e est æqualis angulo a d f, quod est propositum.
-
-[Diagram: circle c d e f with centre g; tangent line a d b touching the circle at d on top (a at left, b at right); chords d c, c f, d e, e f and secant d f; diameter d g h to h at bottom, with line f h drawn]
-
-## Eucli. ex Zamb. Theorema 28. Propositio 32.
+<!-- Page number: 80 -->
 
 [Margin]
 32
 [/Margin]
 
-Si circulum tetigerit aliqua recta lines, à contactu autem ducta fuerit quædam recta linea, circulum secans: anguli quos efficit ad tangentē, æquales sunt eis qui in alternis circuli segmentis consistunt angulis.
+SVper datā lineā, circuli portionem describere: capientē angulū dato angulo æqualē, seu rectū, seu maiorē, seu minorē recto.
 
-THEON ex Zamberio. Circulum enim α β γ δ, tangat recta linea quædam ἡ ε ζ in β signo: & à signo β, ducatur recta linea quædam in circulum α β γ δ, eum secās, sitq̃ β δ. Aio quod anguli quos β δ simul cum ε ζ tangente conficit: angulis qui sunt in alternis segmentis circuli sunt æquales: hoc est quod angulus ζ β δ: æqualis est angulo existenti in β α δ segmento: & angulus ε β δ, æqualis est angulo existenti in δ γ β segmento. Excitetur enim (per 11 primi) ab ipso β, ipsi ε ζ ad rectos angulos β α. Sumaturq̃, in β δ circunferentia, signum utcunq̃: sitq̃ illud γ, & connectatur α δ, δ γ, γ β. Et quoniam circulum α β γ δ, quædam recta linea tangit ε ζ, & ex β contactu ducta est ipsi cōtingenti ad angulos rectos β α: in ipsa β α igitur centrum est circuli α β γ δ (per 19 tertij). Angulus igitur α δ β in semicirculo existens (per 31 tertij) rectus est. Reliqui igitur anguli β α δ & α β δ, uni recto sunt æquales. Angulus autem α β ζ, rectus est. Angulus igitur qui sub α β ζ, æqualis est eis qui sunt sub α δ β & δ β α angulis. Communis auferatur angulus α β δ. Reliquus igitur angulus δ β ζ, æqualis est angulo β α δ existenti in alterno segmento circuli. Et quoniā in circulo quadrilaterum est α β γ δ, anguli eius ex opposito duobus rectis sunt æquales (per 22 tertij), eis qui sunt sub β α δ & β γ δ anguli sunt æquales, δ β ζ & δ β ε. Quorū angulus β α δ, ostensum est q̃ æqualis est ipsi δ β ζ angulo. Reliquus igitur angulus qui sub δ β ε, angulo δ γ β in alterno segmento δ γ β existenti est æqualis. Si circulum igitur tetigerit aliqua recta linea, à contactu autem in circulum ducta fuerit aliqua recta linea eū circulum secans, anguli quos efficit ad tangentem, ijs qui in alternis circuli segmentis consistunt angulis æquales: quod erat demonstrandum.
+CAMPANVS. Sit a b linea data, & c datus angulus. Super lineā a b uolo describere unā circuli portionē, recipientē in circūferētia rectilineū angulū æqualē angulo c. Si igitur fuerit angulus c, rectus: diuisa a b per medium, describā sup eam semicirculū, factūq̃ erit propositum, per primam partem 30 huius. Si autem sit obtusus: ducam lineam d a cum linea b a, continentem æqualem angulum angulo c: & à puncto a ducam lineam a e, perpendicularem super lineam a d. Et super punctum b faciam angulum per 23 primi æqualem angulo e a b, in quo obtusus excedit rectum, ducta linea b f usq̃ ad perpendicularem a e: eruntq̃ per 6 primi, lineæ f a & f b æquales. Facto itaq̃ puncto f centro circuli, describam secundum quantitatem lineæ f a, circulum a h b: eritq̃ per correlarium 15 huius, linea a d, contingens circulum: quare per præmissam, angulus qui fit in portione a h b, est æqualis d a b, quare & angulo c, quod est prōpositum. Si aūt angulus c sit acutus: producā lineā a g, cōtinentem cum linea a b, continentē angulū æqualē angulo c, & à puncto a ducam a e, perpendicularem ad lineam a g: & super punctum b faciam angulū æqualem angulo e a b, in quo rectus excedit acutum, ducta linea b f usq̃ ad perpendicularē a e, eritq̃ per 6 primi, lineæ f a & f b æquales. Facto itaq̃ puncto f centro circuli, describam secundum quantitatem lineæ f a, circulum a k b: eritq̃ per correlarium 15 huius, linea a g cōtingens circulū: quare per præmissam, angulus qui fit in portione a k b, est æqualis angulo g a b, quare & angulo c, quod est propositum.
 
-[Diagram: circle α β γ δ with α at top, δ at upper right, γ at right; tangent line ε ζ along the bottom touching the circle at β; chords β δ, δ γ, γ β and diameter β α]
+[Diagram: semicircle described on the line a b; at the right a separate given angle c]
 
-## Eucli. ex Camp. Propositio 32.
+[Diagram: circle a k b with centre f and k at top; tangent d a at a, perpendicular a e rising to e at upper right, line b f, points g and h below the base a b; at the right the given angle c]
 
-<!-- Signature: g 4 -->
+## Eucli. ex Zamb. Problema 5. Propositio 33.
 
-<!-- Catchword: Super -->
+[Margin]
+33
+[/Margin]
+
+Super data recta linea, describere segmentum circuli capiens angulum æqualem dato angulo rectilineo.
+
+THEON ex Zamberto. Sit data recta linea α β, datus uero angulus rectilineus sit γ: oportet iam super datam lineā α β: describere segmentum circuli suscipiens angulum æqualē ipsi angulo qui ad γ. Angulus igitur qui ad γ, aut est acutus, aut rectus, aut obtusus. Sit primum acutus, sicut in prima descriptione, & constituatur (per 23 primi) ad α β rectam lineam & ad in ea signum α, ipsi angulo qui ad γ æqualis angulus δ α β. Angulus igitur δ α β, acutus est. Excitetur (per 11 eiusdem): igitur ipsi α δ ad angulos rectos α ε, seceturq̃ (per 10 primi) bifariā α β, in signo ζ. Et à signo ζ, ipsi α β ad angulos rectos excitetur ζ η (per 11 eiusdem) & connectatur η β. Et quoniam æqualis est ζ α ipsi ζ β, communis autem ζ η: duæ igitur α ζ & ζ η, duabus β ζ & ζ η sunt æquales, & angulus qui sub α ζ η (per 4 primi) æqualis est ei qui sub β ζ η. Basis igitur α η (per 4 eiusdem) basi η β est æqualis. Centro igitur η, spatio uero η α (per 3 postulatum, circulus descriptus: ueniat etiam per β, describatur, & sit α β ε, & connectatur ε β. Quoniam igitur ab extremitate ipsius α ε diametri, ab α signo ipsi α ε ad angulos rectos est α δ: igitur α δ tangit circulū α β ε (per correlariū 16 tertij. Et quoniam circulū α β ε tangit quædam recta linea α δ, & ab α contactu in ipsum circulum α β ε ducta est recta linea quædam α β: angulus igitur δ α β (per 32 eiusdem) angulo α ε β, existenti in alterno circuli segmento est æqualis. Sed angulus δ α β, est qui ad γ æqualis: & angulus qui ad γ: æqualis est ei qui sub α ε β est angulo. Super data igitur recta linea α β, segmenti circuli descriptū est suscipiens angulū α ε β æqualem dato angulo rectilineo qui est ad γ.
+
+[Margin]
+† short Greek annotation, illegible at scan resolution
+[/Margin]
+
+Sed iam sit angulus qui ad γ, rectus: & opportunum sit: rursus super α β describere segmētum circuli suscipiens angulū æqualem ei qui est ad γ recto. Constituatur enim rursus ad ipsam α β rectā lineā, ad signumq̃ in ea α: dato angulo rectilineo γ æqualis angulus qui sub β α δ (per 23 primi) sicut in secūda habetur descriptiōe. Seceturq̃ (per 10 primi) α β, bifariā in ζ, & centro ζ, spatio uero ζ α aut ζ β: circulus describatur α ε (per 3 postulatū) Tangit igitur recta linea α δ, circulū α ε β: quoniam angulus qui ad α, rectus est. Et angulus β α δ
+
+[Diagram: three diagrams side by side for the three cases of the problem: each a circle α β ε with η at top, centre marks, base α β bisected at ζ, tangent line α δ at α, perpendicular α ε; at the side of each the given angle γ]
+
+<!-- Catchword: æqualis -->

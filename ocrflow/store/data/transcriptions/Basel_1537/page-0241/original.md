@@ -1,41 +1,31 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER NONVS. -->
 
-<!-- Page number: 230 -->
+<!-- Page number: 231 -->
 
-fit ex composito eorum in eundem.
+**8** Cum fuerit numerus in duo æqualia diuisus, eiq̃ alius numerus adiunctus, quod fit ex ductu totius compositi in adiunctum cum quadrato medietatis, æquum est quadrato compositi ex dimidio & adiuncto.
 
-Hoc est conuersum eius quod modo demonstratum est. Vt si ex b & c & d in a, fiant e & f & g, fiet quoq̃ compositus ex his ex illorum composito in eundem, quod ex 17 septimi, & præmonstrato facile concluditur.
+Idem proponit 6 secundi de lineis. Sit enim a b diuisus in duos æquales numeros, qui sint a c & c b, addaturq̃ ei numerus b d: dico illud quod fit ex toto a d in d b, cū quadrato b c, esse æquale quadrato c d. Est enim ex 6 harum, quadratum c d æquale quadrato d b & quadrato b c, & ei quod fit ex d b in b c bis. Sed per primam harum, ex b d in se & in b c bis, est quantum ex b d in d a, sunt enim a c & c b, æquales. Itaq̃ quadratum c d superat id quod fit ex b d in d a, in quadrato c b, quod est propositum.
 
-[Diagram: two groups of dotted number lines labelled b, c, d; a; e, f, g]
+[Diagram: dotted line with points a, c, b, d]
 
-**3** Quod fit ex ductu quotlibet numerorū in quotlibet alios, æquum est ei quod fit ex composito horum in compositum illorum.
+**9** Cum numerus in duo diuiditur, quod fit ex toto in se cum eo quod ex altero diuidentium in se, est æquum ei quod ex toto in eundem bis cum eo quod ex altero in se.
 
-Vt si a,b,c, multiplicent d,e,f, quilibet quemlibet, iunganturq̃ producta, dico aggregatum ex productis esse æquale producto ex composito ex a & b & c, in compositum ex d & e & f. Est enim per præmissam quod fit ex composito ex a, b, c, in d, quantum quod ex singulis in illum d, sic & in e & in f: ex composito autem horum a, b,c, in quemlibet illorum d,e,f, per ante præmissam fit quantum ex composito in compositum, itaq̃ constat propositum.
+Idem proponit 7 secundi de lineis. Sit enim numerus a diuisus in b & d: dico quadratum a cum quadrato d, tantum esse quantū quod fit ex a in d bis cum quadrato b. Constat quidem ex 6 harum quod quadratum a tantum est, quantum quadratum d & quadratum b & quod fit ex d in b bis. Itaq̃ quadratum a cum quadrato d, tantum est quantum quod ex d bis in se & bis in b cum quadrato b. Sed ex d bis in se & bis in b, fit quantum ex d bis in a, per primam harum: ergo quod fit ex d bis in a cum quadrato b, est quantum quadratum a cum quadrato d, quare patet propositum.
 
-[Diagram: dotted number lines a, b, c and d, e, f; combined lines a…b…c and d…e…f]
+[Diagram: line a; dotted line divided b, d]
 
-**4** Numero in quotlibet partes diuiso, tantū est quod fit ex toto eo in se, quantum quod ex eo in omnes suas partes.
+**10** Cum fuerit numerus in duo diuisus, eiq̃ additus æqualis uni diuidentium, quadratum totius compositi æquum est quadruplo eius quod fit ex priori in additum cum quadrato alterius,
 
-Idem proponit secunda secundi de lineis. Vt si a diuidatur in b, & c & d, dico quod tantum fit ex a in se, quantum in omnes illos b,c,d: posito enim e æquali a, constat ex prima harum incidentiū tantum fieri ex e in a, quantum in omnes partes a, sed per conceptionem ex e in a fit quantum ex a in se, & ex e in partes a, quantum ex a in easdem. Manifestum ergo est, uerum esse quod dicitur.
+Idem proponit 8 secundi de lineis. Sit numerus a b diuisus in a c & c b, cui addatur b d, qui ponatur æqualis c b. Dico quadratum a d tantum esse, quantū est id quod fit ex a b in b d quater cum quadrato a c. Est namq̃ ex 6 harum, quadratum a d, æquum quadrato a b & quadrato b d, & ei quod fit ex a b in b d bis. Et quia quadratum b d est æquale quadrato c b, erit quadratum a d æquale quadrato a b & quadrato c b, & ei quod fit ex a b in b d bis. Per præmissam autem, est quadratum a b cum quadrato c b, quantum quadratum a c cum eo quod fit ex a b in b c bis. Itaq̃ quadratum a d tantum est quantum quod ex a b in b d bis. & ex a b in b c bis, cum quadrato a c. Et quia ex a b in b c tantū fit quantum in b d, constat uerum esse quod propositum est.
 
-[Diagram: dotted line divided b, c, d and dotted line e]
+[Diagram: dotted line with points a, c, b, d]
 
-**5** Numero in duo diuiso, quod fit ex toto in alterum diuidentiū, tantum est quantum quod ex eodem in se & in alterum.
+**11** Cum fuerit numerus in duo æqualia duoq̃ inæqualia diuisus, quadrata amborum inæqualium pariter accepta, duplum sunt quadrato medietatis & quadrato eius quo maior portio excedit minorem pariter acceptis.
 
-Idem proponit tertia secundi de lineis. Sit enim a diuisus in b & c, dico tantum fieri ex a in c, quantum ex c in se & in b. Nam quod ex a in c, est quantum quod ex c in a, per 17 septimi. Sumpto itaq̃ d æquali c, erit a in c, quantum d in a. At per primam harum, d in a, est quantū in b & c. Quia ergo d in a & in b & in c, est quantum c in a & in b & in se propter æqualitatem c & d, constat propositum.
-
-[Diagram: line a; dotted line divided b, c; dotted line d]
-
-**6** Numero in duo diuiso, quod ex ductu totius in se, est quantum quod ex ductu utriusq̃ diuidentium in se & alterius eorum bis in alterum.
-
-Idem proponit quarta secundi de lineis. Vt si a diuidatur in b & c, dico tantum fieri ex a in se; quantum ex b in se & c in se, & ex b bis in c. Est enim per 4 harum, quod ex a in se, quantū quod ex eo in b & in c: ex eo autē in b, per præmissam est quantū ex b in se & in c, at ex a in c, per eandē est quantum ex c in se & in b. Et quia ex c in b tantum est, quantum ex b in c per 17 septimi, liquet uerum esse quod proponitur.
-
-[Diagram: line a; dotted line divided b, c]
-
-**7** Numero per duo æqualia duoq̃ inæqualia diuiso, quod fit ex maiori inæqualium in minorem cum quadrato intermedij æquum est quadrato medietatis totius.
-
-Idem proponit de lineis 5 secundi. Vt si a b diuidatur in duos numeros æquales, qui sint a c & c b, itemq̃ in duos inæquales, quorum sit maior a d, & minor d b, dico quod illud quod fit ex toto a d in d b cum quadrato c d, æquale est quadrato c b. Per præmissam enim, quadratum c b est æquale quadrato c d & quadrato d b & ei quod fit ex b d in c d bis. Sed ex b d in se & in c d tantum fit, quantum in c b per primam harum, & ideo quantum in a c. Itaq̃ ex b d in se & in c d bis, quantum ex ipso b d in a d: per eandem igitur, quadratum c b superat id quod fit ex b d in a d in quadrato c d, constat ergo propositum.
+Idem proponit 9 secundi de lineis. Sit enim a b diuisus per duos æquales qui sint a c & c b, & per duos inæquales qui sint a d & d b. Dico quod quadrata duorum numerorum a d & d b pariter accepta, sunt duplum duobus quadratis duorum numerorum a c & c d pariter acceptis. Est enim per 6 harum, quadratum a d, quantum quadratum a c & quadratum c d, & duplum eius quod fit ex a c in c d. Quia autem a c est æqualis c b, erit quadratum a d quantum quadratum b c & quadratū c d & duplum eius quod fit ex b c in c d. Itaq̃ quadratum a d cum quadrato b d, sunt quantum quadratum b c & quadratum c d & duplum eius quod fit ex b c in c d, & quadratum b d. Duplum autem eius quod fit ex b c in c d cum quadrato b d, est æquale quadrato b c & quadrato c d per 9 harum. Ergo quadrata duorum numerorum a d & d b, sunt quantum quadrata duorum numerorum b c & c d duplicata. Et quia b c & c a sunt æquales, patet propositum.
 
 [Diagram: dotted line with points a, c, d, b]
+
+<!-- Signature: u 2 -->
 
 <!-- Catchword: Cum -->

@@ -1,37 +1,29 @@
-<!-- Running title: LIBER DVODECIMVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 391 -->
+<!-- Page number: 392 -->
 
-est sicut σ area ad ε ζ η θ circulum, sic est α β γ δ circulus ad τ aream. Maior autem est σ area ipso ε ζ η θ circulo, maior igitur est & α β γ δ circulus, ipsa area τ, quare est sicut σ area ad α β γ δ circulum, sic est ε ζ η θ circulus ad minorem aliquam aream ipso α β γ δ circulo, quod oportuit demonstrasse.
-
-## Eucli. ex Camp. Propositio 3
+rectæ lineæ ε θ, θ η, duabus, κ δ, δ λ, sunt æquales altera alteri, & angulus qui sub ε θ η (per 10 undecimi) angulo qui sub κ δ λ, est æqualis, basis igitur ε η (per 4 primi) basi κ λ est æqualis. Triangulū igitur ε θ η, æquum est ei triangulo quod sub κ δ λ & simile, & id propterea triangulū α ε η, ipsi θ κ λ triangulo æquum & simile est. Pyramis igitur cuius basis α ε η triangulū, fastigium autem θ signum, æqualis & similis est pyramidi cuius basis quidem est θ κ λ triangulū & uertex δ signum. Et quoniam triāguli α δ β (per 2 sexti) *ad unum latus α β, excitata est θ κ, æquiangulū est α δ β triangulū ipsi δ κ θ triangulo, & latera habent proportionalia. Igitur triangulū α δ β, simile est ipsi triangulo δ θ κ. Idq̃; propterea & triangulū quidē δ β γ simile est ipsi triāgulo δ κ λ, α & δ γ triangulū ipsi δ θ λ triangulo. Et quoniā (per 10 undecimi) binæ rectæ lineæ sese inuicē tangētes β α, α γ, *ad binas rectas lineas sese inuicem tangentes κ θ, θ λ, sunt, non tamen in eodem plano, æquos cōprehendunt angulos. Angulus igitur q̄ sub β α γ, æquus est ipsi angulo q̄ sub κ θ λ. Estq̃; sicut β α ad α γ, sic κ θ ad θ λ. Triangulū igitur α β γ, ipsi θ κ λ triāgulo simile est. Et pyramis igitur cuius basis quidem est triangulū α β γ, uertex autem δ signū, similis est pyramidi cuius basis quidem est θ κ λ triangulū, uertex autē δ signū. Sed pyramis cuius basis est triangulū θ κ λ, uertex autem δ signum, ostensa est similis pyramidi cuius basis quidem est α ε η triangulum uertex uero θ signum. Quare & pyramis cuius quidem basis est triangulū α β γ, uertex uero δ signum, similis est pyramidi cuius basis quidem est α ε η triangulū, & uertex θ signum: utraq̃; igitur ipsarū α ε η θ, θ κ λ δ, pyramidū, similis est toti α β γ δ pyramidi. Et quoniam β ζ æqualis est ipsi ζ γ, parallelogrammū ε β ζ η, ipsius η ζ γ trianguli duplum est (per 41 primi.) Et quoniam si fuerint bina prismata æque alta, & alterū quidem habuerit basin parallelogrammū, alterū autem triangulū, duplum autem fuerit parallelogrammū ipsius trianguli, ipsa prismata sunt æqualia (per 40 undecimi) prisma igitur comprehensum sub binis triangulis β κ ζ, ε θ η, tribusq̃; parallelogrāmis ε β ζ η, ε β κ θ, κ θ ζ η, prismati comprehenso sub binis triangulis η ζ γ, θ κ λ, tribusq̃; parallelogrāmis κ ζ γ λ, λ γ η θ, θ κ ζ η, est æquale. Manifestum autē quod utrunq̃; ipsorū prismatū cuius basis ε β ζ η parallelogrammū, ex opposito autem θ κ recta linea, & cuius basis η ζ γ triangulū, ex opposito autem κ λ θ triangulū, maius est utraq̃; ipsarū pyramidum quarū bases quidem sunt triangula α ε η & θ κ λ, uertices autem θ, δ, signa. Quoniam si cōnectamus ε ζ, ε κ, rectas lineas, prisma cuius basis ε β ζ η parallelogrammū, ex opposito autem θ κ recta linea, maius est pyramide cuius basis ε β ζ triangulū, & uertex κ signū. Sed pyramis cuius basis ε β ζ triangulū, uertex autem est κ signū, æqua est pyramidi cuius basis est α ε η triangulū, & uertex est θ signū: sub æquis enim & similibus planis cōprehenduntur. Quare & prisma cuius basis quidem ε β ζ η parallelogrammū, ex opposito autem θ κ recta linea, maius est pyramide cuius basis α ε η triangulū, uertex autem θ signum. Prisma uero cuius basis ε β ζ η parallelogrammū, ex opposito autem θ κ recta linea, æquū est prismati cuius basis η ζ γ triangulū, ex opposito autem triangulū θ κ λ. Pyramis autē cuius basis quidem α ε η triangulū, uertex autem signū θ, æqua est pyramidi cuius basis θ κ λ triangulū, uertex autem est δ signū. Prædicta igitur bina prismata, maiora sunt prædictis duabus pyramidibus quarū bases sunt ipsa α ε η, θ κ λ, triangula, uertices autem sunt θ, δ, signa. Tota igitur pyramis cuius basis est triangulū α β γ, uertex autē signū δ, diuiditur in binas pyramides sibi inuicē æquas & similes toti, & in bina prismata æqualia, & bina prismata maiora sunt quàm totius pyramidis dimidium. Quod erat ostendendum.
 
 [Margin]
-3
+παρὰ, id est æquidistāter
 [/Margin]
-
-{dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnis pyramis cuius basis triangula, scindi potest in duas æquas pyramides sibi inuicem toticq̃ pyramidi similes, unacq̃ in duo seratilia quæ ambo pariter accepta dimidio totius pyramidis necesse est esse maiora.
-
-CAMPANVS. Sit pyramis a b c d super basin triangulam b c d, eiusq̃ uertex solidus angulus a, à quo demittātur tres hypothenusæ a b, a c, a d, ad tres angulos basis, & diuidātur omnia latera basis per æqualia in tribus punctis e, f, g, tres quoq̃ hypothenusæ per æqualia in tribus punctis h, k, l, & protrahātur in basi duæ lineæ e f & e g. Eritq̃ basis eius diuisa in tres superficies, quarum duæ sunt duo trianguli b e f, e g d, quos ex secunda parte 2 sexti, & diffinitiōe similium superficierū constat esse similes sibi inuicem & toti basi, & æquales adinuicē ex 8 primi, tertia est tetragona parallelogramma & ipsa est e f g c, quam constat esse duplam ad triāgulum e g d ex 40 & 41 primi. Demittātur ergo rursus à puncto h duæ hypothenusæ h e, h f, & à puncto k l hypothenusa k g, & protrahātur lineæ h k, k l & l h. Diuisa est itaq̃ tota pyramis a b c d in duas pyramides quæ sint h b e f & a h k l, & duo seratilia quorū unum est e h f g k c & est super basin quadrangulā c f g e, & aliud est e g d h k l & est super basin triangulam e g d. De duabus autem pyramidibus h b e f, a h k l, quod ipsæ sunt æquales adinuicem, sibiq̃ & toti pyramidi a b c d similes, constat ex diffinitione corporum æqualium & similium & ex 10 undecimi & ex secunda parte 2 sexti. De duobus autem seratilibus quod ipsa sint æqualia, constat ex ultima undecimi. Quod uero ambo seratilia pariter accepta sint maius medietate totius pyramidis, ex hoc manifestum est ꝗ utrunq̃ illorū diuisibile est in duas pyramides quarū altera triangula æqualis uni duarum, in quas & seratilia totalis pyramis diuiditur: altera uero quadrangula, quæ dupla est ad reliquā, quare patet ambo seratilia pariter accepta tres quartas esse totalis pyramidis diuisæ. Ac proportionē si scire desideras, sextam huius duodecimi consule. Sed sufficit tibi scire (quantū ad propositū) illa duo seratilia pariter accepta duas partiales pyramides in quas & seratilia totalis diuiditur pariter acceptas, quantalibet quantitate excedere.
-
-[Diagram: pyramid a b c d drawn as inverted triangle — b at upper left, e at top middle, d at upper right, c at bottom; apex a in the centre with inner points h, l (upper), f, g (sides), k (lower); hypotenusae and dividing lines showing the two pyramids and two seratilia]
-
-## Eucli. ex Zamb. Theorema 3 Propositio 3
-
-[Margin]
-3
-[/Margin]
-
-Omnis pyramis triangularē basin habēs, diuiditur in binas pyramides æquas & similes inuicem, triāgulares bases habētes, & similes toti, & in bina prismata æqualia, & ipsa bina prismata maiora sunt quàm dimidium totius pyramidis.
-
-THEON ex Zamb. Sit pyramis cuius basis quidem sit triangulū α β γ, fastigium uero sit signum δ. Dico quod pyramis α β γ δ diuiditur in pyramides binas æquas adinuicem triangulares bases habētes & toti similes, & in bina prismata æqualia, & bina prismata maiora sunt quàm totius pyramidis dimidiū. Secentur (per 10 primi) α β, β γ, γ α, α δ, δ β, δ γ, bifariam in signis ε, ζ, η, θ, κ, λ, cōnectanturq̃; ε θ, ε η, η θ, θ κ, κ λ, λ θ, ε κ, κ ζ, ζ η. Et quoniā α ε est æqualis ipsi ε β, & α θ ipsi θ δ, parallelus igitur est ε θ ipsi δ β. Idq̃; propterea etiam θ κ, ipsi α β parallelus est: parallelogrammū igitur est θ ε κ β, æqualis igitur est ipsa θ κ ipsi ε β. Sed ε β ipsi α ε est æqualis, & α ε igitur ipsi θ κ est æqualis. Est autē & α θ ipsi θ δ æqualis. Duæ iam α ε, α θ, duabus κ θ, θ δ, sunt æquales altera alteri, & angulus qui sub ε α θ (per 28 primi) ei qui sub κ θ δ est æqualis: basis igitur ε θ (per 4 primi) basi κ δ est æqualis. Igitur triangulū α ε θ, æquum & simile est ipsi θ κ δ triangulo. Et id propterea etiam triangulū α θ η, ipsi θ λ δ triangulo æquū & simile est. Et quoniā binæ rectæ tangentes se adinuicem ε θ, θ η, *ad binas rectas lineas sese inuicem tangentes κ δ, δ λ, sunt, non tamen in eodem plano existentes, æquos angulos cōprehendunt: æqualis igitur est (per 10 undecimi) angulus qui sub ε θ η, ei qui sub κ δ λ, angulo. Et quoniā binæ paralleli
 
 [Margin]
 παρὰ δύο
 [/Margin]
 
-[Diagram: pyramid α β γ δ drawn as large triangle — α at apex, β at bottom left, ζ at bottom middle, γ at bottom right, with small marks on the sides (ε, η) and an inner network of lines through the midpoints δ, θ, κ, λ showing the two pyramids and two prisms]
+[Diagram: pyramid α β γ δ drawn as large triangle — α at apex, β at bottom left, ζ at bottom middle, γ at bottom right, θ on the axis below α, ε and η marks at the sides, inner row κ, δ, λ; network of lines showing the two pyramids and two prisms]
 
-<!-- Signature: K 4 -->
+## Eucli. ex Camp. Propositio 4
 
-<!-- Catchword: rectæ -->
+[Margin]
+4
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="dragon amid foliage"}I duæ pyramides æque altæ quarum bases triangulæ singulæ in binas pyramides æquales sibi inuicem ac toti similes, binaq̃ seratilia æqualia diuidantur, erit proportio basis unius ad basin alterius tanq̃ proportio duorū seratiliū suorū ad duo seratilia alterius. Eritq̃ palàm, omnia seratilia quæ fuerint in utralibet illarum pyramidum pariter accepta ad cuncta seratilia quæ in altera pyramide fuerint, eandem habere proportionē quam basis eius pyramidis ad basin alterius pyramidis.
+
+CAMPANVS. Sint duæ pyramides quarū bases triangulæ, æque altæ: hæc quidē a b c d, cuius conus punctus a, basis triāgulus b c d, hypothenusæ a b, a c, a d, illa uero e f g h, cuius conus punctus e, basis triāgulus f g h, hypothenusæ e f, e g, e h: hæ autē duæ pyramides diuidantur, sicut in præmissa. Sintq̃ bases earū diuisæ. Hæc quidê, protractis lineis latera basis ipsius per æqualia diuidentibus, quæ sint k l & k m: illa uero protractis lineis quæ sint n p, n q. Dico ergo ꝗ proportio basis b c d ad basin f g h, est sicut duorū seratiliū pyramidis a pariter acceptorū ad duo seratilia pyramidis e pariter accepta. Manifestū est autē ex 18 sexti parte secūda, ꝗ pro-
+
+[Diagram: pyramid a b c d drawn as inverted triangle — b at upper left, k at top middle, d at upper right, c at bottom; apex a in the centre, l at left, m at right; lines k l and k m and the hypotenusae dividing the pyramid]
+
+<!-- Catchword: portio -->

@@ -1,41 +1,25 @@
-<!-- Running title: LIBER TERTIVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 77 -->
+<!-- Page number: 78 -->
 
-## Eucli.ex Camp. Propoſitio 29.
+ter a d e & linea b e, eritq̃ per primã partẽ huius, angulus a b e rectus, quare angulus a b c erit maior recto, quod eſt tertiũ propoſitũ. Quartum & quintum ſic. Sint in circulo a b c d cuius centrũ e, portio a b c, cuius chorda a c maior ſemicirculo: & portio a d c cuius eadem chorda a c minor ſemicirculo. Dico angulũ contentũ ab arcu c b a & chorda a c, eſſe maiorẽ recto: & angulum contentũ ab arcu c d a & chorda a c, eſſe minorem recto. Producatur diameter c e b, & linea b a, uſq̃ ad f, eritq̃ per primã partem huius, angulus b a c, rectus, quare p̃ 13 primi, angulus f a c eſt ſimiliter rectus. Quia igitur angulus rectus eſt pars primi, & ſecundus pars recti: euidenter patet utrunq̃, quare tota liquet hæc pentamembris concluſio.
 
-[Margin]
-29
-[/Margin]
+CAMPANI additio. Ex iſtis duabus ultimis partibus, nota inſtantiam contra illas duas argumẽtationes: ad quas tulimus inſtantiã in 15 huius. Tranſitur em̃ ab angulo portionis ſemicirculo minoris qui eſt minor recto per ultimã partem huius, ad angulum portionis ſemicirculo maioris qui eſt maior recto per penultimam partem huius, non tamen per æquale. Cum enim omnis portio circuli ſit aut ſemicirculus, aut maior ſemicirculo aut minor, ſit autem tam angulus ſemicirculi per ſecundam partem 15 quã angulus portionis minoris per ultimam partem huius minor recto, portionis uero maioris ſit maior recto: non tamẽ erit alicuius portionis angulus, nec ſimpliciter aliquis contentus à circunferentia & linea recta, aut rectus aut æqualis recto.
 
-DAtum arcum per æqualia diuidere.
+Quod ut clarius pateat: ſit in circulo a b c cuius centrũ d, linea a b cui non ſit determinatus finis ex parte b, ſecãs ex ipſo b portionẽ ſemicirculo minorẽ: eritq̃ per ultimã partẽ huius, minor recto. Huius circuli ſit diameter a d c, & imaginetur linea a b: moueri ad partẽ c ſuper punctum a: quæ quãdiu fuerit citra c, uel in ipſo c, cooperiẽs diametrũ a d c: faciet cum arcu angulum minorẽ recto. In omni autẽ puncto ultra c, uelut in e: faciet per penultimã partem huius, angulum maiorem recto. Tranſitur ergo à minori ad maius, non per æquale. Et ſicut in rectilineis angulis eſt reperire maiorẽ angulo ſemicirculi & minorẽ, non tamẽ æqualem ut demonſtratũ eſt in 15 huius: ſic in angulis portionis eſt reperire maiorẽ recto & minorẽ, non tñ æqualẽ, ut patet ex iſta demonſtratione.
 
-CAMPANVS. Sit datus arcus a b c cui ſubtendatur chorda a c, quæ diuidatur per æqualia in puncto d, à quo ducatur perpendicularis ad ipſam, quæ ſit d b: ſecans circunferentiam dati arcus in puncto b: quam dico diuidere datum arcum per æqualia. Ducantur enim lineæ b a, b c, quæ erunt æquales per 4 primi. Quare per primam partem 27 huius, arcus a b, erit æqualis arcui b c, quod eſt propoſitum.
+[Diagram: circle with centre d and diameter a d c; line a b drawn from a through the circumference at b and produced beyond; a further line from a to e beyond c]
 
-[Diagram: semicircular arc with b at the summit; a, d, c on the base chord; lines b a, b d, b c drawn]
-
-## Eucli.ex Zamb. Problema 4. Propoſitio 30.
-
-## Datam circunferentiam, bifariam ſecare.
-
-THEON ex Zamberto. Sit data circunferentia α δ β, oportet iam ipſam circunferentiam α δ β, bifariam ſecare. Coniungatur α β, ſeceturq̃ (per 10 primi) bifariam in γ ſigno: & ab ipſo γ, ipſi α β rectæ lineæ (per 11 primi) ad angulos rectos excitetur γ δ, & coniungatur α δ & δ β. Et quoniam æqualis eſt α γ ipſi γ β, communis autem γ δ: duæ igitur α γ & γ δ, duabus β γ & γ δ ſunt æquales: & angulus α γ δ (per 4 poſtulatum) angulo β γ δ eſt æqualis: rectus enim uterq̃ eſt. Baſis igitur α δ (per 4 primi) baſi δ β eſt æqualis. Æquales autem rectæ lineæ: æquales circunferentias auferunt, maiorẽ maiori, minorem autem minori (per 28 tertij). Et utraq̃ ipſarum circunferentiarum α δ & δ β: ſemicirculo minor eſt: æqualis igitur eſt circunferentia α δ, ipſi δ β circunferentiæ. Data igitur circunferentia, bifariam ſecta eſt, quod feciſſe oportuit.
-
-[Diagram: arc with δ at the summit; α, γ, β on the base chord; lines α δ, γ δ, δ β drawn]
-
-## Eucli.ex Camp. Propoſitio 30.
+## Eucli.ex Zamb. Theorema 27. Propoſitio 31.
 
 [Margin]
-30
+31
 [/Margin]
 
-SI rectilineus angulus in ſemicirculo ſupra arcum conſiſtat, rectus eſt. Si uero in portione ſemicirculo minore, recto maior. Si autem in portione ſemicirculo maiore, recto minor. Itemq̃ omnis portionis angulus ſemicirculo maioris, recto maior, minoris uero, recto minor de neceſſitate erit,
+In circulo angulus qui in ſemicirculo eſt, rectus eſt: qui aũt in maiore ſegmento, minor recto: qui uero in minore ſegmento, maior eſt recto. Et inſuper angulus maioris ſegmenti, recto quidem maior eſt: minoris autem ſegmenti angulus, minor eſt recto.
 
-CAMPANVS. Sit in circulo a b c cuius centrũ d & diameter a d c, ſemicirculus a b c, in cuius ſemicirculi circunferentia fiat angulus a b c, ductis lineis a b & b c. Dico illum angulum eſſe rectum. Protrahatur ab ipſo angulo in centrum, linea b d: eritq̃ per 5 primi, angulus a b d, æqualis angulo a: & angulus d b c, æqualis angulo c. Et quia angulus c d b eſt æqualis duobus angulis d b a, & a per 32 primi: ipſe erit duplus ad angulũ d b a. Eadẽ ratione angulus a d b, duplus erit ad angulum d b c: ergo duo anguli c d b & a d b: dupli ſunt ad totalem angulum a b c: ſed ipſi ſunt æquales duobus rectis per 13 primi: erit igitur angulus a b c totalis, medietas duorum rectorum, quare rectus: quod eſt primum propoſitum.
+THEON ex Zamberto. Sit circulus α β γ δ: dimetiens aũt eius ſit β γ, centrũ uero ε. Sumaturq̃ in ſemicirculo ſignũ utcũq̃, ſitq̃ illud δ & coniungatur β α, α γ, α δ & δ γ. Dico quod angulus in β α γ ſemicirculo, rectus eſt. Angulus aũt in α β γ ſegmento, qui ſub α β γ, maiore ſemicirculo, recto minor eſt. Angulus uero in α δ γ minore ſemicirculo ſegmento, qui ſub α δ γ, recto maior eſt. Coniungantur α ε, & extendatur β α in ζ. Et quoniam æqualis eſt β ε ipſi ε α, ex centro enim in circunferentiã: æqualis eſt angulus α β ε ei qui ſub β α ε (per 5 primi) Rurſus quoniam æqualis eſt α ε ipſi ε γ, æqualis eſt per eandẽ, angulus qui ſub α γ ε ei qui ſub γ α ε. Totus igitur angulus β α γ duobus angulis α β γ & α γ β eſt æqualis. Angulus aũt qui ſub ζ α γ extra ipſum triangulum α β γ: duobus angulis α β γ & α γ β eſt æqualis, per 32 primi. Æqualis igitur eſt angulus β α γ angulo ζ α γ, rectus igitur uterq̃ eſt. In ſemicirculo igitur β α γ, angulus qui ſub β α γ, rectus eſt. Et quoniã trianguli α β γ, duo anguli α β γ & β α γ (per 17 primi) duobus rectis ſunt minores, angulus aũt β α γ rectus eſt, angulus α β γ, recto minor eſt, & eſt in ſegmento α β γ, maiore ſemicirculo. Et quoniã in circulo ineſt quadrilaterũ α β γ δ, in circulis aũt quadrilaterorũ cõſiſtentiũ (per 22 tertij) anguli qui ex oppoſito duobus rectis ſunt æquales: anguli igitur α β γ & α δ γ, per eandem duobus rectis ſunt æquales. At angulus α β γ recto minor eſt. Reliquus igitur angulus α δ γ, maior eſt recto, & in ſegmẽto α δ γ, minore ſemicirculo eſt. Dico iam etiam quod angulus ſegmẽti maioris, cõprehenſus ſub α β γ circũferentia & α γ recta linea, recto maior eſt: angulus autẽ minoris ſegmenti comprehenſus ſub α δ γ circunferentia & γ α recta linea, recto minor eſt. Quoniam enim angulus comprehenſus ſub β α & α γ rectis lineis, rectus eſt: angulus igitur cõprehenſus ſub α β γ circunferentia & α γ recta linea, maior eſt recto: quoniã totũ ſua parte maius eſt (per 9 cõmunẽ ſententiã). Rurſus quoniã angulus cõprehenſus ſub γ α & α ζ rectis lineis, rectus eſt: angulus igitur ſub γ α recta linea & α δ γ circũferẽtia cõprehenſus, recto minor eſt. In circulo igitur angulus in ſemicirculo exiſtens, rectus eſt: qui uero in maiore ſegmento, recto eſt minor, in minori autem, recto eſt maior. Et inſuper angu
 
-[Diagram: four circles in a row illustrating the cases: (1) circle with b at top, a and c at the ends of the diameter a d c through centre d, triangle a b c with line b d; (2) circle with triangle a b c and line c b produced to e; (3) circle with portion a b c greater than a semicircle, centre d, diameter a d e, lines b a, b c, e b; (4) circle with e at top, points b, c, d, f, chord and lines for the fourth and fifth parts]
+[Diagram: circle α β γ δ with diameter β γ and centre ε; δ on the minor segment; lines β α, α γ, α δ, δ γ, α ε drawn, and β α produced to ζ]
 
-IDEM aliter. Protrahatur c b uſq̃ ad e, eritq̃ per 32 primi, angulus a b e, æqualis duobus augulis a & c, & quia angulus a eſt æqualis angulo a b d, & angulus c angulo c b d: erit angulus a b e æqualis totali angulo a b c: ergo uterq̃ eorum eſt rectus per diffinitionem. Secundum ſic patet. Sit in circulo a b c cuius centrum d, portio a b c cuius chorda a c, maior ſemicirculo: & fiat ſuper eius circunferentiã angulus a b c, ductis lineis b a & b c. Dico illum angulum eſſe minorem recto. Producantur enim diameter a d e & linea e b: eritq̃ per primã partem huius, angulus a b e totalis, rectus, quare angulus a b c, erit minor recto per 9 communem ſcientiam, cum ſit pars eius, ſicq̃ patet ſecundum. Tertium ſic. Sit rurſus in circulo a b c cuius centrũ d, chorda a c, quæ ſit ſemicirculo minor. & fiat ſuper eius circunferentiam angulus a b c, ductis lineis b a & b c. Dico hunc angulum eſſe maiorem recto. Producatur enim diame
-
-<!-- Signature: g 3 -->
-
-<!-- Catchword: ter -->
+<!-- Catchword: lus -->

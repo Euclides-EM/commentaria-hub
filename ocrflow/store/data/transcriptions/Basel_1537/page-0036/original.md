@@ -1,29 +1,37 @@
-<!-- Running title: LIBER PRIMVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 27 -->
+<!-- Page number: 28 -->
 
-propositionē) in rectis ipsis α ε, linea α ζ. Et quoniā in rectas lineas β γ, ε ζ, recta linea incidens α γ, alternos angulos, ε α γ, α γ β æquales adinuicē fecit, parallelus est igitur ε ζ ipsi β γ (per 27 propositionē.) Per datum ergo signum α, datæ rectæ lineæ β γ parallelus recta linea ε α ζ ducta est, quod fecisse oportuit.
+æquales: sunt enim intrinseci & extrinseci bis tot rectis æquales, quot habuerit angulos, per 13 propositionem. Intrinseci autem sunt bis tot rectis æquales, quot habuerit angulos demptis inde quatuor: ergo extrinseci sunt quatuor rectis æquales, quod est propositum. Exempli gratia, propositi pentagoni latera protrahantur, ut fiāt anguli extrinseci, a b quidem protrahatur usq̃ ad f, b c usq̃ ad g, c d usq̃ ad h, d e usq̃ ad k, e a usq̃ ad l: eruntq̃ per 13 propositionē duo anguli a intrinsecus & a extrinsecus, æquales duobus rectis: eadem autem ratione, duo anguli b intrinsecus & b extrinsecus: sic & cæteri: quare a, b, c, d, e, anguli intrinseci & extrinseci, decem rectis æquantur, demptis igitur intrinsecis qui sunt æquales sex rectis, erunt extrinseci, uidelicet, b a l, c b f, d c g, e d h, & a e k, æquales quatuor rectis.
 
-[Diagram: line ε α ζ through point α, parallel to line β γ below, with transversal α γ]
+[Diagram: square with one diagonal; pentagon a b c d e with diagonals; hexagon with all diagonals through the centre]
 
-## Eucli. ex Camp. Propositio 32.
+[Diagram: pentagon with all sides produced to form exterior angles, points l, k, b, f, e, a, c, g, h, δ; five-pointed star (pentagram) with points b, f, e, a, δ, c]
+
+Patet etiam quod omnis pentagonus cuius unūquodq̃ latus duo secat ex reliquis habet quinq̃ angulos duobus rectis æquales. Sit qualis proponitur pentagonus a b c d e, & secet latus a c, latus b e in puncto g, & latus a d idem latus b e in puncto f, erit angulus a f g æqualis duobus angulis b & d, cum sit extrinsecus ad ipsos in tranigulo f d b. Itemq̃ angulus f g a erit æqualis duobus angulis c & e, cum sit extrinsecus ad ipsos in triangulo g c e, sed duo anguli a f g & f g a cum angulo a, sunt æquales duobus rectis: ergo quatuor anguli b d & c e, sunt cum angulo a æquales duobus rectis, quod est propositum.
+
+## Eucli. ex Zamb. Theorema 22. Propositio 32.
 
 [Margin]
 32
 [/Margin]
 
-{dropcap:O|lines=?|style=decorated}Mnis trianguli angulus extrinsecus, duobus intrinsecis sibi oppositis est æqualis. Omnes autem tres angulos eius, duobus rectis angulis æquos esse necesse est.
+Omnis trianguli uno latere producto, exterior angulus binis interioribus ex opposito est æqualis. Et trianguli tres interiores anguli, binis sunt rectis æquales.
 
-CAMPANVS. Sit triāgulus a b c, cuius latus b c protrahatur usq̃ ad d, dico quod angulus c extrinsecus, est æqualis duobus angulis a & b intrinsecis sibi oppositis simul iunctis: & q̃ tres anguli triāguli a b c simul iuncti, sunt æquales duobus rectis. A pūcto c protrahā c f æquidistantē a b, secūdum doctrinā præcedentis, eritq̃ angulus f c a æqualis angulo a, quia sunt coalterni per primā partem 29 propositionis, & angulus f c d extrinsecus, æqualis angulo b intrinseco per secundā partem eiusdem, quare totus a c d extrinsecus, est æqualis duobus angulis a & b intrinsecis sibi oppositis, quod est primū. Et quia duo anguli a c b & a c d sunt æquales duobus rectis per 13 propositionē, erunt tres anguli a, b, & c intrinseci æquales duobus rectis, quod est secundum propositum.
+THEON ex Zamb. Sit triangulū α β γ, & producatur unum illius latus (sitq̃ β γ) usq̃ in δ. Dico quod exterior angulus α γ δ, ipsis γ α β & α β γ duobus interioribus ex opposito, est æqualis, & trianguli tres anguli interiores, hoc est α β γ, β γ α, & γ α β, duobus rectis sunt æquales. Excitetur enim (per præcedentem) per signum γ, ipsi α β rectæ lineæ parallelus γ ε. Et quoniam parallelus est α β ipsi γ ε, & in ipsas incidit linea α γ, alterni anguli β α γ & α γ ε, æquales sunt adinuicem. Rursus quoniam parallelus est α β ipsi γ ε, & in eas incidit recta linea β δ, exterior angulus ε γ δ, (per uicesimamseptimam, uicesimamoctauam, & uicesimamnonam propositiones) æqualis est angulo α β γ interiori & opposito: patuit autem quod α γ ε ipsi β α γ est æqualis. Totus igitur exterior angulus α γ δ, æqualis est duobus interioribus & oppositis, hoc est ipsis β α γ & α β γ. Communis ponatur, α γ β angulus: igitur α γ δ & α γ β, tribus angulis α β γ, β γ α & β α γ, sunt æquales. Sed α γ δ & α γ β, duobus rectis (per 13 propositionem) sunt æquales, anguli igitur α γ β & α β γ & β α γ duobus rectis sunt æquales. Omnis igitur trianguli & quæ sequuntur reliqua ut in theoremate. Quod oportuit ostendere.
 
-[Diagram: triangle a b c with base b c produced to d, and line c f drawn from c parallel to a b]
+[Diagram: triangle α β γ with base β γ produced to δ, and line γ ε drawn from γ parallel to α β]
 
-CAMPANI additio. Ex hac arte patet, quòd omnis figuræ polygoniæ omnes anguli simul sumpti tot rectis angulis sunt æquales, quotus est numerus quo a prima destiterit, duplicatus. Verbi gratia, polygoniarū figurarum, est triangula prima, quia si esset duarum linearū, cum figura sit clausio linearū, tunc duæ lineæ rectæ includerent superficiem, quod est impossibile per ultimā petitionē. Quadrilatera, secunda, pentagona, tertia. Similiter autem quælibet tota erit in ordine, quotus erit numerus laterū aut angulorū eius, inde dempto binario. Dico ergo q̃ triāgulæ (quæ est prima) omnes anguli sunt æquales duobus rectis, quadrilateræ (quæ est secūda) erūt æquales quatuor rectis: & pentagonæ (quæ est tertia) erunt æquales sex rectis. Hoc autē inde manifestum est, quòniam cum quælibet talis figura sit in tot triāgulos resolubilis, quota ipsa fuerit a prima ductis lineis a quouis angulorū eius ad omnes angulos oppositos, sintq̃ omnes anguli omnis trianguli duobus rectis æquales, erunt omnis lateratæ figuræ omnes anguli, bis tot rectis æquales, quota ipsa fuerit a prima, quod est propositū. Sit enim exempli gratia, pentagonus a b c d e, a cuius angulo a, ducam lineas ad angulos c, d, ipsi oppositos, erit totus pentagonus resolutus in tres triangulos a b c, a c d, & a d e, quorum cum cuiuslibet sint anguli æquales duobus rectis, erunt pentagoni anguli æquales sex rectis. quod est duplum eius numeri quo a prima distat, siue duplum numeri angulorū aut laterum eius, inde dempto binario. Possumus quoq̃ & sic idem proponere, dicētes quod omnis figuræ polygoniæ omnes anguli pariter accepti sunt tot rectis angulis æquales, quantus est numerus quem eius anguli duplicāt, inde demptis quatuor: puncto enim quouis intra figuram signato, & ab eo ad singulos angulos lineis protractis, erit ipsa figura in tot triangulos resoluta quoti fuerint eius anguli, ideoq̃ omnes anguli omniū illorū triangulorū pariter accepti, tot rectis angulis erunt æquales, quantus est numerus quem duplicāt anguli propositæ figuræ. Cum itaq̃ sint omnes anguli triangulorū in quos ipsa resoluta est, punctum medium circunstantes, quatuor rectis æquales per 13 propositionē, manifestum constat propositū. Similiter quoq̃ patet, quod omnis figuræ polygoniæ anguli omnes extrinseci, quatuor rectis angulis sunt
+## Eucli. ex Camp. Propositio 33.
 
-[Diagram: square with one diagonal, marked l; pentagon a b c d e with diagonals drawn from a to c and d; hexagon with all diagonals through the centre]
+[Margin]
+33
+[/Margin]
 
-[Diagram: irregular polygon with sides produced, points l, k, b, f, e, a, c, g, h, δ; five-pointed star (pentagram) formed by mutually intersecting sides of pentagon, with points b, f, e, a, δ, c]
+{dropcap:S|lines=?|style=decorated}I in summitatibus duarum linearum æquidistantium & æqualis quantitatis, aliæ duæ lineæ coniungantur, ipsæ quoq̃ æquales & æquidistantes erunt.
 
-<!-- Signature: c 2 -->
+CAMPANVS. Sint duæ lineæ a b & c d, æquales & æquidistantes, quarum extremitates coniungam per lineas a c & b d. Quas dico esse æquales & æquidistantes: protraham enim lineam a d. Et quia lineæ a b & c d sunt æquidistantes, erit angulus b a d æqualis angulo a d c, per primam partem uicesimænonæ propositionis. Quare erunt duo latera a b & a d trianguli a b d, æqualia duobus lateribus d c & d a trianguli d c a, & angulus a primi, æqualis angulo d secundi, ergo per quartam propositio-
 
-<!-- Catchword: æquales -->
+[Diagram: parallelogram a b, c d with diagonal a d]
+
+<!-- Catchword: nem basis -->

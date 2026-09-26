@@ -1,45 +1,33 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER TERTIVS -->
 
-<!-- Page number: 72 -->
+<!-- Page number: 73 -->
 
-d, non ergo portiones similes per diffinitionē. Quod si secundo modo, erit adhuc angulus c, maior angulo d, per decimamsextam primi, non igitur erūt portiones similes. Si autem tertio modo: sit ut linea b d, secet lineam a c, & secet circunferentiā portionis minoris in puncto e, & ducatur linea e a. Eritq̃ per eandem decimamsextam primi, angulus a e b, consistens in portione a c b, maior angulo d, quare nullo modo sunt portiones similes. ¶ Simili quoque modo probabis, quod super eandem lineam non fiet portio similis portioni a c b, minor ea: posito c, in loco d, & d in loco c, in figura cū omnibus prædictis, erit enim per præmissas & per 21 primi, & per 16 eiusdē & præmisso modo angulus d omnium figurationum, maior angulo c, quare portiones non erunt similes. Et nota, quod licet proponatur super lineam unam non posse fieri portiones similes inæquales ex eadem parte: uerum est tamē quod neq̃ ex diuersis partibus. Quodlibet probare, minore quæ est ex una parte superposita maiori quæ est ex altera. Necesse enim erit per communem scientiam, ipsam à maiori excedi, non ergo sunt similes per hanc.
+## Eucli. ex Camp. Propositio 24.
 
-[Diagram: three figures of two unequal similar segments upon the same base a b, the apexes marked c and d; in the third the line b d cuts a c and the smaller circumference in e]
+24 DAti semicirculi, siue semicirculo maioris siue minoris portionis: circulum perficere.
 
-## Eucli.ex Zamb.  Theorema 21.  Propositio 23.
+CAMPANVS. Intentio per hanc conclusionem, est ex omni arcu dato siue ex omni circuli portione data, circulum perficere. Sit ergo a b quilibet arcus: ex quo uolo perficere circulum. Protrabam in eo duas lineas qualitercunque contingat, quæ sint a c, & b d: quas diuidã per æqualia, a c quidem in puncto e: & b d in puncto f. Et protraham e g perpendicularẽ ad a c, & f h perpendicularem ad b d: quæ secent se in puncto k. Eritq̃ per correllarium primæ huius, centrum circuli in utraq̃ linearum e g & f h. Quare cẽtrum est punctum k. Si autem e g non secet f h, sed sint linea una, quemadmodum erit si duæ lineæ a c & b d sint æquidistantes: tunc ipsa applicabitur circunferentiæ dati arcus ex utraq̃ parte, ipsa igitur diuisa per medium in puncto k: erit ibi centrum circuli per idem correllarium. Aequidistantes autẽ non erunt e g & f h, quia cum in utraq̃ sit centrũ circuli per dictum correllarium essent eiusdẽ circuli duo centra. Sic potest de omni arcu siue de omni portione communiter demonstrari: qualiter inde circulus perficiatur. Quia tamẽ auctor uidetur hanc conclusionem uariare secundũ diuersas species arcuum, omnium portionum enumerando species: demõstrabimus diuisim per species, qualiter ex omni portione data circulus perficiatur. Sit ergo primũ a b portio data: semicirculus, eritque per diffinitionem semicirculi, linea a b diameter, ea igitur diuisa per medium in puncto c: erit c centrum circuli. Sit rursus portio a c b semicirculo maior, cuius chorda sit a b, quam diuido per æqualia in pũcto d, à quo duco d c perpendicularem ad ipsam: quæ transibit per centrum, per correllarium primæ huius: & protraho lineam a c. Et quia linea a b est minor diametro, cum sit a c b portio maior semicirculo: erit a d minor semidiametro, sed d c est maior semidiametro, ergo d c est maior quam a d: ergo per 19 primi angulus e a d est maior angulo a c d. Fiat itaq̃ per 13 primi, angulus c a e æqualis angulo a c d: producta linea a e quæ secet lineam c d in puncto e, eritq̃ per sextã primi, linea a e æqualis lineæ e c: producatur igitur linea e b, eritq̃ per 4 primi, linea e b æqualis lineæ a e, quare tres lineæ e a, e b, e c sunt æquales, ergo per 6 huius e est centrum circuli. Sit iterum a c b portio minor semicirculo: cuius chorda sit a c quam diuido per æqualia in puncto d, à quo produco lineam c d e perpendicularem ad lineam a b: quæ secet circunferentiam in puncto c, hanc manifestum est transire per centrum per correllarium primæ huius. Produco iterum lineam a c: eritq̃ angulus a c d maior angulo c a d. Si est æqualis: erit portio a c b semicirculus, & si minor, erit maior semicirculo: positum est autem quod sit minor. Produco igitur lineam a e, quæ cum linea a c faciat: angulum æqualem angulo c, & secet lineam c f in puncto e, & manifestum est quod punctum e, cadat extra datam portionem, & produco lineam e b & quia angulus a totalis est æqualis angulo c, erit per 6 primi, linea e a æqualis lineæ e c, & quia per 4 primi, linea e b est æqualis lineæ e a: erit per 9 huius punctum e, centrum circuli, quare patet propositum: secundum omnes species portionum circuli.
 
-[Margin]
-23
-[/Margin]
+[Diagram: arc of a circle with points c and d on the arc, a at left and b at right; within, the chords a c and b d bisected at e and f, the perpendiculars crossing at k; h and g at the lower ends]
 
-Super eadem recta linea, duo segmēta circulorum similia, & inæqualia non constituentur ad easdem partes.
+[Diagram: arc of a circle with c and d on the arc; the horizontal line h e k f g crossed by vertical lines, a and b at the bottom]
 
-THEON ex Zamb. Si enim possibile: super eandem rectā lineā α β, duo circulorum segmenta similia & inæqualia constituantur ad easdem partes α γ β, & α δ β, & ducatur (per primū postulatū) α γ δ, & coniungantur (per 1 postulatū) γ β & δ β. Quoniā igitur segmentū α γ β, simile est segmēto α δ β, similiaq̃ circulorū segmēta sunt quæ æquales angulos suscipiūt, (per diffinitionē 10 tertij) angulus igitur α γ β, angulo α δ β, est æqualis, exterior interiori. quod (per 16 primi) est impossibile. Super eadē igitur rectā lineā: duo circulorū segmēta similia & inæqualia nō constituentur ad easdē partes, quod oportuit demonstrasse.
+[Diagram: semicircle on the base a c b]
 
-[Diagram: two segments upon the base α β, the outer with apex δ, the inner with γ; the lines α γ δ, γ β and δ β are drawn]
+[Diagram: circle with c at top, centre e, and a, d, b at the bottom, with lines from a to c and from a and b to e]
 
-## Eucli.ex Camp.  Propositio 23.
+[Diagram: portion less than a semicircle: pointed oval a d b with e below the base and a line descending to f]
 
-[Margin]
-23
-[/Margin]
+## Eucli. ex Zamb. Problema 3. Propositio 25.
 
-SI circulorum similes portiones supra lineas æquas fuerint, ipsas portiones æquas esse oportet.
+25 Circuli segmento dato, describere circulum cuius est segmentum.
 
-CAMPANVS. Sint duæ lineæ a b & c d æquales, super quas sunt duæ portiones circulorum a e b, c f d, quæ sunt similes. Dico quod ipsæ sunt æquales. Si enim non sunt æquales, altera earum superposita alteri, excedet maior minorem. sed linea a b, non excedet lineā c d, nec excedetur ab ea: cū sint æquales. Quare accidet contrarium præmissæ, quod est impossibile. Erit enim a b & c d linea una.
+THEON ex Zamberto. *Sit datum segmentum circuli α β γ. Oportet iam segmenti α β γ, circulum cuius est segmentum describere. Secetur enim (per 10 primi) α γ, bifariam in δ. Exciteturque (per 11 eiusdem) à signo δ, ipsi α γ, ad angulos rectos β δ, & coniungatur (per primum postulatum) α β. Angulus igitur α β δ, angulo β α δ, comparatus aut eo est maior, aut ei æqualis*
 
-[Diagram: two equal segments, the one with apex e upon the base a b, the other with apex f upon the base c d]
+[Diagram: segment of a circle with β at the top, δ within, α at left, γ at right, with the chord α γ and lines joining the points]
 
-## Eucli ex Zamb.  Theorema 22.  Propositio 24.
+[Diagram: semicircle with β at the top and α, δ, γ on the base, with lines from β to α and to δ]
 
-[Margin]
-24
-[/Margin]
+<!-- Signature: g -->
 
-Super æqualibus rectis lineis similia circulorū segmenta constituta sibi inuicem sunt æqualia.
-
-THEON ex Zamberto. Super æqualibus, inquam, rectis lineis α β, & γ δ, similia circulorum segmenta α ε β, & γ ζ δ, constituantur. Dico quod æquum est segmentum α ε β, segmento γ ζ δ. Congruente namque segmento α ε β, ipsi γ ζ δ, segmento, & posito signo α, super signo γ, recta uero linea α β, super γ δ, congruente, & β, signum congruet ipsi δ, signo, quoniam æqualis est α β, ipsi γ δ. Congruente autem α β, recta linea ipsi γ δ, congruit, segmentum autem α ε β, ipsi γ ζ δ, non congruit, sed differt sicut γ η δ, circulus autem circulum (per uicesimam tertij) non secat in pluribus signis duobus. Sed γ η δ, in pluribus quàm duobus signis: hoc est γ ζ δ, secat, quod (per eandem) est impossibile. Non igitur, congruente α β, recta linea, ipsi γ δ, non congruit quoque & segmentum α ε β, segmento γ ζ δ. Congruit igitur & ei est æquale. Super æqualibus igitur rectis lineis similia circulorum segmenta constituta: sibi inuicem sunt æqualia, quod erat demonstrandum.
-
-[Diagram: segment with apex ε upon the base α β; below it a segment upon the base γ δ with the apexes ζ and η, the one arc differing from the other]
-
-<!-- Catchword: Eucli. -->
+<!-- Catchword: aut -->

@@ -1,25 +1,31 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: PERSPECTIVA -->
 
-<!-- Page number: 530 -->
+<!-- Page number: 531 -->
 
-e, & c d, signa. Insuper ponatur ei, qui sub e f & f g, æquus qui sub l n, n o, auferaturq̃ ipsa e f, æqualis ipsi n o, describaturq̃ circum l o m, triangulū segmentū circuli cōprehēsum sub l o, o m, hoc est ipsum l o m. Erit iam qui ad o, signū angulus cōprehēsus sub l o m æquus ei qui sub g e h. Insuper ponatur ei qui sub e f g, æqualis qui sub l p, auferaturq̃ f, æqualis ipsi n p, connectanturq̃ ipsæ l p, p m, describaturq̃ circum ipsum triangulum segmentū circuli, erit iam angulus qui ad p, signum comprehensus sub l p, p m, æqualis. Quoniam igitur angulus x, angulo o, maior est, sed angulus x, āgulo s, est æqualis, & ad s per 21 primi elemēt. maior est eo qui ad o, extra enim triangulū est l s o, & qui ad x igitur eo qui ad o maior est, & qui ad x, ei qui sub c e d, & qui ad o, ei qui sub g e h, igitur per 4 suppositionē perspectiuæ ipsa g h, maior apparebit. Rursus angulus o h, est æqualis, & qui ad p, ei qui sub a e b: maior autem est angulus o, p, maior igitur apparebit per suppositionem 4 perspectiuæ g h, ipsa a b recta linea.
+## Theorema quadragesimumsecundum.
 
-[Diagram: circle with an inscribed star of crossing lines; g at top, e and a at upper left and upper right, k and f within, d at right, b at lower right and b below]
+SI magnitudo quæpiam sublimis ad subiectum planum ad angulos rectos extiterit, positusq̃ fuerit oculus in aliquo signo ipsius plani, & permutatum fuerit uisile in circuli circunferentia, uisile semper æqualiter spectabitur.
 
-## Theorema quadragesimum.
+Esto, inquam, spectata aliqua magnitudo a b, sublimior plano, oculus autem esto c, connectaturq̃ b c, & centro c, spacio uero c b, per 3 postulatum circulus describatur b d. Dico quod si in circuli circunferentia permutabitur ipsa a b, ab ipso c, oculo æqualiter spectabitur. Quoniam enim a b, recta est & ad ipsam b c, angulum efficit rectum: omnes igitur quæ ex centro c, ad ipsam a b, magnitudinem procidentes inuicem æquos efficiunt angulos, per secūdam diffinitionem 11 element. æqualiter igitur uisile spectabitur, similiter quoq̃ & si à centro c, sublimis excitetur recta linea, & in ipsa positus fuerit oculus in parallelum existens spectatæ magnitudini, commotaq̃ fuerit magnitudo, spectatum æqualiter semper apparet.
 
-NOn sit autem maior quæ ab oculo in centrū annexa est ea quæ ex centro, sed minor, erit iam circa diametros contrariū: nam ipsorū dimetientiū maior, minor, & minor, maior, apparebit.
+[Diagram: circle with centre c; radius drawn to b at the right; a stands above b outside the circle, d at the left of the circle]
 
-Esto circulus a b c d, extendanturq̃ bini dimetientes a b, c d, sese inuicē ad rectos angulos secantes, altera uero quæpiam extendatur n h, oculus uero sit e, à quo in centrum f, connexa esto e f, minor existens utraq̃ earum quæ ex centro, ad angulos uero rectos esto e f, ponaturq̃ circuli diametro æqualis l m, quæ per 10 primi element. secetur bifariam in n, exciteturq̃ per 11 ad angulos rectos ipsi l m, ipsa n x. Describaturq̃ circum l x m, segmentum circuli, sitq̃ l x m. Erit iam semicirculo, quoniā n x, minor est ea quæ ex centro, esto, inquam, l x m, cōnectanturq̃ ipsæ l x, x m, quoniā angulus qui ad x, comprehensus sub l x, x m, æquus est ei qui ad e, comprehenso sub c e d. Insuper ponatur ei qui sub e f, q̃ æqualis qui sub l n, l o, angulus, auferaturq̃ e, ipsi n o, æqualis, connectanturq̃ l o, m o. Describaturq̃ circa l o m, triangulum segmentum circuli l o m. Iam angulus qui ad o, signum comprehensus sub l o, n, rectis lineis æqualis erit ei qui ad e, comprehēsus sub h e n. Insuper ponatur ei qui sub a f, s e, æquus qui sub l p, n, auferaturq̃, ipsi f, æqualis connectanturq̃ q̃ p, m, describaturq̃ circum l p m, triangulum segmentum circuli, sitq̃ l p m. Erit iam angulus qui ad p, signum comprehensus sub l p, p m, æqualis ei qui ad e, angulo comprehenso sub a e b. Quoniam igitur angulus x, eo quod ad o, minor est, æqualis autem est angulus qui ad o, ei qui ad e, comprehenso sub h e n, & qui ad x, ei qui ad e, comprehenso sub c e d, minor igitur apparebit c d, ipsa n h. Rursus quoniam angulus qui ad e, comprehensus sub h e n, minor est eo qui comprehensus est sub l e b, minor igitur per suppositionem 5 specularie apparebit & n h, ipsa a b.
+## Theorema quadragesimumtertium.
 
-[Diagram: at the left a fan of arcs and chords: p, o, s, t along the top, e at the right, l, n, m along the base line]
+SI uero uisile ad subiectū planum ad angulos fuerit rectos, permutatus autem fuerit oculus in circuli circunferentia centrum habente signum circum quod conuertitur magnitudo ipsi plano, uisile semper æqualiter apparebit.
 
-## Theorema quadragesimumprimum.
+Sit, inquam, spectata magnitudo a b, sublimis & ad angulos rectos existens ad subiectum planum, oculus uero sit c, & centro quidem b, spacio uero b c, per 3 postulatum circulus describatur c d. Dico quod si c, permutetur in circuli circunferentia ipsa a b, magnitudo æqualiter semper apparebit, hoc, inquam, est manifestum, omnes enim ab ipso c signo ad a b, cadentes radij ad æquos angulos procidunt. Quoniā angulus qui ad b rectus est. Aequaliter igitur spectata magnitudo apparebit.
 
-CVruus rotæ quandoq̃ circulares, & quādoq̃ contractæ apparēt.
+[Diagram: circle with centre b; a stands vertically above b, e on the circumference at the lower right]
 
-Esto enim rota cuius dimetientes sint d f, & b c. Igitur quando ab oculo in centrū agitur, ad angulos fuerit rectos, ipsi plano uel æqua fuerit ei quæ ex centro, æquales diametri apparēt, sicut in præcedenti theoremate ostensum est. Quare rota currus hijs existentibus circulares apparet, producto uero curru & eo qui ab oculo in centrum actus est, ad rectos angulos non subsistente radio ipsius rotæ plano, neque æqua ei quæ ex ipsius centro, dimetientes inæquales apparēt, quod similiter in præcedenti ostensum est, quare rota contracta apparebit.
+## Theorema quadragesimumquartum.
 
-[Diagram: circle (the wheel) with two diameters crossing at the centre; b at top, d at right, f at left, b within, c below]
+SI autem spectata, a magnitudo ad subiectum planum neutiquā ad angulos rectos fuerit, mutatūq̃ fuerit uisile in circuli circunferentia, inæqualiter semper spectabitur.
 
-<!-- Catchword: Theorema -->
+Esto circulus a h, & suscipiatur in ipsius circūferentia signum, sitq̃ illud d, & cōstituatur non ad rectos angulos ipsi circulo ipsa d f, oculus uero sit e. Dico quod ipsa d f, si in ipsius circuli circunferentia permutabitur quandoq̃ maior, & quandoq̃ minor apparebit. Iam ipsa d f, uel est maior ea quæ ex centro, uel ei æqualis, uel minor: sit in primis maior, exciteturq̃ per 31 primi element. per e, centrum ipsi d f, parallelus e c, sitq̃ æqualis ipsi ipsi c e. Exciteturq̃ per 12 undecimi element. ab ipso c, signum ad subiectū planum perpendicularis c n, & cadat ipsi plano in n, signum, & connexa e n, per 2 postulatum extendatur & procidat in circuli circunferentia in a, & per a, per 31 primi element. ipsi c e, parallelus excitetur a b, sitq̃ d f æqualis: dico quod a b, omnibus in circuli circūferentia stantibus rectis lineis minor apparebit. Connectantur enim per primum postulatum c f, e f, b c, & e b: habuimus autē in præterito 16 theoremate quod omnium per e, signum ductarum rectarum linearum, efficientiumq̃ a d,
+
+[Diagram: large circle with e near the centre; above and to the right a quadrilateral with crossed lines, b at its top, f at the right, d below it, n within; a at the left of the quadrilateral, b at the lower left of the circle]
+
+<!-- Signature: Y 2 -->
+
+<!-- Catchword: e c, angu -->

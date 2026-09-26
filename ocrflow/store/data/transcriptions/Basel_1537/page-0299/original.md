@@ -1,23 +1,41 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Page number: 288 -->
+<!-- Page number: 289 -->
 
-qualē quærimus.Est enim ex ultima parte prædicti correlarij numerus f non quadratus,eo quod d numerus sit nō quadratus. Si enim d nūerus esset quadratus,esset quoque b quadratus ex 2 parte eiusdē correlarij 2 noni &ex 22 octaui.& quia a est quadratus,esset per 16 eiusdem,tertius continue proportionalis inter a & b,quod est impossibile,cum sint sola unitate distantes, non est igitur d quadratus,quare nec f,est enim f æqualis d & e,quoniam cum b sit differentia d ad c,ut patet ex præmissis, erit per primā incidentiū noni quod fit ex a in d,æquū ijs quæ fiunt ex a in b & in c.& quia ex a in b fit d,& in c fit e,sequitur ut d sit differentia f ad e,& quia per 18 septimi est f ad e sicut d ad c,erit permutatim f ad d sicut e ad c.Cumq̃ uterque duorū numerorum e & c sit quadratus,manifestum est numerum f esse qualem uolumus,est enim non quadratus diuisibilis in d non quadratum & e quadratū,cuius proportio ad d est sicut quadrati ad quadratum uidelicet e ad c. Cætera omnia sint ut prius:Dico quod lineæ f g &g h componunt binomium secūdum. Cum enim sit a quadratum f g sicut b ad c,rursusque quadratum f g ad quadratum g h sicut c ad e,erit per æquā proportionalitatem quadratū a ad quadratū g h,,sicut b ad e.Cum igitur uterque duorum numerorū b & e sit quadratus,erit per 2 partem 7,linea g h cōmunicans in longitudine lineæ a rationali positæ, de linea uero f g cōstat quod ipsa sit rationalis in potentia tantum non communicans lineæ a rationali positæ in longitudine per ultimā partē 7,quæ cū sit potentior linea g h in linea f h per 30 tertij & penultimam primi,cōmunicet autem linea f h lineæ f g in longitudine per secundā partē 7,eo quod eorum quadrata sunt in proportione numerorum c & d quorum est proportio sicut uumerorum{printer-error-correction:numerorum} quadratorum per hypothesin,constat propositum. Aliter quoque idem. Esto linea g h,cōmunicans a rationali positæ in longitudine, quā facile est inuenire,sitq̃ c numerus quadratus diuisibilis in quadratum d,& non quadratum e,sitque proportio quadrati lineæ g h ad quadratum lineæ f g,sicut numerus e ad numerum c eritq̃ f incommensurabilis lineæ g h in longitudine per ultimam partem 7,& potentior ea in quadrato lineæ f h,cui communicat in longitudinē primo per conuersam deinde per euersam proportionalitatem,& per secundam partem 7,ex diffinitione igitur,lineæ f g & g h,componunt binomium secundum.
-
-[Diagram: at the right of the first paragraph, semicircle f b g on diameter f g with b on the arc and chords f b and b g; below it a solid line a, a dotted line b, and a dotted line c divided into parts d and e]
-
-[Diagram: at the right of the second paragraph, semicircle f h g on diameter f g with h on the arc and chords f h and h g; beneath the diameter a line labelled a Re. 3; below, a solid line and a dotted line divided at d and e]
-
-## Eucli.ex Zamb. — Problema 44 — Propositio 49
+## Eucli.ex Camp. — Propositio 44
 
 [Margin]
-49
+44
 [/Margin]
 
-Comperire ex binis nominibus secundam.
+{dropcap:B|lines=?|style=decorated}Inomium tertium inuestigare.
 
-THEON ex Zamb. Explicētur bini numeri α γ,γ β,ut ex ipsis compositus α β,ad β γ,rationem habeat quā quadratus numerus ad quadratū numerū,ad ipsum autē γ α rationem non habeat quā quadratus numerus ad quadratum numerum.Exponaturq̃ rationalis δ,ipsiq̃ δ commensurabilis esto longitudine ζ η,ipsa igitur ζ η rationalis est.Fiat etiam (per correlarirm{printer-error-correction:correlarium} 6 decimi,) & sicut γ α numerus ad α β,sic quod ex η ζ,ad id quod ex ζ ε,cōmensurabile igitur est id quod ex η ζ,ei quod ex ζ ε,rationalis igitur est & ζ ε. Et quoniā γ α,nūerus ad α β,rationē nō habet quam quadratus numerus ad quadratū numerū,neq̃ igitur quod ex η ζ,ad id quod ex ζ ε,rationem habet quam quadratus numerus ad quadratū numerum.Incommensurabilis igitur est η ζ,ipsi ζ ε longitudine,Ipsæ igitur ε ζ,ζ η,rationales sunt potentia tantum commensurabiles,ex binis igitur nominibus est ipsa ε η.Ostendendum uero quod & secunda.Quoniam rursus est sicut β α,numerus ad α γ sic quod ex ε ζ ad id quod ex ζ η,maior autem est β α,ipso α γ,maius igitur & quod ex ε ζ,eo quod ζ η,esto autem ei quod ex ε ζ,æqualia quæ ex η ζ,θ.Conuertēdo igitur (per correlarium 19 quinti)est sicut α β,ad β γ,sic quod ex ε ζ,ad id quod ex θ.At α β ad β γ,rationē habet quam quadratus numerus ad quadratum numerū,& quod ex ε ζ,igitur ad id quod ex θ,rationē habet quam quadratus numerus ad quadratum numerum.Commensurabilis igitur est ε ζ,ipsi θ,longitudine(per 9 decimi.)Quare ε ζ,ipsa ζ η,maius potest,eo quod fit ex sibi commensurabili,& ipsæ ε ζ,ζ η,rationales sunt potentia tantum commensurabiles,& ζ η,nomen minus commensurabile est longitudine ipsi δ rationali expositæ,ipsa igitur ε η,ex binis nominibus est secunda,quod erat faciendum.
+CAMPANVS Binomium quoque tertium sic reperitur.Posita ut prius linea a rationali in longitudine,sit b numerus primus c uero quadratus.diuisibilis in quadratum d.& non quadratū e,cætera omnia sint ut prius.dico quod duæ lineæ f g & g h cōponunt binomium tertiū:neutra enim earum est commensurabilis in longitudine lineæ a rationali positæ.sed utraque incommensurabilis,f g quidē,per ultimā partē 7,h g uero, per æquā proportionalitatem & ultimam partem 7.Est enim per æquam proportionalitatem quadratū lineæ a ad quadratum lineæ g h sicut numerus b ad numerū e,mediantibus hinc quidem quadrato lineæ f g,inde uero numero c,numeri autem b & e non sunt in proportione aliquorum quadratorū,cū b sit numerus primus.si enim essent in proportione numerorum quadratorū necesse esset per 16 octaui & octauā eiusdē tertiū eis in cōtinua proportionalitate interesse,esset igitur per 17 eiusdē numerus b superficialis,quod est impossibile,cum sit primus per hypothesin,incommensurabilis est itaq̃ linea g h,lineæ a rationali positæ. ex ultima parte 7.Quia ergo linea f g potētior est linea g h in quadrato lineæ f h ex 30 tertij & penultima primi quæ cōmunicat ei in longitudine ex secunda parte 7, ex diffinitione binomij tertij patet nostra intentio.
 
-[Diagram: at the right of the proof — a dotted line of unit points with labels α, γ, β; a solid line δ; a solid line divided at ζ with the parts numbered 12 and 9; and a shorter solid line with the labels θ and β above it]
+[Diagram: at the right, semicircle on diameter f g with apex b on the arc and chords drawn to f and g; below, a solid line a, a dotted line b, and a dotted line c divided into parts d and e]
 
-<!-- Catchword: Eucli. -->
+## Eucli.ex Zamb. — Theorema 15 — Propositio 50
+
+[Margin]
+50
+[/Margin]
+
+Inuenire ex binis nominibus tertiam.
+
+THEON ex Zamb. Exponantur bini numeri α γ,γ β,ut ex ipsis compositus α β,ad β γ,rationē habeat quā quadratus numerus ad quadratū numerū,ad ipsum autē α γ rationem non habeat quā quadratus numerus ad quadratū numerū.Expliceturq̃ aliquis etiam alius numerus nō quadratus δ & ad utrūque ipsorū β α,α γ,rationem nō habeat quā quadratus numerus ad quadratū numerū.Exponaturq̃ aliqua ratiōalis recta linea quæ sit ε.Fiatq̃ sicut δ ad α β , sic quod ex ε ad id quod ex ζ η . Commensurabile igitur est quod ex ε,ei quod ex ζ η. Est autem ε, rationalis,rationalis igitur est & ζ η,(per diffinitionē.) Et quoniam δ ad α β,rationē non habet quā quadratus numerus ad quadratū numerū,neque quod ex ε ad id quod ex ζ η,rationē habet quā quadratus numerus ad quadratū numerū.Incōmensurabilis igitur est ε,ipsi ζ η,longitudine(per 9 decimi. Fiat iā rursus sicut α β numerus ad α γ, sic quod ex ζ η,ad id quod ex η θ.Commensurabile igitur est quod ex ζ η,ei quod ex η θ.Rationalis autem est ζ η,rationalis igitur & η θ. Et quoniam β α,ad α γ,rationem non habet quam quadratus numerus ad quadratum numerum , neque quod ex ζ η ad id quod ex θ η rationē habet quā quadratus numerus ad quadratum numerum. Incōmensurabilis igitur est ζ η,ipsi η θ lōgitudine.Ipsæ igitur ζ η & η θ,rationales sunt potentia tantū cōmensurabiles. Igitur ipsa ζ θ ex binis nominibus est.Aio etiā quod & tertia.Quoniā enim est sicut δ ad α β,sic est id quod ex ε ad id quod ex ζ η,sicut aūt β α,ad α γ,sic quod ex ζ η ad id quod ex η θ,ex æquali igitur (per 22 quinti,)est sicut δ ad α γ,sic quod ex ε ad id quod ex η θ.At δ ad α γ,rationē non habet quā quadratus numerus ad quadratū numerū,neq̃ quod ex ε igitur ad id quod ex η θ,rationem habet quā quadratus numerus ad quadratū numerū,incōmensurabilis est igitur ε ipsi η θ longitudine. Et quoniā est sicut β α,ad α γ,sic quod ex ζ η,ad id quod ex η θ,maius igitur est quod ex ζ η eo quod ex η θ Esto igitur ei quod ex ζ η,æqualia quæ ex η θ,κ.Conuertendo igitur (per 19 quinti & eius correlarium)est sicut α β ad β γ, sic quod ex ζ η ad id quod ex κ.At α β,ad β γ rationē habet quā quadratus numerus ad quadratū numerū, & quod ex ζ η igitur,ad id quod ex κ,rationem habet quam quadratus numerus ad quadratum numerū. Commēsurabilis igitur est ζ η,ipsi κ lōgitudine. Ipsa igitur ζ η,ipsa η θ maius potest eo quod ex sibi lōgitudine cōmēsurabili. Ipsæq̃ ζ η,η θ,rationales sunt potentia tantum commensurabiles. Ac neutra ipsarum commensurabilis est ipsi ε longitudine ipsa igitur ζ θ,ex binis nominibus tertia est,quod inuenire oportebat.
+
+[Diagram: at the right of the proof — a dotted line of unit points with labels α, γ, β; a dotted line of unit points labelled δ; a solid line labelled ε; a solid line divided at η with endpoints ζ and θ, the parts numbered 20 and 15; and a shorter solid line labelled κ with the number 5]
+
+## Eucli. ex Camp. — Propositio 45
+
+[Margin]
+45
+[/Margin]
+
+{dropcap:B|lines=?|style=decorated}Inomium quartum scrutari.
+
+CAMPANVS. In inuentione binomij quarti eodem modo procedendum est sicut in inuentione primi, excepto quod quadratus nume-
+
+<!-- Signature: B -->
+
+<!-- Catchword: rus -->

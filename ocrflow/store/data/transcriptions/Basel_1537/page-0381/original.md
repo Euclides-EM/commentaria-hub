@@ -1,31 +1,49 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER VNDECIMVS. -->
 
-<!-- Page number: 370 -->
+<!-- Page number: 371 -->
 
-THEON ex Zamb. Sit quidē data recta linea α β, datumq́̃ in ea signū sit α, datus angulus solidus sit qui ad δ, cōprehēsus sub ε δ γ, ε δ ζ, ζ δ γ, angulis planis. Oportet iam ad ipsam α β rectā lineā, & ad signū in ea α, ei q̃ ad δ solido angulo æquū solidū angulū cōstituere. Sumatur in ipsa δ ζ, cōtingens signū ζ, exciteturq́̃ (per 14 undecimi) ab ipso ζ, ad id quod per ε δ, δ γ, planū perpēdicularis ζ η, & occurrat plano in η, cōnectaturq́̃ δ η, cōstituaturq́̃ (per 23 primi) ad ipsam α β, & ad signū in ea α, ei qui sub ε δ γ angulo æqualis angulus qui sub β α λ, ei aūt qui sub ε δ η, æqualis qui sub β α κ, ponaturq́̃ (per 2 primi) ipsi δ η æqualis α κ, cōstituaturq́̃ (per 19 undecimi) ab ipso κ signo, ei quod per β α λ plano ad angulos rectos κ θ, ponaturq́̃ (per 2 primi) κ θ ipsi η ζ æqualis, cōnectaturq́̃ θ α. Dico quod angulus solidus qui ad α, cōprehensus sub β α λ, β α θ, θ α λ, angulis, æquus est ei qui ad δ solido angulo, cōprehenso sub ε δ γ, ε δ ζ, ζ δ γ, angulis. Auferantur enim æquales α β, δ ε, cōnectanturq́̃: θ β, κ β, ζ ε, ε η. Et quoniā ζ η recta est ad subiectū planū, & (per 2 diffinitionē undecimi) ad omnes igitur tangētes eā rectas lineas & in subiecto existētes plano, rectos efficiet angulos. Rectus est igitur uterq́̃ ipsorū qui sub ζ η δ, ζ η ε, angulorū, & iam id propterea uterq́̃ ipsorū θ κ α, θ κ β, angulorū, rectus est. Et quonā binæ κ α, α β, duabus η δ, δ ε, sunt æquales altera alteri, & æquales cōprehendunt angulos, basis igitur κ β (per 4 primi) basi η ε est æqualis. Est autē & κ θ ipsi η ζ æqualis, & rectos cōprehendunt angulos: æqualis igitur est & β θ, ipsi ζ ε. Rursus quoniā duæ α κ, κ θ, duabus δ η, η ζ, sunt æquales, & rectos angulos cōprehendunt, basis igitur α θ (per 4 primi) ipsi δ ζ est æqualis. Est autē & α β, ipsi δ ε æqualis, binæ igitur θ α, α β, duabus ζ δ, δ ε, sunt æquales, & basis θ β, ipsi ζ ε est æqualis. Angulus igitur qui sub β α θ, (per 8 primi) angulo qui sub ε δ ζ est æqualis. Iam id propterea & qui sub θ κ λ ei qui sub ζ η γ est æqualis. Quoniā si assumamus æquales α λ, δ γ, cōnectamusq́̃ ipsas κ λ, θ λ, η γ, ζ γ, quoniā totus qui sub β α λ, toti qui sub ε δ γ est æqualis, quorū qui sub β α κ, ei qui sub ε δ η supponitur æqualis, reliquus igitur qui sub κ α λ, reliquo qui sub η δ γ est æqualis. Et quoniā binæ κ α, α λ, duabus η δ, δ γ, sunt æquales, & rectos cōprehendunt angulos, basis igitur κ λ (per 4 primi) basi η γ est æqualis. Est aūt & κ θ, ipsi η ζ æqualis, binæ iam λ κ, κ θ, binis γ η, η ζ, sunt æquales, & angulos rectos cōprehendunt: basis igitur θ λ (per 4 primi) basi ζ γ est æqualis. Et quoniā binæ θ α, α λ, duabus ζ δ, δ γ, sunt æquales, & basis θ λ basi ζ γ est æqualis, & angulus igitur qui sub θ α λ (per 8 primi) angulo qui sub ζ δ γ est æqualis. Est autē & qui sub β α λ, ei qui sub ε δ γ æqualis. Ad datam igitur rectā lineā α β, ad datumq́̃ in ea signum α, dato angulo solido qui ad δ æqualis angulus solidus constitutus est. Quod erat agendum.
+dum. Et quoniā est sicut ε γ ad γ η, sic β α ad α κ, & quæ circū æquos angulos qui sub ε γ η, β α κ, latera sunt proportionalia, igitur parallelogrammum η ε ipsi κ β parallelogrammo est simile (per diffinitionē sexti.) Idq́̃ propterea & κ θ parallelogrammū ipsi η ζ parallelogrammo est simile, & insuper ipsum ζ ε ipsi θ β. Tria igitur parallelogrāma ipsius γ δ solidi, tribus parallelogrāmis ipsius α λ solidi sunt similia. Sed tria, tribus quæ ex opposito æqualia & similia sunt. Totum igitur γ δ solidum, toti α λ solido simile est. A data igitur recta linea α β, dato solido parallelepipedo γ δ simile & similiter positum descriptū est α λ. Quod fecisse oportuit.
 
-[Diagram: two pyramid-like solid angles: on the left, apex α with edges to β (left) and λ (right) and base points κ and θ joined by crossing lines; on the right, apex δ with edges to γ and ε and base points ζ and η joined by crossing lines]
+[Diagram: two parallelepipeds: the larger on the left with labels λ at the top corner, θ on the upper face, μ at the right, κ at the left, α and β at the bottom; the smaller on the right with labels δ at the top corner, ζ on the upper face, η at the left, γ and ε at the bottom]
 
-## Eucli. ex Camp. Propositio 27.
-
-[Margin]
-27
-[/Margin]
-
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}Vper assignatam lineam, dato solido æquidistantiū superficierū simile solidum constituere.
-
-CAMPANVS. Sit assignata linea a b, de cuius situ utrū in plano iaceat uel sursum exurgat, nil curetur, sitq̃ assignatū parallelogrammū solidum, corpus c d, cui super lineam a b, iubemur simile solidum fabricare. Sint igitur tres lineæ continentes supficiales angulos, ex qbus cōponitur solidus angulus c, inscriptæ literis c e, c f, c g. At secundū præcepta præmissæ super punctū a lineæ a b, cōstituatur angulus solidus æqualis c, quem contineāt tres lineæ a b, a h, a k, & auxilio 10 sexti sit proportio c e ad a b, & e f ad a h, & g c ad a k, proportio una. Dehinc à tribus punctis b, h, k, ꝓtrahantur sex lineæ h l æquidistātes lineæ a b, & h m æquidistans lineæ a k, iterū b l æquidistās lineæ a h, & b n æquidistās lineæ a k, rursus quoq̃ k n æquidistās a b, & k m æquidistans a h, amplius autem protrahātur, m p æquidistās h l, & p l æquidistans h m, protrahatur quoq̃ & linea p n. Eritq̃ completū solidum parallelogrammū a p, quod dico esse simile solido c d. Hoc autem ex diffinitione similium superficierū & diffinitione similium corporū si earum memineris, facile concludes.
-
-[Diagram: two parallelepipeds: the larger on the left with visible labels a and k at top, b, m at the upper face, n at centre, h at the left, l and p at the bottom; the smaller on the right with labels c, g, f, e, d]
-
-## Eucli. ex Zamb. Problema 5. Propositio 27.
+## Eucli. ex Camp. Propositio 28.
 
 [Margin]
-27
+28
 [/Margin]
 
-## Ex data recta linea, dato solido parallelepipedo simile & similiter positum solidum parallelepidedum{printer-error-correction:parallelepipedum} describere.
+## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I superficies aliqua solidum parallelogrammū super duas quaslibet oppositas superficies eius terminales & super earum duas diametros secet, eandem superficiem corpus illud per æqualia secare necesse est.
 
-THEON ex Zamb. Esto quidem data recta linea α β, datum autem solidum parallelepipedū esto γ δ. Oportet iam ex data recta linea α β, ipsi γ δ solido parallelepipedo dato simile similiterq́̃ positū solidū parallelepipedū describere. Constituatur enim (per 26 undecimi) ad ipsam α β rectam lineā, ad signumq́̃ in ea α, ei qui ad γ solido angulo æqualis qui sub β α θ, θ α κ, κ α β, cōprehēditur ut æqualis sit qui sub β α θ ei qui sub ε γ ζ, qui uero sub β α κ ei qui sub ε γ η, & insuper qui sub κ α θ ei qui sub η γ ζ. Fiatq́̃ sicut ε γ ad γ η, sic β α ad α κ, sicut autē η γ ad γ ζ, sic κ α ad α θ, & ex æquali igitur (per 22 quinti) sicut ε γ ad γ ζ, sic β α ad α θ. Cōpleaturq́̃ ipsum θ β parallelogrammū, & ipsum α λ soli
+CAMPANVS. Sit corpus a b solidum parallelogrammū, de quo sit positum ꝗ superficies a b c d secet ipsum super diametros duarum superficierū oppositarū ipsum terminantiū quæ sint a d & c b. Dico quod ipsa diuidit istud solidum propositū, per æqualia. Constat enim ꝗ ipsa diuidit illud solidum in duo serratilia, quorū superficies quadrilateras binas & binas adinuicē relatas secūdum ꝗ ipsæ sunt opposita latera solidi propositi, manifestum est ex 24 huius esse æquales, cum solidum de quo loquimur, positum sit esse parallelogrammū. Ex eadem quoq̃ & 41 primi constat, trilateras supficies dictorū serratiliū esse æquales. Igitur à diffinitiōe solidorū æqualiū, liquet q̊d ꝓpositū est.
 
-<!-- Catchword: dum. Et -->
+[Diagram: parallelepiped with the cutting plane drawn through two face diagonals; labels b at top, c at the upper left face, f at the right, d at the centre, a at the lower left]
+
+## Eucli. ex Zamb. Problema 23{printer-error-correction:Theorema 23} Propositio 28.
+
+[Margin]
+28
+[/Margin]
+
+## Si solidum parallelepipedum plano secetur per diagonios eorum quæ ex opposito planorū, ipsum solidum secabitur ab ipso plano bifariam.
+
+THEON ex Zamberto. Solidum enim parallelepipedum α β, plano γ δ ε ζ secetur per diagonios eorum quæ ex opposito planorum γ ζ, δ ε. Dico quod ipsum α β solidum, ab ipso γ δ ε ζ plano bifariam secabitur. Quoniam enim (per 34 primi) γ η ζ triangulum æquum est triangulo γ β ζ, & triangulum α δ ε ipsi δ ε θ, est autem γ α parallelogrammum ipsi β ε æquale, ex opposito enim, ipsum autem η ε ipsi γ θ, & (per 21 undecimi) prisma igitur comprehensum sub duobus triangulis γ η ζ, α δ ε, & tribus parallelogrammis, hoc est η ε, α γ, γ ε, æquum est prismati comprehenso sub duobus triangulis γ ζ β, δ ε θ, & tribus parallelogrammis, hoc est γ θ, β ε, γ ε. Sub æqualibus enim planis & multitudine & magnitudine comprehenduntur (per diffinitionem undecimi.) Quare totum α β solidum bifariam scinditur ab ipso γ δ, ε ζ, plano. Quod erat ostendendum.
+
+[Diagram: parallelepiped cut by a diagonal plane; labels γ and β at the top, ζ at the right, δ at the left, θ on the lower face, α at the lower left, ε at the lower right]
+
+ZAMBERTVS. Diagonius, linea recta est quæ in figuris angularibus ab uno angulo insurgit, & sese in alium extendit angulum. Vt in hac figura patet.
+
+[Diagram: a rectangle with its diagonal drawn]
+
+## Eucli ex Camp. Propositio 29.
+
+[Margin]
+29
+[/Margin]
+
+## CVncta solida æquidistantiū superficierū æque alta atq̃ in eadem basi super unam lineam cōstituta, probātur esse æqualia.
+
+{dropcap:C|lines=?|style=decorated|decoration="ornamental"}AMPANVS. Verum est quod solida æquidistantiū laterum æque alta, siue inter superficies æquidistantes super unam & eadem basin constituta sunt adinuicem æqualia, sicut de superficiebus æquidistantium laterum super unam basin & inter lineas æquidistantes constitutis in 35 primi demonstratum est. Sed talium solidorū quædam dicūtur constitui super lineam unam, & sunt illa quorum supremarū superficierum duo opposita latera sunt secundum rectitudinem protracta, linea una, & de talibus hæc 29 proponit
+
+[Diagram: a slanted parallelepiped on a base, with labels b and c at the top, e and f on the front face, d inside at the left, a at the lower left, and diagonal lines through the base]
+
+<!-- Catchword: demon -->

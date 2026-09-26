@@ -1,37 +1,59 @@
-<!-- Running title: LIBER SEPTIMVS. -->
+<!-- Page number: 188 -->
 
-<!-- Page number: 187 -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-CAMPANVS. Sint duo numeri a & b, secundum suam proportionē minimi: dico quod ipsi sunt contra se primi. Si enim non, numeret eos c secundum d & e: eritq̃ per 15 d ad e, sicut a ad b, & quia d & e sunt minores a & b, sequitur a & b non esse suæ proportionis minimos, quod est contrariū positioni.
+minores in eadem ratione existentes ipsis α,β, sint autem γ,δ. Quoniam igitur minimi numeri eandem rationem habentium, eis metiuntur eandem rationem habentes pariter, maior maiorem, minor minorem (per 21 septimi) hoc est antecedens ipsum antecedentem, & consequens ipsum consequentem, æqualiter igitur γ ipsum α metitur, & δ ipsum β. Quoties iam γ ipsum α metitur, tot unitates sint in ε, & δ igitur ipsum β metitur, per eas quæ in ipso ε sunt unitates, & quoniam γ ipsum α metitur per eas que in ipso sunt unitates, igitur & ε ipsum α metitur per eas quæ in ipso γ sunt unitates. Id propterea & ε ipsum β metitur, per eas quæ in ipso δ sunt unitates. Igitur & ε ipsos α,β, metitur primos existentes adinuicem. Quod est impossibile (per 13 diffinitionem septimi.) Non erunt igitur aliqui numeri ipsis α,β, minores in eadem ratione existentes ipsis α,β. Minimi igitur sunt α & β eandem rationem habentium eis. Quod oportuit demonstrasse.
 
-[Diagram: dotted number lines beside the text: a······ b····· / c·· / d···· e···]
+[Diagram: dotted number lines beside the text: α······ β······· / ε·· / γ···· / δ···]
 
-Similiter quoq̃.
+Sequens ex Campano 23, præcedenti 23 ex Zamberto respondet: præcedens autem ex Campano 22, sequenti ex Zamberto 24.
 
-## Si fuerint quotlibet numeri in continuatione suarum proportionum (siue eadem siue diuersæ fuerint) minimi, nullus numerus numerabit omnes.
-
-Vt si sint a,b,c, minimi in continuatione suarum proportionum: dico quod nullus numerabit omues. Sin autē, numeret os{printer-error-correction:eos} d, a quidem secundum e, b uero secundum f, & c secundum g: eritq̃ per 15 e ad f, sicut a ad b, & f ad g, sicut b ad c, quia ergo e,f,g, sunt minores a,b,c, & secundum proportiouē{printer-error-correction:proportionē} eorum, non erunt a,b,c, quales positi sunt, quod est inconueniens. Quanquā autem nullus numeret a,b,c, si fuerint minimi, potest tamen esse ut quoslibet duos ex eis numeret unus, ducto etenim quolibet numero in aliquem ad se primum, ac utroq̃ eorum in aliquem tertium ad utrunq̃ primum, prouenient tres numeri quorum quique duo erunt compositi, nullus tamen numerabit omnes. Sint enim a,b,c, tres numeri quorum quisque sit primus ad alios, ducaturq̃ a in b & c, & proueniat d & e, itemq̃ b in c, & proueniat f, dico quosq̃ duos ex d,e,f, esse adinuicem compositos, tamen nullus numerabit omnes. Duos quosq̃ patet esse compositos: a enim numerat d & e. b uero d &,f,& c,e & f, quod autē nullus numeret omnes, patebit, prius demonstrato quod a est maximus numerans d & e, b quoq̃ maximus numerans d & f, & c maximus numerans e & f. Hoc autem sic constat, si enim a non est maximus numerans d & e, sit itaque g, numeretq̃ d secundum h, & e secundum k, erit per secundam partem 20 a ad g, sicut h ad b, itemq̃ per eandem a ad g. sicut κ ad c. Quia ergo a est minor g, erit b minor h, & κ minor c, & quia h ad κ, sicut b ad c, utraque enim est sicut d ad c per 25 bis assumptam, sunt autem h & κ minores b & c, erit per immediate sequentem, & per hanc hypothesin, quod b & c sunt contra se primi, reperire minimis minores, quod quia est impossibile, erit a maximus numerans d & e. Eodemq̃ modo probabitur quod b sit maximus numerans d & f, & c maximus numerans e & f, si quis ergo numerat d. e, f. per correlarium secundæ ter assumptum ipse numerabit a,b,c, sed quisque eorum primus erat ad reliquos. Accidit igitur impossibile.
-
-[Diagram: dotted number lines beside the text: a········ b······· c······ / d·· / e····· f···· g··· — and lower: g····· h···· k··· / a···· b··· c·· / d············ e········ f······]
-
-Similiter quoq̃.
-
-## Quotlibet numeri quos unus non numerat, secundum continuationem suarum proportionum sunt minimi.
-
-Vt sit{printer-error-correction:si} sint a,b,c, quilibet numeri quos omnes nullus numerat: dico quod ipsi sunt in continuatione suarum proportionū minimi. Alioquin sint minimi d,e,f, qui per 21 numerabunt a,b,c, quisque suum relatiuum æqualiter: sit ergo ut secundum g, eritq̃ per 17 ut uiceuersa g numeret a,b,c, secundum d,e,f, quare accidit contrarium positioni.
-
-[Diagram: dotted number lines beside the text: a········ b······· c······ / d····· e···· f··· / g··]
-
-## Eucli. ex Zamb. — Theorema 21 — Propositio 23
+## Eucli. ex Camp. — Propositio 23
 
 [Margin]
 23
 [/Margin]
 
-## Primi numeri adinuicem, minimi sunt eandem rationem habentium eis.
+## {dropcap:Q|lines=?|style=decorated|decoration="ornamental"}Vilibet numeri contra se primi, sunt secundum suam proportionem minimi.
 
-THEON ex Zamberto. Sint primi numeri adinuicem α, β. Dico quod ipsi α, β, minimi sunt eandem rationem habentium eis: si autem α & β non sunt minimi eandem habentiū rationem eis, erunt aliqui numeri ipsis α,β,
+CAMPANVS. Hæc est conuersa præmissæ, ut si duo numeri sint a & b contra se primi, ipsi erunt secundum suam proportionem minimi, sin autem, sint minimi in eadem proportione (si possibile est) c & d, constat itaq̃ per 21 quod c numerat a, & d, æqualiter: sit igitur ut secundum e, erit per 17 ut uiceuersa e numeret a & b, a quidem secundum c, & b secundum d: non sunt igitur a & b contra se primi, quod est contra hypothesin.
 
-<!-- Signature: q 4 -->
+[Diagram: dotted number lines beside the text: a······ b····· / e·· / c···· d···]
 
-<!-- Catchword: minores -->
+## Eucli. ex Zamb. — Theorema 22 — Propositio 24 — Conuersa præcedentis.
+
+[Margin]
+24
+[/Margin]
+
+## Minimi numeri eandem rationem habentium eis, primi adinuicem sunt.
+
+THEON ex Zamberto. Sint minimi numeri eandem rationem habentium eis α, β. Dico quod α, β, primi adinuicem sunt. Si autem α,β, adinuicem non sunt primi, metietur aliquis numerus ipsos α,β, metiatur, & esto γ: & quoties quidem γ ipsum α metitur, tot unitates sint in δ: quoties autem γ ipsum β metitur, tot unitates sint in ε. Et quoniam γ ipsum α metitur per eas quæ in δ unitates existunt, igitur & γ ipsum δ multiplicans ipsum α fecit: id propterea & γ ipsum ε multiplicans, ipsum β fecit: numerus igitur γ duos numeros δ, ε, multiplicans, ipsos α β fecit. Est (per 17 septimi, & per 11 quinti) igitur sicut δ ad ε, sic est α ad β: ipsi igitur δ ε ipsis α, β, in eadem sunt ratione minores existentes, quod est impossibile. Ipsos igitur α, β, numeros, numerus aliquis non metictur. Igitur ipsi α,β, primi inuicem sunt. Quod demonstrasse oportuit.
+
+[Diagram: dotted number lines beside the text: α········ β······· / γ···· / δ··· / ε··]
+
+## Eucli. ex Camp. — Propositio 24
+
+[Margin]
+24
+[/Margin]
+
+## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duo numeri contra se primi, si quis unum eorum numeret, ad alterum esse primus necessario comprobatur.
+
+CAMPANVS. Sint a & b contra se primi, c uero numeret a. Dico quod c primus est ad b, alioquin, numeret eos d, quæ per penultimam cōceptionem numerabit etiam a, non sunt ergo a & b, contra se primi, d enim nnmerat{printer-error-correction:numerat} ambos.
+
+[Diagram: dotted number lines beside the text: a···· b····· / c·· d···]
+
+## Eucli. ex Zamb. — Theorema 23 — Propositio 25
+
+[Margin]
+25
+[/Margin]
+
+## Si bini numeri, primi adinuicem fuerint, unum eorum metiens ad reliquum primus erit.
+
+THEON ex Zamberto. Sint bini numeri primi adinuicem α & β. Ipsum autem α metiatur aliquis numerus γ. Dico quod & γ,β, primi adinuicem sunt. Si autem γ,β, non sunt adinuicem primi, metietur ipsos γ,β, aliquis numerus: metiatur, & esto δ. Et quoniam δ ipsum γ metitur, & γ ipsum α metitur, & δ igitur ipsum α metitur: metitur autem & β. Igitur δ ipsos α,β, metitur, primos adinuicem existentes, quod est impossibile (per 13 diffi
+
+[Diagram: dotted number lines beside the text: α······ β······· / γ··· / δ····]
+
+<!-- Catchword: nitionem -->

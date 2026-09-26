@@ -1,37 +1,41 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER NONVS. -->
 
-<!-- Page number: 218 -->
+<!-- Page number: 219 -->
 
-## Eucli. ex Zamb. Theorema 24 Propositio 26
+7 Perfectus numerus appellatur, qui omnibus partibus suis quibus numeratur, est æqualis. 8 Abundans dicitur, qui omnibus suis partibus minor est. 9 Diminutus uero, qui maior.
 
-**26** Similes plani numeri adinuicem rationem habent, quam quadratus numerus ad quadratum numerum.
+## Eucli. ex Camp. Propositio 1
 
-THEON ex Zamber. Sint similes plani numeri α β. Dico quod α ad β rationem habet, quam quadratus numerus ad quadratum numerum. Quoniam ipsi α, β, similes plani sunt, inter ipsos igitur α, β, unus medius pportionalis cadit numerus (per 18 octaui.) Cadat, & sit γ, assumanturq́; (per 35 septimi) minimi numeri eandem ipsis α, β, γ, habentiū rationem, sintq́; δ, ε, ζ: ipsi igitur ipsorum extremi, hoc est δ, ζ, sunt quadrati. Et quoniam est sicut δ ad ζ, sic α ad β, & ipsi δ, ζ, sunt quadrati, igitur α ad β rationem habet, quam quadratus numerus ad quadratum numerum, quod demonstrare oportebat.
+**1** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duo numeri superficiales similes, qui ex ductu alterius in alterum producetur, numerū quadratū esse necesse est.
 
-[Diagram: dotted number lines α, γ, β, δ, ε, ζ]
+CAMPANVS. Sint a & b superficiales similes, ex quorum multiplicatione proueniat c, dico c esse quadratū : fiat enim d ex a in se, eritq̃ per 18 septimi, d ad c, sicut a ad b, & quia inter a & b cadit medius secūdum continuam proportionalitatē per 16 octaui, sequitur per 8 eiusdem, ut unus quoq̃ cadat inter d & c, itaq̃ cum d sit quadratus, erit per 20 eiusdem. c quoq̃ quadratus, quod est propositū.
 
-## Eucli. ex Camp. Propositio 25
+## Eucli. ex Zamb. Theorema 1 Propositio 1
 
-**25** {dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duorum solidorum similium est proportio unius ad alterum, sicut alicuius cubi ad aliquem cubum.
+**1** Si bini similes plani numeri sese inuicem multiplicantes, aliquem fecerint, factus ex eis quadratus erit.
 
-CAMPANVS: Sint a & b solidi similes, dico quod proportio unius eorum ad alterum, est sicut alicuius cubi ad aliquem alium cubum. Sunt quidem per 18 inter eos duo numeri medij secundum continuam proportionē, qui sint c & d, & in eorū proportione sint minimi quatuor e, f, g, h, quorū e & h erunt cubi per correlarium secūdæ: quia igitur per æquam proportionalitatē est a ad b, sicut e ad h, liquet propositū.
+THEON ex Zamb. Sint bini similes plani numeri α, β, & α ipsum β multiplicans, ipsum efficiat γ. Dico quod γ quadratus est, ipse enim α seipsum multiplicans, ipsum δ efficiat, ipse igitur δ, quadratus est. Quoniam igitur α se ipsum multiplicans ipsum δ fecit, ipsum autem β muliplicans ipsum γ fecit: est igitur (per 17 septimi) sicut α ad β, sic δ ad γ. Et quoniam ipsi α, β, similes plani sunt numeri, unus medius (per 18 octaui) proportionalis cadit numerus ipsorum α, β. Si autē inter binos numeros continue proportionales, numeri proportionales ceciderint, quot inter ipsos cadunt totidem quoq́; (per 8 octaui) & inter eandem rationem habentes cadent. Quare & inter ipsos γ, δ, unus medius proportionalis numerus cadit: est autem ipse δ, quadratus, quadratus igitur est γ, quod ostendere oportuit.
 
-## Eucli. ex Zamb. Theorema 25 Propositio 27
+[Diagram: dotted number lines γ, δ, β, α with intermediate dotted lines]
 
-**27** Similes solidi numeri adinuicem rationem habent, quam cubus numerus ad cubum numerum.
+## Eucli. ex Camp. Propositio 2
 
-THEON ex Zamberto. Sint similes solidi numeri α, β. Dico quod α ad β rationem habet, quam cubus numerus ad cubum numerum. Quoniam enim ipsi α, β, similes solidi sunt, inter ipsos igitur α, β, (per 19 octaui) bini cadunt numeri proportionales, cadunt, & sint ε, δ. Accipianturq́; (per 35 septimi) minimi numeri eandem habentium rationem ipsis α, γ, δ, β, sintq́; ipsis æquales multitudine ε, ζ, η, θ. Ipsi igitur ε, θ, eorum extremi cubi sunt: estq́; sicut ε ad θ, sic α ad β. Et α igitur ad β rationem habet, quàm cubus numerus ad cubum numerum, quod oportuit demonstrasse.
+**2** {dropcap:S|lines=?|style=decorated|decoration="serpent ornament"}I ex ductu alterius in alterū tetragonus producatur, duo quilibet numeri sunt superficiales similes.
 
-[Diagram: dotted number lines α, γ, δ, β, ε, ζ, η, θ]
+CORRELARIVM.
 
-# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER NONVS.
+Ex his itaq̃ patens est, quia si tetragonus in tetragonū ducatur, qui ex eis producetur, tetragonū esse. Si uero ex ductu tetragoni in numerum aliquem, tetragonus producatur, illum numerum aliquem esse tetragonū. Itemq̃ si ex ductu tetragoni in numerum aliquem, non tetragonus producatur, eum numerum aliquem non tetragonum esse. Si uero tetragonus in numerum aliquem non tetragonum ducatur, qui inde producetur, non tetragonum esse necesse est.
 
-Ex Campano. Diffinitiones.
+CAMPANVS. Hæc est conuersa prioris. Vt si ex a in b fiat c, fueritq̃ c quadratus, erunt a & b, superficiales similes. Sit enim d ex a in se, eritq̃ per 18 septimi, d ad c, sicut a ad b. Per 16 autē octaui, cum d & c sint superficiales similes, eo q̃ sunt ambo quadrati, erit inter eos unus numerus medius secundum continuam proportionem: per 8 itaq̃ eiusdem erit etiam unus inter a & b, igitur per 17 eiusdē, a & b sunt superficiales similes, quod est propositū.
 
-{dropcap:P|lines=?|style=decorated|decoration="captioned ALEXANDER DIOGENES, showing two figures"}Ar numerus, est qui potest in duo æqualia diuidi. 2 Impar numerus, est qui in duo æqualia diuidi non potest, additq̃ supra parem unitatē. 3 Pariter par, est quem cuncti pares eum numerantes, paribus uicibus numerant. 4 Pariter impar est quem cuncti pares eum numerantes, imparibus uicibus numerant. 5 Pariter par & impariter, est quem pares eum numerantes, quidam paribus quidam imparibus uicibus numerāt. 6 Impariter impar, quē cuncti impares eum numerantes, imparibus uicibus numerāt.
+[Diagram: dotted number lines c, d, b, a with intermediate dotted lines]
 
-[Margin]
-1
-[/Margin]
+Prima pars correlarij patet per præmissam, sunt enim omnes tetragoni, superficiales similes. Secūda patet ex hac, cum sit solus tetragonus similis tetragono. Tertia pars patet, ex prima ipsius correlarij parte, à destructione consequētis. Quarta uero patet ex eiusdem parte secunda, à destructione consequentis.
 
-<!-- Catchword: Perfectus -->
+## Eucli. ex Zamb. Theorema 2 Propositio 2
+
+**2** Si bini numeri inuicem sese multiplicantes, quadratum fecerint, similes plani sunt.
+
+<!-- Signature: c 2 -->
+
+<!-- Catchword: THEON -->

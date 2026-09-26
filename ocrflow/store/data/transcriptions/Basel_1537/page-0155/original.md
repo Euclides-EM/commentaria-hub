@@ -1,29 +1,41 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER SEXTVS -->
 
-<!-- Page number: 144 -->
+<!-- Page number: 145 -->
 
-e f, ergo per 9 quinti, g c & b c, sunt æquales, ergo per quintā primi angulus b, est æqualis angulo b g c. Si ergo neuter duorum angulorum b & e fuerit minor recto: accidet duos angulos unius trianguli non esse minores duobus rectis, quod esse non potest per 17 primi. Quod si uterq̃ fuerit minor recto: erit angulus a g c maior recto per 13 primi: quare & angulus e sibi æqualis, est etiam recto maior, quod est contra hypothesin: quare destructo opposito remanet propositum. Oportet autem utrunq̃ angulorū reliquorum, aut neutrum, esse minorem recto: possibile enim est in eodem triangulo ut in triangulo a b c, lineam g c esse æqualem b c: & ideo erit a c ad utramq̃ earum una proportio per 7 quinti. Nec tamen erunt trianguli a g c & a b c æquianguli, quamuis unus angulus unius sit æqualis uno angulo alterius, imo idem ut angulus a: & proportio lineæ a c prout est latus magni ad a c prout est latus parui: sicut b c latus magni ad g c latus parui: utraq̃ enim æqualis, & hoc est, propter hoc qd̕ angulus g minoris, est maior recto: & angulus b maioris. minor: Nam in omni triangulo duum æqualium laterum, uterq̃ angulorum qui sunt ad basin, est minor recto.
+## CORRELARIVM
 
-## Eucli. ex Zamb — Theorema 7. — Propositio 7.
+Vnde etiam manifestum est, quia in omni triangulo rectangulo, si ab eius angulo recto ad basin perpendicularis ducatur, erit ipsa perpendicularis inter duas sectiones ipsius basis proportionalis. Itemq̃ utrumq̃ latus inter totam basin atque sibi conterminalem basis portionem.
 
-7 Si bina triangula unum angulum uni angulo æqualem habuerint, circum autem alios angulos latera proportionalia, reliquorum uero utrunq̃ simul aut minorem aut non minorem recto, æquiangula erūt triangula, & æquales habebunt angulos circum quos proportionalia sunt latera.
+CAMPANVS. Sit trigonus a b c, orthogonus, eiusque angulus a, rectus, à quo ducatur a d perpendicularis ad basin, dico quod uterque duorum triangulorum partialium qui sunt a b d, a d c, similis est totali triangulo a b c, & unus eorum alteri: est enim uterque ipsorum æquiãgulus totali per 32 primi, eo quod uterque est orthogonius & in uno angulo cõmunicat cum totali, quare & sibi inuicem sunt æquianguli, ita quod angulus b est æqualis angulo d a c. & angulus b a d, angulo c, & duo anguli qui sunt ad d, sibijnuicem & angulo a totali æquales, quare per 4 huius latera æquos eorum angulorum angulos respicientia: sunt proportiõalia, ergo per diffinitionem sunt similes, quod est propositum. Vtrumq̃ correlarium ex his euidenter apparet.
 
-THEON ex Zamberto. *Sint bina triangula α β γ & δ ε ζ: unum angulum uni angulo æqualem habētia, eum scilicet qui sub β α γ ei qui est sub ε δ ζ. Circum autem alios angulos α β γ & δ ε ζ, latera proportionalia sicut α β ad β γ, sic δ ε ad ε ζ. Reliquorum uero qui ad γ, ζ, primo utrunq̃ simul maiorem recto. Dico quod æquiangulum est α β γ triangulū, ipsi δ ε ζ triangulo: & æqualis erit angulus α β γ, angulo δ ε ζ: & reliquus qui ad γ, reliquo qui ad ζ. Si enim inæqualis est angulus α β γ ei qui sub δ ε ζ est angulo, alter eorum maior est: sit maior angulus α β γ: & constituatur (per 23 primi) ad α β rectam lineam ad signumq̃ in ea β, ipsi δ ε ζ angulo æqualis angulus α β η. Et quoniā æqualis est angulus qui ad α ei qui est ad δ, & angulus α β η ei qui sub δ ε ζ: reliquus igitur angulus α η β reliquo angulo δ ζ ε est æqualis. Aequiangulum igitur est triangulm α β η, triangulo δ ε ζ. Est igitur (per 4 sexti) sicut α β ad β η, sic δ ε ad ε ζ. Sicutq̃ δ ε ad ε ζ: \* recipitur, sic α β ad β γ. Et sicut igitur (per 11 quinti) α β ad β γ, sic α β ad β η. Igitur (per 9 quinti) α β, ad utrunq̃ ipsorum β γ & β η, eandem habet rationem: æqualis igitur est β γ ipsi β η. Quare per quintā primi, & angulus qui ad β η γ, angulo qui sub β η γ est æqualis: sed minor recto subĳcitur angulus qui ad γ: minor igitur recto est angulus qui sub β η γ. Quare (per 13 primi) & \* altrinsecus ipsi angulus α η β, maior est recto: & ostensum est quod æqualis est ei qui ad ζ: & qui ad ζ igitur. maior est recto. Subĳcitur autem minor recto, quod est absurdum. Igitur inæqualis minime est angulus α β γ. angulo δ ε ζ. Aequalis autem est & qui ad α signum ei qui ad δ: & reliquus qui ad γ igitur, reliquo qui ad ζ est æqualis. Aequiangulum igitur est triangulum α β γ, triangulo δ ε ζ. Sed rursus supponatur uterq̃ eorum qui ad γ ζ, non minor recto. Dico rursus quod & sic est æquiangulum triangulum α β γ, triangulo δ ε ζ. Eisdem nempe dispositis, similiter demonstrabimus quod æqualis est β γ, ipsi β η: quare & angulus qui ad γ. ei qui sub β η γ est æqualis. At non minor recto est angulus qui ad γ: neq̃ igitur minor recto est angulus qui est sub β η γ. Trianguli igitur β η γ (per 17 primi, duo anguli duobus rectis nō sunt minores, qd̕ est impossibile. Non igitur rursus inæqualis est angulus α β γ, angulo δ ε ζ, æqualis igitur: est autē angulus qui ad α, ei qui ad δ æqualis. Reliquus igitur qui ad γ, reliquo qui ad ζ est æqualis. Aequiangulum igitur est triangulum α β γ, triangulo δ ε ζ. Si bina igitur triangula unum angulum uni angulo æqualem habuerint, circum autem alios angulos latera proportionalia, reliquorū uero utrunq̃ simul uel minorem uel non minorem recto: æquiangula erunt triangula, & æquales habebunt angulos circum quos proportionalia sunt latera, quod oportuit demonstrasse.*
+[Diagram: right triangle with apex a, base from b to c, perpendicular a d drawn from a to foot d on the base between b and c]
 
-[Margin]
-\* ὑπόκειται
-[/Margin]
+## Eucli. ex Zamb. — Theorema 8 — Propositio 8
 
 [Margin]
-\* ἐφεξῆς
+8
 [/Margin]
 
-[Diagram: triangle α β γ with apex α, base β γ, point η on side α γ and line β η drawn; beside it triangle δ ε ζ with apex δ and base ε ζ]
+## Si in triangulo rectangulo ab angulo recto in basin perpendicularis agatur, quæ ad perpendicularem triangula, similia sunt toti & adinuicem.
 
-[Diagram: two right-angled triangles: larger triangle with apex α, base point γ, point η on its hypotenuse with a line drawn to it from the bottom-left vertex; smaller triangle with apex δ and base ε ζ]
+THEON ex Zamb. Sit triangulum rectangulum α β γ, rectum habens eum qui sub β α γ, angulum, & excitetur (per 12 primi) ab α, in β γ, perpendicularis α δ. Dico quod simile est utrumque ipsorum α β δ, & α δ γ, triangulorum, toti α β γ, & insuper adinuicem. Quoniam enim (per 4 postulatum.) æqualis est angulus β α γ, angulo α δ β, rectus enim uterque est, communis autem est ipsorum duorum triangulorum α β γ, & α β δ, angulus qui ad β, reliquus igitur angulus α γ β, reliquo β α δ, est æqualis (per 32 primi. Aequiangulum igitur est triangulum α β γ, triangulo α β δ. Est igitur (per 4 sexti) sicut γ β, subtendens angulum rectum, α β γ. trianguli ad β α, subtendentem rectum angulum ipsius α β δ, trianguli, sic eadem α β, subtendens angulum qui ad γ, trianguli α β γ, ad β δ. subtendentem æqualem angulum β α δ, ipsius α β δ, trianguli, & insuper α γ, ad α δ, subtendentem angulum qui ad β, communem duorum triangulorum. Triangulum igitur α β γ, triangulo α β δ, æquiangulum est (per 7 sexti) & quæ circum æquales angulos sunt, latera proportionalia habet. Simile igitur est triangulum α β γ, triangulo α β δ, (per 1 diffinitionem sexti. Similiter iam ostendemus quod & triangulo α δ γ, simile est triangulum α β γ, utrumque igitur ipsorum α β δ, & α δ γ, triangulorum simile est toti α β γ. Dico etiam quod & adinuicẽ sunt similia: triangula α β δ, & α δ γ, Quoniam enim rectus angulus β δ α, recto angulo α δ γ, est æqualis (per 4 postulatum) sed & angulus, β α δ ei qui ad γ ostensum est quod est æqualis: reliquus igitur qui ad β, reliquo qui sub δ α γ, est æqualis.. Aequiangulum igitur est triangulum α β δ, triangulo α δ γ, est igitur sicut β δ, ipsius α β δ, trianguli subtendens angulum qui sub β α δ, ad δ α ipsius α δ γ, trianguli subtendentẽ angulũ qui ad γ, æqualem ei qui sub β α δ, sic ipsa α δ, trianguli α β δ, subtendens angulum qui ad β, ad δ γ, subtendentẽ angulũ qui sub δ α γ, ipsius trianguli α δ γ, æqualem ei qui ad β, & insuper β α ad α γ, subtendens rectos angulos. Simile igitur est triangulum α β δ, triangulo α δ γ. Si in rectangulo triangulo igitur ab angulo recto in basin perpendicularis agatur, triangula quæ circum perpendicularem similia sunt toti & adinuicem, quod demonstrasse oportuit.
 
-## Eucli. ex Camp. — Propositio 8.
+[Diagram: right triangle with apex α, base from β to γ, perpendicular α δ drawn to foot δ on the base near γ]
 
-8 SI ab orthogonĳ angulo recto, ad basin linea perpendicularis ducatur, fient duo trianguli partiales, toti triangulo & sibĳnuicem similes.
+CORRELARIVM. Ex hoc manifestum est, quod si in rectangulo triangulo ab angulo recto in basin perpendicularis agatur: acta, ipsius basis segmentis media proportionalis est. Et insuper ipsius basis & uniuscuiusq̃ segmentorum, latus quod ad segmentum, medium proportionale est, quod erat demonstrandum.
 
-<!-- Catchword: CORRE- -->
+## Eucli. ex Camp. — Propositio 9
+
+[Margin]
+9.
+[/Margin]
+
+## DVabus lineis propositis tertiam inter eas sub proportionalitate continua collocare.
+
+CAMPANVS. Sint duæ lineæ propositæ a b & c, inter quas uolo unam lineam in proportionalitate continua collocare. Adiungam unam earum alteri, sitque tota ex eis composita, a d, ita quod b d, sit æqualis c, & super totam describo semicirculum a e d, & produco b e usque ad circũferentiam, perpendicularem ad lineam a d, dico lineam b e, esse quam quærimus, produco enim li
+
+[Diagram: semicircle a e d on diameter a d with apex e, chords e a and e d, perpendicular e b to the diameter at b; below the diameter a separate short line segment labelled c]
+
+<!-- Signature: n -->
+
+<!-- Catchword: neas -->

@@ -1,13 +1,45 @@
-<!-- Running title: LIBER QVINTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 107 -->
+<!-- Page number: 180 -->
 
-excedunt. Vnde similiter se habent in addendo & minuendo quantum ad quantitatē excessus: nec tamen priores quantitates sunt continue proportionales: immo minorum est semper maior proportio. Hoc autem ideo euenit, quoniam earum multiplicia non similiter se excedunt, quantum ad proportionem, sed solum quantū ad quantitatem excessus, est enim & ibi in minoribus multiplicicibus maior proportio: uerbi gratia. Sumantur tres numeri æquis differentijs se excedentes, in medietate uidelicet arithmetica, ut 2, 3, 4: horum trium omnes æque multiplices æqualiter se excedunt: dupli quidem binario, tripli ternario, & sic de cæteris: non tamen sunt 2, 3, 4 continue proportionalia: immo minorum est maior proportio: est enim ipsorum proportio sesquialtera & maiorum sesquitertia, quia ergo inter eos non est similitudo proportionum: non erit inter eos proportionalitas: & ideo neque contiuna neq̃ incontinua. Patet ergo similitudinem illam additionis aut diminutionis, non intelligi quantum ad quantitatem excessus, sed quantum ad proportiooem: erit itaq̃ sensus diffinitionis præmissæ. Continue proportionalia, sunt quorum omnia æque multiplicia æqualia sunt continue proportionalia. Sed noluit ipsam diffinitionem proponere sub hac forma: quia tunc diffiniret idem per idem, apertæ tamen rei est istud cum sua diffinitione conuertibile. Tres autem quantitates a, b, c oportet esse eiusdem generis: ad hoc ut earum multiplicia sibjinuicem æqualia sint, aut similiter se habeant in addendo aut minuendo, Si enim a, & b essent diuersorum generū, essent etiam d & e ipsarum a & b multiplicia, eorundem diuersorum generum, propter hoc quod multiplicia & submultiplicia eiusdem sunt generis: quare d non esset æqualis e: nec ea maior aut minor: nam quantitates diuersorum generum, non sunt adinuicem comparabiles.
+multiplicibus ad secundam & quartam: erit proportio multiplicis primæ ad multiplex secundæ, sicut multiplicis tertiæ ad multiplex quartæ. Sed non diffiniuit sub hac forma, propter causam prædictam: licet à parte rei idem sit. Non est autem necessariū ut quatuor quātitates a, b, c, d sint eiusdem generis, eo quod b non cōtinuatur in proportione cum c: sed possunt esse duæ primæ unius generis, & duæ sequentes alterius. Per quod patet quod necesse est referri multiplex primæ ad multiplex secūdæ, & multiplex tertiæ ad multiplex quartæ: non autem multiplex primæ ad multiplex tertiæ, aut multiplex secundæ ad multiplex quartæ: quia non semper sunt eiusdem generis multiplex primæ & tertiæ, nec multiplex secundæ & quartæ: fuit autem necesse sumere æque multiplices ad primā & tertiā, itemq̃ æque multiplices ad secundā & quartā, & non æque multiplices ad primam & secūdam, & item non æque ad tertiam & quartam: quia nisi per multiplicium sumptinnem continuentur termini primæ proportionis cum terminis secundæ, non erit per quid sit proportio a ad b sicut c ad d.
 
-## 6 Quantitates quæ dicuntur esse secundum proportionem unam, prima ad secundam & tertia ad quartam, sunt quarum primæ & tertiæ multiplices æquales, multiplicibus secundæ & quartæ æqualibus fuerint similes, uel additione, uel diminutione, uel æqualitate eodem ordine sumptæ.
+## 7 Quantitates quarum proportio est una, proportionales nominantur.
 
-CAMPANVS. Posita superius diffinitione quantitatum continue proportionalium: hic ponit diffinitionem incontinue proportionalium: & est quod quarumlibet 4 quantitatum quarum primæ & tertiæ æque multiplicia sumpta fuerint, itemq̃ secundæ & quartæ æque multiplicia, fueritq̃ multiplex primæ, sic se habens ad multiplex secundæ quantum ad additionem aut diminutionem aut æqualitatem sicut multiplex tertiæ ad multiplex quartæ: erit proportio primæ earum ad secundam, sicut tertiæ ad quartam: uerbi gratia. Sint quatuor quantitates a, b, c, d: sumanturq̃ ad primam & ad tertiam quæ sunt a & c: æque multiplicia utpote dupla quæ sint e & f. Itemq̃ ad secundam & quartam quæ sunt b & d: sumantur alia æque multiplicia utpote tripla, quæ sint g & h: sitq̃ ut hæc 4 multiplicia sic sumpta comparata adinuicem secundum ordinem primarum quatuor quantitatum, ita, uidelicet, quod e comparetur ad g, & f ad h, non autem e ad f aut g ad h: sint similia in additione, diminutione & æqualitate: uidelicet quod si e addit supra g & similiter f addat supra h, aut si e minuit à g, & similiter minuat ab h: aut si e est æqualis g, & similiter f sit æqualis h: tunc proportio a ad b est sicut c ad d: similitudo autem in addendo aut diminuendo, intelligatur hic sicut in diffinitione continue proportionaliū, uidelicet nō quantum ad quantitatem excessus, sed quantum ad proportionem. Quod autem dicit eodem ordine sumptæ, intelligatur sicut expositum est: uidelicet ut multiplicia nō referantur adinuicem secundum ordinem earum quantitatum, quibus æque multiplicia assumuntur, ut multiplex primæ non referatur ad multiplex tertiæ, aut multiplex secundæ ad multiplex quartæ, sed referatur secundum primum ordinem ipsarnm 4 quantitatum, uidelicet multiplex primæ ad multiplex secūdæ, & multiplex tertiæ ad multiplex quartæ. Erit itaque sensus istius diffinitionis. Incontinue proportionales: sunt quatuor quantitates, & proportio primæ ad secundam est sicut tertiæ ad quartam: cum sumptis æque multiplicibus ad primam & tertiam, itemq̃ æque
+CAMPANVS. Postquam diffiniuit quantitates continue proportionales & incōtinue: diffinit quantitates proportionales simpliciter, & patet diffinitio.
 
-[Diagram: five horizontal segments with tick marks, labelled e and f (top), a and c, b and d, g and h (bottom), illustrating the equimultiples]
+## 8 Cum fuerint primæ & tertiæ æque multiplices, itemq̃ secundæ & quartæ æque multiplices, addetq̃ multiplex primæ super multiplicem secundæ, non addet autem multiplex tertiæ super multiplicem quartæ, dicetur prima maioris proportionis ad secundam, quàm tertia ad quartam.
 
-<!-- Catchword: mul -->
+CAMPANVS. Diffinitis quantitatibus proportionalibus, diffinit quantitates improportionales. Sunt autē improportionales, inter quas non est similitudo proportionum, quod contingit dupliciter, aut quia maior est proportio primæ ad secundam quàm tertiæ ad quartam: aut quia minor: & ideo eius sunt duæ species. Prima, quando maior est proportio primi ad secundum, quàm tertij ad quartum: & dicitur hoc, maior improportionalitas. Secunda uero, quādo minor est proportio primæ ad secundum, quàm tertij ad quartum: & dicitur minor improportionalitas: diffinit ergo eas inter quas est maior proportio primæ ad secundam quàm tertiæ ad quartam: quæ est maior improportionalitas: diffinitionem autem earum inter quas est minor proportio primæ ad secundam quàm tertiæ ad quartam, non ponit, quia ipsa patet ex alia. Cum igitur fuerint quatuor quantitates ad quarum primam & tertiam sumpta sint æque multiplicia, & ad secundam & quartam æque multiplicia, & multiplicia primæ & secundæ relata adinuicem non se habebunt similiter multiplicibus tertiæ & quartæ relatis adinuicem in additione, diminutione & æqualitate: illæ quatuor quantitates: erunt improportionales. Quod si ita fuerit qd̃ multiplex primæ sit æquale multiplici secundæ, multiplex uero tertiæ sit minus multiplici quartæ: aut quod multiplex primæ sit maius multiplici secundæ, & similiter multiplex tertiæ multiplici quartæ: ueruntamen plus excedit quantum ad proportionem non quantum ad quantitatem excessus, multiplex primæ multiplicem secundæ, quàm multiplex tertiæ multipilex quartæ: aut quod multiplex primæ sit minus multiplici secundæ, & similiter multiplex tertiæ multiplici quartæ, ueruntamen minus minuit quantū ad proportionē non quantū ad quantitatem excessus, multiplex primæ multiplici secūdæ, q̃ multiplex tertiæ à multiplici quartæ: erit quolibet
+
+| 1) | | 16 | | 18 |
+|---|---|---|---|---|
+| | 1 | 8 | 3 | 9 |
+| | 2 | 4 | 4 | 6 |
+| | | 16 | | 24 |
+
+| 2) | | 18 | | 16 |
+|---|---|---|---|---|
+| | 1 | 9 | 3 | 8 |
+| | 2 | 3 | 4 | 4 |
+| | | 12 | | 16 |
+
+| | | 24 | | 18 |
+|---|---|---|---|---|
+| | 1 | 8 | 3 | 6 |
+| | 2 | 4 | 4 | 5 |
+| | | 16 | | 20 |
+
+| 3) | | 10 | | 14 |
+|---|---|---|---|---|
+| | 1 | 5 | 3 | 7 |
+| | 2 | 3 | 4 | 4 |
+| | | 9 | | 12 |
+
+| 4) | | 16 | | 14 |
+|---|---|---|---|---|
+| | 1 | 8 | 3 | 7 |
+| | 2 | 6 | 4 | 5 |
+| | | 18 | | 15 |
+
+<!-- Catchword: istorum -->

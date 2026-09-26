@@ -1,41 +1,33 @@
-<!-- Running title: LIBER DECIMVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 267 -->
+<!-- Page number: 268 -->
 
-CAMPANI annotatio. Et nota quod si duæ lineæ a b & b c essent mediales in longitudine cōmunicantes, esset superficies a c medialis tantum, esset enim superficies a c communicans utrique duorum quadratorum a e & c d per primam sexti & per præsentem hypothesin, & per 10 huius, & ideo superficies h k æqualis a c, esset communicans utrique superficiei f h & k l, igitur per primam sexti, & 10 huius linea h m esset cōmunicans utrique duarum linearum g h & l m. Et quia hæ ambæ essent rationales in potentia tantum, non cōmunicantes in longitudine lineæ f g, esset quoq̃ h m rationalis in potentia tantum, non cōmunicans in longitudine lineæ f g, quare per 19 esset superficies h k medialis tantum & ideo etiam a c sibi æqualis. Si autem duæ lineæ a b & b c essent mediales, neque in longitudine neque in potentia communicantes, superficies a c neque esset rationalis neque medialis, si enim sic esset, scilicet, quod duæ lineæ a b & b c essent mediales neque in longitudine neque in potentia cōmunicantes, essent duo quadrata a e & c d incommunicantia, itaq̃ & duæ superficies f h & k l eis æquales quoq̃ essent incommunicantes, quare & duæ lineæ g h & m l essent incommensurabiles per primam sexti. & per secundam partem decimi. Et quia utraque earum est rationalis tantum in potentia, per 20 esset superficies unius earum ad alteram medialis per 19. Cum ergo quadratū lineæ h m sit æquale dictæ snperficiei{printer-error-correction:superficiei} quæ fit ex g h in m l, per primam partem 16 sexti, esset per 19 linea h m linea medialis, per 15 ergo non esset superficies h k ratioualis{printer-error-correction:rationalis}, nec etiam per 20 medialis, quare nec sua æqualis a c.
+logrammū η θ, ipsam latitudinē efficiens ζ θ. Ipsi autem α γ ad θ μ æquum comparetur (per eandem) rectangulum parallelogrammū μ κ, latitudinem efficiens θ κ. Et insuper (per eandem) β ε æquum similiter ad κ ν comparetur ν λ, ipsam latitudinem efficiens κ λ. In rectas lineas igitur sunt ζ θ, θ κ, & κ λ, & quoniam utrunq̃ ipsorum α δ & β ε medium est, estq̃ æquale α δ, ipsi η θ, & β ε ipsi ν λ, medium igitur est & utrunq̃ ipsorum η θ, ν λ, & ad rationalem ζ η comparata sunt. Rationalis igitur est (per 22 decimi) utraq̃ ipsarum ζ θ & κ λ, & incōmensurabilis ipsi ζ η longitudine. Quoniam igitur commensurabile est α δ ipsi β ε, cōmensurabile igitur est (per 11 decimi) & η θ ipsi ν λ, estq̃ sicut η θ ad λ ν, sic (per primam sexti) est ζ θ ad κ λ. Cōmensurabilis igitur est (per candem 11) ζ θ ipsi κ λ longitudine. Ipsæ igitur ζ θ, κ λ, rationales sunt longitudine cōmensurabiles. Rationale est igitur (per 19 decimi) quod sub ζ θ, κ λ. Et quoniam æqualis est quidem δ β ipsi β α, & ξ ε ipsi β γ, est igitur sicut δ β ad β γ, sic est α β ad ε ξ. Sed sicut quidem δ β ad β γ, sic est (per primam sexti, & per 11 quinti) δ α ad α γ, sicut autem α ε ad ε ξ, sic est α γ ad γ ξ, est igitur sicut δ α ad α γ, sic est α γ ad γ ξ, æquum autem est α δ ipsi η θ, & α γ ipsi μ κ, & γ ξ ipsi ν λ, est igitur (per 17 sexti) sicut η θ ad μ κ, sic est μ κ ad ν λ, est igitur sicut & ζ θ ad ipsam θ κ, sic est θ κ ad ipsam κ λ. Igitur quod sub ζ θ, κ λ, æquum est ei quod fit sub θ κ. Rationale autem est quod sub ζ θ, ζ λ, rationale igitur est & quod ex θ κ. Rationalis est igitur (per 19 decimi) ipsa θ κ, & siquidem commensurabilis est ipsi θ μ, hoc est ipsi ζ η longitudine, rationale est (per 22 decimi) ipsum ν θ. Si autem incommensurabilis est ipsi ζ η longitudine, ipsæ θ κ & θ μ rationales (per 22 decimi) potentia solum commensurabiles, medium igitur est θ κ. Igitur θ ν aut rationale est aut medium, æquum autem est θ ν ipsi α γ, igitur α γ uel rationale uel medium est. Sub medys igitur potentia tantum cōmensurabilibus, & quæ sequuntur reliqua. Quod erat ostendendum.
 
-[Margin]
-Zamb. 24
-[/Margin]
+[Diagram: at top right, a square (on α δ, β) with a small square adjoining at the upper right corner labelled ζ, θ, η; below it a large three-strip rectangle whose left side is labelled top-to-bottom λ, θ, η, ζ and right side ν, μ, θ]
 
-[Diagram: a square with top side labelled e, b, c, interior labelled a, and above the segment b c a square labelled d at its top; beside it a tall rectangle divided into three stacked parts labelled l, m and b, with k at the left between the upper parts, f at bottom left and g at bottom right]
+## Eucli.ex Zamb. Theorema 23 Propositio 26
 
-Præcedentes duæ ex Campano propositiones, scilicet, 22. & 23. tribus ex Zamberto sequentibus, uidelicet, 24. 25. & 26. inuerso ordine respondent, 22. namq̃ ex Campano, 26. ex Zamberto, 26.{printer-error-correction:23} autem ex Campano, cum additione, 24. & 25. ex Zamberto respondent.
-
-## Eucli.ex Zamb. Theorema 21 Propositio 24
+## Medium, non excedit medium rationali.
 
 [Margin]
-24
+26
 [/Margin]
 
-## Sub medijs longitudine commensurabilibus rectis lineis comprehensum rectangulum, medium est.
+THEON ex Zamberto. Si enim possibile, medium α ε, medium α γ excedat rationali δ β, ponaturq̃ rationalis ε ζ, ipsiq̃ α β æquum ad ε ζ comparetur (per 44 primi) parallelogrammū rectangulum ζ θ, latitudinē efficiens ε θ : ipsi autem α γ æquum auferatur ζ κ, reliquum igitur β δ (per tertiam cōmunem sententiam) reliquo κ θ est æquale. Rationale autem est δ β, rationale igitur est & κ θ. Quoniam igitur medium est utrunq̃ ipsorum α β, α γ, estq̃ α ε ipsi ζ θ æquale (per correlarium 23 decimi) at α γ ipsi ζ κ, medium igitur est utrunq̃ ipsorū ζ θ, ζ κ, & ad rationem ε ζ comparata sunt. Igitur rationalis est utraq̃ ipsarum ε ζ & ε κ, & incommensurabilis ipsi ε ζ longitudine (per 22 decimi.) Et quoniam rationale est δ β, estq̃ ipsi κ θ æquale, rationale igitur est & κ θ, ad rationalemq̃ ε ζ comparatū est, rationalis igitur est (per 20 decimi) κ θ, & ipsi ε ζ longitudine commensurabilis. Sed ε κ rationalis est, & ipsi ε ζ longitudine incōmensurabilis, incōmensurabilis igitur est (per 13 decimi) ε κ ipsi κ θ longitudine, estq̃ sicut ε κ ad κ θ, sic quod ex ε κ ad id quod ε κ & κ θ. Incōmensurabile igitur est (per 11 decimi & lemma 21 decimi) quod ex ε κ ei quod sub ε κ & κ θ. Sed ipsi quidem quod ex ε κ, cōmensurabilia sunt quæ ex ε κ & κ θ quadrata, rationalia etenim utraq̃; ei autem quod sub ε κ & κ θ cōmensurabile est (per 13 decimi) id quod bis sub ε κ & κ θ, duplum nanq̃ est illius. Incōmensurabilia igitur sunt (per 16 decimi) quæ ex ε κ & κ θ, ei quod bis sub ε κ & κ θ, & utraq̃ igitur simul quæ ex ε κ & κ θ, & quod bis sub ε κ & κ θ quod est id quod ex ε θ (per 4 secundi) incōmensurabile est eis quæ ex ε κ & κ θ. Rationalia autē sunt quæ ex ε κ & κ θ (per diffinitionē.) Irrationale igitur est qd̃ ex ε θ, irrationalis igitur est ε θ, sed & rationalis, quod est impossibile : medium igitur mediū non excedit rationali, quod erat ostendendum.
 
-THEON ex Zamberto. Sub medijs enim longitudine commensurabilibus rectis lineis α β, β γ, comprehendatur rectangulum α γ, dico quod α γ medium est. Describatur enim (per 49 primi) ex α β, quadratum α δ, medium igitur est α δ. Et quoniam cōmensurabilis est α β ipsi β γ longitudine, æqualis autem est α β ipsi β δ, commensurabilis igitur est δ β ipsi β γ longitudine. Quare & δ α ipsi α γ (per correlarium 23 decimi) commensurabile est : medium autem est δ α, medium igitur est & α γ, quod oportebat ostendere.
+[Diagram: a rectangle divided by a vertical line, labelled γ and β along the top and α, δ at the bottom; below it a second rectangle divided by a vertical line with ζ and κ at the top corners and ζ, θ at the bottom]
 
-[Diagram: a rectangle with δ at top left, β at the top where a vertical line divides it, γ at top right, and α below the bottom right]
+Sequentes duæ ex zamberto neutiquā in Campano respondentes habent.
 
-## Eucli.ex Zamb. Theorema 22 Propositio 25
+## Eucli.ex Zamb. Problema 4 Propositio 27
+
+## Medias inuenire potentia tantum cōmensurabiles, rationale comprehendentes.
 
 [Margin]
-25
+27
 [/Margin]
 
-## Sub medijs potentia tantum commensurabilibus rectis lines{printer-error-correction:lineis} comprehensum rectangulum, aut rationale aut medium est.
+THEON ex Zamberto. Exponantur binæ rationales potentia tantum commensurabiles α β, sumanturq̃ (per 13 sexti) ipsarum α, β, media proportionalis γ. Fiatq̃ (per 12 sexti) sicut α ad β, sic γ ad δ. Et quoniam ipse α, β, rationales sunt potentia tantum cōmensurabiles, igitur quod sub α, β, hoc est quod ex γ fit (per 21 decimi) medium est, media igitur est γ. Et quoniam est sicut α ad β, sic γ a δ{printer-error-correction:ad δ}, ipsæ autem α, β, potentia tantum sunt commensura-
 
-THEON ex Zamberto. Sub medijs potentia tautum{printer-error-correction:tantum} cōmensurabilibus rectis lineis α β, β γ, cōprehendatur rectangulū α γ. Dico quod α γ, aut rationale, aut mediū est. Describantur enim (per 46 primi) ex α β & β γ, quadrata α δ & β ε, medium est igitur utrumq̃ ipsorū α δ & β ε. Exponaturq̃ rationalis ζ η, ipsiq̃ α δ æquum ad ζ η comparetur (per 4, primi) rectangulū paralle
-
-[Diagram: a square with γ at the top inside, δ at bottom left, β and ε at the left side, α at the right where a small rectangle ε–α adjoins the top; beside it a rectangle divided by horizontal lines with λ at top left, η at left, θ at left below, ζ at bottom left, and ε, μ, η at the right side]
-
-<!-- Signature: z 2 -->
-
-<!-- Catchword: logrammū -->
+<!-- Catchword: cōmensuræ -->

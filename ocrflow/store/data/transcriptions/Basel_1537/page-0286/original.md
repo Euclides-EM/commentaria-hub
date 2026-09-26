@@ -1,25 +1,31 @@
-<!-- Running title: LIBER DECIMVS. -->
+<!-- Page number: 276 -->
 
-<!-- Page number: 275 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-duæ lineæ a b & c d, quales proponit 25, eruntq́ⳓ simili argumentatione præmissæ duæ lineæ a e & e b, quales hæc 28 proponit. Cum sit enim a b linea medialis, erit eius quadratum mediale per 29, & ideo quadrata duarum linearum a e & e b, sunt medialia per penultimam primi. Et quia a b in c d continet superficiem rationalem, sequitur etiam ut a b in c f, & ideo in g e sibi æqualem, contineat superficiem rationalem, itaque & a e in e b. Patet ergo quod quæritur. Vnde duæ lineæ quas hæc 28 docet inuenire, componūt lineam potentem in rationale & mediale, & minori earum abscisa de maiori, quæ reliqua est, dicitur linea quæ iuncta cum rationali componit totum mediale.
-
-[Diagram: semicircle on diameter a b with apex e; perpendicular e g to a b at g; chords from e to a and to b; below, a short line b and a divided line c f d]
-
-## Eucli. ex Zamb. Problema 12 — Propositio 34.
-
-34 Binas rectas lineas potentia incommensurabiles efficientes compositum ex ijs quæ ab ipsis sunt quadrata medium, quod uero sub ipsis rationale, comperire.
-
-THEON ex Zamberto. Exponantur binæ mediæ potentia tantum commensurabiles α β, β γ, rationale comprehendentes quod sub ipsis, ut α β, ipsa β γ maius possit eo quod a sibi incommensurabili. Describaturq́ⳓ super ipsa α β, semicirculus α δ β, secteturq́ⳓ (per 10 primi) β γ, bifariam in ε, comparcturq́ⳓ{printer-error-correction:compareturq́ⳓ} (per 28 sexti) ad ipsam α β, ei quod ex β ε æquum parallelogrammū forma deficiens α{printer-error-correction:a} quadrata, sitq́ⳓ quod sub α ζ, ζ β. Incommensurabilis igitur est α ζ ipsi ζ β longitudine. Exciteturq́ⳓ (per 11 primi) ab ζ, ipsi α β ad angulos rectos ζ δ, connectanturq́ⳓ ipsæ α δ & δ β. Quoniam igitur incommensurabilis est α ζ ipsi ζ β, incommensurabile est igitur & quod sub β α & α ζ, ei quod sub α β. & β ζ. Aequale autem est id quod sub β α & α ζ, ei quod ex α δ, quod autem sub α β, β ζ, ei quod ex δ β, incommensurabile igitur est & id quod ex α δ, ei quod ex δ β. Et quoniam medium est quod fit ex α β, medium igitur est & compositum ex eis quæ ex α δ, δ β. Et quoniam dupla est β γ ipsius δ ζ, duplum igitur est quod sub α β, β γ, eius quod sub α β, ζ δ. Rationale autem est quod sub α β, β γ, supponitur enim: rationale igitur & quod sub α β, ζ δ. Ei autem quod sub α β, ζ δ, æquum est (per lemma 32 decimi) qnod{printer-error-correction:quod} sub α δ, δ β. Quare & quod sub α δ, δ β, rationale est. Inuentæ sunt igitur binæ rectæ lineæ potentia incommensurabiles α δ, δ β, efficientes compositum ex eis quæ ab ipsis sunt quadratis medium, quod uero sub ipsis rationale. Quod facere oportuit.
-
-[Diagram: semicircle α δ β drawn on a vertical diameter α β, with δ marked in the margin; the perpendicular from ζ meets the arc, chords joining α and β to δ; the point ε on the diameter; the line continued below β down to γ]
-
-## Eucli. ex Camp. Propositio 29
-
-29 DVas lineas potentialiter incommensurabiles superficiemq́ⳓ medialem continentes, quarum quadrata ambo pariter accepta sint mediale, duplo superficiei unius in alteram incommensurabile, inuenire.
-
-CAMPANVS. Huius quoq́ⳓ dispositio, a duarū præmissarū dispositione non sit in quoquam diuersa. Sint autem lineæ duæ a b & c d, quales 26 proponit, eruntq́ⳓ præmissa argumentatione duæ lineæ a e & e b, quas inquirimus. Cum enim a b sit linea medialis, erūt quadrata duarum linearum a e & e b pariter accepta medialia, at cum a b & c d cōtineant superficiem medialem, sequitur ut c b{printer-error-correction:a b} in e f, & ideo in e g sibi æqualē, contineat quoq́ⳓ superficiem medialem, omnis enim superficies mediali cōmunicans, medialis esse conuincitur, quemadmodū in 21 monstratum est: superficies igitur a e in e b medialis est, cum ipsa sit æqualis superficiei a b in g e. Quia uero linea a b est incōmensurabilis lineæ c d, erit etiam incōmensurabilis lineæ c f, quare & lineæ e g. Quare per primam partem sexti & secundam partem decimæ huius, superficies a b in e g quæ est æqualis superficiei a e in e b, erit incommensurabilis quadrato
+lineæ a b, itaq́ⳓ & quadratis duarum linearum a e & e b pariter acceptis. Quod cum ita sit, sequitur quoque ut duplum superficiei a e in e b sit incommensurabile quadratis prædictis duarum linearum a e & e b pariter acceptis. Et hoc erat demonstrandum. Duæ lineæ quas hæc 29 docet inuenire, componunt lineam potentem in in duo medialia, & minori earum abscisa de maiori, quæ reliqua est, dicitur linea quæ iuncta cum mediali facit totum mediale.
 
 [Diagram: semicircle on diameter a b with apex e; perpendicular e g to a b at g; chords from e to a and to b; below, a short line b and a divided line c f d]
 
-<!-- Catchword: lineæ -->
+## Eucli. ex Zamb. Problema 12 Propositio 35
+
+35 Comperire binas rectas lineas potentia incōmensurabiles, efficientes cōpositum ex earum quadratis medium, & quod sub ipsis medium, & insuper incōmensurabile composito ex earum quadratis.
+
+THEON ex Zamberto. Exponantur (per 28 decimi) binæ mediæ potentia tantum incōmensurabiles α β, β γ, medium comprehendentes, ut α β ipsa β γ maius possit eo quod ex sibi incommensurabili. Describaturq́ⳓ super α β, semicirculus α δ β, & reliqua fiant quemadmodum in superioribus. Et quoniam (per secundam partem 18) incommensurabilis est α ζ ipsi ζ β longitudine, incommensurabilis est (per 11 decimi) & α δ ipsi δ β potentia. Et quoniam quod ex α β medium est, medium igitur est & compositum ex ijs quæ ex α δ, δ β. Et quoniam quod sub α ζ, ζ β, æquum est ei quod ex utraque ipsarum β ε, δ ζ, æqualis igitur est β ε ipsi δ ζ. Dupla igitur est β γ ipsius ζ δ, quare & quod sub α β, β γ, duplum est eius quod sub α β, ζ δ. Medium autem quod sub α β, β γ, medium igitur & quod sub α β, ζ δ, æquumq́ⳓ est ei quod sub α δ, δ β, medium igitur est (per correlarium 23 decimi & per lemma primum decimi) quod sub α δ, δ β. Et quoniam incommensurabilis est α β ipsi β γ longitudine, commensurabilis autem est β γ ipsi β ε, incōmensurabilis igitur est (per 23 decimi) & α β ipsi β ε longitudine. Quare & quod ex α β, ei quod sub α β, β ε, incommensurabile est. Sed ei quidem quod ex α β æqualia sunt quæ ex α β, δ β, (per 47 primi,){printer-error-correction:α δ, δ β} ei autem quod sub α β, β ε, æquum est id quod sub α β, ζ δ, hoc est quod sub α δ, δ β, incommensurabile igitur est compositum ex ijs quæ ex α δ, δ β, ei quod sub α δ, δ β. Inuentæ igitur sunt binæ rectæ lineæ α δ, δ β, potentia incommensurabiles, efficientes compositum ex earum quadratis medium, & quod sub ipsis medium, & insuper composito ex earum quadratis incommensurabile. Quod fecisse oportuit.
+
+[Diagram: semicircle α δ β drawn on a vertical diameter α β, with the point α at top; the perpendicular from ζ meets the arc at δ; chords joining δ to the ends of the diameter; ε marked on the line below β, which is continued down to γ]
+
+## Eucli. ex Camp. Propositio 30
+
+30 SI duæ lineæ potentialiter tantum rationales communicantes, in longum directumq́ⳓ coniungantur, tota linea ex his composita erit irrationalis, diceturq́ⳓ binomium.
+
+CAMPANVS. Sint duæ lineæ a b & b c in continuum directumq́ⳓ cōiunctæ rationales in potentia tantum communicantes, quas per 17 & 18 reperies, dico totam lineam a c ex eis compositam esse irrationalem, & ipsa uocatur binomium. Est enim per quartam secundi quadratum a c æquale quadratis duarum linearum a b & b c & duplo superficiei unius earum in alteram, quadrata autem ambarum faciunt superficiem rationalem ex hypothesi, duplum uero superficiei unius earum in alteram facit superficiem medialem ex decimanona, itaq́ⳓ quadrata ambarum pariter acceptarum faciunt superficiem incommensurabilem duplo superficiei unius earum in alteram, erit igitur ex 9 quadratum a c incōmensurabile duobus quadratis duarum linearum a b & b c pariter acceptis, quare irrationale per diffinitionem, cum duo illa quadrata faciāt superficiem rationalem, ideoq́ⳓ suum latus tetragonicū quod est a c, irrationale quoq́ⳓ per diffinitionem, constat ergo propositum.
+
+[Diagram: line a c divided at b, labelled above "a Re.12" and "b Re.4 c", below "a c Re. Re. 256"]
+
+## Eucli. ex Zamb. Theorema 24 Propositio 36
+
+36 Si binæ rationales potentia tantum commensurabiles compositæ fuerint, tota irrationalis est, uoceturq́ⳓ ex binis nominibus
+
+THEON ex Zamberto. Componantur enim binæ rationales potentia tantum commensurabiles, α β, β γ.
+
+<!-- Catchword: Dico -->

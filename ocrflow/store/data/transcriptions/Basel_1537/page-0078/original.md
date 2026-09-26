@@ -1,57 +1,45 @@
-<!-- Running title: LIBER TERTIVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 69 -->
+<!-- Page number: 70 -->
 
-centrum est circulorum β γ, & α ε ζ: æqualis est δ α, ipsi δ ζ, & ipsa δ γ, ipsi δ β: ex cētro enim in circunferentiam. Duæ igitur α δ, δ β, duabus ζ δ, δ γ, sunt æquales, & angulum communem habent qui ad δ: basis igitur α β, (per 4 primi) basi ζ γ, est æqualis, & triangulus δ α β, triangulo δ ζ γ, & reliqui anguli reliquis angulis, æqualis igitur est angulus δ β α, angulo δ γ ζ, rectus est autem qui sub δ γ ζ, rectus igitur est & qui sub δ β α, & est δ β, ex centro. Quæ autem ex diametri circuli extremitate ad angulos rectos ducitur, ipsum tangit circulum, (per correlarium 16 tertij. igitur α β, ipsum circulū β γ, tangit. A dato igitur signo α, dato circulo β γ, cōtingēs recta linea ducta est α β, quod fecisse oportuit.
+at angulus α γ δ, rectus est, æqualis igitur est angulus ζ γ δ, ei qui sub α γ δ, minor maiori, quod est impossibile. Igitur ζ, centrum circuli α β γ, non est. Similiter quoque ostendemus, quod nec alibi præter quàm in α γ. Si circulum igitur aliqua recta linea tetigerit, à contactu autem ipsi tangenti ad angulos rectos recta linea excitetur, in excitata erit centrum circuli quod demonstrasse oportuit.
 
-[Diagram: two concentric circles with centre δ; α at the top upon the outer circle, ζ upon it below, β upon the inner circle, γ at the foot; the lines δ α, γ ζ, ζ δ and α β form two triangles]
-
-## Eucli.ex Camp.  Propositio 17
-
-[Margin]
-17
-[/Margin]
-
-SI circulum linea recta contingat, à contactu uero ad centrum linea recta ducatur, necesse est eam super lineam contingentem esse perpendicularem.
-
-CAMPANVS. Sit linea a b, cōtingens circulum c e, cuius centrum sit d, in puncto c, qui iungatur cum centro per lineam c d. Dico hanc esse perpendicularem super lineam contingentem. Si enim non sit perpendicularis ad ipsam, sit ergo d f perpendicularis ad eandem, quæ secet circunferentiam circuli in puncto e, eritque uterq̃ angulorum qui sunt ad f, rectus, igitur per 18 primi, linea c d, est maior linea d f, quod est impossibile. Constat itaq̃ d c esse perpendicularem super a b: quod est propositum.
-
-[Diagram: circle with centre d; above it the horizontal tangent line a c f b, touching at c, with e upon the circle beneath f; the lines d c and d f are drawn]
-
-## Eucli. ex Zamb.  Theorema 16.  Propositio 18.
-
-[Margin]
-18
-[/Margin]
-
-Si circulum tetigerit aliqua recta linea, à centro autem in contactum ducta fuerit aliqua recta linea, ipsa ducta, perpendicularis erit contingenti.
-
-THEON ex Zamb. Circulum enim α β γ, tangat recta linea quædam δ ε, in γ signo, & sumatur (per 1 tertij,) centrum circuli α β γ, sitque illud ζ. Et a ζ, in γ, ducatur (per primum postulatum) ζ γ. Dico quod ζ γ, perpendicularis est ipsi δ ε. Si enim non, ducatur (per 12 primi) a ζ, in δ ε, perpendicularis ζ η. Quoniam igitur angulus ζ η γ, rectus est, angulus igitur qui sub ζ γ η, est acutus, maior igitur est angulus ζ η γ, angulo ζ γ η, (per 19 primi) maius latus subtēditur, maior igitur est ζ γ, quàm ζ η. Aequalis autem est ζ γ, ipsi ζ β, ex centro enim in circunferentiam, maior igitur est ζ β, quàm ζ η, minor maiore, quod est impossibile. Igitur ζ η, ipsi δ ε, non est perpendicularis. Similiter quoque ostendemus, quod nulla alia præter ζ γ: igitur ζ γ, perpendicularis est ipsi δ ε. Si circulum tetigerit aliqua recta linea, & quæ sequuntur reliqua, quod demonstrasse oportuit.
-
-[Diagram: circle with α at the top and centre ζ; below, the tangent line δ γ η ε touching at γ; the lines ζ γ and ζ η are drawn, β lying upon ζ η within the circle]
-
-## Eucli.ex Camp.  Propositio 18
-
-[Margin]
-18
-[/Margin]
-
-SI circulum linea recta contingat, & à contactu in circulum linea quædam orthogonaliter ducatur, in eadem centrum esse necesse est.
-
-CAMPANVS. Sit ut prius linea a b contingēns circulum c e in pūcto c, & contactui ducatur linea intra circulum, c e, perpendicularis ad lineam a b. Dico quod centrum circuli est in linea c e. Hæc est cōuersa prioris. Si enim non fuerit centrum in linea c e, sit alibi ubicunque contingat, sitq̃ d, & producatur d c, eritq̃ d c, per præmissam perpendicularis ad lineam a b, quod est impossibile, cum c e, posita sit perpēdicularis ad ipsam.
-
-[Diagram: horizontal tangent line a c b above a circle touching at c; the line c e descends through the circle, d lying within it beside the line]
-
-## Eucli.ex Zamb.  Theorema 17.  Propositio 19.
+## Eucli.ex Camp.  Propositio 19.
 
 [Margin]
 19
 [/Margin]
 
-Si circulum tetigerit aliqua recta linea, à contactu autem ipsi tangenti ad angulos rectos recta linea quædam excitetur, in excitata erit centrum circuli.
+SI intra circulum angulus supra centrum consistat, alius uero angulus supra circunferentiam consistens eādem basin habeat: interior superiori duplus erit.
 
-THEON ex Zamberto. Circuli enim α β γ, tangat recta linea quædam δ ε, in signo γ, & ab ipso γ, (per 11 primi) excitetur ad angulos rectos γ α. Dico quod in ipsa α γ, est centrum circuli. Non enim, sed si possibile est, sit ζ, & (per primum postulatum) coniungatur ζ γ. Quoniam igitur circuli α β γ, recta linea quædam δ ε, tangit, à cētro autē in cōtactū ducta est ζ γ, igitur ζ γ, (per 18 perpendicularis) est ipsi δ ε. Rectus igitur est angulus ζ γ δ,
+CAMPANVS Sit ut in circulo a b c, cuius cētrum d, fiat angulus a d c, supra cētrū, & angulus a b c super circunferentiam, sitq̃ utriusque anguli eadem basis quæ sit arcus a c. Dico angulum a d c, duplum esse ad angulū a b c. Quod sic probatur. Aut enim duæ lineæ a b, & c b includunt duas lineas a d, & c d, aut altera earum sit linea una cum altera reliquarum, aut etiam altera primarum secat alteram postremarum. Sit ergo primo ut includant eas ut in prima figuratione apparet, & producatur linea b d e, eritque per 32 primi, angulus a d e, extrinsecus, æqualis duobus intrinsecis qui sunt b a d & a b d, anguli. Et quia ipsi sunt æquales per quintam eiusdem, erit angulus a d e, duplus ad angulum a b d. Simili quoque modo erit angulus e d c, duplus ad angulum d b c, quare totus angulus a d c, duplus erit ad totum angulum a b c, quod est propositum.
 
-[Diagram: circle with α at the top, β at the left, ζ within; below, the tangent line δ ε touching at γ; the lines γ α and ζ γ are drawn]
+[Diagram: three circles for the three cases: in the first, b at the top, centre d, and a, e, c at the foot, the line b d being produced to e; in the second, b at the top with e and d upon the circle and a, c below; in the third, e, d, b at the top and a, c below; in each, lines are drawn from a and c to b and to d]
 
-<!-- Catchword: at -->
+Quod si altera duarum linearum a b & b c, fuerit linea una cum altera duarum quæ sunt a d & d c, ut in secunda figuratione apparet, per easdem per quas prius & simili modo liquet propositum. Quod si altera duarum linearum primarum secet alterā duarum postremarum, ut in tertia figuratione apparet ubi linea a b secat lineam d c, producatur linea b d e. Erit per easdem quas à principio assumpsimus & simili modo angulus e d a, duplus ad angulum d b a, & totus angulus e d c, duplus ad totū angulum d b c, quare angulus a d c, duplus est ad angulum a b c. Quod est propositum.
+
+## Eucli ex Zamb.  Theorema 18.  Propositio 20.
+
+[Margin]
+20
+[/Margin]
+
+In circulo angulus qui ad centrum, duplus est eius qui ad circunferentiam, quando anguli eandem circunferentiam habuerint basin.
+
+THEON ex Zamb. Sit circulus α β γ, & eius centrum, sit angulus β ε γ, ad centrum, ad circunferentiam uero, angulus β α γ, habeant autem eandem basin, circunferentiam β γ. Dico quod duplus est angulus β ε γ, anguli β α γ, ducta enim α ε, (per secundum postulatum) extendatur in ζ. Quoniam igitur æqualis est α ε, ipsi ε β, ex centro enim in circunferentiam: æqualis est angulus: ε α β, ei qui sub ε β α. Anguli igitur ε α β, & ε β α, (per 5 primi,) eius qui sub ε α β, dupli sunt, æqualis autem est qui sub β ε ζ, (per 32 eiusdem) eis qui sub ε α β & ε β α. Angulus igitur β ε ζ, ipsius ε α β, duplus est. Et perinde angulus qui sub ζ ε γ, (per eandem) duplus est eius qui sub ε α γ. Totus igitur β ε γ, totius qui sub β α γ, est anguli, duplus. Rursus constituatur, & sit alter angulus β δ γ, & ducatur (per 1 postulatum) δ ε, extendaturque (per 2 postulatum) in η. Similiter quoque ostendemus quod duplus est η ε γ, angulus eius qui sub η δ γ, est anguli. Quorum qui sub η ε β, duplus est eius qui sub η δ β. Reliquus igitur qui sub β ε γ, eius qui est sub β δ γ, duplus est. In circulo igitur angulus qui ad centrum, duplus est eius qui ad circunferentiam, quando eandem circunferentiam basin habuerint anguli, quod oportuit demonstrasse.
+
+[Diagram: circle with δ at the top, α at the left, ε near the centre, β and γ at the foot; the chords and the lines drawn through ε produced to ζ and η form a star-shaped figure]
+
+## Eucli.ex Camp.  Propositio 20.
+
+[Margin]
+20
+[/Margin]
+
+SI in una circuli portione, anguli super arcū consistant, angulos quoslibet æquales esse necesse est.
+
+CAMPANVS Sit in portiōe a d b, circuli a b c, cuius centrum sit f, consistant quotlibet anguli super arcū a d b, qui sunt e & d. Dico eos esse æquales, Protrahatur enim chorda a b, & ab eius extremitatibus ducatur in centrū, lineæ a
+
+[Diagram: circle with d at the top, e at the upper right, centre f, a and b at the foot; chords are drawn from a and b to d and to e, and the lines a f, b f to the centre]
+
+<!-- Catchword: f & -->

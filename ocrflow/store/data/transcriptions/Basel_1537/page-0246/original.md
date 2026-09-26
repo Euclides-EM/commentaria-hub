@@ -1,33 +1,49 @@
-<!-- Running title: LIBER NONVS. -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 235 -->
+<!-- Page number: 236 -->
 
-erit, quotlibet enim posito, per primam partem eiusdem secundum ipsum positum numerabit primus productum, quod positum erat non numerare.
+THEON ex Zamb. Sint propositi primi numeri α,β,γ. Dico quod ipsis α,β,γ, plures sunt primi numeri. Accipiatur enim (per 39 septimi) minimus quem ipsi α,β,γ, metiūtur, sitq́; δ ε, addaturq́; ipsi δ ε, unitas δ ζ, iam ε ζ aut est primus aut non, sit prius primus, inuenti igitur sunt primi numeri α, β,γ,ε ζ, plures ipsis α,β,γ. Sed iam non sit ε ζ primus: igitur eum aliquis numerus primus metitur (per 34 septimi,) metiatur eum numerus primus η. Dico quod η nulli ipsorū α,β,γ, est idem. Si enim η alicui ipsorū α,β,γ, est idem, ipsi autem α,β,γ, ipsum δ ε metiuntur, igitur & η, ipsum δ ε metietur, metitur autem & ε ζ, & reliquam δ ζ unitatem metietur η numerus existens, quod est absurdum: igitur η non est idem uni ipsorum α, β, γ, ipse autem supponitur & primus. Inuenti igitur sunt primi numeri plures proposita multitudine ipsorum α,β,γ, ipsi α,β,γ,η, quod ostendere oportuit.
 
-## Eucli. ex Zamb. Theorema 19 Propositio 19
+[Diagram: at right, rows of small filled squares labelled α (two), β (three), γ (nineteen); below, a long solid line marked 114 and 23 above, ending with points δ . ζ; beneath it a shorter solid line labelled η]
 
-**19** Tribus numeris datis, considerare si est possibile eis quartum inuenire proportionalem.
+## Eucli. ex Camp. Propositio 22
 
-[Margin]
-δέον ἴσω
-[/Margin]
+**22** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I coaceruentur quotlibet numeri pares, totus quoq̃ ab eis coaceruatus erit par.
 
-THEON ex Zamber. Sint dati tres numeri, α β, γ, sitq̃ * opportunū coniectare, si possibile est eis quartum proportionalem inuenire. Iam ipsi α, β, γ, aut continue sunt proportionales & eorum extremi α, γ, sunt primi adinuicem, aut non sunt continue proportionales & eorum extremi primi sunt adinuicem, aut continue sunt proportionales & eorum extremi non sunt adinuicem primi, uel neq̃ sunt continue proportionales neq̃ eorum extremi primi sunt adinuicem. Si quidem igitur ipsi α,β,γ, continue sunt proportionales, & eorum extremi α, γ, sunt primi adinuicem, patet per 17 noni, quod est impossibile eis quartum proportionalem inuenire numerum. Non sint iam ipsi α,β,γ, continue proportionales, extremis rursus primis existentibus adinuicem. Dico quod & sic quantum{printer-error-correction:quartum} proportionalem inuenire, est impossibile. Si enim possibile, inueniatur δ. Vt sit sicut α ad β, sic γ ad δ, fiatq̃ β ad γ, sic δ ad ε. Et quoniam est sicut quidem α ad β, sic γ ad δ, sicut autem β ad γ, sic δ ad ε, ex æquali igitur (per 14 septimi) est sicut α ad γ, sic γ ad ε. At α, γ, primi sunt, primi autem & minimi, minimi uero metiuntur eandem rationem habentes, antecedens antecedentem, & sequens sequentem, (per 21 septimi) metitur igitur α ipsum γ, antecedens antecedentem: metitur autem & seipsum. Igitur α ipsos α,γ, metitur primos adinuicem existentes, quod est impossibile: ipsis igitur α, β, γ, quartum proportionalem inuenire est impossibile. Sed iam rursus sint ipsi α,β,γ, continue proportionales, at α, γ, non sint primi adinuicem. Dico quod eis quartum proportionalem inuenire est possibile. Nam β ipsum γ multiplicans, ipsum efficiat δ. Igitur α ipsum δ aut metitur, aut non metitur. Metiatur prius ipsum per ε. Igitur α ipsum ε multiplicans, ipsum effecit δ, sed & β ipsum γ multiplicans ipsum δ effecit. Igitur qui ex α, ε, ei est æquus qui ex β,γ, proportionaliter igitur est sicut α ad β, sic γ ad ε. Ipsis igitur α,β,γ, inuentus est quartus proportionalis ε scilicet. Sed iam non metiatur α ipsum δ: dico quod ipsis α,β,γ, quartum proportionalem inuenire est impossibile. Si enim possibile, inueniatur ε. Igitur qui ex α,ε, ei qui ex β,γ, est æqualis. Sed qui ex β,γ, est ipse δ, & qui ex α,ε, igitur ipsi δ est æqualis. Igitur α ipsum ε multiplicās, ipsum effecit δ. Igitur α ipsum δ metitur, sed & non metitur, quod est impossibile. Igitur ipsis α,β,γ, quartum proportionalē inuenire numerū est impossibile, quādo α ipsum δ non metitur. Sed iam ipsi α, β, γ, neq̃ continue sint proportionales neq̃ eorum extremi adinuicem sint primi, & β ipsum γ multiplicans ipsum efficiat δ. Similiter ostendetur quod si quidem α ipsum δ metitur, possibile est eis proportionalē inuenire, si autem non metitur, est impossibile, quod ostendere oportebat.
+CAMPANVS. Sit quisq̃ numerorū a,b,c, par. Dico ex eis compositum, esse parem: habet enim ex conuersione diffinitionis quisq̃ eorum, medietatem: sint ergo eorum medietates d,e,f, quia igitur sicut a ad d, sic b ad e, & c ad f, erit ex 13 septimi, sicut a ad d, sic totus a b c ad totum d e f, itaq̃ d e f est medietas a b c, ergo per diffinitionem a b c, est par, quod est propositum.
 
-[Diagram: at the head, two solid horizontal lines labelled ε and δ, with dotted lines γ, β, α, then a solid line and dotted lines γ, β, α; at right, a group of five vertical lines of increasing height marked 8, 12, 18, 27, 216, labelled below α β γ ε δ, and a group of vertical lines marked 20, 30, 45, 1350, labelled below γ ε δ]
+[Diagram: dotted line with points a, b, c]
 
-## Eucli. ex Camp. Propositio 21
+## Eucli. ex Zamb. Theorema 21 Propositio 21
 
-**21** {dropcap:D|lines=?|style=decorated|decoration="foliate ornament"}Atis quotlibet numeris primis, aliquem primum ab eis diuersum esse necesse est.
+**21** Si pares numeri quotcunq̃ componantur, totus par est.
 
-CAMPANVS. Nihil aliud intenditur, nisi q̃ numeri primi sint infiniti, demonstrare. Sint enim a,b,c, numeri primi, dico esse aliquem primum diuersum ab eis, sit quidem d f minimus quem numerant, cui addita unitate fiat d g, qui est primus aut cōpositus, si primus, constat propositum, si compositus, numerat eum aliquis primus, qui sit h, quem non est possibile esse aliquem ex primis propositis. Si enim esset aliquis eorū, cum quilibet ipsorum numeret d f, ipse quoq̃ numeraret eundem, at quia numerat d g, oporteret ipsum numerare f g qui est unitas, quod est impossibile. Idem sequitur posito d f quotlibet numero quem numerant a,b,c, quare constat propositum.
+THEON ex Zamberto. Componantur enim numeri quilibet pares ipsi α β, β γ, γ δ, δ ε. Dico quod totus α ε par est. Nam quoniam unusquisque ipsorum α β, β γ, γ δ, δ ε, par est, partem habet dimidiam, quare & totus α ε habet partem dimidiam: numerus autem par est qui bifariam diuiditur (per diffinitionem,) igitur α ε par est, quod ostendere oportuit.
 
-[Diagram: dotted line with points a, b, c; solid line d–f with the number 105 above, followed by point g; solid line b with the number 53 above]
+[Diagram: dotted line with points α, β, γ, δ, ε]
 
-## Eucli. ex Zamb. Theorema 20 Propositio 20
+## Eucli. ex Camp. Propositio 23
 
-**20** Primi numeri, plures sunt omni proposita multitudine primorum numerorum,
+**23** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numeri impares numero pares coaceruentnr{printer-error-correction:coaceruentur}, totus quoq̃ ex eis coaceruatus erit par.
 
-<!-- Signature: u 4 -->
+CAMPANVS. Sit quilibet numerorum a,b,c,d, impar: dico ex eis compositum, esse parem, dempta enim a quolibet unitate, constat residuos esse pares, & quia ille unitates, demptæ componunt parem, cum sint numero pares, constat propositum per præmissam.
 
-<!-- Catchword: THEON -->
+[Diagram: dotted line with points a, b, c, d]
+
+## Eucli. ex Zamb. Theorema 22 Propositio 22
+
+**22** Si impares numeri quotcunq̃ componantur, fuerit autem multitudo par, totus par erit.
+
+THEON ex Zamberto. Componantur enim impares numeri quotcunq̃, multitudine pares, α β, β γ, γ δ, δ ε. Dico quot{printer-error-correction:quod} totus α ε par est. Nam quoniam unusquisq̃ ipsorum α β, β γ, γ δ, δ ε, impar est, ablata unitate ab unoquoq̃, unusquisq̃ reliquus par erit. Quare & compositus ex ipsis par erit (per 21 noni.) Est autem & unitatum uultitudo{printer-error-correction:multitudo} par. Totus igitur α ε par est, quod ostendere oportebat.
+
+[Diagram: dotted line with points α, β, γ, δ, ε]
+
+## Eucli. ex Camp. Propositio 24
+
+**24** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numeri impares numero impares coaceruentur, totum quoq̃ ex eis coaceruatum imparem esse.
+
+CAMPANVS. Sit quilibet numerorum a,b,c, impar. Dico totum ex eis compositum esse imparem. Erit enim per præmissam compositus ex a & b, par, & quia c, dempta unitate, est par, erit per antepræmissam totus a, b, c, dempta unitate, par. Per diffinitionem itaque constat totum esse imparem.
+
+[Diagram: dotted line with points a, b, c]
+
+<!-- Catchword: Eucli. ex -->

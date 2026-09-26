@@ -1,31 +1,39 @@
-<!-- Running title: LIBER DVODECIMVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 395 -->
+<!-- Page number: 396 -->
 
-telligamus tot seratilia detracta esse ex pyramide a, quot detraximus ex pyramide b, eritq̃ ex correlario præmissæ sicut basis a ad basin b, ita seratilia detracta à pyramide a ad seratilia detracta à pyramide b, sed sic erat pyramis a ad corpus c, itaq̃ seratilia pyramidis a ad seratilia pyramidis b, sicut pyramis a ad corpus c, & permutatim seratilia pyramidis a ad pyramidē a, sicut seratilia pyramidis b ad corpus c. Cumq̃ sint seratilia pyramidis b, maius corpore c, erūt seratilia pyramidis a, maius pyramide a. Et quia hoc est impossibile, non erit corpus c, minus pyramide b. Sed nec maius. Hoc enim posito, cum sit proportio basis a ad basin b, sicut pyramidis a ad corpus c, erit econuerso basis b ad basin a, sicut corporis c ad pyramidē a, eritq̃ eadem ex cōmuni scientia, pyramidis b ad aliq̃d corpus quod sit d, sequeturq̃ ex 14 quinti, quod corpus d sit minus pyramide a, eo q̃d pyramis b ponitur minor corpore c. Erit igitur basis b ad basin a, sicut pyramis b ad corpus minus pyramide a. Ex hoc autem demonstratum est sequi impossibile, uidelicet seratilia detracta ab aliqua pyramide, maius esse ea pyramide à qua detrahuntur. Ideoq̃ relinquitur corpus c esse æquale pyramidi b, cum nec minus ea possit esse nec maius, & proportionem pyramidis a ad pyramidem b esse sicut basis a ad basin b. Hoc autem erat demonstrandum.
-
-[Diagram: triangle labelled a beside a rounded shield-shaped solid labelled c]
-
-[Diagram: triangle labelled b beside a rounded shield-shaped solid labelled d]
-
-## Eucli. ex Zamb. Theorema 5 Propositio 5
+## Eucli. ex Zamb. Theorema 6 Propositio 6
 
 [Margin]
-5
+6
 [/Margin]
 
-Sub eodem fastigio pyramides subsistentes, triāgularesq̃ bases habentes, adinuicem sese habent sicut bases.
+Sub eadem altitudine pyramides existentes, multangulasq̃ bases habentes, adinuicem sese habent sicut bases.
 
-THEON ex Zamb. Sint sub eadem altitudine pyramides, quarū bases quidem sint α β γ, δ ε ζ, triāgula, fastigia uero η, θ, signa. Dico quod est sicut α β γ basis ad δ ε ζ basin, sic est α β γ η pyramis ad δ ε ζ θ pyramida. Si autem non est sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad δ ε ζ θ pyramida, erit sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis uel ad solidum aliquod minus ipsa δ ε ζ θ pyramide, uel ad maius. Sitq̃; prius ad minus aliquod, sitq̃; x. Diuidaturq̃; (per 3 duodecimi) ipsa δ ε ζ θ pyramis, in binas pyramides æquas & toti similes, & in bina prismata æqualia: iam bina prismata, maiora sunt quàm totius pyramidis dimidium, & rursus (per eandem) quæ fiunt ex diuisione pyramides, similiter diuidantur, & hoc semper fiat, quo ad amplius non supersint aliquæ pyramides ex ipsa δ ε ζ θ pyramide, quin sint minores excessu quo excedit δ ε ζ θ pyramis ipsum x solidum. Accipiantur, sintq̃; * rationis causa, ipsæ δ π ρ σ & σ τ υ θ, reliqua igitur prismata existentia in ipsa δ ε ζ β{printer-error-correction:δ ε ζ θ} pyramide, maiora sunt ipso x solido. Diuidaturq̃; (per præcedentem) ipsa α β γ η pyramis, similiter & æque multipliciter ipsi δ ε ζ θ pyramidi. Est igitur sicut α β γ basis ad δ ε ζ basin, sic (per præcedentē) quæ in α β γ η pyramide prismata ad ea quæ in δ ε ζ θ pyramide prismata. Sed & sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad x solidū. Et sicut igitur (per 11 quinti) α β γ η pyramis ad x solidum, sic prismata quæ in α β γ η pyramide ad ea prismata quæ in δ ε ζ θ pyramide: uicißim igitur (per 16 quinti) sicut α β γ η pyramis ad ea quæ in psa{printer-error-correction:ipsa} prismata, sic est x solidum ad ea quæ in δ ε ζ θ pyramide prismata. Maior autem est pyramis α β γ η, eis quæ in seipsa prismatibus. Igitur & solidū x, maius est eis quæ in pyramide δ ε ζ θ sunt prismatibus, sed & minus. Quod est impoßibile. Igitur non est sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad aliquod ipsa δ ε ζ θ pyramide solidum minus. Similiter iam ostendetur, quod neq̃; sicut basis δ ε ζ ad basin α β γ, sic δ ε ζ θ pyramis ad minus aliquod solidū ipsa α β γ η pyramide. Dico iam, quod neq̃ est sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad maius aliquod solidum ipsa δ ε ζ θ pyramide. Si enim poßibile, esto ad maius x solidum. Conuersim igitur est sicut δ ε ζ basis ad α β γ basin, sic x solidum ad α β γ η pyramidē. Sed sicut x solidū ad α β γ η pyramidem, sic δ ε ζ θ pyramis ad minus aliquod ipsa α β γ η pyramide, sicut ante ostensum est. Et sicut igitur (per 11 quinti) basis δ ε ζ ad basin α β γ, sic δ ε ζ θ pyramis ad minus aliquod ipsa α β γ η pyramide, quod absurdum esse patuit. Non est igitur sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad maius aliquod solidum ipsa pyramide δ ε ζ θ. Patuit autem quod neq̃; ad minus. Est igitur sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad δ ε ζ θ pyramidē. Sub eodem igitur fastigio, & quæ sequuntur reliqua. Quod ostendere oportuit.
+THEON ex Zamb. Sint sub eadem altitudine pyramides, multangulas bases habentes, hoc est α β γ, δ ε, ζ η θ κ λ, fastigia uero μ, ν, signa. Dico quod est sicut α β γ δ ε basis ad ζ η θ κ λ basin, sic est α β γ δ ε μ, pyramis ad ζ η θ κ ν{printer-error-correction:ζ η θ κ λ ν} pyramida. Diuidatur enim ipsa α β γ δ ε basis in triangula α β γ, α γ δ, α δ ε & ζ η θ κ λ in ζ η θ, ζ θ κ, ζ κ λ triangula. Intelliganturq̃; ab unoquoq̃; triangulo, pyramides æquæ altæ eis quæ in principio pyramidibus. Et quoniā est sicut α β γ triangulum ad α γ δ triangulū, sic est α β γ μ pyramis ad α γ δ μ pyramida, & componendo (per 18 quinti) sicut α β γ δ trapezium ad α γ δ triangulum, sic α β γ δ μ pyramis ad α γ δ μ pyramida, sed & sicut α γ δ triangulum ad α δ ε triangulum sic α γ δ μ pyramis ad α δ ε μ pyramida, ex æquali igitur (per 22 quinti) est sicut α β γ δ basis ad α δ ε basin, sic α β γ δ μ pyramis ad ipsam α δ ε μ pyramida: & cōponendo rursus (per 18 quinti) sicut α β γ δ ε basis ad ipsam α δ ε, sic α β γ ε μ{printer-error-correction:α β γ δ ε μ} pyramis ad α δ ε μ pyramida. Idq̃; propterea etiam sicut ζ η θ κ λ basis ad ζ κ λ basin, sic & ζ η θ κ λ ν pyramis ad ζ κ λ ν pyramida. Et quoniā binæ pyramides sunt α δ ε μ, ζ κ λ ν, triangulas habētes bases ac sub eadem altitudine, est igitur (per 5 duodecimi) sicut α δ ε basis ad ζ κ λ basin, sic α δ ε μ pyramis ad ipsam ζ κ λ ν pyramida. Quoniam igitur sicut α β γ δ ε basis ad α δ ε basin, sic α β γ δ ε μ pyramis ad α δ ε μ pyramida, sicut autē α δ ε basis ad ζ κ λ basin, sic α δ ε μ pyramis ad ζ κ λ ν pyramida, ex æquali igitur (per 22 quinti) & sicut α β γ δ ε basis ad ζ κ λ basin, sic α β γ δ ε μ pyramis ad ζ κ λ ν pyramida. Sed & sicut ζ κ λ basis ad ζ η θ κ λ basin, sic erat & ζ κ λ ν pyramis ad ζ η θ κ λ ν pyramida: & ex æquali rursus (per 21 quinti) est sicut α β γ δ ε basis ad ζ η θ κ λ basin, sic α β γ δ μ{printer-error-correction:α β γ δ ε μ} pyramis ad ζ η θ κ λ{printer-error-correction:ζ η θ κ λ ν} pyramida. Sub eadem altitudine igitur, & quæ sequuntur reliqua. Quod erat ostendendum.
+
+[Diagram: two pyramids on pentagonal bases drawn in perspective — the left with apex μ and base α β γ δ ε (γ at left, β at centre, α at bottom, δ at lower left, ε at right), the right with apex ν and base ζ η θ κ λ (θ at left, η at top, ζ at right, κ and λ below), with diagonals drawn dividing the bases into triangles]
+
+## Eucli. ex Camp. Propositio 6
 
 [Margin]
-λόγου ἵνεκα uerbi causa
+6
 [/Margin]
 
-[Diagram: pyramid α β γ η as large triangle — α at apex, β, ξ, γ along the bottom; fastigium η in the centre with μ at left and ν at right, and a point on the axis below α; inner lines showing pyramids and prisms]
+{dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mne corpus seratile, in tres pyramides æquales basesq̃ triangulas habentes est diuisibile.
 
-[Diagram: pyramid δ ε ζ θ as smaller triangle — δ at apex, ε, φ, ζ along the bottom; π on side δ ε, ρ on side δ ζ, σ on the axis below δ, fastigium θ in the centre with τ and υ beside it]
+CAMPANVS. Sit seratile a b c d e f, ipsum dico esse diuisibile in tres pyramides triangulas æquales, protrahatur enim in unaquaq̃ suarū trium superficierū parallelogrammarū linea diagonalis, ita quod una earum diagonalium sit cōterminalis reliquis duabus. Vt si protrahas lineas b d, b f, & f a, quas propter confusionem protrahere contempsi, eritq̃ totum seratile in tres triangulas pyramides diuisum, quas ex præmissa bis assumpta facile constat esse æquales.
 
-[Diagram: rectangular parallelepiped (box) labelled x]
+[Diagram: upright triangular prism (seratile) — top triangle d e f with e at apex, d at left, f at right; bottom triangle a b c with b inside, a at lower left, c at lower right]
 
-<!-- Catchword: Eucli. ex -->
+CAMPANI additiones. Quoniam autem Euclides nihil demonstrandum proponit de pyramidibus lateratis, exceptis solis quarū sunt bases triangulæ, ut omnium cognitionem ex elementis quæ ponit sufficienter elicere possimus, quædam arbitramur non inutile demonstrationibus hic positis adiungere. Solis enim elementis contentus Euclides, multa prætermisit, quæ quamuis ex eis consequantur, non tamen sine difficultate patent studentibus. Horum primum est hoc.
+
+[Margin]
+1
+[/Margin]
+
+Si duo solida (quorum alterum seratile, alterū uero pyramis cuius basis triāgula) super eandem basin aut super æquales trigonas, aut seratile super quadrangulam, pyramis uero super trigonam quæ quadrangulæ basis seratilis sit dimidium, constituta fuerint æque alta, seratile pyramidi triplum esse conueniet.
+
+Si seratile propositū fuerit super basin trigonam, tunc ex pyramide proposita super propriā basin perficiatur seratile pyramidi propositæ æque altum. Si uero seratile fuerit super basin quadrangulā, tunc basi pyramidis adijciatur triangulus, ex quo & basi pyramidis perficiatur superficies æquidistantiū laterum, super quam ex ipsa pyramide cōpleatur seratile pyramidi æque altum. Quia igitur istud seratile seratili priori est æque altum, & utrorumq̃ bases sunt æquales ex hypothesi, sequitur ipsa esse æqualia, hoc enim demonstratum est in 36 undecimi. At quoniam ex 6 huius seratile secundum
+
+<!-- Catchword: triplum -->

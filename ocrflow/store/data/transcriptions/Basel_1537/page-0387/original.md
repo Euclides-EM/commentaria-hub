@@ -1,33 +1,33 @@
-<!-- Page number: 376 -->
+<!-- Running title: LIBER VNDECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 377 -->
 
-ges super lineā b f æquidistāter duobus lateribus oppositis, erit ex 25 ꝓportio solidi f e ad solidū a b, sicut basis f e ad basin a b, Cūq̃ sint c d & f e tam bases quàm solida æqualia. bases quidem ex hypothesi, solida aūt ex 31 uel 32, sequitur ex 7 quinti bis assumpta semel pro basibus & semel pro solidis, ꝙ solidorū a b & c d basiumq̃ a b & c d sit proportio una. Quod demōstrare uoluimus. Huius quoq̃ conuersam ipsa eadē mediāte demonstrare quemadmodū cōuersas præcedentiū, non est difficile. Pones enim duo solida parallelogrāma esse suis basibus proportionalia, & conuinces ea esse æque alta. Abscisoq̃ ab eo quod altius mentietur aduersarius uno solido parallelogrāmo æque alto demissiori, erunt abscisum & demissius suis basibus proportionalia ex hypothesi & ex hac 33. Cumq̃ etiā essent totale altius à quo partiale abscidisti, & ipsum demissius eisdē basibus proportionalia ex hypothesi, sequitur (ex prima parte 9 quinti) totale aduersarius dicit altius, & partiale quod ab eo abscidisti, esse æqualia.
+neæ b & f d nō fuerint æquales, sit f d maior, ex ea resecetur f g ad æqualitatē e b, tribusque cæteris lineis quæ sunt altitudinis solidi c d ad eandē mēsurā in pūctis b, K, l, resectis perficiatur solidum parallelogrammum c g æque altum solido a b, eritq̃ ex præmissa, a b ad c g, sicut a e ad c f. Cum itaq̃ c d sit æquale a b, erit (ex prima parte 7 quinti) c d ad c g, sicut a e ad c f. Per præmissam autem est proportio c d ad c g, sicut m f ad f l, quod patet, si una ex lateralibus superficiebus solidi c d (& ipsa sit f m) intelligatur basis ipsius. At (per primā sexti) f m ad f l, sicut d f ad f g, ideoq̃ per 7 quinti sicut d f ad b e. Igitur a e ad e f{printer-error-correction:c f}, sicut d f ad b e. Cōstat itaq̃ prima pars. Secundā partem cū sit cōuersa primæ, cōuerso modo probabis. sit enim eadē dispositiōe manēte, proportio a e ad c f, sicut d f ad e b. Dico tūc solida a b & c d esse æqualia. Erit enim ex 7 quinti d f ad f g, sicut a e ad c f. Sed ex præmissa est a b ad c g, sicut a e ad c f. Igitur est a b ad c g, sicut d f ad f g. ex prima aūt sexti est d f ad f g, sicut m f, ad f l, & ex præmissa c d ad c g sicut m f ad f l. Itaque c d ad g c, sicut a b ad c g. Igitur ex 9 quinti a b & c d sunt æqualia, quod est propositum.
 
-## Eucl. ex Zamb. Theorema 27 Propositio 32
-
-[Margin]
-32
-[/Margin]
-
-Sub eadem altitudine existentia solida parallelepipeda, adinuicem sunt sicut bases.
-
-THEON ex Zamb. Sint sub eadem altitudine solida parallelepipeda, α β, γ δ. Dico quod ipsa α β, γ δ, solida parallelepipeda adinuicē sunt sicut bases hoc est quod sicut α ε, basis ad γ ζ, basin, sic est α β solidum ad γ δ solidum. Prætendatur enim (per 45 primi) ad ipsam ζ η, ipsi α ε æquū ζ θ, & à basi quidē ζ θ, altitudine autē ipsius γ δ, solidū parallelepipedū compleatur η κ. Aequum iam est (per 31 undecimi) α β solidū, ipsi η κ solido, in æqualibus enim sunt basibus α ε, η θ, & sub eadem altitudine. Et quoniam solidum parallelepipedum γ κ, à plano δ θ, secatur parallelo existenti eis quæ ex opposito planis, est igitur (per 25 undecimi) sicut θ ζ, basis ad ζ γ, basin, sic est β δ, ad ipsum η δ, solidum. Aequalis uero est ipsa quidem ζ θ, basis ipsi α ε basi, & η κ solidum ipsi α β solido, est igitur & sicut α ε basis ad γ ζ, basin, sic α β solidum ad δ solidum. Sub eadem igitur altitudine existentia solida parallelepipeda, & reliqua ut supra, quod erat ostendendum.
-
-[Diagram: two solid parallelepipeds side by side: at left a cube with β at top, ε on the front face, α at bottom left; at right a wider parallelepiped divided by a vertical plane, with δ and κ at top, ζ on the front face, and γ, η, θ along the bottom]
-
-## Eucl. ex Camp. Propositio 34
+## Eucl. ex Camp. Propositio 35
 
 [Margin]
-34
+35
 [/Margin]
 
-SI duo solida æquidistantium superficierum lineis altitudinum super bases orthogonaliter erectis fuerint æqualia. eorum bases eorundem altitudinibus mutuas esse. Si uero fuerint duæ bases suis altitudinibus mutuæ, ipsa solida sibi inuicem æqualia esse necesse est.
+SI duo solida æquidistantiū terminorum fuerint æqualia, eorū bases eorundem altitudinibus erunt mutuæ. Si uero bases suæ altitudinibus suis mutuæ fuerint, quælibet duo corpora æquidistantium superficierum probantur esse æqualia.
 
-CAMPANVS. Quæcunque sint duo solida æquidistantium superficierum æqualia, eorum bases & altitudines necesse est esse mutekefias, & econuerso, quēadmodū de superficiebus æquidistātium laterū æquiangulis 13 sexti proposuit. Attamē hac 34 istud demonstrādum proponitur de illis solidis parallelogrāmis, in quibus lineæ altitudinum suis basibus parallelogrāmis orthogonaliter insistūt, ea uero quæ sequitur, proponit idē de cæteris. Sint ergo nūc duo solida parallelogrāma a b & c d æqualia, quorū bases sint a e & c f, lineæq̃ altitudinum ipsorum sint super has bases orthogonaliter erectæ, & sit altitudo solidi a b, linea e b, & solidi c d linea f d. Si igitur fuerint duæ lineæ e b & f d determinātes ipsorum solidorū altitudines, æquales adinuicem, cū ipsa quoque solida sint ex hypothesi æqualia, erūt ex conuersa 31 bases eorum, quæ sunt a e & c f, æquales, ideoq̃ bases & altitudines erunt mutuæ, sicq̃ cōstabit propositi prima pars. Econuerso cōstabit secunda. Vt si altitudines & bases sint mutuæ, ponantur altitudines æquales, erunt quoq̃ bases æquales: ideoq̃ per 31 & solida æqualia & sic constat secunda pars. At uero si li
+CAMPANVS Quod præmia{printer-error-correction:præmissa} proposuit de solidis parallelogrāmis quorū lineæ altitudinū sup̱ bases suas orthogonaliter exurgūt, hæc 35, ꝓponit indistincte de omnibus. Demōstrare aūt cōuenit hāc ex præmissa, quēadmodū demōstrauimꝰ 32 & 33 Fabricatis enim duobus solidis æquidistātiū laterū quibuscūq̃, si lineæ altitudinum suis basibus orthogonaliter insistunt, cōstat uerū esse qd̓ dicitur ex præmissa. Sinautē à quatuor angularibus punctis supremarū superficierū in utroq̃ solido quaternæ lineæ demittantur perpendiculariter ad bases, uel à pūctis angularibus infimarum superficierum quaternæ erigantur, inter quas duo solida parallelogramma perficiantur æque alta solidis prioribus, erūtq̃ ex 29 & 30 hæc duo solida duobus prioribus solidis æqualia. Cum igitur horum & eorum sint eædem bases & eædē altitudines, sit autem ex præmissa de posterioribus uerum quod hæc 35 proponit, uerum erit idem etiam de prioribus.
 
-[Diagram: a rectangular parallelepiped with a at top left, e at the right, b at bottom]
+## Eucl. ex Camp. Propositio 36
 
-[Diagram: a wider parallelepiped divided by a vertical plane, with m and d at top, l and g above the top face, k on the left face, f on the base, c at bottom left]
+[Margin]
+36
+[/Margin]
 
-<!-- Catchword: neæ -->
+SI duo solida æquidistantium superficierū fuerint similia, proportio erit utriusq̃ ad alterum tanquā cuiuslibet sui lateris ad suum relatiuum latus alterius proportio triplicata.
+
+CAMPANVS Sint enim duo solida a b & c d parallelogrāma & similia. Dico ꝙ ꝓportio unius eorum ad alterū est sicut unius lateris eius ad unū latus alterius quod sibi refertur, proportio duplicata, quēadmodū duarum superficierum similium proportio est sicut suorum relatiuorū proportio duplicata, ut in 18 sexti demōstratum est Nā si solida a b & c d fuerint æqualia, cū ponantur similia erunt ex diffinitionibus similium corporum & similium superficierum cuncta latera unius æqualia suis relatiuis lateribus alterius. Ideoque cum duarum quātitatū æqualium proportio triplicata aut quotieslibet sumpta nō efficiat nisi æqualitatis proportionē, cōstat in hoc casu uerum esse quod proponitur. Si autē inæqualia, sit a b maius, cuius lōgitudo sit b e, latitudo e f, altitudo f a, basis e r, & suprema superficies a n, solidi uero c d, sit longitudo d g, latitudo g h, altitudo h c. Constat itaq̃ ex diffinitiōibus similium corporum & similium superficierum & præsenti hypothesi quod proportio a f ad c h, & f e ad h g, & e b, ad g d, sit proportio una. Sumatur igitur ex linea a f quā manifestum esse maiorem c h, linea f K, æqualis h c, cæteræq̃ tres determinantes altitudinem solidi a b, resecentur ad qualitatem{printer-error-correction:æqualitatem} eius et
+
+[Diagram: a large stepped compound parallelepiped: labels a and x at the top, K at upper left, n at the middle right, f at the left, r at the centre, i at the right, p in the interior, e at the lower left, b and l along the bottom, m at the lower left corner and q at the lower right of the projecting lower block]
+
+[Diagram: a parallelepiped with c at top left, b at the left, g at bottom left, d at bottom right]
+
+<!-- Signature: I 3 -->
+
+<!-- Catchword: inter -->

@@ -1,23 +1,25 @@
-<!-- Page number: 6 -->
+# EVCLIDIS MEGARENSIS GEOMETRICA ELEMENTA: EX CAMPANO.
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 7 -->
 
-35 Parallelæ rectæ lineæ sunt, quæ in eodem existentes plano, & ex utraque parte in infinitum productæ, in nulla parte concurrunt.
-
-## Secundum, Postulata.
-
-1 Ab omni signo in omne signum, rectam lineam ducere. 2 Rectam lineam terminatam, in continuum rectumq́ʒ producere. 3 Omni centro & interuallo, circulum describere. 4 Omnes angulos rectos, adinuicem æquales esse. 5 Si in duas rectas lineas recta linea incidens, interiores & in eadē parte angulos duobus rectis minores fecerit, rectas lineas in infinitū productas concurrere necesse est ad eas partes in quibus anguli duobus rectis minores existunt.
-
-[Diagram: two horizontal straight lines with a point; a transversal line falling across two straight lines; four concentric circles about a centre point]
-
-## Tertium Communes sententiæ.
-
-1 Quæ eidem æqualia, & ad inuicem sunt æqualia. 2 Et si æqualibus æqualia adijciātur, tota erunt æqualia. 3 Et si ab æqualibus æqualia auferantur, quæ relinquuntur æqualia erunt. 4 Et si inæqualibus æqualia adiungantur, tota erunt inæqualia. 5 Et si ab inæqualibus æqualia auferantur, reliqua inæqualia erunt. 6 Quæ eiusdem duplicia sunt, adinuicem sunt æqualia. 7 Et quæ eiusdem sunt dimidium, æqualia sunt adinuicem. 8 Et quæ sibimetipsis cōueniunt, æqualia sunt adinuicem.
+## Primi libri propositio prima.
 
 [Margin]
-χωρίον
+1
 [/Margin]
 
-9 Totum, est sua parte maius. 10 Duæ rectæ lineæ,* superficiem non concludunt.
+{dropcap:T|lines=?|style=decorated|decoration="foliage"}Riangulum æquilaterum : supra datam lineam rectam collocare.
 
-<!-- Catchword: EVCLIDIS -->
+Esto data linea recta: a b. uolo: super ipsam, triangulum æquilaterum constituere. Super alteram eius extremitatē, scilicet in puncto a, ponam pedem circini immobilem, & alterum pedem mobilem extendam usq̃ ad ad b: & describam secundum quantitatem ipsius lineæ datæ, per secundam petitionem circulum c b d f. Rursus alterā eius extremitatem, scilicet punctum b faciam centrum: & per eandem petitionem & secundum eiusdem quantitatem, lineabo circulū c a d h. qui circuli intersecabūt se in duobus punctis, quæ sint c & d. Et alteram duarū sectionū sicut sectionem d, continuabo cum ambabus extremitatibus datæ lineæ: protractis lineis d a, d b per primam petitionē. Quia ergo à puncto a, quod est centrum circuli c b d, protractæ sunt lineæ a d & a b usque ad eius circunferentiam: ipsæ erunt æquales, per diffinitionem circuli. Similiter quoq̃ quia à puncto b quod est centrū circuli c a d h, protractæ sunt lineæ b a & b d usq̃ ad eius circunferentiam, ipsæ erunt etiam æquales. Quia ergo utraq̃ duarum linearum a d, b d, æqualis est lineæ a b, ut probatū est: ipsæ erunt æquales inter se, per primam cōmunem animi conceptionē. Ergo super datam rectam lineam : collocauimus triangulum æquilaterum, quod est propositum.
+
+[Diagram: two equal intersecting circles with centres a and b on a horizontal line, meeting in d above and c below; triangle a b d drawn on the line; the line produced reaches f at the left and b at the right of the circles]
+
+CAMPANI additio. Si autē super eandem lineam libeat collocare reliquas duas triangulorū species, scilicet triangulum duūm æqualium laterum, & triangulū trium inæqualiū laterum: protrahatur linea a b, in utranq̃ partem, usq̃ quo occurret circūferentijs amborum circulorum super duo puncta f & h. Et posito centro in puncto a: lineetur circulus e h g, secūdum quantitatē lineæ a h. Item posito centro in puncto b: lineetur circulus e f g, secundum quantitatē lineæ b f. Hi autē circuli intersecabunt se in duobus punctis quæ sunt e, g. Coniungantur igitur extremitates datæ lineæ cum altera dictarū sectionum: per duas lineas rectas quæ sint a g, b g. Et quia hæ lineæ a b, & a f, exeunt à centro circuli c d f, ad eius circūferentiā: ipsæ erunt æquales. Similiter quoq̃ b a & b h quia exeunt à centro circuli c a d h usque ad ipsius circunferentiā: ipsæ erunt æquales. Quia ergo utraq̃ duarum linearū a f & b h æqualis est lineæ a b: ipsæ erunt inter se æquales, ergo posita a b cōmuni: erit b f æqualis a h. sed b f æqualis ipsi b g: quia ambæ exeūt à centro circuli e f g, ad eius circunferentiā. Similiter quoq̃ a h: est æqualis ipsi a g. & utraq̃ earum est maior a b: eo quod utraq̃ duarum linearum b f & a h maior est a b. Quare super datam lineam: collocauimus triangulum duorum æqualium laterum.
+
+[Diagram: the line f a b h with the two small circles about a and b intersecting in d and c, and the two larger circles e f g and e h g intersecting in e below and g above; points k and l above near g, with lines drawn from a and b to g and to k]
+
+Triangulum etiam trium inæqualium laterum super eandem lineam collocabimus: si aliquod punctum existens in circunferentia alterutrius duorum maiorū circulorum quod non sit in altera duarum sectionū, & cui non obuiet f h, cum in utramlibet partem producta fuerit in continuum & directum, coniunxerimus per duas lineas rectas cum ambabus extremitatibus datæ lineæ. Sit enim punctus k signatus in circunferentia circuli e f g: & non sit in altera sectionum, nec occurrat ei f h, cum protraheretur in continuum & directum. eius usq̃ ad circunferentiā: protraham ergo lineas a k & b k. & secabit lineā a k : circūferentia circuli e h g: secet ergo in puncto l, eritq̃ b k per cōmunem animi conceptionem æqualis a l, quia b k per diffinitionē circuli est æqualis b g, & a l æqualis a g: quā
+
+<!-- Signature: a 4 -->
+
+<!-- Catchword: re a k -->

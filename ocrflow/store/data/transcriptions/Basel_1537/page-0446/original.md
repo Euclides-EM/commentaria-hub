@@ -1,45 +1,23 @@
-<!-- Running title: LIBER TERTIVSDECIMVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 435 -->
+<!-- Page number: 436 -->
 
-## Eucli. ex Zamb. Theorema 11 Propositio 11
+sius circuli, hexagoni igitur latus est ipsa β ε recta linea, æqualis igitur est ei qui ex centro, hoc est ipsi δ ε. Et quoniā α ε ipsius δ ε dupla est, quadruplū est quod ex α ε eius quod ex δ ε, hoc est eius quod ex β ε. Aequū autem est id quod ex α ε, eis quæ ex α β, β ε, quæ igitur ex α β, β ε, quadrupla sunt eius quæ ex β ε: diuidendo igitur quòd quod ex α β, triplum est eius quod ex β ε. Aequalis autem est β ε, ipsi δ ε, quod ex α β igitur triplum est eius quod ex δ ε. Trianguli ergo latus potentia triplum est eius quæ ex centro circuli. Quod ostendere oportuit.
 
-[Margin]
-11
-[/Margin]
+## Eucli. ex Camp. Propositio 13
 
 [Margin]
-Camp. 12
+13
 [/Margin]
 
-## Si in circulo rationalem habente diametrum, quinquangulū æquilaterū inscribatur, quinquanguli latus irrationalis est ea quæ appellatur minor.
+## {dropcap:P|lines=?|style=decorated}Yramidem quatuor basium triangulariū & æquilaterarū ab assignata sphæra circunscriptibilem fabricare. Huius ergo sphæræ diametros, ad latus ipsius pyramidis sesquialterā proportionem potentialiter habere probatur.
 
-THEON ex Zamb. In circulo enim α β γ δ ε, rationalem habente diametrum, quinquangulū inscribatur α β γ δ ε. Dico quod ipsius α β γ δ ε quinquanguli latus α β irrationalis est ea quæ appellatur minor. Assumatur enim (per 1 tertij) circuli centrum ζ signum, & connectantur α ζ, ζ β, & extendantur in η, θ, signa, & connectatur α γ, ponaturq́; ipsius α ζ, quarta pars ζ κ. Rationalis autem α ζ, rationalis igitur & ζ κ. Est autem & β ζ rationalis. Tota igitur β κ rationalis est. Et quoniam circūferentia α γ η ipsi α δ η circūferentiæ est æqualis, quarū α β γ æqualis est & ipsi α ε δ, reliqua igitur γ η reliquæ η δ est æqualis. Et si cōnectamus α δ, *ducuntur recti qui ad λ anguli, & dupla est γ δ ipsius γ λ, & id propterea & qui ad μ recti sunt, & dupla est α γ ipsius γ μ.
+CAMPANVS. Sit linea a b diameter assignatæ sphæræ, quæ diuidatur in pūcto c, ita q̃ a c sit dupla ad b c, & lineetur super eam semicirculus a d b, & producatur linea c d orthogonaliter super lineā a b, & producātur lineæ b d & d a. Postea fiat circulus f g h super centrū e, cuius semidiameter sit æqualis lineæ c d, cui ex 2 quarti libri inscribatur triangulus æquilaterus qui sit f g h, ad cuius angulos protrahātur à centro, lineæ e f, e g, e h, deinde super centrum e, erigatur (secundū q̃ docet 12 undecimi) linea e k quæ ponatur æqualis a c, perpendicularis ad superficiē circuli f g h, & demittātur à puncto k hypothenusæ k f, k g, k h, eritq́; completa pyramis quatuor basium triangulariū & æquilaterarū, quam dico esse ab assignata sphæra circūscriptibilē, & dico quadratū diametri propositæ sphæræ, sesquialterū esse ad quadratū lateris fabricatæ pyamidis{printer-error-correction:pyamidis}. Constat enim ex prima parte correlarij 8 sexti, q̃ linea c d est medio loco ꝓportionalis inter a c & c b, quare ex correlario 16 eiusdē, quadratū lineæ a c ad quadratū lineæ c d, est sicut linea a c ad c b, ergo coniunctim quadratū a c & quadratū c d, ad quadratū c d, sicut linea a b ad b c, ideoq́; ex penultima primi quadratū a d ad quadratū d c, sicut a b ad b c. Cum ergo linea a b sit tripla ad b c, erat enim a c dupla ad eam, erit quoq; quadratū a d triplum ad quadratū d c. Est autē ex 8 huius, quadratū f g, triplum ad quadratū e f, quare cum ex hypothesi d c sit æqualis e f, erit ex cōmuni scientia a d æqualis f g. Et quia ex diffinitiōe lineæ perpendicularis ad superficiē, linea e k continet cū singulis lineis e f, e g, e h, angulos rectos, quarū quælibet est æqualis lineæ c d, & quia ipsa eadem est æqualis lineæ a c, & angulus c est rectus, erit per 4 primi unaquæq; trium linearū k f, k g, k h, æqualis lineæ a d. Manifestum est igitur fabricatā pyramidē esse quatuor basium triangulariū æquilaterarū.
 
-[Margin]
-ἀνάγονται
-[/Margin]
+[Diagram: semicircle a d b on the line a b, with c on a b nearer to b; d at the top of the arc; c d perpendicular to a b; chords a d and d b drawn]
 
-Quoniam igitur angulus qui sub α λ γ ei est æquus qui sub α μ ζ, cōmunis autem ipsorū triangulorū binorū α λ γ, α μ ζ, est qui sub λ α γ, reliquus igitur qui sub α γ λ ei est æqualis qui sub μ ζ α, æquiangulū igitur est triangulum α γ λ, ipsi α μ ζ triangulo: proportionaliter igitur est sicut λ γ ad γ α, sic μ ζ ad ζ α, & antecedentiū duplicia. Sicut igitur dupla ipsius λ γ ad γ α, sic ipsius μ ζ dupla ad ζ α. Sed sicut ipsius μ ζ dupla ad ζ α, sic μ ζ ad ipsius ζ α dimidiam. Sicut igitur ipsius λ γ dupla, ad γ α, sic est μ ζ ad dimidiam ipsius ζ α, & sequentiū dimidia. Sicut igitur ipsius λ γ dupla ad ipsius γ α dimidiam, sic μ ζ ad quartā partem ipsius ζ α, & ipsius λ γ, dupla est δ γ; ipsius uero γ α, dimidia est γ μ, ipsius autem ζ α, quarta pars est ζ κ. Est igitur sicut δ γ ad γ μ, sic μ ζ ad ζ κ. Cōponendo (per 18 quinti) & sicut utraq; δ γ μ ad γ μ, sic μ κ ad ζ κ: & sicut igitur (per 11 quinti) quod ex utraq; ipsarū δ γ μ, ad id quod ex γ μ; sic quod ex μ κ ad id quod ex κ ζ. Et quoniā (per 8 decimitertij) ea quæ sub duobus lateribus pentagoni subtensa ut α γ, extrema & media ratione secta, maius segmentū est æquale ipsius pentagoni lateri hoc est ipsi δ γ, maius autem segmentū totius admittens dimidiū quincuplum potest eo quod ex totius dimidia (per 1 decimitertij) & totius α γ dimidia est γ μ, quod igitur ex δ γ μ tanquā ex una, quincuplū est eius quod ex γ μ. Sicut autem quod ex δ γ μ sicut una, ad id quod ex γ μ, sic ostensum est esse id quod ex μ κ ad id quod ex κ ζ, quincuplū igitur est quod ex μ κ, eius quod ex κ ζ, rationale autē quod ex κ ζ, rationalis enim est diameter. Rationale igitur est & quod ex μ κ. Rationalis igitur est μ κ, rationē enim habet quam numerus ad numerū quod ex μ κ, ad id quod ex κ ζ. Et quoniā quadrupla est β ζ ipsius ζ κ, quincupla igitur est β κ ipsius κ ζ. Vigintiquincuplex igitur est quod ex β κ, eius quod ex κ ζ. Quincuplū autem est id quod ex μ κ, eius quod ex κ ζ, quincuplū igitur est quod ex β κ, eius quod ex κ μ. Quod igitur ex β κ, ad id quod ex κ μ rationē non habet quam quadratus numerus ad quadratū numerū. Incōmensurabilis igitur est (per 9 decimi) β κ, ipsi κ μ in longitudine, & ipsarū utraq; rationalis est. Ipsæ igitur β κ, κ μ, rationales sunt potentia tantum cōmensurabiles. Si autem à rationali rationalis auferatur potentia tantum cōmensurabilis subsistens toti, reliqua irrationalis est, uocatur autē apotome (per 63 decimi,) igitur μ β apotome est. Congruens autē ei est μ κ. Dico quod & quarta. Quo enim maius est id quod ex β κ eo quod ex κ μ, ei æquū esto quod ex ν. Igitur ipsa β κ, ipsa κ μ maius potest ipso ν. Et quoniam (per 16 decimi) cōmensurabilis est κ ζ ipsi ζ β, & cōponendo (per 16 decimi) cōmensurabilis est κ β ipsi β ζ, sed β ζ ipsi β θ longitudine est cōmensurabilis, & β κ igitur ipsi β θ cōmensurabilis est. Et quoniam quod ex β κ eius quod κ μ quincuplū est, quod igitur ex β κ, ad id quod ex κ μ rationē habet quam quinq; ad unū. Conuertēdo igitur (per correlariū 18 quinti) quod ex β κ ad id quod ex ν, rationē habet quam (quinq; ad quatuor) non quam quadratus numerus ad quadratū numerū. Incōmensurabilis igitur est β κ, ipsi ν. Igitur β κ, ipsi κ μ maius potest eo quod ex sibi incōmensurabili. Quoniā igitur tota β κ, ipsa κ μ congruente maius potest eo quod ex sibi incōmensurabili, & tota β κ, ipsi β θ rationali expositæ cōmensurabilis est. Apotome igitur quarta est ipsa μ β. Quod autē sub rationali & apotome quarta cōprehensum rectangulū, irrationale est & ipsum potens irrationalis est, minorq́; appellatur (per 94 decimi.) Potest autē quod sub θ β, β μ, ipsa α β, quoniam ꝓpter cōnexionē ipsius α θ, triangulū α β θ æq̃angulū fit ipsi α β μ. Et est sicut β θ ad β α, sic est α β ad β μ, ipsa igitur α β quinquāguli latus, irrationalis est minor appellata. Quod erat ostendendū.
+[Diagram: circle f g h with inscribed equilateral triangle (f at top, g bottom left, h bottom right); centre e; l at the bottom of the circle; the point k outside the circle at the upper right, joined by lines k f, k g, k h; radii e f, e g, e h drawn]
 
-[Diagram: circle with inscribed pentagon α β γ δ ε (α at top, β left, ε right, γ bottom left, δ bottom right) and diagonals α γ, α δ; centre ζ; diameter α ζ produced to η at the bottom, β ζ produced to θ on the right; μ on α γ, λ on α δ, κ on the radius near ζ; below the figure a separate exposed straight line ν]
+Ipsam autē esse circūscriptibilem ab assignata sphæra, sic habeto. Lineæ e k intelligatur adijci secūdum rectitudinē lineæ e l æqualis lineæ c b, ut tota k l sit æqualis a b quæ est diameter assignatæ sphæræ. Hanc autē lineam, inquā, e l imagineris esse sub circulo f g h, perpendicularē quoq; ad ipsius superficiē ex parte inferiori, sicut est e k ex parte superiori, eritq́; unaquæq; trium linearū e f, e g, e h, & simpliciter quælibet semidiameter circuli f g h, medio loco ꝓportionalis inter k e & e l, quemadmodū est d c inter a c & c b, nam hæ sunt æquales illis, unaquæq; suæ relatiuæ. Si igitur super lineā l k describatur semicirculus, circūducaturq́; quousq; ad locū unde moueri cœperat redeat, erit ex diffinitione sphærarū æqualiū, sphæra descripta motu huius semicirculi, æqualis sphæræ assignatæ: sunt enim sphæræ æquales, quarū sunt æquales diametri, quemadmodū de circulis in principio tertij dictum est. Hunc uero semicirculū necesse est trāsire per tria puncta f, g, h, quæ sunt anguli solidæ pyramidis fabricatæ. Similiter autē dico q̃ semicirculus hic quoniā super lineam k l fuerit descriptus, si circūducatur quousq; ad locū redeat unde moueri cœperat, continget circulū f g h super omnia puncta circūferentiæ ipsius. Quod ex hac uetusta ueritate probatur. Si linea recta super lineā rectā perpēdiculariter steterit, quæ inter partes eius cui superstat uel circūstat medio loco ꝓportionalis ponatur, fueritq́; super eam lineā cui ꝑpendicularis superstat, semicirculus descriptus, circūferentia ipsius per extremitatē lineæ medio loco ꝓportionalis positæ perpēdiculariter necessario transibit. Cum igitur cūctæ semidiametri circuli f g h sint perpen
 
-## Eucli. ex Zamb. Theorema 12 Propositio 12
-
-[Margin]
-12
-[/Margin]
-
-[Margin]
-Camp. 8
-[/Margin]
-
-## Si in circulo triangulū æquilaterū descriptū fuerit, ipsius trianguli latus potentia triplum est eius quæ ex centro circuli.
-
-THEON ex Zamb. Sit circulus α β γ, & in eo triangulū æquilaterū describatur α β γ. Dico quod ipsius α β γ triāguli latus potentia triplū est eius quæ ex centro ipsius circuli α β γ. Assumatur enim (per 1 tertij) centrum ipsius circuli δ, & connexa α δ extendatur in ε, & cōnectatur β ε. Et quoniā triangulū α β γ æquilaterū est, igitur β ε γ circūferentia tertia pars est ipsius circuli α β γ circūferentiæ: igitur β ε circūferentia, sexta pars est circūferentiæ ip-
-
-[Diagram: circle with inscribed equilateral triangle α β γ (α at top, β bottom left, γ bottom right); centre δ; diameter α δ produced to ε at the bottom of the circle; line β ε drawn]
-
-<!-- Signature: O 2 -->
-
-<!-- Catchword: sius -->
+<!-- Catchword: diculares -->

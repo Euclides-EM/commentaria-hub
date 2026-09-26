@@ -1,33 +1,31 @@
-<!-- Running title: LIBER TERTIVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 73 -->
+<!-- Page number: 74 -->
 
-## Eucli. ex Camp. Propositio 24.
+*aut eo minor, Sit prius maior, & constituatur (per 23 eiusdem) ad ipsam β α, rectam lineam ad signumq́; in ea α, ipsi angulo α β δ. æqualis angulus β α ε. Et extendatur (per 2 postulatum) β δ, in ε. Et coniungatur (per 1 postulatum) ε γ, quoniam igitur angulus α β ε, æqualis est angulo β β ε, æqualis igitur est (per 6 primi, recta linea ε β, ipsi α ε. Et quoniam æqualis est α δ, ipsi δ γ, communis ausem δ ε, duæ igitur α δ, & δ ε, duabus γ δ, & δ ε, sunt æquales altera alteri. Et angulus α δ ε, (per quartum postulatum) angulo γ δ ε, est æqualis, rectus enim uterque. Et basis igitur α ε, (per quartam primi,) basi γ ε, est æqualis. Sed α ε. ipsi β ε, ostensa æqualis est. Igitur β ε, ipsi γ ε, est æqualis. Tres igitur α ε, ε β, & ε γ, sibi inuicem sunt æquales, Centro igitur ε, spatio autem (per 3 postulatum) aut α ε, aut ε β, aut ε γ. circulus descriptus per reliqua signa ueniet & descriptus erit. Circuli igitur segmento dato, circulus descriptus est, & manifestum est, quod segmentum α β γ. minus est semicirculo, quoniam ε, centrum extra ipsum cadit. Similiter quoque ostendemus, & si angulus α β δ, æqualis fuerit angulo β α δ, ipsa α δ, æquali existente utrique ipsarum β δ, & δ γ, tres igitur δ α, δ β, & β γ, sibi inuicem sunt æquales. Et erit ipsum centrum δ, completi circuli, ipsum erit quoque semicirculus α β γ.*
 
-24 DAti semicirculi, siue semicirculo maioris siue minoris portionis: circulum perficere.
+*Si autem α β δ, minor fuerit β α δ, constituemus (per 23 primi) ad β α, rectam lineam & ad signum in ea α, angulo α β δ, æqualem intra α β γ, segmentum. Segmenti centrum cadet super δ β, & erit, uidelicet, segmentum α β γ, maius semicirculo. Dato igitur segmento, describitur circulus cuius est segmentum. Quod fecisse oportuit.*
 
-CAMPANVS. Intentio per hanc conclusionem, est ex omni arcu dato siue ex omni circuli portione data, circulum perficere. Sit ergo a b quilibet arcus: ex quo uolo perficere circulum. Protrabam in eo duas lineas qualitercunque contingat, quæ sint a c, & b d: quas diuidã per æqualia, a c quidem in puncto e: & b d in puncto f. Et protraham e g perpendicularẽ ad a c, & f h perpendicularem ad b d: quæ secent se in puncto k. Eritq̃ per correllarium primæ huius, centrum circuli in utraq̃ linearum e g & f h. Quare cẽtrum est punctum k. Si autem e g non secet f h, sed sint linea una, quemadmodum erit si duæ lineæ a c & b d sint æquidistantes: tunc ipsa applicabitur circunferentiæ dati arcus ex utraq̃ parte, ipsa igitur diuisa per medium in puncto k: erit ibi centrum circuli per idem correllarium. Aequidistantes autẽ non erunt e g & f h, quia cum in utraq̃ sit centrũ circuli per dictum correllarium essent eiusdẽ circuli duo centra. Sic potest de omni arcu siue de omni portione communiter demonstrari: qualiter inde circulus perficiatur. Quia tamẽ auctor uidetur hanc conclusionem uariare secundũ diuersas species arcuum, omnium portionum enumerando species: demõstrabimus diuisim per species, qualiter ex omni portione data circulus perficiatur. Sit ergo primũ a b portio data: semicirculus, eritque per diffinitionem semicirculi, linea a b diameter, ea igitur diuisa per medium in puncto c: erit c centrum circuli. Sit rursus portio a c b semicirculo maior, cuius chorda sit a b, quam diuido per æqualia in pũcto d, à quo duco d c perpendicularem ad ipsam: quæ transibit per centrum, per correllarium primæ huius: & protraho lineam a c. Et quia linea a b est minor diametro, cum sit a c b portio maior semicirculo: erit a d minor semidiametro, sed d c est maior semidiametro, ergo d c est maior quam a d: ergo per 19 primi angulus e a d est maior angulo a c d. Fiat itaq̃ per 13 primi, angulus c a e æqualis angulo a c d: producta linea a e quæ secet lineam c d in puncto e, eritq̃ per sextã primi, linea a e æqualis lineæ e c: producatur igitur linea e b, eritq̃ per 4 primi, linea e b æqualis lineæ a e, quare tres lineæ e a, e b, e c sunt æquales, ergo per 6 huius e est centrum circuli. Sit iterum a c b portio minor semicirculo: cuius chorda sit a c quam diuido per æqualia in puncto d, à quo produco lineam c d e perpendicularem ad lineam a b: quæ secet circunferentiam in puncto c, hanc manifestum est transire per centrum per correllarium primæ huius. Produco iterum lineam a c: eritq̃ angulus a c d maior angulo c a d. Si est æqualis: erit portio a c b semicirculus, & si minor, erit maior semicirculo: positum est autem quod sit minor. Produco igitur lineam a e, quæ cum linea a c faciat: angulum æqualem angulo c, & secet lineam c f in puncto e, & manifestum est quod punctum e, cadat extra datam portionem, & produco lineam e b & quia angulus a totalis est æqualis angulo c, erit per 6 primi, linea e a æqualis lineæ e c, & quia per 4 primi, linea e b est æqualis lineæ e a: erit per 9 huius punctum e, centrum circuli, quare patet propositum: secundum omnes species portionum circuli.
+[Diagram: segment of a circle with β at the top, a point within, and α, δ, γ along the base, with lines from β to α and to δ]
 
-[Diagram: arc of a circle with points c and d on the arc, a at left and b at right; within, the chords a c and b d bisected at e and f, the perpendiculars crossing at k; h and g at the lower ends]
+## Eucli. ex Camp. Propositio 25.
 
-[Diagram: arc of a circle with c and d on the arc; the horizontal line h e k f g crossed by vertical lines, a and b at the bottom]
+25 SI in æquis circulis seu super centra, seu super circunferentias, æquales anguli consistant, super æquos arcus eos cadere necesse est.
 
-[Diagram: semicircle on the base a c b]
+CAMPANVS Sint duo circuli æquales a b c cuius centrum d, & e f g, cuius centrum h, & fiant supra centra eorum, duo anguli a d c & e h g, qui ponantur æquales. Dico duos arcus a b c, & e f g, esse æquales, Protrahãtur duæ lineæ a c & e g, & fiant duo anguli in circunferentijs ipsorum, consistentes, supra prædictos arcus, qui sint angulus a b c & angulus e f g. Quia ergo circuli sunt æquales, erunt per diffinitionem æqualium circulorum semidiametri æquales, & quia duo anguli d & h sunt æquales per 4 primi, linea a c æqualis lineæ e g, & per 19 huius, erit angulus, b, æqualis angulo f, cum d angulus sit æqualis angulo h. Ergo per diffinitionem similium portionum duæ portiones a b c & e f g, sunt similes, & quia ipsæ sunt super lineas a c & e g æquales: ipsæ erunt æquales per 23 huius, quare arcus a b c & e f g, sunt æquales. Quod si anguli b & f qui sunt in circunferentia, ponantur æquales, erũt per diffinitionem, portiones similes, & anguli d & h æquales per 19 huius. Et quia circuli sunt æquales per positionem, erunt per 4 primi, duæ lineæ a c & e g æquales, quare ut prius, portiones æquales per 23 huius: cum sint similes & super æquales lineas, igitur & arcus æquales. Quod est propositum.
 
-[Diagram: circle with c at top, centre e, and a, d, b at the bottom, with lines from a to c and from a and b to e]
+[Diagram: circle with b at the top, centre d, a at lower left and c at lower right; inscribed triangle a b c with lines from a and c to d]
 
-[Diagram: portion less than a semicircle: pointed oval a d b with e below the base and a line descending to f]
+[Diagram: circle with f at the top, centre h, e at lower left and g at lower right; inscribed triangle e f g with lines from e and g to h]
 
-## Eucli. ex Zamb. Problema 3. Propositio 25.
+## Eucli. ex Zamb. Theorema 25. Propositio 26.
 
-25 Circuli segmento dato, describere circulum cuius est segmentum.
+26 In æqualibus circulis æquales anguli æqualibus circunferentijs insistũt siue si ad centra siue si ad circunferentias consistunt.
 
-THEON ex Zamberto. *Sit datum segmentum circuli α β γ. Oportet iam segmenti α β γ, circulum cuius est segmentum describere. Secetur enim (per 10 primi) α γ, bifariam in δ. Exciteturque (per 11 eiusdem) à signo δ, ipsi α γ, ad angulos rectos β δ, & coniungatur (per primum postulatum) α β. Angulus igitur α β δ, angulo β α δ, comparatus aut eo est maior, aut ei æqualis*
+THEON ex Zamb. *Sint æquales circuli: α β γ, & δ ε ζ. & in eis sint anguli æquales ad centra quidem, qui sub β η γ, & ε δ ζ, ad circunferentias autem, qui sub β α γ, & ε δ ζ. Dico quod circunferentia β κ γ, æqualis est circunferentiæ ε λ ζ. Coniungantur (per primum postulatum) β γ, & ε ζ. Et quoniam circuli α β γ & δ ε ζ, sunt æquales, etiam quæ ex centris, sunt æquales (per primam diffinitionem tertij). Duæ igitur β η, & η γ, duabus ε θ, & θ ζ, sunt æquales. Et angulus qui ad η, angulo qui ad θ est æqualis, Basis igitur β γ (per 4 primi) basi ε ζ, est æqualis Et quoniam angulus qui ad α. æqualis est angulo qui ad δ, segmentum igitur β α γ, (per 24 tertij simile est segmento ε δ ζ, & sunt in æqualibus rectis lineis β γ, & ε ζ. Super æqualibus autem rectis lineis (per 24 eandem) similia circulorum segmenta existentia, inuicem sunt æqualia. Segmentũ igitur β α γ. æquale est ipsi ε δ ζ, segmẽto. Est autẽ totus circulus α β γ, æqualis toti circulo δ ε ζ.*
 
-[Diagram: segment of a circle with β at the top, δ within, α at left, γ at right, with the chord α γ and lines joining the points]
+[Diagram: circle with α at the top, centre η, β at lower left, γ at lower right, and κ at the bottom of the circumference; lines from β and γ to η and to α]
 
-[Diagram: semicircle with β at the top and α, δ, γ on the base, with lines from β to α and to δ]
+[Diagram: circle with δ at the top, centre θ, ε at lower left, ζ at lower right, and λ at the bottom of the circumference; lines from ε and ζ to θ and to δ]
 
-<!-- Signature: g -->
-
-<!-- Catchword: aut -->
+<!-- Catchword: Reliqua -->

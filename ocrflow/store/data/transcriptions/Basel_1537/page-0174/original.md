@@ -1,27 +1,49 @@
-<!-- Running title: LIBER SEXTVS -->
+<!-- Page number: 154 -->
 
-<!-- Page number: 163 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-quidistantium laterum datæ superficiei æquidistantium laterum similem.
+ponatur ε ξ, totum igitur α ξ, æquum est ipsi φ χ ψ, gnomoni. Sed φ χ ψ gnomon æqualis est ipsi γ. Igitur α ξ, ipsi γ est æquale. Ad datam igitur rectam lineam α β, dato rectilineo γ, æquale parallelogrammum comparatum est α ξ, excedens specie parallelogrammo π ο simili existente ipsi δ. Igitur δ, simile est ipsi β ξ, & β ξ. ipsi ο π, est simile, circum enim eandem dimetientem consistunt, quod fecisse oportuit.
 
-CAMPANVS, Sit ut prius data linea a b, & datus triãgulus c, datũq́; parallelogrãmum d, uolo super lineã a b cõstituere parallelogrammũ æquale triãgulo c. quod addat super totã lineã a b, parallelogrãmũ simile d. Diuido lineã a b per æqualia in puncto e, & super eius medietatẽ e b, facio e f similẽ d, secundũ quod docet 19 huius, & secundum doctrinã 25 huius, facio k l cuius diameter g h, similẽ d & æqualẽ duabus superficiebus e f & c, eritq́; per 20 huius k l similis e f. Superposita igitur superficie k l superficiei e f ita quod ambæ cõmunicent in angulo g: erit per 23 huius superficies e f, cõsistẽs circa diametrũ superficiei k l: quare punctũ b est in diametro g h, cõplebo igitur parallelogrãmũ a h: quod dico esse quale proponitur. quod cõstat protractis linea f b usque ad m. & linea e b, usque ad n. Est enim per primã partẽ huius, a k æquale k b, & ideo per 43 primi est etiã æquale n f, addito ergo utriq́; e h: erit per cõmunẽ sciẽtiã a h æquale gnomoni e h f, sed iste gnomo est æqualis triãgulo c. quia parallelogrãmũ k l positum fuit æquale duabus superficiebus c & e f, ergo parallelogrammum a h est æquale c, & addit ad cõplementum lineæ a b parallelogrammum m n, quod per 22 & 20 huius est simile parallelogrãmo d, quare cõstat perfectum esse quod uolumus.
-
-[Diagram: triangle c; small square d; rectangle divided by vertical and horizontal lines with diagonal from g through b, top labels g, f, l; on the middle line a, e, b, n; bottom labels k, m, h]
-
-CAMPANI additio Possumus aut ad lineam datam adiũgere parallelogrammum æquale nõ solũ trilateræ superficiei positæ, sed & cuiuslibet rectilineæ figuræ propositæ quæcũq̃ ispa fuerit: cui desit ad cõplendã lineã datã superficiei æquidistãtiũ laterũ propositæ sicut docet præmissa, obseruata cõditione eius ne laboretur ad impossibile per ante præmissam, uel qd' addat super cõpletionẽ lineæ superficiẽ æquidistantiũ laterũ similẽ superficiei propositæ sicut proponit cõclusio præsens Propositã enim superficiem cui æquale parallelogrãmum debet ad lineã datã adiũgi quod addat aut diminuat ad cõpletionẽ lineæ parallelogrammũ simile parallelogrãmo dato: resoluemus in triãgulos, & ipsis mediãtibus describemus superficiẽ æquidistãtiũ laterum, totali superficiei propositæ æqualẽ, hoc autẽ qualiter fiat & si scire uolueris: require 25 huius. Dehinc super duplũ basis eius æqualis altitudinis triãgulũ cõstituemus, quẽ (si 41 primi diligẽter inspexeris) parallelogrammo prius designato inuenies esse æqualẽ, quare & superficiei propositæ, huic ergo triãgulo si æquale parallelogrãmũ ad lineam datã adiũxeris quod addat ad cõplementum lineæ aut minuat parallelogrammũ simile parallelogrãmo dato secundũ qd' docet hæc & præmissa: quod propositũ erat te perfecisse non dubites.
-
-## Eucli.ex Zamb. Problema 9 Propositio 29
+## Eucli.ex Camp. Propositio 29.
 
 [Margin]
 29
 [/Margin]
 
-Ad datã rectã lineam, dato rectilineo æquale parallelogrãmũ prætẽdere. excedẽs specie parallelogrãmo simili dato.
+QVamlibet lineam propositam, secundum proportionem habentem medium duóque extrema secare.
 
-THEON ex Zãb. Sit quidẽ data recta linea α β, datũ uero rectilineũ cui expedit ad α β, æquale parallelogrãmũ prætẽdere γ. Cui aũt oportet simile prætẽdere δ, oportet iã ad α β, rectã lineã ipsi γ, rectilineo æquum parallelogrãmũ prætẽdere excedẽs specie parallogrãmo simili ipsi δ. Secetur (per 10 primi,) α β, bifariã in ε, & describatur (per 6 sexti) ex ε β ipsi δ simile similiterq́; positũ parallelogrãmũ β ζ, & ambobus qdẽ β ζ γ æquale, ipsi, aũt δ, simile similiterq́; positò, idẽ cõstituatur η θ, Simile igitur est η θ, ipsi β ζ. Similis aũt ratiõis esto κ θ, ipsi ζ λ, & κ η, ipsi ζ ε. Et quoniã maius est η θ, ipso ζ β, maior igitur est quidẽ κ θ, ipsa ζ λ. & κ η, ipsa ζ ε. Extendãtur ζ λ, & ζ ε, & ipsi quidẽ κ θ, æqualis esto ζ λ μ, ipsi autẽ κ η, æqualis esto ζ ε ν. Cõpleaturq́; μ ν. Igitur μ ν, ipsi η θ, æquũ est & simile, sed η θ, ipsi ε λ. est simile. Igitur (per 26 sexti. μ ν ipsi ε λ. est simile, circum igitur eãdẽ diametrũ cõsistũt ε λ & μ ν. Excitetur eorũ dimetiẽs ζ ξ. & describatur figura. quoniã igitur æquũ est ζ θ ipsis ε λ et γ. sed η θ, ipsi μ ν, est æquale, & μ ν igitur ipsis ε λ γ, est æquale. Cõmune auferatur ε λ, reliquus igitur ψ χ φ gnomõ ipsi γ est æq̃lis. Et quoniã α ε, ipsi ε β: est æq̃lis æquũ est per 36 primi et α ν ipsi ν β hoc est (per 43 primi ipsi λ ο cõe ap
+CAMPANVS Sit proposita linea a b: quam uolo diuidere secundũ proportionem habentẽ mediũ & duo extrema. Ex ipsa describo quadratum b c: & ad eius latus a c adiungo secundũ quod docet præmissa, parallelogrammũ c d æquale quadrato b c: quod sit simile b c, sitque latus parallelogrãmi c d, quod æquidistat a c: d e, & secet lineã a b in pũcto f. Dico, lineã a b esse diuisam in puncto f sicut proponitur. Est enim a d quadratũ, propter id quod est simile b c, quare a f. est æquale f d, sed & f e est æqualis a b: propter id quod est æqualis a c per 34 primi, & quia c d æquale b c: dempto ab utroque c f: erit a d æquale e b. & angulus f unius angulo f alterius. ergo per 15 huius latera sunt mutekefia: ergo e f ad f d sicut a f ad f b: & quia e f est æqualis a b, & f d: erit a b ad a f sicut a f ad f b: ergo per diffinitionem est diuisa ut proponitur. Idẽ etiã potest demõstrari ex 11 secũdi. Diuidatur enim a b in puncto f: secundũ quod docet 11 secundi, sitque c b quod continetur sub tota a b & eius parte f b: ita quod f e sit æqualis a b & a d sit quadratum a f: est itaque per prædictã 11 secũdi e b: æquale a d. Quod restat arguere ut prius per 15 huius, uel sic: cum A b sit diuisa in puncto f secundum quod docet 11 secundi: quod fit ex a b prima in f b tertiam est æquale quadrato a f secundæ: ergo per secundã partem 16 huius proportio a b primæ ad a f, secũdam est sicut a f secundæ ad f b tertiã: per diffinitionem itaque diuisa est a b ut proponitur.
 
-[Diagram: triangle γ; large parallelogram with corners κ, η, θ; small parallelogram δ; below, rectangle on line α ε β with ζ, λ, μ across the top, diagonal drawn from ζ through the figure, interior labels ο, ψ, χ, ϛ, and ν, ξ, ο, π at the edges]
+[Diagram: rectangle with c at top left and a at top right, divided by a vertical line toward the right and a horizontal line below; e on the left side, f and d at the right of the vertical divider, b at bottom right]
 
-<!-- Signature: o 4 -->
+## Eucli.ex Zamb. Problema 10 Propositio 30
 
-<!-- Catchword: ponatur -->
+[Margin]
+* τεμεῖν secare
+[/Margin]
+
+Datam rectam lineam terminatam, extrema ac media ratione * dispescere.
+
+THEON ex Zamberto. Sit data recta linea terminata α β, oportet iam ipsam α β, rectam lineam extrema
+
+[Margin]
+* τεμεῖν
+[/Margin]
+
+& media ratione *dispescere. Describatnr enim, (per 46 primi) ex α β, quadratum β γ. Compareturque (per 29 sexti,) ad α γ, ipsi β γ. æquum parallelogrammũ γ δ excedens specie α δ, simili ipsi β γ. Quadratũ autẽ est β γ, quadratũ igitur est & α δ, & quoniã æquũ est β γ, ipsi γ δ, cõmune auferatur γ ε, reliquum igitur β ζ, reliquo α δ est æquale, est autẽ & æquiangulũ. Igitur (per diffinitionem 2 tertij, & per 14 sexti) ipsorum β ζ, & δ α, reciproca sunt latera: quæ circũ æquales angulos. Est igitur sicut ζ ε, ad ε δ, sic α ε, ad ε β. Aequalis autem est ζ ε, ipsi α γ, hoc est ipsi α β. Ipsa autẽ ε δ, ipsi α ε. Est igitur sicut β α, ad α ε, sic α ε, ad ε β, maior autem est (per 34 primi,) α β, quàm α ε: maior igitur est & α ε, quàm ε β. Igitur α β, recta linea extrema & media ratione secta est, in ε, & maius segmentum ipsius est α γ, quod fecisse oportuit.
+
+[Diagram: tall rectangle divided by a horizontal line at α on the left side and by a vertical line; δ at upper right, ε and β at middle right, γ and ζ at the bottom]
+
+ALITER Sit data recta linea α β, oportet ipsam iã α β, extrema, & media ratione secare, secetur enim α β, in γ, (per 11 secundi): ut quod sub α β, & β γ, æquum sit ei quod ex γ α, quadrato. Quoniã igitur quod sub α β & β γ. æquũ est ei quod ex γ α, est igitur (per 17 huius) sicut β α, ad α γ sic α γ, ad γ β. Igitur α β, media & extrema diuisa est ratione in γ, quod oportebat facere.
+
+## Eucli.ex Camp. Propositio 30
+
+[Margin]
+30
+[/Margin]
+
+SI fuerint duo anguli super unum angulum constituti quorum duo latera angulum illum continentia duobus alijs eorum lateribus æquidistet, fuerintq́; illa quatuor latera secundum æquidistantiam relata, proportionalia, illos duos triangulos super unam lineam rectam constitutos esse necesse est.
+
+CAMPANVS Sint duo anguli a b c, d c e constituti super angulum a c d. sitque a c æquidistans d e & d c: a b, & sit proportio a c ad d e, sicut a b ad d c, dico quod duæ bases eorũ b c & c e, sunt linea una. Est enim angulus a æqualis angulo d: quia uterq́; eorũ est æqualis angulo a c d per primam partem 29 primi, igitur per præsentem hypothe
+
+<!-- Catchword: sin -->

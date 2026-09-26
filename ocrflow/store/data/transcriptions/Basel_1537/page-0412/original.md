@@ -1,35 +1,37 @@
-<!-- Running title: LIBER DVODECIMVS. -->
+<!-- Page number: 402 -->
 
-<!-- Page number: 401 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-gulas quæ, uidelicet, sunt bases seratiliũ. Constat itaq̃ unũquodq̃ seratile ad eam pyramidẽ quæ super eandem basin cum ipso seratili consistit, triplum esse: hoc enim demonstratũ est in 6 huius duodecimi libri. Igitur ex 13 quinti omnia seratilia pariter accepta, ad omnes pyramides pariter acceptas necesse est esse triplum. Cumq̃ ex om̃ibus seratilibus pariter acceptis columna, & ex omnibus pyramidibus pariter acceptis pyramis columnæ perficiantur, constat ueram esse hanc nostram propositionem.
+CORRELARIVM. Ex hoc nempe est manifestũ, quod & multangulas bases habẽtes similes pyramides, adinuicẽ in triplici sunt ratione eiusdẽ rationis laterũ. Diuisis enim ipsis in ipsas pyramides, triãgulares bases habentes (quia similia polygona basium in similia triangula diuiduntur, & in æque multiplicia, & eiusdem rationis totis) erit sicut in altera una pyramis triangularẽ habens basin ad unam basin triangularẽ habentem in altera pyramide, sic & omnes pyramides in altera pyramide triãgulares bases habẽtes, ad pyramides existentes in altera pyramide, & habentes triãgulares bases. Hoc est, Pyramis ipsa polygonã basin habens ad pyramida basin polygonã habentẽ. Pyramis autẽ triangularẽ basin habens ad pyramida triangularẽ basin habentẽ, in triplici est ratione eiusdẽ ratiõis laterũ. Et polygonã igitur basin habens, ad similem basin habentẽ, triplam habet rationẽ quàm latus ad latus.
 
-Si fuerint duæ quælibet columnæ lateratæ æquales, earum bases earundem altitudinibus mutuæ erunt. Si uero bases earũ & altitudines mutuæ fuerint, easdem columnas æquales esse necesse est.
-
-Si enim columnæ sint æquales, earũ pyramides erunt æquales, eo q̃ omnis laterata columna est tripla ad suam pyramidẽ. Si autem pyramides fuerint æquales, suæ bases suis altitudinibus mutuæ erũt, quemadmodũ demonstratũ est in 7 huius. Quia igitur columnarũ suarumq̃ pyramidũ eædem sunt bases, & altitudines sunt eædem, constat prima pars propositi. Sint igitur & altitudines propositarũ columnarũ lateratarũ mutuæ. Dico q̃ colũnæ erunt æquales. Cum enim eædẽ sint bases eædemq̃ altitudines columnarũ suarũ pyramidũ, erunt bases & altitudines pyramidũ propositarũ columnarũ mutuæ. Si hoc ut positum est, uerum fuerit de columnis, erunt quoq̃ pyramides æquales, prout in 7 huius demonstratũ est, igitur & columnæ æquales, cum ipsæ triplæ sint ad suas pyramides. Quare patet secunda pars eius quod propositum est.
-
-Omnium duarũ columnarũ lateratarũ similium est proportio alterius ad alteram, tanq̃ lateris ad suum relatiuũ latus proportio triplicata.
-
-Si columnæ fuerint similes, erunt ex diffinitione similium corporũ, bases earũ cæteræq̃ superficies eas ambientes similes. Diuidantur itaq̃ bases earũ in triãgulos similes & numero æquales, quemadmodũ 18 sexti proponit esse possibile, & ipsæ colũnæ diuidantur in seratilia super hos triãgulos existentia. Stude igitur probare seratilia unius, suis relatiuis seratilibus alterius esse similia, quod facile probabis ex hypothesi & 6 & 4 & 5 sexti, & ex diffinitione similium superficierũ & diffinitione similium corporũ. Hoc autem probato, erit ex 36 undecimi proportio uniuscuiusq̃ seratilis unius ad suum relatiuũ seratile alterius, sicut sui lateris ad latus illius proportio triplicata. Et quia omniũ laterũ est proportio una, cum cuncta seratilia unius sint similia suis relatiuis seratilibus alterius, sequitur ex 11 quinti ut cunctorũ seratiliũ unius ad sua relatiua seratilia alterius sit proportio una. Quare per 13 quinti quæ est proportio unius seratilis ad suũ seratile relatiuũ alterius, eadẽ est omniũ pariter acceptorũ ad omnia pariter accepta. Et quia utrobiq̃ omnia seratilia pariter accepta cõponunt columnas, & relatiua latera seratilium sunt relatiua latera columnarũ, necesse est ex 11 quinti ut proportio columnarũ sit sicut suorũ relatiuorũ laterum proportio triplicata. Quod est propositũ.
-
-## Eucli. ex Zamb. Theorema 8 Propositio 8
+## Eucli. ex Zamb. Theorema 9 Propositio 9
 
 [Margin]
-Camp. 8
+9
 [/Margin]
 
 [Margin]
-8
+Camp. 7
 [/Margin]
 
-Similes pyramides, triãgulares bases habentes, in triplici sunt ratione eiusdem rationis laterum.
+Aequalium pyramidum & triangulares bases habentiũ, reciprocæ sunt bases altitudinibus. Et pyramides triangulares bases habentes, quarũ reciprocæ sunt bases uerticibus, sunt æquales.
 
-[Diagram: parallelepiped in perspective with top face corners α and λ, μ on the top face; below, η at the interior of the base, β at the lower left corner and γ at the bottom, with diagonals drawn in the base]
+[Diagram: cube-shaped parallelepiped with α at the upper left, μ on the top face and λ at the upper right; diagonals drawn within, η at the interior of the base, β at the lower left and γ at the lower right, with θ below]
 
-THEON ex Zamb. Sint similes & similiter positæ pyramides, quarũ bases quidẽ sunt α β γ, δ ε ζ, triãgula, fastigia uero ipsarũ sint η θ signa. Dico quod α β γ η pyramis ad δ ε ζ θ pyramidẽ, triplam habet rationẽ, q̃ β γ ad ε ζ. Cõpleantur enim β η μ λ, ε θ π ο, solida parallelepipeda. Et quoniã pyramis α β γ η similis est ipsi δ ε ζ θ pyramidi, æqualis igitur est angulus qui sub α β γ ei qui sub δ ε ζ angulo, & qui sub η β γ ei qui sub θ ε ζ, & qui sub α β η ei qui sub δ ε θ, estq̃ sicut α β ad δ ε, sic est β γ ad ε ζ, & β η ad ε θ. Et quoniã est sicut α β ad δ ε, sic β γ ad ε ζ, & circũ æquos angulos latera sunt proportionalia, igitur β μ parallelogrammũ ipsi ε π, simile est parallelogrãmo: & id propterea & β ν ipsi ε ρ simile est, & β κ ipsi ε ξ. Tria igitur β μ, κ β, β ν, tribus ε π, ε ξ, ε ρ, sunt similia. Sed tria quidẽ μ β, β κ, β ν, tribus quæ ex opposito æqualia sunt similia, & tria ε π, ε ξ, ε ρ, æqua & similia sunt tribus quæ ex opposito: ipsa igitur β η μ λ, ε θ π ο, solida parallelepipeda, sub similibus planis æque multiplicibus cõprehendũtur. Igitur β η μ λ, ipsi ε θ π ο solido simile est. Similia autẽ solida parallelepipeda, in triplici sunt ratione eiusdẽ ratiõis laterũ (per 33 undecimi.) Igitur β η μ λ solidũ ad ε θ π ο solidũ triplã habet rationẽ, q̃ eiusdẽ ratiõis latus β γ ad eiusdẽ rationis latus ε ζ. Sicut aũt β η μ λ solidũ ad ε θ π ο solidũ, sic α β γ η pyramis ad δ ε ζ θ pyramida, quoniã pyramis sexta pars est solidi, eo quod & prisma dimidiũ existens solidi parallelepipedi, triplũ est ipsius pyramidis, & α β γ η igitur pyramis ad δ ε ζ θ pyramida triplam rationẽ habet, q̃ β γ ad ε ζ. Quod demõstrasse oportuit.
+THEON ex Zamb. Sint enim æque pyramides α β γ η, δ ε ζ θ, triãgulares bases habẽtes α β γ, δ ε ζ, fastigia uero η, θ, signa. Dico quod ipsarũ α β γ η, δ ε ζ θ, pyramidũ reciprocæ sunt bases altitudinibus, & est sicut basis α β γ ad basin δ ε ζ, sic est ipsius δ ε ζ θ pyramidis altitudo ad ipsius α β γ η pyramis altitudinẽ. Cõpleantur enim ipsa β η μ λ, ε θ π ο, solida parallelepipeda. Et quoniã pyramis α β γ η æqualis est ipsi δ ε ζ θ pyramidi, estq̃ ipsius quidẽ α β γ η pyramidis sexcuplũ ipsum β η μ λ solidũ, ipsius autẽ δ ε ζ θ solidũ ε θ ο π sexcuplũ est, igitur solidum β η μ λ, ipsi ε θ ο π solido æquũ est. Aequaliũ autem solidorũ parallelepipedorũ reciprocæ sunt bases altitudinibus (per 34 undecimi.) Est igitur sicut β μ basis ad ε π basin, sic est ipsius ε θ ο π solidi fastigium ad ipsius β η μ λ solidi fastigium. Sed sicut quidẽ β μ basis ad ε π basin, sic α β γ triangulũ ad δ ε ζ triangulum. Et sicut igitur (per 11 quinti) triangulũ α β{printer-error-correction:α β γ} ad triangulũ δ ε ζ, sic ipsius ε θ π ο solidi altitudo, ad ipsius β η μ λ solidi altitudinem. Sed ipsius ε θ π ο solidi altitudo, eadem est ipsi ipsius δ ε ζ θ pyramidis altitudini, & ipsius β η μ λ solidi altitudo, eadem est ipsius α β γ η pyramidis altitudini. Est igitur sicut α β γ basis ad δ ε ζ basin, sic ipsius δ ε ζ θ pyramidis altitudo ad ipsius α β γ η pyramidis altitudinẽ. Ipsarũ igitur α β γ η, δ ε ζ θ, pyramidũ, reciprocæ sunt bases altitudinibus.
 
-[Diagram: second parallelepiped in perspective with ξ and θ at the top face, δ at the left, π on the front face; ε, ζ at the base with diagonals drawn, and ρ at the right]
+[Diagram: second cube-shaped parallelepiped with δ at the upper left and π on the top face; diagonals drawn within, θ at the interior, ε at the lower left and ζ at the lower right]
 
-<!-- Signature: L 3 -->
+Sed iam ipsarũ α β γ η, δ ε ζ θ, pyramidum reciprocæ sint bases altitudinibus, estoq̃ sicut α β γ basis ad δ ε ζ basin, sic ipsius δ ε ζ θ pyramidis fastigiũ ad ipsius α β γ η pyramidis fastigiũ. Dico quod pyramis α β γ η, æqualis est ipsi δ ε ζ θ pyramidi. Eisdem nanq̃ dispositis, quoniã est sicut α β γ basis ad δ ε ζ basin, sic est ipsius δ ε ζ θ pyramidis uertex ad ipsius α β γ η pyramidis uerticem, sed sicut α β γ basis ad ipsam δ ε ζ basin, sic β μ parallelogrammũ ad ε π parallelogrammũ, & sicut igitur (per 11 quinti) β μ parallelogrammũ ad ε π parallelogrammũ, sic est ipsius δ ε ζ θ pyramidis fastigiũ ad ipsius α β γ η pyramidis fastigiũ. Sed ipsius quidẽ δ ε ζ θ pyramidis uertex, est idem ipsius ε θ π ο parallelepipedi uertici, & fastigiũ ipsius α β γ η pyramidis, idem est ipsius β η μ λ parallelepipedi altitudini: est igitur sicut β μ basis ad ε π basin, sic ipsius ε θ π ο parallelepipedi altitudo ad ipsius β η μ λ parallelepipedi altitudinẽ. Solida uero parallelepipeda quorũ reciprocæ sunt bases altitudinibus, sunt æqualia (per 34 undecimi.) Igitur solidum parallelepipedũ β η μ λ, ipsi ε θ π ο solido parallelepipedo est æquale, Estq̃ ipsius quidẽ β η μ λ parallelepipedi, pyramis α β γ η sexta pars, ipsius autẽ ε θ π ο parallelepipedi, sexta pars est pyramis δ ε ζ θ. Igitur pyramis α β γ η, ipsi δ ε ζ θ pyramidi est æqualis. Aequaliũ igitur pyramidũ & triangulares bases habentiũ, reciprocæ sunt bases altitudinibus. Et pyramides triangulares bases habentes quarũ bases uerticibus sunt reciprocæ, sunt æquales. Quod ostendendum fuerat.
 
-<!-- Catchword: CORRE- -->
+## Eucli. ex Camp. Propositio 9
+
+[Margin]
+9
+[/Margin]
+
+{dropcap:O|lines=?|style=decorated|decoration="ornamental"}Mnis columna rotunda, pyramidi suæ tripla esse cõprobatur.
+
+CAMPANVS. Supra circulum a, intelligantur una columna & una pyramis, secũdum eandem suam altitudinẽ erectæ, dicanturq̃ æquiuoce ipsa pyramis & columna & circulus, nomine uno scilicet a. Dico itaq̃ quod columna a, est tripla ad pyramidẽ a. Cuius probatio est. Quia neq̃ maior neq̃ minor potest esse q̃ tripla. Sit enim primũ (si possibile est) maior q̃ tripla, quantitate corporis b, ita q̃ si b corpus dematur de columna a, erit residuũ eius triplum ad pyramidem a. Inscribatur ergo quadratũ circulo a, super quod erigantur duo seratilia æque alta columnæ a, de quibus duobus seratilibus pariter acceptis constat, quod ipsa sunt plus medietate columnæ a, quemadmodũ ipsum quadratũ cõstat esse plus medietate circuli a, si enim ex ipsis seratilibus perficiantur solida parallelogrãma, quorũ ipsa sunt medietates, erit ipsa columna pars ipsorũ duorum solidorũ pariter acceptorũ. Deinde super latera quadrati inscripti perficiam quatuor triangulos duum æqualium laterũ in por
+
+<!-- Catchword: tionibus -->

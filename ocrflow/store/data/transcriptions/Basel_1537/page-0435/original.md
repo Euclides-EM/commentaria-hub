@@ -1,57 +1,55 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER TERTIVSDECIMVS -->
 
-<!-- Page number: 424 -->
+<!-- Page number: 425 -->
 
-ad a b, sicut a b ad b c. Cūq̃ sit ex 7 quinti a b ad b c, sicut ad b d, erit ex undecima eiusdē d a ad a b, sicut a b ad b d. Itaq̃ ex diffinitione linea a d diuisa est in puncto b secūdum proportionem habentem mediū & duo extrema, & maior portio eius est linea a b. Q̊d est propositum. Eodem quoq̃ modo si ex maiori portione cuiuslibet lineæ secūdū prædictā pportionē diuisæ tāquā minor portio detrahatur, erit maior ipsa portio secundum eandem proportionem diuisa, eritq̃ maior portio eius linea detracta. Verbi gratia a b sicut proponitur in pūcto c diuisa, sitq̃ maior portio a c, à qua detrahatur c d æqualis c b. Dico quod a c est diuisa secundū proportionē eandē in pūcto d, & quod maior portio eius est linea d c. Cū enim sit ex diffinitiōe, b a ad a c, sicut a c ad c b, at ex 7 quinti a c ad c b sicut ad c d, erit ex undecima eiusdē b a ad a c, sicut a c ad c d. ideoq̃ per 19 quinti sicut c b residuū ad d a residuum. Sed ex septima eiusdē, c b ad d a, sicut c d ad a, itaq̃ a c ad c d, sicut c d, ad d a. Ex diffinitione ergo cōstat quod diximus. Nec igitur ea quam auctor proponit additio, nec ea quam ex opposito proponimus detractio, quātuncunq̃ utralibet in prolixum tendat, à proprietate diuisiōis lineæ primitiuæ discordat.
+*γ, estq̃ quod sub α β, β γ, id quod γ ε, & id quod ex α γ, ipsum γ θ, æquū igitur est γ ε, ipsi γ θ. sed quidem γ ε, æquū est θ ε, ipsi autem γ θ, æquum est δ θ: & δ θ, igitur ipsi θ ε est æquale. Commune adijciatur θ δ, totū igitur δ κ, toti α ε est æquale, estq̃ δ κ id quod sub β δ, δ α, æqualis enim est α δ, ipsi δ λ, & α ε, ei quod ex α β: quod igitur sub β δ, δ α, æquum est ei quod ex α β. Est igitur sicut δ β ad β α, sic β α ad α δ. Maior autem est δ β, ipsa β α, maior igitur & β α, ipsa α δ, ipsa igitur β δ, extrema & media ratione secatur in α, & maius segmētū est α β. Quod erat ostendendum.*
 
-[Diagram: horizontal line with points a, d, c, b]
+## Quid sit resolutio.
 
-## Eucli. ex Camp. Propositio 5
+RESOLVTIO, est aßumptio quæsiti tanquam concessi per ea quæ sequuntur in uerum aliquod cōcessum.
+
+## Quid sit compositio.
+
+COMPOSITIO uero, est aßumptio cōcessi per ea quæ sequūtur in quæsiti terminationē siue occupationem.
 
 [Margin]
-5
+1
 [/Margin]
+
+RESOLVTIO primi theorematis. *Recta enim quædā linea α β, extrema & media rōne secetur in γ, sitq̃ maius segmētū α γ, & dimidiū ipsius α β, æqualis apponatur α δ, Dico q̃ ex γ δ, eius quod ex α δ quincuplū est. Quoniā enim q̃ ex γ δ eius quod ex δ α quincuplū est, at quod ex γ δ est, ea quæ ex γ α, α δ, una cū eo quod bis sub γ α, α δ, quæ igitur ex γ α, α δ, una cū eo quod bis sub γ α, α δ, quincuplū est eius quod ex α δ, diuidēdo igitur quod ex γ α, una cū eo quod bis sub γ α, α δ, quadruplū est eius quod ex α δ. Sed ei quod bis sub γ α, α δ, æquū est id quod sub γ α, α β, dupla enim est β α ipsius α δ. Ei autē quod ex α γ, æquū est quod sub α β, β γ, ipsa enim α β, extrema & media ratiōe secatur, quod igitur sub β α, α γ, una cū eo quod sub α β, β γ, quadruplū est eius quod fit ex α δ. Sed quod ex α β, quadruplū est eius quod fit ex α δ. sed quod sub β α, α γ, una cum eo quod sub α β, β γ, est id quod ex α β, Quod igitur ex α β, eius quod ex α δ quadruplum est, est uero: dupla enim est α β ipsius α δ.*
+
+[Diagram: horizontal line with points δ, α, γ, β]
+
+COMPOSITIO primi theorematis. *Quoniā igitur quod ex β α, eius quod ex α δ quadruplū est, sed quod ex β α, est id quod sub β α, α γ, una cū eo quod sub α β, β γ, quod igitur sub β α, α γ, una cū eo quod sub α β, β γ, quadruplū est eius quod ex α δ. Sed quod sub β α, α γ, æquū est ei quod bis sub δ α, α γ, quod autē sub α β, β γ, ei est æquū quod ex α γ, quod igitur ex α γ una cū eo quod bis sub δ α, α γ, quadruplū est eius quod ex δ α. Quare quæ ex δ α, α γ, una cū eo quod bis sub δ α, α γ, quincuplum est eius quod ex δ α. Quæ aūt ex δ α, α γ, una cum eo quod bis sub δ α, α γ, est id quod ex γ δ, quod igitur ex γ δ, quincuplū est eius quod ex δ α. Quod ostendere oportuit.*
 
 [Margin]
-Zāb. 4
+2
 [/Margin]
 
-SI secundum proportionem habentem medium & duo extrema quælibet linea fuerit diuisa, quod ex tota linea quodq̃ ex minori portione producitur ambo quadrata pariter accepta, triplū sunt eius quod ex maiore portiōe quadratū describitur.
+RESOLVTIO secundi theorematis *Recta enim quædā linea γ δ, sui ipsius segmēto δ α, quincuplū poßit, ipsius autē δ α, dupla sit α β. Dico quod α β extrema & media rōne secatur in γ signo, & maius segmentū est α γ quæ est reliqua pars eius quæ in principio rectæ lineæ. Quoniā enim α β extrema & media ratiōe secatur in γ, & maius segmentū est α γ. quod igitur sub α β, β γ, æquū est ei quod ex α γ. Est autē & quod sub β α, α γ, æquum est ei quod bis sub δ α, α γ, dupla enim est β α, ipsius α δ. Quod igitur sub α β, β γ, una cum eo quod sub β α, α γ, quod est id quod ex α β, æquū est ei quod bis sub δ α, α γ, una cū eo quod ex α γ. Quod autē ex α β, eius quod ex δ α quadruplū est: quadruplū igitur est & quod bis sub δ α, α γ, una cū eo q̃ ex α γ, eius quod ex α δ. Quare quæ ex δ α, α γ, una cū eo quod bis sub δ α, α γ, quod est id q̃ ex γ δ, q̃ncuplū sunt eius q̃ ex δ α: sunt uero, propter hypothesin.*
 
-CAMPANVS. Sit linea a b, diuisa per sæpe dictam proportionē in puncto c, sitq̃ maior portio eius linea c b. Dico quod quadrata duarū linearū a b & c a pariter accepta, triplum sunt ad quadratum lineæ c b. Hæc enim duo quadrata pariter accepta, sunt ex 7 secundi quātū quadratum c b, & duplū eius quod fit ex a b in a c. Itēq̃ quia quod fit ex a b in a c est æquale quadrato c b ex diffinitiōe & prima parte 16 sexti manifestum est propositum.
+[Diagram: horizontal line with points δ, α, γ, β]
 
-[Diagram: horizontal line with points a, c, b]
+COMPOSITIO secūdi theorematis. *Quoniā igitur quod ex γ δ quincuplū est eius quod ex δ α, quod autē ex γ δ est id quod ex δ α, α γ, una cū eo quod bis sub δ α, α γ, quæ igitur ex δ α, α γ, una cū eo quod bis sub δ α, α γ quincupla sunt eius quod ex δ α, diuidēdo igitur, quod bis sub δ α, α γ, una cū eo quod ex γ α, quadruplū est eius quod ex δ α, est uero & quod ex α β quadruplum eius quod ex α δ, quod igitur bis sub δ α, α γ, quod est id quod sub β α, α γ semel una cū eo quod ex α γ, æquum est ei quod ex α β. Sed quod ex α β, est id quod sub α β, β γ, una cū eo quod sub β α, α γ, quod igitur sub β α, α γ, una cū eo quod sub α β, β γ, æquū est ei quod sub β α, α γ, una cum eo quod ex α γ, & sublato cōmuni, eo quod sub β α, α γ, reliquū igitur quod sub α β, β γ, æquū est ei quod ex α γ, Est igitur sicut β α, ad α γ, sic α γ ad γ β. Maior autē est β α, ipsa α γ. maior igitur est & α γ, ipsa γ β. Igitur α β, extrema & media ratione secatur in γ, & maius segmentum est α γ. Quod erat ostendendum.*
 
-## Eucli. ex Zamb. Theorema 4 Propositio 4
+[Margin]
+3
+[/Margin]
+
+RESOLVTIO tertij theorematis. *Recta enim quædā linea α β, extrema & media ratione secetur in γ signo. sitq̃ maius segmentū α γ, & ipsius α γ, dimidia esto γ δ. Dico quod ex β δ ipsius γ δ quincuplum est. Quoniā enim quod ex β δ, eius quod ex γ δ quincuplū est quod autem ex δ β, est id quod sub α β, β γ, una cum eo quod ex δ γ, quod igitur sub α β, β γ, una cum eo quod ex δ γ, quincuplum est eius quod ex δ γ, diuidendo igitur quod sub α β, β γ, quadruplū est eius quod ex δ γ. Ei aūt quod sub α β, β γ, æquū est id quod ex α γ, ipsa enim α β, extrema & media ratione secatur in γ, quod igitur ex α γ, quadruplū est eius quod ex δ γ, est uero, ipsa enim α γ est dupla ipsius δ γ.*
+
+[Diagram: horizontal line with points α, δ, γ, β]
+
+COMPOSITIO tertij theorematis. *Quoniam igitur α γ ipsius δ γ dupla est, quadruplū est quod ex α γ, eius quod ex δ γ, Sed ei quod ex α γ, æquū est quod sub α β, β γ, quod igitur sub α β, β γ, eius quod ex δ γ quadruplum est. Cōponendo igitur (per 18 quinti) quod sub α β, β γ, una cū eo quod ex δ γ, quod est id quod ex δ β, quincuplū est eius quod ex δ γ, quod ostendere oportuit.*
 
 [Margin]
 4
 [/Margin]
 
-[Margin]
-Camp. 5
-[/Margin]
+RESOLVTIO quarti theorematis. *Recta enim linea α β, extrema ac media ratione secetur in γ, & sit maius segmētū α γ. Dico quod quæ ex α β, β γ, tripla sunt eius quod ex α γ. Quoniā enim quæ ex α β, β γ, tripla sunt eius quod ex α γ, sed quæ ex α β, β γ, sunt id quod bis sub α β, β γ, una cū eo quod ex α γ, quod igitur bis*
 
-Si recta linea extrema mediaq̃ rōne secetur, quod ex tota & q̃ ex minori segmēto utraq̃ quadrata tripla sūt eius q̃ à maiori segmēto fit quadrato.
+[Diagram: horizontal line with points α, γ, β]
 
-THEON ex Zamb. *Sit recta linea α β, seceturq̃ extrema & media ratione in γ, sitq̃ maius segmentū α γ. Dico quod quæ ex α β, β γ, tripla sunt eius quod ex ipsa α γ. Describatur (per 46 primi) ab ipsa α β quadratū α δ ε β, & describatur figura. Quoniā igitur α β extrema & media rōne secta est in γ, & maius segmentū est α γ, quod igitur sub α β, β γ, æquū est ei quod ex α γ, estq̃ id quod sub α β, β γ, id quod α κ, quod autem ex α γ, id quod θ η, æquum igitur est α κ ipsi θ η. Sed α ζ, ipsi ζ ε, æquū est, apponatur cōmune γ κ, totū igitur α κ, toti γ ε est æquale. Igitur γ ε, α κ, ipsius α κ dupla sunt. Sed α κ, γ ε, sunt id quod λ μ ν gnomon, & γ κ quadratum. Igitur λ μ ν gnomon & γ κ quadratum, dupla sunt ipsius α κ. Sed quod α κ, ipsi θ η sit æquale ostēsum est. Igitur λ μ ν gnomon & γ κ quadratum dupla sunt ipsius θ η, quare λ μ ν gnomon & γ κ, θ η, quadrata, tripla sunt ipsius θ η, quadrati. Et λ μ ν gnomō & γ κ, θ η, quadrata, sunt totū α ε, & γ κ, quæ sunt ex α β, β γ, quadrata & η θ ipsum quod ex α γ, quadratum, quæ igitur ex α β, β γ, quadrata, tripla sunt eius quod ex α γ quadrati. Quod ostendere oportuit.*
+<!-- Signature: N 3 -->
 
-[Diagram: square α δ ε β on the line α β, with γ on the top side; vertical and horizontal dividing lines, a diagonal, and a circular arc about the centre; internal labels include δ, ζ, θ, κ, ν, ε]
-
-## Eucli. ex Zamb. Theorema 5 Propositio 5.
-
-[Margin]
-5
-[/Margin]
-
-[Margin]
-Cāp. 4
-[/Margin]
-
-Si recta linea extrema & media ratione secetur, apponatur quæ eidem æqualis maiori segmento, tota recta linea exttrema{printer-error-correction:exttrema} & media ratiōe secatur, & mai⁹ segmētū est ea quæ in principio recta linea.
-
-THEON ex Zāb. *Recta enim quædā linea α β extrema & media ratiōe secetur in γ signo, & sit maius segmentū α γ, & ipsi α γ æqualis ponatur α δ. Dico quod δ β recta linea extrema & media rōne secatur in α, & maius segmentū est ipsa quæ in principio recta linea α β. Describatur enim (per 46 primi) ex α β, quadratū α ε, & describatur figura. Quoniā enim α β, extrema & media ratiōe secatur in γ, quod sub α β, β γ: æquū est ei q̃ ex α*
-
-[Diagram: rectangle whose top side bears the points δ, α, γ, β; a square with a diagonal is contained on the right, with dividing lines; labels λ, θ, ζ, ε below and κ at the right side]
-
-<!-- Catchword: γ, estq̃ -->
+<!-- Catchword: sub -->

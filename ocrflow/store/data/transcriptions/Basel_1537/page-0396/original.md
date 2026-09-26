@@ -1,37 +1,23 @@
-<!-- Running title: LIBER VNDECIMVS -->
+<!-- Page number: 386 -->
 
-<!-- Page number: 385 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-ipsis solida parallelepipeda similia similiterq̃ descripta proportionalia fuerint, & ipsæ quoq̃ rectæ lineæ proportionales erunt.
+o k & p l, q m & r n, sitq̃ harum duarum superficierum communis sectio linea s t. Dico igitur quod linea s t diuidit diametrum a b, & diuiditur ab eadem diametro per æqualia. Quod patet, utraq̃ enim earum transit per centrum cubi.
 
-THEON ex Zamb. Sint quatuor rectæ lineæ proportionales α β, γ δ, ε ζ, η θ, sicut α β ad γ δ, sic ε ζ ad η θ, & describantur ab ipsis α β, γ δ, ε ζ, η θ, similia similiterq̃ iacentia solida parallelepipeda κ α, λ γ, μ ε, ν η. Dico quod est sicut κ α ad λ γ, sic est μ ε ad ν η. Quoniam enim solidum κ α parallelepipedum ipsi λ γ simile est, igitur (per 33 undecimi) κ α ad λ γ triplicem rationem habet quam α β ad γ δ, & id propterea μ ε ad ν η triplam habet rationem quam ε ζ ad η θ. Et sicut igitur (per 11 quinti) α κ ad λ γ, sic μ ε ad ν η. Sed iam esto sicut α κ solidum ad λ γ solidum, sic μ ε solidum ad ν η solidum. Dico quod est sicut α β recta linea ad ipsam γ δ, sic est ε ζ ad η θ. Quoniam enim rursus κ α ad λ γ triplam rationem habet quam α β ad γ δ, habet autem & μ ε ad ν η triplam rationem quam ε ζ ad η θ, estq̃ sicut κ α ad λ γ, sic μ ε ad ν η, & sicut igitur α β ad γ δ, sic ε ζ ad η θ. Si quatuor igitur rectæ lineæ proportionales fuerint, & quæ sequūtur reliqua. Quod erat ostendendū.
+ALITER uero conuenit quod propositum est demonstrare. Producantur enim duæ lineæ t a & t h, & item duæ s c, s b, eritq̃ ex 4 primi a t æqualis t h, & s c æqualis s b. Constat autem ex prima parte 29 primi, quod angulus p t q est æqualis angulo a q t, & ex 4 primi angulus h t p est æqualis angulo t a q. Itaq̃ ex 32 primi totus angulus h t q cum angulo q t a, ualet duos rectos. quare ex 14 primi linea a h erit linea una, similiter quoq̃ linea a b erit linea una. At quia ex nona huius linea a c est æquidistans lineæ b h (utraq̃ enim est æquidistans lineæ d e) cumq̃ ipsæ sint æquales quia latera cubi, sequitur ex 33 primi duas lineas a h & c b esse æquales & æquidistantes: Ideoq̃ per conceptionem, earum medietates quæ sunt a t & b s, erunt æquales. Ex 7 autem huius manifestū est, quod linea s c est in superficie duarum linearū a h & b c, & ex eadem, linea a b quæ est diameter cubi, est etiam diameter superficiei parallelogrammæ a c b h. Itaq̃ linea s t secat diametrum a b. Secet ergo ipsam in puncto u. Dico ergo lineam s u esse æqualem lineæ u t, & lineam etiam a u lineæ u b. Intelligantur duo trianguli a t u, b s u, quorum anguli qui sunt ad t & s sunt æquales adinuicē, similiter anguli eorundem qui sunt ad a & b æquales adinuicem ex prima parte 29 primi, propter id quod linea a t æquidistat lineæ s b. Et quia etiam ipsæ sunt adinuicem æquales, sequitur ex 26 primi, quod propositum est. Idem quoq̃ eodem modo concluditur, & si solidum a b non sit cubus, sed solidum corpus parallelogrammum siue æqualibus lineis siue non æqualibus contentum fuerit, siue quoque super basin orthogonaliter erectum siue etiam & super ipsam inclinatum. Vnde ampliatur in hac 40 figuratio cubi, ad omnes figuras parallelogrammas solidas.
 
-[Diagram: four parallelepipeds in two rows: the upper pair labelled α, β and γ, δ beneath them, the lower pair labelled μ and ν beside them]
-
-## Eucli. ex Zamb. Theorema 33 Propositio 38
+## Eucli. ex Zamb. Theorema 34 Propositio 39
 
 [Margin]
-38
+39
 [/Margin]
 
-Si planum ad planum rectum fuerit, à signo autem in altero planorū existente in alterum planum perpēdicularis ducta fuerit, in cōmunem ipsorum planorum sectionem cadit ipsa perpendicularis.
+Si solidi parallelepipedi eorū quæ ex opposito planorū latera bifariam secta fuerint, extēsaq̃ fuerint per sectiones plana, cōmunis ipsorū planorū sectio, & solidi parallelepipedi dimetiens bifariam se adinuicē dispescent.
 
-THEON ex Zamb. Planum enim γ δ, ad planum α β, rectum esto, cōmunis autem ipsorū sectio sit δ α, sumaturq̃ in ipso γ δ plano, contingens signum ε. Dico quod ab ipso ε in α β planū perpēdicularis ducta, in ipsam δ α cadit. Non enim, sed si possibile est, cadat extra sicut ε ζ, & concurrat ipsi α β plano in ζ signo, & ab ipso ζ, in ipsam δ α, in plano α β (per 11 undecimi) perpendicularis excitetur ζ η, quæ & ipsi γ δ plano ad angulos rectos est. Connectanturq̃ ε η. Quoniam igitur ζ η ipsi γ δ plano ad angulos rectos est, tangit autem ipsam ipsa ε η existens in ipso γ δ plano, igitur angulus qui sub ζ η ε, rectus est. Sed & ε ζ, ipsi α β plano ad angulos est rectos: angulus igitur qui sub ε ζ η, rectus est. Trianguli iam ipsius ε ζ η bini anguli, duobus rectis sunt æquales, quod (per 17 primi) est impossibile. Igitur ab ε in α β planum perpēdicularis ducta, non cadit extra ipsam δ α, in ipsam igitur α δ cadit. Quod erat ostendendum.
+ALITER. Si cubi eorum quæ ex opposito planorū latera, & reliqua quæ sequuntur ut supra.
 
-[Diagram: a plane γ δ standing on the plane α β, their common section δ α, with the triangle ε ζ η drawn between them]
+THEON ex Zamb. Solidi, inquam, parallelepipedi α ζ, eorum quæ ex opposito planorū γ ζ, α θ, latera bifariā dispescantur per κ, λ, μ, ν, & ξ, π, ο, ρ, signis, & per sectiones protendantur plana κ ν, ξ ρ, cōmunis autem planorū ipsorum sectio esto υ σ, ipsius autem α β, solidi parallelepipedi diagonius esto δ η. Dico iam quod & ipsæ υ σ, δ η, sese inuicem dispescūt, hoc est quod υ τ ipsi τ σ est æqualis, & δ τ ipsi τ η. Cōnectantur enim δ υ, υ ε, β σ, σ η. Et quoniam δ ξ parallelus est ipsi ο ε, anguli alternatim positi (per 29 primi) qui sub δ ξ υ, υ ο ε, inuicem sunt æquales. Et quoniam æqualis est δ ξ ipsi ο ε, & ξ υ ipsi υ ο, & æquos angulos comprehendunt, basis igitur δ υ (per 4 primi) ipsi υ ε est æqualis, & triangulum δ ξ υ ipsi υ ο ε triāgulo est æquale, & reliqui anguli reliquis angulis. Igitur angulus qui sub ξ υ δ, æquus est ei qui sub ο υ ε angulo, ac per hoc recta linea est ipsa δ υ ε, & per eadem etiā β σ η recta linea est, est & æqualis β σ ipsi σ η. Et quoniā γ α ipsi δ β est æqualis & est parallela, sed γ α ipsi η ε est æqualis & parallela, & δ β igitur ipsi ε η est æqualis & parallela (per primam cōmunem sententiam) & ipsas connectunt rectæ lineæ δ ε, β η, parallelus igitur est (per 33 primi) δ ε, ipsi β η, & suscipiuntur in utrisq̃ contingentia signa, hoc est δ, υ, η, σ, cōnectanturq̃ δ η, υ σ. in uno igitur sunt plano (per 17 undecimi) ipsæ δ η, υ σ. Et quoniam parallela est δ ε ipsi β η, æqualis igitur est (per 29 primi) qui sub ε δ τ angulus ei qui sub β η τ angulo: uicissim enim & qui sub δ τ υ ei qui sub η τ σ. Bina iam triangula sunt, hoc est δ τ υ & η τ σ, duos angulos duobus angulis æquos habentia, & unum latus uni lateri æquum, quod subtendit autem æqualium angulorum, hoc est δ υ ipsi η σ, dimidiæ nanq̃ ipsarum δ ε, β η, & reliqua igitur latera reliquis lateribus æqualia habebunt. Aequalis igitur est δ τ ipsi τ η, & υ τ ipsi τ σ. Si solidi igitur parallelepipedi eorum quæ ex opposito planorum latera bifariam secta fuerint, extensaq̃ fuerint per sectiones plana, cōmunis ipsorum planorum sectio & solidi parallelepipedi demetiens bifariam se adinuicem dispescent. Quod erat ostendendum.
 
-## Eucli. ex Camp. Propositio 40
+[Diagram: a large parallelepiped with top corners δ, κ, ζ and bottom corners α, ν, η, θ at the right, β and ξ, π on the left face; interior midpoints γ, λ, μ, ο, ρ, ε and the points τ, υ, σ where the cutting planes and the diagonal cross, with diagonals drawn through the solid]
 
-[Margin]
-40
-[/Margin]
-
-SI inscisa fuerint latera duarum oppositarum superficierum cubi unumquodq̃ in duo media, exierintq̃ à punctis sectionū duæ superficies se uicissim secantes & cubum, cōmunem earum sectionem diametrum cubi per æqualia secare, & ab ipsa diametro uersa uice per æqualia secari necesse est.
-
-CAMPANVS. Statue cubum qui sit a b, de quo constat per diffinitionē quod omnes lineæ ipsum continētes sint æquales, & eius superficies rectangulæ, tale enim corpus, cubū dicimus. Huius igitur basis sit eius supficies a c d e, superficies uero eius suprema b f g h, dextra uero eius superficies sit a e g h, sinistra autem superficies b f c d, citerior quoq̃ sit d e b h, sed ulterior a, c g f, eiusq̃ diameter sit a b. Diuidantur itaq̃ omnia latera duarum quarumlibet superficierū oppositarum eius per æqualia, & sint nunc superficies quarū latera diuidantur, dextra atq̃ sinistra. Diuidantur, inquam, quatuor latera dextræ quidē super quatuor puncta quæ sunt o, p, q, r, sinistræ uero super quatuor quæ sint k, l, m, n, & coniungantur puncta in his superficiebus opposita, ductis lineis o p & q r quæ secent se in pūcto t, itemq̃ K l & m n quæ secent se in puncto s, & perficiātur duæ superficies secantes se inuicem & cubum, protractis item lineis
-
-[Diagram: a cube with c and a at the top, b and h at the bottom, K at the left and g and p at the right; the midpoints m, q, o, f, s, u, e, t, l, r, n of the sides are joined by lines and diagonals crossing within the cube]
-
-<!-- Signature: K -->
-
-<!-- Catchword: o k & -->
+<!-- Catchword: Eucli. ex -->

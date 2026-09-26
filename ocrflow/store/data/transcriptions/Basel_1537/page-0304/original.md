@@ -1,33 +1,47 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Running title: GEO. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 293 -->
+<!-- Page number: 294 -->
 
-ex minore hoc est ei quod ex ε ζ, æquũ ad maiorē α ε cōparatũ fuerit deficiens forma quadrata, in cōmēsurabilia distribuit (per 17 decimi. Cōparetur (per 28 sexti) igitur ad ipsam α ε, ei quod ex ε ζ, æquũ quod sub α η, η ε, cōmensurabilis igitur est α η, ipsi η ε lōgitudine. Excitēturq̃ (per 31 primi) per ipsa η, ε, ζ, utriq̃ ipsarũ α β, δ γ, paralleli η θ, ε κ, ζ λ. Et ipsi quidē α θ parallelogrãmo, æquũ (per 14 secũdi quadratũ cōstituatur σ ν, ipsi autē η κ, ν π. Ponãturq̃ (per 14 primi) sicut in rectas lineas μ ν, ipsi ν ξ, in rectas igitur lineas est & ρ ν, ipsi ν ο. Cōpleaturq̃ ipsum σ π, parallelogrammũ, quadratũ igitur est σ π. Et quoniam quod sub α η, η ε, æquum est ei quod ε ζ, est igitur (per cōstructionem) sicut α η, ad ε ζ, sic ζ ε, ad ε η, & sicut igitur (per 1 sexti,) α θ, ad ε λ, sic ε λ, ad κ η. Ipsorum igitur α θ, η κ, mediũ ε λ proportionale est. Sed α θ, quidē, æquũ est ipsi σ ν, & η κ, æquũ est ipsi ν π. Ipsorũ igitur σ ν, ν π, mediũ ε λ, proportiõale est. Est aũt ipsorũ σ ν, ν π, mediũ μ ρ proportiõale, (per præostēsum lēma, æquũ est igitur μ ρ, ipsi ε λ. Sed μ ρ, quidē, ipsi ο ξ, æquũ est, & ε λ, ipsi ζ γ, totũ igitur ε γ, ipsis μ ρ, ο ξ, est æquale. Sũt aũt & ipsa α θ. η κ, ipsis σ ν, ν π, æqualia, (per 44 primi,) totũ igitur α γ, æquũ est toti σ π, hoc est ei quod ex μ ξ, quadrato, igitur ipsa μ ξ, ipsum potest α γ. Dico iã quod & ipsa μ ξ, ex binis nominibus est. Quoniã enim cōmēsurabilis est (per 17 decimi,) α η ipsi ε η, cōmēsurabilis igitur est (per 12 decimi, & diffinitionē, & α ε, utriq̃ ipsarũ α η, η ε. Supponitur aũt (per diffinitionē primæ) α ε ipsi α β, cōmēsurabilis, & ipsæ igitur α η, η ε, ipsi α β, sũt cōmēsurabiles. Ratiõalis uero est α β, ratiõalis igitur est & utraq̃ ipsarũ α η, η ε. Ratiõale igitur est & utrũq̃ ipsorũ α θ, β κ{printer-error-correction:η κ}. Cōmēsurabile aũt est (per 1 sexti & 11 decimi) β θ{printer-error-correction:α θ} ipsi η κ. Sed α θ, ipsi quidē σ ν est æquale, ipsum: uero η κ, ipsi ν π, & ipsa igitur σ ν, ν π, hoc est quod ex μ ν, ν ξ, ratiõalia sunt & cōmēsurabilia. Et quoniã incōmēsurabilis est α ε, ipsi ε δ lōgitudine, sed ipsa qdē α ε ipsi α η, est cōmēsurabilis, ipsa aũt δ ε ipsi ε ζ cōmēsurabilis (per 13 decimi) incōmēsurabilis igitur est & α η, ipsi ε ζ. Quare & α θ, ipsi ε λ, incōmēsurabile est. Sed α θ, quidē ipsi σ ν, est æquale, ipsum uero ε λ, ipsi μ ρ, & σ ν, igitur ipsi μ ρ. incōmēsurabile est. Sed sicut σ ν ad μ ρ, sic & ο ν ad ν ρ. incōmēsurabilis igitur est ο ν ipsi ν ρ. Aequalis aũt est ο ν ipsi μ ν, & ν ρ ipsi ν ξ. incōmēsurabilis igitur est μ ν, ipsi ν ξ. Et quod ex μ ν, cōmēsurabile est ei quod ex ν ξ, & utrũq̃ ratiõale. Ipsæ igitur μ ν, ν ξ, ratiõales sunt potētia tãtũ cōmensurabiles, ipsa igitur μ ξ, ex binis nominibus est ipsumq̃ α γ, potest quod erat ostendendum.
+tudine. Et quoniã cōmēsurabilis est α η, ipsi ε η, cōmēsurabilis est & α ε utriq̃ ipsarũ α η, η ε. Et α ε, ratiõalis est, ratiõalis igitur & utraq̃ ipsarũ α η, η ε, per cōparationē. Et quoniã incōmēsurabilis est α ε, ipsi α β, cōmēsurabilis autē est α ε, utriq̃ ipsarũ α η, η ε, & ipsæ α η, η ε, igitur incōmēsurabiles sunt ipsi α β. Ipsæ β α, α η, η ε, igitur (per 13 decimi,) ratiõales sunt potētia tantũ cōmensurabiles. Quare (per 21 decimi,) utrũq̃ ipsorũ α θ, η κ, mediũ est, quare & utrũq̃ ipsorũ σ ν, ν π, mediũ est, & ipsæ μ ν, ν ξ, igitur mediæ sunt (per 21 decimi.) Et quoniã cōmensurabilis est α η ipsi η ε lõgitudine, commēsurabile est & α θ ipsi η κ, hoc est σ ν ipsi ν π, hoc est quod ex μ ν ei quod ex ν ξ. quare & ipsæ μ ν, ν ξ, potentia sunt commensurabiles. Et quoniã incommēsurabilis est α ε, ipsi ε δ, lõgitudine, sed ipsa quidem α ε cōmensurabilis est ipsi α η, & ε δ, ipsi ε ζ, incōmensurabilis igitur est (per 13 decimi) α η ipsi ε ζ. Quare (per 1 sexti, & 11 decimi & α θ, ipsi ε λ incōmensurabile est, hoc σ ν, ipsi μ ρ, hoc est ο ν, ipsi ν ρ, hoc est μ ν, ipsi ν ξ, incōmēsurabilis lõgitudine est. Ostensum autē est quod ipsæ μ ν, ν ξ, mediæ existētes, potētia sunt cōmensurabiles. Ipsæ igitur μ ν, ν ξ, mediæ sunt potētia tantũ cōmensurabiles. Dico iã quod & ratiõale cōprehēdunt. Quoniã enim δ ε supponitur utriq̃ ipsarũ α β, ε ζ cōmensurabilis, commensurabilis igitur (per 12 decimi) est & ζ ε ipsi ε κ. Et utraq̃ ipsarũ rationalis, rationale igitur est ε λ, hoc est μ ρ. Sed μ ρ, est quod sub μ ν, & ν ξ. Si uero (per 37 decimi) binæ mediæ potentia tantũ cōmensurabiles, compositæ fuerint rationale cōprehēdentes, tota irrationalis est, uocaturq̃ ex binis prima medijs. Igitur ipsa μ ξ, ex binis est prima medijs. Quod erat ostendendum.
 
-## Eucli. ex Camp. Propositio 49
+[Diagram: rectangle with α at top-left; vertical lines through the points η, ε, ζ on the top side (labels η, ε, ζ, δ along the top) meet the bottom side at θ, κ, λ (labels β, θ, κ, λ, γ along the bottom); the left compartment projects above the top line]
+
+[Diagram: square divided by a vertical and a horizontal line into four compartments; labels: τ, ς, π along the top, μ at the left, υ at the centre, ξ at the right, σ and ο along the bottom]
+
+## Eucli. ex Camp. Propositio 50
 
 [Margin]
-49
+50
 [/Margin]
 
-SI fuerit superficies linea ratiõali binomioq̃ secũdo contenta, latus eius tetragonicũ erit bimediale primũ.
+SI binomio tertio ac linea rõnali supficies cõtineat̃, linea in eã potẽs erit bimediale scd’m
 
-CAMPA. Sit eadē figura eædēq̃ hypotheses quæ in præmissa, eritq̃ ex diffinitiõe binomij secũdi, linea d c. rõnalis in lõgitudine, quare per 15 utraq̃ duarũ superficierũ d g et g c, (ideoque & duo supplemēta p m, m q) erit ratiõalis, linea uero b d erit ratiõalis in potētia tãtũ, & diuisa in duas lineas cõmunicãtes f d & b f, ex diffinitione binomij secũdi & præmissis hypothesibus, & secũda parte 13 per 9 igitur erit utraq̃ duarũ superficierũ a f & f h, (ideoq̃ & utrunq̃ quadratorũ l m & m n) medialis, itaq̃ ambæ lineæ l r & r p, sũt mediales in potētia quoq̃ cõmunicãtes, nam cũ linea b f cõmunicet lineæ f d, sequitur ut a f cõmunicet f h: quare quadratũ l m, quadrato m n, ideoq̃ & linea l r, lineæ r p in potētia, in lõgitudine aũt nõ cõmunicãt, q̃m per 1 sexti una earũ ad alterã est situt{printer-error-correction:sicut} l m ad m p. Cũ igitur l m nõ cõmunicet m p, eo quod altera medialis uidelicet l m, altera uero ratiõalis uidelicet m p, sequitur ut l r nõ communicet in lõgitudine r p. Quia igitur ipsæ cõtinēt superficiē rationalē quæ est m p, constat lineam l p ex 31 huius, esse bimediale primum.
+CAMPA. Dispositio & hypotheses maneãt ut supra. Eritq̃ ex his hypothesibus & diffinitiõe binomij tertij & 19, unaquæq̃ quatuor superficierũ in quas diuisa est superficies a c, medialis, quare utrũq̃ duorũ quadratorũ l m, m n, & utrũq̃ supplemētorũ p m & m q, erit etiã mediale. utraq̃ igitur duarũ linearũ l r & r p, erit medialis. Et cũ duæ superficies a f & f h sint cõmunicãtes. eo quod duæ lineæ b f & f d sint cõmunicãtes, per secundã partē 13 erunt duæ lineæ l r & r p cõicantes in potētia, in lõgitudine uero, non quia superficies l m nõ cõmunicat cũ superficie m p, eo quod neq̃ a f cõmunicat cũ d g. Nã linea b f non cõicat cũ d e, cũ igitur ipsæ contineant superficiē quæ est p m, cõstat ex 32 lineã l p esse mediale secũdũ. Quod est propositũ.
 
-[Diagram: rectangle divided by three horizontal lines into four bands; left side labels from top: c, e, d, f, b; right side labels: g, h, K, a]
+[Diagram: rectangle divided by three horizontal lines into four bands; corners a (top-left), b (top-right), c (bottom-right); left side labels K, b, g; right side labels f, d, e]
 
 [Diagram: square l q with diagonal l n; a vertical and a horizontal line cross at m on the diagonal; labels: l top-left, q top-right, r on the left side, p bottom-left, n bottom-right]
 
-## Eucli. ex Zamb. Theorema 37 Propositio 55
+## Eucl. ex Zãb. Theorema 38 Propositio 56
 
 [Margin]
-55
+56
 [/Margin]
 
-Si areola comprehensa fuerit sub rationali, & ex binis nominibus secunda, areolam potens irrationalis est, uocaturq̃ ex binis medijs prima.
+Si superficies sub ratiõali, & ex binis nominibus tertia cõprehēsa fuerit, superficiem potēs irrationalis est, appellaturq̃ ex binis secũda medijs.
 
-THEON ex Zãb. Cōprehēdatur areola α β γ δ. sub rationali α β, ac ex binis nominibus secũda α δ. Dico quod α γ areã potens, ex binis medijs est prima. Quoniã enim ex binis nominibus secũda est α δ, diuidatur in nomina in signo ε, ut maius nomē sit α ε, ipsæ igitur α ε, ε δ, (per 49 decimi) rationales sunt potētia tantũ cōmēsurabiles, & α ε, ipsa ε δ maius potest eo quod ex sibi commensurabili, ac nomē minus ε δ commensurabile est ipsi α β longitudine. Secetur (per 10 primi, ) ipsa ε δ bifariam in signo ζ, & ei quod ex ε ζ, æquum ad ipsam α ε comparetur (per 28 sexti, deficiēs forma quadrata quod sub α η, η ε, commēsurabilis igitur est (per 17 decimi) α η, ipsi η ε lõgitudine. Et per ipsa η, ε, ζ, signa excitētur (per 31 primi) paralleli ipsis α β, γ δ, sintq̃ η θ, ε κ, ζ λ. Ac ei quidē quod est α θ, parallelogrãmo cõstruatur (per 14 secũdi) æquũ quadratũ σ ν, ipsi autē η κ, æquũ quadratũ ν π. Ponaturq̃ per 14 primi, sic in rectas lineas, μ ν, ipsi ν ξ, in rectas lineas igitur est & ρ ν, ipsi ν ο. Cōpleaturq̃ σ π quadratũ. Manifestũ iã est, ex præostenso lēmate quod μ ρ mediũ proportionale est ipsorũ σ ν, ν π, & per præcedēs theorema æquũ ipsi ε λ, & quod α γ areã potest μ ξ. Ostēdendũ iam quod μ ξ, ex binis medijs est prima. Quoniã α ε, ipsi ε δ est incōmensurabilis lõgitudine, cōmēsurabilis autē est (per 49 decimi, ε δ, ipsi α β, incōmensurabilis igitur per 13 decimi, est α ε, ipsi α β, longi
+THEON ex Zamb. Areola nãq̃ α β γ δ, cõprehēdatur sub rõnali α β. ac ex binis noībus tertia α δ diuisa in noīa in ε, quorum maius sit α ε. Dico quod areolã α γ, potēs irrõnalis est, uocaturq̃ ex binis secũda medijs. Construãtur nãq̃ eadē quæ prius. Et quoniã α δ, ex binis est tertia noībus, ipsæ igitur α ε, ε δ, rationales sunt potentia tantũ cōmēsurabiles, & ipsæ α ε, ipsa ε δ, maius potest eo quod ex sibi cōmēsurabili, & ipsarũ α ε, ε δ, neutra ipsi α β, est cōmēsurabilis lõgitudine. Similiter iã ex ijs quæ prius sunt ostēsa, demonstrabimus, quod ipsæ μ ν, ν ξ, mediæ sunt potētia tantum cōmensurabiles. Quare μ ξ, ex binis est medijs. Ostendendũ etiã quod & secũda, Quoniã incōmensurabilis est (per 50 decimi,) δ ε, ipsi α β, lõgitudine, hoc est ipsi ε κ, atqui δ ε cōmēsurabilis est ipsi ε ζ, incōmēsurabilis igitur est per 13 decimi ε ζ, ipsi ε κ lõgitudine, Sũtq̃ rõnales, ipsæ ζ ε, ε κ, igitur rõnales sunt potentia tãtũ cōmēsurabiles. Mediũ igitur (per 21 decimi est ε λ, hoc est μ ρ, cōprehēditurq̃ sub μ ν, ν ξ, mediũ igitur est quod sub μ ν, ν ξ, Ipsa igitur μ ν ξ{printer-error-correction:μ ξ}, ex binis est secũda medijs, Quod fuerat ostendēdũ.
 
-<!-- Signature: B 3 -->
+[Diagram: rectangle with vertical lines; labels α, ε, ζ, δ along the top and β, θ, κ, λ, γ along the bottom; the middle compartment projects above the top line]
 
-<!-- Catchword: tudine -->
+[Diagram: square divided by a vertical and a horizontal line into four compartments; labels: τ, ς, π along the top, μ at the left, υ at the centre, ξ at the right, σ and ο along the bottom]
+
+## Eucl. ex Cãp Propositio 51
+
+[Margin]
+51
+[/Margin]
+
+SI linea rationali binomioq̃ quarto superficies cõtineatur, quæ in eam superficiem potest est linea maior.
+
+<!-- Catchword: CAM -->

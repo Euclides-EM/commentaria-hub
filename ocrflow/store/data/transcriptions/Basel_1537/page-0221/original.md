@@ -1,33 +1,59 @@
-<!-- Page number: 210 -->
+<!-- Running title: LIBER OCTAVVS -->
 
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 211 -->
 
-(per 17 septimi,) sicut ζ ad η, sic est κ ad β, sicut autem ζ ad η, sic est γ ad δ, & sicut igitur (per 11 quinti,) γ ad δ, sic κ, ad β. Patuit aūt quod & sicut γ ad δ, sic est α ad θ, & θ, ad κ, & κ ad β. Ipsorum igitur α,β, bini medij proportionales sunt, hoc est θ,λ. Dico iam quod & α ad β triplam rationem habet, quàm γ ad δ. Quoniā enim quatuor numeri proportionales sunt α,θ,κ,β. igitur (per 10 diffinitionem quinti,) α ad β, triplam habet rationem quàm α ad θ, sicut autem est α, ad θ, sic est γ ad δ. Igitur α ad β triplam rationem habet quàm γ ad δ. Quod oportuit demonstrasse.
-
-## Eucli.ex Camp. Propositio 12
-
-[Margin]
-12
-[/Margin]
-
-{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I numerorum continuæ proportionalitatis quisque in seipsum ducatur, qui inde producentur sub continua proportionalitate esse. Quod si item in ipsos productos principia sua ducantur, inde quoque productos continuæ proportionalitatis esse necesse est. Idem'que in omnibus hoc modo productis extremitatibus.
-
-CAMPANVS Sint a,b. continue proportionales, quorum quisque in se ducatur. & proueniant ex a quidem,d, ex b uero e, ex c,f. Dico quod d,e,f, sunt continue proportionales. quod si item a ducatur in d & proueniat g. b quoque in e,& proueniat h,& c in f, proueniat k, dico etiam quod g,h,k, erunt continue proportionales. Sit enim ex a in b,l,& ex c in eundem,m, eruntque per 18 & 19 septimi, d l,e,m,f, continue proportionales in proportione a,b,c, itaque per æquam proportionalitatem argue d ad e, sicut e ad f, quod est primū
-
-Reliquū sic: Ducatur a in l & proueniāt n & p, c quoque ducatur in e & m. & proueniāt q & r, eruntque per easdē g,n,p,h,q,r,k, cōtinue quoq̃ proportionales in proportione primorum, per æquā igitur proportionalitatē cōclude g ad h, sicut h ad k quod est reliquum. Eadem erit ratio, quotiescunque primi in productos ducantur.
-
-[Diagram: at top the numbers a (4 dots), b (6 dots), c (9 dots); below, a ladder of horizontal ruled lines each labelled at left and with a value written vertically at its right end: d 16, l 24, e 36, m 54, f 81, g 64, n 96, p 144, h 216, q 324, r 486, k 729]
-
-## Eucli.ex Zamb. Theorema 11 Propositio 13
+## Eucli.ex Camp. Propositio 13
 
 [Margin]
 13
 [/Margin]
 
-Si fuerint quotcunque numeri continue proportionales, & multiplicās unusquisque seipsum fecerit aliquos, qui fiūt ex ipsis proportionales erūt. Et si qui in principio genitos multiplicantes, fecerint aliquos, & ipsi quoq̃ proportionales erunt, & semper circa extremos hoc euenit.
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I quis quadratus numerus aliū quadratū numeret, latus quoq̃ suum, latus illius numerare probatur. Si uero latus suū latus illius numeret, quadratus numerat quadratū.
 
-THEON ex Zamb. Sint quotlibet numeri cōtinue proportiōales α,β,γ, sicut α ad β; sic β ad γ, & ipsi quidē α,β,γ, se ipsos multiplicātes, efficiant ipsos δ,ε,ζ, ipsos autem δ,ζ, multiplicātes, ipsos efficiant η,θ,κ, Dico quod & ipsi δ,ε,ζ,& ipsi η,θ,κ, continue sunt proportionales. Ipse nāque α, ipsum β multiplicans, ipsum efficiat λ, uterque aūt ipsorum α,β, ipsum multiplicans λ, efficiat utrūq̃ ipsorum μ,ν,& rursus ipse β, ipsum γ, multiplicās, ipsum efficiat ξ, uterq̃ aūt ipsorū β,γ, ipsum ξ multiplicans, utrunq̃ ipsorū ο,π, faciat. Similiter iam ex præcedētis theorematis discursu ostēdemus quod ipsi δ,κ,ε,& η,μ,ν,θ. cōtinue sunt proportionales in ipsius α ad β, ratiōe, & ipsi ε,ξ,ζ,& θ,ο,π,κ sunt proportionales in ipsius β, ad γ, ratione. Et est sicut α, ad β, sic est β ad γ,& ipsi δ.λ,ε, igitur, ipsis ε,ξ.ζ, in eadē sunt ratione, & insuper ipsi ε,μ,ν,θ, ipsis θ,ο,π,κ. & æqualis est quidē ipsorū δ,λ.ε, multitudo, multitudini ipsorū ε,ξ,ζ, ei autem quæ ipsorum est η,μ,ν,θ, ea quæ ipsorum est θ.ο,π,κ. Ex æquali igitur (per 14 septimi. est sicut quidē δ, ad ε, sic est ε, ad ζ. Sicut autem η ad θ, sic est θ ad κ, quod demonstrare oportebat.
+CAMPANVS. Sint duo numeri a & b quadrati, lateraq̃ eorū c & d, dico quod si a numerat b, c quoq̃ numerabit d, & econuerso. Cōstat enim quod ex c in se fit a, ex d quoq̃ in se, b fiat igitur. e ex c in d, eruntq̃ per 18 & 19 septimi, a.e,b, cōtinue proportionales in proportione c ad d. Si igitur a numerat b, idem ipse per 7 huius, numerabit e, quare & c,d, quod est primum. Cōuersa sic patet. si c numerat d, a numerabit e, propter id quod proportio a ad e sicut c ad d, & si numerat e, ipse numerabit b, propter hoc quod sunt continue proportionales.
 
-[Diagram: numbers shown as rows of dots and as ruled lines with values written vertically at their right ends: α (2 dots), β (4 dots), γ (8 dots); δ (4 dots), λ (8 dots), ε (16 dots); ξ 32, ζ 64 (lines); η (8 dots), μ (16 dots); ν 32, θ 64, ο 128, π 256, κ 512 (lines)]
+[Diagram: numbers as rows of dots, labelled a (4 dots), e (6 dots), b (9 dots), c (2 dots), d (3 dots)]
 
-<!-- Catchword: Eucli. -->
+## Eucli.ex Zamb. Theorema 12 Propositio 14
+
+[Margin]
+14
+[/Margin]
+
+Si quadratus numerus quadratum numerū mensus fuerit, & latus latus metietur. Et si latus latus metiatur, & quadratus quadratum metietur.
+
+THEON ex Zamb. Sint quadrati nrmeri α.β, latera uero ipsorū, sint γ,δ, at α ipsum β metiatur. Dico quod & γ ipsum δ metictur. Igitur γ, ipsum δ multiplicans, efficiet ipsum ε. Igitur (per 17 & 18 septimi, & 11 quinti, ac 13 octaui.) ipsi α,ε,β, continue proportionales sunt in ipsius γ ad δ ratione. Et quoniam ipsi α,ε,β,, continue sunt proportionales, & metitur α ipsum β, metitur igitur (per 7 octaui,) & α ipsum γ. Estq̃ sicut α ad ε, sic γ ad δ, metitur igitur & γ ipsum δ. Sed iam metitur & γ ipsum δ. Dico quod & α ipsum β metitur, eisdem namque dispositis similiter ostendemus quod ipsi α,ε,β. continue sunt proportionales in ipsius γ ad δ, ratione, & quoniā est sicut γ ad δ, sic est α ad ε, metitur autem γ ipsum δ, metitur igitur & α ipsum ε, & sunt ipsi α,ε,β, continue proportionales, metitur igitur & α ipsum β. Si quadratas igitur, & quæ sequuntur reliqua quod oportebat demonstrare.
+
+[Diagram: numbers as rows of dots, labelled α (9 dots), ε (12 dots), β (16 dots), γ (3 dots), δ (4 dots)]
+
+## Eucli.ex Camp. Propositio 14
+
+[Margin]
+14
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I cubus aliū cubū numeret, latus quoq̃ suū, latus alterius numerabit. Si uero latus suū, latus alterius nūeret, cubus nūerabit cubū.
+
+CAMPANVS Sint duo nūeri a & cubi, lateraq̃ eorū c & d, dico quod si a numerat b, c quoq̃ nūerabit d, & ecōuerso ducatur enim b in se & fiat c, d quoq̃ in se, & fiat f, cōstat igitur q̃ ex c in e fit a, & ex d in g, b, fiat itaq̃ f, ex c in d erūtq̃ per 17 & 19 septimi, e.f,g, cōtinue ptoportionales in proportione c ad d, sed & h, & k, proueniant ex c in f & g, per easdē igitur erūt a,h,k,b: continue quoq̃ proportionales in eadem proportione, itaque si a numerat b. idem per 7 huius numerabit h, quare & c,d, est enim c ad d, sicut a ad h, constat igitur prima pars. Conuersa patet, sicut conuersa prioris. Nā si e numerat d, a quoque numerabit h, quem si numerat, necesse est ut numeret b.
+
+## Eucli.ex Zamb. Theorema 13 Propositio 15
+
+[Margin]
+15
+[/Margin]
+
+Si cubus numerus cubum numerum mēsus fuerit, & latus latus metietur, Et si latus latus mensum fuerit, & cubus cubum metietur:
+
+THEON ex Zamb. Cubus enim numerus α, cubū β metiatur, & ipsius quidē α, latus sit γ, ipsius autē β sit δ. Dico quod γ ipsum δ metitur. Igitur γ, seipsum multiplicās ipsum efficiat ε, & insuper γ, ipsum δ multiplicans ipsum efficiat ζ. Ad δ seipsum multiplicās ipsum efficiat η Vterq̃ aūt ipsorū γ,δ, ipsum ζ multiplicās, utrūq̃ ipsorū θ,κ, faciat. Manifestū iam est (per 17 & 18 septimi & 12 octaui,) quod ipsi ε,ζ,η,& α,θ,κ,β, cōtinue sunt proportionales, in ipsius γ ad δ, ratione. Et quoniā ipsi α,θ,κ,β, cōtinue sunt proportiōales, & metitur α, ipsum β, metitur igitur (per 7 octaui) & α, ipsum θ, & est sicut α ad θ, sic est γ ad δ. Metitur igitur & γ ipsum δ. Sed iā metiatur γ, ipsum δ. Dico quod & α, ipsū β metitur. Eisdē nāq̃ dispositis: similiter ostēdemus quod ipsi α,θ,κ.β. cōtinue proportiōales sunt in ipsius γ ad δ, ratione. quoniā enim γ ipsum δ, metitur, estq̃ sicut γ ad δ, sic α ad θ, & α igitur ipsum θ metitur. Quare & α ipsum β metitur. Si cubus igitur nūerus & reliqua quod oportuit demōstraße.
+
+[Diagram: numbers as rows of dots, labelled α, θ, κ, β, γ, δ, ε, ζ, η]
+
+## Eucl.ex Cāp. Propositio 15
+
+[Margin]
+15
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I numerus quadratus quēdam alium quadratū nō numeret, nec latus suū, latus illius numerabit. Si uero latus suū, latus illius non
+
+<!-- Signature: S 4 -->

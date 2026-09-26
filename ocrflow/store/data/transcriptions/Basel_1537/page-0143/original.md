@@ -1,27 +1,45 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVINTVS -->
 
-<!-- Page number: 132 -->
-
-CAMPANVS Demonstrat æquam proportionalitatem in quantitatibus duorū ordinum indirecte siue peruersim proportionatis. Nec est necesse quod demonstretur, nisi cum in utroque quorum ordinum sunt tantum tres quantitates, per hoc enim euidenter sequitur quæcunque ponantur in utroque ordine, sicut in præmissa de directe proportionatis demōstratum est. Sint igitur tres quantitates a b e, sumanturq̃ aliæ tres quæ sint f c d, & sit proportio a ad b, sicut c ad d, & b ad e, sicut f ad c, dico quod erit a ad e, sicut f ad d. Sumam enim g ad a. & h ad c. & k ad f, æque multlplicia. itemq̃ l ad b, & m ad e, & n ad d, æque eritq̃ per 4, d, ad l, sicut h ad n, & per 25, l ad m, sicut k ad h, quare per 21, si g addit super m, & k cadit super n: & si minuit, minuit: & si æquat, æquat: ergo per diffinitionem incōtinuæ proportionalitatis, proportio a ad e, est sicut f ad d, quod est propositum.
-
-[Diagram: six horizontal line segments with tick marks, labelled g, k, l, b, m, n; below them three rows of paired segments labelled a and f, b and e, c and d]
-
-Potest quoque & hoc demonstrari per decimamtertiā huius, sumptis g l m ad a b e, & k, h, n, ad f c d, æque multiplicibus, erit enim per decimamquintam g ad l, sicut h ad n & l ad m, sicut k ad h, cætera pertracta ut prius. Cōuenientius tamen demonstrantur hæc & præmissa, secundum primum modum.
-
-Quod si plures tribus fuerint quantitates in utroque ordine, utpote quatuor additis p & q. ita quod sit a ad b sicut d ad q, & b ad e, sicut c ad d, & e ad p sicut f ad c, erit iterum a ad p, sicut f ad q. erit enim per prædemonstrata a ad e, sicut c ad q. Sublatis igitur b & d, erunt tres quantitates a e p, & aliæ tres f c q. ut proponitur, quare a ad p, sicut f ad q. Sic igitur demōstratur de quatuor per tres, sublato uno medio. Eodem modo demonstrabis de quinque per quatuor, sublatis duobus medijs, & de sex per quinque, sublatis tribus. & sic in cæteris.
-
-## Eucli. ex Zamb. Theorema 25 Propositio 25
+<!-- Page number: 133 -->
 
 [Margin]
-23
+24.
 [/Margin]
 
-Si fuerint tres magnitudines aliæ'que eisdem æquales numero binæ sumptæ in eadem ratione, fuerit autem perturbata carum proportio, etiā ex æquali in eadem ratione erunt.
+SI fuerit proportio primi ad secundum tanquam tertij ad quartum: proportio uero quinti ad secūdum tanquā sexti ad quartum , erit proportio primi & quinti pariter acceptorum ad secundum, tanquam sexti & tertij pariter accepto ra ad quartū.
 
-THEON ex Zamberto. Sint tres magnitudines α β γ, & aliæ eisdem æquales numero binæ sumptæ in eadē ratione δ ε ζ, sit autem perturbata ipsarum proportio, sicut quidem α ad β, sic ε ad ζ, sicutq́; β, ad γ, sic δ, ad ε. Dico quod est sicut α, ad γ, sic est δ, ad ζ. Sumātur, inquam, ipsarū α β δ, æque multiplices γ θ κ, ipsarū autē γ ε ζ. aliæ quæuis æque multiplices λ μ ν. Et quoniam æque sunt multiplices η θ, ipsarum α β, partes autem eodem modo multiplicium eandē habēt rationē (per 15 quinti,) est igitur sicut α, ad β, sic η, ad θ. Ac per hoc, etiam sicut ε, ad ζ, sic μ, ad ν, & est sicut α, ad β, sic ε, ad ζ, & sicut igitur η ad θ, sic μ, ad ν, (per 11 quinti.) Et quoniam est sicut β, ad γ, sic, est δ ad ε, & sumptæ sunt ipsarum quidem β δ, æque multiplices θ κ, ipsarum autē γ ε, aliæ quæuis æque multiplices λ μ, est igitur sicut θ, ad λ, sic κ, ad μ, *& uicissim (per 16 quinti,) sicut β, ad δ. sic γ. ad ε. Et quoniam θ κ, ipsarum β δ, æque sunt multiplices, partes autē æque multipliciū eandē habent rationē (per 15 quinti) est igitur sicut β, ad δ, sic θ, ad κ. Sed sicut β ad δ. sic γ. ad ε, & sicut igitur θ, ad κ, sic κ, ad ε, (per 11 quinti.) Rursus quoniam λ μ, ipsarū γ ε, æque sunt multiplices, est igitur γ, ad ε, sic λ ad μ, Sed sicut γ ad ε, sic θ, ad κ, & sicut θ, ad γ, sic λ, ad μ, & uicißim) per 16 quinti) sicut θ, ad λ, & κ ad μ. Ostensum autem quod sicut η, ad θ, & sic μ, ad ν. Quoniā igitur tres magnitudines sunt proportionales η θ λ, & aliæ eisdem æquales numero κ μ, ν, binæ sumptæ in eadē ratione, & est carū perturbata proportio, ex æquali igitur (per 21 quinti) si excedit η, ipsum λ, & excedit κ. ipsum ν, & si æquale, æquale: & si minus, minus. Sunt autem η κ, ipsarum α δ, æque multiplices, & λ ν, ipsarum γ ζ, æque sunt multiplices, est igitur sicut α, ad γ, sic δ. ad ζ.) per 6 diffinitionem quinti. Si fuerint igitur tres magnitudines, & aliæ eisdem æquales numero binæ sumptæ in eadem ratione, fuerit autem perturbata ipsarum proportio, etiam ex æquali in eadem ratione erunt. Quod demōstrasse oportuit.
+CAMPANVS. Quod secunda proposuit de multiplicibus, hæc proponit uniuersaliter de omnibus proportionibus: unde hæc est illa tanto communior, quãto multiplicitate proportio & se habet ad illam, quemadmodum 13 ad primā.
 
-[Diagram: twelve vertical line segments of varying heights with tick marks, labelled at the base η θ κ α β γ δ ε ζ λ μ ν]
+[Diagram: two horizontal line segments with tick marks, the first labelled a, b, g, the second labelled d, e, h; below them two shorter segments labelled c and f]
 
-## Eucli. ex Camp. Propositio 24
+Sit igitur proportio a b ad c, sicut d e ad f: & item b g ad c, sicut e h ad f: dico quod proportio a g ad c, est sicut d h ad f. Erit enim per cōuersam proportionalitatem, c ad b g, sicut f ad e h: quare per 22. erit in æqua proportionalitate a b ad b g: sicut e d ad e h: ergo cōiunctim per 18, a g ad g b, sicut d h ad h e: itaq̃ per 22, erit in æqua proportionalita te a g ad c, sicut d h ad f, quod est propositum.
 
-<!-- Catchword: Si fue -->
+## Eucli. ex Camp. Theorema.24. Propositio.24.
+
+[Margin]
+24
+[/Margin]
+
+Si primum ad secundum eandem habuerit rationē & tertium ad quartum, habuerit autem & quintum ad secundum eandem rationem & sextum ad quartū: etiam composita primum & quintum ad secundum, eandem habebunt rationem, & tertium & sextum ad quartum.
+
+THEON ex Zamberto. Primum etiam α β, ad secundum γ eandem habeat rationem, & tertium δ ε ad quartum ζ, habeat autem & quintum β η, ad secundum γ : eandem rationem & sextum ε θ ad quartum ζ. Dico quod etiam composita primum & quintum α η ad secundum γ eandem habebunt rationem: ac tertium & sextum δ θ ad ipsum ζ quartum. Quoniam enim est sicut β η ad γ, sic est ε θ ad ζ: conuersim quoq; sicut γ αd β η, sic ζ ad ε θ. Quoniam igitur est sicut α β ad γ, sic δ ε ad ζ, sicut autem γ ad β η, sic ζ ad ε θ: ex æquali igitur ( per 22 quinti ) est sicut α β ad β η, sic δ ε ad ε θ. Et quoniam disiunctæ magnitudines proportionales sunt, compositæ quoq̃ proportionales erunt (per 18 quinti: sicut igitur α η ad η β, sic δ θ ad θ ε : est autem & sicut β η ad γ, sic ε θ ad ζ: ex æquàli igitur ( per 22 quinti) est sicut α η ad γ, sic δ θ ad ζ. Si primū igitur ad secundum eandem habuerit rationem & tertium ad quartum, habuerit aūt quintū ad secundum eandem rationem, & sextum ad quartum: etiam composita primum & quintum ad secundū eandē habebunt rationē & tertiū & sextum ad quartū: quod oportebat demonstrare.
+
+[Diagram: vertical line segments of varying heights with tick marks, labelled at the base α γ δ ζ]
+
+## Eucli. ex Camp. Propositio 25.
+
+[Margin]
+25
+[/Margin]
+
+SI fuerint quatuor quantitates proportionales, fueritq̃ prima earum maxima, & ultima minima, primam & ultimam pariter acceptas cæteris duabus maius esse necessario comprobatur.
+
+CAMPANVS. Quod hic proponitur, nō habet locum: nisi cum omnes quatuor quantitates sunt eiusdem generis. Sint igitur quatuor quantitatū eiusdem generis, proportio a b ad c d, sicut e ad f: sitq̃ a b, maxima. Neq̃ oportet ponere quod f sit minima: quia ipsum ex hoc sequitur, quod a b posita est maxima: unde non posuit hoc auctor in conclusione tanquam positionē: sed potius tanquam præcedentis positionis conclusionē.
+
+[Diagram: horizontal line segments with tick marks: one labelled a, g, b with a shorter segment labelled e beside it; below, one labelled c, h, d with a shorter segment labelled f beside it]
+
+Dico quod cum ita fuerit, maius erit aggregatum ex a b & f, quam ex c d & e. Cum enim a b sit maior e, abscindā ex a b, g b æqualem e: similiter quoq̃ quia c d est maior f, abscindam ex c d, h d æqualem f. Eritq̃ per hypothesin a b ad c b, sicut g b ad h d, quare per 19, a g residuum ad c h residuum: sicut totum a b ad totum c d. Cum ergo a g se habet ad c h sicut a b ad c d, sed a b est maior c d. quare a g maior est c h : additis igitur utriq̃ duabus quantitatibus g b & h d, erit per cōmunem scientiam, aggregatum ex a b & h d maius aggregato ex c d & g b : & quia d h posita est æqualis f, & g, b e : maius erit aggregatum ex a b & f, quàm aggregatū ex c d & e: quod est propositum.
+
+<!-- Signature: m -->
+
+<!-- Catchword: Eucli. -->

@@ -1,41 +1,33 @@
-<!-- Running title: LIBER SEXTVS -->
+<!-- Page number: 238 -->
 
-<!-- Page number: 137 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-## 34
+## Eucli.ex Zamb. Diffinitiones.
 
-Si quotlibet quantitates ad totidem alias cōparentur,fueritqꝫ cuiuslibet præcedētis ad suā relatiuā maior proportio q̄ alicuius subsequētis ad suā, erit omniū harum pariter acceptarum ad omnes illas pariter acceptas maior proportio q̄ alicuius subsequentiū ad suā parē,aut etiam q̄ omniū pariter acceptarū ad oēs pariter acceptas,minor aūt quàm primæ ad primam.
-
-CAMPANVS. Sint tres quantitates a,b,c,relatæ ad totidem alias quæ sint d,e,f,sitqꝫ maior proportio a ad d , quàm b ad e,& b ad e sit maior q̄ c ad f: dico qd' proportio a, b,c, pariter acceptarum ad d, e, f, pariter acceptas,est maior quàm b ad e,uel maior quàm c ad f,& etiam maior quàm b & c pariter acceptarum ad e & f pariter acceptas:& ipsa est minor quàm a ad d. Cū enim sit a ad d maior quàm b ad e:erit permutatim a ad b maior quàm d ad e: & coniunctim a b ad b, maior quàm d e ad e: & iterum permutatim a b ad d e, maior quàm b ad e:quare per præmissam a ad d : est maior quàm a b ad d e. Eodemqꝫ modo probatur maiorem esse b ad e, quàm b c ad e f: itaqꝫ maior proportio est a ad d, quàm b c ad e f: quare permutatim maior est a ad b c, quàm d ad e f: & coniunctim maior a b c ad b c,quàm d e f ad e f: & iterum permutatim maior a b c ad d e f,quàm c b ad e f: quare per præmissam, maior est a ad d,quàm a b c ad d e f,quod est propositum.
-
-[Diagram: paired divided line segments a and d, b and e, c and f]
-
-SEXTI LIBRI FINIS.
-
-# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SEXTVS.
-
-## Euclides ex Campano. Diffinitiones.
+[Margin]
+Κατὰ μίαν sigillatim.
+[/Margin]
 
 ## 1
 
-{dropcap:S|lines=?|style=decorated|decoration="figure riding among foliage and beasts"}Vperficies similes dicūtur, quarū anguli unius angulis alterius æquales,lateraqꝫ æquos angulos continentia proportionalia.
+{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}Imiles figuræ rectilineæ,sunt quæ & angulos æquales habent † ad unum,& quæ circa angulos æquales,sunt latera proportionalia. 2 Reciprocæ autem figuræ,sunt quādo in utraqꝫ figura antecedentes & consequētes termini rationales fuerint. 3 Extrema & media ratione,recta linea diuidi dicitur,quando fuerit sicut tota ad maius segmentum,sic maius ad minus. 4 Altitudo uninscuiusqꝫ figuræ,est à uertice ad basin perpēdicularis deducta. 5 Ratio ex duabus rationibus,aut ex pluribus constare dicitur,quandorationum: quantitates multiplicatæ, aliquā efficiunt quantitatem.
 
-CAMPANVS. Vt sit trigonus a b c fuerit æquiangulus trigono d e f,fueritqꝫ angulus a æqualis angulo d,& angulus b æqualis angulo e, & proportio a b ad d e sicut a c ad d f,& b c ad e f,ipsi erunt similes.
+THEON ex Zamb. Sit enim α β ad γ δ rationem habens datam,ueluti duplam aut triplam aut quamlibet aliam, & γ δ ad ε ζ,eandem quoqꝫ datam.Dico quod ipsius α β & ε ζ ratio, constat ex α β ad γ δ,& ex γ δ ad ε ζ. Vel quod ipsius α β ad γ δ rationis quantitas multiplicata in ipsius γ δ ad ε ζ rationis quantitatem, efficit ipsius α β ad ε ζ rationem. Sit enim primum α β quàm γ δ maior, & γ δ ipsa ε ζ: & sit quidē α β,ipsius γ δ dupla, & γ δ ipsius ε ζ tripla:quoniā igitur γ δ ipsius ε ζ tripla est,ipsius autē γ δ,dupla est α β:igitur α β ipsius ε ζ sexicupla est:quoniam si triplum alicuius duplicamus,fit sexicuplum.hoc enim est proprie cōpositio. Vel sic. Quoniam α β dupla est ipsius γ δ,diuidatur α β in ipsi γ δ æqualia,hoc est α η,& η β. Et quoniā γ δ ipsius ε ζ tripla est:æqualis autem est α η ipsi γ δ: & α η igitur ipsius ε ζ tripla est.Id propterea,& η β ipsius ε ζ tripla est. Tota igitur α β,ipsius ε ζ sexicupla est. Ipsius igitur α β ad ε ζ ratio connectitur per γ δ medium limitem,composita ex ipsius α β ad γ δ & γ δ ad ε ζ ratione. Similiter autem & si minor fuerit γ δ,utraqꝫ ipsarum α β & ε ζ,idipsum colligitur. Sit enim rursus α β ipsius γ δ tripla,at γ δ ipsius ε ζ sit dimidia:& quoniam γ δ ipsius ε ζ dimidia est,ipsius autem γ δ tripla est α β:igitur α β sesquialtera est ipsius ε ζ:si enim alicuius dimidiū triplicamus,habebit ipsum semel & dimidium.At quoniam α β ipsius γ δ tripla est,& γ δ ipsius ε ζ dimidia est, qualiū est α β æqualium ipsi γ δ trium,taliū est ε ζ duorum. Quare sesquialterum est α β ipsius ε ζ.Igitur ratio ipsius α β ad ε ζ:connectitur per γ δ medium limitem:composita ex ipsius α β ad γ δ,& γ δ ad ε ζ ratione. Sed iam rursus sit γ δ utraqꝫ ipsarum α β & ε ζ maior,& sit quidem α β ipsius γ δ dimidium,& γ δ ipsius ε ζ sequitertium. Quoniam igitur qualium est α β duorum , talium est γ δ quatuor , qualium autem γ δ quatuor,talium ε ζ trium:& qualium igitur α β duorum,taliū ε ζ trium: connectitur igitur rursus ratio ipsius α β ad ε ζ, per γ δ mediū limitem, quæ duorum est ad tria:similiter quoqꝫ & in pluribus,& in reliquis casibus. Et manifestum est quod si à composita ratione quæuis una compositarum auferatur : uno simplicium eiecto.reliqua compositarum assumetur.
 
-[Diagram: two triangles, one with apex a and base b c, the other with apex d and base e f]
+[Diagram: at right of the first passage, vertical line segments marked with ticks, the tallest labelled α at top, others γ and ε, with β, δ, ζ at their feet, illustrating lines α β, γ δ, ε ζ]
 
-## 2
+[Diagram: at left of the second passage, three vertical segments labelled α, γ and ε at top, with ε, δ, ζ at their feet]
 
-Superficies mutuorū laterum, sunt inter quarū latera, incontinua proportionalitas retransitiue habetur.
+[Diagram: at right of the third passage, two groups of three vertical segments marked with ticks, labelled α and γ at the tops, one group with ε δ ζ and the other with β δ ζ at their feet]
 
-CAMPANVS. Vt si duorū quadrilaterorū a b c, d e f, proportio a b lateris primi ad d c latus secundi fuerit sicut proportio e f lateris secundi ad b c latus primi, illa duo quadrilatera dicuntur mortuorum laterum siue mutekesia.
+## Eucli.ex Camp. Propositio 1.
 
-[Diagram: two quadrilaterals, the first open-sided with corners a, b, c, the second a rectangle with corners e, d, f]
+## 1
 
-## 3
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I duarum rectilinearum superficierum æquidistantium laterū siue triāgulorum, fuerit altitudo una, tanta erit alterutra earū ad alteram, quanta sua basis ad basin alterius.
 
-Linea dicitur diuidi secundū proportionē habentē medium & duo extrema,quando eadē est proportio totius ad maiorē sui sectionē quæ est maioris ad minorē.
+CAMPANVS. Sint duo parallelogramma a b c,d e f:æqualis altitudinis:dico esse proportionem eorum sicut b c ad e f: ponam illa duo parallelogramma sup lineā unā,quæ sit g m: erūtqꝫ propter hoc q̄ sunt æqualis altitudinis, inter lineas æquidistantes,quarū sit altera κ n,deinde ex linea g m,sumam g c multiplicē secundū quemcūqꝫ numerū uoluero,ad b c,& diuidā eam in partes æquales b c,in punctis h & b, a quibus & puncto g,ducā æquidistantes lineæ a b, quæ sunt g κ & h l:& cōplebo supficies æquidistantiū laterū,κ h & l b: eritqꝫ unaquæqꝫ earū
 
-<!-- Signature: m 3 -->
+[Diagram: two figures above the text: a rectangle divided by vertical lines, with k l a c f d n κ along the top and g h b c f e m along the base; beside it a horizontal line a d n with a fan of lines descending to a base labelled g h b c f e m]
 
-<!-- Catchword: Eucli. -->
+<!-- Catchword: per -->

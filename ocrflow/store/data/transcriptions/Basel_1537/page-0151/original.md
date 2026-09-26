@@ -1,33 +1,31 @@
-<!-- Page number: 140 -->
+<!-- Running title: LIBER QVINTVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 141 -->
 
-linea d e æquidistans lineæ b c,quod est secundum.
+iuncta recta linea bifariam dispescit ipsius trianguli angulum.
 
-## Eucli.ex Zamb. Theorema 2 Propositio 2
+THEON ex Zamberto. Sit triangulum α β γ,seceturque (per 9 primi,)angulus β α γ,bifariam per rectā lineam α δ.Dico quod est sicut β δ,ad γ δ,sic est β α,ad α γ. Excitetur enim (per 31 primi)per γ,ipsi δ α,parallelus γ ε,& extensa β α,ei concurrat in ε,& quoniam in parallelos α δ. & ε γ,recta linea α γ,cecidit,angulus igitur α γ ε,(per 29 primi,) æqualis est angulo γ α δ.Sed angulo γ α δ,is qui est sub β α δ,supponitur æqualis,& angulus igitur β α δ,ei qui sub α γ ε,est angulo,est æqualis.Rursus quoniam in parallelos α δ,& ε γ,recta linea cecidit β ε, (per 28 primi, ) angulus exterior β α δ , æqualis est angulo interiori α ε γ,ostensum autem est quod angulus α γ ε.angulo β α δ,est æqualis,& angulus α γ ε,igitur,angulo α ε γ,est æqualis,quare & latus α ε,lateri α γ,(per 6 primi,)est æquale. Et quoniā triāguli β γ ε,ad unū latus ε γ,parallelus acta est α δ,proportionaliter igitur est (per 2 sexti,& per 11 quinti.)sicut β δ,ad δ γ,sic β α,ad α ε.Aequalis autem est, α ε, ipsi α γ.est igitur sicut β δ,ad δ γ,sic β α ad α γ. Sedesto sicut β δ,ad δ γ.sic β α,ad α γ,& connectatur α δ.Dico quod bifariam secatur angulus β α γ,per rectam lineam α δ. Eisdem namque dispositis , quoniam est sicut β δ,ad δ γ, sic est β α , ad α γ,sed sicut β δ,ad δ γ,sic β α,ad α ε, (per secundā sexti, )trianguli enim β γ ε, ad unū latus ε γ, acta est parallelus α δ,& sicut igitur β α,ad α γ,sic β α,ad α ε,(per 9 quinti,)æqualis igitur est α γ,ipsi α ε, quare & angulus qui sub α ε γ,(per quintā,primi,)ei qui est sub α γ ε,est æqualis.Sed qui est sub α ε γ,(per 29 primi) exteriori qui est sub α β δ,est æqualis,angulus autē α γ ε,ei qui uicißim est sub γ α δ,angulo est æqualis:igitur β α δ.æqualis est angulo γ α δ. Angulus igitur β α γ,bifariam discinditur sub α δ,recta linea . Si trianguli angulus igitur bifariam secetur eum autem dispescens recta linea secuerit & basin:basis segmenta eandem habebunt rationem reliquis trianguli lateribus , & si basis segmenta eandem habuerint rationem reliquis trianguli lateribus,à uertice ad basin coniūcta recta linea bifariam secat ipsius trianguli angulum,quod erat demonstrandum.
 
-## 2
+[Diagram: triangle with apex ε at the top, point α on the left side, base β δ γ, with lines α δ and α γ drawn within]
 
-Si trianguli ad unum laterum ducta fuerit aliqua recta linea parallelus proportionaliter secat ipsius triāguli latera,& si trianguli latera proportionaliter secta fuerint,ipsas sectiones connectēs recta linea, parallelus ad reliquum erit ipsius trianguli latus.
+## Eucli.ex Camp. Propositio 4
 
-THEON ex Zamberto. Trianguli enim α β γ.parallelus ad latus β γ,agatur δ ε.Dico quod est sicut β δ,ad δ α,sic est γ ε,ad ε α.Cōnectantur enim β ε,& γ δ,æquale igitur est (per 37 primi)triāgulū β δ ε,triāgulo γ δ ε,in eadem enim sunt basi δ ε,& in eisdem parallelis δ ε,& β γ.Aliud autem quoddam triangulum α δ ε,æqualia autem(per 7 quinti)ad idem eandem habent rationem.Est igitur sicut triangulum β δ ε,ad triangulum α δ ε,sic triangulum λ δ ε,ad triangulum α δ ε. Sed sicut quidem triangulum β δ ε,ad triangulum α δ ε,sic est β δ,ad δ α,sub eadem namque altitudine perpēdiculari scilicet ab ε,in α β,ducta cū sint,ad seinuicē sunt sicut bases (per 1 sexti.) Ac propterea sicut triangulum γ δ ε,ad triangulum α δ ε,sic γ ε,ad ε α,& sicut igitur(per 11 quinti) β δ,ad δ α,sic γ ε.ad ε α. Sed iam ipsius α β γ,trianguli,latera α β,& α γ.proportionaliter secentur,sicut β δ,ad δ α,sic γ ε,ad ε α,& cōnectatur δ ε.Dico quod parallelus est δ ε,ipsi β γ. Eisdē nāqꝫ dispositis,quoniā est sicut β δ,ad δ α,sic γ ε,ad ε α,sed sicut quidē β δ,ad δ α,sic triāgulū β δ ε,ad triangulū α δ ε,(per 1 sexti)sicut aūt γ ε.ad ε α,sic triangulū γ δ ε,ad triangulum α δ ε,(per eandem,)& sicut igitur (per 11 quinti,) triangulum β δ ε, ad triangulū α δ ε.sic triangulū γ δ ε,ad triangulū α δ ε. Vtrūqꝫ igitur ipsorū β δ ε,& γ δ ε,triāgulorū,ad α δ ε, eandem habet rationē (per 9 quinti.)Aequale igitur(per eandē)est triangulū β δ ε,triāgulo γ δ ε,& in eadem sunt basi δ ε,æqualia autem triāgula & in eadem basi existentia,etiā in eisdem sunt parallelis (per 39 primi)parallelus igitur est δ ε,ipsi β δ.Si trianguli ad unum latus igitur acta fuerit parallelus aliqua recta linea, proportionaliter secat triāguli latera,& si triāguli latera proportionaliter secta fuerint,ipsas sectiōes coniūgens recta linea,parallelus erit ad reliquū trianguli latus.Quod demonstrasse oportuit.
+## 4
 
-[Diagram: right triangle with apex α at top, base line β γ at bottom, points δ and ε on the sides joined by a line parallel to the base, with diagonals crossing below]
+{dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duorum triangulorum quorum anguli unius angulis alterius sunt æquales, latera æquos angulos continentia sunt proportionalia,
 
-## Eucli.ex Camp. Propositio 3
+CAMPANVS. Sint duo trianguli a b c,d e f æquianguli: sitqꝫ angulus a æqualis angulo d:& angulus b,angulo e:& angulus c angulo f:dico quod proportio d e ad a b,& d f ad a c: est sicut e f ad b c: ponam enim ambos triangulos super lineam unā quæ sit e c: ita quod duo anguli unius qui erūt super hanc lineam, sint æquales duobus alterius qui erunt super eandem : non quidem medius medio aut extremus extremo:sed medius unius,extremo alterius : & ponam duos eorum medios angulos in eodem puncto coire, sitqꝫ a f c: ipse idem triangulus qui erat a b c: & quia angulus a f c est æqualis angulo e, angulus d f e angulo c per hypothesin:erit per primam partem 26 primi,linea a f æquidistans d e,& d f æquidistans a c: complebo igitur superficiem æquidistantium laterum:quæ sit g f:eritqꝫ per 34 primi,g a æqualis d f,& g d æqualis a f. Quia ergo per secundam huius g a ad a c, sicut e f ad f c, & per eandem e f ad f c sicut e d ad d g:erit per 7 quinti d f ad a c: & per eandem e d ad f a,sicut e f ad f c,quod est propositum.
 
-## 3
+[Diagram: two triangles: one with apex a and base b c; the other with apex g, point a on its left side, point d on the right, and base e f c, with inner lines drawn]
 
-{dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I ab aliquo angulorum trianguli linea recta ad basin ducta,angulum illum per æqualia secet , duas partes ipsius basis reliquis eiusdem rrianguli lateribus proportionales esse.Si uero duæ partes basis quas linea ab angulo ducta distinguit,reliquis triāguli lateribus proportionales fuerint,lineam illā angulum per æqualia diuidere necessario comprobatur.
+## Eucli.ex Zamb. Theorema 3. Propositio 4.
 
-CAMPANVS Sit trigonus a b c,cuius angulum a diuidat linea a d per æqualia,dico quod proportio b d ad d c. est sicut b a ad a c,& econuerso, protraham enim b e,æquidistantē a d,& producam c a, quousque concurrat cum b e,in puncto e, eritque per primam partem 29 primi,angulus e b c,æqualis angulo b a d,& per secundam partem eiusdem,angulus c,angulo d a c,quare angulus e,est æqualis angulo e b a,ergo per sextam primi, e a ,est æqualis a b,& ideo per primam partem septimi quinti, proportio e a ad a c:est sicut b a ad a c,sed per præmissam,e a, ad a c,est sicut b d ad d c. ergo b a ad a c,sicut b d ad d c,qd'est primum. Secunda pars quæ est conuersa primæ partis,probabitur conuerso modo.Manente enim eadem dispositione, si fuerit proportio b a ad a c,sicut b d ad d c,quia per præmissam e a ad a c est sicut b d ad d c,erit eadē proportio e a ad a c,quæ est b a ad a c,ergo per primā partem,9 quinti e a & a b sunt æquales.quare per 5 primi duo anguli e & e b a.sunt æquales ,igitur per primam & secundam partem 29 primi angulus b a d,est æqualis angulo d a c,quod est secundum.
+## 4
 
-[Diagram: triangle with base b d c and vertex a at the top, a point e partway down within the figure, with lines a d and e b drawn]
+Æquiangulorum triangulorum proportionalia sunt latera : quæ circū æquales angulos, & similis sunt rationis quæ æqualibus angulis latera subtenduntur.
 
-## Eucli.ex Zamb. Theorema 3 Propositio 3
+THEON ex Zamberto. Sint triangula æquiangula α β γ & δ γ ε æquum habentia angulum qui sub α β γ ei qui sub δ γ ε est angulo,& angulum qui sub β α γ ei qui sub γ δ ε, & insuper angulum qui sub α γ β ei qui sub δ ε γ.Dico quod triangulorum α β γ & δ γ ε latera sunt proportionalia,quæ circum æquales sunt angulos: eiusdemqꝫ rationis, quæ æqualibus angulis latera subtenduutur. Ducatur enim in rectam lineam β γ,ipsi γ ε . Et quoniam anguli α β γ & α γ β duobus rectis sunt minores (per decimamseptimam primi ) æqualis autem est angulus α γ β ei qui est sub δ
 
-## 3
+[Diagram: large right triangle with apex ζ at the top, point α on the left side, point δ on the inner right, and base β γ ε, with inner lines drawn]
 
-Si trianguli angulus bifariam secetur , dispescens autem angulum recta linea secuerit & basin,basis segmenta eandem habebunt rationem reliquis ipsius trianguli lateribus , & si basis segmenta eandem habuerint rationem reliquis ipsius trianguli lateribus,à uertice ad sectionem con
-
-<!-- Catchword: iuncta -->
+<!-- Catchword: ε γ,an -->

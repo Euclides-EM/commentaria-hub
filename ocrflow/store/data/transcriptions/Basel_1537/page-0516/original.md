@@ -1,47 +1,35 @@
-## SPECVLARIA
+<!-- Page number: 506 -->
 
-<!-- Page number: 505 -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-### Theorema primum.
+Sit planum speculū a c, oculus sit b, uisus uero refracti sunt. b c d. b a e. Dico quod c d, & a e, neque paralleli sunt, neque cōcurrunt in d e. Nam quoniam angulus f æqualis est angulo h & k ipsi m, maior autem est per 16 primi elemē. f ipso k, quoniam est extra ipsum triangulum b k c. maior autem fuerit h quàm m. Igitur c d ipsi a e, parallelus non est, neque in d e, cōcurrunt.
 
-{dropcap:A|lines=?|style=decorated|decoration="woodcut"} Planis, conuexis, cauisq̃ speculis uisus inæqualibus angulis refringuntur.
+[Diagram: plane speculum on a horizontal line with points a and e; angle labels m, k, b, f along the line; rays descend and cross below toward h and the points c, d]
 
-Sit oculus b speculum autem planum sit a c, uisus uero feratur b k & refringatur in d. Dico quod angulus e angulo f est æqualis. Excitētur per 11 primi elementorum perpendiculares in speculum b c, d a est igitur sicut b c ad c k, sic est d a ad a k, hoc, inquā, in diffinitionibus patuit. Simile igitur, est triangulum b c k triangulo d a k, per diffinitionem primam, 6 elementorum. Igitur angulus e angulo f est æqualis, nam quæ similia æquiangula sunt.
+## In conuexis.
 
-[Diagram: two rays from d and b meeting the horizontal mirror a k c at k, with angles e and f at the mirror; points d, b, e, f, a, k, c marked]
+Sit rursus conuexum speculum a g f c, oculus uero sit b, aspectus autem refractus sint b f d b g e. Dico quod ipsi f d, g e, neque in e d cōcurrūt, neque sunt paralleli, & cōnectatur enim g f, recta linea, extendaturq́; ex utraque parte, quoniā æqualis est k h, ipsi l, eo quia in æquis angulis refringitur. maior fuerit quoque l m ipso k & k ipso n x est maior. sed n x ipso p o maior est. Rursus x, æqualis est ipsi o, maior igitur est l m ipso o p, multo igitur maior est l m ipso o: non concurrunt: igitur ipsæ f d, g e, rectæ lineæ, neque sunt paralleli.
 
-### In conuexis.
+## Theorema quintum.
 
-Sit iam conuexum speculum a k c, uisus uero sit b k, refractus in d. Dico quod angulus e h, æqualis sit angulo f l, apposui planum speculum n m, æqualis est angulus e angulo f per precedentem. Sed & h ipsi l: connectitur namque m k, totus igitur e h, toti f l est æqualis.
+IN cauis speculis si ad centrum, siue ad circunferentiam, siue extra circūferentiam oculus extiterit, hoc est inter centrum & circunferentiā, uisus refracti concurrent.
 
-[Diagram: convex mirror arc a k c touched by plane mirror m n at k, rays to b and d; points a, g, l, k, b, m, f, e, n, b, d marked]
+Sit cauum speculum a c d, centrum autem sphæræ sit b ponaturque oculus in b & procidant ex b uisus in circunferentiam b a b, c b d, æquales igitur sunt qui ad signa a c d, sunt anguli, semicirculi enim sunt per 27 tertij elemē. uisus igitur refracti per se ipsos refringentur b a b, c b d, hoc autem patet quod in b cōcurrunt.
 
-### In cauis.
+[Diagram: concave arc between two descending lines; point labels e, b, f at left, g, p at right, and l, o, n, x, q below the arc]
 
-Sit rursus cauum speculum a k c uisus autem b k refractus in d. Dico quod angulus e, æquus est angulo f, collocato enim plano speculo m n æquus est per primam angulus h e angulo f l. Aequalis autem est h ipsi l: reliquus igitur e reliquo f est æqualis
+## Oculus in circunferentia.
 
-[Diagram: concave mirror a k c with tangent plane mirror l k b / m n at k, rays to b and d; points m, k, l, f, e, b, n, a, b, d marked]
+Sit rursus cauum speculum a b c, oculus autē esto. b ponaturq́; in eius circunferentia, & ab ipso b, incidāt uisus b c. b a, refracti in d e signis. Quoniam maius est a c b segmētum ipso b c, segmento, maior est angulus f, angulo h per 21 tertij elemētorū & g per a igitur ipso k, maior. Ipsi igitur f k, ipsis h k, sunt maiores. Reliquus igitur l reliquo m minor, multo magis igitur: quæ enim cōcurrunt igitur ipsæ c d a e, in f similiter ostendetur, & si extra circunferentiam ceciderit oculus, sicut in sequenti theoremate.
 
-### Theorema secundum.
+[Diagram: circle with a horizontal diameter d–a and a vertical chord from c; point b at the centre below the chord]
 
-{dropcap:I|lines=?|style=decorated|decoration="woodcut"}N qualiacunq̃ specula inciderit uisus æquos efficiens angulos, per sese refringetur.
+[Diagram: circle with points c and K at top left, m and l inside, b at right on the circumference, g and e at lower left, d and f below; chords from c and b crossing within the circle]
 
-Sit planum speculum a k c oculus autem sit b, uisus uero sit b k, cadatq̃ æquos efficiēs angulos f h. Dico quod b k refractus in seipsum, hoc est in b reuertetur. Non enim. sed si possibile est agatur in d & quoniam per primam uisus in æqualibus angulis refringuntur, angulus e æquus est ipsi angulo h ostensum quoque est quod e f angulus ipsi h est æqualis, & angulus igitur e f, ipsi e angulo erit æquus maior minori, quod est impossibile. Igitur b k in seipsum refringetur, eadem quoque demōstratio in conuexis, & in cauis speculis conueniet.
+## Theorema sextum.
 
-[Diagram: plane mirror a k c with perpendicular k b and oblique ray k d; points a, k, c, f, b, e, b, d marked]
+IN cauis speculis, si ad medium centri & circunferentiæ positus fuerit oculus, quandoque uisus refracti concurrent, & quandoque non concurrent.
 
-### Theorema tertium.
+Sit speculum cauum a c, centrum autem sit d, oculus uero ponitur b, intra centri medium & circunferentiæ, uisus autem b a, b c, refringantur in g f, extendanturque uisus usque ad speculum a h, c k. Ipsa a h, iam ipsa c k, aut maior est, aut ei æqualis, aut ea minor. Siquidē uisus, a h æqualis est ipsi c k, æqualis est & a c h, circūferentia c h k, circunferentiæ. Quare & m angulus ipsi x angulo, æqualium circunferētiarum anguli in uicem sunt æquales per 27 tertij elementorum, & anguli m l igitur ipsis n x, sunt æquales per refractionem per primum theorema. & reliquus igitur angulus o angulo p est æqualis: maior igitur est angulus r ipso angulo o. Quoniam enim per 16 primi elemen
 
-{dropcap:I|lines=?|style=decorated|decoration="woodcut"}N qualecunque speculum procidens uisus inæquales efficiens angulos, in se ipsum non refringetur neque in minori etiam angulo.
-
-Sit planum speculum a k c, uisus autem b k procidat maiorem efficiens angulum f ipso h l. Dico quod b k, refractus, non refringetur in sese, neque in angulo h l, si enim ueniet in b k angulus f ipsi h l est æqualis, quod est impossibile, maior enim supponitur. Igitur b k in maiori refringetur angulo f. a maiori namque minori æquale abscindi est possibile per 3 primi elementorum, eademq̃ demonstratio est & in conuexis, & in cauis.
-
-[Diagram: plane mirror a k c with rays k b and k d below, angles f, h, l at k; points a, k, c, f, h, l, b, d marked]
-
-### Theorema quartum.
-
-{dropcap:V|lines=?|style=decorated|decoration="woodcut"}Isus in planis speculis, & cōuexis refracti, neque concurrunt adinuicem, neque sunt paralleli.
-
-<!-- Signature: V -->
-
-<!-- Catchword: Sit pla -->
+<!-- Catchword: torum -->

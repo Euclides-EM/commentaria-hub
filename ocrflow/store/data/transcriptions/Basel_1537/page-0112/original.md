@@ -1,35 +1,27 @@
-<!-- Running title: LIBER QVINTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 103 -->
+<!-- Page number: 104 -->
 
-autem ipsum, multiplex: propter hoc quod minus aliquoties sumptum, ipsum constituat: erunt igitur relatiue dicta adinuicem, pars & multiplex. Nam omnis pars, submultiplex: ut patet per eius diffinitionem.
+maioris abstractionis, quàm proportionem arithmeticā: omnis enim proportio circa quam arithmetica uersatur, rationalis est: geometria uero, rationales & irrationales æqualiter considerat.
 
-## 3 Proportio, est habitudo duarum quantæcunq̃ sint eiusdem generis quantitatum, certa alterius ad alteram habitudo.
+## 4 Proportionalitas, est similitudo proportionum.
 
-CAMPANVS. Proportio est habitudo duarum rerum eiusdem generis adinuicē, in eo quod earum altera maior aut minor est reliqua uel sibi æqualis. Nō enim solum in quantitatibus reperitur proportio, sed in ponderibus, potentijs & sonis. In ponderibus quidem & potentijs, uult Plato in Timæo esse proportionem: ubi elemētorum numerum ostendit.
+CAMPANVS. Vt si dicamus quod quæ est proportio a ad b, ea est etiam c ad d: proportio quæ est inter a & b, similis est illi quæ est inter c & d. Hæc autem similitudo quæ ex istis proportionibus resultat: dicitur proportionalitas.
 
-[Margin]
-Plato.
-[/Margin]
+[Diagram: four horizontal line segments in two pairs, labelled a and c (shorter, above) and b and d (longer, below)]
 
-In sonis autem esse proportionem, liquet ex musica. Nam (ut uult Boetius in quarto) si quilibet neruus in duas inæquales partes diuidatur: erit ipsarum partium suorumq̃ sonorum, eadem conuerso modo proportio.
+## 5 Quantitates autem quæ dicuntur continuam habere proportionalitatem, sunt quarum æque multiplicia aut æqua sunt, aut æque sibi sine interru ptione addunt aut minuunt.
 
-[Margin]
-Boetius.
-[/Margin]
+CAMPANVS. Supposita diuisione proportionalitatis per cōtinuam & discontinuam: diffinit membra diuidentia, & primo continuam. Immo (ut uerius dicam) supposita diuisione proportionalium per cōtinue proportionalia & incontinue: diffinit non continuam proportionalitatem nec continuam, sed continue proportionalia & incontinue: diffinitio autem continuæ proportionalitatis & incontinuæ, satis patet per diffinitionem continue prooortionalium & incontinue.
 
-Sed in quibuscunque proportio reperitur: ea participant naturam proprietatemq̃ quantitatis: non enim reperitur in aliquibus rebus duabus, nisi in eo quod earum una est reliqua maior, aut minor, aut ei æqualis. Quantitatis autem proprium, est secundum ipsam æquale uel inæquale dici, ut uult Aristoteles in prædicamentis:
+[Diagram: four horizontal segments of increasing length labelled a, b, c, d, each divided by tick marks]
 
-[Margin]
-Aristoteles.
-[/Margin]
+Continua autem proportionalitas, est cum quotlibet quantitatum eiusdem generis, in qua proportione prima antecedit secundam, in eadem quælibet aliarum antecedit proximo consequentem: ut cum dicimus, sicut se habet a ad b, ita b ad c, & c ad d: eritq̃ quælibet earum, antecedens & consequēs: excepta prima quæ est solum antecedēs, & ultima quæ est tantum consequens.
 
-unde liquet proportionem primo in quantitate reperiri, & per ipsam in omnibus alijs: nec esse in aliquibus rebus proportionem, cui similis non sit in aliquibus quantitatibus: propter quod bene dixit Euclides, proportionem simpliciter esse in quantitate: cum eam diffiniuit per habitudinem duarum quantitatum eiusdem generis adinuicem.
+[Diagram: four horizontal segments of increasing length labelled a, b, c, d, divided by tick marks into equal parts]
 
-Cuius diffinitionis intellectus est, quod proportio est habitudo duarum quātitatum adinuicem, quæ attenditur in eo quod una earum est maior aut minor alia, uel æqualis ei: per quod patet quod oportet eas esse eiusdem generis, ut duos numeros, aut duas lineas, aut duas superficies, aut duo corpora, aut duo loca, aut duo tempora. Non enim potest dici in ea: maior aut minor superficie, aut corpore: nec tempus, loco: sed linea, linea, & superficies, superficie. Sola enim uniuoca, comparabilia sunt.
+Et in hac quidem proportionalitate necesse est omnes quantitates esse eiusdem generis propter continuationem proportionum, eo quon non sit proportio inter quantitates quæ sunt generum diuersorum: & hæc erit ad minns in tribus terminis constituta. Incontinua autem proportionalitas, est cum quatuor quātitatum siue omnes fuerint eiusdem generis, siue duæ primæ unius, & duæ postremæ alterius, in qua proportione prima antecedit secundam in eadem tertia antecedit quartam: ut cum dicimus, sicut se habet a ad b: ita c ad d: eritq̃ earum quælibet, aut tantum antecedens aut tantum consequēs: nec est necesse ut sint omnes quatuor eiusdem generis sicut erat in proportionalitate continua: eo qd̃ consequēs primæ proportionis non cōtinuatur antecedenti secūdæ, sed possibile est ut sint eiusdem generis: & possibile est, ut sint diuersorum. Sicut enim contingit lineam reperiri duplam ad lineam, aut triplam: ita superficiem ad superficiem, & corpus ad corpus, & tempus ad tempus, & numerum ad numerum. Viso quid sit cōtinua proportionalitas, & quid incontinua, explanemus diffinitionem continue proportionalium præmissam. Quantitates (inquit) proportionales continue, sunt quarū æque multiplicia aut sibi sunt æqualia, aut æque sibi sine interruptione addūt aut minuūt: uerbi gratia. Sint tres quantitates eiusdem generis a, b, c: ad quas sumātur d, e, f: æque multiplicia, ut sicut d est multiplex ad a, ita e sit multiplex ad b, & f ad c: eruntq̃ omnes in eodem genere: multiplicia enim & submultiplicia, in eodem sunt genere: sitq̃ ut d, e, f, aut sint æqualia adinuicem: aut similiter se habeant in addendo aut minuendo: ita q̃ sicut d addit super e aut minuit ab ipso: ita e addat super f aut minuat ab ipso. Cū hæc, inquam, multiplicia sic se habuerint: erunt tres quantitates a, b, c, continue proportionales. Multiplicia autem non intelligas similiter sic se habere in addendo aut minuendo, quantum ad quantitatem excessus, sed quantum ad proportionem: aliter enim diffinitio esset falsa. Nam quarumlibet quantitatum eiusdem generis æquis se differentijs excedentium: æque multiplia accepta æquis etiam differentijs se exce-
 
-Quod autem dicit certa habitudo, non sic intelligas quasi nota uel scita, sed quasi determinata, ut sit sensus. Proportio est determinata habitudo duarum quantitatum: ita, inquam, determinata: quod hæc & non alia. Non enim est necessarium, ut omnis habitudo duarum quantitatum sit scita à nobis, nec etiam à natura. Nam proportio quædam est discretorum, ut numerorum: quædam autem continuorum. In numeris autem, minor: est pars aut partes maioris, ut demonstratur in septimo: quare & in eis est habitudo certa & nota. At uero in continuis, est proportio magis larga: est enim in ea, ubi minor quantitas est, pars aut partes maioris: & talium omnium: mediantibus numeris est proportio nota, quæ & rationalis dicitur. Dicunturq̃ omnes tales quantitates, commmunicantes, quia eas una & eadem necessario metitur: unde & omnes numeri sunt communicantes: omnes enim ipsos metitur unitas. Est etiam, ubi minor non est pars aut partes maioris: & in talibus non est nota proportio nec nobis nec naturæ. Diciturq̃ hæc proportio irrationalis, & hæ quantitates, incōmunicantes: unde fit ut quæcunq̃ portio reperitur in uumeris, reperiatur in omni genere continuorū, ut in lineis, superficiebus, corporibus & temporibus: nō aūt è conuerso: infinitæ em sunt proportiones in cōtinuis repertæ: quas numerorū natura nō sustinet. Sed quæcūq̃ proportio reperitur in uno genere continuorū: eadē reperitur in omnibus alijs. Nam qualitercūq̃ se habet aliqua linea ad quamlibet aliam: sic se habet quælibet superficies ad aliquā aliā, & quodlibet corpus ad aliquodaliud, similiter & tēpus: sed nō sic: quilibet uumerus ad aliquē alium: unde magis est larga proportio in cōtinuis, quàm in discretis. Ex quo manifestum est proportionem geometricam esse
+[Diagram: three pairs of horizontal segments labelled a–d, b–e, c–f, the segments d, e, f divided by tick marks]
 
-<!-- Signature: i 4 -->
-
-<!-- Catchword: maioris -->
+<!-- Catchword: exce -->

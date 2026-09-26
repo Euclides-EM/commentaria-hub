@@ -1,63 +1,19 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER VNDECIMVS -->
 
-<!-- Page number: 346 -->
+<!-- Page number: 347 -->
 
-quem continent hæ duæ lineæ perpendiculares uidelicet g h & g k,erit rectus: superficies a b c d dicitur orthogonaliter erecta super superficiem c d e f.
+moueri cœpit secundum rectitudinem, eritq̃ linea hæc quasi b c d. Et quia (ex 32 primi & 5 eiusdem) angulus c a b est medietas recti, erit angulus c a d rectus, ideoq̃ pyramis hæc dicitur rectangula. Si autem latus a b sit lõgius latere b c, erit acutiãgula. Erit enim tũc (ex 32 primi & 19) eiusdẽ angulus c a b, minor medietate recti, ideoq̃ totus angulus c a d. est minor recto & acutus, quare pyramis acutiãgula. Quod si latus a b fuerit breuius latere b c, erit angulus c a d maior medietate recti (ex 32 primi & 19 eiusdẽ) & totus c a d, qui est duplus ad ipsum c a b, maior recto & obtusus, igitur & pyramis conuenienter tunc dicitur obtusiangula. Axis autẽ huius pyramidis, dicitur linea a b Basis uero eius, circulus quem describit linea c b super cẽtrum b. Dicitur quoque hæc pyramis columnæ rotundæ, illius uidelicet quam motu suo describeret parallelogrãmum proueniens ex a b & b c, latere a b manente fixo.
 
-[Margin]
-4
-[/Margin]
+11 Figura corporea rotunda cuius bases sunt circuli duo plani extremitatibus & crassitudine id est altitudine æquales, est transitus parallelogrammi rectanguli latere rectum angulum continente fixo, ipsáque superficie donec ad locum suum redeat circunducta. Diciturq̃ hæc figura, columna rotunda. Columnæ itaque rotundæ atque sphæræ circuli que, unum atque idem est centrum.
 
-## Superficies æquidistantes sunt quæ in utramlibet partem protractæ nō concurrent,etsi in infinitum producantur.
+Sit parallelogrammum rectãgulum a b c d, figaturque latus a b, & eo fixo totum parallelogrammũ quousq̃ ad locũ suũ cadat uel redeat circũducatur. Corporea ergo figura huius parallelogrammi motu descripta, fotũda{printer-error-correction:rotũda} colũna nominatur, cuius bases sunt duo circuli, & est unus eorum. circulus quem describit motu suo linea b c, cuius circuli centrum est punctus b, alter uero est, quem motu suo designat linea d a & eius centrum est punctus a. Axis autem huius columnæ, dicitur linea a b quæ manet fixa in motu parallelogrãmi. Quod si imaginati fuerimus parallelogrammũ a b c d cum peruenerit rotatu suo ad situm a b e f, coniungi situi à quo moueri cœpit secũdum continuitatem superficiei planæ, ut scilicet totum sit unum parallelogrãmum d c, e f, & protraxerimus in eo diametrum d e, erit quoque diameter d e diameter columnæ. Quod autem dicitur columnæ & sphæræ & circuli idẽ esse centrum, intelligi debet cum horũ una est eadẽq̃ diameter. Verbi gratia, diximus enim quod d e est diameter istius colũnæ. Sphærã igitur atque circulũ quorũ diameter est linea d e, necesse est idem centrũ habere cum centro propositæ columnæ. Sit enim ut linea d e secet lineá a b in puncto g, eritq̃ g centrum colũnæ. diuidit enim axẽ colũnæ per æqualia, quod patet per 15 primi, nã anguli qui sunt ad g sũt æquales ex 15 primi, & anguli qui sũt ad a & b, recti ex hypothesi, linea quoq̃ a d, est æqualis lineæ b e, itaq̃ d g est æqualis e g, & a g æqualis g b. Cunque anguli c & f sint recti, si super punctum g secundũ spatium d g, ac super lineã d e circulus describatur, transibit ex conuersa primæ partis 30 tertij per puncta c & f, itaque punctum g est centrum circuli cuius diameter est diameter colũnæ ideoq̃ & sphæræ. Quare manifestum est omni parallelogrammo rectangulo circulum, omnique columnæ rotundæ sphæram esse circunscriptibiles. Sicq̃ patet quod uoluit istud theorema.
 
-Intellectum est quod dicitur.Scire tamen debes,quod omnes planæ superficies,aut sunt æquidistantes abinuicem,aut in omnem partem protractæ concurrent alicubi & super rectam lineam se secabunt.Lineas autem rectas nō est necessariū uel esse æquidistantes uel in utrāque partem protractas concurrere,quippe quæ in eadem superficie non sunt nec æquidistant ab inuicem,nec tamen quantumlibet protractæ concurrent.
+[Diagram: cylinder with top circle through d and a, bottom circle through e and b; axis a b drawn inside]
 
-[Margin]
-5
-[/Margin]
+[Diagram: rectangle d a f / c b e with vertical line a b through the middle, centre g on the diagonal d e]
 
-## Aequa corpora sunt atque similia,quorum terminales superficies numero ac quantitate æquales unius creationis sint atque similes.
+12 Angulus corporeus siue solidus, est quem cótinent anguli plani plures quàm duo, qui haudquaquam in una superficie siti ad unum punctum angulatem conueniunt.
 
-[Margin]
-6
-[/Margin]
+Duo anguli plani angulum solidũ perficere nequeũt: sicut nec duæ rectæ lineæ nequeunt superficiem claudere. Angulos quoque planos solidum angulum continentes in eadem superficie non cõuenit esse sitos, sed in diuersis, quemadmodum duas rectas lineas planum perficientes angulum, non conuenit sibi inuicem secundum situm rectitudinis applicari.
 
-## Similia corpora,sunt quæ similibus superficiebus numero æqualibus cōtinentur.
-
-Si has duas diffinitiones de corporibus æqualibus & similibus,non intelligis,ad diffinitionem similium superficierum positam in principio sexti recurre.
-
-[Margin]
-7
-[/Margin]
-
-## Corpus serratile,dicitur quod quinque superficiebus quarum tres parallelogrammæ sunt,duæ uero triangulæ,continetur,
-
-Domui quatuor parietes æquidistantes habenti,tectū unico fastigio supremis duorum parietum lateribus æquali & æquidistanti superpositū.serratilis corporis expressam similitudinem gerit.
-
-[Margin]
-8
-[/Margin]
-
-## Sphæra,est transitus arcus circunferētiæ dimidij circuli quoties sumpto uel supremo semicirculo lineáque diametri fixa donec ad locum suum redeat,arcus ipse circunducitur.
-
-Super quamlibet lineam semicirculo descripto,si linea illa fixa semicirculus tota reuolutione circunducatur,corpus quod describitur,sphæra nominatur.Cuius centrū,constat esse centrum semicirculi circunducti.
-
-[Margin]
-9
-[/Margin]
-
-## Pyramis laterata,est figura corporea quam continent superficies à quarum una reliquæ sunt ad unum oppositum punctum sursum erectæ.
-
-In omni laterata pyramide cunctæ superficies ipsam ambiētes,ab ipsius basi ad unū punctum subleuantur,qui conus pyramidis dicitur:suntque oēs hæ laterales superficies,triangulæ,basis uero frequenter non est triangula.
-
-[Margin]
-10
-[/Margin]
-
-## Pyramis rotunda,est figura solida,estq̃ transitus trianguli rectanguli alterutro suorum laterum rectum angulum continentium fixo,donec usq̃ ad locum unde moueri cœpit redeat triangulo ipso circūducto.Si igitur latus fixum lateri circunducto fuerit æquale,erit figura rectangula.Si autem longius,acutiangula. Si uero breuius,obtusiangula erit.Axis autem ipsius figuræ,est latus fixū.Basisq̃ sua,circulus.Dicitur autē figura hæc pyramis columnæ rotundæ.
-
-Sit trigonus a b c,rectum angulum habēs qui sit b,figaturq̃ alterū duorū laterum ambiētiū rectū angulū b,sitq̃ latus quod figitur,a b,quo fixo,circunducatur trigonus quousq̃ ad locū unde moueri cœperit redeat.Corporea ergo figura quæ huius trigoni motu describitur,rotunda pyramis appellatur.Cuius tres sunt differentiæ.Alia enim est rectangula,alia acutiangula,tertia obtusiangula.Et prima quidem est,quando latus a b lateri b c fuerit æquale.Esto enim ut linea b c,quum rotatu trigoni peruenerit ad sitū lineæ b d,ita q̃ punctus c cadat super punctū d,fiat linea una,hoc est ut ipsa tūc cōiūgatur situi à quo
-
-[Diagram: a large triangle with apex a and base lettered c, b, d (b the middle of the base); the vertical axis a b is drawn, and lines from c and d meet two further points marked on the axis]
-
-<!-- Catchword: mo- -->
+<!-- Catchword: Similes -->

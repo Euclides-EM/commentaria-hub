@@ -1,21 +1,23 @@
-<!-- Running title: LIBER QVARTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 101 -->
+<!-- Page number: 102 -->
 
-CAMPANVS. Sit datus circulus a b c: uolo sibi inscribere quindecagonum æquilaterum & æquiangulum, deinde etiam circunscribere, atq̃ intra talem quindecagonū propositum, circulum describere. Non proponit autē circa talem circulum quindecagonū, circulum describere: quia hoc satis dat intelligere per alia quæ proponit. In dato circulo iuxta doctrinam secundæ huius, protraho latus trianguli æquilateri, quod sit a c, & iuxta doctrinam 11 huius latus pentagoni æquilateri atq̃ æquianguli, quod sit a b. Et quia arcus a c, est totius circunferentiæ tertia, cuius arcus a b est quinta: erit superfluū intèr eos quod est arcus b c, duæ tertiæ arcus a b, uel duæ quintæ arcus a c, siue duæ quintædecimæ totius circunferētiæ. Nam in omni toto excedit tertia quintā in duabus tertijs ipsius quintæ, uel in duabus quintis ipsius tertiæ, siue in duabus quintisdecimis totius.
+*culi, erit trium: reliqua igitur β γ, duorum æqualiū. Secetur (per 30 tertij) β γ, bifariam in ε: utraq̃ igitur ipsarum β ε, & ε γ, circunferentiarum, quintumdecimum erit ipsius α β γ δ, circuli. Si igitur coniungentes rectas lineas β ε, & ε γ, ipsis æquales in cōtinuum rectas lineas (per 1 quarti) coaptemus in circulum α β γ δ: erit in eo descriptum quintidecagonum æquilaterum & æquiangulum, quod facere oportebat. Similiter autem ut in pentagono si per circuli diuisionem, tangentes circulum ducemus: describetur circa circulum, quintidecagonum æquilaterum & æquiangulum: & per ostensionem similiter in pentagonis, & in dato quintidecagono æquilatero & æquiangulo, circulum describemus & circunscribemus.*
 
-[Diagram: circle with inscribed triangle side a c (a at top, c at right), pentagon side a b (b at bottom left), interior point e with lines drawn to a, b, d, c; d on the arc between b and c]
+[Diagram: circle with inscribed equilateral triangle (side α γ) and the side α β of the pentagon; point ε on the arc β γ; the circle divided for the quindecagon]
 
-Hoc enim patet in quinta & tertia primi numeri habentis quintam & tertiam qui est 15: eius enim tertia quæ est 5, excedit eius quintam quæ est 3, in duabus unitatibus quæ sunt duæ tertiæ ipsius ternarij qui est quinta, uel duæ quintæ ipsius quinarij qui est tertia, siue duæ quintædecimæ ipsius 15 quod est totū. Diuiso igitur arcu b c per æqualia in d, patet utrunq̃ duorum arcuū c d, & d b, esse tertiā arcus a b, uel quintam arcus a c, siue quintamdecimam totius circunferentiæ. Subtensis igitur eis, chordis c d, & d b, coaptatisq̃ cōtinue intra datum circulum sibi æqualibus per primam huius, complebitur figura proposita. Cætera uero duo quæ proponit cū tertio quod dat intelligere, uidelicet quindecagonū circulo circunscribere, ac circulum quindecagono inscribere, ac etiam circunscribere: ex 12, 13 & 14 huius plene intellectis facile perficies.
+QVARTI LIBRI FINIS.
 
-CAMPANI additio. Et nota quod quamcunq̃ figuram æquilateram circulo scimus inscribere: duplo plurium laterum circulo scimus inscribere & circunscribere, & ipsi circulum. Diuisis enim arcubus quibus latera eius quæ scitur inscribi subtenduntur, per æqualia, & à punctis medijs ad extremitates laterū ipsius figuræ ductis lineis, fiet intra circulū figura duplo plurium laterū quæ erit æquilatera per 28 tertij: ergo & æquiangula. Hoc em demonstratū est, supra 15 huius, q̃ omnis figura æquilatera circulo inscripta est etiam æquiangula. Et quia hanc circulo scimus inscribere: sciemus cætera tria per 12, 13 14 huius. Quia igitur scimus inscribere triangulum æquilaterum: sciemus per hoc & hexagonum, & per hexagonum, dodecagonū, ac per dodecagonum figuram 24 laterum, & sic in infinitum duplando. Et licet per triangulū possit, ut diximus, inscribi hexagonus: posuit tamen huius propriam demonstrationem ex qua sequitur potissimum perutile. Et similiter quia scimus & inscribere quadratum sciemus per hoc inscribere omnem figuram cuius laterum numerus est pariter par: per pentagonum quoq̃ sciemus decagonum & figuram 20 laterum: sicq̃ continue duplando. Idem quoq̃ intellige de quindecagono, per ipsum enim scientur figuræ 30 & 60, & omni continue duplatarum laterum. Cæterarum autem figurarum de quibus ista 16 docet, uel quæ per has non habentur: difficilis est scientia & parum utilis, ut sunt heptagona, ennagona, hendecagona. Quod si sciremus triangulum duum æqualium laterum designare, cuius uterq̃ angulorum ad basin triplus esset ad reliquum: sciremus heptagonum, ut supra pentagonum circulo inscribere: quod si uterq̃ quadruplus esset ad reliquum, sciremus nonagonum: & si quintuplus, hendecagonum. Idemq̃ in cæteris figuris imparium laterum, posito utroq̃ angulorum ad basin multiplici ad reliquum per eum numerum qui est medietas maximi paris sub impari numero laterum ipsius figuræ contenti.
+# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVINTVS.
 
-## Eucli.ex Zamb. Problema 16. Propositio 16.
+## Euclides ex Campano. Diffinitiones.
 
-16 In dato circulo, quintidecagonum æquilaterum & æquiangulum describere.
+1 {dropcap:P|lines=?|style=decorated|decoration="putti"}ars, est quantitas quantitatis minor maioris, cum minor maiorem numerat.
 
-THEON ex Zamberto. *Sit datus circulus α β γ δ: oportet iam in α β γ δ circulo, quintidecagonū æquilaterum & æquiangulum describere. Describatur in circulo α β γ δ, trianguli æquilateri latus α γ, pentagoni uero æquilateri latus α β in arcu α γ. Qualium igitur est circulus α β γ δ, æqualium segmentorum quindecim: talium quidem circunferentia α β γ, tertium existens ipsius circuli: erit quinq̃. Circunferentia autem α β, existens quintum cir*
+CAMPANVS. Pars, quandoq̃ sumitur proprie: & hæc est quæ aliquoties sumpta, suum totum præcise constituit: sine diminutione uel augmento: & dicitur suum totum numerare per illum numerū, secundum quem sumitur ad ipsius totius constitutionem: talem autem partem quam multiplicatiuam dicimus, hic diffinit. Quandoq̃ sumitur communiter: & hæc est quælibet quātitas minor, quæ quotiescunq̃ sumpta, suo toto minus aut maius constituit, quam aggregatiuam dicimus: eo quod cum alia quantitate diuersa totum suum constituat, per se autem quotiescunq̃ sumpta fuerit, non producat.
 
-<!-- Signature: i 3 -->
+## 2 Multiplex, est maior minoris quando eam minor metitur.
 
-<!-- Catchword: culi -->
+CAMPANVS. Pars, relatiue dicitur ad totum, & in istis duobus extremis, consistit eorum adinuicem relatio: & ideo diffinito minori extremo: diffinit hic maius: uocat autem
+
+<!-- Catchword: autem -->

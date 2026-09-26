@@ -1,25 +1,33 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Page number: 312 -->
+<!-- Page number: 313 -->
 
-Exponatur rationalis δ ι, & eis quidem quæ ex α β, β γ, æquum ad ipsam δ ι comparetur (per 44 primi) δ ε, latitudinem efficiens δ η, ei autem quod bis sub α β, β γ, æquum auferatur δ θ, latitudinem efficiens δ ζ, reliquū igitur ζ ε, æquum est ei quod ex α γ, quare α γ potest ipsum ζ ε. Et quoniam compositum ex ipsarū α β, β γ, quadratis medium est, & ipsi δ ε est æquale, ipsum igitur δ ε medium est. Et ad ipsam δ ι rationalem comparatur, latitudinem efficiens δ η, rationalis igitur est (per 22 decimi) δ η, & ipsi δ ι longitudine incommensurabilis. Rursus quoniam quod bis sub α β, β γ, medium est, & ipsi δ θ æquale, igitur δ θ medium est. Et ad ipsam δ ι rationalem comparatur, latitudinem efficiens δ ζ, rationalis igitur est δ ζ, & ipsi δ ι longitudine incommensurabilis. Et quoniam incommensurabilia sunt quæ ex α β, β γ, ei quod bis sub α β, β γ, incommensurabile igitur est & δ ε ipsi δ θ. Sicut autem (per primā sexti) δ ε ad δ θ, sic est & δ η ad δ ζ. Incommensurabilis igitur est η δ ipsi δ ζ, & utræq́; sunt rationales. Ipsæ igitur η δ, δ ζ, rationales sunt potentia tantum commensurabiles. Apotome igitur est ζ η, rationalis autem est ζ θ. Quod uero sub rationali & apotome comprehensum rectangulum, irrationale est & illud potens irrationalis est (per 73 decimi.) Ipsum autem ζ ε, potest ipsa γ α. Igitur ipsa γ α irrationalis est, appellatur sane cum medio medium totum efficiens. Quod erat ostendendū.
+nisi irrationali superficie per 12. Hoc autem fit manifestius in figura, sic. Sit enim superficies e f, adiūcta ad lineā e g, æqualis ambobus quadratis duarum superficierum a b & b c pariter acceptis, at g h sit æqualis duplo superficiei unius in alteram. Eritq́; f h, æqualis quadrato lineæ a c ex 7 secūdi. Similiter quoque sit k l, adiuncta ad lineā k m, æqualis duobus quadratis duarū linearum a d & d c pariter acceptis, & m n, sit æqualis duplo superficiei unius in alteram, eritq́; ex 7 secundi n l æqualis quadrato lineæ a c ideoq́; etiam æqualis h f. Est itaq̀ differētia e f ad g h, sicut k l ad m n. Quare per antecedens præmissum, erit permutatim differentia e f ad k l (& ipsa sit p) sicut g h ad m n. Et quia utraque duarum superficierum e f & k l est rationalis, utraque uero duarum superficierum g h & m n medialis, sequitur impossibile, uidelicet, superficiem p esse rationalem & irrationalem.
 
-[Diagram: line α γ β above; below, a rectangle divided by a vertical line into two, top corners δ, ζ, η, bottom corners ι, θ, ε]
+[Diagram: line a c d b above; two rectangles: the left one with corners e (bottom left) and g (bottom right), f at top right, a horizontal division marked b on the left side and the region p in the lower part; the right one with l at top right, a horizontal division marked n on the left side, and corners k (bottom left) and m (bottom right)]
 
-CAMPANVS Est autem præmittendum hic antecedens necessarium ad demonstrationes sequentium.
+## Eucli. ex Zamb. Theorema 61 Propositio 79
 
-## Si fuerint quatuor quantitates quarum differentia primæ ad secundam sit sicut tertiæ ad quartam, erit permutatim differentia primæ ad tertiam sicut secundæ ad quartam.
+## 79 Apotome una tantum congruit recta linea rationalis, potentia tantū toti subsistens commensurabilis.
 
-Intelligendū est hoc de quātitatibus eodem modo relatis, ut cum prima maior fuerit secunda, sit quoq̀ tertia maior quarta, cum uero minor, & minor. Exempli gratia sit differentia a ad b, sicut c ad d, dico quod erit a ad c sic b ad d, est enim (per hanc cōmunem animi conceptionem differentia extremorū, composita est ex differentijs ipsorū ad media) differentia a, ad c, composita est ex ea quæ est a ad b, & ea quæ est b ad c. At ea quæ est b ad d, per eandem conceptionem componitur ex ea quæ est b ad c, & ea quæ est c ad d. Et quia ex hypothesi differentia a ad b, sicut c ad d, ea uero quæ est b ad c est cōmunis, sequitur per communem scientiam ut sit a ad c, sicut b ad d. Quod est propositum.
+THEON ex Zāb. Sit apotome α β, cōgruēs aūt ei sit β γ, ipsæ igitur α γ, γ β, potentia tantū sunt cōmensurabiles. Dico quod ipsi α β, altera non congruit rationalis potētia tantū subsistens toti cōmensurabilis. Si enim possibile, cōgruat, sitq́; β δ. Ipsæ igitur α δ, δ β, potētia tātū sunt cōmēsurabiles. Et quoniā (per 7 secūdi) quo excedūt ea quæ ex α δ, δ β, id quod bis sub α δ, δ β, hoc excedūt & quæ ex α γ, γ β, id quod bis sub α γ, γ β, (eodē nāq̀; id est quod ex α β, utraq̀; excedūt) uicissim igitur (per 16 quinti) quo excedunt quæ ex α δ, δ β, ea quæ ex α γ, γ β eo excedit & id quod bis sub α δ, δ β, id quod bis sub α γ, γ β. Sed quæ ex α β, β δ{printer-error-correction:α δ, δ β}, ea quæ ex α γ, γ β, excedūt ratiōali, utraq̀; nāq̀; rationalia sunt, & quod bis igitur sub α δ, δ β, id quod bis sub α γ, γ β, ratiōali excedit, quod est impossibile. Vtraq̀; nāq̀; media sunt, & (per 22 decimi) medium nō excedit rationali. Ipsi igitur α β, altera non congruit ratiōalis potentia tantū cōmensurabilis existēs toti. Vna igitur tantū ipsi apotomæ cōgruit, rationalis potentia tantū toti subsistens cōmensurabilis. Quod erat ostendendū.
 
-[Diagram: four horizontal lines labeled a, b, c, d]
+[Diagram: line with points α, β, γ, δ]
 
-## Eucli. ex Camp. Propositio 74
+## Eucli. ex Camp. Propositio 75
 
-## 74 {dropcap:N|lines=?|style=decorated|decoration="woodcut"}Vlla linea nisi una tantū residuo coniungi potest, ut sint ambæ sub termino earum quæ erant ante separationem.
+## 75 {dropcap:N|lines=?|style=decorated|decoration="woodcut"}Vlla linea nisi una tantum residuo mediali primo coniungi potest, ut sint ambæ sub termino earum quæ erant ante separationem.
 
-CAMPANVS. Sit linea a c residuū, quæ fuerit reliqua, abscisa b c ex a b, eruntq́; a b & b c, rationales tantum potentia communicantes ex 68. Dico quod ipsa a c, nulli alij lineæ quàm b c poterit componi sub hac diffinitione, neq̀ maiori b c neq̀ minori b c. Si autem potest, componatur cum c d, indifferenter maiori aut minori quàm b c, eruntq́; ob hoc ambæ lineæ a d & d c, rationales in potentia tantum communicantes. Quare ergo ex 7 secundi quadrata ambarum linearum a b & b c pariter accepta excedunt duplum superficiei unius earum in alteram in quadrato a c, similiter quoq̀ quadrata duarum linearū a d & d c pariter accepta, excedunt duplum superficiei unius ipsarum in alteram in quadrato eiusdem a c, sequitur ex præmisso antecedente ut differentia duorum quadratorū duarum linearū a b & b c pariter acceptorū ad duo quadrata duarum linearum a d & c d pariter accepta, sit sicut differentia dupli superficiei a b in b c ad duplum superficiei a d in d c. Cum autē sint duo quadrata utriusq̀ sectionis pariter accepta rationale ex hypothesi, duplum uero superficiei unius in alteram portionum utriusq̀ sectionis mediale per hypothesin, & 19, erit una & eadem differentia duarum superficierū rationalium & duarum medialium, hoc autem est impossibile, rationales enim superficies non differunt nisi in rationali superficie, ut patet per diffinitionem rationalis superficiei & per 5, medialis autem, non differt a mediali
+CAMPANVS Hæc quoque probabis simili modo. Sint enim in utraq̀ sectione ambo quadrata pariter accepta, mediale, duplū uero superficiei unius in alterā ratiōale. Et quia ut prius eadē differentia quadratorū unius sectionis ad quadrata altius{printer-error-correction:alterius}, quæ est dupli superficiei unius ad duplum superficiei alterius, erit una & eadē superficies differentia duarū medialium & duarum rationalium. Quod est impossibile.
 
-[Diagram: line a b c d]
+## Eucli. ex Zamb. Theorema 62 Propositio 80
 
-<!-- Catchword: nisi -->
+## 80 Mediæ apotomæ primæ una tantum congruit recta linea media, potentia tantum toti subsistens commensurabilis, & cum tota rationale comprehendens.
+
+THEON ex Zāb. Esto namq̀; media apotome prima α β, & ipsi α β, cōgruat β γ, ipsæ igitur α γ, γ β, mediæ sunt potentia tantū cōmensurabiles, rōnale cōprehēdētes duo quod sub α γ, γ β. Dico quod ipsi α β, altera nō congruit media, toti potētia tantū subsistēs cōmēsurabilis, & cū tota ratiōale cōprehendēs. Si enim possibile, cōgruat & δ β, ipsæ igitur α δ, δ β, mediæ sunt potētia tantū cōmensurabiles, ratiōale cōprehēdentes quod sub α δ, δ β. Et quoniā (per 7 secūdi) quo excedūt ea quæ ex α δ, δ β, id quod bis sub α δ, δ β, hoc excedūt & que ex α γ, γ β, id quod bis sub α γ, γ β, (eodē etenim rursus excedūt, id est quod ex α β) uicissim igitur (per 16 quinti) quo excedūt quæ ex α δ, δ β, ea quæ ex α γ, γ β, eo excedit & id quod bis sub α δ, δ β, id quod bis sub α γ, γ β. At quod bis sub α δ, δ β, id quod bis sub α γ, γ β, excedit rationali, utraque nēpe rationalia. Et que ex α δ, δ β, igitur quadrata, quæ ex α γ, γ β, excedunt rationali. Quod est impossibile. Media etenim utraq̀; & (per 26 decimi,) mediū sane mediū nō excedit rationali. Mediæ igitur apotomæ primæ una cōgruit recta linea media, potentia tantū toti subsistēs cōmensurabilis, & cum tota rationale cōprehendens. Quod oportuit demonstrare.
+
+[Diagram: line with points α, β, γ, δ]
+
+<!-- Signature: D -->
+
+<!-- Catchword: Eucli. -->

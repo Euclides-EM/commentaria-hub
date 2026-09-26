@@ -1,59 +1,39 @@
-<!-- Running title: LIBER OCTAVVS -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 211 -->
+<!-- Page number: 212 -->
 
-## Eucli.ex Camp. Propositio 13
+numeret, quadratus is quadratum illum non numerare ex necessitate conuincitur.
 
-[Margin]
-13
-[/Margin]
+CAMPANVS. Hæc 15 proponit negationes conuerti, quæ affirmationibus quas 13 huius cōuerti proposuit opponūtur. Vt si sint duo numeri quadrati a & b, quorū latera c & d, si a nō numerat b, c quoq̃ nō numerabit d, econuerso etiam si c non numerat d, nec a, b. Sit enim primo ut a non numereret b, si itaque c numerat d, per secundam partem 13 huius & a numerabit b, quod est cōtrarium positioni, sicque patet primum. Secundum quoque sic: sit ut c non numeret d, itaque si a numeret b, per primā partem 13 necesse est ut c numeret d, necesse est igitur ut c numeret ipsum, cum numerat ipsum, quod est impossibile.
 
-{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I quis quadratus numerus aliū quadratū numeret, latus quoq̃ suum, latus illius numerare probatur. Si uero latus suū latus illius numeret, quadratus numerat quadratū.
+[Diagram: dotted number lines a, b and c, d]
 
-CAMPANVS. Sint duo numeri a & b quadrati, lateraq̃ eorū c & d, dico quod si a numerat b, c quoq̃ numerabit d, & econuerso. Cōstat enim quod ex c in se fit a, ex d quoq̃ in se, b fiat igitur. e ex c in d, eruntq̃ per 18 & 19 septimi, a.e,b, cōtinue proportionales in proportione c ad d. Si igitur a numerat b, idem ipse per 7 huius, numerabit e, quare & c,d, quod est primum. Cōuersa sic patet. si c numerat d, a numerabit e, propter id quod proportio a ad e sicut c ad d, & si numerat e, ipse numerabit b, propter hoc quod sunt continue proportionales.
+CAMPANI annotatio. Quemadmodū autem necesse est conuerti negationes oppositas affirmationibus quas 13 demonstrauit conuerti, sic quoque necesse est eas negationes quæ opponuntur illis affirmationibus quas præmissa conuerti demonstrauit, cōuertantur. Vnde si cubus nō numerat cubū: nec latus eius numerabit latus illius, econuerso quoque si latus unius non numerat latus alterius, nec ipse cubus numerabit alterum cubum, demonstratur autem hoc per præmissam à destructione consequentis, sicut quod propositum est per 13, ideoque hoc auctor non proposuit, sed per id quod propositum est, ipsum dedit intelligi.
 
-[Diagram: numbers as rows of dots, labelled a (4 dots), e (6 dots), b (9 dots), c (2 dots), d (3 dots)]
+## Hæ sequentes ex Zamberto duæ propositiones præcedenti ex Campano cum annotatione eiusdem respondent.
 
-## Eucli.ex Zamb. Theorema 12 Propositio 14
+## Eucli. ex Zamb. Theorema 14 Propositio 16 Conuersa 14
 
-[Margin]
-14
-[/Margin]
+**16** Si quadratus numerus quadratum numerum mensus non fuerit, neq̃ latus latus metietur. Et si latus latus mensum non fuerit, neque quadratus quadratum metietur,
 
-Si quadratus numerus quadratum numerū mensus fuerit, & latus latus metietur. Et si latus latus metiatur, & quadratus quadratum metietur.
+THEON ex Zamberto. Sint quadrati numeri α, β: eorum autem latera sint γ, δ. At α, ipsum β non metiatur. Dico quod neque γ, ipsum δ, metietur. Si autem γ ipsum δ, metitur, metitur (per 14 octaui,) & α ipsum β: non metitur autem (per hypothesin) β, ipsum β, neque igitur γ, ipsum δ metietur. Non metiatur autem rursus γ, ipsum δ. Dico quod neque α, ipsum β, metietur. Si autem α, ipsum β metitur, & γ, (per 14 octaui) ipsum δ. Nō metitur autē γ, ipsum δ, (per hypothesin,) neque α igitur, ipsum β metietur, quod erat demonstrandum.
 
-THEON ex Zamb. Sint quadrati nrmeri α.β, latera uero ipsorū, sint γ,δ, at α ipsum β metiatur. Dico quod & γ ipsum δ metictur. Igitur γ, ipsum δ multiplicans, efficiet ipsum ε. Igitur (per 17 & 18 septimi, & 11 quinti, ac 13 octaui.) ipsi α,ε,β, continue proportionales sunt in ipsius γ ad δ ratione. Et quoniam ipsi α,ε,β,, continue sunt proportionales, & metitur α ipsum β, metitur igitur (per 7 octaui,) & α ipsum γ. Estq̃ sicut α ad ε, sic γ ad δ, metitur igitur & γ ipsum δ. Sed iam metitur & γ ipsum δ. Dico quod & α ipsum β metitur, eisdem namque dispositis similiter ostendemus quod ipsi α,ε,β. continue sunt proportionales in ipsius γ ad δ, ratione, & quoniā est sicut γ ad δ, sic est α ad ε, metitur autem γ ipsum δ, metitur igitur & α ipsum ε, & sunt ipsi α,ε,β, continue proportionales, metitur igitur & α ipsum β. Si quadratas igitur, & quæ sequuntur reliqua quod oportebat demonstrare.
+[Diagram: dotted number lines α, β, γ, δ]
 
-[Diagram: numbers as rows of dots, labelled α (9 dots), ε (12 dots), β (16 dots), γ (3 dots), δ (4 dots)]
+## Eucli. ex Zamb. Theorema 15 Propositio 17 Conuersa 15
 
-## Eucli.ex Camp. Propositio 14
+**17** Si cubus numerus cubum numerum non metiatur, neque latus latus metietur. Et si latus latus non metiatur, neque cubus cubum metietur.
 
-[Margin]
-14
-[/Margin]
+THEON ex Zamb. Cubus enim numerus α, cubum numerum β non metiatur, & ipsius quidem α, latus esto γ, ipsius uero β, sit δ. Dico quod & γ, ipsum δ non metietur, Si enim γ ipsum δ metitur, & α, ipsum β metietur, (per 15 octaui,) non metitur autem α, ipsum β, (per hypothesin,) neque igitur γ, ipsum δ metietur. Sed iam non metiatur γ ipsum δ. Dico quod & α ipsum β non metietur, si enim α ipsum β, metitur, & γ, ipsum δ, metietur (per 15 octaui,) non metitur autem γ, ipsum δ, (per hypothesin,) neque α igitur ipsum β, metietur: quod oportuit demonstrasse.
 
-{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I cubus aliū cubū numeret, latus quoq̃ suū, latus alterius numerabit. Si uero latus suū, latus alterius nūeret, cubus nūerabit cubū.
+[Diagram: dotted number lines α, β, γ, δ]
 
-CAMPANVS Sint duo nūeri a & cubi, lateraq̃ eorū c & d, dico quod si a numerat b, c quoq̃ nūerabit d, & ecōuerso ducatur enim b in se & fiat c, d quoq̃ in se, & fiat f, cōstat igitur q̃ ex c in e fit a, & ex d in g, b, fiat itaq̃ f, ex c in d erūtq̃ per 17 & 19 septimi, e.f,g, cōtinue ptoportionales in proportione c ad d, sed & h, & k, proueniant ex c in f & g, per easdē igitur erūt a,h,k,b: continue quoq̃ proportionales in eadem proportione, itaque si a numerat b. idem per 7 huius numerabit h, quare & c,d, est enim c ad d, sicut a ad h, constat igitur prima pars. Conuersa patet, sicut conuersa prioris. Nā si e numerat d, a quoque numerabit h, quem si numerat, necesse est ut numeret b.
+## Eucli. ex Camp. Propositio 16
 
-## Eucli.ex Zamb. Theorema 13 Propositio 15
+**16** {dropcap:S|lines=?|style=decorated|decoration="two figures"}I duo numeri superficiales fuerint similes, necesse est tertium numerum secundum proportionalitatem continuam eis interesse. Eritq̃ proportio unius numeri ad alterum sibi similem, uelut unius lateris sui ad latus alterius ipsum respiciens proportio duplicata.
 
-[Margin]
-15
-[/Margin]
+CAMPANVS Sint duo numeri a & b, superficiales & similes, dico quod inter ipsos cadet unus numerus in continua proportione, latera enim a sint c & d, b uero latera, sint e & f, erūt que ex conuersione diffinitionis numerorū similiū, c ad e, sicut d ad f, constat autem quod ex c in d fiat a, & ex e in f, b, fiat itaque
 
-Si cubus numerus cubum numerum mēsus fuerit, & latus latus metietur, Et si latus latus mensum fuerit, & cubus cubum metietur:
+[Diagram: dotted number lines a, g, b, c, d, e, f]
 
-THEON ex Zamb. Cubus enim numerus α, cubū β metiatur, & ipsius quidē α, latus sit γ, ipsius autē β sit δ. Dico quod γ ipsum δ metitur. Igitur γ, seipsum multiplicās ipsum efficiat ε, & insuper γ, ipsum δ multiplicans ipsum efficiat ζ. Ad δ seipsum multiplicās ipsum efficiat η Vterq̃ aūt ipsorū γ,δ, ipsum ζ multiplicās, utrūq̃ ipsorū θ,κ, faciat. Manifestū iam est (per 17 & 18 septimi & 12 octaui,) quod ipsi ε,ζ,η,& α,θ,κ,β, cōtinue sunt proportionales, in ipsius γ ad δ, ratione. Et quoniā ipsi α,θ,κ,β, cōtinue sunt proportiōales, & metitur α, ipsum β, metitur igitur (per 7 octaui) & α, ipsum θ, & est sicut α ad θ, sic est γ ad δ. Metitur igitur & γ ipsum δ. Sed iā metiatur γ, ipsum δ. Dico quod & α, ipsū β metitur. Eisdē nāq̃ dispositis: similiter ostēdemus quod ipsi α,θ,κ.β. cōtinue proportiōales sunt in ipsius γ ad δ, ratione. quoniā enim γ ipsum δ, metitur, estq̃ sicut γ ad δ, sic α ad θ, & α igitur ipsum θ metitur. Quare & α ipsum β metitur. Si cubus igitur nūerus & reliqua quod oportuit demōstraße.
-
-[Diagram: numbers as rows of dots, labelled α, θ, κ, β, γ, δ, ε, ζ, η]
-
-## Eucl.ex Cāp. Propositio 15
-
-[Margin]
-15
-[/Margin]
-
-{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I numerus quadratus quēdam alium quadratū nō numeret, nec latus suū, latus illius numerabit. Si uero latus suū, latus illius non
-
-<!-- Signature: S 4 -->
+<!-- Catchword: itaque -->

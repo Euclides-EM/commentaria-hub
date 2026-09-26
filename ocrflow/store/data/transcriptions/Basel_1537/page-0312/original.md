@@ -1,51 +1,31 @@
-<!-- Running title: LIBER DECIMVS. -->
+<!-- Page number: 302 -->
 
-<!-- Page number: 301 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-prædictæ lineæ sunt incōmensurabiles in potentia, erit superficies e l incōmensurabilis superficiei m l, ideoq̃ & linea f l, lineæ l n : potentior igitur est per primam partem 14 linea f n linea n g, in quadrato lineæ sibi incommensurabilis. Per diffinitionem itaq̃ binomij quinti, conclude propositum.
+bilis est, ac id propterea δ μ ipsa μ η maius potest eo quod ex sibi longitudine cōmensurabili{printer-error-correction:incōmensurabili}, & neutra ipsarum δ μ, μ η, cōmensurabilis est expositæ rationali δ ε lōgitudine. Ipsa igitur δ η (per secundas diffinitiones) ex binis est sexta nominibus, quod erat ostendendū.
 
-## Eucli.ex Zamb. Theorema 46 Propositio 64
-
-[Margin]
-64
-[/Margin]
-
-## Quod ex ea quæ rationale mediumq̃ potest ad rationalem comparatum, latitudinem efficit ex binis quintam nominibus.
-
-THEON ex Zamber. Sit rationale mediumq̃ potens α β, diuisa in rectas lineas in γ, ut sit maior α γ, exponaturq̃ rationalis δ ε, & ei quod ex α β, æquum ad δ ε comparetur δ ζ (per 44 primi) latitudinem efficiens δ η. Dico quod δ η ex binis est quinta nominibus. Construantur eadem quæ in præcedentibus. Et quoniam α β est rationale mediumq̃ potens diuisa in γ, ipsæ igitur α γ, γ β, potentia sunt incōmensurabiles efficientes conflatum ex earum quadratis medium, quod uero sub ipsis rationale. Quoniā igitur conflatum ex ijs quæ ex α γ, γ β, medium est, medium igitur est δ λ. Quare rationalis est δ μ, & ipsi δ ε longitudine incommensurabilis. Rursus quoniam rationale est quod bis sub α β, β γ{printer-error-correction:α γ, γ β}, hoc est μ ζ, rationalis igitur est μ η, & ipsi δ ε longitudine commensurabilis. Incommensurabilis igitur est δ μ, ipsi μ η. Ipsæ igitur δ μ, μ η, rationales sunt potentia tantum commensurabiles, ex binis igitur nominibus est δ η. Dico quod & quinta. Similiter nanq̃ ostendetur quòd quod sub δ κ, κ μ, æquū est ei quod ex ν η, & quod δ κ ipsi κ μ longitudine incōmensurabilis est, ipsa igitur δ μ, ipsa μ η maius potest eo quod ex sibi incōmensurabili, & ipsæ δ μ, μ η, rationales sunt potentia tantum cōmensurabiles, & minor μ η, commensurabilis est ipsi δ ε longitudine. Ipsa igitur δ μ{printer-error-correction:δ η}, ex binis est quinta nominibus. Quod erat ostendendum.
-
-[Diagram: horizontal line with points α (left), γ (middle), β (right)]
-
-[Diagram: rectangle on base ε θ λ ξ ζ with top line δ κ μ ν η (δ at left, with tick marks on the left side); vertical lines join κ–θ, μ–λ, ν–ξ; taller rectangles are erected above the segments δ κ and μ ν]
-
-## Eucli. ex Camp. Propositio 59
+## Eucli.ex Camp. Propositio 60
 
 [Margin]
-59
+60
 [/Margin]
 
-## {dropcap:Q|lines=?|style=decorated|decoration="woodcut"}Voties adiuncta fuerit lineæ rationali superficies rectangula æqualis quadrato lineæ potentis in duo medialia, eiusdem superficiei latus secundū, binomium sextum esse conuincitur.
+## {dropcap:O|lines=?|style=decorated|decoration="woodcut"}Mnis linea cuilibet binomiorum cōmunicans, sub eadem specie binomium esse probatur.
 
-CAMPANVS. In hac 59 sit linea a b linea potens supra duo medialia, quæ autem præter hæc sunt, sicut supra, maneant, & erit tunc linea f g binomium sextum, quod ignorare non poteris, si præmissorū eiusq̃ quod 55 proponit, immemor non fueris, & sic patet in hac, nostra intentio.
+CAMPANVS. Sit linea a binomium cuiusuis speciei, sitq̃ linea b ei cōmunicans in longitudine. Dico lineam b esse binomium eiusdem speciei cuius a, sint enim binomiales portiones a, c & d, eruntq̃ ambæ rationales in potentia tātum communicantes per 30. linea uero b diuidatur per 12 sexti secūdū proportionem c ad d, in e & f, eritq̃ per coniunctam & euersam & permutātam proportionalitatem c ad e, & d ad f, sicut a ad b. Cum sint igitur a & b communicantes, erunt etiam per primam partem 10 c & e, itemq̃ d & f, cōmunicantes. Si igitur fufrit{printer-error-correction:fuerit} c rationalis in potentia tantū, erit & e, si autē in lōgitudine, & e. Eodemq̃ modo si d est rationalis in potentia tantum uel etiam in lōgitudine, erit quoq̃ & f similiter, & ex 12 si potentior est c, d, in quadrato lineæ sibi cōmensurabilis in lōgitudine, uel si forte incōmensurabilis, erit & e potentior f in quadrato lineæ sibi cōmensurabilis uel etiam incōmensurabilis, necesse est ex diffinitionibus sex specierum binomiorū, ut eiusdem speciei binomij sint a & b. Si autem linea d cōmunicet binomio a in potentia tantum erit etiam & sic linea b. Binomiū autem eiusdem esse speciei non est necessarium, immo impossibile est ut ambæ simul cadant sub prima specie binomiorū uel sub secūda, quarta uel quinta, sed necesse est ut ambo cadāt sub primis tribus aut ambo sub tribus postremis, unum enim eorum esse in aliqua ex tribus primis speciebus, & aliud in aliqua ex tribus postremis, est impossibile. Cum enim a cōmunicet cum b in potentia tantum c quoq̃ cum e, & d cum f communicabit tātum in potentia ex 10. Si igitur alterutra duarum linearum c & d fuerit rationalis in longitudine, non erit sua compar ex lineis e & f rationalis in lōgitudine. Non est itaq̃ possibile ut a & b cadant simul sub aliqua ex illis speciebus binomiorū, in quibus altera duarum portionum binomij est rationalis in longitudine, hæ autem species sunt, prima & secūda, quarta & quinta. At uero quia per 12 duæ lineæ c & e simul potentiores sunt duabus lineis d & f in quadratis duarum linearum sibi in longitudine communicantium aut incommunicantium, necesse est ut ambo binomia a & b simul cadant sub primis tribus speciebus binomiorum aut simul sub tribus postremis ex diffinitione ipsarum specierum. Lineam antem{printer-error-correction:autem} b quid dubitas esse binomium? cum sint enim c & e communicantes in potentia tantum, similiter quoq̃ d & f, sint autem c & d rationales in potentia, conuincitur e & f esse rationales in potentia tantum, quæ quia non communicant in longitudine sicut nec eis proportionales c & d, ipsæ componunt indubitanter binomium per 30 huius.
 
-[Diagram: horizontal line with points a (left), c (middle), b (right)]
+[Diagram: long horizontal line with c at left end and d at right end, labelled a above; below it a shorter horizontal line with e at left end and f at right end, labelled b above]
 
-[Diagram: rectangle divided by three horizontal lines; labelled down the right side g, q, n, l (g at top right corner) with f at the bottom right corner; on the left side p opposite q, m opposite l, e at the bottom left corner]
-
-## Eucli.ex Zamb. Theorema 47 Propositio 65
+## Eucli.ex Zamb. Theorema 6 Propositio 29{printer-error-correction:Theorema 48 Propositio 66}
 
 [Margin]
-65
+66
 [/Margin]
 
-## Quod ex bina media potente ad rationalem comparatum latitudinem efficit ex binis nominibus sextam.
+## Ei quæ ex binis nominibus longitudine commensurabilis, ipsa quoq̃ ex binis nominibus est ac in ordine eadem.
 
-THEON ex Zamber. Esto (per 47 decimi) bina potens media α β. diuisa in γ, rationalis autē esto δ ε, & ad ipsam rationalem δ ε, ei quod ex α β æquum comparetur (per 44 primi) δ ζ, latitudinem efficiens δ η. Dico quod ipsa δ η, ex binis nominibus est sexta. Construantur etenim eadem quæ & in præcedentibus. Et quoniam α β bina media potens, est diuisa in γ, ipsæ igitur (per 41 decimi) α γ, γ β, potentia sunt incommensurabiles efficientes compositum ex earum quadratis medium, & quod sub ipsis medium & insuper incommensurabile composito ex earum quadratis. Quare per ea quæ ostensa sunt, medium est utrumq̃ ipsorum δ λ, μ ζ. Et ad rationalem δ ε comparatur, rationalis igitur est (per 22 decimi) utraq̃ ipsarum δ μ, μ η, & ipsi δ ε longitudine incommensurabilis. Et quoniam conflatum ex ijs quæ ex α γ, γ β, incommensurabile est ei quod bis sub α γ, γ β, incommensurabile igitur est (per secundam partem 11 decimi) δ λ ipsi μ ζ. Incommensurabilis igitur est (per primam sexti & 11 decimi) & δ μ ipsi μ η. Ipsæ igitur δ μ, μ η, rationales sunt potentia tantum cōmensurabiles, ex binis igitur nominibus est δ η. Dico quod & sexta. Similiter nanq̃ rursus ut prius demonstrabimus, quia quod sub δ κ, κ μ, æquum est ei quod ex ν η, & quod δ κ ipsi κ μ longitudine incommensura
+THEON ex Zamb. Esto ex binis nominibus α β & ipsi α β longitudine cōmensurabilis esto γ δ. Dico quod ipsa γ δ ex binis nominibus est, & in ordine ipsi α β eadem. Quoniam enim (per 42 decimi) ex binis nominibus est α β, diuidatur in nomina in ε, sit maius nomen α ε. Ipsæ igitur α ε, ε β, rationales sunt potentia tantum cōmensurabiles. Fiatq̃: sicut α β ad γ δ, sic α ε ad γ ζ. Et reliqua igitur ε β, ad reliquam ζ δ, (per 19 quinti) est sicut α β ad γ δ. Commensurabilis autem est (per hypothesin) α β ipsi γ δ longitudine. Cōmensurabilis igitur est (per 11 decimi) & ipsa α ε ipsi γ ζ, & ε β ipsi ζ δ. Suntq̃ rationales ipsæ α ε & ε β, rationales igitur sunt (per 11 decimi) & ipsæ γ ζ, ζ δ. Et quoniā est sicut α ε ad γ ζ, sic est ε β ad ζ δ, uicißim igitur (per 16 quinti) sicut α ε ad ε β, sic est γ ζ ad ζ δ. Ipsæ autem α ε, ε β, tantum potentia sunt cōmensurabiles, & ipsæ γ ζ, ζ δ, igitur potentia tantum sunt cōmensurabiles, suntq̃ rationales ex binis igitur nominibus est ipsa γ δ. Dico iam quod in ordine est eadem ipsi α β. Ipsa α ε, ipsa ε β aut maius potest eo quod ex sibi cōmensurabili, uel eo quod ex sibi incōmensurabili. Si uero α ε ipsa ε β maius potest eo quod ex sibi cōmensurabili, & γ ζ ipsa ζ δ (per 14 decimi) maius poterit eo quod ex sibi commensurabili. Et si α ε expositæ rationali cōmensurabilis fuerit, & γ ζ eidem commensurabilis erit (per 12 decimi.) Idq̃ propterea utraq̃ ipsarum α β, γ δ, ex biuis{printer-error-correction:binis} nominibus est prima, hoc est in ordine eadem. Si uero ε β commensurabilis est ipsi expositæ rationali, & ζ δ eidem commensurabilis est. Ac per hoc rursus in ordine eadem est
 
-[Diagram: horizontal line with points α (left), γ (middle), β (right)]
+[Diagram: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]
 
-[Diagram: rectangle on base ε θ λ ξ ζ with top line δ κ μ ν η (δ at left); vertical lines join κ–θ, μ–λ, ν–ξ; taller rectangles are erected above the segments δ κ and μ ν]
-
-<!-- Signature: C -->
-
-<!-- Catchword: bilis est. -->
+<!-- Catchword: ipsi α β -->

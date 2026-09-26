@@ -1,59 +1,35 @@
-<!-- Running title: LIBER QVINTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 121 -->
+<!-- Page number: 122 -->
 
-[Margin]
-9
-[/Margin]
+CAMPANVS Propositionem hanc quam Euclides in principio primi annumerauit inter cōmunes animi conceptiones, quæ eidem sunt æqualia sibi quoq̃ sunt æqualia, prout de quantitatibus intelligitur, hic demōstrat prout proportionibus accōmodatur. Sit ergo utraque duarum proportionum quæ sunt a ad b, & c ad d, æqualis proportioni quæ est e ad f. Dico proportiones, quæ sunt a ad b & c ad d, sibi inuicem esse æquales. Sumam enim g ad a, & h ad c, & k ad e, æque multiplices, itēq̃ l ad b, & m ad d, & n ad f, æque multiplices. Et quia per hypothesin proportio e ad f: est sicut a ad b, & similiter sicut c ad d, erit per conuersionem diffinitionis incontinuæ proportionalitatis bis sumptam si k addit super n, quod g addat super l, & h super m, & si k minuit ab n, quod g minuat ab l, & h ab m, & si k est æqualis n. quod g sit æqualis l, & h æqualis m. Quia igitur g ad l, & h ad m similiter se habent in addendo, diminuendo & æquando, mediātibus k n, & erit per diffinitionem incontinuæ proportionalitatis, a ad b sicut c ad d. Qd est propositum.
 
-SI fuerit aliquarum quantitatum ad unam quātitatem proportio una, ipsas esse æquales, si uero unius ad eas proportio una, ipsas æquales esse necesse est.
+[Diagram: three rows of horizontal line segments with division marks, labelled g, k, h above; a, e, c; b, f, d; l, n, m; set beside the paragraph]
 
-CAMPANVS. Sit duarum quantitatum a & b, proportio una ad c, dico eas esse æquales, & si econuerso fuerit eadem proportio c ad utrāq̃ earum, adhuc dico eas esse æquales, hæc est cōuersa septimæ huius. Primum sic patet. Si enim non sunt æquales, sed altera earum maior, utpote a, erit per primam partem præmissæ, maior proportio a ad c, quàm b ad c, quod est contra hypothesin. Secundum quoque patet. quia si a est maior b, erit per secundam partem præmissæ, maior proportio c ad b, quàm ad a, quod est etiam contra hypothesin
-
-[Diagram: horizontal line segments a and b above, with segment c below, in the right margin]
-
-## Eucli. ex Zamb. Theorema 9 Propositio 9
-
-[Margin]
-9
-[/Margin]
-
-Quæ ad eandem, eandem habent rationem, æquales adinuicem sunt, & ad quas eadem, eandem habet rationem, ipsæ sunt æquales.
-
-THEON ex Zamb. Habeat inquam utraque ipsarum α β, ad γ, eandē rationem. Dico quod æqualis est α, ipsi β. Si autem non utraque ipsarum ad γ, ad ipsam γ, eandem non haberet rationem, (per 8 quinti,) habet autem, æqualis igitur est α, ipsi β. Habeat rursus γ, ad utrāq̃: ipsarum α β, eandem rationē. Dico quod æqualis est α, ipsi β. Si autem non, ipsa γ, ad utramq̃ ipsarum α β, non haberet eandem rationem, habet autem, æqualis igitur est α, ipsi β. Quæ ad eandem igitur, eandē habēt rationem, adinuicem sunt æquales, & ad quas eadem, eandem habet rationem, ipsæ sunt æquales. Quod demonstrandum fuerat.
-
-[Diagram: three vertical line segments labelled α, β, γ in the right margin]
-
-## Eucli. ex Camp. Propositio 10
-
-[Margin]
-10
-[/Margin]
-
-SI fuerit unius quantitatis ad quantitatem unam proportio maior, quantitatem maiorem esse. Si uero unius ad eaudem proportio maior, minorem esse necesse est.
-
-CAMPANVS. Quod si fuerit maior proportio a ad c quàm b ad c, dico a esse maiorem b, & si fuerit maior c ad b quàm c ad a, adhuc dico a esse maiorem b. Hæc est conuersa 8. Primum patet per primam partem 7 & per primam 8, nam per primam partem septimæ, non erit a æqualis b, nec etiam minor, per primam octauæ. Secūdum uero patet ex secundis partibus earundem.
-
-[Diagram: horizontal line segments a and b above, with segment c below, in the right margin]
-
-## Eucli. ex Zamb. Theorema 10 Propositio 10
-
-[Margin]
-10
-[/Margin]
-
-Ad eandem, rationem habentium, maiorem rationem habens, illa maior est, ad quam autem eadem maiorem ratione habet, illa minor est.
-
-THEON ex Zamb. Habeat enim α, ad γ, maiorem rationem, quàm β, ad γ. Dico quod α maior est quàm β. Si autem non, aut est ipsi γ, æqualis, aut ea minor, æqualis autem minime est, ipsi ε, utraque etenim ipsarum α β, ad γ, eandem rationem haberet: (per 9 quinti) non habet autem, igitur α, ipsi β minime æqualis est. Neque etiam minor est α, quàm β, nam α, ad ipsum γ, minorem rationem haberet, quàm β, ad γ, (per 8 quinti) non habet autem, igitur α, quàm β, minor non est. Ostēsum autem est, quod neque est æqualis, maior igitur est α, quàm β. Habeat rursus γ, ad α c, maiorem rationem, quàm γ ad α. Dico quod minor est α, quàm β. Si autem non, aut est ei æqualis aut ea maior, æqualis quidem non est, β. Nam γ, ad utramque ipsarum α β, eandem haberet rationem, (per 6 quinti,) non habet autem, Igitur α, ipsi β, minime est æqualis. Neque etiam maior est γ, quàm α, nam γ, ad β, maiuorem rationem haberet, quàm ad α, (per 8 quinti), non habes autem. Igitur maior nō est γ quàm α: patuit autem quod neque æqualis est, minor igitur est β, quàm α. Ad eandem igitur rationem habentium, maior est, & ad quam autem eadem maiorem rationē habet, ipsa minor est. Quod erat demonstrandum.
-
-[Diagram: three vertical line segments labelled α, β, γ in the right margin]
-
-## Eucli. ex Camp. Propositio 11
+## Eucli. ex Zamb. Theorema 11 Propositio 11
 
 [Margin]
 11
 [/Margin]
 
-SI fuerint quantitatum proportiones alicui uni æquales, ipsas quoque proportiones sibi inuicem æquales esse necesse est.
+Quæ eidem sunt eædem rationes, & adinuicem sunt eædem.
 
-<!-- Signature: l -->
+THEON ex Zamberio. Sint enim sicut α, ad β, sic γ, ad δ, sicut uero γ, ad δ, sic ε, ad ζ. Dico quod est sicut α, ad β, sic ε, ad ζ. Sumantur enim ipsarum α γ ε, æque multiplices, sintq̃ η θ κ, ipsarum uero β δ ζ, aliæ quæuis æque multiplices, sintq̃ λ μ ν. Et quoniam est sicut α, ad β, sic γ, ad δ, & sumptæ sunt ipsarum α γ, æque multiplices η θ, ipsarum autē β δ, aliæ quæuis æque multiplices λ μ, si igitur excedit η, ipsum λ, excedit & θ, ipsum μ, & si æquale, æquale: & si deficit, deficit, (per couersionē 6 diffinitionis quinti.) Rursus quoniā sicut est γ, ad δ, sic ε, ad ζ, & sumptæ sunt ipsarum γ ε, æque multiplices θ κ, ipsarum δ ζ, aliæ quæuis æque multiplices μ ν, si igitur excedit θ, ipsum μ, excedit quoque κ, ipsum ν, & si æquale, æquale: & si minus, minus, (per eandē.) Sed si excedit θ, ipsum μ, excedit quoq̃ η, ipsum λ, & si æquale, æquale: & si minus, minus: (per eandem cōuersionē.) Quare si excedit η, ipsum λ, excedit & κ, ipsum ν, & si æquale, æquale: & si minus, minus: (per eandem.) Sunt autem η κ ipsarum α ε, æque multiplices, & λ ν, ipsarū β ζ, aliæ quæuis æque multiplices. Est igitur sicut α, ad β, sic est ε, ad ζ. Quæ igitur eidem eædem sunt rationes, & adinuicem sunt eædem (per 6 diffinitionem) quod demonstrasse oportuit.
+
+[Diagram: group of tall vertical line segments of graduated heights with division marks, letters η α β λ γ δ μ ε ζ ν beneath, in the right margin]
+
+## Eucli. ex Camp. Propositio 12
+
+[Margin]
+12
+[/Margin]
+
+SI fuerit proportio primi ad secūdum sicut tertij ad quartum, tertij uero ad quartum maior quàm quinti ad sextum, erit proportio primi ad secundum maior, quàm quinti ad sextum.
+
+CAMPANVS Sicut in præcedenti, quod hic demōstrat in proportionibus, cōceptibile est in quantitatibus, uidelicet quod si duæ quantitates fuerint sibi inuicem æquales, quæcunque fuerit una earum maior, eadē maior erit & reliqua. In proportionibus tamen hoc demonstratur. ut si sit proportio a ad b sicut c ad d, c uero ad d, sit maior quàm e ad f, erit quoq̃ a ad b, maior q̃ e ad f. Sumā enim g ad a, & h ad c, & k ad e, æque multiplices Itēq̃ l ad b, & m ad d, & n ad f, æque multiplices. Et quia per hypothesin proportio c ad d est sicut a ad b, & maior quàm e, ad f, erit per conuersionem diffinitionis incontinuæ proportionalitatis si h addit super m, ut g addat super l, & per cōuersionē diffinitiōis maioris improportionalitatis, quod non sit necesse k addere super n. Quia igitur mediātibus h & m si g addit super l, nō est necesse k addere super n: erit per diffinitionē maioris improportionalitatis, maior proportio a ad b quàm e ad f quod est propositum.
+
+[Diagram: three rows of horizontal line segments with division marks, labelled g, h, k; a, c, e; b, d, f; l, m, n; set beside the paragraph]
+
+CAMPANI additio. Simili quoque modo probabis, quod si sit a ad b sicut c ad d, & c ad d, minor quàm e ad f, erit a ad b minor quàm e ad f. Cum enim sit c ad d minor q̃ e ad f: erit e ad f maior quam c ad d, per conuersionem igitur diffinitionis maioris im
+
+<!-- Catchword: pro -->

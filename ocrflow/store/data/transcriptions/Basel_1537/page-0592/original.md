@@ -1,23 +1,37 @@
-<!-- Running title: DATA -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-<!-- Page number: 579 -->
+<!-- Page number: 582 -->
 
-angulus qui sub g h l. Connectãturq̃ ipse f l, l g exciteturq̃ per 12 primi ele. perpendicularis l m. Et q̃m angulus b a d angulo l h g est æqualis, & qui sub h l g ei qui sub a b c, & reliquus igitur qui sub b c a reliquo qui sub h g l, est æqualis. Simile igitur est triangulũ b c a ipsi h l g triãgulo & perpẽdiculares ductæ sunt b d, l m, est igitur sicut a c ad b d, sic h g ad l m, per 76 propositionẽ. Erat autẽ sicut a c ad b d sic h g ad f k, supponitur enim. Et sicut igitur per 11 quinti ele. h g ad m l. Sic h g ad f k, æqualis igitur est f k ipsi l m, est autem & parallelus & f l ipsi h g, est æqualis & parallelus. Aequalis igitur est angulus f l h ipsi l h g angulo. Sed qui sub l h g ipsi b a c est æqualis, qui uero sub f l h ipsi f g h est æqualis. Et qui sub b a c igitur ei qui sub f g h est æqualis, est autem & qui sub a b c ei qui sub f h g. æqualis. Reliquus igitur qui sub b c a, reliquo qui sub f h g est æqualis. æquiangulum igitur est a b c triãgulum ipsi f h g triangulo.
+tur b d. Datur igitur & b c, est aũt & a c, datũ, & angulus a b c datus. Data igitur est a b, utraq̃ igitur ipsarum a b, b c, datã est.
 
-## Theorema 80. Propositio 80.
+## Theorema 87. Propositio 87.
 
-SI triangulum unum habuerit angulũ datum, & quod sub datum angulum comprehendentibus rectis lineis, ad id quod ex reliquo latere quadratum rationem habuerit datam, datur triangulum specie.
+SI binæ rectæ lineæ areolam comprehenderint datã in dato angulo, quod à maiori uero minore dato maius fuerit, & ipsarum utraque data erit.
 
-Esto triangulum a b c datum habens angulum qui ad a, & quod sub b a c ad id quod ex b c rationem habeat datã. Dico quod ipsum a b c triãgulum specie datur, excitentur enim per 12 primi elemẽtorum. ab ipsis a b in ipsas b c, c a, perpẽdiculares b d, a e. Quoniã igitur angulus b a d, datus est. est aũt & qui sub a d b datus. Datur ergo triangulũ a d b specie, ratio igitur ipsius a b ad b d, data est, quare & eius quod sub a c, b d, ratio est data. Ei autẽ quod sub a c, b d, æquũ est id quod sub b c, a e, utrũque enim eorum ipsius a b c triãguli duplũ est. Ratio igitur & eius quod sub b a c ad id quod sub b c, a e data est. Eius autem quod sub b a c ad id quod ex b c ratio est data, & eius q̃ sub b c, a e, igitur ad id quod ex b c ratio est data, & ipsius b c ad a e. ratio est data, exponatur positione, & magnitudine data recta linea f g. Describaturq̃ super ipsa f g segmentum f h g per 33 tertij ele. datũ habẽs angulũ æquũ ipsi b a c. Datus autẽ est qui sub b a c angulus, datus igitur & qui in f h g, segmẽto angulus. positione igitur est segmentũ f h g excitetur per 11 primi ele. ab ipso g ipsi f g ad angulos rectos g k, positiõe igitur est g K fiatq̃ sicut b c ad a e, sic f g ad g K. Ratio autem ipsiꝰ b c ad a e data est. Ratio igitur & ipsius f g ad g k data est. Data autem est f g, data igitur & g k, sed & positione, estq̃ datũ ipsum g, datũ igitur & k excitetur per 31 primi ele. per ipsum k ipsi f g, parallelus k h positiõe igitur est k h, positione autẽ ipsum f h g. Datũ igitur est signũ h. Cõnectãtur f h, h g exciteturq̃ per 12 primi ele. p̃pẽdicularis h l. Data igitur est h l, est autẽ & h signũ datũ. Et utrũq̃ ipsorũ f g. Datur igitur unaquæq̃ ipsarũ h f, f g, g h, positiõe & magnitudine datur ergo f h g, triangulum specie. Et quoniã est sicut b c ad a e, sic f g, ad g k, æqualis autem est g K ipsi h l, est igitur sicut b c ad a e. sic f g ad h l estq̃ æqualis angulus b a c angulo f h g, æquiangulum igitur est per præcedentem a b c, triangulũ ipsi h f g triangulo. Datur aũt h f g triangulũ specie, datur igitur & a b c triangulum specie.
+Binæ, inq̃, rectæ lineæ a b, b c datã areã cõprehẽdant a c in dato angulo a b c, quod aũt ex a b dato maius esto, eo q̃ ex b c, dico q̃ utraq̃ ipsarũ a b, b c data est. Nã q̃m quod ex a b, eo quod ex b, dato maius est. Auferatur datũ sitq̃ quod sub a b, b d. Reliquũ igitur quod sub b a, a d, æquum est ei quod ex b c. Et quoniã quod sub a b, b c, datũ est, est aũt & quod sub a b, b d datum. Ratio igitur eius quod sub a b, b d ad id q̃ sub a b, b c data est. Estq̃ sicut quod sub a b, b d ad id quod sub a b, b c, sic d b ad b c. Ratio igitur ipsius d b ad b c, data est. Ratio igitur & eius quod ex d b, ad id quod ex b c data est. Ei autem quod ex b c, æquũ est id quod sub b a, a d. Ratio igitur eius quod sub b a, a d, ad id qd' ex d b, data est. Et eius igitur quod quater sub b a, a d una cũ eo quod ex d b ad id qd' ex d b ratio est data. Sed quod quater sub b a, a d una cum eo quod ex b d, id est quod ex utraq̃ simul ipsarũ b a, a d. Ratio igitur & eius quod ex utraq̃ simul b a, a d, ad id quod ex d b data est. Ratio igitur & utriusque simul b a ad d b data est. Et cõponẽdo igitur p 18 q̃nti ele. utriusq̃ simul b a, a d una cũ ipsa d b hoc est binarũ a b ad b d, ratio est data, & unius igitur a b ad d b, rõ est data. Ipsius autẽ d b ad b c, ratio est data. Et ipsius igitur a b ad b c, ratio est data. Et q̃m ipsius a b ad b d ratio est data, estq̃ sicut a b ad b d, sic quod ex a b ad id quod sub a b, b d. Ratio igitur & eius quod ex a b ad id quod sub a b, b d data est. Datũ aũt est q̃ sub a b, b d. Sic enim datũ aufertur. Datũ igitur est & qd' ex a b. Data igitur est a b, estq̃ ratio ipsius a b ad b d data. Data igitur est & b c.
 
-[Diagram: above, a triangle with apex a, base c, e, b, and interior lines from a and d; below, a circle on which stand the square-like figure K, b and the segment f h g, with labels g, l, f beneath and vertical lines within]
+[Diagram: a rectangle with corner label c at upper right and base labels a, d, b]
 
-Aliter.
+## Theorema 88. Propositio 88.
 
-Sit triangulum a b c, datum habẽs angulum qui ad a, sit autem eius quod sub b a, a c, ad id q̃ ex c b ratio data. Dico quod triangulum a b c specie datur. Nam quoniã angulus b a c, datus est. qua igitur maius est quod ex utroq̃ ipsius b a c, eo quod eo b c, ea area ad b a c triãgulum rationẽ habet datã, qua autẽ est maius quod ex utroque ipsius b a c eo quod ex b c sit area d. Ratio igitur ipsius d areæ ad a b c, triangulum data est. Ipsius aũt a b c ad id quod sub b a c ratio est data, eo quia angulus qui sub b a c datus est. Et ipsius igitur d areæ ad id quod sub b a c ad id quod ex b c ratio est data, & ipsius igitur d ad id quod ex b c ratio est data, & cõponendo igitur per 18 quinti elemen. ipsius d areæ una cum ea quod ex b c, ad id quod
+SI in circulo magnitudine dato, recta linea acta fuerit assumens segmẽtũ capiẽs angulũ datũ, datur acta magnitudine.
 
-[Diagram: a small square labelled d, and a triangle with apex a, base corners c and b, with an interior line]
+In circulo enim a b c magnitudine dato, excitetur a c assumẽs segmẽtũ a e c, accipiẽs angulũ datũ. Dico quod a c datur magnitudine. Assumatur enim per 1 tertij ele. centrũ circuli sitq̃ illud d, & cõnexa a d & extẽdatur in e & cõnectatur c e. Datus igitur est qui sub a c e. rectus enim est, est aũt & q̃ sub a e c, datus, & reliquus igitur qui sub c a e, datus est, datur igitur triãgulũ a e c specie. Ratio igitur est ipsius a e ad a c data, data autem est ea magnitudine, quoniã & circulus datur magnitudine. Data igitur est a c magnitudine.
 
-<!-- Signature: Cc 2 -->
+[Diagram: a circle with points b (upper left), a (right), c (left), e (lower left), centre d, with chords a c, a e, c e drawn]
 
-<!-- Catchword: ex b c -->
+## Theorema 89. Propositio 89.
+
+SI in circulo magnitudine dato, recta linea acta fuerit data magnitudine, relinquetur segmẽtũ capiens angulũ datum.
+
+In circulo eñ magnitudine dato a b c, recta linea excitetur a c data magnitudine. Dico quod relinquetur segmẽtũ capiens angulũ datũ. Accipiatur enim per 1 tertij ele. cẽtrũ circuli sitq̃ illud d & cõnexa a d extẽdatur in e, & q̃m utraq̃ ipsarũ e a, a c est data. Rõ igitur ipsius e a ad a c, data est. Et angulus qui sub a c e. rectus est. Datur igitur a c e triãgulũ specie. Datꝰ igitur est angulus a e c.
+
+[Diagram: a circle with points a (upper right), b (left), c (lower left), e (bottom), centre d, with chords drawn]
+
+## Theorema 90. Propositio 90.
+
+SI in circuli positione dati circunferentia assumptũ fuerit signũ datũ, ab hoc autẽ ad circuli circunferentiã infringatur aliqua recta linea datum angulum efficiens, datur alter finis refractæ.
+
+Circuli enim positione dati a b c in circũferẽtia accipiatur datũ signũ b, ab ipso aũt b refringatur recta linea b a c. datũ efficiẽs angulũ b a c. Dico quod c signũ datur. Assuma-
+
+<!-- Catchword: tur -->

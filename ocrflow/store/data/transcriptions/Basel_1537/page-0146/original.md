@@ -1,33 +1,33 @@
-<!-- Running title: LIBER QVINTVS -->
+<!-- Page number: 136 -->
 
-<!-- Page number: 135 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-e ad c,ut b ad d : eritqꝫ ex duodecima, maior proportio e ad c, quàm a ad c: quare ex prima parte decimæ,e est maior a. Itaqꝫ per primam partem octauæ, proportio e ad b,est maior quam a ad b. Et quia positum est ut sit e ad c, sicut b ad d: erit permutatim e ad b,sicut c ad d: ex duodecima igitur, maior erit proportio c ad d, quàm a ad b, sed positum erat oppositum, uerum ergo est propositum. Ostensiue quoqꝫ idem,quemadmodum in præmissa. Sumpta enim e ad b,ut c ad d : erit ex prima parte decimæ,e minor a:quia ex prima parte octauæ, maior erit a ad c, quam e ad c. Sed ex permutata proportionalitate, est e ad c,ut b ad d : igitur ex duodecima a ad c:est maior quàm b ad d,quod est propositum.
-
-[Diagram: five horizontal line segments in two columns, labelled a and c above, b and d below, e at bottom left]
-
-## 28
-
-Si fuerint quatuor quantitates quarum primæ ad secundam sit maior proportio quàm tertiæ ad quartam: erit quoqꝫ coniunctim maior proportio primæ & secundæ ad secundam quàm tertiæ & quartæ ad quartam.
-
-CAMPANVS. Sit maior proportio a ad b, quàm c ad d:dico quod maior erit totius a b ad d,quàm totius c d ad d:quia ipsa neqꝫ erit æqualis,neqꝫ minor . Si enim æqualis tunc erit disiunctim,a ad b ut c ad d. Si autem est minor,sit e b ad b,ut c d ad d:eritqꝫ ex duodecima ,maior proportio e b ad b,quàm a b ad b:itaqꝫ ex prima parte decimæ,e b,est maior quàm a b:& per conceptionem,e maior quàm a,quare ex prima parte octauæ, maior est proportio e ad b, q̄ a ad b:sed e ad b est ut c ad d per disiunctam proportionalitatem:eo quod erat e b ad b:ut c d ad d:ergo per duodecimam,c ad d,est maior q̄ a ad b:hoc autem est contra hypothesin. Idem etiam ostensiue.Cum enim propositum sit quod maior sit proportio a ad b, quàm c ad d : sit proportio e ad b, ut c ad d: eritqꝫ ex prima parte decimæ,e minor a.Ideoqꝫ ex communi scientia, e b erit minor q̄ a b:quare ex prima parte octauæ,maior erit proportio a b ad b,quàm e b ad b. At uero proportio e b ad b,est per coniunctam proportionalitatem,sicut c d ad d:positum enim est,ut sit e ad b,tanquam c ad d:igitur ex duodecima, maior est a b ad b, quàm c d ad d:quod est propositum.
-
-[Diagram: horizontal divided line with points a and b, a diagonal line descending from e above to the point b; below it a second divided line with points c and d]
-
-## 29
-
-Si fuerint quatuor quantitates quarum primæ & secundæ ad secundā sit maior proportio quàm tertiæ & quartæ ad quartam : erit quoqꝫ disiunctim proportio primæ ad secundam maior quàm tertiæ ad quartam.
-
-CAMPANVS. Sit proportio a b ad b,maior quàm c d ad d:dico quod erit disiūctim,proportio a ad b,maior quàm c ad d:alioqui erit æqualis uel minor. Quod si æqualis:erit per coniunctam proportionalitatem a b ad b,ut c d ad d. Si aūt minor,erit maior c ad d,quàm a ad b:ergo per præmissam, maior erit c d ad d,q̄ a b ad b qd' est incōueniens,quia positū est quod minor:uerū est ergo quod dicitur. Quod etiam ostensiue astruemus, hoc modo . Ponemus enim ut proportio e b ad b, sit tanquam proportio c d ad d: eritqꝫ ex prima parte 10 : e b minor quàm a b : quare ex communi scientia e est minor quàm a : minor igitur est ex prima parte 8, proportio e ad b, quàm sit a ad b : sed proportio e ad b,est sicut c ad d,ex disiuncta proportionalitate: itaqꝫ ex 12,proportio a ad b,est maior quàm sit c ad d,quod est propositum.
+CAMPANVS. Sit maior proportio a b ad b,quàm c d ad d : dico quod euersim minor erit proportio a b ad a, q̄ c d ad d:erit enim disiūctim ex præmissa,maior proportio a ad b,quàm c ad d. Itaque per 26,erit è conuerso minor b ad a , quàm d ad c:quare per ante præmissam,coniunctim minor erit b ad a,q̄ c d ad c,quod est propositum.
 
 [Diagram: divided line a b above a divided line c d]
 
-[Diagram: divided line with points a, e, b above a divided line with points c, d]
+## 31
 
-## 30
+Si fuerint tres quātitates in uno ordine,itemqꝫ tres in alio, fueritqꝫ primæ priorum ad secundam maior proportio quàm primæ posteriorum ad secundam , itemqꝫ secundæ priorum ad tertiam maior quàm secundæ posteriorum ad tertiam: erit quoqꝫ primæ priorum ad tertiam maior proportio,quàm primę posteriorum ad tertiam.
 
-Si fuerint quatuor quantitates quarum primæ & secundæ ad secundā sit maior proportio quàm tertiæ & quartæ ad quartam , erit euersim minor proportio primæ & secundæ ad primam quàm tertiæ & quartæ ad tertiam.
+CAMPANVS. Sint tres quantitates,a,b,c, itemqꝫ aliæ tres,d c f: sitqꝫ maior proportio a ad b, q̄ d ad e. Itemqꝫ maior b ad c,quàm c ad f: dico quod maior erit proportio a ad c,quàm d ad f. Sit enim g ad c, ut e ad f: eritqꝫ ex prima parte 10, g minor b: quare ex secunda parte 8 , proportio a ad g , est maior q̄ a ad b: multo maior ergo est proportio a ad g, quàm d ad e: sit itaqꝫ h ad g,ut d ad e:eritqꝫ ex prima parte 19. a maior h:quare ex prima parte 8,proportio a ad c maior est q̄ proportio h ad c. At uero proportio h ad c,est per æquam proportionalitatem, sicut d ad f: est enim h ad g,ut d ad e, & g ad c,ut e ad f:igitur ex 12,proportio a ad c,est maior q̄ d ad f,quare constat propositum.
 
-<!-- Signature: m 2 -->
+[Diagram: paired divided line segments a and d, b and e, c and f; below them two shorter segments, the lower labelled b]
 
-<!-- Catchword: CAMPANVS -->
+## 32
+
+Si fuerint tres quantitates in uno ordine, itemqꝫ tres in alio, fueritqꝫ proportio secundæ priorum ad tertiam maior quàm primæ posteriorum ad secundam , itemqꝫ primæ priorum ad secundam maior quàm secūdæ posteriorum ad tertiam, erit maior proportio primæ priorum ad tertiam, quàm primæ posteriorum ad tertiam.
+
+CAMPANVS. Sint enim tres quantitates in uno ordine,a,b,c : itemqꝫ tres in alio,d,e,f,quemadmodū in præmissa: sitqꝫ maior proportio b ad e:& maior a ad b,q̄ e ad f:dico quod maior erit a ad c,quam d ad f. Sit enim g ad c, ut d ad e : eritqꝫ g minor b,per primam partem 10 : quare maior erit proportio a ad g, q̄ a ad b , per secundam partem 8 : igitur multo maior est a ad g,q̄ e ad f.Sit itaque h ad g,ut e ad f:eritqꝫ a maior h, ex prima parte 10: quare proportio a ad c,maior est quam h ad c,ex prima parte 8. At uero ex 11,proportio h ad c, est tanquā d ad f:eo quod est g ad c,ut d ad e, & h ad g,ut e ad f: igitur ex 12 maior est proportio a ad c,q̄ d ad f,quod est propositum.
+
+[Diagram: paired divided line segments a and d, b and e, c and f; below them two shorter segments labelled g and b]
+
+## 33
+
+Si fuerit proportio totius ad totū , maior quàm abscisi ad abscisum, erit residui ad residuum,maior proportio quàm totius ad totum.
+
+CAMPANVS. Sint duæ quantitates a,& b,a quibus abscindatur c & d:& residua sunt e & f:sitqꝫ maior proportio a ad b,q̄ c ad d: dico quod maior erit proportio e ad f,quàm a ad b : erit enim ex 27, permutatim maior proportio a ad c,quam b ad d:quare ex 30, erit euersim minor proportio a ad e,q̄ b ad f,igitur rursus ex 27,permutatim minor erit a ad b:quam e ad f,quod est propositum.
+
+[Diagram: a long divided line with points c, a, e above a shorter divided line with points d, b, f]
+
+<!-- Catchword: Si quotlibet -->

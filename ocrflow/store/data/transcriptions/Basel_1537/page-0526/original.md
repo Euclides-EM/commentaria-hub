@@ -1,29 +1,13 @@
-<!-- Running title: SPECVLARIA -->
+<!-- Page number: 516 -->
 
-<!-- Page number: 515 -->
+# BARTHOLOMAEVS ZAMBERTVS VENETVS
 
-trum sepositum ab ipso b c, positum. similiter igitur ab ipso m in f, centrum connexa & extensa superius cadit in K sicut l, quæ uero ab n in f superius in e, usque h. Igitur m n spectatur sicut h l & minus est h l, ipso e K & speculo propinquius.
+## Ioanni Zamberto Veneto fratri humanissimo salutem perpetuam.
 
-## Theorema trigesimum,
+{dropcap:Q|lines=?|style=decorated|decoration="figural decoration"}VVM me iam pluribus annis hisce mathematicis disciplinis mirum in modum delectari tibi exploratissimum esset Ioannes frater charissime, cumq́ sæpius, me quasi ad pugnam prouocans aliqua abs te mechanico artificio structa ostenderes, quæ optices hoc est perspectiuæ speculationibus compacta pluribus lineis sese inuicem dispescētibus multiplicibusq́ angulis, mirandam ingenij tui solertiā altamq́ indaginem preseferrent. efficere non poteram quin eam theoremata maxime nō comprobarem, quandoquidem niteris lineis & angulis efficere ut ea quæ plana sunt quandoque conuexa, at quandoque sese in intima penetralia extendere, aliquando uero solida & tribus dimensionibus cōstare uideatur. Cuius quidem disciplinæ rationem quādoq́ cum apud Socraticum Euclidem in uetustissimis & tineis ac carie contritis græcis codicibus legerem, quodam stupore perfusus, hominis ingenium arduum & sublime inde dijudicans, opus illud mira solertia sed maximo studio non legi sed relegi transcripsiq́ pariter, ut tanta doctrina quoque inter nostros codices summa ueneratione seruata reperiri posset. Quod quidem opusculum cum quandoque tibi demonstrassem, auidissime, ut qui hiantibus faucibus sitibundi fontis frigidam aquam æstiuis ardoribus ingurgitat, petijsti, ut illud tibi latinū efficerem, existimans esse aliquid cæteros homines quos diuersa inutilia oblectamenta iuuat disciplinis excellere. Quod sane ut tuis uotis frater charissime satisfactum esset: quasi ocio deditus ex Euclidea interpretatione illa laboris plena, sedulo curaui opusq́ ipsum sublimi, & mirando iudicio ab Euclide ipso exquisitum latinum feci, ut tibi satisfaciendo, communi quoque studentium utilitati consulerem. Quod sane opusculum tibi id propterea destino, ut tibi necessitudinis nostræ amorisq́ & beneuolētiæ sit exploratissimum pignus, tum quia hisce studijs & speculationibus delectaris, idque propterea iure quodam tibi id opus destinari debet, quandoquidem ea illis sunt dedenda, qui eorū peritiam tenēt. Sub tuo igitur nomine perspectiua Euclidis in lucē ueniet, ex grecorum illis disciplinarū ingeniorum & doctrinæ mundæ & castigatæ plenis scrinijs eruta. Cæterum tu frater charissime hæc leges, uidebisq́ quantum fuerit Euclidis iudiciū, quantum ingeniū, quanta doctrina, ut hæc optica theoremata eo examine struxerit, ut eorū nullū recte sentientes negare possimus, in quibus si quid fortasse cōperies minus obuium & tibi notum, testatim ad elementorum specularia & apparentium Euclidis doctrinam conferes, inde nāq́ omnia tibi plana fient, & luce meridiana clariora, uerū ne me crispini scrinia lippi compillasse putes, uerbum nō amplius addam. Vale. X I. I V, X I X. elemento conciliatæ diuinitatis. Vene. V I Kalen. octobris.
 
-[Diagram: a long horizontal line from m at the left to a at the right, bearing two convex semicircular humps marked g and d on top, and two concave dips below marked K and b; along the line the letters l, b at the left and f, e, e between the humps]
+# EVCLIDIS MEGARENSIS CLARIS SIMI PHILOSOPHI PLATONICI INSIGNISQVE mathematici incipiunt optica ex traditione Theonis Bartholomæo Zamberto Veneto interprete.
 
-SPeculum construere est possibile, ut in ipso spectentur plures facies, & maiores, & minores, & aliquæ propius, & aliquæ lōgius, & aliæ dexteræ, & aliæ sinistræ.
+{dropcap:O|lines=?|style=decorated|decoration="figural decoration"}STENDENS ea quæ per uisum consolationis gratia non nullos induxerunt, ratiocinatus est, quod omne lumen in rectas lineas prorenditur{printer-error-correction:protenditur}, reique huiusmodi argumentum uel maximum esse ex corporibus umbras eductas. deque foraminibus & aspectibus lucem delatam. Horum &enim unumquodq́ neutiquam fieret sicut & nunc factū spectatur, nisi à sole delati radij in rectas lineas extenderētur. Itidem quoque ex ignibus nostris emissam inquit lucem causam esse, qua corporum adiacentium aliqua illustrantur, indeq́ umbræ educuntur. aliquæ quidem subiectis æquales corporibus. Aliæ uerò maiores. Aliæ porro
 
-Sit enim planum a m, igitur in hoc fieri possunt conuexa specula sicut a b c, h k l. Caua autem qualia sunt c d e, f g h. plana porro qualia sunt e f. l m, posita uero facie sicut g spectantur à planis æqualia simulacra æque distantia, à conuexis minora & minus distātia, à cauis porro omnino sicut manifestum est.
-
-## Theorema trigesimum primum.
-
-EX cauis speculis ad solem positis ignis accenditur.
-
-Esto cauum speculum a b c, sol autem sit e f, centrum autem speculi sit h, & à quodam signo d cōnexa quidem in h centrum d h, extendatur in b. Incidat autem d c acta & refracta in k. refringetur autem super h cētrū. Angulus enim qui ad p, circunferētiam minor est eo qui ad l circunferentiā sub b k, quippe b k circunferentia æqualis ipsi b c, & ab ipso d alia acta cadat ad a, manifestum igitur quod refracta ad d cadit in k, quippe quoniam circūferentia a b æqualis est ipsi b c, similiter autem ostendetur quod omnes ab ipso d incidentes in speculum & æquos luscipiētes{printer-error-correction:suscipiētes} in idē coincidunt ipsi b k super ipso h.
-
-[Diagram: pointed arch with b at the apex between a at the left and c at the right; within it p, K and b on a vertical line; lines converge downward to d; below, a separate circle with e at its left and f at its right]
-
-## Aliter.
-
-Esto rursus cauum speculum a b c, sol autem sit d e f & à signo quoddam e per h centrum sit e h b & a b d f, sint b a. Igitur demonstraui quidem quod quæ ex e actæ concurrunt in se ipsas per p r, angulos æquos existentes, diametri enim sunt. Quæ uero ab a & f in h a, per K l angulos. Quæ uero à b d in h c, quoniam n x anguli sunt æquales, quod autem omnes in se ipsas refringuntur, manifestum. ex centro namque existentes semicirculos faciunt. qui uero in semicirculis anguli sunt æquales per 27 tertij elemētorum, per æquos enim angulos sunt refractiones, in se ipsos igitur refringuntur. omnes igitur coincidunt quæ ab omnibus signis in eas quæ per centrum & in centro agitur, hijs igitur actis, calefacti igitur circa centrum ignis colligitur, quare ibi stupa apposita accendetur.
-
-[Diagram: circle at the top with e at its left and f at its right; lines cross downward through b; below, a concave arc bearing the letters K, l, r, p, n, x, with a, b, c beneath it]
-
-Catoptrices hoc est de imaginibus quæ in speculis opusculi Euclidis Megarensis præstantissimi mathematici, FINIS. Bartholomæo Zamberto Veneto interprete.
+<!-- Catchword: suppo -->

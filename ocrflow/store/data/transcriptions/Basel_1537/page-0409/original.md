@@ -1,33 +1,33 @@
-<!-- Page number: 398 -->
+<!-- Running title: LIBER DVODECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 399 -->
 
-quidem est triangulũ ε β γ, & uertex δ signum, ab eisdem enim planis cõprehenduntur. Et pyramis igitur cuius basis quidem est triangulũ α β δ, fastigiũ autem signum γ, æqualis est ipsi pyramidi cuius basis quidem est α β γ{printer-error-correction:ε β γ} triangulũ, fastigium autem δ signũ. Rursus quoniam ζ γ β ε parallelogrammũ est, dimetiens uero ipsius est ε γ, triangulũ ε γ ζ æquum est ipsi γ β ε triangulo, & pyramis igitur cuius basis quidem est triangulũ β ε γ, fastigium autem δ signum, est æqualis pyramidi cuius basis quidem est triangulũ ε γ ζ, uertex uero δ signum. Pyramis autẽ cuius basis quidem est β ε γ triangulũ, uertex autem δ signum, ostensa est æqualis pyramidi cuius basis quidem est α β δ triangulũ, uertex autem signum γ, & pyramis igitur cuius quidem basis est γ ε ζ triangulũ, uertex autẽ δ signũ æqua est pyramidi cuius basis quidem est α β δ triangulũ, uertex autem γ signum. Igitur α β γ δ ε ζ prisma, in tres pyramides æquas sibi inuicem diuisum est, triãgulares bases habentes. Et quoniã pyramis cuius basis quidem est triangulũ α β δ, fastigium autẽ γ signũ, eadem est ipsi pyramidi cuius basis quidem est triangulũ γ α β, uertex autẽ signum δ (sub eisdem nanq̃ planis cõprehenduntur) pyramis autem cuius basis est triangulũ α β δ, uertex autẽ signum γ, tertiũ esse prismatis ostensum est cuius basis est triangulũ α β γ, ex opposito autẽ δ ε ζ, & pyramis igitur cuius basis est α β γ triangulũ, uertex autẽ δ signũ, tertium est prismatis cuius basis est triangulũ α β γ, ex opposito autẽ δ ε ζ. Omne igitur prisma, & quæ sequũtur reliqua. Quod oportebat demõstrare.
+ad basin c, sicut altitudo pyramidis b ad altitudinẽ pyramidis a, itaq̃ ex secunda parte huius 7 duæ pyramides a & c, sunt æquales, quare per cõmunem scientiam duæ quoq̃ pyramides a & b, sunt æquales.
 
-[Diagram: prism drawn as a tall rectangle with crossed diagonals; top triangular face with apex ζ above and corners ε (left) and δ (right); base corners β (bottom left) and α (bottom right), with point γ at the interior apex of the lower triangle]
+Si uero neutra propositarũ pyramidum fuerit trigona, sed utraq̃ polygonia (uerbi gratia altera pentagona, altera hexagona) quæ adhuc dicantur a & b, sumatur similiter triãgulus c æqualis hexagono b, super quẽ fiat pyramis æque alta pyramidi b, erũtq̃ duæ pyramides b & c æquales, ideoq̃ duæ quæ sunt a & c etiã per conceptionẽ æquales, quare basis a ad basin c, sicut altitudo pyramidis c ad altitudinem pyramidis a, hoc enĩ nuper demonstratũ est. Est ergo ex 7 quinti basis a ad basin b, sicut altitudo pyramidis b ad altitudinẽ pyramidis a. Conuersa conuerso modo patet. Si enim basis a ad basin b fuerit, ut altitudo pyramidis b ad altitudinẽ pyramidis a, erit quoq̃ ex 7 quinti basis a ad basin c, ut altitudo pyramidis c ad altitudinẽ pyramidis a, ideoq̃ (ut patet ex prioribus) erunt duæ pyramides a & c æquales, quare ex communi scientia & duæ quæ sunt a & b, erunt etiam æquales. Et hoc est propositũ.
 
-CORRELARIVM. Ex hoc iam est manifestũ, quod omnis pyramis, tertia pars est prismatis eandem eidem basin habentis & altitudinem æquam. Quoniam & si aliam quampiam figuram rectilineam habuerit basis prismatis & eandem ex opposito diuiditur in prismata triangulares bases habentia, & ea quæ ex opposito.
+[Diagram: pentagon labelled a and hexagon labelled b side by side; below them a triangle labelled c]
 
-## Eucli. ex Camp. Propositio 7
+## Eucli. ex Camp. Propositio 8
 
 [Margin]
-7
+8
 [/Margin]
 
-{dropcap:S|lines=?|style=decorated|decoration="ornamental"}I duæ pyramides triangularũ basium fuerint æquales, earũ bases earundẽ altitudinibus mutuæ erunt. Si uero bases & altitudines fuerint mutuæ, easdem pyramides sibi inuicem esse æquales necesse est.
+{dropcap:O|lines=?|style=decorated|decoration="ornamental"}Mnium duarum pyramidum similium quarum bases triangulæ, est proportio alterius ad alteram, tanquã lateris ad latus eius relatiuum proportio triplicata.
 
-CAMPANVS. Quod 34 & 35 undecimi proposuerũt de solidis parallelogrammis, & nos in 36 eiusdem demonstrauimus de seratilibus, hæc 7 duodecimi proponit de pyramidibus habentibus bases triangulas. Intelligantur enim duæ pyramides æquales super duos trigonos uel triangulos a & b, quæ dicantur a & b. Dico itaq̃ q̃ proportio basis a ad basin b, est sicut proportio altitudinis pyramidis b ad altitudinẽ pyramidis a. Et si hoc fuerit, dico pyramides a & b esse æquales. Adhibeantur quidem duobus trigonis a & b, duo alij qui sunt c & d ut fiant ambæ superficies a c & b d æquidistantiũ laterũ, & ex ipsis pyramidibus super bases a c & b d, cõpleantur solida parallelogrãma pyramidibus propositis æque alta quæ similiter dicãtur a c & b d. Manifestũ igitur est ex sexta huius 12, q̃ pyramis a est sexta pars solidi a c, & pyramis b sexta solidi b d. Itaq̃ ex 35 undecimi argue propositũ, primam quidem partem ex prima, secũdam autem ex secunda.
+CAMPANVS. Propositis duabus pyramidibus similibus bases triangulas habentibus, ex ipsis perfice duo solida parallelogrãma, quemadmodũ dictum est in demõstratione præmissæ, eruntq̃ hæc duo solida parallelogramma similia, eo q̃ pyramides ponuntur similes adinuicẽ, nam duo solidi anguli qui sunt cõmunes pyramidibus & solidis parallelogrãmis, superficialibus angulis numero & quantitate æqualibus cõtinentur, & latera quoq̃ illos angulos superficiales continẽtia, sunt proportionalia. Quare ex 34 primi tres superficies solidorũ parallelogrãmorũ cõmunes angulos solidos constituẽtes, sunt æquiangulæ & laterũ proportionaliũ, ideoq̃ similes ex diffinitione similium superficierũ: quare ex 24 & 15 quinti cunctæ sex superficies horum duorũ solidorũ parallelogrãmorũ, sunt similes adinuicẽ. Igitur à diffinitione corporũ similium, erunt ipsa solida similia. Quare cũ proportio solidorũ & pyramidũ sit una ex 15 quinti (nam solida sunt sexcupla pyramidibus ex 6 huius) cumq̃ sit proportio solidorũ una sicut suorũ relatiuorũ laterum triplicata ex 36 undecimi libri, sunt autem latera solidorũ eadem lateribus pyramidum, erit quoq̃ ex 11 quinti proportio propositarũ pyramidũ sicut suorum relatiuorũ laterum proportio triplicata, quod est propositum.
 
-[Diagram: square divided by a diagonal into two triangles, c above and a below; beside it a rhomboid divided by a diagonal into two triangles, b on the left and d on the right]
+## CAMPANI additiones.
 
-## CAMPANI additio.
+Quod si fuerint duæ quælibet pyramides lateratæ similes, erit proportio alterius ad alterã sicut sui lateris ad sibi relatiuũ latus alterius proportio triplicata.
 
-Quod si duæ quælibet pyramides lateratæ fuerint æquales, earum bases earundem altitudinibus mutuæ erunt. Si uero bases earum altitudinibus ipsarum mutuæ fuerint, eadem pyramides æquales esse oportet.
+[Diagram: pentagon with c at top, d upper left, g upper right, e lower left, f lower right; lines drawn from the vertices meeting at interior point a]
 
-Si bases utrarũq̃ fuerint triãgulæ, demostratũ est uerum esse q̃d diximus. Si altera tantum, sit igitur a, basisq̃ alterius pyramidis sit b, & sumatur trigonus c æqualis polygonio b, fiatq̃ super c, pyramis æque alta pyramidi quæ est super b, & sint a, b, c, æquiuoca nomina pyramidum & basium. Quia igitur ex hypothesi duæ pyramides a & b sunt æquales, & ex ultima interpositarũ ad sextam huius duæ pyramides b & c sunt æquales, ideoq̃ ex cõmuni scientia duæ pyramides a & c æquales, igitur bases earũ sunt mutuæ ad altitudines earum ex prima parte 7 huius. Cumq̃ bases b & c sint æquales, altitudines quoq̃ pyramidum b & c æquales erunt, ex prima parte & secunda 7 quinti, bases a & b mutuæ altitudinibus pyramidum a & b.
+Sint duæ lateratæ pyramides, quarum coni a & b, similes, sintq̃ super bases pentagonas quæ sunt c d e f g, h k l m n. Dico quod proportio earum, est sicut suorũ relatiuorũ laterum triplicata. Constat enim ex diffinitione similium superficierũ & corporũ, quod pentagoni qui sunt bases propositarũ pyramidum, sibi adinuicẽ, cunctiq̃ relatiui trianguli ipsas ambientes sibi inuicẽ, sunt similes. Diuidantur itaq̃ bases ambarũ in triãgulos similes & numero æquales prout 18 sexti proponit esse possibile, protractis in hac quidem lineis c e & c f, in illa uero h l & h m. Dico igitur istas pyramides esse diuisas in pyramides triãgulas similes & numero æquales. Conferãtur enim adinuicẽ duæ pyramides a c d e, b h k l, quarũ coni sunt a & b. Constat autem ex hypothesi triangulũ c a d esse similem trian
 
-[Diagram: pentagon labelled b at top; below it on the left a right triangle labelled a, and on the right a triangle labelled c]
+[Diagram: second pentagon with h at top, k upper left, n upper right, l lower left, m lower right; lines drawn from the vertices meeting at interior point b]
 
-Secunda pars conuerso modo probatur. Nam si fuerit basis a ad basin b, ut altitudo pyramidis b ad altitudinẽ pyramidis a, erit ex secunda parte & prima 7 quinti, basis a
+<!-- Signature: L 2 -->
 
-<!-- Catchword: ad basin -->
+<!-- Catchword: gulo -->

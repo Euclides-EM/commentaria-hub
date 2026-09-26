@@ -1,25 +1,45 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 253 -->
+<!-- Page number: 254 -->
 
-ne & in potentia. Sumo itaque duos numeros nequaquam se habentes in proportione aliquorum numerorum quadratorum,sintq̃ hi b & c,quos facile est sumere,cū quilibet quadratus numerus ad quēlibet non quadratum eam habeat proportionē quā nequaquā habent aliqui numeri quadrati,confirmante hæc 22 octaui. Duobus talibus numeris sumptis inuenio lineam d,ad cuius quadratum se habeat quadratum lineæ a sicut numerus b ad numerum c. Hāc autem lineam ita reperio. Diuido lineam a in tot partes æquales quot sunt unitates in numero b,quod facile facio adiuuāte 11 uel 12 sexti,dehinc super extremitatem lineæ a,erigo lineam e perpēdiculariter,in qua toties cōtineatur una ex partibus a,quoties unitas est in c. Quia igitur ex prima sexti proportio quadrati lineæ a ad superficiem quæ fit ex a in e est sicut a ad e,& ideo sicut numeri b ad numerum c:ponatur d medio loco proportionalis inter a & e sicut docet 9 sexti. Quia tunc per primam partem 6 eiusdē quadratum erit æquale superficiei productæ ex a in e,erit proportio quadrati lineæ a ad quadratū lineæ d,sicut numeri b ad numerū c quare a & d,sunt cōmēsurabiles in potentia ex diffinitione.& per ultimam partem,ipse sunt incommensurabiles in longitudine,reperta est itaque d prima linea.quam propositum erat inquirere. Alteram sic reperio Interpono ut docet 9 sexti, lineam f medio loco proportionalem inter a & d,eritque per correlariū 17 sexti quadratum a ad quadratum f,sicut a ad d.itaque per secundam partē 10,quadratum a est incommensurabile quadrato f,igitur linea f est incommensurabilis lineæ a in potentia,quare & in longitudine.est itaque f secunda linea quam propositū erat reperire,Et sic patet propositum.
+cimæ & decimætertiæ ex Zamberto propositionibus respondet. Nona apud Campanū cum additione,decimæquintæ & decimæsextæ ex Zamberto propositionibus. Decima autem & undecima apud Campanū,decimæ,& undecimæ ex Zāberto propositionibus præpostero respondent ordine. Duodecima uero apud campanum,decimæquartæ ex Zamberto propositioni respondet.
 
-[Diagram: rows of dots labelled b (four dots) and c (three dots); horizontal line a with perpendicular line e erected at its right end; below, two lines labelled f Re. cub. 48 and d Re. q. 12]
+## THEON Lemma.
 
-## Eucli.ex Camp. Propositio 12
+Quoniam autem ostensum est in arithmeticis(ex 26 octaui)quod similes plani numeri adinuicem rationem habent quam quadratus numerus ad quadratum numerum,& quod si bini numeri adinuicem rationem habuerint quam quadratus numerus ad quadratum numerum similes sunt ipsi plani numeri(per 24 eiusdem)manifestum ex his quod dissimiles plani numeri hoc est latera proportionalia non habentes,adinuicem rationem non habent quam quadratus numerus ad quadratum numerum. Si enim habebunt,similes ipsi plani erant,quod quidem non supponitur. Dissimiles igitur plani numeri adinuicem rationem nō habent, quam quadratus numerus ad quadratum numerum.
+
+## Eucli ex Zamb. Problema 5 Propositio 10
+
+[Margin]
+10
+[/Margin]
+
+Propositæ rectæ lineæ binas rectas incommensurabiles inuenire lineas, alteram quidem longitudine tantum,alteram autem & potentia.
+
+THEON ex Zamberto. Sit proposita recta linea α,oportet iam ipsi α,binas rectas inuenire incommensurabiles,alteram quidem longitudine tantum,alteram autem & potentia. Ponantur bini numeri β,δ{printer-error-correction:β,γ},adinuicem rationem non habentes quā quadratus numerus ad quadratū numerum,hoc est non similes plani,& fiat sicut β ad γ,sic quod ex α quadratum ad id quod ex δ,quadratum,commensurabile igitur est quod ex α,ei quod ex δ,commensurabilis igitur potentia est α ipsi δ,& quoniam β,ad γ rationem non habet quam quadratus numerus ad quadratum numerum,neq̃ igitur quod ex α ad id quod ex δ rationem habet quā quadratus numerus ad quadratum numerū,incommensurabilis igitur est (per 9 decimi) α ipsi δ,lōgitudine.Capiatur(per 13 sexti,)ipsarum α,δ,media proportionalis ε,est igitur sicut α ad δ,sic quod ex α,quadratum ad id quod ex ε,Incommēsurabilis autem est α,ipsi δ longitudine,incommensurabile igitur est & id quod ex α quadratum,ei quod ex ε quadrato.Incommensurabilis igitur est α,ipsi ε,potentia.Propositæ igitur rectæ lineæ α,inuentæ sunt binæ rectæ lineæ incommensurabiles,longitudine,inquam,tantum ipsa δ,at ε potentia & longitudine. Propositæ igitur rectæ lineæ rationali,à qua diximus mensuras capi,uidelicet ipsi α,inuenta est tantum potentia commensurabilis δ,hoc est rationalis,potentia tantum commensurabilis,irrationalis autem ε,irrationales enim in uniuersum appellat, longitudine & potentia ipsi rationali incommensurabiles.
+
+[Diagram: three vertical lines labelled at foot α, ε, δ, with rotated captions Re. 16 beside α, me.pro. beside ε, and Re. 28 beside δ; at the right two vertical columns of dots labelled β and γ]
+
+## Eucli.ex Zamb. Theorema 8 Propositio 11
+
+[Margin]
+11
+[/Margin]
+
+Si quatuor magnitudines proportionales fuerint,prima autem secundæ fuerit commensurabilis,& tertia quartæ commensurabilis erit, & si prima secundæ incommensurabilis fuerit,& tertia quartæ incommensurabilis erit.
+
+THEON ex Zamb. Sint quatuor magnitudines proportionales α,β,γ,δ,sicut α ad β, sic γ ad δ, sit autem α ipsi β commensurabilis. Dico quod & γ ipsi δ est commensurabilis.Quoniam enim commensurabilis est α ipsi β,rationem habet(per 5 decimi,)quam numerus ad numerum. Estq̃ sicut α ad β,sic γ ad δ.Igitur & γ ad δ habet rationem,quam numerus ad numerum. Commensurabilis igitur est γ ipsi δ. Sed iam α ipsi β incommensurabilis esto. Dico quod & γ ipsi δ est incōmensurabilis.Quoniā enim incommensurabilis est α ipsi β,igitur(per 7 quinti)α ad β,non habet rationem quam numerus ad numerum,& est sicut α ad β,sic γ ad δ.Igitur(per 5 decimi,)γ ad δ,non habet rationem quam numerus ad numerum.Incommensurabilis est igitur γ ipsi δ,Si quatuor igitur magnitndines{printer-error-correction:magnitudines},& quæ sequuntur reliqua,quod oportuit demonstrasse.
+
+[Diagram: two groups of four horizontal lines, each labelled α, β, γ, δ]
+
+## Eucli.ex Zamb. Theorema 9 Propositio 12
 
 [Margin]
 12
 [/Margin]
 
-{dropcap:O|lines=?|style=decorated|decoration="foliate"}Mnium quatuor linearum proportionalium si prima tanto amplius possit secunda quantum est quadratum alicuius lineæ commuuicantis{printer-error-correction:communicantis} sibi in longitudine, necesse est tertiam quoque tanto amplius posse quarta,quantum est quadratum alicuius lineæ communicantis sibi in longitudine. Quod si fuerit prima potentior secunda quadrato alicuius lineæ incommensurabilis sibi in longitudine, erit quoque tertia potentior quarta quadrato alicuius lineæ sibi incommensurabilis in longitudine.
+Quæ eidem magnitudini commensurabiles, & adinuicem sunt commensurabiles.
 
-CAMPANVS Sint quatuor lineæ proportiōales a,b,c,d,sitque a maior b;& c maior d,sit quoque a potentior b,quadrato lineæ e: & c potētior d,quadrato lineæ f.dico quod si a communicet e in lōgitudine.c quoque cōmunicabit f in longitudine,quod si a non communicat e in longitudine,nec c communicabit f in longitudine.Quod & si a cōmunicat e in potentia tantum.c quoque cōmunicabit f in potentia tantū. Veruntamen istud ultimum non proponit autor,quia facile patet ex priorum demōstratione.Cū sit enim proportio a ad b sicut c ad d,erit quadrati a ad quadratū b,sicut quadrati c ad quadratū d.Et quia quadratū a est æquale quadratis duarum linearum b & e,similiter quadratum c quadratis duarum linearum d & f,erit proportio quadratorum duarum linearum b & e ad quadratum e,sicut quadratorum d & f ad quadratum f,ergo disiūctim erit quadratum b ad quadratum e, sicut quadratum d ad quadratum f,ergo b ad e sicut d ad f,item per æquam proportionalitatem erit a ad e,sicut c ad f,ergo per primā partem decimæ constat prima pars huius,& per secundam secunda,& per tertiam ibi adiunctam, tertia hic adiuncta.
+THEON ex Zamb. Vtraque enim ipsarum α,β,ipsi γ sit cōmensurabilis.Dico quod & α ipsi β est commēsu
 
-[Diagram: six horizontal lines labelled a, b, e, c, d, f, marked into parts]
-
-Quinque præcedentes propositiones ex Campano cum suis additionibus,sequētibus septem ex Zamberto cū sibi præmissis lemmatibus hoc ordine respondent. Octaua apud Campanum cū additione, duode
-
-<!-- Signature: y -->
-
-<!-- Catchword: cimæ -->
+<!-- Catchword: rabilis, -->

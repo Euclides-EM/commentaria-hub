@@ -1,33 +1,37 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER VNDECIMVS. -->
 
-<!-- Page number: 372 -->
+<!-- Page number: 373 -->
 
-demonstrandum, ipsa omnia esse æqualia adinuicem. Sunt autem eorū alia quæ non dicūtur constituta super lineam unam, & sunt illa quorum supremarū superficierū duo latera opposita quæcunq̃ sumantur secūdum rectitudinem protracta, non sunt linea una, & de talibus sequens demonstrandum proponet, ipsa quoq̃ omnia esse adinuicē æqualia. Sint itaq̃ duo solida parallelogrāma æque alta siue inter superficies æquidistantes a b & a c, constituta super unam basin quæ sit a d, quorū supremæ superficies sunt e b & b c, sintq́̃ harum supremarū superficierū duo latera opposita, cum secundum rectitudinē protrahantur, linea una, & ipsa sunt c f & b c. Dico itaq̃ quod solida a b & a c, sunt æqualia. Hoc autem (si figura eius secundum quod oportet, actu uel cogitatione fabricaueris, & quemadmodū in 35 primi processeris, idem faciens hic de serratilibus quod ibi de triangulis) facile cōcludere poteris, occurruntq́̃ tibi hic eædem diuersitates in solidis, quæ ibi in superficiebus occurrisse nouisti.
+secundum rectitudinem, secent duo alterius earum protracta secūdum rectitudinem. Protrahantur itaque duo opposita latera superficiei e b, quæ sint e g & h b, & duo opposita superficiei f c, quæ sint k f & c l, & secent super quatuor puncta m, n, p, q, eritque superficies m n p q, æquidistantium laterum æqualis unicuique trium superficierum, quarum una est basis propositis solidis communis, & ipsa est a d, & duæ reliquæ sunt supremæ superficies eorundem solidorum, & ipsæ sunt e b & c f. Ductis itaq̃ lineis à quatuor punctis m, n, p, q, ad quatuor angulos basis a d sibi secundū directam habitudinem relatos, quæ sit n a, m r, p s, q d, perfectum erit solidum parallelogrammū a q in eadem basi cum utroq̃ duorū priorū, & æque altum, & super lineā unā cū utroque ipsorum. Per præmissam igitur utrunlibet duorum solidorum propositorū quæ sunt a b & a c, est æquale solido a q, per conceptionem ergo est solidum a b, æquale solido a c. Quare cōstat propositum.
 
-[Diagram: two parallelepipeds on the same base drawn as one slanted solid; labels b and c at the top, d inside at the left, e and f on the front face, a at the lower left, with diagonal lines through the base]
+CAMPANVS Potes quoque cōuersas huius & præmissæ probare si libet, ducendo ad impossibile. Pones enim quælibet duo solida parallelogramma esse æqualia & constituta super eandem basin æquidistantia, & demonstrabis ea esse æque alta. Eruntq́̃ hæc & præmissa. tuæ demonstrationis medium. Impossibile autem ad quod duces, erit partem suo toti esse æqualem. Quod euidenter patebit, si de illo solido (quod altius esse mentitur aduersarius, cum tamen ambo posita sint æqualia & super eandem basin constituta) unum solidum parallelogrammum æque altum demissiori abscideris. Hoc aūt abscisum æquale esse demissiori cōuinces ex hac & præmissa, ideoq́̃ & toti illi a quo ipsum abscideris ex communi scientia.
 
-## Eucli. ex Zamb. Theorema 24. Propositio 29.
-
-[Margin]
-19{printer-error-correction:29}
-[/Margin]
-
-## Super eadem basi & sub eadem altitudine solida parallellepipeda consistentia, quorum stantes super eisdem snnt{printer-error-correction:sunt} rectis lineis, inuicem sunt æqualia.
-
-THEON ex Zamb. Sint super eadem basi α β, solida parallelepipeda γ μ, γ ν, sub eadem altitudine, quorum stantes, hoc est α ζ, α η, λ μ, λ ν, γ δ, γ ε, β θ, & β κ, super eisdem sint rectis lineis ipsi ζ ν δ κ plano. Dico quod solidum γ μ, æquum est ipsi γ ν solido. Quoniam enim parallelogrammū est utrunq̃ ipsorū γ θ, γ κ, æqualis est (per 34 primi) γ β utriq́̃ ipsarū δ θ, ε κ. Quare & δ θ, ipsi ε κ est æqualis. Cōmunis auferatur ε θ, reliqua igitur δ ε, reliquæ θ κ est æqualis. Quare & ipsum quidem δ γ ε triangulū ipsi θ κ β triangulo est æquale, & δ η parallelogrammū ipsi θ ν parallelogrāmo, & id propterea triangulū α η ζ, triangulo μ λ ν est æquale. Est autem & ipsum quidē γ ζ parallelogrammū, ipsi β μ parallelogrāmo æquum, & γ η, ipsi β ν, ex opposito nanq̃. Igitur & prisma cōprehensum sub duobus quidem triāgulis ζ α η, δ γ ε, tribusq́̃ parallelogrāmis α δ, δ η, γ η, æquū est prismati cōprehenso sub duobus quidē triangulis μ λ ν, θ β κ, & tribus parallelogrāmis, hoc est β μ, ν θ, β ν. Cōmune apponatur solidū, cuius basis quidem sit parallelogrammū α β, ex opposito autē η ε θ μ. Totum igitur γ μ solidum parallelepipedū, toti γ ν solido parallelepipedo est æquale. Super eadem igitur basi existētia solida parallelepipeda & sub eadem altitudine, quorū stantes super eisdem sunt rectis lineis, sunt inuicē æqualia. Quod oportuit ostendere.
-
-[Diagram: a tall parallelepiped with two slanted solids on the same base; visible labels ν and κ at the top, μ, θ, λ, β along the sides, η and ζ within, ε, δ lower, α and γ at the bottom]
-
-## Eucli. ex Camp. Propositio 30.
+## Eucli. ex Zamb. Theorema 25. Propositio 30.
 
 [Margin]
-20{printer-error-correction:30}
+30
 [/Margin]
 
-## CVncta solida æquidistantium superficierū æque alta, quæ in eadem basi non autem super unam lineam fuerint cōstituta, probantur esse æqualia.
+## Super eadem basi existentia solida parallelepipeda & sub eadē altitudine, quorū stantes nō sunt super eisdē rectis lineis, inuicem sunt æqualia.
 
-{dropcap:C|lines=?|style=decorated|decoration="ornamental"}AMPANVS. Sint nūc duo solida parallelogrāma æque alta siue inter superficies æquidistantes, sintq́̃ super unam & eandem basin, sed non super lineā unam constituta. Dico iterum ea esse æqualia. Esto enim duo solida parallelogrāma a b & a c æque alta siue inter superficies æquidistantes, cōstituta super unam basin quæ sit a d, sed non super unam lineam, sintq́̃ eorū supremæ superficies e b & f c, quarum opposita latera secundum rectitudinem protracta, non erunt linea una. Cumq́̃ ipsa ex hypothesi sint in una supficie eo ꝗ solida proposita sunt inter superficies æquidistantes, necesse est ut duo latera unius earum protracta
+THEON ex Zamb. Sint super eadem basi α β solida parallelepipeda γ μ, γ ν, sub eadē altitudine, quorū stantes α ζ, α η, λ μ, λ ν, γ δ, γ ε, β θ, β κ, non sint super eisdē rectis lineis. Dico quod solidum γ μ, æquū est ipsi γ ν solido. Extendātur, inquam, ipsæ ν κ, η ε, insuper & ipsæ μ θ, ζ δ, concurrantq́̃ adinuicē in ο ρ, π ξ, signis, connectanturq́̃ α ξ, λ ο, γ π, β ρ. Aequum iam est (per 29 undecimi) ipsum γ μ solidum, cuius basis est α γ β λ, parallelogrammum: ex opposito uero ζ δ θ μ, ipsi γ ο solido, cuius quidem basis α γ β λ, parallelogrammum, ex opposito autem ξ π ρ ο, super eadem enim basi sunt α γ β λ, quorum stantes α ζ, α ξ, λ μ, λ ο, γ δ, γ π, β θ, β ρ, super eisdem sunt rectis lineis ζ π, μ ρ. Sed solidum γ ο, cuius basis quidem est α γ β λ parallelogrammū, ex opposito autem ξ π ρ ο, æquum est ipsi γ ν solido, cuius basis quidem α γ β λ, parallelogrammum, ex opposito autem η ε κ ν, super enim eadem sunt basi α γ β λ, & ipsorum stantes α η, α ξ, γ ε, π γ, λ ν, λ ο, β κ, β ρ, super eisdem sunt rectis lineis ν ξ, π κ. Quare & γ μ solidum, æquum est ipsi γ ν solido. Super æqualibus igitur basibus existentia solida parallelepipeda & sub eadē altitudine quorum stantes non sunt super eisdem rectis lineis, sunt inuicem æqualia. Quod erat ostendendum.
 
-[Diagram: two oblique parallelepipeds standing on the same base; labels k and c at the top, f, l, m and q at the right, b at the upper middle and at the left, d and g, n inside, r and e at the left, p at the right, a and s at the bottom]
+[Diagram: parallelepiped with two oblique solids on the same base and their top faces extended; visible labels include ν and π at the top, μ, σ, θ at the upper face, λ and β at the sides, η, ξ, δ, κ within, α and γ at the bottom]
 
-<!-- Catchword: secundum -->
+## Eucli. ex Camp. Propositio 31.
+
+[Margin]
+31
+[/Margin]
+
+## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}Olida æquidistantium superficierum in basibus æquis constituta, si fuerint æque alta, lineæq́̃ eorum angulares supra bases orthogonaliter steterint, erunt æqualia.
+
+CAMPANVS Et hoc quoq̃ uerum est q̊d omnia solida parallelogramma in æquis basibus atq̃ inter superficies æquidistātes, siue æque alta cōstituta sunt adinuicem æqualia, sicut de superficiebus æquidistantium laterū super æquales bases & inter lineas æquidistantes constitutis in 36 primi probatum est. At talium solidorum, alia sunt quorum angulares lineæ super suas bases orthogonaliter eriguntur, de quibus hæc 31 proponit demonstrādum esse ea esse  æqualia. Alia uero sunt quorum angulares lineæ super suas bases nō sunt orthogonaliter erectæ, de quibus sequēs
+
+[Diagram: a plain parallelogram with labels c at the upper left and d at the lower right]
+
+[Diagram: an L-shaped arrangement: a horizontal rectangle with labels a at the left and l at the right, q and f at its lower edge, and below it a tall rectangle with diagonal lines, labelled c, k, g, b along the bottom]
+
+<!-- Signature: I -->
+
+<!-- Catchword: demō -->

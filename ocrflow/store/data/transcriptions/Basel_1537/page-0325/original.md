@@ -1,25 +1,61 @@
-<!-- Running title: GEO. ELEMEN. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Page number: 314 -->
+<!-- Page number: 315 -->
 
-## Eucli. ex Camp. Propositio 76
+CAMPANVS Intellige quid sit linea minor quod si oblitus es, cōsule 21. & sine obiectione concludes propositum. si quemadmodū in 74 processeris, poterisque si libuerit, quemadmodum in 76 procedere.
 
-## 76 {dropcap:N|lines=?|style=decorated|decoration="woodcut"}Vlla linea residuo mediali scd̕o cōiūgibilis est, ut sub termino earū fiāt, nisi tm̃ quæ ab ea ante sep̄ata erat
+## Eucl.ex Zãb. Theorema 64 Propositio 82
 
-CAMP. Sit em̃ a c residuū mediale scd̕m, quæ fuit residua, ascisa b c ex a b, erūtq́; ex 70, duæ lineæ a b & b c, mediales potētia tātū cōicātes mediale cōtinētes. Dico q̄d̕ ipsa a c, nulli lineæ alij q̃ c b, sub hac diffinitione cōiūgi potest. Sin aūt, cōiūgatur lineæ c d. Sitq́; linea e f rōnalis in lōgitudine, ad q̃ cōniūgatur supficies e h, æqualis quadratis duarū linearū a b & b c pariter acceptis, & e k æqualis quadratis linearū a d & d c pariter acceptis, à qua abscīdatur e g, æqualis quadrato lineæ a c, eritq́; per 7 scd̕i supficies l h æqualis duplo supficiei a b in b c, & l k p̄ eādē æqualis duplo supficiei a d in d c. Quia ergo quadrata ambarū partiū primæ sectiōis sūt mediale, & duplū etiā superficiei mediale incōmēsurabile duob9 quadratis pariter acceptis (quæ nescire diligēs Geometra nō poterit qui positiōes diligēter seruauerit) erit supficies e h medialis, cū ipsa sit æqualis duob9 quadratis pariter acceptis, & supficies l h medialis cū ipsa sit æqualis duplo supficiei uni9 in alterā, per 20 igitur est utraq̀ duarū linearū f h & g h. rōnalis in potētia tm̃. Et quia una est incōmēsurabilis alij, eo q̀ superficies e h est incōmēsurabilis superficiei h l sicut duo quadrata duplo superficiei, erit ex 68 linea f g residuū. Quare linea f g quæ est residuū, cōponitur lineæ g h. ut sint ambæ sub termino earū quæ erāt ante separationē. Similiter quoq̀; probabis eandē f g cū linea g k cōponi eadē cōditione, mediātibus superficieb9 e k & k l, quarū prima est æqualis quadratis duarū linearū a d & d c, pariter acceptis, & secūda duplo superficiei unius in alterā, quod est impossibile per 74. Et hic modus demōstrationis potest esse cōmunis 75 cæterisq́; quatuor eā sequentibus.
+[Margin]
+82
+[/Margin]
 
-[Diagram: line a c d b above; at right a tall rectangle with h at top right, a division marked k on the right side, a lower division marked l on the left and g on the right, corners e (bottom left) and f (bottom right)]
+Minori una tantum congruit recta linea potentia toti incommensurabilis subsistens, efficiens cum tota compositum ex earum quadratis rationale. quod uero bis sub ipsis medium.
 
-## Eucli. ex Zamb. Theorema 62 Propositio 81
+THEON ex Zamb. Esto minor α β, & ipsi α β congruens esto β γ, ipsæ igitur β γ, γ β{printer-error-correction:α γ, γ β}, potentia sunt incommensurabiles, efficientes conflatū quidē ipsarū quadratis rationale, quod uero bis sub ipsis mediū. Dico quod ipsi α β, alia recta linea non congruit efficiens eadem. Si enim poßibile, congruat β δ, & igitur α δ, δ β, potentia sunt incōmensurabiles efficientes quæ ex δ, δ β{printer-error-correction:α δ, δ β}, quadrata simul rationale, quod autē bis sub ipsis α δ δ β, medium. Et quoniā quo excedunt quæ ex α δ, δ β, ea quæ ex α γ, γ β, eo excedit & id quod bis sub α δ, δ β, quod bis sub α γ, γ β, quæ aūt ex α δ, δ β, quadrata, ea quadrata quæ ex α γ, γ β, rationali excedunt, utraque enim rationalia, & quod bis igitur sub α δ, δ β, id quod bis sub α γ, γ β, rationali excedit, quod (per 26 decimi) est impoßibile, utraq̃ nanque media sunt. Minori igitur una tantum congruit recta linea potentia toti subsistens incommensurabilis, efficiens quæ ex ipsis quadratis simul rationale, quod uero bis sub ipsis medium, quod ostendere oportebat.
 
-## 81 Mediæ apotomæ secūdæ una tātū cōgruit recta linea media potētia tm̃ toti commēsurabilis & cū tota mediū cōprehēdēs.
+[Diagram: horizontal line with points α, β, γ, δ marked above it; α at the left end, β and γ close together near the middle, δ at the right end]
 
-THEON ex Zāb. Esto media apotome secūda α β, & ipsi α β, cōgruēs sit β γ. Ipsæ igitur α γ, γ β, mediæ sūt potētia tātū cōmēsurabiles, mediū cōprehēdētes quod sub α γ, γ β. Dico quod ipsi α β, alia nō cōgruit recta linea media, potētia tātū toti subsistēs cōmēsurabilis & cū tota mediū cōp̃hēdēs. Si enim possibile cōueniat β δ, igitur α δ, & δ β, mediæ sūt potētia tātū cōmēsurabiles, mediū cōprehēdētes quod sub α δ, δ β. Exponaturq́; rōnalis ε ζ. Et eis q̄dē quæ ex α γ, γ β, æquū ad ipsam ε cōparetur (per 44 primi,) ε η, latitudinē efficiēs ε μ, ei uero quod sub α γ, γ β, æquū auferatur θ η latitudinē efficiēs θ μ. Reliquū igitur ε λ, (p̄ 7 secūdi) æquū est ei quod ex α β. Quare α β, ipsum pōt ε λ. Rursus iā eis quæ ex α δ, δ β, æquū ad ipsam ε ζ cōparetur (per 44 primi,) ε ι, latitudinē efficiēs. ε ν. Est aūt & ε λ. æquū ei quod ex α β, quadrato, reliquū igitur θ ι, (per 7 secūdi) æquū est ei quod bis sub α δ, δ β. Et quoniā ipsæ α γ, γ β, mediæ sūt, media igitur sūt & quæ ex α γ, γ β. & æqualia sunt ipsi ε η, mediū igitur (per 16 decimi & correlariū 23) est ε η. Et ad ipsam rationalē ε ζ apponitur, latitudinē efficiēs ε μ, rōnalis igitur est (per 22 decimi,) ε μ, & ipsi ε ζ lōgitudīe incōmēsurabilis, rursus quoniā quod sub α γ, γ β, mediū est, & quod bis sub α γ, γ β, mediū est (per correlariū 23 decimi) & æquū est ipsi θ η, & θ η. igitur mediū est. Ad ipsamq́; ε ζ rōnalē apponitur, latitudinē efficiēs θ μ, rōnalis igitur est θ μ (per 22 decimi,) & ipsi ε ζ, lōgitudine incōmēsurabilis. Et quoniā α γ, γ β, potētia tātū sūt cōmēsurabiles, incōmēsurabilis igitur est α γ, ipsi γ β, lōgitudine. Sicut aūt α γ, ipsi γ β, sic est (per lēma 21 decimi) quod ex α γ ad id quod sub α γ, γ β. Incommēsurabile igitur est (per 11 decimi,) quod ex α γ, ei quod sub α γ, γ β. Sed ei quod ex α γ, cōmēsurabilia sūt quæ ex α γ, γ β. Ei aūt quod sub α γ, γ β. cōmēsurabile est quod bis sub α γ, γ β. Incōmēsurabilia igitur sunt q̃ ex α γ, γ β. ei quod bis sub α γ, γ β. Eis aūt quæ ex α γ, γ β, æquū est ε η, ei uero quod bis sub α γ, γ β, æquū est η θ. Incōmēsurabile igitur est ε η, ipsi θ η. Sicut aūt ε η, ad θ η, sic est ε μ, ad θ μ. Incōmēsurabilis igitur est ε μ, ipsi θ μ lōgitudine. Et utræq́; sunt rōnales. Ipsæ igitur ε μ, μ θ, rōnales sunt potētia tātū cōmēsurabiles. Apotome igitur est ε θ, cōgruēs aūt ei est θ μ. Similiter ostēdemus quod & θ ν, ei cōgruit. Apotome igitur, alia & alia cōgruit recta linea, potētia tantū toti subsistēs cōmēsurabilis, quod (per 79 decimi,) est impossibile. Mediæ igitur apotomæ secūdæ una tantū cōgruit recta linea potētia tantū toti subsistēs cōmensurabilis & cū tota mediū cōprehēdēs quod erat ostēdendū.
+## Eucli.ex Camp. Propositio 78
 
-[Diagram: line α β γ δ above; below, a rectangle divided by three vertical lines, top corners ε, θ, μ, ν, bottom corners ζ, λ, η, ι]
+[Margin]
+78
+[/Margin]
 
-Eucl. ex Cāp. Propositio 77
+Linea quæ coniuncta cum rationali facit totum mediale, nisi uni tantum componi non potest ut sub earum termino fiant quæ erant ante separationem.
 
-## 77 {dropcap:N|lines=?|style=decorated|decoration="woodcut"}Vlla linea minori coniungibilis est ut sub termino suo fiant nisi tantum quæ ante sibi abscisionē cōiungebatur.
+CAMPANVS Quid sit linea quæ proponitur, ex 72 didicisti. Cum ergo de ea uolueris quod per hanc 78 dicitur demonstrare, à processu 75, in, quoquã non deuies, sed sicut in 76, si te delectauerit, ingenio duce poteris procedere.
 
-<!-- Catchword: CAM -->
+## Eucli.ex Zamb. Theorema 65 Propositio 83
+
+[Margin]
+83
+[/Margin]
+
+Efficienti cum rationali medium totum una tantum congruit recta linea potentia toti incommensurabilis subsistens, & cum tota efficiens conflatum quidem ex ipsarū quadratis medium, quod uero bis sub ipsis rationale.
+
+THEON ex Zamberto. Sit cum rationali medium totum efficiens α β, & ipsi α β congruat β γ. Ipsæ igitur α γ, γ β, potentia sunt incommensurabiles, efficientes conflatum quidem ex ipsarum α γ, γ β, quadratis mediū, quod uero bis sub ipsis α γ, γ β, rationale. Dico quod ipsi α β, alia non congruit eadem efficiens. Si enim poßibile, congruat β δ, & ipsæ igitur α δ, δ β, rectæ lineæ, potētia sunt incōmensurabiles, efficiētes conflatū ex ipsarū α δ, δ β, quadratis mediū, quod uero bis sub ipsis α δ, δ β, ratiōale. Quoniā igitur quo excedunt quæ ex α δ, δ β, ea quæ ex α γ, γ β, eo excedit & quod bis sub α δ, δ β, id quod bis sub α γ, γ β, cōsequēter ut in præcedētibus, quod uero bis sub α δ, δ β. id quod bis sub α γ, γ β, excedit rōnali, rationalia namq̃ utraque & quæ ex α δ, δ β, igitur ea quæ ex α γ, γ β, excedunt rationali, quod est (per 26) impoßibile, utraque enim media sunt (per 77 decimi.) Ipsi igitur α β, alia non congruit recta linea potentia toti subsistens incommensurabilis, & cum tota efficiens conflatum ex ipsarum quadratis medium, quod autem bis sub ipsis rationale. Efficienti ergo cum rationali medium totum una tantum congruit recta linea, & quæ sequuntur reliqua. Quod erat demonstrandum.
+
+[Diagram: horizontal line with points α, β, γ, δ marked above it; α at the left end, β and γ close together near the middle, δ at the right end]
+
+## Eucli.ex Camp. Propositio 79
+
+[Margin]
+79
+[/Margin]
+
+Lineæ quæ iuncta cum mediali facit totū mediale, nisi una linea tantum iungi nequit ut sub earum termino fiant quæ erant ante separationem.
+
+CAMPANVS Huius lineæ quæ iuncta cum mediali componit totū mediale, magistra est 71. De qua quod hæc 79 enuntiat concludere cogeris, sicut de residuo mediali secundo (quod per 76 enuntiatum est) conclusisti.
+
+## Eucli.ex Zamb. Theorema 66 Propositio 84
+
+[Margin]
+84
+[/Margin]
+
+Efficienti cum medio medium totum, una tantum congruit recta linea
+
+<!-- Signature: D 2 -->
+
+<!-- Catchword: poten -->

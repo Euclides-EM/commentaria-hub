@@ -1,29 +1,27 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: PERSPECTIVA -->
 
-<!-- Page number: 526 -->
+<!-- Page number: 527 -->
 
-Esto enim cylindri circa basim circuli centrum K, & ab ipso k oculo in K centrum per 1 postulatum connectatur b K, & per K, per 11 primi elementorum ad angulos excitetur rectos c d, & circum k b circulus describatur, per 3 postulatū & cōnectantur b n, n k, b l, l k: iam per ea quæ prædicta sunt l f n, minus est semicirculo, & similiter basi cylindri minus est, & dimidium spectabitur. Sed propius excitetur oculus, sitq̃ q & circū f k, per 3 postulatū circulus describatur cōnectaturq̃ q r, r k, k f, & f q. Igitur qui ab ipso q radij p̃cidētes per q r, & q f, cadunt. q uero ab ipso b scatet, cadūt per b l, b n, maior igitur ambitus n f l, ambitu r f s, uidetur aut minor r f s ipso n f l, maior enim est angulus, q angulo b, per 20 tertij elementorum, quare cylindri minor pars spectabitur. uidetur autem maior aspici.
+coni ad uerticem eius perq̃ deductas, & eis quæ ab oculo in basim coni procidentibus plana educta fuerint, in communique planorum sectione oculus positus fuerit, id quod spectatur coni, omnifariam æquum spectabitur uisu in plano proposito existenti.
 
-[Diagram: circle with centre K at its base, apex b above; from b lines descend to the circle; inner circle through the cone with points q, s, r; points n, d at lower left, l, c at lower right]
+Sit conus cuius basis quidē sit circulus c d, uertex autem sit b signum, oculus uero sit K a quo procidant radij k d, k c, tangentes in c d, cōnectanturq̃ ab ipsis d c, signis in uerticem coni d b, & c b, & per c b, & c K, quidem planum extendatur quod est ipsorum d b K. Similiterq̃ alterum protendatur planum, igitur ipsi plani ueniunt in congressum, nam ipsæ c d b, concurrunt, & c K, d k, cōcurrunt, ueniant in congressum igitur ipsa plana, & sit eorū communis sectio b K. Dico quod ubi in b k, positus fuerit oculus, quo spectatur coni, æquū est, ponatur in b k oculus sitq̃ f, exciteturq̃ per 11 primi ele. per f ad ipsam quidē k, ipsa f n, ad ipsam autem c k ipsa f s. Igitur ipsæ f n, f s, coni superficiem in signis f s, tangunt. In ipsa enim coni super æquidistantium circulorum segmenta sunt similia. igitur in ipsa b d, coni superficie interualla spectata æqualia apparent. Quoniam æqualis est quem ipsæ f s, f n cōprehēdunt angulus ei qui sub K c, c d, cōprehēditur angulo, æquum apparuerit igitur, f n, interuallum ubiq̃ in K b, recta linea positus fuerit, æquū semper spectatum apparet.
 
-## Theorema trigesimum
+[Diagram: cone with apex b above a circle; on the slanting line from K (lower left) the points f, s, n; base points K and d below the circle, e within]
 
-COno circulum basim habente sub uno oculo perspecto, minus hemiconio spectabitur.
+## Theorema trigesimumtertium
 
-Esto enim coni basis circulus cuius centrum sit k, & ab ipso b oculo excitetur in centrum per primum postulatum b k, & per k, per 11 primi elementorum, ad angulos rectos ipsi k b excitetur n l, circum uero k b, per 3 postulatum describatur circulus. Connectanturq̃ per 1 postulatum b f, f k, b d, d k. Igitur anguli qui ad f d, recti sunt per 18 tertij elemētorum. Igitur ipsæ b d, b f in uno signo tangunt per correlarium 16 tertij elementorum, & radij qui ex b per b d, b f, procidunt, igitur ambitus f r d, perspectus minor existens ipso n r l. At n r l, semicirculus est. Igitur ambitus f r d semicirculo minor est. Quare & coni quod spectatur minus est hemiconio: similiter enim & in reliquorum circulorum ipsius coni superficie ostendemus.
+AEqualiter autem semper oculo à cono distante, sublimius quidem oculo posito minus apparet coni spectatum, humilius uero maius.
 
-[Diagram: apex b above a circle; within the circle points d, r, f; below the circle points l, K and a further point at right]
+Esto coni uertex quidem ad d signum, basis autē circulus, exciteturque per 11 primi elementorum k h. ipsi b d, ponaturque oculus in h. Dico iam id quod spectatur coni oculo posito in h minus spectabitur quàm in s. Connectātur, inquam, per primum postulatum ab ipso d signo in h s signa ipsæ h d, d s, & per secundum postulatum extendantur in n l, igitur in n & l, signo posito oculo spectata coni æqualia apparebunt, & minus quidem apparebit quod ad n, maius autem id quod ad l, æquū uero id quod ad n, ei quod ad h. Id autem quod ad l ei quod ad s, sicut in præcedēti patuit: oculo igitur in h, signo existente spectatū coni minus apparet quàm in s signo.
 
-## Theorema trigesimumprimum.
+[Diagram: apex d at upper right; circle with K at centre, e at right; points b and s at upper left, n and l at left, b below the circle]
 
-OCulo propius posito in eodem plano minor, inquam. erit uisibus assumpta pars at maior perspicij uidebitur.
+## Theorema trigesimumquartum.
 
-Esto coni basis circulus cuius centrum sit k, oculus uero sit a & ab ipso a per primum postulatum in k connectatur a k. Et per undecimam primi elementorum, ad angulos rectos excitetur per k ipsa h b. Describaturq̃ per tertium postulatum circum a k circulus, & per primum postulatum connectantur a f, f k, a d, d k, permuteturque oculus a in n, & circum k n, per tertium postulatum circulus describatur, connectanturq̃ n r, r k, n l, l k. Igitur qui ex a oculo radij scatent, per a d, a f, cadunt. Quare ambitus f q d apparet. Idque propterea & qui ab ipso n, oculo radij scatent per n r, n l cadunt, spectabitur igitur ambitus r q s. Sed maior f q d ipso r q s. At minor apparet. maior enim est angulus n eo quod ad a est angulo.
+IN circulo si à centro ad angulos rectos quædam agatur recta linea ipsius circuli plano, & in ipsa apponatur oculus circuli dimetientes æquales apparent.
 
-[Diagram: apex a above, with n just below it; larger circle enclosing a smaller one; points q, s, r within, d at left, f at right, b at either side below, k in the lower circle]
+Esto enim circulus cuius centrum sit k, & ab ipso k, per 11 undecimi ele. ad angulos rectos excitetur ipsi plano circuli ipsa k b, oculus uero sit in b: exciteturq̃ diametri c a, & d f. Dico iam ipsum a c ipsi d f, æqualem apparere cōnectantur enim ipsæ b a, b f, b c, b d. per primum postulatum. igitur binæ b K, K f, binis b K, K c, sunt altera al
 
-## Theorema trigesimumsecundum
+[Diagram: eye at a (upper left) with rays to a circle; d at top, c at right, within the circle s, r, t about the centre K, a and b at lower left]
 
-COno circulum basim habente, si a contactibus qui ab oculo in coni basim procidētibus radijs rectæ lineæ deducātur per superficiē
-
-<!-- Catchword: coni -->
+<!-- Catchword: teri -->

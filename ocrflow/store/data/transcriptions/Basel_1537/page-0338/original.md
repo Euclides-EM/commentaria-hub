@@ -1,41 +1,31 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Page number: 328 -->
 
-<!-- Page number: 327 -->
+<!-- Running title: GEO. ELEMEN. EVCLIDIS -->
 
-ne.sequitur ex diffinitione lineam b c esse residuum primum. Quod est propositum.
-
-## Eucli.ex Zamb. Theorema 73 Propositio 97
-
-[Margin]
-97
-[/Margin]
-
-## Quod ex apotome ad rationalem comparatum laritudinem{printer-error-correction:latitudinem} primam efficit apotomen.
-
-THEON ex Zāb. Sit apotome α β, rationalis autem sit γ δ, & ei quod ex α β. æquum ad ipsam γ δ, comparetur γ ε, latitudinem efficiens γ ζ. Dico quod ε ζ{printer-error-correction:γ ζ}, est prima apotome. Esto enim (per 79 decimi) ipsi α β cōgruens β η, ipsæ igitur α η, η β. (per 80 decimi) rationales sunt potentia tantum commensurabiles. Et ei quidē quod ex α η, (per 44 primi) æquum, ad ipsam γ δ, cōparetur γ θ, ei autē quod ex β η, comparetur κ λ. Totū igitur γ λ, æquū est eis quæ ex α η, η β, quorū γ ε æquum est ei quod ex α β, reliquum igitur ζ λ, æquum est ei quod bis sub α η, η β. Secetur (per 10 primi) ζ μ bifariā in signo ν, & excitetur (per 31 primi) per ν, ipsi γ δ parallelus ν ξ. Vtrūque igitur ipsorum, ζ ξ, λ ν, æquum est ei quod sub α η, η β. Et quoniam quæ ex α η, η β, rationalia sunt, & eis quæ ex α η, η β, æquū est δ μ, rationale igitur est (per diffinttionē  decimi,) δ μ. Et ad rationalem apponitur γ δ, latitudinē efficiēs γ μ, rationalis igitur est γ μ, (per 19 decimi,) & ipsi γ δ longitudine commensurabilis. Rursus quoniam quod bis sub α η, η β, medium est (per 21 decimi,) & ei quod bis sub α η, η β, æquū est ζ λ. mediū igitur est ζ λ. Et ad ipsam γ δ rationalē apponitur, latitudinem efficiens ζ μ, rationalis igitur est ζ μ, & ipsi γ δ longitudine incommensurabilis. Et quoniā quæ ex α η, η β, rationalia sunt, quod autē bis sub α η, η β, medium est, incommensurabilia igitur sunt quæ ex α η, η β, ei quod bis sub α η, η β. Et eis quidē quæ ex α η, ε β{printer-error-correction:η β}, æquum est γ λ, ei aūt quod bis sub α η, η β, æquum est ζ λ, incōmēsurabile igitur est (per 9 decimi,) δ μ ipsi ζ λ. Sicut autem (per 1 sexti,) δ μ, ad ζ λ, sic est γ μ, ad ζ μ, incommensurabilis igitur est (per 13 decimi,) γ μ ipsi ζ μ, lōgitudine. Et utræq́; sunt rationales, igitur γ μ, μ ζ, (per 11 decimi) rationales sunt potentia tantum commensurabiles. Igitur γ ζ apotome est. Dico insuper quod & prima. Quoniam nempe eorum que ex α η, η β, mediū proportionale est quod sub α η, η β, & quod ex α η, æquum est ipsi γ θ, ipsi autem quod sub α η, η β, est ν λ, ei autem quod ex β η, æquū est κ λ, & ipsorū igitur γ θ, κ λ, mediū proportionale est ν λ. Est igitur (per 1 sexti,) sicut γ θ ad ν λ, sic est ν λ, ad κ λ. Sed sicut quidē γ θ ad ν λ, sic est γ κ ad ν μ, sicut aūt ν λ ad κ λ, sic est ν μ ad κ μ, & sicut igitur (per 11 quinti) γ κ ad ν μ, sic ν μ, ad κ μ. Quod igitur sub γ κ, κ μ, (per 17 decimi) æquū est ei quod ex ν μ, hoc est quartæ parti eius quod ex ζ μ, Et quoniā quod ex α η, ei quod ex η β est incommensurabile{printer-error-correction:commensurabile}, commensurabile est γ θ ipsi κ λ. Sicut autem γ θ ad α λ{printer-error-correction:κ λ}, sic γ κ, ad κ μ, cōmensurabilis est igitur (per 11 decimi) γ κ ipsi κ μ. Quoniam igitur binæ rectæ lineæ sunt inæquales scilicet γ μ, μ ζ, & quartæ parti eius quod ex ζ μ æquum ad ipsam γ μ apponitur forma deficiens quadrata quod scilicet sub γ κ, κ μ, & γ κ ipsi κ μ commensurabilis est, ipsa, igitur μ γ, ipsa μ ζ maius potest eo quod ex sibi longitudine commensurabilis. Et γ μ, commensurabilis est ipsi γ δ, expositæ rationali longitudine. Ipsa igitur γ ζ, (per 85 decimi,) apotome est prima. Quod igitur ex apotome ad rationalem comparatum latitudinem efficit primam apotomen. Quod erat ostendendum.
+tem est quod bis sub α η, η β, comprehenditur. rationale igitur & ζ λ. Et ad ζ ε, rationalem comparatur, latitudinem efficiens ζ μ, rationalis igitur est (per 20 decimi,) & ζ μ, & ipsi γ δ longitudine commensurabilis, Quoniam igitur quæ ex α η, η β, hoc est ipsum γ λ, medium est, quod autem bis sub α η, η β, hoc est ipsum ζ λ, rationale, incōmensurabile igitur est (per 9 decimi,) γ λ ipsi ζ λ. Sicut autem γ λ, ad ζ λ, sic est γ μ, ad ζ μ, incommēsurabilis igitur γ μ, ipsi ζ μ longitudine, & utræq́; sunt rationales. Ipsæ igitur γ μ, μ ζ, rationales sunt potentia tantum commensurabiles, ipsa igitur γ ζ, apotome est (per 73 decimi,) Dico etiam quod & secūda. Secetur namq́; (per 10 primi) ζ μ bifariam in ν. Exciteturq́; (per 31 primi,) per ν, ipsi γ δ, parallelus ν ξ, utrūq́; igitur ipsorum ζ ξ, ν λ, æquum est ei quod sub α η, η β, Et quoniā (per lēma 53 decimi) ipsorum quæ ex α η, η β, quadratorum medium proportionale est quod sub α η, η β, & quod ex α η, æquum est ipsi γ θ, quod uero sub α η, η β, ipsi ν λ, quod autē ex β η ipsi κ λ, & ipsorū igitur γ θ, κ λ, medium proportionale est ν λ (per idem lemma.) Est igitur sicut γ θ ad ν λ, sic ν λ, ad κ λ, sed sicut quidem γ θ ad ν λ, sic est γ θ{printer-error-correction:γ κ} ad ν μ, sicut aūt ν λ, ad κ λ. sic est ν μ ad μ κ. Sicut igitur (per 11 quinti γ κ ad ν μ, sic est ν μ, ad κ μ. Igitur quod sub γ κ, κ μ, (per 17 decimi) ei est æquū quod ex ν μ, hoc est quartæ parti eius quod ex ζ μ. Et quoniā quod ex α η, commensurabile est ei quod ex β η, commensurabile est (per 1 sexti & 11 decimi) & γ θ ipsi κ λ, hoc est γ κ, ipsi κ μ. Quoniā igitur binæ rectæ liueæ{printer-error-correction:lineæ} inæquales sunt γ μ, & μ ζ, quartæ autem parti eius quod ex μ ζ (per 17 decimi,) æquum ad maiorem γ μ apponitur deficiens forma quadrata, quod scicet{printer-error-correction:scilicet} sub γ κ. κ μ. & ipsam in commensurabilia despescit, ipsa igitur γ μ ipsa μ ζ, (per eandem) maius potest eo quod ex sibi longitudine commensurabili Et congruens ζ μ, (per 85 decimi) est commensurabilis longitudine ipsi γ δ expositæ rationali. Ipsa igitur γ ζ, apotome est secunda, (per 3 diffinitiones. Quod igitur à mediæ apotomæ prima ad rationalē comparatum latitudinem secundam efficit apotomen. Quod erat ostendendum.
 
 [Diagram: horizontal line with points α, β, η; below it a rectangle with top corners γ (left) and μ (right), bottom corners δ (left) and λ (right); points ζ, ν, κ on the top side and ε, ξ, θ on the bottom side, with vertical lines dividing the rectangle at ζ–ε, ν–ξ and κ–θ]
 
-## Eucli.ex Camp. Propositio 93
+## Eucli.ex Camp. Propositio 94
 
 [Margin]
-93
+94
 [/Margin]
 
-## CVm adiuncta fuerit superficies æqualis quadrato residui medialis ptimi{printer-error-correction:primi} ad lineam rationem{printer-error-correction:rationalem}, alterum latus eius erit residuum secundum.
+## SI superficies æqualis quadrato residui medialis secundi applicata fuerit ad lineam rationalem, alterum latus eius residuum tertium esse conueniet.
 
-CAMPANVS Hic erit linea d e residuum mediale primum, & linea e f erit linea illa per cuius abscisionem d e fuerat residuum mediale primum. Dico quod b c erit residuū secundum. Quod nescire non poteris, si demonstrationi præmissæ (quousque eam solido amplectaris habitu) institeris, & quales lineas oporteat esse d f & f e uigilanter attenderis. de quo si dubitas, 69 requirenda erit.
+CAMPANVS. Hic etiam erit d e residuū mediale secundum, & sequetur ut sit c b residuum tertium. Quod ut facile concludas, primæ demonstrationi insistas, & quales lineas conueniat esse d f & f e. ex 70, collige.
 
-## Eucli.ex Zamb. Theorema 74 Propositio 98
+## Eucli.ex Zamb. Theorema 75 Propositio 99
 
 [Margin]
-98
+99
 [/Margin]
 
-## Quod ex mediæ apotomæ prima ad rationalem comparatum latitudinem secundam efficit apotomen.
+## Quod ex mediæ apotomæ secunda ad rationalem comparatum latitudinem tertiam apotomen conficit.
 
-THEON ex Zamb, Sit mediæ apotomæ prima α β, rationalis autem esto γ δ, & ei quod ex α β, (per 44 primi,) æquum ad ipsam γ δ, apponatur γ ε, latitudinem efficiens γ ζ. Dico quod γ ζ apotome est secunda, esto namque ipsi α β congruens β η, ipsæ igitur α η, η β, mediæ sunt potentia tantum commensurabiles, rationale comprehendentes. Et ei quidem quod ex α η æquum ad ipsam γ δ comparetur (per 44 primi,) γ θ, latitudinē efficiens γ κ, ei autem quod ex η β, æquum ad ipsam κ θ comparetur κ λ, latitndinem{printer-error-correction:latitudinem} efficiens κ μ. Totum igitur γ λ, æquum est eis quæ ex α η, η β, medium igitur est & γ λ. Et ad ipsam γ δ rationalem comparatur, latitudinem efficiens γ μ. rationalis igitur est & γ μ, & ipsi γ δ in longitudine incommensurabilis (per 22 decimi.) Et quoniam γ λ æquum est eis quæ ex α η, η β, quadratis. quorum quod ex α β, æquum est ipsi γ ε, reliquum igitur quod bis sub α η, η β, æquum est ipsi ζ λ. Rationale au
+THEON ex Zamb, Esto mediæ apotomæ secunda α β, rationalis autem esto γ δ, & ei quod ex α β, (per 44 primi) æquum ad ipsam γ δ apponatur γ ε, latitudinem efficiens γ ζ. Dico quod γ ζ est apotome tertia. Sit namq́; α β, congruens β η, ipsæ igitur α η, η β, (per 81 decimi.) mediæ sunt potentia tantum commensurabiles medium comprehendentes. Et ei quidem quod ex α η. (per 44 primi,) æquum ad ipsam γ δ, cōparetur γ θ, latitudinem efficiens γ κ, ei autem quod ex β η, (per cādem{printer-error-correction:eādem}) æquum ad ipsam κ θ comparetur κ λ, latitudinem efficiens κ μ. Totum igitur γ λ, æquum est eis quæ ex α η, η β. Et ea quæ ex α η, η β, media sunt, medium igitur est & γ λ. Et ad ipsam γ δ apponitur, latitudinem efficiens γ μ. Rationalis igitur est γ μ, & ipsi γ δ longitudine incōmensurabilis, Et quoniam totū γ λ, æquum est eis quæ ex α η, η β, quorum γ ε æquum est ei quod ex α β. reliquum igitur λ ζ (per 7 secundi,) æquum est ei quod bis sub α η, η β. Secetur igitur (per 10 primi) ζ μ, bifariam in ν, signo, & ipsi γ δ, (per 31 primi) parallelus excitetur ν ξ, utrūq́; igitur ipsorum ζ ξ, ν λ, æquū est ei quod sub α η, η β. Mediū autem est quod sub α η, η β, medium igitur est & λ ζ. Et ad ipsam ε ζ rationalem comparatur, latitudinem efficiens ζ μ, rationalis igitur est (per 22 decimi) ζ μ, & ipsi γ δ, longitudine incommensprabilis{printer-error-correction:incommensurabilis}. Et quoniam ipsæ α η, η β, potentia tantum sunt commensurabiles, incommensurabilis igitur est (per 9 decimi,) α η, ipsi η β longitudine. Incommēsurabile igitur est & quod ex α η, ei quod sub α η, η β. Sed ei quidem quod ex α η, cōmensurabilia sunt quæ ex α η, η β, ei autem quod sub α η, η β, commensurabile est quod bis sub α η, η β. Incommensurabilia igitur sunt quæ ex α η, η β, ei quod bis sub α η, η β. Sed eis quidē quæ ex α η, η β, æquum est γ λ ei autem quod bis sub α η, η β, æquū est ζ λ. Incōmēsurabile igitur est γ λ, ipsi ζ λ. Sicut autem γ λ ad ζ λ. sic est per 1 sexti, & 11 decimi) γ μ ad ζ μ, incommensurabilis igi
 
-<!-- Signature: E 2 -->
+[Diagram: horizontal line with points α, β, η; below it a rectangle with top corners γ (left) and μ (right), bottom corners δ (left) and λ (right); points ζ, ν, κ on the top side and ε, ξ, θ on the bottom side, with vertical lines dividing the rectangle at ζ–ε, ν–ξ and κ–θ]
 
-<!-- Catchword: tem -->
+<!-- Catchword: tur -->

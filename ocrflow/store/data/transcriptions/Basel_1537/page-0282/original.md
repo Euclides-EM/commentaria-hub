@@ -1,45 +1,39 @@
-<!-- Running title: LIBER DECIMVS. -->
+<!-- Page number: 272 -->
 
-<!-- Page number: 271 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-possit amplius breuiori in quadrato alicuius lineæ sibi cōmunicantis in longitudine, quæ contineant superficiem rationalem. Ad hoc secundum doctrinam 17 sumo duas lineas a & b potentia tantum rationales cōmunicantes, quarum longior quæ sit a , possit amplius breuiori quæ sit b , in quadrato alicuius lineæ secum cōmunicantis in lōgitudine, & ponam lineam c secundum doctrinam 9 sexti , medio loco proportionalē inter a & b,& ponam ut sit proportio a ad b, sicut c ad d, quod qualiter fiat, in 10 sexti dictū est. Dico tunc duas lineas c & d,esse quas quærimus. Patet enim ex 19, quod superficies quam continent duæ lineæ a & b,est medialis . Et quia per primam partem 16 sexti,quadratū lineæ c est dictæ superficiei æquale,erit igitur per 19 linea c medialis . Cum autē sit a ad b,sicut c ad d,& b communicet cum a in potentia tantum ex hypothesi,quia tam a quàm b rationalis est in potentia , sequitur per 10 quod c quoq́ʒ communicet cum d in potentia tantum. Itaq́ʒ per 21 cum c sit linea medialis,erit etiam d medialis, & per primā partem 12 , erit linea c potentior linea d, in quadrato lineæ sibi communicantis in longitudine. Si ergo duæ lineæ c & d contineant superficiem rationalem , ipsæ sunt quales inquirimus.Eas autem continere superficiem rationalem,sic habeto. Cum sit a ad b,sicut c ad d,erit permutatim a ad c,sicut b ad d,sed erat a ad c,sic c ad b. igitur est c ad b,sicut b ad d, itaque per primam partem 16 sexti,superficies quam continent duæ lineæ c & d, est æqualis quadrato b,est autem quadratum b,rationale per hypothesin,cum ipsa sit rationalis in potentia . Superficies ergo quam continent duæ lineæ c & d, est rationalis. Quare constat propositum.
-
-[Diagram: four horizontal lines in the right margin, labelled: a R. 36 — c — b 20 — d]
-
-## Eucli ex Camp. Propositio 25
+## Eucli ex Camp. Propositio 26
 
 [Margin]
-25
+26
 [/Margin]
 
-{dropcap:D|lines=?|style=decorated|decoration="ornamental"}Vas lineas mediales potentia tantum communicantes superficiemq́ʒ rationalem continentes , quarum longior sit potentior breuiori,quadrato lineæ eidem longiori in longitudine incommensurabilis,inuenire.
+{dropcap:D|lines=?|style=decorated|decoration="ornamental"}Vas lineas mediales potentia tantum communicantes superficiemq́ʒ medialem continentes, quarum longior breuiore tanto amplius possit quantum est quadratum alicuius lineæ incommensurabilis ipsi longiori in longitudine, inuenire.
 
-CAMPANVS. Positis duabus lineis a & b rationalibus potentia tantum cōmunicantibus,quarū longior possit amplius breuiori in quadrato lineæ secum non communicantis in longitudine,quæ quidem reperiuntur secundum doctrinam 18,cæterisq́ʒ positionibus manentibus sicut in præmissa , argumentando modo consimili patebit duas lineas c & d esse quales quærimus. Et nota quod duæ lineæ quas hæc & præmissa docent inuenire , componunt bimediale primum , & minori earum abscisa de maiori, quæ reliqua est,dicitur residuum mediale primum.
-
-[Diagram: four horizontal lines in the right margin, labelled: a 36 — c — b R. 18 — d]
-
-## Eucli.ex Zamb. Problema 8 Propositio 31
+CAMPANVS. Cū docuerit inuenire duas lineas mediales potentia tantū cōmunicantes superficiemq́ʒ rationalē continētes,quarū longior plus possit breuiori in quadrato lineæ secum cōmunicantis in longitudine, & secum incōmensurabilis in longitudine,nunc docet inuenire duas lineas mediales potentia tantum cōmunicantes, superficiemq́ʒ medialem continentes quarum longior sit potentior breuiori in quadrato lineæ non secum cōmensurabilis , sed solum sibi incommensurabilis in longitudine, illud enim facile habetur ex isto. Sint itaq́ʒ tres lineæ sumptæ secundum doctrinam 18 a,b,c, potentia tantum rationales & in ea solum cōmunicantes, sitq́ʒ a potentior b & c, quadrato lineæ sibi incommensurabilis in longitudine, & ponatur d medio loco proportionalis inter a & b ut docet 9 sexti, & sit d ad e sicut a ad c, dico duas lineas d & e esse quales inquirimus . Cum sit enī quadratū lineæ d æquale superficiei quæ continetur sub a & b per primam partem 16 sexti, sitq́ʒ superficies contenta sub a & b medialis ex 19 cum a & b sint potentia tantum rationales cōmunicantes,erit ex eadem linea d medialis. At quia a ad c sicut d ad e,communicat autem a cum c in potētia tantum ex hypothesi, sequitur ex 10 ut e quoq́ʒ communicet cum d in potentia tantum. Itaq́ʒ per 21 erit e linea medialis . Et etiam quia a est potentior c, quadrato lineæ sibi incommensurabilis in longitudine,erit quoq́ʒ per 12 d potentior e quadrato lineæ sibi incōmensurabilis in longitudine. Si igitur duæ lineæ d & e contineant superficiem medialem,constat eas esse quales inquirimus.Eas autē continere superficiē medialem,sic habetur. Cum sit ex hypothesi a ad c sicut d ad e,erit permutatim a ad d, sicut c ad e. Sed a ad d est sicut d ad b per hypothesin, itaq́ʒ d ad b sicut c ad e, igitur per primam partem 12 sexti superficies quam continent d & e, est æqualis ei quam continent c & b. Sed b & c continēt superficiem medialem per 19, cum ipsæ sint rationales in potentia tantum communicantes ex hypothesi, itaque d & e continent
 
 [Margin]
-31
+Zamb.32
 [/Margin]
 
-Comperire binas medias potentia tantum commensurabiles rationale comprehendentes,ut maior minore maius possit eo quod fit à sibi longitudine commensurabili.
+superficiem medialem. Quod est propositum.
+
+[Diagram: five horizontal lines in the right margin, labelled: a 36 — d R. R. 864 — b R. 24 — c R. 12 — e R. R. 96]
+
+CAMPANVS. Si autē cura esset inuenire duas lineas mediales potentia tantum cōmunicantes superficiemq́ʒ medialem continentes, quarum longior esset potentior breuiori, quadrato lineæ secum cōmunicantis in longitudine, sumeremus tres lineas secundum doctrinam 17, a,b,c,potentia tantum rationales & in ea solum communicantes, & poneremus lineam a esse potentiorē linea c, quadrato alicuius lineæ sibi communicantis in longitudine, cætera uero manerēt ut prius. & argumētatione consimili concluderemus,duas lineas d & e esse quales proponitur inquirere. Et nota quod duæ lineæ quas hæc 26 docet iuuenire{printer-error-correction:inuenire} , componunt bimediale secundum , & minori earum abscisa de maiori, quæ reliqua est,dicitur residuum mediale secundum.
+
+[Diagram: five horizontal lines in the right margin, labelled: R. 54 — d R. R. 1944 — d R. 36 (sic, apparently for b R. 36) — e R. R. 499 — c R. 10]
+
+## Eucli.ex Zamb. Problema 9 Propositio 32
 
 [Margin]
-Camp.24
+32
 [/Margin]
 
-THEON ex Zamb. Exponantur(per 29 decimi)binæ rationales potentia tantum commensurabiles α,β,ut α maior existens, ipsa β minore maius poßit eo quod ex sibi longitudine cōmensurabili, & ei quod sub α,β,comprehenditur æquum esto id quod ex γ. Medium autem est quod sub α,β, medium igitur est(per correlariū 23 decimi)quod sub γ,media igitur est γ (per 21 decimi.)Ei uero quod ex β,æquū esto quod sub γ,δ.Rationale autē est quod ex β, rationale igitur & quod sub γ,δ. Et quoniam(per 1 sexti)est sicut α ad δ{printer-error-correction:β},sic est quod sub α,β,ad id quod ex β,sed ei quidem quod sub α, β, æquum est id quod ex γ, ei autem quod ex β æquum est quod sub γ,δ, sicut igitur α ad β, sic quod ex γ ad id quod sub γ,δ.Sicut autē quod ex γ ad id quod sub γ,δ,sic est γ ad δ,& sicut igitur α ad β,sic γ ad δ. Cōmensurabilis autem est(per hypothesin) α,ipsi β potentia tantum:cōmensurabilis igitur(per 11 decimi)& γ ipsi δ potentia tantum.At γ,media est,media igitur est(per 2 decimi)& δ.Et quoniam est sicut α ad β & γ ad δ, at α ipsa β maius potest eo quod ex sibi cōmensurabili, & γ igitur ipsa δ maius potest eo quod ex sibi cōmensurabili . Inuentæ sunt igitur binæ mediæ potentia tantum cōmensurabiles γ, δ, rationale cōprehendentes, & γ ipsa δ maius potest eo quod ex sibi longitudine cōmensurabili. Similiter uero ostendetur & id quod ex incōmensurabili, quando α ipsa
+Inuenire duas medias potentia tantum cōmensurabiles medium comprehendentes,ut maior minore maius possit eo quod fit ex sibi commensurabili.
 
-[Margin]
-Camp.25
-[/Margin]
+THEON ex Zamber. Exponantur tres rationales potentia tantum cōmensurabiles α,β,γ, ut α (per 29 decimi)ipsa γ maius poßit eo quod ex sibi cōmensurabili, & ei quidem quod sub α,β, æquum sit (per 13 & 17 sexti)quod ex δ, medium autē est quod sub α β,medium igitur est(per eandē)quod ex δ,& δ igitur media est. Ei autē quod sub β,γ,æquū esto quod sub δ,ε.Et quoniā(per 1 sexti & lemma 21 decimi)
 
-β maius potuerit eo quod fit ex sibi incommensurabili.Quod facere oportuit.
+[Diagram: five horizontal lines in the right margin, labelled: α R. 46 — δ R.R.3072 — β R. 48 — ε R.R.R.1456 — γ R.28]
 
-[Diagram: four horizontal lines in the right margin, labelled: α 64 — γ — β R. 28 — δ]
-
-<!-- Signature: z 4 -->
-
-<!-- Catchword: Eucli.ex -->
+<!-- Catchword: sicut -->

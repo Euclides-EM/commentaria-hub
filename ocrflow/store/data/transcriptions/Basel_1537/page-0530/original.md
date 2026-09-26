@@ -1,39 +1,33 @@
-<!-- Running title: PERSPECTIVA -->
+<!-- Page number: 520 -->
 
-<!-- Page number: 519 -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-## Theorema tertium.
+lis est ipsa quidem x n ipsi m l, parallelogrammum, inquam, est ipsum m n, utraq́ ipsarum x k, k n, maior est utraque ipsarum m k, k l, maior igitur est & angulus qui sub m k l eo qui sub x k n. Quare & tota f l, tota g n maior apparet. idque propterea & l ipsa b d, inæqualis igitur latitudinis ipsæ magnitudines apparent.
 
-{dropcap:E|lines=?|style=decorated|decoration="woodcut"}Orum quæ spectantur unumquodque longitudinem interualli habet aliquam, qua aduentante, non amplius spectatur.
+[Diagram: rectangle with b at top left and a at top right; horizontal lines g–x–n and f–m–l crossing it; rays fanning from κ at bottom between c and e to the points o, x, m and the corners]
 
-Sit, inquam, oculus n, spectatū uero c d, sitq́ in aliqua distantia, nō amplius spectabitur, fiat nāq́ c d, inter uisuū interuallū in quo κ igitur ad k nullus ab ipso b uisus procidet, id uero ad quod uisus non addunt non spectatur. Eorū igitur quæ spectantur unūquodq́ longitudinem distantiæ habet nō aliquam, qua aduentante, amplius spectatur.
+## Theorema septimum.
 
-[Diagram: point κ above a horizontal line d–e; rays converging downward to the eye b]
+{dropcap:I|lines=?|style=decorated|decoration="woodcut"}N eadem recta linea æquales magnitudines remotius inuicem positæ inæquales apparent.
 
-## Theorema quartum.
+Sint æquæ magnitudines b c, & d f oculus uero sit k, & ab ipso k, oculo procidant uisus k b, k c, k d, & k f, rectus uero sit angulus qui sub k f b, igitur angulus s angulo q maior est. quare & d f ipsa c b, maior apparet. Igitur ipsæ d f & b c magnitudines inæquales apparent.
 
-{dropcap:A|lines=?|style=decorated|decoration="woodcut"}Equalibus interuallis, in eadē recta linea existētibus, quæ ex pluri distantia spectantur minora apparent.
+[Diagram: points b, c, d, f descending along a line at left; rays from each to the eye κ at right; angle labels q and s between the rays]
 
-Sint, inquā, æqualia b c, c d, d f, oculus uero sit k, ex quo ꝓcidant uisus k b, k c, k d, & k f, & k b, ad rectos subsistat angulos ipsū b f, quoniam igitur in rectāgulo κ b f æquales sunt b c, c d: d f, maior est quidem angulus e angulo g & g angulꝰ ipso angulo h: maius igitur apparet b c ipso c d & c d ipso d f.
+## Theorema octauum.
 
-[Diagram: horizontal line with points b, c, d, f; rays from κ below to each point; angle labels e, g, h between successive rays near κ]
+{dropcap:A|lines=?|style=decorated|decoration="woodcut"}Equales magnitudines inæqualiter expositæ interuallis proportionalites{printer-error-correction:proportionaliter} minime spectantur.
 
-## Theorema quintum.
+Esto enim b c ipsi d f, æqualis, & ei parallelus apponatur, k oculus, & ab ipso procidant radij, k f c: k h b, k f, & k e d. Dico iam q̄ ipsæ b c, & d f magnitudines ipsis c k, & k f interuallis proportionaliter minime apparent. Quoniam enim angulus qui sub d f k, acutus igitur est qui sub f k h, quare & ipsa h k ipsa k f maior est, centro igitur k h, per tertium postulatū circulus descriptus extra ipsam k f cadit, describatur & esto e h g: & quoniam h d k, triangulum maiorem habet rationem ad h k e, sectorem, quàm f h k, triangulum ad g h k, sectorem: uicissim igitur h d k, triangulum ad f h k, triangulum maiorem habet rationē, quam e h k, sector, ad g h k, sectorem. Componendo per decimamoctauam quinti clemētorum{printer-error-correction:elementorum} triangulum f d k, triangulum f h k, maiorem habet rationem, quā e g k, sector, ad g h k, sectorem. sed sicut f d k, triangulum ad f h k triangulum, sic f d ad f h, sicut autem g e k, sector ad g h k, sectorem, sic qui sub d k f angulus ad eum qui sub h k f angulum. In maiori ergo ratione est d f ad f h, quàm s r angulus ad r angulum. Sicut autem d f ad f h, sic c k, ad k f, & k c, igitur ad k f, in maiori est ratione quàm s r angulus ad r angulum, at ex angulo s r, spectatur d f, ex r uero angulo spectatur b c. Igitur magnitudines interuallis proportionaliter minime spectantur.
 
-{dropcap:A|lines=?|style=decorated|decoration="woodcut"}Equales magnitudines inæqualiter expositæ inæquales apparent, & maior semper ea quæ propius oculum adiacet.
+[Diagram: b at top and d at left, rays running down to the eye κ at bottom; points c, h, f, e, g on the rays; circular arc e h g centred on κ; angle labels s and r at κ]
 
-Sit æqualis c d ipsi k l, oculus uero sit b a, quo procidant uisus b c, b d, b k, & b l, d igitur, c sub maiori spectatur angulo quam ipsa k l: maior igitur apparet c d ipsa k l.
+## Theorema nonum.
 
-[Diagram: shorter line k–l above, wider line c–d beneath it, rays from all endpoints converging downward to the eye b]
+{dropcap:R|lines=?|style=decorated|decoration="woodcut"}Ectangulæ magnitudines ex interuallo spectatæ circunductæ apparent.
 
-## Theorema sextum.
+Sit rectangula magnitudo, b c ex interuallo spectata, igitur eorum quæ spectantur unumquodq́ lōgitudinē habet aliquā interualli, qua aduentante nō amplius
 
-{dropcap:P|lines=?|style=decorated|decoration="woodcut"}Arallela interuallo in distantia spectata inæqualis latitudinis apparent.
+[Diagram: square with corners b (top left), d (bottom left), c (bottom right), and point f on the right side; short diagonal lines cutting across the corners]
 
-Sit, inquam, b c ipsi d f parallelū interuallum, oculus uero sit k. Dico quod b c, & d f inæquali latitudine appareāt, & maius, inquam, propius interuallum remotiore, procidant nempe radij x k, k p, k b, k d, k n, & k l, & connectantur rectæ lineæ x l, p n, & p d. Quoniam igitur angulus q̃ sub x k l, maior est eo angulo qui sub p k n, maius igitur apparet ipsum x l ipso p n, atq́ id propterea n p, recta linea maior apparet ipsa b d, recta linea non amplius spectabuntur parallela interualla, sed minora, & inæqualis latitudinis, parallela igitur interuallorum ex distantia inæqualis latitudinis apparent. Sic nempe in eodem plano spectato fuerit oculus sic, esto enim k, & excitetur per undecimam undecimi elementorum, ab ipso k ad subiectum planum perpendicularis k a: ab ipso autem a in f ipsa a m, per duodecimam primi elementorum: & extendatur per secundum postulatum in o, procidantque radij k b, k g, k f, k d, k n, & k l, & connectantur, per primum postulatum k m, k x, & k o. Quoniam igitur ab ipso k, sublimi in ipsum m annectitur k m, perpendicularis igitur est in ipsam m l, per duodecimam primi elementorum: similiter iam & k x, in ipsa g n, & ipsa k o, in ipsa b d. Igitur triāgula k m l, k x n, k o d, rectāgula sunt, & æqua
-
-[Diagram: two vertical parallel lines d–f (left) and b–e (right); horizontal lines d–b at top, n–p and l–x between them; eye κ at bottom between f and e with rays fanning upward to the labeled points]
-
-<!-- Signature: X 2 -->
-
-<!-- Catchword: lis -->
+<!-- Catchword: spe -->

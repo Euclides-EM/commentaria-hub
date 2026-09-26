@@ -1,33 +1,23 @@
-<!-- Running title: LIBER DVODECIMVS. -->
+<!-- Page number: 400 -->
 
-<!-- Page number: 399 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-ad basin c, sicut altitudo pyramidis b ad altitudinẽ pyramidis a, itaq̃ ex secunda parte huius 7 duæ pyramides a & c, sunt æquales, quare per cõmunem scientiam duæ quoq̃ pyramides a & b, sunt æquales.
-
-Si uero neutra propositarũ pyramidum fuerit trigona, sed utraq̃ polygonia (uerbi gratia altera pentagona, altera hexagona) quæ adhuc dicantur a & b, sumatur similiter triãgulus c æqualis hexagono b, super quẽ fiat pyramis æque alta pyramidi b, erũtq̃ duæ pyramides b & c æquales, ideoq̃ duæ quæ sunt a & c etiã per conceptionẽ æquales, quare basis a ad basin c, sicut altitudo pyramidis c ad altitudinem pyramidis a, hoc enĩ nuper demonstratũ est. Est ergo ex 7 quinti basis a ad basin b, sicut altitudo pyramidis b ad altitudinẽ pyramidis a. Conuersa conuerso modo patet. Si enim basis a ad basin b fuerit, ut altitudo pyramidis b ad altitudinẽ pyramidis a, erit quoq̃ ex 7 quinti basis a ad basin c, ut altitudo pyramidis c ad altitudinẽ pyramidis a, ideoq̃ (ut patet ex prioribus) erunt duæ pyramides a & c æquales, quare ex communi scientia & duæ quæ sunt a & b, erunt etiam æquales. Et hoc est propositũ.
-
-[Diagram: pentagon labelled a and hexagon labelled b side by side; below them a triangle labelled c]
-
-## Eucli. ex Camp. Propositio 8
-
-[Margin]
-8
-[/Margin]
-
-{dropcap:O|lines=?|style=decorated|decoration="ornamental"}Mnium duarum pyramidum similium quarum bases triangulæ, est proportio alterius ad alteram, tanquã lateris ad latus eius relatiuum proportio triplicata.
-
-CAMPANVS. Propositis duabus pyramidibus similibus bases triangulas habentibus, ex ipsis perfice duo solida parallelogrãma, quemadmodũ dictum est in demõstratione præmissæ, eruntq̃ hæc duo solida parallelogramma similia, eo q̃ pyramides ponuntur similes adinuicẽ, nam duo solidi anguli qui sunt cõmunes pyramidibus & solidis parallelogrãmis, superficialibus angulis numero & quantitate æqualibus cõtinentur, & latera quoq̃ illos angulos superficiales continẽtia, sunt proportionalia. Quare ex 34 primi tres superficies solidorũ parallelogrãmorũ cõmunes angulos solidos constituẽtes, sunt æquiangulæ & laterũ proportionaliũ, ideoq̃ similes ex diffinitione similium superficierũ: quare ex 24 & 15 quinti cunctæ sex superficies horum duorũ solidorũ parallelogrãmorũ, sunt similes adinuicẽ. Igitur à diffinitione corporũ similium, erunt ipsa solida similia. Quare cũ proportio solidorũ & pyramidũ sit una ex 15 quinti (nam solida sunt sexcupla pyramidibus ex 6 huius) cumq̃ sit proportio solidorũ una sicut suorũ relatiuorũ laterum triplicata ex 36 undecimi libri, sunt autem latera solidorũ eadem lateribus pyramidum, erit quoq̃ ex 11 quinti proportio propositarũ pyramidũ sicut suorum relatiuorũ laterum proportio triplicata, quod est propositum.
-
-## CAMPANI additiones.
-
-Quod si fuerint duæ quælibet pyramides lateratæ similes, erit proportio alterius ad alterã sicut sui lateris ad sibi relatiuũ latus alterius proportio triplicata.
+gulo b h k, & triangulũ d a e triãgulo k b l. Et quia etiam ex hypothesi angulus d est æqualis angulo k, & latera c d & d e continẽtia angulũ d sunt proportionalia lateribus h k & k l continentibus angulum k, erunt ex 6 sexti duo triãguli c d e & h k l æquianguli, ideoq̃ per 4 sexti erit proportio c d ad h k, sicut c e ad k l. Cumq̃ ex hypothesi sit proportio c a ad h b, & etiam a e ad b l, sicut c d ad h k, erit ex 11 quinti c a ad h b, & a e ad b l, sicut c e ad h l. Igitur ex 5 sexti & diffinitione similium superficierũ, triangulus c a e erit similis triangulo h b l. Manifestũ est itaq̃ ex diffinitione similium corporũ, q̃ pyramis a c d e est similis pyramidi b h k l, similiter quoq̃ constat pyramidẽ a c e f esse similem pyramidi b h l m, & pyramidẽ a c f g, pyramidi b h m n. Quia ergo ex hac 8 proportio pyramidis a c d e ad pyramidẽ b h k l est sicut lateris c d ad latus h k triplicata, etiam pyramidis a c e f ad ad{printer-error-correction:ad ad} pyramidẽ b h l m, sicut e f ad l m triplicata ac etiam pyramidis a c f g ad pyramidẽ b h m n, sicut c g ad h n triplicata, cũ sit ex hypothesi proportio e f ad l m, & c g ad h n, sicut c d ad h k, sequitur ex 13 quinti ut proportio totaliũ pyramidum a & b sit sicut unius harum partialiũ ad aliam unam. Igitur ex hac 8 & 11 quinti constat uerum esse quod diximus.
 
 [Diagram: pentagon with c at top, d upper left, g upper right, e lower left, f lower right; lines drawn from the vertices meeting at interior point a]
 
-Sint duæ lateratæ pyramides, quarum coni a & b, similes, sintq̃ super bases pentagonas quæ sunt c d e f g, h k l m n. Dico quod proportio earum, est sicut suorũ relatiuorũ laterum triplicata. Constat enim ex diffinitione similium superficierũ & corporũ, quod pentagoni qui sunt bases propositarũ pyramidum, sibi adinuicẽ, cunctiq̃ relatiui trianguli ipsas ambientes sibi inuicẽ, sunt similes. Diuidantur itaq̃ bases ambarũ in triãgulos similes & numero æquales prout 18 sexti proponit esse possibile, protractis in hac quidem lineis c e & c f, in illa uero h l & h m. Dico igitur istas pyramides esse diuisas in pyramides triãgulas similes & numero æquales. Conferãtur enim adinuicẽ duæ pyramides a c d e, b h k l, quarũ coni sunt a & b. Constat autem ex hypothesi triangulũ c a d esse similem trian
-
 [Diagram: second pentagon with h at top, k upper left, n upper right, l lower left, m lower right; lines drawn from the vertices meeting at interior point b]
 
-<!-- Signature: L 2 -->
+Omnes columnæ lateratæ æque altæ, suis basibus sunt proportionales.
 
-<!-- Catchword: gulo -->
+Verum est quod dicitur, super qualescũq̃ bases polygonias sint colũnæ. Columnas autẽ lateratas, uocamus solida corpora laterata quorũ bases & suꝑficies supremæ sunt similes & æquales, cunctæ uero reliquæ suꝑficies ipsa solida circunstãtes sunt æquidistantiũ laterũ. Talium autem solidorũ prima species est seratile, quando super unam suarũ trilaterarũ superficierũ intelligitur esse statutũ, secunda uero species est columna, cuius basis sit quadrilatera quam ex duobus seratilibus necesse est esse compositã, & tertia est cuius basis est pentagona, & ipsa ex tribus seratilibus perficitur. Simpliciter autem dico q̃ omnis laterata columna in tot corpora seratilia potest distingui, in quot triãgulos sua basis. Intelligantur itaq̃ duæ colũnæ lateratæ a & b, constitutæ super duas bases a & b, æque altæ, dico q̃ ꝓportio columnarũ a & b, est sicut basium a & b
+
+[Diagram: two columns drawn in perspective: a quadrangular column whose base is divided by a diagonal into triangles c and d, labelled a below; and a pentagonal column whose base is divided into three triangles g, e, f, labelled b below (label smudged)]
+
+Distinguãtur nanq̃ hæ bases in triãgulos, & hæ colũnæ in seratilia, basis quidem a quæ ponatur esse quadrãgula, in duos trigonos scilicet c & d, & columna a, in duo seratilia c & d, basis uero quæ sit pentagona, distinguatur in tres trigonos e, f, g, & colũna b in tria seratilia quæ similiter uocentur e, f, g. Manifestũ est igitur ex ijs quæ in 36 undecimi dicta sunt, q̃ proportio seratilis c ad seratile e, est sicut basis c ad basin e, & iterũ seratilis d ad seratile e, sicut basis d ad basin e, quare per 24 quinti erit colũnæ a ad seratile e, sicut basis a ad basin e. Eadem ratione erit columna a ad seratile f, sicut basis a ad basin f. At rursus columnæ a ad seratile g, sicut basis a ad basin g. Igitur ex 24 quinti, quoties necesse fuerit assumpta facile cõcludes propositũ. Constat itaq̃ ex hoc, q̃ omnes colũnæ lateratæ super eandem basin uel super æquales constitutæ si fuerint æque altæ, erunt æquales. Cum enim (ut proximo probatũ est) æque altæ columnæ lateratæ sint suis basibus proportionales, ponantur autem bases esse aut eædem aut æquales, necesse est ex 24 quinti ut etiam columnæ sint æquales. Constat quoq̃ quod si fuerint quælibet solida parallelogrãma seratilia & lateratæ columnæ æque alta, ipsa quoq̃ suis basibus proportionalia esse necessario cõprobantur. Omnia enim hæc, species sunt lateratarũ columnarum, de quibus paulo ante uniuersaliter probatum est uerum esse quod dicitur.
+
+Omnis laterata columna, tripla est ad suam pyramidem.
+
+Distinguatur basis columnæ in triangulos, & secundum numerũ triangulorũ illorũ distinguatur columna in seratilia, & pyramis colũnæ in pyramides habẽtes bases trian
+
+<!-- Catchword: gulas -->

@@ -1,41 +1,39 @@
-<!-- Page number: 522 -->
+<!-- Running title: PERSPECTIVA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 523 -->
 
-## Theorema decimumquintum.
+Sit quam cognoscere conuenit quāta sit data altitudo b c, exponaturque speculum k a, oculus uero sit d & ab ipso procidat radius d h, refringaturq́ ut h b, finiens. & ab ipso d oculo perpendicularis d f agatur per duodecimam primi elementorum. Igitur anguli qui ad h sunt æquales adinuicem, hoc enim ostensum est per primum theorema speculariæ, sed angulus ad c, eo qui ad f, est æqualis per 4 postulatum, rectus enim est eorum uterque. Reliquus igitur angulus qui ad b, reliquo qui ad d est æqualis. Quare triangulum b c h, ipsi k f, triangulo simile est per primam diffinitionem 6i elementorum. Est igitur sicut h c ad c b sic h f ad f d. Ipsius autem f h, ad f d ratio nota est, & ipsiꝰ igitur h c ad c b, ratio nota est: at nota est c h nota igitur & c b altitudo.
 
-{dropcap:E|lines=?|style=decorated|decoration="woodcut"}Orum quæ sub oculum posita sunt, quæ sese inuicem excedunt adhærente oculo maiore supra spectatū maius apparet, recedente uero minore minus,
+[Diagram: d at upper left and b at upper right; base line with points e, f, h, κ; below the base a semicircular arc with a at its lowest point, the mirror k a]
 
-Sit nempe maius b c ipso h f, ponaturq́ ut oculus sit k, super ipsa b c, & h f, procidatq́ radius per h, sitq́ k d. igitur b c ipso h f maius apparet ipso b d, æquum enim apparebat h f ipsi d c, quoniam iam sub eodem oculo κ & radio k d aspiciebatur. Rursus iam permutetur oculus k, sitq́ oculus in l & ꝑ h, procidat radius l n, igitur rursus b c ipso h f maius apparet ipso b n minore, igitur ipsum b c, ipsum h f. uidetur excedere abeunte oculoque adhærente.
+## Theorema uigesimum.
 
-[Diagram: vertical line b–c at left with points n, h, d on it; eye κ above and second eye position l at right; rays κ–d and l–n crossing the vertical line at h]
+{dropcap:D|lines=?|style=decorated|decoration="woodcut"}Atam profunditatem quanta sit cognoscere.
 
-## Theorema decimumsextum
+Esto, inquam, profunditas quam oportet quā ta sit cognoscere b κ, ponaturque oculus d, procidatq́ radius d l in deiectum, exciteturq́ per 11 primi elementorum ab ipso d ad ipsam b κ ipsa f, quoniam parallelus est b k ipsi d f. procidatq́ d κ, angulos igitur per uigesimamnonam primi elementorum b k l, & l d f. inuicem efficit æquales: sunt autem qui ad l ad uerticem inuicem æquales per decimamquintam primi elementorum, reliquus igitur angulus reliquo angulo est æqualis, æquiangulum igitur est b k l triangulum ipsi l d f, triangulo. est igitur sicut l f, ad f d, sic l b ad b k. Data autem est ratio ipsius l f ad f d. Data igitur ratio & ipsius l b ad b κ. Data autē est l b. Data quoque est ipsa b k.
 
-{dropcap:Q|lines=?|style=decorated|decoration="woodcut"}Væ sese inuicem excedunt inferius oculo posito, adhærente oculo minore minus super spectatum apparet, recedente uero maius maiore.
+[Diagram: rectangle with l at top left, b at top right, d on the left side, e at bottom left, κ at bottom right; diagonal line from l to κ]
 
-Esto, inquam, maius b ipso h κ, & oculo l inferius posito cadat radius l c. per h. igitur b ipso h k maius apparet ipso c b. Immutetur iam l oculus sitq́ oculus n cadatq́ radius n d, per h igitur rursus b ipso h k maius ipso b d apparet. Adhærente igitur oculo minore maius, & recedente maiore ipsum b f, ipsum h k uidetur excedere.
+## Theorema uigesimumprimum.
 
-[Diagram: vertical line at left with e at top and d below it; diagonal lines crossing at b right of centre; base line with points f, κ, l, n]
+{dropcap:D|lines=?|style=decorated|decoration="woodcut"}Atam longitudinem quanta sit cognoscere.
 
-## Theorema decimumseptimum.
+Esto enim quam quāta sit cognoscere oportet data longitudo b c ponatur oculus d à quo procidant radij d b, d c, & ab ipso f. excitetur per trigesimamprimam primi elementorum ad ipsam b c. ipsa f k igitur est sicut f k ad k d, sic b c ad c d nota autem est ratio ipsius f κ ad k d: nota igitur & ipsius b c ad c d ratio, & nota est c d, nota igitur est & c b.
 
-{dropcap:Q|lines=?|style=decorated|decoration="woodcut"}Væcunque sese inuicem excedunt, oculo posito in recta linea minori magnitudine existente, adhærēte & recedente oculi æquali semper superius spectatum minus uidebitur excedere.
+[Diagram: triangle with apex d at top, base line c–b at bottom, and inner horizontal line κ–f parallel to the base]
 
-Excedat, inquam, b d ipsum h g ipso b c & connexa c h per 1 postulatum extēdatur, sitq́ oculus in f. igitur ab ipso f radius procidens per f c, annectetur. Rursus iam permutetur oculus in k, igitur per hoc ab ipso κ oculo radius procidens per k c annectetur, eodem igitur excedet b d, ipsum h g & adhærente & recedente oculo.
+## Theorema uigesimumsecundum.
 
-[Diagram: horizontal line through the eye positions f and κ ending at h; vertical line b–d at right with points c and g on it]
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I in eodem plano, in quo & oculus, circuli ambitus positus fuerit, recta linea ipsius circuli ambitus apparebit.
 
-## Theorema decimumoctauum.
+Esto, inquam, ambitus b c, oculus uero sit d. In eodem existens plano ipsi b à quo procidant radij d b, d f & d c. Igitur quoniam per primum theorema eorum sub prospectum cadunt nihil simul spectatur nequaquam apparebit f b, ambitus ipsa igitur f b, signa in rectam esse lineam uidebuntur, similiter quoque & f c, tota igitur b c circunferentia recta linea uidebitur.
 
-{dropcap:D|lines=?|style=decorated|decoration="woodcut"}Atam altitudinem cognoscere quanta sit.
+[Diagram: circular arc bulging to the left with b at top and c at bottom, f within it; rays from the eye d at right to b, f, c]
 
-Sit, inquam, quā oportet cognoscere. quanta sit data altitudo b c, cadatq́ radius solis ab ipso b ut b d, igitur umbra erit ut c d, cape magnitudinem quampiam notam sitque κ f annectatur per trigesimamprimam primi elemētorum sub angulo d, parallelū b c. igitur est sicut c ad c b, sic f ad f k. & nota est ratio ipsius d f ad ipsam f k, nota igitur est ipsius d c ad c b ratio. Sed d c umbra non est ipsa igitur c b altitudo nota est.
+## Theorema uigesimumtertium.
 
-[Diagram: right triangle with d at left, c at bottom right, b at top right; vertical κ–f inside the triangle parallel to b c]
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}Phæra utcunque inspecta ab uno oculo minus semper hemisphærio cernetur, ipsum uero spectatum sub sphæræ circulo comprehensum apparet.
 
-## Theorema decimumnonum.
-
-{dropcap:S|lines=?|style=decorated|decoration="woodcut"}Ole non apparente datam altitudinem quanta sit cognoscere.
+<!-- Signature: X 4 -->
 
 <!-- Catchword: Sit -->

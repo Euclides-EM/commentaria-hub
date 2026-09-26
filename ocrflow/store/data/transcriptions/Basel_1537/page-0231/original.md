@@ -1,37 +1,61 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER NONVS. -->
 
-<!-- Page number: 220 -->
+<!-- Page number: 221 -->
 
-THEON ex Zamb. Bini enim numeri α, β, inuicem sese multiplicantes, quadratū efficiant γ. Dico quod & ipsi α, β, similes plani sunt numeri. Ipse enim α seipsum multiplicās, ipsum δ efficiat: δ igitur quadratus est. Et quoniā α seipsum quidem multiplicās ipsum δ fecit, ipsum autem β multiplicans ipsum γ fecit, est igitur (per 17 septimi) sicut α ad β, sic δ ad γ: & quoniam δ quadratus est, sed & γ, ipsi igitur δ, γ, similes plani sunt, ipsorū igitur δ, γ. (per 18 octaui) unus medius proportionalis est numerus, & est ut δ ad γ, sic α ad β. Ipsorum igitur α, β, (per 8 octaui) unus medius est proportionalis. Si autem binorum numerorū unus medius proportionalis est numerus, (per 18 octaui,) similes plani sunt numeri: ipsi igitur α, β, similes plani sunt, quod oportuit demonstrasse.
+## Eucli. ex Camp. Propositio 5
 
-[Diagram: dotted number lines γ, δ, β, α with intermediate dotted lines]
+**5** {dropcap:S|lines=?|style=decorated|decoration="serpent ornament"}I numerus cubus in numerū alium ducatur, fueritq̃ productus cubus, in quem ductus est, numerū cubum esse necesse est.
 
-## Eucli. ex Camp. Propositio 3
+CORRELARIVM.
 
-**3** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numerus cubus in seipsum ducatur, qui inde producetur erit cubus.
+Vnde & manifestum est, quia ex ductu cubi in non cubum, producitur non cubus. Ductoq̃ cubo in numerum aliquem, si fuerit qui inde producitur non cubus, in quem ille ductus fuerit, necesse est esse non cubum.
 
-CAMPANVS. Sit a cubus, ex quo in se ducto fiat b, dico b esse cubum : sit enim c latus cubicū a, ex c uero in se, fiat d, patet itaq̃ q̃ ex c in d, fit a: sunt igitur unitas, c, d, a, continue proportionales, quod ex 18 septimi, & præsentibus hypothesibus manifestū est, & quia a est a ad b, sicut unitas ad a. eo quod quoties unitas est in a toties a in b, erunt inter a & b, duo numeri medij secundum proportionalitatē continuam per 8 octaui, cum igitur ex hypothesi sit a cubus, erit per 21 eiusdem, b quoq̃ cubus, quod oportebat demonstrare.
+CAMPANVS. Sit enim ex a cubo in b numerū, productus c cubus, dico b esse cubum: fiat enim d ex a in se, qui per antepræmissam erit cubus, quia igitur est per 18 sept. a ad b sicut d ad c, estq̃ a cubus, sed & d & c cubi, erit per 23 octaui, b cubus, quod est propositū. Prima pars correlarij, patet ex hac quinta, à destructione consequentis, secunda, per præmissam, similiter à destructione consequentis.
 
-## Eucli. ex Zamb. Theorema 3 Propositio 3
+## Eucli. ex Zamb. Theorema 5 Propositio 5
 
-**3** Si cubus numerus seipsum multiplicās aliquē fecerit, factus cubus erit.
+**5** Si cubus numerus numerū aliquem multiplicans, cubum fecerit, & multiplicatus cubus erit.
 
-THEON ex Zamb. Cubus enim numerus α, seipsum multiplicans, ipsum efficiat β. Dico quod β cubus est, accipiatur enim ipsius α, latus γ & γ seipsum multiplicans, ipsum efficiat δ, manifestū iam est, quod γ ipsum δ multiplicās, ipsum effecit α & quoniā γ seipsum multiplicās, ipsum δ fecit, igitur γ ipsum δ metitur per eas quæ in ipso sunt unitates. Sed & unitas ipsum γ metitur, per eas quæ in ipso sunt unitates. Est igitur sicut unitas ad γ, sic γ ad δ Rursus quoniam γ ipsum δ multiplicās, ipsum effecit α, igitur ipse δ ipsum α metitur per eas quæ in ipso γ sunt unitates. At unitas ipsum γ metitur per eas quæ in ipso sunt unitates. Est igitur sicut unitas ad γ, sic δ ad α Sed sicut unitas ad γ, sic γ ad δ, & (per 11 quinti) Igitur sicut unitas ad γ, sic γ ad δ & δ ad α. Ipsius igitur unitatis & α, bini medij sunt continue proportionales numeri γ, δ. Rursus quoniam α seipsum multiplicans, ipsum β fecit, igitur α ipsum β metitur per eas quæ in seipso sunt unitates. Metitur autem & unitas ipsum α per eas quæ in ipso sunt unitates. Est igitur sicut unitas ad α, sic α ad β. Ipsius autē α & unitatis, bini medij sunt proportionales numeri, & ipsorū igitur α β, bini medij proportionales sunt numeri (per 8 octaui.) Si autem binorū numerorū bini medij proportionales fuerint numeri, primus autem cubus fuerit, & quartus cubus erit (per 21 octaui:) est autē α cubus, & β igitur cubus est, quod ostendere oportuit.
+THEON ex Zamb. Cubus enim numerus α numerū aliquem β multiplicans, cubum efficiat γ. Dico quod β cubus est. Ipse enim α seipsum multiplicās, ipsum δ efficiat. Cubus igitur est (per 3 noni) & ipse δ, & quoniā α seipsum multiplicās ipsum δ fecit, ipsum autem β multiplicās ipsum γ fecit, est igitur (per 17 septimi) sicut α ad β, sic δ ad γ. & quoniam ipsi δ, γ, cubi sunt, similes solidi sunt. Ipsorū igitur δ, γ, (per 19 octaui) bini medij sunt proportionales numeri. Estq́; sicut δ ad γ, sic est α ad β: & ipsorū igitur α, β, (per 8 eiusdem) bini medij sunt proportionales numeri, estq́; α cubus: cubus igitur & β, quod oportuit demonstrasse.
 
-[Diagram: dotted number lines β, α, δ, γ, unitas with intermediate dotted lines]
+[Margin]
+C.5 Z.5
+[/Margin]
 
-## Eucli. ex Camp. Propositio 4
+[Diagram: four vertical ruled line-segments labeled α, β, δ, γ with rotated numerals 27, 64, 729, 1728]
 
-**4** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I cubus in alium cubū ducatur, qui inde producetur erit cubus.
+## Eucli. ex Camp. Propositio 6
 
-CAMPANVS. Sint a & b cubi, fiatq̃ c ex a in b : dico c esse cubum, fiat enim d ex a in se, eritq̃ per præmissam d cubus, & quia per 18 septimi, est a ad b, sicut d ad c, constat ex 23 octaui. c esse cubum, quod est propositum.
+**6** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I ex ductu cuiusdā numeri in seipsum cubus producatur, eum esse cubum necessario cōprobatur.
 
-## Eucli. ex Zamb. Theorema 4 Propositio 4
+CAMPANVS. Sit ut ex a in se fiat b, sitq̃ b cubus: dico ergo a esse cubū. Fiat enim c ex a in b, eritq̃ ex diffinitione, c cubus : & quoniā constat ex 18 septi. q̃ sit a ad b, sicut b ad c. cum sint b & c cubi, sequitur ex 23 octaui. a esse cubum, quod est propositū.
 
-**4** Si cubus numerus cubum numerum multiplicans, aliquem fecerit, factus cubus erit.
+[Diagram: table of ruled lines with 512 c, 64 b, 8 a]
 
-THEON ex Zamb. Cubus enim numerus α, cubus numerū β multiplicans, efficiat γ Dico quod γ cubus est. Ipse nanq̃ α seipsum multiplicans, ipsum efficiat δ. Igitur δ cubus est (per præcedentem.) Et quoniam α seipsum multiplicās, ipsum δ fecit, ipsum autem β multiplicans, ipsum, fecit, est igitur (per 17 septimi) sicut α ad β, sic δ ad γ. Et quoniam ipsi α cubi sunt, similes solidi sunt ipsi α, β. Idsorum igitur α, β,) per 19 octaui) bini medij sunt proportionales numeri. Quare & (per 8 eiusdem ipsorum) δ, γ, bini midij proportionales sunt numeri, est autem δ cubus, cubus igitur est & γ, quod demonstrare oportebat.
+## Eucli. ex Zamb. Theorema 6 Propositio 6
 
-[Diagram: four ruled line-segments labeled α, β, δ, γ with numerals 8, 27, 64, 216]
+**6** Si numerus seipsum multiplicans, cubum fecerit, & ipse cubus erit.
 
-<!-- Catchword: Eucli. ex -->
+THEON ex Zamb. Numerus enim α seipsum multiplicans, cubum efficiat β. Dico quod α cubus est. Ipse enim α ipsum β multiplicās, ipsum efficiat γ. Quoniā igitur α seipsum quidē multiplicans ipsum β fecit, ipsum autem β multiplicās ipsum γ fecit, igitur γ (per 4 noni) cubus est. Et quoniā α seipsum multiplicās ipsum β fecit, ipsum autem β multiplicās ipsum effecit γ, sicut igitur (per 27 sept.) α ad β, sic β ad γ. Et quoniā ipsi β, γ, cubi sunt, similes solidi sunt, ipsorū igitur β, γ. (per 19 octaui) bini sunt medij proportionales numeri, estq́; sicut β ad γ, sic α ad β, & ipsorū igitur α β bini medij sunt proportionales numeri (per eandem:) est autem β cubus, cubus igitur est & α, quod ostendere oportuit.
+
+[Diagram: three vertical ruled line-segments labeled α, β, γ with rotated numerals 27, 729, 19683]
+
+## Eucli. ex Camp. Propositio 7
+
+**7** {dropcap:S|lines=?|style=decorated|decoration="serpent ornament"}I numerus compositus in numerū quemlibet ducatur, qui inde producetur erit solidus.
+
+CAMPANVS. Sit a numerus cōpositus, qui ducātur in b, & proueniat c. dico c esse numerum solidum. Cum enim a sit cōpositus, numeratur ab aliquo numero, qui sit d, numeretq̃ eum secūdum e. Quia igitur ex e in d fit a, & ex a in b, c, erit ex diffinitione solidorū c solidus, eiusq̃ latera e, d, b, quod est propositū.
+
+[Diagram: dotted number lines e, d, c, b, a]
+
+## Eucli. ex Zamb. Theorema 7 Propositio 7
+
+**7** Si cōpositus numerus numerū aliquem multiplicās, aliquē fecerit, factus solidus erit.
+
+THEON ex Zamb. Compositus enim numerus α numerū aliquem β multiplicans, ipsum γ efficiat. Dico quod γ solidus est. Quoniam enim α compositus est, eum aliquis numerus metietur (per diffinitionē) metiatur eum δ, & quoties δ ipsum α metitur, tot unitates sint in ε. Igitur ε ipsum δ multiplicans, ipsum effecit α. Et quoniam α
+
+[Diagram: dotted number lines ε, δ, γ (ruled line with numeral 48), β, α]
+
+<!-- Signature: c 3 -->
+
+<!-- Catchword: ipsum -->

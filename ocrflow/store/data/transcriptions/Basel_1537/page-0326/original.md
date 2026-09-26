@@ -1,61 +1,27 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Running title: GEO. ELEMEN. EVCLIDIS -->
 
-<!-- Page number: 315 -->
+<!-- Page number: 316 -->
 
-CAMPANVS Intellige quid sit linea minor quod si oblitus es, cōsule 21. & sine obiectione concludes propositum. si quemadmodū in 74 processeris, poterisque si libuerit, quemadmodum in 76 procedere.
+potentia incommensurabilis toti subsistens, & cum tota efficiens conflatū ex ipsarum quadratis medium, & quod bis sub ipsis medium, & insuper incommensurabile conflatum ex ijs quæ ab ipsis, ei quod bis sub ipsis.
 
-## Eucl.ex Zãb. Theorema 64 Propositio 82
+THEON ex Zãb. Esto cū medio mediū totū efficiens α β, congruēs autem illi sit β γ, ipsæ igitur α γ, γ β. potentia sunt incommensurabiles, efficientes conflatū ex ipsarū quadratis mediū, & quod bis sub ipsis α γ, γ β, mediū, insuper & quæ ex α γ, γ β, quadrata, incōmensurabilia ei quod bis sub α γ, γ β. Dico quod alia ipsi α β, nō cōgruit, cū tota efficiēs proposita. Quod si poßibile est, congruat β δ, ut & α δ, δ β, potētia sint incōmensurabiles efficiētes quæ ex α δ, δ β, quadratis simul mediū, & quod bis sub ipsis α δ, δ β, mediū, & insuper quæ ex α δ, δ β, incōmēsurabilia ei quod bis sub α δ, δ β. Exponaturq̃ ratiōalis ε ζ. Et eis quidē quæ ex α γ, γ β. æquū ad ipsam ε ζ, cōparetur (per 45 primi,) ε η, latitudinē efficiēs ε μ, ei aūt quod bis sub β γ, γ β{printer-error-correction:α γ, γ β}, æquū auferatur (per 44 primi) θ η, latitudinē efficiens θ μ. Reliquū igitur quod ex α β, (per 7 secūdi) æquū est ipsi ε λ, ipsa igitur α β, ipsum ε λ potest. Rursus eis quæ ex α δ, δ β, æquū ad ipsam ε ζ cōparetur per 44 primi,) ε ι, latitudinem efficiens ε ν. Est autem quod ex α β, æquum ipsi ε λ. Reliquum igitur quod bis sub α δ, δ β, æquum est ipsi θ ι. Et quoniā conflatum ex ijs quæ ex α γ β{printer-error-correction:α γ, γ β}, medium est, ac ipsi ε η, æquale, medium igitur est & ε η, Et ad rationalem comparatur ε ζ, latitudinem efficiens ε μ, rationalis igitur est (per 22 decimi ε μ, & ipsi ε ζ, longitudine incommensurabilis. Rursus quoniam quod bis sub α γ, γ β, mediū est & ipsi θ η æquale, medium igitur est θ η. Et ad ipsam rationalē ε ζ apponitur, latitudinem efficiēs θ μ, rationalis igitur est θ μ, & ipsi ε ζ longitudine incommensurabilis. Et quoniā incōmensurabilia sunt quæ ex α γ, γ β, ei quod bis sub α γ, γ β, incommensurabile igitur est ε η, ipsi θ η, incommensurabilis igitur est & ε μ, ipsi μ θ longitudine, & ambæ rationales sunt. Ipsæ igitur ε μ, μ θ, potentia tantū sunt cōmensurabiles. Igitur ipsa ε θ, apotome est. Congruens autē ei, est θ μ. Similiter iam ostendemus quod ε θ, rursus apotome est. congruens autem ei est θ μ{printer-error-correction:θ ν}. Apotomæ igitur ipsi alia & alia cōgruit potentia tantum toti subsistens commensurabilis, quod (per 79 decimi) impoßibile esse ostendimus. Ipsi igitur α β, alia recta linea non congruit. Ipsi igitur α β, una recta linea tantum congruit, potentia tantum toti subsistens incommensurabilis, & cum tota efficiens quæ ex ipsis quadratis simul medium, & quod bis sub ipsis. Efficiēti igitur cum medio medium totum, & quæ sequuntur reliqua. Quod erat ostendendum.
 
-[Margin]
-82
-[/Margin]
+[Diagram: horizontal line with points α, β, γ, δ marked above it; below, a rectangle divided by vertical lines into compartments, with points ε, θ, μ, η along the top side and ζ, λ, ν, ι along the bottom side]
 
-Minori una tantum congruit recta linea potentia toti incommensurabilis subsistens, efficiens cum tota compositum ex earum quadratis rationale. quod uero bis sub ipsis medium.
+## Ex Campano. Residuorum diffinitones.{printer-error-correction:diffinitiones}
 
-THEON ex Zamb. Esto minor α β, & ipsi α β congruens esto β γ, ipsæ igitur β γ, γ β{printer-error-correction:α γ, γ β}, potentia sunt incommensurabiles, efficientes conflatū quidē ipsarū quadratis rationale, quod uero bis sub ipsis mediū. Dico quod ipsi α β, alia recta linea non congruit efficiens eadem. Si enim poßibile, congruat β δ, & igitur α δ, δ β, potentia sunt incōmensurabiles efficientes quæ ex δ, δ β{printer-error-correction:α δ, δ β}, quadrata simul rationale, quod autē bis sub ipsis α δ δ β, medium. Et quoniā quo excedunt quæ ex α δ, δ β, ea quæ ex α γ, γ β, eo excedit & id quod bis sub α δ, δ β, quod bis sub α γ, γ β, quæ aūt ex α δ, δ β, quadrata, ea quadrata quæ ex α γ, γ β, rationali excedunt, utraque enim rationalia, & quod bis igitur sub α δ, δ β, id quod bis sub α γ, γ β, rationali excedit, quod (per 26 decimi) est impoßibile, utraq̃ nanque media sunt. Minori igitur una tantum congruit recta linea potentia toti subsistens incommensurabilis, efficiens quæ ex ipsis quadratis simul rationale, quod uero bis sub ipsis medium, quod ostendere oportebat.
+1 Si fuerit idem totū positæ rationali lineæ in lōgitudine commensurabile, quod positum erat, dicetur residuum primum.
 
-[Diagram: horizontal line with points α, β, γ, δ marked above it; α at the left end, β and γ close together near the middle, δ at the right end]
+2 Si uero linea adiuncta, positæ rationali communicet in longitudine, dicetur residuum secundū. 3 Quod si fuerit utraq̃ rationali positæ in longitudine incommensurabilis, uocabitur residuum tertium. 4 Si eadem tota positæ rationali cōmunicet in longitudine, nūcupabitur residuum quartum. 5 Si uero linea adiuncta, positæ rationali, communicet in longitudine, uocabitur residuum quintum.
 
-## Eucli.ex Camp. Propositio 78
+### Commune initium trium priorum diffinitionum.
 
-[Margin]
-78
-[/Margin]
+Positis duabus lineis altera rationali altera residuo, adiectaq̃ ipsi residuo secundū eius terminum, si fuerit totum compositū potentins{printer-error-correction:potentius} linea adiecta, in quadrato lineæ ipsi toti cōmunicantis in longitudine.
 
-Linea quæ coniuncta cum rationali facit totum mediale, nisi uni tantum componi non potest ut sub earum termino fiant quæ erant ante separationem.
+### Commune initium trium posteriorum diffinitionum.
 
-CAMPANVS Quid sit linea quæ proponitur, ex 72 didicisti. Cum ergo de ea uolueris quod per hanc 78 dicitur demonstrare, à processu 75, in, quoquã non deuies, sed sicut in 76, si te delectauerit, ingenio duce poteris procedere.
+Positis duabus lineis altera rationali, altera residuo, adiectaq̃ ipsi residuo secundū eius terminum, si fuerit totum compositū potentius linea adiecta, in quadrato lineæ ipsi toti incommēsurabilis in longitudine.
 
-## Eucli.ex Zamb. Theorema 65 Propositio 83
+6 Quod si fuerit utraque rationali positæ in longitudine incommensurabilis, appellatur residuū sextum.
 
-[Margin]
-83
-[/Margin]
-
-Efficienti cum rationali medium totum una tantum congruit recta linea potentia toti incommensurabilis subsistens, & cum tota efficiens conflatum quidem ex ipsarū quadratis medium, quod uero bis sub ipsis rationale.
-
-THEON ex Zamberto. Sit cum rationali medium totum efficiens α β, & ipsi α β congruat β γ. Ipsæ igitur α γ, γ β, potentia sunt incommensurabiles, efficientes conflatum quidem ex ipsarum α γ, γ β, quadratis mediū, quod uero bis sub ipsis α γ, γ β, rationale. Dico quod ipsi α β, alia non congruit eadem efficiens. Si enim poßibile, congruat β δ, & ipsæ igitur α δ, δ β, rectæ lineæ, potētia sunt incōmensurabiles, efficiētes conflatū ex ipsarū α δ, δ β, quadratis mediū, quod uero bis sub ipsis α δ, δ β, ratiōale. Quoniā igitur quo excedunt quæ ex α δ, δ β, ea quæ ex α γ, γ β, eo excedit & quod bis sub α δ, δ β, id quod bis sub α γ, γ β, cōsequēter ut in præcedētibus, quod uero bis sub α δ, δ β. id quod bis sub α γ, γ β, excedit rōnali, rationalia namq̃ utraque & quæ ex α δ, δ β, igitur ea quæ ex α γ, γ β, excedunt rationali, quod est (per 26) impoßibile, utraque enim media sunt (per 77 decimi.) Ipsi igitur α β, alia non congruit recta linea potentia toti subsistens incommensurabilis, & cum tota efficiens conflatum ex ipsarum quadratis medium, quod autem bis sub ipsis rationale. Efficienti ergo cum rationali medium totum una tantum congruit recta linea, & quæ sequuntur reliqua. Quod erat demonstrandum.
-
-[Diagram: horizontal line with points α, β, γ, δ marked above it; α at the left end, β and γ close together near the middle, δ at the right end]
-
-## Eucli.ex Camp. Propositio 79
-
-[Margin]
-79
-[/Margin]
-
-Lineæ quæ iuncta cum mediali facit totū mediale, nisi una linea tantum iungi nequit ut sub earum termino fiant quæ erant ante separationem.
-
-CAMPANVS Huius lineæ quæ iuncta cum mediali componit totū mediale, magistra est 71. De qua quod hæc 79 enuntiat concludere cogeris, sicut de residuo mediali secundo (quod per 76 enuntiatum est) conclusisti.
-
-## Eucli.ex Zamb. Theorema 66 Propositio 84
-
-[Margin]
-84
-[/Margin]
-
-Efficienti cum medio medium totum, una tantum congruit recta linea
-
-<!-- Signature: D 2 -->
-
-<!-- Catchword: poten -->
+<!-- Catchword: Ex Zam- -->

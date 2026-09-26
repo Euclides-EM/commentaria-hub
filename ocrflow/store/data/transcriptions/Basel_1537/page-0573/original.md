@@ -1,23 +1,35 @@
-<!-- Page number: 560 -->
+<!-- Page number: 563 -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: DATA -->
 
-magnitudine datur igitur d f e triangulum specie. Et quoniam bina triangula a b c,d e f unum angulum uni angulo æquum habent eum scilicet qui sub b a c,ei qui sub d f e,ea uero quæ circum eos qui sub b a c,d f e,angulos latera proportionalia,simile igitur est & æquale per primam diffinitionem & 6 propositionem sexti elementorum triangulũ a b c ipsi d e f triangulo. Datur autem d f e,specie,datur igitur & a b c triangulum specie
+b a,data est. Quoniam igitur angulus qui sub c a b,datus est,est autẽ & qui sub e a b,datus. Reliquus igitur qui sub e a c,datus est,datur igitur triãgulũ a e c specie. Ratio igitur ipsius e a ad a c,data est,ipsius autem c a ad a b,ratio est data & ipsius e a ad a c igitur ratio data est. Idque propterea & ipsius f a, ad a b,ratio est data, estque sicut a e, ad a f,sic b g ad b h. Quare & ipsius b g ad b h ratio est data. Est quæ ipsius quidẽ a g,dimidium triangulũ a b c,per 41 primi ele. Ipsius autem a h. per eandem dimidium est triangulum a b d,& ipsius igitur a b c ad a d b,ratio est data.
 
-## Theorema 42 Propositio 42
+## Theorema 49 Propositio 49
 
-SI trianguli latera adinuicem rationem habuerint datam,datur triangulum specie.
+SI ab eadem recta linea bina rectilinea utcunque data specie descripta fuerint,adinuicem rationem datam habebunt.
 
-Triãguli enim a b c,latera adinuicem rationem habeant datam. Dico quod ipsum a b c,triangulũ datur specie:exponatur enim data magnitudine recta linea d,& quoniã ratio ipsius a b,ad b c data est. Eadem eidem fiat ipsius d ad e. Data autem d. Data igitur & e. Rursus quoniã ratio ipsiꝰ b c,ad a b data est,eadem eidem fiat ipsius e ad f. Data autẽ e data igitur & f,& ex tribus rectis lineis quæ æquales sunt tribus datis d e f,quarum binæ reliqua quomodocunque assumptæ sunt maiores,per 22 primi elementorum triangulum constituatur g h k. Quoniam æqualis est d ipsi g h,& e ipsi h k & f ipsi g k, Data autem unaqueq̃ ipsarum d e f. Data igitur & unaqueque ipsarum g h,h k,k g magnitudine. Datur igitur triangulũ g h k, specie,& quoniam est sicut a b ad b c,sic est d ad e. Aequalis autẽ est d ipsi g h,& e ipsi h k:est igitur sicut a b ad b c, sic g h ad h k. Rursus quoniam est sicut b c ad c a sic e ad f. Aequalis autem est e ipsi h k:& f ipsi g k. Est igitur sicut b c ad c a sic h k ad k g. Ostensum autem est sicut a b ad b c,sic g h ad h k,ex æquali igitur per 22 quinti elemẽtorum,sicut b a ad a c,sic g h ad g k. Simile igitur est per primam diffinitionem 6 elementorum a b c triangulum ipsi g h k triangulo. Datur autem g h k triangulum specie. Datur igitur & a b c triangulum specie.
+Ab eadem enim recta linea a b,bina rectilinea utcunque specie data describantur a e c f b & a d b. Dico ꝙ ratio ipsius a e c f b, ad a d b. est data. Connectantur a f,f e. Datur igitur unumquodq̃ ipsorũ e c f,e f a,f a b,triãgulorum specie. Et quoniam ab eadem recta linea e f,bina triangula specie data e f c,& e f a,describũtur. Ratio igitur ipsius c f e ad f e a, data est per præcedentem,& componendo igitur per 18 quinti elemẽtorum ratio ipsius c e a f data est. Ipsius autem f e a ad f a b,ratio est data. Quoniam ab eadem recta linea a f, describitur. Et ipsius f c e,e a f,igitur & a f b,ratio est data.& componendo igitur per 18 quinti ele.ipsius c e a b f ad b f a, rõ est data. Ipsius autem f b a,ad a d b,ratio est data,& ipsius igitur c e a b f,ad a d b,ratio est data.
 
-[Diagram: triangle with apex a and base corners c, b; below it a second triangle with apex g and base corners k, b (for h); below these, three horizontal lines labelled d, e, f]
+[Diagram: rectilineal figure a e c f b with c at top, e at left, f at right, a at bottom left, b at right below f; diagonals a f and f e drawn; below it triangle a d b with apex d]
 
-## Theorema 43 Propositio 43
+## Theorema 50 Propositio 50
 
-SI trianguli rectanguli circa unum acutorum angulorum latera adinuicem rationem habuerint datam, datur triangulum specie.
+SI binæ rectæ lineæ adinuicem rationẽ habuerint datam,& ab ipsis rectilinea similia,similiterq̃ descripta adinuicem rationem datam habebunt.
 
-Trianguli enim rectanguli a b c,rectum habentis eum qui sub b a c,angulum,circa unum acutorum eiusdem angulorũ qui sub a b c latera c b,b a,adinuicem rationem habeãt datam. Dico quod ipsum a b c,triangulum datur specie. Exponatur enim positione & magnitudine data recta linea d e. Describaturq̃ super d e semicirculus d g e,positione igitur est d g e semicirculus,& quoniam ratio ipsius c b ad b a,data est, eadem eidem fiat ipsius d e ad f. Ratio igitur ipsius d e ad f data est. Data autem d e,data igitur & f & quoniam maior est c b ipsa b a,maior igitur est & e d,ipsa f. Congruat ipsi f per primam quarti elementorum,d g,connectaturque g e & centro quidem d,interuallo autem d g, per tertium postulatum circulus describatur h g k , positione igitur est circulus h g k. Datur enim ipsius centrũ positiõe,& quæ ex centro magnitudine,positione autem & d g e,semicirculus datũ igitur est & g signum,est autem utrunque ipsorum d e,datum. Data igitur est , per uigesimamsextam propositionem unaquæque ipsarum g d,d e.e g,positione & magnitudine. Datur igitur triangulum g d e specie. Quoniam igitur bina triangula sunt a b c,d e g unum angulum uni angulo æquum habentia. eum scilicet qui sub b a c,ei qui sub d g e. Circum uero alios angulos qui sub c b a;e d g. latera proportionalia. Reliquorum autem qui sub b c a,d e g, utrumque simul minorem recto. Simile igitur est per septimam sexti elemen. triãgulum a b c ipsi d e g, triãgu
+Binæ siquidẽ rectæ lineæ a b,c d,adinuicẽ rõnẽ habeant datã, describãturq̃ ab ipsis a b,c d, similia similiterq̃ posita rectilinea e f. Dico ꝙ earũ ratio data est. Assumatur enim ipsis a b,c d.per 11 sexti elementorum tertia proportionalis g. Est igitur sicut a b ad c d.sic c d ad g. Ratio autem ipsius a b ad c d data, ratio igitur & ipsius c d ad g data. Quare & ipsius a b ad g ratio est data. Sicut autẽ a b ad g,sic e ad f. Ratio igitur ipsius e ad f data est.
 
-[Diagram: a large circle with points g, b, e, k, d marked; a semicircle described on e d with vertex g joined to e and d; a short line labelled f below at left; beside it a small triangle with vertices a, c, b]
+[Diagram: two similar triangles with apexes f and e standing above a line with points d, c, b, a; below, a separate horizontal line labelled g]
 
-<!-- Catchword: lo -->
+## Scholium.
+
+Quoniam enim ipsius a b ad c d,ratio est data.est autem & ipsius c d ad g,ratio data. manifestum est quod & composita ex binis datis rationibus ratio data est,uel & per octauum theorema quod & melius est.
+
+## Theorema 51 Propositio 51
+
+SI binæ rectæ lineæ adinuicem rationem habuerint datam,& ab ipsis rectilinea utcunque descripta specie data rationẽ adinuicem datam habebunt.
+
+Binæ enim rectæ lineæ a b,c d,adinuicem rationem habeant datam,describanturque ab ipsis a b,b c, rectilinea utcunque specie data e f. Dicoque,& ipsius e ad f ratio est data. Describatur enim per uigesimãquintã sexti elemento.ab ipsa a b ipsi f,simile similiterq̃ positum rectilineum a g b. Datur autem f specie,datur igitur & a g b specie. Sed & e,spe
+
+[Diagram: parallelogram with corners b (top left), e (top right), g (bottom left), a (bottom right), with an inscribed triangle; below, an inverted triangle with corners d (left) and f (right) and apex e at the bottom]
+
+<!-- Catchword: cie -->

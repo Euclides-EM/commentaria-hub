@@ -1,35 +1,25 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Page number: 252 -->
+<!-- Page number: 253 -->
 
-communicabunt. Idem quoque in contrario,si enim a & b sint incommunicātes, dico quod c utrique earum erit incommunicans,& econuerso,si c alteri earum sit incōmunicant,erit quoque incōmunicans & alteri,& ipsæ etiam inter se. Sint itaque primum a & b communicantes,sitque earum communis mensura d,quæ cum utramq̃ earum numeret,per conceptiouem{printer-error-correction:conceptionem} similem antepenultimæ septimi,numerabit & c,quare per diffinitionem c communicabit utrique earū scilicet a & b. Ecōuerso quoq̃ si c cōmunicet utrique earum,sit omnium communis mēsura d,constat itaque per diffinitionem,a & b communicantes esse. Sed communicet c cum altera earū quæ sit a,dico quod communicabit cū b.& a etiam & b communicabunt adinuicem:sit enim d communiter mensurans c & a Quia igitur d mensurat totum & detractum,per conceptionem ipsa mensurabit residuum uidelicet b,per diffinitionem ergo,& c communicat cū b,& a communicat quoque cum b.
+ne & in potentia. Sumo itaque duos numeros nequaquam se habentes in proportione aliquorum numerorum quadratorum,sintq̃ hi b & c,quos facile est sumere,cū quilibet quadratus numerus ad quēlibet non quadratum eam habeat proportionē quā nequaquā habent aliqui numeri quadrati,confirmante hæc 22 octaui. Duobus talibus numeris sumptis inuenio lineam d,ad cuius quadratum se habeat quadratum lineæ a sicut numerus b ad numerum c. Hāc autem lineam ita reperio. Diuido lineam a in tot partes æquales quot sunt unitates in numero b,quod facile facio adiuuāte 11 uel 12 sexti,dehinc super extremitatem lineæ a,erigo lineam e perpēdiculariter,in qua toties cōtineatur una ex partibus a,quoties unitas est in c. Quia igitur ex prima sexti proportio quadrati lineæ a ad superficiem quæ fit ex a in e est sicut a ad e,& ideo sicut numeri b ad numerum c:ponatur d medio loco proportionalis inter a & e sicut docet 9 sexti. Quia tunc per primam partem 6 eiusdē quadratum erit æquale superficiei productæ ex a in e,erit proportio quadrati lineæ a ad quadratū lineæ d,sicut numeri b ad numerū c quare a & d,sunt cōmēsurabiles in potentia ex diffinitione.& per ultimam partem,ipse sunt incommensurabiles in longitudine,reperta est itaque d prima linea.quam propositum erat inquirere. Alteram sic reperio Interpono ut docet 9 sexti, lineam f medio loco proportionalem inter a & d,eritque per correlariū 17 sexti quadratum a ad quadratum f,sicut a ad d.itaque per secundam partē 10,quadratum a est incommensurabile quadrato f,igitur linea f est incommensurabilis lineæ a in potentia,quare & in longitudine.est itaque f secunda linea quam propositū erat reperire,Et sic patet propositum.
 
-[Diagram: four horizontal lines labelled a, b (on one rule), c, and d, each marked off into equal parts]
+[Diagram: rows of dots labelled b (four dots) and c (three dots); horizontal line a with perpendicular line e erected at its right end; below, two lines labelled f Re. cub. 48 and d Re. q. 12]
 
-CAMPANI *additio*. Si autem a & b sint incommunicantes,erit c incommunicans utrique earū. Si enim cum utraque seu etiam cum altera earum communicaret,& ipsæ communicarent adinuicem,quod est contra hypothesin. Similiter quoque econuerso sie est in communicans{printer-error-correction:si c est incommunicans} utriq̃ earum seu etiam alteri earū,erit quoque incommunicās reliquæ,& ipsæ inter se,quod palam est ex prædemonstratis,à destructione cōsequentis.
-
-## Eucli.ex Camp. Propositio 10
+## Eucli.ex Camp. Propositio 12
 
 [Margin]
-10
+12
 [/Margin]
 
-{dropcap:O|lines=?|style=decorated|decoration="containing a face"}Mnium quatuor quātitatum proportionalium,si fuerit prima communicās secundæ,tertia quoque erit communicās quartæ. Si uero prima incommensurabilis fuerit secūdæ, tertia quoque incommensurabilis erit quartæ.
+{dropcap:O|lines=?|style=decorated|decoration="foliate"}Mnium quatuor linearum proportionalium si prima tanto amplius possit secunda quantum est quadratum alicuius lineæ commuuicantis{printer-error-correction:communicantis} sibi in longitudine, necesse est tertiam quoque tanto amplius posse quarta,quantum est quadratum alicuius lineæ communicantis sibi in longitudine. Quod si fuerit prima potentior secunda quadrato alicuius lineæ incommensurabilis sibi in longitudine, erit quoque tertia potentior quarta quadrato alicuius lineæ sibi incommensurabilis in longitudine.
 
-CAMPANVS. Sint quatuor quantitates proportionales,a,b,c,d: dico quod si a communicat cum b,c quoq̃ communicabit cum d,quod si a est incommensurabilis b,c quoq̃ erit incommensurabilis d.Et si a communicabit cum b in potentia tantum,c quoque communicabit cū d in potentia tantū,ueruntamē illud non proponit autor quia facile patet ex demonstratione priorum.Si enim a communicat cum b,erit per 5 a ad b sicut numerus ad numerum, sit ergo sicut e ad f.At quia est per hypothesin a ad b sicut c ad d,erit c ad d, sicut numerus e ad numerū f,per 6 igitur est c cōmunicās cum d,quod est primum.Secundum patet ex primo à destructione consequentis. Si enim a est incommensurabilis b oportet c esse incommensurabilem d,nam si esset ei commensurabilis,cum sit ut c ad d sic a ad b,per hypothesin, esset per primam partem a communicans cum b,sed non erat.Quare constat totum quod proponit autor.Quod autem adiūximus,uidelicet quod si a communicat cum b in potentia tātum,c, communicat cum d in potentia tantum,sic patet.Cum enim a non communicet cum b,in longitudine,nec c quoq̃ ex parte secūda huius,communicabit cum d in longitudine.At uero cum quadratum a communicet cum quadrato b ex hypothesi,erit per 5,quadratū lineæ a ad quadratum lineæ b,sicut numerus ad numerum qui sint e & f. Et quia quadratum c ad quadratū d sicut quadratum a ad quadratum b,erit etiam quadratum c ad quadratum d,sicut numerus e ad numerum f,per 6 igitur c & d,communicant in potentia,& quia non communicant in longitudine,constat propositum.
+CAMPANVS Sint quatuor lineæ proportiōales a,b,c,d,sitque a maior b;& c maior d,sit quoque a potentior b,quadrato lineæ e: & c potētior d,quadrato lineæ f.dico quod si a communicet e in lōgitudine.c quoque cōmunicabit f in longitudine,quod si a non communicat e in longitudine,nec c communicabit f in longitudine.Quod & si a cōmunicat e in potentia tantum.c quoque cōmunicabit f in potentia tantū. Veruntamen istud ultimum non proponit autor,quia facile patet ex priorum demōstratione.Cū sit enim proportio a ad b sicut c ad d,erit quadrati a ad quadratū b,sicut quadrati c ad quadratū d.Et quia quadratū a est æquale quadratis duarum linearum b & e,similiter quadratum c quadratis duarum linearum d & f,erit proportio quadratorum duarum linearum b & e ad quadratum e,sicut quadratorum d & f ad quadratum f,ergo disiūctim erit quadratum b ad quadratum e, sicut quadratum d ad quadratum f,ergo b ad e sicut d ad f,item per æquam proportionalitatem erit a ad e,sicut c ad f,ergo per primā partem decimæ constat prima pars huius,& per secundam secunda,& per tertiam ibi adiunctam, tertia hic adiuncta.
 
-[Diagram: four horizontal lines labelled a, b, c, d, marked into parts; below them two rows of dots labelled f (two dots) and e (five dots)]
+[Diagram: six horizontal lines labelled a, b, e, c, d, f, marked into parts]
 
-[Diagram: four horizontal lines labelled a; b Re. 32; c; d Re. 18]
+Quinque præcedentes propositiones ex Campano cum suis additionibus,sequētibus septem ex Zamberto cū sibi præmissis lemmatibus hoc ordine respondent. Octaua apud Campanum cū additione, duode
 
-## Eucli.ex Camp. Propositio 11
+<!-- Signature: y -->
 
-[Margin]
-11
-[/Margin]
-
-{dropcap:P|lines=?|style=decorated}Roposita qualibet recta linea, duas ei incommensurabiles alteram in longitudine tantum,alteram in longitudine & potentia rectas lineas inuenire.
-
-CAMPANVS Sit linea a proposita,uolo duas lineas reperire,quarum una communicet cum a in potentia tantum,altera uero sit incommensurabilis ei in longitudi
-
-<!-- Catchword: ne, -->
+<!-- Catchword: cimæ -->

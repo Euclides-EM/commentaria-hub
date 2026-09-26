@@ -1,45 +1,31 @@
-<!-- Page number: 336 -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 337 -->
 
-CAMPANVS Hæc quoq́; sicut præmissa probatur. Erit enim tota a b medialis, b autē rationalis, & tūc dico quod in a reliquū potest. aut est residuum mediale primum, aut cū rationali componens mediale. Cū enim c g æqualis sit a b, erit per 20 linea d g rationalis in potentia tantum, & cū sit f g æqualis b, erit per 16 linea e g rationalis in longitudine, ergo à diffinitione erit linea d e, residuū secundum aut quintum, quare per 87 & 90 latus tetragonicum superficiei c e, & ideo superficiei a, est residuum mediale primū, aut cum rationali componēs mediale. Quod est propositum nostrū.
+THEON ex Zamb, Auferatur enim sicut in præcedentibus descriptionibus, à medio β γ, medium β δ. incōmensurabile toti. Dico quod quæ α γ{printer-error-correction:ε γ}, potest, una est duarum irrationalium, aut mediæ apotomæ secunda, uel cum medio medium totum efficiens. Quoniam enim medium est (per 22 decimi) utrūque ipsorū, β γ, β δ, & β γ, ipsi β δ, est incommensurabile, erit per cōsequēs rationalis utraq́; ipsarū ζ θ, ζ κ, & ipsi ζ η longitudine incommensurabilis. Et quoniā incommensurabilis est β γ, ipsi β δ, hoc est η θ ipsi η κ, incommensurabilis est (per 1 sexti & 11 decimi,) & ζ θ, ipsi ζ κ, & ipsæ igitur θ ζ, ζ κ, (per 73 ) rationales sunt potentia tantum commensurabiles. Apotome igitur est κ θ, cōgruens autem est ζ κ. At θ ζ, ipsa ζ κ maius potest aut eo quod ex sibi comensurabtli{printer-error-correction:comensurabili}, aut eo quod ex sibi incommensurabili. Si quidē igitur θ ζ, ipsa ζ κ, maius potest eo quod ex sibi cōmēsurdbili{printer-error-correction:cōmēsurabili}. & neutra ipsarū θ ζ, ζ κ. cōmensurabilis est ipsis ζ η, exposita rationali lōgitudine, apotome tertia est ipsa κ θ. Rationalis autē κ λ. Quod autē sub rationali & apotome tertia cōprehensum rectangulum, irrationale est, & quæ illud potest irrationalis est, appellaturq́; mediæ apotomæ secūda (per 93 decimi,) quare λ θ, hoc est ε γ, potens, mediæ est apotomæ secūda. Si autem θ ζ, ζ κ, maius potest eo quod ex sibi incommensurabili longitudine, & neutra ipsarum θ ζ, ζ κ, ipsi ζ η, longitudine est cōmensurabilis, apotome sexta est θ κ. Quæ autem potest id quod sub rationali & apotome sexta, est cum medio medium totum efficiens, quare quæ ipsum λ θ. hoc est ε γ potest, cum medio medium totum efficiens est (per 96 decimi.) A medio igitur, medio ablato, & quæ sequuntur reliqua. Quod erat ostendendum.
 
-[Diagram: rectangle divided horizontally into two cells, labelled b (upper) and a (lower)]
+[Diagram: two rectangles, each divided by an internal vertical line. First rectangle: β at top left, ε above the vertical line, δ below the vertical line, γ at bottom right, and a blotted letter at bottom left. Second rectangle: ζ at top left, κ above the vertical line, θ at top right, η at bottom left, λ below the vertical line]
 
-[Diagram: rectangle with g at top right corner, divided horizontally; f at the left and e at the right of the lower band; corners c (bottom left) and d (bottom right)]
-
-## Eucli.ex Zamb. Theorema 85 Propositio 109
+## Eucli.ex Camp. Propositio 106
 
 [Margin]
-109
+106
 [/Margin]
 
-## A medio, rationali sublato, aliæ duæ irrationales fiūt, uel mediæ apotomæ prima, uel cum rationali medium totum efficiens.
+## LInearum irrationalium quæ sunt residuum & post ipsam subsecutæ, ullam, alij termino & ordine subesse impossibile est, residuo quoque, binomij terminum uel ordine conuenire, non est possibile.
 
-THEON ex Zāb. A medio β γ, rationale auferatur β δ. Dico quod quæ reliquum potest ε γ, una duarū irrationaliū est, aut mediæ apotomæ prima, aut cum rationali medium totum efficiēs. Exponatur enim rationalis ζ η, & cōparentur similiter areolæ. Consequenter est autem rationalis quidē ζ θ, & ipsi ζ η lōgitudine incommensurabilis. Rationalis antem{printer-error-correction:autem} est (per 22 decimi κ ζ, & ipsi ζ η, longitudine commensurabilis. Ipsæ igitur ζ θ, ζ κ, (per 20 decimi) rationales sunt potentia tantum commensurabiles, Apotome igitur est ipsa κ θ. Cōgruens aūt est ζ κ. At ζ θ, ipsa ζ κ, uel maius potest eo quod ex sibi commensurabili, Si quidem θ ζ, ipsa ζ κ, maius potest eo quod ex sibi cōmēsurabili & est cōgruens (per 80 decimi) ζ κ commensurabilis ipsi ζ η expositæ rationali longitudine. ipsa κ θ apotome est secunda (per 3 diffinitiones,) Rationalis autē est ζ η. Quæ autē potest quod sub rationali & apotome secūda, mediæ apotomæ est prima (per 92 decimi.) Quare λ θ, hoc est γ ε. potens, mediæ apotomæ est prima. Si autē θ ζ, ipsa ζ κ maius potest eo quod ex sibi incommensurabili, & ζ κ congruens est commensurabilis longitudine ipsi ζ ν{printer-error-correction:ζ η}, expositæ rationali, apotome quinta est κ θ, Quare ipsam ε γ potens, (per 95 cum rationali medium totū efficiens est. A medio igitur, rationali sublato, & quæ sequuntur reliqua. Quod erat ostendendum.
+CAMPANVS Vult autem per hanc 106, quod residuum, & aliæ quinque lineæ irrationales eā sequentes differūt specie & diffinitione adinuicē, & nulla linea una potest esse sub duabus neque sub pluribus speciebus harū sex linearū irrationaliū quæ sunt residuū. & eius quinq́; comites. & quod omnes species residui differunt ab omnibus speciebus binomij, nec est possibile liueā{printer-error-correction:lineā} unā simul esse residuū & binomiū cuiuscunq́; speciei residui uel binomij. Pars prima sic cōstat, quoniā superficies æquales quadratis residui & suarū quinq́; comitū cum adiunguntur ad lineā rationalē habent secunda latera necessario diuersa abinuicem ex 92 & quinque eam sequētibus. sunt autē secunda latera residuū primum & secundum & deinceps usque ad sextum. Secunda pars cōstat hoc modo. Si eadē linea potest esse simul residuum & binomiū, sit a cuius quadrato superficies æqualis adiungatur ad rationalem lineā b c. sitq́; b d. eritq́; ex 54 linea c d binomium primum, & ex 92 residuum primum Inquantum ergo binomium primū, diuidatur in suas binomiales portiones ad punctum e, sitq́; maior portio c e quæ erat rationalis in longitudine per diffinitionē. inquantū autē est residuum primū, ei adiungatur d g. per cuius abscisionem fuerat residuum primum, eritq́; etiam ex diffinitione c g rationalis in longitudine Cū itaq́; sit utraq́; duarū linearū c g & c e rationalis in longitudine, erit etiā per 9 linea e g rationalis in longitudine. At quia linea d e est rationalis in potētia tantum cum ipsa sit per hypothesin minor portio binomij primi, erit per 68 linea d g residuum, & quia ipsa erat rationalis in potentia tantum. cum per eius abscisionem esset linea c d residuum. sequitur impossibile per 68. Quod ut clarius pateat, esto superficies b d adiuncta ad lineam rationalem b c. æqualis quadrato lineæ d g. Cum itaque linea d g sit rationalis in potentia. erit per 16 linea c d rationalis in longitudine. At cum etiam linea d g sit residuum. erit ex 92 linea c d residuum primū. quod esse non potest, cū linea quæ dicitur residuum, sit irrationalis per 68.
 
-[Diagram: two rectangles, each divided by an internal vertical line. First rectangle: β at top left, ε above the vertical line, δ below the vertical line, γ at bottom right, and a blotted letter at bottom left. Second rectangle: ζ at top left, κ above the vertical line, a small unclear letter (θ?) at top right, η at bottom left, λ below the vertical line]
+[Diagram: a short vertical segment labelled a; to its right a square with bottom corners b (left) and c (right), whose right side is extended upward through the top right corner d to the point g]
 
-## Eucli.est{printer-error-correction:ex} Camp. Propositio 105
+## Eucli.ex Zamb. Theorema 87 Propositio 111
 
 [Margin]
-105
+111
 [/Margin]
 
-## SI superficies medialis de superficie mediali detrahatur, fueritq́; reliqua toti incommensurabilis, quæ in ipsam reliquam potest alterutra erit duarum irrationalium, uidelicet aut residuū mediale secundum, aut cum mediali componens mediale.
+## Apotome non est eadem ei quæ ex binis nominibus.
 
-CAMPANVS. Si a duarum præmissarum demonstratione non deuias, cōcludes sine difficultate propositū. Sint enim tota a b & b mediales, & sit a reliqua incommensurabilis toti (aliter enim esset a medialis ex 21, & eius latus tetragonicū mediale ex 19) tūc dico quod linea potēs in a, est residuū mediale secundū. aut cū mediali cōponens mediale. Nā cū sit c g æqualis a b, erit per 20 linea d g rōnalis in potentia tantū, per eandē quoq́; cū sit f g æqualis b, erit etiā e g rationalis in potētia tantum. & cum sit a incommmensurabilis  toti a b, erit etiam f g incommensurabilis c g. ideoq́; per primā sexti & 10 huius erit etiam e g incommensurabilis d g, igitur à diffinitione linea d e, erit residuum tertium, aut sextum, quare per 88 & 91 latus tetragonicum superficiei c e, & ideo superficiei a, est residuū mediale secundum, aut cum mediali componens mediale.
-
-[Diagram: rectangle divided horizontally into two cells, labelled b (upper) and a (lower)]
-
-[Diagram: rectangle with g at top right corner, divided horizontally; f at the left and e at the right of the lower band; corners c (bottom left) and d (bottom right)]
-
-## Eucli.ex Zamb. Theorema 86 Propositio 110
-
-[Margin]
-110
-[/Margin]
-
-## A medio, medio ablato incommensurabili toti, reliquæ duæ irrationales fiunt, uel mediæ apotomæ secunda, uel cum medio medium efficiens.
+<!-- Signature: F -->
 
 <!-- Catchword: THEON -->

@@ -1,39 +1,51 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER OCTAVVS -->
 
-<!-- Page number: 216 -->
+<!-- Page number: 217 -->
 
-Sint igitur ipsius quidem ε, latera θ, κ, ipsius autem η, sint λ, μ. Manifestum igitur est ex hoc, quod ipsi ε, ζ, η, continue proportionales sunt in ipsius θ, ad λ, ratione, & ipsius κ, ad μ. Et quoniam ipsi ε, ζ. η, minimi sunt eandem rationem habentiū ipsis α, γ, δ, ex æquali igitur (per 14 septimi) est sicut ε, ad η, sic est α. ad δ. At ε, η, (per 3 octaui primi,) sunt, primi autem, & minimi, minimi uero, (per 21 septimi,) metiuntur eandem rationem habentes æqualiter: maior maiorem, & minorem, hoc est antecedens antecedentem, & sequens sequentem: æque igitur ε, ipsum α, metitur, & η, ipsum δ, quoties igitur ε, ipsum α, metitur: tot unitates sint in ipso ν. Igitur ν, ipsum ε, multiplicans, ipsum effecit α. At ε, est ex θ, κ. Igitur ν, eum qui ex θ, κ, gignitur multiplicans ipsum effecit α. Solidus igitur est α, latera autem eius sunt θ, κ, ν, Rursus quoniam ipsi ε, ζ, η, minimi sunt eandem rationem habentium ipsis γ, δ, β, æque igitur ε, ipsum γ, metitur & η, ipsum β. Quoties autem η, ipsum β metitur: tot unitates sint in ξ. Igitur η, ipsum β metitur per eas quæ in ξ, sunt unitates. Igitur ξ, ipsum η multiplicans, ipsum effecit β. At η, est ex λ, μ. Igitur ξ, cum qui ex λ, μ, gignitur multiplicās ipsum fecit β. Solidus igitur est β, latera autem eius sunt λ, μ, ξ. Igitur ipsi α, β, solidi sunt. Dico msuper quod & similes, quoniam ν ξ, ipsum ε, multiplicātes ipsos fecerunt α, γ, est igitur (per 18 septimi,) sicut ν, ad ξ, sic est α, ad γ, hoc est ε, ad ζ. Sed sicut ε, ad ζ, sic est θ, ad λ, et λ, ad μ, & sicut igitur (per 11 quinti,) θ, ad λ, sic κ, ad μ, & ν, ad ξ, & sunt quidem ipsi θ, κ, μ, latera ipsius α, ipsi uero ξ, λ, μ, latera sunt ipsius β. Igitur ipsi α, β, numeri solidi sunt similes, quod oportuit demonstrasse.
+## Eucli. ex Camp. Propositio 22
 
-[Diagram: dotted number lines α, γ, δ, β, ε, ζ, η, θ, κ, ν, λ, μ, ξ]
+**22** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I duorum numerorū quorum proportio sicut quadrati ad quadratum, fuerit unus quadratus, alterum quoq̃ quadratū esse.
 
-## Eucli. ex Camp. Propositio 20
+CAMPANVS. Sint duo numeri a & b, in proportione duorum quadratorum qui sunt c & d, sitq̃ a uel b quadratus : dico reliquum esse quadratum. Cum enim c & d sint quadrati, sequitur eos esse superficiales. Ideoq̃ per 16 cadet unus medius inter eos in continua proportione: quare per 8 inter a & b, per 26 igitur constat propositum.
 
-**20** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I trium numerorum continue proportionalium primus fuerit quadratus, tertium quoque quadratum esse.
+## Eucli. ex Zamb. Theorema 22 Propositio 24
 
-CAMPANVS Sint tres numeri continue proportionales a, b, c, sitque a quadratus. Dico quod c est etiam quadratus: sunt enim per 17 a & c superficiales & similes, cum igitur a sit quadratus: per hypothesin, erit c quadratus.
+**24** Si bini numeri rationem habuerint, quam quadratus numerus ad quadratum numerum, primus autem fuerit quadratus, & secundus quadratus erit.
 
-[Diagram: dotted number lines a, b, c]
+THEON ex Zamberto. Bini enim numeri α, β, adinuicem rationem habeant, quam quadratus numerus γ ad quadratum numerum δ. Ipse autem α quadratus sit, dico quod & β quadratus est. Quoniam ipsi γ, δ, sunt quadrati, ipsi γ, δ, igitur similes plani sunt. Ipsorū igitur γ, δ, (per 18 octaui) unus medius proportionalis est numerus. Et est sicut γ ad δ, sic est α ad β. Ipsorum igitur α, β, unus medius proportionalis est numerus. At α quadratus est, & β igitur quadratus est, quod erat demonstrandum.
 
-## Eucli. ex Zamb. Theorema 20 Propositio 22
+[Diagram: dotted number lines α, β, γ, δ with intermediate dotted lines]
 
-**22** Si tres numeri continue proportionales fuerint, primusque fuerit quadratus, & tertius quadratus erit.
+[Margin]
+Camp. 22 Zamb. 24
+[/Margin]
 
-THEON ex Zamberto. Sint tres numeri continue proportionales α, β, γ, primus autem sit quadratus. Eico quod & tertius quadratus est, quoniam enim ipsorum α, γ, (per 20 octaui,) unus medius proportioualis est numerus β, igitur α, γ, similes plani sunt, at quadratus est α, quadratus igitur est & γ, quod erat demonstrādum.
+## Eucli. ex Camp. Propositio 23
 
-[Diagram: dotted number lines β, β, δ (sic, for α, β, γ)]
+**23** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I duorum numerorū quorum proportio unius ad alterū sit sicut cubi ad cubum, alteruter fuerit cubus, & alterum cubum esse.
 
-## Eucli. ex Camp. Propositio 21
+CAMPANVS. Sint duo numeri a & b in proportione duorum cuborum qui sunt c & d, sitq̃ a uel b cubus : dico reliquū esse cubum. Necesse est enim quod c & d sint solidi similes, quippe omnes cubi sunt similes & solidi, itaq̃ per 18 inter ipsos cadent duo medij in continua proportione: totidem igitur per 8 cadent inter a & b, itaque per 21 manifestum est quod dicitur.
 
-**21** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I quatuor numerorum continue proportionalium primus fuit cubus, quartum cubum esse necesse est.
+## Eucli. ex Zamb. Theorema 23 Propositio 25
 
-CAMPANVS Sint quatuor numeri continue proportionales a, b, c, d sitque a cubus, dico quod d est etiam cubus, constat enim per 19 quod a & d sunt solidi similes, & quia a est cubus per hypothesin, erit etiam d cubus.
+**25** Si bini numeri adinuicem rationem habuerint, quam cubus numerus ad cubum numerum, primus autem cubus fuerit, & secundus cubus erit.
 
-## Eucli. ex Zamb. Theorema 22 Propositio 23
+THEON ex Zamberto. Bini enim numeri α, β, adiuuicem rationem habean t, quam cubus numerus γ ad cubum numerum δ, cubus autem esto α. Dico quod & β cubus est. Quoniam enim ipsi γ, δ, cubi sunt, sunt igitur (per 19 octaui) ipsi γ, δ, similes solidi, ipsorum igitur γ, δ, bini medij sunt proportionales (per 21 octaui:) quot autem inter ipsos γ, δ, continue proportionales cadunt, totidem & inter eandem rationem habentes cadunt numeri. Quare & inter α β duo medij proportionales cadunt, (per 8 octaui) cadant ipsi ε, ζ. Quoniam igitur quatuor numeri α, ε, ζ, β, continue proportionales sunt, & α cubus est, cubus igitur est (per 25 octaui) & β, quod ostendere oportuit.
 
-**23** Si quatuor numeri continue proportionales fuerint, primus autem cubus fuerit, & quartus cubus erit.
+[Diagram: eight ruled line-segments labeled α, ε, ζ, β, γ, δ with rotated numerals 8, 12, 18, 27, 64, 96, 144, 216]
 
-THEON ex Zamberto. Sint quatuor numeri proportionales continue, α, β, γ, δ, sit autem α, cubus, dico quod & δ, cubus erit. Quoniam enim ipsorum α, δ, duo medij proportionales sunt numeri β, γ, Ipsi igitur α, δ, similes sunt solidi numeri, at α, cubus est, cubus igitur est & δ, quod demonstrasse oportuit.
+[Margin]
+Camp. 25 Zamb. 14
+[/Margin]
 
-[Diagram: dotted number lines α, β, γ, δ]
+## Eucli. ex Camp. Propositio 24
 
-<!-- Catchword: Eucli. -->
+**24** {dropcap:N|lines=?|style=decorated|decoration="foliate ornament"}Vmerorum superficialium similium est proportio unius ad alterum, sicut proportio quadrati ad quadratum.
+
+CAMPANVS. Sint a & b superficiales similes, dico quod unus ad alterum est proportio, sicut quadrati ad quadratum, erit enim per 16 inter eos unus numerus medius in cōtinua proportione qui sit c, sumptis itaque tribus minimis in pportione eorum qui sunt d, e, f, erunt per correlarium 2, d & f quadrati: & quia per æquam proportionalitatē est a ad b sicut d ad f, constat uerum esse quod proponitur.
+
+[Diagram: dotted number lines a, c, b, d, e, f]
+
+<!-- Signature: c -->
+
+<!-- Catchword: Eucli.ex -->

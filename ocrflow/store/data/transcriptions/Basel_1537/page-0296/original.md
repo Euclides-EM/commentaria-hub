@@ -1,53 +1,27 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Page number: 286 -->
 
-<!-- Page number: 285 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-signum non diuiditur Si enim possibile, diuidatur in δ, ut ipsæ α δ, δ β, potentia sint incommensurabiles, efficientes quidem compositum ex quadratis quæ ex α δ, δ β, rationale, quodq̃ sub ipsis medium (per 39 decimi. Et quoniam quo differunt quæ ex α γ, γ β, eis quæ ex α δ, δ β, hoc differt & quod bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, sed quæ ex α γ, γ β, ea quæ ex α δ, δ β, excedunt rationali (rationalia enim utraque) & quod bis sub α δ, δ β igitur id quod bis sub α γ, γ β, excedit rationali, media existentia. quod est impossibile. Maior igitur, ad aliud & aliud signum non diuiditur, per idem igitur unũ tantum signum, quod demonstrare oportebat.
+## Eucli. ex Camp. — Binomiorum diffinittonss.{printer-error-correction:diffinitiones}
 
-[Diagram: horizontal line with points α, δ, γ, β]
+1 Si fuerit binomij longior portio breuiore potentior augmento quãdrati{printer-error-correction:quadrati} lineæ communicãtis eidem longiori in longitudine, fueritque eadem longior lineæ positæ rationali communicãs, ipsum uocabitur binomium primum. 2 Si uero breuior positæ rationali communicet, dicetur binomium secundum. 3 Quod si neutra portionum eius positæ rationali communicet, appellabitur binomium tertium. 4 Item si longior breuiore tanto amplius possit quantum est quadratum alicuius lineæ ipsi longiori incommensurabilis in longitudine, fueritq̃ longior portionum positæ lineæ rationali communicans in longitudine, ipsum nuncupabitur binomium quartum. 5 Si uero breuior, positæ rationali communicet in longitudine, quintum nominabitur. 6 Si autem neutra portionum eius positæ rationali communicet in longitudine, erit binomium sextum.
 
-## Eucli. ex Camp. Propositio 40
+## Eucli. ex Zamb. — Binum nominum Diffinitiones,
 
-[Margin]
-40
-[/Margin]
+1 Proposita rationali & ea quæ ex binis diuisa in nomina, cuius nomẽ maius minore maius possit eo quod ex sibi longitudine commensurabili, si maius nomen longitudine commensurabile expositæ rationali, tota uocetur ex binis nominibus prima. 2 Si uero nomen minus longitudine commensurabile fuerit expositæ rationali, uocatur ex binis nominibus secunda. 3 Si autem neutrum ipsorum nominum commẽsurabile longitudine fuerit expositæ rationali, uocatur ex binis nominibus tertia.
 
-{dropcap:L|lines=?|style=decorated|decoration="ornamental"}Inea potens in rationale & mediale, nisi in suas duas lineas tantum sub termino non diuiditur.
+4 Rursus iam si maius nomen, minore maius possit eo quod à sibi longitudine incommensurabili, si quidem maius nomen expositæ rationali longitudine commensurabile fuerit, uocatur ex binis nominibus quarta. 5 Si uero minus, quinta, 6 Si uero neutrum, sexta.
 
-CAMPANVS Hæc quoque 40, manentibus prioribus figura & positionibus (excepto quod ipsa linea a b diuidatur in punctum c, in illas duas lineas ex quibus 32{printer-error-correction:34} dicit eam componi) probabitur, quemadmodũ 37. Si autem aliter fuerit quàm proponat, erit superficies k g rationalis & irrationalis, quod esse non potest.
+Sex igitur existẽtibus sic sumptis rectis lineis, primas ordine facit, tres primas in quibus maior minore maius potest eo quod ex sibi commensurabili, secundas ordine uero reliqua tres, quarum maior minore maius possit eo quod ex sibi incommensurabili, eo quia præstantius est commensurabile incommensurabili. Et insuper primam, in qua maius nomen expositæ rationali commensurabile est. Secundam autem in qua minus, quoniã rursus præstantius est maius minore dum continet minus. Tertiam uero, cuius neutrum nominum expositæ rarionali{printer-error-correction:rationali} est commensurabile. Et in tribus sequentibus similiter primam prædicti secundi ordinis quartam appellans, secundam uero quintam, ac tertiam sextam.
 
-## Eucli, ex Zamb. Theorema 34 Propositio 46
+## Eucli. ex Camp. Propositio 42
 
 [Margin]
-46
+42
 [/Margin]
 
-Rationale mediumq̃ potens, ad unum duntaxat signum discinditur in nomina.
+{dropcap:B|lines=?|style=decorated|decoration="ornamental"}Inomium primum inuenire,
 
-THEON ex Zamb. Esto rationale mediũq̃ potẽs α β. diuisa in γ, ut ipsæ α γ, γ β, potẽtia sint incõmẽsurabiles efficiẽtes cõpositũ ex ijs quæ ex α γ, γ β, mediũ quod aũt sub α γ, γ β, ratiõale, dico quod ad aliud signũ ipsa α β nõ diuiditur. Si enim possibile est, diuidatur & in δ, & ut α δ, δ β, potẽria{printer-error-correction:potẽtia} sint incõmẽsurabiles efficiẽtes cõpositũ ex α δ, δ γ{printer-error-correction:δ β}. mediũ. quod uero sub ipsis α δ, δ β, ratiõale (per 40 decimi.) Quoniã enim quo differt quod bis sub α γ, γ β, ab eo quod bis sub α δ, δ β, eo differũt & quæ ex α δ, δ β, eis quæ ex α γ, γ β, quod aũt sub α γ, γ β, id quod bis sub α δ, δ β, rationali excedit, & quæ ex α δ, δ β, igitur ea quæ ex α γ, γ β, rationali excedunt, cũ media existant, quod est impossibile est. Rationale mediumq̃ potens igitur: ad aliud potens ad aliudq̃ signum non diuiditur, ad unũ igitur signum diuiditur, quod oportuit demonstrare.
+CAMPANVS Sit a linea rationalis posita sumanturq̃ duo numeri quadrati b & c, quorũ c sit diuisibilis in quadratum qui sit d, & in non quadratum qui sit e, ponaturque proportio quadrati lineæ a ad quadratũ lineæ f g, sicut numeri b ad numerum c, eritque ex secunda parte 7 linea f g cõmunicans lineæ
 
-[Diagram: horizontal line with points α, δ, γ, β]
-
-## Eucli. ex Camp. Propositio 41
-
-[Margin]
-41
-[/Margin]
-
-{dropcap:L|lines=?|style=decorated|decoration="ornamental"}Inea potẽs in duo medialia nequit diuidi in alias duas sub termino earum ex quibus coniuncta est, sed in suas tantum duas ex quibus componitur est diuisibilis.
-
-CAMPANVS Hæc enim 41 diuisa linea a b ad punctum c in eas ex quibus 35 asserit eã componi, cæterisq̃ ut supra tam figura quàm positionibus manentibus. probatur sicut 38. nam dato opposito propositi, sequitur oppositum 36, qupd{printer-error-correction:quod} est impossibile.
-
-## Eucli. ex Zamb. Theorema 35 Propositio 47
-
-[Margin]
-47
-[/Margin]
-
-Bina potens media, ad unum duntaxat signum diuiditur in nomina.
-
-THEON ex Zamb. Sit bina potens media α β diuisa in γ, ut ipsæ α γ, γ β, potentia sint incommensurabiles efficientes (per 35 decimi compositum ex eis quæ ex α γ, γ β, medium, quod uero sub α γ, γ β, mediũ. & insuper incommensurabile cõposito ex ijs quæ ab ipsis sunt quadratis. Dico quod ipsa α β in alio signo non diuiditur, efficiẽs ea quæ proposita sunt. Si enim possibile, diuidatur in δ, ut uidelicet ipsa α γ ipsi δ β, non sit eadem, sed maior per hypothesin sit α γ, ponaturq̃ rationalis ε ζ, compareturque (per 43 primi ad ipsam ε ζ. eis quæ ex α γ, γ β, æquum ε η, ei autẽ quod bis sub α γ, γ β, æquum θ κ. Totum igitur ε κ, æquum est ei quod ex α β quadrato. Rursus comparetur ad ipsam ε ζ, eis quæ ex α δ, δ β, æquum ε λ, reliquum igitur quod bis sub α δ, δ β, reliquo μ κ est æquale. At quoniam medium supponitur compositum ex ijs quæ ex α γ, γ β, medium igitur est & ε ζ{printer-error-correction:ε η}, & ad rationalẽ ε ζ comparatur. Rationalis igitur est (per 26 decimi. (θ ε, & ipsi ε ζ longttudine{printer-error-correction:longitudine} incõmensurabilis Id propterea etiam θ ν, rationalis est, & ipsi θ η longitudine incommensurabilis. Et quoniã cõpositũ ex ijs quæ ex α γ, γ β, incommensurabile ex eo quod bis sub α γ, γ β, igitur ε η, ipsi θ κ est incommensurabile. Quare & ε θ ipsi θ ν, est incõmensurabilis, suntq̃ rationales. Ipsæ igitur ε θ, θ ν, rationales sunt poteutia{printer-error-correction:potentia} tantũ commensurabiles, ipsa igitur ε ν ex binis nominibus est, diuisa in θ. Similiter iã demõstrabimus quod & in μ diuisa, & quod ε θ ipsi μ ν est eadem{printer-error-correction:non est eadem}. Ex binis igitur nominibus in alio & alio signo diuiditur quod est absurdum. Bina potens media igitur in alio & alio signo non diuiditur: in uno igitur tantum signo diuiditur, quod erat ostendendum.
-
-[Diagram: horizontal line with points α, δ, γ, β; below, a rectangle divided by two vertical lines into three cells, with points ε, μ, θ, ν along the top and ζ, λ, η, κ along the bottom; tick marks on the left side ε ζ]
-
-<!-- Catchword: Eucli. -->
+<!-- Catchword: a -->

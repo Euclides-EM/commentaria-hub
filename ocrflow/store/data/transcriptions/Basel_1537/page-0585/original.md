@@ -1,31 +1,23 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: DATA -->
 
-<!-- Page number: 572 -->
+<!-- Page number: 575 -->
 
-elementorum sicut c a ad d c, sic a f ad c e. Ratio autem ipsius a c ad c d, data est. Ratio igitur ipsius a f ad c e, data. Excitetur per duodecimam primi elementorum, ab ipso a in b c perpendicularis a g, & quoniam angulus a f c datus est, est autem & qui sub a g f, datus, & reliquus ergo qui sub g a f, datus est. Datur ergo a g f triangulū specie. Ratio igitur ipsius f a ad a g, data est, ipsius autē f a, a c, c e ratio data est. Quare & quod sub a g b c ad id quod sub b c, c e, ratio data est Eius autē quod sub a g, b c, ad id quod sub a b c, triangulum ratio est data, & eius quod sub b c, c e, ad a b c ratio est data. Est autem quod sub b c, c e, qua maius est quod ex utroque b a c eo quod ex b c. Qua igitur maius est quod ex utroque b a c eo quod ex d c, ea area ad triangulum rationē habet datam.
+uel inæquales datos tamen latera adinuicem rationem datam habuerint, & ipsa parallelogramma adinuicem rationem datam habebunt.
 
-### Scholium super prima demonstratione 67 propositionis.
+Binorum siquidem parallelogrammorum a b, e g, quæ circum angulos qui ad f c, aut æquos aut inæquales, datos tamen latera adinuicem rationem habeant datam, hoc est sit ratio ipsius quidem a c ad e f, data itidemque ipsius b c ad f g. Dico quod & ipsius c d ad f h, ratio est data, esto enim æquiangulum c d ipsi f h. Comparetur q́; per uigesimamquintā sexti elemen. ad c b, rectam lineam ipsi f h, parallelogrammo æquū parallelogrāmum c m, ponaturq́; ut a c ipsi c n, sit in rectā lineam. Igitur & d b ipsi b m, erit in rectam lineam. Et æquum est b n ipsi f h, est autem & æquiāgulū. Igitur per decimamquartā sexti elementorum ipsorum b n, h f, latera quæ circum æquos angulos sunt reciproca. Est igitur c b ad f g sic f e ad c n. Ratio aūt ipsius e b ad f g data est. Rō igitur & ipsius e f ad c n data est, ipsius aūt e f ad a c rō est data: & ipsius igitur a c ad c n rō est data. Quare & ipsius c d ad c m, rō est data: est aūt c m ipsi f h, æquale. Rō igitur & ipsius c d ad e g, data. Non fit iam æquiangulū a b ipsi f h. Cōstruaturq́; per 23 primi elemētorū ad ipsam b c, rectā lineam, ad signumq́; in ea c ei qui sub e f g angulo æqualis angulus b c k, compleaturque parallelogrammum c l. Et quoniam angulus a c b datus est, & reliquus igitur qui sub a k c, datus est, est autem & qui sub c a k datus, & reliquus igitur qui sub a k c datus est. Datur ergo triangulū a c k specie. Ratio igitur ipsius a c ad e k est data, ipsius autem a c ad e f, ratio est data, ipsius aūt a c ad e f, rō est data, & ipsius c k, igitur ad e f, ratio est data, est autem & ipsius c b ad f g, ratio data, æquū aūt est c l ipsi c d. Ratio ipsi c d. Ratio igitur ipsius c d ad f h, data est.
 
-Si in triangulo isoscele acta fuerit aliqua recta linea utcunque in basim, quod ex acta una cum eo quod sub basis segmentis, æquum est ei quod ex uno laterum æqualiū gignitur. Sit nempe isoceles triangulum a b c, æquum habens latus a b lateri a c, & ab ipso a in b c agatur quædā recta linea utcūq; a d. Dico quòd quod ex a d una cum eo quod sub b d c, æquū est ei quod ex a c. Ipsa a d in b c, aut perpendicularis est aut non. Sit prius perpendicularis, & quoniā recta linea aliqua b c secatur bifariam in d. Quod igitur sub c d b: æquum est ei quod ex b d, cōmune apponatur quod ex a d, quod igitur sub c d b una cum eo quod ex a d, æquum ei est quod ex a d, d b. At eis quæ ex a d, d b æquum est quod ex a b. Quod uero sub d b una cum eo quod ex a d, æquum est ei quod ex a b. Sed iam non sit perpendicularis a d, exciteturque ab ipso a, in b c perpendicularis a e. Et quoniam recta quædam linea secatur in æqualia in e, & in inæqualia in d. Igitur per nonam secundi elementorum quod sub c d b, una cum eo quod ex d e, ei est æquum quod ex b e commune apponatur quod ex a e, igitur quod sub c d b una cum eo quod sub a e, e d, æquum est ei quod ex a e, e b, æquum est autem eis quæ ex a e, e d, id quod ex a d. Quod igitur sub c d b, unà cum eo quod ex a d, eis est æquum quod ex a d b, & eis quæ ex a d b, id quod ex a b, est æquum, quod autē sub c d b, una cum eo quod ex a d ei quod ex a b.
+[Diagram: at right, two diagrams: above, a parallelogram with l at the top left, d and k along the top, b at the left of a middle horizontal line, r at its right, and m, n below, with slanted lines at the left and right; below, a long rectangle with b at the top left, e on the top edge, c at the top right, g at the bottom left, f at the bottom right, and a slanted line from e down to f]
 
-[Diagram: an isoceles triangle with apex a, base points c, d, b, and a vertical line from a to d]
+### Scholium.
 
-[Diagram: a second triangle with lines from the apex to points on the base, which is marked c, d, e, b]
+Nam quoniam æquiangulum est a b ipsi e g, æqualis est qui sub a c b ei qui ad g & qui ad f exterior interiori, & alius igitur ad g ei qui ad f est æqualis, similiter quoque & alij a c b, in rectum igitur est d b ipsi b m. Quoniam enim parallelus est a g ipsi d m anguli qui sub d b c, b c n, inuicem sunt æquales. Rursus quoniā parallelus est m b ipsi a c, qui sub m b c, a c b sunt inuicē æquales, qui sub a c b, b c n, eis qui sub d b c, c b l sunt æquales. Recti enim duo, qui sub a c b, b c n, & qui sub d b c, c b m. Si autem ad aliquam rectā lineam & ad signum & quæ sequuntur ut in 23 primi elementorum.
 
-### Scholium in secundam demonstrationem.
+## Theorema 71 — Propositio 71
 
-Quoniam autem quod sub a f c d, trianguli duplū sit sic demonstrabimus, excitetur per a ipsi c d, parallelus per trigesimam primi elementorum, ipsa a g, & per eandem ipsi a f, per g parallelus excitetur g h. Bina igitur sunt parallelogramma ipsa a h, a d, supponitur autem a c ipsi d g parallelus super eadem basi a g existentes & in eisdem parallelis a g, c h, parallelogrammum igitur a h per trigesimamquintam primi elementorum, ipsi a d parallelogrammo æquum est, & quoniam quod sub a f, a g, est ipsum a h, æqualis autē est a g ipsi c d & quod igitur sub a f, c f d, est q̃ a h. Duplum autem est a h ipsius a c d triāguli per 41 primi elemētorum: quoniam & a d. Quod igitur sub a f, c d, duplum est ipsius a c d trianguli.
+SI binorum triangulorum quæ circum æquos angulos, uel inæquales, datos tamen, latera rationem habuerint datam, & eadem triangula adinuicem rationem datam habebunt.
 
-[Diagram: a parallelogram with h at the top left corner, f and d along the top edge, c at the top right; g and a at the base, with slanted lines and diagonals running down to a]
+Duorum, inquam, triangulorum a b c, & d e h, quæ circum æquos angulos, aut inæquales datos tamen, latera adinuicem rationem habeant datam. Sitque ipsius b a ad d e, ratio data, & ipsius a c ad d h. Dico quod & ipsius a b c trianguli ad d e h triangulum ratio est data. Compleantur enim a g, d f, parallelogramma: quoniam igitur binorum parallelogrammorum a g, d f, quæ circum æquos angulos, uel inæquales datos tamen, eos qui ad a d latera adinuicem rationem habent datam, & parallelogramma per præcedentem rationē datā habebunt. Ratio igitur ipsius a g ad d f data est, ipsius autem a g dimidium est per conuersionē quadragesimamprimam primi elementorum. triangulum a b c, ipsius autem d f, per eandem ipsum d e h. Ratio igitur a b c trianguli ad d e h triangulum data est.
 
-### Item scholium.
+[Diagram: two rhombus-shaped figures side by side: the left with a at the top, b at the left, e at the right, g at the bottom; the right with d at the top, e at the left, b at the right, f at the bottom; each divided by a horizontal line]
 
-Si enim efficiemus in rectas lineas d a ipsi a c, sicut d a c, & per d ipsi d c, per undecimam primi elementorum ad angulos rectos excitemus d b. Manifestū quod manente quidem æquali d a ipsi d c ipsa autem d c ipsi a c, ipsa uero b a ipsi d a, manifestum erit quod dictum est. Quoniam enim sicut se habent bases, sic & parallelogrāma sub eodem fastigio existentia.
-
-[Diagram: a right triangle with a vertical left side topped by b, the right angle at the bottom left, and points a, c on the extended base line]
-
-### Super tertia demonstratione scholium.
-
-Esto recta linea d e, & ipsi quidem d e, ponatur d a, ipsi autem a c, ipsa a c, & ab ipso a ipsi d c per undecimam primi elementorum ad angulos excitetur rectos a b & ipsi a b æ
-
-<!-- Catchword: qualis -->
+<!-- Catchword: Theore -->

@@ -1,29 +1,29 @@
-<!-- Page number: 514 -->
+<!-- Running title: SPECVLARIA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 515 -->
 
-Esto cauum speculum a c d, dimetiens autem sit a d cētrum sit k, & quæ ad rectos angulos, K c. secetur per 10 primi elemētorum bifariā in p, super e a uero ad angulos rectos esto e p f, & oculi intra diametrum a d & e f, sint b h, in parallelis e f, b h, æque distantes ipsi K c, uisus uero esto b c refractus in h: æquos angulos ad circunferentiā, quippe quoniam f e, ipsi b h parallelus est, & rursus n h, ipsi æqualis, & connexæ k b, k h, extēdantur, extendatur autem c b in q, & quoniam b c maior est ipsa b k maior est angulus r angulo i. Quare & qui sub h b k, maior est eo qui sub b h k hoc est eo qui sub h b k, igitur b c ipsi K h, non concurrit. Igitur ipse h non spectabitur: propter congressum namque ipsorum b c, k h, spectatur.
+trum sepositum ab ipso b c, positum. similiter igitur ab ipso m in f, centrum connexa & extensa superius cadit in K sicut l, quæ uero ab n in f superius in e, usque h. Igitur m n spectatur sicut h l & minus est h l, ipso e K & speculo propinquius.
 
-[Diagram: semicircle on the base line a…d with t and g on the arc and c at the apex; e and f at the ends of a horizontal chord; within, the letters i, p, b, b, r, n, q around the centre and K at the middle of the base; a vertical line from c to K]
+## Theorema trigesimum,
+
+[Diagram: a long horizontal line from m at the left to a at the right, bearing two convex semicircular humps marked g and d on top, and two concave dips below marked K and b; along the line the letters l, b at the left and f, e, e between the humps]
+
+SPeculum construere est possibile, ut in ipso spectentur plures facies, & maiores, & minores, & aliquæ propius, & aliquæ lōgius, & aliæ dexteræ, & aliæ sinistræ.
+
+Sit enim planum a m, igitur in hoc fieri possunt conuexa specula sicut a b c, h k l. Caua autem qualia sunt c d e, f g h. plana porro qualia sunt e f. l m, posita uero facie sicut g spectantur à planis æqualia simulacra æque distantia, à conuexis minora & minus distātia, à cauis porro omnino sicut manifestum est.
+
+## Theorema trigesimum primum.
+
+EX cauis speculis ad solem positis ignis accenditur.
+
+Esto cauum speculum a b c, sol autem sit e f, centrum autem speculi sit h, & à quodam signo d cōnexa quidem in h centrum d h, extendatur in b. Incidat autem d c acta & refracta in k. refringetur autem super h cētrū. Angulus enim qui ad p, circunferētiam minor est eo qui ad l circunferentiā sub b k, quippe b k circunferentia æqualis ipsi b c, & ab ipso d alia acta cadat ad a, manifestum igitur quod refracta ad d cadit in k, quippe quoniam circūferentia a b æqualis est ipsi b c, similiter autem ostendetur quod omnes ab ipso d incidentes in speculum & æquos luscipiētes{printer-error-correction:suscipiētes} in idē coincidunt ipsi b k super ipso h.
+
+[Diagram: pointed arch with b at the apex between a at the left and c at the right; within it p, K and b on a vertical line; lines converge downward to d; below, a separate circle with e at its left and f at its right]
 
 ## Aliter.
 
-Sint rursus eadem qui supra, sed b h oculi sint in bifaria, & ad angulos rectos secta ea quæ ex centro a d: quoniam igitur æqualis quidem est b c ipsi b f & e h ipsi f h, parallelus igitur est b c ipsi f h. Igitur b c, uisus non concurrit ei quæ ex cētro in spectatū, hoc est ipsi f h ad partes, h c: quare oculus h non spectatur, spectabitur namque propter ipsorum b c f h, congressum.
+Esto rursus cauum speculum a b c, sol autem sit d e f & à signo quoddam e per h centrum sit e h b & a b d f, sint b a. Igitur demonstraui quidem quod quæ ex e actæ concurrunt in se ipsas per p r, angulos æquos existentes, diametri enim sunt. Quæ uero ab a & f in h a, per K l angulos. Quæ uero à b d in h c, quoniam n x anguli sunt æquales, quod autem omnes in se ipsas refringuntur, manifestum. ex centro namque existentes semicirculos faciunt. qui uero in semicirculis anguli sunt æquales per 27 tertij elemētorum, per æquos enim angulos sunt refractiones, in se ipsos igitur refringuntur. omnes igitur coincidunt quæ ab omnibus signis in eas quæ per centrum & in centro agitur, hijs igitur actis, calefacti igitur circa centrum ignis colligitur, quare ibi stupa apposita accendetur.
 
-[Diagram: semicircle on the base line d…a with K, c and e on the arc; within, triangles carrying the letters b, g, b]
+[Diagram: circle at the top with e at its left and f at its right; lines cross downward through b; below, a concave arc bearing the letters K, l, r, p, n, x, with a, b, c beneath it]
 
-## Aliter.
-
-Sunto rursus eadem, in superiori uero ipsius bifariæ sectionis ponantur oculi b c, æque distantes ab ea quæ ex centro hoc est f a. Dico iam b c, ipsos spectari, & ea quæ dextra sunt dextra sinistra, & quæ sunt sinistra dextra, & simulacrum maius ore & interuallū à speculo maius habens simulacrum: esto enim b a, uisus refractus & connectatur à centro f ad b c signa f b, f c, & extendatur b a Quoniam igitur bifaria sectio est g maior est angulus k angulo c: æqualis autē est k ipsi d: maior igitur est & d ipso c: coincidunt igitur in p. Id propterea iam b a, f c concurrunt in h, spectabitur igitur ipse quidem c, in h, ipsa uero b in p & dextra quidem sinistra, & sinistra dextra apparent. Sed maior esto h p ipsa b c, paralleli enim sunt: simulacrum igitur maius apparet, & magis à speculo distans, maior est enim m a ipsa a l.
-
-[Diagram: b at the upper left, m at the top middle, p at the upper right; below, a semicircle with a at its left; within it the letters b, a, l, K, g, e about the centre; long lines from b and p converge to f at the bottom]
-
-## Theorema uigesimum nonum.
-
-SI uero extra diametrum ponantur oculi, ea quæ dextra sunt dextra, & quæ sinistra spectantur, & simulacrum minus spectato, & in eo quod medium inter spectatum & speculum.
-
-Esto, inquam, oculi b c, cētrum autem sit f. ipsius speculi: & ipsi diametro ad angulos rectos esto a f d, & huic ad angulos rectos b c & ipsi b a, æqualis esto a c. & uisus sit b d, refractus in c & per centrum ipsæ b f k, c f e, & ab ipsis e K, connectatur, ipsaque b in K apparet & c in e. Igitur quæ dextra sunt dextra, & quæ sinistra sunt sinistra spectatur, & simulacrum e k, minus est ipso b c, spectato, parallelus namque est e k ipsi b c, & circa medium speculi, & spectatæ apparet simulacrum. Deducto autem spectato, & eo minus apparet simula
-
-[Diagram: semicircle with d at the top; within it b and l at the upper left and right, e and K below them; beneath, a large triangle with f inside, its apex lines running to c at the right, a at the bottom centre, m at the lower left and e at the lower right]
-
-<!-- Catchword: crum -->
+Catoptrices hoc est de imaginibus quæ in speculis opusculi Euclidis Megarensis præstantissimi mathematici, FINIS. Bartholomæo Zamberto Veneto interprete.

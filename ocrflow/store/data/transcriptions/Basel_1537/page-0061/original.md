@@ -1,25 +1,29 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 53 -->
 
-<!-- Page number: 52 -->
+# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SECVNDVS.
 
-rum laterum quod est c e, adiuncta maiori quod est b c, secundum rectitudinem. Totam b f diuidam per æqualia, in puncto g, & facto g centro, super lineam b f secundum quantitatē lineæ g b: describam semicirculū b h, & latus c e producā: usquequo secet circūferentiā in pūcto h. Dico quod quadratum lineæ c h: est æquale trigono dato. Producā lineā g h. Et quia linea b f diuisa est per æqualia in g, & per inæqualia in c: erit per 5 huius, q̃d fit ex ductu b c in c f cū quadrato c g, æquale quadrato g f, quare & quadrato g h, quare per penultimā primi, & duobus quadratis duarum linearum g c & c h. Ergo dempto utrinque quadrato c g, erit quod fit ex b c in c f, q̃d est æquale superficiei b e, eo quod c f est æquale quadrato lineæ c h, quare quadratū lineæ c h, est æquale trigono a, quod est propositum.
+## Ex Campano. Diffinitiones.
 
-CAMPANI additio. Et nota quod per hoc iuuenitur latus tetragonicum cuiuslibet altera parte lōgioris, & simpliciter omnis figuræ rectis lineis cōtētæ: quæcunque fuerit, quoniam omnē figurā talem in triāgulos resoluemus: & cuiuslibet illorum triangulorū inueniemus tetragonicum latus secundum doctrinam istius, & inueniemus per penultimam primi, lineam unam, quæ possit in omnia latera tetragonica inuenta. Verbi gratia, uolo inuenire latus tetragonicū rectilineæ figuræ irregularis a b c d e f, Resoluo eā in tres triangulos qui sunt a b f, f b c, & f c e. Inuenio quoque secundum doctrinā istius: tria latera tetragonica istorū triū triangulorum, quæ sunt g h, h k, & k l, & erigo h k: perpēdiculariter super g h, & produco g k, eritq̃ g k, æquale quadratis duarum linearum g h, & h k, & tertium latus k l erigo perpendiculariter super lineam g k, & produco lineam g l, eritq̃ per penultimam primi, g l latus tetragonicum totius figuræ rectilineæ propositæ.
+{dropcap:Q|lines=?|style=decorated|decoration="portrait medallion of a man in profile within a decorated square frame, with lettering around the medallion"}Vorum diametri sunt æquales, ipsos circulos æquales esse. Maiores autem, quorum maiores. Et minores, quorum minores. 2 Circulum linea contingere dicitur: quæ cum circulum tangat, in utramq̃ partem eiecta circulum non secat. 3 Circuli sese contingere dicuntur: qui se tāgentes, seinuicem non secant.
 
-[Diagram: right-angled triangle with vertices r, h, g and lines drawn to the hypotenuse; beside it three separate segments l k, h k and h g; at the right an irregular rectilinear figure with points b, d, c, e, a, f divided by diagonals into three triangles]
+Circuli æquales — Maior — Minor. — Linea circulum contingens
 
-## Eucli. ex Zamb. Problema 2. Propositio 14.
+[Diagram: two equal circles each with a horizontal diameter; a larger and a smaller circle each with a horizontal diameter; two circles with marked centres touching one another beneath a horizontal tangent line]
 
-[Margin]
-14
-[/Margin]
+4 Rectæ lineæ in circulo æqualiter distare dicūtur à centro: cum a centro ad ipsas ductæ perpendiculares, fuerint æquales. 5 Plus uero distare à centro dicitur, in quam perpendicularis longior cadit. 6 Recta linea portionem circuli continēs, chorda nominatur. 7 Portio uero circunferentiæ, arcus nuncupatur. 8 Angulus autem portionis, dicitur qui à chorda & arcu continetur. 9 Supra arcum angulus consistere dicitur, qui à quolibet puncto arcus ad chordæ terminos duabus rectis lineis exeuntibus cōtinetur.
 
-Dato rectilineo, æquum quadratum constituere.
+Circuli se contingentes — Arcus Ang. portionis — Angulus super arcum consistens
 
-THEON ex Zamb. Sit datum rectilineum α. oportet ei rectilineo æquum quadratum constituere: constituatur (per 45 primi) ipsi α, rectilineo: æquum parallelogrammum rectangulum β δ. Si æqualis est β, ipsi δ: factū iam est problema, constituitur enim ipsi α, rectilineo: æquum quadratum β δ. Si autem non, ipsarum β ε, & ε δ, altera, maior est. Sit maior β ε, & producatur in ζ, & ponatur ipsi ε δ, æqualis, ε ζ, (per 3 primi,) & (per 10 primi) secetur β ζ bifariā in η. Et cētro quidē η, spatio uero aut η β, aut η ζ, semicirculus describatur β θ ζ, & (per 2 postulatū) producatur δ ε in θ, & (per 1 postulatū) cōnectatur η θ. Quoniā igitur recta linea β ζ secta est in æqualia in η, & in inæqualia in ε, igitur (per 5 secundi) rectangulum comprehēsum sub β ε, & ε ζ, cū eo quod fit ex η ε, æquum est ei quod ex η ζ, quadrato. Aequalis autem est η ζ ipsi η θ: rectangulum igitur cōprehensum sub β ε, & ε ζ, (per 5 secūdi cū eo quod ex η ε, fit quadrato, æquum est ei quod fit ex η θ, ei autem quod fit ex η θ, æqualia sunt ea quæ ex η ε, & ε θ, fiunt quadrata. (per 47 primi.) Quod igitur fit sub β ε, & ε ζ, cum eo quod fit ex η ε: æquum est eis quæ sunt ex η ε, & ε θ, commune auferatur quadratum quod ex η ε, reliquum igitur rectāgulum comprehensum sub β ε, & ε ζ, æquum est ei quod fit ex ε θ, quadrato. Sed id quod sub β ε, & ε ζ, quod ipsum β δ, æqualis enim est ε ζ, ipsi ε δ: parallelogrammum igitur β δ, æquum est ei quod fit ex ε θ, quadrato. Sed β δ, æquum est ipsi α, rectilineo, &: igitur rectilineum α æquum est quadrato descripto ex ε θ. Dato igitur rectilineo α, æquum quadratum constitutum est, ex ε θ, descriptum, quod fecisse oportuit.
+[Diagram: two circles each with a chord and perpendicular drawn; an arc with its chord, labelled Chorda beneath; a circle segment; a circle with an inscribed triangle standing on a chord]
 
-[Diagram: a triangle representing the rectilinear figure α; beside it the construction: a triangle and a semicircle β θ ζ described over the line β ζ with the rectangle and points δ, ε, η, θ marked]
+Chorda
 
-LIBRI SECVNDI FINIS.
+10 Sector circuli, est figura quæ sub duabus à cētro ductis lineis & sub arcu qui ab eis cōprehenditur cōtinetur. 11 Angulus autē qui ab eis lineis ambitur, supra centrum consistere dicitur. 12 Similes circulorum portiones dicuntur, in quibus qui supra arcum consistunt anguli sibi inuicem sunt æquales. 13 Arcus quoque similes sunt qui æquos angulos prædicto modo suscipiunt.
 
-<!-- Catchword: EVCLIDIS -->
+Sector circuli. Ang. super centrum cōsistens — Similes cir. portiōes & similes arcus
+
+[Diagram: a circle with two radii forming a sector; a circle with an angle standing at the centre; two circles each with an inscribed triangle on a chord]
+
+<!-- Signature: e 3 -->
+
+<!-- Catchword: Ex -->

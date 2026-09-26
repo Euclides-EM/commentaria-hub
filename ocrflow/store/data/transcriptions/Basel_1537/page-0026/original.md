@@ -1,55 +1,79 @@
-<!-- Running title: LIBER PRIMVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 17 -->
+<!-- Page number: 18 -->
 
-## Eucli. ex Camp. Propositio 15.
+tionē) angulo ζ ε γ est æqualis, circa uerticem enim. Basis igitur α β, basi ζ γ (per 4 propositionē) est æqualis, & triangulū α β ε, triangulo ζ ε γ est æquale, & reliqui reliquis angulis alter alteri sunt æquales, sub quibus æqualia latera subtenduntur. Angulus igitur β α ε, angulo ε γ ζ est æqualis. At angulus α γ δ, angulo ε γ ζ est maior: maior igitur est angulus α γ δ, angulo β α ε. Similiter quoq̃, si secetur bifaria linea β γ, ostendetur & angulus β γ η, hoc est α γ δ, maior angulo α β γ. Omnis igitur triāguli uno latere producto, exterior angulus utroq̃ interiore & ex opposito maior est, quod fuerat ostendendū.
 
-[Margin]
-15
-[/Margin]
-
-OMnium duarū linearū seinuicē secantiū, omnes anguli cōtra se positi sunt æquales. Vnde manifestū est, cum duæ lineæ rectæ se inuicem secāt, quatuor qui fiunt angulos, quatuor rectis esse æquales.
-
-CAMPANVS. Sint duæ lineæ a b & c, d, se inuicē secantes in puncto e: dico q̃ angulus d e b sit æqualis angulo a e c: & angulus b e c est æqualis angulo a e d. Erūt enim per 13 duo anguli a e c & a e d æquales duob. rectis, itēq̃ duo anguli c e b & d e b æquales duobus rectis per eandem, quare duo primi sunt æquales duobus postremis, eo q̃ omnes recti sunt adinuicē æquales per 4 petitionē, dempto ergo cōmuni angulo, qui est a e d, erit angulus a e c æqualis angulo d e b. Eodem modo probabitur, angulū c e b esse æqualē angulo a e d, quod est propositū.
-
-[Diagram: two straight lines a b and c d crossing at point e; labels a and c above, d and b below]
-
-## Eucli. ex Zamb. Theorema 8. Propositio 15.
+## Eucli. ex Camp. Propositio 17.
 
 [Margin]
-15
+17
 [/Margin]
 
-Si duæ rectæ lineę se adinuicē secuerint, angulos qui circa uertice sunt æquos adinuicē efficient.
+OMnis trianguli duo quilibet anguli, duobus rectis sunt minores.
 
-THEON ex Zamb. Duæ rectæ lineæ α β & γ δ, se inuicem secent in signo ε. Dico quod anguli α ε γ, æquales sint angulo δ ε β. Quoniam enim recta linea α ε, super rectā lineā γ δ stetit, angulos efficiēs γ ε α & α ε δ, igitur anguli γ ε α & α ε δ, duobus rectis sunt æquales (per 13 propositionē). Rursus quoniā recta linea δ ε super rectā lineam α ε stetit, angulos efficiens α ε δ & δ ε β, igitur anguli α ε δ & δ ε β, duobus rectis sunt æquales (per eandem 13 propositionē). Ostensum autē est, quod anguli γ ε α & α ε δ, duobus rectis sunt æquales: anguli igitur γ ε α & α ε δ, angulis α ε δ & δ ε β, sunt æquales. Cōmunis auferatur α ε δ, reliquus igitur angulus γ ε α, reliquo angulo δ ε β, est æqualis. Similiter ostendetur quod & anguli γ ε δ & α ε β, sunt æquales. Si duæ igitur rectæ lineæ se adinuicē secuerint, angulos qui circa uertice sunt, adinuicē æquales efficient, quod oportuit demonstrare.
+CAMPANVS. Sit triāgulus a b c, dico q̃ duo quilibet eius anguli, duobus rectis sunt minores, p̃trahatur enim unū latus eius, ut b c usq̃ ad d, eritq̃ per præcedentē, angulus c extrinsecus, maior a & maior b, sed c extrinsecus cū c intrinseco, est æqualis duobus rectis per 13, ergo anguli b & c intrinseci, siue anguli a & c intrinseci, sunt minores duob. rectis. Similiter si p̃trahatur latus b a, probabitur quod duo anguli a & b sunt minores duobus rectis, quod est propositū.
 
-[Diagram: two straight lines α β and γ δ crossing at point ε; labels α and γ above, δ and β below]
+[Diagram: triangle a b c with side b c produced to d and side b a produced to e; labels e, a, d, c, b]
 
-## Eucli. ex Camp. Propositio 16.
+## Eucli. ex Zamb. Theorema 10. Propositio 17.
 
 [Margin]
-16
+17
 [/Margin]
 
-SI quodlibet laterū trianguli directe protrahatur, faciet angulū extrinsecū utroq̃ angulo trianguli sibi intrinsecus opposito maiorē.
+Omnis triāguli duo anguli duob. rectis sunt minores, omnifariā sumpti.
 
-CAMPANVS. Sit ut triangulia b c, latus a b protrahatur usq̃ ad d, dico q̃ angulus d b c, maior est utroq̃ duorū angulorū intrinsecorū sibi oppositorum, qui sunt b a c & b c a. Diuidam enim per 10 propositionē, lineam c b per æqualia in puncto e, & protrahā a e usq̃ ad f, ita ut e f fiat æqualis a e, & protrahā lineam f b. Intelligo duos triangulos, c e a & b e f, & quia duo latera a e & e c triāguli a e c sunt æqualia duobus lateribus f e & e b trianguli f e b, & angulus e unius est æqualis angulo e alterius per præmissam quia anguli cōtra se positi, erit per 4 propositiōe angulus e c a, æqualis angulo e b f, & ideo angulus e b d, maior erit angulo b c a. Similiter quoq̃ probabitur q̃d est maior angulo c a b. Nam diuidam a b per æqualia in puncto g, per 10 propositionē & protrahā lineam g h, æqualē lineæ c g per 3 propositionē, postea protrahā h b k, eruntq̃ duorū triangulorū qui sunt a g c & b g h, duo latera a g & g c primi, æqualia duobus lateribus b g & g h secundi, & angulus g unius, & angulus g alterius per 15: ergo per 4 angulus g a c, est æqualis angulo g b h, quare per 15 & angulo k b d. Et quia angulus c b d est maior angulo k b d, erit maior angulo b a c, quod est propositum.
+THEON ex Zamb. Sit triangulū α β γ, dico quod ipsius α β γ trianguli duo anguli, duobus rectis omnifariā sumpti, sunt minores. Producatur enim (per 2 postulatū) β γ, usq̃ in δ. Et quoniam trianguli α β γ (per præcedentē) exterior angulus α γ δ, maior est interiore & ex aduerso, ei cōmunis admittatur angulus α γ β. Anguli igitur α γ δ, α γ β, angulis α β γ, β γ α sunt maiores, sed anguli α γ δ, α γ β (per 13 propositionē) duobus rectis sunt æquales: anguli igitur α β γ, β γ α, duobus rectis sunt minores. Similiter quoq̃ ostendemus quod anguli β α γ, α γ β, duobus rectis sunt minores, & etiam anguli α β γ & β α γ, quomodocūq̃ assumpti. Omnis igitur triāguli duo anguli duobus rectis sunt minores, quomodocūq̃ assumpti. Quod demonstrasse oportuit.
 
-[Diagram: triangle a b c with side a b produced to d; e midpoint of c b with line a e f drawn through, g midpoint of a b with line c g h drawn through, and h b produced to k, forming a star-like configuration; labels d, b, f, h, g, e, a, c]
+[Diagram: triangle α β γ with side β γ produced to δ]
 
-## Eucli. ex Zamb. Theorema 9. Propositio 16.
+## Eucli. ex Camp. Propositio 18.
 
 [Margin]
-16
+18
 [/Margin]
 
-Omnis trianguli uno latere producto, exterior angulus utroq̃ interiore & ex opposito, maior est.
+Omnis trianguli longius latus, maiori angulo oppositum est.
 
-THEON ex Zamb. Sit triangulū α β γ, & producatur ipsius latus unū, scilicet illud β γ usq̃ in δ. Dico quod exterior angulus α γ δ, maior est utroq̃ interiore & ex opposito cōstituto, hoc est angulo γ α β & α β γ. Secētur linea α γ bifariā (per 10 propositionē) in signo ε, & protrahatur linea β ε (per 1 postulatū) & extendatur in signū ζ: collocaturq̃ ipsi β ε (per 3 propositionē) æqualis linea ε ζ, & cōnectatur (per 1 postulatū) ζ γ, & extendatur (per 2 postulatū) linea α γ usq̃ in η. Quoniam igitur α ε æqualis est ipsi ε γ, & β ε ipsi ε ζ, duæ igitur α ε & ε β, duabus γ ε & ε ζ sunt æquales altera alteri, & angulus α ε β (per 15 proposi
+CAMPANVS. Sit ut in triāgulo a b c, angulus a sit maior angulo c, dico q̃ latus c b, maius erit latere a b. Si enim sint æqualia, erit per 5 angulus a æqualis angulo c, quod est contra hypothesin. Si autē a b sit maius resecetur ad æqualitatē c b, per 3, sitq̃ b d æquale c b, erit ergo per 5, angulus d c b, æqualis angulo b d c, sed b d c est maior angulo b a c per 16, ergo b c d, est maior b a c, quare multo fortius maior angulo a c b, pars toto, quod est impossibile.
 
-[Diagram: triangle α β γ with side β γ produced to δ; ε midpoint of α γ, line β ε produced to ζ, ζ γ joined, α γ produced to η; star-like configuration with labels α, β, γ, δ, ε, ζ, η]
+[Diagram: triangle with vertices a, d, b along the top and c below, line c d drawn within triangle a b c]
 
-<!-- Signature: b 3 -->
+## Eucli. ex Zamb. Theorema 11. Propositio 18.
 
-<!-- Catchword: tionem) -->
+[Margin]
+18
+[/Margin]
+
+Omnis trianguli maius latus, maiori angulo subtenditur.
+
+THEON ex Zamb. Sit enim triangulū α β γ, habens latus α γ, maius latere α β. Dico quod & angulus α β γ, angulo β γ α maior est. Quoniā α γ maius est α β, ponatur ipsi α β (per 3 propositionē) æqualis linea α δ, & cōnectatur (per 1 postulatū) linea β δ. Et quoniā trianguli β γ δ angulus exterior α δ β (per 16 propositionē) maior est interiore & opposito angulo δ γ β, æqualis autē est (per 5 propositionē) angulus α δ β angulo α β δ, quoniā & latus α β ipsi α δ est æquale, maior est igitur angulus α δ β angulo α γ β, multo maior est igitur angulus α β γ angulo α γ β. Omnis igitur triāguli maius latus, maiori subtēditur angulo. Quod oportuit demōstrasse.
+
+[Diagram: triangle α β γ with point δ on side α γ and line β δ drawn; labels α, δ, β, γ]
+
+## Eucli. ex Camp. Propositio 19.
+
+[Margin]
+19
+[/Margin]
+
+OMnis trianguli maior angulus, longiori lateri oppositus est.
+
+CAMPANVS. Sit ut in triangulo a b c, latus b c sit maius latere a b, dico q̃ angulus a, erit maior angulo c. Hæc est cōuersa præcedentis. Si enim sit æqualis, tunc per 6, latus a b est æquale lateri b c, q̃d est contra hypothesin. Si autē sit maior, tunc per præcedentē, latus a b est maius latere b c, q̃d est cōtra hypothesin. Quare astruitur propositū.
+
+[Diagram: triangle with labels b at top, c at right, a at bottom left]
+
+## Eucli. ex Zamb. Theorema 12. Propositio 19.
+
+[Margin]
+19
+[/Margin]
+
+Omnis trianguli sub maiorem angulum, maius latus subtenditur.
+
+THEON ex Zamb. Sit triangulū α β γ, maiorem habens angulum α β γ angulo β γ α. Dico quod latus α γ, maius est latere α β. Si autē non, aut est æquale latus α γ lateri α β, aut eo minus, æquale quidem minime est latus α γ, ipsi α β: æqualis nanq̃ esset (per 5 propositionē) angulus α β γ, angulo α γ β, non est autē: latus igitur α γ, lateri α β minime est æquale. At latus α γ, latere α β minus non est, nam angulus α β γ, angulo α γ β minor esset, at non est: latus igitur
+
+[Diagram: triangle with labels α at top right, β at bottom left, γ at bottom right]
+
+<!-- Catchword: α γ latere -->

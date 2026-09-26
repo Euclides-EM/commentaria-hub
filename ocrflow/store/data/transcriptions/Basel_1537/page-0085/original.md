@@ -1,37 +1,41 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER TERTIVS -->
 
-<!-- Page number: 76 -->
+<!-- Page number: 77 -->
 
-lineæ ad extremitates chordarum: quæ sint d a, d c, h e, h g: & quia circuli positi sunt fore æquales: erunt hæ semidiametri æquales: & quia linea a c posita est æqualis lineæ e g, erit per 8 primi, angulus d æqualis angulo h totali: quare per 25 huius, erit arcus a b c, æqualis arcui e f g: sicq̃ patet primum. Secundum sic. Sit e g maior a c: eritq̃ per 25 primi, angulus h, maior angulo d. Fiat ergo angulus f h g æqualis angulo d: eritq̃ per 25 huius, arcus f g, æqualis arcui a b c. Quare arcus e f g, est maior arcu a b c, quod est secundum propositum.
+## Eucli.ex Camp. Propoſitio 29.
 
-## Eucli. ex Zamb. Theorema 25. Propositio 28.
+[Margin]
+29
+[/Margin]
 
-28 In æqualibus circulis æquales rectæ lineæ æquales circunferentias auferunt, maiorem maiori, minorem autem minori.
+DAtum arcum per æqualia diuidere.
 
-THEON ex Zamberto. *Sint æquales circuli α β γ & δ ε ζ, & in eis sint æquales rectæ lineæ β γ & ε ζ: circunferentias β α γ & ε δ ζ maiores auferentes, circunferentias autem β η γ & ε θ ζ minores. Dico quod circunferentia β α γ maior, æqualis est circunferentiæ ε δ ζ maiori: circunferentia uero β η γ minor, æqualis est circunferẽtiæ ε θ ζ minori. Suscipiantur enim circulorum centra (per primã tertij): sintq́; κ λ, & coniungantur κ β, κ γ, ε λ & λ ζ. Et quoniam circuli sunt æquales, æquales quoq; sunt quæ ex centris (per primam diffinitionem tertij). Duæ igitur β κ & κ γ, duabus ε λ & λ ζ sunt æquales. Et basis β γ (per hypothesin) basi ε ζ est æqualis: angulus igitur β κ γ (per 8 primi) angulo ε λ ζ est æqualis: æquales autem anguli (per 26 tertij) in æqualubus circunferentijs insistunt: etiam quando ad centra fuerint constituti. Circunferentia igitur β η γ, æqualis est circunferentiæ ε θ ζ: est autem totus circulus α β γ, toti circulo δ ε ζ æqualis. Reliqua igitur circunferentia β α γ (per 3 communem sententiam) reliquæ circunferentiæ ε δ ζ est æqualis. In circulis æqualibus igitur æquales rectæ lineæ, æquales circunferentias auferunt: maiorem maiori, minorem autem minori, quod demonstrasse oportuit.*
+CAMPANVS. Sit datus arcus a b c cui ſubtendatur chorda a c, quæ diuidatur per æqualia in puncto d, à quo ducatur perpendicularis ad ipſam, quæ ſit d b: ſecans circunferentiam dati arcus in puncto b: quam dico diuidere datum arcum per æqualia. Ducantur enim lineæ b a, b c, quæ erunt æquales per 4 primi. Quare per primam partem 27 huius, arcus a b, erit æqualis arcui b c, quod eſt propoſitum.
 
-[Diagram: circle with α at the top, centre κ, the chord β γ with a triangle from the centre upon it, β at lower left, γ at lower right, η at the bottom]
+[Diagram: semicircular arc with b at the summit; a, d, c on the base chord; lines b a, b d, b c drawn]
 
-[Diagram: circle with δ at the top, centre λ, the chord ε ζ with a triangle from the centre upon it, ζ at lower right, θ at the bottom]
+## Eucli.ex Zamb. Problema 4. Propoſitio 30.
 
-## Eucli. ex Camp Propositio 28.
+## Datam circunferentiam, bifariam ſecare.
 
-28 CIrculorum æqualium æquos arcus, æquas chordas habere necesse est.
+THEON ex Zamberto. Sit data circunferentia α δ β, oportet iam ipſam circunferentiam α δ β, bifariam ſecare. Coniungatur α β, ſeceturq̃ (per 10 primi) bifariam in γ ſigno: & ab ipſo γ, ipſi α β rectæ lineæ (per 11 primi) ad angulos rectos excitetur γ δ, & coniungatur α δ & δ β. Et quoniam æqualis eſt α γ ipſi γ β, communis autem γ δ: duæ igitur α γ & γ δ, duabus β γ & γ δ ſunt æquales: & angulus α γ δ (per 4 poſtulatum) angulo β γ δ eſt æqualis: rectus enim uterq̃ eſt. Baſis igitur α δ (per 4 primi) baſi δ β eſt æqualis. Æquales autem rectæ lineæ: æquales circunferentias auferunt, maiorẽ maiori, minorem autem minori (per 28 tertij). Et utraq̃ ipſarum circunferentiarum α δ & δ β: ſemicirculo minor eſt: æqualis igitur eſt circunferentia α δ, ipſi δ β circunferentiæ. Data igitur circunferentia, bifariam ſecta eſt, quod feciſſe oportuit.
 
-CAMPANVS. Sint duo circuli æquales a b c, cuius centrum d, & e f g cuius centrum h: sitq̃ arcus a b c æqualis arcui e f g. Dico quod chorda a c, est æqualis chordæ e g. Et est est hæc cõuersa primæ partis præmissæ. Ducantur lineæ d a, d c, h e, h g: eruntq̃ per 26 huius, anguli d & h æquales. Quare per quartam primi, erit a c, æqualis e g, quod est propositũ. Quæcuuq̃ autem probatæ sunt passiones de diuersis circulis æqualibus: intellige multo fortius ueras esse de eodem.
+[Diagram: arc with δ at the summit; α, γ, β on the base chord; lines α δ, γ δ, δ β drawn]
 
-[Diagram: circle with d within, a at lower left, c at lower right, b at the bottom; the triangle a b c inscribed with apex at the top and lines from a and c to d]
+## Eucli.ex Camp. Propoſitio 30.
 
-[Diagram: circle with h within, e at lower left, g at lower right, f at the bottom; the triangle inscribed with apex at the top and lines from e and g to h]
+[Margin]
+30
+[/Margin]
 
-## Eucli. ex Zamb. Theorema 26. Propositio 29. Conuersa præcedentis.
+SI rectilineus angulus in ſemicirculo ſupra arcum conſiſtat, rectus eſt. Si uero in portione ſemicirculo minore, recto maior. Si autem in portione ſemicirculo maiore, recto minor. Itemq̃ omnis portionis angulus ſemicirculo maioris, recto maior, minoris uero, recto minor de neceſſitate erit,
 
-29 In æqualibus circulis, sub æqualibus circunferentijs æquales rectæ lineæ subtenduntur.
+CAMPANVS. Sit in circulo a b c cuius centrũ d & diameter a d c, ſemicirculus a b c, in cuius ſemicirculi circunferentia fiat angulus a b c, ductis lineis a b & b c. Dico illum angulum eſſe rectum. Protrahatur ab ipſo angulo in centrum, linea b d: eritq̃ per 5 primi, angulus a b d, æqualis angulo a: & angulus d b c, æqualis angulo c. Et quia angulus c d b eſt æqualis duobus angulis d b a, & a per 32 primi: ipſe erit duplus ad angulũ d b a. Eadẽ ratione angulus a d b, duplus erit ad angulum d b c: ergo duo anguli c d b & a d b: dupli ſunt ad totalem angulum a b c: ſed ipſi ſunt æquales duobus rectis per 13 primi: erit igitur angulus a b c totalis, medietas duorum rectorum, quare rectus: quod eſt primum propoſitum.
 
-THEON ex Zamberto. *Sint æquales circuli α β γ & δ ε ζ, & in eis æquales sumantur circumferentiæ β η γ & ε θ ζ, coniunganturq́; β γ & ε ζ rectæ lineæ. Dico quod æqualis est recta linea β γ ipsi ε ζ rectæ lineæ. Sumantur enim (per 1 tertij) circulorum centra: sintq́; κ & λ, & coniungantur β κ & κ γ, ε λ & λ ζ. Et quoniam circunferentia β η γ æqualis est ipsi ε θ ζ circunferentiæ: æqualis est angulus β κ γ angulo ε λ ζ (per 10 diffinitionem tertij). Et quoniã circuli α β γ & δ ε ζ sunt æquales: & quæ ex centris quoq; sunt æquales (per 1 eiusdem diffinitonem. Duæ igitur β κ & κ γ, duabus ε λ & λ ζ sunt æquales, & angulos comprehendunt æquales. Basis igitur β γ (per 4 primi) basi ε ζ est æqualis. In æqualibus igitur circulis, æqualibus circunferentijs æquales rectæ lineæ subtenduntur, quod demonstrasse oportuit.*
+[Diagram: four circles in a row illustrating the cases: (1) circle with b at top, a and c at the ends of the diameter a d c through centre d, triangle a b c with line b d; (2) circle with triangle a b c and line c b produced to e; (3) circle with portion a b c greater than a semicircle, centre d, diameter a d e, lines b a, b c, e b; (4) circle with e at top, points b, c, d, f, chord and lines for the fourth and fifth parts]
 
-[Diagram: circle with α at the top, centre κ, the chord β γ with a triangle from the centre upon it, β at lower left, γ at lower right, η at the bottom]
+IDEM aliter. Protrahatur c b uſq̃ ad e, eritq̃ per 32 primi, angulus a b e, æqualis duobus augulis a & c, & quia angulus a eſt æqualis angulo a b d, & angulus c angulo c b d: erit angulus a b e æqualis totali angulo a b c: ergo uterq̃ eorum eſt rectus per diffinitionem. Secundum ſic patet. Sit in circulo a b c cuius centrum d, portio a b c cuius chorda a c, maior ſemicirculo: & fiat ſuper eius circunferentiã angulus a b c, ductis lineis b a & b c. Dico illum angulum eſſe minorem recto. Producantur enim diameter a d e & linea e b: eritq̃ per primã partem huius, angulus a b e totalis, rectus, quare angulus a b c, erit minor recto per 9 communem ſcientiam, cum ſit pars eius, ſicq̃ patet ſecundum. Tertium ſic. Sit rurſus in circulo a b c cuius centrũ d, chorda a c, quæ ſit ſemicirculo minor. & fiat ſuper eius circunferentiam angulus a b c, ductis lineis b a & b c. Dico hunc angulum eſſe maiorem recto. Producatur enim diame
 
-[Diagram: circle with δ at the top, centre λ, the chord ε ζ with a triangle from the centre upon it, θ at the bottom]
+<!-- Signature: g 3 -->
 
-<!-- Catchword: Eucli. -->
+<!-- Catchword: ter -->

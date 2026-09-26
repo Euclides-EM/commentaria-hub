@@ -1,25 +1,21 @@
-<!-- Running title: LIBER SEPTIMVS -->
+<!-- Page number: 170 -->
 
-<!-- Page number: 169 -->
+# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER SEPTIMVS.
 
-15 Prima simpla numeri pars, est unitas. 16 Quādo duo numeri partem habuerint cōmunem, tot partes maioris dicetur esse minor, quoties eadem pars fuerit in minore, totæ uero, quoties ipsa fuerit in maiore.
+## Euclidis ex Zamberto. Diffinitiones.
 
-17 Numeri ad numerum dicitur proportio minoris quidem ad maiorem,in eo quod est maioris pars uel partes. Maioris uero ad minorem, secundum quod eum continet & eius pattem uel partes. 18 Cum fuerint quotlibet numeri cōtinue proportionales, dicetur proportio primi ad tertium sicut primi ad secundum duplicata, ad quartum uero triplicata.
+{dropcap:V|lines=?|style=decorated|decoration="two nude figures and a serpent"}Nitas, est qua unumquodq̃ eorum quæ sunt unum dicitur. 2 Numerus autem,ex unitatibus composita multitudo. 3 Pars,est numerus numeri minor maioris,quādo dimetitur maiorem. 4 Partes autem,quando non metitur. 5 Multiplex uero, maior minoris, quando eum metitur minor. 6 Par nnmerus,est qui bifariā diuiditur. 7 Impar uero, qui bifariam non diuiditur,uel qui unitate differt à pari. 8 Pariter par numerus, est quem par numerus metitur per numerū parem. 9 Pariter autem impar, est quem par numerus metitur per imparem numerum.
 
-19 Cum continuatæ fuerint eædem uel diuersæ proportiones,dicetur proportio primi ad ultimum,ex omnibus composita. 20 Denominatio dicitur proportionis minoris quidem numeri ad maiorē,pars,uel partes ipsius minoris quæ in maiore sunt.Maioris autem ad minorem,totum uel totū & pars uel partes,prout maior superfluit. 21 Similes siue una alij eadem dicuntur proportiones, quæ eandem denominationē recipiūt. Maior uero,quæ maiorem. Minor autem,quæ minorem. 22 Numeri uero quorum proportio una,proportionales appellantur. 23 Termini siue radices dicuntur,quibus in eadem proportione minores sumi impossibile est.
+10 Impariter uero par,est quem impar numerus dimetitur per numerum parem. 11 Impariter uero impar numerus est, quem impar numerus metitur per imparem numerū. 12 Primus numerus, est quem unitas sola metitur. 13 Primi adinuicem sunt numeri,quos unitas sola dimetitur cōmunis mensura. 14 Compositus numerus,est quem numerus aliquis metitur. 15 Compositi autem adinuicem numeri, sunt quos numerus aliquis cōmunis dimensor metitur. 16 Numerns numerum multiplicare dicitur,quādo quotæ sunt in ipso unitates toties componitur multiplicatus,& gignitur aliquis. 17 Quando autem bini numeri sese adinuicem multiplicantes,aliquem fecerint,factus, planus appellatur.Latera uero illius, multiplicantes sese inuicem numeri. 18 Quando uero tres numeri sese multiplicātes adinuicem fecerint aliqnem, factus solidus appellatur,latera uero illius,multiplicantes sese inuicem numeri.
 
-## Petitiones.
+19 Quadratus numerus,est qui æque æqualis, uel qui sub duobus æqualibus numeris continetur. 20 Cubus uero,qui æque æqualis æque uel qui sub tribus æqualibus uumeris continetur. 21 Numeri proportionales, sunt quando primus secundi, & tertius quarti æque fuerit multiplex,uel eadem pars uel eædem partes.
 
-1 Cuilibet numero, quotlibet posse sumi æquales prout libet, uel multiplices. 2 Quolibet numero, aliquem quantūlibet sumere posse maiorem. 3 Seriem numerorum, in infinitum posse procedere.
+Similes plani & solidi numeri, sunt qui proportionalia habent latera.
 
-4 Nullum numerum in infinitum posse diminui.
+Perfectus numerus,est qui suijpsius pattibus est æqualis.
 
-## Communes animi conceptiones.
+## Eucli. ex Camp. Propositio 1.
 
-1 Omnis pars,minor est suo toto. 2 Quicunq̃ eiusdē siue æqualium fuerint æque multiplices,ipsi quoq̃ erūt æquales. 3 Quibus idem numerus æque multiplex fuerit, siue quorum æque multiplices fuerint æquales; & ipsi etiam erunt æquales. 4 Omnis numeri pars est unitas, ab ipso denominata. 5 Omnis pars est minor, quæ maiorē habet denominationē, maior uero,quæ minorem. 6 Quilibet numerus totus est ab unitate, quota pars ipsius est unitas. 7 Quicunque numerus in unitatem ducitur, seipsum producit.& in seipsum numerat.Vnitas quoq̃ in quemcunq̃ ducta,producit eundem. 8 Quicunq̃ numerus numerat duos, numerat quoq̃ compositum ex illis. 9 Quicunq̃ numerus numerat aliquem, numerat omnem numeratū ab illo. 10 Quicunq̃ numerus numerat totum & detractum,numerat residuum.
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I à maiore duorum numerorū minor detrahatur donec minus eo supersit,ac deinde de minore ipsum reliquū donec minus eo relinquatur, itemq̃ à reliquo primo reliquum secundum quousque minus eo supersit,atq̃ in huiuscemodi continua detractione nullus
 
-FINIS.
-
-<!-- Signature: P -->
-
-<!-- Catchword: EVCLIDIS -->
+<!-- Catchword: fuerit -->

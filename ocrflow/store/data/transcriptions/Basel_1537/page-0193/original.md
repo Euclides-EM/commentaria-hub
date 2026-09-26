@@ -1,51 +1,53 @@
-<!-- Page number: 182 -->
+<!-- Running title: LIBER SEPTIMVS -->
 
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 183 -->
 
-## Eucli. ex Camp. Propositio 16
+THEON ex Zamberto. Sint bini numeri α,β, & α quidem ipsum β multiplicans, efficiat γ, & β ipsum α multiplicās, efficiat δ. Dico quod æqualis est γ ipsi δ. Quoniam enim α ipsum β multiplicans, γ fecit, & β igitur ipsum γ metitur per eas quæ in α sunt unitates: metitur autem & ε unitas ipsum α numerum per eas quæ in eo sunt unitates : pariter igitur (per 11 quinti) ε unitas ipsum α numerū metitur & β ipsum γ. Vicißim igitur (per 15 septimi) pariter ε unitas ipsum β numerum metitur, & α ipsum γ. Rursus quoniam β ipsum α multiplicans, fecit ipsum δ, igitur α ipsum δ metitur per eas quæ in ipso β sunt unitates. Metitur autem & ε unitas, ipsum β per eas quæ in eo sunt unitates : pariter igitur (per 11 quinti) ε unitas ipsum β numerum metitur, & α ipsum δ: pariter autem ε unitas ipsum β numerum metitur, & α ipsum γ. Pariter igitur α, utrunq̃; γ,δ, metitur: æqualis igitur est γ ipsi δ, quod erat demonstrandum.
 
-[Margin]
-16
-[/Margin]
+[Diagram: dot-rows in the right margin, ε (1 dot), α (2 dots), β (4 dots), γ (8 dots), δ (8 dots)]
 
-SI numeret unitas aliquem numerum quoties quilibet tertius aliquem quartum, erit quoq́; permutatim ut quoties unitas numerat tertium, toties secundus numeret quartum.
-
-CAMPANVS. Vt si sit unitas ad a, sicut b ad c, erit permutatim unitas ad b, sicut a ad c. Non superfluit autem hæc, demonstrata permutata proportione, non enim ex illa potest concludi quod hic proponitur. Nam illa demonstrata est de quatuor numeris proportionalibus, unitas uero non est numerus per diffinitionem. Hoc ergo modo pateat propositum. Diuidatur a per unitates, & c, secundum quantitatẽ b, eruntq́; per præsentẽ hypothesin tot partes a, quot c, & quia unaquæq́; partium a est unitas, & unaquæq́; partium c est æqualis b, erit ut quoties unitas in b, toties unaquæq́; partium a in sua compari ex partibus c, per modum itaq́; demonstrationis quintæ, sequetur toties esse a in c, quoties unitas in b, quod est propositum.
-
-[Diagram: unitas . — b . . — a . . . . — c . . . . . . . .]
-
-## Eucli.ex Zamb. Theorema 13 Propositio 15
+## Eucli.ex Camp. Propositio 18
 
 [Margin]
-15
+18
 [/Margin]
 
-Si unitas numerum aliquem metiatur, pariter autem alter numerus alium quempiam numerum metiatur, & uicissim pariter unitas tertium numerum metietur, & secundus quartum.
+SI unus numerus in duos ducatur, tantus erit duorum inde productorum alter ad alterum, quantus duorum multiplicatorum alter ad alterum.
 
-THEON ex Zamberto. Vnitas, inquam, α numerum aliquem β γ metiatur, pariter autem alius numerus δ. alium quempiam numerum ε ζ metiatur. Dico quod & uicissim pariter α ipsum δ numerum metietur, & β δ ipsum ε ζ. Quoniam enim æque α unitas ipsum β γ numerum metitur, & δ ipsum ε ζ: quot igitur sunt in β γ unitates, tot sunt in ε ζ numeri æquales ipsi δ. Diuidatur, inquam, β γ in eas quæ in eo sunt unitates, hoc est β η, η θ & θ γ. Ipse uero ε ζ in ipsi δ æquales, hoc est ε κ, κ λ & λ ζ. est iam æqualis multitudo ipsorum β η, η θ & θ γ, multitudini ipsorum ε κ, κ λ & λ ζ: & quoniam β η, η θ & θ γ unitates sibi inuicem sunt æquales, & ε κ, κ λ & λ ζ numeri sibi inuicem sunt æquales, & est æqualis multitudo ipsarum β η, η θ & θ γ unitatum multitudini ipsorum ε κ, κ λ & λ ζ numerorum, est igitur sicut β η unitas ad ε κ numerum, sic est η θ unitas ad κ λ numerum, & β γ unitas ad λ ζ numerum: erit igitur (per 12 septimi) & sicut unus antecedentium ad unum consequentium, sic omnes antecedentes ad omnes consequentes. Est igitur sicut β η unitas ad ε κ numerum, sic β γ ad ε ζ: æqualis autem est β η unitas ipsi α unitati, & ε κ numerus ipsi δ numero: est igitur (per 11 quinti) sicut α unitas ad δ numerum, sic β γ ad ε ζ: pariter igitur α unitas ipsum δ numerum metitur, & β γ ipsum ε ζ, quod oportuit demonstrasse.
+CAMPANVS. Multiplicet a utrunq̃ duorum numerorū b & c, & proueniant d & e. Dico quod erit proportio d ad e, sicut b ad c: sequitur enim per conuersionē diffinitionis eius quod est multiplicari, ut b in d, & c in e sit, quoties unitas in a: quare per diffinitionē, proportio d ad b, est sicut e ad c: æqualiter enim eos continent, quia quoties unitatem, ergo permutatim d ad e, sicut b ad c, quod est propositum.
 
-[Diagram: α . — β . η . θ . γ — δ . . — ε . . κ . . λ . . ζ]
+[Diagram: dot-rows in the right margin, d and e in one row; below, b and c; below, a (2 dots); below, a single dot above the word Vnitas]
 
-## Eucli. ex Camp. Propositio 17
+## Eucli.ex Zamb. Theorema 15 Propositio 17
 
 [Margin]
 17
 [/Margin]
 
-SI duorum numerorũ uterque ducatur in alterum, qui inde producentur erunt æquales.
+Si numerus duos numeros multiplicans, fecerit aliquos, geniti ex eis eandem rationem habebunt quam multiplicati.
 
-CAMPANVS. Sicut si ex a in b proueniat c b, & ex b in a proueniat d, erunt c & d æquales. Cum enim b multiplicatus per a producat c, erit per conuersionẽ diffinitionis b in c, quoties unitas in a, ergo per præmissam, erit a in c, quoties unitas in b. Et quia toties est a etiam in d, quia ex b in a fit d, sequitur ut toties sit a in c quoties in d, per conceptionem igitur c & d sunt æquales.
+THEON ex Zamb. Numerus enim α duos numeros β,γ, multiplicans, efficiat ipsos δ,ε. Dico quod est sicut β ad γ, sic est δ ad ε. Quoniam enim α ipsum β multiplicans, ipsum δ fecit, & β igitur ipsum δ metitur per eas quæ in α sunt unitates . Metitur autem & ζ unitas, ipsum α numerum, per eas quæ in eo sunt unitates. Pariter igitur ζ unitas ipsum α numerum metitur, & β ipsum δ: est igitur sicut ζ unitas ad α numerum, sic est β ad δ. Propterea iam & sicut ζ unitas ad α numerum, sic γ ad ε: & sicut igitur (per 11 quinti) β ad δ, sic γ ad ε. Vicißim igitnr (per 15 septimi) est sicut β ad γ, sic est δ ad ε. Si igitur numerus duos, & reliqua quæ sequuntur, quod oportebat demonstrare.
 
-[Diagram: unitas . — a . . . b . . . . — c . . . . . . . . . . . . — d . . . . . . . . . . . .]
+[Diagram: dot-rows in the right margin, ζ (1 dot), α (3 dots), β (4 dots), γ (5 dots), δ (12 dots), ε (15 dots)]
 
-CAMPANI annotatio. Possumus quoq́; hanc conclusionem alio modo proponere. Si duorum numerorum uterque ducatur in alterum idem numerus utrobique proueniet, ut si ex a in b proueniat c, idem etiam ex b in proueniet. Quia enim ex a in b fit c, erit prius per conuersionem diffinitionis b in c quoties unitas in a. Et permutatim per præmissam a in c, quoties unitas in b, quia igitur a toties sibi coaceruatur in c, quoties in b est unitas, sequitur per diffinitionem quod ex b in a fit c.
-
-## Eucli.ex Zamb. Theorema 14 Propositio 16
+## Eucli. ex Camp. Propositio 19
 
 [Margin]
-16
+19
 [/Margin]
 
-Si bini numeri multiplicantes se adinuicem, fecerint aliquos, geniti ex eis æquales adinuicem erunt.
+SI duo numeri unum multiplicent, erit proportio duorum inde productorum tanquam duorum multiplicantium.
 
-<!-- Catchword: THEON ex -->
+CAMPANVS. Ex conuersione antecedentis præmissæ, cōcluditur hæc eadem passio quæ in præmissa, ut si uterq̃ duorum numerorum b & c multiplicet a, & proueniant d & e, erit d ad e, sicut b ad c: erit enim per ante præmissam ut ex a in b & c fiant d & e: quare per præmissam d ad e, sicut b ad c, quod est propositum.
+
+[Diagram: dot-rows in the right margin, d and e in one row; below, a (2 dots)]
+
+CAMPANI annotatio. Potes autem quod proponit per hanc & præmissam de duobus numeris, ad quotlibet numeros ampliare, quod si unus multiplicet quotlibet, erit productorum & multiplicatorum una proportio . Similiter quoq̃ si quotlibet multiplicent unum erit, erit productorū & multiplicantium una proportio, quod per hanc & præmissam quoties oportuerit repetitas, facile probabis. Hic autem (ut supra polliciti sumus) demonstrare uolumus æquam proportionalitatem in quotlibet numeris duorum ordinum indirectæ proportionalitis, quam demonstrat Euclides per 13 quinti, in quantitatibus in genere. Dicimus igitur:
+
+[Diagram: dot-rows in the right margin beside the annotatio, b (3 dots) and c (4 dots)]
+
+Si quotlibet numeri totidem alijs fuerint indirecte proportionales, extremi quoq̃ in eadem proportione proportionales erunt.
+
+<!-- Signature: q 2 -->
+
+<!-- Catchword: Vt si -->

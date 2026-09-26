@@ -1,33 +1,23 @@
-<!-- Running title: DATA -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-<!-- Page number: 581 -->
+<!-- Page number: 584 -->
 
-sic b ad quam a rationem habet datam. Nam quoniã est sicut a ad b, sic c ad e. Quod igitur sub a e, ei est æquum quod sub b c, per 16 sexti ele. Et quoniã ratio ipsius e ad d, data est. Ratio igitur ipsius quod sub a d ad id quod sub a e data est. Quod autem sub a e, ei est æquum quod sub b c. Ratio igitur eius quod sub a d ad id quod sub b c data est, igitur sicut d ad c sic b ad quam a rationem habet datam.
+## Theorema 94. Propositio 94.
 
-## Theorema 84. Propositio 84.
+SI in circulo magnitudine dato recta linea acta fuerit, assumens segmentum capiens angulum datum, & qui in segmento angulus bifariam sectus fuerit, utraque simul angulum datum comprehendens ad secantem angulum bifariam rationem habebit datam, & quod sub utraque simul angulum datum comprehendente recta linea, & infra assumpta ab ea quæ angulum bifariam ad circunferentiam dispescit datum erit.
 
-SI binæ rectæ lineę datam areolam comprehẽderint in dato angulo, & altera altera data maior fuerit, & ipsarum utraque data erit.
+In circulo enim magnitudine dato a b c recta excitetur linea b c assumens segmentũ capiens angulum datum qui sub b a c, seceturq̃ ipse b a c per 9 primi elementorum bifariam recta linea a d. Dico quod ratio utriusq̃ simul b a c ad a d, data est: & etiã quod datũ est id sub utraq̃ simul b a c, & e d. Connectatur b d & quoniã in circulo magnitudine dato d a c. excitatur b c assumẽs segmentũ b a c, capiens angulũ datũ b a c. Data igitur est b c magnitudine. Idq̃ propterea iam & b d, data est magnitudine. Ratio igitur ipsius b c ad b d data est. Et quoniam angulus b a c, bifariam secatur à linea recta a d est igitur sicut b a ad a c, sic b e ad e c, uicissim igitur p 16 quinti ele. sicut a b ad b e, sic a c ad c e, & sicut utraq̃ simul b a c ad b c, sic a c ad c e. Et quoniã angulus b a e angulo e a c, est æqualis, est autem & qui sub b a c e. ei qui sub b d e æqualis. Reliquus igitur qui sub a e c, reliquo qui sub a b d, est æqualis, æquiangulum igitur est a e c triangulum ipsi a b d triangulo. Est igitur sicut a c ad c e. Sic a d ad b d. Sed sicut a c ad c e, sic utraque simul b a c ad b c, & sicut igitur per 11 quinti ele. utraq̃ simul b a c ad b c, sic a d ad d b, uicissim igitur per 16 qninti el. sicut utraq̃ simul b a c ad a d, sic b c ad b d. Ratio autẽ ipsius b c ad b d data est. Ratio igitur & utriusq̃ simul b a c ad a d data est. Dico quod & quod sub utraq̃ simul b a c, & d e datum est: nã quoniã æquiangulum est triangulum a e c ipsi d e b, triãgulo, est igitur sicut b d ad d e, sic a c ad c e. Sicut autem a c ad c e, sic est utraq̃ simul b a c ad b c, & sicut igitur per 11 quinti ele. utraque simul b a c ad b c, sic est b d ad b e. Igitur quod sub utraque simul b a c & d e æquum est ei quod sub c b & b d. Datum est quod sub c b, & b d datum igitur & quod sub utraque simul b a c, & e d.{printer-error-correction:quinti}
 
-Binæ, inquam, rectæ lineæ a b, b c areolam comprehendant a c in angulo sub a b c. At c b ipsa b a dato maior sit. Dico q̃ utraq̃ ipsarũ a b. b c, data est. Nã quoniã c b ipsa b a dato maior est. Sit data d c. Reliqua igitur d b ipsi a b, est æqualis: Cõpleatur a c. Et quoniã æqualis est a b ipsi b d. Ratio igitur ipsius a b ad b d data est. Datus autem est angulus a b d. Datur igitur a d specie. Quoniã igitur a c data est, ad datam d c adiũgitur excedẽs specie dato a d. Datur igitur excessus per 59 datorũ. Data igitur est b d. Sed & d c. Igitur tota b c data est, est autem & a b data, utraque igitur a b, b c data est.
+[Diagram: a circle with a at top, b at left, c at right, d at bottom, interior point e at the crossing of the diagonals; chords a b, a c, b c, b d, d c and line a d drawn]
 
-[Diagram: a rectangle with corner label c at upper right and base labels a, d, b]
+Aliter idem.
 
-## Theorema 85. Propositio 85.
+Extendatur a c. in e, ponaturq̃ ipsi c b æqualis c e, connectãturq̃ e b, b d. Et q̃m qui sub a c b, duplus est utriusq̃ ipsorum a c d, c e b, æqualis igitur est qui sub c b e angulus ei qui sub a c d, hoc est ei qui sub a b d. Cõis põatur qui sub a b c. Totꝰ igitur qui sub d b c, toti qui sub f b e, est æqualis est aũt & qui sub c a b, ei qui sub c d b, æqualis. Reliquus igitur angulus qui sub c e b, reliquo ãgulo qui sub d c b est æqualis, æquiãgulũ igitur est e a b triãgulũ ipsi c d b triãgulo. Est igitur sicut e a ad a b Sic c d ad b.{printer-error-correction:ad d b} Ipsa aũt utraq̃ d e est ipsa a c b, & sicut igitur utraq̃ ipsarũ simul a c b ad a b, sic c d ad b d. Et uicissim igitur per 16 quinti ele. sicut utraque simul a c b ad c d. Sic a b ad b d. Ratio autem est ipsius a b ad d b data: utraq̃ enim ipsarum data est. Ratio igitur & utriusq̃ simul a c b ad c d. data est. Et q̃m æquiangulũ est triangulũe a b triangulo f b d: est igitur sicut e a ad a b, sic b d ad d f. Ipsa autem e a, utraq̃ est a c b, & sicut igitur utraq̃ a c b ad a b, sic b d ad d f. Igitur quod sub utraq̃ simul a c b & f d æquũ est ei quod sub a b, b d. Datũ est aũt q̃ sub a b, b d. Data igitur ipsarũ utraq̃. Datũ igitur est & quod sub utraq̃ simul a c b & f d.
 
-SI binæ rectæ lineæ datam areolam comprehenderint in dato angulo, fuerit aũt & utraque simul data, & ipsarũ utraque data erit.
+[Diagram: a circle with e above and outside at upper left, c at the top of the circle, b at left, a at right, f inside, d at bottom; lines e b, e a, b a, b d, a d and c d drawn]
 
-Binæ, inquam, rectæ lineæ a b, b c, datã areolam comprehendant a c in dato angulo a b c data. Dico quod & utraq̃ ipsarũ a b, b c, data erit. Extendatur c b in d ponaturq̃ per 2 primi ele. ipsi a b æqualis b d, & per 31 primi ele. per d ipsi b a parallelus excitetur d e. Compleaturq̃ a d, & quoniam æqualis est d b ipsi b a. Et angulus a b c datus est, q̃m & qui ex utraque parte datus est, datur igitur e b. specie. Et q̃m a b c, simul data est, æqualis autẽ est & a b ipsi d b. Data igitur est d c. Quoniã igitur a c data est, ad datam d c comparatur deficiẽs specie dato e b, igitur per 58 datorum dantur latitudines defectus. Datæ igitur sunt ipsæ a b, b d. Sed & utraq̃ simul a b c, data est. Data igitur est utraq̃ ipsarũ a b, b c.
+Aliter idem.
 
-[Diagram: a rectangle with top labels e, a; left label c; base labels b, d; divided by a vertical line]
+Extẽdatur a c. in f ponaturq̃ ipsi b a æqualis c f. Cõnectãturq̃ b d, d c, d f, & q̃m æqualis est b a ipsi c f, & d b ipsi d c. Binæ iã a b, b d binis f c, c d, sunt æquales altera alteri, & angulus q̃ sub a b d, angulo q̃ sub d c f, est æqualis, q̃m quidẽ a b c d, quadratũ est, basis igitur a d per 4 primi ele. basi d f, est æqualis, & triãgulũ a b d, triangulo c d f, est æquale, & re-
 
-## Theorema 86. Propositio 86.
-
-SI binę rectę lineæ datam areolam comprehenderint in dato angulo, potuerit autem utraque utráque dato maius quàm in ratione, & ipsarum utraque data erit.
-
-Binæ, inquã, rectæ lineæ a b, b c datam areã cõprehendant a c, in dato angulo a b c, quod autẽ ex b c eo quod ex a b dato maius sit quàm in ratione. Dico quod & utraque ipsarũ a b, b c, data est. Nã q̃m quod ex c b eo quod ex b a dato maius est q̃ in ratione. Auferatur datum, sitq̃ quod sub c b, b d. Reliqui igitur quod sub c d, c b ad id quod ex a b ratio data est. Et quoniã quod sub a b, b c, datũ est, est aũt quod sub b, b d datũ. Ratio igitur eius quod sub a b, b c ad id quod sub c b, b d, data est. Sicut autẽ qd' sub a b. b c, ad id quod sub c b, b d: Sic a b ad b d. Quare & ipsius a b ad b d ratio est data. Quare & eius quod ex a b ad id quod ex b d ratio est data. Eius aũt quod ex a b, ad id quod sub b c, c d ratio est data. & eius quod sub b c, c d igitur ad id quod ex d b ratio est data. Quare & eius quod quater sub b c, c d ad id quod ex b d ratio est data. Et eius igitur quod quater sub b c, c d una cum eo quod ex b d ad id quod ex b d ratio est data. Sed id quod quater sub b c, c d una cum eo quod ex b d id est quod ex utroq̃ simul est ipsius b c, c d. Ratio igitur utriusq̃ simul quod ex b c, c d ad id quod ex b d data est. Quare & utriusq̃ b c, c d, ad b d, ratio data est. Et componendo igitur per 18 quinti ele. binarum b c ad b d, ratio est data. Quare unius c b ad b d ratio est data. Sicut autem c b ad b d, sic quod sub c b, b d ad id quod ex b d. Et eius quod sub c b, b d igitur ad id quod ex b d ratio est data. Datum autem quod sub c b d, datum igitur & quod ex b d. Data igitur est b d. quare & b c, data est, ipsius enim c b ad b d ratio est data: & da-
-
-[Diagram: a rectangle with corner label c at upper right and base labels a, d, b]
-
-<!-- Signature: Cc 3 -->
-
-<!-- Catchword: tur -->
+<!-- Catchword: liqui -->

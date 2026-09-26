@@ -1,37 +1,25 @@
-<!-- Running title: LIBER SEXTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 155 -->
+<!-- Page number: 156 -->
 
-lygona in similia triangula diuiduntur, & * in æqualia numero, & æqua ratione totis, & polygonum ad polygonum duplam rationem habet, quam similis rationis latus ad similis rationis latus, quod demonstrare oportebat.
+## Eucli.ex Camp. Propositio 21.
 
-[Margin]
-ὁμόλογα
-[/Margin]
+21 SI fuerint quotlibet lineæ proportionales, atque super binas & binas similes superficies designentur, ipsæ quoq̃ superficies erunt proportionales. Si uero super binas & binas, similes superficies constitutæ fuerint proportionales: ipsas quoq̃ lineas proportionales esse necesse est.
 
-PRIMVM CORRELARIVM Proinde in uniuersum manifestum est, quod similes rectilineæ figuræ adinuicem in dupla sunt ratione, similis rationis laterum, & si ipsarum α β & ζ η proportionalem accipiamus ξ, ipsa α β ad ξ duplam habet rationem quàm α β ad ζ η: habet autem & poligonũ siue quadrilaterũ ad quadrilaterũ duplam rationẽ, quàm similis rationis latus ad similis rationis latus, hoc est, α β ad ζ η: patuit autem hoc in triangulis. Similiter autem & in similibus quadratis ostendetur, quod in duplici ratione sunt similis rationis laterũ, patuit autem & in triangulis. Proinde etiam in uniuersum est manifestum, quod si tres rectæ lineæ proportionales fuerint: erit sicut prima ad tertiam: sic quæ à prima species ad eam quæ à secunda similis & similiter descripta est.
+CAMPANVS. Si quatuor lineæ proportionales, a,b,c,d, sitq̃ proportio a ad b, sicut c ad d: dico quod si superficies similes constituantur super a & b, utpote duo pentagoni similes, & aliæ similes constituãtur super c & d, utpote duo anguli similes, erit ꝓportio pentagonorum sicut triangulorum. Quod si fuerint pentagoni similes & similiter triãguli similes, fueritq̃ proportio pentagoni ad pentagonum sicut trianguli ad triangulũ: dico quod erit ꝓportio a ad b sicut c ad d.
 
-[Diagram: two squares, a larger one labelled α and a smaller one labelled β, with a short horizontal line segment beside them]
+Subiungantur enim lineis a & b,e,& lineis c & d, f,in cõtinua proportionalitate, sicut docet 10 huius: eritq̃ per 22 quinti, & per æquam proportionalitatem, a ad e, sicut c ad f: quia ergo per correlarium 17 huius, proportio pentagonorum,est sicut a ad e & triangulorum sicut c ad f:erit ꝓportio pentagonorũ sicut triangulorum:& hoc est primũ. Secundum sic patet. Sint duo pentagoni similes, & duo trianguli similes, sitq̃ proportio pentagonorum, sunt triangulorum:dico quod proportio a ad b,est sicut c ad d.Sit enim c ad g,sicut a ad b, hoc enim qualiter fiat, dictum est supra 10 huius, & super g fiat sicut docet 19 huius, superficies similis illi quæ est constituta super lineã c:eritq̃ per præmissam,similis ei quæ constituta est super lineam d: eritq̃ etiam per primã partem huius 21, quæ proportio pentagoni a ad pentagonum b:eadem trianguli c ad triãgulum g: sed eadem erat etiã trianguli c ad triangulum d:ergo per secundam partẽ 9 quinti,triangulus d,est æqualis triangulo g.Et quia sunt similes,erit linea g æqualis lineæ d, per primam partem 17 huius,cum super lineas c d & g sint trianguli:uel secundum partẽ 18: cum fuerint quælibet aliæ figuræ multiangulæ: æqualitas enim nõ producitur ex aliqua proportione duplicata uel triplicata uel quotieslibet sumpta, nisi ex æquali: erit itaq̃ c ad d sicut a ad b:quod est propositum.
 
-[Diagram: in the right margin, three vertical line segments of decreasing length: the longest labelled α at top and β at bottom, the middle one labelled ζ at top and η at bottom, the shortest labelled ξ]
+[Diagram: two short horizontal lines labelled e and f; below, a pentagon labelled a and a triangle labelled c; below these, a pentagon labelled b, a small triangle labelled g, and an inverted triangle labelled d]
 
-ALITER. Dememonstrabimus aliter & expeditius, similis rationis esse triangula. Instituantur enim rursus α β γ δ ε, & ζ η θ κ λ polygona: & connectantur β ε, ε γ, η λ, & λ ζ. Dico quod est sicut trinngulum α β ε ad ζ η λ: sic ε β γ ad κ η θ, & γ δ ε ad θ κ λ. Quoniam enim simile est triangulum α β ε triangulo ζ η λ: igitur (per 19 sexti, triangulum α β ε ad ζ η λ duplam habet rationem quàm β ε ad η λ. Id propterea & triangulum β ε γ, ad triangulum η λ θ duplam habet rationem, quàm β ε ad η λ. Est igitur sicut triangulum α β γ ad triangulum ζ η λ, sic triangulum β ε γ, ad η λ θ. Rursus quoniam triangulum ε β γ, simile est triangulo λ η θ: igitur ε β γ ad λ η θ duplam habet rationem quam γ ε recta linea ad τ λ. Id propterea, & triangulum ε γ δ duplam rationem habet ad triangulum λ θ κ, quàm γ ε ad θ λ. Est igitur sicut triangulum β ε γ ad λ η θ, sic γ δ ε ad λ θ κ. Patuit autem & sicut ε β γ ad λ η θ: sic α β ε ad ζ η λ: & sicut igitur (per 11 quinti) α β γ ad ζ η λ, sic β ε γ ad η λ θ, & ε γ δ ad λ θ δ ad λ θ κ: & sicut igitur (per 12 quinti) unum antecedentium ad unum consequẽtium: sic omnia antecedentia ad omnia consequentia: & reliqua ut in priore demonstratione: quod oportebat demonstrare.
+## Eucli.ex Zamb. Theorema 15. Propositio 22.
 
-[Diagram: two similar pentagonal figures, each a square surmounted by a triangle: the left with apex α, upper corners β (left) and ε (right), base corners γ and δ, divided by the horizontal β ε and a diagonal of the square; the right with apex ζ, upper corners η (left) and λ (right), base corners θ and κ, divided likewise]
+## 22 Si quatuor rectæ lineæ proportionales fuerint etiam quæ ab eis rectilinea similia similiterq́̃ descripta, proportionalia erunt. Et si ab ipsis rectilinea, proportionalia fuerint: ipsæ quoq̃ rectæ lineæ proportionales erunt.
 
-## Eucli.ex Camp. Propositio 20.
+THEON ex Zamberto. Sint quatuor rectæ lineæ α β, γ ε, ε ζ, & η θ, sicut α β ad γ δ, sic ε ζ ad η θ. Describanturq́̃ (per 18 sexti) α β ipsis α β & γ δ, similia similiterq́̃ posita rectilinea κ α β & λ γ δ. Ab ipsis autem ε ζ & η θ, per eandem similia similiterq́̃ posita rectilinea μ ζ & ν θ. Dico quod est sicut κ α β ad λ γ δ, sic est μ ξ ad ν θ. Sumatur enim inq̃; (per 11 sexti) ipsarũ α β & γ δ: tertia proportionalis ξ: ipsarum autem ε ζ & η θ, tertia proportionalis ο, & quoniam est sicut α β ad γ δ, sic ε ζ ad η θ, sicut autem γ δ ad ξ, sic η θ ad ο: ex æquali igitur (per 22 quinti, sicut α β ad ξ, sic ε ζ ad ο. Sed sicut quidem α β ad ξ, sic & κ α β ad γ δ (per correlarium secundum 20 sexti. Sicut autem ε ζ ad ο, sic μ ζ ad ν θ. Sed iam esto, sicut κ α β ad λ γ δ, sic μ ζ ad ν θ. Dico quod est sicut α β ad γ δ, sic ε ζ ad η θ. Fiat enim (per 22 sexti) sicut α β ad γ δ, sic ε ζ ad π ρ, & describatur (per 8 sexti) ex π ρ, utriq̃; ipsorum μ ζ & ν θ simile, similiterq́̃ positum σ ρ. Quoniam igitur est sicut α β ad γ δ, sic ε ζ ad π ρ, & de
 
-20 SI fuerint uni superficiei similes, quaslibet superficies sibĳnuicem similes esse est.
+[Diagram: two triangles: the left with apex κ and base vertices α, β; the right with apex λ and base vertices γ, δ; between their apexes a short horizontal line labelled ξ]
 
-CAMPANVS. Sit uterq̃ pentagonorum a b c.d e f, similis pentagono g h k: dico eos esse similes sibĳnuicẽ. Est enim uterq̃ eorum æquiangulus pentagono g h K: per conuersionem diffinitionis similium superficierum: quare sunt æquianguli adinuicem. Similiter quoque per conuersionem eiusdem diffinitionis, proportio a b ad g h. sicut a c ad g K, & g h ad d e, sicut g K ad d f: ergo per æquam proportionaliitatem, a b ad d e, sicut a c ad d f. Eodem modo probabis reliqua latera pentagonorum a b c & d e f, continentia æquos angulos: esse proportionalia. Per diffinitionem itaque similium superficierum: ipsi sunt similes adinuicem: quod est propositum.
+[Diagram: a larger square labelled μ on the base ε ζ, and a smaller square labelled ν on the base η θ; below, a short horizontal line labelled ο, and a square labelled σ with base vertices π and ρ]
 
-[Diagram: three similar pentagonal figures: the left with apex a, side b, interior label c; the middle, smaller, with apex g, side b(h), interior label k; the right with apex d, interior label e, side f]
-
-## Eucli.ex Zamb. Theorema 15 Propositio 21.
-
-21 Quæ eidem rectilineo sunt similia, & adinuicem sunt similia.
-
-THEON ex Zamberto. Sit utrunq̃ ipsorum α, b, rectilineorum, simile ipsi γ. Dico quod & α ipsi β est simile. Quoniam enim simile est α ipsi γ, æquiangulum est & ei (per conuersionem primæ diffinitionis sexti) & quæ circum æquales angulos sunt latera, proportionalia habet. Rursus quoniam β simile est ipsi γ: æquiangulum igitur est & ei per eandem, & quæ circum æqualesles sunt angulos latera proportionalia habet: utrunq̃ igitur ipsorum α, β, ipsi γ æquiangulum est (per 6 sexti: & quæ cirea æquales sunt angulos latera habet proportionalia, quare per eandem & α ipsi β æqaiangulum est, & quæ circum æquales sunt angulos latera habet proportionalia. Simile igitur est β ipsi α, quod oportebat demonstrare.
-
-[Diagram: three triangles: γ above, α at the left (larger), β at the right]
-
-<!-- Catchword: Eucli. -->
+<!-- Catchword: scripta -->

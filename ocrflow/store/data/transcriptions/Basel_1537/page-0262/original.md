@@ -1,39 +1,35 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 251 -->
+<!-- Page number: 252 -->
 
-numerum quadratum. Dico quod incommensurabilis est α,ipsi β longitudine. Si enim fuerit commensurabilis α ipsi β,quadratum quod ex α ad quadratum quod ex β,eam habebit rationem quam numerus quadratus ad numerum quadratum,non habet autem. Igitur commensurabilis non est α ipsi β longitudine. Incommensurabilis igitur est α, ipsi β longitudine. A longitudine commensurabilibus igitur quadrata,& quæ sequuntur reliqua, quod demonstrasse oportuit.
+communicabunt. Idem quoque in contrario,si enim a & b sint incommunicātes, dico quod c utrique earum erit incommunicans,& econuerso,si c alteri earum sit incōmunicant,erit quoque incōmunicans & alteri,& ipsæ etiam inter se. Sint itaque primum a & b communicantes,sitque earum communis mensura d,quæ cum utramq̃ earum numeret,per conceptiouem{printer-error-correction:conceptionem} similem antepenultimæ septimi,numerabit & c,quare per diffinitionem c communicabit utrique earū scilicet a & b. Ecōuerso quoq̃ si c cōmunicet utrique earum,sit omnium communis mēsura d,constat itaque per diffinitionem,a & b communicantes esse. Sed communicet c cum altera earū quæ sit a,dico quod communicabit cū b.& a etiam & b communicabunt adinuicem:sit enim d communiter mensurans c & a Quia igitur d mensurat totum & detractum,per conceptionem ipsa mensurabit residuum uidelicet b,per diffinitionem ergo,& c communicat cū b,& a communicat quoque cum b.
 
-## CORRELARIVM
+[Diagram: four horizontal lines labelled a, b (on one rule), c, and d, each marked off into equal parts]
 
-Et manifestū est ex his,quod longitudine commensurabiles rectæ lineæ, omnino sunt potentia,quæ autem potentia, non omnino longitudine,longitudine uero incommensurabiles,non omniuo{printer-error-correction:omnino} potentia,quæ autem potētia.omnino & longitudine.
+CAMPANI *additio*. Si autem a & b sint incommunicantes,erit c incommunicans utrique earū. Si enim cum utraque seu etiam cum altera earum communicaret,& ipsæ communicarent adinuicem,quod est contra hypothesin. Similiter quoque econuerso sie est in communicans{printer-error-correction:si c est incommunicans} utriq̃ earum seu etiam alteri earū,erit quoque incommunicās reliquæ,& ipsæ inter se,quod palam est ex prædemonstratis,à destructione cōsequentis.
 
-Quoniam enim ex longitudine commensurabilibus rectis lineis quadrata rationem habent quam quadratus numerus ad quadratum numerum,at quæ rationem habent quam numerus ad numerum, commensurabilia sunt (per 6 decimi,)longitudine igitur commensurabiles rectæ lineæ,non solum longitudine sunt commensurabiles,sed & potentia. Rursus quoniam quæcunque quadrata rationem habent quam numerus ad numerum commensurabilia sunt (per 6 decimi.)at quatenus rationem habent quam quadratus numerus ad numerum quadratum eorum latera longitudine commensurabilia sunt,quæcunque igitur qudrata{printer-error-correction:quadrata} rationem non habent quam quadratus numerus ad quadratum numerum,sed simpliciter quam aliquis numerus ad numerum,commensurabilia potentia quidē habent latera,non autem & longitudine. Quare longitudine quidem commensurabiles rectæ lineæ,omnino & potentia,quæ autem potentia,non omnino longitudine,nisi rationem habuerint eorum quadrata quàm quadratus numerus ad quadratum numerum. Dico iam quod & quæ longitudine incommensurabiles,nō omnino & potentia. Quandoquidem quadrata commensurabilia,possunt rationem habere non quidem quam quadratus ad quadratū, sed simpliciter quam aliquis numerus ad numerum,& ob id potentia commensurabilia latera habebunt,& longitudine incommensurabilia. Quare quæ longitudine incommensurabiles rectæ lineæ,non omnino & potentia. Sed longitudine existentes incommensurabiles possunt & potentia esse incommensurabiles,si eorum quadrata sunt incommensurabilia. Quæ autem potētia incōmensurabiles,omnino & longitudine incommensurabiles. Si enim longitudine commensurabiles fuerint,erunt quoque & potentia commensurabiles. Supponuntur autem & incommensurabiles,quod est absurdum. Quæ igitur potentia incommensurabiles,omnino & longitudine.
-
-## Eucli.ex Camp. Propositio 8
+## Eucli.ex Camp. Propositio 10
 
 [Margin]
-8
+10
 [/Margin]
 
-{dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duæ quantitates uni quantitati cōmunicantes,ipsas quoqʒ inuicem commensurabiles esse necesse est.
+{dropcap:O|lines=?|style=decorated|decoration="containing a face"}Mnium quatuor quātitatum proportionalium,si fuerit prima communicās secundæ,tertia quoque erit communicās quartæ. Si uero prima incommensurabilis fuerit secūdæ, tertia quoque incommensurabilis erit quartæ.
 
-CAMPANVS Sit utraqʒ duarū quantitatum a & b,cōmunicans quantitati c,dico a & b esse cōmēsurabiles. Est enim per 5,a ad c, sicut numerus ad numerū.similiter quoqʒ per eādē;c ad b,sicut nūerus ad numerū. Sit itaqʒ numerus d ad numerū e,sicut a ad c,nūerusqʒ f ad nūerū g sicut c ad b. At proportiones quæ sunt d ad e & f ad g,continentur in tribus terminis qui sunt h.K.l,ut docet 4 octaui. eritqʒ per æquā proportionalitatē,a ad b,sicut h numerus ad l numerū, per 6 igitur sunt a & b,cōmunicātes,quod est propositū.
+CAMPANVS. Sint quatuor quantitates proportionales,a,b,c,d: dico quod si a communicat cum b,c quoq̃ communicabit cum d,quod si a est incommensurabilis b,c quoq̃ erit incommensurabilis d.Et si a communicabit cum b in potentia tantum,c quoque communicabit cū d in potentia tantū,ueruntamē illud non proponit autor quia facile patet ex demonstratione priorum.Si enim a communicat cum b,erit per 5 a ad b sicut numerus ad numerum, sit ergo sicut e ad f.At quia est per hypothesin a ad b sicut c ad d,erit c ad d, sicut numerus e ad numerū f,per 6 igitur est c cōmunicās cum d,quod est primum.Secundum patet ex primo à destructione consequentis. Si enim a est incommensurabilis b oportet c esse incommensurabilem d,nam si esset ei commensurabilis,cum sit ut c ad d sic a ad b,per hypothesin, esset per primam partem a communicans cum b,sed non erat.Quare constat totum quod proponit autor.Quod autem adiūximus,uidelicet quod si a communicat cum b in potentia tātum,c, communicat cum d in potentia tantum,sic patet.Cum enim a non communicet cum b,in longitudine,nec c quoq̃ ex parte secūda huius,communicabit cum d in longitudine.At uero cum quadratum a communicet cum quadrato b ex hypothesi,erit per 5,quadratū lineæ a ad quadratum lineæ b,sicut numerus ad numerum qui sint e & f. Et quia quadratum c ad quadratū d sicut quadratum a ad quadratum b,erit etiam quadratum c ad quadratum d,sicut numerus e ad numerum f,per 6 igitur c & d,communicant in potentia,& quia non communicant in longitudine,constat propositum.
 
-[Diagram: three horizontal lines with tick marks, labeled a, c and b; below, rows of dots: d (4 dots), e (3 dots), f (3 dots), g (2 dots) at left, and h (4 dots), K (3 dots), l (2 dots) at right]
+[Diagram: four horizontal lines labelled a, b, c, d, marked into parts; below them two rows of dots labelled f (two dots) and e (five dots)]
 
-CAMPANI additio. Ex hac quoqʒ sequitur,quod si fuerint duæ quātitates sibi inuicē cōmunicātes,cuicūqʒ una earū cōmunicat,& reliqua,& cuicūqʒ una nō cōmunicat,nec reliqua. Sint enim duæ quātitates a & b cōmunicantes:ponaturqʒ quælibet quantitas quæ sit c,cū qua cōmunicet a,dico q̄ b cōmunicabit cū eadē,qd' ex hac octaua patet cū utrūqʒ earū cōmunicet cū a,ex hypothesi. Quod si iterū a & b sint cōmunicātes ut prius,ponatur c quælibet quātitas cū qua nō cōmunicet a,dico qd' b non cōmunicabit cū eadē. Si enim c communicaret cum b,quum a quoqʒ per hypothesin cōmunicet cum eodē, b.essent per hanc octauā a & c cōmunicantes,sed positum erat,quod non essent. Quare constat quod diximus.
+[Diagram: four horizontal lines labelled a; b Re. 32; c; d Re. 18]
 
-[Diagram: three horizontal lines, labeled a, c (with Re. 18 printed beside the label) and b]
-
-## Eucli.ex Camp. Propositio 9
+## Eucli.ex Camp. Propositio 11
 
 [Margin]
-9
+11
 [/Margin]
 
-{dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duæ quantitates communicantes,totum quoqʒ ex eis cōfectum utriqʒ earum erit communicans. Si uero fuerit totum utrique commensurabilc{printer-error-correction:commensurabile},eruut{printer-error-correction:erunt} ambæ commensurabiles.
+{dropcap:P|lines=?|style=decorated}Roposita qualibet recta linea, duas ei incommensurabiles alteram in longitudine tantum,alteram in longitudine & potentia rectas lineas inuenire.
 
-CAMPANVS. Sint duæ quātitates a & b cōmēsurabiles,dico totū ex eis compositū quod sit c,utrique earū esse commensurabile,& econuerso. Adhuc quoqʒ si totū ex eis cōpositū uni earum cōmunicet,dico qd' cōmunicabit alteri,& ipse similiter inter se etiā
+CAMPANVS Sit linea a proposita,uolo duas lineas reperire,quarum una communicet cum a in potentia tantum,altera uero sit incommensurabilis ei in longitudi
 
-<!-- Catchword: cōmu -->
+<!-- Catchword: ne, -->

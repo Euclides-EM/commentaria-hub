@@ -1,55 +1,15 @@
-<!-- Running title: LIBER DECIMVSQVINTVS 481 -->
+<!-- Running title: GEO. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 481 -->
+<!-- Page number: 482 -->
 
-ctione ad centra connexæ, comprehendent desinentes similiter in binas rectas inclinationis icosahedri planorum. In dodecahedro uero expolito uno quinquangulo, connexa similiter sub binis lateribus subtensa recta linea, centris terminis eiusdem, interuallo autem acta perpendiculari à bifaria sectione ipsius in parallelum in latus pentagoni,
+& ipsis ε η, γ η perpendicularibus triangulorum, datur & qui sub ε η δ. Si enim centris limitibus eius quæ sub binis lateribus subtensa pentagoni, sicut ε δ, interuallo autem ipsius trianguli perpendiculari, circuli describantur, secabunt se inuicem sicut in η, & quæ ex η ad ipsa ε δ connexæ rectæ lineæ, comprehendent sub binis rectis ipsorū planorū inclinatiōis, & hic quidē ex descriptione manifestū est, quod utraq̃ ipsarū β η, ε η maior est dimidia ipsius β δ.
 
-[Margin]
-ut suprà
-[/Margin]
+Instrumentali quoque fabrica est ostēdere. Intelligatur separatim æquilaterum quidem triangulum κ μ λ, ab ipso autem κ λ quinquangulum describatur κ μ ρ ξ λ, & connectatur κ ρ, exciteturq̃ (per 12 primi) perpendicularis ipsius θ κ λ trianguli, subtendentis inclinationem planorū. Acta ab ipso in ipsam μ λ, perpendicularis ipsa κ η, quoniam ipsa κ π maior est trianguli perpendiculari, hoc est ab eo qui sub κ θ, constituatur ei qui sub κ θ ο æquus qui sub κ μ λ, ipsa igitur κ π perpendicularis est æquilateri triāguli cuius est latus ζ, quare quod est ex κ π, ad id quod ex λ π, rationem habet quàm 4 ad 3, maior autem est κ λ, ipsa λ π. Quod igitur ex κ λ, ad id quod ex λ ο, maiorem rationem habet quàm 4 ad 3, habet autem & id quod ex θ ο, quā 4 ad 3. Ipsa igitur κ λ, ipsa λ ο maiorē rationē habet quā θ ο, maior igitur est θ ο ipsa λ κ. [illegible]
 
-describantur circunferentiæ, & quæ à signo in quod inuicem concurrunt ad centra connexæ, similiter comprehendent* desinentem in binas rectas inclinationis planorum dodecahedri. Sic quidem clarissimus ille uir de prædictis disseruit, claram putans in quouis demonstrationem. Sed ut manifesta fiat illorum demonstratio, sic uerba ipsius declarare, primumq̃ in pyramide.
+[Diagram: an equilateral triangle erected above a pentagon which shares its base side, with perpendiculars and connecting lines drawn; points labeled θ, κ, λ, μ, ν, ρ, ξ (partly illegible)]
 
-Intelligatur pyramis sub quatuor æquilateris triangulis comprehensa α β γ δ, basi β γ δ, fastigio uero α, & secto ipso β γ latere (per 10 primi) bifariam in ε, connectantur α ε, δ ε. Et quoniā α β γ, δ β γ, triangula æquilatera sunt, & β γ bifariam secatur, ipsæ igitur α ε, δ ε, perpendiculares sunt in β γ. Dico quod angulus qui sub α ε δ est acutus. Quoniam enim dupla est α γ ipsius γ ε, quadrupli est quod ex α γ eius quod ex γ ε. Sed ex α γ, æquū est eis quæ ex α ε, ε γ, (per 47 primi) quorum quod ex α γ ad id quod ex γ ε rationem habet quam 4 ad 3, & est æqualis α γ ipsi α δ, quod ex α δ minus est eis quæ ex α ε, ε δ, acutus igitur est qui sub α ε δ. Quoniam igitur binorum planorum α β γ, δ β γ, communis sectio est β γ, cōmuni sectioni ad angulos rectos sunt rectæ lineæ in utroque ipsorum planorum quæ α ε, δ ε, acutum angulum comprehendunt, angulus igitur qui sub α ε δ inclinatio est ipsorum planorum, & est datus, data enim & β γ latus existens trianguli, & utraque ipsarum α ε, δ ε, perpendiculares subsistēs æquilateri trianguli, centris nimirum β, γ, hoc est terminis unius lateris, interuallo uero triāguli perpendiculari descripti ambitus, sese inuicem in ε signo dispescent. Et quæ ab ipso in ipsa β γ connexæ rectæ lineæ, comprehendunt planorum inclinationem, id autem erat dictum. Et quod centris quidem β, γ, interuallo autem trianguli perpendicularis, descripti circuli adinuicem se secent, perspicuum est, utraque enim ipsarum α ε, δ ε, maior est dimidia ipsius β γ, interuallo alia dimidia ipsius β γ descripti circuli, sese inuicem tangunt. Si uero minor fuerit, neque se tangunt neq̃ dispescunt, si uero maior, omnino secant & sic in pyramide hæc consequens aperte apparet ratio.
+In dodecahedro sic intelligatur unū quadratū à quo dodecahedrū describitur, & sit α β γ δ, & bina plana dodecahedri, hoc est α ε ζ β γ, η ζ γ θ γ. Dico iam & hic datā esse, binorū quinquāgulorū inclinationē. Secetur (per 10 primi) ζ η bifariā in κ, & ab ipso κ ipsi ζ η (per 11 primi) ad angulos rectos excitētur in utroq̃ planorū κ λ, κ μ, & cōnectatur λ μ. Aio primū q̃d qui sub λ κ μ, angulus obtusus est. Ostensum autem est in decimotertio elemētorum, uolis nomine siue statu dodecahedri , quod quæ ex κ perpendicularis dimidia est lateris pentagoni, quare minor est dimidia ipsius μ λ, & id propterea qui sub λ κ μ, angulus obtusus est. Simulq̃ ostensum est in eodem theoremate quod & quod quidem ex κ λ, æquum est ei quod ex dimidio lateris cubi & ei quod ex dimidio lateris pentagoni, quare eadem κ λ & κ μ sunt æquales, & maiores sunt dimidia ipsius μ λ. datus igitur angulus sub μ κ λ, desinens in binas rectas inclinatio erit planorum, quadrati uidelicet data. Quoniam igitur latus α β, quadrati subtendens est bina latera pentagoni daturque & pentagonum, datur ergo & μ λ. Datur autem & utraque ipsarum μ κ, κ λ, perpendiculares enim sunt à bifaria sectione α β sub binis subtensa lateribus in parallelum eidem latus pentagoni ut suprā. Datur igitur qui sub λ κ μ desinens (sicut dictum est) in binas rectas quæsitæ inclinationis. Bene igitur in instrumentali fabrica dixit quod oportet dato pentagono, connectere subtensam sub binis lateribus quæ æqualis sit ipsius cubi lateri, & centris limitibus ipsius, interuallo uero ab ipsa bifaria sectione acta perpendiculari in parallelum eidem pentagoni latus, sicut in descriptione κ λ μ ν, descriptæ circunferentiæ, & ab ipso commissuræ circunferentiarum signo ad centra connectere rectas lineas comprehendentes desinentem in binas rectas inclinationis ipsorum planorum, quod enim ipsa κ λ, perpendicularis maior est dimidia ipsius μ λ, dictum est, sicut in elementis simul etiam est ostensum.
 
-[Diagram: equilateral triangle α β γ with fourth vertex δ drawn within and ε the midpoint of a side; the lines α ε, δ ε and the edges of the pyramid drawn]
+[Diagram: two pentagonal faces of the dodecahedron standing on a common cube edge, drawn as an elongated hexagonal outline with internal diagonal lines; points labeled α, β, γ, ε, ζ, η, κ, λ, μ]
 
-[Margin]
-περιφέρειαι
-[/Margin]
-
-Intelligatur rursus in quadrato α β γ δ pyramis uerticem habens ε, ipsam comprehendentia bifariam basis triāgula æquilatera,
-
-[Margin]
-δίχα τῆς βάσεως (?), præter basim
-[/Margin]
-
-erit autem α β γ δ ε pyramis dimidium octahedri, secetur (per 10 primi) unum latus unius trianguli α β bifariam in ζ, connectanturq̃ ζ γ, ζ δ, æquales igitur sunt ζ γ, ζ δ, & perpendiculares in α β. Dico quod angulus qui sub γ ζ δ, obtusus est, connectatur enim γ δ. Et quoniā quadratum est α β γ δ, dimetiens autem γ δ, quod ex γ δ duplum est eius quod ex α β. Quod autem ex α β ad id quod ex γ ζ rationem habet (sicut in præcedenti dictum est) quam 4 ad 3, & quod ex γ δ ad id quod ex γ ζ rationem habet quam octo ad tria, æqualis autem est ζ γ ipsi ζ δ. Quod igitur ex γ δ, eis quæ ex γ ζ, ζ δ maius est. Obtusus igitur est qui sub γ ζ δ. Et quoniam binis planis se inuicem secantibus, hoc est α β γ, α β δ, communis sectio est α β, & ad rectos angulos ei in utroque ipsorum planorum utraque ipsarum ζ γ, ζ δ, obtusum comprehendentes, qui igitur sub γ ζ δ angulus desinit in binas rectas inclinationis ipsorum α β γ, α β δ planorum. Si datus fuerit igitur qui sub γ ζ δ, datur quoq̃ dicta inclinatio. Quoniā igitur datur triangulum octahedri α β γ, & unum latus octahedri α β, & ab ipsa quadratum describitur α β γ δ, dataq̃ γ δ, dimetiens existens ipsius quadrati. Sed & ζ γ, ζ δ, trianguli perpendiculares. Quare qui sub γ ζ δ angulus datur. Descripto igitur quadrato ex latere trianguli sicut α β γ δ, connexa diametro sicut γ δ, & centris γ, δ, interuallo autem trianguli perpendiculari, circulos describamus, inuicem in ε dispescent. Et quæ ex ε in centra connexæ rectæ lineæ, comprehendent inclinationem eam quæ sub γ ζ δ, quæ desinit in binas rectas (sicut dictum est) ipsorum planorum inclinationis.
-
-[Margin]
-Est quo deficit à duobus rectis inclinatio
-[/Margin]
-
-Et
-
-[Margin]
-ut suprà
-[/Margin]
-
-hic perspicuū est quidem sicut utraq̃ ipsarū ζ γ, ζ δ, est dimidia ipsius γ δ maior: per hoc in organica cōstructione circulos sese inuicē dispescere necesse est. Et ex demōstratione manifestū sicut quod ex γ δ ad id quod ex ζ γ rationē habet quā octo ad tria, dimidiæ uero ipsius γ δ potentia quadrupla est, & proinde maior est utraq̃: ipsarum ζ γ, ζ δ, dimidia ipsius γ δ. Hæc quidem de octahedro.
-
-[Diagram: square α β γ δ with both diagonals drawn, centre point ε, and ζ the midpoint of the upper side; lines from ζ to the opposite corners]
-
-In icosahedro autem intelligatur pentagonum æquilaterum α β γ δ ε, & in eo pyramis uerticem habens ζ, ut triangula ipsam comprehendentia æquilatera sint, erit iam ipsa α β γ δ ε ζ pyramis pars icosahedræ figuræ. Secetur unum latus unius trianguli ζ β bifariam in η, & cōnectantur α η, γ η, æquales existentes perpēdiculares factæ in ipsum ζ β. Dico quod qui sub α η γ angulus obtusus est, & ibidem manifestum est, nam connexa recta linea α γ, obtusum quidē explicat eum qui sub α β γ ipsius pētagoni angulum,
-
-[Margin]
-ὑποτείνει (?), subtendit
-[/Margin]
-
-hoc autem maior est illo qui sub α η γ, quia ipsæ α η, η γ, ipsis α β, β γ, sunt minores: ostensum autem est in præcedenti, quod ex α γ maius est eis quæ ex α η, η γ, qui igitur sub α η γ angulus desinit in binas inclinationis ipsorum ζ α β, ζ β γ triangulorum, hoc est, data erit & inclinatio ipsius icosahedri planorum. A latere namq̃ trianguli icosahedri descripto quinquangulo cōnexa sub binis lateribus subtensa pentagoni, sicut in ipsa descriptione α γ data, similiter autem
-
-[Diagram: regular pentagon α β γ δ ε with interior apex point ζ joined to all vertices, and η on one of the slant lines; internal lines drawn]
-
-<!-- Signature: S -->
-
-<!-- Catchword: & ipsi -->
+DECIMIQVINTI LIBRI FINIS

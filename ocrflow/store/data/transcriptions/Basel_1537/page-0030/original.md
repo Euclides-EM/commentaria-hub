@@ -1,39 +1,43 @@
-<!-- Running title: LIBER PRIMVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 21 -->
+<!-- Page number: 22 -->
 
-tatem duarum linearū f d & g h, intersecantes se in puncto k sicut docuit præcedens, ductisq̃ lineis k f & k g, erunt æqualia duo latera k f & f g trianguli k f g duobus lateribus a & b trianguli a b c, & basis g k æqualis basi c: ergo per 8 angulus k f g, æqualis erit angulo contento a & b, quod est propositum.
+terum alteri, angulum uero angulo maiorem sub æquis rectis lineis contentum, basin quoq̃ basi maiorem habebunt.
 
-## Euclidis ex Zamb. Problema 9. Propositio 23.
+THEON ex Zamberto. Sint bina triangula α β γ, δ ε ζ, duo latera, hoc est α β, α γ, duobus lateribus, hoc est δ ε, δ ζ, æqualia habentia, alterum alteri, hoc est latus α β lateri δ ε, & latus α γ lateri δ ζ: angulus uero qui sub β α γ, angulo ε δ ζ esto maior. Dico quod & basis β γ, basi ε ζ maior est. Quoniam enim angulus β α γ maior est angulo ε δ ζ, collocetur (per 23 propositionem) ad rectam lineam δ ε, ad datumq̃ in ea signum δ, dato angulo β α γ æquus angulus ε δ η. Et ponatur alterutri, hoc est lineæ α γ uel δ ζ, æqualis ipsa δ η: & cōnectantur (per 1 postulatum) η ε & ζ η. Quoniam igitur α β æqualis est ipsi δ ε, & α γ ipsi δ η: binæ lineæ β α & α γ, binis δ ε & δ η sunt æquales altera alteri, & angulus β α γ (per constructionem) angulo ε δ η est æqualis: basis igitur β γ, (per 4 propositiōe) basi ε η est æqualis. Rursus quoniam æqualis est δ η ipsi δ ζ: angulus igitur δ η ζ, angulo δ ζ η est æqualis. Angulus igitur δ ζ η, angulo ε η ζ maior est: longe maior igitur est angulus ε ζ η, angulo ε η ζ. At quoniam triangulum est ε ζ η habens angulum ε ζ η maiorem angulo ε η ζ, maiorem autem angulum (per 19 propositiōe) latus maius subtendit: maius igitur est latus ε η, latere ε ζ. Æquale autē est latus ε η, lateri β γ: latus igitur β γ, maius est latere ε ζ. Si bina igitur triangula duo latera duobus lateribus æqualia habuerint, & quæ sequuntur reliqua ut in propositione, quod ostendere oportuit.
 
-[Margin]
-23
-[/Margin]
+[Diagram: two triangles side by side, triangle α β γ, and triangle δ ε ζ with the additional point η and lines δ η, η ε, ζ η drawn]
 
-Ad datam rectam lineam, ad datumq̃ in ea signum, dato angulo rectilineo æqualem angulum rectilineum constituere.
-
-THEON ex Zamb. Sit data recta linea α β, datumq̃ in ea signum sit α: datus autem angulus rectilineus, sit δ γ ε. Oportet ad datam rectam lineam α β, ad datum in ea signum α, dato angulo rectilineo δ γ ε, æqualem angulum rectilineum collocare. Sint in utrisq̃ lineis δ γ & γ ε, contingentia signa sintq̃ illa δ & ε, cōnectatur (per 1 postulatum) δ ε. Et ex tribus rectis lineis quæ tribus datis rectis lineis, hoc est γ δ, δ ε, γ ε, sunt æquales, (per præcedentem) triangulū construatur, sitq̃ illud α ζ η, ita ut æqualis sit γ δ, ipsi α ζ, & γ ε ipsi α η, & insuper δ ε ipsi ζ η. Et quoniā duæ lineæ δ γ & γ ε, duabus lineis, hoc est ζ α & α η sunt æquales altera alteri, & basis δ ε (per hypothesin) basi ζ η, angulus igitur δ γ ε, angulo ζ α η (per 8 propositionem) est æqualis. Ad datam igitur rectam lineam α β, ad datum in ea signum α, dato angulo rectilineo δ γ ε, æqualis angulus rectilineus ζ α η collocatus est. Quod fecisse oportuit.
-
-[Diagram: two triangles side by side, the first with vertex γ and base δ ε, the second with vertex α and base ζ η, the line α β extending below]
-
-## Eucli. ex Camp. Propositio 24.
+## Eucli. ex Camp. Propositio 25.
 
 [Margin]
-24
+25
 [/Margin]
 
-OMnium duorum triangulorū quorum duo latera unius duobus lateribus alterius fuerint æqualia, si fuerit angulorum sub illis æquis lateribus contentorū alter altero maior, basis quoq̃ eiusdem, basi alterius maior erit.
+OMnium duorum triangulorū quorum duo latera unius duobus lateribus alterius fuerint æqualia, basis uero unius basi alterius fuerit maior, erit quoq̃ angulus trianguli maioris basis illis æquis lateribus contentus, angulo alterius se respiciente maior.
 
-CAMPANVS. Sint duo trianguli a b c, & d e f, sintq̃ duo latera a b & a c, æqualia duobus lateribus d e & d f: & unumquodq̃ suo correlatiuo, dextrum, scilicet, dextro, sinistrumq̃ sinistro, sitq̃ angulus a, maior angulo d dato. Dico q̃ basis b c, maior erit basi e f. Faciā enim iuxta doctrinā præcedentis, angulū e d g æqualem angulo a, eritq̃ angulus e d f, pars anguli e d g, & ponam d g æqualē a c, protrahā e g, quæ aut trāsibit supra e f, aut secet lineā d f, aut super e f, aut fit secum linea una, aut infra. Transeat primo supra. Et quia a b & a c latera trianguli a b c sunt æqualia e d & d g lateribus trianguli e d g, & angulus a angulo e d g totali, erit per 4 propositionem basis b c æqualis basi e g. At uero quia d g & d f sunt æqualia (nam utraq̃ est æqualis a c) erit per 5 propositiōe angulus d f g æqualis angulo d g f, quare d f g maior erit angulo f g e, ergo e f g multo fortius maior est eodem f g e: ergo per 19 propositiōe latus e g maius est latere e f, quare & b c maior est e f, quod est propositū. Si uero e g transeat super e f & sit secum linea una, tunc e f erit pars e g, per ultimā ergo conceptionē patet propositū. Si uero e g transeat infra e f, protrahātur duæ lineæ d f & d g quæ sunt æquales ut probatū est, ad k & ad h, fientq̃ per secūdam partē 5 propositionis sub basi f g, anguli k f g & f g h æquales: quare angulus e f g maior erit angulo f g e: ergo per 19 propositiōe latus e g maius est latere e f, quare b c maior est e f, quod est propositū. Istud ultimū membrū posset etiam probari per 21 propositionē: per ipsam enim erunt in dispositione tertia duæ lineæ d g & e g, maiores duabus lineis d f & e f, & quia d g est æqualis d f, propter hōc quod ambæ sunt æquales a c, erit e g maior e f, quare & b c maior e f, quod est propositū. Melius tamen est demonstrare priori modo ut in omni dispositione arguatur per quintam.
+CAMPANVS. Sint duo triāguli a b c, d e f: sintq̃ duo latera a b & a c primi, æqualia duobus lateribus d e & d f secundi, unūquodq̃ suo correlatiuo: sitq̃ basis b c, maior basi e f: dico q̃d angulus a, maior erit angulo d. Hæc est cōuersa præcedentis. Æqualis quidem non erit. Sic enim esset per 4 basis, b c æqualis basi e f: quod est cōtra hypothesin. Sed nec minor, q̃a sic esset d maior: & ita per præcedentē basis e f, erit maior basi b c, q̃d est contrariū positioni, quare maior erit. Sicq̃ propositū astruitur.
 
-[Diagram: two triangles a b c and d e f side by side, the second with the angle e d g constructed and line e g drawn; below, four further triangles showing the three cases, with lines d f and d g produced to k and h; labels a, b, c, d, e, f, g, h, k]
+[Diagram: two triangles side by side, triangle a b c and triangle d e f]
 
-## Eucli. ex Zamb. Theorema 15. Propositio 24.
+## Eucli. ex Zamb. Theorema 16. Propositio 25.
 
 [Margin]
-24
+25
 [/Margin]
 
-Si bina triangula, duo latera duobus lateribus æqualia habuerint al
+Si duo triangula duo latera duobus lateribus alterū alteri æqualia habuerint, basin uero basi maiorem, angulum quoq̃ sub æqualibus rectis lineis contentum, angulo maiorem habebunt.
 
-<!-- Catchword: terum -->
+THEON ex Zamb. Sint duo triangula α β γ, δ ε ζ, duo latera hoc est α β & α γ, duobus lateribus, hoc est δ ε & δ ζ æqualia habentia alterum alteri, α β, scilicet, ipsi δ ε, & α γ ipsi δ ζ: basis autem β γ, basi ε ζ maior esto: dico quod angulus β α γ, maior est angulo ε δ ζ. Si autem non, aut ei est æqualis, aut eo minor. Æqualis autem nō est angulus β α γ, angulo ε δ ζ: si enim æqualis esset, basis quoq̃ β γ (per 4 propositiōe) basi ε ζ æqualis esset: at non est: angulus igitur β α γ, angulo ε δ ζ æqualis minime est. Neq̃ etiam minor est angulus β α γ, eo qui sub ε δ ζ: nam basis β γ, basi ε ζ minor esset: at non est, minor igitur non est angulus β α γ, eo qui sub ε δ ζ: ostensum autem est quod neq̃ æqualis: maior igitur est angulus β α γ, angulo ε δ ζ. Si bina igitur triangula, duo latera duobus lateribus, & quæ sequuntur reliqua, ut theoremate. Quod ostendere oportuit.
+
+[Diagram: two triangles side by side, triangle α β γ and triangle δ ε ζ]
+
+## Eucli. ex Camp. Propositio 26.
+
+[Margin]
+26
+[/Margin]
+
+OMnium duorum triangulorum quorum duo anguli unius duobus angulis alterius & uterque se respicienti æquales fuerint, latus quoque unius lateri alterius æquale, fueritq̃ latus
+
+<!-- Catchword: illud -->

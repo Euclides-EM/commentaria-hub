@@ -1,31 +1,37 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVINTVS. -->
 
-<!-- Page number: 130 -->
-
-THEON ex Zamb. Sint tres magnitudines α β γ, & aliæ eisdem æquales numero δ ε ζ, binæ sumptæ & in eadem ratione, sicut quidem α, ad β, sic δ ad ε, sicutq̃ β, ad γ, sic ε, ad ζ. Ex æquali autẽ sit maior α, quàm γ, Dico quod & δ, quàm ζ, maior erit, & si æqualis, æqualis, & si minor, minor. Quoniam enim maior est α, quàm γ, alia autem quædam β, maior autem ad eandem (per 8 tertij) maiorem rationem habet quàm minor, igitur α, ad β, maiorẽ rationem habet quàm γ, ad β, Sed sicut est quidem α, ad β, sic est δ, ad ε, sicutq̃ γ, ad β, rursus sic ζ, ad ε. Et δ, igitur ad ε. maiorem rationem habet quàm ζ, ad ε, (per correlarium 4 quinti. Ad eandem autem rationem habentium, maiorẽ rationem habens, maior est (per 10 quinti.) maior igitur est δ, quàm ζ. Similiter quoque ostendemus, quod si æqualis est α ipsi γ, æqualis erit & δ, ipsi ζ, & si minor, minor. Si fuerint igitur tres magnitudines, & aliæ eisdem æquales numero, binæ sumptæ & in eadem ratione, ex æquali autem prima tertia maior fuerit, & quarta sexta maior erit, & si æqualis, æqualis: & si minor, minor: quod oportebat demonstrare.
-
-[Diagram: nine vertical bars of differing heights with tick marks, labeled below α β γ γ γ δ ε ζ ζ]
-
-## Eucli,ex Camp. Propositio 21
+<!-- Page number: 131 -->
 
 [Margin]
-21
+22
 [/Margin]
 
-SI fuerint quotlibet quantitates aliǽ que secundum earum numerum, quarum quæque duæ ex prioribus quibusque duabus ex posterioribus peruersim comparatæ secundum proportionem earum fuerint, necesse quoque est ut si fuerint in proportionalitate æqualitatis priorum prima ultima maior, & posteriorum prima ultima esse maiorem, si autem minor, & minorem. Si uero æqualis, & æqualem.
+SI fuerint quotlibet quantitates aliæq́ꝫ secundum earum numerum quarum quæque duæ secūdum proportionem duarum ex primis in æqua proportionalitate, proportionales erunt.
 
-CAMPANVS. Secundum antecedens, sint tres quãtitates a b e, sumãturq̃ aliæ tres quæ sunt f c d & sit proportio a ad b, sicut c ad d, & b ad e, sicut f ad c. dico quod si a est maior e, f, erit maior d, & si minor, minor: & si æqualis, æqualis, hoc autem probatur per easdem & eodem modo, quo præcedens, si enim a sit maior e, erit maior p̃portio a ad b quàm e ad b, quare maior c ad, quã e ad b, & ideo maior quàm c ad f, maior igitur f, quàm d, per secundam partem 10 quod est propositum. Quod si a sit minor e, erit tandem minor c ad d quàm ad f, quare per eandẽ partẽ eiusdẽ f, erit minor d. Si autẽ a sit æqualis e, sequitur ut sit proportio c d sicut c ad f, igitur per secundam partem 9 erit f æqualis d, quod est propositum
+CAMPANVS Demonstratis antecedētibus ad æquam proportionalitatem, hic demonstrat eam, & primo, cum quātitates duorum ordinum sunt directe proportionales. Non est autem necesse ut demonstraretur, nisi cum in utroque duorū ordinū sunt tantum tres quantitates. Per hoc enim euidenter sequitur in utroque ordine fuerint quatuor quātitates, & deinteps, & ideo etiam nō oportuit eius antecedens demonstrari, non solū cum in utroque ordine sunt etiā tres quātitates. Sint igitur tres quantitates, a b, c, sumanturq́ꝫ tres aliæ quæ sunt c d f & sit proportio a ad b, sicut c ad d, & b ad e, sicut d ad f, dico quod erit a ad e, sicut c ad f. Sumam enim g ad a, & h ad c, æque multiplicia. Itēque k ad b, & l ad d, æque & rursus m ad e, & n ad f, æque eritq́ꝫ per 4, g ad K, sicut h ad l, & K ad m, sicut l ad n, quare per 20, si g est maior m, erit h maior n, & si minor, minor: & si æqualis, æqualis: igitur per diffinitionem incōtinuæ proportionalitatis, proportio a ad e, est sicut c ad f, qd' est propositum. Potest quinque hoc demōstrari per 15 huius, sumptis g k m, ad a b e, & h l n, ad c d f, æque multiplicibus, erit enim per 15, g ad k, sicut h ad l, & K ad m, sicut l, ad n. Cætera pertracta ut prius. Quod si fuerint quantitates plures tribus In utroque ordine utpote quatuor, additis p & q, ita quod sit e ad p, sicut f ad q, erit iterum a ad p, sicut c ad q, erit enim a ad e, sicut ad f: hoc enim demonstratum est, sublatis igitur b & d, erunt tres quantitates a e p, & aliæ tres c f q, ut proponitur, quare a ad p, sicut c ad q. Sicutq́ꝫ demonstratur de quatuor per tres, sublato uno medio, eodem modo demonstrabis de quinque per quatuor, sublatis duobus medijs, & de sex per quinque, sublatis tribus, & sic de cæteris.
 
-[Diagram: three groups of paired horizontal segments with tick marks, labeled a and f, b and c, e and d in each group]
+[Diagram: ten horizontal lines with tick marks: six long lines labelled g, h, K, l, m, n; below them shorter paired lines labelled a and c, b and d, e and f, p and q]
 
-## Eucli.ex amb. Theorema 21 Propositio 21
+## Eucli. ex Zamb. Theorema 22. Propositio 22
 
 [Margin]
-21
+22
 [/Margin]
 
-Si fuerint tres magnitudines & aliæ eisdem æquales uumero, binæ sumptæ & in eadem ratione. fuerit autem perturbata earũ proportio, ex æquali uero prima tertia maior fuerit, & quarta sexta maior erit & si æqualis, æqualis: & si minor, minor.
+Si fuerint quælibet magnitudines & aliæ eisdem æquales numero binæ sumptæ in eadem ratione, etiam ex æquali in eadem ratione erunt,
 
-THEON ex Zamberto. Sint tres magnitudines α β γ, & aliæ eisdem numero æquales δ ε ζ, binæ snmptæ, & in eadẽ ratione, sit autẽ earũ proportio perturbata sicut quidẽ α. ad β, sic ε, ad ζ, sicutq̃ β, ad γ, sic δ, ad ε, ex æquali autẽ, α, quàm γ, sit maior. dico quod & δ, quàm ζ, maior erit, & si æqualis, equalis: & si minor, minor. Quoniam enim maior est α, quàm γ, & alia quædam β, igitur (per 8 quinti,) α, ad β, maiorem habet rationem quàm γ, ad ε Sed sicut quidem α, ad β, sic ε, ad ζ, sicutque γ, ad β, rursus sic ε, ad δ, & ε, igitur ad ζ, maiorem rationem habet, quàm ε, ad δ, (per correlarium quartæ quinti.) Ad quã autem eadem maiorem rationẽ habet illa: minor igitur est ζ, quàm δ, maior igitur est δ, quàm ζ. Similiter quoque ostendemus, quod & si æqualis fuerit α, ipsi γ, æqualis erit & δ, ipsi ζ. & si minor, minor. Si fuerint igitur tres magnitudines & aliæ eisdem æquales numero binæ sumptæ & in eadem ratione, fueritque perturbata earum proportio, ex æquali autem prima tertia maior fuerit, & quarta sexta maior erit, & si æqualis, æqualis, & si minor, minor: quod demonstrare oportebat.
+THEON ex Zamb. Sint quælibet magnitudines α β γ, & aliæ eisdem æquales numero δ ε ζ. binæ sumptæ in eadem ratione, sicut quidem α, ad β, sic δ, ad ε, sicutq́ꝫ β ad γ, sib ε ad ζ. Dico quod etiam ex æquali in eadem ratione erunt, sicut α, ad γ, sic δ, ad ζ. Sumantur quidem ipsarum α δ, æque multiplices η θ, ipsarū autē β ε, aliæ quæuis æque multiplices κ λ, & insuper ipsarū γ ζ, aliæ quæuis multiplices μ ν. Et quoniam est sicut α, ad β, sic δ, ad ε, & sumptæ sunt ipsarum α δ, æque multiplices η θ, ipsarum autem β ε, aliæ quæuis æque multiplices κ λ, est igitur (per 4 quinti) sicut η, ad κ, sic θ ad λ, & per hoc sicut κ, ad μ, sic λ, ad ν. Quoniam igitur tres magnitudines sunt η κ μ, & aliæ eisdem æquales numero θ λ ν, binæ sumptæ & in eadem ratione, ex æquali igitur (per 20 quinti) si excedit ν, ipsam μ, excedit & θ, ipsam η, & si æqualis, æqualis: & si minor, minor. Sunt autem η θ, ipsarum α δ, æque multiplices, & μ ν, ipsarum γ ζ, aliæ quæuis æque multiplices: est igitur (per 6 diffinitionem quinti) sicut α, ad γ, sic δ, ad ζ. Si fuerint igitur quælibet magnitudines & aliæ æquales numero binæ sumptæ in eadem ratione etiam ex æquali in eadem erunt ratione, quod demonstrasse oportuit.
 
-[Diagram: ten vertical bars of differing heights with tick marks, labeled below α β γ γ γ δ δ δ ε ζ]
+[Diagram: twelve upright lines of varying heights with tick marks, labelled below η κ μ α β δ γ ε ζ θ λ ν]
+
+## Eucli. ex Camp. Propositio 23
+
+[Margin]
+23
+[/Margin]
+
+SI fuerint quotlibet quantitates aliæq́ꝫ secundum earum numerum, quarum ex prioribus quæque duæ secundum proportionem duarū ex prioribus indirecte proportionatæ, in æqua proportionalitate proportionales erunt.
+
+<!-- Signature: [illegible] -->
+
+<!-- Catchword: Campa -->

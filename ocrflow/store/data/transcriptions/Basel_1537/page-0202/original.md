@@ -1,63 +1,81 @@
-<!-- Running title: LIBER SEPTIMVS. -->
+<!-- Page number: 192 -->
 
-<!-- Page number: 191 -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-## Euclides ex Campano. — Propositio 29
-
-[Margin]
-29
-[/Margin]
-
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duo numeri contra se primi, qui ex ambobus coaceruatur, ad utrunque eorum erit primus. Si uero ex ambobus coaceruatus ad utrunque eorum fuerit primus, duo quoq̃ numeri adinuicem erunt primi.
-
-CAMPANVS. Sint a & b, contra se primi, dico q̃ ex eis compositus a b, ad utrunq̃ eorum erit primus, & econuerso: nam si d numerat totum a b, & alterum eorum, numerabit per cōmunem scientiam & reliquū: quare non erunt contra se primi, sed hoc positum fuerat, patet ergo primum. Secūdum sic. Sit a b primus ad utrunq̃ suorum componentiū qui sunt a & b, dico quod a & b, sunt contra se primi. Posito enim quod d numeret utrunq̃ duorum numerorum a & b, sequitur per cōmunem scientiam quod etiam numeret a b ex eis compositum, quare ad neutrum duorum numerorum a & b, erit a b primus, sed positum erat quod esset ad utrunque. accidit igitur impossibile.
-
-[Diagram: dotted number lines beside the text: a··· b···· / d··]
-
-CAMPANI annotatio. Eodem quoq̃ modo si coaceruatus ex duobus, primus fuerit ad alterū, primus quoq̃ erit ad reliquum: ideoq̃ & coaceruati inter se. Sit enim compositus ex a, b, primus ad a, dico quod erit etiam primus ad b, alioqui, numeret eos d, qui per conceptionē numerabit & a, cum numeret totum & detractum: hoc autem inconueniens, erat enim compositus ex a & b, primus ad a.
-
-## Eucli. ex Zamb. — Theorema 28 — Propositio 30
+## Eucli. ex Camp. — Propositio 32
 
 [Margin]
-30
-[/Margin]
-
-## Si bini numeri, primi adinuicem fuerint, & uterque simul ad alterum ipsorum primus erit. Et si uterq̃ simul ad unum aliquem eorum primus fuerit, & qui in principio numeri, primi adinuicem erunt.
-
-THEON ex Zamb. Componantur enim bini numeri primi adinuicem, α β & β γ. Dico quod & uterque α β γ, simul ad alterum ipsorum α β, β γ, primus est. Si autem γ α & α β primi adinuicem non sunt, metietur eos aliquis numerus, metiatur, & esto δ. Quoniam igitur δ ipsos γ α & α β metitur, & reliquum igitur β γ metietur. Metitur autem & β α. Igitur δ ipsos α β & β γ metitur, primos existentes adinuicem, quod est impossibile (per 13 diffinitionem septimi:) ipsos igitur γ α & α β numeros, numerus aliquis non metietur. Igitur γ α & α β, primi adinuicem sunt. Id propterea iam & ipsi γ α & β γ, primi sunt adinuicem. Igitur α γ, ad utrunq̃ ipsorum α β & β γ primus est. Sint rursus γ α & α β, primi adinuicem. Dico quod ipsi α β & β γ primi adinuicem sunt. Si enim ipsi α β, β γ, primi non sunt adinuicem, metietur ipsos α β & β γ, numerus aliquis, metiatur, & esto δ, & quoniam δ utrunq̃ ipsorum α β & β γ metitur: & totum igitur γ α, metietur: metietur autem & ipsum α β. Igitur δ, ipsos γ α, α β primos adinuicem existentes metietur, quod (per 13 diffinitionem septimi) est impossibile. Ipsos igitur α β & β γ numeros, numerus aliquis non metietur. Ipsi igitur α β & β γ, primi adinuicem sunt. Quod oportuit demonstrasse.
-
-[Diagram: dotted number line with three point labels: α········β·····γ, and below it: δ····]
-
-## Eucli. ex Camp. — Propositio 30
-
-[Margin]
-30
+Zamb. 31
 [/Margin]
 
 [Margin]
-Zamb. 33
+32
 [/Margin]
 
-## {dropcap:O|lines=?|style=decorated|decoration="a face"}Mnis numerus compositus, ab alio primo numeratur,
+## Omnis numerus primus, ad omnem quem non numerat est primus.
 
-CAMPANVS. Sit a quilibet numerus compositus. Dico quod aliquis primus numerat ipsum, quia enim est cōpositus, numerabitur ab aliquo numero qui sit b, qui si fuerit primus, uerum erit quod dicitur: si autem compositus, sit c qui numerat eum, qui etiam per communem scientiam numerabit a: si ergo ipse fuerit primus, constat quod dicitur. At si compositus, necessario numerabit eum alius qui sit d, qui etiam per communem scientiam numerabit a, de quo ratiocinare ut prius. Quia ergo quoties occurrit compositus necesse est minorem assumere, qui compositū occurrentem numeret, sequitur ut tandem deueniatur ad aliquem primum, alioquin accidet impossibile & contrarium petitioni, numerum in infinitum decrescere.
+CAMPANVS. Sit a numerus primus non numerans b, dico quod a & b, sunt contra se primi: si enim c numerat eos, non est uerum quod a sit primus.
 
-[Diagram: dotted number lines beside the text: a························ / b············ / c······ / d···]
+[Diagram: dotted number lines beside the text: a····· b········ / c··]
 
-## Eucli. ex Camp. — Propositio 31
+## Eucli. ex Camp. — Propositio 33
+
+[Margin]
+Zamb. 32
+[/Margin]
+
+[Margin]
+33
+[/Margin]
+
+## Si numerus ex duobus productus, ab aliquo primo numeretur, necesse est eundem primum alterum illorum duorum numerate.
+
+CAMPANVS. Sit c productus ex a in b, & sit d numerus primus qui ponatur numerare c: dico quod d numerat a uel b, numeret enim c, secundū e: si ergo non numerat a, erit primus ad ipsum per præmissam, & ideo erunt secundum suam proportionem minimi per 23, & quia a ad d, sicut e ad b, per secundam partem 20, sequitur ut d numeret b per uigesimamprimam, quod est propositum.
+
+[Diagram: dotted number lines beside the text: a···· b······ / c························ / d··· e········]
+
+CORRELARIVM. Vnde manifestū est, q̃ si aliquis numerus numerat productum ex duobus, uel si eidem fuerit cōmensurabilis, cōmensurabilis quoq̃ erit alteri eorū.
+
+Quatuor præcedentes ex Campano Euclidis propositiones, quatuor sequentibus ex Zamberto propositionibus hoc præpostero ordine respondent.
+
+[Margin]
+Campanus — 30 31 32 33 / 33 34 31 32 — Zambertus
+[/Margin]
+
+## Eucli.ex Zamb. — Theorema 29 — Propositio 31
 
 [Margin]
 31
 [/Margin]
 
+## Omnis primus numerus, ad omnem numerum quem non metitur primus est.
+
+THEON ex Zamb. Sit primus numerus α, & ipsum β non metiatur. Dico quod ipsi β, α, primi adinuicem sunt. Si autem ipsi α, β, non sunt adinuicem primi, aliquis numerus eos metietur, metiatur γ, ipse γ, non est unitas. Quoniam igitur γ ipsum β metitur, & α non metitur ipsum β, igitur γ ipsi α non est idem. Et quoniam γ ipsos α,β, metitur, & α igitur metitur primum existentem, non existens ei idem, quod est impossibile (per 13 diffinitionē septimi). Ipsos igitur α,β, numerus aliquis non metietur. Igitur ipsi α,β, primi adinuicem sunt, quod oportuit demonstrasse.
+
+[Diagram: dotted number lines beside the text: α······· β·········· / γ·····]
+
+## Eucli. ex Zamb. — Theorema 30 — Propositio 23{printer-error-correction:32}
+
 [Margin]
-Zamb. 34
+32
 [/Margin]
 
-## Omnis numerus, aut est primus, aut à primo numeratur.
+## Si bini numeri multiplicantes se adinuicem fecerint aliquem, factum autem ex eis metitur aliquis primus numerus, & unum eorum qui in principio metietur.
 
-CAMPANVS. Sit a quilibet numerus, dico ipsum esse primum, uel numerari a primo, quia si non est primus, erit compositus, quilibet autem talis, ab aliquo primo numeratur per præmissam: a igitur, uel primus est uel a primo numeratur, quod proponitur,
+THEON ex Zamb. Bini enim numeri α, β, multiplicantes se adinuicem, ipsum efficiant γ, ipsum autem γ, metiatur aliquis numerus primus δ. Dico quod δ, unum ipsorū α,β, metitur. Ipsum α non metiatur, estq̃ primus δ. Igitur α,δ, primi adinuicem sunt (per præcedentem) Et quoties δ ipsum γ metitur, tot unitates sint in ε. Quoniā igitur δ ipsum γ metitur per eas quæ in ε sunt unitates: igitur δ ipsum ε multiplicans, ipsum γ efficit. Atqui & α ipsum β multiplicās, ipsum efficit γ: æqualis igitur est qui ex δ,ε, ei qui ex α,β. Est igitur (per 19 septimi (sicut α ad δ, sic β ad ε. Ipsi autem δ,α, primi sunt. primi autem & minimi: minimi uero metiuntur eandem rationem habentes æqualiter, maior maiorem, & minor minorem (per 21 septimi) hoc est antecedens antecedentem, sequens sequentem. Igitur δ ipsum β metitur. Similiter quoq̃ ostendemus quod & si δ ipsum β non metiatur, metietur & α. Igitur δ, unum ipsorum α,β metitur. Quod erat demonstrandum.
 
-[Diagram: dotted number lines beside the text: a······ / a·········· / ···]
+[Diagram: dotted number lines beside the text: ε····· / δ··· / γ············ / β······ / α··]
 
-<!-- Catchword: Eucli. ex -->
+## Eucli.ex Zamb. — Theorema 31 — Propositio 33
+
+[Margin]
+33
+[/Margin]
+
+## Omnis compositus numerus, sub alicuius primi numeri dimensionem cadit.
+
+THEON ex Zamb. Sit compositus numerus α. Dico quod α sub alicuius primi numeri dimensionem cadit. Quoniam enim α compositus est, metietur cum{printer-error-correction:eum} aliquis numerus (per 14 diffinitionem septimi) metiatur, & esto β, & si β primus est, manifestū iam est quod quærimus (per eandem.) Si autem compositus, metietur eum aliquis numerus (per eandem) metiatur, & esto γ. Et quoniam γ ipsum β metitur. & β ipsum α metitur, & γ igitur ipsum α metitur, & si quidem γ primus est, manifestum iam est id quod quæritur. Si autem compositus, eum aliquis numerus metietur: tali uero facta consideratione, sumetur aliquis numerus primut{printer-error-correction:primus} qui metietur præcedentem, qui & ipsum α metietur. Si autem non sumetur, metientur ipsum α numerū infiniti numeri, quorū alter altero minor est, quod est impossibile in numeris. Sumetur igitur aliquis primus numerus qui metietur
+
+[Diagram: dotted number lines beside the text: γ··· / β········· / α···························]
+
+<!-- Catchword: præcedentem, -->

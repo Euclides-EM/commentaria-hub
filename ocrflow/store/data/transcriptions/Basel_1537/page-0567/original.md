@@ -1,47 +1,29 @@
-<!-- Page number: 554 -->
+<!-- Running title: DATA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 557 -->
 
-lineæ aut positio, aut magnitudo. Intercidet & b signum, nō intercidit autem. Datur igitur a b, recta linea positione & magnitudine.
+### Aliter.
 
-[Diagram: horizontal line with endpoints a and b]
+In parallelos siquidem positione datas a b, c d, à dato signo e, recta linea agatur f e g. Dico quod ipsius g e ad e f ratio data est: excitetur siquidem ab e signo per duodecimam primi elementorum in ipsam c d, perpendicularis e h, & extendatur in k. Quoniam à dato signo e in positione datam rectam lineam c d, recta lineā acta est efficiens angulum qui sub e h g, positione igitur est ipse h e a, positione autem & utraq̃ ipsarum a b, c d. Datum igitur est utrunque ipsorum h k, signorum, est autem & e datum. Data igitur est utraque ipsarum h e, e ad k. Ratio igitur ipsius h e ad e k data: sicut autem h e, ad e k, sic g e ad e f. Ratio igitur & ipsius g e ad e f data est.
 
-## Theorema 27 Propositio 27
+[Diagram: two horizontal parallels, a f k b above and c h g d below, crossed at e by transversal f e g and perpendicular k e h]
 
-SI rectæ lineæ positione & magnitudine datæ unum extremum datum fuerit, & alterum dabitur.
+## Theorema 35 Propositio 35
 
-Rectæ siquidem lineæ a b positione & magnitudine datæ unum extremum a datum sit. Dico quod & b datum est. Si enim manente a signo intercidit signum b, incidit igitur & ipsius b rectæ lineæ aut positio aut magnitudo, non intercidit autem. Datum igitur est b signum, & centro a, interuallo uero a b, per tertiū postulatum circunferentia describatur c b d, positione igitur est ipsa c b d, positiōe autem & ipsa a b, recta linea. Datum igitur est & b signum.
+SI à dato signo in positione datā rectam lineam, recta linea acta fuerit & secta fuerit in datam rationem, & per sectionem ad positionem datam rectā lineam recta linea acta fuerit, datur acta positione.
 
-[Diagram: circular arc c b d about centre a, with horizontal radius a b; c above, d below]
+A dato siquidem signo a in positione datam rectam lineam c b, recta linea agatur à d seceturq̃ per præcedentem in datam rationem ipsius d e, e a. Exciteturq̃ per trigesimamprimā primi elemen. per e signum ipsi b c parallelos f e g. Dico quod positione est ipsa f e g. Excitetur enim per duodecimam primi elemētorum ab ipso a in ipsam b c, perpendicularis a h, quoniā à dato signo a in positiōe datam rectam lineam b c, recta excitatur linea a h, datū efficiens angulum qui sub a h d, positione igitur est per trigesimamprimam propositionē ipsa a h, positione autem & b c. Datum igitur h signum. Est autem & a datum. Data igitur est per uigesimamsextam propositionem & a h. Et quōniam ratio ipsius d e ad e a, data est: sicut autem d e ad e a, sic h k ad k a. Ratio igitur & ipsius h k ad k a, data est. Componendo igitur per decimamoctauā quinti elementorū: ratio ipsius h a ad a k, data est, data autem ipsa a h, data igitur & a k. Sed & positione, estq̃ a datum, datum igitur & k. Quoniā igitur per datum signum k, ad positione datam rectam lineam b c, recta linea excitatur f g, positione igitur est per 28 propositionem ipsa & f g.
 
-### Scholium.
+[Diagram: point a above; horizontal line g k e f through k and e; base line c h d b below; lines drawn from a through e to d and from a through k to h]
 
-Siquidē enim b signū aut introrsum aut exterius intercidit, igitur recta linea magnitudine data non est. si autem intercidit, aut supra aut infra nec positione data est igitur.
+## Theorema 36 Propositio 36
 
-## Theorema 28 Propositio 28
+SI à dato signo in positione datam rectam lineam recta linea acta fuerit, proiectaque fuerit eidem aliqua recta linea rationem habens ad eandem datam, ac per proiectæ finem ad positione datam rectam lineā linea acta fuerit, datur acta positione.
 
-SI per datum signum ad positione datam rectam lineam linea acta fuerit datur quæ acta est positione.
+A dato enim signo a in positione datam rectam lineam b c, recta agatur linea a d, & apponatur ipsi a d ipsa a e, rationem habens ad a d datam, ac per e, per 31 primi elemen. ipsi b c parallelus excitetur f k. Dico quod positione est ipsa f k, excitetur per duodecimam primi elementorum ab ipso a in b c, perpēdicularis a h, extendaturq̃ in g. Quoniā à dato signo a in positione datam rectam lineam b c, recta excitata est linea a h, datum efficiens angulum a h c, positione igitur datur per 31 propositionem h a g, positione autem & b c. Datum igitur est h signum, est autem & a datum. Data igitur est ipsa a h per 26 propositionem. Et quoniam ratio ipsius d a ad a e, data est, sicut autem d a, e, sic h a ad a g. Ratio igitur & ipsius h a ad a g, data est, data autem h a. Data igitur & a g, sed & positione, estq̃ a datum, datum igitur & g. Quoniam igitur per datum signum g ad positiōe datā rectam lineam b c, recta excitatur linea f g k, positione igitur est per 28 propositionem ipsa f g k.
 
-Per siquidem datum signum a ad positione datam rectam lineam b c, recta linea agatur d a e. Dico quod ipsa d a e, positione datur. si autem non manente signo a intercidit ipsius d a e, positio permanente b c parallelo. Intercidat, & esto f a g, parallelus igitur est c b ipsi f a g. sed b c ipsi d a e, est parallelos, & d a e igitur ipsi f a g parallelus est: Sed est coincidens quod est absurdum. Ipsius igitur d a e, positio non intercidit, positione igitur est ipsa d a e.
+[Diagram: line b c and parallel line f k; point a between them; transversal a d and extension to e; perpendicular h a extended to g; labels c, k above, e, b, a, g in the middle, d, f, b below]
 
-[Diagram: two straight lines crossing at a; e upper left, f upper right, g lower left, d lower right; line c b below at right]
+<!-- Signature: Aa 3 -->
 
-## Theorema 29 Propositio 29
-
-SI additione data recta linea fuerit, ad signumque in ea datum recta linea acta fuerit, datum efficiens angulum, acta positione datur.
-
-Additione siquidē recta linea a b, & ad signū ad eam datum c, recta excitetur linea c d angulum datum efficiens eum qui sub b c d. Dico quod ipsa c d, est positione data. Si autem non manēte signo c intercidit ipsius c d positio seruans ipsius b c d, anguli magnitudinem. Intercidat & sit c e, æquus igitur est angulus qui sub d c b, ei qui sub e c b. minor maiori quod est absurdum. Nō intercidit ergo ipsius d c, positio, positione igitur est ipsa c d.
-
-[Diagram: horizontal line b c a with two rays c d and c e ascending from c; d and e above]
-
-## Theorema 30 Propositio 30
-
-SI à dato signo in positione datam rectam lineam, linea acta fuerit datum efficiens angulum acta positione datur.
-
-[Margin]
-f
-[/Margin]
-
-A dato enim signo a in positione datam rectam lineam b c, recta agatur linea a d, datū efficiens angulum sub a d c. Dico quod positione est ipsa a d. Si autem non manente a signo intercidit ipsius a d, positio, seruās ipsius a d c anguli magnitudinem. intercidat & esto a f. Aequus igitur est qui sub a d c angulus ei qui sub a f c maior minori, quod est alienū. Non intercidit igitur ipsius a d, positio, positione igitur est ipsa a d.
-
-[Diagram: point a above; line from a down to base line through c, d, f, b]
+<!-- Catchword: Theore -->

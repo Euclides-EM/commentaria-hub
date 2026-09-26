@@ -1,29 +1,37 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER SEPTIMVS. -->
 
-<!-- Page number: 178 -->
+<!-- Page number: 179 -->
 
-cissim quæ partes est primus tertij uel pars, eædem partes erit & secundus quarti uel eadem pars.
+thesin & per conuersionem diffinitionls, c tota pars aut partes d, quota uel quotæ est a, b, per 7 igitur uel 8, erit e tota pars aut partes f, quota uel quotæ est a, b, per diffinitionē igitur erit proportio una, quod est propositum. Quod si a sit maior b, erit per primā partē præmissæ quota pars aut p̄tes b, a, tota uel totæ d, c, quare per 7 uel 8, tota uel totæ erit f, e, itaq̃ per secundā partem præmissæ erit e ad f, sicut a ad b, quare constat propositū.
 
-THEON ex Zamb. Numerus enim αβ, numeri γ partes esto, & alter δε, alterius ζ eædem esto partes, sit autem αβ, ipso γδ minor. Dico quod & uicißim quales partes est αβ ipsius δε uel pars, eædem partes est & γ ipsius ζ uel eadem pars. Quoniam enim quales partes est αβ ipsius γ, eædem partes est & δε ipsius ζ, quot igitur sunt in ipso αβ partes ipsius γ, tot & in δε sunt partes ipsius ζ. Diuidatur quidem αβ in ipsius γ partes (æquales,) hoc est αη & ηβ. Itidemq̃ δε in ipsius ζ partes (æquales) hoc est δθ & θε, erit iam æqualis multitudo ipsorū αη & ηβ, multitudini ipsorum δθ & θε. Et quoniam qualis pars est αη ipsius γ eadem pars est & δθ ipsius ζ, uicißim quoq̃ (per præcedentē) qualis pars est αη ipsius δθ uel partes, eadē pars est & γ ipsius ζ uel eædē partes. Id propterea qualis pars est ηβ ipsius θε uel partes, talis pars est & γ ipsius ζ uel partes. Quare qualis pars est αη ipsius δθ uel partes, eadem pars est & αβ ipsius δε uel eædē partes (per diffinitionē.) Sed (per 6 septimi) qualis pars est αη ipsius δθ uel partes, talis pars ostensus est & γ ipsius ζ uel eædem partes, & (per 11 quinti) quales igitur partes est & αβ ipsius δε uel pars, eædem partes est & γ ipsius ζ uel eadem pars, quod oportebat demonstrare.
+[Diagram: dot-rows: b; d (3 dots) f (3 dots); a; c (4 dots) e (4 dots)]
 
-[Diagram: dot-rows: ζ (15 dots); δ (6 dots) θ (6 dots) ε; γ (7 dots); α (3 dots) η (2 dots) β]
+CAMPANI annotatio. Cedunt autem huic, 7 & 8, hæc enim sola quod ambæ illæ, continet. Volunt autem quidam secundam partem huius probare per 19 quinti, sed si hoc intenderet Euclides, cū ista proponat particulariter quod illa uniuersaliter, uane (illa demōstrata in quinto) proposuisset hāc hic in septimo, & quia iterū non demonstrant eam simpliciter per 19 quinti. At uero nec modū demonstrationis illius possunt affirmare ad demonstrationem huius, cum illa demonstretur in quantitatibus in genere per proportionalitatē permutatā quæ infra demonstratur in numeris. Existimo autē, & rationabiliter conuinci uidetur Euclidem (quem uultū demonstratoris arithmetici, gratia decimi in quo sine numerorū aliqua præcognitione transire nō poterat constat assumere) idcirco plurima eorū quæ in quinto de quantitatibus in genere demonstrauit, hic repetere demōstranda de numeris, quoniā per alia principia propria uidelicet numerorū, quæ magis nota sunt intellectui q̃ ea per quæ processit in quinto, ipsa demonstrare intendit, principia enim quinti propter malitiā quantitatū incōmunicantiū difficilia sunt: principia uero numerorū, magis ultro se intellectui applicant faciliusq̃ quàm illa. Egent enim illa intellectui magis disposito.
 
-Hæc undecima, in Zamberto nullam habet respondentem.
+Hæc sequens undecima Euclidis ex Zamberto propositio, duodecimæ præcedenti ex Campano respondet.
 
-## Eucli. ex Camp. Propositio 11
+## Eucli. ex Zamb. Theorema 9 Propositio 11
 
-**11** {dropcap:S|lines=?|style=decorated|decoration="foliate decoration"}I fuerint quatuor numeri proportionales, quorū primus secundo & tertius qnarto sit maior, erit secundus tota pars aut partes primi, quota uel quotæ quartus tertij. Quod si secundus fuerit tota pars aut partes primi quota uel quotæ quartus tertij, quatuor numeros proportionales esse conueniet.
+**11** Si fuerit sicut totus ad totum sic ablatus ad ablatum, & reliquus ad reliquum erit sicut totus ad totum.
 
-CAMPANVS. Sit proportio a ad b, sicut c ad d, sintq̃ a & c maiores. Dico ꝙ quota pars aut partes est b, a, tota uel totæ est d, c, & econuerso. Erit enim per conuersionē diffinitionis similium proportionū, ut quoties b in a, toties sit d in c, & si qua pars aut partes b superfluunt in a, tota pars aut partes d superfluant in c, si itaque contineatur b in a sine superfluitate partis, quia toties sine superfluitate continetur d in c, erit per diffinitionē similium partium quota pars b a, tot ad c. Quod si quotieslibet cōtinetur b a cum superfluitate partis toties continetur d in c cum superfluitate similis partis, distinctio a secundū b ut superfluitate, atq̃ e secundū d ut superfluat f, erit tota pars e, b quota f, d. At quia toties continetur b in differētia a ad e, quoties d in differentia c ad f, erit per cōmunem scientiam toties e in a quoties f in c: cum igitur a & b habeant e partem cōmunem, similiter c & d, f, sit itaq̃ e in b quoties f in d, itemq̃ e in a quoties f in c, erit per 16 diffinitionē, b tot & totæ partes a, quot & quotæ d c. Si autem quotieslibet b cōtinetur in a cum superfluitate quotlibet partiū, toties continetur d in c cum superfluitate totidem & similiū partium, distinctio a secūdum b ut superfluat e, similiter c secūdum d ut superfluat f, erit e tot & totæ partes b, quot & quotæ f, d. Sumpta itaq̃ una ex ipsis, argumentandū ut prius, sicq̃ patet primū. Secūdum sic. Sit b, a, tota pars aut partes, quota uel quotæ d, c, dico ꝙ erit proportio a ad b, sicut c ad d: si enim est tota pars, constat propositū. Si autē totæ partes, diuisis eis secundū partes illas, patebit toties esse b in a, quoties d in c, & totam partem aut partes b, superfluere in a, quota an quotæ d superfluunt in c, per diffinitionē itaq̃ est proportio a ad b, sicut c ad d, sicq̃ liquet totum.
+THEON ex Zamb. Esto sicut totus αβ ad totum γδ, sic ablatus αε ad ablatum γζ. Dico quod & reliquus εβ ad reliquū ζδ, est sicut totus αβ ad totum γδ. Quoniam enim est sicut αβ ad γδ sic αε ad γζ, qualis igitur pars est αβ ipsius γδ uel partes, eadem pars est & αε ipsius γζ uel eædem partes: & reliquus igitur εβ (per 5 septimi, reliqui ζδ eadem pars est uel partes, quæ αβ ipsius γδ: est igitur (per 11 quinti) sicut εβ ad ζδ, sic αβ ad γδ. Quod oportebat demonstrare.
 
-[Diagram: three dot-diagram groups: (1) a (6 dots) with c (8 dots), b (3 dots) with d (4 dots); (2) headed a and c: a row of 4 dots, e, 2 dots beside a row of 8 dots, f, 4 dots; below them b and d with rows of 4 and 8 dots; (3) headed a and c: a row of 6 dots, e, 4 dots beside a row of 3 dots, f, 2 dots; below them b and d with rows of 6 and 2 dots]
+[Diagram: two vertical columns of dots in the right margin, labelled d and b with f beside the first and e beside the second, and a, c at the foot]
 
-## Eucli. ex Camp. Propoitio 12
+## Eucli. ex Camp. Propositio 13
 
-**12** {dropcap:S|lines=?|style=decorated|decoration="dragon design"}I à duobus numeris secundum suas proportiones duo numeri detrahantur, erit proportio reliqui ad reliquum tanquam proportio totius ad totum.
+**13** {dropcap:S|lines=?|style=decorated|decoration="foliate decoration"}I fuerint quotlibet numeri proportionales, quantus erit unus antecedens ad suum consequentem, tanti erunt omnes antecedentes pariter accepti ad omnes consequentes pariter acceptos.
 
-CAMPANVS. Quod proposuit Euclides in 19 quinti de quantitatibus in genere, proponit hic de numeris. Vt si sit proportio totius a ad totum b sicut c detracti ab a ad d detractū a b, erit e residui a ad f residuū b, sicut a ad b. Si enim a sit minor b, erit per præsentem hypo
+CAMPANVS. Quod proponit Euclides per 13 quinti de quantitatibus in genere, proponit per hanc de numeris. Vt si sint a, b, & c, d, & e, f proportionales, dico ꝙ quæ est proportio a ad b ea est quæ a, c, e. pariter acceptorū ad b, d, f pariter acceptos. Si enim a, c, e sint minores b, d, f, erit per conuersionē diffinitionis quota pars aut partes a b, tota uel totæ c, d, & e, f: per 5 ergo uel per 6 quoties oportuerit repetitas, erit quota pars uel partes a, b, tota uel totæ a, c, e pariter accepti b, d, f pariter acceptorū, quare per diffinitionē, proportio una. Si autem a, c, e, sunt maiores b, d, f, erit per per primam partem 11, quota pars uel partes b, a, tota uel totæ d, c & f, e, per 5 ergo uel 6 quoties oportuerit repetitas, erit quota pars uel partes b, a, tota uel totæ b, d, f, pariter accepti a, c, e pariter acceptorū: itaq̃ per secūdam partē 11, proportio a ad b sicut a, c, e pariter acceptorū, ad b, d, f pariter acceptos, quod est propositū.
 
-[Diagram: dot-rows: b; d (3 dots) f (5 dots); a; c (3 dots) e (3 dots)]
+[Diagram: two dot-diagram groups: (1) a (4 dots), c (3 dots), e (2 dots) over b (8 dots), b (6 dots), f (4 dots); (2) a (8 dots), c (6 dots), d (4 dots) over b (4 dots), d (3 dots), f (3 dots)]
 
-<!-- Catchword: thesin -->
+## Eucli. ex Zamb. Theorema 10 Propositio 12
+
+**12** Si fuerint quotcunq̃ numeri proportionales, erit sicut unus antecedentium ad unum sequentiū, sic omnes antecedentes ad omnes consequētes.
+
+THEON ex Zamb. Sint quotcunq̃ numeri proportionales α, β, γ, δ, sicut α ad β sic γ ad δ. Dico quod est sicut α ad β, sic sunt α & γ ad β & δ. Quoniam enim (per hypothesin) est sicut α ad β sic γ ad δ, qualis igitur pars est α ipsius β uel partes eadem pars est & γ ipsius δ uel partes, & (per 5 septimi) uterq̃ igitur α, γ, utriusq̃ β, δ, eadem pars est uel eædem partes, quæ α ipsius β: est igitur (per 11 quinti) sicut α ad β, sic α γ ad β δ, quod erat demonstrandum.
+
+[Diagram: dot-rows in the right margin: d (2 dots), c (3 dots), b (6 dots), a (9 dots)]
+
+<!-- Catchword: Eucli. -->

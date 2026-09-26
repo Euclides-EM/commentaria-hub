@@ -1,51 +1,33 @@
-<!-- Running title: LIBER DECIMVS. -->
+<!-- Running title: GEO. ELEMEN. EVCLIDIS -->
 
-<!-- Page number: 343 -->
+<!-- Page number: 344 -->
 
-[Diagram: five horizontal lines — the first with the letters α, β and ζ; the second with the letters γ, ε, δ; the third labelled η; the fourth labelled θ; the fifth with the letters κ, λ, μ]
+retur ζ η,latitudinē efficiēs ζ θ.Quoniā igitur cōmēsurabilis est α ipsi β.cōmēsurabile igitur est id quod ex α ei quod ex β.Sed ei quidē quod ex α,æquū est γ ε,ei uero quod ex β,æquū est ζ η.Igitur γ ε,ipsi ζ η,est cōmēsurabile.Cōmēsurabilis igitur est γ ζ,ipsi ζ θ,longitudine.Quinta autem apotome est γ ζ. Apotome igitur quinta est, & ζ θ. Rationalis autē ζ ε,Si uero areola cōprehēdatur sub rationali & apotome quinta,quæ areolā potest cū rationali mediū totum efficiēs est(per 95 decimi.)Potest aūt ipsum ζ η,ipsa β.Igitur β.cū rationali mediū totū efficiēs est. Quod erat ostendendum.
 
-THEON ex Zāb. Cōprehēdatur areola sub apotome α β,& ea quæ ex binis nominibus γ δ,cuius maius nomē γ ε,sintq̃ eius quæ ex binis noībus noīa γ ε,ε δ.(per 113 decimi)cōmēsurabilia ipsius apotomes noībus α ζ,ζ β,& in eadē rōne.Sitq̃ potēs id quod sub α β,γ δ,ipsa η.Dico quod ipsa η rōnalis est.Exponatur enim rōnalis θ,& ei quod ex θ,æquū ad ipsam γ δ cōparetur,latitudinē efficiens κ λ,igitur ipsa κ λ,apotome est (per 113 decimi)cuius noīa sint κ μ,μ λ,cōmēsurabilia noībus eius quæ ex binis noībus hoc est ipsis γ ε,ε δ.& in eadē rōne.Iā & ipsæ γ ε,ε δ(per 12 decimi)cōmēsurabiles sunt ipsis α ζ,ζ β,& in eadē rōne,est igitur sicut α ζ,ad ζ β.sic est κ μ,ad μ λ,uicissim igitur (per 16 quinti)est sicut α ζ,ad κ μ,sic est β ζ ad λ μ,& reliqua igitur α β,(per 12 quinti)ad reliquā κ λ est,sicut α ζ,ad κ μ. Cōmensurabilis aūt est α ζ,ipsi κ μ,cōmēsurabilis igitur est(per 9 decimi) & α β ipsi κ λ.Estq̃ (per cōstructionē)sicut α β ad κ λ,sic est quod sub γ δ, α β,ad id quod sub γ δ,κ λ.Cōmēsurabile igitur est & quod sub γ δ,α β,ei quod sub γ δ,κ λ.Aequū autē est id quod sub γ δ,κ λ,ei quod ex θ,cōmēsurabile igitur est quod sub γ δ,α β,ei quod ex θ.Quod aūt sub γ δ,α β,æquū est ei quod ex η,cōmēsurabile igitur est & quod η, ei quod ex θ.Ratiōale autē est id quod ex θ,rōnale igitur est & id quod ex η,Ratiōalis igitur est (per diffinitionē decimi)η,& ipsam potest areolā quæ sub γ δ,α β.Si areola igitur cōprehendatur sub apotome, & quæ sequuntur reliqua.Quod erat ostendendum.
-
-CORRELARIVM. Fitq̃ nobis & id propterea manifestū,quod possibile est rōnalem areolam sub irrationalibus rectis lineis contineri. Eucli.ex Zamb. Theorema 91 Propositio 115
+## Eucli.ex Zamb. Theorema 94 Propositio 118
 
 [Margin]
-115
+118
 [/Margin]
 
-## A media infinitæ irrónales fiūt,neq̃ ulla ulli earū quæ prius est eadem.
+## Propositum nobis sit ostendere,quod in quadratis figuris incommensurabilis est dimetiens lateri longitudine.
 
-THEON ex Zāb.Esto media α.Dico quod ab α infinitæ irrōnales fiūt neq̃ ulla ulli earū quæ prius est eadē. Exponatur rōnalis β,& ei quod sub β α(per 14 secūdi)æquū esto id quod ex γ.Igitur γ irrōnalis est.Quod enim sub irrōnali & rōnali(per lēma 38 decimi)irratiōale est,& nulli earū quæ prius est eadē.Nō enim q̃ ex ulla earū quæ prius ad rōnalē appositū latitudinē efficit mediā.Rursus iā ei quod sub β γ.æquum esto id quod ex δ.Irrōnale igitur est id quod ex δ,irrōnalis igitur δ, & nulli earū quæ prius eadē est,Nō enim quod ex ulla earū quæ prius ad rōnalē appositū latitudinē efficit γ.Similiter quoq̃ iā & huiusmodi ordo sequetur,si in infinitū extendas,manifestū est igitur q̃ à media infinitæ fiunt irratiōales,neque ulla ulli earū quæ prius eadem,
+THEON ex Zamb, Esto quadratū α β γ δ,dimetiēs uero illius sit α,γ.Dico quod α γ,ipsi α β, lōgitudine est incōmensurabilis.Si enim possibile,sit cōmēsurabilis. Dico quod eueniet,quod idem nūerus erit par & impar.Manifestū quidē igitur(per 47 primi) quod id quod ex α γ duplū est eius quod ex α β.Et quoniā α γ ipsi α β cōmēsurabilis est.igitur α γ,ad α β rōnē habet quā nūerus ad numerū(per 5 decimi)habeat aūt.quā ε ζ ad η.Sintq̃ ε ζ,η,minimi eādē rōnē habentiū eis.Igitur ε ζ nō est unitas.Si enim ε ζ,est unitas,& rationem habet ad η,quam α γ ad α β,& maior est α γ ipsa α β,maior igitur est ε ζ unitas ipso η nūero,quod est impossibile.Igitur ε ζ,nō est unitas,nūerus igitur. Et quoniā est sicut α γ ad β,sic est ε ζ ad η,& sicut igitur(per 15 quinti)quod ex γ α,ad id quod ex α β,sic qui ex ε ζ,ad eū qui ex η. Duplū aūt est quod ex γ α eius quod ex α β.Duplus igitur est & qui ex ε ζ,eius qui ex η,par igitur est qui est ex ε ζ,quare & ipse ε ζ,par est.Si enim impar esset,& qui ex eo quadratus impar esset(per 29 noni,)quippe quoniā si quilibet nūeri impares cōpositi fuerint,multitudoq̃ fuerit impar,& totus impar est.Igitur ε ζ,par est.Secetur(per 10 primi) ε ζ,bifariā in θ.Et quoniā ipsi ε ζ,η,numeri,minimi sunt eādē eis habentiū rōnē,primi sunt adinuicē(per 24 septimi,)& ε ζ,par est.Impar igitur est η.Si enim esset par,ipsos ε ζ, metiretur binarius,(omnis etēnim par,habet partē dimidiā)primos adinuicē existentes, quod est impossibile.Igitur η nō est par.Et quoniā ipsius ε θ,duplus est ε ζ,quadruplus igitur est qui ex ε ζ.eius quod ex ε θ,Duplus aūt qui ex ε ζ,eius qui ex η. duplus igitur qui ex η,eius qui ex ε θ.Igitur qui ex η par est,& par igitur est η per ea quæ dicta sunt,sed & impar,quod est impossibile.Igitur α γ,ipsi α β longitudine nō est cōmensurabilis,incōmensurabilis igitur.
 
-[Diagram: four horizontal lines labelled α, β, γ, δ]
+[Diagram: a dotted line labelled ζ, θ, ε (two groups of dots); below it a dotted line labelled η; beneath, a square with corners α (top left), β (top right), δ (bottom left), γ (bottom right) and the diagonal drawn from α to γ]
 
-ALITER. Esto media α γ. Dico q̃ ab α γ, infinitæ sunt irrōnales,neq̃ ulla ulli earū quæ prius est eadē. Excitetur(per 11 primi)ipsi α γ ad angulos rectos α β, sit rōnalis α β,cōpleaturq̃ β γ,irrōnale igitur est(per 11 decimi) & ipsum potēs irrōnalis est.Possit aūt(per lēma 38 decimi,)ipsum γ δ,igitur γ δ est irrōnalis & nulli earū quæ prius eadē est,Nō enim quod ex ulla earū quæ prius ad ratiōalē appositū latitudinē efficit mediā.Rursus cōpleatur ε δ,irrōnale igitur est ε δ,& ipsum potēs irrationalis est,possit aūt ipsum δ ζ,irrōnalis igitur est δ ζ,& nulli earū quæ prius eadem.Nō enim quod ex ulla ipsarū quæ prius ad rōnalē appositum latitudinē efficit γ δ,à media igitur infinitæ irrōnales,& quæ sequūtur reliqua.Quod erat ostēdendū.
+Ostendendū & aliter,quod incōmēsurabilis est quadrati dimetiens lateri.Sit enim pro dimetiente,α pro latere uero,sit β.Dico quod α,ipsi β lōgitudine est incōmēsurabilis.Si enim possibile,sit cōmensurabilis,Fiatque rursus sicut α ad β,sic ε ζ,ad η.sintq̃ minimi eandē eisdē habētiū rōnē,ipsi ε ζ,η. Igitur ipsi ε ζ,η,primi sunt adinuicē. Dico primū quod η nō est unitas.Si enim possibile,esto unitas. Et quoniā est sicut α ad β,sic est ε ζ,ad η,& sicut igitur(per 11 & 15 quinti)quod ex α ad id quod ex β,sic qui ex ε ζ,ad eū qui ex η.Duplū aūt est id quod ex α,eius quod ex β. Duplus igitur & qui ex ε ζ,eius qui ex η. Et η unitas est.Igitur ε ζ binarius est quadratus.Quod est impossibile.Igitur η non est unitas,numerus igitur.Et quoniā est sicut quod ex α ad id quod ex β,sic qui ex ε ζ,ad eum qui ex η,& rursus sicut quod ex β,ad id quod ex α,sic qui ex η ad eū qui ex ε ζ,metitur aūt quod ex β, id quod ex α,metitur igitur & qui ex η quadratus eū qui ex ε ζ,quare & latus idem η ipsum ε ζ metitur,metitur autem & seipsum η,igitur η ipsos ε ζ,η,metitur qui primi sunt adinuicem.Quod est impossibile.Igitur α,ipsi β non est commensurabilis,incommensurabilis igitur.Quod ostendere oportuit.
 
-[Diagram: a rectangle divided by a vertical line, the top side lettered α, γ, δ with ζ beyond to the right, the bottom side lettered β, ε]
+[Diagram: a dotted line labelled ζ and θ (two groups of dots); below it a dotted line labelled η; beneath, a square with the diagonal drawn from the top left to the bottom right corner, the diagonal labelled α and the right side labelled β]
 
-## Eucli.ex Zāb. Theorema 92 Propositio 116.
+### Priorum dilucidior explanatio.
 
 [Margin]
-116
+Græcus non habet
 [/Margin]
 
-## Minori commensurabilis, minor est.
+Sit quadratum a b c d,dimetiēs uero ipsius sit a c.Manifestū est quod isoceles est triāgulū c d a,æquum habēs d a ipsi d c.similiterq̃ triāgulum isoceles est a b c.Sit igitur d a unitatū 4.siue pedum:sicq̃ & c d,quatuor,quare manifestum est quod ex d a quadratum est unitatū siue pedū 16 sic etiā & quod ex c d.16 est unitatū siue pedū. At quoniā id quod ex a c æquū est eis quæ sunt ex d a,c d,quēadmodū ex 47 primi perspicuū est,manifeūst{printer-error-correction:manifestū} est quod id q̃ ex a c est duplū eius quod ex d a.At id quod ex d a,est unitatū 16. id igitur quod ex dimetiente,32 erit,in dupla,quidem: At quoniam longitudine commensurabiles lineæ sunt quas aliqua magnitudo metitur earūq̃ quadrata rationē habent quam numerus quadratus ad numerū quadratū,at efficiēs 32 per latus aliqua magnitudo non metitur,neque quæ ex eis quadrata sunt rationē habēt quam numerus quadratus ad numerū quadratū (nullum enim quadratum alterius quadratū duplū est)incōmēsurabilis igitur est longitudine dimetiēs lateri,efficiens enim 32 siue latus est unitatum 5 & minutorum 39,quæ 5,39:ac 4,nulllam{printer-error-correction:nullam} habent communem mensuram 32 ad 16 sicut dictum est rationē nō habet qualem qua
 
-THEON ex Zāb. Esto minor α,& ipsi α cōmēsurabilis esto(per 11 decimi) β.Dico q̃ β minor est.Exponatur γ δ rōnalis,& ei q̃ ex α(per 44 primi, )æquū ad ipsam γ δ cōparetur γ ε,latitudinē efficiēs γ ζ.Apotome igitur est quarta γ ζ. Ei aūt quod ex β,(per eandē)æquū ad ipsam ζ ε cōparetur ζ η,latitudinē efficiēs ζ θ Quoniā igitur cōmēsurabilis est α ipsi β,cōmēsurabile igitur est & quod ex α, ei quod ex β. Sed ei quidē quod ex α,æquū est γ ε,ei autē quod ex β,æquū est ζ η,cōmensurabile igitur est γ ε,ipsi ζ η.Sicut autē γ ε ad ζ η,sic est γ ζ,ad ζ θ.Cōmensurabilis igitur est γ ζ,ipsi ζ θ lōgitudine.Apotome aūt quarta est(per 100 decimi)ipsa γ ζ. Igitur & ζ θ,quarta est apotome.Rōnalis aūt est ζ ε.Si uero areola cōprehēdatur sub rationali & quarta apotome, quæ areolā potest minor est(per 64 decimi.) Ipsam autem ζ η areolam,ipsa β potest,ergo α{printer-error-correction:β} minor est.Quod erat ostendendum.
+[Diagram: a square with corners a (top left), d (top right), b (bottom left), c (bottom right), the diagonal drawn from a to c; the top side marked 4, the right side marked 4, and 32 written inside above the diagonal]
 
-[Diagram: two horizontal lines labelled α and β above a rectangle divided by a vertical line, the top side lettered γ, ζ, θ and the bottom side lettered δ, ε, η]
-
-## Eucli.ex Zamb. Theorema 93 Propositio 117
-
-[Margin]
-117
-[/Margin]
-
-## Cū rationali mediū totū efficienti cōmēsurabilis,cum rationali medium totum efficiens est.
-
-THEON ex Zamb. Sit cū rōnali mediū totū efficiēs α,cōmēsurabilis aūt ei esto β. Dico q̃ β cū rationali mediū totū efficiēs est.Exponatur rōnalis γ δ,& ei quidē quod ex α æquū ad ipsam γ δ cōparetur γ ε,latitudinē efficiēs γ ζ.Apotome igitur est quinta ipsa γ ζ(per 102 decimi) Ei aūt q̃ ex β(per 44 primi)æquū ad ipsam ζ ε cōpa
-
-[Diagram: two horizontal lines labelled α and β above a rectangle divided by a vertical line, the top side lettered γ, ζ, θ and the bottom side lettered δ, ε, η]
-
-<!-- Signature: F 4 -->
-
-<!-- Catchword: retur -->
+<!-- Catchword: dratus -->

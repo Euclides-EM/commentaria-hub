@@ -1,53 +1,65 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER SEPTIMVS -->
 
-<!-- Page number: 180 -->
+<!-- Page number: 181 -->
 
-## Eucli. ex Camp. Propositio 14.
+prætermisit demonstrare. Primum itaque demonstrabimus conuersam, ut si sit a ad b, sicut c ad d, dico quod erit econuerso
 
-**14** {dropcap:S|lines=?|style=decorated|decoration="dragon design"}I fuerint quatuor numeri proportionales, permutatim quoque proportionales erunt.
+[Diagram: a . . . . . . . . c . . . . . . b . . . . d . . .]
 
-CAMPANVS. Modum arguendi qui dicitur proportionalitas permutata quam demonstrauit Euclides per 16 quinti in genere, proponit hic demonstrandū in numeris. Vt si sit proportio a ad b sicut c ad d, erit permutatim a ad c sicut b ad d, erit enim a maior b aut minor, similiter quoq̃ & maior c aut minor.
+b ad a, sicut d ad c: si enim fuerit a minor b, tunc quoq́; erit c minor d, & tota pars aut partes a, b, quota uel quotæ c, d, quare per secundam partem 11, erit b ad a, sicut d ad c: si autẽ fuerit a maior b, erit quoq́; & c maior d, & per primam partem 11 b tota pars aut partes a, quota uel quotæ d, c, per diffinitionem igitur, b ad a, sicut d ad c.
 
-Sit itaq̃ primo minor utroq̃, erit ergo per præsentem hypothesin & conuersionem diffinitionis, a tota pars aut partes b, quota uel quotæ c, d, per 9 itaq̃ uel 10, erit permutatim a tota pars aut partes c, quota uel quotæ b, d, quare per diffinitionē proportio una.
+## Disiunctam proportionalitatem ostendere.
 
-[Diagram: dot-rows: a (2 dots), b (4 dots), c (3 dots), d (6 dots)]
+Vt si sit a b ad b, sicut c d ad d, erit a ad b, sicut c ad d, erit enim permutatim a b ad c d, sicut b ad d, & per 11 sicut a ad c,
 
-Sit secundo a maior utroq̃, erit per primam partem 11, ut quota pars aut partes est b, a, tota uel totæ sit d, c, quare per 9 uel 10 tota pars aut partes erit b, d, quota uel quotæ c, a. Igitur per secundam partem 11 erit a ad c, sicut b ad d.
+[Diagram: a . . . . . . . . . b . . . c . . . . . . . d . .]
 
-[Diagram: dot-rows: a (6 dots), b (3 dots), c (4 dots), d (2 dots)]
+quia ergo a ad c, sicut b ad d, erit permutatim a ad b, sicut c ad d.
 
-Sit tertio a maior b, & minor c, eritq̃ per primam partem 11 tota pars aut partes b, a, quota uel quotæ est d, c, quare per 9 uel 10 quota uel quotæ est a, c, tota uel totæ erit b, d, per diffinitionē itaq̃ proportio una.
+## Coniunctæ proportionalitati demonstrationem afferre.
 
-[Diagram: dot-rows: a (4 dots), b (2 dots), c (7 dots), d (3 dots)]
+Vt si sit a ad b, sicut c ad d, erit a b ad b, sicut c d ad d: erit enim permutatim a ad c, sicut b ad d: quare per 11 a b ad c d, sicut b ad d, permutatim igitur erit a b ad b, sicut c d ad d.
 
-Vltimo quoq̃ sit a minor b maiorq̃ c, eritq̃ ut tota pars aut partes sit c, d, quota uel quotæ est a, b,
+[Diagram: a . . . . . . b . . . / c . . . . d . .]
 
-[Diagram: dot-rows: a (3 dots), b (6 dots), c (2 dots), d (4 dots)]
+## Euersam proportionalitatem restat in numeris stabilire.
 
-per 9 itaq̃ uel 10 erit tota uel totæ d, b, quota uel quotæ c, a, quare per secundā partem undecimæ, b ad d, sicut a ad c, sicq̃ constat propositū. Huic autem cedunt 9 uel 10, quia hæc sola quod ambæ illæ proponit.
+Vt si sit a b ad b, sicut c d ad d, erit a b ad a, sicut c d ad c, erit enim
 
-## Eucli. ex Zamb. Theorema 11 Propositio 13
+[Diagram: a . . . . . . b . . . / c . . . . d . .]
 
-**13** Si quatuor numeri proportionales fuerint, & uicissim proportionales erunt.
+permutatim a b ad c d, sicut b ad d, quare per 11 sicut a ad c, permutatim igitur erit a b ad a, sicut c d ad c, patet itaq́; totum. Ex his quoq́; leue est demonstrare in numeris, quod Euclides proponit per penultimam quinti de quantitatibus in genere, uidelicet.
 
-THEON ex Zamb. Sint quatuor numeri proportionales α, β, γ, δ, sicut α ad β, sic γ ad δ. Dico quod & uicißim proportionales erunt. sicut α ad γ, sic β ad δ. Quoniam enim (per hypothesin) est sicut α ad β sic γ ad δ, qualis igitur pars est α ipsius β uel partes, eadem pars est & γ ipsius δ uel partes (per 6 septimi.) Vicißim igitur qualis pars est α ipsius γ uel partes, eadem pars est & β ipsius δ uel partes (per 9 septimi & 10 eiusdem.) Sicut igitur α ad γ, sic β ad δ (per 11 quinti.) Quod erat demonstrandū.
+Si proportio primi ad secundum fuerit sicut tertij ad quartum, quinti quoq́; ad secundum sicut sexti ad quartũ, erit proportio primi & quinti pariter acceptorũ ad secundũ sicut tertij & sexti pariter acceptorũ ad quartũ.
 
-[Diagram: dot-rows: α (13 dots) with β (4 dots); γ (11 dots) with δ (3 dots)]
+Vt si sit a ad b, sieut c ad d, itemq́; e ad b. sicut f ad d, erunt a & e pariter accepti ad b, sicut c & f pariter accepti ad d, erit enim per
 
-## Eucli. ex Camp. Propositio 15
+[Diagram: a . . . . . . . . . . e . . . . c . . . . . . . f . . .]
 
-**15** {dropcap:S|lines=?|style=decorated|decoration="foliate decoration"}I fuerint quotlibet numeri alijq̃ secūdum eorum numerū, omnesq̃ duo ex prioribus secundū proportionē omniū duorū ex posterioribus, in proportione æqualitatis proportionales erunt.
+conuersam proportionalitatem b ad e, sicut d ad f: quare per
 
-CAMPANVS. Modum arguendi qui dicitur æqua proportionalitas quā demonstrauit Euclides per 22 quinti de quantitatibus in genere, proponit hic demonstrandū in numeris directæ proportionalitatis: æquam autem proportionalitatē quam demonstrauit per 23 quinti de quantitatibus indirectæ proportionalitatis, non proponit demonstrandum in numeris, sed eam demonstrabimus infra super 19 huius, nec est necessarium ut prædemonstremus in numeris, quod demonstratū est per 11 quinti de quātitatibus in genere, uidelicet, si quotlibet proportiones in numeris fuerint uni æquales uel eædem, ipsas esse sibi æquales uel easdem, hoc enim manifestum est per diffinitionem. Vt si a ad c & e ad f, sit sicut b ad d, erit tam a, c quàm e, f tota pars aut partes, quota uel quotæ b, d. aut toties cōtinebit a, c, & f, quoties b, d, & tota pars aut partes superfluēt c in a, & f in e, quota uel quotæ d in b, quia ergo quota pars aut partes est a, c, tota uel totæ est e, f, aut quoties a continet c toties e, f, & quota pars aut partes c superfluūt iu a tota uel totæ f in e. erit per diffinitionē a ad c sicut e ad f.
+[Diagram: b . . . . d . . .]
 
-[Diagram: dot-rows: a (8 dots) c (6 dots) e (4 dots); b (4 dots), b (3 dots), f (2 dots)]
+æquam proportionalitatem a ad e, sicut c ad f, ergo coniunctim a & e ad e, sicut c & f ad f, itaq́; per æquam proportionalitatem a & e ad b, sicut c & f ad d, quod est propositũ.
 
-Sint igitur uti proponitur numeri a, b, e & alij totidem c, d, f. sitq̃ a ad b,
+Eodemq́; modo probabis econuerso, si sit b ad a, sicut d ad c, itemq́; b ad e, sicut d ad f, erit b ad a & e, sicut d ad c & f, erit enim per conuersam proportionalitatẽ a ad b, sicut c ad d: quare per æquam a ad e, sicut c ad f, & cõiunctim a & e ad e, sicut c & f ad f: igitur econuerso e ad a & e, sicut f ad c & f, per æquam itaq́; prrportionalitatẽ erit b ad a & e, sicut d ad c & f, quod erat propositum. Ex hoc quoq́; manifestum rst quod si fuerit proportio quotlibet numerorũ ad primum sicut totidem aliorum ad secundum, erit aggregari ex omnibus antecedẽtibus ad primum, ad primum, sicut aggregati ex omnibus antecedentibus ad secundum, ad secundum. Itemq́; econuerso si fuerit proportio primi ad quotlibet numeros sicut secundi ad totidem alios, erit primi ad aggregatum ex omnibus consequentibus ad ipsum, sicut secundi ad aggregatum ex omnibus consequentibus ad ipsum.
 
-[Diagram: dot-rows: a (9 dots) c (4 dots); b (6 dots), d (3 dots), c (4 dots), f (2 dots)]
+## Eucli.ex Zamb. Theorema 12 Propositio 14
 
-sicut c ad d, & b ad e, sicut d ad f: dico quod erit in æqua proportionalitate a ad e, sicut c ad, f, erit enim per præmissam a ad c, sicut b ad d, sed & b ad d, sicut e ad f: quare a ad c, sicut e ad f: igitur per eandem a ad e, sicut c ad f, idem erit sumptis pluribus, sicq̃ constat propositum.
+[Margin]
+14
+[/Margin]
 
-CAMPANI additio. Quoniam autem Euclides cæteras quatuor species proportionalitatis quæ sunt conuersa, coniuncta, disiuncta, euersa, proponit demonstrandas in numeris, conueniens arbitramur eas quas non autor tanq̃ facile demonstrabiles
+Si fuerint quotcunq́; numeri, & alij eisdem æquales numero *cum duobus sumpti & in eadem ratione, & ex æquali in eadem ratione erunt.
 
-<!-- Catchword: prætermisit -->
+[Margin]
+σύνδυο bini, duo & duo
+[/Margin]
+
+THEON ex Zamberto. Sint quotcunq́; numeri α, β, γ & alij eisdem æquales numero cum duobus sumpti in eadem ratione δ, ε, ζ, sicut quidem α ad β, sic δ ad ε, sicutq́; β ad γ, sic γ ad ζ. Dico quod & ex æquali est sicut α ad γ, sic δ ad ζ. Quoniam enim (per hypothesin) est sicut α ad β, sic δ ad ε, & uicissim igitur (per 13 septimi) est sicut α ad δ, sic β ad ε. Rursus quoniam est sicut β ad γ, sic est ε ad ζ, uicissim igitur (per eandem) est sicut β ad ε, sic γ ad ζ, sicut autem β ad ε, sic α ad δ, & sicut igitur (per 11 quinti) α ad δ, sic γ ad ζ. Vicissim igitur (per 13 septimi) est sicut α ad γ, sic δ ad ζ, quod oportuit demonstrasse.
+
+[Diagram: two groups of vertical dotted columns representing the numbers, the left group labeled ζ, ε, δ and the right group labeled γ, β, α at the foot]
+
+<!-- Signature: q -->
+
+<!-- Catchword: Euclidis -->

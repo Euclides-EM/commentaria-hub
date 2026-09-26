@@ -1,31 +1,19 @@
-<!-- Running title: PERSPECTIVA -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-<!-- Page number: 531 -->
+<!-- Page number: 532 -->
 
-## Theorema quadragesimumsecundum.
+e c, angulum, minimus est qui sub c e a. Quoniam igitur c e, ipsi a b, parallelus est, sed & æqualis, & ea igitur ipsi c b, æquales est & parallelus, parallelogrammum est b e, idq̃ propterea iam & f e, parallelogrammum est. Et quoniam oportet ostendere quod minor apparet a b, ipsa d f, manifestum est quod prius ostendere oportet quod angulus qui sub b e a, minor igitur est qui sub c e a. Quoniā igitur cstensum{printer-error-correction:ostensum} est quod omnium per e, signum actarum rectarum linearū ad c e, angulosq̃ efficientium minimus est qui sub c e a, minor igitur est qui sub b e a. Exponatur circuli semicirculo, æquum segmentum k a l, accipiaturq̃ illius centrum & sit n, ponaturq̃ ei angulo qui sub c e a, æqualis angulus qui sub k n m, ei aūt qui sub c e d, æqualis qui sub k n o, ponaturq̃ ei qui sub e f, utraq̃ ipsarum o n, m n, æqualis per 2 primi elementorū, & per m ipsi k n, æqualis & parallelus excitetur m p, per 31 primi ele. Connectaturq̃ per primum postulatum p k, parallelogrammū igitur est n p, & æquum & simile ipsi b e. Rursus per o ipsi k n, per 31 primi element. excitetur o r, & connectatur r k. Igitur r n, parallelogrammum æquum est & simile ipsi f e. Connectanturq̃ diagonij r n, p n. Quare angulus qui sub k n p, eo qui sub k n r, minor est. Estq̃ qui sub k n p, ei æqualis qui sub k n p, & æqualis qui sub a e b, & qui sub k n r, ei æqualis qui sub d e f, minor igitur est qui sub a e b, angulus eo qui sub d e f. Quare & magnitudo a b, magnitudine d f, minor apparebit. Similiter iam ostendemus quod si excitetur, ipsa f d, minor est ipsa f d, minore existēte ipsa f d, æquali ei quæ ex centro. Sed iam esto d e, ei quæ ex centro æqualis, construanturq̃ omnia eadem quæ super, ponaturq̃ circuli semicirculo æqualis semicirculus h d l, accipiaturq̃ illius centrum, & sit n, q̃ quoniam d o, æqualis supponitur ei quæ ex centro, ponatur, inquam, ei qui sub c e a, angulo, æqualis angulus qui sub h n k, exciteturq̃ ipsi h n, parallelogrammū n x, & ipsi h n, auferatur æqualis k x, connectaturq̃ x h, ei autem qui sub c e d, æqualis ponatur qui sub h n d, & ipsi h n, parallelus per 31 primi element. excitetur d o, ipsiq̃ h n, æqualis auferatur d o, connectaturq̃ o h: parallelogrammū igitur est utrunq̃ ipsorū h k, h d k, & sunt æqualia & similia ipsis e b, f e b, quare & qui sub m d, angulus ei qui sub c e d. &
 
-SI magnitudo quæpiam sublimis ad subiectum planum ad angulos rectos extiterit, positusq̃ fuerit oculus in aliquo signo ipsius plani, & permutatum fuerit uisile in circuli circunferentia, uisile semper æqualiter spectabitur.
+[Diagram: quarter-circle segment: along the top the points a, m, r, p; base line with l at the left, n in the middle, k at the right; lines cross within]
 
-Esto, inquam, spectata aliqua magnitudo a b, sublimior plano, oculus autem esto c, connectaturq̃ b c, & centro c, spacio uero c b, per 3 postulatum circulus describatur b d. Dico quod si in circuli circunferentia permutabitur ipsa a b, ab ipso c, oculo æqualiter spectabitur. Quoniam enim a b, recta est & ad ipsam b c, angulum efficit rectum: omnes igitur quæ ex centro c, ad ipsam a b, magnitudinem procidentes inuicem æquos efficiunt angulos, per secūdam diffinitionem 11 element. æqualiter igitur uisile spectabitur, similiter quoq̃ & si à centro c, sublimis excitetur recta linea, & in ipsa positus fuerit oculus in parallelum existens spectatæ magnitudini, commotaq̃ fuerit magnitudo, spectatum æqualiter semper apparet.
+qui sub h n k, est æqualis ei qui sub c e a, minor autem est qui sub c e a, eo qui sub c e d, minor igitur est & qui sub h n k, eo qui sub h n d, connectanturq̃ diagonij x n, o n, minor igitur est & qui sub h n x, ei qui sub h n o. æqualis autē est qui sub h n x, ei qui sub a e b, ipso d e f, minor igitur & qui sub a e b, eo qui sub d e f, minor igitur spectabitur a b, magnitudo, ipsa d f, magnitudine, quod ostēdere oportebat.
 
-[Diagram: circle with centre c; radius drawn to b at the right; a stands above b outside the circle, d at the left of the circle]
+[Diagram: quarter-circle over a rectangle; x and d along the top, o and k within, h at the left(?); base line with b at the left, n in the middle, l at the right]
 
-## Theorema quadragesimumtertium.
+Sed iam esto d f, minor ea quæ ex centro circuli, cōstruanturq̃ eadem quæ supra, ponaturq̃ circuli semicirculo æqualis semicirculus sitq̃ h m, accipiaturq̃ centrum illius sitq̃ n, auferaturq̃ ab ipsa h n, ipsiq̃ d f æqualis n x, ponaturq̃ ei angulo qui sub c e a, æqualis angulus qui sub h n k, ei autem qui sub c e d, æqualis qui sub h n l. Sit autem utraq̃ ipsarum k n, n l, æqualis ipsi d f, exciteturq̃ per k, ipsi n x, per 31 primi element. æqualis & parallelus k o, connectanturq̃ o x, & per l, ipsi x n, per eandem parallelus excitetur l p, connectaturq̃ p x, parallelogrammū igitur est utrunq̃ ipsorū x k, x l, & est quidē ipsum k x, ipsi e b, simile, & æquale & x l, ipsi e f. Quare & angulus qui sub h n k, æquus est ei qui sub c e a, & qui sub h n l, ei qui sub c e d, maior autem est angulus qui sub c e d, eo q̃ sub c e a, maior igitur est angulus qui sub h n l, eo qui sub h n k, connectantur n o, n p. Angulus igitur qui sub x n o, eo qui sub x n p, minor est, æqualis autem est qui sub x n o, ei qui sub a e b, & qui sub x n p, ei qui sub d e f, minor est angulus qui sub a e b, eo qui sub d e f, minor igitur est sub a b, angulus eo qui sub d e f, perspicitur autē sub a e b, ma
 
-SI uero uisile ad subiectū planum ad angulos fuerit rectos, permutatus autem fuerit oculus in circuli circunferentia centrum habente signum circum quod conuertitur magnitudo ipsi plano, uisile semper æqualiter apparebit.
+[Diagram: circle at the right with a quadrilateral of crossing lines at its upper left; b at the top, e at the upper right, f at the left, d at the lower left, a and c below]
 
-Sit, inquam, spectata magnitudo a b, sublimis & ad angulos rectos existens ad subiectum planum, oculus uero sit c, & centro quidem b, spacio uero b c, per 3 postulatum circulus describatur c d. Dico quod si c, permutetur in circuli circunferentia ipsa a b, magnitudo æqualiter semper apparebit, hoc, inquam, est manifestum, omnes enim ab ipso c signo ad a b, cadentes radij ad æquos angulos procidunt. Quoniā angulus qui ad b rectus est. Aequaliter igitur spectata magnitudo apparebit.
+[Diagram: semicircle: p and o at the upper left, l and k within, base line with b and k at the left, n and m at the right]
 
-[Diagram: circle with centre b; a stands vertically above b, e on the circumference at the lower right]
-
-## Theorema quadragesimumquartum.
-
-SI autem spectata, a magnitudo ad subiectum planum neutiquā ad angulos rectos fuerit, mutatūq̃ fuerit uisile in circuli circunferentia, inæqualiter semper spectabitur.
-
-Esto circulus a h, & suscipiatur in ipsius circūferentia signum, sitq̃ illud d, & cōstituatur non ad rectos angulos ipsi circulo ipsa d f, oculus uero sit e. Dico quod ipsa d f, si in ipsius circuli circunferentia permutabitur quandoq̃ maior, & quandoq̃ minor apparebit. Iam ipsa d f, uel est maior ea quæ ex centro, uel ei æqualis, uel minor: sit in primis maior, exciteturq̃ per 31 primi element. per e, centrum ipsi d f, parallelus e c, sitq̃ æqualis ipsi ipsi c e. Exciteturq̃ per 12 undecimi element. ab ipso c, signum ad subiectū planum perpendicularis c n, & cadat ipsi plano in n, signum, & connexa e n, per 2 postulatum extendatur & procidat in circuli circunferentia in a, & per a, per 31 primi element. ipsi c e, parallelus excitetur a b, sitq̃ d f æqualis: dico quod a b, omnibus in circuli circūferentia stantibus rectis lineis minor apparebit. Connectantur enim per primum postulatum c f, e f, b c, & e b: habuimus autē in præterito 16 theoremate quod omnium per e, signum ductarum rectarum linearum, efficientiumq̃ a d,
-
-[Diagram: large circle with e near the centre; above and to the right a quadrilateral with crossed lines, b at its top, f at the right, d below it, n within; a at the left of the quadrilateral, b at the lower left of the circle]
-
-<!-- Signature: Y 2 -->
-
-<!-- Catchword: e c, angu -->
+<!-- Catchword: gnitudo -->

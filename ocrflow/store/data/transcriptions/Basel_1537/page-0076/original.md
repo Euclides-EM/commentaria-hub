@@ -1,19 +1,39 @@
-<!-- Running title: LIBER TERTIVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 67 -->
+<!-- Page number: 68 -->
 
-& quia angulus d a b, est rectus per hypothesin, habebit triangulus a b d, duos angulos rectos, quod est impossibile per 32 primi. Cadet ergo extra, sitque a e, quod si inter ipsam & circunferentiam potest linea recta intercipi, sit illa a f, ad quam ducatur perpendicularis d g, & quia angulus d g a, est rectus, erit per 18 primi linea a d, lōgior linea d g, quod est impossibile: quare inter ipsam, & circunferentiam, nulla linea recta intercipietur. Propter quod patet quod angulus contentus ab a c, & circunferentia, qui dicitur angulus contingentiæ, est minor omni angulo à duobus rectis lineis contento. Si enim aliquis rectilineus angulus esset angulo contingentiæ æqualis, aut eo minor: cum omnis talis possit per æqualia diuidi secundum doctrinam 9 primi, inter lineam a e, & circunferentiā, posset linea recta intercipi, quod monstrauimus esse non posse. Per quod patet angulum contentum a diametro & circunferentia, omnium acutorum rectilineorum esse maiorem. quia non differt à recto: nisi angulo contingentiæ quem monstrauimus esse minorem omni rectilineo. Correlarium patet per primā partem. Cum enim linea a e, in utranque partem eiecta non secet circulum, & tangat ipsum in puncto a, ipsa est contingens per diffinitionem.
+[Margin]
+16
+[/Margin]
 
-CAMPANI additio. Ex hoc notandum, quod non ualet ista argumentatio, hoc transit à minori ad maius & per omnia media: ergo per æquale. Nec ista: Contingit reperire maius hoc, & minus eodem: ergo contingit reperire æquale. hoc autem sic patet. Sit circulus a b, super centrum c, cuius diameter a c b, & ducatur ab eius termino a, linea a d orthogonaliter, eritque contingens circulum per correlariū huius. Describatur iterum super punctum a secundū quantitatem diametri a b, circulus b e d, & imaginetur linea a b, moueri super punctum a, per circunferentiam arcus b e d, ita quod punctum b numeret omnia puncta arcus b e d, quousque perueniat ad lineam a d, & cooperiat ipsam. Et quia angulus b a d, est rectus: erit ut non sit sumere aliquem angulum acutum cui æqualem non fecerit linea a b, cum diametro a c b, minoris circuli, quia transiuit ad angulum rectum: dinumerans situm omnium angulorum acutorum, quorum manifestum est quosdam esse minores angulo semicirculi: contento a semicircunferentia a b, & diametro a c b, & angulum rectum manifestum est esse maiorem eodem. Dico quod nullus in transitu ab acutis minoribus ad rectum maiorem intermedius: fuit ei æqualis. Si enim fuerit aliquis, sit ut illum fecerit linea a b, cum punctus b, fuit in puncto e, arcus b e d. Quia ergo angulus e a b est æqualis angulo semicirculi prædicto, angulus autem semicirculi est amplissimus omnium acutorum per ultimam partem huius, erit angulus e a b, amplissimus omnium acutorum. Diuidatur ergo angulus e a d, sicut proposuit 9 primi, per æqualia, ducta linea a f, eritque (per 9 conceptionem) angulus f a b, amplior angulo e a b, quare erit aliquid: amplius amplissimo. quod est impossibile. Vel sic. Cum angulus e a b, sit æqualis angulo semicirculi sicut ponitur, at angulus semicirculi cum angulo contingentiæ est æqualis uni recto, similiter quoque angulus e a b cum angulo e a d est æqualis uni recto, erit angulus e a d: æqualis angulo contingentiæ: & quia angulus contingentiæ est angustissimus omnium acutorum per 2 partem huius: erit similiter angulus e a d, ei æqualis: angustissimus omnium acutorum. sed angulus e a f: est eo angustior: per conceptionem: erit ergo aliquid angustius angustissimo: quod est impossibile. Non ergo erit angulus rectilineus æqualis angulo semicirculi. Et quia transitur à minori ad maius & non per æquale: item quia est reperire minorem eo & maiorem: patet instantia contra utranque argumentationem prædictam. Vnde per interemptionem ad illud erit respondendum.
+Quæ à diametri circuli extremitate ad angulos rectos ducitur, extra ipsum circulum cadit, & in locum inter ipsam rectam lineam & circunferentiam, altera recta linea non cadet, & semicirculi angulus, omni angulo acuto rectilineo maior est, reliquus autem minor.
 
-[Diagram: large circle b e d described about the point a at its top; within it a smaller circle with centre c and vertical diameter a c b; from a, lines fan out towards the right to the points d, f, e near the tangent]
+THEON ex Zamberto. Sit circulus α β γ, circa centrum δ, & dimetientem α β. Dico quod quæ ex α, ipsi α β, ad angulos rectos ducitur, extra ipsum circulum cadit. Non enim, sed si possibile est, cadat interius sicut α γ, & coniungatur γ δ. Et quoniam æqualis est δ α, ipsi δ γ, (per 15 diffinitionem primi) ex centro enim in circunferentiam, æqualis est & angulus δ α γ, ei qui sub δ γ α. Angulus autem δ α γ, rectus est, rectus igitur est & qui sub δ γ α. Anguli igitur qui sub δ α γ, & δ γ α, duobus rectis sunt æquales, quod (per 17 primi,) est impossibile. Igitur ab α signo, ipsi α β, ad angulos rectos ducta, intra ipsum circulum non cadit. Similiter quoque ostendemus, quod neque in ipsam circunferentiam, extra igitur cadit sicut α ε. Dico quod in locum inter α ε, rectam lineam, & circunferentiam: alia recta linea non cadit. Si enim possibile est, cadat sicut ζ α, & excitetur (per 12 primi) à δ, signo, in ipsam ζ α, perpendicularis δ η. Et quoniam rectus est angulus α η δ, minor recto autem qui sub δ α η, maior igitur est α δ, quàm δ η. Aequalis autem α δ, ipsi δ ζ, ex centro enim in circunferentiam, maior (per 19 primi,) igitur δ ζ, ipsa δ η, minor maiore, quod est impossibile. In locum igitur inter rectam lineam & circunferentiam, altera recta linea non cadet. Dico quod & semicirculi angulus contentus sub α β, recta linea & γ β α, circunferentia, omni angulo rectilineo maior est. Reliquus autem contentus sub γ α, circunferentia & α ε, recta linea, omni acuto angulo rectilineo minor est. Si enim aliquis est angulus rectilineus maior eo qui sub γ β α, circunferentia & β α, recta linea, minor autem eo qui sub γ α, circunferentia & α ε, recta linea continetur, in locum inter γ α, circunferentiam & α ε, rectam lineam recta linea cadet, quæ efficiet maiorem quidem angulum contentum sub rectis lineis eo qui sub β α, recta linea & γ β α, circunferentia continetur, minorem autem eo qui sub γ α, circunferentia & α ε, recta linea continetur, non cadit autem. Igitur angulo cōtento sub β α, recta linea, & γ β α, circunferentia, angulus acutus sub rectis lineis contentus maior non est, neque etiā minor contento sub γ α, circunferentia & α ε, recta linea.
 
-[Diagram: two equal circles a and b touching at the point g; along the top the letters c, h, e, k, o; below the contact the point f; the lines form the triangle h g k whose basis h k is bisected at e]
+[Diagram: circle with centre δ and horizontal diameter β α (β at left, α at right); at α a line rises at right angles to ζ and ε at the top, with η upon it; within the circle the chord α γ and the lines δ γ, δ η]
 
-Posset probari quod angulus contingentiæ est diuisibilis secundum lineam rectam ut cōstat per figurationem hic a latere positam. Certum est quod angulus qui causatur ex contactu duorum circulorum uel sphærarum, est angulus contingentiæ: & talis diuidatur per lineam e g, quia hic habetur triangulus h g k, cuius basis h k, diuidatur per æqualia in puncto e: & protrahatur uersus g, contactum: & arguitur per 4 primi: deinde per 16 huius, & patet propositum.
+CORRELARIVM. Hinc manifestum est, quod à diametri circuli extremitate ad angulos rectos ductæ ipsum circulum tangit, & quod recta linea circulum in uno signo tantum tangit, quoniam ostensum est (per 2 tertij,) quod quæ in duobus illis signis incidit, intra ipsum cadit, quod demonstrasse oportuit.
 
-## Eucli.ex Zamb.  Theorema 15.  Propositio 16
+## Eucli.ex Camp.  Propositio 16
 
-<!-- Signature: f 4 -->
+[Margin]
+16
+[/Margin]
 
-<!-- Catchword: Quæ -->
+A Dato puncto, ad datum circulum lineam contingentem ducere.
+
+CAMPANVS. Sit circulus datus a b cuius centrum c, punctusque datus d, uolo ergo a puncto d, ducere lineam contingentem circulum a b. Produco lineam d c, secantem circunferentiam circuli a b, in puncto a, super quam describo circulum d e, secundum quantitatem lineæ d c, concentricum circulo a b, & à puncto a, produco lineam a e, perpendicularem ad lineam d c, quæ secet circunferentiam circuli d e, in puncto e, & produco lineam e c, secantem circunferentiam circuli a b in puncto b. Deinde producam lineam d b, quæ erit contingens circulum a b. Quia enim duo latera d c & c e, sunt æqualia duobus lateribus b c & c d trianguli b c d, & angulus c est communis utrique, erit per 4 primi angulus e a c æqualis angulo d b c, angulus autē e a c est rectus, quare angulus d b c est rectus. Per correlarium ergo præcedentis erit linea d b, contingens circulum a b, quod est propositum.
+
+[Diagram: two concentric circles with centre c; d at the left upon the outer circle, e at the top upon the outer circle, a and b upon the inner circle; the lines d c, a e, e c and d b are drawn]
+
+## Eucli.ex Zamb.  Problema 2  Propositio 17
+
+[Margin]
+17
+[/Margin]
+
+A dato signo, dato circulo contingentem rectam lineam ducere.
+
+THEON ex Zamberto. Sit quidem datum signum α, datus autem circulus sit β γ, oportet iam à dato signo α, dato circulo β γ, contingentem rectam lineam ducere. Suscipiatur enim (per 1 tertij,) centrum circuli, sitq̃ illud δ, & cōiungatur (per primum postulatum) δ α. Et centro quidem δ, spatio uero δ α, (per tertium postulatū) circulus describatur α ε ζ, & ab ipso γ, (per 11 primi) ad ipsā δ α, ad angulos rectos excitetur (per primū postulatum) γ ζ, & coniungantur ζ δ, & α β. Dico quod ab α, signo, circulo β γ, contingens ducta est α β. Quoniam enim δ, signum
+
+<!-- Catchword: centrum -->

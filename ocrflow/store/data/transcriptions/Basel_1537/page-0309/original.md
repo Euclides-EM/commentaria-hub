@@ -1,33 +1,43 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Page number: 298 -->
+<!-- Page number: 299 -->
 
-λ, η ζ. Vtrũq̃ igitur ipsorũ μ ξ, ν ζ, æquum est ei quod sub α γ, γ β, Et quoniã α β, ex binis nominibus est diuisa in nomina in γ, ipsæ igitur α γ, γ β, rationales sunt potētia tantũ commensurabiles. Quæ igitur ex α γ, γ β rationalia, sunt sibi inuicem commēsurabilia. Quare (per 15 decimi, & conflatum ex ijs quæ ex α γ, γ β, commēsurabile est eis quæ ex α γ, γ β, rationale igitur est compositum ex ijs quæ ex α γ, γ β. Et ipsi δ λ, est æquale, rationale igitur est δ λ. Et ad ipsam δ ε comparatur, rationalis igitur (per 20 decimi δ μ. & ipsi δ ε, lõgitudine commensurabilis. Rursus quoniã α γ, γ β, rationales sunt potentia tantum commensurabiles, medium igitur est quod bis sub α γ, γ β, hoc est ipsum μ ζ. & ad ipsam cõparatur μ λ rationalem, rationalis igitur est & μ η, ipsi λ μ incōmēsurabilis (hoc est ipsi δ ε,) lõgitudine, est aũt & μ δ rationalis, & ipsi δ ε lõgitndine{printer-error-correction:lõgitudine} cõmēsurabilis, incõmēsurabilis igitur est (per 13 decimi) δ μ, ipsi μ η longitudine. Suntq̃ ipsæ igitur δ μ, μ η, rationales, potētia tantum commensurabiles, ex binis nominibus igitur est, (per 36 decimi δ η. Ostendendum quod & prima. Quoniam enim (per lemma præcedens 54 decimi) eorum quæ ex α γ, γ β, medium proportionale est quod sub α γ, γ β & ipsorum igitur δ θ, κ λ. medium proportionale est μ ξ. Est igitur (per constructionem sicut δ θ ad μ ξ, sic μ ξ, ad κ λ, hoc est sicut δ κ ad μ ν, sic μ ν, ad μ κ, quod igitur sub δ κ, κ μ, æquum est ei quod ex μ ν. Et quoniam commensurabile est quod ex α γ, ipsi quod ex β γ, cõmensurabile est & δ θ, ipsi κ λ, quare (per 1 sexti & 11 decimi) & δ κ ipsi κ μ commensurabilis est. Et quoniam maiora suut{printer-error-correction:sunt} quæ ex α γ, γ β, eo quod bis sub α γ, γ β, maius igitur est & δ λ ipso μ ζ. Quare (per lemma præcedens & per primã sexti,) & δ μ, ipsa μ η maior est, & æquale quod sub δ κ, κ μ, ei quod ex ν η, hoc est quartæ parti eius quod ex μ η, & cõmensurabilis est δ κ, ipsi κ μ. Si uero (per 17 decimi,) fuerint binæ rectæ lineæ inæquales, quartæ autē parti eius quod ex minore æquum, ad maiorem cõparetur deficiens forma quadrata, & in commensurabilia ipsam diuiserit, maior minore maius potest eo quod ex sibi commensurabili. Ipsa igitur δ μ, ipsa μ η maius potest eo quod ex sibi commensurabili. ipsa igiturigitur  δ μ, ipsa μ η maius potest eo quod ex sibi commensurabili. Suntq̃ rationales ipsæ δ μ, μ η, & δ μ nomē maius existens, comensurabilis est longitudine ipsi δ ε expositæ rationali, ipsa igitur δ η, ex binis nominibus est prima, quod oportuit demonstrasse.
+igitur δ μ, μ η, rationales sunt potentia tantum commensurabiles, ex binis igitur nominibus est (per 36 decimi δ η. Ostendēdũ iam quod & secunda. Quoniã enim quæ ex α γ, γ β, maiora sunt eo quod bis sub α γ, γ β, maius est igitur & δ λ ipso μ ζ, quare (per primam sexti,) & δ μ ipsa μ η. Et quoniam commensurabile est quod est ex α γ, ei quod ex γ β, commensurabile est & δ θ ipsi κ λ. Quare & δ κ, ipsi κ μ, commensurabilis est, & id quod sub δ κ, κ μ, æquũ est ei quod ex ν η. Ipsa igitur δ μ, ipsa μ η, maius potest eo quod ex sibi commensurabili, & μ η, ipsi δ ε longitudine commensurabilis est, ipsa igitur δ η, ex binis nominibus est secunda, quod erat ostendendũ.
 
-[Diagram: line α–γ–β; below, rectangle with δ at the left, divided by vertical lines into several compartments, two of which project above the top line; small labels (θ, κ, μ, ν, ξ, ε, ζ, λ) mark the divisions along the middle and bottom]
+[Diagram: line α–γ–β; below, rectangle with δ at the left, divided by vertical lines into several compartments, two of which project above the top line; labels κ, μ, ν, η along the middle row and ε, θ, λ, ξ, ζ along the bottom]
 
-## Eucli. ex Camp. Propositio 55
+## Eucli. ex Camp. Propositio 56
 
 [Margin]
-55
+56
 [/Margin]
 
-SI lineæ rationali æqua superficies quadrato bimedialis primi adiungatur, latus eius reliquum binomium secundũ esse oportebit.
+CVm adiũcta fuerit lineæ in lõgitudine rationali superficies rectãgula æqualis quadraco{printer-error-correction:quadrato} bimedialis secundi, latus eius secũdum binomium tertium esse necesse est.
 
-CAMPANVS Sit lnea{printer-error-correction:linea} a b bimediale primũ, diuisa ad punctũ c secundũ suũ terminum, cætera autem sint ut prius. Dico lineã f g esse binomiũ secundũ. Erit enim superficies m g rationalis, eo quod partes bimedialis primi continent superficiem rationalem, & superficies tres e l, l m. & tota e n. mediales communicantes, eo quod portiones bimedialis primi sunt lineæ mediales potentia tantum communicantes ex 31. Per 16 igitur erit linea n g rationalis in longitudine, commensurabilis lineæ e f rationali positæ, & per 10 linea f n rationalis in potentia tantũ quæ cum sit maior linea n g ex primo duorum antecedentium demonstrationi 25 adiunctorum & 1 sexti, eaque potentior quadrato lineæ communicantis secum in lõgitudine ex prima parte 13, erit à diffinitione linea f g binomium secundum, quod est propositum.
+CAMPANVS Si fuerit linea a b bimediale secũdum diuisa per terminũ suũ ad pũctũ c, reliqua uero omnia fuerint ut prius. erit linea f g binomiũ tertiũ. Erit enim ex 32 & nostris positionibus utraq̃ superficierũ e n & m g, medialis, quare per 30 utraq̃ duarũ linearũ f m{printer-error-correction:f n} & n g erit rationalis in potentia tantum. lineæ e f rationali potentia commensurabilis. At quia bimedialis secundi partes sunt communicantes in potentia tantum, erit superficies e l communicans superficiei l m, & ideo linea f l lineæ l n, potentior ergo est per primam partem 13 f n quàm sit n g. in quadrato lineæ sibi communicantis in lõgitudine. Cũq̃ sint superficies a h & quadratũ h b incõmēsurabilia, eo quod lineæ a c b incõmensurabiles, ideoq̃ & ambo quadrata pariter accepta ambobus supplemētis pariter acceptis eo quod quadrata sibi inuicem communicant ex hypothesi. supplementa quoque cum sibi inuicem sint æqualia, sequitur ut superficies e n sit incommensurabilis superficiei m g, & ideo linea f n, lineæ n g, per diffinitionem igitur est linea f g, binomium tertium. Quod est propositum.
 
 [Diagram: square with corners d (top-left), K (top-right), c (bottom-left), b (bottom-right); a diagonal from d, a vertical and a horizontal line crossing near the centre (letter h at the crossing, letter a on the left side)]
 
 [Diagram: tall rectangle divided by horizontal lines into bands; right side labels from top: g, q, n, l, f; left side labels: p, m, e (bottom-left)]
 
-## Eucli. ex Zãb. Theorema 43 Propositio 61
+## Eucli. ex Zamb. Theorema 44 Propositio 62
 
 [Margin]
-61
+62
 [/Margin]
 
-Quod ex ea quæ ex binis medijs prima ad rationalē cõparatũ latitudinē, efficit ex binis noibus secũdã.
+Quod ex ea quæ ex binis secunda medijs ad rationalem comparatum latitudinem efficit, ex binis uominibus{printer-error-correction:nominibus} tertiam.
 
-THEON ex Zãb. Esto (per 43 decimi,) ex binis medijs prima α β, diuisa in medias in γ, quarũ α γ maior sit, exponaturq̃ rationalis δ ε, Comparetur q̃ per 44 primi) ad ipsam δ ε, ei quod ex α β æquũ parallelogrammũ δ ζ, latitudinem efficiēs δ η, Dico quod ipsa δ η, ex binis est secũda nominibus, Cõstruantur enim eadem quæ & in præcedenti. Et quoniam α β. ex binis medijs est prima diuisa in γ, ipsæ α γ, γ β, igitur (per 37 decimi,) mediæ sunt potentia tantũ cōmensurabiles rationale cõprehendentes. Quare (per 24 decimi & quæ ex α γ, γ β, media sũt mediũ igitur (per correlariũ 23 decimi, est δ λ. Et ad ipsam δ ε cõparatur, ratiõalis igitur est (per 22 decimi μ δ, & ipsi δ ε longitudine incommensurabilis. Rursus qnoniã{printer-error-correction:quoniã} rationale est quod bis sub α γ, γ β, rationale est & μ ζ, ad ipsamq̃ μ λ. rationalem comparatur, rationalis igitur est (per 20 decimi) μ η, & lõgitudine commensurabilis ipsi μ λ, hoc est ipsi δ ε. Incommensurabilis igitur est δ μ, ipsi μ η longitudine. Suntque rationales ipsæ.
+THEON ex Zãb. Esto (per 44 decimi) ex binis medijs secunda α β. diuisa in medias in γ ut maius segmentũ sit α γ rationalis autem esto δ ε, & ad ipsam δ ε, ei quod ex α β æquũ parallelogrammũ cõparetur (per 44 primi δ ζ, latitudinē efficiens δ η, Dico quod δ η est ex binis nominibus tertia, Cõstruantur eadē quæ in præcedētibus. Et quoniã α β ex binis est secũda medijs diuisa in γ, ipsæ igitur α γ, γ β, (per 38 decimi mediæ sunt potētia tãtũ cõmēsurabiles mediũ cõprehēdētes, quare & cõflatũ ex ijs quæ ex α γ, γ β, mediũ est, & est æquale ipsi δ λ mediũ igitur est & δ λ, cõparaturq̃ ad rationalē δ ε. Rationalis igitur est (per 22 decimi μ δ, & ipsi δ ε lõgitudine incõmēsurabilis. Id propterea etiã μ η ratiõalis est & ipsi μ λ incõmēsurabilis (hoc est ipsi δ ε) longitudine. Ratiõalis igitur est utraque ipsarum δ μ, μ η, & ipsi δ ε longitudine incommensurabilis Et quoniã α γ ipsi γ β lõgitudine est incõmensurabilis, sicut autem (per lēma præcedēs 22 decimi) α γ ad γ β, sic quod ex α γ, ad id quod sub α γ, γ β, incõmēsurabile igitur est & quod ex α γ, ei quod sub α γ, γ β, Quare & cõflatũ ex ijs quæ ex à γ, γ β, ei quod bis sub α γ, γ β, incõmēsurabile est, hoc est δ λ ipsi μ ζ. Quare (per 1 sexti, & 11 decimi.) & δ μ ipsi μ η incõmensurabilis est. Sũtq̃ ratiõales. Ipsa igitur δ η, ex binis nominibus est. Ostendendũ iã quod & tertia. Similiter iã sicut in præcedētibus ratiocinabimur quod maior est δ μ ipsa μ η. & quod δ κ ipsi κ μ cõmēsurabilis est. Estq̃ quod sub δ κ. κ μ, æquũ ei quod ex μ η. Ipsa igitur δ μ, ipsa μ η, maius potest eo quod ex sibi cõmēsurabili, & neutra ipsarũ δ μ, μ η, cõmēsurabilis est ipsi δ ε, lõgitudine, ipsa igitur δ η, ex binis est tertia nominibus, quod erat ostendēdũ.
 
-<!-- Catchword: igitur -->
+[Diagram: line α–γ–β; below, rectangle with δ at the left, divided by vertical lines into several compartments, two of which project above the top line; labels κ, μ, ν, η along the middle row and ε, θ, λ, ξ, ζ along the bottom]
+
+## Eucli. ex Cãp. Propositio 57
+
+[Margin]
+57
+[/Margin]
+
+SI lineæ rationali rectangulũ æquũ quadrato lineæ maioris adiũgatur, alterum se cõtinentiũ laterum erit binomium qnartum{printer-error-correction:quartum}.
+
+<!-- Catchword: CAM -->

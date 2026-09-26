@@ -1,37 +1,35 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVARTVS -->
 
-<!-- Page number: 88 -->
+<!-- Page number: 89 -->
 
-[Margin]
-3
-[/Margin]
+quæ concurrent in puncto d, a quo ducam perpendiculares ad tria latera ipsius trianguli d e. quidem, ad a b, & d f, ad b c, & d g, ad a c. Et quia duorum triangulorum e a d, & g a d, angulus a unius, est æqualis angulo a alterius, & uterq́; angulorū e & g, rectus, & latus a d, cōmune, erit per 26 primi, linea d e æqualis lineæ d g. Eadem ratione cū duorū triangulorū e b d, & f b d, angulus b, unius, sit æqualis angulo b alterius, & uterque angulorū e & f, rectus, latus quoq́; d b cōmune, erit per eandē, linea e d æqualis lineæ d f. quare tres lineæ d e, d f, d g, sunt æquales. Posito ergo cētro in d, descriptus circulus secūdū quātitatem unius earū trāsibit per 9 tertij per reliquarū duarū extremitates. Et quia per correlarium 15 tertij, unaquæq́; linearum a b, b c, c a, erit contingens circulum: patet perfectum esse propositum.
 
-CIrca assignatum circulum, assignato triangulo triāgulum æquiangulum describere.
+[Diagram: triangle a b c with inscribed circle, centre d; perpendiculars d e, d f, d g drawn to the three sides]
 
-CAMPANVS. Sint ut prius: assignatus triangulus a b c: assignatusq́; circulus d e f, cuius centrum g, circa hunc circulum, uolo describere unum triangulum æquiangulum, triangulo a b c, æquilaterum enim non est necessarium, sed est possibile, Producam basin b c: in utramque partem, ut fiant duo anguli extrinseci, & à centro producam lineam g d ad circunferentiam & constituam angulum d g e, ducta linea g e, æqualem angulo b, extrinseco, & d g f, ducta linea g f, æqualē c extrinseco, & à punctis d e f, producam in utrāque partē lineas orthogonaliter, quæ per correlarium 15 tertij. erunt contingentes circulum, quas protraham, quousque concurrant in punctis h k l. Necesse est enim ipsas concurrere, cum enim uterq́; angulorū qui sunt ad d, & uterq́; eorum qui sunt ad e, sit rectus, si intelligatur protrahi linea d e, erunt duo anguli qui sunt ad partem h minores duobus rectis, quare per penultimam petitionē, per quam illæ protractæ: concurrent lineæ l d h, k e h. Eadem ratione concurrent duæ lineæ h d l, k f l: cum uterque angulorum qui sunt ad f, sit etiam rectus. Quia ergo in quadrilatero h d e g duo anguli d & e, sunt recti: erunt duo anguli g & h æquales duobus rectis: cuiuslibet enim quadrilateri anguli: sunt æquales quatuor rectis: ut monstratum est supra 32 primi. Et quia duo anguli intrinsecus & extrinsecus sunt similiter æquales duobus rectis per 13 primi, at uero b, extrinsecus positus est æqualis g, erit intrinsecus b, æqualis h. Simili quoque ratiōe erit c, intrinsecus, æqualis l. Et quia duo anguli b & c, intrinseci sunt minores duobus rectis per 17 primi: erunt similiter duo anguli h & l, minores duobus rectis: quare per penultimā petitionem, duæ lineæ h e & l f protractæ: concurrent in puncto k, fietq́; triangulus h k l: & quia angulus h est æqualis angulo b intrinseco, & angulus l, angulo c, intrinseco: erit per 32 primi: angulus k æqualis angulo a: quare habemus propositum.
-
-[Diagram: circle with centre g inscribed in triangle h k l, radii g d, g e, g f drawn to the points of tangency d, e, f; at the lower left the assigned triangle a b c with base b c produced on both sides]
-
-## Eucli ex Zamb. Problema 3. Propositio 3
-
-[Margin]
-3
-[/Margin]
-
-Circa datū circulū, dato triangulo æquiangulū triangulum describere
-
-THEON ex Zamberto. *Sit datus circulus α β γ, datum autem triangulum sit δ ε ζ, oportet circa α β γ, circulum, ipsi δ ε ζ, triangulo æquiangulum triāgulū describere. Extēdatur δ ε, ex utraq; parte, in η θ, signa. Et sumatur (per 1 tertij) centrū circuli α β γ, sitq́; illud κ. Et ducatur utcūq;: recta linea κ β. Et constituatur (per 23 primi,) ad κ β, rectam lineam & ad signum quod in ea κ, angulo qui est sub δ ε η, æqualis angulus β κ α, angulo autem δ ε θ, æqualis angulus β κ γ. Et per signa α β γ, (per 17 tertij,) Excitentur rectæ lineæ tangentes circulū α β γ; λ α μ, μ β ν, ν γ λ. Et quoniā rectæ lineæ λ μ, μ ν, ν λ, tangunt circulum α β γ, in signis α β γ, à centro autē κ, ad signa α β γ, signa coniunctæ sunt κ α, κ β, κ γ, anguli igitur qui sunt ad signa α β γ, recti sunt. Et quoniam quadrilateri α μ β κ, quatuor anguli quatuor rectis sunt æquales quoniā quadrilaterū α μ β κ, in duo triangula diuiditur quorū anguli κ α μ & κ β μ, duo recti sunt: reliqui igitur anguli α κ β & α μ β, duobus rectis sunt æquales. Anguli autem δ ε η & δ ε ζ, (per 13 primi,) duobus rectis sunt æquales. Anguli igitur α κ β & α μ β, æquales sunt angulis δ ε η & δ ε ζ, quorum angulus α κ β, angulo δ ε η, est æqualis: reliquus igitur α μ β, reliquo angulo δ ε ζ, est æqualis. Similiter quoque ostendetur, quod & angulus λ ν μ, angulo δ ζ ε, est æqualis, & reliquus igitur angulus μ λ ν, reliquo angulo ε δ ζ, est æqualis: æquiangulum igitur est triangulum λ μ ν, ipsi δ ε ζ, triangulo: & descriptum circa circulum α β γ. Circa circulum igitur datum: dato triangulo æquiangulum triangulum descriptum est, quod facere oportebat.*
-
-[Diagram: triangle λ μ ν circumscribed about circle α β γ with centre κ, radii κ α, κ β, κ γ drawn to the tangent points; beside it the given triangle δ ε ζ with base δ ε produced to η and θ]
-
-## Eucli. ex Camp. Propositio 4
+## Eucli. ex Zamb. Problema 4 Propositio 4
 
 [Margin]
 4
 [/Margin]
 
-INtra datum triangulum, circulum describere.
+In dato triangulo, circulum describere.
 
-CAMPANVS. Sit assignatus triangulus a b c. Volo intra ipsum, circulum describere. Hæc est quasi conuersa secundæ. Diuido enim duos eius angulos a & b, per æqualia a quidē: ducta linea a d. b. uero ducta linea b d,
+THEON ex Zamb. *Sit datum triangulum α β γ. oportet iam in triangulo α β γ, circulum describere. Secentur (per 9 primi) anguli α β γ, & α γ β, bifariam, per rectas lineas β δ, & γ δ, quæ concurrant adinuicem in signo δ. Excitenturq́; (per 12 primi) ab ipso δ, in ipsas α β, β γ, & γ α, rectas lineas: perpendiculares δ ε, δ ζ, & δ η. Et quoniam æqualis est angulus α β δ, angulo γ β δ, rectus etiam angulus β ε δ, recto β ζ δ: duo triangula sunt β ε δ, β ζ δ, duos angulos duobus angulis habētia æquales, & unū latus uni lateri æquale, quod uni ex æqualibus angulorum subtenditur β δ, scilicet quod commune ipsis est: æqualium angulorum subtendens: reliqua igitur latera (per 26 primi) reliquis lateribus æqualia habebunt, æqualis igitur est δ ε, ipsi δ ζ. per hoc etiam δ η, ipsi δ ζ, est æqualis, tres igitur δ ε, δ ζ, δ η, sibi inuicem sunt æquales (per 1 cōmunem sententiam.) Cētro igitur δ, spatio uero aut δ ε, aut δ ζ, aut δ η, circulus descriptus, per reliqua signa transibit, & tanget rectas lineas α β, β γ, γ α, quoniam anguli ad ε ζ η, signa existentes, recti sunt. Si enim eas secat, erit ab extremitate diametri circuli ad angulos rectos excitata, in circulum cadens, quod esse impossibile patuit (per 16 tertij.) Circulus igitur descriptus centro δ, spatio uero aut δ ε, aut δ ζ, aut δ η, rectas lineas α β, β γ, γ α, non secat, tanget igitur, & erit circulus descriptus in triangulo α β γ. in dato triāgulo igitur α β γ, circulus descriptus est ε ζ η. Quod facere oporteat.*
 
-<!-- Catchword: quæ -->
+[Diagram: triangle α β γ with inscribed circle ε ζ η, centre δ; the bisectors β δ, γ δ and the perpendiculars δ ε, δ ζ, δ η]
+
+## Eucli. ex Camp. Propositio 5
+
+[Margin]
+5
+[/Margin]
+
+CIrca trigonum assignatum, siue illud sit orthogonium, siue amblygonium, siue oxygonium: circulum describere.
+
+CAMPANVS. Sit trigonus assignatus a b c. Volo circa ipsum describere circulum. Hæc est quasi cōuersa tertiæ. Diuido duo eius latera a b & a c, per æqualia a b, quidem, in puncto d & a c, in pūcto e, à quibus productis produco perpendiculares ad lineas a b & a c, quas protraho quousque cōcurrant in puncto f, sintq́; d f, & e f. Concurrent enim, quoniam cū uterq́; angulorum d & e, sit rectus, si intelligatur protrahi linea d e, fient duo anguli ad partem in quam protrahūtur, minores duobus rectis, quare concurrent per penultimam petitionē, igitur à puncto f, qui est punctus concursus, quē dico esse cētrum circuli quæsiti protraho lineas ad singulos angulos, quæ sunt f a, f b, f c. Et quia in triangulo a d f, duo latera a d & d f, sunt æqualia duobus lateribus b d & d f, trianguli b d f, & angulus d unius angulo d alterius, quia uterque rectus: erit per 4 primi f a, æqualis f b. Eadem ratione erit f a, æqualis f c, comparatis lateribus angulis duorum triāgulorum a e f & c e f, ergo per 9 tertij, f erit centrum circuli quæsiti. Hæc est uniuersalis demonstratio ad omnes species trigoni. Quia tamen auctor uidetur uelle medium uariare distinguendo inter orthogonium, amblygonium & oxygonium, de quolibet eorū sigillatim est demōstrādū. Sit ergo trigonus propositus orthogonus, sitq́; angulus a, rectus. Latus b c, respiciens hunc angulum rectum, diuido per æqualia in f, à quo puncto quem di
+
+[Diagram: two circles, each circumscribed about a triangle; in the first, triangle a b c with midpoints d, e of the sides and the perpendiculars meeting at f within; in the second, the like construction with the point f on the base]
+
+<!-- Signature: h 3 -->
+
+<!-- Catchword: co -->

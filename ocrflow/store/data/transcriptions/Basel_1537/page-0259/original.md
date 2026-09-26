@@ -1,37 +1,37 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Page number: 248 -->
+<!-- Page number: 249 -->
 
-conceptionem mensurabit a, igitur a & b communicantes: mensurabat enim & b, quod est propositum.
+ui, g ad h ut e ad f, duplicata, ergo c ad d, sicut g ad h, quod est primum. Secundum sic. Sit c ad d, sicut g numerus quadratus ad h numerum quadratum. dico quod a & b erūt in longitudine communicantes. Cum enim sit c ad d ut a ad b, duplicata per 18 sexti, & g ad h per 11 octaui ut e ad f duplicata, quare & simpla a ad b sicut simpla e ad f: per 6 igitur sunt a & b communicantes. quod est secundum. Tertium uero patet ex primo à destructione consequentis. Similiter quartum patet ex secundo, à destructione consequentis,
 
-## Eucli. ex Zamb Theorema 4 Propositio 6
+CAMPANI annotatio. Ex tertia parte huius, nota diametrum esse incommensurabilem costæ. Cum enim sit quadratum diametri duplum quadrato costæ. dupla uero proportio nō sit sicut numerorum quadratorum. sequitur diametrum esse incommensurabilem costæ in longitudine. Alioqui cum quaternarius sit numerus quadratus, essent omnes pariter pares, quadrati, etiā alij infiniti qui non sunt quadrati. Ducit autem Aristoteles ad istud inconueniens, si diameter ponatur commensurabilis costæ, quod impar numerus erit æqualis pari, quod sic patet. Sit enim diameter a b commensurabilis lateri a c, eritque per 5 a b ad a c, sicut aliquis numerus ad alium. Sint ergo hi numeri e & f, qui sint minimi in sua proportione, eritque ob hoc, alter eorum impar. Si enim uterque par, non erunt minimi, quadrati quoque eorum sint g & h, si ergo e est impar, erit quoq̃ ex 30 noni g impar, sit itaq̃ k duplus ad h, eritque k ex diffinitione par. Quia igitur a b ad a c ut e ad f, erit per 8 sexti, & 11 octaui quadratū a b ad quadratum a c per penultimā primi. Et quia etiā k est duplus ad h, sequitur per 9 quinti ut g nūerus impar sit æqualis k nūero pari. Quod si e sit par, & f impar, erit proportio f ad dimidium e quod sit l, sicut a c ad dimidium a b, quod sit a d, & ideo erit proportio quadrati a c ad quadratū a d, sicut proportio numeri h qui est impar per 30 noni ad quadratū nūeri l, qui sit m, cui k ponatur esse duplus, eritq̃ k per diffinitionē, par. At quia quadratū a c est duplū ad quadratū a d per penultimam primi, erit h duplus ad m, cūque k sit etiam duplus ad m, erit per 9 quinti numerus impar b{printer-error-correction:h} æqualis k numero pari, quod est propositum.
 
-**6** Si binæ magnitudines adinuicem rationem habuerint quam numerus ad numerum, commensurabiles erunt ipsæ magnitudines.
+[Diagram: at the right, a square with corners b (top left), c (top right) and a (bottom right), its diagonals crossing at d]
 
-THEON ex Zamberto. Binæ enim magnitudines α,β, ad inuicem rationem habeant, quam numerus δ ad numerū ε. Dico quod commēsurabiles sunt ipsæ α,β, magnitudines. Quot enim sunt in ipso α{printer-error-correction:δ} unitates, in tot æquales diuidatur (per 9 sexti ipsa α, & uni earum æqualis esto γ. Quot autem unitates sunt in ε, ex totidē magnitudinibus ipsi γ æqualibus cōponatur ζ. Quoniā igitur quot sunt unitates in ipsa δ, tot magnitudines sunt & in ipsa α, æquales ipsi γ, qualis igitur pars est η, unitas ipsius δ, talis pars est & γ ipsius α, est igitur sicut γ ad α sic η, unitas ad ipsum δ. Metitur autem η, unitas ipsum δ numerū, metitur igitur & γ, ipsum, α. Et quoniā est sicut γ ad α, sic est η unitas ad numerum δ, & contra (per correlarium 4 quinti,) sicut est α ad γ, sic est δ numerus ad η unitatem. Rursus quoniam quot unitates sunt in ε, tot sunt & in ipsa ζ, æquales magnitudines ipsi γ, est igitur sicut γ ad ζ, sic η unitas ad ζ{printer-error-correction:ε} numerum. Patuit autem & sicut α ad γ, sic est δ ad unitatem η. Ex æquali igitur (per 22 quinti,) est sicut α ad ζ, sic est δ ad ε. Sed sicut δ ad ε, sic est α ad β. Igitur (per 11 quinti,) & sicut α ad β, sic est & α ad ζ. Igitur α, ad utrāq̃ ipsarū β,ζ, eandem habet rationem, æqualis (per 9 quinti,) igitur est β, ipsi ζ, metitur aūt γ, ipsam ζ, metitur igitur & β, sed & ipsam α. Igitur γ, ipsas α,β, metitur. Cōmēsurabilis igitur est α ipsi β. Si binæ igitur magnitudines adinuicem rationem habuerint quam numerus ad numerum, commensurabiles erunt ipsæ magnitudines , quod erat ostendendum.
+[Diagram: rows of dots at the right — e and f, g and h, and k with a longer row of dots]
 
-[Margin]
-ἀνάπαλιν
-[/Margin]
+[Diagram: rows of dots lower at the right — e, l and f; m, k and h]
 
-[Diagram: at the right of the Theon proof, four vertical ticked lines (γ the shortest) and two columns of square dots with a single dot between them, labelled below α, β, γ, ζ, δ, η, ε]
+Sequentia duo ex Zamberto Theoremata. in Campano nihil respondens habent,
 
-CORRELARIVM. Ex hoc proinde manifestum est, si fuerint bini numeri δ,ε, & recta linea sicut α, quod datur & factū est possibile sicut numerus ad numerum sic recta linea ad rectam lineā. Si autem ut ipsarum α,ζ, media proportionalis sumpta fuerit, sicut β, erit sicut α ad ζ. sic quod ex ipsa α, ad id quod ex ipsa β, hoc est sicut prima α ad tertiam ζ, sic quod α prima ad id quod ex secūda simile similiterq̃ descriptum, (per correlariū 19 sexti.) Sed sicut α ad ζ, sic est δ uumerus{printer-error-correction:numerus} ad ε numerum fit igitur sicut δ numerus ad ε, numerum, sic quod ex α, recta linea ad id quod ex β, recta linea.
+## Eucli. ex Zamb. Theorema 5 Propositio 7 Conuersa quintæ
 
-[Diagram: at the right of the correlarium, three vertical ticked lines and columns of square dots, labelled below α, β, ζ, δ, ε]
+**7** Incommensurabiles magnitudines adiuuicem{printer-error-correction:adinuicem} rationem non habent, quam numerus ad numerum.
 
-ALITER idem ostendere. Binæ enim magnitudines α, β, adinuicem rationem habeant, quam numerus γ ad numerum δ, dico quod ipsæ magnitudiues{printer-error-correction:magnitudines} sunt commeusurabiles{printer-error-correction:commensurabiles}. Quot enim sunt in ipso γ unitates, in tot æqualia diuidatur α, & uni earum æqualis esto ε. Est, igitur sicut unitas ad γ numerum, sic est ε ad α, est autem & sicut γ ad δ, sic α ad β, ex æquali igitur (per 22 quinti) est sicut unitas ad ipsum δ numerum, sic est ε ad β, metitur autem unitas ipsum δ metitur igitur ε ipsum β, metitur aūt & α, quoniam unitas ipsum ε. Igitur ε, utramq̃ ipsarum α, β, metitur. Ipsæ igitur α,β, commēsurabiles sunt, &, ipsarum cōmunis est dimēsio.
+THEON ex Zamberto. Sint incommensurabiles magnitudines, α,β. Dico quod α, ad β, rationem nō habet quam numerus ad numerum. Si enim habet α ad β, eam rationem quam numerus ad numerum, commensurabilis erit α ipsi β, (per sextam decimi) Non est autem, igitur α ad β rationem non habet, quam numerus ad numerum. Incommensurabiles igitur magnitudines rationem non habent adinuicem, quam numerus ad numerum, quod oportuit demonstrasse.
 
-[Diagram: at the left of the ALITER proof, three vertical ticked lines of decreasing height, two columns of square dots and a single dot, labelled below α, β, ε, γ, δ]
+[Diagram: two horizontal lines marked Re. 16 and Re. 32, labelled α and β at their right ends]
 
-## Eucli. ex Camp. Propositio 6
+## Eucli. ex Zamb. Theorema t 6{printer-error-correction:Theorema 6} Propositio 8 Conuersa sextæ
 
-**6** {dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duarū superficierum quadratarum quarum latera in longitudine cōmunicant, est proportio unius ad alteram, tanquā numeri quadrati ad numerum quadratum. Si uero fuerit proportio superficiei quadratæ ad superficiē quadratam tanquā proportio numeri quadrati ad numerū quadratū, erūt latera earū in lōgitudine cōmunicantia. Quod si fuerit proportio superficiei quadratæ ad superficiē quadratā, nō uelut numeri quadrati ad numerum quadratum, latera earum erunt in longitudine incommensurabilia.
+**8** Si binæ magnitudines adinuicem rationem non habuerint quam numerus ad numerum incommensurabiles erunt ipsæ magnitudines.
 
-[Diagram: at the right, a square divided into a 4×4 grid, labelled c above and a below; and a smaller square divided into a 2×2 grid, labelled d above and b below]
+THEON ex Zamb. Binæ enim magnitudines α,β, adinuicem non eam habeant rationem, quam numerus ad numerum. Dico quod ipsæ α,β, magnitudines sunt incommensurabiles. Si enim commensurabilis est α ipsi β, rationem habebit quam numerus ad numerum (per quintam decimi) non habet autē. Incōmonsurabiles{printer-error-correction:Incōmensurabiles} igitur sunt ipsæ α,β, magnitudines. Si binæ igitur magnitudines, & quæ sequuntur reliqua, quod erat ostendendum.
 
-CAMPANVS. Sint a & b, duæ lineæ quadratæ, quarū quadrata sint c & d. Dico quod si a & b cōmunicant in lōgitudine, erit proportio c ad d sicut numeri quadrati ad numerū quadratū, & econuerso. Si autem proportio c ad non sit{printer-error-correction:c ad d non sit} sicut nūeri quadrati ad numerū quadratū, a & b erūt incōmēsurabiles in lōgitudine, & ecōuerso. Verūtamē istud argumētū quartū nō proponit. Primū patet sic. Si a & b cōmunicant in longitudine, ipsæ per 5 erunt in proportione duorum numerorum qui sint e & f, quorū quadrati sint g & h. Quia ergo est c ad d sicut a ad b proportio duplicata per 18 sexti, sequitur, ut sit etiam e ad d sicut e ad f duplicata, sed etiā est per 11 octa
+[Diagram: two horizontal lines, the longer labelled α and the shorter labelled β]
 
-[Diagram: rows of dots at the right — g with sixteen dots and h with four dots; e with four dots and f with two dots]
+## Eucli. ex Zamb. Theorema 7 Propositio 9
 
-<!-- Catchword: ui -->
+**9** A lōgitudine cōmēsurabilibꝰ rectis lineis quadrata, adinuicē rationē habēt
+
+<!-- Catchword: quàm -->

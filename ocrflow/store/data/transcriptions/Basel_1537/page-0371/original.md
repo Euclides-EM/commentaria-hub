@@ -1,33 +1,31 @@
-<!-- Page number: 360 -->
+<!-- Running title: LIBER VNDECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 361 -->
 
-ciem assignatã, erit earũ cõmunis sectio linea recta ex 3 huius, sitq̃ b d. In hac ergo communi sectione signato puncto quolibet qui sit d, extrahatur ab eo in superficie quæ producta est à linea a b, linea quædam perpendicularis ad lineam b d, quæ sit d c. Eritq̃ ex secunda parte 28 primi, linea c d, æquidistans lineæ a b, ideoq̃ ex 8 huius, linea c d, est etiam perpendicularis ad superficiem propositam. Quia ergo hoc modo quælibet linea protracta orthogonaliter à quolibet puncto lineæ b d, ad ipsam lineã b d, in ipsa superficie quæ producta est à linea a b, est perpendicularis ad propositam superficiem, ex diffinitione superficiei supra superficiẽ orthogonaliter erectæ, constat uerum esse quod propositũ est.
+quæ ex diffinitione superficiei super aliam superficiē orthogonaliter erectæ, cum linea f g continebit angulum rectum : per quartā igitur huius erit linea f g, perpendicularis ad superficiem assignatā. Eodem quoq̃ modo protracta alia linea à puncto f in superficie assignata, quæ sit perpendicularis ad lineam f d, sequetur ex diffinitione prædicta & ex quarta huius, lineam f h esse perpendicularem ad superficiem assignatam, quod est impossibile per 13 huius. Quod si confiteare lineam e esse perpendicularē ad lineam f b, sed non ad lineam f d, sequetur modo consimili duas lineas e f & f h esse perpendiculares ad superficiem assignatam. Quod nihil minus est impossibile.
 
-[Diagram: two parallel vertical lines a b and c d standing on a horizontal line through b and d; a and c at top, b and d at bottom]
+## Eucli. ex Zamb. Theorema 17 Propositio 19
 
-## Eucli. ex Zamb. — Theorema 16 — Propositio 18
+19 Si bina plana sese inuicem dispescentia, plano alicui ad angulos rectos fuerint, & ipsorū cōmunis sectio ad idem planum ad angulos rectos erit.
 
-[Margin]
-18
-[/Margin]
+THEON ex Zamber. Bina etenim plana α β, β γ, subiecto plano ad angulos sint rectos, communis autem ipsorum sectio sit β δ. Dico quod ipsa β δ, ad subiectum planum ad angulos est rectos. Non sit. Et excitentur (per 12 undecimi) ab ipso δ signo in plano quidē α β, ipsi α δ rectæ lineæ, ad angulos rectos ipsa δ ε, in plano autem β γ, ipsi γ δ ad angulos rectos δ ζ. Et quoniam planum α β ad subiectum planum rectum est, & cōmuni ipsorū sectioni α δ ad angulos rectos α δ in ipso α β plano excitatur δ ε, igitur δ ε ad subiectum planum recta est. Similiter iam demōstrabimus, quod & δ ζ ad subiectum planum recta est. Ab eodem igitur signo δ, ad subiectum planum binæ rectæ lineæ ad angulos rectos constitutæ sunt ad easdem partes. Quod est impossibile. Igitur ad subiectum planum, a signo δ ad angulos rectos non constituetur alia, præter δ β communem sectionem, ipsorum β α, β γ, planorū. Si bina igitur plana inuicem sese dispescentia ad planum aliquod ad angulos fuerint rectos, & communis ipsorum sectio ad idem planum ad angulos rectos erit. Quod ostendere oportebat.
 
-## Si recta linea plano alicui ad angulos fuerit rectos, & omnia quæ per ipsam plana ad idem planum ad angulos rectos erunt.
+[Diagram: two planes standing on a base plane, apex β at top, α and γ at the bottom corners, δ at the meeting point of the planes near the bottom, with lines rising from δ to points ε and ζ in the upper part]
 
-THEON ex Zamber. Recta enim linea α β, subiecto plano ad angulos rectos esto. Dico quod & omnia quæ per α β plana, ad subiectum planum ad angulos rectos sunt. Extendatur, inquam, per α β, planũ δ ε, sitq̃ (per 3 undecimi) communis sectio ipsius δ ε linea plani, & subiecti, γ ε, & sumatur in γ ε, contingens signum ζ, & ab ipso ζ, (per 12 undecimi) ipsi γ ε ad angulos rectos excitetur in δ ε plano ipsa ζ η. Et quoniam α β ad subiectum planum recta est, & ad omnes igitur ipsam tangentes rectas lineas & in subiecto plano existentes recta est ipsa α β (per 2 undecimi diffinitionem,) quare & ad γ ε recta est. Igitur angulus qui sub α β ζ, rectus, est autem qui sub η ζ β, rectus, igitur (per 28 primi) α β, ipsi ζ η parallelus est. Ipsa autẽ α β, ad subiectum planum ad angulos rectos est, & ζ η igitur ad subiectũ planum ad angulos rectos est. Et quoniam (per 3 diffinitionẽ undecimi) planum ad planum rectum est quando quæ communi sectioni planorum ad angulos rectos ductæ rectæ lineæ in uno planorum, ad reliquũ planum ad angulos fuerint rectos, & ipsi γ ε sectioni planorum cõmuni, in uno planorum δ ε scilicet ad angulos rectos acta ζ η, ostensa est supposito plano ad angulos rectos esse, igitur planum δ ε rectum est ad suppositum planum. Similiter iam ostendetur quod omnia quæ per α β plana, recta sunt ad subiectum planum. Si recta igitur linea plano alicui ad angulos fuerit rectos, & omnia quæ per ipsam plana ad idem planum ad angulos rectos erunt. Quod oportuit demonstrasse.
+## Eucli. ex Camp. Propositio 20
 
-[Diagram: rectangle representing the plane δ ε, with δ at top left and ε at bottom right; two vertical lines within it, η ζ (η at top, ζ at bottom) and α β (α at top, β at bottom); γ at bottom left corner]
+20 {dropcap:S|lines=?|style=decorated}I tres anguli superficiales solidum angulum contineāt, illorum trium angulorū quiq̃ duo pariter accepti reliquo sunt maiores.
 
-## Eucli. ex Camp. — Propositio 19
+CAMPANVS. Sint tres lineæ a b, a c, a d, pyramidaliter erectæ supra superficiem b c d, cōtinentes tres superficiales angulos, ex quibus solidus perficitur angulus in puncto a. Dico quoslibet duos ex ipsis superficialibus angulis solidum angulum in puncto a constituentibus, pariter acceptos, tertio esse maiores. Si enim hi tres anguli superficiales fuerint sibi inuicem æquales, aut si duo tantū æquales existente tertio minore utrolibet duorum æqualium, constat per communem scientiam uerum esse quod dicitur. Quod si eorum unus utrolibet duorum reliquorū maior fuerit siue illi duo ponantur æquales siue non æquales, adhuc constat illum maiorem & utrumlibet duorum reliquorū pariter acceptos, tertio esse maiores. Sed & illos duos minores pariter acceptos hoc tertio qui maior utrolibet ponitur, esse maiores, sic collige. Esto enim trium propositorū angulorum superficialiū angulus c a d, maior utrolibet reliquorū duorum. Ex ipso ergo abscindam angulum e a d æqualem angulo b a d, protracta linea a e. Et sumam ex hac linea a e, lineam a g, & ex linea a b, lineam a f, quas ponam esse æquales. Et protraham lineam à puncto g qualitercunq̃ contingat, in superficie duarum linearū a c & a d, quousq̃ secet a c in puncto h, & a d in puncto k, & ipsa sit h g k. Et producam lineas f h & f k. Cum sit igitur a f æqualis a g, posita a k cōmuni, erit per 4 primi f k æqualis k g. Et quia ex 20 primi duæ lineæ h f & f k sunt maiores linea h k, erit per conceptionem h f maior h g. Ideoq̃ per 25 primi cum sit linea a f æqualis lineæ a g, erit angulus f a l{printer-error-correction:f a h}, maior angulo h a g. Per conceptionem igitur constat duos angulos h a f, f a k, pariter acceptos, esse maiores angulo h a k. Quod erat demonstrandum.
 
-[Margin]
-19
-[/Margin]
+[Diagram: pyramid with apex a above base line c e d; h lies on edge a c, k on edge a d, points g and f within, with the transversal h g k and lines f h, f k drawn]
 
-## {dropcap:S|lines=?|style=decorated}I duæ superficies seinuicem secantes, supra unam superficiem erectæ fuerint orthogonaliter, cõmunis earum sectio ad eandem superficiem perpendicularis erit.
+## Eucli. ex Zamb. Theorema 18 Propositio 20
 
-CAMPANVS. Sint duæ superficies a b & c d seinuicem secantes, erectæ orthogonaliter super assignatam superficiem, sitq̃ cõmunis earum sectio linea recta e f. Hanc dico esse perpẽdicularem ad assignatam superfciem{printer-error-correction:superfciem}. Alioqui à puncto f qui est communis terminus sectionum duarum superficierũ secantium & tertiæ superficiei sectæ, producatur una linea recta quæ sit f g, in superficie a b, perpendicularis ad superficiem assignatam, itemq̃ ab eodem puncto ducatur alia perpendicularis ad eandem superficiem, quæ sita sit in superficie c d, & ipsa sit f h, eruntq̃ duæ lineæ f g & f h, orthogonaliter insistentes super punctum unum ad superficiem assignatã. Hoc autẽ, impossibile est per 13 huius. Tales autem lineas posse protrahi à puncto f in utraque duarum superficierũ a b & c d, cum e f non fuerit perpendicularis ad assignatam superficiem, dubitare non conuenit. Intelligatur quidem linea f b cõmunis sectio superficiei a b & superficiei assignatæ, & linea f d, superficiei c d & superficiei assignatæ. Si igitur linea e f fuerit perpendicularis ad utranq̃ duarum linearũ f b & f d, ipsa etiam erit perpendicularis ad superficiem assignatam ex quarta huius. Si autẽ ad neutram, sit f g perpendicularis ad f b, & f h perpendicularis ad f d. Deinde à puncto f protrahe in superficie assignata unam lineam perpendicularẽ ad lineam f b,
+20 Si solidus angulus sub tribus angulis planis comprehendatur, quiuis duo reliquo maiores sunt quomodocunq̃ suscepti.
 
-[Diagram: two rectangular surfaces intersecting each other and standing on a horizontal base plane; labels a and e at top with c at upper right, b at left, g at right of the vertical common section, d at lower left, f at the foot of the common section on the base plane, b at bottom; oblique lines drawn from f]
+THEON ex Zamb. Solidus angulus qui ad α, sub tribus planis, hoc est β α γ, γ α δ, δ α β, comprehendatur. Dico quod bini quomodocunq̃ suscepti, reliquo sunt maiores. Si quidem ipsi qui sub β α γ, γ α δ, δ α β, anguli sunt
 
-<!-- Catchword: quæ ex -->
+<!-- Signature: H -->
+
+<!-- Catchword: inuicem -->

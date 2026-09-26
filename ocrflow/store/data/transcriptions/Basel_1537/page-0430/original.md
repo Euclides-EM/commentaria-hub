@@ -1,31 +1,27 @@
-<!-- Running title: LIBER DVODECIMVS. -->
+<!-- Page number: 420 -->
 
-<!-- Page number: 419 -->
+# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER TERTIVSDECIMVS,
 
-corpus multarum baſium quod eſt c d, utraque enim, eſt ſicut diameter a b ad diametrum c d triplicata. Hæc autem, ex hypotheſi, illa uero, ex ſecunda parte præmiſſæ. Quare p̃mutatim proportio ſphæræ a b ad corpꝰ multarũ baſiũ a b, eſt ſicut ſphæra e f ad corpus multarum baſium c d. Cum igitur ſphæra a b ſit maior corpore multarum baſium a b, erit etiã ſphæra e f maior corpore multarum baſium c d. Hoc autẽ eſt impoſſibile, nã ipſa eſt pars eius. Non eſt ergo ſphæra e f minor ſphæra c d. Si autẽ dicat aduerſarius eam eſſe maiorem, confutabimus ipſum hoc modo. Erit enim per conuerſam proportionalitatem ſphæra e f ad ſphærã a b, ſicut diameter c d ad diametrum a b triplicata. Sit itaque eadem ſphæræ c d. ad ſphæram g h, eritq̃ ex 14 quinti ſphæra g h, minor ſphæra a b, eo qd̃ ſphæra c d poſita eſt minor ſphæra e f. Quare proportio ſphæræ c d ad aliquam ſphæram minorem ſphæra a b, eſt ſicut diametri c d ad diametrum a b triplicata. At hoc eſt impoſſibile, nã ex hoc ſequitur, quod pars ſit maior ſuo toto ut demonſtratum eſt prius. Itaque ſphæra e f, non eſt maior neq̃ minor quàm ſphæra c d. Igitur (ex 7 quinti) conclude, ppoſitã cõcluſionẽ, quæ imponit finẽ libro duodecimo.
-
-[Diagram: circle with inscribed hexagonal solid and inner circle, labels a (top), g (inner), b (inner), b (bottom)]
-
-[Diagram: circle with inscribed hexagonal solid and inner circle, labels c (top), e (inner), f (inner), d (bottom)]
-
-## Eucli. ex Zamb. Theorema 16 Propoſitio 18
+## Euclides ex Campano. Propoſitio 1
 
 [Margin]
-18
+1
 [/Margin]
 
-Sphæræ adinuicem, in triplici ſunt ratione propriorum dimetientium.
+CVm diuiſa fuerit linea ſecundum proportionem habentem medium duoque extrema, ſi maiori portioni linea in longum addatur æqualis dimidio ipſius lineæ proportionaliter diuiſæ, quadratum lineæ ex eis duabus compoſitæ quadrati medietatis eiuſdem lineæ diuiſæ quintuplum eſſe neceſſe eſt.
 
-THEON ex Zãb. Intelligatur ſphæræ α β γ, δ ε ζ, diametri uero ipſarũ ſint β γ, ε ζ, dico quod ſphæra α β γ ad ſphæram δ ε ζ, triplã habet rationẽ quàm β γ ad ε ζ. Si aũt nõ: habebit igitur α β γ ſphæra ad minorẽ aliquã ipſa δ ε ζ, ſphæra, triplã rationẽ, uel ad maiorẽ, quàm β γ ad ε ζ. Habeat prius ad minorẽ η θ κ, & intelligatur δ ε ζ ſphæra, ipſi η θ κ, circũ idẽ centrũ, deſcribaturq̃ (per præcedentẽ) in ſphæra maiori δ ε ζ, ſolidũ polyhedrũ non tangẽs minorẽ ſphærã η θ κ in ſuperficie. Deſcribatur autẽ (per eandẽ, & in α β γ ſphæra, ei quod in δ ε ζ, ſolido polyhedro ſimile ſolidũ polyhedrũ. Igitur (per correlariũ eiuſdem) ſolidũ polyhedrũ quod in ſphæra α β γ, ad id ſolidũ polyhedrũ quod in δ ε ζ, triplã habet rõnẽ quã β γ ad ε ζ. Habet autẽ & α β γ ſphæra, ad η θ κ ſphæram, triplã rationẽ quàm β γ ad ε ζ, eſt igitur ſicut ſphæra α β γ ad ſphæram η θ κ, ſic ſolidum polyhedrũ quod in α β γ ſphæra, ad ſolidũ polyhedrũ quod in δ ε ζ, ſphæra. Viciſſim igitur (per 16 quinti,) ſicut α β γ ſphæra ad id quod in ipſa polyhedrũ, ſic η θ κ, ſphæra ad id quod in δ ε ζ ſphæra ſolidũ polyhedrũ. Maior autẽ eſt α β γ ſphæra, eo q̃ in ſe polyhedro. Maior igitur & η θ κ ſphæra, eo quod in δ ε ζ, ſphæra polyhedro. Sed & minor, ab ipſo namq̃ cõprehenditur, quod eſt impoſſibile. Sphæra igitur α β γ, ad minorẽ ipſa δ ε ζ ſphærã, triplã rationẽ non habet quàm β γ, diameter ad δ ζ{printer-error-correction:ε ζ} diametrũ. Similiter iam demõſtrabimus, quod neque δ ε ζ ſphæra, ad minorẽ ipſa α β γ ſphæra, triplam habet rõnem quàm ε ζ ad β γ.
+CAMPANVS Sit linea a b diuiſa in puncto c, prout docet 29 ſexti, & ſit maior portio eius, linea b c, cui b c directe adiungatur linea b d, quæ ſit æqualis medietati totius a b. Dico quod quadratum lineæ c d, erit quintuplũ ad quadratũ lineæ b d. Quadrabo enim lineam b d, & ſit eius quadratum d e, & circũponam huic quadrato gnomonem ſecũdum quantitatem lineæ b c, protracta diametro f b g. ſitq̃ circũpoſitus gnomo e g d, eritq̃ ex 11 ſexti ſuperficies inde compoſita, quæ ſit h k, tanquã quadratum lineæ c d. Dico igitur quadratũ h k, quintuplum eſſe ad quadratũ d e. Sit igitur c l quadratum circumpoſiti gnomonis, ſibiq̃ circũponatur alius gnomo ad quantitatem lineæ a c, protracta diametro f b uſque ad m, ſitq̃ hic gnomo c m l, & protrahantur lineæ c n & p l æquidiſtanter lateribus oppoſitis, ſecantes ſe ſuper diametrũ f m in puncto g. Manifeſtũ eſt autem ex 11 ſexti, quod cõpoſitũ ex hoc ſecũdo gnomone & quadrato c l (& ipſum quadratũ ſit a q) eſt quadratũ lineæ a b, qd̃ ex quarta ſcd̃i neceſſe eſt eſſe quadruplũ ad quadratũ d e, eo qd̃ linea b d eſt medietas lineæ a b. Cumque ſit ex prima parte 16 ſexti ſuperficies a n, ideoque per 43 primi ſuperficies m l, æqualis quadrato c l (prouenit enim a n, ideoq̃ & m l, ex b a in a c, & c l prouenit ex c b in ſe, & cum ex prima ſexti ſit a l dupla ad l d, ideoq̃ æqualis l d & c e pariter acceptis ex 43 primi, erit ex hac communi ſcientia (ſi æqualibus æqualia addas tota fient æqualia) quadratũ a q æquale gnomoni e g d. Hic ergo gnomo quadruplus eſt ad quadratum d e, quemadmodum erat quadratum a q. Itaq̃ totum quadratum h k, cum ipſum conſtet ex ſimplo & quadruplo, erit ex communi ſciẽtia quintuplum ad idẽ. Quod eſt propoſitum.
 
-[Diagram: large circle labelled e]
+[Diagram: two overlapping squares with common diagonal f–m and inscribed gnomons; labels m, n, q along the top, p, l, k at the sides, g and b at the inner intersections, a, c, d at the left and right, b, e, f along the bottom]
 
-[Diagram: large circle labelled f]
+IDEM aliter. Ex quarta ſecundi conſtat, quod quadratum lineæ a b, eſt quadruplũ ad quadratum lineæ b d. At per ſecundam eiuſdem quod fit ex a b in b c & in a c, eſt æquale quadrato a b. quod autem ex a b in b c, æquũ eſt ei quod ex b d bis in b c, quod ex prima ſecundi manifeſtum eſt, cũ a b ſit dupla ad b d. At uero quod ex a b in a c eſt ex prima parte 16 ſexti æquale quadrato b c. Itaque per communem ſcientiam quod fit ex b d, bis in b c, quod ex b c in ſe, eſt æquale quadrato a b, & ideo eſt quadruplum ad quadratum b d. Quare ſuperaddito quadrato b d, erit totum aggregatum, quintuplum. uidelicet illud quod fit ex b d bis in b c cum quadrato b c & quadrato b d. At quia ex quarta ſecundi hoc totũ eſt æquale quadrato c d, conſtat uerũ eſſe quod diximus.
 
-[Diagram: three circles in a row — first: circle with horizontal diameter, labels α (top), β (left), γ (right), δ (bottom); second: two concentric circles with horizontal diameter, labels η (top), θ (inner left), κ (inner right), ε (outer left), ζ (outer right); third: circle with labels λ (top), μ (left), ν (right)]
+## Eucl. ex Zamb. Theorema 1 Propoſitio 1
 
-Dico iam quod neque ſphæra α β γ, ad maiorem aliquã ipſa δ ε ζ ſphæra triplã habet rationẽ quàm β γ ad ε ζ. Si enim poſſibile habeat ad maiorẽ λ μ ν. Conuerſim igitur ſphæra λ μ ν ad ſphæram α β γ triplã habet rationẽ, quàm diameter ε ζ ad diametrũ β γ. Sicut autẽ λ μ ν ſphæra ad α β γ, ſphæram, ſic δ ε ζ ſphæra ad minorẽ aliquã ipſa α β γ ſphæra, ſicut antea patuit, quoniam maior eſt λ μ ν ipſa δ ε ζ, & ſphæra δ ε ζ ad minorem ipſa α β γ, ſphæra triplam habet rationem quàm ε ζ ad β γ, quod eſt impoſſibile. Igitur ſphæra α β γ, ad maiorem ipſa δ ε ζ ſphæra, triplam rationẽ non habet quàm β ε{printer-error-correction:β γ} ad ε ζ. Patuit autẽ quod neque ad minorem. Ipſa igitur α β γ ſphæra, ad δ ε ζ ſphæram, triplam habet rationem, quàm β γ ad ε ζ. Quod oſtendendum fuerat.
+[Margin]
+1
+[/Margin]
 
-## DVODECIMI LIBRI FINIS.
+SI recta linea extrema & media ratione ſecetur maius ſegmentum admittens totius dimidiam, quintuplum poteſt eius quod ex totius dimidia.
 
-<!-- Catchword: EVCLI -->
+<!-- Catchword: THEON -->

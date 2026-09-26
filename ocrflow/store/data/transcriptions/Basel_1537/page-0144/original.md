@@ -1,45 +1,43 @@
-<!-- Running title: LIBER QVINTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 133 -->
+<!-- Page number: 134 -->
 
-[Margin]
-24.
-[/Margin]
-
-SI fuerit proportio primi ad secundum tanquam tertij ad quartum: proportio uero quinti ad secūdum tanquā sexti ad quartum , erit proportio primi & quinti pariter acceptorum ad secundum, tanquam sexti & tertij pariter accepto ra ad quartū.
-
-CAMPANVS. Quod secunda proposuit de multiplicibus, hæc proponit uniuersaliter de omnibus proportionibus: unde hæc est illa tanto communior, quãto multiplicitate proportio & se habet ad illam, quemadmodum 13 ad primā.
-
-[Diagram: two horizontal line segments with tick marks, the first labelled a, b, g, the second labelled d, e, h; below them two shorter segments labelled c and f]
-
-Sit igitur proportio a b ad c, sicut d e ad f: & item b g ad c, sicut e h ad f: dico quod proportio a g ad c, est sicut d h ad f. Erit enim per cōuersam proportionalitatem, c ad b g, sicut f ad e h: quare per 22. erit in æqua proportionalitate a b ad b g: sicut e d ad e h: ergo cōiunctim per 18, a g ad g b, sicut d h ad h e: itaq̃ per 22, erit in æqua proportionalita te a g ad c, sicut d h ad f, quod est propositum.
-
-## Eucli. ex Camp. Theorema.24. Propositio.24.
-
-[Margin]
-24
-[/Margin]
-
-Si primum ad secundum eandem habuerit rationē & tertium ad quartum, habuerit autem & quintum ad secundum eandem rationem & sextum ad quartū: etiam composita primum & quintum ad secundum, eandem habebunt rationem, & tertium & sextum ad quartum.
-
-THEON ex Zamberto. Primum etiam α β, ad secundum γ eandem habeat rationem, & tertium δ ε ad quartum ζ, habeat autem & quintum β η, ad secundum γ : eandem rationem & sextum ε θ ad quartum ζ. Dico quod etiam composita primum & quintum α η ad secundum γ eandem habebunt rationem: ac tertium & sextum δ θ ad ipsum ζ quartum. Quoniam enim est sicut β η ad γ, sic est ε θ ad ζ: conuersim quoq; sicut γ αd β η, sic ζ ad ε θ. Quoniam igitur est sicut α β ad γ, sic δ ε ad ζ, sicut autem γ ad β η, sic ζ ad ε θ: ex æquali igitur ( per 22 quinti ) est sicut α β ad β η, sic δ ε ad ε θ. Et quoniam disiunctæ magnitudines proportionales sunt, compositæ quoq̃ proportionales erunt (per 18 quinti: sicut igitur α η ad η β, sic δ θ ad θ ε : est autem & sicut β η ad γ, sic ε θ ad ζ: ex æquàli igitur ( per 22 quinti) est sicut α η ad γ, sic δ θ ad ζ. Si primū igitur ad secundum eandem habuerit rationem & tertium ad quartum, habuerit aūt quintū ad secundum eandem rationem, & sextum ad quartum: etiam composita primum & quintum ad secundū eandē habebunt rationē & tertiū & sextum ad quartū: quod oportebat demonstrare.
-
-[Diagram: vertical line segments of varying heights with tick marks, labelled at the base α γ δ ζ]
-
-## Eucli. ex Camp. Propositio 25.
+## Eucli. ex Zamb. Theorema 25. Propositio 25
 
 [Margin]
 25
 [/Margin]
 
-SI fuerint quatuor quantitates proportionales, fueritq̃ prima earum maxima, & ultima minima, primam & ultimam pariter acceptas cæteris duabus maius esse necessario comprobatur.
+Si quatuor magnitudines proportionales fuerint, maxima earum & minima, reliquis maiores erunt.
 
-CAMPANVS. Quod hic proponitur, nō habet locum: nisi cum omnes quatuor quantitates sunt eiusdem generis. Sint igitur quatuor quantitatū eiusdem generis, proportio a b ad c d, sicut e ad f: sitq̃ a b, maxima. Neq̃ oportet ponere quod f sit minima: quia ipsum ex hoc sequitur, quod a b posita est maxima: unde non posuit hoc auctor in conclusione tanquam positionē: sed potius tanquam præcedentis positionis conclusionē.
+THEON ex Zamberto. Sint quatuor magnitudines proportionales α β, γ δ, ε, ζ: sicut α β ad γ δ, sic ε ad ζ. Sit autem maxima earum α β, minima uero ζ. Dico quod ipsæ α β & ζ, ipsis γ δ & ε maiores sunt. Ponatur, inquā. (per tertiā primi) ipsi ε æqualis α η, & ipsi ζ æqualis γ θ. Quoniam igitur est sicut αβ ad γ δ, sic ε ad ζ : æqualis autem est ε ipsi α η, & ipsi ζ æqualis γ θ: est igitur sicut α β ad γ δ, sic α η ad γθ, & quoniam est sicut totum α β ad totum γ δ, sic ablatum α η ad ablatum γ θ: & reliquum igitur η β (per 19 quinti) ad reliquū θ δ, erit sicut totū α β ad totum γ δ. Maior autem est α β, quàm γ δ : maior igitur est η β, ipsa θ δ. Et quoniam æqualis est α θ ipsi ε, & γ θ ipsi ζ: igitur α η & ζ sunt æquales ipsis γ θ ε. Et quoniam si inæqualibus æqualia addantur tota inæqualia fient ( per quartam communem sententiam: cum igitur η β & θ γ sint inæquales, & η β maior sit, & ipsi quidem η β addantur α η & ζ: ipsi uero θ δ addantur γ θ & ε, producentur α β & ζ maiores ipsis γ δ & ε. Si quatuor igitur magnitudines proportionales fuerint, maxima & minima earum, reliquis maiores erunt, quod demonstrare oportebat.
 
-[Diagram: horizontal line segments with tick marks: one labelled a, g, b with a shorter segment labelled e beside it; below, one labelled c, h, d with a shorter segment labelled f beside it]
+[Handwritten]
+small stroke resembling ſ in the left margin beside the proof
+[/Handwritten]
 
-Dico quod cum ita fuerit, maius erit aggregatum ex a b & f, quam ex c d & e. Cum enim a b sit maior e, abscindā ex a b, g b æqualem e: similiter quoq̃ quia c d est maior f, abscindam ex c d, h d æqualem f. Eritq̃ per hypothesin a b ad c b, sicut g b ad h d, quare per 19, a g residuum ad c h residuum: sicut totum a b ad totum c d. Cum ergo a g se habet ad c h sicut a b ad c d, sed a b est maior c d. quare a g maior est c h : additis igitur utriq̃ duabus quantitatibus g b & h d, erit per cōmunem scientiam, aggregatum ex a b & h d maius aggregato ex c d & g b : & quia d h posita est æqualis f, & g, b e : maius erit aggregatum ex a b & f, quàm aggregatū ex c d & e: quod est propositum.
+[Diagram: four vertical line segments with tick marks; the first labelled β at the top and α at the base with a point marked η, the second labelled δ at the top and γ at the base with a point marked θ, the third and fourth labelled ε and ζ at the base]
 
-<!-- Signature: m -->
+Nouem sequentes propositiones quas ad 25 adiecit Campanus, nihil in Zamberto eis respondens habent : nec plures 25 in uetustioribus Euclidis exemplaribus reperiuntur : quare ex additione Campani esse uidentur.
 
-<!-- Catchword: Eucli. -->
+[Margin]
+26
+[/Margin]
+
+SI fuerit quatuor quantitatum proportio primæ ad secūdam maior quàm terriæ ad quartam, erit conuersim è contrario secundæ ad primam minor quàm quartæ ad tertiam.
+
+CAMPANVS. Sit proportio a ad b, maior quàm c ad d: dico quod erit è conuerso, modo contrario minor proportio b ad a, quàm d ad c. Si enim est eadem b ad a quæ est d ad c: erit è conuerso a ad b ut c ad d: sed non est, immo maior.
+
+[Diagram: horizontal line segments with tick marks: a longer segment labelled a and another labelled c in the first row; shorter segments labelled b and d in the second row; a short segment labelled e below]
+
+At uero si est b ad a maior quàm d ad c, sit e ad a, ut d ad c: eritq̃ ex duodecim, e ad a minor q̃ b ad a: quare ex prima parte decimæ e est minor b. Ideoq̃ ex secūda parte s, maior erit proportio a ad e, quàm a ad b: & quia per cōuersam proportionalitatem, a ad e, sicut c ad d : erit ex duodecima, proportio c ad d maior quàm a ad b, sed erit minor, relinquitur ergo propositum. Possumus quoq̃ (si libet ) astruere propositum ostensiue: manifestum enim est ex prima parte decimæ, quod illa quantitas cuius ad b est eadem proportio quæ est c ad d, est minor a: eo quòd ponitur maior proportio a ad b quàm c ad d: illa ergo quantitas sit e: cum sit igitur proportio e ad b ut c ad d: erit è conuerso b ad e, ut d ad c. Constat autem ex secunda parte octauæ, quod proportio b ad a : minor est quàm proportio b ad e. Itaq̃ per duodecimam, proportio b ad a: est minor q̃ d ad c. Quod uoluimus.
+
+[Margin]
+27
+[/Margin]
+
+Si fuerit quatuor quantitatum maior proportio primæ ad secundam quàm tertiæ ad quartam, erit permutatim maior proportio primæ ad tertiam quàm secundæ ad quartam.
+
+CAMPANVS. Sit hic quoq̃ proportio a ad b maior, quàm c ad d: dico quod erit permutatim maior proportio a ad c, quàm b ad d. Eadem enim non erit, quia tunc quoq̃ esset permutatim a ad b, sicut c ad d. Neq̃ minor: nam si hoc ponatur: sit itaque
+
+<!-- Catchword: e ad c, -->

@@ -1,31 +1,33 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVINTVS. -->
 
-<!-- Page number: 114 -->
+<!-- Page number: 115 -->
 
-[Margin]
-σύνδυο, i. binis (partially legible)
-[/Margin]
+*Quoniā enim æque multiplex est a β, ipsius ε, & γ δ, ipsius ζ, quotcūq̃ igitur magnitudines sunt in a β, æquales ipsi ε, totidē & in γ δ, sunt æquales ipsi ζ. Dirimatur quidē a β, in magnitudines æquales ipsi ε, hoc est a η, & η β, & γ δ, ipsi ζ, æquales magnitudines, hoc est γ θ, & θ δ. Erit nimirū multitudo ipsarum γ θ, & θ δ, multitudini ipsarum a η, & η β, æqualis. Et quoniam æqualis est a η, ipsi ε, & γ θ, ipsi ζ, ipsis a η, & γ θ, ipsis ε, ζ sunt æquales, & per hoc quoniam æqualis est η β, ipsi ε, & θ δ, ipsi ζ, sunt æquales ipsis ε, ζ. Quotcunque igitur sunt in a β, æquales ipsi ε, tot & in ipsis a β, γ δ, sunt æquales ipsis ε, ζ, quotuplex igitur est a β, ipsius ε, totuplices sunt a β, & γ δ, ipsarū ε, ζ. Si fuerint igitur quotcunque magnitudines quotcunque magnitudinum æqualiū numero singulæ singularum æque multiplices, quotuplex est una magnitudo unius, totuplices erunt & omnes omnium, quod demonstrasse oportuit.*
 
-gnitudinibus & alijs eis æqualibus multitudine* una sumptis & in eadem ratione quando fuerit sicut in primis magnitudinibus prima ad ultimam, sic in secundis magnitudinibus prima ad ultimam. Vel aliter. Acceptio extremarum per subtractionem mediarum. 18 Ordinata proportio, est cùm fuerit antecedens ad consequens, sicut antecedēs ad cōsequēs & consequens ad rem aliam, sicut cōsequens ad rem aliā. 19 Inordinata proportio, est cū fuerit antecedēs ad cōsequens sicut antecedēs ad cōsequēs, & cōsequens ad rem aliam sicut res alia ad antecedēs. 20 Extēsa proportio, est uādo fuerit sicut antecedēs ad cōsequens sic antecedens ad consequens, fuerit autem & sicut consequens ad rem aliam, sic consequens ad rem aliam.
+[Diagram: in right margin, vertical line segments a β and γ δ, each divided (at η and θ), beside shorter segments ε and ζ]
 
-21 Perturbata autem proportio, est quando tribus existentibus magnitudinibus & alijs eis æqualibus multitudine, fit sicut quidem in primis magnitudinibus antecedens ad consequens sic in secundis magnitudinibus antecedens ad consequens, sicut autem in primis magnitudinibus cōsequens ad rem aliam, sic in secundis res alia ad antecedens.
+## Eucli. ex Camp. — Propositio 2
 
-## Eucli. ex Camp. — Propositio 1
+2 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerint sex quantitates quarum prima ad secūdam atque tertia ad quartam æque multiplices, quinta uero ad secundam atque sexta ad quartam æque multiplices, totum primæ & quintæ ad secundam totumque tertiæ & sextæ ad quartam æque multiplicia esse conueniet.
 
-1 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerint quotlibet quantitates aliarum totidem æquæ multiplices, aut singulæ singulis æquales, necesse est quemadmodum una illarum ad sui comparem, totum quoque ex his aggregatum ad omnes illas pariter acceptas similiter se habere.
+CAMPANVS Sint sex quantitates, a prima, b secunda, c tertia, d quarta, e quinta, f sexta. Sintq̃ a & c, æque multiplices ad b, & d. Itemque e & f sint æque multiplices ad easdē. Dico qđ sicut totum aggregatū ex a & e, est multiplex ad quantitatem b, ita totum aggregatum ex c & f, est multiplex ad quantitatem d. Nam quia numerus secundum quem b continetur in a, est æqualis numero secundum quem d continetur in c, similiter quoque numerus secūdum quem b continetur in e, est æqualis numero secundum quē d continetur in f: erit per cōmunē scientiam quæ est: si æqualibus æqualia addātur & tota quoque erunt æqualia, numerus secūdū quē b cōtinetur in aggregato ex a & e, æqualis numero secundum quē d cōtinetur in aggregato ex c & f: quare sicut aggregatū ex a & e, est multiplex ad b, ita aggregatum ex c & f, est multiplex ad d, quod est propositum.
 
-CAMPANVS Sint quotlibet quantitates quæ sint a b, c, aliarū totidem quæ sint d e f, æque multiplices, unaquæq̃ ad sui comparem. aut singulæ sint singulis æquales, ita uidelicet quod sicut a est multiplex d, ita b est multiplex e, & c, multiplex f uel si a est æqualis d, quod similiter b sit æqualis e, & c æqualis f, dico quod sicut se habet a ad d, ita se habet aggregatum ex omnibus quæ sunt a b c, ad aggregatum ex omnibus quæ sunt d e f.
+[Diagram: at right, horizontal lines of varying lengths labelled a, b, d, e, c, f]
 
-[Diagram: at right, three long horizontal lines divided by ticks, labelled a, b, c; beneath them three shorter lines labelled d, e, f]
+## Eucli. ex Zamb. — Theorema 2 — Propositio 2
 
-Quod si singulæ singulis sint æquales, patet propositum per hanc commuuem scientiam, si æqualibus æqualia addantur, tota quoq̃ erūt æqualia. Si autem sint omnes suis cōparibus æque multiplices, diuisis eis secundum quantitatem suarum submultiplicium, erit aggregatum ex prima parte a, & prima b, & prima c, æquale aggregato ex d e f, per prædictam communem scientiam adiuuante hac, quæ eidem sunt æqualia inter se sunt æqualia. Similiter quoque aggregatū ex secundis partibus quantitatum a b, erit æquale aggregato ex d e f, sicque de cæteris, & quia hoc poterit totiens fieri quotiens d continetur in a, erit ut æquale aggregatum ex d e f, totiens cōtineatur in aggregato ex a b c, quotiens d continetur in a. Quia ergo quotiens d numerat a, totiens aggregatū ex d e f, numerat aggregatum ex a b c, patet quod sicut a est multiplex ad d, ita aggregatum ex a b c, aggregati ex d e f, quod est propositum.
+## 2 Si prima secundæ æque fuerit multiplex, & tertia quartæ, fuerit autem & quinta secūdæ æque multiplex & sexta quartæ, & cōposita prima & quinta, secundæ æque multiplex erit, & tertia & sexta quartæ.
 
-[Diagram: at right, three short horizontal lines labelled a, b, c; beneath them three equal short lines labelled d, e, f]
+THEON ex Zamb. *Prima enim a β, secundæ γ, æque multiplex esto, & tertia δ ε, ipsius ζ, quartæ, sit autē & quinta β η, secundæ γ, æque multiplex, & sexta ε θ, ipsius ζ, quartæ. Dico quod composita prima & quinta a η, ipsius γ, secundæ æque multiplex erit, & tertia & sexta δ θ, ipsius ζ, quartæ. Quoniam enim æque multiplex est a β, ipsius γ, & δ ε, ipsius ζ, quot magnitudines igitur sunt in a β, æquales ipsi γ, totidem magnitudines sunt in δ ε, æquales ipsi ζ. ac per hoc, & quot sunt in β η, æquales ipsi γ, tot etiam sunt in ε θ, æquales ipsi ζ. Quot igitur sunt in tota a η, æquales ipsi γ, tot sunt in tota δ θ, æquales ipsi ζ. Quotuplex igitur est a η, ipsius γ, totuplex est & δ θ, ipsius ζ. Et composita igitur prima & quinta a η, ipsius γ, secundæ æque erit multiplex & tertia & sexta δ θ, ipsius ζ, quartæ. Si prima igitur secundæ æque fuerit multiplex & tertia quartæ, fuerit autem & quinta secūdæ æque multiplex & sexta quartæ, etiam composita prima & quinta, secundæ æque multiplex erit & tertia & sexta quartæ, quod demōstrasse oportuit.*
 
-## Eucli. ex Zamb. — Theorema 1 — Propositio 1
+[Diagram: in right margin, vertical line segments a β η and δ ε θ, each divided by ticks, beside shorter segments γ and ζ]
 
-## 1 Si fuerint quotcunque magnitudines quotcunque magnitudinum æqualium numero singulæ singularum æque multiplices, quotuplex est unius una magnitudo, totuplices erunt & omnes omnium.
+## Eucli. ex Camp. — Propositio 3
 
-THEON ex Zamb. *Sint quotcunque magnitudines a β, γ δ, quotcunque magnitudinū ε, ζ, æqualiū numero, æque multiplices, singulæ singularū. Dico quod quotuplex est a β, ipsius ε, totuplices erunt a β, & γ δ, ipsarū ε, ζ.*
+3 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerint primum secundi & tertiū quarti æque multiplicia, ad primum uero & tertium multiplices sumantur æquales, erunt multiplex primi ad secundum, atque multiplex tertij ad quartum æque multiplicia.
 
-<!-- Catchword: Quo- -->
+CAMP. Sit sex quātitates, a pria, b scđa, c tertia, d quarta, e quīta, f sexta, sintq̃ a ad b & c ad d, itēq̃ e ad a & f ad c, æque multiplices. Dico q̃ sicut e est multiplex ad b, ita f ad d
+
+<!-- Signature: k 4 -->
+
+<!-- Catchword: Diui -->

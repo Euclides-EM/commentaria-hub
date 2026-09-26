@@ -1,57 +1,45 @@
-<!-- Page number: 334 -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 335 -->
 
-les. Quoniam igitur est sicut α ε, ad ε β, sic est γ ζ ad ζ δ, est igitur (per 22 sexti,) & sicut quod ex α ε ad id quod ex ε β, sic quod ex γ ζ ad id quod ex ζ δ. Componendo igitur (per 18 quinti,) est sicut quod ex α ε, ε β, ad id quod ex ε β, sic est quod ex γ ζ, ζ δ, ad id quod ex ζ δ, & uicissim (per 16 quinti. Commensurabile autem est (per 6 decimi, quod ex β ε ei quod ex δ ζ, commensurabile igitur est & cōflatum ex ipsarū α ε, ε β, quadratis, conflato ex ipsarū γ ζ. ζ δ, quadratis. Rationale autē est (per 22 decimi) conflatū ex ipsarum α ε, ε β, quadratis, rationale igitur est (per correlariū 25 decimi & 11 quinti,) & conflatū ex ipsarū γ ζ, ζ δ, quadratis. Rursus quoniam est sicut quod ex α ε ad id quod sub α ε, ε β, sic quod ex γ ζ, ad id quod sub γ ζ, ζ δ, & uicissim cōmensurabile autem est (per 6 decimi) quod ex α ε quadratum ei quod ex γ ζ, quadrato, cōmensurabile igitur est quod sub α ε, ε β, ei quod sub γ ζ, ζ δ. Mediū autem quod sub α ε, ε β, medium itidem quod sub γ ζ, ζ δ, Ipsæ igitur γ ζ, ζ δ, (per 82 decimi) sunt incommensurabiles, sunt efficientes quidem conflatum ex ipsarum quadratis rationale, quod uero sub ipsis medium. Ipsæ igitur γ δ, minor est. Minori commensurabilis igitur, & quæ sequuntur. Quuod  erat ostendendum.
-
-[Diagram: two horizontal lines, one above the other: the upper labelled α at the left end, β at the division point, ε at the right end; the lower labelled γ at the left end, δ at the division point, ζ at the right end]
-
-## Eucli.ex Camp. — Propositio 101
-
-[Margin]
-101
-[/Margin]
-
-[Margin]
-Figura propositionis 100
-[/Margin]
-
-## OMnis linea communicans lineæ cum rationali componenti mediale, est cum rationali componens mediale.
-
-CAMPANVS Hanc quoque duplici prædicto modo non est difficile probare, siue de communicantia in lōgitudine siue in cōmunicantia in potētia tantum intelligatur. Sed quantū ad primum modū, erunt duo quadrata duarū linearum f & d pariter accepta mediale per 21, quemadmodū sunt duo quadrata duarum linearum e & c pariter accepta ex 72, quibus ipsa cōmunicant, & superficies l erit rationalis, per diffinitionem, quemadmodum est superficies K ex 72 cui ipsa cōmunicat. Igitur ex 72 b est cum rationali cōponens mediale. Quantum ad secundum modum, erit d e residuum quintum ex 69, ideoq̃ & e g ex 98. quare b est cum rationali componens mediale per 90.
-
-## Eucli.ex Zamb. — Theorema 82 — Propositio 106
-
-[Margin]
-106
-[/Margin]
-
-## Cum rationali medium totum efficienti commensurabilis, & eadem cū rationali medium totum efficiens est.
-
-THEON ex Zamb. Esto cum rationali medium totum efficiens α β, & ipsi α β cōmensurabilis esto γ δ. Dico quod γ δ est cū rationali mediū totū efficiēs. Sit inquā (per 79 decimi) ipsi α β cōgruēs β ε. Ipsæ igitur α ε, ε β. (per 80 decimi, potentia sunt incommensurabiles, efficientes quidē ex ipsarū quadratis mediū, quod autem sub ipsis rationale & eadem cōstruātur. Similiter iam ostendemus ex præcedētibus, quod ipsæ γ ζ, ζ δ, in eadē sunt ratiōe ipsis α ε, ε β, & conflatum quidē ex ipsarum α ε, ε β, quadratis, commensurabile est conflato ex ijs quæ ex γ ζ, ζ δ, quadratis, quod autem sub α ε, ε β, ei quod sub ε ζ{printer-error-correction:γ ζ}, ζ δ. Quare & ipsæ γ ζ, ζ δ, potentia sunt incommēsurabiles, efficientes conflatum quidē ex ipsarū γ ζ, ζ δ, quadratis medium, quod autem sub ipsis rationale. Ipsa igitur γ δ est cum rationali totum efficiens medium. Cum rationali ergo medium totū efficienti, & quæ sequuntur reliqua. Quod ostendere oportebat.
+THEON ex Zāb. Esto cum medio mediū, totū efficiēs α β, & ipsi α β, cōmensurabilis esto γ δ. Dico quod γ δ cū medio mediū totū efficiēs est. Sit (per 78 decimi) ipsi α β, cōgruēs β ε, & eadē cōstruantur. Ipsæ igitur α ε, ε β, (per eandem potētia sunt incōmensurabiles, efficientes conflatū ex ipsarū quadratis mediū, & quod sub ipsis medium, & insuper incommensurabile conflatum quidem ex ipsarum quadratis ei quod sub ipsis. Suntq̃, sicut ostensum est, ipsæ α ε, ε β, commensurabiles ipsis, ε ζ{printer-error-correction:γ ζ}, ζ δ, conflatum ex ipsarum, α ε, ε β, quadratis conflato ex ijs quæ ex γ ζ, ζ δ, quod autem sub α ε: ε β, ei quod sub γ ζ, ζ δ. Et ipsæ igitur γ ζ, ζ δ, potentia sunt incommensurabiles, efficientes conflatū ex ipsarum quadratis mediū, & quod sub ipsis mediū, & insuper incommēsurabile conflatū ex ipsarum quadratis ei quod sub ipsis. Igitur γ δ. cum medio medium totum efficiens est. Cum medio medium totum igitur, & quæ sequuntur reliqua. Quod ostendendum erat.
 
 [Diagram: two horizontal lines, one above the other: the upper labelled α at the left end, β at the division point, ε at the right end; the lower labelled γ at the left end, δ at the division point, ζ at the right end]
 
-## Eucli.ex Camp. — Propositio 102
+## Eucli.ex Camp. — Propositio 103
 
 [Margin]
-102
+103
 [/Margin]
+
+## SI de superficie rationali superficies medialis abscindatur, linea in reliquam superficiem potēs, erit alterutra duarum irrationalium aut residuum, aut linea minor.
+
+CAMPANVS Sit enim tota superficies cōstās ex a & b, rationalis. a qua detrahatur b quæ sit medialis. Dico quod linea potens in a reliquū, aut est residuum aut linea minor. Esto namq̃ linea c d rationalis. superficiesq̃ c e sibi adiuncta sit tanquā a, & f g tanquā b. & tota c g sicut tota a b, eritq̃ c g rationalis, ideoq̃ per 16 linea d g rationalis, in longitudine, & f g medialis ideoq̃ per 10 e g rationalis in potentia tantum, est igitur ex diffinitione linea d e. residuū primum aut quartū, ergo per 86 & 89 linea potens in superficiem c e, & ideo in superficiem a sibi æqualem est residuū aut linea minor. Quod est propositū.
+
+[Diagram: a rectangle divided by a horizontal line into an upper part b and a lower part a]
+
+[Diagram: a larger rectangle on base c d (c bottom-left, d bottom-right), divided by a horizontal line f–e (f on the left side, e on the right side), with g at the top right]
+
+## Eucli.ex Zamb. — Theorema 84 — Propositio 108
 
 [Margin]
-Figura eadē
+108
 [/Margin]
 
-## OMnis linea commensurabilis lineæ cum mediali constituēs mediale, est cum mediali constituens mediale.
+## A rationali, media ablata, reliquā areolam potens una duarum irrationalium est, uel apotome uel minor.
 
-CAMPANVS Hic quoque pone lineam aliquam communicare cum ea quæ cum mediali componit mediale, indifferenter in longitudine uel potentia tantum prout uolueris, & duplici modo præmisso sine difficultate cōcludes eam quoque cum mediali componere mediale. Erit etiam quantum ad primum modum, superficies l medialis quemadmodum & k, & duo quoque quadrata duarum linearum f d pariter accepta mediale, sicut & duo quadrata duarum e & c. Et quia duo quoque duarum linearum e & c ad K sicut duo duarum f & d ad l, cum duo prima non communicent cum dupso{printer-error-correction:duplo} K ex 73, neque duo secunda communicabunt cum duplo l ex 10. Igitur ex 73 b est cum mediali cōponens mediale. Quantum autem ad secundum modum, erit d e residuum sextum ex 97, ideoq̃ & e g ex 98. Quare b est cum mediali cōponens mediale ex 91.
+THEON ex Zamb. A rōnali enim β γ, auferatur media β δ. Dico quod quæ reliquam areolam ε γ potest, una duarum irrationalium est, uel apotome uel minor. Exponatur enim rationalis ζ η, & ipsi (per 44 primi,) æquum ad ipsam ζ η, comparetur rectangulum parellogrammum η θ. Ipsi autem δ β, æquū auferatur η κ, reliquum igitur ε γ, (per 3 communem sententiam) æquum est ipsi λ θ. Quoniam igitur β γ rationale est, medium autem β δ, æquum uero β γ ipsi η θ, & β δ, ipsi η κ, rationale igitur est η θ, medium autem η κ. Et ad ipsam ζ η comparatur, rationalis igitur est (per 20 decimi) ζ θ, & ipsi ζ η, cōmensurabilis longitudine, rationalis autem (per 22 decimi,) ζ κ. & incommensurabilis longitudine ipsi ζ η. Incommensurabilis igitur est (per lēma 12 decimi,) ζ θ ipsi ζ κ longitudine. Et utræq̃ rationales, ipsæ igitur ζ θ, ζ κ, rationales sunt potentia tantum commensurabiles. Apotome igitur est ζ κ, congruens autem ei est κ θ, At ζ θ, ipsa κ ζ aut maius potest eo quod ex sibi commensurabili, aut eo quod ex sibi incommensurabili. Possit prius eo quod ex sibi commensurabili, & tota θ ζ, cōmensurabilis est ipsi ζ η, expositæ rationali lōgitudine, apotome igitur prima est κ θ, (per 3 diffinitiones & 85 decimi.) Areolam aūt sub rationali & apotome prima cōprehensam potens: apotome est (per 91 decimi.) Quæ igitur λ θ, hoc est ε γ potest, apotome est. Si autem θ ζ, ipsa ζ κ maius potest eo quod ex sibi incōmensurabili, & tota ζ θ commensurabilis est longitudine expositæ rationali ζ η apotome quarta est κ θ. Areolam autem sub rationali & apotome quarta comprehensam potens, minor est (per 94 decimi.) A rationali media ablata igitur, reliquam, & quæ sequuntur reliqua. Quod erat ostēdendum.
 
-Eucl.ex Zamb. — Theorema 83 — Propositio 107
+[Diagram: rectangle β γ divided by a vertical line ε δ: β above the top-left corner, ε above the top of the dividing line, α(?) below the bottom-left corner, δ below the bottom of the dividing line, γ below the bottom-right corner]
+
+[Diagram: rectangle with ζ above the top-left corner, κ above the top edge towards the right, η above the top-right corner; a vertical line runs down from κ; θ below the bottom-left corner, λ below the bottom of the dividing line]
+
+## Eucli.ex Camp. — Propositio 104
 
 [Margin]
-107
+104
 [/Margin]
 
-## Cum medio medium totum efficienti commensurabilis, & eadem cum medio medium totum efficiens est.
+## SI de superficie mediali superficies rationalis detrahatur, linea in reliquam superficiem potens erit alterutra duarum irrationalium linearum, aut residuum mediale primum, aut cum rationali componens mediale.
 
-<!-- Catchword: THEON -->
+<!-- Catchword: CAM -->

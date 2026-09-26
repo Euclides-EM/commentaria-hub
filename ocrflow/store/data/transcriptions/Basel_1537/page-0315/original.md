@@ -1,37 +1,59 @@
-<!-- Page number: 304 -->
+<!-- Running title: LIBER DECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 305 -->
 
-rabiles. Fiatq̃ (per 12 sexti) sicut α β ad γ δ, sic α ε ad γ ζ, & reliqua igitur ε β ad ζ δ, reliquā (per 19 quinti) est sicut α β ad γ δ. Cōmensurabilis autem est α β ipsi γ δ longitudine, cōmensurabilis igitur est & α ε ipsi γ ζ, & ε β ipsi ζ δ, suntq̃ mediæ ipsæ α ε, ε β, mediæ igitur sunt & ε ζ, ζ δ{printer-error-correction:γ ζ, ζ δ}. Et quoniam est sicut α ε ad ε β & γ ζ ad ζ δ, ipsæ autem α ε, ε β, potentia tantum sunt cōmensurabiles, & ipsæ igitur γ ζ, ζ δ, potentia tantum sunt cōmensurabiles. Ostensum autem quod mediæ. Ipsa igitur γ δ, ex binis est medijs. Dico quod & in ordine eadem est ipsi α β. Quoniam enim est sicut α ε ad ε β, sic est γ ζ ad ζ δ. & sicut igitur quod ex α ε ad id quod sub α ε, ε β, sic quod ex γ ζ ad id quod sub γ ζ, ζ δ. Vicißim igitur (per 16 quinti) sicut quod ex α ε ad id quod ex γ ζ, sic quod sub α ε, ε β, ad id quod sub γ ζ, ζ δ. Commensurabile autem est quod ex α ε ei quod ex γ ζ. Cōmensurabile igitur & quod sub α ε, ε β, ei quod sub γ ζ, ζ δ. Si igitur rationale est quod sub α ε, ε β, & quod sub γ ζ, ζ δ, rationale est, ac per hoc est ex binis medijs prima. Si autem medium fuerit quod sub α ε, ε β, medium erit & quod γ ζ, ζ δ, & utraq̃ est secunda, ac per hoc & γ δ erit ipsi α β in ordine eadem. Quod erat ostendendum.
+conflatum ex earum quadratis simul rationale, & quod bis sub ipsis medium. Tota igitur γ δ (per 57 decimi) irrationalis est, maior appellata. Maiori igitur cōmensurabilis, & eadem maior est, quod ostendendū fuerat.
 
-[Diagram: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]
-
-## Eucli.ex Camp. Propositio 62
+## Eucli.ex Camp. Propositio 63
 
 [Margin]
-62
+63
 [/Margin]
 
-## {dropcap:O|lines=?|style=decorated|decoration="woodcut"}Mnis linea communicans lineæ maiori, est linea maior.
+## {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I qua linea lineæ potenti in rationale & mediale cōmunicet, ipsa in rationale & mediale potens esse comprobatur.
 
-CAMPANVS. Et hæc quoq̃ ueritatē habet, si utrolibet modo cōmunicans fuerit aliqua linea lineæ maiori. Esto enim a linea maior, b uero quouis sibi cōmunicans modo, erit b linea maior. Diuisa nanq̃ a in eas portiones ex quibus constat per 33 quæ sunt c & d, & b secundum earum proportionē in e & f, positoq̃ quod g sit superficies contenta sub c & e{printer-error-correction:c & d}, & K sub e & f, & m & h sint quadrata c & d, at n & l, e & f, erit m ad h sicut n ad l, per secundam partem 15 sexti, & coniunctim m & h ad h, sicut n & l ad l, & permutatim m & h ad n & l, sicut h ad l, quia ergo h cōmunicat cum l eo q̃ d communicat cum f, aut in lōgitudine aut in potentia prout a cōmunicat cum b, sequitur ut ambo quadrata m & h pariter accepta cōmunicent cum ambobus quadratis n & l pariter acceptis. Cum itaque duo prima pariter accepta sint rationale per 33, erunt quoq̃ & duo postrema rationale per diffinitionē. At quia superficiē K necesse est esse medialē sicut g ex 21, lineasq̃ e & f esse incōmensurabiles in potentia sicut c & d ex 10, cōcluditur per 33 lineam b esse lineam quæ dicitur maior, quod est propositū. Idem aliter. Cum sit a linea maior cui b cōmunicat siue hoc fuerit in longitudine siue in potentia, sumpta linea rationali quæ sit c d, adiūgatur superficies ei c e, æqualis quadrato lineæ a, deinde f g æqualis quadrato lineæ b. Cum igitur quadrata duarū linearum a & b sint cōmunicantia ex hypothesi, erit superficies c e cōmunicans superficiei f g, ideoq̃ per primam sexti & 10 huius linea d e lineæ e g in longitudine. At quia ex 57 linea d e est binomiū quartum, erit quoq̃ per 60 linea e g binomium quartum, igitur ex 51 linea b potens in superficiem f g, est linea maior.
+CAMPANVS. Verum quoq̃ est, q̃ qualitercūq̃ linea aliqua sit cōmunicans potenti in rationale & mediale siue in longitudine siue in potentia tantū, ipsa etiam est potens in rationale & mediale, quod sicut prius duplici modo probatur, necesse est autem quantū ad primum modum, q̃ sicut duæ lineæ c & d sunt in potētia incōmensurabiles, ita sint etiam e & f per 10, & q̃ quēadmodum g est superficies rationalis (nam talem continēt portiones lineæ potentis in rationale & mediale) ita etiā per diffinitionē sit K rationalis, & quemadmodū duo quadrata m & h pariter accepta sunt mediale, sic etiam per 21 duo quadrata m & l{printer-error-correction:n & l} pariter accepta erunt mediale, igitur ex 34 b est potēs in rationale & mediale. Quantum autem ad secundum modum, necesse est ex 58, ut linea d e sit binomium quintū, ideoq̃ & per 60 linea e g est binomium qnintū{printer-error-correction:quintū}, quare per 52 latus tetragonicū superficiei f g, quod est b, erit linea potens in rationale & mediale, quod est propositum.
 
 [Diagram: square labelled m inside, standing on a shallow rectangle divided into two cells labelled g (left) and h (right); beneath the base the labels c, a, d]
 
-[Diagram: smaller square labelled n at its left side, standing on a shallow rectangle with K at the left and l at the right; beneath the base the labels e, b, f]
+[Diagram: smaller square labelled n inside, standing on a shallow rectangle divided into two cells labelled K (left) and l (right); beneath the base the labels e, b, f]
 
 [Diagram: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]
 
-## Eucli.ex Zamb. Theorema 50 Propositio 68
+## Eucli.ex Zamb. Theorema 51 Propositio 69
 
 [Margin]
-68
+69
 [/Margin]
 
-## Maiori commensurabilis, eadem quoq̃ maior.
+## Rationale ac medium potenti cōmensurabilis, & eadem rationale ac medium potens est.
 
-THEON ex Zamb. Esto maior α β, & ipsi α β cōmensurabilis esto γ δ. Dico quod & γ δ maior est. Diuidatur α β in ε. Ipsæ igitur α ε, ε β (per 39 decimi) potentia sunt incōmensurabiles, efficientes quidem conflatum ex earum quadratis rationale, quod uero sub ipsis medium. Fiantq̃ eadem quæ in præcedentibus. Et quoniam est (per 2 sexti) sicut α β ad γ δ, sic est α ε ad γ ζ & ε β ad ζ δ, cōmensurabilis autem est α β ipsi γ δ, cōmensurabilis igitur est & utraq̃ ipsarū α ε, ε β, utriq̃ ipsarū γ ζ, ζ δ. Et quoniam est sicut α ε ad γ ζ, sic ε β ad ζ δ, & uicißim (per 16 quinti) sicut α ε ad ε β, sic est γ ζ ad ζ δ. Et componendo igitur (per 18 quinti) sicut α β ad ε β, sic γ δ ad ζ δ, & sicut igitur (per 22 sexti) quod ex α β ad id quod ex β ε, sic quod ex γ δ ad id quod ex ζ δ. Similiter iam demonstrabimus quod & sicut quod ex α β ad id quod ex α ε, sic quod ex γ δ ad id quod ex γ ζ. Et sicut igitur (per 11 quinti) quod ex α β ad ea quæ ex α ε, ε β, sic quod ex γ δ, ad ea quæ ex γ ζ, ζ δ. Et uicissim igitur (per 16 quinti) sicut quod ex α β ad id quod ex γ δ, sic quæ ex α ε, ε β, ad ea quæ ex γ ζ, ζ δ. Commensurabile autem est id quod ex α β, ei quod ex γ δ. Cōmensurabilia sunt igitur & quæ ex α ε, ε β, eis quæ ex γ ζ, ζ δ. Suntq̃ quæ ex α ε, ε β, simul, rationale, & quæ ex γ ζ, ζ δ, simul, rationale. Similiter autem & quod bis sub α ε, ε β, commensurabile est ei quod bis sub γ ζ, ζ δ. At quod bis sub α ε, ε β, medium est: medium igitur est & quod bis sub γ ζ, ζ δ. Ipsæ igitur γ ζ, ζ δ, potentia sunt incōmensurabiles, efficientes
+THEON ex Zamb. Esto rationale mediumq̃ potens α β, & ipsi α β cōmensurabilis esto γ δ. Ostendendū quod & γ δ rationale ac mediū potens est. Distribuatur (per 46 decimi) α β in rectas lineas in ε. Ipsæ igitur α ε, ε β, (per 40 decimi) potentia sunt incōmensurabiles, efficientes quidem compositū ex earū quadratis medium, quod uero sub ipsis rationale, & eadem construantur quæ in præcedentibus. Similiter iam demonstrabimus quod γ ζ, ζ δ, potentia sunt incōmensurabiles, & cōmensurabile est conflatū ex ijs quæ ex α ε, ε β, conflato ex ijs quæ ex γ ζ, ζ δ, quod autem sub α ε, ε β, ei quod sub γ ζ, ζ δ. Quare & conflatū ex ijs quæ ex γ ζ, ζ δ, quadratis, medium est, quod uero sub γ ζ, ζ δ, rationale. Rationale igitur est ac medium potens, ipsa γ δ. Quod erat ostendendum.
 
 [Diagram: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]
 
-<!-- Catchword: conflatum -->
+## Eucli.ex Camp. Propositio 64
+
+[Margin]
+64
+[/Margin]
+
+## {dropcap:O|lines=?|style=decorated|decoration="woodcut"}Mnis linea cōmunicans potenti in duo medialia, ipsa quoq̃ potens est in duo medialia.
+
+CAMPANVS. Hæc quoq̃ manētibus eisdem dispositione & positiōibus, eo duplici modo quo præmissæ probabitur uera esse, siue in lōgitudine siue in potentia cōmunicet linea b cum linea a potente in duo medialia. Quantū enim ad primum argumētationis modum erit per 35 superficies g medialis, ideoq̃ & k per 21, cum cōmunicet ei, duo quoq̃ quadrata m & h pariter accepta erunt ex eadem 35 mediale, ideoq̃ duo n & l pariter accepta per 21. At quia duo quadrata m & h pariter accepta ex prædicta 35 sunt incōmensurabile duplo supficiei g sequitur per 10 & nostras positiones ut duo quoq̃ l & n pariter accepta sint incōmensurabile duplo superficiei K, cum itaq̃ sint e & f incōmensurabiles in potentia quemadmodum c & d, erit ex 35 linea b potens in duo medialia. Quantū autem ad secūdum solitæ argumētationis modum erit per 59 d e binomiū sextū. ideoq̃ etiā per 60 linea e g erit binomiū sextū, quare per 53 latus tetragonicū supficiei f g quod est b, erit potens in duo medialia. Quod est propositū.
+
+## Eucli. ex Zamb. Theorema 52 Propositio 70
+
+[Margin]
+70
+[/Margin]
+
+## Bina potenti media commensurabilis, bina potens est media.
+
+THEON ex Zamb. Esto bina potens media α β, & ipsi α β cōmensurabilis esto γ δ. Ostendendū quod & γ δ, bina potēs est media. Quoniā enim bina potens est media α β, distribuatur (per 47 decimi) in rectas lineas in ε, igitur α ε, ε β, (per 41 decimi) potentia sunt incōmensurabiles, efficientes conflatum ex ipsarū quadratis medium, & quod sub ipsis medium, & incōmensurabile est conflatū ex ipsarū α ε, ε β, quadratis, ei quod sub α ε, ε β. Construātur eadem quæ in præcedentibus. Similiter iam demonstrabimus quod & ipsæ γ ζ, ζ δ, potentia sunt incōmensurabiles, & compositū ex ijs quæ ex α ε, ε β, composito ex ijs quæ ex γ ζ, ζ δ, cōmensurabile est: quod autem sub α ε, ε β, ei quod
+
+[Diagram: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]
+
+<!-- Signature: C 3 -->
+
+<!-- Catchword: sub γ ζ. -->

@@ -1,63 +1,47 @@
-<!-- Running title: LIBER SEPTIMVS. -->
+<!-- Page number: 190 -->
 
-<!-- Page number: 189 -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-nitionem septimi.) Ipsos igitur β, γ, numeros numerus aliquis non metietur. Ipsi igitur γ,β, primi adinuicem sunt, quod erat demonstrandum.
+CAMPANVS. Sint a & b, priores, c & d, posteriotes: sitq̃ uterque duorum a & b, primus ad utrunq̃ duorum c & d, & ex a in b sit e, & ex c in d, f: dico quod e primus est ad f. Hoc autem 35{printer-error-correction:25} ter assumpta euidenter cōcludit. Cum enim fiat e ex a in b, quorū uterq̃ primus est a ad c & ad d, erit per ipsam e primus ad c, & itē per ipsam primus ad d. Quia item f fit ex c in d, quorum uterq̃ primus est ad e, erit rursus per ipsam f primus ad e, quod est propositū.
 
-## Eucli. ex Camp. — Propositio 25
+[Diagram: dotted number lines beside the text: a·· b····· / e·········· / c··· d······· / f·····················]
 
-[Margin]
-25
-[/Margin]
-
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duo numeri ad alium quemlibet primi, qui ex ductu unius in alterum producetur, ad eundem erit primus.
-
-CAMPANVS. Sit uterque duorum numerorum a & b, primus ad e, & ex a in b sit d. Dico quod d est primus ad c, aliter enim numeret eos e,d, quidem secundum f: eritq̃ per secundam partem 20, a ad e, sicut f ad b, & quia a & c sunt primi, & e numerat c. ipse erit per 24 primus ad a, quare per 25 a & e, sunt secundum suam proportionem minimi: sequitur ergo per 21, ut e numeret b, & quia positum est quod ipse numeret c, non erunt b & c contra se primi, quod est contra hypothesin.
-
-[Diagram: dotted number lines beside the text: a··· b···· / c····· / d············ / e·· f······]
-
-## Eucli. ex Zamb. — Theorema 29 — Propositio 26
+## Eucli. ex Zamb. — Theorema 26 — Propositio 28
 
 [Margin]
-26
+28
 [/Margin]
 
-## Si bini numeri ad aliquem numerum primi fuerint, & ex eis genitus ad eundem primus erit.
+## Si bini numeri ad binos numeros uterque ad utrunque primi fuerint, & qui ex eis fient, primi adinuicem erunt.
 
-THEON ex Zamberto. Bini enim numeri α,β, ad aliquem numerū γ, primi sint, & α ipsum β multiplicans, ipsum δ efficiat. Dico quod ipsi γ δ, primi sunt adinuicem. Si autem γ, δ, non sunt primi adinuicem, metietur eos aliquis numerus, metiatur, & esto ε. Et quoniam ε,α, primi adinuicem sunt, ipsum autem γ metitur aliquis numerus ε, igitur ε, α, (per 25 septimi) primi sunt adinuicem. Quoties iam ε metitur ipsum δ, tot unitates sint in ζ: & ζ igitur ipsum δ metitur, per eas quæ in ε sunt unitates. Igitur ε ipsum ζ multiplicans, ipsum δ fecit. Sed & α ipsum β multiplicans, ipsum δ fecit: æqualis igitur est qui ex ε,ζ, ei qui ex α,β. Si autem qui sub extremis æquus fuerit ei qui sub medijs, quatuor numeri proportionales sunt (per 19 septimi.) Est igitur (per 11 quinti) sicut ε ad α, sic est β ad ζ. Ipsi autem α,ε, primi: ipsi autem primi, & minimi: minimi autem numeri (per 21 septimi) eandem rationem habentium eis, metiuntur eandem rationem habentes pariter, maior maiorem, minor minorem, hoc est antecedens antecedentem, & consequens consequentem. Igitur ε ipsum β metitur: metitur autem & γ, igitur ε ipsos γ,β, metitur primos existentes adinuicem, quod est impossibile (per 13 diffinitionem septimi.) Ipsos igitur γ, δ, numeros, numerus aliquis non metietur. Ipsi igitur γ, δ, primi adinuicem sunt. Quod oportebat demonstrare.
+THEON ex Zamberto. Bini enim numeri α,β, ad binos numeros γ,δ, uterque ad utrunq̃ primi sint: & α quidem ipsum β multiplicans, efficiat ipsum ε, & γ ipsum δ multiplicans, efficiat ipsum ζ. Dico quod ε,ζ, primi sunt adinuicem. Quoniam enim uterque ipsorum α,β, ad ipsum γ primus est, & qui ex α,β, igitur fit (per 26 septimi) ad γ primus est: qui autem fit ex α,β, est ε, igitur ε,γ, primi sunt adinuicem. Id propterea & ipsi ε,δ, primi sunt adinuicem: & uterque igitur ipsorum γ,δ, ad ε primus est, & qui ex γ, δ, igitur, ad ε primus est, (per eandem.) Qui autem fit ex γ,δ, est ζ. Igitur ε,ζ, primi sunt adinuicem. Quod erat demonstrandum.
 
-[Diagram: dotted number lines beside the text: α·· β··· / γ····· / δ····· / ε··· / ζ··]
+[Diagram: dotted number lines beside the text: α··· / β····· / ε··············· / γ·· / δ···· / ζ········]
 
-## Euclides ex Campano. — Propositio 26
+## Eucli. ex Camp. — Propositio 28
 
 [Margin]
-26
+28
 [/Margin]
 
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duo numeri contra se primi, qui ex uno eorum in seipsum producitur, ad reliquum est primus.
+## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duo numeri contra se primi, ducaturq̃ eorum uterque in seipsum, erunt inde producti contra se primi. Itemq̃ si in utrunque productorum suum ducatur principium, erunt quoq̃ producti contra se primi.
 
-CAMPANVS. Sint contra se primi a & b, & ex a in se fiat c. Dico quod c primus est ad b: sit enim d, æqualis a, eritq̃ d primus ad b, & ex a in d, fiet c, per præmissam igitur patet c primum esse ad b, quod proposuimus.
+CAMPANVS. Sint a & b, contra se primi, ducaturq̃ uterque in se, & proueniant ex a quidem c, ex b uero d: itemq̃ ducatur a in c, & proueniat e, & b in d, & proueniat f: dico c & d esse cōtra septimos{printer-error-correction:contra se primos}, itemq̃ e & f, contra se primos. Est enim per 26 c primus ad d: per eandem igitur erit d primus ad a & ad c, sicq̃ constat primum, quod est c & d esse contra se primos.
 
-[Diagram: dotted number lines beside the text: a··· b···· / c········· / d···]
+Reliquum sic, est enim uterque duorum numerorum a & c, primus ad utrunq̃ duorum b & d, itaq̃ per 27, erit e primus ad f, quod est reliquū. Non solum autem erit e primus ad f, sed etiam per 25, ad b & ad d, itemq̃ per eandem f ad a & c. Sicq̃ si infinities duceretur utrunq̃ productorum in suum principium, essent omnes producti contra se primi, & non solum, sed quilibet eductus ab a, ad quemlibet eductum a b.
 
-## Eucli. ex Zamb. — Theorema 25 — Propositio 27
+[Diagram: dotted number lines beside the text: a·· / c···· / e········ / b··· / d········· / f···························]
+
+## Eucli. ex Zamb. — Theorema 27 — Propositio 29
 
 [Margin]
-27
+29
 [/Margin]
 
-## Si duo numeri primi adinuicem fuerint, qui ex uno eorum fit, ad reliquum primus erit.
+## Si bini numeri primi adinuicem fuerint, & multiplicans uterq̃ seipsum fecerit aliquos, qui ex eis fiunt, primi adinuicē erunt. Et si qui in principio, genitos multiplicātes fecerint aliquos, & illi quoq̃ primi adinuicem erunt, & semper circa extremos hoc continget.
 
-THEON ex Zamberto. Sint bini numeri primi adinuicem α,β, & α seipsum multiplicans, ipsum δ efficiat. Dico quod ipsi β,γ, primi adinuicem sunt. Ponatur enim ipsi α, æqualis δ. Et quoniam α, β, primi adinuicem sunt, æqualis autem est α ipsi δ, & δ, β: igitur primi adinuicem sunt: uterque igitur ipsorum δ,α, ad β primus est, & qui ex δ,α, igitur fit, ad β primus est (per 36 septimi.) Qui autem ex δ.α, fit numerus, est γ, igitur γ,β, primi adinuicem sunt, quod erat demonstrandum.
+THEON ex Zamberto. Sint bini numeri primi adinuicem α,β, & α seipsum multiplicans, efficiat γ, ipsum uero γ multiplicās, efficiat ε. At β seipsum multiplicans, efficiat δ, ipsum autem δ multiplicans, efficiat ζ. Dico quod γ,δ, & ε,ζ, primi sunt adinuicem. Quoniam enim α,β, primi adinuicē sunt, & α seipsum multiplicans fecit ipsum γ, igitur γ,β, primi sunt adinuicem (per 27 septimi.) Quoniam igitur γ,β, primi sunt adinuicem, & β seipsum multiplicans ipsum δ fecit, igitur γ,δ, primi sunt adinuicem. Rursus quoniam α β primi adinuicē sunt (per eandem) & β seipsum multiplicans, ipsum δ fecit. Igitur α,δ, primi sunt adinuicem (per eandem). Quoniam igitur bini numeri α, γ, ad binos numeros β, δ, uterque ad utrunq̃ primi sunt (per 27 septimi) & qui ex α,γ, igitur fit ad eum qui ex β,δ, primus est, qui autem ex α,γ, est ε, qui ex δ,β, uero est ζ: igitur ε, ζ, primi sunt adinuicem. Quod oportuit demonstrasse.
 
-[Diagram: dotted number lines beside the text: α·· β····· / γ······· / δ···]
+[Diagram: dotted number lines beside the text: α··· / γ········· / ε··························· / β···· / δ················ / ζ···· (a very long row of dots, ca. 64, extending across the column)]
 
-## Eucli. ex Camp. — Propositio 27
-
-[Margin]
-27
-[/Margin]
-
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I duobus numeris ad alios duos comparatis, uterque ad utrunque fuerit primus, qui ex duobus prioribus ad eum qui ex duobus posterioribus producetur erit primus.
-
-<!-- Catchword: CAMPANVS -->
+<!-- Catchword: Eucli. ex -->

@@ -1,35 +1,57 @@
-<!-- Running title: LIBER TERTIVSDECIMVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 423 -->
+<!-- Page number: 424 -->
 
-sit quintuplū quadrati r f. Cōstat enim ex gnomone quadruplo, & r f simplo. Hoc autem est propositum. IDEM aliter. Cum sit linea b c diuisa per æqualia in puncto d, & addita est ei linea a c, erit ex 6 secundi quod fit ex a b in a c, cum quadrato c d interiacētis, æquale quadrato a d. At quia quod fit ex a b in a c est æquale quadrato c b ex prima parte 16 sexti, hoc autē est quadruplū ad quadratū c d, manifeste patet ueritas eius quod dicitur. Potes quoq̃ si libet, duplici modo ex consequente huius suū antecedens concludere processu retrogrado. Sit enim (eadem dispositione manente) quadratū m h quintuplū ad quadratum r f, eritq̃ gnomo r f s, æquale quadrato c l. Vtrūq̃ enim est quadruplū ad quadratum r f. At quia superficies a g est æqualis gnomoni prædicto, necesse est ut superficies eadem sit æqualis quadrato prædicto. Quare ex secunda parte 16 sexti & diffinitione linea a b est diuisa in puncto c secundum proportionem habentem medium & duo extrema, & maior portio eius est linea c d.
+ad a b, sicut a b ad b c. Cūq̃ sit ex 7 quinti a b ad b c, sicut ad b d, erit ex undecima eiusdē d a ad a b, sicut a b ad b d. Itaq̃ ex diffinitione linea a d diuisa est in puncto b secūdum proportionem habentem mediū & duo extrema, & maior portio eius est linea a b. Q̊d est propositum. Eodem quoq̃ modo si ex maiori portione cuiuslibet lineæ secūdū prædictā pportionē diuisæ tāquā minor portio detrahatur, erit maior ipsa portio secundum eandem proportionem diuisa, eritq̃ maior portio eius linea detracta. Verbi gratia a b sicut proponitur in pūcto c diuisa, sitq̃ maior portio a c, à qua detrahatur c d æqualis c b. Dico quod a c est diuisa secundū proportionē eandē in pūcto d, & quod maior portio eius est linea d c. Cū enim sit ex diffinitiōe, b a ad a c, sicut a c ad c b, at ex 7 quinti a c ad c b sicut ad c d, erit ex undecima eiusdē b a ad a c, sicut a c ad c d. ideoq̃ per 19 quinti sicut c b residuū ad d a residuum. Sed ex septima eiusdē, c b ad d a, sicut c d ad a, itaq̃ a c ad c d, sicut c d, ad d a. Ex diffinitione ergo cōstat quod diximus. Nec igitur ea quam auctor proponit additio, nec ea quam ex opposito proponimus detractio, quātuncunq̃ utralibet in prolixum tendat, à proprietate diuisiōis lineæ primitiuæ discordat.
 
-IDEM aliter. Cum sit ex hypothesi quadratum lineæ a d quintuplum ad quadratū lineæ c d, & ex 6 secundi idem ipsum quadratum sit æquale ei quod fit ex a b in a c cum quadrato c d, sequitur ut id quod fit ex a b in a c cū quadrato c d, sit quintuplū ad idē quadratum c d. Ideoq̃ eo dēpto, erit residuum uidelicet quod fit ex a b in a c, quadruplum ad ipsum. Et quia etiam ex 4 secundi quadratum lineæ c b est quadruplum ad idem, necesse est ut quod fit ex a b in a c, sit æquale quadrato c b. Quare iterū ex secunda parte 16 sexti & diffinitione, linea a b est diuisa secundum proportionē habētem mediū & duo extrema in puncto c, & maior portio est linea c b.
+[Diagram: horizontal line with points a, d, c, b]
 
-## Eucli. ex Zamb. Theorema 3 Propositio 3
+## Eucli. ex Camp. Propositio 5
 
 [Margin]
-3
+5
 [/Margin]
 
-Si recta linea media & extrema ratione secetur, minus segmentum admittens dimidiam maioris segmenti, quincuplum potest eius quod à media maioris segmenti fit quadrati.
+[Margin]
+Zāb. 4
+[/Margin]
 
-THEON ex Zamb. *Recta enim quædā linea α β, media & extrēma ratione secetur in γ signo, sitq̃ maius segmētū α γ, seceturq̃ (per 10 primi) α γ bifariā in δ. Dico quod ex β δ, quincuplum potest eius q̃ δ γ. Describatur (per 46 primi) ex α β, quadratū α ε, & describatur figura. Et quoniā α γ, dupla est ipsius δ γ, quadruplum igitur est quod ex α γ eius quod ex δ γ, hoc est ρ σ ipsius ζ η. Et quoniā quod sub α β, β γ, æquum est ei quod ex α γ, estq̃ quod sub α β, β γ, ipsum γ ε, & quod ex α γ id quod ρ σ, igitur γ ε ipsi ρ σ, est æquale. Quadruplum autem est ρ σ, ipsius ζ η, quadruplū igitur est & γ ε, ipsius ζ η. Rursus quoniā æqualis est α δ ipsi δ γ, æqualis est & θ κ ipsi κ ζ, quare & κ ζ, quadratum, æquum est ipsi θ λ quadrato, æqualis igitur est κ η ipsi κ λ, hoc est μ ν ipsi ν ε, quare & μ ζ, ipsi ζ ε est æquale. Sed μ ζ, ipsi γ κ est æquale, & γ κ igitur, ipsi ζ ε est æquale. Commune apponatur γ ν, Igitur ζ ο π gnomon, æquus est ipsi γ ε, Sed γ ε, quadruplum ostensum est esse ipsius η ζ, & ζ ο π, igitur gnomon, ipsius η ζ, quadruplus est. Igitur quadratum δ ν, quincuplum est ipsius ζ η quadrati, estq̃ δ ν id quod ex δ β, & η ζ quod ex δ γ. Quod ex δ β igitur, quincuplum potest eius quod ex δ γ. Quod ostendere oportuit.*
+SI secundum proportionem habentem medium & duo extrema quælibet linea fuerit diuisa, quod ex tota linea quodq̃ ex minori portione producitur ambo quadrata pariter accepta, triplū sunt eius quod ex maiore portiōe quadratū describitur.
 
-[Diagram: square described on the line α β, whose top side bears the points α, δ, γ, β; the square is divided by vertical lines through δ and γ and by horizontal lines, with a diagonal from the lower left corner to the upper right, and a circle drawn about the centre; internal and side labels include ε, ζ, η, θ, κ, λ, μ, ν, ξ, ο, π, ρ, σ]
+CAMPANVS. Sit linea a b, diuisa per sæpe dictam proportionē in puncto c, sitq̃ maior portio eius linea c b. Dico quod quadrata duarū linearū a b & c a pariter accepta, triplum sunt ad quadratum lineæ c b. Hæc enim duo quadrata pariter accepta, sunt ex 7 secundi quātū quadratum c b, & duplū eius quod fit ex a b in a c. Itēq̃ quia quod fit ex a b in a c est æquale quadrato c b ex diffinitiōe & prima parte 16 sexti manifestum est propositum.
 
-## Eucli. ex Camp. Propositio 4
+[Diagram: horizontal line with points a, c, b]
+
+## Eucli. ex Zamb. Theorema 4 Propositio 4
 
 [Margin]
 4
 [/Margin]
 
-SI secundum proportionem habētem medium & duo extrema quælibet linea fuerit diuisa, eiq̃ in longum directe tanquā maior sectio adijciatur, erit totam lineam inde compositam secundum proportionem habentem medium & duo extrema diuisam esse, & erit eius maior portio linea prima.
+[Margin]
+Camp. 5
+[/Margin]
 
-CAMPANVS Sit linea a b diuisa qua supponitur proportione in puncto c, & sit eius maior portio c b totiq̃ a b adijciatur directe linea b d quæ sit æqualis c b. Dico quod tota a d eadem proportiōe diuisa est in pūcto b, & maior eius portio est linea a b quæ est linea prima. Est enim ex diffinitione, a b ad b c, sicut b c ad c a. At quia ex 7 quinti a b ad b d, sicut ad b c, igitur ex undecima eiusdē a b ad b d, sicut b c ad c a. quare per conuersam proportionalitatem b d ad b a sicut a c ad c b, & coniunctim d a
+Si recta linea extrema mediaq̃ rōne secetur, quod ex tota & q̃ ex minori segmēto utraq̃ quadrata tripla sūt eius q̃ à maiori segmēto fit quadrato.
 
-[Diagram: horizontal line with points a, c, b, d]
+THEON ex Zamb. *Sit recta linea α β, seceturq̃ extrema & media ratione in γ, sitq̃ maius segmentū α γ. Dico quod quæ ex α β, β γ, tripla sunt eius quod ex ipsa α γ. Describatur (per 46 primi) ab ipsa α β quadratū α δ ε β, & describatur figura. Quoniā igitur α β extrema & media rōne secta est in γ, & maius segmentū est α γ, quod igitur sub α β, β γ, æquū est ei quod ex α γ, estq̃ id quod sub α β, β γ, id quod α κ, quod autem ex α γ, id quod θ η, æquum igitur est α κ ipsi θ η. Sed α ζ, ipsi ζ ε, æquū est, apponatur cōmune γ κ, totū igitur α κ, toti γ ε est æquale. Igitur γ ε, α κ, ipsius α κ dupla sunt. Sed α κ, γ ε, sunt id quod λ μ ν gnomon, & γ κ quadratum. Igitur λ μ ν gnomon & γ κ quadratum, dupla sunt ipsius α κ. Sed quod α κ, ipsi θ η sit æquale ostēsum est. Igitur λ μ ν gnomon & γ κ quadratum dupla sunt ipsius θ η, quare λ μ ν gnomon & γ κ, θ η, quadrata, tripla sunt ipsius θ η, quadrati. Et λ μ ν gnomō & γ κ, θ η, quadrata, sunt totū α ε, & γ κ, quæ sunt ex α β, β γ, quadrata & η θ ipsum quod ex α γ, quadratum, quæ igitur ex α β, β γ, quadrata, tripla sunt eius quod ex α γ quadrati. Quod ostendere oportuit.*
 
-<!-- Signature: N 2 -->
+[Diagram: square α δ ε β on the line α β, with γ on the top side; vertical and horizontal dividing lines, a diagonal, and a circular arc about the centre; internal labels include δ, ζ, θ, κ, ν, ε]
 
-<!-- Catchword: ad -->
+## Eucli. ex Zamb. Theorema 5 Propositio 5.
+
+[Margin]
+5
+[/Margin]
+
+[Margin]
+Cāp. 4
+[/Margin]
+
+Si recta linea extrema & media ratione secetur, apponatur quæ eidem æqualis maiori segmento, tota recta linea exttrema{printer-error-correction:exttrema} & media ratiōe secatur, & mai⁹ segmētū est ea quæ in principio recta linea.
+
+THEON ex Zāb. *Recta enim quædā linea α β extrema & media ratiōe secetur in γ signo, & sit maius segmentū α γ, & ipsi α γ æqualis ponatur α δ. Dico quod δ β recta linea extrema & media rōne secatur in α, & maius segmentū est ipsa quæ in principio recta linea α β. Describatur enim (per 46 primi) ex α β, quadratū α ε, & describatur figura. Quoniā enim α β, extrema & media ratiōe secatur in γ, quod sub α β, β γ: æquū est ei q̃ ex α*
+
+[Diagram: rectangle whose top side bears the points δ, α, γ, β; a square with a diagonal is contained on the right, with dividing lines; labels λ, θ, ζ, ε below and κ at the right side]
+
+<!-- Catchword: γ, estq̃ -->

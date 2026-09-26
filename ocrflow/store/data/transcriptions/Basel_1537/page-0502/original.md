@@ -1,17 +1,33 @@
-<!-- Running title: PHAENOMENA -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-<!-- Page number: 491 -->
+<!-- Page number: 492 -->
 
-## Theorema 9 — Apparens 9
+tempore in quibus semicirculi & circunferentia quæ ex opposito oriuntur, & si zodiaci circuli bini semicirculi æquali tempore communem quandam habentes circunferentiam orti fuerint, & quæ ex opposito circūferentiæ æqualibus temporibus orientur.
 
-Signorum circuli semicirculi qui exordium in eodem parallelo nõ habuerint inæquali tempore oriuntur toti, & in pluri qui cũ cancro, in minori autem qui subsequuntur, in minimis uero qui cum capricorno, quicunq̃ autem exordium in eodem habuerint, parallelo in æqualibus temporibus oriuntur.
+Sit horizon circulus a b c d, tropicus uero æstiuus sit a c, hybernus aūt sit b d, zodiacus porro sit c b. Assumanturq̃ æquales circunferentiæ c e, b f ipsis igitur semicirculi c e b, e b f inæquali tempore oriūtur. Dico quod & ipsæ c e, b f, circūferentiæ in æquali tempore oriuntur. Nam quoniam c e b, ipso e b f in maiori oritur tempore communis auferatur ipsius e b, circunferentiæ ortus tempus: ipsa enim a b, circunferentia eadem sed in æquali oritur tempore. Reliqua igitur c e, ipsa b f in maiori tẽpore oritur, & manifestũ quod eodem tẽpore d e b f, semicirculi oriuntur, & quæ ex opposito circunferentiæ c e, b f. Manifestum autem quod si semicirculi aliqui æquali tempore orti fuerint, & quæ ex opposito circunferentiæ æquali tempore orientur.
 
-Sit in mūdo horizon a b c d, æstiuus autem tropicus sit b c, zodiacus uero circulus positionem habeat. d e b f, sintque orientales partes quidem c d, occiduæ uero a b & d e b, sit qui post cancrum semicirculus, at b f d, sit qui post capricornum. Dico quod ipsius zodiaci circuli semicirculi qui exordium in eodem non habent parallelo inæquali tempore oriuntur & in pluri quidem qui cum ipso cancro d e b, in minori autem qui hunc subsequuntur, in minimo autem qui cum capricorno b f d, quicunque uero exordium in eodem parallelo habuerint æquali tempore oriuntur, auferantur æquales circunferentiæ d e, b f. Describanturq̃ paralleli circuli g e h, k f l, per quos inuehuntur ipsa, e f signa. Sintque eorum quæ supra terram segmenta g m h, k f l. Similiter iam ostendemus, sicut in præcedentibus quod in diametro est e signum ipsi f signo, & m ipsi n. Et quoniam ipsa d a circunferentia, ipsa m h, circunferentia est maior aut ei similis. Ipsa autem g m h, ipsa k f l, & insuper k f l, ipsa b c. In maiori igitur tempore d signum, incipiens a d, ipsam d a, circunferentiã ambit: quàm e incipiens ab h, ipsam h m g, circunferentiã ambit. Et ab eo ipso h incipiẽs in maiori tempore ipsam h m ambit, quàm ipsam l f k, ambit circunferentiam, & n ab ipso l incipiens in maiori tempore ipsam f k ambit quàm b ab ipso c incipiens ipsam c b ambit circunferentiam. Sed in quo quidẽ tempore d signum ipsam d a, ambit circunferentiam, in eo & ei existens in diametro b signum ipsam b c ambit circunferẽtiam, & semicirculus d e b, oritur. In quo autem tempore incipiens ab ipso h ipsam h m g ambit circunferentiam in eo & ei in diametro existens incipiens a k, ipsam k n l, ambit circunferentiam, & semicirculus e b f, oritur. In quo uero tempore n incipiẽs ab ipso l ipsam l f k, ambit circunferẽtiam, in eo m & in diametro existens incipiens ab ipso g, ipsam g e h, ambit, & semicirculus n b m oritur. In quo uero tempore b incipiens ab ipso c, ipsam c b ambit, in eo ipsum d ei existens in diametro incipiens ab a, ipsam a d ambit: & semicirculus b f d, oritur. In maiori igitur tempore semicirculi qui cum cãcro oritur, hoc est ipse d e b, minore uero eo quod in d e b ipse e b f, & insuper ipse n b m, in minori ipso e b f, in minimo demum qui cum capricorno. Dico insuper quod quæcunque, exordium in eodem parallelo habuerint æquali tempore oriuntur, habeant enim ipsi m d n, e b f, semicirculi exordium in eodẽ parallelo, dico quod æquali tempore ipsi m d n, e b f, semicirculo oriuntur: quoniam in æquali tempore m signum incipiens ab h, ipsam h m g, ambit circunferentiam, & e incipiens ab h, ipsam h m g, ambit circunferentiam, sed in quo tempore m signum incipiens ab h ipsam h m g ambit, in eodẽ quod ei est in diametro n incipiens a k ipsam k n l, ambit circunferentiam, & semicirculus m d n oritur. In quo autem tempore e signum incipiens ab h signo ipsam h m g ambit circunferentiam, in eodem quod ei est in diametro f incipiens ab ipso l ipsam l f k, ambit circunferentiam, & semicirculus e b f, oritur. In æquali igitur tempore ipsi m d n, e b f, semicirculi oriuntur.
+[Diagram: circle a b c d with a at top, b at bottom; two arcs from c to b through e and f forming the zodiac semicircles; points e and f inside]
 
-[Diagram: sphere with horizon circle a b c d; zodiac circle d e b f crossing it; parallel circles through e and f with endpoints g, h and k, l on the horizon; further points m and n on the parallels; b at right, c below, a at left]
+## Theorema 11 — Apparens 11
 
-## Theorema 10 — Apparens 10
+[Margin]
+11
+[/Margin]
 
-Si zodiaci circuli bini semicirculi cõmunem quandã habentes circūferentiam inæquali tempore orti fuerint, & ex opposito circunferentiæ inæquali tempore oriuntur, & eædem erunt differentiæ
+Odiaci circuli æqualium & ex opposito circunferẽtiarum in quo tempore altera oritur, & altera occidit, & in quo altera occidit altera oritur.
 
-<!-- Catchword: tẽpore -->
+Sit horizon circulus a b c d, tropicus autem æstiuus sit a c, hybernus autem b d, zodiacus sit c b, assumanturque in ipso æquales circunferentiæ ex opposito c e, b f. Dico quod in quo tempore c e, oritur b f, occidit. Sint per quos inuehuntur e f signa paralleli circuli g h, k l, & quoniam astra in zodiaco in diametro existentia per 6 theorema coniugata oriuntur & occidunt. Ipso igitur e oriente f occidit. In quo igitur tempore e, incipiens ab e, ipsam e h, ambiens circunferẽtiam uenit in h, in eodem & f ab ipso f incipiens f k ambiens ad k uenit. Sed quando e ipsam e h ambiens ad h uenit, circūferentia e c, oritur: quando uero ipsam f k ambiẽs ad k uenit, occidit b f circunferentia. In quo igitur tempore c e, circunferentia oritur in eodem f b, circunferẽtia occidit. Dicoq̃ & in quo tẽpore b f oritur, occidit ipsa c e. Immutetur enim in b a, casu zodiacus circulus, habeatq̃ positionem sicut c b. Dico quod in quo tempore b f oritur, ipsa c e. occidit. Quoniam ipsi e signo in diametro est, ipso igitur f oriente, ipsum e, occidit. In quo igitur tempore f ipsam f l, ambiens circunferentiam percurrens ad l uenit. Sed quãdo f ipsam f l, circunferentiam ambiens peruenit ad l, ipsa b f oritur. Quando uero e ipsam e g ambiẽs ad g uenit ipsa c e occidit. In quo igitur tẽpore b f, ambitus oritur, in eodem & c e, ambitus occidit.
+
+[Diagram: sphere with horizon circle a b c d; zodiac arc from c to b; parallel circles through e and f with endpoints g, h and k, l; e at left, f at right, k beyond f]
+
+[Diagram: second sphere for the inverted case: horizon a b c d; zodiac arc from a through e and g to b; points e, g at right, l and f near b at bottom left]
+
+## Theorema 12 — Apparens 12
+
+[Margin]
+12
+[/Margin]
+
+Semicirculi qui cum cancro æquales circunferentiæ inæqualibus temporibus occidūt, & in maiori quæ sūt
+
+<!-- Catchword: ad -->

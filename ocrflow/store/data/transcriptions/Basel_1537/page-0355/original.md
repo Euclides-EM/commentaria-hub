@@ -1,33 +1,39 @@
-<!-- Running title: GEO. ELEMEN. EVCLIDIS -->
+<!-- Running title: LIBER VNDECIMVS. -->
 
-<!-- Page number: 344 -->
+<!-- Page number: 345 -->
 
-retur ζ η,latitudinē efficiēs ζ θ.Quoniā igitur cōmēsurabilis est α ipsi β.cōmēsurabile igitur est id quod ex α ei quod ex β.Sed ei quidē quod ex α,æquū est γ ε,ei uero quod ex β,æquū est ζ η.Igitur γ ε,ipsi ζ η,est cōmēsurabile.Cōmēsurabilis igitur est γ ζ,ipsi ζ θ,longitudine.Quinta autem apotome est γ ζ. Apotome igitur quinta est, & ζ θ. Rationalis autē ζ ε,Si uero areola cōprehēdatur sub rationali & apotome quinta,quæ areolā potest cū rationali mediū totum efficiēs est(per 95 decimi.)Potest aūt ipsum ζ η,ipsa β.Igitur β.cū rationali mediū totū efficiēs est. Quod erat ostendendum.
+dratus numerus ad quadratum numerum.
 
-## Eucli.ex Zamb. Theorema 94 Propositio 118
-
-[Margin]
-118
-[/Margin]
-
-## Propositum nobis sit ostendere,quod in quadratis figuris incommensurabilis est dimetiens lateri longitudine.
-
-THEON ex Zamb, Esto quadratū α β γ δ,dimetiēs uero illius sit α,γ.Dico quod α γ,ipsi α β, lōgitudine est incōmensurabilis.Si enim possibile,sit cōmēsurabilis. Dico quod eueniet,quod idem nūerus erit par & impar.Manifestū quidē igitur(per 47 primi) quod id quod ex α γ duplū est eius quod ex α β.Et quoniā α γ ipsi α β cōmēsurabilis est.igitur α γ,ad α β rōnē habet quā nūerus ad numerū(per 5 decimi)habeat aūt.quā ε ζ ad η.Sintq̃ ε ζ,η,minimi eādē rōnē habentiū eis.Igitur ε ζ nō est unitas.Si enim ε ζ,est unitas,& rationem habet ad η,quam α γ ad α β,& maior est α γ ipsa α β,maior igitur est ε ζ unitas ipso η nūero,quod est impossibile.Igitur ε ζ,nō est unitas,nūerus igitur. Et quoniā est sicut α γ ad β,sic est ε ζ ad η,& sicut igitur(per 15 quinti)quod ex γ α,ad id quod ex α β,sic qui ex ε ζ,ad eū qui ex η. Duplū aūt est quod ex γ α eius quod ex α β.Duplus igitur est & qui ex ε ζ,eius qui ex η,par igitur est qui est ex ε ζ,quare & ipse ε ζ,par est.Si enim impar esset,& qui ex eo quadratus impar esset(per 29 noni,)quippe quoniā si quilibet nūeri impares cōpositi fuerint,multitudoq̃ fuerit impar,& totus impar est.Igitur ε ζ,par est.Secetur(per 10 primi) ε ζ,bifariā in θ.Et quoniā ipsi ε ζ,η,numeri,minimi sunt eādē eis habentiū rōnē,primi sunt adinuicē(per 24 septimi,)& ε ζ,par est.Impar igitur est η.Si enim esset par,ipsos ε ζ, metiretur binarius,(omnis etēnim par,habet partē dimidiā)primos adinuicē existentes, quod est impossibile.Igitur η nō est par.Et quoniā ipsius ε θ,duplus est ε ζ,quadruplus igitur est qui ex ε ζ.eius quod ex ε θ,Duplus aūt qui ex ε ζ,eius qui ex η. duplus igitur qui ex η,eius qui ex ε θ.Igitur qui ex η par est,& par igitur est η per ea quæ dicta sunt,sed & impar,quod est impossibile.Igitur α γ,ipsi α β longitudine nō est cōmensurabilis,incōmensurabilis igitur.
-
-[Diagram: a dotted line labelled ζ, θ, ε (two groups of dots); below it a dotted line labelled η; beneath, a square with corners α (top left), β (top right), δ (bottom left), γ (bottom right) and the diagonal drawn from α to γ]
-
-Ostendendū & aliter,quod incōmēsurabilis est quadrati dimetiens lateri.Sit enim pro dimetiente,α pro latere uero,sit β.Dico quod α,ipsi β lōgitudine est incōmēsurabilis.Si enim possibile,sit cōmensurabilis,Fiatque rursus sicut α ad β,sic ε ζ,ad η.sintq̃ minimi eandē eisdē habētiū rōnē,ipsi ε ζ,η. Igitur ipsi ε ζ,η,primi sunt adinuicē. Dico primū quod η nō est unitas.Si enim possibile,esto unitas. Et quoniā est sicut α ad β,sic est ε ζ,ad η,& sicut igitur(per 11 & 15 quinti)quod ex α ad id quod ex β,sic qui ex ε ζ,ad eū qui ex η.Duplū aūt est id quod ex α,eius quod ex β. Duplus igitur & qui ex ε ζ,eius qui ex η. Et η unitas est.Igitur ε ζ binarius est quadratus.Quod est impossibile.Igitur η non est unitas,numerus igitur.Et quoniā est sicut quod ex α ad id quod ex β,sic qui ex ε ζ,ad eum qui ex η,& rursus sicut quod ex β,ad id quod ex α,sic qui ex η ad eū qui ex ε ζ,metitur aūt quod ex β, id quod ex α,metitur igitur & qui ex η quadratus eū qui ex ε ζ,quare & latus idem η ipsum ε ζ metitur,metitur autem & seipsum η,igitur η ipsos ε ζ,η,metitur qui primi sunt adinuicem.Quod est impossibile.Igitur α,ipsi β non est commensurabilis,incommensurabilis igitur.Quod ostendere oportuit.
-
-[Diagram: a dotted line labelled ζ and θ (two groups of dots); below it a dotted line labelled η; beneath, a square with the diagonal drawn from the top left to the bottom right corner, the diagonal labelled α and the right side labelled β]
-
-### Priorum dilucidior explanatio.
+Inuentis iam longitudine incommensurabilibus rectis ut α,β,& plures aliæ magnitudines ex binis * diuisionibus comperiuntur ( plana intelligo) adinuicem incommensurabiles.Quoniam si ipsarum α,β, linearum rectarum mediam proportionalem susceperimus γ,erit igitur sicut α ad β,sic quæ ex α species ad eam quæ ex γ similē similiterq̃ descriptam* speciem,siue quadrata,siue aliæ rectilineæ similes descriptæ fuerint,siue etiam circuli circa dimetientes α γ,quippe quoniam circuli adinuicem sunt sicut ea quæ ex dimetientibus sunt quadrata. Inueniuntur igitur & areolæ planæ adinuicem incommensurabiles.Cum ostenderimus quod ex binis interuallis diuersæ areolæ incōmensurabiles,ostendemus eas quæ ex solidis speculationes,qualiter sunt solida commensurabilia & incōmensurabilia adinuicē. Si enim in ijs quæ ex α,β, quadratis aut eis æqualibus rectilineis figuris cōstituamus altitudine æqualia solida parallelepipeda,uel pyramides,uel prismata,erūt ipsa cōstituta adinuicem sicut bases & si quidem bases sint commensurabiles, commensurabilia erunt ipsa solida. Si uero incommensurabiles,incommensurabilia. Sed & si duobus expositis circulis α β,ipsis conos uel cylindros altitudine æquales describemus,erūt adinuicē sicut bases hoc est sicut ipsi circuli.Et si ipsi circuli sunt cōmensurabiles & ipsi coni & cylindri cōmensurabiles erunt.Si uero ipsi circuli erūt incommensurabiles,ipsi coni & cylindri erūt incōmensurabiles,Et nobis fit manifestū,quod non solū in lineis & superficiebus sunt cōmensurabile & incommensurabile.sed in solidis quoq̃ figuris hoc reperitur.
 
 [Margin]
-Græcus non habet
+διαϛάσεων interuallis
 [/Margin]
 
-Sit quadratum a b c d,dimetiēs uero ipsius sit a c.Manifestū est quod isoceles est triāgulū c d a,æquum habēs d a ipsi d c.similiterq̃ triāgulum isoceles est a b c.Sit igitur d a unitatū 4.siue pedum:sicq̃ & c d,quatuor,quare manifestum est quod ex d a quadratum est unitatū siue pedū 16 sic etiā & quod ex c d.16 est unitatū siue pedū. At quoniā id quod ex a c æquū est eis quæ sunt ex d a,c d,quēadmodū ex 47 primi perspicuū est,manifeūst{printer-error-correction:manifestū} est quod id q̃ ex a c est duplū eius quod ex d a.At id quod ex d a,est unitatū 16. id igitur quod ex dimetiente,32 erit,in dupla,quidem: At quoniam longitudine commensurabiles lineæ sunt quas aliqua magnitudo metitur earūq̃ quadrata rationē habent quam numerus quadratus ad numerū quadratū,at efficiēs 32 per latus aliqua magnitudo non metitur,neque quæ ex eis quadrata sunt rationē habēt quam numerus quadratus ad numerū quadratū (nullum enim quadratum alterius quadratū duplū est)incōmēsurabilis igitur est longitudine dimetiēs lateri,efficiens enim 32 siue latus est unitatum 5 & minutorum 39,quæ 5,39:ac 4,nulllam{printer-error-correction:nullam} habent communem mensuram 32 ad 16 sicut dictum est rationē nō habet qualem qua
+[Margin]
+εἶδος figura
+[/Margin]
 
-[Diagram: a square with corners a (top left), d (top right), b (bottom left), c (bottom right), the diagonal drawn from a to c; the top side marked 4, the right side marked 4, and 32 written inside above the diagonal]
+[Diagram: three horizontal lines labelled α, γ, β]
 
-<!-- Catchword: dratus -->
+DECIMI LIBRI FINIS.
+
+# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER VNDECIMVS,
+
+{dropcap:C|lines=?|style=decorated|decoration="figures"}## Eucli.ex Camp.no Diffinitiones.
+
+Orpus,est quod longitudinem latitudinem,& altitudinem habet.Cuius termini,sunt superficies.
+
+Linea erecta supra superficiem,est quæ cum singulis sibi conterminalibus lineis in ea superficie expassis angulos rectos facit.Linea autem hæc supra eam superficiem perpendicularis esse, & ad eandem orthogonaliter insistere dicitur.
+
+Intelligatur enim linea a b exurgere supra planū,ita quod pūctus a imaginetur in aëre,& b in plano.& à puncto b ducantur plures lineæ in eodē plano:ut b c,b d,& quotlibet aliæ.Si igitur ita fuerit quod linea a b cum linea b c,& cum linea b d,& cum qualibet alia linea protracta a puncto b in plano illo angulum rectum contineat,ipsa dicetur esse perpēdicularis ad illā superficiem in qua protractæ sunt hæ lineæ,uidelicet b c & b d,& aliæ cum quibus ipsa ponitur continere angulum rectum.
+
+[Diagram: a plane drawn as a parallelogram with several lines crossing at the point b, the letters c and d at its edges, and the line b a rising obliquely to the point a above]
+
+Superficies autem erecta super superficiem est,quoties puncto uno eodē lineæ quæ est communis terminus illarum superficierum duæ perpendiculares conterminales superstant,quæ rectum continentes angulum in eisdē superficiebus sitæ sunt.
+
+Verbi gratia,imaginemur superficiē a b c d exurgere,superficiem uero c d e f iacere.& intelligamus lineam c d esse cōmunem terminum ambarum.In ea itaq̃ signetur punctus g.a quo ad lineā c d extrahantur duæ lineæ perpendiculares,una uidelicet in superficie c d e f,quæ sit g k & alia in superficie a b c d quæ sit g h.Si igitur angulus
+
+[Diagram: two parallelograms meeting in the line c d, lettered a, h, b along the top, c, g, d along the middle, and e, k, f along the bottom]
+
+<!-- Catchword: quem -->

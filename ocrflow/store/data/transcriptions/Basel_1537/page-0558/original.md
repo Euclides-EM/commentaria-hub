@@ -1,43 +1,29 @@
-<!-- Running title: DATA -->
+<!-- Running title: EVCLDIS MEGARENSIS{printer-error-correction:EVCLIDIS} -->
 
-<!-- Page number: 545 -->
+<!-- Page number: 548 -->
 
-## Scholium
+igitur reliquæ e c ad c b data est. Quare & econtra ipsius b c, ad e c, ratio data est, & conuertendo per correlarium 18 quinti elementorum ipsius b c ad b e, ratio data est, & est e b, cum ipsa b a, data. Tota enim a e, data est. Igitur b a, cum consequenti ad quam b, rationem datam habet, data est.
 
-Datorum aliqua positione: at alia magnitudine data sunt. Datum siquidem quadrupliciter dicetur, aut enim magnitudine, aut specie, aut ratione, aut positiōe dari dicitur: quid uero horū unūquodq̃ significet, ipse Euclides docet. Cōiter aūt dicitur datum, cui idem inuenire & exhibere est possibile. Datorum uero traditionem in plano uno positā accipimus, sicut in sex prioribus libris elementorum. Data sunt definita, hoc est quorū finis datur aut intellectu aut sensu, hijs enim æqua possumus exhibere, similiter autem siue intelligentia, siue sensu, potest autem rationale & irrationale datum esse, ut inquit Pappus in principio eorum quæ in Euclidem scripsit, rationale namq̃ Datum est: sed non omnino Datum rationale est, sed has tres diffinitiōes ultimas de magnitudinibus aiunt esse Apollonij.
+## Scholium.
 
-## Theorema 1 — Propositio 1
+Hoc est componendo maior est quàm in ratione, sicut magnitudo 10 & altera magnitudo 23 data autem sit 3 & utraque 33, & ipsa 10 in ipsa c d, est data quàm in ratione. Auferantur sicut à data cap. 10 ad 20 data sicut nunc in secunda ratione & sicut in diffinitionibus dictum est, sicut magnitudo a b, per hyyothesim{printer-error-correction:hypothesim} 23 magnitudine b c, existente per hypothesim 10 dato maior esto quàm in ratione. Sitq̃ data ad 33, si igitur ab ipsa a b, abscindis datū a d, hoc est 3 reliqua d c 20 ad b c 10 rationē habet datā, patuit autem in diffinitionibus, dato enim maior est quàm in ratiōe hoc patet, & manifestum quod & reliqua est, & tota a c, maior est dato quàm in ratione. Si enim æqualis extiterit data a b reliqua b c ad eandē b c, rursus datā habet rationem, possum siquidē eandē eidem exhibere sicut in diffinitionibus. Datur siquidem e c, per 4 theorema, & quoniā datur utraque ipsarum c a, a e, & ipsarum adinuicem ratio datur, per primum theorema & ipsius a c ad c e. Sed ipsius a c, ad c b, sic ipsius b c ad c e. Quoniam enim est sicut a d ad d e, sic c d ad d b, & uicissim, per 16 quinti elemē. sicut a d ad d c sic e d ad d b. Et cōponēdo igitur, 18 quinti element. sicut a c ad c d, sic e b, ad d b, & uicissim per 16 quinti element. sicut a c ad e b, sic, c d ad d b: datur autem ipsius a d, ad d b, ratio. Datur igitur & ipsius a c ad e b, ratio. Sed potius cōcisius dicēdum est sicut unū antecedentiū ad unū sequentiū, hoc est sicut c d ad d b, sic omnia antecedentia, ad omnia sequentia, hoc est a c ad e b.
 
-DAtarum magnitudinum ratio adinuicem datur.
+## Theorema 11 — Propositio 11
 
-Sint datæ magnitudines a, b, dico quod ipsius a ad b, ratio data est. Quoniam enim datur a, possibile est per primam diffinitionē ei æquam exhibere, exhibeatur & esto c. Rursus quoniam data est b possibile est per eandem eidē æquam, exhibere, exhibeatur & esto d: quoniam igitur a est æqualis ipsi c, & b ipsi d: est igitur sicut a ad c, sic est b ad d, uicissim per 16 quinti elementorum sicut a ad b, sic c ad d. Ipsius igitur a ad b ratio data est, eadem namque eidem exhibetur ipsius c ad ipsam d.
+SI magnitudo magnitudine dato maior fuerit quàm in ratione eadem, & utraque dato maior erit quàm in ratione, & si eadem & utraque dato maior fuerit, quàm in ratione, eadē & reliqua dato maior igitur erit quàm in ratione.
 
-[Diagram: four vertical line segments labelled a, b, c, d]
+Magnitudo enim a b ipsa b c dato maior sit quàm in rōne. Dico quod & ipsa a c, dato maior est quam in ratione. Quoniam enim a b ipsa b c, dato maior est quam in ratione auferatur data magnitudo a d. Reliquæ igitur d b ad d c, ratio est data & econtra & componendo per 18 quinti elemen. & 4 datorum. Eadē eidem fiat, ipsius a d ad d e. Ratio igitur ipsius a d ad d e data est. Data est, a d, data igitur & d e. Quare per quartā propositionem reliqua e a data est. Est autem totius a c ad totam ratio, quare & ipsius e b ad a c, ratio est data & a e, data est. Igitur b a ipsa a c, dato maior est quàm in ratione. Dico quod eadem a b reliqua b c, dato maior est igitur quàm in ratione. Quoniam enim a b ipsa a c dato maior est quam in ratione, auferatur data magnitudo a e, reliquæ igitur e b ad a c, ratio data est. Quare & ipsius a c hoc est econtra a d, e b, ratio est data. Eadem eidem fiat, ipsius a d ad e d, & ipsius d a igitur ad e d, ratio est data. Et conuertendo per correlariū 18 quinti ele. ipsius d a ad a e ratio est data, & econtra ipsius e a ad a d ratio est data & data est a e, data igitur & tota a d. Et quoniam tota a c ad totam e b, ratio data est quarum ipsius a d ad d c, ratio data est, erit & per 19 quinti elementorum reliquæ c d ad reliquā d b ratio data. Et distribuendo per 7 propositionē ipsius c b ad b d, ratio est data. Quare & ipsius d b, ad b c, ratio est data. Ipsa enim d a data est, igitur a b ipsa b c maior est dato, quam minor.
 
-## Theorema 2 — Propositio 2
-
-SI magnitudo data ad aliam aliquam magnitudinem rationem datam habuerit, & eadem magnitudine datur.
-
-Data, inquam, magnitudo a ad quampiam aliam magnitudinem b rationem habeat datam. Dico quod ipsa b magnitudine datur. Quoniā enim datur a possibile est eidem per primam diffinitionem eandem exhibere, exhibeatur at esto c. Et quoniam ratio ipsius a ad b datur, sic enim supponitur, & ei æqualem per 2 diffinitionem exhibere est possibile, exhibeatur, estoq̃ ipsius c ad ipsam d ratio, & quoniam est sicut a ad b sic est c ad d: uicissim igitur per 16 quinti element. est sicut a ad c, sic b ad d: æqualis autem est a ipsi c: æqualis igitur est & b ipsi d. Datur igitur per primam diffinitionem ipsa b magnitudo, æqualis siquidē ei exhibetur d.
-
-[Diagram: four horizontal line segments labelled a, b, c, d]
+[Diagram: one horizontal line segment with points c, b, d, e, a]
 
 ## Scholium
 
-Hoc precedētis conuersum est quodammodo, sed non uniuersaliter id esse conuersum dicendum est, esset enim uniuersaliter id precedentis cōuersum si magnitudines inuicē rationem haberent datam, dantur magnitudine, nonnulli autem aggrediuntur ut ostendant esse conuersum precedentis, inquiuntq̃ quod si magnitudines aliquæ rationem adinuicem datam habuerint dantur magnitudine.
+Quoniam enim est sicut a c ad e b, sic ablata a b ad ablatam d e, & reliqua igitur c d ad a d reliquam d b est sicut a c ad e b, per 19 quinti elementorum: data autem est ipsius a c ad e b, ratio data igitur & ipsius c d ad d b.
 
-## Theorema 3 — Propositio 3
+## Theorema 12 — Propositio 12
 
-SI datæ magnitudines quæcunque compositæ fuerint, & ex ipsis compositum datum erit.
+SI fuerint tres magnitudines, & prima cum secunda data fuerit, fuerit autem & secunda cum tertia data, prima tertiæ aut est æqualis uel altera dato maior est.
 
-Componantur enim quælibet datæ magnitudines a b, b c. Dico quod & quod ex a b, b c hoc est ipsum a c conflatū datum est. Quoniam enim datur a b possibile est per primam diffinitionem æqualē eidem exhibere: exhibeatur per eandem sitq̃ d e. Rursus quoniam datur b c, possibileq̃ est eidem eandem exhibere, exhibeatur per eandem & sit e f. Quoniā igitur æqualis quidem est a b ipsi d e & b c ipsi e f. Tota igitur a c toti d f, est æqualis: per 2 communem sententiam. Datur igitur ipsa a c: eidem siquidem in eadē exhibetur d f,
+Sint tres magnitudines a b, b c, c d, & a b cum b c, data sit ut a c, At b cum c d, data sit ut
 
-[Diagram: two horizontal line segments, the first with points a, b, c, the second with points d, e, f]
-
-## Theorema 4 — Propositio 4
-
-SI à data magnitudine, data magnitudo auferatur, reliqua data erit.
-
-<!-- Signature: Z 3 -->
-
-<!-- Catchword: A data -->
+<!-- Catchword: d b -->

@@ -1,53 +1,23 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVSQVARTVS -->
 
-<!-- Page number: 468 -->
+<!-- Page number: 469 -->
 
-Apollonio conscriptum, qui recte complectebatur eius quod obijciebatur demonstrationē, gauisi sunt inquam illi ualde, in problematis indagatione. Ab Apollonio nanq̃ æditum uidetur cōmuniter considerare, nam sic circumfertur. Quod uero a nobis rursus laboriose conscriptum uisum est, ea quæ ex cōmendatione deprehendi, tibi * discutienda esse censui, propter eam quæ in omnibus disciplinis, & in Geometria præcipue promotionem, ut prompte ea quæ dicentur possis iudicare, tum propter beneuolentiam erga patrem, tum ob amorem erga nos. Benigne igitur audies ea quæ tibi trademus. Sed tempus iam esto procemio supersedere, & constructionem exordiri.
+quadruplum igitur est quod ex β ζ, eius quod ex δ ζ. Ei aūt quod ex β ζ, æqua sunt quæ ex β α, α ζ: quadrupla igitur sunt quæ ex β α, α ζ, eius q̃ ex δ ζ: quincupla igitur sunt quæ ex γ α, α ζ, eius quod ex δ ζ, quæ autē ex γ α, æqualia quod ex α β, quæ autē ex δ ζ: quincuplū igitur quod ex α γ una cum eo quod ex α ζ, eius quod ex δ ζ.
 
-[Margin]
-προσφωνῆσαι dedicare
-[/Margin]
+Hoc ostenso, demonstrandum est quod circulus idem comprehendit & dodecahedri pentagonū, & icosahedri triangulum, in eadem sphæra descriptorum. Exponatur ipsius sphæræ diameter α β, & in eadem sphæra describatur dodecahedrum & icosahedrū, & sit unū quidē dodecahedri pentagonū, γ δ ε ζ η, icosahedri uero triāgulū, θ κ λ. Dico quod quæ ex cētris circulorum qui circum ipsa, sunt æquales, hoc est quod idem circulus cōprehēdit & quinquangulum γ δ ε ζ η, & ipsum θ κ λ triangulum. Connectatur γ ε: cubi igitur latus est γ ε, (per 17 decimitertij & eius correlarium.) Exponatur autē quædā recta linea μ ν. Est autem & ipsius sphæræ diameter, potētia quincupla eius quæ ex centro circuli à quo icosahedrū describitur: est igitur μ ν ea quæ ex centro circuli à quo icosahedrū describitur. Secetur (per 30 sexti) μ ν extrema & media rōne in ξ, sitq̃ maius segmentum μ ξ: decagoni igitur ipsius circuli est ipsa μ ξ (per 9 decimitertij.) Et quoniā quod ex α β, eius quod ex μ ν quincuplum est, triplum autem quod ex α β eius quod ex γ ε (per correlarium 15 decimitertij), tria igitur quæ ex γ ε æqua sunt quinque quæ ex μ ν. Sicut aūt tria quæ ex μ ν, sic tria quæ ex γ δ, ad quinque quæ ex μ ξ: tria igitur quæ ex γ δ & quinque quæ ex μ ξ sunt æqualia. Quinque autem quæ ex μ ν & quinq̃, quæ ex μ ξ, quinque quæ ex κ λ sunt æqualia (per 10 decimitertij.) Quinq̃ igitur quæ ex κ λ æqualia sunt tribus quæ ex γ ε & tribus quæ ex γ δ. Sed tria quidem quæ ex γ ε, & tria quæ ex γ δ, sunt æqualia decē & quinq̃ eis quæ ex ea quæ ex centro circuli ipsi γ δ ε ζ η pentagono circūscripti, patuit namque, quod ex γ ε una cū eo quod ex γ δ, quincuplum est eius quod ex ea quæ ex centro circūscripti ipsi γ δ ε ζ η pentagono. Quinque autem quæ ex κ λ, æqualia sunt decē & quinq̃, eis quæ ex ea quæ ex cētro circuli ipsi κ λ θ triāgulo circumscripti, patuit æquidem (per 12 decimitertij) q̃ quod ex κ λ, triplum est eius quod ex ea quæ ex centro circuli ipsi κ λ θ triāgulo circumscripti. Quindecim igitur quæ ex ea quæ ex centro, æqua sunt eis quindecim quæ ex ea quæ ex centro, unum igitur ei quod ex ea quæ ex centro, æquū est uni eorū quod ex ea quæ ex centro, dimetiens igitur, ipsi dimetienti est æqualis. Idem igitur circulus comprehendit & ipsius dodecahedri, quinquangulum, & ipsius icosahedri triangulum in eadem sphæra descriptorum.
 
-## Eucli. ex Zamb. — Theorema 1 — Propositio 1
+[Diagram: sphere diameter drawn as horizontal line α β; below it a regular pentagon γ δ ε ζ η with the diagonal γ ε; a short horizontal line μ ν divided at ξ; and an equilateral triangle θ κ λ]
 
-[Margin]
-1 / Camp. 1
-[/Margin]
-
-Quæ ex centro alicuius circuli in pentagoni latus in eodem circulo descripti perpēdicularis acta, dimidia est simul utriusq̃: & eius quæ ex centro, & eius quæ decagoni in eodem circulo descripti.
-
-HYPSICLES ex Zamber. Sit circulus α β γ, & in ipso α β γ circulo latus pentagoni æquilateri sit β γ, assumaturq̃ (per 1 tertij) centrum ipsius circuli, sitq̃ δ, & ab ipso δ (per 12 primi) perpendicularis excitetur δ ε, extendaturq̃ in rectas lineas ipsi δ ε recta linea ε ζ. Dico quod ipsa δ ε dimidia est & hexagoni & decagoni laterum in eodem circulo descriptorū. Connectatur enim δ γ, ζ γ, & ponatur ipsi ε ζ æqualis ε κ, & ab ipso κ in γ connectatur κ γ. Quoniam quincupla est totius circuli circūferentia ipsius β ζ γ circūferentiæ, & totius quidem circunferentiæ circuli dimidia est circunferentia α ζ γ, ipsius autem β ζ γ dimidia est ζ γ circūferentia, α ζ γ ipsius ζ γ circūferentiæ quincupla est. Quadrupla igitur est α ζ ipsius ζ γ. Sicut autē α ζ ad ζ γ, sic qui sub α δ ζ angulus ad eum qui sub ζ δ γ, angulum: quadruplus igitur qui sub α δ ζ, eius qui sub ζ δ γ. Duplus autē qui sub α δ ζ, eius qui sub δ ζ γ: duplus igitur est qui sub δ ζ γ, eius qui sub ζ δ γ. Est autem qui sub ζ δ γ, ei æquus qui sub κ γ ζ: duplus est igitur is qui sub γ κ ζ, eius qui sub κ δ γ: æqualis igitur qui sub δ γ κ, ei qui sub κ δ γ: æqualis igitur δ κ, ipsi κ γ. Sed κ γ ipsi γ ζ æqualis: æqualis igitur & ipsi γ ζ. Est autem κ ε ipsi ε ζ æqualis: æqualis igitur & ipsi δ κ ipsa γ ζ, quæ decagoni. Cōmunis autem apponatur ipsa δ ε. Utraq̃ simul δ ζ, δ κ, dupla est ipsius δ ε. Est autē δ ζ æqualis quidem ipsius hexagoni lateri. At δ κ æqualis ei quod decagoni. Igitur δ ε dimidia est & eius quod hexagoni & eius quod decagoni laterum in eodem circulo descriptorū. Manifestum nempe est ex ijs quæ in tertiodecimo libro theorematibus, quod ex centro circuli in latus triāguli æquilateri perpēdicularis acta, dimidia est eius quæ ex centro circuli.
-
-[Diagram: circle α β γ with pentagon side β γ; centre δ; perpendicular δ ε on β γ produced to ζ on the circumference; κ on the line with ε κ equal to ε ζ; lines δ γ, ζ γ, κ γ drawn]
-
-## Eucli. ex Zamb. — Theorema 2 — Propositio 2
+## Eucli. ex Zamb. — Theorema 3 — Propositio 3
 
 [Margin]
-2
+3
 [/Margin]
 
-Idem circulus cōprehendit & dodecahedri quinquangulū, & icosahedri triangulum in eadem sphæra descriptorū.
+Si fuerit pentagonum æquilaterum & æquiangulum, & circum ipsum circulus, & ex centro perpendicularis in unum latus acta fuerit, quod trigesies sub uno laterum & perpendiculari, æquum est ipsius dodecahedri superficiei.
 
-HYPSICLES ex Zamb. Hoc, inquam, ab Aristeo describitur in eo libro cuius index est quinq̃ figurarū comparatio, ab Apollonio autem in secunda * traditione comparationis dodecahedri ad icosahedrum, quod est sicut dodecahedri superficies ad icosahedri superficiem, sic & ipsum dodecahedrum ad ipsum icosahedrū, quoniam ex centro sphæræ in dodecahedri pentagonū & in icosahedri triangulum perpendicularis acta eadem est.
+HYPSICLES ex Zamb. Esto pentagonum æquilaterum & æquiangulum α β γ δ ε, & circū quinquangulum sit (per 14 quarti circulus) & capiatur (per 1 tertij centrū) sitq̃ ζ, & ab ipso ζ, in γ δ, perpendicularis agatur (per 12 primi) ζ η. Dico q̃ quod sub ζ η, γ δ, trigesies, æquū est duodecim pētagonis quale α β γ δ ε. Connectatur γ ζ, ζ δ. Quoniā quod sub γ δ, ζ η, duplū est ipsius triāguli γ ζ δ, quod igitur quinquies sub γ δ, ζ η, decem triangula sunt æqualia. Decem uero triangula, bina sunt quinquangula, & omnia sexies, quod igitur trigesies sub γ δ, ζ η, duodecim quinquangulis æquū est. Duodecim autem quinquangula sunt ipsius dodecahedri superficies. Quod igitur trigesies sub γ δ, ζ η, æquū est ipsius dodecahedri superficiei. Similiter quoque demonstrabimus quod si fuerit triangulum æquilaterum sicut α β γ, & circum ipsum circulus, & centrū circuli δ, perpendicularis uero δ ε, quod trigesies sub δ ε, β γ, æquum est ipsius icosahedri superficiei. Quoniam enim rursus quod sub δ ε, β γ, duplum est ipsius δ β γ, bina igitur triangula æqua sunt ei quod sub δ ε, β γ, & omnia ter. Sex igitur triāgula δ β γ, æqua sunt tribus eis quæ sub δ ε, β γ. Sex autem triangula δ β γ, æqua sunt binis α β γ. Tria igitur, quæ sub δ ε, β γ, æqualia sunt duobus
 
-[Margin]
-ἐκδόσει editione
-[/Margin]
+[Diagram: circle containing an inscribed pentagon; within it, at the centre, the triangle formed by the two radii γ ζ, ζ δ upon the side γ δ, with the perpendicular ζ η; points β and α on the circumference at left and top]
 
-Describendū quoq̃ à nobis est, quod idem circulus comprehendit & dodecahedri pentagonū & icosahedri triangulū in eadem sphæra descriptorū.
-
-[Margin]
-Camp. 4
-[/Margin]
-
-Hoc * descripto, si in circulo quinquangulū æquilaterū descriptum fuerit, quod ex latere pentagoni & quod ex ea quæ sub binis pentagoni lateribus subtensa est recta linea, quincuplum erit eius quod fit ex ea quæ ex centro circuli.
-
-[Margin]
-προγράψαι
-[/Margin]
-
-Sit circulus α β γ, & in ipso α β γ circulo sit latus pentagoni α γ, assumaturq̃ (per 1 tertij) ipsius circuli centrum, & sit δ, & ab ipso δ in α γ (per 12 primi) perpendicularis excitetur δ ε, & extendatur in β, & ζ, & connectatur α β, α ζ. Dico quod quæ ex γ α, α ζ quadrata quincupla sunt eius quod ex δ ζ quadrati. Connectatur α β, igitur α β decagoni est. Et quoniā β ζ, ipsius δ ζ dupla est,
-
-[Diagram: circle α β γ with vertical diameter β ζ through centre δ; pentagon side α γ cut perpendicularly at ε; chords α β and α ζ drawn]
-
-<!-- Catchword: quadruplum -->
+<!-- Signature: R -->

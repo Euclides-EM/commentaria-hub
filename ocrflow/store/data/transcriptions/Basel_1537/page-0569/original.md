@@ -1,27 +1,37 @@
-<!-- Page number: 556 -->
+<!-- Running title: DATA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 559 -->
 
-datus igitur est & qui sub h g d. Quoniam igitur additiōe data recta linea c d, & ad in eā datum signum g recta linea excitatur g h datum efficiens angulū h g f. Igitur per 29 propositionem ipsa g h positione datur, positione autem & a b. Datum igitur est h signum, est autem & g. Data igitur est g h, magnitudine per 26 propositionem, & ipsi e f est æqualis. Data igitur est & e f magnitudine.
+nem datorum. Rursus centro quidem f interuallo uero f g, per idem postulatum circulus describatur g k l, positione igitur est ipse g k l circulus per eādem diffinitionem, positione autem & circulus d k h. Datum igitur est & k, signum est autem & utrunque ipsorum e f datum. Data igitur est unaquæq̃ ipsarū k e, e f, f k positione & magnitudine. Datur igitur k e f triangulum specie, & æquum ac simile est ipsi a b c. Datur igitur a b c triāgulum specie.
 
-## Theorema 33 Propositio 33
+### Scholium.
 
-SI in parallelos positione datas rectas lineas recta linea acta fuerit magnitudine data, angulos efficiet datos.
+Quoniam igitur datæ sunt ipsæ k e, e f earum adinuicem ratio data est per primū theorema datorum, similiter autem & ipsarum e f, k ratio data est, estque ipsarum f k, k e ratio data. Rursus quoniam ipsæ k e, e f, datæ sunt positione, eundem igitur semper locū obtinent, ac per hoc qui sub k e f magnitudine datur, similiter autem & qui sub e f k, datur magnitudine, & insuper qui sub f k e, datur magnitudine.
 
-Si in parallelos enim positione datas rectas lineas a b, c d, recta linea excitetur e f magnitudine data. Dico quod datos angulos efficiet sub b e f e f d, assumatur enim in ipsa a b datum signū g & per g ipsi e f, per 31 primi ele. parallelus excitetur g h, æqualis igitur est e f ipsi g h. Data autem est e f magnitudine. Data igitur est & g h. Estque g datū. Cētro igitur g, interuallo uero g h, circulus descriptus erit positiōe. Describatur sitq̃ k h l, positiōe igitur est circulus k h l, positiōe aūt & c d, datū igitur & h signum, est aūt & g datum positione, igitur est ipsa g h, per 26 propositionem, positione autem & c d. Datus igitur est & qui sub h g d angulus, & ei est æquus qui sub e f d. Datus igitur est & qui sub e f d, & reliquus igitur qui sub f e b, datus est.
+## Theorema 40 Propositio 40
 
-[Diagram: two vertical parallel lines crossed by a transversal; circle k h l centred at g; point labels a, k, e above, h, b at right, g and f in the middle, c, l, b below]
+SI trianguli unusquisque angulus datus fuerit magnitudine, datur triangulum specie.
 
-### Aliter.
+Trianguli enim a b c unusquisque angulus datus sit magnitudine. Dico quod a b c triangulum specie datur. exponatur enim positione & magnitudine data recta linea d e, & construatur ad d e, ad signaque in ea d e, per uigesimamtertiā primi elemen. ei qui sub c b a, angulo æquus rectilineus angulus qui sub e d f, ei aūt qui sub b c a, æquus qui sub d e f. Reliquus igitur qui sub b a c, reliquo ei qui sub d f e, est æquus. Datus autem unusquisq̃ eorū qui ad a b c signa. Datus igitur & unusquisque eorum qui ad d e f. Quoniā igitur additione data recta linea d e, & ad signum in ea datū d recta excitatur linea d f, datum efficiens angulum d. Igitur per 29 propositionem d f positione est, idque propterea iam & e f positione est. Datum igitur est f signum. est autem & utrūq̃ ipsorum d e datum. Data igitur est unaquæq̃ ipsarū d f, d e, e f, positiōe & magnitudine, datum igitur d f e triāgulum specie, & simile est ipsi a b c triangulo. Datur igitur & a b c triangulū specie.
 
-Assumatur in c d datum signum g ponaturq̃ per 2 primi elemen. ipsi f e æqualis g d, & centro quidem g spacio uero g d, per 3 postulatum circulus describatur d b, positiōe igitur est ipse b d circulus. Datur siquidem eius cētrū positione & quæ ex centro magnitudine, positione autem & a b. Datum igitur est b signum, est autem & g datum positione, igitur est ipsa b g, per 26 propositionem, positione autem & c d. Datus igitur est qui sub b g d angulus. Et siquidem parallelus est e f ipsi b g erit, & qui sub e f g, angulus datus: quare & reliquus qui sub f e b angulus datus est. Si autem non concurrunt ipsæ e f, b g in h. Quoniam æqualis est e f ipsi d g hoc est ipsi g b & parallelus est e b ipsi f g, æqualis igitur est h f ipsi h g. Quare & angulus qui sub h g f, ei qui sub h f g, est æqualis. Datus aūt qui sub h g f. Datus. igitur & qui sub g f h, quare & consequens qui sub h f e, datus est, & reliquus qui sub f e b, datus est.
+[Diagram: triangle with apex a and vertex b at lower right]
 
-[Diagram: circle centred g with vertical parallels either side; e at upper left, f within upper part, h at top, b at right on the circle, g below centre, b lower left, d lower right]
+[Diagram: triangle with apex a, base vertices e and b]
 
-## Theorema 34 Propositio 34
+### Scholium.
 
-SI in parallelos positione datas rectas lineas à dato signo recta linea acta fuerit, in datam rationem secabitur.
+Quoniam igitur datur utraque ipsarum d e, e f, datur & earum adinuicem ratio per primum theorema. Similiter iam & ipsarum e f, f d, ratio datur, & insuper ipsorum f d, e d, ratio. Insuper & unusquisque ipsorum d e f angulorū datus est magnitudine. Datur igitur d e f triangulum specie sicut in diffinitionibus.
 
-In parallelos enim positione datas rēctas lineas a b, c d, à dato signo e, recta excitetur linea e f g. Dico quod ratio ipsius e f ad f g, data est, excitetur enim per 12 primi elemento. ab ipso e signo in c d perpendicularis e k h. Quoniam à dato signo e in positione datam rectam lineam c d, recta linea excitata est h, datum efficiēs angulum sub e h g. igitur per 30 propositionem ipsa e h positione datur, positionem autem & utraque ipsarum a b c d. Datum igitur est utrunque ipsorum k h. Est autem & e datum. Data igitur est utraque ipsarum e k, k h. Ratio igitur ipsius e k ad k h, per primā propositionem data est. Estque sicut e k ad k h sic e f ad f g. Ratio igitur ipsius e f ad f g data est.
+[Diagram: triangle with apex f, base vertices e and d]
 
-[Diagram: point e above; upper horizontal line through k, f, a; lower horizontal line through b, g, c; transversal e f g and perpendicular e k h]
+## Theorema 41 Propositio 41
+
+SI triangulum unum angulum datum habuerit, circum uero datum angulum latera adinuicem rationem habuerint datam, datur triāgulum specie.
+
+Habeat enim triangulum a b c, unum angulum datū cū qui sub b a c, circum ucro{printer-error-correction:uero} b a c, latera b a, a c, adinuicē rationem habeant datam. Dico quod a b c, triangulum specie datur. Exponatur enim in positione data recta linea d f, constituaturque per uigesimamtertiā primi elemento rum ad ipsam d f, rectam lineā, ad signū in ea f, ei qui sub b a c angulo æqualis angulus qui sub d f e. Datus autem qui sub b a c, datus & qui sub d f e. Quoniam igitur additione data recta linea d f, & ad signū datum in ea f, recta linea acta est f e, datum efficiens angulum d f e. igitur per 29 propositionem ipsa f e: positione est. Et quoniam ratio ipsius b a ad a c data est, eadem eidem fiat, quæ ipsius d f ad f e, & connectatur d e. Ratio igitur & ipsius d f ad f e data est. Data autem d f, data igitur & f e. Sed & positione, & f est datum, datum igitur & e, est autem & utrunque ipsorum d f, datum. Data igitur est unaquæque ipsarum d f, f e, d e, positione &
+
+[Diagram: two triangles side by side, apexes f and e, on a base line with labels d, c, b]
+
+<!-- Signature: Bb 4 -->
+
+<!-- Catchword: magni -->

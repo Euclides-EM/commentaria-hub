@@ -1,29 +1,31 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DVODECIMVS. -->
 
-<!-- Page number: 394 -->
+<!-- Page number: 395 -->
 
-prismata existentia in ipsa α β γ η pyramide inuicem sunt æqualia, & quia bina prismata existentia in ipsa δ ε ζ θ pyramide inuicem sunt æqualia, est igitur sicut prisma cuius basis est β κ λ ξ parallelogrammū, ex opposito uero μ ο recta linea, ad prisma cuius basis est λ ξ γ triangulum ex opposito autem ο μ ν sic prisma cuius basis π ε ρ φ, ex opposito uero σ τ, ad prisma cuius basis ρ φ ζ, ex opposito autem σ τ υ. Componendo igitur (per 18 quinti) est sicut κ β ξ λ μ ο, λ ξ γ μ ν ο prismata, ad λ ξ γ μ ν ο prisma, sic π ε φ ρ σ τ, ρ φ ζ σ τ υ, prismata ad ρ φ ζ σ τ υ prisma: uicißim igitur (per 16 quinti) est sicut κ β ξ λ ο μ, λ ξ γ ο μ ν, ad ipsa π ε φ ρ σ τ, ρ φ ζ σ τ υ prismata, sic prisma λ ξ γ μ ν ο ad ρ φ ζ σ τ υ prisma. Sicut autē λ ξ γ μ ν ο prisma ad ρ φ ζ σ τ υ prisma, sic ostensum est esse basin λ ξ γ ad ipsam ρ φ ζ, & basin α β γ ad basin δ ε ζ, & sicut igitur (per 11 quinti) triangulū α β γ ad triangulū δ ε ζ, sic bina prismata quæ sunt in α β γ η pyramide ad ea bina prismata quæ sunt in δ ε ζ θ pyramide. Similiter uero si & reliquas pyramides eodem modo *trahemus, uidelicet ο μ ν η, σ τ υ θ, erit sicut basis ο μ ν ad σ τ υ basin, sic bina prismata existentia in ipsa ο μ ν η pyramide ad bina prismata existentia in σ τ υ θ pyramide. Sed sicut ο μ ν basis ad σ τ υ basin, sic α β γ basis ad δ ε ζ basin, & sicut igitur (per 11 quinti) α β γ basis ad δ ε ζ basin, sic & bina prismata existentia in ipsa α β γ η pyramide ad bina prismata existētia in δ ε ζ θ pyramide, & bina prismata existētia in ο μ ν η pyramide ad bina prismata existentia in ipsa σ τ υ θ pyramide, & quatuor ad quatuor. Et eadem quoq̃; ostendentur in prismatibus factis ex ipsarū α κ λ ο & δ π ρ σ pyramidum diuisione, & omnium simpliciter æque multiplicium. Quod autem sit sicut λ ξ γ triangulum ad ρ φ ζ triangulum, sic prisma cuius basis λ ξ γ triangulum, ex opposito autem ο μ ν, ad prisma cuius basis quidem est ρ φ ζ triangulum, ex opposito σ τ υ, sic ostendendum est. in eadem enim descriptione intelligantur ab ipsis η, θ. perpendiculares in ipsa α β γ, δ ε ζ, triangula plana, æquales autem ipsæ erunt, quoniam æque sublimes ipsæ supponuntur pyramides. Et quoniam binæ rectæ lineæ η γ & quæ ex η perpendicularis, à parallelis planis, hoc est α β γ, ο μ ν, secantur in eisdem rationibus secabuntnr{printer-error-correction:secabuntur} (per 17 undecimi) & η γ bifariam secatur à plano ο μ ν, in signo ν, & perpendicularis igitur quæ ex η, in triangulum α β γ planum bifariam secatur à plano ο μ ν, & id propterea & perpendicularis quæ ex θ in δ ε ζ planum, bifariam secabitur ab ipso σ τ υ plano. Et ipsæ quæ ex η, θ, perpendiculares in ipsa α β γ, δ ε ζ, plana, sunt æquales. Igitur & quæ ex ο μ ν, σ τ υ, triangulis in ipsa α β γ, δ ε ζ, plana perpendiculares, sunt æquales. Prismata igitur quorum bases sunt λ ξ γ & ρ φ ζ triangula, ex opposito autem ο μ ν, σ τ υ, æque sunt alta. Quare & solida parallelepipeda quæ à prædictis prismatibus describuntur æque alta, adinuicem sunt sicut bases, & dimidia igitur erunt sicut λ ξ γ basis ad ρ φ ζ basin, sic prædicta prismata adinuicem. Si binæ igitur pyramides sub eadem fuerint altitudine, & quæ sequūtur reliqua. Quod erat ostendendum.
-
-[Margin]
-Διέλωμεν diuiserimus
-[/Margin]
-
-[Diagram: pyramid α β γ η as large triangle — α at apex, β, ξ, γ along the bottom; fastigium η in the centre with μ at left and ν at right; inner lines showing prisms]
-
-[Diagram: pyramid δ ε ζ θ as smaller triangle — δ at apex, ε, φ, ζ along the bottom; σ on the axis below δ, π on side δ ε, ρ on side δ ζ, θ in the centre with τ at left and υ at right]
-
-## Eucli. ex Camp. Propositio 5
-
-[Margin]
-5
-[/Margin]
-
-{dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnes duæ pyramides æque altæ quarū bases triangulæ, suis basibus sunt proportionales.
-
-CAMPANVS. Quod 33 undecimi proposuit de solidis parallelogrāmis & in fine 36 undecimi uerum esse demōstrauimus de seratilibus, hæc 5 duodecimi proponit de pyramidibus triangulis. Intelligantur enim duæ pyramides æque altæ, quarū bases sunt duo trigoni a & b, dico quod proportio pyramidis a ad pyramidem b, est sicut basis a ad basin b, quod eodem demonstrationis uel argumētationis genere demōstrandum est, quo secundam huius demōstrauimus. Sit enim ut basis a ad basin b, ita pyramis a ad corpus c, de quo dico, quod ipsum nō erit minus neq̃ maius pyramide b. Nam si possibile est ut sit minus, esto minus in solido d, ut pyramis b sit æqualis duobus corporibus c & d pariter acceptis. Diuisa itaq̃ pyramide b ut proponit 3 huius, detrahantur ab ea duo seratilia quæ ex præmissa sunt maius medietate pyramidis ipsius, itemq̃ ex utraq̃ duarū partialium residuarū pyramidum, duo earum prædicto modo diuisarū seratilia demantur, & fiat hoc toties, quousq̃ ex pyramide b cogatur aduersarius per 1 decimi confiteri relinqui minus solido d, eruntq̃ ex cōmuni scientia, seratilia detracta, maius c. Fiat igitur à pyramide a, similis seratilium detractio, & in
+telligamus tot seratilia detracta esse ex pyramide a, quot detraximus ex pyramide b, eritq̃ ex correlario præmissæ sicut basis a ad basin b, ita seratilia detracta à pyramide a ad seratilia detracta à pyramide b, sed sic erat pyramis a ad corpus c, itaq̃ seratilia pyramidis a ad seratilia pyramidis b, sicut pyramis a ad corpus c, & permutatim seratilia pyramidis a ad pyramidē a, sicut seratilia pyramidis b ad corpus c. Cumq̃ sint seratilia pyramidis b, maius corpore c, erūt seratilia pyramidis a, maius pyramide a. Et quia hoc est impossibile, non erit corpus c, minus pyramide b. Sed nec maius. Hoc enim posito, cum sit proportio basis a ad basin b, sicut pyramidis a ad corpus c, erit econuerso basis b ad basin a, sicut corporis c ad pyramidē a, eritq̃ eadem ex cōmuni scientia, pyramidis b ad aliq̃d corpus quod sit d, sequeturq̃ ex 14 quinti, quod corpus d sit minus pyramide a, eo q̃d pyramis b ponitur minor corpore c. Erit igitur basis b ad basin a, sicut pyramis b ad corpus minus pyramide a. Ex hoc autem demonstratum est sequi impossibile, uidelicet seratilia detracta ab aliqua pyramide, maius esse ea pyramide à qua detrahuntur. Ideoq̃ relinquitur corpus c esse æquale pyramidi b, cum nec minus ea possit esse nec maius, & proportionem pyramidis a ad pyramidem b esse sicut basis a ad basin b. Hoc autem erat demonstrandum.
 
 [Diagram: triangle labelled a beside a rounded shield-shaped solid labelled c]
 
 [Diagram: triangle labelled b beside a rounded shield-shaped solid labelled d]
 
-<!-- Catchword: telligamus -->
+## Eucli. ex Zamb. Theorema 5 Propositio 5
+
+[Margin]
+5
+[/Margin]
+
+Sub eodem fastigio pyramides subsistentes, triāgularesq̃ bases habentes, adinuicem sese habent sicut bases.
+
+THEON ex Zamb. Sint sub eadem altitudine pyramides, quarū bases quidem sint α β γ, δ ε ζ, triāgula, fastigia uero η, θ, signa. Dico quod est sicut α β γ basis ad δ ε ζ basin, sic est α β γ η pyramis ad δ ε ζ θ pyramida. Si autem non est sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad δ ε ζ θ pyramida, erit sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis uel ad solidum aliquod minus ipsa δ ε ζ θ pyramide, uel ad maius. Sitq̃; prius ad minus aliquod, sitq̃; x. Diuidaturq̃; (per 3 duodecimi) ipsa δ ε ζ θ pyramis, in binas pyramides æquas & toti similes, & in bina prismata æqualia: iam bina prismata, maiora sunt quàm totius pyramidis dimidium, & rursus (per eandem) quæ fiunt ex diuisione pyramides, similiter diuidantur, & hoc semper fiat, quo ad amplius non supersint aliquæ pyramides ex ipsa δ ε ζ θ pyramide, quin sint minores excessu quo excedit δ ε ζ θ pyramis ipsum x solidum. Accipiantur, sintq̃; * rationis causa, ipsæ δ π ρ σ & σ τ υ θ, reliqua igitur prismata existentia in ipsa δ ε ζ β{printer-error-correction:δ ε ζ θ} pyramide, maiora sunt ipso x solido. Diuidaturq̃; (per præcedentem) ipsa α β γ η pyramis, similiter & æque multipliciter ipsi δ ε ζ θ pyramidi. Est igitur sicut α β γ basis ad δ ε ζ basin, sic (per præcedentē) quæ in α β γ η pyramide prismata ad ea quæ in δ ε ζ θ pyramide prismata. Sed & sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad x solidū. Et sicut igitur (per 11 quinti) α β γ η pyramis ad x solidum, sic prismata quæ in α β γ η pyramide ad ea prismata quæ in δ ε ζ θ pyramide: uicißim igitur (per 16 quinti) sicut α β γ η pyramis ad ea quæ in psa{printer-error-correction:ipsa} prismata, sic est x solidum ad ea quæ in δ ε ζ θ pyramide prismata. Maior autem est pyramis α β γ η, eis quæ in seipsa prismatibus. Igitur & solidū x, maius est eis quæ in pyramide δ ε ζ θ sunt prismatibus, sed & minus. Quod est impoßibile. Igitur non est sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad aliquod ipsa δ ε ζ θ pyramide solidum minus. Similiter iam ostendetur, quod neq̃; sicut basis δ ε ζ ad basin α β γ, sic δ ε ζ θ pyramis ad minus aliquod solidū ipsa α β γ η pyramide. Dico iam, quod neq̃ est sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad maius aliquod solidum ipsa δ ε ζ θ pyramide. Si enim poßibile, esto ad maius x solidum. Conuersim igitur est sicut δ ε ζ basis ad α β γ basin, sic x solidum ad α β γ η pyramidē. Sed sicut x solidū ad α β γ η pyramidem, sic δ ε ζ θ pyramis ad minus aliquod ipsa α β γ η pyramide, sicut ante ostensum est. Et sicut igitur (per 11 quinti) basis δ ε ζ ad basin α β γ, sic δ ε ζ θ pyramis ad minus aliquod ipsa α β γ η pyramide, quod absurdum esse patuit. Non est igitur sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad maius aliquod solidum ipsa pyramide δ ε ζ θ. Patuit autem quod neq̃; ad minus. Est igitur sicut α β γ basis ad δ ε ζ basin, sic α β γ η pyramis ad δ ε ζ θ pyramidē. Sub eodem igitur fastigio, & quæ sequuntur reliqua. Quod ostendere oportuit.
+
+[Margin]
+λόγου ἵνεκα uerbi causa
+[/Margin]
+
+[Diagram: pyramid α β γ η as large triangle — α at apex, β, ξ, γ along the bottom; fastigium η in the centre with μ at left and ν at right, and a point on the axis below α; inner lines showing pyramids and prisms]
+
+[Diagram: pyramid δ ε ζ θ as smaller triangle — δ at apex, ε, φ, ζ along the bottom; π on side δ ε, ρ on side δ ζ, σ on the axis below δ, fastigium θ in the centre with τ and υ beside it]
+
+[Diagram: rectangular parallelepiped (box) labelled x]
+
+<!-- Catchword: Eucli. ex -->

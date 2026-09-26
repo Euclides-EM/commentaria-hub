@@ -1,53 +1,35 @@
-<!-- Page number: 350 -->
+<!-- Running title: LIBER VNDECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 351 -->
 
-a b, & ducatur linea f g. Quia igitur impossibile est partẽ trianguli e f g esse in plano & partem in sublimi, quinetiã suarum terminalium linearum unius aut plurium pars similiter sit in plano & pars similiter in sublimi, cum de lineis hoc sit impossibile per præmissam, erit quoq̃ impossibile de triangulo. Itaq̃ totus triãgulus e f g, est in superficie una. Ex hac igitur secunda parte & præmissa, constat prima pars huius secundæ propositionis.
+perficiem perpendicularis erit.
 
-[Diagram: two straight lines a b and c d crossing at e; below the intersection a transversal f g joins the two lines, with d and b at the lower ends]
+CAMPANVS. Sit linea a b orthogonaliter erecta super incisionẽ duarum linearũ c d & e f secantiũ se in puncto b, de quibus constat per ante præmissam ꝙ ipsæ sunt sitæ in una superficie. Dico ꝙ linea a b, perpendicularis est ad ipsarũ superficiem. Sint enim c b & b d, æquales, at uero f b & b e æquales, & protrahantur lineæ e d & c f, quæ erunt æquales per 4 primi, & æquidistãtes per 27 eiusdem. Signato itaq̃ puncto aliquo in linea e d, qui sit g, ducatur linea g b h, eritq̃ ex 26 primi e g, æqualis f h, igitur a pũcto a, uel quouis puncto lineæ a b, demittantur hypothenusaliter lineæ a c, a d, a e, a f, a g, a h. Eritq̃ ex 4 primi a c, æqualis a d & a e æqualis a f. Itemq̃ per 8 eiusdẽ æqualis erit angulus a e d, æqualis angulo a f c, ergo per 4 ipsius erit a g æqualis a h, & ideo per 8 eiusdẽ erit angulus a b g, æqualis angulo a b h, quare ex diffinitiõe uterq̃ est rectus, & linea a b perpendicularis ad lineam g h. Simili quoq̃ modo probabis eandem esse perpendicularẽ ad omnes lineas protractas à puncto b in superficie duarum lienarũ{printer-error-correction:linearũ} c d & e f, igitur ex diffinitione constat, lineam a b esse perpendicularẽ ad superficiẽ in qua sitæ sunt duæ lineæ c d & e f seinuicem secantes. Quod est propositũ.
 
-## Eucli. ex Zamb. Theorema 2 Propositio 2
+[Diagram: lines c d and e f crossing at b, with the transversal g h through b (its left end printed b, right end g); from the point a at the apex, lines a c, a d, a e, a f, a g, a h are drawn to all the points below]
 
-## Si binæ rectæ lineæ se adinuicẽ secuerint, in uno sunt plano, & omne triangulũ in uno plano est.
-
-[Margin]
-2
-[/Margin]
-
-THEON ex Zamberto. Binæ, inquam, rectæ lineæ α β, γ δ, se adinuicem secent in signo ε. Dico quod ipsæ α β, γ δ, in uno consistunt plano, & omne triangulũ in uno est plano. Assumantur in ipsis ε γ, ε β, signa utcunq̃, sintq̃ ζ, η, connectanturq̃ β γ, ζ η, extendaturq̃ ζ θ, η κ, dico primum quod triangulum ε β γ in uno est plano. Si ipsius nanq̃ trianguli ε γ β pars, aut ζ γ θ, aut η β κ in subiecto plano est, reliquum uero in alio, erit etiam unius ipsarum ε γ, ε β, rectarum linearum pars in subiecto plano, pars autem in alio. Si autem ipsius ε γ β trianguli, ζ γ β η, pars fuerit in subiecto plano, reliquum uero in alio, erit & ambarum ε γ, ε β, rectarum linearum pars quidem in subiecto plano, & pars in alio, quod (per 1 undecimi) impossibile esse ostensum est. Igitur triangulum β γ ε in uno est plano. In quo enim est triangulum β γ ε, in eo est & utraq̃ ipsarum ε γ, ε β. In quo autem est utraq̃ ipsarũ ε γ, ε β, in eodem sunt & α β, γ δ, (per eandem.) Ipsæ igitur α β, γ δ, rectæ lineæ, in uno existunt plano, & omne triangulũ in uno est plano, quod erat ostendendum.
-
-[Diagram: two straight lines α β and γ δ crossing at ε; below the intersection the transversal ζ η, extended to θ and κ on the line γ β, forming triangle ε γ β with inscribed trapezium ζ η κ θ]
-
-## Eucli. ex Camp. Propositio 3
-
-## OMnium duarum superficierũ seinuicem secantium, communis sectio est linea recta.
-
-[Margin]
-3
-[/Margin]
-
-CAMPANVS. De planis superficiebus intellige, & uerum erit quod dicitur. Sint itaq̃ duæ superficies planæ a b & c d, seinuicẽ secantes. Dico quod earum cõmunis sectio, erit linea recta. Esto enim duo puncta c & f{printer-error-correction:e & f} termini cõmunis sectionis earum quæ continẽtur per lineam rectam quæ sit e f. Si igitur linea e f est in utraq̃ duarum superficierũ a b & c d, constat propositum. At uero si in neutra, aut si non in altera, cum ambo puncta e & f sint in utraq̃ superficierũ a b & c d, in ea superficie in qua ipsa non fuerit, protrahatur linea recta quæ sit e h f, erunt igitur duæ rectæ lineæ e f & e h f, habẽtes duos terminos cõmunes. Quod est impossibile. Sic enim duæ rectæ lineæ includerent superficiem, quod est contra petitionem ultimã primi libri.
-
-[Diagram: two plane surfaces a b and c d shown as overlapping parallelograms intersecting in the line e f, with two curved lines through points h above and below forming a lens between e and f]
-
-## Eucli. ex Zamb. Theorema 3 Propositio 3
-
-## Si bina plana se adinuicẽ secuerint, cõmunis eorũ sectio recta linea est.
-
-[Margin]
-3
-[/Margin]
-
-THEON ex Zamb. Bina etenim plana α β, β γ, se adinuicem dispescant, cõmunis autem sectio sit linea δ β. Dico quod δ β linea recta est. Si autẽ non, connectantur δ β in ipso α β plano, recta linea δ ε β, & in ipso β γ plano, recta linea δ ζ β, erunt nempe duarum rectarum linearum δ ε β, δ ζ β, ijdem fines, & perinde areolam cõprehendent, quod (per ultimam cõmunem sententiam) est impossibile. Ipsæ igitur δ ε β, δ ζ β, rectæ lineæ nõ sunt. Similiter quoq̃ ostendemus, quod neq̃ ulla alia ex δ in β ducta recta linea est, præter ipsam δ β cõmunem sectionem ipsorum α β, β γ, planorũ. Si bina igitur plana se adinuicem secuerint, ipsorũ comunis sectio recta linea est. Quod erat ostendendum.
-
-[Diagram: two intersecting planes shown as overlapping quadrilaterals, β at the top; from β descend the common section and two curved lines through ε and ζ meeting again at the lower vertex, with γ, δ, α at the bottom]
-
-## Eucli. ex Camp. Propositio 4
+## Eucli. ex Zamb. Theorema 4 Propositio 4
 
 [Margin]
 4
 [/Margin]
 
-## SI fuerit linea orthogonaliter ab incisione duarum linearum erecta intersecantiũ se, ipsa ad earundem su
+## Si recta linea duabus rectis lineis se adinuicẽ dispescentibus in cõmuni sectione ad rectos angulos steterit, & ad earũdem planũ ad angulos rectos erit.
 
-<!-- Catchword: perficiem -->
+THEON ex Zamb. Recta enim linea quædam ε ζ, duabus rectis lineis α β, γ δ, seinuicem dispescentibus in ε signo, ex ε ad angulos rectos constituatur. Dico quod ε ζ etiam ad ipsarũ α β γ δ planum ad angulos est rectos. Assumantur nanq̃ ipsæ α ε, ε β, γ ε, ε δ, sibi inucem{printer-error-correction:inuicem} æquales. Extendaturq̃ quædam recta linea per ε utcunq̃, sitq̃ η ε θ, cõnectanturq̃ ipsæ ζ α, ζ η, ζ δ, ζ γ, ζ θ, ζ β. Et quoniam binæ α ε, ε δ, duabus γ ε, ε β, sunt æquales, & æquales comprehendunt angulos (per 13 primi) igitur (per 4 primi) basis α δ æqualis est basi γ β, & triangulũ α ε δ ipsi γ ε β triangulo æquũ est, quare & angulus qui sub δ α ε angulo qui sub ε β γ est æqualis. Est autẽ & qui sub α ε η angulus, ei qui sub β ε θ æqualis: bina igitur sunt triangula (per 26 primi) α η ε, β ζ θ{printer-error-correction:β ε θ}, binos angulos binis angulis æqualia habentia alterũ alteri, & unum latus uni lateri æquũ ad æquos angulos, α ε ipsi ε β, & reliqua igitur latera, reliquis lateribus æqualia habebunt: æqualis igitur est η ε ipsi ε θ, & α β{printer-error-correction:α η} ipsi β θ. Et quoniã æqualis est α ε ipsi ε β, cõmunis autem & ad angulos rectos ζ ε, basis igitur ζ α (per 7 primi) basi ζ β, est æqualis. Id propterea & ζ γ ipsi ζ δ est æqualis. Et quoniã æqualis est α δ ipsi γ β, est autem & ζ α ipsi ζ β æqualis, duæ igitur ζ α, α δ, duabus ζ β, γ β, æquales sunt altera alteri, & basis ζ δ, basi ζ β{printer-error-correction:ζ γ} est æqualis: & angulus igitur qui sub ζ α δ, angulo qui sub ζ β γ est æqualis. Et quoniã rursus ostensum quod α η ipsæ β θ est æqualis, sed ζ α ipsi ζ β est æqualis, binæ iam ζ α, α η, duabus ζ β, β θ, sunt æquales, & angulus qui sub ζ α η, ostensus est æqualis ei qui sub ζ γ θ{printer-error-correction:ζ β θ}, basis igitur ζ η (per 4 primi) basi ζ θ est æqualis. Et quoniã rursus æqua est ostensa η ε ipsi ε θ, cõmunis autem ε ζ, duæ igitur η ε, ε ζ, duabus θ ε, ε ζ sunt æquales & basis ζ θ, basi ζ η est æqualis: angulus igitur qui sub η ε ζ, angulo qui sub θ ε ζ est æqualis, uterq̃ igitur ipsorũ η ε ζ, θ ε ζ, angulorũ, rectus est. Ipsa igitur ζ ε, ad ipsam η θ contingẽter per ε ductam, recta est. Similiter iam demõstrabimus, quod ζ ε ad omnes eam tangẽtes rectas lineas & in subiecto existentes plano, rectos efficiet angulos. Recta enim linea ad planũ (per 2 diffinitionẽ 11) recta est. quando ad omnes eam tangentes rectas lineas & in eodem existentes plano, rectos efficit angulos. Igitur ipsa ζ ε in subiecto plano, est ad angulos rectos. Subiectũ autem planũ, est quod fit per ipsas α β, γ δ, rectas lineas. Ipsa igitur ζ ε ad angulos rectos est ei quod per α β, γ δ, est plano. Si recta igitur linea duabus rectis lineis, & quæ sequuntur reliqua. Quod erat ostendendum.
+
+[Diagram: lines α β and γ δ crossing at ε with the transversal η θ through ε; from ζ at the apex, lines ζ α, ζ η, ζ δ, ζ γ, ζ θ, ζ β are drawn; labels ζ top, α left, γ right, η and θ at the ends of the transversal, δ bottom left, β bottom right]
+
+## Eucli. ex Camp. Propositio 5
+
+[Margin]
+5
+[/Margin]
+
+## SI super tres lineas conterminales cõmuni earum termino erecta linea quædam orthogonaliter insistat, eædem tres lineæ in una superficie sitæ erunt.
+
+CAMPANVS. Sit linea a b orthogonaliter erecta super cõmunem terminũ trium linearũ b c, b d, b e, angulariter se contingentiũ in puncto b, quarũ nulla alij directe applicetur, quod idem est ac si seinuicem secent in
+
+<!-- Signature: G 2 -->
+
+<!-- Catchword: puncto -->

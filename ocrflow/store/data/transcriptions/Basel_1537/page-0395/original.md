@@ -1,31 +1,37 @@
-<!-- Page number: 384 -->
+<!-- Running title: LIBER VNDECIMVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 385 -->
 
-tes cum ijs quæ in principio rectis lineis alterum alteri. ipsæ igitur quæ ex κ, ξ. signis perpendiculares ductæ ad ea quæ per ν λ μ, δ ε ζ, plana, (per corollariū præcedentis) inuicem sunt æquales. Quare λ θ, ε κ, solida, sub eadem sunt altitudine. Super æqualibus autē basibus & sub eisdē altitudinis constituta solida parallelepipeda, inuicem sunt æqualia (pea{printer-error-correction:per} 31 undecimi.) Igitur solidum θ λ, solido ε κ est æquale. At λ θ, solidū, est ex ipsis α. β, γ, & ε κ, solidū est ex β. Igitur quod ex α, β γ, solidum parallelepipedum, æquum est ei quod ex β solido æquilatero quidem, sed æquiangulo prædicto. Quod erat ostendendum.
+ipsis solida parallelepipeda similia similiterq̃ descripta proportionalia fuerint, & ipsæ quoq̃ rectæ lineæ proportionales erunt.
 
-## Eucli. ex Camp. Propositio 39
+THEON ex Zamb. Sint quatuor rectæ lineæ proportionales α β, γ δ, ε ζ, η θ, sicut α β ad γ δ, sic ε ζ ad η θ, & describantur ab ipsis α β, γ δ, ε ζ, η θ, similia similiterq̃ iacentia solida parallelepipeda κ α, λ γ, μ ε, ν η. Dico quod est sicut κ α ad λ γ, sic est μ ε ad ν η. Quoniam enim solidum κ α parallelepipedum ipsi λ γ simile est, igitur (per 33 undecimi) κ α ad λ γ triplicem rationem habet quam α β ad γ δ, & id propterea μ ε ad ν η triplam habet rationem quam ε ζ ad η θ. Et sicut igitur (per 11 quinti) α κ ad λ γ, sic μ ε ad ν η. Sed iam esto sicut α κ solidum ad λ γ solidum, sic μ ε solidum ad ν η solidum. Dico quod est sicut α β recta linea ad ipsam γ δ, sic est ε ζ ad η θ. Quoniam enim rursus κ α ad λ γ triplam rationem habet quam α β ad γ δ, habet autem & μ ε ad ν η triplam rationem quam ε ζ ad η θ, estq̃ sicut κ α ad λ γ, sic μ ε ad ν η, & sicut igitur α β ad γ δ, sic ε ζ ad η θ. Si quatuor igitur rectæ lineæ proportionales fuerint, & quæ sequūtur reliqua. Quod erat ostendendū.
 
-[Margin]
-39
-[/Margin]
+[Diagram: four parallelepipeds in two rows: the upper pair labelled α, β and γ, δ beneath them, the lower pair labelled μ and ν beside them]
 
-SI fuerint quotlibet lineæ proportionales, solida quoque sua æquidistantium atque similium uniuscuiusque creationis superficierū erunt proportionalia. Si uero solida æquidistantium atque similium uniuscuiusque creationis superficierum fuerint proportionalia, lineæ quoque à quibus ipsa solida continentur, erunt proportionales.
-
-CAMPANVS Simile proponit uigesima prima sexti de superficiebus. Sint itaq̃ quatuor lineæ a, b, & c, d, proportionales, & super has fabricentur quatuor solida parallelogramma eisdē nominibus dicta, quæ sint expresse similia, duobus enim ad libitum fabricatis super duas lineas a & c, cætera secūdum præcepta 27 constituenda erūt. Dico hæc 4 solida esse proportionalia. Et econuerso. Subiūgantur enim duabus lineis a & b: in cōtinua proportiōe duæ quæ sunt e & f, quemadmodū docet 10 sexti, & duabus lineis c & d, aliæ duæ quæ sint g & h. Cōstat igitur ex 36 & ex diffinitione proportionis triplicatæ quæ posita est in principio quinti, & ex hac hypothesi ꝙ solida a & b sibi inuicē & solida c & d sibi adinuicē sunt expresse similia: ꝙ ꝓportio solidi a ad solidum b est sicut ꝓportio lineæ a ad lineā f: solidi quoq̃ c ad solidū d, sicut lineæ c ad lineā h. Et quia p̱ 22 quinti ꝓportio lineæ a ad lineā f est sicut lineæ c ad lineā h, erit ex 11 quinti solidū a ad solidū b, sicut solidū c ad solidū d. Cōstat igitur prima pars. Secunda sic, Sint duo solida a & b sibi adinuicē. duoq̃ alia quæ sint c & d, sibi adinuicē expresse similia, sintq̃ cuncta parallelogramma, & ponantur proportionalia. Dico quod lineæ a, b, & c, d, super quas sunt constituta, sunt proportionales. Sit enim ex 10 sexti sicut linea a ad lineā b, ita linea c ad lineam k. Et fiat secundū 27 huius super lineam K solidum expresse simile solido d, quod etiā dicatur k. Eritq̃ ex diffinitionibus similiū corporū & similium superficierum, & 20 sexti, corpus K expresse simile corpori c, ideoq̃ per primam partem huius 39 iam probatam erit proportio solidi a ad solidū b, sicut solidi c ad solidū K. Et quia eadē erat solidi c ad solidū d, erit ex secunda parte nonæ quinti solidū K æquale solido d. Cūq̃ esset sibi expresse simile, sequitur lineā k esse æqualem lineæ d. Aequalitas enim nō producitur ex aliqua proportione triplicata uel quotieslibet sumpta, nisi ex æquali. Igitur ex secunda parte 7 quinti constat etiā huiusmodi pars secunda. Deciperis autē si arbitraris oportere unumquodq̃ quatuor solidorū a, b, c, d, esse simile cuilibet aliorū. Necesse est enim duo solida a & b sibi adinuicem, itēq̃ duo c & d sibi adinuicem esse similia. solida autem c & d solidis a & b esse similia contingens est, necessariū autem non. Idem ex hac 39 de serratilibus facile poteris concludere.
-
-[Diagram: two horizontal line segments labelled e and f, above two parallelepipeds labelled a and b]
-
-[Diagram: two horizontal line segments labelled g and h, above two parallelepipeds labelled c and d]
-
-[Diagram: a parallelepiped labelled K]
-
-## Eucli. ex Zamb. Theorema 32 Propositio 37
+## Eucli. ex Zamb. Theorema 33 Propositio 38
 
 [Margin]
-37
+38
 [/Margin]
 
-Si quatuor rectæ lineæ proportionales fuerint, & quæ ex ipsis solida palelepipeda{printer-error-correction:parallelepipeda} similia similiterq̃ descripta proportionalia erunt. Et si quæ ex
+Si planum ad planum rectum fuerit, à signo autem in altero planorū existente in alterum planum perpēdicularis ducta fuerit, in cōmunem ipsorum planorum sectionem cadit ipsa perpendicularis.
 
-<!-- Catchword: ipsis -->
+THEON ex Zamb. Planum enim γ δ, ad planum α β, rectum esto, cōmunis autem ipsorū sectio sit δ α, sumaturq̃ in ipso γ δ plano, contingens signum ε. Dico quod ab ipso ε in α β planū perpēdicularis ducta, in ipsam δ α cadit. Non enim, sed si possibile est, cadat extra sicut ε ζ, & concurrat ipsi α β plano in ζ signo, & ab ipso ζ, in ipsam δ α, in plano α β (per 11 undecimi) perpendicularis excitetur ζ η, quæ & ipsi γ δ plano ad angulos rectos est. Connectanturq̃ ε η. Quoniam igitur ζ η ipsi γ δ plano ad angulos rectos est, tangit autem ipsam ipsa ε η existens in ipso γ δ plano, igitur angulus qui sub ζ η ε, rectus est. Sed & ε ζ, ipsi α β plano ad angulos est rectos: angulus igitur qui sub ε ζ η, rectus est. Trianguli iam ipsius ε ζ η bini anguli, duobus rectis sunt æquales, quod (per 17 primi) est impossibile. Igitur ab ε in α β planum perpēdicularis ducta, non cadit extra ipsam δ α, in ipsam igitur α δ cadit. Quod erat ostendendum.
+
+[Diagram: a plane γ δ standing on the plane α β, their common section δ α, with the triangle ε ζ η drawn between them]
+
+## Eucli. ex Camp. Propositio 40
+
+[Margin]
+40
+[/Margin]
+
+SI inscisa fuerint latera duarum oppositarum superficierum cubi unumquodq̃ in duo media, exierintq̃ à punctis sectionū duæ superficies se uicissim secantes & cubum, cōmunem earum sectionem diametrum cubi per æqualia secare, & ab ipsa diametro uersa uice per æqualia secari necesse est.
+
+CAMPANVS. Statue cubum qui sit a b, de quo constat per diffinitionē quod omnes lineæ ipsum continētes sint æquales, & eius superficies rectangulæ, tale enim corpus, cubū dicimus. Huius igitur basis sit eius supficies a c d e, superficies uero eius suprema b f g h, dextra uero eius superficies sit a e g h, sinistra autem superficies b f c d, citerior quoq̃ sit d e b h, sed ulterior a, c g f, eiusq̃ diameter sit a b. Diuidantur itaq̃ omnia latera duarum quarumlibet superficierū oppositarum eius per æqualia, & sint nunc superficies quarū latera diuidantur, dextra atq̃ sinistra. Diuidantur, inquam, quatuor latera dextræ quidē super quatuor puncta quæ sunt o, p, q, r, sinistræ uero super quatuor quæ sint k, l, m, n, & coniungantur puncta in his superficiebus opposita, ductis lineis o p & q r quæ secent se in pūcto t, itemq̃ K l & m n quæ secent se in puncto s, & perficiātur duæ superficies secantes se inuicem & cubum, protractis item lineis
+
+[Diagram: a cube with c and a at the top, b and h at the bottom, K at the left and g and p at the right; the midpoints m, q, o, f, s, u, e, t, l, r, n of the sides are joined by lines and diagonals crossing within the cube]
+
+<!-- Signature: K -->
+
+<!-- Catchword: o k & -->

@@ -1,61 +1,39 @@
-<!-- Running title: LIBER PRIMVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 37 -->
+<!-- Page number: 38 -->
 
-quod &, in ea signum θ, binæ rectæ lineæ κ θ & θ μ non in eisdem partibus existentes, +
+& a e. Itemq̃ à duobus reliquis angulis trianguli, qui sunt b & c, ducam ad duos angulos duorum quadratorum minorum, duas lineas se intersecantes intra ipsum triangulum, quæ sunt b k & c f. Et quia uterq̃ duorum angulorum b a c & b a g est rectus, per 14 erit g a c linea una: eadem ratione erit b a h, linea una, quia uterque duorum angulorū c a b & c a h est rectus. Quia ergo super basin b f, & inter duas lineas æquidistantes b f & g a constituta sunt parallelogrammum b f g a & triangulum b f c, erit per 41 parallelogrammū b f g a duplum ad triangulum b f c, sed triangulus b f c est æqualis triangulo b a d per 4, quia f b & b c latera primi sunt æqualia a b & b d lateribus postremi, & angulus b primi est æqualis angulo b postremi, eo quod uterq̃ constat ex angulo recto & angulo a b c cōmuni: ergo parallelogrammum b f g a, est duplum ad triangulum a b d. Sed parallelogrammū b d l m est duplum ad eundem triangulum per 41, quia constituti sunt super eandem basin, scilicet, b d, & inter lineas æquidistantes quæ sunt b d & a l, ergo per cōmunem scientiam quadratum b f g a & parallelogrammum b d l m sunt æqualia, quia eorum dimidia, uidelicet, prædicti trianguli sunt æqualia. Eodem modo & per easdem propositiones mediantibus triangulis k b c & a c e probabimus quadratū a c h k esse æquale parallelogrammo c e l m. Quare patet propositum.
+
+[Diagram: right triangle a b c with a at top and squares on the three sides: f, g on a b, h, k on a c, d, l, e on b c below; m on b c; lines a d, a e, b k, c f drawn]
+
+## Eucli. ex Zamb. Theorema 33. Propositio 47.
+
+[Margin]
+47
+[/Margin]
+
+In rectangulis triangulis quadratum quod à latere rectum angulū subtendente fit, æquum est quadratis quæ fiunt ex lateribus rectum angulū continentibus.
+
+THEON ex Zamb. Sit triangulū rectangulum α β γ, rectum habens qui sub β α γ angulum. Dico quod quadratū quod fit ex β γ, æquum est quadratis quæ fiunt ex β α & α γ. Describatur enim (per 46) ex β γ, quadratum β δ ε γ, & (per eandem) ex β α & α γ, quadrata η β & θ γ. Et per α, ipsis β δ & γ ε parallelus excitetur α λ, & connectantur (per 1 postulatum) α δ & ζ γ. Et quoniam anguli β α γ & β α η sunt recti, ad aliquam igitur rectam lineam β α, ad datumq̃ in ea signum α, duæ rectæ lineæ γ α & α η non in easdem partes proiectæ, angulos
 
 [Margin]
 ἐφεξῆς
 [/Margin]
 
-utrobiq̃ angulos binis rectis æquales efficiunt. In rectum igitur est κ θ ipsi θ μ. At quoniam in parallelos κ μ & ζ η recta linea incidit θ η, alterni anguli μ θ η & θ η ζ (per 29 propositionem) sibi inuicem sunt æquales. Communis ponatur angulus θ η λ. Anguli ergo μ θ η & θ η λ, angulis θ η ζ & θ η λ sunt æquales. Sed anguli μ θ η & θ η λ (per eandem) duobus rectis sunt æquales, anguli igitur θ η ζ & θ η λ duobus rectis sunt æquales. In rectum est igitur linea ζ η, lineæ η λ. At quoniam θ η ipsi κ ζ (per 34) æqualis est & parallelus, & ipsi θ η ipsa μ λ, igitur (per 1 cōmunem sententiam) & ipsi ζ κ æqualis est, & parallelus (per 30 propositionē.) Sed eas coniungunt rectæ lineæ κ μ & ζ λ, lineæ igitur κ μ & ζ λ (quæ per 33 propositionem) æquales & paralleli sunt: parallelogrammū igitur est κ ζ λ μ. Et quoniam (per 42) triangulum α β δ parallelogrammo ζ θ est æquale, & triangulum δ β γ parallelogrammo η μ, totum igitur α β γ δ rectilineum, toti κ ζ λ μ parallelogrāmo est æquale. Dato igitur rectilineo α β γ δ, æquū parallelogrammū constitutū est κ ζ λ μ, in angulo ζ κ μ, ipsi ε dato æquali, quod fecisse oportuit.
+utrobiq̃ duobus rectis æquos efficiunt (per 14 propositionem) in rectum igitur est γ α ipsi α η. Ac per hoc & θ α ipsi α β est in rectum. Et quoniam angulus δ β γ, angulo ζ β α est æqualis, rectus enim uterque est, communis ponatur angulus α β γ: totus igitur δ β α, toti ζ β γ est æqualis. Et quoniam duæ δ β & β α, duabus γ β & β ζ sunt æquales alteri alteri, & angulus δ β α angulo ζ β γ est æqualis, basis igitur α δ, basi ζ γ (per 4 propositionem) est æqualis, & triangulum α β δ triangulo ζ β γ est æquale. Triangulū uero α β δ (per 41) parallelogrammū β λ duplum est: basim enim habet eandem, hoc est β δ, in eisdemq̃ est parallelis, hoc est β δ & α λ. Et trianguli quoq̃ ζ β γ (per eandem) quadratum η β duplum est, basim namq̃ eandem habet, hoc est ζ β, in eisdem est parallelis, hoc est ζ β & η γ. Quæ autem æqualium dupla sunt (per 6 cōmunem sententiam) adinuicem sunt æqualia: parallelogrammū igitur β λ, æquale esse quadrato η β. Similiterq̃, si connectantur (per 1 postulatum) α ε & β κ, ostendetur parallelogrammū γ λ, æquale esse quadrato θ γ. Totum igitur quadratum β δ ε γ, duobus η β & θ γ quadratis æquū est. Et quadratum β δ ε γ, est descriptum ex β γ, quadrata uero η β & θ γ, sunt descripta ex β α & α γ. Quadratum igitur quod ex β γ latere, æquū est quadratis quæ fiunt ex lateribus β α & α γ. In rectangulis igitur triangulis, quadratū quod à latere rectum angulum subtendente fit, æquū est, & quæ sequuntur reliqua ut in theoremate. Quod erat ostendendum.
 
-[Diagram: two quadrilaterals with diagonals drawn, the parallelograms of the construction; tiny Greek letter labels beneath, partly illegible]
+[Diagram: right triangle α β γ with square β δ ε γ below on β γ, squares η β on α β and θ γ on α γ above, line α λ parallel to β δ and γ ε, lines α δ, ζ γ, α ε, β κ drawn]
 
-## Eucli. ex Camp. Propositio 45.
-
-[Margin]
-45
-[/Margin]
-
-EX data linea, quadratum describere.
-
-CAMPANVS. Sit data linea a b, ex qua uolo quadratum describere. A punctis a & b lineæ a b educo per 11 lineas a c & b d perpēdiculares ad lineam a b, quæ erunt æquidistantes per ultimā partem 28, & pono utramq̃ earū, eidem a b per 3 æqualem, & protraho lineam c d, eritq̃ ipsa æqualis & æquidistans lineæ a b per 33. Et quia uterq̃ duorū angulorū a & b est rectus, erit uterq̃ duorum c & d rectus per ultimam partem 29, ergo per diffinitionem quadrati, a b c d est quadratum, quod est propositum.
-
-[Diagram: square with vertices c, d at top and a, b at bottom]
-
-Idem aliter ostendere. Sit a c perpendicularis super lineam a b per 11, & sit ei æqualis ut prius, & à puncto c per 31 ducatur c d æquidistans a b, & ponatur æqualis ei, & ducatur linea b d, quæ per 33 erit æqualis & æquidistās a c, & omnes anguli recti, per ultimam partem 29, quare per diffinitionē quadrati habemus propositū.
-
-## Eucli. ex Zamb. Problema 14. Propositio 46.
+## Eucli. ex Camp. Propositio 47.
 
 [Margin]
-46
+47
 [/Margin]
 
-Ex data recta linea, quadratum describere.
+SI quod ab uno trianguli latere in seipsum ducto producitur, æquum fuerit duobus quadratis quæ à duobus reliquis lateribus describuntur, rectus est angulus cui latus illud opponitur.
 
-THEON ex Zamb. Sit data recta linea α β, oportet ex α β recta linea, quadratum describere. Excitetur (per 11 propositionem) ipsi, rectæ lineæ α β, à dato signo α ad angulos rectos α γ, & ponatur (per 3 propositionem) ipsi α β æqualis α δ. Et (per 31 propositionem) per signum δ, ipsi α β parallelus excitetur δ ε, & (per eandem) per signum β, ipsi α δ excitetur parallelus β ε: parallelogrammum igitur est α δ ε β, æqualis igitur est α β ipsi δ ε, & α δ ipsi β ε. Sed α β ipsi α δ est æqualis: quatuor igitur β α, α δ, δ ε, ε β, sibi inuicem sunt æquales: æquilaterū igitur est α δ ε β parallelogrammū. Dico quod etiam rectangulum est. Quoniā enim in parallelos α β & δ ε, recta linea incidit α δ, anguli igitur β α δ & α δ ε, (per 29 propositionem) duobus rectis sunt æquales: angulus autem β α δ est rectus, angulus igitur α δ ε est etiam rectus, parallelogrammorū
+CAMPANVS. Lineam in seipsam ducere, est eius quadratum describere. Sit triangulus a b c, sitq̃ quadratū lateris a c, æquale quadratis duorū laterum a b & b c simul iunctis, dico angulum b cui latus a c opponitur, esse rectum. Et hæc est conuersa prioris. A puncto b extraho lineam b d per
 
-[Margin]
-χωρίον
-[/Margin]
+[Diagram: triangle with apex c and base a d; b on the base between a and d; line c b drawn]
 
-locorum autem latera & anguli ex opposito, sibi inuicem sunt æqualia (per 34 propositionē) Ex opposito igitur ambo δ ε β & ε β α anguli, sunt recti. Rectangulum igitur est α δ ε β, ostensum autem est quod & æquilaterū. Quadratum igitur est, & ex data linea α β descriptum, quod facere oportebat.
-
-[Diagram: square α δ ε β on base α β, with γ above δ on the perpendicular α γ; δ, ε at top, α, β at bottom]
-
-## Eucli. ex Camp. Propositio 46.
-
-[Margin]
-46
-[/Margin]
-
-IN omni triangulo rectangulo, quadratum quod à latere recto angulo opposito in semetipso ducto describitur, æquū est duobus quadratis quæ ex duobus reliquis lateribus conscribuntur.
-
-CAMPANVS. Sit triangulus a b c, cuius angulus a sit rectus. Dico quod quadratum lateris b c, æquū est quadrato lateris a b & quadrato lateris a c simul sumptis. Quadrabo ergo hæc tria latera, secūdū doctrinā præcedentis, sitq̃ quadratū lateris b c, superficies b c d e, & quadratum b a, superficies b f g a, & quadratū a c, superficies a c h k. Ab angulo a, recto, ducam ad basin d e basin maximi quadrati, tres lineas, scilicet, a l æquidistantem utriq̃ laterū b d & c e, quæ secet b c in puncto m, & hypothenusas a d
-
-[Diagram: right triangle a b c with a at top and squares described on the three sides: f, g marking the square on a b, h, k the square on a c, and d, l, e the square on b c below; m the intersection of a l with b c; lines a d, a e, b k, c f drawn]
-
-<!-- Signature: d -->
-
-<!-- Catchword: & a e. -->
+<!-- Catchword: perpen -->

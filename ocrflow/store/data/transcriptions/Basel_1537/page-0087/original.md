@@ -1,25 +1,45 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER TERTIVS -->
 
-<!-- Page number: 78 -->
+<!-- Page number: 79 -->
 
-ter a d e & linea b e, eritq̃ per primã partẽ huius, angulus a b e rectus, quare angulus a b c erit maior recto, quod eſt tertiũ propoſitũ. Quartum & quintum ſic. Sint in circulo a b c d cuius centrũ e, portio a b c, cuius chorda a c maior ſemicirculo: & portio a d c cuius eadem chorda a c minor ſemicirculo. Dico angulũ contentũ ab arcu c b a & chorda a c, eſſe maiorẽ recto: & angulum contentũ ab arcu c d a & chorda a c, eſſe minorem recto. Producatur diameter c e b, & linea b a, uſq̃ ad f, eritq̃ per primã partem huius, angulus b a c, rectus, quare p̃ 13 primi, angulus f a c eſt ſimiliter rectus. Quia igitur angulus rectus eſt pars primi, & ſecundus pars recti: euidenter patet utrunq̃, quare tota liquet hæc pentamembris concluſio.
+bus maioris segmenti, maior est recto: minoris autem segmenti, recto minor, quod demonstrasse oportuit.
 
-CAMPANI additio. Ex iſtis duabus ultimis partibus, nota inſtantiam contra illas duas argumẽtationes: ad quas tulimus inſtantiã in 15 huius. Tranſitur em̃ ab angulo portionis ſemicirculo minoris qui eſt minor recto per ultimã partem huius, ad angulum portionis ſemicirculo maioris qui eſt maior recto per penultimam partem huius, non tamen per æquale. Cum enim omnis portio circuli ſit aut ſemicirculus, aut maior ſemicirculo aut minor, ſit autem tam angulus ſemicirculi per ſecundam partem 15 quã angulus portionis minoris per ultimam partem huius minor recto, portionis uero maioris ſit maior recto: non tamẽ erit alicuius portionis angulus, nec ſimpliciter aliquis contentus à circunferentia & linea recta, aut rectus aut æqualis recto.
+A L I A ostensio, quod angulus qui sub β α γ rectus est. Quoniā angulus α ε γ, eius qui sub β α ε duplus est (per 32 primi) æqualis nanq̃ est duobus interioribus ex opposito: interiores autē (per 5) sunt æquales: angulus aūt α ε β, eius qui sub ε α γ duplus est: anguli igitur α ε β & α ε γ, ipsius β α γ dupli sunt. Sed anguli α ε β & α ε γ: duobus rectis sunt æquales. Angulus igitur qui sub β α γ, rectus est q̃d erat demonstrandum.
 
-Quod ut clarius pateat: ſit in circulo a b c cuius centrũ d, linea a b cui non ſit determinatus finis ex parte b, ſecãs ex ipſo b portionẽ ſemicirculo minorẽ: eritq̃ per ultimã partẽ huius, minor recto. Huius circuli ſit diameter a d c, & imaginetur linea a b: moueri ad partẽ c ſuper punctum a: quæ quãdiu fuerit citra c, uel in ipſo c, cooperiẽs diametrũ a d c: faciet cum arcu angulum minorẽ recto. In omni autẽ puncto ultra c, uelut in e: faciet per penultimã partem huius, angulum maiorem recto. Tranſitur ergo à minori ad maius, non per æquale. Et ſicut in rectilineis angulis eſt reperire maiorẽ angulo ſemicirculi & minorẽ, non tamẽ æqualem ut demonſtratũ eſt in 15 huius: ſic in angulis portionis eſt reperire maiorẽ recto & minorẽ, non tñ æqualẽ, ut patet ex iſta demonſtratione.
+[Diagram: circle with inscribed triangle, apex α at top joined to β at left and γ at right, centre ε on the diameter β γ; a line runs from α to a point δ outside the circle above]
 
-[Diagram: circle with centre d and diameter a d c; line a b drawn from a through the circumference at b and produced beyond; a further line from a to e beyond c]
+CORRELARIVM. Hinc manifestum est, quod si trianguli angulus unus, reliquis duobus æqualis fuerit, rectus est: eo quod illi contiguus (qui scilicet producto latere extra triangulum fit) eisdem est æqualis, sed quādo utrobiq̃ æquales fuerint, recti sunt.
 
-## Eucli.ex Zamb. Theorema 27. Propoſitio 31.
+## Eucli. ex Camp. Propositio 31.
 
 [Margin]
 31
 [/Margin]
 
-In circulo angulus qui in ſemicirculo eſt, rectus eſt: qui aũt in maiore ſegmento, minor recto: qui uero in minore ſegmento, maior eſt recto. Et inſuper angulus maioris ſegmenti, recto quidem maior eſt: minoris autem ſegmenti angulus, minor eſt recto.
+SI circulum linea recta contingat, & à cōtactu in circulum quædam circulum secans recta linea, præter centrum ducatur, quousq̃ duos angulos cū cōtingēte facit, duobus angulis qui in alternatis circuli super arcus cōsistūt portionibus, æquales sunt.
 
-THEON ex Zamberto. Sit circulus α β γ δ: dimetiens aũt eius ſit β γ, centrũ uero ε. Sumaturq̃ in ſemicirculo ſignũ utcũq̃, ſitq̃ illud δ & coniungatur β α, α γ, α δ & δ γ. Dico quod angulus in β α γ ſemicirculo, rectus eſt. Angulus aũt in α β γ ſegmento, qui ſub α β γ, maiore ſemicirculo, recto minor eſt. Angulus uero in α δ γ minore ſemicirculo ſegmento, qui ſub α δ γ, recto maior eſt. Coniungantur α ε, & extendatur β α in ζ. Et quoniam æqualis eſt β ε ipſi ε α, ex centro enim in circunferentiã: æqualis eſt angulus α β ε ei qui ſub β α ε (per 5 primi) Rurſus quoniam æqualis eſt α ε ipſi ε γ, æqualis eſt per eandẽ, angulus qui ſub α γ ε ei qui ſub γ α ε. Totus igitur angulus β α γ duobus angulis α β γ & α γ β eſt æqualis. Angulus aũt qui ſub ζ α γ extra ipſum triangulum α β γ: duobus angulis α β γ & α γ β eſt æqualis, per 32 primi. Æqualis igitur eſt angulus β α γ angulo ζ α γ, rectus igitur uterq̃ eſt. In ſemicirculo igitur β α γ, angulus qui ſub β α γ, rectus eſt. Et quoniã trianguli α β γ, duo anguli α β γ & β α γ (per 17 primi) duobus rectis ſunt minores, angulus aũt β α γ rectus eſt, angulus α β γ, recto minor eſt, & eſt in ſegmento α β γ, maiore ſemicirculo. Et quoniã in circulo ineſt quadrilaterũ α β γ δ, in circulis aũt quadrilaterorũ cõſiſtentiũ (per 22 tertij) anguli qui ex oppoſito duobus rectis ſunt æquales: anguli igitur α β γ & α δ γ, per eandem duobus rectis ſunt æquales. At angulus α β γ recto minor eſt. Reliquus igitur angulus α δ γ, maior eſt recto, & in ſegmẽto α δ γ, minore ſemicirculo eſt. Dico iam etiam quod angulus ſegmẽti maioris, cõprehenſus ſub α β γ circũferentia & α γ recta linea, recto maior eſt: angulus autẽ minoris ſegmenti comprehenſus ſub α δ γ circunferentia & γ α recta linea, recto minor eſt. Quoniam enim angulus comprehenſus ſub β α & α γ rectis lineis, rectus eſt: angulus igitur cõprehenſus ſub α β γ circunferentia & α γ recta linea, maior eſt recto: quoniã totũ ſua parte maius eſt (per 9 cõmunẽ ſententiã). Rurſus quoniã angulus cõprehenſus ſub γ α & α ζ rectis lineis, rectus eſt: angulus igitur ſub γ α recta linea & α δ γ circũferẽtia cõprehenſus, recto minor eſt. In circulo igitur angulus in ſemicirculo exiſtens, rectus eſt: qui uero in maiore ſegmento, recto eſt minor, in minori autem, recto eſt maior. Et inſuper angu
+[Margin]
+13
+[/Margin]
 
-[Diagram: circle α β γ δ with diameter β γ and centre ε; δ on the minor segment; lines β α, α γ, α δ, δ γ, α ε drawn, and β α produced to ζ]
+CAMPANVS. Si recta linea a b, contingens circulum c d e f, cuius centrum g, in puncto d: à quo ducatur in circulum præter centrum, linea d f: secans ipsum: fiantq̃ anguli, d c f consistens super arcum portionis d c f, ductis lineis c d & c f: & angulus d e f consistens super arcum portionis d e f, ductis lineis d e & e f. Dico angulo c, esse æqualem angulum b d f: & angulo e, angulum a d f. Ducantur enim, diameter d g h & linea f h: eritq̃ per 17 huius, d h, perpendicularis super a b: & per primā partem præmissæ, angulus d f h, rectus. Quare duo anguli a d h & d f h, sunt æquales. Posito ergo communi angulo h d f: erit angulus a d f, æqualis duobus angulis qui sunt d f h, & h d f: sed hi duo cum angulo h, sunt æquales duobus rectis per 32 primi: ergo angulus a d f cum angulo h, æquales duobus rectis. Sed angulus a d f cum angulo b d f: æquiualet duobus rectis per 13 primi: ergo angulus b d f, est æqualis angulo h: ergo & angulo c, per 20 huius: & hoc est primum. Et quia duo anguli c & e sunt æquales duobus rectis per 21 huius: erit angulus e æqualis angulo a d f: quod est secundum. Vel illud secundū sic. Angulus a d f cum angulo h æquiualet duobus rectis, ut præmonstratum est: sed angulus e cū angulo h, æquiualet duobus rectis per 21 huius: ergo angulus e est æqualis angulo a d f, quod est propositum.
 
-<!-- Catchword: lus -->
+[Diagram: circle c d e f with centre g; tangent line a d b touching the circle at d on top (a at left, b at right); chords d c, c f, d e, e f and secant d f; diameter d g h to h at bottom, with line f h drawn]
+
+## Eucli. ex Zamb. Theorema 28. Propositio 32.
+
+[Margin]
+32
+[/Margin]
+
+Si circulum tetigerit aliqua recta lines, à contactu autem ducta fuerit quædam recta linea, circulum secans: anguli quos efficit ad tangentē, æquales sunt eis qui in alternis circuli segmentis consistunt angulis.
+
+THEON ex Zamberio. Circulum enim α β γ δ, tangat recta linea quædam ἡ ε ζ in β signo: & à signo β, ducatur recta linea quædam in circulum α β γ δ, eum secās, sitq̃ β δ. Aio quod anguli quos β δ simul cum ε ζ tangente conficit: angulis qui sunt in alternis segmentis circuli sunt æquales: hoc est quod angulus ζ β δ: æqualis est angulo existenti in β α δ segmento: & angulus ε β δ, æqualis est angulo existenti in δ γ β segmento. Excitetur enim (per 11 primi) ab ipso β, ipsi ε ζ ad rectos angulos β α. Sumaturq̃, in β δ circunferentia, signum utcunq̃: sitq̃ illud γ, & connectatur α δ, δ γ, γ β. Et quoniam circulum α β γ δ, quædam recta linea tangit ε ζ, & ex β contactu ducta est ipsi cōtingenti ad angulos rectos β α: in ipsa β α igitur centrum est circuli α β γ δ (per 19 tertij). Angulus igitur α δ β in semicirculo existens (per 31 tertij) rectus est. Reliqui igitur anguli β α δ & α β δ, uni recto sunt æquales. Angulus autem α β ζ, rectus est. Angulus igitur qui sub α β ζ, æqualis est eis qui sunt sub α δ β & δ β α angulis. Communis auferatur angulus α β δ. Reliquus igitur angulus δ β ζ, æqualis est angulo β α δ existenti in alterno segmento circuli. Et quoniā in circulo quadrilaterum est α β γ δ, anguli eius ex opposito duobus rectis sunt æquales (per 22 tertij), eis qui sunt sub β α δ & β γ δ anguli sunt æquales, δ β ζ & δ β ε. Quorū angulus β α δ, ostensum est q̃ æqualis est ipsi δ β ζ angulo. Reliquus igitur angulus qui sub δ β ε, angulo δ γ β in alterno segmento δ γ β existenti est æqualis. Si circulum igitur tetigerit aliqua recta linea, à contactu autem in circulum ducta fuerit aliqua recta linea eū circulum secans, anguli quos efficit ad tangentem, ijs qui in alternis circuli segmentis consistunt angulis æquales: quod erat demonstrandum.
+
+[Diagram: circle α β γ δ with α at top, δ at upper right, γ at right; tangent line ε ζ along the bottom touching the circle at β; chords β δ, δ γ, γ β and diameter β α]
+
+## Eucli. ex Camp. Propositio 32.
+
+<!-- Signature: g 4 -->
+
+<!-- Catchword: Super -->

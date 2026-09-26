@@ -1,29 +1,35 @@
-<!-- Page number: 258 -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 259 -->
 
-THEON ex Zamb. Ad aliquā rectā lineam α β. cōparetur parallelogrāmū α δ,deficiens forma quadrata δ β. Dico quod α δ æquū est ei quod sub α γ,γ β,& ex seipso manifestum est. Quoniam enim quadratum est δ β,æqualis est δ γ,ipsi γ β,& α δ, est quod sub α γ,γ δ,hoc est quod sub α γ, & γ β. Si ad aliquam igitur rectam lineam,& quæ sequuntur reliqua,quod fuerat demonstrandum.
+CAMPANVS Hæc 14 ex cōtrario antecedentis præmissæ infert contrarium consequentis præmissæ,& non differt eius dispositio à dispositione illius,sed & modus argumentandi utrobiqʒ idem. Si enim a d non communicet cum d b,nec d f sibi adæqualis communicabit cum eadem d b.itaqʒ per 9 d f non communicabit cum f b,quare neque a f,sunt enim a f & d f communicātes tanquā numerās & numeratū, ideo neqʒ a b cōmunicabit cum linea f b. Quod si hoc fuerit uidelicet si a b non communicet cū f b,nō cōmunicabit cum a f, quare neqʒ cum a d aut d f, neqʒ igitur a b cum d a. Potest quoqʒ hæc 14 demōstrari per præmissam,prima pars huius ex secunda illius,& secūda ex prima,à destructiōe consequentis. Si enim a d & d b nō communicent,nec etiā a b & f b communicabunt,nam si a b & b f communicarent,oporteret per secūdam partem præmissæ ut a d communicaret cum d b,sed positum est quod non. Eodem modo de secunda parte,si enim b a & b f non communicant,nec a d & d b communicabunt. nam si sic, sequitur per primam partem præmissæ,ut a b & b f communicent quæ non communicant:quare patet propositum.
 
-[Diagram: rectangle on base α β, divided by a vertical line at γ; δ marked at the top above the division; the labels α, γ, β stand below the base]
+[Diagram: rectangle divided by a vertical line near its left end, labeled e at top; below it, a horizontal line with points a, d, f, b marked; beneath, a second line labeled c]
 
-## Eucli.ex Zamb. Theorema 14 Propositio 17
-
-[Margin]
-17
-[/Margin]
-
-Si fuerint binæ rectæ lineæ inæquales,quartæ autem parti eius quod ex minore æquum ad maiorem comparatum fuerit deficiens forma quadrata,& in commēsurabilia ipsam diuiserit longitudine, maior minore maius poterit eo quod ex sibi longitudine commēsurabili. Et si maior minore maius poterit eo quod fit à sibi commensurabili longitudine,quartæ uero parti eius quod à minore æquale ad maiorem comparatū deficiens forma quadrata,in commensurabilia longitudine ipsam distribuet.
-
-THEON ex Zamber. Sint binæ rectæ lineæ inæquales α,& β γ.quarum maior sit β γ,quartæ uero parti eius quod fit ex minore ipsa α,hoc est ei quod ex dimidio ipsius α,æquum ad ipsam β γ,cōparetur (per 28 sexti,parallelogrammum deficiens forma quadrata,sitq́ʒ quod sub β δ,& δ γ,cōmensurabilis autem esto (per hypothesin.)β δ ipsi δ γ longitudine. Dico quod β γ,ipsa α maius potest,eo quod fit a sibi longitudine commensurabili. Secetur enim (per 10 primi,)β γ,bifariam in signo ε,ponaturq́ʒ (per 3 primi,)ipsi δ ε, æqualis ε ζ,reliqua igitur δ γ,æqualis est ipsi β ζ. Et quoniam recta linea β γ,secta est in æqualia in signo ε,& in inæqualia in δ, igitur (per 5 secundi,) quod sub β δ,& δ γ comprehenditur rectangulum una cum eo quod ex γ δ,quadrato. æquū est ei quod ex ε γ quadrato. Et ipsa quadruplicia,quod igitur quater sub β δ,& δ γ,una cū eo quod ex ε δ sumpto,æquū est ei quod ex quater sumpto ε γ quadrato. Sed ei quidē quod quater sub β δ & δ γ,æquū est id quod ex α quadratum,ei autē quod ex δ ε,quater sumpto,æquū est id quod ex δ ζ,quadratum, dupla enim est δ ζ, ipsius δ ε. Ei autem quod ex ε γ quater sumpto,æquum. est id quod ex β γ, quadratum, dupla enim rursus est β γ ad ipsam γ ε. Quæ igitur ex α & δ ζ quadrata,æqualia sunt ei quod ex β γ quadrato. Quare id quod ex β γ,eo quod ex α maius est,eo quod ex δ ζ. Igitur β γ,ipsa α maius potest,ipsa δ ζ, ostendendum quod & commensurabilis est β γ ipsi δ ζ. Quoniam enim commensurabilis est β δ,ipsi δ γ longitudine, commensurabilis igitur est (per 15 decimi) & β γ,ipsi δ γ,sed γ δ.ipsis γ δ,& β ζ,commensurabilis est longitudine,æqualis enim est γ δ ipsi β ζ,& β γ igitur,ipsis β ζ.& γ δ longitudine commensurabilis est (per 12 decimi.) Igitur (per 15) & β γ ipsi ζ δ. commensurabilis est longitudine. Igitur β γ,quàm ipsa α maius potest,eo quod fit à sibi longitudine commensurabili. Sed iam ipsa β γ,quàm α maius possit eo quod à sibi commensurabili in longitudine,quartæq́ʒ eius quod ex α æquale ad ipsam β γ,comparetur deficiens forma quadrata,sitq́ʒ quod sub β δ,& δ γ. Demonstrandum est quod cōmensurabilis est δ γ longitudine. Eisdem nāq́ʒ dispositis:similiter ostēdemus quod β γ quàm ipsa α maius potest,est eo quod ex ζ δ,potest autem β γ,quàm ipsa α maius eo quod ex sibi commensurabili. Commensurabilis igitur est β γ,ipsi ζ δ,longitudine. Quare & reliquæ utrique ipsarum β ζ,& γ δ,simul commensurabilis longitudine est β γ. Sed utraq́ʒ β ζ,& δ γ,simul commensurabilis est ipsi δ γ lōgitudine:æqualis enim est β ζ ipsi δ γ,& β γ,igitur cōmensurabilis est ipsi γ δ,lōgitudine Manifestū est igitur quod β δ ipsi δ γ,est cōmensurabilis longitudine. Si fuerint igitur binæ magnitudines inæquales & reliqua,quod erat ostendendum.
-
-[Diagram: horizontal line with points marked, labeled from left to right β, ζ, ε, δ, γ; beside the text, a long vertical line labeled α at its middle]
-
-## Eucli.ex Camp. Propositio 14
+## Eucli.ex Zamb. Theorema 15 Propositio 18 Præcedentis conuersa.
 
 [Margin]
-14
+18
 [/Margin]
 
-{dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duæ lineæ inæquales quarum longiorem diuidat in duas partes incōmensurabiles superficies æqualis quartæ parti quadrati breuioris sibi adiuncta,ita quod desit ad eius completionem superficies quadrata,erit longior,potētior breuiori,augmento quadrati lineæ incommensurabilis ipsi longiori in longitudine. Si uero longior,potentior fuerit breuiori,quadrato lineæ incommensurabilis ipsi longiori in lōgitudine,adiūgaturq́ʒ ei superficies æqualis parti quartæ quadrati breuioris,defueritq́ʒ longiori superficies quadrata, necesse est ut ipsa superficies sibi adiūcta eandē longiorem lineam in duas portiones incommensurabiles diuidat.
+Si fuerint binæ rectæ lineæ inæquales.quartæ autem parti eius quod ex minore æquum ad maiorem comparetur deficiens forma quadrata, & in incommensurabilia ipsam diuiserit longitudine, maior minore maius potest eo quod ex sibi incommensurabili longitudine. Et si maior minor maius potuerit eo quod ex sibi incommensurabili,quartæ autem ipsius quod ex minore æquū , ad maiorem comparatum fuerit deficiēs forma quadrata,in incommensurabilia longitudine ipsam dispescit.
 
-<!-- Catchword: CAM -->
+THEON ex Zāb. Sint binæ rectæ lineæ inæquales α & β γ,quarū maior sit β γ,quartæ autem parti eius quod ex α,ad ipsam β γ,æquale comparetur deficiens forma quadrata,sitq́ʒ quod sub β δ, & δ γ. Incōmensurabilis autem esto β δ,ipsi δ γ. Dico quod β γ.quàm ipsa α maius potest,eo quod à sibi incōmensurabili. Ipsis nāq́ʒ dispositis ut in præmissa,similiter demōstrabimus,quod β γ quàm ipsa α,maius potest eo quod ex δ ε. Demonstrādum igitur quod incōmensurabilis est β γ,ipsi δ ζ lōgitudine. Quoniā enim incommensurabilis est β δ ipsi δ γ,incommensurabilis igitur est (per 16 decimi,)β γ ipsi γ δ,longitudine. Sed ipsa δ γ commensurabilis est utriq́ʒ & β ζ & δ γ simul,quia β ζ ipsi δ γ est æqualis,& β γ,igitur (per 13)ipsis β ζ & δ γ incommensurabilis est, & perinde (per 16 decimi,)& reliquæ ζ δ,incommensurabilis est β γ longitudine. Et ipsa β γ quàm α maius potest,eo quod ex ζ δ,Igitur ipsa β γ, quàm α, maius potest eo quod à sibi cōmensurabili longitudine. Possit iam rursus β γ maius quàm α,eo quod à sibi incōmēsurabili,quartæ autē parti eius quod ex α,æquale ad ipsam β γ cōparetur deficiēs forma quadrata,& esto id quod sub β δ & δ γ. Demonstrādū quod incōmensurabilis est β δ ipsi δ γ lōgitudine. Eisdē namq́ʒ dispositis,similiter demōstrabimus,quod ipsa β γ quàm α maius potest eo quod ex ζ δ. Sed iā (per hypothesin,) ipsa β γ quàm α maius potest eo quod à sibi incommensurabili. Incōmensurabilis est igitur β γ ipsi ζ δ longitudine. Quare (per 16 decimi,)& reliquæ β ζ & δ γ utriq́ʒ,incōmensurabilis est β γ. Sed utraq́ʒ β ζ & δ γ,ipsi δ γ commensurabilis est longitudine. Igitur (per 13 decimi,)β γ ipsi δ γ incōmensurabilis est lōgitudine,quare & diuidendo,β δ,ipsi δ γ incōmēsurabilis est lōgitudine. Si binæ igitur rectæ lineæ,& reliqua quæ sequuntur,quod erat demonstrandum.
+
+[Diagram: horizontal line with points marked, labeled from left to right β, ζ, ε, δ, γ; from its middle a long vertical line extends downward, labeled α at its middle]
+
+## Eucli.ex Camp. Propositio 15
+
+[Margin]
+15
+[/Margin]
+
+{dropcap:O|lines=?|style=decorated|decoration="ornamental"}Mnis superficies rectāgula quā continēt duæ lineæ in lōgitudine rationales,rationalis esse probatur.
+
+CAMPANVS Sint duæ lineæ a b & b c cōtinentes superficiē rectāgulā a c,rationales in longitudine, dico superficiē a c esse rationalē,descripto enim quadrato cuiusuis earū,ut c d lineæ b c,erit per primā sexti c d ad a c, sicut b d ad a b. Quia igitur b d cōmunica in longitudine cū a b ex hypothesi,eo quod b c sua æqualis,erit per primā partē decimæ.c d cōmunicās a c. Cū sit itaque c d rationalis per diffinitionē,erit & a c rationalis,quod est propositū.
+
+[Diagram: rectangle divided by a vertical line at its middle, labeled c at top; below the base, the labels a, b, d]
+
+<!-- Signature: y 4 -->
+
+<!-- Catchword: THEON -->

@@ -1,27 +1,27 @@
-<!-- Running title: LIBER OCTAVVS -->
+<!-- Page number: 202 -->
 
-<!-- Page number: 201 -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-## CORRELARIVM
+proportionem fuerint minimi,duos eorum extremos cōtra se primos esse necessario comprobatur.
 
-Vnde manifestum erit,quod si fuerint tres numeri continuæ proportionalitatis secundum eam minimi,duo extremi erunt quadrati,quod si fuerint quatuor,erunt extremi cubi.
+CAMPANVS. Hæc tertia est conuersa primæ.Sint enim a, b, c,d, cōtinue proportionales,& secundum suam proportionem minimi,dico quod a & d extremi,erunt ad inuicem primi,minimi enim in proportione a ad b, sint e & f,eruntque per 21 septimi contra se primi, per hos ergo duos secundum doctrinam præmissæ inueniantur totidem cōtinue proportionales & minimi quot sunt numeri propositi,primo quidem tres qui sunt h K,deinde quatuor:qui sunt l,m.n.p,& ad hunc modum continue per additionem unius, quousque fiant tot quot sunt numeri propositi ut sunt hic l,m, n,p,sequitur ergo l, m,n,p,æquales esse a,b,c,d,eo qd̕ in eadem proportione sunt utrique minimi,& quia l & p sunt contra se primi per 28 septimi, erūt quoque a & d illis æquales , cōtra se primi ,quod est propositum.
 
-CAMPANVS Sint datæ proportionis minimi, a & b ducaturq̃ a in se,& fiat c, & in b,& fiat d,b, quoque in se,& proueniat e,erūtque c,d,e,continue proportionales in proportione a ad b per 18 & 19 septimi.Et quia c & e sunt contra se primi per 25 eiusdem: erunt c,d, e, secundum datam proportionem minimi per præmissam.Ducatur iterum a in omnes illos,& proueniant f,g,h,& b in e,& proueniat K, & erunt etiam f,g,h, k, continue proportionales in proportione a , ad b , per 18 & 19 septimi: minimi quoque per 25 eiusdem & præmissam.Hac uia & ratione inuenientur quinque, uel sex, uel quotlibet.
+[Diagram: dotted number lines beside the text, labelled a (long), e (2 dots), f (3 dots), g (4 dots), h (6 dots), K (9 dots), l (8 dots), m (12 dots), n (18 dots), p (27 dots)]
 
-[Diagram: dotted number lines beside the text, labelled a (2 dots), b (3 dots), c (4 dots), d (6 dots), e (9 dots), f (8 dots), g (12 dots), h (18 dots), K (27 dots)]
+## Eucli.ex Zamb. — Theorema 2 — Propositio 3 — *Conuersa primæ.*
 
-## Eucli.ex Zamb. — Problema 1 — Propositio 2
+3 SI fuerint quotcunque numeri continue proportionales,minimi eandē rationem habentium eis,eorum extremi primi adinuicem erunt.
 
-## 2 NVmeros inuenire continue proportionales minimos, quotcunq̃ imperauerit quispiam,in data ratione.
+THEON ex Zamb. *Sint quotcunque numeri continue proportionales,minimi eandem rationem habentiū eis,α,β,γ,δ.Dico quod extremi eorum hoc est α,& δ,primi adinuicem sunt.Sumantur enim(per 2 octaui uel 35 septimi,)bini numeri minimi in ipsorū α,β,γ,δ,ratione:hoc est ε ζ.Tres autem η θ κ,& semper deinceps uno plus, quoad assumpta multitudo æqua sit multitudini ipsorū α, β, γ, δ.Suscipiātur, sintq́̃ λ μ ν ξ, Igitur(per 29 septimi) eorum extremi λ ξ,primi adinuicem sunt. Quoniam enim ε ζ, primi sunt,uterque autem eorum se ipsum multiplicans utrūq̃ ipsorū η,κ,fecit utrunq̃ autem ipsorū η,κ:multiplicans utrūque ipsorum λ, ξ, fecit igitur (per 29 septimi,)ipsi η,κ,primi sunt & λ,ξ.Et quoniam ipsi α.β,γ,δ,minimi sunt eandem rationem habentium eis,sunt autē & λ, μ, ν,ξ,minimi in eadem ratione existentes ipsis α,β,γ, δ,& æqualis multitudo ipsorum α,β, γ,δ,multitudini ipsorum λ ,μ,ν, ξ,unusquisque igitur ipsorū α,β,γ,δ,unicuique ipsorū λ,μ,ν,ξ.est æqualis,æqualis igitur est α,ipsi λ,& δ ipsi ξ,& quoniam ipsi λ ξ,primi adinuicem sunt,æqualis autem est λ ipsi α,& ξ,ipsi δ,igitur & ipsi α,δ,primi sunt adinuicem,quod demonstrasse oportuit.*
 
-THEON ex Zamberto. *Sit data ratio in minimis numeris,ipsius α ad β,oportet iam numeros inuenire cōtinue proportionales minimos quotcunque imperauerit quispiam in ipsius α ad β, ratione. Imperentur iam quatuor, & α,seipsum multiplicans,efficiat γ,ipsum uero β,multiplicans, efficiat ipsum δ: & insuper β,seipsum multiplicans. ipsum efficiat ε.Et insuper α,ipsos γ,δ, ε, multiplicans , ipsos ζ,η,θ. faciat , at β, ipsum ε , multiplicans efficiat ipsum κ .Et quoniam α ,seipsum multiplicans ipsum effecit γ, ipsum autem β,multiplicans fecit ipsum δ,numerus iam α,binos numeros α, β,multiplicans effecit γ, δ . Est igitur (per decimāseptimā septimi,)sicut α,ad β,sic est γ,ad δ. Rursus quoniā α,ipsum β, multiplicans ipsum δ fecit,at β,seipsum multiplicans ipsum fecit ε,uterque igitur ipsorum α,β, ipsum β, multiplicans effecit utrunque ipsorum δ,ε. Est igitur(per 18 septimi,sicut α,ad β,sic est δ ad ε.Sed sicut α,ad β,sic est γ,ad δ,& sicut igitur(per undecimam quinti,) γ,ad δ,sic est δ,ad ε.Et quoniam α,ipsos γ,δ,multiplicans ipsos ζ,η, fecit,est igitur(per 17 septimi,)sicut γ,ad δ,sic est ζ,ad η,Sicut autem γ, ad δ,sic erat α,ad β,& sicut igitur (per undecimam quinti,)α,ad β,sic est ζ,ad η.Rursus quoniam α,ipsos δ,ε,multiplicans,ipsos effecit η,θ,est igitur(per eandem 17,)sicut δ ad ε,sic est η ad θ,sed sicut δ ad ε,sic est α,ad β,& sicut igitur (per undecimam quinti) α,ad β,sic η,ad θ, & quoniam ipsi α,β,ipsum ε,multiplicantes:ipsos effecerunt θ,κ:est igitur (per 18 septimi,sicut α ad β,sic θ,ad κ,patuit autem quod & sicut α ad β,sic ζ,ad η,& η ad θ,& sicut igitur(per undecimam quinti,)ζ ad η, & η ad θ, sic est θ ad κ.Igitur ipsi γ,δ,ε,& ζ,η,θ,κ,proportionales sunt in ipsius α ad β ratione.Dico quod & minimi quoniam enim ipsi α,β,minimi sunt eandem rationem habentium eis,minimi autem eandem rationem habentium primi sunt adinuicem(per 21 septimi,)ipsi α,β,igitur primi sunt adinuicem,& uterque ipsorum α,β,seipsum multiplicans ; utrunque ipsorum γ,ε,fecit:utrunque autem ipsorum γ,ε,multiplicans:utrunque ipsorum ζ,κ,fecit.Igitur (per uigesimamnonam septimi,)ipsi γ,ε,& ζ,κ,primi sunt adinuicem.Si autem fuerint quotlibet numeri continue proportionales,extremi autem ipsorum primi adinuicem fuerint: minimi sunt eandem rationem habentium eis,(per primam octaui.) Ipsi γ, δ, ε, igitur & ζ,η,θ,κ, minimi sunt eandem rationem habentium ipsis α,β, quod oportuit fecisse,*
+[Diagram: dotted number lines beside the Theon proof, labelled α, β, γ, δ (long, increasing) and ε (3 dots), ζ (4 dots), η (9 dots), θ (12 dots), κ (16 dots), λ (27 dots), μ (36 dots), ν (48 dots), ξ (64 dots)]
 
-[Diagram: dotted number lines beside the Theon proof, labelled α (3 dots), β (4 dots), γ (9 dots), δ (12 dots), ε (16 dots), ζ (27 dots), η (36 dots), θ (48 dots), κ (64 dots)]
+## Eucli.ex Camp. — Propositio 4
 
-PORISMA *siue correlarium* Proinde manifestum est,quod si tres numeri continue proportionales minimi fuerint eandem rationē habentium eis:extremi eorum quadrati sunt,si autem quatuor,cubi.
+4 {dropcap:S|lines=?|style=decorated|decoration="figures"}Imilitudinem assignatarum proportionum in minimis numeris secundum ipsas proportiones continuatim proportionalibus inuenire.
 
-## Eucli.ex Camp. — Propositio 3
+CAMPANVS. Assignatæ proportiones in minimis terminis inueniantur ut docet 34 septimi. sintque prima inter a & b,secunda inter c & d, tertia, inter e & f,sic quoque de pluribus si fuerint plures, uolo has proportiones in quatuor minimis numeris continuare. Sumo ergo g minimum quem numerant b & c & quoties b numerat ipsum g.toties a nūeret h, id quoq̃ toties numeret K,quoties e g,Itaq̃ si e numerat K,sit ut f numeret l,erūtq́̃ h,g,K,l,quos quærimus:cōstat em̄ per 18 septimi,q̊ sit h ad g,sicut a ad b,et g ad K,sicut c ad g,at k ad l,sicut
 
-## {dropcap:S|lines=?|style=decorated|decoration="foliate dragon"}I numeri quotlibet continue proportionales secundum suam
+[Diagram: dotted number lines beside the text, labelled a (6 dots), b (5 dots), c (4 dots), d (3 dots), e (5 dots), f (3 dots), h (long), g (long), K (long), l (9 dots), m (long), n (long), p (12 dots), q (9 dots)]
 
-<!-- Catchword: propor -->
+<!-- Catchword: cut -->

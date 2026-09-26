@@ -1,41 +1,43 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER PRIMVS. -->
 
-<!-- Page number: 8 -->
+<!-- Page number: 9 -->
 
-re a k, est maior b k. Sed & b k, est maior a b: triangulus ergo a b k, est trium inæqualiū laterū. Sic igitur super datam lineā rectam, omnes triangulorū species collocauimus.
+est æqualis (per præcedentem): reliqua igitur α λ, reliquæ β η (per 3 cōmunem sententiam) est æqualis. Ostensum est autem, quod β γ ipsi β η est æqualis, utraq̃ igitur & α λ, & β γ, ipsi β η est æqualis. Quæ autem eidem æqualia, (per primam cōmunem sententiam) & adinuicem sunt æqualia, & linea α λ igitur, ipsi β γ est æqualis. Ad datum igitur signum, α, datæ rectæ lineæ β γ æqua recta linea collocata est α λ, quod fecisse oportuit.
 
-## Euclides ex Zamberto. Problema 1. Propositio 1.
-
-[Margin]
-1
-[/Margin]
-
-Super data recta linea terminata : triangulū æquilaterū constituere.
-
-THEON ex Zamberto. Sit data recta terminata linea: α β. Oportet super α β: triangulum æquilaterum cōstituere. Centro quidem α, spatio uero α β, circulus describatur β γ δ (per 3 postulatū) & rursus (per idem) centro quidem β, spatio uero β α, alter circulus describatur α γ ε. Et (per 1 postulatū) à signo γ, in quo se circuli adinuicē secant, ad α β, signa connectantur rectæ lineæ γ α, γ β. Et quoniā α signū, centrū est circuli γ β δ, æqualis est (per 15 diffinitionē) α γ ipsi α β. Rursus quoniā β signum, centrū est circuli γ α ε, æqualis est β γ ipsi β α (per 15 diffinitionē). At ostensa est linea α γ, ipsi α β æqualis: utraq̃ igitur γ α & γ β, ipsi α β est æqualis. Quæ autē eidem æqualia, & adinuicē sunt æqualia (per 1 cōmunem sententiā) & γ α igitur, ipsi γ β est æqualis. Tres igitur lineæ γ α, α β, β γ, æquales adinuicē sunt. Aequilaterū igitur est triangulum α β γ, & constitutum super data recta linea terminata α β, quod fecisse oportuit.
-
-[Diagram: two equal intersecting circles with centres α and β, meeting above in γ; triangle α β γ drawn on the line α β; δ at the left extremity, ε at the right]
-
-## Euclides ex Campano. Propositio 2.
+## Eucli. ex Camp. Propositio 3
 
 [Margin]
-2
+3
 [/Margin]
 
-{dropcap:A|lines=?|style=decorated} Dato puncto: cuilibet lineæ rectæ propositæ æquam rectam lineam ducere.
+{dropcap:P|lines=?|style=decorated}Ropositis duabus lineis inæqualibus, de longiori earum, breuiori æqualem abscindere.
 
-CAMPANVS. Sit a, punctus datus: & b c linea recta data. uolo à puncto a, ducere lineam unam æqualem lineæ b c: in quamcunq̃ partem contingat. Coniungam ergo punctum a, cum altera extremitate lineæ b c: cum qua uoluero: & coniungam ipsum a, cum extremitate c, per lineam a c: super quam constituam triangulum æquilaterū secundum doctrinā præcedentis. qui sit a c d. & in illa extremitate lineæ datæ cum qua coniunxi punctum datum, a scilicet: in extremitate c ponam pedem circini immobilem, describamq̃ super ipsum (per 2 petitionem) circulum secūdū quantitatem ipsius datæ lineæ: qui sit circulus e b. & latus trianguli æquilateri q̃d opponitur puncto dato, scilicet latus d c protraham per centrum circuli descripti usq̃ ad eius circūferentiam: & sit tota linea sic protracta d e. secundum cuius quantitatē, lineabo circulum, posito centro in d: qui sit circulus e f. Postea protraham latus d a usque ad circunferentiam huius ultimi circuli: & occurrat circunferentiæ ipsius in puncto f. Dico igitur quod a f: est æqualis b c. nam b c, & c e sunt æquales: quia exeunt a centro circuli e b, ad eius circunferentiam. Similiter quoq̃ d f & d e sunt æquales: quia exeunt à centro circuli e f, ad circunferentiā. sed d a & d c sunt æquales: quia sunt latera trianguli æquilateri. ergo si d a & d c demantur de d e & d f quæ sunt æquales: erunt residua quæ sunt a f & c e, æqualia. Quia ergo utraq̃ duarū linearū a f & c b est æqualis c e: ipsæ per 1 cōmunem animi conceptionē adinuicem sunt æquales. Quare à puncto a, protraximus lineam a f æqualē b c: quod est propositū.
+CAMPANVS. Sint duæ lineæ a b & c d, & sit a b minor: uolo ex c d abscindere unam, quæ sit æqualis a b. Duco primo à puncto c, unam lineam æqualem a b, secundum quod docuit præcedens, quæ sit c e: posito ergo centro in puncto c, describam circulum secundum quantitatem c e, qui secabit lineam c d: sit ergo ut secet eam in puncto f, eritq̃ linea c f, æqualis lineæ c e, quia ambæ exeunt à centro eiusdem circuli ad circunferentiam, & quia utraque duarum linearū a b & c f est æqualis c e, ipsæ per 1 cōmunem animi conceptionem sunt inter se æquales, quod est propositum.
 
-[Diagram: two circles, the smaller e b with centre c inside the larger e f with centre d; small triangle a c d at the centre, b at the left on the smaller circle, line d c produced to e below and line d a produced to f at the right]
+[Diagram: line a b above; circle with centre c, the line c e drawn to the circumference at e, and the line c d entering at d on the left and cut by the circle at f]
 
-## Eucl. ex Zamb. Problema 2. Propositio 2.
+## Eucli. Ex Zamb. Problema 3. Propositio 3.
 
 [Margin]
-2
+3
 [/Margin]
 
-Ad datum signum, datæ rectæ lineæ æquam rectam lineam ponere.
+Duabus datis rectis lineis inæqualibus, à maiore, minori æqualem rectam lineam abscindere.
 
-THEON ex Zamb. Sit datum signum, α: data autē recta linea, β γ. oportet ad ipsum α: ipsi β γ rectæ lineæ æquā rectam lineam ponere. Ducatur enim ab α, signo in β signum, recta α β, (per 1 postulatum) cōstituatur super ea (per 1 propositionem) triangulum æquilaterum: sitq̃ illud, α β δ. producantur (per 2 postulatum) in rectum ipsis δ α, δ β lineæ α ε, β ζ. & (per 3 postulatum) centro β, spatio uero β γ: circulus describatur γ η. Rursus centro δ, spatio uero δ η: circulus describatur η κ λ: Quoniam igitur β signum, centrū est circuli γ η θ, æqualis est (per 15 diffinitionem) β γ ipsi β η: & quoniam δ signum centrum est circuli η κ λ: æqualis est (per eandem) δ λ ipsi δ η, quarum δ α ipsi δ β,
+THEON ex Zamberto. Sint datæ duæ rectæ lineæ inæquales, α β, γ, quarum maior sit α β: oportet ab ipsa α β maiore, ipsi γ minori æqualem rectam lineam abscindere. Ponatur (per secundam propositionē) ad signum α, lineæ (uero) rectæ γ, æqualis α δ, & centro quidem α, interuallo uero α δ, (per 3 postulatū) circulus describatur δ ε. Et quoniam α signum, centrum est circuli δ ε, æqualis est α ε ipsi α δ. At linea γ, ipsi α δ est æqualis: utraq̃ igitur & α ε, & γ, ipsi α δ est æqualis: quare & linea α ε, ipsi γ est æqualis. Duabus igitur datis rectis lineis inæqualibus α β, γ, ab ipsa α β maiore, ipsi γ minori æqualis abscissa est α ε, quod facere oportebat.
 
-[Diagram: two circles, the smaller about β inside the larger about δ; above them the point δ with the equilateral triangle α β δ, the sides produced through α and β to the circumferences, with points γ, η, κ, λ marked on the circles]
+[Diagram: circle with centre α, the line α β descending to β below and cut by the circle at ε; δ on the circumference at the left, and the separate shorter line γ at the right]
+
+## Eucl. ex Camp. Propositio 4.
+
+[Margin]
+4
+[/Margin]
+
+{dropcap:O|lines=?|style=decorated}Mnium duorum triangulorū quorum duo latera unius duobus lateribus alterius æqualia fuerint, duoq̃ anguli eorum illis æquis lateribus contenti æquales fuerint alter alteri, latera quoq̃ illorum reliqua sese respicientia æqualia, reliqui uero anguli unius reliquis angulis alterius æquales erunt, ac totus triangulus toti triangulo æqualis.
+
+CAMPANVS. Sint duo trianguli a b c, d e f, sitq̃ latus a b, æquale lateri d e, & latus a c, æquale lateri d f, & angulus a, æqualis angulo d. Tunc dico, quod basis b c, est æqualis basi e f, & angulus b, æqualis angulo e. Item angulus c, æqualis angulo f, & totus triangulus a b c, toti triangulo d e f, quod probatur. Superponam triangulū a b c, triangulo d e f, ita quod angulus a, cadat super angulum d, & latus a b super latus d e, & latus a c super latus d f. Patet autem per penultimam conceptionē, quod nec anguli, nec latera sese excedent, eo quod angulus a, est æqualis angulo d, & latera superposita: ijs, quibus superponūtur, per hypothesin: puncta ergo b c, cadent super puncta e f. Si ergo linea b c, cadit super lineam e f, patet propositum, quia cum linea b c superposita lineæ e f non excedat eam nec excedatur ab ea, est ei æqualis per conuersionem penultimæ cōceptionis. Eadem ratione erit angulus b, æqualis angulo e, & angulus c æqualis angulo f. Si autem linea b c non cadit super lineam e f, sed cadit intra triangulum sicut linea e g f, aut extra sicut linea e h f, tunc duæ lineæ rectæ concludunt superficiem, quod est contra ultimam petitionem.
+
+[Diagram: two tall triangles side by side, d e f at the left and a b c at the right; below the base e f of the left triangle curved lines through g (inside) and through b/h (outside) showing the false positions of the base b c]
+
+<!-- Catchword: Euclidis -->

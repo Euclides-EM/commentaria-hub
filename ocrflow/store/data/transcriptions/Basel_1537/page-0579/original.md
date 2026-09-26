@@ -1,35 +1,35 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: DATA -->
 
-<!-- Page number: 566 -->
+<!-- Page number: 569 -->
 
-ad c k. Compleaturq́; c l parallelogrammum. Quoniam igitur est sicut c d ad e f, sic e g, ad c k, æqualis autem est c d ipsi k l. Est igitur sicut k l ad e f, sic e g ad c k, circum æquales angulos qui sunt sub c k l, g e f, latera sunt reciproca, æquum igitur est per 14 sexti ele. k d ipsi g f. Et quoniam ratio ipsius a ad b est data, est aūt æquale b ipsi c l. Ratio igitur ipsius h d ad c l data est. At sicut h d ad c l, sic h c ad c k. Et ipsius igitur h c ad c k ratio est data: & quoniam est sicut c d ad e f, sic e g ad c k, at ipsa c h ad c k rationem habet datam, quam area a ad ipsam b: est igitur sicut c d ad e f: sic est e g ad quod h c, rationem habet quam areola a ad areolam b.
-
-## Theorema 57 — Propositio 57
-
-SI datum ad datam comparatum fuerit in angulo dato, datur latitudo excessus.
-
-Datum enim a g ad datam b a, proiectum sit in angulo dato qui sub c a b. Dico quod ipsa c a data est. Describatur per 46 primi ele. ex a b quadratum e b. Datū igitur est e b excitentur e a, f b, c g ad ipsa d h: & quoniam utrūque ipsorum e b, a g datum est. Ratio igitur ipsius e b ad a g data est, æquum autem est e b ipsi a h. Ratio igitur & ipsius e b ad a h, data est. Quare & ipsius e a ad a d ratio est data, æqualis autem est e a ipsi a b. Ratio igitur ipsius b a ad a d, data est, & quoniam qui sub c a b datus est & qui sub d a b datus est. Reliquus igitur qui sub a c d datus est. Datur igitur triangulū a c d specie. Rō igitur ipsius c a ad a d data est, ipsius autem d a ad a b ratio est data, & ipsius c a ad a b, igitur ratio est data, estque data ipsa b a. Data igitur & a c, & latitudo ipsius comparatiōis.
-
-[Diagram: square with e at top left and b at right; a on the left side; below, a horizontal base line with points c, g, d, b, and slanted lines from a down to c forming a triangle under the square]
+igitur qui sub d a b, datus est. Datur igitur d a b triāgulum specie. Ratio igitur ipsius a d ad d b, data est, estq́; sicut a d ad d b, sic quod sub a d, b c ad id quod d b, b c, quare & ipsius d a, b c, ad id quod sub d b, b c, ratio data est. Et eius quod bis sub d b, b c, igitur ad id quod sub a d, b c, ratio data est. Sed eius quod sub d a, b c ad a c b triangulum ratio est data, & eius igitur quod bis sub d b, b c ad a b c, triāgulum ratio est data, estq́; quod bis sub d b, b c, quo maius est quod a c, eis quæ ex a b, b c, ipsa igitur area ad a b c, triangulum rationem datam habet.
 
 ### Scholium.
 
-Quoniam binæ species e a, a d specie datæ sunt, adinuicem rationem habēt datam & ipsarum latera adinuicem rationem datam habebunt.
+Excitetur ad angulos rectos ab ipso b signo ipsi a d per 31 primi ele. æqua & parallelus b f, & ab ipso a signo ipsi d c, per eandem æqua & parallelus excitetur d c, & connectatur e c, & quoniā per 31 primi elementorum parallelogrammum b e ipsius b a c trianguli duplum est, super namq; eadem basi, & in eisdem est parallelis, comprehēditurque parallelogrāmum sub f e, e c, æqualis autem est e c, ipsi a d & f e ipsi b c. Quoniam parallelogrammum ad triangulum rationē habet, quare & parallelogrammū ad triāgulū ratio est etiam dupla. Quod uero bis sub a d, c b, rationē habet datam, ad triangulum quadruplam, est enim sub d c, c b sicut in 2 elementorum.
 
-### Scholium.
+[Diagram: a rectangle with a at top left, f at top middle, e at top right, and d, b, c along the base; a vertical line from f to b, and lines from a to b and from a to c]
 
-Ipsius, inquam, a g b latitudo parallelus est, & a h ad rectam existēs ipsi a b, ipsius autem a c g b comparationis ut in quatuor rectis lineis a b, b g, g c, c a, longitudine existēte ipsa a b latitudo erit ipsa a c: in quatuor siquidē propositis rectis lineis latitudinem quærit, non autem ueræ areæ latitudo alia est præter quatuor sicut a e.
+## Theorema 65 — Propositio 65
 
-## Theorema 58 — Propositio 58
+SI triangulum acutum habuerit angulum datum, qua minus potest angulum acutum subtendens latus comprehendentibus lateribus acutum angulum, illa areola ad triangulum rationem habebit datam.
 
-SI datum ad datam proiectum fuerit specie deficiens à dato specie, dantur latitudines defectus.
+Esto triangulum acutum habens angulum a b c. Exciteturq́; ab ipso a per 12 primi elemētorum perpendicularis a d. Dico quod qua minus est quod ex d c, eis quæ ex a b, b c, hoc est quod bis sub c b, b d ad a b c triangulum rationē habet datam. Nam quoniam angulus a b d datus est & qui sub a d b, datus est. Reliquus igitur q̃ sub b a d datus est. Datur igitur a b d, triāgulum specie. Ratio igitur ipsius b d ad d a data est. Quare & eius qui sub c b d, ad id quod sub c b, ratio data est, & eius quod bis sub c b, b d igitur. Sed ei⁹ quod sub c b, b d ad ea quæ ex a b, b c, quo igitur minus est quod ex a c eis quæ ex a b, b e, ea area ad a b c, triāgulum rationem habet datam.
 
-Datum enim a c ad datam a d proiectum sit specie deficiens à dato d c. Dico quod utraque ipsarum b c, b d data est. Secetur enim per decimā primi elemen. ipsa a d bifariam in e signo: data igitur est e d. Describatur ab ipsa e d per 18 sexti ele. ipsi c d simile, similiterque positum rectilineū e f. Describaturque e f. Datur igitur e f specie. Et quoniam à data recta linea e d data specie species describitur e f, datur igitur ipsum e k magnitudine, & æquum est ipsis a c k h. Dantur igitur, ipsa a c k h magnitudine, est autem a c datum magnitudine, supponitur enim. Reliquum igitur k h, datum est magnitudine, est autem & specie datum simile, siquidē est ipsi c d. Ipsius h k, ergo latera data sunt, datum igitur k c, & est æquum ipsi e b. Ipsa igitur e b data est. Est autem & e d, data, & reliqua igitur b d data est, & ratio ipsius b d ad b c data est. Data igitur est & b c.
+[Diagram: a triangle with apex a at the top; base line with c at the left, d in the middle, b at the right; a vertical line from a to d]
 
-[Diagram: at right, a square with top corners g, b, f, divided by a vertical line under b and a diagonal from g; k at the left on a horizontal strip, e inside near the intersection; bottom line with points a, b, c, d]
+## Theorema 66 — Propositio 66
 
-## Theorema 59 — Propositio 59
+SI triangulum datum habuerit angulum, rectangulum sub datum angulum comprehendentibus rectis lineis ad triangulum rationē habebit datam.
 
-SI datum ad datam proiectum fuerit excedens specie dato specie, dantur latitudines excessus.
+Esto triangulum a b c, datum habens angulum eum qui ad a. Dico q̃ quod sub b a c ad a b c, triangulum rationē habet datam, excitetur enim per duodecimam primi elementorum ab ipso b in ipsam a c perpendicularis b d. Quoniam igitur angulus b a c, datus est. Est autem & qui sub a d b, angulus datus. Et reliquus igitur qui sub a b d angulus datur. Datur igitur a b d, triangulum specie. Ratio igitur ipsius a b ad b d data est. Sicut autem a b ad b d, sic quod sub b a c ad id quod sub b d a c. Quare & eius qui sub b a c, ad id quod sub b d a c ratio est data. Eius autem quod sub a c, b d ad a b c, triangulum ratio est data. Et eius qui sub b a c, igitur ad a b c, trianguli ratio est data.
 
-<!-- Catchword: Datū -->
+[Diagram: a triangle with apex a at the top, d on the right side below a, b at the lower left, c at the lower right; lines run from b to d and from b to the side a c]
+
+## Theorema 67 — Propositio 67
+
+SI triangulum datum habuerit angulum, qua maius possint datum angulum comprehendentia latera ut unum, ea quæ ex reli
+
+<!-- Signature: Bb 3 -->
+
+<!-- Catchword: quo -->

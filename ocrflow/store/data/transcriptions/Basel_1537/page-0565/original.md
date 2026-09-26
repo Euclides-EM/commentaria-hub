@@ -1,39 +1,39 @@
-<!-- Page number: 522 -->
+<!-- Running title: DATA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 555 -->
 
-tur g b.data est,& quoniam est sicut a e ad c f,sic est a g ad c d,& reliquæ g e,ad reliquã f d ratio est data. Data autem est g b,igitur e b,ipsa f d,dato maior est quàm in ratione.
+### Aliter idem.
 
-## Scholium
+Excitetur per 31 primi elemen. ab a signo ipsi b d c, rectæ lineæ parallelus e a f. Quoniam igitur per datum signum a ad positione datā rectam lineam b d c, recta linea acta est e a f, igitur per 28 propositionem ipsa e a f, positione datur, & quoniam parallelus est a f ipsi b d c, & in eas incidit d a: æqualis igitur est per 29 primi elementorum angulus e a d angulo a d c. Datus igitur est & qui sub e a d. Quōniam igitur additione data recta linea e a f, & ad signum in ea datū a rectā excitatur linea a d, datum efficiens angulū, igitur per uigesimānonā propositionē positione est ipsa a d.
 
-Quoniam enim est sicut a e ad c f,sic est a g,ad c d,manifestum quod & reliquæ e g ad reliquam. f d,ratio data per 19 quinti elementorum & in alijs eiusmodi per scholiũ maxime decimi theorematis.
+[Diagram: parallel lines e a f above and b d c below, joined by transversal a d]
 
-## Theorema 21 Propositio 21
+Assumatur in ipsa b c, datum signum e & per e signū ipsi a d, per 31 primi elementorum parallelus excitetur e f. quoniam parallelus est f e, ipsi a d, & in eas incidit b e d. Aequus igitur est per 29 primi elementorum qui sub f e d, angulus ei qui sub a d c. Datus igitur est & qui sub f e d. Quoniam igitur additione data recta linea b c & ad datū in ea signum e linea excitata est e f, datum efficiens angulū f e c, igitur per 29 propositionem positione data est ipsa e f. Quoniam per datum signum a ad positione datam rectam lineā d c linea excitatur a d: igitur per 28 propositionem positione est ipsa a d.
 
-SI fuerint binæ magnitudines datæ,eisdemq̃ appositæ fuerint magnitudines adinuicem rationem datam habentes, totæ adinuicem aut rationem datam habebunt, aut altera altera dato maior erit quàm in ratione.
+[Diagram: base line c d e b with two parallel slanted lines d a and e f rising from d and e]
 
-Sint binæ magnitudines datæ a b,c d,apponanturque eisdem magnitudines.e a, c f, rationem habentes datam adinuicem. Dico quod & totæ e b,f d, adinuicem rationem habebunt datã:uel altera dato maior est quàm in ratiõe. Quoniã enim data est utraq̃ ipsarum a b,c d. Ratio igitur ipsius a b ad c d.per primam propositionem data est & siquidem eadem est ei quæ ipsius a e ad c f erit,& totius e b ad totam f d ratio data est. Si autem nõ fiat sicut a e, ad c f,sic g a ad c d. Ratio igi{printer-error-correction:igitur} ipsius g a,ad c d,data est. Data autẽ est c d,data igitur est & g a. Est autem & a b data,& reliqua igitur g b data est. Et quoniam est sicut e a,ad c f,sic est a g, ad c d,& totius e g,ad totam f d,ratio est data,& data est g b,igitur e b,ipsa f d,dato maior est quàm in ratione.
+### Aliter.
 
-[Diagram: two horizontal lines; the upper with points e, a, g, b; the lower with points f, c, d]
+Assumatur in b c, contingens signum e, cōiectaturque e a, quoniam a signum: datum est igitur per 26 propositionem ipsa a e positione data est, positione autem & b c. Quoniam enim utraque ipsarū a e, b c, rectarū linearū positiōe datur. Datur qui sub a e d, angulus magnitudine, sicut in diffinitionibus, possumus enim eidem æquum exhibere. Datus igitur, est qui sub a e d angulus, est aūt & qui sub a d e angulus datus, & reliquus igitur qui e a d, datus est. Quoniā igitur additione data recta linea e a & ad signū in ea a, recta excitatur linea a d datum efficiens angulum eū qui sub a d, positione igitur est per 29 propositionem ipsa a d.
 
-## Theorema 22 Propositio 22
+[Diagram: triangle with apex a and base line c e d b]
 
-SI binæ magnitudines ad aliquam magnitudinem rationem datam habuerint, & utraque ad eandem rationem habebit datam.
+## Theorema 31 Propositio 31
 
-Binæ siquidem magnitudines a b,b c,ad aliquam magnitudinem d rationem habeant datam. Dico quod & utraque a c ad eandem d rationẽ habet datam. Quoniam utraq̃ ipsarum a b,b c,ad d, rationem habet datam:ratio igitur & ipsius a b ad b c data est. Et componendo per 17 quinti elementorum ipsius a c ad c b.ratio est data:ipsius autem b c ad d ratio est data,& ipsius a c,igitur ad d ratio data est.
+SI à dato signo in positiōe datam rectam lineam, recta linea proiecta fuerit data magnitudine, datur etiam positione.
 
-[Diagram: a horizontal line with points a, b, c; below it a shorter line labelled d]
+A dato enim signo a in positiōe datam rectam lineam b c recta excitetur linea d a, data magnitudine. Dico quod etiam positione datur. Centro siquidem a interuallo uero a d, per 3 postulatū circulus describatur e d f, positiōe igitur est, per 6 diffinitionē ipse circulus d f. Datur siquidem a cētrū positione, & quæ ex centro a d magnitudine, positione autē & b c, recta linea. Si uero binæ lineæ positiōe datæ sese inuicem secuerint, datur per 25 propositionem signum in quo se dispescūt positione. Est autem & a datum, igitur per 26 propositione positione datur ipsa a d.
 
-## Theorema 23 Propositio 23
+[Diagram: circle with centre a; radius drawn from a down to d on a horizontal line f d b below the circle, cutting the circle at c; e on the circle]
 
-SI totum ad totum rationem habuerit datam, habuerint autem partes ad partes rationes datas, non autem easdem,& omnia ad omnia rationes datas habebunt.
+## Theorema 32 Propositio 32
 
-Habeat enim totum a b ad totum,c d,datam rationem, habeant autẽ & a e,e b, partes ad c f,f d,partes datas rationes,nõ autem easdem,Dico quod & omnia ad omnia rationes habebunt datas. Quoniam enim ipsius, a e, ad c f,ratio data est,eadem eidem fiat ipsius a b ad c g. Ratio igitur & ipsius rectæ lineæ a b,ad c g,rectã lineam data est. Erit & reliquæ e b,ad reliquam f g, ratio data. Ipsius aũt e b ad f d,ratio data est. Et ipsius f d ad f g,ratio data est per 18 quinti elemẽtorum,& conuertendo per correlarium eiusdem ipsius f d,ad d g,ratio data est. Et quoniam ratio ipsius b a ad utrunque ipsorum d c,c g,data est,& ipsius d c,igitur ad c g ratio est data,& conuertendo per idem correlarium & ipsius c d,ad d g,ratio est data. Sed ipsius d c ad d f,ratio est data,& ipsius c d,igitur ad d f,ratio est data: quare & ipsius c f,ad f d,ratio est data,Sed ipsius quidem c f. ad a e,ratio est data,ipsius autem f d,ad b e ratio est data. Quare omnium ad omnia ratio data est.
+SI in parallelas positione datas rectas lineas recta linea acta fuerit, datos efficiens angulos, acta magnitudine datur.
 
-[Diagram: two horizontal lines; the upper with points b, e, a; the lower with points d, g, f, c]
+In parallelas enim positiōe datas rectas lineas a b c d, recta agatur linea e f, datos efficiens angulos sub b e f, & e f d. Dico quod ipsa e f, magnitudine datur. Assumatur enim in c d, datum signum g, & per g ipsi e f, per 31 primi elemento. parallelus excitetur g h. Quoniam igitur parallelus est g h ipsi f e, & in eas recta cecidit linea c d, æquus est igitur per 29 primi elementorum angulus h g d. Datus autem est qui sub e f d
 
-## Scholium
+[Diagram: two horizontal parallels, b e h a above and d f g c below, with verticals e f and h g between them]
 
-Receptum siquidem est quod ipsius c f ad f d,ratio data est, ponitur autem & ipsius e b
+<!-- Signature: Aa 2 -->
 
-<!-- Catchword: ad f d: -->
+<!-- Catchword: datus -->

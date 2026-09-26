@@ -1,33 +1,33 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: DATA -->
 
-<!-- Page number: 574 -->
+<!-- Page number: 577 -->
 
-ipsi c d, est autem & æquiangulum. Igitur per 14 sexti elementorum latera quæ circum æquos angulos sunt reciproca, est igitur sicut e b ad f d, sic est c f ad e h. Ratio autē ipsius e b ad f d data, & ipsius igitur c f ad e h, ratio est data, ipsius autem e h ad a e, ratio est data, & ipsius igitur a e ad c f, ratio est data.
+sicut primi latus ad secundi latus, sic alterum secundi latus ad quod reliquũ primi rationem habet datam.
 
-### Aliter.
+Bina siquidem parallelogramma a b, e g, adinuicẽ rationẽ habeant datã, aut in æqualibus aut in inæqualibus angulis datis tamen eis qui ad c f. Dico quod est sicut c b ad f g, sic est e f ad quod a c, rationem habet datam. Ipsum, inquam, a b. ipsi e g, aut est æquiangulum aut non. Sit priùs æquiangulũ, cõpareturq̃ ad rectã lineã c b ipsi e g, parallelogrãmo per 25 sexti elemẽtorũ æquũ parallelogrãmũ c h, ponaturq̃ ut a c ipsi c k, sit in rectam lineã. In rectã igitur est lineã d b ipsi b h, & quoniã ipsius a b ad e g, ratio est data, æquum autem est e g ipsi c h: ratio igitur ipsius a b ad c h, data est. quare & ipsius a c ad c k ratio est data. Et quoniam æquũ est c h, ipsi e g, est aũt & æquiãgulum. Ipsorũ igitur c h, e g, per 14 sexti ele. latera quæ circum æquos angulos sunt reciproca. Est igitur sicut c b ad f g, sic e f, ad quod a c, rationẽ datam habet. Non sit autem æquiangulum constituaturq̃ per 25 primi ele. ad ipsam c b rectam lineã ad signumq̃ in ea c ei qui sub e f g, angulo, æqualis angulus l c b. Compleaturq̃ c m parallelogrammum. Quoniam igitur ipsius c m ad e g, ratio est data. æquũ est autem c d ipsi c m. Ratio igitur ipsius c m ad e g data est, est autem angulus l c b, angulo e f g. æqualis, est igitur sicut b c ad f g, sic e f ad quod c l rationem habet datam, ipsius autem c a ad c l, ratio est data, est igitur sicut c b ad f g, sic e f ad quod a c, rationem habet datam.
 
-Exponatur data recta linea k, & quoniam ratio ipsius a ad b data est, eadem eidem fiat quæ ipsius k ad l. Ratio autē ipsius a ad b data, & ipsius igitur k ad l ratio est data. Data autem est k, data igitur & l per cōuersionem primæ diffinitionis. Rursus quoniam ipsius c d ad e f, ratio est data, eadem eidem fiat quæ ipsius k ad m. Igitur ratio ipsius k ad m data est. Data autem & k, data igitur & m, est autem & l data. Ratio igitur & ipsius l ad m data est, & quoniam æquiangulum est a ipsi b, igitur a ad b rationē habet ex lateribus cōpositam, per 23 sexti ele. hoc est ex ea ratione quam habet c d ad e f, & h c ad e g. Sed & k ad l rationem habet cōpositā ex ea quam habet k ad m, & m ad l. Ratio igitur composita ex ea quam habet c d ad e f, & h c ad g e eadem est compositæ rationi ex ea quam habet k ad m, & m ad l. Quarū ipsius c d ad e f, ratio eadē est ei quæ est ipsius k ad m ratiōi, reliqua ergo quæ ipsius h c ad g e, ratio eadē est ei quæ est ipsius m ad l. ipsius autē m ad l ratio est data. Igitur & ipsius h c ad e g, ratio est data.
+[Diagram: at right of the text, a parallelogram-figure with top labels l, d, m and a at left; side label c, interior label b; lower labels K, b; a tall rectangle at right; a slanted parallelogram below with labels g, f, and g, f at its foot]
 
-[Diagram: at right, two pairs of rectangles: the upper pair with c at the top left of the first, k and a at the top of the second, b between them, e at the right, and d, f, g, b along the bottom; the lower pair with g at the top left, b inside the left rectangle, f and e at its base, d inside the right rectangle with l above and c at its base; below them three horizontal line segments labelled k, m, l]
+## Theorema 75. Propositio 75.
 
-### Scholium.
+SI bina triangula adinuicem rationem habuerint datam, aut in æqualibus angulis autẽ in inæqualibus, datis tam, erit sicut primi latus ad secundi latus, sic alterum secundi latus ad quod reliquum primi rationem habet datam.
 
-Si fuerint binæ rectæ lineæ, assumaturq́; quædam una recta linea, una priorum ad alteram rationem habet cōpositam ex ea quam habet prima ad extrinsecus utcunq; sumptam, & quam assumpta ad alteram.
+Sint bina triangula a b c, d e f, adinuicem rationem datã habentia, sintque anguli qui ad a d aut æquales aut inæquales, dati tamen. Dico quod est sicut a b ad d e, sic est d f, ad quod a c, rationem habet datam. Compleantur enim a g d h parallelogramma, & quoniam trianguli a b c ad d e f, triãgulum ratio est data. Ratio igitur & ipsius a g. parallelogrammi a d, d h parallelogrammum data est. Quoniã igitur bina parallelogramma a g, d h adinuicem rationẽ habẽt datã aut in æqualibꝰ, aut in inæqualibus, angulis, datis tamen. Est igitur per præcedentem sicut a b ad d e, sic d f ad quod a c rationẽ habet datam
 
-## Theorema 69 — Propositio 69
+[Diagram: two rhombi side by side; the left with vertices d (top), f (left), e (right), b (bottom); the right with vertices a (top), e (left), b (right), g (bottom); each with a horizontal diagonal drawn]
 
-SI bina parallelogramma datos angulos habuerint, habuerint autem & ad inuicem rationem datam, unumq́; latus uni lateri rationem habuerit datam, & reliquum latus ad reliquum latus rationem datam habebit,
+## Theorema 76. Propositio 76.
 
-Bina siquidem parallelogramma a b, g e, datos habētia angulos, eos qui ad d f, adinuicem rationē datā habeant. Ipsius autem d b ad f g, ratio sit data. Dico quod & ipsius a d ad e f ratio data est. Siquidem igitur æquiangulum est a b parallelogrammum ipsi e g, parallelogrammo, manifestū est. Si autē non. Cōstituatur per 23 primi elemen. ad ipsam d b ad signumq́; in ea d ei qui sub e f g, æqualis angulus b d k. Compleaturq́; d l, parallelogrammum. Quoniā uterq; ipsorū d a c, a k d, angulorum datus est, & reliquus igitur qui sub a d k, datus est. Datur igitur triangulum a d k specie. Igitur ipsius a d ad d k, ratio data est. Et qm̄ ipsius d c ad f h ratio est data, supponitur enim & est æquū d c ipsi d l, per 35 primi ele. Ratio igitur ipsius d l ad f h data est. Et æquiangulum est d l ipsi f h, & ratio ipsius d l ad f h data est. Estq́; ipsius d l ad e g, ratio data, & insuper ipsius d b ad f g id enim est receptum. Ratio igitur & ipsius d k ad e f data est, & ipsius d k ad d a ratio est data, & ipsius igitur a d ad e f, ratio est data.
+SI à uertice triãguli specie dati in basim perpẽdicularis acta fuerit, acta ad basim rationẽ habet datã.
 
-[Diagram: at left a rectangle with b at its top left, e at its top right, and g, f at its base; at right a parallelogram with e, l, a, k along its top edge, b and d at its base, crossed by slanted lines]
+Sit specie datũ triãgulum a b c, exciteturq̃ ab ipso a in b c, perpendicularis a d. Dico quod ratio ipsius a d ad b c, data est. Quoniam enim triangulum a b c datum est specie, datus igitur est & qui sub a b d, angulus est autem & qui sub b d a, datus: & reliquus igitur qui sub b a d, datus est: datur ergo triangulum a b d specie. Ratio igitur ipsius a b ad b c data est. & ipsius igitur a d ad c b ratio est data.
 
-### Scholium.
+[Diagram: a triangle with apex a, base corners c and b, with perpendicular a d drawn to the base point d]
 
-In uniuersum enim si parallelogrammi unus angulus datus fuerit, & reliqui dati erunt, uno enim dato necessario & consequentes dabuntur, quare & econuerso.
+## Propositio 77. Propositio 77.{printer-error-correction:Theorema 77. Propositio 77.}
 
-## Theorema 70 — Propositio 70
+SI binæ species specie datæ adinuicem ra-
 
-SI binorum parallelogrammorum quæ circum æquales angulos
+<!-- Signature: Cc -->
 
-<!-- Catchword: uel -->
+<!-- Catchword: tionem -->

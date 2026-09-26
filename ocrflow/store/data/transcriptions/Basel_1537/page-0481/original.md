@@ -1,41 +1,35 @@
-<!-- Page number: 470 -->
+<!-- Running title: LIBER DECIMVSQVARTVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 471 -->
 
-α β γ. Et omnia decies. Quod igitur trigesies sub δ ε, β γ, æquū est uiginti triangulis α β γ, hoc est ipsius icosahedri superficiei. Quare erit sicut dodecahedri superficies ad icosahedri superficiē, sic quod sub γ δ, ζ η, ad id quod sub β γ, δ ε.
+circuli, & sit ε, & ab ipso α in ε connectatur α ε, & extendatur α ε in ζ. Et sit α ε, ipsius ε η dupla. tripla autem κ γ, ipsius γ θ. Et ab ipso η, ipsi α ζ ad angulos rectos excitetur (per 11 primi) η μ, & extēdatur in rectas lineas η δ ipsi η μ, triāguli ergo æqlateri est δ μ. Cōnectātur ipsæ α δ, α μ, æquilaterū igitur est ipsum α δ μ triāgulū. Et quoniā quod sub α η, θ β, æquū est ipsi quinquāgulo, quod autem sub α η δ, æquum est ipsi α δ μ triāgulo, est igitur sicut quod sub α η, θ β, ad id quod sub δ θ α{printer-error-correction:δ η α}, sic quinquangulū ad triangulū. Sicut autem quod sub β θ α η, ad id quod sub δ η α, sic β θ ad δ η. Et sicut igitur (per 11 quinti,) duodecim β θ, ad uiginti δ η, sic duodecim quinquangula ad uiginti triāgula. hoc est dodecahedri superficies ad icosahedri superficiem. Et duodecim quidē β θ, sunt decem β γ, nā ipsa β θ, ipsius α γ{printer-error-correction:θ γ}, quincupla est, & β γ ipsius γ θ sexcupla est. Sex igitur β θ, sunt æquales quinque β γ, & duplicia, uiginti uero δ η, decem sunt δ μ, dupla namq; est δ μ, ipsius δ η. Sicut igitur decem β γ ad decē δ μ, hoc est sicut β γ ad δ μ, sic dodecahedri superficies ad icosahedri, superficiē, & β γ, quidē cubi est latus δ μ ipsius icosahedri, & sicut igitur (per 11 quinti) dodecahedri superficies ad icosahedri superficiem, sic β γ ad δ μ, hoc est cubi latus ad icosahedri latus.
 
-CORRELARIVM. Ex hoc nempe manifestum est, quod sicut ipsius dodecahedri superficies ad ipsius icosahedri superficiē, sic quod sub latere pentagoni & sub ea quæ ex centro circa quinquangulum circuli, in ipsam perpendiculari acta, ad id quod sub latere icosahedri & sub ea quæ ex centro circa triangulum circuli, in ipsam perpendiculari acta, in eadem sphæra descriptorum icosahedri & dodecahedri.
+[Diagram: circle with pentagon α β γ δ μ (α at top, β left, γ right, δ lower left, μ lower right) and its diagonals; horizontal diagonal β γ bearing points κ and θ; vertical diameter α ζ through centre ε and point η; horizontal line δ η μ; ζ at the bottom]
 
-[Diagram: circle with inscribed equilateral triangle α β γ (α at top, β bottom left, γ bottom right), centre δ, lines β δ and γ δ, and perpendicular δ ε upon β γ]
+## Ostendendum iam, quod (recta linea sexta extrema & media ratione) qualem rationem habet potens quod à tota & quod à maiori segmēto, ad potentem quod à tota & minori segmento, talem habet rationem cubi latus ad icosahedri latus.
+
+Esto circulus α β comprehendens & dodecahedri pentagonum & icosahedri triangulum in eadem sphæra descriptorum, capiaturq́; (per 1 tertij) centrū circuli & sit γ, & extēdatur quædam ab ipso γ utcūq; recta linea β γ, seceturq́; (per 30 sexti) extrema & media ratione in δ, & maius segmentū sit γ δ. Decagoni igitur est latus ipsa γ δ, in eodē circulo descripti. Exponatur icosahedri latus & sit ε, dodecahedri uero, & sit ζ, cubi autē, & sit η, Igitur ε, triāguli latus est æquilateri, & ζ, pētagoni in eodem circulo descripti, & ζ ipsius η, extrema & media ratione diuisæ maius est segmentū. Et quoniam ε æqualis est ipsi æquilateri trianguli lateri, trianguli autem æquilateri latus (per 12 decimitertij) potētia ipsius β γ, triplum est: triplū igitur est quod ex ε, eius quod ex β γ. Sunt autem & quæ ex β γ, β δ, eius quod ex γ δ tripla. Sicut igitur quod ex ε, ad id quod ex γ β, sic sunt quæ ex γ β, β δ ad id quod ex γ δ, & uicissim (per 16 quinti) sicut igitur quod ex ε ad ea quæ ex γ β, β δ, sic q̄ ex γ β, ad id quod ex γ δ. Sicut autē quod ex β γ ad id quod ex γ δ, sic est q̄ ex η ad id quod ex ζ, maius, nāq́; est segmentū ζ, ipsius η. Et sicut igitur (per 11 quinti) quod ex ε ad ea quæ ex γ β, β δ, sic quod ex η ad id quod ex ζ, & uicißim (per 16 quinti.) Ac conuersim, sicut igitur quod ex η ad id quod ex ε, sic quod ex ζ, ad ea quæ ex γ β, β δ. Ei autem q̄ ex ζ. æqua sunt quæ ex β γ δ, quinquanguli nāque latus (per 16 decimitertij) potest & hexagoni & decagoni latus. Sicut igitur quod ex η ad id quod ex ε, sic quæ ex β γ, γ δ, ad ea quæ ex γ δ β. Sicut autē quæ ex β γ δ ad ea quæ ex γ δ β, sic (recta linea extrema & media ratione diuisa quacunq;) potens quod ex tota & ex maiori segmēto, ad potentem quod ex tota & ex minori segmento, & sicut igitur (per 11 quinti) quod ex η ad id quod ex ε, sic (recta linea quacūque extrema & media ratione diuisa) potens id quod ex tota, & ex maiori segmento, ad potentem id quod ex tota & minori segmento. Est autem η, latus cubi, & ε icosahedri. Si recta igitur linea extrema & media ratione secta fuerit, erit sicut potens totam & maius segmentum ad potentem totam & minus segmentū, sic cubi latus ad icosahedri latus in eadem sphæra descriptorum.
+
+[Diagram: circle α β with centre γ; a horizontal radius γ β drawn as a thick segment, cut in extreme and mean ratio at δ; α at the top of the circle]
+
+[Diagram: three horizontal segments with letters and captions:]
+
+| | |
+|---|---|
+| ε | cubi latus |
+| ζ | dodecahedri |
+| η | icosahedri |
+
+## Ostendendum iam nunc est, quod sicut cubi latus ad icosahedri latus, sic dodecahedri solidum ad icosahedri solidum.
+
+Quoniam enim æquales circuli comprehendunt & dodecahedri quinquangulum & icosahedri triangulum in eadem sphæra descriptorum, in sphæris autem æquales circuli æqualiter distāt à cētro (à cētro nāq; sphæræ ad circulorum plana perpendiculares ductæ æquales sunt, & in centra circulorum cadunt) quare à centro sphæræ in centrum circuli comprehendentis & icosahedri triangulum & dodecahedri pentagonum æquales sunt, perpendiculares, inquā: æqualiter igitur fastigiatæ sunt pyramides habentes bases dodecahedri pentagona, & bases habētes icosahedri triangula.
 
 [Margin]
-Camp. 8
+ἰσουψεῖς, id est æque altæ
 [/Margin]
 
-Eucl. ex Zamb. Theorema 4 Propositio 4
+Aequalis autem fastigij pyramides, adinuicem sunt sicut bases (per 5 duodecimi) Sicut igitur quin
 
-[Margin]
-4
-[/Margin]
+<!-- Signature: R 2 -->
 
-## Hoc demonstrato ostēdendum est, quod erit ut dodecahedri superficies ad icosahedri superficiem, sic cubi latus ad icosahedri latus.
-
-HYPSICLES ex Zamb. Exponatur (per 2 theorema) circulus cōprehendens & dodecahedri quinquangulum & icosahedri triangulum in eadem spæra descriptorū, sitq́; δ β γ, & in ipso δ β γ, describatur trianguli æquilateri latus γ δ, quinquanguli uero α γ, & aßumatur (per 1 tertij) centrum circuli, & sit ε, & ab ipso ε, in ipsas δ γ, γ α, perpendiculares excitentur ε ζ, ε η, & extendatur in rectas lineas ipsi ε η recta linea η θ, & cōnectatur β γ, ponaturq́; cubi latus η θ. Dico quod est sicut dodecahedri superficies ad icosahedri superficiē, sic est θ, ad γ δ. Quoniam enim utraque simul ε β γ extrema & media ratione diuisa, maius segmentum est β ε, (per 9 decimitertij,) & est quidem utriusque simul ε β γ dimidia ε η. (per 1 decimiquarti,) ipsius autē β ε dimidia est ε ζ, & ipsa igitur ε η extrema & media ratione diuisa, maius segmentum est ε ζ. Est autē & ipsius θ extrema & media ratione diuisæ maius segmentum γ α, sicut in dodecahedro ostēsum est, sicut igitur θ ad γ α, sic ε η ad ε ζ, æquū igitur est quod sub θ, ζ ε, ei quod sub γ α, η ε. Et quoniā est sicut θ ad γ δ, sic quod sub θ, ε ζ, ad id quod sub γ δ, ζ ε, ei autem quod sub θ, ε ζ, æquū est quod sub γ α, η ε, & sicut igitur (per 11 quinti) θ ad γ δ, sic quod sub γ α, η ε. & ad id quod sub γ δ, ζ ε, hoc est sicut dodecahedri superficies ad icosahedri superficiem, sic θ ad γ δ.
-
-[Diagram: circle with horizontal chord δ γ (trianguli latus), pentagon side γ α, centre ε with perpendiculars ε ζ and ε η, points β and θ marked; below the circle a separate long horizontal segment labelled θ, the cubi latus]
-
-[Margin]
-Camp. 8
-[/Margin]
-
-## Aliter ostendere, quod est sicut dodecahedri superficies ad icosahedri superficiem, sic est cubi latus ad icosahedri latus sic descripti,
-
-Esto circulus α β γ, & in ipso circulo α β γ, describantur quinquanguli æquilateri latera α β, α γ, & cōnectatur β γ, aßumaturq́; (per 1 tertij) centrum ipsius circuli, & sit δ, & ab ipso α in δ cōnectatur recta linea α δ, & extendatur in rectas lineas ipsi α δ recta linea δ ε, ponaturq́; ipsius α δ, rectæ lineæ dimidia δ ζ, & η γ, ipsius ε θ{printer-error-correction:γ θ}, esto tripla. Dico quod sub α ζ, β θ, æquum est ipsi quinquangulo. Ab ipso enim β, in δ connectatur β δ. Quoniam dupla est α δ, ipsius δ ζ, hemiolia igitur est α ζ ipsius α δ. Rursus quoniam tripla est η γ ipsius γ θ, dupla est η θ ipsius θ γ, hemiolia igitur est η γ, ipsius θ η. Sicut igitur ζ α ad α δ, sic γ η ad η θ, æquum igitur est quod sub α ζ, θ η, ei quod sub δ α, γ η. Ipsa autē γ η, ipsi β η est æqualis, q̄ igitur sub α δ, β η, æquum est ei quod sub α ζ, θ η. Quod autem sub α δ, β η, bina sunt triāgula sicut α β δ, & quod igitur sub α ζ, η θ, bina sūt α β δ, quinq; igitur quæ sub α ζ, η θ, decem sunt triāgula. Decẽ uero triangula, bina sunt pentagona, quinq; igitur quæ sub α ζ, η θ, binis pentagonis sunt æqualia. Et quoniam dupla est η θ ipsius θ γ, quod sub α ζ η θ, duplum est eius quod sub α ζ, θ γ. Duo igitur quæ sub α ζ, γ θ, æqua sunt uni quod sub α ζ, θ η. Et omnia quinquies, decem igitur quæ sub α ζ θ γ, æqualia sunt quinque quæ sub α ζ, η θ, hoc est binis pentagonis, quare quinq; quæ sub α ζ, θ γ, æqua sunt uni quinquangulo. Quinquies autem quæ sub α ζ, θ γ, æqua sunt ei quod sub α ζ, θ β, quoniam quincupla est θ β ipsius θ γ, & commune fastigium est α ζ, quod sub α ζ, β θ, igitur æquum est uni pentagono.
-
-[Diagram: circle with pentagon sides α β, α γ (α at top, β left, γ right) and chord β γ; vertical line from α through η (midpoint of β γ), centre δ and point ζ down to ε at the bottom; θ on β γ near η; line β δ drawn]
-
-## Hoc demonstrato, nunc exponatur circulus comprehendens & dodecagoni pentagonum & icosahedri triangulum, in eadē sphæra descriptorū.
-
-Describantur in ipso circulo α β γ, pentagoni æquilateri latera, β α, α γ, & connectatur β γ, & aßumatur centrum
-
-<!-- Catchword: circuli -->
+<!-- Catchword: quangulum -->

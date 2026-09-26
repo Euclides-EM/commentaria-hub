@@ -1,41 +1,37 @@
-<!-- Running title: LIBER TERTIVSDECIMVS. -->
+<!-- Page number: 418 -->
 
-<!-- Page number: 427 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS. -->
 
-in longitudine ſiue in potẽtia tantũ. Ad concludẽdũ igitur de maiori portione lineæ prædicto modo diuiſæ quod ipſa ſit reſiduũ, ſufficit ponere totã lineã diuiſam eſſe rationalem in potẽtia tantũ, ſed ad concludendũ quoq̃ hoc de minori portione mediãte maiore, ſufficit ponere portionẽ maiorẽ ſimiliter rationẽ in potẽtia tantũ: ad cõcludendũ autẽ hoc de minori portione mediãte tota, neceſſe eſt ponere totam lineã eſſe rationalẽ in longitudine, aut utendũ eſt 2 quartidecimi quemadmodum dictum eſt.
+primi) baſi β ε eſt æqualis, & triãgulũ α β γ, triãgulo α β ε, eſt æquale, & reliqui anguli reliquis angulis æquales erunt ſub quibus æqualia latera ſubtenduntur, qui ſub β γ α ei qui ſub β γ α{printer-error-correction:β ε α}, qui aũtẽ ſub α β ε ei qui ſub γ α β. Quare & latus α ζ, ipſi β ζ lateri eſt æquale, patuit autẽ quod & tota α γ, toti β ε eſt æqualis & reliqua igitur ζ γ, reliquæ ζ ε eſt æqualis. Eſt autẽ & γ δ, ipſi δ ε æqualis. Binæ iã ζ γ, γ δ, duabus ζ ε, ε δ, ſunt æquales, & cõmunis ipſorũ baſis, eſt ζ δ, Angulus igitur qui ſub ζ γ δ, angulo qui ſub ζ ε δ eſt æqualis. Patuit autẽ quod & qui ſub β γ α, ei qui ſub α ε β, eſt æqualis, totus igitur qui ſub β γ δ, toti qui ſub α ε δ eſt æqualis. Sed qui ſub β γ δ, æqualis ſupponitur eis qui ad α, β & qui ſub α ε δ, igitur, eis qui ad α, β, angulis eſt æqualis. Similiter iam oſtẽdemus, quod & qui ſub γ δ ε angulus, eis eſt æquus qui ad α, β, angulis. Aequiangulũ igitur eſt, α β γ δ ε quinquangulũ. Sed iam nõ ſint æquales ordinatim ipſi anguli, ſed ſint æquales qui ad α, γ δ, ſigna. Dico q̃ & ſic quinquangulũ α β γ δ ε æquiangulum eſt. Cõnectãtur enim β, δ. Et quoniã binæ β α, α ε, duabus β γ, γ δ, ſunt æquales, & æquos cõprehendunt angulos, baſis igitur β ε (per 4 primi) baſi β δ, eſt æqualis, & triãgulũ α β ε, triãgulo β δ γ, eſt æquale, & reliqui anguli reliquis angulis erunt æquales, ſub quibus æqualia latera ſubtendũtur. Aequalis igitur eſt angulus qui ſub α ε β, ei qui ſub γ δ β. Eſt autem & qui ſub β ε δ angulus, ei qui ſub β δ ε æqualis, quoniam & latus β ε lateri β δ eſt æquale. Totus igitur qui ſub α ε δ angulus, toti qui ſub γ δ ε eſt æqualis. Sed qui ſub γ δ ε, eis qui ad α, γ, angulis ſupponitur æquus, & angulus igitur qui ſub α ε δ, eis eſt æquus qui ad α γ. Iam id propterea & qui ſub α β γ, æqualis eis qui ad α γ δ, angulis. Aequiangulam igitur eſt, & ipſum α β γ δ ε quinquangulum. Quod oſtendere oportuit.
 
-## Eucli. ex Zamb. Theorema 6 Propoſitio 6
+[Diagram: pentagon α β γ δ ε with diagonals drawn from the vertices and their intersection ζ; labels α (top), β (left), ε (right), γ (lower left), δ (lower right), ζ (within)]
 
-[Margin]
-6
-[/Margin]
-
-Si recta linea rationalis, extrema & media ratione ſecta fuerit, utrunque ſegmentorum irrationalis eſt ea quæ appellatur apotome.
-
-THEON ex Zãb. Sit recta linea ratiõalis α β, ſeceturq̃ extrema & media ratiõe in γ, ſitq̃ maius ſegmentũ α γ. Dico q̃ utraq̃ ipſarũ α γ, γ β, irrõnalis eſt ea quæ appellatur apotome. Extẽdatur enim α β, & ponatur ipſius β α. dimidia α δ. Quoniã igitur recta linea α β, extrema & media rõne ſecatur in γ, maioriq̃ ſegmẽto α γ apponitur α δ dimidia exiſtẽs ipſius α β, q̃ igitur ex γ δ, eius quod ex δ α quincuplũ eſt (per 1 decimitertij.) Quod ex γ δ igitur, ad id quod ex δ α, rationem habet quam numerus ad numerum. Quod igitur ex γ δ, ei quod ex δ α, comm̃ſurabile eſt. Quod aũt ex δ α, rõnale eſt, ipſa enim δ α, rõnalis eſt, dimidiũ exiſtẽs ipſius α β rationalis exiſtentis. Rõnale igitur eſt & q̃ ex γ δ, rationalis igitur & γ δ. Et quoniã q̃ ad id quod ex δ α rõnẽ non habet quam quadratus numerus ad quadratũ numerũ, incõmẽſurabilis igitur eſt γ δ ipſi δ α lõgitudine. Ipſæ igitur γ δ, δ α, rationales ſunt potẽtia tantũ cõmẽſurabiles. Igitur α γ, apotome eſt. Rurſus quoniã α β extrema & media ratione ſecatur, & maius ſegmentũ eſt α γ, igitur quod ſub α β, β γ ei quod ex α γ æquũ eſt. Igitur ex α apotome ad α β rationalẽ cõparatũ latitudinẽ primã efficit β γ, quod ex apotome uero ad rationalẽ cõparatũ latitudinẽ, primam efficit apotomen. Igitur γ β, prima eſt apotome (per 97 decimi,) Oſtenſum autẽ eſt, quod & α γ apotome eſt. Si recta igitur linea, & quæ ſequũtur reliqua quod oportuit oſtendere.
-
-[Diagram: horizontal line with points δ, α, γ, β]
-
-## Eucl. ex Camp. Propoſitio 7
+## Eucli. ex Camp. Propoſitio 8
 
 [Margin]
-7
+8
 [/Margin]
-
-SI quis pentagonus tres æquos angulos habens, fuerit æquilaterus, æquiangulus quoque idem pentagonut{printer-error-correction:pentagonum} eſſe probatur.
-
-CAMPA. Sit pẽtagonus a b c d e. æquilaterus, ſintq̃ quilibet tres eius anguli, ſiue cõtinue ſiue incõtinue ſumãtur, adinuicẽ æquales, & ſint prius incõtinue ſumpti, ſintq̃ anguli a, c, d. illi tres qui ponũtur adinuicẽ æquales. Dico totũ pentagonum eſſe æquiangulũ. His angulis ſubtendantur chordæ b e b d, & e c, & totus pentagonus diuidatur in trigonũ, & quadrilaterum cuiusduæ diagonales ſint chordæ duorũ proximorũ æqualiũ angulorum ſecantes ſe intra quadrilaterũ ipſum in puncto f, eritq̃ per 4 primi baſis b e æqualis baſi b d, & angulus a e b æqualis angulo c d b. Cũq̃ per 5 primi angulus b e d ſit æqualis angulo b d e, eo quod duo latera b e & b d ſunt æqualia, erit ex cõmuni ſcientia totalis angulus e æqualis totali angulo d. Similiter pbabis, totalẽ angulũ b eſſe æqualẽ angulo totali c, eſt enim p 4 primi baſis b e æqualis baſi c e, & angulus a b e æqualis angulo d c e, per quintã autẽ eiuſdẽ ſcilicet primi eſt angulus e b c æqualis angulo e c b, igitur ex cõmuni ſcientia totalis angulus b. eſt æqualis totali angulo c. Sint itaq̃ tres anguli b, c, d. cõtinue ſumpti, æquales: & ſic quoq̃ erit pẽtagonus æquiangulus. Erit enim ex 4 primi baſis b d æqualis baſi c e, & angulus c b d angulo d e c. & angulus b d c angulo e c d, quare per 5 primi duæ lineæ c f & f d erũt æquales. cum duo anguli trianguli f c d qui ſunt ad baſin c d, ſint æquales. igitur ex cõmuni ſciẽtia erit linea f b, æqualis lineæ f e. erat enim tota b d, æqualis toti c e. ideoq̃ per 5 primi erit angulus f b e æqualis angulo f e b. Per eandẽ autẽ eſt angulus a b e, æqualis angulo a e b. Itaq̃ per cõmunẽ ſcientiã angulus b totalis. eſt æqualis angulo e totali. tres enim partiales anguli cõponentes unũ, ſunt æquales tribus partialibus cõponentibus aliũ, unuſquiſq̃ ſuo relatiuo. Manifeſtum eſt igitur, quod tres anguli e, b, c, non continue ſumpti in propoſito pentagono ſunt æquales. Cũ autem ſic: demonſtratũ eſt totũ pẽtagonũ eſſe æquiãgulũ, utrolibet ergo modo cõſtat propoſitũ.
-
-[Diagram: pentagon a b c d e with diagonals b e, b d, e c crossing at f inside; labels a (top), b (left), e (right), c (lower left), d (lower right), f (centre)]
-
-## Eucli. ex Zamb. Theorema 7 Propoſitio 7
 
 [Margin]
-7
+Zãb. 12
 [/Margin]
 
-Si quinquanguli æquilateri tres anguli ordinatim, aut non ordinatim. æquales fuerint, æquiangulum erit ipſum quinquangulum.
+OMnis trianguli æquilateri quod à latere ſuo quadratum, deſcribitur, triplum eſt quadrato dimidiæ diametri circuli à quo triãgulus ipſe circunſcribitur.
 
-THEON ex Zamb, Quinquãguli æquilateri α β γ δ ε, tres anguli prius ordinatim qui ad α, β, γ, ſigna, inuicem ſint æquales. Dico quod q̃nquangulũ α β γ δ, æquiãgulũ eſt. Cõnectantur enim α γ, β ε, & ζ δ. Et quoniã binæ γ β, β α, duabus β α, α ε, ſunt æquales altera alteri, & angulus qui ſub γ β α ei qui ſub β α ε eſt æqualis, baſis igitur α γ, (per 4
+CAMPANVS Sit triangulus a b c æquilaterus, cui circũſcribatur circulus a b c ſupra centrum d, quemadmodum docet 5 quarti, & protrahatur in eo diameter a d e. Dico ergo qd̃ quadratũ lineæ a b triplũ eſt ad quadratũ ſemidiametri a d. Ducantur enim duæ lineæ b d & d c, & arcui b e, ſubtẽdatur chorda b e, eritq̃ ex 8 primi angulus b a d, æqualis angulo c a d, quare per ultimã ſexti arcus b e, eſt æqualis arcui e c. Et quia ex 27 tertij tres arcus a b, b c, & c a, ſunt adinuicẽ æquales, eo quod eorũ chordæ, quæ ſunt latera trigoni, ſunt æquales ex hypotheſi, erit arcus b e ſexta pars circũferentiæ, ideoq̃ chorda b e, erit latus hexagoni æquilateri ipſi circulo inſcripti. quare per correlarium 15 quarti, linea b e, eſt æqualis ſemidiametro a d. Manifeſtum eſt autem ex prima parte 30 tertij, quod angulus a b e eſt rectus, ideoq̃ quadratũ lineæ a e, eſt æquale quadratis duarũ linearũ a b & b e pariter acceptis, ex penultima primi. At uero quadratũ a e, quadruplũ eſt ad quadratum b e ex 4 ſecũdi, cũ linea a e ſit dupla b e, relinquitur ergo, quadratũ a b triplũ eſſe ad quadratũ b e, & ideo ad quadratũ a d. Quod eſt propoſitũ. Non lateat autem nos, quod linea b c quæ eſt latus trigoni, diuidat ſemidiametrum d e, per æqualia. Eſto quidẽ punctus diuiſionis, f. Conſtat igitur ex 4 primi, quod b f eſt æqualis f c, ideoq̃ per primã partẽ 3 tertij, oẽs anguli qui ſunt ad f, ſunt recti. quare ex penultima primi quadratũ b d, eſt æquale quadratis duarũ linearũ quæ ſunt b f & f d. Et quia b d eſt æqualis b e, erũt ex cõi ſcientia duo quadrata duarũ linearũ b f & f d pariter accepta æqualia duobus quadratis duarũ linearũ b f & f e pariter accceptis. Dempto igitur utrinq̃ quadrato b f, erit ex cõi ſciẽtia quadratum f d reſiduum, æquale quadrato f e reſiduo, quare & linea f d, lineæ f e. ex hac cõmuni ſcientia. quarum quadratũ ſunt æqualia eas lineas eſſe æquales. Ex hoc itaq̃ manifeſtum eſt, quod perpendicularis ducta à cẽtro circuli ad latus trigoni æquilateri ſibi inſcripti, æqualis eſt dimidio lineæ ductæ à centro eiuſdem circuli ad ipſius circunferentiam.
 
-<!-- Signature: N 4 -->
+[Diagram: circle with inscribed equilateral triangle; labels a (top vertex), d (centre), f (midpoint below d), b (left vertex), c (right vertex), e (bottom of the circle); radii and chords drawn]
+
+## Eucli. ex Camp. Propoſitio 9
+
+[Margin]
+9
+[/Margin]
+
+[Margin]
+Zamb.
+[/Margin]
+
+SI latus hexagoni æquilateri, latusq̃ decagoni æquilateri, quos ambos unus idẽq̃ circulus circũſcribit, ſibi inuicẽ in longũ directũq̃
+
+<!-- Catchword: coniun -->

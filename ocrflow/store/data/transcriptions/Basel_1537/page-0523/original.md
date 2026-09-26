@@ -1,31 +1,33 @@
-<!-- Page number: 512 -->
+<!-- Running title: SPECVLARIA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 513 -->
 
-& b c d, extra cadit. igitur e d in maiori angulo spectatur à speculo plano comprehēso sub k b l, quæ à cōuexo. æquum autem patuit apparens in plano, manifestum igitur quod à conuexo speculo simulacrum minus apparet re uisa.
+## Theorema uigesimum quintum
 
-## Theorema uigesimumsecundum.
+IN cauis speculis si in circunferentia aut extra circunferētiam oculus positus fuerit, oculus non spectatur.
 
-IN conuexis speculis, à minoribus speculis minora simulacra spectantur.
+Esto cauum speculum, a c b, & oculus ponatur in circunferentia ipsius & sit b, aspectus aūt procidant b a, b c & refringantur igitur angulus m b angulo K maior est, & e l ipso f. Quare non refringuntur, b a, b c uisus in b oculum. Si in oculum refringūtur, anguli æqui ipsa a c, signa. Ostendetur autem & quod si extra circunferentiam sit oculus idem eueniet. scilicet quod non spectabitur oculus, quippe quoniam in ipsum non sunt refractiones.
 
-Sit sphera maior a c minor uero e l, circa idem centrū sit b & connectatur b a h, & ab ipsa sphæra refringatur uisus b c d, dico quod uisus refractus à minori sphæra in d. neque per c. neque extra ipsum c cadit. Cadat enim prius si possibile est per c & refringatur à minori sphæra in d, & sit b e d. & connectatur ab h in c & refringatur in k. Igitur h c k, bifariam secat eū qui sub b c d, angulum: quoniam ipsos b c d angulos æquos ad circunferentiam propter refractionem efficit. Idque propterea iam quæ ab h in c cōnexa recta linea & extensa angulum sub b e d bifariam secat. Secet sitque h e f. Quoniam angulus comprehēsus sub b c d, angulo comprehenso sub b e d, maior est. & dimidio dimidio maior est qui sub b c k, eo qui sub b e f est autem & minor quod est impossibile. uisus ergo à minori sphæra refractus per ipsum c minime ueniet. Supponantur rursus eadem, & à minori sphæra refractus uisus b e d, extra ipsum c cadat. & b e secet maiorem sphæram in f. Uisus igitur refractus in b f k, non coincidet ipsis c d, hoc, inquam, patet. Ipsi igitur e d, coincidat in K. Igitur b f k, uisus à maiori speculo ipsum aspicit k & ipse b e k: refractus à maiori speculo ipsum aspicit k, hoc, inquam, superius impossibile patuit. Intra igitur c a, cadit uisus refractus à maiori speculo in d. Similiter quoque ostendetur, & quæ ab altera parte idem efficiens. Sub minori igitur angulo spectatur eo qui ad b facto a minori speculo quàm à maiori, minus igitur apparet simulacrum à minori speculo.
+[Diagram: arc from a at the upper left to b at the lower right; e at the top of the arc with f beside it; K and m near a, l on a line within; b at the lower left]
 
-[Diagram: two concentric circles; b at the top within the inner circle; points e, l, f, k about the centre; rays from b descending outside the circles and crossing, to b at the lower left and d at the lower right; a at the left]
+## Theorema uigesimumsextum.
 
-## Theorema uigesimum tertium.
+IN cauis speculis si extendatur dimetiens sphæræ, ex centroque ad angulos rectos ducatur, & in altera parte positus fuerit oculus nihil eorum quæ in sunt parte in aqua oculus spectabitur, hoc est neque eorum quæ ad diametrum, neque eorum quæ extra diametrum neque eorum quæ in diametro.
 
-IN curuis speculis simulacra conuexa spectantur.
+Sit cauum speculum a c d, dimetiens autem esto ipsius sphæræ a d & ipsa a d ad angulos excitetur rectos ab ipso f ipsa f c, oculus autem esto b extra ipsum diametrum, uisus autem sit b e. Igitur uisus b e. refractus non ueniet in b, neque in f. In æqualibus namque angulis refringitur. Veniet igitur sicut e h Similiter quoque & si introrsum cadat oculus sicut h siue in diametro, sicut m, refracti autem uisus h k, m n, uenient enim sicut K l, n x. Igitur eorum quæ in ea sunt parte in qua oculus spectatur nihil, neque eorum quæ in diametro, neque eorum quæ extra diametrum, neque eorum quæ introrsum.
 
-Sit curuum speculum a c, oculus autem sit e uisus uero refracti e a, e c, in d b at f e, sit in seipsum refractus, hoc est in e. Igitur uisus iam maiores sunt qui longiores : minimi uero qui circa medium hoc est f e spectatur igitur propius a speculo magis e, longius uero b, & d, quare totum curuum spectatur.
+[Diagram: semicircular arc on the base line a f m d, with c, K, e, n on the arc; b and x within; lines l and x descending; a long vertical line below the base ending at b]
 
-[Diagram: circle resting on a rectangle; a and c at the circle's left and right, f within it; the rectangle's base carries d at the left, e at the centre, b at the right, with lines from e up to the circle]
+## Theorema uigesimumoctauum.
 
-## Theorema uigesimumquartum.
+IN cauis speculis si in dimetiente ponantur oculi æqualiter distantes a centro, nullus ipsorum oculorum spectabitur.
 
-IN cauis speculis si in centro oculus positus fuerit ipse tantum oculus spectatur.
+Sit cauum speculum a c d, dimetiens uero sit a d centrum autem sit f ad rectos angulos sit f c. oculi porro sunt b e à centro æqualiter distātes, uisus autem b c, igitur refractus ueniet in e: in æqualibus enim angulis refringitur. alius autē nullus ibit ut b h. Connectantur h e, h f, igitur angulus qui sub b h e bifariam secabitur ab ipsa f h. & proportionalior erit sicut b h ad b f, sic f ad f e, quod est impossibile. Nā b h, ipso h e, maior est, & b f ipsi f e est æqualis, nullus igitur refractus ueniet ex b in e, unus igitur uisus refringetur in utroque oculorū, & ipse non spectabitur. Nam b c, extensa ipsi b d, non cōcurrit ad partes c d, apparebat autem unumquodque propter spectatorū congressum neque ex ijs quæ ad partes c a. concurrit. In cauis nāq; speculis unūquodq; spectatorū per ex spectato in centrum sphæræ ducta rectam lineam spectatur.
 
-Esto cauum speculū a c d, centrum aūt ipsius sit b, uisus uero sint b a b, c b d. Igitur angulus e æqualis est ipsi f, igitur uisus b c refractus ueniet in b: similiter quoque & reliqui, ipsum igitur tantum b, spectatur.
+[Diagram: semicircle on the base line a b f e d with h at the upper right on the arc; lines from b and e crossing up to the arc and to h]
 
-[Diagram: semicircle with e at the top, f and c inside near the apex, and b at the middle of the base diameter]
+## Theorema 28
 
-<!-- Catchword: Theore -->
+IN cauis speculis si eam quæ ex centro bifariam secans, & ad angulos rectos educens quis ponat oculos æque distantes in ea quæ ex centro, ponatur autem uel per medium diametri & eius quæ ad rectos angulos, uel in ipsa quæ ad rectos angulos, ipsorum oculorum nullus spectabitur.
+
+<!-- Catchword: Esto -->

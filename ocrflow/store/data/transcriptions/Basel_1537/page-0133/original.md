@@ -1,35 +1,55 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVINTVS -->
 
-<!-- Page number: 124 -->
+<!-- Page number: 125 -->
 
-portio, non autem econuerso. Sit igitur a ad b, & c ad d, & e ad f, una proportio, dico quòd quæ est proportio a ad b, eadem est compositi ex a c e, ad compositum ex b d f. Sumā g ad a, & h ad c, & k ad e, æque multiplicia, itemq̃ l ad b, & m ad d, & n ad f æque multiplicia, eritque per primam huius, compositum ex g h k, ita multiplex compositi ex a c e, sicut g est multiplex a, similiter per eandem, compositum ex l m n, erit ita multiplex compositi ex b d f, sicut l est multiplex b, & per conuersionem diffinitionis incontinuæ proportionalitatis bis sumptam si g addit super m, & h addit super m, & k super n, & si minuit, minuit, & si æquat, æquat: ergo per communem scientiā: si g addit super l, compositum ex g h k, addit super compositum ex l m n, & si minuit: & si æquat, æquat: ergo per diffinitionē incontinuæ proportionalitatis, proportio a ad b, est sicut compositi ex a c e, ad compositum ex b d f, quod est propositum.
+sumptæ sunt ipsarū α γ, æque multiplices μ η, ipsarū β δ, aliæ quæuis æque multiplices ν κ: si excedit igitur μ, ipsam ν, excedit & η, ipsam κ, & si æqualis, æqualis, & si minor, minor: (per cōuersionem sextæ diffinitionis quinti. Excedit autem η ipsam κ, excedit igitur & μ, ipsam ν, θ autem, ipsam λ, non excedit, sunt autem μ θ, æque multiplices ipsarum α ε, ν λ, ipsarum β ζ, aliæ quæuis æque multiplices. Igitur α, ad ε, maiorē habet rationē, quàm ε, ad ζ. Si prima igitur ad secundam eandem habuerit rationem & tertia ad quartam, tertia autem ad quartam maiorē rationē habeat quàm quinta ad sextam, prima ad secundam quoque maiorem rationem habebit, quàm quinta ad sextam, quod demonstrare oportebit.
 
-[Diagram: three rows of horizontal line segments with division marks, labelled g, b, k; a, c, e; b, d, f; l, m, n; set beside the paragraph]
-
-Hæ sequentes duæ propositiones 12 scilicet & 13 ex Zamberto, duabus præcedentibus ex Campano. præpostero ordine respondent 12 unius 13 alterius.
-
-## Eucli. ex Zamb. Theorema 12 Propositio 12
+## Eucli. ex Camp. Propositio 14.
 
 [Margin]
-12
+14
 [/Margin]
 
-Si fuerint quælibet magnitudines proportionem habentes, erit sicut una antecedentium ad unam consequentium, sic omnes antecedētes ad omnes consequentes.
+SI fuerint quatuor quantitates proportionales, fueritque prima maior tertia. necesse est secundam quarta esse maiorem. Quod si minor, & minorem, si uero æqualis, & æqualem esse.
 
-THEON ex Zamb. Sint quotcunque magnitudines proportionem habentes α β γ δ ε ζ, sicut α, ad β, sic γ, ad δ, & ε, ad ζ. Dico quod est sicut α, ad β, sic est α γ ε, ad β δ ζ. Sumantur enim æque multiplices ipsarum α γ ε, & ipsarum β δ ζ, aliæ quæuis æque multiplicas, sintq̃ λ μ ν. Et quoniam est sicut α, ad β, sic γ, ad δ, & ε, ad ζ, sumptæ sunt, ipsarum α γ ε, æque multiplices η θ κ, ipsarū β δ ζ, aliæ quæuis æque multiplices hoc est λ μ ν, si igitur excedit η, ipsum λ, excedit & θ, ipsum μ, & κ, ipsum ν, & si æqua le, æquale: & si minus, minus: (per cōuersionē 6 diffinitionis quinti.) Quare & si excedit η, ipsum λ, excedunt & η θ κ, ipsas λ μ ν, & si æqualia, æquales: & si minor, minores, (per eādem. Et est η, quidem, & η θ κ, ipsius α, & ipsarum α γ ε, æque multiplices. Quoniam (per primam quinti,) si fuerint quælibet magnitudines quarumlibet magnitudinum æqualium numero, singulæ singularū æque multiplices, quàm multiplex est una magnitudinum, tam multiplices erunt, & omnes omnium. Ac per hoc, etiam λ, & λ μ ν, ipsius β, & ipsarum β δ ζ, æque sunt multiplices. est igitur sicut α, ad β, sic α γ ε, ad β δ ζ, (per 6 diffinitionem quinti.) Si fuerint igitur quotcunque magnitudines proportionem habētes, erit sicut una antecedentium ad unam consequentium, sic omnes antecedentes ad omnes consequentes, quod demonstrandum fuerat.
+CAMPANVS Sit proportio a ad b, sicut c ad d. Dico quod si a est maior c, b erit maior d, & si minor, minor, & si æqualis, æqualis. Si enim a sit maior c, erit per primam partem 8 huius. maior proportio a ad d quàm c ad d. Quare maior erit a ad d, quàm a ad b, ergo per secūdam partem 10 huius, b erit maior d, quod est propositum. Quod si a sit minor c, erit per primam partem 8, minor proportio a ad d, quàm c ad d. Quare maior erit a ad b, per secundam partem ergo 10, b erit minor d Si autem a sit æqualis c, erit per primam partem 7, a ad d sicut c ad d Quare a ad b sicut a ad d, itaque per secundam partem 9, b erit æqualis d, sicque patet propositum.
 
-[Diagram: group of tall vertical line segments of graduated heights with division marks, letters η θ α γ ε λ β δ ζ μ ν beneath, in the right margin]
+[Diagram: horizontal line segments a, c above and b, d below, set beside the paragraph]
 
-## Eucli. ex Zamb. Theorema 13 Propositio 13
+## Eucli.ex Zamb. Theorema 14 Prepositio 14
 
 [Margin]
-13
+14
 [/Margin]
 
-Si prima ad secundam eandem habuerit rationem, & tertia ad quartam, tertia autem ad quartam maiorem rationem habeat quàm quinta ad sextam, prima quoque ad secundam maiorem rationem habebit quàm quinta ad sextam.
+Si prima ad secundam eandem habuerit rationem & tertia quartam, prima uero tertia maior fuerit, & secunda, quarta maior erit, & si æqualis, æqualis. & si minor, minor.
 
-THEON ex Zamb. Prima enim α, ad secundam β, eandem habeat rationē & tertia γ, ad quartam δ, tertia uero γ, ad quartam δ, maiorem habeat rationem quàm quinta ε, ad sextam ζ. Dico quod & prima α, ad secundā β, maiorem rationem habebit, quàm quinta ε, ad sextā ζ. Quoniā γ, ad δ, maiorem rationem habet quàm ε, ad ζ, sunt enim ipsarū γ ε, quædā æque multiplices, ac multiplex ipsius γ, excedit multiplicē ipsius δ, multiplex autem ipsius ε, non excedit multiplicem ipsius ζ, sumantur igitur, & sint ipsarum γ ε, æque multiplices η θ, ipsarum autem δ ζ, aliæ quæuis æque multiplices κ λ. Ita quidem ut η, excedat ipsum κ, & θ, non excedat ipsum λ, & quàm multiplex quidem est η, ipsius γ, tam multiplex esto & μ, ipsius α, quàm multiplex autem est κ, ipsius δ, tam multiplex esto & ν, ipsius β, & quoniam est sicut α, ad β, sic γ, ad δ,
+THEON ex Zamberto. Primum enim α, ad secundum β, eandem habeat rationem, & tertium γ, ad δ, quartum, maius autem esto α, quàm γ. Dico quod & β, maius est quàm δ. Quoniam enim α, est maius quàm γ, & est alia quædam magnitudo β, igitur (per 8 quinti) α, ad β. maiorem rationem habet quàm γ, ad β, sicutque α, ad β, sic γ, ad δ, & γ, ad δ, maiorem rationem habet, quàm γ ad β. Ad quod autem eadem maiorem rationem habet, illud minus est (per 10 quinti,) minus igitur est δ, quàm β, quare maior est β, quàm δ. Similiter quoque ostendemus quod & si æquale fuerit α, ipsi γ, æquale erit quoque & β, ipsi δ, & si minus fuerit α, quàm γ, minus erit quoque & β, quàm δ. Si prima igitur ad secundam eandem habuerit rationem & tertia ad quartam, prima autem tertia maior fuerit, & secunda quarta maior erit, & si æqualis, æqualis: & si minor, minor: quod demonstrare oportebat.
 
-[Diagram: group of tall vertical line segments of graduated heights with division marks, letters μ η α γ ε ν κ β δ ζ θ λ beneath, in the right margin]
+[Diagram: four vertical line segments of unequal heights with division marks, letters α β γ δ beneath, in the right margin]
 
-<!-- Catchword: sumptæ -->
+## Eucli. ex Camp. Propositio 15
+
+[Margin]
+15
+[/Margin]
+
+SI fuerint aliquibus quantitatibus æque multiplices assignatæ, erit ipsarum multiplicium atque submultiplicium una proportio.
+
+CAMPANVS Sint c ad a, & d ad b, æque multiplices. Dico quod quæ est proportio a ad b, eadem est c ad d. Diuidatur c secundum quantitatem a, & d secūdum quantitatem b, sunt que tot partes e, quot d, & quia quælibet pars c ad quamlibet partem d se habet sicut a ad b, erit per 13 huius, c ad d, sicut a ad b. quod est propositum.
+
+[Diagram: horizontal line segments c and d with division marks above, segments a and b below, set beside the paragraph]
+
+## Eucli. ex Zamb. Theorema 15 Propositio 15
+
+[Margin]
+15
+[/Margin]
+
+Partes eodem modo multiplicium, eandem rationem habent sumptæ adinuicem.
+
+THEON ex Zamberto. Sit igitur æque multiplex α β, ipsius γ, & δ ε, ipsius ζ. Dico quod est sicut γ, ad ζ, sic est α β, ad δ ε. Quoniam enim æque multiplex est α β, ipsius γ, & δ ε, ipsius ζ, quot igitur magnitudines sunt in α β, ipsi γ, æquales, tot sunt in δ ε, æquales ipsi ζ. Diuidatur α β, in magnitudines æquales ipsi γ, hoc est α η, η θ, & θ β, ipsum autē δ ε, in magnitudines æquales ipsi ζ, hoc est δ κ, κ λ, & λ ε, erit iam magnitudo ipsorum α η, η θ, & θ β, æqualis multitudini
+
+[Diagram: vertical line segments divided into equal parts, with letters α η θ β, γ and δ κ λ ε, ζ, in the right margin]
+
+<!-- Signature: l 3 -->

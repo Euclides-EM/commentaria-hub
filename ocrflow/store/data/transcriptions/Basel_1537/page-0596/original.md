@@ -1,39 +1,39 @@
-<!-- Running title: DATA -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-<!-- Page number: 583 -->
+<!-- Page number: 586 -->
 
-tur per 1 tertij elementorũ. ipsius circuli centrũ d & cõnectãtur b d, d c. Et q̃m utrũq̃ ipsorũ b d, datũ est positione. igitur est ipsa b d. Et q̃m angulus b a c, datus est. Datus igitur est angulus b d c. Quoniã igitur ad positiõe rectam lineã b d ad signũq̃ d recta linea excitatur d c datũ. efficiẽs angulũ b d c. Data igitur ipsa d c positiõe, datus est aũt & circulus a b c. Datũ igitur est c signum.
+Sint a & b corpora duo, sint g d & e f, spatia duo, g d maius per quod a, e f, minus per quod b mouetur resecabo à spatio g d, g r spatium, sic ut sit e f spatio spatiũ g r æquale. Cætera sponte patent.
 
-[Diagram: a circle with apex a at top, points c and b at the base, centre d, with lines from a to c and b and from d to c and b]
+[Diagram: two horizontal lines: g—r—d and e—f]
 
-## Theorema 91. Propositio 91.
+## Theorema secundum
 
-SI à dato signo, positiõe datũ circulũ tãgẽs recta linea acta fuerit, datur acta põne & magnitudine.
+EOrundem genere corporũ si ipsa inter se erunt multiplicia, erunt æque ipsorum potentiæ multiplices.
 
-A dato enim signo c positiõe datũ circulũ a b tãgẽs recta linea excitetur c a. Dico q̃ c a recta linea datur positiõe & magnitudine. Accipiatur enim p 1 tertij el. ipsius circuli cẽtrũ d, & cõnectatur d a. & q̃m datũ est utrũq̃ ipsorũ d c, data est igitur d c. estq̃ ãgulus d a c, datus igitur sup c d, descriptus semicirculus ueniet p a, ueniat sitq̃ d a c, positiõe igitur est d a c, positiõe aũt est a b circulꝰ. Igitur a datũ est. Sed & c datũ est. Data igitur est a c põne & magnitudine.
+Sit corpus a g, eodem genere corpori d, duplum. dico, etiam potentia duplum esse. Sit enim a g, quidem corporis potentia e h, d uero & a g iuxta multiplicis excessum in a b & b g, diuidatur, sic ut utriusque potentia. ipsius d corporis potẽtiæ quæ erat c æqualis, fiat rursus ut a g corpus in partes a b, b g corpori d æquas diuisimus, sic e h, potentiam in partes e r & r h, æquas c potentia diuidamus. Liquidum est e h potentiã duplum potentiæ c euadere.
 
-[Diagram: a semicircle described over c d intersecting a smaller circle at a point; labels c, e, d, b]
+[Diagram: horizontal lines labelled a—b—g, e—r—h, d, c]
 
-## Theorema 92. Propositio 92.
+## Theorema tertium
 
-SI extra circulũ positiõe datũ assumptũ fuerit aliquod datũ signũ ab ipso aũt signo in circulũ acta fuerit aliqua recta linea, quod sub acta & ea quæ inter ipsum signũ & curuã circũferentiam comprehẽsum rectangulum datum.
+EOrundẽ genere corporũ, proportio & magnitudine, & potentia est eadem.
 
-Extra enim circulũ positiõe datũ a b c assumatur signũ aliquod d, ab ipso aũt d signo extẽdatur recta linea d b secãs circulũ. Dico q̃ quod sub b d, d c datũ est, excitetur enim ab ipso d signo ipsum a b c, circulũ tãgẽs, recta linea d a per 17 tertij ele. Data igitur est d a positiõe & magnitudie.{printer-error-correction:magnitudine} Q̃m igitur data est a d, datũ igitur est & quod ex a d, & est æquale ei quod sub b d, d c, per 36 tertij el. Datũ igitur est quod sub b d, d c.
+Sit à corpus corporis eodem genere b duplum, dico ut a corpus ad b corpus est, sic corporis a potẽtia g ad corporis b potentiam d esse. Patet si ut corpora sic potentias æque utrinque multipliciter diuidamus.
 
-Aliter.
+[Diagram: four horizontal lines: a—s, g—r (labelled "Corpus potentia corporis a"), b, d (labelled "Corpus potentia corporis b")]
 
-Assumatur per 1 tertij ele. ipsius circuli cẽtrũ e, & cõnectatur d e. extẽdatur in a & quoniã datũ est utrũq̃ ipsorũ e d. Data igitur est e d positiõe Datur autẽ & a b f circulus. datũ igitur est utrũq̃ ipsorũ a f, est aũt ipsum d datũ. Data igitur est utraque ipsarũ a f, f d. Datũ igitur est quod sub a d, d f & ei est æquũ quod sub b d, d c ei quod sub a d, d f. Datum igitur est quod sub b d, d c.
+## Theorema quartum
 
-[Diagram: a circle with labels b (top), a (left), c (interior right), and external point d below with lines drawn to the circle; below it a second circle with labels f, c, e, b, a and tangent and secant lines from d]
+QVæ corpora, æqua potentia eiusdem generis corpori sunt, eiusdẽ sunt inter se generis. ablatis enim æqualibus illi tertio, erũt ipsorum uirtutes æquales, quia potentiæ tertij æquales.
 
-## Theorema 93. Propositio 93.
+Quorũ corporũ & magnitudo & potentia proportiõ una est, ipsa generis eiusdẽ erunt. Sit ut a corpus ad corpus b, sic corporis a potentia ad corporis b potentiã d, dico a, b, corpora generis eiusdẽ esse. Statuamus. n. a corpus, æquale corpori cuius potentia sit r. Erunt igitur ut b ad a, sic r ad potentiam ipsius à quæ est g. Reliqua patẽt.
 
-SI in circulo positione dato, assumptũ fuerit aliquod datũ, ac per signũ illud acta fuerit aliqua recta linea in ipso circulo, quod sub actæ sectionibus comprehensum rectangulũ datũ est.
+Ad finem quarti libri hæc à Campano adiecta sunt.
 
-In circulo enim dato positione b c accipiatur signum aliquod datum a, ac per a excitetur quædam recta linea b c. Dico quod quod sub b a, a c datum est. Assumatur enim per primam tertij elemen. ipsius circuli centrum sitque d & connexa a d extendatur ad f e. Quoniam igitur utrũq̃ ipsorum d a, datum est, positione igitur est d a, positiõe autem & c b f circulus. Datum igitur est utrunque ipsorum f e, est autem & a datum. Data igitur est utraque ipsarum f a, a e. Datum igitur quod sub f a, a e. & ei est æquũ quod sub b a, a c, datum igitur est quod sub b a, a c.
+DAtum triangulum{printer-error-correction:angulum} in tria æqualia diuidere.
 
-[Diagram: a circle with e at top, f at bottom, c at left, b at right, centre d and interior point a, with a vertical diameter e f and a chord c b crossing at a]
+Sit angulus datus c. uolo ipsum diuidere in tres æquales angulos q̃ sic facio. Pono primo c, cẽtrũ circuli describendo circulũ usq̃ quo secet circũferẽtiã in pũctis a & b, tũ a pũcto c q̃ est centrũ circuli, duco lineã c d perpẽdiculariter ad lineã c b & in linea c d assignabo pũctũ e, a quo duco lineã ad æqualitatẽ c b usq̃ quo secet circũferẽtiã circuli in pũcto f, & produco usq̃ ad a. deinde ptraho lineã g h æquidistãtẽ f a quæ. s. g h trãseat per cẽtrũ, & duco lineã f g æquidistãtẽ lineæ e c & protraho lineã c b in cõtinuũ & directũ usq̃ ad l quæ secat lineã f g orthogonaliter in puncto o & per æqualia. dico ergo quod arcus l g est æqualis arcui h b, propter hoc quod angulus l c g est æqualis angulo h c b cũ sint cõtra se positi. Cum igitur arcus f g sit duplus arcui l g erit duplus arcui h b, sed arcus f g est æqualis arcui h a cum sint inter duas æquidistantes lineæ quæ sunt f a & g h ergo arcus h a est duplus arcui h b, ergo
 
-<!-- Signature: Cc 4 -->
+[Diagram: a circle with centre e; points g and l at top, f at upper right, d at right, a and m and b at bottom, c inside; with chords g h, f a, f g, and lines from the centre]
 
-<!-- Catchword: Theo -->
+<!-- Catchword: & an- -->

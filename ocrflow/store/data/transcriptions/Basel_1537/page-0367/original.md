@@ -1,47 +1,65 @@
-<!-- Page number: 356 -->
+<!-- Running title: LIBER VNDECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 357 -->
 
-THEON ex Zamb. Sit datum quidem signũ in sublimi α, datũ autem planũ suppositũ. Oportet iam ab ipso α signo, in subiectũ planũ perpendicularẽ rectã lineam ducere.\*
+etiã est perpendicularis ad superficiẽ sectam. Ergo ab uno puncto protractæ sunt duæ lineæ perpẽdiculares ad eandem superficiẽ, quod est impossibile, relinquitur itaq̃ propositũ nostrum.
 
-[Margin]
-διήχθω
-[/Margin]
-
-Extendatur enim quædã in subiecto plano recta linea utcunq̃, sitq̃ θ γ{printer-error-correction:β γ}, exciteturq̃ (per 12 primi) ab ipso α signo, in ipsam β γ, perpendicularis α δ. Si igitur α δ perpendicularis est ad subiectũ planũ, factũ iam est quod quæritur. Si autẽ non, excitetur (per 11 primi) ab ipso δ signo ipsi β in γ{printer-error-correction:ipsi β γ in} subiecto plano ad angulos rectos δ ε. Exciteturq̃ (per 11 primi) ab ipso α, in ipsam δ ε, perpendicularis α ζ, & per ζ signum ipsi β γ parallelus excitetur (per 31 primi) ζ θ. Et quoniã β γ utriq̃ ipsarũ δ α, δ ε, ad angulos est rectos, igitur (per 4 undecimi) β γ ad id quod per ε δ α planũ ad angulos est rectos. Et ei parallelus est η θ. Si autẽ fuerint binæ rectæ lineæ parallelæ, altera uero ipsarũ plano alicui ad angulos fuerit rectos, & reliqua ad idem planũ ad angulos erit rectos (per 8 undecimi) linea igitur η θ ei quod per ε δ, δ α, plano ad angulos est rectos, & ad omnes rectas lineas eam tangentes, & in eo quod per ε δ, δ α, plano existentes, ipsa η θ recta est (per conuersionẽ diffinitionis 2 undecimi.) Tangit autẽ ipsam, ipsa α ζ existens in eo quod per ε δ, δ α, plano. Igitur η θ, ad ipsam ζ α recta est (per 2 undecimi.) Quare & ζ α, recta est ad ipsam η θ. Est autẽ & α ζ ad ipsam δ ε recta, igitur α ζ ad utrãq̃ ipsarũ θ η, δ ε, recta est. Si autẽ recta linea (per 4 undecimi) duabus rectis lineis inuicẽ se tangẽtibus in contactu ad angulos rectos steterit, & ad id quod per ipsa planũ ad angulos rectos erit. Igitur ζ α ad id quod sub ε δ, η θ, planũ ad angulos rectos est. Quod autẽ per ε δ, η θ, planũ est subiectũ. Ipsa igitur α ζ, ipsi subiecto plano ad angulos rectos est. A dato igitur signo in sublimi α, in subiectum planũ perpendicularis recta linea acta est. Quod facere oportebat.
-
-[Diagram: the horizontal line η θ; beneath it the line β δ γ; from α at the upper right the line α δ falls to δ; from δ the line δ ε rises toward ε at the upper left crossing η θ; α ζ drawn to ζ upon δ ε]
-
-## Eucli. ex Camp. Propositio 12
-
-[Margin]
-12
-[/Margin]
-
-## SVperficie proposita, punctoq̃ in ea assignato, ab eo puncto ad datam superficiem, lineam orthogonaliter erigere.
-
-CAMPANVS. Cum à pũcto quolibet in superficie proposita assignato, perpendicularẽ educere libuerit, à quolibet puncto sursum in aere ad libitum posito, ad eandem superficiẽ perpendicularẽ (quemadmodũ præmissa docuit) demitte, quæ si assignatũ punctũ ceciderit, ipsa est quã quæris. Sin autẽ, ab ipsa assignato pũcto ad demissam perpendicularẽ, æquidistantẽ ducito, eamq̃ per 8 huius probabis esse quam quæris.
-
-## Eucli. ex Zamb. Problema 2 Propositio 12
-
-[Margin]
-12
-[/Margin]
-
-## Ad datũ planũ, à dato in eo signo, ad angulos rectos rectã lineã constituere.
-
-THEON ex Zamb. Sit datũ planũ suppositũ, signũ autẽ in eo sit α. Oportet ab ipso α signo, ipsi supposito plano ad angulos rectos rectam lineã constituere. Intelligatur signũ quoddã in sublimi, sitq̃ β, & ab ipso β (per 11 undecimi) ad subiectum planũ perpendicularis excitetur β γ, exciteturq̃ (per 11 primi) ab ipso α signo, ad angulos rectos α δ. Quoniam igitur binæ rectæ lineæ parallelæ sunt α δ, γ β, altera autem ipsarũ β γ ad subiectũ planũ ad rectos est angulos, reliqua igitur α δ ad subiectũ ad angulos est rectos (per 8 undecimi:) ad datum igitur planũ, à signo in eo dato α, ad rectos angulos constituta est α δ. Quod facere oportebat.
-
-[Diagram: two vertical parallel lines, δ above α at the left and β above γ at the right]
-
-## Eucli.ex Camp. Propositio 13
+## Eucli. ex Zamb. Theorema 11 Propositio 13
 
 [Margin]
 13
 [/Margin]
 
-## DVas lineas super punctum unum ad superficiem unam orthogonaliter insistere, impossibile est.
+## Ab eodem signo, ad idem planum binæ rectæ lineæ ad angulos rectos non constituentur ad easdem partes.
 
-CAMPANVS. Si enim possibile est ut duæ lineæ uni eidemq̃ superficiei super punctũ unum perpẽdiculariter insistant, superficies in qua ipsæ perpẽdiculares sitæ sunt intelligatur ꝓduci quousq̃ secet in superficiẽ, cui dictæ lineæ perpẽdiculariter insistunt, eritq̃ per 3 huius, cõmunis earũ sectio linea recta. Et quia ex diffinitione utraq̃ illarũ duarũ perpendiculariũ cum cõmuni sectione continet angulum rectũ, sequitur ut angulus rectus sit pars anguli recti. Quod est impossibile. Quemadmodũ autem demonstratũ est impossibile esse ab uno eodemq̃ puncto extra superficiem duas lineas super punctũ unũ ad eandem superficiẽ esse perpẽdiculares, ita etiã demõstrabimus impossibile esse duas lineas ab uno eodemq̃ puncto extra superficiẽ signato ad eandem superficiẽ protractas ad ipsam esse perpẽdiculares. Si enim hoc fuerit, ipsæ erunt æquidistãtes ex 6 huius. Quod est impossibile ex diffinitiõe linearũ æquidistantiũ. Constat igitur ex hac, ꝙ si aliqua superficies plana aliam planã superficiẽ orthogonaliter secet, & ab aliquo puncto secantis supficiei ad superficẽ sectam perpẽdicularis ducatur, in cõmuni earũ sectione eam cadere necesse est. Alioqui ab eodem pũcto secãtis superficiei ad cõmunem earũ sectionẽ perpẽdicularis ꝓtrahatur, ut docet 12 primi, & à puncto in quo incidit cum cõmuni sectione, alia perpẽdicularis ad eaudem{printer-error-correction:eandem} cõmunẽ sectionẽ in superficie secta educatur ut docet 11 primi. Eritq̃ ex diffinitione superficiei super aliam superficiem orthogonaliter erectæ angulus quem continent hæ duæ lineæ perpẽdiculares, rectus: quare per 4 huius prima harum duarũ perpendiculariũ
+THEON ex Zamb. Si enim possibile, ab eodem signo α, ad idem planum binæ rectæ lineæ α β, α γ, ad angulos rectos constituãtur ad easdẽ partes. \*Extendaturq̃ per β α, α γ, planũ.
 
-<!-- Catchword: etiam -->
+[Margin]
+διήχθω
+[/Margin]
+
+Quod iam efficiet sectionẽ per α in subiecto plano lineam rectam, efficiat lineã δ α ε. Ipsæ igitur α β, α γ, δ α ε, in uno sunt plano (per 3 undecimi.) Et quoniam γ α ad subiectũ planum ad angulos rectos est, & ad omnes igitur rectas lineas eam tangentes & in subiecto plano existentes, rectos efficiet angulos (per 2 undecimi diffinitionẽ.) Ipsam autẽ tangit δ α ε in subiecto existẽs plano. Igitur angulus qui sub γ α ε, rectus est, & id propterea angulus qui sub β α ε, rectus est. Aequalis igitur est angulus qui sub γ α ε ei qui sub β α ε, & in uno sunt plano. Quod est impossibile. Ab eodem igitur signo, ad idem planũ binæ rectæ lineæ ad angulos rectos non constituẽtur ad easdem partes. Quod demonstrasse oportuit.
+
+[Diagram: the horizontal line δ α ε; from α the two oblique lines α β and α γ rise to β at the upper left and γ at the upper right]
+
+## Eucli. ex Camp. Propositio 14
+
+[Margin]
+14
+[/Margin]
+
+## SI linea una super duas superficies assignatas orthogonaliter insistat, illæ duæ superficies si etiam in infinitũ in quamcunq̃ partem protrahantur, nunquam concurrent.
+
+CAMPANVS. Posita enim una linea duabus supficiebus orthogonaliter insistere, si impossibile est supficies illas cõcurrere, in earũ cõmuni sectione quæ per 3 huius, erit linea recta, pũctus quocũq̃ modo signetur, à quo duæ lineæ in illis duabus supficiebus ad lineã illã quæ ipsis perpẽdiculariter superstat protrahatur, eritq̃ cõstitutus triãgulus ex his duabus lineis & perpendiculari. Huius itaq̃ triãguli uterq̃ duorũ angulorũ q̃ super perpendicularẽ consistũt, est rectus, ut patet ex diffinitione lineæ sup superficiẽ perpẽdiculariter stantis, hoc aũt est impossibile per 32 primi. Ecõuerso quoq̃, uidelicet.
+
+## Si super duas superficies æquidistãtes linea recta ceciderit quæ ad alterã earum perpendicularis sit, ipsa quoq̃ perpendicularis erit ad reliquam.
+
+Positis enim duabus superficiebus æquidistãtibus, intelligatur linea recta ambas penetrãs quæ alteri earũ perpẽdiculariter superstat. Dico ꝙ eadem linea reliquæ superficiei perpẽdiculariter superstat. Sit enim superficies una secans positas supficies æquidistantes, super lineã eas penetrantẽ, eritq̃ cõmunis sectio huius superficiei & alterius sectarũ uidelicet illius cui linea penetrãs ponitur perpẽdiculariter insistere, continẽs angulũ rectũ cum ipsa linea penetrãte ex diffinitione lineæ perpẽdicularis ad superficiẽ. Si igitur alia cõmunis sectio ipsius supficiei secantis & reliquæ duarũ sectarũ cum eadẽ linea penetrãte non contineat angulũ rectũ, erit ex ultima petitione primi, ut illæ duæ cõmunes sectiones in alterutrã partem protractæ necessario concurrãt, quare & supficies quæ positæ sunt æquidistantes, necessario concurrẽt. Et q̃a hoc est impossibile, erit ille angulus rectus. Eodemq̃ modo erit de qualibet alia superficie easdẽ supficies æquidistantes secante super eandẽ lineã, igitur ex quarta huius & ex ista 14, constat uerũ esse quod diximus.
+
+## Eucli. ex Zamb. Theorema 12 Propositio 14
+
+[Margin]
+14
+[/Margin]
+
+## Ad quæ plana eadem recta linea recta est, parallela suut{printer-error-correction:sunt} ipsa plana.
+
+THEON ex Zamb. Recta enim quædam linea α β, ad utrunq̃ γ δ, ε ζ, planorũ, esto ad angulos rectos. Dico quod parallela sunt ipsa plana. Si autẽ non,\* extensa concurrunt.
+
+[Margin]
+ἐκβαλλόμενα
+[/Margin]
+
+Concurrant. Efficient iam cõmunem sectionem lineam rectam, efficiant η θ (per 3 undecimi,) assumaturq̃ in ipsa η θ, utcunq̃ signũ κ, cõnectãturq̃ α κ, β κ. Et quoniã α β recta est ad ipsum ε ζ planũ, & ad ipsam igitur β κ rectã lineã existentẽ in ipso ε ζ extenso plano, recta est ipsa α β. Igitur angulus qui sub α β κ, rectus est. Et id propterea etiã angulus qui sub β α κ, rectus est. Triãguli igitur α β κ, anguli qui sub α β κ, β α κ, duobus rectis sunt æquales. Quod est impossibile (per 17 primi.) Igitur ipsa γ δ, ε ζ, plana, extensa nõ concurrũt, parallela igitur sunt ipsa γ δ, ε ζ, plana. Plana igitur ad quæ eadem recta linea recta est, parallela sunt. Quod oportebat demõstrare.
+
+[Diagram: two planes meeting at the top in the line through κ and θ, forming a gabled figure; γ at the left edge, ζ at the right edge; the planes descend to α and β at the shoulders and to δ and ε at the feet]
+
+## Eucli. ex Camp. Propositio 15
+
+[Margin]
+15
+[/Margin]
+
+## SI fuerint duæ lineæ se contingentes angulariter, æquidistantes alijs duabus se contingentibus, non autem in superficie una, ab
+
+<!-- Catchword: eisdem -->

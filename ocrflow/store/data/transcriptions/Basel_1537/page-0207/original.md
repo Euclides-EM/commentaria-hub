@@ -1,45 +1,63 @@
-<!-- Page number: 196 -->
+<!-- Running title: LIBER SEPTIMVS -->
 
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 197 -->
 
-quoties α, ipsum δ, metitur, tot unitates sint in ε, quoties autē β, ipsum γ, metitur, tot unitates sint in ζ. Igitur α, ipsum ε, multiplicans, effecit ipsum δ, & β, multiplicans ipsum γ, effecit ipsum δ, æqualis igitur est qui ex α ε, ei qui ex β ζ, est gitur (per 15 septimi,) sicut α ad β, sic est ζ, ad ε, ipsi autē α β, sunt primi, primi autē (per 23 septimi,) & minimi, minimi uero metiuntur eandem rationem habentes æqualiter: maior maiorē, & minor minorem. Igitur (per 21 septimi) β. metitur ipsum ε, sequēs uidelicet sequentē. Et quoniā α, ipsos β,ε, multiplicās ipsos γ,δ, fecit: est igitur (per 17 septimi,) sicut β, ad ε sic γ ad δ. At β, ipsum ε metitur, metitur ergo & γ, ipsum δ, maior minorē, quod est impossibile. Igitur ipsi α,β, non metiuntur aliquem numerum minorem existentem ipso γ, quando ipsi α,β, primi adinuicem fuerint. Igitur γ, minimus est qui sub ipsorum α,β, dimensionem cadit.
+CANPANVS Huius sensus est, quod omnis numerus numeratus a ternario: habet tertiam, & numeratus a quinario: habet quintam sicq̃ de cæteris ut si b numeret a, erit in a pars denominata a b, nūeret enim ipsum, quoties unitas in c, eritque per 16 ut c quoque toties numeret a, quoties unitas in b, quare tota pars est c,a: quota unitas b, & quia unitas est pars omnis numeri ab ipso denominata per communem scientiam: erit c pars a, denominata a b, quod est propositum.
 
-[Diagram: dotted number lines beside the text: α···· β····· / γ·············· / γ········· / ε····· / ζ······]
+[Diagram: dotted number lines beside the text: unitas · / c··· c·· / a······]
 
-Non sint primi ipsi α,β, adinuicem, & sumantur (per 35 septimi. minimi numeri eandem rationem habentium ipsis α,β, sintq̃ ζ,ε, æqualis igitur est qui ex α,ε, ei qui ex β,ζ, (per decimamnonam septimi,) & α, ipsum ε multiplicans: efficiat ipsum γ, & β, igitur ipsum α multiplicās effecit ipsum β. Igitur α,β: ipsum γ, metiuntur. Dico iam quod & minimum, si non: metiuntur ipsi numeri α,β, aliquē numerum minorem existentem ipso γ, metiantur, & esto δ, & quoties quidem α, ipsum δ, metitur: tot unitates sint in η. Quoties autem β, ipsum δ, metitur: tot unitates sint in θ, α, igitur η multiplicans: effecit ipsum δ, ipse β. uero ipsum θ, multiplicans, effecit ipsum δ, æqualis igitur est qui ex α,η, ei qui ex β,θ. Est igitur (per decimānonā septimi, ) sicut α, ad β, sic est θ, ad η. Sicut autem α, ad β, sic ζ ad ε, & (per undecimam quinti,) igitur sicut ζ, ad ε, sic θ ad η, ipsi autem ζ,ε: minimi uero eandem rationem habentes æque metiūtur: maior maiorem, & minor minorem, (per 21 septimi.) Igitur ε, ipsum η, metitur, & quoniam α, ipsos ε,ζ, multiplicans, ipsos fecit γ δ, est igitur, (per 17 septimi,) sicut ε ad η, sic est γ, ad δ. At ε, ipsum η metitur, & ε, igitur ipsum δ, metitur, maior minorem, quod est impossibile Ipsi igitur α,β, non metientur aliquem numerum minorem existētem ipso γ. Igitur γ, minimus existens: sub ipsorum α,β, dimensionem cadit, quod oportuit facere,
-
-[Diagram: dotted number lines beside the text: ζ·· α···· / ε··· β······ / γ············ / δ········· / θ·· / η···]
-
-## Eucli. ex Zamb. — Theorema 33 — Propositio 37
+## Eucli. ex Zamb. — Theorema 34 — Propositio 39
 
 [Margin]
-37
+39
 [/Margin]
 
-## Si bini numeri numerum aliquem mēsi fuerint, & minimus qui sub eorum dimensionem cadit, eundem metietur.
+## Si numerum aliquis numerus metiatur, mensus cognominatam partē habebit metienti.
 
-THEON ex Zamberto, Bini enim numeri α,β, numerum aliquem γ δ metiantur, minimus uero sit ε. Dico quod ε quoque ipsum γ δ, metitur. Si autem ε, ipsum γ δ, non metitur, ipsum δ ζ, metiens ipse ε, relinquat seipso minorem hoc est γ ζ, & quoniam ipsi α β, ipsum ε metiuntur, at ε, ipsum δ ζ, & ipsi α,β, igitur ipsum δ ζ, metientur, metiuntur autē & totum δ, & reliquū igitur γ ζ, metientur minorem existentem ipso γ: quod est impossibile. Haud igitur non metitur ε, ipsum γ δ, metitur ergo quod erat demonstrandum.
+THEON ex Zamb. Nuuerum{printer-error-correction:Numerum} enim α, numerus aliquis β, metiatur. Dico quod α, cognominatam partem habet ipsi β. Quoties enim β, ipsum α metitur, tot unitates sint in γ. Quoniam β, ipsum α, metitur per eas quæ in γ, sunt unitates, metitur autem & δ, unitas ipsum γ, per eas quæ in eo sunt unitates, æque igitur (per 15 septimi,) δ, unitas ipsum γ, numerum metitur, & β. ipsum α. Vicissim igitur (per eandē,) æque δ unitas ipsum β metitur numerū, γ, ipsum α. Qualitatis igitur pars est δ, unitas ipsius β, nūeri talis pars est & γ, ipsius α. At δ, unitas pars est ipsius β ei cognominata, & γ, igitur ipsius α, pars est cognominata ipsi β. Quare α, partem habet γ cognominatam ipsi β, quod erat demonstrandum.
 
-[Diagram: dotted number lines beside the text: α·· / β··· / ε······· / β·····ζ·········· (a single dotted line divided at the point ζ; the first label apparently printed β)]
+[Diagram: dotted number lines beside the text: α············ / β···· / γ··· / δ·]
 
-## Eucli. ex Zamb. — Problema 5 — Propositio 38
+## Eucli. ex Camp. — Propositio 38
 
 [Margin]
 38
 [/Margin]
 
-## Tribus numeris datis, inuenire quem minimum numerū metiuntur.
+## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I numerus aliquis partem quotamcunque habeat, numerabit ipsum numerus ad illam partem dictus.
 
-THEON ex Zamberto. Sint dati numeri α,β,γ, oportet iam inuenire, quem minimum numerum metiuntur Suscipiatur enim (per 36 septimi ) minimus numerus δ, qui sub ipsorum α,β, dimensionem cadat. Iam γ, ipsum δ, aut metitur, aut non metitur. metiatur prius, metiuntur autem & ipsi α,β, ipsum γ. Igitur ipsi α,β, γ, ipsum δ, metiuntur. Dico quod & minimum. Si autem non: ipsi α,β,γ, numeri metientur numerum minorem ipso δ, metiantur ε. Quoniam ipsi α,β,γ, ipsum ε. metiuntur, igitur & α,β, ipsum ε metiuntur, & minimus igitur quem ipsi α,β, metiuntur, metietur ipsum ε, per 37 septimi. At minimus quem ipsi α β, metiuntur, est δ. Igitur δ, ipsum ε metietur, maior minorē, quod est impossibile. Ipsi α,β,γ, igitur, non mentientur{printer-error-correction:metientur} numerum aliquem minorem existētem ipso δ. Igitur ipsi α,β,γ, minimum δ, metiuntur. Non metiatur rursus γ, ipsum δ, & suscipiatur (per 36 septimi) minimus numerus ε, quem metiantur ipsi γ δ. Quoniam α, β, ipsum δ, metiuntur, at δ, ipsum ε, metitur, & α,β, ipsum ε, igitur metiuntur, metitur autem & γ, ipsum ε, igitur ipsi α,β,γ, ipsum ε. metiuntur. Dico quod & minimum, si autem non ipsi α,β,γ, metiuntur aliquem numerum minorem existentem ipso ε, metiantur ζ. Quoniam ipsi α,β,γ, ipsum ζ, metiuntur, & ipsi α, β, igitur ipsum ζ, metiuntur, & minimus igitur quem α,β, metiuntur, ipsum ζ, metietur (per 37 septimi,) minimus aūt quē ipsi α,β, metiūtur, est δ, igitur δ, ipsum ζ, metitur, metitur aūt & γ, ipsum ζ. Igitur ipsi δ,γ, ipsum ζ, metiuntur, quare (per eandē) & minimus quē ipsi γ,δ, metiūtur: ipsum ζ, metietur. At minimus quem ipsi γ,δ, metiūtur: est ε. Igitur ε ipsum ζ metitur: maior minorem, quod est impossibile. Ipsi α,β, γ, igitur non metiuntur aliquem numerum minorem existentem ipso ε. Igitur ε minimus est: quem ipsi α,β,γ, metiuntur, quod oportebat facere.
+CAMPANVS Hæc est cōuersa præmissæ: cuius est intētio, quod omnis numerus habens tertiam, numeratur a ternario, & habens quintam, à quinario, sicque de cæteris, ut si b sit pars a denominata a c, sequitur ut c nūeret a, quia enim b est pars a denominata a c, sed & unitas est pars c denominata ab ipso c per conceptionem, sequitur ut quoties unitas numerat c, toties b numeret a, itaque per 16 quoties unitas b, toties c, numerat a, quare constat propositum. Aliter idem. Cum sit b pars a, sit tota unitas c, eritque per hanc communem scientiam, unitatem esse partem omnis numeri ab ipso denominatam c, denominans b in a: & quia est b in a quoties unitas in c, euidenter sequitur propositum per 16,
 
-[Diagram: dotted number lines beside the text: α··· / β···· / γ······ / δ············ / ε········ — and lower: α··· / β····· / γ········ / δ············ / ε··························· / ζ················]
+[Diagram: dotted number lines beside the text: unitas · / b·· c··· / a······]
 
-Euili. ex Camp.{printer-error-correction:Eucli.} — Propositio 37
+## Eucli. ex Zamb. — Theorema 35 — Propositio 40
 
 [Margin]
-37
+40
 [/Margin]
 
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I numerus aliquis alium numerum numeret, erit in numerato pars à numerante denominata.
+## Si numerus partem habuerit quamlibet, eum numerus cognominatus parti, metietur.
 
-<!-- Catchword: CAM- -->
+THEON ex Zamb. Numerus inquam α, partem habeat quamlibet β, & ipsi β, parti cognominatus sit numerus γ. Dico quod γ, ipsum α, metitur. Quoniam enim β, ipsius α, pars est cognominata ipsi γ, est autem & δ unitas ipsius γ, pars cognominata ei: qualis igitur pars est δ, unitas ipsius γ, numeri: talis pars est & β ipsius α, æque igitur δ unitas ipsum γ numerum metitur: & β, ipsum α. Vicissim igitur (per 15 septimi,) æque δ, unitas ipsum β numerum metitur: & γ ipsum α, & γ igitur ipsum α metitur quod erat demonstrandum.
+
+[Diagram: dotted number lines beside the text: α········ / β···· / γ·· / δ·]
+
+## Eucli. ex Camp. — Propositio 39
+
+[Margin]
+39
+[/Margin]
+
+## {dropcap:N|lines=?|style=decorated|decoration="ornamental"}Vmerorum minimum, propositarum denominationum habentem partes inuenire.
+
+CORRELARIVM
+
+Ex quo manifestū est, quod minimus numerus numeratus à quotlibet, est minimus habens partes denominatas ipsis.
+
+CAMPANVS. Sint a,b,c,d denominantes partes propositas. & e minimus numeratus ab eis sumptus secundum 36. Ipsum e dico esse quem quærimus Sint enim secundū quos numerant ipsum f,g,h,k: eritq̃ per 16 & hāc cōmunem scientiam, unitas est pars omnis numeri ab ipso dicta, ut uiceuersa f,g,h,k, numerent e secundum a,b,c,d, quare sunt partes eius ab illis dictæ: est igitur e habens partes propositarum denominationum. Minimus etiā, quoniam si alter fuerit ut l, sint partes l dictæ ab eis m,n,p.q: erūtq̃
+
+[Diagram: dotted number lines beside the text: e············ / a··· f······ / b··· g···· / c····· h··· / d······ k··]
+
+<!-- Signature: r 3 -->
+
+<!-- Catchword: per -->

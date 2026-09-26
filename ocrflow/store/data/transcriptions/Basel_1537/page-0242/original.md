@@ -1,31 +1,25 @@
-<!-- Running title: LIBER NONVS. -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 231 -->
+<!-- Page number: 232 -->
 
-**8** Cum fuerit numerus in duo æqualia diuisus, eiq̃ alius numerus adiunctus, quod fit ex ductu totius compositi in adiunctum cum quadrato medietatis, æquum est quadrato compositi ex dimidio & adiuncto.
+**12** Cum fuerit numerus in duo æqua diuisus, aliusq̃ adiunctus, quadratum totius compositi cum quadrato adiuncti, duplum sunt ad quadratū medietatis ipsius cum quadrato compositi ex medietate & adiuncto.
 
-Idem proponit 6 secundi de lineis. Sit enim a b diuisus in duos æquales numeros, qui sint a c & c b, addaturq̃ ei numerus b d: dico illud quod fit ex toto a d in d b, cū quadrato b c, esse æquale quadrato c d. Est enim ex 6 harum, quadratum c d æquale quadrato d b & quadrato b c, & ei quod fit ex d b in b c bis. Sed per primam harum, ex b d in se & in b c bis, est quantum ex b d in d a, sunt enim a c & c b, æquales. Itaq̃ quadratum c d superat id quod fit ex b d in d a, in quadrato c b, quod est propositum.
-
-[Diagram: dotted line with points a, c, b, d]
-
-**9** Cum numerus in duo diuiditur, quod fit ex toto in se cum eo quod ex altero diuidentium in se, est æquum ei quod ex toto in eundem bis cum eo quod ex altero in se.
-
-Idem proponit 7 secundi de lineis. Sit enim numerus a diuisus in b & d: dico quadratum a cum quadrato d, tantum esse quantū quod fit ex a in d bis cum quadrato b. Constat quidem ex 6 harum quod quadratum a tantum est, quantum quadratum d & quadratum b & quod fit ex d in b bis. Itaq̃ quadratum a cum quadrato d, tantum est quantum quod ex d bis in se & bis in b cum quadrato b. Sed ex d bis in se & bis in b, fit quantum ex d bis in a, per primam harum: ergo quod fit ex d bis in a cum quadrato b, est quantum quadratum a cum quadrato d, quare patet propositum.
-
-[Diagram: line a; dotted line divided b, d]
-
-**10** Cum fuerit numerus in duo diuisus, eiq̃ additus æqualis uni diuidentium, quadratum totius compositi æquum est quadruplo eius quod fit ex priori in additum cum quadrato alterius,
-
-Idem proponit 8 secundi de lineis. Sit numerus a b diuisus in a c & c b, cui addatur b d, qui ponatur æqualis c b. Dico quadratum a d tantum esse, quantū est id quod fit ex a b in b d quater cum quadrato a c. Est namq̃ ex 6 harum, quadratum a d, æquum quadrato a b & quadrato b d, & ei quod fit ex a b in b d bis. Et quia quadratum b d est æquale quadrato c b, erit quadratum a d æquale quadrato a b & quadrato c b, & ei quod fit ex a b in b d bis. Per præmissam autem, est quadratum a b cum quadrato c b, quantum quadratum a c cum eo quod fit ex a b in b c bis. Itaq̃ quadratum a d tantum est quantum quod ex a b in b d bis. & ex a b in b c bis, cum quadrato a c. Et quia ex a b in b c tantū fit quantum in b d, constat uerum esse quod propositum est.
+Idem proponit 10 secundi de lineis. Sit enim numerus a b diuisus in duos æquales a c & c b, sitq̃ sibi adiunctus uumerus{printer-error-correction:numerus} b d: dico quadratum a d cum quadrato b d, duplum esse ad quadratum a c cum quadrato c d. Cum sit enim numerus c d in duo diuisus, sibiq̃ sit a c additus æqualis uni diuidentium, erit per 10 harum, quadratum a d quantū quod fit ex c d in c a quater, cum quadrato b d. Quia uero a c est æqualis c b, erit quadratum a d quantū quod fit ex d c in c b quater, cum quadrato b d. Itaq̃ quadratum a d cum quadrato b d, erit quantū quod fit ex d c in c b quater, cum duplo quadrati b d. Hoc autem per 19 harum, duplum est ad quadratum c d cum quadrato c b. Cum igitur sit quadratum c b æquale quadrato a c, constat propositum.
 
 [Diagram: dotted line with points a, c, b, d]
 
-**11** Cum fuerit numerus in duo æqualia duoq̃ inæqualia diuisus, quadrata amborum inæqualium pariter accepta, duplum sunt quadrato medietatis & quadrato eius quo maior portio excedit minorem pariter acceptis.
+**13** Numerum aliquem ita diuidere, ut quod sub toto & una eius portione continetur æquum sit quadrato alterius, est impossibile.
 
-Idem proponit 9 secundi de lineis. Sit enim a b diuisus per duos æquales qui sint a c & c b, & per duos inæquales qui sint a d & d b. Dico quod quadrata duorum numerorum a d & d b pariter accepta, sunt duplum duobus quadratis duorum numerorum a c & c d pariter acceptis. Est enim per 6 harum, quadratum a d, quantum quadratum a c & quadratum c d, & duplum eius quod fit ex a c in c d. Quia autem a c est æqualis c b, erit quadratum a d quantum quadratum b c & quadratū c d & duplum eius quod fit ex b c in c d. Itaq̃ quadratum a d cum quadrato b d, sunt quantum quadratum b c & quadratum c d & duplum eius quod fit ex b c in c d, & quadratum b d. Duplum autem eius quod fit ex b c in c d cum quadrato b d, est æquale quadrato b c & quadrato c d per 9 harum. Ergo quadrata duorum numerorum a d & d b, sunt quantum quadrata duorum numerorum b c & c d duplicata. Et quia b c & c a sunt æquales, patet propositum.
+Quod 11 secundi proponit faciendum in lineis, demonstrat hoc impossibile esse in numeris. Sit enim quilibet numerus, a b. Dico impossibile esse ipsum sic diuidi, ut proponitur: sic enim diuideretur seeundum{printer-error-correction:secundum} proportionē habentem medium & duo extrema, ut patet ex diffinitione & 20 septimi. Si autem potest, diuidatur in c, sitq̃ a b ad b c, sicut b c ad c a: erit itaque a c minor c b, detrahatur igitur ab eo æqualis sibi qui sit c d, quia igitur est proportio totius a b ad totū b c, sicut b c detracti ab a b ad c d detractū ab b c, erit eadem a c residui a b ad b d residuū b c, quare b c ad c d, sicut c d ad d b, erit igitur c d, maior d b. Detracto itaq̃ d e de c d ut sit d e æqualis d b, erit etiā proportio b c ad c d, sicut c d ad d e, quare sic d b residui c b, ad c e residuum c d: potest igitur c e detrahi ab e d, non erit itaque finis istius detractionis, quod est impossibile. Nunc ad propositum reuertamur.
 
-[Diagram: dotted line with points a, c, d, b]
+[Diagram: dotted line with points a, c, e, d, b]
 
-<!-- Signature: u 2 -->
+## Eucli. ex Zamb. Theorema 15 Propositio 15
 
-<!-- Catchword: Cum -->
+**15** Si tres numeri continue proportionales fuerint minimi, eandem eis habentium rationem, bini quilibet compositi ad reliquum primi erunt.
+
+THEON ex Zamber. Sint tres numeri continue proportionales, minimi eandem eis habentium rationem α, β, γ. Dico quod ipsorum α, β, γ, bini quilibet compositi, ad reliquum primi sunt, scilicet α β ad γ, & β γ ad α, & α γ ad β. Assumantur (per 35 septimi) bini minimi numeri eandem enim ipsis α,β,γ, habentium rationem, sintq̃ δ ε, ε ζ, manifestum iam est quod δ ε seipsum multiplicans, ipsum effecit α, & ipsum ε,ζ, multiplicans, ipsum β fecit, & insuper ε ζ seipsum multiplicans, ipsum effecit γ. Et quoniam ipsi δ ε, ε ζ, minimi sunt, primi adinuicem sunt (per 24 septimi.) Si autem bini numeri primi adinuicem fuerint, & uterque simul ad alterum primus est (per 30 septimi.) Igitur δ ζ, ad utrunque ipsorum δ ε, ε ζ, primus est. Sed & δ ε ad ε ζ primus est. Ipsi igitur δ ζ, δ ε, ad ipsum ε ζ primi sunt, & qui ex δ ζ, δ ε, igitur, ad ε ζ (per 26 septimi) primus est. Si uero bini numeri primi fuerint adinuicem, qui ex uno eorum gignitur ad reliquum primus est (per 27 septimi) quare qui ex δ ζ, δ ε, ad eum qui est ex ε ζ, primus est. Sed qui ex ζ δ, δ ε, est qui ex δ ε una cum eo qui ex δ ε, ε ζ, (per 3 secundi.) Qui igitur ex δ ε una cum eo qui ex δ ε, ε ζ, ad eum qui ex ε ζ primus est. Est autē qui ex δ ε, ipse α, qui uero ex δ ε, ε ζ, ipse β, qui autē ex ε ζ, est γ. Ipsi α,β, igitur cōpositi, ad γ primi sunt. Similiter ostēdemus quod ipsi β, γ, ad α primi. Dico iam quod ipsi α,γ, ad β primi sunt: nam quoniā δ ζ ad utrunq̃ ipsorū δ ε, ε ζ, primus est, & qui ergo ex δ ζ, ad eum qui sub δ ε, ε ζ, primus est. Sed ei qui ex δ ζ, æquales sunt qui ex δ ε, ε ζ, una cum eo qui bis est sub δ ε, ε ζ. Si enim quæ ex δ ε una cum eo quæ ex ε ζ, & qui sub δ ε, ε ζ, non essent primi, cum cōmunis dimensio metiatur compositum, non erunt qui ex δ ε, ε ζ, una cum eo qui sub δ ε, ε ζ, & qui sub δ ε, ε ζ, primi. At iterum cum communis dimensio metiatur & compositū, non erunt qui ex δ ε, ε ζ, una cum eo qui sub δ ε, ε ζ bis, & qui sub δ ε, ε ζ, adinuicem primi, cuius contrarium est ostensum.
+
+[Diagram: dotted number lines labelled α β, γ, β γ, α, γ α, β, and a line with points δ, ε, ζ]
+
+<!-- Catchword: Et qui -->

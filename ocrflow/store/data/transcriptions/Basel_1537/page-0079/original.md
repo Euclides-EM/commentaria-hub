@@ -1,45 +1,53 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER TERTIVS. -->
 
-<!-- Page number: 70 -->
+<!-- Page number: 71 -->
 
-at angulus α γ δ, rectus est, æqualis igitur est angulus ζ γ δ, ei qui sub α γ δ, minor maiori, quod est impossibile. Igitur ζ, centrum circuli α β γ, non est. Similiter quoque ostendemus, quod nec alibi præter quàm in α γ. Si circulum igitur aliqua recta linea tetigerit, à contactu autem ipsi tangenti ad angulos rectos recta linea excitetur, in excitata erit centrum circuli quod demonstrasse oportuit.
+f & b f, eritq̃ per præmissam angulus f consistens supra centrum, ad unumquēq̃ eorū duplus. Quare ipsi sunt æquales, quod est propositum.
 
-## Eucli.ex Camp.  Propositio 19.
-
-[Margin]
-19
-[/Margin]
-
-SI intra circulum angulus supra centrum consistat, alius uero angulus supra circunferentiam consistens eādem basin habeat: interior superiori duplus erit.
-
-CAMPANVS Sit ut in circulo a b c, cuius cētrum d, fiat angulus a d c, supra cētrū, & angulus a b c super circunferentiam, sitq̃ utriusque anguli eadem basis quæ sit arcus a c. Dico angulum a d c, duplum esse ad angulū a b c. Quod sic probatur. Aut enim duæ lineæ a b, & c b includunt duas lineas a d, & c d, aut altera earum sit linea una cum altera reliquarum, aut etiam altera primarum secat alteram postremarum. Sit ergo primo ut includant eas ut in prima figuratione apparet, & producatur linea b d e, eritque per 32 primi, angulus a d e, extrinsecus, æqualis duobus intrinsecis qui sunt b a d & a b d, anguli. Et quia ipsi sunt æquales per quintam eiusdem, erit angulus a d e, duplus ad angulum a b d. Simili quoque modo erit angulus e d c, duplus ad angulum d b c, quare totus angulus a d c, duplus erit ad totum angulum a b c, quod est propositum.
-
-[Diagram: three circles for the three cases: in the first, b at the top, centre d, and a, e, c at the foot, the line b d being produced to e; in the second, b at the top with e and d upon the circle and a, c below; in the third, e, d, b at the top and a, c below; in each, lines are drawn from a and c to b and to d]
-
-Quod si altera duarum linearum a b & b c, fuerit linea una cum altera duarum quæ sunt a d & d c, ut in secunda figuratione apparet, per easdem per quas prius & simili modo liquet propositum. Quod si altera duarum linearum primarum secet alterā duarum postremarum, ut in tertia figuratione apparet ubi linea a b secat lineam d c, producatur linea b d e. Erit per easdem quas à principio assumpsimus & simili modo angulus e d a, duplus ad angulum d b a, & totus angulus e d c, duplus ad totū angulum d b c, quare angulus a d c, duplus est ad angulum a b c. Quod est propositum.
-
-## Eucli ex Zamb.  Theorema 18.  Propositio 20.
+## Eucli.ex Zamb.  Theorema 19,  Propositio 21.
 
 [Margin]
-20
+21
 [/Margin]
 
-In circulo angulus qui ad centrum, duplus est eius qui ad circunferentiam, quando anguli eandem circunferentiam habuerint basin.
+In circulo, qui in eodem segmento sunt anguli, sibi inuicem sunt æquales.
 
-THEON ex Zamb. Sit circulus α β γ, & eius centrum, sit angulus β ε γ, ad centrum, ad circunferentiam uero, angulus β α γ, habeant autem eandem basin, circunferentiam β γ. Dico quod duplus est angulus β ε γ, anguli β α γ, ducta enim α ε, (per secundum postulatum) extendatur in ζ. Quoniam igitur æqualis est α ε, ipsi ε β, ex centro enim in circunferentiam: æqualis est angulus: ε α β, ei qui sub ε β α. Anguli igitur ε α β, & ε β α, (per 5 primi,) eius qui sub ε α β, dupli sunt, æqualis autem est qui sub β ε ζ, (per 32 eiusdem) eis qui sub ε α β & ε β α. Angulus igitur β ε ζ, ipsius ε α β, duplus est. Et perinde angulus qui sub ζ ε γ, (per eandem) duplus est eius qui sub ε α γ. Totus igitur β ε γ, totius qui sub β α γ, est anguli, duplus. Rursus constituatur, & sit alter angulus β δ γ, & ducatur (per 1 postulatum) δ ε, extendaturque (per 2 postulatum) in η. Similiter quoque ostendemus quod duplus est η ε γ, angulus eius qui sub η δ γ, est anguli. Quorum qui sub η ε β, duplus est eius qui sub η δ β. Reliquus igitur qui sub β ε γ, eius qui est sub β δ γ, duplus est. In circulo igitur angulus qui ad centrum, duplus est eius qui ad circunferentiam, quando eandem circunferentiam basin habuerint anguli, quod oportuit demonstrasse.
+THEON ex Zamberto. Sint in segmento β α ε δ, circuli α β γ δ, anguli qui sub β α δ, & β ε δ. Dico quod anguli β α δ, & β ε δ, sibi inuicē sunt æquales. Suscipiatur enim (per primam tertij) centrum circuli α β γ δ, sitque illud ζ. Et ducantur (per primum postulatum) ζ β, & ζ δ. Et quoniam qui sub β ζ δ, angulus ad centrum, angulus autem qui sub β α δ, ad circunferentiam, & eandem habent basin circunferentiam β γ δ, angulus igitur β ζ δ, (per præcedentem) duplus est eius qui sub β α δ, &, per hoc angulus: β ζ δ, duplus est etiam eius qui sub β ε δ. Aequalis igitur (est per communem sententiam dicentem quæ eiusdem sunt dimidium, adinuicem sunt æqualia,) angulus β α δ, angulo β ε δ. In circulo igitur, qui in eodem segmento sunt anguli, sibi inuicē sunt æquales, quod demonstrasse oportuit.
 
-[Diagram: circle with δ at the top, α at the left, ε near the centre, β and γ at the foot; the chords and the lines drawn through ε produced to ζ and η form a star-shaped figure]
+[Diagram: circle with α and ε upon the upper arc, β at the left, γ at the foot, δ at the right; the chords β α, β ε, α δ, ε δ and the lines from the centre ζ to β and δ are drawn]
 
-## Eucli.ex Camp.  Propositio 20.
+## Eucli.ex Camp.  Propositio 21.
 
 [Margin]
-20
+21
 [/Margin]
 
-SI in una circuli portione, anguli super arcū consistant, angulos quoslibet æquales esse necesse est.
+SI intra circulū quadrilaterum describatur, quoslibet eius duos angulos ex aduerso collocatos, duobus rectis angulis æquos esse necesse est.
 
-CAMPANVS Sit in portiōe a d b, circuli a b c, cuius centrum sit f, consistant quotlibet anguli super arcū a d b, qui sunt e & d. Dico eos esse æquales, Protrahatur enim chorda a b, & ab eius extremitatibus ducatur in centrū, lineæ a
+CAMPANVS. Sit quadrilaterū a b c d, inscriptum circulo a b c d. Dico quosq̃ duos angulos oppositos, esse æquales duobus rectis. Protrahantur in quadrilatero, diametri a c, b d, eritque per præmissam, angulus c b d æqualis angulo c a d, & angulus a b d æqualis angulo a c d, quare totus a b c, æqualis erit duobus angulis qui sunt a c d, & c a d. Et quia ipsi cum angulo a d c sunt æquales duobus rectis per 32 primi, erunt & anguli b totalis & d, totalis, æquales duobus rectis, quod est propositum. Similiter quoque probabo angulos a & c totales, æquales duobus rectis.
 
-[Diagram: circle with d at the top, e at the upper right, centre f, a and b at the foot; chords are drawn from a and b to d and to e, and the lines a f, b f to the centre]
+[Diagram: quadrilateral a b c d inscribed in a circle, with d and c at the top and a and b below; both diagonals are drawn]
 
-<!-- Catchword: f & -->
+## Eucli.ex Zamb.  Theorema 20  Propositio 22.
+
+[Margin]
+22
+[/Margin]
+
+In circulis quadrilaterorum existentium anguli qui ex opposito, duobus rectis sunt æquales.
+
+THEON ex Zamberto. Sit circulus α β γ δ, & in eo quadrilaterum sit α β γ δ. Dico quod anguli qui ex opposito, duobus rectis sunt æquales. Coniungantur (per primum postulatum, α γ, & β δ. Quoniam igitur (per 32 primi,) omnis trianguli tres anguli duobus rectis sunt æquales. Angulus autem γ α β, angulo γ δ β est æqualis (per 21 tertij) in eodem enim sunt segmento β α δ γ. Angulus uero α γ β, (per eandem) angulo α δ β, in eodem enim sunt segmento α δ γ β. Totus igitur qui sub α δ γ, eis qui sub β α γ, & α γ β est æqualis. Communis apponatur angulus α β γ. Anguli igitur qui sub α β γ, β α γ, eis qui sunt sub α β γ & α δ γ, sunt æquales. Sed qui sub α β γ, β α γ & α γ β, duobus rectis sunt æquales. Anguli igitur α β γ, & α δ γ, duobus rectis sunt æquales. Similiter iam ostendemus, quod etiam anguli β α δ & β γ δ, duobus rectis sunt æquales. In circulis igitur quadrilaterorum existentium anguli ex opposito, duobus rectis sunt æquales, quod demonstrare oportebat.
+
+[Diagram: quadrilateral α β γ δ inscribed in a circle, with both diagonals α γ and β δ drawn]
+
+## Eucli.ex Camp.  Propositio 22.
+
+[Margin]
+22
+[/Margin]
+
+DVas similes circuli portiones inæquales, supra unam rectam lineam assignatam ex eadem parte cadere impossibile est.
+
+CAMPANVS. sit recta linea a b, super quam fiat portio circuli, a c b, Dico quod super eādem lineam ex eadem parte non fiet alia portio quæ sit similis huic, & ea maior aut minor. Quod si fuerit possibile, fiat ergo portio a d b, maior ea, quæ cū sit similis ei, stat ergo angulus a c b in portiōe minori, & angulus a d b in maiori. Erit ergo ut lineæ a d, & b d, includāt lineas a c & b c, ut in figuratiōe prima apparet. Aut altera primarū: una fiat cū altera postremarū, ut in secūda. Aut ut altera secet alterā, ut in tertia. Q̃ si fuerit primo modo erit per 21 primi angulus c maior
+
+<!-- Catchword: d, non -->

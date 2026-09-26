@@ -1,23 +1,19 @@
-<!-- Running title: LIBER PRIMVS -->
+<!-- Page number: 4 -->
 
-<!-- Page number: 3 -->
+[Ornament: ornamental headpiece border]
 
-sita latera habet æqualia atque oppositos angulos æquales, idem tamen nec rectis angulis nec æquis lateribus continetur. 34 Præter has autem omnes, quadrilateræ figuræ, helmuariphe nominantur.
+# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, BARTHOLOMAEO ZAMBERTO Veneto interprete: Triplex principiorum genus.
 
-35 Æquidistantes lineæ, sunt quæ in eadem superficie collocatæ, atq̃ʒ in alterutram partem protractæ non conueniunt, etiam si in infinitū protrahantur.
+## Primum Diffinitiones.
 
-## Secundum, Petitiones.
+{dropcap:S|lines=?|style=decorated|decoration="foliate and figural decoration"}Ignum, est cuius pars nulla, 2 Linea uero, longitudo illatabilis. 3 Lineæ autē limites, sunt signa. 4 Recta linea, est quæ ex æquali, sua interiacet signa. 5 Superficies, est quæ longitudinem latitudinemq̃ʒ tantum habet. 6 Superficiei extrema, sunt lineæ. 7 Plana superficies, est quæ ex æquali, suas interiacet lineas. 8 Planus angulus, est duarum linearū in plano sese tangentiū & non in directo iacentiū, ad alterutrā inclinatio.
 
-1 A quolibet puncto in quemlibet punctū, rectam lineam ducere: atq̃ʒ lineam definitam, in continuū rectumq́ʒ quantumlibet protrahere. 2 Super centrū quodlibet, quantūlibet occupando spatium, circulum designare. 3 Omnes rectos angulos, sibijnuicem esse æquales. 4 Si linea recta super duas lineas rectas ceciderit, duoq́ʒ anguli ex una parte duobus rectis angulis minores fuerint, istas duas lineas in eandem partem protractas: proculdubio coniunctum iri 5 Duas lineas rectas, superficiem nullam concludere.
+[Diagram: Punctus (a dot); Linea (a curved line and a straight line); Su per fi ci es (a plain quadrilateral, a parallelogram, and a curved shaded surface)]
 
-[Diagram: two horizontal straight lines with a point; a transversal line falling across two straight lines; four concentric circles about a centre point]
+9 Quando autem quæ angulum continent, rectæ lineæ fuerint, rectilineus angulus nuncupatur. 10 Cum uero recta linea super rectam consistens lineam, utrobiq̃ʒ angulos æquales adinuicē fecerit, rectus est uterq̃ʒ æqualiū angulorū: & quæ superstat recta linea, perpendicularis uocatur, super quam steterit. 11 Obtusus angulus, maior est recto. 12 Acutus uero, minor est recto. 13 Terminus, est quod cuiusq̃ʒ finis est.
 
-## Tertium Communes animi conceptiones.
+[Diagram: Angulus planus (angle of two curved lines); Rectilineus (angle of two straight lines); Angulus obliquus (angle of curved lines); a Acutus, b Obtusus (angles marked a and b); Li. perpendic. c Rectus (perpendicular line standing on a horizontal line with right angle at c)]
 
-1 Quæ uni & eidem sunt æqualia, & sibijnuicem sunt æqualia. 2 Et si æqualibus æqualia addātur, tota quoq̃ʒ fient æqualia. 3 Et si ab æqualibus æqualia auferantur, quæ relinquūtur erunt æqualia. 4 Et si ab inæqualibus æqualia demas, quæ relinquūtur erunt inæqualia. 5 Et si inæqualibus æqualia addas, ipsa quoq̃ʒ fient inæqualia. 6 Si fuerint duæ res uni duplices, ipsæ sibijnuicem erunt æquales. 7 Si fuerint duæ res quarum utraq̃ʒ unius eiusdem fuerit dimidium, utraq̃ʒ erit æqualis alteri. 8 Si aliqua res alicui superponatur, appliceturq́ʒ ei, nec excedat altera alterā, ille sibijnuicē erunt æquales. 9 Omne totū, est maius sua parte.
+14 Figura est quæ sub aliquo, uel aliquibus terminis comprehenditur. 15 Circulus, est figura plana una linea contenta quæ circunferentia appellatur, ad quam ab uno signo introrsum existente omnes prodeuntes lineæ, ipsiusq́ʒ circuli circunferentiam incidentes, adinuicem sunt æquales. 16 Centrum uero ipsius circuli id signum appellatur. 17 Dimetiens circuli, est recta quædam linea per centrum acta, & ex utraque parte in circuli circūferentiam terminata, quæ circulū bifariam dispescit. 18 Semicirculus, est figura quæ sub dimetiente & ea quæ per ipsam circuli circun-
 
-CAMPANVS. Sciendum est autem, quod præter has cōmunes animi conceptiones, siue cōmunes sententias, multas alias quæ numero sunt incōprehensibiles, prętermisit Euclides: quarum, hæc est una. Si duæ quantitates æquales, ad quamlibet tertiam eiusdem generis comparētur: simul erunt ambæ illa tertia, aut æque maiores, aut æque minores, aut simul æquales. Item alia. Quanta est aliqua quantitas ad quamlibet aliam eiusdem generis, tantam esse quamlibet tertiam ad aliquā quartam eiusdem generis. In quantitatibus continuis hoc uniuersaliter uerum est, siue antecedentes maiores fuerint consequentibus, siue minores: magnitudo enim decrescit in infinitum: in numeris autem, non sic. Sed si fuerit primus submultiplex secundi, erit quilibet tertius æque submultiplex alicuius quarti: quoniam numerus crescit in infinitum, sicut magnitudo in infinitum minuitur.
-
-<!-- Signature: a 2 -->
-
-<!-- Catchword: EVCLIDIS -->
+<!-- Catchword: ferentia -->

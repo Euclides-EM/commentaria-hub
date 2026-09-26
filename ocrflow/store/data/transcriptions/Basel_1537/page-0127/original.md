@@ -1,45 +1,33 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVINTVS. -->
 
-<!-- Page number: 118 -->
+<!-- Page number: 119 -->
 
-tiplex. α ε, ipsius γ ζ, & α β, ipsius γ δ, æque igitur multiplex est ε β, ipsius ζ δ, & ipsius γ δ. Et reliqua igitur ε β, reliquæ ζ δ, æque multiplex erit: quotuplex est tota α β, totius γ δ. Si magnitudo igitur magnitudinis æque fuerit multiplex & ablata ablatæ, quotuplex erit tota totius. Quod demonstrasse oportuit.
+datur secundum quantitatem a, & e secundum quantitatem b, quod partes utrobique sunt numero & quantitate æquales, numero quidem, per hypothesin propter æqualitatem multiplicationis utrobique: quantitate autē per hanc communem scientiam quoties oportuit repetitam, quæ eidem sunt æqualia sibiinuicem sunt æqualia. Quia igitur prima ex partibus d est æqualis primæ ex partibus e, & secunda secundæ, & cæteræ ceteris, suntq̃ tot partes in d quot sunt in e. erit per primam huius, d æqualis e. Quare per communem scientiam. si duæ quantitates æquales comparentur ad aliam tertiam aut ambæ quantitates d & e sunt similiter maiores f, aut similiter minores, aut sibi æquales, igitur ex diffinitione continuæ proportionalitatis, quæ est proportio a primæ ad c secundam, eadem est tertiæ ad c, quartam. quod est propositum. Secundum eodem modo probabis ordine conuerso, ut c ponatur prima, & tertia: a uero secunda, b quarta. Cum uero quantitas f, quæ eēt æque multiplex primæ & tertiæ, sit aut similiter maior quantitatibus d & e quæ sunt æque multiplices secundæ & quartæ, aut similiter minor, aut eis æqualis: erit per eandem diffinitionem proportio c primæ ad a secundam sicut c tertiæ ad b, quartam. Quod est propositum.
 
-## Eucli. ex Camp. Propositio 6
+[Diagram: horizontal line segments d, e, a, b, f, c in the right upper corner of the text]
 
-[Margin]
-6
-[/Margin]
-
-SI fuerint duæ quantitates ad alias duas æque multiplices duæq̃ minores à duabus maioribus utraque à sua multiplice subtrahantur, erunt duo reliqua earundem partium æque multiplicia, aut eis æqualia.
-
-CAMPANVS Sint quantitates a b ad c, & d e ad f, æque multiplices, subtrahantur que c ex a b, & f ex d e, & sint residua ex a b quidem a g, ex d e d h, eritq̃ g b, æqualis c. & h e æqualis f, dico quod duo reliqua a g & d h erunt æqualia duabus quantitatibus c f, aut eis æque multiplicia. Sit ergo primo a g, æqualis c. dico quod d h est æqualis f. Sumam enim quantitatē k, æqualē f eritque per præmissas hypotheses, ut toties f sit in h k, quoties c in a b, quare sicut a b est multiplex c, ita h k est multiplex f, sed sic etiam d e, erat multiplex eiusdem f, erit igitur per commune scientiam, h k æqualis d e, dēpta igitur cōmuni earum quantitate h e, erit d h, æqualis k, quod est propositū.
-
-[Diagram: horizontal line segments a, g, b and d, h, e with segments f, c below, in the text column]
-
-Si autē a g sit multiplex c, ponam ut e k sit æque multiplex f, eritque ut prius, ut toties f sit in h k, quoties c in a b, sed toties erat etiā in d e, erit igitur ut prius d e æqualis h k, & d h, e k, quare sicut a g est multiplex c, ita d h est multiplex f, quod est propositum. Aliter idem. Cum secundum eundem numerū contineat quantitas a b quantitatem c, secundū quem quantitas d e quantitatē f, demptáque ab eo unitate remaneat unitas uel numerus secundum quem a g, continet c, & secundū quem d h, continet f, patet quantitates a g, & d h, esse æquales aut æque multiplices quantitatibus c & f.
-
-[Diagram: horizontal line segments a, g, b, d and b, e, k with divided segments below, in the text column]
-
-## Eucli. ex Zamb. Theorema 6 Propositio 6
-
-[Margin]
-6
-[/Margin]
-
-Si duæ magnitudines duarum magnitudinum æque fuerint multiplices, & ablatæ aliquæ earundem æque fuerint multiplices, etiam reliquæ eisdem uel æquales, sunt, uel æque ipsarum multiplices,
-
-THEON ex Zamb. Duæ enim magnitudines α β, γ δ, duarum magnitudinū ε ζ, æque multiplices, & ablatæ aliquæ α η, γ θ, earundem ε ζ, æque sint etiam multiplices. Dico quod & reliquæ η β, & θ δ, eisdem ε ζ, aut sunt æquales, aut earum æque multiplices. Sit enim primum, η β, ipsi ε, æquale. Dico quod & θ δ, ipsi ζ, est æquale. Ponatur enim ipsi ζ, æqualis γ κ. Et quoniam æque multiplex est α η, ipsius ε, & γ θ, ipsius ζ, æqualis autem est η β, ipsi ε, & κ γ, ipsi ζ, æque igitur est multiplex α β, ipsius ε, & κ θ, ipsius ζ. Aeque autem ponitur & multiplex α β, ipsius ε, & γ δ, ipsius ζ. Quoniam igitur utraque ipsarū κ θ, & γ δ, ipsius ζ, æque est multiplex, æqualis igitur (per 1 cōmunem sententiā) est κ θ, ipsi γ δ. Cōmunis auferatur γ θ, reliqua igitur κ γ, reliquæ θ δ, est æqualis. Sed ζ, ipsi κ γ, est æqualis. Quare & θ δ, ipsi ζ, erit æqualis. Similiter quoq̃ ostendemus quod si multiplex fuerit η β, ipsius ε, tam multiplex erit & θ δ, ipsius ζ. Si duæ igitur magnitudines duarū magnitudinum æque fuerint multiplices, & ablatæ aliquæ earūdē æque fuerint multiplices, & reliquæ eisdē aut æquales, aut earū æque multiplices erunt. Quod demūstrare oportebat.
-
-[Diagram: vertical line segments representing the magnitudes α β, γ δ with points η, θ, κ and the magnitudes ε, ζ, in the right margin]
-
-## Eucli. ex Camp. Propositio 7
+## Eucli. ex Zamb. Theorema 7 Propositio 7
 
 [Margin]
 7
 [/Margin]
 
-SI duæ quantitates æquales ad quālibet comparētur, earū ad illam erit una proportio, itemq̃ ad illas proportio illius, una est.
+Aequales, ad eandem, eandem habent rationem, & eadem, ad æquales
 
-CAMPANVS Sint duæ quantitates a b, æquales, quæ comparentur ad quālibet tertiā ut ad c, dico q̃ eadē est proportio a ad c, & b ad c. itēq̃ eadem c ad a, & c ad b. Primū sic probatur. Cum enim c sit consequens ad a primā, & ad b tertiam, ipsa erit in ratione secundæ & quartæ. Sumam igitur d ad a primam, & e ad b tertiam æque multiplices, & sumam f, quamlibet ex multiplicibus c, quæ est secunda & quarta. Et quia a & b quarum sunt æque multiplices d e, positæ sunt æquales, erit ut si diuidatur
+THEON ex Zamb. Sint æquales magnitudines α β, alia autem utcunque magnitudo γ. Dico quod utraque ipsarum α β, ad ipsam γ, eandem habet rationem, & γ, ad utramque ipsarū α β. Sumantur (per 3 quinti,) ipsarum α β, æque multiplicia, sintq̃ δ ε, ipsius autem γ, alia utcūque multiplex, sitq̃ ζ. Quoniam igitur æque multiplex est δ, ipsius α, & ε, ipsius β, æqualis autē est α, ipsi β, æqualis igitur est (per primam cōmunem sententiam.) & δ, ipsi ε, Alia autem quæcūque ζ, multiplex ipsius γ. si excedit igitur δ, ipsum ζ, excedit &, ipsum ζ, & si æqualis, æqualis, & si minor, minor. Et sunt quidem δ ε, ipsarum α β, æque multiplices, ζ autem ipsius γ, alia quæcūque multiplex. Est igitur ut α, ad γ, sic β, ad γ, dico iam quod γ, ad utramq̃: ipsarum α β, eandē habet rationem. Eisdem namque dispositis, similiter ostēdemus quod æqualis quædam est δ, ipsi ε, alia autem quædam est ζ. Si igitur excedit ζ, ipsum δ, excedit quoque ipsum ε, & si æqualis, æqualis: & si minor, minor. At ζ, ipsius γ, multiplex est, & δ ε, ipsarum α β, aliæ quæuis sunt æque multiplicia. Est igitur ut γ, ad α, sic γ ad β. Aequales igitur ad eandem, eandem habent rationem, & eadem, ad æquales, quod fuerat demonstrandum.
 
-<!-- Catchword: datur -->
+[Diagram: vertical line segments representing the magnitudes α, β, γ and their multiples δ, ε, ζ, in the right margin]
+
+## Eucli. ex Camp, Propositio 8
+
+[Margin]
+8
+[/Margin]
+
+SI duæ quantitates inæquales ad unam quantitatem proportionētur, maior quidem maiorem, minor uero minorem obtinebit proportionem. Illius autem ad illas, ad minorem quidē proportio maior, ad maiorem uero minor erit.
+
+CAMPANVS. Sint duæ quātitates inæquales a & b c, sitque maior b c, & proportionentur ad eandē quātitatē quæ sit d, dico q̃ maior est proportio b c ad d. quàm a ad d. quodq̃ ecōtrario maior est d ad a quàm d ad b c. Primū sic probatur. Ponā e b, æqualē a, multiplicabo toties e c, quod proueniat quantitas maior d sitque f g, & sumam k f, ita multiplicē b e, & similiter h ita multiplicē a, sicut f g est multiplex e c, eritq̃ per primā huius k g, ita multiplex b c: sicut f g, est multiplex e c, erit etiā h æqualis k f: propter hoc quod earum submultiplices que sunt a & b e, positæ sunt æquales. Ponā quoq̃ quod h nō sit minor d, sed æqualis aut maior. toties enim multiplicabo unā quanq̃ triū quantitatū e c, b e, & a, æqualiter, quod f g multiplex e c proueniat maior d, & quod h multiplex a nō proueniat minor eadē, deinde toties multiplicabo d. quod proueniat quātitas maior h, sitq̃ l, si m prima quātitas multiplicū d sit maior h, sub qua sumam maximam multiplicē d, aut sibi æqualē si m est prima in ordine multipliciū d, que sit l eritq̃ ut l, nō sit maior h, & cōstabit m ex d & l propter id quod omne multiplex cōstat ex proximo precedenti multiplici & simplo, ut triplum ex duplo & simplo excepto primo multiplici quod cōstat ex bis simplo. Quia ergo h est æqualis
+
+[Diagram: horizontal line segments k, f, g; b, e, c; a; d; l; m with division marks, in the right upper part of the paragraph]
+
+<!-- Catchword: k f -->

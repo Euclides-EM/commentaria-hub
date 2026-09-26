@@ -1,35 +1,25 @@
-# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER DVODECIMVS,
+<!-- Running title: LIBER DVODECIMVS. -->
 
-<!-- Page number: 388 -->
+<!-- Page number: 389 -->
 
-## Eucli. ex Camp. Propositio 1
+æquū habentia, qui sub β α ε ei qui sub η ζ λ, circa autē æquos angulos latera proportionalia: æquiangulū igitur est (per 1 diffinitionē sexti) α β ε triangulū, ipsi ζ η λ triangulo: æqualis igitur est angulus qui sub α ε β, ei qui sub ζ λ η. Sed qui (per 21 tertij) sub α ε β ei qui sub α μ β est æqualis (in eandem nanq̃ circūferentiam ierunt) qui autē sub ζ λ η ei qui sub ζ ν η, & qui sub α μ β igitur ei qui sub ζ ν η est æqualis. Est autē & rectus qui sub β α μ, ei qui sub η ζ ν recto (per 4 postulatū) æqualis: reliquus igitur, reliquo est æqualis (per 3 cōmunem sententiā.) Aequiangulū igitur est triangulū α μ β, ipsi ζ η ν triangulo. Proportionaliter igitur est sicut β μ ad η ν, sic β α ad η ζ. Sed ipsius quidē β μ ad η ν rationis, dupla est ea quæ ipsius β μ quadrati ad id quod ex η ν quadratū. Ipsius autē β α ad η ζ, dupla est ipsius α β γ δ ε multanguli ratio ad ipsum ζ η θ κ λ multangulū: & sicut igitur (per 11 quinti) quod ex β μ quadratū ad id quod ex η ν quadratū, sic est multangulū α β γ δ ε ad multangulū ζ η θ κ λ. In circulis igitur similia multangula, sese adinuicem habēt sicut quæ ex dimetiētibus quadrata. Quod erat ostendendū.
 
-[Margin]
-1
-[/Margin]
-
-{dropcap:O|lines=?|style=decorated|decoration="figures in a roundel amid foliage"}Mnium duarum superficierum similium multiangularū inter duos circulos descriptarū est proportio alterius ad alteram, tanquam proportio quadratorū quæ ex diametris circulorum eas circunscribentium proueniunt.
-
-CAMPANVS. Sint duo circuli a b c, d e f, quibus inscribantur duæ quælibet figuræ polygoniæ quæ ponantur adinuicem similes, sintq̃ nunc, pentagonæ inscriptæ ut docet 11 quarti, & ipsæ sint a b g h k, d e l m n, diametri quoq̃ circulorū sint a c & d f. Dico itaq̃ quod proportio pentagoni a b g h k ad pentagonū d e l m n, est sicut quadratū diametri a c ad quadratū diametri d f. Protrahātur enim in utroq̃ circulo duæ lineæ ab extremitate diametri, ad extremitatē unius lateris pentagoni diametro non cōterminalis, seinuicem cancellantes infra ipsum pentagonum: in hoc quidem, a g & c b, in illo autem d l & f e. Eritq̃ ex 6 sexti triangulus a b g, æquiangulus triāgulo d e l. Nam cum pentagoni ponantur ad inuicem similes, erunt ex diffinitione similium superficierū angulus a b g æqualis angulo d e l, & latera ipsos continētia proportionalia, uidelicet, proportio a b ad d e, sicut b g ad e l. Cum sint autem ex 20 tertij duo anguli a c g & a g b sibi inuicē æquales, itemq̃ duo alij d f e & d l e sibi inuicem æquales, erunt duo qui sunt c & f adinuicē æquales ex hac communi sciētia, quæ æqualibus sunt æqualia, sibi quoq̃ æqua esse necesse est. Et quia ex prima parte 30 tertij uterq̃ duorū angulorum a b c, d e f, est rectus, sequitur ex 32 primi duos triāgulos a b c, d e f, esse æquiangulos. Quare per 4 sexti proportio diametri a c ad diametrū d f, est sicut lateris a b ad latus d e. Cum itaq̃ ex secunda parte 18 sexti, proportio duorū pentagonorū est sicut proportio lateris a b ad latus d e proportio duplicata, & per eandem proportio quadrati diametri a c ad quadratū diametri d f, sit sicut diametri a c ad diametrū d f duplicata, per hanc cōmunem scientiam quorū dimidia sunt æqualia, ipsa quoq̃ adinuicem esse æqualia, manifestum est quod propositum est.
-
-[Diagram: circle with inscribed pentagon a b g h k — a at top, b upper left, k upper right, g lower left, h lower right, c at bottom; diameter a c, with lines a g and c b crossing within the pentagon]
-
-[Diagram: smaller circle with inscribed pentagon d e l m n — d at top, e left, n right, l lower left, m lower right, f at bottom; diameter d f, with lines d l and f e crossing]
-
-## Eucli. ex Zamb. Theorema 1 Propositio 1
+## Eucli. ex Camp. Propositio 2
 
 [Margin]
-1
+2
 [/Margin]
 
-{dropcap:Q|lines=?|style=decorated|decoration="foliate ornament"}Væ in circulis similes multangulæ figuræ, adinuicem se habent sicut quæ ex dimetientibus quadrata.
+{dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duorū circulorū est proportio alterius ad alterū, tanq̃ proportio quadrati suæ diametri ad quadratū diametri alterius.
 
-THEON ex Zamb.
+CAMPANVS. Sint duo circuli a b & c d, quorum diametri quoq̃ dicātur a b & c d. Dico itaq̃ ꝗ porportio{printer-error-correction:porportio} circuli a b ad circulum c d, est sicut quadrati diametri a b ad quadratū diametri c d. Manifestū enim est ex hac cōmuni sciētia, scilicet, quanta est quælibet magnitudo ad aliquā secundā, tantam necesse est esse quālibet tertiam ad aliquā quartā, ꝗ proportio quadrati diametri a b ad quadratū diametri c d, est sicut circuli a b ad superficiē aliquā quæ sit e, cuiuscūq̃ figuræ aut formæ ponatur. Hanc autē impossibile est maiorem esse aut minorem circulo c d. Si enim est possibile ipsam esse minorem circulo c d, sit itaq̃ minor in superficie f. Itaq̃ circulus c d, sit æqualis duabus supficiebus e & f pariter acceptis. Constat igitur ex 1 decimi, ꝗ toties possit ex circulo c d, suisq̃ residuis subtrahi maius dimidio, quousq̃ relīquatur quātitas aliqua minor f. Inscribatur ergo sibi ut docet 6 quarti, quadratū c d g h, de quo constat ꝗ ipsum sit maius medietate circuli: quadratū enim quod est duplum ad ipsum, est circulum circūscribens, ut patet ex penultima primi & 7 quarti. Si igitur portiones circuli existentes super latera quadrati pariter acceptæ, fuerint minus superficie f, sufficit. Sin autē quatuor arcus existētes super dicta latera per æqualia diuidantur, & puncta ipsos arcus diuidentia cum extremitatib. laterū continuētur per lineas rectas. Verbi gratia, arcus c g diuidatur per æqualia in puncto k, & protrahātur lineæ k c, k g, sicq̃ de cæteris. Eritq̃ quilibet triangulorū descriptorū super latera quadrati, maior medietate portionis in qua existit, eo ꝗ omnis triangulus isosceles est medietas parallelogrāmi suæ basis per 41 primi, quodquidem parallelogrammū maius erit superficie ipso arcu chordaq̃ contenta. Sint itaq̃ portiones existentes super latera octogonij inscripti pariter acceptæ, minus superficie f. Si enim nondū hoc esset, nō cessarem diuidere arcus (quorū latera ultimæ descriptæ figuræ sunt chordæ) per æqualia, & inscribere figurā æquilaterā duplo plurium laterū primæ, semper subtrahendo ab ipsis circuli portionibus, maius dimidio, quousq̃ per 1 decimi, portiones super latera alicuius talis figuræ circulo inscriptæ existentes pariter acceptæ, erunt minus superficie f. Sint ergo nunc quæ dictæ sunt, eritq̃ ex cōceptione octogonū c d, maius supficie e. In circulo igitur a b, eadē uia inscribatur simile octogonū quod dicatur a b, sitq̃ ex præmissa porportio{printer-error-correction:porportio} octogoni a b ad octogonū c d, sicut quadrati diametri a b ad quadratū diametri c d, ideoq̃ per 11 quinti sicut proportio circuli a b ad superficiem e, itaq̃ pmutatim polygonij a b ad circulū a b, sicut polygonij c d ad superficiē e. Cumq̃ sit polygoniū c d maius supficie e, erit polygoniū a b maius circulo a b, hoc autem impossibile. Non est ergo superficies e, minor, circulo c d. Sed nec maior. Esto enim si possibile sit. Cum igitur sit proportio quadrati diametri a b ad quadratū diametri c d, sicut circuli a b ad superficiē e, erit econuerso quadrati diametri c d ad quadratū diametri a b, sicut superficiei e ad circulū a b. Et constat ex cōmuni scientia in principio huius demōstrationis posita, ꝗ eadem est circuli c d ad aliquā superficiē quæ sit f, eritq̃ ex 14 quinti superficies f, minor circulo a b. Itaq̃ proportio quadrati diametri c d ad qua-
 
-Sint circuli α β γ δ ε, ζ η θ κ λ, & in eis sint similes figuræ multangulæ α β γ δ ε, ζ η θ κ λ, dimetientes autem circulorū, sint β μ, η ν. Dico qd̄ est sicut quadratū quod ex β μ ad id quod ex η ν quadratum, sic est multangulū α β γ δ ε ad multangulū ζ η θ κ λ. Connectantur enim β ε, α μ, η λ, ζ ν. Et quoniā multangulum α β γ δ ε ipsi ζ η θ κ λ multangulo simile est, æquus est & qui sub β α ε angulus ei qui sub η ζ λ, estq̃; sicut β α ad α ε, sic η ζ ad ζ λ. Bina iam triangula sunt β α ε & η ζ λ, unum angulū uni angulo
+[Diagram: circle with vertical diameter a b (a at top, b at bottom), with inscribed square and inscribed octagon]
 
-[Diagram: circle with inscribed pentagon ζ η θ κ λ — η at top, θ left, κ lower left, ν at bottom left on the circle, λ at bottom, ζ at right; diameter η ν, with lines η λ and ζ ν drawn]
+[Diagram: circle with inscribed square c g d h (c at top, g at left, d at bottom, h at right) and inscribed octagon; k marks the midpoint of arc c g, with lines k c, k g drawn]
 
-[Diagram: larger circle with inscribed pentagon α β γ δ ε — β at top, γ upper left, δ lower left, μ at bottom, ε at bottom right, α at right; diameter β μ, with lines β ε and α μ drawn]
+[Diagram: two rounded oblong surfaces, labelled f and e]
 
-<!-- Catchword: æquum -->
+<!-- Signature: K 3 -->
+
+<!-- Catchword: dratum -->

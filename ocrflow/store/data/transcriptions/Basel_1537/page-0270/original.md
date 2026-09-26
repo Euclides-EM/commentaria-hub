@@ -1,35 +1,45 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Page number: 260 -->
 
-<!-- Page number: 259 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-CAMPANVS Hæc 14 ex cōtrario antecedentis præmissæ infert contrarium consequentis præmissæ,& non differt eius dispositio à dispositione illius,sed & modus argumentandi utrobiqʒ idem. Si enim a d non communicet cum d b,nec d f sibi adæqualis communicabit cum eadem d b.itaqʒ per 9 d f non communicabit cum f b,quare neque a f,sunt enim a f & d f communicātes tanquā numerās & numeratū, ideo neqʒ a b cōmunicabit cum linea f b. Quod si hoc fuerit uidelicet si a b non communicet cū f b,nō cōmunicabit cum a f, quare neqʒ cum a d aut d f, neqʒ igitur a b cum d a. Potest quoqʒ hæc 14 demōstrari per præmissam,prima pars huius ex secunda illius,& secūda ex prima,à destructiōe consequentis. Si enim a d & d b nō communicent,nec etiā a b & f b communicabunt,nam si a b & b f communicarent,oporteret per secūdam partem præmissæ ut a d communicaret cum d b,sed positum est quod non. Eodem modo de secunda parte,si enim b a & b f non communicant,nec a d & d b communicabunt. nam si sic, sequitur per primam partem præmissæ,ut a b & b f communicent quæ non communicant:quare patet propositum.
+## THEON Lemma.
 
-[Diagram: rectangle divided by a vertical line near its left end, labeled e at top; below it, a horizontal line with points a, d, f, b marked; beneath, a second line labeled c]
+Quoniam ostensum est quod quæ longitudine commēsurabiles omnino etiam potentia sunt commensurabiles,quæ autem potentia non omnino etiam longitudine,sed uidelicet,possunt & longitudine commensurabiles esse & incommensurabiles,manifestum quod si positæ rationali commensurabilis aliqua fuerit longitudine,rationalis appellatur,& ei commensurabilis non solum longitudine uerum & potentia, quæ enim lōgitudine commensurabiles,omnino & potentia.Si autem positæ rationali commensurabilis aliqua fuerit potentia, siquidem & longitudine dicitur,etiam rationalis & ei commensurabilis longitudine & potentia.Quæ uero expositæ rursus rationali commensurabilis existens potentia,longitudine fuerit ei incommensurabilis,dicitur sic rationalis,potentia tantum commensurabilis.Procli scholion.Rationales appellat,expositæ rationali longitudine & potentia commensurabiles,aut potentia tantum.Sunt autem aliæ quoque rectæ lineæ quæ longitudine incommensurabiles sunt expositæ rationali,potentia uero tantum commensurabiles,& id propterea rursus appellantur rationales,commensurabiles adinuicem quatenus rationales.Sed commensurabiles adinuicem uel non solum potentia ueruntamen & longitudine,uel potentia tantum,& si longitudine quidem,& ipsæ rationales longitudine commensurabiles,audito quod & potētia.Si uero potentia tantum adinuicem sunt commēsurabiles:appellantur & ipsæ rationales potentia tantum commensurabiles.Quod autem rationales commēsurabiles sunt,hinc certum est. Quoniam enim rationales sunt quæ expostæ{printer-error-correction:expositæ} rationali sunt commensurabiles,quæ uero eidem commensurabiles & adinuicem sunt commensurabiles(per 12 decimi,)quæ rationales igitur,sunt commensurabiles.
 
-## Eucli.ex Zamb. Theorema 15 Propositio 18 Præcedentis conuersa.
-
-[Margin]
-18
-[/Margin]
-
-Si fuerint binæ rectæ lineæ inæquales.quartæ autem parti eius quod ex minore æquum ad maiorem comparetur deficiens forma quadrata, & in incommensurabilia ipsam diuiserit longitudine, maior minore maius potest eo quod ex sibi incommensurabili longitudine. Et si maior minor maius potuerit eo quod ex sibi incommensurabili,quartæ autem ipsius quod ex minore æquū , ad maiorem comparatum fuerit deficiēs forma quadrata,in incommensurabilia longitudine ipsam dispescit.
-
-THEON ex Zāb. Sint binæ rectæ lineæ inæquales α & β γ,quarū maior sit β γ,quartæ autem parti eius quod ex α,ad ipsam β γ,æquale comparetur deficiens forma quadrata,sitq́ʒ quod sub β δ, & δ γ. Incōmensurabilis autem esto β δ,ipsi δ γ. Dico quod β γ.quàm ipsa α maius potest,eo quod à sibi incōmensurabili. Ipsis nāq́ʒ dispositis ut in præmissa,similiter demōstrabimus,quod β γ quàm ipsa α,maius potest eo quod ex δ ε. Demonstrādum igitur quod incōmensurabilis est β γ,ipsi δ ζ lōgitudine. Quoniā enim incommensurabilis est β δ ipsi δ γ,incommensurabilis igitur est (per 16 decimi,)β γ ipsi γ δ,longitudine. Sed ipsa δ γ commensurabilis est utriq́ʒ & β ζ & δ γ simul,quia β ζ ipsi δ γ est æqualis,& β γ,igitur (per 13)ipsis β ζ & δ γ incommensurabilis est, & perinde (per 16 decimi,)& reliquæ ζ δ,incommensurabilis est β γ longitudine. Et ipsa β γ quàm α maius potest,eo quod ex ζ δ,Igitur ipsa β γ, quàm α, maius potest eo quod à sibi cōmensurabili longitudine. Possit iam rursus β γ maius quàm α,eo quod à sibi incōmēsurabili,quartæ autē parti eius quod ex α,æquale ad ipsam β γ cōparetur deficiēs forma quadrata,& esto id quod sub β δ & δ γ. Demonstrādū quod incōmensurabilis est β δ ipsi δ γ lōgitudine. Eisdē namq́ʒ dispositis,similiter demōstrabimus,quod ipsa β γ quàm α maius potest eo quod ex ζ δ. Sed iā (per hypothesin,) ipsa β γ quàm α maius potest eo quod à sibi incommensurabili. Incōmensurabilis est igitur β γ ipsi ζ δ longitudine. Quare (per 16 decimi,)& reliquæ β ζ & δ γ utriq́ʒ,incōmensurabilis est β γ. Sed utraq́ʒ β ζ & δ γ,ipsi δ γ commensurabilis est longitudine. Igitur (per 13 decimi,)β γ ipsi δ γ incōmensurabilis est lōgitudine,quare & diuidendo,β δ,ipsi δ γ incōmēsurabilis est lōgitudine. Si binæ igitur rectæ lineæ,& reliqua quæ sequuntur,quod erat demonstrandum.
-
-[Diagram: horizontal line with points marked, labeled from left to right β, ζ, ε, δ, γ; from its middle a long vertical line extends downward, labeled α at its middle]
-
-## Eucli.ex Camp. Propositio 15
+## Eucli.ex Zamb. Theorema 16 Propositio 19
 
 [Margin]
-15
+19
 [/Margin]
 
-{dropcap:O|lines=?|style=decorated|decoration="ornamental"}Mnis superficies rectāgula quā continēt duæ lineæ in lōgitudine rationales,rationalis esse probatur.
+Sub rationalibus longitudine commensurabilibus rectis lineis iuxta aliquem prædictorum modorū comprehensum rectāgulum rationale est.
 
-CAMPANVS Sint duæ lineæ a b & b c cōtinentes superficiē rectāgulā a c,rationales in longitudine, dico superficiē a c esse rationalē,descripto enim quadrato cuiusuis earū,ut c d lineæ b c,erit per primā sexti c d ad a c, sicut b d ad a b. Quia igitur b d cōmunica in longitudine cū a b ex hypothesi,eo quod b c sua æqualis,erit per primā partē decimæ.c d cōmunicās a c. Cū sit itaque c d rationalis per diffinitionē,erit & a c rationalis,quod est propositū.
+THEON ex Zāb. Sub ratiōalibus enim lōgitudine cōmensurabilibus rectis lineis α β,& β γ,rectangulum comprehendatur α γ.Dico quod α γ,rationale est. Describatur enim(per 46 primi,)ex α β,quadratū α δ,ratiōale igitur est α δ.Et quoniā cōmensurabilis est α β,ipsi β γ,longitudine,æqualis autē est α β,ipsi β δ, commensurabilis est igitur β δ,ipsi β γ longitudine,estque sicut β δ,ad β γ,sic est δ α ad α γ.Commensurabilis autem est β δ ipsi β γ,commensurabile igitur & δ α, ipsi α γ:rationale autem δ α,rationale igitur(per 11 decimi,est & α γ. Quod sub rationalibus commensurabilibus igitur lōgitudine,& reliqua oportuit ostendiße.
 
-[Diagram: rectangle divided by a vertical line at its middle, labeled c at top; below the base, the labels a, b, d]
+[Diagram: rectangle divided by a vertical line into two compartments; labels: δ above the left corner, β above the divider, γ above the right corner (faintly printed), α below the base at the divider]
 
-<!-- Signature: y 4 -->
+## Eucli.ex Camp. Propositio 16
 
-<!-- Catchword: THEON -->
+[Margin]
+16
+[/Margin]
+
+{dropcap:C|lines=?|style=decorated|decoration="ornamental"}Vm adiuncta fuerit lineæ in longitudine rationali superficies rationalis rectangula.latus eius secundum erit in longitudine rationale,lateriq́ʒ primo in longitudine commensurabile.
+
+CAMPANVS Hæc est quasi conuersa prioris. Vt si superficies a c adiuncta ad lineam ab rationalē in longitudine,fuerit ratiōalis, dico quod latus eius secundum quod est b c erit etiam rationale in longitudine,& communicans inter primo.Sit enim a d quadratum a b,eritq́ʒ rationale ex diffinitione.& propter hoc erit communicās cum superficie a c rationali.Quia igitur per primam sexti sicut a d ad a c ita est etiam d b ad b c, comunicat autem d a cum a c,erit per primam partem decimæ b d communicans cum b c.ergo cum b a sua æquali. Sed b a,rationalis est, quare per diffinitionem & b c.Constat itaque propositum.
+
+[Diagram: tall rectangle divided at its middle by a horizontal line; labels: d at the top right corner, a and b at the ends of the dividing line (a left, b right), c at the bottom right corner]
+
+## Eucli,ex Zamb. Theorema 17 Propositio 20
+
+[Margin]
+20
+[/Margin]
+
+Si rationale ad rationalem comparatum fuerit,latitudinem efficit rationalem,commensurabilēq́ʒ ei ad quam comparatur longitudine.
+
+THEON ex Zamb. Rationale enim α γ,ad rationalē iuxta aliquē prædictorum modorū α β,comparetur,latitudinem efficiens β γ.Dico quod rationalis est β γ.& cōmensurabilis ipsi β γ{printer-error-correction:β α} longitudine.Describatur enim(per 46 primi)ex α β,quadratum α δ.Rationale igitur(per 9 diffinitionem decimi)est α δ,rationale autem & α γ,cōmensurabile igitur(per cōuersionem 10 diffinitionis est δ α,ipsi α γ.Estq́ʒ sicut δ α ad α γ,sic est δ β,ad β γ commensurabilis igitur est(per 11 decimi,)δ β,ipsi β γ.Aequalis autem est δ β,ipsi β α, commensurabilis igitur est α β.ipsi β γ.Rationalis autē est α β, rationalis igitur est(per conuersionē 7 diffinitionis.)& β γ,& commensurabilis ipsi β α,longitudine.Si rationale igitur ad rationalem comparatum fuerit,& quæ sequūtur reliqua,quod erat ostendendum.
+
+[Diagram: rectangle divided by a vertical line into two compartments; labels: α above the divider, δ below the left corner, β below the divider, γ below the right corner]
+
+<!-- Catchword: Subse -->

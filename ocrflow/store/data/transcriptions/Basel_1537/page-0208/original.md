@@ -1,63 +1,27 @@
-<!-- Running title: LIBER SEPTIMVS -->
+<!-- Page number: 198 -->
 
-<!-- Page number: 197 -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-CANPANVS Huius sensus est, quod omnis numerus numeratus a ternario: habet tertiam, & numeratus a quinario: habet quintam sicq̃ de cæteris ut si b numeret a, erit in a pars denominata a b, nūeret enim ipsum, quoties unitas in c, eritque per 16 ut c quoque toties numeret a, quoties unitas in b, quare tota pars est c,a: quota unitas b, & quia unitas est pars omnis numeri ab ipso denominata per communem scientiam: erit c pars a, denominata a b, quod est propositum.
+per 16 & prædictam communem scientiam a,b,c,d,uiceuersa partes l dictæ ab m,n,p,q, quare non erat e minimus quem numerāt a,b,c,d,quod est inconueniens.
 
-[Diagram: dotted number lines beside the text: unitas · / c··· c·· / a······]
+CAMPANI *annotatio*. Habito minimo,si cura est habere secundum, aut quotūcunque libet,si secūdum quidemsum,e duplū minimi,si tertiū,triplū,& ad hunc modū in alijs. Cum enim omnis multiplex ipsius e numeretur ab a,b,c,d,per hanc communē scientiā omnis numerus numerans alium,numerat omnem numeratū ab illo:necesse est per 37 ut omnis multiplex e habeat partes denominatas ab a,b,c,d,si itaque duplus e,nō fuerit secundus habens partes propositarū denominationū,erit alius,quē sicut sequitur esse maiorem e,sic sequitur esse minorem duplo,& quia illum numerant a,b,c,d,per 38:sequitur per correlarium 36 quod e numeret eūdem, quod est impossibile,cum enim numeret se:numeraret per hanc cōmunē scientiam,omnis numerus numerans totū & detractū:numerat residuum,differentiam illius ad se,quæ cum sit minor eo,maior numerus numeraret minorem,quod esse non potest.Sequitur itaque duplum e,esse secundum numerū habentem propositarum denominationum partes.Similiter quoque argues triplum e esse tertium:probato duplo esse secūdum,alioqui quia esset triplo minor & duplo maior:sequeretur e numerare aliquem inter ipsius duplum & triplum,quod ut prius patet,est impossibile:probato autem triplo esse tertium:ad huius similitudinem probabis quadruplum esse quartum,& sic in cæteris.
 
-## Eucli. ex Zamb. — Theorema 34 — Propositio 39
+[Diagram: five dotted number lines beside the text, labelled l, m, n, p, q, of decreasing length]
 
-[Margin]
-39
-[/Margin]
+## CAMPANI additiones.
 
-## Si numerum aliquis numerus metiatur, mensus cognominatam partē habebit metienti.
+## Minimum numerum habentem partes propositarum denominationum sumptarum continue, reperire.
 
-THEON ex Zamb. Nuuerum{printer-error-correction:Numerum} enim α, numerus aliquis β, metiatur. Dico quod α, cognominatam partem habet ipsi β. Quoties enim β, ipsum α metitur, tot unitates sint in γ. Quoniam β, ipsum α, metitur per eas quæ in γ, sunt unitates, metitur autem & δ, unitas ipsum γ, per eas quæ in eo sunt unitates, æque igitur (per 15 septimi,) δ, unitas ipsum γ, numerum metitur, & β. ipsum α. Vicissim igitur (per eandē,) æque δ unitas ipsum β metitur numerū, γ, ipsum α. Qualitatis igitur pars est δ, unitas ipsius β, nūeri talis pars est & γ, ipsius α. At δ, unitas pars est ipsius β ei cognominata, & γ, igitur ipsius α, pars est cognominata ipsi β. Quare α, partem habet γ cognominatam ipsi β, quod erat demonstrandum.
+Vt minimum numerum habentem secundam quæ secunda habeat tertiam, quæ etiam tertia habeat quartam,aut qualitercunque contingat eas ab eisdem uel diuersis denominari.Multiplicare oportet denominatorem primæ partis in denominatorem secundæ,& ex eis productum in denominatorem tertiæ, productum quoque in denominatorem, sicque de cæteris usque ad ultimam,a prima,uel usque ad primam ab ultima,& qui prouenerit:erit qui inquiritur,ut proposito 60 uel 84. Hoc autem ita esse demonstratiue sic habeto. Sint numeri partes propositas denominantes a,b,c,uolumus inuenire minimum numerum qui habeat partē denominatam ab a,ita quod illa pars habeat partem denominatā a b,sed & hæc aliā dictam a c.Ducatur itaque c in b,& proueniat e,& e in a, & proueniat f,eū dico esse quem quærimus. Cum enim f proueniat ex a in e,erit e pars f dicta ab a,sed & propter hoc erit c pars e dicta a b,& quia unitas est pars c dicta ab ipso c,patet f habere partes ut proponitur. Si ergo f non fuerit minimus:sit g,sitq̃ h pars eius dicta ab a & K pars h dicta a b,l quoque pars k dicta a c,eritq̃ per 18,f ad g,ut e ad h & e ad h,ut c ad K,itēq̃ c ad K,ut unitas ad l,quare permutatim f ad c,ut g ad h,& e ad c,ut h ad k,& c ad unitatē:ut k ad l,ergo per 15,erit in proportione æqualitatis f ad unitatē,ut g ad l,ergo permutatim erit f ad g:ut unitas ad l,quare cū g sit minor f,erit l minor unitate,sequitur igitur impossibile:partē numeri,minorē esse unitate:erit itaque f minimus,habēs partes ut proponitur. Quo inuento si cura fuerit habere secūdum aut quotūcūq̃ libet,per minimi multiplices(ut prius dictum est)sumendi erunt. hoc autem 39 proponitur in alio secundum hunc modum.
 
-[Diagram: dotted number lines beside the text: α············ / β···· / γ··· / δ·]
+[Diagram: dotted number lines beside the text: f (longest); e; then in one row c, b, a (short) with "unitas" and a single dot below; then g, h, K, l of decreasing length]
 
-## Eucli. ex Camp. — Propositio 38
+## Propositis partibus quotiscunquelibet, minimum numerum eas continentium inuenire.
 
-[Margin]
-38
-[/Margin]
+[Diagram: dotted number lines beside the text: a "tertia" d (3 dots); b "quinta" e (5 dots); c "sexta" f (6 dots); g (long); h (long)]
 
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I numerus aliquis partem quotamcunque habeat, numerabit ipsum numerus ad illam partem dictus.
+Vt si partes propositæ sint a,b,c,sintq̃ eas denominantes d,e,f,& sumatur minimus quē numerant d,e, f,qui sit g.hūc dico esse quem quærimus, erunt enim in eo propositæ partesper 37,qui si nō fuerit minimus eas continens:sit ergo h, quem numerabunt d,e,f,per 38 igitur non erit g minimus numeratus ab eis,quod est inconueniens,quia minimus erat:
 
-CAMPANVS Hæc est cōuersa præmissæ: cuius est intētio, quod omnis numerus habens tertiam, numeratur a ternario, & habens quintam, à quinario, sicque de cæteris, ut si b sit pars a denominata a c, sequitur ut c nūeret a, quia enim b est pars a denominata a c, sed & unitas est pars c denominata ab ipso c per conceptionem, sequitur ut quoties unitas numerat c, toties b numeret a, itaque per 16 quoties unitas b, toties c, numerat a, quare constat propositum. Aliter idem. Cum sit b pars a, sit tota unitas c, eritque per hanc communem scientiam, unitatem esse partem omnis numeri ab ipso denominatam c, denominans b in a: & quia est b in a quoties unitas in c, euidenter sequitur propositum per 16,
+CAMPANI *annotatio*. Intelligo uero partes a,b,c,indeterminate poni,non sub quantitate certa,aliter enim non esset necessarium ut minimus numerus quem numerant d,
 
-[Diagram: dotted number lines beside the text: unitas · / b·· c··· / a······]
-
-## Eucli. ex Zamb. — Theorema 35 — Propositio 40
-
-[Margin]
-40
-[/Margin]
-
-## Si numerus partem habuerit quamlibet, eum numerus cognominatus parti, metietur.
-
-THEON ex Zamb. Numerus inquam α, partem habeat quamlibet β, & ipsi β, parti cognominatus sit numerus γ. Dico quod γ, ipsum α, metitur. Quoniam enim β, ipsius α, pars est cognominata ipsi γ, est autem & δ unitas ipsius γ, pars cognominata ei: qualis igitur pars est δ, unitas ipsius γ, numeri: talis pars est & β ipsius α, æque igitur δ unitas ipsum γ numerum metitur: & β, ipsum α. Vicissim igitur (per 15 septimi,) æque δ, unitas ipsum β numerum metitur: & γ ipsum α, & γ igitur ipsum α metitur quod erat demonstrandum.
-
-[Diagram: dotted number lines beside the text: α········ / β···· / γ·· / δ·]
-
-## Eucli. ex Camp. — Propositio 39
-
-[Margin]
-39
-[/Margin]
-
-## {dropcap:N|lines=?|style=decorated|decoration="ornamental"}Vmerorum minimum, propositarum denominationum habentem partes inuenire.
-
-CORRELARIVM
-
-Ex quo manifestū est, quod minimus numerus numeratus à quotlibet, est minimus habens partes denominatas ipsis.
-
-CAMPANVS. Sint a,b,c,d denominantes partes propositas. & e minimus numeratus ab eis sumptus secundum 36. Ipsum e dico esse quem quærimus Sint enim secundū quos numerant ipsum f,g,h,k: eritq̃ per 16 & hāc cōmunem scientiam, unitas est pars omnis numeri ab ipso dicta, ut uiceuersa f,g,h,k, numerent e secundum a,b,c,d, quare sunt partes eius ab illis dictæ: est igitur e habens partes propositarum denominationum. Minimus etiā, quoniam si alter fuerit ut l, sint partes l dictæ ab eis m,n,p.q: erūtq̃
-
-[Diagram: dotted number lines beside the text: e············ / a··· f······ / b··· g···· / c····· h··· / d······ k··]
-
-<!-- Signature: r 3 -->
-
-<!-- Catchword: per -->
+<!-- Catchword: e,f,esset -->

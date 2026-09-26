@@ -1,29 +1,23 @@
-<!-- Page number: 462 -->
+<!-- Running title: LIBER DECIMVSQVARTVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 463 -->
 
-latus trigoni icosedri ab eadem sphæra circūscripti, item proportio cunctarū superficierū dodecedri ad cunctas superficies icosedri quæ ambo eadem sphæra circūscribit, & rursus proportio lineæ potentis super quamlibet lineam diuisam secundū proportionē habentē medium duoq́ⱼ extrema, & super eius maiorem portionē ad lineam potentem super eandem & super eius minorē portionē, itaq́ⱼ iterum proportio corporis dodecedri ad corpus icosedron quæ ambo una eademq́ⱼ sphæra coercet, est proportio una. Mirabilis itaq́ⱼ est potentia lineæ secundū pportionē habentem medium duoq́ⱼ extrema diuisæ. Cui cum plurima philosophantiū admiratione digna cōueniant, hoc principiū uel præcipuū ex superiorū principiorū inuariabili procedit natura, ut tam diuersa solida tum magnitudine tum basium numero tum etiā figura, irrationali quadam symphonia rationabiliter conciliet. Quippe demonstratū est q̃ proportio dodecedri corporis ad icosedron corpus quæ ambo sphæra una coambit, est quasi proportio lineæ potentis super quamlibet lineam secundū præfatam proportionē diuisam & super eius maiorē partem, ad quamlibet lineam potentē super eandem & eius minorē partem. Quoniam uero de tribus cæteris corporibus regularibus nihil adhuc diximus, studeamus de ipsis aliquid dicere.
+## Eucli. ex Camp. Propositio 14
 
-## Eucli. ex Camp. Propositio 11
+14 SI tetrachedron & octoedron una eademq́ⱼ sphæra circūscribat, erit una ex basibus tetrachedri sesquitertia ad unam ex basibus octoedri. Omnes autē bases octoedri pariter acceptas ad omnes bases tetrachedri pariter acceptas, sesquialterā proportionē habere necesse est.
 
-11 IN omni triangulo æquilatero si ab uno angulorū eius perpendicularis ad basin ducatur, latus eiusdem trianguli ad ipsam perpendicularem potentialiter sesquitertiū esse conueniet.
+CAMPANVS. Sit aliqua sphæra cuius diameter a, circūscribens pyramidē cuius latus b, & octoedron cuius latus c. Dico itaq́ⱼ quod triāgulus æquilaterus cuius latus b, sesquitertius est ad triangulū æquilaterū cuius latus c, & quod superficies quā componunt octo trianguli æquilateri cuiusq́ⱼ quorum est latus c, sesquialtera est ad superficiem quam componunt quatuor trianguli æquilateri cuiusq́ⱼ quorū est latus b. Constat enim ex correlario 13 tredecimi, quod quadratū a ad quadratū b, est sicut 6 ad 4, igitur econuerso quadratum b ad quadratum a, sicut 4 ad 6. Ex correlario uero 15 eiusdem manifestū est, quod quadrata a ad quadratū c, sicut 4 ad 2. Itaq́ⱼ per æquam proportionalitatē quadratum b ad quadratum c, sicut 4 ad 3. Quadratū autem b ad quadratum c, est sicut trigonus æquilaterus cuius latus b, ad trigonum æquilaterum cuius latus c, utrobiq́ⱼ enim est sicut b ad c proportio duplicata ex secunda parte 15 sexti, igitur trigonus æquilaterus cuius latus b, ad trigonum æquilaterū cuius latus c, sicut 4 ad 3. Quare constat prima pars propositi. Ex quo euidenter elicitur secūda. Erit enim per conuersam proportionalitatē trigonus æquilaterus cuius latus c, ad trigonum æquilaterum cuius latus b, sicut tria ad quatuor, ideoq́ⱼ octuplum trigoni æquilateri cuius latus c, ad quadruplum trigoni æquilateri cuius latus b, est sicut octuplum ternarij ad quadruplū quaternarij, hoc autem sicut 24 ad 16. Et quia octuplum trigoni æquilateri cuius latus c, est omnes bases octoedri cuius latus c, & quadruplum trigoni æquilateri cuius latus b, est omnes bases pyramidis cuius latus b, & quia proportio 24 ad 16 est sesquialtera, sequitur ut superficies quam componunt omnes bases octoedri cuius latus c, ad superficiem quam componunt omnes bases pyramidis cuius latus b, sesquialtera (sicut diximus) in proportione respiciat.
 
-CAMPANVS. Sit enim triāgulus æquilaterus a b c, ducaturq́ⱼ ab angulo a, linea a d, perpendicularis ad basin. Dico q̃ b a est potentialiter sesquitertiū ad a d. Sunt quidem ex 8 primi, duo anguli b & c æquales. Et quia anguli ad d sunt recti, erit per 26 primi, linea b c diuisa per æqualia in puncto d. Itaq́ⱼ ex 4 secūdi quadratū b c, quadruplū ad quadratū b d, ideoq́ⱼ etiam quadratū a b, q̃druplū est ad quadratū b d, est enim triangulus æquilaterus. Quare per penult. primi, quadrata duarū linearū a d ⁊ b d pariter accepta, quadruplū sunt ad quadratū b d. Itaq́ⱼ quadratū a d, triplū est ad quadratū b d. Constat ergo propositū.
+[Diagram: three horizontal lines of decreasing length labelled a, b, c]
 
-[Diagram: equilateral triangle with apex a at top, base b d c, perpendicular a d]
+## Eucli. ex Camp. Propositio 15
 
-## Eucli. ex Camp. Propositio 12
+15 PYramide quatuor basium triangulariū atq́ⱼ æquilaterarū intra sphæram quamlibet collocata, si à quolibet angulorum eius per centrum sphæræ recta linea ad basin ducatur, in centrum circuli basin circūscribentis eam cadere, atque eidem basin perpendiculariter insistere necessario comprobatur.
 
-12 OMnis trigonus æquilaterus cuius est latus rationale, superficies medialis esse probatur.
+CAMPANVS. Sit pyramis a b c d, quatuor basium triangulariū atq́ⱼ æquilaterarū, intra sphæram aliquam cuius centrū sit f, collocata, & cùm quilibet quatuor angulorum istius pyramidis possit esse conus eius, & quilibet quatuor triangulorū esse basis, imaginemur nūc eius solidum angulū a esse conū, & triangulū b c d imaginemur esse basin, atq́ⱼ huic basi intelligamus circūscriptū esse circulum b c d, dehinc à pūcto a quem imaginati sumus conum pyramidis, ducamus ad basin b c d, lineam rectam transeuntē per punctum f, qui est centrum sphæræ circūscribentis pyramidē de qua disputamus, & occurrat hæc linea superficiei b c d quam imaginati sumus basin pyramidis, super punctū e. Dico igitur q̃ punctū e est centrū circuli b c d, & q̃ linea a f e est perpendicularis ad superficiem b c d. Producā enim lineas f b, f c, f d. Et quia quatuor puncta a, b, c, d, sunt in superficie sphæræ cuius centrum f, propter hoc q̃ illam sphæram positum est circūscribere hanc pyramidē, erunt omnes quatuor lineæ f a, f b, f c, f d, adinuicē æquales, sunt enim ductæ à centro sphæræ ad eius superficiem. Ergo quia duo latera a f & f b triāguli a f b,
 
-CAMP. Sit ut prius, triangulus a b æquilaterus, & sit latus eius a b rationale siue in longitudine siue in potentia tantum. Dico itaq́ⱼ q̃ ipse triangulus est superficies medialis. Ducatur enim perpēdicularis a d à b, angulo a, ad basin, eritq́ⱼ ex præmissa & ex 6 decimi, & diffinitiōe supficiei rationalis, quadratū lineæ a d rationale, & linea a d rationalis in potentia. Ipsa autē ex ultima parte decimæ mediante præmissa erit incōmensurabilis lineæ a b, ideoq́ⱼ & linea b d, quæ est tanq̃ eius dimidiū. Sunt itaq́ⱼ duæ lineæ a d & b d rationales, potētialiter tantum cōmunicantes, igitur ex 19 decimi, superficies unius earū in alterā est medialis. Cumq́ⱼ superficies unius earū in alterā sit æqualis trigono a b c, constat uerū esse quod diximus.
+[Diagram: pyramid a b c d with apex a at top; circle circumscribing base b c d; points f and e inside; lines from a through f and e to the base]
 
-[Diagram: equilateral triangle with apex a at top, points b left, e bottom centre, c right, d inside on the perpendicular]
+<!-- Signature: Q 4 -->
 
-## Eucli. ex Camp. Propositio 13
-
-13 CVnctæ superficies utriuslibet duorum solidorū, quorū alterū est pyramis quatuor basium triangulariū & æquilaterarū, reliquum uero est corpus octo basium triangulariū & æquilaterarū pariter acceptæ, si diameter sphæræ ea circūscribentis rationalis fuerit, componūt superficiem medialem.
-
-CAMPANVS. Nam si diameter sphæræ alterum duorum propositorū corporum circūscribentis fuerit rationalis siue in longitudine siue in potentia tantum, erit ex correlario 12 tredecimi libri, latus pyramidis rationale in potentia, & ex correlario eiusdem 15, latus quoq́ⱼ corporis octo basium rationale in potentia, quare per præmissam, trianguli qui sunt bases utriuslibet corporis, erunt superficies mediales. Et quia trianguli utriuslibet eorum sibi ad inuicem sunt æquales, erunt ex 21 decimi, omnes superficies utriuslibet eorum pariter acceptæ componentes superficiem medialem, quemadmodum proponitur.
-
-<!-- Catchword: Eucli. ex -->
+<!-- Catchword: sunt -->

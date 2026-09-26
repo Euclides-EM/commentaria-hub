@@ -1,65 +1,39 @@
-<!-- Page number: 518 -->
+<!-- Running title: PERSPECTIVA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 519 -->
 
-æquos per planum delatos radios trāsmittit. Quare hac de causa fit ut planum rectas per phantasiam lineas relinquat, & in plano descriptam circunferentiam: planum etenim in rectas uisui lineas iacens, inuisibile siquidem est eo quia in illud nullus ab uisū emissorum radiorum cadit, at illius finis spectatur, quæ linea est. Inquit enim quod eo quia in uisu linea manet, quæ reliquis plani partibus adiecta inuisibile planum efficit. Eadem quoque causa asseritur de plano in rectas lineas posito ad oculum, efficit nāq́ rectas lineas relinquere phantasiam, circunferentiarūq́ in eodē plano ad oculum expositarum apparere, ut maior pars appareat quando plures uisus emittuntur, æqualis uero quando æquales, minor autē quando minores, fiunt uisibus sicut anguli quidem ad oculum.
+## Theorema tertium.
 
-## Suppositio prima.
+{dropcap:E|lines=?|style=decorated|decoration="woodcut"}Orum quæ spectantur unumquodque longitudinem interualli habet aliquam, qua aduentante, non amplius spectatur.
 
-Supponatur ab oculo uisus emissos in rectas lineas ferri, interuallūq́ quoddā inuicem efficientes, & sub uisibus figuram comprehensam esse conum uerticem habentem ad oculum, basim uero ad fines rerum uisarum.
+Sit, inquam, oculus n, spectatū uero c d, sitq́ in aliqua distantia, nō amplius spectabitur, fiat nāq́ c d, inter uisuū interuallū in quo κ igitur ad k nullus ab ipso b uisus procidet, id uero ad quod uisus non addunt non spectatur. Eorū igitur quæ spectantur unūquodq́ longitudinem distantiæ habet nō aliquam, qua aduentante, amplius spectatur.
 
-## Suppositio secunda.
+[Diagram: point κ above a horizontal line d–e; rays converging downward to the eye b]
 
-Ea uidentur ad quæ uisus perueniunt.
+## Theorema quartum.
 
-## Suppositio tertia.
+{dropcap:A|lines=?|style=decorated|decoration="woodcut"}Equalibus interuallis, in eadē recta linea existētibus, quæ ex pluri distantia spectantur minora apparent.
 
-Ad quæ uisus non perueniunt, ea non spectantur.
+Sint, inquā, æqualia b c, c d, d f, oculus uero sit k, ex quo ꝓcidant uisus k b, k c, k d, & k f, & k b, ad rectos subsistat angulos ipsū b f, quoniam igitur in rectāgulo κ b f æquales sunt b c, c d: d f, maior est quidem angulus e angulo g & g angulꝰ ipso angulo h: maius igitur apparet b c ipso c d & c d ipso d f.
 
-## Suppositio quarta.
+[Diagram: horizontal line with points b, c, d, f; rays from κ below to each point; angle labels e, g, h between successive rays near κ]
 
-Sub maiori angulo spectata: maiora apparent.
+## Theorema quintum.
 
-## Suppositio quinta.
+{dropcap:A|lines=?|style=decorated|decoration="woodcut"}Equales magnitudines inæqualiter expositæ inæquales apparent, & maior semper ea quæ propius oculum adiacet.
 
-Sub minori angulo minora uidentur.
+Sit æqualis c d ipsi k l, oculus uero sit b a, quo procidant uisus b c, b d, b k, & b l, d igitur, c sub maiori spectatur angulo quam ipsa k l: maior igitur apparet c d ipsa k l.
 
-## Suppositio sexta.
+[Diagram: shorter line k–l above, wider line c–d beneath it, rays from all endpoints converging downward to the eye b]
 
-Aequalia uero uidentur quæ æqualibus angulis spectantur.
+## Theorema sextum.
 
-## Suppositio septima.
+{dropcap:P|lines=?|style=decorated|decoration="woodcut"}Arallela interuallo in distantia spectata inæqualis latitudinis apparent.
 
-Quæ sub sublimioribus radijs spectantur: sublimiora apparent.
+Sit, inquam, b c ipsi d f parallelū interuallum, oculus uero sit k. Dico quod b c, & d f inæquali latitudine appareāt, & maius, inquam, propius interuallum remotiore, procidant nempe radij x k, k p, k b, k d, k n, & k l, & connectantur rectæ lineæ x l, p n, & p d. Quoniam igitur angulus q̃ sub x k l, maior est eo angulo qui sub p k n, maius igitur apparet ipsum x l ipso p n, atq́ id propterea n p, recta linea maior apparet ipsa b d, recta linea non amplius spectabuntur parallela interualla, sed minora, & inæqualis latitudinis, parallela igitur interuallorum ex distantia inæqualis latitudinis apparent. Sic nempe in eodem plano spectato fuerit oculus sic, esto enim k, & excitetur per undecimam undecimi elementorum, ab ipso k ad subiectum planum perpendicularis k a: ab ipso autem a in f ipsa a m, per duodecimam primi elementorum: & extendatur per secundum postulatum in o, procidantque radij k b, k g, k f, k d, k n, & k l, & connectantur, per primum postulatum k m, k x, & k o. Quoniam igitur ab ipso k, sublimi in ipsum m annectitur k m, perpendicularis igitur est in ipsam m l, per duodecimam primi elementorum: similiter iam & k x, in ipsa g n, & ipsa k o, in ipsa b d. Igitur triāgula k m l, k x n, k o d, rectāgula sunt, & æqua
 
-## Suppositio octaua.
+[Diagram: two vertical parallel lines d–f (left) and b–e (right); horizontal lines d–b at top, n–p and l–x between them; eye κ at bottom between f and e with rays fanning upward to the labeled points]
 
-Quæ uero sub humilioribus radijs uidentur, humiliora apparent.
+<!-- Signature: X 2 -->
 
-## Suppositio nona.
-
-Et similiter quæ sub dexterioribus spectantur radijs, dexteriora apparent.
-
-## Suppositio decima.
-
-Quæ uero sub sinisterioribus radijs spectantur: sinisteriora uidentur.
-
-## Suppositio undecima.
-
-Quæ sub pluribus angulis spectantur: expeditius uidentur.
-
-## Theorema primum.
-
-{dropcap:E|lines=?|style=decorated|decoration="woodcut"}Orum quæ sub aspectum cadunt quicquā simul totum aspici minime potest.
-
-Sit nāq́ uisile{printer-error-correction:uisibile} quoduis a d, oculus uero sit b, à quo procidant uisus b a, b c, b κ, b d. igitur quoniam in interuallo feruntur uisus procidentes uisus non prociderent continui ad a d, quare fient quoque & ad a d, interualla, ad quæ uisus non ueniunt ea non spectantur per 3 suppositionem: totū igitur a d, simul minime spectabitur uidetur autem simul spectari uisibus celerrime delatis.
-
-[Diagram: horizontal line with points a, e, κ, d; rays from each point converging downward to the eye b]
-
-## Theorema secundum.
-
-{dropcap:A|lines=?|style=decorated|decoration="woodcut"}Equalibus magnitudinibus interuallo positis, propius positæ euidentius spectantur.
-
-Sit oculus b, quod autē spectatur sit c d, & k l oportet, inquā, ipsa æqualia esse propius uero sit c d, procidantq́ uisus b c, b d, b κ, & b l, non utique dixerimus quod ab ipso b, oculo ad ipsam k l procidentes uisus ueniant per c d, signa, fuerit namque triangulū, b k l, & b c d, ipsum k l, maius quàm ipsum c d, arqui{printer-error-correction:atqui} positum est quod & æquale. igitur sub pluribus uisibus spectatur c d, quàm κ l, euidentius igitur apparebit c d, quàm k l.
-
-[Diagram: horizontal line with points c, κ, l, d; rays from all four points converging downward to the eye b, forming nested triangles]
+<!-- Catchword: lis -->

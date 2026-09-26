@@ -1,39 +1,37 @@
-<!-- Running title: LIBER DECIMVS. -->
+<!-- Page number: 282 -->
 
-<!-- Page number: 281 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-itaque superficies e est irrationalis, & eius latus tetragonicum quod est a c, ut in præmissis, quare constat propositum. Si autem duplũ superficiei a b in b c non essei{printer-error-correction:esset} incommensurabile ambobus quadratis pariter acceptis, esset rationalis in potentia tantum incõmensurabilis in longitudine lineæ d e, per 19 igitur esset superficies e h medialis, eiusque latus tetragonicum quod est a c, linea medialis.
+ctum quod diuidit totam lineam per æqualia.
 
-## Eucli. ex Zamb. Theorema 29 Propositio 41
+Sit linea a b diuisa per duo inæqualia in pũcto c, itemq̃ per alia minus inæqualia in pũcto d, rursus per æqualia in e. Dieo{printer-error-correction:Dico} quo{printer-error-correction:quod} quadrata duarũ partiũ magis inæqualiũ quæ sunt a c & c b, tãtũ sunt amplius duobus quadratis duarũ linearũ minus inæqualiũ quæ sunt a d & d b, quantũ est duplũ quadrati lineæ c d & quadruplũ eius quod fit ex c d in d e Sunt enim per 9 secundi quadrata duarũ linearũ a c & c b, pariter accepta dupla quadratis duarũ linearũ b e & e c pariter acceptis. At per eandẽ 9 secũdi quadrata duarũ linearũ a d & d b pariter accepta, dupla sunt quadratis duarũ linearũ b e & e d pariter acceptis. Itaque quadrata duarũ linearũ a c & c b pariter accepta excedunt quadrata duarũ linearũ a d & d b pariter accepta, in eo quo duplum quadrati lineæ c,{printer-error-correction:c e} excedit duplũ quadrati lineæ d e, hoc autem. per 4 secũdi est duplũ quadrati lineæ c d, & quadruplum eius quod fit ex e d in d c, quare constat propositum. Ex hoc manifestũ est quod quãto fuerint sectiones alicuiꝰ lineæ magis inæquales, tãto erũt earũ quadrata pariter accepta, maiora. & hoc est, propter quod istud præmisimus.
 
-[Margin]
-41
-[/Margin]
+[Diagram: horizontal line with points a, c, d, e, b]
 
-Si binæ rectæ lineæ potentia incommensurabiles compositæ fuerint, efficientes compositum ex earum quadratis mediũ, quod uero sub ipsis medium. & insuper incommẽsurabile composito ex earum quadratis tota recta linea irrationalis est, uocatur autem bina potẽs media.
-
-THEON ex Zamb. Componantur enim binæ rectæ lineæ potẽtia incõmẽsurabiles α β, β γ, efficientes cõpositũ ex ijs quæ ex α β, β γ, mediũ, quodq̃ sub ipsis α β, β γ, mediũ, & insuper incõmensurabile cõposito ex ijs quæ ex α β, β γ, quadratis, Dico quod α γ irrationalis est. Exponatur ratiõalis δ ζ{printer-error-correction:δ ε}, cõpareturq̃ (per 44 primi, ad ipsam δ ε, ipsis quidem quæ ex α β, β γ, æquum δ ζ, ei uero quod bis sub α β, β γ, æquum η θ, totum igitur δ θ æquum est ei quod ex α γ quadrato. Et quoniam compositum ex ijs quæ ex α β, β γ, medium est, ac est æquale ipsi δ ζ, medium igitur est & δ ζ, & ad ipsam δ ε rationalem comparatur, rationalis igitur est δ η, & ipsi δ ε, longitudine incõmensurabilis. Ac (per 24 decimi ( η κ, rationalis est & ipsi η ζ, incommensurabilis, hoc est ipsi δ ε longitudine. Et quoniam incommensurabilia sunt quæ ex α β, β γ, ei quod bis sub α β, β γ, incommensurabile est δ ζ ipsi η θ, quare & δ η ipsi η θ{printer-error-correction:η κ}, (per 1 sexti & 11 decimi,) incõmensurabilis est suntq̃ rationales, ipsæ igitur δ η, η κ, rationales sunt, potentia tãtum commensurabiles. Irrationalis igitur est δ κ, (per 36 decimi,) appellata ex binis nominibus. Rationalis autem δ ε, irrationale igitur est δ θ, & illud potens irrationalis est, potest autem ipsum δ θ. ipsa α γ, irrationalis igitur est α γ, uoceturq̃ bina potẽs media. Appellat uero ipsam bina potentem media, eo quia ipsa potest duas medias areas aliam compositam ex ijs quæ ex α β, β γ, & aliã quæ bis sub ipsis α β, β γ, quod erat ostendendum.
-
-[Diagram: horizontal line with points α, β, γ; below it a rectangle with upper corners δ and κ, lower corners ε and θ, divided by a vertical line η ζ into two rectangles δ ζ and η θ; tick marks on the left side δ ε]
-
-CAMPANVS Vt autem facilior fiat doctrina sequentium, præmonstrãda arbitramur hoc loco duo quorum primum est.
+## Eucl. ex Camp. Propositio 36
 
 [Margin]
-1
+36
 [/Margin]
 
-Si aliqua linea per duo inæqualia diuidatur, quadratum ambarũ sectionum pariter accepta tanto amplius sunt duplo superficiei unius earum in alteram, quãtũ est quadratum eius lineæ qua maior excedit minorem.
+{dropcap:I|lines=?|style=decorated|decoration="ornamental"}N alias duas lineas sub earum termino ex quibus coniũctum & nominatum est binomium, diuidi impossibile est.
 
-Sit enim linea a b d diuisa per duo inæqualia in puncto c, sitq̃ maior portio c b. de qua sumatur c d æqualis a c. Dico quod quadrata duarũ linearũ a c & c b sunt amplius duplo superficiei unius in alterã. in quadrato lineæ d b, nam quod fit ex a c in c b bis, cũ quadratis duarũ linearũ a c & c b, est æquale ei quod fit ex a c in c b quater, cũ quadrato d b. eo quod utraque hæc æqualia sunt quadrato lineæ a b, primũ quidem per quartã secũdi, secundũ uero per 8 eiusdẽ. Dẽptis itaq̃ utrinq̃ æqualibus, uidelicet eo quod fit ex a c in c b bis erunt residua quæ sunt de primo quidem quadrata duarũ linearũ a c & c b. de secũdo uero quod fit ex a c in c b bis cũ quadrato d b, æqualia, quare cõstat propositũ. Ex hoc ergo manifestum est quod si aliqua linea per duo inæqualia diuidatur, quadrata ambarũ partium pariter accepta plus sunt duplo superficiei unius earũ in alterã. Et hoc est, propter quod istud præmisimus.
+CAMPANVS Sit a b binomiũ, eritq̃ ex 30 cõposita ex duabus lineis in potẽtia tantũ rationalibus cõmunicantibus, quæ sint a c & c b. Dico quod impossibile est eam diuidi in alias duas lineas sub hac diffinitione uidelicet quod ipsi sint potentia tantum rationales communicãtes. Si enim potest, diuidatur in a d & d b, quæ sint potentia rationales tantũ cõmunicantes. Esto quoq̃ linea e f rationalis in longitudine. cui adiũgatur superficies e g quæ sit æqualis quadratis duarum linearum a c & c b pariter acceptis, & superficies f h quæ sit æqualis quadrato lineæ a b. Eritq̃ superficies c g{printer-error-correction:e g}, rationalis, eo quod utrumq̃ quadratorum linearũ a c & c b pariter acceptorum est ratiõale per hypothesin & superficies g h medialis per 19, quoniã ipsa est æqualis duplo superficiei a c in c b per 4 secundi. Sit igitur rursus superficies f k æqualis quadratis duarũ linearũ a d & d b pariter acceptis quæ cũ sint diuersæ à duabus lineis a c & c b, erit per secũdum prædemõstratorum antecedentiũ superficies f k diuersa a superficie e g, earum ergo differẽtia sit k g, eritq̃ per 4 secũdi excessus superficiei f h, super f k qui sit k l, æqualis duplo eius quod fit ex a d in d b, & propter hoc erit etiã superficies f k rationalis, & superficies k l medialis. Itaq̃ superficies k g cũ ipsa sit differentia duarum superficierum rationalium quæ sunt e g & f k, erit rationalis. Nõ enim differt rationale à rationali, nisi in rationali. & hoc dico, diffinitione & 9 huius hoc cõfirmantibus. Eadẽ quoq̃ cum ipsa sit differentia duarum superficierum medialium quæ sunt g h & k l, erit irrationalis per 22, quod est impossibile.
 
-[Diagram: square on the line a b, divided by vertical and horizontal lines through the points c and d into a grid, with a diagonal drawn from a; points a, c, d, b along the base]
+[Diagram: horizontal line with points a, d, c, b; below, a tall rectangle on the rational line e f, divided by horizontal lines into strips; points b, k, e on the left side, l, g, m, f on the right side]
 
-[Margin]
-2
-[/Margin]
+Quod autẽ prædictæ irratiõales solummodo diuiduntur in eas rectas lineas ex quibus componuntur efficientibus propositas species, ostendemus iam huiusmodi proponentes lemmatium.
 
-Si aliqua linea per duo inæqualia, itẽque alia duo inæqualia diuidatur, quadrata magis inæqualium pariter accepta tanto sunt amplius quadratis minus inæqualium pariter acceptis, quãtum est duplum quadrati illius lineæ quæ in utrasq̃ est sectiones, & quadruplum eius quod fit ex eadem linea in eam quæ est inter punctum sectionis minus inæqualium & pun
+## THEON — Lemma.
 
-<!-- Signature: A 3 -->
+Exponatur recta linea α β, seceturq̃ tota in inæqualia in utrunque signorũ γ δ, supponaturq̃ maior α γ quàm δ β. Dico quod quæ ex α γ, β γ, maiora sunt eis quæ ex α δ, δ β. Secetur enim (per 10 primi) α β, bifariã in ε, & quoniã maior est α γ, quã δ β, cõis auferatur δ γ. Reliqua igitur α δ, reliqua γ β, maior est, æqualis aũt est α ε, ipsi ε β, minor igitur est δ ε quã ε γ, igitur γ & δ signa, nõ æqualiter distãt à bifaria sectiõe, Et quoniã (per 5 secũdi) quod sub α γ, γ β, una cũ eo quod ex γ ε, æquum est ei quod ex ε β, at quod sub α δ, δ β, una cum eo quod ex δ ε, æquum est ei quod ex ε β, igitur quod sub α γ, γ β, una cum eo quod ex ε γ, æquũ est ei quod sub α δ, δ β, una cum eo quod ex δ ε, quorũ quod ex δ ε, minus est eo quod ex ε γ, & reliquũ igitur quod sub α γ, γ β, minus est eo quod sub α δ, δ β. Quare & quod bis sub α γ, γ β, minus est eo quod bis sub α δ, δ β, & reliquũ igitur cõpositũ ex ijs quæ ex α γ, γ β, maius est composito ex ijs quæ fiunt ex α δ, δ β, siquidem utraq̃ æqualia sunt ei quod ex α β, quod ostendere oportuit.
 
-<!-- Catchword: ctum -->
+[Diagram: horizontal line with points α, δ, ε, γ, β]
+
+## Eucli. ex Zãb. Theorema 30 Propositio 42
+
+Quæ ex binis nominibus, ad unũ duntaxat signũ diuiditur in nomina.
+
+THEON ex Zamber. Sit ex binis nominibus α β, diuisa in nomina in c{printer-error-correction:γ}, igitur ipsæ α γ, γ β, rationales sunt
+
+<!-- Catchword: potentia -->

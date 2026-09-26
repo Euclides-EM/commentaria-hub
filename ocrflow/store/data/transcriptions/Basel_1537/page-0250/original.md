@@ -1,41 +1,47 @@
-<!-- Running title: LIBER NONVS. -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 239 -->
+<!-- Page number: 240 -->
 
-CAMPANVS. Sit a numerus par cuius dimidium b, sitq̃ c numerus impar qui numeret a, dico quod c numerabit b, numeret enim a secūdum d, eritq̃ per 31, d numerus par. Esto igitur eius dimidiū, e, ducaturq̃ c in e, & proueniat f, eritq̃ per 15 septimi, a ad f, sicut d ad e, & quia etiam est a ad b, sicut d ad e, sequitur b & f esse æquales, cum itaq̃ c numeret f, idem numerabit b, quod est propositū.
+## Eucli. ex Zamb. Theorema 32 Propositio 32
 
-[Diagram: dotted lines labelled a, b, c at left and f, e, d at right]
+**32** A binario duplorum unusquisq̃, pariter par est tantum.
 
-## Eucli. ex Zamb. Theorema 30 Propositio 30
+THEON ex Zamberto. A binario enim α, duplicentur quotcunq̃ numeri β,γ,δ. Dico quod ipsi β,γ,δ, pariter pares sunt tantum. Quod quidem unusquisq̃ pariter par est, manifestum est à binario enim est duplicatus. Dico quod & tantum. Exponatur unitas ε. Quoniam igitur ab unitate quotlibet numeri continue proportionales sunt, qui autem post unitatem α primus est, maximum ipsorum α, β, γ, hoc est ipsum δ nullus metitur præter ipsos α, β,γ, (per 13 noni.) Est autem unusquisq̃ ipsorum α,β, γ, pariter par. Igitur δ pariter par est tantum. Similiter iam ostendemus, quod & unusquisque ipsorum α, β, γ, pariter par est tantum, quod oportuit ostendere.
 
-**30** Si impar numerus parem numerum mensus fuerit, & eius dimidium metietur.
+[Diagram: dotted lines labelled δ, γ, β, α, with a single dot labelled unitas]
 
-THEON ex Zamb. Impar enim numerus α, parem numerum β metiatur. Dico quod & eius dimidium metietur. Nam quoniam α ipsum β metitur, ipsum metiatur per γ. Dico quod γ non est impar. Si enim possibile, sit impar. Et quoniam α metitur ipsum β per γ, igitur α ipsum γ multiplicans, ipsum effecit β. Igitur β componitur ex imparibus numeris, quorum multitudo impar est. Igitur β impar est, quod est absurdum, supponitur enim par. Igitur impar non est, par igitur est γ. Quare α ipsum β metitur pariter, & γ igitur ipsum β metitur per α: habet autem uterq̃ ipsorum γ,β, partem dimidiam, est igitur sicut γ ad β, sic dimidium ad dimidium: metitur autem γ, ipsum β per α, & dimidium ipsius metietur ipsius β dimidium per α, igitur α, dimidium multiplicans ipsius γ dimidium ipsius β efficit. Igitur α ipsius β dimidium metitur, metiturq́; per ipsius γ dimidium. Idq́; propterea α ipsius dimidium metietur, quod ostendere oportuit.
+## Eucli. ex Camp. Propositio 36
 
-[Diagram: dotted lines labelled α, γ, β]
+**36** {dropcap:N|lines=?|style=decorated|decoration="foliate ornament"}Vmerus cuius medietas est impar, est pariter impar.
 
-## Eucli. ex Camp. Propositio 34
+CAMPANVS. Sit a numerus, cuius medietas quæ sit b, sit impar. Dico a, esse pariter imparem. Sit enim c binarius, manifestum itaque, quoniam ex c in b fit a. Sit autem d quilibet numerus par numerans a, qui numeret eum secundū e, eritq̃ per secundam partem 20 septimi, e ad b, sicut c ad d. Igitur e numerat b, quia c numerat d. Eritq̃ itaq̃ e numerus impart{printer-error-correction:impar}, erat enim & b, per diffinitionem igitur a est pariter impar.
 
-**34** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numerus impar ad aliquem fuerit primus, idem ad eiusdem duplum erit primus.
+[Diagram: dotted lines labelled a, b, c; at right, shorter dotted lines labelled b and d]
 
-CAMPANVS. Sit a numerus impar primus ad b, cuius duplum sit c. Dico quod a est primus ad c, sin autem, numeret eos d. Cumq̃ a sit impar, sequitur d esse imparem, quicunq̃ enim impar parem numerat, pari numero cum numerabit per 31, per præmissam itaq̃ a numerabit b, non sunt igitur a & b contra se primi, quod est contra hypothesin.
+## Eucli. ex Zamb. Theorema 33 Propositio 33
 
-[Diagram: dotted lines c, a, b; solid line d at right]
+**33** Si numerus dimidium imparem habuerit, pariter impar est tantum.
 
-## Eucli. ex Zamb. Theorema 31 Propositio 31
+THEON ex Zamberto. Numerus enim α, dimidium habeat imparem. Dico quod α pariter impar est tantum. Quod quidem pariter impar, est manifestum: eius nanque dimidius impar existens, eum pariter metitur (per diffinitionem.) Dico quod & tantum. Si enim α pariter par est, & eius dimidius par est (per diffinitionem:) metietur igitur eum par numerus, per parem numerum. Quare & dimidium eius metietur (per 39 numerus) par, impar existens, quod est absurdum. Igitur δ{printer-error-correction:α} pariter impar est tantum, quod oportuit ostendere.
 
-**31** Si impar numerus ad numerum aliquem primus fuerit, & ad ipsius duplum primus erit.
+[Diagram: dotted line labelled α]
 
-THEON ex Zamb. Impar enim numerus α, ad numerum aliquem β, primus esto, ipsi is{printer-error-correction:ipsius} autem β, duplus esto γ. Dico quod α ad γ primus est. Si autem α,γ, non sunt primi, metitur eos aliquis numerus, metiatur, & esto δ: est autem impar numerus, α, impar igitur & δ. Et quoniam δ impar existens ipsum γ metitur, est autem & γ par, igitur δ metietur ipsius γ dimidium (per præcedentem) Dimidium autem ipsius γ, est β, igitur δ ipsum β metitur. metitur autem & α. Igitur δ, ipsos α,β, metitur primos adinuicem existentes, quod est absurdum. Igitur α ad γ primus est. Ipsi igitur α,γ, primi sunt adinuicē, quod erat ostendendum.
+## Eucli. ex Camp. Propositio 37
 
-[Diagram: dotted lines α, β, γ; solid line δ]
+**37** {dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnis numerus à duobus non duplus, cuius medietas est par, est pariter par & impariter.
 
-## Eucli. ex Camp. Propositio 35
+CAMPANVS. Sit numerus a, non duplus a duobus, cuius medietas quæ sit b, ponatur par: dico ipsum esse pariter parem & impariter. Sit enim c binarius, de quo manifestum est quod ipse numerat a secūdum b: quia uero a non est duplus a duobus, necesse est si eius medietas quæ est b, in alias duas medietates diuidatur, medietatisq̃ medietas in alias duas, ut tandem occurrat numerus impediēs diuisionem, qui propter hoc quod diuisionem non recipit, erit impar, sitq̃ is in quo sistit diuisio, d. In numero quippe necesse est stare, quia si usq̃ ad unitatem perueniret diuisio, esset a de numeris duplis a binario, de quibus nō est. de d uero manifestum est quod & ipse numerat a per hanc cōmunem scientiā. Omnis numerus alium numerat omnem numeratū ab illo. Numeret ergo eum secundum e, eritq̃ e, par, alioquin cum d sit maior impar, sequeretur per 30 a esse imparem. Quia igitur b numerus par numerat a secundū c, qui quoq̃ est par (est enim binarius) at uero c numerus par numerat eundem secundum d qui est impar, constat ex diffinitione numerum a esse pariter parem & impariter, quod est propositum.
 
-**35** {dropcap:N|lines=?|style=decorated|decoration="foliate ornament"}Vmeri à duobus dupli, sunt pariter pares tantum.
+[Diagram: dotted lines labelled a, b, c; at right, shorter dotted lines labelled d and e]
 
-CAMPANVS. Sint unitas a,b,c,d, continue proportionales, sitq̃ a binarius. Dico ommes{printer-error-correction:omnes} eos esse pariter pares, eisq̃ secundum hanc proportionem in infinitū auctis, nullum alium esse pariter parem. De his quidem constat per diffinitionem, cum per 12 quilibet præcedens numeret quemlibet, sequentem per aliquem eorum quos omnes oportet esse pares, & nullus alius numeret aliquem eorum per 13 eo quod a qui est binarius unitatem sequens est primus. Quod autem nullus alius ab his sit pariter par, cōstat sic. Posito enim aliquo, diuidatur in duas medietates, eiusq̃ medietas in duas, & hoc toties fiat, quousque numerus aut unitas diuisionem impediat, quod necesse est euenire per ultimam petitionem. Siquidem numerus hanc prohibeat, ipse erit impar, qui cum nūmeret pariter parem positum, non erat pariter par, qui positus est pariter par. Si autem unitas, non erit is alius a continue duplis ab unitate.
+## Eucli. ex Zamb. Theorema 34 Propositio 34
 
-[Diagram: dotted lines labelled d, c, b, a, with a single dot labelled unitas]
+**34** Si numerus neq̃ à binario fuerit duplus, neq̃ dimidium imparem habuerit, pariter par est & pariter impar,
 
-<!-- Catchword: Eucli. ex -->
+[Margin]
+καταντήσομεν incidemus
+[/Margin]
+
+THEON ex Zamberto. Numerus enim α non sit à binario duplus, neq̃ dimidium habeat imparem. Dico quod α pariter par est & pariter impar, quod quidem α pariter par est, manifestum est: dimidium namq̃ non habet imparem. Dico iam quod & pariter impar est. Si enim ipsum α bifariam secuerimus, idq̃ semper efficientes, in quendam numerum * desinemus imparem, qui ipsum metietur α per parem numerum. Si enim non desinemus in quendam imparem numerum, qui per parem numerum metiatur ipsum α: ad binarium enim ueniemus, eritq̃ ipse α ex ijs qui à binario duplicati sunt, quod non supponitur.
+
+[Diagram: dotted line labelled α]

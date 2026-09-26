@@ -1,43 +1,33 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVINTVS -->
 
-<!-- Page number: 134 -->
+<!-- Page number: 135 -->
 
-## Eucli. ex Zamb. Theorema 25. Propositio 25
+e ad c,ut b ad d : eritqꝫ ex duodecima, maior proportio e ad c, quàm a ad c: quare ex prima parte decimæ,e est maior a. Itaqꝫ per primam partem octauæ, proportio e ad b,est maior quam a ad b. Et quia positum est ut sit e ad c, sicut b ad d: erit permutatim e ad b,sicut c ad d: ex duodecima igitur, maior erit proportio c ad d, quàm a ad b, sed positum erat oppositum, uerum ergo est propositum. Ostensiue quoqꝫ idem,quemadmodum in præmissa. Sumpta enim e ad b,ut c ad d : erit ex prima parte decimæ,e minor a:quia ex prima parte octauæ, maior erit a ad c, quam e ad c. Sed ex permutata proportionalitate, est e ad c,ut b ad d : igitur ex duodecima a ad c:est maior quàm b ad d,quod est propositum.
 
-[Margin]
-25
-[/Margin]
+[Diagram: five horizontal line segments in two columns, labelled a and c above, b and d below, e at bottom left]
 
-Si quatuor magnitudines proportionales fuerint, maxima earum & minima, reliquis maiores erunt.
+## 28
 
-THEON ex Zamberto. Sint quatuor magnitudines proportionales α β, γ δ, ε, ζ: sicut α β ad γ δ, sic ε ad ζ. Sit autem maxima earum α β, minima uero ζ. Dico quod ipsæ α β & ζ, ipsis γ δ & ε maiores sunt. Ponatur, inquā. (per tertiā primi) ipsi ε æqualis α η, & ipsi ζ æqualis γ θ. Quoniam igitur est sicut αβ ad γ δ, sic ε ad ζ : æqualis autem est ε ipsi α η, & ipsi ζ æqualis γ θ: est igitur sicut α β ad γ δ, sic α η ad γθ, & quoniam est sicut totum α β ad totum γ δ, sic ablatum α η ad ablatum γ θ: & reliquum igitur η β (per 19 quinti) ad reliquū θ δ, erit sicut totū α β ad totum γ δ. Maior autem est α β, quàm γ δ : maior igitur est η β, ipsa θ δ. Et quoniam æqualis est α θ ipsi ε, & γ θ ipsi ζ: igitur α η & ζ sunt æquales ipsis γ θ ε. Et quoniam si inæqualibus æqualia addantur tota inæqualia fient ( per quartam communem sententiam: cum igitur η β & θ γ sint inæquales, & η β maior sit, & ipsi quidem η β addantur α η & ζ: ipsi uero θ δ addantur γ θ & ε, producentur α β & ζ maiores ipsis γ δ & ε. Si quatuor igitur magnitudines proportionales fuerint, maxima & minima earum, reliquis maiores erunt, quod demonstrare oportebat.
+Si fuerint quatuor quantitates quarum primæ ad secundam sit maior proportio quàm tertiæ ad quartam: erit quoqꝫ coniunctim maior proportio primæ & secundæ ad secundam quàm tertiæ & quartæ ad quartam.
 
-[Handwritten]
-small stroke resembling ſ in the left margin beside the proof
-[/Handwritten]
+CAMPANVS. Sit maior proportio a ad b, quàm c ad d:dico quod maior erit totius a b ad d,quàm totius c d ad d:quia ipsa neqꝫ erit æqualis,neqꝫ minor . Si enim æqualis tunc erit disiunctim,a ad b ut c ad d. Si autem est minor,sit e b ad b,ut c d ad d:eritqꝫ ex duodecima ,maior proportio e b ad b,quàm a b ad b:itaqꝫ ex prima parte decimæ,e b,est maior quàm a b:& per conceptionem,e maior quàm a,quare ex prima parte octauæ, maior est proportio e ad b, q̄ a ad b:sed e ad b est ut c ad d per disiunctam proportionalitatem:eo quod erat e b ad b:ut c d ad d:ergo per duodecimam,c ad d,est maior q̄ a ad b:hoc autem est contra hypothesin. Idem etiam ostensiue.Cum enim propositum sit quod maior sit proportio a ad b, quàm c ad d : sit proportio e ad b, ut c ad d: eritqꝫ ex prima parte decimæ,e minor a.Ideoqꝫ ex communi scientia, e b erit minor q̄ a b:quare ex prima parte octauæ,maior erit proportio a b ad b,quàm e b ad b. At uero proportio e b ad b,est per coniunctam proportionalitatem,sicut c d ad d:positum enim est,ut sit e ad b,tanquam c ad d:igitur ex duodecima, maior est a b ad b, quàm c d ad d:quod est propositum.
 
-[Diagram: four vertical line segments with tick marks; the first labelled β at the top and α at the base with a point marked η, the second labelled δ at the top and γ at the base with a point marked θ, the third and fourth labelled ε and ζ at the base]
+[Diagram: horizontal divided line with points a and b, a diagonal line descending from e above to the point b; below it a second divided line with points c and d]
 
-Nouem sequentes propositiones quas ad 25 adiecit Campanus, nihil in Zamberto eis respondens habent : nec plures 25 in uetustioribus Euclidis exemplaribus reperiuntur : quare ex additione Campani esse uidentur.
+## 29
 
-[Margin]
-26
-[/Margin]
+Si fuerint quatuor quantitates quarum primæ & secundæ ad secundā sit maior proportio quàm tertiæ & quartæ ad quartam : erit quoqꝫ disiunctim proportio primæ ad secundam maior quàm tertiæ ad quartam.
 
-SI fuerit quatuor quantitatum proportio primæ ad secūdam maior quàm terriæ ad quartam, erit conuersim è contrario secundæ ad primam minor quàm quartæ ad tertiam.
+CAMPANVS. Sit proportio a b ad b,maior quàm c d ad d:dico quod erit disiūctim,proportio a ad b,maior quàm c ad d:alioqui erit æqualis uel minor. Quod si æqualis:erit per coniunctam proportionalitatem a b ad b,ut c d ad d. Si aūt minor,erit maior c ad d,quàm a ad b:ergo per præmissam, maior erit c d ad d,q̄ a b ad b qd' est incōueniens,quia positū est quod minor:uerū est ergo quod dicitur. Quod etiam ostensiue astruemus, hoc modo . Ponemus enim ut proportio e b ad b, sit tanquam proportio c d ad d: eritqꝫ ex prima parte 10 : e b minor quàm a b : quare ex communi scientia e est minor quàm a : minor igitur est ex prima parte 8, proportio e ad b, quàm sit a ad b : sed proportio e ad b,est sicut c ad d,ex disiuncta proportionalitate: itaqꝫ ex 12,proportio a ad b,est maior quàm sit c ad d,quod est propositum.
 
-CAMPANVS. Sit proportio a ad b, maior quàm c ad d: dico quod erit è conuerso, modo contrario minor proportio b ad a, quàm d ad c. Si enim est eadem b ad a quæ est d ad c: erit è conuerso a ad b ut c ad d: sed non est, immo maior.
+[Diagram: divided line a b above a divided line c d]
 
-[Diagram: horizontal line segments with tick marks: a longer segment labelled a and another labelled c in the first row; shorter segments labelled b and d in the second row; a short segment labelled e below]
+[Diagram: divided line with points a, e, b above a divided line with points c, d]
 
-At uero si est b ad a maior quàm d ad c, sit e ad a, ut d ad c: eritq̃ ex duodecim, e ad a minor q̃ b ad a: quare ex prima parte decimæ e est minor b. Ideoq̃ ex secūda parte s, maior erit proportio a ad e, quàm a ad b: & quia per cōuersam proportionalitatem, a ad e, sicut c ad d : erit ex duodecima, proportio c ad d maior quàm a ad b, sed erit minor, relinquitur ergo propositum. Possumus quoq̃ (si libet ) astruere propositum ostensiue: manifestum enim est ex prima parte decimæ, quod illa quantitas cuius ad b est eadem proportio quæ est c ad d, est minor a: eo quòd ponitur maior proportio a ad b quàm c ad d: illa ergo quantitas sit e: cum sit igitur proportio e ad b ut c ad d: erit è conuerso b ad e, ut d ad c. Constat autem ex secunda parte octauæ, quod proportio b ad a : minor est quàm proportio b ad e. Itaq̃ per duodecimam, proportio b ad a: est minor q̃ d ad c. Quod uoluimus.
+## 30
 
-[Margin]
-27
-[/Margin]
+Si fuerint quatuor quantitates quarum primæ & secundæ ad secundā sit maior proportio quàm tertiæ & quartæ ad quartam , erit euersim minor proportio primæ & secundæ ad primam quàm tertiæ & quartæ ad tertiam.
 
-Si fuerit quatuor quantitatum maior proportio primæ ad secundam quàm tertiæ ad quartam, erit permutatim maior proportio primæ ad tertiam quàm secundæ ad quartam.
+<!-- Signature: m 2 -->
 
-CAMPANVS. Sit hic quoq̃ proportio a ad b maior, quàm c ad d: dico quod erit permutatim maior proportio a ad c, quàm b ad d. Eadem enim non erit, quia tunc quoq̃ esset permutatim a ad b, sicut c ad d. Neq̃ minor: nam si hoc ponatur: sit itaque
-
-<!-- Catchword: e ad c, -->
+<!-- Catchword: CAMPANVS -->

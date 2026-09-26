@@ -1,37 +1,37 @@
-<!-- Running title: LIBER DECIMVS. -->
+<!-- Page number: 304 -->
 
-<!-- Page number: 303 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-ipsi α β, utraq̃ enim ipsarū est ex binis nominibus secunda. Si uero neutra ipsarum α ε, ε β, cōmensurabilis est expositæ rationali, neutra etiam ipsarū γ ζ, ζ δ, eidem erit commensurabilis, & utraq̃ tertia est. Si autem α ε ipsa ε β maius potest eo quod ex sibi incommensurabili, & γ ζ, ipsa ζ δ maius poterit eo quod ex sibi incommensurabili, & si α ε expositæ rationali commensurabilis est, & γ ζ eidem cōmensurabilis est, & utraq̃ erit quarta. Si autem ε β, & ζ δ, & erit utraq̃ quinta. Si uero neutra ipsarum α ε, ε β, & ipsarum γ ζ, ζ δ neutra commensurabilis est expositæ rationali, eritq̃ utraque sexta. Quare ei quæ ex binis nominibus longitudine commensurabilis, ex binis nominibus est, & in ordine eadem, quod erat ostendendum.
+rabiles. Fiatq̃ (per 12 sexti) sicut α β ad γ δ, sic α ε ad γ ζ, & reliqua igitur ε β ad ζ δ, reliquā (per 19 quinti) est sicut α β ad γ δ. Cōmensurabilis autem est α β ipsi γ δ longitudine, cōmensurabilis igitur est & α ε ipsi γ ζ, & ε β ipsi ζ δ, suntq̃ mediæ ipsæ α ε, ε β, mediæ igitur sunt & ε ζ, ζ δ{printer-error-correction:γ ζ, ζ δ}. Et quoniam est sicut α ε ad ε β & γ ζ ad ζ δ, ipsæ autem α ε, ε β, potentia tantum sunt cōmensurabiles, & ipsæ igitur γ ζ, ζ δ, potentia tantum sunt cōmensurabiles. Ostensum autem quod mediæ. Ipsa igitur γ δ, ex binis est medijs. Dico quod & in ordine eadem est ipsi α β. Quoniam enim est sicut α ε ad ε β, sic est γ ζ ad ζ δ. & sicut igitur quod ex α ε ad id quod sub α ε, ε β, sic quod ex γ ζ ad id quod sub γ ζ, ζ δ. Vicißim igitur (per 16 quinti) sicut quod ex α ε ad id quod ex γ ζ, sic quod sub α ε, ε β, ad id quod sub γ ζ, ζ δ. Commensurabile autem est quod ex α ε ei quod ex γ ζ. Cōmensurabile igitur & quod sub α ε, ε β, ei quod sub γ ζ, ζ δ. Si igitur rationale est quod sub α ε, ε β, & quod sub γ ζ, ζ δ, rationale est, ac per hoc est ex binis medijs prima. Si autem medium fuerit quod sub α ε, ε β, medium erit & quod γ ζ, ζ δ, & utraq̃ est secunda, ac per hoc & γ δ erit ipsi α β in ordine eadem. Quod erat ostendendum.
 
 [Diagram: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]
 
-## Eucli. ex Camp. Propositio 61
+## Eucli.ex Camp. Propositio 62
 
 [Margin]
-61
+62
 [/Margin]
 
-## {dropcap:O|lines=?|style=decorated|decoration="woodcut"}Mnis linea alterutri bimedialium commensurabilis, sub eadem specie bimedialis esse ex necessitate conuincitur.
+## {dropcap:O|lines=?|style=decorated|decoration="woodcut"}Mnis linea communicans lineæ maiori, est linea maior.
 
-CAMPANVS. Veritatem habet quod dicitur, siue in longitudine, siue etiam in potentia tantum cōmunicet aliqua linea alterutri bimedialium. Sint enim duæ lineæ cōmunicantes a & b quouis duorum modorum prædictorū, sitq̃ a bimediale primum uel secundum, dico quod etiam b est bimediale primum uel secundum, prout fuerit a. Diuiso enim a bimediali in suas bimediales portiones ex quibus componitur per 31 & 32 quæ sint c & d, b quoq̃ diuisa in e & f secundum proportionē c ad d ut docet 12 sexti, positaq̃ g superficie contenta sub c & d, & k sub e & f, & posito h quadrato d, & l, f, erit per coniunctā & euersam & permutatam proportionalitatē quemadmodū in præmissa c ad e & d ad f, sicut a ad b: sicut igitur ex positione a & b sunt cōmunicantes, siue hoc sit in longitudine siue in potentia, sic c & e, itemq̃ d & f, similiter erunt cōmunicantes. At quia c & d sunt mediales potentia tantū communicantes, sequitur ex 12 ut e & f sint etiam mediales, & ex 10 potentia tantum cōmunicantes, cum ipsæ per hypothesin sint proportionales c & d. Cumq̃ sit per primam sexti g ad h, sicut c ad d & k ad l sicut e ad f, erit g ad h sicut k ad l, & permutatim g ad k sicut h ad l. Quia igitur h est cōmunicans l, eo quod duo eorum latera quæ sunt d & f cōmunicant in longitudine uel in potentia secundum quod a & b in alterutro eorum cōmunicant, sequitur ex 10 ut g & k quoq̃ subinuicem cōmunicent: erit igitur K rationalis aut medialis prout fuerit g, ex diffinitione superficiei rationalis aut 21. In hoc enim tantum differt bimediale primū a bimediali secūdo, quod portiones bimedialis primi in quas secūdum suum terminū diuiditur, continent superficiē rationalem, bimedialis autē secundi, medialem. Si igitur a fuerit bimediale primū, erit superficies g rationalis, quare & K, & ideo b bimediale primū per 31. Quod si a fuerit bimediale secūdum, erit superficies g medialis, ob hoc etiam & K, b itaq̃ per 32 erit bimediale secundum, quare constat propositū. Idem aliter. Ad lineam rationalem c d (posita a alterutro bimedialium, & b sibi in longitudine uel potentia cōmunicante) adiungatur superficies c e æqualis quadrato a, & f g æqualis quadrato b, eruntq̃ superficies c e & f g cōmunicantes, eo quod quadrata eis æqualia quæ sunt quadrata linearum a & b sunt cōmunicantia ex hypothesi: ex prima igitur sexti & decima huius, necesse est duas lineas d e & e g esse cōmunicantes. Et quia si a fuerit bimediale primum, linea d e erit binomium secūdum per 55, ideoq̃ e g etiam binomium secundum per præmissam, quare latus tetragonicū superficiei f g (& ipsum est b) bimediale primū per 49, at uero si a fuerit bimediale secūdum linea d e erit binomium tertium per 56, ideo e g est binomium tertium pet{printer-error-correction:per} præmissam, quare & latus tetragonicū superficiei f g (& ipsum est b) bimediale secundum per 50, manifestū est igitur uerum esse quod proponitur.
+CAMPANVS. Et hæc quoq̃ ueritatē habet, si utrolibet modo cōmunicans fuerit aliqua linea lineæ maiori. Esto enim a linea maior, b uero quouis sibi cōmunicans modo, erit b linea maior. Diuisa nanq̃ a in eas portiones ex quibus constat per 33 quæ sunt c & d, & b secundum earum proportionē in e & f, positoq̃ quod g sit superficies contenta sub c & e{printer-error-correction:c & d}, & K sub e & f, & m & h sint quadrata c & d, at n & l, e & f, erit m ad h sicut n ad l, per secundam partem 15 sexti, & coniunctim m & h ad h, sicut n & l ad l, & permutatim m & h ad n & l, sicut h ad l, quia ergo h cōmunicat cum l eo q̃ d communicat cum f, aut in lōgitudine aut in potentia prout a cōmunicat cum b, sequitur ut ambo quadrata m & h pariter accepta cōmunicent cum ambobus quadratis n & l pariter acceptis. Cum itaque duo prima pariter accepta sint rationale per 33, erunt quoq̃ & duo postrema rationale per diffinitionē. At quia superficiē K necesse est esse medialē sicut g ex 21, lineasq̃ e & f esse incōmensurabiles in potentia sicut c & d ex 10, cōcluditur per 33 lineam b esse lineam quæ dicitur maior, quod est propositū. Idem aliter. Cum sit a linea maior cui b cōmunicat siue hoc fuerit in longitudine siue in potentia, sumpta linea rationali quæ sit c d, adiūgatur superficies ei c e, æqualis quadrato lineæ a, deinde f g æqualis quadrato lineæ b. Cum igitur quadrata duarū linearum a & b sint cōmunicantia ex hypothesi, erit superficies c e cōmunicans superficiei f g, ideoq̃ per primam sexti & 10 huius linea d e lineæ e g in longitudine. At quia ex 57 linea d e est binomiū quartum, erit quoq̃ per 60 linea e g binomium quartum, igitur ex 51 linea b potens in superficiem f g, est linea maior.
 
-[Diagram: rectangle divided by a vertical line into a broad left cell labelled g inside and a narrower right cell, with h at the right side; beneath the base the labels c, a, d]
+[Diagram: square labelled m inside, standing on a shallow rectangle divided into two cells labelled g (left) and h (right); beneath the base the labels c, a, d]
 
-[Diagram: shorter rectangle divided by a vertical line, with k (printed resembling l) at the left side and l at the right side; beneath the base the labels e, b (d?), f]
+[Diagram: smaller square labelled n at its left side, standing on a shallow rectangle with K at the left and l at the right; beneath the base the labels e, b, f]
 
 [Diagram: tall rectangle with g at the top right corner, divided by a horizontal line with f at its left end and e at its right end; c at the bottom left and d at the bottom right, with tick marks along the base]
 
-## Eucli. ex Zamb. Theorema 49 Propositio 67
+## Eucli.ex Zamb. Theorema 50 Propositio 68
 
 [Margin]
-67
+68
 [/Margin]
 
-## Ei quæ ex binis medijs longitudine cōmensurabilis, & ipsa ex binis est medijs, & in ordine eadem.
+## Maiori commensurabilis, eadem quoq̃ maior.
 
-THEON ex Zamb. Esto ex binis medijs α β, & ipsi α β cōmensurabilis esto longitudine γ δ. Dico quod γ δ ex binis est medijs, & in ordine ipsi α β eadem. Quoniam enim α β ex binis medijs est diuisa in medias in ε, ipsæ igitur α ε, ε β (per 37 & 38 decimi) mediæ sunt potentia tantum cōmensu
+THEON ex Zamb. Esto maior α β, & ipsi α β cōmensurabilis esto γ δ. Dico quod & γ δ maior est. Diuidatur α β in ε. Ipsæ igitur α ε, ε β (per 39 decimi) potentia sunt incōmensurabiles, efficientes quidem conflatum ex earum quadratis rationale, quod uero sub ipsis medium. Fiantq̃ eadem quæ in præcedentibus. Et quoniam est (per 2 sexti) sicut α β ad γ δ, sic est α ε ad γ ζ & ε β ad ζ δ, cōmensurabilis autem est α β ipsi γ δ, cōmensurabilis igitur est & utraq̃ ipsarū α ε, ε β, utriq̃ ipsarū γ ζ, ζ δ. Et quoniam est sicut α ε ad γ ζ, sic ε β ad ζ δ, & uicißim (per 16 quinti) sicut α ε ad ε β, sic est γ ζ ad ζ δ. Et componendo igitur (per 18 quinti) sicut α β ad ε β, sic γ δ ad ζ δ, & sicut igitur (per 22 sexti) quod ex α β ad id quod ex β ε, sic quod ex γ δ ad id quod ex ζ δ. Similiter iam demonstrabimus quod & sicut quod ex α β ad id quod ex α ε, sic quod ex γ δ ad id quod ex γ ζ. Et sicut igitur (per 11 quinti) quod ex α β ad ea quæ ex α ε, ε β, sic quod ex γ δ, ad ea quæ ex γ ζ, ζ δ. Et uicissim igitur (per 16 quinti) sicut quod ex α β ad id quod ex γ δ, sic quæ ex α ε, ε β, ad ea quæ ex γ ζ, ζ δ. Commensurabile autem est id quod ex α β, ei quod ex γ δ. Cōmensurabilia sunt igitur & quæ ex α ε, ε β, eis quæ ex γ ζ, ζ δ. Suntq̃ quæ ex α ε, ε β, simul, rationale, & quæ ex γ ζ, ζ δ, simul, rationale. Similiter autem & quod bis sub α ε, ε β, commensurabile est ei quod bis sub γ ζ, ζ δ. At quod bis sub α ε, ε β, medium est: medium igitur est & quod bis sub γ ζ, ζ δ. Ipsæ igitur γ ζ, ζ δ, potentia sunt incōmensurabiles, efficientes
 
-<!-- Signature: C 2 -->
+[Diagram: horizontal line with points α (left), ε (middle right), β (right); below it a second horizontal line with points γ (left), ζ (middle right), δ (right)]
 
-<!-- Catchword: rabiles. -->
+<!-- Catchword: conflatum -->

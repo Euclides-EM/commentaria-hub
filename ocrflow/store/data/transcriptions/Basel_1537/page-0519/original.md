@@ -1,37 +1,27 @@
-<!-- Page number: 508 -->
+<!-- Running title: SPECVLARIA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 509 -->
 
-Sit longitudo e d, oculus autem b, speculum uero conuexum a c, aspectus porro refracti in e d, sint b a, b c, reliqua uero eadem.
+d e: e f, excitetur per 11 primi elementorum perpendicularis ab ipso h in c d speculum b c, æqualis autem sit b c, ipsi c f, & rursus per eandem ab ipso a in e f, perpendicularis excitetur a f, & ipsa f a, æqualis esto f h, & per eandem ab ipso h in speculum d e, perpendicularis excitetur h k, sitq́; ipsi h k, æqualis k l, & ab ipso l in f cōnectantur l m x f, ab ipso aūt m in h cōnectatur m r h. Cōnectatur autem & a r & b x. Quoniam igitur æqualis est b c ipsi c f & qui ad c anguli recti sunt: binæ igitur b c, c q, ipsis binis f c, c q sunt altera alteri æquales, & angulus, qui sub c q, rectus existens, angulo qui sub s c q, recto existēti est æqualis per 4 postulatū, & reliqui reliquis angulis erunt æquales sub quibus æqualia latera subtenduntur per quartam primi elementorum. Angulus quidem qui ad b angulo qui ad f, & angulus x angulo t. Sed t ipsi n est æqualis per 15 primi elementorum ad uerticem enim. Quare & angulus n angulo x. Igitur uisus b x in m refringitur. Rursus quoniam æqualis est h k, ipsi k l, & qui ad k recti sunt, angulus o æqualis est ipsi p. Refringitur ergo idem uisus b x m in r, & id propterea iam & in a, quia æqualis est qui sub f r a, angulus ei qui sub e r m, similiter & in reliquis demonstrationibus. Inspice igitur ab ipso b oculo uisus a, per tria specula plana existentia c d, d e: e f.
 
-[Diagram: convex arc with point a at top and c below on the arc; d at upper right, e at left, b at lower right; rays from b touching the arc]
+[Diagram: three plane specula; a long oblique line from a at top down to the left; horizontal line with points e, m, d; below it points o and p; a vertical line through x with k and e at its top; point n and q at right; at bottom the base line with points f, a and b, c, s; small triangles at b and at r near the base]
 
-## Theorema undecimum.
+## Theorema decimumquartum.
 
-CElsitudines & crassitudines à cauis speculis quæcunq; sunt intra coincidentiam uisuum conuersa uidētur, quemadmodum in planis & conuexis speculis, quæcunque autem extra coincidentiam sicut sunt, sic & spectātur.
+ESt autem & in quibuslibet siquis constituat speculis idem inspicere, oportet autem iuxta uisum speculorum numerum polygonium æquilaterum & æquiangulum cōstituere binis lateribus excedēs specula.
 
-Sit cauum speculum a c, oculus aut sit b, uisus uero refracti sint b a, b c. eorum coincidētia: porro sit f celsitudo sit d e, & k n, & k n quidē intra f coincidētiā sit at, d e sit extra coincidentiā: igitur productis uisibus sicut in planis & conuexis speculis apparet k super m, & n super l: quare conuersæ uidētur, rursus super exteriorem coincidētiam celsitudinis apparet quidem d super g, & e super h, sicut se habet sic spectatur.
+Esto enim quod spectari debeat a, oculus autem sit b & connectatur a b & ab ipso a b, describatur polygonum æquilaterum, & æquiangulum binis lateribus excedens ipsa specula, & sit a b d polygonum, & sumatur per 1 tertij elementorum centrum circuli ipsi polygono circunscripti, & sit h, & ab ipso h, cōnectantur h c, h e, h d, h b, h a, in angulis, & proponantur specula plana ad angulos rectos. Quoniam igitur per quartum postulatum æqualis est f l, angulus ipsi n k angulo: uterque enim rectus est, quorum n ipsi l est æqualis. reliquus igitur ipsi f k est æqualis. Quare refractio ipsius b uisus erit in d, per æquos enim angulos refractiones fiunt per primum theorema. Similiter iā ostendetur quod qui ad e signa ad omnia specula uenient in a.
 
-[Diagram: concave arc at top with points b at upper left, e and d at upper right; crossing rays through points k, m, n, a inside; m, b at centre; l and g at bottom]
+[Diagram: circle circumscribing a pentagon with vertices d at top, a at right, b at bottom; centre h with radii to the vertices; letters K, n, l, c, e, f near the sides; tangent specula at the vertices]
 
-## In crassitudinibus.
+## Theorema decimumquintum.
 
-Rursus crassitudo quidem sit d e, & k h, cauū autem speculum sit a c, oculus uero sit b, uisus autem refracti sint b, & cōcurrētes in f b a, b c. igitur productis uisibus similiter k h, cōuersæ apparent, K quidem per c & h p a. Sicut est in planis & conuexis speculis ad d e, sicut ipsum quidem e. infra per a & d super c.
+ILlud idem quoque & in conuexis & in cauis speculis uideri potest.
 
-[Diagram: concave arc at left with points a at top, K inside, e and b at right, d below, f and g at lower left; crossing lines between arc and the points]
+Sit namque spectare oporteat à oculus uero sit b, & similiter describatur polygonum æquilaterum & æquiangulū a b c d e, & ad signa c d e, sint specula plana à quibus spectatur a. sicut ostensum est. adijciantur his specula aut caua aut cōuexa ad uisuum contactus. Igitur æqualis est f ipsi h, & k ipsi l, totus igitur k f æqualis est ipsi l h refringetur ergo uisus à speculo conue
 
-## Theorema duodecimum.
+[Diagram: pentagon with vertex d at top, b and l at upper right, e at upper left, c at right, t at left; circles (caua and conuexa specula) attached at the vertices; f, K at lower right, a and b at the bottom vertices, g below]
 
-OBliquæ longitudines à cauis speculis quæcunque intra coincidentiam uisuum iacent, ut sunt sic spectantur, quæcunque uero extra, conuersæ.
+<!-- Signature: V 3 -->
 
-Sint inquam, longitudines obliquæ e d, h K, cauum uero speculum sit a c. oculus autem sit b, uisus refracti & concurrentes in g sint b a d, b c e, & ipsa quidem h K, obliqua longitudo sit intra. Igitur h K iuxta naturam apparet. sicut & in planis & conuexis speculis. Sed e d, conuersa, nam ipsum quidem d, super a apparet & e super c.
-
-[Diagram: crescent-shaped concave speculum at left with point e; b at upper right, K at centre, d at right, a and g at bottom; crossing rays forming a star-like pattern]
-
-## Theorema decimumtertium.
-
-IDem spectare pluribus planis speculis est possibile.
-
-Sit quod uidendum est a, oculus uero sit b, specula autem tria sint c d,
-
-<!-- Catchword: d e: e f -->
+<!-- Catchword: xo cin -->

@@ -1,11 +1,55 @@
-<!-- Running title: LIBER TERTIVSDECIMVS -->
+<!-- Page number: 450 -->
 
-<!-- Page number: 449 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-mōstratione 14, quod e b est latus cubi & ex demōstratione 15, quod f b est latus figuræ octo basium triangulariū & æquilaterarū. Prodeat itaq̃; à puncto a linea a g perpēdicularis ad a b, & æqualis eidem a b, & iungatur g cum d, sitq̃; punctus h in quo g d secat circūferentiam semicirculi, & ducatur h k perpendicularis ad a b. Et quia g a est dupla ad a d, erit ex quarta sexti h k dupla ad k d: sunt enim duo triāguli g a d & h k d, æquianguli ex 32 primi, eo quod angulus a maioris est æqualis angulo k minoris, nā uterq̃; rectus, & angulus d, est cōis utriq̃: igitur ex 4 secūdi h k est potentia quadrupla ad k d, ergo ex penultima primi h d, est potētia q̃ncupla ad k d. Cūq̃; d b sit æqualis h d, est enim d centrum semicirculi, erit quoq̃; d b potentia quincupla ad k d. At uero cum tota a b sit dupla ad totā b d, quēadmodū a c detracta ex prima a b est dupla ad c b detractā ex secūda b d, erit ex 19 quinti c b residua primæ, dupla ad c d residuam secundæ, ideoq̃; tota b d, est tripla ad d c. Igitur quadratū b d est nocuplum ad quadratū d c. Et quia ipsum erat quincuplū tantū ad quadratū k d, erit ex secūda parte decimæ quinti, quadratum d c minus quadrato k d, ideoq̃; d c minor k d. Sitq̃; d m æqualis k d, & prodeat m n usq̃; ad circūferētiā, quæ sit perpendicularis ad a b, & iungatur n cū b. Cum igitur k d & d m sint æquales, erūt (ex diffinitiōe eius quod est aliquas lineas à centro æquid stāre) duæ lineæ h k & m n æqualiter distantes à cētro: ideoq̃; æquales ad inuicem ex secūda parte 13 tertij & ex secunda parte tertiæ eiusdē. Itaq̃; m n est æqualis m k, nā h k erat æqualis ei. At quia a b dupla est ad b d, & k m dupla ad k d, & quadratū b d quincuplum ad quadratum k d, erit ex 15 quinti quadratum a b similiter quincuplū ad quadratū k m, est enim quādratū dupli ad quadratū dupli, sicut quadratū simpli ad quadratū simpli. Ex demōstratione autē 16 manifestū est, q̃; diameter sphæræ est potētialiter quincupla ad latus hexagoni circuli figuræ 20 basium. ergo k m est tanquā latus hexagoni circuli figuræ 20 basium, nā diameter sphæræ quæ est a b, est potentialiter quincupla tam ad latus hexagoni circuli illius figuræ, quam ad k m. Rursus quoq̃; ex demonstratione eiusdem manifestū est, quod diameter sphæræ cōstat ex latere hexagoni & duplici latere decagoni circuli figuræ 20 basium. Cū ergo k m sit tanquā latus hexagoni, at uero a k sit æqualis m b, nā ipsa sunt residua æqualiū dēptis æqualibus, erit m b tanquā latus decagoni. Quia igitur m n est tanquam latus hexagoni, nam ipsa est æqualis k m, erit ex penultima primi & 10 huius, n b tanquā latus pentagoni figuræ circuli 20 basium. Et quia ex demōstratione 16 apparet quod latus pentagoni circuli figuræ 20 basium est latus eiusdem figuræ 20 basium, cōstat lineā n b esse latus istius figuræ. Diuidatur itaq̃; e b quæ est latus cubi, ab assignata sphæra circūscriptibilis, secundū proportionē habentem mediū duoq̃; extrema in pūcto p, sitq̃; maior portio eius p b. Constat igitur ex demōstratiōe præmissæ, quod p b est latus figuræ 12 basiū. Inuenta ergo sunt latera 5 præmissorū corporū ex diametro sphæræ nobis proposita: est enim a e latus pyramidis 4 basiū, e b latus cubi, f b latus octoedri, at uero n b latus icosedri, linea aut p b latus dodecedri. Quæ autē horū laterū sint maiora alijs, sic habetur cōstat enim, quod a e est maior f b, nā arcus a e est maior arcu f b. Itē f b est maior e b, & e b maior quàm n b, at uero n b dico etiā esse maiorē quàm p b. Cū enim sit a c dupla ad c b, erit ex 4 secūdi quadratū a c quadruplū ad quadratū c b. Cōstat aūt ex sc̃da p̃te correlarij 8 sexti & ex correlario 17 eiusdē, q̃; quadratum a b in triplū est ad quadratū b e. Sed per 11 sexti quadratū b e ad quadratū b c est sicut b e ad b c ex secūda parte correlarij 8 sexti. Itaque per 11 quinti quadratū b e, triplū est ad quadratū c b. Et quia quadratū a c quadruplū est ad idē quadratū, ut ostēsum est, ex prima parte 10 quinti quadratū a c maius est quadrato b e, ideoq̃; linea a c maior est linea b e, ideoq̃; a m, multo maior b e. Manifestū uero ex 9 huius, quod si linea a m diuisa fuerit secundum proportionem habentē mediū duoq̃; extrema, erit maior portio eius linea k m quæ est æqualis m n. At uero cū b e diuiditur secundum eandem proportionē uidelicet habentē mediū duoq̃; extrema, maior eius portio est linea p b. Cum itaque a m tota sit maior totā b e, erit m n quæ est æqualis maiori portioni a m, maior quā p b quæ est maior portio b e. Hoc autem mani
+festum est ex 2 decimiquarti, quæ sine auxilio alicuius earum quæ sequuntur firma demonstratione solidatur: ergo per 15 primi a fortiori n b, maior est quàm p b. Quare patet latera horum corporum præmissorum fere eo ordine quo corpora seinuicem sequuntur: seinuicem excedere. In cubo enim dūtaxat & octoedro habet hic instantias, nam latus octoedri excedit latus cubi, quamuis cubus antecedat octoedron. Cubum autem præmittunt idcirco octoedro, quia eadē diuisione diametri, assignatæ sphæræ, latus pyramidis 4 bases triangulas habentis, & latus cubi inuenitur. Est igitur a e latus pyramidis, maius lateribus cæterorum corporū, post ipsum autē, est f b latus octoedri maius sequentium corporū lateribus. Tertio ordine sequitur in magnitudine e b, latus cubi. Quarto uero loco est n b latus icosedri. Minimū autem est omniū p b, latus dodecedri.
 
-[Diagram: semicircle on diameter a b with centre d; the perpendicular a g erected at a (equal to a b), the line g d cutting the arc at h; perpendiculars h k, e c, f d, n m let fall on a b; chords from a and b to the arc points e, f, h, n; base points labeled a, k, d, c, m, b, with g above]
+## Eucli. ex Zamb. — Problema 6. Propositio 18
 
-<!-- Signature: P 3 -->
+[Margin]
+18
+[/Margin]
 
-<!-- Catchword: festum -->
+Latera quinque figurarum exponere, & adinuicem comparare.
+
+THEON ex Zamb. Exponatur datæ sphæræ diameter α β, seceturq́; in γ, ut α γ ipsi γ β sit æqualis, & in δ, ut α δ ipsius δ β dupla sit, & super α β describatur semicirculus α ε β, & ab ipsis γ, δ, (per 11 primi) ad angulos rectos excitentur ε γ, ζ δ, & cōnectātur α ζ, ζ β, ε β. Et quoniā dupla est α δ ipsius δ β, tripla igitur est α β ipsius β δ. Cōuertendo igitur (per correlariū 19 quinti) sesqualtera est β α ipsius α δ. Sicut aūt β α ad α δ, sic quod ex β α ad id quod ex α ζ, æquiangulum enim est α ζ β triangulum, ipsi α ζ δ triangulo, sesqualterum igitur est quod ex β α eius quod ex α ζ. Est autem & ipsius sphæræ diameter, potentia sesqualtera lateris pyramidis, & est α β ipsius sphæræ diameter, ipsius igitur pyramidis latus est α ζ.
+
+[Margin]
+Latus pyramidis
+[/Margin]
+
+Rursus quoniam dupla est α δ ipsius δ β, tripla igitur est α β ipsius β δ. Sicut autē α β ad β δ, sic quod ex α β ad id quod ex β ζ, triplū igitur est quod ex α β eius quod ex β ζ. Est autem & sphæræ diameter, potētia tripla lateris ipsius cubi (per 15 decimitertij,) & est α β sphæræ diameter, ipsius igitur cubi latus est β ζ.
+
+[Margin]
+Latus cubi.
+[/Margin]
+
+Et quoniā æqualis est α γ ipsi γ β, dupla igitur est α β ipsius β γ. Sicut autē α β ad β γ, sic quod ex α β ad id quod ex β ε. Duplū igitur est quod ex α β eius quod ex β ε, est aūt & ipsius sphæræ diameter, potentia dupla lateris octahedri (per 14 decimitertij,) & est α β datæ sphæræ diameter, ipsius igitur octahedri latus est ε β.
+
+[Margin]
+Latus octahedri.
+[/Margin]
+
+Excitetur iā (per 11 primi) ab ipso α signo ipsi α β rectæ lineæ ad angulos rectos, α η. Ponaturq́; α η æqualis ipsi α β, & cōnectatur η γ, & ab ipso θ (per 12 primi) in ipsam α β perpēdicularis excitetur θ κ. Et quoniā dupla est η α ipsius α γ, æqualis enim est η α ipsi α β, sicut η α ad α γ, sic θ κ ad κ γ, dupla igitur est & θ κ ipsius κ γ. Quadruplū igitur est quod ex θ κ, eius quod ex κ γ. Quæ igitur ex θ κ, κ γ, quæ idē sūt ei quod ex θ γ, quincuplū sunt eius quod ex κ γ. Æqualis aūt est θ γ ipsi γ β, quincuplū igitur est quod ex β γ eius quod ex γ κ. Et quoniā dupla est α β ipsius β γ, quarū α δ ipsius δ β dupla est, reliqua igitur β δ reliquæ δ γ est dupla. Tripla igitur est β γ ipsius γ δ, maior igitur est κ γ ipsa γ δ. Ponatur (per 2 primi) ipsi κ γ æqualis γ λ, & ab ipso λ (per 11 primi) ipsi α β ad angulos rectos excitetur λ μ, & cōnectātur μ β. Et quoniā quod ex β γ eius quod ex γ κ quincuplū est, dupla autē est α β ipsius β γ, & dupla κ λ ipsius γ κ, quincuplum igitur est quod ex α β eius quod ex κ λ. Est autem sphæræ diameter potentia quincupla eius quæ ex cētro est circuli à quo icosahedrū describitur, estq́; α β ipsius sphæræ diameter, ipsa igitur κ λ ex cētro est circuli à quo icosahedrum describitur, ipsa igitur κ λ, hexagoni est latus dicti circuli. Et quoniā sphæræ diameter cōponitur ex hexagoni & binis decagoni in dicto circulo descriptorū lateribus (per correlariū 16 decimitertij), estq́; α β sphæræ diameter, & κ λ hexagoni latus, & α κ ipsi λ β æqualis, utraq́; igitur ipsarū α κ, λ β, decagoni latus est descripti in circulo à quo icosahedrum describitur. Et quoniā decagoni quidem est λ β, hexagoni uero λ μ, æqualis enim est ipsi κ λ, quoniā & ipsi θ κ, æqualiter enim distāt à centro, & utraq́; ipsarū θ κ, λ μ dupla est ipsius κ γ, pentagoni igitur est latus μ β. Quod aūt pentagoni, & icosahedri. icosahedri igitur latus est μ β.
+
+[Margin]
+Latus icosahedri
+[/Margin]
+
+Et quoniā ζ β est latus cubi, secetur extrema & media ratione in ν, sitq́; maius segmētū ν β, ipsa igitur ν β, dodecahedri est latus.
+
+[Margin]
+Latus dodecahedri
+[/Margin]
+
+Et quoniā ipsius sphæræ diameter ostēsa est, potētia quidē sesqualtera lateris pyramidis, potētia autē dupla lateris octahedri, potentia uero tripla, lateris cubi: qualis igitur sphæræ diameter potētia sex taliū, ipsius quidē pyramidis latus quatuor, octahedri uero latus triū, cubi uero duorū. Latus igitur pyramidis lateris quidē octahedri, potentia est epitritū. Cubi aūt lateris, potentia est dupli. Octahedri aūt latus lateris, cubi potētia est hemioliū. Ipsa quidē igitur dicta tria figurarū latera, dico aūt pyramidis & octahedri & cubi, in rōnibus rōnalibus subsistunt. Reliqua uero duo id est icosahedri & dodecahedri, nec adinuicē, neq́; ad prædicta in rōnibus rōnalibus existunt, irratiōalia sunt etenim, hoc est minor & apotome.
+
+[Margin]
+Comparatio. 5. laterum
+[/Margin]
+
+Quod autē maius est icosahedri latus id est μ β, dodecahedri latere, hoc est ν β, sic ostendemus. Quoniā triangulum ζ δ β, ipsi triangulo ζ α β æquiangulum est, proportionaliter est sicut β δ ad β ζ, sic ζ β ad β α. Et quoniā tres rectæ lineæ proportionales sunt, est igitur sicut prima ad tertiā, sic quod ex
+
+[Diagram: semicircle on diameter α β with the perpendicular α η erected at α, line η γ cutting the arc at θ, perpendiculars θ κ, ε γ, ζ δ, λ μ let fall on α β, and chords α ζ, ζ β, ε β, μ β; base points labeled α, κ, γ, δ, λ, β, with η, θ, ε, ζ, μ above]
+
+<!-- Catchword: prima -->

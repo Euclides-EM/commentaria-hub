@@ -1,33 +1,25 @@
-<!-- Running title: LIBER SECVNDVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 51 -->
+<!-- Page number: 52 -->
 
-reliquorum angulorum qui sunt a & b, acutus. Ducam igitur perpendicularem, ad lineam illam quæ duobus acutis interiacet. Sit ergo ut triangulū a b c: angulus b etiam sit acutus: ducam a d: quæ (ut dictum est) cadet intra triangulum. Dico itaque quod quadratum lateris a b quod subtēditur angulo acuto c, tanto minus est duobus quadratis duarum linearū a c & c b, quātū duplum eius quod fit ex b c in d c. Vel dico quod quadratum a c quod etiam subtenditur angulo b quem posuimus acutum (quicquid fuerit de angulo a) tanto minus est duobus quadratis duarū linearū a b & b c, quantum est duplum eius quod fit ex c b in b d. Erit enim per 7 huius, quadratū b c cū quadrato d c, æquale ei quod fit ex b c in d c bis, & quadrato alterius partis scilicet b d, addito utrique quadrato a d: erit quadratum b c cum quadratis duarum linearum a d & d c, æquale quadratis duarum linearum a d & d b, & duplo eius quod fit ex b c in d c. At quia per penultimam primi, quadratū a c est æquale quadratis duarum linearum a d & d c: erit quadratum b c cum quadrato a c, æquale quadratis duarum linearum a d & d b, & duplo eius quod fit ex b c in c d. Sed per eandem penultimam primi, quadratum a b, æquum est quadratis duarum linearum a d & b d: ergo quadratum b c cum quadrato a c, æquum est quadrato a b: & duplo eius quod fit ex b c in c d: quare tanto minus potest a b duobus lateribus b c & a c: quantum est duplum eius quod fit ex b c in c d, quod est propositum. Simili modo probabis, latus a c quod subtenditur angulo b acuto, posse tanto minus duobus lateribus a b & b c: quantum est duplum eius quod fit ex c b in b d. ¶ Notandum autem per hanc & præcedētem & penultimam primi, quod cognitis lateribus omnis trianguli: cognoscitur area ipsius, & auxiliantibus tabulis chordæ & arcu, cognoscitur omnis eius angulus.
+rum laterum quod est c e, adiuncta maiori quod est b c, secundum rectitudinem. Totam b f diuidam per æqualia, in puncto g, & facto g centro, super lineam b f secundum quantitatē lineæ g b: describam semicirculū b h, & latus c e producā: usquequo secet circūferentiā in pūcto h. Dico quod quadratum lineæ c h: est æquale trigono dato. Producā lineā g h. Et quia linea b f diuisa est per æqualia in g, & per inæqualia in c: erit per 5 huius, q̃d fit ex ductu b c in c f cū quadrato c g, æquale quadrato g f, quare & quadrato g h, quare per penultimā primi, & duobus quadratis duarum linearum g c & c h. Ergo dempto utrinque quadrato c g, erit quod fit ex b c in c f, q̃d est æquale superficiei b e, eo quod c f est æquale quadrato lineæ c h, quare quadratū lineæ c h, est æquale trigono a, quod est propositum.
 
-## Eucli. ex Zamb. Theorema 12. Propositio 13.
+CAMPANI additio. Et nota quod per hoc iuuenitur latus tetragonicum cuiuslibet altera parte lōgioris, & simpliciter omnis figuræ rectis lineis cōtētæ: quæcunque fuerit, quoniam omnē figurā talem in triāgulos resoluemus: & cuiuslibet illorum triangulorū inueniemus tetragonicum latus secundum doctrinam istius, & inueniemus per penultimam primi, lineam unam, quæ possit in omnia latera tetragonica inuenta. Verbi gratia, uolo inuenire latus tetragonicū rectilineæ figuræ irregularis a b c d e f, Resoluo eā in tres triangulos qui sunt a b f, f b c, & f c e. Inuenio quoque secundum doctrinā istius: tria latera tetragonica istorū triū triangulorum, quæ sunt g h, h k, & k l, & erigo h k: perpēdiculariter super g h, & produco g k, eritq̃ g k, æquale quadratis duarum linearum g h, & h k, & tertium latus k l erigo perpendiculariter super lineam g k, & produco lineam g l, eritq̃ per penultimam primi, g l latus tetragonicum totius figuræ rectilineæ propositæ.
 
-[Margin]
-13
-[/Margin]
+[Diagram: right-angled triangle with vertices r, h, g and lines drawn to the hypotenuse; beside it three separate segments l k, h k and h g; at the right an irregular rectilinear figure with points b, d, c, e, a, f divided by diagonals into three triangles]
 
-In oxygonijs triangulis, quod ex acutum angulum subtendente fit quadratum, minus est eis quæ ex acutum angulum comprehendentibus lateribus fiunt quadratis: cōprehenso bis sub uno eorum quæ sunt circa acutum angulum quod perpendicularis cadit, & sumpto intus sub perpendiculari ad acutum angulum.
-
-THEON ex Zamberto. Sit oxygonium triangulum α β γ, acutum habens angulum qui ad β, & (per 12 primi) ducatur ab α, signo, in β γ, perpendicularis α δ. Dico quod quadratum ex α γ, minus est quadratis quæ fiunt ex γ β, & β α, comprehenso bis rectangulo sub γ β, & β δ. Quoniam enim recta linea β γ, dissecta est utcunque in δ, igitur (per 7 secundi) quæ ex γ β, & β δ, æqualia sunt bis sub γ β, & β δ, cōprehenso rectāgulo, & ei quod fit ex γ δ, quadrato. Cōmune apponatur quadratum quod ex δ α. igitur quadrata quæ ex γ β, & β δ, & δ α, æqualia sunt rectāgulo comprehēso bis sub γ β, & β δ, & eis quæ fiunt ex α δ, & γ δ, quadratis. Sed eis quæ fiunt ex β δ, & δ α, æquum est id quod fit ex α β, angulus enim qui ad δ, rectus est. Eis autē quæ fiūt ex γ δ, & δ α, (per 47 primi) æquum est id quod ex α γ. Quadrata igitur quæ fiunt ex γ β, & β α, æqualia sunt ei quod fit ex α γ, & ei quod bis fit sub γ β, & β δ. Quare solum quod fit ex α γ, minus est eis quæ fiunt ex γ β, & β α, quadratis: eo quod fit bis sub γ β, & β δ, comprehenso rectāgulo. In oxygonijs igitur triangulis: & quæ sequuntur reliqua: quod ostendere oportebat.
-
-[Diagram: acute-angled triangle with apex α and base γ δ β, the perpendicular α δ drawn from α to the base]
-
-## Eucli. ex Camp. Propositio 14.
+## Eucli. ex Zamb. Problema 2. Propositio 14.
 
 [Margin]
 14
 [/Margin]
 
-DAto trigono: æquum quadratum describere.
+Dato rectilineo, æquum quadratum constituere.
 
-CAMPANVS. Sit datus trigonus a: cui nos uolumus æquum quadratum describere. Designabo superficiem æquidistantium laterum & rectorū angulorum æqualem trigono dato, secūdum quod docet 42 primi: sitque superficies illa b c d e: cuius si latera fuerint æqualia: habemus q̃d quærimus: ipsa enim erit quadrata per diffinitionem. Si autem latera sint inæqualia: tunc adiungam minus ipsorum laterum maiori, secundum rectitudinem: sitq̃ linea c f, æqualis minori duo-
+THEON ex Zamb. Sit datum rectilineum α. oportet ei rectilineo æquum quadratum constituere: constituatur (per 45 primi) ipsi α, rectilineo: æquum parallelogrammum rectangulum β δ. Si æqualis est β, ipsi δ: factū iam est problema, constituitur enim ipsi α, rectilineo: æquum quadratum β δ. Si autem non, ipsarum β ε, & ε δ, altera, maior est. Sit maior β ε, & producatur in ζ, & ponatur ipsi ε δ, æqualis, ε ζ, (per 3 primi,) & (per 10 primi) secetur β ζ bifariā in η. Et cētro quidē η, spatio uero aut η β, aut η ζ, semicirculus describatur β θ ζ, & (per 2 postulatū) producatur δ ε in θ, & (per 1 postulatū) cōnectatur η θ. Quoniā igitur recta linea β ζ secta est in æqualia in η, & in inæqualia in ε, igitur (per 5 secundi) rectangulum comprehēsum sub β ε, & ε ζ, cū eo quod fit ex η ε, æquum est ei quod ex η ζ, quadrato. Aequalis autem est η ζ ipsi η θ: rectangulum igitur cōprehensum sub β ε, & ε ζ, (per 5 secūdi cū eo quod ex η ε, fit quadrato, æquum est ei quod fit ex η θ, ei autem quod fit ex η θ, æqualia sunt ea quæ ex η ε, & ε θ, fiunt quadrata. (per 47 primi.) Quod igitur fit sub β ε, & ε ζ, cum eo quod fit ex η ε: æquum est eis quæ sunt ex η ε, & ε θ, commune auferatur quadratum quod ex η ε, reliquum igitur rectāgulum comprehensum sub β ε, & ε ζ, æquum est ei quod fit ex ε θ, quadrato. Sed id quod sub β ε, & ε ζ, quod ipsum β δ, æqualis enim est ε ζ, ipsi ε δ: parallelogrammum igitur β δ, æquum est ei quod fit ex ε θ, quadrato. Sed β δ, æquum est ipsi α, rectilineo, &: igitur rectilineum α æquum est quadrato descripto ex ε θ. Dato igitur rectilineo α, æquum quadratum constitutum est, ex ε θ, descriptum, quod fecisse oportuit.
 
-[Diagram: triangle a at the left; at the right the rectangle b c d e with the line extended to f, a semicircle described over the whole line, and points g and h marking the construction within the semicircle]
+[Diagram: a triangle representing the rectilinear figure α; beside it the construction: a triangle and a semicircle β θ ζ described over the line β ζ with the rectangle and points δ, ε, η, θ marked]
 
-<!-- Signature: e 2 -->
+LIBRI SECVNDI FINIS.
 
-<!-- Catchword: rum -->
+<!-- Catchword: EVCLIDIS -->

@@ -1,35 +1,35 @@
-<!-- Page number: 563 -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-<!-- Running title: DATA -->
+<!-- Page number: 566 -->
 
-b a,data est. Quoniam igitur angulus qui sub c a b,datus est,est autẽ & qui sub e a b,datus. Reliquus igitur qui sub e a c,datus est,datur igitur triãgulũ a e c specie. Ratio igitur ipsius e a ad a c,data est,ipsius autem c a ad a b,ratio est data & ipsius e a ad a c igitur ratio data est. Idque propterea & ipsius f a, ad a b,ratio est data, estque sicut a e, ad a f,sic b g ad b h. Quare & ipsius b g ad b h ratio est data. Est quæ ipsius quidẽ a g,dimidium triangulũ a b c,per 41 primi ele. Ipsius autem a h. per eandem dimidium est triangulum a b d,& ipsius igitur a b c ad a d b,ratio est data.
+ad c k. Compleaturq́; c l parallelogrammum. Quoniam igitur est sicut c d ad e f, sic e g, ad c k, æqualis autem est c d ipsi k l. Est igitur sicut k l ad e f, sic e g ad c k, circum æquales angulos qui sunt sub c k l, g e f, latera sunt reciproca, æquum igitur est per 14 sexti ele. k d ipsi g f. Et quoniam ratio ipsius a ad b est data, est aūt æquale b ipsi c l. Ratio igitur ipsius h d ad c l data est. At sicut h d ad c l, sic h c ad c k. Et ipsius igitur h c ad c k ratio est data: & quoniam est sicut c d ad e f, sic e g ad c k, at ipsa c h ad c k rationem habet datam, quam area a ad ipsam b: est igitur sicut c d ad e f: sic est e g ad quod h c, rationem habet quam areola a ad areolam b.
 
-## Theorema 49 Propositio 49
+## Theorema 57 — Propositio 57
 
-SI ab eadem recta linea bina rectilinea utcunque data specie descripta fuerint,adinuicem rationem datam habebunt.
+SI datum ad datam comparatum fuerit in angulo dato, datur latitudo excessus.
 
-Ab eadem enim recta linea a b,bina rectilinea utcunque specie data describantur a e c f b & a d b. Dico ꝙ ratio ipsius a e c f b, ad a d b. est data. Connectantur a f,f e. Datur igitur unumquodq̃ ipsorũ e c f,e f a,f a b,triãgulorum specie. Et quoniam ab eadem recta linea e f,bina triangula specie data e f c,& e f a,describũtur. Ratio igitur ipsius c f e ad f e a, data est per præcedentem,& componendo igitur per 18 quinti elemẽtorum ratio ipsius c e a f data est. Ipsius autem f e a ad f a b,ratio est data. Quoniam ab eadem recta linea a f, describitur. Et ipsius f c e,e a f,igitur & a f b,ratio est data.& componendo igitur per 18 quinti ele.ipsius c e a b f ad b f a, rõ est data. Ipsius autem f b a,ad a d b,ratio est data,& ipsius igitur c e a b f,ad a d b,ratio est data.
+Datum enim a g ad datam b a, proiectum sit in angulo dato qui sub c a b. Dico quod ipsa c a data est. Describatur per 46 primi ele. ex a b quadratum e b. Datū igitur est e b excitentur e a, f b, c g ad ipsa d h: & quoniam utrūque ipsorum e b, a g datum est. Ratio igitur ipsius e b ad a g data est, æquum autem est e b ipsi a h. Ratio igitur & ipsius e b ad a h, data est. Quare & ipsius e a ad a d ratio est data, æqualis autem est e a ipsi a b. Ratio igitur ipsius b a ad a d, data est, & quoniam qui sub c a b datus est & qui sub d a b datus est. Reliquus igitur qui sub a c d datus est. Datur igitur triangulū a c d specie. Rō igitur ipsius c a ad a d data est, ipsius autem d a ad a b ratio est data, & ipsius c a ad a b, igitur ratio est data, estque data ipsa b a. Data igitur & a c, & latitudo ipsius comparatiōis.
 
-[Diagram: rectilineal figure a e c f b with c at top, e at left, f at right, a at bottom left, b at right below f; diagonals a f and f e drawn; below it triangle a d b with apex d]
+[Diagram: square with e at top left and b at right; a on the left side; below, a horizontal base line with points c, g, d, b, and slanted lines from a down to c forming a triangle under the square]
 
-## Theorema 50 Propositio 50
+### Scholium.
 
-SI binæ rectæ lineæ adinuicem rationẽ habuerint datam,& ab ipsis rectilinea similia,similiterq̃ descripta adinuicem rationem datam habebunt.
+Quoniam binæ species e a, a d specie datæ sunt, adinuicem rationem habēt datam & ipsarum latera adinuicem rationem datam habebunt.
 
-Binæ siquidẽ rectæ lineæ a b,c d,adinuicẽ rõnẽ habeant datã, describãturq̃ ab ipsis a b,c d, similia similiterq̃ posita rectilinea e f. Dico ꝙ earũ ratio data est. Assumatur enim ipsis a b,c d.per 11 sexti elementorum tertia proportionalis g. Est igitur sicut a b ad c d.sic c d ad g. Ratio autem ipsius a b ad c d data, ratio igitur & ipsius c d ad g data. Quare & ipsius a b ad g ratio est data. Sicut autẽ a b ad g,sic e ad f. Ratio igitur ipsius e ad f data est.
+### Scholium.
 
-[Diagram: two similar triangles with apexes f and e standing above a line with points d, c, b, a; below, a separate horizontal line labelled g]
+Ipsius, inquam, a g b latitudo parallelus est, & a h ad rectam existēs ipsi a b, ipsius autem a c g b comparationis ut in quatuor rectis lineis a b, b g, g c, c a, longitudine existēte ipsa a b latitudo erit ipsa a c: in quatuor siquidē propositis rectis lineis latitudinem quærit, non autem ueræ areæ latitudo alia est præter quatuor sicut a e.
 
-## Scholium.
+## Theorema 58 — Propositio 58
 
-Quoniam enim ipsius a b ad c d,ratio est data.est autem & ipsius c d ad g,ratio data. manifestum est quod & composita ex binis datis rationibus ratio data est,uel & per octauum theorema quod & melius est.
+SI datum ad datam proiectum fuerit specie deficiens à dato specie, dantur latitudines defectus.
 
-## Theorema 51 Propositio 51
+Datum enim a c ad datam a d proiectum sit specie deficiens à dato d c. Dico quod utraque ipsarum b c, b d data est. Secetur enim per decimā primi elemen. ipsa a d bifariam in e signo: data igitur est e d. Describatur ab ipsa e d per 18 sexti ele. ipsi c d simile, similiterque positum rectilineū e f. Describaturque e f. Datur igitur e f specie. Et quoniam à data recta linea e d data specie species describitur e f, datur igitur ipsum e k magnitudine, & æquum est ipsis a c k h. Dantur igitur, ipsa a c k h magnitudine, est autem a c datum magnitudine, supponitur enim. Reliquum igitur k h, datum est magnitudine, est autem & specie datum simile, siquidē est ipsi c d. Ipsius h k, ergo latera data sunt, datum igitur k c, & est æquum ipsi e b. Ipsa igitur e b data est. Est autem & e d, data, & reliqua igitur b d data est, & ratio ipsius b d ad b c data est. Data igitur est & b c.
 
-SI binæ rectæ lineæ adinuicem rationem habuerint datam,& ab ipsis rectilinea utcunque descripta specie data rationẽ adinuicem datam habebunt.
+[Diagram: at right, a square with top corners g, b, f, divided by a vertical line under b and a diagonal from g; k at the left on a horizontal strip, e inside near the intersection; bottom line with points a, b, c, d]
 
-Binæ enim rectæ lineæ a b,c d,adinuicem rationem habeant datam,describanturque ab ipsis a b,b c, rectilinea utcunque specie data e f. Dicoque,& ipsius e ad f ratio est data. Describatur enim per uigesimãquintã sexti elemento.ab ipsa a b ipsi f,simile similiterq̃ positum rectilineum a g b. Datur autem f specie,datur igitur & a g b specie. Sed & e,spe
+## Theorema 59 — Propositio 59
 
-[Diagram: parallelogram with corners b (top left), e (top right), g (bottom left), a (bottom right), with an inscribed triangle; below, an inverted triangle with corners d (left) and f (right) and apex e at the bottom]
+SI datum ad datam proiectum fuerit excedens specie dato specie, dantur latitudines excessus.
 
-<!-- Catchword: cie -->
+<!-- Catchword: Datū -->

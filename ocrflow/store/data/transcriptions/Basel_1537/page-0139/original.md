@@ -1,47 +1,35 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVINTVS. -->
 
-<!-- Page number: 128 -->
+<!-- Page number: 129 -->
 
-d f. tertia erit per 14 e h secunda, maior e f, quarta, quod quia est impossibile, sequitur propositum.
+tendo. Hinc manifestum, quod si compositæ magnitudines propositionales fuerint, etiam conuertendo proportionales erunt, quod demonstrandum erat.
 
-## Eucli.ex Zamb. Theorema 18 Propositio 18 Cõuersa præcedentis.
-
-[Margin]
-18
-[/Margin]
-
-Si diuisæ magnitudines proportionales fuerint, compositæ quoq̃ proportionales erunt.
-
-THEON ex Zãb. Sint disiunctæ magnitudines proportionales α γ, ε β, γ ζ, & ζ δ, sicut α ε, ad ε β, sic γ ζ, ad ζ δ. Dico quod & compositæ proportionales erunt, sicut α β, ad β ε, sic γ δ, ad δ ζ. Si autem non est, sicut α β, ad β ε, sic γ δ, ad ζ δ, erit sicut α β, ad β ε, sic γ δ, ad minorem ipsa ζ δ, aut ad maiorem. Sit prius ad minorẽ δ η. Et quoniam est sicut α β, ad β ε, sic γ δ, ad δ η, compositæ magnitudines proportionales sunt, quare etiam diuisæ proportionales erũt. (per 17 quinti. Est igitur sicut α ε, ad ε β, sic γ η, ad η δ, supponitur aũt sicut α ε, ad ε β, sic ε ζ, ad ζ δ. Et sicut igitur (per 11 quinti,) γ η, ad η δ, sic γ ζ, ad ζ δ, maior autẽ est prima γ η, tertia γ ζ, maior igitur est (per 14 quinti,) secũda η δ, ipsa ζ δ, quarta. Sed & minor, quod est impossibile. Igitur. non est sicut α β, ad β ε, sic γ δ, ad minorem ipsa ζ δ. Similiter quoque ostendemus quod neque ad maiorem, ad eandem igitur. Si disiunctæ igitur magnitudines proportionales fuerint, & compositæ quoque proportionales erunt, quod demonstraße oportuit.
-
-[Diagram: two vertical bars with tick marks: one marked α at top with point ε and β at bottom; the other marked γ at top with points ζ and η, and δ at bottom]
-
-## Eucli.ex Camp. Propositio 19.
+## Eucli. ex Camp. Propositio 20
 
 [Margin]
-19
+20
 [/Margin]
 
-SI à duobus totis duæ portiones abscindãtur, fueritque totum ad totum quantum abscisum ad abscisum, erit reliquum ad reliquũ quantum totum ad totum.
+SI fuerint quotlibet quantitates aliæque secundum earum numerum quarum quæque duæ priorum secundum proportionem duarum postremarum necesse est in proportionalitate quidẽ, æqualitatis ut si fuerit prima priorum ultima maior, & posteriorum primam ultima esse maiorem. Quod si minor, & minorem. Si uero æqualis, & æqualem.
 
-CAMPANVS Quod quinta proponit de multiplicibus: hæc proponit uniuersaliter de omnibus proportionibus, unde est illa tanto communior, quanto multiplicitate proportio. Sint igitur duæ quantitates a b, & c d, à quibus abscindantur duæ quæ sint b e & d f, sitque proportio totius a b, ad totam c d, sicut b e, abscisæ ad d f abscisam. dico quod eadem erit a e residui ad c f, residuum: quæ est totius a b ad totam c d. Cum enim sit a b ad c d sicut b e ad d f: erit permutatim a b ad b e, sicut c d ad d f, & disiunctim a e ad e b, sicut c f ad f d, & iterũ permutatim a e ad c f, sicut e b, ad f d. & quia sic erat a b ad c d. patet propositum.
+CAMPANVS Demonstraturus Euclides modum arguendi qui dicitur æqua proportionalitas, siue quantitates duorum ordinum directe siue peruersim proportionentur: præmittit duo anteecedentia ad demonstrandum propositum necessaria. per quorum primum demonstratur æqua proportionalitas cum quantitates duorũ ordinum directe proportionantut. secundum autem cum proportionantur peruersim proponit autem hæc duo antecedentia de quantitatibus duorum ordinum numero æqualibus: quæcunque fuerint. Vniuersaliter enim sumptis utrobique quantitatibus secundum quẽcũq̃ numerum ueritatem habent, non est autem necesse ut demonstremus ea, nisi solum in tribus, hoc enim omnino sufficiens est ad propositum, de pluribus autem quibuscq̃ patebit pet æquam proportionalitatem cum ipsa demõstrata fuerit.
 
-[Diagram: two horizontal lines with tick marks: one with points a, e, b; the other with points c, f, d]
+[Diagram: six horizontal segments with tick marks in three rows, labeled a and c, b and d, e and f]
 
-CAMPANI additio. Ex hac autem decimanona, & permutata proportionalitate demonstratur modus arguendi, qui dicitur proportionalitas euersa. ut si sit a b ad b e, sicut c d ad d f, dico quod erit b a ad a e sicut d c ad c f, quia cum sit a b, ad b e, sicut c d ad d f, erit permutatim a b ad c d sicut b e ad d f, quare per hanc 19, b a ad d c, sicut a e ad c f, igitur permutatim b a ad a e, sicut c d ad c f, quod est propositum. Cõuersa quoque proportionalitas, quam ex diffinitione incontiuuæ proportionalitatis demonstrauimus in exponendis principijs huius quinti, potest hic quoque demonstrari indirecte ex permutata proportionalitate & 9 huius, ut si sit proportio a ad b sicut c ad d, dico quod erit b ad a sicut d ad c, sin autem sit d ad e, sicut b ad a, & quia a ad b est sicut c ad d, erit permutatim a ad c sicut b ad d, & quia iterum b ad a, sicut d ad e: erit quoque permutatim b ad d sicut a ad e, quare erit a ad e. sicut d ad c, si igitur e non sit æquale c, accidet impossibile & contrarium secundæ partis 9, si autem æqualis, erit b ad a sicut d ad c, quod est propositũ.
+Sint igitur tres quantitates a b e, sumanturq̃ tres aliæ quæ sint c d f, & sit proportio a ad b, sicut c ad d, & b ad e, sicut d ad f, dico quod si a est maior e, c erit maior f. & si minor, minor: & si æqualis, æqualis. Si enim est maior, erit per primam partem 8, maior proportio a ad b, quàm e ad b, quare per 11, maior erit c ad d, quàm e ad b, & quia per conuersam propo rtionalitatem, e ad b est sicut f ad d, erit c ad d maior quàm f ad d, itaque per primam partẽ 10 c est maior f, quod est propositũ.
 
-[Diagram: five vertical bars of differing heights with tick marks, labeled below a, b, c, d, e]
+[Diagram: six horizontal segments with tick marks in three rows, labeled a and c, b and d, e and f]
 
-## Eucli.ex Zamb. Theorema 19 Propositio 19
+Quod si a sit minor e, per easdem & eodem modo probabitur c esse minorem f, erit enim minor proportio a ad b, quàm e ad b, per primam partem 8, ideo per 11 & per conuersam proportionalitatem, minor erit c ad d, quàm f ad d, & ideo per primam partem 10, erit c minor f. quod est proposicum. Si autem a sit æqualis e: erit per primã partem 7 proportio a ad b sicut e ad b sicut e ad b, & ideo per secundam partem 11 & conuersam proportionalitatẽ. erit c ad d. sicut f ad d, quare per primam partẽ 9, c est æqualis f, quod est propositum.
+
+[Diagram: six horizontal segments with tick marks in three rows, labeled a and e, b and d, e and f]
+
+CAMPANI additio. Quidam autẽ hanc conclusionẽ demõstrauerũt per proportionalitatẽ, permutatim, hoc modo. proportio a ad b, est sicut c ad d, ergo permutatim a ad c, sicut b ad d, & quia rursus b ad e sicut d ad f, erit permutatim b ad d sicut e ad f, sed erat h ad d. sicut a ad c, ergo per 11 erit a ad c, sicut e ad f, itaq̃ per 14. si a prima est maior e tertia, erit c, secũda maior f, quarta, & si minor, minor, & si æqualis æqualis, quod est propositum. Isti autem errauerunt in sua demonstratione, quia si esset intentio Euclidis sic demonstrare, non oporteret ipsum præmittere hanc cõclusionem pro antecedente, ad æquam proportionalitatem, si enim rursus fiat una permutatio proportionalitatis ad quam deuẽtum est, quæ est esse a ad c sicut e ad f, sequitur quod sit a ad e sicut c ad f, & hoc est æqua proportionalitas. Præterea eorum cõclusio non sequitur nisi omnes quantitates amborũ ordinũ fuerint generis unius. Si enim a b e, sint lineæ & c d f, superficies, aut corpora, aut tempora, non erit tunc permutare proportiones, peccant igitur uniuersaliter dictum, particulariter demonstrantes.
+
+## Eucli,ex Zamb, Theorema 20 Propositio 20
 
 [Margin]
-19
+20
 [/Margin]
 
-Si fuerit sicut totum ad totum, sic ablatum ad ablatum, & reliquum ad reliquum, erit sicut totum ad totum.
-
-THEON ex Zãb. Esto sicut totũ α β, ad totũ γ δ, sic ablatũ α ε, ad ablatũ γ ζ. Dico quod & reliquũ ε β, ad reliquũ ζ δ. erit sicut totũ α β, ad totũ γ δ. Quoniã enim est sicut totũ α β, ad totũ γ δ. sic α ε, ad ε ζ, & uicissim quoq̃: (per 16 quinti) sicut α β, ad α ε, sic & δ γ, ad γ ζ. Et quoniã cõpositæ magnitudines proportionales sunt. (per 17 & 18 quinti) etiã disiunctæ proportionales erũt, sicut igitur β ε, ad ε α, sic δ ζ, ad γ ζ, & uicißim igitur (per 16 quinti) est sicut β ε, ad δ ζ, sic ε α: ad ζ γ. Sicut autẽ α ε, ad γ ζ, sic supponitur totũ α β ad totũ γ δ, & reliquũ igitur ε β, ad reliquũ ζ δ, erit sicut totũ α β, ad totũ γ δ. Si fuerit igitur sicut totũ ad totũ sic ablatũ ad ablatũ, & reliquũ ad reliquũ erit sicut totũ ad totũ, quod demõstrandum erat. Et quoniã ostensum est quod sicut est α β, ad γ δ, sic est ε β, ad ζ δ, & uicißim sicut α β. ad β ε, sic γ δ ad δ ζ, cõpositæ igitur magnitudines proportionales sunt (per 18 propositionem quinti.) ostensum est autem quod sicut β α, ad α ε, sic δ γ, ad γ ζ, & est conuer
-
-[Diagram: two vertical bars with tick marks: one marked α at top with point ε and β at bottom; the other marked γ at top with point ζ and δ at bottom]
-
-<!-- Catchword: tendo. -->
+Si fuerint tres magnitudines, & aliæ eisdem æquales numero, binæ sumptæ & in eadem ratione, ex æquali autẽ prima tertia maior fuerint, & quarta sexta maior erit, & si æqualis, æqualis, & si minor, minor.

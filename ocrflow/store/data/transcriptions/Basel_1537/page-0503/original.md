@@ -1,33 +1,13 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: PHAENOMENA -->
 
-<!-- Page number: 492 -->
+<!-- Page number: 493 -->
 
-tempore in quibus semicirculi & circunferentia quæ ex opposito oriuntur, & si zodiaci circuli bini semicirculi æquali tempore communem quandam habentes circunferentiam orti fuerint, & quæ ex opposito circūferentiæ æqualibus temporibus orientur.
+ad tropicorum contactus, in minori autem quæ has subsequūtur, in minimis uero quæ ad æquinoctialẽ, æqualibus porro qui æqualiter distant ab æquinoctiali circulo & occidunt & oriuntur.
 
-Sit horizon circulus a b c d, tropicus uero æstiuus sit a c, hybernus aūt sit b d, zodiacus porro sit c b. Assumanturq̃ æquales circunferentiæ c e, b f ipsis igitur semicirculi c e b, e b f inæquali tempore oriūtur. Dico quod & ipsæ c e, b f, circūferentiæ in æquali tempore oriuntur. Nam quoniam c e b, ipso e b f in maiori oritur tempore communis auferatur ipsius e b, circunferentiæ ortus tempus: ipsa enim a b, circunferentia eadem sed in æquali oritur tempore. Reliqua igitur c e, ipsa b f in maiori tẽpore oritur, & manifestũ quod eodem tẽpore d e b f, semicirculi oriuntur, & quæ ex opposito circunferentiæ c e, b f. Manifestum autem quod si semicirculi aliqui æquali tempore orti fuerint, & quæ ex opposito circunferentiæ æquali tempore orientur.
+Esto horizon circulus a b c d, maximus autem semper apparentiū sit e f, tropicus uero æstiuus sit a b, hybernus sit c d, sit porrò cum cancro semicirculus qui super terram b d, æquinoctialis circulus sit h g. Seceturq̃ utraq̃ ipsarum b x, d x, in tria æqualia per signa k l, m n. Dico quod ipsæ b k, k l, l x, x m, m n, n d, in æqualibus tẽporibus occidunt & in maiori quidem ipsæ b k, n d, in minoribus ipsæ k l, m n, in minimis uero ipsæ l x, x m, in æqualibus porro quidẽ ipsa l x, ipsi x m, ipsa k l, ipsi m n, & b k ipsi n d. Sint per quos inuehūtur ipsa k l, m n, signa paralleli circuli p o, s r, y t, z 9. Describantur per † a, b, ipsum tãgentes circulum e f. Quoniam ipsæ b k, k l, l x, adinuicẽ sunt æquales, ipsæ igitur g a, a b, b x, sunt adinuicẽ maiores incipientes ab ipsa g a maxima. Quoniam igitur g a ipsa a b maior est, sed g a ipsi o k est similis, & a b ipsi u l & o k, igitur ipsa u l maior est uel ei similis. Ipsa autem l r maior fuerit uel similis o k. Sit ipsi o k similis l c. In quo igitur tempore k, signum incipiẽs ab ipso k, ipsam k o, ambiens circūferentiam ad ipsum usq̃ peruenit o. In eodẽ & l, incipiens ab ipso l, ipsam l c ambiens peruenit ad c, & zodiacus circulus positionẽ habebit sicut c o d. Quoniam igitur o k circunferentia ipsi l c similis est, sed o k ipsi r u est similis, & r u igitur ipsi l c est similis, suntq̃ eiusdem circuli. Aequalis igitur est r u ipsi c l, cõmunis auferatur c u. Reliqua igitur r c ipsi u l est æqualis, & o k ipsa u l est maior aut similis, & o k igitur ipsa r c maior aut est similis, & in pluri ergo tempore k o circūferentiam ambiens peruenit ad o q̃ c, incipiens a c ipsam c r ambiens circūferentiam ueniat ad r. Sed in quo quidem tempore ipsam k o ambiens circūferentiam, uenit ad o, ipsa b k circūferentia occidit: in quo autem tempore ipsam c r ambiens circūferentiam, peruenit ad r, occidit circūferentia k l. In maiori igitur tempore occidit b k q̃ k l. Rursus quoniam minor est ab ipsa b x, sed ab ipsi u l est similis, & ipsa igitur u l ipsa b x, maior est uel ei similis, multo igitur maior est r l ipsa b x, uel ei similis. Ipsa autem g x minor, uel ei similis, sit ipsi r l similis x e. In quo igitur tempore x ipsam x e, circūferentiam ambiens ad e, uenit in eodem & l ipsam l r, circūferentiam ambiens ad r, uenit & zodiacus circulus positionem habebit sicut e r g. Quoniam igitur circunferentia r l ipsi x e similis est, sed r l ipsi g b est similis, & g b igitur ipsi x e est similis, & sunt eiusdem circuli, æqualis igitur est g b ipsi x e circūferentiæ, cõmunis auferatur e b: reliqua g e, reliquæ b x est æqualis. Et quoniam u l ipsa b x, maior est aut similis ei, æqualis autem est ipsa quidem u l ipsi r c, & b x ipsi g e, & r c igitur ipsa g e, maior est aut ei similis. In æquali igitur tempore c ipsam c r, circūferentiã ambiens ad r uenit q̃, ipsam e g percurrens ad g ueniat. Sed in quo tempore c ipsam c r, circūferentiam ambiens ad r uenit, ipsa c o circūferentia occidit, hoc est ipsa k l circūferentia occidit. In quo igitur tempore e ipsam e g, circūferentiam ambiens ad g peruenit, ipsa x l circūferentia occidit. In pluri ergo tẽpore k l occidit quàm l x. Rursus quoniam r m ipsa n x, maior est aut similis sit ipsi g x, similis x m. In quo igitur tempore x, incipiens ab ipso x ipsam x g, ambiens circumferentiam ad g peruenit. In eodem & m ipsam m x, ambiens circūferentiam peruenient ad x, & zodiacus circulus positionem habebit sicut x g h. Et quoniam in sphæra paralleli circuli t y, maximi cuiusdam circuli ambitus ipsius b d, ipsos l x, x m, æquos auferunt ad maximū parallelorũ orbem g h, æquus est t s ipsi t y. Quoniam igitur in sphæra æquales & paralleli circuli s r, t y, ad maximum parallelorũ g h auferunt, æqualis est t g ipsi g r, est autem & x n ipsi g h æqualis. Quoniam l x ipsi x m est æqualis: æqualis igitur est & quæ ab h in r ei quæ ab in f. Estq̃ orbis r ipsi t y orbi æqualis, æqualis igitur est circūferentia h r ipsi t f, circumferentiæ.
 
-[Diagram: circle a b c d with a at top, b at bottom; two arcs from c to b through e and f forming the zodiac semicircles; points e and f inside]
+[Diagram: large sphere with horizon circle a b c d; small circle of the always-apparent stars at top; equinoctial and several oblique parallel circles p o, s r, y t, z 9 crossing the sphere; semicircle of Cancer above the horizon through b and d; labeled points include a, b, c, d, e, f, g, h, k, l, m, n, o, p, r, s, t, u, x, y, z, 9 and a cross-shaped sign †]
 
-## Theorema 11 — Apparens 11
+<!-- Signature: T -->
 
-[Margin]
-11
-[/Margin]
-
-Odiaci circuli æqualium & ex opposito circunferẽtiarum in quo tempore altera oritur, & altera occidit, & in quo altera occidit altera oritur.
-
-Sit horizon circulus a b c d, tropicus autem æstiuus sit a c, hybernus autem b d, zodiacus sit c b, assumanturque in ipso æquales circunferentiæ ex opposito c e, b f. Dico quod in quo tempore c e, oritur b f, occidit. Sint per quos inuehuntur e f signa paralleli circuli g h, k l, & quoniam astra in zodiaco in diametro existentia per 6 theorema coniugata oriuntur & occidunt. Ipso igitur e oriente f occidit. In quo igitur tempore e, incipiens ab e, ipsam e h, ambiens circunferẽtiam uenit in h, in eodem & f ab ipso f incipiens f k ambiens ad k uenit. Sed quando e ipsam e h ambiens ad h uenit, circūferentia e c, oritur: quando uero ipsam f k ambiẽs ad k uenit, occidit b f circunferentia. In quo igitur tempore c e, circunferentia oritur in eodem f b, circunferẽtia occidit. Dicoq̃ & in quo tẽpore b f oritur, occidit ipsa c e. Immutetur enim in b a, casu zodiacus circulus, habeatq̃ positionem sicut c b. Dico quod in quo tempore b f oritur, ipsa c e. occidit. Quoniam ipsi e signo in diametro est, ipso igitur f oriente, ipsum e, occidit. In quo igitur tempore f ipsam f l, ambiens circunferentiam percurrens ad l uenit. Sed quãdo f ipsam f l, circunferentiam ambiens peruenit ad l, ipsa b f oritur. Quando uero e ipsam e g ambiẽs ad g uenit ipsa c e occidit. In quo igitur tẽpore b f, ambitus oritur, in eodem & c e, ambitus occidit.
-
-[Diagram: sphere with horizon circle a b c d; zodiac arc from c to b; parallel circles through e and f with endpoints g, h and k, l; e at left, f at right, k beyond f]
-
-[Diagram: second sphere for the inverted case: horizon a b c d; zodiac arc from a through e and g to b; points e, g at right, l and f near b at bottom left]
-
-## Theorema 12 — Apparens 12
-
-[Margin]
-12
-[/Margin]
-
-Semicirculi qui cum cancro æquales circunferentiæ inæqualibus temporibus occidūt, & in maiori quæ sūt
-
-<!-- Catchword: ad -->
+<!-- Catchword: Sed -->

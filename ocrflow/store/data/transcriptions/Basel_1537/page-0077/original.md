@@ -1,39 +1,57 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER TERTIVS. -->
 
-<!-- Page number: 68 -->
+<!-- Page number: 69 -->
 
-[Margin]
-16
-[/Margin]
+centrum est circulorum β γ, & α ε ζ: æqualis est δ α, ipsi δ ζ, & ipsa δ γ, ipsi δ β: ex cētro enim in circunferentiam. Duæ igitur α δ, δ β, duabus ζ δ, δ γ, sunt æquales, & angulum communem habent qui ad δ: basis igitur α β, (per 4 primi) basi ζ γ, est æqualis, & triangulus δ α β, triangulo δ ζ γ, & reliqui anguli reliquis angulis, æqualis igitur est angulus δ β α, angulo δ γ ζ, rectus est autem qui sub δ γ ζ, rectus igitur est & qui sub δ β α, & est δ β, ex centro. Quæ autem ex diametri circuli extremitate ad angulos rectos ducitur, ipsum tangit circulum, (per correlarium 16 tertij. igitur α β, ipsum circulū β γ, tangit. A dato igitur signo α, dato circulo β γ, cōtingēs recta linea ducta est α β, quod fecisse oportuit.
 
-Quæ à diametri circuli extremitate ad angulos rectos ducitur, extra ipsum circulum cadit, & in locum inter ipsam rectam lineam & circunferentiam, altera recta linea non cadet, & semicirculi angulus, omni angulo acuto rectilineo maior est, reliquus autem minor.
+[Diagram: two concentric circles with centre δ; α at the top upon the outer circle, ζ upon it below, β upon the inner circle, γ at the foot; the lines δ α, γ ζ, ζ δ and α β form two triangles]
 
-THEON ex Zamberto. Sit circulus α β γ, circa centrum δ, & dimetientem α β. Dico quod quæ ex α, ipsi α β, ad angulos rectos ducitur, extra ipsum circulum cadit. Non enim, sed si possibile est, cadat interius sicut α γ, & coniungatur γ δ. Et quoniam æqualis est δ α, ipsi δ γ, (per 15 diffinitionem primi) ex centro enim in circunferentiam, æqualis est & angulus δ α γ, ei qui sub δ γ α. Angulus autem δ α γ, rectus est, rectus igitur est & qui sub δ γ α. Anguli igitur qui sub δ α γ, & δ γ α, duobus rectis sunt æquales, quod (per 17 primi,) est impossibile. Igitur ab α signo, ipsi α β, ad angulos rectos ducta, intra ipsum circulum non cadit. Similiter quoque ostendemus, quod neque in ipsam circunferentiam, extra igitur cadit sicut α ε. Dico quod in locum inter α ε, rectam lineam, & circunferentiam: alia recta linea non cadit. Si enim possibile est, cadat sicut ζ α, & excitetur (per 12 primi) à δ, signo, in ipsam ζ α, perpendicularis δ η. Et quoniam rectus est angulus α η δ, minor recto autem qui sub δ α η, maior igitur est α δ, quàm δ η. Aequalis autem α δ, ipsi δ ζ, ex centro enim in circunferentiam, maior (per 19 primi,) igitur δ ζ, ipsa δ η, minor maiore, quod est impossibile. In locum igitur inter rectam lineam & circunferentiam, altera recta linea non cadet. Dico quod & semicirculi angulus contentus sub α β, recta linea & γ β α, circunferentia, omni angulo rectilineo maior est. Reliquus autem contentus sub γ α, circunferentia & α ε, recta linea, omni acuto angulo rectilineo minor est. Si enim aliquis est angulus rectilineus maior eo qui sub γ β α, circunferentia & β α, recta linea, minor autem eo qui sub γ α, circunferentia & α ε, recta linea continetur, in locum inter γ α, circunferentiam & α ε, rectam lineam recta linea cadet, quæ efficiet maiorem quidem angulum contentum sub rectis lineis eo qui sub β α, recta linea & γ β α, circunferentia continetur, minorem autem eo qui sub γ α, circunferentia & α ε, recta linea continetur, non cadit autem. Igitur angulo cōtento sub β α, recta linea, & γ β α, circunferentia, angulus acutus sub rectis lineis contentus maior non est, neque etiā minor contento sub γ α, circunferentia & α ε, recta linea.
-
-[Diagram: circle with centre δ and horizontal diameter β α (β at left, α at right); at α a line rises at right angles to ζ and ε at the top, with η upon it; within the circle the chord α γ and the lines δ γ, δ η]
-
-CORRELARIVM. Hinc manifestum est, quod à diametri circuli extremitate ad angulos rectos ductæ ipsum circulum tangit, & quod recta linea circulum in uno signo tantum tangit, quoniam ostensum est (per 2 tertij,) quod quæ in duobus illis signis incidit, intra ipsum cadit, quod demonstrasse oportuit.
-
-## Eucli.ex Camp.  Propositio 16
-
-[Margin]
-16
-[/Margin]
-
-A Dato puncto, ad datum circulum lineam contingentem ducere.
-
-CAMPANVS. Sit circulus datus a b cuius centrum c, punctusque datus d, uolo ergo a puncto d, ducere lineam contingentem circulum a b. Produco lineam d c, secantem circunferentiam circuli a b, in puncto a, super quam describo circulum d e, secundum quantitatem lineæ d c, concentricum circulo a b, & à puncto a, produco lineam a e, perpendicularem ad lineam d c, quæ secet circunferentiam circuli d e, in puncto e, & produco lineam e c, secantem circunferentiam circuli a b in puncto b. Deinde producam lineam d b, quæ erit contingens circulum a b. Quia enim duo latera d c & c e, sunt æqualia duobus lateribus b c & c d trianguli b c d, & angulus c est communis utrique, erit per 4 primi angulus e a c æqualis angulo d b c, angulus autē e a c est rectus, quare angulus d b c est rectus. Per correlarium ergo præcedentis erit linea d b, contingens circulum a b, quod est propositum.
-
-[Diagram: two concentric circles with centre c; d at the left upon the outer circle, e at the top upon the outer circle, a and b upon the inner circle; the lines d c, a e, e c and d b are drawn]
-
-## Eucli.ex Zamb.  Problema 2  Propositio 17
+## Eucli.ex Camp.  Propositio 17
 
 [Margin]
 17
 [/Margin]
 
-A dato signo, dato circulo contingentem rectam lineam ducere.
+SI circulum linea recta contingat, à contactu uero ad centrum linea recta ducatur, necesse est eam super lineam contingentem esse perpendicularem.
 
-THEON ex Zamberto. Sit quidem datum signum α, datus autem circulus sit β γ, oportet iam à dato signo α, dato circulo β γ, contingentem rectam lineam ducere. Suscipiatur enim (per 1 tertij,) centrum circuli, sitq̃ illud δ, & cōiungatur (per primum postulatum) δ α. Et centro quidem δ, spatio uero δ α, (per tertium postulatū) circulus describatur α ε ζ, & ab ipso γ, (per 11 primi) ad ipsā δ α, ad angulos rectos excitetur (per primū postulatum) γ ζ, & coniungantur ζ δ, & α β. Dico quod ab α, signo, circulo β γ, contingens ducta est α β. Quoniam enim δ, signum
+CAMPANVS. Sit linea a b, cōtingens circulum c e, cuius centrum sit d, in puncto c, qui iungatur cum centro per lineam c d. Dico hanc esse perpendicularem super lineam contingentem. Si enim non sit perpendicularis ad ipsam, sit ergo d f perpendicularis ad eandem, quæ secet circunferentiam circuli in puncto e, eritque uterq̃ angulorum qui sunt ad f, rectus, igitur per 18 primi, linea c d, est maior linea d f, quod est impossibile. Constat itaq̃ d c esse perpendicularem super a b: quod est propositum.
 
-<!-- Catchword: centrum -->
+[Diagram: circle with centre d; above it the horizontal tangent line a c f b, touching at c, with e upon the circle beneath f; the lines d c and d f are drawn]
+
+## Eucli. ex Zamb.  Theorema 16.  Propositio 18.
+
+[Margin]
+18
+[/Margin]
+
+Si circulum tetigerit aliqua recta linea, à centro autem in contactum ducta fuerit aliqua recta linea, ipsa ducta, perpendicularis erit contingenti.
+
+THEON ex Zamb. Circulum enim α β γ, tangat recta linea quædam δ ε, in γ signo, & sumatur (per 1 tertij,) centrum circuli α β γ, sitque illud ζ. Et a ζ, in γ, ducatur (per primum postulatum) ζ γ. Dico quod ζ γ, perpendicularis est ipsi δ ε. Si enim non, ducatur (per 12 primi) a ζ, in δ ε, perpendicularis ζ η. Quoniam igitur angulus ζ η γ, rectus est, angulus igitur qui sub ζ γ η, est acutus, maior igitur est angulus ζ η γ, angulo ζ γ η, (per 19 primi) maius latus subtēditur, maior igitur est ζ γ, quàm ζ η. Aequalis autem est ζ γ, ipsi ζ β, ex centro enim in circunferentiam, maior igitur est ζ β, quàm ζ η, minor maiore, quod est impossibile. Igitur ζ η, ipsi δ ε, non est perpendicularis. Similiter quoque ostendemus, quod nulla alia præter ζ γ: igitur ζ γ, perpendicularis est ipsi δ ε. Si circulum tetigerit aliqua recta linea, & quæ sequuntur reliqua, quod demonstrasse oportuit.
+
+[Diagram: circle with α at the top and centre ζ; below, the tangent line δ γ η ε touching at γ; the lines ζ γ and ζ η are drawn, β lying upon ζ η within the circle]
+
+## Eucli.ex Camp.  Propositio 18
+
+[Margin]
+18
+[/Margin]
+
+SI circulum linea recta contingat, & à contactu in circulum linea quædam orthogonaliter ducatur, in eadem centrum esse necesse est.
+
+CAMPANVS. Sit ut prius linea a b contingēns circulum c e in pūcto c, & contactui ducatur linea intra circulum, c e, perpendicularis ad lineam a b. Dico quod centrum circuli est in linea c e. Hæc est cōuersa prioris. Si enim non fuerit centrum in linea c e, sit alibi ubicunque contingat, sitq̃ d, & producatur d c, eritq̃ d c, per præmissam perpendicularis ad lineam a b, quod est impossibile, cum c e, posita sit perpēdicularis ad ipsam.
+
+[Diagram: horizontal tangent line a c b above a circle touching at c; the line c e descends through the circle, d lying within it beside the line]
+
+## Eucli.ex Zamb.  Theorema 17.  Propositio 19.
+
+[Margin]
+19
+[/Margin]
+
+Si circulum tetigerit aliqua recta linea, à contactu autem ipsi tangenti ad angulos rectos recta linea quædam excitetur, in excitata erit centrum circuli.
+
+THEON ex Zamberto. Circuli enim α β γ, tangat recta linea quædam δ ε, in signo γ, & ab ipso γ, (per 11 primi) excitetur ad angulos rectos γ α. Dico quod in ipsa α γ, est centrum circuli. Non enim, sed si possibile est, sit ζ, & (per primum postulatum) coniungatur ζ γ. Quoniam igitur circuli α β γ, recta linea quædam δ ε, tangit, à cētro autē in cōtactū ducta est ζ γ, igitur ζ γ, (per 18 perpendicularis) est ipsi δ ε. Rectus igitur est angulus ζ γ δ,
+
+[Diagram: circle with α at the top, β at the left, ζ within; below, the tangent line δ ε touching at γ; the lines γ α and ζ γ are drawn]
+
+<!-- Catchword: at -->

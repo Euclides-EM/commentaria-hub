@@ -1,17 +1,37 @@
-<!-- Page number: 476 -->
+<!-- Running title: LIBER DECIMVSQVINTVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 477 -->
 
-corpus 12 basium pentagonarum atque æquilaterarum includere delectat, hac uia procedendum est. Manifestum enim est 20 triāgulos, 60 superficiales angulos habere, & quia ad constitutionē uniuscuiusq̃ solidi anguli corporis icosedri quinque superficiales cōueniunt, sicut ex demonstratione 16 tredecimi colligitur, cōstat illud corpus duodecim solidis angulis cōpleri Inuentis igitur ut in antepræmissa, cētris cunctorum triangulorum totum icosedron terminantiū, ea 30 rectis lineis cōtinua, ita q̃ cuiusq̃ cētrū centris omniū circuniacentiū cum quibus cōmunicat in latere per rectas lineas iūgas. Cū ergo hoc feceris, uidebis ex illis 30 in eis duodecim pētagonos cōstitui 12 angulis solidis dati icosedri oppositos, hos itaq̃ pētagonos quēadmodū in antepræmissa fecisti de basibus cubi, æquilateros esse probabis. Necesse est enim, ut quorūlibet triangulorum duorū idem latus habentiū, centra eodē spatio distēt, restat ergo ut eos etiā æquiāgulos esse syllogises. Manifestū est autem ex ratiocinatione 16 tredecimi, datum corpus uiginti basium ab eadem sphæra cuius diameter est tanquam diameter huius corporis uidelicet linea quæ duos eius angulos oppositos cōtinuat, esse circunscriptile. Si igitur hæc diameter per mediū secetur, pūctus sectiōis erit centrum sphæræ circunscribētis. Ab eo itaque ad superficies cunctorum pentagonorum perpendiculares ex 11 undecimi ducito, & à puncto in quo singulis pentagonis obuiauerint, ad singulos eorum angulos rectas lineas dirigito, deinde centrum sphæræ cum singulis angulis ipsorum pentagonorū cōtinuato. Age ergo eos proba esse æquiāgulos hoc modo. Cū enim circuli circūscribentes trigonos icosedri sunt æquales, erunt oēs perpēdiculares à cētro sphæræ ad ipsos uenientes & in eorum centra cadētes, æquales, omnes ergo lineæ à centro sphæræ ad angulos cuiuslibet pentagoni uenientes, sunt æquales. nā anguli pentagonorū sunt centra circulorum trigonos ipsos icosedri circunscribentium ex hypothesi. Igitur ex penultima primi eodē argumētationis genere quo superius in 14 syllogisauimus sectorem  prouenientē in superficie sphæræ cum aliqua plana superficies sphæram secat non super centrum eius, esse circunferentiam continentem circulum, necesse est quinq̃ lineas uenientes à cōcursu perpendicularis ductæ à cētro sphæræ ad superficies omnium pentagonorum ad quinque angulos cuiuscunq̃ pentagoni, esse adinuicē æquales: itaque omnibus duodecim pentagonis est circulus circunscriptibilis. Cum igitur ipsi sint æquilateri, conuincitur eos esse etiā æquiangulos quod oportebat ostendere.
+duobus pentagonis à quorum centris ueniunt cōmune per æqualia. Has igitur perpendiculares binas & binas usq̃ ad angulos quibus cōe latus in quo coeunt oppositū per centra pentagonorū producito, & eisdē angulis duas lineas subtēdito, quas ex demōstratione 17 tredecimi manifestum est esse tanquam latus cubi ab eadem sphæra cū proposito dodecedro circunscriptibili, ideoq̃ patet eas esse æquales, eo quod omnia latera cubi sint æqualia easdēq̃ liquet ex nona undecimi esse æquidistantes: propter hoc quod ambæ æquidistāt cōmuni lateri in quo binæ & binæ perpendiculares cōueniunt. At uero ipsas easdē cōstat ex his perpendicularibus per æqualia diuidi. Itaque per 33 primi cūctæ lineæ cōtinuantes puncta in quibus binæ & binæ perpendiculares super has lineas quas tāquā cubi latera fore diximus, cōcurrunt sunt adinuicē æquales: nam omnes sunt tanquā latus cubi. Igitur ex octaua primi, anguli contenti à binis perpendicularibus, sunt æquales. Quare per 4 eiusdē, lineæ quoq̃ cōtinuantes centra pentagonorum sunt sibiīnuicem æquales: inscriptū ergo est proposito dodecedro corpus uiginti basium triangularium & æqualium laterum sicut iussi eramus.
 
-## Eucli. ex Camp. — Propositio 7
+## Eucli. ex Camp. — Propositio 8
 
 [Margin]
-7
+8
 [/Margin]
 
-Ntra datum corpus duodecim basium pentagonarum æquilaterarum atque æquiangularum, corpus uiginti basium triangularium atque æquilaterarum fabricare.
+Olido duodecim basium pentagonarum atque æquilaterarum proposito, intra ipsum cubum distinguere.
 
-CAMP. Qualiter corpus duodecim basium pentagonarum æquilaterarum atque æquiangularium componere oporteat, ex 17 tredecimi require. Sed qualiter corpus uiginti basium triāgularium æquilaterarū sibi conueniat inscribi, hic addisce. Suorū pētagonorum centris (ut in 14 quarti fit) repertis, ea adinuicē 30 lineis hac lege cōtinua, ut uniuscuiusq̃ pentagoni centro cuiusq̃ pentagoni secum in latere cōicantis iungatur. ita uidelicet, quod unuscuiusq̃ pentagoni centrum centris quinq̃ pentagonorum terminantium uel circuniacentium continuetur. Cum igitur hoc feceris, obuiēt tibi uiginti trianguli ab ijs 30 lineis centra pentagonorum continuantibus cōtenti, eruntq̃ ij uiginti trianguli uiginti solidis angulis ipsius dodecedri oppositi. amplectentes corpus uiginti basium triangularium, quas æquilateras esse demonstrabimus, & erunt 12 solidi anguli huius corporis 20 basium in centris 12 pentagonorum corpus dati dodecedri terminātium. Hos itaque 20 triangulos æquilateros esse sic proba. A centris pentagonorum ducito perpendiculares ad latera, eruntq̃ omnes perpendiculares æquales. Binas ergo & binas probabis ex octaua primi æquos angulos cōtinere. Et quia lineæ cōtinuantes centra pentagonorum his angulis à binis & binis perpendicularibus contētis subtenduntur, cum omnes perpēdiculares sint æquales, erunt ex quarta primi oēs lineæ cōtinuantes centra pentagonorum æquales. Quod est propositi. Perpendiculares autem binas & binas æquales angulos cōtinere, & omnes eas adinuicē esse æquales, sic collige. Ex 5 primi & 47 eiusdem constat singulas earum diuidere latera pentagonorum super quæ cadunt, per æqualia easq̃ esse adinuicē æquales ductis lineis à cētris pentagonorū ad singulos angulos eorum. Quare binæ & binæ super idem latus cadentes in eodem ipsius lateris puncto coibunt, eo quod utraque diuidit illud latus
+CAMPANVS. Cum dodecedron super cubi latera fabricetur ut cōstat ex 17 tredecimi, nimirum eo fabricato sibi cōuenīt cubū inscribi, nam cum duodecim sint pētagoni, si unius cuiusq̃ eorū uni angulo (prout cubi figuram uidebis exigere) chordā unā subtēderis, ex ijs duodecim chordis sex æquilateras rectāgulasq̃ superficies cubi & corpus amplectentes superficies. Aequilateras quidē eas esse, constat ex quarta primi, rectāgulas autē, eodē argumentationis genere quo in sexta huius bases dodecedri dato icosedro inscripti demōstrauimus esse æquiangulas, constat quidē ex 17 tredecimi, propositum dodecedron sphæræ esse inscriptibile. Ergo à centro illius sphæræ ad omnes has quadrilateras superficies, perpendiculares, ut docet 11 undecimi protrahe, & à puncto concursus ad singulos angulos illarū quadrilaterarū superficierum rectas lineas dirige. ac eosdem angulos quadrilaterarū superficierum cū centro sphæræ iunge, eruntq̃ hæ lineæ centrum sphæræ cum angulis quadrilaterarum superficierum cōtinuantes: semidiametri sphæræ, de quarum quadratis (quia dempto quadrato perpendicularis, remanēt ex penultima primi quadrata linearū continuantium punctum concursus perpendicularium cum angulis quadrilaterarū superficierū) necesse est omnibus his quadrilateris superficiebus circulos esse circūscriptibiles, ideoq̃ necesse est eas esse æquiangulas, cum sint æquilateræ. Et quia ex 32 primi anguli cuiusq̃ earum pariter accepti sunt æquales quatuor rectis angulis, sequitur eas esse rectangulas: nihil ergo deest incripto  corpori de ratione cubi.
 
-<!-- Catchword: duo -->
+## Eucli. ex Camp. — Propositio 9
+
+[Margin]
+9
+[/Margin]
+
+Ato dodecedro, sibi demum octoedron includere.
+
+CAMPANVS Cōposito dodecedro ut in 17 tertijdecimi, sex latera suarum superficierū ea uidelicet quæ cathetos sup sex lineas opposita latera superficierum cubi per æqualia secātes erectos tanquā eorū corausti iungūt per æqualia diuide, eaq̃ bina & bina adinuicē cōposita cōtinua per tres lineas, quæ seinuicem super medium pūctum diametri cubi ex 48 undecimi per æqualia secabunt, eritq̃, ut quæq̃ duæ earum trium seinuicem quoq̃ ad angulos rectos diuidāt. Si igitur harum triū linearum extremitates per 12 lineas rectas continuaueris, prouenīet tibi corpus octo basium triangularium & æquilaterarum ex 4 primi, uel si mauis ex penultima primi. Quod oportebat ostendere.
+
+## Eucli. ex Camp. — Propositio 10
+
+[Margin]
+10
+[/Margin]
+
+Ntra assignatum dodecedron, pyramidem quatuor basium triangularium atq̃ æquilaterarum adhuc restat distinguere.
+
+CAMPANVS Assignato dodecedro inscribe cubū ex 8 huius, cuboq̃ pyramidem ex prima. Cum igitur anguli pyramidis sint in angulis cubi ut patet ex ratiocinatione primæ, & anguli cubi in angulis dodecedri ex ratiocinatione octauæ: erūt quoque anguli pyramidis in angulis dodecedri, itaque cōstat q̃ uolumus.
+
+<!-- Catchword: Eucli. -->

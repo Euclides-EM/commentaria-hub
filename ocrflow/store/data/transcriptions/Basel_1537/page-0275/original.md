@@ -1,39 +1,41 @@
-<!-- Page number: 264 -->
+<!-- Running title: LIBER DECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 265 -->
 
-## THEON Lemma,
+cies a medialis, cui ponatur superficies b esse cōmunicans, dico superficiem b esse medialem, quod sic constabit. Sit linea c d rationalis in lōgitudine, adiungaturq̃ ei superficies c e, quæ sit æqualis superficiei a, quod hoc modo fiet. Inueniatur linea c f ad quā sic se habeat unū ex lateribus superficiei a, sicut linea c d se habet ad reliquū : hæc autē linea qualiter reperiatur, in 10 sexti dictum est, eritq̃ ex 15 eiusdem superficies d f æqualis a. Itemq̃ eodem modo ad lineam e f adiūgatur superficies e g, quæ sit æqualis b : erit itaq̃ per 20 linea c f potentia tantum rationalis, erit quoq̃ lineæ c d in longitudine incommensurabilis. Et quia a & b erant cōmunicantes ex hypothesi, erunt quoq̃ c e & e g eis æquales cōmunicantes, itaq̃ per primam sexti & per primā partem decimæ huius, erunt duæ lineæ c f & f g, cōmunicantes in longitudine. Est igitur linea f g rationalis in potentia tantum, & lineæ e f incōmensurabilis in longitudine, quare per 19 superficies e g erit meqialis{printer-error-correction:medialis}, cum linea e f sit rationalis in longitudine sicut c d sibi æqualis. Cum sit ergo b æqualis e g, erit quoq̃ b medialis, quod est propositum. Et nota quod omnes superficies mediales communicantes, componunt superficiem medialem. Vnde tota d g est medialis, quia cum duæ lineæ c f & f g sint rationales in potentia tantum, & non communicātes in longitudine, sequitur ut tota c g sit rationalis in potentia tantum, & non cōmunicans c d in longitudine, itaq̃ per 19 d g est medialis. Eodemq̃ modo si sint plures.
 
-Si fuerint binæ rectæ lineæ, est sicut prima ad secundam sic quod à prima ad id quod sub duabus rectis lineis.
+[Diagram: two rectangles side by side labelled b and a; below them a larger rectangle with corners c (top left) and d (top right), divided by a horizontal line f–e, g at the bottom left]
 
-Sint binæ rectæ lineæ, ζ ε, ε η. Dico quod est sicut ζ ε, ad ε η, sic est quod ex ζ ε, ad id quod sub ζ ε, & ε η. Describatur enim (per 46 primi ex ζ ε, quadratum δ η, compleaturque ζ η. Quoniam igitur est sicut ζ ε ad ε η, sic est ζ δ, ad ζ η, & est quidem ζ δ, id quod ex ζ ε, at ζ η id est quod sub δ ε, & ε η, hoc est quod sub ζ ε, & ε η, est igitur sicut ζ ε, ad ε η, sic quod ex ζ ε, ad id quod sub ζ ε, & ε η, similiter quoq̃ & sicut quod sub η ε, & ε ζ, ad id quod ex ε ζ, hoc est sicut η ζ, ad δ ζ, sic ε η, ad ε ζ.
+## Eucli.ex Zamb. Theorema 20 Propositio 23
 
-[Diagram: rectangle divided by a vertical line into two; labels: ε above the divider, η at top right, ζ below the divider]
+[Margin]
+23
+[/Margin]
 
-## Eucli. ex Zamb. Theorema 19 Propositio 22
+## Quæ mediæ commensurabilis, media est.
+
+THEON ex Zamberto. Sit media α, & ipsi α commensurabilis esto β. Dico quod & β media est. Exponatur enim rationalis γ δ, & ei quod ex α sit æquale ad γ δ comparetur area rectangula γ ε (per 45 primi), latitudinē efficiens ipsam ε δ. Rationalis igitur est (per præcedentem) ε δ, incommensurabilisq̃ ipsi γ δ longitudine, ei autem quod ex β æquale ad γ δ comparetur (per 44 primi) area rectangula γ ζ, latitudinem efficiens δ ζ. Quoniam igitur commensurabilis est α ipsi β, commensurabile est quoq̃ id quod ex α ad id quod ex β. Sed ei quidem quod ex α, æquum est ε γ : ei autem quod ex β, æquum est γ ζ. Cōmensurabile igitur est ipsi ε ζ, estq̃ sicut ε γ ad γ ζ, sic est ε δ ad δ ζ. Cōmensurabilis igitur est (per 11 decimi) ε δ ipsi δ ζ longitudine. Rationalis autem est ε δ, & ipsi δ γ incommensuralis{printer-error-correction:incommensurabilis} longitudine. Rationalis igitur est & δ ζ & ipsi δ γ longitudine incōmensurabilis. Igitur γ δ & δ ζ (per 13 decimi) rationales sunt potentia tantum cōmensurabiles. Quod autem sub rationalibus potentia tantum cōmensurabilibus rectis lineis comprehenditur rectangulum, irrationale est (per 21 decimi) & illud potens, irrationalis est, appellaturq̃ media : potens igitur id quod sub γ δ & δ ζ, media est, potestq̃ β quod sub γ δ & δ ζ sit, media igitur est β, quod erat ostendendum.
+
+[Diagram: two horizontal segments labelled α and β; below, a rectangle with ε at top left, δ on the top side where a vertical line divides it, ζ at top right, and γ below the rectangle]
+
+CORRELARIVM. Hinc igitur est manifestum, quod mediæ areæ commensurabilis media est, possunt enim eas rectæ lineæ quæ potentia sunt commensurabiles, quarum altera media, quare & reliqua media est. Similiter autem eis quæ de rationalibus dicta sunt, sequitur & in medijs ut mediæ longitudine cōmensurabilis, media appelletur, eiq̃ cōmensurabilis non tantum longitudine sed & potentia, quoniam in uniuersali longitudine cōmensurabiles omnino & potentia. Si uero mediæ commensurabiles potentia tantum, dicuntur mediæ potentia tantum commensurabiles.
+
+## Eucli. ex Camp. Propositio 22
 
 [Margin]
 22
 [/Margin]
 
-Quod à media ad rationalem comparatum, latitudinem efficit rationalem, & ei ad quam comparatur longitudine incommensurabilem.
-
-THEON ex Zamberto. Sit (per 21 decimi) media quidem α, rationalis autem γ β, & ei quidem quod ex α, æqua ad β γ, comparctur{printer-error-correction:comparetur} (per 45 primi,) area rectangula β δ, latitudinem efficiens γ δ. Dico quod rationalis est γ δ, & incommensurabilis ipsi γ β longitudine. Quoniã (per 21 decimi, α media est, δ aream potest comprehensam sub rationalibus potentia tantum commensurabilibus, poßit ipsam η ζ, potest autem & β δ, æqualis igitur est β δ, ipsi η ζ, est autẽ & ei æquiangula. Aequaliũ autẽ & æquiangulorũ parallelogrãmorũ (per 14 sexti, reciproca sunt latera, quæ circũ æquales angulos, proportionaliter igitur est sicut β γ ad ε η, sic ε ζ ad γ δ, est igitur (per 22 sexti, & sicut id quod ex β γ ad id quod ex ε η, sic est id quod ex ε ζ, ad id quod ex γ δ. Cõmensurabile autẽ est (per hypothesin,) quod ex β γ, ei quod ex ε η. Rationalis enim est utraq̃ ipsarũ. Cõmensurabile igitur est (per 11 decimi,) & quod ex γ ζ{printer-error-correction:ε ζ} ei quod ex γ δ. Rationale autem est quod ex ε ζ, rationale igitur & quod ex γ δ, rationalis igitur est γ δ. Et quoniã incommẽsurabilis est ε ζ, ipsi ε η longitudine (potẽtia enim tantũ sunt cõmensurabiles) sicut autẽ ε ζ, ad ε η, sic (per lemma præcedens) quod ex ε ζ, ad id quod sub ε ζ, & ε η, incõmẽsurabile igitur est (per 11 decimi) quod ex ε ζ, ei quod sub ζ ε, & ε η. Sed ei quidẽ quod ex ε ζ, commensurabile est id quod ex γ δ, rationales enim sunt potentia, ei autem quod sub ζ ε, & ε η, commensurabile est id quod sub δ γ, & γ β, æqualia enim sunt ei quod ex α. Incõmensurabile igitur est (per 13 decimi) quod ex γ δ ei quod sub δ γ, & γ β. Sicut autem quod ex γ δ, ad id quod sub δ γ, & γ β, sic (per lẽma præcedens) est δ γ ad γ β. Incõmensurabilis igitur est δ γ, ipsi γ β longitudine. Rationalis igitur est γ δ, & ipsi γ β longitudine commensurabilis{printer-error-correction:incommensurabilis}. Quod erat demonstrandum.
-
-[Diagram: tall rectangle with γ at lower left and β below its lower right corner; beside it a smaller rectangle with ζ at top left, ε at bottom left, η at bottom right; below, a horizontal segment labeled α]
-
-## Eucli. ex Camp. Propositio 21
-
 [Margin]
-21
+Zamb. 26
 [/Margin]
 
-OMnis linea communicans mediali, est medialis.
+{dropcap:O|lines=?|style=decorated|decoration="a moon face"}## Mnis differentia qua abundat mediale à mediali, irrationalis esse probatur.
 
-CAMPANVS. Sit linea a medialis, cui ponatur linea b esse communicans siue in longitudine siue in potentia tantum. Dico quod etiam linea b est medialis. Sit enim linea c d rationalis in lõgitudine, cui adiungatur superficies c f æqualis quadrato lineæ a, & item superficies e g æqualis quadrato lineæ b. hoc autem qualiter fiat, in præmissæ demõstratione dictum est. Eritq̃ per præmissam linea d f rationalis in potentia tantum, & incommensurabilis lineæ c d. Et quia per primam sexti e g ad c f sicut f g ad d f, communicat autem e g cum c f eo quod quadratum b communicat cum quadrato a per hypothesin, quibus quadratis dictæ superficies positæ sunt æquales, sequitur per primam partem decimæ ut linea f g communicet cum linea d f, quare f g est rationalis in potentia tãtum, sicut est d f, & incommensurabilis in longitudine lineæ e f. cum linea d f sibi communicans sit incommensurabilis eidem e f, eo quod suæ æquali. Hoc enim probatum est in 8, quod si fuerint duæ quantitates cõmunicantes, cuicunque una earum non communicat, nec reliqua. itaque per 19 erit superficies e g medialis, & eius latus tetragonicũ quod est b, mediale. Quod est propositum.
+CAMPANVS. Sit utraq̃ duarū superficierū a b & a, medialis : dico quod superficies b quæ est earum differentia, est irrationalis. Sit enim linea c d rationalis in longitudine, cui adiungatur superficies d e æqualis superficiei a, & superficies d f æqualis totali superficiei a b, hoc autē qualiter fiat in præmissa docuimus. Quia ergo d f est æqualis a b & d e æqualis a, erit per conceptionē g f æqualis b. Si itaq̃ superficies b non est irrationalis sed rationalis, erit & f g sua æqualis rationalis. At cū
 
-CAMPANI additio. Similiter quoq̃ omnis superficies communicans superficiei mediali, medialis esse cõuincitur. Si enim superfi
+[Diagram: a rectangle divided by a horizontal line into a smaller upper part b and a larger lower part a; beside it a rectangle with f at top left, divided by a horizontal line e–g near the top, with c at bottom left and d at bottom right]
 
-[Diagram: tall rectangle with g at top right, divided by a horizontal line with e at its left and f at its right; bottom corners labeled c (left) and d (right); below, two horizontal segments labeled b and a]
+<!-- Signature: z -->
 
-<!-- Catchword: cies -->
+<!-- Catchword: linea -->

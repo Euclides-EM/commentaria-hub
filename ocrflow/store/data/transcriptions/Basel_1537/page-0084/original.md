@@ -1,39 +1,37 @@
-<!-- Running title: LIBER TERTIVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 75 -->
+<!-- Page number: 76 -->
 
-*Reliqua igitur β κ γ circunferentia (per 3 cõmunem sententiam) reliquæ ε λ ζ: circunferentiæ est æqualis. In æqualibus igitur circulis æquales anguli æqualibus circunferentijs insistunt: siue si ad circunferentias, siue si ad centra consistant, quod demonstrasse oportuit.*
+lineæ ad extremitates chordarum: quæ sint d a, d c, h e, h g: & quia circuli positi sunt fore æquales: erunt hæ semidiametri æquales: & quia linea a c posita est æqualis lineæ e g, erit per 8 primi, angulus d æqualis angulo h totali: quare per 25 huius, erit arcus a b c, æqualis arcui e f g: sicq̃ patet primum. Secundum sic. Sit e g maior a c: eritq̃ per 25 primi, angulus h, maior angulo d. Fiat ergo angulus f h g æqualis angulo d: eritq̃ per 25 huius, arcus f g, æqualis arcui a b c. Quare arcus e f g, est maior arcu a b c, quod est secundum propositum.
 
-## Eucli ex Camp. Propositio 26.
+## Eucli. ex Zamb. Theorema 25. Propositio 28.
 
-26 SI in æquis circulis æqui sumãtur arcus, infra illos, formatos angulos qui supra centra eorum seu supra circunferentias constituantur, æquos esse necesse est.
+28 In æqualibus circulis æquales rectæ lineæ æquales circunferentias auferunt, maiorem maiori, minorem autem minori.
 
-CAMPANVS. Sint ut prius duo circuli æquales: a b c cuius centrum d, & e f g cuius centrũ h: sintq̃ duo arcus a b c & e f g æquales: fiantq̃ super ipsos arcus, duo anguli in centro qui sint d & h: ductis a d, c d, e h, g h. Itemq̃ super eosdẽ arcus fiant duo alij anguli in circunferentia, qui sint b & f: ductis lineis a b, c b, e f & g f. Dico duos angulos d & h, ad inuicem esse æquales: itemq̃ duos b & f: ad inuicem esse æquales. Et est hæc cõuersa prioris. Si enim non sunt d & h anguli ad inuicem æquales: sit ergo h maior, à quo abscindatur angulus k h g, qui sit æqualis angulo d, eritq̃ per præmissam, arcus k e f g, æqualis arcui a b c. Sed duo arcus a b c & e f g, positi sunt æquales: accidet ergo partem esse æqualem toti: quod est impossibile. Quare anguli d & h totales, sunt æquales. Simili quoq̃ modo probabis angulos b & f, esse æquales: uel si mauis, probato quod anguli d & h sint æquales: sequitur b & f esse æquales per 19 huius, & è conuerso.
+THEON ex Zamberto. *Sint æquales circuli α β γ & δ ε ζ, & in eis sint æquales rectæ lineæ β γ & ε ζ: circunferentias β α γ & ε δ ζ maiores auferentes, circunferentias autem β η γ & ε θ ζ minores. Dico quod circunferentia β α γ maior, æqualis est circunferentiæ ε δ ζ maiori: circunferentia uero β η γ minor, æqualis est circunferẽtiæ ε θ ζ minori. Suscipiantur enim circulorum centra (per primã tertij): sintq́; κ λ, & coniungantur κ β, κ γ, ε λ & λ ζ. Et quoniam circuli sunt æquales, æquales quoq; sunt quæ ex centris (per primam diffinitionem tertij). Duæ igitur β κ & κ γ, duabus ε λ & λ ζ sunt æquales. Et basis β γ (per hypothesin) basi ε ζ est æqualis: angulus igitur β κ γ (per 8 primi) angulo ε λ ζ est æqualis: æquales autem anguli (per 26 tertij) in æqualubus circunferentijs insistunt: etiam quando ad centra fuerint constituti. Circunferentia igitur β η γ, æqualis est circunferentiæ ε θ ζ: est autem totus circulus α β γ, toti circulo δ ε ζ æqualis. Reliqua igitur circunferentia β α γ (per 3 communem sententiam) reliquæ circunferentiæ ε δ ζ est æqualis. In circulis æqualibus igitur æquales rectæ lineæ, æquales circunferentias auferunt: maiorem maiori, minorem autem minori, quod demonstrasse oportuit.*
 
-[Diagram: circle with b at the top, centre d, a at lower left and c at lower right; the triangle a b c with lines from a and c to d]
+[Diagram: circle with α at the top, centre κ, the chord β γ with a triangle from the centre upon it, β at lower left, γ at lower right, η at the bottom]
 
-[Diagram: circle with f at the top, centre h, e at lower left and g at lower right, k at the bottom of the circumference; lines from e and g to h and f, and from h to k]
+[Diagram: circle with δ at the top, centre λ, the chord ε ζ with a triangle from the centre upon it, ζ at lower right, θ at the bottom]
 
-## Eucli. ex Zamb. Theorema. 25. Propositio. 26. Conuersa præcedentis.
+## Eucli. ex Camp Propositio 28.
 
-26 In æqualibus circulis anguli qui æqualibus circunferentijs insistunt, sibi inuicem sunt æquales: siue si ad centra, siue si ad circunferẽtias fuerint constituti.
+28 CIrculorum æqualium æquos arcus, æquas chordas habere necesse est.
 
-THEON ex Zamberto. *In æqualibus enim circulis α β γ, & δ ε ζ, super æqualibus circunferẽtijs β γ & ε ζ, ad centra γ η θ: anguli consistant β η γ & ε θ ζ: ad circunferentias aũt β α γ & ε δ ζ. Dico quod angulus β η γ æqualis est angulo ε θ ζ: & angulus β α γ æquus est angulo ε δ ζ. Siquidem angulus β η γ æquus est angulo ε θ ζ: manifestum est quod angulus etiam β α γ æquus est angulo ε δ ζ per 20 tertij. Si uero non: alter eorum maior est: sit maior angulus β η γ: & constituatur per 23 primi, ad lectam lineam β η, ad datumq́; in ea signum η: angulo ε θ ζ æqualis angulus β η κ. Anguli autem æquales super æqualibus circumferentijs consistunt, per 26 tertij, quando ad centra fuerint: æqualis igitur est circunferẽtia β κ: circunferentiæ ε ζ. Sed ε ζ, ipsi β γ est æqualis: & β κ igitur, ipsi β γ est æqualis: minor maiori, quod est impossibile. Angulus igitur β η γ, angulo ε θ ζ inæqualis non est: æqualis igitur. Et est ipsius quidem anguli β η γ dimidius angulus qui ad α, per 20 tertij. Ipsius autẽ ε θ ζ dimidius angulus qui ad δ per eandem. Aequalis igitur est angulus qui ad α, angulo qui ad δ. In æqualibus igitur circulis anguli super æqualibus circunferentijs consistentes, sibi inuicem sunt æquales: siue si ad centra, siue si ad circunferentias fuerint constituti, quod demonstrasse oportuit.*
+CAMPANVS. Sint duo circuli æquales a b c, cuius centrum d, & e f g cuius centrum h: sitq̃ arcus a b c æqualis arcui e f g. Dico quod chorda a c, est æqualis chordæ e g. Et est est hæc cõuersa primæ partis præmissæ. Ducantur lineæ d a, d c, h e, h g: eruntq̃ per 26 huius, anguli d & h æquales. Quare per quartam primi, erit a c, æqualis e g, quod est propositũ. Quæcuuq̃ autem probatæ sunt passiones de diuersis circulis æqualibus: intellige multo fortius ueras esse de eodem.
 
-[Diagram: circle with α at the top, centre η, β at lower left, γ at lower right and κ below; the angles β α γ and β η γ drawn as nested chevrons]
+[Diagram: circle with d within, a at lower left, c at lower right, b at the bottom; the triangle a b c inscribed with apex at the top and lines from a and c to d]
 
-[Diagram: circle with ε at upper left and ζ at upper right, centre θ, and δ at the bottom; the angles ε θ ζ and ε δ ζ drawn as nested chevrons opening upward]
+[Diagram: circle with h within, e at lower left, g at lower right, f at the bottom; the triangle inscribed with apex at the top and lines from e and g to h]
 
-## Eucli. ex Camp. Propositio .27.
+## Eucli. ex Zamb. Theorema 26. Propositio 29. Conuersa præcedentis.
 
-27 SI in circulis æqualibus æquæ lineæ arcus resecent, arcus quoq̃ æquos esse: si autem lineæ inæquales fuerint, arcus quoq̃ inæquales, & à maiore linea maiorem arcum, à minore uero minorem abscindi necessarium est.
+29 In æqualibus circulis, sub æqualibus circunferentijs æquales rectæ lineæ subtenduntur.
 
-CAMPANVS. Sint duo circuli æquales, a b c cuius centrum d, & e f g cuius centrum h: sitq̃ corda a c æqualis chordæ e g. Dico duos arcus a b c & e f g, quos prædictæ chordæ ex prædictis circulis resecãt. esse æquales. Quod si chorda e g ponatur maior chorda a c: dico arcum e f g esse maiorem arcu a b c. Primum quidem sic probatur. Ducantur à centris
+THEON ex Zamberto. *Sint æquales circuli α β γ & δ ε ζ, & in eis æquales sumantur circumferentiæ β η γ & ε θ ζ, coniunganturq́; β γ & ε ζ rectæ lineæ. Dico quod æqualis est recta linea β γ ipsi ε ζ rectæ lineæ. Sumantur enim (per 1 tertij) circulorum centra: sintq́; κ & λ, & coniungantur β κ & κ γ, ε λ & λ ζ. Et quoniam circunferentia β η γ æqualis est ipsi ε θ ζ circunferentiæ: æqualis est angulus β κ γ angulo ε λ ζ (per 10 diffinitionem tertij). Et quoniã circuli α β γ & δ ε ζ sunt æquales: & quæ ex centris quoq; sunt æquales (per 1 eiusdem diffinitonem. Duæ igitur β κ & κ γ, duabus ε λ & λ ζ sunt æquales, & angulos comprehendunt æquales. Basis igitur β γ (per 4 primi) basi ε ζ est æqualis. In æqualibus igitur circulis, æqualibus circunferentijs æquales rectæ lineæ subtenduntur, quod demonstrasse oportuit.*
 
-[Diagram: circle with centre d, a at left, c at right, b at bottom; the triangle with apex d above the chord a c]
+[Diagram: circle with α at the top, centre κ, the chord β γ with a triangle from the centre upon it, β at lower left, γ at lower right, η at the bottom]
 
-[Diagram: circle with centre h, e at left, g at right, f at lower left; lines from e and g to h and to f]
+[Diagram: circle with δ at the top, centre λ, the chord ε ζ with a triangle from the centre upon it, θ at the bottom]
 
-<!-- Signature: g 2 -->
-
-<!-- Catchword: lineæ -->
+<!-- Catchword: Eucli. -->

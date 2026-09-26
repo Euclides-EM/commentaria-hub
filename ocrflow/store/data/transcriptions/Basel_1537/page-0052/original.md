@@ -1,37 +1,43 @@
-<!-- Running title: LIBER SECVNDVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 43 -->
+<!-- Page number: 44 -->
 
-[Margin]
-4
-[/Margin]
+æquale c m per 36 primi. erit a h æquale gnomoni qui circūstat quadrato l g, ergo addito utriq́ꝫ, quadrato l g, erit a h cum quadrato l g æquale quadrato e f, quod est propositū.
 
-Si recta linea secetur utcunq́ꝫ, quadratū quod fit ex tota, æquū est quadratis quæ fiunt ex segmentis, & ei quod bis sub segmentis cōprehenditur rectangulo.
-
-THEON ex Zamb. Recta enim linea α β, secetur utcunq́ꝫ in signo γ. Dico quod quadratū α β, æquum est quadratis quæ fiunt ex α γ & γ β, & bis sub α γ & γ β cōtento rectāgulo. Describatur enim (per 46 primi) ex α β, quadratū α δ ε β, & cōnectatur β δ, & (per 31 primi) per γ, utrisq́ꝫ α δ & β ε parallelus excitetur γ ζ, dispescens diametrū β δ in η signo, (& per eandem) per η, utrisq́ꝫ α β & δ ε parallelus excitetur θ κ. Et quoniā parallelus est γ ζ ipsi α δ, & in eas incidit β δ (per 28 & 29 primi) angulus exterior ε η β æqualis est interiori & opposito α δ β. Sed angulus α δ β, ei qui sub α β δ (per 5 primi) est æqualis, quoniā latus β α, lateri α δ est æquale. Igitur angulus γ η β, angulo η β γ est æqualis: quare (per 6 primi) & latus β γ, lateri γ η est æquale. Sed γ β ipsi η κ est æquale, & γ η ipsi κ β: igitur η κ ipsi κ β est æquale. Aequilaterū igitur est, γ η κ β. Dico etiam quod rectangulū. Quoniā parallelus est γ η ipsi β κ, & in eas incidit linea γ β, anguli igitur κ β γ & η γ β (per 29 primi) duobus rectis sunt æquales, angulus autē κ β γ rectus est: rectus igitur est & angulus β γ η. Quare (per 34 primi) & ex opposito anguli γ η κ & η κ β sunt recti. Rectangulū igitur est γ η κ β. Ostensum autē est quod & æquilaterū, quadratum igitur est, estq́ꝫ ex β γ, ac per hoc etiam θ ζ quadratū est, & est ex θ η, hoc est α γ. Quadrata igitur θ ζ & γ κ, sunt ex lineis α γ & γ β. Et quoniam α η æquū est ipsi η ε, estq́ꝫ α η id quod sub α γ & γ β, æqualis nāq́ꝫ est η γ ipsi γ β, igitur η ε (per 43 primi) æquū est ei quod sub α γ & γ β. Igitur & α η & η ε, æqualia sunt ei quod bis est sub α γ & γ β. Quadrata aūt θ ζ & γ κ, sunt ex α γ & γ β. Quatuor igitur β ζ, γ κ, α η & η ε, sunt eis æqualia quæ fiunt ex α γ & γ β quadratis, & ei quod fit bis sub α γ & γ β rectāgulo. Sed θ ζ, γ κ, α η, & η ε, sunt totū α δ ε β, quod est quadratū quod ex α β. Quadratū igitur quod fit ex α β, æquū est eis quæ fiunt ex α γ, & γ β quadratis, & ei quod bis sub α γ & γ β cōprehenditur rectāgulo. Si recta igitur linea secetur utcūq́ꝫ, quadratū quod fit ex tota æquū est eis quæ ex sectionibus fiunt quadratis, & ei quod bis cōprehenditur sub sectionibus rectāgulo, qd' demōstrasse oportuit.
-
-[Diagram: square α δ ε β (α top left, β top right, δ bottom left, ε bottom right); γ on top side; diagonal β δ; vertical line γ ζ meeting the bottom side at ζ; horizontal line θ κ through the intersection η of γ ζ with the diagonal, θ on side α δ, κ on side β ε]
-
-ALITER idem ostendere. Dico quod quadratū α β, æquū est eis quæ fiunt ex α γ & γ β quadratis, & ei quod bis sub α γ & γ β cōprehenditur rectangulo. In eadē enim descriptione, quoniā æquale est α β ipsi α δ, æqualis est angulus α β δ ei qui sub α δ β, (per 5 primi.) Et quoniā omnis trianguli tres anguli duobus rectis sunt æquales (per 32 primi) trianguli α β δ tres anguli α δ β, δ β α, & β α δ, duobus rectis sunt æquales (per eandē.) Rectus autē est angulus β α δ, reliqui ergo anguli α β δ, & α δ β, uni recto sunt æquales, & sunt æquales alter alteri, uterq́ꝫ igitur α β δ & α δ β, dimidiū est recti. Angulus autē β γ η, rectus est, æquus enim est ei qui ex opposito ad α (per 29 primi.) Reliquus igitur angulus γ η β, dimidiū est recti. Angulus igitur γ η β, angulo γ β η est æqualis, quare & latus β γ, æquale est ipsi γ η, sed β γ ipsi η κ est æquale, & γ η ipsi β κ est æquale. Aequilaterū igitur est γ κ, habet autē & angulū γ β κ, rectū: quadratū est igitur γ κ, & est ex β γ, & ob id etiā θ ζ quadratū est, & æquū est ei quod ex α γ: igitur γ κ & θ ζ, sunt quadrata, & æqualia sunt eis quæ ex α γ & γ β fiunt quadratis. Et quoniā æquū est α η ipsi η ε, estq́ꝫ α η id quod sub α γ & γ β, æqualis enim est η γ ipsi γ β, & ε η igitur æquū est ei quod sub α γ & ε β: igitur α η & η ε, sunt æqualia ei quod bis fit sub α γ & γ β. Sunt autē γ κ & θ ζ, æqualia eis quæ fiunt ex α γ & γ β quadratis. Igitur γ κ, θ ζ, α η, & η ε, sunt æqualia eis quæ ex α γ & γ β, & ei quod bis est sub α γ & γ β, sed γ κ, θ ζ, α η, & η ε, totum sunt α ε quadratū quod fit ex α β. Quadratū igitur quod fit ex α β, æquū est quadratis quæ fiunt ex α γ & γ β, & ei rectangulo quod bis cōprehenditur sub α γ & β γ, quod ostendere oportuit.
-
-CORRELARIVM. Ex hoc manifestū est, quod in quadratis \* areis parallelogrāma quæ circa dimetientē, quadrata sunt.
-
-[Margin]
-χωρίοις
-[/Margin]
-
-## Euclides ex Campano. Proppsitio 5
+## Eucli. ex Zamb. Theorema 5 Propositio 5
 
 [Margin]
 5
 [/Margin]
 
-SI linea recta per duo æqualia duoq́ꝫ inæqualia secetur, quod sub inæqualibus totius sectionis rectangulū continetur cum eo quadrato quod ab ea quæ inter utrasq́ꝫ est sectiōes describitur, æquū est ei quadrato quod à dimidio totius lineæ in se ducto describitur.
+Si recta linea secetur in æqualia & nō æqualia, rectangulū comprehensum sub æqualibus segmētis totius, una cum quadrato eius quæ media est sectionū, æquum est ei quod à dimidia fit quadrato.
 
-CAMPANVS. Sit linea a b diuisa per æqualia in puncto c, & per inæqualia in puncto d. dico quadratū c b, esse æquale ei quod fit ex a d in d b, & quadrato c d. Describam quadratū c b, quod sit c b f e, in quo protrahā diametrū e b, & ducā d g æquidistantē b f, quæ secet diametrū e b in puncto h, & à puncto h educā æquidistantem lineæ a b, quæ sit h K, secans lineā b f in puncto m, & lineam c e in puncto l, & protrahā a K, æquidistantē c e. Eritq́ꝫ per correlariū præmissæ, utraq́ꝫ duarū supficierū l g & d m, quadrata, & per 43 primi, duo supplemēta c h & h f, æqualia. Ergo addito quadrato d m, utriq́ꝫ, erit parallelogrammū c m æquale parallelogrāmo d f, & quia a l est
+THEON ex Zamb. Recta enim linea quædā α β secetur quidem in æqualia in γ, & in non æqualia in δ. Dico quod rectangulū cōprehensum sub α δ & δ β una cum quadrato quod ex γ δ, æquū est ei quod fit ex γ β quadrato. Describatur enim (per 46 primi) ex γ β, quadratū γ ε ζ β, & (per primū postulatū) cōnectatur β ε, & (per 31 primi) per δ, utrisq́ꝫ & γ ε & β ζ parallelus excitetur δ η, secans β ε in puncto θ, & rursus (per eandē) per θ, utrisq́ꝫ α β & ε ζ parallelus excitetur κ μ æqualis ipsi α β: & rursus (per eandē) per α, utrisq́ꝫ γ λ & β μ parallelus excitetur α κ. Et quoniā (per 43 primi) supplementū γ θ æquū est supplemento θ ζ, cōmune ponatur δ μ: totum igitur γ μ, toti δ ζ est æquale. Sed γ μ ipsi α λ est æquale, quoniam α γ ipsi γ β est æqualis, & α λ igitur ipsi δ ζ est æquale. Cōmune ponatur γ θ, totum igitur α θ ipsis δ λ & δ ζ est æquale. Sed α θ æquū est ei quod sub α δ & δ β, æqualis enim est δ θ ipsi δ β, & ζ δ λ est μ ν ξ gnomon. Gnomon igitur μ ν ξ, æqualis est ei quod sub α δ & δ β. Commune ponatur λ η, quod æquū est ei quod fit sub γ δ: gnomon igitur μ ν ξ & λ η, sunt æqualia rectangulo cōprehenso sub α δ & δ β, & ei quod fit ex γ δ quadrato (per 36 primi. Sed gnomon μ ν ξ & λ η, totum sunt quadratū γ ε ζ β quod est ex β γ. Rectangulum igitur cōprehensum sub α δ & δ β una cum quadrato quod ex γ δ fit, æquū est ei quadrato quod fit ex γ β. Si recta igitur linea & quæ sequuntur reliqua ut in theoremate, quod oportuit demonstrasse.
 
-[Diagram: base line a c d b; square c b f e above segment c b, with e over c, f over b, and g on top side e f above d; diagonal e b; vertical line d g cutting the diagonal at h; horizontal line K l h m through h, K above a, l on c e, m on b f]
+[Diagram: line α γ δ β with α at far left; square γ ε ζ β below segment γ β (ε bottom left, ζ bottom right); diagonal β ε; vertical δ η cutting the diagonal at θ; horizontal line κ λ θ μ (κ below α, λ on γ ε, μ on β ζ); vertical α κ at far left; circle inscribed in the square marking the gnomon, with letters ν, μ, ξ inside]
 
-<!-- Signature: d 4 -->
+## Eucli. ex Camp. Propositio 6
 
-<!-- Catchword: æquale -->
+[Margin]
+6
+[/Margin]
+
+SI recta linea in duo æqualia diuidatur, alia uero ei linea in longū addatur, quod ex ductu totius iam cōpositæ in eam quæ iam adiecta est, cum eo quod ex ductu dimidiæ in seipsam, æquū est ei quadrato quod ab ea quæ constat ex adiecta & dimidia in seipsam ducta describitur.
+
+CAMPANVS. Sit linea a b diuisa per æqualia in puncto c, eiq́ꝫ addatur linea b d: dico ꝙ quadratū c d, quod sit c d e f, æquale est ei quod fit ex tota a d in b d & quadrato c b. Producam in quadrato prædicto e d, diametrū d e, & ducam lineam b g æquidistantē d f, quæ secet diametrū d e in puncto h, à quo h, producam æquidistantē lineæ a b, quæ sit h k, secans d f in puncto m, & c e in puncto l, & producam a K, æquidistantē e l, eritq́ꝫ per 36 primi, a l, æquale c h. At c h, erit æquale h f, p̄ 43 primi, quare a l, est æquale h f. Ergo addito c m utrobiq́ꝫ, erit a m æquale toti gnomoni circūstanti l g, quare l g addito utrobiq́ꝫ, erit a m cū l g, æquale toti quadrato c f. Et quia utraq́ꝫ duarū superficierū l g & b m est quadrata per correl. 4 huius patet propositū.
+
+[Diagram: same woodcut as the preceding proposition: base line a c d b; square c b f e above segment c b, with g on top side e f; diagonal e b; vertical line d g cutting the diagonal at h; horizontal line K l h m through h, K above a, l on c e, m on b f]
+
+## Eucli. ex Zamb. Theorema 6. Propositio 6.
+
+[Margin]
+6
+[/Margin]
+
+Si recta linea bifariam secetur, adijciaturq́ꝫ ei aliqua recta linea in rectū, rectangulū comprehensum sub tota cum apposita & apposita, una cum quadrato quod fit à dimidia, æquū est ei quod fit ex coniuncta ex dimidia & apposita tanq́ꝫ ex una descripto quadrato.
+
+THEON ex Zamb. Recta enim linea α β secetur bifariā in signo γ, apponaturq́ꝫ ei aliqua recta linea in rectum β δ. Dico quod rectangulum cōprehensum sub α δ & δ β, una cum quadrato quod fit eδ β γ, æquū est ei quod fit ex δ γ, quadrato. Describatur (per 46 primi) ex γ δ quadratū γ ε ζ δ, & (per 1 postulatū) connectatur δ ε, & (per 31 primi) per β signum, utriq́ꝫ earū ε γ & δ ζ, parallelus excitetur β γ, secans β ε in puncto θ, & (per eandem) per θ signū, utriq́ꝫ ipsarū α δ & ε ζ, parallelus excitetur κ μ, & insuper (per eandem) per α, utriq́ꝫ earum γ λ & δ μ, parallelus excitetur α κ. Quoniam igitur (per 36 primi) æqualis est α γ ipsi γ β, æquū est α λ ipsi γ θ. Sed (per 43 primi) γ θ æquū est ipsi θ ζ. Igitur & α λ ipsi θ ζ (per eandem) est æquale, commune apponatur γ μ, totum igitur α μ, gnomoni ν ξ ο est æquale.
+
+[Diagram: line α γ β δ along the top; square γ ε ζ δ below segment γ δ (ε bottom left, ζ bottom right, η on bottom side below β); diagonal δ ε; vertical β η cutting the diagonal at θ; horizontal κ λ θ μ (κ below α, λ on γ ε, μ on δ ζ); vertical α κ; ξ on the diagonal near the top right; circle arc inside the square marking the gnomon]
+
+<!-- Catchword: Sed α μ -->

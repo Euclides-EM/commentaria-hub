@@ -1,47 +1,37 @@
-<!-- Running title: LIBER DECIMVS. -->
+<!-- Page number: 284 -->
 
-<!-- Page number: 283 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-potentia tantum cõmensurabiles. Dico quod ipsa α β, ad aliud signum nõ diuiditur in binas rationales potentia tantum cõmensurabiles. Si enim possibile, diuidatur in δ, ut ipsæ α δ, δ β, sint rationales potentia tantum cõmensurabiles, manifestũ iam quod α γ, ipsi β δ non est eadem. Si enim fieri potest, esto, erit iam & α δ, ipsi β γ eadem, eritq̃ sicut α γ ad γ β, sic β δ ad δ α, eritq̃ α β in eadem qua γ diuisione, diuisa & in δ, quod positum non est. Ipsa igitur α γ ipsi δ β non est eadem. Ac per hoc etiam & signa γ, δ, non æquidistant a bifaria sectione. Quo itaq̃ differunt quæ ex α γ, γ β, ab eis quæ ex α δ, δ β, eo etiam differt & quod bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, eo quod tum quæ ex α γ, γ β, una cum eo quod bis sub α γ, γ β, tum quæ ex α δ, δ β, una cum eo quod bis sub α δ, δ β, sunt æqualia ei quod ex α β. Sed quæ ex α γ, γ β, ab eis quæ ex α δ, δ β, rationali differunt, utraque enim rationalia (per 21 decimi) quod bis igitur sub α δ, δ β, ab eo quod bis sub α γ, γ β, differunt rationali, quæ media existunt: medium autem, medium non excedit rationali (per 26 decimi.) Ex binis igitur nominibus, ad aliud & aliud signum non diuiditur, ad unum duntaxat igitur. Quod erat ostendendum.
+torum linearũ a c & c b sit incõmensurabile superficiei unius in alteram. Cumq̃ dicta quadrata cõmunicent ex hypothesi, sequitur ut ambo quadrata pariter accepta sint incõmensurabile superficiei unius in alteram, ideoq̃ & eius duplo. Quare superficies e g incõmensurabilis est superficiei g h. & linea g f, lineæ g l per primam sexti & secũdam partem 10 huius. Itaq̃ per 30 linea f l est binomium, diuisa secundum suum terminũ in puncto g. Eodemq̃ modo probabitur ipsam binomium esse, mediantibus superficiebus e m & m h, diuisam secundum suum terminum in puncto m, quod est impossibile per 36. Non enim potest dici, q̃ linea f l diuisa sit ad puncta g & m in partes consimiles, sic enim esset linea f m æqualis g l, sed ipsa est maior linea m l, ut patet ex primo præmissorum antecedentiũ huius & prima sexti, cum e m superficies sit maior h m superficie. Huius autem demõstrationis modus potest esse cõmunis 37 cæterisq̃ eam sequẽtibus.
 
-[Diagram: horizontal line with points α, δ, γ, β]
-
-## Eucli. ex Camp. Propositio 37
+## Eucli. ex Zamb. Theorema 32 Propositio 44
 
 [Margin]
-37
+44
 [/Margin]
 
-{dropcap:B|lines=?|style=decorated|decoration="ornamental"}Imediali primo secundum terminum suum in duas lineas mediales diuiso, sub earum termino in alias duas lineas mediales idem diuidi est impossibile.
+Ex binis secunda medijs, ad unũ duntaxat signũ diuiditur in nomina.
 
-CAMPANVS. Sit quoq̃ hic linea a b, bimediale primũ, diuisa in duas lineas mediales potentia tantum cõmunicantes superficiemq̃ rationalem continentes, ex quibus 31 asserit eam componi, quæ sint a c & c b. Dico quod impossibile est eam diuidi in alias duas lineas sub earum diffinitione. Quod si possibile fuerit, diuidam eam in puncto d, assumptaq̃ linea rationali e f, adiungatur ei e g æqualis duobus quadratis duarum linearũ a c & c b, & superficies f h æqualis quadrato a b, & superficies f k æqualis quadratis duarũ linearum a d & d b, eritq̃ per quartam secundi g h æqualis duplo superficiei a c in c b, & per eandem erit k l æqualis duplo superficiei a d in d b, propter hypothesin quoq̃ erit utraq̃ duarũ superficierũ e g & k f medialis, & utraq̃ duarum linearũ g h & k l rationalis, hoc autem impossibile, esset enim per primũ superficies k g, irrationalis ex 22, per secundam autem eadem esset rationalis ex diffinitione & 9. Quod est inconueniẽs.
+THEON ex Zamberto. Sit ex binis medijs secunda α β, diuisa in γ, ut α γ, γ β, mediæ sint potentia tantum commensurabiles medium comprehendentes, manifestum iam est quod γ non est in diuidua sectione, quandoquidem non sunt longitudine cõmensurabiles. Dico quod ipsa α β, ad aliud signum nõ diuiditur. Si enim possibile, diuidatur in δ ut α γ ipsi δ β non sit eadem, sed per hypothesin sit maior α γ, manifestum quod ea quæ ex α γ, γ β, maiora sunt eis quæ ex α δ, δ β, sicut supra demõstrauimus. Et quod ipsæ α δ, δ β, mediæ sunt potentia tantũ cõmensurabiles, medium comprehendentes. Exponaturq̃ rationalis ε ζ, & ei quidem quod ex α β æquum, ad ipsam ε ζ comparetur (per 44 primi) ε κ, eis autem quæ ex α γ, γ β, æquum auferatur ε η, reliquũ igitur θ κ æquum est ei quod bis sub α β{printer-error-correction:α γ}, γ β. Rursus iam eis quæ ex α δ, δ β, quæ minora sunt eis quæ ex α γ, γ β, æquum auferatur ε ζ{printer-error-correction:ε λ}, & reliquũ igitur μ κ, æquum est ei quod bis sub α δ, δ β. Et quoniam media sunt quæ ex α γ, γ β, medium igitur est & ε η. Et ad rationalem ε ζ comparatur: rationalis igitur est ε θ, & incõmensurabilis ipsi ε ζ longitudine. Ac per hoc etiam θ ν rationalis est & ipsi ε ζ longitudine incommensurabilis, Et quoniam ipsæ α γ, γ β, mediæ sunt potentia tantum commensurabiles, incommensurabilis est igitur α γ ipsi γ β longitudine, sicut autem α γ ad γ β, sic quod ex α γ ad id quod sub α γ, γ β. Incommẽsurabile igitur est quod ex α γ, ei quod sub α γ, γ β. Sed ei quidem quod ex α γ cõmensurabilia sunt quæ ex α γ, γ β, potentia enim sunt cõmensurabiles ipsæ α γ, γ β, ei autem quod sub α γ, γ β, commensurabile est quod bis sub α γ, γ β, & quæ ex α γ, γ β, igitur, incõmensurabilia sunt ei quod bis α γ, γ β. Sed eis quidem quæ ex α γ, γ β, æquum est ε η, ei autem quod bis sub α γ, γ β, æquum est θ κ. Incõmensurabile igitur est ε η ipsi θ κ, quare & ipsa ε θ ipsi θ ν, est longitudine incõmensurabilis. Et ipsæ ε θ & θ ν sunt rationales, igitur rationales sunt potentia tantum commensurabiles. Si uero binæ rationales potentia tantum cõmensurabiles compositæ fuerint, tota irrationalis est, uocaturq̃ ex binis nominibus (per 36 decimi) ipsa igitur ε ν ex binis nominibns{printer-error-correction:nominibus}, est diuisa in θ. Per eadem iam ostendentur & ipsæ ε μ, μ ν, rationales potentia tantum cõmensurabiles. Igitur ipsa ε ν ex binis nominibus per aliud signũ & aliud diuisa est in θ & in μ, nec est ε θ ipsi μ ν eadem, quãdoquidem quæ ex α γ, γ β, maiora sunt eis quæ ex δ β, α δ, sed quæ ex α δ, δ β, maiora sunt eo quod bis sub α δ, δ β, multo igitur magis quæ ex α γ, γ β, hoc est ε η, maius est eo quod bis sub α δ, δ β, hoc est μ κ. Quare & ε θ, ipsa μ ν maior est. Igitur ε θ, ipsi μ ν non est eadem. Ex binis igitur nominibus in alio & alio signo diuiditur, quod est absurdũ. Ex binis secũda medijs igitur, in alio & alio signo non diuiditur, in uno igitur tantũ signo diuiditur. Quod erat ostendendũ.
 
-[Diagram: horizontal line with points a, d, c, b; below, a tall rectangle on the line e f, divided by horizontal lines into strips; points b, k, e on the left side, l, g, m, f on the right side]
+[Diagram: horizontal line with points β, γ, δ, α; below, a rectangle divided by two vertical lines into three cells, with points ε, μ, θ, ν along the top and ζ, λ, η, κ along the bottom; tick marks on the left side ε ζ]
 
-## Eucli. ex Zamb. Theorema 31 Propositio 43
+## Eucli. ex Camp. Propositio 39
 
 [Margin]
-43
+39
 [/Margin]
 
-Ex binis medijs prima, ad unũ duntaxat signum diuiditur in nomina.
+{dropcap:L|lines=?|style=decorated|decoration="ornamental"}Inea maior, nisi in duas lineas tantum ex quibus constat sub earum termino diuidi non potest.
 
-THEON ex Zamb. Esto ex binis prima medijs α β diuisa in γ, ut ipsæ α γ, γ β, mediæ sint potentia tantum cõmensurabiles rationale cõprehendentes. Dico quod ipsa α β, ad aliud signum nõ discinditur. Si enim possibile, diuidatur in δ, ut α δ & δ β sint potentia mediæ tantum cõmensuxabiles{printer-error-correction:cõmensurabiles} rationale cõprehendentes. Quoniam igitur quo differt qd̃ bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, differũt quæ ex α γ, γ β, ab eis quæ ex α δ, δ β, rationali autem differt quod bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, rationalia enim utraq̃. Rationali igitur differunt & quæ ex α γ, γ β, ab eis quæ ex α β{printer-error-correction:α δ}, δ β, media existentia. quod est impossibile. Ex binis igitur medys prima, ad aliud & aliud signum non diuiditur in nomina, ad unum duntaxat igitur, quod erat demonstrandũ.
+CAMPANVS. Sit quoq̃ hæc linea maior a b diuisa ad punctũ c, in duas lineas potentialiter incõmensurabiles snperficiemq̃{printer-error-correction:superficiemq̃} medialem continentes, quarum ambo quadrata pariter accepta sint rationale, ex talibus enim cõponitur, ut affirmat 33. Dico q̃ impossibile est ad alium punctum in alias duas lineas sub hac diffinitione ipsam diuidi. Quod si potest, sit hic ad d, maneantq̃ sub his eadem figura eædemq̃ hypotheses quæ prius, & argue quemadmodum in 36 superficiem g k esse rationalem & irrationalem, quod est impossibile.
 
-[Diagram: horizontal line with points α, δ, γ, β]
+[Diagram: horizontal line with points a, d, c, b]
 
-## Eucli. ex Camp. Propositio 38
+## Eucli. ex Zamb. Theorema 33 Propositio 45
 
-[Margin]
-48 (sic, for 38)
-[/Margin]
+Maior, ad unum duntaxat signum diuiditur in nomina.
 
-{dropcap:B|lines=?|style=decorated|decoration="ornamental"}Imediale secũdum, nisi in duas lineas tantum sub termino suo diuidi non potest.
+THEON ex Zãb. Sit maior α β, diuisa in γ, ut (per 34 decimi) α γ, γ β, potẽtia nõ sint cõmensurabiles, efficiẽtes cõpositũ ex ijs quæ ex α γ, γ β, quadratis ratiõale, quodq̃ sub ipsis α γ, γ β, mediũ. Dico quod ipsa α β, ad aliud
 
-CAMPANVS. Sit ut prius linea a b bimediale secũdum, diuisa in duas lineas a c & c b mediales, potentia tantum cõmunicantes superficiẽq̃ medialem continẽtes, ex quibus 23{printer-error-correction:32} proponit eam componi. Dico q̃ impossibile est eam diuidi sub earũ diffinitiõe in alias duas. Sin autẽ, diuidatur in d, sintq̃ ut prius superficies e g, f h, & f k, adiunctæ ad lineam rationalem e f. eritq̃ per præsentes hypotheses. utraq̃ superficies e g, & g h, medialis, quare per 20 utraque duarum linearũ f g & g l erit rationalis in potentia tantũ non communicans in longitudine lineę e f. At quia duæ lineæ a c, & c b, erunt incõmensurabiles in longitudine, sequitur per primã sexti & per secundã partem 10 huius q̃ utrunq̃ quadra
-
-[Diagram: horizontal line with points a, d, c, b; below, a tall rectangle divided by horizontal lines into strips; points b, k, e on the left side, l, g, m, f on the right side]
-
-<!-- Signature: A 4 -->
-
-<!-- Catchword: torum -->
+<!-- Catchword: signum -->

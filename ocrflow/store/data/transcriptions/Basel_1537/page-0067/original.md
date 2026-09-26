@@ -1,33 +1,31 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER TERTIVS -->
 
-<!-- Page number: 58 -->
+<!-- Page number: 59 -->
 
-Dico quod eorum sunt diuersa centra. Si enim habuerint idẽ centrum: erit per diffinitionem, inter minorem eorum cũ minor positus fuerit intra maiorem, sitq̃ ipsum d, & ducantur linea d a & d b c, eritque per diffinitionem circuli, utraque duarum d b & d a, æqualis a d, quod est impossibile. ¶ De circulis autem se cõtingentibus extra, quorum scilicet unus est extra alterum, manifestum est per diffinitionem centri, quod ipsi nõ habent idem centrum.
+f est æqualis angulo f k e: erit per decimamtertiam primi angulus l k h æqualis angulo e k h: & duo latera l k & k h, trianguli l k h, sunt æqualia duobus lateribus e k & k h, trianguli e k h, ergo per 4 primi, basis h l, est æqualis basi h e: & quia h m est æqualis h e, erit h m æqualis h l, quod est impossibile. Sũt ergo duæ lineæ k g & k e, æquales, quod est nostrum propositum quartum.
 
-[Diagram: two circles touching internally at a; centre d with lines d a and d b c drawn; labels d, b, c]
-
-## Eucli. ex Zamb. Theorema 5. Propositio 6.
-
-[Margin]
-6
-[/Margin]
-
-Si duo circuli se adinuicem tetigerint, eorum non est idem centrum.
-
-THEON ex Zamb. Duo enim circuli α β γ, & γ δ ε, sese inuicem tangant in γ, signo. Dico quod eorum non est idem centrum. Si enim possibile, sit ζ, & (per primum postulatum) connectatur ζ γ, & ζ β ducatur utcunque. Quoniam igitur ζ, signum, centrum est circuli α β γ, æqualis est (per 15 primi diffinitionem) ζ γ, ipsi ζ β. Rursus quoniam ζ, signũ, centrũ est circuli γ δ ε, æqualis est ζ γ, ipsi ζ δ, (per eandem diffinitionem.) Patuit autem quod ζ γ, ipsi ζ β, est æqualis. igitur ζ δ, ipsi ζ β, est æqualis, minor maiori, quod est impossibile. Igitur ζ, signum, nõ est centrum circulorum α β γ, & γ δ ε. Si bini igitur circuli se adinuicem tetigerint, & quæ sequuntur reliqua ut in theoremate, quod erat ostendendum.
-
-[Diagram: two circles touching at γ, one within the other; lines from ζ to γ and through β and δ; labels γ, ζ, δ, α, β, ε]
-
-## Eucli. ex Camp. Propositio 7.
+## Eucli. ex Zamb. Theorema 6. Propositio 7.
 
 [Margin]
 7
 [/Margin]
 
-SI in diametro circuli punctus præter centrum signetur, & ab eo ad circunferentiam lineæ plurimæ ducantur, quæ super centrum transierit, omnium erit longissima. Quæ uero diametrum perficiet, omnium erit breuissima. Quæ autem centro proximæ, cæteris longiores Quanto uero à centro remotiores: tanto breuiores esse conueniet. Duas quoque æquidistantes lineæ breuissimæ collaterales: æquales esse necesse est.
+Si in diametro circuli sumatur aliquod signum quod minime circuli centrum sit, ab eoq́ue signo in circulum quædam rectæ lineæ procidant: maxima erit in qua centrum, minima uero, reliqua: aliarum uero semper propinquior ei quæ per centrum extenditur: remotiore maior est. Duæ autem solum rectæ lineæ æquales: ab eodem signo in circulum cadunt ad utrasque partes minimæ.
 
-CAMPANVS. Sit ut in diametro a f, circuli a b c cuius centrum sit h: sit signatus punctus k præter centrum. à quo ducãtur plurimæ lineæ quæ sunt k a, k b, k c, k d, k e, k f, k g, ad circunferentiam, & trãseat a k per centrum h: & k f sit complementum diametri, sitque ut k e & k g æquidistent k f: hoc est dicere, ut angulus e k f, sit æqualis angulo f k g. Dico quod k a, est omnium longissima, & k f: omnium breuissima. Aliæ uero tanto longiores: quanto centro propinquiores, ut k b: est longior k c: & k c: est longior k d, & k d: lõgior k e. Et k e & k g: sunt æquales. Quia enim in triangulo b k h, duo latera b h & h k per 20. primi sunt maiora latere b k, & ipsa sunt æqualia lineæ a k: erit a k maior b k, & eadẽ ratione, maior omnibus alijs, & hoc est primũ. Itẽ quia in triangulo c h k, duo latera h k & k c per eandem sunt maiora latere h c quod est æquale lineæ h f: ipsa erunt maiora linea h f: ergo dempta cõmuni linea quæ est h k: remanebit k c maior k f: eadem ratione: quælibet aliarum: & hoc est secundum. Itemque quia duo latera b h & h k, trianguli b h k sunt æqualia duobus lateribus c h & h k, trianguli c h k, & angulus b h k est maior angulo c h k: erit per uicesimam quartam primi, basis b k maior basi c k, eadem ratione: k c, maior erit k d, & k d, maior k e: & hoc est tertium. Quòd si duæ lineæ k g & k e non sunt æquales, erit altera maior, sitq̃ k g, de qua sumam k l æqualem k e, & producam h l: quousq̃ secet circũferentiam in puncto m. Et quia per hypothesin angulus g k
+THEON ex Zamb. Sit circulus α β γ δ, eiusq̃ dimetiens sit α δ, & in ipsa α δ, suscipiatur signum aliquod, sitque illud ζ, quod ipsius circuli centrũ non sit. Centrũ autẽ circuli, sit (per primũ tertij) ε. Et ab ipso ζ, in ipsum α β γ δ, circulũ procidant quædam rectæ lineæ ζ β, ζ γ, ζ κ. Dico quod ζ α, maxima est: minima uero ζ δ, aliarũ uero ζ β, quàm ζ γ, maior est, & ζ γ, quàm ζ κ. Connectatur (per primum postulatum) β ε, γ ε, κ ε. Et quoniã (per 20 primi) omnis trianguli duo latera reliquo sunt maiora: igitur ε β, & ε ζ, reliquo ζ β, sunt maiora. Aequalis autem est α ε, ipsi ε β, (per 15 diffinitionem primi). igitur β ε, & ε ζ, ipsi α ζ, sunt æquales. maior igitur est α ζ, quàm β ζ. Rursus quoniam æqualis est β ε, ipsi γ ε, (per 15 diffinitionem primi) communis autem ζ ε, duæ igitur β ε, ζ ε, duabus γ ε, ζ ε, sunt æquales. Sed angulus β ε ζ, angulo γ ε ζ, maior est. (per 24 primi, basis ζ β, maior est, ob id ζ β, maior est quàm ζ γ. Rursus quoniam κ ζ, & ζ ε, (per 20 primi) ipsa κ ε, maiores sunt, æqualis autem est (per 15 diffinitione primi) κ ε, ipsi δ ε: igitur κ ζ, & ζ ε, ipsi δ ε, sunt maiores, communis auferatur ζ ε, reliqua igitur ζ γ(!), quàm reliqua ζ δ, maior est. Maxima igitur est ζ α, minima uero ζ δ, maior est autem ζ β, quàm ζ γ, & ζ γ, quàm ζ κ, & ζ κ, quàm ζ δ. dico etiam quod à signo ζ, duæ tantũ rectæ lineæ æquales, in ipsum circulum α β γ δ, cadũt ad utrasq̃ partes ipsius ζ δ, minimæ. Constituatur enim (per 23 primi) ad datam rectam lineã ε δ, ad datum in ea signũ ε, ei qui sub κ ε ζ, angulo æqualis angulus δ ε λ, & (per primum postulatum) connectatur ζ λ. Quoniam igitur æqualis est (per 15 diffinitionem primi) κ ε, ipsi λ ε, communis autem ε ζ, duæ igitur κ ε, ε ζ, duabus λ ε, ε ζ, sunt æquales, & angulus κ ε ζ, angulo λ ε ζ, est æqualis. igitur (per 4 primi) basis ζ κ, basi ζ λ, est æqualis. Dico iniuper(!), quod ipsi ζ κ, alia nulla æqualis, cadit in ipsum circulũ à signo ζ. Si enim possibile: cadat & sit ν. Et quoniam ζ ν, ipsi ζ κ, est æqualis, sed ζ λ, ipsi ζ κ, est æqualis: igitur ζ ν, ipsi ζ λ, est æqualis Quæ igitur propinquior est ei quæ per centrum extenditur: remotiori est æqualis, quod per præostẽsa est impossibile. Vel etiam sic, (per primũ postulatũ) cõectatur ν ε, & quoniã (per 15 diffinitionẽ primi) æqualis est κ ε, ipsi ν ε, cõmunis aũt ζ ε, & basis ζ κ, basi ζ ν, est æqualis: igitur (per 8 primi) angulus κ ε ζ, angulo ν ε ζ, est æqualis. Sed angulus κ ε ζ, ei qui sub λ ε ζ, est æqualis. Igitur (per primã cõmunẽ sentẽtiã) angulus λ ε ζ, ei qui sub ν ε ζ, est æqualis, minor maiori: quod est impossibile. Igitur ab ipso ζ, signo, nulla alia cadit in ipsum circulũ æqualis ipsi ζ κ: una igitur sola. Si in demetiẽte igitur circuli, & quæ sequitur reliqua ut in theoremate. Quod erat ostendendum.
 
-[Diagram: circle a b c with diameter a f; centre h; point k on the diameter between h and f; lines from k to b, c, d, e, g on the circumference; l between k and the circumference, m on the circumference near the top]
+[Diagram: circle α β γ δ with diameter α δ; interior point ζ near δ; centre ε; lines from ζ to β, γ, κ, λ and radii from ε, forming a star-like fan within the circle]
 
-<!-- Catchword: f est -->
+## Eucli. ex Camp. Propositio 8.
+
+[Margin]
+8
+[/Margin]
+
+SI extra circulum puncto signato, ab eo ad circunferentiam lineæ plurimæ ducantur circulum secando: quæ super centrum transierit, omnium erit longissima. Centro autem propinquiores: cæteris remotioribus longiores. Linearum uero partialium ad circunferentiam extrinsecus applicatarum, ea quidem quæ diametro in directum adiacet, omnium est minima. Eique propinquiores: remotioribus breuiores. Duæ uero quæ lineæ breuissimæ utrinque æque propinquant, æquales sunt.
+
+CAMPANVS. Sit ut a puncto a, assignato extra circulum b c d, cuius centrum sit n, ducantur plurimæ lineæ ad circunferentiam, secando circulum, quæ sint a k b, a h c, a g d, & a f e. Dico quòd a b transiens per centrum, omnium erit longissima. Et quod a c, est maior a d, & a d, maior a e. Et quod a k, est omniũ breuissima extrinsecarũ
+
+[Diagram: point a above a circle; lines from a fanning down through the circle; k, h, g, f on the near circumference, b at the bottom through the centre n, c, d, e on the far circumference]
+
+<!-- Catchword: Et -->

@@ -1,47 +1,51 @@
-<!-- Page number: 358 -->
+<!-- Running title: LIBER VNDECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 359 -->
 
-## eisdem lineis contentæ duæ superficies in nulla parte quantumcunq̃ producantur possunt concurrere.
+ex hac 16 cōmunes sectiones duarum extremarū superficierū, æquidistātes sectionibus mediæ. Quare ex 30 primi ipsæ etiam sectiones duarum extremarū superficierū, erunt æquidistantes adinuicem. Et quia ipsæ contingunt se in cōmuni sectione duarū superficierū tres positas superficies secantium, ex præmissa euidenter constat quod diximus.
 
-CAMPANVS. Sint duæ lineæ a b & a c, se angulariter contingentes in puncto a, æquidistantes duabus lineis d e & d f, se angulariter contingẽtibus in puncto d, & nõ sint in superficie una, dico earũ superficies in quãcunq̃ partem & quantũcunq̃ protrahãtur, nunq̃ concurrere. Protrahatur etenim à pũcto d, prout docet 5 huius, perpẽdicularis ad superficiẽ duarum linearũ a b & a c, sitq̃ d g, & à puncto g, ducatur g h æquidistãs a b, & g k, æquidistãs a c, eritq̃ ex diffinitione uterq̃ duorũ angulorũ d g h, d g k, rectus, & per 9 erit linea d f æquidistans lineæ g k, & linea d e æquidistans lineæ g h, quare per ultimã partem 29 primi, uterq̃ duorũ angulorũ e d g, f d g erit rectus, ideoq̃ per 4 huius linea d g, erit perpendicularis ad superficiem duarum linearũ d e & d f. Cumq̃ ipsa eadem sit etiam ex hypothesi perpendicularis ad superficiẽ duarum linearũ a b & a c, ex præmissa liquet quod est propositum.
-
-[Diagram: three chevrons one above another joined by a vertical line: at the top the angle b a c with apex a; below it the angle h g k with apex g; at the bottom the angle e d f with apex d]
-
-## Eucli. ex Zamb. Theorema 13 Propositio 15
-
-[Margin]
-15
-[/Margin]
-
-## Si binæ rectæ lineæ seinuicem tangentes ad binas rectas lineas seinuicẽ tangentes fuerint parallelæ, non tamen in eodem plano existentes, parallela sunt quæ per ipsas plana.
-
-THEON ex Zamb. Binæ, inquam, rectæ lineæ sese inuicem tangentes α β, β γ, ad binas rectas lineas sese inuicem tangentes δ ε, ε ζ, sint parallelæ, sed non in eodem existentes plano. Dico quod \* educta quæ per α β, β γ & δ ε, ε ζ, plana, non concurrunt adinuicem.
-
-[Margin]
-ἐκβαλλόμενα
-[/Margin]
-
-Excitetur, inquam, (per 11 undecimi) ab ipso β signo, in id quod per δ ε, ε ζ, planum perpendicularis β η, & \*extendatur in planũ per η signũ.
-
-[Margin]
-συμβαλλέτω
-[/Margin]
-
-Et per η, ipsi quidem ε δ parallelus excitetur (per 31 primi) η θ, ipsi autẽ ε ζ, ipsa η κ. Et quoniam β η ad id quod per δ ε, ε ζ, planũ recta est, & ad omnes igitur eam tangentes rectas lineas (per 2 undecimi diffinitionẽ) & in eodem quod per δ ε, ε ζ, plano existentes, rectos efficiet angulos. Tangit autem ipsam utraq̃ ipsarũ η θ, η κ, existens in eo quod per δ ε, ε ζ, plano, rectus igitur est (per 4 undecimi) uterq̃ ipsorũ qui sub β η θ, β η κ, angulorũ. Et quoniam parallelus est β α ipsi η θ, ipsi igitur sub η β α, β η γ{printer-error-correction:β η θ}, anguli (per 29 primi) duobus rectis sunt æquales, sed rectus est qui sub β η θ, rectus igitur est qui sub η β α, igitur ipsa η β, ipsi β α ad angulos rectos est. Id propterea etiam β η, ipsi β γ ad angulos rectos est. Quoniã igitur recta linea β η duabus rectis lineis β α, β γ, sese inuicem tangentibus ad angulos rectos stetit, igitur (per 4 undecimi) β η & ad id quod per β α, β γ, planũ ad rectos angulos est. Est autem & ei quod per η θ, η κ, plano, recta quod uero per η θ, η κ planũ, id est quod per δ ε, ε ζ, ipsa igitur β η ei quod per δ ε, ε ζ plano recta est. Igitur β η ad utrunq̃ eorũ quæ per α β γ, δ ε ζ, planorũ, recta est. Plana autẽ ad quæ eadem recta linea recta est, parallela sunt (per 14 undecimi.) Parallelũ igitur est quod per α β, β γ, planum, ad id quod per δ ε, ε ζ. Si binæ gitur{printer-error-correction:igitur} rectæ lineæ sese inuicẽ tangentes, ad binas rectas lineas sese inuicem tangentes fuerint parallelæ, sed non in eodem plano, parallela sunt quæ per ipsas plana. Quod ostendendum erat.
-
-[Diagram: two chevrons one above another: the angle α β γ with apex β at the top, η beneath β with the angle θ η κ(?) drawn through it, and below the angle δ ε ζ with δ at the lower left, ε at the middle and ζ at the lower right]
-
-## Eucli.ex Camp. Propositio 16
+## Eucli. ex Zamb. Theorema 14. Propositio 16.
 
 [Margin]
 16
 [/Margin]
 
-## SI duas superficies æquidistantes una superficies secet, cõmunes earum sectiones æquidistantes erunt.
+## Si bina plana parallela à plano aliquo dissecta fuerint, cōmunes ipsorum sectiones parallelæ sunt.
 
-CAMPANVS. Constat equidẽ ex tertia, ꝙ una superficie quascũq̃ duas superficies æquidistantes secante, cõmunes earum sectiones erunt duæ lineæ rectæ. Quæ cum sint ambæ sitæ in superficie secante, si ipsæ non fuerint æquidistantes, ponãtur ad quodlibet unum punctũ concurrere, erit itaq̃ nt{printer-error-correction:ut} unus atq̃ idem punctus sit in utraq̃ illarũ duarũ sectionũ cõmunium. Cumq̃ una illarũ cõmunium sectionum sit in una duarũ superficierũ sectarũ & reliqua in altera, sequitur superficies illas quæ positæ sunt esse æquidistantes concurrere, hoc autem impossibile est. Erunt igitur cõmunes earum sectiones æquidistantes. Quod est propositum.
+THEON ex Zamb. Bina, inquam, plana parallela α β, γ δ, à plano ε ζ η θ secentur, cōmunes autem ipsorum sectiones, sint ε ζ, η θ. Dico quod parallelus est ε ζ, ipsi η θ. Si autē non, productæ ipsæ ε ζ, η θ, uel ad partes ζ θ, uel ad ε η concurrunt. Producantur primum ad ζ θ partes, & concurrant in κ. Et quoniam ε ζ κ est in plano α β, & omnia igitur quæ in ipsa ε ζ κ signa in ipso α β sunt plano (per 2 undecimi.) Vnum autem eorum quæ in ε ζ κ recta linea signorū, est κ, igitur κ, in ipso est α β plano, & id propterea etiam κ, in ipso γ δ est plano. Igitur α β, γ δ, plana, producta concurrunt. Non concurrunt autem per hypothesin, quoniam parallela supponuntur. Igitur ipsæ ε ζ, η θ, rectæ lineæ productæ ad partes ζ θ, non concurrunt. Similiter quoq̃ ostendemus, quod ipsæ ε ζ, η θ, rectæ lineæ neq̃ ad partes ε η productæ concurrunt. Quæ autem in nulla parte concurrunt (per ultimam diffinitionem primi) parallelæ sunt: parallelus igitur ε ζ, ipsi η θ. Si bina igitur plana, & quæ sequuntur reliqua. Quod erat ostendendum.
 
-CAMPANVS. Ex hac & præmissa potes elicere conclusionẽ unam similem 30 primi, uidelicet istam. Si fuerint duæ superficies uni æquidistantes, ipsæ quoq̃ erunt adinuicẽ æquidistantes. Positis enim tribus superficiebus quarum utraq̃ duarum extremarũ æquidistat mediæ, dico ꝙ necesse est ipsas extremas æquidistare adinuicem. Secentur omnes illæ tres superficies duabus superficiebus se quoq̃ inuicem secantibus, eruntq̃
+[Diagram: house-shaped diagram; two parallel planes α β (left side β) and γ δ (right side δ) cut by plane ε ζ η θ; the sections ε ζ (left, corner ζ) and η θ (right, corner θ) produced upward meet at apex κ; bottom corners ε and η, interior bottom labels α and γ]
 
-<!-- Catchword: ex hac -->
+## Eucli. ex Camp. Propositio 17.
+
+[Margin]
+17
+[/Margin]
+
+## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I superficies tres uel plures æquidistantes duas rectas lineas se inuicem contingētes uel æquidistantes secent, illarum linearū portiones proportionales esse probantur.
+
+CAMPANVS. Intelligantur enim duæ rectæ lineæ penetrantes qualitercunq̃ contigerit tres superficies æquidistantes, aut etiam plures tribus: dico itaq̃ duas portiones illarum linearū inter quaslibet duas superficies interceptas, proportionales esse quibusq̃ duabus inter alias duas ex illis æquidistantibus superficiebus interceptis. Coniungantur enim duæ extremitates illarum duarum linearū, ducta inter eas linea una diagonaliter, eritq̃ hæc diagonalis, cum utraq̃ illarū duarum linearū penetrantiū superficies propositas, in superficie una illas æquidistantes superficies positas secante. Si ergo harum superficierum communes sectiones quæ per præmissam erunt æquidistantes, cogitatione protraxeris, ex prima parte secundæ sexti constabit propositum.
+
+## Eucli. ex Zamb. Theorema 15. Propositio 17.
+
+[Margin]
+17
+[/Margin]
+
+## Si binæ rectæ lineæ à planis parallelis secentur, in easdem rationes secabuntur.
+
+THEON ex Zamb. Binæ, inquam, rectæ lineæ α β, γ δ, à planis parallelis η θ, κ λ, μ ν, secētur in α, ε, β, γ, ζ, δ, signis. Dico quod est sicut α ε recta linea ad ε β, sic est γ ζ ad ζ δ. Connectantur α γ, β δ, α δ, & concurrat α δ ipsi κ λ plano in ξ signo, cōnectanturq̃ ε ξ, ξ ζ. Et quoniam bina plana parallela κ λ, μ ν, à plano ε β, δ ξ, secantur, ipsorum cōmunes sectiones ε ξ, β δ, parallelæ sunt (per 16 undecimi.) Idq̃ propterea quoniam bina plana parallela η θ, κ λ, à plano α ξ, ζ γ, secantur, cōmunes ipsorum sectiones α γ, ξ ζ, parallelæ sunt (per 16 undecimi.) Et quoniam lateri β δ trianguli α β δ, recta linea parallelus ducta est ε ξ, proportionaliter igitur sicut α ε ad ε β, sic est α ξ ad ξ δ. Rursus quoniam lateri α γ trianguli α δ γ, recta linea parallelus ducta est ξ ζ, proportionaliter igitur sicut α ξ ad ξ δ, sic γ ζ ad ζ δ, patuit autē & sicut α ξ ad ξ δ, sic α ε ad ε β, & sicut igitur (per 11 quinti) α ε ad ε β, sic γ ζ ad ζ δ. Si binæ igitur rectæ lineæ à planis parallelis secentur, & reliqua. Quod erat ostendendū.
+
+[Diagram: three parallel planes drawn as horizontal rectangles: top plane η θ containing points α and γ; middle plane κ λ containing points ε, ξ, ζ; bottom plane μ ν containing points β and δ joined by a horizontal segment; lines α β and γ δ descend through the planes and the diagonal α δ crosses the middle plane at ξ]
+
+## Eucli. ex Camp. Propositio 18.
+
+[Margin]
+18
+[/Margin]
+
+## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I in superficie assignata orthogonaliter steterit linea, omnis superficies à linea illa quorsumlibet ducta, ad eandem assignatam superficiem erit orthogonaliter erecta.
+
+CAMPANVS. Sit enim linea a b erecta perpendiculariter super assignatam superficiem, & à linea a b producatur superficies quorsum libuerit. Quam dico super propositam superficiem esse perendiculariter{printer-error-correction:perpendiculariter} erectam. Cum enim ipsa secet superficiem
+
+<!-- Catchword: ciem -->

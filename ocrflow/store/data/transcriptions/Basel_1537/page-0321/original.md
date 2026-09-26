@@ -1,33 +1,41 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS. -->
 
-<!-- Page number: 310 -->
+<!-- Page number: 311 -->
 
-IDEM aliter. Sit linea d e rationalis, cui adiungatur superficies d f æqualis duplo superficiei unius in alterā, & e g æqualis ambobus quadratis pariter acceptis, erit per 7 secundi f g, æqualis quadrato a c. Quia uero e g est medialis, erit ex 20 linea d g in potentia tantū rationalis. Similiter quoq̀ cum e h sit medialis, erit ex eadem, linea d h rationalis similiter in potentia tantū. Et quoniam a b & b c sunt incōmensurabiles in longitudine, ideoq́; quadratū utriusq́; earū superficiei unius in alteram. & propter hoc ambo quadrata pariter accepta (cum ipsa ex hypothesi cōmunicent) sunt quoq̀ incōmensurabilia duplo superficiei unius in alterā, sequitur ut e g sit incōmensurabilis h c, quapropter linea d g, lineæ d h, igitur ex 68, linea g h est residuū, & irrationalis: ideoq́; per 16 à destructione consequentis superficies f g irrationalis, & eius latus tetragonicum a c irrationale.
-
-[Diagram: line a c b above; rectangle with left side marked g and h, corners d and e at bottom, region f at right of the upper division]
-
-## Eucli. ex Zamb. Theorema 57 Propositio 75
-
-## 75 Si à media media auferatur potentia tantum toti cōmensurabilis subsistens, & cum tota medium comprehendens, reliqua irrationalis est, uocetur autem mediæ secunda apotome.
-
-THEON ex Zamb. A media nanq̀; α β, media auferatur γ β potentia tantum toti α β cōmensurabilis subsistens, unaq́; cum ipsa tota α β medium cōprehendens quod sub α β, β γ. Dico quod reliqua α γ irrationalis est, appellatur autem mediæ secunda apotome. Exponatur enim rationalis δ ι. Et ipsis quidem quæ ex α β, β γ, æquū ad δ ι comparetur (per 44 primi) δ ε, latitudinē efficiens δ η, ei uero quod bis sub α β, β γ, æquū ad ipsam δ ι cōparetur (per 44 primi) δ θ, latitudinē efficiēs δ ζ. Reliquū igitur ζ ε, æquū est ei quod ex α γ. Et quoniam ea quæ ex α β, β γ, media sunt, medium igitur est & δ ε, & ad ipsam rationalem δ ι comparatur, latitudinē efficiens δ η: rationalis igitur est (per 22 decimi) δ η, & ipsi δ ι longitudine incōmensurabilis. Rursus quoniam quod sub α β, β γ, medium est, & quod bis igitur sub α β, β γ, medium est, & est æquale ipsi δ θ, & δ θ igitur medium est, & ad ipsam δ ι rationalem comparatū est, latitudinē efficiens δ ζ, rationalis igitur est δ ζ, & ipsi δ ι longitudine incōmensurabilis. Et quoniam α β, β γ, potentia tantum sunt cōmensurabiles, incōmensurabilis est igitur α β ipsi β γ longitudine. Incōmensurabile igitur (per lemma 21 decimi & 11 decimi) & quod ex α β quadratū, ei quod sub α β, β γ. Sed ei quidem quod ex α β, cōmensurabilia sunt quæ ex α β, β γ, ei autem quod sub α β, β γ, cōmensurabile est quod bis sub α β, β γ. Incōmensurabilia igitur sunt quæ ex α β, β γ, ei quod bis sub α β, β γ. Sed eis quidem quæ ex α β, β γ, æquum est δ ε, ei autem quod bis sub α β, β γ, æquum est δ θ. Incōmensurabile igitur est δ ε, ipsi δ θ. Sicut autem δ ε ad δ θ, sic η δ ad δ ζ. Incommensurabilis igitur est η δ, ipsi δ ζ longitudine. Et utræq́; rationales. Ipsæ igitur η δ, δ ζ (per 11 decimi) rationales sunt potentia tantum commensurabiles. Ipsa igitur ζ η, apotome est. Rationalis autem δ ι. Quod autem sub rationali & irrationali comprehensum, irrationale est (per lemma 20 decimi,) & quæ illud potest irrationalis est. Ipsum autem ζ ε, potest ipsa α γ, ipsa igitur α γ irrationalis est, appellatur autem mediæ secunda apotome.
-
-[Diagram: line α γ β above; below, a rectangle divided by a vertical line into two, top corners δ, ζ, η, bottom corners ι, θ, ε]
-
-## Eucli. ex Camp. Propositio 71
-
-71 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I linea de linea detrahať, fuerintq́; ambæ potentialiter incōmensurabiles, continentesq́; mediale, quadrataq́; earū ambo pariter accepta rationale, reliq̃ linea erit irrationalis, uocabiturq́; minor.
-
-CAMPANVS. Si sint a b & b c quales proponitur, quæ per 27 reperiuntur & cōponunt lineam maiorem, erit linea a c irrationalis, & ipsa est quæ dicitur linea minor. Quod qui præmissa firmiter tenuerit, positionesq́; diligenter attenderit, duplici modo ut antecedentes facile probabit.
-
-[Diagram: line a c b]
-
-## Eucli. ex Zamb. Theorema 68 Propositio 76
-
-Si à recta linea recta linea auferatur potentia toti subsistens incōmensurabilis, cum tota uero efficiens quod ab eis simul rationale, quod uero sub ipsis medium, reliqua irrationalis est, appellaturq́; minor.
-
-THEON ex Zamb. A recta nanq̀; linea α β, auferatur recta linea β γ, potentia toti subsistens incommensurabilis, efficiens cum tota quidem
+α β compositum ex ijs quæ ex α β, β γ, simul rationale, quod uero bis sub ipsis α β, β γ, simul medium. Dico quod reliqua α γ irrationalis est, appellata minor. Quoniam nanque compositum quidem ex ijs quæ ex α β, β γ, quadratis rationale est, quod uero sub ipsis α β, β γ, medium, incommensurabilia igitur sunt quæ ex α β, β γ, ei quod bis sub α β, β γ. Et conuertendo igitur (per correlarium 19 quinti) incommensurabilia sunt quæ ex α β, β γ, ei quod ex α γ. Rationale autem est, conflatum ex ijs quæ ex α β, β γ, irrationale igitur quod ex α γ, ipsa igitur α γ irrationalis est, appellatur autem minor.
 
 [Diagram: line α γ β]
 
-<!-- Catchword: α β compoſ -->
+## Eucli. ex Camp. Propositio 72
+
+72 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I linea de linea dematur, fuerintq́; ambæ potentialiter incommensurabiles, superficiemq́; rationalem continētes, quadrataq́; earum ambo pariter accepta mediale, linea reliqua erit irrationalis, diceturq́; iuncta cum rationali componens totum mediale.
+
+CAMPANVS. Et hoc quoq̀ nescire non potest qui priora nouerit, nisi a memoria exciderint: quin positis lineis a b & b c (quales proponitur, quæ & per 28 reperiuntur, & lineam potentem in rationale & mediale componunt, sit a c reliqua, irrationales{printer-error-correction:irrationalis}. & ipsa dicitur quæ iuncta cum rationali componit totum mediale.
+
+[Diagram: line a c b]
+
+## Eucli. ex Zamb. Theorema 59 Propositio 77
+
+77 Si à recta linea recta linea auferatur potentia toti subsistens incōmensurabilis, & cum tota efficiens conflatum quidem ex ipsarum quadratis medium, quod uero bis sub ipsis rationale, reliqua irrationalis est, uocatur autem cum rationali medium totum efficiens.
+
+THEON ex Zamb. A recta enim linea α β, recta linea auferatur β γ, toti α β potentia subsistens incōmensurabilis, efficiens conflatum quidem ex ipsarū α β, β γ, quadratis medium, quod uero bis sub ipsis rationale. Dico quod reliqua α γ irrationalis est, uocatur autem cum rationali medium totum efficiens. Quoniam enim conflatum ex ipsarum α β, β γ, quadratis medium est, quod uero bis sub ipsis α β, β γ, rationale, incōmensurabilia igitur sunt quæ ex α β, β γ, quadrata ei quod bis sub α β, β γ, & reliquū igitur quod ex α γ, incōmensurabile est ei quod bis sub α β, β γ. Quod uero bis sub α β, β γ, rationale est, quod igitur ex α γ, irrationale est. Irrationalis igitur est ipsa α γ, uocatur autē cum rationali mediū totum efficiens. Quod erat ostendendū.
+
+[Diagram: line α γ β]
+
+## Eucli. ex Camp. Propositio 73
+
+73 {dropcap:S|lines=?|style=decorated|decoration="woodcut"}I linea à linea detrahatur, fuerintq́; ambæ potentialiter incommensurabiles, superficiemq́; medialem continentes, quadrataq́; earum ambo pariter accepta mediale duplo superficiei alterius in alteram incōmensurabile, reliqua linea erit irrationalis, diceturq́; iuncta cum mediali faciens totum mediale.
+
+CAMPANVS. Sint etiam hic a b & b c quales proponitur, quæ per 29 reperiuntur, & ipsæ sunt quæ cōponunt lineam potentē in duo medialia, eritq́; a c reliqua irrationalis dicta, quæ iuncta cum mediali componit totum mediale. Quod ut facile (sicut præmissa) duplici argumentatione concludes, processum 70 moneo diligenter attendas.
+
+[Diagram: line a c b]
+
+## Eucli. ex Zamb. Theorema 60 Propositio 78
+
+78 Si à recta linea recta linea sublata fuerit potentia toti subsistens incommensurabilis, & cum tota efficiens conflatum ex ipsarū quadratis medium, quod uero bis sub ipsis medium, insuper ipsarum quadrata incommensurabilia ei quod bis sub ipsis, reliqua irrationalis est, appellatur autem cum medio medium totum efficiens.
+
+THEON ex Zamb. A recta nanq̀; linea α β, recta linea auferatur β γ potentia incōmensurabilis subsistens toti, efficiens compositum ex ipsarum α β, β γ, quadratis medium, quod uero sub ipsis α β, β γ, medium, insuper ipsarum α β, β γ, quadrata incommensurabilia ei quod bis sub α β, β γ. Dico quod reliqua α γ irrationalis est, uocatur autem cum medio medium totum efficiens.
+
+[Diagram: line α γ β]
+
+<!-- Catchword: Exponatur -->

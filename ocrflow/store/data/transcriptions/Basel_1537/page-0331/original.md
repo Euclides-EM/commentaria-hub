@@ -1,45 +1,21 @@
-<!-- Running title: GEO. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Page number: 320 -->
+<!-- Page number: 321 -->
 
-igitur β η, η γ, rationales sunt potentia tantum cōmēsurabiles. Igitur β γ, apotome est per 73 decimi. Dico quod & quinta. Quo nāque maius est id quod ex β η, eo quod ex η γ, esto id quod ex θ. Quoniā igitur est sicut quod ex β η, ad id quod ex η γ sic est δ ε ad ε ζ, cōuertēdo igitur (per correlariū 18 quinti) est sicut ε δ, ad δ ζ, sic quod ex β η, ad id quod ex θ. At ε δ, ad δ ζ, rationē nō habet quàm quadratus numerus ad quadratū numerum, neque igitur quod ex β η, ad id quod ex η θ, rationem habet quam quadratus numerus ad quadratum numerum. Incōmensurabilis (igitur per 9 decimi) β η, ipsi θ, longitudine. Ipsáq̃ η β, ipsa η γ, maius potest eo quod ex θ. Ipsa igitur η β, ipsa η γ maius potest, eo quod ex sibi long tudine{printer-error-correction:longitudine} incommensurabili, & congruens est longitudine commensurabilis ipsi α expositæ rationali. Ipsa igitur β γ, apotome est quinta. Inuenta igitur est apotome quinta. Quod ostendendum fuerat.
+mo b c, dico latus tetragonicum superficiei a c, esse residuum. Adiungatur enim ad lineam b c, linea c d. sitq̃ illa cuius detractione b c fuit residuum primum. Eritq̃ ex diffinitione, b d rationalis ex longitudine, & c d in potentia tãtum, b d quoque erit potētior d c, in quadrato lineæ secum cōmunicantis in longitudine. Diuidatur igitur d c per æqualia in e, & tota b d diuidatur ea conditione in f, quod inter b f & f d sit e d medio loco proportionalis, eritq̃ ex secunda parte 15 b f communicans in longitudine f d, per 9 igitur utraque earum cōmunicat cū tota linea b d, quare per diffinitionē ambæ sunt rationales in longitudine. Ducantur itaq̃ lineæ f g, e h. & c k, æquidistantes a b, eritq̃ per 15 utraque duarum superficierum a f & g d, rationalis. Sit quadratū ergo l m, æquale superficiei a f. eritq̃ rationale, & latus eius rationale in potentia. In tra{printer-error-correction:Intra} illud quadratū protracta diagonali linea l m, describatur quadratum l n, æquale superficiei g d, eritque ipsum rationale, & eius latus ratiōale in potētia. protrahantur autem duæ lineæ m p, q n, æquidistanter lateribus totalis quadrati. Dico ergo quadratū p r esse æquale superficiei a c, & eius latus quod est n p est residuum. Cum enim linea d e sit ex hypothesi medio loco proportionalis inter b f & f d, erit ex prima sexti superficies h d medio loco proportionalis inter duas superficies a f & g d, ideoq̃ & inter duo quadrata l m & n l. Cūq̃ ex prima sexti sit superficies l p medio loco proportionalis inter eadem duo quadrata, erit l p æqualis d h, & etiam h c. Et quia quadratum l n est æquale g d, erit t r æquale g e, totus itaque gnomo circūscriptus quadrato m n, est æqualis c g. Et quia l m erat æquale a f, relinquitur m n æquale a c. Quod autem n p latus quadrati m n sit residuū, sic collige. Est enim utraque duarū p t & t n rationalis in potentia, eo quod utrunque quadratum l m & n l est rationale, unáque earum est incommensurabilis alij per primam sexti & 10 huius, eo quod quadratum l m est incommensurabile l r superficiei, sicut superficies a f superficiei h d. De quibus manifestum est quod ipsæ sunt incommensurabiles, est enim per primā sexti una earum ad alteram, sicut linea b f quæ est rationalis in longitudine ad lineam d e quæ est rationalis in potentia tantum, ex 68 igitur linea p n, quæ potest in superficiem a c, est residuum. Et hoc est quod intendimus.
 
-## Eucli.ex Camp. Propositio 85
+[Diagram: tall rectangle divided by horizontal lines; labels on the left side from top to bottom: g, b, k; on the right side from top to bottom: d, f, e, c; at the bottom corners: a (left) and b (right)]
 
-[Margin]
-85
-[/Margin]
+[Diagram: square with diagonal drawn from m (bottom left) to l (top right); a vertical line t p and a horizontal line r q cross at n on the diagonal; labels: t at top, l at top right, r at left, q at right, n at centre, m at bottom left, p at bottom]
 
-REsiduum sextū demum præsto sit reperire.
-
-CAMPANVS. Residuum sextum sic reperitur. Erit ut prius linea a rationalis posita, & c numerus quadratus diuisus in f & g non quadratos. & erit h numerus primus. Et quadratū lineæ a ad quadratum lineæ b c, sicut h ad e. at uero quadratū lineæ b c, quadratū c d, ut e ad f, eritq̃ ex diffinitione linea d b, residuum sextum. Cui si non plane animus tuus assenserit, exerceri te conuenit in inuentione binomij sexti,
-
-[Diagram: line a; line with points b, d, c (b at the left end, d in the middle, c at the right end); dotted number line with labels f and g]
-
-## Inuenire sextam apotomen.
+## Eucli.ex Zamb. Theorema 67 Propositio 91
 
 [Margin]
-90
+91
 [/Margin]
 
-THEON ex Zamb. Exponatur rationalis α, & tres numeri ε, β γ, γ δ, rationem non habentes adinuicem quā quadratus numerus ad quadratum. Insuperq̃ & β γ, ad β δ rationem non habeat quam quadratus numerus ad quadratum numerum. Fiatq̃ (per correlarium 6 decimi) sicut ε ad β γ, sic quod ex α ad id quod ex ζ η, sicut autē β γ ad γ δ, sic quod ex ζ η ad id quod ex η θ. Quoniam igitur est sicut ε ad β γ, sic est quod ex α ad id quod ex ζ η, cōmensurabile igitur est (per 6 decimi,) quod ex α ei quod ex ζ η, rationale autē quod ex α rationale igitur est & id quod ex ζ η, rationalis igitur est & ζ η. Et quoniā ε ad β γ rationē nō habet quā quadratus numerus ad quadratū numerū, neq̃ igitur quod ex α ad id quod ex ζ η, rationē nō habet  quā quadratus nūerus ad quadratū numerū. Incōmēsurabilis igitur est (per 9 decimi) α ipsi ζ η longitudine. Rursus quoniā est sicut β γ, ad γ δ, sic quod ex ζ η ad id quod ex η θ, commensurabile igitur est (per 6 decimi) quod ex ζ η, ei quod ex η θ, rationale autē est quod ex ζ η, ratiōale igitur est, & quod ex η θ, rationalis igitur & η θ. Et quoniā β γ ad γ δ rationē non habet quā quadratus numerus ad quadratum numerū, neque igitur quod ex ζ η, ad id quod ex η θ, rationem habet quā quadratus numerus ad quadratum numerum, incōmēsurabilis igitur est (per 9 decimi,) ζ η, ipsi η θ longitudine. Et utræq̃ rationales. Ipsæ igitur ζ η, η θ, rationales sunt potentia tantum cōmensurabiles. Igitur ζ θ apotome est. Dico iam quod & sexta. Quoniam enim est sicut ε ad β γ sic quod ex α ad id quod ex ζ η, sicutq̃ β γ ad γ δ sic quod ex ζ η ad id quod ex η θ, ex æquali igitur (per 22 quinti) est sicut ε ad γ δ, sic quod ex α ad id quod ex η θ. At ε ad γ δ rationem non habet quam quadratus numerus ad quadratum numerum. Neque igitur quod ex α, ad id quod ex θ η, rationē habet quā quadratus numerus ad quadratū numerū. Incōmensurabilis igitur est (per 9 decimi) α, ipsi η θ lōgitudine, & neutra ipsarū ζ η, η θ, cōmensurabilis est longitudine ipsi α expositæ rationali. Quo nempe maius est quod ex ζ η, eo quod ex ζ θ{printer-error-correction:η θ}, esto quod ex κ. Quoniam enim est sicut β γ ad γ δ, sic quod ex ζ η ad id quod ex η θ, conuertēdo igitur (per correlarium 18 quinti) est sicut β γ ad β δ sic est quod ex ζ η, ad id quod ex κ. At γ β, ad β δ rationem non habet quam quadratus numerus ad quadratum numerum, neque igitur quod ex ζ η, ad id quod ex κ rationem habet quam quadratus uumerus{printer-error-correction:numerus} ad quadratum numerū. Incōmensurabilis igitur est ζ η ipsi κ longitudine. Et ζ η, ipsa η θ maius potest, eo quod ex κ. Igitur ζ η, ipsa η θ maius potest eo quod est sibi longitudine incōmensurabili, & utraque ipsarū ζ η, η θ, incommensurabilis est lōgitudine ipsi α expositæ rationali. Ipsa igitur ζ θ, apotome est sexta. Inuenta igitur est apotome sexta ζ θ, quod erat agendum. Sit prædictarum sex apotomarum inuentionis ostensio concisior. Deturq̃ ut inueniatur prima. Exponatur ex binis nominibus prima α γ, cuius maius nomen sit α β, & ab ipsa quidem α β, auferatur ipsi quidem β γ, æqualis β δ. Ipsæ igitur α β, β γ, hoc est α β, β δ, rationales sunt potentia tantum commensurabiles, & α β, ipsa β γ, hoc est ipsa β δ, maius potest, eo, quod ex sibi incommensurabili. & α β commensurabilis est expositæ rationali longitudine. Igitur α δ prima est apotome. Similiter iam & reliquas apotomas inueniemus eas quæ ex binis nominibus* in numeros exponentes.
+Si areola comprehendatur sub rationali & apotome prima, quæ areolã potest apotome est.
 
-[Margin]
-ἰσαρίθμους pari numero, id est eiusdem ordinis
-[/Margin]
+THEON ex Zamb. Cōprehendatur etenim areola α β, sub rationali α γ, & apotome prima α δ. Dico quod ipsam α β areolā potens, apotome est. Quoniā apotome est α δ, esto eidē cōgruens (per 79 decimi δ η. ipsæ igitur α η, δ η, rationales sunt potentia tantū commensurabiles. & tota α η, (per 3 diffinitiones) commensurabilis est ipsi α γ, expositæ rationali, & α η, ipsa η δ, (per 73 decimi,) maius potest eo quod ex sibi lōgitudine commensurabili. Si igitur (per 28 sexti) quartæ parti eius quod ex δ η æquū ad ipsam α η cōparetur deficiēs forma quadrata, in cōmēsurabilia ipsam (per 17 decimi) diuiserit. Secetur (per 10 primi) δ η bifariā in ε, & ei quod ex ε η, æquū ad ipsam α η cōparetur (per 28 sexti,) deficiēs forma quadrata, sitq̃ quod sub α ζ, ζ η, cōmēsurabilis igitur est α ζ, ipsi ζ η. Et per ε, ζ, η, signa, (per 31 primi) ipsi α γ, paralleli excitētur ε θ, ζ ι, η κ. Et quoniā cōmensurabilis est α η{printer-error-correction:α ζ} ipsi ζ η, longitudine, & α η igitur utriq̃ ipsarū α ζ, ζ η, cōmensurabilis est lōgitudine. Sed α η cōmensurabilis est ipsi α γ, & utraque igitur ipsarum α ζ, ζ η, commensurabilis est longitudine ipsi α γ, & rationalis est α γ, rationalis igitur est & utraq̃ ipsarum α ζ, ζ η, quare & utrunque ipsorum α ι, ζ κ, rationale est. Et quoniam commensurabilis est δ ε, ipsi ε η, & δ η, igitur utriq̃ ipsarū δ ε, ε η, lōgitudine cōmensurabilis est. Rationalis aūt est δ η, & ipsi α γ lōgitudine incōmensurabilis, ratiōalis igitur est & utraq̃ ipsarū δ ε, ε η. & ipsi α γ, lōgitudine incōmensurabilis, utrūq̃ igitur ipsorū δ θ, ε κ, mediū est. Apponatur iā, ipsi quidē α ι, æquū quadratū λ μ, ipsi autē ζ κ, æquum auferatur communē ipsi λ μ angulum habēs cū qui sub λ ο, ο ν, sitq̃ ν ξ, circa eundem igitur dimetientē sunt (per 26 sexti,) ipsa λ μ, ν ξ, quadrata, sit eorū dimetiens ο ρ, ac describatur figura. Quoniā certe rectangulum cōprehensum sub α ζ, ζ η, æquum est ei quod ex η ε, quadrato.
 
-[Diagram: line α; line with points ζ, θ, η (ζ at the left end, θ in the middle, η at the right end); shorter line κ; dotted number line with points β, δ, γ]
-
-[Diagram: line with points α, β, δ (α at the left end, β toward the right, δ at the right end)]
-
-## Eucli. ex Camp. Propositio 86
-
-[Margin]
-86
-[/Margin]
-
-SI fuerit superficies linea rationali residuo primo contenta. latus eius tetragonicum necesse est esse residuum.
-
-CAMPANVS, Sit superficies a c contenta linea rationali a b & residuo pri
-
-<!-- Catchword: mo -->
+<!-- Catchword: est -->

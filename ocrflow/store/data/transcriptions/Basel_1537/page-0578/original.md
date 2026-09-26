@@ -1,37 +1,35 @@
-<!-- Running title: DATA -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-<!-- Page number: 565 -->
+<!-- Page number: 568 -->
 
-specie. Datur autem & b. Ratio igitur ipsius b ad e h, data est. ipsius autem b ad a, ratio est data & ipsius a ad e h, igitur ratio est data, & simile est a ipsi e h. Ratio igitur ipsius c d ad e f, data est. Idque propterea iam & reliquorum laterum ad reliqua latera per præcedentem ratio est data.
+angulus, in parallelos enim f g, c b recta cecidit linea c f, efficiens interiores & ad easdē partes binis rectis æquales. Quorū qui sub f c b, datur: & reliquus qui sub c f g datur. Quare & reliqui dati sunt & qm̄ datur ratio c f ad c b, æqualis aūt ipsa g b ipsi c f & c b ipsi f g, quare & laterū ratio datur.
 
-### Aliter.
+### Scholium.
 
-Exponatur recta linea g h iã d ipsi b , aut est simile aut nõ. Sit pri⁹ simile fiatq̃ sicut c d ad e f, sic g h ad k l. Describãturq̃ p̃ 25 sexti ele. ab ipsis g h, k l ipsis a b, similes similiterq̃ positæ m, n, spẽs. Et quoniã est sicut c d ad e f, sic est g h ad k l. Describunturque ab ipsis c d e f, g h, k l, similia similiterq̃ posita rectilinea a, b, m, n, est igitur sicut a ad b sic m ad n. Ratio autẽ ipsius a ad b data est. Ratio igitur ipsius m ad n data. Datũ autem m per 25. propositionẽ, à data siquidem magnitudine rectilinea describitur species. Datum igitur est & n. Describatur iam per 46 primi elemen. ex ipsa k l quadratum x. Datur igitur ipsum x specie. Ratio igitur ipsius n ad x data, datũ aũt ipsum n, datum igitur & x. Data igitur est k l, est aũt & g h data. Rõ igitur ipsius g h ad k l data est. estq̃ sicut g h ad k l, sic c d ad e f. Ratio igitur ipsius c d ad e f, data est. Simile estq̃ a ipsi b & latera quoque reliqua ad reliqua latera per præcedentem rationem habebunt datam, non sit autem simile, consequenter iam priori ostenditur demonstratione.
+Quoniam enim ipsius f b parallelogrāmi ad a f c b, speciē ratio est data, ipsius autē a f c b, speciei ad c d, ratio est data, & ex æquali per 22 quinti ele. ipsius b f ad c d, ratio est data.
 
-[Diagram: four figures at right: a square with b inside and base corners f, e; a square with a inside and base corners d, c; below, a small rectangle divided horizontally into cells n (above) and x (below) with k at its right; and a square with m inside and base corners h, g]
+## Theorema 62 — Propositio 62
 
-## Theorema 55 — Propositio 55
+SI binæ rectæ lineæ adinuicem rationem habuerint datā. Descriptáque fuerit ab una quidem data specie species, altera uero area parallelogramma in angulo dato, habuerit aūt species ad parallelogrammū rationē datā. Datur parallelogrāmū specie.
 
-SI areola specie & magnitudine data fuerit, & eius latera magnitudine data erũt.
+Binæ enim rectæ lineæ a b, c d, adinuicē rationē habeāt datā, & describatur ab ipsa quidē a b, data specie species a e b & ab ipsa c d, parallelogrammū f d in dato angulo f c d. Rō aūtē sit ipsius a e b speciei ad f d parallelogrammū data. Dico q́; datur d f, parallelogrāmū specie. Describatur enim ab ipsa a b ipsi d f, per 25 sexti ele. simile similiterq́; positū a g. Quoniam ratio ipsius a b ad c d data est. Describāturq́; ab ipsis a b c d similia similiterq́; posita rectilinea a g, f d. Ratio igitur ipsius a g ad f d, data est. Ipsius aūtē f d ad e b ratio est data, & ipsius e b igitur ad a g, ratio data est, & angul⁹ qui sub b a h, datus est, æquales enim ei qui sub f c d. Quoniā igitur data specie: specie e b ad unum latus a b proiectū est a g in dato angulo h a b, & ratio ipsius e b speciei ad a g, parallelogrammum data est. Datur igitur a g specie, estq́; similis ipsi f d, datur igitur f d specie.
 
-Sit areola specie & magnitudine data a. Dico quod & ipsius latera magnitudine data recta sunt, exponatur siquidem positione & magnitudine data recta linea b c describaturq̃ per 25 sexti elemen. ex ipsa b c ipsi a simile similiterque positum d. Datur iam ipsum d specie, datur igitur & d magnitudine. Datur autem & a, ratio igitur ipsius a ad d, data. Simileq̃ est a ipsi d, ratio igitur ipsius e f ad b c data. Data autem & b c data, igitur & e f. Et ipsius f e ad e g, data est ratio, data igitur e g. Idque propterea iam & unumquodque ipsorum magnitudine datur.
+[Diagram: at right, two figures: a tall rectangle with f at its top right and d, e at its base; beside it a house-shaped figure (square topped by a triangle) with c at the apex, b on the left side, a on the right side, and g, b at the base]
 
-[Diagram: a rectangle with a inside, corners b (top left), g (top right), f (bottom left), e (bottom right); beside it a square with d inside and base corners c, b]
+## Theorema 63 — Propositio 63
 
-### Aliter.
+SI triangulum specie datum fuerit, quod ex uno quoq́; latere ipsius, quadratum ad triangulum rationem datam habebit.
 
-Esto areola k l m n x, specie data & magnitudine, dico quod & latera eius data sunt specie. Describatur per 46 primi elementorum, ex m n, quadratum m o. Datur igitur specie. Sed & l n. Ratio igitur ipsius l n ad m o data est. Data autem l n magnitudine. Data igitur & m o, magnitudine, estque quadratum ex m n. Datum igitur est quod ex m n. Data igitur est m n magnitudine. Idque propterea iam & unumquodque ipsorum m l, l k, k x, x n, data est magnitudine.
+Esto triangulū specie datū a b c. Describaturq́; ex unoquoq́; ipsius latere quadratū e b, c d, c f. Dico quod uhūquodq́;{printer-error-correction:unūquodq́;} ipsorū e b, c d, c f ad a b c, triāgulum rationē datā habebit. Nam quoniā ab eadē recta linea b e, rectilinea data specie describūtur utcunq; a b c d. Igitur per 49 propositionē, ratio ipsius a b c ad c d data est. Idq́; propterea iam, & utriusq́; ipsorum e b & c f ad a b c, triangulū ratio est data.
 
-[Diagram: a house-shaped (pentagonal) areola with apex k, upper corners x (left) and l (right), points n (left side) and m (right side) below them, and o at the bottom left; horizontal lines divide the figure]
+[Diagram: a triangle with squares described on its sides: f at upper left, a at top, e at upper right, c at the left vertex, b at the right vertex, and d at the bottom corner of the square on the base]
 
-## Theorema 56 — Propositio 56
+## Theorema 64 — Propositio 64
 
-SI bina æquiangula parallelogramma, adinuicem rationem habuerint datã, erit sicut primi latus ad secundi latus, sic reliquum secundi latus ad quod alterum primi rationem habet datam, quam parallelogrammum ad parallelogrammum.
+SI triangulum obtusum habuerit angulum datū qua maius quod obtusum angulū subtendit latus, area lateribus obtusum angulū cōprehendentibus ad triangulum, rationem datam habebit.
 
-Bina enim æquiangula parallelogramma a, b, adinuicem rationem habeant datam. Dico quod est sicut c d ad e f, sic est e g ad id quod ipsa c h rationem habet datam. quã parallelogrammum a ad parallelogrammum b extendatur in rectas lineas ipsi c h, ipsa c k, fiatque sicut c d ad e f, sic e g
+Sit triangulum obtusum habens angulum eum qui sub a b c, datum, extendaturq́; in rectas lineas ipsius b c, recta linea b d, exciteturque per duodecimam primi elementorum ab ipso a in c d, perpendicularis a d. Dico quod quo maius est quod ex a c eis quæ ex a b, b c, hoc est quod bis sub d b, b c, ea area ad a b c, triangulū datam rationem habebit. Quoniā nāq; angulus qui sub a b c, per hypothesim datus est, & qui sub a b d, datus est, est aūt & qui sub a d, d b, datus. Reliquus
 
-[Diagram: a wide rectangle divided horizontally into two strips, with a inside the upper strip; corners b (top left), e (top right), d and l at the ends of the dividing line, f (bottom left), k (bottom right); below it a square with b inside, e at top right, f at bottom left, g at bottom right]
+[Diagram: a triangle with apex a at the upper right; horizontal base with d at the left end and b in the middle; lines run from a to d and from a to b]
 
-<!-- Signature: Bb -->
-
-<!-- Catchword: ad c k. -->
+<!-- Catchword: igitur -->

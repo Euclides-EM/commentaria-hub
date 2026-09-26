@@ -1,25 +1,31 @@
-<!-- Page number: 418 -->
+<!-- Running title: LIBER DVODECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 419 -->
 
-ſa α ψ in unā ipſius polyhedri baſin, & α κ in minoris ſphæræ ſuperficiem. Quare & polyhedrũ nõ tangit ſphærã in ſuperficie. Quod facere oportebat.
+corpus multarum baſium quod eſt c d, utraque enim, eſt ſicut diameter a b ad diametrum c d triplicata. Hæc autem, ex hypotheſi, illa uero, ex ſecunda parte præmiſſæ. Quare p̃mutatim proportio ſphæræ a b ad corpꝰ multarũ baſiũ a b, eſt ſicut ſphæra e f ad corpus multarum baſium c d. Cum igitur ſphæra a b ſit maior corpore multarum baſium a b, erit etiã ſphæra e f maior corpore multarum baſium c d. Hoc autẽ eſt impoſſibile, nã ipſa eſt pars eius. Non eſt ergo ſphæra e f minor ſphæra c d. Si autẽ dicat aduerſarius eam eſſe maiorem, confutabimus ipſum hoc modo. Erit enim per conuerſam proportionalitatem ſphæra e f ad ſphærã a b, ſicut diameter c d ad diametrum a b triplicata. Sit itaque eadem ſphæræ c d. ad ſphæram g h, eritq̃ ex 14 quinti ſphæra g h, minor ſphæra a b, eo qd̃ ſphæra c d poſita eſt minor ſphæra e f. Quare proportio ſphæræ c d ad aliquam ſphæram minorem ſphæra a b, eſt ſicut diametri c d ad diametrum a b triplicata. At hoc eſt impoſſibile, nã ex hoc ſequitur, quod pars ſit maior ſuo toto ut demonſtratum eſt prius. Itaque ſphæra e f, non eſt maior neq̃ minor quàm ſphæra c d. Igitur (ex 7 quinti) conclude, ppoſitã cõcluſionẽ, quæ imponit finẽ libro duodecimo.
 
-Oſtẽdẽdũ iã & aliter ac expeditius quod maior eſt α ψ, ipſa α κ. Excitetur (per 11 primi) ab ipſo κ ipſi α κ ad angulos rectos κ, & cõnectãtur α λ. Secãtes iã (per 30 tertij) ipſam γ β circũferẽtiam diuidue, & dimidiũ ipſius diuidue, & hoc ſemper faciẽtes, relinquemus quãdam circunferentiã quæ eſt minor quã circunferẽtia β γ δ circuli quæ ſubtenditur ab æquali ipſi κ λ, relinquatur, & eſto κ β circũferẽtia. Minor igitur eſt & κ β recta linea, ipſa κ λ. Et quoniã in circulo eſt β κ σ ο quadrilaterum, & æquales ſunt ο β, β κ, κ σ, & minor eſt ο σ, angulus igitur qui ſub β ψ κ obtuſus eſt, maior igitur eſt β κ, ipſa β ψ. Sed ipſa κ β maior, eſt quàm ipſa κ λ{printer-error-correction:minor}. multo maior igitur eſt κ λ, ipſa β ψ, maius igitur eſt & quod ex κ λ, eo quod ex β ψ. Et quoniã (per 15 diffinitionẽ primi,) α λ ipſi α β eſt æqualis, & quod ex α λ, igitur ei eſt æquũ quod ex α β. Sed ei quod ex α λ, æqua ſunt quæ ex α κ, κ λ: ei uero quod ex α β æqua ſunt quæ ex β ψ, ψ α. Quæ igitur ex α κ, κ λ, æqualia ſunt eis quæ ex β ψ, ψ α. Quorũ quod ex β ψ, minus eſt eo quod ex κ λ, & reliquũ igitur quod ex ψ α. maius eſt eo quod ex α κ. Maior igitur eſt α ψ, ipſa α κ. Binis igitur ſphæris circũ idẽ centrum exiſtentibus, in maiori ſphæra ſolidũ polyhedrum deſcriptũ eſt non tangẽs minorem ſphæram in ſuperficie. Quod facere oportuit.
+[Diagram: circle with inscribed hexagonal solid and inner circle, labels a (top), g (inner), b (inner), b (bottom)]
 
-[Diagram: two concentric circles about the centre, with the solid polyhedron inscribed in the greater sphere and not touching the lesser; many labelled points, among them ζ (apex), ν, γ, θ, π, υ, ε, δ, α, κ, ι, λ, μ, ο, σ, χ, φ, ψ]
+[Diagram: circle with inscribed hexagonal solid and inner circle, labels c (top), e (inner), f (inner), d (bottom)]
 
-[Diagram: circle with inscribed quadrilateral and its diagonals, illustrating the quadrilateral β κ σ ο; legible labels κ, θ, β]
-
-CORRELARIVM. Si uero & in altera ſphæra ei quod in β γ δ ε, ſphæra, ſolido polyhedro, ſimile ſolidũ polyhedrũ inſcribatur, in ipſa β γ δ ε ſphæra ſolidũ polyhedrũ ad id quod in altera ſphæra ſolidum polyhedrũ triplã habet rationẽ, quàm ipſius β γ δ ε ſphæræ dimetiẽs ad ipſius alterius ſphæræ dimetientẽ. Diſtributis nãq̃ ſolidis in numero æquales & æqualis ordinis pyramidas, pyramides ſimiles erũt. Similes uero pyramides, (per 8 duodecimi) adinuicẽ in tripla ſunt rõne eiuſdẽ rõnis laterũ. Pyramis igitur cuius baſis quidẽ eſt κ β ο σ quadrilaterũ, uertex aũt α ſignũ, ad eã quæ in altera ſphæra ſimilis ordinis pyramida triplã habet rõnẽ, q̃ ſimilis rõnis latus ad ſimilis rõnis latus, hoc eſt quàm α β quæ ex cẽtro eius eſt ſphæræ quæ circũ α centrũ, ad eã quæ ex centro alterius ſphæræ. Similiter & unaquæq̃ pyramis quæ in ſphæra quæ circũ centrũ α, ad quãlibet pyramida eiuſdẽ ordinis in altera ſphæra triplã habebit rõnẽ quàm α β ad eã quæ ex cẽtro alterius ſphæræ. Et ſicut unũ antecedentiũ ad unũ ſequentiũ, ſic õnia ãtecedentia ad õnia ſequẽtia. Quare totũ ſolidũ polyhedrũ quod in ſphæra quæ circũ centrũ α, ad totũ ſolydum polyhedrum quod in altera ſphæra triplam rationem habebit quàm α β ad eã quæ ex centro alterius ſphæræ, hoc eſt quàm β δ diameter ad alterius ſphæræ diametrum. Quod oſtendere oportuit.
-
-## Euclid. ex Camp. Propoſitio 15
+## Eucli. ex Zamb. Theorema 16 Propoſitio 18
 
 [Margin]
-15
+18
 [/Margin]
 
-OMnium duarum ſphærarum eſt proportio alterius ad alteram, tanquam ſuæ diametri ad diametrũ alterius proportio triplicata.
+Sphæræ adinuicem, in triplici ſunt ratione propriorum dimetientium.
 
-CAMPANVS Sint duæ ſphæræ a b & c d, quarum diametri ſint a b & c d. Dico quod proportio earum. eſt ſicut ſuarũ diametrorum proportio triplicata. Cuius demõſtratio eſt. Quoniam neque ad minorem ſphæram quàm ſit ſphæra c d neque ad maiorẽ eſt, pportio ſphæræ a b, ſicut diametri a b ad diametrum c d triplicata. Eſto quidem proportio ſphæræ a b ad ſphæram e f, ſicut diametri a b ſphæræ a b, ad diametrũ c d triplicata. Demonſtrabo itaque, quod ſphæra e f nõ poteſt eſſe minor neque maior quàm ſphæra c d. Si enim affirmet aduerſarius eã eſſe minorem, imaginabor eã includi à ſphæra c d, & circunduci ab eodem centro, & inſcribam ſphæræ c d iuxta præcepta præmiſſæ, unum corpus multarum baſium non tangentium ſuperficiem ſphæræ e f, minoris. dicaturque iſtud corpus nomine ſphæræ cui inſcribitur, c d. Poſtea ſimile corpus multarum baſium inſcribam ſphæræ a b, quod etiam nomine ſuæ ſphæræ dicatur a b: conſtat itaq̃ ex ſecunda parte præmiſſæ & undecimi quinti, quod proportio ſphæræ a b ad ſphærã e f. eſt ſicut corporis multarum baſium quod eſt a b, ad
+THEON ex Zãb. Intelligatur ſphæræ α β γ, δ ε ζ, diametri uero ipſarũ ſint β γ, ε ζ, dico quod ſphæra α β γ ad ſphæram δ ε ζ, triplã habet rationẽ quàm β γ ad ε ζ. Si aũt nõ: habebit igitur α β γ ſphæra ad minorẽ aliquã ipſa δ ε ζ, ſphæra, triplã rationẽ, uel ad maiorẽ, quàm β γ ad ε ζ. Habeat prius ad minorẽ η θ κ, & intelligatur δ ε ζ ſphæra, ipſi η θ κ, circũ idẽ centrũ, deſcribaturq̃ (per præcedentẽ) in ſphæra maiori δ ε ζ, ſolidũ polyhedrũ non tangẽs minorẽ ſphærã η θ κ in ſuperficie. Deſcribatur autẽ (per eandẽ, & in α β γ ſphæra, ei quod in δ ε ζ, ſolido polyhedro ſimile ſolidũ polyhedrũ. Igitur (per correlariũ eiuſdem) ſolidũ polyhedrũ quod in ſphæra α β γ, ad id ſolidũ polyhedrũ quod in δ ε ζ, triplã habet rõnẽ quã β γ ad ε ζ. Habet autẽ & α β γ ſphæra, ad η θ κ ſphæram, triplã rationẽ quàm β γ ad ε ζ, eſt igitur ſicut ſphæra α β γ ad ſphæram η θ κ, ſic ſolidum polyhedrũ quod in α β γ ſphæra, ad ſolidũ polyhedrũ quod in δ ε ζ, ſphæra. Viciſſim igitur (per 16 quinti,) ſicut α β γ ſphæra ad id quod in ipſa polyhedrũ, ſic η θ κ, ſphæra ad id quod in δ ε ζ ſphæra ſolidũ polyhedrũ. Maior autẽ eſt α β γ ſphæra, eo q̃ in ſe polyhedro. Maior igitur & η θ κ ſphæra, eo quod in δ ε ζ, ſphæra polyhedro. Sed & minor, ab ipſo namq̃ cõprehenditur, quod eſt impoſſibile. Sphæra igitur α β γ, ad minorẽ ipſa δ ε ζ ſphærã, triplã rationẽ non habet quàm β γ, diameter ad δ ζ{printer-error-correction:ε ζ} diametrũ. Similiter iam demõſtrabimus, quod neque δ ε ζ ſphæra, ad minorẽ ipſa α β γ ſphæra, triplam habet rõnem quàm ε ζ ad β γ.
 
-<!-- Catchword: corpus -->
+[Diagram: large circle labelled e]
+
+[Diagram: large circle labelled f]
+
+[Diagram: three circles in a row — first: circle with horizontal diameter, labels α (top), β (left), γ (right), δ (bottom); second: two concentric circles with horizontal diameter, labels η (top), θ (inner left), κ (inner right), ε (outer left), ζ (outer right); third: circle with labels λ (top), μ (left), ν (right)]
+
+Dico iam quod neque ſphæra α β γ, ad maiorem aliquã ipſa δ ε ζ ſphæra triplã habet rationẽ quàm β γ ad ε ζ. Si enim poſſibile habeat ad maiorẽ λ μ ν. Conuerſim igitur ſphæra λ μ ν ad ſphæram α β γ triplã habet rationẽ, quàm diameter ε ζ ad diametrũ β γ. Sicut autẽ λ μ ν ſphæra ad α β γ, ſphæram, ſic δ ε ζ ſphæra ad minorẽ aliquã ipſa α β γ ſphæra, ſicut antea patuit, quoniam maior eſt λ μ ν ipſa δ ε ζ, & ſphæra δ ε ζ ad minorem ipſa α β γ, ſphæra triplam habet rationem quàm ε ζ ad β γ, quod eſt impoſſibile. Igitur ſphæra α β γ, ad maiorem ipſa δ ε ζ ſphæra, triplam rationẽ non habet quàm β ε{printer-error-correction:β γ} ad ε ζ. Patuit autẽ quod neque ad minorem. Ipſa igitur α β γ ſphæra, ad δ ε ζ ſphæram, triplam habet rationem, quàm β γ ad ε ζ. Quod oſtendendum fuerat.
+
+## DVODECIMI LIBRI FINIS.
+
+<!-- Catchword: EVCLI -->

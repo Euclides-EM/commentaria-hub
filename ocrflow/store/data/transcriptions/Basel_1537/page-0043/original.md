@@ -1,53 +1,33 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER PRIMVS -->
 
-<!-- Page number: 34 -->
+<!-- Page number: 35 -->
 
-des, quia leuiter patet ex hac præcedente correlariū & 38, diuiso parallelogrammo per diametrū in duo triangulos, uel super basin parallelogrāmi inter easdem lineas æque distantes triangulo constituto, ad quem duplum erit parallelogrammū per hanc præcedentem, & ipse æqualis alteri dato triangulo per 38.
+secet utrunq̃ latus a b & c d, sitq̃ tota g k h. Erit totum parallelogrammū a b c d diuisum in quatuor parallelogrāma, quorū duo, scilicet, e c k h & g k b dicuntur cōsistere circa c b, eo q̃ diameter transit per medium eorū, & ideo sunt circa diametrū, reliqua duo, scilicet, a e g k & k h f d: dicūtur supplemēta. Hæc duo supplemēta, dicūtur esse æqualia, sunt enim duo trianguli a b c & c d b, æquales per correl. 34 propositionis, similiter quoq̃ duo triāguli g k b & f k b, sunt æquales per idem correlariū: at duo triāguli c e k & k h c, similiter sunt æquales per idem correlariū. Demptis igitur duobus triāgulis b g k & k c e de totali triāgulo a b c, ac duobus triāgulis reliquis b f k & k c h de totali triāgulo reliquo c d b, erunt per 3 cōmunē animi conceptionē residua quæ sunt duo dicta supplemēta æqualia, q̃d est propositū.
 
-## Eucli. ex Zamb. Theorema 31. Propositio 41.
+[Diagram: parallelogram with a, g, b along the top, e, k, f in the middle, c, h, δ along the bottom; diameter b c drawn, with lines e f and g h through k dividing it into four parallelograms]
 
-[Margin]
-41
-[/Margin]
-
-Si parallelogrammū & triangulū eandem basin habuerint, in eisdemq̃ fuerint parallelis, trianguli parallelogrammū duplum erit.
-
-THEON ex Zamb. Parallelogrammū enim α β γ δ, & triangulum ε β γ, eandem habeant basin β γ, in eisdemq̃ sint parallelis β γ & α ε. Dico quod parallelogrammū α β γ δ, trianguli ε β γ duplum est. Connectatur enim (per 1 postulatū) α γ. Triangulū igitur α β γ (per 37) æquale est triangulo ε β γ: in eadem enim sunt basi β γ, & in eisdem parallelis β γ & α ε. Sed parallelogrammū α β γ δ, duplum est ipsius trianguli α β γ (per 34 propositionem) etenim dimetiens α γ, illud bifariam secat. Quare parallelogrammū α β γ δ, ipsius trianguli ε β γ duplum est. Si parallelogrammum & triangulū igitur, & quod sequitur reliquum. Quod erat ostendendum.
-
-[Diagram: parallelogram α β γ δ with triangle ε β γ on the same base between the same parallels, diagonal α γ drawn]
-
-## Eucli. ex Camp. Propositio 42.
-
-[Margin]
-42
-[/Margin]
-
-{dropcap:A|lines=?|style=decorated}Equidistantiū laterum superficiem designare, cuius angulus sit angulo assignato æqualis, ipsa uero superficies triangulo assignato æqualis.
-
-CAMPANVS. Sit assignatus angulus a, & assignatus triangulus b c d, uolo describere superficiem æquidistantiū laterum æqualem triangulo b c d, cuius uterq̃ duorum angulorū ex aduerso positorū sit æqualis a. Diuido basin c d per dimidium in puncto e, & protraho lineam b e, & à puncto b duco b f æquidistantē c d, eritq̃ per 38 triangulus b e d æqualis b e c, quare triangulus b e d est dimidiū totalis trianguli b c d. Igitur super punctum e & lineā e d, constituo per 23 angulū d e g æqualem angulo a, & perficio parallelogrammū g e d f, quod cum per præcedentē sit duplum triangulū b e d, erit etiam æquale triangulo b c d, per hanc cōmunem scientiam, quorū dimidia sunt æqualia, ipsa quoq̃ sunt æqualia: est enim triangulus b e d, utriusq̃ dimidium. Quare descripsimus parallelogrammū g e d f æquale triangulo b c d, cuius uterq̃ duorū angulorū g e d & d f g ex aduerso positorum est æqualis angulo a, quod fuit propositum.
-
-[Diagram: triangle b c d with midpoint e of base c d, line b e, line b f parallel to c d, and parallelogram g e d f; the given angle a shown separately to the right]
-
-## Euclidis ex Zamb. Problema 11. Propositio 42.
-
-[Margin]
-42
-[/Margin]
-
-Dato triangulo æquale parallelogrammū constituere, in dato angulo rectilineo.
-
-THEON ex Zamb. Sit datum triangulū α β γ, datus uero angulus rectilineus sit δ, oportet iam ipsi triangulo α β γ æquale parallelogrammum construere in angulo rectilineo æquali ipsi δ. Secetur (per 10 propositionē) linea β γ bifariam, in signo ε, & connectatur (per 1 postulatum) α ε. Constituaturq̃ (per 23 propositionē) ad datam rectam lineam ε γ, & ad datumq̃ in ea signum ε, ipsi angulo δ, æqualis angulus γ ε ζ. Et (per 31 propositionem) per α, ipsi ε γ excitetur parallelus α η, & (per eandem) per γ ipsi ε ζ, parallelus excitetur γ η: parallelogrammum igitur est ζ ε γ η. Et quoniam æqualis est β ε ipsi ε γ, triangulum α β ε, (per 38) triangulo α ε γ est æquale: in æqualibus enim sunt basibus β ε & ε γ, & in eisdem parallelis β γ & α η. Duplum igitur est triangulū α β γ, trianguli α ε γ. Est autem & parallelogrammum ζ ε γ η (per 41 propositionem) duplum est trianguli α ε γ: basin enim eandem habet, in eisdemq̃ parallelis est, parallelogrammū igitur ζ ε γ η æquū est ipsi triāgulo α β γ, & habet angulū γ ε ζ æqualem dato angulo δ. Dato igitur triāgulo α β γ, æquale constitutū est parallelogrammū ζ ε γ η, in angulo γ ε ζ, qui æqualis est ipsi δ, quod fecisse oportuit.
-
-[Diagram: triangle α β γ with ε the midpoint of β γ, parallelogram ζ ε γ η between the same parallels; the given angle δ shown separately]
-
-## Eucli. ex Camp. Propositio 43.
+## Eucli. ex Zamb. Theorema 32. Propositio 43.
 
 [Margin]
 43
 [/Margin]
 
-{dropcap:O|lines=?|style=decorated}Mnis parallelogrāmi spatij, eorum quæ circa diametrū sunt parallelogrammorū supplementa, æqua sibi inuicē esse necesse est.
+Omnis parallelogrāmi eorum quæ circa dimetientē sunt parallelogrāmorū supplementa, sibi inuicem sunt æqualia.
 
-CAMPANVS. Sit parallelogrammū a b c d, in quo protraham diametrū b c, & protraham e f æquidistantē utriq̃ duorū laterū a b & c d, quæ secet diametrum in puncto k, à quo ducam k g æquidistantē utriq̃ duorū laterū a c & b d, & producā eam quousq̃
+THEON ex Zamb. Sit parallelogrammū α β γ δ, dimetiens uero illius sit α γ, circa uero α γ, sint parallelogramma ε θ & ζ η, supplementa uero sint β κ & κ δ. Dico quod supplementū β κ, æquale est supplemento κ δ. Quoniam enim parallelogrammū est α β γ δ, dimetiens uero illius est α γ, triangulum α β γ (per 34 propositionē) æquum est triangulo α γ δ. Rursus quoniam parallelogrammū est ε θ, dimetiens uero illius est α κ, triangulum igitur α ε κ (per eandem) æquum est triangulo α η κ, ac per hoc etiam triangulū κ ζ γ, æquū est triangulo κ θ γ. At quoniam triangulū α ε κ, triangulo α η κ est æquale, & triangulū κ ζ γ, triangulo κ θ γ est æquale, triāgula igitur α ε κ & κ ζ γ, triangulis α η κ & κ θ γ sunt æqualia: est autē totum triangulū α β γ, toti triangulo α δ γ æquale: reliquū igitur supplementū β κ (per 3 cōmunem sententiam) reliquo supplemento κ δ est æquale. Omnis parallelogrammi ergo, & quod sequitur reliquum, quod oportuit demonstrasse.
 
-<!-- Catchword: secet -->
+[Diagram: parallelogram α β γ δ with dimetiens α γ, parallelograms ε θ and ζ η about the diameter meeting in κ, and the two supplements]
+
+## Eucli. ex Camp. Propositio 44.
+
+[Margin]
+44
+[/Margin]
+
+{dropcap:P|lines=?|style=decorated}Roposita linea recta, super eam, superficiem æquidistantiū laterum cuius angulus sit angulo assignato æqualis, ipsa uero superficies triangulo assignato æqualis designare.
+
+CAMPANVS. Designare superficiē æquidistantiū laterū super lineam aliquā, est lineam ipsam facere latus unū ipsius superficiei. Sit ergo data linea a b, & datus angulus c, & datus triāgulus d e f. Super lineam a b uolo designare superficiē unam æquidistantiū laterū, ita q̃ linea a b sit unū ex lateribus eius, cuius uterq̃ duorū angulorū ex aduerso positorū sit æqualis angulo c, & ipsa totalis superficies sit æqualis triāgulo d e f. Differt autē hæc a 42, quia hic datur latus unius superficiei describendæ, scilicet, linea a b, ibi autē nullū. Cum ergo hoc uoluero facere, adiungo lineam a g lineæ a b secundū rectitudinē, quam pono æqualē lineæ e f basi triāguli dati, super quam cōstituo triangulum unum dato triangulo æqualem, & eidem æquilaterum, quod hoc modo facio. Constituo angulum a k g æqualem angulo e, & angulū g a k æqualem angulo f, per 23, & quia a g posita fuerat æqualis e f, erit per 26 triangulus g a k æqualis & æquilaterus triangulo d e f. Diuidam ergo g a per æqualia in puncto h, & protraham k h, & producam à puncto k, lineam m k n æquidistantē lineæ g b, eritq̃ per 38 trtangulus k h a æqualis triangulo g h k. Tunc super punctum a lineæq̃ a h faciam angulum g a l per 23 æqualem angulo c dato, & complebo super basin a h, & inter lineas g b & m n æquidistantes, superficiem æquidistantium laterum m l h a, quæ per 41 dupla erit ad triangulum h k a: æqualis igitur totali triangulo k g a, quare & triangulo d e f proposito.
+
+[Diagram: at left, angle c and triangle d e f with apex δ over base e f; at right, construction on line g a b: triangle g a k with apex k, points m, k, l, n on the upper parallel, h the midpoint of g a, point b, and below points o, p, q with diagonal lines completing the parallelograms]
+
+<!-- Catchword: Protraham -->

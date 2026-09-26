@@ -1,39 +1,33 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 297 -->
+<!-- Page number: 298 -->
 
-μ ν, ν ξ, incōmēsurabile igitur est (per 1 sexti & 11 decimi,) cõpositũ ex ijs quæ ex μ ν, ν ξ, ei quod sub μ ν, ν ξ, & ipsorũ utrũq̃ mediũ est. Ipsæ igitur μ ν, ν ξ, potentia sunt incōmēsurabiles. Ipsa igitur μ ξ bina potens est media (per 41 decimi,) & ipsam potest α γ, quod ostendere oportebat.
+λ, η ζ. Vtrũq̃ igitur ipsorũ μ ξ, ν ζ, æquum est ei quod sub α γ, γ β, Et quoniã α β, ex binis nominibus est diuisa in nomina in γ, ipsæ igitur α γ, γ β, rationales sunt potētia tantũ commensurabiles. Quæ igitur ex α γ, γ β rationalia, sunt sibi inuicem commēsurabilia. Quare (per 15 decimi, & conflatum ex ijs quæ ex α γ, γ β, commēsurabile est eis quæ ex α γ, γ β, rationale igitur est compositum ex ijs quæ ex α γ, γ β. Et ipsi δ λ, est æquale, rationale igitur est δ λ. Et ad ipsam δ ε comparatur, rationalis igitur (per 20 decimi δ μ. & ipsi δ ε, lõgitudine commensurabilis. Rursus quoniã α γ, γ β, rationales sunt potentia tantum commensurabiles, medium igitur est quod bis sub α γ, γ β, hoc est ipsum μ ζ. & ad ipsam cõparatur μ λ rationalem, rationalis igitur est & μ η, ipsi λ μ incōmēsurabilis (hoc est ipsi δ ε,) lõgitudine, est aũt & μ δ rationalis, & ipsi δ ε lõgitndine{printer-error-correction:lõgitudine} cõmēsurabilis, incõmēsurabilis igitur est (per 13 decimi) δ μ, ipsi μ η longitudine. Suntq̃ ipsæ igitur δ μ, μ η, rationales, potētia tantum commensurabiles, ex binis nominibus igitur est, (per 36 decimi δ η. Ostendendum quod & prima. Quoniam enim (per lemma præcedens 54 decimi) eorum quæ ex α γ, γ β, medium proportionale est quod sub α γ, γ β & ipsorum igitur δ θ, κ λ. medium proportionale est μ ξ. Est igitur (per constructionem sicut δ θ ad μ ξ, sic μ ξ, ad κ λ, hoc est sicut δ κ ad μ ν, sic μ ν, ad μ κ, quod igitur sub δ κ, κ μ, æquum est ei quod ex μ ν. Et quoniam commensurabile est quod ex α γ, ipsi quod ex β γ, cõmensurabile est & δ θ, ipsi κ λ, quare (per 1 sexti & 11 decimi) & δ κ ipsi κ μ commensurabilis est. Et quoniam maiora suut{printer-error-correction:sunt} quæ ex α γ, γ β, eo quod bis sub α γ, γ β, maius igitur est & δ λ ipso μ ζ. Quare (per lemma præcedens & per primã sexti,) & δ μ, ipsa μ η maior est, & æquale quod sub δ κ, κ μ, ei quod ex ν η, hoc est quartæ parti eius quod ex μ η, & cõmensurabilis est δ κ, ipsi κ μ. Si uero (per 17 decimi,) fuerint binæ rectæ lineæ inæquales, quartæ autē parti eius quod ex minore æquum, ad maiorem cõparetur deficiens forma quadrata, & in commensurabilia ipsam diuiserit, maior minore maius potest eo quod ex sibi commensurabili. Ipsa igitur δ μ, ipsa μ η maius potest eo quod ex sibi commensurabili. ipsa igiturigitur  δ μ, ipsa μ η maius potest eo quod ex sibi commensurabili. Suntq̃ rationales ipsæ δ μ, μ η, & δ μ nomē maius existens, comensurabilis est longitudine ipsi δ ε expositæ rationali, ipsa igitur δ η, ex binis nominibus est prima, quod oportuit demonstrasse.
 
-## Eucli. ex Camp. Propositio 54
+[Diagram: line α–γ–β; below, rectangle with δ at the left, divided by vertical lines into several compartments, two of which project above the top line; small labels (θ, κ, μ, ν, ξ, ε, ζ, λ) mark the divisions along the middle and bottom]
+
+## Eucli. ex Camp. Propositio 55
 
 [Margin]
-54
+55
 [/Margin]
 
-SI lineæ rationali æquũ quadrato binomij rectangnlum{printer-error-correction:rectangulum} adiungatur, latus eius secundum binomium primum esse conueniet.
+SI lineæ rationali æqua superficies quadrato bimedialis primi adiungatur, latus eius reliquum binomium secundũ esse oportebit.
 
-CAMPANVS. Hæ sex sequentes, cõuersæ sunt sex præcedētium per ordinē. Huius aũt est hæc intētio sit linea a b binomiũ, diuisa ad punctũ c in duas lineas a c & c b, secũdũ suã diffinitionē aut terminũ, eiusq̃ a b quadratũ sit b d. sitq̃ linea e f, ratiõalis in lōgitudine, cui adiũgatur superficies e g æqualis quadrato b d. Dico quod latus secũdũ huiꝰ superficiei. qd’ est linea f g, est binomiũ primũ. Diuidatur enim quadratũ b d in duo quadrata b h & h d, quæ sint quadrata duarũ linearũ portionũ binomij, & in duo supplemēta a h & h K, quorũ utrũq̃ cõtinetur sub duabus portionibus binomij, eritq̃ ex diffinitione binomij quæ habetur per 30, utrũq̃ istorũ quadratorũ rationale, & per 19 utrũq̃ supplemētũ mediale Ex superficie igitur e g. abscindatur superficies e l æqualis quadrato d h, & l m æqualis quadrato h b, & n p æqualis uni duorũ supplemētorũ a h uel h K. eritq̃ p g residua, æqualis reliquo supplemēto : quare per 1 sexti linea n q, est æqualis lineæ q g. Ex præmissis aũt manifestũ est q̃ utraq̃ duarũ superficierũ e l & l m (& ideo tota superficies e n) est ratiõalis. Et utraq̃ duarũ æqualiũ n p & p g (& ideo tota m g) medialis. quare per 16 utraq̃ duarũ linearũ f l & l n. & tota linea f n, ratiõalis in lõgitudine, & lineæ e f rationali positæ cõmēsurabilis. & per 20 utraq̃ duarũ n q & q g, & tota n g, ratiõalis in potētia tãtũ, incõmēsurabilis lineæ m n (& ideo lineæ e f sibi, æquali, & per cõsequēs & lineæ f n) in lõtudine{printer-error-correction:lõgitudine}. Si igitur linea f n, quæ est maior linea n g ut ex primo duorũ antecedentiũ 35 demõstratiõi subiũctorũ & prima sexti apparet, fuerit potētior linea n g minori in quadrato lineæ secũ cõmunicãtis in lõgitudine, tũc ex diffinitione binomij primi manifestũ est lineã f g esse binomiũ per primũ. Hoc autem ita esse sic habeto. Cum inter duo quadrata d h & h b, sit (per primã sexti) superficies a h medio loco pportiõalis, conuincitur ex prioribus hypothesibus superficiem m q esse inter superficies e l & l m medio loco proportionalis, quare (per primã) sexti linea n q quæ est medietas lineæ n g est medio loco proportionalis inter duas lineas f l & l n. Quod igitur fit ex f in l n{printer-error-correction:ex f l in l n}, est quãtũ quod ex n q in se per 16 sexti. ideoq̃ per 4 secũdi quantũ quarta pars quadrati lineæ n g. Itaq̃ per primã partē 13 cũ linea f n diuidatur a superficie sibi adiũcta æquali quartæ parti quadrati breuioris lineæ n g, ita quod ad complendã totã lineã f n desit superficies quadrata in duo cũmunicãtia ad punctũ l, erit f n potentior n g in quadrato lineæ sibi communicãtis in longitudine. Constat ergo propositum.
+CAMPANVS Sit lnea{printer-error-correction:linea} a b bimediale primũ, diuisa ad punctũ c secundũ suũ terminum, cætera autem sint ut prius. Dico lineã f g esse binomiũ secundũ. Erit enim superficies m g rationalis, eo quod partes bimedialis primi continent superficiem rationalem, & superficies tres e l, l m. & tota e n. mediales communicantes, eo quod portiones bimedialis primi sunt lineæ mediales potentia tantum communicantes ex 31. Per 16 igitur erit linea n g rationalis in longitudine, commensurabilis lineæ e f rationali positæ, & per 10 linea f n rationalis in potentia tantũ quæ cum sit maior linea n g ex primo duorum antecedentium demonstrationi 25 adiunctorum & 1 sexti, eaque potentior quadrato lineæ communicantis secum in lõgitudine ex prima parte 13, erit à diffinitione linea f g binomium secundum, quod est propositum.
 
-[Diagram: square with corners d (top-left), K (top-right), c (bottom-left), b (bottom-right); a diagonal from d, a vertical and a horizontal line crossing at h near the centre (letter h at the crossing, letter a on the left side)]
+[Diagram: square with corners d (top-left), K (top-right), c (bottom-left), b (bottom-right); a diagonal from d, a vertical and a horizontal line crossing near the centre (letter h at the crossing, letter a on the left side)]
 
 [Diagram: tall rectangle divided by horizontal lines into bands; right side labels from top: g, q, n, l, f; left side labels: p, m, e (bottom-left)]
 
-## THEON Lemma.
-
-Si recta linea secetur in inæqualia, quæ ab inæqualibus quadrata, maiora sunt eo quod bis sub inæqualibus comprehensum est rectangulum.
-
-Sit recta linea α β, seceturq̃ in inæqualia in γ, sitq̃ maior α γ. Dico quod quæ ex α γ, γ β, maiora sunt eo quod bis sub α γ, γ β, secetur enim (per 10 primi) α β, bifariã in δ. Quoniã igitur recta linea secta est in æqualia in δ, & in inæqualia in γ, igitur (per 5 secũdi) quod sub α γ, γ β, una cũ eo quod ex γ δ, æquũ est ei quod ex α δ, & perinde quod ex sub α γ, γ β, minus est eo quod α δ. Quod igitur bis sub α γ, γ β, est minus quã duplũ eius quod ex α δ, Sed quæ ex α γ, γ β, dupla sunt eorũ quæ ex α δ, δ γ, ergo quæ ex α γ, γ β, maiora sunt eo quod bis sub α γ, γ β, quod erat ostendendũ.
-
-[Diagram: horizontal line with points labelled α, δ, γ, β from left to right]
-
-## Eucli. ex Zãb. Theorema 42 Propositio 60
+## Eucli. ex Zãb. Theorema 43 Propositio 61
 
 [Margin]
-60
+61
 [/Margin]
 
-Quod ex ea quæ ex binis nominibus ad rationalem comparatũ latitudinem efficit, ex binis nominibus primam.
+Quod ex ea quæ ex binis medijs prima ad rationalē cõparatũ latitudinē, efficit ex binis noibus secũdã.
 
-THEON ex Zamb. Esto ex binis nominibus α β, diuisa in nomina in γ, ut maius nomen sit α γ. exponaturq̃ rationalis δ ε, & ei quod ex α β, æquum ad ipsam δ ε, comparetur (per 44 primi δ ε ζ η, latitudinem efficiens δ η, Dico quod δ η ex binis est prima nominibus. Comparetur enim (per 44 primi,) ad δ ε, ei quidem quod ex α γ æquum δ θ. ei autem quod ex β γ, æquum κ λ. Reliquum igitur quod bis sub α γ, γ δ{printer-error-correction:γ β} (per 4 secundi,) æquum est ipsi μ ζ. Secetur (per decimã primi) ipsa μ η bifariam in ν, exciteturq̃ ( per 31 primi) parallelus ν ξ utrique ipsarum μ
+THEON ex Zãb. Esto (per 43 decimi,) ex binis medijs prima α β, diuisa in medias in γ, quarũ α γ maior sit, exponaturq̃ rationalis δ ε, Comparetur q̃ per 44 primi) ad ipsam δ ε, ei quod ex α β æquũ parallelogrammũ δ ζ, latitudinem efficiēs δ η, Dico quod ipsa δ η, ex binis est secũda nominibus, Cõstruantur enim eadem quæ & in præcedenti. Et quoniam α β. ex binis medijs est prima diuisa in γ, ipsæ α γ, γ β, igitur (per 37 decimi,) mediæ sunt potentia tantũ cōmensurabiles rationale cõprehendentes. Quare (per 24 decimi & quæ ex α γ, γ β, media sũt mediũ igitur (per correlariũ 23 decimi, est δ λ. Et ad ipsam δ ε cõparatur, ratiõalis igitur est (per 22 decimi μ δ, & ipsi δ ε longitudine incommensurabilis. Rursus qnoniã{printer-error-correction:quoniã} rationale est quod bis sub α γ, γ β, rationale est & μ ζ, ad ipsamq̃ μ λ. rationalem comparatur, rationalis igitur est (per 20 decimi) μ η, & lõgitudine commensurabilis ipsi μ λ, hoc est ipsi δ ε. Incommensurabilis igitur est δ μ, ipsi μ η longitudine. Suntque rationales ipsæ.
 
-<!-- Catchword: λ, η ζ -->
+<!-- Catchword: igitur -->

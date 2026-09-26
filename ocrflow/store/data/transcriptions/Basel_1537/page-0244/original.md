@@ -1,41 +1,33 @@
-<!-- Running title: LIBER NONVS. -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 233 -->
+<!-- Page number: 234 -->
 
-Et qui ex δ ε, ε ζ, igitur una cum ijs qui bis sub δ ε, ε ζ, ad eum qui sub δ ε, ε ζ, primi sunt. Diuidendo quoq̃, qui ex δ ε, ε ζ, una cum eo qui sub δ ε, ε ζ, primi sunt ad eum qui sub δ ε, ε ζ. Insuper diuidendo, qui ex δ ε, δ ζ, ad eum qui sub δ ε, ε ζ, primi sunt. Est autem qui ex δ ε, ipse α, qui ex ε ζ, ipse γ, qui uero sub δ ε, ε ζ, ipse β. Ipsi ergo α, γ, compositi, ad β primi sunt, quod ostendere oportuit.
+## Eucli. ex Camp. Propositio 19
 
-## Eucli. ex Camp. Propositio 17
+**19** {dropcap:P|lines=?|style=decorated|decoration="foliate ornament"}Ropositis duobus numeris, an sit eis tertius continue proportionalis, perscrutari.
 
-**17** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duo numeri contra se primi, quantus est primus eorum ad secundum, tantum esse secundum ad tertium quemquam impossibile est.
+CAMPANVS. Sint a & b duo numeri propositi, uolo inquirere, an eis possit tertius sub continua proportionalitate adiungi. Igitur si ipsi sunt contra se primi, impossibile est per 17, si uero compositi, ducatur b in se, & proueniat c, quē si a numerat, erit, si uero non numerat, non erit. Numeret enim eum secundum d, qui erit quem quærimus per 2 partem 20 septimi. Sit ergo ut non numeret eum, est tamen ut a ad b, sic b ad d, itaque quia ex b in se fit c, sequitur per primam partem 20 septimi, ut ex a in d sit idem: igitur a numerat c secundum d, sed erat positum quod non, quare sequitur impossibile.
 
-CAMPANVS. Sint a & b contra se primi, dico impossibile esse, aliquem eis in continua proportionalitate adiungi. Si enim potest, sit c, quia igitur a ad b, sicut b ad c, sunt autem a & b in sua proportione minimi per 23 septimi, sequitur per 21 eiusdem, ut a numeret b, qui cum etiam numeret se, non erunt a & b contra se primi, quod est contrarium positioni.
+[Diagram: groups of number lines at right: dotted line c, short solid line d, dotted lines b, a; dotted line c, dotted lines d, b, a; a solid line with dotted lines b, a]
 
-[Diagram: solid line c; dotted lines b, a]
+## Eucli. ex Zamb. Theorema 18 Propositio 18
 
-## Eucli. ex Zamb. Theorema 16 Propositio 16
+**18** Binis numeris datis, considerare si possibile est eis tertium proportionalem inuenire.
 
-**16** Si bini numeri primi adinuicem fuerint, non erit sicut primus ad secundum, sic secundus ad aliquem alium.
+[Margin]
+δέον ἴσω
+[/Margin]
 
-THEON ex Zamber. Bini enim numeri α,β, primi sint adinuicem. Dico quod non est sicut α ad β, sic β ad aliquem alium. Si enim possibile, sit sicut α ad β, sic β ad γ. Ipsi autē α,β, primi sunt: primi autem & minimi (per 23 septimi) minimi uero, metiuntur eandem rationem habentes, æqualiter (per 21 septimi) antecedens antecedentem & sequens sequentem: metitur igitur α ipsum β, antecedens antecedentem: metitur autem & seipsum, igitur α ipsos α,β, metitur primos adinuicem existentes, quod est absurdum, non est igitur sicut α ad β, sic β ad γ, quod ostendere oportebat.
+THEON ex Zamber. Sint bini dati numeri α, β, sitq̃ *opportunū scrutari, si est possibile eis tertium inuenire proportionalem. Iam ipsa α,β, aut sunt primi adinuicē, aut non. Si quidem igitur primi sunt adinuicem, patet (per 16 noni, quod impssibile{printer-error-correction:impossibile} est eis inuenire proportionalem tertium. Sed iam non sunt ipsi α,β, primi adinuicē, & β seipsum multiplicās ipsum efficiat γ. Iam α aut ipsum γ metitur, aut nō metitur. Metiatur prius per δ. Ipse igitur α ipsum δ multiplicans, ipsum effecit γ. Sed & β seipsum multiplicans, ipsum γ effecit, qui ex α,δ, igitur, ei qui ex β est æqualis. Est igitur sicut α ad β, sic β ad δ (per secundam partem 19 septimi.) Ipsis igitur α β, tertius inuentus est δ. Sed iam non metiatur α ipsum γ. Dico quod ipsis α,β, impossibile est tertium inuenire proportionalem numerum. Si enim possibile, inueniatur δ. Igitur qui ex α, δ, ei est æquus qui ex β, qui autem ex β, est ipse γ. Igitur qui ex α,δ, æquus est ipsi γ. Quare α ipsum δ multiplicans, ipsum effecit γ. Igitur α, ipsum γ metitur per δ. Sed supponitur etiam non metiri, quod est impossibile. Non est igitur possibile ipsis α,β, tertium proportionalem inuenire, quando α ipsum γ non metitur, quod oportuit ostendere.
 
-[Diagram: solid line γ; dotted lines β, α]
+[Diagram: groups of number lines at right: dotted line γ, short solid line δ, dotted lines β, α; long dotted line γ with dotted lines δ, β, α; a solid line with dotted lines β, α]
 
-## Eucli. ex Camp. Propositio 18
+## Eucli. ex Camp. Propositio 20
 
-**18** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I quotlibet numerorū continue proportionalium duo extremi fuerint contra se primi, quantus est primus ad secundum, tantum esse ultimum ad aliquem alium est impossibile.
+**20** {dropcap:D|lines=?|style=decorated|decoration="human face and foliate ornament"}Atis tribus numeris continue proportionalibus, an sit aliquis quartus eis continue proportionalis inquirere.
 
-CAMPANVS. Sint a, b, c, continue proportionales, sintq̃ a & c contra se primi: dico quod in eadem proportione non potest eis adiungi alius. Si enim potest, sit d. Quia igitur est a ad b sicut c ad d, erit permutatim a ad c, sicut b ad d, sunt autem a & c, in sua proportione minimi, per 23 septimi, itaq̃ per 21 eiusdem a numerat b, quare etiam numerat c, numerorū enim continue proportionaliū, si primus numerat secundum, ipse numerat omnes, & simpliciter quilibet præcedens quemlibet sequentem, at quia etiam numerat se, non erunt a & c contra se primi, quod est inconueniens.
+CAMPANVS. Sint continne{printer-error-correction:continue} proportionales a,b,c. Volo inquirere an alius eis sub continua proportionalitate possit adiungi, igitur si a & c sunt contra se primi, impossibile est per 18. Si autem cōpositus, sit d qui prouenit ex b in c, quem si numerat a, erit, si uero non numerat, nō erit. Numeret enim eum secundum e, qui erit quem quærimus per secundam partem 20 septimi. Sit ergo ut non numeret eum, est tamen ut a ad b, sicut c ad e, itaq̃ quia ex b in c fit d, sequitur per primam partem 20 septimi, ut ex a in e sit idem, ergo a numerat d secūdum e, sed positum erat quod non. Idem potes perscrutari, quotlibet continue proportionalibus propositis, si enim duo extremi sint contra se primi, finem habet intentio per 18, si autem compositi, ducto secundo in ultimum, si productum numeret primus, is secundum quem eum numerat, est quem quærimus per secundā partem 20 septimi, si autem primus productū non numerat, nullus
 
-[Diagram: solid line d; dotted lines c, b, a]
+[Diagram: groups of number lines at right: solid lines d, e, dotted lines c, b, a; solid line d, dotted lines e, c, b, a; a solid line with dotted lines c, b, a]
 
-## Eucli. ex Zamb. Theorema 17 Propositio 17
-
-**17** Si fuerint quotcunq̃ numeri continue proportionales, ipsorum autem extremi primi adinuicem fuerint, non erit sicut primus ad secundum, sic ultimus ad aliquem alium.
-
-THEON ex Zamber. Sint quotcunq̃ numeri continue proportionales, α, β, γ, δ, ipsorum autem extremi α β{printer-error-correction:α δ} sint primi adinuicē. Dico quod non est sicut α ad β, sic δ ad aliquem alium. Si enim possibile, esto sicut α ad β, sic δ ad ε: uicissim igitur (per 13 septimi) est sicut α ad δ, sic β ad ε. Ipsi autem α,δ, primi sunt, primi autem & minimi, minimi uero numeri, metiuntur eandem rationem habentes æqualiter (per 21 septimi) antecedens antecedentē, & sequens sequentem: metitur igitur α ipsum β, estq́; sicut α ad β, sic β ad γ, & β igitur ipsum γ metitur, quare & α ipsum γ metitur: & quoniam est sicut β ad γ, sic γ ad δ, metitur autem β ipsum γ, metitur igitur & γ ipsum δ. Sed α ipsum γ metitur, quare & α ipsum δ metitur, metitur autem & seipsum. Igitur α, ipsos α,δ, metitur primos inuicem existentes, quod est impossibile. Non est igitur sicut α ad β, sic δ ad aliquem alium, quod ostendere oportuit.
-
-[Diagram: solid line ε; dotted lines δ, γ, β, α]
-
-<!-- Signature: u 3 -->
-
-<!-- Catchword: Eucli. ex -->
+<!-- Catchword: erit -->

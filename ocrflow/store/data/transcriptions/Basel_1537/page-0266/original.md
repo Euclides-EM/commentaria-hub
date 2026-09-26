@@ -1,49 +1,37 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 255 -->
+<!-- Page number: 256 -->
 
-rabilis,Quoniam enim cōmensurabilis est α ipsi γ,igitur(per 5 decimi,)α ad γ,habet rationem quam numerus ad numerum,habeat quam δ ad ε.Rursus quoniam commensurabilis est γ ipsi β,igitur(per eandem γ ad β habet rationem quam numerus ad numerum,habeat autē quam ζ ad η.Et ratiōibus datis quibuscunque,ea scilicet quam habet δ ad ε,& ζ ad η, capiātur(per 4 octaui numeri continue proportionales in datis rationibus,sintq̃ θ,κ,λ.sicut α{printer-error-correction:δ} ad ε sic θ κ{printer-error-correction:θ ad κ},sicutq̃ ζ ad η.sic κ ad λ,Quoniā igitur est sicut α ad γ sic δ ad ε,sed sicut δ ad ε sic θ ad κ,est igitur(per 11 quinti, sicut α ad γ,sic est θ ad κ.Rursus quoniam est sicut γ ad β,sic ζ ad η, sed sicut ζ ad η sic κ ad λ, & sicut igitur γ ad β,sic κ ad λ,est autem & sicut α ad γ,sic est θ ad κ,ex æquali igitur (per 12 quinti,)est sicut α ad β,sic est θ ad λ.Igitur α ad β rationem habet,quam numerus θ ad numerum λ,Commēsurabilis est igitur(per 6 decimi,)α ipsi β.Quæ eidem igitur magnitudini commensurabiles,& adinuicem sunt commensurabiles.Quod oportuit demonstrasse.
+surabilis est quoque γ ipsi ζ,sed si α,ipsi ε,incommensurabilis est,incommensurabilis est quoq̃ γ ipsi ζ,Quoniam enim est sicut α ad β,sic est γ ad δ.est igitur sicut id quod ex α,ad id quod ex β.sic est id quod ex γ, ad id quod ex δ.Sed ei quidem quod fit ex α,æqua sunt ea quæ fiūt ex ε,β,ei autem quod fit ex γ,æqua sunt ea quæ fiunt ex δ,ζ.Igitur)per 9 quinti)sicut quæ ex ε,β,ad id quod ex β,sic quæ ex δ,ζ,ad id quod ex δ,diuidendo igitur est (per 17 quinti,)quod sicut quod ex ε ad id quod ex β.sic est id quod ex ζ ad id quod ex δ.Est igitur & sicut ε ad β,sic est ζ ad δ.Conuersim igitur est (per 22 sexti,& correlarium 4 quinti,)sicut β ad ε,sic est δ,ad ζ,est autem & sicut α ad β,sic est γ ad δ, ex æquali igitur (per 22 quinti,)est sicut α ad ε,sic est γ ad ζ.Si igitur commensurabilis est α,ipsi ε,commensurabilis est quoque(per 11 decimi γ ipsi ζ,si uero incommensurabilis est α ipsi ε,incommēsurabilis est γ ipsi ζ.Si quatuor igitur rectæ lineæ proportionales,& quæ sequuntur reliqua,quod erat demonstrandū.
 
-[Diagram: three horizontal lines labelled α, γ, β; beside them rows of dots labelled δ and ζ, ε and η, and θ, κ, λ]
+[Diagram: six vertical lines of differing heights labelled at foot α, β, ε, γ, δ, ζ]
 
-## THEON Lemma.
+## Eucli.ex Zamb. Theorema 12 Propositio 15
 
-Si fuerint binæ magnitudines,& altera quidem commensurabilis fuerit eidem,altera uero incommensurabilis,incommensurabiles erunt ipsæ magnitudines.
+[Margin]
+15
+[/Margin]
 
-Sint enim binæ magnitudines α,β,& alia quædam γ,& α ipsi quidem γ esto commensurabilis:at β.ipsi γ esto incommensurabilis.Dico quod & α,ipsi β est incōmensurabilis.Si enim commensurabilis est α ipsi β,est quoque & γ ipsi α,& γ igitur(per 12 decimi,ipsi β est commensurabilis,quod non supponitur.
+Si binæ magnitudines commensurabiles,compositæ fuerint,& tota utrique ipsarum commensurabilis erit.Et si tota uni earum commensurabilis fuerit,& quæ in principio magnitudines commensurabiles erunt.
 
-[Diagram: three horizontal lines labelled α, γ, β]
+THEON ex Zamb. Cōponantur binæ magnitudines cōmensurabiles α β,β γ.Dico quod tota α γ,utriq̃ ipsarū α β,β γ,commensurabilis est.Quoniā enim cōmensurabiles sunt ipsæ α β,β γ,ipsas aliqua magnitudo metietur (per primam diffinitionem decimi,)metiatur,& sit δ. Quoniā igitur δ ipsas α β,β γ,metitur,& totā α γ metietur, metitur autem & ipsas α β,β γ,igitur δ,ipsas α β,β γ, & α γ,metietur.Commensurabilis igttur{printer-error-correction:igitur} est (per 12 decimi,) α γ,utriq̃ ipsarū α β,β γ. Sed iā α γ,uni ipsarum α β,β γ,sit commensurabtlis{printer-error-correction:commensurabilis},sitque ipsi α β.Dico quod α β,β γ,commensurabiles sunt.Quoniā enim cōmensurabiles sunt α β,& α γ,metietur eas (per primam diffinitionem decimi.)aliqua magnitudo,metiatur,& esto δ. Quoniā igitur δ ipsas α β,β γ{printer-error-correction:α β,α γ},metitur ,& reliquā igitur metietur β γ,metitur aūt & α β,igitur δ,ipsas α β,β γ,metietur. Cōmensurabiles igitur sunt,α β,& β γ.Si binæ igitur magniudines{printer-error-correction:magnitudines},& reliqua quæ sequuntur,quod oportebat demōstrare.
 
-## Eucli.ex Zamb. Theorema 10 Propositio 13
+[Diagram: horizontal line marked α, β, γ; beneath it a shorter line labelled δ]
+
+## Eucli.ex Zamb. Theorema 13 Propositio 16 Præcedentis conuersa.
+
+Si binæ magnitudines incommensurabiles compositæ fuerint,& tota utriq̃ ipsarum incōmensurabilis erit. Et si tota uni ipsarum incommensurabilis fuerit,& quæ in principio magnitudines,incommensurabiles erunt
+
+THEON ex Zamb. Cōponantur enim binæ magnitudines incommensurabiles α β,β γ. Dico quod tota α γ,utrique ipsarū α β,β γ,incōmensurabilis est.Si enim γ α,& α β,incommensurabiles nō sunt,ipsas aliqua metietur magnitudo (per 1 diffinitionē decimi,)metiatur si est possibile:sitq̃ δ,Quoniam igitur δ ipsas γ α,& α β,metitur,& reliquam β γ metietur,metitur autem & α β,igitur δ,ipsas α β,& β γ metietur.Commensurabiles igitur(per 1 diffinitionem decimi,)sunt ipsæ α β,β γ.Supponuntur autem quod & incommensurabiles,quod est impossibile,ipsas igitur α β,& α γ,aliqua magnitudo non metietur.Incommensurabiles igitur sunt ipsæ γ α,& α β.Similiter iam demonstrabimus,quod & ipsæ α γ,& γ β,incōmensurabiles sunt. Sed iam ipsa α γ,uni ipsarum α β,& β γ,incommēsurabilis esto,& primum ipsi α β.Dico quod & ipsæ α β,β γ,incommensurabiles sunt.Si enim sunt cōmensurabiles, metietur eas aliqua magnitudo(per eādē)metiatur,sitq̃ δ.Quoniā igitur δ ipsas α β,& β γ metitur,& totā igitur α γ metietur metitur autem & α β.Igitur δ,ipsas γ α,& α β metitur.Cōmensurabiles igitur sunt ipsæ γ α & α β.Suppositæ uero sunt quod & incommensurabiles,quod est impossibile.Ipsas igitur α β,& β γ,aliqua maguitudo{printer-error-correction:magnitudo} nō metietur. Incommensurabiles igitur sunt ipsæ α β,β γ.Similiter iam demonstrabitur quod ipsa α γ,reliquæ β γ, incommensurabilis est.Si binæ igitur magnitudines,& quæ sequuntur reliqua,quod erat ostendendum.
+
+[Diagram: horizontal line marked α, β, γ; beneath it a shorter line labelled δ]
+
+## Eucli.ex Camp. Propositio 13
 
 [Margin]
 13
 [/Margin]
 
-Si binæ magnitudines commensurabiles fuerint, alteraq̃ earum magnitudini alicui incommensurabilis fuerit,& reliqua eidem incommensurabilis erit.
+{dropcap:S|lines=?|style=decorated|decoration="foliate"}I fuerint duæ lineæ inæquales quarum longiorē in duo cōmunicātia diuidat superficies sibi adiūcta æqualis quartæ parti quadrati breuioris lineæ,cui adiunctæ snperficiei{printer-error-correction:superficiei} desit ad complendam totam lineam superficies quadrata,necesse est ipsam lineā longiorem linea breuiori tanto amplius posse,quantum est quadratum alicuius lineæ communicantis eidem longiori in longitudine.Si uero longior fuerit potentior breuiori,augmento quadrati lineæ communicantis sibi in longitudine,eiq̃ adiungatur superficies æqualis quartæ parti quadra
 
-THEON ex Zamb. Sint binæ magnitudines commēsura{printer-error-correction:commensurabiles} α β,earumq̃ altera uidelicet α,alicui hoc est γ sit incommensurabilis.Dico qnod{printer-error-correction:quod} & reliqua β,ipsi γ incōmensurabilis est.Si enim cōmensurabilis est β ipsi γ,iā α ipsi β commensurabilis est,& α igitur (per 12 decimi) ipsi γ,cōmensurabilis est, sed & incommensurabilis,quod est impossibile.Igitur β & γ sunt incommensurabiles.Si binæ igitur magnitudines commensurabiles fuerint,& quæ sequuntur reliqua,quod erat ostendendum.
-
-[Diagram: three horizontal lines labelled α, γ, β]
-
-## THEON Lemma.
-
-Duabus datis rectis lineis inæqualibus,inuenire quo maius potest maior minore.
-
-THEON ex Zamb. Sint binæ datæ inæquales rectæ lineæ α β,γ,quarum maior sit α β,oportet iā inuenire quo maius potest α β,quàm ipsa γ.Describatur super α β,semicirculus α δ β,& in ipsum(per 1 quarti,) coaptetur ipsi γ æqualis α δ,cōnectaturq̃ δ β,manifestum est iam quod angulus α δ β,rectus est,& quod α β,ipsa α δ,hoc est quàm ipsa γ maius potest ipsa δ β. Similiter autem & duabus datis rectis lineis,potens ipsas sic inuenietur.Sint datæ binæ rectæ lineæ α δ,δ β,oporteatq̃ inuenire potentem ipsas.Ponantur enim,ut α δ,δ β comprehendāt rectum angulū qui sub α δ β, connectaturq̃ α β.Manifestum rursus est(per 47 primi,quod ipsas α δ,δ β,potens,est ipsa α β.
-
-[Diagram: semicircle on diameter α β with point δ on the arc, chords α δ and δ β drawn; below, a separate line γ]
-
-## Eucli,ex Zamb. Theorema 11 Propositio 14
-
-[Margin]
-14
-[/Margin]
-
-Si quatuor rectæ lineæ proportionales fuerint, potueritq̃ prima secunda maius eo quod fit ab eidem longitudine commēsurabili,& tertia quarta maius poterit eo quod fit ab eidem longitudine commensurabili. Et si prima secunda maius potuerit eo quod fit ab incommēsurabili eidem longitudine,& tertia quarta maius poterit eo quod fit ab eidem longitudine incommensurabili.
-
-THEON ex Zamb. Sint quatuor rectæ lineæ proportionales β,β,γ,δ{printer-error-correction:α,β,γ,δ},sicut α ad β,sic γ ad δ,& α quidē, ipsa β, maius possit eo quod fit ex ε,γ uero,ipsa δ,eo quod fit ex ζ. Dico quod si α ipsi ε est commensurabilis, commen
-
-<!-- Signature: y 2 -->
-
-<!-- Catchword: sura -->
+<!-- Catchword: ti -->

@@ -1,51 +1,37 @@
-<!-- Running title: LIBER OCTAVVS -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 217 -->
+<!-- Page number: 218 -->
 
-## Eucli. ex Camp. Propositio 22
+## Eucli. ex Zamb. Theorema 24 Propositio 26
 
-**22** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I duorum numerorū quorum proportio sicut quadrati ad quadratum, fuerit unus quadratus, alterum quoq̃ quadratū esse.
+**26** Similes plani numeri adinuicem rationem habent, quam quadratus numerus ad quadratum numerum.
 
-CAMPANVS. Sint duo numeri a & b, in proportione duorum quadratorum qui sunt c & d, sitq̃ a uel b quadratus : dico reliquum esse quadratum. Cum enim c & d sint quadrati, sequitur eos esse superficiales. Ideoq̃ per 16 cadet unus medius inter eos in continua proportione: quare per 8 inter a & b, per 26 igitur constat propositum.
+THEON ex Zamber. Sint similes plani numeri α β. Dico quod α ad β rationem habet, quam quadratus numerus ad quadratum numerum. Quoniam ipsi α, β, similes plani sunt, inter ipsos igitur α, β, unus medius pportionalis cadit numerus (per 18 octaui.) Cadat, & sit γ, assumanturq́; (per 35 septimi) minimi numeri eandem ipsis α, β, γ, habentiū rationem, sintq́; δ, ε, ζ: ipsi igitur ipsorum extremi, hoc est δ, ζ, sunt quadrati. Et quoniam est sicut δ ad ζ, sic α ad β, & ipsi δ, ζ, sunt quadrati, igitur α ad β rationem habet, quam quadratus numerus ad quadratum numerum, quod demonstrare oportebat.
 
-## Eucli. ex Zamb. Theorema 22 Propositio 24
+[Diagram: dotted number lines α, γ, β, δ, ε, ζ]
 
-**24** Si bini numeri rationem habuerint, quam quadratus numerus ad quadratum numerum, primus autem fuerit quadratus, & secundus quadratus erit.
+## Eucli. ex Camp. Propositio 25
 
-THEON ex Zamberto. Bini enim numeri α, β, adinuicem rationem habeant, quam quadratus numerus γ ad quadratum numerum δ. Ipse autem α quadratus sit, dico quod & β quadratus est. Quoniam ipsi γ, δ, sunt quadrati, ipsi γ, δ, igitur similes plani sunt. Ipsorū igitur γ, δ, (per 18 octaui) unus medius proportionalis est numerus. Et est sicut γ ad δ, sic est α ad β. Ipsorum igitur α, β, unus medius proportionalis est numerus. At α quadratus est, & β igitur quadratus est, quod erat demonstrandum.
+**25** {dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duorum solidorum similium est proportio unius ad alterum, sicut alicuius cubi ad aliquem cubum.
 
-[Diagram: dotted number lines α, β, γ, δ with intermediate dotted lines]
+CAMPANVS: Sint a & b solidi similes, dico quod proportio unius eorum ad alterum, est sicut alicuius cubi ad aliquem alium cubum. Sunt quidem per 18 inter eos duo numeri medij secundum continuam proportionē, qui sint c & d, & in eorū proportione sint minimi quatuor e, f, g, h, quorū e & h erunt cubi per correlarium secūdæ: quia igitur per æquam proportionalitatē est a ad b, sicut e ad h, liquet propositū.
 
-[Margin]
-Camp. 22 Zamb. 24
-[/Margin]
+## Eucli. ex Zamb. Theorema 25 Propositio 27
 
-## Eucli. ex Camp. Propositio 23
+**27** Similes solidi numeri adinuicem rationem habent, quam cubus numerus ad cubum numerum.
 
-**23** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I duorum numerorū quorum proportio unius ad alterū sit sicut cubi ad cubum, alteruter fuerit cubus, & alterum cubum esse.
+THEON ex Zamberto. Sint similes solidi numeri α, β. Dico quod α ad β rationem habet, quam cubus numerus ad cubum numerum. Quoniam enim ipsi α, β, similes solidi sunt, inter ipsos igitur α, β, (per 19 octaui) bini cadunt numeri proportionales, cadunt, & sint ε, δ. Accipianturq́; (per 35 septimi) minimi numeri eandem habentium rationem ipsis α, γ, δ, β, sintq́; ipsis æquales multitudine ε, ζ, η, θ. Ipsi igitur ε, θ, eorum extremi cubi sunt: estq́; sicut ε ad θ, sic α ad β. Et α igitur ad β rationem habet, quàm cubus numerus ad cubum numerum, quod oportuit demonstrasse.
 
-CAMPANVS. Sint duo numeri a & b in proportione duorum cuborum qui sunt c & d, sitq̃ a uel b cubus : dico reliquū esse cubum. Necesse est enim quod c & d sint solidi similes, quippe omnes cubi sunt similes & solidi, itaq̃ per 18 inter ipsos cadent duo medij in continua proportione: totidem igitur per 8 cadent inter a & b, itaque per 21 manifestum est quod dicitur.
+[Diagram: dotted number lines α, γ, δ, β, ε, ζ, η, θ]
 
-## Eucli. ex Zamb. Theorema 23 Propositio 25
+# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER NONVS.
 
-**25** Si bini numeri adinuicem rationem habuerint, quam cubus numerus ad cubum numerum, primus autem cubus fuerit, & secundus cubus erit.
+Ex Campano. Diffinitiones.
 
-THEON ex Zamberto. Bini enim numeri α, β, adiuuicem rationem habean t, quam cubus numerus γ ad cubum numerum δ, cubus autem esto α. Dico quod & β cubus est. Quoniam enim ipsi γ, δ, cubi sunt, sunt igitur (per 19 octaui) ipsi γ, δ, similes solidi, ipsorum igitur γ, δ, bini medij sunt proportionales (per 21 octaui:) quot autem inter ipsos γ, δ, continue proportionales cadunt, totidem & inter eandem rationem habentes cadunt numeri. Quare & inter α β duo medij proportionales cadunt, (per 8 octaui) cadant ipsi ε, ζ. Quoniam igitur quatuor numeri α, ε, ζ, β, continue proportionales sunt, & α cubus est, cubus igitur est (per 25 octaui) & β, quod ostendere oportuit.
-
-[Diagram: eight ruled line-segments labeled α, ε, ζ, β, γ, δ with rotated numerals 8, 12, 18, 27, 64, 96, 144, 216]
+{dropcap:P|lines=?|style=decorated|decoration="captioned ALEXANDER DIOGENES, showing two figures"}Ar numerus, est qui potest in duo æqualia diuidi. 2 Impar numerus, est qui in duo æqualia diuidi non potest, additq̃ supra parem unitatē. 3 Pariter par, est quem cuncti pares eum numerantes, paribus uicibus numerant. 4 Pariter impar est quem cuncti pares eum numerantes, imparibus uicibus numerant. 5 Pariter par & impariter, est quem pares eum numerantes, quidam paribus quidam imparibus uicibus numerāt. 6 Impariter impar, quē cuncti impares eum numerantes, imparibus uicibus numerāt.
 
 [Margin]
-Camp. 25 Zamb. 14
+1
 [/Margin]
 
-## Eucli. ex Camp. Propositio 24
-
-**24** {dropcap:N|lines=?|style=decorated|decoration="foliate ornament"}Vmerorum superficialium similium est proportio unius ad alterum, sicut proportio quadrati ad quadratum.
-
-CAMPANVS. Sint a & b superficiales similes, dico quod unus ad alterum est proportio, sicut quadrati ad quadratum, erit enim per 16 inter eos unus numerus medius in cōtinua proportione qui sit c, sumptis itaque tribus minimis in pportione eorum qui sunt d, e, f, erunt per correlarium 2, d & f quadrati: & quia per æquam proportionalitatē est a ad b sicut d ad f, constat uerum esse quod proponitur.
-
-[Diagram: dotted number lines a, c, b, d, e, f]
-
-<!-- Signature: c -->
-
-<!-- Catchword: Eucli.ex -->
+<!-- Catchword: Perfectus -->

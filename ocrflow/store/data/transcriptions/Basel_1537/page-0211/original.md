@@ -1,27 +1,27 @@
-<!-- Page number: 200 -->
+<!-- Running title: LIBER OCTAVVS -->
 
-# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, ARITHMETICORVM ELEMENTORVM LIBER OCTAVVS.
+<!-- Page number: 201 -->
 
-Ex Campano. — *Diffinitiones*
+## CORRELARIVM
 
-{dropcap:L|lines=?|style=decorated|decoration="depicting Coriolanus and Veturia, inscribed CORIOLAN above and VETVRIA below"}Atera numerorum dicuntur,quorum multiplicatione numeri producuntur. 2 Superficialis appellatur numerus,qui sub duobus lateribus continerur. 3 Solidus uero, qui sub tribus,ex quorum continua multiplicatione habet procreari. 4 Quadratus,est numerus superficialis æqualibus lateribus consistens. 5 Cubus,est solidus æqualibus consistens lateribus. 6 Similes dicuntur numeri superficiales siue solidi,quorū latera sunt proportionalia.
+Vnde manifestum erit,quod si fuerint tres numeri continuæ proportionalitatis secundum eam minimi,duo extremi erunt quadrati,quod si fuerint quatuor,erunt extremi cubi.
 
-## Eucli.ex Camp. — Propositio 1
+CAMPANVS Sint datæ proportionis minimi, a & b ducaturq̃ a in se,& fiat c, & in b,& fiat d,b, quoque in se,& proueniat e,erūtque c,d,e,continue proportionales in proportione a ad b per 18 & 19 septimi.Et quia c & e sunt contra se primi per 25 eiusdem: erunt c,d, e, secundum datam proportionem minimi per præmissam.Ducatur iterum a in omnes illos,& proueniant f,g,h,& b in e,& proueniat K, & erunt etiam f,g,h, k, continue proportionales in proportione a , ad b , per 18 & 19 septimi: minimi quoque per 25 eiusdem & præmissam.Hac uia & ratione inuenientur quinque, uel sex, uel quotlibet.
 
-1 {dropcap:S|lines=?|style=decorated|decoration="figures"}I numerotum quotlibet continuæ proportionalitatis duo extremi fuerint contra se primi,eos omnes secundum suam proportionem minimos esse necesse est.
+[Diagram: dotted number lines beside the text, labelled a (2 dots), b (3 dots), c (4 dots), d (6 dots), e (9 dots), f (8 dots), g (12 dots), h (18 dots), K (27 dots)]
 
-CAMPANVS. Sint continue proportionales a,b,c,duoque extremi qui sunt a,c,sint contra se primi,dico quod in eadem proportione,non reperientur totidem minores. Si autem contingit:sint d,e,f,eritque per 15 septimi,a ad c, sicut d ad f,& quia a & c sunt minimi in sua proportione per 25 eiusdem,sequitur per 21 ut a numeret d,& c,f,maiores scilicet minores, quod esse non potest.
+## Eucli.ex Zamb. — Problema 1 — Propositio 2
 
-[Diagram: dotted number lines beside the text: a (4 dots), b (6 dots), c (9 dots); below: d (3 dots), e (5 dots), f (8 dots)]
+## 2 NVmeros inuenire continue proportionales minimos, quotcunq̃ imperauerit quispiam,in data ratione.
 
-## Eucli.ex Zamb. — Theorema 1 — Propositio 1
+THEON ex Zamberto. *Sit data ratio in minimis numeris,ipsius α ad β,oportet iam numeros inuenire cōtinue proportionales minimos quotcunque imperauerit quispiam in ipsius α ad β, ratione. Imperentur iam quatuor, & α,seipsum multiplicans,efficiat γ,ipsum uero β,multiplicans, efficiat ipsum δ: & insuper β,seipsum multiplicans. ipsum efficiat ε.Et insuper α,ipsos γ,δ, ε, multiplicans , ipsos ζ,η,θ. faciat , at β, ipsum ε , multiplicans efficiat ipsum κ .Et quoniam α ,seipsum multiplicans ipsum effecit γ, ipsum autem β,multiplicans fecit ipsum δ,numerus iam α,binos numeros α, β,multiplicans effecit γ, δ . Est igitur (per decimāseptimā septimi,)sicut α,ad β,sic est γ,ad δ. Rursus quoniā α,ipsum β, multiplicans ipsum δ fecit,at β,seipsum multiplicans ipsum fecit ε,uterque igitur ipsorum α,β, ipsum β, multiplicans effecit utrunque ipsorum δ,ε. Est igitur(per 18 septimi,sicut α,ad β,sic est δ ad ε.Sed sicut α,ad β,sic est γ,ad δ,& sicut igitur(per undecimam quinti,) γ,ad δ,sic est δ,ad ε.Et quoniam α,ipsos γ,δ,multiplicans ipsos ζ,η, fecit,est igitur(per 17 septimi,)sicut γ,ad δ,sic est ζ,ad η,Sicut autem γ, ad δ,sic erat α,ad β,& sicut igitur (per undecimam quinti,)α,ad β,sic est ζ,ad η.Rursus quoniam α,ipsos δ,ε,multiplicans,ipsos effecit η,θ,est igitur(per eandem 17,)sicut δ ad ε,sic est η ad θ,sed sicut δ ad ε,sic est α,ad β,& sicut igitur (per undecimam quinti) α,ad β,sic η,ad θ, & quoniam ipsi α,β,ipsum ε,multiplicantes:ipsos effecerunt θ,κ:est igitur (per 18 septimi,sicut α ad β,sic θ,ad κ,patuit autem quod & sicut α ad β,sic ζ,ad η,& η ad θ,& sicut igitur(per undecimam quinti,)ζ ad η, & η ad θ, sic est θ ad κ.Igitur ipsi γ,δ,ε,& ζ,η,θ,κ,proportionales sunt in ipsius α ad β ratione.Dico quod & minimi quoniam enim ipsi α,β,minimi sunt eandem rationem habentium eis,minimi autem eandem rationem habentium primi sunt adinuicem(per 21 septimi,)ipsi α,β,igitur primi sunt adinuicem,& uterque ipsorum α,β,seipsum multiplicans ; utrunque ipsorum γ,ε,fecit:utrunque autem ipsorum γ,ε,multiplicans:utrunque ipsorum ζ,κ,fecit.Igitur (per uigesimamnonam septimi,)ipsi γ,ε,& ζ,κ,primi sunt adinuicem.Si autem fuerint quotlibet numeri continue proportionales,extremi autem ipsorum primi adinuicem fuerint: minimi sunt eandem rationem habentium eis,(per primam octaui.) Ipsi γ, δ, ε, igitur & ζ,η,θ,κ, minimi sunt eandem rationem habentium ipsis α,β, quod oportuit fecisse,*
 
-1 {dropcap:S|lines=?|style=decorated|decoration="foliate dragon"}I fuerint quotcunque numeri continue proportionales extremi uero ipsorū primi adinuicem fuerint,minimi sunt eādem rationem habentium eis.
+[Diagram: dotted number lines beside the Theon proof, labelled α (3 dots), β (4 dots), γ (9 dots), δ (12 dots), ε (16 dots), ζ (27 dots), η (36 dots), θ (48 dots), κ (64 dots)]
 
-THEON ex Zamberto. *Sint quotcunque numeri continue proportionales α,β,γ,δ,extremi autem ipsorum hoc est α,δ,primi sint adinuicem.Dico quod ipsi α,β,γ,δ, minimi sunt eandem rationem habentium eis.Si autem non: sint minores ipsis α,β,γ,δ,ipsi ε,ζ,η,θ,in eadem ratione existentes eis. Et quoniam ipsi α,β,γ,δ,in eadem sunt ratione ipsis ε,ζ,η,θ,& æqualis est multitudo ipsorum ε,ζ,η,θ,at α,δ,multitudini ipsorum α,β,γ,δ,æque igitur est sicut α ad δ,sic ε,ad θ,primi sunt adinuicem,primi uero,& minimi(per 14 septimi,)minimi autem numeri metiuntur eandem rationem habentes æqualiter , antecedens antecedentem, & sequens sequētem(per 21 septimi.)Metitur igitur α,ipsum ε,maior minorem,quod est impossibile. Igitur ipsi ε,ζ,η,θ, minores existentes ipsis α,β,γ,δ,in eadem non sunt ratione ipsis.Igitur α,β,γ,δ,minimi sunt eandem rationem habentium eis quod oportebat demonstrare.*
+PORISMA *siue correlarium* Proinde manifestum est,quod si tres numeri continue proportionales minimi fuerint eandem rationē habentium eis:extremi eorum quadrati sunt,si autem quatuor,cubi.
 
-[Diagram: dotted number lines beside the Theon proof, labelled α, β, γ, δ (of increasing length) and ε, ζ, η, θ (of increasing length, each shorter than the corresponding line above)]
+## Eucli.ex Camp. — Propositio 3
 
-## Eucli.ex Camp. — Propositio 2
+## {dropcap:S|lines=?|style=decorated|decoration="foliate dragon"}I numeri quotlibet continue proportionales secundum suam
 
-2 {dropcap:N|lines=?|style=decorated|decoration="figures"}Vmeros quotlibet continuæ proportionalitatis, secundum proportionem datam minimos,inuenire,
+<!-- Catchword: propor -->

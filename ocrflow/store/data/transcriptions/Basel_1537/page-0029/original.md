@@ -1,43 +1,39 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER PRIMVS -->
 
-<!-- Page number: 20 -->
+<!-- Page number: 21 -->
 
-angulo β α γ. Sed ostensum est quod angulus β δ γ, eo qui sub γ ε β, est maior: longe igitur maior est angulus β δ γ, angulo β α γ. Si trianguli ergo à limitibus unius lateris binæ rectæ lineæ introrsum constituentur, quæ constituuntur, reliquis trianguli duobus lateribus minores quidem erunt, maiorē uero angulum continebunt, quod ostendere oportuit.
+tatem duarum linearū f d & g h, intersecantes se in puncto k sicut docuit præcedens, ductisq̃ lineis k f & k g, erunt æqualia duo latera k f & f g trianguli k f g duobus lateribus a & b trianguli a b c, & basis g k æqualis basi c: ergo per 8 angulus k f g, æqualis erit angulo contento a & b, quod est propositum.
 
-## Eucli. ex Camp. Propositio 22.
-
-[Margin]
-22
-[/Margin]
-
-PRopositis tribus lineis rectis quarū duæ quælibet simul iunctæ reliqua sint longiores, de tribus alijs lineis illis æqualibus triangulū constituere.
-
-CAMPANVS. Sint tres lineæ rectæ propositæ, a, b, c, & sint quælibet duæ simul iunctæ longiores reliqua, aliter enī ex illis tribus datis æqualibus, triangulus non posset constitui, per 20 propositiōe. Cum ergo ex illis tribus prædictis uolo cōstituere triangulum, sumo lineam rectam quæ sit d e, cui nō pono à parte e determinatū finē, de qua sumo per 3 propositionē, d f æqualem a & f g æqualē b, & g h æqualē c, & facto f centro, describo secūdum quantitatē lineæ f d, circulum d k, itemq̃ facto g centro, describo secundū quantitatē lineæ g h, circulū k h, qui circuli intersecabūt se in duobus punctis, quorū unum sit k: alioquin sequeretur, unam dictarum linearū esse æqualē alijs duabus iunctis, aut maiorē eis, quod est contrariū positioni. Duco ergo lineā k f & k g, eritq̃ triangulus k f g, constitutus ex tribus lineis æqualibus datis lineis a, b, c, sunt enim f d & f k æquales, quoniā sunt à centro ad circūferentiā, quare f k, est æqualis a. Similiter q̃ g h & g k sunt æquales, quia exeunt à centro ad circūferentiā, quare g k est æqualis c, & quia g f fuit æqualis b, patet propositū manifeste.
-
-[Diagram: two intersecting circles about centres f and g on a straight line e b f d, meeting at k above, with triangle k f g drawn and point g below; three given line segments a, b, c shown at left]
-
-## Eucli. ex Zamb. Problema 8. Propositio 22.
-
-[Margin]
-22
-[/Margin]
-
-Ex tribus rectis lineis quæ sunt tribus datis rectis lineis æquales, triangulū construere. Oportet autē duas lineas reliqua esse maiores quomodocūq̃ assumptas, quoniā omnis trianguli bina latera quomodocunq̃ assumpta, reliquo sunt maiora.
-
-THEON ex Zamb. Sint datæ tres rectæ lineæ α, β, γ, quarū duæ reliqua sint maiores quomodocunq̃ assumptæ, hoc est α, β, ipsa γ, & α, γ, ipsa β, & β, γ, ipsa α: oportet iam ex tribus lineis rectis, ipsis α, β, γ, æqualibus triangulū cōstruere. Proponatur recta linea quædam δ ε, finita quidem ex parte δ, infinita uero ex parte ε, ponaturq̃ (per 3 propositiōe) ipsi α æqualis δ ζ, & ipsi β æqualis ζ η, & ipsi γ æqualis linea η θ. Et centro quidem ζ, spatio uero ζ δ (per 3 postulatū) circulus describatur δ κ λ: rursus centro quidem η, spatio uero η θ (per idem) circulus describatur κ λ θ, & cōnectantur (per 1 postulatū) κ ζ & κ η. Dico quod ex tribus rectis lineis æqualibus ipsis α, β, γ, triangulū κ ζ η constitutū est. Quoniā enim ζ signū, centrū est circuli δ κ λ, æqualis est (per 15 diffinitionē) ζ δ ipsi ζ κ. Sed α ipsi ζ δ est æqualis, ζ κ igitur (per 1 cōmunem sententiā) ipsi α est æqualis. Rursus quoniā η signū, centrū est circuli κ λ θ, æqualis est (per eandem diffinitionē) ipsi η θ ipsa η κ, sed γ ipsi η θ est æqualis, & η κ igitur (per 1 cōmunem sententiam) ipsi γ est æqualis. At q̃ ipsi β est æqualis (per hypothesin) tres igitur rectæ lineæ κ ζ, ζ η, η κ, ipsis tribus α, β, γ, sunt æquales. Ex tribus igitur rectis lineis, hoc est κ ζ, ζ η, η κ, quæ tribus datis rectis lineis, hoc est α, β, γ, sunt æquales, triangulū κ ζ η constitutū est, quod fecisse oportuit.
-
-[Diagram: three given line segments α, β, γ at right; below, two intersecting circles about centres ζ and η on the straight line δ ε, meeting at κ, with triangle κ ζ η drawn; labels δ, ζ, η, ε, θ, κ, λ]
-
-## Eucli. ex Camp. Propositio 23.
+## Euclidis ex Zamb. Problema 9. Propositio 23.
 
 [Margin]
 23
 [/Margin]
 
-DAta recta linea, super terminum eius, cuilibet angulo proposito æquum angulum designare.
+Ad datam rectam lineam, ad datumq̃ in ea signum, dato angulo rectilineo æqualem angulum rectilineum constituere.
 
-CAMPANVS. Sit data linea f e, quæ est in superiori figura, & sint lineæ b, a, continentes angulū datum, cui subtenditur basis c. Super punctum f lineæ e f, iubemur facere æqualem angulum angulo dato. Ad lineam e f adiungo f d æqualem lineæ a, ex f e sumo f g æqualem b, & ex g e sumo g h æqualē c, & super puncta f & g describo duos circulos d k & k h secundum quanti
+THEON ex Zamb. Sit data recta linea α β, datumq̃ in ea signum sit α: datus autem angulus rectilineus, sit δ γ ε. Oportet ad datam rectam lineam α β, ad datum in ea signum α, dato angulo rectilineo δ γ ε, æqualem angulum rectilineum collocare. Sint in utrisq̃ lineis δ γ & γ ε, contingentia signa sintq̃ illa δ & ε, cōnectatur (per 1 postulatum) δ ε. Et ex tribus rectis lineis quæ tribus datis rectis lineis, hoc est γ δ, δ ε, γ ε, sunt æquales, (per præcedentem) triangulū construatur, sitq̃ illud α ζ η, ita ut æqualis sit γ δ, ipsi α ζ, & γ ε ipsi α η, & insuper δ ε ipsi ζ η. Et quoniā duæ lineæ δ γ & γ ε, duabus lineis, hoc est ζ α & α η sunt æquales altera alteri, & basis δ ε (per hypothesin) basi ζ η, angulus igitur δ γ ε, angulo ζ α η (per 8 propositionem) est æqualis. Ad datam igitur rectam lineam α β, ad datum in ea signum α, dato angulo rectilineo δ γ ε, æqualis angulus rectilineus ζ α η collocatus est. Quod fecisse oportuit.
 
-[Diagram: two intersecting circles about centres f and g on the straight line d f g h e, meeting at k above, with lines k f and k g drawn; at right a small triangle with sides a, b and base c showing the given angle]
+[Diagram: two triangles side by side, the first with vertex γ and base δ ε, the second with vertex α and base ζ η, the line α β extending below]
 
-<!-- Catchword: tatem -->
+## Eucli. ex Camp. Propositio 24.
+
+[Margin]
+24
+[/Margin]
+
+OMnium duorum triangulorū quorum duo latera unius duobus lateribus alterius fuerint æqualia, si fuerit angulorum sub illis æquis lateribus contentorū alter altero maior, basis quoq̃ eiusdem, basi alterius maior erit.
+
+CAMPANVS. Sint duo trianguli a b c, & d e f, sintq̃ duo latera a b & a c, æqualia duobus lateribus d e & d f: & unumquodq̃ suo correlatiuo, dextrum, scilicet, dextro, sinistrumq̃ sinistro, sitq̃ angulus a, maior angulo d dato. Dico q̃ basis b c, maior erit basi e f. Faciā enim iuxta doctrinā præcedentis, angulū e d g æqualem angulo a, eritq̃ angulus e d f, pars anguli e d g, & ponam d g æqualē a c, protrahā e g, quæ aut trāsibit supra e f, aut secet lineā d f, aut super e f, aut fit secum linea una, aut infra. Transeat primo supra. Et quia a b & a c latera trianguli a b c sunt æqualia e d & d g lateribus trianguli e d g, & angulus a angulo e d g totali, erit per 4 propositionem basis b c æqualis basi e g. At uero quia d g & d f sunt æqualia (nam utraq̃ est æqualis a c) erit per 5 propositiōe angulus d f g æqualis angulo d g f, quare d f g maior erit angulo f g e, ergo e f g multo fortius maior est eodem f g e: ergo per 19 propositiōe latus e g maius est latere e f, quare & b c maior est e f, quod est propositū. Si uero e g transeat super e f & sit secum linea una, tunc e f erit pars e g, per ultimā ergo conceptionē patet propositū. Si uero e g transeat infra e f, protrahātur duæ lineæ d f & d g quæ sunt æquales ut probatū est, ad k & ad h, fientq̃ per secūdam partē 5 propositionis sub basi f g, anguli k f g & f g h æquales: quare angulus e f g maior erit angulo f g e: ergo per 19 propositiōe latus e g maius est latere e f, quare b c maior est e f, quod est propositū. Istud ultimū membrū posset etiam probari per 21 propositionē: per ipsam enim erunt in dispositione tertia duæ lineæ d g & e g, maiores duabus lineis d f & e f, & quia d g est æqualis d f, propter hōc quod ambæ sunt æquales a c, erit e g maior e f, quare & b c maior e f, quod est propositū. Melius tamen est demonstrare priori modo ut in omni dispositione arguatur per quintam.
+
+[Diagram: two triangles a b c and d e f side by side, the second with the angle e d g constructed and line e g drawn; below, four further triangles showing the three cases, with lines d f and d g produced to k and h; labels a, b, c, d, e, f, g, h, k]
+
+## Eucli. ex Zamb. Theorema 15. Propositio 24.
+
+[Margin]
+24
+[/Margin]
+
+Si bina triangula, duo latera duobus lateribus æqualia habuerint al
+
+<!-- Catchword: terum -->

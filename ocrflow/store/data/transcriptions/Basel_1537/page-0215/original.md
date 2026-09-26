@@ -1,27 +1,41 @@
-<!-- Page number: 204 -->
+<!-- Running title: LIBER OCTAVVS -->
 
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 205 -->
 
-*tionales minimi in ipsorum α β γ δ ε ζ rationibus,erunt aliqui numeri ipsis ξ ν,μ ο,minores,continue proportionales in ipsorum α β γ δ ε ζ,rationibus,Sint π ρ σ τ,Et quoniā est sicut π ad ρ,sic est α, ad β,ipsi autem α β, minimi, minimi autem(per 21 septimi metiuntur eandem rationem habentes cis{printer-error-correction:eis} æqualiter antecedens antecedeniem & sequens sequentem,igitur β,ipsum ρ metitur.Id propterea etiam γ,ipsum ρ, metitur.Igitur ipsi β,γ,ipsum ρ metiuntur,& minimus igitur per 36 septimi,quem ipsi α γ,metiuntur,ipsum metietur ρ.minimus autē quem ipsi β γ.metiuntur,est η.Igitur η ipsum ρ metitur,estq́; sicut η,ad ρ.sic est κ,ad σ,& κ igitur ipsum σ metitur,metitur autem & ε,ipsum σ.Igitur ipsi ε κ,ipsum σ,matientur,& minimus quem ipsi ε κ,metiuntur,(per eandem,(metietur ipsum σ.Minimus autē quem ipsi ε κ,metiuntur:est μ.Igitur μ,ipsum σ metitur,maior minorem,quod est impossibile.Igitur non erūt aliqui numeri minores ipsis ν ξ,μ ο,continue proportionales in ipsius α ad β,& γ ad δ,& ε ad ζ,rationibus.Igitur ipsi ν ξ,μ ο,continue proportionales minimi sunt in ipsorum α β γ δ ε ζ,rationibus,quod oportuit feciße.*
+## Eucli.ex Camp. — Propositio 6
 
-## Eucli.ex Camp. — Propositio 5
+6 {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numerorum quotlibet continue proportionalium primus secundum non numeret,nullus eorum numerabit ultimum.
 
-## 5 {dropcap:O|lines=?|style=decorated|decoration="grotesque face"}Mnium duorum numerorum compositorum proportio unius ad alterum,est ex laterum suorum producta proportionibus.
+CAMPANVS Sint a,b,c,d,e,cōtinue proportionales.dico quod si a nō numeret b,nullus eorū numerabit e.Manifestum autē est quod si ipsum numeret,omnes numerabunt e,& simpliciter quilibet præcedens quemlibet sequētem.Si autem nō numerat ipsum,patet quod d non numerabit e,nec simpliciter aliquis eorum proxime sequētem e,quia sunt positi continue proportionales.Sed quod nullus alius ut c numeret ipsum, sic constat.Sumantur secundum doctrinā 2 huius,totidem minimi continue proportionales in proportione eadem:quot sunt ipse c & omnes sequentes,qui sunt f,g,h,eruntq̃ per 3 huius & f & h,contra se primi,& quia per æquam proportionem c ad e ut f ad h, cum f non numeret h,nec c numerabit e,eodē modo nec aliquis aliorū,quare liquet quod propositum est.
 
-CAMPANVS. Quod proponit 24 sexti de superficiebus æquidistantium laterum,proponit hæc de numeris cōpositis. Sint duo numeri compositi:a b,latera a,sint c & g{printer-error-correction:d},latera b, sint e & f.dico itaq̃ quod proportio a ad b,constat ex ea quæ est c ad e & d ad f. Sit enim ut ex d in e,fiat g.Quia ergo ex d in c fit a,& ex f in e fit b,per conuersionē diffinitionis laterum:erit per 18 septimi, a ad g,sicut c ad e,& per 19 eiusdem g ad b,sicut d ad f:quare per diffinitionem,proportio a ad b,composita est ex ea quæ est c ad e,& ea quæ est d ad f,quod est propositum.
+[Diagram: dotted number lines beside the text, labelled a, b, c, d, e (long rows of dots, increasing in length), f (4 dots), g (6 dots), h (9 dots)]
 
-[Diagram: dotted number lines beside the text, labelled a (13 dots), b (20 dots), c (2 dots), d (6 dots), e (4 dots), f (5 dots), g (24 dots)]
+## Eucli.ex Zamb. — Theorema 4 — Propositio 6
 
-CAMPANI annotatio. Nec est necessarium ut continuemus proportiones laterum (uidelicet eam quæ est c ad e & eā quæ est d ad f )in minimis numeris repertis,secundum doctrinam præcedentis,ut docēt quidam,hoc enim est proposito præter necessarium.Arguūt enim posito quod illi minimi sint h K l,ita quod sit h ad K sicut c ad e & k ad l, sicut d ad f, proportionem h ad l esse compositam ex propositorum laterum proportionibus. Sumptóque g fieri ex d in e,arguunt a ad g,ut h ad K,quia ut c ad e,& g ad h ut K ad l,quia ut d ad f,ideoque secūdum æquā proportionalitatem,& a ad b:ut h ad l,concludunt igitur a ad b,cōponi ex quibus h & l. uerum quidem sed non necessarium assumpto.
+6 Si fuerint quotcunque numeri cōtinue proportionales, primus autem secundum non metiatur,& alius nullus nullum metietur.
 
-[Diagram: dotted number lines beside the text, labelled a (13 dots), g (26 dots), b (22 dots), c (2 dots), e (4 dots), d (6 dots), f (5 dots), h (13 dots), K (26 dots), l (22 dots)]
+THEON ex Zamberto, *Sint numeri continue proportionales α,β,γ,δ,ε.Ipse autem α,ipsum β, non metiatur.Dico quod & alius nullus,nullum metietur.Quod quidem ipsi α,β,γ,δ,ε,continue adinuicem sese non metiūtur manifestum est:quia neque α,ipsum β metitur,dico iam quod neque alius ullus,ullū aliū metietur.Dico quod neque α,ipsum γ metitur,quot enim sunt ipsi α,β,γ,tot sumātur(per 35 septimi,)minimi numeri eandem rationem habentiū ipsis α,β,γ,sintque ζ,η,θ.Et quoniam ipsi ζ η,θ,in eadem ratione sunt ipsis α,β,γ,& est æqualis multitudo ipsorum α,β,γ,multitudini ipsorum ζ,η,θ,ex æquali igitur(per 14 septimi,est sicut α,ad γ,sic est ζ,ad θ.Et quoniam est sicut α ad β,sic est ζ,ad η,non metitur autem α,ipsum β,igitur neque ζ ipsum η,metitur.Igitur ζ,non est unitas.Si enim ζ,esset unitas,omnem numerum metiretur.Et ζ,θ,(per 3 octaui,)primi sunt adinuicem.Igitur neque ζ,ipsum θ, metitur.& est sicut ζ,ad θ,sic α,ad γ,neque igitur α,ipsum γ metitur.Similiter quoque ostendemus,quod neque alius ullus ullum metietur,quod oportuit demonstraße.*
 
-## Eucli.ex Zamb. — Theorema 3 — Propositio 5
+## Eucli.ex Camp. — Propositio 7
 
-## 5 Plani numeri,adinuicem rationem habent compositam ex lateribus.
+7 {dropcap:S|lines=?|style=decorated|decoration="human figures"}I numerorum continue proportionalium primus ultimum numeret,idem ipse & secundum numerabit.
 
-THEON ex Zamberto. *Sint plani numeri α β,ipsius quidem α,latera sint γ δ, ipsius autem α{printer-error-correction:β},sint ε ζ. Dico quod α ad β, rationem habet ex lateribus compositam.Rationibus enim datis quas habent γ ad ε,& δ,ad ζ,suscipiantur(per 4 octaui,numeri continue proportionales minimi in ipsorum γ ε,& δ ζ,rationibus sintq́; η θ κ.ut sit sicut γ ad ε,sic est η,ad θ. sicutque δ,ad ζ,sic θ,ad κ.Ipsi igitur η θ κ habent laterum rationes.Sed ipsius η ad κ ratio cōposita est ex ea quam habet η ad θ,& ex ea quam habet θ,ad κ,ipsi igitur η ad κ,rationem habet ex lateribus compositam,Dico igitur quod est sicut α ad β, sic η ad κ,ipse enim δ ipsum ε multiplicans:efficiat ipsum λ.Quoniā δ ipsum γ,multiplicans ipsum fecit α,multiplicans autē ipsum ε efficit λ,est igitur(per 17 septimi,)sicut γ ad ε,sic est α,ad λ.Sicut autem γ ad ε,sic η ad θ,& sicut igitur(per 11 quinti,)η,ad θ,sic α ad λ.Rursus quoniā ε ipsum δ multiplicans ipsum fecit λ,sed & ipsum ζ,multiplicans ipsum fecit β.est igitur(per 17 septimi,)sicut δ ad ζ,sic est λ,ad β.Sed sicut δ ad ζ,sic est θ,ad κ,& sicut igitur(per 11 quinti)θ,ad κ,sic λ,ad β,patuit autē quod sicut η,ad θ,sic est α,ad λ, Aeque igitur est (per 14 septimi,sicut η ad κ,sic est α,ad β,ipse autē η ad κ,rationē habet cōpositam ex lateribus.& α:igitur ad β,rationē habet compositā ex lateribus,quod oportuit demōstraße.*
+CAMPANVS Sint qui prius,continue proportionales,dico si a numerat e:ipse nūerabit b. alioqui ex præmissa non numeraret e, quod est contrarium & impossibile.Non solum autem numerabit b: sed & omnes,& quisque eorum:quemlibet ipsum sequentem.
 
-[Diagram: dotted number lines beside the Theon proof, labelled α (24 dots), λ (28 dots), β (long row), γ (3 dots), δ (7 dots), ε (5 dots), ζ (9 dots), η (11 dots), θ (13 dots), κ (18 dots)]
+[Diagram: dotted number lines beside the text, labelled a (2 dots), b (4 dots), c (8 dots), d (16 dots), e (long row)]
 
-<!-- Catchword: Eucli. -->
+## Eucli.ex Zamb. — Problema 3 — Propositio 7
+
+7 Si fuerint quotcunque numeri continue proportionales, primus autem extremum metiatur,& secundum quoque metietur.
+
+THEON ex Zamb. *Sint quotcunque numeri proportionales α,β,γ,δ,at α,ipsum δ metiatur.Dico quod & α,ipsum β metietur.Si autem non metitur α,ipsum β,neque alius ullus (per 7 octaui)alium ullum metietur, quod(per hypothesin)est impoßibile,supponitur enim α,ipsum δ metiri,metitur autem α,ipsum δ,metitur igitur & α, ipsum β,quod oportuit demonstraße.*
+
+[Diagram: dotted number lines beside the Theon proof, labelled α (3 dots), β (7 dots), γ (14 dots), δ (long row)]
+
+## Eucli.ex Camp. — Propositio 8
+
+8 {dropcap:S|lines=?|style=decorated|decoration="ribbon ornament"}I inter duos numeros numeri quotlibet in continua proportionalitate ceciderint,totidem inter omnes duos in eadem proportione relatos cadere necesse est.
+
+<!-- Signature: S -->
+
+<!-- Catchword: CAM -->

@@ -1,53 +1,45 @@
-<!-- Running title: LIBER TERTIVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 71 -->
+<!-- Page number: 72 -->
 
-f & b f, eritq̃ per præmissam angulus f consistens supra centrum, ad unumquēq̃ eorū duplus. Quare ipsi sunt æquales, quod est propositum.
+d, non ergo portiones similes per diffinitionē. Quod si secundo modo, erit adhuc angulus c, maior angulo d, per decimamsextam primi, non igitur erūt portiones similes. Si autem tertio modo: sit ut linea b d, secet lineam a c, & secet circunferentiā portionis minoris in puncto e, & ducatur linea e a. Eritq̃ per eandem decimamsextam primi, angulus a e b, consistens in portione a c b, maior angulo d, quare nullo modo sunt portiones similes. ¶ Simili quoque modo probabis, quod super eandem lineam non fiet portio similis portioni a c b, minor ea: posito c, in loco d, & d in loco c, in figura cū omnibus prædictis, erit enim per præmissas & per 21 primi, & per 16 eiusdē & præmisso modo angulus d omnium figurationum, maior angulo c, quare portiones non erunt similes. Et nota, quod licet proponatur super lineam unam non posse fieri portiones similes inæquales ex eadem parte: uerum est tamē quod neq̃ ex diuersis partibus. Quodlibet probare, minore quæ est ex una parte superposita maiori quæ est ex altera. Necesse enim erit per communem scientiam, ipsam à maiori excedi, non ergo sunt similes per hanc.
 
-## Eucli.ex Zamb.  Theorema 19,  Propositio 21.
+[Diagram: three figures of two unequal similar segments upon the same base a b, the apexes marked c and d; in the third the line b d cuts a c and the smaller circumference in e]
 
-[Margin]
-21
-[/Margin]
-
-In circulo, qui in eodem segmento sunt anguli, sibi inuicem sunt æquales.
-
-THEON ex Zamberto. Sint in segmento β α ε δ, circuli α β γ δ, anguli qui sub β α δ, & β ε δ. Dico quod anguli β α δ, & β ε δ, sibi inuicē sunt æquales. Suscipiatur enim (per primam tertij) centrum circuli α β γ δ, sitque illud ζ. Et ducantur (per primum postulatum) ζ β, & ζ δ. Et quoniam qui sub β ζ δ, angulus ad centrum, angulus autem qui sub β α δ, ad circunferentiam, & eandem habent basin circunferentiam β γ δ, angulus igitur β ζ δ, (per præcedentem) duplus est eius qui sub β α δ, &, per hoc angulus: β ζ δ, duplus est etiam eius qui sub β ε δ. Aequalis igitur (est per communem sententiam dicentem quæ eiusdem sunt dimidium, adinuicem sunt æqualia,) angulus β α δ, angulo β ε δ. In circulo igitur, qui in eodem segmento sunt anguli, sibi inuicē sunt æquales, quod demonstrasse oportuit.
-
-[Diagram: circle with α and ε upon the upper arc, β at the left, γ at the foot, δ at the right; the chords β α, β ε, α δ, ε δ and the lines from the centre ζ to β and δ are drawn]
-
-## Eucli.ex Camp.  Propositio 21.
+## Eucli.ex Zamb.  Theorema 21.  Propositio 23.
 
 [Margin]
-21
+23
 [/Margin]
 
-SI intra circulū quadrilaterum describatur, quoslibet eius duos angulos ex aduerso collocatos, duobus rectis angulis æquos esse necesse est.
+Super eadem recta linea, duo segmēta circulorum similia, & inæqualia non constituentur ad easdem partes.
 
-CAMPANVS. Sit quadrilaterū a b c d, inscriptum circulo a b c d. Dico quosq̃ duos angulos oppositos, esse æquales duobus rectis. Protrahantur in quadrilatero, diametri a c, b d, eritque per præmissam, angulus c b d æqualis angulo c a d, & angulus a b d æqualis angulo a c d, quare totus a b c, æqualis erit duobus angulis qui sunt a c d, & c a d. Et quia ipsi cum angulo a d c sunt æquales duobus rectis per 32 primi, erunt & anguli b totalis & d, totalis, æquales duobus rectis, quod est propositum. Similiter quoque probabo angulos a & c totales, æquales duobus rectis.
+THEON ex Zamb. Si enim possibile: super eandem rectā lineā α β, duo circulorum segmenta similia & inæqualia constituantur ad easdem partes α γ β, & α δ β, & ducatur (per primū postulatū) α γ δ, & coniungantur (per 1 postulatū) γ β & δ β. Quoniā igitur segmentū α γ β, simile est segmēto α δ β, similiaq̃ circulorū segmēta sunt quæ æquales angulos suscipiūt, (per diffinitionē 10 tertij) angulus igitur α γ β, angulo α δ β, est æqualis, exterior interiori. quod (per 16 primi) est impossibile. Super eadē igitur rectā lineā: duo circulorū segmēta similia & inæqualia nō constituentur ad easdē partes, quod oportuit demonstrasse.
 
-[Diagram: quadrilateral a b c d inscribed in a circle, with d and c at the top and a and b below; both diagonals are drawn]
+[Diagram: two segments upon the base α β, the outer with apex δ, the inner with γ; the lines α γ δ, γ β and δ β are drawn]
 
-## Eucli.ex Zamb.  Theorema 20  Propositio 22.
+## Eucli.ex Camp.  Propositio 23.
 
 [Margin]
-22
+23
 [/Margin]
 
-In circulis quadrilaterorum existentium anguli qui ex opposito, duobus rectis sunt æquales.
+SI circulorum similes portiones supra lineas æquas fuerint, ipsas portiones æquas esse oportet.
 
-THEON ex Zamberto. Sit circulus α β γ δ, & in eo quadrilaterum sit α β γ δ. Dico quod anguli qui ex opposito, duobus rectis sunt æquales. Coniungantur (per primum postulatum, α γ, & β δ. Quoniam igitur (per 32 primi,) omnis trianguli tres anguli duobus rectis sunt æquales. Angulus autem γ α β, angulo γ δ β est æqualis (per 21 tertij) in eodem enim sunt segmento β α δ γ. Angulus uero α γ β, (per eandem) angulo α δ β, in eodem enim sunt segmento α δ γ β. Totus igitur qui sub α δ γ, eis qui sub β α γ, & α γ β est æqualis. Communis apponatur angulus α β γ. Anguli igitur qui sub α β γ, β α γ, eis qui sunt sub α β γ & α δ γ, sunt æquales. Sed qui sub α β γ, β α γ & α γ β, duobus rectis sunt æquales. Anguli igitur α β γ, & α δ γ, duobus rectis sunt æquales. Similiter iam ostendemus, quod etiam anguli β α δ & β γ δ, duobus rectis sunt æquales. In circulis igitur quadrilaterorum existentium anguli ex opposito, duobus rectis sunt æquales, quod demonstrare oportebat.
+CAMPANVS. Sint duæ lineæ a b & c d æquales, super quas sunt duæ portiones circulorum a e b, c f d, quæ sunt similes. Dico quod ipsæ sunt æquales. Si enim non sunt æquales, altera earum superposita alteri, excedet maior minorem. sed linea a b, non excedet lineā c d, nec excedetur ab ea: cū sint æquales. Quare accidet contrarium præmissæ, quod est impossibile. Erit enim a b & c d linea una.
 
-[Diagram: quadrilateral α β γ δ inscribed in a circle, with both diagonals α γ and β δ drawn]
+[Diagram: two equal segments, the one with apex e upon the base a b, the other with apex f upon the base c d]
 
-## Eucli.ex Camp.  Propositio 22.
+## Eucli ex Zamb.  Theorema 22.  Propositio 24.
 
 [Margin]
-22
+24
 [/Margin]
 
-DVas similes circuli portiones inæquales, supra unam rectam lineam assignatam ex eadem parte cadere impossibile est.
+Super æqualibus rectis lineis similia circulorū segmenta constituta sibi inuicem sunt æqualia.
 
-CAMPANVS. sit recta linea a b, super quam fiat portio circuli, a c b, Dico quod super eādem lineam ex eadem parte non fiet alia portio quæ sit similis huic, & ea maior aut minor. Quod si fuerit possibile, fiat ergo portio a d b, maior ea, quæ cū sit similis ei, stat ergo angulus a c b in portiōe minori, & angulus a d b in maiori. Erit ergo ut lineæ a d, & b d, includāt lineas a c & b c, ut in figuratiōe prima apparet. Aut altera primarū: una fiat cū altera postremarū, ut in secūda. Aut ut altera secet alterā, ut in tertia. Q̃ si fuerit primo modo erit per 21 primi angulus c maior
+THEON ex Zamberto. Super æqualibus, inquam, rectis lineis α β, & γ δ, similia circulorum segmenta α ε β, & γ ζ δ, constituantur. Dico quod æquum est segmentum α ε β, segmento γ ζ δ. Congruente namque segmento α ε β, ipsi γ ζ δ, segmento, & posito signo α, super signo γ, recta uero linea α β, super γ δ, congruente, & β, signum congruet ipsi δ, signo, quoniam æqualis est α β, ipsi γ δ. Congruente autem α β, recta linea ipsi γ δ, congruit, segmentum autem α ε β, ipsi γ ζ δ, non congruit, sed differt sicut γ η δ, circulus autem circulum (per uicesimam tertij) non secat in pluribus signis duobus. Sed γ η δ, in pluribus quàm duobus signis: hoc est γ ζ δ, secat, quod (per eandem) est impossibile. Non igitur, congruente α β, recta linea, ipsi γ δ, non congruit quoque & segmentum α ε β, segmento γ ζ δ. Congruit igitur & ei est æquale. Super æqualibus igitur rectis lineis similia circulorum segmenta constituta: sibi inuicem sunt æqualia, quod erat demonstrandum.
 
-<!-- Catchword: d, non -->
+[Diagram: segment with apex ε upon the base α β; below it a segment upon the base γ δ with the apexes ζ and η, the one arc differing from the other]
+
+<!-- Catchword: Eucli. -->

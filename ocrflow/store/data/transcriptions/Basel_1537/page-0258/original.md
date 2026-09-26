@@ -1,41 +1,37 @@
-<!-- Running title: LIBER DECIMVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 247 -->
+<!-- Page number: 248 -->
 
-γ commensurabiles sunt ipsæ α,β,γ, metietur eas aliqua magnitudo, quæ uidelicet & ipsas α,β, metietur, quare & ipsarum α,β, maximam communem mensuram δ, meetietur{printer-error-correction:metietur} (per correlarium præcedentis, metitur autem & γ, quare dicta aliqua magnitudo metietur ipsas γ,δ. Cōmēsurabiles igitur sunt ipsæ γ δ. Sumatur (per 3 decimi, earū cōmunis maxima dimensio, sitq̃ ε. Quoniam igitur ε ipsam δ, metitur, sed δ ipsas α,β. metitur, & ε igitur α, β, metitur, metitur autem & γ, Igitur ε, ipsarum α,β,γ, communis est mensura. Dico quod & maxima. Si enim possibile, sit magnitudo ζ, minor quàm ε, metiaturq̃ ζ ipsas α,β,γ. Et quoniam ζ ipsas α,β,γ, metitur, metitur & ipsas α,β, & ipsarum igitur α,β, (per præcedens correlarium) maximam communem mensuram metietur. At ipsarum α,β, maxima communis mensura est δ, Igitur ζ ipsum δ, metitur, metitur autem & γ, igitur ζ ipsas γ,δ metitur, & ipsarum ergo γ,δ, maximam communem mensuram (per præcedens correlarium ) metietur ζ, maxima uero communis mensura ipsarum γ δ, est ε, igitur ζ ipsam ε metitur maior minorem, quod est impossibile. Ipsa igitur magnitudine ε, maior aliqua magnitudo, ipsas α,β,γ, non metitur. Igitur ε. ipsarum α,β,γ, maxima communis est dimensio, si non metiatur δ ipsam γ. Si autem metiatur, ipsa est δ. Tribus igitur magnitudinibus commensurabilibus datis, maxima communis earum dimensio inuenta est, quod cere oportebat{printer-error-correction:quod facere oportebat}.
+conceptionem mensurabit a, igitur a & b communicantes: mensurabat enim & b, quod est propositum.
 
-CORRELARIVM. Ex hoc proinde manifestum est, quod si magnitudo tres magnitudines mensa fuerit, & maximam quoque earum communem dimensionem metietur. Similiterq̃ & in pluribus & communis maxima mēsura, & subinde correlarium, inuenietur.
+## Eucli. ex Zamb Theorema 4 Propositio 6
 
-[Diagram: at the right of the proof, six vertical ticked lines of varying heights, labelled below α, β, γ, δ, ε, ζ]
+**6** Si binæ magnitudines adinuicem rationem habuerint quam numerus ad numerum, commensurabiles erunt ipsæ magnitudines.
 
-## Eucli. ex Camp. Propositio 5
-
-**5** {dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duarum quantitatum communicantium est proportio tanquam numeri ad numerum.
-
-CAMPANVS Sint duæ quantitates a & b, communicantes. Dico quod earum proportio est sicut alicuius numeri ad alium numerum. Sit enim, c maxima quantitas communiter mensurans a & b, reperta ut docet secunda huius, quæ mensuret a secundum numerum d, & b secundum numerū e, eritq̃ a ad c ut d ad unitatem, eo quod sicut a est multiplex c, ita d est multiplex unitatis, ac c ad b, ut unitas ad e, quoniam sicut c est submultiplex b. ita uuitas{printer-error-correction:unitas} est sub multiplex e, igitur per æquam proportionalitatem a ad b, ut d ad e, quod est propositum.
-
-[Diagram: at the right of the proof, three horizontal ticked lines — the long line a with three square dots d at its right; the short line c with a single dot at its right; and the line b with square dots e at its right]
-
-## Eucli. ex Zamb. Theorema 3 Propositio 5
-
-**5** Commensurabiles magnitudines, adinuicem rationem habent quam numerus ad numerum.
-
-THEON ex Zamberto. Sint commensurabiles magnitudines α,β. Dico quod α ad β, rationem habet, quam numerus ad numerum. Quoniam enim commensurabiles sunt α,β, metietur eas aliqua magnitudo, metiatur, & esto γ, Et quoties γ ipsam α, metitur. tot unitates sint in δ, quoties autem γ ipsum β metitur, tot unitates sint in ε. Quoniam igitur γ ipsum α metitur per eas quæ in δ sunt unitates & unitas metitur ipsum δ per eas quæ in ipso sunt unitates, æque igitur unitas ipsum δ metitur numerum, & γ magnitudo ipsam α, est igitur sicut γ ad α, sic est unitas ad δ, contra igitur (per correlarium 4 quinti) sicut α ad γ, sic δ ad unitatem. Rursus quoniam γ ipsam β metitur per eas quæ in ε sunt unitates, metitur autē & unitas ipsum ε per eas quæ in eo sunt unitates, æque igitur unitas ipsum ε metitur. & γ ipsum β. Est igitur (per idem) sicut γ ad β, sic est unitas ad ε. Patuit autē quod & sicut α ad γ, sic δ ad unitatem, ex æquali igitur (per 21 quinti,) est sicut α ad β, sic est δ numerus ad ε numerum. Commensurabiles igitur magnitudines α,β, adinuicem rationē habent, quam numerus δ ad numerum ε, quod oportebat demonstrare.
+THEON ex Zamberto. Binæ enim magnitudines α,β, ad inuicem rationem habeant, quam numerus δ ad numerū ε. Dico quod commēsurabiles sunt ipsæ α,β, magnitudines. Quot enim sunt in ipso α{printer-error-correction:δ} unitates, in tot æquales diuidatur (per 9 sexti ipsa α, & uni earum æqualis esto γ. Quot autem unitates sunt in ε, ex totidē magnitudinibus ipsi γ æqualibus cōponatur ζ. Quoniā igitur quot sunt unitates in ipsa δ, tot magnitudines sunt & in ipsa α, æquales ipsi γ, qualis igitur pars est η, unitas ipsius δ, talis pars est & γ ipsius α, est igitur sicut γ ad α sic η, unitas ad ipsum δ. Metitur autem η, unitas ipsum δ numerū, metitur igitur & γ, ipsum, α. Et quoniā est sicut γ ad α, sic est η unitas ad numerum δ, & contra (per correlarium 4 quinti,) sicut est α ad γ, sic est δ numerus ad η unitatem. Rursus quoniam quot unitates sunt in ε, tot sunt & in ipsa ζ, æquales magnitudines ipsi γ, est igitur sicut γ ad ζ, sic η unitas ad ζ{printer-error-correction:ε} numerum. Patuit autem & sicut α ad γ, sic est δ ad unitatem η. Ex æquali igitur (per 22 quinti,) est sicut α ad ζ, sic est δ ad ε. Sed sicut δ ad ε, sic est α ad β. Igitur (per 11 quinti,) & sicut α ad β, sic est & α ad ζ. Igitur α, ad utrāq̃ ipsarū β,ζ, eandem habet rationem, æqualis (per 9 quinti,) igitur est β, ipsi ζ, metitur aūt γ, ipsam ζ, metitur igitur & β, sed & ipsam α. Igitur γ, ipsas α,β, metitur. Cōmēsurabilis igitur est α ipsi β. Si binæ igitur magnitudines adinuicem rationem habuerint quam numerus ad numerum, commensurabiles erunt ipsæ magnitudines , quod erat ostendendum.
 
 [Margin]
 ἀνάπαλιν
 [/Margin]
 
-[Diagram: at the right of the Theon proof, three vertical lines of decreasing height and columns of square dots, labelled below α, β, γ, δ, ε]
+[Diagram: at the right of the Theon proof, four vertical ticked lines (γ the shortest) and two columns of square dots with a single dot between them, labelled below α, β, γ, ζ, δ, η, ε]
+
+CORRELARIVM. Ex hoc proinde manifestum est, si fuerint bini numeri δ,ε, & recta linea sicut α, quod datur & factū est possibile sicut numerus ad numerum sic recta linea ad rectam lineā. Si autem ut ipsarum α,ζ, media proportionalis sumpta fuerit, sicut β, erit sicut α ad ζ. sic quod ex ipsa α, ad id quod ex ipsa β, hoc est sicut prima α ad tertiam ζ, sic quod α prima ad id quod ex secūda simile similiterq̃ descriptum, (per correlariū 19 sexti.) Sed sicut α ad ζ, sic est δ uumerus{printer-error-correction:numerus} ad ε numerum fit igitur sicut δ numerus ad ε, numerum, sic quod ex α, recta linea ad id quod ex β, recta linea.
+
+[Diagram: at the right of the correlarium, three vertical ticked lines and columns of square dots, labelled below α, β, ζ, δ, ε]
+
+ALITER idem ostendere. Binæ enim magnitudines α, β, adinuicem rationem habeant, quam numerus γ ad numerum δ, dico quod ipsæ magnitudiues{printer-error-correction:magnitudines} sunt commeusurabiles{printer-error-correction:commensurabiles}. Quot enim sunt in ipso γ unitates, in tot æqualia diuidatur α, & uni earum æqualis esto ε. Est, igitur sicut unitas ad γ numerum, sic est ε ad α, est autem & sicut γ ad δ, sic α ad β, ex æquali igitur (per 22 quinti) est sicut unitas ad ipsum δ numerum, sic est ε ad β, metitur autem unitas ipsum δ metitur igitur ε ipsum β, metitur aūt & α, quoniam unitas ipsum ε. Igitur ε, utramq̃ ipsarum α, β, metitur. Ipsæ igitur α,β, commēsurabiles sunt, &, ipsarum cōmunis est dimēsio.
+
+[Diagram: at the left of the ALITER proof, three vertical ticked lines of decreasing height, two columns of square dots and a single dot, labelled below α, β, ε, γ, δ]
 
 ## Eucli. ex Camp. Propositio 6
 
-**6** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I fuerint duæ quātitates quarū sit proportio unius ad alterā tanquam numeri ad numerum, eas duas communicātes esse necesse est.
+**6** {dropcap:O|lines=?|style=decorated|decoration="foliate ornament"}Mnium duarū superficierum quadratarum quarum latera in longitudine cōmunicant, est proportio unius ad alteram, tanquā numeri quadrati ad numerum quadratum. Si uero fuerit proportio superficiei quadratæ ad superficiē quadratam tanquā proportio numeri quadrati ad numerū quadratū, erūt latera earū in lōgitudine cōmunicantia. Quod si fuerit proportio superficiei quadratæ ad superficiē quadratā, nō uelut numeri quadrati ad numerum quadratum, latera earum erunt in longitudine incommensurabilia.
 
-CAMPANVS. Hæc est conuersa prioris. Vt si sit a ad b sicut numerus e ad numerum d, erunt duæ quātitates a & b cōmuuicantes{printer-error-correction:cōmunicantes} Sit enim e toties mensurans b, quoties est unitas in d, & toties mensurans f, quoties unitas in c. Cum sit igitur f ad e ut c ad unitatem. ac e ad b ut unitas ad d , erit per æquam proportionalitatem f ad b ut c ad, quare etiam ut a ad b. Igitur per primam partem 9 quinti, f est æqualis a. Cum itaque e mensuret f, per
+[Diagram: at the right, a square divided into a 4×4 grid, labelled c above and a below; and a smaller square divided into a 2×2 grid, labelled d above and b below]
 
-[Diagram: at the right of the proof, horizontal ticked lines — the long line f; the long line a; the short line e with three square dots c at its right; and the line b with two square dots d at its right]
+CAMPANVS. Sint a & b, duæ lineæ quadratæ, quarū quadrata sint c & d. Dico quod si a & b cōmunicant in lōgitudine, erit proportio c ad d sicut numeri quadrati ad numerū quadratū, & econuerso. Si autem proportio c ad non sit{printer-error-correction:c ad d non sit} sicut nūeri quadrati ad numerū quadratū, a & b erūt incōmēsurabiles in lōgitudine, & ecōuerso. Verūtamē istud argumētū quartū nō proponit. Primū patet sic. Si a & b cōmunicant in longitudine, ipsæ per 5 erunt in proportione duorum numerorum qui sint e & f, quorū quadrati sint g & h. Quia ergo est c ad d sicut a ad b proportio duplicata per 18 sexti, sequitur, ut sit etiam e ad d sicut e ad f duplicata, sed etiā est per 11 octa
 
-<!-- Signature: x 4 -->
+[Diagram: rows of dots at the right — g with sixteen dots and h with four dots; e with four dots and f with two dots]
 
-<!-- Catchword: conce -->
+<!-- Catchword: ui -->

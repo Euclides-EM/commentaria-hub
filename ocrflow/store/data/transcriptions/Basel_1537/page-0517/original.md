@@ -1,35 +1,49 @@
-<!-- Page number: 506 -->
+<!-- Running title: SPECVLARIA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 507 -->
 
-Sit planum speculū a c, oculus sit b, uisus uero refracti sunt. b c d. b a e. Dico quod c d, & a e, neque paralleli sunt, neque cōcurrunt in d e. Nam quoniam angulus f æqualis est angulo h & k ipsi m, maior autem est per 16 primi elemē. f ipso k, quoniam est extra ipsum triangulum b k c. maior autem fuerit h quàm m. Igitur c d ipsi a e, parallelus non est, neque in d e, cōcurrunt.
+torū angulus r, ipso p maior est quia exterior est. Et angulus p ipsi o, angulū est æqualis. Igitur angulus r, ipso angulo o maior est, cōmunis apponatur qui sub o r f, igitur ipsæ c f a g, cōcurrunt sicut ad g f. Idem quoque erit & si maior sit uisus a h, ipso c k, maiores enim erunt ipsi l m anguli ipsis n x, & angulus p angulo o maior o: & r ipso o. Si uero a h recta linea minor fuerit ipsa c k, id propterea maior erit angulus l ipso r & angulus o angulo p: est autem & angulus r ipso p maior. Nihil enim prohibet angulum r ipsi o esse æqualem uel ipso o minorem, & nō concurrere a g ipsi f. Manifestum est autem quod & maior fuerit a h, circūferētia ipsa c k. Sitque æqualis coincidentia refractionum, neque in circuli circūferentia, neque extra utique fiet, sed intus tantum.
 
-[Diagram: plane speculum on a horizontal line with points a and e; angle labels m, k, b, f along the line; rays descend and cross below toward h and the points c, d]
+[Diagram: circle with points K and g at top, f inside upper left, b at left on the circumference, a at right; inside the circle points b, r, l, o, d, p, m, n near the horizontal diameter, and e at lower right; several chords crossing]
 
-## In conuexis.
+## Theorema septimum.
 
-Sit rursus conuexum speculum a g f c, oculus uero sit b, aspectus autem refractus sint b f d b g e. Dico quod ipsi f d, g e, neque in e d cōcurrūt, neque sunt paralleli, & cōnectatur enim g f, recta linea, extendaturq́; ex utraque parte, quoniā æqualis est k h, ipsi l, eo quia in æquis angulis refringitur. maior fuerit quoque l m ipso k & k ipso n x est maior. sed n x ipso p o maior est. Rursus x, æqualis est ipsi o, maior igitur est l m ipso o p, multo igitur maior est l m ipso o: non concurrunt: igitur ipsæ f d, g e, rectæ lineæ, neque sunt paralleli.
+CElsitudines & crassitudines à planis speculis conuersæ uidentur.
 
-## Theorema quintum.
+Sit fastigium quidem a e, speculum autē planum sit l, oculus uero sit b, uisus porro sint b c, b d, refracti, in e k. Igitur oportet deductis uisibus in rectam lineam e, quidem supra esse, ipso h infra existente, & k infra existens in f, quod supra est, ac perinde conuersa sunt in phantasia.
 
-IN cauis speculis si ad centrum, siue ad circunferentiam, siue extra circūferentiam oculus extiterit, hoc est inter centrum & circunferentiā, uisus refracti concurrent.
+[Diagram: vertical line at left with points e, k, a, f from top to bottom; horizontal line a d c l; oculus b at right; rays from b crossing at d and c toward e, k and f]
 
-Sit cauum speculum a c d, centrum autem sphæræ sit b ponaturque oculus in b & procidant ex b uisus in circunferentiam b a b, c b d, æquales igitur sunt qui ad signa a c d, sunt anguli, semicirculi enim sunt per 27 tertij elemē. uisus igitur refracti per se ipsos refringentur b a b, c b d, hoc autem patet quod in b cōcurrunt.
+## In crassitudinibus.
 
-[Diagram: concave arc between two descending lines; point labels e, b, f at left, g, p at right, and l, o, n, x, q below the arc]
+Sit rursus crassitudo quidem e a, speculū autem planum sit a c, oculus uero sit d, uisus porro sint d c, d b refracti in e f, similiter eductis uisibus ad h k, apparet quidem e infra existens super h superius existente, & f, supra existēs super k infra existente.
 
-## Oculus in circunferentia.
+[Diagram: vertical line with points b, g, a, f, e from top to bottom; rays fan out rightward crossing at b and c]
 
-Sit rursus cauum speculum a b c, oculus autē esto. b ponaturq́; in eius circunferentia, & ab ipso b, incidāt uisus b c. b a, refracti in d e signis. Quoniam maius est a c b segmētum ipso b c, segmento, maior est angulus f, angulo h per 21 tertij elemētorū & g per a igitur ipso k, maior. Ipsi igitur f k, ipsis h k, sunt maiores. Reliquus igitur l reliquo m minor, multo magis igitur: quæ enim cōcurrunt igitur ipsæ c d a e, in f similiter ostendetur, & si extra circunferentiam ceciderit oculus, sicut in sequenti theoremate.
+## Theorema octauum.
 
-[Diagram: circle with a horizontal diameter d–a and a vertical chord from c; point b at the centre below the chord]
+FAstigia & crassitudines à conuexis speculis conuersa uidentur.
 
-[Diagram: circle with points c and K at top left, m and l inside, b at right on the circumference, g and e at lower left, d and f below; chords from c and b crossing within the circle]
+Sit celsitudo a e, speculum autem conuexum sit a d c, uisus uero sint b d, b c refracti in e h, patet quod non concurrunt, reliqua uero sicut & in planis.
 
-## Theorema sextum.
+[Diagram: convex arc with points d and c on its top; a at upper left, b at upper right, h at left; rays from b crossing above the arc]
 
-IN cauis speculis, si ad medium centri & circunferentiæ positus fuerit oculus, quandoque uisus refracti concurrent, & quandoque non concurrent.
+## In crassitudinibus.
 
-Sit speculum cauum a c, centrum autem sit d, oculus uero ponitur b, intra centri medium & circunferentiæ, uisus autem b a, b c, refringantur in g f, extendanturque uisus usque ad speculum a h, c k. Ipsa a h, iam ipsa c k, aut maior est, aut ei æqualis, aut ea minor. Siquidē uisus, a h æqualis est ipsi c k, æqualis est & a c h, circūferentia c h k, circunferentiæ. Quare & m angulus ipsi x angulo, æqualium circunferētiarum anguli in uicem sunt æquales per 27 tertij elementorum, & anguli m l igitur ipsis n x, sunt æquales per refractionem per primum theorema. & reliquus igitur angulus o angulo p est æqualis: maior igitur est angulus r ipso angulo o. Quoniam enim per 16 primi elemen
+Sit rursus crassitudo a e, speculum uero conuexum sit a d c. oculus autem sit b uisus autem refracti in e h. sint b c e, b d h. reliqua uero sicut & in planis.
 
-<!-- Catchword: torum -->
+## Theorema nonum.
+
+OBliquæ longitudines à planis speculis sicut se habent, sic & uidentur.
+
+Sit oculus b longitudo autem obliqua sit d e, speculum uero sit a c, igitur refractis uisibus uidetur quidē d in a &, e, super c sicq́; se habet in phantasia. sicut uero se habet, propius propius, & remotius remotius.
+
+[Diagram: square with vertex a at top right; a diagonal and lines to points d and e at the left side; b below]
+
+## Theorema decimum.
+
+OBliquæ longitudines à conuexis speculis sicut sunt uere, sic spectantur.
+
+<!-- Signature: V 2 -->
+
+<!-- Catchword: Sit lon -->

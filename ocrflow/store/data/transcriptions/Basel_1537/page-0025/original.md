@@ -1,51 +1,55 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER PRIMVS. -->
 
-<!-- Page number: 16 -->
+<!-- Page number: 17 -->
 
-duobus rectis, quod est propositum. Ex quo patet totum spatium quod in qualibet superficie plana punctum quodlibet circumstat, quatuor rectis angulis esse æquale.
-
-## Eucli. ex Zamb. Theorema 6. Propositio 13.
+## Eucli. ex Camp. Propositio 15.
 
 [Margin]
-13
+15
 [/Margin]
 
-Cum recta linea super rectam consistens lineam angulos fecerit, aut duos rectos, aut duobus rectis æquales efficiet.
+OMnium duarū linearū seinuicē secantiū, omnes anguli cōtra se positi sunt æquales. Vnde manifestū est, cum duæ lineæ rectæ se inuicem secāt, quatuor qui fiunt angulos, quatuor rectis esse æquales.
 
-THEON ex Zamb. Recta enim linea quædam α β, super rectam lineam γ δ consistens, angulos efficiat γ β α & α β δ. Dico quod γ β α & α β δ anguli, aut duo recti sunt, aut duobus rectis æquales. Quod si angulus γ β α, est æqualis angulo α β δ, iam duo recti sunt. At si non excitetur (per 11 propositionem) à dato signo β lineæ γ δ, ad angulos rectos linea β ε, anguli igitur γ β ε, & ε β δ sunt recti. At quoniā angulus γ β ε, duobus γ β α, α β ε angulis est æqualis, cōmunis ponatur angulus ε β δ: igitur anguli γ β ε, ε β δ, tribus angulis, hoc est γ β α, α β ε, ε β δ sunt æquales. Rursus quoniā angulus δ β α, duobus δ β ε, ε β α est æqualis, cōmunis ponatur angulus α β γ. igitur anguli δ β α, α β γ, tribus angulis δ β ε, ε β α, α β γ sunt æquales. Ostensum est autem quod anguli γ β ε, ε β δ, eisdem tribus sunt æquales: quæ autem eidem sunt æqualia, (per 1 cōmunem sententiam) & sibi inuicem sunt æqualia, igitur & anguli γ β ε, ε β δ, & anguli δ β α, α β γ sunt æquales. At anguli γ β ε, ε β δ sunt duo recti, & anguli igitur δ β α, α β γ, duobus rectis sunt æquales. Cum igitur recta linea super rectam consistens lineam, angulos fecerit, aut duos rectos, aut duobus rectis æquales efficiet, quod demonstrasse oportuit.
+CAMPANVS. Sint duæ lineæ a b & c, d, se inuicē secantes in puncto e: dico q̃ angulus d e b sit æqualis angulo a e c: & angulus b e c est æqualis angulo a e d. Erūt enim per 13 duo anguli a e c & a e d æquales duob. rectis, itēq̃ duo anguli c e b & d e b æquales duobus rectis per eandem, quare duo primi sunt æquales duobus postremis, eo q̃ omnes recti sunt adinuicē æquales per 4 petitionē, dempto ergo cōmuni angulo, qui est a e d, erit angulus a e c æqualis angulo d e b. Eodem modo probabitur, angulū c e b esse æqualē angulo a e d, quod est propositū.
 
-[Diagram: horizontal line δ β γ with the point β; the perpendicular β ε rising vertically and the oblique line β α rising to the upper right]
+[Diagram: two straight lines a b and c d crossing at point e; labels a and c above, d and b below]
 
-## Eucli. ex Camp. Propositio 14.
+## Eucli. ex Zamb. Theorema 8. Propositio 15.
 
 [Margin]
-14
+15
 [/Margin]
 
-{dropcap:S|lines=?|style=decorated|decoration="foliage"}I duæ lineæ à puncto unius lineæ in diuersas partes exierint, duosq̃ circa se angulos rectos, aut duobus rectis æquales fecerint, illæ duæ lineæ sibi directe coniunctæ sunt, & linea una.
+Si duæ rectæ lineę se adinuicē secuerint, angulos qui circa uertice sunt æquos adinuicē efficient.
 
-CAMPANVS. Sit ut à puncto b lineæ a b, exeant duæ lineæ in oppositas partes, quæ sint b c & b d, & faciant duos angulos qui sint c b a & d b a, æquales duobus rectis: tunc dico quod duæ lineæ c b & d b, sunt sibi inuicem directè cōiunctæ & linea una. Hæc est quasi conuersa prioris. Quod si non fuerint linea una, tūc protrahatur c b in continuū & directū, quæ quia non est linea una cum b d, transibit super eam ut b e, aut sub ea ut b f. Quia ergo super lineā rectam quæ est c b e, cadit linea a b, erūt anguli c b a & e b a æquales duobus rectis per præcedentē, anguli quoq̃ c b a & d b a sunt æquales duobus angulis rectis per hypothesin, erūt duo anguli c b a & e b a æquales duobus angulis c b a & d b a: ergo dempto cōmuni angulo c b a, erit angulus e b a æqualis āgulo d b a, pars toti, q̃d est impossibile. Similiter linea c b protracta, probabis angulū d b a esse æqualem angulo f b a, si forte diceret aduersarius lineam c b protractam cadere infra b d.
+THEON ex Zamb. Duæ rectæ lineæ α β & γ δ, se inuicem secent in signo ε. Dico quod anguli α ε γ, æquales sint angulo δ ε β. Quoniam enim recta linea α ε, super rectā lineā γ δ stetit, angulos efficiēs γ ε α & α ε δ, igitur anguli γ ε α & α ε δ, duobus rectis sunt æquales (per 13 propositionē). Rursus quoniā recta linea δ ε super rectā lineam α ε stetit, angulos efficiens α ε δ & δ ε β, igitur anguli α ε δ & δ ε β, duobus rectis sunt æquales (per eandem 13 propositionē). Ostensum autē est, quod anguli γ ε α & α ε δ, duobus rectis sunt æquales: anguli igitur γ ε α & α ε δ, angulis α ε δ & δ ε β, sunt æquales. Cōmunis auferatur α ε δ, reliquus igitur angulus γ ε α, reliquo angulo δ ε β, est æqualis. Similiter ostendetur quod & anguli γ ε δ & α ε β, sunt æquales. Si duæ igitur rectæ lineæ se adinuicē secuerint, angulos qui circa uertice sunt, adinuicē æquales efficient, quod oportuit demonstrare.
 
-[Diagram: from the point b the line b a rises vertically, the line b c goes horizontally to the right, and three lines b e, b d, b f descend to the left one below the other]
+[Diagram: two straight lines α β and γ δ crossing at point ε; labels α and γ above, δ and β below]
 
-## Eucli. ex Zamb. Theorema 7. Propositio 14.
+## Eucli. ex Camp. Propositio 16.
 
 [Margin]
-14
+16
 [/Margin]
 
-Si ad aliquam rectam lineam adq̃ in ea signum duæ rectæ lineæ non ad easdē partes ductæ, * utrobiq̃ duobus rectis angulos æquales fecerint, ipsæ in directum rectæ lineæ adinuicem erunt.
+SI quodlibet laterū trianguli directe protrahatur, faciet angulū extrinsecū utroq̃ angulo trianguli sibi intrinsecus opposito maiorē.
+
+CAMPANVS. Sit ut triangulia b c, latus a b protrahatur usq̃ ad d, dico q̃ angulus d b c, maior est utroq̃ duorū angulorū intrinsecorū sibi oppositorum, qui sunt b a c & b c a. Diuidam enim per 10 propositionē, lineam c b per æqualia in puncto e, & protrahā a e usq̃ ad f, ita ut e f fiat æqualis a e, & protrahā lineam f b. Intelligo duos triangulos, c e a & b e f, & quia duo latera a e & e c triāguli a e c sunt æqualia duobus lateribus f e & e b trianguli f e b, & angulus e unius est æqualis angulo e alterius per præmissam quia anguli cōtra se positi, erit per 4 propositiōe angulus e c a, æqualis angulo e b f, & ideo angulus e b d, maior erit angulo b c a. Similiter quoq̃ probabitur q̃d est maior angulo c a b. Nam diuidam a b per æqualia in puncto g, per 10 propositionē & protrahā lineam g h, æqualē lineæ c g per 3 propositionē, postea protrahā h b k, eruntq̃ duorū triangulorū qui sunt a g c & b g h, duo latera a g & g c primi, æqualia duobus lateribus b g & g h secundi, & angulus g unius, & angulus g alterius per 15: ergo per 4 angulus g a c, est æqualis angulo g b h, quare per 15 & angulo k b d. Et quia angulus c b d est maior angulo k b d, erit maior angulo b a c, quod est propositum.
+
+[Diagram: triangle a b c with side a b produced to d; e midpoint of c b with line a e f drawn through, g midpoint of a b with line c g h drawn through, and h b produced to k, forming a star-like configuration; labels d, b, f, h, g, e, a, c]
+
+## Eucli. ex Zamb. Theorema 9. Propositio 16.
 
 [Margin]
-printed note, partly legible: ipsius
+16
 [/Margin]
 
-THEON ex Zamb. Ad aliquam enim rectam lineam α β, signumq̃ in ea β, duæ rectæ lineæ β γ & β δ non ad easdem partes ductæ, * utrobiq̃: angulos α β γ, α β δ duobus rectis æquos efficiant. Dico quod ipsi β γ, recta linea β δ in directum est constituta. Si enim ipsi γ β recta linea β δ non est in directum, sit ipsi γ β recta linea β ε in directum constituta. Quoniam igitur recta linea α β super rectam lineam γ β ε stetit, (anguli igitur α β γ & α β ε, duobus rectis sunt æquales (per 13 propositionē.) At anguli α β γ & α β δ, duobus rectis sunt æquales: anguli ergo γ β α, α β ε, angulis γ β α, & α β δ sunt æquales. Communis auferatur angulus α β γ, reliquus igitur angulus α β ε, reliquo angulo α β δ est æqualis, minor maiori, quod est impossibile. Linea igitur β ε, in directum minime est constituta. Similiter quoq̃ ostendemus, quod nec aliqua præter lineam β δ. In directum igitur est ipsi γ β, linea β δ. Si ad aliquam igitur rectam lineam, ad signumq̃ eius quæ in ea est, duæ rectæ lineæ non ad easdem partes ductæ, utrobique angulos duobus rectis æquales fecerint, in directum ipsæ & eæ lineæ sibi inuicem erunt, quod demonstrasse oportuit.
+Omnis trianguli uno latere producto, exterior angulus utroq̃ interiore & ex opposito, maior est.
 
-[Margin]
-printed note, partly legible: ipsius
-[/Margin]
+THEON ex Zamb. Sit triangulū α β γ, & producatur ipsius latus unū, scilicet illud β γ usq̃ in δ. Dico quod exterior angulus α γ δ, maior est utroq̃ interiore & ex opposito cōstituto, hoc est angulo γ α β & α β γ. Secētur linea α γ bifariā (per 10 propositionē) in signo ε, & protrahatur linea β ε (per 1 postulatū) & extendatur in signū ζ: collocaturq̃ ipsi β ε (per 3 propositionē) æqualis linea ε ζ, & cōnectatur (per 1 postulatū) ζ γ, & extendatur (per 2 postulatū) linea α γ usq̃ in η. Quoniam igitur α ε æqualis est ipsi ε γ, & β ε ipsi ε ζ, duæ igitur α ε & ε β, duabus γ ε & ε ζ sunt æquales altera alteri, & angulus α ε β (per 15 proposi
 
-[Diagram: horizontal line γ β δ with the point β; the line β α rising vertically and the oblique line β ε rising from β towards the upper right between α and δ]
+[Diagram: triangle α β γ with side β γ produced to δ; ε midpoint of α γ, line β ε produced to ζ, ζ γ joined, α γ produced to η; star-like configuration with labels α, β, γ, δ, ε, ζ, η]
 
-<!-- Catchword: Euclides -->
+<!-- Signature: b 3 -->
+
+<!-- Catchword: tionem) -->

@@ -1,37 +1,33 @@
-<!-- Running title: LIBER SECVNDVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 49 -->
+<!-- Page number: 50 -->
 
-## Eucli. ex Camp. Propositio 11.
+CAMPANVS. Sit triangulus a b c, habens angulum a, obtusum. A pūcto c, ducatur linea perpendicularis ad lineam b a, quæ necessario cadet extra triangulum a b c: alioqui angulus obtusus esset rectus aut minor recto per 16 primi: sit ergo c d perpendicularis super lineam a b productam usque ad d. Dico q̃ quadratum lateris b c quod subtenditur angulo obtuso, tāto maius est duobus quadratis duarum linearum a b & a c ambientibus ipsum angulum obtusum, quantum est illud quod fit ex b a in a d bis. (Potētia enim lineæ, respectu quadrati sui est, unde tantum dicitur posse linea quælibet: quātum in se ducta producit.) Erit enim per 4 huius, quadratum b d, æquale duobus quadratis duarum linearum b a & a d, & duplo eius quod fit ex b a in a d. Et quia quadratum b c per penultimam primi est æquale quadrato b d & quadrato d c: ipsum erit æquale quadratis trium linearū b a, a d, & d c, & duplo eius quod fit ex b a in a d. Sed per eādem, quadratū a c, est æquale quadratis a d & d c. ergo quadratum b c, est æquale quadratis duarum linearum b a & c a: & duplo eius quod fit ex b a in a d. Quare b c tanto amplius potest duabus lineis b a, a c, quantum est duplum eius quod fit ex b a in a d. Iam enim diximus quod tantum dicitur posse linea quælibet: quantum in se ducta, producit, quod est propositum.
 
-[Margin]
-11
-[/Margin]
+[Diagram: obtuse-angled triangle with b at the left, c at the right, a and d at the top; the perpendicular from c meets the extension of b a at d]
 
-DAtam lineam sic secare, ut quod sub tota & una portione rectangulum cōtinetur, æquum sit ei quod fit ex reliqua sectione quadratum.
-
-CAMPANVS. Sit linea data a b, quā uolumus sic diuidere: ut quod ex tota & una eius portione producitur, æquū sit quadrato alterius. Describo quadratū ipsius a b, quod sit a b c d. Latus b d diuido per æqualia in e, & produco a e, & e b produco usq̃ ad f, ita q̃d e f sit æqualis a e. Et ex b f portione extrinseca, describo quadratū quod ex latere a b resecat portionem æqualē b f, quæ sit b h: & quadratū descriptū sit b f h g. Dico quod a b sic est diuisa in puncto h: quod illud quod fit ex tota a b in eius portionem h a, est æquale quadrato h b. Produco g h usque ad k: quæ erit æquidistans a c. Quia ergo linea d b diuisa est per æqualia in e, & est sibi addita linea b f: erit per 6 huius quod fit ex d f in b f cum quadrato e b, æquale quadrato e f: quare & quadrato e a: quare per penultimam primi, quadratis duarum linearum e b & b a. Ergo dempto ab utrisque quadrato lineæ e b: erit quod fit ex d f in b f & ipsum est superficies d g æquale quadrato lineæ a b. Ergo dempto ab utrisque parallelogrāmo h d: erit quadratum h f æquale parallelogrāmo h c. Et quia quadratum h f est quadratum lineæ h b, & parallelogrammum h c producitur ex c a quæ est æqualis a b in a h, patet factum esse propositum. ¶ Ad hoc autem faciendum in numeris, non labores, quia impossibile est numerum sic diuidi, ut hic undecima proponit, sicut scies, sexti 16 te docente.
-
-[Diagram: square with c and a at the top, k and h at the sides, d, e, b, f along the bottom, g at the right; a diagonal line runs from a down to e]
-
-## Eucli. ex Zamb. Problema 1. Propositio 11.
-
-[Margin]
-11
-[/Margin]
-
-Datam rectā lineā secare: ut quod sub tota & altero segmēto cōprehensum rectangulum, æquum sit ei quod fit ex reliquo segmento, quadrato.
-
-THEON ex Zamb. Sit data recta linea α β: oportet autem ipsam α β secare, ut quod sub tota & altero segmento comprehensum rectangulum, æquum sit ei quod fit ex reliquo segmēto, quadrato. Describatur (per 46 primi) ex α β, quadratum α β γ δ, & secetur (per 10 primi) bifariam, in ε, signo, & cōnectatur β ε. Et extendatur (per 2 postulatum) γ α, in ζ, & ponatur (per 3 primi) ipsi β ε æqualis ε ζ. Et (per 46 primi) ex α ζ describatur quadratum ζ η, & extendatur (per 2 postulatum) η θ in κ. Dico quod α β, secatur in θ, ut quod sub α β & β θ, comprehensum rectangulum, æquum sit ei quod fit ex α θ, quadrato. Quoniam enim recta linea α γ, secta est bifariam in ε, adiacet autem ei α ζ, igitur (per 6 secundi) quod sub γ ζ & ζ α, comprehensum rectangulum, una cum eo quod fit ex α ε, quadrato, æquum est ei quod fit ex ζ ε, quadrato, æqualis autem est ζ ε ipsi ε β: rectangulum igitur comprehensum sub γ ζ & ζ α, una cum eo quod ex α ε, ei quod ex β ε est æquale, quadrato: æquum est ei quod fit ex α β, quadrato. Sed ei quod ex β ε, æqualia sunt (per 47 primi) ea quæ fiunt ex β α & α ε, quadrata: rectus enim est angulus qui ad α. Quod igitur est sub γ ζ, ζ α, cum eo quod fit ex α ε, æquum est eis quæ ex β α & α ε sunt. Cōmune auferatur id quod ex α ε, reliquum igitur rectangulum comprehēsum sub γ ζ & ζ α: æquum est ei quod ex α β, quadrato. Et id quidem quod sub γ ζ & ζ α, est ipsum ζ κ, æqualis enim est α ζ, ipsi ζ η: id autem quod fit ex α β, ipsum α δ. Igitur ζ κ æquale est α δ. Cōmune auferatur α κ, reliquum igitur, ipsū ζ θ, ipsi θ δ, est æquale. Est autem θ δ, id quod sub α β & β θ, æqualis enim est α β, ipsi β δ. At ζ θ, id quod ex α θ. Rectangulum igitur comprehensum sub α β & β θ, æquum est ei quod ex θ α, quadrato. Data igitur recta linea α β, in θ, dissecta est, ut rectangulum sub α β & β θ, comprehensum, sit ei quod fit ex α θ, quadrato, quod fecisse oportuit.
-
-[Diagram: square α β γ δ with a smaller square on α ζ adjoined above, points ε, ζ, η, θ, κ marking the construction; a diagonal line runs across the figure]
-
-## Eucli. ex Camp. Propositio 12.
+## Eucli. ex Zamb. Theorema 11. Propositio 12.
 
 [Margin]
 12
 [/Margin]
 
-IN his triangulis qui obtusum habent angulum, tanto ea quæ obtusum subtendit angulum, ambobus reliquis lateribus quæ obtusum continent angulum amplius potest, quātum est quod continetur bis sub uno eorum atque ea quæ ei directe iuncta ad obtusum angulum, à perpendiculari extra deprehenditur.
+In obtusiangulis triangulis quod ab obtusum angulum subtendente latere fit quadratum, maius est eis quæ fiunt ab obtusum angulum comprehendentibus lateribus, quadratis, comprehenso bis sub uno eorum quæ sunt circa obtusum angulum in quod protractum cadit perpendicularis, & assumpto extrinsecus sub perpendiculari ab obtusum angulum
 
-<!-- Signature: e Eucli. -->
+THEON ex Zamb. Sit obtusi anguli triangulū α β γ, obtusum habēs angulū β α γ, & ducatur ex β signo, in γ α, productā (per 12 primi) perpēdicularis β δ. Dico quod quadratum quod ex β γ, maius est eis quæ fiunt ex β α, & α γ, quadratis: bis sub γ α, & α δ, comprehenso rectangulo. Quoniam enim recta linea γ δ, secta est utcūq̃ in α, signo: igitur (per 4 secundi) quod ex γ δ, æquum est eis quæ fiunt ex γ α, & α δ, quadratis, & bis sub γ α & α δ comprehenso rectangulo. Commune ponatur id quod ex δ β. Ea igitur quæ sunt ex γ δ & δ β, æqua sunt eis quæ fiunt ex γ α & α δ & δ β, quadratis: & bis sub γ α & α δ, comprehenso rectangulo. Sed eis quæ sunt ex γ δ & δ β: æquum est id quod ex γ β, (per 47 primi) rectus enim est angulus qui ad δ. Eis autem quæ fiunt ex α δ & δ β, (per eandem) æquum est id quod fit ex α β. Quadratum igitur quod fit ex γ β, æquum est eis quæ fiunt ex γ α & α β, quadratis (per eandem) & bis sub γ α & α δ, comprehenso rectangulo. Quare quadratum quod fit ex γ β, eis quæ fiunt ex γ α & α β, maius est: bis sub γ α & α δ, comprehenso rectangulo. In amblygonijs igitur triāgulis quod ab obtusum angulum subtendente latere fit quadratū: maius est & quæ sequuntur reliqua: quod ostendere oportuit.
+
+[Diagram: obtuse-angled triangle with apex β at the upper right and base points δ, α, γ; the perpendicular β δ falls outside the triangle on the extension of γ α]
+
+## Eucli. ex Camp. Propositio 13.
+
+[Margin]
+13
+[/Margin]
+
+OMnis oxygonij tanto ea quæ acutum respicit angulum ambobus lateribus angulum acutum continentibus minus potest: quantum est quod bis continetur sub uno eorum cui perpendicularis intra superstat, eaq̃ sui parte quæ perpendiculari anguloq̃ acuto interiacet.
+
+CAMPANVS. Quod hic proponitur de latere subtenso alicui angulo acuto, in triangulo oxygonio: ueritatem habet de latere subtenso cuilibet angulo acuto in omni triangulo, siue fiat orthogonius, siue amblygonius, siue oxygonius. Sit ergo in triangulo a b c, quicunque triangulus fuerit: angulus c acutus, qui si fuerit oxygonius, ducatur perpendicularis ab quouis angulorum a uel b, ad quamuis basin b c uel a c: quia cum sic fuerit: semper cadet perpendicularis intra triāgulum. Si autem sit amblygonius aut orthogonius: ab angulo obtuso uel recto ducatur perpendicularis ad latus oppositum, quam manifestum est cadere intra triangulum. Et, ut simpliciter dicam, cum in omni triāgulo sint duo acuti anguli, necessario erit alter
+
+[Diagram: triangle with apex a and base b c, perpendicular a d drawn from a to point d on the base]
+
+<!-- Catchword: reli -->

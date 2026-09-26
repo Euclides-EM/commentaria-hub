@@ -1,27 +1,43 @@
-<!-- Running title: GEO. ELEMEN. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Page number: 316 -->
+<!-- Page number: 317 -->
 
-potentia incommensurabilis toti subsistens, & cum tota efficiens conflatū ex ipsarum quadratis medium, & quod bis sub ipsis medium, & insuper incommensurabile conflatum ex ijs quæ ab ipsis, ei quod bis sub ipsis.
+## Ex Zamberto. Apotomarum Diffinitiones.
 
-THEON ex Zãb. Esto cū medio mediū totū efficiens α β, congruēs autem illi sit β γ, ipsæ igitur α γ, γ β. potentia sunt incommensurabiles, efficientes conflatū ex ipsarū quadratis mediū, & quod bis sub ipsis α γ, γ β, mediū, insuper & quæ ex α γ, γ β, quadrata, incōmensurabilia ei quod bis sub α γ, γ β. Dico quod alia ipsi α β, nō cōgruit, cū tota efficiēs proposita. Quod si poßibile est, congruat β δ, ut & α δ, δ β, potētia sint incōmensurabiles efficiētes quæ ex α δ, δ β, quadratis simul mediū, & quod bis sub ipsis α δ, δ β, mediū, & insuper quæ ex α δ, δ β, incōmēsurabilia ei quod bis sub α δ, δ β. Exponaturq̃ ratiōalis ε ζ. Et eis quidē quæ ex α γ, γ β. æquū ad ipsam ε ζ, cōparetur (per 45 primi,) ε η, latitudinē efficiēs ε μ, ei aūt quod bis sub β γ, γ β{printer-error-correction:α γ, γ β}, æquū auferatur (per 44 primi) θ η, latitudinē efficiens θ μ. Reliquū igitur quod ex α β, (per 7 secūdi) æquū est ipsi ε λ, ipsa igitur α β, ipsum ε λ potest. Rursus eis quæ ex α δ, δ β, æquū ad ipsam ε ζ cōparetur per 44 primi,) ε ι, latitudinem efficiens ε ν. Est autem quod ex α β, æquum ipsi ε λ. Reliquum igitur quod bis sub α δ, δ β, æquum est ipsi θ ι. Et quoniā conflatum ex ijs quæ ex α γ β{printer-error-correction:α γ, γ β}, medium est, ac ipsi ε η, æquale, medium igitur est & ε η, Et ad rationalem comparatur ε ζ, latitudinem efficiens ε μ, rationalis igitur est (per 22 decimi ε μ, & ipsi ε ζ, longitudine incommensurabilis. Rursus quoniam quod bis sub α γ, γ β, mediū est & ipsi θ η æquale, medium igitur est θ η. Et ad ipsam rationalē ε ζ apponitur, latitudinem efficiēs θ μ, rationalis igitur est θ μ, & ipsi ε ζ longitudine incommensurabilis. Et quoniā incōmensurabilia sunt quæ ex α γ, γ β, ei quod bis sub α γ, γ β, incommensurabile igitur est ε η, ipsi θ η, incommensurabilis igitur est & ε μ, ipsi μ θ longitudine, & ambæ rationales sunt. Ipsæ igitur ε μ, μ θ, potentia tantū sunt cōmensurabiles. Igitur ipsa ε θ, apotome est. Congruens autē ei, est θ μ. Similiter iam ostendemus quod ε θ, rursus apotome est. congruens autem ei est θ μ{printer-error-correction:θ ν}. Apotomæ igitur ipsi alia & alia cōgruit potentia tantum toti subsistens commensurabilis, quod (per 79 decimi) impoßibile esse ostendimus. Ipsi igitur α β, alia recta linea non congruit. Ipsi igitur α β, una recta linea tantum congruit, potentia tantum toti subsistens incommensurabilis, & cum tota efficiens quæ ex ipsis quadratis simul medium, & quod bis sub ipsis. Efficiēti igitur cum medio medium totum, & quæ sequuntur reliqua. Quod erat ostendendum.
+1 Siquidem tota expositæ rationali longitudine cōmensurabilis fuerit, appellatur apotome prima. 2 Si uero congruens commensurabilis fuerit, longitudine expositæ rationali, secunda appellatur apotome. 3 Si autem neutra commensurabilis fuerit expositæ rationali longitudine, tertia appellatur apotome. 4 Si quidem tota commensurabilis fuerit expositæ rationali longitudine, appellatur apotome quarta. 5 Si uero congruens, quinta. 6 Si autem neutra, sexta.
 
-[Diagram: horizontal line with points α, β, γ, δ marked above it; below, a rectangle divided by vertical lines into compartments, with points ε, θ, μ, η along the top side and ζ, λ, ν, ι along the bottom side]
+### Commune initium triū priorum diffinitionū.
 
-## Ex Campano. Residuorum diffinitones.{printer-error-correction:diffinitiones}
+Supposita rationali & apotomæ, siquidem tota, congruente maius potuerit eo quod fit ex sibi lōgitudine cōmēsurabili
 
-1 Si fuerit idem totū positæ rationali lineæ in lōgitudine commensurabile, quod positum erat, dicetur residuum primum.
+### Commune trium initium posteriorum diffinitionum.
 
-2 Si uero linea adiuncta, positæ rationali communicet in longitudine, dicetur residuum secundū. 3 Quod si fuerit utraq̃ rationali positæ in longitudine incommensurabilis, uocabitur residuum tertium. 4 Si eadem tota positæ rationali cōmunicet in longitudine, nūcupabitur residuum quartum. 5 Si uero linea adiuncta, positæ rationali, communicet in longitudine, uocabitur residuum quintum.
+Rursus supposita rationali & apotomæ, si tota maius potuerit cōgruente eo quod fit ex sibi longitudine incommensurabili.
 
-### Commune initium trium priorum diffinitionum.
+## Eucli.ex Camp. Propositio 80
 
-Positis duabus lineis altera rationali altera residuo, adiectaq̃ ipsi residuo secundū eius terminum, si fuerit totum compositū potentins{printer-error-correction:potentius} linea adiecta, in quadrato lineæ ipsi toti cōmunicantis in longitudine.
+[Margin]
+80
+[/Margin]
 
-### Commune initium trium posteriorum diffinitionum.
+REsiduum primum inuestigare.
 
-Positis duabus lineis altera rationali, altera residuo, adiectaq̃ ipsi residuo secundū eius terminum, si fuerit totum compositū potentius linea adiecta, in quadrato lineæ ipsi toti incommēsurabilis in longitudine.
+CAMPANVS Ab inuentione omniū specierum residui, facile nos absoluat inuentio per ordinem omnium specierum binomij. Nam in qualibet specie binomiorū si minor portio abscindatur de maiori, linea reliqua erit residuum similis speciei ut patet ex diffinitionibus tam binomiorum quàm residuorum. Proprijs tamen inuentionibus residuorum insistentes: sic inquiramus primum. Sit linea a rationalis posita, cui commensurabilis in longitudine sumatur b c, sitq̃ e numerus quadratus diuisus in f non quadratum & in quadradratum{printer-error-correction:quadratum} g. sitque proportio quadrati lineæ b c ad quatum{printer-error-correction:quadratum} lineæ c d, sicut e ad f, eritq̃ per ultimam partem septimæ, c d rationalis in potentia tantum. Cum itaque sit c b potentior c d in quadrato lineæ sibi communicantis id{printer-error-correction:in} longitudine quod patet in explanatione binomij primi, cōstat ex diffinitione lineam b d esse residuum primum.
 
-6 Quod si fuerit utraque rationali positæ in longitudine incommensurabilis, appellatur residuū sextum.
+[Diagram: four horizontal lines: line a; line b c with intermediate point d near b; shorter line e; dotted number lines f and g]
 
-<!-- Catchword: Ex Zam- -->
+## Eucli.ex Zamb. Problema 19 Propositio 85
+
+[Margin]
+85
+[/Margin]
+
+Inuenire primam apotomen.
+
+THEON ex Zãb. Exponatur rationalis α, & ipsi α longitudine commensurabilis esto β η, rationalis igitur est β η. Exponanturq̃ bini quadrati numeri δ ε, ε ζ, quorum exceßus δ ζ non sit quadratus. Igitur (per correlariū 1 lemmatis 28 decimi.) ε δ, ad δ ζ, rationem non habet quam numerus quadratus ad quadratū numerum. Fiatq̃ (per correlariū 6 decimi) sicut ε δ, ad δ ζ, sic quod ex β η quadratū ad id quod ex η γ, quadratū, cōmēsurabile igitur est quod ex β η, ei quod ex η γ. Rōnale aūt quod ex β η, rationale igitur & quod ex η γ. Rationalis igitur est (per diffinitionem, & η γ. Et quoniā ε δ ad δ ζ rōnem nō habet quā quadratus nūerus ad quadratū nūerū. neq̃ igitur quod ex β η, ad η γ rationē habet quā quadratus numerus ad quadratū numerum, Incommensurabilis igitur est β η ipsi η γ longitudine, utræque autem sunt rationales. Ipsæ igitur β η, η γ, (per 9 decimi) rationales sunt potentia commensurabiles. Igitur ipsa β γ, apotome est (per 73 decimi. Dico quod & prima, Quo namque maius est quod ex β η, eo quod ex η γ, sit quod ex θ. Et quoniam sicut ε δ ad δ ζ, sic est quod ex β η, ad id quod ex η γ, conuertendo igitur (per correlarium 18 quinti) sicut δ ε, ad ε ζ, sic quod ex η β ad id quod ex θ, At δ ε ad ε ζ, rationē habet, quā quadratus nūerus ad quadratū numerū, uterq̃ enim quadratus est. Quod igitur ex η β, ad id quod ex θ, rationem habet quam quadratus numerus ad quadratum numerum, commēsurabilis igitur est β η ipsi θ longitudine, & β η ipsa η γ maius potest, eo quod ex θ, ipsa igitur β η ipsa η γ maius potest eo quod ex sibi longitu-
+
+[Diagram: four horizontal lines: rational line α (label printed above the middle of the line); line with points β, γ, η marked above; shorter line θ; dotted number line with points δ, ζ, ε (the numbers δ ε and ε ζ)]
+
+<!-- Signature: D 3 -->
+
+<!-- Catchword: dine -->

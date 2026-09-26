@@ -1,29 +1,41 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER PRIMVS. -->
 
-<!-- Page number: 10 -->
+<!-- Page number: 11 -->
 
-## Eucli ex Zamb. Theorema primum. Propositio 4.
-
-[Margin]
-4
-[/Margin]
-
-Si duo triangula duo latera duobus lateribus æqualia habuerint alterum alteri, & angulum angulo æqualem sub æqualibus rectis lineis contentum, & basin basi æqualem habebunt, & triangulum triangulo æquū erit, ac reliqui anguli reliquis angulis æquales erunt alter alteri, sub quibus æqualia latera subtenduntur.
-
-THEON ex Zamb. Sint duo triangula α β γ, δ ε ζ, duo latera uidelicet α β, α γ, duobus lateribus, hoc est, δ ε, δ ζ æqualia habentia alterum alteri, scilicet α β, ipsi δ ε, & α γ, ipsi δ ζ, & angulum β α γ, angulo ε δ ζ æqualem. Dico quod & basis β γ, basi ε ζ est æqualis, & triangulū α β γ, triangulo δ ε ζ æquum erit: & reliqui anguli reliquis angulis æquales erunt alter alteri sub quibus æqualia latera subtenduntur, hoc est, α β γ ipsi δ ε ζ, & α γ β, ipsi δ ζ ε. Congruente namq̃ triangulo α β γ ipsi δ ε ζ triangulo, ac posito signo α super δ, & recta linea α β super δ ε, congruit & signum β signo ε, ex eo quia linea α β ipsi δ ε est æqualis (per hypothesin). Et congruente linea α β ipsi δ ε lineæ, congruit & linea recta α γ ipsi lineæ δ ζ: quoniam angulus β α γ, ipsi ε δ ζ est æqualis (per hypothesin): signum igitur γ, ipsi signo ζ congruit. Rursus quoniam γ signum ipsi ζ signo congruit, at β signū ipsi ε signo congruit: basis igitur β γ, basi ε ζ congruit. Si enim congruente β ipsi ε, & γ ipsi ζ, basis β γ, basi ε ζ non congruit: duæ rectæ lineæ superficiem concludunt, quod (per 10 communem sententiam) est impossibile. Congruit ergo basis β γ, basi ε ζ, & ei est æqualis. Quare totum triangulum α β γ, toti triangulo δ ε ζ congruit (per 8 coummunem sententiam), & ei est æquale. Et reliqui anguli (per eandem) reliquis angulis congruent, & eis erunt æquales, hoc est angulus α β γ, angulo δ ε ζ, & angulus α γ β angulo δ ζ ε. Cum igitur bina triangula duo latera duobus lateribus æqualia habuerint alterum alteri, & angulum angulo æquum sub æqualibus rectis lineis contentum: basin quoque basi æqualem habebunt, & triangulum triangulo æquum erit, & reliqui anguli reliquis angulis æquales erunt alter alteri, sub quibus æqualia latera subtenduntur. Quod oportuit demonstrasse.
-
-[Diagram: two tall triangles side by side with Greek vertex labels; the left triangle δ ε ζ with curved lines below its base ε ζ, the right triangle α β γ]
-
-## Eucli. ex Camp. Propositio 5.
+## Eucli. ex Zamb. Theorema 2. Propositio 5
 
 [Margin]
 5
 [/Margin]
 
-{dropcap:O|lines=?|style=decorated|decoration="a face"}Mnis trianguli duūm æqualiū laterū angulos qui super basin sunt, æquales esse necesse est. Quod si eius duo latera directe protrahantur, fient quoq̃ sub basi duo anguli inuicē æquales.
+Isoscelium triangulorū qui ad basin sunt anguli, adinuicem sunt æquales. Et productis æqualibus rectis lineis, qui sub basi sunt anguli, adinuicem æquales erunt.
 
-CAMPANVS. Sit triangulus a b c, cuius latus a b sit æquale lateri a c. Dico quod angulus a b c, est æqualis angulo a c b. Quod si protrahantur a b & a c usq̃ ad d & e, fiet angulus d b c æqualis angulo e c b. Quod sic probatur. Protractis a b & a c, ponam per tertiam propositionem, lineam a d æqualem lineæ a e, & protraham lineas e b, d c. Et intelligam duos triangulos a b e & a c d, quos probabo esse æquales, & adinuicem æquilateros & æquiangulos. Sunt enim duo latera a b & a e, trianguli a b e, æqualia duobus lateribus a c & a d. trianguli a c d, & angulus a, cōmunis utriq̃: ergo per præmissam, basis b e est æqualis basi d c, & angulus e æqualis angulo d, & angulus a b e est æqualis angulo a c d. Item intelligo duos triangulos d b c & e c b, quos similiter probabo esse æquilateros & æquiangulos. Nam duo latera b d & d c trianguli d b c, sunt æqualia duobus lateribus e c & e b trianguli e c b, & angulus d, angulo e: ergo per præmissam basis basi, & reliqui anguli reliquis angulis: ergo angulus d b c est æqualis angulo e c b (Et est secundum propositum, scilicet, quod anguli sub basi sunt æquales) & angulus d c b, est æqualis angulo e b c. Sed totus angulus a b e, est æqualis toti a c d, ut probatum fuit supra: ergo angulus a b c residuus, est per 3 cōmunem animi conceptionem æqualis angulo a c b residuo, quorum uterque est supra basin. Et hoc est primum propositum.
+THEON ex Zamberto. Sit triangulū isosceles α β γ, æquum habens latus α β, lateri α γ, & producantur, (per 2 postulatū) in rectum ipsis α β, α γ, rectæ lineæ β δ, γ ε. Dico quod angulus α β γ, angulo α γ β est æqualis: & angulus δ β γ, angulo ε γ β. Capiatur in linea β δ, contingens signū, sitq̃ illud ζ, & auferatur (per 3 propositionē) à linea α ε maiore, ipsi α ζ minori æqualis, sitq̃ illa α η, & connectantur ζ γ & η β. Quoniam α ζ, ipsi α η, & α β ipsi α γ sunt æquales: duæ igitur ζ α, α γ, duabus η α, α β, sunt æquales altera alteri, & cōmunem angulum cōtinent. Basis igitur ζ γ, basi η β (per 4 propositionē) est æqualis: & triangulū α ζ γ, triangulo α η β erit æquale, & reliqui anguli reliquis angulis alter alteri æquales erunt, sub quibus latera æqualia explicantur: hoc est angulus α ζ γ, angulo α η β, & angulus α γ ζ, angulo α β η. Et quoniā tota α ζ, toti α η est æqualis, quarum linea α β, lineæ α γ est æqualis: reliqua igitur β ζ, reliquæ γ η (per 3 cōmunem sententiam) est æqualis. Ostensum est autem, quod ζ γ ipsi η β est æqualis. Duæ autem β ζ, ζ γ, duabus γ η, η β æquales sunt altera alteri: & angulus β ζ γ, angulo γ η β (per 4 propositionem) est æqualis: & basis eorum cōmunis β γ. Triangulum igitur β ζ γ, triangulo γ η β, erit æquale: & reliqui anguli reliquis angulis æquales alter alteri erunt, sub quibus æqualia latera subtenduntur: hoc est angulus ζ β γ, angulo η γ β, & angulus ζ γ β, angulo η β γ. Quoniam igitur totus angulus α β η, toti angulo α γ ζ (ut ostensum est) æqualis est, quorū η β γ, angulo ζ γ β, (per 4 propositionem) est æqualis: reliquus igitur angulus α β γ, reliquo α γ β, (per 3 cōmunem sententiā) est æqualis, & ad basin sunt trianguli α β γ. Ostensum est autem, quod angulus ζ β γ, angulo η γ β, est æqualis, & sub basi sunt. Isoscelium igitur triangulorū qui ad basin sunt anguli, æquales sunt adinuicem. Et productis æqualibus rectis lineis, anguli qui sub basi existunt, æquales erunt adinuicem, quod demonstrandum fuerat.
 
-[Diagram: triangle a b c with apex a above; the sides a b and a c produced beyond the base to d at the lower left and e at the lower right, with the crossing lines b e and c d drawn]
+[Diagram: isosceles triangle with apex α above and base β γ; the sides produced beyond the base to δ at the lower left and ε at the lower right, with points ζ and η on the produced sides and the crossing lines ζ γ and η β drawn]
 
-<!-- Catchword: EVCLIDIS -->
+## Eucli. ex Camp. Propositio 6.
+
+[Margin]
+6
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated}I duo anguli alicuius trianguli æquales fuerint, duo quoq̃ latera eius illos angulos respicientia æqualia erunt.
+
+CAMPANVS. Hæc est conuersa præmissæ: quantū ad primā partem ipsius. Sit enim triangulus a b c, cuius duo anguli b & c sunt æquales. Dico quod latus a b, est æquale lateri a c. Si enim non sunt æqualia, erit alterū maius: sitq̃ a b maius, q̃d resecetur ad æqualitatem a c per 3 propositionem, ut superfluū sit a d, ad partē a, & resecetur in puncto d, sitq̃ d b æqualis a c. Intelligo ergo duos triangulos a c b & d b c, quos probabo esse æquilateros & æquiangulos. Sunt enim duo latera d b & b c trianguli d b c, æqualia duobus lateribus a c & c b trianguli a c b, & angulus b æqualis angulo c totali per hypothesin: ergo basis d c est æqualis basi a b per 4 propositionem: & angulus d c b æqualis angulo a b c. Sed angulus a c b, est æqualis angulo a b c per hypothesin: ergo angulus d c b, est æqualis angulo a c b, pars uidelicet toti, quod est impossibile.
+
+[Diagram: triangle a b c with apex a above and base b c; the point d on the side a b, with the line d c drawn inside the triangle]
+
+## Eucli. ex Zamb. Theorema 3. Propositio 6.
+
+[Margin]
+6
+[/Margin]
+
+Si trianguli duo anguli æquales adinuicē fuerint, æquales quoq̃ angulos subtendentia latera æqualia adinuicē erunt.
+
+THEON ex Zamb. Sit triangulum α β γ, æquum habens angulum α β γ, angulo α γ β. Dico quod & latus α β, æquū est lateri α γ. Si enim inæquale est latus α β ipsi lateri α γ, alterū eorum erit maius. Sit maius α β. Et auferatur (per 3 propositionem) ab ipso α β, maiore, ipsi α γ minori æquale, sitq̃ illud, δ β. & protrahatur linea δ γ, (per 1 postulatum). igitur quoniam latus δ β est æquale lateri α γ, communis uero linea β γ: duo igitur δ β, β γ, latera duobus lateribus α γ, γ β sunt æqualia alterum alteri, & angulus δ β γ, angulo α γ β (per hypothesin)
+
+[Diagram: triangle α β γ with apex α above; the point δ on the side α β, with the line δ γ drawn inside the triangle]
+
+<!-- Catchword: Basis -->

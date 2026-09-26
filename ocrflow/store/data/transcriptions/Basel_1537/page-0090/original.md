@@ -1,45 +1,23 @@
-<!-- Running title: LIBER TERTIVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 81 -->
+<!-- Page number: 82 -->
 
-æqualis est angulo qui est in segmento α ε β: rectus etenim & ipse est qui in semicirculo existit (per 31 tertij). Sed angulus β α δ, ei qui ad γ est angulo æqualis est. Descriptum est igitur iterum super α β: segmentum circuli α ε β, capiens angulum æqualē ei qui ad γ est angulo.
+aut per inæqualia. Secet ergo primo per æqualia: eritq̃ per primam partem tertij huius, secās eam orthogonaliter. Ducatur itaq̃ linea f c: eritq̃ per 5 secundi, quod fit ex b e in e d cum quadrato e f: æquale quadrato lineæ f d: quare & quadrato lineæ f c: ergo per penultimā primi, & quadratis duarum linearum f e & e c. Dempto ergo utrinq̃ quadrato e f: erit quod fit ex b e in e d, æquale quadrato lineæ e c: & quia c e est æqualis a e, per 46 primi patet propositum. Quod si b d transiens per centrum, secat a c per inæqualia, à centro f ducatur f g perpendicularis ad a c: eritq̃ per secundam partem tertij huius, a g, æqualis g c: & ducatur linea f c. Eritq̃ per 5 secundi, quod fit ex b e in e d cum quadrato e f (& ideo per penultimā primi cū quadratis duarum linearum f g & g e, propter id quod angulus f g e est rectus) æquale quadrato lineæ d f, & ideo lineæ f c, propter quod per penultimam primi & quadratis duarum linearū f g & g c. Dempto ergo utrinq̃ quadrato lineæ f g, erit quod fit ex b e in e d cum quadrato lineæ g e, æquale quadrato lineæ g c: sed per 5 secundi, quod fit ex a e in e c cum quadrato lineæ g e: est æquale quadrato eiusdē g c. Dempto igitur utrinq̃ quadrato lineæ g e, erit quod fit ex b e in e d, æquale ei quod fit ex a e in e c, q̃d est propositum.
 
-[Diagram: three diagrams side by side for the rectus and obtusus cases: circles α β ε with η at top, base α β bisected at ζ, centre marks, tangent α δ and perpendicular α ε at α; beside each the given angle γ]
+[Diagram: three circles side by side: the first with diameters b d and a c crossing at the centre e; the second with diameter b d, chord a c cut at e, centre f; the third with diameter b d, chord a c cut unequally at e, centre f, perpendicular f g and line f c]
 
-Sed iam esto angulus qui ad γ, obtusus, & constituatur ei iterum ad α β rectam lineam & ad α signum: æqualis angulus β α δ (per 23 primi) sicut habet tertia descriptio, & ipsi α δ: ad angulos rectos (per 11 eiusdem) excitetur α ε, seceturq̃ rursus α β bifariam in ζ (per 10 eiusdem) & ipsi α β ad angulos rectos excitetur ζ η (per 11 eiusdem) & connectatur η β. Et rursus quoniam æqualis est ζ α ipsi ζ β, & communis ζ η: duæ igitur ζ α & ζ η, duabus ζ β & ζ η sunt æquales: & angulus α ζ η (per 4 postulatum) angulo β ζ η est æqualis: basis igitur α η (per 4 eiusdem) basi η β est æqualis. Centro igitur η, spatio autem η α (per 3 postulatum) circulus descriptus, transibit per β, transeat sicut α β ε. Et quoniam ab extremitate α ε dimetientis, ad angulos rectos excitata est α δ: igitur α δ (per correlarium 16 tertij) tangit ipsum circulum: & ab α contactu α β extenditur. Angulus igitur δ α β (per 32 eiusdem) æqualis est angulo α ε β existenti in alterno segmento circuli. Sed angulus β α δ, ei qui ad γ est æqualis. Igitur angulus qui sub α ε β, ei qui ad γ est æqualis. Super data igitur recta linea α β, descriptum est segmentum circuli α ε β capiens angulum æqualem ei qui ad γ est angulo, quod fecisse oportuit.
+Quod si neutra earū transit per centrum, siue altera diuidat alteram per æqualia siue per inæqualia: producam lineam g f e h diametrum circuli transeuntem per punctum sectionis earum. Et si altera diuidat alteram per æqualia ut b d ipsam a c, tunc g h diuidit etiam a c per æqualia: ergo orthogonaliter per tertiam huius: ergo per secundum modum huius conclusionis, quod fit ex g e in e h: æquum est ei quod fit ex a e in e c: & per tertium modum huius quod fit ex g e in e h, æquum est ei quod fit ex b e in e d: ergo quod fit ex a e in e c, æquum est ei quod fit ex b e in e d, quod est propositum. At si neutra diuidat alteram per æqualia, erit per tertium modum huius conclusionis, quod fit ex g e in e h, æquale utriq̃ eorum quæ fiunt ex a e in e c & b e in e d. Quare unum eorum erit æquale alteri, quod est propositum.
 
-## Eucli. ex Camp. Propositio 33.
+[Diagram: two circles side by side, each with g at top and h at bottom joined by the diameter g f e h through the centre f; chords a c and b d crossing at e]
 
-[Margin]
-33
-[/Margin]
-
-A dato circulo, dato angulo æquum angulum capientem portionē abscindere.
-
-CAMPANVS. Sit a b datus circulus, & c datus angulus, uolo ergo à circulo a b, abscindere portionē unam capientem æqualem angulum angulo c. Produco lineam d a e, cōtingentem datum circulum in puncto a, à quo duco in circulum lineam a b, continentem cum linea a e, angulum æqualem angulo c: eritq̃ per 31 huius, portio a b existens à parte lineæ a d: recipiens angulū æqualem angulo c, quod est propositum.
-
-[Diagram: circle with tangent line d a e touching at a (d above, e at right), chord a b drawn into the circle to b; below at right the given angle c]
-
-## Eucli. ex Zamb. Problema. 6. Propositio 34.
+## Eucli. ex Zamb. Theorema.29. Propositio.35.
 
 [Margin]
-34
+35
 [/Margin]
 
-A dato circulo, segmentum abscindere capiens angulum æqualem dato angulo rectilineo.
+Si in circulo duæ rectæ lineæ se ad inuicem secuerint: rectangulum comprehensum sub segmentis unius, æquum est ei quod sub segmētis alterius comprehenditur rectangulo.
 
-THEON ex Zamberto. Esto datus circulus α β γ: datus uero angulus rectilineus qui ad δ: oportet iam ab α β γ circulo, segmētum abscindere capiens angulum æqualem ei qui ad δ est angulo. Ducatur enim (per 17 tertij, linea tangens circulū sitq̃ illa ε ζ, & tangat in β signo. Et constituatur (per 23 primi) ipsi ε ζ rectæ lineæ & in ea signo β, angulo qui ad δ, æqualis angulus ζ β γ. Quoniam igitur circulum α β γ tangit quædam recta linea ε ζ in β, & à contactu ducta est β γ: angulus igitur ζ β γ (per 32 tertij) æqualis est ei qui ad β α γ cōsistenti in alterno segmento. Sed angulus ζ β γ: ei qui est ad δ æqualis. igitur angulus existens in β α γ segmento, æqualis est ei qui est ad δ angulo. A dato igitur circulo α β γ segmentum abscissum est β α γ, capiens angulum æqualem dato angulo rectilineo, quod fecisse oportuit.
+THEON ex Zamberto. In circulo enim α β γ δ: duæ rectæ lineæ α γ & β δ sese inuicem secent in signo ε. Dico quod æquum est rectangulum comprehensum sub α ε & ε γ: rectangulo comprehenso sub δ ε & ε β. Si enim α γ & β δ per centrū sint, ut centrum sit circuli α β γ δ: manifestum est quod cum α ε, ε γ, δ ε & ε β sint æquales, rectangulū comprehensum sub α ε & ε γ, æquum est ei quod comprehenditur sub δ ε & ε β rectangulo. Sint iam α γ, & β δ: non extensæ per centrum: & sumatur centrum circuli α β γ δ: sitq̃ illud ζ (per primam tertij) & ab ipso ζ in α γ & β δ rectas lineas: ducantur (per 12 primi) perpendiculares ζ η & ζ θ: & cōnectantur ζ β, ζ γ, & ζ ε. Et quoniam (per 3 tertij) recta linea quædam per centrum extensa ζ η, quandam rectam lineam non per centrum transeuntem α γ ad angulos rectos secat: etiam bifariam eam secabit: æqualis igitur est α η ipsi η γ. Et quoniam recta linea α γ dissecta est in æqualia in η, in inæqualia autem in ε: rectangulum igitur comprehensum sub α ε & ε γ una cum eo quod fit ex η ε (per 5 secundi) æquum est ei quod fit ex η γ. Cōmune apponatur id q̃d fit ex η ζ. Quod igitur sub α ε & ε γ una cum ijs quæ fiunt ex ε η & η ζ, æquum est eis quæ fiunt ex γ η & η ζ. Sed eis
 
-[Diagram: circle α β γ with inscribed triangle, α at top, γ at right, β at bottom; tangent line ε ζ touching at β; at the left the given angle δ]
-
-## Eucli. ex Camp. Propositio. 34.
-
-[Margin]
-34
-[/Margin]
-
-SI intra circulum duæ rectæ lineæ sese inuicem secent, quod sub duabus partibus unius earum procedit, æquum est ei rectangulo quod sub duabus alterius lineæ partibus continetur.
-
-CAMPANVS. Sint duæ lineæ a c & b d, secātes se in circulo a b c d, super punctum e. Dico quod illud rectangulum quod fit ex a e in e c: æquū est ei quod fit ex b e in e d. Aut enim ambæ lineæ a c & b d transibunt per centrū circuli: aut altera tantū, aut neutra. Quod si ambæ transeāt per centrū, erit e centrū circuli, omnesq̃ quatuor lineæ æquales, quare liquet propositū. Quod si altera earū tantū trāsit per centrū, sit illa b d, centrūq̃ circuli sit f. Aut ergo, b d secabit a c per æqualia
-
-<!-- Catchword: aut -->
+[Diagram: large circle α β γ δ with δ at top right, α at upper left, γ at bottom, β at lower right; the two chords α γ and β δ crossing at ε, with the centre ζ joined to β, γ, ε and the perpendiculars ζ η and ζ θ; beside it a smaller circle with chords α γ and β δ crossing at ε]

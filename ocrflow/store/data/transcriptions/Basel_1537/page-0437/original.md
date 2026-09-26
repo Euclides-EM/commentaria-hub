@@ -1,37 +1,41 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER TERTIVSDECIMVS. -->
 
-<!-- Page number: 426 -->
+<!-- Page number: 427 -->
 
-*sub α β, β γ, una cum eo quod ex α γ, triplum est eius quod ex α γ, diuidendo igitur quod bis sub α β, β γ, eius quod ex α γ duplū est. Quare quod semel sub α β, β γ, æquū est ei quod ex α γ: est uero. Ipsa enim α β, extrema & media ratione secta est in γ.*
+in longitudine ſiue in potẽtia tantũ. Ad concludẽdũ igitur de maiori portione lineæ prædicto modo diuiſæ quod ipſa ſit reſiduũ, ſufficit ponere totã lineã diuiſam eſſe rationalem in potẽtia tantũ, ſed ad concludendũ quoq̃ hoc de minori portione mediãte maiore, ſufficit ponere portionẽ maiorẽ ſimiliter rationẽ in potẽtia tantũ: ad cõcludendũ autẽ hoc de minori portione mediãte tota, neceſſe eſt ponere totam lineã eſſe rationalẽ in longitudine, aut utendũ eſt 2 quartidecimi quemadmodum dictum eſt.
 
-COMPOSITIO. *Quoniā igitur α β, extrema & media rōne in γ, secatur maiusq̃ segmētū est α γ, q̃ igitur sub α β, β γ, ei est æquū quod ex α γ. q̃ bis igitur sub α β, β γ, duplū est eius q̃ ex α γ. Cōponēdo (per 18 q̃nti) q̃ igitur bis sub α β, β γ, una cū eo quod ex α γ, triplū est eius quod ex α γ. Sed quod bis sub α β, β γ, una cū eo quod ex α γ, est ea quæ ex α β, β γ, sunt quadrata. Quæ igitur ex α β, β γ. quadrata, tripla sunt eius quod ex α γ. Quod ostendere oportuit.*
-
-RESOLVTIO quinti theorematis. *Recta enim quædā linea α β, extrema & media ratiōe secetur in γ sitq̃ maius segmentū α γ, & ipsi α γ æqualis ponatur α δ. Dico q̃ δ β, extrema & media rōne secatur in α, & maius segmētū est α β. Quoniā enim δ β extrema & media ratiōe secatur in α, & maius segmētū est α β, est igitur sicut δ β ad β α, sic β α ad α δ. Aequalis aūt est α δ, ipsi α γ. Est igitur sicut δ β ad β α, sic est β α, ad α γ. Cōuertēdo igitur sicut β δ ad δ α, sic α β, ad β γ. diuidēdo igitur & sicut β α ad α δ, sic α γ ad γ β, Aequalis autem est α δ, ipsi α γ, est igitur sicut β α ad α γ. sic α γ ad γ β, est uero: ipsa enim α β, extrema & media ratione secta est in γ.*
-
-[Diagram: horizontal line with points δ, α, γ, β]
-
-COMPOSITIO *Quoniā α β, extrema & media ratione in γ secatur, est igitur sicut β α ad α γ, sic α γ, ad γ β Aequalis autē est α γ, ipsi α δ, est igitur sicut β α ad α δ, sic α γ, ad γ β, cōponēdo (per 18 quinti) sicut β δ, ad δ α, sic α β ad β γ. Cōuertēdo, sicut δ β ad β α, sic β α ad α γ. Aequalis autē est α γ, ipsi α δ, est igitur sicut δ β ad β α, sic β α, ad α δ. Ipsa igitur δ β, extrema & media ratione secatur in α, & maius segmentum est α β. Quod ostendere oportuit.*
-
-## Eucli. ex Camp. Propositio 6
+## Eucli. ex Zamb. Theorema 6 Propoſitio 6
 
 [Margin]
 6
 [/Margin]
 
-OMnis rationalis lineæ secundum proportionem habētem mediū & duo extrema diuisæ, utrāq̃ portionē residuum esse necesse est.
+Si recta linea rationalis, extrema & media ratione ſecta fuerit, utrunque ſegmentorum irrationalis eſt ea quæ appellatur apotome.
 
-CAMPANVS. Sit linea a b secundū solitā proportionē diuisa in pūcto c, rationalis, dico quod utraq̃ portio eius est residuum. Sit enim maior eius portio a c, cui directe adijciatur a d æqualis dimidio totius a b, eritq̃ etiā d a rationalis ex 6 decimi libri & diffinitione. Cōstat autē ex prima huius, quod quadratū lineæ d c, quintuplū est ad quadratū lineæ d a. Igitur linea d c est cōmunicās lineæ d a in potētia ex diffinitione, sed nō in lōgitudine ex ultima parte 7 decimi, quare per 68 decimi linea a c est residuū, cū duæ lineæ c d & d a sint ambæ rōnales potentialiter tantū cōicantes. Et quia iterū si ad lineā rationalē a b adiūgatur superficies æqualis quadrato lineæ a c quæ est residuū, erit latus eius secūdū linea c b ex prima parte 16 sexti, necesse est ex 92 decimi ut linea c b sit residuū primū, quare cōstat propositū.
+THEON ex Zãb. Sit recta linea ratiõalis α β, ſeceturq̃ extrema & media ratiõe in γ, ſitq̃ maius ſegmentũ α γ. Dico q̃ utraq̃ ipſarũ α γ, γ β, irrõnalis eſt ea quæ appellatur apotome. Extẽdatur enim α β, & ponatur ipſius β α. dimidia α δ. Quoniã igitur recta linea α β, extrema & media rõne ſecatur in γ, maioriq̃ ſegmẽto α γ apponitur α δ dimidia exiſtẽs ipſius α β, q̃ igitur ex γ δ, eius quod ex δ α quincuplũ eſt (per 1 decimitertij.) Quod ex γ δ igitur, ad id quod ex δ α, rationem habet quam numerus ad numerum. Quod igitur ex γ δ, ei quod ex δ α, comm̃ſurabile eſt. Quod aũt ex δ α, rõnale eſt, ipſa enim δ α, rõnalis eſt, dimidiũ exiſtẽs ipſius α β rationalis exiſtentis. Rõnale igitur eſt & q̃ ex γ δ, rationalis igitur & γ δ. Et quoniã q̃ ad id quod ex δ α rõnẽ non habet quam quadratus numerus ad quadratũ numerũ, incõmẽſurabilis igitur eſt γ δ ipſi δ α lõgitudine. Ipſæ igitur γ δ, δ α, rationales ſunt potẽtia tantũ cõmẽſurabiles. Igitur α γ, apotome eſt. Rurſus quoniã α β extrema & media ratione ſecatur, & maius ſegmentũ eſt α γ, igitur quod ſub α β, β γ ei quod ex α γ æquũ eſt. Igitur ex α apotome ad α β rationalẽ cõparatũ latitudinẽ primã efficit β γ, quod ex apotome uero ad rationalẽ cõparatũ latitudinẽ, primam efficit apotomen. Igitur γ β, prima eſt apotome (per 97 decimi,) Oſtenſum autẽ eſt, quod & α γ apotome eſt. Si recta igitur linea, & quæ ſequũtur reliqua quod oportuit oſtendere.
 
-[Diagram: horizontal line with points d, a, c, b]
+[Diagram: horizontal line with points δ, α, γ, β]
 
-Amplius autē si lineæ sic diuisæ ut proponitur maior portio fuerit ratiōalis, erit minor residuū. Verbi gratia, sit ut prius, a b diuisa in c. secūdū dictā proportionē, & maior eius portio quæ est a c, sit rationalis, quæ diuidatur per æqualia in d, eritq̃ ex tertia huius quadratum d b, quintuplū ad quadratū d c. At quia d c est ratiōalis cum ipsa sit dimidiū a c, sequitur ut duæ lineæ d b & d c sint ratiōales potētialiter tantū cōicātes. Quare ut prius, linea & b est residuū.
+## Eucl. ex Camp. Propoſitio 7
 
-[Diagram: horizontal line with points a, d, c, b]
+[Margin]
+7
+[/Margin]
 
-At uero si linea rationalis in potētia tantū secūdū proportionē habentē mediū & duo extrema diuidatur, adhuc necesse est ut utraq̃ portio eius sit residuū. Sit enim a b rōnalis in potētia tantū, diuisa sicut pponitur in pūcto c, & sumatur aliqua rōnalis in lōgitudine quæ sit d e, quæ etiā diuidatur in f secundū prædictā proportionē, manifestū est igitur ex 2 quartidecimi quæ sine adminiculo alicuius eorū quæ sequūtur, incōcussa demonstratiōe roboratur q̃ proportio a b ad d e, est sicut a c ad d f, & sicut c b ad f e. Cū ergo a b cōmunicet cū d e in potētia, sequitur ex prima parte 10 decimi q̃ a c cōicet cū d f, & c b cū f e, in potentia. Et quia utraq̃ portio lineæ d e est residuū, ut patet ex prædictis, sequitur ex 98 decimi ut utraq̃ portio lineæ a b sit etiam residuū, sed nō eiusdē speciei, ut ibidē demonstratum est. Quare cōstat, quod omnis lineæ rationalis in lōgitudine uel in potētia tantū, secundū proportionē habentē mediū & duo extrema diuisæ utraq̃ portio est residuū.
+SI quis pentagonus tres æquos angulos habens, fuerit æquilaterus, æquiangulus quoque idem pentagonut{printer-error-correction:pentagonum} eſſe probatur.
 
-[Diagram: two horizontal lines, the upper with points a, c, b, the lower with points d, f, e]
+CAMPA. Sit pẽtagonus a b c d e. æquilaterus, ſintq̃ quilibet tres eius anguli, ſiue cõtinue ſiue incõtinue ſumãtur, adinuicẽ æquales, & ſint prius incõtinue ſumpti, ſintq̃ anguli a, c, d. illi tres qui ponũtur adinuicẽ æquales. Dico totũ pentagonum eſſe æquiangulũ. His angulis ſubtendantur chordæ b e b d, & e c, & totus pentagonus diuidatur in trigonũ, & quadrilaterum cuiusduæ diagonales ſint chordæ duorũ proximorũ æqualiũ angulorum ſecantes ſe intra quadrilaterũ ipſum in puncto f, eritq̃ per 4 primi baſis b e æqualis baſi b d, & angulus a e b æqualis angulo c d b. Cũq̃ per 5 primi angulus b e d ſit æqualis angulo b d e, eo quod duo latera b e & b d ſunt æqualia, erit ex cõmuni ſcientia totalis angulus e æqualis totali angulo d. Similiter pbabis, totalẽ angulũ b eſſe æqualẽ angulo totali c, eſt enim p 4 primi baſis b e æqualis baſi c e, & angulus a b e æqualis angulo d c e, per quintã autẽ eiuſdẽ ſcilicet primi eſt angulus e b c æqualis angulo e c b, igitur ex cõmuni ſcientia totalis angulus b. eſt æqualis totali angulo c. Sint itaq̃ tres anguli b, c, d. cõtinue ſumpti, æquales: & ſic quoq̃ erit pẽtagonus æquiangulus. Erit enim ex 4 primi baſis b d æqualis baſi c e, & angulus c b d angulo d e c. & angulus b d c angulo e c d, quare per 5 primi duæ lineæ c f & f d erũt æquales. cum duo anguli trianguli f c d qui ſunt ad baſin c d, ſint æquales. igitur ex cõmuni ſciẽtia erit linea f b, æqualis lineæ f e. erat enim tota b d, æqualis toti c e. ideoq̃ per 5 primi erit angulus f b e æqualis angulo f e b. Per eandẽ autẽ eſt angulus a b e, æqualis angulo a e b. Itaq̃ per cõmunẽ ſcientiã angulus b totalis. eſt æqualis angulo e totali. tres enim partiales anguli cõponentes unũ, ſunt æquales tribus partialibus cõponentibus aliũ, unuſquiſq̃ ſuo relatiuo. Manifeſtum eſt igitur, quod tres anguli e, b, c, non continue ſumpti in propoſito pentagono ſunt æquales. Cũ autem ſic: demonſtratũ eſt totũ pẽtagonũ eſſe æquiãgulũ, utrolibet ergo modo cõſtat propoſitũ.
 
-CAMPANI annotatio. Et nota, quod prima pars præsentis demōstrationis qua demonstratur quod maior portio lineæ diuisæ secūdū proportionē habentē medium & duo extrema sit residuū, si tota linea sit rationalis, procedit ex sufficientibus siue tota linea ponatur ratiōalis in lōgitudine, siue in potētia tātū. Secūda uero pars qua demonstratur hoc de minori portione quod ipsa quoq̃ sit residuum si tota est rationalis, nō procedit ex sufficiētibus, nisi tota sit rationalis in longitudine. Tertia autē pars qua probatur quod minor portio est residuū, sufficienter procedit, siue maior portio sit ratiōalis
+[Diagram: pentagon a b c d e with diagonals b e, b d, e c crossing at f inside; labels a (top), b (left), e (right), c (lower left), d (lower right), f (centre)]
 
-<!-- Catchword: in lon -->
+## Eucli. ex Zamb. Theorema 7 Propoſitio 7
+
+[Margin]
+7
+[/Margin]
+
+Si quinquanguli æquilateri tres anguli ordinatim, aut non ordinatim. æquales fuerint, æquiangulum erit ipſum quinquangulum.
+
+THEON ex Zamb, Quinquãguli æquilateri α β γ δ ε, tres anguli prius ordinatim qui ad α, β, γ, ſigna, inuicem ſint æquales. Dico quod q̃nquangulũ α β γ δ, æquiãgulũ eſt. Cõnectantur enim α γ, β ε, & ζ δ. Et quoniã binæ γ β, β α, duabus β α, α ε, ſunt æquales altera alteri, & angulus qui ſub γ β α ei qui ſub β α ε eſt æqualis, baſis igitur α γ, (per 4
+
+<!-- Signature: N 4 -->

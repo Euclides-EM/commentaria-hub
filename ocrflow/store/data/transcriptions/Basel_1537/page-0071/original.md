@@ -1,41 +1,49 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER TERTIVS -->
 
-<!-- Page number: 62 -->
+<!-- Page number: 63 -->
 
-Quoniam igitur æqualis est α ε, ipsi ε β, communis uero ε δ, duo igitur latera α ε, ε δ, duobus lateribus β ε, & ε δ, sunt æqualia, & (per hypothesim) basis δ α, basi δ β, est æqualis. Angulus igitur α ε δ, angulo β ε δ, est æqualis (per 8 primi,) uterque igitur angulorum α ε δ, & β ε δ, rectus est. Igitur κ ε, ipsam α β, bifariam secat & ad angulos rectos (per 3 tertij.) Et quoniam si in circulo recta linea quædam, rectam lineam quandam bifariã & ad angulos rectos secet, (per correlarium primæ tertij) in secante est centrum circuli: igitur in κ ε, (per idẽ correlarium) est centrum ipsius circuli α β γ. Ac per hoc etiam in θ λ, est centrum circuli α β γ, & nullũ aliud habent commune κ ε, & θ λ, rectæ lineæ præter δ, signum. Igitur δ, signum, centrum est circuli α β γ. Si intra circulum igitur sumatur signum aliquod, à signo autem ad circulum incidant plures quàm duæ rectæ lineæ æquales: assũptũ signũ, centrũ est circuli, quod ostendere oportebat.
+α β γ, centrum est ipsum κ. Duorum igitur circulorum sese inuicem secantium idem est centrum κ. quod (per 5 tertij) est impossibile. Circulus igitur circulum in pluribus quàm duobus signis non secat, quod fuerat ostendendum.
 
-[Diagram: circle with chords α β and β γ bisected at ε and ζ; lines through δ within, extended to the circumference at κ, θ, λ; radiating lines forming a star pattern]
-
-ALITER idem ostendere. Intra circulum enim α β γ, suscipiatur signũ δ, & ab ipso δ, in circulũ cadant plures quàm binæ rectæ lineæ æquales, δ α, δ β, & δ γ. Dico quod assumptum signum δ, centrum est circuli α β γ. Non enim, sed si possibile est: sit ε, & connexa δ ε, extendatur in ζ, η, signa. Igitur ζ η, dimetiens est ipsius α β γ, circuli Quoniam igitur circuli α β γ, in dimetiente ζ η, assũptum est signum δ, quod ipsius circuli centrum non est, maxima quidem est δ ζ, (per 7 tertij,) maior autem est δ γ, ipsa δ β, & ipsa δ α. Sed & æqualis (per hypothesim) quod est impossibile. Igitur ε, non est centrum circuli α β γ. Similiter ostendemus quod aliud nullum præter δ. Igitur δ, signum, centrum est circuli α β γ.
-
-[Diagram: circle with diameter ζ η through ε and δ; lines from δ to β and γ on the circumference]
-
-## Eucli. ex Camp. Propositio 10.
+## Eucli. ex Camp. Propositio 11
 
 [Margin]
-10
+11
 [/Margin]
 
-SI circulus circulum secet, in duobus tantum locis secare necesse est.
+SI circulus circulum contingat, lineaq́ue per centra eorum transeat, ad punctum contactus eorum applicari necesse est.
 
-CAMPANVS Sint si possibile est, duo circuli, secãtes se in pluribus quàm in duobus locis, super tria puncta a b c, producam lineas a b & a c, quas diuidam per æqualia in pũctis d & e, & producam a puncto e, lineam e f, perpendicularem super lineam a c, & a puncto d, lineã d f, perpendicularem super lineam a b, & secent se duæ lineæ e f & d f, in puncto f, eritq̃ per correlarium primæ huius, pũctum f, centrũ circuli utriusq̃ quod est impossibile per 5 huius.
+CAMPANVS Si enim linea transiens per centra duorum circulorum c e & d e sese contingentium intra uel extra, non uadit ad locum contactus, secet circunferentiam utriusque. sitq̃ a, per primam huius, centrum circuli e d, & b, centrum circuli e c, & ducãtur linea recta a b c d, secans circunferentiã utriusque, & ducantur lineæ a puncto e qui sit locus contactus, ad centra, quæ sint a e, & b e, erũtque in contactu interiori, per 20 primi duæ lineæ e b & b a, longiores e a, quare lõgiores a d, est enim a e, æqualis a d, & quoniam b c est æqualis e b, quoniam b est centrum circuli e c, erit c a longior a d, quod est impossibile. In contactu uero exteriori erũt duæ lineæ a e, & e b, lõgiores a b, quare a d & c b maiores erũt quàm tota a b, quod est falsum.
 
-[Diagram: two circles overlapping in a lens shape; a at the upper left, b at the upper right, d and e within, f below them, c at the lower left]
+[Diagram: two circles touching internally at e above; line a b c d through the centres; lines e a and e b from the point of contact]
 
-## Eucli. ex Zamb. Theorema 9. Propositio 10.
+[Diagram: two circles touching externally at e; line from a through the contact to b; d, c on the line between the centres]
+
+## Eucli. ex Zamb. Theorema 10. Propositio 11.
 
 [Margin]
-10
+11
 [/Margin]
 
-Circulus circulum in pluribus duobus signis non secat.
+Si bini circuli se introrsum adinuicem tetigerint suscipiãturq́ue eorum centra, recta linea coniũgens eorum centra & eiecta, in contactum circulorum cadit.
 
-THEON ex Zamb. Si enim possibile: circulus α β γ, circulũ δ ε ζ, in pluribus signis quàm duobus secet hoc est in β γ, & ζ η, & cõiunctæ bifariã (per 10 primi) secentur in κ, λ, signis. Et (per 11 primi,) ab ipsis κ, λ, ipsis β γ, & ζ η, ad angulos rectos excitatæ κ μ, λ μ, extendantur in α, & μ ν, extendantur in α, & ε, signa Quoniam igitur in circulo α β γ, rectam lineam quandam β γ, bifariam & ad angulos rectos secat (per 3 tertij,) in ipsa α γ, centrum est circuli α β γ. Rursus quoniam in eodem circulo recta linea ν ξ, hoc est μ κ, rectam lineam quandam ζ η, bifariã & ad angulos rectos (per 3 tertij) secat: igitur in ipsa ν ξ, centrũ est circuli α β γ (per eandẽ.) Ostensum autẽ est quod & in α γ. Et circa nullũ aliud cõcurrunt rectæ lineæ α γ, & ν ξ, inuicem, nisi circa o. Igitur o, centrum est circuli α β γ. Similiter quoque ostendemus quod & circuli δ ε ζ, centrum est ipsum o. Duorum igitur circulorum sese adinuicem secantium idem est centrum. quod (per 5 tertij) est impossibile. Circulus igitur: circulum in pluribus duobus signis non secat, quod erat ostendendum.
+THEON ex Zamberto. Bini inquam circuli α β γ, & α δ ε, sese adinuicem tangant introrsum in signo α, suscipiaturque (per primam tertij) centrum circuli α β γ, sitq̃ illud ζ, circuli autem α δ ε, sit η. Dico quod recta linea ducta ex ζ, in η, & eiecta, in ipsum α, signum cadit. Non enim, sed si possibile est, cadat sicut ζ η θ, & connectantur α ζ, & α η. Quoniam igitur α η, & η ζ, ipsa ζ α, hoc est ipsa ζ θ, (per 20 primi) sunt maiores: communis auferatur η ζ, reliqua igitur α η, maior est. quàm reliqua η θ. Aequalis autem est δ η, ipsi α η, (per 15 diffinitionis primi.) & δ η, ipsa η θ, igitur maior est, minor maiore, quod est impossibile. Recta igitur linea ducta ex ζ, in η, signum, extra ipsum contactum non cadit, in ipsum contactum igitur. Si bini circuli igitur sese inuicem introrsum tetigerint sumanturq̃ eorum centra, recta linea eorum centra coniungens & in eorum cadit contactum, quod demonstrasse oportuit
 
-[Diagram: two circles overlapping in a lens shape with crossing lines within; labels α at top, β, ε, ο within, δ at the left, points at the right; κ, λ, μ on the crossing lines]
+ALITER idem ostendere. Sed iam cadat sicut ζ γ, & extendatur in rectas directum lineæ, γ ζ, in η, signum, & coniungantur α η, & α ζ. Quoniam igitur α η, & η ζ, maior sunt ipsa α ζ, (per 20 primi,) sed α ζ, hoc est ipsi ζ θ, communis auferatur ζ η, reliqua igitur α η, & reliqua η θ, maior est, hoc est α η, quàm η θ, maiore minor, quod est impossibile. Similiter & si extra circulum paruum fuerit centrum maioris circuli, ostendemus impossibile.
 
-ALITER idem ostendere. Circulus enim rursus α β γ, circulum δ ε ζ, secet in pluribus quàm in duobus signis hoc est in β γ, & per primam tertij, suscipiatur centrum circuli α β γ, sitque illud κ. Et connectantur κ β, κ ε, & κ ζ. Quoniam igitur intra circulum δ ε ζ, suscipitur signum quoddam κ, in ipsum, à quo δ ε ζ, circulum plures duabus æquales rectæ incidunt lineæ κ β, κ ε, & κ ζ, igitur (per 9 tertij,) κ, signum, centrum est circuli δ ε ζ. At circuli
+[Diagram: two circles touching internally at α; lines from the centres ζ and η within, extended towards the contact and to θ on the circumference; β, γ, δ, ε on the circles]
 
-[Diagram: two circles overlapping in a lens shape; β at the top, δ at the left, ε within, κ and ζ at the right; lines joining κ with the points of section]
+## Eucli. ex Zamb. Theorema 11. Propositio 12.
 
-<!-- Catchword: α β γ, -->
+[Margin]
+12
+[/Margin]
+
+Si duo circuli sese adinuicem exterius tetigerint, centra eorum coniungens recta linea, per contactum transibit.
+
+THEON ex Zamberto. Duo enim circuli α β γ, & α δ ε, sese adinuicem exterius tangant in signo α. Sumatur (per primam tertij) centrum circuli α β γ, sitq̃ illud ζ, & circuli α δ ε, sit η. Dico quod ex ζ, in η, ducta recta linea, per ipsum α contactum transit. Non enim, sed si possibile est: transeat sicut ζ γ δ η, & connectantur α ζ, & α η. Quoniam igitur ζ, signum, centrum est circuli α β γ, æqualis est ζ α, ipsi ζ γ. Rursus quoniam η, signum, centrum est circuli α δ ε, æqualis est η α, ipsi η δ. Ostensum autem est quod & ipsi ζ γ, ipsa ζ α, est æqualis. igitur ζ α, & α η, ipsis ζ γ, & η δ, sunt æquales, quare tota ζ η, ipsis ζ α, & α η, maior est: sed & minor, (per 20 primi) quod est impossibile. Igitur quæ ex ζ, in η, ducitur, recta linea, per ipsum α, contactũ transit. Si duo circuli igitur sese adinuicem exterius tetigerint, eorum centra coniungens recta linea per contactum ueniet.
+
+[Diagram: two circles touching externally at α; lines from the centres ζ and η to α and to γ and δ on the circumferences, forming a triangle at the contact; β, ε on the circles]
+
+<!-- Signature: f 2 -->
+
+<!-- Catchword: Eucli. -->

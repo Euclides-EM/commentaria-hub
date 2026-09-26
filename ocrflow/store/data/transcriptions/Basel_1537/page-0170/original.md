@@ -1,35 +1,43 @@
-<!-- Running title: LIBER SEXTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 159 -->
+<!-- Page number: 160 -->
 
-trinsecus superficiei l m, sit æqualis angulo intrinseco superficiei l h: & extrinsecus m n intrinseco m l. Similiter quoque ut extrinsecus superficiei k o, sit æqualis intrinseco superficiei h n, & extrinsecus o p, intrinseco k o, sicq́; de cæteris. Cū enim sic fuerit erit unaquaque linearum k n & sibi opposita h m. itemque h r, & sibi opposita n q, linea una per ultimam partem 29 primi & per 14 eiusdem quoties oportuerit æqualiter repetitas, propter id quod omnes superficies h l, l m, & m n, itemq́; k o, o p, p q, & q r, sunt æquidistantium laterum, & angulus extrinsecus cuiusque sequentis est æqualis intrinseco eam præcedentis, quare duæ superficies h n & n r, erunt æquidistantium laterum & inter lineas æquidistātes & æqualis altitudinis. Cætera ergo argue ut prius.
+quæ circum æquales angulos. Simile igitur est (per primam diffinitionē sexti) parallelogrammū α β γ δ, parallelogrammo ε η. Id propterea, & parallelogrammum α β γ δ, parallelogrammo η θ, est simile, utrumq́ȝ igitur ipsorum ε η & θ κ, parallelogrammorum, ipsi α β γ δ, parallelogrammo simile est. Quæ autem eidem rectilineo similia, & sibi inuicem sunt similia (per 11 sexti) igitur & ε η, parallelogrammum ipsi θ κ, parallelogrammo simile est. Omnis igitur parallelogrammi quæ circa dimetientem parallelogrāma, similia sunt toti & adinuicem, quod erat demonstrandum.
 
-Quatuor ex Zamberto sequentes propositiones, præcedentibus quatuor ex Campano ordine peruerso respondent, prima tertiæ, secunda primæ, tertia quartæ, quarta secundæ.
-
-## Eucli.ex Zamb. Theorema 17 Propositio 23
+## Eucli. ex Zamb. — Problema 7 — Propositio 25
 
 [Margin]
-23
+25
 [/Margin]
 
-## Æquiangula parallelogramma rationem adinuicem habent compositam ex lateribus.
+Dato rectilineo simile, & alij dato æquale idem constituere.
 
-THEON ex Zamberto. Sint æquiangula parallelogramma α γ, & γ ζ, æqualem habentia angulum β γ δ, angulo ε γ η. Dico quod parallelogrammū α γ, ad parallelogrammū γ ζ, ratione habet compositā ex lateribus, hoc est ex ea, quàm habet β γ, ad γ η, & ex ea, q̃; habet δ γ, ad γ ε, Ponatur enim, (per 14 primi,) ut sit in rectas lineas β γ, ipsi γ η, in rectas lineas igitur est (per eādē) δ γ, ipsi γ ε. Cōpleaturq́; parallelogrāmū, δ η, & ponatur quædā recta linea, κ, & fiat (per 12 sexti,) sicut quidē β γ, ad γ η, sic κ, ad λ, sicutq́; δ γ, ad γ ε, sic λ ad μ, proportiōes igitur ipsius κ, ad λ, & ipsius λ, ad μ, eædē sunt ipsis ratiōibus laterum β γ, ad γ η, & ipsius δ γ, ad γ ε. Sed ipsius κ, ad μ, ratio, componitur ex ratione ipsius κ, ad λ, & ipsius λ, ad μ. Quare & κ ad μ. rationē habet compositā ex lateribus. Et quoniā est sicut β γ. ad γ η, sic α γ, parallelogrāmum ad γ θ (per primam sexti,) sed sicut β γ, ad γ η. sic κ, ad λ, & sicut igitur (per 11 quinti,) κ, ad λ, sic α γ, ad γ θ. Rursus quoniā est sicut δ γ, ad γ ε, sic γ θ, parallelogrammū ad γ ζ, parallelogrammum, sed sicut δ γ, ad γ ε, sic λ, ad μ. & sicut igitur (per eandē) λ ad μ, sic γ θ, parallelogrammum ad γ ζ, parallelogrammū. Quoniā igitur ostensum est quod sicut quidē κ ad λ, sic α γ, parallelogrammū ad γ θ, parallelogrammū, sicut aūt λ ad μ, sic γ θ, parallelogrāmū, ad γ ζ, parallelogrāmū: ex æquo igitur (per 22 quinti) sicut κ ad μ, sic α γ parallelogrammū ad γ ζ, parallelogrāmū. At κ ad μ, rationem habet compositam ex lateribus, & α γ, parallelogrammum igitur ad γ ζ rationem habet confectam ex lateribus. Aequiangula igitur parallelogramma: adinuicem rationem habent compositam ex lateribus, quod demonstrare oportebat.
+THEON ex Zamberto. Sit quidem datum rectilineum cui oportet simile constituere, α β γ, cui autem oportet æquale, δ, oportet iam ipsi α β γ, simile, ipsi autem δ æquale, idem constituere, prætendatur (per 44 primi) igitur ad β γ, ipsi triangulo α β γ, æquale: parallelogrammum β γ, & ad γ ε, ipsi δ, æquale parallelogrammum γ μ, in angulo qui sub ζ γ ε. qui æqualis est ei qui sub γ θ δ. In rectam lineam igitur est (per 14 primi, β γ, ipsi γ ζ: & λ ε, ipsi ε μ, Sumaturq́ȝ (per 13 sexti,) ipsarum β ε, & γ ζ, media proportionalis η θ, describaturq́ȝ (per 18 sexti, ex η θ. ipsi α β γ, simile, similiterq́ȝ positum κ η θ. Et quoniam est sicut β γ, ad η θ, sic η θ, ad γ ζ, si autem tres fuerint rectæ lineæ proportionales sicut prima ad tertiam sic quæ à prima est species ad eam quæ à secūda similis similiterq́ȝ descripta: est igitur (per correlarium secundū 20 sexti) sicut β γ, ad ε ζ, sic triangulum α β γ, ad triangulum κ η θ. Sed sicut β γ, ad γ ζ. sic β ε, parallelogrāmum ad ε ζ, parallelogrammum. Et sicut igitur (per primam sexti) triangulum α β γ, ad triangulum κ η θ, sic β ε, parallelogrammum ad ε ζ, parallelogrammum: uicissim quoque igitur (per 16 quinti) sicut triangulum α β γ, ad β ε, parallelogrammum, sic triangulum κ η θ, ad parallelogrammum ε ζ, æquale autem est triangulum α β γ, parallelogrammo β ε, æquale igitur est triāgulum κ η θ, ipsi ε ζ, parallelogrammo: sed parallelogrammum ε ζ, ipsi δ est æquale, & κ η θ, igitur, ipsi δ est æquale, est autem κ η θ. ipsi α β γ simile, Dato igitur rectilineo α β γ, simile, & alij dato δ, æquale, idem κ η θ, constitutum est, quod facere oportebat.
 
-[Diagram: two equiangular parallelograms about the common point γ: parallelogram α γ (corners α, β, γ, δ) at upper left, the completed parallelogram δ η with fourth corner θ to its right, and parallelogram γ ζ (corners γ, η, ζ, ε) below right, β γ in a straight line with γ η, and δ γ in a straight line with γ ε; three vertical lines κ, λ, μ at lower left]
+[Diagram: at top left a small square containing the point δ; at top right a triangle with apex α standing on the segment γ ζ; beneath them a long rectangle with β (top left), γ (top middle), ζ (top right), λ (bottom left), ε (bottom middle), μ (bottom right), divided by the vertical line γ ε into two parallelograms; below, a separate triangle with base corners η (left) and θ (right), its apex label κ faint]
 
-## Eucli.ex Zamb. Theorema 18 Propositio 24
+## Eucli. ex Zamb. — Theorema 19 — Propositio 26
 
 [Margin]
-24
+26
 [/Margin]
 
-## Omnis parallelogrammi, quæ circa dimetientem parallelogramma, similia sunt toti. & adinuicem.
+Si à parallelogrāmo parallelogrammū auferatur, simile toti & similiter positum, communem angulū habēs ei, circū eundē dimetientem est toti.
 
-THEON ex Zamberto. Sit parallelogrammum α β γ δ, dimetiens uero illius α γ, circum autem α γ, parallelogramma sint ε η, & θ κ. Dico quod utrumque ipsorum ε η, & θ κ, parallelogrammorum, simile est toti α β γ δ, & adinuicem. Quoniam enim trianguli α β γ. ad unum latus β γ, acta est parallelus ε ζ, proportionaliter est (per 2 sexti,) sicut γ ζ, ad ζ α, sic δ η. ad η α. Sed sicut γ ζ, ad ζ α, sic ostensa est & β ε, ed ε α. Et sicut igitur (per 11 quinti) β ε, ad ε α, sic δ η, ad η α, & componendo igitur (per 18 quinti) sicut β α, ad ε, sic δ α, ad α η, & per 16 quinti) sicut β α, ad α δ, sic ε α, ad α η: parallelogrammorum igitur α β γ δ, & ε η: proportionalia sunt latera, quæ circum communē angulum β α δ sunt: & quoniam parallelus est η ζ, ipsi δ γ, æqualis est (per 19 primi) angulus α η ζ, angulo α δ γ, & qui sub η ζ α, ei qui sub δ γ α, & communis duorum triāgulorū α δ γ, & α ζ η: angulus qui sub δ α γ. Aequiangulū igitur est triangulū δ α γ, triangulo α η ζ. Idq́; propterea, & triangulū α β γ, æquiāgulum est triangulo α ε ζ, & totum α β γ δ, parallelogrammum ipsi ε η, parallelogrāmo æquiangulum est, proportionaliter igitur est (per 4 sexti) sicut α δ, ad δ γ, sic α η, ad η ζ, sicutq́; δ γ, ad γ α, sic η ζ, ad ζ α. Sicut autem α γ, ad γ β, sic α ζ, ad ζ ε, & insuper sicut γ β, ad β α, sic ζ ε, ad ε α & quoniam ostensum est sicut quidem δ γ ad γ α, sic η ζ, ad ζ α, sicut uero α γ, ad γ β, sic α ζ ad ζ ε: ex æquo igitur est (per 22 quinti) sicut δ γ ad γ β, sic η ζ, ad ζ ε. Parallelogrammorum igitur α β γ δ, & ε η, proportionalia sunt latera:
+THEON ex Zamberto. A parallelogrammo enim α β γ δ, parallelogrāmum auferatur α ζ, simile ipsi α β γ δ, & similiter positum, cōmunem angulū habens ei qui sub δ α β. Dico quod circum eandem diametrum est α β γ δ, ipsi α ζ. Non enim: at si possibile est, sit eorum dimetiens α η γ, & excitetur (per 31 primi, ab θ utrique ipsarum α δ, & β γ, parallelus θ κ. Quoniā igitur circum eandem dimetientem est α β γ δ, ipsi κ η, simile est (per 24 sexti,) α β γ δ, ipsi κ η, est igitur sicut δ α, ad α β. sic η α, ad α κ, (per conuersionem 1 diffinitionis sexti. Est autē propter similitudinem ipsorū α β γ δ, & ε η, sicut δ α, ad α β, sic η α, ad α ε. Igitur per 9 quinti,) η α, ad utrāque ipsarum α κ, & α ε, eandem habet rationem, æqualis igitur est α κ, ipsi α ε, minor maiori, quod absurdum est. Igitur α β γ δ, non est circa eandem dimetientem ipsi κ η. Circa eandem igitur dimetientem est α β γ δ, parallelogrammum, ipsi α ζ, parallelogrammo. Si à parallelogrammo igitur parallelogrāmū auferatur, simile toti & similiter positum cōmunem angulū habens ei, circa eandem dimetientem est toti. Quod ostendere oportebat.
 
-[Diagram: parallelogram α β γ δ (α top left, β top right, γ bottom right, δ bottom left) with diagonal α γ; ε on side α β, η on side α δ, ζ at their intersection on the diagonal, θ on side β γ, κ on side δ γ; parallelograms ε η and θ κ about the diagonal]
+[Diagram: parallelogram with α (top left), ε (on the top side), δ (top right), γ (bottom right); on the left side the points η and θ with horizontal lines drawn from them; a vertical line down from ε; interior points θ and ζ at the crossings; the diagonal α γ and a second line from α through the inner corner to γ]
 
-<!-- Signature: O 2 -->
+## Eucli. ex Camp. — Propositio 26
 
-<!-- Catchword: quæ -->
+[Margin]
+26
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}Vper dimidium datæ lineæ parallelogrammum designatum. maius est eo parallelogrammo cui datæ lineæ applicato deest ad completionem lineæ simile & super diametrum consistens super dimidium collocati.
+
+CAMPANVS Sit data linea a b, super cuius dimidium c b, constituatur parallelogrammū c d, cuius diameter b e, & ad lineam a b applicetur parallelogrāmū a f, cuius unū latus secet e c in pūcto g ita quod ad complementū totius lineæ a b desit superficies f b quæ sit similis, superficiei c d, & cōsistens circa diametrū eius dico tūc ꝙ parallelogrāmū c d est maius parallelogrāmo a f. Est enim per 1 huius, a g: æquale g b, & per 43 primi, t f æquale f d, ergo per hāc cōmunē sciētiā si æqualibus æqualia addas tota quoq́ȝ fient
+
+[Diagram: line a b with midpoint c; on the half c b stands a square parallelogram with e (top left), d (top right), its diagonal drawn from e to b; f inside its upper right part; a lower long rectangle applied to the whole line a b, its top side passing through the point g where it cuts the line e c; labels a (bottom far left), c (bottom middle), b (bottom right)]
+
+<!-- Catchword: æqua- -->

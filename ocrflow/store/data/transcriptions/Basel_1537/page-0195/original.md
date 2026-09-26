@@ -1,37 +1,45 @@
-<!-- Page number: 184 -->
+<!-- Running title: LIBER SEPTIMVS -->
 
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 185 -->
 
-Vt si sit a ad b, sicut d ad f, & b ad e, sicut c ad d, erit a ad e, sicut c ad f: ducatur enim c in d & f, & proueniāt g & h, eritq̃ per præmissam g ad h, sicut d ad f, quare & sicut a ad b, ducatur item f in d, & proueniat k: eritq̃ per hanc 19 g ad k, sicut c ad f, & quia ex f in d fit k, fiet idem econuerso per 16 ex d in f, quia igitur ex c & d in f fiunt h & K, erit per hanc 19, h ad K, sicut c ad d, quare sicut b ad e, & quia iam ostensum est quod est g ad h sicut a ad b, erit per 15, a ad e sicut g ad k, sed sic erat etiā c ad f: est igitur a ad e, sicut c ad f, quod est propositū . Idem probabis si fuerint in utroq̃ ordine numeri plures tribus quemadmodū probatur in 13 quinti, de quantitatibus pluribus tribus.
-
-[Diagram: dot-rows in the right margin labelled g (12 dots); h (8 dots); a and c; b and d; c and f; k]
-
-## Eucli.ex Zamb. Theorema 16 Propositio 18
+## Eucli.ex Zamb. Theorema 17 Propositio 19
 
 [Margin]
-18
+19
 [/Margin]
 
-Si duo numeri numerum aliquem multiplicantes, fecerint aliquos, geniti ex eis eandem habebunt rationem quam multiplicantes.
+Si quatuor numeri proportionales fuerint, qui ex primo & quarto fit, æquus est ei qui ex secundo & tertio . Etsi qui ex primo & quarto fit numerus æqualis fuerit ei qui ex secundo & tertio, ipsi quatuor numeri proportionales erunt.
 
-THEON ex Zamberto. Duo enim α, β. numerum aliquem δ multiplicantes, efficiant ipsos δ,ε. Dico quod est sicut α ad β, sic est δ ad ε. Quoniā α enim multiplicans ipsum γ. fecit ipsum δ, & γ igitur ipsum α multiplicans, facit ipsum δ. Id propterea γ ipsum β multiplicans, ipsum ε fecit. Numerus iam γ duos numeros α, β, multiplicans, fecit ipsos δ, ε. Est igitur (per 17 septimi) sicut α ad β, sic est δ ad ε, quod oportuit demonstrasse.
+THEON ex Zamberto. Sint quatuor numeri proportionales α,β, γ,δ, sicut α ad β, sic γ ad δ : & α quidem ipsum δ multiplicans, efficiat ipsum ε, & β ipsum γ multiplicans, efficiat ipsum ζ. Dico quod æqualis est ε ipsi ζ . Ipse autem α ipsum γ multiplicans, efficiat ipsum η. Quoniam igitur α ipsum γ multiplicans , ipsum η fecit , multiplicans autem ipsum δ , ipsum ε fecit , numerus iam α duos numeros γ,δ, multiplicans, ipsos η,ε, fecit, & igitur (per 17 septimi) sicut γ ad δ, sic est η ad ε. Sicut autem γ ad δ, sic α ad β: & sicut igitur (per 11 quinti) α ad β , sic η ad ε . Rursus quoniam α ipsum γ multiplicans , ipsum η fecit , sed β ipsum γ multiplicans, ipsum ζ fecit , duo iam numeri α, β, numerum aliquem γ multiplicantes, ipsos fecerunt η,ζ : est igitur (per 18 septimi) sicut α ad β, sic η ad ζ, sed sicut α ad β, sic η ad ε, & sicut igitur (per 11 quinti) η ad ε, sic η ad ζ. Igitur η ad utrunq̃ ipsorum ε, ζ. eandem habet rationem : æqualis igitur est ε ipsi ζ (per 7 quinti.) Sit uero rursus æqualis ε ipsi ζ. Dico quod est sicut α ad β, sic est γ ad δ. Eisdem namq̃ dispositis, quoniam α ipsos γ, δ, multiplicans, ipsos η, ε, fecit, est igitur (per 17 septimi) sicut γ ad δ, sic η ad ε : æqualis autem est ε ipsi ζ: est igitur sicut η ad ε, sic η ad ζ (per secundam partem septimæquinti.) Sed sicut quidem η ad ε, sic γ ad δ : sicut igitur γ ad δ, sic η ad ζ : sicut autem η ad ad ζ, sic α ad β , (per 18 septimi) sicut igitur (per 11 quinti) α ad β, sic γ ad δ . Quod oportebat demonstrare.
 
-[Diagram: dot-rows in the right margin labelled α, β, γ, δ (12 dots), ε (15 dots)]
+[Diagram: dot-columns in the right margin labelled at the foot η, ζ, ε, δ, γ, β, α]
 
-## Eucli. ex Camp. Propositio 20
+## Eucli. ex Zamb. Theorema 18 Propositio 20
 
 [Margin]
 20
 [/Margin]
 
-SI fuerint quatuor numeri proportionales, quod ex ductu primi in ultimum producetur, æquum erit ei quod ex ductu secundi in tertium. Si uero quod ex primo in ultimum producetur, æquum est ei quod ex secundo in tertium, illi quatuor numeri sunt proportionales.
+Si tres numeri proportionales fuerint, qui sub extremis æqualibus est ei qui à medio . Et si qui sub extremis æqualibus fuerit ei qui à medio, ipsi tres numeri proportionales erunt.
 
-CAMPANVS. Quod proposuit Euclides per 15 sexti, de quatuor lineis proportionalibus, proponit hic de quatuor numeris proportionalibus, uerbi gratia . Sit proportio a ad b, sicut c ad d, fiatq̃ ex a in d, e, & b in c, f: dico quod e & f sunt æquales, & econuerso. Ducatur enī a in b, & fiat g, eritq̃ per 18 g ad e, sicut b ad d, & quia per 17 ex b in a fit g, & ex eodem b in c, f, erit per 18 g ad f, sicut a ad c: æquales igitur sunt f & e, quod est primum. Nec oportet prædemōstrare si unius numeri ad duos sit una proportio, quod sunt æquales, aut si ipsi sunt æquales, quod unius ad ipsos sit una proportio. Si enim est una proportio g ad e & ad f, aut ipse erit tota pars uel partes e quota uel quotæ idem est f, & tunc per conceptionem patet e & f esse æquales, aut toties g continebit e quoties f, & superfluent in eo tota pars uel partes e quota uel quotæ in eodem superfluent f, & tunc etiam per conceptionem patet eos esse æquales. Quod si ipsi fuerint æquales patet per conceptionē, quod aut g erit tota pars uel partes e quota uel quotæ f, & tunc per diffinitionē erit ipsius g ad utrunq̃ eorum proportio una, aut æqualiter continebit utrunq̃ cum superfluitate similium & tot numero partium, & tunc etiam per diffinitionem erit eius ad utrunq̃ proportio una.
+THEON ex Zamberto. Sint tres numeri proportionales α, β, γ, sicut α ad β, sic β ad γ. Dico quod qui ex ipsis α,γ, æquus est ei qui ex β. Ponatur enim ipsi β æqualis δ: est igitur sicut α ad β , sic δ ad γ . Igitur qui ex ipsis α, γ, æquus est ei qui ex β, δ, atqui ex β, δ, æquus est ei qui ex β: æqualis enim est β ipsi δ . Qui igitur ex α, γ, æquus est ei qui β.
 
-[Diagram: dot-rows in the right margin, e (12 dots); g (18 dots); f (12 dots); a (6 dots) and c (4 dots); b (3 dots) and d (2 dots)]
+Sed qui ex α,γ, æquus esto ei qui ex β. Dico quod sicut α ad β, sic est β ad γ. Quoniam enim qni ex α,γ, æquus est ei qui ex β, qui uero ex β, æquus est ei qui ex β,δ, est igitur (per undecimam quinti) sicut α ad β, sic δ ad γ, æquus autem est β ipsi δ : est igitur sicut α ad β, sic β ad γ, quod erat demonstrandum.
 
-Secundum sic patet. Sit e productus ex a in d, æqualis f producto ex b in c: dico proportio a ad b est, sicut c ad d, & est hæe conuersa primæ partis . Sit enim ut prius g, qui fit ex a in b, & quia e & f sunt æquales, erit g ad utrunq̃ eorum proportio una, & quia ut prius per 18, g ad f sicut a ad c, & ad e sicut b ad e, erit a ad c, sicut b ad d, quare permutatim a ad b, sicut c ad d.
+[Diagram: dot-columns in the right margin labelled at the foot δ, γ, β, α]
 
-CAMPANI annotatio. Non proponit autem Euclides de tribus numeris continue proportionalibus, quod ille qui ex ductu primi in tertium producitur, sit æqualis quadrato medij, & si ille qui ex primo in tertium producitur, fuerit æqualis quadrato medij, quod illi tres numeri sint continue proportionales, sicut proponit in 16 sexti. de tribus lineis: hoc enim facile demonstratur per hanc 20, medio illorum trium numerorum, æquali assumpto, quemadmodū in sexto de tribus lineis probatur per quatuor, assumpta quarta æquali mediæ.
+## Euclides ex Campano. Propositio 21
 
-<!-- Catchword: Eucli. ex -->
+[Margin]
+21
+[/Margin]
+
+NVmeri secundum quamlibet proportionem minimi, numerant quoslibet in eadem proportione, minor minorem & maior maiorem æqualiter.
+
+CAMPANVS. Sint a & b, minimi numeri in sua proportione, sitq̃ c ad d , sicut a ad b : dico quod a numerat c, & b, d, æqualiter . Cum sit enim a ad b, sicut c ad d, erit permutatim a ad c, sieut b ad d : erit igitur a, c tota pars uel partes, quota uel quotæ b,d: si itaq̃ fuerit pars, constat propositum. At si partes, sit e una partium a, & f una partium b, & quia tota pars est e, c per hypothesin quota f, d, erit per diffinitionem proportio e ad c, sicut f ad d, quare permutatim e ad f, sicut c ad d; quare etiam sicut a ad b: non sunt itaque a & b, minimi suæ proportionis , quod est contrarium positis.
+
+[Diagram: dot-rows in the right margin: c (4 dots) and d (2 dots); a (2 dots) and b (1 dot); lower, c (6 dots) and d (3 dots); a (4 dots) and b (2 dots); e (2 dots) and f (1 dot)]
+
+<!-- Signature: q 3 -->
+
+<!-- Catchword: Similiter -->

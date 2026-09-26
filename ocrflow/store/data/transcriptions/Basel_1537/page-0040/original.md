@@ -1,57 +1,37 @@
-<!-- Running title: LIBER PRIMVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 31 -->
+<!-- Page number: 32 -->
 
-tium laterum. Sint duæ superficies a b c d & e f g h, æquidistantium laterum, constitutæ inter duas lineas æquidistantes quæ sunt a f & c h, & super æquales bases quæ sunt c d & g h, dico eas esse æquales, nam protraham duas lineas, c e & d f, eritq̃ per 33, superficies c d e f, æquidistantium laterum, propter hoc quod e f est æqualis & æquidistans c d, nam utraque earum est æqualis g h. Quia ergo per præmissam utraq̃ duarum superficierum a b c d & e f g h est æqualis superficiei c d e f, ipsæ erunt sibi inuicem æquales, quod est propositum.
+b c & e f æquales, & inter lineas a g & b h æquidistantes, dico eos esse æquales. Protraham enim c k æquidistantem a b, & f l æquidistantem e d, eruntq̃ duæ superficies a b c k & d e f l æquales per 36, & quia dicti trianguli sunt earum dimidia per correlarium 34 propositionis, ipsi erunt æquales per antedictam communem scientiam.
 
-[Diagram: parallelograms a b c d and e f g h between parallels a f and c h, on equal bases c d and g h, with lines c e and d f drawn; letters a, b, e, f above and c, δ, g, h below]
+[Diagram: triangles a b c and d e f on equal bases b c and e f between parallels a g and b h, with lines c k and f l drawn; letters a, k, d, l, g above and b, c, e, f, h below]
 
-## Eucli. ex Zamb. Theorema 26. Propositio 36.
-
-[Margin]
-36
-[/Margin]
-
-Parallelogramma in æqualibus basibus & in eisdem parallelis existentia, adinuicem sunt æqualia.
-
-THEON ex Zamb. Sint parallelogramma α β γ δ & ε ζ η θ, in æqualibus basibus constituta, hoc est β γ & ζ η, & in eisdem parallelis, hoc est α θ & β η. Dico quod parallelogrammum α β γ δ est æquale parallelogrammo ε ζ η θ. Connectantur enim β ε & γ θ. Quoniam æqualis est β γ ipsi ζ η, sed ζ η æqualis est ipsi ε θ, & β γ igitur ipsi ε θ æqualis est: sunt autem & paralleli, & coniungūt eas lineæ, æquales & paralleli sunt (per 33 propositionem.) igitur ε β & θ γ, æquales autem & paralleli sunt. Parallelogrammum igitur est ε β γ θ, & est æquale parallelogrammo α β γ δ: basin enim eandem habet, hoc est β γ, & in eisdem est parallelis, hoc est β γ & ε θ: ac per hoc etiam ε ζ η θ ipsi ε β γ θ est æquale. Quare parallelogrammū α β γ δ ipsi ε ζ η θ est æquale. Parallelogramma igitur & quæ sequuntur reliqua ut in theoremate. Quod erat ostendendum.
-
-[Diagram: two parallelograms on equal bases between the same parallels, with connecting lines forming diagonals]
-
-## Eucli. ex Camp. Propositio 37.
-
-[Margin]
-37
-[/Margin]
-
-{dropcap:A|lines=?|style=decorated}Equales sunt sibi cuncti trianguli, qui super eandem basin, atq̃ inter duas lineas æquidistantes sunt constituti.
-
-CAMPANVS. Sint duo trianguli a b c & d b c, constituti super basin b c, inter duas lineas a e & b f, quæ sint æquidistantes, dico eos esse æquales. Protraham enim c g æquidistantem a b, & c h æquidistantem d b per 31, eruntq̃ duæ superficies a b c g & d b c h, æquales per 35. Et quia dicti trianguli sunt earum dimidia per correlarium 34 propositionis, ipsi erunt æquales per cōmunem scientiam quæ est, quorum tota sunt æqualia, & dimidia, sicq̃ patet propositum.
-
-[Diagram: triangles a b c and d b c on base b c between parallels a e and b f, with points a, g, d, h, e on the upper parallel and b, c, f on the lower]
-
-## Eucli. ex Zamb. Theorema 27. Propositio 37.
-
-[Margin]
-37
-[/Margin]
-
-Triangula in eadem basi & in eisdem parallelis constituta, adinuicem sunt æqualia.
-
-THEON ex Zamb. Sint triangula α β γ & δ β γ, in eadem basi β γ, & in eisdem parallelis α δ & β γ constituta. Dico quod triangulum α β γ est æquale triangulo δ β γ. Producatur (per 2 postulatum) α δ ex utraque parte, in ε & ζ, & per β, ipsi γ α (per 31 propositionem) excitetur parallelus β ε, & per γ, ipsi β δ (per eandem) parallelus excitetur γ ζ. Parallelogrāma igitur sunt ε β γ α & δ β γ ζ, & (per 35 propositionem) æquale est ipsi ε β γ α parallelogrammo: in eadem enim sunt basi β γ, & in eisdem parallelis β γ & ε ζ. At parallelogrammi ε β γ α, dimidium est (per 34 propositionem) nam α β dimetiens, illud bifariam secat, parallelogrammi uero δ β γ ζ (per eandem) triangulum δ β γ dimidium est, nam δ γ dimetiens illud bifariam secat: at quæ æqualium sunt dimidium, adinuicem sunt æqualia (per septimam cōmunem sententiam.) Triangulum igitur α β γ, triangulo δ β γ est æquale. Triangula igitur & quæ sequuntur reliqua ut in theoremate, quod erat ostendendum.
-
-[Diagram: triangles α β γ and δ β γ on base β γ between parallels, with ε and ζ on the upper parallel and lines β ε, γ ζ drawn]
-
-## Eucli. ex Camp. Propositio 38.
+## Eucli. ex Zamb. Theorema 28. Propositio 38.
 
 [Margin]
 38
 [/Margin]
 
-{dropcap:S|lines=?|style=decorated}I duo trianguli super bases æquales atq̃ inter duas lineas æquidistantes ceciderint, æquales eos esse necesse est.
+Triangula in æqualibus basibus & in eisdem parallelis constituta, adinuicem sunt æqualia.
 
-CAMPANVS. Sint duo trianguli a b c & d e f, constituti super bases
+THEON ex Zamb. Sint triangula α β γ & δ ε ζ, in æqualibus basibus constituta, hoc est β γ & ε ζ, & in eisdem parallelis, hoc est β ζ & α δ. Dico quod triangulum α β γ æquum est triangulo δ ε ζ. Producatur enim (per secundum postulatum) α δ ex utraq̃ parte in η, θ, & per β, ipsi γ α (per 31 propositionem) parallelus excitetur β η, & per ε, ipsi δ ζ parallelus excitetur ζ θ (per eandem.) Parallelogrammum igitur est, η β γ α & δ ε ζ θ. At parallelogrammū η β γ α, (per 36) æquum est ipsi δ ε ζ θ parallelogrammo: in æqualibus enim sunt basibus, hoc est β γ & ε ζ, & in eisdem parallelis, hoc est β ζ & η θ. At parallelogrammi η β γ α (per 34 propositionem) triangulum α β γ, medietas est, α β enim dimetiens, illud bifariam secat: & triangulum δ ε ζ, parallelogrammi δ ε ζ θ, medietas est (per eandem), nam dimetiens δ ζ, illud secat bifariam. Aequalium uero ea quæ sunt dimidium, sibi inuicem sunt æqualia, (per 7 cōmunem sententiam.) Triangulum igitur α β γ, triangulo δ ε ζ est æquale. Triangula igitur in æqualibus basibus & in eisdem parallelis constituta, sibi inuicem sunt æqualia. Quod oportuit demonstrasse.
 
-<!-- Signature: c 4 -->
+[Diagram: triangles α β γ and δ ε ζ on equal bases β γ and ε ζ between parallels, with η and θ on the upper parallel and lines β η, ζ θ drawn]
 
-<!-- Catchword: b c & -->
+## Eucli. ex Camp. Propositio 39.
+
+[Margin]
+39
+[/Margin]
+
+{dropcap:O|lines=?|style=decorated|decoration="a face"}Mnes duo trianguli æquales, si in eandem basin & ex eadem parte ceciderint, inter duas lineas æquidistantes erunt.
+
+CAMPANVS. Sint duo trianguli a b c & d b c, constituti super basin b c ex una eademq̃ parte, sintq̃ æquales: dico eos esse inter lineas æquidistantes. Et hæc est conuersa 37. A puncto a, protraham lineam æquidistantem lineæ b c, quæ si pertransierit per punctum d, liquet propositum. Sin autem, pertransibit supra aut infra. Transeat primo supra, & sit a e, producam b d, usquequo secet lineam a e in puncto e, & protraham lineam e c. Et quia triangulus e b c est æqualis triangulo a b c per 37, & triangulus d b c positus est æqualis triangulo a b c, erit triāgulus d b c æqualis triangulo e b c, pars toti, quod est impossibile. Non igitur pertransibit linea quæ à puncto a ducitur æquidistanter b c, supra d. Transeat ergo infra, & sit a f, secans lineam d b in puncto f. Protraham ergo lineam f c; & quia per 37, triangulus f b c est æqualis triangulo a b c, ipse etiam erit æqualis triangulo d b c, pars toti, quod est impossibile. Quia ergo à puncto a, æquidistans b c non transit nisi per punctum d, patet propositum.
+
+[Diagram: base b c with triangles a b c and d b c on the same side; line through a parallel to b c, points e and f marked where b d produced or cut meets it, with lines e c and f c drawn]
+
+CAMPANI additio. Ex hac autem & præmissa, nota quod si aliqua linea recta duo alicuius triauguli latera per æqua secet uel secuerit, ipsa erit tertio æquidistans, quod sic probatur. Sit triangulus a b c, cuius duo latera quæ sunt a b & b c, secet linea d e per æqualia, a b quidem in pucto d, & b c in puncto e, dico quod linea d e est æquidistans a c. Protraham enim in quadrilatero a c e d, diametros a e & d c. Ductaq̃ per 31 à puncto e ipsi a b æquidistante, erit per 38 triangulus a e d æqualis triangulo d e b, propter id quod linea a d basis triāguli a e d posita est æqualis lineæ d b basi triāguli d e b. Rursus quia ducta à puncto d per 31 ipsi b c æquidistante, per eandem triāgulus c e d erit æqualis eidem triangulo d e b, propter id quod lineæ c e posita est æqualis lineæ e b, triangulus a e d est æqualis triangulo c e d. Quia ergo ipsi sunt constituti super eandem basin, uidelicet, lineam e d, & ex eadē parte, ipsi erunt per hanc 39 inter lineas æquidistantes, ergo linea d e, est æquidistans lineæ a c. Quod quidem propositum, ad quintam quarti tibi ualebit.
+
+[Diagram: triangle a b c with b at top, line d e cutting sides a b and b c at their midpoints d and e, with diagonals a e and d c drawn in quadrilateral a c e d]
+
+<!-- Catchword: Euclides -->

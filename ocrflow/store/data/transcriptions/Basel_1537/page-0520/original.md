@@ -1,27 +1,39 @@
-<!-- Running title: SPECVLARIA -->
+<!-- Page number: 510 -->
 
-<!-- Page number: 509 -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-d e: e f, excitetur per 11 primi elementorum perpendicularis ab ipso h in c d speculum b c, æqualis autem sit b c, ipsi c f, & rursus per eandem ab ipso a in e f, perpendicularis excitetur a f, & ipsa f a, æqualis esto f h, & per eandem ab ipso h in speculum d e, perpendicularis excitetur h k, sitq́; ipsi h k, æqualis k l, & ab ipso l in f cōnectantur l m x f, ab ipso aūt m in h cōnectatur m r h. Cōnectatur autem & a r & b x. Quoniam igitur æqualis est b c ipsi c f & qui ad c anguli recti sunt: binæ igitur b c, c q, ipsis binis f c, c q sunt altera alteri æquales, & angulus, qui sub c q, rectus existens, angulo qui sub s c q, recto existēti est æqualis per 4 postulatū, & reliqui reliquis angulis erunt æquales sub quibus æqualia latera subtenduntur per quartam primi elementorum. Angulus quidem qui ad b angulo qui ad f, & angulus x angulo t. Sed t ipsi n est æqualis per 15 primi elementorum ad uerticem enim. Quare & angulus n angulo x. Igitur uisus b x in m refringitur. Rursus quoniam æqualis est h k, ipsi k l, & qui ad k recti sunt, angulus o æqualis est ipsi p. Refringitur ergo idem uisus b x m in r, & id propterea iam & in a, quia æqualis est qui sub f r a, angulus ei qui sub e r m, similiter & in reliquis demonstrationibus. Inspice igitur ab ipso b oculo uisus a, per tria specula plana existentia c d, d e: e f.
+xo cin d, & ab ipso d in e, & ab ipso e in a: manifestum igitur est quod conuexis aut cauis existentibus omnibus & mixtis illud idem uideri potest.
 
-[Diagram: three plane specula; a long oblique line from a at top down to the left; horizontal line with points e, m, d; below it points o and p; a vertical line through x with k and e at its top; point n and q at right; at bottom the base line with points f, a and b, c, s; small triangles at b and at r near the base]
+## Theorema decimumsextum
 
-## Theorema decimumquartum.
+IN planis speculis unumquodque eorum quæ sub aspectum cadunt per illius quod sub aspectum cadit perpendicularem uidetur.
 
-ESt autem & in quibuslibet siquis constituat speculis idem inspicere, oportet autem iuxta uisum speculorum numerum polygonium æquilaterum & æquiangulum cōstituere binis lateribus excedēs specula.
+Sit speculum planum c d, oculus autem sit b, res uero uisa sit a sitq́; perpendicularis K re uisa in speculum a c: igitur quoniam supponitur in phænomenis quod assumpto loco c ipsum a nō uidetur, ergo a uidebitur in linea recta a e. Sed & in rectas lineas ipsi b d, uisus per e igitur: positum namque est nobis rectum cuius medium extremis correspondet. Quare a e & b e recta linea erit.
 
-Esto enim quod spectari debeat a, oculus autem sit b & connectatur a b & ab ipso a b, describatur polygonum æquilaterum, & æquiangulum binis lateribus excedens ipsa specula, & sit a b d polygonum, & sumatur per 1 tertij elementorum centrum circuli ipsi polygono circunscripti, & sit h, & ab ipso h, cōnectantur h c, h e, h d, h b, h a, in angulis, & proponantur specula plana ad angulos rectos. Quoniam igitur per quartum postulatum æqualis est f l, angulus ipsi n k angulo: uterque enim rectus est, quorum n ipsi l est æqualis. reliquus igitur ipsi f k est æqualis. Quare refractio ipsius b uisus erit in d, per æquos enim angulos refractiones fiunt per primum theorema. Similiter iā ostendetur quod qui ad e signa ad omnia specula uenient in a.
+[Diagram: point e at top, c at left; two lines crossing at d near the centre right; a at lower left, b at lower right]
 
-[Diagram: circle circumscribing a pentagon with vertices d at top, a at right, b at bottom; centre h with radii to the vertices; letters K, n, l, c, e, f near the sides; tangent specula at the vertices]
+## Theorema decimumseptimum.
 
-## Theorema decimumquintum.
+IN speculis conuexis, ununquodque eorum quæ sub aspectum cadunt per eam quæ à re uisa in sphæræ centrum deducitur rectam lineam spectatur.
 
-ILlud idem quoque & in conuexis & in cauis speculis uideri potest.
+Esto cōuexum speculum c d, oculus autem sit b, uisus uero sit b d, refractus in a, aspiciatur autē a, centrum autē sphæræ sit f, & connectatur a f extendaturq́; b d in e: igitur quoniam supponitur in phænomenis quod assumpto c ipsum a non uidetur, uidebitur igitur in rectam lineam a c, per id quod euenit ex b d, uisu, & ab ipso a c in e, sicut & in planis.
 
-Sit namque spectare oporteat à oculus uero sit b, & similiter describatur polygonum æquilaterum & æquiangulū a b c d e, & ad signa c d e, sint specula plana à quibus spectatur a. sicut ostensum est. adijciantur his specula aut caua aut cōuexa ad uisuum contactus. Igitur æqualis est f ipsi h, & k ipsi l, totus igitur k f æqualis est ipsi l h refringetur ergo uisus à speculo conue
+[Diagram: circle with centre f; e at top, d on the circumference at right; lines from a at lower left and b at lower right crossing at d]
 
-[Diagram: pentagon with vertex d at top, b and l at upper right, e at upper left, c at right, t at left; circles (caua and conuexa specula) attached at the vertices; f, K at lower right, a and b at the bottom vertices, g below]
+## Theorema decimumoctauum
 
-<!-- Signature: V 3 -->
+IN cauis speculis, unumquodque eorum quæ sub aspectum cadunt per eam quæ à re uisa in cētrum sphætæ ducitur rectam lineam spectatur.{printer-error-correction:sphæræ}
 
-<!-- Catchword: xo cin -->
+Sit cauū speculum c d, aspectus autem refractus sit b c, in a uisum, centrum autem sphæræ sit e connectatur recta linea & extendatur igitur quoniam in phænomenis deprehenditur quod assumpto loco d ipsum a non uidetur: quare agetur uisus in rectam lineam a e, aspicietur ergo per congressum ipsius a d rectæ lineæ & b c uisus per f.
+
+[Diagram: circle at right with points c at top and d at lower right on the circumference; f and e inside; lines from a at lower left and b at lower right crossing within the circle]
+
+## Theorema decimumnonum.
+
+IN planis speculis quæ dextra sunt sinistra apparent, & quæ sinistra dextra, & simulacrum æquum est rei uisæ & distantia à speculo æqualis est.
+
+Sit planum speculum a c, oculus autem b, uisus uero sint b a, b c, refracti in d e, quod autem spectatur sit e d, & ab ipsis e d, per duodecimam primi elementorum in speculum perpendiculares excitentur e f, d h & extendantur. Extendanturque & b c, b a, uisus & concurrant parallelis in K l, & connectatur l K. Igitur e ap
+
+[Diagram: two lines crossing; points e at top left, d at upper right, f between them, b at lower right, a at lower left]
+
+<!-- Catchword: paret -->

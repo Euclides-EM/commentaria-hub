@@ -1,27 +1,31 @@
-<!-- Running title: SPECVLARIA -->
+<!-- Page number: 512 -->
 
-<!-- Page number: 511 -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-paret super k & d super l, hoc enim prius ostēsum est, ergo sinistra dextra apparent, & dextra sinistra, & quoniam æqualis est qui sub k c f, angulus ei qui sub f c e angulo, & recti sunt qui ad f, æqua igitur etiam fuerit f k ipsi f e. Idq́; propterea & d h, ipsi h l, æquum est igitur interuallum quod abest à speculo e d, ipsi a abest simulacrum k l & æquū est uisum e d simulacro k l, quoniam æqualis est e f ipsi f k, & d h ipsi h l, cōmunis autem & ad rectos angulos ipsa h f.
+& b c d, extra cadit. igitur e d in maiori angulo spectatur à speculo plano comprehēso sub k b l, quæ à cōuexo. æquum autem patuit apparens in plano, manifestum igitur quod à conuexo speculo simulacrum minus apparet re uisa.
 
-[Diagram: parallelogram with k at the top left and l at the top right corner; a horizontal line through e, f, a, b; d at the lower right; diagonals and rays crossing from a point at the far left]
+## Theorema uigesimumsecundum.
 
-## Theorema uigesimum.
+IN conuexis speculis, à minoribus speculis minora simulacra spectantur.
 
-IN conuexis speculis sinistra dextra, & dextra sinistra spectantur, & interuallum à speculo simulacro minus abest
+Sit sphera maior a c minor uero e l, circa idem centrū sit b & connectatur b a h, & ab ipsa sphæra refringatur uisus b c d, dico quod uisus refractus à minori sphæra in d. neque per c. neque extra ipsum c cadit. Cadat enim prius si possibile est per c & refringatur à minori sphæra in d, & sit b e d. & connectatur ab h in c & refringatur in k. Igitur h c k, bifariam secat eū qui sub b c d, angulum: quoniam ipsos b c d angulos æquos ad circunferentiam propter refractionem efficit. Idque propterea iam quæ ab h in c cōnexa recta linea & extensa angulum sub b e d bifariam secat. Secet sitque h e f. Quoniam angulus comprehēsus sub b c d, angulo comprehenso sub b e d, maior est. & dimidio dimidio maior est qui sub b c k, eo qui sub b e f est autem & minor quod est impossibile. uisus ergo à minori sphæra refractus per ipsum c minime ueniet. Supponantur rursus eadem, & à minori sphæra refractus uisus b e d, extra ipsum c cadat. & b e secet maiorem sphæram in f. Uisus igitur refractus in b f k, non coincidet ipsis c d, hoc, inquam, patet. Ipsi igitur e d, coincidat in K. Igitur b f k, uisus à maiori speculo ipsum aspicit k & ipse b e k: refractus à maiori speculo ipsum aspicit k, hoc, inquam, superius impossibile patuit. Intra igitur c a, cadit uisus refractus à maiori speculo in d. Similiter quoque ostendetur, & quæ ab altera parte idem efficiens. Sub minori igitur angulo spectatur eo qui ad b facto a minori speculo quàm à maiori, minus igitur apparet simulacrum à minori speculo.
 
-Sit speculum conuexum a c, centrum autem sphæræ sit h, oculus porro sit b, uisus autem sint b a, b c, refracti in d e, quod spectatur sit d e, & ab ipso h centro excitentur in d e, h d, h e, & extendātur uisus ad f g, & cōnectatur f g simulacrum. Igitur ipsum quidem d apparet super g, & e super f dextra igitur sinistra, & sinistra dextra spectantur. Dico quod maior est e l ipsa l f. excitetur per a ipsam tangens circunferentiam r a k. quoniam igitur b a, a e ad ipsam circunferentiam æquos efficiunt angulos, propter refractionem tangit ipsa K a r, bifariam fuerit sectus qui sub l a f angulus. & obtusus est angulus k. maior igitur est e k, ipsa k f multo maior igitur e l ipsa l f: minus igitur abest simulacrum f g à speculo: magis autem quod spectatur e d, sicut in sequenti patet.
+[Diagram: two concentric circles; b at the top within the inner circle; points e, l, f, k about the centre; rays from b descending outside the circles and crossing, to b at the lower left and d at the lower right; a at the left]
 
-[Diagram: convex speculum arc with b at the top; on and about the arc the points g, f, c, l, k, a; long visual rays descending to e at the lower left, d at the bottom and b at the right]
+## Theorema uigesimum tertium.
 
-## Theoréma uigesimumprimum.
+IN curuis speculis simulacra conuexa spectantur.
 
-IN conuexis speculis simulacrum spectatis minus est.
+Sit curuum speculum a c, oculus autem sit e uisus uero refracti e a, e c, in d b at f e, sit in seipsum refractus, hoc est in e. Igitur uisus iam maiores sunt qui longiores : minimi uero qui circa medium hoc est f e spectatur igitur propius a speculo magis e, longius uero b, & d, quare totum curuum spectatur.
 
-Sit speculum conuexum a o c, oculus autem sit b, uisus uero refracti sint b a, b c, in d e, igitur à conuexo speculo aspicitur e d in angulo qui sub a c b; apponatur iam speculum planum a c tangens, uisus in a c. Igitur uisus uisurus e à plano speculo non est b a e, non enim æquos efficit angulos ad planum speculum. neque refringetur intra a c, refringatur si possibile est, & esto b f uisus. æqualis igitur est angulus g angulo h propter refractionem. & h, maior est ipso n & ipso g: quare & m ipso n maior est, qd̃ est impossibile. Ipse nāq; in ipso m maior est. Aequalis enim est totus ei q̃ ad circūferētiā: extra igitur ipsum a refringatur. refringatur esto b k e. similiter aūt
+[Diagram: circle resting on a rectangle; a and c at the circle's left and right, f within it; the rectangle's base carries d at the left, e at the centre, b at the right, with lines from e up to the circle]
 
-[Diagram: large diagram: K at the upper left, a, f, e along the top line, l at the upper right; a circle in the middle containing m, g, b, h; a trapezoidal plane speculum below with e at the lower left, d at the bottom centre and b at the lower right, whence many rays fan out]
+## Theorema uigesimumquartum.
 
-<!-- Signature: V 4 -->
+IN cauis speculis si in centro oculus positus fuerit ipse tantum oculus spectatur.
 
-<!-- Catchword: & b c d. -->
+Esto cauum speculū a c d, centrum aūt ipsius sit b, uisus uero sint b a b, c b d. Igitur angulus e æqualis est ipsi f, igitur uisus b c refractus ueniet in b: similiter quoque & reliqui, ipsum igitur tantum b, spectatur.
+
+[Diagram: semicircle with e at the top, f and c inside near the apex, and b at the middle of the base diameter]
+
+<!-- Catchword: Theore -->

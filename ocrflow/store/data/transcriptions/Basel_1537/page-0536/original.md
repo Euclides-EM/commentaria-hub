@@ -1,33 +1,29 @@
-<!-- Running title: PERSPECTIVA -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-<!-- Page number: 525 -->
+<!-- Page number: 526 -->
 
-sus unde cœpit agi consistet, & circunscripta ab ipsa b d, figura circulus erit, qui per centrum erit ipsius sphæræ. Quare hemisphærium tantum ipsius sphæræ spectabitur sub f l oculis.
+Esto enim cylindri circa basim circuli centrum K, & ab ipso k oculo in K centrum per 1 postulatum connectatur b K, & per K, per 11 primi elementorum ad angulos excitetur rectos c d, & circum k b circulus describatur, per 3 postulatū & cōnectantur b n, n k, b l, l k: iam per ea quæ prædicta sunt l f n, minus est semicirculo, & similiter basi cylindri minus est, & dimidium spectabitur. Sed propius excitetur oculus, sitq̃ q & circū f k, per 3 postulatū circulus describatur cōnectaturq̃ q r, r k, k f, & f q. Igitur qui ab ipso q radij p̃cidētes per q r, & q f, cadunt. q uero ab ipso b scatet, cadūt per b l, b n, maior igitur ambitus n f l, ambitu r f s, uidetur aut minor r f s ipso n f l, maior enim est angulus, q angulo b, per 20 tertij elementorum, quare cylindri minor pars spectabitur. uidetur autem maior aspici.
 
-## Theorema uigesimumsextum.
+[Diagram: circle with centre K at its base, apex b above; from b lines descend to the circle; inner circle through the cone with points q, s, r; points n, d at lower left, l, c at lower right]
 
-{dropcap:C|lines=?|style=decorated|decoration="woodcut"}Vm oculorum distantia sphæræ diametro maior fuerit hemisphærio, maius id quod ipsius sphæræ spectabitur apparebit.
+## Theorema trigesimum
 
-Esto enim sphæra cuius centrum sit k, oculorum uero interuallum maius esto ipsius sphæræ diametro, & per κ & b c, extendatur planum efficiatque in sphæra circulum d f n. procidantque radij b d, c f, in uno tangentes, igitur producti inuicem congrediuntur. Quoniam b c ipsius sphæræ diametro maior est. congrediantur iam in h signum. igitur quoniam ab ipso signo h ipsæ h f, h d, per unum signum tangentes cadunt. minor est ipse f n d, ambitus semicirculo per uigesimumtertium theorema, anguli enim h f κ, h d k, sunt rectæ. Ipsius uero sphæræ reliquum hemisphærio maius spectatur sub b d c f.
+COno circulum basim habente sub uno oculo perspecto, minus hemiconio spectabitur.
 
-[Diagram: triangle with apex h at top and base corners b and c; circle inscribed with centre κ, touching the sides at d (left) and f (right), n at the top of the circle]
+Esto enim coni basis circulus cuius centrum sit k, & ab ipso b oculo excitetur in centrum per primum postulatum b k, & per k, per 11 primi elementorum, ad angulos rectos ipsi k b excitetur n l, circum uero k b, per 3 postulatum describatur circulus. Connectanturq̃ per 1 postulatum b f, f k, b d, d k. Igitur anguli qui ad f d, recti sunt per 18 tertij elemētorum. Igitur ipsæ b d, b f in uno signo tangunt per correlarium 16 tertij elementorum, & radij qui ex b per b d, b f, procidunt, igitur ambitus f r d, perspectus minor existens ipso n r l. At n r l, semicirculus est. Igitur ambitus f r d semicirculo minor est. Quare & coni quod spectatur minus est hemiconio: similiter enim & in reliquorum circulorum ipsius coni superficie ostendemus.
 
-## Theorema uigesimumseptimum.
+[Diagram: apex b above a circle; within the circle points d, r, f; below the circle points l, K and a further point at right]
 
-{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I oculorum interuallū minus fuerit sphæræ diametro, id sphæræ quod spectatur hemisphærio minus spectabitur.
+## Theorema trigesimumprimum.
 
-Esto. inquam, sphæra cuius centrum sit k oculorum interuallum sit b c minus existens ipsius sphæræ diametro: & per k, & b c, extendatur planum efficiatque in sphæra circulum f g n, excitentur autem per decimamseptimam tertij elementorum ab ipsis b c oculis in uno signo tāgentes b f, & c g. quæ in h inuicem congrediātur. Quoniam b c, & ipsius sphæræ diameter sunt inæquales. ab ipso h signo procidentes in ipsam sphæram minorem hemisphærio ambitum capient, per uigesimumtertiū theorema. igitur ambitus f g n, hemisphærio minor est. Quare sub b c oculis spectatum, hemisphærio minus erit.
+OCulo propius posito in eodem plano minor, inquam. erit uisibus assumpta pars at maior perspicij uidebitur.
 
-[Diagram: the two eyes b (above) and c (below) at left; lines to a circle at right touching it at f (top) and g (bottom); κ at the right of the circle, n inside, h where the lines cross]
+Esto coni basis circulus cuius centrum sit k, oculus uero sit a & ab ipso a per primum postulatum in k connectatur a k. Et per undecimam primi elementorum, ad angulos rectos excitetur per k ipsa h b. Describaturq̃ per tertium postulatum circum a k circulus, & per primum postulatum connectantur a f, f k, a d, d k, permuteturque oculus a in n, & circum k n, per tertium postulatum circulus describatur, connectanturq̃ n r, r k, n l, l k. Igitur qui ex a oculo radij scatent, per a d, a f, cadunt. Quare ambitus f q d apparet. Idque propterea & qui ab ipso n, oculo radij scatent per n r, n l cadunt, spectabitur igitur ambitus r q s. Sed maior f q d ipso r q s. At minor apparet. maior enim est angulus n eo quod ad a est angulo.
 
-## Theorema uigesimumoctauum.
+[Diagram: apex a above, with n just below it; larger circle enclosing a smaller one; points q, s, r within, d at left, f at right, b at either side below, k in the lower circle]
 
-{dropcap:C|lines=?|style=decorated|decoration="woodcut"}Ylindro utcunque inspecto ab oculo uno, minus hemicylindro spectabitur.
+## Theorema trigesimumsecundum
 
-Esto namque cylindri circa basim circuli centrum κ, ab ipso n, oculo excitetur ad κ ipsa n k, per primum postulatum, & per κ: per secundam primi elementorum excitetur b c, & circum k n, describatur circulus, connectanturque n f, k n, d, & k. Igitur qui ad f d, recti sunt. In uno igitur signo f, n, d, tangunt per correlarium decimæsextam tertij elementorum. Ipsi igitur ab ipso n oculo educti radij per n f, n d procidunt, quare ipsi ambitus f l d, tantū spectabitur: sed f l d, minor est ipso c l b. semicirculo. Igitur f l d, semicirculo minor uidebitur. Similiter enim basi per omnem superficiem cylindri demōstrabimus. quare totius cylindri dimidio minus spectabitur
+COno circulum basim habente, si a contactibus qui ab oculo in coni basim procidētibus radijs rectæ lineæ deducātur per superficiē
 
-[Diagram: eye n at top; rays descending to a circle below with centre κ; b and c at the ends of the horizontal line through the circle, f on the circle at the right, tangent points on either side]
-
-## Theorema uigesimumnonum
-
-{dropcap:O|lines=?|style=decorated|decoration="face"}Culo. propius ad cylindrum posito, minus quidem erit assumptum cylindri sub ipsis aspectibus, uidebitur autem maius aspici.
+<!-- Catchword: coni -->

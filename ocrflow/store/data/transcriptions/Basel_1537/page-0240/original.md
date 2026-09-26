@@ -1,27 +1,41 @@
-<!-- Running title: LIBER NONVS. -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 229 -->
+<!-- Page number: 230 -->
 
-duorū f,g, qui sit h: quia ergo h numerat e, numerabit d, & compositū ex a,b,c, & quia numerat f uel g, quorum uterque numerat utrunq̃ mediorum, & simpliciter omnes si plures duobus sint, ex 2 octaui, sequitur ut ipse numeret b & c, ergo & a, quia numerat totum a,b, c, non sunt igitur a & d cōtra se primi, quod est inconueniens per 3 octaui.
+fit ex composito eorum in eundem.
 
-Similiter quoq̃ constabit, compositū ex a,b,d, primum esse ad c. Si enim ut prius c numerat ambos, sequitur per præmissam, ut aliquis numerus quia etiam sit h, numeret e & alterum duorum f,g, itaq̃ h numerat c, & totum a,b,d. sed & b, cum utraq̃ radicum numeret omnes medios: igitur & compositum ex a & d. Et quia necessario numerat alterum duorum a.d, cum numeret alterum duorum f, g, numerabit & reliquum. Non sunt igitur a & d contra se primi, & ita idem ut prius.
+Hoc est conuersum eius quod modo demonstratum est. Vt si ex b & c & d in a, fiant e & f & g, fiet quoq̃ compositus ex his ex illorum composito in eundem, quod ex 17 septimi, & præmonstrato facile concluditur.
 
-[Diagram: dotted number lines a, b, c, d; combined lines a…b…c and a…b…d; solid line e, dotted f, g, solid line h]
+[Diagram: two groups of dotted number lines labelled b, c, d; a; e, f, g]
 
-CAMPANI annotationes. Demonstrant autem idem aliter de tribus cōtinue proportionalibus & minimis sine adminiculo præmissæ. probant enim ex quibusq̃ duobus compositū primum esse ad reliquum. Sint itaq̃ tres continue proportionales & minimi a, b,c, quorum termini d & e: dico tunc compositū ex a & b, primum esse ad c, & compositum ex b & c, ad a, itemq̃ ex a & c, ad b. Manifestum enim est ex secūdo octaui, quod ex d in se, fit a, & in e, fit b, & ex e in se, c, & ex 22 septimi, q̃ d & e sunt contra se primi. Itaq̃ ex prima parte 29 eiusdem, erit totus d e primus ad utrunq̃ eorum: quia igitur uterq̃ numerorum d & d e primus est ad e, erit per 25 eiusdem qui ex d in d e producitur (& ipse est compositus ex a & b) primus ad e: sequitur ergo per 26 eiusdem ut etiam cōpositus ex a & b sit primus ad c, fit enim c ex e in se, simili quoq̃ demōstratione probabis compositū ex b & c primum esse ad a.
+**3** Quod fit ex ductu quotlibet numerorū in quotlibet alios, æquum est ei quod fit ex composito horum in compositum illorum.
 
-At uero compositum ex a & c, primum esse ad b, sic habeto. Cum sit enim uterq̃ duorum d & e primus ad totū d e, erit per 25 septimi, qui ex d in e producitur (& ipse est b) primus ad d e, itaq̃ per 26 eiusdem qui ex d e in se prouenit (& ipse est qui componitur ex a & c & duplo b) primus erit ad b: sequitut ergo compositū ex a & c primum esse ad b, necesse enim est ut ex duobus compositus cum primus fuerit ad unum eorum ex quibus componitur, sit primus ad reliquū: demonstratum autem est hoc supra 29 septimi. Oportet autem stabilire ad robur istius demonstrationis compositū ex a & b produci ex d in compositum ex d & e, supposito quod ex d in se fit a & ex eodem in e, b, itemq̃ quod ex d e in se producatur compositum ex a & c & duplo b, supposito eo quod prius, & quod ex e in se sit c. Huius itaq̃ gratia proponimus hæc demonstranda.
+Vt si a,b,c, multiplicent d,e,f, quilibet quemlibet, iunganturq̃ producta, dico aggregatum ex productis esse æquale producto ex composito ex a & b & c, in compositum ex d & e & f. Est enim per præmissam quod fit ex composito ex a, b, c, in d, quantum quod ex singulis in illum d, sic & in e & in f: ex composito autem horum a, b,c, in quemlibet illorum d,e,f, per ante præmissam fit quantum ex composito in compositum, itaq̃ constat propositum.
 
-[Diagram: dotted number lines a, b, c; combined lines a…b and b…c; a…c; d, e and d…e]
+[Diagram: dotted number lines a, b, c and d, e, f; combined lines a…b…c and d…e…f]
 
-**1** Quod fit ex ductu unius numeri in quotlibet, tantum est quantū quod ex ductu eiusdem in compositum ex illis.
+**4** Numero in quotlibet partes diuiso, tantū est quod fit ex toto eo in se, quantum quod ex eo in omnes suas partes.
 
-Idem proponit prima secūdi de lineis. Sit enim ut ex a in b & in c & in d, proueniant e & f & g. Dico quod ex a in compositum ex b & c & d, prouenit compositū ex e & f & g. Sequitur enim ex conuersione diffinitionis eius quod multiplicatur, ut tota pars sit b, e, tota c, f, sed & d tota g, quota est unitas a, per 5 itaque septimi, tota quoq̃ pars erit compositus ex b & c & d, cōpositi ex e & f & g, quota est unitas a, ergo per diffinitionē ex a in compositum ex b & c & d, fit compositus ex e & f & g, quod est propositum.
+Idem proponit secunda secundi de lineis. Vt si a diuidatur in b, & c & d, dico quod tantum fit ex a in se, quantum in omnes illos b,c,d: posito enim e æquali a, constat ex prima harum incidentiū tantum fieri ex e in a, quantum in omnes partes a, sed per conceptionem ex e in a fit quantum ex a in se, & ex e in partes a, quantum ex a in easdem. Manifestum ergo est, uerum esse quod dicitur.
 
-[Diagram: two groups of dotted number lines, each labelled a, b, c, d, e, f, g]
+[Diagram: dotted line divided b, c, d and dotted line e]
 
-**2** Quod fit ex ductu quotlibet numerorum in unum, æquum est ei quod
+**5** Numero in duo diuiso, quod fit ex toto in alterum diuidentiū, tantum est quantum quod ex eodem in se & in alterum.
 
-<!-- Signature: u -->
+Idem proponit tertia secundi de lineis. Sit enim a diuisus in b & c, dico tantum fieri ex a in c, quantum ex c in se & in b. Nam quod ex a in c, est quantum quod ex c in a, per 17 septimi. Sumpto itaq̃ d æquali c, erit a in c, quantum d in a. At per primam harum, d in a, est quantū in b & c. Quia ergo d in a & in b & in c, est quantum c in a & in b & in se propter æqualitatem c & d, constat propositum.
 
-<!-- Catchword: fit ex -->
+[Diagram: line a; dotted line divided b, c; dotted line d]
+
+**6** Numero in duo diuiso, quod ex ductu totius in se, est quantum quod ex ductu utriusq̃ diuidentium in se & alterius eorum bis in alterum.
+
+Idem proponit quarta secundi de lineis. Vt si a diuidatur in b & c, dico tantum fieri ex a in se; quantum ex b in se & c in se, & ex b bis in c. Est enim per 4 harum, quod ex a in se, quantū quod ex eo in b & in c: ex eo autē in b, per præmissam est quantū ex b in se & in c, at ex a in c, per eandē est quantum ex c in se & in b. Et quia ex c in b tantum est, quantum ex b in c per 17 septimi, liquet uerum esse quod proponitur.
+
+[Diagram: line a; dotted line divided b, c]
+
+**7** Numero per duo æqualia duoq̃ inæqualia diuiso, quod fit ex maiori inæqualium in minorem cum quadrato intermedij æquum est quadrato medietatis totius.
+
+Idem proponit de lineis 5 secundi. Vt si a b diuidatur in duos numeros æquales, qui sint a c & c b, itemq̃ in duos inæquales, quorum sit maior a d, & minor d b, dico quod illud quod fit ex toto a d in d b cum quadrato c d, æquale est quadrato c b. Per præmissam enim, quadratum c b est æquale quadrato c d & quadrato d b & ei quod fit ex b d in c d bis. Sed ex b d in se & in c d tantum fit, quantum in c b per primam harum, & ideo quantum in a c. Itaq̃ ex b d in se & in c d bis, quantum ex ipso b d in a d: per eandem igitur, quadratum c b superat id quod fit ex b d in a d in quadrato c d, constat ergo propositum.
+
+[Diagram: dotted line with points a, c, d, b]
+
+<!-- Catchword: Cum -->

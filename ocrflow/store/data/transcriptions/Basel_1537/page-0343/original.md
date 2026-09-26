@@ -1,29 +1,45 @@
-<!-- Page number: 332 -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 333 -->
 
-commuicet{printer-error-correction:communicet} b in longitudine, dico quod b erit residuum eiusdem speciei cum a. Adiūgatur enim linea c ad lineam a, & c illa sit per cuius abscisionē a fuit residuum. Et ad b adiungatur alia quæ sit d. ad quā sic se habeat b sicut a ad c, sitq̃ cōposita ex a & c e, cōposita uero ex b & d, sit f, eritq̃ ex permutata proportionalitate a ad b, sicut c ad d, & per 13 quinti erit e ad f, sicut a ad b, uel sicut c ad d. Cum itaque a cōmunicet cum b, erit per 20 c cōmunicans cum d & e communicans cum f. Et quia etiam est necessario ex permutata proportionalitate e ad c sicut f ad d, sequitur per 12 ut si fuerit e potentior c in quadrato lineæ sibi communicantis in longitudine uel si forte incommensurabilis, sit similiter f potētior d. At quoniam omnis linea cōmunicans in longitudine lineæ rationali est similiter illi rationalis (similiter dico, quia ambæ erūt rationales in longitudine, uel ambæ in potētia tantum) sequitur ex diffinitionibus residuorum ut b sit residuū eiusdē speciei cum a. Si autē b cōmunicat in potentia cum a, ipsa quoq̃ erit residuū. nō tamen eiusdem speciei necessario, sed quemadmodū dictum est, cuius demōstratio ex ijs quæ in 60 de binomijs dicta sunt, colligenda est.
+IDEM aliter Si linea b communicat cum linea a (quæ est utrūlibet residuum mediale) in longitudine uel in potentia, sit superficies c e adiūcta ad lineā rationalē c d. æqualis quadrato a, & f g æqualis quadrato b, erūtq̃ ob hoc c e & f g communicantes, quemadmodū & quadrata linearum a & b eis æqualia, ideoq̃ per primam sexti & 10 huius, d e & e g sunt communicantes in longitudine. Et quia si a est residuum mediale primum linea d e est residuum secundum per 93, & si a est residuum mediale secundum linea d e est residuum tertium per 94, at cum d e est residuum secūdum, linea e g est etiā residuum secundū, & cum illa tertium similiter, & hæc est tertium per 98, sequitur itaque ex 87 & 88 ut b sit residuum mediale primum aut secūdum, prout fuerit a. Et sic patet quod intendimus.
 
-## Eucli.ex Zamb. — Theorema 79 — Propositio 101{printer-error-correction:103}
+[Diagram: two short horizontal segments labelled a and b, one above the other; below them a rectangle on base c d (c bottom-left, d bottom-right), divided by a horizontal line f–e (f on the left side, e on the right side), with g at the top right]
 
-[Margin]
-101
-[/Margin]
-
-## Quæ ipsi apotomæ longitudine est commensurabilis, apotome est & in ordine eadem.
-
-THEON ex Zamberto. Sit apotome α β, & ipsi α β, longitudine cōmensurabilis esto γ δ. Dico quod & γ δ apotome est, & in eadem. Quoniā enim α β apotome est, sit ei congruens (per 79 decimi,) β ε. Ipsæ igitur α ε, ε β, (per eandē,) rationales sunt potētia tantū cōmensurabiles. Et ipsius α β ad γ δ, rationi eadem fiat ratio ipsius β ε, ad δ ζ. Et igitur sicut (per 12 quinti,) unum ad unū, omnia sunt ad omnia, est igitur & sicut tota α ε, ad totam γ ζ, sic est α β. ad γ δ. Commensurabilis autem est α β, ipsi γ δ longitudine, commensurabilis igitur est (per 11 decimi, & α ε, ipsi γ ζ, & β ε ipsi δ ζ. Et ipsæ α ε, ε β, rationales sunt potentia tantum commensurabiles, & ipsæ igitur γ ζ, ζ δ, rationales sunt potētia tantū cōmēsurabiles. Apotome igitur est γ δ. Dico etiā quod in ordine eadē ipsi α β. Quoniā est sicut α ε, ad γ ζ, sic est β ε, ad δ ζ, uicissim igitur (per 16 quinti,) est sicut α ε, ad ε β, sic est γ ζ, ad δ ζ. Iam ipsa α ε, ipsa ε β, aut maius potest eo quod ex sibi commensurabili, aut eo quod ex sibi incommensurabili. Si quidem α ε, ipsa ε β maius potest eo quod ex sibi cōmēsurabili, & ε ζ{printer-error-correction:γ ζ}, ipsa ζ δ, (per 14 decimi) maius poterit eo quod ex sibi cōmēsurabili. Et siquidē cōmēsurabilis est α β{printer-error-correction:α ε} ipsi expositæ rationali lōgitudine, & (per 13 decimi) γ ζ, quoque,, si uero β ε, & δ ζ, etiam, si autem neutra ipsarum α ε, ε β, & neutra ipsarum γ ζ, ζ δ. Si uero α ε, ipsa ε β, maius poterit eo quod ex sibi incommensurabili, & γ ζ, ipsa ζ δ maius poterit eo quod ex sibi incommensurabili. Et si α ε, ipsi expositæ rationali commensurabilis est lōgitudine, & γ ζ, (per 13 decimi,) si autem β ε, & δ ζ, etiā, si uero neutra ipsarum α ε, ε β, neutra etiam ipsarum γ ζ, ζ δ. Igitur γ δ apotome est, & ipsi α β. in ordine eadem. Quæ ipsi igitur apotomæ, & reliqua quæ sequuntur, quod erat ostendendum.
-
-[Diagram: two horizontal lines, one above the other: the upper is the apotome α β with its annex, labels α at the left end, β at the division point, ε at the right end; the lower is γ δ with its annex, labels γ at the left end, δ at the division point, ζ at the right end]
-
-## Eucli.ex Camp. — Propositio 99
+## Eucli.ex Zamb. — Theorema 80 — Propositio 104
 
 [Margin]
-99
+104
 [/Margin]
 
-## OMnis linea utrilibet residuo mediali communicans, est sub ipsius termino & ordine residuum mediale.
+## Mediæ apotomæ commensurabilis, mediæ apotome est, & in ordine eadem.
 
-CAMPANVS Verum est quod dicitur, siue cōmunicet linea cum utrolibet residuo mediali in longitudine, siue in potentia. Sit enim a utrumlibet residuum mediale, cui b communicet in lōgitudine uel potentia. Dico quod b est etiam residuum mediale, quale fuerit a. Adiungatur enim linea c ad lineam a. & sit c per cuius abscisionem a fuit residuū mediale. Et ad b adiūgatur alia quæ sit d, sitq̃ b ad d, sicut a ad c, totaq̃ cōposita ex a & c, sit e & ex b, d, sit f. Describantur igitur quadrata c & d, quæ sint g & h, & superficies e in c, sit k, & f in d, sit l. Et quia est ut prius e ad f & c ad d sicut a ad b, sunt autē & c mediales potentia tātum cōicantes ex 69 & 70, sequitur ex 21 ut f & d eis cōmunicantes sint etiā mediales potētia tantū cōicantes. Constat autē ex prima sexti, quod sit K ad g sicut e ad c, & l ad h sicut f ad. Et quia est e ad c sicut f ad d, sequitur ut sit K ad g, sicut l ad h. Et permutatim K ad l, sicut g ad h. Cum ergo g cōmunicet cum h, sequitur ut K cōmunicet cum l. Si igitur K est rationale (quod est in residuo mediali primo) erit etiā per diffinitionem l rationalis. quare per 69 b etiam est residuū mediale primum. Si autē K sit medialis (quod est in residuo mediali secundo) etit{printer-error-correction:erit} per 21 etiam l medialis, ideoque b per 70 residuum mediale secundum. Quare constat propositum.
+THEON ex Zāb. Sit mediæ apotomæ α β, & ipsi α β commensurabilis esto γ δ. Dico quod & γ δ mediæ apotomæ est, & in ordine eadem ipsi α β, Quoniam enim mediæ apotomæ est α β, esto ei congruens (per 80 decimi,) ipsa β ε, ipsæ igitur α ε, ε β, mediæ sunt potētia tantū cōmensurabiles, fiatq̃ (per 12 sexti) sicut α β, ad γ δ. sic β ε, ad δ ζ commēsurabilis igitur est (per 6 decimi,) & α ε, ipsi γ ζ, & β ε, ipsi δ ζ. Ipsæ autē α ε, ε β, mediæ sunt potentia tantū cōmensurabiles. Ipsæ igitur γ ζ, ζ δ, mediæ sunt in potentia tantum commēsurabiles, mediæ igitur apotome est (per 74 & 75 decimi,) γ δ. Ostendendum est quod & in ordine eadem est ipsi α β. Quoniā enim est sicut α ε ad ε β, sic γ ζ, ad ζ δ sed sicut quidem α ε, ad ε β, sic quod ex α ε, ad id quod sub α ε, ε β, sicut aūt γ ζ, ad ζ δ, sic quod ex γ ζ ad id quod sub γ ζ, ζ δ, est igitur (per 11 quinti,) & sicut quod ex α ε, ad id quod sub α ε, ε β, sic quod ex γ ζ ad id quod sub γ ζ, ζ δ. Et uicissim (per 16 quinti,) sicut quod ex γ δ{printer-error-correction:α ε} ad id quod ex ζ γ, sic quod sub α ε, ε β, ad id quod sub γ ζ, ζ δ. Commensurabile autem est quod ex α ε, ei quod ex γ ζ cōmensurabile igitur est & quod sub α ε, ε β, ei quod sub γ ζ, ζ δ. Si quidem igitur quod sub α ε, ε β, rationale est, rationale est & quod sub γ ζ, ζ δ. Si autem medium est quod sub α ε, ε β, medium est & quod sub γ ζ, ζ δ, mediæ igitur apotomæ est γ δ. & ipsi α β, in ordine eadem. Quod erat ostendendum.
 
-[Diagram: two rectangular diagrams: the left one a tall rectangle divided by a horizontal line into an upper part K and a lower part g, with c and a beneath its base; the right one a rectangle divided into an upper part l and a lower part h, standing on a baseline with d, f, b beneath]
+[Diagram: two horizontal lines, one above the other: the upper labelled α at the left end, β at the division point, ε at the right end; the lower labelled γ at the left end, δ at the division point, ζ at the right end]
+
+## Eucli.ex Camp. — Propositio 100
+
+[Margin]
+100
+[/Margin]
+
+## SI linea aliqua lineæ minori communicet, ipsa quoq̃ erit linea minor.
+
+CAMPANVS Facile est hanc probare duplici modo sicut præmissam, siue cōmunicet linea aliqua cū linea minori in lōgitudine, siue in potentia. Hoc autem apposito, quantum ad primum modum quod cum sit f ad d sicut e ad c, erit ex secunda parte 18 sexti quadratū f ad quadratum d sicut quadratū e ad quadratum c, & coniunctim quadrata duarū linearum f & d ad quadratū d, sicut quadrata duarū linearū e & c ad quadratū c, & permutatim quadrata duarū linearū f & d ad quadrata duarū linearū e & b{printer-error-correction:e & c}, sicut quadratū d ad quadratū c. Cōmunicat autem quadratū d, cū quadrato c, ergo duo quadrata duarū linearū f & d pariter accepta cōmunicāt cū duobus duarū linearum e & c pariter acceptis. Et quia ex 71 quadrata duarū linearum e & c pariter accepta sunt rationale: erit etiam per diffinitionē & duo duarum linearum f & d pariter accepta ratiōale. Cumq̃ sit superficies K medialis, erit etiā l sibi cōmunicās medialis. igitur ex 71 b est linea minor. Quātū autē ad secundum modum erit per 95 linea d e residuum quartum. ideoq̃ per 98 & linea e g erit etiā residuum quartum, ideoq̃ etiā per 89 linea b est linea minor.
+
+[Diagram: composite diagram as in the preceding proposition: a tall rectangle divided into an upper part K and a lower part g, with c, e, a beneath its base; beside it a rectangle divided into an upper part l and a lower part h, standing on a baseline with d, f, b beneath]
+
+[Diagram: two horizontal segments labelled a and b, one above the other; below them a large rectangle on base c d (c bottom-left, d bottom-right), divided by a horizontal line f–e (f on the left side, e on the right side), with g at the top right]
+
+Eucl.ex Zāb. — Theorema 81 — Propositio 105
+
+[Margin]
+105
+[/Margin]
+
+## Minori commensurabilis, minor est,
+
+THEON ex Zāb. Sit minor α β, & ipsi α β, cōmensurabilis esto γ δ, Dico quod γ δ, minor est. Fiant inquā sit prædicta, Et quoniam ipsæ α ε, ε β. potentia sunt incōmensurabiles, & ipsæ γ ζ, ζ δ, potentia sunt incōmensurabi
+
+<!-- Catchword: les -->

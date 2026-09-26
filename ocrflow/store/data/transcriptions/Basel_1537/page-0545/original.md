@@ -1,45 +1,49 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: PERSPECTIVA -->
 
-<!-- Page number: 534 -->
+<!-- Page number: 535 -->
 
-Igitur magnitudo d f, maior apparet oculo in n, existente quàm in c, oculo igitur in b c permutato parallelo existenti ipsi d f, spectatum inæquale apparet.
+præire putabitur, permutatis autem præcedens subsequi, & subsequens præcedere putabitur.
 
-## Theorema quadragesimumnonum.
+Deferantur æquiceleriter b c, d f, k l, & ab oculo m, procidāt radij m c, m f, & m l, igitur sublimior & dexterior omniū ab m, oculo radiorū erumpentiū est ipse m c. Igitur b c, præcedere putabitur, permutatis autem b c, d f, & k l, in n x, p r, s t, quæ positis procidāt radij m n, m p, & m s, omniū igitur ab m, oculo radiorū erūpentiū dexterior est ipse m s. Sinisterior uero m n, quare & s t præcedere putabitur, subsequi uero n x. Igitur b c præcedens in n x, posito subsequi & l k, subsequēs in s t, positū præcedere putabitur.
 
-ESt aliquis locus in quo æquales magnitudines inæquales apparent.
+[Diagram: three lines from b, c, d at the top converging downwards to k]
 
-Sit, nanq̃ æqualis b c ipsi c d, & circum quidē b c, semicirculus describatur b f c, circum uero c d, describatur segmentū maius semicirculo. Connectatur f b, f c, f d, igitur angulus qui in semicirculo est per 31 tertij element. maior est eo qui est in maiori segmētō, at quæ sub maiori spectantur angulo per 4 suppositionē opticæ maiora apparēt, oculo uero posito in f, maior igitur apparet b c, ipsa c d, erat autem æqualis: est igitur cōmunis locus in quo æquales inæquales apparent magnitudines.
+## Theorema 53 &nbsp;&nbsp; Propositio 54
 
-[Diagram: two arcs over the base line d, c, b, meeting at f above; chords from f to d, c, b]
+SI aliquibus delatis, & pluribus celeritate inæquali, cōferatur uero ad eadē & oculus, oculo quidē æquiceleriter delata stare, quæ uero tardius in contrariū ferri, quæ autē celerius, præcedere existimabuntur.
 
-## Theorema quinquagesimum conuersum præcedentis.
+Ferantur inæquali celeritate b c d, tardius uero feratur b, sed & æquiceleriter oculo k & d, celerius ipso c, ab oculo uero k, procidant radij k b, k c, k d, igitur oculo ipsos b c d, insequēte. Semper c per c delatum stare putabitur. At b derelictum in contrarium ferri, & d celerius ipso c uidebitur præcedere, plus nanq̃ ab ipso c distat.
 
-ESt aliq̃s locus cōmunis à q̃ inæquales magnitudines æquales apparēt.
+[Diagram: three lines from b, c, d at the top converging downwards to f]
 
-Esto, inquā, maior b c, ipsa c d, & super b c, maius semicirculo segmentum describatur, & super c d, simile ei quod super b c hoc est suscipiēs angulū æqualē ei qui in b f c, cōnectantur autē f b, f c, f d: igitur quoniā per 27 tertij element. in similibus segmētis anguli cōstituti inuicē sunt æquales, æquales quoq̃ sunt & in b f c, c f d, segmētis anguli sibi inuicē. Quæ uero sub æqua spectātur angulis æqualia apparēt, per 6 suppositionē opticæ, oculo igitur posito in f, signo æquales apparet, b c ipsi c d, est autē maior. Est igitur locus quidam cōmunis ex quo inæquales magnitudines æquales apparent.
+## Theorema 54 &nbsp;&nbsp; Propositio 55
 
-[Diagram: two arcs over the base line d, c, b, meeting at f above; chords from f]
+SI aliq̃bus delatis differat quippiā aliquid non delatū, non delatū in contrariū ferri putabit.
 
-## Theorema quinquagesimumprimum.
+Ferrantur nanq̃ b, d, maneat autem c, & ab oculo f, procidant radij f b, f c, f d. Igitur b quidem delatū propius erit ipsi c. At d discedere longius, proinde c in contrariū ferri putabitur.
 
-ALiqui sunt loci in q̃bus binæ magnitudines inæquales in idem compositæ utriq̃ inæqualium æquales apparent.
+[Diagram: c and b at the top; lines converge downwards through d to f]
 
-Esto nempe maior b c, ipsa c d, & super ipsis b c & c d, semicirculi describātur, superq̃ tota b d. Igitur per 31 tertij element. angulus qui in semicirculo b a d, æqualis est ei q̃ in b k c, uterq̃ enim ipsorū rectus est. Igitur b c ipsi b d, æqualis apparet, itidem quoq̃ & b d ipsi c d, oculis in b a d, b k c, c f d, semicirculis positis. Sunt igitur aliqui loci in q̃bus binæ inæquales magnitudines in idem cōpositæ æquales utriq̃ inæqualium apparent.
+## Theorema 55 &nbsp;&nbsp; Propositio 56
 
-[Diagram: large semicircle with a at its apex, over two smaller semicircles marked f and k; base line with b at the left, c in the middle, b at the right]
+OCulo prope spectatum accedente, spectatū augeri putabitur.
 
-## Problema primum &nbsp;&nbsp; Propositio 52
+Spectetur, inquā, b c, oculo in f, posito sub f b, f c, radijs, permuteturq̃ oculus ut propius sit ipsi b c, sitq̃ in d, spectaturq̃ idem sub d b, & d c radijs. Igitur angulus d, angulo f, maior est. Sed quæ sub maioribus angulis spectantur per suppositionem 4 opticæ maiora apparent. Igitur b c, oculo existente in d, augeri putabitur potius quàm in f.
 
-LOcos inuenire a quibus æqualis magnitudo dimidiū apparet, siue quarta pars, & uniuersaliter in data ratione in qua & angulus secatur.
+[Diagram: horizontal lines b, c and f at the top with k below; lines converge downwards to a]
 
-Sit enim recta linea l f, & super l f, describatur segmentū contingēs, & inscribatur in eo angulus k. Ipsi autē l f, æqualis esto b c, & sup b c, describatur segmentū quod suscipiet angulū ipsius k, anguli dimidiū, igitur angulus k, ipsius d, anguli duplus est, dupla igitur apparet l f, ipsius b c, oculis in l k f, & b d c, circunferentijs iacentibus.
+## Theorema 56 &nbsp;&nbsp; Propositio 57
 
-[Diagram: two small circle-segments side by side, the first with k at its apex over the base l, f, the second with d(?) at its apex over the base b, b]
+AEquali celeritate delatorū, quæ longius distant tardius ferri uidentur.
 
-[Diagram: fan of lines converging to m at the bottom; along the top the points b, f, n and z(?); on the descending lines the points d, f, p, r and i, t, k, f]
+Ferantur enim æquiceleriter b, k, sicut ad partes f, & ab oculo a, radij excitentur a c, a d, a f. Igitur k minores habet ab ipso oculo radios productos, quàm b, minus igitur transibit interuallum, & prius permutans a f, uisum celerius ferri putabitur.
 
-## Theorema 52 &nbsp;&nbsp; Propositio 53
+Aliter.
 
-AEquali celeritate delatorū, in eademq̃ recta linea existentium, propinquū oculo postremum
+Ferantur bina signa a b, in parallelos rectas lineas ad b e, æqualiter æque cito & æquali tempore procedent, sint igitur æquales a d, b e, procidantq̃ radij ab f, oculo f a, f d, f e. Quoniam angulus qui sub d f b, minor est eo qui sub b f e, minus igitur a d, interuallum, uidebitur ipso b e. Quare a tardius quàm b ferri putabitur.
 
-<!-- Catchword: præire -->
+[Diagram: d and a at the top left, b at the right, c at the left below; lines run down to f at the lower right, forming two triangles]
+
+<!-- Signature: Y 4 -->
+
+<!-- Catchword: Theorema -->

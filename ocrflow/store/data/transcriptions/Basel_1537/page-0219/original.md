@@ -1,23 +1,39 @@
-<!-- Page number: 208 -->
+<!-- Running title: LIBER OCTAVVS -->
 
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 209 -->
 
-præmissæ, appositum erat a & b esse contra se primos, quod non apponitur hic ad passionem, quapropter uniuersalior est passio huius: subiecto illius. Quia igitur quoties unitas in d, toties est d in c & toties c in a, constat quod ex d in se, fit c, & ex eodem d in ca. Similiter quoque ex f in se & in c. fient e & b. Ducatur itaque d in f, & productus sit g, itemque idem d ducatur in g & e, & sint producti h & k. Constat igitur ex 18 septimi, quod c ad g, ut d ad f. & ex 19 quod g ad e, ut d ad f, quare c,g,e, sunt continue proportionales in proportione d ad f. Item per 18 iterum sunt a ad h sicut c ad g, & h ad k sicut g ad e, & per 19 k ad b sicut d ad f, igitur sunt a,h,k,b, continue proportionales. Quare constat propositum.
+## Eucli.ex Camp. Propositio 10
 
-[Diagram: numbers represented as vertical columns of dots, labelled a, h, k, b in the upper row, c, g, e below, then d, f, and at bottom the word "unitas"]
+{dropcap:S|lines=?|style=decorated|decoration="woodcut"}I fuerint ambo quadrati, erit proportio unius ad alterum tanquam sui lateris ad latus illius proportio duplicata. Si uero ambo fuerint cubi, erit proportio alterius ad alterum tanquam sui lateris ad latus alterius proportio triplicata.
 
-## Eucli.ex Zamb. Theorema 8 Propositio 10 Cōuersa præcedētis.
+CAMPANVS. Sint duo quadrati a & b, & duo cubi c,& d, latera tam quadratorū quàm cuborum, sit e, quidem a & c, f uero, b & d. Dico quod proportio a ad b erit sicut e ad f duplicata. c uero ad d sicut eadem triplicata. Manifestum enim quod ex e in se fit a, & ex ipso e in a,c. sic quoque ex f in se fit b, & ex ipso in b,d, ducatur igitur e in f, & proueniat g, & in g & b, & proueniant h & k, eritq̃ per 18 septimi a ad g. sicut e ad f. & per 19 g ad b, sicut e ad f, igitur ex diffinitione, a ad b, sicut e ad f duplicata, quod est primum. Secundum eodē modo constat. Sunt enim per 18 iterum c ad h sicut a ad g, & h ad k, sicut g ad b, & per 19 k ad d, sicut e ad f, quare c, h, k, d, sunt etiam cōtinue proportionales in proportione c ad f, per diffinitionem igitur erit c ad d, sicut e ad f, triplicata. quod est secundum.
+
+[Diagram: numbers as horizontal rows of dots, labelled c; a; e and b; g; f and k; b; d]
+
+## Eucli.ex Zamb. Theorema 9 Propositio 11
 
 [Margin]
-10
+11
 [/Margin]
 
-Si inter binos numeros & unitatem continue proportionales numeri ceciderint, quot inter utrunque ipsorum & unitatem continue proportionales ceciderint numeri tot & inter eos continue proportionales cadent.
+Duorum numerorum quadratorum, unus medius proportionalis est numerus, Et quadratus ad quadratum duplam habet rationem. quàm latus ad latus.
 
-THEON ex Zamberto. Inter binos enim numeros α,β,& unitatem ε, continue proportionales cadant numeri δ,ε,& ζ,η. Dico quotquot inter utrunque ipsrrum α,β,& ipsam γ unitatem, continue proportionales ceciderunt numeri: tot quoque inter α,β, continue proportionales cadent. Igitur δ, ipsum ζ, multiplicans, ipsum efficiat θ, uterque autem ipsorum δ,ζ, ipsum θ multiplicans, efficiat ipsos κ,λ. Et quoniam est sicut γ, unitas ad δ, numerum sic est δ, ad ε, æque igitur ε, unitas ipsum δ, metitur numerum, & δ ipsum ε. Ipsa autem γ, unitas ipsum δ, numerum metitur per eas quæ in ipso sunt δ unitates, & δ, igitur nnmerus ε metitur per eas quæ in δ, sunt unitates. Igitur δ, seipsum multiplicans, ipsum ε, fecit. Rursus quoniam est sicut γ, unitas ad δ, numerum sic est ε ad α, æque igitur γ, unitas ipsum δ, numerum metitur, & ε, ipsum α. At γ unitas, ipsum δ, numerum metitur per eas quæ in ipso δ, sunt unitates, & ε, igitur ipsum α, metitur per eas quæ in ipso δ, sunt unitates. Igitur δ, ipsum ε multiplicans, iosum α fecit. Id propterea etiam ζ, seipsum multiplicans, ipsum η, fecit, ipsum autem η, multiplicans, ipsum β, fecit. Et quoniam δ, seipsum multiplicans ipsum ε, fecit, ipsum autem ζ, multiplicans ipsum fecit θ, est igitur (per decimam septimam septimi,) sicut δ, ad ζ, sic est ε ad θ. Id propterea etiam sicut δ, ad ζ, sic θ, ad η, Et sicut igitur (per undecimā quinti,) ad θ, sic θ ad η. Rursus quoniam δ, utrunque ipsorum ε,θ, multiplicans, utrunque ipsorum α,κ, fecit: est igitur (per 17 septimi,) sicut ε ad θ, sic α, ad κ. Sed sicut ε, ad θ, sic est δ, ad ζ, & sicut igitur (per undecimam quinti) δ ad ζ, sic α, ad κ. Rursus quoniam uterque ipsorum δ,ζ, ipsum θ, muitiplicans, utrunque ipsorum κ.λ, fecit: est igitur (per decimamseptimam septimi,) sicut δ, ad ζ. sic κ ad λ. Sed sicut δ ad ζ, sic α, ad κ, & sicut igitur (per undecimam quinti,) α, ad κ, sic κ ad λ. Insuper quoniam ζ, utrunque ipsorum β,η, multiplicans, utrunque ipsorum λ,β, fecit: est igitur (per 17 septimi,) sicut θ ad η, sic λ, ad b. Sicut autem θ ad η, sic δ ad ζ, & sicut igitur (per 11 quinti,) δ, ad ζ, sic λ ad β, patuit autem quod sicut δ ad ζ, sic α, ad κ, & κ ad λ, & λ ad β, igitur ipsi α, κ, λ, β: continue sunt proportionales. Quot igitur inter utrunque ipsorū α,β,& γ, unitatē, continue proportionales cadunt numeri: tot & inter α.β, continue cadunt, quod demonstraße oportuit.
+THEON ex Zamberto. Sint quadrati numeri α,β,& ipsius quidem β, latus sit γ, ipsius uero β, sit latus δ. Dico quod ipsorum α,β, mnus medius proportionalis est numerus, & α, ad β, duplam habet rationem quàm γ, ad δ. Ipse enim γ, ipsum δ, multiplicans, ipsum efficiat ε. Et quoniā α, quadratus est, latus autem eius est γ, igitur γ, seipsum multiplicans ipsum effecit α, id propterea & δ, seipsum multiplicans ipsum β fecit, Quoniam igitur γ, utrunque ipsorum γ, δ, multiplicans utrunque ipsorum α,ε, effecit, est igitur (per 17 septimi,) sicut γ ad δ, sic est α, ad ε. Rursus quoniam γ, ipsum δ, multiplicans ipsum effecit ε, ut δ, seipsum multiplicans ipsum effecit β, duo iam numeri γ,δ, unum & eundem multiplicantes δ, ipsos ε,β, effecerunt. Est igitur (per 18 septimi,) sicut γ ad δ, sic est ε ad β. Sed sicut γ ad δ, sic est α ad ε,) & sicut igitur (per 11 quinti) α ad ε, sic est ε ad β. Ipsorum igitur α,β, unus medius proportionalis est numerus ε. Dico iam quod & α ad β, duplam rationem habet, quàm γ ad δ. Quoniam enim tres numeri proportionales sunt α,ε,β, igitur (per 10 diffinitionem quinti) α ad β, duplam rationem habet quàm α ad ε. Sicut autem α ad ε, sic γ ad δ, Igitur α ad β, duplam rationem habet, quàm γ latus ad δ lat us, quod oportuit demonstraße.
 
-[Diagram: numbers represented as vertical columns of dots, labelled α, κ, λ, β in the lower row, with ε, θ, η above, then δ, ζ, and γ at the bottom]
+[Diagram: numbers as horizontal rows of dots, labelled α; γ; ε; δ; β]
 
-Hæc undecima ex Campano, duabus ex Zamberto sequentibus respondent.
+## Eucli.ex Zamb. Theorema 10 Propositio 12
 
-<!-- Catchword: Eucli. -->
+[Margin]
+12
+[/Margin]
+
+Duorum cuborum numerorū, bini medij proportionales sunt numeri. Et cubus ad cubum triplam rationem habet, quàm latus ad latus.
+
+THEON ex Zamberto. Sint bini cubi numeri α,β,& ipsius quidem α. latus esto γ, ipsius autem β, latusesto δ. Dico quod ipsorum α,β, bini medij proportionales sunt numeri, & α ad β, triplam rationē habet, quàm γ ad δ. Igitur γ, seipsum multiplicans, ipsum efficiat ε, ipsum autem δ, uultiplicans, ipsum efficiat ζ, at δ seipsum multiplicans, ipsum η, faciat. Vterq̃ aūt ipsorū γ,δ, ipsum ζ multiplicans, utrunque ipsorum θ,κ, faciat. Et quoniam α cubus est, ipsius autem latus est γ, igitur γ seipsum multiplicans ipsum effecit ε, ipsum autem ε, multiplicans ipsum α, confecit. Id propterea & δ seipsum multiplicans, ipsum η effecit: ipsum autem η, multiplicans, ipsum effecit β. Et quoniā γ utrunqne ipsorum γ,δ, multiplicans, utrunq̃ ipsorū ε,ζ, fecit: est igitur (per 17 septimi,) sicut γ ad δ, sic est ε, ad ζ. Id propterea etiam (per eādem,) sicut γ ad δ, sic ζ ad η. Rursus quoniā γ utrūq̃ ipsorū ε,ζ, multiplicans, utrūq̃ ipsorū α,θ, fecit: est igitur sicut ε ad ζ, sic α ad θ, sicut aūt ε, ad ζ, sic γ ad δ, Et sicut igitur (per 11 quinti) γ, ad δ, sic est α, ad θ. Rursus quoniam uterque ipsorū γ,δ, ipsum ζ multiplicans, utrūque ipsorū θ,κ, fecit: est igitur (per 18 septimi) sicut γ ad δ, sic est θ ad κ. Rursus quoniam δ utrūque ipsorū ζ,η, multiplicans, utrunque ipsorum κ,β, fecit: est igitur
+
+[Diagram: numbers as horizontal rows of dots, labelled α; θ; κ; β; γ; δ; ε; ζ; η]
+
+<!-- Signature: S 3 -->
+
+<!-- Catchword: (per -->

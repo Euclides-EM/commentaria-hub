@@ -1,33 +1,41 @@
-<!-- Page number: 136 -->
+<!-- Running title: LIBER SEXTVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 137 -->
 
-CAMPANVS. Sit maior proportio a b ad b,quàm c d ad d : dico quod euersim minor erit proportio a b ad a, q̄ c d ad d:erit enim disiūctim ex præmissa,maior proportio a ad b,quàm c ad d. Itaque per 26,erit è conuerso minor b ad a , quàm d ad c:quare per ante præmissam,coniunctim minor erit b ad a,q̄ c d ad c,quod est propositum.
+## 34
 
-[Diagram: divided line a b above a divided line c d]
+Si quotlibet quantitates ad totidem alias cōparentur,fueritqꝫ cuiuslibet præcedētis ad suā relatiuā maior proportio q̄ alicuius subsequētis ad suā, erit omniū harum pariter acceptarum ad omnes illas pariter acceptas maior proportio q̄ alicuius subsequentiū ad suā parē,aut etiam q̄ omniū pariter acceptarū ad oēs pariter acceptas,minor aūt quàm primæ ad primam.
 
-## 31
+CAMPANVS. Sint tres quantitates a,b,c,relatæ ad totidem alias quæ sint d,e,f,sitqꝫ maior proportio a ad d , quàm b ad e,& b ad e sit maior q̄ c ad f: dico qd' proportio a, b,c, pariter acceptarum ad d, e, f, pariter acceptas,est maior quàm b ad e,uel maior quàm c ad f,& etiam maior quàm b & c pariter acceptarum ad e & f pariter acceptas:& ipsa est minor quàm a ad d. Cū enim sit a ad d maior quàm b ad e:erit permutatim a ad b maior quàm d ad e: & coniunctim a b ad b, maior quàm d e ad e: & iterum permutatim a b ad d e, maior quàm b ad e:quare per præmissam a ad d : est maior quàm a b ad d e. Eodemqꝫ modo probatur maiorem esse b ad e, quàm b c ad e f: itaqꝫ maior proportio est a ad d, quàm b c ad e f: quare permutatim maior est a ad b c, quàm d ad e f: & coniunctim maior a b c ad b c,quàm d e f ad e f: & iterum permutatim maior a b c ad d e f,quàm c b ad e f: quare per præmissam, maior est a ad d,quàm a b c ad d e f,quod est propositum.
 
-Si fuerint tres quātitates in uno ordine,itemqꝫ tres in alio, fueritqꝫ primæ priorum ad secundam maior proportio quàm primæ posteriorum ad secundam , itemqꝫ secundæ priorum ad tertiam maior quàm secundæ posteriorum ad tertiam: erit quoqꝫ primæ priorum ad tertiam maior proportio,quàm primę posteriorum ad tertiam.
+[Diagram: paired divided line segments a and d, b and e, c and f]
 
-CAMPANVS. Sint tres quantitates,a,b,c, itemqꝫ aliæ tres,d c f: sitqꝫ maior proportio a ad b, q̄ d ad e. Itemqꝫ maior b ad c,quàm c ad f: dico quod maior erit proportio a ad c,quàm d ad f. Sit enim g ad c, ut e ad f: eritqꝫ ex prima parte 10, g minor b: quare ex secunda parte 8 , proportio a ad g , est maior q̄ a ad b: multo maior ergo est proportio a ad g, quàm d ad e: sit itaqꝫ h ad g,ut d ad e:eritqꝫ ex prima parte 19. a maior h:quare ex prima parte 8,proportio a ad c maior est q̄ proportio h ad c. At uero proportio h ad c,est per æquam proportionalitatem, sicut d ad f: est enim h ad g,ut d ad e, & g ad c,ut e ad f:igitur ex 12,proportio a ad c,est maior q̄ d ad f,quare constat propositum.
+SEXTI LIBRI FINIS.
 
-[Diagram: paired divided line segments a and d, b and e, c and f; below them two shorter segments, the lower labelled b]
+# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER SEXTVS.
 
-## 32
+## Euclides ex Campano. Diffinitiones.
 
-Si fuerint tres quantitates in uno ordine, itemqꝫ tres in alio, fueritqꝫ proportio secundæ priorum ad tertiam maior quàm primæ posteriorum ad secundam , itemqꝫ primæ priorum ad secundam maior quàm secūdæ posteriorum ad tertiam, erit maior proportio primæ priorum ad tertiam, quàm primæ posteriorum ad tertiam.
+## 1
 
-CAMPANVS. Sint enim tres quantitates in uno ordine,a,b,c : itemqꝫ tres in alio,d,e,f,quemadmodū in præmissa: sitqꝫ maior proportio b ad e:& maior a ad b,q̄ e ad f:dico quod maior erit a ad c,quam d ad f. Sit enim g ad c, ut d ad e : eritqꝫ g minor b,per primam partem 10 : quare maior erit proportio a ad g, q̄ a ad b , per secundam partem 8 : igitur multo maior est a ad g,q̄ e ad f.Sit itaque h ad g,ut e ad f:eritqꝫ a maior h, ex prima parte 10: quare proportio a ad c,maior est quam h ad c,ex prima parte 8. At uero ex 11,proportio h ad c, est tanquā d ad f:eo quod est g ad c,ut d ad e, & h ad g,ut e ad f: igitur ex 12 maior est proportio a ad c,q̄ d ad f,quod est propositum.
+{dropcap:S|lines=?|style=decorated|decoration="figure riding among foliage and beasts"}Vperficies similes dicūtur, quarū anguli unius angulis alterius æquales,lateraqꝫ æquos angulos continentia proportionalia.
 
-[Diagram: paired divided line segments a and d, b and e, c and f; below them two shorter segments labelled g and b]
+CAMPANVS. Vt sit trigonus a b c fuerit æquiangulus trigono d e f,fueritqꝫ angulus a æqualis angulo d,& angulus b æqualis angulo e, & proportio a b ad d e sicut a c ad d f,& b c ad e f,ipsi erunt similes.
 
-## 33
+[Diagram: two triangles, one with apex a and base b c, the other with apex d and base e f]
 
-Si fuerit proportio totius ad totū , maior quàm abscisi ad abscisum, erit residui ad residuum,maior proportio quàm totius ad totum.
+## 2
 
-CAMPANVS. Sint duæ quantitates a,& b,a quibus abscindatur c & d:& residua sunt e & f:sitqꝫ maior proportio a ad b,q̄ c ad d: dico quod maior erit proportio e ad f,quàm a ad b : erit enim ex 27, permutatim maior proportio a ad c,quam b ad d:quare ex 30, erit euersim minor proportio a ad e,q̄ b ad f,igitur rursus ex 27,permutatim minor erit a ad b:quam e ad f,quod est propositum.
+Superficies mutuorū laterum, sunt inter quarū latera, incontinua proportionalitas retransitiue habetur.
 
-[Diagram: a long divided line with points c, a, e above a shorter divided line with points d, b, f]
+CAMPANVS. Vt si duorū quadrilaterorū a b c, d e f, proportio a b lateris primi ad d c latus secundi fuerit sicut proportio e f lateris secundi ad b c latus primi, illa duo quadrilatera dicuntur mortuorum laterum siue mutekesia.
 
-<!-- Catchword: Si quotlibet -->
+[Diagram: two quadrilaterals, the first open-sided with corners a, b, c, the second a rectangle with corners e, d, f]
+
+## 3
+
+Linea dicitur diuidi secundū proportionē habentē medium & duo extrema,quando eadē est proportio totius ad maiorē sui sectionē quæ est maioris ad minorē.
+
+<!-- Signature: m 3 -->
+
+<!-- Catchword: Eucli. -->

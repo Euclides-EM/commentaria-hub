@@ -1,43 +1,43 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER PRIMVS. -->
 
-<!-- Page number: 24 -->
+<!-- Page number: 25 -->
 
-Rursus sint ad angulos æquos latera subtensa, æqualia, sintq̃ α β & δ ε. Dico rursus quod reliqua latera reliquis lateribus æqualia erunt, hoc est latus α γ lateri δ ζ, & latus β γ lateri ε ζ: & insuper reliquus angulus β α γ, reliquo angulo ε δ ζ æqualis erit. Si enim β γ ipsi ε ζ æquale non est, alterum eorum maius est: sit igitur (si possibile est) maius latus β γ: & ponatur (per 3 propositionem) ipsi ε ζ æqualis linea β θ: & cōnectatur (per 1 postulatum) α θ. Et quoniam æqualis est β θ ipsi ε ζ, & α β ipsi δ ε: duæ igitur α β & β θ, duabus δ ε & ε ζ sunt æquales altera alteri, & angulos æquos continent. Basis igitur α θ, (per 4 propositionem) basi δ ζ est æqualis: & triangulum α β θ, triangulo δ ε ζ est æquale, sub quibus æqualia subtenduntur latera: angulus igitur β θ α, angulo ε ζ δ est æqualis. Sed angulus ε ζ δ, angulo β γ α est æqualis. Angulus igitur β θ α, angulo β γ α est æqualis: trianguli igitur α θ γ angulus exterior β θ α, interiori angulo β γ α est æqualis: quod (per 16 propositionem) est impossibile. Latus igitur β γ, ipsi ε ζ inæquale nō est, æquale igitur. Est autem & α β, ipsi δ ε æqualis: duæ igitur α β & β γ, duabus δ ε & ε ζ sunt æquales altera alteri, & angulos æquos continent. Basis igitur α γ (per 4 propositionem) basi δ ζ est æqualis: & triangulum α β γ, triangulo δ ε ζ est æquale: & reliquus angulus β α γ, reliquo angulo ε δ ζ est æqualis. Si duo igitur triangula duos angulos duobus angulis, & quæ sequuntur reliqua ut in theoremate, quod ostendere oportebat.
+lus g extrinsecus, æqualis angulo h intrinseco ex eadem parte sumpto, aut duo anguli g & h intrinseci ex eadem parte sumpti, sint æquales duobus angulis rectis. Dico q̃ duæ lineæ c d & e f sunt æquidistantes. Sit ergo primo angulus d g a, æqualis angulo f h g: erit quoq̃ per 15 propositionē angulus c g h, æqualis eidem angulo f h g, quare per præmissam, c d & e f, sunt æquidistantes. Sint rursus duo anguli d g h & f h g, æquales duobus rectis: & quia per 13 propositionē duo anguli d g h & c g h sunt similiter æquales duobus rectis, erit angulus c g h æqualis angulo f h g, quare per præmissam c d & e f, erunt æquidistantes, quod est propositum.
 
-[Diagram: two triangles side by side, triangle α β γ with point θ on base β γ and line α θ drawn, and triangle δ ε ζ]
+[Diagram: transversal line a b crossing line c d at g and line e f at h; labels a, g, c, d, e, h, f, b]
 
-## Eucli. ex Camp. Propositio 27.
-
-[Margin]
-27
-[/Margin]
-
-SI recta linea super duas lineas rectas ceciderit, duosq̃ angulos coalternos sibi inuicem æquales fecerit, illæ duæ lineæ erunt æquidistantes.
-
-CAMPANVS. Sit ut linea a b cadat super duas lineas c d, e f, & secet lineam c d in puncto g, & lineam e f in puncto h: sitq̃ angulus d g h æqualis angulo e h g: dico quod lineæ c d & e f, sunt æquidistantes. Si enim non, concurrant aut ad partem c, e, super punctum k, aut ad partem d, f, super punctum l: & qualitercunq̃ fuerit, accidet impossibile, per 16, uidelicet, angulum extrinsecum, esse æqualem intrinseco & opposito: nam unus dictorum angulorum coalternorum qui positi sunt æquales, erit extrinsecus, & reliquus intrinsecus & oppositus. Quia igitur impossibile est eas cōcurrere, in alterutram partem protractas, ipsæ per ultimam diffinitionē erunt æquidistantes, quod est propositum.
-
-[Diagram: transversal line a b crossing two lines c d and e f at points g and h, with the lines produced to meeting points k on the left and l on the right; labels a, c, g, d, k, l, e, h, f, b]
-
-## Eucli. ex Zamb. Theorema 18. Propositio 27.
-
-[Margin]
-27
-[/Margin]
-
-Si in binas rectas lineas recta incidens linea, alternatim angulos æquos adinuicem fecerit, parallelæ adinuicem ipsæ rectæ lineæ erunt.
-
-THEON ex Zamberto. In binas enim rectas lineas α β, γ δ recta incidens linea ε ζ, alternatim angulos α ε ζ & ε ζ δ æquales adinuicem efficiat, dico quod parallelus est α β, ipsi γ δ. Si autem non, productæ concurrent aut ad partes β, δ, aut ad α, γ: producantur igitur & concurrant ad partes β, δ, in signo η, si est possibile. Trianguli ergo η ε ζ, angulus α ε ζ exterior, æqualis est angulo ε ζ η interiore & opposito: quod (per 16 propositiōe) est impossibile. Igitur α β & γ δ productæ, ad partes β, δ, minime concurrunt: similiter quoq̃ ostendetur, quod neq̃ ad partes α, γ. Quæ autem in nulla parte concurrunt, parallelæ sunt (per ultimam diffinitionem.) Parallelus igitur est α β, ipsi γ δ. Si in binas igitur rectas lineas & quæ sequuntur reliqua ut in theoremate. Quod erat ostendendum.
-
-[Diagram: transversal line crossing two lines α β and γ δ at points ε and ζ, the lines produced to a meeting point η at the right; labels α, β, γ, δ, ε, ζ, η]
-
-## Eucli. ex Camp. Propositio 28.
+## Eucli. ex Zamb. Theorema 19. Propositio 28.
 
 [Margin]
 28
 [/Margin]
 
-SI linea recta duabus lineis rectis superuenerit, fueritq̃ angulus eius intrinsecus angulo extrinseco sibi opposito æqualis, aut duo anguli intrinseci ex una parte duobus angulis rectis æquales, illæ duæ lineæ æquidistantes erunt.
+Si in binas rectas lineas recta incidens linea, exteriorē angulū interiori & opposito ad easdem partes æqualē fecerit, aut interiores & ad easdē partes duobus rectis æquales, parallelæ erunt adinuicem ipsæ rectæ lineæ.
 
-CAMPANVS. Sit ut linea a b, secet duas lineas c d & e f, in punctis g & h: sitq̃ angu
+THEON ex Zamb. In binas enim rectas lineas α β & γ δ, recta linea incidens ε ζ, angulum exteriorem ε η β, angulo interiori & ex opposito, æqualem efficiat, aut interiores & ad easdem partes, hoc est β η θ & η θ δ, duobus rectis æquales. Dico quod parallelus est α β, ipsi γ δ. Quoniam angulus ε η β (per hypothesin) æqualis est angulo η θ δ, & angulus ε η β (per 15) æqualis est angulo α η θ: angulus igitur α η θ, æqualis est angulo η θ δ, & sunt alterni, (per 27 propositionem) parallelus est igitur α β ipsi γ δ. Rursus quoniā anguli β η θ & η θ δ (per hypothesin) duobus rectis sunt æquales, & anguli α η θ & β η θ (per 13 propositiōem) duobus rectis sunt æquales: anguli ergo α η θ & β η θ, angulis β η θ & η θ δ sunt æquales. Cōmunis auferatur angulus β η θ: reliquus igitur α η θ, reliquo η θ δ est æqualis, & sunt alterni. Parallelus igitur est α β, ipsi γ δ. Si recta igitur linea in binas incidens, & quæ sequuntur reliqua, quod ostendendum fuerat.
 
-<!-- Catchword: lus g -->
+[Diagram: transversal line ε ζ crossing line α β at η and line γ δ at θ; labels ε, α, β, η, γ, θ, δ, ζ]
+
+## Eucli. ex Camp. Propositio 29.
+
+[Margin]
+29
+[/Margin]
+
+SI duabus lineis æquidistantibus linea superuenerit, duo anguli coalterni æquales erunt, angulusq̃ extrinsecus angulo intrinseco sibi opposito æqualis, itemq̃ duo anguli intrinseci ex alterutra parte constituti duobus rectis angulis æquales.
+
+CAMPANVS. Sint duæ lineæ a b & c d æquidistantes: super quas cadat linea e f, secans eas in punctis g & h, dico q̃ anguli g & h coalterni sunt æquales, & quod angulus g extrinsecus est æqualis angulo h intrinseco sibi opposito ex eadem parte sumpto, & q̃d anguli g & h intrinseci ex eadem parte sumpti sunt æquales duobus rectis. Et hæc est cōuersa duarum præcedentium. Primum sic patet. Si enim angulus b g h non est æqualis angulo c h g, alter eorum erit maior: sit ergo maior angulus c h g, & duo anguli c h g & g h d sunt æquales duobus rectis, ergo per 13 propositionem erunt duo anguli b g h & d h g minores duobus rectis, ergo per quartam petitionem, duæ lineæ a b & c d si protrahantur, concurrent in parte b & d, ad punctum aliquem, ut ad k: non ergo sunt æquidistantes per ultimam diffinitionē, quod est contra hypothesin, & quia hoc est impossibile, erunt duo anguli coalterni b g h & c h g æquales, quod est primum propositū. Ex hoc patet secundum. Est enim per 15 propositionē angulus b g h æqualis angulo a g e, ergo angulus a g e, erit æqualis angulo c h g, extrinsecus, uidelicet, intrinseco, quod est secundum propositū. Ex hoc rursus patet tertium. Sunt enim per 13 propositionē duo anguli a g e & a g h, æquales duobus rectis, ergo duo anguli a g h & c h g, erunt etiam æquales duobus rectis, qui sunt duo intrinseci ex eadem parte sumpti, quod est propositum.
+
+[Diagram: transversal line e f crossing line a b at g and line c d at h, the two lines produced to a meeting point k at the right; labels e, a, g, b, k, c, h, d, f]
+
+## Eucli. ex Zamb. Theorema 20. Propositio 29.
+
+[Margin]
+29
+[/Margin]
+
+In parallelos rectas lineas recta incidens linea, & alternatim angulos adinuicem æquales, & exteriorē interiori & opposito & ad easdē partes æqualem, & interiores & ad easdem partes duobus rectis æquales efficit.
+
+<!-- Signature: c -->
+
+<!-- Catchword: THEON -->

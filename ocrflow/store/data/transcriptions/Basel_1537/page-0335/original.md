@@ -1,49 +1,37 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Page number: 324 -->
+<!-- Page number: 325 -->
 
-## Eucli.ex Camp. Propositio 89
-
-[Margin]
-89
-[/Margin]
-
-SI fuerit superficies linea rationali residuoq̃ quarto contenta, linea super eam potens erit linea minor.
-
-CAMPANVS In hac quoq̃ nō aliter procedas quàm prius, facile erit ibi{printer-error-correction:tibi} propositum concludere, si præmissam non despicis. ex diffinitione residui quarti & secunda parte 14 & 9 & 19 & 15 & 71, & sic patebit propositum.
-
-## Eucli.ex Zamb. Theorema 70 Propositio 94
-
-[Margin]
-94
-[/Margin]
-
-Si areola comprehendatur sub rationali & quarta apotome, quæ areolam potest minor est.
-
-THEON ex Zãb. Areola nāque α β, comprehendatur sub rationali α γ, & quarta apotome α δ. Dico quod quæ α β areolā potest, minor est. Sit enim (per 80 decimi,) ipsi α δ congruens δ η, ipsæ igitur α η, η δ, rationales sunt potentia tantum commensurabiles, & α η, ipsi α γ, expositæ rationali longitudine commensurabilis est, & tota α η, ipsa δ η congruente maius potest eo quod ex sibi longitudine incommensurabili. Quoniam igitur (per 51 decimi) α η ipsa η δ maius potest eo quod ex sibi lōgitudine incommēsurabili, si igitur quartæ parti eius quod ex δ η, æquum ad ipsam α η, comparetur (per 28 sexti,) forma deficiens quadrata, in incommensurabilia (per 18 decimi,) ipsam diuiserit. Secetur (per 10 primi) igitur δ η, bifariam in ε, & ei quod ex ε η, (per 28 sexti,) æquum ad ipsam α η cōparetur forma deficiens quadrata, sitq̃ quod sub α ζ, ζ η, Incommensurabilis igitur est longitudine α ζ, ipsi ζ η. Excitentur igitur (per 31 primi) per ε, ζ, η, signa. paralleli ipsis α γ, β δ, sintq̃ ε θ, ζ ι, η κ. Quoniā igitur rationalis est α η, & ipsi α γ, longitudine commensurabilis, rationale igitur est totum α κ, Rursus quoniā commensurabilis est δ η ipsi α γ longitudine, & utræq̃ sunt rationales, mediū igitur est δ κ, (per 21 decimi.) Rursus quoniā incommensurabilis est α ζ, ipsi ζ η longitudine, incommensurabile igitur est (per 9 decimi) & α ι ipsi ζ κ. Constituatur igitur (per 14 secundi) ipsi quidem α ι æquum quadratū λ μ, ipsi autem ζ κ, æquum auferatur ν ξ. Ad eundem existens ipsi λ μ, angulum qui sub λ ο μ, circa igitur eundem dimetientem sunt, (per 26 sexti,) ipsa λ μ ν ξ, quadrata. Sit ipsorū dimetiens ο ρ, describaturq̃ figura. Quoniā igitur quod sub α ζ, ζ η, æquū est ei quod ex ε η, proportionaliter igitur est (per 17 sexti) sicut α ζ, ad ε η, sic ε η, ad ζ η. Sed sicut quidem α ζ ad ε η, sic α ι ad ε κ, sicut autem (per 1 sexti) ε ζ{printer-error-correction:ε η}, ad ζ η, sic ε κ, ad ζ κ. Ipsorū igitur α ι, ζ κ, medium proportionale est ε κ. Ipsorū autē λ μ, ν ξ, quadratorū (per lēma 53 decimi medium proportionale est μ ν, & α ι, æquum est ipsi λ μ, & ζ κ, ipsi ν ξ, & ε κ, igitur, ipsi μ ν est æquale. Sed ipsi quidem ε κ, æquū est δ θ. ipsi autem μ ν, æquum est λ ξ. Totum igitur δ κ, æquū est ipsi υ φ χ, gnomoni, & ipsi ν ξ. Quoniā igitur α κ, totum æquū est ipsis λ μ, ν ξ, quadratis, quorū δ κ, æquū est ipsi υ φ χ, gnomoni & ipsi ν ξ quadrato, reliquum igitur α β, (per 2 cōmunē sententiā) æquū est ipsi σ τ, hoc est ei quod ex λ ν, quadrato. Igitur λ ν, ipsam α β, areolam potest, Dico quod λ ν irrationalis est, appellata minor. Quoniā enim α κ rationale est, & eis est æquale quæ ex λ ο, ο ν, sunt quadratis, conflatum igitur ex ijs quæ ex λ ο, ο ν, rationale est (per diffinitionē.) Rursus quoniā δ κ mediū est, & δ θ{printer-error-correction:δ κ}, æquū est ei quod bis sub λ ο, ο ν, quod igitur bis sub λ ο, ο ν, medium est. Et quoniā patuit quod α ι, ipsi ζ κ. est incommensurabile: incōmensurabile igitur est (per 11 decimi) quadratum quod ex λ ο, ei quod ex ο ν quadrato. Ipsæ igitur λ ο, ο ν, (per 76 decimi) potentia sunt incōmensurabiles, efficientes conflatum quidem earum quadratis rationale, quod uero bis sub ipsis medium. Ipsa igitur λ ν, irrationalis est appellata minor, & ipsam areolam α β potest. Quæ igitur ipsam α β areolam potest minor est. Quod erat ostendendum.
+quæ ipsam areolam α β potest, est quæ cum rationali medium totum conficit. Sit nāq̃ (per 79 decimi) ipsi α δ congruens δ η, ipsæ igitur α η, η δ, (per 80 decimi,) rationales sunt potentia tantum commensurabiles, & cōgruens η δ, cōmensurabilis est longitudine ipsi α γ, expositæ rationali. Et tota α η, congruente δ η maius potest eo quod ex sibi incommensurabili. Si igitur (per 28 sexti) quartæ parti eius quod ex δ η, æquū ad ipsam α η, (per 17 decimi) comparetur deficiens forma quadrata, in incommensurabilia ipsam diuidet. Secetur igitur (per 10 primi,) δ η, bifariā in ε signo, & ei quod ex ε η, (per 18 decimi, æquum ad α η, cōparetur forma deficiens quadrata, sitq̃ quod sub α ζ, ζ η. Incommensurabilis igitur est (per 9 & 34 decimi) α ζ, ipsi ζ η longitudine. Excitenturq̃ (per 31 primi) per ε, ζ, η, signa ipsi α γ paralleli ε θ, ζ ι, η κ. Et quoniā α η ipsi α γ longitudine est incōmensurabilis, & utræq̃ sunt ratiōales, mediū igitur est α κ. Rursus quoniā δ η est ratiōalis, & ipsi α γ lōgitudine cōmēsurabilis, rationale igitur est δ κ. Constituatur igitur (per 14 secundi, ipsi quidē α ι æquū quadratū λ μ, ipsi autē ζ κ, æquū quadratū auferatur ν ξ. Ad eundem angulū qui sub λ ο, ο μ, sunt ipsa λ μ, & ν ξ, ad eādem igitur diametrū, sunt λ μ, ν ξ quadrata. Sit (per (per 26 sexti){printer-error-correction:per bis} ipsorū dimetiens ο ρ, describaturq̃ figura. Similiter iam ostendemus, quod λ ν, potest ipsam α β, areolam, dico quod ipsa λ ν, est quæ cum rationali mediū totū cōficit. Quoniā enim ostēsum quod α κ mediū est, & ei sunt æqua quæ ex λ ο, ο ν, cōflatū igitur ex eis quæ ex λ ο, ο ν, mediū est, (per correlariū 23 decimi.) Rursus quoniā δ κ ratiōale est, & ei est æquum quod bis sub λ ο, ο ν, & quod bis igitur sub λ ο, ο ν, rationale est. Et quoniā incommensurabile est α ι ipsi ζ κ, incommensurabile igitur est quod ex λ ο, ei quod ex ο ν. Ipsæ igitur λ ο, ο ν, potentia sunt incōmensurabiles efficiētes conflatum ex ipsarum quadratus{printer-error-correction:quadratis} mediū, quod autē bis sub ipsis rationales. reliqua igitur λ ν, (per 77 decimi) irrationalis est appellata cū rationali mediū totum efficiens. Et ipsam α β, areolam potest, quæ igitur ipsam α β, areolam potest, est quæ cum rationali medium totum efficit. Quod oportuit demonstrare.
 
 [Diagram: rectangle with points α, δ, ε, ζ, η along the top edge and γ, β, θ, ι, κ along the bottom edge; vertical lines divide it below δ, ε and ζ]
 
 [Diagram: square with diagonal from ρ (bottom left) to ο (top right); a vertical line and a horizontal line cross on the diagonal; semicircular arcs are drawn about the crossing; labels: λ, ν, ο along the top, σ at the left, ξ at the right, υ, π, φ and χ inside, ρ, τ, μ along the bottom]
 
-## Eucli.ex Camp. Propositio 90
+## Eucli.ex Camp, Propositio 91
 
 [Margin]
-90
+91
 [/Margin]
 
-SI fuerit linea rationali residuoq̃ quinto superficies contēta, latus eius tetragonicū, erit cū rationali componens mediale.
+SI linea rationali residuoq̃ sexto superficies contineatur, latus tetragonicum quod super eam potest cum mediali constituens totum mediale esse comprobatur.
 
-CAMPANVS Nitere præmissa argumentatiōe ex diffinitione residui quinti & secunda parte 14 & 9 & 19 & 15 & 72, quod propositū est concludere.
+CAMPANVS Nunc quoque ultimo quod per hanc dicitur præmisso modo satage concludere ex diffinitione residui sexti, & secunda parte 14 & 9 & 19 & 73. In his autē omnibus processum tuum nihil offendere poterit. si primam earum & perfecte didiceris & memoriter tenueris. & quid quoq̃ supponet solerter attenderis. Quod si forsan de aliquo in quadrato l m te dubitare cōtigerit. ad suum æquale in superficie a d tibi recurrendū erit, & patebunt tuo ingenio.
 
-## Eucli,ex Zamb, Theorema 71 Propositio 95
+## Eucl.ex Zamb. Theorema 62{printer-error-correction:72} Propositio 96
 
 [Margin]
-95
+96
 [/Margin]
 
-Si areola comprehendatur sub rationali & quinta apotome, quæ areolam potest, est quæ cum rationali medium totum conficit.
+Si areola cōprehendatur sub rationali & apotome sexta, quæ areolā potest, est quæ cum medio medium totum efficit.
 
-THEON ex Zamb. Areola etenim α β, comprehendatur sub rationali α γ, & quinta apotome α δ. Dico quod
+THEON ex Zamb. Areola namque ā β{printer-error-correction:α β}, cōprehendatur sub rationali α γ & apotome sexta α δ. Dico quod quæ α β areolam potest, est quæ cū medio medium totum efficit. Esto enim (per 79 decimi,) ipsi α δ congruens δ η, ipsæ igitur α η, η δ, (per 90 decimi{printer-error-correction:80}) rationales sunt potentia tantū cōmensurabiles Et neutra ipsarū α η, η δ, (per 3 diffinitiones) cōmensurabilis est ipsi α γ expositæ rōnali longitudine, & tota α η ipsa δ η cōgruente maius potest eo quod ex sibi longitudine incommensurabili. Quoniā igitur α η ipsa η δ, maius potest eo quod ex sibi, lōgitudine incōmēsurabili, si igitur (per 28 sexti,) quartæ parti eius quod ex δ η, æquū ad ipsam α η cōparetur forma deficiēs quadrata in incōmēsurabilia ipsam (per 17 decimi) diuidet. Secetur igitur (per 10 primi) α η{printer-error-correction:δ η}, bifariā in signo ε, & ei quod ex ε η, (per 28 sexti,) æquū ad ipsam α η, comparetur forma deficiens quadrata, sitq̃ quod sub α ζ, ζ η. Incommensura
 
-<!-- Catchword: quæ -->
+[Diagram: rectangle with points α, δ, ε, ζ, η along the top edge and γ, β, θ, ι, κ along the bottom edge; vertical lines divide it below δ, ε and ζ]
+
+[Diagram: square with diagonal from ρ (bottom left) to ο (top right); a vertical line and a horizontal line cross on the diagonal; semicircular arcs are drawn about the crossing; labels: λ, ν, ο along the top, σ at the left, ξ at the right, ψ, π, υ and χ inside, ρ, τ, μ along the bottom]
+
+<!-- Signature: E -->
+
+<!-- Catchword: bilis -->

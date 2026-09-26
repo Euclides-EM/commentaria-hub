@@ -1,37 +1,25 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Page number: 256 -->
+<!-- Page number: 257 -->
 
-surabilis est quoque γ ipsi ζ,sed si α,ipsi ε,incommensurabilis est,incommensurabilis est quoq̃ γ ipsi ζ,Quoniam enim est sicut α ad β,sic est γ ad δ.est igitur sicut id quod ex α,ad id quod ex β.sic est id quod ex γ, ad id quod ex δ.Sed ei quidem quod fit ex α,æqua sunt ea quæ fiūt ex ε,β,ei autem quod fit ex γ,æqua sunt ea quæ fiunt ex δ,ζ.Igitur)per 9 quinti)sicut quæ ex ε,β,ad id quod ex β,sic quæ ex δ,ζ,ad id quod ex δ,diuidendo igitur est (per 17 quinti,)quod sicut quod ex ε ad id quod ex β.sic est id quod ex ζ ad id quod ex δ.Est igitur & sicut ε ad β,sic est ζ ad δ.Conuersim igitur est (per 22 sexti,& correlarium 4 quinti,)sicut β ad ε,sic est δ,ad ζ,est autem & sicut α ad β,sic est γ ad δ, ex æquali igitur (per 22 quinti,)est sicut α ad ε,sic est γ ad ζ.Si igitur commensurabilis est α,ipsi ε,commensurabilis est quoque(per 11 decimi γ ipsi ζ,si uero incommensurabilis est α ipsi ε,incommēsurabilis est γ ipsi ζ.Si quatuor igitur rectæ lineæ proportionales,& quæ sequuntur reliqua,quod erat demonstrandū.
+ti breuioris lineæ, cui desit quadrata superficies, superficiem sibi adiunctam,eandem lineam longiorem in duas portiones commensurabiles diuidere necesse est.
 
-[Diagram: six vertical lines of differing heights labelled at foot α, β, ε, γ, δ, ζ]
+CAMPANVS Sint duæ lineæ inæquales a b & c,maior a b.& adiungatur ad lineam a b,quarta pars quadrati lineæ c,ita quod desit ad complēdam lineam a b, superficies quadrata,hoc enim est possibile per 17 sexti. Quod facile fiet hoc modo, Diuidatur a b in duas lineas a d & d b,ita quod inter eas cadat medietas lineæ e,cōtinue p̄portionalis. Hoc autem qualiter fiat,in fine demonstrationis huius docebitur. Eritque ex 16 sexti,superficies b d in d a quæ sit b e,æqualis quadrato medietatis lineæ c.quare ex 4 secūdi erit eadē subquadrupla quadrati lineæ c,deest quoqʒ ad complendā lineā a b.superficies quadrata, cum & a d sit æqualis d e. Dico itaque quod si superficies b e diuidat lineam a b in duo communicantia,erit linea a b potentior linea c in quadrato alicuius lineæ secum cōmunicantis in longitudine,& econuerso. Cū enim sit linea a b maior linea c,non erit a d æqualis d b,sic enim esset superficies d e, quadrata,& quia ipsa est æqualis quadrato medietatis lineæ c,esset a d æqualis medietati c,& tota a b toti c, quod est contra hypothesin. Non est igitur a d æqualis d b. Itaque de maiori earū quæ sit d b,abscindatur d f.æqualis a d eritqʒ per 5 secundi quadratum totius a b,æquale ijs quæ sūt ex d b in d a quater & quadrato f b,quare linea a b,erit potētior linea c in quadrato lineæ f b. quā necesse est communicari toti a b,si linea a d est communicās lineæ d b,si enim hoc fuerit, erit d b communicans d f eius æquali,quare per 9,b f cōmunicat cū f d,& ideo toti a d & propter hoc cum tota a f.igitur & cum tota a b. Sicque patet primum. Conuersum huius sic patet. Sit a b potētior c in linea f b quæ communicet cum eo in longitudine. Dico tunc quod quarta pars quadrati lineæ c addita ad lineam a b,ita quod desit superficies quadrata,diuidet lineam a b, in duo cōmunicātia. Diuidatur enim f a per æqualia in d,& fiat superficies b e ex d b in d a & deerit ad complēdam lineam a b,superficies quadrata,eritqʒ per 5 secūdi,quadratū a b æquale quadruplo superficiei b e cum quadrato f b:igitur quadruplum superficiei b e est æquale quadrato c. cum superficies d e sit æqualis quartæ parti quadrati c. Dico igitur quod d b est communicans cum a d.cum sit f b communicans cum a b. Si enim hoc fuerit ut qd' a d sit cōmunicans cum a b,erit etiam cōmunicans cum a f,per 9,quare & cum a d, sed & cum d f. itaque & d b est communicās cum a d,quod est secundum.
 
-## Eucli.ex Zamb. Theorema 12 Propositio 15
+[Diagram: rectangle divided by a vertical line near its left end, labeled e at top; below it, a horizontal line with points a, d, f, b marked; beneath, a second line labeled c]
 
-[Margin]
-15
-[/Margin]
+NVNC autem monstrandum est qualiter linea a b(cum ipsa posita fuerit maior linea a c)possit sic diuidi ut inter partes eius cadat medietas lineæ c, cōtinue proportionalis. Cum enim sic fuerit diuisa,superficies quæ fiet ex una in alterā,erit superficies æqualis quadrato medietatis lineæ c,& ipsa erit superficies æqualis quartæ parti quadrati lineæ c,adiuncta ad lineā a b,ita quod desit superficies quadrata,hoc enim sic fiet. Diuisa a b per æqualia in d, lineetur super eam semicirculus a f b,& sumatur b e perpendicularis ad a b,quæ ponatur æqualis medietati lineæ c.& ducatur e f æquidistans ad a b,usqʒquo secet circunferentiam semicirculi in puncto f. (necesse est enim ut secet eam,cū linea a b sit maior linea c,) & ducatur f g,perpendicularis ad a b,quæ cū per 34 primi sit æqualis lineæ e b,erit quoqʒ æqualis medietati lineæ c. Ducantur itaqʒ lineæ f a,f b,eritqʒ per primam partem 30 tertij,angulus a f b,rectus,& ideo per primā partem correlarij 8 sexti.erit linea f g medio loco proportionalis inter a g & g b.quare medietas lineæ c, quæ est sibi æqualis erit etiam proportionalis inter easdē,quod est nostrū propositū.
 
-Si binæ magnitudines commensurabiles,compositæ fuerint,& tota utrique ipsarum commensurabilis erit.Et si tota uni earum commensurabilis fuerit,& quæ in principio magnitudines commensurabiles erunt.
+[Diagram: semicircle drawn on line a b, with f on the arc near the right end; lines f a and f b drawn; f g perpendicular to a b at g, and points d and g marked on the base; e marked at the right beside the perpendicular; beneath, a line labeled c]
 
-THEON ex Zamb. Cōponantur binæ magnitudines cōmensurabiles α β,β γ.Dico quod tota α γ,utriq̃ ipsarū α β,β γ,commensurabilis est.Quoniā enim cōmensurabiles sunt ipsæ α β,β γ,ipsas aliqua magnitudo metietur (per primam diffinitionem decimi,)metiatur,& sit δ. Quoniā igitur δ ipsas α β,β γ,metitur,& totā α γ metietur, metitur autem & ipsas α β,β γ,igitur δ,ipsas α β,β γ, & α γ,metietur.Commensurabilis igttur{printer-error-correction:igitur} est (per 12 decimi,) α γ,utriq̃ ipsarū α β,β γ. Sed iā α γ,uni ipsarum α β,β γ,sit commensurabtlis{printer-error-correction:commensurabilis},sitque ipsi α β.Dico quod α β,β γ,commensurabiles sunt.Quoniā enim cōmensurabiles sunt α β,& α γ,metietur eas (per primam diffinitionem decimi.)aliqua magnitudo,metiatur,& esto δ. Quoniā igitur δ ipsas α β,β γ{printer-error-correction:α β,α γ},metitur ,& reliquā igitur metietur β γ,metitur aūt & α β,igitur δ,ipsas α β,β γ,metietur. Cōmensurabiles igitur sunt,α β,& β γ.Si binæ igitur magniudines{printer-error-correction:magnitudines},& reliqua quæ sequuntur,quod oportebat demōstrare.
+## THEON Lemma.
 
-[Diagram: horizontal line marked α, β, γ; beneath it a shorter line labelled δ]
-
-## Eucli.ex Zamb. Theorema 13 Propositio 16 Præcedentis conuersa.
-
-Si binæ magnitudines incommensurabiles compositæ fuerint,& tota utriq̃ ipsarum incōmensurabilis erit. Et si tota uni ipsarum incommensurabilis fuerit,& quæ in principio magnitudines,incommensurabiles erunt
-
-THEON ex Zamb. Cōponantur enim binæ magnitudines incommensurabiles α β,β γ. Dico quod tota α γ,utrique ipsarū α β,β γ,incōmensurabilis est.Si enim γ α,& α β,incommensurabiles nō sunt,ipsas aliqua metietur magnitudo (per 1 diffinitionē decimi,)metiatur si est possibile:sitq̃ δ,Quoniam igitur δ ipsas γ α,& α β,metitur,& reliquam β γ metietur,metitur autem & α β,igitur δ,ipsas α β,& β γ metietur.Commensurabiles igitur(per 1 diffinitionem decimi,)sunt ipsæ α β,β γ.Supponuntur autem quod & incommensurabiles,quod est impossibile,ipsas igitur α β,& α γ,aliqua magnitudo non metietur.Incommensurabiles igitur sunt ipsæ γ α,& α β.Similiter iam demonstrabimus,quod & ipsæ α γ,& γ β,incōmensurabiles sunt. Sed iam ipsa α γ,uni ipsarum α β,& β γ,incommēsurabilis esto,& primum ipsi α β.Dico quod & ipsæ α β,β γ,incommensurabiles sunt.Si enim sunt cōmensurabiles, metietur eas aliqua magnitudo(per eādē)metiatur,sitq̃ δ.Quoniā igitur δ ipsas α β,& β γ metitur,& totā igitur α γ metietur metitur autem & α β.Igitur δ,ipsas γ α,& α β metitur.Cōmensurabiles igitur sunt ipsæ γ α & α β.Suppositæ uero sunt quod & incommensurabiles,quod est impossibile.Ipsas igitur α β,& β γ,aliqua maguitudo{printer-error-correction:magnitudo} nō metietur. Incommensurabiles igitur sunt ipsæ α β,β γ.Similiter iam demonstrabitur quod ipsa α γ,reliquæ β γ, incommensurabilis est.Si binæ igitur magnitudines,& quæ sequuntur reliqua,quod erat ostendendum.
-
-[Diagram: horizontal line marked α, β, γ; beneath it a shorter line labelled δ]
-
-## Eucli.ex Camp. Propositio 13
+Si ad aliquam rectam lineam* comparetur parallelogrammum deficiēs forma quadrata,ipsum comparatum æquū est ei quod(continetur)sub segmētis rectæ lineæ,quæ ex ipsa comparatione sunt facta.
 
 [Margin]
-13
+παραβληθῇ apponatur applicetur.
 [/Margin]
 
-{dropcap:S|lines=?|style=decorated|decoration="foliate"}I fuerint duæ lineæ inæquales quarum longiorē in duo cōmunicātia diuidat superficies sibi adiūcta æqualis quartæ parti quadrati breuioris lineæ,cui adiunctæ snperficiei{printer-error-correction:superficiei} desit ad complendam totam lineam superficies quadrata,necesse est ipsam lineā longiorem linea breuiori tanto amplius posse,quantum est quadratum alicuius lineæ communicantis eidem longiori in longitudine.Si uero longior fuerit potentior breuiori,augmento quadrati lineæ communicantis sibi in longitudine,eiq̃ adiungatur superficies æqualis quartæ parti quadra
+<!-- Signature: y 3 -->
 
-<!-- Catchword: ti -->
+<!-- Catchword: THEON -->

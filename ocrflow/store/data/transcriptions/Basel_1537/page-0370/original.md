@@ -1,51 +1,33 @@
-<!-- Running title: LIBER VNDECIMVS. -->
+<!-- Page number: 360 -->
 
-<!-- Page number: 359 -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-ex hac 16 cōmunes sectiones duarum extremarū superficierū, æquidistātes sectionibus mediæ. Quare ex 30 primi ipsæ etiam sectiones duarum extremarū superficierū, erunt æquidistantes adinuicem. Et quia ipsæ contingunt se in cōmuni sectione duarū superficierū tres positas superficies secantium, ex præmissa euidenter constat quod diximus.
+ciem assignatã, erit earũ cõmunis sectio linea recta ex 3 huius, sitq̃ b d. In hac ergo communi sectione signato puncto quolibet qui sit d, extrahatur ab eo in superficie quæ producta est à linea a b, linea quædam perpendicularis ad lineam b d, quæ sit d c. Eritq̃ ex secunda parte 28 primi, linea c d, æquidistans lineæ a b, ideoq̃ ex 8 huius, linea c d, est etiam perpendicularis ad superficiem propositam. Quia ergo hoc modo quælibet linea protracta orthogonaliter à quolibet puncto lineæ b d, ad ipsam lineã b d, in ipsa superficie quæ producta est à linea a b, est perpendicularis ad propositam superficiem, ex diffinitione superficiei supra superficiẽ orthogonaliter erectæ, constat uerum esse quod propositũ est.
 
-## Eucli. ex Zamb. Theorema 14. Propositio 16.
+[Diagram: two parallel vertical lines a b and c d standing on a horizontal line through b and d; a and c at top, b and d at bottom]
 
-[Margin]
-16
-[/Margin]
-
-## Si bina plana parallela à plano aliquo dissecta fuerint, cōmunes ipsorum sectiones parallelæ sunt.
-
-THEON ex Zamb. Bina, inquam, plana parallela α β, γ δ, à plano ε ζ η θ secentur, cōmunes autem ipsorum sectiones, sint ε ζ, η θ. Dico quod parallelus est ε ζ, ipsi η θ. Si autē non, productæ ipsæ ε ζ, η θ, uel ad partes ζ θ, uel ad ε η concurrunt. Producantur primum ad ζ θ partes, & concurrant in κ. Et quoniam ε ζ κ est in plano α β, & omnia igitur quæ in ipsa ε ζ κ signa in ipso α β sunt plano (per 2 undecimi.) Vnum autem eorum quæ in ε ζ κ recta linea signorū, est κ, igitur κ, in ipso est α β plano, & id propterea etiam κ, in ipso γ δ est plano. Igitur α β, γ δ, plana, producta concurrunt. Non concurrunt autem per hypothesin, quoniam parallela supponuntur. Igitur ipsæ ε ζ, η θ, rectæ lineæ productæ ad partes ζ θ, non concurrunt. Similiter quoq̃ ostendemus, quod ipsæ ε ζ, η θ, rectæ lineæ neq̃ ad partes ε η productæ concurrunt. Quæ autem in nulla parte concurrunt (per ultimam diffinitionem primi) parallelæ sunt: parallelus igitur ε ζ, ipsi η θ. Si bina igitur plana, & quæ sequuntur reliqua. Quod erat ostendendum.
-
-[Diagram: house-shaped diagram; two parallel planes α β (left side β) and γ δ (right side δ) cut by plane ε ζ η θ; the sections ε ζ (left, corner ζ) and η θ (right, corner θ) produced upward meet at apex κ; bottom corners ε and η, interior bottom labels α and γ]
-
-## Eucli. ex Camp. Propositio 17.
-
-[Margin]
-17
-[/Margin]
-
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I superficies tres uel plures æquidistantes duas rectas lineas se inuicem contingētes uel æquidistantes secent, illarum linearū portiones proportionales esse probantur.
-
-CAMPANVS. Intelligantur enim duæ rectæ lineæ penetrantes qualitercunq̃ contigerit tres superficies æquidistantes, aut etiam plures tribus: dico itaq̃ duas portiones illarum linearū inter quaslibet duas superficies interceptas, proportionales esse quibusq̃ duabus inter alias duas ex illis æquidistantibus superficiebus interceptis. Coniungantur enim duæ extremitates illarum duarum linearū, ducta inter eas linea una diagonaliter, eritq̃ hæc diagonalis, cum utraq̃ illarū duarum linearū penetrantiū superficies propositas, in superficie una illas æquidistantes superficies positas secante. Si ergo harum superficierum communes sectiones quæ per præmissam erunt æquidistantes, cogitatione protraxeris, ex prima parte secundæ sexti constabit propositum.
-
-## Eucli. ex Zamb. Theorema 15. Propositio 17.
-
-[Margin]
-17
-[/Margin]
-
-## Si binæ rectæ lineæ à planis parallelis secentur, in easdem rationes secabuntur.
-
-THEON ex Zamb. Binæ, inquam, rectæ lineæ α β, γ δ, à planis parallelis η θ, κ λ, μ ν, secētur in α, ε, β, γ, ζ, δ, signis. Dico quod est sicut α ε recta linea ad ε β, sic est γ ζ ad ζ δ. Connectantur α γ, β δ, α δ, & concurrat α δ ipsi κ λ plano in ξ signo, cōnectanturq̃ ε ξ, ξ ζ. Et quoniam bina plana parallela κ λ, μ ν, à plano ε β, δ ξ, secantur, ipsorum cōmunes sectiones ε ξ, β δ, parallelæ sunt (per 16 undecimi.) Idq̃ propterea quoniam bina plana parallela η θ, κ λ, à plano α ξ, ζ γ, secantur, cōmunes ipsorum sectiones α γ, ξ ζ, parallelæ sunt (per 16 undecimi.) Et quoniam lateri β δ trianguli α β δ, recta linea parallelus ducta est ε ξ, proportionaliter igitur sicut α ε ad ε β, sic est α ξ ad ξ δ. Rursus quoniam lateri α γ trianguli α δ γ, recta linea parallelus ducta est ξ ζ, proportionaliter igitur sicut α ξ ad ξ δ, sic γ ζ ad ζ δ, patuit autē & sicut α ξ ad ξ δ, sic α ε ad ε β, & sicut igitur (per 11 quinti) α ε ad ε β, sic γ ζ ad ζ δ. Si binæ igitur rectæ lineæ à planis parallelis secentur, & reliqua. Quod erat ostendendū.
-
-[Diagram: three parallel planes drawn as horizontal rectangles: top plane η θ containing points α and γ; middle plane κ λ containing points ε, ξ, ζ; bottom plane μ ν containing points β and δ joined by a horizontal segment; lines α β and γ δ descend through the planes and the diagonal α δ crosses the middle plane at ξ]
-
-## Eucli. ex Camp. Propositio 18.
+## Eucli. ex Zamb. — Theorema 16 — Propositio 18
 
 [Margin]
 18
 [/Margin]
 
-## {dropcap:S|lines=?|style=decorated|decoration="ornamental"}I in superficie assignata orthogonaliter steterit linea, omnis superficies à linea illa quorsumlibet ducta, ad eandem assignatam superficiem erit orthogonaliter erecta.
+## Si recta linea plano alicui ad angulos fuerit rectos, & omnia quæ per ipsam plana ad idem planum ad angulos rectos erunt.
 
-CAMPANVS. Sit enim linea a b erecta perpendiculariter super assignatam superficiem, & à linea a b producatur superficies quorsum libuerit. Quam dico super propositam superficiem esse perendiculariter{printer-error-correction:perpendiculariter} erectam. Cum enim ipsa secet superficiem
+THEON ex Zamber. Recta enim linea α β, subiecto plano ad angulos rectos esto. Dico quod & omnia quæ per α β plana, ad subiectum planum ad angulos rectos sunt. Extendatur, inquam, per α β, planũ δ ε, sitq̃ (per 3 undecimi) communis sectio ipsius δ ε linea plani, & subiecti, γ ε, & sumatur in γ ε, contingens signum ζ, & ab ipso ζ, (per 12 undecimi) ipsi γ ε ad angulos rectos excitetur in δ ε plano ipsa ζ η. Et quoniam α β ad subiectum planum recta est, & ad omnes igitur ipsam tangentes rectas lineas & in subiecto plano existentes recta est ipsa α β (per 2 undecimi diffinitionem,) quare & ad γ ε recta est. Igitur angulus qui sub α β ζ, rectus, est autem qui sub η ζ β, rectus, igitur (per 28 primi) α β, ipsi ζ η parallelus est. Ipsa autẽ α β, ad subiectum planum ad angulos rectos est, & ζ η igitur ad subiectũ planum ad angulos rectos est. Et quoniam (per 3 diffinitionẽ undecimi) planum ad planum rectum est quando quæ communi sectioni planorum ad angulos rectos ductæ rectæ lineæ in uno planorum, ad reliquũ planum ad angulos fuerint rectos, & ipsi γ ε sectioni planorum cõmuni, in uno planorum δ ε scilicet ad angulos rectos acta ζ η, ostensa est supposito plano ad angulos rectos esse, igitur planum δ ε rectum est ad suppositum planum. Similiter iam ostendetur quod omnia quæ per α β plana, recta sunt ad subiectum planum. Si recta igitur linea plano alicui ad angulos fuerit rectos, & omnia quæ per ipsam plana ad idem planum ad angulos rectos erunt. Quod oportuit demonstrasse.
 
-<!-- Catchword: ciem -->
+[Diagram: rectangle representing the plane δ ε, with δ at top left and ε at bottom right; two vertical lines within it, η ζ (η at top, ζ at bottom) and α β (α at top, β at bottom); γ at bottom left corner]
+
+## Eucli. ex Camp. — Propositio 19
+
+[Margin]
+19
+[/Margin]
+
+## {dropcap:S|lines=?|style=decorated}I duæ superficies seinuicem secantes, supra unam superficiem erectæ fuerint orthogonaliter, cõmunis earum sectio ad eandem superficiem perpendicularis erit.
+
+CAMPANVS. Sint duæ superficies a b & c d seinuicem secantes, erectæ orthogonaliter super assignatam superficiem, sitq̃ cõmunis earum sectio linea recta e f. Hanc dico esse perpẽdicularem ad assignatam superfciem{printer-error-correction:superfciem}. Alioqui à puncto f qui est communis terminus sectionum duarum superficierũ secantium & tertiæ superficiei sectæ, producatur una linea recta quæ sit f g, in superficie a b, perpendicularis ad superficiem assignatam, itemq̃ ab eodem puncto ducatur alia perpendicularis ad eandem superficiem, quæ sita sit in superficie c d, & ipsa sit f h, eruntq̃ duæ lineæ f g & f h, orthogonaliter insistentes super punctum unum ad superficiem assignatã. Hoc autẽ, impossibile est per 13 huius. Tales autem lineas posse protrahi à puncto f in utraque duarum superficierũ a b & c d, cum e f non fuerit perpendicularis ad assignatam superficiem, dubitare non conuenit. Intelligatur quidem linea f b cõmunis sectio superficiei a b & superficiei assignatæ, & linea f d, superficiei c d & superficiei assignatæ. Si igitur linea e f fuerit perpendicularis ad utranq̃ duarum linearũ f b & f d, ipsa etiam erit perpendicularis ad superficiem assignatam ex quarta huius. Si autẽ ad neutram, sit f g perpendicularis ad f b, & f h perpendicularis ad f d. Deinde à puncto f protrahe in superficie assignata unam lineam perpendicularẽ ad lineam f b,
+
+[Diagram: two rectangular surfaces intersecting each other and standing on a horizontal base plane; labels a and e at top with c at upper right, b at left, g at right of the vertical common section, d at lower left, f at the foot of the common section on the base plane, b at bottom; oblique lines drawn from f]
+
+<!-- Catchword: quæ ex -->

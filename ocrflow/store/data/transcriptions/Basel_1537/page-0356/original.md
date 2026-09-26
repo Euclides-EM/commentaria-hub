@@ -1,39 +1,63 @@
-<!-- Running title: LIBER VNDECIMVS. -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 345 -->
+<!-- Page number: 346 -->
 
-dratus numerus ad quadratum numerum.
-
-Inuentis iam longitudine incommensurabilibus rectis ut α,β,& plures aliæ magnitudines ex binis * diuisionibus comperiuntur ( plana intelligo) adinuicem incommensurabiles.Quoniam si ipsarum α,β, linearum rectarum mediam proportionalem susceperimus γ,erit igitur sicut α ad β,sic quæ ex α species ad eam quæ ex γ similē similiterq̃ descriptam* speciem,siue quadrata,siue aliæ rectilineæ similes descriptæ fuerint,siue etiam circuli circa dimetientes α γ,quippe quoniam circuli adinuicem sunt sicut ea quæ ex dimetientibus sunt quadrata. Inueniuntur igitur & areolæ planæ adinuicem incommensurabiles.Cum ostenderimus quod ex binis interuallis diuersæ areolæ incōmensurabiles,ostendemus eas quæ ex solidis speculationes,qualiter sunt solida commensurabilia & incōmensurabilia adinuicē. Si enim in ijs quæ ex α,β, quadratis aut eis æqualibus rectilineis figuris cōstituamus altitudine æqualia solida parallelepipeda,uel pyramides,uel prismata,erūt ipsa cōstituta adinuicem sicut bases & si quidem bases sint commensurabiles, commensurabilia erunt ipsa solida. Si uero incommensurabiles,incommensurabilia. Sed & si duobus expositis circulis α β,ipsis conos uel cylindros altitudine æquales describemus,erūt adinuicē sicut bases hoc est sicut ipsi circuli.Et si ipsi circuli sunt cōmensurabiles & ipsi coni & cylindri cōmensurabiles erunt.Si uero ipsi circuli erūt incommensurabiles,ipsi coni & cylindri erūt incōmensurabiles,Et nobis fit manifestū,quod non solū in lineis & superficiebus sunt cōmensurabile & incommensurabile.sed in solidis quoq̃ figuris hoc reperitur.
+quem continent hæ duæ lineæ perpendiculares uidelicet g h & g k,erit rectus: superficies a b c d dicitur orthogonaliter erecta super superficiem c d e f.
 
 [Margin]
-διαϛάσεων interuallis
+4
 [/Margin]
+
+## Superficies æquidistantes sunt quæ in utramlibet partem protractæ nō concurrent,etsi in infinitum producantur.
+
+Intellectum est quod dicitur.Scire tamen debes,quod omnes planæ superficies,aut sunt æquidistantes abinuicem,aut in omnem partem protractæ concurrent alicubi & super rectam lineam se secabunt.Lineas autem rectas nō est necessariū uel esse æquidistantes uel in utrāque partem protractas concurrere,quippe quæ in eadem superficie non sunt nec æquidistant ab inuicem,nec tamen quantumlibet protractæ concurrent.
 
 [Margin]
-εἶδος figura
+5
 [/Margin]
 
-[Diagram: three horizontal lines labelled α, γ, β]
+## Aequa corpora sunt atque similia,quorum terminales superficies numero ac quantitate æquales unius creationis sint atque similes.
 
-DECIMI LIBRI FINIS.
+[Margin]
+6
+[/Margin]
 
-# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENTORVM. LIBER VNDECIMVS,
+## Similia corpora,sunt quæ similibus superficiebus numero æqualibus cōtinentur.
 
-{dropcap:C|lines=?|style=decorated|decoration="figures"}## Eucli.ex Camp.no Diffinitiones.
+Si has duas diffinitiones de corporibus æqualibus & similibus,non intelligis,ad diffinitionem similium superficierum positam in principio sexti recurre.
 
-Orpus,est quod longitudinem latitudinem,& altitudinem habet.Cuius termini,sunt superficies.
+[Margin]
+7
+[/Margin]
 
-Linea erecta supra superficiem,est quæ cum singulis sibi conterminalibus lineis in ea superficie expassis angulos rectos facit.Linea autem hæc supra eam superficiem perpendicularis esse, & ad eandem orthogonaliter insistere dicitur.
+## Corpus serratile,dicitur quod quinque superficiebus quarum tres parallelogrammæ sunt,duæ uero triangulæ,continetur,
 
-Intelligatur enim linea a b exurgere supra planū,ita quod pūctus a imaginetur in aëre,& b in plano.& à puncto b ducantur plures lineæ in eodē plano:ut b c,b d,& quotlibet aliæ.Si igitur ita fuerit quod linea a b cum linea b c,& cum linea b d,& cum qualibet alia linea protracta a puncto b in plano illo angulum rectum contineat,ipsa dicetur esse perpēdicularis ad illā superficiem in qua protractæ sunt hæ lineæ,uidelicet b c & b d,& aliæ cum quibus ipsa ponitur continere angulum rectum.
+Domui quatuor parietes æquidistantes habenti,tectū unico fastigio supremis duorum parietum lateribus æquali & æquidistanti superpositū.serratilis corporis expressam similitudinem gerit.
 
-[Diagram: a plane drawn as a parallelogram with several lines crossing at the point b, the letters c and d at its edges, and the line b a rising obliquely to the point a above]
+[Margin]
+8
+[/Margin]
 
-Superficies autem erecta super superficiem est,quoties puncto uno eodē lineæ quæ est communis terminus illarum superficierum duæ perpendiculares conterminales superstant,quæ rectum continentes angulum in eisdē superficiebus sitæ sunt.
+## Sphæra,est transitus arcus circunferētiæ dimidij circuli quoties sumpto uel supremo semicirculo lineáque diametri fixa donec ad locum suum redeat,arcus ipse circunducitur.
 
-Verbi gratia,imaginemur superficiē a b c d exurgere,superficiem uero c d e f iacere.& intelligamus lineam c d esse cōmunem terminum ambarum.In ea itaq̃ signetur punctus g.a quo ad lineā c d extrahantur duæ lineæ perpendiculares,una uidelicet in superficie c d e f,quæ sit g k & alia in superficie a b c d quæ sit g h.Si igitur angulus
+Super quamlibet lineam semicirculo descripto,si linea illa fixa semicirculus tota reuolutione circunducatur,corpus quod describitur,sphæra nominatur.Cuius centrū,constat esse centrum semicirculi circunducti.
 
-[Diagram: two parallelograms meeting in the line c d, lettered a, h, b along the top, c, g, d along the middle, and e, k, f along the bottom]
+[Margin]
+9
+[/Margin]
 
-<!-- Catchword: quem -->
+## Pyramis laterata,est figura corporea quam continent superficies à quarum una reliquæ sunt ad unum oppositum punctum sursum erectæ.
+
+In omni laterata pyramide cunctæ superficies ipsam ambiētes,ab ipsius basi ad unū punctum subleuantur,qui conus pyramidis dicitur:suntque oēs hæ laterales superficies,triangulæ,basis uero frequenter non est triangula.
+
+[Margin]
+10
+[/Margin]
+
+## Pyramis rotunda,est figura solida,estq̃ transitus trianguli rectanguli alterutro suorum laterum rectum angulum continentium fixo,donec usq̃ ad locum unde moueri cœpit redeat triangulo ipso circūducto.Si igitur latus fixum lateri circunducto fuerit æquale,erit figura rectangula.Si autem longius,acutiangula. Si uero breuius,obtusiangula erit.Axis autem ipsius figuræ,est latus fixū.Basisq̃ sua,circulus.Dicitur autē figura hæc pyramis columnæ rotundæ.
+
+Sit trigonus a b c,rectum angulum habēs qui sit b,figaturq̃ alterū duorū laterum ambiētiū rectū angulū b,sitq̃ latus quod figitur,a b,quo fixo,circunducatur trigonus quousq̃ ad locū unde moueri cœperit redeat.Corporea ergo figura quæ huius trigoni motu describitur,rotunda pyramis appellatur.Cuius tres sunt differentiæ.Alia enim est rectangula,alia acutiangula,tertia obtusiangula.Et prima quidem est,quando latus a b lateri b c fuerit æquale.Esto enim ut linea b c,quum rotatu trigoni peruenerit ad sitū lineæ b d,ita q̃ punctus c cadat super punctū d,fiat linea una,hoc est ut ipsa tūc cōiūgatur situi à quo
+
+[Diagram: a large triangle with apex a and base lettered c, b, d (b the middle of the base); the vertical axis a b is drawn, and lines from c and d meet two further points marked on the axis]
+
+<!-- Catchword: mo- -->

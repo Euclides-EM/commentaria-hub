@@ -1,31 +1,39 @@
-<!-- Page number: 250 -->
+<!-- Running title: LIBER DECIMVS -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 251 -->
 
-quàm quadratus numerus ad quadratum numerum. Et quadrata adinuicem rationem habentia quam quadratus numerus ad quadratum numerum, latera quoque habebunt longitudine cōmensurabilia. A longitudine uero in commensurabilibus rectis lineis quadrata, adinuicem rationē non habent quam quadratus numerus ad quadratum numerum. Et quadrata adinuicem rationem non habentia quā quadratus numerus ad quadratum numerum, neque latera habebunt longitudine commēsurabilia.
+numerum quadratum. Dico quod incommensurabilis est α,ipsi β longitudine. Si enim fuerit commensurabilis α ipsi β,quadratum quod ex α ad quadratum quod ex β,eam habebit rationem quam numerus quadratus ad numerum quadratum,non habet autem. Igitur commensurabilis non est α ipsi β longitudine. Incommensurabilis igitur est α, ipsi β longitudine. A longitudine commensurabilibus igitur quadrata,& quæ sequuntur reliqua, quod demonstrasse oportuit.
 
-[Margin]
-1
-[/Margin]
+## CORRELARIVM
 
-THEON ex Zamberto. Sint enim α,β,longitudine commensurabiles. Dico quod quadratum quod ex α,ad id quod ex β,quadratum rationem habet, quam quadratus numerus ad quadratum numerum. Quoniam enim commensurabilis est α,ipsi β,longitudine,igitur α ad β,rationē habet quam numerus ad numerum (per 5 decimi,)habeat,inquam quam γ,ad δ. Quoniam igitur est sicut α ad β,sic est γ numerus ad δ numerum,sed ipsius quidē α ad β,rationis,dupla est ipsius α quadrati ad ipsius β,quadratum ratio (similes namque figuræ (per 19 sexti & per correlarium primum 20 sexti,) in dupla sunt ratione similis rationis laterum) ipsius autem γ,numeri ad δ,numerum rationis, dupla est ratio ipsius γ quadrati ad ipsius δ quadratū (Binorum etenim quadratorum numerorū (per 11 octaui,)unus medius proportionalis est numerus,& quadratus ad quadratū duplam rationem habet quam latus ad latus : est igitur sicut quadratum quod ex α,ad quadratum quod ex β,sic ex γ,numero quadratus numerus ad eum qui ex δ, numero quadratum numerum.
+Et manifestū est ex his,quod longitudine commensurabiles rectæ lineæ, omnino sunt potentia,quæ autem potentia, non omnino longitudine,longitudine uero incommensurabiles,non omniuo{printer-error-correction:omnino} potentia,quæ autem potētia.omnino & longitudine.
 
-[Diagram: square divided into a 5×5 grid, labeled α, and a smaller square divided into a 3×3 grid, labeled β; below, a row of 5 dots labeled γ and a row of 3 dots labeled δ; beneath these, a 5×5 array of 25 dots and a 3×3 array of 9 dots]
+Quoniam enim ex longitudine commensurabilibus rectis lineis quadrata rationem habent quam quadratus numerus ad quadratum numerum,at quæ rationem habent quam numerus ad numerum, commensurabilia sunt (per 6 decimi,)longitudine igitur commensurabiles rectæ lineæ,non solum longitudine sunt commensurabiles,sed & potentia. Rursus quoniam quæcunque quadrata rationem habent quam numerus ad numerum commensurabilia sunt (per 6 decimi.)at quatenus rationem habent quam quadratus numerus ad numerum quadratum eorum latera longitudine commensurabilia sunt,quæcunque igitur qudrata{printer-error-correction:quadrata} rationem non habent quam quadratus numerus ad quadratum numerum,sed simpliciter quam aliquis numerus ad numerum,commensurabilia potentia quidē habent latera,non autem & longitudine. Quare longitudine quidem commensurabiles rectæ lineæ,omnino & potentia,quæ autem potentia,non omnino longitudine,nisi rationem habuerint eorum quadrata quàm quadratus numerus ad quadratum numerum. Dico iam quod & quæ longitudine incommensurabiles,nō omnino & potentia. Quandoquidem quadrata commensurabilia,possunt rationem habere non quidem quam quadratus ad quadratū, sed simpliciter quam aliquis numerus ad numerum,& ob id potentia commensurabilia latera habebunt,& longitudine incommensurabilia. Quare quæ longitudine incommensurabiles rectæ lineæ,non omnino & potentia. Sed longitudine existentes incommensurabiles possunt & potentia esse incommensurabiles,si eorum quadrata sunt incommensurabilia. Quæ autem potētia incōmensurabiles,omnino & longitudine incommensurabiles. Si enim longitudine commensurabiles fuerint,erunt quoque & potentia commensurabiles. Supponuntur autem & incommensurabiles,quod est absurdum. Quæ igitur potentia incommensurabiles,omnino & longitudine.
 
-ALITER idem demonstrare. Quoniam enim commensurabilis est α, ipsi β,rationem habet(per 5 decimi,) quam numerus ad numerum,habeat autem quam γ ad δ,& γ,seipsum multiplicans,efficiat ε,ipsum autem δ multiplicans. efficiat ipsum ζ,at δ,seipsum multiplicans,efficiat ipsum η. Quoniam igitur γ seipsum multiplicans ipsum effecit ε,at multiplicans ipsum δ fecit ipsum ζ, est igitur (per 17 septimi) sicut γ ad δ,hoc est sicut α,ad β,sic est ε ad ζ. Sed sicut α ad β, sic id quod ex α,ad id quod sub α,β,(per 1 sexti.) Est igitur sicut quod ex α,ad id quod sub α,β,sic ε ad ζ. Rursus quoniā γ ipsum δ multiplicās ipsum effecit ζ,δ aūt multiplicans ipsum effecit η,est igitur (per 17 septimi)sicut γ ad δ hoc est α ad β, sic est ζ ad η. Sed sicut α ad β,sic est quod sub α,β,ad id quod ex β,est igitur sicut id quod sub α,β,ad id quod ex β,sic est ζ ad η,Sed sicut quod ex α,ad id quod sub α,β:sic ε ad ζ,ex æquali igitur(per 22 quinti,)sicut quod ex α ad id quod ex β, sic est ε,ad η,est autem uterque ipsorum ε,η,quadratus,ε quidem ab ipso γ, at η, est ab ipso δ. Quod igitur ex α,ad id quod ex β,eam habet rationem quam quadratus numerus ad quadratum numerum,quod oportebat demonstrare.
-
-[Diagram: square divided into a 4×4 grid, labeled α; a blank upright rectangle; a smaller blank square, labeled β; below, a row of 4 dots labeled γ and a row of 2 dots labeled δ; beneath, a dotted row of 16 points labeled ε, one of 8 points labeled ζ, and one of 4 points labeled η]
+## Eucli.ex Camp. Propositio 8
 
 [Margin]
-2
+8
 [/Margin]
 
-Sed iam esto sicut quadratum quod ex α,ad id quod ex β.sic qui ex γ,quadratus ad eum qui ex δ quadratum. Dico quod α,ipsi β,commensurabilis est longitudine. Quoniam enim est sicut quadratum quod ex α ad id quadratum quod ex β,sic qui ex γ, quadratus ad eū qui ex δ quadratum,sed ipsius quidem quadrati quod ex α,ad id quod ex β,ratio, est dupla eius quæ est ipsius α ad β, quadrati autem qui ex γ numero,ad eum qui ex δ numero quadratum (per undecimā octaui) ratio, dupla est eius rationis quæ est ipsius γ numeri ad ipsum δ numerum,est igitur sicut α ab{printer-error-correction:ad} β,sic est γ numerus ad δ numerum. Igitur α ad β,eam habet rationem quàm γ numerus ad numerum. Commensurabilis est igitur (per sextam decimi,α, ipsi β longitudine.
+{dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duæ quantitates uni quantitati cōmunicantes,ipsas quoqʒ inuicem commensurabiles esse necesse est.
 
-ALITER idem demonstrare. Sed habeat iam quod ex α,ad id quod ex β,eam rationem quam quadratus numerus ε ad quadratum numerum η. Dico quod commensurabilis est α ipsi β. Sit enim ipsius ε,latus γ,ipsius autem η,sit δ,& γ,ipsum δ multiplicans,ipsum efficiat ζ. Ipsi igitur ε,ζ,η,continue sunt proportionales,in ea quæ est ipsius γ ad δ ratione,(per 17 & 18 septimi,)Et quoniam eorum quæ ex α,& β,medium proportionale est id quod sub α β,(per 17 sexti)& ipsorum ε,η,ipse ζ,est igitur sicut quod ex α, ad id quod sub α,β,sic ε ad ζ,sicut autem quod sub α,β. ad id quod ex β,sic ζ ad η. Sed sicut quod ex β ad id quod sub α,β,sic est α,ad β. Igitur α,& β, commensurabiles sunt,rationem etenim habent,quam numerus ε ad numerum ζ,hoc est γ ad δ. Quod oportebat demonstrare. Sed iam incommmensurabilis  esto α,ipsi β longitudine. Dico quod quadratum quod ex α ad quadratum quod est β eam non habet rationem,quam quadratus numerus ad quadratum numerum. Si enim quadratum quod ex α,ad id quadratum quod ex β,eam habet rationem quam numerus quadratus ad numerum quadratum, commēsurabilis erit α ipsi β,nō est autem. Igitur quadratum quod ex α,ad id quadratum quod ex β,(per præcedentē,) eā non habet rationem,quam quadratus numerus ad quadratum numerum.
+CAMPANVS Sit utraqʒ duarū quantitatum a & b,cōmunicans quantitati c,dico a & b esse cōmēsurabiles. Est enim per 5,a ad c, sicut numerus ad numerū.similiter quoqʒ per eādē;c ad b,sicut nūerus ad numerū. Sit itaqʒ numerus d ad numerū e,sicut a ad c,nūerusqʒ f ad nūerū g sicut c ad b. At proportiones quæ sunt d ad e & f ad g,continentur in tribus terminis qui sunt h.K.l,ut docet 4 octaui. eritqʒ per æquā proportionalitatē,a ad b,sicut h numerus ad l numerū, per 6 igitur sunt a & b,cōmunicātes,quod est propositū.
 
-[Diagram: two horizontal lines set beside the preceding text, labeled α Re. 18 and β Re. 9]
+[Diagram: three horizontal lines with tick marks, labeled a, c and b; below, rows of dots: d (4 dots), e (3 dots), f (3 dots), g (2 dots) at left, and h (4 dots), K (3 dots), l (2 dots) at right]
 
-Rursus quadratum quod ex α ad id quadratum quod ex β rationem non habeat,quam numerus quadratus ad
+CAMPANI additio. Ex hac quoqʒ sequitur,quod si fuerint duæ quātitates sibi inuicē cōmunicātes,cuicūqʒ una earū cōmunicat,& reliqua,& cuicūqʒ una nō cōmunicat,nec reliqua. Sint enim duæ quātitates a & b cōmunicantes:ponaturqʒ quælibet quantitas quæ sit c,cū qua cōmunicet a,dico q̄ b cōmunicabit cū eadē,qd' ex hac octaua patet cū utrūqʒ earū cōmunicet cū a,ex hypothesi. Quod si iterū a & b sint cōmunicātes ut prius,ponatur c quælibet quātitas cū qua nō cōmunicet a,dico qd' b non cōmunicabit cū eadē. Si enim c communicaret cum b,quum a quoqʒ per hypothesin cōmunicet cum eodē, b.essent per hanc octauā a & c cōmunicantes,sed positum erat,quod non essent. Quare constat quod diximus.
 
-<!-- Catchword: numerum -->
+[Diagram: three horizontal lines, labeled a, c (with Re. 18 printed beside the label) and b]
+
+## Eucli.ex Camp. Propositio 9
+
+[Margin]
+9
+[/Margin]
+
+{dropcap:S|lines=?|style=decorated|decoration="ornamental"}I fuerint duæ quantitates communicantes,totum quoqʒ ex eis cōfectum utriqʒ earum erit communicans. Si uero fuerit totum utrique commensurabilc{printer-error-correction:commensurabile},eruut{printer-error-correction:erunt} ambæ commensurabiles.
+
+CAMPANVS. Sint duæ quātitates a & b cōmēsurabiles,dico totū ex eis compositū quod sit c,utrique earū esse commensurabile,& econuerso. Adhuc quoqʒ si totū ex eis cōpositū uni earum cōmunicet,dico qd' cōmunicabit alteri,& ipse similiter inter se etiā
+
+<!-- Catchword: cōmu -->

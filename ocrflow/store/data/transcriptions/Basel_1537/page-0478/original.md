@@ -1,29 +1,53 @@
-<!-- Running title: LIBER DECIMVSQVARTVS -->
+<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 467 -->
+<!-- Page number: 468 -->
 
-Cumq̃ perpendiculares ad circulos basium, sint quoq̃ perpēdiculares ad bases, sequitur ut perpendiculares à centro sphæræ ad singulas bases, adinuicem sint æquales. Si ergo quod dicimus de perpēdiculari ad unam suarū basium probetur, relinquetur uerum esse quod proponitur. Sit itaq̃ ut prius triangulus a b c una ex basibus octoedri circunscripti à sphæra cuius centrum d, & cætera quoq̃ fiant ut prius. Cum igitur ex correlario 15 tredecimi, diameter sphæræ sit potētialiter dupla ad latus octoedri, sequitur ut latus octoedri sit potētialiter duplum ad semidiametrū sphæræ, ideoq̃ cum quadratum lineæ b c est 12, quadratum lineæ d c quæ est semidiameter sphæræ 6, ex 11 autem huius cum quadratū b c est 12, quadratū c f est 9. Et ex præmisso antecedēte, quadratū c e est 4. Itaq̃ cum quadratū d c quæ est semidiameter sphæræ est 6, quadratū c e est 4. Et quia ex penultima primi quadratū d c est æquale quadratis duarum linearū c e & e d, sequitur ut quadratū e d sit duo, prout quadratū d e{printer-error-correction:d c} est 6. Constat ergo quod diximus.
-
-[Diagram: triangle a b c with apex a, base b c; interior point e with f on side a b; point d at upper right connected by lines to e, b and c]
-
-## Eucli. ex Camp. Propositio 18
+Apollonio conscriptum, qui recte complectebatur eius quod obijciebatur demonstrationē, gauisi sunt inquam illi ualde, in problematis indagatione. Ab Apollonio nanq̃ æditum uidetur cōmuniter considerare, nam sic circumfertur. Quod uero a nobis rursus laboriose conscriptum uisum est, ea quæ ex cōmendatione deprehendi, tibi * discutienda esse censui, propter eam quæ in omnibus disciplinis, & in Geometria præcipue promotionem, ut prompte ea quæ dicentur possis iudicare, tum propter beneuolentiam erga patrem, tum ob amorem erga nos. Benigne igitur audies ea quæ tibi trademus. Sed tempus iam esto procemio supersedere, & constructionem exordiri.
 
 [Margin]
-18
+προσφωνῆσαι dedicare
 [/Margin]
 
-DVplum quadrati quod ex diametro sphæræ cubum circunscribentis describitur, æquum est omnibus superficiebus ipsius cubi pariter acceptis. Perpendicularis quoq̃, quæ à centro sphæræ ad quamlibet ex superficiebus cubi producitur, medietati lateris cubi eiusdem æqualis esse ex necessitate conuincitur.
+## Eucli. ex Zamb. — Theorema 1 — Propositio 1
 
-CAMPANVS. Manifestum est enim ex correlario 14 tredecimi, quod diameter sphæræ cubum includentis, tripla est in potentia ad latus cubi. Cum igitur quadratum diametri sphæræ triplum sit ad quadratū lateris cubi, duplum quadrati diametri sphæræ æquū erit sexcuplo quadrati lateris cubi. Sunt autem omnes superficies cubi, sex quadrata quæ ex latere cubi in se producuntur, itaq̃ duplum quadrati diametri sphæræ, æquum est omnibus superficiebus cubi. Constat igitur prima pars. Secundam autem partem, ex 18 & 19 & 40 undecimi libri facile probabis.
+[Margin]
+1 / Camp. 1
+[/Margin]
 
-CORRELARIVM. Ex his ergo euenire necesse est, ut ex medietate lateris cubi in bisse quadrati producti ex diametro sphæræ ipsum cubum ambientis cubi soliditas producatur.
+Quæ ex centro alicuius circuli in pentagoni latus in eodem circulo descripti perpēdicularis acta, dimidia est simul utriusq̃: & eius quæ ex centro, & eius quæ decagoni in eodem circulo descripti.
 
-FINIS.
+HYPSICLES ex Zamber. Sit circulus α β γ, & in ipso α β γ circulo latus pentagoni æquilateri sit β γ, assumaturq̃ (per 1 tertij) centrum ipsius circuli, sitq̃ δ, & ab ipso δ (per 12 primi) perpendicularis excitetur δ ε, extendaturq̃ in rectas lineas ipsi δ ε recta linea ε ζ. Dico quod ipsa δ ε dimidia est & hexagoni & decagoni laterum in eodem circulo descriptorū. Connectatur enim δ γ, ζ γ, & ponatur ipsi ε ζ æqualis ε κ, & ab ipso κ in γ connectatur κ γ. Quoniam quincupla est totius circuli circūferentia ipsius β ζ γ circūferentiæ, & totius quidem circunferentiæ circuli dimidia est circunferentia α ζ γ, ipsius autem β ζ γ dimidia est ζ γ circūferentia, α ζ γ ipsius ζ γ circūferentiæ quincupla est. Quadrupla igitur est α ζ ipsius ζ γ. Sicut autē α ζ ad ζ γ, sic qui sub α δ ζ angulus ad eum qui sub ζ δ γ, angulum: quadruplus igitur qui sub α δ ζ, eius qui sub ζ δ γ. Duplus autē qui sub α δ ζ, eius qui sub δ ζ γ: duplus igitur est qui sub δ ζ γ, eius qui sub ζ δ γ. Est autem qui sub ζ δ γ, ei æquus qui sub κ γ ζ: duplus est igitur is qui sub γ κ ζ, eius qui sub κ δ γ: æqualis igitur qui sub δ γ κ, ei qui sub κ δ γ: æqualis igitur δ κ, ipsi κ γ. Sed κ γ ipsi γ ζ æqualis: æqualis igitur & ipsi γ ζ. Est autem κ ε ipsi ε ζ æqualis: æqualis igitur & ipsi δ κ ipsa γ ζ, quæ decagoni. Cōmunis autem apponatur ipsa δ ε. Utraq̃ simul δ ζ, δ κ, dupla est ipsius δ ε. Est autē δ ζ æqualis quidem ipsius hexagoni lateri. At δ κ æqualis ei quod decagoni. Igitur δ ε dimidia est & eius quod hexagoni & eius quod decagoni laterum in eodem circulo descriptorū. Manifestum nempe est ex ijs quæ in tertiodecimo libro theorematibus, quod ex centro circuli in latus triāguli æquilateri perpēdicularis acta, dimidia est eius quæ ex centro circuli.
 
-# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI GEOMETRICORVM ELEMENtorum, deputatus liber de regularium corporum proportione, traditore Hypsicle Alexandrino, ac Bartholomæo Zamberto Veneto interprete, qui in ordine est decimusquartus.
+[Diagram: circle α β γ with pentagon side β γ; centre δ; perpendicular δ ε on β γ produced to ζ on the circumference; κ on the line with ε κ equal to ε ζ; lines δ γ, ζ γ, κ γ drawn]
 
-## Prooemium.
+## Eucli. ex Zamb. — Theorema 2 — Propositio 2
 
-{dropcap:B|lines=?|style=decorated|decoration="Hercules fighting the Hydra, with labels HIDRA and HERCVLES"}Asilides Tyrius Protarche cum Alexandriam petisset, patriq̃ nostro ob Mathematicas disciplinas familiaris substitisset, cum eo, ipso pestilentiæ tempore diu uersatus est. Et quandoq̃ discutiendo id quod ab Apollonio scriptum est de dodecahedri & icosahedri in eadem sphæra descriptorū cōparatione, & quam inter se figuræ huiusmodi habeant rationem, uidebatur nanq̃ Apollonius hæc rectæ minime conscripsisse, ipsi uero enucleantes (quemadmodū pater meus dicebat) perscripserant. Ego uero posterius alium comperi librum ab
+[Margin]
+2
+[/Margin]
 
-<!-- Catchword: Apollonio -->
+Idem circulus cōprehendit & dodecahedri quinquangulū, & icosahedri triangulum in eadem sphæra descriptorū.
+
+HYPSICLES ex Zamb. Hoc, inquam, ab Aristeo describitur in eo libro cuius index est quinq̃ figurarū comparatio, ab Apollonio autem in secunda * traditione comparationis dodecahedri ad icosahedrum, quod est sicut dodecahedri superficies ad icosahedri superficiem, sic & ipsum dodecahedrum ad ipsum icosahedrū, quoniam ex centro sphæræ in dodecahedri pentagonū & in icosahedri triangulum perpendicularis acta eadem est.
+
+[Margin]
+ἐκδόσει editione
+[/Margin]
+
+Describendū quoq̃ à nobis est, quod idem circulus comprehendit & dodecahedri pentagonū & icosahedri triangulū in eadem sphæra descriptorū.
+
+[Margin]
+Camp. 4
+[/Margin]
+
+Hoc * descripto, si in circulo quinquangulū æquilaterū descriptum fuerit, quod ex latere pentagoni & quod ex ea quæ sub binis pentagoni lateribus subtensa est recta linea, quincuplum erit eius quod fit ex ea quæ ex centro circuli.
+
+[Margin]
+προγράψαι
+[/Margin]
+
+Sit circulus α β γ, & in ipso α β γ circulo sit latus pentagoni α γ, assumaturq̃ (per 1 tertij) ipsius circuli centrum, & sit δ, & ab ipso δ in α γ (per 12 primi) perpendicularis excitetur δ ε, & extendatur in β, & ζ, & connectatur α β, α ζ. Dico quod quæ ex γ α, α ζ quadrata quincupla sunt eius quod ex δ ζ quadrati. Connectatur α β, igitur α β decagoni est. Et quoniā β ζ, ipsius δ ζ dupla est,
+
+[Diagram: circle α β γ with vertical diameter β ζ through centre δ; pentagon side α γ cut perpendicularly at ε; chords α β and α ζ drawn]
+
+<!-- Catchword: quadruplum -->

@@ -1,23 +1,35 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER QVINTVS -->
 
-<!-- Page number: 102 -->
+<!-- Page number: 103 -->
 
-*culi, erit trium: reliqua igitur β γ, duorum æqualiū. Secetur (per 30 tertij) β γ, bifariam in ε: utraq̃ igitur ipsarum β ε, & ε γ, circunferentiarum, quintumdecimum erit ipsius α β γ δ, circuli. Si igitur coniungentes rectas lineas β ε, & ε γ, ipsis æquales in cōtinuum rectas lineas (per 1 quarti) coaptemus in circulum α β γ δ: erit in eo descriptum quintidecagonum æquilaterum & æquiangulum, quod facere oportebat. Similiter autem ut in pentagono si per circuli diuisionem, tangentes circulum ducemus: describetur circa circulum, quintidecagonum æquilaterum & æquiangulum: & per ostensionem similiter in pentagonis, & in dato quintidecagono æquilatero & æquiangulo, circulum describemus & circunscribemus.*
+autem ipsum, multiplex: propter hoc quod minus aliquoties sumptum, ipsum constituat: erunt igitur relatiue dicta adinuicem, pars & multiplex. Nam omnis pars, submultiplex: ut patet per eius diffinitionem.
 
-[Diagram: circle with inscribed equilateral triangle (side α γ) and the side α β of the pentagon; point ε on the arc β γ; the circle divided for the quindecagon]
+## 3 Proportio, est habitudo duarum quantæcunq̃ sint eiusdem generis quantitatum, certa alterius ad alteram habitudo.
 
-QVARTI LIBRI FINIS.
+CAMPANVS. Proportio est habitudo duarum rerum eiusdem generis adinuicē, in eo quod earum altera maior aut minor est reliqua uel sibi æqualis. Nō enim solum in quantitatibus reperitur proportio, sed in ponderibus, potentijs & sonis. In ponderibus quidem & potentijs, uult Plato in Timæo esse proportionem: ubi elemētorum numerum ostendit.
 
-# EVCLIDIS MEGARENSIS GRAECI PHILOSOPHI, GEOMETRICORVM ELEMENTORVM LIBER QVINTVS.
+[Margin]
+Plato.
+[/Margin]
 
-## Euclides ex Campano. Diffinitiones.
+In sonis autem esse proportionem, liquet ex musica. Nam (ut uult Boetius in quarto) si quilibet neruus in duas inæquales partes diuidatur: erit ipsarum partium suorumq̃ sonorum, eadem conuerso modo proportio.
 
-1 {dropcap:P|lines=?|style=decorated|decoration="putti"}ars, est quantitas quantitatis minor maioris, cum minor maiorem numerat.
+[Margin]
+Boetius.
+[/Margin]
 
-CAMPANVS. Pars, quandoq̃ sumitur proprie: & hæc est quæ aliquoties sumpta, suum totum præcise constituit: sine diminutione uel augmento: & dicitur suum totum numerare per illum numerū, secundum quem sumitur ad ipsius totius constitutionem: talem autem partem quam multiplicatiuam dicimus, hic diffinit. Quandoq̃ sumitur communiter: & hæc est quælibet quātitas minor, quæ quotiescunq̃ sumpta, suo toto minus aut maius constituit, quam aggregatiuam dicimus: eo quod cum alia quantitate diuersa totum suum constituat, per se autem quotiescunq̃ sumpta fuerit, non producat.
+Sed in quibuscunque proportio reperitur: ea participant naturam proprietatemq̃ quantitatis: non enim reperitur in aliquibus rebus duabus, nisi in eo quod earum una est reliqua maior, aut minor, aut ei æqualis. Quantitatis autem proprium, est secundum ipsam æquale uel inæquale dici, ut uult Aristoteles in prædicamentis:
 
-## 2 Multiplex, est maior minoris quando eam minor metitur.
+[Margin]
+Aristoteles.
+[/Margin]
 
-CAMPANVS. Pars, relatiue dicitur ad totum, & in istis duobus extremis, consistit eorum adinuicem relatio: & ideo diffinito minori extremo: diffinit hic maius: uocat autem
+unde liquet proportionem primo in quantitate reperiri, & per ipsam in omnibus alijs: nec esse in aliquibus rebus proportionem, cui similis non sit in aliquibus quantitatibus: propter quod bene dixit Euclides, proportionem simpliciter esse in quantitate: cum eam diffiniuit per habitudinem duarum quantitatum eiusdem generis adinuicem.
 
-<!-- Catchword: autem -->
+Cuius diffinitionis intellectus est, quod proportio est habitudo duarum quātitatum adinuicem, quæ attenditur in eo quod una earum est maior aut minor alia, uel æqualis ei: per quod patet quod oportet eas esse eiusdem generis, ut duos numeros, aut duas lineas, aut duas superficies, aut duo corpora, aut duo loca, aut duo tempora. Non enim potest dici in ea: maior aut minor superficie, aut corpore: nec tempus, loco: sed linea, linea, & superficies, superficie. Sola enim uniuoca, comparabilia sunt.
+
+Quod autem dicit certa habitudo, non sic intelligas quasi nota uel scita, sed quasi determinata, ut sit sensus. Proportio est determinata habitudo duarum quantitatum: ita, inquam, determinata: quod hæc & non alia. Non enim est necessarium, ut omnis habitudo duarum quantitatum sit scita à nobis, nec etiam à natura. Nam proportio quædam est discretorum, ut numerorum: quædam autem continuorum. In numeris autem, minor: est pars aut partes maioris, ut demonstratur in septimo: quare & in eis est habitudo certa & nota. At uero in continuis, est proportio magis larga: est enim in ea, ubi minor quantitas est, pars aut partes maioris: & talium omnium: mediantibus numeris est proportio nota, quæ & rationalis dicitur. Dicunturq̃ omnes tales quantitates, commmunicantes, quia eas una & eadem necessario metitur: unde & omnes numeri sunt communicantes: omnes enim ipsos metitur unitas. Est etiam, ubi minor non est pars aut partes maioris: & in talibus non est nota proportio nec nobis nec naturæ. Diciturq̃ hæc proportio irrationalis, & hæ quantitates, incōmunicantes: unde fit ut quæcunq̃ portio reperitur in uumeris, reperiatur in omni genere continuorū, ut in lineis, superficiebus, corporibus & temporibus: nō aūt è conuerso: infinitæ em sunt proportiones in cōtinuis repertæ: quas numerorū natura nō sustinet. Sed quæcūq̃ proportio reperitur in uno genere continuorū: eadē reperitur in omnibus alijs. Nam qualitercūq̃ se habet aliqua linea ad quamlibet aliam: sic se habet quælibet superficies ad aliquā aliā, & quodlibet corpus ad aliquodaliud, similiter & tēpus: sed nō sic: quilibet uumerus ad aliquē alium: unde magis est larga proportio in cōtinuis, quàm in discretis. Ex quo manifestum est proportionem geometricam esse
+
+<!-- Signature: i 4 -->
+
+<!-- Catchword: maioris -->

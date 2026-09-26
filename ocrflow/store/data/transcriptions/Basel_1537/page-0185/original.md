@@ -1,43 +1,29 @@
-<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER SEPTIMVS. -->
 
-<!-- Page number: 174 -->
+<!-- Page number: 175 -->
 
-mensuram metietur (per correlarium secundæ septimi.) Ipsorum autem α, β, maxima communis mensura est δ. Igitur ζ ipsum δ metitur: metitur autem & γ. Igitur ζ ipsos δ, γ, metitur, & ipsorum δ, γ, maximam communem mensuram metietur (per idem.) At ipsorum δ, γ, maxima communis mensura est ε. Igitur ζ ipsum ε metitur, maior minorem, quod est impoßibile. Ipsos igitur α, β, γ, numeros numerus aliquis non metitur maior existens ipso ε. Igitur ε ipsorum α, β, γ, maxima communis dimensio est, quod fecisse oportuit.
+α ipsius βγ. Quoniam enim α pars est ipsius βγ, eademq̃ pars est δ ipsius εζ, quot igitur sunt in ipso βγ numeri æquales ipsius α, tot sunt & in ipso εζ numeri æquales ipsi δ. Diuidatur, inquam, βγ in æquales ipsi α, hoc est βη & ηγ, & εζ in æquales ipsi δ, hoc est εθ, & θζ, erit iam æqualis multitudo ipsorum βη & ηγ, multitudini ipsorū εθ & θζ. Et quoniā æqualis est βη ipsi α, & εθ ipsi δ, igitur βη & εθ, α, δ sunt æquales. Id propterea etiam ηγ ipsi α est æqualis, & θζ ipsi δ: ipsi igitur ηγ θζ ipsis α δ æquales sunt. Quot igitur sunt in ipso βγ numeri æquales ipsi α, tot sunt & in βγ & εζ æquales ipsis α, δ. Quotuplex igitur est βγ ipsius α, totuplex est & uterque βγ & εζ, utriusq̃ α, δ. Quæ igitur pars est α ipsius βγ, eadem pars est, & uterque α, δ, utriusq̃ βγ & εζ, quod oportebat demonstrare.
 
-[Diagram: numbers as dot-rows: α (20 dots), β (14 dots), γ (9 dots), δ (8 dots), ε (2 dots), ζ (3 dots)]
+[Diagram: dot-rows: βγ (row of dots with interior point η), δ (4 dots), εζ (row of dots with interior point θ)]
 
-CORRELARIVM. Proinde manifestū est, ꝙ si numerus aliquis tres numeros metitur, & maximā eorum cōmunem dimensionē metietur. Similiter autem & pluribus numeris datis non primis adinuicē, maxima cōmunis dimensio inuenietur.
+## Euclides ex Campano. Propositio 6
 
-## Eucli. ex Camp. Propositio 4
+**6** {dropcap:S|lines=?|style=decorated|decoration="foliate decoration"}I fuerint quatuor numeri quorum primus totæ partes secundi quotæ tertius quarti, erunt primus & tertius pariter accepti totæ partes secundi & quarti pariter acceptorum, quotæ primus secundi.
 
-**4** {dropcap:O|lines=?|style=decorated|decoration="a face within a square frame"}Mnium duorum numerorū inæqualium, minor, maioris aut pars est, aut partes.
+CAMPANVS. Quod proposuit præmissa de parte, proponit ista de partibus. Sint itaq̃ ut prius quatuor numeri a, b, c, d, sitq̃ ut b sit tot & totæ partes a, quot & quotæ d est c: dico quod b & d pariter accepti erunt tot & totæ partes a & c pariter acceptorū, quot & quotæ b est a. Dico autem tot & totas, quia partium pluralitas duobus numeris diffinitur, quorum alter numerator dicitur, alter denominator, ut cum dicimus tres quintæ, ternarius numerat, quinarius denominat. Quia igitur b est partes a, sit ut sint partes eius numeratæ ab h & denominatæ a k, eritq̃ similiter per positionem, d partes c numeratæ ab h & denominatæ a k. Vna itaq̃ partium b sit e, & una partium d sit f, eritq̃ per hypothesin, e pars b denominata ab h, & pars a denominata a k. Similiter quoq̃ & f erit pars d secundum h, & pars c secūdum k. Compositus igitur ex e & f sit g, eritq̃ per præmissam, g pars b & d pariter acceptorum, secundum h, itemq̃ per eandem erit pars a & c pariter acceptorum, secundum k: quare per 16 diffinitionem erunt b & d pariter accepti partes a & c pariter acceptorū numeratæ ab h & denominatæ a k, eo quod eorum communis pars est g minoris secundum h & maioris secundum k, & quia sic erat b, a, constat propositum.
 
-CAMPANVS. Sint duo numeri a & b, b, minor, dico quod b est pars uel partes a. Aut enim b numerat a, aut non, si numerat, pars eius est per diffinitionē. Si non numerat ipsum, aut ergo sunt adinuicem primi, aut non, si non sunt adinuicem primi, habebunt per diffinitionem partem communem, quæ quoties fuerit in b tot partes a dicetur esse b per diffinitionē: si autem sint adinuicem primi, quia tamen omnis numeri pars est unitas ab ipso denominata, patet idem per unitates.
+[Diagram: dot-rows: a (7 dots) with c (12 dots); b (4 dots) with d (8 dots); g; e (2 dots) with f (4 dots); b (2 dots) and k (3 dots)]
 
-[Diagram: numbers as dot-rows: a (8 dots), b (4 dots), b (6 dots), b (7 dots)]
+CAMPANI annotatio. Potes autem & per hanc & præmissam, quod proponit de quatuor numeris, ad quotlibet numeros ampliare, quot si quotlibet numeri minores ad totidem maiores comparentur, fuerintq̃ singuli singulorum tota pars aut partes, quota uel quotæ primus secūdi, erunt quoq̃ omnes pariter accepti tota pars aut partes omnium pariter acceptorū, quota uel quotæ primus secundi, quod facile probatur per hanc & præmissam, quoties oportuerit repetitas. Et si crederemus esse intentionem Euclidis assumere ex prius demonstratis, aliqua ad demonstrationem eorum quæ hic proponit, ex 11 quinti facile demonstrassemus hanc sextam. Nunc autem quia uidetur oppositum (aliter enim superuacue proposuisset multa de numeris, quæ demonstrata sunt in quinto de quantitatibus in genere) necesse habuimus proprijs uti demonstrationibus tanquā ex prioribus nihil sumentes, solis huius septimi contenti principijs: propter quod & petitiones & communes animi conceptiones, proposito proprias non inconuenienter huius septimi principio apposuimus.
 
-## Eucli. ex Zamb. Theorema 2 Propositio 4
+## Eucli. ex Zamb. Theorema 4 Propositio 6
 
-**4** Omnis numerus, omnis numeri minor maioris aut pars est aut partes.
+**6** Si numerus numeri partes fuerit, & alter alterius eædem partes, & uterque utriusque eædem partes erunt, quæ unus unius.
 
-THEON ex Zamberto. Sit bini numeri α, βγ, & sit minor βγ. Dico quod βγ ipsius α, aut pars est aut partes. Ipsi enim α, βγ, aut primi adinuicem sunt, aut non: sint primum α, βγ, primi adinuicem. Diuiso etenim βγ in eas quæ in ipso sunt unitates, erit unaquæq̃ unitas earum quæ in βγ, pars aliqua ipsius α, proinde partes est βγ, ipsius α. Non sint autem ipsi α, βγ, primi adinuicem. Iam βγ ipsum α aut metitur, aut non metitur. Si quidem igitur βγ ipsum α metitur, pars est βγ ipsius α. Si autem non, sumatur (per secundam septimi) ipsorum α, βγ, maxima communis mensura, sitq̃ δ. Diuidatur βγ in æquales ipsi δ, hoc est βε, εζ & ζγ. Et quoniā δ ipsum α metitur, pars est δ ipsius α: æqualis autem est δ unicuiq̃ ipsorum βε, εζ & ζγ: & unusquisq̃ igitur ipsorum βε, εζ & ζγ, ipsius α est pars. Quare partes est βγ ipsius α. Omnis igitur numerus, omnis numeri minor maioris aut pars est aut partes, quod demonstrare oportebat.
+THEON ex Zamberto. Numerus enim αβ, numeri γ esto partes, & alter δε, alterius ζ eædem partes, quæ αβ ipsius γ. Dico quod & uterq̃ αβ & δε, utriusq̃ γ, ζ, eædem partes sunt, quæ αβ ipsius γ. Quoniā enim quales partes est αβ ipsius γ, eædem partes est & δε ipsius ζ: quot igitur partes sunt in ipso αβ ipsius γ, tot partes & in δε, ipsius ζ. Diuidatur quidem αβ in partes ipsius γ, hoc est αη & ηβ, necnon δε in partes ipsius ζ, hoc est δθ, & θε. Erit multitudo ipsorum αη, ηβ æqualis multitudini ipsorum δθ, θε: & quoniam qualis pars est αη ipsius γ, talis pars est & δθ ipsius ζ: qualis igitur pars est αη ipsius γ, talis pars est ut uterque αη & δθ utriusq̃ γ, ζ. Id propterea & qualis pars ηβ ipsius γ, talis pars est & uterque ηβ & θε utriusq̃ γ ζ. Quales igitur partes sunt αβ ipsius γ, tales partes sunt & uterque αβ & δε utriusq̃ γ, ζ quod demonstrare oportebat.
 
-[Diagram: numbers as dot-rows: α (13 dots); β—γ (8 dots); β—γ (7 dots); β—γ (10 dots with interior points ε and ζ); δ (3 dots)]
+[Diagram: dot-rows: αβ (row of dots with interior point η); γ (9 dots); δε (row of dots with interior point θ); ζ (13 dots)]
 
-## Eucli. ex Camp. Propositio 5
+<!-- Signature: p 4 -->
 
-**5** {dropcap:S|lines=?|style=decorated|decoration="foliate decoration"}I fuerint quatuor numeri, quorum primus tota pars secundi quota tertius quarti, erunt primus & tertius pariter accepti tota pars secundi & quarti pariter acceptorum, quota primus secundi.
-
-CAMPANVS. Volens Euclides hos libros de numeris aliquo præcedentiū non indigere, sed per seipsos stare, partem eius quod proposuit per primam quinti de quantitatibus in genere, proponit per hanc quintam huius septimi de numeris. Sint igitur quatuor numeri a, b, c, d, sitq̃ b tota pars a, quota d, c: dico quod b & d pariter accepti sunt tota pars a & c pariter acceptorū, quota b est a: diuisis enim a & c secūdum quantitatem b & d, argumentare sicut in prima quinti: erit enim ut totidem sint partes a, quot c per positionem, & ut aggregatum ex prima parte a & prima c, sit æquale aggregato ex b & d: similiter quoq̃ & aggregatum ex secunda parte a & secunda c, & quia hæc aggregatio toties potest fieri quoties cōtinetur b in a, sequitur ut numerus æqualis aggregato ex b & d, toties contineatur in aggregato ex a & c, quoties b continetur in a, quare constat propositum.
-
-[Diagram: numbers as dot-rows: a (8 dots) with c (6 dots); b (4 dots) with d (3 dots)]
-
-## Eucli. ex Zamb. Theorema 3 Propositio 5
-
-**5** Si numerus numeri pars fuerit, & alter alterius eadem pars, & uterque utriusque eadem pars erit, quæ unus unius.
-
-THEON ex Zamberto. Numerus enim α, numeri βγ esto pars, & alter δ alterius εζ eadem pars, quæ est α ipsius βγ. Dico quod uterque α, δ, utriusq̃ βγ & εζ eadem pars est, quæ &
-
-[Diagram: number as dot-row: α (6 dots)]
-
-<!-- Catchword: α ipsius -->
+<!-- Catchword: Euclidis -->

@@ -1,37 +1,47 @@
-<!-- Page number: 282 -->
+<!-- Running title: LIBER DECIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 283 -->
 
-ctum quod diuidit totam lineam per æqualia.
+potentia tantum cõmensurabiles. Dico quod ipsa α β, ad aliud signum nõ diuiditur in binas rationales potentia tantum cõmensurabiles. Si enim possibile, diuidatur in δ, ut ipsæ α δ, δ β, sint rationales potentia tantum cõmensurabiles, manifestũ iam quod α γ, ipsi β δ non est eadem. Si enim fieri potest, esto, erit iam & α δ, ipsi β γ eadem, eritq̃ sicut α γ ad γ β, sic β δ ad δ α, eritq̃ α β in eadem qua γ diuisione, diuisa & in δ, quod positum non est. Ipsa igitur α γ ipsi δ β non est eadem. Ac per hoc etiam & signa γ, δ, non æquidistant a bifaria sectione. Quo itaq̃ differunt quæ ex α γ, γ β, ab eis quæ ex α δ, δ β, eo etiam differt & quod bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, eo quod tum quæ ex α γ, γ β, una cum eo quod bis sub α γ, γ β, tum quæ ex α δ, δ β, una cum eo quod bis sub α δ, δ β, sunt æqualia ei quod ex α β. Sed quæ ex α γ, γ β, ab eis quæ ex α δ, δ β, rationali differunt, utraque enim rationalia (per 21 decimi) quod bis igitur sub α δ, δ β, ab eo quod bis sub α γ, γ β, differunt rationali, quæ media existunt: medium autem, medium non excedit rationali (per 26 decimi.) Ex binis igitur nominibus, ad aliud & aliud signum non diuiditur, ad unum duntaxat igitur. Quod erat ostendendum.
 
-Sit linea a b diuisa per duo inæqualia in pũcto c, itemq̃ per alia minus inæqualia in pũcto d, rursus per æqualia in e. Dieo{printer-error-correction:Dico} quo{printer-error-correction:quod} quadrata duarũ partiũ magis inæqualiũ quæ sunt a c & c b, tãtũ sunt amplius duobus quadratis duarũ linearũ minus inæqualiũ quæ sunt a d & d b, quantũ est duplũ quadrati lineæ c d & quadruplũ eius quod fit ex c d in d e Sunt enim per 9 secundi quadrata duarũ linearũ a c & c b, pariter accepta dupla quadratis duarũ linearũ b e & e c pariter acceptis. At per eandẽ 9 secũdi quadrata duarũ linearũ a d & d b pariter accepta, dupla sunt quadratis duarũ linearũ b e & e d pariter acceptis. Itaque quadrata duarũ linearũ a c & c b pariter accepta excedunt quadrata duarũ linearũ a d & d b pariter accepta, in eo quo duplum quadrati lineæ c,{printer-error-correction:c e} excedit duplũ quadrati lineæ d e, hoc autem. per 4 secũdi est duplũ quadrati lineæ c d, & quadruplum eius quod fit ex e d in d c, quare constat propositum. Ex hoc manifestũ est quod quãto fuerint sectiones alicuiꝰ lineæ magis inæquales, tãto erũt earũ quadrata pariter accepta, maiora. & hoc est, propter quod istud præmisimus.
+[Diagram: horizontal line with points α, δ, γ, β]
 
-[Diagram: horizontal line with points a, c, d, e, b]
-
-## Eucl. ex Camp. Propositio 36
+## Eucli. ex Camp. Propositio 37
 
 [Margin]
-36
+37
 [/Margin]
 
-{dropcap:I|lines=?|style=decorated|decoration="ornamental"}N alias duas lineas sub earum termino ex quibus coniũctum & nominatum est binomium, diuidi impossibile est.
+{dropcap:B|lines=?|style=decorated|decoration="ornamental"}Imediali primo secundum terminum suum in duas lineas mediales diuiso, sub earum termino in alias duas lineas mediales idem diuidi est impossibile.
 
-CAMPANVS Sit a b binomiũ, eritq̃ ex 30 cõposita ex duabus lineis in potẽtia tantũ rationalibus cõmunicantibus, quæ sint a c & c b. Dico quod impossibile est eam diuidi in alias duas lineas sub hac diffinitione uidelicet quod ipsi sint potentia tantum rationales communicãtes. Si enim potest, diuidatur in a d & d b, quæ sint potentia rationales tantũ cõmunicantes. Esto quoq̃ linea e f rationalis in longitudine. cui adiũgatur superficies e g quæ sit æqualis quadratis duarum linearum a c & c b pariter acceptis, & superficies f h quæ sit æqualis quadrato lineæ a b. Eritq̃ superficies c g{printer-error-correction:e g}, rationalis, eo quod utrumq̃ quadratorum linearũ a c & c b pariter acceptorum est ratiõale per hypothesin & superficies g h medialis per 19, quoniã ipsa est æqualis duplo superficiei a c in c b per 4 secundi. Sit igitur rursus superficies f k æqualis quadratis duarũ linearũ a d & d b pariter acceptis quæ cũ sint diuersæ à duabus lineis a c & c b, erit per secũdum prædemõstratorum antecedentiũ superficies f k diuersa a superficie e g, earum ergo differẽtia sit k g, eritq̃ per 4 secũdi excessus superficiei f h, super f k qui sit k l, æqualis duplo eius quod fit ex a d in d b, & propter hoc erit etiã superficies f k rationalis, & superficies k l medialis. Itaq̃ superficies k g cũ ipsa sit differentia duarum superficierum rationalium quæ sunt e g & f k, erit rationalis. Nõ enim differt rationale à rationali, nisi in rationali. & hoc dico, diffinitione & 9 huius hoc cõfirmantibus. Eadẽ quoq̃ cum ipsa sit differentia duarum superficierum medialium quæ sunt g h & k l, erit irrationalis per 22, quod est impossibile.
+CAMPANVS. Sit quoq̃ hic linea a b, bimediale primũ, diuisa in duas lineas mediales potentia tantum cõmunicantes superficiemq̃ rationalem continentes, ex quibus 31 asserit eam componi, quæ sint a c & c b. Dico quod impossibile est eam diuidi in alias duas lineas sub earum diffinitione. Quod si possibile fuerit, diuidam eam in puncto d, assumptaq̃ linea rationali e f, adiungatur ei e g æqualis duobus quadratis duarum linearũ a c & c b, & superficies f h æqualis quadrato a b, & superficies f k æqualis quadratis duarũ linearum a d & d b, eritq̃ per quartam secundi g h æqualis duplo superficiei a c in c b, & per eandem erit k l æqualis duplo superficiei a d in d b, propter hypothesin quoq̃ erit utraq̃ duarũ superficierũ e g & k f medialis, & utraq̃ duarum linearũ g h & k l rationalis, hoc autem impossibile, esset enim per primũ superficies k g, irrationalis ex 22, per secundam autem eadem esset rationalis ex diffinitione & 9. Quod est inconueniẽs.
 
-[Diagram: horizontal line with points a, d, c, b; below, a tall rectangle on the rational line e f, divided by horizontal lines into strips; points b, k, e on the left side, l, g, m, f on the right side]
+[Diagram: horizontal line with points a, d, c, b; below, a tall rectangle on the line e f, divided by horizontal lines into strips; points b, k, e on the left side, l, g, m, f on the right side]
 
-Quod autẽ prædictæ irratiõales solummodo diuiduntur in eas rectas lineas ex quibus componuntur efficientibus propositas species, ostendemus iam huiusmodi proponentes lemmatium.
+## Eucli. ex Zamb. Theorema 31 Propositio 43
 
-## THEON — Lemma.
+[Margin]
+43
+[/Margin]
 
-Exponatur recta linea α β, seceturq̃ tota in inæqualia in utrunque signorũ γ δ, supponaturq̃ maior α γ quàm δ β. Dico quod quæ ex α γ, β γ, maiora sunt eis quæ ex α δ, δ β. Secetur enim (per 10 primi) α β, bifariã in ε, & quoniã maior est α γ, quã δ β, cõis auferatur δ γ. Reliqua igitur α δ, reliqua γ β, maior est, æqualis aũt est α ε, ipsi ε β, minor igitur est δ ε quã ε γ, igitur γ & δ signa, nõ æqualiter distãt à bifaria sectiõe, Et quoniã (per 5 secũdi) quod sub α γ, γ β, una cũ eo quod ex γ ε, æquum est ei quod ex ε β, at quod sub α δ, δ β, una cum eo quod ex δ ε, æquum est ei quod ex ε β, igitur quod sub α γ, γ β, una cum eo quod ex ε γ, æquũ est ei quod sub α δ, δ β, una cum eo quod ex δ ε, quorũ quod ex δ ε, minus est eo quod ex ε γ, & reliquũ igitur quod sub α γ, γ β, minus est eo quod sub α δ, δ β. Quare & quod bis sub α γ, γ β, minus est eo quod bis sub α δ, δ β, & reliquũ igitur cõpositũ ex ijs quæ ex α γ, γ β, maius est composito ex ijs quæ fiunt ex α δ, δ β, siquidem utraq̃ æqualia sunt ei quod ex α β, quod ostendere oportuit.
+Ex binis medijs prima, ad unũ duntaxat signum diuiditur in nomina.
 
-[Diagram: horizontal line with points α, δ, ε, γ, β]
+THEON ex Zamb. Esto ex binis prima medijs α β diuisa in γ, ut ipsæ α γ, γ β, mediæ sint potentia tantum cõmensurabiles rationale cõprehendentes. Dico quod ipsa α β, ad aliud signum nõ discinditur. Si enim possibile, diuidatur in δ, ut α δ & δ β sint potentia mediæ tantum cõmensuxabiles{printer-error-correction:cõmensurabiles} rationale cõprehendentes. Quoniam igitur quo differt qd̃ bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, differũt quæ ex α γ, γ β, ab eis quæ ex α δ, δ β, rationali autem differt quod bis sub α δ, δ β, ab eo quod bis sub α γ, γ β, rationalia enim utraq̃. Rationali igitur differunt & quæ ex α γ, γ β, ab eis quæ ex α β{printer-error-correction:α δ}, δ β, media existentia. quod est impossibile. Ex binis igitur medys prima, ad aliud & aliud signum non diuiditur in nomina, ad unum duntaxat igitur, quod erat demonstrandũ.
 
-## Eucli. ex Zãb. Theorema 30 Propositio 42
+[Diagram: horizontal line with points α, δ, γ, β]
 
-Quæ ex binis nominibus, ad unũ duntaxat signũ diuiditur in nomina.
+## Eucli. ex Camp. Propositio 38
 
-THEON ex Zamber. Sit ex binis nominibus α β, diuisa in nomina in c{printer-error-correction:γ}, igitur ipsæ α γ, γ β, rationales sunt
+[Margin]
+48 (sic, for 38)
+[/Margin]
 
-<!-- Catchword: potentia -->
+{dropcap:B|lines=?|style=decorated|decoration="ornamental"}Imediale secũdum, nisi in duas lineas tantum sub termino suo diuidi non potest.
+
+CAMPANVS. Sit ut prius linea a b bimediale secũdum, diuisa in duas lineas a c & c b mediales, potentia tantum cõmunicantes superficiẽq̃ medialem continẽtes, ex quibus 23{printer-error-correction:32} proponit eam componi. Dico q̃ impossibile est eam diuidi sub earũ diffinitiõe in alias duas. Sin autẽ, diuidatur in d, sintq̃ ut prius superficies e g, f h, & f k, adiunctæ ad lineam rationalem e f. eritq̃ per præsentes hypotheses. utraq̃ superficies e g, & g h, medialis, quare per 20 utraque duarum linearũ f g & g l erit rationalis in potentia tantũ non communicans in longitudine lineę e f. At quia duæ lineæ a c, & c b, erunt incõmensurabiles in longitudine, sequitur per primã sexti & per secundã partem 10 huius q̃ utrunq̃ quadra
+
+[Diagram: horizontal line with points a, d, c, b; below, a tall rectangle divided by horizontal lines into strips; points b, k, e on the left side, l, g, m, f on the right side]
+
+<!-- Signature: A 4 -->
+
+<!-- Catchword: torum -->

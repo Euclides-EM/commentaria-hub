@@ -1,21 +1,41 @@
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Running title: LIBER DECIMVS. -->
 
-<!-- Page number: 266 -->
+<!-- Page number: 267 -->
 
-linea e g sit rationalis in longitudine sicut sua æqualis c d, erit per 16 linea e f rationalis in longitudine & cōmunicans lineæ e g, per 20 autem est utraque duarum linearum c e & e f potētialiter tantū rationalis, & lineæ c d incōmensurabilis in longitudine, itaq̃ e f linea est incōmensurabilis lineæ c e in lōgitudine. Et quia per primam sexti quadratum lineæ e f ad superficiem quæ fit ex e f in c e est, sicut e f ad c e, sequitur per secūdam partem decimæ ut quadratum lineæ e f sit iucōmensurabile{printer-error-correction:incōmensurabile} superficiei factæ ex e f in c e, quare & ipsum quadratum erit incommensurabile duplo superficiei ex e f in c e, quadratū uero c e cum sit rationale. est cōmunicans quadrato e f, totum igitur ex ambobus cōpositum erit per 9 cōmunicans quadrato e f. Et ideo incōmensurabile duplo superficiei ex e f in c e. Et quia per 4 secundi quadratum lineæ c f est æquale duobus quadratis duarum linearum c e & e f, & duplo superficiei ex c e in e f, & duplum superficiei c e in e f est incommensurabile aggregato ex duobus quadratis duarum linearum c e & e f, sequitur per ea quæ addita sunt in 5, ut quadratū c f sit incommensurabile aggregato ex duobus quadratis duarum linearum c e & e f. At cum aggregatum ex his quadratis sit rationale, sequitur quadratnm{printer-error-correction:quadratum} lineæ c f non esse rationale, & ideo linea c f non est rationalis in potentia, & idcirco non erit superficies d f medialis, neq̃ a b sibi æqualis, quod est inconueniens, cum sit contrarium positis. Relinquitur igitur quod superficies b, est irrationalis, quod est propositum.
-
-[Diagram: a rectangle divided by a horizontal line into a smaller upper part b and a larger lower part a; beside it a rectangle with f at top left, divided by a horizontal line e–g, with c at bottom left and d at bottom right]
-
-## Eucli.ex Camp. Propositio 23
+CAMPANI annotatio. Et nota quod si duæ lineæ a b & b c essent mediales in longitudine cōmunicantes, esset superficies a c medialis tantum, esset enim superficies a c communicans utrique duorum quadratorum a e & c d per primam sexti & per præsentem hypothesin, & per 10 huius, & ideo superficies h k æqualis a c, esset communicans utrique superficiei f h & k l, igitur per primam sexti, & 10 huius linea h m esset cōmunicans utrique duarum linearum g h & l m. Et quia hæ ambæ essent rationales in potentia tantum, non cōmunicantes in longitudine lineæ f g, esset quoq̃ h m rationalis in potentia tantum, non cōmunicans in longitudine lineæ f g, quare per 19 esset superficies h k medialis tantum & ideo etiam a c sibi æqualis. Si autem duæ lineæ a b & b c essent mediales, neque in longitudine neque in potentia communicantes, superficies a c neque esset rationalis neque medialis, si enim sic esset, scilicet, quod duæ lineæ a b & b c essent mediales neque in longitudine neque in potentia cōmunicantes, essent duo quadrata a e & c d incommunicantia, itaq̃ & duæ superficies f h & k l eis æquales quoq̃ essent incommunicantes, quare & duæ lineæ g h & m l essent incommensurabiles per primam sexti. & per secundam partem decimi. Et quia utraque earum est rationalis tantum in potentia, per 20 esset superficies unius earum ad alteram medialis per 19. Cum ergo quadratū lineæ h m sit æquale dictæ snperficiei{printer-error-correction:superficiei} quæ fit ex g h in m l, per primam partem 16 sexti, esset per 19 linea h m linea medialis, per 15 ergo non esset superficies h k ratioualis{printer-error-correction:rationalis}, nec etiam per 20 medialis, quare nec sua æqualis a c.
 
 [Margin]
-23
+Zamb. 24
 [/Margin]
-
-{dropcap:O|lines=?|style=decorated|decoration="a moon face"}## Mnis superficies quam continent duæ lineæ mediales potentialiter tantum cōmunicantes, aut rationalis est aut medialis.
-
-CAMPANVS. Sint duæ lineæ a b & b c mediales potentia tantū communicantes, dico quod superficies a c ab eis contenta aut est rationalis, aut medialis. Sint enim, c d quadratū lineæ b c, & a e quadratum lineæ a b : erūtq̃ ex hypothesi hæc duo quadrata communicantia, & erit per primam sexti superficies a c medialis medio loco proportionalis inter ipsa quadrata. Sumatur igitur linea f g quæ sit rationalis in lōgitudine, cui adiungatur superficies f h æqualis quadrato a e, & h k æqualis superficiei a c, & k l æqualis quadrato d c, eruntq̃ hæ tres superficies f h, h k, & k l continue proportionales, sicut sunt æquales a e, a c, & d c, quare per primam sexti erunt etiam tres lineæ g h, h m, & m l, quæ sunt bases earum, continue proportionales. Et cum superficies f h & k l sint communicantes, sicut duo quadrata a e & c d eis æqualia, sequitur per primam sexti & decimam huius, ut linea g h sit cōmunicans cum l m, utraque autem earum est rationalis, in potentia per 20 huius : igitur superficies unius earum in alteram est rationalis : omnis enim superficies quam continent duæ lineæ rationales in potentia, cōmunicantes in longitudine, necessario est rationalis, ut patet ex prima sexti & prima parte decimæ huius & ex diffinitione superficierum rationalium. Et quia ex prima parte decimæsextæ quadratum lineæ l m est æquale superficiei ex g h in m l, erit quadratū lineæ h m rationale. Si ergo linea h m est rationalis in lōgitudine sibi cōmunicans lineæ k m quæ est æqualis lineæ f g, erit per 15 superficies h k rationalis, ideoq̃ & sua æqualis a c. Si autem h m sit irrationalis in longitudine siue incommensurabilis lineæ k m quæ est æqualis lineæ f g, cum ipsa sit rationalis saltem in potentia eo quod suum quadratum est rationale, erit ex 19 superficies h k medialis, quare & sua æqualis a c. Constat ergo propositum.
 
 [Diagram: a square with top side labelled e, b, c, interior labelled a, and above the segment b c a square labelled d at its top; beside it a tall rectangle divided into three stacked parts labelled l, m and b, with k at the left between the upper parts, f at bottom left and g at bottom right]
 
-<!-- Catchword: CAMPANI -->
+Præcedentes duæ ex Campano propositiones, scilicet, 22. & 23. tribus ex Zamberto sequentibus, uidelicet, 24. 25. & 26. inuerso ordine respondent, 22. namq̃ ex Campano, 26. ex Zamberto, 26.{printer-error-correction:23} autem ex Campano, cum additione, 24. & 25. ex Zamberto respondent.
+
+## Eucli.ex Zamb. Theorema 21 Propositio 24
+
+[Margin]
+24
+[/Margin]
+
+## Sub medijs longitudine commensurabilibus rectis lineis comprehensum rectangulum, medium est.
+
+THEON ex Zamberto. Sub medijs enim longitudine commensurabilibus rectis lineis α β, β γ, comprehendatur rectangulum α γ, dico quod α γ medium est. Describatur enim (per 49 primi) ex α β, quadratum α δ, medium igitur est α δ. Et quoniam cōmensurabilis est α β ipsi β γ longitudine, æqualis autem est α β ipsi β δ, commensurabilis igitur est δ β ipsi β γ longitudine. Quare & δ α ipsi α γ (per correlarium 23 decimi) commensurabile est : medium autem est δ α, medium igitur est & α γ, quod oportebat ostendere.
+
+[Diagram: a rectangle with δ at top left, β at the top where a vertical line divides it, γ at top right, and α below the bottom right]
+
+## Eucli.ex Zamb. Theorema 22 Propositio 25
+
+[Margin]
+25
+[/Margin]
+
+## Sub medijs potentia tantum commensurabilibus rectis lines{printer-error-correction:lineis} comprehensum rectangulum, aut rationale aut medium est.
+
+THEON ex Zamberto. Sub medijs potentia tautum{printer-error-correction:tantum} cōmensurabilibus rectis lineis α β, β γ, cōprehendatur rectangulū α γ. Dico quod α γ, aut rationale, aut mediū est. Describantur enim (per 46 primi) ex α β & β γ, quadrata α δ & β ε, medium est igitur utrumq̃ ipsorū α δ & β ε. Exponaturq̃ rationalis ζ η, ipsiq̃ α δ æquum ad ζ η comparetur (per 4, primi) rectangulū paralle
+
+[Diagram: a square with γ at the top inside, δ at bottom left, β and ε at the left side, α at the right where a small rectangle ε–α adjoins the top; beside it a rectangle divided by horizontal lines with λ at top left, η at left, θ at left below, ζ at bottom left, and ε, μ, η at the right side]
+
+<!-- Signature: z 2 -->
+
+<!-- Catchword: logrammū -->
