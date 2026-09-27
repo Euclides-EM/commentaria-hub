@@ -100,7 +100,7 @@ func (j *Job) runAnnotationRuleApply(jb *job.Job) {
 		var followCommands []string
 		ann, err := j.annotations.ExecuteApplyRulesWithRemoteProgress(jb.Target.DatasetID, jb.Target.AnnotationID, jb.Rules, func(command string) {
 			followCommands = append(followCommands, command)
-			j.progressReporter(jb, "GPU farm job submitted; waiting for detection result callback")("follow logs with: " + command)
+			j.progressReporter(jb, "GPU farm job submitted; waiting for detection result callback")(command)
 		})
 		if err != nil {
 			return nil, err

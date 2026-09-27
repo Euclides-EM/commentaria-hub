@@ -223,6 +223,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DatasetImgSvc:           datasetImgSvc,
 		AnnotationSvc:           annotationSvc,
 		AnnotationRuleExecution: annotationRuleExecutionSvc,
+		AnnotationDetectRemote:  annotationDetectionRemoteSvc,
 		AnnotationGroupSvc:      annotationGroupSvc,
 		ModelSvc:                modelSvc,
 		MetadataDetailsSvc:      metadataDetailsSvc,

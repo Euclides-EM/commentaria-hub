@@ -364,3 +364,77 @@ cat artifacts/result.json
 ```
 
 This JSON file contains the trained model path and dataset metadata.
+
+# Manual rule execution
+
+`LinesDetect` and `ModelDetect` rules with `"use_gpu_farm": true` can be run manually, without the API connecting to the GPU farm over SSH, by also setting `"manual_run": true` on the rule. Rules must be applied with `"execution_mode": "async"`.
+
+The API needs `API_URL`, which must be reachable from the GPU farm. `GPU_FARM_HOST` and `GPU_FARM_JOB_ROOT` are not used.
+
+Instead of uploading and submitting, the API packs the run inputs (images, ALTO, model, `manifest.env`) and the job files into a bundle served by the API, and the async job stays `running` with a message of the form:
+
+```text
+manual GPU farm run: follow docs/GPU_FARM.md#manual-rule-execution with BUNDLE_URL='...' RUN_ID='...'
+```
+
+These two values are the only per-run inputs to the steps below. `PROJECT_ROOT` is any folder on the GPU farm; keep the same one across runs so the Python environment is reused. Each run is extracted into its own `$PROJECT_ROOT/$RUN_ID` folder, and the paths in its `manifest.env` are resolved relative to that folder when the job runs. Bundles are kept in the API temp directory until the API restarts.
+
+All steps run on the GPU farm.
+
+## 1. Fetch the bundle
+
+Use a GitHub token that is allowed by the API:
+
+```bash
+BUNDLE_URL='...'
+RUN_ID='...'
+PROJECT_ROOT=~/jobs/detect_annotation
+RUN_DIR="$PROJECT_ROOT/$RUN_ID"
+mkdir -p "$RUN_DIR/logs"
+curl --fail -L -H "Authorization: Bearer $GITHUB_TOKEN" -o "$RUN_DIR/bundle.zip" "$BUNDLE_URL"
+unzip -o "$RUN_DIR/bundle.zip" -d "$RUN_DIR" && rm "$RUN_DIR/bundle.zip"
+cp "$RUN_DIR"/job/{script.py,requirements.txt,job.sbatch} "$PROJECT_ROOT"/
+```
+
+## 2. Prepare the Python environment
+
+Creates the environment on the first run and installs any changed requirements:
+
+```bash
+module purge 2>/dev/null || true
+unset PYTHONHOME PYTHONPATH LD_LIBRARY_PATH
+[ -d "$PROJECT_ROOT/.venv" ] || python3 -m venv "$PROJECT_ROOT/.venv"
+source "$PROJECT_ROOT/.venv/bin/activate"
+python -m pip install -U pip wheel
+python -m pip install -r "$PROJECT_ROOT/requirements.txt"
+deactivate
+```
+
+## 3. Submit and monitor
+
+```bash
+cd "$RUN_DIR"
+sbatch "$PROJECT_ROOT/job.sbatch"
+squeue -u $USER
+tail -n 100 -F "$RUN_DIR"/logs/*
+```
+
+## 4. Resolution
+
+The Slurm job resolves the rule execution itself: on success it uploads `artifacts/alto-result.zip` to the detection result callback and the async job completes; on error it posts the failure callback and the async job fails.
+
+If the Slurm job ends without reaching a callback (for example it was cancelled, hit its time limit, or the upload failed), resolve it from `$RUN_DIR`:
+
+```bash
+cd "$RUN_DIR" && source manifest.env
+curl --fail -H "Authorization: Bearer $RESULT_UPLOAD_TOKEN" -F "mode=$MODE" -F "file=@artifacts/alto-result.zip;type=application/zip" "$RESULT_UPLOAD_URL"
+```
+
+or, to mark it failed:
+
+```bash
+cd "$RUN_DIR" && source manifest.env
+curl --fail -H "Authorization: Bearer $RESULT_UPLOAD_TOKEN" --form-string "mode=$MODE" --form-string "error=<reason>" "$RESULT_FAILURE_URL"
+```
+
+When several GPU farm rules are applied in one execution, each prints its own `BUNDLE_URL` and `RUN_ID`, and the async job completes after every run has sent its callback.

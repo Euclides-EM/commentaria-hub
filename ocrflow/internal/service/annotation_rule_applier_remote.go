@@ -21,13 +21,14 @@ func (a *AnnotationRuleApplier) applyLinesDetectRuleRemote(imgPath string, ann *
 		Pages:             pages,
 		IncludeCategories: t.IncludeCategories,
 		IgnoreCategories:  t.IgnoreCategories,
+		ManualRun:         t.ManualRun,
 	}, onSubmitted); err != nil {
 		return nil, fmt.Errorf("failed to submit lines detect for annotation %s to GPU farm: %w", ann.ID, err)
 	}
 	return ann, nil
 }
 
-func (a *AnnotationRuleApplier) applyModelDetectRemote(imgPath string, ann *annotation.Annotation, m *model.Model, pages []int, onSubmitted func(string)) (*annotation.Annotation, error) {
+func (a *AnnotationRuleApplier) applyModelDetectRemote(imgPath string, ann *annotation.Annotation, m *model.Model, pages []int, manualRun bool, onSubmitted func(string)) (*annotation.Annotation, error) {
 	if m.Location != model.OCRModelLocationLocal {
 		return nil, fmt.Errorf("GPU farm detection requires a local model, got %s", m.Location)
 	}
@@ -38,6 +39,7 @@ func (a *AnnotationRuleApplier) applyModelDetectRemote(imgPath string, ann *anno
 		Pages:      pages,
 		Model:      m,
 		ModelPath:  a.fileSysMgt.ModelPath(m),
+		ManualRun:  manualRun,
 	}, onSubmitted); err != nil {
 		return nil, fmt.Errorf("failed to submit model detect for annotation %s to GPU farm: %w", ann.ID, err)
 	}

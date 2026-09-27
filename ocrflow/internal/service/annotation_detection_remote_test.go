@@ -5,7 +5,6 @@ import (
 	"testing"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
-	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/gpufarm"
 )
 
 func TestDetectionFollowCommandIsDirectlyCopyableFromJSON(t *testing.T) {
@@ -28,12 +27,7 @@ func TestDetectionManifestIncludesFailureCallback(t *testing.T) {
 	manifest := svc.detectionManifest(remoteDetectionRequest{
 		Mode:       annotation.DetectionModeLines,
 		Annotation: ann,
-	}, &gpufarm.RemoteEnv{
-		RemoteDir:    "/remote/detect",
-		RemoteRunDir: "/remote/detect/run_1",
-		RunID:        "run_1",
-		LogsDir:      "/remote/detect/run_1/logs",
-	}, "")
+	}, "run_1", "")
 	want := "export RESULT_FAILURE_URL='https://example.test/api/v1/datasets/ds_target/annotations/ann_target/detection_failure'"
 	if !strings.Contains(manifest, want) {
 		t.Fatalf("manifest missing failure callback URL:\n%s", manifest)

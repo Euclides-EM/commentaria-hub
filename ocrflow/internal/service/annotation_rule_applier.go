@@ -400,6 +400,9 @@ func (a *AnnotationRuleApplier) applyReassignTextLinesByTolerance(af *alto.Alto,
 }
 
 func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annotation.Annotation, t *annotationrule.LinesDetect, onSubmitted func(string)) (*annotation.Annotation, error) {
+	if t.ManualRun && !t.UseGPUFarm {
+		return nil, fmt.Errorf("lines detect manual_run requires use_gpu_farm")
+	}
 	if t.UseGPUFarm {
 		return a.applyLinesDetectRuleRemote(imgPath, ann, t, onSubmitted)
 	}
@@ -411,6 +414,9 @@ func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annota
 }
 
 func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation.Annotation, t *annotationrule.ModelDetect, onSubmitted func(string)) (*annotation.Annotation, error) {
+	if t.ManualRun && !t.UseGPUFarm {
+		return nil, fmt.Errorf("model detect manual_run requires use_gpu_farm")
+	}
 	m, err := a.modelSvc.Get(t.Model)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get segmentation model %s: %w", t.Model, err)
@@ -429,7 +435,7 @@ func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation
 	}
 
 	if t.UseGPUFarm {
-		return a.applyModelDetectRemote(imgPath, ann, m, pages, onSubmitted)
+		return a.applyModelDetectRemote(imgPath, ann, m, pages, t.ManualRun, onSubmitted)
 	}
 
 	var filenames []string

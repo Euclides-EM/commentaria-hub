@@ -3,6 +3,7 @@ package api
 import (
 	"fmt"
 	"net/http"
+	"os"
 	"strings"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
@@ -75,4 +76,19 @@ func (h *Handlers) ReportAnnotationDetectionFailure(r *http.Request) (any, error
 		return nil, err
 	}
 	return nil, nil
+}
+
+func (h *Handlers) DownloadAnnotationDetectionManualBundle(r *http.Request) (string, bool, error) {
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return "", false, err
+	}
+	bundlePath, err := h.deps.AnnotationDetectRemote.ManualBundlePath(datasetID, annotationID, r.PathValue("runId"))
+	if err != nil {
+		return "", false, err
+	}
+	if _, err := os.Stat(bundlePath); err != nil {
+		return "", false, fmt.Errorf("manual GPU farm bundle not found: %w", err)
+	}
+	return bundlePath, false, nil
 }
