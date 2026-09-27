@@ -16,7 +16,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 )
 
-func (r *ModelTrainingRemote) submitYOLO(training *model.ModelTraining, progress func(string)) (*model.ModelTraining, error) {
+func (r *ModelTrainingRemote) submitYOLO(training *model.ModelTraining, jobID string, progress func(string)) (*model.ModelTraining, error) {
 	mo := training.Model
 
 	tmpDir, err := futils.MkdirTemp("yolo-training")
@@ -40,6 +40,7 @@ func (r *ModelTrainingRemote) submitYOLO(training *model.ModelTraining, progress
 
 	return r.submit(trainingRemoteRequest{
 		Training:      training,
+		AsyncJobID:    jobID,
 		TmpDir:        tmpDir,
 		JobName:       "train_yolo",
 		BaseModelPath: baseModelPath,

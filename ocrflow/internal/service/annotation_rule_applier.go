@@ -56,7 +56,7 @@ func (a *AnnotationRuleApplier) ApplyRules(imgPath string, ann *annotation.Annot
 	return a.ApplyRulesWithRemoteProgress(imgPath, ann, rules, nil)
 }
 
-func (a *AnnotationRuleApplier) ApplyRulesWithRemoteProgress(imgPath string, ann *annotation.Annotation, rules []annotationrule.AnnotationRule, onSubmitted func(string)) error {
+func (a *AnnotationRuleApplier) ApplyRulesWithRemoteProgress(imgPath string, ann *annotation.Annotation, rules []annotationrule.AnnotationRule, dispatch *gpuFarmDispatch) error {
 	var err error
 	log.Printf("Applying %d rules to annotation %s", len(rules), ann.ID)
 	hasRemoteWork := false
@@ -68,7 +68,7 @@ func (a *AnnotationRuleApplier) ApplyRulesWithRemoteProgress(imgPath string, ann
 		case *annotationrule.LinesDetect:
 			hasRemoteWork = hasRemoteWork || t.UseGPUFarm
 		}
-		ann, err = a.applyRule(imgPath, ann, rule, onSubmitted)
+		ann, err = a.applyRule(imgPath, ann, rule, dispatch)
 		if err != nil {
 			return fmt.Errorf("failed to apply rule %+v: %w", rule, err)
 		}
@@ -85,7 +85,7 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 	return a.applyRule(imgPath, ann, rule, nil)
 }
 
-func (a *AnnotationRuleApplier) applyRule(imgPath string, ann *annotation.Annotation, rule annotationrule.AnnotationRule, onSubmitted func(string)) (*annotation.Annotation, error) {
+func (a *AnnotationRuleApplier) applyRule(imgPath string, ann *annotation.Annotation, rule annotationrule.AnnotationRule, dispatch *gpuFarmDispatch) (*annotation.Annotation, error) {
 	if t, ok := rule.(*annotationrule.LLMTranscriptionCorrector); ok {
 		return a.applyLLMTranscriptionCorrector(imgPath, ann, t)
 	}
@@ -95,9 +95,9 @@ func (a *AnnotationRuleApplier) applyRule(imgPath string, ann *annotation.Annota
 	case *annotationrule.SlicePages:
 		return a.applySlicePagesRule(ann, t)
 	case *annotationrule.LinesDetect:
-		return a.applyLinesDetectRule(imgPath, ann, t, onSubmitted)
+		return a.applyLinesDetectRule(imgPath, ann, t, dispatch)
 	case *annotationrule.ModelDetect:
-		return a.applyModelDetect(imgPath, ann, t, onSubmitted)
+		return a.applyModelDetect(imgPath, ann, t, dispatch)
 	case *annotationrule.TextBlockCorrections:
 		return a.applyTextBlockCorrection(ann, t)
 	}
@@ -399,12 +399,12 @@ func (a *AnnotationRuleApplier) applyReassignTextLinesByTolerance(af *alto.Alto,
 	return nil
 }
 
-func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annotation.Annotation, t *annotationrule.LinesDetect, onSubmitted func(string)) (*annotation.Annotation, error) {
+func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annotation.Annotation, t *annotationrule.LinesDetect, dispatch *gpuFarmDispatch) (*annotation.Annotation, error) {
 	if t.ManualRun && !t.UseGPUFarm {
 		return nil, fmt.Errorf("lines detect manual_run requires use_gpu_farm")
 	}
 	if t.UseGPUFarm {
-		return a.applyLinesDetectRuleRemote(imgPath, ann, t, onSubmitted)
+		return a.applyLinesDetectRuleRemote(imgPath, ann, t, dispatch)
 	}
 	if err := krakenwrapper.DetectLines(imgPath, a.fileSysMgt.DatasetAnnotationAltoDir(ann), t.IncludeCategories, t.IgnoreCategories); err != nil {
 		return nil, fmt.Errorf("failed to apply lines detect to annotation %s: %w", ann.ID, err)
@@ -413,7 +413,7 @@ func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annota
 	return ann, nil
 }
 
-func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation.Annotation, t *annotationrule.ModelDetect, onSubmitted func(string)) (*annotation.Annotation, error) {
+func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation.Annotation, t *annotationrule.ModelDetect, dispatch *gpuFarmDispatch) (*annotation.Annotation, error) {
 	if t.ManualRun && !t.UseGPUFarm {
 		return nil, fmt.Errorf("model detect manual_run requires use_gpu_farm")
 	}
@@ -435,7 +435,7 @@ func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation
 	}
 
 	if t.UseGPUFarm {
-		return a.applyModelDetectRemote(imgPath, ann, m, pages, t.ManualRun, onSubmitted)
+		return a.applyModelDetectRemote(imgPath, ann, m, pages, t.ManualRun, dispatch)
 	}
 
 	var filenames []string

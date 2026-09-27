@@ -65,4 +65,32 @@ export class JobsService {
             },
         });
     }
+    /**
+     * Download GPU farm run bundle
+     * Downloads the bundle of a GPU farm run dispatched by the job with manual_run (annotation detection rules and model training).
+     * @returns binary GPU farm run bundle ZIP
+     * @throws ApiError
+     */
+    public static getJobsGpuFarmRunsBundle({
+        jobId,
+        runId,
+    }: {
+        /**
+         * Job ID
+         */
+        jobId: string,
+        /**
+         * GPU farm run ID
+         */
+        runId: string,
+    }): CancelablePromise<Blob> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/jobs/{jobId}/gpu_farm_runs/{runId}/bundle',
+            path: {
+                'jobId': jobId,
+                'runId': runId,
+            },
+        });
+    }
 }

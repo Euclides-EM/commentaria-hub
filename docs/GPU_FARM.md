@@ -380,7 +380,7 @@ Instead of uploading and submitting, the API packs the job files (`script.py`, `
 manual GPU farm run: follow docs/GPU_FARM.md#manual-gpu-farm-runs with JOB='...' RUN_ID='...' BUNDLE_URL='...'
 ```
 
-For detection it is in the async job details, for training in the job result's `status_details.manual_run`. These three values are the only per-run inputs to the steps below. Bundles are kept in the API temp directory until the API restarts.
+For detection it is in the async job details, for training in the job result's `status_details.manual_run`. These three values are the only per-run inputs to the steps below. `BUNDLE_URL` points to `GET /jobs/{jobId}/gpu_farm_runs/{runId}/bundle` of the async job that dispatched the run. Bundles are kept in the API temp directory until the API restarts.
 
 The bundle is extracted into `$PROJECT_ROOT`, any folder on the GPU farm dedicated to that job (`detect_annotation`, `train_ocr` or `train_yolo`); keep the same one across runs so the Python environment is reused. It contains:
 

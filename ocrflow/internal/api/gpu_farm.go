@@ -6,17 +6,18 @@ import (
 	"os"
 )
 
-// DownloadGPUFarmManualBundle godoc
-// @Summary      Download manual GPU farm run bundle
-// @Description  Downloads the bundle of a GPU farm run submitted with manual_run (annotation detection rules and model training).
-// @Tags         GPU Farm
+// DownloadJobGPUFarmRunBundle godoc
+// @Summary      Download GPU farm run bundle
+// @Description  Downloads the bundle of a GPU farm run dispatched by the job with manual_run (annotation detection rules and model training).
+// @Tags         Jobs
 // @Produce      application/zip
+// @Param        jobId path string true "Job ID"
 // @Param        runId path string true "GPU farm run ID"
 // @Security     BearerAuth
-// @Success      200 {file} string "Manual run bundle ZIP"
-// @Router       /gpu_farm/manual_bundles/{runId} [get]
-func (h *Handlers) DownloadGPUFarmManualBundle(r *http.Request) (string, bool, error) {
-	bundlePath, err := h.deps.GPUFarmManualBundles.Path(r.PathValue("runId"))
+// @Success      200 {file} string "GPU farm run bundle ZIP"
+// @Router       /jobs/{jobId}/gpu_farm_runs/{runId}/bundle [get]
+func (h *Handlers) DownloadJobGPUFarmRunBundle(r *http.Request) (string, bool, error) {
+	bundlePath, err := h.deps.GPUFarmManualBundles.Path(r.PathValue("jobId"), r.PathValue("runId"))
 	if err != nil {
 		return "", false, err
 	}

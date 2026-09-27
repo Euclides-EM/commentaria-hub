@@ -77,7 +77,7 @@ func isPublicReadPath(path string) bool {
 	if strings.HasSuffix(path, "/facsimilies/mapping-csv") {
 		return false
 	}
-	if strings.Contains(path, "/gpu_farm/manual_bundles") {
+	if strings.Contains(path, "/gpu_farm_runs") {
 		return false
 	}
 	if strings.HasPrefix(path, "/facsimilies/") && strings.HasSuffix(path, "/pdf") {

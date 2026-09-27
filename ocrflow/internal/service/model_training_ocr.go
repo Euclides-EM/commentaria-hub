@@ -40,7 +40,7 @@ import (
 //	        │       └── <page>.<image-ext>
 //	        ├── alto_files.txt
 //	        └── dataset.arrow
-func (r *ModelTrainingRemote) submitOCR(training *model.ModelTraining, progress func(string)) (*model.ModelTraining, error) {
+func (r *ModelTrainingRemote) submitOCR(training *model.ModelTraining, jobID string, progress func(string)) (*model.ModelTraining, error) {
 	mo := training.Model
 
 	tmpDir, err := futils.MkdirTemp("ocrflow-model-training-*")
@@ -79,6 +79,7 @@ func (r *ModelTrainingRemote) submitOCR(training *model.ModelTraining, progress 
 	}
 	return r.submit(trainingRemoteRequest{
 		Training:      training,
+		AsyncJobID:    jobID,
 		TmpDir:        tmpDir,
 		JobName:       "train_ocr",
 		BaseModelPath: baseModelPath,

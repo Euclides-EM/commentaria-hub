@@ -16,6 +16,26 @@ const gpuFarmManualBackend = "manual"
 
 var manualRunIDPattern = regexp.MustCompile(`^run_[0-9-]+$`)
 
+var manualJobIDPattern = regexp.MustCompile(`^job_[a-z0-9]+$`)
+
+type gpuFarmDispatch struct {
+	JobID       string
+	OnSubmitted func(string)
+}
+
+func (d *gpuFarmDispatch) jobID() string {
+	if d == nil {
+		return ""
+	}
+	return d.JobID
+}
+
+func (d *gpuFarmDispatch) submitted(message string) {
+	if d != nil && d.OnSubmitted != nil {
+		d.OnSubmitted(message)
+	}
+}
+
 type GPUFarmManualBundles struct {
 	apiURL string
 }
@@ -24,16 +44,22 @@ func NewGPUFarmManualBundles(apiURL string) *GPUFarmManualBundles {
 	return &GPUFarmManualBundles{apiURL: strings.TrimRight(apiURL, "/")}
 }
 
-func (b *GPUFarmManualBundles) Path(runID string) (string, error) {
+func (b *GPUFarmManualBundles) Path(jobID string, runID string) (string, error) {
+	if !manualJobIDPattern.MatchString(jobID) {
+		return "", fmt.Errorf("invalid job ID %q", jobID)
+	}
 	if !manualRunIDPattern.MatchString(runID) {
 		return "", fmt.Errorf("invalid GPU farm run ID %q", runID)
 	}
-	return filepath.Join(futils.TmpDir, "ocrflow-gpu-farm-manual", runID+".zip"), nil
+	return filepath.Join(futils.TmpDir, "ocrflow-gpu-farm-manual", jobID, runID+".zip"), nil
 }
 
-func (b *GPUFarmManualBundles) Publish(localJobDir string, runID string, stageDir string) (string, error) {
+func (b *GPUFarmManualBundles) Publish(localJobDir string, jobID string, runID string, stageDir string) (string, error) {
 	if b.apiURL == "" {
 		return "", fmt.Errorf("API_URL is required for manual GPU farm runs")
+	}
+	if jobID == "" {
+		return "", fmt.Errorf("manual GPU farm runs must be dispatched from an async job")
 	}
 	jobFiles := gpufarm.NewPythonEnvRequest(localJobDir)
 	for _, filename := range jobFiles.Files {
@@ -41,7 +67,7 @@ func (b *GPUFarmManualBundles) Publish(localJobDir string, runID string, stageDi
 			return "", fmt.Errorf("copy job file %s to manual GPU farm bundle: %w", filename, err)
 		}
 	}
-	bundlePath, err := b.Path(runID)
+	bundlePath, err := b.Path(jobID, runID)
 	if err != nil {
 		return "", err
 	}
@@ -54,7 +80,7 @@ func (b *GPUFarmManualBundles) Publish(localJobDir string, runID string, stageDi
 	return fmt.Sprintf("manual GPU farm run: follow docs/GPU_FARM.md#manual-gpu-farm-runs with JOB=%s RUN_ID=%s BUNDLE_URL=%s",
 		envexec.ShellQuote(jobFiles.JobName),
 		envexec.ShellQuote(runID),
-		envexec.ShellQuote(b.apiURL+"/gpu_farm/manual_bundles/"+runID)), nil
+		envexec.ShellQuote(b.apiURL+"/jobs/"+jobID+"/gpu_farm_runs/"+runID+"/bundle")), nil
 }
 
 func manifestPathUnder(dirVar string, relPath string) string {

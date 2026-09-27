@@ -53,7 +53,7 @@ func NewAnnotationDetectionRemote(fileSysMgt *filesys.Manager, rootDir string, a
 	}
 }
 
-func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, onSubmitted func(string)) error {
+func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, dispatch *gpuFarmDispatch) error {
 	if r == nil || r.submitter == nil {
 		return fmt.Errorf("GPU farm detection submitter is not configured")
 	}
@@ -71,7 +71,7 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, onSubmitt
 	}
 
 	if req.ManualRun {
-		return r.submitManual(req, onSubmitted)
+		return r.submitManual(req, dispatch)
 	}
 
 	remoteEnv, err := r.submitter.PreparePythonEnv(gpufarm.NewPythonEnvRequest(filepath.Join(r.rootDir, "jobs", remoteDetectionJobName)))
@@ -105,14 +105,12 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, onSubmitt
 		stderrPath := path.Join(remoteEnv.LogsDir, "annotation_detect_"+submission.SchedulerJobID+".err")
 		followCommand := detectionFollowCommand(submission.Host, stdoutPath, stderrPath)
 		log.Printf("Follow GPU farm detection logs with: %s", followCommand)
-		if onSubmitted != nil {
-			onSubmitted(followCommand)
-		}
+		dispatch.submitted(followCommand)
 	}
 	return nil
 }
 
-func (r *AnnotationDetectionRemote) submitManual(req remoteDetectionRequest, onSubmitted func(string)) error {
+func (r *AnnotationDetectionRemote) submitManual(req remoteDetectionRequest, dispatch *gpuFarmDispatch) error {
 	runID := gpufarm.NewRunID()
 	stageDir, err := futils.MkdirTemp("annotation-detect-manual-*")
 	if err != nil {
@@ -125,14 +123,12 @@ func (r *AnnotationDetectionRemote) submitManual(req remoteDetectionRequest, onS
 	}); err != nil {
 		return err
 	}
-	message, err := r.manualBundles.Publish(filepath.Join(r.rootDir, "jobs", remoteDetectionJobName), runID, stageDir)
+	message, err := r.manualBundles.Publish(filepath.Join(r.rootDir, "jobs", remoteDetectionJobName), dispatch.jobID(), runID, stageDir)
 	if err != nil {
 		return err
 	}
 	log.Printf("GPU farm detection awaiting manual run: annotation=%s mode=%s run_id=%s: %s", req.Annotation.ID, req.Mode, runID, message)
-	if onSubmitted != nil {
-		onSubmitted(message)
-	}
+	dispatch.submitted(message)
 	return nil
 }
 

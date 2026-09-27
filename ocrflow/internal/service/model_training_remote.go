@@ -37,6 +37,7 @@ type trainingRemoteAsset struct {
 
 type trainingRemoteRequest struct {
 	Training      *model.ModelTraining
+	AsyncJobID    string
 	TmpDir        string
 	JobName       string
 	BaseModelPath string
@@ -68,7 +69,7 @@ func NewModelTrainingRemote(models *Model,
 	}
 }
 
-func (r *ModelTrainingRemote) Submit(training *model.ModelTraining, progress func(string)) (*model.ModelTraining, error) {
+func (r *ModelTrainingRemote) Submit(training *model.ModelTraining, jobID string, progress func(string)) (*model.ModelTraining, error) {
 	if training == nil {
 		return nil, fmt.Errorf("missing model training request")
 	}
@@ -84,9 +85,9 @@ func (r *ModelTrainingRemote) Submit(training *model.ModelTraining, progress fun
 
 	switch training.Model.Type {
 	case common.OCRModelTypeOCR:
-		return r.submitOCR(training, progress)
+		return r.submitOCR(training, jobID, progress)
 	case common.OCRModelTypeSegment:
-		return r.submitYOLO(training, progress)
+		return r.submitYOLO(training, jobID, progress)
 	default:
 		return nil, fmt.Errorf("unsupported model training type: %s", training.Model.Type)
 	}
@@ -197,7 +198,7 @@ func (r *ModelTrainingRemote) submitManual(req trainingRemoteRequest, progress f
 	}
 
 	progress("publishing manual GPU farm bundle")
-	message, err := r.bundles.Publish(filepath.Join(r.rootDir, "jobs", req.JobName), runID, stageDir)
+	message, err := r.bundles.Publish(filepath.Join(r.rootDir, "jobs", req.JobName), req.AsyncJobID, runID, stageDir)
 	if err != nil {
 		return nil, err
 	}
