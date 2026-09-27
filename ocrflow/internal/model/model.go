@@ -44,4 +44,5 @@ type ModelTraining struct {
 	Backend       string              `json:"backend"`
 	GPUFarmHost   string              `json:"gpu_farm_host"`
 	RemoteRunDir  string              `json:"remote_run_dir"`
+	ManualRun     bool                `json:"manual_run,omitempty"`
 }

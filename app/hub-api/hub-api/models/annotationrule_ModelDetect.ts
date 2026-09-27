@@ -7,6 +7,7 @@ import type { annotationrule_Type } from './annotationrule_Type';
 import type { common_OCRModelType } from './common_OCRModelType';
 export type annotationrule_ModelDetect = {
     applicable_stages?: Array<annotationrule_PipelineStage>;
+    manual_run?: boolean;
     model?: string;
     model_type?: common_OCRModelType;
     type?: annotationrule_Type;

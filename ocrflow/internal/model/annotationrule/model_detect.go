@@ -9,6 +9,7 @@ type ModelDetect struct {
 	Model      string              `json:"model" example:"1615FineTunedCapricciosaM_0312"`
 	ModelType  common.OCRModelType `json:"model_type" example:"string,readonly"`
 	UseGPUFarm bool                `json:"use_gpu_farm"`
+	ManualRun  bool                `json:"manual_run"`
 }
 
 func (t *ModelDetect) GetType() Type {
