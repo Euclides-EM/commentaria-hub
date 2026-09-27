@@ -102,7 +102,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		return nil, fmt.Errorf("init models: %w", err)
 	}
 	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
-	annotationDetectionRemoteSvc := service.NewAnnotationDetectionRemote(fileSystemManager, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc)
+	gpuFarmManualBundlesSvc := service.NewGPUFarmManualBundles(env.APIURL)
+	annotationDetectionRemoteSvc := service.NewAnnotationDetectionRemote(fileSystemManager, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc, gpuFarmManualBundlesSvc)
 	llmClient := llm.NewClient(env.OpenAIAPIKey, env.OllamaBaseURL, env.OllamaAuthToken)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey, annotationDetectionRemoteSvc, annotationStore, datasetStore, llmClient)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore, featureResultStore)
@@ -175,7 +176,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		fileSystemManager,
 	)
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI, datasetImgSvc)
-	modelTrainRemoteSvc := service.NewModelTrainingRemote(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc)
+	modelTrainRemoteSvc := service.NewModelTrainingRemote(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc, gpuFarmManualBundlesSvc)
 	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc, modelTrainRemoteSvc)
 	modelTrainingSvc := service.NewModelTraining(jobSvc)
 	annotationRuleExecutionSvc := service.NewAnnotationRuleExecution(annotationSvc, jobSvc)
@@ -223,7 +224,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DatasetImgSvc:           datasetImgSvc,
 		AnnotationSvc:           annotationSvc,
 		AnnotationRuleExecution: annotationRuleExecutionSvc,
-		AnnotationDetectRemote:  annotationDetectionRemoteSvc,
+		GPUFarmManualBundles:    gpuFarmManualBundlesSvc,
 		AnnotationGroupSvc:      annotationGroupSvc,
 		ModelSvc:                modelSvc,
 		MetadataDetailsSvc:      metadataDetailsSvc,

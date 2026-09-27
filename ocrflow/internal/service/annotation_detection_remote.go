@@ -6,7 +6,6 @@ import (
 	"os"
 	"path"
 	"path/filepath"
-	"regexp"
 	"strings"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
@@ -20,14 +19,14 @@ import (
 
 const remoteDetectionJobName = "detect_annotation"
 
-var manualRunIDPattern = regexp.MustCompile(`^run_[0-9-]+$`)
-
 type AnnotationDetectionRemote struct {
 	fileSysMgt *filesys.Manager
 	rootDir    string
 	apiURL     string
 	apiToken   string
 	submitter  gpufarm.Submitter
+
+	manualBundles *GPUFarmManualBundles
 }
 
 type remoteDetectionRequest struct {
@@ -42,13 +41,15 @@ type remoteDetectionRequest struct {
 	ManualRun         bool
 }
 
-func NewAnnotationDetectionRemote(fileSysMgt *filesys.Manager, rootDir string, apiURL string, apiToken string, submitter gpufarm.Submitter) *AnnotationDetectionRemote {
+func NewAnnotationDetectionRemote(fileSysMgt *filesys.Manager, rootDir string, apiURL string, apiToken string, submitter gpufarm.Submitter, manualBundles *GPUFarmManualBundles) *AnnotationDetectionRemote {
 	return &AnnotationDetectionRemote{
 		fileSysMgt: fileSysMgt,
 		rootDir:    rootDir,
 		apiURL:     strings.TrimRight(apiURL, "/"),
 		apiToken:   apiToken,
 		submitter:  submitter,
+
+		manualBundles: manualBundles,
 	}
 }
 
@@ -120,31 +121,14 @@ func (r *AnnotationDetectionRemote) submitManual(req remoteDetectionRequest, onS
 	defer os.RemoveAll(stageDir)
 
 	if err := r.stageInputs(req, runID, func(localPath string, relPath string) error {
-		return futils.CopyFile(localPath, filepath.Join(stageDir, filepath.FromSlash(relPath)))
+		return futils.CopyFile(localPath, filepath.Join(stageDir, runID, filepath.FromSlash(relPath)))
 	}); err != nil {
 		return err
 	}
-	jobFiles := gpufarm.NewPythonEnvRequest(filepath.Join(r.rootDir, "jobs", remoteDetectionJobName))
-	for _, filename := range jobFiles.Files {
-		if err := futils.CopyFile(filepath.Join(jobFiles.LocalDir, filename), filepath.Join(stageDir, "job", filename)); err != nil {
-			return fmt.Errorf("copy job file %s to manual GPU farm bundle: %w", filename, err)
-		}
-	}
-
-	bundlePath, err := r.ManualBundlePath(req.Annotation.DatasetID, req.Annotation.ID, runID)
+	message, err := r.manualBundles.Publish(filepath.Join(r.rootDir, "jobs", remoteDetectionJobName), runID, stageDir)
 	if err != nil {
 		return err
 	}
-	if err := os.MkdirAll(filepath.Dir(bundlePath), 0o700); err != nil {
-		return fmt.Errorf("create manual GPU farm bundle directory: %w", err)
-	}
-	if err := futils.Zip(stageDir, bundlePath); err != nil {
-		return fmt.Errorf("write manual GPU farm bundle: %w", err)
-	}
-
-	message := fmt.Sprintf("manual GPU farm run: follow docs/GPU_FARM.md#manual-rule-execution with BUNDLE_URL=%s RUN_ID=%s",
-		envexec.ShellQuote(r.manualBundleURL(req.Annotation, runID)),
-		envexec.ShellQuote(runID))
 	log.Printf("GPU farm detection awaiting manual run: annotation=%s mode=%s run_id=%s: %s", req.Annotation.ID, req.Mode, runID, message)
 	if onSubmitted != nil {
 		onSubmitted(message)
@@ -197,17 +181,6 @@ func (r *AnnotationDetectionRemote) stageInputs(req remoteDetectionRequest, runI
 	return nil
 }
 
-func (r *AnnotationDetectionRemote) ManualBundlePath(datasetID string, annotationID string, runID string) (string, error) {
-	if !manualRunIDPattern.MatchString(runID) {
-		return "", fmt.Errorf("invalid GPU farm run ID %q", runID)
-	}
-	return futils.SafeJoin(filepath.Join(futils.TmpDir, "ocrflow-gpu-farm-manual"), path.Join(datasetID, annotationID, runID+".zip"))
-}
-
-func (r *AnnotationDetectionRemote) manualBundleURL(ann *annotation.Annotation, runID string) string {
-	return fmt.Sprintf("%s/datasets/%s/annotations/%s/detection_manual_bundle/%s", r.apiURL, ann.DatasetID, ann.ID, runID)
-}
-
 func detectionFollowCommand(host, stdoutPath, stderrPath string) string {
 	// Keep each SSH argument separate. Quoting the complete remote command as
 	// well as its paths creates nested shell quotes that are escaped in JSON and
@@ -230,11 +203,7 @@ func (r *AnnotationDetectionRemote) detectionManifest(req remoteDetectionRequest
 	fmt.Fprintf(&b, "export ALTO_DIR=\"$RUN_DIR/assets/alto\"\n")
 	fmt.Fprintf(&b, "export OUTPUT_DIR=\"$RUN_DIR/output/alto\"\n")
 	fmt.Fprintf(&b, "export ARTIFACTS_DIR=\"$RUN_DIR/artifacts\"\n")
-	if modelRelPath != "" {
-		fmt.Fprintf(&b, "export MODEL_PATH=\"$RUN_DIR\"/%s\n", envexec.ShellQuote(modelRelPath))
-	} else {
-		fmt.Fprintf(&b, "export MODEL_PATH=''\n")
-	}
+	fmt.Fprintf(&b, "export MODEL_PATH=%s\n", manifestPathUnder("RUN_DIR", modelRelPath))
 	fmt.Fprintf(&b, "export RESULT_UPLOAD_URL=%s\n", envexec.ShellQuote(r.resultUploadURL(req.Annotation)))
 	fmt.Fprintf(&b, "export RESULT_FAILURE_URL=%s\n", envexec.ShellQuote(r.resultFailureURL(req.Annotation)))
 	fmt.Fprintf(&b, "export RESULT_UPLOAD_TOKEN=%s\n", envexec.ShellQuote(r.apiToken))

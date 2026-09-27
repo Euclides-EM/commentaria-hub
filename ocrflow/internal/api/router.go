@@ -22,7 +22,7 @@ type Dependencies struct {
 	DatasetImgSvc           *service.DatasetImg
 	AnnotationSvc           *service.Annotation
 	AnnotationRuleExecution *service.AnnotationRuleExecution
-	AnnotationDetectRemote  *service.AnnotationDetectionRemote
+	GPUFarmManualBundles    *service.GPUFarmManualBundles
 	AnnotationGroupSvc      *service.AnnotationGroup
 	ModelSvc                *service.Model
 	MetadataDetailsSvc      *service.MetadataDetails
@@ -102,7 +102,6 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/llm_transcription_corrector", httpwrapper.Update(h.ApplyRuleLLMTranscriptionCorrector).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/detection_upload", httpwrapper.CreateFile(h.UploadAnnotationDetectionResult).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/detection_failure", httpwrapper.Create(h.ReportAnnotationDetectionFailure).Build())
-	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/detection_manual_bundle/{runId}", httpwrapper.GetZip(h.DownloadAnnotationDetectionManualBundle).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/review", httpwrapper.Create(h.CreateAnnotationReview).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/search", httpwrapper.Get(h.SearchAnnotation).Build())
@@ -155,6 +154,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/integrations/platforms", httpwrapper.Get(h.ListIntegrationPlatforms).Build())
 	api.HandleFunc("/jobs", httpwrapper.Get(h.ListJobs).Create(h.CreateJobs).Build())
 	api.HandleFunc("/jobs/{jobId}", httpwrapper.Get(h.GetJob).Build())
+
+	api.HandleFunc("/gpu_farm/manual_bundles/{runId}", httpwrapper.GetZip(h.DownloadGPUFarmManualBundle).Build())
 
 	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).Build())
 	api.HandleFunc("/models_train", httpwrapper.Create(h.TrainModel).Build())

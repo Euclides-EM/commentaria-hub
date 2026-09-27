@@ -128,6 +128,7 @@ export { FacsimilesService } from './services/FacsimilesService';
 export { FeaturePropertiesService } from './services/FeaturePropertiesService';
 export { FeatureResultsService } from './services/FeatureResultsService';
 export { GeoDataService } from './services/GeoDataService';
+export { GpuFarmService } from './services/GpuFarmService';
 export { HealthService } from './services/HealthService';
 export { IntegrationsService } from './services/IntegrationsService';
 export { JobsService } from './services/JobsService';

@@ -365,19 +365,34 @@ cat artifacts/result.json
 
 This JSON file contains the trained model path and dataset metadata.
 
-# Manual rule execution
+# Manual GPU farm runs
 
-`LinesDetect` and `ModelDetect` rules with `"use_gpu_farm": true` can be run manually, without the API connecting to the GPU farm over SSH, by also setting `"manual_run": true` on the rule. Rules must be applied with `"execution_mode": "async"`.
+GPU farm work can be run manually, without the API connecting to the GPU farm over SSH, by setting `"manual_run": true`:
 
-The API needs `API_URL`, which must be reachable from the GPU farm. `GPU_FARM_HOST` and `GPU_FARM_JOB_ROOT` are not used.
+* Annotation detection: on a `LinesDetect` or `ModelDetect` rule that has `"use_gpu_farm": true`. Rules must be applied with `"execution_mode": "async"`.
+* Model training: on the `POST /models_train` request body.
 
-Instead of uploading and submitting, the API packs the run inputs (images, ALTO, model, `manifest.env`) and the job files into a bundle served by the API, and the async job stays `running` with a message of the form:
+The API needs `API_URL`, which must be reachable from the GPU farm: the farm downloads the run bundle from it and uploads results back to it. `GPU_FARM_HOST` and `GPU_FARM_JOB_ROOT` are not used.
+
+Instead of uploading and submitting, the API packs the job files (`script.py`, `requirements.txt`, `job.sbatch`), the run inputs and the run `manifest.env` into a bundle served by the API, and reports:
 
 ```text
-manual GPU farm run: follow docs/GPU_FARM.md#manual-rule-execution with BUNDLE_URL='...' RUN_ID='...'
+manual GPU farm run: follow docs/GPU_FARM.md#manual-gpu-farm-runs with JOB='...' RUN_ID='...' BUNDLE_URL='...'
 ```
 
-These two values are the only per-run inputs to the steps below. `PROJECT_ROOT` is any folder on the GPU farm; keep the same one across runs so the Python environment is reused. Each run is extracted into its own `$PROJECT_ROOT/$RUN_ID` folder, and the paths in its `manifest.env` are resolved relative to that folder when the job runs. Bundles are kept in the API temp directory until the API restarts.
+For detection it is in the async job details, for training in the job result's `status_details.manual_run`. These three values are the only per-run inputs to the steps below. Bundles are kept in the API temp directory until the API restarts.
+
+The bundle is extracted into `$PROJECT_ROOT`, any folder on the GPU farm dedicated to that job (`detect_annotation`, `train_ocr` or `train_yolo`); keep the same one across runs so the Python environment is reused. It contains:
+
+```text
+script.py, requirements.txt, job.sbatch
+assets/          # training only: dataset archives and base model
+<RUN_ID>/
+  manifest.env
+  assets/        # detection only: images, ALTO and model
+```
+
+The paths in `manifest.env` are resolved relative to `<RUN_ID>/` when the job runs.
 
 All steps run on the GPU farm.
 
@@ -386,14 +401,15 @@ All steps run on the GPU farm.
 Use a GitHub token that is allowed by the API:
 
 ```bash
-BUNDLE_URL='...'
+JOB='...'
 RUN_ID='...'
-PROJECT_ROOT=~/jobs/detect_annotation
+BUNDLE_URL='...'
+PROJECT_ROOT=~/jobs/$JOB
 RUN_DIR="$PROJECT_ROOT/$RUN_ID"
+mkdir -p "$PROJECT_ROOT"
+curl --fail -L -H "Authorization: Bearer $GITHUB_TOKEN" -o "$PROJECT_ROOT/$RUN_ID.zip" "$BUNDLE_URL"
+unzip -o "$PROJECT_ROOT/$RUN_ID.zip" -d "$PROJECT_ROOT" && rm "$PROJECT_ROOT/$RUN_ID.zip"
 mkdir -p "$RUN_DIR/logs"
-curl --fail -L -H "Authorization: Bearer $GITHUB_TOKEN" -o "$RUN_DIR/bundle.zip" "$BUNDLE_URL"
-unzip -o "$RUN_DIR/bundle.zip" -d "$RUN_DIR" && rm "$RUN_DIR/bundle.zip"
-cp "$RUN_DIR"/job/{script.py,requirements.txt,job.sbatch} "$PROJECT_ROOT"/
 ```
 
 ## 2. Prepare the Python environment
@@ -421,20 +437,30 @@ tail -n 100 -F "$RUN_DIR"/logs/*
 
 ## 4. Resolution
 
-The Slurm job resolves the rule execution itself: on success it uploads `artifacts/alto-result.zip` to the detection result callback and the async job completes; on error it posts the failure callback and the async job fails.
+The Slurm job reports back to the API itself:
 
-If the Slurm job ends without reaching a callback (for example it was cancelled, hit its time limit, or the upload failed), resolve it from `$RUN_DIR`:
+* Detection: on success it uploads `artifacts/alto-result.zip` to the detection result callback and the async job completes; on error it posts the failure callback and the async job fails. When several GPU farm rules are applied in one execution, each reports its own `JOB`, `RUN_ID` and `BUNDLE_URL`, and the async job completes after every run has sent its callback.
+* Training: on success it uploads the trained model to `/models_upload`, and the model appears in `GET /models`. The training async job itself completes once the bundle is published.
+
+If the Slurm job ends without reaching the API (for example it was cancelled, hit its time limit, or the upload failed), resolve it from `$RUN_DIR`.
+
+Detection success:
 
 ```bash
 cd "$RUN_DIR" && source manifest.env
 curl --fail -H "Authorization: Bearer $RESULT_UPLOAD_TOKEN" -F "mode=$MODE" -F "file=@artifacts/alto-result.zip;type=application/zip" "$RESULT_UPLOAD_URL"
 ```
 
-or, to mark it failed:
+Detection failure:
 
 ```bash
 cd "$RUN_DIR" && source manifest.env
 curl --fail -H "Authorization: Bearer $RESULT_UPLOAD_TOKEN" --form-string "mode=$MODE" --form-string "error=<reason>" "$RESULT_FAILURE_URL"
 ```
 
-When several GPU farm rules are applied in one execution, each prints its own `BUNDLE_URL` and `RUN_ID`, and the async job completes after every run has sent its callback.
+Training, with `MODEL_FILE` set to the trained model under `trained_models/` (the latest `kraken_model_*.mlmodel` for OCR, `yolo_model_best.pt` for YOLO):
+
+```bash
+cd "$RUN_DIR" && source manifest.env
+curl --fail -H "Authorization: Bearer $MODEL_UPLOAD_TOKEN" -F "file=@trained_models/$MODEL_FILE;type=application/octet-stream" --form-string "name=$MODEL_NAME" --form-string "description=$MODEL_DESCRIPTION" --form-string "base_annotations=$MODEL_BASE_ANNOTATIONS" --form-string "base_model_id=$MODEL_BASE_MODEL_ID" "$MODEL_UPLOAD_URL"
+```
