@@ -1,7 +1,9 @@
 package annotationrule
 
+import "slices"
+
 func GetApplicableStages(t Type) []PipelineStage {
-	return applicableStagesByType[t]
+	return slices.Clone(applicableStagesByType[t])
 }
 
 type ruleWithBase interface {

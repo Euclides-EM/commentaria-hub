@@ -818,8 +818,8 @@ All by P. LE MARDELE
 Professor of Mathematics
 With the King's Privilege",summer_2025
 Paris_1622,imprint,With the Privilege of the King A. PARIS At Denys Moreau St Jacques Street at The Salamander 1622.,summer_2025
-Paris_1623,title,"The Fifteen Books of the Elements of Euclid. Translated from Latin into French. With a Summary of Algebra, which serves to facilitate the understanding of the tenth Book. Reviewed & augmented in this second edition. Together with the Apologetic response, for the Translators of said Euclid. By D. Henrion Mathematician.",summer_2025
-Paris_1623,imprint,"In Paris, at I. Ant. Ioallin. 1623",summer_2025
+Paris_1623,title,"The Fifteen Books of the Elements of Euclid. Translated from Latin into French. With a Summary of Algebra, which serves to facilitate the understanding of the tenth Book. Reviewed & augmented in this second edition. Together with the Apologetic response, for the Translators of said Euclid. By D. Henrion Mathematician.",
+Paris_1623,imprint,"In Paris, at I. Ant. Ioallin. 1623",
 Paris_1624,title,"PARADOXES BY
 MEYNIER,
 AGAINST THE
@@ -991,8 +991,8 @@ Venice_1647,frontispiece,"Euclid's
 Elements
 Books
 Fifteen",summer_2025
-Rouen_1649,title,"THE FIFTEEN BOOKS OF THE ELEMENTS OF EUCLID. Translated from Latin into French: By D. HENRION Mathematician. FIFTH EDITION. Reviewed, corrected, & greatly augmented",summer_2025
-Rouen_1649,imprint,"IN ROUEN, At CLEMENT MALASSIS, near the great Portal of our Lady. M. DC. XLIX.",summer_2025
+Rouen_1649,title,"THE FIFTEEN BOOKS OF THE ELEMENTS OF EUCLID. Translated from Latin into French: By D. HENRION Mathematician. FIFTH EDITION. Reviewed, corrected, & greatly augmented",
+Rouen_1649,imprint,"IN ROUEN, At CLEMENT MALASSIS, near the great Portal of our Lady. M. DC. XLIX.",
 Paris_1652,title,"PARADOXES OF
 MEYNIER,
 AGAINST THE
@@ -1088,9 +1088,9 @@ Venetian Patrician, dedicated.",summer_2025
 Bologna_1684,imprint,"BOLOGNA, 1684.
 Printed by Joseph Longo. With the permission of the superiors.",summer_2025
 Rouen_and_Paris_1685,title,"[Vol. 1]: THE FIFTEEN BOOKS OF EUCLID'S GEOMETRIC ELEMENTS, And his Book of DATA, With much more extensive & much easier Commentaries than in previous editions; And a Summary Treatise of Algebra. By Sieur HENRION. VOLUME I.
-[Vol. 2]: THE FIFTEEN BOOKS OF EUCLID'S GEOMETRIC ELEMENTS, With much more extensive & much easier Commentaries than in previous editions. By Sieur HENRION. VOLUME II.",summer_2025
+[Vol. 2]: THE FIFTEEN BOOKS OF EUCLID'S GEOMETRIC ELEMENTS, With much more extensive & much easier Commentaries than in previous editions. By Sieur HENRION. VOLUME II.",
 Rouen_and_Paris_1685,imprint,"[Vol. 1] Printed in Rouen, & sold in PARIS, At J. JOMBERT, near the Augustins, at the Image of Our Lady. M. DC. LXXXV.
-[Vol. 2] Printed in Rouen, & sold in PARIS, At J. JOMBERT, near the Augustins, at the Image of Our Lady. M. DC. LXXXV.",summer_2025
+[Vol. 2] Printed in Rouen, & sold in PARIS, At J. JOMBERT, near the Augustins, at the Image of Our Lady. M. DC. LXXXV.",
 The_Hague_1690,title,"[Vol. 1]:
 POSTHUMOUS
 WORKS
@@ -14717,3 +14717,20 @@ D2WC9V,imprint,"AT THE HAGUE,
 At Henry van Bulderen, Bookseller, in the Pooten.",
 Mainz_1611_1612,imprint,"[General title page] MAINZ. At the expense of Anton Hierat; printed by Reinhard Eltz. With the grace and privilege of His Sacred Imperial Majesty. In the year 1612.
 [Additional title page for vol. 1] MAINZ. At the expense of Anton Hierat; printed by Reinhard Eltz. With the grace and privilege of His Sacred Imperial Majesty. In the year 1611.",
+PEZ2GJ,imprint,"AT LYON,
+By SIMON RIGAUD, Bookseller, Merciere Street,
+at the Sign of the Shield of Venice.
+
+1645.",
+PEZ2GJ,title,"THE FIFTEEN
+BOOKS
+OF THE
+ELEMENTS
+OF GEOMETRY
+OF EUCLID OF MEGARA.
+Translated from Greek into French, & augmented with several figures
+& demonstrations, with the correction of errors
+made in other translations.
+Dedicated to MY LORD the Most Illustrious & Most Reverend
+CARDINAL of Lyon.
+By PIERRE MARDELE, Professor of Mathematics.",
