@@ -387,8 +387,7 @@ unzip -o "$PROJECT_ROOT/$RUN_ID.zip" -x job.sbatch -d "$PROJECT_ROOT"
 unzip -n "$PROJECT_ROOT/$RUN_ID.zip" job.sbatch -d "$PROJECT_ROOT" && rm -f "$PROJECT_ROOT/$RUN_ID.zip"
 mkdir -p "$RUN_DIR/logs"
 
-cd "$RUN_DIR"
-sbatch "$PROJECT_ROOT/job.sbatch"
+pushd "$RUN_DIR" && sbatch "$PROJECT_ROOT/job.sbatch" && popd
 
 # monitor:
 squeue -u $USER

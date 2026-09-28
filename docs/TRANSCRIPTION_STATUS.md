@@ -4,21 +4,21 @@
 
 > Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - Seg job running.
 
-> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - TODO Seg
+> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job starting.
 
-> Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - TODO Seg
+> Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job starting.
 
-> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - TODO Seg
+> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg job starting.
 
-> Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - TODO Seg
+> Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Seg job running.
 
-> Seville_1576 - https://euclides.huma-num.fr/hub/?datasetId=ds_uwclpr - TODO Seg
+> Seville_1576 - https://euclides.huma-num.fr/hub/?datasetId=ds_uwclpr - Seg job running.
 
-> Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - TODO Seg
+> Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - Seg job running.
 
-> Rome_1589_vol1 - DELETE: https://euclides.huma-num.fr/hub/?datasetId=ds_8n3ims . USE: https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n - TODO Seg
+> Rome_1589_vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n - Seg job starting.
 
-> Rome_1589_vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6 - TODO Seg
+> Rome_1589_vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6 - Seg job starting.
 
 # Run LLM Corrector
 
