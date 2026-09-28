@@ -12,13 +12,11 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
-	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/formatcov"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
-	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/gpufarm"
 )
 
-func (r *ModelTrainingRemote) submitYOLO(training *model.ModelTraining, progress func(string)) (*model.ModelTraining, error) {
+func (r *ModelTrainingRemote) submitYOLO(training *model.ModelTraining, jobID string, progress func(string)) (*model.ModelTraining, error) {
 	mo := training.Model
 
 	tmpDir, err := futils.MkdirTemp("yolo-training")
@@ -42,6 +40,7 @@ func (r *ModelTrainingRemote) submitYOLO(training *model.ModelTraining, progress
 
 	return r.submit(trainingRemoteRequest{
 		Training:      training,
+		AsyncJobID:    jobID,
 		TmpDir:        tmpDir,
 		JobName:       "train_yolo",
 		BaseModelPath: baseModelPath,
@@ -52,8 +51,8 @@ func (r *ModelTrainingRemote) submitYOLO(training *model.ModelTraining, progress
 		StatusDetails: map[string]string{
 			"training_images": fmt.Sprintf("%d", imageCount),
 		},
-		Manifest: func(remoteEnv *gpufarm.RemoteEnv, remoteBaseModelPath string, remoteAssetPaths []string) string {
-			return r.yoloTrainingManifest(training, remoteEnv, remoteBaseModelPath, remoteAssetPaths[0])
+		Manifest: func(runID string, baseModelRelPath string, assetRelPaths []string) string {
+			return r.yoloTrainingManifest(training, runID, baseModelRelPath, assetRelPaths[0])
 		},
 		AssetProgress: func(done int, total int) string {
 			return fmt.Sprintf("syncing YOLO training dataset archive [%d images]", imageCount)
@@ -378,9 +377,9 @@ func yoloDataYAML(classNames []string) string {
 	return b.String()
 }
 
-func (r *ModelTrainingRemote) yoloTrainingManifest(training *model.ModelTraining, remoteEnv *gpufarm.RemoteEnv, remoteBaseModelPath string, remoteDatasetZipPath string) string {
+func (r *ModelTrainingRemote) yoloTrainingManifest(training *model.ModelTraining, runID string, baseModelRelPath string, datasetZipRelPath string) string {
 	var b strings.Builder
-	r.writeCommonManifest(&b, training, remoteEnv, remoteBaseModelPath)
-	fmt.Fprintf(&b, "export DATASET_ZIP_PATH=%s\n", envexec.ShellQuote(remoteDatasetZipPath))
+	r.writeCommonManifest(&b, training, runID, baseModelRelPath)
+	fmt.Fprintf(&b, "export DATASET_ZIP_PATH=%s\n", manifestPathUnder("PROJECT_ROOT", datasetZipRelPath))
 	return b.String()
 }

@@ -12,7 +12,6 @@ import (
 	"regexp"
 	"strings"
 	"text/template"
-	"time"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
 )
@@ -162,7 +161,7 @@ func (s *SubmitterSlurm) PreparePythonEnv(request PythonEnvRequest) (*RemoteEnv,
 		return nil, fmt.Errorf("missing Python job files")
 	}
 
-	runID := "run_" + fmt.Sprintf("%s-%d", time.Now().UTC().Format("060102-150405"), time.Now().UnixNano()%100000)
+	runID := NewRunID()
 	remoteRoot := path.Join(s.jobRoot, request.JobName)
 	if _, err := s.run("mkdir", "-p", s.jobRoot); err != nil {
 		return nil, err

@@ -16,6 +16,7 @@ export type annotationrule_LinesDetect = {
      * Example: ["MainZone"]
      */
     include_categories?: Array<string>;
+    manual_run?: boolean;
     type?: annotationrule_Type;
     use_gpu_farm?: boolean;
 };

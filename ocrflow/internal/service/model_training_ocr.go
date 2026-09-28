@@ -11,7 +11,6 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
-	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/gpufarm"
 )
 
 // Remote layout under ${GPU_FARM_JOB_ROOT}/train_ocr:
@@ -41,7 +40,7 @@ import (
 //	        │       └── <page>.<image-ext>
 //	        ├── alto_files.txt
 //	        └── dataset.arrow
-func (r *ModelTrainingRemote) submitOCR(training *model.ModelTraining, progress func(string)) (*model.ModelTraining, error) {
+func (r *ModelTrainingRemote) submitOCR(training *model.ModelTraining, jobID string, progress func(string)) (*model.ModelTraining, error) {
 	mo := training.Model
 
 	tmpDir, err := futils.MkdirTemp("ocrflow-model-training-*")
@@ -80,12 +79,13 @@ func (r *ModelTrainingRemote) submitOCR(training *model.ModelTraining, progress 
 	}
 	return r.submit(trainingRemoteRequest{
 		Training:      training,
+		AsyncJobID:    jobID,
 		TmpDir:        tmpDir,
 		JobName:       "train_ocr",
 		BaseModelPath: baseModelPath,
 		Assets:        assets,
-		Manifest: func(remoteEnv *gpufarm.RemoteEnv, remoteBaseModelPath string, remoteAssetPaths []string) string {
-			return r.ocrTrainingManifest(training, remoteEnv, remoteBaseModelPath, remoteAssetPaths)
+		Manifest: func(runID string, baseModelRelPath string, assetRelPaths []string) string {
+			return r.ocrTrainingManifest(training, runID, baseModelRelPath, assetRelPaths)
 		},
 		AssetProgress: func(done int, total int) string {
 			return fmt.Sprintf("syncing OCR training annotation archives [%d/%d ZIP files]", done, total)
@@ -163,13 +163,13 @@ func findTrainingImage(imgDir string, stem string) (string, error) {
 	return "", fmt.Errorf("no matching image found in %s", imgDir)
 }
 
-func (r *ModelTrainingRemote) ocrTrainingManifest(training *model.ModelTraining, remoteEnv *gpufarm.RemoteEnv, remoteBaseModelPath string, remoteZipPaths []string) string {
+func (r *ModelTrainingRemote) ocrTrainingManifest(training *model.ModelTraining, runID string, baseModelRelPath string, zipRelPaths []string) string {
 	var b strings.Builder
-	r.writeCommonManifest(&b, training, remoteEnv, remoteBaseModelPath)
+	r.writeCommonManifest(&b, training, runID, baseModelRelPath)
 	fmt.Fprintf(&b, "export MODEL_PREFIX=%s\n", envexec.ShellQuote("kraken_model"))
 	b.WriteString("export ZIP_PATHS=(\n")
-	for _, zipPath := range remoteZipPaths {
-		fmt.Fprintf(&b, "  %s\n", envexec.ShellQuote(zipPath))
+	for _, zipRelPath := range zipRelPaths {
+		fmt.Fprintf(&b, "  %s\n", manifestPathUnder("PROJECT_ROOT", zipRelPath))
 	}
 	b.WriteString(")\n")
 	return b.String()

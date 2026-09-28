@@ -1,12 +1,20 @@
 package gpufarm
 
-import "path"
+import (
+	"fmt"
+	"path"
+	"time"
+)
 
 type RemoteEnv struct {
 	RemoteDir    string
 	RemoteRunDir string
 	RunID        string
 	LogsDir      string
+}
+
+func NewRunID() string {
+	return "run_" + fmt.Sprintf("%s-%d", time.Now().UTC().Format("060102-150405"), time.Now().UnixNano()%100000)
 }
 
 type PythonEnvRequest struct {

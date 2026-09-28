@@ -98,9 +98,12 @@ func isExportJobReady(jb *job.Job) bool {
 func (j *Job) runAnnotationRuleApply(jb *job.Job) {
 	j.run(jb, "annotation rule apply", func() (any, error) {
 		var followCommands []string
-		ann, err := j.annotations.ExecuteApplyRulesWithRemoteProgress(jb.Target.DatasetID, jb.Target.AnnotationID, jb.Rules, func(command string) {
-			followCommands = append(followCommands, command)
-			j.progressReporter(jb, "GPU farm job submitted; waiting for detection result callback")("follow logs with: " + command)
+		ann, err := j.annotations.ExecuteApplyRulesWithRemoteProgress(jb.Target.DatasetID, jb.Target.AnnotationID, jb.Rules, &gpuFarmDispatch{
+			JobID: jb.ID,
+			OnSubmitted: func(command string) {
+				followCommands = append(followCommands, command)
+				j.progressReporter(jb, "GPU farm job submitted; waiting for detection result callback")(command)
+			},
 		})
 		if err != nil {
 			return nil, err
@@ -119,7 +122,7 @@ func (j *Job) runAnnotationRuleApply(jb *job.Job) {
 
 func (j *Job) runModelTrain(jb *job.Job) {
 	j.run(jb, "model training", func() (any, error) {
-		return j.modelTrain.Submit(jb.ModelTraining, j.progressReporter(jb, fmt.Sprintf("Submitting %s model training", jb.ModelTraining.Model.Type)))
+		return j.modelTrain.Submit(jb.ModelTraining, jb.ID, j.progressReporter(jb, fmt.Sprintf("Submitting %s model training", jb.ModelTraining.Model.Type)))
 	})
 }
 

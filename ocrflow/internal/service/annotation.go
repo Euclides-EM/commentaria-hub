@@ -418,7 +418,7 @@ func (a *Annotation) ExecuteApplyRules(datasetID string, id string, aar *annotat
 	return a.ExecuteApplyRulesWithRemoteProgress(datasetID, id, aar, nil)
 }
 
-func (a *Annotation) ExecuteApplyRulesWithRemoteProgress(datasetID string, id string, aar *annotationrule.ApplyRules, onSubmitted func(string)) (*annotation.Annotation, error) {
+func (a *Annotation) ExecuteApplyRulesWithRemoteProgress(datasetID string, id string, aar *annotationrule.ApplyRules, dispatch *gpuFarmDispatch) (*annotation.Annotation, error) {
 	ann, err := a.Get(datasetID, id)
 	if err != nil {
 		return nil, err
@@ -436,7 +436,7 @@ func (a *Annotation) ExecuteApplyRulesWithRemoteProgress(datasetID string, id st
 	defer release()
 
 	// apply rules...
-	if err := a.ruleApplier.ApplyRulesWithRemoteProgress(a.fileSysMgt.DatasetImagesDir(ds), ann, aar.Rules, onSubmitted); err != nil {
+	if err := a.ruleApplier.ApplyRulesWithRemoteProgress(a.fileSysMgt.DatasetImagesDir(ds), ann, aar.Rules, dispatch); err != nil {
 		return nil, fmt.Errorf("failed to apply annotation rules: %w", err)
 	}
 

@@ -25,6 +25,8 @@ type AnnotationDetectionRemote struct {
 	apiURL     string
 	apiToken   string
 	submitter  gpufarm.Submitter
+
+	manualBundles *GPUFarmManualBundles
 }
 
 type remoteDetectionRequest struct {
@@ -36,19 +38,22 @@ type remoteDetectionRequest struct {
 	IgnoreCategories  []string
 	Model             *model.Model
 	ModelPath         string
+	ManualRun         bool
 }
 
-func NewAnnotationDetectionRemote(fileSysMgt *filesys.Manager, rootDir string, apiURL string, apiToken string, submitter gpufarm.Submitter) *AnnotationDetectionRemote {
+func NewAnnotationDetectionRemote(fileSysMgt *filesys.Manager, rootDir string, apiURL string, apiToken string, submitter gpufarm.Submitter, manualBundles *GPUFarmManualBundles) *AnnotationDetectionRemote {
 	return &AnnotationDetectionRemote{
 		fileSysMgt: fileSysMgt,
 		rootDir:    rootDir,
 		apiURL:     strings.TrimRight(apiURL, "/"),
 		apiToken:   apiToken,
 		submitter:  submitter,
+
+		manualBundles: manualBundles,
 	}
 }
 
-func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, onSubmitted func(string)) error {
+func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, dispatch *gpuFarmDispatch) error {
 	if r == nil || r.submitter == nil {
 		return fmt.Errorf("GPU farm detection submitter is not configured")
 	}
@@ -65,6 +70,10 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, onSubmitt
 		return fmt.Errorf("GPU farm detection currently supports local models only, got %s", req.Model.Location)
 	}
 
+	if req.ManualRun {
+		return r.submitManual(req, dispatch)
+	}
+
 	remoteEnv, err := r.submitter.PreparePythonEnv(gpufarm.NewPythonEnvRequest(filepath.Join(r.rootDir, "jobs", remoteDetectionJobName)))
 	if err != nil {
 		return fmt.Errorf("prepare remote detection Python environment: %w", err)
@@ -79,46 +88,10 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, onSubmitt
 	}()
 
 	log.Printf("GPU farm detection upload started: annotation=%s mode=%s pages=%d run_id=%s run_dir=%s", req.Annotation.ID, req.Mode, len(req.Pages), remoteEnv.RunID, remoteEnv.RemoteRunDir)
-	for i, p := range req.Pages {
-		imageName := pagesparser.PageToPNGFilename(p)
-		if err := r.submitter.CopyTo(filepath.Join(req.ImageDir, imageName), path.Join(remoteEnv.RemoteRunDir, "assets", "images", imageName)); err != nil {
-			return fmt.Errorf("copy image %s to GPU farm: %w", imageName, err)
-		}
-		if (i+1)%25 == 0 || i+1 == len(req.Pages) {
-			log.Printf("GPU farm detection image upload progress: annotation=%s run_id=%s uploaded=%d total=%d", req.Annotation.ID, remoteEnv.RunID, i+1, len(req.Pages))
-		}
-	}
-
-	altoDir := r.fileSysMgt.DatasetAnnotationAltoDir(req.Annotation)
-	if req.Mode != annotation.DetectionModeModelSegment {
-		for _, p := range req.Pages {
-			altoName := pagesparser.PageToXMLFilename(p)
-			if err := r.submitter.CopyTo(filepath.Join(altoDir, altoName), path.Join(remoteEnv.RemoteRunDir, "assets", "alto", altoName)); err != nil {
-				return fmt.Errorf("copy ALTO %s to GPU farm: %w", altoName, err)
-			}
-		}
-	}
-
-	remoteModelPath := ""
-	if req.ModelPath != "" {
-		remoteModelPath = path.Join(remoteEnv.RemoteRunDir, "assets", "models", filepath.Base(req.ModelPath))
-		if err := r.submitter.CopyTo(req.ModelPath, remoteModelPath); err != nil {
-			return fmt.Errorf("copy model to GPU farm: %w", err)
-		}
-	}
-
-	tmp, err := futils.MkdirTemp("annotation-detect-remote-*")
-	if err != nil {
+	if err := r.stageInputs(req, remoteEnv.RunID, func(localPath string, relPath string) error {
+		return r.submitter.CopyTo(localPath, path.Join(remoteEnv.RemoteRunDir, relPath))
+	}); err != nil {
 		return err
-	}
-	defer os.RemoveAll(tmp)
-
-	manifestPath := filepath.Join(tmp, "manifest.env")
-	if err := os.WriteFile(manifestPath, []byte(r.detectionManifest(req, remoteEnv, remoteModelPath)), 0o600); err != nil {
-		return fmt.Errorf("write detection manifest: %w", err)
-	}
-	if err := r.submitter.CopyTo(manifestPath, path.Join(remoteEnv.RemoteRunDir, "manifest.env")); err != nil {
-		return fmt.Errorf("copy detection manifest to GPU farm: %w", err)
 	}
 
 	submission, err := r.submitter.Submit(remoteEnv)
@@ -132,9 +105,74 @@ func (r *AnnotationDetectionRemote) Submit(req remoteDetectionRequest, onSubmitt
 		stderrPath := path.Join(remoteEnv.LogsDir, "annotation_detect_"+submission.SchedulerJobID+".err")
 		followCommand := detectionFollowCommand(submission.Host, stdoutPath, stderrPath)
 		log.Printf("Follow GPU farm detection logs with: %s", followCommand)
-		if onSubmitted != nil {
-			onSubmitted(followCommand)
+		dispatch.submitted(followCommand)
+	}
+	return nil
+}
+
+func (r *AnnotationDetectionRemote) submitManual(req remoteDetectionRequest, dispatch *gpuFarmDispatch) error {
+	runID := gpufarm.NewRunID()
+	stageDir, err := futils.MkdirTemp("annotation-detect-manual-*")
+	if err != nil {
+		return err
+	}
+	defer os.RemoveAll(stageDir)
+
+	if err := r.stageInputs(req, runID, func(localPath string, relPath string) error {
+		return futils.CopyFile(localPath, filepath.Join(stageDir, runID, filepath.FromSlash(relPath)))
+	}); err != nil {
+		return err
+	}
+	message, err := r.manualBundles.Publish(filepath.Join(r.rootDir, "jobs", remoteDetectionJobName), dispatch.jobID(), runID, stageDir)
+	if err != nil {
+		return err
+	}
+	log.Printf("GPU farm detection awaiting manual run: annotation=%s mode=%s run_id=%s: %s", req.Annotation.ID, req.Mode, runID, message)
+	dispatch.submitted(message)
+	return nil
+}
+
+func (r *AnnotationDetectionRemote) stageInputs(req remoteDetectionRequest, runID string, copyTo func(localPath string, relPath string) error) error {
+	for i, p := range req.Pages {
+		imageName := pagesparser.PageToPNGFilename(p)
+		if err := copyTo(filepath.Join(req.ImageDir, imageName), path.Join("assets", "images", imageName)); err != nil {
+			return fmt.Errorf("copy image %s to GPU farm: %w", imageName, err)
 		}
+		if (i+1)%25 == 0 || i+1 == len(req.Pages) {
+			log.Printf("GPU farm detection image upload progress: annotation=%s run_id=%s uploaded=%d total=%d", req.Annotation.ID, runID, i+1, len(req.Pages))
+		}
+	}
+
+	altoDir := r.fileSysMgt.DatasetAnnotationAltoDir(req.Annotation)
+	if req.Mode != annotation.DetectionModeModelSegment {
+		for _, p := range req.Pages {
+			altoName := pagesparser.PageToXMLFilename(p)
+			if err := copyTo(filepath.Join(altoDir, altoName), path.Join("assets", "alto", altoName)); err != nil {
+				return fmt.Errorf("copy ALTO %s to GPU farm: %w", altoName, err)
+			}
+		}
+	}
+
+	modelRelPath := ""
+	if req.ModelPath != "" {
+		modelRelPath = path.Join("assets", "models", filepath.Base(req.ModelPath))
+		if err := copyTo(req.ModelPath, modelRelPath); err != nil {
+			return fmt.Errorf("copy model to GPU farm: %w", err)
+		}
+	}
+
+	tmp, err := futils.MkdirTemp("annotation-detect-remote-*")
+	if err != nil {
+		return err
+	}
+	defer os.RemoveAll(tmp)
+
+	manifestPath := filepath.Join(tmp, "manifest.env")
+	if err := os.WriteFile(manifestPath, []byte(r.detectionManifest(req, runID, modelRelPath)), 0o600); err != nil {
+		return fmt.Errorf("write detection manifest: %w", err)
+	}
+	if err := copyTo(manifestPath, "manifest.env"); err != nil {
+		return fmt.Errorf("copy detection manifest to GPU farm: %w", err)
 	}
 	return nil
 }
@@ -150,18 +188,18 @@ func detectionFollowCommand(host, stdoutPath, stderrPath string) string {
 	)
 }
 
-func (r *AnnotationDetectionRemote) detectionManifest(req remoteDetectionRequest, remoteEnv *gpufarm.RemoteEnv, remoteModelPath string) string {
+func (r *AnnotationDetectionRemote) detectionManifest(req remoteDetectionRequest, runID string, modelRelPath string) string {
 	var b strings.Builder
-	fmt.Fprintf(&b, "export PROJECT_ROOT=%s\n", envexec.ShellQuote(remoteEnv.RemoteDir))
-	fmt.Fprintf(&b, "export RUN_ID=%s\n", envexec.ShellQuote(remoteEnv.RunID))
-	fmt.Fprintf(&b, "export RUN_DIR=%s\n", envexec.ShellQuote(remoteEnv.RemoteRunDir))
-	fmt.Fprintf(&b, "export LOGS_DIR=%s\n", envexec.ShellQuote(remoteEnv.LogsDir))
+	fmt.Fprintf(&b, "export RUN_DIR=\"$(pwd)\"\n")
+	fmt.Fprintf(&b, "export PROJECT_ROOT=\"$(dirname \"$RUN_DIR\")\"\n")
+	fmt.Fprintf(&b, "export RUN_ID=%s\n", envexec.ShellQuote(runID))
+	fmt.Fprintf(&b, "export LOGS_DIR=\"$RUN_DIR/logs\"\n")
 	fmt.Fprintf(&b, "export MODE=%s\n", envexec.ShellQuote(string(req.Mode)))
-	fmt.Fprintf(&b, "export IMAGE_DIR=%s\n", envexec.ShellQuote(path.Join(remoteEnv.RemoteRunDir, "assets", "images")))
-	fmt.Fprintf(&b, "export ALTO_DIR=%s\n", envexec.ShellQuote(path.Join(remoteEnv.RemoteRunDir, "assets", "alto")))
-	fmt.Fprintf(&b, "export OUTPUT_DIR=%s\n", envexec.ShellQuote(path.Join(remoteEnv.RemoteRunDir, "output", "alto")))
-	fmt.Fprintf(&b, "export ARTIFACTS_DIR=%s\n", envexec.ShellQuote(path.Join(remoteEnv.RemoteRunDir, "artifacts")))
-	fmt.Fprintf(&b, "export MODEL_PATH=%s\n", envexec.ShellQuote(remoteModelPath))
+	fmt.Fprintf(&b, "export IMAGE_DIR=\"$RUN_DIR/assets/images\"\n")
+	fmt.Fprintf(&b, "export ALTO_DIR=\"$RUN_DIR/assets/alto\"\n")
+	fmt.Fprintf(&b, "export OUTPUT_DIR=\"$RUN_DIR/output/alto\"\n")
+	fmt.Fprintf(&b, "export ARTIFACTS_DIR=\"$RUN_DIR/artifacts\"\n")
+	fmt.Fprintf(&b, "export MODEL_PATH=%s\n", manifestPathUnder("RUN_DIR", modelRelPath))
 	fmt.Fprintf(&b, "export RESULT_UPLOAD_URL=%s\n", envexec.ShellQuote(r.resultUploadURL(req.Annotation)))
 	fmt.Fprintf(&b, "export RESULT_FAILURE_URL=%s\n", envexec.ShellQuote(r.resultFailureURL(req.Annotation)))
 	fmt.Fprintf(&b, "export RESULT_UPLOAD_TOKEN=%s\n", envexec.ShellQuote(r.apiToken))
