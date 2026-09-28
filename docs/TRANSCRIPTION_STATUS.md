@@ -1,3 +1,19 @@
+# Next Editions Queue
+
+1505	Venice
+
+1543	Venice
+
+1550	Basel
+
+1572	Pesaro
+
+1576	Seville
+
+1655	Cambridge
+
+1589	Rome (If the quality is better for 1591	Cologne - you can use it instead)
+
 # Run OCR Pipeline
 
 ## London_1570
