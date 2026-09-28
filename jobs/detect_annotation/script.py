@@ -9,10 +9,11 @@ import shutil
 import shlex
 import subprocess
 import sys
+import threading
 import time
 import uuid
 import zipfile
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import FIRST_EXCEPTION, ThreadPoolExecutor, wait
 from pathlib import Path
 
 from lxml import etree
@@ -49,9 +50,42 @@ def log(msg: str) -> None:
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {msg}", flush=True)
 
 
+_abort = threading.Event()
+_procs_lock = threading.Lock()
+_procs: set[subprocess.Popen] = set()
+
+
 def run(cmd: list[str]) -> None:
     log("+ " + " ".join(shlex.quote(x) for x in cmd))
-    subprocess.check_call(cmd)
+    with _procs_lock:
+        if _abort.is_set():
+            raise RuntimeError("aborted after an earlier page failure")
+        proc = subprocess.Popen(cmd)
+        _procs.add(proc)
+    try:
+        returncode = proc.wait()
+    finally:
+        with _procs_lock:
+            _procs.discard(proc)
+    if returncode != 0:
+        raise subprocess.CalledProcessError(returncode, cmd)
+
+
+def run_all(fn, items: list, workers: int) -> None:
+    _abort.clear()
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = [pool.submit(fn, item) for item in items]
+        done, _ = wait(futures, return_when=FIRST_EXCEPTION)
+        failed = next((f for f in futures if f in done and f.exception()), None)
+        if failed is None:
+            return
+        for future in futures:
+            future.cancel()
+        with _procs_lock:
+            _abort.set()
+            for proc in _procs:
+                proc.kill()
+        raise failed.exception()
 
 
 def write_xml_atomic(tree: etree._ElementTree, path: Path) -> None:
@@ -492,8 +526,7 @@ def detect_lines(image_dir: Path, alto_dir: Path, output_dir: Path, artifacts_di
     if not workers:
         return
     log(f"Detecting lines on {len(pages)} pages with {workers} workers")
-    with ThreadPoolExecutor(max_workers=workers) as pool:
-        list(pool.map(process_page, pages))
+    run_all(process_page, pages, workers)
 
 
 def model_segment(image_dir: Path, output_dir: Path, model_path: Path) -> None:
@@ -507,12 +540,15 @@ def model_segment(image_dir: Path, output_dir: Path, model_path: Path) -> None:
         pairs: list[str] = []
         for img in worker_images:
             pairs.extend(["-i", str(img), str(output_dir / f"{img.stem}.xml")])
-        run(["yaltai", "kraken", "--alto", "-d", "cuda:0", *pairs, "segment", "--yolo", str(model_path)])
+        run(["yaltai", "kraken", "--alto", "--raise-on-error", "-d", "cuda:0", *pairs, "segment", "--yolo", str(model_path)])
+        for img in worker_images:
+            out = output_dir / f"{img.stem}.xml"
+            if not out.exists() or out.stat().st_size == 0:
+                raise RuntimeError(f"Segmentation did not produce output for page: {img.name}")
 
     image_shards = shard(images, workers)
     log(f"Segmenting {len(images)} pages with {len(image_shards)} workers")
-    with ThreadPoolExecutor(max_workers=len(image_shards)) as pool:
-        list(pool.map(process_shard, image_shards))
+    run_all(process_shard, image_shards, len(image_shards))
 
 
 def kraken_ocr_command(pairs: list[str], model_path: Path) -> list[str]:
@@ -554,8 +590,7 @@ def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Pat
                 pairs.extend(["-i", str(alto_path), str(alto_path) + ".ocr.tmp"])
             run(kraken_ocr_command(pairs, model_path))
 
-        with ThreadPoolExecutor(max_workers=len(ocr_shards)) as pool:
-            list(pool.map(process_shard, ocr_shards))
+        run_all(process_shard, ocr_shards, len(ocr_shards))
 
         for final_path in ocr_paths:
             tmp = Path(str(final_path) + ".ocr.tmp")
