@@ -3,6 +3,7 @@ package annotationrule
 import (
 	"encoding/json"
 	"fmt"
+	"slices"
 	"strings"
 )
 
@@ -95,7 +96,7 @@ func (b *Base) ruleBase() *Base {
 }
 
 func (b *Base) ApplicablePipelineStages() []PipelineStage {
-	return applicableStagesByType[b.Type]
+	return slices.Clone(applicableStagesByType[b.Type])
 }
 
 func (b *Base) EnsuredPipelineStage() PipelineStage {
