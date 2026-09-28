@@ -1,28 +1,24 @@
-# Next Editions Queue
+# OCR Pipeline Queue
 
-1505	Venice
+> London_1570 - https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8 - Seg done
 
-1543	Venice
+> Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - Seg GT done. Line detect done.
 
-1550	Basel
+> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - TODO Seg
 
-1572	Pesaro
+> Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - TODO Seg
 
-1576	Seville
+> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - TODO Seg
 
-1655	Cambridge
+> Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - TODO Seg
 
-1589	Rome (If the quality is better for 1591	Cologne - you can use it instead)
+> Seville_1576 - Need to update facs to use public domain
 
-# Run OCR Pipeline
+> Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - TODO Seg
 
-## London_1570
+> Rome_1589_vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_8n3ims - TODO Seg
 
-WIP https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8
-
-## Lyon_1672
-
-WIP https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq
+> Rome_1589_vol2 - Need to update facs of vol2 to use public domain
 
 # Run LLM Corrector
 
