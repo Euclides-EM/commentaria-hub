@@ -8,7 +8,7 @@
 
 > Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job ready to run [LARGE FILE].
 
-> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg job running.
+> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg job preparing.
 
 > Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Seg job running.
 
