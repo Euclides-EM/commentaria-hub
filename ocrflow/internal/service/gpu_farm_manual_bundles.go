@@ -77,7 +77,7 @@ func (b *GPUFarmManualBundles) Publish(localJobDir string, jobID string, runID s
 	if err := futils.Zip(stageDir, bundlePath); err != nil {
 		return "", fmt.Errorf("write manual GPU farm bundle: %w", err)
 	}
-	return fmt.Sprintf("manual GPU farm run: follow docs/GPU_FARM.md#manual-gpu-farm-runs with JOB=%s RUN_ID=%s BUNDLE_URL=%s",
+	return fmt.Sprintf("manual GPU farm run: follow docs/GPU_FARM.md#manual-gpu-farm-runs with\nJOB=%s\nRUN_ID=%s\nBUNDLE_URL=%s",
 		envexec.ShellQuote(jobFiles.JobName),
 		envexec.ShellQuote(runID),
 		envexec.ShellQuote(b.apiURL+"/jobs/"+jobID+"/gpu_farm_runs/"+runID+"/bundle")), nil
