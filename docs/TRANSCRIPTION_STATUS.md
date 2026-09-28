@@ -2,7 +2,7 @@
 
 > London_1570 - https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8 - Line detect running.
 
-> Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - Seg GT done. Line detect done.
+> Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - Seg job running.
 
 > Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - TODO Seg
 

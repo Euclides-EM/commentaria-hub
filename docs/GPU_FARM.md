@@ -383,7 +383,8 @@ PROJECT_ROOT=`pwd`
 RUN_DIR="$PROJECT_ROOT/$RUN_ID"
 mkdir -p "$PROJECT_ROOT"
 curl --fail -L -H "Authorization: Bearer $GITHUB_TOKEN" -o "$PROJECT_ROOT/$RUN_ID.zip" "$BUNDLE_URL"
-unzip -o "$PROJECT_ROOT/$RUN_ID.zip" -d "$PROJECT_ROOT" && rm "$PROJECT_ROOT/$RUN_ID.zip"
+unzip -o "$PROJECT_ROOT/$RUN_ID.zip" -x job.sbatch -d "$PROJECT_ROOT"
+unzip -n "$PROJECT_ROOT/$RUN_ID.zip" job.sbatch -d "$PROJECT_ROOT" && rm -f "$PROJECT_ROOT/$RUN_ID.zip"
 mkdir -p "$RUN_DIR/logs"
 
 cd "$RUN_DIR"
