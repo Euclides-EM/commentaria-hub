@@ -173,7 +173,11 @@ Pesaro_1619a,De gli elementi d’Euclide libri quindici con gli scolii antichi,S
 London_1620,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ ΒΙΒΛΙΑ ἕγ. ELEMENTORVM EVCLIDIS LIBRI TREDECIM,Specified in source,1620,London,"GREEK, LATIN",Henry Briggs,William Jones,2,1,,,
 Paris_1621,"Les quinze livres des Éléments d’Euclide, traduits du latin en français",Specified in source,1621,Paris,FRENCH,Denis Henrion,Jean Antoine Joallin,8,1,,,
 Paris_1622,,,1622,Paris,"FRENCH, LATIN",Pierre Le Mardelé,Denys Moreau,8,1,,,
-Paris_1623,,,1623,Paris,FRENCH,Denis Henrion,I. Ant. Ioallin,8,1,-,,
+Paris_1623,Les Qvinze livres des elements d’Evclide,Invented by enterer,1623,Paris,FRENCH,Denis Henrion,I. Ant. Ioallin,8,1,-,"Auction record:
+https://normandy-auction.fr/en/lot/26770/5702950-henrion-les-quinze-elements-deuclide-paris-jollin-1623-fort
+
+Russian state library:
+https://rusneb.ru/catalog/000199_000009_003000237/",
 Paris_1624,"Paradoxes De Meynier Contre Les Mathematiciens, qui abusent laieunesse",Provided by catalog,1624,Paris,FRENCH,Honorat de Meynier,Ivlian Iacqvin,8,1,,,
 Amsterdam_1626,,,1626,Amsterdam,DUTCH,Jan Pietersz Dou,Willem Iansz. Blaeuw,8,1,-,,
 Paris_1626a,,,1626,Paris,LATIN,Marin Mersenne (?),,8,1,-,,
@@ -199,7 +203,12 @@ Lyon_1646,,,1646,Lyon,FRENCH,Pierre Le Mardelé,Simon Rigaud,8,1,-,,
 Rotterdam_1647,,,1647,Rotterdam,DUTCH,Jan Pietersz Dou,Pieter van Waesberghe,8,1,-,,
 Utrecht_1647,,,1647,Utrecht,DUTCH,Jan Pietersz Dou,Jan van Waesberge,8,1,-,,
 Venice_1647,,,1647,Venice,LATIN,Caterino Doino,,8,1,-,,
-Rouen_1649,"Les quinze livres des éléments, , traduicts de latin en françois par D. Henrion",Provided by catalog,1649,Rouen,FRENCH,Denis Henrion,Clément Malassis,8,1,6811239,,
+Rouen_1649,"Les quinze livres des éléments, , traduicts de latin en françois par D. Henrion",Provided by catalog,1649,Rouen,FRENCH,Denis Henrion,Clément Malassis,8,1,6811239,"Copies in BNF:
+https://catalogue.bnf.fr/ark:/12148/cb45882884r
+https://catalogue.bnf.fr/ark:/12148/cb30409443m
+
+Copy in Dresden library:
+https://katalog.slub-dresden.de/en/id/0-1111408580",
 London_1651,"Euclides Elements of geometry: the first VI books: in a compendious form contracted and demonstrated. By Captain Thomas Rudd, chiefe engineer to his late Majesty. Whereunto is added, the mathematicall preface of Mr. John Dee.",Provided by catalog,1651,London,ENGLISH,Thomas Rudd,Richard Tomlins and Robert Boydell,4,1,3067003,,
 Paris_1652,Paradoxes contre les mathematiciens qui abusent la jeunesse,Provided by catalog,1652,Paris,FRENCH,Honorat de Meynier,,12,1,,,
 Amsterdam_1660,,,1660,Amsterdam,DUTCH,Jacob Willemsz,Jan van Ravesteyn,4,1,,,
@@ -1162,3 +1171,4 @@ Y8F95Y,"Mathematicae collectiones a Federico Commandino Urbinate in Latinum conv
 I2IA25,"De aequationum recognitione et emendatione tractatus duo. Quibus nihil in hoc genere simile aut secundum, huic aevo hactenus visum",Provided by catalog,1615,Paris,LATIN,François Viète,Jean Laquehay,4,1,6016789,,
 O3PAP5,Zeteticorum liber primus [-quintus],Provided by catalog,1593,Tours,LATIN,François Viète,Jamet Mettayer,2,1,1935356,,
 D2WC9V,Nouveaux Élémens de géométrie,Specified in source,1690,The Hague,FRENCH,Antoine Arnauld,Henry van Bulderen,,1,,,
+PEZ2GJ,Les Quinze livres des éléments géométriques d'Euclide,Provided by catalog,1645,Lyon,FRENCH,Denis Henrion,Simon Rigaud,,1,,,
