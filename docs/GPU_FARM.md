@@ -367,82 +367,34 @@ This JSON file contains the trained model path and dataset metadata.
 
 # Manual GPU farm runs
 
-GPU farm work can be run manually, without the API connecting to the GPU farm over SSH, by setting `"manual_run": true`:
-
-* Annotation detection: on a `LinesDetect` or `ModelDetect` rule that has `"use_gpu_farm": true`. Rules must be applied with `"execution_mode": "async"`.
-* Model training: on the `POST /models_train` request body.
-
-The API needs `API_URL`, which must be reachable from the GPU farm: the farm downloads the run bundle from it and uploads results back to it. `GPU_FARM_HOST` and `GPU_FARM_JOB_ROOT` are not used.
-
-Instead of uploading and submitting, the API packs the job files (`script.py`, `requirements.txt`, `job.sbatch`), the run inputs and the run `manifest.env` into a bundle served by the API, and reports:
-
-```text
-manual GPU farm run: follow docs/GPU_FARM.md#manual-gpu-farm-runs with JOB='...' RUN_ID='...' BUNDLE_URL='...'
-```
-
-For detection it is in the async job details, for training in the job result's `status_details.manual_run`. These three values are the only per-run inputs to the steps below. `BUNDLE_URL` points to `GET /jobs/{jobId}/gpu_farm_runs/{runId}/bundle` of the async job that dispatched the run. Bundles are kept in the API temp directory until the API restarts.
-
-The bundle is extracted into `$PROJECT_ROOT`, any folder on the GPU farm dedicated to that job (`detect_annotation`, `train_ocr` or `train_yolo`); keep the same one across runs so the Python environment is reused. It contains:
-
-```text
-script.py, requirements.txt, job.sbatch
-assets/          # training only: dataset archives and base model
-<RUN_ID>/
-  manifest.env
-  assets/        # detection only: images, ALTO and model
-```
-
-The paths in `manifest.env` are resolved relative to `<RUN_ID>/` when the job runs.
-
-All steps run on the GPU farm.
-
-## 1. Fetch the bundle
+GPU farm work can be run manually, without the API connecting to the GPU farm over SSH, by setting `"manual_run": true`.
 
 Use a GitHub token that is allowed by the API:
 
 ```bash
+cd .../commentaria-hub/jobs
+
+# copy these from job details in hub
 JOB='...'
 RUN_ID='...'
 BUNDLE_URL='...'
-PROJECT_ROOT=~/jobs/$JOB
+
+PROJECT_ROOT=`pwd`
 RUN_DIR="$PROJECT_ROOT/$RUN_ID"
 mkdir -p "$PROJECT_ROOT"
 curl --fail -L -H "Authorization: Bearer $GITHUB_TOKEN" -o "$PROJECT_ROOT/$RUN_ID.zip" "$BUNDLE_URL"
 unzip -o "$PROJECT_ROOT/$RUN_ID.zip" -d "$PROJECT_ROOT" && rm "$PROJECT_ROOT/$RUN_ID.zip"
 mkdir -p "$RUN_DIR/logs"
-```
 
-## 2. Prepare the Python environment
-
-Creates the environment on the first run and installs any changed requirements:
-
-```bash
-module purge 2>/dev/null || true
-unset PYTHONHOME PYTHONPATH LD_LIBRARY_PATH
-[ -d "$PROJECT_ROOT/.venv" ] || python3 -m venv "$PROJECT_ROOT/.venv"
-source "$PROJECT_ROOT/.venv/bin/activate"
-python -m pip install -U pip wheel
-python -m pip install -r "$PROJECT_ROOT/requirements.txt"
-deactivate
-```
-
-## 3. Submit and monitor
-
-```bash
 cd "$RUN_DIR"
 sbatch "$PROJECT_ROOT/job.sbatch"
+
+# monitor:
 squeue -u $USER
 tail -n 100 -F "$RUN_DIR"/logs/*
 ```
 
-## 4. Resolution
-
-The Slurm job reports back to the API itself:
-
-* Detection: on success it uploads `artifacts/alto-result.zip` to the detection result callback and the async job completes; on error it posts the failure callback and the async job fails. When several GPU farm rules are applied in one execution, each reports its own `JOB`, `RUN_ID` and `BUNDLE_URL`, and the async job completes after every run has sent its callback.
-* Training: on success it uploads the trained model to `/models_upload`, and the model appears in `GET /models`. The training async job itself completes once the bundle is published.
-
-If the Slurm job ends without reaching the API (for example it was cancelled, hit its time limit, or the upload failed), resolve it from `$RUN_DIR`.
+The Slurm job reports back to the API itself.  If the Slurm job ends without reaching the API (for example it was cancelled, hit its time limit, or the upload failed), resolve it from `$RUN_DIR`.
 
 Detection success:
 

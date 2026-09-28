@@ -1,6 +1,6 @@
 # OCR Pipeline Queue
 
-> London_1570 - https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8 - Seg done
+> London_1570 - https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8 - Line detect running.
 
 > Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - Seg GT done. Line detect done.
 
@@ -12,13 +12,13 @@
 
 > Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - TODO Seg
 
-> Seville_1576 - Need to update facs to use public domain
+> Seville_1576 - https://euclides.huma-num.fr/hub/?datasetId=ds_uwclpr - TODO Seg
 
 > Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - TODO Seg
 
-> Rome_1589_vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_8n3ims - TODO Seg
+> Rome_1589_vol1 - DELETE: https://euclides.huma-num.fr/hub/?datasetId=ds_8n3ims . USE: https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n - TODO Seg
 
-> Rome_1589_vol2 - Need to update facs of vol2 to use public domain
+> Rome_1589_vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6 - TODO Seg
 
 # Run LLM Corrector
 
