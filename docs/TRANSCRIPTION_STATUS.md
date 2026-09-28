@@ -2,25 +2,27 @@
 
 > London_1570 - https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8 - Line detect running.
 
-> Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - Line detect running.
+> Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - Line detect done.
 
 > Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job ready to run [LARGE FILE].
 
 > Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job ready to run [LARGE FILE].
 
-> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg job preparing.
+> Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg done. Might need train to improve, i.e page 83.
 
 > Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Seg job running.
 
-> Seville_1576 - https://euclides.huma-num.fr/hub/?datasetId=ds_uwclpr - LineDetect running.
-
 > Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - Seg job done. Need to train to improve. i.e page 45.
 
-> Rome_1589_vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n - Seg job running.
+> Rome_1589_vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n - Seg done. Need to train to improve.
 
-> Rome_1589_vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6 - Seg job preparing.
+> Rome_1589_vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6 - Seg done. Needs review.
 
 # Run LLM Corrector
+
+## Seville_1576
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_uwclpr&annotationId=ann_mz29ot
 
 # Alignment
 
