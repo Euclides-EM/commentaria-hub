@@ -373,6 +373,7 @@ Use a GitHub token that is allowed by the API:
 
 ```bash
 cd .../commentaria-hub/jobs
+GITHUB_TOKEN="XXXX"
 
 # copy these from job details in hub
 JOB='...'
