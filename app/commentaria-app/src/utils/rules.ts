@@ -103,10 +103,18 @@ export const isRuleApplied = (
     return definition
   }
   const serializedRule = JSON.stringify(withoutExecutionMetadata(suggestedRule))
+  const suggestedModelType =
+    suggestedRule.type === 'model_detect'
+      ? (suggestedRule as annotationrule_ModelDetect).model_type
+      : undefined
   return (
     !!annotation?.applied_rules &&
     annotation.applied_rules.some(
       (rule) =>
+        (!!suggestedModelType &&
+          rule.type === 'model_detect' &&
+          (rule as annotationrule_ModelDetect).model_type ===
+            suggestedModelType) ||
         JSON.stringify(withoutExecutionMetadata(rule)) === serializedRule,
     )
   )
