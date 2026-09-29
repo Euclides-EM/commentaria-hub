@@ -612,14 +612,17 @@ def model_segment(image_dir: Path, output_dir: Path, model_path: Path) -> None:
             except (StalledError, subprocess.CalledProcessError) as exc:
                 if _abort.is_set():
                     raise
-                if isinstance(exc, subprocess.CalledProcessError) and exc.returncode >= 0:
-                    raise
                 pending = [img for img in batch if not valid_xml(output_dir / f"{img.stem}.xml")]
                 if not pending:
                     raise
                 bad = pending[0]
                 write_empty_alto(bad, output_dir / f"{bad.stem}.xml")
-                reason = str(exc) if isinstance(exc, StalledError) else f"killed by signal {-exc.returncode}"
+                if isinstance(exc, StalledError):
+                    reason = str(exc)
+                elif exc.returncode < 0:
+                    reason = f"killed by signal {-exc.returncode}"
+                else:
+                    reason = f"exit code {exc.returncode}"
                 with skipped_lock:
                     skipped.append(bad.name)
                     too_many = len(skipped) > max_skipped

@@ -322,6 +322,34 @@ class KrakenOCRTest(unittest.TestCase):
             self.assertEqual(script.xpath(placeholder, "//*[local-name()='fileName']")[0].text, "page-0002.png")
             self.assertEqual(script.xpath(placeholder, "//*[local-name()='TextBlock']"), [])
 
+    def test_model_segment_skips_crashing_page(self):
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            image_dir = root / "images"
+            output_dir = root / "output"
+            image_dir.mkdir()
+            for page in range(1, 4):
+                script.Image.new("L", (120, 80)).save(image_dir / f"page-{page:04d}.png")
+
+            def fake_yaltai(command: list[str], *_args) -> None:
+                for index, argument in enumerate(command):
+                    if argument != "-i":
+                        continue
+                    if Path(command[index + 1]).name == "page-0001.png":
+                        raise script.subprocess.CalledProcessError(1, command)
+                    Path(command[index + 2]).write_text("<alto/>", encoding="utf-8")
+
+            with patch.dict(os.environ, {"SLURM_CPUS_PER_TASK": "1"}, clear=True):
+                with patch.object(script, "run", side_effect=fake_yaltai) as run:
+                    script.model_segment(image_dir, output_dir, Path("/models/model.pt"))
+
+            self.assertEqual(run.call_count, 2)
+            placeholder = script.etree.parse(str(output_dir / "page-0001.xml"))
+            self.assertEqual(script.xpath(placeholder, "//*[local-name()='TextBlock']"), [])
+            self.assertTrue(all((output_dir / f"page-{page:04d}.xml").exists() for page in (2, 3)))
+
 
 if __name__ == "__main__":
     unittest.main()
