@@ -4,13 +4,13 @@
 
 > Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - Line detect done.
 
-> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job running [LARGE FILE].
+> Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE].
 
 > Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job done. Need to train to improve. [LARGE FILE]
 
 > Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg done. Might need train to improve, i.e page 83.
 
-> Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Seg job running.
+> Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Seg job running (kept failing on OOM).
 
 > Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - Seg job done. Need to train to improve. i.e page 45.
 
