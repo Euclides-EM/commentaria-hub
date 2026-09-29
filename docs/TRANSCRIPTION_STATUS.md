@@ -1,8 +1,8 @@
 # OCR Pipeline Queue
 
-> London_1570 - https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8 - Line detect done.
+> London_1570 - https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8 - OCR running.
 
-> Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - Line detect done.
+> Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - OCR running.
 
 > Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE].
 
@@ -16,7 +16,7 @@
 
 > Rome_1589_vol1 - https://euclides.huma-num.fr/hub/?datasetId=ds_737a7n - Seg done. Need to train to improve.
 
-> Rome_1589_vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6 - Seg done. Needs review.
+> Rome_1589_vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6 - Seg done. Need to train to improve. - very similar issues to Rome_1589_vol1
 
 # Run LLM Corrector
 
