@@ -2,8 +2,6 @@
 
 > London_1570 - https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8 - OCR running.
 
-> Lyon_1672 - https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq - OCR running.
-
 > Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE].
 
 > Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job done. Need to train to improve. [LARGE FILE]
@@ -24,7 +22,11 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_uwclpr&annotationId=ann_mz29ot
 
-*Status*: LLM corrector running.
+*Status*: LLM corrector running. Done 130/252.
+
+## Lyon_1672
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq&annotationId=ann_57z69k
 
 # Alignment
 
