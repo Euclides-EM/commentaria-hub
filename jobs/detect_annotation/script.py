@@ -15,6 +15,7 @@ import uuid
 import zipfile
 from concurrent.futures import FIRST_EXCEPTION, ThreadPoolExecutor, wait
 from pathlib import Path
+from typing import Callable
 
 from lxml import etree
 from PIL import Image, ImageDraw
@@ -55,7 +56,27 @@ _procs_lock = threading.Lock()
 _procs: set[subprocess.Popen] = set()
 
 
-def run(cmd: list[str]) -> None:
+class StalledError(RuntimeError):
+    pass
+
+
+def wait_with_watchdog(proc: subprocess.Popen, progress: Callable[[], int], stall_timeout: float) -> int:
+    last_progress = progress()
+    last_change = time.monotonic()
+    while True:
+        try:
+            return proc.wait(timeout=min(10.0, stall_timeout))
+        except subprocess.TimeoutExpired:
+            current = progress()
+            if current != last_progress:
+                last_progress, last_change = current, time.monotonic()
+            elif time.monotonic() - last_change >= stall_timeout:
+                proc.kill()
+                proc.wait()
+                raise StalledError(f"no progress for {stall_timeout:.0f}s")
+
+
+def run(cmd: list[str], progress: Callable[[], int] | None = None, stall_timeout: float = 0) -> None:
     log("+ " + " ".join(shlex.quote(x) for x in cmd))
     with _procs_lock:
         if _abort.is_set():
@@ -63,7 +84,10 @@ def run(cmd: list[str]) -> None:
         proc = subprocess.Popen(cmd)
         _procs.add(proc)
     try:
-        returncode = proc.wait()
+        if progress is not None and stall_timeout > 0:
+            returncode = wait_with_watchdog(proc, progress, stall_timeout)
+        else:
+            returncode = proc.wait()
     finally:
         with _procs_lock:
             _procs.discard(proc)
@@ -103,6 +127,23 @@ def write_xml_atomic(tree: etree._ElementTree, path: Path) -> None:
         tmp_path.replace(path)
     finally:
         tmp_path.unlink(missing_ok=True)
+
+
+def write_empty_alto(img_path: Path, path: Path) -> None:
+    namespace = "http://www.loc.gov/standards/alto/ns-v4#"
+    tag = lambda name: f"{{{namespace}}}{name}"
+    with Image.open(img_path) as img:
+        width, height = img.size
+    root = etree.Element(tag("alto"), nsmap={None: namespace})
+    description = etree.SubElement(root, tag("Description"))
+    etree.SubElement(description, tag("MeasurementUnit")).text = "pixel"
+    source = etree.SubElement(description, tag("sourceImageInformation"))
+    etree.SubElement(source, tag("fileName")).text = img_path.name
+    etree.SubElement(root, tag("Tags"))
+    layout = etree.SubElement(root, tag("Layout"))
+    page = etree.SubElement(layout, tag("Page"), WIDTH=str(width), HEIGHT=str(height), ID="eSc_dummypage_")
+    etree.SubElement(page, tag("PrintSpace"), HPOS="0", VPOS="0", WIDTH=str(width), HEIGHT=str(height))
+    write_xml_atomic(etree.ElementTree(root), path)
 
 
 def valid_xml(path: Path) -> bool:
@@ -548,13 +589,45 @@ def model_segment(image_dir: Path, output_dir: Path, model_path: Path) -> None:
     workers = worker_count(len(images))
     if not workers:
         return
+    page_timeout = float(env("PAGE_TIMEOUT_SECONDS", "900"))
+    max_skipped = int(env("MAX_SKIPPED_PAGES", "5"))
+    skipped: list[str] = []
+    skipped_lock = threading.Lock()
 
     def process_shard(worker_images: list[Path]) -> None:
-        pairs: list[str] = []
-        for img in worker_images:
-            pairs.extend(["-i", str(img), str(output_dir / f"{img.stem}.xml")])
-        run(["yaltai", "kraken", "--alto", "--raise-on-error", "-d", "cuda:0", *pairs, "segment", "--yolo", str(model_path)])
-        for img in worker_images:
+        remaining = list(worker_images)
+        while remaining:
+            pairs: list[str] = []
+            for img in remaining:
+                pairs.extend(["-i", str(img), str(output_dir / f"{img.stem}.xml")])
+            batch = list(remaining)
+            progress = lambda: sum((output_dir / f"{img.stem}.xml").exists() for img in batch)
+            try:
+                run(
+                    ["yaltai", "kraken", "--alto", "--raise-on-error", "-d", "cuda:0", *pairs, "segment", "--yolo", str(model_path)],
+                    progress,
+                    page_timeout,
+                )
+                break
+            except (StalledError, subprocess.CalledProcessError) as exc:
+                if _abort.is_set():
+                    raise
+                if isinstance(exc, subprocess.CalledProcessError) and exc.returncode >= 0:
+                    raise
+                pending = [img for img in batch if not valid_xml(output_dir / f"{img.stem}.xml")]
+                if not pending:
+                    raise
+                bad = pending[0]
+                write_empty_alto(bad, output_dir / f"{bad.stem}.xml")
+                reason = str(exc) if isinstance(exc, StalledError) else f"killed by signal {-exc.returncode}"
+                with skipped_lock:
+                    skipped.append(bad.name)
+                    too_many = len(skipped) > max_skipped
+                if too_many:
+                    raise RuntimeError(f"Skipped more than {max_skipped} pages: {', '.join(skipped)}") from exc
+                log(f"WARNING: Skipping page {bad.name} ({reason}), writing empty ALTO")
+                remaining = pending[1:]
+        for img in remaining:
             out = output_dir / f"{img.stem}.xml"
             if not out.exists() or out.stat().st_size == 0:
                 raise RuntimeError(f"Segmentation did not produce output for page: {img.name}")
@@ -562,6 +635,8 @@ def model_segment(image_dir: Path, output_dir: Path, model_path: Path) -> None:
     image_shards = shard(images, workers)
     log(f"Segmenting {len(images)} pages with {len(image_shards)} workers")
     run_all(process_shard, image_shards, len(image_shards))
+    if skipped:
+        log(f"WARNING: Skipped {len(skipped)} pages: {', '.join(sorted(skipped))}")
 
 
 def kraken_ocr_command(pairs: list[str], model_path: Path) -> list[str]:
