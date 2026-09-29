@@ -105,6 +105,16 @@ def write_xml_atomic(tree: etree._ElementTree, path: Path) -> None:
         tmp_path.unlink(missing_ok=True)
 
 
+def valid_xml(path: Path) -> bool:
+    if not path.exists() or path.stat().st_size == 0:
+        return False
+    try:
+        etree.parse(str(path))
+    except etree.XMLSyntaxError:
+        return False
+    return True
+
+
 def xpath(el: etree._ElementTree | etree._Element, expr: str) -> list[etree._Element]:
     return el.xpath(expr)
 
@@ -531,7 +541,10 @@ def detect_lines(image_dir: Path, alto_dir: Path, output_dir: Path, artifacts_di
 
 def model_segment(image_dir: Path, output_dir: Path, model_path: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
-    images = sorted(image_dir.glob("*.png"))
+    all_images = sorted(image_dir.glob("*.png"))
+    images = [img for img in all_images if not valid_xml(output_dir / f"{img.stem}.xml")]
+    if len(images) < len(all_images):
+        log(f"Skipping {len(all_images) - len(images)} already segmented pages")
     workers = worker_count(len(images))
     if not workers:
         return
@@ -579,10 +592,13 @@ def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Pat
             continue
         ocr_paths.append(alto_path)
 
-    workers = worker_count(len(ocr_paths))
+    pending_paths = [p for p in ocr_paths if not valid_xml(Path(str(p) + ".ocr.tmp"))]
+    if len(pending_paths) < len(ocr_paths):
+        log(f"Skipping {len(ocr_paths) - len(pending_paths)} already recognized pages")
+    workers = worker_count(len(pending_paths))
     if workers:
-        ocr_shards = shard(ocr_paths, workers)
-        log(f"Recognizing {len(ocr_paths)} pages with {len(ocr_shards)} workers")
+        ocr_shards = shard(pending_paths, workers)
+        log(f"Recognizing {len(pending_paths)} pages with {len(ocr_shards)} workers")
 
         def process_shard(worker_paths: list[Path]) -> None:
             pairs: list[str] = []
@@ -592,19 +608,19 @@ def model_ocr(image_dir: Path, alto_dir: Path, output_dir: Path, model_path: Pat
 
         run_all(process_shard, ocr_shards, len(ocr_shards))
 
-        for final_path in ocr_paths:
-            tmp = Path(str(final_path) + ".ocr.tmp")
-            if not tmp.exists():
-                raise RuntimeError(f"Kraken did not produce OCR output: {tmp.name}")
-            if tmp.stat().st_size == 0:
-                raise RuntimeError(f"Kraken produced an empty OCR output: {tmp.name}")
-            tree = etree.parse(str(tmp))
-            file_names = xpath(tree, "//*[local-name()='fileName']")
-            if file_names:
-                file_names[0].text = f"{final_path.stem}.png"
-            write_xml_atomic(tree, tmp)
-        for final_path in ocr_paths:
-            Path(str(final_path) + ".ocr.tmp").replace(final_path)
+    for final_path in ocr_paths:
+        tmp = Path(str(final_path) + ".ocr.tmp")
+        if not tmp.exists():
+            raise RuntimeError(f"Kraken did not produce OCR output: {tmp.name}")
+        if tmp.stat().st_size == 0:
+            raise RuntimeError(f"Kraken produced an empty OCR output: {tmp.name}")
+        tree = etree.parse(str(tmp))
+        file_names = xpath(tree, "//*[local-name()='fileName']")
+        if file_names:
+            file_names[0].text = f"{final_path.stem}.png"
+        write_xml_atomic(tree, tmp)
+    for final_path in ocr_paths:
+        Path(str(final_path) + ".ocr.tmp").replace(final_path)
 
 
 def main() -> int:
