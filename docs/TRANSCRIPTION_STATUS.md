@@ -6,7 +6,7 @@
 
 > Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg done. Might need train to improve, i.e page 83.
 
-> Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Seg job running (kept failing on OOM).
+> Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Some pages failed to seg. Line detect running.
 
 > Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - Seg job done. Need to train to improve. i.e page 45.
 
