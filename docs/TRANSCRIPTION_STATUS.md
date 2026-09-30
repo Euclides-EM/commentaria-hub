@@ -16,12 +16,6 @@
 
 # Run LLM Corrector
 
-## Seville_1576
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_uwclpr&annotationId=ann_mz29ot
-
-*Status*: LLM corrector running. Done 228/252.
-
 ## Lyon_1672
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq&annotationId=ann_57z69k
@@ -33,6 +27,21 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 # Alignment
 
 # Manual Curation
+
+## Seville_1576
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_uwclpr&annotationId=ann_mz29ot
+
+Done with Fable.
+
+- **Requests:** 252
+- **Input tokens:** 1,042
+- **Cached tokens:** 5,261,731
+- **Cache creation tokens:** 2,661,667
+- **Output tokens:** 495,351
+- **Reasoning tokens:** 0
+- **Total tokens:** 8,419,791
+- **Cost:** $83.87
 
 ## Paris_1667
 
