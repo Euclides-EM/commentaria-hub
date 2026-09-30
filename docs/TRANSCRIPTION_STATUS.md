@@ -1,16 +1,16 @@
 # OCR Pipeline Queue
 
-> Lyon_1603 (OR Arnhem_1603)
+> Lyon_1603 - https://euclides.huma-num.fr/hub/?datasetId=ds_69jfii
 
-> Arnhem_1605
+> Arnhem_1605 - https://euclides.huma-num.fr/hub/?datasetId=ds_m5e9rr
 
-> Arnhem_1605a
+> Arnhem_1605a - https://euclides.huma-num.fr/hub/?datasetId=ds_d10ys7
 
-> Paris_1693
+> Paris_1693 - https://euclides.huma-num.fr/hub/?datasetId=ds_mi34kk
 
-> Oxford_1703
+> Oxford_1703 - https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn
 
-> Edinburgh_1795
+> Edinburgh_1795 - https://euclides.huma-num.fr/hub/?datasetId=ds_4sklu9
 
 # Train to improve segmentation
 
