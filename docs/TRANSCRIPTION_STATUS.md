@@ -32,21 +32,43 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1&annotationId=ann_uomk97
 
-## Lyon_1672
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq&annotationId=ann_57z69k
-
-*Status* - Fable running. Done 442/449
+*Status* - Fable running. Done 0/544
 
 ## London_1570
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 
-*Status* - Fable running. Done 191/1098
-
-# Alignment
+*Status* - Fable running. Done 268/1098
 
 # Manual Curation
+
+## Lyon_1672
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq&annotationId=ann_57z69k
+
+Claude Code — Fable usage:
+
+- **Requests:** 341
+- **Input tokens:** 1,372
+- **Cached tokens:** 6,868,477
+- **Cache creation tokens:** 2,756,888
+- **Output tokens:** 258,491
+- **Reasoning tokens:** 0
+- **Total tokens:** 9,885,228
+- **Cost:** $75.53
+
+Codex — GPT-5.6 Sol usage:
+
+- **Requests:** 108
+- **Input tokens:** 2,562,295
+- **Cached tokens:** 1,486,848
+- **Cache creation tokens:** 0
+- **Output tokens:** 135,186
+- **Reasoning tokens:** 0
+- **Total tokens:** 2,697,481
+
+
+**Next steps:** Manually curate the transcriptions.
 
 ## Seville_1576
 
@@ -62,6 +84,8 @@ Done with Fable.
 - **Reasoning tokens:** 0
 - **Total tokens:** 8,419,791
 - **Cost:** $83.87
+
+**Next steps:** Manually curate the transcriptions.
 
 ## Paris_1667
 
