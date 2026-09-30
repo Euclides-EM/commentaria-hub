@@ -20,9 +20,13 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq&annotationId=ann_57z69k
 
+*Status* - Fable running.
+
 ## London_1570
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
+
+*Status* - Fable running.
 
 # Alignment
 
