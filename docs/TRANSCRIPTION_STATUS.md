@@ -1,12 +1,14 @@
 # OCR Pipeline Queue
 
+> Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Some pages failed to seg. Ready for OCR
+
+# Train to improve segmentation
+
 > Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE].
 
 > Venice_1543 - https://euclides.huma-num.fr/hub/?datasetId=ds_nbbyj6 - Seg job done. Need to train to improve. [LARGE FILE]
 
 > Basel_1550 - https://euclides.huma-num.fr/hub/?datasetId=ds_wu29cj - Seg done. Might need train to improve, i.e page 83.
-
-> Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Some pages failed to seg. Line detect running.
 
 > Cambridge_1655 - https://euclides.huma-num.fr/hub/?datasetId=ds_x86ksn - Seg job done. Need to train to improve. i.e page 45.
 
@@ -20,13 +22,13 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq&annotationId=ann_57z69k
 
-*Status* - Fable running.
+*Status* - Fable running. Done 196/449
 
 ## London_1570
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 
-*Status* - Fable running.
+*Status* - Fable running. Done 72/1098
 
 # Alignment
 
