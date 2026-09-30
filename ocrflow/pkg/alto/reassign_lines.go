@@ -19,15 +19,14 @@ func ReassignTextLinesByTolerance(a *Alto, fromCat, toCat string, precisionPx fl
 	if minOverlap <= 0 || minOverlap > 1 {
 		return 0, fmt.Errorf("minOverlap must be in (0, 1], got %v", minOverlap)
 	}
-
-	// Resolve label -> ID if needed (and allow already-provided IDs).
-	fromID, err := resolveTagID(a, fromCat)
-	if err != nil {
-		return 0, fmt.Errorf("fromCat: %w", err)
+	if a == nil {
+		return 0, nil
 	}
-	toID, err := resolveTagID(a, toCat)
-	if err != nil {
-		return 0, fmt.Errorf("toCat: %w", err)
+
+	fromID, fromFound := tagIDIfPresent(a, fromCat)
+	toID, toFound := tagIDIfPresent(a, toCat)
+	if !fromFound || !toFound {
+		return 0, nil
 	}
 
 	type blockRef struct {
@@ -119,6 +118,20 @@ func ReassignTextLinesByTolerance(a *Alto, fromCat, toCat string, precisionPx fl
 	}
 
 	return moved, nil
+}
+
+func tagIDIfPresent(a *Alto, category string) (string, bool) {
+	category = strings.TrimSpace(category)
+	if category == "" {
+		return "", false
+	}
+
+	for _, tag := range a.Tags.OtherTags {
+		if strings.TrimSpace(tag.ID) == category || strings.TrimSpace(tag.Label) == category {
+			return tag.ID, true
+		}
+	}
+	return "", false
 }
 
 // resolveTagID accepts either an ID (e.g. "BT224") or a LABEL (e.g. "MainZone") and returns the ID.
