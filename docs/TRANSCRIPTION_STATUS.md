@@ -2,6 +2,18 @@
 
 > Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Some pages failed to seg. Ready for OCR
 
+> Lyon_1603 (OR Arnhem_1603)
+
+> Arnhem_1605
+
+> Arnhem_1605a
+
+> Paris_1693
+
+> Oxford_1703
+
+> Edinburgh_1795
+
 # Train to improve segmentation
 
 > Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE].
