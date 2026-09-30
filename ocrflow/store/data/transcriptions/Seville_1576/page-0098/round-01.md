@@ -1,0 +1,9 @@
+<!-- Running title: LIBRO TERCERO DE -->
+
+¶Sea el circulo. A B C. y enel vna linea recta tirada por el cétro. C D. corte por medio a la linea. A B. no tirada por el centro, enel púcto, Z. Digo q̃ tambié la corta en angulos rectos: Ofrezcaſe o tomeſe el cétro del circulo. A B C. por la.1.del.3, y ſea.E. ypor la.1.petició.tiréſe.E A.E B.y porq̃. A Z. es ygual a la.Z B.y es comũ la.Z E.luego las dos, E Z, Z A ſon yguales a las dos.E Z, Z B.Y la baſis.E A es ygual a la baſis, B E(porla 15.definició del.1.(Luego por la.8.del.1.)el angulo. A Z E. es ygual al angulo.B Z E.Y quádo vna linea recta cayendo ſobre otra linea recta hiziere angulos d̃ vna y otra parte entre ſi yguales(por la.10,definició del.1. ) cada vno delos miſmos angulos ſera recto.Luego cada vno de los dos. A Z E.B Z E. es recto. Luego. C D. eſtendida por el centro cortádo a la . A B. no eſtendida por el centro , por medio, corta la tábien é angulos rectos.Pero corte la.C D. a la A B. en angulosrectos. Digo q̃ tambien la corta por medio, eſto es, que. A Z es ygual a la, Z B . porq̃ diſpueſtas las miſmas coſas y fabricadasdela miſma manerapor que es ygual.E A, ala, E B(por la.15.d̃l.1.)ſera ygual el angulo E A Z, al alguno.E B Z.Y el angulo. A Z E recto esygual(por la.4,peticion, al angulo recto. B Z E.Luego ſon dos triangulos.E A Z, E B Z, que tiené los dos angulos yguales a los dos angulos, y el vn lado ygual al vn lado que es .E Z , es a ſaber que ſiendo comun(por la.26.del.1)ſe oppone en ellos a vno de los yguales angulos.Luego tambien los de mas lados ten dran yguales a los de mas lados.Luego ygual es. A Z.a la.Z B Luego ſi vna linea recta, y lo de mas que ſe ſigue como en el theorema, lo qual conuino demoſtrarſe.
+
+[Figure: circle with C at top, D at bottom, A at left and B at right; E at the centre of a vertical line C D crossing the chord A B at Z, with lines from E to A and B]
+
+## Theorema. 3. Propoſicion.4.
+
+<!-- Catchword: Si en -->

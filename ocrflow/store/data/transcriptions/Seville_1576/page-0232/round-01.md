@@ -1,0 +1,9 @@
+<!-- Running title: LIBRO SEXTO DE -->
+
+¶Hazer vn ſemejante a vn rectilineo dado, y ygual a otro dado
+
+Sea el rectilineo dado, al qual conuiene hazer otro ſemejante. A B C. y aquien es meneſter hazerle ygual, ſea, D, conuiene hazer vn ſemejãte al miſmo. A B C. y ygual al miſmo. D (por la.44, del, 1,) hagaſe ſobre la, B C, el parallelogrãmo. B E ygual al triangulo. A B C, y ſobre la. C E. el parallelogrãmo. C M. ygual al parallelogrãmo. D, enel angulo. Z C E. que es ygual al angulo. L E C, luego (por la.14, del, 1) la, B C, eſta en la linea recta con, C Z, y la, L E, con la, E M, Y tome ſe (por la, 13, del.6,) la, I T. media proporcional de las dos, B C, Z C, y deſcribaſe (por la, 18, del, 6,) dela, I T, vn ſemejante al miſmo, A B C, y ſemejantemẽte pueſto K I T, y porque es q̃ como B C, con, I T, aſſi, I T, con C Z. y ſi fueren tres lineas rectas proporcionales, como ſe ha la primera con la tercera aſſi la figura que ſe haze de la.1, con la figura que ſe haze dela ſegunda ſemejante y ſemejantemente deſcripta, Luego (por el corelario, 2, dela, 20, del, 6,) como la, B C, con la, C Z, aſſi el triangulo, A B C, con el triangulo, K I T. Pero como la, B C, con la, C Z. aſſi el parallelogrãmo, B E, cõ el parallelogrãmo E Z, luego tãbien (por la.1, del, 6) como el triangulo, A B C, cõ el triangulo, K I T, aſſi el parallelogrãmo, B E, cõ el parallelo gramo, E Z, luego traſtrocãdo (por la, 16. del, 5, q̃ como el triangulo, A B C, cõ el parallelogrãmo, B E, aſſi el triangulo, K I T, con el parallelogramo, E Z, y es ygual el triangulo, A B C. al parallelogrãmo, B E, luego el triangulo, K I T, es ygual al parallelogrammo, E Z, Pero el parallelogrammo, E Z, es ygual al miſmo, D, luego tambien, K I T, es ygual al miſ-
+
+[Diagram: triangle A B C above a rectangle divided into parallelograms with labels Z, C, B, M, E; below, a triangle labelled K, I, T and a small rectangle labelled D]
+
+<!-- Catchword: mo, -->

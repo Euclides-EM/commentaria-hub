@@ -1,0 +1,9 @@
+<!-- Running title: LIBRO SEXTO DE -->
+
+cõ el triãgulo.B M C.aſsi.A E B.con.C B E.y aſsi como.A MB con.B M C aſsi.A M.con,M C,luego,por la.11.del.5.comola A M.con la.M C.aſsi el triangulo.A B E.con el triangulo.E B C.y por tanto como.Z N cõ.N T.aſsi el triangulo.Z I L,con el triangulo.I L T.luego es que como ſe ha la.A M.con la.M C.aſsi.Z N.con.N T.luego tãbiẽ,por la.11.del.5.como el triãgulo.A B E.con el triãgulo.B E C.aſsi el triãgulo.Z I L.cõ el triãgulo.I L T.y al traſtrocado,por la.16.del.5.como el triãgulo.A B E.con el triangulo.Z I L.aſsi el triangulo.B E C.cõ el triangulo.I L T.Tambien demoſtraremos dela miſma manera,tiradas.B D.I K.que tambien como el triangulo.E B C. con el triangulo.L I T.aſsi el triangulo.E C D.con el triangulo,L T K.Y porque es que como ſe ha el triangulo.A B E, con el triangulo,Z I L.aſsi el triangulo.E B C.con el triangulo.L I T.y tambien el triangulo,E C D.con el triangulo.L T K luego tambiẽ,por la:12.del quinto,como vnodelos antecedentes a vno delos conſiguientes,aſsi todos los antecedentes a todos los conſiguientes,luego como ſe ha el triangulo A.B E.con el triangulo.Z I L.aſsi el poligono.A BC D E.con el poligono.Z I T K L.Pero el triangulo,A B E. al triangulo Z I L.tiene doblada razon,que.A B.lado deſemejante razon a Z I,lado de ſemejante razon,porque los triangulos ſemejãtes eſtan en doblada razon,delos lados de ſemejante razon por la.19.del.6.luegotãbien el poligono.A B C D E.tiene doblada razon al poligono.Z I T K L.que la.A B.lado de ſemejante razon a la,Z I. lado de ſemejante razon,Luego ſemejãtes poligonos ſe diuiden en ſemejantes triangulos,yyguales en numero,y en ſemejante razon con los todos, y el poligono al poligono tiene doblada razon que el lado de ſemejãte razõ al lado de ſemejãte razõ,lo qual cõuenia demoſtrar ſe.
+
+## Primer corelario.
+
+Por tanto vniuerſalmente es manifieſto q̃ las figuras ſemejantes rectilineas entre ſi eſtã en
+
+<!-- Catchword: du- -->
