@@ -143,4 +143,3 @@ func TestEditionCSVUpsertShelfmarkClearsImages(t *testing.T) {
 		t.Fatalf("FrontispieceImg = %q, want empty", ed.Shelfmarks[0].FrontispieceImg)
 	}
 }
-

@@ -25,9 +25,9 @@ func RecategorizeByAlignment(a *Alto, originalCategory, targetCategory, relative
 		tolerancePx = 0
 	}
 
-	targetID, err := resolveTagID(a, targetCategory)
-	if err != nil {
-		return err
+	targetID, targetFound := tagIDIfPresent(a, targetCategory)
+	if !targetFound {
+		return nil
 	}
 	originalIDs := labelToIDSet(a, originalCategory)
 	relativeIDs := labelToIDSet(a, relativeCategory)
