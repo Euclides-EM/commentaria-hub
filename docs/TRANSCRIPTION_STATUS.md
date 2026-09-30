@@ -1,7 +1,5 @@
 # OCR Pipeline Queue
 
-> Pesaro_1572 - https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1 - Some pages failed to seg. Ready for OCR
-
 > Lyon_1603 (OR Arnhem_1603)
 
 > Arnhem_1605
@@ -30,17 +28,21 @@
 
 # Run LLM Corrector
 
+## Pesaro_1572
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1&annotationId=ann_uomk97
+
 ## Lyon_1672
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_71gygq&annotationId=ann_57z69k
 
-*Status* - Fable running. Done 196/449
+*Status* - Fable running. Done 442/449
 
 ## London_1570
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 
-*Status* - Fable running. Done 72/1098
+*Status* - Fable running. Done 191/1098
 
 # Alignment
 
