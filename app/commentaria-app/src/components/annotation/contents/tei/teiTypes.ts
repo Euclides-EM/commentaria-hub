@@ -152,6 +152,7 @@ export type ParagraphTextWithAnchors = {
   lineRanges: ParagraphLineRange[]
   blockType?: string
   blockSubtype?: string
+  blockLevel?: string
   table?: ParagraphTable
 }
 

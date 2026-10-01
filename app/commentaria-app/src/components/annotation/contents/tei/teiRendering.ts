@@ -12,6 +12,7 @@ import {
   toUniqueSorted,
 } from './teiDom.ts'
 import { getTeiHighlightSpans, isVerbCategory } from './teiHighlights.ts'
+import { startCase } from 'lodash'
 import type {
   LineMatchMode,
   LineTextWithAnchors,
@@ -490,6 +491,7 @@ export const renderStructuredDivToParagraphs = (
   for (const container of containers) {
     const blockType = getTeiBlockType(container)
     const blockSubtype = getElementAttr(container, 'subtype') || undefined
+    const blockLevel = getElementAttr(container, 'n') || undefined
     const lines = getLineElements(container)
     if (lines.length) {
       const renderedLines = lines.map((line) => {
@@ -528,7 +530,7 @@ export const renderStructuredDivToParagraphs = (
               blockSubtype,
             )
       for (const block of blocks) {
-        paragraphs.push(block)
+        paragraphs.push({ ...block, blockLevel })
       }
       continue
     }
@@ -554,6 +556,7 @@ export const renderStructuredDivToParagraphs = (
           : [],
       blockType,
       blockSubtype,
+      blockLevel,
     })
   }
 
@@ -834,7 +837,11 @@ const renderParagraphElement = (
   return `<table${attrs} data-tei-table="true"><tbody>${rows}</tbody></table>`
 }
 
-const getBlockTypeAttrs = (blockType?: string, blockSubtype?: string) => {
+const getBlockTypeAttrs = (
+  blockType?: string,
+  blockSubtype?: string,
+  blockLevel?: string,
+) => {
   if (!blockType) {
     return ''
   }
@@ -842,7 +849,10 @@ const getBlockTypeAttrs = (blockType?: string, blockSubtype?: string) => {
   let attrs = ` data-tei-block-type="${escapeHtmlAttr(blockType)}"`
   if (blockSubtype) {
     attrs += ` data-tei-block-subtype="${escapeHtmlAttr(blockSubtype)}"`
-    attrs += ` data-tei-block-subtype-label="${escapeHtmlAttr(blockSubtype.replaceAll('_', ' '))}"`
+    attrs += ` data-tei-block-subtype-label="${escapeHtmlAttr(startCase(blockSubtype))}"`
+  }
+  if (blockLevel) {
+    attrs += ` data-tei-block-level="${escapeHtmlAttr(blockLevel)}"`
   }
   const otherPrefix = 'other:'
   if (blockType.startsWith(otherPrefix)) {
@@ -865,7 +875,11 @@ export const renderStructuredDiv = (
         [],
         index,
         !!opts.showCertaintyVisualization,
-        getBlockTypeAttrs(paragraph.blockType, paragraph.blockSubtype),
+        getBlockTypeAttrs(
+          paragraph.blockType,
+          paragraph.blockSubtype,
+          paragraph.blockLevel,
+        ),
       )
     })
     .join('')
@@ -1037,6 +1051,7 @@ export const renderOriginalView = (
     const blockTypeAttrs = getBlockTypeAttrs(
       paragraph.blockType,
       paragraph.blockSubtype,
+      paragraph.blockLevel,
     )
     return renderParagraphElement(
       paragraph,

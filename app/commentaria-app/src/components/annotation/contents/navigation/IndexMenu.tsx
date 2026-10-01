@@ -3,10 +3,11 @@ import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'
 import type { annotation_IndexNode } from '@hub-api'
 import { useAppState } from '../../../../context/useAppState.ts'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { SearchInput } from '../../../core/SearchInput.tsx'
 import type { PageOrKey } from '../../../../context/AppStateContext.ts'
+import { startCase } from 'lodash'
 
 const getPageNumber = (page: string | undefined): number | undefined => {
   if (!page) return undefined
@@ -79,6 +80,24 @@ const getNextSiblingPage = (
   return undefined
 }
 
+const getActivePathKeys = (
+  nodes: NavigationIndexNode[],
+  currentPage: number,
+): string[] => {
+  const activeIndex = nodes.findIndex((node, index) => {
+    const nodePage = getPageNumber(node.location?.page)
+    if (nodePage === undefined || currentPage < nodePage) return false
+    const nextSiblingPage = getNextSiblingPage(nodes, index, nodePage)
+    return nextSiblingPage === undefined || currentPage < nextSiblingPage
+  })
+  const activeNode = nodes[activeIndex]
+  if (!activeNode?.children?.length) return []
+  return [
+    activeNode.navigationKey,
+    ...getActivePathKeys(activeNode.children, currentPage),
+  ]
+}
+
 const Node = ({
   node,
   jumpToPage,
@@ -135,8 +154,8 @@ const Node = ({
           className="flex-1 text-left cursor-pointer"
         >
           {isCurated && (
-            <span className="mr-1.5 rounded border border-violet-300 bg-violet-50 px-1 py-0.5 text-[0.6rem] font-semibold uppercase tracking-wide text-violet-700">
-              Curated{node.type ? ` · ${node.type}` : ''}
+            <span className="mr-1.5 rounded border border-violet-300 bg-violet-50 px-1 py-0.5 text-[0.6rem] font-semibold tracking-wide text-violet-700">
+              {startCase(node.type || 'default')}
             </span>
           )}
           <span className={isCurated ? 'text-violet-950' : undefined}>
@@ -218,6 +237,20 @@ export function IndexMenu({
         .filter((node): node is NavigationIndexNode => node !== null),
     [navigationNodes, normalizedSearchTerm],
   )
+  const currentPage = disableHighlight
+    ? -1
+    : Number(state.currentPageOrKey) || 0
+
+  useEffect(() => {
+    if (currentPage <= 0) return
+    const activePathKeys = getActivePathKeys(navigationNodes, currentPage)
+    if (activePathKeys.length === 0) return
+    setExpandedNodeKeys((current) => {
+      if (activePathKeys.every((key) => current.has(key))) return current
+      return new Set([...current, ...activePathKeys])
+    })
+  }, [currentPage, navigationNodes])
+
   const allExpanded =
     expandableNodeKeys.length > 0 &&
     expandableNodeKeys.every((key) => expandedNodeKeys.has(key))
@@ -236,31 +269,33 @@ export function IndexMenu({
 
   return (
     <div className="flex flex-col min-h-0 h-full">
-      <fieldset className="mx-3 mb-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-600">
-        <legend className="mr-1 font-medium">Index layers</legend>
-        {(annotationIndex?.available_types ?? ['default']).map((indexType) => (
-          <label
-            className="flex cursor-pointer items-center gap-1.5"
-            key={indexType}
-          >
-            <input
-              type="checkbox"
-              checked={indexTypes.includes(indexType)}
-              onChange={(event) => {
-                if (event.target.checked) {
-                  setIndexTypes([...new Set([...indexTypes, indexType])])
-                } else if (indexTypes.length > 1) {
-                  setIndexTypes(
-                    indexTypes.filter((value) => value !== indexType),
-                  )
-                }
-              }}
-              className="accent-violet-600"
-            />
-            {indexType.replaceAll('_', ' ')}
-          </label>
-        ))}
-      </fieldset>
+      {(annotationIndex?.available_types?.length ?? 0) > 1 && (
+        <fieldset className="mx-3 mb-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-600">
+          <span className="mr-1 font-medium">Index layers</span>
+          {annotationIndex?.available_types?.map((indexType) => (
+            <label
+              className="flex cursor-pointer items-center gap-1.5"
+              key={indexType}
+            >
+              <input
+                type="checkbox"
+                checked={indexTypes.includes(indexType)}
+                onChange={(event) => {
+                  if (event.target.checked) {
+                    setIndexTypes([...new Set([...indexTypes, indexType])])
+                  } else if (indexTypes.length > 1) {
+                    setIndexTypes(
+                      indexTypes.filter((value) => value !== indexType),
+                    )
+                  }
+                }}
+                className="accent-violet-600"
+              />
+              {startCase(indexType)}
+            </label>
+          ))}
+        </fieldset>
+      )}
       {isLoading ? (
         <LoadingSpinner size="sm" message="Loading index..." />
       ) : error ? (
@@ -327,11 +362,7 @@ export function IndexMenu({
                     jumpToPage={jumpToPage}
                     key={item.navigationKey}
                     level={0}
-                    currentPage={
-                      disableHighlight
-                        ? -1
-                        : Number(state.currentPageOrKey) || 0
-                    }
+                    currentPage={currentPage}
                     forceExpanded={normalizedSearchTerm.length > 0}
                     expandedNodeKeys={expandedNodeKeys}
                     onExpandedChange={onExpandedChange}
