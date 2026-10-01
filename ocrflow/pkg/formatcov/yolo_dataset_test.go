@@ -139,16 +139,47 @@ func TestValidateYoloImagesAgainstDataset(t *testing.T) {
 		}
 	})
 
-	t.Run("resized export", func(t *testing.T) {
+	t.Run("proportionally resized export", func(t *testing.T) {
 		yoloDir, datasetImageDir := createGeometryValidationFixture(t, 10, 5, 20, 10)
+		if err := ValidateYoloImagesAgainstDataset(yoloDir, datasetImageDir); err != nil {
+			t.Fatalf("proportionally resized YOLO image rejected: %v", err)
+		}
+	})
+
+	t.Run("distorted export", func(t *testing.T) {
+		yoloDir, datasetImageDir := createGeometryValidationFixture(t, 10, 6, 20, 10)
 		err := ValidateYoloImagesAgainstDataset(yoloDir, datasetImageDir)
 		if err == nil {
-			t.Fatal("expected resized YOLO image to be rejected")
+			t.Fatal("expected distorted YOLO image to be rejected")
 		}
-		if !strings.Contains(err.Error(), "geometrically transformed YOLO imports are not supported") {
+		if !strings.Contains(err.Error(), "aspect-ratio-changing YOLO imports are not supported") {
 			t.Fatalf("unexpected error: %v", err)
 		}
 	})
+}
+
+func TestYolo2AltoWithCanonicalImagesRestoresOriginalGeometry(t *testing.T) {
+	t.Parallel()
+
+	yoloDir, datasetImageDir := createGeometryValidationFixture(t, 10, 5, 20, 10)
+	labelPath := filepath.Join(yoloDir, "labels", "page-0001_png.rf.abc123.txt")
+	if err := os.WriteFile(labelPath, []byte("0 0.5 0.5 0.5 0.4\n"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	altoDir := t.TempDir()
+	if err := Yolo2AltoWithCanonicalImages(yoloDir, altoDir, datasetImageDir); err != nil {
+		t.Fatal(err)
+	}
+	raw, err := os.ReadFile(filepath.Join(altoDir, "page-0001.xml"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	xml := string(raw)
+	for _, want := range []string{`WIDTH="20"`, `HEIGHT="10"`, `HPOS="5" VPOS="3"`, `WIDTH="10" HEIGHT="4"`} {
+		if !strings.Contains(xml, want) {
+			t.Fatalf("restored ALTO does not contain %q:\n%s", want, xml)
+		}
+	}
 }
 
 func createGeometryValidationFixture(t *testing.T, yoloWidth, yoloHeight, datasetWidth, datasetHeight int) (string, string) {

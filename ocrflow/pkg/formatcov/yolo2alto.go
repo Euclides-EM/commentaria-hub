@@ -22,6 +22,17 @@ import (
 var SubDirs = []string{"", "train", "val", "valid", "test"}
 
 func Yolo2Alto(src string, dst string) error {
+	return yolo2AltoWithCanonicalImages(src, dst, "")
+}
+
+// Yolo2AltoWithCanonicalImages converts normalized YOLO coordinates using the
+// original dataset image dimensions. This restores annotations exported from a
+// proportionally downscaled Roboflow upload to the canonical pixel geometry.
+func Yolo2AltoWithCanonicalImages(src string, dst string, canonicalImageDir string) error {
+	return yolo2AltoWithCanonicalImages(src, dst, canonicalImageDir)
+}
+
+func yolo2AltoWithCanonicalImages(src string, dst string, canonicalImageDir string) error {
 	lm, err := LoadYoloLabelmap(src)
 	if err != nil {
 		log.Printf("WARNING: load YOLO labels from dataset root failed, trying split directories: %v", err)
@@ -33,7 +44,7 @@ func Yolo2Alto(src string, dst string) error {
 			continue
 		}
 		log.Println("Found yolo data in", filepath.Join(src, subDir), ", converting to ALTO in", dst)
-		if err := yolo2Alto(filepath.Join(src, subDir), dst, lm); err != nil {
+		if err := yolo2Alto(filepath.Join(src, subDir), dst, lm, canonicalImageDir); err != nil {
 			return err
 		}
 	}
@@ -58,7 +69,7 @@ func LoadYoloLabelmap(src string) ([]string, error) {
 //go:embed templates/alto_template.xml
 var altoTemplate string
 
-func yolo2Alto(src string, dst string, labelmap []string) error {
+func yolo2Alto(src string, dst string, labelmap []string, canonicalImageDir string) error {
 	if len(labelmap) == 0 {
 		var err error
 		labelmap, err = loadLabelmapFromTXTFile(src)
@@ -90,7 +101,7 @@ func yolo2Alto(src string, dst string, labelmap []string) error {
 		if filepath.Base(file) == "labelmap.txt" {
 			continue
 		}
-		if err := convertSingleYoloFile(file, dst, otherTags); err != nil {
+		if err := convertSingleYoloFile(file, dst, otherTags, canonicalImageDir); err != nil {
 			return err
 		}
 	}
@@ -198,7 +209,7 @@ func CutPagePrefix(s string) (string, bool) {
 	return s, false
 }
 
-func convertSingleYoloFile(yoloPath string, dstDir string, otherTags string) error {
+func convertSingleYoloFile(yoloPath string, dstDir string, otherTags string, canonicalImageDir string) error {
 	base := strings.TrimSuffix(filepath.Base(yoloPath), filepath.Ext(yoloPath))
 
 	var outputBase = base
@@ -214,6 +225,16 @@ func convertSingleYoloFile(yoloPath string, dstDir string, otherTags string) err
 	imgWidth, imgHeight, err := imageSize(imgPath)
 	if err != nil {
 		return fmt.Errorf("read image %s: %w", imgPath, err)
+	}
+	if canonicalImageDir != "" {
+		canonicalImagePath, err := findImageByStem(canonicalImageDir, outputBase)
+		if err != nil {
+			return fmt.Errorf("find canonical image for %s: %w", yoloPath, err)
+		}
+		imgWidth, imgHeight, err = imageSize(canonicalImagePath)
+		if err != nil {
+			return fmt.Errorf("read canonical image %s: %w", canonicalImagePath, err)
+		}
 	}
 
 	zones, err := buildTextBlocksFromYolo(yoloPath, imgWidth, imgHeight)

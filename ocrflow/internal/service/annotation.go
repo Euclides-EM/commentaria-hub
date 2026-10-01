@@ -364,7 +364,7 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 		if err := formatcov.ValidateYoloImagesAgainstDataset(yoloImportDir, a.fileSysMgt.DatasetImagesDir(ds)); err != nil {
 			return nil, fmt.Errorf("validate uploaded YOLO images against dataset: %w", err)
 		}
-		if err := formatcov.Yolo2Alto(yoloImportDir, a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
+		if err := formatcov.Yolo2AltoWithCanonicalImages(yoloImportDir, a.fileSysMgt.DatasetAnnotationAltoDir(ann), a.fileSysMgt.DatasetImagesDir(ds)); err != nil {
 			return nil, fmt.Errorf("failed to convert YOLO annotations to ALTO: %w", err)
 		}
 	}

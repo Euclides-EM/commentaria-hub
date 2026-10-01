@@ -2,6 +2,7 @@ package formatcov
 
 import (
 	"fmt"
+	"math"
 	"os"
 	"path/filepath"
 	"strings"
@@ -80,9 +81,9 @@ func ValidateYoloDataset(src string) error {
 }
 
 // ValidateYoloImagesAgainstDataset ensures an imported YOLO bundle describes
-// the same page geometry as the canonical dataset images. Exact dimensions are
-// required because YOLO-to-ALTO writes pixel coordinates that are later used
-// with those canonical images.
+// the same page geometry as the canonical dataset images. Proportional resizing
+// is supported because YOLO coordinates are normalized; geometric distortion is
+// rejected because it cannot be mapped safely back to the canonical image.
 func ValidateYoloImagesAgainstDataset(src string, datasetImageDir string) error {
 	if err := ValidateYoloDataset(src); err != nil {
 		return err
@@ -122,15 +123,26 @@ func ValidateYoloImagesAgainstDataset(src string, datasetImageDir string) error 
 			if err != nil {
 				return fmt.Errorf("read canonical dataset image %s: %w", datasetImagePath, err)
 			}
-			if yoloWidth != datasetWidth || yoloHeight != datasetHeight {
+			if !sameAspectRatio(yoloWidth, yoloHeight, datasetWidth, datasetHeight) {
 				return fmt.Errorf(
-					"YOLO image %s is %dx%d but canonical dataset image %s is %dx%d; geometrically transformed YOLO imports are not supported",
+					"YOLO image %s is %dx%d but canonical dataset image %s is %dx%d; aspect-ratio-changing YOLO imports are not supported",
 					yoloImagePath, yoloWidth, yoloHeight, datasetImagePath, datasetWidth, datasetHeight,
 				)
 			}
 		}
 	}
 	return nil
+}
+
+func sameAspectRatio(widthA, heightA, widthB, heightB int) bool {
+	if widthA <= 0 || heightA <= 0 || widthB <= 0 || heightB <= 0 {
+		return false
+	}
+	left := float64(widthA * heightB)
+	right := float64(heightA * widthB)
+	// Integer rounding during proportional resizing can shift a dimension by a
+	// pixel. A 0.1% tolerance accepts that without accepting real distortion.
+	return math.Abs(left-right)/math.Max(left, right) <= 0.001
 }
 
 func findImageByStem(dir string, stem string) (string, error) {
