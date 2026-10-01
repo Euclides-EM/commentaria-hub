@@ -1,16 +1,6 @@
 # OCR Pipeline Queue
 
-> Lyon_1603 - https://euclides.huma-num.fr/hub/?datasetId=ds_69jfii
-
-> Arnhem_1605 - https://euclides.huma-num.fr/hub/?datasetId=ds_m5e9rr
-
-> Arnhem_1605a - https://euclides.huma-num.fr/hub/?datasetId=ds_d10ys7
-
-> Paris_1693 - https://euclides.huma-num.fr/hub/?datasetId=ds_mi34kk
-
-> Oxford_1703 - https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn
-
-> Edinburgh_1795 - https://euclides.huma-num.fr/hub/?datasetId=ds_4sklu9
+> Oxford_1703 - https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn - Seg job running
 
 # Train to improve segmentation
 
@@ -26,7 +16,19 @@
 
 > Rome_1589_vol2 - https://euclides.huma-num.fr/hub/?datasetId=ds_8e08i6 - Seg done. Need to train to improve. - very similar issues to Rome_1589_vol1
 
+> Arnhem_1605a - https://euclides.huma-num.fr/hub/?datasetId=ds_d10ys7 - Seg done. Need to train to improve, i.e page 114.
+
+> Arnhem_1605 - https://euclides.huma-num.fr/hub/?datasetId=ds_5koq2a -  Seg done. Need to train to improve. - very similar issues to Arnhem_1605a
+
+> Edinburgh_1795 - https://euclides.huma-num.fr/hub/?datasetId=ds_4sklu9 - Seg done. Need to train to improve, i.e page 205.
+
+> Paris_1693 - https://euclides.huma-num.fr/hub/?datasetId=ds_mi34kk - Seg done. Need to train to improve, probably can rely on above trained and no need to slice from it.
+
 # Run LLM Corrector
+
+## Lyon_1603
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_69jfii&annotationId=ann_d0ffde
 
 ## Pesaro_1572
 
