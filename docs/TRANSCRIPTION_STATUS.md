@@ -32,13 +32,13 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1&annotationId=ann_uomk97
 
-*Status* - Fable running. Done 0/544
+*Status* - Fable running. Done 115/544
 
 ## London_1570
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 
-*Status* - Fable running. Done 268/1098
+*Status* - Fable running. Done 280/1098
 
 # Manual Curation
 
