@@ -57,7 +57,6 @@ import {
   matchTeiCategoryToFeature,
   normalizeTeiViewModes,
   removeHighlightFromDrafts,
-  sameStringArray,
   toDraftHighlightsFromResults,
   toFeatureOptions,
   toResultValues,
@@ -192,21 +191,6 @@ export function TeiPane({
     ? storedTeiSource
     : availableSources[0] || preferredTeiSource
 
-  useEffect(() => {
-    if (
-      availableSources.length > 0 &&
-      effectiveTeiSource &&
-      effectiveTeiSource !== storedTeiSource
-    ) {
-      setStoredTeiSource(effectiveTeiSource)
-    }
-  }, [
-    availableSources,
-    effectiveTeiSource,
-    setStoredTeiSource,
-    storedTeiSource,
-  ])
-
   const data =
     effectiveTeiSource === 'edition'
       ? editionTeiQuery.data
@@ -250,20 +234,6 @@ export function TeiPane({
     () => ['original', ...teiAlternatives.map((alternative) => alternative.id)],
     [teiAlternatives],
   )
-
-  useEffect(() => {
-    if (teiContents == null) {
-      return
-    }
-    const next = normalizeTeiViewModes(teiViewModes, availableViewModes)
-    if (
-      next.length === teiViewModes.length &&
-      next.every((mode, index) => mode === teiViewModes[index])
-    ) {
-      return
-    }
-    setTeiViewModes(next)
-  }, [availableViewModes, setTeiViewModes, teiContents, teiViewModes])
 
   const orderedSelectedViewModes = useMemo(() => {
     const selected = new Set(
@@ -466,24 +436,6 @@ export function TeiPane({
 
     return filtered
   }, [allResolvedFeatures, storedVisibleFeatureIds])
-
-  useEffect(() => {
-    if (!allResolvedFeatures.length) {
-      if (storedVisibleFeatureIds !== null) {
-        setStoredVisibleFeatureIds(null)
-      }
-      return
-    }
-
-    if (!sameStringArray(storedVisibleFeatureIds, visibleFeatureIds)) {
-      setStoredVisibleFeatureIds(visibleFeatureIds)
-    }
-  }, [
-    allResolvedFeatures,
-    setStoredVisibleFeatureIds,
-    storedVisibleFeatureIds,
-    visibleFeatureIds,
-  ])
 
   const highlightConfig = useMemo<TeiHighlightConfig | undefined>(() => {
     if (!allResolvedFeatures.length) {

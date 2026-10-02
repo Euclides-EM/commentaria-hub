@@ -4,6 +4,7 @@ import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsT
 import { GalleryViewTab } from './annotation/gallery/GalleryViewTab.tsx'
 import { FeatureResultsTab } from './annotation/featureResults/FeatureResultsTab.tsx'
 import { FeatureExecutionsTab } from './annotation/featureExecutions/FeatureExecutionsTab.tsx'
+import { AnnotationCompareTab } from './annotation/compare/AnnotationCompareTab.tsx'
 import { useAppState } from '../context/useAppState'
 import { useQuery } from '@tanstack/react-query'
 import { EditionFeaturesService } from '@hub-api'
@@ -135,10 +136,11 @@ export function Main() {
         )}
       </div>
       <div
-        className={`flex-1 min-h-0 m-3 ${activeTab === 'featureResults' || activeTab === 'gallery' ? 'flex overflow-hidden' : 'overflow-auto'}`}
+        className={`flex-1 min-h-0 m-3 ${activeTab === 'featureResults' || activeTab === 'gallery' || activeTab === 'compare' ? 'flex overflow-hidden' : 'overflow-auto'}`}
       >
         {activeTab === 'details' && <AnnotationDetailsTab />}
         {activeTab === 'text' && <AnnotationContentsTab />}
+        {activeTab === 'compare' && <AnnotationCompareTab />}
         {activeTab === 'gallery' && <GalleryViewTab />}
         {activeTab === 'featureResults' && showFeatureExecutionsTab && (
           <FeatureResultsTab />

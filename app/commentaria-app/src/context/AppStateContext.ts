@@ -16,6 +16,7 @@ export type AnnotationTab =
   | 'gallery'
   | 'featureResults'
   | 'featureExecutions'
+  | 'compare'
 
 export interface AppState {
   viewMode: ViewMode | null
@@ -24,6 +25,9 @@ export interface AppState {
   currentPageOrKey: PageOrKey
   datasetTab: DatasetTab
   annotationTab: AnnotationTab
+  otherDatasetId: string
+  otherAnnotationId: string
+  otherPage: PageOrKey
 }
 
 export interface AppStateContextType {

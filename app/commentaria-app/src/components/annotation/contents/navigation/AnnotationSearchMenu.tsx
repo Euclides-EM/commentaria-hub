@@ -165,24 +165,12 @@ export function AnnotationSearchMenu() {
         ? [selectedSearchWithin]
         : []
 
-    return currentSelection.find((option) =>
-      availableSearchWithinOptions.includes(option),
+    return (
+      currentSelection.find((option) =>
+        availableSearchWithinOptions.includes(option),
+      ) ?? availableSearchWithinOptions[0]
     )
   }, [availableSearchWithinOptions, selectedSearchWithin])
-
-  useEffect(() => {
-    const nextSelection =
-      normalizedSelectedSearchWithin ?? availableSearchWithinOptions[0] ?? null
-
-    if (selectedSearchWithin !== nextSelection) {
-      setSelectedSearchWithin(nextSelection)
-    }
-  }, [
-    availableSearchWithinOptions,
-    normalizedSelectedSearchWithin,
-    selectedSearchWithin,
-    setSelectedSearchWithin,
-  ])
 
   const activeSearchWithin = useMemo(() => {
     return normalizedSelectedSearchWithin

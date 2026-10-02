@@ -102,7 +102,9 @@ export function ImagePane({
     annotation,
     state: { datasetId, currentPageOrKey },
   } = useAppState()
-  const [zoom, setZoom] = useState(DEFAULT_IMAGE_ZOOM)
+  const [zoom, setZoom] = useLocalStorageState('imagePaneZoom', {
+    defaultValue: DEFAULT_IMAGE_ZOOM,
+  })
   const [isReplaceModalOpen, setIsReplaceModalOpen] = useState(false)
   const [replaceError, setReplaceError] = useState<string | null>(null)
   const [imageVersion, setImageVersion] = useState(0)

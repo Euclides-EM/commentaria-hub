@@ -7,6 +7,9 @@ export type AppStateQueryState = {
   currentPageOrKey: string
   datasetTab: string
   annotationTab: string
+  otherDatasetId: string
+  otherAnnotationId: string
+  otherPage: string
 }
 
 const APP_STATE_QUERY_KEYS: Array<keyof AppStateQueryState> = [
@@ -16,6 +19,9 @@ const APP_STATE_QUERY_KEYS: Array<keyof AppStateQueryState> = [
   'currentPageOrKey',
   'datasetTab',
   'annotationTab',
+  'otherDatasetId',
+  'otherAnnotationId',
+  'otherPage',
 ]
 
 export const getNextAppStateQueryState = (
@@ -48,6 +54,21 @@ export const getNextAppStateQueryState = (
   if (updates.annotationTab !== undefined) {
     nextQueryState.annotationTab = updates.annotationTab
   }
+  if (updates.otherDatasetId !== undefined) {
+    nextQueryState.otherDatasetId = updates.otherDatasetId
+    if (updates.otherPage === undefined) {
+      nextQueryState.otherPage = ''
+    }
+  }
+  if (updates.otherAnnotationId !== undefined) {
+    nextQueryState.otherAnnotationId = updates.otherAnnotationId
+    if (updates.otherPage === undefined && updates.otherAnnotationId === '') {
+      nextQueryState.otherPage = ''
+    }
+  }
+  if (updates.otherPage !== undefined) {
+    nextQueryState.otherPage = String(updates.otherPage)
+  }
 
   if (updates.datasetId !== undefined || updates.annotationId !== undefined) {
     nextQueryState.viewMode = ''
@@ -58,6 +79,11 @@ export const getNextAppStateQueryState = (
   }
   if (updates.annotationId === '') {
     nextQueryState.annotationTab = ''
+  }
+  if (nextQueryState.annotationTab !== 'compare') {
+    nextQueryState.otherDatasetId = ''
+    nextQueryState.otherAnnotationId = ''
+    nextQueryState.otherPage = ''
   }
 
   return nextQueryState

@@ -659,6 +659,14 @@ export function AnnotationDetailsPane() {
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white m-3 mb-0">
       <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
         <div>Annotation Details</div>
+        {annotation && !isEditing && (
+          <Button
+            onClick={() => setState({ annotationTab: 'compare' })}
+            className="px-2 py-1 text-xs ml-auto"
+          >
+            Compare to
+          </Button>
+        )}
         {isAuthenticated && annotation && (
           <div className="flex items-center gap-2">
             {isEditing ? (
