@@ -111,6 +111,8 @@ export const isRuleApplied = (
     !!annotation?.applied_rules &&
     annotation.applied_rules.some(
       (rule) =>
+        (suggestedRule.type === 'lines_detect' &&
+          rule.type === 'lines_detect') ||
         (!!suggestedModelType &&
           rule.type === 'model_detect' &&
           (rule as annotationrule_ModelDetect).model_type ===
