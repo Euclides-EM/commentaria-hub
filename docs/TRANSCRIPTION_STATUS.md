@@ -1,6 +1,6 @@
 # OCR Pipeline Queue
 
-> Oxford_1703 - https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn - Seg job running
+> Oxford_1703 - https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn - OCR preparing [LARGE FILE]
 
 # Train to improve segmentation
 
