@@ -26,12 +26,6 @@
 
 # Run LLM Corrector
 
-## Lyon_1603
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_69jfii&annotationId=ann_d0ffde
-
-*Status* - Fable running. Done 64/89
-
 ## Pesaro_1572
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1&annotationId=ann_uomk97
@@ -45,6 +39,24 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 *Status* - Fable running. Done 342/1098
 
 # Manual Curation
+
+## Lyon_1603
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_69jfii&annotationId=ann_d0ffde
+
+### Dataset Usage Summary
+
+Run with Codex:
+
+- **Requests:** 89
+- **Input tokens:** 9,011,177
+- **Cached tokens:** 7,577,856
+- **Cache creation tokens:** 0
+- **Output tokens:** 411,740
+- **Reasoning tokens:** 0
+- **Total tokens:** 9,422,917
+
+**Next steps:** Manually curate the transcriptions.
 
 ## Lyon_1672
 
