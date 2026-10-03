@@ -28,23 +28,37 @@
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
 
-## Lyon_1603
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_69jfii&annotationId=ann_d0ffde
-
 ## Pesaro_1572
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1&annotationId=ann_uomk97
 
-*Status* - Fable running. Done 115/544
+*Status* - Fable running. Done 212/544
 
 ## London_1570
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 
-*Status* - Fable running. Done 280/1098
+*Status* - Fable running. Done 342/1098
 
 # Manual Curation
+
+## Lyon_1603
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_69jfii&annotationId=ann_d0ffde
+
+### Dataset Usage Summary
+
+Run with Codex:
+
+- **Requests:** 89
+- **Input tokens:** 9,011,177
+- **Cached tokens:** 7,577,856
+- **Cache creation tokens:** 0
+- **Output tokens:** 411,740
+- **Reasoning tokens:** 0
+- **Total tokens:** 9,422,917
+
+**Next steps:** Manually curate the transcriptions.
 
 ## Lyon_1672
 
