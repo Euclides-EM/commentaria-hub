@@ -1,11 +1,5 @@
 # OCR Pipeline Queue
 
-## Oxford_1703
-
-OCR for Latin done. Greek preparing
-
-https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
-
 # Train to improve segmentation
 
 > Venice_1505 - https://euclides.huma-num.fr/hub/?datasetId=ds_j4i726 - Seg job done. Need to train to improve. - very similar issues to Venice_1543 [LARGE FILE].
@@ -29,6 +23,14 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
 > Paris_1693 - https://euclides.huma-num.fr/hub/?datasetId=ds_mi34kk - Seg done. Need to train to improve, probably can rely on above trained and no need to slice from it.
 
 # Run LLM Corrector
+
+## Oxford_1703
+
+OCR for Latin:
+https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
+
+OCR for Greek:
+https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_bzfzp2
 
 ## Pesaro_1572
 
