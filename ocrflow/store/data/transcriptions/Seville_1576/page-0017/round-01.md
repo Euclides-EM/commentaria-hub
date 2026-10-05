@@ -1,6 +1,0 @@
-<!-- Page number: fo. 7. -->
-
-gulares,los quales con algunos de los quince de Euclides traduxo en latin SeuerinoBoetio Apollonio Pergeo ſolia ſer llamado diuino por los ocho libros que eſcribio de las ſectiones Conicas,de los quales ſalen tanta diuerſidad de ſubtilezas en los Reloges ſolares , en los inſtrumentos Mathematicos,y principalmente en aquella delicada y admirable inuẽtion de el Aſtrolabio. Y finalmente a nadie podemos juzgar por docto,a nadiepor perito y exercitado en ſu ſcientia o en arte alguna ſi carece del conocimiento de la Geometria baſis y fundamento de todas ellas. Por lo qual ſiendo eſta ſciẽtia tan antigua,neceſaria y noble pcure{printer-error-correction:procure} de comunicar la a todos para que ſe puedan vniuerſalmente aprouechar della en todas las artes y ſcientias. Y no me ha parecido ſacar aora a luz mas de losprimeros ſeys libros por ſer eſtos mas neceſſarios que los otros. Ni he querido poner en ellos cõmentarios,ſcholios,ni additiones(que pudiera) porque el auctor fue en eſto tan ingenioſo que el que quiſiere,con facilidad puede , atendiendo bien a la letra,percebir el ſentido ydemonſtracion de lo que el enſeña. Y aunque eſte
-
-<!-- Signature: B 3 -->
-<!-- Catchword: mi -->

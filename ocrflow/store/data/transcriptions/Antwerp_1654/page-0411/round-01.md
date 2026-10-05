@@ -1,3 +1,0 @@
-[Other type="Stamp"]
-BIBLIOTECA DE FILOSOFIA Y LETRAS MADRID
-[/Other]

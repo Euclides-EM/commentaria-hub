@@ -1,9 +1,0 @@
-<!-- Running title: LIBRO TERCERO DE -->
-
-## mento,es mayor que recto. Y de mas deſto el angulo del mayor ſegmento es mayor que recto:y el angulo del menor ſegmẽto es menor que recto.
-
-¶Sea el circulo.A B C D,y ſu diametro ſea.B C.y el cẽtro ſea E.y tome ſe enel medio circulo vn pũcto como quiera y ſea.D. y tirenſe.B A.A C.A D,D C. Digo que el angulo.B A C. en el medio circulo es recto.Y el angulo enel ſegmento.A B C.mayor que medio circulo, que es A B C.es menor que recto.Pero el angulo en.A D C.ſegmẽto menor que medio circulo,ques A D C.es mayor que recto.Tireſe.A E.y eſtiendaſe.B A.aſta en.Z.y porque.B E.es ygual a la.E A. por ſer del cẽtro aſta la circunferencia,es ygual el angulo.E A B.Por la.5.del.1.al angulo.E B A. Ytem porque es ygual la.A E.a la.E C. es ygual por la miſma)el angulo.C A E.al angulo.A C E. Luego todo el angulo.B A C.es ygual a los dos angulos.A B C.A C B.Y el angulo.Z A C.fuera del triangulo.A B C. es ygual a los dos angulos.A B C.A C B(por la.32.del.1.)Luego el angulo.B A C es ygual al angulo.Z A C.Luego cada vno dellos es recto. Luego eñl medio circulo.B A C.El angulo.B A C.es recto.Y por que los dos angulos.A B C.B A C.del triangulo.A B C.por la 17. del. 1.) ſon menores que dos rectos.Y el angulo.B A C.es recto,luego el angulo.A B C.es menor que recto,y eſta en el ſegmento.A B C.mayor que medio circulo.Y porque el quadrilatero.A B C D.eſta enel circulo,y los angulos opueſtos delos quadrilateros que eſtã en los circulos(por la.22.del.3) ſon yguales a dos rectos. Luego los angulos. A B C. C D A (por la miſma)ſon yguales a dos rectos, y el angulo. A B C
-
-[Diagram: a circle with diameter C E B, center E, point A at the top and D on the left of the circumference, straight lines joining A to B, C, D and E, with B A extended outside the circle to a point Z at the upper left]
-
-<!-- Catchword: es menor -->
