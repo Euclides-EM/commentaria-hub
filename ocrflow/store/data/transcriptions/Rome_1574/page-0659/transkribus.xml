@@ -1,0 +1,306 @@
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-3.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>p659.jpg</fileName>
+    </sourceImageInformation>
+  </Description>
+  <Tags></Tags>
+  <Layout>
+    <Page WIDTH="1372" HEIGHT="2028" ID="page-0659">
+      <PrintSpace HPOS="0" VPOS="0" WIDTH="1372" HEIGHT="2028">
+        <TextBlock ID="r1" TAGREFS="" HPOS="278" VPOS="1545" WIDTH="138" HEIGHT="155">
+          <Shape>
+            <Polygon POINTS="278 1545 278 1700 416 1700 416 1545"></Polygon>
+          </Shape>
+          <TextLine ID="r1l1" HPOS="272" VPOS="1612" WIDTH="149" HEIGHT="47" BASELINE="278 1650 305 1647 333 1646 360 1645 388 1646 416 1648">
+            <Shape>
+              <Polygon POINTS="273 1656 296 1659 304 1650 323 1648 399 1651 421 1658 420 1612 408 1612 390 1622 371 1612 344 1613 322 1627 287 1621 279 1630 272 1629"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="[3. ectaui." HPOS="272" VPOS="1612" WIDTH="149" HEIGHT="47"></String>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="r2" TAGREFS="" HPOS="335" VPOS="656" WIDTH="52" HEIGHT="152">
+          <Shape>
+            <Polygon POINTS="335 656 335 808 387 808 387 656"></Polygon>
+          </Shape>
+          <TextLine ID="r2l1" HPOS="330" VPOS="715" WIDTH="63" HEIGHT="48" BASELINE="335 756 361 758 387 758">
+            <Shape>
+              <Polygon POINTS="330 762 343 762 345 760 348 763 377 763 386 759 393 759 393 738 387 739 367 717 332 715"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="8." HPOS="330" VPOS="715" WIDTH="63" HEIGHT="48"></String>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="r3" TAGREFS="" HPOS="455" VPOS="143" WIDTH="849" HEIGHT="1839">
+          <Shape>
+            <Polygon POINTS="455 143 455 1982 1304 1982 1304 143"></Polygon>
+          </Shape>
+          <TextLine ID="r3l1" HPOS="537" VPOS="114" WIDTH="664" HEIGHT="73" BASELINE="542 176 574 175 607 173 640 171 672 169 705 168 738 166 770 165 803 165 836 164 869 164 901 164 934 164 967 164 999 165 1032 166 1065 167 1097 168 1130 170 1163 171 1196 174">
+            <Shape>
+              <Polygon POINTS="537 187 704 179 740 158 760 178 1194 187 1201 114 537 132"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="GEVCLID.GEOMX" HPOS="537" VPOS="114" WIDTH="664" HEIGHT="73"></String>
+          </TextLine>
+          <TextLine ID="r3l2" HPOS="494" VPOS="201" WIDTH="791" HEIGHT="48" BASELINE="500 243 539 241 578 240 617 239 656 238 695 238 734 238 773 238 812 238 851 238 890 238 929 238 968 238 1007 239 1046 239 1085 240 1124 240 1163 240 1202 240 1241 240 1280 240">
+            <Shape>
+              <Polygon POINTS="494 249 1285 241 1272 213 1075 201 494 207"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="SI sint quotcunque numeri deinceps pro¬" HPOS="494" VPOS="201" WIDTH="791" HEIGHT="48"></String>
+          </TextLine>
+          <TextLine ID="r3l3" HPOS="450" VPOS="259" WIDTH="840" HEIGHT="49" BASELINE="455 290 496 289 538 289 579 288 621 288 662 288 704 288 745 287 787 287 828 287 870 287 911 287 953 288 994 288 1036 288 1077 288 1119 289 1160 289 1202 289 1243 290 1285 290">
+            <Shape>
+              <Polygon POINTS="450 307 1222 308 1290 298 1290 259 450 260"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="portionales, primus autem, uel alius quisquam" HPOS="450" VPOS="259" WIDTH="840" HEIGHT="49"></String>
+          </TextLine>
+          <TextLine ID="r3l4" HPOS="458" VPOS="302" WIDTH="829" HEIGHT="60" BASELINE="464 340 504 339 545 338 586 337 627 336 668 336 709 336 750 336 791 336 832 336 873 336 913 336 954 336 995 337 1036 337 1077 337 1118 337 1159 338 1200 338 1241 338 1282 338">
+            <Shape>
+              <Polygon POINTS="458 362 866 342 1241 359 1287 345 1287 302 458 309"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="quemlibet a secundo metiatur; metietur &amp; pri¬" HPOS="458" VPOS="302" WIDTH="829" HEIGHT="60"></String>
+          </TextLine>
+          <TextLine ID="r3l5" HPOS="458" VPOS="345" WIDTH="833" HEIGHT="65" BASELINE="463 387 504 386 545 386 586 385 627 385 668 385 709 385 751 385 792 385 833 385 874 385 915 385 956 385 997 385 1039 386 1080 386 1121 386 1162 386 1203 387 1244 387 1286 387">
+            <Shape>
+              <Polygon POINTS="458 393 1113 388 1244 410 1291 395 1291 348 1032 373 859 345 768 373 670 348 458 364"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="mus secundum. Et si primus, uel alius quis¬" HPOS="458" VPOS="345" WIDTH="833" HEIGHT="65"></String>
+          </TextLine>
+          <TextLine ID="r3l6" HPOS="455" VPOS="405" WIDTH="845" HEIGHT="54" BASELINE="460 437 501 437 543 436 585 435 626 435 668 434 710 434 751 434 793 434 835 434 877 434 918 434 960 435 1002 435 1043 435 1085 435 1127 436 1168 436 1210 436 1252 437 1294 437">
+            <Shape>
+              <Polygon POINTS="455 457 768 434 1254 459 1300 434 1300 405 455 413"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="quam cuiuslibet a secundo fit multiplex; pri¬" HPOS="455" VPOS="405" WIDTH="845" HEIGHT="54"></String>
+          </TextLine>
+          <TextLine ID="r3l7" HPOS="455" VPOS="444" WIDTH="664" HEIGHT="63" BASELINE="460 485 492 485 525 485 558 484 590 484 623 484 656 484 688 483 721 483 754 483 787 482 819 482 852 482 885 482 917 482 950 482 983 482 1015 483 1048 483 1081 484 1114 485">
+            <Shape>
+              <Polygon POINTS="455 491 540 487 560 507 772 487 1119 497 1119 468 1087 444 1051 462 985 444 455 460"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="mus quoque secundi multiplex erit." HPOS="455" VPOS="444" WIDTH="664" HEIGHT="63"></String>
+          </TextLine>
+          <TextLine ID="r3l8" HPOS="489" VPOS="517" WIDTH="812" HEIGHT="37" BASELINE="495 547 535 546 575 545 615 544 655 544 695 543 735 543 775 543 815 543 855 543 895 544 935 544 975 544 1015 545 1055 545 1095 545 1135 545 1175 546 1215 546 1255 546 1296 546">
+            <Shape>
+              <Polygon POINTS="489 554 1301 554 1273 517 489 524"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="QVOD eodem modo demonstrabimus. Si enim primus" HPOS="489" VPOS="517" WIDTH="812" HEIGHT="37"></String>
+          </TextLine>
+          <TextLine ID="r3l9" HPOS="457" VPOS="550" WIDTH="846" HEIGHT="45" BASELINE="462 587 503 586 545 585 587 584 629 583 671 583 712 583 754 583 796 583 838 583 880 583 921 583 963 584 1005 584 1047 584 1089 585 1130 585 1172 585 1214 586 1256 586 1298 586">
+            <Shape>
+              <Polygon POINTS="457 595 1303 591 1296 564 1065 550 457 564"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="non dicatur metiri secundum, vel illius esse multiplex; ni¬" HPOS="457" VPOS="550" WIDTH="846" HEIGHT="45"></String>
+          </TextLine>
+          <TextLine ID="r3l10" HPOS="449" VPOS="592" WIDTH="850" HEIGHT="50" BASELINE="455 626 499 625 543 624 587 623 631 623 675 622 719 622 764 622 808 622 852 622 896 622 940 622 984 623 1029 623 1073 624 1117 624 1161 625 1205 626 1249 627 1294 628">
+            <Shape>
+              <Polygon POINTS="449 633 1299 642 1287 596 1211 592 449 605"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="que alius quisquam vllum metietur; vel illius multiplex ern," HPOS="449" VPOS="592" WIDTH="850" HEIGHT="50"></String>
+          </TextLine>
+          <TextLine ID="r3l11" HPOS="455" VPOS="629" WIDTH="691" HEIGHT="45" BASELINE="460 665 494 665 528 665 562 664 596 664 630 664 664 663 698 663 732 662 766 662 800 662 834 662 868 662 902 662 936 662 970 662 1004 662 1038 663 1072 663 1106 664 1140 665">
+            <Shape>
+              <Polygon POINTS="455 674 1146 674 1119 637 1061 629 455 644"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="ex propos. 6. &amp; 1. theoremate scholij praecedentis." HPOS="455" VPOS="629" WIDTH="691" HEIGHT="45"></String>
+          </TextLine>
+          <TextLine ID="r3l12" HPOS="563" VPOS="708" WIDTH="658" HEIGHT="55" BASELINE="568 752 600 752 632 752 665 752 697 752 730 752 762 752 794 752 827 752 859 752 892 752 924 752 956 753 989 753 1021 754 1054 754 1086 755 1118 756 1151 757 1183 758 1216 759">
+            <Shape>
+              <Polygon POINTS="563 758 1221 763 1200 717 1143 709 841 708 815 734 788 709 563 709"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="THEOR. 6. PROPOS. 8." HPOS="563" VPOS="708" WIDTH="658" HEIGHT="55"></String>
+          </TextLine>
+          <TextLine ID="r3l13" HPOS="498" VPOS="811" WIDTH="809" HEIGHT="64" BASELINE="503 850 542 849 582 848 622 847 662 847 702 847 742 847 782 846 822 847 862 847 902 847 941 848 981 848 1021 849 1061 849 1101 850 1141 850 1181 851 1221 851 1261 851 1301 852">
+            <Shape>
+              <Polygon POINTS="498 852 1068 854 1110 875 1134 850 1306 859 1307 816 498 811"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="SI inter duos numeros medij continua" HPOS="498" VPOS="811" WIDTH="809" HEIGHT="64"></String>
+          </TextLine>
+          <TextLine ID="r3l14" HPOS="453" VPOS="877" WIDTH="852" HEIGHT="53" BASELINE="459 906 501 906 543 905 585 905 627 905 669 905 711 904 753 904 795 904 837 904 879 904 921 905 963 905 1005 905 1047 905 1089 906 1131 906 1173 907 1215 908 1257 908 1299 909">
+            <Shape>
+              <Polygon POINTS="453 930 500 910 529 930 827 910 1131 930 1304 914 1305 878 453 877"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="proportione ceciderint numeri; quot inter" HPOS="453" VPOS="877" WIDTH="852" HEIGHT="53"></String>
+          </TextLine>
+          <TextLine ID="r3l15" HPOS="450" VPOS="916" WIDTH="854" HEIGHT="54" BASELINE="455 963 497 963 539 962 581 962 623 961 666 961 708 961 750 961 792 961 834 961 877 961 919 961 961 961 1003 961 1045 962 1088 962 1130 963 1172 963 1214 964 1256 965 1299 965">
+            <Shape>
+              <Polygon POINTS="450 970 1304 970 1304 933 1199 917 1112 938 647 916 450 933"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="eos medij continua proportione cadunt nu" HPOS="450" VPOS="916" WIDTH="854" HEIGHT="54"></String>
+          </TextLine>
+          <TextLine ID="r3l16" HPOS="451" VPOS="972" WIDTH="859" HEIGHT="54" BASELINE="456 1019 498 1018 540 1018 583 1017 625 1017 668 1017 710 1017 752 1017 795 1017 837 1017 880 1017 922 1017 964 1017 1007 1018 1049 1018 1092 1018 1134 1018 1176 1019 1219 1019 1261 1019 1304 1020">
+            <Shape>
+              <Polygon POINTS="451 1026 1310 1023 1310 993 1229 972 451 989"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="meri: tot &amp; inter alios eandem cum illis ha" HPOS="451" VPOS="972" WIDTH="859" HEIGHT="54"></String>
+          </TextLine>
+          <TextLine ID="r3l17" HPOS="451" VPOS="1029" WIDTH="848" HEIGHT="54" BASELINE="456 1075 497 1075 539 1074 581 1074 623 1074 665 1074 707 1074 749 1074 791 1074 833 1074 875 1074 916 1074 958 1074 1000 1075 1042 1075 1084 1075 1126 1076 1168 1076 1210 1076 1252 1077 1294 1077">
+            <Shape>
+              <Polygon POINTS="451 1083 1299 1082 1285 1036 451 1029"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="bentes rationem medij continua proportio" HPOS="451" VPOS="1029" WIDTH="848" HEIGHT="54"></String>
+          </TextLine>
+          <TextLine ID="r3l18" HPOS="450" VPOS="1084" WIDTH="228" HEIGHT="62" BASELINE="456 1129 483 1130 510 1130 537 1130 564 1130 591 1130 618 1130 645 1130 672 1131">
+            <Shape>
+              <Polygon POINTS="450 1138 543 1136 583 1146 591 1139 678 1137 678 1118 654 1101 598 1100 582 1084 569 1085 552 1101 451 1101"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="ne cadent." HPOS="450" VPOS="1084" WIDTH="228" HEIGHT="62"></String>
+          </TextLine>
+          <TextLine ID="r3l19" HPOS="492" VPOS="1139" WIDTH="802" HEIGHT="47" BASELINE="497 1179 536 1177 576 1176 615 1175 655 1174 695 1174 734 1174 774 1174 813 1175 853 1175 893 1176 932 1177 972 1177 1011 1178 1051 1178 1091 1179 1130 1179 1170 1179 1209 1179 1249 1179 1289 1178">
+            <Shape>
+              <Polygon POINTS="492 1179 1294 1186 1294 1139 1267 1157 492 1145"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="CADANT inter duos numeros A, B, medij proporti" HPOS="492" VPOS="1139" WIDTH="802" HEIGHT="47"></String>
+          </TextLine>
+          <TextLine ID="r3l20" HPOS="452" VPOS="1183" WIDTH="858" HEIGHT="51" BASELINE="458 1217 500 1216 542 1215 584 1215 627 1214 669 1214 711 1214 754 1214 796 1215 838 1215 881 1215 923 1216 965 1216 1007 1216 1050 1217 1092 1217 1134 1217 1177 1217 1219 1217 1261 1217 1304 1217">
+            <Shape>
+              <Polygon POINTS="452 1221 1310 1234 1310 1183 452 1189"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="nales continue C, D; sitque ut A, ad B, ita E, ad F. Dico" HPOS="452" VPOS="1183" WIDTH="858" HEIGHT="51"></String>
+          </TextLine>
+          <TextLine ID="r3l21" HPOS="935" VPOS="1229" WIDTH="363" HEIGHT="31" BASELINE="941 1255 966 1255 991 1255 1016 1255 1041 1255 1066 1256 1091 1256 1117 1257 1142 1257 1167 1257 1192 1257 1217 1257 1242 1256 1267 1255 1293 1254">
+            <Shape>
+              <Polygon POINTS="935 1258 1298 1260 1298 1229 1256 1237 935 1229"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="tot medios numeros con¬" HPOS="935" VPOS="1229" WIDTH="363" HEIGHT="31"></String>
+          </TextLine>
+          <TextLine ID="r3l22" HPOS="462" VPOS="1260" WIDTH="397" HEIGHT="48" BASELINE="468 1295 493 1295 519 1296 545 1296 570 1295 596 1295 622 1295 647 1295 673 1294 699 1294 724 1293 750 1293 776 1293 801 1293 827 1292 853 1293">
+            <Shape>
+              <Polygon POINTS="463 1299 535 1307 560 1291 601 1308 661 1293 713 1307 859 1298 858 1268 840 1261 784 1261 768 1277 712 1260 667 1272 650 1261 567 1261 552 1277 462 1261"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="A, 24. C, 36. D, 54. B. 81" HPOS="462" VPOS="1260" WIDTH="397" HEIGHT="48"></String>
+          </TextLine>
+          <TextLine ID="r3l23" HPOS="943" VPOS="1262" WIDTH="365" HEIGHT="51" BASELINE="948 1293 973 1294 998 1294 1023 1295 1049 1295 1074 1295 1099 1295 1125 1295 1150 1295 1175 1295 1200 1295 1226 1295 1251 1295 1276 1294 1302 1294">
+            <Shape>
+              <Polygon POINTS="943 1298 1010 1306 1025 1297 1042 1313 1062 1299 1158 1307 1308 1297 1308 1269 1225 1262 1188 1273 1028 1273 943 1263"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="tinue proportionales ca¬" HPOS="943" VPOS="1262" WIDTH="365" HEIGHT="51"></String>
+          </TextLine>
+          <TextLine ID="r3l24" HPOS="451" VPOS="1300" WIDTH="413" HEIGHT="47" BASELINE="457 1333 482 1334 507 1334 532 1335 557 1335 582 1335 607 1334 632 1334 658 1334 683 1333 708 1333 733 1332 758 1332 783 1332 808 1332 833 1332 859 1333">
+            <Shape>
+              <Polygon POINTS="452 1337 495 1346 554 1334 601 1347 627 1334 700 1342 769 1330 841 1346 864 1338 864 1308 814 1315 775 1301 757 1317 741 1301 673 1300 658 1315 606 1316 565 1301 536 1325 484 1301 451 1307"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="G, 8. H, 12. I, 18. K, 17." HPOS="451" VPOS="1300" WIDTH="413" HEIGHT="47"></String>
+          </TextLine>
+          <TextLine ID="r3l25" HPOS="942" VPOS="1300" WIDTH="360" HEIGHT="50" BASELINE="947 1333 973 1333 1000 1334 1027 1334 1054 1335 1081 1335 1108 1335 1134 1336 1161 1336 1188 1336 1215 1335 1242 1334 1269 1333 1296 1331">
+            <Shape>
+              <Polygon POINTS="942 1338 1084 1335 1117 1347 1144 1337 1212 1350 1229 1339 1302 1337 1302 1310 1278 1300 1122 1312 1107 1301 1043 1313 1017 1300 1004 1310 942 1303"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="dere inter E, &amp; F, quot in¬" HPOS="942" VPOS="1300" WIDTH="360" HEIGHT="50"></String>
+          </TextLine>
+          <TextLine ID="r3l26" HPOS="935" VPOS="1340" WIDTH="362" HEIGHT="49" BASELINE="941 1371 966 1372 991 1373 1016 1373 1041 1373 1066 1374 1091 1374 1116 1374 1141 1374 1166 1374 1191 1373 1216 1373 1241 1372 1266 1371 1292 1370">
+            <Shape>
+              <Polygon POINTS="935 1379 1010 1377 1028 1387 1039 1378 1169 1377 1196 1389 1208 1378 1297 1377 1297 1340 1263 1349 1228 1340 1210 1352 1123 1344 1106 1353 1074 1340 1063 1349 1040 1341 1025 1356 1004 1340 935 1349"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="ter A, &amp; B. Sumptis enim" HPOS="935" VPOS="1340" WIDTH="362" HEIGHT="49"></String>
+          </TextLine>
+          <TextLine ID="r3l27" HPOS="450" VPOS="1339" WIDTH="416" HEIGHT="40" BASELINE="455 1373 480 1374 505 1375 531 1375 556 1375 581 1375 607 1375 632 1375 658 1374 683 1374 708 1373 734 1372 759 1372 784 1372 810 1371 835 1371 861 1371">
+            <Shape>
+              <Polygon POINTS="450 1379 866 1379 856 1341 810 1350 781 1340 758 1355 693 1339 656 1358 636 1340 602 1354 560 1341 544 1357 450 1341"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="E, 32. L. 48. M, 72. F, 108." HPOS="450" VPOS="1339" WIDTH="416" HEIGHT="40"></String>
+          </TextLine>
+          <TextLine ID="r3l28" HPOS="937" VPOS="1380" WIDTH="363" HEIGHT="46" BASELINE="942 1409 967 1410 992 1411 1017 1411 1042 1412 1068 1412 1093 1412 1118 1413 1143 1413 1168 1413 1194 1413 1219 1413 1244 1413 1269 1413 1295 1412">
+            <Shape>
+              <Polygon POINTS="937 1418 1196 1415 1275 1426 1300 1416 1300 1381 1213 1380 1195 1395 1175 1381 1039 1391 1013 1380 937 1382"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="totidem numeris G, H, I," HPOS="937" VPOS="1380" WIDTH="363" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r3l29" HPOS="934" VPOS="1413" WIDTH="372" HEIGHT="46" BASELINE="939 1450 964 1450 990 1451 1016 1451 1042 1452 1068 1452 1094 1452 1120 1452 1145 1452 1171 1452 1197 1451 1223 1451 1249 1450 1275 1449 1301 1448">
+            <Shape>
+              <Polygon POINTS="934 1454 1272 1459 1306 1450 1306 1413 1270 1429 1126 1429 1115 1420 1058 1429 1043 1420 970 1431 934 1420"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="K, minimis in ratione A, ad" HPOS="934" VPOS="1413" WIDTH="372" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r3l30" HPOS="452" VPOS="1412" WIDTH="389" HEIGHT="46" BASELINE="458 1449 483 1451 508 1451 533 1452 558 1452 583 1452 608 1451 633 1451 659 1450 684 1450 709 1449 734 1449 759 1449 784 1450 809 1451 835 1452">
+            <Shape>
+              <Polygon POINTS="452 1458 841 1458 841 1421 784 1420 764 1434 712 1430 679 1412 658 1433 601 1421 548 1432 452 1417"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="A, 40. C, 20. D, 10. B, 5" HPOS="452" VPOS="1412" WIDTH="389" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r3l31" HPOS="931" VPOS="1456" WIDTH="364" HEIGHT="48" BASELINE="936 1488 961 1489 986 1489 1011 1489 1037 1489 1062 1490 1087 1490 1113 1490 1138 1490 1163 1490 1188 1490 1214 1489 1239 1489 1264 1489 1290 1488">
+            <Shape>
+              <Polygon POINTS="931 1490 983 1504 1001 1495 1295 1492 1295 1458 1193 1470 1080 1469 1063 1456 1047 1469 931 1460"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="C, quot sunt numeri A, C" HPOS="931" VPOS="1456" WIDTH="364" HEIGHT="48"></String>
+          </TextLine>
+          <TextLine ID="r3l32" HPOS="452" VPOS="1459" WIDTH="389" HEIGHT="47" BASELINE="458 1489 483 1490 508 1491 533 1491 558 1491 583 1491 608 1491 633 1491 659 1490 684 1490 709 1489 734 1489 759 1489 784 1489 809 1489 835 1490">
+            <Shape>
+              <Polygon POINTS="452 1495 528 1499 551 1488 615 1506 650 1489 841 1498 841 1476 786 1459 748 1481 688 1460 643 1479 560 1460 533 1480 507 1461 452 1460"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="G, 8. H. 4. I, 2. K, 1." HPOS="452" VPOS="1459" WIDTH="389" HEIGHT="47"></String>
+          </TextLine>
+          <TextLine ID="r3l33" HPOS="935" VPOS="1495" WIDTH="361" HEIGHT="49" BASELINE="941 1527 966 1528 991 1528 1016 1529 1041 1529 1066 1529 1091 1529 1116 1530 1141 1529 1166 1529 1191 1529 1216 1529 1241 1528 1266 1527 1291 1526">
+            <Shape>
+              <Polygon POINTS="935 1538 1150 1535 1173 1544 1266 1527 1296 1536 1296 1503 1283 1496 1223 1509 1072 1498 1022 1508 1003 1495 980 1513 959 1496 935 1497"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="D, B; erit ex aequo, ut A," HPOS="935" VPOS="1495" WIDTH="361" HEIGHT="49"></String>
+          </TextLine>
+          <TextLine ID="r3l34" HPOS="455" VPOS="1496" WIDTH="387" HEIGHT="51" BASELINE="460 1529 485 1531 510 1531 535 1532 560 1532 585 1532 610 1532 635 1531 661 1531 686 1530 711 1530 736 1529 761 1529 786 1529 811 1529 837 1530">
+            <Shape>
+              <Polygon POINTS="455 1539 485 1547 527 1531 641 1530 693 1547 748 1533 842 1539 833 1501 776 1500 757 1520 726 1501 674 1497 649 1516 560 1500 534 1520 503 1496 488 1508 455 1501"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="E, 8. L. J. M, 2. F, 1." HPOS="455" VPOS="1496" WIDTH="387" HEIGHT="51"></String>
+          </TextLine>
+          <TextLine ID="r3l35" HPOS="924" VPOS="1532" WIDTH="378" HEIGHT="55" BASELINE="929 1565 955 1566 981 1567 1007 1568 1034 1568 1060 1569 1086 1569 1113 1568 1139 1568 1165 1568 1191 1567 1218 1567 1244 1566 1270 1566 1297 1565">
+            <Shape>
+              <Polygon POINTS="924 1571 1037 1573 1056 1587 1105 1569 1271 1578 1302 1570 1302 1535 1250 1532 1193 1547 1150 1535 1014 1540 1005 1549 961 1534 924 1547"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="ad B, atque adeo ut E, ad" HPOS="924" VPOS="1532" WIDTH="378" HEIGHT="55"></String>
+          </TextLine>
+          <TextLine ID="r3l36" HPOS="938" VPOS="1572" WIDTH="355" HEIGHT="52" BASELINE="944 1607 970 1607 996 1607 1023 1607 1049 1607 1076 1607 1102 1607 1129 1607 1155 1606 1182 1606 1208 1605 1235 1604 1261 1603 1288 1603">
+            <Shape>
+              <Polygon POINTS="939 1616 1021 1609 1080 1618 1160 1602 1210 1624 1233 1610 1293 1610 1293 1573 1208 1582 1181 1572 1153 1598 1112 1573 1059 1590 1038 1576 938 1578"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="F, ita G, ad K. Q uare ci" HPOS="938" VPOS="1572" WIDTH="355" HEIGHT="52"></String>
+          </TextLine>
+          <TextLine ID="r3l37" HPOS="457" VPOS="1572" WIDTH="387" HEIGHT="50" BASELINE="463 1609 488 1609 513 1609 538 1610 563 1610 588 1610 613 1610 638 1610 663 1610 688 1609 713 1609 738 1609 763 1608 788 1607 813 1607 838 1606">
+            <Shape>
+              <Polygon POINTS="458 1611 551 1619 565 1609 615 1622 665 1606 719 1619 746 1618 763 1602 809 1618 844 1610 844 1588 794 1572 747 1591 673 1572 652 1594 601 1573 575 1573 560 1588 457 1574"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="A, 27. C., 9. D, 3. B, 1." HPOS="457" VPOS="1572" WIDTH="387" HEIGHT="50"></String>
+          </TextLine>
+          <TextLine ID="r3l38" HPOS="933" VPOS="1608" WIDTH="367" HEIGHT="51" BASELINE="938 1645 963 1645 989 1645 1014 1645 1040 1646 1065 1646 1091 1646 1116 1646 1142 1646 1167 1646 1193 1645 1218 1645 1244 1644 1269 1643 1295 1641">
+            <Shape>
+              <Polygon POINTS="933 1650 973 1658 1024 1649 1044 1659 1063 1649 1161 1659 1184 1649 1294 1650 1300 1613 1266 1608 1200 1623 1146 1612 1080 1622 1060 1612 1046 1626 996 1613 933 1619"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="G, &amp; K, inter se primi sint," HPOS="933" VPOS="1608" WIDTH="367" HEIGHT="51"></String>
+          </TextLine>
+          <TextLine ID="r3l39" HPOS="456" VPOS="1613" WIDTH="380" HEIGHT="46" BASELINE="462 1646 488 1646 514 1647 541 1648 567 1648 593 1649 620 1649 646 1649 672 1649 699 1648 725 1648 751 1647 778 1647 804 1645 831 1644">
+            <Shape>
+              <Polygon POINTS="456 1650 494 1658 595 1647 619 1659 666 1647 715 1659 741 1646 802 1658 824 1641 836 1648 836 1632 813 1633 793 1613 752 1637 673 1613 648 1638 589 1615 568 1613 547 1632 456 1613"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="G, 27. H9. I, 3. K," HPOS="456" VPOS="1613" WIDTH="380" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r3l40" HPOS="929" VPOS="1651" WIDTH="366" HEIGHT="48" BASELINE="935 1684 960 1684 985 1684 1010 1684 1036 1684 1061 1685 1086 1685 1112 1685 1137 1684 1162 1684 1187 1683 1213 1683 1238 1682 1263 1680 1289 1679">
+            <Shape>
+              <Polygon POINTS="930 1689 1005 1699 1042 1687 1275 1691 1295 1682 1294 1651 1256 1660 1241 1652 1232 1662 1220 1652 1190 1663 929 1661"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="nempe extremi minimo¬" HPOS="929" VPOS="1651" WIDTH="366" HEIGHT="48"></String>
+          </TextLine>
+          <TextLine ID="r3l41" HPOS="455" VPOS="1653" WIDTH="390" HEIGHT="46" BASELINE="460 1685 485 1687 510 1688 535 1689 561 1689 586 1690 611 1690 636 1690 662 1689 687 1689 712 1689 737 1688 763 1688 788 1688 813 1688 839 1688">
+            <Shape>
+              <Polygon POINTS="455 1693 712 1698 768 1684 791 1699 830 1699 845 1690 845 1669 796 1653 760 1670 673 1653 649 1668 598 1660 590 1669 569 1654 489 1665 455 1653"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="E, 1O8L, 36. M,12. F, 4." HPOS="455" VPOS="1653" WIDTH="390" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r3l42" HPOS="930" VPOS="1692" WIDTH="368" HEIGHT="46" BASELINE="936 1726 961 1725 986 1725 1012 1725 1037 1726 1063 1725 1088 1725 1114 1725 1139 1725 1164 1724 1190 1723 1215 1722 1241 1720 1266 1718 1292 1716">
+            <Shape>
+              <Polygon POINTS="931 1730 1207 1738 1266 1722 1298 1726 1297 1695 1281 1692 1204 1702 930 1701"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="rum numerorum, ac pro¬" HPOS="930" VPOS="1692" WIDTH="368" HEIGHT="46"></String>
+          </TextLine>
+          <TextLine ID="r3l43" HPOS="1219" VPOS="1729" WIDTH="82" HEIGHT="47" BASELINE="1228 1762 1261 1758 1295 1753">
+            <Shape>
+              <Polygon POINTS="1225 1776 1233 1776 1240 1769 1247 1771 1254 1762 1301 1762 1297 1729 1278 1734 1254 1732 1246 1737 1236 1732 1219 1734"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="pterra!" HPOS="1219" VPOS="1729" WIDTH="82" HEIGHT="47"></String>
+          </TextLine>
+          <TextLine ID="r3l44" HPOS="703" VPOS="1924" WIDTH="285" HEIGHT="71" BASELINE="708 1970 735 1969 762 1968 790 1968 817 1968 845 1968 872 1969 899 1970 927 1971 954 1971 982 1972">
+            <Shape>
+              <Polygon POINTS="703 1978 899 1974 927 1995 949 1994 969 1974 987 1977 988 1926 952 1925 931 1941 877 1940 859 1925 825 1924 810 1939 703 1947"></Polygon>
+            </Shape>
+            <String xmlns="http://www.loc.gov/standards/alto/ns-v4#" CONTENT="Digitized by Google" HPOS="703" VPOS="1924" WIDTH="285" HEIGHT="71"></String>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>
