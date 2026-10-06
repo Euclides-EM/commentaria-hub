@@ -50,8 +50,6 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_9lpdf8&annotationId=ann_ea4io3
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_69jfii&annotationId=ann_d0ffde
 
-### Dataset Usage Summary
-
 Run with Codex:
 
 - **Requests:** 89
@@ -62,7 +60,7 @@ Run with Codex:
 - **Reasoning tokens:** 0
 - **Total tokens:** 9,422,917
 
-**Next steps:** Manually curate the transcriptions.
+**Next steps:** Ready for curation.
 
 ## Lyon_1672
 
@@ -90,7 +88,7 @@ Codex — GPT-5.6 Sol usage:
 - **Total tokens:** 2,697,481
 
 
-**Next steps:** Manually curate the transcriptions.
+**Next steps:** Ready for curation.
 
 ## Seville_1576
 
@@ -107,7 +105,7 @@ Done with Fable.
 - **Total tokens:** 8,419,791
 - **Cost:** $83.87
 
-**Next steps:** Manually curate the transcriptions.
+**Next steps:** Ready for curation.
 
 ## Paris_1667
 
@@ -126,7 +124,7 @@ tokens_total=5,385,458
 cost_usd=$46.742450
 ```
 
-**Next steps:** manual curation (I'm currently in p. 149 in my manual curation).
+**Next steps:** manual curation (Mia currently in p. 149 in my manual curation). Liri ready for curation.
 
 ## Paris_1566
 
@@ -155,7 +153,7 @@ Fable usage:
 - **Total tokens:** 8,650,888
 - **Cost:** $107.55
 
-**Next steps:** Manually curate the transcriptions.
+**Next steps:** Ready for curation.
 
 ## Antwerp_1654
 
@@ -183,7 +181,7 @@ Fable:
 - **Total tokens:** 9,334,606
 - **Cost:** $73.72
 
-**Next steps:** Manually curate the transcriptions.
+**Next steps:** Ready for curation.
 
 ## The_Hague_1758
 
@@ -202,7 +200,7 @@ Fable usage:
 - **Total tokens:** 10,298,325
 - **Cost:** $90.53
 
-### Codex — GPT-5.6 Sol
+Codex — GPT-5.6 Sol
 
 - **Requests:** 28
 - **Input tokens:** 1,675,677
@@ -212,7 +210,7 @@ Fable usage:
 - **Reasoning tokens:** 0
 - **Total tokens:** 1,757,102
 
-**Next steps:** Manually curate the transcriptions.
+**Next steps:** Ready for curation.
 
 ## Basel_1562
 
@@ -241,7 +239,7 @@ Codex:
 - **Reasoning tokens:** 0
 - **Total tokens:** 17,262,262
 
-**Next steps:** Manually curate the transcriptions.
+**Next steps:** Ready for curation.
 
 ## Glasgow_1756
 
@@ -280,7 +278,7 @@ Fable stats:
 - **Cache read requests:** 107
 - **Misses after warmup:** 0
 
-**Next steps:** Manually curate the transcriptions.
+**Status:** Ready for curation.
 
 ## Paris_1794
 
@@ -298,7 +296,7 @@ using Codex. Partial run stats:
 - Total tokens: 2,301,221
 - Cache hit requests: 89/89 (100%)
 
-**Next steps:** Manually curate the transcriptions.
+**Status:** Ready for curation.
 
 ## Rome_1574
 
@@ -337,18 +335,22 @@ Codex:
 
 OCR has been completed, the facsimile is public domain.
 
+https://euclides.huma-num.fr/hub/?datasetId=ds_tjokpg
+
 Liri run the corrector:
 ```shell
 2026/09/05 11:40:17 complete pages=72 rounds=1 requests=72 tokens_input=340 tokens_cached=1697451 tokens_cache_creation=583576 tokens_output=165781 tokens_reasoning=0 tokens_total=2447148 cost_usd=21.876591 cost_reports=72/72 final_outputs=store/data/ds_0n6l0d/annotations/ann_i74rcq/transcriptions/page-NNNN/original.md
 ```
 
-**Next steps:** Manually curate the Fable transcriptions.
+**Status:** Ready for curation.
 
 ## Paris_1536
 
 Full Fable transcriptions exist, but they still require manual curation. Facsimile is public domain.
 
-**Next steps:** Manually curate the Fable transcriptions.
+https://euclides.huma-num.fr/hub/?datasetId=ds_ub81ja
+
+**Status:** Ready for curation.
 
 ## Paris_1615
 
@@ -356,12 +358,11 @@ OCR has been completed, but the facsimile is not copyrighted.
 
 There is a new facsimile that has the appropriate copyright. I run the full OCR pipeline on it.
 
-Full correction with Codex Sol was run using dir mode. Token logs were lost due to job technical failure.
+https://euclides.huma-num.fr/hub/?datasetId=ds_57vh5j&annotationId=ann_joneuv
 
-The transcription was not that good, so we tried the page-by-page option with Codex Sol for 30 pages, and added it to the transcriptions. Relevant pages: `17,35,68,82,101,124,156,193,208,227,259,274,296,312,341,363,389,421,437,455,476,494,509,528,551,578,603,615,632,645`
+Full correction with Codex Sol was run using dir mode.
 
-**Next steps:** Manually curate the Fable transcriptions.
-
+**Status:** Ready for curation.
 
 ## Venice_1482
 
@@ -369,20 +370,6 @@ Two facsimiles are available:
 
 * **`Venice_1482_transkribus`**: The Transkribus facsimile is openly licensed, but the image quality is relatively low. I scraped the existing Transkribus transcription and stored it locally, but the transcription quality is poor. On the server, the processing pipeline has reached the **LineDetect** stage for this facsimile.
 * **`Venice_1482`**: The facsimile is public domain. OCR has already been completed.
-
-Applied rule:
-
-```json
-{
-  "provider": "codex",
-  "model": "gpt-5.6-sol",
-  "rounds": 1,
-  "execution_mode": "directory",
-  "skip_existing": true,
-  "additional_annotations": null,
-  "include_edition_transcription": false
-}
-```
 
 Usage summary:
 
@@ -395,9 +382,8 @@ Usage summary:
 - **Reasoning tokens:** 0
 - **Total tokens:** 1,710,319
 - **Cached input:** ~93.1%
-- **Cost:** Unavailable
 
-**Next steps:** Manually curate the Codex transcriptions.
+**Status:** Ready for curation.
 
 # Completed
 

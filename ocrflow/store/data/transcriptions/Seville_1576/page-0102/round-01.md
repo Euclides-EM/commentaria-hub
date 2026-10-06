@@ -1,9 +1,0 @@
-<!-- Running title: LIBRO TERCERO DE -->
-
-ygual.E I,a la.E D.Luego,I Z,Z E ſon mayores q̃.E D.Quite ſe la comũ,E Z,luego la q̃ reſta.I Z,es mayor que la reſtante Z D.Luego la mayor de todas es,Z A,y la menor.Z D. y es mayor,Z B. que,Z C y la.Z C,que la.Z I.Digo tambien q̃ deſde el puncto,Z,ſolamente dos lineas rectas yguales caen en el circulo,A B C D,a ambas partes dela menor.Haga ſe(por la.23.del.1.)ſobre la linea recta,E Z,y enel puncto.E. dado ẽ ella el angulo,Z E T.ygual al ãgulo.I E Z (y porla.1.peticiõ, tireſe.Z T.Pues porq̃ es ygual.I E,a la,E T,porla.15.definiciõ del.1.y la.E Z.es comun,luego las dos,I E,E Z,ſon yguales a las dos.T E,E Z.Y por la.23.del.1,el angulo,I E Z.es ygual al angulo.T E Z.Luego por la.4.del.1,la baſis.Z I.es ygual a la baſis,T Z.Digo tambien q̃ a la linea,Z I. ninguna otra le cae ygual enel circulo deſde el puncto,Z.porque ſi es poſſible caya,Z K.Y porque.Z K,es ygual a la,Z I,y la.Z T,es ygual ala Z I. Luego.Z K.es ygual a la,Z T,luego la que eſta mas propinqua a la que paſſa por el cẽtro es ygual a la mas apartada que por lo q̃ eſta demoſtrado es impoſſible. O deſta manera por la.1.peticiõ,tireſe,E K.y porq̃ (por la.15.definiciõ del,1.) es ygual.I E.a la,E K,y comun la,Z E,yla baſis.I Z.es ygual a la baſis,Z K.Luego por la.8.del.1.el angulo,I E Z, es ygual al angulo,K E Z,y el angulo.I E Z,es ygual al angulo,T E Z.Luego por la.1.comũ ſentencia,el angulo.T E Z.es ygual al angulo,K E Z,el menor al mayor que es impoſſible. Luego deſde el puncto,Z,ninguna otra cae enel circulo ygual a la.I Z. luego vna ſola.Luego ſi enel diametro de vn circulo,ylo que mas ſe ſigue como eñl theorema q̃ es lo q̃ ſe auia đ demoſtrar
-
-## Theorema,7 Propoſicion. 8.
-
-¶Si fuera de vn circulo ſe toma algũ pũcto y deſde aq̃l pũto al circulo ſe tirã algũas lineas rectas de las quales la vna ſe eſtiẽda por el cẽ
-
-<!-- Catchword: tro -->

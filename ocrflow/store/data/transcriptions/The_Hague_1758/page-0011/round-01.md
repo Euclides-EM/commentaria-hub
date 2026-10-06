@@ -1,5 +1,0 @@
-# LES ELEMENS D'EUCLIDE,
-
-[Subhead]
-LIVRE PREMIER.
-[/Subhead]
