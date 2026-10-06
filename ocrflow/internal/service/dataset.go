@@ -349,7 +349,7 @@ func (d *Dataset) downloadHTTPFacsimile(ctx context.Context, rawURL, dst string)
 	return futils.DownloadFileWithProgress(req, dst)
 }
 
-func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.AnnotationRule, error) {
+func (d *Dataset) ListSuggestedAnnotationRules(id string, usedInAnnotations map[string][]*annotation.Reference) ([][]annotationrule.AnnotationRule, error) {
 	ds, err := d.Get(id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
@@ -375,6 +375,12 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 				return true
 			}
 			if len(m1.BaseAnnotations) < len(m2.BaseAnnotations) {
+				return false
+			}
+			if len(usedInAnnotations[m1.ID]) > len(usedInAnnotations[m2.ID]) {
+				return true
+			}
+			if len(usedInAnnotations[m1.ID]) < len(usedInAnnotations[m2.ID]) {
 				return false
 			}
 			return m1.CreatedAt.After(m2.CreatedAt)
