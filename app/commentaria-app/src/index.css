@@ -175,6 +175,23 @@ em {
   opacity: 0.5;
 }
 
+.tei-readable [data-tei-printer-correction='true'] {
+  display: inline-block;
+  margin: 0 0.15rem;
+  border: 1px dashed #14b8a6;
+  border-radius: 0.25rem;
+  background: #f0fdfa;
+  color: #0f766e;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  padding: 0 0.3rem;
+  vertical-align: middle;
+}
+
 .tei-readable p[data-tei-block-type='subhead'] {
   margin-top: -0.15rem;
   margin-bottom: 0.75rem;

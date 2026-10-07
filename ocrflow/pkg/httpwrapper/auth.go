@@ -15,6 +15,7 @@ var allowList = map[string]struct{}{
 	"reallyliri": {},
 	"miamish":    {},
 	"lennartrx":  {},
+	"denisafb":   {},
 }
 
 var cache *ttlcache.Cache[string, *GitHubUser]

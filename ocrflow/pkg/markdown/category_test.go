@@ -9,7 +9,7 @@ import (
 func TestExtractCategoryContentsExpandsDropcaps(t *testing.T) {
 	md := &Markdown{Content: `## 1 {dropcap:P|lines=8|style=decorated|decoration="foliate ornamental initial in a square frame"}Vnctum, eſt quod partes non habet.`}
 
-	categories, _, err := ExtractIndexContentsFromMarkdown(md, nil, nil)
+	categories, _, err := ExtractIndexContentsFromMarkdown(md, nil, nil, false)
 	require.NoError(t, err)
 	require.Equal(t, []Category{{
 		Category:  "header2",
@@ -29,7 +29,7 @@ Body text.
 
 ## Propositions`}
 
-	categories, _, err := ExtractIndexContentsFromMarkdown(md, nil, nil)
+	categories, _, err := ExtractIndexContentsFromMarkdown(md, nil, nil, false)
 	require.NoError(t, err)
 	require.Equal(t, []Category{
 		{Category: "header1", Content: "NOVVEAVX ELEMENS DE GEOMETRIE. LIVRE PREMIER.", IndexType: DefaultIndexType},
@@ -50,7 +50,7 @@ func TestParseHeaderBlockDoesNotJoinDifferentLevels(t *testing.T) {
 func TestExtractCategoryContentsIncludesCuratedHeadingsByDefault(t *testing.T) {
 	md := &Markdown{Content: "[Curated heading level=1: Dedications]\n\n## Printed heading\n"}
 
-	categories, _, err := ExtractIndexContentsFromMarkdown(md, nil, nil)
+	categories, _, err := ExtractIndexContentsFromMarkdown(md, nil, nil, false)
 	require.NoError(t, err)
 	require.Equal(t, []Category{
 		{Category: "curated-heading1", Content: "Dedications", IndexType: DefaultIndexType},
@@ -115,6 +115,7 @@ func TestExtractIndexContentsFiltersLayersAndReturnsAvailableTypes(t *testing.T)
 		md,
 		nil,
 		[]string{"default", "myType2"},
+		false,
 	)
 	require.NoError(t, err)
 	require.Equal(t, []string{"default", "myType", "myType2"}, availableTypes)
