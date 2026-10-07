@@ -10,7 +10,7 @@ retranché;auſſi le reſte ſera au reſte, comme le tout au tout.
 
 Car puis que AB eſt à CD, comme AE, à CF; AB la plus petite, ſera telle ou telles parties de CD, que AE de CF, & par la 7.ou 8.p.7. le reſte EB ſera telle ou telle parties du reſte FD, que le tout du tout: & partant par la 20. d.7. le reſte EB ſera au reſte FD, comme le tout AB au tout-CD. ce qu’il faloit prouuer.
 
-## PROB. 10. PROP. XII.
+## PROB{printer-error-correction:THEOR}. 10. PROP. XII.
 
 Si autant de nombres qu’on voudra ſont proportiõnaux; comme l’vn des antecedans ſera à l’vn des conſequens, ainſi tous les antecedans ſeront à tous les conſequens.
 

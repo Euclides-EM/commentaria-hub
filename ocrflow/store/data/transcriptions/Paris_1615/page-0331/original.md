@@ -16,6 +16,6 @@ Quant à la preuue de ces a operations, elle ſe faict en la me ſme maniere qu
 
 e la regle d’AAlgebre.
 
-## CHAP. VHI. 22
+## CHAP. VII.
 
 Eſtant propoſee quelque queſtion, ſoit poſe pour le nombre incoguu IN, (on peut außi quelquesfois poſer pluſieurs racines, comme deux, ou trois, ou d’auantage pour. la commodité de la queſtion propoſee) laquelle ſoit examinee ſrlon la tencur de la queſtion, iuſques à ce qu’on ait trouué quelque equation: Soit icelle reduicte, s’il en eſt beſoing: puis apres par le nombre du plul grand caractere coſſique ſoit diuiſé l’autre nombre de lequation. Car ou le quotient ſera le nombre qui eſtoit cherché; ſçauoir eſt lavaleur de la racins poſee au cõmencemet,

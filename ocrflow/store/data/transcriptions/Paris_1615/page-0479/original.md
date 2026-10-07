@@ -2,7 +2,7 @@
 
 <!-- Page number: 456 -->
 
-## THEOR. 67. PROP.. IxxxV.
+## THEOR. 67. PROP.. LXXXV.
 
 A la ligne faiſant auec vne ſuperbcie me.
 

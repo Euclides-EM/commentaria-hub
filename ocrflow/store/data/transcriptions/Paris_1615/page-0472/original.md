@@ -6,7 +6,7 @@
 
 La medale AB ſoit √V18, & AC √√6: donc le reſte CB ſera V√18.√√8.
 
-## THEOR. 59n.. PROP, LXXVII.
+## THEOR. 59.. PROP, LXXVII.
 
 Si d’vne ligne droicte eſt retranchee vne ligne droicte incommenſurable en puiſſance à la toute, comprenant auec icelle vn rectangle medial, & le compoſé de leurs quarrez rationel; le reſte ſera irrationel: Soit appellé ligne Mineare.Soit la ligne droicte A,
 

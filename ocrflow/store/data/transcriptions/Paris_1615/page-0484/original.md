@@ -4,7 +4,7 @@
 
 An9. eſt àAac5.auſi le quarre d Er joit au quarré de ro. ielle. poſer (jo. o par eonſiyain to ſera (iae√jomqui eſt reſiau troiſieſme.
 
-## PROBL. 22. PROP. IxXVHI.
+## PROBL. 22. PROP. LXXXIX.
 
 Trouuer vn reſidu quatrieſme.
 

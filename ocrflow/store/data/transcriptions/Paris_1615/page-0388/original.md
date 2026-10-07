@@ -2,9 +2,7 @@
 
 <!-- Page number: 365 -->
 
-THEOR. 7.
-
-PROP. IX.
+## THEOR. 7. PROP. IX.
 
 Les quarrez deſcrits ſur lignes commenſurables en longitude, ſont entr’eux comme nombre quarré à nombre quarré: Et les quarrez qui ſont entr’eux comme nombre quarré à nombre quarré, ont les coſtez commenſurables en longitude. Mais les quarrez deſcrits lur lignes incommenſurables en longitude ne Iont entre eux comme nombre quarré à nombre quarré: Et les quarrez n’eſtans entre eux comme nombre quarré à nombre quarré, ont les coſtez incommenſurables en longitude.
 

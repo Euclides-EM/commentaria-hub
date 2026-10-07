@@ -2,7 +2,11 @@
 
 bante, eſt perpendiculaire à celle là, ſur laquelle elle tombe.
 
-II. Angle obtus, eſt celuy qui eſt plus grand qu’vn droict.
+[Curated heading level=3 type=numbered_item: 11.]
+
+11. Angle obtus, eſt celuy qui eſt plus grand qu’vn droict.
+
+[Curated heading level=3 type=numbered_item: 12.]
 
 12. Mais l’aigu, eſt celuy qui eſt plus petit qu’vn droict.
 
@@ -10,7 +14,9 @@ Si vne ligne droicte tombant ſur vne autre ligne droicte, ne ſ’encline pas d
 
 [Diagram]
 
-## 13. Terme, eſt l’extremité de quelque choſe.
+[Curated heading level=3 type=numbered_item: 13.]
+
+13. Terme, eſt l’extremité de quelque choſe.
 
 Ainſi les poincs ſont termes ou extremitez des lignes:
 

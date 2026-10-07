@@ -12,6 +12,8 @@ Soit le nombre A duquel la moitié B eſt impair, ie dis que A ſera pairement 
 
 [Diagram]
 
+[Curated heading level=2 type=missing-headers-in-print: THEOR. 32. PROP. XXXIIII.]
+
 Si vn nombre pair n’eſt de ceux qui ſont doubles depuis le binaire, & que ſa moitié ne ſoit nombre impair, il ſera pairement pair, & pairement impair.
 
 Ceſte demonſtration eſt aiſee. Car ſa moitié eſtant pair, il ſera meſuré par vn nombre pair ſeln le binaire qui eſt auſsi pair. Et pour autant qu’il n’eſt de ceux qui ſont doubles depuis le binaire; ſi on le diuiſe touſiours en deux egalement, on viendra àvne moitié impaire auparauant que paruenir iuſ-

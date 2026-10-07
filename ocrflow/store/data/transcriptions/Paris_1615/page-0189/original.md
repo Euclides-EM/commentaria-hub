@@ -2,7 +2,7 @@
 
 CINQ. ELEMENT.
 
-## THEOR. PROP. XXV.
+## THEOR.{printer-error-correction:THEOR. 25.} PROP. XXV.
 
 Si quatre grandeurs ſont proportionneles;
 

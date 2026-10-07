@@ -4,7 +4,7 @@
 
 & par le corol. de lan. prop.12. les deux qui ont les axe egaux GR, GI, (c eſt à dire qui ſont de meſme hauteus ſont egaux entr eux: Item les trois BE, BO, PO, eſtans de meſme hauteur, ſont auſſi egaux entr’eux: Ainſi il eſt euident que l’ane IK eſt autant mualtiplice de l’axre IG, que le cylindreE N. eſt multiplice du cylindre ED: Pareillement que l’axe IM eſt autant multiplice de l’are IH, que le cylindre PF, eſt multiplice du cylindre BE, & partant ſi l’axe IK( mulupliee de 1G premiere grandeus eſt égal, plus grad, ou plus petit que l’ae IM, (multiplice de IH ſeconde grandeur) auſſi le eyundre ENſmultiplice du eylindre ED troiſieſme grandeur, ſera egal,plus grand, ou plus petit que cylindre F (muleipliee du cylindre BFa. grandeur) & cé en quelcõque multiplication: & partant par la 6.d.5. l’axe GI ſera à l’axé IH, comme le oylindre ED au cylindre Br. Ce qui eſtoit à demonſtrer.
 
-## THEOR. 14. PROP. XHII.
+## THEOR. 14. PROP. XIIII.
 
 Les cones, & cylindres ayans baſes egales;
 

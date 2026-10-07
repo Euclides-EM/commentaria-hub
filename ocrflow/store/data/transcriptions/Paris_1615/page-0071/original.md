@@ -4,7 +4,7 @@
 
 des Etir, aEDF ſe trouueroient egaux; donc du point A Se poutrcſtremenee autre ligne que AD parallehéa Br.
 
-## THEOR. 3. PROP. XLI.
+## THEOR. 31. PROP. XLI.
 
 Si vn parallellograme, & vn triangle ont vne meſme baſe, &ſont entre meſmes parallelles, le paralellograme ſera double du triangle.
 

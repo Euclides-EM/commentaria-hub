@@ -2,7 +2,7 @@
 
 <!-- Page number: 218 -->
 
-## THEOR. 6. PROP. VHI.
+## THEOR. 6. PROP. VIII.
 
 Si vn nombre contient telles parties d’vn autre nombre, que le retranché du retranché, auſſi le reſte contiendra telles parties du reſte, que le tout du tout.
 

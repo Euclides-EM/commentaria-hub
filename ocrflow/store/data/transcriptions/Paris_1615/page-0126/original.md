@@ -12,7 +12,7 @@ Finablement ie dis que l’angie de la perite ſecuon, compris de la ngne droict
 
 De ee que deſu eſt manifoſe quon angi av tuangi efan egal aux deux autres, eſt droict.
 
-THEOR. 2S. PROP. XXXII.
+## THEOR. 28. PROP. XXXII.
 
 Si quelque ligne droicte touche le cercle, & de l attouchement on meine quelque ligne droicte couppant le cercle: les angles qu’elle faict à la touchante ſont egaux à ceux qui ſont aux ſections alternes du cercle.
 

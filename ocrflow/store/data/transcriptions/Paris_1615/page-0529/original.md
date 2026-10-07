@@ -14,7 +14,7 @@ Soit donné quelque plan comme ap.
 
 prouuer.
 
-## THEOR. D. PROP. XIV.
+## THEOR. 12. PROP. XIV.
 
 Si vneiigne droicte eſt perpendiculaire s
 

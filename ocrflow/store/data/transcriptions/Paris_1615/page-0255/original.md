@@ -4,7 +4,7 @@
 
 tiolié par B, & F produict de C muitiplié par D: Ie dis que E. & F ſont premiers entr’eux. Car A, &B eſtans premiers à C, leur produict E ſera auſſi premier au meſme C: par la 26p.7. par le meſme diſcours E ſera auſſi premier à D, ainſi C & D eſtans premiers à E, leur produict F ſera auſſi premier a E par la 16.p.7.
 
-## THEOR. 2.7 PROP. XXIX.
+## THEOR. 27. PROP. XXIX.
 
 Si deux nombres premiers entr’eux ſont multipliez chaſcun par ſoy; leurs produicts ſeront premiers entr'’eux: Et ſi iceux deux produicts ſont encore multipliez par les nombres premiers propoſez au commencemet;les produicts ſont encores premiers entr’eux, & touſiours enuiron les extremes aduiendra la meſme choſe.
 

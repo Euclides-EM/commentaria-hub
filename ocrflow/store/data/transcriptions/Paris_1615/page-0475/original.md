@@ -6,7 +6,7 @@
 
 De es choſes appert que quatre grandeurs ayant propartion Aritbmetique, en changeant elles eront auſſi en proportion Arithmetique.
 
-## THEOR. 62. PROP. IXXX.
+## THEOR. 62. PROP. LXXX.
 
 Au reſidu ne peut conuenir qu’vne ſeule ligne rationele commenſ.en puiſſance ſeulemet
 

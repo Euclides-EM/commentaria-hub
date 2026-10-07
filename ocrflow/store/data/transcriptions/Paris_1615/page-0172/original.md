@@ -12,7 +12,7 @@ Autrement pour la premiere partie: ſi A n’eſtoit plus grãde que B, elle ſ
 
 Quant à la ſeconde partie, ſi B n’eſtoit moindre que A, elle ſeroit egale ou plus petite, ce qui eſt impoſſible: car ſi elles eſtoient egales, C auroit meſme raiſon à l’vne qu’à l’autre par da 7.p.5.ce qui eſt contre noſtre hypotheſe: ſi auſsi elle eſtoit plus grande, C auroit plus grande raiſon à A qu’à B par la 8. P5.ce qui eſt auſsi contre l’hypotheſe. Donc B ſera moindre que A.
 
-## THEOR. 1. PROP. XI.
+## THEOR. 11. PROP. XI.
 
 Les raiſons qui ſont de meſme à vne, ſont auſſi de meſme entr’elles.
 

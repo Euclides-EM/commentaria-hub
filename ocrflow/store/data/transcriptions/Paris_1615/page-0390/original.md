@@ -6,7 +6,7 @@
 
 Il eſt à noter qu’és deux premieres parties de ceſte propoſition s’entend auſſi des lignes inexplicables par nombres, pourueu qu’elles ſoient commenſurables en longitude; comme ſi les quarrez de A& B eſtoient 12 &3. Leurs coſtez ſeroient √12. &√3. qui ſont inexplicables par nombres, toutefois commenſ. Car par la 20.p.6.12. ſeroit à 3. en raiſon double de √12. à √3. Mais 12. eſt quadruple de 2. Ainſi le coſté A ſera double du coſté B, par la 10. d.5. Car la double raiſon doublee eſt quadruple.
 
-## THEO. S. PROP. X.
+## THEO. 8. PROP. X.
 
 Si quatre grandeurs ſont proportionneles, & la premiere eſt commenſurable à la ſecõde, la troiſieſme ſera auſſi commenſurable à la quatrieſme. Que ſi la premiere eſt incomméſurable à la ſeconde, la troiſieſme ſera auſſi incommenſurable à la quatrieſme.
 

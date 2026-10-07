@@ -10,7 +10,7 @@ Pour la ſeconde partie: ſi A n’eſt cube; auſsi pas vn autre ſera cube, ſ
 
 Car par la 8.p.9. C& F ſont cubes: que ſi quelqu’vn veut dire que D ſoit auſſi cube; il faudroit par la 23.p.8. que A le ſoit, contre l’hypotheſe. Par meſme deduction on monſtrera tous ceux qui ne peuueut eſtre cubes.
 
-## THEOR. 1. PROP. XI.
+## THEOR. 11. PROP. XI.
 
 Si depuis l’vnité, il y a tant de nombres qu’on voudra continuellemet proportionaux: le plus petit meſure leplus grand ſelon quelqu’vn de ceux qui ſont entre les proportionaux..
 

@@ -4,7 +4,7 @@
 
 motlabeue tomeg va rauones e,mo meiit an, oy St aomian vondſen oneque au euic doini ne dententoſenics compicnonsmoſeſnolepuoiernecer Amoroie aeteun vurres toir meinl-tie leicue. q vtsmaunesconme ude gigre ſeois veon uepveuguprene au ſontei mioue,murg ausc ces eouros mole ericoitouii giee ciſe Aſ di oi varories poin? bs cotpros cupir a Smes de qunitis √o rn e, ir medial.
 
-## IHE0.36. PROP. XLVII.
+## THEO.36. PROP. XLVIII.
 
 La hgne pouuant deux mediaux, eſt diuiſe, n les nons, en vn poinct ſeulemen. Soit la ligne pouuant deux mediaux An, diuiſee en ſes noms ai poinct C, en ſorte que aC & Bc ſoient mcommenſ. en puiſſance, comprenant vn re ctanglemediai ncommenſur. au conpoſé de leuss quartez auſſi medal, comme veut la 42.p.10. Ie dis qu’on ne peut diuiſer icelle AB en ſes noms en vn autre poinct que C.
 
