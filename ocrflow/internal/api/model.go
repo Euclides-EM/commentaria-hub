@@ -103,6 +103,18 @@ func (h *Handlers) UploadModel(r *http.Request) (any, error) {
 	return h.deps.ModelSvc.Upload(file, header.Filename, name, description, baseAnnotations, baseModelID)
 }
 
+// DownloadModel godoc
+// @Summary      Download a Model
+// @Description  Download the file of a local model by its ID.
+// @Tags         Models
+// @Param        id   path      string  true  "Model ID"
+// @Produce      application/octet-stream
+// @Success      200  {file}  string  "Model file"
+// @Router       /models/{id}/download [get]
+func (h *Handlers) DownloadModel(r *http.Request) (filePath string, downloadName string, err error) {
+	return h.deps.ModelSvc.GetFilePath(r.PathValue("id"))
+}
+
 // DeleteModel godoc
 // @Summary      Delete a Model
 // @Description  Delete a model by its ID.

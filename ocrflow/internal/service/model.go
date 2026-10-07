@@ -69,6 +69,25 @@ func (m *Model) Get(id string) (*model.Model, error) {
 	return retrieved, nil
 }
 
+func (m *Model) GetFilePath(id string) (string, string, error) {
+	mo, err := m.Get(id)
+	if err != nil {
+		return "", "", err
+	}
+	if mo.Location != model.OCRModelLocationLocal || mo.LocalPath == "" {
+		return "", "", fmt.Errorf("model %s has no local file to download", id)
+	}
+	p := m.fileSysMgt.ModelPath(mo)
+	if _, err := os.Stat(p); err != nil {
+		return "", "", fmt.Errorf("model file not found: %w", err)
+	}
+	downloadName := mo.LocalPath
+	if mo.Name != "" {
+		downloadName = mo.Name + filepath.Ext(mo.LocalPath)
+	}
+	return p, downloadName, nil
+}
+
 func (m *Model) GetByName(name string) (*model.Model, error) {
 	retrieved, err := m.modelStore.GetModelByName(name)
 	if err != nil {

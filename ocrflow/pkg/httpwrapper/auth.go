@@ -85,6 +85,9 @@ func isPublicReadPath(path string) bool {
 	if strings.HasPrefix(path, "/facsimilies/") && strings.HasSuffix(path, "/pdf") {
 		return false
 	}
+	if strings.HasPrefix(path, "/datasets/") && strings.HasSuffix(path, "/zip") {
+		return false
+	}
 	return true
 }
 

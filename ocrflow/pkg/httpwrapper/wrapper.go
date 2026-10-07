@@ -2,6 +2,8 @@ package httpwrapper
 
 import (
 	"encoding/json"
+	"io"
+	"log"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -55,6 +57,11 @@ func GetZip(f func(*http.Request) (zipPath string, deleteAfterServe bool, err er
 func GetFile(f func(*http.Request) (filePath string, downloadName string, err error), contentType string) *wrapperBuilder {
 	wb := &wrapperBuilder{}
 	return wb.GetFile(f, contentType)
+}
+
+func GetStream(f func(*http.Request) (downloadName string, write func(io.Writer) error, err error), contentType string) *wrapperBuilder {
+	wb := &wrapperBuilder{}
+	return wb.GetStream(f, contentType)
 }
 
 func Create(f func(*http.Request) (any, error)) *wrapperBuilder {
@@ -163,6 +170,26 @@ func (wb *wrapperBuilder) GetFile(f func(r *http.Request) (filePath string, down
 		}
 		w.Header().Set("Content-Disposition", "attachment; filename=\""+downloadName+"\"")
 		http.ServeFile(w, r, filePath)
+	}
+	return wb
+}
+
+func (wb *wrapperBuilder) GetStream(f func(r *http.Request) (downloadName string, write func(io.Writer) error, err error), contentType string) *wrapperBuilder {
+	wb.get = func(w http.ResponseWriter, r *http.Request) {
+		downloadName, write, err := f(r)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+		if contentType != "" {
+			w.Header().Set("Content-Type", contentType)
+		}
+		w.Header().Set("Content-Disposition", "attachment; filename=\""+downloadName+"\"")
+		w.WriteHeader(http.StatusOK)
+		if err := write(w); err != nil {
+			log.Printf("failed to stream %s: %v", downloadName, err)
+			panic(http.ErrAbortHandler)
+		}
 	}
 	return wb
 }

@@ -3,7 +3,7 @@ import { OpenAPI } from "@hub-api";
 const facsimilePDFURL = (facsimileId: string) =>
   `${OpenAPI.BASE.replace(/\/$/, "")}/facsimilies/${encodeURIComponent(facsimileId)}/pdf`;
 
-const writeWindowMessage = (
+export const writeWindowMessage = (
   targetWindow: Window,
   title: string,
   body: string,

@@ -205,6 +205,28 @@ export class FacsimilesService {
         });
     }
     /**
+     * Download Facsimile Diagrams
+     * Stream a ZIP of the diagram crop images of a specific facsimile, laid out as <key>/crops/<image>.
+     * @returns binary Diagram crops ZIP
+     * @throws ApiError
+     */
+    public static getFacsimiliesDiagramsZip({
+        id,
+    }: {
+        /**
+         * Facsimile ID
+         */
+        id: string,
+    }): CancelablePromise<Blob> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/facsimilies/{id}/diagrams/zip',
+            path: {
+                'id': id,
+            },
+        });
+    }
+    /**
      * Download facsimile PDF
      * Downloads a local facsimile PDF by facsimile ID.
      * @returns binary Facsimile PDF

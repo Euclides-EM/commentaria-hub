@@ -684,4 +684,46 @@ export class AnnotationsService {
             },
         });
     }
+    /**
+     * Download Annotation ZIP
+     * Stream a ZIP of a specific annotation, with its ALTO files under alto/ and the dataset page images under imgs/.
+     * @returns binary Annotation ZIP
+     * @throws ApiError
+     */
+    public static getDatasetsAnnotationsZip({
+        dataSetId,
+        id,
+        includeAlto,
+        includeImages,
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * Whether to include the ALTO files
+         */
+        includeAlto?: boolean,
+        /**
+         * Whether to include the dataset page images
+         */
+        includeImages?: boolean,
+    }): CancelablePromise<Blob> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/datasets/{dataSetId}/annotations/{id}/zip',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'include_alto': includeAlto,
+                'include_images': includeImages,
+            },
+        });
+    }
 }

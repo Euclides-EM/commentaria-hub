@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net/url"
 	"os"
+	"path"
 	"strings"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
@@ -24,15 +25,12 @@ func NewDiagramCropsStore(fileSysMgt *filesys.Manager, diagramsURLBase string) *
 	}
 }
 
-func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops, error) {
+func (s *DiagramCropsStore) readEditionDiagramsFile(key string) (*editionDiagramsFileData, error) {
 	path := s.fileSysMgt.DiagramCropsMetadataFile(key)
 	data, err := os.ReadFile(path)
 	if err != nil {
 		if errors.Is(err, os.ErrNotExist) {
-			return &model.DiagramCrops{
-				ImageURLsByName: map[string]string{},
-				HasDiagrams:     false,
-			}, nil
+			return nil, nil
 		}
 		return nil, fmt.Errorf("fail to read diagram crops metadata for %s: %w", key, err)
 	}
@@ -40,6 +38,48 @@ func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops,
 	var fileData editionDiagramsFileData
 	if err := json.Unmarshal(data, &fileData); err != nil {
 		return nil, fmt.Errorf("decode diagrams for %s: %w", key, err)
+	}
+	return &fileData, nil
+}
+
+func (s *DiagramCropsStore) GetEditionDiagramCropRelPaths(key string) ([]string, error) {
+	fileData, err := s.readEditionDiagramsFile(key)
+	if err != nil || fileData == nil {
+		return nil, err
+	}
+	var relPaths []string
+	if len(fileData.Volumes) > 0 {
+		for _, volume := range fileData.Volumes {
+			volumeKey := volume.Key
+			if volumeKey == "" {
+				volumeKey = key
+			}
+			for _, imageName := range volume.Images {
+				relPaths = append(relPaths, path.Join(volumeKey, "crops", imageName))
+			}
+		}
+		return relPaths, nil
+	}
+	singleKey := fileData.Key
+	if singleKey == "" {
+		singleKey = key
+	}
+	for _, imageName := range fileData.Images {
+		relPaths = append(relPaths, path.Join(singleKey, "crops", imageName))
+	}
+	return relPaths, nil
+}
+
+func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops, error) {
+	fileData, err := s.readEditionDiagramsFile(key)
+	if err != nil {
+		return nil, err
+	}
+	if fileData == nil {
+		return &model.DiagramCrops{
+			ImageURLsByName: map[string]string{},
+			HasDiagrams:     false,
+		}, nil
 	}
 	response := &model.DiagramCrops{
 		Key:             fileData.Key,

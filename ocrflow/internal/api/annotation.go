@@ -2,6 +2,7 @@ package api
 
 import (
 	"fmt"
+	"io"
 	"net/http"
 	"strconv"
 	"strings"
@@ -78,6 +79,34 @@ func (h *Handlers) GetAnnotation(r *http.Request) (any, error) {
 		return nil, fmt.Errorf("missing parameters")
 	}
 	return h.deps.AnnotationSvc.Get(datasetID, annotationID)
+}
+
+// DownloadAnnotationZip godoc
+// @Summary      Download Annotation ZIP
+// @Description  Stream a ZIP of a specific annotation, with its ALTO files under alto/ and the dataset page images under imgs/.
+// @Tags         Annotations
+// @Param        dataSetId       path      string  true   "Dataset ID"
+// @Param        id              path      string  true   "Annotation ID"
+// @Param        include_alto    query     bool    false  "Whether to include the ALTO files"
+// @Param        include_images  query     bool    false  "Whether to include the dataset page images"
+// @Produce      application/zip
+// @Security 	 BearerAuth
+// @Success      200  {file}  string  "Annotation ZIP"
+// @Router       /datasets/{dataSetId}/annotations/{id}/zip [get]
+func (h *Handlers) DownloadAnnotationZip(r *http.Request) (string, func(io.Writer) error, error) {
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return "", nil, err
+	}
+	includeAlto, err := strconv.ParseBool(r.FormValue("include_alto"))
+	if err != nil {
+		includeAlto = false
+	}
+	includeImages, err := strconv.ParseBool(r.FormValue("include_images"))
+	if err != nil {
+		includeImages = false
+	}
+	return h.deps.AnnotationSvc.Zip(datasetID, annotationID, includeAlto, includeImages)
 }
 
 // DeleteAnnotation godoc

@@ -81,6 +81,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/fromurl", httpwrapper.CreateFile(h.GetAnnotationURL).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/duplicate", httpwrapper.Create(h.DuplicateAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/merge", httpwrapper.Update(h.MergeAnnotation).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/zip", httpwrapper.GetStream(h.DownloadAnnotationZip, "application/zip").Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/index", httpwrapper.Get(h.GetAnnotationIndex).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/categories", httpwrapper.Get(h.ListAnnotationCategories).Build())
@@ -137,6 +138,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/editions/{editionId}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
 	api.HandleFunc("/editions/{editionId}/results", httpwrapper.Get(h.ListEditionResults).Build())
 	api.HandleFunc("/editions/{editionId}/diagrams", httpwrapper.Get(h.GetEditionDiagramCrops).Build())
+	api.HandleFunc("/editions/{editionId}/diagrams/zip", httpwrapper.GetStream(h.DownloadEditionDiagramCrops, "application/zip").Build())
 	api.HandleFunc("/editions/{editionId}/shelfmarks", httpwrapper.Get(h.ListShelfmarks).Create(h.UpsertShelfmark).Build())
 	api.HandleFunc("/editions/{editionId}/shelfmarks/{shelfmarkId}", httpwrapper.Update(h.UpdateShelfmark).Delete(h.DeleteShelfmark).Build())
 	api.HandleFunc("/editions/{editionId}/tei/{pageNum}", httpwrapper.GetXML(h.GetEditionTEI).Build())
@@ -148,6 +150,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/facsimilies/import-from-drive", httpwrapper.Create(h.ImportFacsimilesFromDrive).Build())
 	api.HandleFunc("/facsimilies/mapping-csv", httpwrapper.GetZip(h.DownloadFacsimileMappingCSV).CreateFile(h.UploadFacsimileMappingCSV).Build())
 	api.HandleFunc("/facsimilies/{id}/diagrams", httpwrapper.Get(h.GetFacsimileDiagramCrops).Build())
+	api.HandleFunc("/facsimilies/{id}/diagrams/zip", httpwrapper.GetStream(h.DownloadFacsimileDiagramCrops, "application/zip").Build())
 	api.HandleFunc("/facsimilies/{id}/pdf", httpwrapper.GetFile(h.DownloadFacsimilePDF, "application/pdf").Build())
 	api.HandleFunc("/facsimilies/{id}", httpwrapper.Get(h.GetFacsimile).Update(h.UpdateFacsimile).Delete(h.DeleteFacsimile).Build())
 
@@ -160,6 +163,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/models_train", httpwrapper.Create(h.TrainModel).Build())
 	api.HandleFunc("/models_upload", httpwrapper.CreateFile(h.UploadModel).Build())
 	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Update(h.UpdateModel).Build())
+	api.HandleFunc("/models/{id}/download", httpwrapper.GetFile(h.DownloadModel, "application/octet-stream").Build())
 
 	api.HandleFunc("/annotation_rules", httpwrapper.Get(h.ListAnnotationRules).Build())
 	api.HandleFunc("/pipeline_stages", httpwrapper.Get(h.ListPipelineStages).Build())
