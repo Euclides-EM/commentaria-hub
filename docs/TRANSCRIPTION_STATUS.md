@@ -365,6 +365,8 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ub81ja
 
 **Status:** Ready for curation.
 
+# Completed
+
 ## Paris_1615
 
 OCR has been completed, but the facsimile is not copyrighted.
@@ -374,10 +376,6 @@ There is a new facsimile that has the appropriate copyright. I run the full OCR 
 https://euclides.huma-num.fr/hub/?datasetId=ds_57vh5j&annotationId=ann_joneuv
 
 Full correction with Codex Sol was run using dir mode.
-
-**Status:** Curation in progress.
-
-# Completed
 
 ## Paris_1634, Kiel_and_Leipzig_1699 and Basel_1537
 
