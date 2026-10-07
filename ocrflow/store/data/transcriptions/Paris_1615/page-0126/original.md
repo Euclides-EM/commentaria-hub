@@ -8,7 +8,7 @@ Ie dis ea qutrieſme beu que l’angle de la plus grande ſeccuon, compris de la
 
 Finablement ie dis que l’angie de la perite ſecuon, compris de la ngne droicte uc & eirconference ntc ceſt a dreſangle mixte cur, eſt moindre qu’vn droict, cariceluyn’eſt que partie de l’angle droict CBE.
 
-## COROLL AAIRE.
+## COROLLAIRE.
 
 De ee que deſu eſt manifoſe quon angi av tuangi efan egal aux deux autres, eſt droict.
 

@@ -10,7 +10,7 @@ I a rationele propoſee D ſoit 6: faiſant que comme Ié eſt à AB8.
 
 ainſi le quarré de D, c’eſt à ſçauoir 36, au quarré de EF: icelle EF ſera trouuee de √a8: & fa:ſant que cõme ABB eſt à AC 5, ainſi 48 quarre de EE ſoit au quairé de FG: icelle FG ſera trouuee de √30: partant la toule LG ſeia √48t√30, qui eſt binome ſixieſme.
 
-## LE M ME.
+## LEMME.
 
 Les quarrez AI, IG eſtans conioincts à l’angle I tellement que les coſtez DI, IF facent vne ſeule ligne droicte DF; & par conſequent les coſtez EI, IH auſſi vne ſeule ligne droicte EH; eſtãt acheue le parallelogramme BC. Ie dis qu’iceluy eſt quaire: & EF eſtre rectangle moyen proportionel entre les quarrez AI, IG: & EG moyen prop. entre les quarrez AG, IG.
 

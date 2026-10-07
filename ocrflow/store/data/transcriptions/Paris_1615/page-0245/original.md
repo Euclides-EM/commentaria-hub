@@ -2,7 +2,7 @@
 
 <!-- Page number: 222 -->
 
-## LEMME.
+### LEMME.
 
 Or que A eſtant à D, & C à F, en meſme raiſon que B à E, ile ſoient de me ſme raiſon entr'eux, nous le demonſtrerons ainſi. D’autant que comme A eſt à D, ainſi B à E; E plus petit ſera telle ou telles parties de B, que D de A: Derechef puis que comme B à E, ainſi C à F; F moindre ſera telle, ou telles parties de C, que E de B: parquoy F ſera auſſi telle ou telles parties de C, que D de A & partant par la 20.d.7. conuertie, comve A ſera à D, ainſi C ſera à F. Donc les raiſons des nombres qui ſont de meſme a vne, ſont auſſi de miſme entr'elles.
 

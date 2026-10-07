@@ -12,7 +12,7 @@ De eecy eſt manifeſte, que ſi trois nomhres en meſurent quelque autre; le pl
 
 Par me me raſſon eſtans donnez plus de trois nombres, nous trouuerons le plus petit nombre qu’ils meſurent. Car ſi 4. nombr es ſont donnez, il fa udr a trouuer le moindre que trois meſurẽt: ſi 5.il faudra trouuer le plus petis que 4.miſurẽt &c. proredant au reste tout ainſi qu’il a eſté dict de trois nombers.
 
-## THEOR., 34. PROP. XXXIX.
+## THEOR. 34. PROP. XXXIX.
 
 Si vn nombre meſure vn autre nombre; le meſuré aura vne partie denommee par le meſurant.
 

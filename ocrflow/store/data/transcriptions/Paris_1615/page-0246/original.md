@@ -4,7 +4,7 @@
 
 me A en BC, & chacune partie de EF ſera egale a D, comme chacune de BC a l’vnité, donc l’vnité BG eſt à la partie EI. comme GH à IK, & HC à KF: & partant par la 12. p7. tous les antecedents BC ſeront à tous les conſequents EF, cõme BG à EI, ou leur egaux A à D: ce qui eſtoit à prouuer.
 
-## THEO.I4. PROP. XVI.
+## THEO. 14. PROP. XVI.
 
 Si deux nombres ſe multiplient l’vn l’autre; leurs produicts ſeront egaux entr’eux.
 

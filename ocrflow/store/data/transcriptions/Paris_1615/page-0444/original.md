@@ -2,7 +2,7 @@
 
 <!-- Page number: 421 -->
 
-## PROB.15. PROP. LI.
+## PROB. 15. PROP. LI.
 
 Trouuer vn binome troiſieſme.
 

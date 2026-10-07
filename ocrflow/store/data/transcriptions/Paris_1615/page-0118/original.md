@@ -2,7 +2,7 @@
 
 <!-- Page number: 95 -->
 
-## THEOR.1S. PROP. XX.
+## THEOR. 18. PROP. XX.
 
 Dans le cercle, l’angle du centre eſt double de l’angle de la circonference quand iceux ongles ont vne meſme circonference pour baſe.
 

@@ -10,6 +10,6 @@ Par ces choſes eſt man:feſte que ſi d’vn poinct pris hors le cercle sõt 
 
 Eſt auſſi euident que d’vn meſme poinct pris hors le cercle peuuẽt eſtre ſeulement tirees deux lignes droictes qui touchent le cercle: Car il faudroit qu’elles fuſſent toutes egales entr’elles; & partant du poinct D pourroiẽt estre menees plus de deux lignes egales de part & d’autre de DE, contre la 8.p.3.
 
-## THEOR. 3I. PROP. XXXVII.
+## THEOR. 31. PROP. XXXVII.
 
 Si dehors le cercle on prend quelque poinct, & d’iceluy poinct tombent deux lignes droictes au cercle, l’vne deſquelles couppe le cercle, & l’autre l’atteint: Si le rectangle compris de toute la coupante, & de la partie priſe entre le poinct & la circonference conuexe, eſt egal au quarré de celle qui atteint; celle qui atteint touchera le cercle.

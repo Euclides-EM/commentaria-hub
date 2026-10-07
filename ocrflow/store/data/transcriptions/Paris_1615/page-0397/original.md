@@ -4,7 +4,7 @@
 
 menſ. que AB & BC ſeront auſſi incommenſ. Autrement ſi elles eſtoient commenſurables. La toute AC ſeroit auſſi commenſurables à ſa partie BC par la 16.p.10. contre noſtre hypoteſe. Donc AB & BC ſont incommenſ. Par meſme argument nous demonſtrerons que ſi AC & AB ſont incommenſ. que AB & BC ſont auſſi incommenſ.
 
-## COROLAIRE.
+### COROLAIRE.
 
 Il reſulte de ces choſes que ſi vne grandeur compoſee de deux, eſt incommenſurable à l’vne d’icelles, qu’elle le ſera außi à l’autre. Comme ſi AC compoſee de AB & BC eſt incon menſ. a AB, elle le ſera außi à BC Car ſi AC eſtoit commenſ. à icelle BC, elle le ſeroit außi à AB, par le corol. de la preced. prop. ce qui eſt contre l’hpoteſe. Donc AC& BC ne ſont commenſ. mais incommen ſurables.
 

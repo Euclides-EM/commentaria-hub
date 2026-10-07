@@ -10,6 +10,8 @@ Et couertiſſant ceſte 8.def.s’il y a plus grande raiſon de la premiere gra
 
 Que ſi au contraire d’icelle def: la multiplice de la premiere gradeur ne ſurmonte celle de la 2. & la multiplice de la 3 excede celle de la 4. la premiere grandeur ſora dite auoir moindre raiſon à la 2.que la 3. à la 4. La conuerſe a auſſi lieu.
 
+[Curated heading level=3 type=numbered_item: 9.]
+
 9. Proportion ne peut eſtre conſtituee ſur moins de trois termes.
 
 Puis qu’il a eſté dit en la 3.def que raiſon eſt l’habitude de dei quantitez, & que proportion par la 4. def. eſt vne ſimilitude de deux ou pluſieurs raiſons: il s’enſuit qu’il n’y peut auoir moins de trois qantilez ou termes en one proportion ſi elle eſt praportion continués

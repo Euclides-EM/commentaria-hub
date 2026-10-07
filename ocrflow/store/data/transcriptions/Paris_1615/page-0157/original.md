@@ -6,6 +6,12 @@ Aition requierent les grandeurs pour eſtre en meſme raiſon, ſçauoir eſt q
 
 Par la conuerſe de cestedef s’il y a telle raiſon de la premiere à la ſeconde, que de la;. à la 4. il s’enſuit que les equemultiplices de la 1. &3. excedent, ſont egales, ou deſaillent aux equemultiplices de la 2. & 4-engendrees de quelque miltiplication que ce ſoit. Et auſi s’il n’ya meſme raiſon de la premiere à la 2 que de la 5.à la 4. il s’enſuiura que les equemultiplices de la 1.et 3. n’excederont, ne ſerõt ales, ou ne defaudront aux equenrultiplices de la 2. & 4. produites de quel que multiplication que ce ſoit. Or ce qui eſt dit icy de 4. grandeurs ſe doit auſii entendre de trois, prenant celle du milieu 2. fois, afin qu’il y en ait 4.
 
-7. Les grandeurs qui ſont en meſme raiſon, ſont appellees proportionnelles. Comme ſi des grandeurs A, B, C, D, il y a meſme raiſon de A à B, que de C à D, icelles grandeurs ſont dites proportionnelles. Et les grandeurs E, F, G, leſquelles ſont en proportion cõtinuë, ſont auſſi dites continuellement proportionnelles. 8. Quand des equemultiplices, celuy de la premiere grãdeur excede celuy de la ſecõde, & le multiplice de la troiſieſme n’excede celuy de la quatrieſme, lors il y aura plus grande raiſon de la premiere grandeur à la ſeconde, que de la troiſieſme à la quatrieſme.
+[Curated heading level=3 type=numbered_item: 7.]
+
+7. Les grandeurs qui ſont en meſme raiſon, ſont appellees proportionnelles. Comme ſi des grandeurs A, B, C, D, il y a meſme raiſon de A à B, que de C à D, icelles grandeurs ſont dites proportionnelles. Et les grandeurs E, F, G, leſquelles ſont en proportion cõtinuë, ſont auſſi dites continuellement proportionnelles.
+
+[Curated heading level=3 type=numbered_item: 8.]
+
+8. Quand des equemultiplices, celuy de la premiere grãdeur excede celuy de la ſecõde, & le multiplice de la troiſieſme n’excede celuy de la quatrieſme, lors il y aura plus grande raiſon de la premiere grandeur à la ſeconde, que de la troiſieſme à la quatrieſme.
 
 [Diagram]

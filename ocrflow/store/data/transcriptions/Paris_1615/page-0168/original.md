@@ -4,7 +4,7 @@
 
 Adire que E eſtant à G comme F à H, auſſi en changeant G ſera à E tomme Hà F. Car puis qu’il a eſté demonſtré que ſi I defaut, eſt egale, ou plus grande que L, auſſi K defaudra, ſera egale, ou plus grãde que M; ſelon queſconque multipli. Il apert auſſi que ſi L defaut. eſt egale, ou plus grande que I, auſſi M defaudra, ſera gale ou plus rrande que K, ſelon quelconque multiplication: Et partant par la 6. dif. il yaura meſme raiſon de G à E que de H àF.
 
-## THEOR5. PROP. V.
+## THEOR 5. PROP. V.
 
 Si vne grandeur eſt autant multiplice d’vne
 

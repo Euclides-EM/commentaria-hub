@@ -22,6 +22,6 @@ Soient deux nombres A & B, leſquels ſoient entr’eux, comme le quarré C au 
 
 Car puiſque A eſt à B comme C à D; & par la 11.p.8. il tõbe entre C & D, vn moyen proportionnel, ſçauoir eſt E; il en tombera auſſi vn entre A & B, par la 8.p.8. & ſoit F. Veu donc que les trois nombres A, F, B, ſont continuellement proportionnaux; & le premier A eſt quarré; auſſi le troiſieſme B ſera quarré: ce qu’il falloit prouuer.
 
-## COROLLAAIRE.
+### COROLLAIRE.
 
 Il appert des choſes cy deſſus dictes, que la raiſon de quelque nomAre quarré que ce ſoit à quelcongue nombre non quarré, ne peut eſtre

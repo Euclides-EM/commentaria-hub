@@ -4,7 +4,7 @@
 
 contreront au poinct A, & conuiendront auec les lignes BA & CA: partant conuiendront auſſi les angles A & D cõtenus A’icelles ligues; & par conſequent ſeront egaux par la 8.comſent. ce qu’il faloit demonſtrer.
 
-## CCOROLLAIRE.
+## COROLLAIRE.
 
 Puis que la baſe EF conuient auec la baſe BC & les coſtez DE. DF conuiennent außi auec les coſtez AB, AC. Il s’enſuit que non ſeulement l’angle A eſt egal à l’angle D;, mais qu’auſi l’angle E eſt igal àlangle E& l angle F, egol à tangle C, & tout le triangle egat à tout le triangle.
 

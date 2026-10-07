@@ -2,7 +2,7 @@
 
 <!-- Page number: 499 -->
 
-## THEOR. 3. PROP. IHI.
+## THEOR. 3. PROP. III.
 
 Si deux plans ſe coupent l’vn l’autre, leur commune ſection ſera vne ligne droicte.
 

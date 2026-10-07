@@ -6,7 +6,7 @@ nees les perpendiculaires DE, & EF ſe rencontrans au poinct F. Ie dis que F eſ
 
 Car par le corol.de la 1.p.3. le centre ſera à la ligne DF. II ſera auſſi en EF: ce ſera donc au poinct F, qui leur eſt commun.
 
-## THEOR.23. PROP. XXVI.
+## THEOR. 23. PROP. XXVI.
 
 Aux cercles egaux, les angles egaux s’appuyent ſur circonferences egales, ſoit qu’ils S’appuyent eſtans conſtituez aux centres, ou aux circonferences.
 

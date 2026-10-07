@@ -2,7 +2,7 @@
 
 <!-- Page number: 124 -->
 
-## COROLL AIRE.
+## COROLLAIRE.
 
 Par euoeſ manſeſe quele eoſié de lheragone eſt aral au ders duamere du eerde: car le coſte de l berarone Dc ot egal auſon diametre DG par la def. du cercle.
 

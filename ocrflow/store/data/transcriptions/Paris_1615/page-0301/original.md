@@ -6,7 +6,7 @@ Soient deux nombres premiers entr’eux. A.3.B. C. ou. A& B.Ie dis que cõme Ae
 
 Autre.nent, s’il eſt poſſible, ſoit comme A à B ainſi B à vn autre, c’eſt a ſçauoir a C. Par la 23.p.7. A& B eſtans premiers, ils ſeront les plus petits qui ſoient en la meſme raiſon, & par la 21.p.7. A meſurera B, & B meſurera C. Mais auſſi A meſure ſoy meſme; donc A meſure iceux A & B’: Ainſi A & B ne ſeroient premiers, contre l’hypotheſe. Donc il n’eſt pas cõme A a B, ainſi B à C. Par meſme raiſon, il ne ſera pas cõme B à A, ainſi A, à quelque autre.
 
-## THEOR.17. PROP. XVII.
+## THEOR. 17. PROP. XVII.
 
 Si tant de nombres qu’on voudra ſont continuellement proportionnaux, deſquels les extremes ſoient premiers entr’eux; ilne ſera pas comme le premier au ſecond, ainſi le dernier à quelque autre.
 

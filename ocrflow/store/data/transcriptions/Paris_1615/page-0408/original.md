@@ -14,6 +14,6 @@ Soit A√√200. B√√128, CD4. Donc DE ſera √12; & DFs
 
 rommenſ entr’elles: car elles ſont comme 5 à 4. & DF eſt commenſ. en puiſſance ſeulement à CD; & par conſequent le rectangle CF, qui eſt S128, eſt medial; & la ligne B√√128, qui peut iceluy, auſſi mediale.
 
-### LEMME I.
+### LEMME 1.
 
 Or ce qui a eſté dit des lignes rationeles au lemme de la 19.p. de ce liure. nous le dirons außi des mediales: ſçauoir eſt que les lignes droites cammenſ. en long. à vne mediale, eſt dite mediale, Et com. à icelle, non ſeulement en long mais außi en puiſſance. Car vniuerſellement les lignes droictes commenſ. en longit, le ſont außi en puiſſance. Et i’il y a auelque ligne com. en puiſſance et long. à vne mediale, elle ſera pareilIement dite mediale, E à icelle commenſ.en long. Et puiſſance. Que ſi de techef il y a quelque ligne commenſ. en puiſſ. à vne mediale, maus incom, en long elle ſera auſtidits mediale com àicille in puiſſarce ſeulement.

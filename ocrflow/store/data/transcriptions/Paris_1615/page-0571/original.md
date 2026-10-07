@@ -4,7 +4,7 @@
 
 baſe, ſoient tirees des lignes droictes: & comme la baſe ſera 2 la baſ anſila pyramide ſera à la prramide n’agueres enßituee: mais el. eſtoit pareillement ainſi à toute la pyramide. Donepar la 9.p.5. la pyramide conſtituee ſera egale à toure la pyramide, la partie au toni ue qui eſt abſurde.
 
-## CCOROLL.AIRE.
+### CCROLLAIRE.
 
 Diecyreſdlt que les pyramides de meſmes bauieur eanſoues fur meſnes, ou egales baſes triangulaires, ſont egales entr'elles: puũ queles ſont enmeſme raiſon qus leurs baſes, leſquelles ſont poſuegales, ou vne ſeule & meſme. tani oſait au contraireque ler prramides triangulaies anſtituees ſur vne meſme ou egales baes, ſont de meſme hauteur. E que les pyramides egales, & ayans meſme hauteur, ont les baſes egales. ſielles ne ſont vne meſmé leſquelles deux ehoſis nous demonſtrerons par la premiere partis du corol. par le meſme argument don nous auons vsé en demonſt an la conuerſe des 3o & 31.p.11. ſi tant ſur la bauteir, que ſur la baſe couppes eſt conſtitues vne autrepormide &e.
 

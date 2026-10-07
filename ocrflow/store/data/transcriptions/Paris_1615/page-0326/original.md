@@ -18,6 +18,6 @@ Et conuient noter qu’en toutes diuiſions des nombres coſſiques, les denomin
 
 Sß par 294N 849n.par 4R3N
 
-### Les quotiens ſont
+Les quotiens ſont
 
 [Diagram]

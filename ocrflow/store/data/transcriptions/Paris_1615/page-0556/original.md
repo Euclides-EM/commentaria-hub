@@ -6,7 +6,7 @@
 
 Car puis que comme DE eſt aIls, ainſi IL a DF: (car DE eſt egale à A; IE, IL a B; & DF a C) & les angles EDF, KIL egaux; les parallelogrammes EF, lL ſeront egaux par la 14.p. d. pource qu’ils ont les coſtez au long des angles egaux reciproques. Et d’autant qu’aux ſommets des angles plans egaux EDF, KIL ſont esleuez en l’air les lignes egales DG, IM, leſquelles auec’les lignes des angles premierement poſez comprennent angles egaux, vn chacun au ſien: les perpendiculaires tirees de G, M, ſur les plans des baſes EF, KL; (ſçauoir eſt les haulteurs des parallelipipedes DH, IN) ſerõt egalss entr’elles par le corolaire de la precedente propoſirion Parquoy par la 31.p.11. les parallelipipedes DH, IN, ſeront egaux entr’eux, puis qu’ils ont les baſes EE, KL egales, & parcillemét les hauteurs egales: ce qu’il faloi demonſtrer.
 
-## THEOR. 32. PROP. xxxVII.
+## THEOR. 32. PROP. XXXVII.
 
 Si quatre lignes ſont proportioneles, les ſolides parallelipipedes ſemblables, & ſemblablement deſcrits ſur icelles, ſeront proportionaux: Et ſi iceux quatre ſemblables ſolides parallelipipedes ſont proportionaux; les quatre lignes ſur leſquelles ils ſeront ſemblablement poſez, ſeront auſſi proportioncles.
 

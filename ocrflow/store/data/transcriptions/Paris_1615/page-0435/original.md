@@ -12,7 +12,7 @@ Soient les doux figures rationeles AE & AF, eſtant AE plus grande que AF de CE:
 
 Car AE & AF eſtans rationeles, elles ſeront auſſi commenſ. & par la 16.p.0.AF & CF ſeront commenſ.entr'elles, & par conſequent rationeles.
 
-## THEOR. 31. PROP. XLIII,
+## THEOR. 31. PROP. XLIII.
 
 La ligne binome ne peut eſtre diuiſee en ſes noms, qu’en vn poinct ſeulement.
 

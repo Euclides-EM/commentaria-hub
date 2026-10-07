@@ -4,7 +4,7 @@
 
 ctangie de IE a EH, ſera egal au rectangle de CE, &ED eme cy deſſus a eſté dit; & par meſme raiſon auſſi au rectanclde AE aEB; & par la s comn ſent. les deux rectangies de AE & EB, item de CE & ED ſeront egaux.
 
-## THEOR.30. PROP. XXXVI.
+## THEOR. 30. PROP. XXXVI.
 
 Si dehors le cercle on prend quelque poinct, & d’iceluy vers le cercle tombent deux lignes droictes, lvne deſquelles couppe le cercle & l’autre le touche; le rectangle contenu de toute la couppante, & de ſa partie priſe dehors entre le poinct & la circonference conuexe, eſt egal au quarré de la touchante.
 

@@ -4,7 +4,7 @@
 
 2. Vne grandeur meſurant quelconque gran deur, meſure pareillemét toute grandeur que celle-la meſure. 3. Vne grandeur qui meſure toute vne grandeur, & vne oſtee, meſure auſſi le reſte.
 
-## THEOR.1. PROP. I.
+## THEOR. 1. PROP. I.
 
 Eſtans propoſees deux grandeurs inegales, ſi on retranche de la plus grande plus de la moitié, & encores du reſidu plus de la moitié, & en continuãt touſiours ainſi: Il demeurera à la fin vne grandeur plus petite que la plus petite des deux propoſees.
 

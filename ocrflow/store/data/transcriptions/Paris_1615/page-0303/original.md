@@ -18,6 +18,6 @@ Si pluſieurs nombres impairs ſont adiouſtez, & que le nombre d’iceux ſo it
 
 Ceſte demonſtration eſt auſſi aiſce: d’autant que ſi de chacun d’iceux nombres impairs on oſte l’vnité, on les rendra pairs, & par la 21.p.9. leur tout ſera pair: Et pourautant que leur multitude eſt en nombre pair, les vnitez retranchees feront vn nombre pair, lequel auec tout le reſte, qui eſt deſia nombre pair, le tout ſera pair par la 21.p.9.
 
-## THEOR. 2I. PROP. XXIII.
+## THEOR. 21. PROP. XXIII.
 
 Si pluſieurs nõbres impairs ſont adiouſtez;

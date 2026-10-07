@@ -12,7 +12,7 @@ La demonſtration de ceſte prop. eſt facile. Car ſi AC partie de la ligne ACB
 
 [Diagram]
 
-## THEOR. 2. PROP.II.
+## THEOR. 2. PROP. II.
 
 Si deux lignes droictes ſe coupent l’vne l’autre, elles ſeront ſur vn meſme plan: Et tout triangle eſt en vn meſme plan.
 

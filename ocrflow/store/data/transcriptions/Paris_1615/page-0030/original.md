@@ -26,7 +26,7 @@ Mais d’autant qu’en ce meſme liure eſt ſouuent parlé de parallelogramme
 
 Telle figure eſt touſiours l’vne de ces quatre: Quarré, Quarré long, Rhombe, Rhomboide.
 
-## PETITIONS OV DE M.ANDES.
+## PETITIONS OV DEMANDES.
 
 [Curated heading level=3 type=numbered_item: 1.]
 

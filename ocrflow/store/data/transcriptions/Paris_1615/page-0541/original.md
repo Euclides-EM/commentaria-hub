@@ -6,7 +6,7 @@ le priſme CDEPNOau priſme NOPKHI. Mais par la 1.p.6. comme BP eſt à MK; & C
 
 [Diagram]
 
-## COROLL.AIRE.
+## COROLLAIRE.
 
 De cecy reſulie que ſi quelconque priſme eſt couppé par vn plau parallel aux plans oppoſez, que la ſection eſt vne figure egale & ſemblable aux plans eppoſez. Car il a eſté demonſtré au premier priſme que le triangle GHl eſt egal, & ſemblable au triangle aBC, & partantau triangle DEF: Et il y a meſme demonſtration en tou. Le meſme ſe doit entendre des parallelipipades.
 

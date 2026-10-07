@@ -8,7 +8,7 @@ rez ſeront auſſi egaux: Mais par la 47.p.1. le quarré de BL. eſt egal aux 
 
 Parquoy s’il y à deux angles plans egaux, és ſommets deſquels ſoient esleuees en l’air des lignes droictes egales, leſquelles auec les lignes d’iceux angles premierement poſez, contiénnent angles egaus, chacun au ſien; les perpendiculaires tirees des poincts extremes dicdles lignes esleuees en l’air, ſur les plans des angles premierement poſez; ſeront egales entr'elles. Car d’autant que les angles plans BAC, EDF, ſont poſez egaux, & les lignes egales AL AL, DH esleuees en haut conſtituent les angles egaux LAB, HDE; Item LAC, HDF; il a eſté demonſtré que les perpandieulaires LM, HK. ſont egales entrales.
 
-## THEOR. 31. PROP. xxXVI.
+## THEOR. 31. PROP. XXXVI.
 
 Si trois lignes ſont proportionelles; le ſolide parallelipipede cõpris d’icelles trois lignes, eſt egal au ſolide parallelipipede compris de la moyenne; moyennant qu’iceux deux ſolides ſoient equiangles.
 

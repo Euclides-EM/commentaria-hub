@@ -8,7 +8,7 @@ par la 9 p.10. Veu donc que EF plus grand nom eſt commenſ. en long. à la rat
 
 Soit la rationele propoſee D8, & EF6. faiſant donc que comme A B9. eſt à AC5, ainſi3; 6. quarré de EF ſoit au quarré de FG; icells FG ſera √20: & partant la toute EG, ſera 6√20. qui eſt binome premier.
 
-## PROBL. 14. PROP.L.
+## PROBL. 14. PROP. L.
 
 Trouuer vn binome ſecond.
 

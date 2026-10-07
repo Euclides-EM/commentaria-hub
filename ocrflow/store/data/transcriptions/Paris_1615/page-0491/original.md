@@ -2,7 +2,7 @@
 
 <!-- Page number: 468 -->
 
-## THEOR.71. PROP. XCV.
+## THEOR. 71. PROP. XCV.
 
 Si vn rectangle eſt compris d’vne ligne rationele, & d’vn reſidu quatrieſme; la ligne qui peut iceluy rectangle, eſt ligne mineure.
 

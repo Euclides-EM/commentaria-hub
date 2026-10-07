@@ -4,7 +4,7 @@
 
 ſure, laquelle meſurant le tout & le retranché, meſureraauſſi le reſte par la 3. comm. ſent. Partant le retranché & le reſte ſeront commenſ. d’autant qu’ils ont vne commune meſure.
 
-### COBOLLAIRE.
+### COROLLAIRE.
 
 De cecy reſulte que ſi vne grandeur compoſee de deux, eſt commenſnrable à l’vne d’icelles, qu’elle le ſera auſſi à l’autre. Comme ſi AC eſt commenſurable à AB, elle le ſera auſſi à BC. Car par la ſeconde partie de ceſte prop. AB, BC ſont commenſ. donc par la premiere partie AC ſera commenſ. a chaſques parties AB, BC.
 

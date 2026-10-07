@@ -4,7 +4,7 @@
 
 du rectangle de AC, CB, c’eſt a dire à IG, par le ſcholie de la 34p.10. & d’autant que par la 1.p.6. comme EH eſt a IG, amſi FHi eſt a HG, par la 10.p.10.icelle FH, HG ſerot incommenſ. en longit. Mais elles ont eſté demonſtrees rationeles: Donc FH, HG ſont ratione les commenſ.en puiſſance ſeulement. Et par la 37 p.10. la toute FG ſera binome, & diuiſee en ſes nõs au poinct H. En la meſme maniere nous demonſtrerons auſſi FG binome eſtre diuiſee en d’autres noms à vn autre poinct K, ce qui eſt abſurde: car par la 41.p.10.elle ne peut eſtre diuiſee en ſes noms qu’en vn ſeul poinct. Donc AB bimedialſeconde ne peut eſtre diuiſee en ſes noms quau poinet C
 
-## THEOR.34. PROP. XLVI.
+## THEOR. 34. PROP. XLVI.
 
 La ligne maieure, eſt diuiſee en ſes noms, en vn poinct ſeulement.
 

@@ -1,6 +1,6 @@
 <!-- Running title: Prolegomene. -->
 
-## Sourquoy les diſciplines Mathematiques ont eſté ainſi appellees.
+## Pourquoy les diſciplines Mathematiques ont eſté ainſi appellees.
 
 Les diſciplines Mathematiques, toutes leſquelles ont la quantité pour leur obiect, ont pris leur nom de la diction Grecque uaon pa, ou bien uedueis, qui ſignifie diſcipline, ou doctrine, dont on apporte deux principales raiſons. La premiere eſt que les Pythagoriens, & Platoniciens eſtimans que Ies ames raiſonnables, eſtoient contenues en vn nombre certain & determiné, & qu’elles paſſoient d’vn corps en vn autre, (ce que toutesfois la foy Chreſtienne enſeigne clairement eſtre faux) teſmoignent que ces diſciplines mathematiques ont eu ce nom, pource que principalement par icelIes nous acquerons le reſſouuenir & la reminiſſence de ceſte ſcience, de laquelle noſtre ame (comme ils eſtimoient faulcement) eſtoit informee, & inſtruite auparauant qu’elle fuſt entree dans le corps. Mais les autres eſtiment que ces arts machematiques obtiennent le nom de ſcience & de doctrine par deſſus tous les autres, d’autant que ſeuls ils retiennent le moyen, & la raiſon de la ſcience: Car ils procedent touſi ours de certains principes cogneus auparauant, pour faire les demonſtrations des concluſions;’ qui eſt le propre deuoir de la doctrine ou diſcipline; ce que ne font pas toutes les autres diſciplines: car bien ſouuent elles amenent pour confirmer ce qu’elles veulent monſtrer, les choſes qui n’ont pas eſté aſſez expliquees ny demonſtrees auparauant.
 

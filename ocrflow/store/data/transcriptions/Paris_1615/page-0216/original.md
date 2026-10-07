@@ -4,7 +4,7 @@
 
 dinſi que le triangle ABC, au triangle DEF par la 15 p..5. pource que ces triangles ſont moitiez d’iceux rectangles par la 41.pI. (Car ils ont meſmes baſes qu’iceux AC, DF; & meſmes hauteurs BG, EH; & partant entre meſmes paralleles) donc auſſi le triangle ABC ſera an triangle DEF, comme le rectangle deAB, AC; eſt au restangle de DE, DF: ce qui eſtoit propoſé.
 
-## cO ROLLAAIRE.
+## COROLLAIRE.
 
 De ce yreſulte que les parallelogrammes equiangles ſont auſſi entr’eux, en la meſme raiſon que les rectangles compris ſous les coſtez des angles egaux, puis qu’ils ſont doubles d’iceex triangles.
 

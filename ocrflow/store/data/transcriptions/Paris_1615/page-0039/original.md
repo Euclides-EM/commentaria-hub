@@ -4,7 +4,7 @@
 
 Iautre coſte CB, eſt pareillement egal à iceux, comme al aduient au triangle equilateraliou bien inegal, comme il arriue au triangleIſoſcelles Ils enſuit neceſſairemens, que les angles de deſſus la baſe Bc, ſont egaux entr eux, & ceux de deſſous la meſme oaſe auſi epaux onireux, comme il apert par la demonſtration cy deſſu.
 
-## THEO.3. PROP. VI.
+## THEO. 3. PROP. VI.
 
 Si vn triangle a deux angles egaux entr eux; les coſtez ſouſtendans iceux angles ſeront auſſi egaux entr'eux.
 

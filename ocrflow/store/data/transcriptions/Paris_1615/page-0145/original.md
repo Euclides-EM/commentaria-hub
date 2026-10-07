@@ -8,7 +8,7 @@
 
 Car puiſque par conſtruction les deux angles ſoubs le poinct A Iont egaux, ayant eſté le total couppé en deux egalement. & I’anglé droict G egal a l’angle droict L, & le coſté FA commun aux deux triangles AGF, ALF, par la 26.p.1. les deux antres coſtez ſeront egaux, ſçauoir AG à AL, & FG à FL: nar meſme diſcours FH, FI, FK, ſe trouueront egales: & partant. Ie cercle deſcrit de F & interualle FG paſſe par les poincts G. H, I, K, L, eſquels il touche les coſtez du pentagone pronoſé par le coroll. de la 16.p.3. le cercle GHIKL eſt donc inſerit. au pentagone donné.
 
-## PROB.14. PROP. XIIII.
+## PROB. 14. PROP. XIIII.
 
 A l’entour d’vn pentagone equiangle & equilateral, deſcrire vn cercle.
 

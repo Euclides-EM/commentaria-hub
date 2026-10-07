@@ -20,7 +20,7 @@ Sor le cercle donné ABC, dans lequelil faut deſcrre vn quairé.
 
 Soient menez les deur diametres AC, & BD ſe couppans au centre E en angles droicts, & ſoient menets ſes quatre ligues Ap, Ec bei c DA le dis que An’C Deſt quarre inſerit au cercle donné. Sat d’autant que les 2. anges aupoinct E ſont droicts & egaux mr la conſtroction, les quatre ares auſquels ils inſſtent ſeiot egaux parla as.py & partat les lignes droictes ſouſtédas ieens ſeront auf egales pat la 2s p; donc tous les coſtez du qudtiſatere a’nCb ſeront egaur eut eux Mais les angſes diceluy ſont auſſ droicts par la ir.p.i puis qu iis ſont ious ademy eeieſe: donc le quidrilatere aBc p’eſt quare iſ. ent au cercle propoſé.
 
-## PROB.7. PROP. VII.
+## PROB. 7. PROP. VII.
 
 Aentour d’vn cercle done, deſenre v
 

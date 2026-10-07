@@ -4,7 +4,7 @@
 
 Car BA& CD eſtans paralleles, l’angle ACD ſera egal à ſon alterne A, par la 29.p.1. auſſi AC eſtant parallele à DE, l’angle D ſera egal à ſon alterne ACD: ainſi l’angle D ſera egal à l’angle A, & par la 6.p.6. les deux triangles ſeront equiangles; donc l’angle ACD eſtant egal à l’angle A, l’angle DCE à l’angle B.il eſt euident que les trois angles au point C, ſeront egaux aux trois angles du triangle BAC, c’eſt à dire à deux droits par la 32. p.1. & par la 14.p.1. les deux lignes BC, CE ſe rencontreront directement: ce qu’il falloit prouuer.
 
-## THEO.23. PROP. XXXIII.
+## THEO. 23. PROP. XXXIII.
 
 Aux cercles egaux, les angles tant au centre qu’en la circonference, ſont entr’eux, comme les circonferences qui les ſouſtiennẽt. Les ſecteurs ſont auſſi de meſme entr'eux.
 

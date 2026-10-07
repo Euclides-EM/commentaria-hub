@@ -10,7 +10,7 @@ Soient deux lignés droictes AB & CD, ſur leſquelles tombant la ligne droicte
 
 [Diagram]
 
-## THEO. 19. PROP. XXVIII..
+## THEO. 19. PROP. XXVIII.
 
 Si vne ligne droicte tombant ſur deux lignes droictes, faict l’angle exterieur egal à ſon oppoſé interieur du meſme coſté; ou bien les deux interieurs de meſme coſté egaux à deux droicts; icelles lignes ſeront parallelles. Soient deux lignes AB & CD, ſur leſquelles tombant vne autre ligne EF, elle faict l’angle exterieur EGA egal à GHC ſon oppoſé interieur de meſme coſté. Ie dis que AB & CD ſont parallelles. Car puis que l’angle GHC eſt poſé
 

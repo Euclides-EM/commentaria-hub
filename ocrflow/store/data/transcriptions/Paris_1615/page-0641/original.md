@@ -4,7 +4,7 @@
 
 # ELEMENT QVINZIESME.
 
-## PROB.1. PROP.I.
+## PROB. 1. PROP. I.
 
 ANS vn cube donné, inſcrire
 

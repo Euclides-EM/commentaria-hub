@@ -6,7 +6,7 @@ gne CE. Pour autant que les deux triangles ABC & DBF sõt egaux, ils auront vne
 
 Pour la ſeconde partie, elle ſe prouuera comme en la precedente, en retrogradant par la 1.p.6.11.p.5. & 9.p.5.
 
-## THEOR. 1I. PROP. XVI.
+## THEOR. 11. PROP. XVI.
 
 Si quatre lignes ſont proportionneles; le rectangle compris des extremes, eſt egal à celuy des moyennes; & ſi le rectangle compris des extremes, eſt egal au rectangle compris des moyennes; les quatre lignes ſont proportion neles.
 

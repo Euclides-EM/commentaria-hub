@@ -4,7 +4,7 @@
 
 # ELEMENT HVICTIESME.
 
-## THEO. I. PROP. I.
+## THEO. 1. PROP. I.
 
 Si tant de nombres qu’on voudra ſont cõ tinuellement proportionnaux, & les extremes ſont premiers entr’eux; ils ſeront les plus petits de leur raiſon.
 

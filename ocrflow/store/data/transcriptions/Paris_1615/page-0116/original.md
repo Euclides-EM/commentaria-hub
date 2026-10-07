@@ -22,4 +22,6 @@ Nous auons enſeigné en noſtre Geometrie practique Prob.20.
 
 vne autre maniere beaucoup plus facile que celle cy deſſus.
 
-## THEOR. 16. PROP. XVIII. Si vne ligne droicte touche vn cercle, & du
+## THEOR. 16. PROP. XVIII.
+
+Si vne ligne droicte touche vn cercle, & du
