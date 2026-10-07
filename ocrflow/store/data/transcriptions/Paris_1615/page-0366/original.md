@@ -10,9 +10,9 @@ Item s’il y a equation entre (10q & 20: il y aura auſſi equation entre 10q. 
 
 Que ſi quelqu’vn propoſoit vne equation eſtre √c 8. & 3.il y auroit auſſi equation entre leurs cubes 8 & 27. Ce qui eſt impoſſible. Par quoy en ces equations il eſt neceſſaire que le nombre abſolu ſoit la racine du nombre auec lequel eſt le ſigne radical: telle qu’eſt l’equat ion d’entre √c8 & 2. Item entre √e 64 & a: Item entre √81 & 9. &c. Autrement l’equatiẽ ſera impoſſible.
 
-De l’extraction des racines des binomes
+De l’extraction des racines des binomes & reſidus.
 
-## & reſidus. CHAP. XXIIII.
+## CHAP. XXIIII.
 
 {dropcap:C|lines=3|style=plain}Vand deux quelconques nombres ſont conioincts par le ſigne , ils ſont ordinairement nommez Binome?
 

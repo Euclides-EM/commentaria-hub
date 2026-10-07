@@ -6,7 +6,7 @@
 
 Ceſte conſtruction a eſté retenuë par tous les Interpretes d’Euclide. excepté Dounot qui l’a chãgee: car à l’extreme de la moindre ligne, il en poſe vne egale à la plus grande; quoy faiſant il aduient que d’icelle plus grande ligne donnee, il n’en couppe pas vne egale à la moindre, comme eſt requis, ains ſeulement d’vne egale à icelle.
 
-## THEOREME I. PROP. IHII.
+## THEOREME I. PROP. IIII.
 
 Si deux triãgles ont deux coſtez egaux à deux coſtez, chacun au ſien; & l angle contenu d’iceux, egal à l’angle: la baſe ſera ſera egalle à la baſe; & les autres angles, egaux aux autres angles chacun au ſien; & le triangle egal au triangle.
 

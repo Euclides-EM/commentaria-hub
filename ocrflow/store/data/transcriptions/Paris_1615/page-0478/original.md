@@ -6,7 +6,7 @@ la toute AC, & faiſant le compoſé de leurs quarrez rationel. & le rectangle 
 
 Car ſi faire fe peut en ſoit adiouſtee vne autre BD ſelon le requis. Il ſe prouuera comme en la 80. p.10. qu’il y a meſme excez entre le compoſé des quarrez de AC, BC, & le compoſé des quarrez de AD, BD, qu’entre deux fois le rectangle de AC, BC, & deux fois le rectangle de AD, BD.. Mais l’excez d’entre les quarrez eſt rationel par le lemme qui ſuit la 42.. prop.10. pource que llvn & l’autre compoſt eſt rationel: donc auſsi l’excez d’entre les rectangles ſera rationel, contre la 27.p.10. Car iceux rectangles eſtas mediaux l’excezd’iceux ne peut eſtre rationel. Donc à la ligue mineure AB on n’a peu adiouſter autre ligne conuenable que BC.
 
-## THEOR. 66. PROP. LxxXIIII.
+## THEOR. 66. PROP. LXXXIIII.
 
 A la ligne faiſant auec vne ſuperficie rationele vn tout medial, s’accorde vne ſeule ligng incommenſurable en puiſſancé à la toute, cõprenant auec icelle vn rectangle rationel, mais le compoſé de leurs quarrez medial.
 

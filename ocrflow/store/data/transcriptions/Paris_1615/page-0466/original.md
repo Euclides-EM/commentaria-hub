@@ -4,7 +4,7 @@
 
 AC & BC, eſt au compoſe des quarrez de DF &FE, commIe quarré de CB au quarté de r’E & que par la 22 p.6. comme le quarré de CB au quarré de FE, ainſi le rectangle de Ac CBC, au rectangle de DE & FE, par la 11.p5 Le compoſe ſera au compoſé, comme le rectangle au rectangle. Et en chageant, comme le compoſé des quarrez de AC & BC eſt incommenſ à leur rectangle, auſſ le compoſé des quarrez de Dr aTE eſt incommenſ. à leur rectangle, &parla 22proDE eſt ligne pouuant deux mediaux.
 
-## THEOR.54. PROP.LXXII. Six7.
+## THEOR.54. PROP.LXXII. Six. 7.
 
 Si vne ſuperficie rationelle, & vne mediale ſont ioinctes, la ligne qui peut tout le compoſé eſt binome, ou bimediale premiere, ou ligne maieure, ou ligne pouuant vn rationel & vn medial.
 

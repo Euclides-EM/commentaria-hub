@@ -2,7 +2,7 @@
 
 <!-- Page number: 310 -->
 
-## De la reduction d’equation.
+De la reduction d’equation.
 
 ## CHAP. VIII.
 

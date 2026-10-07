@@ -2,7 +2,7 @@
 
 <!-- Page number: 574 -->
 
-## COROLL AIRE.
+### COROLLAIRE.
 
 Des choſes cy deſſus demonſtrees, reſulte que ſi en vn aureſpheré.
 

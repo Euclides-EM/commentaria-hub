@@ -8,7 +8,7 @@ Soient donnees deux grandeurs commenſurables AB, CD, & il faut trouuer leur plu
 
 Car purs qu’elle meſure AB, elle meſurera suſſi CE ſon egale: & ſe meſurant ſoymeſme, elle meſurera auſſi la toute BE, par la 1. com. ſent. Que ſi on nie qu’elle ſoit la plus grande commune meſure, qu’Ou en trouue vlie autre plus grande, ſçauoir G, (S’il eſt poſſible) donc par les com ſeut. G meſurera AB, CD, & le retranché CE egal a AB, & par conſequent le reſte FG, qui eſt plus petit: ce qui eſt impoſſible: donc vne plus grande grandeur que ED, n’eſt commune meſure d’icelles AB, CD: P’artant LD eſtoit la plus grande commune meſure.
 
-## COROLL.AIRE.
+### COROLLAIRE.
 
 De cecy eſt manifeſte que ſi vne grandeur meſure deux grandeurs, qu’elle meſurera außi la plus grande cmmuxe meſure d’icetles. Car nl a eſte demonſtré que ſi G meſure A8 & CD, qu eite meſurera außi leur plus grande commune meſure ED.
 

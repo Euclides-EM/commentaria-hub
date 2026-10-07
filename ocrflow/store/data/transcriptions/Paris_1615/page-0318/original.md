@@ -6,7 +6,7 @@ On fera encore la meſme choſe, prenant deux quels conques nombres qui multipli
 
 Or le contraire de ce que deſſus, ſe fera rendant a chaſque caractere incompoſé ſon expoſant; puis multipliant iceux expoſans enſemble. Comme pour exemple, ſi nous voulons auoir l’expoſant de qqc. nous rendrons à chaſque caractere ſon expoſant particulier, c’eſt a ſçauoir2, 2,3, leſquels multipliez enſemble font 12, qui ſera l’expoſant dudit ſigne coſsique qqc. & ainſi faut-il entendre des autres.
 
-## De la numeration des nombres coßiques.
+De la numeration des nombres coßiques.
 
 ## CHAP. III.
 

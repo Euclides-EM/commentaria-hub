@@ -8,7 +8,7 @@ Or il y a encore pluſieurs autres manires d’adiouſter les racines cõmenſ.
 
 45(√50. ſomme des racines √18 & √8. propo. à adiouſter.
 
-## De la ſouſtraction des racines ſimples.
+De la ſouſtraction des racines ſimples.
 
 ## CHAP. XVI.
 

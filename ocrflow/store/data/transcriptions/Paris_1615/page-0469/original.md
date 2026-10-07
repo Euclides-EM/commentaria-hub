@@ -12,7 +12,7 @@ Le quarré d’vne ligne pouuant vn rationel & vn medial, faict l’autre coſt
 
 Le quarré d’vne ligne pouuant deux mediaux, faict l’aut re coſté binome ſixieſme, par la 66.p.10. MMais il faut touſiours entendre qu’ils ſoient appliquez, ſur vne li. gne rationele. Et puis que tous ces coſtez ſont differens entr'eux, il eſt manifeſte que toutes icelles lignes irrationelles ſont differentes entreoles.
 
-## ICY COMMENCENT LE. S
+ICY COMMENCENT LES
 
 ſixaines des lignes irrationelles par le retranchement.
 

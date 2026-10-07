@@ -2,7 +2,7 @@
 
 <!-- Page number: 412 -->
 
-## LE MME 2.
+### LEMME 2.
 
 Vne figure rationele exeede vne figure rationele, d’vne Igure rationele.
 

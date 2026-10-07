@@ -12,7 +12,7 @@ Soit faicte conſtruction cõme en la precedente ſur la tationele CD: les rect
 
 Si Aeſt √50. & B√48. la ligne pouuant la compoſee d’icelles ſera √√18√√8, qui eſt bimediale ſeconde: mais ſi Aeſt √12, & N8, Iadite ligne pouuant icelles ſera √(√12—√8), ou bien√(√3 1 √(√3I), qui eſt ligne pouuant deux mediaux.
 
-## COROLAIRE.
+### COROLAIRE.
 
 De toutes ces choſes on peut facilement colliger que le binome ca les autres lignes irrationeles qui ſuyuent icelle, ſont differentes entreeHles, & à la mediale. Car le quarré d’vne ligne mediale, appliaua ſur vne ligne rationele, faict l’autre coſté rationel commenſ. en ouiſſince ſeulement à la rationele à laquelle il eſt appliqué par la 23p. 10.
 

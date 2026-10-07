@@ -18,7 +18,7 @@ uiſee par —, viendraV;S, c’eſt à dire √18
 
 Quant à la preuue de chacune de ces operations, elle ſe faict par ſa contraire, c’eſt à dire que laddition ſe preuue par la ſubſtraction; & la ſubſtraction par l'addition, &c.
 
-## Des nomhres coßiques irrationaux, & de leur Algorithme.
+Des nomhres coßiques irrationaux, & de leur Algorithme.
 
 ## CHAP. XXIII.
 

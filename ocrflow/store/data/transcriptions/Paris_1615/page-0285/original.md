@@ -10,4 +10,4 @@ Parquoy il eſt facile de trouuer deux nombres plans, ou ſolides non ſemblable
 
 Derechef, s’il y a deux nombres, deſquels l’vn ſoit quarré, &l’ autre non quarre, comme 16. & 20. ils ne ſont plans ſemblables. Car autrement par la 26.p.8. ils ſeroient comme quarré a quarré: &16. eſtant quarré, par la 24.p.8.20. ſeroit auſſi quarré, contre l’hypotheſe. Par meſme raiſon, ſi de deux nombres, l’vn eſt cube, &l autre ne l’eſt pas; comme 27 & 40.ils ne ſont pas ſolides ſemblables. Car s’ils l’eſtoient, par la 27.p.8.ils ſeroient comme cube à cube &27. eſtant cube par la 25.p.8. 40 ſeroit auſſi cube, contre l’hypotheſe.
 
-## Fin du huictieſme Element.
+Fin du huictieſme Element.

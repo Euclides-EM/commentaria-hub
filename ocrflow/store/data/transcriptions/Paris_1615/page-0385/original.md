@@ -6,7 +6,7 @@ la 3.p.10. Si D meſure auſſi C, il eſt manifeſte que D eſt la Plus grande 
 
 [Diagram]
 
-## COROLLAAIRE.
+### COROLLAAIRE.
 
 Par cecy eſt euident que ſi vne grandeur meſure trois grandeurs. qu’elle meſure auſſi la plus grande commune meſure d’icelles. Car il a eſté demonſtré que ſi F meſure A,B,C, qu’elle meſurera pareillement E plus grande commune meſure d’icelles.
 

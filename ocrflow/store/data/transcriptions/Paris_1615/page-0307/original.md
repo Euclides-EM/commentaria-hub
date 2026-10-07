@@ -16,6 +16,6 @@ Soit le nombre impair A. premier à quelque nombre B, duquel le double ſoit C.
 
 Tous les nombres qui ſuiuent le binaire en progreſſion double, ſont ſeulement pairement pairs.
 
-Soient depuis le binaire A tant de nombres qu’on voudra B, C, D, E, continuellement proportionnaux en taiſon double. Ie dis qu’ils ſont tous pairement pairs, & qu’il n’7 en a point d’autres. Quil ne ſoit ainſi. Soit priſe l’vnité, & puiſque depuis l’vnité A, B,C,D,E, ſont cõtinuellement prop.le plus petit meſurera Ie plus grand ſelon quelqu’vn de ceux qui ſont entre les pros port. par la 11.p9 leſquels eſtans tous pairs, il eſt euident par les der.du y que B, C,D,E, ſeront pairement pairs, & tous les
+[Diagram]
 
-## Vnité. A2.B4. C8. D16.E32
+Soient depuis le binaire A tant de nombres qu’on voudra B, C, D, E, continuellement proportionnaux en taiſon double. Ie dis qu’ils ſont tous pairement pairs, & qu’il n’7 en a point d’autres. Quil ne ſoit ainſi. Soit priſe l’vnité, & puiſque depuis l’vnité A, B,C,D,E, ſont cõtinuellement prop.le plus petit meſurera Ie plus grand ſelon quelqu’vn de ceux qui ſont entre les pros port. par la 11.p9 leſquels eſtans tous pairs, il eſt euident par les der.du y que B, C,D,E, ſeront pairement pairs, & tous les

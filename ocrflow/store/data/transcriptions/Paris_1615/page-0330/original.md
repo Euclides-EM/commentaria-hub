@@ -6,7 +6,7 @@
 
 14bſ—24 4+8N
 
-## Exemples de la ſouſtraction.
+### Exemples de la ſouſtraction.
 
 7N
 
@@ -18,7 +18,7 @@ AN
 
 S 3R 224 9qSNt, nc—+164+8R 2544 Ae, reſteront: Item — de — i6N 266N SR—t 2 2nI3 11c7q reſteront—. 22c6N 22.
 
-E xemples de la multiplication.
+### Exemples de la multiplication.
 
 Multipliant — parviennent : Item par 84 AR 4R 24 int
 

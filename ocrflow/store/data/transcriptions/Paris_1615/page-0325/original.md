@@ -4,7 +4,7 @@
 
 Aux ſignes ſemblables faut poſer ;mais aux diſſemblables faus poſere.
 
-Exemples de la multiplication.
+### Exemples de la multiplication.
 
 +4R. 7404E.
 
@@ -30,7 +30,7 @@ Exemples de la multiplication.
 
 Et d’autant que comme il a deſia eſté dict, le ſigne n’eſt bien au commencement, on doit colloquer le produict ainſi. 75ſ—364c.—12594.+8oc —644.
 
-## Exemples de la diuiſion.
+### Exemples de la diuiſion.
 
 biuiſer 36 n+24 (9 n6
 

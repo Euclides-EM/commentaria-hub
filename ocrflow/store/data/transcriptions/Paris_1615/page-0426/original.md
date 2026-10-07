@@ -6,7 +6,7 @@ la conſtruction comme en la precedente. Ie dis que BF & FA ſont les deux ligne
 
 ### SCHOLIE.
 
-## Si AB eſt √√ 431, & BC√√48: BD ou EF ſera √√3, & AE
+Si AB eſt √√ 431, & BC√√48: BD ou EF ſera √√3, & AE
 
 √(√108√72), mais BF eſt√√√108√72): & partant iœelles AF. BF ſont icommen ſ en puiſſance, & le composè de leurs quarrez, ſçauoir eſt √432, eſt medial: mais le rectangle compris d’icelles, ſçauoir eſt √36, c’eſt à dire 6, est rationel.
 

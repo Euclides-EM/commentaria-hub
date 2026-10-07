@@ -4,7 +4,7 @@
 
 # SOMMAIRE DE L’ALGEBRE.
 
-## Que c’eſt qu’Algebre; qui en eſt l’inuenteur; de qu’elles figures & caracteres on ſe ſert en icelle, & leur ſignification:
+Que c’eſt qu’Algebre; qui en eſt l’inuenteur; de qu’elles figures & caracteres on ſe ſert en icelle, & leur ſignification:
 
 ## CHAPITRE. I.
 

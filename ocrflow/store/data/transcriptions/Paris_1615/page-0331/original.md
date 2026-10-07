@@ -6,7 +6,7 @@
 
 part8N, viendront225ſſ35a
 
-## Exemples de la diuiſion.
+### Exemples de la diuiſion.
 
 Diuiſant — par —, viendront — ou : Icem 8q
 

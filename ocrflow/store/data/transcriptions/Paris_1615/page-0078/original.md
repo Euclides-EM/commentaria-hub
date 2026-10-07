@@ -8,4 +8,4 @@ Sois letiangle donnt Anc, & ſoit le quatré du coſté BCegal aux deux quarre
 
 [Diagram]
 
-## Fin du premier Element.
+Fin du premier Element.

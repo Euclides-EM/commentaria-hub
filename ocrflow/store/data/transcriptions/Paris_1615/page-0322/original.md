@@ -16,7 +16,7 @@ Or tous les preceptes de l’addition & ſouſtraction enſeignez cy deſſus, a
 
 Quant à la preuue de l’addition & ſouſtraction, elle ſe fait en deux manieres: la premiere, l’addition preuue la ſouſtraction, & la ſouſtraction l’addition, tout ainſi qu’on faict és nombres abſolus.
 
-## Exemples de la preuue des trois dernieres additions &- ſouſtractions.
+### Exemples de la preuue des trois dernieres additions &- ſouſtractions.
 
 [Diagram]
 
@@ -26,6 +26,6 @@ qc. 8. 99. c. R. N. 14+5—3—1I—48. +II11√0+0.
 
 7O8E0—4—8.
 
-## Preuue de la ſouſtraction.
+### Preuue de la ſouſtraction.
 
 [Diagram]

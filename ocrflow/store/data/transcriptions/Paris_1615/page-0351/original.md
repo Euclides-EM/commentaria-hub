@@ -14,7 +14,7 @@ V3245. √52—5. √241—32. 24—242 24√320.
 
 Et eſt à noter pour briefueté, que les deux particules d’vn nombre compoſé ſe rencontrans du tout egales à deux particules d’vn nombre diminué, il faut ſeulement doubler la derniere particule de l’vn des nõbres. Comme pour ſouſtraire V125, de√12—5. Ie double la derniere particule 5, & vient Ie nombre 1o, pour reſte de la ſouſtractiõ. Ainſiio 4, oſtez de 10 V a reſteront √16, c’eſt à dire 4: Item√11√ foſtee de √12—√5, reſtent √20. Et ce d’autant que deſtruit ; mais & lſe doiuent adiouſter.
 
-## De la multiplication des nombres irrat ionaux compoſez & diminuez.
+De la multiplication des nombres irrat ionaux compoſez & diminuez.
 
 ## CHAP. XIX.
 

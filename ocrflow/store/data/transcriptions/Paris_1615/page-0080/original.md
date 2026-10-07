@@ -6,6 +6,8 @@ qui comprennent vn ſeul angle droict: tellement que le parallellog. rectangle E
 
 Et eſt icy à noter, qu’en ce ſecond liure, & és autres ſuiuans, Euclide appelle les parallellog. rectangles, ſimplement rectangles: ce que obſeruent auſſi les autres Geometres, tellement que par le nom de retangle, il faut touſiours entendre parallellograme rectangle.
 
+[Curated heading level=3 type=numbered_item: 2.]
+
 2. En tout parallellograme, l’vn des parallellogrames deſcrits à l’entour du diametre auec les deux ſupplemens, eſt appellé GnomOD. Au parallellograme ABCD (en la figure de la 4. propoſition de ce liure) ſoit menée la diagonale BC, & EP parallelle à AC couppant la diagonale en I, & par iceluy poinct 1 ſoit menee GH parallelle à AB: & le parallellograme ſera diuiſe en 4. parallellog. deux deſquels EG, & HF ſont dicts eſtre deſcrits à l'entour du diametre ou diagonale, mais les autres deux ſont appellez ſupplemens. Or la figure compoſee d’iceux ſupplemens & de l’vn ou l’autre des parallellogrames d’alentour la diagonale, ſera dicte Gnomon, comme la figure FACDHI, ou EDBAGI.
 
 ## THEO. 1. PROP. I.

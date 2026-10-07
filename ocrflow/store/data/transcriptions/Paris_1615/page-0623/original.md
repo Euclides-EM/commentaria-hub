@@ -4,7 +4,7 @@
 
 par le corol.de la 8.p.6 e quarre de AB ſera au quarre de BD, comme AB à BC par le corol.de la 20.p.6 & partant AB eſtat quintuple de BC, auſſi le quarré de AB ſera quintuple du quarré de BD.) Donc les quarrez de TZ, AB ſont egaux; & partant les lignes TZ, AB, & les ſpheres deſcrites alentour d’icelles ſeront egales. Ie dis finablement que le coſte de l’icoſaedre eſt ligne irtationele, appellee ligne mineure: ce qui eſt euident par la 11.p. 15. eſtant par la 6.p.10. le demy diametre EF, ou ſon egale BD, ligne rationele commenſurable en puiſſance à la poſee rationele AB, de laquelle nous auons monſtre que le quarre eſtoit quintuple du quarre de BP. Nous auons donc faict ce qui e, ſtoit propoſe.
 
-## COROLLAAIRE.
+### COROLLAAIRE.
 
 De cecy reſulte que le quarré du diametre de la ſphere eſt quin uz ple du quarré du ſemidiametre du cercle comprenant ; coſtes del’icoſaedre
 

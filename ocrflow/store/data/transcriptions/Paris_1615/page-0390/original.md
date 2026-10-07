@@ -16,6 +16,6 @@ Soient quatre grandeurs proport. A, B, C, D: ſi A eſt commenſurable à B, Ie
 
 Car ſi A eſt commenſurable à B, ils ſeront entr’eux comme nombre à nombre, par la 5.p.10: Mais comme A à B, ainſi C à D; Partãt C eſt à D, comme nombre à nombre; & par conſequent cõmenſ. par la 6p.10.Que ſi A eſtoit incommenſ. à B: Ie dis que C ſeroit auſſi incommenſurable à D: Car A & B ne ſeroient pas comme nombre à nõbre par la 7.p.10. Mais comme A à B, ainſi C àD: donc C n’eſt pas à D comme nombre à nombre, & par conſequent incommenſ. par la 8.p.10.
 
-## L’E MME.
+### L’EMME.{printer-error-correction:LEMME.}
 
 Trouner deux nombres plans diſſemblables, c’eſt à dire, qui ne ſoient entr’eux comme nombre quarré à nombre quarré.

@@ -6,7 +6,7 @@
 
 Si tant de nombres qu’on voudra ſont continuellement proportionnaux; iceux eſtans multipliez chaſcun par ſoy, leurs produicts ſeront auſſi continuellement proportionnaux: & ſi chaſcun multiplie encores ſon produit; les derniers produicts ſeront auſſi continuellement proportionnaux: & cela aduiendra touſiours enuiron les extremes.
 
-## A1. B4. C8. D4. N8. E16. O32 F6a
+[Diagram]
 
 Soiẽt trois nombres continuel G8. P16. O32. H64. R128 S256. I5u. lement proportionnaux A, B, C. Et qu’iceux ſe multiplians chaſcun par ſoy produiſent D, E, F. Item que les meſmes multiplians chaſcun ſon produict facent G, H, I. Ie dis que D, E, I, &G,H, I, ſont entr’eux continuellement proportionDaUX.
 

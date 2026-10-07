@@ -4,7 +4,7 @@
 
 tre deſdits ſignes. Or le ſens des nombres compoſez, diminuez, ou mixtes eſt facile: car quãd nous diſõs ; n +8q.nous entendons ; racines enſemble auec 8 quarrez, c’eſt à dire 2 vnitez, ſi la racine eſt 2, & le quarré 4. ainſi auſſi quand nous diſons 8q—s n nous entédons que de S quarrez, ſont oſtez 5.racines; c’eſt à dire que le nombre propoſé eſt 22 vnitez, ſi la racine eſt 2, & le quarré 4. & le meſme faut-il dire des autres.
 
-## De l’addition & ſouſtraction des nombres coßSiques.
+De l’addition & ſouſtraction des nombres coßSiques.
 
 ## CHAP. IIII.
 

@@ -4,7 +4,7 @@
 
 deſ. des ſolides ſemblables: & par la meſme demonſtration qaeſie faige alaay pautles deux ſoiſdes Ax &EO ſerout ſenoſables, ayansles viois coſter an, AD, Ac, proportionirauxuou coſtes EE, EH. Ec. uſes ouroice ſeiontauſt propottionaux epar conſequent les ſix plans proportopaux ano plansmdiais les ſoildes AK dEo, eſtaius ſenblables, iie ſeronten raiſon tnolee de ſeur coſtez pomolopues ac. Fc prlau puc rt comne le ſoide 2x eſt au ſoude Eo aſ uprtamide ducD eſt ala prramide Eron: (ear chcune pramde eitia ſneſme parue de ſon ſonde, d’autaut que par lid. par cneu ſolide peut eſtre diuiſé en deux priſeieeaur, &ehaeun priſme en trois pyramides egles par unpprtant la it pi, les pramides ſont auſt, en faiſontuplecdes eoſtes de memne maiſonac, &EG.Ce qun follois prouuer.
 
-## CcOROLLAIRE.
+### COROLLAIRE.
 
 Duereſt moiſce, q’auſfrle ppanides ſoblabo, deſaeole les doſ ont pus de troi uſué, ſonten roiſonmoplue ai lons efu
 

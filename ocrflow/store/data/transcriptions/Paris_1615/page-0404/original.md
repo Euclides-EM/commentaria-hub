@@ -20,6 +20,6 @@ Car ſur DC, ſoit faict le quarre AD, lequel ſera rationel par la 8. d.10. Et 
 
 Soit le rectangle DB6, & la ligne CD √3: BC ſera donc√12. qui eſt commenſ. en longitude à √3. Car elle eſt double d’icelle. S’oit derechef DB 12, & la ligne droicte CD√8, l’autre coſté BC ſera √18, qui eſt commenſ. en longitude à CD√8. Car ſi on diuiſe √18, par 8, prouiendra √2), c’eſt à dire √? qui eſt?: & partant √18 eſt à √8. comme; à 2, c’eſt à dire comme nombre à nombre; & par conſequer commenſ. en longitude.
 
-## LEMME.
+### LEMME.
 
 Trouuer deux lignes droictes rationeles commenſurables en puiſſance ſeulement.

@@ -6,7 +6,7 @@ Soient tant de nomPaité. A. B. C. D. E. F.
 
 bres qu’on voudra conI.
 
-## 3. 9. 27. 81.243.729.
+[Diagram]
 
 tinuellement proportionnaux depuis l’vnité, A, B, C, D, E, F. Ie dis que le troiſieſme B ſera quarré, enſemble tous les autres qui en laiſſeront. vn de l’ordre, comme D & F: en apres que le quatrieſme C eſt cube, & tous les autres en laiſſant deux nombres, comme F. Pareillement que le ſeptieſme F eſt cube & quarré ensẽble. & d’autres qui pourroient ſuiure en laiſſant cinq nombres.
 

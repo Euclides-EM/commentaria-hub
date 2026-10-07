@@ -4,7 +4,7 @@
 
 3N. laiſſent aq-1c.7N. donc 7c..9—+10N, reſouls en nombres abſolus ſelon la progreſſion dont la racine eſt3, font 118; & 4 4—.1c7, font 2, qui adiouſtez à I8, font 120; & 6c—54—3N font auſſi 110: & partant la ſouſtractiõ a eſté bien faicte.
 
-## De la multiplication & diuiſion des nombres coßiques.
+De la multiplication & diuiſion des nombres coßiques.
 
 ## V. CHAP.
 

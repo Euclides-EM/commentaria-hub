@@ -12,6 +12,6 @@ Pour la ſeconde partie: Si A eſt cube, auſſi tous les autres ſeront cubes: 
 
 Si depuis l’vnité, il y a tant de nombres qu’on voudra continuellement proportionnaux, & que celuy qui ſuit l’vnité, ne ſoit nõbre quarré: auſſi pas vn autre ne ſera quarré, ſinon le troiſieſme depuis i’vnité, & tous les autres qui en l’ordre en laiſſent vn. Que ſi celuy qui ſuit l’vnité n’eſt nombre cube: auſſi pas vn autre ne ſera cube, ſinon le quatrieſme depuis Tvnité, & tous les autres qui en l ordre en laiſſent deu x.
 
-## Vnité. A. B. C. D. E. F. 3. 9. 27. 81. 243. 729. I.
+[Diagram]
 
 Soient tant de nombres qu’on voudra continuellement proportionnaux depuis l’vnité A, B, C, D, E, F, & que A qui ſuit l’vnté, ne ſoit nombre quarré. Ie dis pour la premiere partie, que pas vn autre ne ſera quarré,

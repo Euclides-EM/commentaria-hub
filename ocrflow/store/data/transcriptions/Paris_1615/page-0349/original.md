@@ -16,7 +16,7 @@ Ceſte operation ſe faict auſſi par la regle de trois, mettant au premier & 3
 
 255 3
 
-## De l’addition des nombres irrationaux compoſez, & diminuez.
+De l’addition des nombres irrationaux compoſez, & diminuez.
 
 ## CHAP. XVII.
 

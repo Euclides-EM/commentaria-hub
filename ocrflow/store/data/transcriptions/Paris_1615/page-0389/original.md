@@ -4,7 +4,7 @@
 
 menſurables en longitude. Ie dis que leurs quarrez ne ſont entr’eux, comme nombre quarré à nombre quarré. Car ſi les quarrez de A & B eſtoient ainſi que nombre quarre à nombre quarre, icelles A& B ſeroient commenſurables en longitude contre l’hypotheſe. Finablement les quarrez de A & B n’eſtans entr’eux cõme nombre qnarré à nombre quarré. Ie dis qu’elles ſont in commenſurables en longitude. Car autrement leurs quarrez ſeroient (par la premiere partie) comme nombre quarré à nõbre quarré, contre l’hy potheſe.
 
-## COROLAIRE.
+### COROLAIRE.
 
 Il eſt maniſeſte par les choſes cy deſſus demonſtrees, que les lignes comn.en ſurables en longitude, le ſont außt. en puiſſance: mais que celles qui ſont commenſurables en puiſſance, ne le ſont pas touſiours en longitude. Que les incommerſurables en longuude, ne le ſont pas pourtant en puiſſance: & que celles incommenſ. en puiſſance, le ſont außi en longitude.
 

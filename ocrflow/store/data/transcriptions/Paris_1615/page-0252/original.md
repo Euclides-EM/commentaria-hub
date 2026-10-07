@@ -4,7 +4,7 @@
 
 Maintenant ſoit derechef AB a BC, comme DE AEF. Ie dis que par compoſition contraire de raiſon comme AB eſt a AC, ainſi DE a DF: car puiſque comme AB à BC, ainſi DE à EF: en changeant comme BC ſera a AB, ainſi EF a DE. Donr en compoſant comme AC a AB, ainſi DF a DE, & en changeant comme AB ſera a AC, anſi DE, a DF.
 
-## IIII.
+### IIII.
 
 Si les nombres compoſez ſont proportionnaux; ils le ſeront auſſi par conuerſion de raiſon. Soit comme AB a CB, ainſi OE a FE. Ie dis que par conuerſion de raiſon, comme AB eſt a AC, ainſi DB a DF. Car puis que comme AB a CB, ainſi DE a FE: en permutant par la 14.p.7. comme le tout AB ſera au tout DE, ainſi le retranché CB ſera au retranché FE: & pairtant par la 11.p.7. comme le tout AB au tout DE, ainſi le reſte AC, au reſte DF. Donc en permutant comme AB ſera a AC, ainſi DE a DF. ce qui eſtoit propoſé.
 

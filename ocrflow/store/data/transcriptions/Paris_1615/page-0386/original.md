@@ -14,6 +14,6 @@ Soient deux grandeurs A & B, qui ſoient l’vne à l’autre comme le nombre C
 
 [Diagram]
 
-## COROLAIRE.
+### COROLAIRE.
 
 Par cecy eſt euident qu’eſtant propoſez deux nombres eomme Ce D, & vne ligne droicte comme A qu’il ſera aiſe de trouuer vne au-

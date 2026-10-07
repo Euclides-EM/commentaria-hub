@@ -4,7 +4,7 @@
 
 à dire qu’en l’addition, il faut ſouſtraire le moindre du plus grand, & au nombre reſtant donner le ſigne du plus grand nombre duquel a eſte faicte la ſoubſtraction.
 
-## E xemples.
+### Exemples.
 
 [Diagram]
 
@@ -20,7 +20,7 @@ Mais s’il falloit adiouſter ces deux nombres 6q—8 n, & n R —33, il les fa
 
 Mais en la ſouſtraction, il faut adiouſter les nombres enſemble, & donner à la ſomme le ſigne du nombre ſuperieur, duquel doit eſtre faicte la ſouſtraction.
 
-## Exemples.
+### Exemples.
 
 [Diagram]
 

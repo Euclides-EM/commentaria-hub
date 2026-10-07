@@ -4,7 +4,7 @@
 
 fois le rectangle de AC & BC, que les quarrez de AD & Di ſont plus perits que les quarrez de AC & BC: Ortous iceux rectangles ſont rationaux par l’hypoteſe. Douc leur excez ſera ra tionel par le lemme qui precede la 4.p.10. & par conſequent l’excez des quarrez ſera auſſi rationel, ee qui eſt abſurde: ear iceux quarrez eſtans deſcrits ſur lignes medialesſont mediaux, & par la 27. p..0. l’excez d’iceux ne ſera rationel. Donc la ligne bimediale premiere AB ne pouuoit eſtre diuiſee en ſes noms, ſinon au poinct C.
 
-## LEMME. 2..
+### LEMME. 2.
 
 Si vne ligne droicte eſt couppee inegalement, les quarrea des deux parties ſeront plus grandes enſemble que deux fois le rectangle d’icelles parties.
 

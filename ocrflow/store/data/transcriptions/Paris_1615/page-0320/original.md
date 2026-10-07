@@ -4,7 +4,7 @@
 
 poſé au lieu de ſa figure o, auec le ſigne +, & eſtans ainſi cõſtituez, ſeront adionſtez les nombres de meſme appellation, ou oſtez l’vn de l’autre, & les ſommes, ou nõbres reſtez, ſouſcrits en leurs propres lieux, auec les meſmes ſignes ou equi ſeront trouuez és nombres adiouſtez, ou ſouſtraits.
 
-## E xemples d’Additions.
+### Exemples d’Additions.
 
 [Diagram]
 
@@ -22,7 +22,7 @@ O 08—.4. 49 +6— 9—O.
 
 +1I +8—10. 11+ 9 √14—14√4.
 
-## Exemples de ſouſtraction.
+### Exemples de ſouſtraction.
 
 [Diagram]
 

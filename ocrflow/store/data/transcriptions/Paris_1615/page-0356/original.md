@@ -2,7 +2,7 @@
 
 <!-- Page number: 333 -->
 
-## Des racines vniuerſelles, & de leur Algorithmie.
+Des racines vniuerſelles, & de leur Algorithmie.
 
 ## CHAP. XXI.
 

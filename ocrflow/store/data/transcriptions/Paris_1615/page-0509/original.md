@@ -4,7 +4,7 @@
 
 en longitude à BE: partant auſſi rationele comme icelle BE. Mais DE qui eſt auſſi rationele, n’eſt commenſurable en longitude à BE, & par la 14.p.10. FE, DE ſont rationeles cõmenſurables en puiſſance ſeulement: & partant par la 74.p. 10.FD eſt reſidu, & par conſequent irrationele; ce qui eſt abſurde: car elle a eſté prouuee tantoſt rationele: donc le reſidu A, ſera differend du binome.
 
-## COROLLAAIRE.
+## COROLLAIRE.
 
 De ces choſes on peut facilement colliger que la ligne appellee reſidu, & les cino ſortes d lignes irrationeles ſuiuantes, ſont diffcrentes de la mediale, & entr'elles. Car le quarré de la mediale applique ſur vne ligne rationele, ſaict l’autre coſte rationel commenſurableen puiſſance ſeulement à icelle rationele, par la 23.p.10.
 

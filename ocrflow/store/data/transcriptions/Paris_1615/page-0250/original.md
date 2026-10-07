@@ -20,6 +20,6 @@ Car A eſtant à B, comme E à F, le produict de A multiplié par F, ſera eg
 
 D’autant que de ſix moyens d’argumenter es proportions, leſquels Euclide a expliqué en grandeur, & demonſtré au s. liure, il en demonſtre en celuy cy ſeulement deux en nombres. Il ne ſera hors de propos de demonſtrer auſſi en nombres les 4.autres moyens, comme ont faict pluſieurs Interpretes.
 
-I.
+#### I.
 
 Si quatre nombres ſont proportiounaux; par raiſon inuerſe, ou en changeant, ils ſeront auſſi proportionnaux. Soit A à B comme. C à D. Ie dis qu’un, A...... 6. C...3 changeant comme B à A, ainſi D à G.Car, B....4 D.. 2

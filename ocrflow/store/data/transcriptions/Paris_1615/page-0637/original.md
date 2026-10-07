@@ -6,7 +6,7 @@ triangles que CFD, qui ſont en tout ſoixante triangles, defquels ſoixante rec
 
 Nous demonſtrerons ſemblablement que ſi vn triangle equilateral, comme HIK, eſt inſcrit en vn cercle, du centre duquel L, on tire ſur le coſté HK la perpendiculaire I: trente fois le rectang. de LM & HK, ſeront egaux à la ſupeficie de l’Icoſaedre. Car icelle ſuperficie contient vingt triangles equilateraux ſemblables à HIK: & chacun d’iceux ſe diuiſe en trois egaux entr’eux, & ſemblables & egaux à HLK. qui font en tout ſoixante triangles comme HLK: mais le rectangle de la perpendiculaire LM & du coſté HK, eſt double du triangle HLK, par la a1.p.1. Et par conſequent ſoirante rectangles ſeroient doubles de ſoixante triangles: Donc trete rectangles de LM& HK ſeront egaux à la ſuperbicie totil. de l’icoſaedre.
 
-## COROLL AIRE.
+### COROLLAIRE.
 
 De cecy reſulte, par la 1s p.s,que comme vn ſeul rectangle de ro & CD, eſt à vnſeul rectangle de LM & HK, ainſi la ſuperficie du dodecaedre à la ſuperficie de l’icoſaedre.
 

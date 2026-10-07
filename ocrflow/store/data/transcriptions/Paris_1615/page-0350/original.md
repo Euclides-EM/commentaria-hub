@@ -16,7 +16,7 @@
 
 Et eſt à noter pour briefueté, que les deux particules d’vn nombre compoſé, ſe rencõtrant totalement egales aux deux part icules d’vn nombre diminué, il n’y a qu’à doubler la premiere particule de l’vn d’iceux nombres. Comme pour adiouſter 15—√8 à 15—√8: Ie double ſeulement 15 &font 3o. pour la ſomme de l’addition. Item√206 adiouſtez à √20 6 font √80. & ce d’autant que les dernieres particules ſe deſtruiſent l’vne l’autre à cauſe des ſignes & -
 
-## De la ſouſtraction des nombres irrationnaux compoſez & diminuez.
+De la ſouſtraction des nombres irrationnaux compoſez & diminuez.
 
 ## CHAP. XVIII.
 

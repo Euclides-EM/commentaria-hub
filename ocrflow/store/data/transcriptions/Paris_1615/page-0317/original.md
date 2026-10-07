@@ -4,7 +4,7 @@
 
 té, doiuent eſtre denommez, ou (ce qui eſt le meſme) quels ſignes coſſiques doiuent eſtre attribuez & inſcrits auſdits nõbres: ce que nous monſtrerons facilement, ſi premierement nous denommons les nombres, deſquels les expoſans ſont nõbres premiers; de laquelle ſorte ſont les ſuyuans auec leurs caracteres coſſiques.
 
-## 2.3.5.7.1I.1. 17. 19. 21. 29.31. 37. 41. 43.47.53.59. &c. 4.c. 6.b6.eß. 4ß.eß. f8. 8ß. h6. iß. Aß. l6. mß.nß.oß.pſ. &c.
+[Diagram: 2.3.5.7.1I.1. 17. 19. 21. 29.31. 37. 41. 43.47.53.59. &c. 4.c. 6.b6.eß. 4ß.eß. f8. 8ß. h6. iß. Aß. l6. mß.nß.oß.pſ. &c. ]
 
 Or les lettres de l’alphabet appoſees aux caracteres de ß ſont au lieu de chifres, comme bß fignifie 2ß; cß, 3ß; dß, 4ß &c. &ce d’autant qu’iceux chiffres apporteroient de la confuſion.
 

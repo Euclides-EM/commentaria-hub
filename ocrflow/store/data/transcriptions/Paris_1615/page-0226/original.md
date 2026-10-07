@@ -8,7 +8,7 @@ Pour la ſeconde partie. Ie dis auſſi, que le ſecteur BDC eſt au ſecteur FH
 
 Car on prouuera aiſement (demeurant la meſme conſtruction) que les deux arcs BC, CI eſtans eſgaux que leurs cordes ſeront egalles, & les deux ſections egalles: mais les deux triangles BDC; CDI ſont auſſi egaux par la 4.p.1. lur adiouſtant donc les deux ſegmens egaux; par les communes ſentences, les deux ſecteurs BDC, CDI ſeront egaux, & l’arc BCI ſera autant multipliee de l’arc BC, que, le ſecteur BDI le ſera du ſecteur BDC: & par meſme diſcours, l’arc FGKL ſera autãt multiplice de l’arc FGque le ſecteur FHL le ſera du ſecteur FHG; la cõcluſion eſt aiſée par la 6.d.; comme en la premiere partie.
 
-## COROLLAAIRE.
+## COROLLAIRE.
 
 De cecy s’enſuit que comme le ſecteur eſt au ſecteur, ainſil angle eſt à langle. Car l’vne & l’autre à la meſme raiſon que l’arc a l’arc; & partant par la 11.p.5.ils ſeront auſſi entr’eux en la meſme raiſon.
 

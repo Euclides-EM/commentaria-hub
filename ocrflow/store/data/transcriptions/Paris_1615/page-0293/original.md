@@ -14,6 +14,6 @@ Si depuis l’vnité, il y a tant de nõbres qu’on voudra continuellement pr
 
 Depuis l’vnité A ſoient tant de nombres qu’on voud ra continuellement proportionnaux B, C,D, E, & que B qui ſuit l’vnité ſoit premier. Ie dis que le plus grand E ne ſera meſuré par aucun autre que l’vn d’iceux B, C, D.
 
-## A.1. B.3. C.9. D.27. E8I. K.00. I.00. H.00. G.80.
+[Diagram]
 
 Autrement, s’il eſt poſsible, que G meſure E; G ne peut eſtre autre nombre premier que B, autrement il faudroit par la 12.p.9. qu’il meſuraſt B, qui a eſté poſé nombre premier; G ſera donc compoſé, & meſuré par quelque nombre premier par la 33.p.7. qui ne peut eſtre autre que B; d’autant qu’il meſureta E, par la 11.com.ſent. & par la 12.p.9.Il faudroit qu’il me-

@@ -10,7 +10,7 @@ Or nous trouuerons encores (comme enſeigne Theon) les ſix reſidus ſuſdits, 
 
 Ainſi ayant trouué le binome premier AaD 51√a5, ſi du plus trand nom AC9.on eſt le moindre nom, reſtera le reſidu AB de ; √45. & ainſi des autres.
 
-## THEOR. 68. PROP. XCII. Six.4.
+## THEOR. 68. PROP. XCII. Six. 4.
 
 Si vn rectangle eſt compris d’vne ligne rationele & d’vn reſidu premier; la ligne qui peut iceluy rectangle eſt reſidu.
 

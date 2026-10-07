@@ -4,7 +4,7 @@
 
 √HIT: mais le rect. AC ſera √3 888—√2268, BE√3888, AH√972. √405, DK √567, & HE√972—405: ainſi le quarré LM ſera √971—√405, NO√972√405, & leurs eoſtez TO, SO, ſeront √√(971—√405), & √√(971√405): & par conſequent Ts eſt √√(9721√405)—√√(972—√405), & ſon quarre TR √388s √2268.
 
-## THEOR. 74. PRO. XCVIII. Six.5.
+## THEOR. 74. PRO. XCVIII. Six. 5.
 
 Le quarré d’vn reſidu apliqué ſur vne rationele, faict l’autre coſté reſidu premier.
 

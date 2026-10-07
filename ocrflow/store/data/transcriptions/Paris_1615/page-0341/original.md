@@ -6,7 +6,7 @@
 
 Des ſecondes racines.
 
-## CHAP. XI.
+## CHAP. II.{printer-error-correction:XI.}
 
 {dropcap:D|lines=2|style=plain}AAutant qu’en pluſieurs operations ſont cherchez deux, ou trois, ou d’auantage de nombres ſoubs vne proportion incertaine, il eſt neceſſaire pour euiter confuſion, qu’ayant poſé IR pour le premier nombre, on ne poſe derechef IR pour le ſecond, & encore IE pour le 3. C’eſt pourquoy on a excogité les ſecondes racines, leſquelles ſont nõmees, & figurees diuerſement par les autheurs; mais ſuiuant Stifel, Pelletier & Clauius, nous retiendrons le nom de ſecondes racines, & les notterons ainſi: IA, ſignifie 1R ſeconde; 1B, denotte IN tierce; IC, ſignifie IR quarte; &c. Et quand vn nombre a deux ſignes, il faut entendre que le nombre auec le premier ſigne a eſté multiplié par l’vnité du ſigne poſterieur: Comme IR A, ſignifie n multipliee par 1A; & 3nA, ſignifie 3R mnultipliees par 1A: ainſi 19Aq, monſtre que iq a eſté multiplié en IA q; &c.
 

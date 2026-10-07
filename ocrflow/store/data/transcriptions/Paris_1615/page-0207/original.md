@@ -4,7 +4,7 @@
 
 uoir eſt que comme AB eſt a FG ainſi EF a BC: ce qu’il faloit prouuer.
 
-## THEOR. 12. PROP. XVII...
+## THEOR. 12. PROP. XVII.
 
 Si trois lignes droictesſont proportionneles; le rectangle compris des extremes, ſera egal au quarré faict de la moyenne: & ſi le rectangle compris des extremes eſt egal au quarré deſcrit de la moyenne; les trois lignes ſeront proportionneles.. 21
 

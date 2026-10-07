@@ -8,7 +8,7 @@ Car puis que AB eſt ligne pouuant deux mediaux, par la 42,p.10. AC, CB ſont in
 
 Laligne AB ſoit √(√252√72)—√(√152—√72), &DE6.Le rectangle DH ſera donc √252 —√72, IK√ 252√72, &LN, ou MF√.8o, qui appliquez à DE, le coſtè DIeſt √7—√2,1L√7√2, & LM ou MG√5. Partant DL eſt √28, & LG √20; & par conſequent la toute DG eſt √28—√20, qui eſt binome ſixieſme.
 
-## THEOR. 49. PROP. LXVII. Six.6.
+## THEOR. 49. PROP. LXVII. Six. 6.
 
 La ligne commenſ. en longitude au binome, eſt auſſi binome de meſme ordre.
 

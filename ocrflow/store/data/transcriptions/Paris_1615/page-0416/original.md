@@ -2,13 +2,13 @@
 
 <!-- Page number: 393 -->
 
-## SCHDLIE. 2.
+### SCHOLIE. 2.
 
 Parquoy s’il faut trouuer deux nombres quarrez, deſquels l’excez ſoit auſſi nombre quarré, nous prendrons comme cy-deſſu, deux plans ſemblables, deſquels l’vn & l’autre ſoit pair ou impair, ſçauoir AB & C, & acheuerons comme il eſt dict au prochain lemme.
 
 Que s’il faut trouuer deux quarrez, deſquels l’excez ne ſoit quarré, il faudra prendre deux nombres plans diſſemblables, & paracheuer comme deſſus. Ce qu’on obtiendra plus facilement, diuiſant vn nombre quarr. en deux nombres, l’vn deſquels ſoit quarré, & l’autre non. Comme 16 en 4 & 12: ou 36 en 16 & 20: & ainſi des autres.
 
-## LEMME. 2.
+### LEMME. 2.
 
 Trouuer deux nombres quarrez, tels que le compoſé d’iceux ne ſoit quarré.
 

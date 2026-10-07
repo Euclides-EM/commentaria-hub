@@ -2,7 +2,7 @@
 
 <!-- Page number: 371 -->
 
-## LE MME.
+### LEMME.
 
 Eſtans donnees deux lignes droictes inegales, trouuer cõbien la plus grande peut plus que la plus petite.
 

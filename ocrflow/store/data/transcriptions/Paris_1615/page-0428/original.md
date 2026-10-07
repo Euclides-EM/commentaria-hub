@@ -4,9 +4,9 @@
 
 qui n’eſt pas. Parquoy ſi on prend AB pouuant le compoſe des lignes AF, FB; & vne autre ligne pouuant le rectangle d’icelles AF, FB. s’eſt à dire vne moyenne proportionnele entre AF, FB; ſeront trouuees deux mediales incommenſ. en longitude & puiſſance.
 
-## ICT COMMENCENT LE S ſixaines des lignes irrationelles par la compoſition.
+ICT COMMENCENT LE S ſixaines des lignes irrationelles par la compoſition.
 
-## THEOR. 25. PROP. xxxVII. Six. 1.
+## THEOR. 25. PROP. XXXVII. Six. 1.
 
 Si deux lignes rationelles commenſurables en puiſſance ſeulement ſont aſſemblees, la toute ſera irrationelle: ſoit icelle appellee Binome.
 

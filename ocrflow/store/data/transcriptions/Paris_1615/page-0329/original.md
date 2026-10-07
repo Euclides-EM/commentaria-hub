@@ -22,4 +22,6 @@ lons reduire ag — & za vne meſme denomination, nous p0r,2S I multiplierons pr
 
 44ße1qc deux cy —— & ; & ainſi des autres. 1q4 14qa Quant aux autres 4 operations des fractions coſsiques, ſçauoir eſt, addirion, ſouſtraction, multiplication & diuiſion, elles ne different à celles que nous auons enſeignees és fractions de noſtre Arithmetique, ſinon à raiſon des caracteres coſsiques, & des ſignes & —Parquoy nous mettrons ſeulement icy des exemples de chaqué dpération.
 
-Exemples de l’addition. 99q8q Adiouſtant — auec — viendront eF, c’eſt à dc
+### Exemples de l’addition.
+
+99q8q Adiouſtant — auec — viendront eF, c’eſt à dc

@@ -16,7 +16,7 @@ AC, eſt egal au double du rectangle de AB, AC, auec le quarré de BC: iceluy c
 
 Si An eſt √iueu√ 6o) & 4c√ (i1o co)le reſte cn ſer V(√180—√60)√(√180—√609)
 
-## LEMME.
+### LEMME.
 
 S’ily à quaire grandeurs ABO, DE.E. & que GB excez d’entre AB & C ſoit egal à Dn eneix d’entre DE6 F; auſſi en changeans l’erces d’entre An& DE ſera agalàl’excez d’entre G& F.Car puu que On eſt l’excez d’entre an & C. AG ſera egal à G: En la meſme mniere DH ſera egal à F. Donc l’excez d’entre AG & DH ſera egal à l’excexd’entreG & Fs puis que ces gradeurs y ſont egaler à colles-la, chacune à la ſienne, & partat adiouſtant à AG& D H choſes egales Gn & ur, l’excez d’entre les toutes AB, & DE ſera couſiours eal à l’excezd’enri C &F. Ce qai eſtotr praoſt.
 
