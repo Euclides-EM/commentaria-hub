@@ -77,7 +77,7 @@ For each item give the exact replacement line, written per `docs/MARKDOWN_DIALEC
 - Header not in print: a curated heading in the `missing-headers-in-print` layer, placed just before the statement with a blank line before and after it: `[Curated heading level=2 type=missing-headers-in-print: THEOR. 32. PROP. XXXIIII.]`
 - Page transcription empty: say so; do not transcribe it.
 
-Page images for checking are at `ocrflow/store/data/<dataset_id>/imgs/page-NNNN.png` (`dataset_id` is in `index.json`). Mention the image path for every possible printer's error.
+Page images for checking are at `ocrflow/store/data/<dataset_id>/imgs/page-NNNN.png` (`dataset_id` is in `index.json`). Mention the image path for every possible printer's error. Do not open or view page images yourself unless the user asks; leave the check against the scan to the user.
 
 ## Step 5: Report
 
