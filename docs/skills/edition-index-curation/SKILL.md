@@ -81,4 +81,6 @@ Page images for checking are at `ocrflow/store/data/<dataset_id>/imgs/page-NNNN.
 
 ## Step 5: Report
 
-Return a markdown report grouped by section, then by category (sequence gaps, levels, OCR misreads, possible printer's errors, formatting). Each row: page, current line, suggested line, reason, and confidence (likely OCR / possible printer's error / formatting). For sequence flags, include what the sequence expects. List flags you judged false positives at the end, with a one-line reason, so a re-run can be read quickly. If the user asks for a file, write the report where they say, never inside the transcription dir.
+Always write the report to a dedicated markdown file, `ocrflow/store/data/curation_reports/<book>.md` (one file per book, overwritten on a re-run), unless the user names another path. Never write it inside the transcription dir. In the reply, give the file path and a short summary of the counts per category; do not paste the full report into the conversation.
+
+The report is grouped by section, then by category (sequence gaps, levels, OCR misreads, possible printer's errors, formatting). Each row: page, current line, suggested line, reason, and confidence (likely OCR / possible printer's error / formatting). For sequence flags, include what the sequence expects. List flags you judged false positives at the end, with a one-line reason, so a re-run can be read quickly.
