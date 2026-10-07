@@ -18,11 +18,13 @@ import { useQuery } from "@tanstack/react-query";
 import { isNil } from "lodash";
 import {
   FacsimilesService,
+  OpenAPI,
   type model_Edition,
   type model_Facsimile,
 } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { openAuthenticatedFacsimilePDF } from "../utils/facsimilePdf.ts";
+import { streamDownloadInNewTab } from "../utils/streamDownload.ts";
 import { getEdition } from "../api/editionApi.ts";
 import { mapEditionsToItems } from "../utils/dataUtils.ts";
 
@@ -474,6 +476,24 @@ export const Diagrams = () => {
     });
   };
 
+  const downloadDiagramsZip = () => {
+    if (!editionKey) {
+      return;
+    }
+    const baseURL = OpenAPI.BASE.replace(/\/$/, "");
+    const url = selectedFacsimile?.id
+      ? `${baseURL}/facsimilies/${encodeURIComponent(selectedFacsimile.id)}/diagrams/zip`
+      : `${baseURL}/editions/${encodeURIComponent(editionKey)}/diagrams/zip`;
+    const name = selectedFacsimile
+      ? facsimileLabel(selectedFacsimile)
+      : editionKey;
+    void streamDownloadInNewTab(url, `${name}-diagrams.zip`, token).catch(
+      (error) => {
+        console.error("Failed to download diagrams:", error);
+      },
+    );
+  };
+
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
@@ -706,6 +726,14 @@ export const Diagrams = () => {
                     return `${allImages.length.toLocaleString()} diagram${allImages.length === 1 ? "" : "s"} detected across ${distinctPages.toLocaleString()} distinct page${distinctPages === 1 ? "" : "s"}${volumeText}`;
                   })()}
         </DocumentDescription>
+
+        {!loading && !error && getAllImages().length > 0 && (
+          <Row justifyStart>
+            <ScanPageButton type="button" onClick={downloadDiagramsZip}>
+              Download diagrams (ZIP)
+            </ScanPageButton>
+          </Row>
+        )}
 
         {item && (
           <Row justifyStart>

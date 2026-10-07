@@ -89,6 +89,28 @@ export class ModelsService {
         });
     }
     /**
+     * Download a Model
+     * Download the file of a local model by its ID.
+     * @returns binary Model file
+     * @throws ApiError
+     */
+    public static getModelsDownload({
+        id,
+    }: {
+        /**
+         * Model ID
+         */
+        id: string,
+    }): CancelablePromise<Blob> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/models/{id}/download',
+            path: {
+                'id': id,
+            },
+        });
+    }
+    /**
      * Train a Model
      * Submits model training to the GPU farm.
      * @returns model_ModelTraining Created

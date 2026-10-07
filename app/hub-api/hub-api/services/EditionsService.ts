@@ -181,6 +181,28 @@ export class EditionsService {
         });
     }
     /**
+     * Download Edition Diagrams
+     * Stream a ZIP of the diagram crop images of a specific edition key, laid out as <key>/crops/<image>.
+     * @returns binary Diagram crops ZIP
+     * @throws ApiError
+     */
+    public static getEditionsDiagramsZip({
+        editionId,
+    }: {
+        /**
+         * Edition key
+         */
+        editionId: string,
+    }): CancelablePromise<Blob> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/editions/{editionId}/diagrams/zip',
+            path: {
+                'editionId': editionId,
+            },
+        });
+    }
+    /**
      * Update Edition Notes
      * Update the notes for an edition identified by id. The note content is provided in the JSON body.
      * @returns model_Edition OK
