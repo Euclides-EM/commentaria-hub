@@ -32,6 +32,19 @@ https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_skdyji
 OCR for Greek:
 https://euclides.huma-num.fr/hub/?datasetId=ds_ej5frn&annotationId=ann_bzfzp2
 
+**Status:** Waiting for LLM corrector run.
+
+## Venice_1482
+
+Two facsimiles are available:
+
+* **`Venice_1482_transkribus`**: The Transkribus facsimile is openly licensed, but the image quality is relatively low. I scraped the existing Transkribus transcription and stored it locally, but the transcription quality is poor. On the server, the processing pipeline has reached the **LineDetect** stage for this facsimile.
+* **`Venice_1482`**: The facsimile is public domain. OCR has already been completed.
+
+OCR was run but performed very poorly, need to re-run with proper page-by-page.
+
+**Status:** Waiting for LLM corrector run.
+
 ## Pesaro_1572
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_g17zx1&annotationId=ann_uomk97
@@ -361,27 +374,6 @@ There is a new facsimile that has the appropriate copyright. I run the full OCR 
 https://euclides.huma-num.fr/hub/?datasetId=ds_57vh5j&annotationId=ann_joneuv
 
 Full correction with Codex Sol was run using dir mode.
-
-**Status:** Ready for curation.
-
-## Venice_1482
-
-Two facsimiles are available:
-
-* **`Venice_1482_transkribus`**: The Transkribus facsimile is openly licensed, but the image quality is relatively low. I scraped the existing Transkribus transcription and stored it locally, but the transcription quality is poor. On the server, the processing pipeline has reached the **LineDetect** stage for this facsimile.
-* **`Venice_1482`**: The facsimile is public domain. OCR has already been completed.
-
-Usage summary:
-
-- **Pages:** 284
-- **Requests:** 1
-- **Input tokens:** 1,691,046
-  - Cached: 1,574,528
-  - Non-cached: 116,518
-- **Output tokens:** 19,273
-- **Reasoning tokens:** 0
-- **Total tokens:** 1,710,319
-- **Cached input:** ~93.1%
 
 **Status:** Ready for curation.
 

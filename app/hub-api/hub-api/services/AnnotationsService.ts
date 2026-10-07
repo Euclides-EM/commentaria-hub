@@ -417,6 +417,7 @@ export class AnnotationsService {
         id,
         categories,
         types = 'default',
+        applyPrinterErrorCorrection = false,
     }: {
         /**
          * Dataset ID
@@ -434,6 +435,10 @@ export class AnnotationsService {
          * Comma-separated index layers (default: default)
          */
         types?: string,
+        /**
+         * Replace printer errors with their corrections instead of omitting the correction marks
+         */
+        applyPrinterErrorCorrection?: boolean,
     }): CancelablePromise<annotation_Index> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -445,6 +450,7 @@ export class AnnotationsService {
             query: {
                 'categories': categories,
                 'types': types,
+                'applyPrinterErrorCorrection': applyPrinterErrorCorrection,
             },
         });
     }
