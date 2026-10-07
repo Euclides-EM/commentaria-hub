@@ -19,7 +19,7 @@ When requests to the HumaNum Ollama server return HTTP 502:
 Read the matching doc before working on its topic; skip the rest.
 
 - `docs/MARKDOWN_DIALECT.md` — transcription Markdown spec (see above).
-- `docs/skills/fix-header-numbering/SKILL.md` — checking/fixing gaps, OCR misreads, printer's errors and missing headers in numbered transcription headers (THEOR./PROB./PROP./CHAP.), with or without a generated `index.json`. Follow it for any header-numbering task.
+- `docs/skills/edition-index-curation/SKILL.md` — report-only curation of transcription headers: sequence gaps, header levels, OCR misreads, printer's errors, case and spacing in headers (THEOR./PROB./PROP./CHAP. and the rest), with or without a generated `index.json`. Follow it for any header curation task; it suggests fixes and never edits transcriptions.
 - `docs/TRANSCRIPTION_STATUS.md` — per-book OCR/transcription pipeline status and queue.
 - `docs/OCR_MODEL_GUIDE.md` — which Kraken OCR models to try per language/era.
 - `docs/TEI_SPEC.md` — design of the OCR → NER → TEI export pipeline.
