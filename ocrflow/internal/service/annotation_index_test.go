@@ -38,6 +38,7 @@ func TestGetIndexFromMarkdownJoinsConsecutiveHeaders(t *testing.T) {
 		},
 		"test markdown",
 		[]string{markdown.DefaultIndexType},
+		false,
 	)
 
 	require.NoError(t, err)
@@ -150,7 +151,7 @@ func TestGetAnnotationIndexReturnsEmptyForUnpreparedAnnotation(t *testing.T) {
 	log.SetOutput(&logs)
 	t.Cleanup(func() { log.SetOutput(originalLogOutput) })
 
-	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil, nil)
+	index, err := annotationSvc.GetAnnotationIndex("ds_unprepared", "ann_unprepared", nil, nil, false)
 	require.NoError(t, err)
 	require.Equal(t, "ds_unprepared", index.DatasetID)
 	require.Equal(t, "ann_unprepared", index.AnnotationID)
@@ -243,7 +244,7 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	datasetSvc := NewDatasetService(nil, nil, nil, datasetStore, fileSysMgt, nil, "", 1, 0)
 	annotationSvc := NewAnnotationsService(datasetSvc, nil, nil, nil, fileSysMgt, annotationStore)
 
-	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, nil)
+	index, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, nil, false)
 	require.NoError(t, err)
 	require.Len(t, index.Nodes, 1)
 	require.Equal(t, "Annotation wins", index.Nodes[0].Content)
@@ -254,7 +255,7 @@ func TestGetAnnotationIndexPrefersAnnotationMarkdownOverEditionMarkdown(t *testi
 	require.Equal(t, markdown.DefaultIndexType, index.Nodes[0].Children[0].Type)
 	require.Equal(t, []string{"default", "myType"}, index.AvailableTypes)
 
-	combinedIndex, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, []string{"default", "myType"})
+	combinedIndex, err := annotationSvc.GetAnnotationIndex("ds_priority", "ann_priority", nil, []string{"default", "myType"}, false)
 	require.NoError(t, err)
 	require.Len(t, combinedIndex.Nodes[0].Children, 1)
 	require.Equal(t, "Parallel section", combinedIndex.Nodes[0].Children[0].Content)

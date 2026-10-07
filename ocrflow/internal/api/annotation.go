@@ -333,6 +333,7 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        categories  query     string  false  "Categories for the index"
 // @Param        types query string false "Comma-separated index layers (default: default)" default(default)
+// @Param        applyPrinterErrorCorrection query bool false "Replace printer errors with their corrections instead of omitting the correction marks" default(false)
 // @Produce      json
 // @Success      200  {object}   annotation.Index
 // @Router       /datasets/{dataSetId}/annotations/{id}/index [get]
@@ -346,6 +347,10 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 	var categories []string
 	if categoriesStr != "" {
 		categories = lo.Map(strings.Split(strings.TrimSpace(categoriesStr), ","), func(s string, _ int) string { return strings.TrimSpace(s) })
+	}
+	applyPrinterErrorCorrection, err := strconv.ParseBool(r.FormValue("applyPrinterErrorCorrection"))
+	if err != nil {
+		applyPrinterErrorCorrection = false
 	}
 	typesStr := strings.TrimSpace(r.URL.Query().Get("types"))
 	if typesStr != "" {
@@ -362,9 +367,9 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 			seen[indexType] = struct{}{}
 			uniqueTypes = append(uniqueTypes, indexType)
 		}
-		return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, uniqueTypes)
+		return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, uniqueTypes, applyPrinterErrorCorrection)
 	}
-	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, nil)
+	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories, nil, applyPrinterErrorCorrection)
 }
 
 // ListAnnotationCategories godoc

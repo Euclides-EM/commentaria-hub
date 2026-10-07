@@ -8,6 +8,7 @@ import {
   getTeiAlternativeSources,
   getXmlId,
   isElement,
+  parseAnaRefs,
   parseCorrespRefs,
   toUniqueSorted,
 } from './teiDom.ts'
@@ -84,6 +85,47 @@ const startsWithClosingPunctuation = (text: string) =>
 
 const trimTrailingSpaces = (text: string) => text.replace(/ +$/, '')
 
+type TextRange = { start: number; end: number }
+
+const printerCorrectionStartPrefix = '__printer-error-correction-start:'
+const printerCorrectionEndPrefix = '__printer-error-correction-end:'
+let printerCorrectionCounter = 0
+
+const isPrinterCorrectionNote = (element: Element) =>
+  element.localName === 'note' &&
+  parseAnaRefs(element.getAttribute('ana')).includes(
+    'printer-error-correction',
+  )
+
+const getPrinterCorrectionRanges = (
+  anchors: Record<string, number>,
+): TextRange[] => {
+  const ranges: TextRange[] = []
+  for (const [id, start] of Object.entries(anchors)) {
+    if (!id.startsWith(printerCorrectionStartPrefix)) {
+      continue
+    }
+    const key = id.slice(printerCorrectionStartPrefix.length)
+    const end = anchors[`${printerCorrectionEndPrefix}${key}`]
+    if (end != null && end > start) {
+      ranges.push({ start, end })
+    }
+  }
+  return ranges
+}
+
+const sliceTextRanges = (
+  ranges: TextRange[],
+  sliceStart: number,
+  sliceEnd: number,
+): TextRange[] =>
+  ranges
+    .map((range) => ({
+      start: Math.max(sliceStart, range.start) - sliceStart,
+      end: Math.min(sliceEnd, range.end) - sliceStart,
+    }))
+    .filter((range) => range.end > range.start)
+
 const clampTrailingAnchorOffsets = (
   anchors: Record<string, number>,
   nextLength: number,
@@ -136,6 +178,31 @@ export const appendTextWithAnchors = (
       const n = element.getAttribute('n') || ''
       builder.text += n || facs ? `Page break ${n || facs}` : 'Page break'
     }
+    return
+  }
+
+  if (isPrinterCorrectionNote(element)) {
+    const noteBuilder: TextWithAnchors = { text: '', anchors: {} }
+    for (let i = 0; i < element.childNodes.length; i++) {
+      appendTextWithAnchors(element.childNodes[i], opts, noteBuilder)
+    }
+    const noteText = noteBuilder.text
+      .trim()
+      .replace(/^\[/, '')
+      .replace(/\]$/, '')
+      .trim()
+    if (!noteText) {
+      return
+    }
+    if (builder.text && !/\s$/.test(builder.text)) {
+      builder.text += ' '
+    }
+    const key = String(printerCorrectionCounter++)
+    builder.anchors[`${printerCorrectionStartPrefix}${key}`] =
+      builder.text.length
+    builder.text += noteText
+    builder.anchors[`${printerCorrectionEndPrefix}${key}`] =
+      builder.text.length
     return
   }
 
@@ -621,6 +688,7 @@ export const renderParagraphWithHighlights = (
   text: string,
   spans: ParagraphHighlightSpan[],
   paragraphIndex: number,
+  correctionRanges: TextRange[] = [],
 ) => {
   if (!text) {
     return '&nbsp;'
@@ -634,12 +702,14 @@ export const renderParagraphWithHighlights = (
     }))
     .filter((span) => span.end > span.start)
 
-  if (!clampedSpans.length) {
+  const clampedCorrections = sliceTextRanges(correctionRanges, 0, text.length)
+
+  if (!clampedSpans.length && !clampedCorrections.length) {
     return escapeHtml(text).replaceAll('\n', '<br>')
   }
 
   const boundaries = new Set<number>([0, text.length])
-  for (const span of clampedSpans) {
+  for (const span of [...clampedSpans, ...clampedCorrections]) {
     boundaries.add(span.start)
     boundaries.add(span.end)
   }
@@ -658,8 +728,12 @@ export const renderParagraphWithHighlights = (
       (span) => span.start < end && span.end > start,
     )
 
+    const inCorrection = clampedCorrections.some(
+      (range) => range.start < end && range.end > start,
+    )
+
     const escapedSegment = escapeHtml(segmentText).replaceAll('\n', '<br>')
-    if (!activeSpans.length) {
+    if (!activeSpans.length && !inCorrection) {
       html += escapedSegment
       continue
     }
@@ -710,8 +784,13 @@ export const renderParagraphWithHighlights = (
     const tooltipItemsAttr = escapeHtmlAttr(
       encodeURIComponent(JSON.stringify(tooltipItems)),
     )
+    const highlightHtml = activeSpans.length
+      ? `<span data-tei-highlight="true" data-tei-highlight-tooltip="${tooltipItemsAttr}" style="${style}">${escapedHighlightedText}</span>`
+      : escapedHighlightedText
     html += escapedLeadingWhitespace
-    html += `<span data-tei-highlight="true" data-tei-highlight-tooltip="${tooltipItemsAttr}" style="${style}">${escapedHighlightedText}</span>`
+    html += inCorrection
+      ? `<span data-tei-printer-correction="true">${highlightHtml}</span>`
+      : highlightHtml
     html += escapedTrailingWhitespace
   }
 
@@ -724,6 +803,7 @@ export const renderParagraphWithLineRanges = (
   paragraphIndex: number,
   lineRanges: ParagraphLineRange[],
   showCertaintyVisualization: boolean,
+  correctionRanges: TextRange[] = [],
 ) => {
   const validRanges = lineRanges
     .map((range) => ({
@@ -739,7 +819,12 @@ export const renderParagraphWithLineRanges = (
     .sort((left, right) => left.start - right.start)
 
   if (!validRanges.length) {
-    return renderParagraphWithHighlights(text, spans, paragraphIndex)
+    return renderParagraphWithHighlights(
+      text,
+      spans,
+      paragraphIndex,
+      correctionRanges,
+    )
   }
 
   let html = ''
@@ -753,6 +838,7 @@ export const renderParagraphWithLineRanges = (
         text.slice(cursor, rangeStart),
         gapSpans,
         paragraphIndex,
+        sliceTextRanges(correctionRanges, cursor, rangeStart),
       )
     }
 
@@ -764,6 +850,7 @@ export const renderParagraphWithLineRanges = (
       text.slice(rangeStart, rangeEnd),
       lineSpans,
       paragraphIndex,
+      sliceTextRanges(correctionRanges, rangeStart, rangeEnd),
     )
     const attrs = [
       `data-tei-line-match-ids="${escapeHtmlAttr(range.matchIds.join(' '))}"`,
@@ -794,6 +881,7 @@ export const renderParagraphWithLineRanges = (
       text.slice(cursor),
       tailSpans,
       paragraphIndex,
+      sliceTextRanges(correctionRanges, cursor, text.length),
     )
   }
 
@@ -807,8 +895,9 @@ const renderParagraphElement = (
   showCertaintyVisualization: boolean,
   attrs: string,
 ) => {
+  const correctionRanges = getPrinterCorrectionRanges(paragraph.anchors)
   if (!paragraph.table) {
-    return `<p${attrs}>${renderParagraphWithLineRanges(paragraph.text, spans, paragraphIndex, paragraph.lineRanges, showCertaintyVisualization)}</p>`
+    return `<p${attrs}>${renderParagraphWithLineRanges(paragraph.text, spans, paragraphIndex, paragraph.lineRanges, showCertaintyVisualization, correctionRanges)}</p>`
   }
 
   const rows = paragraph.table.rows
@@ -828,7 +917,7 @@ const renderParagraphElement = (
               end: Math.min(range.end, cell.end) - cell.start,
             }))
             .filter((range) => range.end > range.start)
-          return `<td>${renderParagraphWithLineRanges(cellText, cellSpans, paragraphIndex, cellLineRanges, showCertaintyVisualization)}</td>`
+          return `<td>${renderParagraphWithLineRanges(cellText, cellSpans, paragraphIndex, cellLineRanges, showCertaintyVisualization, sliceTextRanges(correctionRanges, cell.start, cell.end))}</td>`
         })
         .join('')
       return `<tr>${cells}</tr>`

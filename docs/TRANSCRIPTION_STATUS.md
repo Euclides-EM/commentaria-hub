@@ -376,8 +376,8 @@ Usage summary:
 - **Pages:** 284
 - **Requests:** 1
 - **Input tokens:** 1,691,046
-  - Cached: 1,574,528
-  - Non-cached: 116,518
+    - Cached: 1,574,528
+    - Non-cached: 116,518
 - **Output tokens:** 19,273
 - **Reasoning tokens:** 0
 - **Total tokens:** 1,710,319
