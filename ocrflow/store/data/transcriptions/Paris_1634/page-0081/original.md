@@ -1,40 +1,23 @@
-<!-- Running title: ELEM.. EVCLID. LI. I. -->
+<!-- Running title: ELEM. EVCLID. LI. I. -->
 
-## PROBL. I. PROPOS. I.
+### 19. a. 1.
 
-SVper data recta linea terminata, triangulum æquilaterum constituere.
+Omne totum æquale est omnibus suis partibus simul sumptis. | Le tout est egal à toutes ses parties prises ensemble.
 
-Sur vne ligne droicte donnée & terminée, descrire vn triangle equilateral.
+[Figure: ligne A—C—D—B]
 
-[Figure: deux cercles s'entrecoupant, centres A et B, points D, C, E en haut, triangle ABC inscrit]
+hyp. | ac, cd, db, snt part;.ab.
+19.a.1. | ab 2|2 ac + cd + db.
 
-Hypoth.
+Explicat.. not;
 
-ab est — D.
+AC, CD, DB sunt partes AB, per hyp. | AC, CD, DB sont les parties de AB, par l'hyp.
+Igitur AB est æqualis AC, plus CD plus DB, per 19. ax. 1. | Partant AB est egal AC, plus CD, plus DB, par le 19. ax. du premier.
 
-Req. π. fa.
+### 19. a. b.
 
-△abc æquilat.
+Si totius partes sint inter se æquales, quot erunt partes, totuplex erit totum singularium partium : singulæque partes erunt denominatæ à numero partium totius. | Si les parties d'vn tout sont egales entr'elles, le tout sera autant multiple de chaque partie, qu'il y aura des parties : & chaque partie sera denommée du nombre des parties.
 
-Constr.
+### 20. a. 1.
 
-3.p.1. | abcd est ⊙,
-3.p.1. | bace est ⊙,
-1.p.1. | ac & bc, snt —,
-symp. | △abc est æquilat.
-
-Demonstr.
-
-constr. | abcd & bace snt ⊙,
-15.d.1. | ac 2|2 ab,
-15.d.1. | bc 2|2 ba,
-1.a.1. | ac 2|2 bc,
-concl. 23.d.1. | △abc est æquilat.
-
-SCHOLIVM. | SCHOLIE.
-
-Hæc demonstratio fit quatuor syllogismis, vt perspicuum est ex numero citationum. | Cette demonstration se fait par quatre syllogismes, comme il appert du nombre des citations.
-
-I. SYLLOGISMVS. | I. SYLLOGISME.
-
-Rectæ lineæ quæ ducuntur à centro ad circunferentiam, sunt inter se æquales. | Les lignes droictes menées du centre à la circonference, sont égales entr'elles.
+Si totum totius est duplum, & ablatum ablati, erit & reliquum reliqui duplum. | Si vn tout est double d'vn tout, & le retranché du retranché, le reste sera außi double du reste.

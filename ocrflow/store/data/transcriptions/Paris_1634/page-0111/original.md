@@ -1,55 +1,42 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-4.1. | <edg 2|2 <a.
+α | bc 2|2 eg,
+2.concl. 1.a.d. | bc 3|2 ef,
 
-Hypoth. 2.
+Demonstr. 3. cas.
 
-ed 2|2 ba.
+21.1. | eg + dg 3|2 ef + df,
+β | dg 2|2 df,
+3.concl. 5.a.1. | eg u bc 3|2 ef.
 
-Req. π. demonstr.
+## THEOR. XVI. PROPOS. XXV.
 
-eg 2|2 bc,
-gd 2|2 ca,
-<edg 2|2 <a.
+Si duo triangula duo latera duobus lateribus æqualia habuerint, vtrumque vtrique, basim verò basi maiorem : & angulum sub æqualibus rectis lineis contentum angulo maiorem habebunt.
 
-Demonstr.
+Si deux triangles ont deux costez égaux à deux costez chacun au sien, & la base plus grande que la base ; ils auront außi l'angle contenu d'iceux plus grand que l'angle.
 
-suppos. | ei 2|2 bc,
-1.p.1. | di est —,
-hyp. | ed 2|2 ba,
-hyp. | <e 2|2 <b,
-4.1. | <eid 2|2 <c,
-hyp. | <egd 2|2 <c,
-1.a.1. | <eid 2|2 <egd,
-| contr. 16. 1.
-2.concl. 21.a.1. | eg 2|2 bc,
-4.1. | gd 2|2 ca,
-4.1. | <edg 2|2 <bac.
-
-Coroll.
-
-4.1. | △egd 2|2 △bca.
-
-## THEOR. XVIII. PROPOS. XXVII.
-
-Si in duas rectas lineas recta incidens linea alternatim angulos æquales inter se fecerit : parallelæ erunt inter se illæ rectæ lineæ.
-
-Si vne ligne droicte tombant sur deux autres lignes droictes, faict les angles alternes égaux entr'eux : icelles lignes droictes seront paralleles entr'elles.
-
-[Figure: ligne A—E—B, ligne C—F—D, ligne transversale passant par E & F, poinct G à droicte]
+[Figure: deux triangles ABC & DEF, A & D en haut]
 
 Hypoth.
 
-<aef 2|2 <dfe.
+ab 2|2 de, α
+ac 2|2 df, α
+bc 3|2 ef,
 
 Req. π. demonstr.
 
-ab == cd.
+<bac 3|2 <edf.
 
 Demonstr.
 
-suppos. | ab n. est == cd.
-2.34.d.1. | egf est △,
-16.1. | <aef 3|2 dfe.
-| contr. hyp.
-concl. 21.a.1. | ab == cd.
+suppos. | <bac 2|2 <edf,
+α 4.1. | bc 2|2 ef,
+| contr. hypoth.
+suppos. | <bac 2|3 <edf,
+α 24.1. | bc 2|3 ef.
+| contr. hypoth.
+concl. 21.a.1. | <bac 3|2 <edf.
+
+## THEOR. XVII. PROPOS. XXVI.
+
+Si duo triangula duos angulos duobus angulis æquales habuerint, vtrumque vtrique, vnumque latus vni lateri æquale, siue quod æqualibus adja-

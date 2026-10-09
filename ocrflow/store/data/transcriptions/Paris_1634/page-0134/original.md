@@ -1,58 +1,40 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-symp. | ◊gf est req.
+[Figure: à gauche triangle B auec base A & l'angle C ; à droicte figure D—E—I en haut, G—F—H au milieu, K—M—L en bas ; diametre K—F—I, lignes E—M & G—H se coupans en F]
 
-Demonstr.
-
-constr. | ◊df 2|2 a,
-constr. | ◊dh 2|2 b,
-3.a.1. | ◊gf 2|2 a~b.
-
-## PROBL. XIV. PROPOS. XLVI.
-
-A data recta linea quadratum describere.
-
-D'vne ligne droicte donnée, descrire vn quarré.
-
-[Figure: quarré ABCD, B & C en haut, A & D en bas]
-
-Hypoth.
-
-ad est — D.
-
-Req. π. fa.
-
-ac ▭.ad.
+fh 2|2 a,
+<mfh 2|2 <c,
 
 Constr.
 
-11.1. | <dab est ∟,
-3.1. | ab 2|2 ad,
-31.1. | bc == ad,
-31.1. | dc == ab,
-symp. | ▭ac est req.
+44.1. | ◊fd 2|2 △b, & <gfe 2|2 <c,
+2.p.1. | gfh est —,
+3.1. | fh 2|2 a,
+2.p.1. | dei est —,
+31.1. | ihl == ef,
+2.p.1. | dgk & ifk snt —,
+31.1. | kl == gh,
+2.p.1. | efm est —,
+symp. | ◊fhlm est req.
 
 Demonstr.
 
-constr. | ac est ◊,
-constr. | <a est ∟,
-1.concl. 2.s.29.1. | <b, <c, <d, snt ∟,
-constr. | ab 2|2 ad,
-34.1. | bc 2|2 ad,
-34.1. | dc 2|2 ab,
-1.a.1. | bc 2|2 dc,
-2.cöcl. 29.d.1. | ac est ▭.ad.
+1.concl. constr. | fh 2|2 a,
+15.1. | <mfh 2|2 <gfe,
+constr. | <c 2|2 <gfe,
+2.cöcl. 1.a.1. | <mfh 2|2 <c,
+43.1. | ◊fl 2|2 ◊fd,
+constr. | △b 2|2 ◊fd,
+3.concl. 1.a.1. | ◊fl 2|2 △b.
 
-## SCHOL.
+## THEOR. XIII. PROPOS. XLV.
 
-Linearum æqualium æqualia sunt quadrata : & quadratorum æqualium æquales sunt lineæ.
+Ad datam rectam lineam, dato rectilineo æquale parallelogrammum constituere, in dato angulo rectilineo.
 
-Les quarrez des lignes égales sont égaux entr'eux : & des quarrez égaux, les lignes sont égales.
+Descrire vn parallelogramme égal à vne figure rectiligne donnée, en vn angle rectiligne donné.
 
-Hypoth. 1.
+Hypoth.
 
-ab 2|2 cd.
-
-Req. π. demonstr.
-
-▭. ab 2|2 ▭. cd.
+fg est — D.
+abcd est rectilig. D.
+e est < D.

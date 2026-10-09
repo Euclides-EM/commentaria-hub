@@ -1,38 +1,55 @@
-<!-- Running title: ELEM.. EVCLID.. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-baſin pyramidis deſcripti.
+[Figure: labels arranged A / D / B F C / E]
 
-*De cecy on peut colliger que le diametre de la sphere est quadruple sesquialtere en puissance du demidiametre du cercle descrit à l'entour de la base de la pyramide.*
+concl. αβ | □.ae π □.ab 2|2, 4 π 3
 
-[Figure: labels arranged D / A C E / I F / H / E K G]
+Coroll. 2.
 
-Req. π. demonstr.
-
-□.ab π □.hf 2|2, 9 π 2.
+□.ab π □.af 2|2, 4 π 3
 
 Demonstr.
 
-arbitr. | □.ab, eſt 9,
-13. 13 | □.ac, Ⅱ □.ef, eſt 6,
-12. 13 | □.hf, eſt 2,
-concl. 2.ſ.7.5 | □.ab π □.hf, / 9 π 2.
+c. 8 6 | ea π ab 2|2 ab π af,
+concl. 11. 5 | □.ab π □.af 2|2, 4 π 3.
 
-## COROLL. II.
+Coroll. 3.
 
-Rurſus perpendicularis ex centro ſphæræ ad planum baſis pyramidis demiſſa, ſexta pars erit diametri ſphæræ, & tertia pars ſemidiametri.
-
-*Derechef, la perpendiculaire menee du centre de la sphere au plan de la base de la pyramide sera la sixiesme partie du diametre de la sphere, & la tierce partie du demidiametre.*
-
-Req. π. demonstr.
-
-ab π lc 2|2, 6 π 1,
-al π lc 2|2, 3 π 1.
+df 2|2 fe.
 
 Demonstr.
 
-arbitr. | ab, eſt 6, α
-7. a.1 | al, Ⅱ lb, eſt 3,
-13. 13 | ac, Ⅱ hi, eſt 4, α
-3. a. 1 | lc, eſt 1,
-1.concl. 2.ſ.7.5 | ab π lc 2|2, 6 π 1,
-2 concl. 2.ſ.7.5 | al π lc 2|2, 3 π 1.
+15. 4 | △ebd, eſt æquilat.
+c. 3. 3 | bf ⊥ ed,
+c. 3. 3 | ef 2|2 fd.
+
+Coroll. 4.
+
+af 2|2, 3df.
+
+Demonstr.
+
+3.c.12.13 | ad, Ⅱ de 2|2, 2df,
+concl. 2. a. 1 | af 2|2, 3df.
+
+## PROBL. I. PROPOS. XIII.
+
+Pyramidem constituere, & data sphæra complecti; & demonstrare, quòd sphæræ diameter potentia sit sesquialtera lateris ipsius pyramidis.
+
+*Descrire vne pyramide, & l'enuironner d'vne sphere donnee; & monstrer que le diametre de la sphere, est sesquialtere en puissance au costé de la pyramide.*
+
+Hypoth.
+
+ab, eſt diamet.. ſphær. D.
+
+Conſtr.
+
+1. 10 | al 2|2 lb,
+3 p.1 | ladb, eſt ſemic.
+ſ 10.6 | ac 2|2, 2cb,
+11. 1 | cd ⊥ ab,
+1. p. 1 | ad & db ſnt ——,
+3. 1 | he 2|2 cd,
+3. p. 1 | hefg, eſt ⊙,
+c. 15. 4 | efg, eſt △ æquilat. α
+12. 11 | hi ⊥ plan.. ⊙ efg,

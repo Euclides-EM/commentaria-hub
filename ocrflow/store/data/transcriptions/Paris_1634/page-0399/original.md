@@ -1,59 +1,43 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-gc est tangen. β
+## THEOR. III. PROPOS. XIV.
 
-eca, adf, cd snt —.
+In omni triangulo, tres perpendiculares, ab angulis ad opposita latera ductæ, in eodem puncto se mutuò intersecant.
 
-Req. π. demonstr.
+En tout triangle, les trois perpendiculaires, tirees de trois angles sur les costez opposez, s'entrecouppent en vn mesme poinct.
 
-cd == ef,
+[Figure: demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E]
 
-Demonstr.
+Hypoth. 1.
 
-α.17.6 | ▭.ef,eg 2|2 □.eb,
-36.3 | ▭.ae,ec 2|2 □.eb,
-1.a.1 | ▭.ef,eg 2|2 ▭.ae,ec
-16.6 | ef π ea 2|2 ec π eg,
-6.6 | <egc 2|2 <eaf, γ
-6.6 | <efd 2|2 <ecg, δ
+acb est Δ rectang.
 
-in 1. & 2. figur.
+12.1 | ce ⊥ ab,
+1.concl. 11.a.1 | c, est inters..ac,bc,ce
 
-β.32.3 | <gcd 2|2 <eaf,
-γ.1.a.1 | <egc 2|2 <gcd,
-1.concl. 27.1 | cd == ef,
+Hypoth. 2.
 
-in 3. & 4. figur.
+adb est Δ oxygon.
 
-β.32.3 | <fdc 2|2 <ecg,
-δ.1.a.1 | <efd 2|2 <fdc,
-2.concl. 27.1 | cd == ef.
-
-## THEOR. V. PROPOS. XVI.
-
-Pappus lib. 7. propos. 108.
-
-[Figure: cercle auec les poincts A, D, F, E, B, C, G ; ligne H E F, & tangente H B]
-
-Hypoth.
-
-ef est — in ⊙,
-
-arbitr. | aeg est — inscr.
-
-fe π ea 2|2 eg π eh, α
-
-hb est tangen.
-
-bed, dfc & bc snt —.
+constr. | acb est semic.
+12.1 | de ⊥ ab,
+1.p.1 | ag est —,
+1.p.1 | bi & if snt —.
 
 Req. π. demonstr.
 
-bc == ef.
+bif est —,
 
 Demonstr.
 
-α.16.6 | ▭.fe,eh 2|2 ▭.ea,eg,
-35.3 | ▭.ea,eg 2|2 ▭.de,eb,
-1.a.1 | ▭.fe,eh 2|2 ▭.de,eb,
-16.6 | fe π ed 2|2 eb π eh, β
+suppos. | bhf est —,
+31.3 | <hfd est ⌐,
+constr. | <aed est ⌐,
+32.1 | Δaed æquiāg. Δhfd
+4.6 | ed π ad 2|2 fd π hd,
+16.6 | ▭.edh 2|2 ▭.adf, α
+31.3 | <igd est ⌐,
+32.1 | Δbed æquiāg. Δigd
+4.6 | ed π bd 2|2 gd π id,
+16.6 | ▭.edi 2|2 ▭.bdg,
+1.c.36.3 | ▭.bdg 2|2 ▭.adf,

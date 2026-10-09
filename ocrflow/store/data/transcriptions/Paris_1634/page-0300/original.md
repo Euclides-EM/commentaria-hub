@@ -1,19 +1,21 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-sextam : prima quoque ad secundam maiorem rationem habebit, quàm quinta ad sextam.
+les : quemadmodum se habuerit vna antecedentium ad vnam consequentium, ita se habebunt omnes antecedentes ad omnes consequentes.
 
-Si la premiere a mesme raison à la seconde que la troisiesme à la quatriesme ; mais la troisiesme a plus grande raison à la quatriesme, que la cinquiesme à la sixiesme : aussi la premiere aura plus grande raison à la seconde, que la cinquiesme à la sixiesme.
+Si tant de grandeurs qu'on voudra sont proportionelles : comme l'vne des antecedentes sera à l'vne des consequentes, ainsi toutes les antecedentes seront à toutes les consequentes.
 
 [Figure: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]
 
 Hypoth.
 
-a π b 2|2 c π d,
-c π d 3|2 e π f,
+a π b
+c π d
+e π f
+snt raō 2|2 ⁊e.
 
 Req. π. demonstr.
 
-a π b 3|2 e π f.
+a π b 2|2 a+c+e π b+d+f,
 
 Præpar.
 
@@ -26,13 +28,4 @@ Præpar.
 
 Demonstr.
 
-suppos. | h 3|2 l,
-c.6.d.5 | g 3|2 k, α
-c.8.d.5 | i 2|3 m, α
-concl. 8.d.5 | a π b 3|2 e π f.
-
-## SCHOL. I.
-
-Quod si proportio tertiæ ad quartam minor fuerit quàm quintæ ad sextam, erit quoque proportio primæ ad secundam minor quàm quintæ ad sextam, vt perspicuum est eadem demonstratione.
-
-Que si la raison de la troisiesme à la quatriesme est moindre que celle de la cinquiesme à la sixiesme, il y aura pareillement
+1.5 | g+h+i, multipl.. a+c+e 2|2 g, multipl.. a,

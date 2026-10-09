@@ -1,31 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-hyp. | cb 2|2 bd,
-s.46.1. | ▭ch, ▭bm, ▭nq, ▭hp, snt 2|2 ⁊e,
-3.s.1.d.2 | ▭.abc, ▭ah, ▭he, ▭lq, ▭ng, snt 2|2 ⁊e,
-s.46.1. | ▭bm 2|2 ▭nq,
-1.a.s. | 4▭.abc 2|2 odi, gnom.
-| oi ▭.ac commun. add.
-2.a.1. | 4▭.abc + ▭.ac 2|2 gnom. odi + oi ▭.ac,
-19.a.1 | gnom. odi + oi ▭.ac 2|2 ae ▭.ad,
-concl. 1.a.g. | 4▭.abc + ▭.ac 2|2 ▭.ad,
+aeb est figur. schol. 6. 2.
 
-[Figure: quarré F—E—H—A, diagonale F—D, I, G en haut, R, T, K, Q au milieu, O, L à gauche, N, H, S en bas, P à droite, A—C—B—D en bas]
+Demonstr.
 
-## PROPOS. VIII. ALITER. — AVTREMENT.
+s.5.2. | 2▭.adb 2|2, 2▭.ed,
+| ▭.ab,
+4.2. | ▭.ad + ▭.db + 2▭.adb, α
+s.5.2. | ▭.ad + ▭.db + 2▭.ed,
+1.s.4.2. | 4▭.ce,
+47.1. | 4▭.cd + 4▭.ed,
+1.s.4.2. | ▭.fd + 4▭.ed,
+s.5.2. | ▭.fd + 4▭.adb, α
+snt 2|2 ⁊e,
+α.1.a.1. | ▭.fd + 4▭.adb 2|2 ▭.ad + ▭.db + 2▭.adb,
+| 2▭.adb commun. subtr.
+concl. 3.a.1. | ▭.fd + 2▭.adb 2|2 ▭.ad + ▭.db.
 
-Si recta linea secetur in duo segmenta inæqualia, rectangulum quater comprehensum sub segmentis, vnà cum quadrato differentiæ segmentorum, est æquale totius quadrato.
+Explicat. p nr.
 
-Si vne ligne droicte est couppée en deux parties inegales, le rectangle contenu quatre fois sous les deux parties, auec le quarré de la difference des parties, est égale au quarré de la toute.
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—F, E—C, E—D]
 
-Hypoth.
+hyp. | ad est 5,
+hyp. | db est 2,
+3.a.1. | fd est 3,
+1.s.1.d.2 | 2▭.adb snt 20,
+1.s.1.d.2 | ▭.fd est 9,
+1.concl. 2.a.1. | 2▭.adb + ▭.fd snt 29,
+1.s.1.d.2 | ▭.ad est 25,
+1.s.1.d.2 | ▭.db est 4,
+2.concl. 2.a.1. | ▭.ad + ▭.db snt 29
 
-ab est —,
-ad 3|2 db,
-ad ~ db 2|2 fd.
+## THEOR. VIII. PROPOS. VIII.
 
-[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D]
-
-Req. π. demonstr.
-
-4▭.adb + ▭.fd 2|2 ▭.ab,
+Si recta linea secetur vtcunque : Rectangulum quater comprehensum sub tota, & vno segmento-

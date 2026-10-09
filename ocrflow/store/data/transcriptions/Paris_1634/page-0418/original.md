@@ -1,31 +1,50 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-[Figure: deux cercles auec les poincts N, B, F, G, L, A, E, C, D, H]
+36.3 | ▭.ebd 2|2 ▭.abf,
+concl. 11.5 | □.ac π □.ab 2|2 ▭.dce π ▭.ebd.
 
-1.a.1 | ▭.fdl 2|2 □.de + □.eb,
-3.s.1.d.2 | □.eb 2|2 ▭.heb,
-5.2 | ▭.heb 2|2 ▭.hgb + □.eg,
-1.a.f | ▭fdl 2|2 □.de + ▭.hgb + □.eg,
-47.1 | □.gd 2|2 □.de + □ eg,
-1.a.f | ▭.fdl 2|2 □.gd + ▭.hgb,
-35.3 | ▭.hgb 2|2 ▭.fgl,
-s.5.2 | ▭.fgl 2|2 □.gn,
-1.a.f, & 47.1 | ▭.fdl 2|2 □.gd + □.gn u □.nd,
-37.3 | dn est tangen.
-2.concl. α | fd π dl 2|2 fg π gl.
+## THEOR. XX. PROPOS. XXXI.
 
-## THEOR. XXII. PROPOS. XXXIII.
+Pappus lib. 7. propos. 119.
 
-Pappus lib. 7. propos. 154.
+[Figure: triangle auec les poincts A, B, C, D]
 
 Hypoth.
 
-eafc est semic.
+abd & abc snt Δ,
 
-acb est —,
+▭.bdc 2|2 □.ad.
 
-<efb est ⌐, α
+Req. π. demonstr.
 
-fd ⊥ ab, α
+bd π dc 2|2 □.ab π □.ac.
 
-arbitr. | g, est • in ◠ afc,
+Demonstr.
+
+14.6 | bd π da 2|2 da π dc, α
+6.6 | Δbda æquiang. Δacd,
+6.6 | <b 2|2 <cad.
+c.4.6 | ab π ac, bd π ad, ad π cd snt raō. 2|2 ʒe,
+α.10.d.5 | raō..bd π cd 2|2, 2 raō..bd π ad,
+20.6 | raō..□.ab π □.ac 2|2, 2 raō..ab π ac,
+concl. 11.5 | bd π cd 2|2 □.ab π □.ac.
+
+## THEOR. XXI. PROPOS. XXXII.
+
+Pappus lib. 7. propos. 144.
+
+Hypoth.
+
+abc est semic.
+
+bd est tangen.
+
+b, est • ..contact.
+
+acd est —,
+
+beh ⊥ ac,
+
+arbitr. | f, est • in ◠ ab,
+
+fd est —.

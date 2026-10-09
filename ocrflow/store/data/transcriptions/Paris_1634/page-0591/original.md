@@ -1,42 +1,48 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-Req. π. demonstr.
+rationali lineæ commēsurabilem longitudine vel potentia esse quoque rationalem, & omnes rectas rationales esse inter se commensurabiles saltem potentia : item omne spatium rationali spatio commensurabile esse quoque rationale, & cōtrà, omnia spatia rationalia esse inter se cōmensurabilia : magnitudines vero quarum altera est rationalis, altera irrationalis, esse inter se incommensurabiles.
 
-a, incomm. b.
+*Il s'ensuit de ceste proposition que toute ligne droicte commensurable en longueur ou en puissance à vne ligne rationelle est aussi rationelle : pareillement que tout espace commensurable à vn espace rationel est aussi rationel ; & au contraire, que tous les espaces rationaux sont commensurables entr'eux : mais les grandeurs, l'vne desquelles est rationelle & l'autre irrationelle, sont incommensurables entr'elles.*
 
-Demonstr.
+A------ C------
+B----
 
-suppos. | b, comm. a,
-hyp. | c, comm. a,
-12.10 | b, comm. c,
-contr. hypoth.
-concl. 21.a.1 | a, incomm. b.
+Hypoth. 1.
 
-## THEOR. XI. PROPOS. XIV.
-
-Si sint duæ magnitudines commensurabiles, altera autem ipsarum magnitudini cuipiam incommensurabilis fuerit ; & reliqua eidem incommensurabilis erit.
-
-*S'il y a deux grandeurs commensurables, & que l'vne d'icelles soit incommensurable à quelque grandeur ; l'autre sera aussi incommensurable à la mesme.*
-
-ABC
-
-Hypoth.
-
-a, comm. b,
-a, incomm. c.
+a, est ration.
+b, comm. a ꝗn □.
 
 Req. π. demonstr.
 
-b, incomm. c.
+b, est ration.
 
 Demonstr.
 
-suppos | c, comm. b,
-hyp. | a, comm b,
-12.10 | a, comm. c.
-contr. hypoth.
-21.a.1 | b, incomm. c.
+suppos. | c, est ration. expos.
+hyp. | □.b, comm. □.a,
+6.d.10 | □.c, comm. □.a,
+12.10 | □.b, comm. □.c,
+1.concl. 6.d.10 | b, est rationel.
 
-## THEOR. XII. PROPOS. XV.
+Hypoth. 2.
 
-Si quatuor rectæ lineæ proportionales fuerint, prima verò tantò plus possit quàm secunda, quantum est quadratum rectæ lineæ sibi commensurabilis longitudine, & tertia tantò plus poterit quàm
+a & b snt ration. α
+
+Req. π. demonstr.
+
+□.a comm. □.b.
+
+Demonstr.
+
+α.6d.10 | □.a, comm. □.c,
+α.6d.10 | □.b, comm. □.c,
+2 concl. 12.10 | □.a, comm. □.b.
+
+Hypoth. 3.
+
+Δc, est ration.
+Δb, comm. Δc.
+
+Req. π. demonstr.
+
+Δb, est ration.

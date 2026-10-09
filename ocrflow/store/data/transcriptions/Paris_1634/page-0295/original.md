@@ -1,44 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-β.cōstr | ik 3|2 hg & ik 2|3 hf,
-2.concl. 8.d.5 | raō. d π c 3|2 raō. d π ab.
+Les grandeurs égales ont mesme raison à vne mesme grandeur, & vne mesme grandeur a mesme raison aux égales.
 
-## THEOR. IX. PROPOS. IX.
+[Figure: lignes A, C, B et D, F, E]
 
-Quæ ad eandem, eandem habent rationem, æquales sunt inter se : Et ad quas eadem eandem habet rationem, eæ quoque sunt inter se æquales.
+hypoth. | a 2|2 b.
 
-Les grandeurs qui ont mesme raison à vne mesme grandeur, sont égales entr'elles : Et celles-là ausquelles vne mesme grandeur a mesme raison, sont aussi égales entr'elles.
+Req. π demonstr.
 
-[Figure: trois lignes verticales A, B, C]
-
-Hypoth. 1.
-
-a π c 2|2 b π c.
-
-Req. π. demonstr.
-
-a 2|2 b.
-
-Demonstr.
-
-suppos. | a 3|2 b,
-8.5 | a π c 3|2 b π c,
-| contr. hyp.
-
-Hypoth. 2.
-
+a π c 2|2 b π c,
 c π a 2|2 c π b.
 
-Req. π. demonstr.
+Præpar.
 
-a 2|2 b.
+| d, multipl.. | a,
+3.1 | e, multipl.. | b,
+3.1 | f, multipl.. c.
 
 Demonstr.
 
-suppos. | a 3|2 b,
-8.5 | c π b 3|2 c π a,
-| contr. hyp.
+6.a.1 | d 2|2 e,
+| d, 2, 3, 4 | 3 f,
+1.a.d | e, 2, 3, 4 | 3 f,
+1.concl. 6.d.5 | a π c 2|2 b π c,
+2.concl. c.4.5 | c π a 2|2 c π b.
 
-## THEOR. X. PROPOS. X.
+## SCHOL. I.
 
-Ad eandem magnitudinem rationem habentium, quæ maiorem rationem habet, illa maior est : Ad quam autem eadem maiorem rationem habet, illa minor est.
+Si loco multiplicis F sumantur duæ æquè multiplices, eodem modo ostendetur, æquales magnitudines ad alias inter se æquales, eandem habere rationem.
+
+Si au lieu de l'equimultiple F on prend deux equimultiples, on demonstrera par la mesme methode que les grandeurs égales ont mesme raison à d'autres grandeurs égales.
+
+## SCHOL. II.
+
+Hinc perspicuum est, si vnitates numerorum, quibus exprimuntur magnitudines, sint eiusdem mensuræ siue quantitatis, eandem esse proportionem magnitudinum, quam numerorum quibus exprimuntur.
+
+De ceste proposition il est manifeste que si les vnitez des nombres, par lesquels les grandeurs sont exprimées, signifient la mesme mesure ou grandeur, les grandeurs seront en mesme proportion que les nombres par lesquels elles seront exprimées.

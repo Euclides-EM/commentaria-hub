@@ -1,16 +1,32 @@
-# EVCLIDIS ELEMENTORVM LIBER OCTAVVS.
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-# LE HVICTIESME LIVRE DES ELEMENTS D'EVCLIDE.
+5.7 | d π b 2|2 c π a,
+6.a.7 | d, est par.. nr. b, denom. ꝑ b,
+concl. 20.d.7 | c, est par.. nr. a, denom. ꝑ b.
 
-## THEOR. I. PROPOS. I.
+## THEOR. XXXV. PROPOS. XL.
 
-Si fuerint quotcunque numeri deinceps proportionales, extremi verò ipsorum primi inter se fuerint; ipsi minimi sunt omnium eandem cum eis rationem habentium.
+Si numerus partem habuerit quamlibet; metietur illum numerus à quo ipsa pars denominatur.
 
-*S'il y a tant de nombres qu'on voudra continuellement proportionaux, & que les extremes soient premiers entr'eux ; ils sont les plus petits de tous ceux qui ont mesme raison qu'iceux.*
+*Si vn nombre a vne partie quelconque, le nombre par lequel ceste partie est denommee le mesurera.*
 
-A,8. B,12. C,18. D,27.
-E-F--G--H--
+A...............15
+B...3 C......5
+D. vnit.
 
 Hypoth.
 
-a,b,c,d snt contin. proport., & extrem. a & d snt pr. ꝫe.
+b, est par.. nr. a, denom. ꝑ c.
+
+Req. π. demonstr.
+
+c, msur: a.
+
+Demonstr.
+
+suppos. | d, est vnit.
+5.a.7 | d, est par.. nr. c. denom. ꝑ c,
+hyp. | b, est par.. nr. a, denom. ꝑ c,
+5.a.7 | d, msur: c,
+s.4.d.7 | b, msur: a,
+concl. 15.7 | d, msur: b, c, msur: a.

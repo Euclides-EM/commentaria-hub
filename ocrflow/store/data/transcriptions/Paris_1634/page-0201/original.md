@@ -1,38 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-stantes du centre : Et celles qui sont également distantes du centre, sont égales entr'elles.
+Si deux cercles se touchent l'vn l'autre, au dehors, la ligne droicte menée d'vn centre à l'autre, passera par l'attouchement.
 
-Hypoth. 1.
+[Figure: deux cercles se touchans en C, D et E en haut, A centre du premier, B centre du second, ligne A—C—B, arcs D—C et E—C]
 
-eabc est ⊙,
-ad 2|2 bc,
+Hypoth.
 
-[Figure: cercle A—B—C—D, E au centre, F et G au dedans, lignes A—D, B—C, E—A, E—B, E—F, E—G]
-
-Præpar.
-
-1.p.1 | ea & eb snt —,
-12.1 | ef ⊥ ad, α
-12.1 | eg ⊥ bc. α
+acd & bce snt ⊙,
+c, est •.. contact.
 
 Req. π. demonstr.
 
-ef 2|2 eg,
+acb est —.
 
 Demonstr.
 
-hyp. | ad 2|2 bc,
-3.3 | af 2|2 fd,
-α.3.3 | bg 2|2 gc,
-7.a.1 | af 2|2 bg,
-s.46.1 | ▭.af 2|2 ▭.bg, β
-s.46.1 | ▭.ae 2|2 ▭.eb,
-47.1 | ▭.af + ▭.fe 2|2 ▭.ae,
-47.1 | ▭.gb + ▭.ge 2|2 ▭.eb,
-1.a.1 | ▭.af + ▭.fe 2|2 ▭.gb + ▭.ge,
-β.3.a.1 | ▭.fe 2|2 ▭.ge,
-1.concl. s.46.1 | fe 2|2 ge.
+suppos. | adb est —,
+20.1 | ac + cb 3|2 ad + db,
+15.d.1 | ac 2|2 ad,
+15.d.1 | bc 2|2 be,
+1.a.c | ad + be 3|2 ad + db, contr. 9.a.1.
+21.a.1 | acb est —.
 
-Hypoth. 2.
+## THEOR. XII. PROPOS. XIII.
 
-ef 2|2 eg. γ
+Circulus circulum non tangit in pluribus punctis, quàm vno, siue intus, siue extra tangat.
+
+Vn cercle ne touche point vn cercle à plus d'vn poinct: soit qu'il le touche au dedans, ou au dehors.
+
+[Figure: deux cercles se touchans en A au dedans, B et C au milieu, D à gauche, H en bas, lignes A—H, D—B, D—C, et vn troisiesme cercle E—F—G touchant au dehors, lignes E—F]
+
+Hypoth. 1.
+
+caf, bad snt ⊙,
+a, est •.. contact. α
+
+Req. π. demonstr.
+
+hud ñ est •.. contact.
+
+Præpar.
+
+1.&2.p.1 | ab & bch snt —,
+| d, est • arbitr.

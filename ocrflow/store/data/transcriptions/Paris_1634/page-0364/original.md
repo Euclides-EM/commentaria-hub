@@ -1,43 +1,33 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-hyp. | <bcd 2|2 <ecg,
-1.s.1.51 | dce est —,
-2.p.1 | adh & fgh snt —.
-
-[Figure: parallelogrammes A, B, C, D, H, G et C, E, F, G se touchant en C]
-
 Demonstr.
 
-20.d.5 | raō.. ac π cf 2|2 raō.. ac π ch + raō.. ch π cf,
-1.6 | ac π ch 2|2 bc π cg,
-1.6 | ch π cf 2|2 dc π ce,
-concl. 1.s.23.5 | raō.. ac π cf 2|2 raō.. bc π cg + raō.. dc π ce.
+hyp. | Δabi π Δcdk 2|2 em π go.
+19.6 | raō.. Δabi π Δcdk 2|2, 2 raō.. ab π cd,
+20.6 | raō.. em π go 2|2, 2 raō.. ef π gh,
+1.concl. 2.s.23.5 | ab π cd 2|2 ef π gh.
 
-## SCHOL. I.
+## SCHOL.
 
-Triangula, quæ vnum angulum vni angulo æqualem habent, eandem proportionem habent, quam rectangula, quæ sub lateribus æqualem angulum comprehendentibus continentur.
+Si recta linea secta sit vtcunque : rectangulum sub partibus contentum est medium proportionale inter earum quadrata : Item rectangulum contentum sub tota, & vna parte est mediam proportionale inter quadratum totius lineæ, & quadratum dictæ partis.
 
-Les triangles qui ont vn angle egal à vn angle, sont en mesme raison, que les rectangles contenus sous les costez comprenans l'angle egal.
+Si vne ligne droicte est couppee comme on voudra, le rectangle contenu sous les parties, est milieu proportionel, entre les quarrez d'icelles parties : Item le rectangle contenu sous la toute & vne partie est milieu proportionel entre le quarré de la toute, & le quarré de ladite partie.
 
-[Figure: triangles A, B, C auec poinct G et D, E, F auec poinct H]
+[Figure: demi-cercle A, E, B auec perpendiculaire E—D sur A—B]
 
 Hypoth.
 
-abc & def snt Δ,
-<a 2|2 <d.
+ab est —,
+arbitr. | ad & db snt part.. ab.
 
 Req. π. demonstr.
 
-Δabc π Δdef,
-▭.ab,ac π ▭.de,df
+□.ad π ▭.adb 2|2 ▭.adb π □.db,
+□.ab π ▭.bad 2|2 ▭.bad π □.ad,
+□.ab π ▭.abd 2|2 ▭.abd π □.db.
 
 Præpar.
 
-12.1 | bg ⊥ ac,
-12.1 | eh ⊥ df.
-
-Demonstr.
-
-hyp. | <a 2|2 <d,
-12.a.1 | <bga 2|2 <ehd,
-32.1 | Δabg æquiāg. Δdeh
+3.p.1 | aeb est semic.
+11.1 | de ⊥ ab,
+1.p.1 | ae & be snt —.

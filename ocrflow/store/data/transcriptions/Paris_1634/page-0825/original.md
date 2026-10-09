@@ -1,42 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-[Figure: labels arranged F H G E / N K Q O / R / L T I M / P / S / A D C B]
+[Figure: labels arranged E G F / I O H K / P / D A C B / L N M]
 
-Præpar.
-
-46. 1 | ae, eſt □.ab,
-1. p. 1 | bf, eſt diamet.
-31. 1 | cg & dh ſnt == be,
-31. 1 | lim == ab,
-31. 1 | nкo == ab.
+31. 1 | gal == ed,
+31. 1 | ihк == db,
+46. 1 | am, eſt □.ab,
+2. p. 1 | fcn, eſt ——.
 
 Demonstr.
 
-1. c. 4. 2 | lg, eſt □.ac,
-1. c. 4. 2 | pq, eſt □.dc,
-1. c. 4. 2 | do, eſt □.db,
+1. c. 4. 2 | ai, eſt □.ad,
+1. c. 4. 2 | gк, eſt □.ac,
 hyp. | ab π ac 2|2 ac π cb,
-17. 6 | ▭am 2|2 □lg,
-α. 1. ſ. 4. 2 | □lg 2|2, 4□pq,
-1. a. 1 | ▭am 2|2, 4□pq,
-α. 36. 1 | ▭ap 2|2 ▭di, Ⅱ io,
-1. a. f | gnom. pbq 2|2, 4□pq
-concl. 2. a. 1 | do □.db 2|2, 5□.dc.
+17. 6 | □gк 2|2 ▭cm,
+hyp. | ab Ⅱ al 2|2, 2ah,
+1. 6 | ▭an 2|2, 2▭aк,
+43. 1 | ▭an 2|2 aк + ig,
+2. a. 1 | am 2|2 gnom. afi,
+1. ſ. 4. 2 | □.am 2|2, 4□.ad,
+concl. 2. a. 1 | ec □.dc 2|2, 5□.ad.
 
-## THEOR. IV. PROPOS. IV.
+## THEOR. II. PROPOS. II.
 
-Si recta linea secundum extremam & mediam rationem secetur; quod à tota, quodque à minore segmento, simul vtraque quadrata, tripla sunt eius, quod à majore segmento describitur, quadrati.
+Si recta linea sui ipsius segmenti quintuplum possit; duplæ prædicti segmenti extrema ac media ratione sectæ, maius segmentum reliqua pars est eius, quæ à principio rectæ.
 
-*Si vne ligne droicte est couppee selon la moyenne & extreme raison; le quarré de la toute, & le quarré du petit segment ensemble, sont triples du quarré du plus grand segment.*
+*Si vne ligne droicte peut le quintuple de son segment, la ligne double dudit segment estant couppée en la moyenne & extreme raison, le plus grand segment sera l'autre partie de la ligne premierement donnee.*
 
 Hypoth.
 
-ad π gd 2|2 gd π ag, α
+□.dc 2|2, 5□.ad,
+ab 2|2, 2ad. α
 
 Req. π. demonstr.
 
-□.ad + □.ag 2|2, 3□;. gd.
-
-Præpar.
-
-46. 1 | bd, eſt □. ad,
+ab π ac 2|2 ac π cb,

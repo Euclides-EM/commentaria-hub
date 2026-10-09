@@ -1,20 +1,17 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-d.δ | sect. fhg, ghl, lhp snt ⁊e,
-d.δ | ⌒bci 2, 3, 4|3 ⌒fgp,
-sect. bdi 2, 3, 4|3 sect. fhp,
-3.concl. 6.d.5 | sect. bdcm π sect. fhg 2|2 ⌒bmc π ⌒fg.
+## THEOR. XXIII. PROPOS. XXXIII.
 
-## COROLL. I.
+In æqualibus circulis, anguli eandem habēt rationem cum peripheriis, quibus insistunt, siue ad centra, siue ad peripherias constituti insistant: insuper vero & sectores, quippe qui ad centra consistunt.
 
-γ.11.5 | sect. bdcm π sect. fhg 2|2 <bdc π <fhg.
+Aux cercles egaux, les angles ont mesme raison entr'eux, que les circonferences sur lesquelles ils sont appuyez, soit qu'ils soient appuyez estant constituez aux centres ou aux circonferences : les secteurs sont außi de mesme entr'eux, d'autant qu'ils sont constituez au centre.
 
-## COROLL. II.
+[Figure: cercle A, D, I, N, C, M, B et cercle E, H, P, L, G, F]
 
-Hinc manifestum est, vt est angulus in centro ad quatuor rectos, ita esse arcum subtensum illi angulo ad totam circumferentiam. Et contrà, vt sunt quatuor recti ad angulum in centro, ita esse totam circumferentiam ad arcum illi angulo subtensum.
+Hypoth.
 
-Il est manifeste de cecy, que comme l'angle au centre est à quatre droicts, ainsi l'arc qui soustient iceluy angle est à toute la circonference. Et au contraire, comme quatre angles droicts sont à l'angle qui est au centre, ainsi toute la circonference est à l'arc qui soustient ledit angle.
+⊙dbca 2|2 ⊙hfgp, α
 
-His sex elementorum Euclidis libris, annectam variorum problematum atque theorematum appendicem ; quorum alia ad Algebram, alia ad Astronomiam, omnia vero ad pleniorem Geometriæ planorum intelligentiam sunt necessaria.
+Req. π. demonstr.
 
-A ces six liures des Elements d'Euclide, i'adiousteray vn appendix de diuers problemes & theoremes, dont les vns sont necessaires à l'Algebre, les autres à l'Astronomie ; mais tous sont necessaires pour auoir plus ample intelligence de la Geometrie des plans.
+⌒bmc π ⌒fg, <bdc π <fhg, <bac π <feg, sect. bdc π sect. fhg. snt raō. 2|2 ⁊e.

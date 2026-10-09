@@ -1,39 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-Demonstr.
+3.p.1 | oml est ⊙.
 
-hypoth. | <eab, <abc, <bcd, <cde, <dea snt 2|2 ⁊e,
-c.37.3 & 7.a.1 | <fae, <fab, <fba, <fbc
-| <fcb, <fcd, <fdc, &c.
-| snt 2|2 ⁊e, α
-α | <fab 2|2 <fae,
-α | <fba 2|2 <fea,
-| af est commun.
-26.1 | ab 2|2 ae, β
-1.concl. d.β | abcde est æquilat.
+Req. π. demonstr.
 
-[Figure: pentagone A—B—C—D—E circonscrit au cercle, F au centre, les poincts G, L, H, K, I sur le cercle]
+rhomb. fghi est circscri. π. ⊙mlp.
 
-Hypoth 2.
-
-mopq est ⊙,
-
-[Figure: cercle auec quadrilatere M—O—P—Q inscrit et ses diagonales]
-
-Præpar.
-
-1.p.1 | mp est diamet. arbitr.
-arbitr. | mo 2|3 op, α
-1&2.p.1 | oq est diamet.
-1.p.1 | mq & pq snt —.
+[Figure: rhombe F—G—H—I auec cercle inscrit, O au centre, les poincts L, M, N, P sur le cercle]
 
 Demonstr.
 
-31.3 | <mop, <opq, <mqp, <omq snt ∟,
-12.a.1 | <mop, <opq, <mqp, <omq snt 2|2 ⁊e, β
-β3.s.34.1 | mopq est ▭ æquiang.
-α.cōstr. | mopq ñ est ▭ æquilat.
+constr. | <ogh 2|2 <ogf,
+hyp. | gh 2|2 gf,
+| og est commun.
+4.1 | <ohg 2|2 <ofg,
+34.1 | <ghi 2|2 <gfi,
+3.a.1 | <ohi 2|2 <ofi,
+constr. | <m, <l, <n, <p snt ∟,
+26.1 & 1.a.1 | op, om, ol, on snt 2|2 ⁊e,
+concl. 4.d.4 | rhomb. fghi est circscri. π. ⊙omlnp.
+
+[Figure: pentagone A—B—C—D—E circonscrit au cercle, F au centre, les poincts G, L, H, N, I sur le cercle]
 
 Hypoth. 3.
 
-5<abcde est æquiang.
+abcde est 5<,
+abcde est æquilat.
+abcde est circscri. π. ⊙fghl,
+
+Req. π. demonstr.
+
+abcde est æquiang.
+
+Præpar.
+
+1.p.1 | fa,fb,fc,fd,fe snt —
+
+Demonstr.
+
+c.37.3 | <fab 2|2 <fae,
+hyp. | ab 2|2 ae,
+| af est commun.
+4.1 | <abf 2|2 <aef, α
+c.37.3 | <fbc 2|2 <fba,
+c.37.3 | <fed 2|2 <fea,

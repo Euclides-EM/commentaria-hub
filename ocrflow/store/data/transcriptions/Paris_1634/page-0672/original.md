@@ -1,32 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-compositum quidem ex ipsarum quadratis rationale, quod autem sub ipsis continetur, medium; reliqua irrationalis est: vocetur autem minor.
+Si EF est apotome, vel residuū, DE erit congruens.
 
-*Si d'vne ligne droicte on retranche vne ligne droicte, incommensurable en puissance à la toute, faisant auec la toute le composé de leurs quarrez rationel, & le rectangle contenu sous icelles medial; la restante est irrationelle: soit icelle appellee mineure.*
+*Si EF est apotome ou residu, DE sera congruent.*
 
-A B C (line)
+## THEOR. LVII. PROPOS. LXXV.
+
+Si à media, media auferatur potentia tantum commensurabilis existens toti, quæ cum tota rationale contineat, reliqua irrationalis est: vocetur autem mediæ apotome prima.
+
+*Si d'vne ligne mediale on retranche vne ligne mediale, commensurable en puissance seulement à la toute, laquelle contienne vn rectangle rationel auec la toute, le reste est irrationel: soit appellé residu medial premier.*
+
+D E F (line)
 
 Hypoth.
 
-□.ac, incomm. □.ab,
-aggreg..□.ac + □.ab, est ration.
-▭.cab, est medi. α
+df & de snt medi. comm. ꝗn □, α
+▭.fde, est ration.
 
 Req. π. demonstr.
 
-bc, est irration.
+ef, est resid. 1.
 
 Demonstr.
 
-hyp. | aggreg..□.ac + □.ab, est ration.
-α.24.10 | 2▭.cab, est medi.
-s.12.10 | 2▭.cab, incomm. aggreg..□.ac + □.ab,
-7.2 | □.ac + □.ab 2|2, 2▭.cab + □.bc,
-17.10 | □.bc, incomm. aggreg.□.ac + □.ab,
-concl. 27.10 | bc, est irration.
+αc26.10 | □.ef, incomm. ▭.fde
+hyp. | ▭.fde, est ration.
+10.d.10 | ef, est irration.
 
 Explicat. ꝑ nr;
 
-ac, est √..18 + √.108,
-ab, est √..18 ∼ √.108,
-bc, est √..18 + √.108, ∼ √..18 ∼ 108.
+df, est √√.54,
+de, est √√.24,
+ef, est √√.54 ∼ √√.24.
+
+## THEOR. LVIII. PROPOS. LXXVI.
+
+Si à media media auferatur potentia tantum commensurabilis existens toti, quæ cum tota me-

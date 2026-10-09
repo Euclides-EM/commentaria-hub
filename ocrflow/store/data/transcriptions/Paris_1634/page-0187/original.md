@@ -1,43 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: deux cercles, le premier A—B—C avec centre G et lignes A—B, B—C, G—A, G—C, le second D—E—F avec centre H et lignes D—E, E—F, H—D, H—F]
+neæ: is, inquam, angulus ab adiunctis illis lineis comprehensus.
 
-hyp. | <abc 2|2 <def,
-10.d.3 | segm. abc simil. segm. def.
+est la base du segment, & c'est celuy-là, dis-ie, qui est contenu sous icelles lignes droictes menées.
+
+7.d.3 | <abc est in segm. abc.
+
+[Figure: segment de cercle sur la base A—C, B et D sur l'arc, lignes A—B, A—D, B—C, D—C]
 
 Explicatio notarum.
 
-Angulus ABC est æqualis angulo DEF, circuli segmentum ABC est simile circuli segmento DEF.
+Angulus ABC est in segmento ABC.
 
 Explication des notes.
 
-L'angle ABC est égal à l'angle DEF, le segment du cercle ABC est semblable au segment du cercle DEF.
+L'angle ABC est au segment ABC.
 
-## PROBL. I. PROPOS. I.
+## DEFINIT. VIII.
 
-Dati circuli centrum reperire.
+Cùm verò comprehendentes angulum rectæ lineæ aliquam assumunt peripheriam, illi angulus insistere dicitur.
 
-Trouuer le centre d'vn cercle donné.
+Mais quand les lignes droictes qui contiennent l'angle, embrassent quelque circonference, l'angle est dit s'appuyer sur icelle.
 
-[Figure: cercle A—B—C—D, G au dedans, F et E sur la ligne, lignes B—D, A—C, G—A, G—C, G—E]
+[Figure: cercle avec B en haut, A à gauche, C à droite, D en bas, lignes A—B, B—C, A—C, A—D, D—C]
 
-Hypoth.
+Angulus ABC est in segmento ABC per præcedentem definitionem, &
 
-abc est ⊙ D.
-
-Constr.
-
-arbitr. | a & c snt • in ∩ abc
-1.p.1 | ac est —,
-10.1 | ae 2|2 ec,
-11.1 | eb ⊥ ac,
-2.p.1 | bed est —,
-10.1 | df 2|2 fb,
-symp. | • f est centr.. ⊙,
-
-Demonstr.
-
-suppos. | g est centr.. ⊙,
-1.p.1 | ga, gc, ge snt —,
-constr. | ae 2|2 ec,
-| eg est commun.
+L'angle ABC est au segment ABC par la definition precedente, & par cette huictiesme

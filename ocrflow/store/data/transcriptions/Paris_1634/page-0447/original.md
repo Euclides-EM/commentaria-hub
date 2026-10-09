@@ -1,31 +1,27 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-merus B, est minimus communis diuiduus numerorum C & D.
+numero quotlibet posse sumi æquales vel multiplices.
 
-*le nombre B, est le moindre commun partissable par les nombres C & D.*
+*pouuoir prendre tant qu'on voudra d'egaux ou multiples.*
 
 ### II.
 
-Partes eidem parti, vel iisdem partibus eædem, sunt quoque inter se eædem.
+Quolibet numero sumi posse maiorem.
 
-*Les parties qui sont de mesme à vne mesme partie, ou aux mesmes parties, sont aussi de mesme entr'elles.*
+*A tout nombre donné en pouuoir prendre vn plus grand.*
 
-A,2. B,6.
-C,8. D,24. E,5. F,15.
+### III.
 
-hyp. | a, par.. b, e, par.. f,
-hyp. | c, par.. d, e, par.. f,
-2.a.7 | a, par.. b, c, par.. d.
+Additio, subtractio, multiplicatio, diuisio, extractionesq. radicum, seu laterū, numerorum quadratorum & cuborum, conceduntur etiam tanquam possibilia.
 
-Vel sic. *Ou ainsi.*
+*L'addition, la soustractiō, la multiplication, la diuision, & les extractions des racines, ou costez des nombres quarrez & cubes sont aussi concedees comme choses possibles.*
 
-hyp. | a, par.. b 2|2 e, par.. f,
-hyp. | c, par.. d 2|2 e, par.. f,
-2.a.7 | a, par.. b 2|2 c, par.. d.
+## AXIOMATA, SIVE PRONVNCIATA.
 
-A,4. B,6.
-C,16. D,24. E,10. F,15.
+## AXIOMES, OV communes sentences.
 
-hyp. | a, part.. b 2|2 e, part.. f,
-hyp. | c, part.. d 2|2 e, part.. f,
-2.a.7 | a, part.. b 2|2 c, part.. d,
+### I.
+
+Quidquid conuenit vni æqualium numerorum, cōuenit & reliquis æqualibus numeris.
+
+*Tout ce qui conuient à vn des nombres egaux conuient aussi à tous les autres nombres egaux.*

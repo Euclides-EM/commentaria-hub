@@ -1,46 +1,59 @@
-<!-- Running title: ELEM.. EVCLID. LI. IV. -->
+<!-- Running title: ELEM.. EVDLID. LI. IV. -->
 
-3.p.1 | oml est ⊙.
+[Figure: triangle rectangle A—B—E, l'angle droict en B, auec les poincts C, D sur la base B—E et les lignes A—C, A—D]
 
-Req. π. demonstr.
+| ae est 4 3702/3864.
 
-rhomb. fghi est circscri. π. ⊙mlp.
+Exempl. 2.
 
-[Figure: rhombe F—G—H—I auec cercle inscrit, O au centre, les poincts L, M, N, P sur le cercle]
+hyp. | ad est 3,
+hyp. | ae est 10,
 
-Demonstr.
+Req. est de,
 
-constr. | <ogh 2|2 <ogf,
-hyp. | gh 2|2 gf,
-| og est commun.
-4.1 | <ohg 2|2 <ofg,
-34.1 | <ghi 2|2 <gfi,
-3.a.1 | <ohi 2|2 <ofi,
-constr. | <m, <l, <n, <p snt ∟,
-26.1 & 1.a.1 | op, om, ol, on snt 2|2 ⁊e,
-concl. 4.d.4 | rhomb. fghi est circscri. π. ⊙omlnp.
+α | bd est 3732,
+β | ad est 3864,
+| ad π ae 2|2 ad π ae,
+| 3, π, 10, 3864, π, O.
+| ae est 12880.
+47.1 | be, est 12841,
+3.a.1 | de est 9109,
+| ad π de 2|2 ad π de,
+concl. | 3864, π, 9109, 3, π, O.
+| de est 7 279/3864.
 
-[Figure: pentagone A—B—C—D—E circonscrit au cercle, F au centre, les poincts G, L, H, N, I sur le cercle]
+Exempl. 3.
 
-Hypoth. 3.
+hyp. | 11<adb 2|2 <dac
+| + <dca,
+hyp. | ad est 10,
+hyp. | ac est 3,
 
-abcde est 5<,
-abcde est æquilat.
-abcde est circscri. π. ⊙fghl,
+Req. est cd,
 
-Req. π. demonstr.
+2.s.16.4 | <bac 2|2, 2<bca,
+β | ad est 3864,
+α | bd est 3732, γ
+| ad π ac 2|2 ad π ac,
+| 10, π, 3, 3864, π, O,
+| ac est 1159,
+47.1 | bc est 586,
+γ.3.a.1 | cd est 3146,
+concl. | ad π cd 2|2 ad π cd
+| 3864, π, 1346, 10, π, O.
+| cd est 8 540/3874.
 
-abcde est æquiang.
+Exempl. 4.
 
-Præpar.
+| ad est 10,
+| cd est 3,
 
-1.p.1 | fa,fb,fc,fd,fe snt —
+Req. est ac.
 
-Demonstr.
+Constr.
 
-c.37.3 | <fab 2|2 <fae,
-hyp. | ab 2|2 ae,
-| af est commun.
-4.1 | <abf 2|2 <aef, α
-c.37.3 | <fbc 2|2 <fba,
-c.37.3 | <fed 2|2 <fea,
+β | ad est 3864,
+α | bd est 3732,
+| ad π cd 2|2 ad π cd,
+| 10, π, 3, 3864, π, O.
+| cd est 1159.

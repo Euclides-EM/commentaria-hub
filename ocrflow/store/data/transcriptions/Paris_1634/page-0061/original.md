@@ -1,17 +1,15 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-## PETITIONES SIVE POSTVLATA.
+seorsim : vt in 25 propositione appendicis, quoniam sunt quinque figuræ iisdem litteris notatæ, intelligenda est demonstratio in singulis figuris, ac proinde repetenda erit quinquies. | ment : comme en la 25 proposition de l'appendix, à cause qu'il y a cinq figures marquées par mesmes lettres, il faut entendre la demonstration en chaque figure ; & par consequent il faut la recommencer cinq fois.
 
-## PETITIONS OV DEMANDES.
+### XLII.
 
-### I.
+Corollarium est consectarium, quod è facta demonstratione tanquam lucrum aliquod colligitur. | Corollaire est vne consequence, outre le requis qu'on infere de la demonstration.
 
-Postuletur, vt à quouis puncto in quoduis punctum, rectam lineam ducere, concedatur. | Soit demandé, de tout poinct donné, à tout autre poinct donné, mener vne ligne droicte, soit concedé.
+### XLIII.
 
-[Figure: ligne droicte horizontale de A à B]
+Lemma est demonstratio seorsim facta alicuius præmissæ, vt demonstratio quæsiti euadat breuior. | Lemme est vne demonstration qu'on fait separément, pour rendre la demonstration du requis plus briefue.
 
-1.p.1 | ab est —.
+### XLIV.
 
-Explicatio notarum. | Explication des notes.
-
-AB est recta per primum postulatum, vel à puncto A ad punctum B, ducta est recta linea AB per primum postulatum. | AB est vne ligne droite par la premiere demande : ou bien, du poinct A au poinct B a esté menée la ligne droite AB, par la premiere demande ou postulat.
+Arbitrarium est, quod ad libitum sumitur vel fit. | Arbitraire est ce qui est pris ou faict à la volonté.

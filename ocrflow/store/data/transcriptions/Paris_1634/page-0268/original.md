@@ -1,45 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-Ratio est duarum magnitudinum habitudo.
+A, 6. B, 2. C, 16. D, 8.
 
-Proportionalitas seu analogia est rationum similitudo.
+a π3 | b,
+c π2 | d.
 
-Proportio sumitur in vtramque significationem.
+Vel sic, Où ainsi.
 
-Proportio geometrica, quatenus significat rationem, diuiditur in proportionem rationalem & irrationalem.
+a πb 3|2 c πd.
 
-Rationalis est ea, quæ in numeris potest exhiberi, qualis est proportio 6. ad 4.
+Explicatio notarum.
 
-Irrationalis verò proportio ea est, quæ in numeris exhiberi nequit, qualis est proportio diametri cuiuslibet quadrati ad latus eiusdem quadrati ; hæc enim in numeris reperiri non potest.
+Ratio A ad B est maior ratione C ad D.
 
-Proportio diuiditur etiam in proportionem æqualitatis & inæqualitatis.
+Explication des notes.
 
-Æqualitatis proportio est inter duas quantitates æquales, qualis est proportio 6. ad 6.
+La raison de A à B est plus grande que la raison de C à D.
 
-Inæqualitatis verò proportio inter duas quantitates inæquales reperitur, qualis est proportio 6. ad 4.
+In omni ratione, ea quantitas quæ ad aliam refertur, dicitur antecedens rationis ; Ea verò, ad quam alia refertur, consequens rationis dici solet ; vt in ratione 6, ad 4, antecedens est 6, & consequens 4.
 
-Proportio inæqualitatis subdiuiditur in proportionem maioris inæqualitatis, & minoris inæqualitatis.
+En toute raison la quantité qui se refere à vn autre, est dite antecedent de la raison ; mais celle-là à laquelle vne autre se refere, est dite consequent de la raison, comme en la raison de 6, à 4, l'antecedent est 6, & le consequent 4.
 
-Proportio maioris inæqualitatis est, quando maior quanti-
+## SCHOL. I.
 
-Raison est l'habitude de deux grandeurs.
+Denominator siue quantitas rationis est numerus, qui gignitur ex diuisione antecedentis rationis per consequentem : exempli gratia, quantitas rationis 12, ad 4, est 3, quòd hic numerus indicet quoties antecedens 12, contineat suum consequens 4.
 
-Proportionalité ou analogie est vne similitude de raisons.
+Le denominateur ou quantité d'vne raison est le nombre qui se trouue en diuisant l'antecedent de la raison par son consequent : par exemple, la quantité de la raison de 12 à 4 est 3, à cause que ce nombre monstre combien de fois l'antecedent 12 contient son consequent 4.
 
-Proportion se prend en l'vne & l'autre signification.
+## SCHOL. II.
 
-La proportion geometrique, la prenant pour raison, se diuise en proportion rationnelle & irrationnelle.
+Æqualium rationum denominatores seu quatitates
 
-La rationnelle est celle-là, laquelle peut estre exprimée par nombres, comme est la proportion de 6 à 4.
-
-L'irrationnelle est celle-là, laquelle ne peut estre exprimée par nombres, cōme est la proportion du diametre d'vn quarré au costé du mesme quarré ; car ceste raison ne peut estre trouuée aux nombres.
-
-La proportion se diuise aussi en proportion d'egalité & d'inegalité.
-
-La proportion d'egalité est celle qui est entre deux quantitez égales, comme est la proportion de 6. à 6.
-
-La proportion d'inégalité est celle qui est entre deux quantitez inégales, comme est la proportion de 6. à 4.
-
-La proportion d'inégalité est subdiuisée en proportion d'inegalité maieure, & d'inégalité mineure.
-
-La proportion d'inégalité maieure est quand la plus grande
+Les denominateurs ou quātitez des raisons égales sont éga-

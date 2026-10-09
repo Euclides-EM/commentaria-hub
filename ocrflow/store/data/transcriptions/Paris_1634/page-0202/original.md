@@ -1,41 +1,45 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-Req. π. demonstr.
+[Figure: deux cercles se touchans en A au dedans, B et C au milieu, D à gauche, H en bas, lignes A—H, D—B, D—C, et vn troisiesme cercle E—F—G touchant au dehors, lignes E—F]
 
-ad 2|2 bc.
-
-[Figure: cercle A—B—C—D, E au centre, F et G au dedans, lignes A—D, B—C, E—A, E—B, E—F, E—G]
+1.p.1 | bd, cd snt —.
 
 Demonstr.
 
-47.1 | ▭.af + ▭.fe 2|2 ▭.ae,
-47.1 | ▭.gb + ▭.eg 2|2 ▭.eb,
-1.a.1 | ▭.af + ▭.fe 2|2 ▭.gb + ▭.eg,
-3.a.1 | ▭.af 2|2 ▭.gb,
-s.46.1 | af 2|2 gb,
-2.concl. 6.a.1 | ad 2|2 bc.
+suppos. | h, est •.. contact.
+11.3 | abc est —,
+9.a.1 | bh 3|2 ch,
+α.15.d.1 | ch 2|2 ca,
+1.a.b | bh 3|2 ca,
+α.15.d.1 | bh 2|2 ba,
+1.a.d | ba 3|2 ca, contr. 9.a.1.
+suppos. | d, est •.. contact.
+α.15.d.1 | bd 2|2 ba,
+| cb commun. add.
+2.a.1 | cb + bd 2|2 ca,
+15.d.1 | cd 2|2 ca,
+1.a.1 | cd 2|2 cb + bd, controu. 20.1.
 
-## THEOR. XIV. PROPOS. XV.
+Hypoth. 2.
 
-In circulo maxima quidem linea est diameter; aliarum autem propinquior centro, remotiore semper maior est.
-
-Au cercle la plus grande ligne est le diametre ; mais des autres, tousiours celle qui est plus proche du centre, est plus grande que celle qui en est plus esloignée.
-
-[Figure: cercle F—A—K—B—E—D—L—C, G au centre, H et I au dedans, N sous G, lignes F—E, A—D, K—L, B—C, H—I, lignes de G vers B et C]
-
-Hypoth.
-
-gabc est ⊙,
-ad est diamet.
-gi ⊥ bc,
-gh ⊥ fe,
-gi 3|2 gh.
+cae & feg snt ⊙,
+f, est •.. contact.
 
 Req. π. demonstr.
 
-ad 3|2 fe,
-fe 3|2 bc.
+e, ñ est •.. contact.
 
 Præpar.
 
-3.1 | gn 2|2 gh, α
+1.p.1 | fe est —.
+
+Demonstr.
+
+2.3 | fe est in ⊙ afe & in ⊙ feg,
+2.3.d.3 | ⊙afe secat: ⊙feg in f contr. hypoth.
+
+## THEOR. XIII. PROPOS. XIV.
+
+In circulo æquales rectæ lineæ æqualiter distant à centro. Et quæ æqualiter distant à centro, æquales sunt inter se.
+
+Au cercle les lignes droictes égales sont également di-

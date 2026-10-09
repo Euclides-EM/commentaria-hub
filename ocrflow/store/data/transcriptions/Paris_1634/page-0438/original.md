@@ -1,27 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-erit, planus appellabitur. Qui verò numeri mutuò sese multiplicarint, latera illius dicentur.
+## DEFINIT. XII.
 
-*qu'vn, celuy qui est produit, est appellé plan. Et les nombres qui se multiplient l'vn l'autre seront dits costez d'iceluy.*
+Primi inter se numeri sunt, quos sola vnitas, communis mensura metitur : vt 8, & 15, sunt numeri primi inter se.
 
-A,15. B,3. C,45.
+*Nōbres premiers entr'eux, sont ceux-là, lesquels ont la seule vnité pour commune mesure : cōme 8, & 15, sont nombres premiers entr'eux.*
 
-hyp. | ▭.a,b est c,
-16.d 7 | c, est nr. plan.
+pr.ꝫe, id est primi inter se.
 
-## DEFINIT. XVII.
+*pr.ꝫe, signifie premiers entr'eux.*
 
-Cùm verò tres numeri mutuò se multiplicantes aliquem fecerint, qui procreatus erit, solidus appellabitur : qui autem numeri mutuò sese multiplicarint, latera illius dicentur.
+## DEFINIT. XIII.
 
-*Quand trois nombres se multiplians l'vn l'autre en produisent quelqu'vn, celuy qui est procreé sera appellé solide : & les nombres qui se multiplient l'vn l'autre, seront appellez costez d'iceluy.*
+Compositus numerus est, quem numerus quispiam metitur : vt 4, 6, 8, sunt numeri compositi.
 
-A,3. B,4. C,10. D,120.
+*Nombre composé, est celuy lequel, quelque nombre peut mesurer : comme 4, 6, 8, sont nombres composez.*
 
-hyp. | d 2|2 abc,
-17.d.7 | d, est nr. solid.
+compos. id est compositus.
 
-Explicatio notarum. Explication des notes.
+*compos. signifie composé.*
 
-Numero D, est æqualis numerus qui fit ex mutua multiplicatione numerorū A, B, C. Igitur D, est numerus solidus.
+## DEFINIT. XIV.
 
-*Le nombre D, est egal au nombre qui vient en multipliant les trois nombres A, B, C, l'vn par l'autre; partant D, est nombre solide.*
+Compositi autem inter se numeri sunt, quos numerus aliquis communis mensura metitur : vt 9, & 15, sunt numeri compositi inter se.
+
+*Mais nombres composez entr'eux, sont ceux-là lesquels sont mesurez par quelque nombre comme commune mesure : comme 9, & 15, sont nombres composez entr'eux.*
+
+compos. ꝫe, id est compositi inter se.
+
+*compos. ꝫe, signifie composez entr'eux.*
+
+Euclidi in hac definitione & præcedente vnitas non est numerus.
+
+*L'vnité n'est pas nombre à Euclide en ceste definition, & en la precedente.*

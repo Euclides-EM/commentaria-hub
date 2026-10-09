@@ -1,48 +1,52 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-[Figure: à gauche deux quarrez auec diagonales, E—F en haut & A—B—C en bas pour le premier, F—H—G en haut & C—D en bas pour le second ; à droicte deux quarrez N—O—P—Q en haut, I—K—L—T—M en bas, ligne poinctée R—S]
+[Figure: à gauche quadrilatere ABCD, B & C en haut, A & D en bas, diagonale poinctée B—D ; l'angle E ; à droicte parallelogramme F—G—H—L en haut, F—I—K en bas, ligne H—I]
 
-Præpar.
+Req. π. fa,
 
-46.1. | af est ▭.ab,
-46.1. | cg est ▭.cd,
-1.p.1. | eb & hd snt —.
+◊fl 2|2 abcd.
 
-Demonstr.
+Constr.
 
-α. 4.1. | △eab 2|2 △hcd,
-34.1. | ▭af 2|2 2△eab,
-34.1. | ▭cg 2|2 2△hcd,
-concl. 6.a.1. | ▭af 2|2 ▭cg, β
-
-Hypoth. 2.
-
-▭nk 2|2 ▭pm.
-
-Req. π. demonstr.
-
-ik 2|2 lm.
+1.p.1. | bd est —,
+20.d.1. | dba & dbc snt △,
+44.1. | ◊gfih 2|2 △abd, & <gfi 2|2 <e,
+44.1. | ◊hikl 2|2 △dbc,
+44.1. | <hik 2|2 <e,
+symp. | ◊fl est req.
 
 Demonstr.
 
-suppos. | lt 2|2 ik,
-46.1. | ls est ▭.lt,
-β | ▭ls 2|2 ▭nk,
-hyp. | ▭lq 2|2 ▭nk,
-1.a.1. | ▭ls 2|2 ▭lq,
-contr. 9.a.1.
-21.a.1. | lm 2|2 ik.
+constr. | ◊gfih 2|2 △dba,
+constr. | ◊hikl 2|2 △dbc,
+1.concl. 2.a.1. | ◊fh + ◊il 2|2 abcd,
+2.concl. constr. | <f 2|2 <e,
+constr. | <hik 2|2 <e,
+1.a.1. | <hik 2|2 <f,
+1.s.29.1. | fik est —,
+s.30.1. | ghl est —,
+3.concl. 35.d.1. | fl est ◊.
 
-## THEOR. XXXIII. PROPOS. XLVII.
+## SCHOL.
 
-In rectangulis triangulis, quadratum, quod à latere rectum angulum subtendente describitur, æquale est eis, quæ à lateribus rectum angulum continentibus describuntur.
+Datis duobus rectilineis inæqualibus, excessum maioris supra minus inquirere.
 
-Aux triangles rectangles, le quarré du costé qui soustient l'angle droict, est égal aux quarrez des costez qui contiennent l'angle droict.
+Deux figures rectilignes estans proposées, trouuer l'excez dont la plus grande excede la plus petite.
+
+[Figure: deux figures rectilignes A & B ; à droicte rectangle C—H—F en haut, D—G—E en bas, ligne H—G]
 
 Hypoth.
 
-<bac est ∟,
+a & b snt rectilig. D.
+a 3|2 b,
 
-Req. π. demonstr.
+Req. π. fa.
 
-▭.bc 2|2 ▭.ab + ▭.ac.
+◊ghfe 2|2 a~b.
+
+Constr.
+
+<cde est arbitr.
+cd est arbitr.
+45.1. | ◊cdef 2|2 a,
+45.1. | ◊cdgh 2|2 b,

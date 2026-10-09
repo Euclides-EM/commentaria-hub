@@ -1,29 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-neæ: is, inquam, angulus ab adiunctis illis lineis comprehensus.
+Circulus FBG tāgit eumdem circulum ABE exterius in B.
 
-est la base du segment, & c'est celuy-là, dis-ie, qui est contenu sous icelles lignes droictes menées.
+Circuli BFG & HFG se mutuo secant in F & G.
 
-7.d.3 | <abc est in segm. abc.
+Le cercle FBG touche le mesme cercle ABE par dehors en B.
 
-[Figure: segment de cercle sur la base A—C, B et D sur l'arc, lignes A—B, A—D, B—C, D—C]
+Les cercles BFG & HFG s'entrecouppent l'vn l'autre en F & G.
 
-Explicatio notarum.
+## DEFINIT. IV.
 
-Angulus ABC est in segmento ABC.
+In circulo æqualiter distare à centro rectæ lineæ dicuntur, cùm perpendiculares, quæ à centro in ipsas ducuntur, sunt æquales. Longius autem abesse illa dicitur, in quam maior perpendicularis cadit.
 
-Explication des notes.
+Au cercle, les lignes droictes sont dites estre également distantes du centre, quand les perpendiculaires, qui sont menées du centre sur icelles sont égales. Mais celle-là est dite estre plus esloignée du centre sur laquelle tombe la plus grande perpendiculaire.
 
-L'angle ABC est au segment ABC.
+[Figure: cercle avec F, A, K, B en haut, E, D, L, C en bas, centre G, ligne H—I horizontale par le centre, N sous I, cordes F—E, A—D, K—L, B—C, lignes du centre G vers K, B et N]
 
-## DEFINIT. VIII.
+## DEFINIT. V.
 
-Cùm verò comprehendentes angulum rectæ lineæ aliquam assumunt peripheriam, illi angulus insistere dicitur.
+Segmentum circuli est figura, quæ sub recta li-
 
-Mais quand les lignes droictes qui contiennent l'angle, embrassent quelque circonference, l'angle est dit s'appuyer sur icelle.
-
-[Figure: cercle avec B en haut, A à gauche, C à droite, D en bas, lignes A—B, B—C, A—C, A—D, D—C]
-
-Angulus ABC est in segmento ABC per præcedentem definitionem, &
-
-L'angle ABC est au segment ABC par la definition precedente, & par cette huictiesme
+Segment ou section de cercle, est vne figure compri-

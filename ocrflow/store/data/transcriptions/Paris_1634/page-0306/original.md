@@ -1,45 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-[Figure: lignes verticales N—L—M—H—C—G, O—B—K—E—F, A—D—I]
+## THEOR. XV. PROPOS. XV.
 
-3.1 | ln multipl.. | cb, β
-| mo multipl.. | fe.
+Partes cum pariter multiplicibus in eadem sunt ratione, si provt sibi mutuò respondent, ita sumantur.
 
-Demonstr.
+Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles sont prises comme elles s'entre-respondent.
 
-α.1.5 | gh multipl.. | ac,
-| uik multipl.. | df,
-| gl multipl.. | ab,
-| im multipl.. | de.
-constr. | hl multipl.. | cb,
-| km multipl.. | fe,
-constr. | ln multipl.. | cb,
-| mo multipl.. | fe.
-2.5 | hn multipl.. | cb,
-| ko multipl.. | fe,
-hyp. | ab π bc 2|2 de π ef,
-c.6.d.5 | gl 2. 3. 4 | 3 hn,
-| im 2. 3. 4 | 3 ko,
-5.a.1 | gh 2. 3. 4 | 3 ln,
-| ik 2. 3. 4 | 3 mo,
-αβ.6.d.5 | ac π cb 2|2 df π fe.
-
-## SCHOL. I.
-
-Demonstr.. diuis.. raō. inuers.
-
-[Figure: ligne A—C—B et lignes D—F, E]
+[Figure: lignes verticales B—G—A, E—H, C, D, F]
 
 Hypoth.
 
-ab π cb 2|2 de π fe.
+ab multipl.. | c,
+de multipl.. | f.
 
 Req. π. demonstr.
 
-cb π ac 2|2 fe π df.
+ab π de 2|2 c π f.
 
 Demonstr.
 
-hyp. | ab π cb 2|2 de π fe,
-17.5 | ac π cb 2|2 df π fe,
-concl. c.4.5 | cb π ac 2|2 fe π df.
+hypoth. | c, ag, gb snt 2|2 ⁊e,
+hyp. | f, dh, he snt 2|2 ⁊e,
+s.2.d.5 | multd.. par.. ab 2|2 multd.. par.. de,
+s.7.5 | ag π dh 2|2 c π f,
+s.7.5 | gb π he 2|2 c π f,
+concl. 12.5 | ab π de 2|2 c π f.
+
+## THEOR. XVI. PROPOS. XVI.
+
+Si quatuor magnitudines proportionales fuerint, & vicissim proportionales erunt.
+
+Si quatre grandeurs sont proportionelles, elles seront aussi alternatiuement proportionelles.
+
+| a π b 2|2 c π d.
+
+Req. π. demonstr.
+
+a π c 2|2 b π d.
+
+Præpar.
+
+3.1 | e multipl.. | a
+| f multipl.. | b α
+3.1 | g multipl.. | c,
+| h multipl.. | d,

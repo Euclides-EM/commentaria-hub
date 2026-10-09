@@ -1,41 +1,47 @@
-<!-- Running title: ELEM.. EVCLID.. LI. X. -->
+<!-- Running title: ELEM. EVCLID. LI. X. -->
 
-γ.cōstr. | l π cb, n̄, est 2|2 nr.□ π nr.□,
-4.cōcl. 7. 10 | ef, incomm. g,
-ε. cōstr. | ab π cb 2|2 □.df π □.ef,
-θ. c.19.5 | ab π ac 2|2 □.df π □.h,
-constr. | ab π ac 2|2 nr.□ π nr.□,
-5 concl. 9. 10 | df, comm. h,
-3d85. 10 | de, est apotom. 3.
+erit apotome prima: similiter si ex secundo binomio, 10 + √.180 subducatur minus nomen, residuum, népe √.180 ∼ 10 erit apotome secunda, & sic de cæteris.
 
-## PROBL. XXII. PROPOS. LXXXIX.
+*du binome second, 10 + √.180 on oste le moindre nom, le reste qui est √.180 ∼ 10 sera le second apotome, & ainsi des autres.*
 
-Inuenire quartam apotomen.
+## PROBL. XX. PROPOS. LXXXVII.
 
-*Trouuer vn apotome ou residu quatriesme.*
+Inuenire secundam apotomen.
 
-A... 3 C...... 6 B (line)
-G —— (line)
-D —— E —— F (line)
+*Trouuer vn apotome ou residu second.*
+
+A.... 4 C..... 5 B (line)
+D —— (line)
+E —— G —— F (line)
 H —— (line)
 
 Constr.
 
-arbitr. | ab, est nr. □,
-2s.29 10 | ac & cb, n̄ snt nr.□, α
-arbitr. | g, est ration. expos.
-2l 10.10 | df, comm. g,
-3l.10.10 | nr. ab π nr. cb 2|2 □.df π □.ef, β
-symp. | Req. est de.
+ab & ac snt nr.□, α
+2s.29.10 | cb, n̄, est nr. □,
+arbitr. | d, est ration. expos.
+2l.10 10 | fg, comm. d,
+3l..10.10 | nr.cb π| nr.ab, / □.fg π| □.ef, β
+symp. | Req. est eg.
 
 Præpar.
 
-6.app. | □.df 2|2 □.ef + □.h. γ
+6.app. | □.ef 2|2 □.fg + □.h, γ
 
-ꝑ demonstr. 86. 10.
+Demonstr.
 
-1.concl. | de, est apotom. / ef, est congruen.
+constr. | fg, comm. d,
+1 concl. 6. d.10 | fg, est ration.
+β. 6.10 | ef, comm fg ꝗn □,
+2 concl. s.12.10 | ef, est ration.
+constr. | cb π| ab, / n̄, est nr.□ π| nr.□,
+3 concl. β 9.10 | ef, incomm. fg,
+β. c.4.5 | ab π| cb, / □.ef π| □.fg,
+γ c 17.5 | ab π| ac, / □.ef π| □.h,
+constr. | ab π| ac, / nr.□ π| nr.□,
+4 concl. 9. 10 | ef, comm. h,
+2d85.10 | ef, est apotom. 2.
 
-Demonst.
+## PROBL. XXI. PROPOS. LXXXVIII.
 
-β.cōstr. | ab π cb 2|2 □.df π □.ef,
+Inuenire tertiam apotomen.

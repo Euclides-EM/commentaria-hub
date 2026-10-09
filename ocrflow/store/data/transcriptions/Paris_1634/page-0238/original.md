@@ -1,60 +1,36 @@
 <!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-## PROBL. VII. PROPOS. VII.
+[Figure: trois cercles auec triangle A—B—C, D et E au dedans, F au centre ; au premier F dedans le triangle, au second F hors du triangle, au troisiesme F sur le costé B—C]
 
-Circa datum circulum quadratum describere.
-
-A l'entour d'vn cercle donné, descrire vn quarré.
-
-[Figure: cercle E au centre, quarré F—G—I—H circonscrit, A en haut, B à gauche, D à droicte, C en bas, lignes A—C et B—D]
-
-Hypoth.
-
-eabcd est ⊙ D.
-
-Req. π. fa.
-
-circscri. π. ⊙ abc □fhig.
-
-Constr.
-
-1.p.1 | bd est diamet. β
-11.1 | aec ⊥ bd, α
-| fbh ⊥ bd, α
-11.1 | gdi ⊥ bd, α
-11.1 | fag ⊥ ac, β
-11.1 | hci ⊥ ac, β
-symp. | □hg est req.
+1.p.1 | fb, fc snt —.
 
 Demonstr.
 
-α.28.1 | fh, ac, gi, snt == ⁊e,
-β.28.1 | fg, bd, hi snt == ⁊e,
-α.2.s.29 | <f, <g, <h, <i snt ∟,
-15.d.1 | bd 2|2 ac,
-34&1.1 | fg,bd,hi
-| fh,ac,gi
-| snt 2|2 ⁊e,
-29.d.1 | fhig est □,
-c.16.3 | γ.□hg tang: ⊙abcd
-concl. 4.d.4 | □hg est circscri. ⊙abcd.
+constr. | ad 2|2 db,
+| fd est commun.
+constr. | <fda 2|2 <fdb,
+4.1 | fb 2|2 fa, α
+constr. | ce 2|2 ea,
+| fe est commun.
+constr. | <fec 2|2 fea,
+4.1 | fc 2|2 fa,
+α.1.a.1 | fc 2|2 fb,
+concl. 6.d.4 | ⊙abc est circscri. △abc.
 
-## PROBL. VIII. PROPOS. VIII.
+## COROLL.
 
-In dato quadrato circulum describere.
+Hinc manifestum est, si triangulum fuerit acutangulum centrum cadere intra triangulum : si rectangulum, in latus recto angulo oppositum : si denique obtusangulum, extra triangulum
 
-Dans vn quarré donné, inscrire vn cercle.
+Il est manifeste de cette proposition, que si le triangle est oxygone, le centre tombera en iceluy : si rectangle, au costé qui soustient l'angle droict : & si amblygone dehors.
 
-Hypoth.
+## SCHOL.
 
-abcd est □ D.
+Eadem methodo describetur circulus, qui transeat per data tria puncta, non in vna recta linea existentia.
 
-Req. π. fa.
+Par la mesme methode on pourra descrire vn cercle, qui passe par trois poincts donnez, qui ne soient en vne ligne droicte.
 
-inscri. in □abcd ⊙ efgh.
+## PROBL. VI. PROPOS. VI.
 
-Constr.
+In dato circulo quadratum describere.
 
-10.1 | ah 2|2 hd,
-10.1 | bf 2|2 fc,
-10.1 | ae 2|2 eb,
+Dans vn cercle donné, inscrire vn quarré.

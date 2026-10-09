@@ -1,41 +1,53 @@
 <!-- Running title: ELEM.. EVCLID. LI. III. -->
 
-[Figure: cercle A—B—C—D, E au dehors à gauche, lignes E—C, E—A—B, A—C, A—D, B—C, B—D, D—C]
+Au cercle, les angles qui sont en vn mesme segment, sont égaux entr'eux.
+
+[Figure: deux cercles ; le premier A—B—C—D, E au dedans, lignes A—C, A—D, B—D, B—C, D—C, E—D, E—C ; le second A—B—C—D, F au dedans, E au dessous, lignes A—B, A—C, B—D, B—C, D—C]
 
 Hypoth.
 
-acbd est ⊙,
-acbd est 4< in ⊙,
-dae est —,
+edac est ⊙,
 
 Req. π. demonstr.
 
-<cae 2|2 <dbc.
+<dac 2|2 <dbc,
+
+Præpar.. 1. cas:
+
+1.p.1 | ed & ec snt —.
 
 Demonstr.
 
-13.1 | <cae + <cad 2|2, 2∟,
-22.3 | <dbc + <cad 2|2, 2∟,
-1.a.1 | <cae + <cad 2|2 <dbc + <cad,
-| <cad commun. subtr.
-concl. 3.a.1 | <cae 2|2 <dbc.
+20.3 | <dac 2|2, ½<dec,
+20.3 | <dbc 2|2, ½<dec,
+1.concl. 7.a.1 | <dac 2|2 <dbc, α
 
-## THEOR. XXI. PROPOS XXIII.
+Præpar.. 2. cas.
 
-Super eadem recta linea, duo segmenta circulorum similia, & inæqualia non constituentur ad easdem partes.
+1.p.1 | ab est —,
 
-Sur vne mesme ligne droicte, on ne pourra constituer deux segments de cercles semblables & inégaux, & de mesme part.
+Demonstr.
 
-[Figure: segments A—B—D—C sur la base A—C, lignes A—B, A—D, B—C, D—C, α]
+d.α. | <adb 2|2 <acb,
+15.1 | <afd 2|2 <bfc,
+2.cōcl. 1.c.32.1 | <dac 2|2 <dbc.
+
+## THEOR. XX. PROPOS. XXII.
+
+Quadrilaterorum in circulis descriptorum anguli, qui ex aduerso, duobus rectis sunt æquales.
+
+Les figures de quatre costez inscrites au cercle, ont les angles opposez égaux à deux angles droicts.
 
 Hypoth.
 
-abc,adc snt ⌓ sml.
+abcd est ⊙,
+abcd est 4<.
 
 Req. π. demonstr.
 
-ac ñ est bas. commun.
+<adc + <abc 2|2, 2∟
+<dab + <dcb 2|2, 2∟
 
-Demonstr.
+Præpar.
 
-suppos | ac est bas. commun.
+1.p.1 | ac & bd snt —.

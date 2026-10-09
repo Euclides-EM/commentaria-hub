@@ -1,40 +1,17 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-*soient eleuees deux lignes droictes en l'air, contenant angles egaux auec les lignes premierement posees, chacun au sien; & d'vn poinct pris en chacune des lignes esleuees sont menees des perpendiculaires aux plans où sont les angles premierement posez; & des poincts où tombent icelles perpendiculaires, sont menees des lignes droictes aux sommets des angles premierement posez : icelles contiendront angles egaux auec les lignes menees en l'air.*
+& data prismata, eorum videlicet dimidia.
 
-[Figure: labels arranged A / B C / E F / D / M / L / H K / G]
+Rursus si duobus prismatis prædictis eiusdem altitudinis, & super diuersas bases constitutis adjiciantur duo alia prismata illis æqualia & similia, conficientur iterum duo parallelepipeda eiusdem altitudinis. c Quare erit parallelepipedum ad parallelepipedum, vt basis ad basin; d atque adeò prisma ad prisma, nempe dimidium vnius parallelepipedi, ad dimidium alterius, vt eadem basis ad basin, si prismatum bases fuerint parallelogrammæ, vel certe vt triangulum ad triangulum, dimidium scilicet vnius basis ad dimidium alterius, si bases prismatum fuerint triangulæ.
 
-Hypoth.
+c 32. 11
+d 15. 5
 
-<bac 2|2 <edf, α
-ag, n̄ est ꝗn plan. bac,
-dh n̄ est ꝗn plan. edf,
-<gab 2|2 <hde, β
-<gac 2|2 <hdf, γ
-arbitr. | g & h snt ● ꝗn ag & dh,
-gi ⊥ plan. bac,
-hк ⊥ plan. edf,
-ai & dк snt ——.
+Præterea, si duobus prismatis præfatis similibus addantur alia duo prismata illis æqualia & similia, constituentur duo parallelepipeda similia, e quæ inter se habent proportionem triplicatam proportionis laterum homologorum. Igitur & prismata, eorū nimirum dimidia, f cùm eandem habent proportionem cum parallelepipedis, proportionem habebunt triplicatam proportionis eorun-
 
-Req. π. demonstr.
+e 33 11
+f 15.5
 
-<gam 2|2 <hdк.
+*Derechef aux deux susdits prismes de mesme hauteur constituez sur diuerses bases, estant deux autres prismes egaux & semblables à iceux, on fera aussi deux parallelipipedes de mesme hauteur. c Parquoy le parallelipipede sera au parallelipipede comme la base à la base; d & partant le prisme au prisme, sçauoir la moitié d'vn des parallelipides à la moitié de l'autre, comme la mesme base à la base, si les bases des prismes sont parallelogrammes, ou comme le triangle au triangle, sçauoir comme la moitié d'vne des bases à la moitié de l'autre, si les bases des prismes sont triangles.*
 
-Præpar.
-
-3. 1 | al 2|2 dh,
-31. 1 | lm == gi, δ
-12.1 | mc ⊥ ac, ε
-12. 1 | mb ⊥ ab, θ
-12.1 | kf ⊥ df, к
-1. 12 | ke ⊥ de, к
-1. p. 1 | bc, lb, lc snt ——,
-1. p.1 | ef, hf, he snt ——.
-
-Demonstr.
-
-hyp. | gi ⊥ plan. bac,
-δ. 8.11 | lm ⊥ plan. bac,
-3.d.11 | lmc, lma, lmb snt ⊥;
-3.d. 11 | hкf, hкd, hкe snt ⊥;
-47.1 | □.al 2|2 □.lm + □.am,
+*Dauantage, si aux deux prismes semblables susdits sont adioustez deux prismes semblables & egaux à iceux, deux parallelipipedes semblables seront constituez, e qui seront entre eux en raison triplee de la raison de leurs costez homologues. f Donc leurs prismes, sçauoir est leurs moitiez, ayant mesme raison que les parallelipipedes, seront en raison triplee, de la raison de leurs costez homologues, qui sont aussi*

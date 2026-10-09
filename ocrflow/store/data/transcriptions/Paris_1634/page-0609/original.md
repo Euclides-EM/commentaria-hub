@@ -1,52 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## SCHOL. I.
+commensurabilibus descriptorum, & duplum rectangulum sub eisdem rectis contentum, sunt incommensurabilia, tum inter se, tum quadratis aggregati & differentiæ earundem rectarum.
 
-Rationale superat rationale rationali.
+*L'aggregé des quarrez de deux lignes commensurables en puissance seulement, & le double du rectangle contenu sous icelles, sont incommensurables, tant entr'eux qu'aux quarrez de l'aggregé, & de la difference d'icelles lignes.*
 
-*Vne figure rationelle excede vne figure rationelle d'vne figure rationelle.*
-
-E D F (rectangle A C B)
+A----B C-- A---- C--B
 
 Hypoth.
 
-▭af, est ration.
-▭ad, est ration.
+abc est ——,
+ab comm. bc ꝗn □. α
 
 Req. π. demonstr.
 
-▭.cf, est ration.
+aggreg..□.ab + □.bc incomm. 2▭abc,
+aggreg..□.ab + □.bc, & 2▭abc snt incom. □.ac.
 
 Demonstr.
 
-s.12.10 | ▭af, comm. ▭ad,
-c.16.10 | ▭af, comm. ▭cf,
-concl. s.12.10 | ▭.cf, est ration.
-
-## SCHOL. II.
-
-Rationale cum rationali facit rationale.
-
-*Vne figure rationelle auec vne figure rationelle fait vne figure rationelle.*
-
-F D E (rectangle B C A)
-
-Hypoth.
-
-ad & cf snt ration;
-
-Req. π. demonstr.
-
-af, est ration.
-
-Demonstr.
-
-hyp. | ad, est ration.
-hyp. | cf, est ration.
-s.12.10 | ad, comm. cf,
-16.1 | af, comm. cf,
-concl. s.12.10 | af, est ration.
-
-## PROBL. IV. PROPOS. XXVIII.
-
-Medias inuenire potentia tantum commensurabiles, quæ rationale comprehendant.
+1.6 | ab π bc 2|2 □.ab π ▭.abc,
+hyp. | ab, incomm. bc,
+10.10 | □.ab, incomm. ▭.abc,
+α.hyp. | □.ab, comm. □.bc,
+16.10 | aggreg..□.ab + □.bc, comm. □.ab,
+14.10 | aggreg..□.ab + □.bc, incomm. ▭.abc,
+1.concl 14.10 | aggreg..□.ab + □.bc, incomm. 2▭abc, β
+4.2 7.2 | □.ac 2|2 □.ab + □.bc + 2▭.abc,
+u □.ab + □.bc ∼ 2▭.abc,
+2 concl. β.16.10 | aggreg..□.ab + □.bc, & 2▭.abc snt incōm. □.ac.

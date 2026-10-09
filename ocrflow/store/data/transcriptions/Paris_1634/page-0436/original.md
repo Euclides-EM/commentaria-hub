@@ -1,35 +1,39 @@
-<!-- Running title: ELEM.. EVCLID. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
 
-## DEFINIT. XII.
+5, 15, sunt numeri impares.
 
-Primi inter se numeri sunt, quos sola vnitas, communis mensura metitur : vt 8, & 15, sunt numeri primi inter se.
+impa. impar. *impair.*
 
-*Nōbres premiers entr'eux, sont ceux-là, lesquels ont la seule vnité pour commune mesure : cōme 8, & 15, sont nombres premiers entr'eux.*
+*differe du nombre pair, de l'vnité : comme 5, 7, 15, sont nombres impairs.*
 
-pr.ꝫe, id est primi inter se.
+## DEFINIT. VIII.
 
-*pr.ꝫe, signifie premiers entr'eux.*
+Pariter par numerus est, quem par numerus metitur per numerum parem.
 
-## DEFINIT. XIII.
+*Nombre pairement pair, est celuy qu'vn nombre pair mesure par vn nombre pair.*
 
-Compositus numerus est, quem numerus quispiam metitur : vt 4, 6, 8, sunt numeri compositi.
+## DEFINIT. IX.
 
-*Nombre composé, est celuy lequel, quelque nombre peut mesurer : comme 4, 6, 8, sont nombres composez.*
+Pariter autem impar est, quem par numerus metitur per numerum imparem.
 
-compos. id est compositus.
+*Mais nombre pairement impair, est celuy qu'vn nombre pair mesure par vn nombre impair.*
 
-*compos. signifie composé.*
+Nicomacho & Boëtio paris numeri species sunt tres, nempe pariter par, pariter impar, & impariter par.
 
-## DEFINIT. XIV.
+Numerus pariter par est, qui ad vnitatem vsque, bifariam diuiditur, vt 32.
 
-Compositi autem inter se numeri sunt, quos numerus aliquis communis mensura metitur : vt 9, & 15, sunt numeri compositi inter se.
+Pariter impar est numerus, qui dimidium habet imparem, vt 18.
 
-*Mais nombres composez entr'eux, sont ceux-là lesquels sont mesurez par quelque nombre comme commune mesure : comme 9, & 15, sont nombres composez entr'eux.*
+Impariter par numerus est, qui est pariter par, & pariter impar, vt 20.
 
-compos. ꝫe, id est compositi inter se.
+Qui igitur his est pariter par, Euclides pariter parem tantùm vocat; qui verò his est pariter
 
-*compos. ꝫe, signifie composez entr'eux.*
+*Nicomachus & Boëtius diuisent le nombre pair en trois especes, à sçauoir en pairement pair, pairement impair, & impairemēt pair.*
 
-Euclidi in hac definitione & præcedente vnitas non est numerus.
+*Le nombre pairement pair est celuy qui se diuise par moitié iusques à l'vnité, comme 32.*
 
-*L'vnité n'est pas nombre à Euclide en ceste definition, & en la precedente.*
+*Nōbre pairemēt impair est celuy qui a sa moitié impair, comme 18.*
+
+*Nombre impairement pair, est celuy qui est pairement pair & pairement impair, comme 20.*
+
+*Partant celuy qui est à ceux-cy pairement pair, Euclide l'appelle pairemēt pair seulement ; & celuy qui est à ceux-cy pairemēt impair,*

@@ -1,20 +1,29 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Qu'il nous soit proposé de monstrer qu'aux figures quarrees le diametre est incommensurable en longitude au costé.*
+12. 10 | hi, comm. ce,
+10. 10 | bh, comm. ac,
+1. 6 10. 10 | ▭hc, comm. ▭ba,
+hyp. | ▭hc Ⅱ □.g, est ratio.
+concl. s.12.10 | ▭ba Ⅱ □.f, est ration.
 
-[Figure: labels arranged A D / B C]
+COROLL.
 
-Hypoth.
+Ex hoc manifesto constat, fieri posse, vt spatium rationale contineatur sub duabus rectis irrationalibus.
 
-bd, est □. ab,
-ac, est diamet.
+*De cecy est manifeste qu'vn espace rationel peut estre contenu sous deux lignes irrationelles.*
 
-Req. π. demonstr.
+## THEOR. XCII. PROPOS. CXVI.
 
-ab, est incomm. ac.
+A media infinitæ irrationales fiunt, & nulla alicui antecedentium est eadem.
 
-Demonstr.
+*De la ligne mediale se font infinies irrationelles, & aucune n'est la mesme que quelqu'vne des antecedentes.*
 
-47. 1 | □.ab + □.bc, Ⅱ 2□;. ab 2|2 □.ac,
-s.17.8 | □.ab & □.ac snt plan; dissml;
-concl. 9. 10 | ab, incomm. ac.
+[Figure: labels arranged A B E F / C D]
+
+Sit media AB, dico ex illa fieri irrationales infinitas, quarum nulla eadem sit alicui tredecim antecedentium irrationalium.
+
+Ex posita enim rationali AC, contineatur sub AB, media,& rationali AC,spatium AD : Est ergo AD ir-
+
+*Soit AB mediale, ie dis que d'icelles sont faites infinies irrationelles, aucune desquelles n'est la mesme que quelqu'vne des treize antecedentes irrationelles.*
+
+*Car la rationelle AC estant proposee, soit l'espace AC contenu sous AB mediale, & AC*

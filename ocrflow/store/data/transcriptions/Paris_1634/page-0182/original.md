@@ -1,38 +1,43 @@
-<!-- Running title: ELEM.. EVCLID. LI. III. -->
+<!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-circulum tangat, si producatur, circulum non secat.
+| ▭.abf commun. add.
+2.a.1. | ▭.ac + ▭.abf u ▭.abc 2|2 ▭.af + 2▭.abf,
+7.2 | ▭.ab + ▭.bc u ▭.bf 2|2 ▭.af + 2▭.abf,
+concl. 1.a.1 | ▭.ac + ▭.abc 2|2 ▭.ab u ▭.bc.
 
-touchant le cercle, si elle est prolongée, ne le couppe point.
+## PROBL. II. PROPOS. XIV.
 
-2.d.3 | ab tang: ⊙fed in, e,
-2.d.3 | fg secat: ⊙fed in, d,
-2.d.3 | eb est tangen.
-2.d.3 | fg est secan.
+Dato rectilineo æquale quadratum constituere.
 
-[Figure: cercle C—F—D, ligne A—E—G—B tangente en bas, ligne C—E verticale, lignes F—D et F—G]
+Descrire vn quarré égal à vn rectiligne donné.
 
-Explicatio notarum.
+[Figure: rectiligne A à gauche, quarré M—N—L—I au milieu, demi-cercle D—H—F sur le diametre D—F, rectangle D—E—B—F dessous, G et C sur le diametre, lignes G—H, C—H]
 
-AB tangit circulum FED in E.
-FG secat ⊙ FED in D.
-EB est tangens.
-FG est secans.
+Hypoth.
 
-Explication des notes.
+a est rectilin. D.
 
-AB touche le cercle FED en E.
-FG couppe le ⊙ FED en D.
-EB est tangente ou touchante.
-FG est secante ou couppante.
+Req. π. fa.
 
-## DEFINIT. III.
+▭.ml 2|2 rectilin. a,
 
-Circuli se mutuo tangere dicuntur, qui se mutuo tangétes sese mutuo non secant.
+Constr.
 
-Les cercles sont dits se toucher l'vn l'autre, lesquels en se touchant l'vn l'autre, ne se couppent point.
+45.1 | ▭db 2|2 rectilin. a,
+2.p.1 | dcf est —,
+3.1 | cf 2|2 cb,
+10.1 | dg 2|2 gf,
+3.p.1 | gdhf est semic.
+2.p.1 | bch est —,
+3.1 | il 2|2 ch,
+46.1 | in est ▭.il,
+symp. | ▭in est req.
 
-[Figure: trois cercles, le premier A—C—E contenant vn petit cercle D—A—C touchant par dedans en A, le second cercle B—G—F touchant le premier en B, le troisiesme cercle G—F—H couppant le second en G et F]
+Præpar.
 
-Circulus DAC tangit circulum ABE interius in A.
+1.p.1 | gh est —.
 
-Le cercle DAC touche le cercle ABE par dedans en A.
+Demonstr.
+
+constr. 3.s.1.d.2 s.5.2 s.46.1 | a, ▭.db, ▭.dcf, ▭.ch, ▭.ml, snt 2|2 ⁊e,
+concl. 1.a.1 | ▭ml 2|2 rectilin. a.

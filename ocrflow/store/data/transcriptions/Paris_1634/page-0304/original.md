@@ -1,46 +1,60 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## THEOR. XV. PROPOS. XV.
+secunda æqualis quartæ : si verò minor, & minor erit.
 
-Partes cum pariter multiplicibus in eadem sunt ratione, si provt sibi mutuò respondent, ita sumantur.
+Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme ; & que la premiere soit plus grande que la troisiesme, la seconde sera aussi plus grande que la quatriesme. Et si la premiere est égale à la troisiesme, aussi la seconde sera égale à la quatriesme ; & si plus petite, plus petite.
 
-Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles sont prises comme elles s'entre-respondent.
+[Figure: quatre lignes verticales A, B, C, D]
 
-[Figure: lignes verticales B—G—A, E—H, C, D, F]
+Hypoth. commun.
 
-Hypoth.
+a π b 2|2 c π d,
 
-ab multipl.. | c,
-de multipl.. | f.
+Hypoth. 1.
 
-Req. π. demonstr.
+a 3|2 c, α
 
-ab π de 2|2 c π f.
+Req π. demonstr.
+
+b 3|2 d.
 
 Demonstr.
 
-hypoth. | c, ag, gb snt 2|2 ⁊e,
-hyp. | f, dh, he snt 2|2 ⁊e,
-s.2.d.5 | multd.. par.. ab 2|2 multd.. par.. de,
-s.7.5 | ag π dh 2|2 c π f,
-s.7.5 | gb π he 2|2 c π f,
-concl. 12.5 | ab π de 2|2 c π f.
+hyp. | c π d 2|2 a π b,
+α.8.5 | a π b 3|2 c π b,
+13.5 | c π d 3|2 c π b,
+1.concl. 10.5 | b 3|2 d.
 
-## THEOR. XVI. PROPOS. XVI.
+Hypoth. 2.
 
-Si quatuor magnitudines proportionales fuerint, & vicissim proportionales erunt.
-
-Si quatre grandeurs sont proportionelles, elles seront aussi alternatiuement proportionelles.
-
-| a π b 2|2 c π d.
+a 2|2 c, β
 
 Req. π. demonstr.
 
-a π c 2|2 b π d.
+b 2|2 d.
 
-Præpar.
+Demonstr.
 
-3.1 | e multipl.. | a
-| f multipl.. | b α
-3.1 | g multipl.. | c,
-| h multipl.. | d,
+hyp. | c π d 2|2 a π b,
+β.9.5 | c π b 2|2 a π b,
+11.5 | c π d 2|2 c π b,
+2.concl. 9.5 | b 2|2 d.
+
+Hypoth. 3.
+
+a 2|3 c. γ
+
+Req. π. demonstr.
+
+b 2|3 d,
+
+Demonstr.
+
+hyp. | c π d 2|2 a π b,
+γ.8.5 | a π b 2|3 c π b,
+13.5 | c π d 2|3 c π b,
+3.concl. 1.13.5 | b 2|3 d.
+
+## SCHOL. I.
+
+Perspicuum autem est, ob similitudinem rationum, si prima maior est, vel æqualis, vel minor quàm secunda,

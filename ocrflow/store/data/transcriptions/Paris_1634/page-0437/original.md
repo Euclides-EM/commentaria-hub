@@ -1,38 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## DEFINIT. XV.
+impar, Euclides pariter imparem tantùm; & qui his impariter par, Euclides & pariter parem, & pariter imparem appellat.
 
-Numerus numerū multiplicare dicitur, cum toties compositus fuerit is, qui multiplicatur, quot sunt in ipso multiplicāte vnitates, & procreatus fuerit aliquis.
+*à Euclide il est pairement impair seulement ; & celuy que ceux-cy nōment impairement pair, Euclide l'appelle pairement pair, & pairement impair.*
 
-*Vn nombre est dit en multiplier vn autre, quand il en est produit quelqu'vn, qui est composé autant de fois du multiplié, qu'il y a d'vnitez au multipliant.*
+pa.pa. id est pariter par tantùm.
 
-A,15. B,3. C,45.
+pa. impa. id est pariter impar tantùm.
 
-c 2|2 ▭.a,b,
+imp.pa. id est pariter par & pariter impar.
 
-Vel sic. *Ou ainsi.*
+*pa.pa. signifie pairement pair seulement.*
 
-c 2|2 ab.
+*pa. impa. signifie pairement impair seulement.*
 
-Explicatio notarum. Explication des notes.
+*impa. pa. signifie pairement pair, & pairement impair.*
 
-C, est æqualis numero, qui fit ex multiplicatione A in B.
+## DEFINIT. X.
 
-*C, est egal au produit qui vient en multipliant A, par B.*
+Impariter verò impar numerus est, quem impar numerus metitur per numerum imparem : vt 15, 21, sunt impariter impares.
 
-## COROLL.
+*Mais impairement impair, est celuy lequel vn nombre impair mesure par vn nombre impair : comme 15, 21, sont nombres impairement impairs.*
 
-In omni multiplicatione vnitas est ad multiplicatorem, vt multiplicatus ad productum.
+impa.impa. id est impariter impar.
 
-*En toute multiplication l'vnité est au multiplicateur, comme le multiplié au produit.*
+*impa. impa. signifie impairement impair.*
 
-D,1. A,15. B,3. C,45.
+## DEFINIT. XI.
 
-hyp. | ▭.a,b 2|2 c,
-c.15.d.7 | d π b 2|2 a π c.
+Primus numerus est, quem sola vnitas metitur : vt 7, 11, sunt numeri primi.
 
-## DEFINIT. XVI.
+*Nombre premier, est celuy lequel l'vnité seule mesure : comme 5, 7, sont nombres premiers.*
 
-Cum autē duo numeri sese multiplicantes aliquē fecerint, qui factus
+pr. id est primus.
 
-*Mais quand deux nombres se multipliant l'vn l'autre en produisent quel-*
+*pr. signifie premier.*

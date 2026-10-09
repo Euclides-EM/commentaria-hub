@@ -1,25 +1,36 @@
-<!-- Running title: ELEM.. EVCLID.. LI. VIII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-quos; qui ab illis producti fuerint, proportionales erunt : Et si numeri primùm positi multiplicantes iam factos fecerint aliquos : ipsi quoque proportionales erunt : Et semper circa extremos hoc eueniet.
+## THEOR. X. PROPOS. XII.
 
-*S'il y a tant de nombres qu'on voudra continuellement proportionaux, & que chacun multipliant soy-mesme en face quelques-vns, les produicts d'iceux seront proportionaux. Et si les nombres pris au commencement multiplians leurs produicts, en font quelques-vns, iceux seront aussi proportionaux, & tousiours cela aduiendra enuiron les extremes.*
+Duorum cuborum numerorum duo medij proportionales sunt numeri : Et cubus ad cubum triplicatam habet lateris ad latus rationem.
 
-A,2. B,4. C,8.
-D,4. N,8. E,16. O,32. F,64.
-G,8. P,16. Q,32. H,64. P,128. S,256. T,512.
+*Entre deux nombres cubes il y a deux nombres moyens proportionaux : Et le cube est au cube en raison triplee du costé au costé.*
+
+A,27. H,36. I,48. B,64.
+E,9. G,12. F,16.
+C,3. D,4.
 
 Hypoth.
 
-a, b, c snt contin. proport;
-d, est □.a. e, est □.b. f, est □.c,
-g, est ▭.d,a. h, est ▭.eb. t, est ▭.f,c.
+a & b snt nr; cub;
 
 Req. π. demonstr.
 
-d, e, f snt contin. proport;
-g, h, i snt contin. proport;
+ꝗntr. a & b snt 2; medi. proport.
+raō. a π b 2|2 3; raō; c π d.
 
 Præpar.
 
-n, est ▭.b,a. o, est ▭.c,b. p, est ▭.n,a,
-q, est ▭.e,a. p, est ▭.o,b. s, est ▭.f,b.
+c, est γc.a. & d, est γc.b,
+e, est □.c. f, est □.d. g, est ▭.cd. h, est ▭.cg. i, est ▭.cf.
+
+Demonstr.
+
+1.concl. 2.8 | a,h,i,b snt contin. proport. ꝗn raō.. c π d,
+2.concl. 10.d.5 | raō.. a π b 2|2 3;raō.. a π h, u c π d.
+
+## SCHOL. I.
+
+Eodem modo demonstrabitur quadrato-quadrata esse in quadruplicata ratione lateris ad latus, & quadrato-cubos in quintuplicata, &c.
+
+*Par la mesme methode on demonstrera que les quarre-quarrez sont en raison quadruplee du costé au costé, & les quarrez cubes en raison quintuplee, &c.*

@@ -1,45 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-Demonstr.
-
-8.6 | Δabc, Δadb, Δadc snt æquiang.
-1.concl. 4.6 | bd π da 2|2 da π dc,
-2.concl. 4.6 | bc π ac 2|2 ac π dc,
-3.concl. 4.6 | cb π ab 2|2 ab π bd.
-
-## PROBL. I. PROPOS. IX.
-
-A data recta linea imperatam partem auferre.
-
-D'vne ligne droicte dōnee en oster vne partie demādee.
-
-[Figure: ligne A—G—B avec ligne oblique A, D, E, F, C]
+[Figure: triangles A, B, C avec G, et D, E, F]
 
 Hypoth.
 
-ab est — D.
+abc & def snt Δ,
+<a 2|2 <d,
+ab π bc 2|2 de π ef,
+<c & <f snt u 2|3 ⌐ u 2|2 ⌐ u 3|2 ⌐. α
 
-Req. π. fa.
+Req. π. demonstr.
 
-ag 2|2 ⅓ab.
-
-Constr.
-
-| <baf est arbitr.
-3.1 | ad, de, ef snt 2|2 ⁊e,
-1.p.1 | fb est —,
-31.1 | dg == fb, α
-symp. | ag 2|2 ⅓ab.
+Δabc & Δdef snt æquiang.
+<abc 2|2 <e,
+<c 2|2 <f.
 
 Demonstr.
 
-α.2.6 | ag π gb 2|2 ad π df,
-2.s.18.5 | ag π ab 2|2 ad π af,
-constr. | ad 2|2 ⅓af,
-concl. 4.d.5 | ag 2|2 ⅓ab.
+suppos. | <abg 2|2 <e,
+hyp. | <a 2|2 <d,
+32.1 | <agb 2|2 <f, β
+4.6 | ab π bg 2|2 de π ef,
+hyp. | ab π bc 2|2 de π ef,
+11.5 | ab π bg 2|2 ab π bc,
+9.5 | bg 2|2 bc,
+5.1 | <bgc 2|2 <bcg,
+3.c.17.1 | <bgc u <c 2|3 ⌐, γ
+2.c.13.1 | <agb u <f 3|2 ⌐, γ
+γ | <c & <f n̄ snt 2|3 ⌐ u 3|2 ⌐.
 
-## PROBL. II. PROPOS. X.
+contr. hyp.
 
-Datam rectam lineam insectam similiter secare, vt data altera secta fuerit.
+## THEOR. VIII. PROPOS. VIII.
 
-Coupper vne ligne droicte donnee non couppee semblablement à vne ligne droicte donnee & couppee.
+Si in triangulo rectangulo, ab angulo recto in basin perpendicularis ducta sit : quæ ad perpendicularem triangula, tum toti triangulo, tum ipsa inter se similia sunt.
+
+Si au triangle rectangle on mene vne ligne perpendiculaire de l'angle droict sur la base, les triangles qui sont de part & d'autre de la perpendiculaire, sont semblables au tout & entr'eux.

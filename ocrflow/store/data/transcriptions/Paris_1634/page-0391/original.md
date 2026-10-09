@@ -1,35 +1,39 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-L'addition des semblables plans se fait par la cinquiesme de l'appendix.
+47.1 | □.ab 2|2 □.ad + □.bd u □.cf,
+□.cf commun. subtr.
+concl. 2.a.1 | □.ab ~ □.cf 2|2 □.ad.
 
-La soustraction des semblables plans se fait par la sixiesme de l'appendix.
+## PROBL. VII. PROPOS. VII.
 
-## PROBL. IX. PROPOS. IX.
+Inuenire rectam lineam, ad quam data recta, sit in ratione similium datorum rectilineorum.
 
-Data base trianguli rectanguli, & media proportionali inter hypothenusam & perpendiculum, inuenire triangulum.
+Trouuer vne ligne droicte, à laquelle vne ligne droicte donnee, soit en la raison de deux rectilignes semblables donnez.
 
-Estant donnee la base d'vn triangle rectangle, & la moyenne proportionnelle entre l'hypothenuse & la perpendiculaire, trouuer le triangle.
-
-Vieta in effectionibus Geometricis.
-
-[Figure: cercle auec les poincts F, A, D, B, E, G, C ; ligne H à part]
+[Figure: pentagone A, B, C, D, E ; pentagone F, G, H, I, K ; lignes L, M, N à part]
 
 Hypoth.
 
-abg est Δ rectang.
+cdeab & hikfg snt rectili. sml. D.
 
-ab est bas. D.
+m est — D.
 
-h, est — D.
+Req. π. fa.
 
-ag π h 2|2 h π bg,
-
-Req. est Δabg.
+cda π hil 2|2 m π n.
 
 Constr.
 
-11.6 | ab π h 2|2 h π bc, α
-11.1 | <abc est ⌐,
-10.1 | ad 2|2 db,
-1.p.1 | dc est —,
-3.p.1 | dcfe est semic.
+11.6 | cd π hi 2|2 hi π l, α
+11.6 | cd π l 2|2 m π n,
+symp. | req. est n.
+
+Demonstr.
+
+constr. | m π n 2|2 cd π l,
+α.c.20.6 | cda π hif 2|2 cd π l,
+concl. 11.5 | cda π hif 2|2 m π n.
+
+## PROBL. VIII. PROPOS. VIII.
+
+Dato rectilineo simile rectilineum describere, maius, vel minus, secundum proportionem datam.

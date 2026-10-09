@@ -1,15 +1,13 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-guras rectilineas, quæ pluribus quam quatuor rectis lineis circumscribuntur generali vocabulo multilateras. | toutes autres figures rectilignes, circonscriptes de plus de quatre lignes, d'vn nom general multilateres.
+[Figure: demy cercle ABC, diametre AC horizontal, B au sommet de l'arc]
 
-[Figure: triangle equilateral A]
+ABC est semicirculus. | ABC est vn demy cercle.
 
-### XXIII.
+### XIX.
 
-Trilaterarum autem figurarum, æquilaterum est triangulum, quod tria latera habet æqualia, vt A. | Or des figures trilateres, celle qui a trois costez egaux, s'appelle triangle equilateral, comme A.
+Rectilineæ figuræ sunt, quæ sub rectis lineis continentur. | Figures rectilignes sont celles qui sont contenuës sous des lignes droictes.
 
-Triangulorum species, vel è laterum vel ex angulorum differentiis emergunt. | Les especes des triangles se prennent des differences des costez ou angles.
+Omnes figuræ planæ, quæ vndique rectis clauduntur lineis rectilineæ nuncupantur, ex quo perspicuum est figuras planas curuis lineis comprehensas, dici curuilineas : eas verò, quæ partim curuis, partim rectis circumscribuntur, appellari mixtas. | Toutes les figures planes encloses de tous costez de lignes droites, sont appellées figures rectilignes : d'où il appert que les figures planes enuironnées des lignes courbes sont appellées curuilignes : mais celles qui sont circonscriptes en partie de lignes droictes & en partie de courbes sont appellées mixtes.
 
-Habita ratione laterum, triangulum est æquilaterum, isosceles siue æquicrurum, & scalenum. | A raison des costez le triangle est equilateral, isoscele, & scalene.
-
-Habita verò ratione angulorum, triangulum est rectägulum, amblygonium siue obtusangulum, & oxygonium siue acutangulum. | A raison des angles, le triangle est rectangle, amblygone ou obtusangle, & oxygone ou aiguangle.
+[Figure: A quarré rectiligne, B figure curuiligne, C figure mixte]

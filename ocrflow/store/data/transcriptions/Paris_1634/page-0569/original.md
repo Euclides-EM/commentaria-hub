@@ -1,29 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## DEFINIT. IX.
+cùm quadrata earum idem spatium metitur.
 
-Et huic commensuralia quidem Rationalia.
+*quand les quarrez d'icelles sont mesurez par vn mesme espace.*
 
-*Et les figures commensurables à ce quarré rationel, soient appellees Rationelles.*
+## DEFINIT. IV.
 
-## DEFINIT. X.
+Incommensurabiles vero potentia, cùm quadratis earum nullum spatium, quod sit communis eorum mensura, contingit reperiri.
 
-Huic vero incommensurabilia, Irrationalia dicantur.
+*Mais les lignes droictes sont incommensurables en puissance, quād les quarrez d'icelles ne peuuent estre mesurez par aucune commune mesure.*
 
-*Mais les figures incommensurables au quarré rationel, soient appellees Irrationelles.*
+A,7. B,5. C,√.10. D,√.8. E,√√.10. F,√√.8.
 
-## DEFINIT. XI.
+a & b snt commun. ꝗn long.
+b, c, d snt commun. ꝗn □,
+e & f snt incomm. ꝗn □.
 
-Et rectæ quæ ipsa possunt Irrationales.
+Explicatio notarum.
 
-*Et les lignes droictes qui peuuent icelles figures irrationnelles, soient dites Irrationelles.*
+A & B, sunt commensurabiles longitudine.
+B, C, D, sunt commensurabiles potentia.
+E & F, sunt incommensurabiles potentia.
 
-## SCHOL. I.
+Explication des notes.
 
-Magnitudines incommensurabiles natura sua sunt incommensurabiles, nec vllo modo possunt esse commensurabiles.
+*A & B, sont commensurables en longitude.*
+*B, C, D, sont commensurables en puissance.*
+*E & F, sont incommensurables en puissance.*
 
-*Les grandeurs incommensurables sont de leur nature incommensurables, & ne peuuent en aucune façon estre commensurables.*
+## DEFINIT. V.
 
-Magnitudines vero irrationales non natura sua, sed habita ratione expositæ rationalis sunt irrationales, sumptaque alia exposita ra-
+Quæ cum ita sint, manifestum est, cuicunque rectæ propositæ, rectas
 
-*Mais les grandeurs irrationelles sont irrationelles, non de leur nature, mais à raison de la rationelle exposee, & peuuent estre rationelles en chan-*
+*Ces choses estans ainsi, il est manifeste, qu'à toute ligne droicte proposee, infinies*

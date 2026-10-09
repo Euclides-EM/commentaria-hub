@@ -1,48 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-a, a2, a3, a4, a5, a6, a7, &c.
+11.8 | raō. g π h 2|2, 2raō; e π f,
+γ.2s23.5 | ab π cd 2|2 nr. e π nr. f, β
+2 concl. 6.10 | ab & cd snt comm. ꝗe.
 
-3s1.d10 | a4, est nr. ration.
-s.11.9 | a4, msur: a5 ꝑ a,
-3s1.d10 | a, est nr. ration.
-contr. hypoth.
-2.concl. 21.a.1 | a5, est nr. irration.
+Hypoth. 3.
 
-Hypoth. 2.
+A------B C------D
+E,4. F,3.
+G,16. H,9.
 
-a, est nr. irration.
-a3, est nr. ration.
+ab & cd snt incomm. ꝗe.
 
 Req. π. demonstr.
 
-a2, a4, a5, a7, &c. snt nr; irration;
+□.ab π □.cd, n̄, est 2|2 nr. □ π nr. □.
 
 Demonstr.
 
-1.suppo. | a2, est nr. ration.
-hyp. | a3, est nr. ration.
-s.11.9 | a2, msur: a3, ꝑ a,
-3s1.d10 | a, est nr. ration.
+suppos. | □.ab π □.cd 2|2 nr. □ π nr. □,
+β | ab & cd snt comm. ꝗe,
 contr. hypoth.
-1.concl. 21.a.1 | a, est nr. irration.
-2 suppo. | a5, est nr. ration.
-hyp. | a3, est nr. ration.
-3s1.d10 | a6, est nr. ration.
-s.11.9 | a5, msur: a6, ꝑ a,
-3s1.d10 | a, est nr. ration.
+3 concl 21.a.1 | □.ab π □.cd, n̄, est 2|2 nr. □. π nr. □.
+
+Hypoth. 4.
+
+□.ab π □.cd, n̄, est nr. □. π nr. □.
+
+Req. π. demonstr.
+
+ab & cd snt incomm. ꝗe.
+
+Demonstr.
+
+suppos. | ab & cd snt comm. ꝗe,
+α | □.ab π □.cd 2|2 nr. □. π nr. □.
 contr. hypoth.
-2 concl 21.a.1 | a5, est nr. irration.
+4.cōcl. 21.a.1 | ab & cd snt incomm. ꝗe.
 
-Explicat.. not.
+## COROLL.
 
-a, | v,
-a2, | q,
-a3, | c,
-a4, signifi. | qq,
-a5, | qc,
-a6, | cc,
-a7, | qqc.
-
-## THEOR. VIII. PROPOS. X.
-
-Si quatuor magnitudines proportionales fuerint, prima vero secundæ fuerit commensurabilis ; & tertia quartæ commensurabilis erit. Et si prima secundæ fuerit incommensurabilis, & tertia quartæ incommensurabilis erit.
+Ex his, & ex tertio scholio vndecimæ definitionis manifestum est, rectas lineas, quæ longitudine sunt commensurabiles, omnino & potentia commensurabiles esse :

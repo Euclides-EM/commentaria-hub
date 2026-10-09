@@ -1,34 +1,30 @@
-<!-- Running title: ELEM.. EVCLID.. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-3. 1 | mf 2|2 fn,
+кμ. 14. 5 | con. abcdk 3|2 ſolid. o,
 
-Demonstr.
+contr. concl. к
 
-α. 13. 12 | cylindr. ap 2|2 cylindr. cк,
-1.concl. α. 11. 12 | cylindr. ah π cylindr. ap 2|2 me π ml, Ⅱ fn, β
-10. 12 | con. abe 2|2, ⅓ cylindr. ah,
-10. 12 | con. cdf 2|2, ⅓ cylindr. cк,
-2 concl. β. 15, 5 | con. abf π con. cdf 2|2 me π fn.
+concl. 21. a. 1 | raō. con. abcdк π con. efghm 2|2, 3; raō; tx π tr.
 
-## THEOR. XV. PROPOS. XV.
+Quoniam vero, quam proportionem habent coni, eandem quoque obtinent cylindri, eorum tripli, habebit quoque cylindrus ad cylindrum proportionem diametrorum in basibus triplicatam. | *Mais d'autant que les cylindres sont en mesme raison que les cones, desquels ils sont triples, le cylindre sera außi au cylindre raison triplee des diametres de leurs bases.*
 
-Æqualium conorum, & cylindrorum reciprocantur bases & altitudines: & quorum conorum, & cylindrorum reciprocantur bases & altitudines, illi sunt æquales.
+## THEOR. XIII. PROPOS. XIII.
 
-*Des cones & cylindres egaux, les bases & les hauteurs sont reciproques: Et les cones & les cylindres desquels les bases & les hauteurs sont reciproques sont egaux.*
+Si cylindrus plano secetur aduersus planis parallelo: Erit vt cylindrus ad cylindrum, ita axis ad axem.
 
-Hypoth. 1.
+*Si vn cylindre est couppé par vn plan parallele aux plans opposez: Comme le cylindre sera ou cylindre, ainsi l'axe sera à l'axe.*
 
-bh & ek ſnt cylindr; 2|2 ꝗe,
-bca & efo ſnt con; 2|2 ꝗe,
+[Figure: labels arranged K N / A G D / E I F / B H C / L O / P M]
 
-[Figure: labels arranged N I D K / G A H P Q / E L C F M]
+Hypoth.
+
+abcd, est cylindr.
+ief, est ⊙ == ⊙ hbc, Ⅱ ⊙ gad.
 
 Req. π. demonstr.
 
-alt; dm π alt. la 2|2 baſ. bc π baſ. ef,
+cylindr. aefd π cylindr. ebcf 2|2 gi π ih.
 
-Demonstr.
+Præpar.
 
-constr. | alt. cylindr. eq 2|2 alt. cylindr. eh, / alt. md π alt. mo, Ⅱ la
-14. 12 | cylindr. ek, Ⅱ bh π cylindr. eq, ſnt raō; 2|2 ꝗe,
-11. 12 | baſ. bc π baſ. ef
+2. p. 1, & 3. 1 constr. | gk 2|2 gi. ih, hl, lm ſnt 2|2 ꝗe, / кn, gad, lo, lm ſnt ⊙ == ꝗe.

@@ -1,51 +1,64 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-*Si tant de nombres pairs que l'on voudra sont adioustez, le tout sera pair.*
+1.a.1 | ▭.a,c 2|2 □.b,
+1.concl. 20.7 | a,b,c snt proport;
 
-A....4E....4B...3F...3C..2G..2D
+A,6. B,4. C--
+D,16.
 
-Hypoth.
+Hypoth. 2.
 
-ab, bc, cd snt nr; pa;
-
-Req. π. demonstr.
-
-aggreg.ad, est nr.pa.
-
-Demonstr.
-
-6.d.7 | eb, est ½.. ab,
-6.d.7 | fc, est ½.. bc,
-6.d.7 | gd, est ½..cd,
-20.d.7 | ab π eb, bc π fc, cd π gd, snt raō. 2|2 ꝫe,
-ad π | eb + fc + gd,
-12.7 | ab π | eb,
-constr. | eb, est ½ ab,
-c.20.d7 | eb + fc + gd est ½.. ad,
-concl. 6.d.7 | aggreg. ad, est nr.pa.
-
-## THEOR. XX. PROPOS. XXII.
-
-Si impares numeri quotcunque componantur, multitudo autem ipsorum sit par : totus par erit.
-
-*Si tant de nombres impairs que l'on voudra, sont adioustez, & que la multitude d'iceux soit pair : le tout sera pair.*
-
-A.........8F.1B......6G.1C....4H1D..2L1E
-
-Hypoth.
-
-ab,bc,cd,de snt nr; impa;
-multd. ab,bc,cd,de, est pa.
+a, n̄ msur: d.
 
 Req. π. demonstr.
 
-aggreg. ae, est nr.pa.
-
-Præpar.
-
-fb,gc,hd,le snt vnits;
+a,b,c n̄ snt proport;
 
 Demonstr.
 
-7.d.7 | af, bg, ch, dl snt nr; pa;
-21.7 | aggreg.. af + bg + ch + dl, est nr. pa.
+suppos. | a,b,c snt proport;
+20.7 | ▭.a,c 2|2 □.b, u d,
+7.a.7 | a, msur: ▭.a,c ꝑ c,
+7.a.7 | a, msur: d ꝑ c,
+contr. hypoth.
+2.concl. 21.a.1 | a,b,c n̄ snt proport;
+
+## PROBL. II. PROPOS. XIX.
+
+Tribus numeris datis, considerare an possit ipsis quartus proportionalis inueniri.
+
+*Trois nombres estans donnez, considerer s'il est possible d'en trouuer vn quatriesme proportionel à iceux.*
+
+A,8. B,12. C,18. D,27.
+E,216.
+
+Hypoth. 1.
+
+a, b, c snt nr; D;
+e, est ▭.b,c, α
+a, msur: e ꝑ d. β
+
+Req. π. demonstr.
+
+a,b,c,d snt proport;
+
+Demonstr.
+
+β.9.a.7 | e 2|2 ▭.a,d.
+α.1.a.1 | ▭.a,d 2|2 ▭.b,c,
+1.concl. 19.7 | a π b 2|2 c π d.
+
+A,4. B,6. C,9. D---
+E,54.
+
+Hypoth. 2.
+
+a, n̄, msur: e.
+
+Req. π. demonstr.
+
+a,b,c,d n̄ snt proport;
+
+Demonstr.
+
+suppos. | a π b 2|2 c π d,

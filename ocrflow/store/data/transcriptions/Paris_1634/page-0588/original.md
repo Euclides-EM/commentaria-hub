@@ -1,61 +1,46 @@
-<!-- Running title: ELEM.. EVCLD. LI. X. -->
+<!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-A---------- B,20.
-C--------
-D-------- C,16.
+vel duplam, vel etiam duo quiuis numeri primi : nam huiusmodi numeri non sunt similes plani numeri, vt demonstrauimus in scholiis ad 27. propos. lib. 8.
 
-2 concl. 9.10 | a, incomm. d, β
+*double, & aussi tous nombres premiers : car tels nombres ne sont point plans semblables, comme nous auons demonstré aux scholies de la vingtseptiesme proposition du huictiesme liure.*
 
-Req. 2. est □.e, incomm. a.
+## LEMM. II.
 
-Constr.
+Inuenire lineam ad quam data recta sit in ratione datorum numerorum.
 
-13.6 | a π e 2|2 e π d, γ
-symp. | req. est e.
+*Trouuer vne ligne droicte à laquelle vne ligne droicte donnee soit en la raison de deux nombres donnez.*
 
-Demonstr.
-
-c.20.6 | □.a π □.e 2|2 a π d,
-β | a. incomm. d,
-3.concl 10.10 | □.a, incomm. □.e.
-
-## THEOR. IX. PROPOS. XII.
-
-Quæ eidem magnitudini sunt commensurabiles, & inter se sunt commensurabiles.
-
-*Les grandeurs commensurables à vne mesme grandeur, sont aussi commensurables entr'elles.*
-
-ACB
-
-D,10. E,8.
-F,2. G,3.
-H,5. I,4. K,6.
+K A G F L M
+D------ B,5. C,3.
+H E P R
 
 Hypoth.
 
-a, comm. c,
-b, comm. c.
+b & c snt nr; D.
+km, est —— D.
 
-Req. π. demonstr.
+Req. π. fa.
 
-a, comm. b.
+b π c 2|2 km π hr.
 
-Præpar.
+Constr.
 
-5.10 | a π | c,
-nr. d π | nr. e, α
-5.10 | c π | b,
-nr. f π | nr. g, β
-4.8 | h π i 2|2 d π e, γ
-4.8 | i π k 2|2 f π g. ♪
+s.10.6 | ka, ag, gf,
+fl, lm snt 2|2 ꝗe,
+s.10.6 | multd..
+part. km 2|2 nr. b
+ʒ. 1 | ka, he
+ep, pr snt 2|2 ꝗe,
+ʒ. 1 | multd..
+part. hr 2|2 nr. c,
+symp. | Req. est hr.
 
 Demonstr.
 
-αγ.11.5 | a π c 2|2 h π i,
-β♪.11.5 | c π b 2|2 i π k,
-22.5 | a π b 2|2 h π k,
-concl. 6.10 | a & b snt comm. ꝗe.
+concl. 20.d7 | km π hr 2|2 b π c.
 
-## SCHOL.
+## LEMM. III.
 
-Sequitur ex hac propositione omnem rectam lineam
+Inuenire lineam ad cuius quadratum datæ rectæ quadratum sit in ratione datorum numerorum.
+
+*Trouuer vne ligne droicte au quarré de laquelle le quarré d'vne ligne droicte donnee soit en la raison de deux nombres donnez.*

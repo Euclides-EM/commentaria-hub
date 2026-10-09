@@ -1,56 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-A....4C......6D.1B
+hyp. | aggreg.. fb + gc + hd + le, est nr.pa.
+concl. 21.7 | aggreg. ae, est nr.pa.
+
+## THEOR. XXI. PROPOS. XXIII.
+
+Si impares numeri quotcunque componantur, multitudo autem ipsorum sit impar : & totus impar erit.
+
+*Si tant de nombres impairs que l'on voudra, sont adioustez, & que la multitude d'iceux soit impair : le tout sera aussi impair.*
+
+A........7B.....5C..2E.1D
 
 Hypoth.
 
-ab & cb snt nr; impa; α
+ab, bc, cd snt nr; impa;
+multd.. ab, bc, cd est impa.
 
 Req. π. demonstr.
 
-ac, est nr.pa.
+aggreg. ad, est nr. impa.
 
 Præpar.
 
-db, est vnit.
+ed, est vnit.
 
 Demonstr.
 
-7.d.7 | ad, est nr.pa.
-α.7.d.7 | cd, est nr.pa.
-24.7 | ac, est nr.pa.
+2.29 | ac, est nr.pa.
+7.d.7 | ce, est nr.pa.
+21.9 | ae, est nr. pa.
+concl. 7.d.7 | ad, est nr. impa.
 
-## THEOR. XXV. PROPOS. XXVII.
+## THEOR. XXII. PROPOS. XXIV.
 
-Si ab impari numero par detrahatur : reliquus impar erit.
+Si à pari numero par detrahatur, & reliquus par erit.
 
-*Si d'vn nombre impair on retranche vn nombre pair, le reste sera impair.*
-
-A.1D....4C......6B
+*Si d'vn nombre pair on retranche vn nombre pair, le reste sera aussi pair.*
 
 Hypoth.
 
-ab, est nr. impa.
-cb, est nr.pa.
+ac & ab snt nr; pa;
 
 Req. π. demonstr.
 
-ac, est nr. impa.
-
-Præpar.
-
-ad, est vnit.
-
-Demonstr.
-
-hyp. | ab, est nr. impa.
-7.d.7 | db, est nr.pa.
-hyp. | cb, est nr.pa.
-24.7 | dc, est nr. pa.
-concl. 7.d.7 | ac, est nr. impa.
-
-## THEOR. XXVI. PROPOS. XXVIII.
-
-Si impar numerus parem multiplicans fecerit aliquem ; factus par erit.
-
-*Si vn nombre impair multipliant vn nombre pair, en fait quelqu'vn ; le produit sera pair.*
+bc, est nr. pa.

@@ -1,42 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-## THEOR. I. PROPOS. I.
+## DEFINIT. XXVI.
 
-Rectæ lineæ pars quædam non est in subiecto plano, quædam verò in sublimi.
+Tetraedrum est figura solida sub quatuor triangulis æqualibus,& æquilateris contenta.
 
-*Vne partie d'vne ligne droicte ne peut estre en vn plan proposé, & vne partie au dessus.*
+*Le tretraedre est vne figure solide contenüe sous quatre triangles egaux & equilateres.*
 
-[Figure: labels arranged D B / A C F / E]
+## DEFINIT. XXVII.
 
-Hypoth.
+Octaedrum est figura solida sub octo triangulis æqualibus, & æquilateris contenta.
 
-adfe, est plan.
-acf, est ——,
-ac, est ꝗn plan. de.
+*L'octaedre est vne figure solide contenüe sous huict triangles egaux & equilateres.*
 
-Req. π. demonstr.
+## DEFINIT. XXVIII.
 
-cf, est ꝗn plan. de.
+Dodecaedrum est figura solida sub duodecim pentagonis æqualibus, & æquilateris, & æquiangulis contenta.
 
-Demonstr.
+*Le dodecaedre est vne figure solide, contenüe sous douze pentagones egaux, & equilateres.*
 
-suppos. | acb, est ——,
-hyp. | acf, est ——,
-contr. 10. a. 1.
-concl. 21.a.1 | cb, est ꝗn plan. de.
+## DEFINIT. XXIX.
 
-## THEOR. II. PROPOS. II.
+Icosaedrum est figura solida sub viginti triangulis æqualibus,& æquilateris contenta.
 
-Si duæ rectæ lineæ se mutuò secent, in vno sunt plano: atque triangulum omne in vno est plano.
+*L'icosaedre est vne figure solide, contenüe sous vingt triangles egaux & equilateres.*
 
-*Si deux lignes droictes se couppent l'vne l'autre, elles sont en vn mesme plan: & tout triangle est en vn mesme plan.*
+## DEFINIT. XXX.
 
-[Figure: labels arranged D F / E / A C]
+Parallelepipedum est figura solida sex figuris
 
-Hypoth.
-
-ab & cd snt ——;
-e, est intersect.
-arbitr. | db, est ——.
-
-Req. π. demonstr.
+*Parallelipipede est vne figure solide contenüe sous*

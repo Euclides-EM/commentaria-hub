@@ -1,37 +1,45 @@
-<!-- Running title: ELEM.. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID.. LI. XI. -->
 
-## THEOR. XVI. PROPOS. XVIII.
+eodem consistentes plano: parallela sunt, quæ per illa ducuntur, plana.
 
-Si recta linea plano cuipiam ad rectos sit angulos; & omnia quæ per ipsam plana, eidem plano ad rectos angulos erunt.
+*Si deux lignes droictes se touchantes l'vne l'autre, sont paralleles à deux autres lignes droictes se touchantes l'vne l'autre; n'estans pas en vn mesme plan: les plans menez par icelles lignes sont paralleles.*
 
-*Si vne ligne droicte est à angles droicts à quelque plan; tous les plans menez par icelle seront aussi à angles droicts au mesme plan.*
-
-[Figure: labels arranged I A / C F / E I B G / D]
+[Figure: labels arranged D / A G F / C I / B E H]
 
 Hypoth.
 
-ab ⊥ plan. cd, α
-ab, est ꝗn plan. ef.
+ab == de, α
+ac == df. β
 
 Req. π. demonstr.
 
-plan. ef ⊥ plan. cd.
+plan. bac == plan. [edf.
 
 Præpar.
 
-suppos. | eg, est intersect.. plan; cd, ef,
-arbitr. | h, est ● ꝗn eg,
-11. 1 | hi == ba ꝗn plan. ef.
+11. 11 | ag ⊥ plan. edf, γ
+31. 1 | gh == de, δ
+31. 1 | gi == df. ε
 
 Demonstr.
 
-hyp. | ab ⊥ plan. cd,
-constr. | ih == ab,
-8. 11 | ih ⊥ plan. cd,
-concl. 4. d. 11 | plan. ef ⊥ plan. cd.
+αδ.30.1 | ab == gh,
+γ.3.d.11 | <agh, est ⊥,
+29. 1 | <gab, est ⊥,
+βε. 30.1 | gi == ac,
+γ.3 d.11 | <gai, est ⊥,
+29. 1 | <gac, est ⊥,
+4. 11 | ga ⊥ plan. bac,
+concl. 14. 11 | plan. bc == plan. ef.
 
-## THEOR. XVII. PROPOS. XIX.
+## THEOR. XIV. PROPOS. XVI.
 
-Si duo plana se mutuò secantia, plano cuidam ad rectos sint angulos, communis etiam illorum sectio ad rectos eidem plano angulos erit.
+Si duo plana parallela plano quopiam secentur; communes illorum sectiones sunt parallelæ.
 
-*Si deux plans s'entrecouppans sont à angles droicts à quelque plan; leur ligne de commune section sera aussi à angles droicts au mesme plan.*
+*Si deux plans paralleles sont coupez par quelque autre plan, les lignes de leurs cōmunes sections seront paralleles.*
+
+Hypoth.
+
+plan. ab == plan. cd,
+heigf, est plan. secan.
+eh & gf snt intersect;

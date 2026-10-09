@@ -1,40 +1,48 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-suppos. | cf 3|2 fк..□..——, comm. cf,
-3d48.10 | ck, est binom. 3.
-1.concl. β.57.10 | h, est bimed. 2.
-suppos. | cf 3|2 fк..□.——, incomm. cf,
-6d48.10 | ck, est binom. 6.
-2 concl. 60.10 | h, est ——po. 2; medi;
+*qui est ditte binome, ou bimediale premiere, ou ligne maieure, ou ligne pouuant vn rationel & vn medial.*
 
-## PRINCIPIVM SENARIORVM per detractionem.
-
-*JCY COMMENCENT LES SIXAINES des lignes irrationelles par le retranchement.*
-
-## THEOR. LVI. PROPOS. LXXIV.
-
-Si à rationali rationalis auferatur potentia tantum commensurabilis existens toti: reliqua irrationalis est, vocetur autem apotome.
-
-*Si d'vne ligne rationelle on retranche vne ligne rationelle, commensurable en puissance seulement à la toute: la restante est irrationelle, soit appellee apotome ou residu.*
-
-D E F (line)
+H (left) A B (square, C D) F K / E I (rectangle)
 
 Hypoth.
 
-df & de snt ration. commun. ꝗn □. α
+▭.a, est ration.
+▭b, est medi.
+□.h 2|2 a + b.
 
 Req. π. demonstr.
 
-ef, est irration.
+h, est binom. u bimed. 1. u maj. u po. rat. & med.
+
+Præpar.
+
+suppos. | cd, est ration. expos.
+4.app. | ▭ce 2|2 ▭a,
+4.app. | ▭fi 2|2 ▭b.
 
 Demonstr.
 
-l.26.10 | □.ef, incomm. □.de,
-hyp. | □.de, est ration.
-concl. 10.d.10 | □.ef, est irration.
-
-Explicat. ꝑ nr;
-
-df, est 2.
-de, est √.3.
-ef, est 2 ∼ √.3.
+1.a.1 | □.h 2|2 ▭ci, α
+hyp. | a, est ration.
+s 12.10 | ▭ce, est ration.
+21.10 | cf, est ration. cōm. cd,
+hyp. | b, est medi.
+c.24.10 | fi, est medi.
+23.10 | fк, est ration. incomm. cd,
+13.10 | fк, incomm. cf,
+27.10 | ck, est binom.
+suppos. | ▭a 3|2 ▭b,
+1.a.d. | ▭ce 3|2 ▭fi,
+1.6 | cf 3|2 fк,
+suppos. | cf 3|2 fк..□..——, comm. cf,
+1d48.10 | ck, est binom. 1.
+1.concl. α.55.10 | h, est binom.
+suppos. | cf 3|2 fк..□.——, incomm. cf,
+4d48.10 | ck, est binom. 4.
+2 concl. α.58.10 | h, est maj.
+suppos. | ▭a 2|3 ▭b,
+1.a.d. | ▭ce 2|3 ▭fi,
+1.6 | cf 2|3 fк,
+suppos. | fк 3|2 cf..□.——, comm. fк,
+2d48.10 | ck, est binom.
+3.concl. α.56.10 | h, est bimed. 1.

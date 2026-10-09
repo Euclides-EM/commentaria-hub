@@ -1,40 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-*Si vn solide parallelipipede est couppé par vn plan mené par les lignes diagonales des plans opposez: le solide sera couppé par ce plan, en deux egalement.*
+gulum solidum constituere solido angulo dato æqualem.
 
-[Figure: labels arranged E B / D C / F G / A H]
+*A vne ligne droicte donnee, & à vn poinct en icelle, construire vn angle solide, egal à vn angle solide donné.*
+
+[Figure: labels arranged A C / H K I D G E / B L F]
 
 Hypoth.
 
-ab, est ◇piped.
-◇ ahcd == ◇fgbe,
-fgcd, est plan.
+ab, est —— D.
+a, est ● D.
 
-Req. π. demonstr.
+Req. π. fa.
 
-fgcdah 2|2 fgcdeb.
+<ahil 2|2 <cdef.
+
+Constr.
+
+11. 11 | fg ⊥ plan. dce, α
+1. p. 1 | df, fe, eg, gd, cg snt ——;
+3. 1 | ah 2|2 cd, β
+23. 1 | <hai 2|2 <dce, γ
+3. 1 | ai 2|2 ce, δ
+23. 1 | <hak 2|2 <dcg ꝗn plan. hai, ε
+3. 1 | aк 2|2 cg, θ
+12. 11 | кl ⊥ plan. hai, к
+3. 1 | kl 2|2 gf, λ
+1. p. 1 | al, est ——;
+symp. | <ahil 2|2 <cdef.
+
+Præpar.
+
+1. p. 1 | hk, кi, il, lh snt ——.
 
 Demonstr.
 
-34. 1 | ◇ae 2|2 & sml. ◇hb,
-34. 1 | afd, dfe, hgc, cgb snt △; 2|2 & sml; ꝗe,
-24. 11 | ◇ag 2|2 sml. ◇db,
-24. 11 | ◇ac 2|2 sml. ◇fb,
-◇fgcd, est commun.
-concl. 9. d.11 | fgcdah 2|2 fgcdeb.
+βθε. 4.1 | hk 2|2 dg,
+γ.3.a.1 | <кai 2|2 <gce,
+δθ. 4.1 | кi 2|2 ge,
+ακλ.4.1 | hl 2|2 df
+θακ.4.1 | al 2|2 cf,
+8. 1 | <hal 2|2 <dcf, μ
+ακ. 4.1 | li 2|2 fe,
+8. 1 | <lai 2|2 <fce, ν
+concl. γμν | <ahil 2|2 <cdef.
 
-## THEOR. XXIV. PROPOS. XXIX.
+## PROBL. V. PROPOS. XXVII.
 
-Solida parallelepipeda super eandem basin constituta, & in eadem altitudine, quorum insistentes lineæ in iisdem collocantur rectis lineis, sunt inter se æqualia.
-
-*Les solides parallelipipedes constituez sur vne mesme base, & de mesme hauteur, & desquelles les lignes insistentes sont colloquees en mesmes lignes droictes sont egaux entr'eux.*
-
-Hypoth.
-
-aghef bcd, est ◇piped.
-aghemlki, est ◇piped.
-◇ aghe == ◇ flkd.
-
-Req. π. demonstr.
-
-aghef bcd 2|2 aghemlki,
+A data recta linea, dato solido parallelepipedo

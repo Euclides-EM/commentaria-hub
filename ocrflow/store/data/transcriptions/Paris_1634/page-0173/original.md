@@ -1,25 +1,44 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-| ▭.dg commun. subtr.
-concl. 3.a.1 | ah ▭.ag 2|2 gc ▭.abg.
+Si vne ligne droicte est couppée en deux parties inégales, les quarrez descrits de la toute & de la difference des parties, sont doubles de ceux qui sont faicts des deux parties de la toute.
 
-## THEOR. XI. PROPOS. XII.
+Hypoth.
 
-In amblygoniis triangulis, quadratum quod fit à latere angulum obtusum subtendente, maius est quadratis, quæ fiunt à lateribus obtusum angulum comprehendentibus, rectangulo bis comprehenso, & ab vno laterum, quæ sunt circa obtusum angulum, in quod cùm protractum fuerit, cadit perpendicularis, & ab assumpta exterius linea sub perpendiculari prope angulum obtusum.
+ad est —,
+ac 3|2 cd,
+ac ~ cd est af,
 
-Aux triangles amblygones, le quarré du costé qui soustient l'angle obtus, est plus grand que les quarrez des costez qui contiennent l'angle obtus, de deux fois le rectangle contenu sous l'vn des costez qui sont à l'entour de l'angle obtus, sçauoir celuy, sur lequel estant prolongé, tombe la perpendiculaire, & de la ligne prise au dehors entre la perpendiculaire & l'angle obtus.
-
-hypoth. | <abc 3|2 ∟,
-
-Præpar.
-
-2.p.1 | cbd est —,
-12.1 | ad ⊥ cd.
-
-[Figure: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]
+[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—A, E—F, E—C, E—D, E—B]
 
 Req. π. demonstr.
 
-▭.ac 2|2 ▭.ab + ▭.bc + 2▭.cbd.
+▭.ad + ▭.af 2|2, 2▭.ac + 2▭.cd.
+
+Præpar.
+
+aeb est figur.. schol.. 6. 2.
 
 Demonstr.
+
+constr. | cf 2|2 cd,
+3.1 | af 2|2 db,
+concl. 9.2 | ▭.ad + ▭.db u ▭.af 2|2, 2▭.ac + 2▭.cd.
+
+Explicat. p nr.
+
+hyp. | ad est 10,
+hyp. | ac est 7,
+3.a.1 | cd u cf est 3,
+3.a.1 | af u db est 4,
+1.s.1.d.2 | ▭.ad est 100,
+1.s.1.d.2 | ▭.af est 16,
+1.concl. 2.a.1 | ▭.ad + ▭.af snt 116,
+1.s.1.d.2 | ▭.ac est 49,
+6.a.1 | 2▭.ac snt 98,
+1.s.1.d.2 | ▭.cd est 9,
+6.a.1 | 2▭.cd snt 18,
+2.cōcl. 2.a.1 | 2▭.ac + 2▭.cd snt 116.
+
+## PROBL. I. PROPOS. XI.
+
+Datam rectam lineam secare, vt comprehensum

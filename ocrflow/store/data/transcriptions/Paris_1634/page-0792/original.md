@@ -1,28 +1,27 @@
-<!-- Running title: ELEM.. EVCLID.. LI. XII. -->
+<!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-[Figure: labels arranged F M / A G / E L / B H / C D I K]
+[Figure: labels arranged X / A Y E / M S / I L P R / D H V / B K C F Q G]
 
-Præpar.
+4. 12 | △abc π △efg, / ibklmn + кlcnmo π pfqrſt + qrgtſu,
+9. a. 1 | pyram. abcd 3|2 prism. ibкlmn + prism. кlcnmo,
+14. 5 | x 3|2 prism. pfqrſt + prism. qrgtſn,
 
-1. p. 1 | ac, ad, gi, gk ſnt ——.
+contr. concl. β
 
-Demonstr.
+21. a. 1 | x, n̄ est 2|3 pyram. efgh. γ
+2 ſuppo. | x 3|2 pyram. efgh, δ
+α. c. 4. 5 | △efg π △abc 2|2 ſolid. x π pyram. abcd, ε
+ſuppoſ. | x π pyram. abcd 2|2 pyram. efgh π y, ε
+δ | x 3|2 pyram. efgh,
+1. 14. 5 | pyram. abcd 3|2 ſolid. y, θ
+θ. 11. 5 | △efg π △abc 2|2 pyram. efgh π y,
 
-5. 12 | abc π acd 2|2 pyram. abcf π pyram. acdf,
-18. 5 | abcd π acd 2|2 abcdf π acdf,
-5. 12 | acd π ade 2|2 acdf π adef,
-22. 5 | abcd π ade 2|2 abcdf π adef,
-18. 5 | abcde π ade 2|2 abcdef π adef, α
-5. 12 | ade π gkl 2|2 adef π gкlm, β
-d. α | ghiкl π gkl 2|2 ghiкlm π gкlm,
-c. 4. 5 | gкl π ghiкl 2|2 gкlm π ghiкlm,
-1.concl. αβ. 25. 6 | abcde π ghiкl 2|2 abcdef π ghiкlm. γ
+contr. concl. γ
 
-Si bases non habent latera multitudine æqualia, demonstratio fiet vt sequitur. | *Si les bases n'ont les costez egaux en multitude, la demonstration se fera comme s'ensuit.*
+concl. 21. a. 1 | pyram. abcd π pyram. efgh 2|2 △abc π △efg.
 
-[Figure: labels arranged F K / A / G / B E / C DH I]
+## COROLL.
 
-γ | abc π ghi 2|2 abcf π ghiк,
-γ | acd π ghi 2|2 acdf π ghiк,
-24. 5 | abcd π ghi 2|2 abcdf π ghik,
-γ | ade π ghi 2|2 adef π ghiк,
+Hinc fit pyramides eiusdem altitudinis super eandem vel æquales bases triangulares constitutas, esse inter se æquales.
+
+Item sequitur è conuerso, pyramides triangulares æquales super eandem, vel æquales bases eandem habere

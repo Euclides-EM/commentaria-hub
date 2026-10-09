@@ -1,29 +1,29 @@
-<!-- Running title: ELEM.. EVDLID. LI. V. -->
+<!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-Ratio A ad C est duplicata rationis A ad B, vel æqualis duab. rationibus A ad B.
+hyp. | e 3|2 g,
+hyp. | f 2|3 h,
+concl. 8.d.5 | a π b 3|2 c π d.
 
-Ratio A ad D est triplicata rationis A ad B, vel æqualis tribus rationibus A ad B.
+Conuers.. 8. Definit. 5.
 
-Ratio A ad E est quadruplicata rationis A ad B, vel ęqualis quatuor rationib. A ad B.
+hyp. | e, multipl.. a,
+| f, multipl.. c,
+hyp. | g, multipl.. b,
+| h, multipl.. d,
+hyp. | a π b 3|2 c π d,
+hyp. | e 3|2 g,
+concl. c.8.d.5 | f 2|3 h,
 
-La raison de A à C est doublée de la raison de A à B, ou égale à deux raisons de A à B.
+Conuersa octauæ definitionis non concludit E, esse maiorem G, & F minorem H ; sed concedit tantùm fieri posse, E esse maiorem G, & F minorem A.
 
-La raison de A à D est triplée de la raison de A à B, ou égale à trois raisons de A à B.
+La conuerse de la huictiesme definition ne conclud pas que E est plus grande que G, & F moindre que H ; mais elle concede seulement, qu'il est possible que E soit plus grande que G, & F moindre que H.
 
-La raison de A à E est quadruplée de la raison de A à B, ou égale à quatre raisons de A à B.
+## DEFINIT. IX.
 
-## SCHOL.
+Proportio autem in tribus terminis paucissimis consistit.
 
-Eadē ratione si sint quotcumque magnitudines continuè proportionales ratio primæ ad quartam est sesquialtera rationis primæ ad tertiam, quòd sint tres rationes inter primā & quartam & duæ tantùm inter primam & tertiam.
+La proportion ne peut estre constituée en moins de trois termes.
 
-Item ratio primæ ad quintam est sesquitertia rationis primæ ad quartam, &c.
+Ratio constat duobus terminis, proportio seu proportionalitas duabus rationibus ; quæ si fuerit cōtinua, erunt tres termini ; si verò non sit continua, erunt saltem quatuor termini.
 
-Pour la mesme raison s'il y a tant de grandeurs qu'on voudra continuellement proportionnelles, la raison de la premiere à la quatriesme est sesquialtere de la raison de la premiere à la troisiesme, à cause qu'il y a trois raisons entre la premiere & la quatriesme, & deux seulement entre la premiere & troisiesme.
-
-Pareillement la raison de la premiere à la cinquiesme est sesquitierce de la raison de la premiere à la quatriesme, &c.
-
-## DEFINIT. XI.
-
-Homologæ seu similes ratione magnitudines
-
-Les grandeurs sont dites homologues, ou de sembla-
+La raison a deux termes, la proportion ou proportionalité deux raisons ; que si elle est cōtinüe, il y aura trois termes ; mais si elle n'est continuë, il y aura à tout le moins quatre termes.

@@ -1,23 +1,26 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-II.
+ter se commensurabilium ; aut enim duarum linearum rationalium longitudine inter se commensurabilium, altera æqualis est expositæ rationali ; aut neutra rationali expositæ æqualis est, longitudine tamen ei vtraque est commensurabilis : aut denique vtraque expositæ rationali commensurabilis est solùm potentia.
 
-Magnitudo quancunque magnitudinem metiens, metitur quoque omnem magnitudinem, quam illa metitur.
+*longitude entr'elles ; car de deux lignes rationelles commensurables en longitude entr'elles, l'vne est egale à la rationelle exposee, ou l'vne ny l'autre ne luy est egale ; & toutesfois toutes deux commensurables en longitude à icelle rationelle exposee : ou finalement l'vne & l'autre est commensurable à l'exposee rationelle en puissance seulement.*
 
-*Vne grandeur qui mesure quelconque grandeur, mesure aussi toute grandeur que celle-la mesure.*
+hyp. | cadb, est semic.
+suppos. | cb, ration. expos. est 2,
+1.c.15.4 | bp, √.6<, est 2,
+2.c.15.4 | ap, √.Δ æquilat. est √.12,
+6.4 | bd, √.□, est √.8,
+11.4 | fd, √.5< est √..10~√.20,
+7.a.1 | ce 2|2 eb est 1,
+7.a.1 | ak 2|2 kp est √.3,
+bp & ab snt ration.. 1. gen. β
+ce & ab snt ration.. 2. gen. γ
+ak & ap snt ration.. 3. gen. δ
+fd, est irration. ε
 
-III.
+Explicatio notarum.
 
-Magnitudo metiens totam magnitudinem, & ablatam metitur & reliquam.
+α | CB, est rationalis exposita.
 
-*Vne grandeur mesurant toute vne grandeur, & la retranchee d'icelle, mesure aussi le reste.*
+Explication des notes.
 
-Hæc axiomata, vt ad numeros pertinent, iam explicata sunt in vltimis tribus pronuntiatis libri septimi.
-
-*Ces communes sentences, en tant qu'elles appartiennent aux nombres, ont desia esté expliquees aux trois derniers axiomes du 7. liure.*
-
-## THEOR. I. PROPOS. I.
-
-Duabus magnitudinibus inæqualibus propositis, si à maiore auferatur maius quàm dimidium ; & ab eo, quod reliquum est, rursus detrahatur maius quàm dimidium, & hoc semper fiat : relinquetur tandem quædam magnitudo, quæ minor erit proposita minore magnitudine.
-
-*Deux grandeurs inegales estans proposees, si de la plus grande on retranche plus de la moitié, & du reste encore plus de la moitié, & que cela se face tousiours ainsi en*
+α | *CB, est la rationelle exposee.*

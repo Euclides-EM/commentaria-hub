@@ -1,35 +1,22 @@
-<!-- Running title: ELEM. EVCLID. LI. XI. -->
+<!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-[Figure: labels arranged A / B / C / D]
+## COROLL.
 
-a π b 2|2 c π d,
-◇piped. a, sml. ◇piped. b,
-◇piped. c, sml. ◇piped. d.
+Itaque si fuerint duo anguli plani æquales, quorum verticibus sublimes rectæ lineæ æquales insistant, quæ cum lineis primo positis angulos contineant æquales, vtrumque vtrique : erunt à punctis extremis linearum sublimium ad plana angulorum primò positorum demissæ perpendiculares inter se æquales.
 
-Req. π. demonstr.
+*Partant s'il y a deux angles plans egaux, des sommets desquels lon ait mené en l'air des lignes droictes egales, contenant angles egaux auec les lignes premierement posees, chacun au sien: les perpendiculaires menees des extremes d'icelles lignes esleuees en l'air sur les plans des angles premierement posez, seront egales entr'elles.*
 
-◇piped. a π ◇piped. b 2|2 ◇piped. c π ◇piped. d.
+## THEOR. XXXI. PROPOS. XXXVI.
 
-Demonstr.
+Si tres rectæ lineæ proportionales fuerint; quod ex his tribus fit solidum parallelepipedum, æquale est descripto à media linea solido parallelepipedo, quod æquilaterum quidem sit, æquiangulum vero prædicto.
 
-33. 11 | raō. ◇piped. a π ◇piped. b 2|2, 3;raō; a π b, Ⅱ c π d,
-33. 11 | raō. ◇piped. c π ◇piped. d 2|2, 3; raō; c π d,
-1.concl. 2. ſ.23.5 | ◇piped. a π ◇piped. b 2|2 ◇piped. c π ◇piped. d.
+*S'il y a trois lignes droictes proportionelles; le solide parallelipipede constitué d'icelles, est egal au solide parallelipipede, descrit de la moyenne, pourueu qu'il soit equilateral, mais equiangle au susdit.*
 
-Hypoth. 2.
+Hypoth.
 
-◇piped. a π ◇piped. b 2|2 ◇piped. c π ◇piped. d. α
+a, b, c snt proport;
+arbitr. | defg, est < solid.
 
-Req. π. demonstr.
-
-a π b 2|2 c π d.
-
-Demonstr.
-
-33. 11 | raō. a π b 2|2, ⅓raō. ◇piped. a π ◇piped. b,
-33. 11 | raō. c π d 2|2, ⅓raō. ◇piped. c π ◇piped. d,
-2 concl. α3ſ.23.5 | a π b 2|2 c π d.
-
-## THEOR. XXXIII. PROPOS. XXXVIII.
-
-Si planum ad planum rectum fuerit; & ab aliquo
+ed 2|2 a,
+dg 2|2 b,
+df 2|2 c,

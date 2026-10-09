@@ -1,15 +1,17 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### XXIX.
+### XXIV.
 
-Quadrilaterarum autem figurarum, quadratum quidem est, quod & æquilaterum & rectangulum est, vt ABCD. | Or des figures quadrilateres, le quarré est celuy qui est equilatere & rectangle, comme ABCD.
+Isosceles autem est, quod duo tantùm æqualia habet latera, vt triangulum B. | Mais le triangle Isoscele est, celuy qui a seulement deux costez égaux, comme le triangle B.
 
-[Figure: quarré ABCD, B en haut à gauche, C en haut à droite, A en bas à gauche, D en bas à droite]
+[Figure: triangle isoscele B]
 
-### XXX.
+### XXV.
 
-Altera verò parte longior figura est, quæ rectangula quidem, at æquilatera non est, vt ABCD. | Le quarré long ou rectangle est, vne figure qui a les angles droits, mais qui n'est pas equilateral, comme ABCD.
+Scalenum verò, quod tria inæqualia habet latera, vt triangulum C. | Et le scalene qui a les trois costez inegaux, comme le triangle C.
 
-[Figure: rectangle ABCD, B en haut à gauche, C en haut à droite, A en bas à gauche, D en bas à droite, E au milieu du costé AD]
+[Figure: triangle scalene C]
 
-XXXI.
+### XXVI.
+
+Adhæc etiam trilaterarum figurarum rectangulum quidem triangulum est, quod rectum angulum habet, vt triangulum A. | Au surplus des figures trilateres, le triangle ortogone ou rectangle est celuy qui a vn angle droict, comme le triangle A.

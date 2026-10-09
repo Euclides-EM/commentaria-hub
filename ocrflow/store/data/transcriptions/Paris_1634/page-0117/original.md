@@ -1,49 +1,55 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-face vn angle égal à vn angle rectiligne donné.
+## SCHOL. II.
 
-[Figure: ligne E—A—F en haut, angle G à droicte, ligne B—D—C en bas, ligne A—D]
+Omne parallelogrammum, habens vnum angulum rectum, est parallelogrammum rectangulum.
 
-Hypoth.
+Tout parallelogramme, qui a vn angle droict, est parallelogramme rectangle.
 
-bc est — D.
-a est • D.
-g est < D.
-
-Req. π. fa.
-
-<adc 2|2 <g,
-
-Constr.
-
-31.1. | ae == bc,
-23.1. | <ead 2|2 <g,
-symp. | <adc 2|2 <g.
-
-Demonstr.
-
-constr. | ae == bc,
-29.1. | <adc 2|2 <ead,
-constr. | <g 2|2 <ead,
-concl. 1.a.1. | <adc 2|2 <g.
-
-## THEOR. XXII. PROPOS. XXXII.
-
-Cuiuscunque trianguli vno latere producto: Externus angulus duobus internis, & oppositis, est æqualis. Et trianguli tres interni anguli duobus sunt rectis æquales.
-
-De tout triangle, l'vn des costez estant prolongé, l'angle externe est égal aux deux internes & opposez: & les trois angles internes de tout triangle, sont égaux à deux droicts.
-
-[Figure: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]
+[Figure: parallelogramme BCDA, B & C en haut, A & D en bas]
 
 Hypoth.
 
-abc est △,
-bcd est —.
+ac est ◊, α
+<a est ∟,
 
 Req. π. demonstr.
 
-<acd 2|2 <a + <b.
+ac est ▭.
+
+Demonstr.
+
+α.35.d.1. | ad == bc,
+α.35.d.1. | ab == dc,
+29.1. | <a + <b 2|2 2∟,
+hyp. | <a est ∟,
+3.a.b. | <b est ∟, β
+d. β | <d & <c snt ∟.
+
+## THEOR. XXI. PROPOS. XXX.
+
+Quæ eidem rectæ lineæ parallelæ, & inter se sunt parallelæ.
+
+Les lignes droictes paralleles à vne mesme ligne droicte, sont außi paralleles entr'elles.
+
+[Figure: trois lignes A—G—B, E—H—F, C—I—D, transversale passant par G, H & I]
+
+Hypoth.
+
+ab == ef, α
+cd == ef, β
+
+Req. π. demonstr.
+
+ab == cd,
 
 Præpar.
 
-31.1. | ce == ba. α
+arbitr. | gi est —.
+
+Demonstr.
+
+α.29.1. | <agi 2|2 <ehi,
+β.29.1. | <dig 2|2 <ehi,
+1.a.1. | <agi 2|2 <dig,
+concl. 27.1. | ab == cd.

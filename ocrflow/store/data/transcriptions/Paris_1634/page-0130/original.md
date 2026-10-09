@@ -1,46 +1,54 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-## PROBL. XI. PROPOS. XLII.
-
-Dato triangulo æquale parallelogrammum constituere in dato angulo rectilineo.
-
-Faire vn parallelogramme égal à vn triangle donné en vn angle rectiligne donné.
-
-[Figure: ligne A—F—G en haut, ligne B—E—C en bas ; triangle ABC, lignes poinctées A—E, lignes A—C, F—E, F—C, G—C ; à droicte l'angle D]
+[Figure: ligne G—A—D—H en haut, ligne B—C—E—F en bas ; triangles BCA & EFD dans le trapeze GBFH]
 
 Hypoth.
 
-△abc est D.
-<d est D.
+gh == bf, α
+bc 2|2 ef. α
 
-Req. π. fa.
+Req. π. demonstr.
 
-◊ecgf 2|2 △abc.
-<ecg 2|2 <d.
-
-Constr.
-
-31.1. | ag == bc,
-23.1. | <bcg 2|2 <d,
-10.1. | be 2|2 ec,
-31.1. | ef == cg,
-symp. | ◊efgc est req.
+△bca 2|2 △efd.
 
 Præpar.
 
-1.p.1. | ae est —.
+31.1. | bg == ca,
+31.1. | fh == ed.
 
 Demonstr.
 
-constr. | ag == bc,
-constr. | be 2|2 ec,
-38.1. | △abc 2|2 2△aec,
-41.1. | ◊eg 2|2 2△aec,
-1.concl. 6.a.1. | ◊eg 2|2 △abc,
-2.concl. constr. | <ecg 2|2 <d.
+α 36.1. | ◊bcag 2|2 ◊edhf,
+34.1. | △bca 2|2 ½ ◊bcag,
+34.1. | △efd 2|2 ½ ◊edhf,
+concl. 7.a.1. | △bca 2|2 △efd.
 
-## THEOR. XXXII. PROPOS. XLIII.
+## THEOR. XXIX. PROPOS. XXXIX.
 
-In omni parallelogrammo complementa eorum, quæ circa diametrum sunt parallelogrammorum, inter se sunt æqualia.
+Triägula æqualia super eadem basi, & ad easdem partes constituta; & in eisdem sunt parallelis.
 
-En tout parallelogramme, les complements des paral-
+Les triangles égaux constituez sur mesme base, & de mesme part, sont entre mesmes paralleles.
+
+[Figure: A en haut à gauche, D & F en haut à droicte, E entre deux, B & C en bas ; triangles BCA & BCD, lignes B—D, B—F, C—F, A—C]
+
+Hypoth.
+
+△bca 2|2 △bcd.
+
+Req. π. demonstr.
+
+ad == bc.
+
+Demonstr.
+
+suppos. | af == bc,
+1.p.1. | cf est —,
+37.1. | △bcf 2|2 △bca,
+hyp. | △bcd 2|2 △bca,
+1.a.1. | △bcf 2|2 bcd,
+| contr. 9.a.1.
+21.a.1. | bd == bc.
+
+## THEOR. XXX. PROPOS. XL.
+
+Triangula æqualia super æqualibus basibus, & ad easdem partes constituta, & in eisdë sunt parallelis.

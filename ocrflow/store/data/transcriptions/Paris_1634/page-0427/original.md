@@ -1,49 +1,32 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-<bfc 3|2 <bec u <bgc,
+1.6 | Δfde π Δedc 2|2 fe π ec,
+13.5 | <hde π <edg 3|2 fe π ec, β
+18.5 | <hdg π <edg 3|2 fc π ec,
+15.5 | <adc π <hdg 2|2 ac π fc,
+22.5 | <adc π <edg 3|2 ac π ec,
+29.5 | <ade π <edg 3|2 ae π ec,
+33.6 | <ade π <edg 2|2 ◠ab π ◠bc,
+3.6 | ae π ec 2|2 ab π bc,
+concl. 13.5 | ◠ab π ◠bc 3|2 ab π bc.
 
-Præpar.
+Coroll.
 
-3.p.1 | cibl est ⊙,
-2.p.1 | gbl est —,
-1.p.1 | cl est —.
+hyp. | df n̄ est 3|2 de,
+β | <fde π <edc 3|2 fe π ec.
 
-[Figure: cercle auec les poincts A, E, C, I, L, F, B, G, D]
+## THEOR. XXV. PROPOS. XXXVIII.
 
-Demonstr.
+Si basis trianguli ita secetur, vt segmentum alterum sit non minus latere sibi contermino ; ratio anguli qui reliquo segmento adiacet, ad eum qui huic, minor est, quam huius segmenti ad illud.
 
-15.d.1 | ce, cf, cg snt 2|2 ʒe,
-19.1 | cb 3|2 cl u ci,
-concl. s.31.3 | <bfc 3|2 cei u cel.
+*Si la base d'vn triangle est couppee en sorte, que l'vn des segments ne soit moindre que le costé qui luy est adjacent ; la raison de l'angle qui est adjacent à l'autre segment, à l'angle adjacent à celuy-cy est moindre, que du segment de celuy-cy, au segment de l'autre.*
 
-## THEOR. XXVII. PROPOS. XL.
-
-Theon in tertium lib. Almagesti.
+Ptolomeus lib. 12. Almagesti.
 
 Hypoth.
 
-cage est ⊙,
+abc est Δ,
 
-acd est —,
-
-◠ag 2|2 ◠gh,
-
-arbitr. | d, est • in bd,
-
-dg & dh snt —.
-
-[Figure: cercle auec les poincts A, L, G, C, H, F, E, B, I, K, D]
+cd n̄ est 2|3 ac.
 
 Req. π. demonstr.
-
-<gda 3|2 <gdh.
-
-Præpar.
-
-gb & gk snt —.
-
-Demonstr.
-
-8.3 | di 3|2 db,
-38.app. | di π gi 3|2 <bgd π <bdg,
-28.5 | dg π gi 3|2 <gba π <bdg, α

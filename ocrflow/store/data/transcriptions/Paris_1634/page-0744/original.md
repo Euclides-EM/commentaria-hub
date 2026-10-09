@@ -1,45 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-## PROBL. II. PROPOS. XII.
-
-Dato plano à puncto, quod in illo datum est, ad rectos angulos rectam lineam excitare.
-
-*A vn plan donné, & d'vn poinct donné en iceluy, mener vne ligne droicte à angles droicts.*
-
-[Figure: labels arranged F D / B / A E / C]
+[Figure: labels arranged A H B / E G F / C I D]
 
 Hypoth.
 
-bc, est plan. D.
-a, est ● D. ꝗn plan. bc.
-
-Req. π. fa.
-
-af ⊥ plan. bc.
-
-Constr.
-
-arbitr. | d, est ●, extr. plan. bc
-11. 11 | de ⊥ plan. bc,
-31. 1 | af == ed,
-symp. | req. est af.
-
-Demonstr.
-
-constr. | ed ⊥ plan. bc,
-constr. | af == ed,
-concl. 8. 11 | af ⊥ plan. bc.
-
-## THEOR. XI. PROPOS. XIII.
-
-Dato plano, à puncto, quod in illo datum est, duæ rectæ lineæ ad rectos angulos non excitabuntur, ab eadem parte.
-
-*A vn plan donné, d'vn mesme poinct donné en iceluy, on ne pourra pas mener de mesme part deux lignes droictes à angles droicts.*
-
-Hypoth.
-
-● c, est D. ꝗn plan. ab.
+ab, cd snt == ef.
 
 Req. π. demonstr.
 
-cd & ce, n̄ snt ⊥ plan. ab.
+ab == cd.
+
+Præpar.
+
+arbitr. | g, est ●, ꝗn ef,
+11. 1 | <egi & <egh snt ⊥
+
+Demonstr.
+
+4. 11 | gh & gi snt ꝗn vn. plan.
+4. 11 | eg ⊥ plan. hgi, α
+hyp. | ah == eg,
+α. 8.11 | ah ⊥ plan. hgi, β
+hyp. | ci == eg,
+α. 8.11 | ci ⊥ plan. hgi,
+concl. β. 6.11 | ab == cd.
+
+## THEOR. X. PROPOS. X.
+
+Si duæ rectæ lineæ se mutuò tangentes, ad duas rectas se mutuò tangentes sint parallelæ, non autem in eodem plano; illæ angulos æquales comprehendent.
+
+*Si deux lignes droictes se touchantes l'vne l'autre sont paralleles à deux lignes droictes se touchantes l'vne l'autre, & n'estans en vn mesme plan; icelles contiendront angles egaux.*
+
+Hypoth.
+
+ab == de,
+ac == df.
+
+Req. π. demonstr.
+
+<bac 2|2 <edf.
+
+Præpar.
+
+3. 1 | ab, ac, de, df snt 2|2 ꝗe, α
+1. p. 1 | ad, bc, ef, be, cf snt ——.

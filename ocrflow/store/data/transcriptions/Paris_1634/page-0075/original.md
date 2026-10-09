@@ -1,27 +1,23 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-[Figure: angles droits a∟ et b∟]
+[Figure: lignes A et B courtes à gauche, ligne C longue à droite]
 
-hyp. | <a est ∟.
-hyp. | <b est ∟.
-12.a.1. | <a 2|2 <b.
+hyp. | a 2|2 b.
+hyp. | a 2|2 ½c.
+7.a.d. | b 2|2 ½c.
 
-### 12. a. b.
+Quæ in sexto & septimo axiomate dicta sunt de duplo & dimidio, possunt etiam sumi de triplo, quadruplo, quintuplo, &c. & de partibus tertiis, quartis, quintis, &c. | Aux sixiesme & septiesme axiomes, les choses qui ont esté dictes du double & de la moitié, se peuuent außi entendre du triple, quadruple, quintuple, &c. & des tierces, quartes, quintes, &c.
 
-Si vnus æqualium angulorum est rectus, vnusquisque reliquorum est quoque rectus. | Si vn des angles egaux est droict, vn chacun des autres est außi droict.
+### 8. a. 1.
 
-[Figure: angles droits a∟, b∟ et c∟]
+Et quæ sibi mutuò congruunt, ea inter se sunt æqualia. | Et les choses qui conuiennent entr'elles, sont egales entr'elles.
 
-hyp. | a, b, c, snt <; 2|2 ꝗe.
-hyp. | <a est ∟.
-12.a.b. | <b & <c snt ∟.
+Magnitudines congruæ sunt, quarum partes applicatæ partibus, æqualem vel eundem locum occupant. | Les grandeurs qui conuiennent sont celles dont les parties estans mises l'vne sur l'autre, occupent espace egal, ou vn mesme lieu.
 
-Explicat.. not;
+### 9. a. 1.
 
-Anguli A, B, C sunt æquales inter se, per hyp. | Les angles A, B, C sont egaux entr'eux, par l'hyp.
-Angulus A est rectus, per hyp. | L'angle A est droict, par l'hyp.
-Igitur anguli B & C sunt recti, per 12. a. b. | Partant les angles B & C sont droicts, par le 12. a. b.
+Et totum sua parte maius est. | Et le tout est plus grand que sa partie.
 
-### 13. a. 1.
+### 9. a. b.
 
-Et si in duas rectas lineas altera recta incidens, internos ad easdemque partes angulos duobus rectis minores | Et si sur deux lignes droictes tombe vne autre ligne droicte, faisant les angles internes & de mesme part moindres que deux
+Mensura non est maior mensurato, | La mesure n'est pas plus grande que la chose mesurée.

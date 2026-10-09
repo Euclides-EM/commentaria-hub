@@ -1,42 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-α | bc 2|2 eg,
-2.concl. 1.a.d. | bc 3|2 ef,
-
-Demonstr. 3. cas.
-
-21.1. | eg + dg 3|2 ef + df,
-β | dg 2|2 df,
-3.concl. 5.a.1. | eg u bc 3|2 ef.
-
-## THEOR. XVI. PROPOS. XXV.
-
-Si duo triangula duo latera duobus lateribus æqualia habuerint, vtrumque vtrique, basim verò basi maiorem : & angulum sub æqualibus rectis lineis contentum angulo maiorem habebunt.
-
-Si deux triangles ont deux costez égaux à deux costez chacun au sien, & la base plus grande que la base ; ils auront außi l'angle contenu d'iceux plus grand que l'angle.
-
-[Figure: deux triangles ABC & DEF, A & D en haut]
-
-Hypoth.
-
-ab 2|2 de, α
-ac 2|2 df, α
-bc 3|2 ef,
-
-Req. π. demonstr.
-
-<bac 3|2 <edf.
+22.1. | △agh & △dcf snt æquil.
+symp. | <a 2|2 <d.
 
 Demonstr.
 
-suppos. | <bac 2|2 <edf,
-α 4.1. | bc 2|2 ef,
-| contr. hypoth.
-suppos. | <bac 2|3 <edf,
-α 24.1. | bc 2|3 ef.
-| contr. hypoth.
-concl. 21.a.1. | <bac 3|2 <edf.
+constr. | ag 2|2 dc,
+constr. | ah 2|2 df,
+constr. | gh 2|2 cf,
+concl. 8.1. | <gah 2|2 <cdf.
 
-## THEOR. XVII. PROPOS. XXVI.
+## CONSTR.. PRA.
 
-Si duo triangula duos angulos duobus angulis æquales habuerint, vtrumque vtrique, vnumque latus vni lateri æquale, siue quod æqualibus adja-
+[Figure: triangle BAC, A en haut, poincts F & G sur les costez ; ligne verticale N—D—H—E, poinct L à droicte, arcs se coupans en L]
+
+Hypoth.
+
+ne est — D.
+d est • D.
+a est < D.
+
+Constr.
+
+3.p.1. | afg & dhl snt ⊙ 2|2 ꝗe, arbitr.
+3.p.1. | ⊙hl 2|2 ⊙fg,
+1.p.1. | dl est —,
+symp. | <hdl 2|2 <a,
+
+Demonstr.
+
+8.1. | <hdl 2|2 <a.
+
+## THEOR. XV. PROPOS. XXIV.
+
+Si duo triangula duo latera duobus lateribus æqualia habuerint, vtrumque vtrique, angulum vero angulo maiorem sub æqualibus rectis lineis contentum: & basim basi maiorem habebunt.
+
+Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & l'angle contenu d'iceux costez plus

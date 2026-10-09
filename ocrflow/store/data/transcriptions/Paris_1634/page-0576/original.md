@@ -1,45 +1,35 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Deux grandeurs commensurables estant donnees, trouuer la plus grande commune mesure d'icelles.*
+*continuant, il demeurera en fin quelque grandeur, plus petite que la moindre grandeur proposee.*
 
 Hypoth.
 
-ab & cd snt magnitud.
-comm. D.
+ab 3|2 c,
 
-Req. est ma.c.me..ab & cd.
+Præpar.
 
-Constr.
+ʒ. 1 | c, df, fg, ge snt 2|2 ꝫe,
+II.p.II | de 3|2 ab,
+suppos. | ah 3|2 hb, α
+suppos. | hi 3|2 ib, β
+suppos. | multd.. ah, hi, ib 2|2 multd.. df, fg, ge.
 
-ʒ. 1 | ab, msur: ce,
-ʒ. 1 | ed, msur: af,
-suppos. | fb, msur: ed, α
-symp. | req. est fb.
+Req. π. demonstr.
+
+ib 2|3 c,
 
 Demonstr.
 
-α | fb, msur: ed,
-constr. | ed, msur: af,
-2.a.10 | fb, msur: af,
-1.a.10 | fb, msur: ab, β
-constr. | ab, msur: ce,
-2.a.10 | fb, msur: ce,
-γ.1.a.10 | fb, msur: cd, γ
-1.concl. γ | fb, msur: ab & cd,
-suppos. | g 3|2 fb, ♪
-suppos. | g, msur: ab & cd, ε
-constr. | ab, msur: ce,
-ε.2.a.10 | g, msur: ce,
-ε.3.a.10 | g, msur: cd,
-constr. | ed, msur: af,
-2.a.10 | g, msur: af,
-ε.3.a.10 | g, msur: fb,
-♪ | contr. 9.a.1.
-2 concl. 21.a.1 | fb, est ma.c.me..
-ab & cd.
+constr. | de 3|2 ab,
+3.a.b | fe, n̄, est 2|3, ½de,
+α.3.a.b | hb 2|3, ½ab,
+7.a.b | fe 3|2 hb,
+3.a.b | ge, n̄, est 2|3, ½fe,
+β.3.a.b | ib 2|3, ½hb,
+concl. 7.a.b | ge, u c 3|2 ib.
 
-## COROLL.
+## SCHOL.
 
-Ex hoc manifestum est, quòd magnitudo metiens duas magnitudines, metitur & maximam earum mensuram communem.
+Idem demonstrabitur si ex AB, auferatur dimidium AH, & ex reliquo HB, rursus dimidium HI, & ita deinceps.
 
-*De ceste demonstration il est manifeste, qu'vne grandeur*
+*On demonstrera la mesme chose si de AB, est ostee la moitié AH, & du reste HB, derechef la moitié HI, & ainsi tousiours.*

@@ -1,34 +1,23 @@
-<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
+# EVCLIDIS ELEMENTORVM LIBER DECIMVSTERTIVS.
 
-[Figure: labels arranged E G F / I O H K / P / D A C B / L N M]
+# LE TREZIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
-præpar. eſt ſml. præpar.. propoſ. præced.
+## THEOR. I. PROPOS. I.
 
-Demonstr.
+Si recta linea secundum extremam & mediam rationem secetur; majus segmentum assumens dimidiam totius, quintuplum potest, eius quod à dimidia totius describitur quadrati.
 
-1. c. 4. 2 | ai, eſt □.ad,
-1. c. 4. 2 | gк, eſt □.ac,
-hyp. | ab, Ⅱ al 2|2, 2ah,
-1. 6 | ▭.an 2|2, 2▭aк,
-43. 1 | ▭.an 2|2 □.ak / + ▭.ig, β
-hyp. | □ec 2|2, 5□ai,
-α. 1. ſ. 4. 2 | □am 2|2, 4□ad,
-3. a. 1 | □am 2|2 gnom. afi,
-β. 3. a. 1 | ▭.cm 2|2 gк□.ac,
-concl. 17. 6 | ab π ac 2|2 ac π cb.
-
-## THEOR. III. PROPOS. III.
-
-Si recta linea secundum extremam ac mediam rationem secetur; minus segmentum assumens dimidiam majoris segmenti, quintuplum potest eius, quod à dimidia majoris segmenti describitur quadrati.
-
-*Si vne ligne droicte est couppee, selon la moyenne & extreme raison; la ligne faite du moindre segment & de la moitié du plus grand, peut le quintuple du quarré descrit de la moitié du plus grand segment.*
+*Si vne ligne droicte est couppee en la moyenne & extreme raison: le quarré de la moitié de la toute, & du plus grand segment comme d'vne seule ligne, est quintuple du quarré de la moitié d'icelle ligne totale.*
 
 Hypoth.
 
-ab, eſt —— propoſ.
-ba π ac 2|2 ac π cb,
-ad 2|2 dc. α
+ab π ac 2|2 ac π cb,
+ad 2|2, ½ ab.
 
 Req. π. demonstr.
 
-□.db 2|2, 5□.dc.
+□.dc 2|2 5□.ad.
+
+Præpar.
+
+46. 1 | ce, eſt □.cd,
+1. p. 1 | df, eſt diamet.

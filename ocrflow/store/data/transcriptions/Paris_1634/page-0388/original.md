@@ -1,40 +1,45 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-46.1 | gh est □.eg,
-symp. | □gh est req.
+[Figure: triangle A, C, B auec E, G, H, F, le demicercle A, N, M, L & le quarré B, N, M]
 
-Dmonstr.
-
-47.1 | □.gh 2|2 □.gf + □.ef,
-47.1 | □.ef 2|2 □.ed + □.df,
-concl. 1.a.f | □gh 2|2 □.ed + □.df + □.fg u □.a + □.b + □.c.
-
-## PROBL. VI. PROPOS. VI.
-
-Propositis duobus quadratis inæqualibus, inuenire quadratum, quo maius excedit minus.
-
-Estant proposez deux quarrez inegaux, trouuer vn quarré egal à l'exces, par lequel le plus grand excede le plus petit.
-
-[Figure: demicercle A, D, B, le quarré E sur A D, & la ligne C F à part]
-
-Hypoth.
-
-ab & cf snt — D.
-
-ab 3|2 cf.
-
-Req. π. fa.
-
-□de 2|2 □.ab ~ □.cf.
-
-Constr.
-
-3.p.1 | adb est semic.
-1.4 | bd 2|2 cf,
-1.p.1 | ad est —,
-46.1 | de est □.ad,
-symp. | □.de est req.
+12.1 | cd ⊥ ab,
+arbitr. | def & cef snt ⊙ 2|2 ⁊e,
+1.p.1 | ef est —,
+2.p.1 | abl est —,
+3.1 | bl 2|2 dg,
+3.p.1 | aml est semic.
+11.1 | bm ⊥ al,
+46.1 | bn est □.bm,
+symp. | □bn 2|2 Δabc,
 
 Demonstr.
 
-31.3 | <adb est ⌐,
+2.app. | Δabc 2|2 ▭.ab,dg u ab,bl,
+s.5.2 | □.bm 2|2 ▭.ab,bl,
+concl. 1.a.1 | □.bm 2|2 Δabc.
+
+## PROBL. IV. PROPOS. IV.
+
+Ad datam rectam lineam, datum quadratum, vel rectangulum applicare.
+
+A vne ligne droicte donnee, appliquer vn quarré, ou rectangle donné.
+
+45.1.Elem.
+
+[Figure: quarré D, B, C ; ligne A ; rectangle G, E, F]
+
+Hypoth. I.
+
+bc & a snt D.
+
+Req. π. fa.
+
+▭bd 2|2 □.a.
+
+Constr.
+
+11.6 | bc π a 2|2 a π cd,
+1.1.d.2 | bd est ▭.bc,cd,
+symp. | req. est ▭bd.
+
+Demonstr.

@@ -1,59 +1,52 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-angle, & les costez qui sont autour des angles egaux reciproques sont egaux.
+æqualem habentium reciproca sunt latera, quæ circum æquales angulos, illa sunt æqualia.
 
-[Figure: triangles A, B, C et D, B, E croisez en B]
+Des parallelogrammes egaux qui ont vn angle egal à vn angle, les costez qui sont au tour des angles egaux sont reciproques : Et les parallelogrammes qui ont vn angle egal à vn angle, & les costez autour des angles egaux reciproques, sont egaux.
+
+[Figure: parallelogrammes D, C, H ; A, B, G ; E, F]
 
 Hypoth. commun.
 
-<abc 2|2 <dbe,
+<abc 2|2 <ebg,
 
 Hypoth. 1.
 
-Δabc 2|2 Δdbe.
+◇abcd 2|2 ◇befg.
 
 Req. π. demonstr.
 
-ab π be 2|2 db π bc
+ab π bg 2|2 eb π bc.
 
 Præpar.
 
-3.1 | abe est —,
-1.p.1 | ce est —.
+3.1 | abg est —,
+2.p.1 | dch & fgh snt —.
 
 Demonstr.
 
-constr. | abe est —,
-hyp. | <abc 2|2 <dbe,
-1.s.15.1 | cbd est —,
-hyp. | Δabc 2|2 Δebd,
-1.6 | ab π be,
-| Δabc π Δcbe,
-7.5 | Δabc π Δcbe,
-| Δdbe π Δcbe,
-1.6 | Δdbe π Δcbe,
-| db π bc,
-1.concl. 11.5 | ab π be 2|2 db π bc.
+constr. | abg est —,
+hyp. | <abc 2|2 <ebg,
+1.s.15.1 | ebc est —,
+35.d.1 | bchg est ◇,
+hyp. | ◇abcd 2|2 ◇befg,
+1.6 | ab π bg 2|2 ac π bh,
+7.5 | ac π bh 2|2 bf π bh,
+1.6 | bf π bh 2|2 eb π bc,
+1.concl. 11.5 | ab π bg 2|2 eb π bc.
 
 Hypoth. 2.
 
-ab π be 2|2 db π bc.
+ab π bg 2|2 eb π bc
 
 Req. π. demonstr.
 
-Δabc 2|2 Δdbe.
+◇abcd 2|2 ◇ebgf.
 
 Demonstr.
 
-1.6 | Δabc π Δcbe,
-| ab π be,
-hyp. | ab π be 2|2 db π bc
-1.6 | db π bc,
-| Δdbe π Δcbe,
-11.5 | Δabc π Δcbe,
-| Δdbe π Δcbe,
-2.concl. 9.5 | Δabc 2|2 Δdbe.
-
-## THEOR. XI. PROPOS. XVI.
-
-Si quatuor rectæ lineæ proportionales fuerint, quod sub extremis comprehenditur rectangulum,
+1.6 | ac π bh 2|2 ab π bg
+hyp. | ab π bg 2|2 eb π bc
+1.6 | eb π bc 2|2 bf π bh
+11.5 | ac π bh 2|2 bf π bh
+2.concl. 9.5 | ◇ac 2|2 ◇bf.

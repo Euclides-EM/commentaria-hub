@@ -1,19 +1,33 @@
-# EVCLIDIS ELEMENTORVM LIBER QVINTVS.
+<!-- Running title: ELEM.. EVCLID. LI. IV. -->
 
-# LE CINQVIESME LIVRE DES ELEMENTS D'EVCLIDE.
+6<abcde est inscrit. π ⊙abcde.
 
-## DEFINIT. I.
+Req. π. demonstr.
 
-Pars est magnitudo magnitudinis, minor maioris, cùm minor metitur maiorem.
+5<abcde est æquilat.
 
-Partie est vne grandeur d'vne grandeur, la plus petite de la plus grande, lors que la plus petite mesure la plus grande.
+[Figure: pentagone A—B—C—D—E inscrit dans vn cercle, F au centre, auec les lignes menées de F et les diagonales]
 
-## DEFINIT. II.
+Demonstr.
 
-Multiplex autem est maior minoris, cùm minor metitur maiorem.
+hyp. | <abc 2|2 <bcd,
+26.3 | ∩aedc 2|2 ∩baed,
+| ∩aed commun. subtr.
+3.a.1 | ∩cd 2|2 ∩ab, α β
+β | ∩cd
+| ∩ba
+d.α | ∩ed
+d.α | ∩bc
+d.α | ∩ae
+| snt 2|2 ⁊e, γ
+concl. γ | abcde est æquilat.
 
-Mais multiple est la plus grande de la plus petite, quand la plus petite mesure la plus grande.
+## SCHOL. VII.
 
-A, 4. B, 12.
+Si numerus angulorum propositæ figuræ sit par eadem demonstratione ostendetur omnia eius latera numero pari distantia esse inter se æqualia: vt initio facto à quocunque latere 1, 3, 5, 7, &c. erunt æqualia inter se, item 2, 4, 6, 8, &c.
 
-hyp. | a, msur: b,
+Si le nombre des angles de la figure proposée est pair, par la mesme demonstration sera demonstré que tous les costez distans d'vn nombre pair seront égaux entr'eux : par exemple, commençant par tel costé qu'on voudra le 1, 3, 5, 7, &c. seront égaux entr'eux, & aussi le 2, 4, 6, 8, &c.
+
+## SCHOL. VIII.
+
+Figuræ imparium laterum inscribuntur circulo benefi-

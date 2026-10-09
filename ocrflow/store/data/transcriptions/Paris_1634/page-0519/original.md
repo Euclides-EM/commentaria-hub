@@ -1,47 +1,56 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-primus autem sit quadratus, & tertius quadratus erit.
-
-*Si trois nombres sont continuellement proportionaux, & que le premier soit quarré, aussi le troisiesme sera quarré.*
-
-A,4. B,6. C,9.
-
-Hypoth.
-
-a,b,c snt contin. proport;
-a, est nr. □.
+A,12. C,18. B,27.
+D,2. E,3. F,6. G,9.
 
 Req. π. demonstr.
 
-c, est nr. □.
+a & b snt nr; plan; sml;
+
+Præpar.
+
+35.7 | d & e snt mi; nr; ꝗn raō.. a π c, u c π b.
 
 Demonstr.
 
-hyp. | ꝗntr. a & c est medi. proport. b,
-20.8 | a & c snt plan; sml;
-hyp. | a, est nr. □,
-21.d.7 | c, est nr. □.
+21.7 | d, msur: a ꝑ f,
+21.7 | e, msur: c ꝑ f,
+21.7 | d, msur: c ꝑ g,
+21.7 | e, msur: b ꝑ g,
+9.a.7 | a 2|2 ▭.d,f,
+16.d.7 | a, est nr. plan.
+9.a.7 | b 2|2 ▭.e,g,
+16.d.7 | b est nr. plan.
+9.a.7 | c 2|2 ▭.e,f,
+9.a.7 | c 2|2 ▭.d,g,
+1.a.1 | ▭.e,f 2|2 ▭.d,g,
+19.7 | d π e 2|2 f π g,
+concl. 21.d.7 | a & b snt nr; plan; sml;
 
-## THEOR. XXI. PROPOS. XXIII.
+## THEOR. XIX. PROPOS. XXI.
 
-Si quatuor numeri deinceps sint proportionales, primus autem sit cubus, & quartus cubus erit.
+Si inter duos numeros duo medij proportionales cadant numeri, similes solidi sunt illi numeri.
 
-*Si quatre nombres sont continuellement proportionaux, & que le premier soit cube, aussi le quatriesme sera cube.*
+*Si entre deux nombres tombent deux moyens proportionaux, iceux seront solides semblables.*
 
-A,8. B,12. C,18. D,27.
+A,16. C,24. D,36. B,54.
+E,4. F,6. G,9.
+H,2. P,2. M,2. K,3. L,3. N,6
+
+A,6. C,12. D,24. B,48.
+E,1. F,2. G,4.
+H,1. P,1. M,6. K,1. L,1. N,12
 
 Hypoth.
 
-a,b,c,d snt contin. proport;
-a, est nr. cub.
+c & d snt medi; proport; ꝗntr. a & b.
 
 Req. π. demonstr.
 
-d, est nr. cub.
+a & b snt nr; solid; sml;
+
+Præpar.
+
+2.8 | e,f,g snt mi; proport; ꝗn raō. a π c, u c π d. α
 
 Demonstr.
-
-hyp. | ꝗntr. a & d snt 2; medi.proport; b & c,
-21.8 | a & d snt solid; sml;
-hyp. | a, est nr. cub.
-21.d.7 | d, est nr. cub.

@@ -1,30 +1,38 @@
-<!-- Running title: ELEM.. EVCLID. LI. XIII. -->
+<!-- Running title: ELEM.. EVCLID.. LI. XIII. -->
 
-4. 1 | eg, Ⅱ fd 2|2 ah,
-15.d.1,& conſtr. | ab, bh, bc, ie, if, ig, id, il, iк ſnt 2|2 ꝗe,
-4. 1 | le, lf, lg, ld, кe, кf, кg, кd, ef, fg, gd, de ſnt 2|2 ꝗe,
-23. d.1 | lef, lfg, lgd, lde, kef, kfg, kgd, kde ſnt △ æquilat;
-2concl. 27.d.11 | kefgdl, eſt octaedr.
-ſuppoſ. | ●b, eſt ꝗn i,
-ſuppoſ. | ●h, eſt ꝗn l,
-3.8.a.1 | ●a, eſt ꝗn k,
-2 concl. c.15. ſt.1 | ●c, eſt ∩.. ⊙ efgd,
-3.concl. 47. 1 | □.ah, Ⅱ □.lк 2|2, 2□.ld, Ⅱ 2□.ac.
+baſin pyramidis deſcripti.
 
-[Figure: labels arranged H L / F G / B C I / E D / A K]
+*De cecy on peut colliger que le diametre de la sphere est quadruple sesquialtere en puissance du demidiametre du cercle descrit à l'entour de la base de la pyramide.*
 
-## COROLL. I.
+[Figure: labels arranged D / A C E / I F / H / E K G]
 
-Ex dictis manifestum est, in octaedro tres diametros EG, FD, LK se mutuò ad angulos rectos secare in centro sphæræ.
+Req. π. demonstr.
 
-*Des susdits il est manifeste qu'en l'octaedre les trois diametres EG, FD, LK se coupent l'vn l'autre à angles droicts au centre de la sphere.*
+□.ab π □.hf 2|2, 9 π 2.
+
+Demonstr.
+
+arbitr. | □.ab, eſt 9,
+13. 13 | □.ac, Ⅱ □.ef, eſt 6,
+12. 13 | □.hf, eſt 2,
+concl. 2.ſ.7.5 | □.ab π □.hf, / 9 π 2.
 
 ## COROLL. II.
 
-Perspicuum quoque est tria plana EFGD, LEKG, LFKD esse quadrata se mutuò ad angulos rectos secantia.
+Rurſus perpendicularis ex centro ſphæræ ad planum baſis pyramidis demiſſa, ſexta pars erit diametri ſphæræ, & tertia pars ſemidiametri.
 
-*Il est manifeste aussi que les trois plans EFGD, LEKG, LFKD sont quarrez qui s'entrecouppent l'vn l'autre à angles droicts.*
+*Derechef, la perpendiculaire menee du centre de la sphere au plan de la base de la pyramide sera la sixiesme partie du diametre de la sphere, & la tierce partie du demidiametre.*
 
-## COROLL. III.
+Req. π. demonstr.
 
-Octaedrum diuiditur in duas pyramides similes &
+ab π lc 2|2, 6 π 1,
+al π lc 2|2, 3 π 1.
+
+Demonstr.
+
+arbitr. | ab, eſt 6, α
+7. a.1 | al, Ⅱ lb, eſt 3,
+13. 13 | ac, Ⅱ hi, eſt 4, α
+3. a. 1 | lc, eſt 1,
+1.concl. 2.ſ.7.5 | ab π lc 2|2, 6 π 1,
+2 concl. 2.ſ.7.5 | al π lc 2|2, 3 π 1.

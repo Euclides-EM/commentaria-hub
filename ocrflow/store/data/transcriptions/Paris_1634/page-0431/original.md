@@ -1,13 +1,29 @@
-<!-- Running title: ELEM.. EVCLID. LI. VII. -->
+# EVCLIDIS ELEMENTORVM LIBER SEPTIMVS.
 
-æquè metiuntur, primus numerus est eadem pars secundi, quæ tertius quarti: Et multitudo partium secundi, æqualium primo, est æqualis multitudini partium quarti, æqualium tertio.
+# LE SEPTIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
-*que le troisiesme mesure le quatriesme, le premier nombre est telle partie du second, que le troisiesme du quatriesme : Et la multitude des parties du second, egales au premier, est egale à la multitude des parties du quatriesme, egales au troisiesme.*
+## DEFINIT. I.
 
-Et contra, cum multitudo partium secundi æqualium primo, est æqualis multitudini partium quarti æqualium tertio : primus numerus est eadem pars secundi, quæ tertius quarti.
+Vnitas est, secundam quam vnumquodque eorum, quæ sunt vnum dicitur.
 
-*Et au contraire, quand la multitude des parties du second egales au premier, est egale à la multitude des parties du quatriesme, egales au troisiesme : le premier nombre est telle partie du second, que le troisiesme du quatriesme.*
+vnit. vel 1. id est vnitas.
 
-Cùm vero primus numerus, & tertius non metiuntur secundum & quartum; sed pars primi metitur secundum, eadem pars tertij quartum, primus numerus est eædem partes secundi, quæ tertius quarti : Et multitudo partium primi, est æqualis multitudini partium tertij, multitudo vero partium secundi, multitudini partium quarti :
+vnits. id est vnitates.
 
-*Mais quand le premier & troisiesme nombre ne mesurent point le second & le quatriesme; ains vne partie du premier mesure le second, & la mesme partie du troisiesme le quatriesme. Le premier nombre est telles parties du second, que le troisiesme du quatriesme : & la multitude des parties du premier, est egale à la multitude des parties du troisiesme, & la multitude des parties du second, à la multitude des parties du quatriesme :*
+*L'vnité est selon laquelle vne chacune chose de celles qui sont, est dite vne.*
+
+*vnit. ou 1. signifie l'vnité.*
+
+*vnits. signifie vnitez.*
+
+## DEFINIT. II.
+
+Numerus autem, est vnitatibus composita multitudo.
+
+*Nombre, est vne multitude composee d'vnitez.*
+
+## COROLL.
+
+Æquales numeri, æquali numero vnitatem constant: Et numeri, qui æquali nu-
+
+*Les nombres egaux, sont composez de mesmes nombre d'vnitez: & les nombres com-*

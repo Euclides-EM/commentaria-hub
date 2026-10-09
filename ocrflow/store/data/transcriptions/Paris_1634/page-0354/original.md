@@ -1,40 +1,59 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-extremis comprehenditur rectangulum, æquale est ei, quod à media describitur, quadrato. Et si sub extremis comprehensum rectangulum æquale sit ei, quod à media describitur, quadrato : illæ tres rectæ lineæ proportionales erunt.
+angle, & les costez qui sont autour des angles egaux reciproques sont egaux.
 
-Si trois lignes droictes sont proportionelles : le rectangle contenu sous les extremes est egal au quarré de la moyenne : Et si le rectangle contenu sous les extremes est egal au quarré de la moyenne, les trois lignes droictes seront proportionelles.
+[Figure: triangles A, B, C et D, B, E croisez en B]
 
-[Figure: lignes A—B ; E—F ; F—G ; C—B et rectangle A, B, D, C ; quarré E, F, H, G]
+Hypoth. commun.
+
+<abc 2|2 <dbe,
 
 Hypoth. 1.
 
-ab π ef 2|2 ef π cb.
+Δabc 2|2 Δdbe.
 
 Req. π. demonstr.
 
-▭ab,cb 2|2 □.ef, u ▭ac 2|2 □eg.
+ab π be 2|2 db π bc
 
 Præpar.
 
-3.1 | fg 2|2 ef, α
-
-hyp. | ab π ef,
-| ef u fg π cb,
-16.6 | ▭.ab,cb 2|2 ▭ef,fg
-α.29.d.1 | ▭ef,fg est □.ef,
-1.concl. 1.a.g | ▭.ab,cb 2|2 □.ef.
-
-Hypoth. 2.
-
-▭ac 2|2 □eg.
-
-Req. π. demonstr.
-
-ab π ef 2|2 ef π bc.
+3.1 | abe est —,
+1.p.1 | ce est —.
 
 Demonstr.
 
-hyp. | ▭ac 2|2 □eg,
-12.a.1 | <abc 2|2 <efg,
-2.concl. 14.6 | ab π ef,
-| fg u ef π bc.
+constr. | abe est —,
+hyp. | <abc 2|2 <dbe,
+1.s.15.1 | cbd est —,
+hyp. | Δabc 2|2 Δebd,
+1.6 | ab π be,
+| Δabc π Δcbe,
+7.5 | Δabc π Δcbe,
+| Δdbe π Δcbe,
+1.6 | Δdbe π Δcbe,
+| db π bc,
+1.concl. 11.5 | ab π be 2|2 db π bc.
+
+Hypoth. 2.
+
+ab π be 2|2 db π bc.
+
+Req. π. demonstr.
+
+Δabc 2|2 Δdbe.
+
+Demonstr.
+
+1.6 | Δabc π Δcbe,
+| ab π be,
+hyp. | ab π be 2|2 db π bc
+1.6 | db π bc,
+| Δdbe π Δcbe,
+11.5 | Δabc π Δcbe,
+| Δdbe π Δcbe,
+2.concl. 9.5 | Δabc 2|2 Δdbe.
+
+## THEOR. XI. PROPOS. XVI.
+
+Si quatuor rectæ lineæ proportionales fuerint, quod sub extremis comprehenditur rectangulum,

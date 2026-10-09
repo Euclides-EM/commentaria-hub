@@ -1,44 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-opposées seront constituées directement.
+3.a.1. | <abe 2|2 <abd,
+| contr. 9. a. 1.
+concl. 21.a.1. | cbd est —.
 
-[Figure: lignes A—E—B et C—E—D s'entrecoupans en E]
+## THEOR. VIII. PROPOS. XV.
+
+Si duæ rectæ lineæ se mutuo secuerint, angulos ad verticem æquales inter se efficient.
+
+Si deux lignes droictes se couppent l'vne l'autre, elles feront les angles au sommet égaux entr'eux.
+
+[Figure: ligne A—E—B horizontale, ligne oblique C—E—D]
 
 Hypoth.
 
-<aed 2|2 <ceb, α
-<aec 2|2 <deb, α
+ab & cd snt —.
 
 Req. π. demonstr.
 
-aeb & ced snt —.
+<aec 2|2 <deb,
+<aed 2|2 <ceb.
 
 Demonstr.
 
-2.c.15.1. | <aed + <aec + <ceb + <deb 2|2 4∟,
-α.2.a.1. | <aed + <aec 2|2 <ceb + <deb,
-19.a b. | <aed + <aec 2|2 2∟,
-1.concl. 14.1. | ced est —,
-1.f.15.1. | aeb est —.
+13.1. | <aec + <ceb 2|2 2∟
+13.1. | <deb + <ceb 2|2 2∟
+| <ceb commun. subtr.
+3.a.1. | <aec 2|2 <deb, α
+d. α. | <aed 2|2 ceb.
 
-## THEOR. IX. PROPOS. XVI.
+COROLL. I.
 
-Cuiuscunque trianguli vno latere producto, externus angulus vtrolibet interno, & opposito maior est.
+Ex hac propositione sequitur, duas rectas lineas se mutuo secantes, efficere ad punctum sectionis quatuor angulos quatuor rectis æquales. | De cette proposition s'ensuit, que deux lignes droictes s'entrecouppant l'vne l'autre, font quatre angles égaux à quatre angles droicts.
 
-De tout triangle, vn costé estant prolongé l'angle externe est plus grand que chacun des internes & opposez.
+COROLL. II.
 
-[Figure: triangle ABC, costé BC prolongé vers D, poinct E au milieu de AC, lignes BE prolongée vers G, AH et CF, poinct I au dessous]
-
-Hypoth.
-
-abc est △,
-bcd est —.
-
-Req. π. demonstr.
-
-<acd 3|2 <cab,
-<acd 3|2 <cba.
-
-Præpar.
-
-10.1. | ae 2|2 ec,
+Sequitur etiam omnes angulos circa vnum & idem punctum constitutos, quatuor duntaxat rectis esse æquales.

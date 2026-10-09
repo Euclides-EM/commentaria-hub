@@ -1,27 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-38.1 | Δdkm 2|2 Δdef,
-7.5 | Δabc π Δdef 2|2 Δali π Δdkm,
-1.6 | Δali π Δdkm 2|2 bas. ai, π bas. dk,
-1.concl. 11.5 | Δabc π Δdef 2|2 ai π dk,
-15.5 | ◇agbc π ◇defh 2|2 Δabc π Δdef,
-2.concl. 11.5 | ◇agbc π ◇defh 2|2 ai π dk.
+15.5 | ab/bc 2|2 a/c,
+concl. s3.d.5 | a/c est quantit. raō.. a π c,
 
-## THEOR. II. PROPOS. II.
+## THEOR. I. PROPOS. I.
 
-Si ad vnum trianguli latus parallela ducta fuerit recta quædam linea, hæc proportionaliter secabit ipsius trianguli latera. Et si trianguli latera proportionaliter secta fuerint, quæ ad sectiones adiuncta fuerit recta linea, erit ad reliquum ipsius trianguli latus parallela.
+Triangula & parallelogramma, quorum eadem fuerit altitudo, ita se habent inter se, vt bases.
 
-Si à l'vn des costez d'vn triangle on mene quelque ligne droicte parallele, elle couppera les costez du triangle proportionellement : Et si les costez sont couppez proportionellement, la ligne droicte conioignant les poincts des sections, sera parallele à l'autre costé du triangle.
+Les triangles & les parallelogrammes qui ont mesme hauteur, sont entr'eux comme leurs bases.
 
-[Figure: triangle A, B, C avec ligne D—E parallele à BC]
+[Figure: triangles et parallelogrammes E, A, F ; H, G, B, C, D, I]
 
-Hypoth. 1.
+Hypoth.
 
-abc est Δ,
-de == bc.
+abc & acd snt Δ,
+bcae & cdfa snt ◇,
+eaf == hci.
 
 Req. π. demonstr.
 
-ad π db 2|2 ae π ec.
+Δabc π Δacd 2|2 bc π cd,
+◇acbe π ◇acdf 2|2 bc π cd.
 
 Præpar.
+
+3.1 | cb, bg, gh snt 2|2 ⁊e, α
+3.1 | di 2|2 dc, β
+1.p.1 | ag, ah, ai snt —.
+
+Demonstr.
+
+α.38.1 | Δacb, Δabg, Δagh snt 2|2 ⁊e,
+β.38.5 | Δacd 2|2 Δadi,
+38.1 | hc 2. 3. 4 | 3 ci,
+| Δach 2. 3. 4 | 3 Δaci,
+1.concl. 6.d.5 | Δabc π Δacd 2|2 bc π cd, γ

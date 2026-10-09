@@ -1,50 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-γ♪14.10 | ef, incomm. eg,
-10.10 | ▭ek, incomm. ▭gi,
-β | ▭sm 2|2 ▭ek,
-constr. | □mn 2|2 ▭gi,
-10.10 | ▭sm, incōm.. □mn,
-2 concl. ♪.10.10 | om, incomm. mp.
+A......5 C.........7 B
+L.........9
+G——— ———
+D——— ——— F (E)
+H———
 
-Coroll. 2.
+Constr.
 
-hyp. | □.ae 3|2 □.ec.. □.—— incomm. ae, ε
+arbitr. | ac & cb snt nr; pr;
+arbitr. | ab, n̄ est nr. □,
+30.7 | ab, est pr. π. ac & cb,
+s.27.8 | ab, ac, cb snt plan. dissml.
+arbitr. | l, est nr. □;
+arbitr. | g, est ration. expos.
+3.l.10.10 | l π ab 2|2 □.g π □.de
+3.l.10.10 | ab π | cb, / □.de π | □.ef,
+symp. | Req. est df.
 
-Req. π. demonstr.
+Præpar.
 
-ag, ge, ae snt incomm. ꝗe,
-□.om, incōm. □.mp.
-
-Demonstr.
-
-ε.19.10 | ag, incomm. ge,
-1.concl. 17.10 | ag, ge, ae snt incomm. ꝗe,
-1.6, & 10.10 | ▭ah, incomm. ▭gi,
-constr. | □lm 2|2 ▭ah,
-constr. | □mn 2|2 ▭gi,
-2 concl. 10.10 | □.om, incōm. □.mp.
-
-## THEOR. XXVII. PROPOS. LV.
-
-Si spatium contineatur sub rationali, & ex binis nominibus prima; recta linea spatium potens irrationalis est, quæ ex binis nominibus appellatur.
-
-*Si vn espace est contenu sous vne ligne rationelle, & vn binome premier; la ligne droicte pouuant iceluy espace est irrationelle, laquelle est appellee binome.*
-
-Hypoth.
-
-ad, est ▭.ab,ac,
-ab, est ration.
-ac, est binom. 1. α
-ae, ec snt nom;
-ae 3|2 ec.
-
-Req. π. demonstr.
-
-▭ad 2|2 □.binom.
-
-Lemm. 54.10. est præpar.
+14.5 | □.de 3|2 □.ef,
+6.app. | □.de 2|2 □.ef + □.h.
 
 Demonstr.
 
-l.54.10 | ln□.op 2|2 ▭ad,
+ꝑ demonstr. sml. 51.10. df, est binom. & de, ef snt incōm. g,
+
+constr. | ab π | cb, / □.de π | □.ef,
+c.19.5 | ab π ac 2|2 □.de □.h
+constr. | ab π | ac, / n̄, est nr.□ π | nr.□,
+9.10 | de, incomm. h,
+concl. 60.48.1 | df, est binom. 6.
+
+Explicat. ꝑ nr;
+
+arbitr. | g, est 6,
+12.6 | de, est √.48,
+12.6 | ef, est √.28,
+2.a.1 | df, est √.48. + √.28.
+
+## Lemm.
+
+hyp. | ad, est ▭.ab,ac,
+10.1 | ef 2|2 fc,
+s.28.6 | ▭.age 2|2 □.ef, α
+31.1 | gh, ei, fк —— ab,
+14.2 | □lm 2|2 ▭bg,
+2.p.1 | omp, est ——,

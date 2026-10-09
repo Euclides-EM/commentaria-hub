@@ -1,27 +1,30 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-num in illo descriptum ad polygonum simile in hoc descriptum.
+47. 1 | □ac 2|2, ½ □gf,
+9. a. 1 | ⊙abcd 3|2 □.ac,
+1. a. c | ⊙abcd 3|2, ½ □gf,
+2.l.1.12 | △mne 3|2 azim + ixbn, &c.
+2 concl. 1. 10 | aggreg. azim + ixbn, &c. 2|2 r,
 
-*D'icy s'ensuit que comme le cercle est au cercle, ainsi le polygone descrit en celuy-là est au polygone semblable descrit en cestuy-cy.*
+## THEOR. II. PROPOS. II.
 
-## THEOR. III. PROPOS. III.
+Circuli inter se sunt, quemadmodum à diametris quadrata.
 
-Omnis pyramis triangularem habens basin, diuiditur in duas pyramides æquales, & similes inter se, triangulares habentes bases, & similes toti; & in duo prismata æqualia, quæ duo prismata majora sunt dimidio totius pyramidis.
+*Les cercles sont l'vn à l'autre comme les quarrez de leurs diametres.*
 
-*Toute pyramide ayant la base triangulaire se peut diuiser en deux pyramides egales & semblables entre elles, ayans les bases triangulaires & semblables à la toute; & en deux prismes egaux, lesquels deux prismes sont plus grands que la moitié de toute la pyramide.*
-
-[Figure: labels arranged A / H G / E / Ɔ K / I / B F C]
+[Figure: labels arranged A / K V P E / L O / Q / B D F H / I / K / S T / M N / C G]
 
 Hypoth.
 
-abdc, est pyram. propos.
+abt & efn snt ⊙,
+ac & eg snt diametr;
 
-Præpar.
+Req. π. demonstr.
 
-10. 1 | ae 2|2 eb, bf 2|2 fd, dg 2|2 ga, ah 2|2 hc, bi 2|2 ic, dk 2|2 kc,
-1. p. 1 | ef, fg, eg, ei, if, fк, кg, gh, he snt ——;
+□.ac π □.eg 2|2 ⊙abt π ⊙efn.
 
 Demonstr.
 
-2.6, & 29. 1 | abd, aeg, ebf, fdg, hiк snt △ æquiang. ꝗe,
-26. 1 | aeg, ebf, fdg, hiк snt △ 2|2 ꝗe,
+suppos. | □.ac π □.eg 2|2 ⊙abt π plan. i, α
+suppos. | i + к 2|2 ⊙efn, β
+3.l.1.12 | aggreg.. D ; gm + mf + fl + le + eo + oh + hn + ng 2|3 к,

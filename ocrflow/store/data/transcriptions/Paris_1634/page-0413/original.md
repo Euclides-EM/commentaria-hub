@@ -1,47 +1,53 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-29.1 | Δagb, Δheb, Δhfa snt æquiang.
-4.6 | ag π gb 2|2 hf π fa,
-4.6 | gb π gk 2|2 lf π fh,
-23.5 | ag π gk 2|2 lf π fa, ε
-α.1.6 | □.ag π ▭.agk u ▭.bgc 2|2 ag π gk u lf π fa,
-β.1.6 | ▭.lfa u ▭.dfh π □.fa 2|2 lf π fa,
-concl. 11.5 | □.ag π ▭.bgc 2|2 ▭.dfh π fa.
+16.6 | cf π fh 2|2 ge π eb,
+17. & 18.5 | ch π hf 2|2 gb π be,
+concl. 16.5 | ch π gb 2|2 hf π be,
 
-## THEOR. XVII. PROPOS. XXVIII.
+## THEOR. XV. PROPOS. XXVI.
 
-Pappus lib. 7. propos. 28.
+Snelius in Cyclometria.
 
-[Figure: cercle auec les poincts G, F, A, B, D, E, C]
+[Figure: demicercle auec les poincts D, C, A, E, F, G, B, H]
 
 Hypoth.
 
-abc & ade snt Δ,
+eadcb est semic.
 
-<bac + <dae 2|2, 2⌐
+◠dc 2|2 ◠cb,
 
-Req. π. demonstr.
+abh est —,
 
-▭.bcd π ▭.bed,
-
-□.ac π □.ae,
+ad, af, bh snt 2|2 ʒe,
 
 Præpar.
 
-5.4 | adb est ⊙,
-2.p.1 | cag & eaf snt —,
-1.p.1 | bf & gf snt —.
+1.p.1 | dc, cb, ce, cf snt —
+10.1 | fg 2|2 gb,
+1.p.1 | cg, db, ac, ch snt —
+
+Req. π. demonstr.
+
+□.bc 2|2 ▭.ebf,
+
+□.ac 2|2 ▭.hae,
+
+▭.ac,fb 2|2 ▭.bc,bd,
 
 Demonstr.
 
-13.1 | <bac + <bag 2|2, 2⌐
-hyp. | <bac + <dae 2|2, 2⌐
-3.a.1 | <bag 2|2 <dae,
-s.22.3 | <dbf 2|2 <dae,
-1.a.1 | <dbf 2|2 <bag,
-21.3 | <bfg 2|2 <bag,
-1.a.1 | <dbf 2|2 <bfg,
-27.1 | bd == gf,
-29.1 | Δ.gaf æquiāg. Δaec,
-c.4.6 | ga π ac 2|2 fa π ae,
-18.5 | gc π ac 2|2 fe π ae,
+hyp. | ◠dc 2|2 ◠cb,
+29.3 | dc 2|2 cb,
+27.3 | <caf 2|2 <cad,
+hyp. | af 2|2 ad,
+4.1 | cf 2|2 cd u cb, α
+constr. | fg 2|2 gb,
+8.1 | <cgf 2|2 <cgb, β
+10.d.1 | cg ⊥ ab,
+α.5.1 | <ecb, <ebc, <cfb snt 2|2 ʒe,
+32.1 | Δebc æquiāg. Δcfb,
+4.6 | eb π bc 2|2 bc π bf,
+1.concl. 17.6 | ▭.ebf 2|2 □.bc,
+pyh. | af 2|2 bh,
+constr. | fg 2|2 gb,
+2.a.1 | ag 2|2 gh,

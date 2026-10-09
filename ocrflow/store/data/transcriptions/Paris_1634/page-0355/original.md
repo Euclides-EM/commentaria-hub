@@ -1,39 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-## COROLL.
+æquale est ei, quod sub mediis, comprehenditur, rectangulo. Et si sub extremis comprehensum rectangulum æquale fuerit ei, quod sub mediis continetur, rectangulo : illæ quatuor rectæ lineæ proportionales erunt.
 
-Ex posteriori huius demonstrationis parte efficitur, quamlibet rectam lineam esse mediam proportionalem inter quasuis alias duas rectas, quæ comprehendunt rectangulum quadrato illius æquale.
+Si quatre lignes droictes sont proportionelles, le rectangle contenu sous les extremes, est egal au rectangle contenu sous les moyennes : Et si le rectangle contenu sous les extremes est egal au rectangle contenu sous les moyennes, icelles quatre lignes droictes seront proportionelles.
 
-De la derniere partie de ce theoreme, il s'ensuit que toute ligne droicte est moyenne proportionelle entre deux autres quelconques lignes droictes, qui contiennent vn rectangle egal au quarré d'icelle.
+[Figure: lignes A—B, F—G, E—B, C et rectangles A, D, C, B, E ; H, G, F]
 
-## PROBL. VI. PROPOS. XVIII.
+Hypoth. 1.
 
-A data recta linea dato rectilineo simile, similiterque positum rectilineum describere.
+ab π fg 2|2 ef π cb.
 
-Sur vne ligne droicte donnee, descrire vne figure rectiligne semblable, & semblablement posee à vne figure rectiligne donnee.
+Req. π. demonstr.
 
-[Figure: quadrilatere A, G, H, B et quadrilatere C, E, F, D]
-
-Hypoth.
-
-ab est — D.
-cefd est rectil. D.
-
-Req. π. fa.
-
-abhg, sml. cefd,
-ab homolog. cd,
-
-Constr.
-
-1.p.1 | cf est —,
-20.d.1 | cfe & cfd snt Δ,
-23.1 | <abh 2|2 <d,
-23.1 | <bah 2|2 <dcf,
-23.1 | <ahg 2|2 <cfe,
-23.1 | <hag 2|2 <fce.
+▭.ab,cb 2|2 ▭.fg,ef u ▭ac 2|2 ▭eg.
 
 Demonstr.
 
-constr. | <b 2|2 <d,
-constr. | <bah 2|2 <dcf,
+constr. | <b 2|2 <f,
+hyp. | ab π fg 2|2 ef π cb,
+1.concl. 14.6 | ▭ac 2|2 ▭eg.
+
+Hypoth. 2.
+
+▭ac 2|2 ▭eg.
+
+Req. π. demonstr.
+
+ab π fg 2|2 ef π cb.
+
+Demonstr.
+
+hyp. | ▭ac 2|2 ▭eg,
+12.a.1 | <abc 2|2 <efg,
+2.concl. 14.6 | ab π fg 2|2 ef π cb.
+
+## THEOR. XII. PROPOS. XVII.
+
+Si tres rectæ lineæ sint proportionales : quod sub

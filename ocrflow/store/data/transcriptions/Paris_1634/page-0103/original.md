@@ -1,45 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-COROLL.
+De cette proposition s'ensuit que tout triangle qui a vn angle droict ou obtus, a les autres aigus.
 
-Sequitur ex hac propositione omnium rectarum ex quouis puncto ad rectam quamcumque ductarum, eam quæ perpendicularis est esse minimam.
+COROLL. II.
 
-Il s'ensuit de cette proposition, que si de quelconque poinct on tire sur vne ligne droicte tant de lignes droictes qu'on voudra, l'vne desquelles soit perpendiculaire, icelle perpendiculaire sera la plus petite de toutes.
+Sequitur etiam si linea recta cum alia recta angulos inæquales faciat vnum acutum & alterum obtusum, lineam perpendicularem ex quouis eius puncto ad aliam illam demissam cadere ad partes anguli acuti.
 
-[Figure: triangle ABC, poinct A en haut, ligne AD perpendiculaire sur BC, D entre B et C]
+Il s'ensuit außi que si vne ligne droicte faict deux angles inégaux auec vne autre ligne droicte, l'vn obtus & l'autre aigu, que la ligne perpendiculaire tirée de quelconque poinct d'icelle sur cette autre ligne, tombera de la part de l'angle aigu.
+
+[Figure: triangle rectangle, poinct A en haut, ligne C—E—D en bas, lignes AC, AE, AD]
 
 Hypoth.
 
-ad ⊥ bc,
+<aed 2|3 ∟,
+a est • ⟨n ae,
 
 Req. π. demonstr.
 
-ad 2|3 ab & ac,
+ac,n. est ⊥ cd.
 
 Demonstr.
 
-hyp. | <adb est ∟,
-1.c.17.1. | <b 2|3 ∟,
-12.d.1. | <b 2|3 <adb,
-19.1. | ad 2|3 ab, α
-d. α | ad 2|3 ac.
+suppos. | ac ⊥ cd,
+10.d.1. | <ace est ∟,
+hyp. | <aec. 3|2. ∟,
+4.a.b. | <ace + <aec 3|2 2∟,
+| cont. 17. 1.
 
-## THEOR. XIII. PROPOS. XX.
+COROLL. III.
 
-Omnis trianguli duo latera reliquo sunt maiora, quomodocunque assumpta.
+Pari ratione fit ex hac propositione manifestum omnes angulos trianguli æquilateri & duos angulos trianguli isoscelis supra basim esse acutos.
 
-De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'ils soient pris.
+Semblablement il est manifeste de cette proposition, que tous les angles d'vn triangle equilateral & deux angles sur la base d'vn triangle isoscele sont aigus.
 
-[Figure: triangle ABC, costé BA prolongé vers D en haut, ligne DC]
+## THEOR. XI. PROPOS. XVIII.
 
-Hypoth.
-
-abc est △.
-
-Req. π. demonstr.
-
-ba + ac 3|2 bc.
-
-Præpar.
-
-2.p.1. | bad est —,
+Omnis trianguli maius latus maiorem angulum subtendit.

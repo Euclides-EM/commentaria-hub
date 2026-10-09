@@ -1,32 +1,26 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-β | g, 2, 3, 4 | 3 e,
-| h, 2, 3, 4 | 3 f,
-concl. 6.d.5 | b π a 2|2 d π c.
+hypoth. | hiua, multipl.. b, 2|2, lm, uc, multipl.. d,
+concl. β.2.5 | ei, multipl.. b, 2|2, fm, multipl.. d.
 
-## THEOR. V. PROPOS. V.
+## THEOR. IV. PROPOS. IV.
 
-Si magnitudo magnitudinis æquè fuerit multiplex, atque ablata ablatæ : Etiam reliqua reliquæ, ita multiplex erit, vt tota totius.
+Si prima ad secūdam eandem habuerit rationem, & tertia ad quartam : etiam æquè multiplices primæ & tertiæ, ad æquè multiplices secundæ & quartæ, iuxta quamuis multiplicationem, eandem habebunt rationem, si prout inter se respondent, ita sumptæ fuerint.
 
-Si vne grandeur est autant multiple d'vne grandeur, que la retranchée l'est de la retranchée ; aussi le reste sera autant multiple du reste comme la toute l'est de la toute.
+Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme, aussi les equimultiples de la premiere & de la troisiesme auront mesme raison aux equimultiples de la seconde & de la quatriesme, selon quelque multiplication que ce soit, si elles sont prises ainsi qu'elles s'entre respondent.
 
 Hypoth.
 
-[Figure: ligne G—A—E—B et ligne C—F—D]
+a π b 2|2 c π d,
+e, multipl.. a, 2|2 f, multipl.. c,
+g, multipl.. b, 2|2, h, multipl.. d.
 
-ab multipl.. cd 2|2 ae multipl.. cf.
+[Figure: lignes verticales I—E—A—B—G—L et K—F—C—D—H—M]
 
 Req. π. demonstr.
 
-eb multipl.. fd 2|2 ab multipl.. cduae multipl.. cf.
+e π g, 2|2, f π h.
 
-Demonstr.
+Præpar.
 
-suppos. | ga multipl.. fd 2|2 ab multipl.. cduae multipl.. cf,
-1.5 | ge multlpl.. cd 2|2 ae multipl.. cf,
-hyp. | ab multipl.. cd 2|2 ae multipl.. cf,
-a.5 | ge multipl.. cd 2|2 ab multipl.. cd,
-6.a.1 | ge 2|2 ab,
-| ae commum. subtr.
-3.a.1 | ga 2|2 eb,
-concl. 6.a.d | eb multipl.. fd 2|2 ga multipl.. fduab multipl.. cd.
+i, multipl.. e, 2|2, k, multipl.. f, α

@@ -1,38 +1,31 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-B C A D (rectangle)
+F G E (lines) A B D C (triangle) H
 
-Hypoth.
-
-ab, est ration.
-bc, est irration.
-Req. π. demonstr.
-▭db, est irration.
+symp. | Req. snt bc & h.
 
 Demonstr.
 
-suppos. | ▭.db, est ration.
-hyp. | ab, est ration.
-21.10 | bc, est ration.
-contr. hypoth.
+1.concl. 36.10 | bc, est medi.
+α.17.6 | ▭.ba,ac 2|2 □.h,
+36.10 | ▭.ba,ac, est medi.
+2 concl. 24.10 | h, est medi.
+36.10 | ▭.ba,ac, incomm. □.bc,
+3.concl. 14.10 | □.h, incomm. ▭.ba,ac.
 
-## THEOR. XXVII. PROPOS. XXXIX.
+## PRINCIPIVM SENARIORVM per compositionem.
 
-Si duæ mediæ potentia tantùm commensurabiles componantur, quæ medium contineant ; tota irrationalis erit : vocetur autem ex binis mediis secunda.
+*ICY COMMENCENT LES sixaines des lignes irrationelles par la composition.*
 
-*Si deux lignes mediales commensurables en puissance seulement contenāt vn rectangle medial, sont composees; la toute sera irrationnelle : & soit icelle appellee seconde de deux mediales.*
+## THEOR. XXV. PROPOS. XXXVII.
 
-A B C (lines) D H E G F (rectangle)
+Si duæ rationales potentia tantùm commensurabiles componantur, tota irrationalis erit; vocetur autem ex binis nominibus.
+
+*Si deux rationelles commensurables en puissance seulement sont composees; la toute sera irrationelle; soit icelle appellée de deux noms.*
+
+A B C (line)
 
 Hypoth.
 
-ab & bc snt medi. comm. ꝗn □,
-▭.abc, est medi.
+ab & bc snt ration; comm. ꝗn □.
 Req. π. demonstr.
-ac, est irration.
-
-Præpar.
-
-suppos. | de, est ration. expos.
-4.app. | ▭.df 2|2 □.ac, α
-4.app. | ▭.dg 2|2 □.ab / + □.bc, β

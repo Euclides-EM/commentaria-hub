@@ -1,41 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-λ.2c.20 d.7 | e, msur: f,
-contr. suppos. μ
-2.concl. 21.a.1 | e, est mi. commun. diuidu.. a & b.
+## SCHOL.
 
-## COROLL.
+Ex his facili via reperiemus duos minimos numeros, qui eandem habeant proportionem, quam quotcunque numeri dati continuè proportionales.
 
-Hinc sequitur, si duo numeri multiplicent minimos eandem rationem habentes, maior minorem, & minor maiorem, produci numerum minimum, quem illi metiuntur.
+*Par ce que dessus, nous pouuons trouuer les deux plus petits nombres qui sont en mesme raison, que tant de nombres qu'on voudra continuellement proportionaux.*
 
-*D'icy il s'ensuit que si deux nombres multiplient les plus petits ayans la mesme raison, le plus grand le plus petit & le plus petit le plus grand, le produit sera le plus petit nombre qu'iceux mesurent.*
-
-## THEOR. XXXIII. PROPOS. XXXVII.
-
-Si duo numeri numerū quempiā metiantur: etiam minimus, quem illi metiuntur, eundem metietur.
-
-*Si deux nombres mesurēt quelque autre nombre: le plus petit qu'ils mesurent, mesurera aussi le mesme nombre.*
-
-A..2 B..3
-C----F---D
-E.......6
+A,16. B,24. C,36. D,54. E,81.
+H,8.
+F,2. G,3.
 
 Hypoth.
 
-a & b msur: cd,
-e, est mi. c. diuidu.. a & b.
+a,b,c,d,e snt contin. proport.
 
-Req. π. demonstr.
+Req. snt mi. nr.. raō.
 
-e, msur: cd.
+a π b, u b π c.
 
-Demonstr.
+Constr.
 
-suppos. | e, msur: cf,
-suppos. | fd est 2|3 e, α
-hyp. | a & b msur: e,
-11.a.7 | a & b msur: cf,
-hyp. | a & b msur: cd,
-12.a.7 | a & b msur: fd,
-α | e, n̄ est mi. c. diuidu.. a & b.
-contr. hyp.
+3.7 | h, est ma.c.me.. a & b,
+suppos. | h, msur: a ꝑ f,
+suppos. | h, msur: b ꝑ g,
+35.7 | f & g snt nr. req.
+
+## PROBL. IV. PROPOS. XXXVI.
+
+Duobus numeris datis, reperire quem illi minimum metiantur, numerum.
+
+*Deux nombres estans donnez, trouuer le plus petit nombre, qu'ils mesurent.*
+
+A.....4 B......5
+C,20.
+D--------
+E--- F---
+
+Hypoth.
+
+a & b snt nr. D.
+
+Req. est mi.c.diuidu.. a & b.

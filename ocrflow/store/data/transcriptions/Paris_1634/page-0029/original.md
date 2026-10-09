@@ -1,29 +1,27 @@
-<!-- Running title: EXPLICATION DES CITATIONS. -->
+<!-- Running title: EXPLICATION DES NOTES. -->
 
-5d 48.10 { Quinta definitio quadragesimæ octauæ decimi libri. / Cinquiesme definition de la quarante-huictiesme du dixiesme liure.
+a 2|2 ⅔b { A est æqualis duabus tertiis B. / A est égale aux deux tiers de B.
 
-1.d.d. { Prima definitio datorum. / Premiere definition des dates.
+▭.a,b, Ⅱ ▭.ab { Numerus planus qui fit ductu A in B. / Le nombre plan qui s'engendre en multipliant A par B.
 
-2. d. { Secunda propositio datorum. / Seconde proposition des dates.
+solid. abc { Numerus solidus qui gignitur ex continua multiplicatione numerorum A, B, C. / Le nombre solide qui s'engendre en multipliant continuëmët les nöbres A, B, C, l'vn par l'autre.
 
-1.p.1 { Primum postulatum primi libri. / Premier postulat du premier liure.
+a & b snt 2|2 ⟨e { A & B sunt æquales inter se. / A & B sont égales entr'elles.
 
-1.a.1 { Primum axioma primi libri. / Premier axiome du premier liure.
+Req. π. fa. { Requisitum, vel quæsitum ad faciendum. / Requis à faire.
 
-3.a.1 { Tertium axioma primi. / Troisiesme axiome du premier.
+a π b 2|2 c π d { A est ad B vt C ad D. / A est à B comme C à D.
 
-3.1 { Tertia primi. / Troisiesme du premier.
+a π b 2|2 c π d { vt A ad B ita C ad D. / comme A est à B ainsi C est à D.
 
-c.17.1 { Corollarium decimæ septimæ primi. / Corollaire de la dix-septiesme du premier.
+Vel sic, ou ainsi.
 
-c.15d7 { Corollarium 15 definitionis 7 libri. / Corollaire de la 15 definition du 7 liure.
+a π |b
+c π |d
+A est ad B vt C ad D. / A est à B comme C à D.
 
-2c.15.1 { Secundum corollarium decimæ quintæ primi. / Second corollaire de la quinziesme du premier.
+a π b 3|2 c π d { A ad B habet maiorem rationem quàm C ad D. / A à B a plus grande raison que C à D.
 
-s.26.3 { Scholium 26 tertij. / Scholie de la 26 du troisiéme.
+a π b 2|3 c π d { A ad B habet minorem rationem quàm C ad D. / A à B a plus petite raison que C à D.
 
-3s.1d.2 { Tertium scholium primæ definitionis secundi. / Troisiesme scholie de la premiere definition du second.
-
-38 app. { Trigesima octaua appendicis. / Trente-huictiesme de l'appendix.
-
-l.54.10 { Lemma quinquagesimæ quartæ decimi. / Lemme de la cinquante-quatriesme du dixiesme.
+4 π 6 2|2 10 π 15 { 4 est ad 6 vt 10 ad 15. / 4 est à 6 comme 10 à 15.

@@ -1,38 +1,29 @@
-<!-- Running title: ELEM.. EVCLID. LI. V. -->
+<!-- Running title: ELEM.. EVDLID. LI. V. -->
 
-antecedentis ad antecedentem, velut ad consequentem.
+Ratio A ad C est duplicata rationis A ad B, vel æqualis duab. rationibus A ad B.
 
-cedent, pour le comparer à l'antecedēt, comme si c'estoit le consequent.
+Ratio A ad D est triplicata rationis A ad B, vel æqualis tribus rationibus A ad B.
 
-A, 6. B, 4. C, 12. D, 8.
+Ratio A ad E est quadruplicata rationis A ad B, vel ęqualis quatuor rationib. A ad B.
 
-hyp. | a π b 2|2 c π d,
-c.4.5 | b π a 2|2 d π c.
+La raison de A à C est doublée de la raison de A à B, ou égale à deux raisons de A à B.
 
-## DEFINIT. XIV.
+La raison de A à D est triplée de la raison de A à B, ou égale à trois raisons de A à B.
 
-Compositio rationis, est sumptio antecedentis cum consequente, ceu vnius ad ipsam consequentem.
+La raison de A à E est quadruplée de la raison de A à B, ou égale à quatre raisons de A à B.
 
-Composition de raison, est quand on prend l'antecedent auec le consequent, comme vn, pour le comparer au mesme consequent.
+## SCHOL.
 
-A, 6. B, 4. C, 12. D, 8.
+Eadē ratione si sint quotcumque magnitudines continuè proportionales ratio primæ ad quartam est sesquialtera rationis primæ ad tertiam, quòd sint tres rationes inter primā & quartam & duæ tantùm inter primam & tertiam.
 
-hyp. | a π b 2|2 c π d,
-18.5 | a+b π b 2|2 c+d π d.
+Item ratio primæ ad quintam est sesquitertia rationis primæ ad quartam, &c.
 
-## SCHOL. I.
+Pour la mesme raison s'il y a tant de grandeurs qu'on voudra continuellement proportionnelles, la raison de la premiere à la quatriesme est sesquialtere de la raison de la premiere à la troisiesme, à cause qu'il y a trois raisons entre la premiere & la quatriesme, & deux seulement entre la premiere & troisiesme.
 
-Compositio rationis conuersa, est sumptio antecedentis cum consequente, ceu vnius ad ipsam antecedentem.
+Pareillement la raison de la premiere à la cinquiesme est sesquitierce de la raison de la premiere à la quatriesme, &c.
 
-Composition de raison conuerse, est prendre l'antecedent auec le consequent, comme vn, pour le comparer à l'antecedent.
+## DEFINIT. XI.
 
-A, 6. B, 4. C, 12. D, 8.
+Homologæ seu similes ratione magnitudines
 
-hyp. | a π b 2|2 c π d,
-1.s.18.5 | a+b π a 2|2 c+d π c.
-
-## SCHOL. II.
-
-Compositio rationis contraria, est sumptio antece-
-
-Composition de raison contraire, est prendre l'antecedent,
+Les grandeurs sont dites homologues, ou de sembla-

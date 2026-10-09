@@ -1,43 +1,39 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-Demonstr.
+Hypoth.
 
-hyp. 1 concl. | abc π efgh, Ⅱ lmn 2|2 alt. i, Ⅱ k π alt. d,
-β. 9. 12 | pyram. abcd 2|2 pyram. lmnк, Ⅱ efghi. δ
-
-Hypoth. 3.
-
-pyram. abcde 2|2 pyram. fghikl.
+abcd & efgh ſnt pyram; propoſ; 2|2 ꝗe,
+△abc & △efg ſnt baſ;
 
 Req. π. demonstr.
 
-abcd π fghik 2|2 alt. l π alt. e.
-
-Præpar.
-
-1. app. | △mno 2|2 baſ. fghik, ε
-constr. | alt. p 2|2 alt. l, ε
-
-[Figure: labels arranged E L P / D C K I H O / A B F G M N]
+baſ. abc π baſ. efg 2|2 alt.. ●h π alt.. ●d.
 
 Demonstr.
 
-c. 6. 12 3. concl. | pyram. mnop 2|2 pyram. fghikl, Ⅱ abcde, ε
-γ | abcde π mno, Ⅱ fghik 2|2 alt. p, Ⅱ l π alt. e.
+ꝑ præpar. & demonstr.. præceden. propoſ.
+◇piped. abicdmkl 2|2, 6 pyram; abcd, α
+item, ◇piped. efnghqop 2|2, 6 pyram; efgh, α
+6. a. 1 | ◇piped. abicdmkl 2|2 ◇piped. efnghqop,
+15. 5 | △abc π △efg 2|2 ◇ abic π ◇ efng,
+34. 11 | ◇ abic π ◇ efng 2|2 alt.. ●h π alt.. ●d,
+concl. 1. 5 | △abc π △efg 2|2 alt.. ●h π alt.. ●d.
 
-Hypoth. 4.
+Hypoth. 2.
 
-abcd π fghik 2|2 alt. l π alt. e.
+△abc π △efg 2|2 alt.. ●h π alt.. ●d. β
 
 Req. π. demonstr.
 
-pyram. abcde 2|2 pyram. fghiкl.
+pyram. abcd 2|2 pyram. efgh.
 
 Demonstr.
 
-ε. hyp. 4concl. | abcd π fghik, Ⅱ mno 2|2 alt. l, Ⅱ p π alt. e,
-δ | abcde 2|2 mnop, Ⅱ fghikl.
+15. 5 | ◇abic π ◇efng 2|2 △abc π △efg,
+β. 11. 5 | ◇abic π ◇efng 2|2 alt. h● π alt. ●d,
+34. 11 | ◇piped. abicdmkl 2|2 ◇piped. efnghqop,
+concl. α. 7. a. 1 | pyram. abcd 2|2 pyram. efgh.
 
 ## SCHOL.
 
-Omnia hæc facilè quoque demonstrabuntur conuenire prismatis quibuscunque. Nam si prismata fuerint æqualia, erūt | *Que toutes ces choses conuiennent außi à tout prisme, il sera facile de demonstrer: Car si les prismes sont egaux, les pyramides de*
+Constat etiam æqualium pyramidum, quarum bases non sunt triangulares, reciprocari bases atque altitudi-

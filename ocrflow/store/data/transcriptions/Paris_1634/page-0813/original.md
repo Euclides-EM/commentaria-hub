@@ -1,28 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-1.concl. 11. 5 | alt. md π alt. la 2|2 baſ. bc π baſ. ef.
-
-Hypoth. 2.
-
-alt. dm π alt. al 2|2 baſ. bc π baſ. ef.
-
-Req. π. demonstr.
-
-cylindr. bh 2|2 cylindr. eк.
-
 Demonstr.
 
-cylindr. eк π cylindr. eq, α / 14. 12 | alt. dm π alt. om, Ⅱ al / hyp. | baſ. bc π baſ. ef / 11. 12 | cylindr. bh π cylindr. eq, α, ſnt raō; 2|2 ꝗe,
-2 concl. α. 9 5 | cylindr. eк 2|2 cylindr. bh.
+c. 11. 12 | cylindr. an 2|2 cylinr. af,
+c. 11. 12 | bf, bo, op ſnt cylindr. 2|2 ꝗe,
+15. 5 | cylindr. en multipl.. cylindr. ed 2|2 iк multipl.. ig,
+15. 5 | cylindr. pf multipl.. cylindr. bf 2|2 im, multipl.. ih,
+c. 11. 12 | iк, 2, 3, 4 / 3, im,
+cylindr. em 2, 3, 4 / 3, cylindr. fp,
+concl. 6. d. 5 | cylindr. aefd π cylindr. ebcf 2|2 gi π ih.
 
-Demonstratio conorum fiet eodem modo constructis conis EFO & PQD sub altitudinibus MO vel AL & OD. | *La demonstration des cones se fera par la mesme methode en construisant les cones EFO & PQD sous les hauteurs MO ou AL & OD.*
+## THEOR. XIV. PROPOS. XIV.
 
-## PROBL. I. PROPOS. XVI.
+Super æqualibus basibus existentes coni, & cylindri, inter se sunt vt altitudines.
 
-Duobus circulis circa idem centrum existentibus in majori circulo polygonum æquilaterum, & parium laterum inscribere, quod non tangat minorem circulum.
-
-*Deux cercles inegaux estans à l'entour d'vn mesme centre; inscrire au plus grand cercle vn polygone equilateral, ayant le nombre des costez pair, & lequel ne touche point le plus petit cercle.*
+*Les cones & cylindres constituez sur bases egales, sont entr'eux comme leurs hauteurs.*
 
 Hypoth.
 
-mabcg & mdef ſnt ⊙;
+ah & cк ſnt cylindr;
+abe & cdf ſnt con;
+baſ; ab & cd ſnt ⊙ 2|2 ꝗe,
+me & nf ſnt alt;
+
+[Figure: labels arranged G E H / A M B F K / O L P C N L]
+
+Req. π. demonstr.
+
+alt. me π alt. nf / cylindr. ah π cylindr. cк / con. abe π con. cdf, ſnt raō. 2|2 ꝗe,
+
+Præpar.
+
+2. p. 1 | gao & hbp ſnt ——,

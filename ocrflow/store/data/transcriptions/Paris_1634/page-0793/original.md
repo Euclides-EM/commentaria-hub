@@ -1,23 +1,25 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-2 concl. 24. 5 | abcde π ghi 2|2 abcdef π ghiк, δ
+altitudinem: Et pyramides triangulares æquales eandemque habentes altitudinem, bases habere æquales, si non eandem habuerint.
 
-[Figure: labels arranged F L / A / E G K / B / C DH I]
+*D'icy il aduient que les pyramides de mesme hauteur constituees sur mesme base, ou bases egales triangulaires sont egales entr'elles.*
 
-γ | abcd π ghiк 2|2 abcdf π ghikl,
-δ | ade π ghiк 2|2 adef π ghikl,
-3 concl 24. 5 | abcde π ghiк 2|2 abdef π ghiкl.
+*Il s'ensuit au contraire que les pyramides triangulaires egales, constituees sur vne mesme base ou bases egales, sont de mesme hauteur: Et que les pyramides triangulaires egales ayant mesme hauteur, ont bases egales ou vne mesme.*
 
-## COROLL.
+## THEOR. VI. PROPOS. VI.
 
-Perspicuum quoque inde efficitur, pyramides eiusdem altitudinis super æquales bases multangulas, vel eandem constitutas, esse inter se æquales.
+Sub eadem altitudine existentes pyramides, & polygonas habentes bases, inter se sunt vt bases.
 
-Rursus contrà fit, pyramides multangulas æquales, & super æquales bases, vel super eandem constitutas, eandem habere altitudinem: Et pyramides multangulas æquales, eandémque habentes altitudinem, æquales habere bases, si non habuerint eandem.
+*Les pyramides qui sont de mesme hauteur, & ayans les bases polygones, sont l'vne à l'autre comme leurs bases.*
 
-*Il est außi manifeste de là, que les pyramides de mesme hauteur constituees sur bases egales multilateres ou sur vne mesme, sont egales entr'elles.*
+[Figure: labels arranged F M / A G / E L / B H / C D I K]
 
-*Derechef il s'ensuit au contraire que les pyramides multilateres egales, & constituees sur bases egales, ou vne mesme, ont mesme hauteur: Et que les pyramides multilateres egales ayant mesme hauteur, ont les bases egales, si elles n'ont la mesme.*
+Hypoth.
 
-## THEOR. VII. PROPOS. VII.
+abcdef & ghiкlm snt pyram;
+abcde & ghikl snt bas;
+alt.. f 2|2 alt.. m,
 
-Omne prisma triangularem habens basim, di-
+Req. π. demonstr.
+
+abcdef π ghiкlm 2|2 abcde π ghiкl.

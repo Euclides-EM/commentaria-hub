@@ -1,38 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-Les grandeurs égales ont mesme raison à vne mesme grandeur, & vne mesme grandeur a mesme raison aux égales.
+β | g, 2, 3, 4 | 3 e,
+| h, 2, 3, 4 | 3 f,
+concl. 6.d.5 | b π a 2|2 d π c.
 
-[Figure: lignes A, C, B et D, F, E]
+## THEOR. V. PROPOS. V.
 
-hypoth. | a 2|2 b.
+Si magnitudo magnitudinis æquè fuerit multiplex, atque ablata ablatæ : Etiam reliqua reliquæ, ita multiplex erit, vt tota totius.
 
-Req. π demonstr.
+Si vne grandeur est autant multiple d'vne grandeur, que la retranchée l'est de la retranchée ; aussi le reste sera autant multiple du reste comme la toute l'est de la toute.
 
-a π c 2|2 b π c,
-c π a 2|2 c π b.
+Hypoth.
 
-Præpar.
+[Figure: ligne G—A—E—B et ligne C—F—D]
 
-| d, multipl.. | a,
-3.1 | e, multipl.. | b,
-3.1 | f, multipl.. c.
+ab multipl.. cd 2|2 ae multipl.. cf.
+
+Req. π. demonstr.
+
+eb multipl.. fd 2|2 ab multipl.. cduae multipl.. cf.
 
 Demonstr.
 
-6.a.1 | d 2|2 e,
-| d, 2, 3, 4 | 3 f,
-1.a.d | e, 2, 3, 4 | 3 f,
-1.concl. 6.d.5 | a π c 2|2 b π c,
-2.concl. c.4.5 | c π a 2|2 c π b.
-
-## SCHOL. I.
-
-Si loco multiplicis F sumantur duæ æquè multiplices, eodem modo ostendetur, æquales magnitudines ad alias inter se æquales, eandem habere rationem.
-
-Si au lieu de l'equimultiple F on prend deux equimultiples, on demonstrera par la mesme methode que les grandeurs égales ont mesme raison à d'autres grandeurs égales.
-
-## SCHOL. II.
-
-Hinc perspicuum est, si vnitates numerorum, quibus exprimuntur magnitudines, sint eiusdem mensuræ siue quantitatis, eandem esse proportionem magnitudinum, quam numerorum quibus exprimuntur.
-
-De ceste proposition il est manifeste que si les vnitez des nombres, par lesquels les grandeurs sont exprimées, signifient la mesme mesure ou grandeur, les grandeurs seront en mesme proportion que les nombres par lesquels elles seront exprimées.
+suppos. | ga multipl.. fd 2|2 ab multipl.. cduae multipl.. cf,
+1.5 | ge multlpl.. cd 2|2 ae multipl.. cf,
+hyp. | ab multipl.. cd 2|2 ae multipl.. cf,
+a.5 | ge multipl.. cd 2|2 ab multipl.. cd,
+6.a.1 | ge 2|2 ab,
+| ae commum. subtr.
+3.a.1 | ga 2|2 eb,
+concl. 6.a.d | eb multipl.. fd 2|2 ga multipl.. fduab multipl.. cd.

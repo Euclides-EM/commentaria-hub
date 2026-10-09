@@ -1,47 +1,51 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-[Figure: angle en A, poincts D et E sur les costez, F en bas, triangle DEF]
-
-1.1. | def est △ æquilat.
-1.p.1. | af est —,
-symp. | <fad 2|2 <fae
-
-Demonstr.
-
-constr. | ad 2|2 ae,
-| af est commun.
-constr. | df 2|2 ef,
-concl. 8.1. | <fad 2|2 <fae.
-
-CONSTR.. PRA.
-
-hyp. | bac est < D.
-3.p.1. | ade, df, ef, snt ⊙ 2|2 ꝗe, arbitr.
-1.p.1. | af est —,
-symp. | <fab 2|2 <fac.
-
-Demonstr.
-
-8.1. | <fad 2|2 <fae.
-
-[Figure: angle en A, D et E sur les costez, B et C en bas, ligne pointillée AF, arcs s'entrecoupans en F]
-
-## PROBL. V. PROPOS. X.
-
-Datam rectam lineam bifariam secare.
-
-Coupper vne ligne droicte donnée & terminé en deux parties égales.
-
-[Figure: triangle ABC, C au sommet, ligne verticale de C au milieu de AB]
+[Figure: trois triangles sur bases AB, avec poincts C, D au sommet ; au milieu lignes E, F, G, D s'entrecroisant ; à droite C, D au sommet]
 
 Hypoth.
 
-ab est — D.
+abc est △,
+ad 2|2 ac,
+bd 2|2 bc.
 
-Req. π. fa.
+Req. π. demonstr.
 
-ad 2|2 db.
+• d est ⟨n c.
 
-Constr.
+Demonstr.
 
-1.1. | abc est △ æquilat.
+cas. 1. figur.
+
+suppos. | • d est ⟨n ac,
+hyp. | ad 2|2 ac,
+| contr. 9. a. 1.
+
+cas. 2. figur.
+
+suppos. | • d est ⟨ntr. △ acb,
+1.p.1. | cd est —,
+2.p.1. | bdf & bce snt —
+hyp. | ad 2|2 ac
+5.1. | <adc 2|2 <acd, α
+hyp. | bd 2|2 bc,
+5.1. | <ecd 2|2 <fdc,
+9.a.1. | <adc 3|2 fdc,
+1.a.c. | <adc 3|2 <ecd,
+| contr. concl. α.
+
+cas. 3. figur.
+
+suppos. | • d est extr. △ acb,
+1.p.1. | cd est —,
+hyp. | ad 2|2 ac,
+5.1. | <acd 2|2 <adc, β
+hyp. | bd 2|2 bc,
+5.1. | <bcd 2|2 <bdc,
+9.a.1. | <acd 3|2 <bcd,
+1.a.c. | <acd 3|2 <bdc,
+| contr. concl. β.
+21.a.1. | • d est ⟨n c.
+
+## THEOR. V. PROPOS. VIII.
+
+Si duo triangula duo latera habuerint duobus lateribus, vtrumque vtrique æqualia, habuerint verò & basim basi æqualem : Angulum quoque

@@ -1,23 +1,23 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-pta figura. Atque si quiescens recta linea æqualis sit reliquæ, quæ circa rectum angulum cótinetur, orthogonius erit conus: si verò minor amblyonius: si verò major oxygonius.
+ctum constitutis, continetur.
 
-*il a commencé de mouuoir. Et si ledit costé immobile est egal à l'autre costé comprenant l'angle droict, le cone sera rectangle : si plus petit, il sera amblygone : si plus grand, il sera oxygone.*
+*mesme poinct.*
 
-## DEFINIT. XIX.
+## DEFINIT. XII.
 
-Axis autem coni, est quiescens illa linea,circa quam triangulum vertitur.
+Pyramis est figura solida, planis comprehensa, quæ ab vno plano ad vnum punctum constituuntur.
 
-*L'axe du cone est la ligne droicte immobile, à l'entour de laquelle le triangle tourne.*
+*Pyramide est vne figure solide contenuë de plusieurs plans, se rencontrans à vn mesme poinct,estans menez d'vn autre plan, qui est la base de la pyramide.*
 
-## DEFINIT. XX.
+## DEFINIT. XIII.
 
-Basis verò coni est circulus qui à circumducta linea recta describitur.
+Prisma est figura solida, quæ planis continetur, quorum aduersa duo sunt & æqualia, & similia, & parallela,alia vero parallelogramma.
 
-*Mais la base du cone est le cercle descrit par l'autre costé mené à l'entour.*
+*Prisme est vne figure solide contenuë de plans, deux desquels, qui sont opposez,sont egaux,semblables, & paralleles; mais les autres sont parallelogrammes.*
 
-## DEFINIT. XXI.
+## DEFINIT. XIV.
 
-Cylindrus est, quando rectanguli parallelográmi manente vno latere eorum, quæ circa rectum angulum, circumductum parallelogram-
+Sphæra est,quando,semicirculi manente diametro, circumductus semicirculus in se ipsum rursus reuoluitur, vnde moueri cæperat circum assumpta figura.
 
-*Cylindre est vne figure solide cótenuë en la reuolutió d'vn parallelográme rectágle, quád l'vn des costez de ceux qui sót à l'entour d'vn angle droict, demeurát im-*
+*Sphere est vne figure solide contenuë en la reuolution d'vn demy cercle,quand son diametre demeurant immobile,il tourne iusqu'à ce qu'il reuienne au lieu où il a commencé de mouuoir.*

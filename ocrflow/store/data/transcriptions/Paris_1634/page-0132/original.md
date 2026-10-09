@@ -1,40 +1,46 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-[Figure: à gauche triangle B auec base A & l'angle C ; à droicte figure D—E—I en haut, G—F—H au milieu, K—M—L en bas ; diametre K—F—I, lignes E—M & G—H se coupans en F]
+## PROBL. XI. PROPOS. XLII.
 
-fh 2|2 a,
-<mfh 2|2 <c,
+Dato triangulo æquale parallelogrammum constituere in dato angulo rectilineo.
 
-Constr.
+Faire vn parallelogramme égal à vn triangle donné en vn angle rectiligne donné.
 
-44.1. | ◊fd 2|2 △b, & <gfe 2|2 <c,
-2.p.1. | gfh est —,
-3.1. | fh 2|2 a,
-2.p.1. | dei est —,
-31.1. | ihl == ef,
-2.p.1. | dgk & ifk snt —,
-31.1. | kl == gh,
-2.p.1. | efm est —,
-symp. | ◊fhlm est req.
-
-Demonstr.
-
-1.concl. constr. | fh 2|2 a,
-15.1. | <mfh 2|2 <gfe,
-constr. | <c 2|2 <gfe,
-2.cöcl. 1.a.1. | <mfh 2|2 <c,
-43.1. | ◊fl 2|2 ◊fd,
-constr. | △b 2|2 ◊fd,
-3.concl. 1.a.1. | ◊fl 2|2 △b.
-
-## THEOR. XIII. PROPOS. XLV.
-
-Ad datam rectam lineam, dato rectilineo æquale parallelogrammum constituere, in dato angulo rectilineo.
-
-Descrire vn parallelogramme égal à vne figure rectiligne donnée, en vn angle rectiligne donné.
+[Figure: ligne A—F—G en haut, ligne B—E—C en bas ; triangle ABC, lignes poinctées A—E, lignes A—C, F—E, F—C, G—C ; à droicte l'angle D]
 
 Hypoth.
 
-fg est — D.
-abcd est rectilig. D.
-e est < D.
+△abc est D.
+<d est D.
+
+Req. π. fa.
+
+◊ecgf 2|2 △abc.
+<ecg 2|2 <d.
+
+Constr.
+
+31.1. | ag == bc,
+23.1. | <bcg 2|2 <d,
+10.1. | be 2|2 ec,
+31.1. | ef == cg,
+symp. | ◊efgc est req.
+
+Præpar.
+
+1.p.1. | ae est —.
+
+Demonstr.
+
+constr. | ag == bc,
+constr. | be 2|2 ec,
+38.1. | △abc 2|2 2△aec,
+41.1. | ◊eg 2|2 2△aec,
+1.concl. 6.a.1. | ◊eg 2|2 △abc,
+2.concl. constr. | <ecg 2|2 <d.
+
+## THEOR. XXXII. PROPOS. XLIII.
+
+In omni parallelogrammo complementa eorum, quæ circa diametrum sunt parallelogrammorum, inter se sunt æqualia.
+
+En tout parallelogramme, les complements des paral-

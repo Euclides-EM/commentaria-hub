@@ -1,45 +1,38 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-constr. | eb msur: cf,
-11.a.7 | fd msur: cf,
-6.a.7 | fd msur: fd,
-1.concl. 10.a.7 | fd msur: cd,
-constr. | cd msur: ae,
-11.a.7 | fd msur: ae,
-constr. | fd msur: eb,
-2.concl. 10.a.7 | fd msur: ab,
-suppos. | g 3|2 fd,
-suppos. | g, msur: ab & cd, β
-constr. | cd msur: ae,
-11.a.7 | g, msur: ae,
-β | g, msur: ab,
-12.a.7 | g, msur: eb,
-constr. | eb msur: cf,
-11.a.7 | g, msur: cf,
-β | g, msur: cd,
-12.a.7 | g, msur: fd,
-contr. 9.a.b.
-3.concl. 21.a.1 | fd est ma. c.me.. ab & cd.
+### XII.
 
-## COROLL.
+Numerus metiens totum & ablatum, metitur & reliquum.
 
-Ex hoc manifestum est, numerum metientem duos numeros, metiri quoque maximam eorum communem mensuram.
+*Le nombre qui mesure le tout & le retranché, mesure aussi le reste.*
 
-*De ceste demonstration il est manifeste que le nombre qui en mesure deux autres, mesure aussi la plus grande commune mesure d'iceux.*
+D,4. A,20. B,12. C,8.
 
-## PROBL. II. PROPOS. III.
+hyp. | a 2|2 b + c,
+hyp. | d, msur: a,
+hyp. | d, msur: b,
+12.a.7 | d, msur: c.
 
-Tribus numeris datis non primis inter se, maximam eorum communem mensuram reperire.
+## THEOR. I. PROPOS. I.
 
-*Trouuer la plus grande commune mesure de trois nombres donnez, non premiers entr'eux.*
+Si duobus numeris inæqualibus propositis, detrahatur, semper minor de maiore, alterna quadam detractione, neque reliquus vnquam metiatur præcedentem, quoad assumpta sit vnitas : qui principio propositi sunt numeri, primi inter se erunt.
+
+*Si de deux nombres inegaux proposez, on en retranche tousiours alternatiuement le plus petit du plus grand, & que le restant ne mesure iamais sont precedent iusques à ce que l'on ait pris l'vnité ; les nombres proposez au commencement seront premiers entr'eux.*
+
+A.....5F..2G.1B
+C...3H..2D
+E - - -
 
 Hypoth.
 
-a,b,c snt nr. compos.ꝫe,
+ab & cd snt nr. D,
 
-Req. est ma.c.me.. a,b,c.
+cd msur: af,
 
-Constr.
+fb msur: ch,
 
-2.7 | d, est ma.c.me.. a & b,
-2.7 | e, est ma.c.me.. c & d, α
+hd msur: fg,
+
+gb est vnit.
+
+Req. π. demonstr.

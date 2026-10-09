@@ -1,35 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-æquales EFGDL & EFGDK quarum basis communis est quadratum EFGD.
+## COROLL. III.
 
-*L'octaedre est diuisé en deux pyramides semblables & egales EFGDL & EFGDK, ayant pour base commune le quarré EFGD.*
+α2.ſ.7.5 | ab π hi 2|2 6 π 4, Ⅱ 3 π 2.
 
 ## COROLL. IV.
 
-Denique sequitur, bases octaedri oppositas esse inter se parallelas.
+2.ſ.7.5 | □.ab π □.hi 2|2, 36 π 16, Ⅱ 9 π 4.
 
-*Finalement il s'ensuit que les bases opposees de l'octaedre sont paralleles entr'elles.*
+## PROBL. II. PROPOS. XIV.
 
-Demonstr.
+Octaedrum constituere, & sphæra complecti, qua & pyramidem; & demonstrare, quod sphæræ diameter potentia sit dupla lateris ipsius octaedri.
 
-29. d.1 | ed == fg, ek == lg, dk == fl,
-concl. 15. 11 | △fgl == △edк, &c.
+*Descrire vn octaedre, & l'enuironner d'vne mesme sphere que la pyramide, & monstrer que le diametre de la sphere est double en puissance, du costé d'iceluy octaedre.*
 
-## PROBL. III. PROPOS. XV.
-
-Cubum constituere, & sphæra complecti qua & priores figuras; & demonstrare quod sphæræ diameter potentia sit tripla lateris ipsius cubi.
-
-*Descrire vn cube, & l'enuironner d'vne mesme sphere que les precedentes figures; & demonstrer que le diametre de la spere est triple en puissance du costé d'iceluy cube.*
+[Figure: labels arranged H L / F G / B C I / E D / A K]
 
 Hypoth.
 
-ab, eſt diamet. ſphær. D.
+ah, eſt diamet. ſphær. D.
 
 Conſtr.
 
-ſ 10. 6 | bd 2|2, 2ad,
-3. p. 1 | acb, eſt ſemic.
-11. 10 | dc ⊥ ab,
-1. p. 1 | ac & bc ſnt ——,
-3. 1 | ef 2|2 ac,
-46. 1 | efgh, eſt □.ef,
+10. 1 | ab 2|2 bh,
+3. p. 1 | bhca, eſt ſemic.
+1. p. 1 | ac, hc ſnt ——;
+4. 1 | ac 2|2 hc,
+3. 1 | ed 2|2 ac, Ⅱ hc,
+46. 1 | efgd, eſt □.ed,
+1. p. 1 | df, eg ſnt diamet;
+12. 11 | il ⊥ plan.. □efgd,
+3. 1 | il 2|2 ab, Ⅱ bc,
+2. p. 1 | lik, eſt ——,
+3. 1 | ik 2|2 il,
+1. p. 1 | ke, kf, kg, kd / le, lf, lg, ld ſnt ——;
+ſymp. | kefgdl, eſt octaedr.
+
+Demonstr.
+
+conſtr. | ed, ef, ac, ch ſnt 2|2 ꝗe

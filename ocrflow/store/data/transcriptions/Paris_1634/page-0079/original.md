@@ -1,23 +1,23 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### 19. a. 1.
+### 14. a. b.
 
-Omne totum æquale est omnibus suis partibus simul sumptis. | Le tout est egal à toutes ses parties prises ensemble.
+Si punctum sit in duabus rectis, erit in earum intersectione, aut contactu. | Si vn poinct est en deux lignes droictes, il sera en leur intersection, ou attouchement.
 
-[Figure: ligne A—C—D—B]
+### 14. a. c.
 
-hyp. | ac, cd, db, snt part;.ab.
-19.a.1. | ab 2|2 ac + cd + db.
+Si duo puncta sint in vno plano, & recta ipsa connectens est in eodem plano. | Si deux poincts sont en vn mesme plan, la ligne droicte qui les conjoinct sera außi au mesme plan.
 
-Explicat.. not;
+### 15. a. 1.
 
-AC, CD, DB sunt partes AB, per hyp. | AC, CD, DB sont les parties de AB, par l'hyp.
-Igitur AB est æqualis AC, plus CD plus DB, per 19. ax. 1. | Partant AB est egal AC, plus CD, plus DB, par le 19. ax. du premier.
+Si æqualibus inæqualia adiiciantur, erit totorum excessus, adiunctorum excessui æqualis. | Si à choses egales on adiouste choses inegales, l'excez des toutes sera egal à l'excez des adioustées.
 
-### 19. a. b.
+[Figure: ligne A—B—G—E en haut, ligne C—D—F au dessous]
 
-Si totius partes sint inter se æquales, quot erunt partes, totuplex erit totum singularium partium : singulæque partes erunt denominatæ à numero partium totius. | Si les parties d'vn tout sont egales entr'elles, le tout sera autant multiple de chaque partie, qu'il y aura des parties : & chaque partie sera denommée du nombre des parties.
+hyp. | ab 2|2 cd.
+hyp. | ge 2|2 be~df.
+15.a.1. | ge 2|2 ae~cf.
 
-### 20. a. 1.
+### 16. a. 1.
 
-Si totum totius est duplum, & ablatum ablati, erit & reliquum reliqui duplum. | Si vn tout est double d'vn tout, & le retranché du retranché, le reste sera außi double du reste.
+Si inæqualibus æqualia adiungantur, erit totorum excessus, excessui eorum, quæ à principio erant, æqualis. | Si à choses inegales on adiouste choses egales, l'excez des toutes sera egal à l'excez de celles qui estoient au commencement.

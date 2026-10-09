@@ -1,56 +1,59 @@
 <!-- Running title: ELEM.. EVCLID. LI. VIII. -->
 
-A,12. C,18. B,27.
-D,2. E,3. F,6. G,9.
+A,2. B,3. C,4.
+D,6. H,8. F,12.
+E,24. K,24. G,24.
+
+Hypoth. 1.
+
+a, b, c snt nr; D;
+d 2|2 ▭.a,b, α
+e 2|2 ▭.d,c, β
+f 2|2 ▭.c,b, γ
+g 2|2 ▭.f,a, δ
+h 2|2 ▭.a,c, ε
+k 2|2 ▭.h,b. θ
 
 Req. π. demonstr.
 
-a & b snt nr; plan; sml;
-
-Præpar.
-
-35.7 | d & e snt mi; nr; ꝗn raō.. a π c, u c π b.
+e,k,g snt 2|2 ꝫe.
 
 Demonstr.
 
-21.7 | d, msur: a ꝑ f,
-21.7 | e, msur: c ꝑ f,
-21.7 | d, msur: c ꝑ g,
-21.7 | e, msur: b ꝑ g,
-9.a.7 | a 2|2 ▭.d,f,
-16.d.7 | a, est nr. plan.
-9.a.7 | b 2|2 ▭.e,g,
-16.d.7 | b est nr. plan.
-9.a.7 | c 2|2 ▭.e,f,
-9.a.7 | c 2|2 ▭.d,g,
-1.a.1 | ▭.e,f 2|2 ▭.d,g,
-19.7 | d π e 2|2 f π g,
-concl. 21.d.7 | a & b snt nr; plan; sml;
+αγ.17.7 | a π c 2|2 d π f,
+1.concl. δβ.19.7 | ▭.a,f, u g 2|2 ▭.d,c, u e, κ
+γε.17.7 | a π b 2|2 h π f,
+2.concl. δθ.19.7 | ▭.a,f, u g 2|2 ▭.h,b, u k,
+3.concl. κ.1.a.1 | g,e,k snt 2|2 ꝫe. λ
 
-## THEOR. XIX. PROPOS. XXI.
+E,24. F,60.
+A,2. B,3. C,4. D,5.
+G,12.
+K,120. H,120.
 
-Si inter duos numeros duo medij proportionales cadant numeri, similes solidi sunt illi numeri.
+Hypoth. 2.
 
-*Si entre deux nombres tombent deux moyens proportionaux, iceux seront solides semblables.*
-
-A,16. C,24. D,36. B,54.
-E,4. F,6. G,9.
-H,2. P,2. M,2. K,3. L,3. N,6
-
-A,6. C,12. D,24. B,48.
-E,1. F,2. G,4.
-H,1. P,1. M,6. K,1. L,1. N,12
-
-Hypoth.
-
-c & d snt medi; proport; ꝗntr. a & b.
+a,b,c,d snt nr; D;
+e, est solid.. a,b,c,
+k, est ▭.e,d, μ
+f, est solid.. b,c,d,
+h, est ▭.f,a. ν
 
 Req. π. demonstr.
 
-a & b snt nr; solid; sml;
+k 2|2 h.
 
 Præpar.
 
-2.8 | e,f,g snt mi; proport; ꝗn raō. a π c, u c π d. α
+g 2|2 ▭.b,c.
 
 Demonstr.
+
+d. λ | e 2|2 ▭.g,a, ϖ
+f 2|2 ▭.g,d,
+ϖ.17.7 | e π f 2|2 a π d,
+1.concl. μν.19.7 | ▭.e,d, u k 2|2 ▭.f,a, u h.
+
+## SCHOL. II.
+
+Si numerus per quotcunque numeros continuè diuidatur, quocunque ordine fiant diuisiones, idem semper numerus orietur.

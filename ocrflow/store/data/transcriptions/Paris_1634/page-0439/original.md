@@ -1,41 +1,38 @@
-<!-- Running title: ELEM.. EVCLID.. LI. VII. -->
+<!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## DEFINIT. XVIII.
+## DEFINIT. XV.
 
-Quadratus numerus est, qui æqualiter æqualis, vel qui sub duobus æqualibus numeris continetur.
+Numerus numerū multiplicare dicitur, cum toties compositus fuerit is, qui multiplicatur, quot sunt in ipso multiplicāte vnitates, & procreatus fuerit aliquis.
 
-*Nombre quarré est celuy qui est egalement egal, ou qui est contenu sous deux nombres egaux.*
+*Vn nombre est dit en multiplier vn autre, quand il en est produit quelqu'vn, qui est composé autant de fois du multiplié, qu'il y a d'vnitez au multipliant.*
 
-A,2. B,3. C,9.
+A,15. B,3. C,45.
 
-hyp. | a 2|2 b,
-hyp. | ▭.a,b est c,
-18 d.7 | c, est nr. □.
+c 2|2 ▭.a,b,
 
-Explicatio notarum. Explication des notes.
+Vel sic. *Ou ainsi.*
 
-Numerus A, est æqualis numero B.
-
-*Le nombre A, est egal au nombre B.*
-
-Numerus A, ductus in numerum B, facit numerum C : igitur C, est numerus quadratus.
-
-*A, estant multiplié par B, fait C : partant C, est nombre quarré.*
-
-## DEFINIT. XIX.
-
-Cubus verò, qui æqualiter æqualis æqualiter, vel qui sub trib. æqualibus numerus cōtinetur.
-
-*Nombre cube est celuy qui est egalement egal egalement, ou qui est contenu sous trois nombres egaux.*
-
-A,3. B,3. C,3. D,27.
-
-hyp. | a,b,c snt nr. 2|2 ꝫe,
-hyp. | d 2|2 abc,
-19.d.7 | d, est nr. cub.
+c 2|2 ab.
 
 Explicatio notarum. Explication des notes.
 
-A, B, C sunt numeri æquales inter se.
+C, est æqualis numero, qui fit ex multiplicatione A in B.
 
-*A, B, C sont nombres egaux entr'eux.*
+*C, est egal au produit qui vient en multipliant A, par B.*
+
+## COROLL.
+
+In omni multiplicatione vnitas est ad multiplicatorem, vt multiplicatus ad productum.
+
+*En toute multiplication l'vnité est au multiplicateur, comme le multiplié au produit.*
+
+D,1. A,15. B,3. C,45.
+
+hyp. | ▭.a,b 2|2 c,
+c.15.d.7 | d π b 2|2 a π c.
+
+## DEFINIT. XVI.
+
+Cum autē duo numeri sese multiplicantes aliquē fecerint, qui factus
+
+*Mais quand deux nombres se multipliant l'vn l'autre en produisent quel-*

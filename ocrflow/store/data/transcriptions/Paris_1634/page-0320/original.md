@@ -1,62 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-[Figure: lignes verticales A—G—B ; C—H—D ; E ; F]
-
-Hypoth.
-
-ab π cd 2|2 e π f,
-ab est maxim.
-f est minim.
+[Figure: lignes verticales A, B, C, D, E, F, avec L, H, L marquées sur la ligne B]
 
 Req. π. demonstr.
 
-ab+f 3|2 cd+e.
-
-Præpar.
-
-3.1 | ag 2|2 e, α
-3.1 | ch 2|2 f. α
+a π bh 2|2 d π e, α
 
 Demonstr.
 
-hyp. | ab π cd,
-| e π f,
-α.7.5 | uag π ch,
-19.5 | gb π hd 2|2 ab π cd
-hyp. | ab 3|2 cd,
-s.14.5 | gb 3|2 hd, β
-constr. | ag 2|2 e,
-constr. | f 2|2 ch,
-2.a.1 | ag+f 2|2 e+ch,
-concl. β.4 a.b | ag+f+gb 3|2 e+ch+hd.
+suppos. | a π bl 2|2 d π e,
+16.5 | a π d 2|2 bl π e,
+α.16.5 | a π d 2|2 bh π e,
+11.5 | bl π e 2|2 bh π e,
+9.5 | bl 2|2 bh,
+| contr. 9.a.1.
+concl. 2.a.1 | a π b 2|2 d π e.
 
-## SCHOL. I.
+## THEOR. XXIV. PROPOS. XXIV.
 
-Si tres magnitudines fuerint proportionales, maxima & minima maiores erunt quàm dupla reliquæ.
+Si prima ad secundam eandem habuerit rationem quam tertia ad quartam ; habuerit autem & quinta ad secundam eandem rationem, quam sexta ad quartam : Etiam composita prima cum quinta ad secundam eandem habebit rationem, quam tertia cum sexta ad quartam.
 
-Si trois grandeurs sont proportionelles, la plus grande & la plus petite seront plus grande que le double de l'autre.
-
-A, 9. B, 6. D, 6. C, 4.
+Si la premiere a mesme raison à la seconde que la troisiesme à la quatriesme, & que la cinquiesme ait aussi mesme raison à la seconde que la sixiesme à la quatriesme : Aussi la composee de la premiere & de la cinquiesme aura mesme raison à la seconde, que la composee de la troisiesme & de la sixiesme à la quatriesme.
 
 Hypoth.
 
-a π b 2|2 b π c,
-a est maxim.
-c est minim.
+ab π c 2|2 de π f,
+bg π c 2|2 eh π f. α
 
 Req. π. demonstr.
 
-a+c 3|2, 2b.
-
-Præpar.
-
-3.1 | d 2|2 b. β
+ag π c 2|2 dh π f.
 
 Demonstr.
-
-| a π b 2|2 d π c,
-β.7.5 concl. 25.3 | a+c 3|2 b+du2b.
-
-## SCHOL. II.
-
-Hic finem Euclides imponit quinto libro : sequentes

@@ -2,63 +2,51 @@
 
 Demonstr.
 
-suppos. | c, msur: d,
-14 8 | a, msur: b,
-
-contr. hypoth.
-
-1.concl. 21.a.1 | c, n̄, msur: d,
+hyp. | a & b snt nr; □,
+2.&11.8 | a, e, b snt proport. ꝗn raō. c π d,
+hyp. | a, msur: b,
+7.8 | a, msur: e,
+1.concl. 2c20.d7 | c, msur: d.
 
 Hypoth. 2.
 
-c, n̄, msur: d.
+c, msur: d.
 
 Req. π. demonstr.
 
-a, n̄, msur: b.
+a, msur: b.
 
 Demonstr.
 
-suppos. | a, msur: b,
-14. 8 | c, msur: d.
+11.8 | a,e,b snt contin. proport; ꝗn raō.. c π d,
+hyp. | c, msur: d,
+2c20.d7 | a, msur: e,
+2c20.d7 | e, msur: b,
+11.a.7 | a, msur: b.
 
-contr. hypoth.
+## THEOR. XIII. PROPOS. XV.
 
-2.concl. 21.a.1 | a, n̄, msur: b.
+Si cubus numerus cubum numerum metiatur; & latus vnius metietur latus alterius. Et si latus vnius cubi latus alterius metiatur ; & cubus cubum metietur.
 
-## THEOR. XV. PROPOS. XVII.
+*Si vn nombre cube mesure vn nombre cube, aussi le costé mesurera le costé. Et si le costé mesure le costé, aussi le cube mesurera le cube.*
 
-Si cubus numerus cubum numerum non metiatur, neque latus vnius latus alterius metietur. Et si latus cubi vnius latus alterius non metiatur, neque cubus cubum metietur.
-
-*Si vn nombre cube ne mesure vn nombre cube, aussi le costé ne mesurera le costé : Et si le costé ne mesure le costé, aussi le cube ne mesurera le cube.*
-
-A,8. B,27.
-C,2. D,3.
+A,8. H,24. I,72. B,216.
+E,4. G,12. F,36.
+C,2. D,6.
 
 Hypoth. 1.
 
 a & b snt nr; cub;
-c, est γc.a.
-d, est γc.b,
-a, n̄, msur: b.
+a, msur: b,
+c, est γc.a. d, est γc.b
 
 Req. π. demonstr.
 
-c, n̄, mesur: d.
+c, msur: d.
 
-Demonstr.
+Præpar.
 
-suppos. | c, msur: d,
-15. 8 | a, msur: b,
-
-contr. hypoth.
-
-1.concl. 21.a 1 | c, n̄, msur: d.
-
-Hypoth. 2.
-
-c, n̄, msur: d.
-
-Req. π. demonstr.
-
-a, n̄, msur: b.
+e, est □.c,
+f, est □.d,
+g, est ▭.c,d,
+h, est ▭.c,g,

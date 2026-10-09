@@ -1,41 +1,41 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-*Le quarré d'vne ligne faisant auec vn espace medial, vn tout medial; appliqué à vne ligne rationelle, faict la latitude apotome sixiesme.*
+## THEOR. LXXVII. PROPOS. CI.
+
+Quadratum minoris ad rationalem applicatum, latitudinem facit apotomen quartam.
+
+*Le quarré d'vne ligne mineure, appliqué à vne ligne rationelle, fait la latitude apotome quatriesme.*
 
 Hypoth.
 
-ab, est ——, fa. 2; med; α
+ab, est min. α
 bc, est congruen.
 de, est ration.
+▭df 2|2 □.ab.
 
 Req. π. demonstr.
 
-dg, est apotom. 6.
+dg, est apotom. 4.
 
 Lemm. 97. 10. est præpar.
 
 Demonstr.
 
-l.97.10 | ▭dк 2|2 □.ac / + □.bc, β
-α. hyp. | aggreg.. □.ac + □.bc est medi.
-24. 10 | ▭dк, est medi.
-25. 10 | dl, est ration. incomm. de,
-α. hyp. | □.acb, est medi.
+l.97.10 | ▭dk 2|2 □.ac + □.bc
+α. hyp. | aggreg.. □.ac + □.bc est ration.
+s.12.10 | ▭dк, est ration.
+21. 10 | dl, est ration. comm. de, β
+α. hyp. | ▭.acb, est medi.
 l.97.10 | ▭gк 2|2, 2▭acb,
 24. 10 | ▭gк, est medi.
 23. 10 | gl, est ration. incomm. de,
-α. hyp. | aggreg.. □.ac + □.bc, incomm. ▭acb,
-β. 14. 10 | ▭dк, incōm. ▭acb,
-l.97.10 | ▭gк 2|2, 2▭acb,
-14. 10 | ▭dк, incomm. ▭gк
-10. 10 | dl, incomm. gl,
-74. 10 | dg, est apotom.
+β. 13. 10 | dl, incomm. gl,
+s.12.10 | □.dl, comm. □.gl,
+64. 10 | dg, est apotom.
 α. hyp. | □.ac, incomm. □.bc,
-c.l97.10 | □.dl 3|2 □.gl..□. / ——, incomm. dl,
-concl. 6d85.10 | dg, est apotom. 6.
+cl.97.10 | □.dl 3|2 □.gl..□. / ——, incomm. dl,
+concl. 4d85.10 | dg, est apotom. 4.
 
-## THEOR. LXXX. PROPOS. CIV.
+## THEOR. LXXVIII. PROPOS. CII.
 
-Recta linea apotomæ longitudine commensurabilis; & ipsa apotome est, atque ordine eadem.
-
-*La ligne droicte commensurable en longitude à vn*
+Quadratum eius, quæ cum rationali medium totum efficit, ad rationalem applicatum, latitudinem facit apotomen quintam.

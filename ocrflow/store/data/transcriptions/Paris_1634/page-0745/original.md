@@ -1,40 +1,50 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
+[Figure: labels arranged A / B C / D / E F]
+
 Demonstr.
 
-suppos. | cd & ce snt ⊥ plan. ab, α
-2. 11 | cd & ce snt ꝗn plan. fg,
-3. 11 | intersect. hg, est ——,
-α.3.d.11 | <dcg & <ecg snt ⊥;
-12. a. 1 | <ecg 2|2 <dcg,
-contr. 9. a. 1.
+α. 33.1 | ab 2|2 & == de,
+33. 1 | be 2|2 & == ad,
+α. 33.1 | ac 2|2 & == df,
+33. 1 | cf 2|2 & == ad,
+33. 1 | bc 2|2 & == ef,
+concl. α. 8.1 | <bac 2|2 <edf.
 
-[Figure: labels arranged F D E / A / H C G / B]
+## PROBL. I. PROPOS. XI.
 
-## THEOR. XII. PROPOS. XIV.
+A dato puncto in sublimi, ad subjectum planum perpendicularem rectam lineam ducere.
 
-Ad quæ plana, eadem recta linea recta est; illa sunt parallela.
+*D'vn poinct donné en l'air mener vne ligne droicte perpendiculaire sur le plan qui est au dessous.*
 
-*Les plans ausquels vne mesme ligne droicte est à angles droicts, iceux sont paralleles.*
-
-[Figure: labels arranged G / I / C H E / A B / D F]
+[Figure: labels arranged D K A H / B / I / G F E L C]
 
 Hypoth.
 
-ab, est ⊥ plan; cd & fe,
+bc, est plan. propos.
+a, est ●, D.
 
-Req. π. demonstr.
+Req. π. fa.
 
-plan. cd == plan. fe.
+ai ⊥ plan. bc.
+
+Constr.
+
+arbitr. | de, est ——, ꝗn plan. bc,
+12. 1 | af ⊥ de,
+11. 1 | fh ⊥ de,
+12. 1 | ai ⊥ fh, α
+symp. | req. est ai.
+
+Præpar.
+
+31. 1 | kil == de. β
 
 Demonstr.
 
-suppos. | gh, est intersect.. plan; cd & fe,
-arbitr. | i, est ● ꝗn gh,
-1. p. 1 | ia & ib snt ——,
-hyp. | <iab & <iba snt ⊥;
-contr. 17. 1.
-
-## THEOR. XIII. PROPOS. XV.
-
-Si duæ rectæ lineæ se mutuò tangentes, ad duas rectas se mutuò tangentes sint parallelæ, non in
+constr. | de ⊥ fa & fh,
+4. 11 | de ⊥ plan. ifa,
+β. 8.11 | kil ⊥ plan. ifa,
+3. d. 11 | <kia, est ⊥,
+α | ai ⊥ ik & if,
+concl. 4.11 | ai ⊥ plan. bc.

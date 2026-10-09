@@ -1,49 +1,52 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
+[Figure: ligne A—C—B et ligne D—F—E]
+
+Demonstr.
+
+hyp. | ab π de 2|2 ac π df,
+16.5 | ab π ac 2|2 de π df,
+17.5 | cb π ac 2|2 fe π df,
+concl. 16.5 α | cb π fe 2|2 ac π df uab π de.
+
+## COROLL. I.
+
+Hinc facile demonstrabitur conuersa ratio.
+
+D'icy sera facile à demonstrer la raison conuerse.
+
+Hypoth.
+
+ab π cb 2|2 de π fe.
+
 Req. π. demonstr.
 
-d 3|2 f.
+ab π ac 2|2 de π df.
 
 Demonstr.
 
-hyp. | e π f 2|2 b π c,
-c.4.5 | f π e 2|2 c π b,
-β.8.5 | c π b 2|3 a π b,
-α.s.13.5 | f π e 2|3 a π bud π e
-1.concl. 10.5 | d 3|2 f.
+hyp. | ab π cb 2|2 de π fe,
+17.5 | ac π cb 2|2 df π fe,
+c.4.5 | cb π ac 2|2 fe π df,
+concl. 18.5 | ab π ac 2|2 de π df.
 
-Hypoth. 2.
+## COROLL. II.
 
-a 2|2 c.
+Hinc perspicuum est, si similia proportionalia similibus proportionalibus subducātur residua esse proportionalia.
 
-Req. π. demonstr.
+De cette proposition est manifeste, que si proportionaux semblables sont soustraits des proportionaux semblables, les restes sont proportionaux.
 
-d 2|2 f. δ
+A, 21. B, 7. C, 12. D, 4.
+E, 15. F, 5. G, 3. H, 1.
+L, 6. M, 2. N, 9. P, 3.
 
-Demonstr.
+hyp. | a π b
+| c π d
+| e π f
+| g π h
+snt raō. 2|2 ⁊e,
 
-α.c.4.5 | f π e 2|2 c π b,
-δ.7.5 | a π b 2|2 c π b,
-α.11.5 | f π e 2|2 a π bud π e
-2.concl. 9.5 | d 2|2 f.
-
-Hypoth. 3.
-
-a 2|3 c. ε
-
-Req. π demonstr.
-
-d 2|3 f.
-
-Demonstr.
-
-α.c.4.5 | f π e 2|2 c π b,
-ε.8.5 | c π b 3|2 a π b,
-α.13.5 | f π e 3|2 a π bud π e
-3.concl. 10.5 | d 2|3 f.
-
-## THEOR. XXI. PROPOS. XXI.
-
-Si sint tres magnitudines, & aliæ ipsis æquales numero, quæ binæ, & in eadem ratione sumantur, fueritque perturbata earum proportio ; ex æquo autem prima quam tertia maior fuerit : erit & quarta, quam sexta, maior. Quod si prima tertiæ fuerit æqualis, erit & quarta æqualis sextæ ; sin illa minor, hæc quoque minor erit.
-
-S'il y a trois grandeurs, & d'autres egales à icelles en nombre, lesquelles soient prises deux à deux & en mesme raison ; & que leur proportion soit troublée, ou sans
+hyp. | l 2|2 a~e,
+hyp. | m 2|2 b~f,
+hyp. | n 2|2 c~g,
+hyp. | p 2|2 d~h.

@@ -1,44 +1,57 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-A,8. B,64. C,512.
+A,8.
+E,16. D,4.
+F,32. C,2.
+B,64. G,1.
 
-a, est nr. cub.
+b, est nr. cub.
 
 Præpar.
 
-c, est ▭.a,b.
+g, est vnit.
+c, est √c. a,
+d, est □.c.
 
 Demonstr.
 
-19.d.7 | c, est nr. cub.
-concl. 5.9 | a, est nr. cub.
+5.a.7 | g, msur: c ꝑ c,
+9.a.7 | c 2|2 ▭.g,c,
+constr. | d 2|2 □.c, α
+17.7 | g π c 2|2 c π d, β
+19.d.7 | a 2|2 ▭.d,c,
+α.17.7 | c π d 2|2 d π a, γ
+βγ | g,c,d,a snt contin. proport; ε
+hyp. | b 2|2 □.a,
+c.15.d.7 | g π a 2|2 a π b,
+ε.8.8 | ꝗntr. a & b snt 2; med;proport; e & f,
+hyp. | a, est nr. cub.
+concl. 23.8 | b, est nr. cub.
 
-## THEOR. VII. PROPOS. VII.
+## THEOR. IV. PROPOS. IV.
 
-Si compositus numerus numerum aliquem multiplicans, quempiam faciat: factus solidus erit.
+Si cubus numerus cubum numerum multiplicans faciat aliquem; factus cubus erit.
 
-*Si vn nombre composé multipliant quelque nombre, en faict quelque autre, le produict sera solide.*
+*Si vn nombre cube multipliant vn nombre cube en fait quelqu'vn; le produict sera cube.*
 
-A,6. B,11. C,66.
-D,2. E,3.
+A,8. B,27.
+D,64. C,216.
 
 Hypoth.
 
-a, est nr. compos.
-c, est ▭.a,b.
+a & b snt nr; cub;
+c, est ▭.b,a. α
 
 Req. π. demonstr.
 
-c, est nr. solid.
+d, est nr. cub.
+
+Præpar.
+
+d, est □.a. β
 
 Demonstr.
 
-hyp. | a, est nr. compos.
-13.d.7 | d, msur: a ꝑ e,
-9.a.7 | a 2|2 ▭.e,d,
-hyp. | c 2|2 ▭,a,b,
-concl. 17.d.7 | c, est nr. solid.
-
-## THEOR. VIII. PROPOS. VIII.
-
-Si ab vnitate quotcunque numeri deinceps proportionales fuerint: tertius quidem ab vnitate quadratus est, & vnum intermittentes omnes: quartus autem est cubus, & duos intermittentes omnes: septimus verò cubus simul, & quadratus, & quinque intermittentes omnes.
+αβ.17.7 | a π b 2|2 d π c,
+hyp. | a & b snt nr; cub;
+12.8 | ꝗntr. a & b snt 2; medi;proport;

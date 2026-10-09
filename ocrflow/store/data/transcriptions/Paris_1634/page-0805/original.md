@@ -1,27 +1,19 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-## THEOR. XI. PROPOS. XI.
+& eorum pyramides earundem altitudinum cum ipsis, & super easdem bases, æquales; cum sint eorum tertiæ partes, ex coroll. propos. 7. huius lib. Quare vt modo demonstrauimus, bases harum pyramidum atque altitudines reciprocantur. Cum ergo hæ bases & altitudines eædem sint, quæ prismatum; reciprocabuntur quoque bases prismatum atque altitudines. | *mesme hauteur qu'iceux ayant mesme base seront egales entr'elles, estant les tierces parties des prismes par le corollaire de la septiesme proposition de ce liure. Donc comme nous venons de demonstrer les bases & hauteurs d'icelles pyramides seront reciproques: & ces bases & hauteurs estans les mesmes que de prismes, les bases & les hauteurs des prismes seront reciproques.*
 
-Sub eadem altitudine existentes coni & cylindri, inter se sunt vt bases.
+Rursus, si prismatum bases, & altitudines reciprocentur, reciprocabuntur quoque bases, & altitudines pyramidum easdem bases & altitudines cum prismatis habentium. Quare vt demonstratum est, pyramides æquales sunt; ac propterea prismata, cum earum sint tripla: quod est propositum. | *Derechef, si les bases & les hauteurs des prismes sont reciproques, les bases & hauteurs des pyramides ayant mesme bases & hauteurs que les prismes seront außi reciproques: Donc comme a esté demonstré les pyramides sont egales: & partant außi les prismes estant triples d'icelles pyramides. Ce qui est proposé.*
 
-*Les cones & cylindres de mesme hauteur, sont l'vn à l'autre comme leurs bases.*
+## THEOR. X. PROPOS. X.
 
-[Figure: labels arranged A K E M / T Y P S / B I D F L H / V X Q R / C G / O N]
+Omnis conus tertia pars est cylindri eandem cum ipso basin habentis, & altitudinem æqualem.
+
+*Tout cone est la troisiesme partie du cylindre qui a mesme base qu'iceluy, & la hauteur egale.*
 
 Hypoth.
 
-abcdk & efgrm ſnt con;
-⊙abcd & ⊙efgr ſnt baſ;
-iк & lm ſnt alt; 2|2 ꝗe.
+⊙abcd, est baſ.. cylindr.. & con.
 
 Req. π. demonstr.
 
-⊙abcd π ⊙efgr 2|2 con. abcdk π con. efgrm.
-
-Demonstr.
-
-ſuppoſ. | ⊙abcd π ⊙efgr 2|2 con. abcdk π ſolid. n, α
-1. ſuppo. | ſolid. n + ſolid. o 2|2 con. efgrm.
-ſ. 7. 12 | ſegm;. con. ep + pf + fq, &c. ſnt 2|3 ſolid. o,
-ſ. a. b | ſolid. n 2|3 pyram. epfqgrhſm, β
-constr. | polyg. atbucxdy ſml. polyg. epfqgrhſ,
+cylindr. 2|2 3; con;

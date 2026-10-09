@@ -1,52 +1,51 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-Les triangles égaux constituez sur bases égales, & de mesme part; sont entre mesmes paralleles.
+Præpar.
 
-[Figure: ligne A—D—H en haut, poinct H aussi vn peu plus bas, ligne B—C—E—F en bas ; triangles BCA & EFD, lignes A—E, D—B, E—H, F—H]
-
-Hypoth.
-
-△bca 2|2 △efd,
-bc 2|2 ef.
-
-Req. π. demonstr.
-
-ad == bf.
+1.p.1. | be, & cf snt —.
 
 Demonstr.
 
-suppos. | ah == bf,
-1.p.1. | fh est —,
-hyp. | bc 2|2 ef,
-38.1. | △efh 2|2 △bca,
-hyp. | △efd 2|2 △bca,
-1.a.1. | △efh 2|2 △efd,
-contr. 9.a.1.
-21.a.1. | ad == bf.
+hyp. | bc 2|2 gh,
+34.1. | ef 2|2 gh,
+1.a.1. | bc 2|2 ef,
+hyp. | bc == ef,
+33.1. | be == cf,
+35.d.1. | bcfe est ◊,
+35.1. | ◊bcda 2|2 ◊bcfe,
+35.1. | ◊eghf 2|2 ◊bcfe,
+concl. 1.a.1. | ◊bcda 2|2 ◊eghf.
 
-## THEOR. XXXI. PROPOS. XLI.
+## THEOR. XXVII. PROPOS. XXXVII.
 
-Si parallelogrammum cum triangulo eandem basin habuerit, in eisdemque fuerit parallelis, duplum erit parallelogrammum ipsius trianguli.
+Triangula super eadem basi constituta, & in eisdem parallelis, inter se sunt æqualia.
 
-Si vn parallelogramme, & vn triangle ont vne mesme base, & sont entre mesmes paralleles; le parallelogramme sera double du triangle.
+Les triangles constituez sur mesme base, & entre mesmes paralleles, sont égaux entr'eux.
 
-[Figure: ligne A—D—E en haut, ligne B—C en bas ; parallelogramme ABCD auec diagonales, lignes B—E & C—E]
+[Figure: ligne E—A—D—F en haut, ligne B—C en bas ; triangles BCA & BCD, lignes E—B, E—C, F—B, F—C]
 
 Hypoth.
 
-ae == bc.
+ef == bc,
 
 Req. π. demonstr.
 
-◊abcd 2|2 2△bce.
+△bca 2|2 △bcd.
 
 Præpar.
 
-1.p.1. | ac est —.
+31.1. | be == ca,
+31.1. | cf == bd,
 
 Demonstr.
 
-hyp. | ae == bc,
-37.1. | △bca 2|2 △bce,
-34.1. | ◊abcd 2|2 2△bca,
-concl. 6.a.c. | ◊abcd 2|2 2△bce.
+35.1. | ◊bcae 2|2 ◊bdfc,
+34.1. | △bca 2|2 ½ ◊bcae,
+34.1. | △bcd 2|2 ½ ◊bdfc,
+concl. 7.a.1. | △bca 2|2 △bcd.
+
+## THEOR. XXVIII. PROPOS. XXXVIII.
+
+Triangula super æqualibus basibus constituta, & in eisdem parallelis, inter se sunt æqualia.
+
+Les triangles constituez sur bases égales, & entre mesmes paralleles sont égaux entr'eux.

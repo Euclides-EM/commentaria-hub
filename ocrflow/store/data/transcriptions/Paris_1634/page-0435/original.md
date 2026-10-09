@@ -1,37 +1,34 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-impar, Euclides pariter imparem tantùm; & qui his impariter par, Euclides & pariter parem, & pariter imparem appellat.
+A,4. B,6. C,10. D,15.
 
-*à Euclide il est pairement impair seulement ; & celuy que ceux-cy nōment impairement pair, Euclide l'appelle pairement pair, & pairement impair.*
+hyp. | par.. a, msur: b, par.. c, msur: d,
+s.4.d.7 | a, part. b, c, part. d.
 
-pa.pa. id est pariter par tantùm.
+Explicatio notarum. Explication des notes.
 
-pa. impa. id est pariter impar tantùm.
+Quæ pars numeri A, metitur B, eadem pars numeri C, metitur D; igitur numerus A, est eædem partes numeri B, quæ numerus C, numeri D.
 
-imp.pa. id est pariter par & pariter impar.
+*La partie de A, qui mesure B, est la mesme, que la partie de C, qui mesure D; partant le nombre A, est telles parties de B, que le nombre C, l'est du nombre D.*
 
-*pa.pa. signifie pairement pair seulement.*
+## DEFINIT. V.
 
-*pa. impa. signifie pairement impair seulement.*
+Multiplex vero maior minoris, cùm maiorem metitur minor : vt 15, est multiplex 5.
 
-*impa. pa. signifie pairement pair, & pairement impair.*
+*Vn nombre est dit multiple d'vn autre plus petit, lors que le plus petit mesure le plus grand : comme 15, est multiple de 5.*
 
-## DEFINIT. X.
+## DEFINIT. VI.
 
-Impariter verò impar numerus est, quem impar numerus metitur per numerum imparem : vt 15, 21, sunt impariter impares.
+Par numerus est, qui bifariam diuiditur : vt 6, 8, 10, sunt numeri pares.
 
-*Mais impairement impair, est celuy lequel vn nombre impair mesure par vn nombre impair : comme 15, 21, sont nombres impairement impairs.*
+*Nombre pair, est celuy qui peut estre diuisé en deux egalement : comme 6, 8, 10, sont nombres pairs.*
 
-impa.impa. id est impariter impar.
+pa. id est par.
 
-*impa. impa. signifie impairement impair.*
+*pa. signifie pair.*
 
-## DEFINIT. XI.
+## DEFINIT. VII.
 
-Primus numerus est, quem sola vnitas metitur : vt 7, 11, sunt numeri primi.
+Impar vero, qui bifariā non diuiditur, vel qui vnitate differt à pari : vt
 
-*Nombre premier, est celuy lequel l'vnité seule mesure : comme 5, 7, sont nombres premiers.*
-
-pr. id est primus.
-
-*pr. signifie premier.*
+*Mais nombre impair est celuy qui ne se peut diuiser en deux egalement, ou qui*

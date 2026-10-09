@@ -1,25 +1,29 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### 2. a. 1.
+Explicatio notarum. | Explication des notes.
 
-Et si æqualibus æqualia adiecta sint, tota sunt æqualia. | Et si à choses egales on adiouste choses egales, les tous sont egaux.
+B est æqualis C, per hyp. | B est egal à C, par l'hyp.
 
-[Figure: ligne ABF en haut, ligne CDG au dessous]
+A est maior B, per hyp. | A est plus gräd que B, par l'hyp.
 
-hyp. | ab 2|2 cd.
-hyp. | bf 2|2 dg.
-2.a.1 | af 2|2 cg.
+A est maior C, per primum axioma C. | A est plus grand que C, par le premier axiome C.
 
-### 3. a. 1.
+### I. a. d.
 
-Et si ab æqualibus æqualia ablata sint, quæ relinquuntur sunt æqualia. | Et si des choses egales on retranche choses egales, les restes sont egaux.
+Et si vnum æqualium maius est, aut minus magnitudine quapiam, alterum quoque æqualium eadem magnitudine maius est aut minus. | Et si l'vn des egaux est plus grand ou plus petit que quelque grandeur, l'autre des egaux sera außi plus grand ou plus petit que la mesme grandeur.
 
-[Figure: ligne AEB en haut, ligne CFD au dessous]
+[Figure: lignes A et B egales à gauche, ligne C plus courte à droite]
 
-hyp. | ab 2|2 cd.
-hyp. | ae 2|2 cf.
-3.a.1 | eb 2|2 fd.
+hyp. | a 2|2 b.
+hyp. | a 3|2 c.
+1.a.d. | b 3|2 c.
 
-### 3. a. b.
+### I. a. e.
 
-Et si à toto auferatur dimidium, remanebit dimidium : si auferatur maius dimidio, remanebit minus dimidio : si autem auferatur tertia pars, remanebunt duæ tertiæ, &c. | Et si d'vn tout on retranche la moitié, restera la moitié : & si on retranche plus de la moitié, restera moins de la moitié : mais si on retranche la troisiesme partie, resteront les deux tiers, &c.
+Et quod est maius maiore est etiam maius minore, & quod est minus minore est etiam minus maiore. | Et ce qui est plus grand que le plus grand, est außi plus grand que le plus petit, & ce qui est plus petit que le plus petit, est außi plus petit que le plus grand.
+
+[Figure: trois lignes, A la plus longue, B moyenne, C la plus courte]
+
+hyp. | b 3|2 c.
+hyp. | a 3|2 b.
+1.a.e. | a 3|2 c.

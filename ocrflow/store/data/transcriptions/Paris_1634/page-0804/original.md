@@ -1,28 +1,43 @@
 <!-- Running title: ELEM.. EVCLID. LI. XII. -->
 
-[Figure: labels arranged L A / F I / K / B D / E / G H / C]
+Demonstr.
+
+hyp. 1 concl. | abc π efgh, Ⅱ lmn 2|2 alt. i, Ⅱ k π alt. d,
+β. 9. 12 | pyram. abcd 2|2 pyram. lmnк, Ⅱ efghi. δ
+
+Hypoth. 3.
+
+pyram. abcde 2|2 pyram. fghikl.
+
+Req. π. demonstr.
+
+abcd π fghik 2|2 alt. l π alt. e.
+
+Præpar.
+
+1. app. | △mno 2|2 baſ. fghik, ε
+constr. | alt. p 2|2 alt. l, ε
+
+[Figure: labels arranged E L P / D C K I H O / A B F G M N]
 
 Demonstr.
 
-1. ſupp. | cylindr. 2|2 3; con; + ſolid. e,
-ſ. 7. 12 | ſegm. cylindr, af + fb + bg, &c. 2|3 ſolid. e,
-ſ. a. b | priſm. afbgchdi 3|2 3; con; afgd,
-c. 7. 12 | priſm. afbgchdi 2|2 3; pyram;
-1. a. c | 3; con; 2|3 3; pyram;
+c. 6. 12 3. concl. | pyram. mnop 2|2 pyram. fghikl, Ⅱ abcde, ε
+γ | abcde π mno, Ⅱ fghik 2|2 alt. p, Ⅱ l π alt. e.
 
-contr. 9. a. 1.
+Hypoth. 4.
 
-2ſuppo. | ⅓. cylindr. + ſolid. e 2|2 con.
-ſ 7. 12 | ſegm. con. af, + fb, + bg, &c. 2|3 ſolid. e,
-ſ. a. b | ⅓. cylindr. 2|3 pyram.
-c. 7. 12 | ⅓. priſm. 2|2 pyram.
-1. a. c | ⅓. cylindr. 2|3, ⅓ priſm.
-6. a. 1 | cylindr. 2|3 priſm.
+abcd π fghik 2|2 alt. l π alt. e.
 
-contr. 9. a. 1.
+Req. π. demonstr.
 
-In hac demonstratione cylindrus, conus, prisma, & pyramis sunt eiusdem altitudinis. | *En ceste demonstration le cylindre, le cone, le prisme, & la pyramide ont la mesme hauteur.*
+pyram. abcde 2|2 pyram. fghiкl.
 
-Basis cylindri & coni est circulus AFGD. | *La base du cylindre & du cone est le cercle AFGD.*
+Demonstr.
 
-Basis vero prismatis atque pyramidis est polygonum circulo inscriptū nimirū AFBGCHDI. | *La base du prisme & de la pyramide est le polygone inscrit au cercle à sçauoir AFBGCHDI.*
+ε. hyp. 4concl. | abcd π fghik, Ⅱ mno 2|2 alt. l, Ⅱ p π alt. e,
+δ | abcde 2|2 mnop, Ⅱ fghikl.
+
+## SCHOL.
+
+Omnia hæc facilè quoque demonstrabuntur conuenire prismatis quibuscunque. Nam si prismata fuerint æqualia, erūt | *Que toutes ces choses conuiennent außi à tout prisme, il sera facile de demonstrer: Car si les prismes sont egaux, les pyramides de*

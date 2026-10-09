@@ -1,58 +1,32 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-Des grandeurs qui ont raison à vne mesme grandeur, celle-là qui a plus grande raison, est la plus grande : Mais celle-là à laquelle vne mesme grandeur a plus grande raison, est la plus petite.
+## THEOR. VIII. PROPOS. VIII.
 
-[Figure: trois lignes verticales A, B, C]
+Inæqualium magnitudinum maior ad eandem, maiorem rationem habet, quàm minor : Et eadem ad minorem, maiorem rationem habet, quàm ad maiorem.
 
-Hypoth. 1.
+Des grandeurs inégales, la plus grande a plus grande raison à vne mesme que la plus petite : Et vne mesme grandeur a plus grande raison à la plus petite grandeur qu'à la plus grande.
 
-a π c 3|2 b π c,
+Hyppoth.
 
-Req. π. demonstr.
+ab 3|2 c.
 
-a 3|2 b.
-
-Demonstr.
-
-suppos. | a 2|2 b,
-7.5 | a π c 2|2 b π c
-| contr. hyp.
-suppos. | a 2|3 b,
-8.5 | a π c 2|3 b π c,
-| contr. hyp.
-
-Hypoth. 2.
-
-c π b 3|2 c π a.
+[Figure: lignes verticales B—E—A, C, D et H—G—F, I—K]
 
 Req. π. demonstr.
 
-b 2|3 a,
-
-suppos | b 2|2 a,
-7.5 | c π a 2|2 c π b,
-| contr. hyp.
-suppos. | b 3|2 a,
-8.5 | c π a 3|2 c π b,
-| contr. hyp.
-
-## THEOR. XI. PROPOS. XI.
-
-Quæ eidem sunt eædem rationes, & inter se sunt eædem.
-
-Les raisons qui sont de mesme à vne mesme raison, sont aussi de mesme entr'elles.
-
-Hypoth.
-
-a π b 2|2 e π f, α
-c π d 2|2 e π f, β
-
-Req. π. demonstr.
-
-a π b 2|2 c π d.
+raō.. ab π d 3|2 raō. c π d,
+raō.. d π c 3|2 raō. d π ab.
 
 Præpar.
 
-3.1 | g, multipl.. | a,
-| h, multipl.. | c,
-| i, multipl.. | e,
+3.1 | ae 2|2 c,
+3.1 | hg multipl.. aeuc 2|2 gf multipl.. eb,
+4.p.1 | hg 3|2 d & gf 3|2 d, α
+3.1 | ik multipl.. d,
+α.3.1 | ik 3|2 hg & ik 2|3 hf, β
+
+Demonstr.
+
+1.5 | hf multipl.. ab 2|2 hg multipl.. aeugf multipl. eb,
+β.cōstr. | hf 3|2 ik & hg 2|3 ik,
+1.concl. 8.d.5 | raō.. ab π d 3|2 raō. c π d,

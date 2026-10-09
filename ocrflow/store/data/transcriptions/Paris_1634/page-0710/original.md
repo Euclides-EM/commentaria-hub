@@ -1,19 +1,21 @@
-<!-- Running title: ELEM.. EVCLID. LI. X. -->
+<!-- Running title: ELEM.. EVCLID.. LI. X. -->
 
-α. hyp | ▭.acb, est ration.
-l.66 10 | ▭.dfe, comm. ▭.acb,
+l.66.10 | ▭.dfe, comm. ▭.acb, β
 s.12.10 | ▭.dfe, est ration.
-concl. 78. 10 | de, est ——, fa. rat. & medi.
+1.concl. 30. 10 | de, est apotom. 1.. medi.
+suppos. | ▭.acb, est medi.
+β. 24.10 | ▭.dfe, est medi.
+2 concl. 39. 10 | de, est apotom. 2.. medi.
 
-## THEOR. LXXXIV. PROPOS. CVIII.
+## THEOR. LXXXII. PROPOS. CVI.
 
-Recta linea commensurabilis ei, quæ cum medio medium totum efficit; & ipsa cum medio medium totum efficiens est.
+Recta linea minori commensurabilis; & ipsa minor est.
 
-*La ligne droicte commensurable à vne ligne, laquelle auec vn espace medial, fait vn tout medial; icelle est aussi ligne faisant auec vn espace medial vn tout medial.*
+*La ligne droicte commensurable à vne ligne mineure, est aussi ligne mineure.*
 
 Hypoth.
 
-ab, est ——, fa. 2; medi. α
+ab, est min.
 bc, est congruen.
 de, comm. ab.
 
@@ -21,7 +23,7 @@ de, comm. ab.
 
 Req. π. demonstr.
 
-de, est ——, fa. 2; medi.
+de, est min.
 
 Præpar.
 
@@ -30,6 +32,6 @@ Præpar.
 Demonstr.
 
 hyp. | □.ac, incomm. □.bc,
-l.66.10 | □.df, incomm. □.fe,
-hyp. | aggreg.. □.ac + □.bc, est medi.
-l.66.10 | aggreg.. □.df + □.fe, cōm. aggreg.. □.ac + □bc, β
+1.66.10 | □.df, incomm. □.ef,
+α. hyp. | aggreg.. □.ac + bc, est ration.
+1.66.10 | aggreg.. □.df + □.ef, comm. aggreg.. □.ac + □.bc,

@@ -1,53 +1,37 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-De tout triangle, le plus grand costé soustient le plus grand angle.
+## THEOR. X. PROPOS. XVII.
 
-[Figure: triangle ABC, poinct D sur AC, ligne BD]
+Cuiuscunque trianguli duo anguli, duobus rectis sunt minores, omnifariam sumpti.
+
+De tout triangle, deux angles, sont plus petits que deux droicts, de quelque façon qu'ils soient prins.
+
+[Figure: triangle ABC, costé BC prolongé vers D]
 
 Hypoth.
 
-abc est △,
-ac 3|2 ab.
+abc est △.
 
 Req. π. demonstr.
 
-<abc 3|2 <acb.
+<abc + <acb 2|3 2∟,
+<bac + <acb 2|3 2∟
+<a + <b 2|3 2∟.
 
 Præpar.
 
-3.1. | ad 2|2 ab,
-1.p.1. | bd est —.
+2.p.1. | bcd est —.
 
 Demonstr.
 
-constr. | ad 2|2 ab,
-5.1. | <abd 2|2 <adb,
-16.1. | <adb 3|2 <acb,
-1.a.d. | <abd 3|2 <acb,
-concl. 1.a.c. | <abc 3|2 <acb.
+16.1. | <b 2|3 <acd,
+| <acb commun. add.
+4.a.1. | <acb + <b 2|3 <acb + acd,
+13.1. | <acb + <acd 2|2 2∟,
+1.concl. 1.a.c. | <acb + <b 2|3 2∟, α
+2.concl. d. α | <acb + <a 2|3 2∟,
+3.concl. d. α | <a + <b 2|3 2∟.
 
-## THEOR. XII. PROPOS. XIX.
+COROLL. I.
 
-Omnis trianguli maior angulus maiori lateri subtenditur.
-
-De tout triangle, le plus grand angle est soustenu du plus grand costé.
-
-[Figure: triangle ABC, poinct B en haut, A à gauche, C à droicte]
-
-Hypoth.
-
-<b 3|2 <c.
-
-Req. π. demonstr.
-
-ac 3|2 ab.
-
-Demonstr.
-
-suppos. | ac 2|2 ab,
-5.1. | <b 2|2 <c,
-| contr. hypoth.
-suppos. | ac 2|3 ab,
-18.1. | <b 2|3 <c,
-| contr. hypoth.
-21.a.1. | ac 3|2 ab.
+Ex hac propositione colligitur in omni triangulo, cuius vnus angulus fuerit rectus vel obtusus, reliquos esse acutos.
