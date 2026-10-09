@@ -7,7 +7,7 @@ conſtr. | ah 2|2 df,
 conſtr. | gh 2|2 cf,
 concl. 8.1 | ∠gah 2|2 ∠cdf.
 
-### Practique.
+#### Practique.
 
 #### Hypoth.
 

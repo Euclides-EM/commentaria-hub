@@ -11,7 +11,7 @@ multipliãt 5184, 22 & 9 l'vn par l'autre viẽdra 1026432, puis multipliant 1, 
 
 La preuue de la regle de trois se doit faire par le moyen d'vne autre regle de trois : disant, si le troisiesme donne le quatriesme, combien le premier : si on trouue le second, il n'y auoit point d'erreur en la regle.
 
-### Exemple de la directe.
+#### Exemple de la directe.
 
 si 4 donnent 6, combien donneront 10. R. 15.
 
@@ -21,7 +21,7 @@ Pour sçauoir s'il n'y a point d'erreur, on dira, si
 
 que si on trouue 6, qui est le second nombre de la precedente, il n'y aura point d'erreur en la precedente.
 
-### Exemple de l'inuerse.
+#### Exemple de l'inuerse.
 
 si 5 donnent 12, combien donneront 10. R. 6.
 
