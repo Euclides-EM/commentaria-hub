@@ -22,7 +22,7 @@ Werden also die bey denen Neben-Strichen von dem einfallenden Strich gemachte (�
 
 ## Der XXX. Vortrag.
 
-## Das 21. Werckstück.
+## Das 21. Werckstück{printer-error-correction:Beweißstück}.
 
 Wenn zween Striche neben dem dritten in unveränderter Weite hinlauffen / so sind selbige auch unter sich Neben-Striche.
 

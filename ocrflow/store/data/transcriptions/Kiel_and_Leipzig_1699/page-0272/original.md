@@ -2,7 +2,7 @@
 
 <!-- Page number: 255 -->
 
-## Des II. Theils
+### Des II. Theils
 
 ### Gegebene. — Begehrtes.
 

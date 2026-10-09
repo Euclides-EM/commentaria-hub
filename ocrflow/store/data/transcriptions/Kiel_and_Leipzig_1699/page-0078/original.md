@@ -13,7 +13,7 @@ Ist also dem Strich AB, ein Neben-Strich CH, durch den Düttel C, gezogen W. Z. 
 
 ## Der XXXII. Vortrag.
 
-## Das 23. Beweiß-Stück.
+## Das 23{printer-error-correction:22}. Beweiß-Stück.
 
 Jedwedes Dreyeckes / dessen eine Seite verlängert ist/auswendiger Winckel/ist eben so groß/ als die beeden inwendig gegen überstehende Winckel ; Und jedwedes Dreyeckes drey inwendige Winckel sind zweyen rechten Winckeln gleich.
 

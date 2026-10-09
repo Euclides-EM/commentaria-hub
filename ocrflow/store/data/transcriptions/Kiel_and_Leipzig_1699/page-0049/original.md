@@ -17,7 +17,7 @@ Und ist also der begehrte bley-rechte Senckstrich CD auff den gegebenen Strich A
 
 ## Der XII. Vortrag.
 
-Das 7. Werck Stück:
+## Das 7. Werck Stück:
 
 Auff einen unendlichen Strich aus einem ausser demselben gegebenen Düttel einen bley-rechten Senckstrich zu ziehen.
 

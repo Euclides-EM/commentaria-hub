@@ -4,7 +4,7 @@
 
 ## Der XXXIII. Vortrag.
 
-## Das 24. Beweiß Stück.
+## Das 24{printer-error-correction:23}. Beweiß Stück.
 
 Zween gerade Striche/ welche zween gleichlange Neben-Striche an beeden Enden/auff gleiche Weise/zusammen hengen / sind gleich-lange Neben-Striche.
 

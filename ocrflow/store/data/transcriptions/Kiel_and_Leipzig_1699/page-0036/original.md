@@ -15,7 +15,7 @@ W. Z. M.
 
 ## Der IV. Vortrag.
 
-## Das I. Beweiß-Stück.
+## Das 1. Beweiß-Stück.
 
 Wenn in zweyen Dreyecken zwo Seiten des einen eben so groß seynd / als zwo Seiten des andern/und zwar jedwede Seite einer jedweden absonderlich; darnach auch diejenigen Winckel/ welche von den gedachten Seiten eingeschlossen werden / gleich sind: so werden auch die beeden Grund-Striche/ und die beeden Dreyecke ein ander gleich seyn; deßgleichen werden die übrigen Winckel/ derer gegenüberstehende Striche gleich groß seynd / auch ein ander gleich seyn.
 

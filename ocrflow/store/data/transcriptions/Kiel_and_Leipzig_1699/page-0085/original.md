@@ -26,7 +26,7 @@ Worauß nun erhellet/ daß alle auff gleichgrossen Grundstrichen/und zwischen ei
 
 ## Der XXXVII. Vortrag.
 
-Das 27 Beweiß-Stück.
+## Das 27 Beweiß-Stück.
 
 Alle auff gleichgrossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Dreyecke sind gleichgroß.
 

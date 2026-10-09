@@ -8,7 +8,7 @@ Werden also jedwedes Nebenstrichiches Viereckes entgegen stehende Seiten α. β.
 
 ## Der XXXV. Vortrag.
 
-Das 25. Werck-Stück:
+## Das 25. Werck-Stück{printer-error-correction:Beweiß-Stück}:
 
 Alle auff einen einigen Grundstrich/und zwischen einerley Nebenstrichen stehende Nebenstrichiche Vierecke sind gleich groß.
 

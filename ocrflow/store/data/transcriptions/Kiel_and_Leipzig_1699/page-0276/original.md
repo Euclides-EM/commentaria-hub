@@ -4,7 +4,7 @@
 
 ## Der XI. Vortrag.
 
-## Das II. Beweißstück.
+## Das 11. Beweißstück.
 
 Welche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind / dieselbigen Verhältnüsse sind auch unter sich gleichhaltig.
 

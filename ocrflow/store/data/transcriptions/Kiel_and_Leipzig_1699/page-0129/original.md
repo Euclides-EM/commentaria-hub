@@ -22,7 +22,7 @@ Sind also allezeit der beeden ungleichen Stücke bd und da ihre □ □ zweymahl
 
 ### Nach der Löse-Kunst.
 
-### Gegebene. | Begerthe.
+### Gegebene. | Begerthe{printer-error-correction:Begehrte}.
 
 1. b | ac | cc + dd | 2bb + 2ee
 2. e | cd

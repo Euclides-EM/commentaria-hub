@@ -3,7 +3,7 @@
 <!-- Page number: 16 -->
 
 ## Der I. Vortrag.
-## Das I. Werck-Stück.
+## Das 1. Werck-Stück.
 
 Auff einen gegebenen geraden und endlichen Strich ein gleichseitiges Dreyeck zu setzen.
 

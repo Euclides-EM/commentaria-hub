@@ -22,7 +22,7 @@ rechte Winckel. W.Z.B.
 
 ## Der XXXII. Vortrag.
 
-## Das 18. Beweiß-Stück.
+## Das 18{printer-error-correction:28}. Beweiß-Stück.
 
 Wann einen Kreyß ein gerader Strich anrühret / und von dem Rühr-Düpffel ein gerader Strich gezogen/den Kreyß schneidet; so werden die Winckel / welchen solcher Strich mit dem Rühr-Strich macht/ gleichgroß seyn mit denen/ in den abgewendeten Kreyß-Stücken stehenden Winckeln.
 

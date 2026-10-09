@@ -6,7 +6,7 @@ Wann aber nur ein Buchstab / und zwar zweymahl gebraucht wird/ als aa, so bedeut
 
 Demnach werden aus der Löse-Kunst vor diesesmahl entlehnet nachfolgende
 
-## Grund-Sätze :
+## Grund-Sätze:
 
 I. Wenn zwo gleiche Grössen/ in zwo andere gleiche Grössen gezogen werden / so werden auch gleichgrosse Dinge daraus.
 

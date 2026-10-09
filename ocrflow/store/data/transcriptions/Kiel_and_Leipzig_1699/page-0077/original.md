@@ -19,7 +19,7 @@ Werden also diejenigen Striche / so neben den dritten in gleicher Weite hinlauff
 
 ## Der XXXI. Vortrag.
 
-## Das 22. Werck-Stück.
+## Das 22{printer-error-correction:10}. Werck-Stück.
 
 Gegen einen gegebenen geraden Strich/durch den zur Seiten gegebenen Düttel/ einen Neben-Strich zu ziehen.
 

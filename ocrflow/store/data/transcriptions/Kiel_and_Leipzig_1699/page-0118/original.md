@@ -12,7 +12,7 @@ dc + ee | bb — n. 3. Gr. I. W. Z. B.
 
 ## Der VI. Vortrag.
 
-## Das 6. Werckstück.
+## Das 6. Werckstück{printer-error-correction:Beweißstück}.
 
 Wenn ein gerader Strich in zween gleiche Theile getheilet/ und gerade aus ein Strich angesetzet wird; So wird das rechtwincklichte Viereck/ welches von dem zusammen-gesetzten Strich/ und von dem angesetzten Stücke gemacht wird/ samt dem gleichseitigen Viereck des halbē Strichs/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem halben und angesetzten Stück gemacht wird.
 

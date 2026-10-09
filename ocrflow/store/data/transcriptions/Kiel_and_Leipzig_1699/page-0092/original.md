@@ -12,7 +12,7 @@ Wird dannenhero allezeit das □ , so mit einem △ auff einem Grundstrich / und
 
 Einem gegebenen Dreyeck/ nach dem gegebenen Winckel/ ein gleichhaltiges Viereck zu machen.
 
-### Gegebene. | Begerthe.
+### Gegebene. | Begerthe{printer-error-correction:Begehrte}.
 1. △ ABC | 1. □ CEFG
 2. ∧ D | 2. □ CEFG | △ ABC
 | 3. ECG ⋀ D

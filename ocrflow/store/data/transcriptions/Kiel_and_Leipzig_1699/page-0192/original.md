@@ -19,7 +19,7 @@ Müssen also allezeit in gleichgrossen Kreyssen bgci | dhek diejenigen Bogen bic
 
 ## Der XXVII. Vortrag.
 
-Das 24 Beweiß-Stück.
+## Das 24 Beweiß-Stück.
 In gleichgrossen Kreyssen sind diejenigen Winckel/ welche auff gleichgrossen Bogen stehen/ auch gleich groß/ es mögen Mittel-Düpffels oder im Kreyß stehende Winckel seyn.
 
 ### Gegebene.

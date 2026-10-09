@@ -12,7 +12,7 @@ B | 3a
 
 ### Vorbereitung.
 
-## Des I. Theils.
+### Des I. Theils.
 
 1. Man nehme A zweymahl
 2. Wie auch B zweymahl

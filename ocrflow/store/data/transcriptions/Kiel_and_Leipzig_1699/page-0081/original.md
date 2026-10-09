@@ -4,7 +4,7 @@
 
 ## Der XXXIV. Vortrag.
 
-## Das 25. Beweiß Stück.
+## Das 25{printer-error-correction:24}. Beweiß Stück.
 
 Aller Nebenstrichichten Vier-Ecke gegen überstehende Seiten und Winckel sind gleich groß/ werden auch von dem Zwerg-Strich in zweene gleiche Theile getheilet.
 
