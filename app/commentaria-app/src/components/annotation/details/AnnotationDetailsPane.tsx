@@ -431,7 +431,7 @@ const AnnotationDetailsContent = ({
 }
 
 export function AnnotationDetailsPane() {
-  const { annotation, refetch, setState } = useAppState()
+  const { annotation, refetch, state, setState } = useAppState()
   const queryClient = useQueryClient()
   const [isEditing, setIsEditing] = useState(false)
   const [editedName, setEditedName] = useState('')
@@ -661,7 +661,14 @@ export function AnnotationDetailsPane() {
         <div>Annotation Details</div>
         {annotation && !isEditing && (
           <Button
-            onClick={() => setState({ annotationTab: 'compare' })}
+            onClick={() =>
+              setState({
+                viewMode: 'compare',
+                leftDatasetId: state.datasetId,
+                leftAnnotationId: state.annotationId,
+                leftPage: state.currentPageOrKey,
+              })
+            }
             className="px-2 py-1 text-xs ml-auto"
           >
             Compare to

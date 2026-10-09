@@ -4,6 +4,7 @@ import { selectStyles } from '../../../../styles/selectStyles.ts'
 import Select from 'react-select'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
+import { useScopedStorageKey } from '../../../../context/storageScope.ts'
 import { IndexMenu } from './IndexMenu.tsx'
 import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
 import { useDatasetImageKeysQuery } from '../../../../queries/datasets.ts'
@@ -59,21 +60,21 @@ export function PageNavigation() {
     [currentValue, imageKeys],
   )
   const [isIndexCollapsed, setIsIndexCollapsed] = useLocalStorageState(
-    'indexCollapsed',
+    useScopedStorageKey('indexCollapsed'),
     {
       defaultValue: false,
       storageSync: false,
     },
   )
   const [isSearchCollapsed, setIsSearchCollapsed] = useLocalStorageState(
-    'searchCollapsed',
+    useScopedStorageKey('searchCollapsed'),
     {
       defaultValue: true,
       storageSync: false,
     },
   )
   const [splitRatio, setSplitRatio] = useLocalStorageState(
-    'indexSearchSplitRatio',
+    useScopedStorageKey('indexSearchSplitRatio'),
     {
       defaultValue: 0.5,
       storageSync: false,
@@ -81,8 +82,6 @@ export function PageNavigation() {
   )
   const [isResizing, setIsResizing] = useState(false)
   const splitRef = useRef<HTMLDivElement | null>(null)
-  const previousShowIndexPaneRef = useRef(showIndexPane)
-  const previousShowSearchPaneRef = useRef(showSearchPane)
 
   const onPageNumChange = (value: string) =>
     setState({ currentPageOrKey: value })
@@ -180,20 +179,6 @@ export function PageNavigation() {
       setState({ currentPageOrKey: getDefaultPageOrKey(availablePages) })
     }
   }, [availablePages, currentOption, currentValue, matchedImage?.key, setState])
-
-  useEffect(() => {
-    const enteredSearchOnlyMode =
-      showSearchPane &&
-      !showIndexPane &&
-      (!previousShowSearchPaneRef.current || previousShowIndexPaneRef.current)
-
-    if (enteredSearchOnlyMode && isSearchCollapsed) {
-      setIsSearchCollapsed(false)
-    }
-
-    previousShowIndexPaneRef.current = showIndexPane
-    previousShowSearchPaneRef.current = showSearchPane
-  }, [isSearchCollapsed, setIsSearchCollapsed, showIndexPane, showSearchPane])
 
   useEffect(() => {
     if (!isResizing) {
@@ -350,40 +335,20 @@ export function PageNavigation() {
       {showIndexPane && !showSearchPane && (
         <div className="flex flex-col flex-1 min-h-0 border-t border-gray-300">
           <div className="px-3 py-4 text-gray-500">
-            <button
-              title={isIndexCollapsed ? 'Expand index' : 'Collapse index'}
-              aria-label={isIndexCollapsed ? 'Expand index' : 'Collapse index'}
-              className="inline-flex items-center gap-2 text-left hover:text-gray-700 transition-colors"
-              onClick={() => setIsIndexCollapsed((prev) => !prev)}
-            >
-              <span className="text-sm">{isIndexCollapsed ? '▶' : '▼'}</span>
-              <span className="font-semibold text-sm">Index</span>
-            </button>
+            <span className="font-semibold text-sm">Index</span>
           </div>
           <div className="flex-1 min-h-0 overflow-hidden">
-            {!isIndexCollapsed && (
-              <IndexMenu disableHighlight={state.annotationTab === 'gallery'} />
-            )}
+            <IndexMenu disableHighlight={state.annotationTab === 'gallery'} />
           </div>
         </div>
       )}
       {!showIndexPane && showSearchPane && (
         <div className="flex flex-col flex-1 min-h-0 border-t border-gray-300">
           <div className="px-3 py-4 text-gray-500">
-            <button
-              title={isSearchCollapsed ? 'Expand search' : 'Collapse search'}
-              aria-label={
-                isSearchCollapsed ? 'Expand search' : 'Collapse search'
-              }
-              className="inline-flex items-center gap-2 text-left hover:text-gray-700 transition-colors"
-              onClick={() => setIsSearchCollapsed((prev) => !prev)}
-            >
-              <span className="text-sm">{isSearchCollapsed ? '▶' : '▼'}</span>
-              <span className="font-semibold text-sm">Search</span>
-            </button>
+            <span className="font-semibold text-sm">Search</span>
           </div>
           <div className="flex-1 min-h-0 overflow-hidden">
-            {!isSearchCollapsed && <AnnotationSearchMenu />}
+            <AnnotationSearchMenu />
           </div>
         </div>
       )}

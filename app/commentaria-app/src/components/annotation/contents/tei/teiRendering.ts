@@ -93,9 +93,7 @@ let printerCorrectionCounter = 0
 
 const isPrinterCorrectionNote = (element: Element) =>
   element.localName === 'note' &&
-  parseAnaRefs(element.getAttribute('ana')).includes(
-    'printer-error-correction',
-  )
+  parseAnaRefs(element.getAttribute('ana')).includes('printer-error-correction')
 
 const getPrinterCorrectionRanges = (
   anchors: Record<string, number>,
@@ -201,8 +199,7 @@ export const appendTextWithAnchors = (
     builder.anchors[`${printerCorrectionStartPrefix}${key}`] =
       builder.text.length
     builder.text += noteText
-    builder.anchors[`${printerCorrectionEndPrefix}${key}`] =
-      builder.text.length
+    builder.anchors[`${printerCorrectionEndPrefix}${key}`] = builder.text.length
     return
   }
 

@@ -8,6 +8,7 @@ import {
 } from 'react'
 import Select from 'react-select'
 import useLocalStorageState from 'use-local-storage-state'
+import { useScopedStorageKey } from '../../../context/storageScope.ts'
 import { useAppState } from '../../../context/useAppState.ts'
 import { RangeInput } from '../../core/RangeInput.tsx'
 import {
@@ -88,6 +89,7 @@ type ImagePaneProps = {
   allZoneCategories?: string[]
   activeLineMatchIds?: string[]
   onHoverLineMatchIds?: (ids: string[]) => void
+  titleInset?: boolean
 }
 
 export function ImagePane({
@@ -97,34 +99,41 @@ export function ImagePane({
   allZoneCategories = [],
   activeLineMatchIds = [],
   onHoverLineMatchIds,
+  titleInset = false,
 }: ImagePaneProps) {
   const {
     annotation,
     state: { datasetId, currentPageOrKey },
   } = useAppState()
-  const [zoom, setZoom] = useLocalStorageState('imagePaneZoom', {
-    defaultValue: DEFAULT_IMAGE_ZOOM,
-  })
+  const [zoom, setZoom] = useLocalStorageState(
+    useScopedStorageKey('imagePaneZoom'),
+    {
+      defaultValue: DEFAULT_IMAGE_ZOOM,
+    },
+  )
   const [isReplaceModalOpen, setIsReplaceModalOpen] = useState(false)
   const [replaceError, setReplaceError] = useState<string | null>(null)
   const [imageVersion, setImageVersion] = useState(0)
   const [highlightMode, setHighlightMode] = useLocalStorageState<HighlightMode>(
-    'imagePaneHighlightMode',
+    useScopedStorageKey('imagePaneHighlightMode'),
     { defaultValue: 'hover', storageSync: false },
   )
   const [highlightZoneFilters, setHighlightZoneFilters] = useLocalStorageState<
     HighlightZoneFilter[]
-  >(HIGHLIGHT_ZONE_FILTER_STORAGE_KEY, {
+  >(useScopedStorageKey(HIGHLIGHT_ZONE_FILTER_STORAGE_KEY), {
     defaultValue: DEFAULT_HIGHLIGHT_ZONE_FILTERS,
     storageSync: false,
   })
   const [selectedZoneCategoryIds, setSelectedZoneCategoryIds] =
-    useLocalStorageState<string[] | null>('imagePaneSelectedZoneCategories', {
-      defaultValue: null,
-      storageSync: false,
-    })
+    useLocalStorageState<string[] | null>(
+      useScopedStorageKey('imagePaneSelectedZoneCategories'),
+      {
+        defaultValue: null,
+        storageSync: false,
+      },
+    )
   const [isLegendMinimized, setIsLegendMinimized] = useLocalStorageState(
-    'imagePaneZoneLegendMinimized',
+    useScopedStorageKey('imagePaneZoneLegendMinimized'),
     { defaultValue: false, storageSync: false },
   )
   const [legendPos, setLegendPos] = useState({ x: 8, y: 8 })
@@ -403,7 +412,9 @@ export function ImagePane({
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white relative">
       <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
-        <div className="text-sm font-semibold grow min-w-0">
+        <div
+          className={`text-sm font-semibold grow min-w-0 ${titleInset ? 'pl-4' : ''}`}
+        >
           {hasPages ? `Page ${currentPageOrKey} Facsimile` : currentImageName}
         </div>
         <Button

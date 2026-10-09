@@ -35,9 +35,12 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     currentPageOrKey: parseAsString.withDefault(''),
     datasetTab: parseAsString.withDefault(''),
     annotationTab: parseAsString.withDefault(''),
-    otherDatasetId: parseAsString.withDefault(''),
-    otherAnnotationId: parseAsString.withDefault(''),
-    otherPage: parseAsString.withDefault(''),
+    leftDatasetId: parseAsString.withDefault(''),
+    leftAnnotationId: parseAsString.withDefault(''),
+    leftPage: parseAsString.withDefault(''),
+    rightDatasetId: parseAsString.withDefault(''),
+    rightAnnotationId: parseAsString.withDefault(''),
+    rightPage: parseAsString.withDefault(''),
   })
   const [searchResultHighlight, setSearchResultHighlight] = useState<
     string | null
@@ -51,7 +54,8 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     queryState.viewMode === 'features' ||
     queryState.viewMode === 'jobs' ||
     queryState.viewMode === 'backups' ||
-    queryState.viewMode === 'logs'
+    queryState.viewMode === 'logs' ||
+    queryState.viewMode === 'compare'
       ? queryState.viewMode
       : null
   const parsedDatasetTab: DatasetTab =
@@ -64,8 +68,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     queryState.annotationTab === 'text' ||
     queryState.annotationTab === 'gallery' ||
     queryState.annotationTab === 'featureResults' ||
-    queryState.annotationTab === 'featureExecutions' ||
-    queryState.annotationTab === 'compare'
+    queryState.annotationTab === 'featureExecutions'
       ? queryState.annotationTab
       : DEFAULT_ANNOTATION_TAB
   const state = useMemo<AppState>(
@@ -76,9 +79,12 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       currentPageOrKey: queryState.currentPageOrKey,
       datasetTab: parsedDatasetTab,
       annotationTab: parsedAnnotationTab,
-      otherDatasetId: queryState.otherDatasetId,
-      otherAnnotationId: queryState.otherAnnotationId,
-      otherPage: queryState.otherPage,
+      leftDatasetId: queryState.leftDatasetId,
+      leftAnnotationId: queryState.leftAnnotationId,
+      leftPage: queryState.leftPage,
+      rightDatasetId: queryState.rightDatasetId,
+      rightAnnotationId: queryState.rightAnnotationId,
+      rightPage: queryState.rightPage,
     }),
     [
       parsedAnnotationTab,
@@ -87,9 +93,12 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       queryState.annotationId,
       queryState.currentPageOrKey,
       queryState.datasetId,
-      queryState.otherDatasetId,
-      queryState.otherAnnotationId,
-      queryState.otherPage,
+      queryState.leftDatasetId,
+      queryState.leftAnnotationId,
+      queryState.leftPage,
+      queryState.rightDatasetId,
+      queryState.rightAnnotationId,
+      queryState.rightPage,
     ],
   )
 
@@ -156,24 +165,33 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
 
   useEffect(() => {
     if (
-      queryState.annotationTab === 'compare' ||
-      (!queryState.otherDatasetId &&
-        !queryState.otherAnnotationId &&
-        !queryState.otherPage)
+      queryState.viewMode === 'compare' ||
+      (!queryState.leftDatasetId &&
+        !queryState.leftAnnotationId &&
+        !queryState.leftPage &&
+        !queryState.rightDatasetId &&
+        !queryState.rightAnnotationId &&
+        !queryState.rightPage)
     ) {
       return
     }
     setQueryState((s) => ({
       ...s,
-      otherDatasetId: '',
-      otherAnnotationId: '',
-      otherPage: '',
+      leftDatasetId: '',
+      leftAnnotationId: '',
+      leftPage: '',
+      rightDatasetId: '',
+      rightAnnotationId: '',
+      rightPage: '',
     }))
   }, [
-    queryState.annotationTab,
-    queryState.otherAnnotationId,
-    queryState.otherDatasetId,
-    queryState.otherPage,
+    queryState.viewMode,
+    queryState.leftAnnotationId,
+    queryState.leftDatasetId,
+    queryState.leftPage,
+    queryState.rightAnnotationId,
+    queryState.rightDatasetId,
+    queryState.rightPage,
     setQueryState,
   ])
 

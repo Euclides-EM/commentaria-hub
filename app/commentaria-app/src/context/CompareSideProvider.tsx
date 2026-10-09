@@ -8,49 +8,63 @@ import type {
 import { AppStateContext } from './AppStateContext'
 import { useAppState } from './useAppState'
 import { useAnnotationSelection } from './useAnnotationSelection'
+import { StorageScopeContext } from './storageScope'
+import { COMPARE_SIDE_KEYS, type CompareSide } from './compareSides'
 
 interface CompareSideProviderProps {
+  side: CompareSide
   children: ReactNode
 }
 
-const toOtherUpdates = (updates: Partial<AppState>): Partial<AppState> => {
+const toSideUpdates = (
+  side: CompareSide,
+  updates: Partial<AppState>,
+): Partial<AppState> => {
+  const keys = COMPARE_SIDE_KEYS[side]
   const { datasetId, annotationId, currentPageOrKey, ...rest } = updates
-  const otherUpdates: Partial<AppState> = { ...rest }
+  const sideUpdates: Partial<AppState> = { ...rest }
   if (datasetId !== undefined) {
-    otherUpdates.otherDatasetId = datasetId
+    sideUpdates[keys.datasetId] = datasetId
   }
   if (annotationId !== undefined) {
-    otherUpdates.otherAnnotationId = annotationId
+    sideUpdates[keys.annotationId] = annotationId
   }
   if (currentPageOrKey !== undefined) {
-    otherUpdates.otherPage = currentPageOrKey
+    sideUpdates[keys.page] = currentPageOrKey
   }
-  return otherUpdates
+  return sideUpdates
 }
 
-export function CompareSideProvider({ children }: CompareSideProviderProps) {
+export function CompareSideProvider({
+  side,
+  children,
+}: CompareSideProviderProps) {
   const parent = useAppState()
   const {
     state: parentState,
     setState: parentSetState,
     getUrlForState: parentGetUrlForState,
   } = parent
-  const [, setOtherQueryState] = useQueryStates({
-    otherAnnotationId: parseAsString.withDefault(''),
-    otherPage: parseAsString.withDefault(''),
+  const [, setCompareQueryState] = useQueryStates({
+    leftAnnotationId: parseAsString.withDefault(''),
+    leftPage: parseAsString.withDefault(''),
+    rightAnnotationId: parseAsString.withDefault(''),
+    rightPage: parseAsString.withDefault(''),
   })
   const [searchResultHighlight, setSearchResultHighlight] = useState<
     string | null
   >(null)
 
+  const keys = COMPARE_SIDE_KEYS[side]
   const state = useMemo<AppState>(
     () => ({
       ...parentState,
-      datasetId: parentState.otherDatasetId,
-      annotationId: parentState.otherAnnotationId,
-      currentPageOrKey: parentState.otherPage,
+      annotationTab: 'text',
+      datasetId: parentState[keys.datasetId],
+      annotationId: parentState[keys.annotationId],
+      currentPageOrKey: parentState[keys.page],
     }),
-    [parentState],
+    [parentState, keys],
   )
 
   const setState = useCallback(
@@ -61,33 +75,41 @@ export function CompareSideProvider({ children }: CompareSideProviderProps) {
       ) {
         setSearchResultHighlight(null)
       }
-      parentSetState(toOtherUpdates(updates))
+      parentSetState(toSideUpdates(side, updates))
     },
-    [parentSetState],
+    [parentSetState, side],
   )
 
   const getUrlForState = useCallback(
     (updates: Partial<AppState>) =>
-      parentGetUrlForState(toOtherUpdates(updates)),
-    [parentGetUrlForState],
+      parentGetUrlForState(toSideUpdates(side, updates)),
+    [parentGetUrlForState, side],
+  )
+
+  const setSidePage = useCallback(
+    (page: string) =>
+      setCompareQueryState(
+        side === 'left' ? { leftPage: page } : { rightPage: page },
+      ),
+    [setCompareQueryState, side],
   )
 
   const jumpToPage = useCallback(
     (nextPageOrKey: PageOrKey) => {
       setSearchResultHighlight(null)
-      setOtherQueryState({ otherPage: String(nextPageOrKey) })
+      setSidePage(String(nextPageOrKey))
     },
-    [setOtherQueryState],
+    [setSidePage],
   )
 
   const setResolvedAnnotationId = useCallback(
-    (otherAnnotationId: string) => setOtherQueryState({ otherAnnotationId }),
-    [setOtherQueryState],
-  )
-
-  const setResolvedPageOrKey = useCallback(
-    (otherPage: string) => setOtherQueryState({ otherPage }),
-    [setOtherQueryState],
+    (annotationId: string) =>
+      setCompareQueryState(
+        side === 'left'
+          ? { leftAnnotationId: annotationId }
+          : { rightAnnotationId: annotationId },
+      ),
+    [setCompareQueryState, side],
   )
 
   const { dataset, annotation, refetch } = useAnnotationSelection({
@@ -95,7 +117,7 @@ export function CompareSideProvider({ children }: CompareSideProviderProps) {
     annotationId: state.annotationId,
     currentPageOrKey: state.currentPageOrKey,
     onAnnotationIdResolved: setResolvedAnnotationId,
-    onPageOrKeyResolved: setResolvedPageOrKey,
+    onPageOrKeyResolved: setSidePage,
   })
 
   const contextValue = useMemo<AppStateContextType>(
@@ -126,7 +148,9 @@ export function CompareSideProvider({ children }: CompareSideProviderProps) {
 
   return (
     <AppStateContext.Provider value={contextValue}>
-      {children}
+      <StorageScopeContext.Provider value={`compare.${side}`}>
+        {children}
+      </StorageScopeContext.Provider>
     </AppStateContext.Provider>
   )
 }

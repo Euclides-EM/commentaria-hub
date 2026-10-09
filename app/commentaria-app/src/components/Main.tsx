@@ -4,7 +4,6 @@ import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsT
 import { GalleryViewTab } from './annotation/gallery/GalleryViewTab.tsx'
 import { FeatureResultsTab } from './annotation/featureResults/FeatureResultsTab.tsx'
 import { FeatureExecutionsTab } from './annotation/featureExecutions/FeatureExecutionsTab.tsx'
-import { AnnotationCompareTab } from './annotation/compare/AnnotationCompareTab.tsx'
 import { useAppState } from '../context/useAppState'
 import { useQuery } from '@tanstack/react-query'
 import { EditionFeaturesService } from '@hub-api'
@@ -13,6 +12,7 @@ import { JobsTable } from './jobs/JobsTable.tsx'
 import { FeaturesTable } from './features/FeaturesTable.tsx'
 import { BackupsView } from './backups/BackupsView.tsx'
 import { LogsView } from './logging/LogsView.tsx'
+import { CompareView } from './compare/CompareView.tsx'
 import { Button } from './core/Button.tsx'
 import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
 import { DatasetDetails } from './dataset/DatasetDetails.tsx'
@@ -67,6 +67,9 @@ export function Main() {
   }
   if (state.viewMode === 'logs') {
     return <LogsView />
+  }
+  if (state.viewMode === 'compare') {
+    return <CompareView />
   }
 
   if (!state.datasetId) {
@@ -136,11 +139,10 @@ export function Main() {
         )}
       </div>
       <div
-        className={`flex-1 min-h-0 m-3 ${activeTab === 'featureResults' || activeTab === 'gallery' || activeTab === 'compare' ? 'flex overflow-hidden' : 'overflow-auto'}`}
+        className={`flex-1 min-h-0 m-3 ${activeTab === 'featureResults' || activeTab === 'gallery' ? 'flex overflow-hidden' : 'overflow-auto'}`}
       >
         {activeTab === 'details' && <AnnotationDetailsTab />}
         {activeTab === 'text' && <AnnotationContentsTab />}
-        {activeTab === 'compare' && <AnnotationCompareTab />}
         {activeTab === 'gallery' && <GalleryViewTab />}
         {activeTab === 'featureResults' && showFeatureExecutionsTab && (
           <FeatureResultsTab />

@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import Select from 'react-select'
 import { useAppState } from '../../../context/useAppState.ts'
+import { useScopedStorageKey } from '../../../context/storageScope.ts'
 import {
   useAnnotationCategories,
   useAnnotationSearch,
@@ -410,6 +411,11 @@ export function GalleryViewTab() {
     state: { annotationId, datasetId, currentPageOrKey },
     setState,
   } = useAppState()
+  const [navigationFloating, setNavigationFloating] = useLocalStorageState(
+    useScopedStorageKey('navigationFloating'),
+    { defaultValue: false, storageSync: false },
+  )
+  const [navigationFloatingOpen, setNavigationFloatingOpen] = useState(false)
 
   const annotationPageEntries = useMemo(
     () => (annotation ? parsePageEntries(annotation.pages || '') : []),
@@ -958,8 +964,23 @@ export function GalleryViewTab() {
 
   return (
     <div className="h-full flex overflow-hidden">
-      <AnnotationNavigation />
-      <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
+      {!navigationFloating && (
+        <AnnotationNavigation
+          floating={false}
+          onFloatingChange={setNavigationFloating}
+          floatingOpen={navigationFloatingOpen}
+          onFloatingOpenChange={setNavigationFloatingOpen}
+        />
+      )}
+      <div className="relative flex-1 flex flex-col min-h-0 overflow-hidden">
+        {navigationFloating && (
+          <AnnotationNavigation
+            floating
+            onFloatingChange={setNavigationFloating}
+            floatingOpen={navigationFloatingOpen}
+            onFloatingOpenChange={setNavigationFloatingOpen}
+          />
+        )}
         <div className="border-b border-gray-200 bg-gray-50 shrink-0 flex flex-col">
           <div className="px-3 py-2 flex items-center gap-3 flex-wrap">
             {teisQuery.isFetching && (

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import Select from 'react-select'
 import useLocalStorageState from 'use-local-storage-state'
+import { useScopedStorageKey } from '../../../../context/storageScope.ts'
 import {
   useAnnotationCategories,
   useAnnotationSearch,
@@ -91,19 +92,19 @@ const getResultLocationDisplay = (result: common_ALTOPart) => {
 export function AnnotationSearchMenu() {
   const { state, dataset, jumpToPage, setSearchResultHighlight } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState(
-    ANNOTATION_SEARCH_TERM_KEY,
+    useScopedStorageKey(ANNOTATION_SEARCH_TERM_KEY),
     { defaultValue: '', storageSync: false },
   )
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState(searchTerm)
   const [selectedCategories, setSelectedCategories] = useLocalStorageState<
     string[] | null
-  >(ANNOTATION_SEARCH_CATEGORIES_KEY, {
+  >(useScopedStorageKey(ANNOTATION_SEARCH_CATEGORIES_KEY), {
     defaultValue: null,
     storageSync: false,
   })
   const [selectedSearchWithin, setSelectedSearchWithin] = useLocalStorageState<
     annotation_SearchWithin | annotation_SearchWithin[] | null
-  >(ANNOTATION_SEARCH_WITHIN_KEY, {
+  >(useScopedStorageKey(ANNOTATION_SEARCH_WITHIN_KEY), {
     defaultValue: null,
     storageSync: false,
   })

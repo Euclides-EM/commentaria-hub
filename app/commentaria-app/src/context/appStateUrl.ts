@@ -7,9 +7,12 @@ export type AppStateQueryState = {
   currentPageOrKey: string
   datasetTab: string
   annotationTab: string
-  otherDatasetId: string
-  otherAnnotationId: string
-  otherPage: string
+  leftDatasetId: string
+  leftAnnotationId: string
+  leftPage: string
+  rightDatasetId: string
+  rightAnnotationId: string
+  rightPage: string
 }
 
 const APP_STATE_QUERY_KEYS: Array<keyof AppStateQueryState> = [
@@ -19,9 +22,12 @@ const APP_STATE_QUERY_KEYS: Array<keyof AppStateQueryState> = [
   'currentPageOrKey',
   'datasetTab',
   'annotationTab',
-  'otherDatasetId',
-  'otherAnnotationId',
-  'otherPage',
+  'leftDatasetId',
+  'leftAnnotationId',
+  'leftPage',
+  'rightDatasetId',
+  'rightAnnotationId',
+  'rightPage',
 ]
 
 export const getNextAppStateQueryState = (
@@ -54,20 +60,35 @@ export const getNextAppStateQueryState = (
   if (updates.annotationTab !== undefined) {
     nextQueryState.annotationTab = updates.annotationTab
   }
-  if (updates.otherDatasetId !== undefined) {
-    nextQueryState.otherDatasetId = updates.otherDatasetId
-    if (updates.otherPage === undefined) {
-      nextQueryState.otherPage = ''
+  if (updates.leftDatasetId !== undefined) {
+    nextQueryState.leftDatasetId = updates.leftDatasetId
+    if (updates.leftPage === undefined) {
+      nextQueryState.leftPage = ''
     }
   }
-  if (updates.otherAnnotationId !== undefined) {
-    nextQueryState.otherAnnotationId = updates.otherAnnotationId
-    if (updates.otherPage === undefined && updates.otherAnnotationId === '') {
-      nextQueryState.otherPage = ''
+  if (updates.leftAnnotationId !== undefined) {
+    nextQueryState.leftAnnotationId = updates.leftAnnotationId
+    if (updates.leftPage === undefined && updates.leftAnnotationId === '') {
+      nextQueryState.leftPage = ''
     }
   }
-  if (updates.otherPage !== undefined) {
-    nextQueryState.otherPage = String(updates.otherPage)
+  if (updates.leftPage !== undefined) {
+    nextQueryState.leftPage = String(updates.leftPage)
+  }
+  if (updates.rightDatasetId !== undefined) {
+    nextQueryState.rightDatasetId = updates.rightDatasetId
+    if (updates.rightPage === undefined) {
+      nextQueryState.rightPage = ''
+    }
+  }
+  if (updates.rightAnnotationId !== undefined) {
+    nextQueryState.rightAnnotationId = updates.rightAnnotationId
+    if (updates.rightPage === undefined && updates.rightAnnotationId === '') {
+      nextQueryState.rightPage = ''
+    }
+  }
+  if (updates.rightPage !== undefined) {
+    nextQueryState.rightPage = String(updates.rightPage)
   }
 
   if (updates.datasetId !== undefined || updates.annotationId !== undefined) {
@@ -80,10 +101,13 @@ export const getNextAppStateQueryState = (
   if (updates.annotationId === '') {
     nextQueryState.annotationTab = ''
   }
-  if (nextQueryState.annotationTab !== 'compare') {
-    nextQueryState.otherDatasetId = ''
-    nextQueryState.otherAnnotationId = ''
-    nextQueryState.otherPage = ''
+  if (nextQueryState.viewMode !== 'compare') {
+    nextQueryState.leftDatasetId = ''
+    nextQueryState.leftAnnotationId = ''
+    nextQueryState.leftPage = ''
+    nextQueryState.rightDatasetId = ''
+    nextQueryState.rightAnnotationId = ''
+    nextQueryState.rightPage = ''
   }
 
   return nextQueryState

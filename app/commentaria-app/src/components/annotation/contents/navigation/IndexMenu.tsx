@@ -5,6 +5,7 @@ import type { annotation_IndexNode } from '@hub-api'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
+import { useScopedStorageKey } from '../../../../context/storageScope.ts'
 import { SearchInput } from '../../../core/SearchInput.tsx'
 import type { PageOrKey } from '../../../../context/AppStateContext.ts'
 import { startCase } from 'lodash'
@@ -24,10 +25,7 @@ const getIndexTypeHue = (
   indexType: string | undefined,
   availableTypes: string[],
 ): number => {
-  const typeIndex = Math.max(
-    availableTypes.indexOf(indexType || 'default'),
-    0,
-  )
+  const typeIndex = Math.max(availableTypes.indexOf(indexType || 'default'), 0)
   return (265 + typeIndex * 137.508) % 360
 }
 
@@ -181,9 +179,7 @@ const Node = ({
             </span>
           )}
           <span
-            style={
-              isCurated ? { color: `hsl(${typeHue} 60% 15%)` } : undefined
-            }
+            style={isCurated ? { color: `hsl(${typeHue} 60% 15%)` } : undefined}
           >
             {node.content} {node.location?.page && `(p. ${node.location.page})`}
           </span>
@@ -225,27 +221,33 @@ export function IndexMenu({
   disableHighlight?: boolean
 }) {
   const { state, jumpToPage } = useAppState()
-  const [searchTerm, setSearchTerm] = useLocalStorageState('indexSearch', {
-    defaultValue: '',
-    storageSync: false,
-  })
+  const [searchTerm, setSearchTerm] = useLocalStorageState(
+    useScopedStorageKey('indexSearch'),
+    {
+      defaultValue: '',
+      storageSync: false,
+    },
+  )
   const [expandedNodeKeys, setExpandedNodeKeys] = useState<Set<string>>(
     () => new Set(),
   )
   const scrollContainerRef = useRef<HTMLDivElement>(null)
   const scrolledPageRef = useRef<number | null>(null)
   const [indexTypes, setIndexTypes] = useLocalStorageState<string[]>(
-    `indexTypes.${state.datasetId}.${state.annotationId}`,
+    useScopedStorageKey(`indexTypes.${state.datasetId}.${state.annotationId}`),
     {
       defaultValue: ['default'],
       storageSync: false,
     },
   )
   const [applyPrinterErrorCorrection, setApplyPrinterErrorCorrection] =
-    useLocalStorageState('indexApplyPrinterErrorCorrection', {
-      defaultValue: false,
-      storageSync: false,
-    })
+    useLocalStorageState(
+      useScopedStorageKey('indexApplyPrinterErrorCorrection'),
+      {
+        defaultValue: false,
+        storageSync: false,
+      },
+    )
   const {
     data: annotationIndex,
     isLoading,
@@ -280,15 +282,21 @@ export function IndexMenu({
     ? -1
     : Number(state.currentPageOrKey) || 0
 
-  useEffect(() => {
-    if (currentPage <= 0) return
+  const [expandedActivePath, setExpandedActivePath] = useState<{
+    page: number
+    nodes: NavigationIndexNode[]
+  } | null>(null)
+  if (
+    currentPage > 0 &&
+    (expandedActivePath?.page !== currentPage ||
+      expandedActivePath.nodes !== navigationNodes)
+  ) {
+    setExpandedActivePath({ page: currentPage, nodes: navigationNodes })
     const activePathKeys = getActivePathKeys(navigationNodes, currentPage)
-    if (activePathKeys.length === 0) return
-    setExpandedNodeKeys((current) => {
-      if (activePathKeys.every((key) => current.has(key))) return current
-      return new Set([...current, ...activePathKeys])
-    })
-  }, [currentPage, navigationNodes])
+    if (!activePathKeys.every((key) => expandedNodeKeys.has(key))) {
+      setExpandedNodeKeys(new Set([...expandedNodeKeys, ...activePathKeys]))
+    }
+  }
 
   useEffect(() => {
     if (currentPage <= 0 || scrolledPageRef.current === currentPage) return

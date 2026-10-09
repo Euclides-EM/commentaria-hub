@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import useLocalStorageState from 'use-local-storage-state'
+import { useScopedStorageKey } from '../../../../context/storageScope.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
 import {
   getTeiParagraphSelection,
@@ -200,7 +201,7 @@ export const TeiContentView = ({
   const { state, searchResultHighlight: contextSearchResultHighlight } =
     useAppState()
   const [selectedIndexTypes] = useLocalStorageState<string[]>(
-    `indexTypes.${state.datasetId}.${state.annotationId}`,
+    useScopedStorageKey(`indexTypes.${state.datasetId}.${state.annotationId}`),
     {
       defaultValue: ['default'],
       storageSync: false,

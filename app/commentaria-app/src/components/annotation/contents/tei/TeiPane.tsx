@@ -22,6 +22,7 @@ import {
 } from '../../../../queries/annotations.ts'
 import { useDatasetFeaturesQuery } from '../../../../queries/datasets.ts'
 import useLocalStorageState from 'use-local-storage-state'
+import { useScopedStorageKey } from '../../../../context/storageScope.ts'
 import Select from 'react-select'
 import { selectStyles } from '../../../../styles/selectStyles.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
@@ -67,6 +68,7 @@ type TeiPaneProps = {
   onHoverLineMatchIds: (ids: string[]) => void
   onSurfaceZonesChange: (zones: TeiSurfaceZone[]) => void
   onAllZoneCategoriesChange: (categories: string[]) => void
+  titleInset?: boolean
 }
 
 export function TeiPane({
@@ -74,6 +76,7 @@ export function TeiPane({
   onHoverLineMatchIds,
   onSurfaceZonesChange,
   onAllZoneCategoriesChange,
+  titleInset = false,
 }: TeiPaneProps) {
   const {
     annotation,
@@ -83,22 +86,30 @@ export function TeiPane({
   const queryClient = useQueryClient()
   const isAuthenticated = !!useAuthStore((store) => store.token)
 
-  const [minCert, setMinCert] = useLocalStorageState('minCert', {
-    defaultValue: 0.8,
-    storageSync: false,
-  })
+  const [minCert, setMinCert] = useLocalStorageState(
+    useScopedStorageKey('minCert'),
+    {
+      defaultValue: 0.8,
+      storageSync: false,
+    },
+  )
   const [showTeiLineHighlights, setShowTeiLineHighlights] =
-    useLocalStorageState('showTeiLineHighlights', { defaultValue: true })
-  const [alignLines, setAlignLines] = useLocalStorageState('alignTeiLines', {
-    defaultValue: false,
-    storageSync: false,
-  })
+    useLocalStorageState(useScopedStorageKey('showTeiLineHighlights'), {
+      defaultValue: true,
+    })
+  const [alignLines, setAlignLines] = useLocalStorageState(
+    useScopedStorageKey('alignTeiLines'),
+    {
+      defaultValue: false,
+      storageSync: false,
+    },
+  )
   const [showCertaintyVisualization, setShowCertaintyVisualization] =
-    useLocalStorageState('showTeiCertaintyVisualization', {
+    useLocalStorageState(useScopedStorageKey('showTeiCertaintyVisualization'), {
       defaultValue: false,
     })
   const [isFeatureSelectExpanded, setIsFeatureSelectExpanded] =
-    useLocalStorageState('teiFeatureSelectExpanded', {
+    useLocalStorageState(useScopedStorageKey('teiFeatureSelectExpanded'), {
       defaultValue: false,
       storageSync: false,
     })
@@ -139,7 +150,10 @@ export function TeiPane({
 
   const [storedTeiSource, setStoredTeiSource] = useLocalStorageState<
     'annotation' | 'edition'
-  >('teiSource', { defaultValue: 'annotation', storageSync: false })
+  >(useScopedStorageKey('teiSource'), {
+    defaultValue: 'annotation',
+    storageSync: false,
+  })
   const preferredTeiSource = candidateSources.includes(storedTeiSource)
     ? storedTeiSource
     : candidateSources[0]
@@ -217,7 +231,7 @@ export function TeiPane({
   const surfaceZoneTeiContents =
     teiContents ?? annotationTeiQuery.data ?? editionTeiQuery.data ?? null
   const [teiViewModes, setTeiViewModes] = useLocalStorageState<TeiViewMode[]>(
-    'teiViewModes',
+    useScopedStorageKey('teiViewModes'),
     { defaultValue: [] },
   )
 
@@ -404,9 +418,12 @@ export function TeiPane({
     ? `teiVisibleHighlightFeatures:${datasetId}`
     : 'teiVisibleHighlightFeatures'
   const [storedVisibleFeatureIds, setStoredVisibleFeatureIds] =
-    useLocalStorageState<string[] | null>(highlightStorageKey, {
-      defaultValue: null,
-    })
+    useLocalStorageState<string[] | null>(
+      useScopedStorageKey(highlightStorageKey),
+      {
+        defaultValue: null,
+      },
+    )
 
   const visibleFeatureIds = useMemo(() => {
     const availableIds = allResolvedFeatures.map((feature) => feature.id)
@@ -854,7 +871,7 @@ export function TeiPane({
     <>
       <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white">
         <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
-          <div>{paneTitle}</div>
+          <div className={titleInset ? 'pl-4' : undefined}>{paneTitle}</div>
           <div className="flex items-center gap-2">
             {textEditError && (
               <span className="text-xs text-red-600">{textEditError}</span>
