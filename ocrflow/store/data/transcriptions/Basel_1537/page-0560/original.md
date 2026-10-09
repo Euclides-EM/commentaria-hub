@@ -1,37 +1,39 @@
-<!-- Page number: 550 -->
+<!-- Running title: DATA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 549 -->
 
-rationem datam habebunt , uel altera altera dato maior erit quàm in ratione.
+d b. Dico quod a b ipsi c d, aut est æqualis, uel altera altera dato maior est. Quoniā enim data est utraque ipsarū a c, b d. Data iam aut sunt æqualia aut inæqualia. Sint primū æqualia, æqualis igitur est a c ipsi b d, communis auferatur e b, reliqua igitur a b reliquæ c d est æqualis. Non sint autem æqualia, sed esto maior a c, ipsa b d & ipsi b d, exhibeatur æqualis c e, per 2 primi elemen. Ipsa b d, data est, data igitur est & c e, est autem & tota a c, data, & reliqua a e, data est. Et quoniam æqualis est e c ipsi b d, communis auferatur b c: reliqua igitur b e, reliquæ c d est æqualis. Est aūt data a e. Igitur a b ipsa c d, dato maior est.
 
-Binæ nãq̃ magnitudines a b,c d,adinuicẽ rõnẽ habeant datã,auferaturq̃ ab earũ utraq̃ data magnitudo: ab ipsa,inquã,a b ipsa a e,ab ipsa uero c d ipsa c f. Dico quod & reliquæ e b,f d,adinuicẽ aut rationem habebunt datam,uel altera,altera dato maior est quàm in ratione. Nã quoniã utraq̃ a e,c f,data est,ratio igitur ipsius a e ad c f,data est,per primã propositionẽ. Et siquidem eadem est ei quæ ipsius a b ad c d,erit & reliquæ e b,ad reliquã f d.ratio data. Non sit autem eadẽ fiatque sicut a b ad c d,sic a g ad c f. Ratio autẽ ipsius a b,ad c d,data est. Ratio ipsius igitur a g,ad c f data est. Data igitur est & a g. Est aũt & a e,data. Et reliqua igitur e g data est. Et quoniã est sicut a b ad,c d,sic est a g,ad c f. Reliquæ igitur g b,ad reliquã. f d ratio data est. Est autẽ data e g. Igitur e b,ipsa f c,dato maior est quàm in ratione.
-
-[Diagram: two horizontal lines; the upper with points b, g, e, a; the lower with points d, f, c]
+[Diagram: one horizontal line segment with points d, e, b, c, a]
 
 ## Scholium.
 
-Hoc conuersum est quodammodo præcedentis,ostendens, ꝙ si appositæ fuerint datæ magnitudines,eis datam habent, rationem,nunc uero auferatur eadem ab eisdem idem ostendit.
+Si autem maior fuerit b d ipsa a c dato a c æquum aūt quod ex b & eadem efficiētes demōstrabimus, quod c d ipsa a b dato maior est, hoc enim patuit in prima, uel altera, altera dato maior est.
 
-## Theorema 16 Propositio 16
+## Theorema 13 — Propositio 13
 
-SI binæ magnitudines inuicem rationem habuerint datam,& sub una earum data magnitudo auferatur,alteri uero earum data magnitudo apposita fuerit,tota dato maior est quàm in ratione.
+I fuerint tres magnitudines, & prima ad secundam rationē habuerit datam, secunda uero tertia dato maior fuerit quàm in ratione, & prima tertia dato maior erit quæ in ratione. {dropcap:S|lines=?|style=decorated|decoration="not printed; guide letter ſ in the blank space"}int tres magnitudines a b, c d, e & ipsa quidem a b, ad c b{printer-error-correction:c d}, rationem habeat datam, at c d ipsa e dato maior sit quàm in ratione. Dico quod & a b ipsa e dato maior est quàm in ratione. Nam quoniā c d ipsa e dato maior est quàm in ratione: auferatur data magnitudo c f. Reliquæ igitur d f, ad e ratio data est, & quoniam ipsius a b ad c d, ratio data est, eadē eidem fiat quæ ipsius a g ad c f, data. Data est c f, data igitur & a g & reliquæ g b ad reliquam f d, ratio data est, & ipsius d f ad e, ratio data est, & ipsius g b ad e igitur ratio data est. Est autem data a g. Igitur ipsa c{printer-error-correction:e} dato maior est quā in ratione.
 
-Binæ siquidem magnitudines a b,c d,rationem habeant datam,& ab ipsa c d.data auferatur magnitudo,ipsi uero a b data apponatur magnitudo f a. Dico quod tota f b tota e d,dato maior est quàm in ratione. Nam quoniam ipsius a b ad c d,ratio data est,eadem eidem fiat hoc est ipsius a g ad c e. Igitur ipsius a g ad c e ratio data est. Data autẽ est c e,data igitur & a g. Est autẽ & a f data. Tota igitur f g,data est per 3 propositionẽ. Et quoniã est sicut a b ad c d sic est a g ad c e,& reliquæ g b,ad reliquã e d,ratio est data per 19 quinti elemẽtorum. Et g f data est. Igitur f b ipsa e d dato maior est quàm in ratione.
+[Diagram: three vertical line segments: one with points c, f, d; one with points a, g, b; one labelled e]
 
-[Diagram: two vertical line segments in the right margin, with visible point labels f, e, a, e, d, b]
+## Scholium.
 
-## Theorema 17 Propositio 17
+Si enim fuerit sicut totum ad totum, sic ablatum ad ablatum, & reliquū ad reliquū erit sicut totum ad totum, sicut patet per 19 quinti elemen. & in diffinitionibus, componitur enim dato quod maior sit quàm in ratione.
 
-SI fuerint tres magnitudines,& prima secũda dato maior fuerint quàm in ratione, fuerit autem & tertia eadem dato maior quàm in ratione,prima ad tertiam aut datam rationem habebit,uel altera altera dato maior erit quàm in ratione.
+## Theorema 14 — Propositio 14
 
-Sint tres magnitudines a b,c,d e.& utraque ipsarum a b,d e,ipsa c dato maior esto quàm in ratione. Dico quod ipsæ a b,d e, aut adinuicem datam habent rationẽ, uel altera altera,dato maior est quàm in ratiõe. Auferatur data magnitudo d g. Reliquæ igitur g e ad c,ratio est data. Id propterea iam & ipsius f b ad c,ratio est data, & ipsius f b ad g e,igitur rõ est data,& eis apponuntur datæ magnitudines a f,d g. Totæ igitur a b,d e,adinuicem uel rationẽ habet datam,uel altera altera dato maior est quàm in ratione.
+I binæ magnitudines adinuicem rationem datam habuerint, appositaq̃ fuerit earum utrique data magnitudo, totæ adinuicem aut rationem datam habebunt, aut altera altera maior est quàm in ratione. {dropcap:S|lines=?|style=decorated|decoration="not printed; guide letter ſ in the blank space"}
 
-[Diagram: vertical line segments in the right margin, with visible point labels c, b, f, g, c, d, a]
+Binæ siquidem magnitudines a b, c d, adinuicē rationē habeant datam, & apponatur earū utrique data magnitudo hoc est a e, & c f. Dico quod totæ e b, f d: adinuicē aut rationem habent datam, uel altera altera, dato maior est quàm in ratione. Nam quoniam data est utraque ipsarum e a, c f. Ratio igitur ipsius e a ad c f, data est, & siquidem eadem quæ ipsius a b ad c d igitur & totius e b ad totam f d, ratio est data. Non autem sit eadem. Fiátque sicut a b ad c d, sic g a ad c f. Ratio igitur & ipsius g a ad c f, data est. Data aūt est f c, data igitur & g a & ipsius f c ad g a, ratio data est. Et reliqua igitur e g, data est. Estq̃ sicut a b ad c d, sic g a ad f c. Ratio igitur ipsius g a ad f c est data. Data autem & f c. Data igitur est & g a. Est autem & ea data, & reliqua igitur e g, data est. Et quoniā sicut a b ad c d, sic g a ad f c, ratio igitur ipsius g b ad f d, data est. Est autē data & e g. Igitur e b ipsa f d, maior est dato quàm in ratione.
 
-## Theorema 18 Propositio 18
+[Diagram: two horizontal line segments: the upper with points b, a, g, e; the lower with points d, c, f]
 
-SI fuerint tres magnitudines, una autem earum utraque reliquarum dato maior fuerit quam in ratione, binæ reliquæ adinuicem aut rationem datam habebunt,uel altera altera dato maior erit quam in ratione.
+## Scholium
 
-Sint tres magnitudines a b,c d,e f,earum uero una c d,utraque reliquarum a b,e f,da
+Si uero efficiemus sicut a b ad c d, sic a e, ad id quod ex c, sicut in 7 inuenietur f d ipsa e b. dato maior quàm in ratione.
 
-<!-- Catchword: to -->
+## Theorema 15 — Propositio 15
+
+SI binæ magnitudines adinuicem rationem datam habuerint, & auferatur ab earū utraq̃ data magnitudo, reliquæ adinuicē aut
+
+<!-- Catchword: rationē -->

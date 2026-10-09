@@ -1,37 +1,33 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: DATA -->
 
-<!-- Page number: 582 -->
+<!-- Page number: 581 -->
 
-tur b d. Datur igitur & b c, est aũt & a c, datũ, & angulus a b c datus. Data igitur est a b, utraq̃ igitur ipsarum a b, b c, datã est.
+sic b ad quam a rationem habet datam. Nam quoniã est sicut a ad b, sic c ad e. Quod igitur sub a e, ei est æquum quod sub b c, per 16 sexti ele. Et quoniã ratio ipsius e ad d, data est. Ratio igitur ipsius quod sub a d ad id quod sub a e data est. Quod autem sub a e, ei est æquum quod sub b c. Ratio igitur eius quod sub a d ad id quod sub b c data est, igitur sicut d ad c sic b ad quam a rationem habet datam.
 
-## Theorema 87. Propositio 87.
+## Theorema 84. Propositio 84.
 
-SI binæ rectæ lineæ areolam comprehenderint datã in dato angulo, quod à maiori uero minore dato maius fuerit, & ipsarum utraque data erit.
+SI binæ rectæ lineę datam areolam comprehẽderint in dato angulo, & altera altera data maior fuerit, & ipsarum utraque data erit.
 
-Binæ, inq̃, rectæ lineæ a b, b c datã areã cõprehẽdant a c in dato angulo a b c, quod aũt ex a b dato maius esto, eo q̃ ex b c, dico q̃ utraq̃ ipsarũ a b, b c data est. Nã q̃m quod ex a b, eo quod ex b, dato maius est. Auferatur datũ sitq̃ quod sub a b, b d. Reliquũ igitur quod sub b a, a d, æquum est ei quod ex b c. Et quoniã quod sub a b, b c, datũ est, est aũt & quod sub a b, b d datum. Ratio igitur eius quod sub a b, b d ad id q̃ sub a b, b c data est. Estq̃ sicut quod sub a b, b d ad id quod sub a b, b c, sic d b ad b c. Ratio igitur ipsius d b ad b c, data est. Ratio igitur & eius quod ex d b, ad id quod ex b c data est. Ei autem quod ex b c, æquũ est id quod sub b a, a d. Ratio igitur eius quod sub b a, a d, ad id qd' ex d b, data est. Et eius igitur quod quater sub b a, a d una cũ eo quod ex d b ad id qd' ex d b ratio est data. Sed quod quater sub b a, a d una cum eo quod ex b d, id est quod ex utraq̃ simul ipsarũ b a, a d. Ratio igitur & eius quod ex utraq̃ simul b a, a d, ad id quod ex d b data est. Ratio igitur & utriusque simul b a ad d b data est. Et cõponẽdo igitur p 18 q̃nti ele. utriusq̃ simul b a, a d una cũ ipsa d b hoc est binarũ a b ad b d, ratio est data, & unius igitur a b ad d b, rõ est data. Ipsius autẽ d b ad b c, ratio est data. Et ipsius igitur a b ad b c, ratio est data. Et q̃m ipsius a b ad b d ratio est data, estq̃ sicut a b ad b d, sic quod ex a b ad id quod sub a b, b d. Ratio igitur & eius quod ex a b ad id quod sub a b, b d data est. Datũ aũt est q̃ sub a b, b d. Sic enim datũ aufertur. Datũ igitur est & qd' ex a b. Data igitur est a b, estq̃ ratio ipsius a b ad b d data. Data igitur est & b c.
+Binæ, inquam, rectæ lineæ a b, b c areolam comprehendant a c in angulo sub a b c. At c b ipsa b a dato maior sit. Dico q̃ utraq̃ ipsarũ a b. b c, data est. Nã quoniã c b ipsa b a dato maior est. Sit data d c. Reliqua igitur d b ipsi a b, est æqualis: Cõpleatur a c. Et quoniã æqualis est a b ipsi b d. Ratio igitur ipsius a b ad b d data est. Datus autem est angulus a b d. Datur igitur a d specie. Quoniã igitur a c data est, ad datam d c adiũgitur excedẽs specie dato a d. Datur igitur excessus per 59 datorũ. Data igitur est b d. Sed & d c. Igitur tota b c data est, est autem & a b data, utraque igitur a b, b c data est.
 
 [Diagram: a rectangle with corner label c at upper right and base labels a, d, b]
 
-## Theorema 88. Propositio 88.
+## Theorema 85. Propositio 85.
 
-SI in circulo magnitudine dato, recta linea acta fuerit assumens segmẽtũ capiẽs angulũ datũ, datur acta magnitudine.
+SI binæ rectæ lineæ datam areolam comprehenderint in dato angulo, fuerit aũt & utraque simul data, & ipsarũ utraque data erit.
 
-In circulo enim a b c magnitudine dato, excitetur a c assumẽs segmẽtũ a e c, accipiẽs angulũ datũ. Dico quod a c datur magnitudine. Assumatur enim per 1 tertij ele. centrũ circuli sitq̃ illud d, & cõnexa a d & extẽdatur in e & cõnectatur c e. Datus igitur est qui sub a c e. rectus enim est, est aũt & q̃ sub a e c, datus, & reliquus igitur qui sub c a e, datus est, datur igitur triãgulũ a e c specie. Ratio igitur est ipsius a e ad a c data, data autem est ea magnitudine, quoniã & circulus datur magnitudine. Data igitur est a c magnitudine.
+Binæ, inquam, rectæ lineæ a b, b c, datã areolam comprehendant a c in dato angulo a b c data. Dico quod & utraq̃ ipsarũ a b, b c, data erit. Extendatur c b in d ponaturq̃ per 2 primi ele. ipsi a b æqualis b d, & per 31 primi ele. per d ipsi b a parallelus excitetur d e. Compleaturq̃ a d, & quoniam æqualis est d b ipsi b a. Et angulus a b c datus est, q̃m & qui ex utraque parte datus est, datur igitur e b. specie. Et q̃m a b c, simul data est, æqualis autẽ est & a b ipsi d b. Data igitur est d c. Quoniã igitur a c data est, ad datam d c comparatur deficiẽs specie dato e b, igitur per 58 datorum dantur latitudines defectus. Datæ igitur sunt ipsæ a b, b d. Sed & utraq̃ simul a b c, data est. Data igitur est utraq̃ ipsarũ a b, b c.
 
-[Diagram: a circle with points b (upper left), a (right), c (left), e (lower left), centre d, with chords a c, a e, c e drawn]
+[Diagram: a rectangle with top labels e, a; left label c; base labels b, d; divided by a vertical line]
 
-## Theorema 89. Propositio 89.
+## Theorema 86. Propositio 86.
 
-SI in circulo magnitudine dato, recta linea acta fuerit data magnitudine, relinquetur segmẽtũ capiens angulũ datum.
+SI binę rectę lineæ datam areolam comprehenderint in dato angulo, potuerit autem utraque utráque dato maius quàm in ratione, & ipsarum utraque data erit.
 
-In circulo eñ magnitudine dato a b c, recta linea excitetur a c data magnitudine. Dico quod relinquetur segmẽtũ capiens angulũ datũ. Accipiatur enim per 1 tertij ele. cẽtrũ circuli sitq̃ illud d & cõnexa a d extẽdatur in e, & q̃m utraq̃ ipsarũ e a, a c est data. Rõ igitur ipsius e a ad a c, data est. Et angulus qui sub a c e. rectus est. Datur igitur a c e triãgulũ specie. Datꝰ igitur est angulus a e c.
+Binæ, inquã, rectæ lineæ a b, b c datam areã cõprehendant a c, in dato angulo a b c, quod autẽ ex b c eo quod ex a b dato maius sit quàm in ratione. Dico quod & utraque ipsarũ a b, b c, data est. Nã q̃m quod ex c b eo quod ex b a dato maius est q̃ in ratione. Auferatur datum, sitq̃ quod sub c b, b d. Reliqui igitur quod sub c d, c b ad id quod ex a b ratio data est. Et quoniã quod sub a b, b c, datũ est, est aũt quod sub b, b d datũ. Ratio igitur eius quod sub a b, b c ad id quod sub c b, b d, data est. Sicut autẽ qd' sub a b. b c, ad id quod sub c b, b d: Sic a b ad b d. Quare & ipsius a b ad b d ratio est data. Quare & eius quod ex a b ad id quod ex b d ratio est data. Eius aũt quod ex a b, ad id quod sub b c, c d ratio est data. & eius quod sub b c, c d igitur ad id quod ex d b ratio est data. Quare & eius quod quater sub b c, c d ad id quod ex b d ratio est data. Et eius igitur quod quater sub b c, c d una cum eo quod ex b d ad id quod ex b d ratio est data. Sed id quod quater sub b c, c d una cum eo quod ex b d id est quod ex utroq̃ simul est ipsius b c, c d. Ratio igitur utriusq̃ simul quod ex b c, c d ad id quod ex b d data est. Quare & utriusq̃ b c, c d, ad b d, ratio data est. Et componendo igitur per 18 quinti ele. binarum b c ad b d, ratio est data. Quare unius c b ad b d ratio est data. Sicut autem c b ad b d, sic quod sub c b, b d ad id quod ex b d. Et eius quod sub c b, b d igitur ad id quod ex b d ratio est data. Datum autem quod sub c b d, datum igitur & quod ex b d. Data igitur est b d. quare & b c, data est, ipsius enim c b ad b d ratio est data: & da-
 
-[Diagram: a circle with points a (upper right), b (left), c (lower left), e (bottom), centre d, with chords drawn]
+[Diagram: a rectangle with corner label c at upper right and base labels a, d, b]
 
-## Theorema 90. Propositio 90.
-
-SI in circuli positione dati circunferentia assumptũ fuerit signũ datũ, ab hoc autẽ ad circuli circunferentiã infringatur aliqua recta linea datum angulum efficiens, datur alter finis refractæ.
-
-Circuli enim positione dati a b c in circũferẽtia accipiatur datũ signũ b, ab ipso aũt b refringatur recta linea b a c. datũ efficiẽs angulũ b a c. Dico quod c signũ datur. Assuma-
+<!-- Signature: Cc 3 -->
 
 <!-- Catchword: tur -->

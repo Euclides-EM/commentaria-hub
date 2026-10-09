@@ -1,23 +1,21 @@
-<!-- Page number: 2 -->
+[Ornament: ornamental headpiece border]
 
-<!-- Running title: GEOMET. ELEMEN. EVCLIDIS -->
+<!-- Page number: 1 -->
 
-sunt æquales. 16 Et hic quidem punctus: centrum circuli dicitur.
+# EVCLIDIS MEGARENSIS CLARISSIMI PHILOSOPHI, MATHEMATICORVM facile principis: primum ex Campano, deinde ex Theone græco commentatore, interprete Bartholomæo Zamberto Veneto, Geometricorum elementorum liber primus.
 
-17 Diameter circuli, est linea recta quæ super eius centrum transiens, extremitatesq́ʒ suas circunferentiæ applicans, circulum in duo media diuidit. 18 Semicirculus, est figura plana diametro circuli & medietate circunferentiæ contenta. 19 Portio circuli, est figura plana recta linea & parte circunferentiæ contenta, semicirculo quidem aut maior aut minor.
+## Ex Campano: triplex principiorum genus. Primum Diffinitiones.
 
-[Diagram: Circulus (circle with point marked Centrum); Triangulus (triangle); Quadrangulus (hatched cube-like solid); Diameter (circle with horizontal diameter); Maior portio (segment greater than a semicircle); Semicirculus (semicircle); Minor portio (segment less than a semicircle)]
+{dropcap:P|lines=?|style=decorated|decoration="depicting Alexander and Diogenes, labelled ALEXANDER DIOGENES"}Vnctus est, cuius pars non est. 2 Linea, est longitudo sine latitudine. 3 Cuius quidem extremitates, sunt duo puncta. 4 Linea recta, est ab uno puncto ad alium breuissima extensio, in extremitates suas eos recipiens. 5 Superficies, est quæ longitudinem & latitudinem tantum habet. 6 Cuius quidem termini, sunt lineæ. 7 Superficies plana, est ab una linea ad aliam breuissima extensio, in extremitates suas eas recipiens.
 
-20 Rectilineæ figuræ, sunt quæ rectis lineis continentur. 21 Quarum quædam trilateræ: quæ tribus rectis lineis. 22 Quædam quadrilateræ: quæ quatuor rectis lineis. 23 Quædā multilaterę, quæ pluribus q̃ʒ quatuor rectis lineis continentur.
+[Diagram: Punctus (a dot); Linea (a curved line); Su per fi ci es (a plain quadrilateral, a hatched parallelogram, and a curved shaded surface)]
 
-[Diagram: Trilatera (triangle); Quadrilatera (quadrilateral); Multilatera (hexagon); Aequilaterus (equilateral triangle)]
+8 Angulus planus, est duarum linearum alternus contactus, quarum expansio est super superficiem, applicatioq́ʒ non directa. 9 Quando autem angulū continent duæ lineæ rectæ: rectilineus angulus nominatur. 10 Quando recta linea super rectam steterit, duoq́ʒ anguli utrobiq̃ fuerint æquales, eorum uterque rectus erit, lineaq́ʒ lineæ superstans, ei cui superstat, perpendicularis uocatur. 11 Angulus uero qui recto maior est, obtusus dicitur. 12 Angulus uero minor recto, acutus appellatur.
 
-24 Figurarū trilaterarū, alia est triangulus, habēs tria latera æqualia. 25 Alia, triangulus duo habens æqualia latera. 26 Alia, triangulus trium inæqualiū laterū. 27 Harum iterū alia est orthogoniū, unum, scilicet, rectum angulū habens. 28 Alia est amblygoniū, aliquē obtusum angulum habens. 29 Alia est oxygoniū, in qua tres anguli sunt acuti.
+[Diagram: Angulus planus (angle of two curved lines); Rectilineus (angle of two straight lines); Angulus obliquus (angle of curved lines); a Acutus, b Obtusus (angles marked a and b); Li. perpendic. c Rectus (perpendicular line standing on a horizontal line with right angle at c)]
 
-[Diagram: Duum æqualium laterum; Trium inæqualiū laterū; Orthogoniū; Oxygoniū; Amblygoniū — seven triangles of the several kinds]
+13 Terminus, est quod uniuscuiusq̃ finis est. 14 Figura, est quæ termino uel terminis continetur. 15 Circulus, est figura plana una quidem linea contenta quæ circūferentia nominatur, in cuius medio punctus est, à quo omnes lineæ rectæ & ad circunferentiam exeuntes, sibi inuicem
 
-30 Figurarū autem quadrilaterarū, alia est quadratum, quod est æquilaterum atq̃ rectangulū. 31 Alia est tetragonus longus, quæ est figura rectangula, sed æquilatera non est. 32 Alia est helmuayn, quæ est æquilatera, sed rectangula non est. 33 Alia est similis helmuayn, quæ oppo-
+<!-- Signature: a -->
 
-[Diagram: Quadratum (square); Tetragonus longus (oblong rectangle); Helmuayn (rhombus); Similis helmuayn (rhomboid); Helmuariphe (trapezium)]
-
-<!-- Catchword: sita -->
+<!-- Catchword: sunt -->

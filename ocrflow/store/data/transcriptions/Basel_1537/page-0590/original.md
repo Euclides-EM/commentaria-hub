@@ -1,31 +1,23 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: DATA -->
 
-<!-- Page number: 580 -->
+<!-- Page number: 579 -->
 
-ex b c, ratio est data. Sed area d una cũ ea quæ ex b c est id quod ex utraque b a c. Ratio enim eius quod ex utraq̃ b a c ad id quod ex b c data est, quare & utriusque b a c ad b c ratio data est, estq̃ angulus qui sub b a c, datus: datur igitur triangulũ a b c specie.
+angulus qui sub g h l. Connectãturq̃ ipse f l, l g exciteturq̃ per 12 primi ele. perpendicularis l m. Et q̃m angulus b a d angulo l h g est æqualis, & qui sub h l g ei qui sub a b c, & reliquus igitur qui sub b c a reliquo qui sub h g l, est æqualis. Simile igitur est triangulũ b c a ipsi h l g triãgulo & perpẽdiculares ductæ sunt b d, l m, est igitur sicut a c ad b d, sic h g ad l m, per 76 propositionẽ. Erat autẽ sicut a c ad b d sic h g ad f k, supponitur enim. Et sicut igitur per 11 quinti ele. h g ad m l. Sic h g ad f k, æqualis igitur est f k ipsi l m, est autem & parallelus & f l ipsi h g, est æqualis & parallelus. Aequalis igitur est angulus f l h ipsi l h g angulo. Sed qui sub l h g ipsi b a c est æqualis, qui uero sub f l h ipsi f g h est æqualis. Et qui sub b a c igitur ei qui sub f g h est æqualis, est autem & qui sub a b c ei qui sub f h g. æqualis. Reliquus igitur qui sub b c a, reliquo qui sub f h g est æqualis. æquiangulum igitur est a b c triãgulum ipsi f h g triangulo.
 
-## Theorema 81. Propositio 81.
+## Theorema 80. Propositio 80.
 
-SI tres rectæ lineæ proportionales, existẽtes tribus rectis lineis pportionalibus existẽtibus, extremas in rõne data habuerint, medias in data ratione habebunt & si extrema ad extremam rationem datam habuerit, & media ad mediam reliqua ad reliquam extremam rationem datam habebit.
+SI triangulum unum habuerit angulũ datum, & quod sub datum angulum comprehendentibus rectis lineis, ad id quod ex reliquo latere quadratum rationem habuerit datam, datur triangulum specie.
 
-Tres, inquam, rectæ lineæ proportionales existentes a, b, c. tribus rectis lineis proportiõalibus existẽtibus d e f, extremas in data rõne habeãt, sitq̃ ipsius quidẽ a ad d ratio data, ipsius autem c ad f, ratio quoq̃ data. Dico quod ipsius b ad e, rõ est data. nã q̃m ipsius a ad d ratio qdẽ data est, ipsius aũt c ad f, rõ quoq̃ est data. Rõ igitur eius quod sub a c ad id q̃ sub d f, data est. Sed ei quidẽ quod sub a c, æquũ est id q̃ ex b, per 17 sexti ele. ei autem quod sub d f per eandẽ: æquũ est id qd' ex e, ratio igitur eius quod ex b ad id quod ex e data est, quare & ipsius b ad e, ratio data est. Esto iã rursus ipsius quidẽ a ad d ratio data, ipsiusq̃ b ad e, ratio est data. Dico qd' & ipsius c ad f ratio est data. Nam quoniã ratio ipsius a ad d est data, ipsius autẽ b ad e, ratio est data: rõ quoq̃ eius quod ex b ad id quod ex e data. Sed ei quidẽ qd' ex b æquũ est id quod ex a c per 17 sexti ele. Ei aũt quod ex e. per eandẽ æquũ est id quod sub d f. ratio igitur eius quod sub a c ad id quod sub d f est data, & unius lateris a ad unum latus d ratio est data. & reliqui igitur c ad reliquum f ratio est data.
+Esto triangulum a b c datum habens angulum qui ad a, & quod sub b a c ad id quod ex b c rationem habeat datã. Dico quod ipsum a b c triãgulum specie datur, excitentur enim per 12 primi elemẽtorum. ab ipsis a b in ipsas b c, c a, perpẽdiculares b d, a e. Quoniã igitur angulus b a d, datus est. est aũt & qui sub a d b datus. Datur ergo triangulũ a d b specie, ratio igitur ipsius a b ad b d, data est, quare & eius quod sub a c, b d, ratio est data. Ei autẽ quod sub a c, b d, æquũ est id quod sub b c, a e, utrũque enim eorum ipsius a b c triãguli duplũ est. Ratio igitur & eius quod sub b a c ad id quod sub b c, a e data est. Eius autem quod sub b a c ad id quod ex b c ratio est data, & eius q̃ sub b c, a e, igitur ad id quod ex b c ratio est data, & ipsius b c ad a e. ratio est data, exponatur positione, & magnitudine data recta linea f g. Describaturq̃ super ipsa f g segmentum f h g per 33 tertij ele. datũ habẽs angulũ æquũ ipsi b a c. Datus autẽ est qui sub b a c angulus, datus igitur & qui in f h g, segmẽto angulus. positione igitur est segmentũ f h g excitetur per 11 primi ele. ab ipso g ipsi f g ad angulos rectos g k, positiõe igitur est g K fiatq̃ sicut b c ad a e, sic f g ad g K. Ratio autem ipsiꝰ b c ad a e data est. Ratio igitur & ipsius f g ad g k data est. Data autem est f g, data igitur & g k, sed & positione, estq̃ datũ ipsum g, datũ igitur & k excitetur per 31 primi ele. per ipsum k ipsi f g, parallelus k h positiõe igitur est k h, positione autẽ ipsum f h g. Datũ igitur est signũ h. Cõnectãtur f h, h g exciteturq̃ per 12 primi ele. p̃pẽdicularis h l. Data igitur est h l, est autẽ & h signũ datũ. Et utrũq̃ ipsorũ f g. Datur igitur unaquæq̃ ipsarũ h f, f g, g h, positiõe & magnitudine datur ergo f h g, triangulum specie. Et quoniã est sicut b c ad a e, sic f g, ad g k, æqualis autem est g K ipsi h l, est igitur sicut b c ad a e. sic f g ad h l estq̃ æqualis angulus b a c angulo f h g, æquiangulum igitur est per præcedentem a b c, triangulũ ipsi h f g triangulo. Datur aũt h f g triangulũ specie, datur igitur & a b c triangulum specie.
 
-[Diagram: at right, six vertical line segments in two groups: c, b, a above and f, e, d below]
+[Diagram: above, a triangle with apex a, base c, e, b, and interior lines from a and d; below, a circle on which stand the square-like figure K, b and the segment f h g, with labels g, l, f beneath and vertical lines within]
 
-## Theorema 82. Propositio 82.
+Aliter.
 
-SI quatuor rectæ lineæ proportionales fuerint, erit sicut prima ad quam secunda rationem habet datam, sic tertia ad quam quarta rationem habet datam.
+Sit triangulum a b c, datum habẽs angulum qui ad a, sit autem eius quod sub b a, a c, ad id q̃ ex c b ratio data. Dico quod triangulum a b c specie datur. Nam quoniã angulus b a c, datus est. qua igitur maius est quod ex utroq̃ ipsius b a c, eo quod eo b c, ea area ad b a c triãgulum rationẽ habet datã, qua autẽ est maius quod ex utroque ipsius b a c eo quod ex b c sit area d. Ratio igitur ipsius d areæ ad a b c, triangulum data est. Ipsius aũt a b c ad id quod sub b a c ratio est data, eo quia angulus qui sub b a c datus est. Et ipsius igitur d areæ ad id quod sub b a c ad id quod ex b c ratio est data, & ipsius igitur d ad id quod ex b c ratio est data, & cõponendo igitur per 18 quinti elemen. ipsius d areæ una cum ea quod ex b c, ad id quod
 
-Sint quatuor rectæ lineæ proportiõales a, b, c, d, sicut a ad b sic c ad d. Dico quod est sicut a ad quã b rationẽ habet datã. Sic c ad quã d rationẽ habet datã: esto enim ad quã b rõnẽ habet datã e, fiatq̃ sicut b ad e, sic d ad f. Ratio aũt ipsius b ad e data, ratio igitur ipsius d ad f data. Et q̃m est sicut a ad b, sic c ad d. Est autẽ & sicut b ad e, sic d ad f. ex æquali igitur per uigesimãsecundam quinti elemẽ. sicut a ad e, sic e ad f. Estq̃ e ad quam b rationẽ habet datam & f ad quã d: est igitur sicut a ad quã b rationẽ habet datã, sic c ad quam d rationẽ habet datã.{printer-error-correction:sic c ad f}
+[Diagram: a small square labelled d, and a triangle with apex a, base corners c and b, with an interior line]
 
-[Diagram: at right, horizontal line segments labelled e, f, a, b, c, d]
+<!-- Signature: Cc 2 -->
 
-## Theorema 83. Propositio 83.
-
-SI quatuor rectæ lineæ sic se adinuicem habuerint, sicut tribus assumptis ex ipsis quomodocũq̃, & quarta eisdẽ proportiõali assumpta ad quã reliqua earũ quæ in principio quatuor linearum rectarũ rõnẽ habet datã, proportionales gigni ipsas quatuor rectas lineas, erit sicut quarta ad tertiã, sic secũda ad quam prima rationem habet datam.
-
-Sint quatuor rectæ lineæ a, b, c, d, sic se habentes adinuicẽ ut tribus ex ipsis quomodocũq̃ assumptis, & quarta eisdem hoc est e ad quã d rationẽ habet datã proportionales fieri ipsas a b c e, rectas lineas. Dico qd' est sicut d ad c,
-
-[Diagram: at right, horizontal line segments labelled a, b, c, d, e]
-
-<!-- Catchword: sic b -->
+<!-- Catchword: ex b c -->

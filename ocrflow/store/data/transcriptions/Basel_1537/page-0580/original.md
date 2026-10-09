@@ -1,21 +1,35 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: DATA -->
 
-<!-- Page number: 570 -->
+<!-- Page number: 569 -->
 
-quo, area ad triangulum rationem habebit datam,
+igitur qui sub d a b, datus est. Datur igitur d a b triāgulum specie. Ratio igitur ipsius a d ad d b, data est, estq́; sicut a d ad d b, sic quod sub a d, b c ad id quod d b, b c, quare & ipsius d a, b c, ad id quod sub d b, b c, ratio data est. Et eius quod bis sub d b, b c, igitur ad id quod sub a d, b c, ratio data est. Sed eius quod sub d a, b c ad a c b triangulum ratio est data, & eius igitur quod bis sub d b, b c ad a b c, triāgulum ratio est data, estq́; quod bis sub d b, b c, quo maius est quod a c, eis quæ ex a b, b c, ipsa igitur area ad a b c, triangulum rationem datam habet.
 
-Esto triangulum a b e{printer-error-correction:a b c}, datum habens angulum b a c. Dico quod quo maius est quod ex utraque b a c, eo quod ex b c, ea area ad a b c, triangulum rationē habet datam. Extendatur enim in rectas lineas ipsius a b ipsa a d ponaturq́; ipsa a c æqualis ipsi a d per 3 primi elementorum & connexa recta linea d c extendatur in e, exciteturq́; per 31 primi elementorum ab ipso b ipsi a c parallelus b e. Et quoniam æqualis est a d ipsi a c, æqualis igitur est & d b ipsi b e, extenditurq́; quædam b c. Quod igitur sub d c e, una cum eo quod ex b c, æquum est ei quod ex b d, æqualis autem est d a ipsi a c. Quod igitur ex utroque b a c, æquum est ei quod sub d c e, una cum eo quod ex b c. Quare quod ex utroque b a c, eo quod ex b c maius est eo quod sub d c e. Dico iam quod eius quod sub d c e ad a b c triāgulum ratio est data. Quoniam enim angulus b a c, datus est, & cōsequens igitur qui sub d a c, datus est, est autem & uterque ipsorum a b c, d e a datus. Dimidia namque sunt eius qui sub b a c. Datur enim qui sub b a c, datur igitur triangulum d a c specie. Ratio igitur ipsius d a ad d c, data est. Quare & eius quod ex a d ad id quod ex d c ratio data est Et quoniam est sicut b a ad a d, sic est e c ad c d, sed sicut quidem b a ad a d, sic quod sub b a ad id quod ex a d. Sicut autem e c ad c d, sic quod sub e c, c d ad id quod ex c d, & sicut igitur per undecimam quinti elemētorum, quod sub b a ad id quod ex d a, sic quod sub e c d, ad id quod ex c d. Et uicissim igitur per decimamsextam quinti elementorum quod sub b a d ad id quod sub e c d, sic quod ex a d id quod ex d c. Ratio autem eius quod ex a d ad id quod ex d c data est. Ratio igitur & eius quod sub b a d ad id quod sub e c d data est. Aequalis autem est d a ipsi a c. Ratio igitur eius quod sub b a c, ad id quod sub e c d, data est, eius autem quod sub b a c, trianguli ratio est data, eo quia angulus qui sub b a c datus est. Et eius qui sub d c e, igitur ad a b c ratio est data. Estq́; quod sub d c e, eo maius quod est ex utraque b a c, eo quod ex b c. Quo uero maius est quod ex utroque b a c, eo quod ex b c ea area ad triāgulum rationem datam habebit.
+### Scholium.
 
-[Diagram: a right triangle with d at the top left, b at the bottom left and c at the bottom right; e marks the point where a horizontal line from the left side meets the hypotenuse, with further lines from b to e]
+Excitetur ad angulos rectos ab ipso b signo ipsi a d per 31 primi ele. æqua & parallelus b f, & ab ipso a signo ipsi d c, per eandem æqua & parallelus excitetur d c, & connectatur e c, & quoniā per 31 primi elementorum parallelogrammum b e ipsius b a c trianguli duplum est, super namq; eadem basi, & in eisdem est parallelis, comprehēditurque parallelogrāmum sub f e, e c, æqualis autem est e c, ipsi a d & f e ipsi b c. Quoniam parallelogrammum ad triangulum rationē habet, quare & parallelogrammū ad triāgulū ratio est etiam dupla. Quod uero bis sub a d, c b, rationē habet datam, ad triangulum quadruplam, est enim sub d c, c b sicut in 2 elementorum.
 
-### Aliter.
+[Diagram: a rectangle with a at top left, f at top middle, e at top right, and d, b, c along the base; a vertical line from f to b, and lines from a to b and from a to c]
 
-Construantur enim eadem quæ prius, exciteturq́; per duodecimam primi elementorum ab ipso a in e c perpendicularis a f, connectaturque a d, & quoniam datus est angulus b a c & eius dimidium est angulus a c f, est autem & angulus a f c, datus. Datur igitur triangulum a f c specie. Ratio igitur ipsius a f ad f c, data est, ipsius autem f c ad c e, ratio data est Dupla siquidem eius est, & ipsius igitur e c, ad a f ratio data est. Quare & eius qui sub e c d ad eū qui sub a f c d ratio data est. Quare & eius qui sub e c d, ad eum qui sub a f c d, ratio data est. Duplum siquidem illius est & eius qui sub e c d, igitur ad eum qui sub a c d, ratio data est, æquum autem est a c d, triangulum ipsi a b c triangulo per trigesimamseptimam primi elementorum, in eadem siquidem basi a c, & in eisdem sunt parallelis a c, b d, & eius qui sub e c d, igitur ad a b c, triangulum ratio est data, estque quæ sub e c d, qua maius est quod ex utroque b a c, ea quæ ex b c, qua maius est quod ex utroque, b a, a c, ea quæ ex c b area ad triangulum rationem habet datam.
+## Theorema 65 — Propositio 65
 
-[Diagram: a triangle with c at the top left, f, e, d descending on the left side, a in the middle and b at the right; lines fan out from the left-hand points through a to b]
+SI triangulum acutum habuerit angulum datum, qua minus potest angulum acutum subtendens latus comprehendentibus lateribus acutum angulum, illa areola ad triangulum rationem habebit datam.
 
-### Aliter
+Esto triangulum acutum habens angulum a b c. Exciteturq́; ab ipso a per 12 primi elemētorum perpendicularis a d. Dico quod qua minus est quod ex d c, eis quæ ex a b, b c, hoc est quod bis sub c b, b d ad a b c triangulum rationē habet datam. Nam quoniam angulus a b d datus est & qui sub a d b, datus est. Reliquus igitur q̃ sub b a d datus est. Datur igitur a b d, triāgulum specie. Ratio igitur ipsius b d ad d a data est. Quare & eius qui sub c b d, ad id quod sub c b, ratio data est, & eius quod bis sub c b, b d igitur. Sed ei⁹ quod sub c b, b d ad ea quæ ex a b, b c, quo igitur minus est quod ex a c eis quæ ex a b, b e, ea area ad a b c, triāgulum rationem habet datam.
 
-Angulus a aut est rectus, aut acutus, aut obtusus, sit prius rectus, quod igitur ab utroque b a c, id quod ex b c excedit eo quod bis sub b a c & eius quod bis sub b a c ad a b c triangulum ratio data est. Esto autem acutus qui sub b a c exciteturque per duodecimam primi elementorum ab ipso c in ipsam a b perpendicularis c d, quoniam triangulum a b c, oxygonium est, & excitatur perpendicularis c d. Quæ igitur ex b a c, æqua sunt & ei quod ex b c, & eis quod bis sub b a d. Commune adiungatur quod bis sub b a c. Quæ igitur ex b a c, una cum eo quod bis sub b a c, quod est ex utroque b a c, æqua sunt ei quod ex b c & ei quod bis sub b a d, & insuper ei quod bis sub b a c, hoc
+[Diagram: a triangle with apex a at the top; base line with c at the left, d in the middle, b at the right; a vertical line from a to d]
 
-<!-- Catchword: est -->
+## Theorema 66 — Propositio 66
+
+SI triangulum datum habuerit angulum, rectangulum sub datum angulum comprehendentibus rectis lineis ad triangulum rationē habebit datam.
+
+Esto triangulum a b c, datum habens angulum eum qui ad a. Dico q̃ quod sub b a c ad a b c, triangulum rationē habet datam, excitetur enim per duodecimam primi elementorum ab ipso b in ipsam a c perpendicularis b d. Quoniam igitur angulus b a c, datus est. Est autem & qui sub a d b, angulus datus. Et reliquus igitur qui sub a b d angulus datur. Datur igitur a b d, triangulum specie. Ratio igitur ipsius a b ad b d data est. Sicut autem a b ad b d, sic quod sub b a c ad id quod sub b d a c. Quare & eius qui sub b a c, ad id quod sub b d a c ratio est data. Eius autem quod sub a c, b d ad a b c, triangulum ratio est data. Et eius qui sub b a c, igitur ad a b c, trianguli ratio est data.
+
+[Diagram: a triangle with apex a at the top, d on the right side below a, b at the lower left, c at the lower right; lines run from b to d and from b to the side a c]
+
+## Theorema 67 — Propositio 67
+
+SI triangulum datum habuerit angulum, qua maius possint datum angulum comprehendentia latera ut unum, ea quæ ex reli
+
+<!-- Signature: Bb 3 -->
+
+<!-- Catchword: quo -->

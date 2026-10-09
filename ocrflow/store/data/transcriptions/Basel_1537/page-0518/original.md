@@ -1,37 +1,49 @@
-<!-- Page number: 508 -->
+<!-- Running title: SPECVLARIA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 507 -->
 
-Sit longitudo e d, oculus autem b, speculum uero conuexum a c, aspectus porro refracti in e d, sint b a, b c, reliqua uero eadem.
+torū angulus r, ipso p maior est quia exterior est. Et angulus p ipsi o, angulū est æqualis. Igitur angulus r, ipso angulo o maior est, cōmunis apponatur qui sub o r f, igitur ipsæ c f a g, cōcurrunt sicut ad g f. Idem quoque erit & si maior sit uisus a h, ipso c k, maiores enim erunt ipsi l m anguli ipsis n x, & angulus p angulo o maior o: & r ipso o. Si uero a h recta linea minor fuerit ipsa c k, id propterea maior erit angulus l ipso r & angulus o angulo p: est autem & angulus r ipso p maior. Nihil enim prohibet angulum r ipsi o esse æqualem uel ipso o minorem, & nō concurrere a g ipsi f. Manifestum est autem quod & maior fuerit a h, circūferētia ipsa c k. Sitque æqualis coincidentia refractionum, neque in circuli circūferentia, neque extra utique fiet, sed intus tantum.
 
-[Diagram: convex arc with point a at top and c below on the arc; d at upper right, e at left, b at lower right; rays from b touching the arc]
+[Diagram: circle with points K and g at top, f inside upper left, b at left on the circumference, a at right; inside the circle points b, r, l, o, d, p, m, n near the horizontal diameter, and e at lower right; several chords crossing]
 
-## Theorema undecimum.
+## Theorema septimum.
 
-CElsitudines & crassitudines à cauis speculis quæcunq; sunt intra coincidentiam uisuum conuersa uidētur, quemadmodum in planis & conuexis speculis, quæcunque autem extra coincidentiam sicut sunt, sic & spectātur.
+CElsitudines & crassitudines à planis speculis conuersæ uidentur.
 
-Sit cauum speculum a c, oculus aut sit b, uisus uero refracti sint b a, b c. eorum coincidētia: porro sit f celsitudo sit d e, & k n, & k n quidē intra f coincidētiā sit at, d e sit extra coincidentiā: igitur productis uisibus sicut in planis & conuexis speculis apparet k super m, & n super l: quare conuersæ uidētur, rursus super exteriorem coincidētiam celsitudinis apparet quidem d super g, & e super h, sicut se habet sic spectatur.
+Sit fastigium quidem a e, speculum autē planum sit l, oculus uero sit b, uisus porro sint b c, b d, refracti, in e k. Igitur oportet deductis uisibus in rectam lineam e, quidem supra esse, ipso h infra existente, & k infra existens in f, quod supra est, ac perinde conuersa sunt in phantasia.
 
-[Diagram: concave arc at top with points b at upper left, e and d at upper right; crossing rays through points k, m, n, a inside; m, b at centre; l and g at bottom]
+[Diagram: vertical line at left with points e, k, a, f from top to bottom; horizontal line a d c l; oculus b at right; rays from b crossing at d and c toward e, k and f]
 
 ## In crassitudinibus.
 
-Rursus crassitudo quidem sit d e, & k h, cauū autem speculum sit a c, oculus uero sit b, uisus autem refracti sint b, & cōcurrētes in f b a, b c. igitur productis uisibus similiter k h, cōuersæ apparent, K quidem per c & h p a. Sicut est in planis & conuexis speculis ad d e, sicut ipsum quidem e. infra per a & d super c.
+Sit rursus crassitudo quidem e a, speculū autem planum sit a c, oculus uero sit d, uisus porro sint d c, d b refracti in e f, similiter eductis uisibus ad h k, apparet quidem e infra existens super h superius existente, & f, supra existēs super k infra existente.
 
-[Diagram: concave arc at left with points a at top, K inside, e and b at right, d below, f and g at lower left; crossing lines between arc and the points]
+[Diagram: vertical line with points b, g, a, f, e from top to bottom; rays fan out rightward crossing at b and c]
 
-## Theorema duodecimum.
+## Theorema octauum.
 
-OBliquæ longitudines à cauis speculis quæcunque intra coincidentiam uisuum iacent, ut sunt sic spectantur, quæcunque uero extra, conuersæ.
+FAstigia & crassitudines à conuexis speculis conuersa uidentur.
 
-Sint inquam, longitudines obliquæ e d, h K, cauum uero speculum sit a c. oculus autem sit b, uisus refracti & concurrentes in g sint b a d, b c e, & ipsa quidem h K, obliqua longitudo sit intra. Igitur h K iuxta naturam apparet. sicut & in planis & conuexis speculis. Sed e d, conuersa, nam ipsum quidem d, super a apparet & e super c.
+Sit celsitudo a e, speculum autem conuexum sit a d c, uisus uero sint b d, b c refracti in e h, patet quod non concurrunt, reliqua uero sicut & in planis.
 
-[Diagram: crescent-shaped concave speculum at left with point e; b at upper right, K at centre, d at right, a and g at bottom; crossing rays forming a star-like pattern]
+[Diagram: convex arc with points d and c on its top; a at upper left, b at upper right, h at left; rays from b crossing above the arc]
 
-## Theorema decimumtertium.
+## In crassitudinibus.
 
-IDem spectare pluribus planis speculis est possibile.
+Sit rursus crassitudo a e, speculum uero conuexum sit a d c. oculus autem sit b uisus autem refracti in e h. sint b c e, b d h. reliqua uero sicut & in planis.
 
-Sit quod uidendum est a, oculus uero sit b, specula autem tria sint c d,
+## Theorema nonum.
 
-<!-- Catchword: d e: e f -->
+OBliquæ longitudines à planis speculis sicut se habent, sic & uidentur.
+
+Sit oculus b longitudo autem obliqua sit d e, speculum uero sit a c, igitur refractis uisibus uidetur quidē d in a &, e, super c sicq́; se habet in phantasia. sicut uero se habet, propius propius, & remotius remotius.
+
+[Diagram: square with vertex a at top right; a diagonal and lines to points d and e at the left side; b below]
+
+## Theorema decimum.
+
+OBliquæ longitudines à conuexis speculis sicut sunt uere, sic spectantur.
+
+<!-- Signature: V 2 -->
+
+<!-- Catchword: Sit lon -->

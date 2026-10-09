@@ -1,37 +1,49 @@
-<!-- Page number: 536 -->
+<!-- Running title: PERSPECTIVA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 535 -->
 
-## Theorema 57. Propositio 58.
+præire putabitur, permutatis autem præcedens subsequi, & subsequens præcedere putabitur.
 
-{dropcap:O|lines=?|style=decorated}Culo translato quæ longius spectantur, destitui uidentur.
+Deferantur æquiceleriter b c, d f, k l, & ab oculo m, procidāt radij m c, m f, & m l, igitur sublimior & dexterior omniū ab m, oculo radiorū erumpentiū est ipse m c. Igitur b c, præcedere putabitur, permutatis autem b c, d f, & k l, in n x, p r, s t, quæ positis procidāt radij m n, m p, & m s, omniū igitur ab m, oculo radiorū erūpentiū dexterior est ipse m s. Sinisterior uero m n, quare & s t præcedere putabitur, subsequi uero n x. Igitur b c præcedens in n x, posito subsequi & l k, subsequēs in s t, positū præcedere putabitur.
 
-Sit, inquā, oculus b, à quo excitentur radij b c, b d, b f, spectentur uero k & l, igitur oculo translato ad partes c, celerius transibunt uisus k q̄ l, putabitur igitur k, destitui, & l, in contrarium ferri, hoc est ad partes f.
+[Diagram: three lines from b, c, d at the top converging downwards to k]
 
-[Diagram: three rays rise from the eye b at bottom to the points c, d, f at top; at the left two small rectangles marked k (above) and l (below)]
+## Theorema 53 &nbsp;&nbsp; Propositio 54
 
-## Theorema 58. Propositio 59.
+SI aliquibus delatis, & pluribus celeritate inæquali, cōferatur uero ad eadē & oculus, oculo quidē æquiceleriter delata stare, quæ uero tardius in contrariū ferri, quæ autē celerius, præcedere existimabuntur.
 
-{dropcap:A|lines=?|style=decorated}VCtæ magnitudines, propius oculo produci putantur.
+Ferantur inæquali celeritate b c d, tardius uero feratur b, sed & æquiceleriter oculo k & d, celerius ipso c, ab oculo uero k, procidant radij k b, k c, k d, igitur oculo ipsos b c d, insequēte. Semper c per c delatum stare putabitur. At b derelictum in contrarium ferri, & d celerius ipso c uidebitur præcedere, plus nanq̃ ab ipso c distat.
 
-Sit spectatū b c, sub k b, k c, radijs augeaturq̃ b c, ipsa b d, & ab ipso k, oculo procidat radius k d. Igitur angulus qui sub d k c, maior est angulo qui sub b k c, qui uero sub maiori spectantur angulo, per 4 suppositionem opticæ maiora apparent, maior igitur apparet. maior igitur apparet c d, ipso c b, & ea quæ oculo putantur maiora, augeri putantur, & auctæ igitur magnitudines ad oculum prouehi putantur.
+[Diagram: three lines from b, c, d at the top converging downwards to f]
 
-[Diagram: point d at top right, b on the left, c at bottom left, the eye k at bottom right; radii k b, k c, k d drawn]
+## Theorema 54 &nbsp;&nbsp; Propositio 55
 
-## Theorema 59. Propositio 60.
+SI aliq̃bus delatis differat quippiā aliquid non delatū, non delatū in contrariū ferri putabit.
 
-{dropcap:Q|lines=?|style=decorated}Væcunq̃ in eodem non iacent interuallo, neq̃ parallela in extremis posita, neque inuicem posita medijs, neque in rectas existentia lineas totam figuram quandoq̃ manentem conuexam, quandoq̃ uero curuam efficiunt.
+Ferrantur nanq̃ b, d, maneat autem c, & ab oculo f, procidant radij f b, f c, f d. Igitur b quidem delatū propius erit ipsi c. At d discedere longius, proinde c in contrariū ferri putabitur.
 
-Spectentur nanq̃ b c d, oculo in k posito, procidantq̃ radij k b, k c, k d, igitur tota figura cōuexa esse putabitur, permutetur iam rursus spectatum, ponaturq̃ propius ad oculum. Igitur d b c, curuum esse putabitur.
+[Diagram: c and b at the top; lines converge downwards through d to f]
 
-[Diagram: two curved figures; above, a circle with points k and c at the top and b within; below, a teardrop-shaped curve with b at the left, c at the bottom and k at the right]
+## Theorema 55 &nbsp;&nbsp; Propositio 56
 
-## Theorema 60. Propositio 61.
+OCulo prope spectatum accedente, spectatū augeri putabitur.
 
-{dropcap:Q|lines=?|style=decorated}Vadrato existente, si à contactu dimetientiū ad angulos rectos quædam excitata fuerit ad ipsius quadrati planū, in ipsaq̃ positus fuerit oculus, latera & dimetientes ipsius quadrati æquales apparent.
+Spectetur, inquā, b c, oculo in f, posito sub f b, f c, radijs, permuteturq̃ oculus ut propius sit ipsi b c, sitq̃ in d, spectaturq̃ idem sub d b, & d c radijs. Igitur angulus d, angulo f, maior est. Sed quæ sub maioribus angulis spectantur per suppositionem 4 opticæ maiora apparent. Igitur b c, oculo existente in d, augeri putabitur potius quàm in f.
 
-Esto, inquam, quadratum c f, excitenturq̃ dimetientes c f, k d, & a b h, ad angulos rectos, excitetur per 11 undecimi elementorū h b, oculus uero ponatur in b, procidantq̃ radij b k, b d, b c, b f: igitur duæ f h, h b, duabus c h, h b, sunt æquales, & æquales sunt anguli qui ad ipsis cōprehendūtur, hoc est anguli qui ad h. Aequalis igitur est per 4 primi element. f b, basis ipsi b c, basi. Idq̃ propterea & k b, ipsi b d, est æqualis. Binæ iam f b, b c, binis k b, b d, sunt altera alteri æquales. Et diametri iam æquales, quare & anguli qui ad b, erunt æqua les. Quæ uero sub æqualibus angulis spectātur æqualia apparent. Diametri igitur & altera quadrati æqualia apparent, ea uero quæ ab oculis in dimetientiū contactum ad angulos rectos ipsi plano existente, neq̃ æquali utriq̃ eorū quæ à contactu ad angulos quadrati ductæ sunt, neq̃ angulos cōprehendente æquos cum ipsis, diametri inæquales apparent, similiter enim ostendemus cotingentia, quemadmodum & in circulis.
+[Diagram: horizontal lines b, c and f at the top with k below; lines converge downwards to a]
 
-[Diagram: a square with corners d, e(=c), f, k, its two diagonals meeting at the centre, a line rising from the centre to the apex b above, and lines drawn from b to each corner of the square]
+## Theorema 56 &nbsp;&nbsp; Propositio 57
 
-<!-- Catchword: BARTHOLOMAEVS -->
+AEquali celeritate delatorū, quæ longius distant tardius ferri uidentur.
+
+Ferantur enim æquiceleriter b, k, sicut ad partes f, & ab oculo a, radij excitentur a c, a d, a f. Igitur k minores habet ab ipso oculo radios productos, quàm b, minus igitur transibit interuallum, & prius permutans a f, uisum celerius ferri putabitur.
+
+Aliter.
+
+Ferantur bina signa a b, in parallelos rectas lineas ad b e, æqualiter æque cito & æquali tempore procedent, sint igitur æquales a d, b e, procidantq̃ radij ab f, oculo f a, f d, f e. Quoniam angulus qui sub d f b, minor est eo qui sub b f e, minus igitur a d, interuallum, uidebitur ipso b e. Quare a tardius quàm b ferri putabitur.
+
+[Diagram: d and a at the top left, b at the right, c at the left below; lines run down to f at the lower right, forming two triangles]
+
+<!-- Signature: Y 4 -->
+
+<!-- Catchword: Theorema -->

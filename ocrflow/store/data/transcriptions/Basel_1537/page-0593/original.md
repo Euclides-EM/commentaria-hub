@@ -1,39 +1,37 @@
-<!-- Running title: DATA -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-<!-- Page number: 583 -->
+<!-- Page number: 582 -->
 
-tur per 1 tertij elementorũ. ipsius circuli centrũ d & cõnectãtur b d, d c. Et q̃m utrũq̃ ipsorũ b d, datũ est positione. igitur est ipsa b d. Et q̃m angulus b a c, datus est. Datus igitur est angulus b d c. Quoniã igitur ad positiõe rectam lineã b d ad signũq̃ d recta linea excitatur d c datũ. efficiẽs angulũ b d c. Data igitur ipsa d c positiõe, datus est aũt & circulus a b c. Datũ igitur est c signum.
+tur b d. Datur igitur & b c, est aũt & a c, datũ, & angulus a b c datus. Data igitur est a b, utraq̃ igitur ipsarum a b, b c, datã est.
 
-[Diagram: a circle with apex a at top, points c and b at the base, centre d, with lines from a to c and b and from d to c and b]
+## Theorema 87. Propositio 87.
 
-## Theorema 91. Propositio 91.
+SI binæ rectæ lineæ areolam comprehenderint datã in dato angulo, quod à maiori uero minore dato maius fuerit, & ipsarum utraque data erit.
 
-SI à dato signo, positiõe datũ circulũ tãgẽs recta linea acta fuerit, datur acta põne & magnitudine.
+Binæ, inq̃, rectæ lineæ a b, b c datã areã cõprehẽdant a c in dato angulo a b c, quod aũt ex a b dato maius esto, eo q̃ ex b c, dico q̃ utraq̃ ipsarũ a b, b c data est. Nã q̃m quod ex a b, eo quod ex b, dato maius est. Auferatur datũ sitq̃ quod sub a b, b d. Reliquũ igitur quod sub b a, a d, æquum est ei quod ex b c. Et quoniã quod sub a b, b c, datũ est, est aũt & quod sub a b, b d datum. Ratio igitur eius quod sub a b, b d ad id q̃ sub a b, b c data est. Estq̃ sicut quod sub a b, b d ad id quod sub a b, b c, sic d b ad b c. Ratio igitur ipsius d b ad b c, data est. Ratio igitur & eius quod ex d b, ad id quod ex b c data est. Ei autem quod ex b c, æquũ est id quod sub b a, a d. Ratio igitur eius quod sub b a, a d, ad id qd' ex d b, data est. Et eius igitur quod quater sub b a, a d una cũ eo quod ex d b ad id qd' ex d b ratio est data. Sed quod quater sub b a, a d una cum eo quod ex b d, id est quod ex utraq̃ simul ipsarũ b a, a d. Ratio igitur & eius quod ex utraq̃ simul b a, a d, ad id quod ex d b data est. Ratio igitur & utriusque simul b a ad d b data est. Et cõponẽdo igitur p 18 q̃nti ele. utriusq̃ simul b a, a d una cũ ipsa d b hoc est binarũ a b ad b d, ratio est data, & unius igitur a b ad d b, rõ est data. Ipsius autẽ d b ad b c, ratio est data. Et ipsius igitur a b ad b c, ratio est data. Et q̃m ipsius a b ad b d ratio est data, estq̃ sicut a b ad b d, sic quod ex a b ad id quod sub a b, b d. Ratio igitur & eius quod ex a b ad id quod sub a b, b d data est. Datũ aũt est q̃ sub a b, b d. Sic enim datũ aufertur. Datũ igitur est & qd' ex a b. Data igitur est a b, estq̃ ratio ipsius a b ad b d data. Data igitur est & b c.
 
-A dato enim signo c positiõe datũ circulũ a b tãgẽs recta linea excitetur c a. Dico q̃ c a recta linea datur positiõe & magnitudine. Accipiatur enim p 1 tertij el. ipsius circuli cẽtrũ d, & cõnectatur d a. & q̃m datũ est utrũq̃ ipsorũ d c, data est igitur d c. estq̃ ãgulus d a c, datus igitur sup c d, descriptus semicirculus ueniet p a, ueniat sitq̃ d a c, positiõe igitur est d a c, positiõe aũt est a b circulꝰ. Igitur a datũ est. Sed & c datũ est. Data igitur est a c põne & magnitudine.
+[Diagram: a rectangle with corner label c at upper right and base labels a, d, b]
 
-[Diagram: a semicircle described over c d intersecting a smaller circle at a point; labels c, e, d, b]
+## Theorema 88. Propositio 88.
 
-## Theorema 92. Propositio 92.
+SI in circulo magnitudine dato, recta linea acta fuerit assumens segmẽtũ capiẽs angulũ datũ, datur acta magnitudine.
 
-SI extra circulũ positiõe datũ assumptũ fuerit aliquod datũ signũ ab ipso aũt signo in circulũ acta fuerit aliqua recta linea, quod sub acta & ea quæ inter ipsum signũ & curuã circũferentiam comprehẽsum rectangulum datum.
+In circulo enim a b c magnitudine dato, excitetur a c assumẽs segmẽtũ a e c, accipiẽs angulũ datũ. Dico quod a c datur magnitudine. Assumatur enim per 1 tertij ele. centrũ circuli sitq̃ illud d, & cõnexa a d & extẽdatur in e & cõnectatur c e. Datus igitur est qui sub a c e. rectus enim est, est aũt & q̃ sub a e c, datus, & reliquus igitur qui sub c a e, datus est, datur igitur triãgulũ a e c specie. Ratio igitur est ipsius a e ad a c data, data autem est ea magnitudine, quoniã & circulus datur magnitudine. Data igitur est a c magnitudine.
 
-Extra enim circulũ positiõe datũ a b c assumatur signũ aliquod d, ab ipso aũt d signo extẽdatur recta linea d b secãs circulũ. Dico q̃ quod sub b d, d c datũ est, excitetur enim ab ipso d signo ipsum a b c, circulũ tãgẽs, recta linea d a per 17 tertij ele. Data igitur est d a positiõe & magnitudie.{printer-error-correction:magnitudine} Q̃m igitur data est a d, datũ igitur est & quod ex a d, & est æquale ei quod sub b d, d c, per 36 tertij el. Datũ igitur est quod sub b d, d c.
+[Diagram: a circle with points b (upper left), a (right), c (left), e (lower left), centre d, with chords a c, a e, c e drawn]
 
-Aliter.
+## Theorema 89. Propositio 89.
 
-Assumatur per 1 tertij ele. ipsius circuli cẽtrũ e, & cõnectatur d e. extẽdatur in a & quoniã datũ est utrũq̃ ipsorũ e d. Data igitur est e d positiõe Datur autẽ & a b f circulus. datũ igitur est utrũq̃ ipsorũ a f, est aũt ipsum d datũ. Data igitur est utraque ipsarũ a f, f d. Datũ igitur est quod sub a d, d f & ei est æquũ quod sub b d, d c ei quod sub a d, d f. Datum igitur est quod sub b d, d c.
+SI in circulo magnitudine dato, recta linea acta fuerit data magnitudine, relinquetur segmẽtũ capiens angulũ datum.
 
-[Diagram: a circle with labels b (top), a (left), c (interior right), and external point d below with lines drawn to the circle; below it a second circle with labels f, c, e, b, a and tangent and secant lines from d]
+In circulo eñ magnitudine dato a b c, recta linea excitetur a c data magnitudine. Dico quod relinquetur segmẽtũ capiens angulũ datũ. Accipiatur enim per 1 tertij ele. cẽtrũ circuli sitq̃ illud d & cõnexa a d extẽdatur in e, & q̃m utraq̃ ipsarũ e a, a c est data. Rõ igitur ipsius e a ad a c, data est. Et angulus qui sub a c e. rectus est. Datur igitur a c e triãgulũ specie. Datꝰ igitur est angulus a e c.
 
-## Theorema 93. Propositio 93.
+[Diagram: a circle with points a (upper right), b (left), c (lower left), e (bottom), centre d, with chords drawn]
 
-SI in circulo positione dato, assumptũ fuerit aliquod datũ, ac per signũ illud acta fuerit aliqua recta linea in ipso circulo, quod sub actæ sectionibus comprehensum rectangulũ datũ est.
+## Theorema 90. Propositio 90.
 
-In circulo enim dato positione b c accipiatur signum aliquod datum a, ac per a excitetur quædam recta linea b c. Dico quod quod sub b a, a c datum est. Assumatur enim per primam tertij elemen. ipsius circuli centrum sitque d & connexa a d extendatur ad f e. Quoniam igitur utrũq̃ ipsorum d a, datum est, positione igitur est d a, positiõe autem & c b f circulus. Datum igitur est utrunque ipsorum f e, est autem & a datum. Data igitur est utraque ipsarum f a, a e. Datum igitur quod sub f a, a e. & ei est æquũ quod sub b a, a c, datum igitur est quod sub b a, a c.
+SI in circuli positione dati circunferentia assumptũ fuerit signũ datũ, ab hoc autẽ ad circuli circunferentiã infringatur aliqua recta linea datum angulum efficiens, datur alter finis refractæ.
 
-[Diagram: a circle with e at top, f at bottom, c at left, b at right, centre d and interior point a, with a vertical diameter e f and a chord c b crossing at a]
+Circuli enim positione dati a b c in circũferẽtia accipiatur datũ signũ b, ab ipso aũt b refringatur recta linea b a c. datũ efficiẽs angulũ b a c. Dico quod c signũ datur. Assuma-
 
-<!-- Signature: Cc 4 -->
-
-<!-- Catchword: Theo -->
+<!-- Catchword: tur -->

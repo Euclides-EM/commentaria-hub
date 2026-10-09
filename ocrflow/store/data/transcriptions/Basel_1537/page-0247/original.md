@@ -1,61 +1,49 @@
-<!-- Running title: LIBER NONVS. -->
+<!-- Running title: ARITHMET. ELEMENT. EVCLIDIS -->
 
-<!-- Page number: 237 -->
+<!-- Page number: 236 -->
 
-## Eucli. ex Zamb. Theorema 23 Propositio 23
+THEON ex Zamb. Sint propositi primi numeri α,β,γ. Dico quod ipsis α,β,γ, plures sunt primi numeri. Accipiatur enim (per 39 septimi) minimus quem ipsi α,β,γ, metiūtur, sitq́; δ ε, addaturq́; ipsi δ ε, unitas δ ζ, iam ε ζ aut est primus aut non, sit prius primus, inuenti igitur sunt primi numeri α, β,γ,ε ζ, plures ipsis α,β,γ. Sed iam non sit ε ζ primus: igitur eum aliquis numerus primus metitur (per 34 septimi,) metiatur eum numerus primus η. Dico quod η nulli ipsorū α,β,γ, est idem. Si enim η alicui ipsorū α,β,γ, est idem, ipsi autem α,β,γ, ipsum δ ε metiuntur, igitur & η, ipsum δ ε metietur, metitur autem & ε ζ, & reliquam δ ζ unitatem metietur η numerus existens, quod est absurdum: igitur η non est idem uni ipsorum α, β, γ, ipse autem supponitur & primus. Inuenti igitur sunt primi numeri plures proposita multitudine ipsorum α,β,γ, ipsi α,β,γ,η, quod ostendere oportuit.
 
-**23** Si impares numeri quotcunq̃ componantur, multitudo autem ipsorum fuerit impar, & totus impar erit.
+[Diagram: at right, rows of small filled squares labelled α (two), β (three), γ (nineteen); below, a long solid line marked 114 and 23 above, ending with points δ . ζ; beneath it a shorter solid line labelled η]
 
-THEON ex Zamberto. Componantur enim quotcunq̃ impares numeri, quorum multitudo sit impar, α β, β γ, γ δ. Dico quod totus α δ impar est. Auferatur ab ipso γ δ, unitas δ ε, reliquus igitur γ ε par est: est autem & α γ par, & totus igitur α ε par est, est autem δ ε unitas, totus igitur α δ impar est, quod ostendere oportuit.
+## Eucli. ex Camp. Propositio 22
 
-[Diagram: dotted line with points α, β, γ, ε, δ]
+**22** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I coaceruentur quotlibet numeri pares, totus quoq̃ ab eis coaceruatus erit par.
 
-## Eucli. ex Camp. Propositio 25
+CAMPANVS. Sit quisq̃ numerorū a,b,c, par. Dico ex eis compositum, esse parem: habet enim ex conuersione diffinitionis quisq̃ eorum, medietatem: sint ergo eorum medietates d,e,f, quia igitur sicut a ad d, sic b ad e, & c ad f, erit ex 13 septimi, sicut a ad d, sic totus a b c ad totum d e f, itaq̃ d e f est medietas a b c, ergo per diffinitionem a b c, est par, quod est propositum.
 
-**25** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I à numero pari numerus par detrahatur, reliquus erit par.
+[Diagram: dotted line with points a, b, c]
 
-CAMPANVS. Sit a totus par, à quo detrahatur b, qui quoq̃ sit par, & residuus sit c. Dico c esse parem, sit enim d medietas a, e quoq̃ sit medietas b, detractoq̃ e de d, sit reliquus f, erit per 11 septimi, c ad f, sicut a ad d, quare f est medietas, itaq̃ c est par, quod est propositum.
+## Eucli. ex Zamb. Theorema 21 Propositio 21
 
-[Diagram: dotted line a with points d, f; below, dotted lines b (with point e) and c]
+**21** Si pares numeri quotcunq̃ componantur, totus par est.
 
-## Eucli. ex Zamb. Theorema 24 Propositio 24
+THEON ex Zamberto. Componantur enim numeri quilibet pares ipsi α β, β γ, γ δ, δ ε. Dico quod totus α ε par est. Nam quoniam unusquisque ipsorum α β, β γ, γ δ, δ ε, par est, partem habet dimidiam, quare & totus α ε habet partem dimidiam: numerus autem par est qui bifariam diuiditur (per diffinitionem,) igitur α ε par est, quod ostendere oportuit.
 
-**24** Si à pari numero par auferatur, reliquus par erit.
+[Diagram: dotted line with points α, β, γ, δ, ε]
 
-THEON ex Zamberto. A pari enim α β, auferatur par ε. Dico quod reliquus α γ par est. Nam quoniam α β par est, habet partem dimidiam: iam id propterea & β γ, habet partem dimidiam, quare & reliquus γ α habet partem dimidiam: par igitur est α γ, quod ostendere oportuit.
+## Eucli. ex Camp. Propositio 23
 
-[Diagram: dotted line with points α, γ, β]
+**23** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numeri impares numero pares coaceruentnr{printer-error-correction:coaceruentur}, totus quoq̃ ex eis coaceruatus erit par.
 
-## Eucli. ex Camp. Propositio 26
+CAMPANVS. Sit quilibet numerorum a,b,c,d, impar: dico ex eis compositum, esse parem, dempta enim a quolibet unitate, constat residuos esse pares, & quia ille unitates, demptæ componunt parem, cum sint numero pares, constat propositum per præmissam.
 
-**26** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I de numero pari imparem tollas, qui relinquitur impar est.
+[Diagram: dotted line with points a, b, c, d]
 
-CAMPANVS. Sit a b par, à quo tollatur a c, qui sit impar. Dico c b residuum esse imparem, subtrahatur enim ab a c, unitas quæ sit c d, eritq̃ a d par, itaq̃ per 25, d b quoq̃ erit par. Quia igitur d c est unitas, sequitur c b esse imparem, quod est propositum.
+## Eucli. ex Zamb. Theorema 22 Propositio 22
 
-[Diagram: dotted line with points a, d, c, b]
+**22** Si impares numeri quotcunq̃ componantur, fuerit autem multitudo par, totus par erit.
 
-## Eucli. ex Zamb. Theorema 25 Propositio 25
+THEON ex Zamberto. Componantur enim impares numeri quotcunq̃, multitudine pares, α β, β γ, γ δ, δ ε. Dico quot{printer-error-correction:quod} totus α ε par est. Nam quoniam unusquisq̃ ipsorum α β, β γ, γ δ, δ ε, impar est, ablata unitate ab unoquoq̃, unusquisq̃ reliquus par erit. Quare & compositus ex ipsis par erit (per 21 noni.) Est autem & unitatum uultitudo{printer-error-correction:multitudo} par. Totus igitur α ε par est, quod ostendere oportebat.
 
-**25** Si à pari numero impar auferatur, reliquus impar erit.
+[Diagram: dotted line with points α, β, γ, δ, ε]
 
-THEON ex Zamberto. A pari nanq̃ numero α β, auferatur impar β γ. Dico quod reliquus γ β{printer-error-correction:γ α} impar est. Auferatur ab ipso β γ, unitas γ δ, igitur δ β, par est. Est autem α β quoq̃ par, & reliquus igitur α δ, par est, at γ δ est unitas, igitur α γ impar est, quod ostendere oportuit.
+## Eucli. ex Camp. Propositio 24
 
-[Diagram: dotted line with points α, γ, δ, β]
+**24** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I numeri impares numero impares coaceruentur, totum quoq̃ ex eis coaceruatum imparem esse.
 
-## Eucli. ex Camp. Propositio 27
+CAMPANVS. Sit quilibet numerorum a,b,c, impar. Dico totum ex eis compositum esse imparem. Erit enim per præmissam compositus ex a & b, par, & quia c, dempta unitate, est par, erit per antepræmissam totus a, b, c, dempta unitate, par. Per diffinitionem itaque constat totum esse imparem.
 
-**27** {dropcap:S|lines=?|style=decorated|decoration="foliate ornament"}I à numero impari detrahatur impar, reliquus erit par.
-
-CAMPANVS. Sit a b numerus impar, à quo detrahatur b c, qui etiam sit impar: dico reliquum qui est a c, esse parem. Detrahatur enim ab utroq̃ duorum numerorum a b & b c, unitas quæ sit b d, erit uterque duorum residuorum quæ sunt a d & d c, par, per præmissam itaque constat a c esse parem, quod est propositum.
-
-[Diagram: dotted line with points a, c, d, b]
-
-## Eucli. ex Zamb. Theorema 26 Propositio 26
-
-**26** Si ab impari numero impar auferatur, reliquus par erit.
-
-THEON ex Zamberto. Ab impari nanque α β, impar auferatur β γ. Dico quod reliquus γ α par est, nam quoniam α β impar est, auferatur unitas β δ: reliqnus{printer-error-correction:reliquus} igitur α δ, par est. Iam id propterea & γ δ par est (per diffinitionē) quare & reliquus γ α par est, quod ostendere oportuit.
-
-[Diagram: dotted line with points α, γ, δ, β]
+[Diagram: dotted line with points a, b, c]
 
 <!-- Catchword: Eucli. ex -->

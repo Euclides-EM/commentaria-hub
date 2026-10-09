@@ -1,39 +1,23 @@
-<!-- Page number: 561 -->
+<!-- Page number: 560 -->
 
-<!-- Running title: DATA -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-lo. Datur autem d e g,triangulum specie, datur igitur & a b c,triangulum specie.
+magnitudine datur igitur d f e triangulum specie. Et quoniam bina triangula a b c,d e f unum angulum uni angulo æquum habent eum scilicet qui sub b a c,ei qui sub d f e,ea uero quæ circum eos qui sub b a c,d f e,angulos latera proportionalia,simile igitur est & æquale per primam diffinitionem & 6 propositionem sexti elementorum triangulũ a b c ipsi d e f triangulo. Datur autem d f e,specie,datur igitur & a b c triangulum specie
 
-## Scholium.
+## Theorema 42 Propositio 42
 
-Quoniam enim ponitur d e,positione & magnitudine data,manifestum quod si circulus bifariam secetur est centrum circuli positione. Dimidia uero,hoc est quæ ex centro datur positione & magnitudine sicut & circulus,per diffinitionem.
+SI trianguli latera adinuicem rationem habuerint datam,datur triangulum specie.
 
-## Theorema 44 Propositio 44
+Triãguli enim a b c,latera adinuicem rationem habeant datam. Dico quod ipsum a b c,triangulũ datur specie:exponatur enim data magnitudine recta linea d,& quoniã ratio ipsius a b,ad b c data est. Eadem eidem fiat ipsius d ad e. Data autem d. Data igitur & e. Rursus quoniã ratio ipsiꝰ b c,ad a b data est,eadem eidem fiat ipsius e ad f. Data autẽ e data igitur & f,& ex tribus rectis lineis quæ æquales sunt tribus datis d e f,quarum binæ reliqua quomodocunque assumptæ sunt maiores,per 22 primi elementorum triangulum constituatur g h k. Quoniam æqualis est d ipsi g h,& e ipsi h k & f ipsi g k, Data autem unaqueq̃ ipsarum d e f. Data igitur & unaqueque ipsarum g h,h k,k g magnitudine. Datur igitur triangulũ g h k, specie,& quoniam est sicut a b ad b c,sic est d ad e. Aequalis autẽ est d ipsi g h,& e ipsi h k:est igitur sicut a b ad b c, sic g h ad h k. Rursus quoniam est sicut b c ad c a sic e ad f. Aequalis autem est e ipsi h k:& f ipsi g k. Est igitur sicut b c ad c a sic h k ad k g. Ostensum autem est sicut a b ad b c,sic g h ad h k,ex æquali igitur per 22 quinti elemẽtorum,sicut b a ad a c,sic g h ad g k. Simile igitur est per primam diffinitionem 6 elementorum a b c triangulum ipsi g h k triangulo. Datur autem g h k triangulum specie. Datur igitur & a b c triangulum specie.
 
-SI triangulum unum habuerit angulum datum, circum autem alium angulum latera adinuicem rationem habuerint datam,datur triangulum specie.
+[Diagram: triangle with apex a and base corners c, b; below it a second triangle with apex g and base corners k, b (for h); below these, three horizontal lines labelled d, e, f]
 
-Sit triangulum a b c unum habens angulum datum eum qui sub b a c, circum autẽ alium angulum eum qui sub a b c latera a b,b c,rationem habeant adinuicem datam. Dico quod triangulum a b c, specie datur. Nõ sit autem qui sub b a c,angulus rectus. Sed sit prius acutus. Exciteturq̃ per 11 primi elemento. ab ipso b signo in ipsam a c perpendicularis b d. Quoniã angulus b d a, datus est,est aũt & qui sub b a d,datus,& reliquus igitur qui sub a b d,datus est. Datur igitur triangulum a b d,specie. Ratio igitur ipsius b a ad b d data est,sed ipsius a b ad b c,ratio data est,& ipsius b d igitur ad b c,ratio data est. Rectus autẽ est qui sub b d c. Datur igitur triangulum b d c, specie. Datus igitur est qui sub b c d angulus, Est autem & qui sub b a c,datus,& reliquus igitur qui sub a b c. datus est. Datur igitur & a b c.triangulum specie. Sed iam esto qui sub b a c angulus obtusus,extẽdaturq̃ c a in e. Exciteturq̃ per 11 primi elementorum ab ipso b signo in ipsam a e. perpẽdicularis b e. Quoniam angulus b a c datus est,& consequẽs igitur qui sub b a e.datus est. Datur igitur triangulum e b a,specie Ratio igitur ipsius e b ad b a,data est. ipsius autem a b ad b c,ratio data est.& ipsius igitur e b ad b c ratio est data. Et qui sub b e c,rectus est angulus. Datur igitur triãgulum e b c specie. Datus igitur est qui sub b c e, est autem & qui sub b a c. angulus datus,& reliquus igitur qui sub a b c angulus datus est. Datur igitur triangulum a b c,specie.
+## Theorema 43 Propositio 43
 
-[Diagram: triangle with apex e and base c, b; points a and d on the side from c toward e, each joined to b]
+SI trianguli rectanguli circa unum acutorum angulorum latera adinuicem rationem habuerint datam, datur triangulum specie.
 
-[Diagram: triangle with base c, b; point a above the base and e above a, both joined to b]
+Trianguli enim rectanguli a b c,rectum habentis eum qui sub b a c,angulum,circa unum acutorum eiusdem angulorũ qui sub a b c latera c b,b a,adinuicem rationem habeãt datam. Dico quod ipsum a b c,triangulum datur specie. Exponatur enim positione & magnitudine data recta linea d e. Describaturq̃ super d e semicirculus d g e,positione igitur est d g e semicirculus,& quoniam ratio ipsius c b ad b a,data est, eadem eidem fiat ipsius d e ad f. Ratio igitur ipsius d e ad f data est. Data autem d e,data igitur & f & quoniam maior est c b ipsa b a,maior igitur est & e d,ipsa f. Congruat ipsi f per primam quarti elementorum,d g,connectaturque g e & centro quidem d,interuallo autem d g, per tertium postulatum circulus describatur h g k , positione igitur est circulus h g k. Datur enim ipsius centrũ positiõe,& quæ ex centro magnitudine,positione autem & d g e,semicirculus datũ igitur est & g signum,est autem utrunque ipsorum d e,datum. Data igitur est , per uigesimamsextam propositionem unaquæque ipsarum g d,d e.e g,positione & magnitudine. Datur igitur triangulum g d e specie. Quoniam igitur bina triangula sunt a b c,d e g unum angulum uni angulo æquum habentia. eum scilicet qui sub b a c,ei qui sub d g e. Circum uero alios angulos qui sub c b a;e d g. latera proportionalia. Reliquorum autem qui sub b c a,d e g, utrumque simul minorem recto. Simile igitur est per septimam sexti elemen. triãgulum a b c ipsi d e g, triãgu
 
-## Theorema 45 Propositio 45
+[Diagram: a large circle with points g, b, e, k, d marked; a semicircle described on e d with vertex g joined to e and d; a short line labelled f below at left; beside it a small triangle with vertices a, c, b]
 
-SI triangulum unum habuerint angulum datum,circũ uero datũ angulum latera utraque sicut unum ad reliquum rationem habuerint datam,datur triangulum specie.
-
-Esto triãgulum a b c,unum habens angulum datum qui sub b a c,at quæ circum b a c,angulũ latera utraque hoc est b a c tanquam unum ad c b rationem habeãt datam. Dico quod a b c,triangulum specie datur.secetur per tertiam primi elementorum angulus b a c, bifariam à recta linea a d. Datus igitur est qui sub b a d,angulus,& quoniã est sicut b a ad a c,sic b d ad d c,uicissim etiam per 16 quinti elementorum,sicut a b ad b d,sic a c ad c d. Ratio utriusque b a c ad b c,data est. Ratio igitur ipsius b a ad b d, data est. Estq̃ datus qui sub b a d angulus. Datur igitur a b d triangulum specie. Datus igitur est qui sub a b d, angulus,est autem & qui sub b a c,angulus datus. & reliquus igitur qui sub a c b datus est. Datur igitur triangulum a b c specie.
-
-[Diagram: triangle with apex a and base c, d, b; the cevian a d drawn]
-
-## Scholium.
-
-Sicut enim unum antecedentium ad unũ sequentium. sic omnia antecedentia ad omnia sequentia per 11 quinti elementorum.
-
-## Aliter
-
-Extendatur b a in rectas lineas in d,& ipsi a c,ponatur æqualis a d & connectatur d c. Etenim ipsius b d ad b c, ratio data est. Et qui sub a d c,datus est,dimidius siquidẽ eius qui sub b a c. Datur igitur triangulũ b c d specie. Da
-
-[Diagram: figure with d at top left, c at bottom left, b at bottom right; a between d and b, joined to c]
-
-<!-- Catchword: tus -->
+<!-- Catchword: lo -->

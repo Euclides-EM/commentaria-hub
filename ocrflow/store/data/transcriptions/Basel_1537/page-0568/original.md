@@ -1,29 +1,29 @@
-<!-- Page number: 558 -->
+<!-- Running title: DATA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 557 -->
 
-## Theorema 37 Propositio 37
+### Aliter.
 
-SI in parallelos positiōe datas rectas lineas recta linea acta fuerit, sectaq̃ fuerit in ratiōe data, ac per sectionē ad positiōe datas rectas lineas recta linea acta fuerit, datur acta positione.
+In parallelos siquidem positione datas a b, c d, à dato signo e, recta linea agatur f e g. Dico quod ipsius g e ad e f ratio data est: excitetur siquidem ab e signo per duodecimam primi elementorum in ipsam c d, perpendicularis e h, & extendatur in k. Quoniam à dato signo e in positione datam rectam lineam c d, recta lineā acta est efficiens angulum qui sub e h g, positione igitur est ipse h e a, positione autem & utraq̃ ipsarum a b, c d. Datum igitur est utrunque ipsorum h k, signorum, est autem & e datum. Data igitur est utraque ipsarum h e, e ad k. Ratio igitur ipsius h e ad e k data: sicut autem h e, ad e k, sic g e ad e f. Ratio igitur & ipsius g e ad e f data est.
 
-In parallelos enim positiōe datas rectas lineas a b, c d, recta excitetur linea e f, & secetur per 34 propositionē in datā rōne ipsius f g ad g e. Excitetur p̄ 31 primi ele. per g utriq̃ ipsarū a b, c d parallelus h k. Dico q̃ positiōe est h k. Assumatur enim in ipsa a b, datū signū l & per 12 primi ele. ab ipso l excitetur in c d perpēdicularis l n. Quoniā in positiōe datā rectā lineam c d, recta linea excitatur l n, datū efficiēs angulū l n d, positiōe igitur est per 28 propositionē ipsa l n, positiōe aūt & a b. Datum igitur n signū. Est autē & l datū. Data igitur est ipsa l n per 26 propositionē. Et quoniā ratio ipsius f g ad g e data est: sicut autem f g ad g e, sic n m ad m l. Ratio igitur ipsius n m ad m l data est. Quare & ipsius n l ad m l componendo, ratio data est. Dāta ad n l, data igitur & l m, sed & positione, estq̃ l datum. Datum igitur & m. Quoniam igitur per datum signū m ad positione datam rectam lineā c d, recta linea acta est h k, positione igitur est h k, per 28 propositionem.
+[Diagram: two horizontal parallels, a f k b above and c h g d below, crossed at e by transversal f e g and perpendicular k e h]
 
-[Diagram: horizontal parallels a b, h k, and c d with transversal e g f and perpendicular l m n; visible labels b, l, e, a on the top line; k, h on the middle line; d, m, g, c on the lower line; n and f below]
+## Theorema 35 Propositio 35
 
-## Theorema 38 Propositio 38
+SI à dato signo in positione datā rectam lineam, recta linea acta fuerit & secta fuerit in datam rationem, & per sectionem ad positionem datam rectā lineam recta linea acta fuerit, datur acta positione.
 
-SI in parallelos positione datas rectas lineas recta linea acta fuerit, proiectaq̃ fuerit aliqua eidem recta linea rationem habēs ad eandem datam. Ac per extremum ad positione datas parallelus recta linea acta fuerit acta positione datur.
+A dato siquidem signo a in positione datam rectam lineam c b, recta linea agatur à d seceturq̃ per præcedentem in datam rationem ipsius d e, e a. Exciteturq̃ per trigesimamprimā primi elemen. per e signum ipsi b c parallelos f e g. Dico quod positione est ipsa f e g. Excitetur enim per duodecimam primi elemētorum ab ipso a in ipsam b c, perpendicularis a h, quoniā à dato signo a in positiōe datam rectam lineam b c, recta excitatur linea a h, datū efficiens angulum qui sub a h d, positione igitur est per trigesimamprimam propositionē ipsa a h, positione autem & b c. Datum igitur h signum. Est autem & a datum. Data igitur est per uigesimamsextam propositionem & a h. Et quōniam ratio ipsius d e ad e a, data est: sicut autem d e ad e a, sic h k ad k a. Ratio igitur & ipsius h k ad k a, data est. Componendo igitur per decimamoctauā quinti elementorū: ratio ipsius h a ad a k, data est, data autem ipsa a h, data igitur & a k. Sed & positione, estq̃ a datum, datum igitur & k. Quoniā igitur per datum signum k, ad positione datam rectam lineam b c, recta linea excitatur f g, positione igitur est per 28 propositionem ipsa & f g.
 
-In parallelos positione datas, inquā ipsas a b, c d recta excitetur linea e f, apponaturq̃ eidē aliqua e g rōnē habēs ad e f, datā ac p̄ g per 31 primi ele. utriq̃ ipsarū a b, c d, parallelus recta linea agatur ipsa h k. Dico q̃ positiōe est h k, assumatur enim in a b datū signū n exciteturq̃ per 12 primi ele. ab ipso n in c d perpendicularis n m extendaturq̃ in l. Quoniam à dato signo n in positione datā rectā lineam c d, recta acta est n m, datū efficiēs angulū n m d. Igitur per 30 propositionem positione data est ipsa l m, positione autem & c d. Datum igitur est m signum, est autem & n datum. Igitur per 26 propositionem positione datur n m. Et quoniā ratio ipsius f e ad e g, data est. Sicut aūt f e ad e g, sic m n ad n l. Ratio igitur & ipsius m n ad n l data est. Data autem & n m, data igitur & n l. Sed & positione datum est n, datum igitur est & l. Quoniam igitur per datū signum l ad positione datam rectam lineā a b recta linea acta est h k positione est ipsa h k.
+[Diagram: point a above; horizontal line g k e f through k and e; base line c h d b below; lines drawn from a through e to d and from a through k to h]
 
-[Diagram: horizontal parallels; top line k l g b with a at right; middle line d n e c; points m and f below; transversal g e f and perpendicular l n m]
+## Theorema 36 Propositio 36
 
-## Theorema 39 Propositio 39
+SI à dato signo in positione datam rectam lineam recta linea acta fuerit, proiectaque fuerit eidem aliqua recta linea rationem habens ad eandem datam, ac per proiectæ finem ad positione datam rectam lineā linea acta fuerit, datur acta positione.
 
-SI trianguli unumquodq̃ latus datum magnitudine fuerit, datur triangulum specie.
+A dato enim signo a in positione datam rectam lineam b c, recta agatur linea a d, & apponatur ipsi a d ipsa a e, rationem habens ad a d datam, ac per e, per 31 primi elemen. ipsi b c parallelus excitetur f k. Dico quod positione est ipsa f k, excitetur per duodecimam primi elementorum ab ipso a in b c, perpēdicularis a h, extendaturq̃ in g. Quoniā à dato signo a in positione datam rectam lineam b c, recta excitata est linea a h, datum efficiens angulum a h c, positione igitur datur per 31 propositionem h a g, positione autem & b c. Datum igitur est h signum, est autem & a datum. Data igitur est ipsa a h per 26 propositionem. Et quoniam ratio ipsius d a ad a e, data est, sicut autem d a, e, sic h a ad a g. Ratio igitur & ipsius h a ad a g, data est, data autem h a. Data igitur & a g, sed & positione, estq̃ a datum, datum igitur & g. Quoniam igitur per datum signum g ad positiōe datā rectam lineam b c, recta excitatur linea f g k, positione igitur est per 28 propositionem ipsa f g k.
 
-Trianguli enim a b c unumquodq̃ latus esto magnitudine datū. Dico quod & triangulum a b c, specie datur, exponatur enim recta linea positione data d m, terminata quidem in d infinita uero in reliquum, ponaturq̃ per secundam primi elementorum. ipsi quidem a b æqualis d e. Data autem a b, data igitur est & d e. Sed & positione, estq̃ datum ipsum d, datū igitur & e. ipsi autem b c æqualis e f data est ipsi b c, data igitur & e f, sed & positiōe, datū est & datū igitur & f, ipsi autem a c æqualis f g. Data est & a c, data igitur & f g sed & positione. Est autem datum f, datum igitur & g & centro quidem e, interuallo autem e d, per tertium postulatum circulus describetur d k h positione igitur est ipse d k h circulus per 6 diffinitionem
+[Diagram: line b c and parallel line f k; point a between them; transversal a d and extension to e; perpendicular h a extended to g; labels c, k above, e, b, a, g in the middle, d, f, b below]
 
-[Diagram: vertical straight line from d down through e, f, g to m; two intersecting circles centred at e and f; labels d and b above, c and a at the upper circle, f, g, m below]
+<!-- Signature: Aa 3 -->
 
-<!-- Catchword: nem -->
+<!-- Catchword: Theore -->

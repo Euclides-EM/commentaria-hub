@@ -1,27 +1,39 @@
-<!-- Page number: 556 -->
+<!-- Running title: DATA -->
 
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Page number: 555 -->
 
-datus igitur est & qui sub h g d. Quoniam igitur additiōe data recta linea c d, & ad in eā datum signum g recta linea excitatur g h datum efficiens angulū h g f. Igitur per 29 propositionem ipsa g h positione datur, positione autem & a b. Datum igitur est h signum, est autem & g. Data igitur est g h, magnitudine per 26 propositionem, & ipsi e f est æqualis. Data igitur est & e f magnitudine.
+### Aliter idem.
 
-## Theorema 33 Propositio 33
+Excitetur per 31 primi elemen. ab a signo ipsi b d c, rectæ lineæ parallelus e a f. Quoniam igitur per datum signum a ad positione datā rectam lineam b d c, recta linea acta est e a f, igitur per 28 propositionem ipsa e a f, positione datur, & quoniam parallelus est a f ipsi b d c, & in eas incidit d a: æqualis igitur est per 29 primi elementorum angulus e a d angulo a d c. Datus igitur est & qui sub e a d. Quōniam igitur additione data recta linea e a f, & ad signum in ea datū a rectā excitatur linea a d, datum efficiens angulū, igitur per uigesimānonā propositionē positione est ipsa a d.
 
-SI in parallelos positione datas rectas lineas recta linea acta fuerit magnitudine data, angulos efficiet datos.
+[Diagram: parallel lines e a f above and b d c below, joined by transversal a d]
 
-Si in parallelos enim positione datas rectas lineas a b, c d, recta linea excitetur e f magnitudine data. Dico quod datos angulos efficiet sub b e f e f d, assumatur enim in ipsa a b datum signū g & per g ipsi e f, per 31 primi ele. parallelus excitetur g h, æqualis igitur est e f ipsi g h. Data autem est e f magnitudine. Data igitur est & g h. Estque g datū. Cētro igitur g, interuallo uero g h, circulus descriptus erit positiōe. Describatur sitq̃ k h l, positiōe igitur est circulus k h l, positiōe aūt & c d, datū igitur & h signum, est aūt & g datum positione, igitur est ipsa g h, per 26 propositionem, positione autem & c d. Datus igitur est & qui sub h g d angulus, & ei est æquus qui sub e f d. Datus igitur est & qui sub e f d, & reliquus igitur qui sub f e b, datus est.
+Assumatur in ipsa b c, datum signum e & per e signū ipsi a d, per 31 primi elementorum parallelus excitetur e f. quoniam parallelus est f e, ipsi a d, & in eas incidit b e d. Aequus igitur est per 29 primi elementorum qui sub f e d, angulus ei qui sub a d c. Datus igitur est & qui sub f e d. Quoniam igitur additione data recta linea b c & ad datū in ea signum e linea excitata est e f, datum efficiens angulū f e c, igitur per 29 propositionem positione data est ipsa e f. Quoniam per datum signum a ad positione datam rectam lineā d c linea excitatur a d: igitur per 28 propositionem positione est ipsa a d.
 
-[Diagram: two vertical parallel lines crossed by a transversal; circle k h l centred at g; point labels a, k, e above, h, b at right, g and f in the middle, c, l, b below]
+[Diagram: base line c d e b with two parallel slanted lines d a and e f rising from d and e]
 
 ### Aliter.
 
-Assumatur in c d datum signum g ponaturq̃ per 2 primi elemen. ipsi f e æqualis g d, & centro quidem g spacio uero g d, per 3 postulatum circulus describatur d b, positiōe igitur est ipse b d circulus. Datur siquidem eius cētrū positione & quæ ex centro magnitudine, positione autem & a b. Datum igitur est b signum, est autem & g datum positione, igitur est ipsa b g, per 26 propositionem, positione autem & c d. Datus igitur est qui sub b g d angulus. Et siquidem parallelus est e f ipsi b g erit, & qui sub e f g, angulus datus: quare & reliquus qui sub f e b angulus datus est. Si autem non concurrunt ipsæ e f, b g in h. Quoniam æqualis est e f ipsi d g hoc est ipsi g b & parallelus est e b ipsi f g, æqualis igitur est h f ipsi h g. Quare & angulus qui sub h g f, ei qui sub h f g, est æqualis. Datus aūt qui sub h g f. Datus. igitur & qui sub g f h, quare & consequens qui sub h f e, datus est, & reliquus qui sub f e b, datus est.
+Assumatur in b c, contingens signum e, cōiectaturque e a, quoniam a signum: datum est igitur per 26 propositionem ipsa a e positione data est, positione autem & b c. Quoniam enim utraque ipsarū a e, b c, rectarū linearū positiōe datur. Datur qui sub a e d, angulus magnitudine, sicut in diffinitionibus, possumus enim eidem æquum exhibere. Datus igitur, est qui sub a e d angulus, est aūt & qui sub a d e angulus datus, & reliquus igitur qui e a d, datus est. Quoniā igitur additione data recta linea e a & ad signū in ea a, recta excitatur linea a d datum efficiens angulum eū qui sub a d, positione igitur est per 29 propositionem ipsa a d.
 
-[Diagram: circle centred g with vertical parallels either side; e at upper left, f within upper part, h at top, b at right on the circle, g below centre, b lower left, d lower right]
+[Diagram: triangle with apex a and base line c e d b]
 
-## Theorema 34 Propositio 34
+## Theorema 31 Propositio 31
 
-SI in parallelos positione datas rectas lineas à dato signo recta linea acta fuerit, in datam rationem secabitur.
+SI à dato signo in positiōe datam rectam lineam, recta linea proiecta fuerit data magnitudine, datur etiam positione.
 
-In parallelos enim positione datas rēctas lineas a b, c d, à dato signo e, recta excitetur linea e f g. Dico quod ratio ipsius e f ad f g, data est, excitetur enim per 12 primi elemento. ab ipso e signo in c d perpendicularis e k h. Quoniam à dato signo e in positione datam rectam lineam c d, recta linea excitata est h, datum efficiēs angulum sub e h g. igitur per 30 propositionem ipsa e h positione datur, positionem autem & utraque ipsarum a b c d. Datum igitur est utrunque ipsorum k h. Est autem & e datum. Data igitur est utraque ipsarum e k, k h. Ratio igitur ipsius e k ad k h, per primā propositionem data est. Estque sicut e k ad k h sic e f ad f g. Ratio igitur ipsius e f ad f g data est.
+A dato enim signo a in positiōe datam rectam lineam b c recta excitetur linea d a, data magnitudine. Dico quod etiam positione datur. Centro siquidem a interuallo uero a d, per 3 postulatū circulus describatur e d f, positiōe igitur est, per 6 diffinitionē ipse circulus d f. Datur siquidem a cētrū positione, & quæ ex centro a d magnitudine, positione autē & b c, recta linea. Si uero binæ lineæ positiōe datæ sese inuicem secuerint, datur per 25 propositionem signum in quo se dispescūt positione. Est autem & a datum, igitur per 26 propositione positione datur ipsa a d.
 
-[Diagram: point e above; upper horizontal line through k, f, a; lower horizontal line through b, g, c; transversal e f g and perpendicular e k h]
+[Diagram: circle with centre a; radius drawn from a down to d on a horizontal line f d b below the circle, cutting the circle at c; e on the circle]
+
+## Theorema 32 Propositio 32
+
+SI in parallelas positione datas rectas lineas recta linea acta fuerit, datos efficiens angulos, acta magnitudine datur.
+
+In parallelas enim positiōe datas rectas lineas a b c d, recta agatur linea e f, datos efficiens angulos sub b e f, & e f d. Dico quod ipsa e f, magnitudine datur. Assumatur enim in c d, datum signum g, & per g ipsi e f, per 31 primi elemento. parallelus excitetur g h. Quoniam igitur parallelus est g h ipsi f e, & in eas recta cecidit linea c d, æquus est igitur per 29 primi elementorum angulus h g d. Datus autem est qui sub e f d
+
+[Diagram: two horizontal parallels, b e h a above and d f g c below, with verticals e f and h g between them]
+
+<!-- Signature: Aa 2 -->
+
+<!-- Catchword: datus -->

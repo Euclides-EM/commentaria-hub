@@ -357,15 +357,13 @@ Liri run the corrector:
 
 **Status:** Ready for curation.
 
+# Completed
+
 ## Paris_1536
 
 Full Fable transcriptions exist, but they still require manual curation. Facsimile is public domain.
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_ub81ja
-
-**Status:** Ready for curation.
-
-# Completed
 
 ## Paris_1615
 

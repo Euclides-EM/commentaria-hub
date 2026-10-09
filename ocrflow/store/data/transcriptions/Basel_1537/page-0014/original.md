@@ -1,23 +1,25 @@
-<!-- Page number: 6 -->
+<!-- Running title: LIBER PRIMVS. -->
 
-<!-- Running title: GEOMET. ELEMENT. EVCLIDIS -->
+<!-- Page number: 5 -->
 
-35 Parallelæ rectæ lineæ sunt, quæ in eodem existentes plano, & ex utraque parte in infinitum productæ, in nulla parte concurrunt.
+ferentia sublata est, continetur. 19 Sectio circuli, est figura quæ sub recta linea & circuli circūferentia aut maiore aut minore semicirculo continetur.
 
-## Secundum, Postulata.
+[Diagram: Circulus (circle with point marked Centrum); Triangulus (triangle); Quadrangulus (hatched cube-like solid); Diameter (circle with horizontal diameter); Maior portio (segment greater than a semicircle); Semicirculus (semicircle); Minor portio (segment less than a semicircle)]
 
-1 Ab omni signo in omne signum, rectam lineam ducere. 2 Rectam lineam terminatam, in continuum rectumq́ʒ producere. 3 Omni centro & interuallo, circulum describere. 4 Omnes angulos rectos, adinuicem æquales esse. 5 Si in duas rectas lineas recta linea incidens, interiores & in eadē parte angulos duobus rectis minores fecerit, rectas lineas in infinitū productas concurrere necesse est ad eas partes in quibus anguli duobus rectis minores existunt.
+20 Rectilineæ figuræ, sunt quæ sub rectis lineis continentur. 21 Trilateræ figuræ, sunt quæ sub tribus rectis continentur lineis. 22 Quadrilateræ figuræ, sunt quæ sub quatuor comprehenduntur rectis lineis.
 
-[Diagram: two horizontal straight lines with a point; a transversal line falling across two straight lines; four concentric circles about a centre point]
+23 Multilateræ figuræ, sunt quæ sub pluribus q̃ʒ quatuor rectis lineis cōprehenduntur.
 
-## Tertium Communes sententiæ.
+[Diagram: Trilatera (triangle); Quadrilatera (quadrilateral); Multilatera (hexagon); Aequilaterus (equilateral triangle)]
 
-1 Quæ eidem æqualia, & ad inuicem sunt æqualia. 2 Et si æqualibus æqualia adijciātur, tota erunt æqualia. 3 Et si ab æqualibus æqualia auferantur, quæ relinquuntur æqualia erunt. 4 Et si inæqualibus æqualia adiungantur, tota erunt inæqualia. 5 Et si ab inæqualibus æqualia auferantur, reliqua inæqualia erunt. 6 Quæ eiusdem duplicia sunt, adinuicem sunt æqualia. 7 Et quæ eiusdem sunt dimidium, æqualia sunt adinuicem. 8 Et quæ sibimetipsis cōueniunt, æqualia sunt adinuicem.
+24 Trilaterarū porro figurarū, æquilaterū est triangulum, quod sub tribus æqualibus lateribus continetur.
 
-[Margin]
-χωρίον
-[/Margin]
+25 Isosceles autem, est quod sub binis tantum æqualibus lateribus continetur. 26 Scalenum uero, est quod sub tribus inæqualibus lateribus continetur. 27 Amplius trilaterarū figurarū, rectangulum triangulū est quod rectum angulum habet. 28 Amblygoniū autem, quod obtusum angulum habet. 29 Oxygoniū uero, quod tres habet acutos angulos.
 
-9 Totum, est sua parte maius. 10 Duæ rectæ lineæ,* superficiem non concludunt.
+[Diagram: Duum æqualium laterum; Trium inæqualiū laterū; Orthogoniū; Oxygoniū; Amblygoniū — seven triangles of the several kinds]
 
-<!-- Catchword: EVCLIDIS -->
+30 Quadrilaterarum autem figurarum, quadratum quidem, est quod & æquilaterū ac rectangulum est. 31 Altera parte longius, est quod rectangulum quidem, at æquilaterū non est. 32 Rhombus, est quæ æquilatera, sed rectangula non est. 33 Rhomboides uero, est quæ ex opposito latera & angulos habens æquales, neq̃ʒ æquilatera neq̃ʒ rectangula est. 34 Præter hæc autem, reliqua quadrilatera, trapezia appellantur.
+
+[Diagram: Quadratum (square); Tetragonus longus (oblong rectangle); Rhombus (rhombus); Rhomboides (rhomboid); Trapezium (trapezium)]
+
+<!-- Signature: a 3 -->

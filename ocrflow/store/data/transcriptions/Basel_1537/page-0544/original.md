@@ -1,45 +1,41 @@
-<!-- Running title: EVCLIDIS MEGARENSIS -->
+<!-- Running title: PERSPECTIVA -->
 
-<!-- Page number: 534 -->
+<!-- Page number: 533 -->
 
-Igitur magnitudo d f, maior apparet oculo in n, existente quàm in c, oculo igitur in b c permutato parallelo existenti ipsi d f, spectatum inæquale apparet.
+gnitudo a b, at sub angulo d e f, magnitudo d f: minor igitur spectabitur magnitudo a b, magnitudine d f, quod oportebat ostendere.
 
-## Theorema quadragesimumnonum.
+## Theorema quadragesimumquintum.
 
-ESt aliquis locus in quo æquales magnitudines inæquales apparent.
+ESt aliquis locus in quo oculo manente uisile, quæ permutato, æquum semper uisile apparet.
 
-Sit, nanq̃ æqualis b c ipsi c d, & circum quidē b c, semicirculus describatur b f c, circum uero c d, describatur segmentū maius semicirculo. Connectatur f b, f c, f d, igitur angulus qui in semicirculo est per 31 tertij element. maior est eo qui est in maiori segmētō, at quæ sub maiori spectantur angulo per 4 suppositionē opticæ maiora apparēt, oculo uero posito in f, maior igitur apparet b c, ipsa c d, erat autem æqualis: est igitur cōmunis locus in quo æquales inæquales apparent magnitudines.
+Sit, inquā, spectata magnitudo b c, oculus autē sit f, a quo procidant radij f b, f c, suscipiaturq̃ triangulum f b c, in circulo b f. Dico quod b c, magnitudo p̃mutata in descripti circuli circunferētia æqualiter semper apparebit, permutetur enim b c, in c d, connectaturq̃ f. igitur circūferentia b c, æqua est circunferentiæ c d, igitur per 27 tertij elementorū, æqualis est angulus r, æquales uero sub æqualibus spectantur angulis per 6 suppositionem optices, æqualia apparent æqualis igitur apparet b c ipsi c d.
 
-[Diagram: two arcs over the base line d, c, b, meeting at f above; chords from f to d, c, b]
+[Diagram: circle with d at the upper left, c at the left, b at the lower left, f at the right; chords from f to b, c, d; s and r within]
 
-## Theorema quinquagesimum conuersum præcedentis.
+## Theorema quadragesimumsextum conuersum præcedentis.
 
-ESt aliq̃s locus cōmunis à q̃ inæquales magnitudines æquales apparēt.
+ESt aliquis locus in quo oculo permutato, uisile uero manente, æqualiter semper uisile apparet.
 
-Esto, inquā, maior b c, ipsa c d, & super b c, maius semicirculo segmentum describatur, & super c d, simile ei quod super b c hoc est suscipiēs angulū æqualē ei qui in b f c, cōnectantur autē f b, f c, f d: igitur quoniā per 27 tertij element. in similibus segmētis anguli cōstituti inuicē sunt æquales, æquales quoq̃ sunt & in b f c, c f d, segmētis anguli sibi inuicē. Quæ uero sub æqua spectātur angulis æqualia apparēt, per 6 suppositionē opticæ, oculo igitur posito in f, signo æquales apparet, b c ipsi c d, est autē maior. Est igitur locus quidam cōmunis ex quo inæquales magnitudines æquales apparent.
+Esto, inquam, quod spectatur b c, oculus autem sit f, a quo procidant radij f b, f c, & accipiatur b f c, triangulū in ipsius circuli b f c, segmento, permutetur oculus f, sitq̃ in d, procidantq̃ radij b d, d c. per 21 tertij elementorū, angulo f, æqualis: in eodem enim sunt circuli segmento, quæ uero spectantur sub æqualibus angulis æqualia apparent, æqualiter igitur semper b c, apparet: permutato oculo in b d c, circunferentia.
 
-[Diagram: two arcs over the base line d, c, b, meeting at f above; chords from f]
+[Diagram: circle segment with e and b at the upper corners, s and r within, f(?) at the left, d at the right; crossing chords]
 
-## Theorema quinquagesimumprimum.
+## Theorema quadragesimumseptimum.
 
-ALiqui sunt loci in q̃bus binæ magnitudines inæquales in idem compositæ utriq̃ inæqualium æquales apparent.
+ESt aliquis locus in quo oculo permutato & uisile permanente, inæqualiter uisile apparet.
 
-Esto nempe maior b c, ipsa c d, & super ipsis b c & c d, semicirculi describātur, superq̃ tota b d. Igitur per 31 tertij element. angulus qui in semicirculo b a d, æqualis est ei q̃ in b k c, uterq̃ enim ipsorū rectus est. Igitur b c ipsi b d, æqualis apparet, itidem quoq̃ & b d ipsi c d, oculis in b a d, b k c, c f d, semicirculis positis. Sunt igitur aliqui loci in q̃bus binæ inæquales magnitudines in idem cōpositæ æquales utriq̃ inæqualium apparent.
+Sit, inquam, uisile k d, recta autem linea b c. in ipsam k d, procidens, accipiaturq̃ per 9 sexti ele. ipsius d c & c k, media proportionalis c f, & connectatur f k, & f d. Super autem k d, segmentum describatur acutum habens angulum q, tangit autem rectam lineam b c. Quoniam est sicut d c, ad c f, sic c f ad c k, ponatur igitur circulus in b, signo, protendaturq̃ d b, b k, connectatur f d, igitur angulus q, æqualis est per 21 tertij elementorū, angulo f, in eodem nanq̃ est segmento, & angulus f, angulo b, maior est. & angulus q, igitur angulo b, maior est. oculo igitur in f, existente, maior apparet k d, q̃ si oculus in b positus fuerit.
 
-[Diagram: large semicircle with a at its apex, over two smaller semicircles marked f and k; base line with b at the left, c in the middle, b at the right]
+[Diagram: b at the top left; from d at the lower left lines run to k and e at the lower right; arcs over the base with s and f at the top and q within]
 
-## Problema primum &nbsp;&nbsp; Propositio 52
+## Theorema quadragesimumoctauum.
 
-LOcos inuenire a quibus æqualis magnitudo dimidiū apparet, siue quarta pars, & uniuersaliter in data ratione in qua & angulus secatur.
+IDem continget & si parallelus fuerit linea ipsi spectatæ magnitudini, in qua oculus permutatur.
 
-Sit enim recta linea l f, & super l f, describatur segmentū contingēs, & inscribatur in eo angulus k. Ipsi autē l f, æqualis esto b c, & sup b c, describatur segmentū quod suscipiet angulū ipsius k, anguli dimidiū, igitur angulus k, ipsius d, anguli duplus est, dupla igitur apparet l f, ipsius b c, oculis in l k f, & b d c, circunferentijs iacentibus.
+Esto enim parallelus b c, ipsi spectato d f, seceturq̃ per 10 primi element. d f, bifariam in k, exciteturq̃ per 11 eiusdem ad angulos rectos k n, ponatur igitur oculus in n, connectaturq̃ n d, n f, & circum d f, describatur segmentum quod suscipiet angulum q l. Quoniam igitur dimetiēs est k n, ipsi b c, & ad rectos angulos ab extremitate excitatur k n, ipsi b c. Igitur per correlarium 16. 3. element. b c, ipsum d n f, segmentū tangit, permutetur autem oculus in c, extendaturq̃ c f, c d, connectaturq̃ r f. Igitur angulus q l, ipsi angulo r, est æqualis. Sed angulus r, angulo c, maior est: igitur & angulus q l, angulo f, maior est. At quæ sub maiori spectantur angulo maiora apparent.
 
-[Diagram: two small circle-segments side by side, the first with k at its apex over the base l, f, the second with d(?) at its apex over the base b, b]
+[Diagram: e at the upper left and n at the top, b at the upper right; segment arc over the base; s, r, b, l within; base line with f at the left, k in the middle, c(?) at the right]
 
-[Diagram: fan of lines converging to m at the bottom; along the top the points b, f, n and z(?); on the descending lines the points d, f, p, r and i, t, k, f]
+<!-- Signature: Y 3 -->
 
-## Theorema 52 &nbsp;&nbsp; Propositio 53
-
-AEquali celeritate delatorū, in eademq̃ recta linea existentium, propinquū oculo postremum
-
-<!-- Catchword: præire -->
+<!-- Catchword: Igitur -->

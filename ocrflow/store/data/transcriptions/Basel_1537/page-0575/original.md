@@ -1,37 +1,39 @@
-<!-- Running title: DATA -->
+<!-- Page number: 564 -->
 
-<!-- Page number: 565 -->
+<!-- Running title: EVCLIDIS MEGARENSIS -->
 
-specie. Datur autem & b. Ratio igitur ipsius b ad e h, data est. ipsius autem b ad a, ratio est data & ipsius a ad e h, igitur ratio est data, & simile est a ipsi e h. Ratio igitur ipsius c d ad e f, data est. Idque propterea iam & reliquorum laterum ad reliqua latera per præcedentem ratio est data.
+cie datur & ab eadem describitur recta linea a b, Ratio igitur ipsius e ad a g b, data est. Et quoniam ratio ipsius a b ad c d, data est. Describunturq̃ ab ipsis a b, c d, similia similiterq̃ posita a b g, f, ratio igitur ipsius a g b, ad f data est. Ipsius aũt a g b, ad e, ratio est data. Et ipsius igitur e ad f, ratio est data.
 
-### Aliter.
+## Theorema 52 — Propositio 52
 
-Exponatur recta linea g h iã d ipsi b , aut est simile aut nõ. Sit pri⁹ simile fiatq̃ sicut c d ad e f, sic g h ad k l. Describãturq̃ p̃ 25 sexti ele. ab ipsis g h, k l ipsis a b, similes similiterq̃ positæ m, n, spẽs. Et quoniã est sicut c d ad e f, sic est g h ad k l. Describunturque ab ipsis c d e f, g h, k l, similia similiterq̃ posita rectilinea a, b, m, n, est igitur sicut a ad b sic m ad n. Ratio autẽ ipsius a ad b data est. Ratio igitur ipsius m ad n data. Datũ autem m per 25. propositionẽ, à data siquidem magnitudine rectilinea describitur species. Datum igitur est & n. Describatur iam per 46 primi elemen. ex ipsa k l quadratum x. Datur igitur ipsum x specie. Ratio igitur ipsius n ad x data, datũ aũt ipsum n, datum igitur & x. Data igitur est k l, est aũt & g h data. Rõ igitur ipsius g h ad k l data est. estq̃ sicut g h ad k l, sic c d ad e f. Ratio igitur ipsius c d ad e f, data est. Simile estq̃ a ipsi b & latera quoque reliqua ad reliqua latera per præcedentem rationem habebunt datam, non sit autem simile, consequenter iam priori ostenditur demonstratione.
+SI à data recta linea magnitudine data specie species descripta fuerit datur quæ descripta est magnitudine.
 
-[Diagram: four figures at right: a square with b inside and base corners f, e; a square with a inside and base corners d, c; below, a small rectangle divided horizontally into cells n (above) and x (below) with k at its right; and a square with m inside and base corners h, g]
+A data enim recta linea magnitudine a b data specie species describatur a c d e b, dico quod a c, d e b, datur magnitudine. Describatur enim ab ipsa a b, per 46 primi elemen. quadratũ a f. Datur igitur a f, specie & magnitudine, & quoniam ab eadem recta linea a b, bina rectilinea describuntur specie data a c d e b, & a f, igitur per 49 propositionem ipsius a c d e b ad a f, ratio data est. Datur igitur & ipsum a c d e b, magnitudine.
 
-## Theorema 55 — Propositio 55
+### Scholium.
 
-SI areola specie & magnitudine data fuerit, & eius latera magnitudine data erũt.
+Omne enim quadratũ datum est specie quandoquidem ipsius anguli dãtur, omnes enim sunt recti, & rationes quoque laterũ. omnia enim sunt æqualia, & enim non solum inæqualium est ratio, sed & æqualium. Et quoniam exponitur quadratum: describitur enim possum & eidẽ exhibere idem, ac per hoc datur & magnitudine idem quadratum & eius unumquodq̃ latus.
 
-Sit areola specie & magnitudine data a. Dico quod & ipsius latera magnitudine data recta sunt, exponatur siquidem positione & magnitudine data recta linea b c describaturq̃ per 25 sexti elemen. ex ipsa b c ipsi a simile similiterque positum d. Datur iam ipsum d specie, datur igitur & d magnitudine. Datur autem & a, ratio igitur ipsius a ad d, data. Simileq̃ est a ipsi d, ratio igitur ipsius e f ad b c data. Data autem & b c data, igitur & e f. Et ipsius f e ad e g, data est ratio, data igitur e g. Idque propterea iam & unumquodque ipsorum magnitudine datur.
+[Diagram: square with corners a (top left), b (top right), g (bottom left), f (bottom right); standing on its top side a smaller pentagonal (house-shaped) figure with apex d and base corners c, e]
 
-[Diagram: a rectangle with a inside, corners b (top left), g (top right), f (bottom left), e (bottom right); beside it a square with d inside and base corners c, b]
+## Theorema 53 — Propositio 53
 
-### Aliter.
+SI binæ species specie datæ fuerint, & unum latus unius ad unum latus alterius rationem datam habuerit, & reliqua latera ad reliqua latera rationem datam habebunt.
 
-Esto areola k l m n x, specie data & magnitudine, dico quod & latera eius data sunt specie. Describatur per 46 primi elementorum, ex m n, quadratum m o. Datur igitur specie. Sed & l n. Ratio igitur ipsius l n ad m o data est. Data autem l n magnitudine. Data igitur & m o, magnitudine, estque quadratum ex m n. Datum igitur est quod ex m n. Data igitur est m n magnitudine. Idque propterea iam & unumquodque ipsorum m l, l k, k x, x n, data est magnitudine.
+Sint binæ species specie datæ, a d, e h, ratio aũt ipsius b d ad f h, esto data. Dico quod & reliquorũ laterũ ad reliqua latera ratio est data. Nã quoniã ipsius d b ad f h, ratio est data, ipsius aũt d b ad b a, ratio est data, & ipsius igitur d b ad f h{printer-error-correction:b a ad f h}, ratio data est, ipsius aũt f h, ad f e, ratio est data, & ipsius a b, igitur ad e f, ratio est data. Idq̃ propterea iam & reliquorũ laterũ ad reliqua latera ratio est data.
 
-[Diagram: a house-shaped (pentagonal) areola with apex k, upper corners x (left) and l (right), points n (left side) and m (right side) below them, and o at the bottom left; horizontal lines divide the figure]
+### Scholium
 
-## Theorema 56 — Propositio 56
+Ostensum est in scholio 20 propositionis quod si a ad b, rationem habet datam: fuerit autẽ & c, datũ, & fiat sicut a ad b sic c ad aliud quid ut puta d, non tamen & uicissim rationẽ habebunt datam, quoniã & hic non per uices est eorum rationem datam inuenire, sed aliter sicut nunc.
 
-SI bina æquiangula parallelogramma, adinuicem rationem habuerint datã, erit sicut primi latus ad secundi latus, sic reliquum secundi latus ad quod alterum primi rationem habet datam, quam parallelogrammum ad parallelogrammum.
+[Diagram: two rectangles: the first with corners g (top left), e (top right), b (bottom left), f (bottom right); the second, taller and narrower, with corners e (top left), a (top right), d (bottom left), b (bottom right)]
 
-Bina enim æquiangula parallelogramma a, b, adinuicem rationem habeant datam. Dico quod est sicut c d ad e f, sic est e g ad id quod ipsa c h rationem habet datam. quã parallelogrammum a ad parallelogrammum b extendatur in rectas lineas ipsi c h, ipsa c k, fiatque sicut c d ad e f, sic e g
+## Theorema 54 — Propositio 54
 
-[Diagram: a wide rectangle divided horizontally into two strips, with a inside the upper strip; corners b (top left), e (top right), d and l at the ends of the dividing line, f (bottom left), k (bottom right); below it a square with b inside, e at top right, f at bottom left, g at bottom right]
+SI binæ species specie datæ adinuicẽ rationem datam habuerint, & eorum latera adinuicem rationem habebũt datam.
 
-<!-- Signature: Bb -->
+Binæ, inquã, species specie datæ a, b adinuicem rationem nem habeant datam. Dico quod & eorũ latera adinuicem rationẽ habẽt datam. Ipsum enim a ipsi b aut est simile, aut non, sit prius simile. Accipiaturq̃, per 11 quinti ele. ipsorum c d, e f, tertia proportionalis g: est igitur sicut c d ad g, sic est a ad b. Ipsius autem a ad b ratio data est. Ratio quoque igitur c d ad g data est, & sunt c d, e f, g, proportiõales, & ipsius, c d igitur ad e f, ratio est data. Simileq̃ est a ipsi b, & reliqua igitur latera ad reliqua latera per præcedentem rationẽ datam habebunt. Non sit autem simile a ipsi b & describatur a b, e f, per 25 sexti elementorum ipsi a, simile similiterq̃ positum e h, datur igitur & e h,
 
-<!-- Catchword: ad c k. -->
+[Diagram: a rectangle divided by a vertical line into two cells, with e above the dividing point, b inside the right cell, and b, f below the base; beneath it a second rectangle with a inside, c above its left side, d below its left corner, and a horizontal line extending left towards g]
+
+<!-- Catchword: specie. -->
