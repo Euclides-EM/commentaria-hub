@@ -7,7 +7,7 @@ contr. concl. γ
 
 concl. 21. a. 1 | raō.. ſphær. abc π ſphær. edf 2|2, 3; raō; bc π ef.
 
-## COROLL.
+### COROLL.
 
 Hinc fit ita esse sphæram ad sphæram, vt polyedrum in illa descriptum ad polyedrum simile in hac descriptum.
 

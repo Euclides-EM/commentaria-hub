@@ -25,7 +25,7 @@ Demonstr.
 2.concl. 2.6 | de π ec 2|2 di π ih
 34.1 | u fg π gb.
 
-## SCHOL.
+### SCHOL.
 
 Datam rectam lineam finitam in quotlibet partes æquales secare.
 

@@ -24,7 +24,7 @@ Partes quæcunque nomen accipiunt à duobus illis numeris, per quos maxima commu
 
 *Toutes parties prennent leur nom de deux nombres, par lesquels la plus grande commune mesure de deux nombres mesure l'vne & l'autre, comme 10. est deux tiers de 15. à cause que la plus grande commune mesure de 10. & 15. qui est 5. mesure 10. par 2. & 15. par 3.*
 
-## SCHOL.
+### SCHOL.
 
 Cùm primus numerus secundum, & tertius quartum
 

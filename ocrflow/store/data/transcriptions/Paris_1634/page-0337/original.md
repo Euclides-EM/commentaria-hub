@@ -4,7 +4,7 @@
 41.1 | ◇cf 2|2, 2Δacd,
 2.concl. γ.15.5 | ◇ce π ◇cf 2|2 Δacb π Δacd u bc π cd.
 
-## SCHOL.
+### SCHOL.
 
 Triangula & parallelogramma, quorum æquales sunt bases, vel eadem ; ita se habent inter se vt altitudines.
 

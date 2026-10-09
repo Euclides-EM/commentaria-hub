@@ -3,7 +3,7 @@
 1.s.23.6 | Δabc π Δdef 2|2 ▭.ab,bc π ▭.de,ef,
 concl. 11.5 | ◇bg π ◇eh 2|2 ▭.ab,bc π ▭.de,ef.
 
-## SCHOL. IV.
+### SCHOL. IV.
 
 Triangula & parallelogramma inter se proportionem habent compositam ex proportione altitudinum, & proportione basium.
 

@@ -5,7 +5,7 @@
 1.concl. 11.5 | a π g 2|2 g π b,
 2.concl. 10.d.5 | raō.. a π b 2|2, 2;raō.. a π g, u c π e.
 
-## COROLL.
+### COROLL.
 
 Hinc perspicuum est, inter duos similes planos cadere vnum medium proportionalem, in ratione laterum homologorum.
 

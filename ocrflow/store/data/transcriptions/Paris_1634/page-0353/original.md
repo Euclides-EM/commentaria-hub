@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-## SCHOL.
+### SCHOL.
 
 Parallelogramma vnum angulum vni angulo æqualem habentia sunt inter se æquiangula.
 

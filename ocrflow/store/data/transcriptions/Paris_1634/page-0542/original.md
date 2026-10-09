@@ -28,18 +28,18 @@ c.11.9 | d 2|2 ▭.ac,
 contr. hypoth.
 21.a.1 | f, msur: d.
 
-## COROLL. I.
+### COROLL. I.
 
 Itaque omnis numerus primus vltimum metiens, metitur quoque omnes alios vltimum præcedentes.
 
 *Partant tout nombre premier qui mesure le dernier, mesure aussi tous les autres qui precedent le dernier.*
 
-## COROLL. II.
+### COROLL. II.
 
 Si aliquis numerus non metiens proximum vnitati, metiatur vltimum, erit numerus compositus.
 
 *Si quelque nombre ne mesurant pas le prochain à l'vnité, mesure le dernier, il sera nombre composé.*
 
-## COROLL. III.
+### COROLL. III.
 
 Si proximus vnitati sit numerus primus, nullus alius primus numerus vltimum metietur.

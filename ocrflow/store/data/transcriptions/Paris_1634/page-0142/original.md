@@ -4,7 +4,7 @@ numerum lateris GH, 3, facit 15, pro area rectanguli EH.
 
 bre du costé EG, 5, estant multiplié par le nombre du costé GH, 3, fait 15, pour l'aire du rectangle EH.
 
-## SCHOLIVM II. — SCHOLIE II.
+### SCHOLIVM II. — SCHOLIE II.
 
 Cognita area rectanguli & vno laterum, inuenire alterum latus.
 
@@ -16,7 +16,7 @@ Diuidatur numerus areæ per numerum lateris dati, quotiens erit quæsitus numeru
 
 Soit diuisée le nombre de l'aire par le nöbre du costé döné, & le quotiët sera le requis. Par exemple le nöbre du rectangle EH, 15. estant diuisé par le nombre du costé EG, donne 3, pour le nombre de l'autre costé GH.
 
-## SCHOL. III.
+### SCHOL. III.
 
 Si duæ rectæ lineæ aliis duabus rectis lineis æquales fuerint vtraque vtrique, rectangulum sub prioribus duabus comprehensum æquale est ei quod sub duabus posterioribus comprehenditur.
 

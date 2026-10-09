@@ -11,7 +11,7 @@
 5.1 2.concl | <cad 2|2 <cda, β
 β.32.1 | <bcdu<cbdu<bda 2|2, 2<bad.
 
-## COROLL.
+### COROLL.
 
 Cùm tres anguli trianguli sint æquales duobus rectis, perspicuum est angulum BAD esse quintam partem duorum rectorum.
 

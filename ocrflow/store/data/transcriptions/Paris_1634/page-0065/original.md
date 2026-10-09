@@ -10,7 +10,7 @@ Item quacunque magnitudine data sumi posse aliam magnitudinem, vel æqualem, vel
 
 ## COMMVNES NOTIONS OV sentences, qui s'appellent außi maximes.
 
-### I. a. 1.
+### 1. a. 1.
 
 Quæ eidem æqualia, & inter se sunt æqualia. | Les choses egales à vne mesme, sont außi egales entr'elles.
 

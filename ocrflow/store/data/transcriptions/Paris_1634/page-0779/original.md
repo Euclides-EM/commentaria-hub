@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-## COROLL.
+### COROLL.
 
 Hinc efficitur, in omni parallelepipedo diametros omnes se mutuò bifariam secare in vno puncto, nimirum in puncto V.
 

@@ -19,7 +19,7 @@ s.5.2. | ▭.de 2|2 ▭.adb,
 47.1. | ▭.de + ▭.cd 2|2 ▭.ce u ca,
 concl. 1.a.1. | ▭.daf + ▭.cd 2|2 ▭.ac.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Si tres rectæ sint in proportione arithmetica, rectangulum sub extremis contentum, vnà cum quadrato excessus, æquale erit quadrato mediæ.
 
@@ -29,6 +29,6 @@ s.4.d.5. | af, af + fc, af + fc + cd snt in propor. arithm.
 | u, af, ac, ad.
 concl. 6.2. | ▭.af,ad + ▭.cd u fc 2|2 ▭.ac.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Si quantitas quantitatem excedat, semissis illius semissem huius superabit excessus semisse.

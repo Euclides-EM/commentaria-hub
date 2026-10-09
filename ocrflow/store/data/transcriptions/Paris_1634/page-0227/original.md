@@ -3,7 +3,7 @@
 36.3 | ▭.caf 2|2 □.ad,
 concl. 1.a.1 | ▭.bae 2|2 ▭.caf.
 
-## COROLL. II.
+### COROLL. II.
 
 Constat etiam, duas rectas ab eodem puncto ductas, quæ circulum tangant, inter se esse æquales.
 
@@ -26,7 +26,7 @@ Demonstr.
 1.a.1 | □.ab 2|2 □.ac,
 concl. s.46.1 | ab 2|2 ac.
 
-## COROLL. III.
+### COROLL. III.
 
 Perspicuum quoque est, ab eodem puncto extra circulum assumpto, duci tantùm posse duas lineas quæ circulum tangant.
 

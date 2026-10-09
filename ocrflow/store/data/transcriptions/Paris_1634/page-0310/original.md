@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## SCHOL. I.
+### SCHOL. I.
 
 Demonstr.. composit.. raō. conuers.
 
@@ -18,7 +18,7 @@ hyp. | ab π bc 2|2 de π ef,
 c.4.5 | bc π ab 2|2 ef π de,
 concl. 18.5 | ac π ab 2|2 df π de.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Demonstr.. composit.. raō. contr. & inuers. contr.
 

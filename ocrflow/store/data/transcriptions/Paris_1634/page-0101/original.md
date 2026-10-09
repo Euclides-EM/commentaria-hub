@@ -26,7 +26,7 @@ constr. | hi 2|2 ha
 15.1. | <acd 2|2 <bcg,
 2.cöcl. 1.a.d. | <acd 3|2 <cba.
 
-SCHOL.
+### SCHOL.
 
 Ab eodem puncto ad vnam eandemque lineam rectam, non possunt duci plures lineas rectas, quam duas inter se æquales.
 

@@ -13,7 +13,7 @@ A, ad B, est vt C, ad D; igitur A, & C, sunt æquè multiplices B, & D : vel A, 
 
 *A à B, est comme C à D : partant A & C, sont equimultiples de B & D : ou A, est mesme partie de B, que C, l'est du nombre D : ou bien la partie de A, qui mesure B, est la mesme que la partie de C, qui mesure D.*
 
-## COROLL. I.
+### COROLL. I.
 
 hyp. | a, msur: b, c, msur: d,
 
@@ -27,7 +27,7 @@ A & C, metiuntur æquè B & D : igitur A, est ad B, vt C ad D.
 
 *A & C, mesurent egalement B & D : partant A, est à C, comme C à D.*
 
-## COROLL. II.
+### COROLL. II.
 
 hyp. | a π b 2|2 c π d.
 hyp. | a, msur: b

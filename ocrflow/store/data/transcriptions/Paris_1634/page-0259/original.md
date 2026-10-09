@@ -6,7 +6,7 @@
 | 3864, π, 2760, 10, π, O
 | ac est 7 552/3864.
 
-## SCHOL. IV.
+### SCHOL. IV.
 
 Omnis figura æquilatera circulo inscripta, est quoque æquiangula: sed non omnis figura æquilatera circulo circumscripta est quoque æquiangula, nisi numerus angulorum ipsius sit impar.
 

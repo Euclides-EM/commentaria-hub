@@ -31,6 +31,6 @@ s.46.1 | df 2|2 db,
 12.a.b | <ebd est ∟,
 c.16.3 | db tang: ⊙abf.
 
-## COROLL.
+### COROLL.
 
 α.8.1 | <edb 2|2 <edf.

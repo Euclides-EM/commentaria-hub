@@ -2,7 +2,7 @@
 
 moindre raison de la premiere à la seconde, que de la cinquiesme à la sixiesme, comme il est manifeste par la mesme demonstration.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Eodem modo, si prima ad secundam, maiorem habuerit rationem quàm tertia ad quartam ; tertia autem ad quartam, maiorem habuerit quàm quinta ad sextam : prima quoque multò magis ad secundam, maiorem rationem habebit, quàm quinta ad sextam. Quod si prima ad secundam, minorem habuerit rationem quàm tertia ad quartam ; tertia autem ad quartam, minorem habuerit quàm quinta ad sextam : prima quoque multò magis ad secundam, minorem rationem habebit quàm quinta ad sextam.
 

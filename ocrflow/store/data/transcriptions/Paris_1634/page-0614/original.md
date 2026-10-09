@@ -18,7 +18,7 @@ Demonstr.
 
 ɔ.21.d.7 | e & f snt plan; disml,
 
-## LEMM. I.
+### LEMM. I.
 
 Duos numeros quadratos inuenire, ita vt compositus ex ipsis quadratus etiam sit.
 
@@ -46,6 +46,6 @@ Demonstr.
 2.s1.d10 | cd & ce snt nr; ratiō;
 concl. 47.1 | □.cd + □.de | □. 2|2 ce.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Facilè itaque inuenientur duo numeri quadrati quorum excessus sit quadratus, vel non quadratus numerus.

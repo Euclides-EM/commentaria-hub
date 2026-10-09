@@ -2,7 +2,7 @@
 
 ♪ε 3.concl 10. 10 | ▭dk, incomm. ▭gk, / dl, incomm. gl.
 
-## COROLL. II.
+### COROLL. II.
 
 hyp. | □.ac, incōm. □.bc. λ
 

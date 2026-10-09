@@ -37,7 +37,7 @@ hyp. | b π d 2|2 c π a,
 11.5 | b π d n̄ est 2|2 nr. π. nr.
 2 concl. 8.10 | b & d snt incomm. ꝗe.
 
-## LEMM. I.
+### LEMM. I.
 
 Duos numeros planos inuenire, qui proportionem non habeant, quam quadratus numerus ad quadratum numerum.
 

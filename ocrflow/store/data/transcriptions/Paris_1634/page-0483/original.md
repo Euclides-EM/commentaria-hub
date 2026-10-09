@@ -10,7 +10,7 @@ hyp. | b, msur: a,
 contr. hyp. α
 concl. 21.a.1 | b, est nr. pr.
 
-## THEOR. XXXI. PROPOS. XXXIV.
+## THEOR. XXXI{printer-error-correction:XXXII}. PROPOS. XXXIV.
 
 Omnis numerus aut primus est, aut eum aliquis primus metitur.
 

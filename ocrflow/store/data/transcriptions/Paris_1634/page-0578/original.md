@@ -38,7 +38,7 @@ constr. | ed, msur: af,
 2 concl. 21.a.1 | fb, est ma.c.me..
 ab & cd.
 
-## COROLL.
+### COROLL.
 
 Ex hoc manifestum est, quòd magnitudo metiens duas magnitudines, metitur & maximam earum mensuram communem.
 

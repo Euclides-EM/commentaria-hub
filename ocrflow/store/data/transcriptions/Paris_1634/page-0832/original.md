@@ -33,7 +33,7 @@ Demonstr.
 32. 1 | △ade æquiāg. △adb,
 concl. 4. 6 | ae π ad, Ⅱ be, / ad, Ⅱ be π ab,
 
-## COROLL.
+### COROLL.
 
 Hinc perspicuum est, si latus hexagoni alicuius circuli secetur extrema ac media ratione; majus illius segmentum esse latus decagoni eiusdem circuli.
 

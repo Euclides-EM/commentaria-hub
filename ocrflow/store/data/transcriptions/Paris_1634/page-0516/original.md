@@ -23,13 +23,13 @@ Demonstr.
 1.concl. 11.5 | a, m, n, b snt contin. proport; ꝗn raō.. e π h,
 2.concl. 10.d.5 | raō. a π b 2|2, 3;raō.. a π m, u c π f.
 
-## COROLL.
+### COROLL.
 
 Hinc sequitur, inter duos similes solidos cadere duos medios proportionales, in ratione laterum homologorum.
 
 *D'icy s'ensuit, qu'entre deux solides semblables tombent deux moyens proportionaux en la raison des costez homologues.*
 
-## SCHOL. I.
+### SCHOL. I.
 
 Si tres, plurésve numeri inter se continuè multiplicentur, idem semper procreabitur numerus, quomodocunque, & quouis ordine fiant multiplicationes.
 

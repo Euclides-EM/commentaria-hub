@@ -19,7 +19,7 @@ suppos. | i, 3|2 m,
 β.c.6.d.5 | h, 3|2 l,
 6.d.5 | a π b 2|2 c π d.
 
-## SCHOL.
+### SCHOL.
 
 Quæ eisdem rationibus sunt eædem rationes, sunt quoque inter se eædem.
 

@@ -35,6 +35,6 @@ hyp. | eb est 4,
 1.s.1.d.2 | ▭eg est 24,
 2.a.1. | ▭ag est 72.
 
-## SCHOL.
+### SCHOL.
 
 Si fuerint duæ rectæ lineæ, secenturque ambæ in quot-

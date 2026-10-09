@@ -11,7 +11,7 @@ Demonstr.
 19.1 | cd 2|3 cb,
 concl. c.15.d.1 | • d est in ⊙.
 
-## COROLL.
+### COROLL.
 
 Hinc est manifestum, lineam rectam, quæ circulum tangit, ita vt eum non secet, in vno tantum puncto ipsum tangere.
 

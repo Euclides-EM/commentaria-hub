@@ -35,7 +35,7 @@ lo ▭.to, os, est medi.
 l.91.10 | aggreg.. □.to + □. so, incomm. ▭to, os,
 concl. 79. 10 | ts, est ——, fa. 2; medi;
 
-## LEMM.
+### LEMM.
 
 [Figure: labels arranged A B C / D G M I L / E F N H K]
 

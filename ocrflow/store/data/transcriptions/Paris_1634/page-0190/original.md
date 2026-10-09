@@ -9,7 +9,7 @@ constr. | <ceb est ∟,
 12.a.1 | <ceg 2|2 <ceb, contr. 9.a.1.
 concl 21.a.1 | • f est centr.. ⊙.
 
-## COROLL.
+### COROLL.
 
 Hinc manifestum est, si in circulo recta aliqua linea aliquam rectam lineam bifariam, & ad angulos rectos secet, in secante esse centrum circuli.
 

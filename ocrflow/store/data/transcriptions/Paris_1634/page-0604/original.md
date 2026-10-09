@@ -7,7 +7,7 @@ hyp. | cb, est √.6,
 1.concl. 1.s1.d.2 | ▭db, u □.h, est √.54
 2 concl. s 46.1 | h, est √√.54.
 
-## SCHOL.
+### SCHOL.
 
 Omne rectangulum, quod potest contineri sub duabus rectis rationalibus potentia solùm commensurabilibus, est medium, quamuis contineatur sub duabus rectis irrationalibus ; atque omne medium potest contineri sub duabus rectis rationalibus potentia tantùm commensurabilibus.
 

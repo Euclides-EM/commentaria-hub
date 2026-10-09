@@ -31,7 +31,7 @@ c.18.8 | h π k,
 snt raō; 2|2 ꝫe.
 concl. ε.21.d.7 | a & b snt nr; solid; sml;
 
-## SCHOL.
+### SCHOL.
 
 Ex hac demonstratione constat vnitatem esse numerum planū : si enim vnitas excluderetur à numeris planis, hac demonstratione nihil concluderetur, cùm propositi numeri sunt in ratione multipla, vt patet in numeris secundi exempli.
 

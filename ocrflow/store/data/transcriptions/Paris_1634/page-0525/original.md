@@ -20,7 +20,7 @@ Demonstr.
 8.8 | ꝗntr. a & b snt 2; medi; proport;
 concl. 21.8 | a & b snt sml; solid;
 
-## SCHOL. I.
+### SCHOL. I.
 
 Ex his omnibus perspicuè infertur, nullos numeros habentes proportionem superparticularem, vel superbipartientem, vel duplam, aut aliam quamcunque multiplam non denominatam à numero quadrato esse similes planos.
 

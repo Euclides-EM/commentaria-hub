@@ -38,6 +38,6 @@ suppos. | hk, comm. hi,
 suppos | hk, comm. hi ꝗn □,
 2 concl. 22.10 | ▭ik, est medi.
 
-## LEMM.
+### LEMM.
 
 Aggregatum quadratorum à rectis potentia tantùm

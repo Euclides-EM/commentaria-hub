@@ -2,7 +2,7 @@
 
 De cette proposition s'ensuit que tout triangle qui a vn angle droict ou obtus, a les autres aigus.
 
-COROLL. II.
+### COROLL. II.
 
 Sequitur etiam si linea recta cum alia recta angulos inæquales faciat vnum acutum & alterum obtusum, lineam perpendicularem ex quouis eius puncto ad aliam illam demissam cadere ad partes anguli acuti.
 
@@ -27,7 +27,7 @@ hyp. | <aec. 3|2. ∟,
 4.a.b. | <ace + <aec 3|2 2∟,
 | cont. 17. 1.
 
-COROLL. III.
+### COROLL. III.
 
 Pari ratione fit ex hac propositione manifestum omnes angulos trianguli æquilateri & duos angulos trianguli isoscelis supra basim esse acutos.
 

@@ -41,6 +41,6 @@ c.ʒ.10 | f, msur: e,
 α | contr. 9.a.b.
 2 concl. 21.a.1 | e, est ma.c.me. a, b, c.
 
-## COROLL.
+### COROLL.
 
 Apertè quoque ex hoc colligitur, quòd magnitudo metiens tres magnitudines, metitur quoque maximam earum mensuram communem.

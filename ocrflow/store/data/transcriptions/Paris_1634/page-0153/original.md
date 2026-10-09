@@ -19,7 +19,7 @@ arbitr. | cb u bi est 3,
 1.s.1.d.2 | hf ▭.ac est 4,
 concl. 3.a.1. | hbf est 21.
 
-## SCHOL. III.
+### SCHOL. III.
 
 Si cuius numero quadrato addatur quadratus numerus & à summa auferatur duplus plani sub lateribus quadratorum comprehensi residuum erit quadratus numerus.
 

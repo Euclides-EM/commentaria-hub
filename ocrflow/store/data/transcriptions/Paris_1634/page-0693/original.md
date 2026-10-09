@@ -34,7 +34,7 @@ constr. | □lm 2|2 ▭ah, / & □no 2|2 ▭gi,
 constr. | df 2|2 fe,
 4.concl. 16. 10 | df, fe, de snt cōm. ꝗe. θ
 
-## COROLL. I.
+### COROLL. I.
 
 hyp. | ae, comm. de ꝗn □, к
 hyp. | □.ae 3|2 □.de..□.—— comm. ae, λ

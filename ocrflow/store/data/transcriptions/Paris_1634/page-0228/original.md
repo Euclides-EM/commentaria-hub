@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVDLID. LI. III. -->
 
-## COROLL. IV.
+### COROLL. IV.
 
 Illud denique constat etiam, si duæ rectæ æquales ex puncto quopiam in conuexam peripheriam incidant, & earum vna circulum tangat, alteram quoque circulum tangere.
 

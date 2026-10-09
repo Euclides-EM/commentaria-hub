@@ -17,13 +17,13 @@ constr. | <fec 2|2 fea,
 α.1.a.1 | fc 2|2 fb,
 concl. 6.d.4 | ⊙abc est circscri. △abc.
 
-## COROLL.
+### COROLL.
 
 Hinc manifestum est, si triangulum fuerit acutangulum centrum cadere intra triangulum : si rectangulum, in latus recto angulo oppositum : si denique obtusangulum, extra triangulum
 
 Il est manifeste de cette proposition, que si le triangle est oxygone, le centre tombera en iceluy : si rectangle, au costé qui soustient l'angle droict : & si amblygone dehors.
 
-## SCHOL.
+### SCHOL.
 
 Eadem methodo describetur circulus, qui transeat per data tria puncta, non in vna recta linea existentia.
 

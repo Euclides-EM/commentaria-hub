@@ -14,7 +14,7 @@ suppos. | d, n̄. msur: a,
 23.7 | d & a snt term.. raō.. d π a,
 concl. 21.7 | d, msur: b.
 
-## SCHOL.
+### SCHOL.
 
 A...3 B....4
 C............12

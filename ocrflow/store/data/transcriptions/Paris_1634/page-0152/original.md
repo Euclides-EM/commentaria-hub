@@ -47,6 +47,6 @@ hyp. | cb est 3,
 1.s.1.d.2 | kf ▭.cb est 9,
 2.a.1. | af ▭.ab est 36.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Si quadratus numerus addatur & auferatur ab eodem numero dato, & dimidium summæ & residui, diuidatur

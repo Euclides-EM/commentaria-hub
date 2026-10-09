@@ -11,7 +11,7 @@
 15.5 | Δabc π Δdef 2|2 ▭.bg,ac π ▭.eh,df,
 concl. α.11.5 | Δabc π Δdef 2|2 ▭.ab,ac π ▭.de,df.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Triangula, quæ vnum angulum vni angulo æqualem habent, proportionem habent ex lateribus æqualem angulum comprehendentibus compositam.
 

@@ -21,18 +21,18 @@ hyp. | cb est 2,
 1.s.1.d.2 | gd ▭.acb est 10,
 2.a.1. | ad ▭.ab est 49.
 
-## COROLL. I.
+### COROLL. I.
 
 Hinc manifestum est parallelogramma circa diametrum quadrati esse quadrata.
 
 De cette demonstration il s'ensuit que les parallelogrammes descrits à l'entour du diametre d'vn quarré, sont quarrez.
 
-## COROLL. II.
+### COROLL. II.
 
 Sequitur etiam diametrum cuiusuis quadrati diuidere eius angulos bifariam.
 
 Il s'ensuit außi que le diametre de quelconque quarré diuise les angles d'iceluy en deux également.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Si linea recta fuerit dupla lineæ rectæ, quadratum ex illa

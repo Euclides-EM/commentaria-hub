@@ -7,7 +7,7 @@ hyp. | <b 2|2 <e,
 10.d.5 | raō.. bc π bg 2|2, 2 raō.. bc π ef,
 concl. 11.5 | raō.. Δabc π Δdef 2|2, 2 raō.. bc π ef.
 
-## COROLL.
+### COROLL.
 
 Hinc manifestum est, si tres rectæ lineæ proportionales fuerint, vt est prima ad tertiam, ita esse triangulum super primam descriptum ad triangulum super secundam simile similiterque descriptum : vel ita esse triangulum super secundam descriptum ad triangulum super tertiam simile similiterque descriptum.
 

@@ -6,7 +6,7 @@
 γ | e, n̄ est mi.c.diuidu.. c & d.
 contr. constr.
 
-## COROLL.
+### COROLL.
 
 Sequitur ex his, si tres numeri numerum quempiam metiantur; etiam minimum, quem illi metiuntur, eundem metiri.
 

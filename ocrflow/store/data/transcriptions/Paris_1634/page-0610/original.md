@@ -49,4 +49,4 @@ s.12.10 | fg, n̄, est ration.
 contr. concl. γ
 concl. 21.a.1 | kg, n̄, est ration.
 
-SCHOL.
+### SCHOL.

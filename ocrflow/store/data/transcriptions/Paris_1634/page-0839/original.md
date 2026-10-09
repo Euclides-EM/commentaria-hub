@@ -32,6 +32,6 @@ conſtr. | ba π ac 2|2, 3 π 2,
 c. 8. 6 | ba π ac, / □.ba π □.ad,
 3.concl. 11. 5 | □.ba π □.ad, / 3 π 2,
 
-## COROLL. I.
+### COROLL. I.
 
 Hinc colligemus, diametrum ſphæræ eſſe potentia quadruplam ſeſquialteram ſemidiametri circuli circa

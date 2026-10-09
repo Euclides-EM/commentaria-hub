@@ -20,7 +20,7 @@ contr. concl. γ
 
 concl. 21. a. 1 | pyram. abcd π pyram. efgh 2|2 △abc π △efg.
 
-## COROLL.
+### COROLL.
 
 Hinc fit pyramides eiusdem altitudinis super eandem vel æquales bases triangulares constitutas, esse inter se æquales.
 

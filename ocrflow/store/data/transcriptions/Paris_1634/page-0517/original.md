@@ -54,6 +54,6 @@ f 2|2 ▭.g,d,
 ϖ.17.7 | e π f 2|2 a π d,
 1.concl. μν.19.7 | ▭.e,d, u k 2|2 ▭.f,a, u h.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Si numerus per quotcunque numeros continuè diuidatur, quocunque ordine fiant diuisiones, idem semper numerus orietur.

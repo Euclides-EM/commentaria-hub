@@ -27,7 +27,7 @@ suppos. | e, msur: a ꝑ f, β
 concl. γ | a, n̄, est mi. diuidu.
 contr. hyp.
 
-## SCHOL.
+### SCHOL.
 
 Quamuis Theon in sequente theoremate quædam assumat in numeris quæ demonstrata sunt de lineis libro secundo, nihilominus nonnulli Interpretes hic demonstrant de numeris decem priora theoremata libri secundi. Sed inutile mihi videtur illa decem theoremata hic repetere, & demonstrare de numeris : cùm præsertim concesso primo scholio definitionis primæ secundi libri, tanquam per se perspicuum, demonstrationes illic de lineis exhibitæ non minus concludant de numeris quàm de lineis : firmiusque inhæreant memoriæ, quàm demonstrationes numerorum, quæ sola ratiocinatione constant, nulliusque figuræ
 

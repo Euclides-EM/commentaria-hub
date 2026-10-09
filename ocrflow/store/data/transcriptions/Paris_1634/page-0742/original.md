@@ -24,7 +24,7 @@ suppos. | egf, est intersect. ꝑ e & f,
 hyp. | ef, est ——,
 contr. 14. a. 1.
 
-## SCHOL.
+### SCHOL.
 
 Hæc eadem propositio vera est, etiamsi duæ rectæ AB & CD, parallelæ non sint, dummodo in eodem plano existant, vt manifestum est ex demonstratione.
 

@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## SCHOL. I.
+### SCHOL. I.
 
 Rationale superat rationale rationali.
 
@@ -23,7 +23,7 @@ s.12.10 | ▭af, comm. ▭ad,
 c.16.10 | ▭af, comm. ▭cf,
 concl. s.12.10 | ▭.cf, est ration.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Rationale cum rationali facit rationale.
 

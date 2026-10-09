@@ -1,10 +1,10 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-## COROLL. III.
+### COROLL. III.
 
 α2.ſ.7.5 | ab π hi 2|2 6 π 4, Ⅱ 3 π 2.
 
-## COROLL. IV.
+### COROLL. IV.
 
 2.ſ.7.5 | □.ab π □.hi 2|2, 36 π 16, Ⅱ 9 π 4.
 

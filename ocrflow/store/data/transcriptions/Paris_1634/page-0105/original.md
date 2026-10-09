@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-COROLL.
+### COROLL.
 
 Sequitur ex hac propositione omnium rectarum ex quouis puncto ad rectam quamcumque ductarum, eam quæ perpendicularis est esse minimam.
 

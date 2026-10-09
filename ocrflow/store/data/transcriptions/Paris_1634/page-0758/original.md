@@ -6,13 +6,13 @@ bas. hк bas. bh,
 solid. if. 2, 3, 4 3 solid. ep,
 concl. 6.d.5 | solid. ahd π solid. bhc 2|2 bas. ah π bas. hb.
 
-## SCHOL.
+### SCHOL.
 
 Hæc propositio accommodari etiam potest omni prismati; si enim eadem fiat constructio producto prismate in vtramque partem, erunt omnia plana parallela secantia, inter se æqualia, & similia: vnde vt in parallelepipedo, ostendetur prismata ex vna parte esse inter se æqualia, necnon & prismata ex altera parte, &c.
 
 *Ceste proposition conuient à tout prisme; car si on fait la mesme construction en prolongeant le prisme par les deux bouts, tous les plans des sections seront egaux & semblables entr'eux; & par consequent sera demonstré comme au parallelipipede que les prismes de chaque bouts sont egaux entr'eux.*
 
-## COROLL.
+### COROLL.
 
 Ex his infertur, si prisma quodcunque secetur plano oppositis planis æquidistante, sectionem esse figuram æqualem & similem planis oppositis.
 

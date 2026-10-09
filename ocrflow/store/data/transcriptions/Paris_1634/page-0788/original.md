@@ -15,7 +15,7 @@ d. α | ahg, gdк, hкc, efi snt △ æquiang. & 2|2 ꝗe,
 
 [Figure: labels arranged A / H G / E / Ɔ K / I / B F C]
 
-## SCHOL.
+### SCHOL.
 
 Ex hac propositione & prima decimi sequitur, si quælibet pyramis diuidatur in duas pyramides æquales & in duo prismata, iuxta hanc propositionem. Rursus eodem modo factæ pyramides in duas pyramides æquales, & in bina prismata æqualia, & sic deinceps, aggregatum omnium pyramidum quæ tandem relinquentur, esse minus quacunque proposita magnitudine.
 

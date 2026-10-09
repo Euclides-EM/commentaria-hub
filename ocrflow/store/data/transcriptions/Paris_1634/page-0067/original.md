@@ -8,7 +8,7 @@ A est maior B, per hyp. | A est plus gräd que B, par l'hyp.
 
 A est maior C, per primum axioma C. | A est plus grand que C, par le premier axiome C.
 
-### I. a. d.
+### 1. a. d.
 
 Et si vnum æqualium maius est, aut minus magnitudine quapiam, alterum quoque æqualium eadem magnitudine maius est aut minus. | Et si l'vn des egaux est plus grand ou plus petit que quelque grandeur, l'autre des egaux sera außi plus grand ou plus petit que la mesme grandeur.
 
@@ -18,7 +18,7 @@ hyp. | a 2|2 b.
 hyp. | a 3|2 c.
 1.a.d. | b 3|2 c.
 
-### I. a. e.
+### 1. a. e.
 
 Et quod est maius maiore est etiam maius minore, & quod est minus minore est etiam minus maiore. | Et ce qui est plus grand que le plus grand, est außi plus grand que le plus petit, & ce qui est plus petit que le plus petit, est außi plus petit que le plus grand.
 

@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## SCHOL.
+### SCHOL.
 
 Ex his facili via reperiemus duos minimos numeros, qui eandem habeant proportionem, quam quotcunque numeri dati continuè proportionales.
 

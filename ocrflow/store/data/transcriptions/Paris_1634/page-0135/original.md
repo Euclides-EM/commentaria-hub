@@ -27,7 +27,7 @@ constr. | <hik 2|2 <e,
 s.30.1. | ghl est —,
 3.concl. 35.d.1. | fl est ◊.
 
-## SCHOL.
+### SCHOL.
 
 Datis duobus rectilineis inæqualibus, excessum maioris supra minus inquirere.
 

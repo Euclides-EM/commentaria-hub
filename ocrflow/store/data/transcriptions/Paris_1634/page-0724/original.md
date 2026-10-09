@@ -6,7 +6,7 @@
 hyp. | ▭hc Ⅱ □.g, est ratio.
 concl. s.12.10 | ▭ba Ⅱ □.f, est ration.
 
-COROLL.
+### COROLL.
 
 Ex hoc manifesto constat, fieri posse, vt spatium rationale contineatur sub duabus rectis irrationalibus.
 

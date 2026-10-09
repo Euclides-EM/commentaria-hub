@@ -9,7 +9,7 @@ constr. | fd 2|2 ec,
 1.s.34.1. | cefd est ◊,
 concl. 35.d.1. | cd == ef.
 
-## SCHOL. III.
+### SCHOL. III.
 
 Omne quadrilaterum habens angulos oppositos æquales, est parallegrammum.
 
@@ -36,7 +36,7 @@ d. β | <b + <c 2|2 2∟,
 28.1. | ab == dc,
 concl. 35.d.1. | ac est ◊.
 
-## SCHOL. IV.
+### SCHOL. IV.
 
 In omni figura rectilinea latebra habente numero paria, si quidem fuerit æqualatera, & æquiangula : erunt duo quælibet latera opposita, parallela inter se.
 

@@ -16,7 +16,7 @@ hyp. | ab est 2000,
 3.a.1 | ah est 278,
 concl. 47.1 | ag est 415.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Partes æquales, in quas circulus diuiditur geometricè, continentur quatuor sequentibus progressionibus.
 
@@ -29,6 +29,6 @@ p̄ 15. 4 & 9. 1. in part. 3, 6, 12, 24, 48, 96, &c.
 p̄ 11. 4 & 9. 1. in part. 5, 10, 20, 40, 80, 160, &c.
 p̄ 16. 4 & 9. 1. in part. 15, 30, 60, 120, 240, 480, &c.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Si singuli numeri harum quatuor progressionum diuidantur in duas partes, quarum minor sit vnitas, & sit eadem proportio acutorum angulorum trianguli rectanguli, quæ partium alicuius numeri harum quatuor progressionum: data ratione angulorum trianguli inuenietur laterum ratio sequenti methodo.

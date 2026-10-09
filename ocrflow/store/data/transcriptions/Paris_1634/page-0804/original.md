@@ -38,6 +38,6 @@ Demonstr.
 ε. hyp. 4concl. | abcd π fghik, Ⅱ mno 2|2 alt. l, Ⅱ p π alt. e,
 δ | abcde 2|2 mnop, Ⅱ fghikl.
 
-## SCHOL.
+### SCHOL.
 
 Omnia hæc facilè quoque demonstrabuntur conuenire prismatis quibuscunque. Nam si prismata fuerint æqualia, erūt | *Que toutes ces choses conuiennent außi à tout prisme, il sera facile de demonstrer: Car si les prismes sont egaux, les pyramides de*

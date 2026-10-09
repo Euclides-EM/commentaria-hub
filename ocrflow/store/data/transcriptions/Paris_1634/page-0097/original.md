@@ -1,11 +1,11 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-COROLL. I.
+### COROLL. I.
 
 hyp. | <ebd est ∟,
 1.c.13.1. | <ebc est ∟.
 
-COROLL. II.
+### COROLL. II.
 
 hyp. | <abd 2|3 ∟,
 2.c.13.1. | <abc 3|2 ∟.

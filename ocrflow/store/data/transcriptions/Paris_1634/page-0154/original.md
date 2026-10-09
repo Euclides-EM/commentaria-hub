@@ -4,7 +4,7 @@
 concl. 3.a.1. | ▭hf est 9,
 s.46.1. | hc est 3.
 
-## SCHOL. IV.
+### SCHOL. IV.
 
 Si cuius quadrato numero addatur quadratus numerus cum duplo plani sub lateribus quadratorum comprehensi fiet quadratus numerus.
 
@@ -29,7 +29,7 @@ Omnis quadratus numerus auctus duplo sui lateris & vnitate efficit quadratum num
 
 Tout nombre quarré estant augmenté du double de son costé, & de l'vnité fait vn nombre quarré.
 
-## SCHOL. V.
+### SCHOL. V.
 
 Si excessus progressionis laterum quadratorum sit vnitas, excessus progressionis gnomonum quadratorum eorumdem laterum erit binarius.
 

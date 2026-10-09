@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## COROLL.
+### COROLL.
 
 Hinc sequitur, si tota magnitudo ex duabus composita, commensurabilis sit alteri ipsarum, eandem & reliquæ commensurabilem esse.
 

@@ -28,7 +28,7 @@ constr. | de 3|2 ab,
 β.3.a.b | ib 2|3, ½hb,
 concl. 7.a.b | ge, u c 3|2 ib.
 
-## SCHOL.
+### SCHOL.
 
 Idem demonstrabitur si ex AB, auferatur dimidium AH, & ex reliquo HB, rursus dimidium HI, & ita deinceps.
 

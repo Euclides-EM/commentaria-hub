@@ -8,7 +8,7 @@
 δ | ade π ghiк 2|2 adef π ghikl,
 3 concl 24. 5 | abcde π ghiк 2|2 abdef π ghiкl.
 
-## COROLL.
+### COROLL.
 
 Perspicuum quoque inde efficitur, pyramides eiusdem altitudinis super æquales bases multangulas, vel eandem constitutas, esse inter se æquales.
 

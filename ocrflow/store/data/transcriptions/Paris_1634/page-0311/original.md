@@ -9,7 +9,7 @@ hyp. | ab π de 2|2 ac π df,
 17.5 | cb π ac 2|2 fe π df,
 concl. 16.5 α | cb π fe 2|2 ac π df uab π de.
 
-## COROLL. I.
+### COROLL. I.
 
 Hinc facile demonstrabitur conuersa ratio.
 
@@ -30,7 +30,7 @@ hyp. | ab π cb 2|2 de π fe,
 c.4.5 | cb π ac 2|2 fe π df,
 concl. 18.5 | ab π ac 2|2 de π df.
 
-## COROLL. II.
+### COROLL. II.
 
 Hinc perspicuum est, si similia proportionalia similibus proportionalibus subducātur residua esse proportionalia.
 

@@ -8,7 +8,7 @@ hyp. | <dbc 2|2 <acb,
 | contr. 9. a. 1.
 concl. 21.a.1. | ab 2|2 ac.
 
-COROLL.
+### COROLL.
 
 Sequitur ex hac propositione omne triangulum æquiangulum esse quoque æquilaterum. | Il s'ensuit de cette proposition que tout triangle equiangle est außi equilateral.
 

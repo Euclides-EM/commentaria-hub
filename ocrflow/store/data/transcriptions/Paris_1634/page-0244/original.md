@@ -21,13 +21,13 @@ Demonstr.
 | snt 2|2 ⁊e,
 2.concl. 27.3 | <bae, <abc, <bcd, <cde, dea snt 2|2 ⁊e.
 
-## COROLL.
+### COROLL.
 
 Sequitur hinc, angulum pentagòni æquilateri & æquianguli complecti tres quintas partes duorum rectorum vel sex quintas recti.
 
 D'icy il s'ensuit, que l'angle du pentagone equilateral & equiangle, est les trois cinquiesmes de deux droicts ou les six cinquiémes d'vn droict.
 
-## CONSTR.. PRA.
+CONSTR.. PRA.
 
 hyp. | cadbn est ⊙,
 1.p.1 | ab est diamet.

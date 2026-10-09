@@ -9,7 +9,7 @@ Demonstr.
 34.1. | ▭hf 2|2 2△ehg,
 concl. 6.a.1. | ▭db 2|2 ▭hf.
 
-## LEMM.
+### LEMM.
 
 Describere rectangulum quod sub duabus datis rectis lineis contineatur.
 

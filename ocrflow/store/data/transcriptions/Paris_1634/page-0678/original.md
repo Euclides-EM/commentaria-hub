@@ -4,7 +4,7 @@ Hæc nota .∼: significat differentiam.
 
 *Ceste note .∼: signifie la difference.*
 
-## COROLL.
+### COROLL.
 
 Ex hoc lemmate constat, quatuor magnitudines Arithmeticam proportionem habentes, habere quoque vicissim Arithmeticam proportionem.
 

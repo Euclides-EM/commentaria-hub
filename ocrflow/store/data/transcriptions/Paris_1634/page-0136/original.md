@@ -43,7 +43,7 @@ constr. | ab 2|2 ad,
 1.a.1. | bc 2|2 dc,
 2.cöcl. 29.d.1. | ac est ▭.ad.
 
-## SCHOL.
+### SCHOL.
 
 Linearum æqualium æqualia sunt quadrata : & quadratorum æqualium æquales sunt lineæ.
 

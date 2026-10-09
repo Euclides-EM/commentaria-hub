@@ -27,7 +27,7 @@ constr. | ▭age 2|2 □.fe,
 γε10.10 | ▭lo, incomm. □.no,
 4.concl. 10. 10 | to, incomm. so.
 
-## COROLL. II.
+### COROLL. II.
 
 hyp. | □.ae 3|2 □.de.□.——, / incomm. de.
 

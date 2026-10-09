@@ -27,7 +27,7 @@ Demonstr.
 constr. | fe ⊥ ab,
 concl. c.8.6 | ae π ef 2|2 ef π eb.
 
-## SCHOL.
+### SCHOL.
 
 Perspicuum hinc fit, lineam rectam, quæ in circulo à quouis puncto diametri ipsi diametro perpendicularis ducitur ad circumferentiam vsque, mediam esse proportionalem inter duo diametri segmenta, quæ à perpendiculari facta sunt.
 

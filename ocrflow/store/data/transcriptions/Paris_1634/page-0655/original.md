@@ -7,7 +7,7 @@ hyp. | ac, est √.12 + √.8,
 ▭ad, est √.300 + √.200,
 op, est √..√.300 + √.200.
 
-## Lemm.
+### Lemm.
 
 hyp. | ab, est ——,
 hyp. | ac 3|2 cb,

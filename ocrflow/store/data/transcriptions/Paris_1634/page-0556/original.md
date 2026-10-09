@@ -18,7 +18,7 @@ suppos. | c, est nr. impa.
 contr. hypoth.
 21.a.1 | c, est nr.pa.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Numerus impar numerum imparem metiens, per numerum imparem eum metitur.
 
@@ -42,7 +42,7 @@ suppos. | c, est nr.pa.
 contr. hypoth.
 21.a.1 | c, est nr. impa.
 
-## SCHOL. III.
+### SCHOL. III.
 
 Omnis numerus metiēs imparem numerum, est impar.
 

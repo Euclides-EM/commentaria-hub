@@ -20,12 +20,12 @@ constr. | g, msur: e 2|2 i, msur: m,
 constr. | g, h, i, k snt contin. proport.
 concl. 17.7 | e, l, m, f snt contin. proport.
 
-## SCHOL I.
+### SCHOL I.
 
 Ex hac demonstratione constat, non solùm totidem medios proportionales cadere inter E & F, quot inter A & B ; verùm etiam eandem esse proportionem numerorum E, L, M, F, quæ est numerorum A, C, D, B.
 
 *Il est manifeste de ceste demonstration, que non seulement il tombe autant de moyens entre E & F, qu'entre A & B : mais aussi que la proportion des nombres E, L, M, F, est la mesme que des nombres A, C, D, B.*
 
-## SCHOL II.
+### SCHOL II.
 
 Constat etiam ex hoc theoremate, & ex primo corollario secundæ propositionis huius libri, medium propor-

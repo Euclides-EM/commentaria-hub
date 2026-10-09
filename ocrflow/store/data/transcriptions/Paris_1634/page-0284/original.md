@@ -5,7 +5,7 @@ A, 9. B, 4. C, 18. D, 8.
 hyp. | a π b 2|2 c π d,
 1.s.17.5 | b π a~b 2|2 d π c~d.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Diuisio rationis contraria, est sumptio antecedentis ad excessum quo antecedentem superat consequens.
 
@@ -16,7 +16,7 @@ A, 4. B, 6. C, 8. D, 12.
 hyp. | a π b 2|2 c π d,
 2.s.17.5 | a π b~a 2|2 c π d~c.
 
-## SCHOL. III.
+### SCHOL. III.
 
 Diuisio rationis inuersè contraria, est sumptio excessus quo consequens superat antecedentem ad ipsam antecedentem.
 

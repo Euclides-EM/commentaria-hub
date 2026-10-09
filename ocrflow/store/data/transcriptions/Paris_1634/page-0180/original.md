@@ -15,7 +15,7 @@ concl. 1.a.1 | ▭.ac 2|2 ▭.ab + ▭.bc + ▭.abc.
 
 [Figure: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]
 
-## SCHOL. III.
+### SCHOL. III.
 
 Si trianguli vnus angulus fuerit dimidium aggregati reliquorum, quadratum quod fit à latere dimidium angulum subtendente, minus est quadratis, quæ fiunt à lateribus dimidium angulum comprehendentibus, rectangulo sub lateribus dimidium angulum continentibus comprehenso.
 

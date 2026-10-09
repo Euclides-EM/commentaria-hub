@@ -7,7 +7,7 @@ hyp. | Δabi π Δcdk 2|2 em π go.
 20.6 | raō.. em π go 2|2, 2 raō.. ef π gh,
 1.concl. 2.s.23.5 | ab π cd 2|2 ef π gh.
 
-## SCHOL.
+### SCHOL.
 
 Si recta linea secta sit vtcunque : rectangulum sub partibus contentum est medium proportionale inter earum quadrata : Item rectangulum contentum sub tota, & vna parte est mediam proportionale inter quadratum totius lineæ, & quadratum dictæ partis.
 

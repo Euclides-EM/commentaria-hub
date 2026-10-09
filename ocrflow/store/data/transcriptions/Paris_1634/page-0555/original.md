@@ -18,7 +18,7 @@ hyp. | b, est nr.pa.
 15.d.7 | c 2|2, 3b,
 concl. 21.9 | c, est nr.pa.
 
-## SCHOL.
+### SCHOL.
 
 Eadem demonstratione ostendetur, si A, est numerus par, C, esse numerum parem.
 
@@ -47,7 +47,7 @@ hyp. | b, est nr. impa.
 15.d.7 | c 2|2, 3b,
 concl. 23.9 | c, est nr. impa.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Numerus impar numerum parem metiens, per numerum parem eum metitur.
 

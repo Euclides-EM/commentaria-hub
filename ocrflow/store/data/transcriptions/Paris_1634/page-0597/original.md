@@ -10,7 +10,7 @@ suppos. | ab, comm. bc,
 16.1 | ac, comm. ab,
 contr. hypoth.
 
-## COROLL.
+### COROLL.
 
 Sequitur ex his, si tota magnitudo ex duabus composita incommensurabilis sit alteri ipsarum, eandem & reliquæ incommensurabilem esse.
 

@@ -9,7 +9,7 @@ hyp. | ab π c 2|2 de π f,
 hyp. | bg π c 2|2 eh π f,
 concl. 22.5 | ag π c 2|2 dh π f.
 
-## SCHOL.
+### SCHOL.
 
 Si duæ magnitudines ad duas magnitudines eandem habeant proportionem, & detractæ quædam habeant ad easdem eandem proportionem ; & reliquæ ad easdem eandem proportionem habebunt.
 

@@ -18,7 +18,7 @@ hyp. | ⊙abc 2|2 ⊙def,
 3.a.1 | ∪ac 2|2 ∪df,
 concl. s.24.3 | ∩ ac 2|2 ∩ df.
 
-## SCHOL.
+### SCHOL.
 
 [Figure: cercle A—D—C—B, E au dedans, lignes A—D, B—C, A—C, B—D, A—B, D—C]
 

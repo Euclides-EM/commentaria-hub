@@ -9,7 +9,7 @@ A, 4. B, 6. C, 10. D, 15.
 hyp. | a π b 2|2 c π d,
 11.d.5 | a & c snt homolg. ⁊e. item b & d ⁊e.
 
-## DEFINIT. XI.
+## DEFINIT. XI{printer-error-correction:XII}.
 
 Alterna ratio, est sumptio antecedentis ad antecedentem, & consequētis ad consequētem.
 

@@ -4,7 +4,7 @@
 1.s.36.9 | d π e 2|2 k π h, β
 concl. α.β | k, h, g, f snt contin. proport.. ꝗn raō. b π c.
 
-## SCHOL. III.
+### SCHOL. III.
 
 Si summa quotuis numerorum continuè proportionalium per eos sigillatim diuidatur ; & quotientum summa per ipsos quotientes ; & horum secundorum quotientum summa per eosdem secundos quotientes ; & sic deinceps in infinitum : procreabuntur alternis diuisionibus semper iidem primi quotientes ordine conuerso.
 

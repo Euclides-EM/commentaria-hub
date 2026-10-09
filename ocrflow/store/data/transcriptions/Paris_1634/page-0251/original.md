@@ -21,7 +21,7 @@ c.13.4 & 7.a.1 | <fab,<fba,<fbc,<fcb,<fcd, &c. snt 2|2 ⁊e,
 6.1 | fa, fb, fc, fd, fe snt 2|2 ⁊e,
 concl. 6.d.4 | ⊙abcd est circscri. π. 5<abcde.
 
-## SCHOL.
+### SCHOL.
 
 Eadem arte circa quamlibet figuram æquilateram, & æquiangulam circulus describetur.
 

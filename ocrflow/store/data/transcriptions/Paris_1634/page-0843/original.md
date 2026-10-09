@@ -4,7 +4,7 @@
 
 *L'octaedre est diuisé en deux pyramides semblables & egales EFGDL & EFGDK, ayant pour base commune le quarré EFGD.*
 
-## COROLL. IV.
+### COROLL. IV.
 
 Denique sequitur, bases octaedri oppositas esse inter se parallelas.
 

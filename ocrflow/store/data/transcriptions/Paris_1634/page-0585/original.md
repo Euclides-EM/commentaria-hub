@@ -4,7 +4,7 @@ Quæ vero potentia commensurabiles, non omnino & longitudine. Et quæ longitudin
 
 *De ces choses, & du troisiesme scholie de l'vnziesme definition il est manifeste, que les lignes droictes commensurables en longitude, sont aussi commensurables en puissance : mais que celles qui sont commensurables en puissance, ne le sont pas necessairement en longitude : & que celles qui sont incommensurables en longitude, ne le sont pas necessairement en puissance : Mais les incommensurables en puissance, le sont aussi en longitude.*
 
-## SCHOL.
+### SCHOL.
 
 Si numerus lateris sit irrationalis, omnes quoque potestates erunt irrationales, exceptis iis quarum exponentes sunt multiplices exponentis primæ potestatis rationalis.
 

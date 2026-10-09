@@ -35,7 +35,7 @@ c.15.d.1 | • e, f, g snt in ∩ .. ⊙ efg,
 c.16.3 | ab, bc, ac tang: ⊙ efg,
 concl. 5.d.4 | ⊙efg est inscre. in △abc.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Cognitis lateribus trianguli inuenire eorum segmenta quæ fiunt à contactibus circuli inscripti.
 

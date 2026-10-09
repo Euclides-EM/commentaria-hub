@@ -29,10 +29,10 @@ Demonstr.
 3.a.1. | <aec 2|2 <deb, α
 d. α. | <aed 2|2 ceb.
 
-COROLL. I.
+### COROLL. I.
 
 Ex hac propositione sequitur, duas rectas lineas se mutuo secantes, efficere ad punctum sectionis quatuor angulos quatuor rectis æquales. | De cette proposition s'ensuit, que deux lignes droictes s'entrecouppant l'vne l'autre, font quatre angles égaux à quatre angles droicts.
 
-COROLL. II.
+### COROLL. II.
 
 Sequitur etiam omnes angulos circa vnum & idem punctum constitutos, quatuor duntaxat rectis esse æquales.

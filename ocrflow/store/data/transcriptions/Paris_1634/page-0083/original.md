@@ -31,7 +31,7 @@ constr. | abcd & bace snt ⊙,
 1.a.1. | ac 2|2 bc,
 concl. 23.d.1. | △abc est æquilat.
 
-SCHOLIVM. | SCHOLIE.
+### SCHOLIVM. | SCHOLIE.
 
 Hæc demonstratio fit quatuor syllogismis, vt perspicuum est ex numero citationum. | Cette demonstration se fait par quatre syllogismes, comme il appert du nombre des citations.
 

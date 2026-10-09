@@ -5,11 +5,11 @@ d.δ | ⌒bci 2, 3, 4|3 ⌒fgp,
 sect. bdi 2, 3, 4|3 sect. fhp,
 3.concl. 6.d.5 | sect. bdcm π sect. fhg 2|2 ⌒bmc π ⌒fg.
 
-## COROLL. I.
+### COROLL. I.
 
 γ.11.5 | sect. bdcm π sect. fhg 2|2 <bdc π <fhg.
 
-## COROLL. II.
+### COROLL. II.
 
 Hinc manifestum est, vt est angulus in centro ad quatuor rectos, ita esse arcum subtensum illi angulo ad totam circumferentiam. Et contrà, vt sunt quatuor recti ad angulum in centro, ita esse totam circumferentiam ad arcum illi angulo subtensum.
 

@@ -22,7 +22,7 @@ Numerus autem, est vnitatibus composita multitudo.
 
 *Nombre, est vne multitude composee d'vnitez.*
 
-## COROLL.
+### COROLL.
 
 Æquales numeri, æquali numero vnitatem constant: Et numeri, qui æquali nu-
 

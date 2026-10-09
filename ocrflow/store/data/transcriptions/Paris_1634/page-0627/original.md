@@ -32,7 +32,7 @@ hyp. | □.ab, comm. □.bc ꝗn □,
 hyp. | ▭.abc, est ration.
 concl. 10.d.10 | ac, est irration.
 
-## LEMM.
+### LEMM.
 
 Quod sub linea rationali, & irrationali continetur rectangulum, irrationale est.
 

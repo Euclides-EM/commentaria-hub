@@ -38,7 +38,7 @@ suppos. | ꝗntr. a & b, est vn. medi. proport.
 contr. hypoth.
 concl. 18.8 | a & b n̄ snt plan; sml;
 
-## SCHOL. II.
+### SCHOL. II.
 
 Similiter nec duo quiuis numeri primi, neque duo quicunque numeri inter se primi, qui quadrati non sint, plani similes esse possunt.
 

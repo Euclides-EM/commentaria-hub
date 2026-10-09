@@ -8,7 +8,7 @@ CD est æqualis EF per hypothesim. | CD est egal EF par l'hypothese.
 
 AB est æqualis CD per primum axioma libri primi. | AB est egal CD par le premier axiome du premier liure.
 
-### I. a. b.
+### 1. a. b.
 
 Quæ æqualibus sunt æqualia, & inter se sunt æqualia. | Les choses egales aux choses egales, sont außi egales entr'elles.
 
@@ -19,7 +19,7 @@ hyp. | a 2|2 c.
 hyp. | b 2|2 d.
 1.a.b | a 2|2 b.
 
-### I. a. c.
+### 1. a. c.
 
 Et quod vno æqualium maius est, aut minus ; maius quoque est, aut minus altero æqualium. | Et ce qui est plus grand ou plus petit que l'vn des egaux, est außi plus grand ou plus petit que l'autre des égaux.
 

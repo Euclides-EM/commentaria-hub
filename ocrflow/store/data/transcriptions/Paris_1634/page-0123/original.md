@@ -4,7 +4,7 @@ quot latera angulosve figura ipsa continet : at anguli eorumdem triangulorum, ci
 
 figure a de costez ou d'angles, mais les angles de ces triangles, lesquels sont constituez, alentour du poinct prins au dedans de la figure n'appartiennent pas aux angles de la figure rectiligne proposée, comme il appert. Parquoy si ces angles là sont ostez, les autres angles des triangles, constituant les angles de la figure proposée, seront égaux à deux fois autant de droicts, ceux qui sont constituez autour du poinct prins au dedans de la figure estans ostez, que la figure a d'angles ou de costez. Or tous ces angles là constituez alentour de ce poinct prins en la figure, en quelque nombre qu'ils soient, sont égaux à quatre droicts, tant seulement comme nous auons colligé de la 15. proposition. Donc tous les angles, &c.
 
-## PROBL. XXIII. PROPOS. XXXIII.
+## PROBL{printer-error-correction:THEOR}. XXIII. PROPOS. XXXIII.
 
 Rectæ lineæ, quæ æquales, & parallelas lineas ad partes easdem coniungunt ; & ipsæ æquales, & parallelæ sunt.
 

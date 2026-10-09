@@ -4,7 +4,7 @@
 ſuperfic.. icoſaedr. eſt 957454'''',
 ſolidit.. icoſaedr. eſt 253615''''.
 
-## COROLL.
+### COROLL.
 
 Ex his quinque corporibus eidem sphæræ inscriptis, ratione magnitudinum laterum, tetraedrum est primum, octaedrum secūdum, cubus siue exaedrum tertium, icosaedrum quartum, & dodecaedrum quintum. | *De ces cinq corps inscrits en la mesme sphere, à raison des grandeurs des costez, le premier est le tetraedre, le second l'octaedre, le troisiesme le cube ou exaedre, le quatriesme l'icosaedre, & le cinquiesme le dodecaedre.*
 

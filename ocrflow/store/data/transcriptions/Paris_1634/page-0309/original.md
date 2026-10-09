@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. V. -->
 
-## SCHOL. II.
+### SCHOL. II.
 
 Demonstr.. diuis.. raō. contr. & inuers. contr.
 

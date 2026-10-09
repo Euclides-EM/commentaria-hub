@@ -21,7 +21,7 @@ c.2.7 | f, msur: e,
 contr. 9.a.b.
 21.a.1 | e, est ma.c.me. a,b,c.
 
-## COROLL.
+### COROLL.
 
 Hinc perspicuum est, numerum metientem tres numeros, metiri quoque maximam eorum communem mensuram.
 

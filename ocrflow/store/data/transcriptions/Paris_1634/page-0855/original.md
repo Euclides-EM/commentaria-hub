@@ -1,12 +1,12 @@
 <!-- Running title: ELEM.. EVCLID. LI. XIII. -->
 
-## COROLL. II.
+### COROLL. II.
 
 Sequitur etiam, si rectæ lineæ sectæ extrema ac media ratione, minus segmentum sit latus dodecaedri, maius segmentum esse latus cubi eiusdem sphæræ.
 
 *Il s'ensuit außi, que si d'vne ligne droicte couppee en la moyenne & extreme raison, le moindre segment est le costé du dodecaedre, le plus grand segment sera le costé du cube inscrit en la mesme sphere.*
 
-## COROLL. III.
+### COROLL. III.
 
 Liquet etiam latus cubi æquale esse lineæ rectæ subtendenti angulum pentagoni dodecaedri eadem sphæra comprehensi.
 

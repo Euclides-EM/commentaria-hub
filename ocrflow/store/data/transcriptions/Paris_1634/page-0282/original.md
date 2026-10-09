@@ -20,7 +20,7 @@ A, 6. B, 4. C, 12. D, 8.
 hyp. | a π b 2|2 c π d,
 18.5 | a+b π b 2|2 c+d π d.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Compositio rationis conuersa, est sumptio antecedentis cum consequente, ceu vnius ad ipsam antecedentem.
 
@@ -31,7 +31,7 @@ A, 6. B, 4. C, 12. D, 8.
 hyp. | a π b 2|2 c π d,
 1.s.18.5 | a+b π a 2|2 c+d π c.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Compositio rationis contraria, est sumptio antece-
 

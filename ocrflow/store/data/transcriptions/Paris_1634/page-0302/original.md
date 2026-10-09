@@ -31,7 +31,7 @@ c.6.d.5 | g 3|2 k, α
 c.8.d.5 | i 2|3 m, α
 concl. 8.d.5 | a π b 3|2 e π f.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Quod si proportio tertiæ ad quartam minor fuerit quàm quintæ ad sextam, erit quoque proportio primæ ad secundam minor quàm quintæ ad sextam, vt perspicuum est eadem demonstratione.
 

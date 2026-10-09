@@ -4,7 +4,7 @@
 contr. suppos. μ
 2.concl. 21.a.1 | e, est mi. commun. diuidu.. a & b.
 
-## COROLL.
+### COROLL.
 
 Hinc sequitur, si duo numeri multiplicent minimos eandem rationem habentes, maior minorem, & minor maiorem, produci numerum minimum, quem illi metiuntur.
 

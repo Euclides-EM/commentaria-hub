@@ -10,7 +10,7 @@ Numerus numerū metiri dicitur, per illum numerum, quem multiplicans, vel à quo
 
 *Vn nombre est dit mesurer vn nombre par celuy-là, lequel multipliant, ou par lequel estāt multiplié produit le mesme nombre.*
 
-## COROLL.
+### COROLL.
 
 In omni diuisione vnitas est ad quotientem vt diuidens ad diuisum.
 

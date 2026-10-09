@@ -28,7 +28,7 @@ c. 5. 12 | pyram. adeh 2|2 pyram. adek,
 7. 12 | prism. adegkf 2|2, 3; pyram. adeк, Ⅱ adeh,
 concl. 1. 5 | prism. abcdeghikf 2|2, 3; pyram; abcdeh. α
 
-## SCHOL. I.
+### SCHOL. I.
 
 Sub eadem altitudine existentia prismata, quascunque habeant bases, sunt inter se vt bases.
 

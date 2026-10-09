@@ -28,7 +28,7 @@ constr. | ab π cd 2|2 r π m,
 10.d.5 | r π s 2|2, 2 raō.. r π m,
 concl. 1.s.13.5 | abhg π cdfe 2|2 r π s.
 
-## SCHOL.
+### SCHOL.
 
 Additio & subductio linearum rectarum fiunt per tertiam primi.
 

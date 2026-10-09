@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## THEOR. IV. PROPOS. LX.
+## THEOR. IV{printer-error-correction:XLII}. PROPOS. LX.
 
 Si spatium contineatur sub rationali, & ex binis nominibus sexta; recta linea spatium potens irrationalis est, quæ bina media potens nominatur.
 

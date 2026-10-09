@@ -5,7 +5,7 @@ d. α | pyram. adef ſml. pyram. gкlm,
 8. 12 | 3; raō; fa π mg / pyram. abcf π pyram. ghim / 8. 12 | pyram. acdf π pyram. dikm / 8. 12 | pyram. adef π pyram. gklm / 12. 5 | pyram. abcdef π pyram. ghiklm, ſnt raō; 2|2 ꝗe,
 concl. 11. 5 | raō; abcdef π ghiklm 2|2, 3; raō; fa π mg.
 
-## SCHOL.
+### SCHOL.
 
 Cùm quodlibet prisma sit triplum pyramidis eiusdem cum ipso altitudinis, sequitur similia prismata esse quoque in triplicata proportione laterum homologorum.
 

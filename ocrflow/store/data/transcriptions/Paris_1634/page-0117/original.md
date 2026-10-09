@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-## SCHOL. II.
+### SCHOL. II.
 
 Omne parallelogrammum, habens vnum angulum rectum, est parallelogrammum rectangulum.
 

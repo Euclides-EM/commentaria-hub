@@ -1,6 +1,6 @@
 <!-- Running title: ELEM. EVCLID. LI. I. -->
 
-### I. a. f.
+### 1. a. f.
 
 Permutatio æqualium non immutat æqualitatem. | Le changement des choses egales n'oste pas l'egalité.
 
@@ -10,7 +10,7 @@ hyp. | a + b 2|2 c + d.
 hyp. | b 2|2 d.
 1.a.f. | a + d 2|2 c + b.
 
-### I. a. g.
+### 1. a. g.
 
 Interpretatio non immutat æqualitatem. | L'interpretation ne change point l'egalité.
 

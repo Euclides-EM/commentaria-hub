@@ -18,7 +18,7 @@ Et rectæ quæ ipsa possunt Irrationales.
 
 *Et les lignes droictes qui peuuent icelles figures irrationnelles, soient dites Irrationelles.*
 
-## SCHOL. I.
+### SCHOL. I.
 
 Magnitudines incommensurabiles natura sua sunt incommensurabiles, nec vllo modo possunt esse commensurabiles.
 

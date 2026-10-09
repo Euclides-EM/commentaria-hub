@@ -24,6 +24,6 @@ arbitr. | □.ab, eſt 60,
 16. 13 | □.al, eſt 30 ~ γ.180,
 17. 13 | □.ao, eſt 30 ~ γ.500.
 
-## SCHOL.
+### SCHOL.
 
 Præter dictas quinque figuras, non posse aliam constitui figuram solidam, quæ planis & æquilateris & æquiangulis contineatur inter se æqualibus hac ratione demonstratur. | *On demonstrera comme s'ensuit, qu'outre les cinq figures desia dittes, on ne peut constituer d'autre figure, laquelle soit contenuë des figures equilateres & equiangles egales entr'elles.*

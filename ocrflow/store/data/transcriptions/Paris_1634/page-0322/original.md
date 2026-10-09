@@ -30,7 +30,7 @@ constr. | f 2|2 ch,
 2.a.1 | ag+f 2|2 e+ch,
 concl. β.4 a.b | ag+f+gb 3|2 e+ch+hd.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Si tres magnitudines fuerint proportionales, maxima & minima maiores erunt quàm dupla reliquæ.
 
@@ -57,6 +57,6 @@ Demonstr.
 | a π b 2|2 d π c,
 β.7.5 concl. 25.3 | a+c 3|2 b+du2b.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Hic finem Euclides imponit quinto libro : sequentes

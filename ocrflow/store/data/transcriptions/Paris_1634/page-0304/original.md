@@ -55,6 +55,6 @@ hyp. | c π d 2|2 a π b,
 13.5 | c π d 2|3 c π b,
 3.concl. 1.13.5 | b 2|3 d.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Perspicuum autem est, ob similitudinem rationum, si prima maior est, vel æqualis, vel minor quàm secunda,

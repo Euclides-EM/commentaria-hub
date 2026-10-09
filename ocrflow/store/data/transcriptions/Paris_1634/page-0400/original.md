@@ -23,7 +23,7 @@ aib est Δ amblygon.
 1.c.17.1 | <adg 2|3 ⌐,
 3.concl. d. β | i, est inters.. perpend. de, ag & bf.
 
-## SCHOL.
+### SCHOL.
 
 Commandinus ad 62. propos. lib. 7. Pappi adfert demonstrationem ostensiuam huius theorematis : sed eius demonstratio nihil probat ; quoniam non demonstrauit circulos se mutuo tangere.
 

@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. XI. -->
 
-## COROLL.
+### COROLL.
 
 Itaque si fuerint duo anguli plani æquales, quorum verticibus sublimes rectæ lineæ æquales insistant, quæ cum lineis primo positis angulos contineant æquales, vtrumque vtrique : erunt à punctis extremis linearum sublimium ad plana angulorum primò positorum demissæ perpendiculares inter se æquales.
 

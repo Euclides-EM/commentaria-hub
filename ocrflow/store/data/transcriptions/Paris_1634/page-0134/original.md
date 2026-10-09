@@ -27,7 +27,7 @@ constr. | <c 2|2 <gfe,
 constr. | △b 2|2 ◊fd,
 3.concl. 1.a.1. | ◊fl 2|2 △b.
 
-## THEOR. XIII. PROPOS. XLV.
+## THEOR{printer-error-correction:PROBL}. XIII. PROPOS. XLV.
 
 Ad datam rectam lineam, dato rectilineo æquale parallelogrammum constituere, in dato angulo rectilineo.
 

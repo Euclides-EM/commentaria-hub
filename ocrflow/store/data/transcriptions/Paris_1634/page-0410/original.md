@@ -1,6 +1,6 @@
 <!-- Running title: APPEND.. GEOM.. PLAN. -->
 
-## PROBL. XIII. PROPOS. XXIV.
+## PROBL{printer-error-correction:THEOR}. XIII. PROPOS. XXIV.
 
 Snelius in Apollonio Batauo.
 

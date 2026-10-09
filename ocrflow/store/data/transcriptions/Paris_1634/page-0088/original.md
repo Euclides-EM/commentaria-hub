@@ -6,7 +6,7 @@
 γ | <acd 2|2 <abf,
 1.concl. 3.a.1. | <acb 2|2 <abc.
 
-COROLL.
+### COROLL.
 
 Ex hac quinta propositione liquet omne triangulum æquilaterum esse quoque æquiangulum. | De cette cinquiesme proposition il s'ensuit que tout triangle equilateral est außi equiangle.
 

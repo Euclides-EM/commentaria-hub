@@ -13,7 +13,7 @@ c.16.3 | had tang: ⊙,
 constr. | <c 2|2 <bad,
 concl. 1.a.1 | <aib 2|2 <c.
 
-## THEOR. VI. PROPOS. XXXIV.
+## THEOR{printer-error-correction:PROBL}. VI. PROPOS. XXXIV.
 
 A dato circulo segmentum abscindere capiens angulum æqualem dato angulo rectilineo.
 

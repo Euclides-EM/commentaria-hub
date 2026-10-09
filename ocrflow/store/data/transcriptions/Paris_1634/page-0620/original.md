@@ -11,7 +11,7 @@ b, est √.48,
 13.6 | c, est √√.3072,
 12.6 | d, est √√.1728.
 
-## THEOR. IX. PROPOS. XXXIII.
+## THEOR{printer-error-correction:PROBL}. IX. PROPOS. XXXIII.
 
 Inuenire duas medias potentia solùm commensurabiles, quæ medium contineant, ita vt major plus possit quàm minor, quadrato rectæ lineæ sibi longitudine commensurabilis.
 

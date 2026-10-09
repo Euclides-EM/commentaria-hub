@@ -34,6 +34,6 @@ Demonstr.
 34. 11 | ◇piped. abicdmkl 2|2 ◇piped. efnghqop,
 concl. α. 7. a. 1 | pyram. abcd 2|2 pyram. efgh.
 
-## SCHOL.
+### SCHOL.
 
 Constat etiam æqualium pyramidum, quarum bases non sunt triangulares, reciprocari bases atque altitudi-

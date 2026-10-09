@@ -15,7 +15,7 @@ suppos. | r, est b, μ
 contr. suppos. θ
 2.concl. 21.a.1 | q, n̄, msur: f.
 
-## SCHOL. I.
+### SCHOL. I.
 
 A,48.
 B,8. C,3.
@@ -37,7 +37,7 @@ Demonstr.
 1.a.1 | □.b,d 2|2 □.c,e,
 concl. 19.7 | b π c 2|2 e π d.
 
-## SCHOL. II.
+### SCHOL. II.
 
 A,48.
 B,1. C,2. D,4 E,8.

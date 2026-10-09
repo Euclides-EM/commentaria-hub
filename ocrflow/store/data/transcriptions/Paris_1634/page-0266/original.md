@@ -15,7 +15,7 @@ A, mesure la grandeur B.
 A, est partie de la grandeur B.
 B, est multiple de la grandeur A.
 
-## SCHOL.
+### SCHOL.
 
 Cùm primam magnitudinem secunda & tertiam quarta æquè metiuntur, prima & tertia sunt æquè multiplices secundæ & quartæ. Et multitudo partium primæ est æqualis multitudini partium tertiæ. Et singulæ partes primæ sunt æquales secundæ, & singulæ partes tertiæ quartæ. Et contrà cùm multitudo partium æqualium primæ magnitudinis est æqualis multitudini partium æqualium tertiæ magnitudinis : quàm multiplex est prima magnitudo vnius suarum partium æqualium, tàm multiplex est & tertia magnitudo
 

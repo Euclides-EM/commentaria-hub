@@ -12,7 +12,7 @@ constr. | adeb, est ▭,
 41. 1 | adeb 2|2, 2△acb,
 concl. 1. a. d | 2△acb 3|2 D acb.
 
-## LEMM. II.
+### LEMM. II.
 
 Spatium à duabus ex eodem puncto tangentibus & periphæria comprehensum, minus est duplo trianguli æquicruri ab earundem segmentis & tertia eandem periphæriam tangente comprehensi.
 

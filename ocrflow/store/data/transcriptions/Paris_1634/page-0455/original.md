@@ -21,7 +21,7 @@ constr. | eb msur: cf,
 contr. 9.a.b.
 3.concl. 21.a.1 | fd est ma. c.me.. ab & cd.
 
-## COROLL.
+### COROLL.
 
 Ex hoc manifestum est, numerum metientem duos numeros, metiri quoque maximam eorum communem mensuram.
 

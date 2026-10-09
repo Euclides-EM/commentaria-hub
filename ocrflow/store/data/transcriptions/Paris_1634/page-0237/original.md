@@ -6,7 +6,7 @@ hyp. | acuag + fc 2|2, 18,
 2.concl. 3.a.1 | aeuag 2|2, 7,
 3.concl 3.a.1 | fcucg 2|2, 11.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Eadem methodo inuenientur tres numeri, quorum bini quique faciant tres numeros propositos ; segmenta enim laterum trianguli circumscripti erunt tres quæsiti numeri.
 

@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-## SCHOL.
+### SCHOL.
 
 Quadratum perpendicularis, à quouis puncto circunferentiæ in diametrum ductæ, est æquale rectangulo, comprehenso sub segmentis diametri, quæ ab ipsa perpendiculari fiunt.
 
@@ -32,6 +32,6 @@ hyp. | <edc est ∟,
 | ▭.cd commun. subtr.
 concl. 3.a.1. | ▭.adb 2|2 ▭.ed.
 
-## PROBL. VI. PROPOS. VI.
+## PROBL{printer-error-correction:THEOR}. VI. PROPOS. VI.
 
 Si recta linea bifariam secetur, & illi recta quæ-

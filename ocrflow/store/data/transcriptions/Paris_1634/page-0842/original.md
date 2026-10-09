@@ -13,18 +13,18 @@
 
 [Figure: labels arranged H L / F G / B C I / E D / A K]
 
-## COROLL. I.
+### COROLL. I.
 
 Ex dictis manifestum est, in octaedro tres diametros EG, FD, LK se mutuò ad angulos rectos secare in centro sphæræ.
 
 *Des susdits il est manifeste qu'en l'octaedre les trois diametres EG, FD, LK se coupent l'vn l'autre à angles droicts au centre de la sphere.*
 
-## COROLL. II.
+### COROLL. II.
 
 Perspicuum quoque est tria plana EFGD, LEKG, LFKD esse quadrata se mutuò ad angulos rectos secantia.
 
 *Il est manifeste aussi que les trois plans EFGD, LEKG, LFKD sont quarrez qui s'entrecouppent l'vn l'autre à angles droicts.*
 
-## COROLL. III.
+### COROLL. III.
 
 Octaedrum diuiditur in duas pyramides similes &

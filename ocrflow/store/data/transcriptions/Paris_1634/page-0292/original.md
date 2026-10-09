@@ -11,7 +11,7 @@ c.6.d.5 | i, 2, 3, 4 | 3, l,
 | k, 2, 3, 4 | 3, m,
 concl. α.6.d.5 | e π g, 2|2, f π h.
 
-## COROLL.
+### COROLL.
 
 Hinc facilè demonstrabitur inuersa ratio.
 

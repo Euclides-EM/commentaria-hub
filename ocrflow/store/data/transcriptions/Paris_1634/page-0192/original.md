@@ -27,7 +27,7 @@ Demonstr.
 | ef est commun.
 2.cōcl. 26.1 | af 2|2 fc.
 
-## COROLL.
+### COROLL.
 
 Ex hac demonstratione sequitur, in quouis triangulo duorum laterum æqualium, siue æquilaterum illud sit, siue isosceles, lineam quæ ab angulo verticis ductam basim bifariam secat perpendicularem esse ad basin. Et contra lineam quæ ab angulo verticis ductam ad basin est perpendicularis, secare basin bifariam.
 

@@ -22,7 +22,7 @@ contr. hypoth.
 21.a.1 | e, n̄, est nr. cub. ε
 d. βε | b,g,&c. n̄ snt nr; cub;
 
-## SCHOL.
+### SCHOL.
 
 Ex hac propositione sequitur, si primus gradus parodicus non sit quadratus, neque alium vllum gradum parodicum esse numerum quadratum, præter eos quorum exponentes sunt numeri pares. Si verò primus non sit cubus, nullum quoque alium gradum parodicum esse numerum cubum, præter eos quorum exponentes numerus ternarius metitur.
 

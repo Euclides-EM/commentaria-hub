@@ -13,7 +13,7 @@ Demonstr.
 1.6 | ch π cf 2|2 dc π ce,
 concl. 1.s.23.5 | raō.. ac π cf 2|2 raō.. bc π cg + raō.. dc π ce.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Triangula, quæ vnum angulum vni angulo æqualem habent, eandem proportionem habent, quam rectangula, quæ sub lateribus æqualem angulum comprehendentibus continentur.
 

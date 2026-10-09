@@ -32,6 +32,6 @@ l.60.10 | ▭ln 2|2 ▭.acb,
 1.6, & 10.10 | dl, incomm. lg,
 concl. 6d48.10 | dg, est binom. 6.
 
-## Lemm.
+### Lemm.
 
 hyp. | de, comm. ab,

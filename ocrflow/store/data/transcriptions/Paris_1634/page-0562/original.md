@@ -24,7 +24,7 @@ hyp. | ln π a, u kn, snt raō 2|2 ꝫe
 concl. 12.7 | dk π | c + b + a,
 lk, u bf π | kn, u a.
 
-## SCHOL.
+### SCHOL.
 
 Si sint quotcunque numeri deinceps proportionales, erit vt terminus rationis major ad terminum rationis minorem, ita compositus ex omnibus sine minimo ad compositum ex omnibus sine maximo.
 

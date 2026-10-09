@@ -27,7 +27,7 @@ Demonstr.
 2 concl. 5. 12 | pyram. dfac, Ⅱ acdf 2|2 pyram. dfe, Ⅱ cdfe,
 3.concl. 1. a. 1 | pyram. acbf 2|2 pyram. cdfe.
 
-## COROLL.
+### COROLL.
 
 Hinc colligitur quamlibet pyramidem esse tertiam partem prismatis, quod eandem cum illa habet & basin, & altitudinem: siue prisma quodlibet triplum esse pyramidis, quæ eandem cum ipso habet & basin & altitudinem.
 

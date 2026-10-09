@@ -2,7 +2,7 @@
 
 *Il est euident aussi que les nombres des suittes V, A, C, F, L, & des autres qui luy sont paralleles, comme sont B, D, G, M. E, H, N, & K, P, sont aussi continuellement proportionaux en la raison de V à A, & les nombres de la suitte V, B, E, K, Q, & des autres qui luy sont paralleles, comme sont A, D, H, P. C, G, N, & F, M, sont aussi continuellement proportionaux en la raison de V à B.*
 
-## PROBL. II. PROPOS. III.
+## PROBL{printer-error-correction:THEOR}. II. PROPOS. III.
 
 Si sint quotcunque numeri deinceps proportionales minimi omnium eādem cum eis rationem habentium; illorum extremi sunt inter se primi.
 

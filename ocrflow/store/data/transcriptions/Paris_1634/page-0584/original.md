@@ -38,6 +38,6 @@ suppos. | ab & cd snt comm. ꝗe,
 contr. hypoth.
 4.cōcl. 21.a.1 | ab & cd snt incomm. ꝗe.
 
-## COROLL.
+### COROLL.
 
 Ex his, & ex tertio scholio vndecimæ definitionis manifestum est, rectas lineas, quæ longitudine sunt commensurabiles, omnino & potentia commensurabiles esse :

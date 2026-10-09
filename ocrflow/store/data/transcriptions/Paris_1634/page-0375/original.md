@@ -28,7 +28,7 @@ Si ad datam rectam lineam applicandum sit parallelogrammum deficiens quadrato, e
 
 Si à la ligne donnee il faut appliquer vn parallelogramme defaillant d'vn quarré, la solution se trouuera plus briefuement par la methode suiuante proposant le probleme ainsi.
 
-## SCHOL.
+### SCHOL.
 
 Dato aggregato extremarum, & rectangulo sub extremis inuenire extremas.
 

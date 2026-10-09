@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## COROL. III.
+### COROL. III.
 
 A,5. B,15. C,8. D,24. F,3.
 

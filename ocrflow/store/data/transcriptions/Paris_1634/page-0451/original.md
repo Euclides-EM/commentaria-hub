@@ -10,7 +10,7 @@ hyp. | ▭.a,b est c, A,5. B,3. C,15.
 7.a.7 | b, msur: c ꝑ a,
 7.a.7 | a, msur: c ꝑ b.
 
-### COROLL.
+#### COROLL.
 
 Ex hoc manifestum est, nullum numerum primum, esse planum, solidum, quadratum, aut cubum.
 

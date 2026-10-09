@@ -24,6 +24,6 @@ contr. concl. δ
 
 2 concl. 21. a. 1 | □.ac π □.eg 2|2 ⊙abt π ⊙efn.
 
-## COROLL.
+### COROLL.
 
 Hinc constat ita esse circulum ad circulum, vt polygo-

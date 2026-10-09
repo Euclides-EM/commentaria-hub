@@ -36,6 +36,6 @@ Demonstr.
 βγ.17.7 | g π b 2|2 d π f,
 concl. 20.d.5 | raō. a π b 2|2 raō. c π e + raō. d π f.
 
-## THEOR. V. PROPOS. VI.
+## THEOR. V{printer-error-correction:IV}. PROPOS. VI.
 
 Si sint quotcunque numeri deinceps proportionales, primus autem secundum non metiatur ; neque alius quispiam vllum metietur.

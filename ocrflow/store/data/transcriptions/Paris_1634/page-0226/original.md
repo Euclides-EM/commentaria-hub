@@ -12,7 +12,7 @@
 | □.eb commun. subtr.
 concl. 3.a.1 | ▭.adc 2|2 □.bd.
 
-## COROLL. I.
+### COROLL. I.
 
 Hinc manifestum est, si à puncto quouis extra circulum assumpto, plurimæ lineæ rectæ circulum secantes ducantur, rectangula comprehensa sub totis lineis, & partibus externis, inter se esse æqualia.
 

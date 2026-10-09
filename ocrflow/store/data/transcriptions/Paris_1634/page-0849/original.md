@@ -21,7 +21,7 @@ hyp. | ab, eſt ration.
 ſ. 12.10 | ef, eſt ration.
 4concl. 11. 13 | fg, eſt minr.
 
-## COROLL. I.
+### COROLL. I.
 
 Ex dictis infertur, sphæræ diametrum esse potentia quintuplum semidiametri circuli quinque latera icosaedri ambientis.
 

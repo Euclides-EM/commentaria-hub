@@ -10,7 +10,7 @@ Si ad datam rectam lineam applicandum sit parallelogrammum excedens quadrato, fa
 
 Si à la ligne donnee il faut appliquer vn parallelogramme excedant d'vn quarré, la solution se trouuera plus briefuement par la methode suiuante proposant ainsi.
 
-## SCHOL.
+### SCHOL.
 
 Data differentia extremarum, & rectangulo sub extremis, inuenire extremas.
 

@@ -32,7 +32,7 @@ Demonstr.
 | bgc commun. add.
 concl. 2.a.1. | ◊badc 2|2 ◊bcfe.
 
-## PROBL. XXVI. PROPOS. XXXVI.
+## PROBL{printer-error-correction:THEOR}. XXVI. PROPOS. XXXVI.
 
 Parallelogramma super æqualibus basibus, & in eisdem parallelis constituta, inter se sunt æqualia.
 

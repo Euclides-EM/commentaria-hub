@@ -38,6 +38,6 @@ c 19.5 | ab π ac 2|2 □.df π □.h,
 9.10 | df, incomm. h,
 concl. 6d 85.10 | de, est apotom. 6.
 
-## LEMM.
+### LEMM.
 
 hyp. | ac, est ▭ab, ad, | 10. 1 | df 2|2 fe,

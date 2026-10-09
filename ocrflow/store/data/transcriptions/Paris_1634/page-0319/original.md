@@ -6,7 +6,7 @@ Demomstr.
 hyp. | c π d 2|2 e π f,
 β.23.5 | a π d 2|2 e π h.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Rationes compositæ ex ijsdem rationibus, sunt inter se eædem.
 
@@ -45,7 +45,7 @@ Demonstr.
 
 β.23.5 | a π d 2|2 h π f.
 
-## SCHOL. III.
+### SCHOL. III.
 
 Earundem rationum eædem partes sunt inter se eædem.
 

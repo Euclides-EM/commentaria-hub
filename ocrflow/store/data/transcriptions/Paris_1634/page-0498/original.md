@@ -6,7 +6,7 @@ hyp. | a, b, c, d snt mi. ꝗn raō. e π f,
 2.c.2.8 | k & n snt pr. ꝫe,
 concl. 1.a.7 | a & d snt pr. ꝫe.
 
-## PROBL. III. PROPOS. IV.
+## PROBL. III{printer-error-correction:II}. PROPOS. IV.
 
 Rationibus datis quotcunque in minimis numeris, reperire numeros deinceps minimos in datis rationibus.
 

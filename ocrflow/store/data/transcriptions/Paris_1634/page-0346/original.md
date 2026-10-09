@@ -21,7 +21,7 @@ Demonstr.
 2.concl. 32.1 | Δdac est æquiang. Δabc, γ
 3.concl. β,γ | Δabd est æquiang. Δadc.
 
-## COROLL.
+### COROLL.
 
 Ex hoc manifestum est, perpendicularem, quæ in rectangulo triangulo ab angulo recto in basin demittitur, esse mediam proportionalem inter duo basis segmenta : Item vtrumlibet laterum angulum rectum ambientium, medium proportionale inter totam basin, & illud segmentum basis quod ei lateri adjacet.
 

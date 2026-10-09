@@ -4,7 +4,7 @@ vel duplam, vel etiam duo quiuis numeri primi : nam huiusmodi numeri non sunt si
 
 *double, & aussi tous nombres premiers : car tels nombres ne sont point plans semblables, comme nous auons demonstré aux scholies de la vingtseptiesme proposition du huictiesme liure.*
 
-## LEMM. II.
+### LEMM. II.
 
 Inuenire lineam ad quam data recta sit in ratione datorum numerorum.
 
@@ -39,7 +39,7 @@ Demonstr.
 
 concl. 20.d7 | km π hr 2|2 b π c.
 
-## LEMM. III.
+### LEMM. III.
 
 Inuenire lineam ad cuius quadratum datæ rectæ quadratum sit in ratione datorum numerorum.
 

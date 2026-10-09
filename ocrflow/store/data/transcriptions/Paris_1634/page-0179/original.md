@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. II. -->
 
-## SCHOL. II.
+### SCHOL. II.
 
 Si trianguli vnus angulus fuerit duplus aggregati reliquorum, quadratum, quod fit à latere duplum angulum subtendente, maius est quadratis, quæ fiunt à lateribus duplum angulum comprehendentibus, rectangulo sub lateribus duplum angulum continentibus comprehenso.
 

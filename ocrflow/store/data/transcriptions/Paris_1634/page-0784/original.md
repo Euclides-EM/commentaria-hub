@@ -4,7 +4,7 @@
 9.a. 1 | △cfg 3|2 cfgzc,
 concl. 1. a. c | △adf 3|2 bogzcfd.
 
-## LEMM. III.
+### LEMM. III.
 
 Rectilineum circulo inscribere, & aliud circumscribere, ita vt plana comprehensa inter periphæriam & rectilineum inscriptum, vel circumscriptum sint minora dato quocunque plano.
 

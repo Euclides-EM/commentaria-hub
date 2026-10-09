@@ -29,7 +29,7 @@ Demonstr.
 1.concl. 2.8 | a,h,i,b snt contin. proport. ꝗn raō.. c π d,
 2.concl. 10.d.5 | raō.. a π b 2|2 3;raō.. a π h, u c π d.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Eodem modo demonstrabitur quadrato-quadrata esse in quadruplicata ratione lateris ad latus, & quadrato-cubos in quintuplicata, &c.
 

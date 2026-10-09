@@ -36,7 +36,7 @@ s.12.10 1.concl. | db, comm. da,
 10.10 | cb, comm. ca, u cd,
 2 concl. s.12.10 | bc, est ration.
 
-## LEMM.
+### LEMM.
 
 Duas rectas rationales potentia solùm commensurabiles inuenire.
 

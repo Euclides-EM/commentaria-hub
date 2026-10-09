@@ -17,7 +17,7 @@ suppos. | d, msur: a & c, α
 contr. hypoth.
 concl. 21.a.1 | a, est pr. π. c.
 
-## COROLL.
+### COROLL.
 
 Sequitur hinc, numerum imparem, qui ad aliquem numerum progressionis duplæ primus est, primum quoque esse ad omnes numeros illius progressionis.
 

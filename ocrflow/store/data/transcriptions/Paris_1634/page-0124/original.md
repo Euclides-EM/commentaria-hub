@@ -18,7 +18,7 @@ hyp. | ab 2|2 cd,
 4.1. | <acb 2|2 <cbd,
 2.cöcl. 27.1. | ac == bd.
 
-## THEOR. XXIII. PROPOS. XXXIV.
+## THEOR. XXIII{printer-error-correction:XXIV}. PROPOS. XXXIV.
 
 Parallelogrammorum spatiorum æqualia sunt inter se, quæ ex aduerso & latera, & anguli ; atque illa bifariam secat diameter.
 

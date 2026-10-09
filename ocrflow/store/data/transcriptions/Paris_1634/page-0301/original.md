@@ -5,7 +5,7 @@
 | g+h+i, 2, 3, 4 | 3, k+l+m,
 6.d.5 | a π b 2|2 a+c+e π b+d+f.
 
-## COROLL.
+### COROLL.
 
 Hinc perspicuum est, si similia proportionalia similibus proportionalibus addantur, tota esse proportionalia.
 

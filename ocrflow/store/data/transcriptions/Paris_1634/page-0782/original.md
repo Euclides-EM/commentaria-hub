@@ -23,7 +23,7 @@ Demonstr.
 c.4.6 | ab π fg 2|2 al π fm,
 concl. 22. 6 | polyg.ab π poly.fg, / □.al π □.fm.
 
-## LEMM. I.
+### LEMM. I.
 
 Sectio semicirculo non major cedit trianguli æquicruri sibi inscripti duplo.
 

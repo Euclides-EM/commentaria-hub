@@ -2,7 +2,7 @@
 
 *D'icy il est manifeste, que si le nombre qui mesure quelqu'vn des proportionaux n'est l'vn des proportionaux, le nombre par lequel il mesurera ne sera pas aussi aucun des proportionaux.*
 
-## SCHOL.
+### SCHOL.
 
 Si sint quotcunque numeri deinceps proportionales, additio exponentium respondebit multiplicationi proportionalium.
 

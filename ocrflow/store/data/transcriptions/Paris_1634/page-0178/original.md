@@ -8,7 +8,7 @@ quarrez de deux autres, soit aigu.
 
 Or il est manifeste de la 47. du premier, que la perpendiculaire menée de l'angle du sommet à la ligne de la base ne tombe point hors le triangle, si le quarré de l'vn des costez de l'angle du sommet n'excede l'aggregé des quarrez de deux autres costez.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Cognitis lateribus trianguli, inuenire segmentum inter perpendicularem & acutum angulum interceptum.
 

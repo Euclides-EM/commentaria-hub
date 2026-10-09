@@ -24,7 +24,7 @@ c.6.d.5 | gl 2. 3. 4 | 3 hn,
 | ik 2. 3. 4 | 3 mo,
 αβ.6.d.5 | ac π cb 2|2 df π fe.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Demonstr.. diuis.. raō. inuers.
 

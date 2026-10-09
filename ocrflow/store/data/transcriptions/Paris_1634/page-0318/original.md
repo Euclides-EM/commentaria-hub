@@ -21,7 +21,7 @@ hyp. | b π c 2|2 d π e,
 | i 2, 3, 4 | 3 m,
 concl. 6.d.5 | a π c 2|2 d π f.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Si fuerint plures magnitudines tribus, fueritque earum proportio perturbata, nihilominus ex æqualitate erunt in eadem proportione.
 

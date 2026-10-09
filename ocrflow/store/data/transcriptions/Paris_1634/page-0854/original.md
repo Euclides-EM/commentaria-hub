@@ -17,7 +17,7 @@ hyp. | ab, diamet.. ſphær. eſt ration.
 
 Si igitur methodo, qua cōſtructum est pentagonum DTCSR, fabricentur duodecim similia pentagona tangentia duodecim cubi latera, constitutum erit dodecaedrum quæsitum. | *Partant si par la methode par laquelle le pentagone DTCSR a esté construit, on descrit douze pentagones semblables sur les douze costez du cube, on aura le dodecaedre requis.*
 
-## COROLL. I.
+### COROLL. I.
 
 Perspicuum est ex demonstratis, si latus cubi secetur extrema ac media ratione, maius segmentum esse latus dodecaedri in eadem sphæra descripti.
 

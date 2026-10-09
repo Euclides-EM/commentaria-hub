@@ -27,7 +27,7 @@ Demonstr.
 ɔ.1.9 | □.ce ∼ □.cd 2|2 □.de,
 constr. | □.de, n̄, est nr. □.
 
-## LEMM. II.
+### LEMM. II.
 
 Duos numeros quadratos inuenire, ita vt compositus ex ipsis non sit quadratus; vel quadratum numerum diuidere in duos numeros non quadratos.
 

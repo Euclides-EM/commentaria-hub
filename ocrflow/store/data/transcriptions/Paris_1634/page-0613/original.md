@@ -36,7 +36,7 @@ e, est √√.12800,
 d π e 2|2 √.10 π 2,
 ▭.d,e, est √.32000.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Inuenire duos numeros planos similes, vel dissimiles.
 

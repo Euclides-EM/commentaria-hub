@@ -12,7 +12,7 @@ La raison de A à D est triplée de la raison de A à B, ou égale à trois rais
 
 La raison de A à E est quadruplée de la raison de A à B, ou égale à quatre raisons de A à B.
 
-## SCHOL.
+### SCHOL.
 
 Eadē ratione si sint quotcumque magnitudines continuè proportionales ratio primæ ad quartam est sesquialtera rationis primæ ad tertiam, quòd sint tres rationes inter primā & quartam & duæ tantùm inter primam & tertiam.
 

@@ -4,7 +4,7 @@ resoluitur ; vt si quatuor latera habeat, in duo resoluitur triangula ; si quinq
 
 que les costez de la figure ; comme si elle a quatre costez, elle se diuisera en deux triangles ; si cinq en trois, si six en quatre, & de mesme les autres. Et à cause que de tout triangle les trois angles sont égaux à deux droicts, le nombre des triangles, dont chaque figure est composée, estant doublé, donnera le nombre des angles droicts, auquel tous les angles de la figure proposée sont égaux. Partant toute figure quadrilatere estant composée de deux triangles a ses angles égaux à quatre droicts, & tout pentagone a ses angles égaux à six droicts, & ainsi des autres.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Omnes anguli figuræ rectilineæ cuiusuis æquales sunt bis tot rectis angulis, demptis quatuor, quod ipsa continet latera, seu angulos.
 

@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-## SCHOL. I.
+### SCHOL. I.
 
 Omne quadrilaterum habens latera opposita æqualia, est parallelogrammum.
 
@@ -30,7 +30,7 @@ hyp. | ac 2|2 bd,
 β.29.1. | ac == bd,
 concl. 35.d.1. | abdc est ◊.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Ex hoc scholio perspicua est demonstratio methodi qua expeditus recta linea, per datum punctum, parallela datæ rectæ lineæ ducitur.
 

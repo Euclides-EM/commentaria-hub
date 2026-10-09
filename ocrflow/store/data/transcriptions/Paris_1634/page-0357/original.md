@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. VI. -->
 
-## COROLL.
+### COROLL.
 
 Ex posteriori huius demonstrationis parte efficitur, quamlibet rectam lineam esse mediam proportionalem inter quasuis alias duas rectas, quæ comprehendunt rectangulum quadrato illius æquale.
 

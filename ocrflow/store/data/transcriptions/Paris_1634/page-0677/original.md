@@ -20,7 +20,7 @@ df, est √..√.180 + √.60,
 de, est √..√.180 ∼ √.60,
 ef, est √..√.180 + √.60, ∼ √..√.180 ∼ √.60.
 
-## LEMM.
+### LEMM.
 
 Si idem sit excessus inter primam magnitudinem & secundam, qui inter tertiam magnitudinem & quartam; erit & vicissim idem excessus inter primam magnitudinem & tertiam, qui inter secundam & quartam.
 

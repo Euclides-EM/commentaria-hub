@@ -2,7 +2,7 @@
 
 *du pentagone diuise en deux egalement l'arc que le costé opposé à iceluy angle soustend, & aussi ledit costé en deux egalement, & à angles droicts.*
 
-## SCHOL.
+### SCHOL.
 
 Demonstratio praxis vndecimæ propositionis libri quarti quam in hunc locum demonstrandam distulimus.
 

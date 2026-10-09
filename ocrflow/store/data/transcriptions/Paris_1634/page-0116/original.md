@@ -9,7 +9,7 @@
 α | <dhg 2|2 <agh,
 13.concl. 1.a..1 | <bge 2|2 <dhg.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Si externus angulus sit æqualis interno & opposito ad easdem partes, linea incidens in rectas parallelas est recta.
 

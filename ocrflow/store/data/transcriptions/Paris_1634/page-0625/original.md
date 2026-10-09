@@ -19,7 +19,7 @@ bc π eg,
 47.1 | □.ab + □.ac 2|2 □.bc,
 4.concl. 14.10 | aggreg..□.ab + □.ac, incomm. ▭.ab,bc.
 
-## SCHOL.
+### SCHOL.
 
 Inuenire duas medias longitudine, & potentia incommensurabiles.
 

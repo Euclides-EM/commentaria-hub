@@ -40,7 +40,7 @@ arbitr. | g, est 6,
 12.6 | ef, est √.28,
 2.a.1 | df, est √.48. + √.28.
 
-## Lemm.
+### Lemm.
 
 hyp. | ad, est ▭.ab,ac,
 10.1 | ef 2|2 fc,

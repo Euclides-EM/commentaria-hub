@@ -56,6 +56,6 @@ Demonstr.
 22.5 | a π b 2|2 h π k,
 concl. 6.10 | a & b snt comm. ꝗe.
 
-## SCHOL.
+### SCHOL.
 
 Sequitur ex hac propositione omnem rectam lineam

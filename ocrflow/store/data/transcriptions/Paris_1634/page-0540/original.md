@@ -24,6 +24,6 @@ hyp. | h π a 2|2 a π b, u b π c, u c π d, &c.
 5.a.7 | h, msur: c ꝑ c,
 3c20.d7 | a, msur: d ꝑ c. b, msur: e ꝑ c. c, msur: f ꝑ c, &c.
 
-## COROLL.
+### COROLL.
 
 Hinc perspicuum est si numerus qui metitur aliquem ex proportionalibus non sit vnus proportionalium, neque numerum per quem metitur esse aliquem ex proportionalibus.

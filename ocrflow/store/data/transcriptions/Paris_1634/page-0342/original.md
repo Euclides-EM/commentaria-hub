@@ -4,7 +4,7 @@ Coroll.
 
 α | ab π dc 2|2 bc π ce u ac π de.
 
-## SCHOL.
+### SCHOL.
 
 [Figure: triangles C, B, G, C, B, G avec lignes F, D, E, E, A, F]
 

@@ -12,7 +12,7 @@ hyp. | ai π il, Ⅱ gr, di π io, Ⅱ gu, bi π in, Ⅱ gs snt raō; 2|2 ꝗe,
 11. 5 | abcd, dlqy, ixbp, ixmt, Ⅱ gfhe snt ◇piped; contin. proport;
 concl. 10.d.5 | raō. abcd π gfhe 2|2, 3raō; abcd π dlqy, Ⅱ ai π eк.
 
-## COROLL.
+### COROLL.
 
 Ex hoc perspicuum est, si fuerint quatuor lineæ rectæ continuè proportionales, vt est prima ad quartam, ita esse parallelepipedum super primam descriptum ad parallelepipedum simile, similiterq. descriptum super secundam.
 

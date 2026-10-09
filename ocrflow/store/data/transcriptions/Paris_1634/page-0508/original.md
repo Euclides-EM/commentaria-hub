@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID.. LI. VIII. -->
 
-## SCHOL. II.
+### SCHOL. II.
 
 Si sint plures numeri continuè proportionales, quadratus primi ductus in quartum, facit cubum secundi : cubus verò eiusdem primi ductus in quintum, facit quadrato-quadratum secundi, & ita deinceps.
 

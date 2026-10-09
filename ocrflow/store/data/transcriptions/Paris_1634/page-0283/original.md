@@ -9,7 +9,7 @@ A, 6. B, 4. C, 12. D, 8.
 hyp. | a π b 2|2 c π d,
 2.s.18.5 | a π a+b 2|2 c π c+d.
 
-## SCHOL. III.
+### SCHOL. III.
 
 Compositio rationis inuersè contraria, est sumptio consequentis ad antecedentem & consequentem, ceu ad vnam.
 
@@ -31,7 +31,7 @@ A, 6. B, 4. C, 12. D, 8.
 hyp. | a π b 2|2 c π d,
 17.5 | a~b π b 2|2 c~d π d.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Diuisio ratione inuersa, est sumptio consequentis ad excessum quo consequentem superat antecedens.
 

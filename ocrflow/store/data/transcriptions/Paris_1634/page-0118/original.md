@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. I. -->
 
-## SCHOL.
+### SCHOL.
 
 Rectæ lineæ eidem rectæ parallelæ, si in directum continuatæ inter se coeant: erunt partes eiusdem rectæ lineæ, vt AG & GB sunt partes rectæ lineæ AB.
 
@@ -34,7 +34,7 @@ Demonstr.
 constr. | <dae 2|2 <adc,
 concl. 27.1. | ae == bc.
 
-## SCHOL.
+### SCHOL.
 
 Super datam rectam lineam infinitam, à dato puncto, quod in ea non est, rectam lineam ducere, quæ cum data constituat angulum æqualem dato angulo rectilineo.
 

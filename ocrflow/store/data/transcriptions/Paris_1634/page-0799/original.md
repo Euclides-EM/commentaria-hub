@@ -32,6 +32,6 @@ Demonstr.
 33. 11 | raō. abicdmkl π efnghqop 2|2, 3; raō; ac π eg,
 concl. 15. 5 | raō. abcd π efgh 2|2, 3; raō; ac π eg.
 
-## COROLL.
+### COROLL.
 
 Ex hoc quoque manifestum est, similes pyramides,

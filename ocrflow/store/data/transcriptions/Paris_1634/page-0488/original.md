@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. VII. -->
 
-## PROBL. V. PROPOS. XXXVII.
+## PROBL. V. PROPOS. XXXVII{printer-error-correction:XXXVIII}.
 
 Tribus numeris datis reperire, quem illi minimum metiantur, numerum.
 

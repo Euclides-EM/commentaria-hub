@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. X. -->
 
-## THEOR. VIII. PROPOS. XXXII.
+## THEOR{printer-error-correction:PROBL}. VIII. PROPOS. XXXII.
 
 Inuenire duas medias potentia tantùm commensurabiles, quæ rationale contineant; ita vt major plus possit quàm minor, quadrato rectæ lineæ sibi longitudine commensurabilis.
 

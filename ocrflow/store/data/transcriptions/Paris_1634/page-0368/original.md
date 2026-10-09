@@ -14,7 +14,7 @@ constr. | bg & eh snt ◇,
 23.6 | raō.. ◇bg π ◇eh 2|2 raō.. bc π ef + raō.. ab π de
 concl. 11.5 | raō.. Δabc π Δdef 2|2 raō.. bc π ef + raō.. ab π de.
 
-## SCHOL. III.
+### SCHOL. III.
 
 Parallelogramma æquiangula, eandem habent proportionem, quam rectangula sub lateribus ipsorum æqualem angulum continentibus comprehensa.
 

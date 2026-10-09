@@ -17,7 +17,7 @@ arbitr. | □.ab, eſt 9,
 12. 13 | □.hf, eſt 2,
 concl. 2.ſ.7.5 | □.ab π □.hf, / 9 π 2.
 
-## COROLL. II.
+### COROLL. II.
 
 Rurſus perpendicularis ex centro ſphæræ ad planum baſis pyramidis demiſſa, ſexta pars erit diametri ſphæræ, & tertia pars ſemidiametri.
 

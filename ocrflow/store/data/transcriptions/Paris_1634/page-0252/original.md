@@ -34,7 +34,7 @@ Coroll. 2.
 
 29.3 | ace est △ æquilat.
 
-## SCHOL.
+### SCHOL.
 
 Demonstratio praxis vndecimæ propositionis libri primi, quam in hunc locum demonstrandam distulimus.
 

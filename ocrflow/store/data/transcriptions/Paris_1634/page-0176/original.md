@@ -7,7 +7,7 @@
 47.1 | ▭.cd + ▭.ad 2|2 ▭.ac,
 concl. 1.a.f | ▭.ac 2|2 ▭.ab + ▭.bc + 2▭.cbd.
 
-## SCHOL.
+### SCHOL.
 
 Cognitis lateribus trianguli amblygonij inuenire segmentum inter perpendicularem & obtusum angulum interceptum.
 

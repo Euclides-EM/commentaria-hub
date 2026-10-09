@@ -21,7 +21,7 @@ c.15 d.1 2.concl. | e, est in ⊙, α
 3.concl. 9.a.1 | <bai 3|2 <bae,
 4.concl. 9.a.1 | <iad 2|3 <ead,
 
-## COROLL.
+### COROLL.
 
 Hinc manifestum est, rectam à diametri circuli extremitate ad angulos rectos ductam, ipsum circulum tangere. Ostensum enim est, ipsam cadere extra circulum; quare solum in puncto illo diametri extremo circulum attingit.
 

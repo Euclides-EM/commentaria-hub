@@ -13,7 +13,7 @@ hyp. | c π d 2|2 a π b,
 | f 2. 3. 4 | 3 h,
 α.6.d.5 | a π c 2|2 b π d.
 
-## SCHOL.
+### SCHOL.
 
 Porro demonstratio huius propositionis locum solùm habet quando quatuor magnitudines sunt eiusdem generis ; ratio enim non reperitur in magnitudinibus heterogeneis.
 

@@ -1,6 +1,6 @@
 <!-- Running title: ELEM.. EVCLID. LI. IX. -->
 
-## SCHOL.
+### SCHOL.
 
 A,3. B,9. C,27. D,81. E,243. F,729. &c. nr.. progress.
 l, q, c, qq, qc, cc, &c. charact;

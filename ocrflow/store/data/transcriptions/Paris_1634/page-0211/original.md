@@ -29,7 +29,7 @@ Coroll: 2.
 hyp. | <abc 2|3 ∟,
 2.c.22.3 | <adc 3|2 ∟.
 
-## SCHOL.
+### SCHOL.
 
 Si vnum latus quadrilateri in circulo descripti producatur, erit angulus externus æqualis angulo interno qui opponitur ei qui est deinceps externo.
 

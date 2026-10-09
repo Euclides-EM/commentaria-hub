@@ -19,13 +19,13 @@ s.12.10 | fd, est ration.
 13.10 | fd, incomm. cd,
 concl. ♪.22.10 | ▭.cf & b snt medi.
 
-## COROLL.
+### COROLL.
 
 Ex hoc manifestum est, spatium medio spatio commensurabile medium esse.
 
 *De ceste demonstration il est manifeste qu'vn espace commensurable à vn espace medial, est aussi medial.*
 
-## LEMM.
+### LEMM.
 
 Duas rectas medias longitudine commensurabiles; item duas potentia tantùm commensurabiles inuenire.
 

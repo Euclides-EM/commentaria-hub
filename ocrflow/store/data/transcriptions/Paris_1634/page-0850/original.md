@@ -2,13 +2,13 @@
 
 *tuple en puissance du demidiametre qui enuironne les costez de l'icosaedre.*
 
-## COROLL. II.
+### COROLL. II.
 
 Item manifestum est sphæræ diametrum esse compositam ex latere hexagoni, hoc est, ex semidiametro, & duobus lateribus decagoni circuli ambientis quinque latera icosaedri.
 
 *Pareillement il est manifeste que le diametre de la sphere est composé du costé de l'hexagone, c'est à dire, du demidiametre, & de deux costez du decagone du cercle qui enuironne les cinq costez de l'icosaedre.*
 
-## COROLL. III.
+### COROLL. III.
 
 Constat denique latera icosaedri opposita, qualia sunt RX, HI, esse parallela.
 

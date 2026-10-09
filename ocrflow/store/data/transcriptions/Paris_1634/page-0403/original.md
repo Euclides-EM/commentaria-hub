@@ -7,7 +7,7 @@ Coroll.
 
 2.s.6.2 & 3.a.1 | □.ad + □.db ~ □.ae ~ □.eb 2|2, 2▭.aeb ~ 2▭.adb.
 
-## SCHOL.
+### SCHOL.
 
 Ex prima parte huius theorematis perspicua est demonstratio regulæ arithmeticæ, qua productus duorum numerorum denario minorum inuenitur, reiecto denario ex propositorum numerorum summa, deinde subducto vtroq;numero à denario, & multiplicatis inter se residuis.
 

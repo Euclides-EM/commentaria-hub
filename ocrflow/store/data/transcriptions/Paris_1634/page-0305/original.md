@@ -4,7 +4,7 @@ tertiam quoque maiorem esse, vel æqualem, vel minorem quàm quartam : vtraque e
 
 Or il est manifeste, à cause de la similitude des raisons, que si la premiere est plus grande, ou égale, ou moindre que la seconde ; que la troisiesme sera plus grande, ou égale, ou moindre que la quatriesme : car l'vne & l'autre raison sera ou d'inégalité mineure, ou d'égalité, ou d'inégalité maieure ; si d'inégalité mineure, chaque antecedente sera plus petite que sa consequente ; si d'égalité, chaque antecedente sera égale à sa consequente ; si d'inégalité maieure, chaque antecedente sera plus grande que sa consequente.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Si prima ad secundam, minorem habeat rationem quàm tertia ad quartam ; prima verò quàm tertia maior fuerit, erit & secunda maior quàm quarta.
 

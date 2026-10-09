@@ -19,13 +19,13 @@
 4. 2 | □.ab 2|2 ab,bm / + ab,am,
 concl. γδ 2.a.1 | □.ab 2|2 □.bf + □.ah
 
-## COROLL. I.
+### COROLL. I.
 
 Hinc sequitur, lineam rectam, quæ ex centro diuidit arcum quempiam bifariam, diuidere quoque rectam illi arcui subtensam bifariam, & ad angulos rectos.
 
 *De ceste demonstration s'ensuit que la ligne droicte menee du centre qui diuise vn arc en deux egalement, diuise aussi la ligne droicte soustendante iceluy, à angles droicts & en deux egalement.*
 
-## COROLL. II.
+### COROLL. II.
 
 Perspicuum quoque est, diametrum circuli ex angulo quouis pentagoni ductam diuidere & arcum, quem latus pentagoni illi angulo oppositum subtendit, & latus ipsum oppositum bifariam, & ad angulos rectos.
 

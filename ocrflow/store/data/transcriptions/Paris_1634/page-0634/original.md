@@ -4,7 +4,7 @@ c.17.ap. | □.ad + □.db ∼ □.ae ∼ □.eb 2|2, 2▭.aeb ∼ 2▭.adb
 s.12.10 | □.ad + □.db ∼ □.ae ∼ □.eb, est ration.
 γ | contr. 27.10.
 
-## THEOR. XXX. PROPOS. XLV.
+## THEOR. XXX{printer-error-correction:XXXIII}. PROPOS. XLV.
 
 Quæ ex binis mediis secunda, ad vnum duntaxat punctum diuiditur in nomina.
 

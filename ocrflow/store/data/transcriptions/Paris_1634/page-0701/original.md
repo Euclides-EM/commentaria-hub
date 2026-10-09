@@ -13,7 +13,7 @@ s.22.6 | □.ac π ▭.acb 2|2 ▭.acb π □.bc,
 1. 6, & 10. 10 | di π ml 2|2 ml π il,
 3.concl. 16. 6 | ▭dil 2|2 □:ml. θ
 
-## COROLL. I.
+### COROLL. I.
 
 hyp. | ac, comm. bc ꝗn □. к
 

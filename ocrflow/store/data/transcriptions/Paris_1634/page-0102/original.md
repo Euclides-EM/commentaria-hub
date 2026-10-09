@@ -32,6 +32,6 @@ Demonstr.
 2.concl. d. α | <acb + <a 2|3 2∟,
 3.concl. d. α | <a + <b 2|3 2∟.
 
-COROLL. I.
+### COROLL. I.
 
 Ex hac propositione colligitur in omni triangulo, cuius vnus angulus fuerit rectus vel obtusus, reliquos esse acutos.

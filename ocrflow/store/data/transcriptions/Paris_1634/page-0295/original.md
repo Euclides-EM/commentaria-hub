@@ -25,13 +25,13 @@ Demonstr.
 1.concl. 6.d.5 | a π c 2|2 b π c,
 2.concl. c.4.5 | c π a 2|2 c π b.
 
-## SCHOL. I.
+### SCHOL. I.
 
 Si loco multiplicis F sumantur duæ æquè multiplices, eodem modo ostendetur, æquales magnitudines ad alias inter se æquales, eandem habere rationem.
 
 Si au lieu de l'equimultiple F on prend deux equimultiples, on demonstrera par la mesme methode que les grandeurs égales ont mesme raison à d'autres grandeurs égales.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Hinc perspicuum est, si vnitates numerorum, quibus exprimuntur magnitudines, sint eiusdem mensuræ siue quantitatis, eandem esse proportionem magnitudinum, quam numerorum quibus exprimuntur.
 

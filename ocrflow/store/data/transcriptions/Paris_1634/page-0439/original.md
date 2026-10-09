@@ -20,7 +20,7 @@ C, est æqualis numero, qui fit ex multiplicatione A in B.
 
 *C, est egal au produit qui vient en multipliant A, par B.*
 
-## COROLL.
+### COROLL.
 
 In omni multiplicatione vnitas est ad multiplicatorem, vt multiplicatus ad productum.
 

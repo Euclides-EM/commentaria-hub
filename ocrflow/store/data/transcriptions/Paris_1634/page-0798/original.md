@@ -8,7 +8,7 @@ hyp. | alt.. prism. bf 2|2 alt.. prism. nq,
 15. 5 | prism. bf π prism. nq 2|2 abcdeh π lmnopſ,
 concl. 11. 5 | abcde π lmnop 2|2 prism. bf π prism. nq.
 
-## SCHOL. II.
+### SCHOL. II.
 
 Hinc sequitur si iuxta tertium lemma propos. primæ huius libri adscribatur circulo polygonum intelligatúrque super illud polygonum, sub altitudine dati cylindri vel coni, erectum prisma, vel pyramis: solida comprehēsa inter superficiem concauam vel conuexam cylindri vel coni, & superficiem prismatis vel pyramidis, fore tandem minora quocunque dato solido.
 

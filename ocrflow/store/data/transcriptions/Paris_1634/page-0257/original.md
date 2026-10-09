@@ -14,7 +14,7 @@ arbitr. | ab est 1000,
 2.a.1 | be est 5027,
 47.1 | ae est 5126.
 
-## SCHOL. III.
+### SCHOL. III.
 
 Cognitis duobus lateribus trianguli obliquanguli, & ratione vnius anguli, ad aggregatum reliquorum duorum, quæ sit eadem alicui rationi præcedentis tabulæ, inuenire tertium latus.
 

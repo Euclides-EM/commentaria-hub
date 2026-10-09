@@ -7,7 +7,7 @@ hyp. | bas. ad π bas. eh 2|2 alt. eg π alt. ei,
 11. 5 | adcb π ehiк 2|2 ehgf π ehiк,
 2 concl. 9. 5 | ◇piped. adcb 2|2 ◇piped. ehgf.
 
-## SCHOL.
+### SCHOL.
 
 Si insistentes lineæ propositorum parallelepidorum nō sint perpendiculares ad bases, demonstratio fiet reductis prius ad perpendiculares vt in 31. propos. huius libri.
 

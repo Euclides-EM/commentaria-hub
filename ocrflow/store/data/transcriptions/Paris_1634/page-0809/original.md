@@ -2,7 +2,7 @@
 
 Quod de conis demonstratum est debet etiam intelligi de cylindris, eodémque modo fiet demonstratio, si loco conorum, & pyramidum concipiantur cylindri & prismata. | *Ce qui a esté prouué des cones se doit außi entendre des cylindres, & se demonstrera ainsi que des cones, si au lieu des cones & des pyramides on entend des cylindres & des prismes.*
 
-## COROLL.
+### COROLL.
 
 Hinc sequitur, conos & cylindros eiusdem altitudinis super eandem vel æquales bases constitutos, esse inter se æquales: Et contrà conos & cylindros æquales super eandem vel æquales bases in eadem esse altitudine: Et æquales in eadem altitudine, super æquales bases esse si non habuerint eandem.
 

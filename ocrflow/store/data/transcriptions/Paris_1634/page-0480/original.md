@@ -38,7 +38,7 @@ suppos. | d, est c.me.. ab & bc,
 contr. 12.d.7.
 3.concl. 21.a.1 | ab & bc snt pr. ꝫe.
 
-## COROLL.
+### COROLL.
 
 Ex hoc sequitur, numerum, qui ex duobus compositus ad vnum illorum primus est, ad reliquum quoque primum esse.
 

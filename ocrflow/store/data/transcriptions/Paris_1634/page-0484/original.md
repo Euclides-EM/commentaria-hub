@@ -38,7 +38,7 @@ suppos. | h, msur: a ꝑ l,
 contr. constr.
 21.a.1 | e, f, g snt term.. raō; nr; a,b,c.
 
-## COROLL.
+### COROLL.
 
 Hinc perspicuum est, maximam mensuram quotlibet numerorum metiri ipsos per numeros, qui minimi sunt omnium eandem proportionem cum ipsis habentium.
 
