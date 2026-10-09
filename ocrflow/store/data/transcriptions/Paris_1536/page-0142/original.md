@@ -4,7 +4,7 @@
 
 diffinitionem. Ergo si prima ad secundam eandem rationē habuerit: &c. vt in theoremate. Quod oportuit ostendisse.
 
-Θεώρημα ιδ', Πρόθεσις ιδ'.
+## Θεώρημα ιδ', Πρόθεσις ιδ'.
 
 EΑν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, ὃ τρίτον πρὸς τέταρτον: ᾖ δὲ πρῶτον τοῦ τρίτου μεῖζον ᾖ, καὶ τὸ δεύτερον τοῦ τετάρτου μεῖζον ἔσαι: κἂν ἴσον, ἴσον, κἂν ἔλασσον, ἔλασσον.
 
@@ -34,7 +34,7 @@ quàm ad d. Est igitur b/minor ipsa d, per ipsam decimā eiusdem quinti. ¶Porr�
 Vbi prima æquatur tertiȩ.
 [/Margin]
 
-Θεώρημα ιε, Πρόθεσις ιε.
+## Θεώρημα ιε, Πρόθεσις ιε.
 
 TΑ μέρη τοῖς ὡσαύτως πολλαπλασίοις, τὸν αὐτὸν ἔχῃ λόγον, ληφθέντα κατάλληλα.
 

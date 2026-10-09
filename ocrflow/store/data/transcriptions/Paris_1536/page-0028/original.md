@@ -22,13 +22,13 @@ tertiam communem ſentẽtiam erit æqualis. Atqui monſtratum eſt, quòd & b/c
 Que eidem equalia et ad inuicem ſunt equales
 [/Margin]
 
-Πρόβλημα γ, Πρόθεσις γ.
+## Πρόβλημα γ, Πρόθεσις γ.
 
 Δύο δοθεισῶν ευθειῶν ἀνίσων, ἀπὸ τῆς μείζονος, τῇ ἐλάσσονι ἴσην ευθεῖαν ἀφελεῖν.
 
 ## Problema 3, Propoſitio 3.
 
-## DVabus datis rectis lineis inæqualibus, à maiori minori æquã 3 rectam lineam abſcindere.
+DVabus datis rectis lineis inæqualibus, à maiori minori æquã 3 rectam lineam abſcindere.
 
 [Margin]
 Ad datum punctum date recte lineæ equam rectam lineam ponere
@@ -48,7 +48,7 @@ Que eidem ſunt equalia ſunt ad inuicem
 
 tionẽ. Eidẽ porrò a/e, æqualis eſt & recta c/d. Binæ igitur a/f/ & c/d, eidem a/e/ ſunt æquales: & propterea æquales adinuicẽ, per primã cómunem ſentẽtiam. Eſt autẽ & a/f, pars ipſius maioris a/b Duabusergo lineis rectis inæqualibus datis, a/b quidẽ & c/d: à maiori a/b, ſecta eſt a/f/ ipſi c/d/ minori æqualis. Quod oportebat facere.
 
-Θεώρημα α, Πρόθεσις δ.
+## Θεώρημα α, Πρόθεσις δ.
 
 Εὰν δύο τρίγωνα τὰς δύο πλευρὰς, ταῖς δυσὶ πλευραῖς ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, καὶ τὴν γωνίαν τῇ γωνίᾳ ἴσην ἔχῃ, τὴν ὑπὸ τῶν ἴσων ευθειῶν περιεχομένην, καὶ τὴν βάσιν τῇ βάσει ἴσην ἕξει, καὶ τὸ τρίγωνον τῷ τριγώνῳ ἴσον ἔσται, καὶ αἱ λοιπαὶ γωνίαι ταῖς λοιπαῖς γωνίαις ἴσαι ἔσονται ἑκατέρα ἑκατέρᾳ, ὑφ' ἃς αἱ ἴσαι πλευραὶ ὑποτείνουσι.
 
@@ -58,4 +58,4 @@ Duæ ſequentes propoſitiones dicta ſunt Elaphuga [illegible] miſerorum fuga 
 
 ## Theorema 1, Propoſitio 4.
 
-## SI duo triãgula duo latera duobus lateribus æqualia habuerint 4 alterũ alteri, & angulum angulo æqualem ſub æqualibus rectis
+SI duo triãgula duo latera duobus lateribus æqualia habuerint 4 alterũ alteri, & angulum angulo æqualem ſub æqualibus rectis

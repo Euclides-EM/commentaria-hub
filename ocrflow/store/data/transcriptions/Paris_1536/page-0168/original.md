@@ -28,7 +28,7 @@ Secunda pars theorematis, conuersa primæ.
 
 lelogrammũ d/b/e/ ad idẽ c/b/e/ parallelogrammũ.Vtrunq; igitur a/b/c/ & d/b/e/ parallelogrãmum,ad idem parallelogrammũ c/b/e/ habet eandẽ rationem. æquũ eſt itaq; a/b/c/parallelogrammũ ipsi d/b/e/ parallelogrãmo, per nonã ipsius quinti. Aequaliũ igitur & vnum vni æqualem habẽtium angulum parallelogrammorum:& quæ sequuntur reliqua.Quod oſtendendum fuerat.
 
-Θεώρημα ι, Πρόθεσις ιε.
+## Θεώρημα ι, Πρόθεσις ιε.
 
 Τῶν ἴσων ϗ̃ μίαν μιᾷ ἴσην ἐχόντων γωνίαν τριγώνων, ἀντιπεπόνθασιν αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας: καὶ ὧν μίαν μιᾷ ἴσην ἐχόντων γωνίαν ἀντιπεπόνθασιν αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας, ἴσα ὑπὶν ἐκεῖνα.
 

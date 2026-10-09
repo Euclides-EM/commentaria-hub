@@ -4,7 +4,7 @@
 
 æqualis. Quòd ſi vtrique æqualium angulorum addatur cõmunis angulus a/d/c: totus angulus a/d/b, duobus qui ſub c/a/d/ & a/d/c/ſunt angulis, erit per ſecundam communem ſentẽtiam æqualis. Eiſdem porrò qui ſub c/a/d/ & a/d/c/cõtinentur angulis, exterior angulus b/c/d, per trigeſimamſecũdam primi coæquatur. Per primã igitur communem ſententiã, angulus a/d/b, angulo b/c/d/ eſt æqualis. Angulo rurſum a/d/b, æquus eſt angulus c/b/d, aut(ſi velis) a/b/d, per quintã primi: ſunt enim ad baſin b/d/iſoſcelis triãguli a/b/d. Duo itaque anguli b/c/d/ & c/b/d, eidem angulo a/d/b/ſunt æquales: & æquales propterea adinuicẽ, per primã communẽ ſententiã. Hinc latus c/d/lateri b/d, per ſextã ipſius primi coæquatur. ſed eidem b/d, æqualis eſt per conſtructionem a/c. binæ igitur a/c/ & c/d, eidem b/d/ſunt æquales: & æquales itaq; rurſum adinuicẽ, per eãdem primam cõmunem ſententiam. Angulus igitur a/d/c, angulo c/a/d, per eandẽ quintam primi eſt æqualis: & vterq; propterea dimidius ipſius anguli a/d/b, nã angulus a/d/b/eiſdem angulis a/d/c/ & c/a/d/æqualis iam oſtenſus eſt. Duplus eſt igitur angulus a/d/b, ipſius anguli qui ad a. Eidem porrò angulo a/d/b, æqualis rurſum eſt a/b/d: quæ autem æqualia ſunt, eiuſdem ſunt duplicia, per ſextæ communis ſententiæ conuerſionem. Et a/b/d/itaq; angulus, eiuſdem anguli qui ad a/duplus itidem eſt. Iſoſceles ergo triangulum conſtituitur a/b/d, habens vnumquenq; eorum qui ad baſin b/d/ſunt angulorum duplum reliqui. Quod facere oportebat.
 
-Πρόβλημα ια, Πρόθεσις ια.
+## Πρόβλημα ια, Πρόθεσις ια.
 Εἰς τὸν δοθέντα κύκλον, πεντάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον ἐγγράψαι.
 
 ## Problema 11, Propoſitio 11.

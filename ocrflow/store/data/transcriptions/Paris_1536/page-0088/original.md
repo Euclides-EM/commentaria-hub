@@ -26,7 +26,7 @@ Tertia pars de angulo cōtingentiæ.
 
 ¶Quæ igitur ab extremitate dimetientis dati circuli, ad rectos ducitur angulos, ipsum circulū tangit, idq́; in vno tantummodo puncto: ad duo enim puncta adplicata recta linea, per secundam huius tertij, cadit intra datum circulum.
 
-Πρόβλημα β, Πρόθεσις ιζ.
+## Πρόβλημα β, Πρόθεσις ιζ.
 
 Απὸ δοθέντος σημείου, τοῦ δοθέντος κύκλου ἐφαπτομένην εὐθεῖαν γραμμὴν ἀγαγεῖν.
 

@@ -2,7 +2,7 @@
 
 Ipsis porrò gnomoni m/d/g,& quadrato m/ g: æquum est quadratū a/d/e/f.Comprehēsum igitur quater sub a/b/& b/d/rectangulū,vnà cum quadrato m/g:æquum est,per primam communem sententiam,ipsi quadrato a/d/e/f.Atqui m/g/quadratum æquum est ei, quod ex a/c: fit enim ex m/h, quæ eidem a/c, per trigesimamquartam primi,est æqualis.Quadratum autē a/d/e/f, æquum est ei,quod ex a/b/& b/c/tanq̄ ex vna describitur quadrato:data est enim b/d,ipsi b/c/æqualis. Si recta igitur linea a/b,secetur vtcunque in puncto c:rectangulum comprehensum quater sub tota a/b/& segmento b/c, cum eo quod ex reliquo segmento a/c/ est quadrato, æquum est ei quod fit sub tota a/b,& prædicto segmento b/c/,tanquam ex vna descripto quadrato.Quod demonstrare fuerat operæpretium.
 
-Θεώρημα θ, Πρόθεσις θ.
+## Θεώρημα θ, Πρόθεσις θ.
 
 Εὰν εὐθεῖα γραμμὴ τμηθῇ εἰς ἴσα καὶ ἄνισα,τὰ ἀπὸ τῶν ἀνίσων τῆς ὅλης τῶν τμημάτων τετράγωνα, διπλάσιά ἐστι τοῦ τε ἀπὸ τῆς ἡμισείας καὶ τοῦ ἀπὸ τῆς μεταξὺ τῶν τομῶν τετραγώνου.
 

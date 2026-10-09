@@ -4,7 +4,7 @@
 
 est eius qui ad circunferentiam: quando ipsi anguli communem basin eandem circunferentiam habuerint. Quod fuerat ostendendum.
 
-Θεώρημα ιθ, Πρόθεσις κα.
+## Θεώρημα ιθ, Πρόθεσις κα.
 
 Εν κύκλῳ αἱ ἐν τῷ αὐτῷ τμήματι γωνίαι, ἴσαι ἀλλήλαις ἐσίν.
 
@@ -28,7 +28,7 @@ De segmento semicirculo minori.
 
 [Diagram: a b c d e f]
 
-Θεώρημα κ, Πρόθεσις κβ.
+## Θεώρημα κ, Πρόθεσις κβ.
 
 Των ἐν τοῖς κύκλοις τετραπλεύρων αἱ ἀπεναντίον γωνίαι, δυσὶν ὀρθαῖς ἴσαι ἐσίν.
 

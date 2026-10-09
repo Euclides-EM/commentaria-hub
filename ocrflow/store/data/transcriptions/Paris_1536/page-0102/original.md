@@ -4,7 +4,7 @@
 
 angulus, æqualis ipsi angulo d, per primam communem sententiam. A dato itaque circulo a/b/c, segmentum abscinditur b/a/c, capiens angulum qui ad a/ æqualem dato angulo rectilineo d. Quod oportuit fecisse.
 
-Θεώρημα κθ, Πρόθεσις λε.
+## Θεώρημα κθ, Πρόθεσις λε.
 
 Ἐὰν ἐν κύκλῳ δύο εὐθεῖαι τέμνωσιν ἀλλήλας, τὸ ὑπὸ τῶν τῆς μιᾶς τμημάτων περιεχόμενον ὀρθογώνιον, ἴσον ἐστὶ τῷ ὑπὸ τῶν τῆς ἑτέρας τμημάτων περιεχομένῳ ὀρθογωνίῳ.
 

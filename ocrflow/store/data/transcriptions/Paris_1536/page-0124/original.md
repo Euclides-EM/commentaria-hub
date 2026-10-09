@@ -30,7 +30,9 @@ Illa igitur rationalium vel irrationalium, seu cōmensurabilium & incōmensurabi
 
 ¶Λόγος ἐστὶ δύο μεγεθῶν ὁμογενῶν ἡ κατὰ πηλικότητα πρὸς ἄλληλα ποιὰ σχέσις.
 
-## 3 Ratio est duarum magnitudinum eiusdem generis aliquatenus adinuicem quædam habitudo.
+[Curated heading level=3 type=numbered_item: 3.]
+
+3 Ratio est duarum magnitudinum eiusdem generis aliquatenus adinuicem quædam habitudo.
 
 Sola enim vniuoca veniunt inter sese comparanda, vtpote, numerus numero, linea lineæ, superficies superficiei, solidum solido, sonus sono, tēpus tempori, velocitas velocitati, & quę sunt huiuscemodi. Inter ea enim quę diuersorum sunt generum, nulla videtur accidere comparatio.
 

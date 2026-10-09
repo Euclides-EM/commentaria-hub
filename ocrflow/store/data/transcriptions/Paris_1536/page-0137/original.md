@@ -1,39 +1,33 @@
 <!-- Running title: LIBER V. -->
 
-<!-- Page number: 133 -->
+<!-- Page number: 121 -->
 
-sic k/ad m, per quartam huius quinti propositionem. Ostensum est autem, quòd sicut g/ad h, sic m/ad n. Sunt itaque g,h,l, tres magnitudines, & k,m,n, aliæ eisdem æquales numero, cum duabus in eadem ratione perturbatim coassumptis: sicut quidem g/ad h, sic m/ad n, sicut rursum h/ad l, sic k/ad m. Ergo si g/fuerit maior l, erit ex æquali k/maior n: & si æqualis, æqualis: si autem minor, itidem minor, per vigesimamprimam huius quinti. Porrò g,k/sunt æquè multiplices ipsarum a,d, primæ & tertiæ magnitudinis (seruato illationis ordine) l/autem & n/secundæ & quartæ, hoc est ipsarum c,f/æquè rursum multiplices, per constructionem. Est igitur vt prima a/ad secundam c, sic tertia d/ad quartam f: per sextam eiusdem quinti diffinitionem. Si fuerint igitur tres magnitudines, aliæq́; eisdem æquales: &c. vt in theoremate. Quod oportuit ostendisse.
+habet, quàm minor: & eadem ad minorem maiorem rationem habet, quàm ad maiorem.
 
-## Θεώρημα κδ, Πρόθεσις κδ.
-
-Εαν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, καὶ τρίτον πρὸς τέταρτον, ἔχῃ δὲ καὶ πέμπτον πρὸς δεύτερον τὸν αὐτὸν λόγον, καὶ ἕκτον πρὸς τέταρτον, καὶ συντεθὲν πρῶτον καὶ πέμπτον πρὸς δεύτερον, τὸν αὐτὸν ἕξει λόγον, καὶ τρίτον καὶ ἕκτον πρὸς τέταρτον.
-
-## Theorema 24, Propositio 24.
+ORONTIVS. ¶ Sint binæ magnitudines inæquales, a/b/quidem maior, & c/minor: d/autem alia quædam magnitudo. Aio primùm quòd a/b/ad d/maiorē rationē habet, quàm c/ad ipsam d. Cùm enim ex hypothesi a/b/sit maior magnitudine c: comprehendet itaq; a/b/magnitudo eandem c, & aliquam insuper magnitudinē. Sit igitur e/b, æqualis ipsi c, & a/e/residua eiusdem magnitudinis pars. Erūt ergo a/e/& e/b/aut inæquales, aut æquales adinuicē. Sint primū inæquales, & a/e/minor ipsa e/b. Suscipiatur autem ipsius minoris a/e/vtcunq; multiplex, maius tamen ipsa magnitudine d: sítq; illud f/g. Quàm multiplex insuper est f/g/ipsius a/e, tam multiplex detur g/h/ipsius e/b, & k/ipsius c. Suscipiatur rursum duplum ipsius d, vtpote l: postea triplum, sítq; illud m. & deinceps ita, vno semper adiūcto: quatenus resultet multiplex ipsius d, proximò maius ipso k, id est, quod inter multiplicia ipsius d/per continuam simplicis additionem consurgentia, primò incipiat excedere k: sítq; illud n/quadruplum ipsius d. Erit ergo k/multiplex, proximò minus ipso n: & proinde non minus ipso m.
 
 [Margin]
-24
+Primæ partis differētia prima.
 [/Margin]
 
-SI primum ad secundum eandem habuerit rationem, & tertium ad quartum, habuerit autem & quintum ad secundum eandem rationem & sextum ad quartum: & composita primùm & quintum ad secundum eandem habebunt rationem, & tertium & sextum ad quartum.
-
-ORONTIVS. ¶ Habeat primùm a/b/ad secundū c/eandem rationem, quam tertium d/e/ad quartam f: quintum rursus b/g/ad secundum c, eandem quoq; rationem habeat, quam sextum e/h/ad ipsum f/quartum. Aio, quòd & composita primū & quintum a/g, eandem rationem habebūt ad idem secundum c, quam tertium & sextum d/h/ad idem quartum f. Cùm enim sit ex hypothesi, vt b/g/ad c, sic e/h/ad f: & à conuersa itaq; ratione, erit vt c/ad b/g, sic f/ad e/h, per corollariū quartæ huius quinti. Præterea quoniam ex ipsa hypothesi, est sicut a/b/ad c, sic d/e/ad f: sicut rursum c/ad b/g, sic f/ad e/h. Et ex æquali igitur, sicut a/b/ad b/g, sic d/e/ad e/h: per vigesimāsecūdam huius quinti. Diuisæ itaq; magnitudines a/b, b/g, d/e, & e/h, sunt proportionales. Et compositæ igitur, per decimam octauam ipsius quinti, proportionales erunt: vt a/g/ad b/g, sic d/h/ad e/h. Receptum est autē, sicut b/g/ad c, sic e/h/ad f. Et ex æquali igitur, per eandem vigesimamsecundam quinti, sicut a/g/ad c, sic d/h/ad f. Ergo si primum ad secundum eandem habuerit rationem, & tertium ad quartum: & quæ sequuntur reliqua. Quod expediebat demonstrare.
-
-[Diagram: a b g / c e h / d f]
-
-[Diagram: a, b. c. b, g. — d, e. f. e,h.]
-
-[Diagram: a,g,b,c. — d,h,e,f.]
-
-## Θεώρημα κε, Πρόθεσις κε.
-
-Εαν τέσσαρα μεγέθη ἀνάλογον ᾖ, τὸ μέγιστον καὶ τὸ ἐλάχιστον, δύο τῶν λοιπῶν μείζονά ἐστιν.
-
-## Theorema 25, Propositio 25.
+¶ His ita constructis, quoniā æquè multiplex est f/g/ipsius a/e, vt g/h/ipsius e/b: quotuplex igitur est f/g/ipsius a/e, totuplex est f/h/ipsius a/b, per primā huius quinti. Sed quotuplex est f/g/ipsius a/e, totuplex est k/ipsius c. Et f/h/igitur tam multiplex est ipsius a/b, q̄ multiplex est k, ipsius c. Insuper quoniam æquè multiplex est g/h/ipsius e/b, vt k/ipsius c: & e/b/ipsi c/per cōstructionē est æqualis. quæ autē æqualiū sunt æquè multiplicia, æqualia sunt adinuicem, per sextam communem sententiam. Aequalis est igitur g/h/ipsi k. Verùm k/ipsa m/nō est minor, vti nuper ostensum est: & g/h/itaq; eadem m/non erit minor. Porrò f/g/data est maior ipsa d. & tota igitur f/h, binis d/& m/erit maior. Sunt autem d/& m/ipsi n/æquales. est enim n/quadruplum ipsius d, & m/triplum, vnà cum ipso d/efficiens quadruplum. Et f/h/igitur ipso n/maius est: nam idem, æqualium est æquè maius. Atqui f/h/& k, ipsarum a/b/& c, primæ inquàm & tertiæ magnitudinis sunt æquè multiplicia: n/verò vtcunq; multiplex ipsius d/secundam & quartam magnitudinem repræsentātis. & multiplex primæ excedit multiplex secundæ: at multiplex tertiæ non excedit multiplex quartæ. Prima igitur a/b/ad secundam d/maiorem rationem habet, quàm tertia c/ad quartam d: per octauam diffinitionem huius quinti.
 
 [Margin]
-25
+Demōstratio eiusdē primæ differentiæ.
 [/Margin]
 
-SI quatuor magnitudines proportionales fuerint, maxima & minima reliquis maiores erunt.
+[Diagram: f g h / a e b c / d k / l / m / n]
 
-<!-- Signature: m.j. -->
+¶ Quòd si a/e/fuerit maior e/b, multiplicetur iam ipsa e/b/minor, quatenus insurgat multiplex maius ipsa d/magnitudine: sítq; illud g/h. Quàm multiplex insuper est g/h/ipsius e/b, tā multiplex accipiatur f/g/ipsius a/e: & k/rursum ipsius c. Subsumatur præterea multiplex ipsius d, proximò maius ipso f/g: sítq; rursum n/quadruplum ipsius d. Haud dissimiliter ostende mus, totam f/h/ipsius a/b/fore totuplicē, quotuplex est g/h/ipsius e/b: & demum f/h/& k, ipsarum a/b/& c/æquè itidem fore multiplices. item g/h/æquari ipsi k. Et quoniam n/multiplex, proximo maius est f/g: non est igitur f/g, minus ipso m. Atqui g/h/maius est ipso d, per constructionem. totum igitur f/h, ipsis d/& m/maius est: & maius consequenter ipso n. Porrò k/non excedit ipsum n: est enim k, ipsi g/h/æquale, quod tam multiplex est ipsius minoris e/b, quàm multiplex est f/g/ipsius maioris a/e. quæ autem inæqualium sunt æquè multiplicia, sunt respondenter inæqualia. Et k/igitur, minus est ipso f/g: & ipso n/
+
+[Margin]
+Eiusdē primæ partis, differētia secunda.
+[/Margin]
+
+[Margin]
+Ostēsionis resolutio.
+[/Margin]
+
+[Diagram: f g h / a e b c / d k / l / m / n]
+
+<!-- Signature: l.j. -->

@@ -2,7 +2,7 @@
 
 ſuæ parti a/e/f/erit æqualis: quod per nonā cōmunē ſententiā eſt impoſſibile . Si in circulo igitur a/b/c/d/binæ rectæ lineæ a/c/& b/d,ſeſe inuicē ſecuerint nō per centrum extēſæ:ſeſe inuicē bifariā non ſecabunt. Quod oſtendere fuerat operæpretiū.
 
-Θεώρημα δ, Πρόθεσις ε.
+## Θεώρημα δ, Πρόθεσις ε.
 
 Ἐὰν δύο κύκλοι τέμνωσιν ἀλλήλους,οὐκ ἴσαι αὐτῶν ἔσονται τὸ αὐτὸ κέντρον.
 
@@ -18,7 +18,7 @@ Oſtenſio rurſum ab impoſſibili.
 
 [Diagram: b a d f c e]
 
-Θεώρημα ε, Πρόθεσις ς.
+## Θεώρημα ε, Πρόθεσις ς.
 
 Ἐὰν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐντὸς,οὐκ ἴσαι αὐτῶν τὸ αὐτὸ κέντρον.
 

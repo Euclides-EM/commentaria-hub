@@ -16,7 +16,7 @@ Demōstratur theorema.
 
 Cùm igitur e/a/ipsi e/m, & e/d/ipsi e/n, per circuli diffinitionē sit æqualis: tota a/d, binis m/e/& e/n, per secundam communem sententiā æquabitur. Binæ porrò m/e/& e/n/trianguli m/e/n, sunt maiores reliqua m/n, per vigesimā primi. & a/d/igitur, maior est eadem m/n: & ipsa consequenter b/c/ maior, per conuersam sextæ atq; septimæ communis sententiæ interpretationem. Rursum quoniam æqualis est e/m/ipsi e/f, & e/n/ipsi e/g: bina igitur latera m/e/& e/n/ trianguli m/e/n, binis lateribus f/e/& e/g/ trianguli f/e/g, sunt æqualia alterum alteri: & qui sub m/e/n/angulus, eo qui sub f/e/g/ maior (rectæ siquidem e/f/& e/g, coincidunt inter e/m/& e/n, ipsum angulū m/e/n/diuidentes) basis igitur m/n, per vigesimamquartā primi, basi f/g/maior est. Ipsi porrò m/n/æqualis est b/c. & b/c/igitur est eadem f/g/maior: quæ enim sunt æqualia, eiusdem sunt æquè maiora. ostensum est autem, quòd & a/d, ipsa b/c/ maior est. Dimetiens itaq; a/d, est omnium maxima: & b/c/centro vicinior, ipsa f/g/remotiore maior. Quod oportuit ostendisse.
 
-Θεώρημα ιε, Πρόθεσις. 15.
+## Θεώρημα ιε, Πρόθεσις ις.
 
 Η τῇ διαμέτρῳ τοῦ κύκλου πρὸς ὀρθὰς ἀπ᾽ ἄκρας ἀγομένη, ἐκτὸς πεσεῖται τοῦ κύκλου, καὶ εἰς τὸν μεταξὺ τόπον τῆς τε εὐθείας καὶ τῆς περιφερείας, ἑτέρα εὐθεῖα οὐ παρεμπεσεῖται. καὶ ἡ μὲν τοῦ ἡμικυκλίου γωνία, ἁπάσης ὀξείας γωνίας εὐθυγράμμου μείζων ἐστίν: ἡ δὲ λοιπή, ἐλάττων.
 

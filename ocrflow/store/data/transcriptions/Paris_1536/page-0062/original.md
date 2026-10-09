@@ -4,7 +4,7 @@
 
 rectis a/b/& a/d/comprehēsum rectangulum a/f,æquū est eis quæ ab insecta a/d/ & quolibet segmento a/c/ & c/b/continentur rectangulis : per primam huius secundi propositionem, hoc est rectangulis a/e/ & c/f. Atqui a/f/rectangulum, æquum est ei quod sub tota a/b,& segmento a/c/continetur: nam a/d/ipsi a/c/est æqualis, per trigesimam diffinitionem primi. A/e/porrò quadratū,quod ex eodem segmento a/c/describitur.Rectangulū deniq; c/f,æquū est ei quod sub a/c/& c/b/segmentis cótinetur:est enim c/e/eidē a/c,per ipsius quadrati diffinitionē æqualis. Si recta igitur linea a/b,vtcūq; secetur in puncto c:rectangulū sub tota a/b,& altero segmentorum a/c/cōprehensum,æquū est ei quod sub a/c/& c/b/ segmentis fit rectangulo,& ei quod ex prædicto segmento a/c/ est quadrato. Quod ostendere oportebat.
 
-Θεώρημα δ', Πρόθεσις δ'.
+## Θεώρημα δ', Πρόθεσις δ'.
 
 Εὰν εὐθεῖα γραμμὴ τμηθῇ ὡς ἔτυχε,τὸ ἀπὸ τῆς ὅλης τετράγωνον ἴσον ἔσαι τοῖσε ἀπὸ τῶν τμημάτων τετραγώνοις, καὶ τῷ δὶς ὑπὸ τῶν τμημάτων περιεχομένῳ ὀρθογωνίῳ.
 

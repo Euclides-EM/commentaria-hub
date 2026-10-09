@@ -1,6 +1,6 @@
 # ΕΥΚΛΕΙΔΟΥ ΒΙΒΛΙΟΥ ΠΡΩΤΟΥ
 
-Πρόβλημα α, Πρόθεσις α.
+## Πρόβλημα α, Πρόθεσις α.
 
 Επὶ τῆς δοθείσης ευθείας πεπερασμένης, τρίγωνον ἰσόπλευρον σήσασθαι.
 
@@ -16,7 +16,7 @@ Ea o[illegible]a que hic proponuntur demõſtrantur conſtituuntur verum intelli
 
 ## Problema 1, Propoſitio 1.
 
-## SVper data linea recta terminata, triangulũ æquilaterum conſtituere
+SVper data linea recta terminata, triangulũ æquilaterum conſtituere
 
 [Margin]
 Nota propoſitiõis interpretationem.
@@ -42,13 +42,13 @@ Circulus eſt figura plana vna linea contenta que circũferentia appellatur ad q
 Que eidem equalia et ad inuicem ſunt equalia.
 [/Margin]
 
-Πρόβλημα β, Πρόθεσις β.
+## Πρόβλημα β, Πρόθεσις β.
 
 Πρὸς τῷ δοθέντι σημείῳ τῇ δοθείσῃ ευθείᾳ ἴσην ευθεῖαν θέσθαι.
 
 ## Problema 2, Propoſitio 2.
 
-## 2 AD datum punctũ, datæ rectę lineæ æquam rectã lineã ponere.
+2 AD datum punctũ, datæ rectę lineæ æquam rectã lineã ponere.
 
 ORONTIVS. Sit datũ pũctũ a, data verò linea recta b/c: cui expedit, ad ipſum punctum a, æquam rectam lineam ponere. Ducatur itaque recta a/b, per primum poſtulatum: ſuper qua triangulum æquilaterum conſtituatur a/b/d, per primam propoſitionem. Et centro b, interuallo autẽ b/c, circulus deſcribatur c/e/f, per tertium poſtulatum. Atque per ſecũdum poſtulatum, producatur recta b/d/ in
 

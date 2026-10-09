@@ -12,7 +12,7 @@ rectilineum o/g/h,ipsi v/s/t : per nonam quinti. Eſt autẽ & eidem simile,simi
 
 [Diagram: | g/h | o/g | s/t | v/s |]
 
-Θεώρημα ιζ, Πρόθεσις κγ.
+## Θεώρημα ιζ, Πρόθεσις κγ.
 
 Τὰ ἰσογώνια παραλληλόγραμμα,πρὸς ἄλληλα λόγον ἔχῃ τὸν συγκείμενον ἐκ τῶν πλευρῶν.
 

@@ -38,7 +38,7 @@ ad inuicem sunt equales & productis equalibus rectis lineis qui sub basi sūt an
 
 Hinc manifestum est,triangulum æquilaterum tres angulos adinuicem æquales continere. Quoniam binatim sumpta latera, semper offenduntur æqualia: & duo quoq anguli omnifariam sumpti consequenter æquales.
 
-Θεώρημα γ, Πρόθεσις ς.
+## Θεώρημα γ, Πρόθεσις ς.
 
 Ἐὰν τριγώνου αἱ δύο γωνίαι ἴσαι ἀλλήλαις ὦσι,καὶ αἱ ὑπὸ τὰς ἴσας γωνίας ὑποτείνουσαι πλευραὶ ἴσαι ἀλλήλαις ἔσονται.
 

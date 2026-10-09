@@ -8,7 +8,7 @@ quòd vnuſquiſq; reliquorum angulorum qui ſub b/a/d, b/c/d, & a/d/c, bifariam
 Oſtenſio problematis, priori ſimilis.
 [/Margin]
 
-Πρόβλημα ι, Πρόθεσις ι.
+## Πρόβλημα ι, Πρόθεσις ι.
 Ἰσοσκελὲς τρίγωνον συστήσασθαι, ἔχον ἑκατέραν τῶν πρὸς τῇ βάσει γωνιῶν διπλασίονα τῆς λοιπῆς.
 
 ## Problema 10, Propoſitio 10.

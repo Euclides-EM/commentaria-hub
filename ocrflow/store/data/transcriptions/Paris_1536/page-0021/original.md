@@ -14,7 +14,9 @@ Hęc diffinitio,ex data nuper(cùm de planis loqueremur angulis)abstractiua circ
 
 Κέντρον δὲ τοῦ κύκλου,τὸ σημεῖον καλεῖται.
 
-## 16 Centrum verò ipsius circuli, punctum adpellatur.
+[Curated heading level=3 type=numbered_item: 16.]
+
+16 Centrum verò ipsius circuli, punctum adpellatur.
 
 [Margin]
 Centrū
@@ -28,7 +30,9 @@ De puncto medio velim intelligas: vt punctum a, in obiecta circuli figura b/c/d/
 
 Διάμετρος δὲ τοῦ κύκλου,ἐστὶν εὐθεῖά τις,διὰ τοῦ κέντρου ἠγμένη,καὶ περατουμένη ἐφ᾽ ἑκάτερα τὰ μέρη ὑπὸ τῆς τοῦ κύκλου περιφερείας,ἥτις καὶ δίχα τέμνει τὸν κύκλον.
 
-## 17 Dimetiens circuli,est recta quædam linea per centrum acta,& ex vtraque parte in circuli circunferētiam terminata, quæ circulum bifariam dispescit.
+[Curated heading level=3 type=numbered_item: 17.]
+
+17 Dimetiens circuli,est recta quædam linea per centrum acta,& ex vtraque parte in circuli circunferētiam terminata, quæ circulum bifariam dispescit.
 
 [Margin]
 Diameter
@@ -42,7 +46,9 @@ Dimetiētis à diagonio & axe differētia.
 
 Ἡμικύκλιον δέ,ἐστὶ τὸ περιεχόμενον σχῆμα ὑπό τε τῆς,διαμέτρου καὶ τῆς ἀπολαμβανομένης ὑπὸ τῆς τοῦ κύκλου περιφερείας.
 
-## 18 Semicirculus,est figura quæ sub dimetiente,& ea quæ ex ipsa circuli circunferentia sublata est,cōtinetur.
+[Curated heading level=3 type=numbered_item: 18.]
+
+18 Semicirculus,est figura quæ sub dimetiente,& ea quæ ex ipsa circuli circunferentia sublata est,cōtinetur.
 
 [Margin]
 Semicirculus
@@ -54,7 +60,9 @@ Vt ea figura , quæ ex f/h/ dimetiente , & dimidia circuli circunferentia f/ g/ 
 
 Τμῆμα κύκλου,ἐστὶ τὸ περιεχόμενον ὑπό τε εὐθείας καὶ κύκλου περιφερείας.
 
-## 19 Sectio circuli,est figura quæ sub recta linea,& circuli circunferentia aut maiore aut minore semicirculo,continetur.
+[Curated heading level=3 type=numbered_item: 19.]
+
+19 Sectio circuli,est figura quæ sub recta linea,& circuli circunferentia aut maiore aut minore semicirculo,continetur.
 
 [Margin]
 Sectio circuli

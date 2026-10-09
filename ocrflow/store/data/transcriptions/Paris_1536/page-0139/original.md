@@ -1,57 +1,49 @@
-<!-- Page number: 135 -->
+<!-- Running title: LIBER V. -->
 
-[Ornament: ornamental headpiece]
+<!-- Page number: 123 -->
 
-# Orontij Finei Delphinatis, Regii mathematicarvm professoris, In Sextum elementorum Euclidis, Demonstrationes.
+## Θεώρημα ι, Πρόθεσις ι.
 
-## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΕΚΤΟΝ.
+Των πρὸς τὸ αὐτὸ λόγον ἐχόντων, τὸ τὸν μείζονα λόγον ἔχον, ἐκεῖνο μεῖζόν ἐστι: πρὸς ὃ δὲ τὸ αὐτὸ μείζονα λόγον ἔχῃ, ἐκεῖνο ἔλαττόν ἐστιν.
 
-### Οροι ε.
-
-Ομοια σχήματα εὐθύγραμμα ἐστὶν, ὅσα τάς τε γωνίας ἔχῃ κατὰ μίαν, καὶ τὰς περὶ τὰς ἴσας γωνίας πλευρὰς, ἀνάλογον.
-
-## ¶ Diffinitiones 5.
+## Theorema 10, Propositio 10.
 
 [Margin]
-1
+10
 [/Margin]
 
-SImiles figuræ sunt, quæ & angulos æquales habēt ad vnum, & quæ circa angulos æquales sunt latera proportionalia.
+AD eandem rationem habentium, maiorem rationem habens, illa maior est: ad quam autem eadem maiorem rationem habet, illa minor est.
 
-Vtpote, si fuerint bina triangula a/b/c, & d/e/f/inuicem æquiangula: fuerítque angulus qui ad a/æqualis angulo qui ad d, & qui ad b/est angulus ei qui ad e, atque is qui ad c/angulo qui ad f/respōdenter æqualis. sítque insu per vt a/b/latus ad b/c, sic d/e/ad e/f: vtq̃; b/c/ad c/a, sic e/f/ad f/d: atque demum sicut c/a/ad a/b, sic f/d/ad d/e. Huiuscemodi nanque triangula, similia nuncupamus: etiam si fuerint inæqualia.
-
-[Diagram: a b c, d e f]
-
-¶ Αντιπεπονθότα δὲ σχήματά ἐστιν, ὅταν ἑκατέρῳ τῶν σχημάτων ἡγούμενοί τε καὶ ἑπόμενοι λόγοι ὦσιν.
+ORONTIVS. ¶ Sint rursum a/& b/magnitudines ad eandem magnitudinē c/comparatæ: habeátq; a/ad c/maiorem rationem, quàm b/ad eandem c. Dico quod a, ipsa b/maior est. Quoniam si non fuerit maior: vel erit æqualis ipsi b, vel eadem minor. Aequalis porrò non est a/ipsi b: haberēt enim a/& b/eandem rationem ad c/magnitudinem, per primam partem septimæ propositionis huius quinti. quod aduersatur hypothesi. Non est igitur a, æqualis ipsi b. Haud dissimiliter ostēdetur, quòd neq; minor est a/ipsa b: quoniam a/magnitudo, minorem rationem haberet ad c/magnitudinem, quàm ipsa b/ad eandem c, per primam partem octauæ propositionis eiusdem quinti. habet autem a, maiorem rationem, quàm b/ad eandem c/per hypothesin. Haberet igitur a/ad c/maiorem & minorem rationem, quàm b/ad ipsam c. Quod non est possibile. Itaque a/non est minor b: neque eidem (vti nunc ostendimus) æqualis. Et a/igitur, ipsa b/maior est. ¶ Quòd si eadem magnitudo c, maiorem rationem habuerit ad b/quàm ad a: dico rursum, a/fore maiorem ipsa b. Non erit enim a/ipsi b/æqualis: quoniā c/ad a, eandem rationem haberet quā ad b, per secundam partē præallegatæ septimæ propositionis. Habet autē c, maiorē ratiōnē ad a, q̄ ad b, ex hypothesi. quæ simul stare non possunt. Non est igitur a, ipsi b/æqualis. Neq; etiā minor: tunc enim c/ad ipsam a/maiorē rationē haberet, q̄ ad b, per secundā partē ipsius octauæ propositionis huius quinti. Habet autē c/minorē rationem ad a, q̄ ad b, ex ipsa hypothesi. Haberet itaq; c/minorem simul atq; maiorē rationem ad a, quàm ad b. quod videtur impossibile. Igitur a/non est minor ipsa b. ostēsum est, quòd nec eidē æqualis. Maior est itaq; rursum a/ipsa b. Ad eandem ergo rationem habentiū: & quæ sequuntur reliqua. Quod oportuit demonstrasse.
 
 [Margin]
-2
+Prima theorematis pars.
 [/Margin]
-
-Reciprocæ autem figuræ sunt, quando in vtraq; figura antecedētes & consequentes termini rationales fuerint.
-
-De rectilineis videtur intelligere figuris. quemadmodùm si duorum rectilineorum & æquiangulorum a/b/c/& d/b/e, angulū qui sub a/b/& b/c, ei qui sub d/b/& b/e/cōtinetur æqua lem habētium: fuerit sicut latus a/b/ad latus b/d, sic latus e/b/ad latus b/c: aut sicut a/b/ad b/e, sic d/b/ad b/c. Tali nanq; modo fit antecedentium & consequentium terminorum, hoc est comparatorum adinuicem laterū, quæ circum æquales angulos, reflexa proportio, reciprocáve rationum similitudo: dicūtúrque eiuscemodi figuræ, cùm adinuicem comparantur, reciprocæ.
-
-[Diagram: a b c d e]
-
-¶ Ακρον καὶ μέσον λόγον εὐθεῖα τετμῆσθαι λέγεται, ὅταν ᾖ ὡς ἡ ὅλη πρὸς τὸ μεῖζον τμῆμα, οὕτως τὸ μεῖζον πρὸς τὸ ἔλασσον.
 
 [Margin]
-3
+Partis secundæ demōstratio.
 [/Margin]
 
-Per extremam & mediam rationē, recta linea diuidi dicitur: quādo fuerit sicut tota ad maius segmentum, sic maius ad minus.
+[Diagram: b a / c]
 
-Vtpote, si data recta linea a/b/diuidatur in puncto c: fuerítque vt tota a/b/ad segmentum maius b/c, sic idem segmen tum b/c, ad reliquum c/a.
+## Θεώρημα ια, Πρόθεσις ια.
 
-[Diagram: a c b]
+Οι τῷ αὐτῷ λόγοι οἱ αὐτοὶ, καὶ ἀλλήλοις εἰσὶν οἱ αὐτοί.
 
-¶ Υψος ἐστὶ, πάντος σχήματος ἡ ἀπὸ τῆς κορυφῆς ἐπὶ τὴν βάσιν κάθετος ἀγομένη.
+## Theorema 11, Propositio 11.
 
 [Margin]
-4
+11
 [/Margin]
 
-Altitudo est, vniuscuiusque figuræ à vertice ad basin perpendicularis deducta.
+QVæ eidem sunt eædem rationes, & adinuicem sunt eædem.
 
-<!-- Signature: m.ij. -->
+ORONTIVS. ¶ Sint eidem rationi quæ a/ad b, eædem rationes quæ c/ad d/& e/ad f. Aio quòd rationes c/ad d/& e/ad f, sunt eædem adinuicem: sicut quidem c/ad d, sic e/ad f. Accipiantur enim ipsarum antecedentium a,c,e, æquè multiplicia g/h/k: ipsarū autē consequētium b,d,f, alia quæuis æquè multiplicia l,m,n. Cùm igitur ex hypothesi a/ad b/eandem habeat rationem, quam c/ad d, & ipsarum a/& c, primæ inquā & tertiæ magnitudinis, sumpta sint æquè multiplicia g, h, secundæ rursum & quartæ, vtpote ipsarum b/& d/alia itidem æquè multiplicia l, m: igitur si g/excedit l, & h/proportionaliter excedit m, & si æquale, æquale: si autem minus, itidem proportionaliter minus, per sextæ diffinitionis huius quinti conuersionem. Insuper quoniam per ipsam hypothesin, sicut a/ad b, ita e/ad f, & ipsarum a/& b, primæ
+
+[Margin]
+Discursus æquè multiplicium.
+[/Margin]
+
+[Diagram: g a b l — h c d m — k e f n]
+
+<!-- Signature: l.ij. -->

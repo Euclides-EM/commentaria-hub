@@ -6,7 +6,7 @@ eosdem deniq; fines b/ & c/vel e/ & f/primis rectis lineis possidentes, altera a
 Super eadem recta linea duabus ijsdem rectis lineis alie due recte lineæ equales altera alteri nó constituuntur ad aliud atq; aliud punctú ad easdem partes eosdem fines primis rectis lineis possidentes.
 [/Margin]
 
-Πρόβλημα δ, Πρόθεσις θ.
+## Πρόβλημα δ, Πρόθεσις θ.
 
 Τὴν δοθεῖσαν γωνίαν εὐθύγραμμον δίχα τεμεῖν.
 
@@ -26,7 +26,7 @@ ORONTIVS. ¶Esto datus rectilineus angulus a/b/c:quem oporteat bifariam secare.S
 Si bina triangula duo latera duobus lateribus [illegible] altera alteri equalia habuerint basim quoq; basi equalem angulum quoq; sub equalibus rectis lineis contentum equalem habebunt.
 [/Margin]
 
-Πρόβλημα ε, Πρόθεσις ι.
+## Πρόβλημα ε, Πρόθεσις ι.
 
 Τὴν δοθεῖσαν εὐθεῖαν πεπερασμένην δίχα τεμεῖν.
 

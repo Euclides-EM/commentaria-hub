@@ -8,7 +8,9 @@ Exempli gratia, trianguli a/ b/ c/ altitudo erit a/ d/ recta linea, ab a/ vertic
 
 Λόγος ἐκ λόγων συγκεῖσθαι λέγεται, ὅταν αἱ τῶν λόγων πηλικότητες ἐφ' ἑαυτὰς πολλαπλασιασθεῖσαι, ποιῶσι τινάς.
 
-## Ratio ex duabus rationibus, aut ex pluribus cōstare dicitur: quādo rationū quātitates multiplicatæ, aliquam efficiunt quātitatem.
+[Curated heading level=3 type=numbered_item: 5.]
+
+Ratio ex duabus rationibus, aut ex pluribus cōstare dicitur: quādo rationū quātitates multiplicatæ, aliquam efficiunt quātitatem.
 
 [Margin]
 De cōpositione rationum, interpretatio notanda.

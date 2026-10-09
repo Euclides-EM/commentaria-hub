@@ -6,7 +6,7 @@
 
 æquale: cōmune scilicet b/d, quod sub vno æqualium subtenditur angulorum. Reliqua itaque latera, reliquis lateribus habebunt æqualia alterum alteri, per vigesimamsextam primi. Aequalis est igitur d/e, ipsi d/f: & proinde d/g, ipsi d/f/itidem æqualis. Hinc per primam communē sententiam, d/e/atque d/g, inuicem æquales erunt. Tres igitur d/e, d/f, atque d/g, æquales sunt adinuicem. Centro igitur d, interuallo autem d/e, aut d/f, aut d/g, circulus describatur e/f/g, per tertium postulatum. Transibit ergo circulus ipse, per eadem puncta e, f, g: tangéntque propterea eundem circulum e/f/g, ipsa a/b, b/c, & c/a, dati a/b/c/trianguli latera, per decimæsextæ tertij corollarium: excitantur enim ad rectos angulos, ab ipsorum dimetientium d/e, d/f, & d/g, extremitatibus. Circulus autem in figura rectilinea describi dicitur: quando circuli circunferentia, vnumquodque latus eius in qua describitur tangit, per quintam huius quarti diffinitionē. In dato itaque triangulo a/b/c, circulus describitur e/f/g. Quod oportuit fecisse.
 
-Πρόβλημα ε, Πρόθεσις ε.
+## Πρόβλημα ε, Πρόθεσις ε.
 Περὶ τὸ δοθὲν τρίγωνον κύκλον περιγράψαι.
 
 ## Problema 5, Propositio 5.

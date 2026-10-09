@@ -8,7 +8,7 @@ Demóstratio ab impossibili
 
 [Diagram: a c b e d]
 
-Θεώρημα η, Πρόθεσις ιε.
+## Θεώρημα η, Πρόθεσις ιε.
 
 Ἐὰν δύο εὐθεῖαι τέμνωσιν ἀλλήλας, τὰς κατὰ κορυφὴν γωνίας ἴσας ἀλλήλαις ποιήσουσιν.
 
@@ -24,7 +24,7 @@ ORONTIVS.¶Secent se adinuicem binæ rectæ lineæ a/b,& c/d,in púcto quidem e:
 
 ¶Hinc manifestum est,quotlibet rectas lineas in eodem púcto sese adinuicem intersecantes,angulos efficere quatuor rectis æquales.
 
-Θεώρημα θ, Πρόθεσις ις.
+## Θεώρημα θ, Πρόθεσις ις.
 
 Παντὸς τριγώνου μιᾶς τῶν πλευρῶν ἐκβληθείσης,ἡ ἐκτὸς γωνία, ἑκατέρας τῶν ἐντὸς καὶ ἀπ' ἐναντίον μείζων ἐστί.
 

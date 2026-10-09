@@ -2,7 +2,7 @@
 
 # Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Secundum elementorum Euclidis, Demonstrationes.
 
-ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΔΕΥΤΕΡΟΝ.
+# ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΔΕΥΤΕΡΟΝ.
 
 Παραλληλόγραμμον ὀρθογώνιον.
 

@@ -20,7 +20,7 @@ Cur tales aſſumpti gnomones.
 
 in demonſtrationibus parallelogrammorum expeditiorem expreſſionem, principaliter excogitata.
 
-Θεώρημα α, Πρόθεσις α.
+## Θεώρημα α, Πρόθεσις α.
 
 ΕΑν ὦσι δύο εὐθεῖαι, τμηθῇ δὲ ἡ ἑτέρα αὐτῶν, εἰς ὅσα δηποτοῦν τμήματα, τὸ περιεχόμενον ὀρθογώνιον ὑπὸ τῶν δύο εὐθειῶν ἴσον ἐστὶ τοῖς ὑπό τε τῆς ἀτμήτου καὶ ἑκάστου τῶν τμημάτων περιεχομένοις ὀρθογωνίοις.
 

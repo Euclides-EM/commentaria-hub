@@ -12,7 +12,7 @@ Vti ſubiectæ circuli ſectiones a/b/c/ & d/e/f:in quibus anguli qui ad b/& e,�
 
 [Diagram: b a c / e d f]
 
-Πρόβλημα α, Πρόθεσις α.
+## Πρόβλημα α, Πρόθεσις α.
 
 Τοῦ δοθέντος κύκλου τὸ κέντρον εὑρεῖν.
 

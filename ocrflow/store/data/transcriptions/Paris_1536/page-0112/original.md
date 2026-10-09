@@ -16,7 +16,7 @@ baſi f/b, concludetur æqualis. Et proinde f/c, æqualis eidem f/b. Hinc per pr
 
 ¶Ex his, & trigeſimaprima tertij fit manifeſtum, quòd dùm f/centrum circuli cadit intra datum a/b/c/triangulum: angulus qui ad b/recto minor eſt, nempe in ſegmẽto ſemicirculo maiori conſiſtens. Dùm autem cadit in latus b/c: angulus ipſe qui ad b, in ſemicirculo eſt, & proinde rectus. Quãdo verò centrũ ipſum cadit extra datũ triangulum: idem angulus qui ad b/recto maior eſt, vtpote in ſegmento ſemicirculo minori cõſtitutus. Hinc verſa vice ſequitur, quòd in oxygonijs triãgulis circũſcribendi circuli centrũ cadit intra datum triangulum: in rectangulis verò, in medium ſubtenſi lateris: in amblygonijs deniq; triãgulis, extra ipſum triangulũ datum.
 
-Πρόβλημα ς, Πρόθεσις ς.
+## Πρόβλημα ς, Πρόθεσις ς.
 Εἰς τὸν δοθέντα κύκλον τετράγωνον ἐγγράψαι.
 
 ## Problema 6, Propoſitio 6.

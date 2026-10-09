@@ -14,7 +14,7 @@ Secũda pars conuersa primæ.
 
 ¶Sed detur vt id quod sub a/b/ & e/continetur rectangulum,æquũ sit ei quod ex c/d/fit quadrato.Aio respondenter,fore sicut a/b/ad c/d,sic c/d/ad e.Eisdem nanq; veluti suprà conſtructis: quoniã id quod sub a/b/& e/ continetur rectangulum,æquũ eſt ei per hypothesin quod ex c/d/fit quadrato.Sed ei quod sub a/b/& e/continetur rectangulo,æquum eſt rectangulum a/f,(æqualis siquidem eſt b/f/ipsi e,per conſtructionem) & c/g, id quod ex c/d/fit quadratum.Aequum eſt igitur a/f/rectangulum ipsi quadrato c/g. Quadratum porrò c/g/sub duabus rectis lineis c/d/& d/g, per primam diffinitionem secũdi cótinetur.Quatuor itaq; sunt rectæ lineæ a/b,c/d,d/g,& b/f:& quod sub extremis a/b/& b/f/rectangulum continetur, æquum eſt ei quod sub medijs c/d/& d/g/ comprehenditur rectangulo . Proportionales itaque sunt eædem quatuor rectæ lineæ,per secũdam partem ipsius antecedentis decimæsextæ propositionis:sicut a/b/ ad c/d,sic d/g/ad b/f.Sed e/ipsi b/f/per conſtructionem eſt æqualis : & c/d/ipsi d/g, per quadrati diffinitionem.æquales porrò ad eandem,eandem habent rationem,& eædem ad æquales,per septimam quinti.Eſt igitur vt a/b/ad c/d, sic eadem c/d/ ad e. Si tres itaq; rectæ lineæ proportionales fuerint:&c.vt in theoremate.Quod demonſtrandum receperamus.
 
-Πρόβλημα 5, Πρόθεσις ιη.
+## Πρόβλημα ς, Πρόθεσις ιη.
 
 Απὸ τῆς δοθείσης εὐθείας,τῷ δοθέντι εὐθυγράμμῳ ὅμοιόντε καὶ ὁμοίως κείμενον εὐθύγραμμον ἀναγράψαι.
 

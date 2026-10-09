@@ -8,7 +8,9 @@ gnitudinibus datis h/l/ & k/m, æquales auferantur l/ & m, quæ relinquentur h/ 
 
 Καὶ τὰ τῦ αὐτῦ διπλάσια, ἴσα ἀλλήλοις ἐστίν.
 
-## Quæ eiuſdem duplicia ſunt, adinuicem ſunt æqualia. 6
+[Curated heading level=3 type=numbered_item: 6.]
+
+Quæ eiuſdem duplicia ſunt, adinuicem ſunt æqualia. 6
 
 [Margin]
 Cõmunis ſentẽtia p ratione maioris inæqualitatis.
@@ -22,7 +24,9 @@ Hoc eſt, quę eiuſdem ſunt æquè multiplicia, vel æquè ſuperparticularia,
 
 Καὶ τὰ τῦ αὐτῦ ἥμισυ, ἴσα ἀλλήλοις ἐστί.
 
-## Et quæ eiuſdem ſunt dimidium, æqualia ſunt adinuicem. 7
+[Curated heading level=3 type=numbered_item: 7.]
+
+Et quæ eiuſdem ſunt dimidium, æqualia ſunt adinuicem. 7
 
 [Margin]
 cõ. ſententia, pro ratiõe minoris inæqualitatis.
@@ -36,19 +40,25 @@ quæcũq̃ eiuſdẽ ſunt ęquè ſubmultiplicia, aut ſubſuperparticularia, v
 
 Καὶ τὰ ἐφαρμόζοντα ἐπ' ἄλληλα, ἴσα ἀλλήλοις ἐστίν.
 
-## Et quæ ſibimet ipſis conueniunt, æqualia ſunt adinuicem. 8
+[Curated heading level=3 type=numbered_item: 8.]
+
+Et quæ ſibimet ipſis conueniunt, æqualia ſunt adinuicem. 8
 
 Vtpote, ſi duę rectę lineę in limitib⁹, duæve ſuperficies in terminis, ſeu laterib⁹ & angulis, & quę ſunt ſimilia ſimilibus ex õni parte cõueniãt: ea oportet adinuicẽ ęquari, & ecõtrario.
 
 Καὶ τὸ ὅλον μεῖζον τῦ μέρους ἐστί.
 
-## Totum eſt ſua parte maius. 9
+[Curated heading level=3 type=numbered_item: 9.]
+
+Totum eſt ſua parte maius. 9
 
 Adde quòd & æquale ſuis partibus integralibus, id eſt quæ ſimul ſumptæ ipſum totum videntur integrare.
 
 Καὶ δύο ευθεῖαι χωρίον ὀυ περιέχουσι.
 
-## Duæ rectæ lineæ ſuperficiem non concludunt. 10
+[Curated heading level=3 type=numbered_item: 10.]
+
+Duæ rectæ lineæ ſuperficiem non concludunt. 10
 
 Prius q̃ enim ſuperficiẽ cõcludere valerẽt: operępretiũ eſſet, gemina pũcta vtriuſq̃ datarũ linearũ terminos limitãtia mutuo cõuenire. Duæ itaq̃ lineę rectę, à dato pũcto in datũ punctũ producerentur: coinciderẽt igitur in vnã atq̃ eandem lineam rectã, ſuperficiem concludere non valentes. quẽadmodum ex ijs quę quarta prædiximus diffinitione fit manifeſtum.
 

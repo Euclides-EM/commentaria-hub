@@ -4,4 +4,4 @@
 
 Secundi Libri Geometricorum Elementorum
 
-# FINIS.
+FINIS.

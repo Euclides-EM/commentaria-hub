@@ -4,7 +4,7 @@
 
 Haud dissimiliter oſtendemus , reliquos angulos ipsius a/ b/ c/ rectilinei, reliquis angulis ipsius d/e/f/fore inuicem æquales: & circum eosdem æquales angulos latera proportionalia.Simile eſt itaq; a/b/c/rectilineũ,ipsi rectilineo d/e/f, per primam huius sexti diffinitionem.Quod oportebat demonſtrare.
 
-Θεώρημα ις, Πρόθεσις κβ.
+## Θεώρημα ις, Πρόθεσις κβ.
 
 Εὰν τέσσαρες εὐθεῖαι ἀνάλογον ὦσι,καὶ τὰ ἀπ᾽ αὐτῶν εὐθύγραμμα ὅμοιάτε καὶ ὁμοίως ἀναγεγραμμένα,ἀνάλογον ἔσαι . κἂν τὰ ἀπ᾽ αὐτῶν εὐθύγραμμα ὅμοιάτε καὶ ὁμοίως ἀναγεγραμμένα ἀνάλογον ᾖ,καὶ αὐταὶ αἱ εὐθεῖαι ἀνάλογον ἔσονται.
 

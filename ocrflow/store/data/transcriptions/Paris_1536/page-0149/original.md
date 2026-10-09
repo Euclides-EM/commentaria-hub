@@ -1,49 +1,39 @@
 <!-- Running title: LIBER V. -->
 
-<!-- Page number: 123 -->
+<!-- Page number: 133 -->
 
-## Θεώρημα ι, Πρόθεσις ι.
+sic k/ad m, per quartam huius quinti propositionem. Ostensum est autem, quòd sicut g/ad h, sic m/ad n. Sunt itaque g,h,l, tres magnitudines, & k,m,n, aliæ eisdem æquales numero, cum duabus in eadem ratione perturbatim coassumptis: sicut quidem g/ad h, sic m/ad n, sicut rursum h/ad l, sic k/ad m. Ergo si g/fuerit maior l, erit ex æquali k/maior n: & si æqualis, æqualis: si autem minor, itidem minor, per vigesimamprimam huius quinti. Porrò g,k/sunt æquè multiplices ipsarum a,d, primæ & tertiæ magnitudinis (seruato illationis ordine) l/autem & n/secundæ & quartæ, hoc est ipsarum c,f/æquè rursum multiplices, per constructionem. Est igitur vt prima a/ad secundam c, sic tertia d/ad quartam f: per sextam eiusdem quinti diffinitionem. Si fuerint igitur tres magnitudines, aliæq́; eisdem æquales: &c. vt in theoremate. Quod oportuit ostendisse.
 
-Των πρὸς τὸ αὐτὸ λόγον ἐχόντων, τὸ τὸν μείζονα λόγον ἔχον, ἐκεῖνο μεῖζόν ἐστι: πρὸς ὃ δὲ τὸ αὐτὸ μείζονα λόγον ἔχῃ, ἐκεῖνο ἔλαττόν ἐστιν.
+## Θεώρημα κδ, Πρόθεσις κδ.
 
-## Theorema 10, Propositio 10.
+Εαν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, καὶ τρίτον πρὸς τέταρτον, ἔχῃ δὲ καὶ πέμπτον πρὸς δεύτερον τὸν αὐτὸν λόγον, καὶ ἕκτον πρὸς τέταρτον, καὶ συντεθὲν πρῶτον καὶ πέμπτον πρὸς δεύτερον, τὸν αὐτὸν ἕξει λόγον, καὶ τρίτον καὶ ἕκτον πρὸς τέταρτον.
 
-[Margin]
-10
-[/Margin]
-
-AD eandem rationem habentium, maiorem rationem habens, illa maior est: ad quam autem eadem maiorem rationem habet, illa minor est.
-
-ORONTIVS. ¶ Sint rursum a/& b/magnitudines ad eandem magnitudinē c/comparatæ: habeátq; a/ad c/maiorem rationem, quàm b/ad eandem c. Dico quod a, ipsa b/maior est. Quoniam si non fuerit maior: vel erit æqualis ipsi b, vel eadem minor. Aequalis porrò non est a/ipsi b: haberēt enim a/& b/eandem rationem ad c/magnitudinem, per primam partem septimæ propositionis huius quinti. quod aduersatur hypothesi. Non est igitur a, æqualis ipsi b. Haud dissimiliter ostēdetur, quòd neq; minor est a/ipsa b: quoniam a/magnitudo, minorem rationem haberet ad c/magnitudinem, quàm ipsa b/ad eandem c, per primam partem octauæ propositionis eiusdem quinti. habet autem a, maiorem rationem, quàm b/ad eandem c/per hypothesin. Haberet igitur a/ad c/maiorem & minorem rationem, quàm b/ad ipsam c. Quod non est possibile. Itaque a/non est minor b: neque eidem (vti nunc ostendimus) æqualis. Et a/igitur, ipsa b/maior est. ¶ Quòd si eadem magnitudo c, maiorem rationem habuerit ad b/quàm ad a: dico rursum, a/fore maiorem ipsa b. Non erit enim a/ipsi b/æqualis: quoniā c/ad a, eandem rationem haberet quā ad b, per secundam partē præallegatæ septimæ propositionis. Habet autē c, maiorē ratiōnē ad a, q̄ ad b, ex hypothesi. quæ simul stare non possunt. Non est igitur a, ipsi b/æqualis. Neq; etiā minor: tunc enim c/ad ipsam a/maiorē rationē haberet, q̄ ad b, per secundā partē ipsius octauæ propositionis huius quinti. Habet autē c/minorē rationem ad a, q̄ ad b, ex ipsa hypothesi. Haberet itaq; c/minorem simul atq; maiorē rationem ad a, quàm ad b. quod videtur impossibile. Igitur a/non est minor ipsa b. ostēsum est, quòd nec eidē æqualis. Maior est itaq; rursum a/ipsa b. Ad eandem ergo rationem habentiū: & quæ sequuntur reliqua. Quod oportuit demonstrasse.
+## Theorema 24, Propositio 24.
 
 [Margin]
-Prima theorematis pars.
+24
 [/Margin]
+
+SI primum ad secundum eandem habuerit rationem, & tertium ad quartum, habuerit autem & quintum ad secundum eandem rationem & sextum ad quartum: & composita primùm & quintum ad secundum eandem habebunt rationem, & tertium & sextum ad quartum.
+
+ORONTIVS. ¶ Habeat primùm a/b/ad secundū c/eandem rationem, quam tertium d/e/ad quartam f: quintum rursus b/g/ad secundum c, eandem quoq; rationem habeat, quam sextum e/h/ad ipsum f/quartum. Aio, quòd & composita primū & quintum a/g, eandem rationem habebūt ad idem secundum c, quam tertium & sextum d/h/ad idem quartum f. Cùm enim sit ex hypothesi, vt b/g/ad c, sic e/h/ad f: & à conuersa itaq; ratione, erit vt c/ad b/g, sic f/ad e/h, per corollariū quartæ huius quinti. Præterea quoniam ex ipsa hypothesi, est sicut a/b/ad c, sic d/e/ad f: sicut rursum c/ad b/g, sic f/ad e/h. Et ex æquali igitur, sicut a/b/ad b/g, sic d/e/ad e/h: per vigesimāsecūdam huius quinti. Diuisæ itaq; magnitudines a/b, b/g, d/e, & e/h, sunt proportionales. Et compositæ igitur, per decimam octauam ipsius quinti, proportionales erunt: vt a/g/ad b/g, sic d/h/ad e/h. Receptum est autē, sicut b/g/ad c, sic e/h/ad f. Et ex æquali igitur, per eandem vigesimamsecundam quinti, sicut a/g/ad c, sic d/h/ad f. Ergo si primum ad secundum eandem habuerit rationem, & tertium ad quartum: & quæ sequuntur reliqua. Quod expediebat demonstrare.
+
+[Diagram: a b g / c e h / d f]
+
+[Diagram: a, b. c. b, g. — d, e. f. e,h.]
+
+[Diagram: a,g,b,c. — d,h,e,f.]
+
+## Θεώρημα κε, Πρόθεσις κε.
+
+Εαν τέσσαρα μεγέθη ἀνάλογον ᾖ, τὸ μέγιστον καὶ τὸ ἐλάχιστον, δύο τῶν λοιπῶν μείζονά ἐστιν.
+
+## Theorema 25, Propositio 25.
 
 [Margin]
-Partis secundæ demōstratio.
+25
 [/Margin]
 
-[Diagram: b a / c]
+SI quatuor magnitudines proportionales fuerint, maxima & minima reliquis maiores erunt.
 
-## Θεώρημα ια, Πρόθεσις ια.
-
-Οι τῷ αὐτῷ λόγοι οἱ αὐτοὶ, καὶ ἀλλήλοις εἰσὶν οἱ αὐτοί.
-
-## Theorema 11, Propositio 11.
-
-[Margin]
-11
-[/Margin]
-
-QVæ eidem sunt eædem rationes, & adinuicem sunt eædem.
-
-ORONTIVS. ¶ Sint eidem rationi quæ a/ad b, eædem rationes quæ c/ad d/& e/ad f. Aio quòd rationes c/ad d/& e/ad f, sunt eædem adinuicem: sicut quidem c/ad d, sic e/ad f. Accipiantur enim ipsarum antecedentium a,c,e, æquè multiplicia g/h/k: ipsarū autē consequētium b,d,f, alia quæuis æquè multiplicia l,m,n. Cùm igitur ex hypothesi a/ad b/eandem habeat rationem, quam c/ad d, & ipsarum a/& c, primæ inquā & tertiæ magnitudinis, sumpta sint æquè multiplicia g, h, secundæ rursum & quartæ, vtpote ipsarum b/& d/alia itidem æquè multiplicia l, m: igitur si g/excedit l, & h/proportionaliter excedit m, & si æquale, æquale: si autem minus, itidem proportionaliter minus, per sextæ diffinitionis huius quinti conuersionem. Insuper quoniam per ipsam hypothesin, sicut a/ad b, ita e/ad f, & ipsarum a/& b, primæ
-
-[Margin]
-Discursus æquè multiplicium.
-[/Margin]
-
-[Diagram: g a b l — h c d m — k e f n]
-
-<!-- Signature: l.ij. -->
+<!-- Signature: m.j. -->

@@ -12,7 +12,7 @@ Deductio theorematis.
 
 ex a d & d c, eis quæ fiunt ex a b & b c quadratis ſunt æqualia, & ei quod bis ſub d b & b c continetur rectangulo. Quadratis rurſum quæ ex a d & d c, æquum eſt quadratum quod ex a c, per eandem quadrageſimamſeptimam primi. Quod igitur ex a c fit quadratum, æquū eſt eis quæ ex a b & b c fiunt quadratis, & comprehenſo bis ſub d b & b c rectangulo. Superat igitur deſcriptum ex a c quadratum, ea quæ ex a b & b c fiunt quadrata: cóprehenſo bis ſub d b & b c rectāgulo. In obtuſiangulis igitur, ſeu amblygonijs triangulis: & quæ ſequuntur reliqua. Quod oportuit oſtendiſſe.
 
-Θεώρημα ιβ, Πρόθεσις ιγ.
+## Θεώρημα ιβ, Πρόθεσις ιγ.
 
 ΕΝ τοῖς ὀξυγωνίοις τριγώνοις τὸ ἀπὸ τῆς τὴν ὀξεῖαν γωνίαν ὑποτεινούσης πλευρᾶς τετράγωνον ἔλαττόν ἐστι τῶν ἀπὸ τῶν τὴν ὀξεῖαν γωνίαν περιεχουσῶν πλευρῶν τετραγώνων, τῷ περιεχομένῳ δὶς ὑπό τε μιᾶς τῶν περὶ τὴν ὀξεῖαν γωνίαν ἐφ᾽ ἣν ἡ κάθετος πίπτει, καὶ τῆς ἀπολαμβανομένης ἐντὸς ὑπὸ τῆς καθέτου πρὸς τῇ ὀξείᾳ γωνίᾳ.
 

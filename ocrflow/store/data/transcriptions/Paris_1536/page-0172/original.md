@@ -20,7 +20,7 @@ Aequiangulum insuper est e/f/g/triangulum, ipsi triangulo a/b/c. Aequiangulorum 
 
 Aequiangulum est itaque e/f/g/h/ rectilineum, ipsi rectilineo a/b/c/d. Patuit, quòd & latera quæ circū æquales sunt angulos, cum eodem habet proportionalia: sicut a/b/ad b/c, sic e/f/ad f/g: sicut item b/c/ad c/d, sic f/g/ ad g/h: & sicut c/d/ad d/a, sic g/h/ad h/e: sicut denique d/a/ad a/b, sic h/e/ad e/f. Simile est itaq; rectilineum e/f/g/h, ipsi rectilineo a/b/c/d, atq; similiter positū: per primā huius sexti diffinitionem. Super data igitur recta linea e/f, dato rectilineo a/b/c/d, simile similitérq; positum rectilineum descriptū est e/f/g/h. Quod fecisse oportuit.
 
-Θεώρημα ιγ, Πρόθεσις ιθ.
+## Θεώρημα ιγ, Πρόθεσις ιθ.
 ΤΑ ὅμοια τρίγωνα, πρὸς ἄλληλα ἐν Διπλασίονι λόγῳ ἐστὶ τῶν ὁμολόγων πλευρῶν.
 
 ## Theorema 13, Propositio 19.

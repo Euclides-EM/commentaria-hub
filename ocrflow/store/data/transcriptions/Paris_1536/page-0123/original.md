@@ -24,11 +24,13 @@ Ipsæ autē magnitudines, termini tunc vocitātur: illa quidē quæ alteri refer
 Quota seu multiplicatiua pars.
 [/Margin]
 
-### ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΠΕΜΠΤΟΝ.
+# ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΠΕΜΠΤΟΝ.
 
 ¶Μέρος ἐστὶ μέγεθος μεγέθους, τὸ ἔλασσον τοῦ μείζονος, ὅταν καταμετρῇ τὸ μεῖζον.
 
-## 1 Pars est magnitudo magnitudinis minor maioris, quando minor metitur maiorem.
+[Curated heading level=3 type=numbered_item: 1.]
+
+1 Pars est magnitudo magnitudinis minor maioris, quando minor metitur maiorem.
 
 Vtpote, binis magnitudinibus datis, quarum altera bipedalis, altera verò sextupedalis existat, quoniam bipedalis ter sumpta, seu per tria multiplicata, sextupedalem metitur magnitudinē: idcirco bipedalis magnitudo, pars est ipsius sextupedalis magnitudinis, & tertia pars eiusdem sextupedalis peculiari discretione vocatur.
 
@@ -44,7 +46,9 @@ Multiplex.
 
 ¶Πολλαπλάσιον δὲ τὸ μεῖζον τοῦ ἐλάσσονος, ὅταν καταμετρῆται ὑπὸ τοῦ ἐλάσσονος.
 
-## 2 Multiplex autem, maior minore, quando eam metitur minor.
+[Curated heading level=3 type=numbered_item: 2.]
+
+2 Multiplex autem, maior minore, quando eam metitur minor.
 
 Vt in præassumpto nuper exēplo, sextupedalis magnitudo multiplex dicitͬ ipsius bipedalis
 

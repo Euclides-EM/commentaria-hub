@@ -10,7 +10,7 @@ Demōstratio
 
 pūcto c. Connectatur demū a/c, per idem primū postulatū. Dico q a/c, contingit circulū/b/c/d. Cū enim per circuli diffinitionē, æqualis sit a/e/ipsi e/f, & b/e/ipsi e/c: erunt bina latera a/e/& e/c/triāguli a/e/c, æqualia duobus f/e/ & e/b/trianguli f/e/b: & communē comprehendunt angulum qui ad e. Basis igitur a/c/basi f/b, & triangulum a/e/c/triangulo f/e/b, & reliqui anguli reliquis angulis (sub quibus æqualia subtenduntur latera) per quartam primi coæquantur. æqualis est igitur angulus a/c/e, angulo e/b/f. Angulus porrò e/b/f/rectus est: igitur & qui sub a/c/e/rectus. Et quoniā e/c/semediameter est ipsius b/c/d/circuli, & ab illius dimetientis extremitate c, eadem a/c/ad rectos excitata est angulos: ipsa ergo a/c/tangit circulum b/c/d, per corollariū decimæsextæ huius tertij. Igitur à dato puncto a, dato b/c/d/circulo, contingentem rectam lineam duximus. Quod facere oportebat.
 
-Θεώρημα ις, Πρόθεσις ιη.
+## Θεώρημα ις, Πρόθεσις ιη.
 
 Εαν κύκλου ἐφάπτηταί τις εὐθεῖα, ἀπὸ δὲ τοῦ κέντρου ἐπὶ τὴν ἁφὴν ἐπιζευχθῇ τις εὐθεῖα: ἡ ἐπιζευχθεῖσα, κάθετος ἔσται ἐπὶ τὴν ἐφαπτομένην.
 
@@ -26,7 +26,7 @@ ORONTIVS. ¶Sit datus circulus a/b/c, quem tangat recta linea d/e, in puncto qui
 
 [Diagram: a b c d e f g]
 
-Θεώρημα ιζ, Πρόθεσις ιθ.
+## Θεώρημα ιζ, Πρόθεσις ιθ.
 
 Εαν κύκλου ἐφάπτηταί τις εὐθεῖα, ἀπὸ δὲ τῆς ἁφῆς τῇ ἐφαπτομένῃ πρὸς ὀρθὰς γωνίας εὐθεῖα γραμμὴ ἀχθῇ, ἐπὶ τῆς ἀχθείσης ἔσται τὸ κέντρον τοῦ κύκλου.
 

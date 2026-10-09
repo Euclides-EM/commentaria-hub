@@ -1,6 +1,6 @@
 <!-- Running title: LIBER I. -->
 
-Θεώρημα κε, Πρόθεσις λε.
+## Θεώρημα κε, Πρόθεσις λε.
 
 ΤΑ παραλληλόγραμμα, τὰ ἐπὶ τῆς αὐτῆς βάσεως ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστί.
 
@@ -34,7 +34,7 @@ Tertia differentia.
 
 triangulū a c e, triāgulo b d f, veluti ſuprà mōſtrabitur, æquale. Q₂ ſi vtriq; æqualium angulorū, addatur cómune trapeziū e b c d: reſultabit iterum a b c d parallelográmum, eidem parallelogrāmo c d e f, per ſecundā cómunem ſententiā æquale. Igitur parallelogrāma in eadem baſi, & in eiſdem parallelis exiſtentia, adinuicem ſunt æqualia. Quod erat oſtendendum.
 
-Θεώρημα κς, Πρόθεσις λς.
+## Θεώρημα κς, Πρόθεσις λς.
 
 ΤΑ παραλληλόγραμμα τὰ ἐπὶ τῶν ἴσων βάσεων ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστί.
 

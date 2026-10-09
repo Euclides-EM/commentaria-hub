@@ -1,6 +1,6 @@
 # Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Tertium elementorum Euclidis, Demonſtrationes.
 
-## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΤΡΙΤΟΝ.
+# ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΤΡΙΤΟΝ.
 
 Ὅροι.
 

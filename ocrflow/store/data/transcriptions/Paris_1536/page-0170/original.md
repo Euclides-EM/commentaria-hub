@@ -18,7 +18,7 @@ Secundæ partis conuersæ prioris,oſtensio.
 
 ¶Eſto nunc vt ipsum g/b/ sub extremis comprehensum rectangulum,æquum sit h/d/rectangulo,quod sub medijs c/d/& e/ continetur.Dico versa vice, quatuor ipsas rectas lineas fore inuicem proportionales. Eadem nanque manente conſtructione, quoniam g/b/ eſt id quod sub a/b/ & a/g,ipsum verò h/d/id quod sub c/d/& c/h/continetur rectangulum,per primã diffinitionẽ secundi:& e/ipsi c/h,atq; f/ipsi a/g, per conſtructionem æqualis. Eſt itaq; g/b/id quod sub a/b/& f, necnon & h/d/ id quod sub c/d/& e/comprehenditur rectangulum.Sed id quod sub a/b/& f/cóprehenditur rectangulum,æquum eſt ei per hypothesin quod sub c/d/& e/continetur rectangulo.Aequũ eſt igitur g/b/rectangulum,ipsi rectãgulo h/d:& angulus qui ad a/angulo qui ad c/æqualis,per quartũ poſtulatũ,nempe rectus recto. Aequalium porrò & vnum vni æqualem habẽtium angulum parallelogrammorũ,reciproca sunt latera quæ circum æquales angulos, per primam partem ipsius decimæquartæ huius sexti.Et sicut igitur a/b/ad c/d,sic c/h/ad a/g.Ipsi porrò c/h/æqualis eſt e,& f/ipsi a/g,per ipsam conſtructionẽ: æquales præterea ad eandem,eandem habent rationem,& eadem ad æquales,per septimam quinti.Eſt igitur vt a/b/ad c/d,sic e/ad f. Si quatuor itaque rectæ lineæ proportionales fuerint:& quæ sequuntur reliqua. Quod erat oſtendendum.
 
-Θεώρημα ιβ, Πρόθεσις ιζ.
+## Θεώρημα ιβ, Πρόθεσις ιζ.
 
 Εὰν τρεῖς εὐθεῖαι ἀνάλογον ὦσι , τὸ ὑπὸ τῶν ἄκρων περιεχόμενον ὀρθογώνιον,ἴσον ἐστὶ τῷ ἀπὸ τῆς μέσης τετραγώνῳ. καὶ ἐὰν τὸ ὑπὸ τῶν ἄκρων περιεχόμενον ὀρθογώνιον,ἴσον ᾖ τῷ ἀπὸ τῆς μέσης τετραγώνῳ,αἱ τρεῖς εὐθεῖαι ἀνάλογον ἔσονται.
 

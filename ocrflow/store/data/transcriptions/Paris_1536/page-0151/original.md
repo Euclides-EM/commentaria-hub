@@ -1,38 +1,57 @@
-<!-- Running title: LIBER V. -->
+<!-- Page number: 135 -->
 
-<!-- Page number: 125 -->
+[Ornament: ornamental headpiece]
 
-| g. | l. | g,h,k. | l, m, n. |
-| --- | --- | --- | --- |
-| a. | b. | a,c, e. | b, d, f. |
-| prima. | secunda. | tertia. | quarta. |
+# Orontij Finei Delphinatis, Regii mathematicarvm professoris, In Sextum elementorum Euclidis, Demonstrationes.
 
-magnitudo, hoc est g/ipsius a, totuplices sunt & omnes g/h/k, omniū a/c/e, per primā eiusdem quinti. Et proinde quotuplex est l/ipsius b, totuplices sunt l/m/n/ipsarum b/d/f. Sunt itaque g/& g/h/k, ipsarū a/& a/c/e, hoc est, primæ & tertiæ magnitudinis æquè multiplicia: l/autem/& l/m/n/secūdæ. b/& tertiæ b/d/f, æquè itidē multiplicia. Et ostēsum est, q̄ si g/multiplex excedit l, excedit & g/h/k/proportionaliter ipsum l/m/n: etsi æquale, æquale: si verò minus, itidem proportionaliter minus. Est igitur per sextam huius quinti diffinitionem, sicut a/ad b, sic a/c/e/composita ad b/d/f/compositam: hoc est, sicut vna antecedentium ad vnam consequentium, sic omnes antecedentes ad omnes consequentes. Quod demonstrandum susceperamus.
+# ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΕΚΤΟΝ.
 
-[Margin]
-Sūmaria theorematis ostēsio.
-[/Margin]
+Ὅροι ε.
 
-## Θεώρημα ιγ, Πρόθεσις ιγ.
+Ομοια σχήματα εὐθύγραμμα ἐστὶν, ὅσα τάς τε γωνίας ἔχῃ κατὰ μίαν, καὶ τὰς περὶ τὰς ἴσας γωνίας πλευρὰς, ἀνάλογον.
 
-Εαν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, καὶ τρίτον πρὸς τέταρτον, τρίτον δὲ πρὸς τέταρτον μείζονα λόγον ἔχῃ, ἤπερ πέμπτον πρὸς ἕκτον: καὶ πρῶτον πρὸς δεύτερον μείζονα λόγον ἕξει, ἤπερ πέμπτον πρὸς ἕκτον.
-
-## Theorema 13, Propositio 13.
+## ¶ Diffinitiones 5.
 
 [Margin]
-13
+1
 [/Margin]
 
-SI prima ad secundam eandem habuerit rationem, & tertia ad quartam, tertia autem ad quartam maiorem rationē habeat quàm quinta ad sextam: prima quoque ad secundam maiorem rationem habebit, quàm quinta ad sextam.
+SImiles figuræ sunt, quæ & angulos æquales habēt ad vnum, & quæ circa angulos æquales sunt latera proportionalia.
 
-ORONTIVS. ¶ Habeat enim prima magnitudo a/ad secundam b/eandem rationem, quam tertia c/ad quartam d: ipsa porrò tertia c/ad eandem quartam d/maiorem rationē habeat, quàm e/quinta ad f/sextam magnitudinem. Aio quòd & a/prima magnitudo ad secundam b/maiorem itidem rationem habebit, quàm ipsa e/quinta ad eandem sextam f. Multiplicetur enim vtraque ipsarum a, b: sintq́; earundem a,b, vtcunq; multiplicia g,h, sed g/maius ipso h. potest enim a/toties multiplicari, quousq; multiplex ipsius a/superet multiplex eiusdem b. Quàmmultiplex insuper est g/ipsius a, tam multiplex detur k/ipsius c, & l/ipsius e. Rursum q̄ multiplex est h/ipsius b, tam multiplex esto m/ipsius d, & n/ipsius f. Cùm igitur a/ad b/eandem rationē habeat, quam c/ad d, sintq́; g/& k/primæ & tertiæ æquè multiplicia, h/autem & m/secundæ & quartæ æquè itidem multiplicia: si g/itaque excedit h, excedit & k/ipsum m, per sextæ diffinitionis huius quinti cōuersionem. Atqui g/superat h, per constructionem: & k/igitur superat m. Rursum quoniā c/ad d/maiorem rationem habet, q̄ e/ad f, & ipsarū c/& e/primæ inquàm & tertiæ magnitudinis, æquè multiplicia sunt k,l, secūdæ porrò d/& quartæ f/alia vtcunq; æquè multiplicia m, n: si k/igitur excedit m, non excedit l/ipsum n, per conuersionem octauæ diffinitionis eiusdem quinti. Porrò k (vti nunc ostensum est) excedit m: & l/igitur non excedit n. Excedit autem & g/ipsum h, suntq́; g/& l/ipsarum a/& e, hoc est, primæ & tertiæ magnitudinis æquè multiplicia, per constructionem: h/rursum & n/ipsarū b/& f, vtpote secundæ & quartæ alia vtcunque æquè multiplicia: & g/multiplex primæ excedit multiplex secundæ, l/autem multiplex tertiæ nō excedit n/multiplex quartæ. prima igitur a/ad secundam b/maiorem rationem habet, quàm e/tertia ad quartam f, per octauam huius quinti
+Vtpote, si fuerint bina triangula a/b/c, & d/e/f/inuicem æquiangula: fuerítque angulus qui ad a/æqualis angulo qui ad d, & qui ad b/est angulus ei qui ad e, atque is qui ad c/angulo qui ad f/respōdenter æqualis. sítque insu per vt a/b/latus ad b/c, sic d/e/ad e/f: vtq̃; b/c/ad c/a, sic e/f/ad f/d: atque demum sicut c/a/ad a/b, sic f/d/ad d/e. Huiuscemodi nanque triangula, similia nuncupamus: etiam si fuerint inæqualia.
+
+[Diagram: a b c, d e f]
+
+¶ Αντιπεπονθότα δὲ σχήματά ἐστιν, ὅταν ἑκατέρῳ τῶν σχημάτων ἡγούμενοί τε καὶ ἑπόμενοι λόγοι ὦσιν.
 
 [Margin]
-Discurs⁹ multiplicium ad theorematis illationē nos perducentiū.
+2
 [/Margin]
 
-[Diagram: g h k m l n]
+Reciprocæ autem figuræ sunt, quando in vtraq; figura antecedētes & consequentes termini rationales fuerint.
 
-[Diagram: a b c d e f]
+De rectilineis videtur intelligere figuris. quemadmodùm si duorum rectilineorum & æquiangulorum a/b/c/& d/b/e, angulū qui sub a/b/& b/c, ei qui sub d/b/& b/e/cōtinetur æqua lem habētium: fuerit sicut latus a/b/ad latus b/d, sic latus e/b/ad latus b/c: aut sicut a/b/ad b/e, sic d/b/ad b/c. Tali nanq; modo fit antecedentium & consequentium terminorum, hoc est comparatorum adinuicem laterū, quæ circum æquales angulos, reflexa proportio, reciprocáve rationum similitudo: dicūtúrque eiuscemodi figuræ, cùm adinuicem comparantur, reciprocæ.
 
-<!-- Signature: l.iij. -->
+[Diagram: a b c d e]
+
+¶ Ακρον καὶ μέσον λόγον εὐθεῖα τετμῆσθαι λέγεται, ὅταν ᾖ ὡς ἡ ὅλη πρὸς τὸ μεῖζον τμῆμα, οὕτως τὸ μεῖζον πρὸς τὸ ἔλασσον.
+
+[Margin]
+3
+[/Margin]
+
+Per extremam & mediam rationē, recta linea diuidi dicitur: quādo fuerit sicut tota ad maius segmentum, sic maius ad minus.
+
+Vtpote, si data recta linea a/b/diuidatur in puncto c: fuerítque vt tota a/b/ad segmentum maius b/c, sic idem segmen tum b/c, ad reliquum c/a.
+
+[Diagram: a c b]
+
+¶ Υψος ἐστὶ, πάντος σχήματος ἡ ἀπὸ τῆς κορυφῆς ἐπὶ τὴν βάσιν κάθετος ἀγομένη.
+
+[Margin]
+4
+[/Margin]
+
+Altitudo est, vniuscuiusque figuræ à vertice ad basin perpendicularis deducta.
+
+<!-- Signature: m.ij. -->

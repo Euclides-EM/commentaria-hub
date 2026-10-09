@@ -8,7 +8,7 @@ vigesimamprimam huius tertij:sunt enim in eodem segmẽto b/a/d/c. Angulo rursum
 
 [Diagram: b c a d]
 
-Θεώρημα κα, Γρόθεσις κγ.
+## Θεώρημα κα, Πρόθεσις κγ.
 
 Επὶ τῆς ἀυτῆς ἐυθείασ' δύο τμήματα κύκλωρ ὅμοια καὶ ἄνισα, ὀυ συσαθήσονται ἐπὶ τὰ ἀυτὰ μέρη.
 
@@ -20,7 +20,7 @@ ORONTIVS. ¶Super eadem nanque recta linea a/c, binæ & inæquales circulorum se
 
 [Diagram: a b d c]
 
-Θεώρημα κβ, Γρόθεσις κδ.
+## Θεώρημα κβ, Πρόθεσις κδ.
 
 Τὰ ἐπὶ ἴσωρ ἐυθειῶρ ὅμοια τμήματα κύκλωρ, ἴσα ἀλλήλοις ἐσίρ
 

@@ -2,7 +2,7 @@
 
 Binæ igitur a/e/ & e/b/trianguli a/e/b, duabus b/e/ & e/c/trianguli b/e/c coæquãtur: & æquos inuicẽ continent angulos, nẽpe rectos qui ad centrũ e. Baſis igitur a/b, baſi b/c, per quartã primi eſt æqualis. Et proinde a/d/ & d/c, tum inuicẽ, tum vtriq; ipſarũ a/b/ & b/c, oſtendentur æquales. Aequilaterum eſt itaq; a/b/c/d/ quadrilaterum. Inſuper, quoniam a/c, dimetiens eſt ipſius dati circuli: vterque propterea angulorũ qui ad b/ & qui ad d, eſt in ſemicirculo, & proinde rectus, per trigeſimamprimã tertij. Et per eandem, qui ad a/ & c/ſunt anguli, itidem recti: dimetiens enim eſt b/d. Rectangulum eſt igitur ipſum a/b/c/d/quadrilaterum. Patuit quòd & æquilaterũ: ergo quadratũ, per trigeſimã ipſius primi diffinitionẽ. In dato igitur circulo a/b/c/d, quadratum deſcribitur. Quod facere oportebat.
 
-Πρόβλημα ξ, Πρόθεσις ξ.
+## Πρόβλημα ζ, Πρόθεσις ζ.
 Περὶ τὸν δοθέντα κύκλον, τετράγωνον περιγράψαι.
 
 ## Problema 7, Propoſitio 7.

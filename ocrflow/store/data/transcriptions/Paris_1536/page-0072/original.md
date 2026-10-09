@@ -12,7 +12,7 @@ Hinc facilè colligitur,huiuſcemodi perpendicularem,in rectāgulis triangulis,n
 Notandum.
 [/Margin]
 
-Πρόβλημα β, Πρόθεσις ιδ.
+## Πρόβλημα β, Πρόθεσις ιδ.
 
 Τῷ δοθέντι εὐθυγράμμῳ ἴσον τετράγωνον συστήσασθαι.
 

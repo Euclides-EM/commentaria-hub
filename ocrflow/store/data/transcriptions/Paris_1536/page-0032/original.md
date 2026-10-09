@@ -28,7 +28,7 @@ Totum é sua parte maius.
 
 Atqui angulus a/c/d,angulo b/c/d/maior est, per nonam communem sententiam: recta enim b/c/ diuidit a/b/d/c/quadrilaterum, & angulum propterea a/c/d.Igitur & a/d/c/ angulus,eodé angulo b/c/d/ maior esset:& maior consequenter ipso b/d/c/angulo.angulus porrò a/d/c,est pars ipsius anguli b/d/c:recta nãq; a/d,diuidit eúdem b/d/c/angulum,atq; a/b/d/c/quadrilaterum.Pars itaq;,totum rursum excederet:quod ipsi nonæ communi videtur aduersari sententiæ.Idem etiam concludetur,vbi a/c/recta secuerit b/d:vbíve punctum d/ita seorsum locabitur,vt nulla subsequatur prædictarum linearú intersectio. quemadmodùm ex secunda figuræ dispositione deducere vel facilè potes, c/in d,atq; è diuerso permutato. Non sunt igitur a/c/& a/d/rectæ lineæ,neq; b/c/& b/d/adinuicem simul æquales.Super eadem ergo recta linea,duabus eisdem rectis lineis &c.vt in theoremate.Quod demonstrare oportebat.
 
-Θεώρημα ε, Πρόθεσις η,
+## Θεώρημα ε, Πρόθεσις η.
 
 Εὰν δύο τρίγωνα, τὰς δύο πλευρὰς ταῖς δυσὶ πλευραῖς ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, ἔχῃ δὲ καὶ τὴν βάσιν τῇ βάσει ἴσην, καὶ τὴν γωνίαν τῇ γωνίᾳ ἴσην ἕξει τὴν ὑπὸ τῶν ἴσων εὐθειῶν περιεχομένην.
 

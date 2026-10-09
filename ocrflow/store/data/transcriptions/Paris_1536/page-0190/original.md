@@ -13,9 +13,9 @@ Quotuplex est igitur circunferentia b/c/l, ipsius b/c/ circunferentiæ: totuplex
 
 ¶ Et proinde manifestum est, quòd veluti sector ad sectorẽ, sic per vndecimã quinti angulus ad angulum: vtrobique enim ratio offenditur, quæ circunferentiæ ad circunferentiam.
 
-# SEXTI LIBRI GEOMETRICOrum Elementorũ Euclidis Megarensis, Ex Orontij Finei Delphinatis, Regij Mathematicarum professoris, traditione,
+SEXTI LIBRI GEOMETRICOrum Elementorũ Euclidis Megarensis, Ex Orontij Finei Delphinatis, Regij Mathematicarum professoris, traditione,
 
-# FINIS.
+FINIS.
 
 Virescit vulnere virtus.
 

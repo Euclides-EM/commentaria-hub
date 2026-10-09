@@ -6,7 +6,9 @@
 Trilaterarũ figurarum ab angulis differentiæ.
 [/Margin]
 
-## 27 Amplius trilaterarum figurarum, rectangulum triangulum eſt, quod rectum angulum habet.
+[Curated heading level=3 type=numbered_item: 27.]
+
+27 Amplius trilaterarum figurarum, rectangulum triangulum eſt, quod rectum angulum habet.
 
 Vt iſoſceles b, vel ſcalenum triangulum e, proxima diffinitione deſcriptum.
 
@@ -16,7 +18,9 @@ Vt iſoſceles b, vel ſcalenum triangulum e, proxima diffinitione deſcriptum.
 Amblygoniũ
 [/Margin]
 
-## 28 Amblygonium autem, quod obtuſum angulum habet.
+[Curated heading level=3 type=numbered_item: 28.]
+
+28 Amblygonium autem, quod obtuſum angulum habet.
 
 Veluti antecedens iſoſceles d, ſcalenúmve triangulum g.
 
@@ -26,7 +30,9 @@ Veluti antecedens iſoſceles d, ſcalenúmve triangulum g.
 Oxygoniũ
 [/Margin]
 
-## 29 Oxygonium verò, quod tres habet acutos angulos.
+[Curated heading level=3 type=numbered_item: 29.]
+
+29 Oxygonium verò, quod tres habet acutos angulos.
 
 [Margin]
 Baſis triãguli
@@ -44,7 +50,9 @@ Quadrilaterarum figurarũ diſcrimina
 Quadratum eſt equilaterum et rectãgulũ
 [/Margin]
 
-## 30 Quadrilaterarum autem figurarum, quadratũ quidem eſt, quod & æquilaterum & rectangulum eſt.
+[Curated heading level=3 type=numbered_item: 30.]
+
+30 Quadrilaterarum autem figurarum, quadratũ quidem eſt, quod & æquilaterum & rectangulum eſt.
 
 [Margin]
 Radix quadrati.
@@ -60,7 +68,9 @@ Quatuor ſequẽtia ſunt parallelogrammata
 
 Επρόμηκες δὲ, ὃ ὀρθογώνιον μὲν ὀυκ ἰσόπλευρον δὲ.
 
-## 31 Altera parte longius, eſt quod rectangulum quidem, at æquilaterum non eſt.
+[Curated heading level=3 type=numbered_item: 31.]
+
+31 Altera parte longius, eſt quod rectangulum quidem, at æquilaterum non eſt.
 
 Quemadmodũ ſupraſcripa figura k, quoad angulorum rectitudinem conueniẽs cum ipſo quadrato, diſſidens autem ex parte laterum.
 
@@ -70,7 +80,9 @@ Quemadmodũ ſupraſcripa figura k, quoad angulorum rectitudinem conueniẽs cum
 Rhombus
 [/Margin]
 
-## 32 Rhombus, eſt quæ æquilatera, at rectangula non eſt.
+[Curated heading level=3 type=numbered_item: 32.]
+
+32 Rhombus, eſt quæ æquilatera, at rectangula non eſt.
 
 [Diagram: l m]
 
@@ -82,7 +94,9 @@ Cuiuſmodi eſt figura l. Cõuenit itaque rhombus cum ipſo quadrato, in ſola l
 Rhomboides
 [/Margin]
 
-## 33 Rhomboides verò, eſt quæ ex oppoſito latera & angulos habens æquales, neque æquilatera, neque rectangula eſt.
+[Curated heading level=3 type=numbered_item: 33.]
+
+33 Rhomboides verò, eſt quæ ex oppoſito latera & angulos habens æquales, neque æquilatera, neque rectangula eſt.
 
 [Margin]
 Parallelogramma.
@@ -96,6 +110,8 @@ Quemadmodùm ſuprà depicta figura m/ repræſentat. Súntque hæc omnia nuper 
 Trapezia
 [/Margin]
 
-## 34 Præter hæc autem reliqua quadrilatera, trapezia adpellantur.
+[Curated heading level=3 type=numbered_item: 34.]
+
+34 Præter hæc autem reliqua quadrilatera, trapezia adpellantur.
 
 <!-- Signature: a.iiij. -->

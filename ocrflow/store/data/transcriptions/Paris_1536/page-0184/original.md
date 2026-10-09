@@ -12,7 +12,7 @@ Præcipua demõstrationis resolutio.
 
 His ita præmissis, quoniam e/f/g/ parallelogrammum, ipsis c/& h/l/est æquale, & ipsum h/l/æquale ipsi m/n: reliquus proinde gnomon m/b/n, rectilineo c, per tertiã communẽ sententiam est æqualis. Rursum quoniam e/o/supplementum, æquum est o/g/supplemẽto, per quadragesimamtertiam primi: addatur vtriq; commune r/s. totum igitur e/s, toti r/g: per secundam communem sententiam est æquale. Sed eidem e/s, æquum est a/m, per trigesimamsextam primi: sunt enim a/m/& e/s, in basibus æqualibus, ac in eisdem parallelis. Et a/m, igitur ipsi r/g, per primam communem sententiam æquũ est. Adponatur rursum vtriq; commune e/o: totum igitur a/o, ipsi e/o/g/ aut m/b/n/ gnomoni, per eandem secundám communem sententiam est æquale. Eidem porrò gnomoni m/b/n, æquũ est rectilineum c: & quæ eidem æqualia, adinuicẽ sunt æqualia, per primam communẽ sententiam. Aequũ est igitur a/o/ parallelogrammum, ipsi rectilineo c: deficítq; specie (ad complendum a/s/parallelogrammum) ipso r/s/ parallelogrammo, quod simile est ipsi d. Ad datam itaque rectam lineam a/b, dato rectilineo c, æquum parallelogrammum comparauimus a/o, deficiens specie parallelogrammo r/s, dato parallelogrammo d/simili. Quod oportebat facere.
 
-Πρόβλημα θ, Πρόθεσις κθ.
+## Πρόβλημα θ, Πρόθεσις κθ.
 
 Παρὰ τὴν δοθεῖσαν εὐθεῖαν τῷ δοθέντι εὐθυγράμμῳ ἴσον παραλληλόγραμμον παραβαλεῖν, ὑπερβάλλον εἴδει παραλληλογράμμῳ ὁμοίῳ τῷ δοθέντι.
 

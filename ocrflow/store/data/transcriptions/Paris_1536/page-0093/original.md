@@ -16,7 +16,7 @@ Alia eiusdem theorematis ostensio.
 
 Exterior enim angulus qui ad f, trianguli c/f/b/ aut c/f/d, maior erit intrinseco & ex opposito qui ad e, per decimãsextã primi:ac eidem æqualis, per similiũ sectionũ diffinitionẽ, quod non est possibile. Congruit itaque circunferentia c/f/d, ipsi a/e/b: quemadmodùm & recta c/d/ipsi a/b. quæ autem sibimetipsis conueniunt, æqualia sunt adinuicem:per octauam cómunem sententiam. Aequalis est igitur sectio a/e/b, ipsi c/f/d. Igitur super æqualibus rectis lineis, similes circulorum sectiones cõstitutæ, sibi inuicem sunt æquales. Quod receperamus ostendendum.
 
-Γρόβλημα γ, Γρόθεσις κε.
+## Πρόβλημα γ, Πρόθεσις κε.
 
 Κύκλου τμήματος δοθέντ⊕, προσαναγράψαι τὸρ κύκλορ οὗπερ ἐςὶ τμῆμα.
 

@@ -2,7 +2,7 @@
 
 vnumquodque latus ipſius quadrati f/g/h/k, circunferentiam dati a/b/c/d/ circuli. Igitur per ſextam huius quarti diffinitionẽ, circa datum circulum a/b/c/d, quadratũ deſcribitur f/g/h/k. Quod faciendum receperamus.
 
-Πρόβλημα η, Πρόθεσις η.
+## Πρόβλημα η, Πρόθεσις η.
 Εἰς τὸ δοθὲν τετράγωνον, κύκλον ἐγγράψαι.
 
 ## Problema 8, Propoſitio 8.
@@ -21,7 +21,7 @@ Centri inſcribẽdi circuli inueſtigatio.
 Abſolutio pblematis.
 [/Margin]
 
-Πρόβλημα θ, Πρόθεσις θ.
+## Πρόβλημα θ, Πρόθεσις θ.
 Περὶ τὸ δοθὲν τετράγωνον, κύκλον περιγράψαι.
 
 ## Problema 9, Propoſitio 9.

@@ -12,7 +12,7 @@ quòd & g/h/d. Bini itaq; anguli e/g/b/& g/h/d, eidem a/g/h/sunt æquales: quapr
 
 ⁋ Quæ igitur in parallelas rectas lineas incidit, & in alteram perpendicularis existit: cum reliqua itidem cadit ad perpendiculum.
 
-Θεώρημα κα, Πρόθεσις λ.
+## Θεώρημα κα, Πρόθεσις λ.
 
 Αἱ τῇ αὐτῇ εὐθείᾳ παράλληλοι, καὶ ἀλλήλαις εἰσὶ παράλληλοι.
 
@@ -30,7 +30,7 @@ eiusdē vigesimænonæ propositionis. Duo itaq; anguli a/g/h/& h/k/d, hoc est, a
 
 ⁋ Quæ vni igitur parallelarum est parallela: alteri quoque parallela est.
 
-Πρόβλημα ι, Πρόθεσις λα.
+## Πρόβλημα ι, Πρόθεσις λα.
 
 Απὸ τοῦ δοθέντος σημείου, τῇ δοθείσῃ εὐθείᾳ παράλληλον εὐθεῖαν γραμμὴν ἀγαγεῖν.
 

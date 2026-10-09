@@ -4,7 +4,7 @@
 
 # Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Quartum elementorum Euclidis, Demonstrationes.
 
-## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΤΕΤΑΡΤΟΝ
+# ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΤΕΤΑΡΤΟΝ
 
 Περὶ τοῦ ἐγγράφεσθαι καὶ περιγράφεσθαι σχῆμα, ὅροι ζ.
 

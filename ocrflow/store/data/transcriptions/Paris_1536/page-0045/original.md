@@ -16,7 +16,7 @@ Demōstratio secūdę partis
 
 ctis æquales. Aio rursum, quòd & eadem a/b, ipsi c/d/est parallela. Anguli nanq; a/g/h/ & b/g/h, duobus itidem rectis æquátur, per decimamtertiam propositionē. Qui autē eisdem, vtpote binis rectis, sunt æquales anguli, & adinuicem sunt æquales: per primam communem sententiam. Duo itaque anguli a/g/h/& g/h/c, binis angulis a/g/h/& b/g/h/sunt æquales. A quibus subducto communi angulo a/g/h: reliquus b/g/h, reliquo & alterno angulo g/h/c/æquabitur: per tertiam communem sententiam. Parallela est igitur a/b/ ipsi c/d: per eandem vigesimamseptimam propositionem. Si in binas itaq; rectas lineas, recta incidens linea: &c. vt in theoremate. Quod demonstrare oportebat.
 
-Θεώρημα κ, Πρόθεσις κθ.
+## Θεώρημα κ, Πρόθεσις κθ.
 
 Η εἰς τὰς παραλλήλους εὐθείας εὐθεῖα ἐμπίπτουσα, τάς τε ἐναλλὰξ γωνίας ἴσας ἀλλήλαις ποιεῖ, καὶ τὴν ἐκτὸς τῇ ἐντὸς καὶ ἀπεναντίον, καὶ ἐπὶ τὰ αὐτὰ μέρη ἴσην καὶ τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη δυσὶν ὀρθαῖς ἴσας.
 

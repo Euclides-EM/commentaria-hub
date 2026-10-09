@@ -8,7 +8,9 @@ in b,circum idem punctum a,completè reuoluatur: describens planum circulare b/c
 
 Ἐπίπεδος δὲ γωνία,ἐστὶν ἡ ἐν ἐπιπέδῳ δύο γραμμῶν ἁπτομένων ἀλλήλων, καὶ μὴ ἐπ᾽ εὐθείας κειμένων πρὸς ἀλλήλας τῶν γραμμῶν κλίσις.
 
-## 8 Planus angulus,est duarum linearum in plano sese tangentium, & non in directo iacentium,ad alterutram inclinatio.
+[Curated heading level=3 type=numbered_item: 8.]
+
+8 Planus angulus,est duarum linearum in plano sese tangentium, & non in directo iacentium,ad alterutram inclinatio.
 
 [Margin]
 Planus angulus
@@ -18,7 +20,9 @@ Hæc autem inclinatio de rectis lineis potissimùm venit intelligenda: tales eni
 
 Ὅταν δὲ αἱ περιέχουσαι τὴν γωνίαν γραμμαὶ εὐθεῖαι ὦσιν,εὐθύγραμμος καλεῖται ἡ γωνία.
 
-## 9 Quando autem quæ angulum continent rectæ lineæ fuerint,rectilineus angulus nuncupatur.
+[Curated heading level=3 type=numbered_item: 9.]
+
+9 Quando autem quæ angulum continent rectæ lineæ fuerint,rectilineus angulus nuncupatur.
 
 [Margin]
 Angulus Rectilineus
@@ -45,7 +49,9 @@ Angulus, Rectus, Acutus, Obtusus.
 
 Ὅταν δὲ εὐθεῖα ἐπ᾽ εὐθεῖαν σταθεῖσα τὰς ἐφεξῆς γωνίας ἴσας ἀλλήλαις ποιῇ, ὀρθή ἐστιν ἑκατέρα τῶν ἴσων γωνιῶν.καὶ ἡ ἐφεστηκυῖα εὐθεῖα,κάθετος καλεῖται ἐφ᾽ ἣν ἐφέστηκεν.
 
-## 10 Cùm verò recta linea super rectam consistens lineam, vtrobique angulos adinuicem æquales fecerit:rectus est vterque æqualium angulorum.Et quæ superstat recta linea,perpendicularis vocitatur,super quam steterit.
+[Curated heading level=3 type=numbered_item: 10.]
+
+10 Cùm verò recta linea super rectam consistens lineam, vtrobique angulos adinuicem æquales fecerit:rectus est vterque æqualium angulorum.Et quæ superstat recta linea,perpendicularis vocitatur,super quam steterit.
 
 [Margin]
 Anguli recti diffinitio. Linea perpendicularis.

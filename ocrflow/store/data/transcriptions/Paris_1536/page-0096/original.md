@@ -6,7 +6,7 @@
 
 circunferentiæ e/f, æqualis est per hypothesin circunferentia b/c. & b/c/ igitur circunferentia, ipsi k/c, per primam communem sententiam erit æqualis:maior videlicet minori, totúmve suæ parti. quod per nonam cómunẽ sententiã est impossibile. Non est igitur angulus b/g/c, maior ipso e/h/f: similiter ostendemus, quòd neq; minor. Est igitur æqualis. Et quoniam per vigesimam huius tertij, angulus b/a/c, dimidius est eius qui ad centrum g:necnon & e/d/f/angulus, illius qui ad centrum h/dimidius. quæ autẽ eiusdem vel æqualium sunt dimidiũ, æqualia sunt adinuicem: per septimam communem sententiã. Et angulus igitur b/a/c, angulo e/d/f/est æqualis. In æqualibus ergo circulis, anguli qui super æquales circunferentias:& quæ sequuntur reliqua. Quod erat ostendendum.
 
-Θεώρημα κε, Γρόθεσις κη.
+## Θεώρημα κε, Πρόθεσις κη.
 
 Εν τοῖς ἴσοις κύκλοις αἱ ἴσαι ἐυθεῖαι, ἴσας περιφερείασ' ἀφαιρῶσι. τὴν μὲν μείζονα, τῇ μείζονι:τὴν δὲ ἐλάττονα, τῇ ἐλάττονι.
 
@@ -18,7 +18,7 @@ ORONTIVS. ¶Sint bini circuli a/b/c/d/& e/f/g/h/inuicem æquales, quorum centra 
 
 [Diagram: a k b d c — e l f h g]
 
-Θεώρημα κς, Γρόθεσις κθ.
+## Θεώρημα κς, Πρόθεσις κθ.
 
 Εν τοῖς ἴσοις κύκλοις ὑπὸ τὰς ἴσας περιφερείασ', ἴσαι ἐυθεῖαι ὑποτείνουσιν.
 

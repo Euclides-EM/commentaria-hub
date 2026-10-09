@@ -16,7 +16,7 @@ Resolutio demōstrationis priori similis.
 
 Cùm igitur a/f/sit æqualis f/b, & f/g/vtriq; communis: duo latera a/f/ & f/g/ trianguli a/f/g, duobus lateribus g/f/ & f/b/ trianguli g/f/b, sunt æqualia alterū alteri: & æquales inuicem continent angulos, vtpote rectos qui circa punctū f. Basis igitur a/g, basi g/b, per quartā primi est æqualis. Centro itaque g, interuallo autē g/a/vel g/b, describatur a/e/b/circulus, per tertium postulatū. trāsibit ergo circulus ipse, per limites datæ rectæ lineæ a/b. Hinc rursum quoniam recta a/d/ab extremitate dimetientis a/e/ad rectos excitata est angulos: tangit igitur a/d/ipsum a/e/b/circulum, per corollarium decimæsextæ huius tertij. Item quoniam a/d/recta tangit a/e/b/circulum, à cótactu autem extensa est a/b/recta, circulum dispescens: angulus igitur qui ad h/consistēs in alterno circuli segmento a/h/b, angulo b/a/d/sub contingente d/a/& extensa a/b/comprehenso, per trigesimamsecundam huius tertij est æqualis. Eidem quoq; angulo b/a/d, æquus est per constructionem angulus qui ad c. Qui igitur ad c/& h/puncta consistunt anguli, per primam communem sententiam, sunt inuicem æquales. Itaq; super data recta linea a/b, describitur sectio circuli a/h/b/capiens angulū qui ad h/æqualem dato angulo rectilineo qui ad c. Quod facere oportebat.
 
-Πρόβλημα ς, Πρόθεσις λδ.
+## Πρόβλημα ς, Πρόθεσις λδ.
 
 Απὸ τοῦ δοθέντος κύκλου, τμῆμα ἀφελεῖν δεχόμενον γωνίαν ἴσην τῇ δοθείσῃ γωνίᾳ εὐθυγράμμῳ.
 

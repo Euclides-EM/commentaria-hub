@@ -4,7 +4,7 @@
 
 proportionalis inter ipſius baſis ſegmenta:& vnumquodq; præterea laterū rectum continentium angulum , medium itidem proportionale eſt inter baſin & ſegmentum,quod cum ipſo congreditur latere.
 
-Πρόβλημα α, Πρόθεσις θ.
+## Πρόβλημα α, Πρόθεσις θ.
 
 ΤΗς δοθείσης εὐθείας,τὸ προσαχθὲν μέρος ἀφελεῖν.
 
@@ -24,7 +24,7 @@ Exequutio p̷blematis.
 
 [Diagram: a f b c d e]
 
-Πρόβλημα β, Πρόθεσις ι.
+## Πρόβλημα β, Πρόθεσις ι.
 
 ΤΗν δοθεῖσαν εὐθεῖαν ἄτμητον,τῇ δοθείσῃ εὐθείᾳ τετμημένῃ ὁμοίως τεμεῖν.
 

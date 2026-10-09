@@ -24,7 +24,7 @@ quinti. Auferantur vtrisque cómunes h/k, & m/n: vt reliqua igitur g/h/ad reliqu
 
 æquè multiplices: k/o/verò & n/p, ipsarum c/b/ & f/e, secundæ inquàm & quartæ magnitudinis æquè itidem multiplices. Prima igitur a/c, ad secundam c/b/eam rationem habet: quam tertia d/f, ad quartam f/e, per sextā huius quinti diffinitionē. Si compositæ itaque magnitudines proportionales fuerint, diuisæ quoque proportionales erunt. Quod susceperamus ostendendum.
 
-Θεώρημα ιη, Πρόθεσις ιη.
+## Θεώρημα ιη, Πρόθεσις ιη.
 
 EΑν διῃρημένα μεγέθη ἀνάλογον ᾖ, ὃ συντιθέντα ἀνάλογον ἔσαι.
 

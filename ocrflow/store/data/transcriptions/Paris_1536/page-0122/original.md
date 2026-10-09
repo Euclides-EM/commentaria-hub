@@ -32,4 +32,4 @@ Quòd descriptū quintidecagonum æquilaterū, sit æquiangulū.
 
 ¶Quòd si per singulas segmentorum & angulorum quintidecagoni distinctiones, rectæ ducātur lineæ circulum ipsum contingentes, & ad rectos angulos cum productis è centro semidiametris conuenientes: quintidecagonum æquilaterum & æquiangulum, circa datum circulū describetur. quemadmodùm duodecima huius quarti propositione, de circunscribendo tradidimus pentagono. ¶Haud dissimiliter, per ea quæ decimatertia & decimaquarta eiusdē quarti propositione, de pētagonis ostensa sunt: in dato quintidecagono æquilatero & æquiangulo, circulum describere, ac circunscribere licebit.
 
-## Quarti libri geometricorū elementorū, FINIS.
+Quarti libri geometricorū elementorū, FINIS.

@@ -20,7 +20,7 @@ Secunda pars siue differentia.
 
 ad f/e, sic d/h, ad h/e: vtrobique enim sicut a/c/ad c/b. Et quoniam prima d/f, minor est tertia d/h: erit rursum per ipsam decimamquartam eiusdem quinti, secunda f/e, minor quarta h/e. Supponitur autē maior: quæ simul stare non possunt. Non est ergo sicut a/b/ad b/c, sic d/e/ad minorē e/f. patuit quòd neq; ad maiorem. Et sicut igitur a/b/ad b/c, sic d/e, ad ipsam e/f. Itaque si diuisæ magnitudines proportionales fuerint: compositæ quoq; proportionales erunt. Quod ostendere fuerat operæpretiū.
 
-Θεώρημα ιθ, Πρόθεσις ιθ.
+## Θεώρημα ιθ, Πρόθεσις ιθ.
 
 EΑν ᾖ ὡς ὅλον πρὸς ὅλον, οὕτως ἀφαιρεθὲν πρὸς ἀφαιρεθέν, καὶ τὸ λοιπὸν πρὸς τὸ λοιπὸν ἔσαι, ὡς ὅλον πρὸς ὅλον.
 

@@ -4,7 +4,7 @@
 
 adinuicem æqualia sunt, per primam communem sententiam. Comprehensum igitur sub a/e/ & e/c/ rectangulum, vnà cum quadrato quod fit ex e/f: æquatur rectangulo, quod sub b/e/ & e/d/ continetur, ac ipsi quadrato quod fit ex e/f. Dempto itaq; cómuni quadrato quod ex e/f: reliquum sub a/e/ & e/c/ comprehensum rectangulum, reliquo quod sub b/e/ & e/d/ continetur rectangulo, per tertiam cómunem sententiã est æquale. Si igitur in circulo duæ rectæ lineæ se adinuicem secuerint: &c. vt in theoremate. Quod demonstrare oportebat.
 
-Θεώρημα λ, Πρόθεσις λς.
+## Θεώρημα λ, Πρόθεσις λς.
 
 Ἐὰν κύκλου ληφθῇ τι σημεῖον ἐκτὸς, καὶ ἀπ᾽ αὐτοῦ πρὸς τὸν κύκλον προσπίπτωσι δύο εὐθεῖαι, καὶ ἡ μὲν αὐτῶν τέμνῃ τὸν κύκλον, ἡ δὲ ἐφάπτηται: ἔσται τὸ ὑπὸ ὅλης τῆς τεμνούσης καὶ τῆς ἐκτὸς ἀπολαμβανομένης, μεταξὺ τοῦ τε σημείου καὶ τῆς κυρτῆς περιφερείας, περιεχόμενον ὀρθογώνιον ἴσον τῷ ἀπὸ τῆς ἐφαπτομένης τετραγώνῳ.
 

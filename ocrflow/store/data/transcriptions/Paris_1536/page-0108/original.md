@@ -28,7 +28,7 @@ Quanquàm hæc vltima diffinitio, tam de circuli dimetientibus, quàm de cæteri
 
 [Diagram: a b c, 7]
 
-Πρόβλημα α, Πρόθεσις α.
+## Πρόβλημα α, Πρόθεσις α.
 
 Εἰς τὸν δοθέντα κύκλον τῇ δοθείσῃ εὐθείᾳ μὴ μείζονι οὔσῃ τῆς τοῦ κύκλου διαμέτρου, ἴσην εὐθεῖαν ἐναρμόσαι.
 

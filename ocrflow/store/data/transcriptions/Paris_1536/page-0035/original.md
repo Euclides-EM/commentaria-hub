@@ -6,7 +6,7 @@ Recta ergo c/h/consistens super datã rectam lineã a/b,æquales vtrobiq; facit 
 Cum [illegible] recta linea super rectam consistens lineam [illegible]
 [/Margin]
 
-Θεώρημα ς, Πρόθεσις ιγ.
+## Θεώρημα ς, Πρόθεσις ιγ.
 
 Ὡς ἂν εὐθεῖα ἐπ' εὐθεῖαν σταθεῖσα γωνίας ποιῇ, ἤτοι δύο ὀρθὰς,ἢ δυσὶν ὀρθαῖς ἴσας ποιήσει.
 
@@ -20,7 +20,7 @@ ORONTIVS. ¶Incidat inquàm a/b/recta,super rectam c/d,efficiens angulos a/b/c/&
 
 [Diagram: abc. / ebc. abc. abc. / ebd. ebd. abd.]
 
-Θεώρημα ζ, Πρόθεσις ιδ.
+## Θεώρημα ζ, Πρόθεσις ιδ.
 
 Ἐὰν πρός τινι εὐθείᾳ καὶ τῷ πρὸς αὐτῇ σημείῳ, δύο εὐθεῖαι μὴ ἐπὶ τὰ αὐτὰ μέρη κείμεναι, τὰς ἐφεξῆς γωνίας δυσὶν ὀρθαῖς ἴσας ποιῶσιν,ἐπ' εὐθείας ἔσονται ἀλλήλαις αἱ εὐθεῖαι.
 

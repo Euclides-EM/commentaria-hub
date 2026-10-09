@@ -8,7 +8,7 @@ quadratis, ſunt per primam communem ſententiam æqualia: quorum id quod ex f/a
 Quòd idẽ circũſcriptũ pentagonum ſit æquiangulũ.
 [/Margin]
 
-Πρόβλημα ιγ, Πρόθεσις ιγ.
+## Πρόβλημα ιγ, Πρόθεσις ιγ.
 Εἰς τὸ δοθὲν πεντάγωνον, ὅ ἐστιν ἰσόπλευρόν τε καὶ ἰσογώνιον κύκλον, ἐγγράψαι.
 
 ## Problema 13, Propoſitio 13.

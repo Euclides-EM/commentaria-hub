@@ -2,7 +2,7 @@
 
 omne siquidem totum est sua parte maius, per nonam communem sententiã. Non cadit ergo parallela super a/d. patuit quòd nec infra. igitur ex a/in ipsum d. Triangula igitur æqualia: & quæ sequuntur reliqua. Quod oportuit ostendisse.
 
-Θεώρημα λ, Πρόθεσις μ.
+## Θεώρημα λ, Πρόθεσις μ.
 
 ΤΑ ἴσα τρίγωνα τὰ ὑπὸ τῶν ἴσων βάσεων ὄντα καὶ ὑπὸ τὰ αὐτὰ μέρη, καὶ ἐν ταῖς αὐταῖς παραλλήλοις ὅτι.
 
@@ -32,7 +32,7 @@ Concludendum ergo, triangula æqualia in æqualibus basibus existentia, & ad eas
 Notandum.
 [/Margin]
 
-Θεώρημα λα, Πρόθεσις μα.
+## Θεώρημα λα, Πρόθεσις μα.
 
 ΕΑν παραλληλόγραμμον τριγώνῳ βάσιν τε ἔχῃ τὴν αὐτὴν καὶ ἐν ταῖς αὐταῖς παραλλήλοις ᾖ, διπλάσιον ἴσαι τὸ παραλληλόγραμμον τοῦ τριγώνου.
 

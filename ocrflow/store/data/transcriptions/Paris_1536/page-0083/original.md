@@ -12,7 +12,7 @@ Hoc theorema aliter ostẽdi potest: sed hæc est demõstratio potissima.
 
 [Diagram: k a g e d h b f c l]
 
-Θεώρημα θ, Πρόθεσις ι.
+## Θεώρημα θ, Πρόθεσις ι.
 
 ΚΥκλος οὐ τέμνει κύκλον κατὰ πλείονα σημεῖα ἢ δύο.
 
@@ -28,7 +28,7 @@ Hæc rursum aliter potuisset ostẽdi, sed hanc potiorẽ existimo demõstration
 
 [Diagram: a b f d g c e]
 
-Θεώρημα ι, Πρόθεσις ια.
+## Θεώρημα ι, Πρόθεσις ια.
 
 ΕΑν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐντός, καὶ ληφθῇ αὐτῶν τὰ κέντρα, ἡ ἐπὶ τὰ κέντρα αὐτῶν ἐπιζευγνυμένη εὐθεῖα καὶ ἐκβαλλομένη, ἐπὶ τὴν συναφὴν πεσεῖται τῶν κύκλων.
 

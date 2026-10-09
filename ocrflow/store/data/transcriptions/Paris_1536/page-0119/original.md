@@ -22,7 +22,7 @@ sunt per cóstructionē adinuicem æquales. Basis igitur a/f, basi f/c, & angulu
 Problematis absoluta resolutio.
 [/Margin]
 
-Πρόβλημα ιδ, Πρόθεσις ιδ.
+## Πρόβλημα ιδ, Πρόθεσις ιδ.
 Περὶ τὸ δοθὲν πεντάγωνον, ὃ ἐστὶν ἰσόπλευρόν τε καὶ ἰσογώνιον, κύκλον περιγράψαι.
 
 ## Problema 14, Propositio 14.

@@ -6,7 +6,7 @@ ORONTIVS. ¶ Sint a b c & d e f triangula, in baſibus æqualibus b c & e f, in 
 
 potheſin conſtituta: & propter id æqualia adinuicem, per trigeſimamſextam propoſitionem. Atqui parallelogramma a c b g & d e f h, à dimetientibus a b & d f bifariam ſecantur, per trigeſimamquartam propoſitionem. Eſt igitur a b c triāgulum dimidiū ipſius a c b g parallelogrammi, atq; triāgulum d e f ipſius d e f h parallelogrammi dimidium. Quæ autē æqualium ſunt dimidium, ea ſunt adinuicē æqualia, per ſeptimam communem ſententiam. æquum eſt igitur triangulum a b c, ipſi d e f triangulo. Triangula itaq; in æqualibus baſibus: &c. vt in theoremate. Quod demonſtrandum erat.
 
-Θεώρημα κθ, Πρόθεσις λθ.
+## Θεώρημα κθ, Πρόθεσις λθ.
 
 ΤΑ ἴσα τρίγωνα τὰ ἐπὶ τῆς αὐτῆς βάσεως ὄντα καὶ ἐπὶ τὰ αὐτὰ μέρη, καὶ ἐν ταῖς αὐταῖς παραλλήλοις ἐστίν.
 

@@ -12,7 +12,7 @@ Discursus prĩcipalis demõstrationis.
 
 His ita præmissis, quoniã m/n, æquum est ipsi h/l, & ipsum h/l/vtrisq; & e/g/parallelogrãmo & c/rectilineo æquale: & m/n/igitur, eisdẽ e/g/parallelogrãmo & c/rectilineo est æquale. quæ enim inuicẽ æqualia, eisdẽ æqualia sunt: per primæ cómunis sententiæ conuersionẽ. Subducto igitur cómuni/e/g: reliquum c/rectilineũ, reliquo gnomoni e/o/g, per tertiã cõmunẽ sententiã, est æquale. Et quoniam g/s/supplementum, ipsi e/r/supplemento, per quadragesimamtertiam primi est æquale: & eidẽ e/r, æquum est a/m, per trigesimamsextam eiusdem primi, nempe in æquali basi, ac in eisdem parallelis constituto. Et a/m/igitur ipsi g/s, per primam communẽ sententiam æquum est. Commune adponatur e/o: consurget itaq; a/o/ parallelogrammum, ipsi e/o/g/gnomoni, per secundam communẽ sententiam, æquale. Sed eidem gnomoni e/o/g, æquũ est rectilineũ c: & quæ eidem æqualia, adinuicem sunt æqualia, per primã communem sentẽtiam. Et a/o/igitur parallelogrammũ, æquum est ipsi dato rectilineo c: exceditq́; similis speciei parallelogrammum a/r/super totam rectam a/b/comparatum, ipso parallelogrammo r/s, quod ipsi d/simile ostensum est. Ad datam igitur rectam lineam a/b, dato rectilineo c, æquale comparatum est parallelogrammum a/o, excedẽs similis speciei parallelogrammum a/r/ super totam a/b/comparatum, parallelogrammo r/s, simili dato parallelogrammo d. Quod faciendum receperamus.
 
-Πρόβλημα ι, Πρόθεσις λ.
+## Πρόβλημα ι, Πρόθεσις λ.
 
 Τὴν τεθεῖσαν εὐθεῖαν πεπερασμένην, ἄκρον καὶ μέσον λόγον τεμεῖν.
 

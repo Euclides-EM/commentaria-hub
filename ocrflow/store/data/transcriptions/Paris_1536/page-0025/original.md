@@ -4,7 +4,9 @@ Cùm enim dati cuiuſlibet anguli recti magnitudo quadrans exiſtat circuli, eiu
 
 Καὶ ἐὰν εἰς δύο ευθείας, ευθεῖα ἐμπίπτουσα, τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη γωνίας, δύο ὀρθῶν ἐλάσσονας ποιῇ, ἐκβαλλόμεναι αἱ δύο αὗται ευθεῖαι ἐπ' ἄπειρον, συμπεσοῦνται ἀλλήλαις, ἐφ' ἃ μέρη ἐισὶν αἱ τῶν δύο ὀρθῶν ἐλάσσονες γωνίαι.
 
-## 5 Si in duas rectas lineas recta linea incidens, interiores & in eadem parte angulos duobus rectis minores fecerit: rectas lineas in infinitum productas concurrere neceſſe eſt, ad eas partes in quibus anguli duobus rectis minores exiſtunt.
+[Curated heading level=3 type=numbered_item: 5.]
+
+5 Si in duas rectas lineas recta linea incidens, interiores & in eadem parte angulos duobus rectis minores fecerit: rectas lineas in infinitum productas concurrere neceſſe eſt, ad eas partes in quibus anguli duobus rectis minores exiſtunt.
 
 Vtpote, ſi in rectas a/b/ & c/d, recta incidens e/f, interiores angulos b/e/f/ & d/f/e/ ſimul cõparatos, duobus rectis minores fecerit: ipſæ lineæ a/b/ & c/d, in infinitũ productæ, conueniẽt
 
@@ -32,7 +34,9 @@ RELIQVVM EST TANDEM, COMMVNES ELVCIDARE ſententias: quas græci axiomata, latin
 
 Τὰ τῷ αὐτῷ ἴσα, καὶ ἀλλήλοις ἐστὶν ἴσα.
 
-## 1 Quæ eidem æqualia, & adinuicem ſunt æqualia,
+[Curated heading level=3 type=numbered_item: 1.]
+
+1 Quæ eidem æqualia, & adinuicem ſunt æqualia,
 
 [Diagram: a b c]
 
@@ -40,11 +44,15 @@ Vtpote, ſi a/ magnitudo ſit æqualis b/ magnitudini, eidem quoque b/ ſit æqu
 
 Καὶ ἐὰν ἴσα ἴσοις προστεθῇ, τὰ ὅλα ἐστὶν ἴσα.
 
-## 2 Et ſi æqualibus æqualia adijciantur, omnia erunt æqualia.
+[Curated heading level=3 type=numbered_item: 2.]
+
+2 Et ſi æqualibus æqualia adijciantur, omnia erunt æqualia.
 
 Καὶ ἐὰν ἀπὸ ἴσων ἴσα ἀφαιρεθῇ, τὰ καταλειπόμενα ἐστὶν ἴσα.
 
-## 3 Et ſi ab æqualibus æqualia auferãtur, quę relinquẽtur æqualia erũt.
+[Curated heading level=3 type=numbered_item: 3.]
+
+3 Et ſi ab æqualibus æqualia auferãtur, quę relinquẽtur æqualia erũt.
 
 Vt ſi d/ & e/ magnitudinibus inuicẽ æqualibus, æquales addantur magnitudines f/ & g: con-
 
@@ -54,8 +62,12 @@ Vt ſi d/ & e/ magnitudinibus inuicẽ æqualibus, æquales addantur magnitudine
 
 Καὶ ἐὰν ἀνίσοις ἴσα προστεθῇ, τὰ ὅλα ἐστὶν ἄνισα.
 
-## 4 Et ſi inæqualibus æqualia adiungantur, omnia inæqualia erunt.
+[Curated heading level=3 type=numbered_item: 4.]
+
+4 Et ſi inæqualibus æqualia adiungantur, omnia inæqualia erunt.
 
 Καὶ ἐὰν ἀπὸ ἀνίσων ἴσα ἀφαιρεθῇ, τὰ λοιπὰ ἐστὶν ἄνισα.
 
-## 5 Et ſi ab inæqualibus æqualia auferantur, reliqua inæqualia erunt.
+[Curated heading level=3 type=numbered_item: 5.]
+
+5 Et ſi ab inæqualibus æqualia auferantur, reliqua inæqualia erunt.

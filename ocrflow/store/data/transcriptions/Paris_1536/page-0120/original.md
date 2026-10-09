@@ -12,7 +12,7 @@ Que à proximę ppositionis pēdent ostensione.
 
 & e/f: quemadmodùm ex ipsa præcedente decimatertia potes elicere propositione. Et quoniam angulus a/b/f, dimidium est anguli a/b/c, & angulus b/a/f, dimidiū ipsius anguli b/a/e, sūtq́; per hypothesin anguli a/b/c/ & b/a/e inuicē æquales: angulus igitur a/b/f, angulo b/a/f, per septimā cómunē sentētiā æquus est: quæ enim æqualiū sunt dimidiū, æqualia sunt adinuicē. Et proinde latus f/a, lateri f/b, per sextā primi, est æquale. Eodē prorsus modo cócludemus, cæteras rectas lineas f/c, f/d, & f/e, tū sibi inuicē, tū vtriq; ipsarū f/a/& f/b/coæquari. Quinq; ergo lineæ rectæ f/a, f/b, f/c, f/d, & f/e, æquales sunt adinuicem. Centro igitur f, interuallo autem f/a, vel f/b, aut f/c, vel f/d, aut f/e, circulus describatur a/b/c/d/e, per tertiū postulatum. Veniet ergo ipsius circuli circunferentia, per singula puncta a, b, c, d, e: tangétque propterea vnumquenq; angulum dati pentagoni. Circa datum igitur pentagonum æquilaterum &/æquiangulum a/b/c/d/e: circulus, per quartam huius diffinitionē, describitur. Quod faciendum fuerat.
 
-Πρόβλημα ιε, Πρόθεσις ιε.
+## Πρόβλημα ιε, Πρόθεσις ιε.
 Εἰς τὸν δοθέντα κύκλον, ἑξάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον ἐγγράψαι.
 
 ## Problema 15, Propositio 15.

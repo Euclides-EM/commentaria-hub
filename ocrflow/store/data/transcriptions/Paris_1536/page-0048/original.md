@@ -6,7 +6,7 @@ quas ad eaſdem partes coniungant rectæ a c, & b d. Dico a c, & b d rectas fore
 
 quus angulus a c b, reliquo c b d æqualis, vtpote ſub quibus æqualia ſubtenduntur latera. In rectas itaque lineas a c & b d, recta incidens b c, efficit alternos angulos a c b & c b d adinuicem æquales. parallela eſt igitur a c recta ipſi b d, per vigeſimamſeptimam propoſitionem. Patuit autem q̊ & eidem æqualis. Aequas igitur & parallelas: & quæ ſequuntur reliqua. Quod demonſtrandum ſuſceperamus.
 
-Θεώρημα κδ, Πρόθεσις λδ.
+## Θεώρημα κδ, Πρόθεσις λδ.
 
 ΤΩν παραλληλογράμμων χωρίων αἱ ἀπεναντίον πλευραί τε καὶ γωνίαι, ἴσαι ἀλλήλαις ἐισί, καὶ ἡ διάμετρος αὐτὰ δίχα τέμνει.
 

@@ -14,7 +14,7 @@ Secunda pars
 
 ¶Dico insuper,quòd idem angulus a/c/d,maior est a/b/c/angulo. Diuisa nanq; b/c/ bifariam in puncto g,& connexa a/g/ recta,productáq; ipsi a/g/æquali g/h,connexa item c/h,atq; tandem producta a/c/ in k,per nunc expressa postulata,citatásq; propositiones:haud dissimili discursu colligemus, angulum a/b/g,æquum esse angulo g/c/h. Et quoniam angulus b/c/k,angulo b/c/h/maior est, per nonã communem sententiã:erit & idem angulus b/c/k/ ipso a/b/c/angulo maior.Aequus est autem a/c/d/angulus ipsi b/c/k,per decimamquintam propositioné:& angulus igitur a/c/d/eodé angulo a/b/c/maior est.Omnis itaq; trianguli vno latere producto, exterior angulus vtrisq; interioribus & ex opposito maior est.Quod erat demonstrandum.
 
-Θεώρημα ι, Πρόθεσις ιζ.
+## Θεώρημα ι, Πρόθεσις ιζ.
 
 Παντὸς τριγώνου αἱ δύο γωνίαι,δύο ὀρθῶν ἐλάσσονές εἰσι, πάντη μεταλαμβανόμεναι.
 

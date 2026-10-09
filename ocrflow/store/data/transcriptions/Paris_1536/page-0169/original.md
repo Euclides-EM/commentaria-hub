@@ -24,7 +24,7 @@ Pars secunda conuersa primæ.
 
 Aequum eſt igitur a/b/c/triangulum,ipsi triangulo d/b/e. Aequalium itaq; & vnũ vni æqualẽ habentiũ angulũ:&c.vt in theoremate.Quod oportebat demonſtrare.
 
-Θεώρημα ια, Πρόθεσις 15.
+## Θεώρημα ια, Πρόθεσις ις.
 
 Εὰν τέσσαρες εὐθεῖαι ἀνάλογον ὦσι, τὸ ὑπὸ τῶν ἄκρων περιεχόμενον ὀρθογώνιον, ἴσον ἐστὶ τῷ ὑπὸ τῶν μέσων περιεχομένῳ ὀρθογωνίῳ.καὶ ἐὰν τὸ ὑπὸ τῶν ἄκρων περιεχόμενον ὀρθογώνιον,ἴσον ᾖ τῷ ὑπὸ τῶν μέσων περιεχομένῳ ὀρθογωνίῳ, αἱ τέσσαρες εὐθεῖαι , ἀνάλογον ἔσονται.
 

@@ -8,7 +8,7 @@ Tertia pars.
 
 æqualis. ¶Aio tandem, quòd ipsi g/c, ab eodem puncto g, alia quàm g/h/non cadet æqualis. Si enim id possibile fuerit: aut illa cadet supra punctum h, vel infra. Si ceciderit supra versus a: tunc ipsa erit propinquior ei quæ per centrum, vtpote ipsi g/a, ergo maior ipsa g/h/remotiore, per primam partem iam demonstratam: & maior consequenter ipsa g/c. Quòd si detur incidere infra punctum h, versus e: tunc ipsa linea, remotior erit ab eadem g/a/quæ per centrum. ergo minor ipsa g/h/propinquiore, per eandem præostensam primam partem: & minor igitur ipsa g/c. Similiter ostendemus, q nec ipsi g/h/alia quàm g/c/dabitur æqualis, ab eodem puncto g, & ad partes b/d. De cæteris quibuscunq;, idem respondēter subsequetur. Igitur si in diametro circuli aliquod contingat punctū: & quæ sequuntur reliqua. Quod demonstrandum fuerat.
 
-Θεώρημα ζ, Πρόθεσις η.
+## Θεώρημα ζ, Πρόθεσις η.
 
 Εαν κύκλου ληφθῇ τι σημεῖον ἐκτός, ἀπὸ δὲ τοῦ σημείου πρὸς τὸν κύκλον διαχθῶσιν εὐθεῖαι τινές, ὧν μία μὲν διὰ τοῦ κέντρου, αἱ δὲ λοιπαὶ ὡς ἔτυχε, τῶν μὲν πρὸς τὴν κοίλην περιφέρειαν προσπιπτουσῶν εὐθειῶν, μεγίστη μὲν ἡ διὰ τοῦ κέντρου. τῶν δὲ ἄλλων, ἀεὶ ἡ ἔγγιον τῆς διὰ τοῦ κέντρου, τῆς ἀπώτερον, μείζων ἐστί. τῶν δὲ πρὸς τὴν κυρτὴν περιφέρειαν προσπιπτουσῶν εὐθειῶν, ἐλαχίστη μὲν ἐστὶν ἡ μεταξὺ τοῦ τε σημείου καὶ τῆς διαμέτρου. τῶν δὲ ἄλλων ἀεὶ ἡ ἔγγιον τῆς ἐλαχίστης, τῆς ἀπώτερον ἐστὶν ἐλάττων. δύο δὲ μόνον εὐθεῖαι ἴσαι προσπεσοῦνται ἀπὸ τοῦ σημείου πρὸς τὸν κύκλον ἐφ᾽ ἑκάτερα τῆς ἐλαχίστης.
 

@@ -6,7 +6,7 @@ duobus lateribus d/e/& e/h/trianguli d/e/h/alterum alteri: & qui ad b/& e/sub ei
 
 nem sententiam. In triangulo igitur d/f/h, producto f/h/ latere, exterior angulus d/h/e, interiori & ex opposito d/f/h/ æquabitur angulo: quod per decimamsextā propositionē est impossibile. Non est igitur e/f, maior b/c. simili discursu monstrabitur, q̄ nec minor. æqualis est igitur b/c, eidem e/f. est autē & a/b/ipsi d/e/ per hypothesin æqualis. Binæ igitur a/b/& b/c, duabus rursum d/e/& e/f/sunt æquales altera alteri: & æquos adinuicem per eandem hypothesin capiunt angulos. Reliquum ergo latus a/c, reliquo d/f, hoc est basis basi, atq; reliquus angulus qui ad a, reliquo qui ad d, respondenter æquatur, per sæpius allegatam quartam propositionē. Ergo si bina triāgula duos angulos duobus angulis alterum alteri æquales habuerint: & quæ sequuntur reliqua, vt in theoremate. Quod oportuit demonstrasse.
 
-Θεώρημα ιη, Πρόθεσις κζ.
+## Θεώρημα ιη, Πρόθεσις κζ.
 
 Εὰν εἰς δύο εὐθείας εὐθεῖα ἐμπίπτουσα τὰς ἐναλλὰξ γωνίας ἴσας ἀλλήλαις ποιῇ, παράλληλοι ἔσονται ἀλλήλαις αἱ εὐθεῖαι.
 
@@ -20,7 +20,7 @@ ORONTIVS. ⁋ Sint binæ rectæ lineæ a/b, & c/d, & in eas incidat e/f/recta, e
 
 ad partes b, d. neque similiter ad partes a, c: idem nāq; sequeretur inconueniens. Quæ autem in nulla parte conueniunt, per vltimam diffinitionē existunt parallelæ. Igitur a/b, parallela est ipsi c/d. Si in binas ergo rectas lineas: & quæ sequuntur reliqua, vt in theoremate. Quod erat ostendendum.
 
-Θεώρημα ιθ, Πρόθεσις κη.
+## Θεώρημα ιθ, Πρόθεσις κη.
 
 Εὰν εἰς δύο εὐθείας εὐθεῖα ἐμπίπτουσα, τὴν ἐκτὸς γωνίαν τῇ ἐντὸς καὶ ἀπεναντίον καὶ ἐπὶ τὰ αὐτὰ μέρη ἴσην ποιῇ, ἢ τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη δυσὶν ὀρθαῖς ἴσας ποιῇ, παράλληλοι ἀλλήλαις ἔσονται αἱ εὐθεῖαι.
 

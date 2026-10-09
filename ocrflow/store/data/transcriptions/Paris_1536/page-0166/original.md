@@ -4,7 +4,7 @@
 
 ſicut igitur a/d/ad d/e,ſic a/f/ad f/g:ſicútq; d/e/ad e/c,ſic f/g/ad g/b. Data ergo recta linea inſecta a/b,datæ rectæ lineæ vtcunq; ſectæ a/c,ſimiliter ſecatur.Quod faciendum receperamus.
 
-Πρόβλημα γ, Πρόθεσις ια.
+## Πρόβλημα γ, Πρόθεσις ια.
 
 ΔΥο δοθεισῶν εὐθειῶν,τρίτην ἀνάλογον προσευρεῖν.
 
@@ -24,7 +24,7 @@ Conſtructio figuræ.
 Demōſtratio problematis.
 [/Margin]
 
-Πρόβλημα δ, Πρόθεσις ιβ.
+## Πρόβλημα δ, Πρόθεσις ιβ.
 
 ΤΡιῶν δοθεισῶν εὐθειῶν,τετάρτην ἀνάλογον προσευρεῖν.
 
