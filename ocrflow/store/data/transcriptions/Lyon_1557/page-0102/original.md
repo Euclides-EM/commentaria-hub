@@ -31,7 +31,8 @@ Quòd ſi fieri poſſit, educatur A F, contingens Circulum in puncto F : & conn
 
 Id etiam ea ratione probabitur : quòd omnes lineæ ab vno puncto ductæ, Circulum tangentes, ſint æquales : vt antè oſtendimus. At duæ A B & A F æquales eſſe non poſſunt, aduerſante octaua huius.
 
-## THEOREMA 31, PROPOSITIO XXXVI.
+## THEOREMA 31{printer-error-correction:30}, PROPOSITIO XXXVI.
+
 ### Theoni 37.
 
 Si à puncto extra Circulum ſignato, duæ lineæ in Cir-

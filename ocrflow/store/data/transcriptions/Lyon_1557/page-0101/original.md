@@ -11,7 +11,8 @@ Ex hac etiam facilè habetur exceſſus Parallelogrammi maioris ſupra minus. Qu
 
 Neque miretur quiſquam, quòd priora cum poſterioribus retexam. Id enim ad Demonſtrationes eruendas tantùm facio. Nam aliud eſt, artem tenere : aliudq́;, artem docere. Multaq́; priora ſunt naturâ, quæ ars cogitur poſteriora tradere : atque econtrariò : nempè, aut compendij faciendi, aut lucis addendæ, aut denique methodi obſeruandæ gratia.
 
-## THEOREMA 30, PROPOSITIO XXXV.
+## THEOREMA 30{printer-error-correction:29}, PROPOSITIO XXXV.
+
 ### Theoni 36.
 
 Si à puncto extra Circulum ſignato duæ lineæ ductæ fuerint, quarum altera ſecet Circulum, altera tangat : quod ex tota ſecante in partem ſui extimam fit, Rectangulum, æquum eſt ei quod ex tangente fit, Quadrato.

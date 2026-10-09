@@ -1,6 +1,6 @@
 tuum iudicium nobis adhibendum eſſe duximus: & alteram confirmationem huic loco etiam pleniorem ſubſcripſimus. Atque imprimis hoc nobis eſt præmittendum,
 
-## In Circulis, anguli qui fiunt à Diametro & Peripheria, ſunt æquales.
+### In Circulis, anguli qui fiunt à Diametro & Peripheria, ſunt æquales.
 
 Sint enim ſuper Centro A, duo Circuli BCDB & EFGE, quorum Diametri BD & EG. Et ſecet EG ambos Circulos in punctis E, B, D, & G. Aio duos angulos CBD & FED eſſe æquales. Nam ſi ſit FED maior ipſo CBD (neque enim contrà, CBD maior vllo pacto erit ipſo FED): ac deſcribantur plures Circuli ſuper eodem Centro A, quorum vnus hoc loco ſatis fuerit HKLH: fiet tandem ex continuo augmento, angulus à Diametro & Peripheria, verbi gratia, angulus KHL, maior recto: Quod eſt contra ipſius Euclidis ſententiam, qui eos omnes angulos ponit recto minores. Sunt igitur anguli interiores, qui ad B & E, inter ſe æquales, Quod fuit oſtendendum. Idem & de exterioribus iudicium.
 

@@ -7,7 +7,7 @@ erit trium: ob idq́;, reſiduum BC, duorum æqualium. Secetur, per trigeſimam 
 
 SIMILITER autem vt in Pentagono, ſi per quindecim puncta diuiſionum æqualium Circuli, duxerimus lineas tangentes: circa ipſum Circulum deſcribetur Quindecangulum æquilaterum & æquiangulum: Atque inſuper ijſdem, quibus illîc, obſeruationibus, dato Quindecangulo Circulum inſcribemus & circunſcribemus.
 
-## Libri Quarti Geometricorum Elementorum FINIS.
+Libri Quarti Geometricorum Elementorum FINIS.
 
 [Ornament: foliate lozenge-shaped tailpiece]
 

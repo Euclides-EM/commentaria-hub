@@ -11,7 +11,7 @@ EX HAC habetur facilis ratio diuidendæ lineæ in quaſcunque partes nominatas. 
 
 Idem de cuiuſcunque generis partibus erit iudicium.
 
-## THEOREMA 8, PROPOSITIO XIIII.
+## THEOREMA 8{printer-error-correction:9}, PROPOSITIO XIIII.
 ### Campano 13.
 
 Aequalium Parallelogrammorum, & vnum vni æqualem angulum habentium, reciproca ſunt latera quæ circum æquales ſunt angulos: Et quorum Parallelogrammorum vnum vni æqualem angulum habentium, reciproca ſunt latera quæ circum æquales angulos, ea ſunt æqualia.

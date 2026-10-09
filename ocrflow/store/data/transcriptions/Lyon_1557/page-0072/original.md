@@ -7,7 +7,7 @@ Primi. Tum ſuper linea H K conſtituatur Parallelogrammum itidem Rectangulum H 
 
 Eritq́; F G N O vnum Parallelogrammum, per quadrageſimamquintam Primi: atque æquale toti Figuræ Rectilineæ A B C D E. Quod, per hanc vltimam, conuertes in Quadratum.
 
-## Libri Secundi Geometricorum Elementorum FINIS.
+Libri Secundi Geometricorum Elementorum FINIS.
 
 [Ornament: diamond-shaped floral ornament]
 

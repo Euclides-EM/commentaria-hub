@@ -10,7 +10,7 @@ Quod ex iam aſcripta deductione manifeſtum euadit.
 HVIC etiam Theoremati quidam aliud ſubijciunt Conſectarium de Parallelogrammis Similibus, quòd in dupla ſint ratione, quàm ipſorum latera ſimiliter ſumpta: Sed hoc patet vel ex Triangulorum ſimilitudine. Triangula enim, vt iam non ſemel monuimus, dimidia ſunt Quadrilaterorum. Immò & Theorema ſi de Rectilineis pronuntiaſſet, vniuerſam peræquè habuiſſet probationem, atque de Polygonis.
 
 ## PROBLEMA 6, PROPOSITIO XX.
-### Theoni 19, Campano 18.
+### Theoni 19{printer-error-correction:18}, Campano 18{printer-error-correction:19}.
 
 Super data linea, datæ Superficiei rectilineæ ſimilem Superficiem ſimiliterq́; poſitam deſcribere.
 

@@ -8,7 +8,7 @@ Atque hæ duæ poſteriores ſunt Campani.
 
 Ab vno puncto extra Circulum ſignato duæ tantùm lineæ ad contactum Circuli demitti poſſunt.
 
-### Libro Quarto.
+## Libro Quarto.
 
 ### AD V.
 

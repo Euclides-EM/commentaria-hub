@@ -9,7 +9,7 @@ Connectatur E D: & ducatur per punctum C, parallelus ipſi E F, ſi C D parallel
 
 Hanc verò Euclides rectè prætermiſit ob facilitatem. Sed & nonnullas ſimilis notionis quas anteà expreſſit, poterat omittere.
 
-## PROBLEMA II, PROPOSITIO XLII.
+## PROBLEMA 11, PROPOSITIO XLII.
 
 Dato Triangulo æquale Parallelogrammum conſtituere, habens angulum angulo dato æqualem.
 

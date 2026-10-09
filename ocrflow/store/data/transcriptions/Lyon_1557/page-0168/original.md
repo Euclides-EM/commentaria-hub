@@ -13,7 +13,8 @@ Eſt enim, per primam huius, vt C G baſis ad M N baſin, ſic C H Parallelogram
 
 Sed nos priorem demonſtrationem aſtruximus, ad illuſtrandam vbique Figuram noſtram Gnomonicam.
 
-## THEOREMA 28, PROPOSITIO XXIIII.
+## THEOREMA 28{printer-error-correction:18}, PROPOSITIO XXIIII.
+
 ### Campano 23, Theoni 26.
 
 Si duo Parallelogramma ſimilia & ſimiliter poſita, communem angulum habuerint, aut angulum æqualem angulo æquali contrà poſitum habuerint : ambo circa eandem Dimetientem conſiſtunt.

@@ -33,7 +33,7 @@ Sin aliter: ducatur parallelus ipſi B C, per trigeſimamprimam: quæ aut tranſ
 
 Si verò parallelus duci poſſit infra A D, vt A F: connexa F C, fiet Triangulum F B C æquale ipſi D B C, pars toti. Non igitur erit alia parallelus baſi B C, quàm ipſa A D, Quod erat oſtendendum.
 
-## Appendix ex Campano.
+### Appendix ex Campano.
 
 Ex hac & antecedente conſequitur,
 

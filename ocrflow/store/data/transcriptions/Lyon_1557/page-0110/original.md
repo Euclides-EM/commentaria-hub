@@ -15,7 +15,7 @@ Nam quum latus AB maioris Quadrati, ſit, per trigeſimamquartam Primi, æquale 
 
 POSSET alijs expoſitionibus demonſtrari, vt ex æqualitate Triangulorum & Quadratorum : Sed nos hac vna contenti fuimus facili & compendioſa oſtenſione. Hoc autem Theorema ab Euclide non fuit appoſitum, fortaſsè quòd ſola Problemata in hoc Quarto libro tractaret : fortaſſe etiam quòd de aliarum Figurarum proportione tradendum fuiſſet : quanuis tamen hanc ordinis rationem non ſeruet. Paucas enim Figuras Circulo inſcribere docet, cæteras prætermittit:infinitatem quidem deuitans, ſed & difficultate deterritus. Idipſum verò, vt cuius conſideratio eſſet vſitata, hîc apponere non dubitauimus.
 
-## THEOREMA 10, PROPOSITIO X.
+## THEOREMA{printer-error-correction:PROBLEMA} 10, PROPOSITIO X.
 
 Iſoſceles Triangulum conſtituere, habens vtrunque eorum qui ad baſin ſunt angulorum, duplum anguli qui ad verticem.
 

@@ -13,7 +13,7 @@ Sint duo Quadrata, quorum latera ſint AB & BC. Volo Quadrato lineæ AB adiunger
 
 Conſtituo ambas ad angulum rectum ABC. Et connecto AC. Deſcriptoq́; Quadrato lateris AB, quod ſit ABDE, protraho BA ad punctum F : vt ſit BF æqualis AC. Et deſcribo Quadratum BFGH : quod erit æquale Quadrato ipſius AC, quum lineæ ſint æquales:ac proptereà æquale Quadratis duorum AB & BC. Quum itaque BFGH Quadratum, compleatur ipſo Quadrato ABDE & Gnomonem FEGD : erit ipſe Gnomon æqualis Quadrato lineæ BC, Quod erat faciendum.
 
-## Libri Primi Geometricorum Elementorum. FINIS.
+Libri Primi Geometricorum Elementorum. FINIS.
 
 [Ornament: lozenge-shaped floral tailpiece]
 

@@ -19,7 +19,7 @@ Si in Circulo recta linea rectam lineam æqualiter & ad angulos rectos diuidat: 
 
 Hoc verò ſatis patet ex Demonſtratione iam poſita. Si igitur duæ lineæ in Circulo æqualiter ſecent altera alteram: Centrum in puncto ſectionis ſitum erit. Quod tamen poſterius probabitur.
 
-## THEOREMA I, PROPOSITIO II.
+## THEOREMA 1, PROPOSITIO II.
 
 Si ad duo puncta peripheriæ recta linea applicata fuerit: ipſa intra Circulum tranſit.
 

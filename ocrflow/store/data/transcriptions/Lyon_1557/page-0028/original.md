@@ -25,7 +25,7 @@ Superpoſita enim baſi A B ipſi D E baſi, neutra excedet alteram : quum ſint
 
 Hanc demonſtrandi rationem in quarta huius abundè refutauimus. Quare hæc Propoſitio tanquam per ſe nota habenda eſt. Quis enim negauerit duas Superficies eſſe æquales, quarum latera & quantitate & numero ſunt æqualia ? Vel ea demonſtrabimus ratione quam illic tradidimus.
 
-## THEOREMA 6, PROPOSITIO IX.
+## THEOREMA{printer-error-correction:PROBLEMA} 6{printer-error-correction:4}, PROPOSITIO IX.
 
 Datum Angulum bifariam diuidere.
 

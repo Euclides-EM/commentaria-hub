@@ -11,7 +11,7 @@ Sit Circulus datus A B C, datus verò angulus D. Volo à Circulo A B C abſcinde
 
 Duco lineam E F, quæ, per decimamſeptimam huius, tangat Circulum in A puncto : A quo intra Circulum duco lineam A B, quæ cum A E faciat angulum E A B æqualem angulo D, per vigeſimamtertiam Primi. Ac tum ductis lineis A C & B C, erit angulus C in ſegmento A C B, æqualis angulo E A B, per trigeſimamprimam huius : Quare & angulo D dato, Quod fuit faciendum.
 
-## THEOREMA 29, PROPOSITIO XXXIIII. Theoni 35.
+## THEOREMA 29{printer-error-correction:28}, PROPOSITIO XXXIIII. Theoni 35.
 
 Si in Circulo duæ rectæ lineæ ſe inuicem ſecuerint: quod fit ex ſegmentis vnius, Rectangulum, æquum eſt ei quod ex alterius ſegmentis fit, Rectangulo.
 

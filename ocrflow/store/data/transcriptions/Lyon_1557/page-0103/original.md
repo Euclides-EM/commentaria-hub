@@ -13,8 +13,6 @@ Quod ſi A B D non tranſit per Centrum, ducatur à puncto A, linea A D, in qua 
 
 A L I T E R. Maneat iam inducta deſcriptio : atque inſuper à puncto A ad alteram partem Circuli demittatur A F, per decimamſextam huius, contingens Circulum. Et connectatur E F. Eritq́; angulus F rectus, per decimamſeptimam : Et per antecedentem, quod fit ex A D in A B, æquale Quadrato A F. At ex hypotheſi, idipſum eſt æquale Quadrato A C. Eſt igitur A C linea æqualis A F. Quapropter quum duo latera A F & E F, Trianguli A E F, ſint æqualia duobus A C & E C, Trianguli A E C : & baſis A E vtrique communis : ſitq́; angulus F rectus : erit & angulus C rectus, per octauam Primi. Quare A C tangit Circulum, per Conſectarium decimæquintæ huius, Quod erat demonſtrandum.
 
-## Libri Tertij Geometricorum Elementorum
-
-## FINIS.
+Libri Tertij Geometricorum Elementorum FINIS.
 
 [Ornament: lozenge-shaped foliate tailpiece]
