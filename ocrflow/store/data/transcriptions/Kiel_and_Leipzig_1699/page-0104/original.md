@@ -1,25 +1,23 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 88 -->
+<!-- Page number: 87 -->
 
-Wann aber nur ein Buchstab / und zwar zweymahl gebraucht wird/ als aa, so bedeutet es das gleichseitige □ des Striches a. Im übrigen bedienet man sich derer zu Anfang des 1. Buchs erklährten Zeichen.
+# Das II. Buch Euclidis.
 
-Demnach werden aus der Löse-Kunst vor diesesmahl entlehnet nachfolgende
+## Vorbericht.
 
-## Grund-Sätze :
+Dieweil in diesem Buch solche Auffgaben vorkommen/ welche nicht wol ohne die Lösekunst können auffgelöset werden / so wird nicht undienlich seyn / etliche Beschreibungen und Grundsätze aus gedachter Kunst voranzusetzen.
 
-I. Wenn zwo gleiche Grössen/ in zwo andere gleiche Grössen gezogen werden / so werden auch gleichgrosse Dinge daraus.
+Die Löse-Kunst (sonst Analysis, Algebra oder Regula Cos genant ) ist eine Wissenschafft/ welche bey aller Grössen Betrachtung das Begehrte/ durch ein oder mehr Gegebene oder Gestandene Dinge/ ausfündig machet.
 
-(t) Wenn die Seiten oder Striche gleichlang/so sind auch die Vierecke ( und Würffel ) solcher gleichgrossen Seiten gleichgroß.
+Es gebrauchet sich aber diese Wissenschafft etlicher vortheilhafften Zeichen und Buchstaben/ durch welche sie auff das deutlichste und gewisseste die Auffgaben aufflöset.
 
-II. Wenn zwo ( oder mehr ) gleiche Grössen an gleiche Grössen angeschlagen werden/ so entspringen darauß auch gleichgrosse Dinge.
+Eine Ziehung (Ductio) wird genennet/ wenn zwo Grössen also zusammen gesetzet werden / daß eine neue Arth von Grössen entstehet. Als wenn eine Länge zu einer Breite kömmet/ so wird eine Fläche daraus/ wenn aber eine Fläche in die Höhe/ oder Tieffe gezogen wird/ so wird ein Leib daraus.
 
-(u) Gleichgrosse rechtwincklichte Vierecke ( und Würffel ) haben auch gleich lange Striche/ ( oder Vierecke. )
+In der Rechen-Kunst hat die Vervielfältigung (multiplicatio) eine grosse Verwandschafft mit unserer Ziehung/dahero öffters eines vor das andere genommen wird. Wann mans aber genau betrachtet/ ist ein grosser Unterscheid unter denenselbigen.
 
-1. Ein jedes rechtwincklichtes Nebenstrichiches Viereck ( Parallelogrammum rectangulum abcd ) wird von zween geraden Strichen ( ab und cb, ) so einen rechten Winckel (abc) machen/ begriffen.
+Wenn nun gesetzet wird □ ca,ab: oder □ cab, so heisset es ; der Strich ca gezogen in den Strich ab, das ist/ ein □ , dessen Länge durch ca, und breite durch ab vorgestellet wird.
 
-[Diagram: zwey rechtwincklichte Vierecke mit den Eckpunkten d, c oben und a, b unten]
+Bißweilen wird ein gantzer Strich ( auch wol Fläche oder Leib) durch einen Buchstaben angezeiget/ als ab, welches so viel bedeutet/als der Strich a in den Strich b gezogen.
 
-2. In jedwedem nebenstrichichen Viereck (ADBC) wird ein jedes/derer ümb den Zwerg-Strich ( ABC ) stehenden Vierecke (FG oder HI,)samt den zwo nebenstehenden Füllflächen (DE und FH) ein Winckelmaß (Gnomonem) machen.
-
-<!-- Catchword: Der -->
+<!-- Catchword: Wann -->

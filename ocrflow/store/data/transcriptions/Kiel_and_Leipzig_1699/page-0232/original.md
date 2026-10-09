@@ -1,34 +1,39 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 216 -->
+<!-- Page number: 215 -->
 
-dcb ∧ ∟ ω.
-Dw. — dbc + bdc ∧ ∟ — n. 3. Gr. I.
-u. — dbc ∧ bdc ∧ ½ ∟ — ß. n. 7. Gr. n. I.
-Gleicher Weise ebd ∧ bec ∧ dec ∧ edb ∧ ½ ∟
-Dw. — ab | ae | ac | ad — n. 6. I.
-u. — a | Mittel-Düpffel des Kreyses edcb, n. 9. III.
-
-Welcher umb das Viereck beschrieben/ n. 6. Besch. IV.
+Welcher das □ bcde anrühret/n. 17. III.
+Und dem □ eingeschrieben ist/ n. 5. Beschr. IV.
 
 ### Beschluß.
 
-Ist also umb das gegebene □ bcde ein Kreyß edcb beschrieben.
-W. Z. M.
+Ist also dem gegebenen Viereck bcde ein Kreyß fghi einge-
+schrieben. W. Z. M.
 
-## Der X. Vortrag.
+## Der IX. Vortrag.
 
-## Das 10. Werck-Stück.
+## Das 9. Werckstück.
 
-Ein gleichschenckliches Dreyeck zu machen/
-dessen jeder Grundwinckel noch einmahl so groß/
-als der Gipffelwinckel.
+Umb ein gegebenes Viereck einen Kreyß zube-
+schreiben.
 
-### Gegebene. — Begehrte.
-1. Gleichgrosse Schenckel — 1. Gleichschencklichtes Dreyeck
-2. jedweder Grundwinckel noch einmahl so groß als der Gipffelwinckel. — 2. in welchem der Gipffelwinckel halb so groß als ein Grund-
-winckel.
+### Gegebenes. — Begehrte.
+Viereck bcde. — 1. Kreyß cdeb
+2. Umb das Viereck beschrieben.
 
-[Diagram: links ein Quadrat mit Punkten A, C, B auf der Grundlinie und einem Kreisbogen; rechts ein punktierter großer Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c und d]
+### Wirckung.
 
-<!-- Catchword: Wir- -->
+1. Werden die Zwergstriche bd, ec gezogen.
+2. Aus dem Düttel a, wo diese Zwergstriche einander durch-
+schneiden/ werde nach der Weite ab ein Kreyß beschrieben.
+
+[Diagram: Quadrat b c d e mit gezogenen Diagonalen, die sich im Mittelpunkt a schneiden, umschrieben von einem Kreis]
+
+### Beweiß.
+
+a. — dcb ∧ ∟
+bc | dc — n. 1. Geg. u. 29. Besch. I.
+ß. Dw. — dbc ∧ bdc — n. 5. I.
+dcb + dbc + bdc ∧ ⌓ — n. 32. I.
+
+<!-- Catchword: Dw. -->

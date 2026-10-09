@@ -1,32 +1,42 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 209 -->
+<!-- Page number: 208 -->
 
-[Diagram: drei Kreise, jeder mit einem umschriebenen Dreyeck abc und dem Mittel-Düpffel f; die Seitenmittel d und e mit Senckstrichen df und ef, die Stralen fa, fb, fc punktiert bzw. ausgezogen]
+1. Der Senckstrich ab zu dem Strich gf }
+2. - - - - ad - - - eg } n. 12. I.
 
-### Wirckung.
+### I. Beweiß.
 
-1. Eine des Dreyecks Seite ab werde in zween gleiche Theile ad | db getheilet/n. 10. I.
-2. Auff dieser Seite Mittel d werde einwerts ein Senckstrich df gesetzet/n. 11. I.
-3. Deßgleichen werde eine andere Seite ae getheilet ae | ec, n. 10. I.
-4. Auch werde auff dieses Mittel e einwerts ein Senckstrich ef gesetzet/n. 11. I.
-5. Aus f, wo beede Senckstriche einander durchschneiden / werde nach der Weite fb, oder fa ein Kreyß beschrieben.
+efa ∧ bfa n. 2. Wirck.
+acf ∧ abf n. 3. Wirck. u. 1. Vorb.
+af | af
+a. Dw. ac | ab n. 26. I.
 
-### Vorbereitung.
+### II. Beweiß.
 
-Aus dem Mittel-Düpffel f werden zu den Ecken des Drey-Ecks die Stralen fa, fb, fc gezogen.
+dea ∧ cea n. 1. Wirck.
+ace ∧ ade n. 2. Vorb. u. 10. Gr. I.
+ae | ae
+Dw. ac | ad n. 26. I.
+u. ab | ad n. 1. Gr. I. a.
 
-### Beweiß.
+Und der Kreyß bcd rühret das △ efg an allen Seiten an. n. 18. III.
 
-ae | ec n. 3. Wirck.
-fea ∧ fec n. 3. III. u. 10. Gr. I.
-fe | fe
-Dw. fa | fc n. 4. I.
-Gleicher Weise fa | fb
-Dw. fc | fb n. 1. Gr. I.
-und f der Mittel-Düpffel des Kreyses abc, n 9. III,
-welcher umb das △ abc umbschrieben / n. 6. Beschr. IV.
+Ist auch demselben der Kreyß bcd eingeschrieben n. 5. Beschr. IV.
 
-<!-- Signature: D d -->
+### Beschluß.
 
-<!-- Catchword: Be- -->
+Ist also dem gegebenen △ efg ein O bcd eingeschrieben. W. Z. M.
+
+## Der V. Vortrag.
+
+## Das 5. Werck-Stück.
+
+Umb ein gegebenes Dreyeck einen Kreyß zu beschreiben.
+
+### Gegebenes. Begehrte.
+
+Dreyeck abc 1. Kreyß abc
+2. Umb das △ abc beschrieben.
+
+<!-- Catchword: Wirckung. -->

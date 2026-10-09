@@ -1,14 +1,15 @@
 <!-- Running title: Vorrede. -->
 
-die grösseste Deutlichkeit auf dem Zeichen der Gleichmässigkeit beruhe/ welches ein aufrecht stehender gerader Strich ist.
+(Operatio)/ bißweilen auch die Vorbereitung (Præparatio): und wenn der Beweiß vollführet ist / so wird der Beschluß angehenget.
 
-Und solch Zeichen ist schon vor diesem bey den Rechenmeistern gebräuchlich gewesen / wenn sie bey den Theilungen (oder Divisionibus) die Zahlen also setzen 24/6 | 4 welches nichts anders bedeutet / als daß 24 Sechstheil eben so viel/ als 4. Gantze/ seyn. Deßgleichen gebraucht man sich solches Zeichens auch bey Verwandlung und Verkleinerung der Brüche/ als:
+Bißweilen wird auch eine Zugabe oder Anhang beygefüget/ wie bey dem VII. und XXIX. Vortrage zu sehen.
 
-96 | 48 | 24 | 12 | 6 | 3
-128 | 64 | 32 | 16 | 8 | 4
+Weil aber hernachmahls befunden/ daß auch noch andere Vorträge dergleichen Anhänge nöthig haben/ so kan zum Exempel dem X. Vortrag diese Zugabe angehenget werden:
 
-da dann 96 hundert-acht und zwantzigtheil eben so viel/ als 48 vier und sechtzig theil/ etc. oder so viel/ als 3 Viertheil ist.
+Welche Grössen zu gleichmässigen Grössen gleiche Verhältnüß haben/ die sind gleichmässig.
 
-<!-- Signature: ):( ):( 3 -->
+[Diagram: schematische Darstellung]
 
-<!-- Catchword: Zu -->
+Wegen der Algebraischen Zeichen/ welche ich gebrauchet/ ist zu mercken/ daß
+
+<!-- Catchword: die -->

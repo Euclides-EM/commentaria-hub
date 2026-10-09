@@ -1,45 +1,33 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 220 -->
-
-3. Der Winckel bca werde in zween gleiche Theile getheilet
-durch den Strich ce. n. 9. I.
-4. Der Winckel cba werde gleicher Weise in zween gleiche
-Theile getheilet/ durch den Strich db. n. 9. I.
-5. Werden die geraden Striche be. ea. ad. dc. gezogen.
-
-### Beweiß
-
-△ abc gleichwincklicht dem [unclear: ABC] — n. 2. Wirck.
-bce ∧ eca — n. 3. Wirck.
-α. — cbd ∧ dba — n. 4. Wirck.
-cba ∧ 2dba — n. 9. Gr. q. I.
-cba ∧ 2bac — n. 10. IV.
-Dw. — 2dba ∧ 2bac — n. 1. Gr. I.
-u. — dba ∧ bac — n. 7. Gr. o. I.
-u. — bac ∧ cbd — α. — n. 1. Gr. I.
-Dw. — bc ⌒ cd
-bc ⌒ da — n. 26. III.
-Gleicher Weise be ⌒ ea ⌒ bc ⌒ dc ⌒ ad
-u. — be | ea | bc | dc | ad — n. 29. III.
-Dw. ist aebcd ein gleichseitiges Fünffeck/ — n. 22. Beschr. I.
-und dem Kreyß eingeschrieben/ — n. 3. Beschr. IV.
+<!-- Page number: 219 -->
 
 ### Beschluß.
 
-Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
-lichtes Fünffeck eingeschrieben. W. Z. M.
+Ist also ein gleichschencklichtes Dreyeck abd verfertiget/dessen
+Gipffelswinckel dab halb so groß/als einer von den Grundwinckeln
+dba oder bda. W. Z. M.
 
-## Der XII. Vortrag.
+## Der XI. Vortrag.
 
-## Das 12. Werckstück.
+## Das 11. Werck-Stück.
 
-Umb einen gegebenen Kreyß ein gleichseitig
-und gleichwincklicht Fünffeck zubeschreiben.
+In den gegebenen Kreyß ein gleichseitig und
+gleichwincklicht Fünffeck einzuschreiben.
 
 ### Gegebenes. — Begehrte.
-Kreyß ghikl — 1. Fünffeck bcdef
-2. dem gegebenen Kreyß ümb-
-schrieben.
+Kreyß bcdae. — 1. Gleichseitig- und gleichwincklicht Fünffeck
+2. dem Kreyß eingeschrieben.
 
-<!-- Catchword: Wir- -->
+[Diagram: links ein gleichschencklichtes Dreyeck A B C mit punktierten Bögen; rechts ein Kreis mit einbeschriebenem Fünffeck b c d a e, dessen Ecken durch Zwergstriche (Pentagramm) verbunden sind, unten punktierte Bögen]
+
+### Wirckung.
+
+1. Werde ein gleichschencklicht Dreyeck ABC gemachet/ dessen
+Gipffelwinckel A halb so groß sey/ als einer von den Grundwin-
+ckeln B oder C, n. 10. IV.
+2. Dem gegebenen Kreyß werde ein Dreyeck abc gleichwinck-
+licht dem Dreyeck ABC eingeschrieben/ n. 2. IV.
+
+<!-- Signature: Ee 2 -->
+<!-- Catchword: 3. Der -->

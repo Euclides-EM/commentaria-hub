@@ -1,35 +1,40 @@
-<!-- Page number: 73 -->
+<!-- Page number: 72 -->
 
-<!-- Running title: Euclidis. -->
-
-### Gegebene. | Begehrte.
-1. △ ABC | 1. CE durch die Gipffel der △ △
-2. △ FEH | 2. CE ⟛ AH
-3. ABC ⩓ FEH
-4. Grundstriche AB | FH
-5. Gleichmässiger Stand derer △ △.
-
-[Diagram: zwey Dreyecke auff dem Strich A, B, F, H, mit den Puncten C, D, E, G oben, mit gezogenen und punctirten Strichen]
-
-### Beweiß.
-
-Wenn der Nebenstrich des Striches AH nicht durch den Gipffel E gehet/ so ziehe man einen andern.
-
-### Vorbereitung.
-
-1. Werde auß C, entgegen AH, der Nebenstrich CD gezogen/ nach 31. Vortrag.
-2. Verlänge man die Seite HE biß D.
-3. Ziehe man den Strich FD.
+<!-- Running title: Das I. Buch -->
 
 ### Verfolg des Beweises.
 
-CD ⟛ AH n. 1. Vorbereit.
-AB | FH n. 4. Gegeb.
-Dw. ABC ⩓ FDH n. 38. Vortr.
-ABC ⩓ FEH n. 3. Gegeb.
-Dw. FEH ⩓ FDH n. 1. Grund-Satz.
-welches aber unmöglich n. 9. Gr:S.
+CE ⟛ AB n. 1. Vorbereit.
+Dw. CAB ⩓ EAB n. 37. Vortr.
+CAB ⩓ DAB n. 3. Gegeb.
+Dw. EAB ⩓ DAB n. 1. Gr:S.
+welches unmöglich n. 9. Gr:S.
 
-<!-- Signature: K -->
+### 2. Begebenheit.
 
-<!-- Catchword: Gleiche -->
+### Vorbereitung.
+
+1. Man ziehe entgegen dem Strich AB, den Nebenstrich FC.
+2. Ziehe man den Strich AF.
+
+### Beweiß.
+
+CF ⟛ AB n. 1. Vorbereit.
+Dw. CAB ⩓ FAB n. 37. Vortr.
+CAB ⩓ DAB n. 3. Gegeb.
+Dw. DAB ⩓ FAB n. 1. Gr:S.
+welches unmöglich n. 9. Gr:S.
+
+Weßwegen kein ander Nebenstrich/ als durch den Gipffel D kan gezogen werden.
+
+### Beschluß.
+
+Müssen also allezeit gleichgrosse und auff gleichlangen Grundstrichen stehende △ △ auch zwischen einerley Nebenstrichen stehen. W. Z. B.
+
+## Der XL. Vortrag.
+
+## Das 30. Beweiß-Stück.
+
+Gleich-große und auff gleich-langen Grundstrichen stehende Dreyecke / stehen auch zwischen einerley Nebenstrichen.
+
+<!-- Catchword: Ge- -->

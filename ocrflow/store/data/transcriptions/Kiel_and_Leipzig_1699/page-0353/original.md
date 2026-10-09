@@ -1,40 +1,42 @@
-<!-- Page number: 337 -->
+<!-- Page number: 336 -->
 
-<!-- Running title: Euclidis. -->
-
-[Diagram: Strich A—C—B; darunter ein Winkel aus a mit den Punkten c, d oben und b, e, f auf dem unteren Schenkel]
-
-### Wirckung.
-
-1. Man ziehe den Strich af.
-2. Von diesem Strich werde abgeschnitten
-ab ⊤ AB
-3. Deßgleichen be ⊤ AC   n. 3. I.
-4. Aus a werde nach belibigem Winckel gezogen der Strich
-ad
-5. Von diesem Strich werde abgeschnitten
-ac ⊤ AC   n. 3. I.
-6. Es werde der Strich bc gezogen.
-7. Aus e werde gegen den Strich bc der gerade Nebenstrich ed gezogen n. 31. I.
+<!-- Running title: Das VI. Buch -->
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-|  | bc ⊤ ed | n. 7. Wirck. |
-| Dw. | ab : be ⊤ ac : cd | n. 2. VI. |
-|  | ac ⊤ be | n. 5. Wirck. |
-|  | ab ⊤ ab |  |
-| Dw. | ab : ac ⊤ ab : be | n. 7. V. |
-| u. | ab : ac ⊤ ac : cd | n. 11. V. |
-| oder | AB : AC ⊤ AC : cd | n. Anh. 7. V. |
+|  | b1 ⊤ o1 | n. 2. Wirck. |
+|  | b1 ⊤ o1 | n 3. und 4. Wirck. |
+| Dw. | ob ⊤ 11 | n. 33. I. |
+|  | cbo ⋏ ca1 | ⟩ n. 29. I. |
+|  | cob ⋏ c1a |  |
+|  | bco ⋏ ac1 | n. 8. Gr. I. |
+| Dw. | △ boc ähnlich △ ac1 | n 1. Besch. VI. |
+| u. | oc : o1 ⊤ bc : ba | n. 4. VI. |
 
-Dw. ist ce der dritte ebenmässige Strich.
+Gleicher Gestalt kan auch dargethan werden/ daß die übrigen Theile des gegebenen Striches / mit den andern Theilen des getheilten Striches / in richtiger Ebenmaß stehen.
 
 ### Beschluß.
 
-Ist also zu denen zweyen geraden Strichen ab und ac, oder AB und AC, der Dritte ebenmässige Strich cd gefunden. W. Z. M.
+Ist also der gegebene Ungetheilte Strich ag, oder FG oder BC also / wie der getheilte Strich AD, AG oder o4 getheilet/ W. Z. M.
 
-<!-- Signature: Uu -->
+## Der XI. Vortrag.
 
-<!-- Catchword: Der -->
+## Das 3. Werck-Stück.
+
+Zu zweyen gegebenen geraden Strichen den dritten ebenmässigen Strich zu finden.
+
+### Gegebene.
+
+1. Strich AB.
+2. AC.
+
+### Begehrtes.
+
+1. Der dritte Strich cd.
+2. Ebenmässig gegen die beyden
+
+AB : AC ⊤ AC : cd.
+
+<!-- Catchword: Wir- -->

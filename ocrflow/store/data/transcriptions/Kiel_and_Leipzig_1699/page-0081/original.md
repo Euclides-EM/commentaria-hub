@@ -1,37 +1,34 @@
-<!-- Page number: 65 -->
+<!-- Page number: 64 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-### Beschluß.
+## Der XXXIV. Vortrag.
 
-Werden also jedwedes Nebenstrichiches Viereckes entgegen stehende Seiten α. β. und gegen einander übergesetzte Winckel γ. ε. wie auch die durch den Zwerg-strich gemachte Dreyecke gleich groß seyn. W. Z. B.
+## Das 25. Beweiß Stück.
 
-## Der XXXV. Vortrag.
+Aller Nebenstrichichten Vier-Ecke gegen überstehende Seiten und Winckel sind gleich groß/ werden auch von dem Zwerg-Strich in zweene gleiche Theile getheilet.
 
-Das 25. Werck-Stück:
+### Gegebene. | Begehrte.
+Nebenstrichichtes Viereck ABCD | 1. AB | CD
+| 2. AC | BD
+| 3. A ⋀ D
+| 4. B ⋀ C
+| 5. ACD ⩓ ABD
 
-Alle auff einen einigen Grundstrich/und zwischen einerley Nebenstrichen stehende Nebenstrichiche Vierecke sind gleich groß.
-
-### 1. Begebenheit.
-
-### Gegebene. | Begehrtes.
-1. □ ABDC | ABDC ⌻ BCDE
-2. □ BCDE
-3. Der gemeine Grundstrich CD
-4. Die Nebenstriche AE=CD
-5. Zwischen welchen die □ □ stehen.
-
-[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten E, B, A oben und D, C unten]
+[Diagram: Nebenstrichichtes Viereck (Parallelogramm) ABCD mit punktirter Zwerg-Linie von A nach D]
 
 ### Beweiß.
 
-ABC ⩓ CDB
-BDE ⩓ CDB } n. 34. Vortr.
-Dw. ABC ⩓ BDE n. 1. Gr:S.
-CDB ⩓ CDB
-Dw. CDB + ABC ⩓ BDE + CDB n. 2. Gr:S.
-oder ABDC ⌻ BCDE n. 9. Gr:S. q.
+AB ⟛ CD n. 35. Beschr.
+Drw. BAD ⋀ ADC n. 29. Vortr.
+AC ⟛ BD n. 35. Beschr.
+Drw. CAD ⋀ ADB n. 29. Vortr.
+AD | AD
+α. Dw. AB | CD
+β. und AC | BD
+γ. und ABD ⋀ ACD
+δ. und ACD ⩓ ABD nach 26. Vortr.
+BAD + DAC ⋀ BDA + ADC n. 2. Gr:S.
+ε. oder BAC ⋀ BDC n. 9. Gr:S. q.
 
-<!-- Signature: I -->
-
-<!-- Catchword: 2. Be- -->
+<!-- Catchword: Be- -->

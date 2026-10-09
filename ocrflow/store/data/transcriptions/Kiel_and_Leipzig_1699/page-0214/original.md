@@ -1,36 +1,27 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 198 -->
+<!-- Page number: 197 -->
 
-[Diagram: Kreis mit Düttel a oberhalb; Striche von a durch den Kreis mit Punkten b, g, d, f, c, h, e]
+wird/eben so groß seyn/ als das Viereck der beeden Stücke bl, ld des andern Striches. W. Z. B.
 
-### Vorbereitung.
+## Der XXXVI. Vortrag.
 
-Aus dem Mittel-Düpffel ac werden gezogen.
-1. Der Strahl cg.
-2. Der Senckstrich cd.
-3. Ein Senckstrich cf auff den Schneidenden Strich ah n. 12. I.
+## Das 30. Beweiß-Stück.
 
-### I. Beweiß.
+Wenn man von einem ausser dem gegebenen Kreyß erwehlten Düttel zween gerade Striche zu dem Kreyß zeucht/ deren einer den Kreyß nur anrühret/ der andere aber selbigen schneidet: So wird das rechtwincklichte Viereck/ welches von dem gantzen schneidenden Strich/und dem Stück desselben/ so zwischen dem Düttel und aussern Kreyß-krümme stehet/ eben so groß seyn / als das rechtwincklichte Viereck/ das von dem Rührstrich kan gemacht werden.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | ▭ eab + □ bc | □ ac | n. 6. II. |
-|  | □ ad + □ dc | □ ac | n. 47. I. |
-| Dw. | □ ad + □ dc | ▭ eab + □ bc | n. 1. Gr. I. |
-|  | bc | dc | n. 15 B. I. |
-|  | □ bc | □ dc | n. 1. gr. t. II. |
-|  | □ ad + □ dc + □ bc | ▭ eab + □ bc + □ dc | n. 2. Gr. I. |
-|  | □ ad | ▭ eab | n. 3. Gr. I. |
+### Gegebene. | Begehrtes.
 
-### II. Beweiß.
+1. Kreyß edgh. | 1. ▭ ha, ag | □ ad
+2. Düttel a. | 2. ▭ ea, ab | □ ad
+3. Ausser dem Kreyß erwehlet.
+4. Gerade Striche ad, ae, ah.
+5. Von dem Düttel a gezogen.
+6. Also daß ad den Kreyß anrühre.
+7. ah den Kreyß in g,
+8. Und ae denselben in b schneide /
+9. Zugleich aber durch den Mittel-Düpffel c gehe.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | □ ad + □ dc | □ ac |  |
-|  | □ ac | □ af + □ fc | n. 47. I. |
-| Dw. | □ ad + □ dc | □ af + □ fc | n. 1 Gr. I. |
-|  | □ fc + □ fg | □ gc oder □ dc | n. 47. I. |
-| Dw. | □ ad + □ dc + □ fc + □ fg | □ af + □ fc + □ dc | n 2. Gr. I. |
+<!-- Signature: Bb 3 -->
 
-<!-- Catchword: Dw. -->
+<!-- Catchword: Vor- -->

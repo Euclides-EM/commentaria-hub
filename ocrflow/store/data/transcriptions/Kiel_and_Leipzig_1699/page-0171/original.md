@@ -1,34 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 155 -->
+<!-- Page number: 154 -->
 
-[Diagram: Kreis mit Mittel-Düpffel a, oben die Sehne cb mit Punkt g, unten die Sehne de mit Punkt f, punktierte Linien von a nach b und e]
+### Beschluß.
 
-### Beweiß.
+Derowegen kan auff keinerley Weise ein Kreyß den andern in mehr/als einem Düttel anrühren. W. Z. B.
 
-cb | de — n. 4. Geg.
-cg | gb
-df | fe — n. 2. Vorher.
-Dw. gb | fe — n. 7. Gr. n. I.
-ab | ae — n. 15. Beschr. I.
-bga ∠ ∟
-afe ∠ ∟ — n. 3. Vorb. n. 10. Besch. I.
-Dw. □ ab | □ ae
-und □ bg | □ ef — n. 1. Gr. t. II.
-Dw. □ ab — □ bg | □ ae — □ ef — n. 3. Gr. I.
-□ ab — □ bg | □ ag — n. 47. I.
-Dw. □ ae — □ ef | □ ag — n. 1. Gr. I.
-□ ae — □ ef | □ af — n. 47. I.
-Dw. □ ag | □ af — n. 1. Gr. I.
-und ag gleich af — n. 2. Gr. u. II.
+## Der XIV. Vortrag.
 
-Dw. sind bc und de gleichweit von dem Mittel-Düpffel entfernet. n. 4. Beschr. III.
+## Das 13. Beweiß-Stück.
 
-Anderer Theil dieses Vortrags.
+Alle gleichlange gerade Striche in einem Kreyß/stehen gleichweit von dem Mittel-Düpffel ab. Und gleichweit von dem Mittel-Düpffel abstehende gerade Striche sind gleichlang.
 
-### Gegebene. Begehrtes.
+Erster Theil dieses Vortrages.
 
-1. Zween Senckstriche ag und af. — cb | de
+### Gegebene. Begerthes.
 
-<!-- Signature: V 2 -->
-<!-- Catchword: 2. Aus -->
+1. Der Kreyß edcb, — ag | af.
+2. Zween gerade Striche cb und de
+3. Jn dem gegebenen Kreyß/
+4. cb | de
+5. Die Senckstriche ag und af
+6. Aus dem Mittel-Düpffel a
+7. Auff die beeden Striche gezogen.
+
+### Vorbereitung.
+
+1. Aus dem Mittel-Düpffel a werden gezogen die Stralen ab und ae.
+2. Beede Striche werden in zween gleiche Theile geschnitten n. 10. I.
+3. Es werden auch die beeden Senckstriche ag, af gezogen. n. 12. I.
+
+<!-- Catchword: Be- -->

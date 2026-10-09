@@ -1,37 +1,35 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 255 -->
-
-## Des II. Theils
+<!-- Page number: 254 -->
 
 ### Gegebene. — Begehrtes.
 
-[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
+[Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
 
-A ⊣ B — a : B ⊣ a : A.
+A ⊣ B — A : a ⊣ B : a
 A | 5a
 B | 3a
 
 ### Vorbereitung.
 
-1. Man nehme wiederümb a siebenmahl/
-2. Aber A zweymahl/
-3. Und B auch zweymahl.
+## Des I. Theils.
+
+1. Man nehme A zweymahl
+2. Wie auch B zweymahl
+3. Aber a siebenmahl.
+
+[Diagram: Drey waagerechte Linien, bezeichnet 2A, 7a, 2B]
 
 ### Beweiß.
 
-B | 3a — nach Gegeb.
-2B | 6a — n. 6 Gr. i. I.
-7a ⊣ 6a — n. 9. Gr. I.
-Dw. 7a ⊣ 2B — n. 1. Gr. a. I.
-A | 5a
-2A | 10a
-10a ⊣ 7a
-Dw. 2A ⊣ 7a
-Und a : B ⊣ a : A — n. 8. Beschr. V.
+A | 5a — n. Geg.
+2A | 10a — n. Vorber. u. 6. Gr. i. I.
+B | 3a — n. Geg.
+2B | 6a — n. Vorber. u. 6. Gr. i. I.
+7a ⊢ 10a — n. 9. Grund. I.
+2A ⊣ 7a — n. 1. Gr. c. I.
+7a ⊣ 6a — n 9. Grund. I.
+Dw. 2B ⊢ 7a — n. 1. Gr. a. I.
+Und A : a ⊣ B : a — n. 8. Beschr. V.
 
-### Beschluß.
-
-Derowegen ist allezeit die von ungleichen Grössen Grössere gegen die Dritte mehr vierfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vierfältig / als gegen die Grössere. W. Z. B.
-
-<!-- Catchword: Der -->
+<!-- Catchword: Des -->

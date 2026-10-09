@@ -1,33 +1,36 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 371 -->
-
-### Beschluß.
-
-Müssen derowegen die ähnliche/ gleicherweiß gesetzte/ und gleichmässigen Winckel habende abgenommene Vierecke mit dem gantzen ac üm einen einigen Zwergstrich stehen. W. Z. B.
-
-## Der XXVII. Vortrag.
-
-## Das 20. Beweiß-Stück.
-
-Wenn an einen gegebenen geraden Strich ein gegebenes nebenstrichichtes und mangelhafftes Viereck angeschlagen wird: So wird unter allen nebenstrichichten und dem mangelenden Viereck ähnlichen Vierecken dasjenige / welches an die Helffte des gegebenen geraden Striches angeschlagen wird/ das Grösseste seyn.
+<!-- Page number: 370 -->
 
 ### Gegebene.
 
-1. Gerader Strich ab
-2. Nebenstrichichtes Viereck ai
-3. □ ai an den Strich ab angeschlagen.
-4. Doch mangelhafft
-5. Uberschuß gb
-6. Mangelendes Viereck gc.
-7. bp die Helffte des Striches ab ap | bp.
-8. Viereck pe.
-9. an des Striches ab Helffte pb angeschlagen.
-10. □ pe ähnlich □ gc
+1. Nebenstrichichtes Viereck bd
+2. Abgenommenes Viereck eg
+3. □ eg ⎫ ähnlich ⎧ □ bd.
+4. ⎬ gleicher Weise gesetzt ⎨
+5. ⎭ gleichmässige Winckel habend ⎩
 
-### Begehrte.
+### Begehrtes.
 
-1. □ pe ⊣ □ ai
+[Diagram: Viereck a, g, i, b oben, e und f in der Mitte, d und c unten, mit Diagonalen und punctirten Linien]
 
-<!-- Signature: Aaa 2 -->
-<!-- Catchword: 2. Unter -->
+□ eg üm einen einigen Zwergstrich stehende mit □ bd.
+
+### Vorbereitung.
+
+Wenn □ eg nicht üm denselben Zwergstrich stehet/ so nehme man das □ ei, welches üm denselben Zwergstrich stehen sol.
+
+### Beweiß.
+
+□ ei stehet üm einen einigen Zwergstrich mit □ bd n. Angen.
+Dw. ist □ ei ähnlich □ bd n. 24. VI.
+u. ae : ai | ad : ab n. 1. Besch. VI.
+□ eg ähnlich □ bd n. 3. Geg.
+Dw. ae : ag | ad : ab n. 1. Besch. VI.
+u. ae : ag | ae : ai n. 11. V.
+ae | ae
+Dw. ag | ai n. 9. V.
+
+Welches aber unmüglich n. 9. Gr. I.
+
+<!-- Catchword: Beschluß- -->

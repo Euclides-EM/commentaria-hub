@@ -1,38 +1,31 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 382 -->
+<!-- Page number: 381 -->
 
-### Beweiß.
+### Wirckung.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | □ ad | □ am | n. 1. Wirck. |
-|  | □ ak | □ ak |  |
-| Dw. | □ ad — □ ak | □ m — □ ak | n. 3. Gr. |
-| oder | □ bd | □ hm |  |
-|  | bkd | [unclear: ⋀] hkm | n. 13. I. |
-| Dw. | □ hm wechselmässig □ bd |  |  |
-| und | hk : kd | bk : km | n. 14. VI. |
-|  | kd | be | n. 34. I. |
-|  | bi | be | n. 7. Wirck. |
-| Dw. | bi | kd | n. 1. Gr. I. |
-| und | hk : bi | bk : km | n. Anh. 7. V. |
-|  | be | bk | n. 29. Beschr. I. |
-|  | be | bi | n. 7. Wirck. |
-| Dw. | bi | bk | n. 1. Gr. I. |
-| und | hk : bi | bi : km | n. Anh. 7. V. |
-|  | hk | ab | n. 34. I. |
-| Dw. | ab : bi | bi : km | n. Anh. 7. V. |
-|  | bm | ba | n. 29. Besch. I. |
-|  | bk | bi | n. 7. Wirck. |
-| Dw. | bm — bk | ba — bi | n. 3. Gr. I. |
-| oder | km | ia |  |
-| und | ab : bi | bi : ia | n. Anh. 7. V. |
+1. An den Strich ab werde ein übertreffendes nebenstrichichtes Viereck/ welches dem gleichseitigen Viereck des Striches ab sampt dem gleichseitigen Viereck des halben Striches bc gleichmässig sey/ also angeschlagen/ daß der Uberschuß □ be ähnlich sey dem □ ab. n. 29. VI.
 
-Dw. ist ab im i nach der äusersten und mittelsten Verhältnüß getheilet. n. 3. Beschr. VI.
+2. Von dem Strich ba werde das Stück bi gleichmässig dem überflüssigen Stück be. abgeschnitten n. 3. I. bi | be
 
-### Beschluß.
+Die Anschlagung kan also verrichtet werden.
 
-Ist also der Strich ab nach äuserster und mittelsten (secundùm mediam & extremam) Verhältnüß getheilet. W. Z. M.
+1. Der Strich ab wird in zween gleiche Theile ac | cb getheilet. n. 10. I.
 
-<!-- Catchword: Andere -->
+2. Auf die Helffte bc wird ein gleichseitiges □ gesetzet. n. 46. I.
+
+3. Werde ein denen beyden □ ab + □ bc gleichmässiges und
+
+4. Dem □ bc ähnliches Viereck gemacht. n. 25. VI.
+
+(nemlich man verwandele (1) das □ bc in ein □ nach einem rechten Winckel/ und nach dem Strich ab. n. 43. I. damit man es dem □ ab beyfügen könne (2) findet man zwischen der Länge ab + ½bc nnd der Breite ab des zusammengesetzten Viereckes den mitlern ebenmässigen Strich ce n. 13. VI. (3) auf diesen Strich ce wird ein gleichseitiges Viereck gesetzet n. 46. I.)
+
+5. Solch dem □ bc ähnlich gemachtes □ ce wird an den halben Strich nemlich cb also angeschlagen/ daß der Uberschuß dem Viereck ab ähnlich sey. n. 29. VI. nemlich man setzet die Länge f biß g, und setzet auf den Strich fg ein gleichseitiges Viereck. n. 46. I.
+
+6. Den Strich ab verlänget man biß e.
+
+7. Die Länge be schneidet man von dem Strich ba ab n. 3. I. so bekommt man den Düttel i, welcher den Strich ab begehrter massen theilet.
+
+<!-- Signature: Bbb 3 -->
+
+<!-- Catchword: Beweiß. -->

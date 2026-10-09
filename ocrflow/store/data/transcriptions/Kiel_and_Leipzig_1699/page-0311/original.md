@@ -1,41 +1,20 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 295 -->
+<!-- Page number: 294 -->
 
-### Begehrtes.
-A : C ⊣ a : c
+### Beschluß.
+Wenn derowegen VI. Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die IV. zu der V. auch die II. zu der III. eine grössere Verhältnüß / als die V. zu der Sechsten hat: So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
 
-### Vorbereitung.
-1. Man nehme eine Grösse D darzu / welche sich zu C wie a zu b verhalte.
+## Der XXXII. Vortrag.
+## Das 32. Beweiß-Stück.
 
-D : C | a : b
+Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darzu genommen werden. Unter den Ersten dreyen aber die Erste zu der Andern eine grössere Verhältnüß hat / als in der andern Ahrt die Andere zu der Dritten. Deßgleichen unter der Ersten die Andere zu der Dritten eine grössere Verhältnüß hat / als unter den Andern die Erste zu der Andern; So wird auch nach der Gleichheit die Erste der ersten Ahrt zu der Dritten selbiger Ahrt eine grössere Verhältnüß haben / als die Erste der andern Ahrt zu der Dritten solcher Ahrt.
 
-2. Auch nehme man die Grösse d, welche sich zu D, wie b zu c verhalte.
+### Gegebene.
 
-d : D | b : c.
+[Diagram: sechs waagerechte Linien A, B, C, a, b, c von unterschiedlicher Länge]
 
-[Diagram: drei waagerechte Linien C, D, d von unterschiedlicher Länge]
+A : B ⊣ b : c
+B : C ⊣ a : b
 
-### Beweiß.
-
-|  |  |  |  |
-|---|---|---|---|
-|  | D : C | \| a : b | n 1. Vorb. |
-|  | B : C | ⊣ a : b | n. Geg. |
-| Dw. | B : C | ⊣ D : C | n. Anh. 13. V. |
-| u. | D | ⊢ B | n. 10. V. |
-|  | A | \| A |  |
-| Dw. | A : D | ⊣ A : B | n. 8. V. |
-|  | b : c | ⊢ A : B | n. Gegeb. |
-| Dw. | A : D | ⊣ b : c | n. 2. Anh. 13. |
-|  | d : D | \| b : c | n 2. Vorb. |
-| Dw. | A : D | ⊣ d : D | n. Anh. 13. V. |
-| u. | A | ⊣ d | n. 10. V. |
-|  | C \| | C |  |
-| Dw. | A : C | ⊣ d : C | n 8. V. |
-|  | d : D : | \| b : c |  |
-|  | D : C | \| a : b | } n Vorb. |
-| Dw. | d : C | \| a : c | n. 22 V. |
-| u. | A : C | ⊣ a : c | n. Anh. 13. V. |
-
-<!-- Catchword: Be- -->
+<!-- Catchword: Begehrtes. -->

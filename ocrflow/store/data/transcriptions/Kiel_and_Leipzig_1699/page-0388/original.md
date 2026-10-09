@@ -1,34 +1,33 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 372 -->
+<!-- Page number: 371 -->
 
-2. Unter allen an den Strich ab angeschlagenen nebenstrichichten Vierecken/ das an den halben Strich pb angeschlagene Viereck pe grösser/ als alle andere mangelhaffte an den Strich ap angeschlagene Vierecke.
+### Beschluß.
 
-[Diagram: Viereck q, a, p, g unten mit den Punkten d, e, c, i, b, teils mit punctirten Linien gezeichnet]
+Müssen derowegen die ähnliche/ gleicherweiß gesetzte/ und gleichmässigen Winckel habende abgenommene Vierecke mit dem gantzen ac üm einen einigen Zwergstrich stehen. W. Z. B.
 
-### Vorbereitung.
+## Der XXVII. Vortrag.
 
-1. Aus dem Düttel b werde gegen aq ein gerader Nebenstrich be gezogen. n. 31. I.
+## Das 20. Beweiß-Stück.
 
-2. Biß zu diesem Strich be werde fortgezogen der Strich qic.
+Wenn an einen gegebenen geraden Strich ein gegebenes nebenstrichichtes und mangelhafftes Viereck angeschlagen wird: So wird unter allen nebenstrichichten und dem mangelenden Viereck ähnlichen Vierecken dasjenige / welches an die Helffte des gegebenen geraden Striches angeschlagen wird/ das Grösseste seyn.
 
-3. Aus p werde auch ein Nebenstrich pd gegen aq gezogen. n. 31. I.
+### Gegebene.
 
-4. Biß zu diesem Strich pd werde aus b durch i der Strich bd gezogen.
+1. Gerader Strich ab
+2. Nebenstrichichtes Viereck ai
+3. □ ai an den Strich ab angeschlagen.
+4. Doch mangelhafft
+5. Uberschuß gb
+6. Mangelendes Viereck gc.
+7. bp die Helffte des Striches ab ap | bp.
+8. Viereck pe.
+9. an des Striches ab Helffte pb angeschlagen.
+10. □ pe ähnlich □ gc
 
-5. Aus d werde gegen qc ein Nebenstrich biß an den Strich be, nemlich de gezogen. n. 31. I.
+### Begehrte.
 
-6. Endlich werde der Strich gi biß zu dem Strich de verlängert.
+1. □ pe ⊣ □ ai
 
-### Beweiß.
-
-□ pi | □ ie n. 43. I.
-□ gc | □ gc
-Dw. □ pi + □ gc | □ ie + □ gc n. 2. Gr. I.
-oder □ pc | □ ge n. 9. Gr. I. q.
-ap | pb n. 7. Geg.
-Dw. □ pq | □ pc n. 1. VI.
-u. □ pq | □ ge n. 1. Gr. I.
-□ pi | □ pi
-
-<!-- Catchword: Dw. -->
+<!-- Signature: Aaa 2 -->
+<!-- Catchword: 2. Unter -->

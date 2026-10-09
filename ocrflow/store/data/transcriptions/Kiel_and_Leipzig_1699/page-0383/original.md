@@ -1,34 +1,38 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 367 -->
+<!-- Page number: 366 -->
 
-Dw. AC : CB | AF : FE n. 2. VI.
-u. □ DC ähnlich □ FG n. 1. Besch. VI.
-
-Gleicher Gestalt sind auch
-
-□ DC ähnlich □ HI
-□ FG - - □ HI. n. 21. VI.
-
-### Beschluß.
-
-Sind also in jedwedem Nebenstrichichten Viereck die üm den Zwergstrich stehende Vierecke nicht allein unter sich/ sondern auch dem grossen Viereck ähnlich. W. Z. B.
-
-## Der XXV. Vortrag.
-
-## Das 7. Werck-Stück.
-
-Einer gegebenen geradstrichichten Gestalt eine ähnliche und eben so gesetzte Gestalt/ die auch einer andern gegebenen Gestalt gleichmässige sey/ zu verfertigen.
+üm den Zwerg-strich stehende Viereck so wol dem Gantzen/ als auch unter sich gleichähnlich.
 
 ### Gegebene.
 
-1. Geradstrichichte Gestalt B
-2. und A
+1. □ ADBC
+2. Um den Zwergstrich stehende □ FG und □ HI.
 
 ### Begehrte.
 
-1. Die Gestalt L | B
-2. ⬠ L ähnlich ⬠ A
-3. und eben so gesetzt.
+1. □ DC ⎫ ⎧ □ FG
+2. □ DC ⎬ ähnlich ⎨ □ HI
+3. □ FG ⎭ ⎩ □ HI
 
-<!-- Catchword: Wirckung. -->
+[Diagram: schiefwinckliges Viereck ADBC mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, nebst Diagonale und inneren Linien]
+
+### Beweiß.
+
+DAC ⋀ GAF n. 8. Gr. I.
+ADB ⋀ AGE
+ACB ⋀ AFE n. 29. I.
+DAC ⋀ CBD
+DAC ⋀ GEF n. 34. I.
+CBD ⋀ GEF n. 1. Gr. I.
+Dw.
+u. □ DC gleichwincklicht □ FG
+
+Gleicher Gestalt ist auch
+
+□ DC gleichwincklicht □ HI
+GE ⧧ DB n. Geg. u. n. 30. Besch. I.
+Dw. AG : AD | GE : DB n. 2. VI.
+AC ⧧ EH n. Geg.
+
+<!-- Catchword: Dw. -->

@@ -1,36 +1,41 @@
-<!-- Page number: 41 -->
+<!-- Page number: 40 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch. -->
 
-### Gegebene. Begehrte.
-1. △ ABC
-2. ACB ⲗ ABC. 1. AC ⊢ AB.
-3. BCA ⲗ BAC. 2. BA ⊢ BC.
-4. ABC ⲗ BAC. 3. AC ⊢ BC.
-
-[Diagram: Rechtwinkliges Dreieck mit C oben, A unten links, B unten rechts.]
+### 2. Vorbereitung.
+1. Von der Seite BA werde abgeschnitten BE | BC n. 3. Vortr.
+2. Werde gezogen der Strich EC
 
 ### Beweiß.
-Es sind die Seiten AC | AB
-oder AC ⊣ AB
-oder AC ⊢ AB.
-Sind AB | AC, so sind auch ACB ⋀ ABC n. 5. Vortrag.
-welches nicht seyn kan / nach 2. Gegebenem
-Ist aber AB ⊢ AC
-so ist auch ACB ⲗ ABC n. 18. Vortr.
-welches abermal nicht seyn kan / n. 2. Gegeben.
-Muß also AB ⊣ AC
-damit auch ACB ⲗ ABC n. 2. Gegeb.
-Gleiche Bewandniß hat es auch mit den andern Seiten und Winckel.
 
-### Beschluß.
-Solcher Gestalt muß in jedwedem △ der grösseste Winckel der längsten Seite gegenüber stehen. W. Z. B.
+AB ⊣ BC n. 4. Gegeb.
+BE | BC n. Vorber.
+BEC ⋀ BCE n. 5. Vortr.
+BEC ⲗ BAC n. 16. Vortr.
+Drw. BCE ⲗ BAC n. 1. Gr-S. c.
+BCA ⲗ BCE n. 9. Gr-S.
+Drw. BCA ⲗ BAC n. 1. Gr-S. e.
 
-## Der XX. Vortrag.
+### 3. Vorbereitung.
+1. Von der Seite CA werde abgeschnitten CF | CB n. 3. Vortr.
+2. Werde gezogen der Strich BF.
 
-## Das 13. Beweiß-Stück.
+### Beweiß.
 
-In jedwedem Dreyeck sind zwo Seiten zu-
+CA ⊣ CB n. 3. Gegeb.
+CF | CB n. Vorber.
+BFC ⋀ CBF n. 5. Vortr.
+BFC ⲗ BAC n. 16. Vortr.
+Dw. CBF ⲗ BAC n. 1. Gr-S. c
+CBA ⲗ CBF n. 9. Gr-S.
+Dw. CBA ⲗ BAC n. 1. Gr-S. e
 
-<!-- Signature: F -->
-<!-- Catchword: sam- -->
+Ist also jedwedes △es längste Seite / über den grössesten Winckel gespannet. W. Z. B.
+
+## Der XIX. Vortrag.
+
+## Das 12. Beweiß-Stück.
+
+Jedwedes Dreyeckes grössester Winckel ist der längsten Seite entgegen gesetzet.
+
+<!-- Catchword: Ge- -->

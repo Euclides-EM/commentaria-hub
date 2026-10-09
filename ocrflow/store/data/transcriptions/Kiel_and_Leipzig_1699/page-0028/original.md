@@ -1,26 +1,25 @@
 <!-- Running title: Axiomata. -->
 
-<!-- Page number: 12 -->
+<!-- Page number: 11 -->
 
-VI. Diejenigen (zwey) Dinge ab und cd / welche zweyfach grösser sind / als das dritte ef/ dieselbigen ab und cd sind einander gleich.
+III. Wenn man von (zwey) gleichen Dingen ab und cd (zwey) gleiche Stücke eb und id abnimmt / so bleiben (zwey) gleiche Stücke ae und ci übrig.
 
-[Diagram: drei Striche a–b, e–f (kürzer), c–d]
+[Diagram: zwei Striche a–e–b und c–i–d]
 
-(i) Wenn (zwey) Dinge ab und cd zwiefach so groß sind/als (zwey) andere gleiche Dinge ef und im / sind die beeden ersten ab und cd auch einander gleich.
+IV. Wenn man (zwey) ungleichen Dingen ab und cd (zwey) gleiche Stücke be und cf beyfüget/ so werden die (zwey) Gantzen ae und df auch ungleich.
 
-[Diagram: vier Striche a–b, e–f, i–m, c–d]
+[Diagram: zwei Striche a–b–e und d–c–f]
 
-(k) Wenn ein Ding ab zweymal so groß ist / als das eine cd ( zweyer gleichen Dinge cd und ef/ ) so ist ab auch zweymal so groß/ als das andere ef.
+(g) Wenn man ( zwey ) ungleiche Dinge ac und ef zu ( zwey ) ungleichen Dingen ab und ed setzet/und zwar das Grosse ac dem Grossen ab/ das Kleiner ef aber dem Kleinern de beyfüget / so werden die beeden Gantzen auch ungleich / und zwar jenes bc Grösser / dieses df aber Kleiner.
 
-[Diagram: drei Striche a–b (lang), c–d, e–f (kürzer, gleich lang)]
+[Diagram: zwei Striche b–a–c und d–e–f]
 
-(l) Eben dieses gehet auch bey denen Dingen ef an / welche drey-vier-oder mehr-mal grösser oder kleiner sind.
+V. Wenn man von ( zwey ) ungleichen Dingen bc und df (zwey) gleiche Stücke ab und ef abnimmt / so bleiben ( zwey ) ungleiche Stücke ba und de übrig.
 
-[Diagram: links drei Striche a–b, e–f (kurz), c–d; rechts drei Striche e–f (lang), a–b (kurz), c–d (kurz)]
+[Diagram: zwei Striche a–c–b und d–e–f]
 
-VII. Wenn (zwey) Dinge ab und cd halb so groß sind /als das dritte ef/ so sind sie unter einander gleich.
-(m) Welche ab und cd gleich groß sind/ die sind auch halb so groß / als das dritte ef.
+(h) Wenn man von (zwey) ungleichen Dingen db und ef (zwey) ungleiche Stücke ab und cf abnimt / und zwar das Kleinere ab von dem Grossen bd / das Grössere cf aber von dem Kleinen ef/ so bleiben (zwey) ungleiche Stücke übrig / nemblich jenes da Grösser/ dieses ce Kleiner.
 
-[Diagram: drei Striche a–b, c–d (gleich lang), e–f (doppelt so lang)]
+[Diagram: vier Striche mit den Bezeichnungen d, a–b, c–f, e]
 
-<!-- Catchword: (n) Wenn -->
+<!-- Catchword: VI. -->

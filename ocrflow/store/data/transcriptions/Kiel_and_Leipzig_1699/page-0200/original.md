@@ -1,39 +1,34 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 184 -->
+<!-- Page number: 183 -->
 
-### V. Beweiß.
+[Diagram: Kreyß mit den Punckten d, a, b, c und e unten; der Strich dc, die Striche db und cb punctirt]
 
-|  |  |  |
-|---|---|---|
-|  | bcd ⋀ ∟ | n 1. Bew. |
-| Dw. | bce ⋀ ∟ | n. 13. 1. |
-|  | bcb ⋀ bce | n. 9. Gr. I. |
-| Dw. | bcb ⋀ ∟ | n. 1. Gr. b. I. |
+### Vorbereitung.
+1. Werde durch den Mittel-Düpffel der Durchschlag bd,
+2. Wie auch der Strich bc gezogen.
 
-### Beschluß.
+### IV. Beweiß.
+dcb ⋀ ∟   n. 1. Bew.
+dce ⊢ dcb   n. 9. Gr. I.
+Dw. dce ⊢ ∟   n. 1. Gr. b. I.
 
-Müssen also 1. Im Halb-Kreyß stehende Winckel alle Rechte /
-2. In grössern/als Halb-Kreysen/stehende Winckel spitzig/
-3. In kleinern Kreyßstücken aber stumpffe Winckel seyn.
-4. Grösserer Kreyßstücke Winckele sind grösser/
-5. Kleinerer Kreyßstücke Winckele aber sind kleiner/ als
-rechte Winckel. W.Z.B.
+### V. Begebenheit.
 
-## Der XXXII. Vortrag.
+### Gegebene.
+1. Kreyß bhcdb.
+2. Kreyßstück bhc.
+3. ⌓ bhc ⊣ Halbkreyß:
+4. hcb Kreyßstücks-Winckel.
 
-## Das 18. Beweiß-Stück.
+### Begehrtes.
+hcb [unclear: ⊣] ∟
 
-Wann einen Kreyß ein gerader Strich anrühret / und von dem Rühr-Düpffel ein gerader Strich gezogen/den Kreyß schneidet; so werden die Winckel / welchen solcher Strich mit dem Rühr-Strich macht/ gleichgroß seyn mit denen/ in den abgewendeten Kreyß-Stücken stehenden Winckeln.
+[Diagram: Kreyß mit der Sehne bc oben, darüber der Punckt h; e ausserhalb neben c; unten der Punckt d; der Strich cd punctirt und biß e verlängert]
 
-### Gegebene. | Begehrte.
+### Vorbereitung.
+1. Werde durch den Mittel Düpffel der Durchschlag bd,
+2. Wie auch der Strich cd gezogen/
+3. Und biß zu e verlängert.
 
-1. Kreyß afgda. | bae ⋀ eda.
-2. Rühr-Strich bac. | eac ⋀ efa.
-3. Rühr-Düpffel a.
-4. Vom Rühr-Düpffel gezogener Striche ae.
-5. Welcher den Kreyß in e schneidet.
-6. Von b abgewandter Winckel eda.
-7. Von c - - - - - : efa.
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: V. Be- -->

@@ -1,34 +1,36 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 52 -->
+<!-- Page number: 51 -->
 
-werden die übrigen Seiten / denen übrigen Seiten / jedwede jedweder / und der übrige Winckel/ dem übrigen Winckel auch gleich seyn.
+3.  AB + AC | ab + ac
+4.  AB      | ab
+5.      AC  |     ac
+6.  CB      ⊢     bc
 
-### Gegebene.                    Begehrte.
-1. △ ABC                     A ⋏ a
-2. △ abc                     AB | ab
-3. BC | bc                   AC | ac
-4.   B ⋏ b
-5.   C ⋏ c    Beweiß.
+[Diagram: Zwei Dreiecke ABC und abc nebeneinander]
 
-Entweder ist   AB ⊢ ab
-oder           AB ⊣ ab
-oder           AB | ab
+### Beweiß.
 
-[Diagram: Zwei Dreiecke: links ABC, rechts abc mit punktierten Linien und Punkten d und h]
+Entweder ist   BAC ⋏ bac
+oder           BAC ⊼ bac
+oder           BAC ⊼ bac
 
-### Vorbereitung.
+Wann BAC ⋏ bac      So ist BC | bc
+        n. 4. Vortr. welches wider 6. Gegeb.
+ist aber BAC ⊣ bac      So ist BC ⊣ bc
+        n. 24. Vortr. welches auch wider 6. Gegeb.
+Dw. muß BAC ⊼ bac
 
-Wann AB ⊣ ab so werde ba verlängert / biß zu dem Düttel h, damit bh | AB.
+### Beschluß.
 
-### Verfolg des Beweises.
+Ist also jederzeit in dem △, dessen Grund-Seite grösser / als des andern / auch der Winckel grösser/als in dem andern △. W. Z. B.
 
-     ab ⊢ AB              nach Angenommen.
-bh        | AB            n. Vorbereit.
-     bc |      BC         n. 3. Gegeben.
-bh + bc | AB + BC         n. 2. Gr-S.
-   hbc    ⋏    ABC        n. 4. Gegeben.
-Dw. hcb   ⋏    ACB        n. 4. Vortr.
-    acb   ⋏    ACB        n. 5. Gegeb.
+## Der XXVI. Vortrag.
 
-<!-- Catchword: Dw. -->
+## Das 17. Beweiß-Stück.
+
+Wann zwey Dreyecke zween Winckel/zweyen Winckeln / jedweden jedwedem / und eine Seite der einen Seite gleich haben / es sey gleich / daß die Seite einem der beeden Winckel übergespannet/oder neben den beeden Winckeln stehet : So
+
+<!-- Signature: G 2 -->
+
+<!-- Catchword: wer- -->

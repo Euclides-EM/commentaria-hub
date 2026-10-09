@@ -1,28 +1,34 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 324 -->
 
-<!-- Page number: 325 -->
+<!-- Running title: Das VI. Buch -->
 
-## Der VII. Vortrag.
+### Beweiß.
 
-## Das 7. Beweiß-Stück.
+deg ⋏ bac
+gde ⋏ abc   n. Vorber.
+α Dw. | egd ⋏ acb | n. 26. I.
+u. | ba : ac | de : eg | n. 4. VI.
+| ba : ac | de : ef | n. 3. Geg.
+Dw. | de : ef | de : eg | n. 11. V.
+β u. | ef | eg | n. 9. V.
 
-Wenn zwey Dreyecke sind / da des einen Winckel einem des andern Dreyeckes Winckel gleichmässig ist / die übrigen Winckel aber von ebenmässigen Seiten begriffen werden; Solcher beeden Winckel auch jeder entweder kleiner / oder nicht kleiner / als ein rechter Winckel ist : So werden solcher Dreyecke Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / die Dreyecke auch selbst gleichwincklicht seyn.
+| deg ⋏ bac | n. Vorber.
+| def ⋏ bac | n. Geg.
+Dw. | deg ⋏ def | n. 1. Gr. I.
+| ef | eg | n. Bew. β.
+| de | de |
+Dw. | ef + de | eg + de | n. 2. Gr. I.
+u. | egd ⋏ efd |
+γ u. | gde ⋏ edf | n. 4. I.
+| egd ⋏ acb | n. Bew. α
+Dw. | acb ⋏ efd | n. 1. Gr. I.
+| gde ⋏ abc | n. Vorber.
+| gde ⋏ edf | n. Bew. γ
+Dw. | abc ⋏ edf | n. 1. Gr. I.
+u. | △ abc gleichwincklicht △ edf | n. 1. Beschr. VI.
 
-### I. Gegebene.
+### Beschluß.
 
-1. Zwey Dreyecke abc, def.
-2. bac ⋏ edf
-3. cba ⋏̸ [unclear: ∟]
-4. def ⋏̸ [unclear: ∟]
-5. ac : cb | df : fe.
+Wenn derowegen in zweyen Dreyecken zweene gleichmässige Winckel befindlich / und des einen Winckels Seiten mit den beyden Seiten des andern Winckels ebenmässig sind / so werden solche Dreyecke auch im übrigen gleichmässige Winckel / welche ebenmässigen Seiten gegen überstehen / haben / und durchaus gleichwincklicht seyn. W. Z. B.
 
-### Begehrte.
-
-abc ⋏ def
-acb ⋏ dfe
-△ abc gleichwincklicht △ def.
-
-[Diagram: zwei Dreiecke, links def, rechts abc mit punktierter Linie von g nach c]
-
-<!-- Signature: Ss 3 -->
-<!-- Catchword: Vorbe- -->
+<!-- Catchword: Der -->

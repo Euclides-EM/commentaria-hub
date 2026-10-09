@@ -1,23 +1,25 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 374 -->
+<!-- Page number: 373 -->
 
-### Begehrtes.
+Dw. □ pq + □ pi | □ ge + □ pi n. 2. Gr. I.
+oder □ ai | ⊾ eip n. 9. Gr. I. q.
+□ pe - | ⊾ eip n. 9. Gr. I.
+Dw. □ pe - | □ ai n. 1. Gr. I. a.
 
-1. Der gerade Strich AB.
-2. Geradstrichichte Gestalt X.
-3. ander nebenstrichichtes Viereck D.
-4. Gestalt X nicht grösser/ als das an den halben Strich angeschlagene Viereck Eg.
-5. Welches dem mangelenden Viereck rs ähnlich ist.
+Auch alle andere mangelhaffte Vierecke sind kleiner/ als das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck.
 
-### Begehrte.
+### Beschluß.
 
-1. Mangelhafftes □ Ap
-2. □ Ap | △ X.
-3. □ Ap an den Strich AB angeschlagen.
-4. Das mangelende □ pB.
-5. □ pB ähnlich □ D.
+Ist derowegen das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck grösser/ als alle andere mangelhaffte an den gegeben Strich angeschlagene Vierecke. W. Z. B.
 
-[Diagram: oben eine Gestalt X mit Dreieck und Punkt H, daneben ein Viereck D und ein Viereck mit den Punkten A, S, B, g; darunter nochmals die Gestalt X mit den Punkten k, l, q, m, h, daneben Viereck D mit punctirter Diagonale; unten ein Viereck mit den Punkten c, o, g, u, r, q, n, p, A, c, E, s, B, m nebst punctirtem Halbkreis]
+## Der XXIIX. Vortrag.
 
-<!-- Catchword: Wir- -->
+## Das 8. Werck-Stück.
+
+An einen gegebenen geraden Strich ein nebenstrichichtes Viereck/ welches einer gegebenen geradstrichichten Gestalt gleichmässig sey/ also anzuschlagen/ daß es mangelhaft/ und das mangelende nebenstrichichte Viereck einem andern gegebenen nebenstrichichten Viereck ähnlich sey.
+
+Es muß aber die gegebene geradstrichichte Gestalt / welcher das nebenstrichichte Viereck / so anzuschlagen ist / gleichmässig seyn sol/ nicht grösser seyn / als dasjenige Viereck / welches an die Helffte des gegebenen Striches kan angeschlagen werden: und solches an die Helffte des Striches angeschlagene Viereck / wie auch das mangelende / und die andere gegebene nebenstrichichte Viereck sind alle einander ähnlich.
+
+<!-- Signature: Aaa 3 -->
+<!-- Catchword: Begehr- -->

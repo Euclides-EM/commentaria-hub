@@ -1,29 +1,33 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 354 -->
+<!-- Page number: 353 -->
 
-[Diagram: zwei Dreyecke, das kleinere d e f und das grössere a b c mit punktiertem Strich von a nach g; darunter ein Strich B E F G mit schräg auffsteigenden Strichen nach C, E und F, punktiert nach F]
+Dw. △ ABC ähnlich dem △ abc n. 1. Beschr. VI.
+u. AB : BC | ab : bc n. 4. VI.
+Aus eben denen Ursachen sind auch
+BC : CD | bc : cd
+u. CD : DE | cd : de
+u. DE : EF | de : ef
 
-### Vorbereitung.
+Und ist also abcdef ähnlich der Gestalt ABCDEF n. der 1. Beschr. VI. und auf den gegebenen Strich ab gesetzet n. 2. Wirck. W. Z. M.
 
-1. Zu des ersten Dreyecks Seite bc und des andern Dreyecks Seite ef werde der dritte ebenmässige Strich BG gefunden n. 11. VI. bc : ef | ef : BG.
+## Der XIX. Vortrag.
 
-2. Diesem Strich BG werde ein gleichmässiger b g von bc abgeschnitten. n. 3. I.
+## Das 13. Beweiß-Stück.
 
-3. werde der Strich ag gezogen.
+Aehnliche Dreyecke stehen gegen einander in zwiefach grösserer (duplicata) Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. (homologa latera.)
 
-### Beweiß.
+### Gegebene.
 
-ab : bc | de : ef n 3. Geg.
-Dw. ab : de | bc : ef n 16. V.
-bc : ef | ef : bg n 1. Vorb.
-Dw. ab : de | ef : bg n 11. V.
-abg ⋏ def n. 3. Geg.
-α Dw. abg ⩓ def n. 15. VI.
-u. bc : bg | △ abc : △ abg n. 1. VI.
-bc : bg ⊐ bc : ef n. 10. Besch. V.
-Dw. △ abc : △ abg | bc : ef n. 11. V.
-△ abg | △ def n. Bew. α
-△ abc | △ abc
+1. Dreyeck a b c.
+2. und d e f
+3. △ abc ähnlich dem △ def.
 
-<!-- Catchword: Dw. -->
+### Begehrte.
+
+| ab : de
+△ abc : △ def ⊐ | bc : ef
+| ca : fd.
+
+<!-- Signature: Y y -->
+<!-- Catchword: Vorbe- -->

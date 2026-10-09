@@ -1,38 +1,32 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 106 -->
+<!-- Page number: 105 -->
 
-□ ab + □ cb | □ ac + 2 □ acb + 2 □ cb (n. 2. Gr. I
-ac + cb | ab
-cb | bc
-□ acb + □ cb | □ abc — n. 3. II.
-□ □ 2 □ acb + □ 2cb | 2 □ abc □ □ — n. 6. G. i [unclear: I.]
-ab + cb + 2 □ acb + 2 □ cb | 2 □ abc + ac + 2acb + 2 □ cb
-2 □ acb + 2 □ cb | 2 □ acb + 2 □ cb
-□ ab + □ cb | 2 □ abc + □ ac — n. 3. Gr. I.
+### Beweiß
 
-### Beschluß.
+d | d — n. Beweiß.
+b | d − c
+f | d + b
+d | c + b
+c | f
+dd | fc + bb — n. 5. II. W. Z B.
 
-Werden also allezeit die beeden □ □ von dem gantzen Strich ab, und von dem einen Stück cb so groß seyn/ als das zweyfache Viereck/ so von dem übrigen Stück bc und dem gantzen ab begriffen wird/ samt dem □ des andern Stücks ac. W. Z. B.
+## Der VII. Vortrag.
 
-### Nach der Löse-Kunst.
+## Das 7. Beweiß-Stück.
+
+Wenn ein gerader Strich/ auff wasserley weise in zwey Stücke getheilet ist/ so wird das von dem gantzen Strich/ und das von einem Stück begriffene gleichseitige Viereck/ eben so groß seyn/ als das von diesem Stück und dem gantzen Strich begriffene Viereck/ zweymal genommen/ samt dem gleichseitigen Viereck des übrigen Stückes.
 
 ### Gegebene. | Begehrtes.
 
-1. a | AB — aa + cc | 2ac + bb
-2. b | AC
-3. c | CB
-4. a | b + c
+1. Gerader Strich ab. — □ ab + □ cb | □ abc + □ ac
+2. getheilet in c.
+
+[Diagram: Links ein Quadrat a c b mit innerer gestrichelter Linie, Punkten e, d, g, c, f, a, h, b; rechts Rechtecke D, E, F mit n oben, darunter H, G mit o, p, m.]
 
 ### Beweiß.
 
-a | b + c — n. 4. Gegeb.
-aa | bb + 2bc + cc — n. 4. II.
-cc | cc
-aa + cc | bb + 2bc + 2cc — n. 2. Gr. I.
-b + c | a
-c | c
-bc + cc | ac — n. 3. II.
-2 | 2
-
-<!-- Catchword: 2bc -->
+ab | ac + cb — n. 9. Gr. I.
+□ ab | □ ac + 2 □ acb + □ cb — n. 4. II.
+□ cb | □ cb
+<!-- Catchword: D | □ ab -->

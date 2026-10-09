@@ -1,32 +1,42 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 252 -->
-
-### Beschluß.
-
-Wenn derowegen die I. Grösse der III. und die II. Grösse der IV. gleichvielfältig sind; darnach das von der I. abgenommene Stück zu der III. eben so vielfältig ist / als das von der II. abgenommene Stück zu der IV. So wird das Erste übergebliebene der III. und das Andere übergebliebene der IV. Grösse gleichgroß / oder die übergebliebenen werden gegen die II. und IV. Grössen gleichvielfältig seyn. W. Z. B.
-
-## Der VII. Vortrag.
-
-## Das 7. Beweiß-Stück.
-
-Gleichgrosse Grössen sind gegen eine einige Grösse gleichvielfältig: Und eine einige Grösse ist auch gegen gleichgrosse Grössen gleichvielfältig.
-
-### Gegebene. — Begehrtes.
-
-[Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
-
-A : a | B : a.
-
-A | B
-A | 3a
-B | 3a
+<!-- Page number: 251 -->
 
 ### I. Beweiß.
 
-A | B
-3a | 3a — n. Gegeb.
-Dw. A : 3a | B : 3a
-Und A : a | B : a — n. 7. Besch. V.
+Grösse mehr vielfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vielfältig / als gegen die Grössere.
 
-<!-- Catchword: Gege- -->
+A | 5a — n. 1. Geg.
+c | 4a — n. 2. Geg.
+Dw. A—c | a — n. 3. Gr. I.
+B | 5b — n. 3. Geg.
+d | 4b — n 4. Geg.
+Dw. B—d | b — n. 3. Gr. I.
+
+### Gegebene. — Begehrtes.
+
+I. A ______ — A—c : a | B—d : b
+II. a ___
+III. B ______
+IV. b ___
+
+[Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet I. A, II. a, III. B, IV. b]
+
+1. A | 5a
+2. c | 3a
+3. B | 5b
+4. d | 3b
+
+### II. Beweiß.
+
+A | 5a — n 1. Geg.
+c | 3a — n. 2. Geg.
+Dw. A—c | 2a — n. 3. Gr. I.
+B | 5b — n 3. Geg.
+d | 3b — n. 4. Geg.
+Dw. B—d | 2b — n. 3. Gr. I.
+Und A—c : a | B—d : b — n 7. Beschr. V.
+
+<!-- Signature: Ji 2 -->
+
+<!-- Catchword: Beschluß. -->

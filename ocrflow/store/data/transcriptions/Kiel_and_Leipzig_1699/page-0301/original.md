@@ -1,33 +1,31 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 285 -->
+<!-- Page number: 284 -->
 
-### Anmerckung.
+### Beweiß.
 
-Dieses ist der letzte Vortrag des V. Buchs Euclidis, die Nachfolgenden sind aus dem Pappo Alexandrino entlehnet/ weil sie öffters von den besten Mathematicis, um etwas darmit zu beweisen / angezogen werden.
+|  |  |  |
+|---|---|---|
+| A : B | a : b | n. Geg. |
+| Dw. A : a | B : b | n. 16. V. |
+| u. A—a : a | B—b : b | n. 19. V. |
+| Dw. A—a : B—b | a : b | n. 16. V. |
+| u. A—a : B—b | A : B | n. 11. V. |
+| A | ⊣ B | n. Geg. |
+| Dw. A—a | ⊣ B—b | n. 14. V. |
+| oder c | ⊣ d | |
+| e | B | ⌉ n. Vorber. |
+| b | f | |
+| c + e + b | ⊣ B + f + d | n. 4. Gr. I. |
+| A | c + e | n. 9. Gr. q. I. |
+| c + e + A + b | ⊣ B + f + d + c + e | n. 4. Gr. I. |
+| A + b | ⊣ B + f + d | n. 5. Gr. I. |
+| f + d | a | n. 9. Gr. q. I. |
+| f + d + A + b | ⊣ B + a + f + d | n. 4 Gr. I. |
+| A + b | ⊣ B + a | n. 5. Gr. I. |
 
-## Der XXVI. Vortrag.
+### Beschluß.
 
-## Das 26. Beweiß-Stück.
+Werden demnach allezeit aus vier Ebenmässigen Grössen die Grösseste und Kleineste zusammen grösser seyn / als die übrigen beeden zusammen. W. Z. B.
 
-Wenn man vier Grössen hat / deren Erste zu der Andern eine grössere Verhältnüß hat/als die Dritte zu der Vierten: So wird auf umgekehrte Weise die Andere zu der Ersten eine kleinere Verhältnüß/ als die Vierte zu der Dritten/ haben.
-
-### Gegebene.
-
-[Diagram: fünf Linien A, a, B, b, c von verschiedener Länge am linken Rand]
-
-A : a ⊣ B : b
-
-### Begehrtes.
-
-a : A ⊦ b : B
-
-### Vorbereitung.
-
-Man nehme darzu eine Grösse c, zu welcher sich B also verhalte/wie A zu a.
-
-B : c | A : a.
-
-<!-- Signature: Nn 3 -->
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Anmer- -->

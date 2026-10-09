@@ -1,32 +1,33 @@
-<!-- Page number: 36 -->
+<!-- Page number: 35 -->
 
-<!-- Running title: Das I. Buch. -->
-
-[Diagram: Zwei sich in E durchschneidende gerade Striche: AB schräg von A oben rechts nach B unten links, DC waagerecht.]
+<!-- Running title: Euclidis. -->
 
 ### Beweiß.
+Die Beeden geraden Striche EC und DC werden entweder gerade auff einander stossen/ oder schrad zu sammen lauffen. Wann sie nicht gerade auff einander stossen /
 
-DEA + AEC ⋀ ⊥ ) nach 13. Vortr.
-AEC + CEB ⋀ ⊥ )
-Drw. DEA + AEC ⋀ AEC + CEB nach 10. Gr-S.
-AEC ⋀ AEC
-Drw. DEA ⋀ CEB nach 3. Gr-S.
+### Vorbereitung.
+So verlängere man den einen Strich EC gerade aus/ biß in F oder G/ nach 2. Foderung.
 
-AEC + CEB ⋀ CEB + BED nach 13. Vortr.
-CEB ⋀ CEB
-Drw. AEC ⋀ BED nach 3. Gr-S.
+### Verfolg des Beweises.
+So werden ECA + ACF |
+oder ECA + ACG ⋀ ⊥ n. Angenom. und n. 13. Vortr.
+ECA + ACD ⋀ ⊥ n. 5. Gegebenem.
+Dw. ECA + ACD ⋀ ECA + ACF) ECA + ACG) n. 1. und 10. Gr-S.
+welches aber unmüglich n. 9. Gr-S.
 
 ### Beschluß.
-Sind also allezeit die aneinander stossende Gipffel-Winckel einander gleich. W. Z. B.
+Müssen derowegen die beeden Striche EC und DC gerade auff einander stossen / und von der gegend DC weder auff- noch unterwerts sich lencken. W. Z. B.
 
-## Der XVI. Vortrag.
+## Der XV. Vortrag.
 
-## Das 9. Beweiß Stück.
+## Das 8. Beweiß-Stück.
 
-Wenn in einem Dreyeck der eine Strich verlängert wird; so wird der auswendige Winckel allezeit grösser seyn/ als einer von beeden inwendig gegen überstehenden Winckeln.
+Wenn zween gerade Striche einander durchschneiden/ so werden sie die gegen einander stehende Gipffel-Winckel einander gleich-groß machen.
 
 ### Gegebene. Begehrte.
-1. △ ABC. DAC ⋀ ACB.
-2. Die verlängerte Seite BA gegen D. DAE ⋀ ABC.
+Die Gipffel-Winckel (anguli ad verticem)
+1. Zween gerade Striche AB und DE. AEC ⋀ DEB.
+2. Welche einander durchschneiden in E. AED ⋀ CEB.
 
-<!-- Catchword: Vor- -->
+<!-- Signature: E 2 -->
+<!-- Catchword: Be- -->

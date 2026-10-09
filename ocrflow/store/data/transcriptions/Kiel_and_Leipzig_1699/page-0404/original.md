@@ -1,37 +1,36 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 388 -->
+<!-- Page number: 387 -->
 
-### I. Begehrte.
+|  |  |  |
+|---|---|---|
+| Dw. | abc + acb + a ⋀ dce + acb + a | n. 2. Gr. I. |
+|  | abc + acb + a ⋀ ⏊ | n. 32. I. |
+| Dw. | dce + acb + a ⋀ ⏊ | n. 1. Gr. I. |
+| oder | dce + dcb ⋀ ⏊ | n 9. Gr. I. q. |
+| Dw. | bc und ca, oder ba ein gerader Strich. | n. 14. I. |
 
-∧ bac : ∧ feg | ⌒ bc : ⌒ fg.
-∧ bdc : fhg | ⌒ bc : ⌒ fg.
-△ bdc : △ fhg | ⌒ bc : ⌒ fg.
+### Beschluß.
 
-[Diagram: zwei punktierte Kreise mit einbeschriebenen Linien und Dreiecken; links die Punkte a, m, d, i, c, b; rechts die Punkte e, l, h, k, f, g]
+Wenn derowegen zwey Dreyecke / derer zwo Seiten zweyen Seiten ebenmässig sind/ also zusammen gesetzet werden/ daß die ebenmässigen Seiten auch nebenstrichicht werden/ so machen die übrigen beyden Seiten einen geraden Strich. W. Z. B.
 
-### Vorbereitung.
+## Der XXXIII. Vortrag.
 
-1. Es werden die beyden geraden Striche bc und fg gezogen.
+## Das 23. Beweiß-Stück.
 
-2. Werden dem Kreyß abm die beyden geraden Striche ci und im eingefüget. n. 1. IV.
+In gleichmässigen Kreysen haben die Winckel/ sie mögen Mittel-Düpffels- oder Kreyßzugs-Winckel seyn/ eben solche Verhältnüß zu einander/ als die Kreyßstücke/ auf welchen sie stehen:
 
-3. Welche dem Strich bc gleichmässig.
+Auch haben die Kreyßschnitte gleiche Verhältnüß/ weil sie aus Mittel-Düpffels-Winckeln bestehen.
 
-bc | ci
-bc | im
+### 1. Gegebene.
 
-4. Es werden auch dem Kreyß efm eingefüget die Striche gk und kl. n. 1. IV.
+1. Zween gleichmässige Kreyse abc und feg.
+2. Beyde Mittel-Düpffele d und e.
+3. Zween in Kreyßstücken stehende Winckel bac und feg.
+4. Mittel-Düpffels-Winckel bdc und fhg.
+5. Zwey Kreyßstücke bc und fg.
+6. Zween Kreyßschnitte bdc und fhg.
 
-5.
+<!-- Signature: Ccc 2 -->
 
-gk | fg
-kl | fg
-
-6. Aus dem Mittel-Düpffel d werden die geraden Striche di und dm, und
-
-7. Aus dem Mittel-Düpffel h werden auch zween Striche hk und hl.
-
-8. Desgleichen die geraden Striche bi und fl gezogen.
-
-<!-- Catchword: I. Beweiß. -->
+<!-- Catchword: I. Be- -->

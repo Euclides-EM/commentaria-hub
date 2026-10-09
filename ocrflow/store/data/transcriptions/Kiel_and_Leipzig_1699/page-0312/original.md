@@ -1,34 +1,41 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 296 -->
-
-### Beschluß.
-Wenn derowegen Sechs Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die V. zu der VI. Auch die II. zu der III. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
-
-## Der XXXIII. Vortrag.
-## Das 33. Beweiß-Stück.
-
-Wenn das Gantze zu dem Gantzen eine grössere Verhältnüß hat / als das Abgenommene zu dem Abgenommenen: So wird das Ubergebliebene zu dem Ubergebliebenen eine grössere Verhältnüß / als das Gantze zu dem Gantzen haben.
-
-### Gegebene.
-
-[Diagram: zwei waagerechte Linien A und B, jeweils durch Striche unterteilt]
-
-A : B ⊣ a : b
+<!-- Page number: 295 -->
 
 ### Begehrtes.
-A : B ⊢ A — a : B — b
+A : C ⊣ a : c
+
+### Vorbereitung.
+1. Man nehme eine Grösse D darzu / welche sich zu C wie a zu b verhalte.
+
+D : C | a : b
+
+2. Auch nehme man die Grösse d, welche sich zu D, wie b zu c verhalte.
+
+d : D | b : c.
+
+[Diagram: drei waagerechte Linien C, D, d von unterschiedlicher Länge]
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | A | \| a + c |  |
-|  | B | \| b + d |  |
-|  | a + c : b + d | ⊣ a : b | n Geg. |
-| Dw. | a + c : a | ⊣ b + d : b | n. 27. V. |
-| und | a + c : c | ⊢ b + d : d | n. 30. V. |
-| Dw. | a + c : b + d | ⊢ c : d | n. 27. V. |
-| oder | A : B | ⊢ A — a : B — b |  |
+|  | D : C | \| a : b | n 1. Vorb. |
+|  | B : C | ⊣ a : b | n. Geg. |
+| Dw. | B : C | ⊣ D : C | n. Anh. 13. V. |
+| u. | D | ⊢ B | n. 10. V. |
+|  | A | \| A |  |
+| Dw. | A : D | ⊣ A : B | n. 8. V. |
+|  | b : c | ⊢ A : B | n. Gegeb. |
+| Dw. | A : D | ⊣ b : c | n. 2. Anh. 13. |
+|  | d : D | \| b : c | n 2. Vorb. |
+| Dw. | A : D | ⊣ d : D | n. Anh. 13. V. |
+| u. | A | ⊣ d | n. 10. V. |
+|  | C \| | C |  |
+| Dw. | A : C | ⊣ d : C | n 8. V. |
+|  | d : D : | \| b : c |  |
+|  | D : C | \| a : b | } n Vorb. |
+| Dw. | d : C | \| a : c | n. 22 V. |
+| u. | A : C | ⊣ a : c | n. Anh. 13. V. |
 
-<!-- Catchword: Beschluß. -->
+<!-- Catchword: Be- -->

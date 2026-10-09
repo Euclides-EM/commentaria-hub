@@ -1,27 +1,41 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 242 -->
+<!-- Page number: 241 -->
 
-[Diagram: sechs waagerechte Linien, bezeichnet A, 6a, C, B, 6b, D]
-
-### II. Beweiß.
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-| | A + C | 5a | n. Bew. α |
-| | 5a | ⊢ 6a | n. 9. Gr. I. |
-| γ Dw. | A + C | ⊢ 6a | n. 4. Gr. I. |
-| | B + D | 5b | n. Bew. β |
-| | 5b | ⊢ 6b | |
-| δ Dw. | B + D | ⊢ 6b. | |
+| | c | a | |
+| | d | a | n. 2. Vorber. |
+| Dw. | c + d | 2a | n. 2. Gr. I. |
+| | c + d | A | n. 9. Gr. q. I. |
+| [unclear: α] Dw. | A. | 2a | n. 1. Gr. I. |
+| | e | a | |
+| | f | a | |
+| | g | a | n. 6. Vorb. |
+| Dw. | e + f + g | 3a | n. 2. Gr. I. |
+| | e + f + g | C | n. 9. Gr. q. I. |
+| Dw. | C | 3a | n. 1. Gr. I. |
+| und | A + C | 5a | n. 2. Gr. I. |
+| | h. | b | |
+| | k | b | |
+| | h + k | 2b | |
+| | h + k | B | |
+| [unclear: θ] Dw. | B | 2b | |
+| | l | b | |
+| | m | b | |
+| | n | b | |
+| Dw. | l + m + n | 3b | |
+| | l + m + n | D | |
+| Dw. | D | 3b | |
+| β u. | B + D | 5b. | |
 
 ### Vorbereitung.
 
-1. Man nehme A + C 3 mahl/
-2. Und B + D auch 3 mahl/
-3. Die Grösse a aber 2 mahl
-4. Und b auch 2 mahl.
+1. Es werde die Grösse a sechsmahl/ und
+2. Die Grösse b auch sechsmahl genommen.
 
-[Diagram: sechs waagerechte Linien, bezeichnet 3A, 2a, 3C, 3B, 2b, 3D]
+<!-- Signature: Hh -->
 
-<!-- Catchword: III. Beweiß. -->
+<!-- Catchword: A -->

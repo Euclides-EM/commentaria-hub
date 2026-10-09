@@ -1,31 +1,30 @@
-<!-- Page number: 135 -->
+<!-- Page number: 134 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-## Der IV. Vortrag.
-
-## Das 3. Beweiß-Stück.
-
-Wenn in einem Kreyß zween gerade Striche ein ander durchschneiden/ aber nicht durch den Mittel-Düpffel gehen/ so werden sie auch einander nicht in gleichgrosse Theile schneiden.
-
-### Gegebene. — Begehrte.
-
-1. Der Kreyß caeb, — fg ⊢ ge
-2. Gerader Strich cf — dg ⊢ ge
-3. und - - - - - de
-4. Einander durchschneidend /
-5. Keiner durch den Mittel-Düpffel gehend.
-
-[Diagram: Kreis mit Dütteln d, a (oben), c (links), f, e (rechts), b (unten), die Striche cf und de schneiden einander in g, punktierter Durchschlag von a über g und o nach b]
+[Diagram: Kreis mit Düpffeln e (oben), f (unten), b (links), c (rechts), Mittel-Düpffel a und Düttel d, punktierte Striche von b und c nach a]
 
 ### Vorbereitung.
 
-Wenn man sagen wolte/ sie schnitten einander in zween gleiche Theile / so ziehe man durch den Düttel g, wo sie einander durchschneiden / und durch den Mittel-Düpffel o einen Durchschlag ab.
+Es werden gezogen die beeden Striche ab und ac.
 
-### Beweiß.
+### Beweiß des I. Begehrten.
 
-dg | ge — n. angenommen.
-Dw. dga ⋏ ∟ — n. 3. III.
-cg | gf — n. angenommen.
+ab | ac — n. 15. Beschr. I.
+Dw. abd ⋏ acd — n. 5. I.
+bd | cd — n. 4. Gegeb.
+Dw. adb ⋏ adc — n. 4. I.
+und adb | ∟ — n. 10. Beschr. I.
 
-<!-- Catchword: Dw. -->
+### Beweiß des II. Begehrten.
+
+ab | ac — n. 15. Beschr. I.
+abd ⋏ acd — n. 5. I.
+adb ⋏ adc — n. 5. Gegeb.
+bd | dc — n. 26. I.
+
+### Beschluß.
+
+Wird also allezeit/ wenn ein Strich von einem Ende des Umbfangs e, durch denn Mittel-Düpffel a, biß zum andern Ende f gehet/ und einen im Kreyß stehenden Strich bc in zween gleiche Theil bd | dc schneidet/ mit dem Strich bc ⊥ machen: oder/ wenn er mit solchem Strich ⊥ machet / denselben auch in zweene gleiche Theile theilen. W. Z. B.
+
+<!-- Catchword: Der -->

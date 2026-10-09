@@ -1,34 +1,33 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 178 -->
-
-## Der XXIX. Vortrag.
-
-## Das 26. Beweiß-Stück.
-In gleichgrossen Kreysen werden gleichgrosse Bogen von gleichlangen Strichen überspannet.
+<!-- Page number: 177 -->
 
 ### Gegebene.
-1. Gleichgrosse Kreyse bgcb | ebfe.
-2. bc ⊻ ef.
-3. bgc ⏀ ehf.
+1. Gleichgrosse Kreysse ahca | dged
+2. Striche ac | de
 
-### Begehrtes.
-bc | ef.
+### Begehrte.
+1. ahc ⏀ dge
+2. ac ⊻ de
 
-[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, der andere mit h, d, e, f; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, f, d, e, der andere mit h, b, a, c; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]
 
 ### Vorbereitung.
-Es werden gezogen die Stralen ab, ac, de, df.
+Es werden gezogen die Stralen ba, bc, fd, fe.
 ### Beweiß.
 
-ba | ed
-ac | df } n. 1. Beschr. III.
-Dw. ba + ac | ed + df   n. 2 Gr. I.
-bc ⊻ ef   n. 2. Gegeb.
-Dw. bac ⋀ edf   n. 27. III.
-und bc | ef   n. 4. I.
+ab | df
+bc | fe } n. 1. Beschr. III.
+Dw. ab + bc | df + fe   n. 2. Gr. I.
+ac | de   n 2. Gegeb.
+Dw. abc ⋀ dfe   n. 8. I.
+und ac ⊻ de   n. 26. III.
+O ahca | O dged   n. 1. Geg.
+Dw. O ahca — ◡ ac | O dged — ◡ de   n. 3. Gr. I.
+oder ahc ⏀ dge
 
 ### Beschluß.
-Werden also allezeit in gleichgrossen Kreysen / gleichgrosse Bogen von gleichlangen geraden Strichen überspannet. W. Z. B.
+Müssen derowegen gleichlange Striche in gleichgrossen Kreysen allezeit gleichgrosse Bogen / und zwar den grossen dem grössern/ und den kleinen dem kleinern in gleicher Grösse abschneiden. W. Z. B.
 
+<!-- Signature: Q -->
 <!-- Catchword: Der -->

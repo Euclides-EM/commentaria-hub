@@ -1,31 +1,46 @@
-<!-- Running title: Das I. Buch. -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 54 -->
+<!-- Page number: 53 -->
 
-### Beschluß.
+Dw.   acb ⋏ hcb        n. 1. Gr-S.
+    welches unmüglich nach 9. Gr-S.
 
-Müssen also allezeit in zweyen △ △, deren beede Winckel/ und eine Seite gleich groß sind/ auch die übrigen Seiten und Winckel unter sich gleich haben.   W. Z. B.
+### Vorbereitung.
 
-## Der XXVII. Vortrag.
+Wann ab ⊣ AB, so schneide man bd | AB
 
-## Das 18. Beweiß-Stück.
+### Verfolg des Beweises.
 
-Wenn auff zween gerade Striche ein anderer gerader Strich fället / und die Wechsel-Weiß genommene (alternatim sumtos) Winckel gleich groß machet : So werden solches gerade Neben-Striche seyn.
+      ab ⊣ AB             nach Angenommen.
+db         | AB           n. Vorber.
+      bc |      BC        n. 3. Gegeben.
+δ.  db + bc | AB + BC     n. 2. Gr-S.
+      abc ⋏ ABC           n. 4. Gegeb.
+Dw.   dcb ⋏ ACB           n. 4. Vortr.
+      acb ⋏ ACB           n. 5. Gegeb.
+Dw.   acb ⋏ dcb           n. 1. Gr-S.
+    welches unmöglich nach 9. Gr-S.
 
-### Gegebene.                              Begehrtes.
-1. Zween gerade Striche AB und CD.     AB ═══ CD
-2. Der einfallende gerade Strich EF.
-3. Die Wechsel-Winckel.
-   AGH ⋏ GHD.
-   BGH ⋏ GHC.
+Gleiche Bewandniß hat es / wann man sagen wolte
+        AC ⊣ ac oder AC ⊢ ac
 
-[Diagram: Zwei waagerechte Striche AB und CD, von dem schrägen Strich EF in G und H geschnitten, mit punktierten Linien zum Punkt I]
+Dieses kan noch anders bewiesen werden / wann man annimmet vor
+
+### Gegeben.
+
+1.  BC  |  bc
+2. ABC ⋏ abc
+3. BAC ⋏ bac
 
 ### Beweiß.
 
-Entweder sind es Neben-Striche/ oder zusammenlauffende Striche.
+db + bc | AB + BC             n. Bew. δ.
+      abc ⋏ ABC               n. 2. Gegeb.
+Drw.  bdc ⋏ BAC               n. 4. Vortr.
+      bac ⋏ BAC               n. 3. Gegeb.
+Dw.   bac ⋏ bdc               n. 1. Gr-S.
+Welches aber unmöglich        n. 16. Vortr.
 
-Lauffen sie zusammen in dem Düttel I.   So machen sie ein △ GIH, und wird     AGH ⊼ GHI. n. 16. Vortr.
-        welches wider das 3. Gegebene.
+<!-- Signature: G 3 -->
 
-<!-- Catchword: Solten -->
+<!-- Catchword: Beschluß. -->

@@ -1,41 +1,32 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 351 -->
+<!-- Page number: 350 -->
 
-edc ⋏ abh
-3. und dec ⋏ ahb
-4. Auf den Strich ah aber gce ⋏ hak
-5. und gec ⋏ ahk
-6. Endlich auf den Strich eg, gef ⋏ khi
-7. und egf ⋏ hki n. 23. I.
+### Beschluß.
 
-### I. Beweiß.
+Wenn derowegen drey ebenmässige Striche gegeben werden/ so ist das von den äusersten Strichen gemachte Viereck dem gleichseitigen Viereck des mittelsten Striches gleichgroß.
 
-cde ⋏ abh n. 2. Wirck.
-dec ⋏ abh n. 3. Wirck.
-α Dw. ecd ⋏ hab n. 32. I.
-Und sind die Seiten beyder Dreyeck ebenmässig n. 4. VI.
-Dw. △ edc ähnlich dem △ abh n. 1. Besch. VI.
-Ebener massen sind auch die übrigen
-△ gce ähnlich dem △ hak
-und △ egf △ hki n. 1. Besch. VI.
-Dw. ab : cd | ah : ce
-u. ak : cg | ah : ce n. 4. VI.
-Dw. ak : cg | ab : cd n. 11. V.
-Ebener massen sind auch
-bh : ab | de : cd
-u. hi : ef | ik : fg n. 11. V.
+Und wenn der beyden äusersten Striche Viereck dem gleichseitigen Viereck des mittelsten Striches gleichmässig ist/ so stehen die drey Striche in unzertrennter (continua) Ebenmaß. W. Z. B.
 
-### II. Beweiß.
+## Der XIIX. Vortrag.
 
-b ⋏ d n. 1. Winck.
-hab ⋏ ecd n. Bew. α.
-hak ⋏ gce
-Dw. hab + hak ⋏ ecd + gce n 2. Gr. I.
-oder a ⋏ c n. 9. Gr. I. q.
-Ebener massen sind auch die übrigen Winckel
-k ⋏ g
-i ⋏ f
-h ⋏ e
+## Das 6. Werck-Stück.
 
-<!-- Catchword: Dw. -->
+Auf einen gegebenen geraden Strich eine der gegebenen geradstrichichten Gestalt ähnliche und ebener massen gesetzte Gestalt zu verfertigen.
+
+### Gegebene.
+
+1. Gestalt abhik
+2. Gerader Strich cd
+
+### Begehrtes.
+
+1. cdefg ähnlich der Gestalt abhik
+2. cdefg eben so gesetzt als abhik
+
+[Diagram: zwei fünfeckige Gestalten nebeneinander; die grössere mit den Ecken a, k, i, h, b und punktierten Diagonalen; die kleinere mit den Ecken c, g, f, e, d und punktierten Diagonalen]
+
+### Wirckung.
+
+1. Aus h zu denen gegen überstehenden Winckeln a und k werden gerade Striche ha, hk gezogen.
+2. werden auf den Strich cd Winckel gesetzet

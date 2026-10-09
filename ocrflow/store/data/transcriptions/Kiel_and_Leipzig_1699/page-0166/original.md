@@ -1,37 +1,32 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 150 -->
+<!-- Page number: 149 -->
 
-Oder:
+### Gegebene. — Begehrtes.
+
+1. Zweene Kreyse ebf und dbg.
+2. Welche auswendig in b
+3. Einander anrühren.
+4. Gerader Strich ac,
+5. Welcher die beeden Mittel-Düpffel a und c zusammen henget.
+
+Strich ac durch den Anrührungs-Düttel b gehend.
+
+[Diagram: zwei einander von aussen berührende Kreise; am Berührungsort der Punkt b, darüber f und g; im linken Kreis a, unten e und d, im rechten Kreis c; gerade und punktierte Verbindungsstriche]
+
+### Vorbereitung.
+
+Wann der Strich ac nicht durch den Anrührungs-Düttel b gehet/so ziehe man aus den beeden angenom̄enen Mittel-Düpffeln a und c zweene Stralen zum Anrührungs-Düpffel b, nemlich ab und cb.
+
+### Beweiß
 
 ab | ae
-bc | cd — n. Angen. und 15. Besch. I.
+bc | cd — n. Vorb. und n. 15. Besch. I.
 ab + bc | ae + cd — n. 2. Gr. I.
-ae + cd | ae + cd
-Dw. de + ae + cd ⊣ ae + cd — n. 4. Gr. I.
-de + ae + cd | ac — n. 9. Gr. q. I.
-Dw. ac ⊣ ab + bc — n. 1. Gr. c.
-Welches aber unmöglich n. 20. I.
+ab + bc ⊣ ac — n. 20. I.
+Dw. ae + cd ⊣ ac — n. 1. Gr. c. I.
+Welches aber unmöglich n. 9. Gr. I.
 
-Muß also allezeit der gerade Strich / welcher zweene Mittel-Düpffele derer Kreyse/so einander auswendig berühren/ zusammen henget / durch den Anrührungs-Düpffel gehen. W. Z. B.
+<!-- Signature: T 3 -->
 
-## Der XIII. Vortrag.
-
-## Das 12. Beweiß-Stück.
-
-Kein Kreyß kan einen andern Kreyß in mehr/ als einem Düttel anrühren/ sie mögen gleich von innen oder von aussen einander berühren.
-
-### Gegebene. — Begehrte.
-
-1. Zweene Kreyse/
-2. Welche einander anrühren.
-
-Nicht mehr als ein Anrührungs-Düttel.
-
-### I. Begebenheit.
-
-Wann der inwendige Kreyß/ den eussern in c und d anrühret.
-
-[Diagram: zwei Kreise, deren innerer den äusseren oben in c und unten in d berührt; im Innern die Punkte a und b, dazwischen ein punktierter Strich von c nach d]
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: Oder -->

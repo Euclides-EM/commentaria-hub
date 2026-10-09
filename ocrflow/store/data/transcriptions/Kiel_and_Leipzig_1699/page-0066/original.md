@@ -1,33 +1,40 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 50 -->
+<!-- Page number: 49 -->
 
-         Ad | AC        n. 2. Gegeb.
-β Drw.   bd | BC        n. 4. Vortr.
-         Ab | AB
-         Ac | AB        n. 1. Gegeb.
-Drw.     Ac | Ab        n. 1. Gr-S.
-und      fbc ⋏ ecb      n. 5. Vortr.
-         fbc ⊼ dbc      n. 9. Gr-S.
-Dw.      ecb ⊼ dbc      n. 1. Gr-S. c.
-         ecb ⊼ dcb      n. 9. Gr-S.
-Dw.      dbc ⊼ dcb      n. 1. Gr-S. e.
-und      dc ⊣ db        n. 19. Vortr.
-         db | BC        n. Beweiß β.
-Dw.      BC ⊢ dc.       n. 1. Gr-S. d.
+Andere Begebenheit (2. Casus.)
 
-### Beschluß.
+AD | ac        n. 2. Gegeb.
+AB | ab        n. 4. Vorber.
+BAC ⋏ bac      n. 23. Vortr.
+D.w   BC | bc      n. 4. Vortr.
+      bc ⊢ cd      n. 9. Gr-S.
+Dw. BC ⊢ cd      n. 1. Gr-S.
 
-Ist also allezeit des △es / dessen zwo Seiten / zweyen Seiten eines andern △es gleich sind / aber einen grössern Winckel haben / Grundstrich grösser / als des andern △es / welches einen kleinern Winckel hat.   W. Z. B.
+Dritte Begebenheit.
 
-## Der XXV. Vortrag.
+### Gegebene.
 
-## Das 16. Beweiß-Stück.
+1. AB | AC
+2. AD | Ad
 
-Wenn zwey Dreyecke / zwo Seiten zweyen Seiten/jedwede jedweder/gleich groß/eines aber einen grössern Grundstrich / als das andere hat: So wird selbiges auch einen grössern Winckel/als das andere / zwischen seinen zwo Seiten haben.
+### Vorbereitung.
 
-### Gegebene.                    Begehrte.
-1. Das △ ABC                 BAC ⊼ bac
-2.     △ abc
+1. Auff des Striches Ad Düttel A setze man den ⋀ bAd
+2.        Also daß    bAd ⋏ BAC   nach 23. Vortr.
+3.        und         Ab | AB     n. 3. Vortr.
+4.    Es werden gezogen cb
+5.        wie auch      db
+6.  Ab werde verlängert gegen f.
+7.  Ac  -  -  -  -  -  gegen e.
 
-<!-- Catchword: 3.AB -->
+[Diagram: III. Casus. Zwei Dreiecke: links Dreieck ABC, rechts Dreieck ACd mit punktierten Linien zu b und f]
+
+### Beweiß.
+
+bAd ⋏ BAC.     n. 2. Vorber.
+Ab | AB        n. 3. Vorber.
+
+<!-- Signature: G -->
+
+<!-- Catchword: Ad -->

@@ -1,44 +1,32 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 238 -->
+<!-- Page number: 237 -->
 
-### Beweiß.
+[Diagram: vier waagerechte Linien, bezeichnet 2A, 4a, 2B, 4b]
+
+### II. Beweiß.
 
 |  |  |  |  |  |
 |---|---|---|---|---|
-| | 3a | A | n. Bew. | ε. |
-| | 3a | 1½a | n. 9. Gr. I. | |
-| Dw. | A | 1½a | n. 1. Gr. c. I. | |
-| | 2A | A | n. 9. Gr. I. | |
-| Dw. | 2A | 1½a | n. 1. Gr. e. I. | |
-| | 3b | B | n. Bew. | θ |
-| | 3b | 1½b | n. 9. Gr. I. | |
-| Dw. | B | 1½b | n. 2. Gr. c. I. | |
-| | 2B | B | n. 9. Gr. I. | |
-| Dw. | 2B | 1½b | n. 1. Gr. e. I. | |
-| [unclear: κ] Und | 2A + 2B | 1½a + 1½b | n. 4. Gr. g. I. | |
+| | A | 3a | n. Bew. | ι |
+| | A | a | n. 9. Gr. I. | |
+| Dw. | 2A | 4a | n. 4. Gr. I. | |
+| | B | 3b | n. Bew. | θ |
+| | B | b | n. 9. Gr. I. | |
+| Dw. | 2B | 4b | n. 4. Gr. I. | |
+| [unclear: κ] Und. | 2A + 2B | 4a + 4b | n. 4. Gr. [unclear: g.] I. | |
+
+Oder also:
 
 ### Vorbereitung.
 
-1. Zu der Grösse A werde noch die Helffte derselben/
-2. u. zu der Grösse B werde gleichfals die Helffte derselben beygefüget/
-3. a werde fünf mahl/und 4. b auch fünfmahl/ genommen.
+1. A Werde zweymahl/
+2. deßgleichen B zweymahl/ und
+3. a üm die Helffte.
+4. wie auch b üm die Helffte vergrössert.
 
-[Diagram: vier waagerechte Linien, bezeichnet 1½A, 5a, 1½B, 5b]
+[Diagram: vier waagerechte Linien, bezeichnet 2A, 1½a, 2B, 1½b]
 
-### III. Beweiß.
+<!-- Signature: Gg 3 -->
 
-|  |  |  |  |  |
-|---|---|---|---|---|
-| | 3a | A | n. Bew. | ε. α |
-| | 1½a | ½A | n. 7. Gr. n. I. | β |
-| | 2a | 1½a | n. 9 Gr. I. | γ |
-| Dw. | 2a | ½A | n. 1. Gr. a. I. | δ |
-| und | 3a + 2a | [unclear: 1½A] | n. 4. Gr. I. | γ |
-| oder | 5a | 1½A | | |
-| | 3b | B | n. Bew. | θ. α |
-| | 1½b | ½B | | β |
-| | 2b | 1½b | | γ |
-| Dw. | 2b | ½B | | δ |
-| und | 5b | 1½B | | γ |
-| λ Dw. | 5a + 5b | 1½A + 1½B | n. 4. Gr. g. I. | |
+<!-- Catchword: Beweiß -->

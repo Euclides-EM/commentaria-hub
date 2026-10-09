@@ -1,38 +1,39 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 185 -->
+<!-- Page number: 184 -->
 
-[Diagram: Kreis mit einbeschriebenem Dreieck; Punkte g, e, d, f auf dem Kreis, Berührpunkt a unten mit Tangente b–c]
-
-### Vorbereitung.
-
-1. Aus dem Rühr-Düpffel a des Rühr-Striches bc werde ein Senckstrich ag in den Kreyß dge auffgerichtet.
-2. Werde der Strich eg, und
-3. Die Striche ed und ab,
-4. Wie auch ef und fa gezogen.
-
-### I. Beweiß.
-
-|  |  |  |  |
-|---|---|---|---|
-|  | gea ⋀ ∟ |  | n. 31. III. |
-|  | ega + eag ⋀ ∟ |  | n. 32. I. |
-|  | eag ⋀ | eag |  |
-| Dw. | ega ⋀ | ∟ — eag | n. 3. Gr. I. |
-|  | bae + eag ⋀ ∟ |  | n. 10. Gr. q. I. |
-|  | eag ⋀ | eag |  |
-| Dw. | bae ⋀ | ∟ — eag | n 3. Gr. I. |
-| und | bae ⋀ | ega | n. 1. Gr. I. |
-|  | eda ⋀ | ega | n. 21. III. |
-| Dw. | bae ⋀ | eda | n. 1. Gr. I. |
-
-### II. Beweiß.
+### V. Beweiß.
 
 |  |  |  |
 |---|---|---|
-| eda + efa | ⋀ ⏥ | n. 22. III. |
-| bae + eac | ⋀ ⏥ | n. 13. I. |
+|  | bcd ⋀ ∟ | n 1. Bew. |
+| Dw. | bce ⋀ ∟ | n. 13. 1. |
+|  | bcb ⋀ bce | n. 9. Gr. I. |
+| Dw. | bcb ⋀ ∟ | n. 1. Gr. b. I. |
 
-<!-- Signature: Aa -->
+### Beschluß.
 
-<!-- Catchword: Dw. -->
+Müssen also 1. Im Halb-Kreyß stehende Winckel alle Rechte /
+2. In grössern/als Halb-Kreysen/stehende Winckel spitzig/
+3. In kleinern Kreyßstücken aber stumpffe Winckel seyn.
+4. Grösserer Kreyßstücke Winckele sind grösser/
+5. Kleinerer Kreyßstücke Winckele aber sind kleiner/ als
+rechte Winckel. W.Z.B.
+
+## Der XXXII. Vortrag.
+
+## Das 18. Beweiß-Stück.
+
+Wann einen Kreyß ein gerader Strich anrühret / und von dem Rühr-Düpffel ein gerader Strich gezogen/den Kreyß schneidet; so werden die Winckel / welchen solcher Strich mit dem Rühr-Strich macht/ gleichgroß seyn mit denen/ in den abgewendeten Kreyß-Stücken stehenden Winckeln.
+
+### Gegebene. | Begehrte.
+
+1. Kreyß afgda. | bae ⋀ eda.
+2. Rühr-Strich bac. | eac ⋀ efa.
+3. Rühr-Düpffel a.
+4. Vom Rühr-Düpffel gezogener Striche ae.
+5. Welcher den Kreyß in e schneidet.
+6. Von b abgewandter Winckel eda.
+7. Von c - - - - - : efa.
+
+<!-- Catchword: Vor- -->

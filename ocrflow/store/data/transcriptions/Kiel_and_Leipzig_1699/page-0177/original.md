@@ -1,28 +1,43 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 161 -->
+<!-- Page number: 160 -->
 
-### Beschluß.
+### I. Beweiß.
 
-Wenn nun auff eines Kreyses cgf Durchschlags fc Ende-Düttel c ein Senckstrich bc gesetzet ist/ so muß solcher Senckstrich bc ausser den Kreyß fallen ; und zwischen solchem Senckstrich bc und Kreyßzug gdc kan kein anderer gerader Strich stehen. : Es wird auch der gemischte Winckel acg grösser/ und der eussere Winckel gcb kleiner/als alle spitzige Winckel seyn. W. Z. B.
+ac | ag — n. 5. Beschr. I.
+ab ⊣ ag — n. 9. Gr. I.
+Dw. ab ⊣ ac — n. 1. Gr. c. I.
 
-## Der XVII. Vortrag.
+Und wird also der Düttel b ausser den Kreyß fallen. Gleiche bewandniß hat es mit allen andern Theilen und Dütteln des Striches cb.
 
-## Das 2. Werckstück.
+Oder :
 
-Aus einem gegebenen Düttel einen geraden Strich zu ziehen/ welcher den gegebenen Kreyß anrühre.
+∧ acb | ∟ — n. 4. Gegeb.
+∧ abc | Spitziger ∧ — n. 17. I.
+Dw. acb ⅄ abc — n. 12.
+und ab ⊣ ac — n. 19. I.
 
-### Gegebene. Begehrtes.
+Dahero abermahl der Düttel b, wie auch alle übrige Theile und Düttele des Strichs cb ausser dem Kreyßzug stehen müssen.
 
-1. Düttel e. — 1. Gerader Strich ec
-2. Kreyß fcd. — 2. Aus e gezogen also/ daß es
-3. Den Kreyß fcd anrühre.
+### II. Beweiß.
 
-[Diagram: kleiner Kreis fcd mit Mittel-Düpffel b, darum ein grosser punktierter Kreis durch a und e; vom Düttel e Linien nach a, d und b, mit Punkten c und d]
+ad ist ein Senckstrich n. 3. Vorb.
+Dw. adc ⅄ acd — n. 17. I.
+und ac ⊣ ad — n 19. I.
 
-### Wirckung.
+Dw. fället cd in den Kreyß : keines weges aber zwischen den Kreyß und den Strich cb.
 
-1. Aus dem gegebenen Düttel e werde zu des gegebenen Kreyses Mittel-Düpffel b ein gerader Strich eb gezogen.
+### III. Beweiß.
 
-<!-- Signature: X -->
-<!-- Catchword: 2. Nach -->
+Der Strich dc fället in den Kreyß — n. 2. Bew.
+Derowegen ∟ acg ⅄ ∧ acd — n. 9. Gr. I.
+und ∟ acg ⅄ als alle spitzige Winckel.
+
+### IV. Beweiß.
+
+Kein gerader Strich kan zwischen den Kreyß und den Senckstrich cb fallen — n. 2. Bew.
+Dw. kan kein spitzigerer Winckel gemacht werden/
+als der ∧ gcb
+und ist der ∧ gcb ⋏ als alle spitze ∧
+
+<!-- Catchword: Be- -->

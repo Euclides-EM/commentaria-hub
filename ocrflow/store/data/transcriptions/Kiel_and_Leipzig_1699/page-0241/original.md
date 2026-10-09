@@ -1,45 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 225 -->
-
-### Wirckung.
-
-1. Zweene des Fünffeckes Winckele / als e und f, werden in
-zween gleiche Theile gea ∧ fea
-efa ∧ dfa — getheilet/n. 9. I.
-2. Werden die Winckeltheilende Striche fa und ea so weit
-verlängert/ biß sie einander in a schneiden.
-3. Nach der Weite ae werde der Kreyß bgefd gezogen.
-
-### Vorbereitung.
-
-Aus den übrigen Winckeln werden gerade Striche zu dem
-Düttel a gezogen.
+<!-- Page number: 224 -->
 
 ### Beweiß.
 
-efa ∧ dfa — n. 1. Wirck.
-fe | fd — n. Gegeb.
-af | af
-fe + af | af + fd — n. 2. Gr. I.
-Dw. — ae | ad
-u. — aef ∧ adf — n. 4. I.
-Gleicher Weise — ad | af | ae | ag | ab
-Dw. — a | Mitteldüpffel — n. 9. III.
-und der Kreyß aus solchem Mitteldüpffel a nach der Weite
-af gezogen/ begreifft das Fünffeck in sich/n. 6. Besch. IV.
+ida ∧ hda — n. 1. Wirck.
+dia ∧ dha — n. 3. Wirck. 10. Besch. 10. Gr. I.
+ad | ad
+Dw. — ai | ah — n. 26. I.
+Gleicher Weise ist ah | ag | al | ak
+Dw. — a | Mittel-Düpffel des Kreyses n. 9. u. 19. III.
+Welches das gegebene Fünffeck an allen Seiten anrühret /
+n. 18. III.
 
 ### Beschluß.
 
-Ist also umb das gegebene gleichseitige und gleichwincklichte
-Fünffeck ein Kreyß umbgeschrieben. W. Z. M.
+Ist also dem gegebenen gleichseitigen und gleichwincklichten
+Fünffeck ein Kreyß umbschrieben. W. Z. M.
 
-## Der XV. Vortrag.
+## Der XIV. Vortrag.
 
-## Das 15. Werckstück.
+## Das 14. Werckstück.
 
-Einem gegebenen Kreyß ein gleichseitig und
-gleichwincklichtes Sechseck einzuschreiben.
+Umb ein gegebenes gleichseitiges und gleich-
+wincklichtes Fünffeck einen Kreyß zu beschreiben.
 
-<!-- Signature: Ff -->
-<!-- Catchword: Ge- -->
+### Gegebenes. — Begehrte.
+Fünffeck bgefd — 1. Kreyß fegbd
+2. umb das Fünffeck
+beschrieben.
+
+[Diagram: Kreis mit einbeschriebenem Fünffeck f d b g e, aus dem Mittelpunkt a laufen gerade Striche zu den Ecken]
+
+<!-- Catchword: Wir- -->

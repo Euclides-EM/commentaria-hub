@@ -1,25 +1,19 @@
-[Ornament: Zierleiste (Holzschnitt) aus Rosetten]
+Necessariò igitur incidit linea bc in ipsam lineam BC.
 
-# Außlegung und Bedeutung derer Zeichen/ welche bey deß Euclidis Erklärung vorkommen.
+Et propterea linea bc |          | BC
+              △ abc   | congruit | △ ABC
+              ⋀ cba   |          | ⋀ CBA
+&             ⋀ bca   |          | ⋀ BCA
 
-1. | Ein gerader Senckstrich bedeutet eine Gleichheit. als A | B, ist so viel als/ A ist gleich oder eben so groß als B.
-2. △ Ein Dreyeck/ es mag spitz- stumpf- oder recht-wincklicht seyn.
-3. ⋀ Ein Winckel.
-4. + Mehr/ oder das Zusammensetzungs-Zeichen. als A + B, ist so viel als/ A mehr B/ oder A zu B gethan.
-5. — Weniger/ oder das Abzugs-Zeichen/ als A — B, ist so viel als/ A weniger B, oder A, von welchem das B abgezogen ist.
-6. ⊣ Das Vergrösserungs-Zeichen. als A ⊣ B, ist so viel als/ A ist grösser als B.
-7. ⊢ Verkleinerungs-Zeichen / als A ⊢ B, ist so viel als/ A ist kleiner als B.
-8. ∟ Rechter Winckel/ als ⋀ A | ∟ das ist/ der Winckel A ist gleich einem rechten Winckel.
-9. ⊾ Zweene rechte Winckel.
-10. = Gerade Nebenstriche/ bißweilen auch ebene Neben-Flächen/ (Parallelæ lineæ.)
-11. ▭ Länglicht Viereck/ Parallelogrammum oblongum.
-12. □ Gleichseitig Viereck/ Quadratum.
-13. ⌂ Ungeschickt Viereck/ Trapezium.
-14. ◠ ◠ Ein Bogen/ Arcus
-15. ◗ Ein Kreyß-Stück/ Segmentum circuli.
-16. ⌐ Ein Winckel-Maß/ Gnomon.
-17. ○ Kreyß/ Circulus.
+Quamobrem etiam
 
-<!-- Signature: A -->
+bc | BC
+abc ⋏ ABC
+cba ⋏ CBA
+& bca ⋏ BCA juxt. 8. axioma. (n. 8. Gr. S.)
 
-<!-- Catchword: Deß -->
+### Conclusio (Beschluß.)
+
+Si igitur duo triangula duo latera duobus lateribus æqualia habeant, utrumque utrique; habeant verò & angulum angulo æqualem, sub æqualibus rectis lineis contentum: Et basin basi æqualem habebunt; eritque triangulum triangulo æquale; & reliqui anguli reliquis angulis æquales erunt, uterque utrique, quos æqualia latera subtendunt. q. e. d. (W. Z. B.)
+
+[Ornament: grosse Schlussvignette (Holzschnitt) mit Blumen und Blattwerk]

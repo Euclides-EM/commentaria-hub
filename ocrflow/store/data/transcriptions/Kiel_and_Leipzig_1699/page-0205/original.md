@@ -1,39 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 189 -->
+<!-- Page number: 188 -->
+
+[Diagram: Kreis mit Punkten h, g, a, k, b; unten links Winckel mit Punkten d, c, e, f]
 
 ### Vorbereitung.
 
-Der Winckel bha werde in das gemachte Kreyß-Stück gesetzet.
+1. In das gefundene Kreyßstück werde der Winckel ahb gesetzt.
+2. Aus g werde gegen ab ein Senckstrich gk gezogen n. 12. I.
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | Kreyßstück bha | Halbkreyß | n. 28. Beschr. I. |
-| Dw. | ahb ⋀ ∟ |  | n. 31. III. |
-|  | ecd ⋀ ∟ |  | n. Gegeb. |
-| Dw. | ecd ⋀ ahb |  | n. 1 und 10. Gr. I. |
+|  | gak ⋀ gbk |  | n. 3. Wirck. |
+| Dw. | bg | ag | n. 6. I. |
+|  | bkg ⋀ | ∟ |  |
+|  | akg ⋀ | ∟ | n. 2. Vorb. und 10. Beschr. I. |
+| Dw. | akg ⋀ bkg |  | n. 1. Gr. und 10. Gr. I. |
+| und | ak | bk | n. 26. I. |
+| Dw. in | kg | Mittel-Düpffel | n. 1. Anhang III. |
+| und in | ag | Mittel-Düpffel | n. 19. III. |
+| Dw. | g | Mittel-Düpffel |  |
 
-Gleiche bewandniß hat es mit allen Winckeln/ so in das verfertigte Kreyßstück könne gesetzet werden.
+III. Arth.
 
-### Beschluß.
+### Gegebenes:
 
-Ist also das Kreyß-Stück bha oder lha verfertiget / in welchem ein Winckel ahb ⋀ ecd stehen kan. W. Z. M.
+Der Winckel ecd | ∟
 
-## Der XXXIV. Vortrag.
+### Wirckung.
 
-## Das 6. Werckstück.
+1. Wird der gegebene Strich ab in zween gleiche Theil getheilet. n. 10. I.
+2. Aus dieses Striches ab Mittel m wird nach der weite ma ein Kreyß beschrieben.
 
-Von einem gegebenen Kreyß ein Stück / in welchem ein Winckel / so dem gegebenen Winckel gleich groß ist/ stehen könne / abzuschneiden.
-
-### Gegebene. | Begehrtes.
-
-1. Kreyß dead. | 1. Abgeschnittenes Kreyßstück dea.
-2. Winckel hfg. | 2. In welchem stehen kan aed ⋀ hfg.
-
-[Diagram: Kreis mit Punkten e, d, n, m, a, b; Tangente g–c–f–a–b unten, Striche h und k links]
-
-<!-- Signature: Aa 3 -->
-
-<!-- Catchword: Wir- -->
+[Diagram: Halbkreis über dem Strich a–b mit Mittelpunkt m; Punkte c, h, e oben, d bei a]

@@ -1,40 +1,40 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 62 -->
-
-        CBD ⋏ CBE + EBD  n. 9. Gr-S. q.
-α.  Drw.  CBD ⋏ ACB + CAB  n. 1. Gr-S.
-
-CBD + CBA ⋏ ⏥                          n. 13. Vortr.
-CBD           ⋏ ACB + CAB              n. Bew. α.
-        CBA ⋏                CBA
-CBD + CBA ⋏ ACB + CAB + CBA   n. 2. Gr-S.
-Dw.        ⏥ ⋏ ACB + CAB + CBA n. 1. Gr-S.
-
-### Beschluß.
-
-Sind also jedwedes △es zwey inwendige Winckel α. dem auswendig gegen überstehenden gleich : Aber alle 3 ⋀ zusammen so groß/als ⏥.   W. Z. B.
-
-### Andere Arth.
-
-Pythagoras beweiset auff eine andere Arth/ daß drey Winckel des Dreyeckes eben so groß als ⏥
-
-### Vorbereitung.
-
-1. Durch einen des △es Düttel C wird ein gerader
-2. Neben-Strich DE gegen AB gezogen/ n. 31. Vortr.
-
-[Diagram: Dreieck ABC, durch C der punktierte Neben-Strich DE parallel zu AB]
+<!-- Page number: 61 -->
 
 ### Beweiß.
 
-DCA                ⋏ CAB                     } n. 29.
-        ECB        ⋏              CBA        } Vortr.
-              ACB ⋏                     ACB
-DCA + ECB + ACB ⋏ CAB + CBA + ACB   n. 2. Gr-S.
-DCA + ECB + ACB ⋏ ⏥                  nach 13. Gr-S.
-CAB + CBA + ACB ⋏ ⏥                  nach 2. Gr-S.
+ACD ⋏ DCH  n. 4. Wirckung.
+Dw.   AB ╪ CH     n. 27. Vortr.
 
-W. Z. B.
+### Beschluß.
 
-<!-- Catchword: Der -->
+Ist also dem Strich AB, ein Neben-Strich CH, durch den Düttel C, gezogen W. Z. B.
+
+## Der XXXII. Vortrag.
+
+## Das 23. Beweiß-Stück.
+
+Jedwedes Dreyeckes / dessen eine Seite verlängert ist/auswendiger Winckel/ist eben so groß/ als die beeden inwendig gegen überstehende Winckel ; Und jedwedes Dreyeckes drey inwendige Winckel sind zweyen rechten Winckeln gleich.
+
+### Gegebene.                    Begehrte.
+1. △ ABC.                    BAC + ACB ⋏ DBC.
+2. AB verlänget gegen D.     ABC + BAC + ACB ⋏ ⏥
+
+### Vorbereitung.
+
+1. Gegen die Seite AC werde ein Neben-Strich/ und zwar
+2. Aus dem Düttel B gezogen / nemlich BE n. 31. Vortr.
+
+[Diagram: Dreieck ABC, die Seite AB gegen D verlängert, aus B der Strich BE gezogen; punktierter Bogen von C nach E]
+
+### Beweiß.
+
+        AC ╪ BE               n. 1. Vorbereit.
+Dw.   ACB ⋏ CBE  }            n. 29. Vortr.
+und   CAB ⋏ EBD  }
+ACB + CAB ⋏ CBE + EBD         n. 2. Gr-S.
+
+<!-- Signature: H 3 -->
+
+<!-- Catchword: Dw. -->

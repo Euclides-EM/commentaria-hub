@@ -1,35 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 147 -->
+<!-- Page number: 146 -->
 
-### Gegebene. — Begehrte.
+2. Werden gezogen die geraden Striche fc und cd.
+3. Durch die Mittel dieser beyden Striche werden gerade Senckstriche gezogen / bg und ek.
 
-1. Zweene Kreyse abc und aeq
-2. Deren kleinerer den grössern inwendig berühret in a.
-3. Strich cf durch beede Mittel-Düpffele d und f.
-4. Welcher Strich nach nothdurfft verlängert wird.
+[Diagram: zwei einander schneidende Kreise; darauf die Punkte i und k oben, d und h, l, b, a, g, m in der Mitte, c und f unten, e zuunterst; punktierte Verbindungsstriche durch a]
 
-1. Der verlängerte Strich cf stösset auff den Anrührungs-Düttel a.
+### I. Beweiß.
 
-### I. Begebenheit.
+bg schneidet den Strich dc in zween gleiche Theil e, und zwar nach rechten Winckeln.
+Desgleichen theilet auch ei den Strich cf n. 3. Vorber.
+Dw. wird beeder Kreyse Mittel-Düpffel in a seyn n. 1. Zugab. III.
+Welches aber unmöglich n. 5. III.
 
-### Vorbereitung.
+### II. Beweiß.
 
-Stösset der gegebene Strich cf nicht auff a, so lasse man ihn auff b fallen.
+ad | ac | af — n. 15. Beschr. I.
+Dw. ist a der Mittel-Dupffel beeder Kreyse n. 9. III.
+Welches aber unmöglich nach 5. III.
 
-[Diagram: zwei einander inwendig berührende Kreise; oben der Punkt a, rechts oben b, im Innern e, f und d, unten q; durch die Mittel-Düpffele gezogene Striche]
+### Beschluß.
 
-### Beweiß.
+Kan also kein Kreyß einen andern Kreyß in drey oder mehr Dütteln durchschneiden. W. Z. B.
 
-af | ef — n. 15. Beschr. I.
-fc | fc
-af + fc | ef + fc — n. 2. Gr. I.
-oder ac | ef + fc — n. 9. Gr. q. I.
-ac | bf + fc — n. angenom. n. 15. Beschr. I.
-Dw. ef + fc | bf + fc — n. 1. Gr. I.
-oder ef | bf — n. 3. Gr. I.
-Welches aber unmöglich n. 9. Gr. I.
+## Der XI. Vortrag.
 
-<!-- Signature: T 2 -->
+## Das 10. Beweiß-Stück.
 
-<!-- Catchword: II. Be- -->
+Wenn zween Kreyse einander inwendig berühren/so wird der gerade Strich/ welcher durch beeder Kreyse Mittel-Düpffele gezogen wird / auff den Anrührungs-Düttel stossen.
+
+<!-- Catchword: Ge- -->

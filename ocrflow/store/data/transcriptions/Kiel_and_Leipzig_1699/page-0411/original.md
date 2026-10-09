@@ -1,29 +1,29 @@
-p. 43. lin. 15. pro BDC [unclear: ⋀̶] BAC
-lege ⋀
-p. 57. lin. 10. 11. pro BEF lege IEB
-BEF -- IEB
-p. 59. l. 17. *pro* Werckstück *lege* Beweißstück.
-p. 65. l. 7. *pro* Werckstück *lege* Beweißstück.
-p. 91. lin. 27. pro Striche lege Stücke
-p. 97. l. 8. leg. ▭ cab + ▭ abc | □ ac + 2 ▭ acb
-ca + bc | ab
-ab | ab
-▭ cab + ▭ abc | □ ab
-Dw. □ ab | □ ac + 2 □ acb &c.
-oder □ AB | □ ab + 2 ▭ ACB &c.
+<!-- Running title: Druckfheler/welche mit der Feder zu verbessern. -->
 
-p. 98. lin. 13. pro bc + bb lege bc + cc
--- 14. - - bb + 2bc + bb - - bb + 2bc + cc
--- 18. - - bb + 2bc + bb - - bb + 2bc + cc
-p. 101. lin. 9. pro Werckstück lege Beweißstück.
-p. 104. lin. 26. pro c|AC|DE leg. c|AB|DE
-b|CB|BD - - b|CB|CD
-c + b| d|AB|BE - - c + b| d|AC|CE
-p. 126. post. l. 10.
-a Gleichmässige Kreyse haben gleichmässige Durchschläge
-p. 253. werden unten angeleimet:
-Grösse mehr vielfältig/ als die kleinere: und eine einige Grösse ist gegen die Kleinere mehr vielfältig/ als gegen die Grössere.
+Pag. 121. l. 10. *pro* hende Winckel *lege* henden Winckel.
+123. l. 16. *pro* aa + — 2bc. *leg.* aa — 2bc.
+128. l. 6. *pro* wird es stehender *lege* wird es ein auff solchem Kreiß stehender.
+131. l. 15. *lege* gerader Strich.
+163. l. 3. *lege* RührStrich.
+165. l. *ult. lege* 2 acb n. 9. Gr. q. I.
+251. Werden die 2te und 3te Zeilen außgelöschet/ oder ein weiß Papier darüber geleimet.
+253. l. 22. A | a
+23. B | b
+24. A | a
+25. B | b
+26. A : B | a : b.
+271. l. 17. *lege* abgenommenen Stück:
 
-<!-- Signature: Ii 3 -->
+# Druckfehler/welche leicht können durch aufkleistern geändert werden.
 
-<!-- Catchword: Gege- -->
+p. 21. lin. 11. pro abc. ABC. leg. bc. BC
+p. 37. lin. 5. 6. pro CA in zween gleiche Theil bey H, bey E,
+BA
+lege CA in zween gleiche Theile bey E
+BA - - - - - bey H
+
+p. 37.
+
+[Diagram: Dreieck B C mit Spitze oben; oberhalb der Spitze der Punkt D, an der Spitze die Punkte G und A, links davon I, rechts F; auf den Seiten die Punkte H und E; punktierte Linien verbinden I, F, B und C.]
+
+<!-- Catchword: p. 41. -->

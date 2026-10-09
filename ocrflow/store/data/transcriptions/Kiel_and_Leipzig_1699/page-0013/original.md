@@ -1,15 +1,11 @@
-[Ornament: Zierleiste (Holzschnitt) mit Wappen und Löwen]
+<!-- Running title: Vorrede. -->
 
-# Lectori Benevolo S.
+Aufkleisterung oder Anleimung der gehörigen Worte können außgebessert werden/ und deßwegen sind selbige also gedruckt/ daß man sie mit einer Schere außschneiden/ und den Fehler durch Aufleimung damit bedecken kan.
 
-HAnc librorum VI. Euclidis in linguam Germanicam translationem non obstare hujus linguæ ignaris, quo minus textu Latino, Italico, Gallico, Anglico &c. adhibito, demonstrationes signis Algebraicis adornatas intelligere queant, tàm in titulo, quàm in præfatione Germanica indicatum est. Ut ergo cupidus Lector felicius progredi possit, Propositionem IV. libri I. utpote pluribus verbis, quam signis demonstratam, maximè tamen ad intelligendas sequentes propositiones necessariam, Latinè hîc exhibere, operæ pretium erit.
+Die andere Ahrt kan nicht wol anders / als mit der Feder geändert werden.
 
-## Propositio IV. (Vortrag.)
+Die Ubrigen werden nicht groß hinderlich seyn/ wenn sie gleich nicht geändert werden.
 
-## Theorema I. (Beweiß-Stück.)
+Und so viel hat man dieses mal zu erinnern vor nohtwendig gehalten. Solte nun dem günstigen Leser diese geringe Arbeit gefallen / so wird man mehr dergleichen/ ob GOtt wil/ an den Tag zu geben gereitzet werden.
 
-Si duo triangula duo latera duobus lateribus æqualia habeant, utrumque utrique; habeant verò & angulum angulo æqualem, sub æqualibus lineis contentum: Et basin basi æqualem habebunt; eritque triangulum triangulo æquale, & reliqui anguli reliquis angulis æquales erunt, uterq; utriq;, quos æqualia latera subtendunt.
-
-<!-- Signature: )( -->
-
-<!-- Catchword: Data -->
+<!-- Catchword: Lecto- -->

@@ -1,28 +1,38 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 383 -->
-
-### Andere Ahrt.
-
-Noch leichter geschicht diese Theilung nach dem XI. Vortrag des II. Buchs.
-
-[Diagram: Rechteck mit punktierten Bogenlinien und den Punkten b, a, g, c, h, f, a, d, e]
+<!-- Page number: 382 -->
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | □ ac | □ abc | n. 11. II. |
-|  | acg ⋀ | hcb | n. 13. I. |
-| Dw. | □ ac wechselmässig □ abc |  |  |
-| und | ab : ac | ac : cb | n. 14. VI. |
+|  | □ ad | □ am | n. 1. Wirck. |
+|  | □ ak | □ ak |  |
+| Dw. | □ ad — □ ak | □ m — □ ak | n. 3. Gr. |
+| oder | □ bd | □ hm |  |
+|  | bkd | [unclear: ⋀] hkm | n. 13. I. |
+| Dw. | □ hm wechselmässig □ bd |  |  |
+| und | hk : kd | bk : km | n. 14. VI. |
+|  | kd | be | n. 34. I. |
+|  | bi | be | n. 7. Wirck. |
+| Dw. | bi | kd | n. 1. Gr. I. |
+| und | hk : bi | bk : km | n. Anh. 7. V. |
+|  | be | bk | n. 29. Beschr. I. |
+|  | be | bi | n. 7. Wirck. |
+| Dw. | bi | bk | n. 1. Gr. I. |
+| und | hk : bi | bi : km | n. Anh. 7. V. |
+|  | hk | ab | n. 34. I. |
+| Dw. | ab : bi | bi : km | n. Anh. 7. V. |
+|  | bm | ba | n. 29. Besch. I. |
+|  | bk | bi | n. 7. Wirck. |
+| Dw. | bm — bk | ba — bi | n. 3. Gr. I. |
+| oder | km | ia |  |
+| und | ab : bi | bi : ia | n. Anh. 7. V. |
 
-Dw. ist ab im c nach der äusersten und mittelsten Verhältnüß getheilet. W. Z. M.
+Dw. ist ab im i nach der äusersten und mittelsten Verhältnüß getheilet. n. 3. Beschr. VI.
 
-## Der XXXI. Vortrag.
+### Beschluß.
 
-## Das 21. Beweiß-Stück.
+Ist also der Strich ab nach äuserster und mittelsten (secundùm mediam & extremam) Verhältnüß getheilet. W. Z. M.
 
-In allen rechtwincklichten Dreyecken ist allezeit diejenige geradstrichichte Gestalt/ welche auf die/ dem rechten Winckel gegen überstehende/ Seite gesetzet wird/ denen beyden Gestalten/ so auf den übrigen beyden/ den rechten Winckel begreiffenden/ Seiten stehen/ und der ersten Gestalt ähnlich/ auch gleicher weise gesetzt sind/ gleichmässig.
-
-<!-- Catchword: Gegebene. -->
+<!-- Catchword: Andere -->

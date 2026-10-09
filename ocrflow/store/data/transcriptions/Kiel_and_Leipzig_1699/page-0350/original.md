@@ -1,37 +1,33 @@
-<!-- Page number: 334 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Page number: 333 -->
 
-2. Von dem ungeendeten Strich hg werde fg ⊤ FG abgeschnitten. n 3. I.
+Dw. | bc : cd | bi : ih | n. Anh. 7. V.
+| bc : cd | BC : CD | n. 7. V.
+Dw. | BC : CD | bi : ih | n. 11. V.
+| ef : fg | bi : ih | n. Anh. 7. V.
+Dw. | BC : CD | ef : fg | n. 11. V.
 
-3. Aus A durch f werde ein gerader Strich Ak nach Nothdurfft gezogen.
+## Des X. Vortrags II. Ahrt.
 
-4. Desgleichen ein gerader Strich aus G durch g, biß er dem Strich Ak in dem Düttel k aufstosse.
+### Gegebene.
 
-5. Aus diesem Düttel k werden gerade Striche biß auf den getheilten Strich GA gezogen/nemlich kB, kC, kD, kE und kT, welche den ungetheilten Strich fg in b, c, d, e, und t schneiden.
+1. Ungetheilter Strich FG.
+2. Getheilter Strich AG.
 
-### Beweiß.
+### Begehrtes.
 
-|  |  |  |
-|---|---|---|
-|  | fb ⊤ AB | n. 1. Wirck. |
-| Dw. | kfd ⋏ kAB | ⟩ n. 29. I. |
-| u. | kbf ⋏ kBA |  |
-|  | fkb ⋏ AkB | n. 8. Gr. I. |
-| Dw. | △ fkb ähnlich △ AkB | n. 1. Besch. VI. |
-| u. | fb : AB ⊤ bc : BC | n. 4. VI. |
-| Dw. | fb : bc ⊤ AB : BC | n. 16. V. |
-|  | bc ⊤ BC | n. 1. Wirck. |
-| Dw. | kbc ⋏ kBC | ⟩ n. 29. I. |
-| u. | kcb ⋏ kCB |  |
-|  | ckb ⋏ CkB | n. 8. Gr. I. |
-| Dw. | △ ckb ähnlich △ CkB | n. 1. Besch. VI. |
-| u. | bc : BC ⊤ cd : CD | n. 4. VI. |
-| Dw. | bc : cd ⊤ BC : CD | n. 16. V. |
+Der Strich FG getheilet in b, c, d, e. und t also
+daß | fb : bc | AB : BC.
+| bc : cd | BC : CD
+| de : et | DE : ET
+| tg : TG | et : ET. &c.
 
-Gleicher weise kan auch bewiesen werden/
+[Diagram: von einem Punkt k oben laufen punktierte Linien zu der getheilten Linie G T E D C B A; dazwischen die parallele Linie g t e d c b f h; darunter die Striche F G und G A]
 
-Daß de : et ⊤ DE : ET.
-und tg : TG ⊤ et : ET.
+### Wirckung.
 
-<!-- Catchword: Des -->
+1. Gegen den getheilten Strich AG werde ein Nebenstrich hg nach Nothdurfft gezogen. n. 31. I.
+
+<!-- Signature: Tt 3 -->
+<!-- Catchword: 2. Von -->

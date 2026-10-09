@@ -1,30 +1,31 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch. -->
 
-<!-- Page number: 55 -->
-
-Solten sie aber bey A zusammen kommen / so würde
-        GHC ⊼ BGH      n. 16. Vortr.
-    welches widerumb gegen das 3. Gegeb.
+<!-- Page number: 54 -->
 
 ### Beschluß.
 
-Können also diese Striche AB und CD weder auff der einen/ noch auff der andern Seite zusammen kommen / sondern müssen Neben-Striche seyn / n. 34 Beschreibung.   W. Z. B.
+Müssen also allezeit in zweyen △ △, deren beede Winckel/ und eine Seite gleich groß sind/ auch die übrigen Seiten und Winckel unter sich gleich haben.   W. Z. B.
 
-## Der XXIIX. Vortrag.
+## Der XXVII. Vortrag.
 
-## Das 19. Beweiß-Stück.
+## Das 18. Beweiß-Stück.
 
-Wenn der auff zween gerade Striche einfallende gerade Strich / den auswendigen / dem auff selbiger Seite inwendig entgegen stehenden Winckel/ gleich groß machet : Oder auch die beeden inwendige aufft eben derselben Seite / neben-Winckel / zweyen rechten Winckeln gleich machet : So werden es auch Neben-Striche seyn.
+Wenn auff zween gerade Striche ein anderer gerader Strich fället / und die Wechsel-Weiß genommene (alternatim sumtos) Winckel gleich groß machet : So werden solches gerade Neben-Striche seyn.
 
 ### Gegebene.                              Begehrtes.
-1. Zween gerade Striche AB und CD      AB ═══ CD
-2. Einfallender gerader Strich   EF
-3. Außwen-        EGB ⋏ GHD   inwendig ent-
-        dige      EGA ⋏ GHC   gegen stehende.
-4. [unclear: Inwegendige]
-5. Auff eben selbiger Seite
-6. Gegeneinanderstehende BGH + GHD | [unclear: ⏥]
+1. Zween gerade Striche AB und CD.     AB ═══ CD
+2. Der einfallende gerade Strich EF.
+3. Die Wechsel-Winckel.
+   AGH ⋏ GHD.
+   BGH ⋏ GHC.
 
-[Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
+[Diagram: Zwei waagerechte Striche AB und CD, von dem schrägen Strich EF in G und H geschnitten, mit punktierten Linien zum Punkt I]
 
-<!-- Catchword: 1. Be- -->
+### Beweiß.
+
+Entweder sind es Neben-Striche/ oder zusammenlauffende Striche.
+
+Lauffen sie zusammen in dem Düttel I.   So machen sie ein △ GIH, und wird     AGH ⊼ GHI. n. 16. Vortr.
+        welches wider das 3. Gegebene.
+
+<!-- Catchword: Solten -->

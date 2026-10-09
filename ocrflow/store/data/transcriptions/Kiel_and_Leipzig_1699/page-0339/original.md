@@ -1,42 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 322 -->
 
-<!-- Page number: 323 -->
+<!-- Running title: Das VI. Buch -->
 
-Dw. | a ⋏ D
-u. | ECD ⋏ abc
-u. | DEC ⋏ acb | n. Zugab 8. I.
+| CFD ⋏ bca | n. Bew. α.
+Dw. | bc : CF | ab : CD | n. 4. VI.
+| bc : CE | ab : CD | n. 3. Geg.
+Dw. | bc : CE | bc : CF | n. 11. V.
+u. | CE | CF | n. 9. V.
+Dw. | CDE ⋏ CDF | n. 8. I.
+welches unmüglich n. 9. Gr. I.
 
-### Beschluß.
+III. Ahrt Vorbereitung.
 
-Müssen derowegen diejenigen Dreyecke / deren Seiten in richtiger Ebenmaß stehen / gleichwincklicht seyn. W. Z. B.
+Es werde 1. CEG ⋏ bca
+und 2. ECG ⋏ abc   n. 23. I.
 
-## Der VI. Vortrag.
+[Diagram: links Dreieck CDE mit punktierten Linien zu einem Punkt G unterhalb; rechts grösseres Dreieck abC]
 
-## Das 6. Beweiß-Stück.
+### Beweiß.
 
-Wenn in zweyen Dreyecken zweene gleichmässige winckel gefunden werden / deren Seiten ebenmässig sind : So sind diese Dreyecke durchaus gleichwincklicht / und dererselben ebenmässige Seiten überspannen gleichmässige Winckel.
+CEG ⋏ bca
+ECG ⋏ abc   n. Vorber.
+α Dw. | G ⋏ a | n. 32. I.
+u. | ab : bc | CG : CE | n. 4. VI.
+| ab : bc | CD : CE | n. 3. Geg.
+Dw. | CD : CE | CG : CE | n. 11. V.
+u. | CD | CG | n. 9. V.
+u. | DE | EG | n. gleichen Bew.
+Dw. | G ⋏ D | n. 32. I.
+| D ⋏ a | n. Bew. α.
 
-### Gegebene.
-
-1. △ abc und △ edf.
-2. bac ⋏ def.
-3. ba : ac | de : ef
-
-### Begehrte.
-
-1. acb ⋏ efd.
-2. abc ⋏ edf.
-3. △ abc gleichwincklicht △ edf.
-
-[Diagram: zwei Dreiecke, links abc, rechts edf mit punktierten Linien zu einem Punkt g oberhalb]
-
-### Vorbereitung.
-
-Auf den Strich ed werden gesetzet
-
-1. deg ⋏ bac
-2. gde ⋏ abc | n. 23. I.
-3. werden gezogen eg und dg.
-
-<!-- Signature: Ss 2 -->
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Dw. -->

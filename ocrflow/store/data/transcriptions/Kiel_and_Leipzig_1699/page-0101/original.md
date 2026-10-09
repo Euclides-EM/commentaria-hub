@@ -1,34 +1,37 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 85 -->
+<!-- Page number: 48 -->
 
-□ fx | □ fpib | n. Bew. β.
-Dw. □ fx + □ gx | □ gbie + □ fpib | n. 2. Gr S.
-□ fg | □ gbie + □ fpib | n. 9 GrS. q.
-Dw. □ fg | □ fx + □ gx | n. 1. GrS.
+### Beweiß.
 
-### Beschluß.
+mn ∠ ko | n. 10. GrS.
+no ∠ on
+α. mn + no ∠ ko + on | n. 2. GrS.
+rf | fx
+fg | pf | n. 46. Vort u. 29. Bes.
+rf + fg | pf + fx | n. 2. GrS.
+ko + on ∠ mn + no | n. Bew. α.
+oder kon ∠ mno | n. 9. GrS. q.
+Dw. fgr ∠ pxf | n. 4. Vortr.
+xi = fp | n. 4. Vorber.
+Dw. □ fpib | 2 △ fpx | n. 41. Vortr.
+und □ fpib | 2 △ fgr | n. 6. GrS.
+fr = lg | n. 46. Vortr.
+□ fx | 2 △ fgr | n. 41. Vortr.
+β. Dw. □ fx | □ fpib | n. 6. GrS.
 
-Ist also in jedwedem rechtwincklichten △ das □ des Strichs/ so dem rechten Winckel gegen über stehet/ eben so groß/ als die Vierecke der beeden andern Seiten zusammen. W. Z. B.
+ab ∠ dc | n. 4. Wirck.
+bc ∠ cb
+ab + bc ∠ dc + cb | n. 2. GrS.
+oder abc ∠ dcb | n. 9. GrS. q.
+hg | xg
+fg | ge | n. 29. Beschreib.
+Dw. hg + gf | xg + ge | n. 2. GrS.
+und hgf ∠ xge | n. 4. Vortr.
+xi = ge | n. 4. Wirck.
+Dw. □ gbie | 2 △ xge | n. 41. Vortr.
+und □ gbie | 2 △ hgf | n. 6. GrS. k.
+□ gx | 2 △ hgf | n. 41. Vortr.
+Dw. □ gx | □ gbie | n. 6. GrS.
 
-## Der XLVIII. Vortrag.
-
-## Das 34. Beweiß-Stück.
-
-Wenn in einem Dreyeck/ das Viereck einer Seite eben so groß ist / als der übrigen beeden Seiten Vierecke/ so werden diese beeden Seiten einen rechten Winckel begreiffen.
-
-### Gegebene. | Begehrtes.
-1. △ abc | acb | ⌐
-2. □ ab | □ cb + □ ac
-
-### Vorbereitung.
-
-1. Auff die Seite ac, und zwar den Düttel c, werde ein Senckstrich cd gesetzet. n. 11. Vortr.
-2. Senckstrich cd | cb n. 2. Vortr.
-3. Werde der Strich ad gezogen.
-
-[Diagram: Dreyeck mit Spitze a oben, Grundpunkten d und b, Fußpunkt c unten, mit Senckstrich und Winckelzeichen]
-
-<!-- Signature: L 3 -->
-
-<!-- Catchword: Be- -->
+<!-- Catchword: □ fpx -->

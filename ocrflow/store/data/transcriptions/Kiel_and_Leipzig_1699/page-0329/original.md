@@ -1,39 +1,28 @@
-<!-- Page number: 313 -->
+<!-- Page number: 312 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-### I. Beweiß.
+## Der II. Vortrag.
 
-de ⧣ cb — n. Gegeb.
-Dw. △ bde | △ cde — n. 37. I.
-△ ade | △ ade
-Dw. △ ade : △ bde | △ ade : △ cde — n. 7. V.
-△ ade gleichmässiger Höhe △ bde — n. 4. Besch. VI.
-∝ Dw. △ ade : △ bde | ad : db — n. 1. VI.
-△ ade : gleichmässiger Höhe △ cde — n. 4. Besch. VI
-Dw. △ ade : △ cde | ae : ec — n. 1. VI.
-u. △ ade : △ bde | ae : ec — n. 11. V.
-△ ade : △ bde | ad : db — n. Bew. ∝
-Dw. ae : ec | ad : db — n. 11. V.
+## Das 2. Beweiß-Stück.
 
-### I. Beschluß.
+Wenn gegen eines Dreyeckes eine Seite ein gerader Nebenstrich gezogen wird/ so schneidet solcher Strich die übrigen Seiten nach der Ebenmaß. Und wenn ein gerader Strich zwo des Dreyeckes Seiten nach der Ebenmaß schneidet; so wird er ein Nebenstrich des Grundstrichs seyn.
 
-Wenn derowegen eines Dreyeckes zwo Seiten von des Grundstriches Nebenstrich geschnitten werden/ so stehen die Stücke der Seiten in ebenmässiger Verhältnüß gegen einander. W. Z. B.
+### I. Gegebene.
 
-## Des II. Vortrags II. Gegebene.
-
-1. Dreyecke abc
+1. Dreyeck abc.
 2. Strich de
-3. Welcher die Seiten schneidet.
-4. Also daß ae : ec | ad : db.
+3. de ⧣ cb.
+4. Das Dreyeck schneidend.
 
 ### Begehrtes.
 
-de ⧣ cb.
+ae : ec | ad : db.
+
+[Diagram: Dreyeck mit Gipffel a und Grundlinie bc, darin der Strich de nebst gestrichelten Strichen be und cd]
 
 ### Vorbereitung.
 
 Es werden die geraden Striche be und cd gezogen.
 
-<!-- Signature: Rr -->
-<!-- Catchword: II. Beweiß. -->
+<!-- Catchword: Beweiß. -->

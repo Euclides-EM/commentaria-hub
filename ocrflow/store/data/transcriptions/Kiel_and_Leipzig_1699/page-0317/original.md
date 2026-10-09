@@ -1,49 +1,29 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 301 -->
-
-### I. Gegebene.
-
-[Diagram: zwei waagerechte Linien A und B mit angesetzten Stücken a]
-
-A ⊣ B
-a | a
-
-### Begehrtes.
-A + a : B + a ⊢ A : B
-
-### Beweiß.
+<!-- Page number: 300 -->
 
 |  |  |  |  |
 |---|---|---|---|
-|  | A | ⊣ B | n. Geg. |
-|  | a | \| a |  |
-| Dw. | A + a | ⊣ B + a | n. 4. Gr. I. |
-|  | a \| | a |  |
-| Dw. | A + a : a | ⊣ B + a : a, | n. 8. V. |
-|  | A + a : A | ⊢ B + a : B | n. 30. V. |
-|  | A + a : B + a | ⊢ A : B | n. Anh. 28. V. |
+| Dw. | D : d | ⊣ A + B + C : a + b + c | n. Anh. 13. V. |
+|  | D : A + B + C | ⊣ d : a + b + c | n. 27. V. |
+|  | D + A + B + C : A + B + C | ⊣ d + a + b + c : a + b + c | n. 28. V. |
+|  | D + A + B + C : d + a + b + c | ⊣ A + B + C : a + b + c | n. 27. V. |
+|  | D : d | ⊣ D + A + B + C : d + a + b + c | n. 33. V. |
+|  | A + B + C : a + b + c | \| C : c | n. Bew. II. |
+|  | D + A + B + C : d + a + b + c | ⊣ C : c | n. Anh. 13. V. |
 
-### II. Gegebene
+### Beschluß.
+Sind derowegen nunmehro
 
-[Diagram: zwei waagerechte Linien A und B mit abgeteilten Stücken]
+1. D + A + B + C : d + a + b + c ⊣ A + B + C : a + b + c
+2. D + A + B + C : d + a + b + c ⊣ D : d
+3. D + A + B + C : d + a + b + c ⊣ C : c.
 
-A ⊣ B
-a | a
+W. Z. B.
 
-### Begehrtes.
-A — a : B — a ⊣ A : B
+## Der XXXV. Vortrag.
+## Das 35. Beweiß-Stück.
 
-### Beweiß.
+Wann zu zwo Grössen / welche ungleicher Grösse sind / zwey gleichmässige Stücke beygefüget werden / so werden die zusammengesetzten eine kleinere Verhältnüß / als die Erstgegebenen / haben: wenn aber gleichgrosse Stücke von selbigen abgeschnitten werden / so werden die übergebliebene Stücke eine grössere Verhältnüß / als die ersten Grössen gehabt / erlangen.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | A | ⊣ B | n. Geg. |
-|  | a \| | a |  |
-| Dw. | A : a | ⊣ B : a | n. 8. V. |
-|  | A : B | \| a : a | n. 27. V. |
-| Dw. | A — a : B — a | ⊣ A : B | n. 33. V. |
-
-<!-- Signature: Pp 3 -->
-
-<!-- Catchword: oder: -->
+<!-- Catchword: I. Ge- -->

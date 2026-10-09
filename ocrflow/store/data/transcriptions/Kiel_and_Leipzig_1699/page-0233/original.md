@@ -1,40 +1,34 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 217 -->
+<!-- Page number: 216 -->
 
-### Wirckung.
+dcb ∧ ∟ ω.
+Dw. — dbc + bdc ∧ ∟ — n. 3. Gr. I.
+u. — dbc ∧ bdc ∧ ½ ∟ — ß. n. 7. Gr. n. I.
+Gleicher Weise ebd ∧ bec ∧ dec ∧ edb ∧ ½ ∟
+Dw. — ab | ae | ac | ad — n. 6. I.
+u. — a | Mittel-Düpffel des Kreyses edcb, n. 9. III.
 
-1. Nehme man einen Strich AB,
-2. Welchen man also theile in C, daß des gantzen Strichs AB und
-kleinem Stückes BC länglicht Viereck eben so groß sey/ als des
-Grössern Stückes AC gleichseitiges Viereck/ n. 11. II.
-3. Werde in dem Dreyeck abd der Grundstrich bd eben so groß/
-als das grössere Stück AC gemacht/ n. 2. I.
-4. Zu den beyden Schenckeln ab und ad aber werde der gantze
-Strich AB genommen/ n. 12. I.
+Welcher umb das Viereck beschrieben/ n. 6. Besch. IV.
 
-### Vorbereitung.
+### Beschluß.
 
-1. Von der Seiten ab werde ein Stück ac | AC abgeschnitten/
-n. 3. I.
-2. Werde der Strich dc gezogen.
-3. Aus a nach der Weite ab werde ein Kreyß gezogen.
-4. Umb das Dreyeck acd werde auch ein Kreyß gezogen/ n. 5. IV.
+Ist also umb das gegebene □ bcde ein Kreyß edcb beschrieben.
+W. Z. M.
 
-### Beweiß.
+## Der X. Vortrag.
 
-db | AC — n. 3. Wirck.
-Dw. — □ db | □ AC — n. 1. Gr. t. II.
-ab | AB — n. 4. Wirck.
-bc | BC
-Dw. — abc ▭ ABC — n. 1. Gr. II.
-AC | ac, n. 1. Vorb.
-a. — AC ▭ ac, n. 1. Gr. t. II.
-Dw. — □ abc + □ AC | ▭ ABC + □ ac, n. 2. Gr. I.
-ß. — □ AC | ▭ ABC — n. 11. II.
-Dw. — □ abc | □ ac, n. 3. Gr. I.
-AC | bd — n. 3. Wirck.
-□ AC | □ bd — n. 1. Gr. t. II
+## Das 10. Werck-Stück.
 
-<!-- Signature: Ee -->
-<!-- Catchword: Dw. -->
+Ein gleichschenckliches Dreyeck zu machen/
+dessen jeder Grundwinckel noch einmahl so groß/
+als der Gipffelwinckel.
+
+### Gegebene. — Begehrte.
+1. Gleichgrosse Schenckel — 1. Gleichschencklichtes Dreyeck
+2. jedweder Grundwinckel noch einmahl so groß als der Gipffelwinckel. — 2. in welchem der Gipffelwinckel halb so groß als ein Grund-
+winckel.
+
+[Diagram: links ein Quadrat mit Punkten A, C, B auf der Grundlinie und einem Kreisbogen; rechts ein punktierter großer Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c und d]
+
+<!-- Catchword: Wir- -->

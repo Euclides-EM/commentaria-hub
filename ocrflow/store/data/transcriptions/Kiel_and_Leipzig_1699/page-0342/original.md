@@ -1,38 +1,28 @@
-<!-- Page number: 326 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Page number: 325 -->
 
-### Vorbereitung.
+## Der VII. Vortrag.
 
-Wenn man | acb ⋏ dfe, | so mache
-| acg ⋏ dfe | n. 23. I.
+## Das 7. Beweiß-Stück.
 
-### I. Beweiß.
+Wenn zwey Dreyecke sind / da des einen Winckel einem des andern Dreyeckes Winckel gleichmässig ist / die übrigen Winckel aber von ebenmässigen Seiten begriffen werden; Solcher beeden Winckel auch jeder entweder kleiner / oder nicht kleiner / als ein rechter Winckel ist : So werden solcher Dreyecke Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / die Dreyecke auch selbst gleichwincklicht seyn.
 
-| acg ⋏ dfe | n. Vorber.
-| bac ⋏ edf | n. 2. Geg.
-α Dw. | agc ⋏ def | n. 32. I.
-u. | ac : cg | df : fe | n. 4. VI.
-| ac : cb | df : fe | n. 5. Geg.
-Dw. | ac : cb | ac : cg | n. 11. V.
-u. | cb | cg | n. 9. V.
-Dw. | cbg ⋏ bgc | n. 5. I.
-| cbg ⋏̸ [unclear: ∟] | n. 3. Geg.
-Dw. | bgc ⋏̸ [unclear: ∟] | n. 1. Gr. d. I.
-| agc + bgc ⋏ [unclear: ⌓] | n. 13. I.
-Dw. | agc ⋏̸ [unclear: ∟] | n. 5. Gr. I.
-| agc ⋏ def | n. Bew. α.
-Dw. | def ⋏̸ [unclear: ∟] | n. 1. Gr. c. I.
+### I. Gegebene.
 
-welches aber wider das 4. Gegebene.
+1. Zwey Dreyecke abc, def.
+2. bac ⋏ edf
+3. cba ⋏̸ [unclear: ∟]
+4. def ⋏̸ [unclear: ∟]
+5. ac : cb | df : fe.
 
-## Des VII. Vortrags II. Gegebene.
+### Begehrte.
 
-1 abc oder gbc ⋏ nicht kleiner als ∟,
-2. def ⋏ nicht kleiner als ∟.
-3. cag ⋏ fde
-4. ac : cb | df : fe
+abc ⋏ def
+acb ⋏ dfe
+△ abc gleichwincklicht △ def.
 
-[Diagram: zwei Dreiecke, links Dreieck abc mit punktierter Linie von c nach g, rechts Dreieck def]
+[Diagram: zwei Dreiecke, links def, rechts abc mit punktierter Linie von g nach c]
 
-<!-- Catchword: Vor- -->
+<!-- Signature: Ss 3 -->
+<!-- Catchword: Vorbe- -->

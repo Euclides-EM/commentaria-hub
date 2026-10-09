@@ -1,37 +1,43 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 271 -->
-
-A—a : a | B—b : b, — n. Gegeb.
-A—a : a | B—d : d, — n. Genom.
-Dw. B—b : b | B—d : d, — n. 11. V.
-u. B : b | B : d — n. 17. V.
-B | B
-Dw. b | d — n. 14. V.
-
-Welches aber auch unmüglich n. 9. Gr. I.
-
-Muß Dw. sich A : a | B : b,
-
-### Beschluß.
-
-Wenn derowegen zertheilte Grössen Ebenmässig sind/ so werden dieselben auch zusammen gesetzt Ebenmässig seyn. W. Z. B.
-
-## Der XIX. Vortrag.
-
-## Das 19. Beweiß-Stück.
-
-Wenn eine Gantze Grösse zu einer andern Gantzen Grösse sich also verhält/ wie das von der Ersten abgenommene Stück/ zu dem von der Andern abgenommene Stück: So wird auch das von der Ersten übergebliebene sich zu dem von der Andern übergebliebenen also/ wie das Erste Gantze zu dem Andern Gantzen verhalten.
+<!-- Page number: 270 -->
 
 ### Gegebene. | Begehrtes.
 
-A __a__c__ | a : b | A : B.
-B __b__d__
+A ________________ | A : a | B : b
+a ____________
+B ________________
+b ________
 
-[Diagram: Strecken A (mit Theilen a, c) und B (mit Theilen b, d)]
+[Diagram: Strecken A, a, B (mit Theil b), b]
 
-A : B | c : d.
-A | a + c.
-B | b + d.
+A—a : a | B—b : b
 
-<!-- Catchword: Beweiß. -->
+### Beweiß.
+
+Wenn das Begehrte nicht eintreffen solte / so nehme man an statt b das Stück c,
+
+B ________________
+b ________
+
+[Diagram: Strecken B (mit Theil c) und b]
+
+und sey alsdann
+
+A—a : a | B—b : b — n. Gegeb.
+A—a : a | B—c : c — n. Genom.
+B—b : b | B—c : c — n. 11. V.
+Dw. B : b | B : c — n. 17. V.
+B | B
+Dw. b | c — n. 14. V.
+
+Welches aber unmüglich n. 9. Gr. I.
+
+Oder man nehme an statt des Stückes b das Stück d.
+
+B ____________
+b ________
+
+[Diagram: Strecken B (mit Theil d) und b]
+
+<!-- Catchword: A— -->

@@ -1,36 +1,33 @@
-<!-- Page number: 307 -->
+<!-- Page number: 306 -->
 
-<!-- Running title: Euclidis. -->
-
-## Des I. Vortrags I. Zugabe.
-
-Diejenigen Dreyecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ haben auch gleichmässige Höhen.
-
-### I. Gegebene.
-
-ab : ed | △ abc : △ def
+<!-- Running title: Das VI. Buch -->
 
 ### Begehrtes.
 
-Höhen cq | fp.
+□ AD : □ BC | ml : gh.
 
-[Diagram: Zwei Dreiecke, links mit Gipffel f über der Grundlinie e p d a, rechts mit Gipffel c und Punkt r über der Grundlinie a q b, mit gestrichelten Höhen und Strichen]
+[Diagram: Zwei nebenstrichichte Vierecke mit den Buchstaben D, A und C, B, Eckpunkte n r o k i oben und m l g h unten, mit gestrichelten Diagonalen]
 
 ### Vorbereitung.
 
-Wenn die Höhe cq länger were/ als die Höhe fp, so schneide man ab ein Stück rq | fp.
-2. Ziehe man die Striche ra und rb.
+1. Werden die Zwergstriche mo und gi,
+2. Deßgleichen der Senckstrich rm, gezogen.
 
 ### Beweiß.
 
-weil cq ⊣ fp. — n. Angenom.
-und rq | fp — n. Vorber.
-Dw. ab : ed | △ arb : △ def — n. 1. VI.
-ab : ed | △ acb : △ def — n. Gegeb.
-Dw. △ arb : △ def | △ acb : △ def — n. 11. V.
-u. △ arb | △ acb — n. 9. V.
+□ AD | 2 △ A — n. 34. I.
+□ BC | □ BC
+Dw. □ AD : □ BC | 2 △ A : □ BC — n. 7. V.
+2 △ B | □ BC — n. 34. V.
+2 △ A | 2 △ A
+Dw. 2 △ A : 2 △ B | 2 △ A : □ BC — n. 7. V.
+u. 2 △ A : 2 △ B | □ AD : □ BC — n. 11. V.
+Dw. △ A : △ B | □ AD : □ BC — n. 15. V.
+△ A : △ B | ml : gh — n. Bew. ∝
+Dw. □ AD : □ BC | ml : gh — n. 11. V.
 
-welches aber unmüglich n. 9. Gr. I.
+### Beschluß.
 
-<!-- Signature: Qq 2 -->
-<!-- Catchword: Gleiche -->
+Werden derowegen alle Nebenstrichichte Viercke sich gegen einander also/ wie derselben Grundstriche verhalten. W. Z. B.
+
+<!-- Catchword: Des -->

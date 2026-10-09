@@ -1,34 +1,39 @@
-<!-- Running title: Das I Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 28 -->
+<!-- Page number: 27 -->
 
-[Diagram: zwey Dreyecke ABC und DEF nebeneinander]
+adb ⋏ abd nach 5. Vortr.
+Drw. cdb ⋏ adb nach 1. Gr.S. d, welches aber unmöglich
+nach 1. Gr.S. c.
 
-### Beweiß.
+Wolte man aber sagen / die beeden andern Striche kämen in den Düttel f zusammen.
 
-Auff den Grund-Strich BC setze man die zween Striche ED und FD, auff dieselbe Seite / an welcher die Striche AB und AC stehen/ so werden sie zusammen kommen in dem Düttel A, nach 7. Vortr. und werden sich alßdann die beeden Winckel BAC und EDF zusammen schicken/und auch ein ander gleich seyn/nach 8. Grund-Satz. W. Z. B.
+so ist ab | AB nach Gegeb. 2.
+DE | AB nach demselben gegeb.
+Dw. ab | DE nach 1. Gr. S.
+af | DE nach angenomn.
+Dw. af | ab nach 1. Gr. S. so unmöglich/ nach 9. Gr. S.
 
-I. Zugabe.
+Eben so unmöglich können die beeden Striche in e zusammen kommen.
 
-Weil in den beeden Dreyecken
-Die Seiten-Striche AB + AC | DE + DF
-und die Grund-Striche BC | EF wären
-Darnach BAC ⋏ EDF bewiesen/
-so folget daß
+### Beschluß.
 
-ABC ⋏ DEF
-BCA ⋏ EFD
-und ABC ⏉ DEF } alles nach 4. Vortr. W. Z. B.
+Weil nun kein Düttel / ohne allein der Düttel b zu finden / wo die andern beeden Striche zusammen stossen / so müssen sie nothwendig in dem Düttel/ wo die ersten beeden Striche einander berühret/ zusammen kommen. W. Z. B.
 
-## Der IX. Vortrag.
+## Der IIX. Vortrag.
 
-## Das 4. Werck-Stück.
+## Das 5. Beweiß Stück.
 
-Einen gegebenen gerad-strichichen Winckel in zweene gleiche Theile zu theilen.
+Weñ in zweyen Drey-Ecken/ die zween Seiten-Striche des ersten △, denen zween Seiten-Strichen des andern Drey-eckes/ jedweder jedwedem gleich sind / die Grund-Striche aber auch gleich lang sind/ so werden auch die zwischen denen beeden gleich-grossen Seiten begriffene Winckel einander gleich
 
-### Gegebenes | Begehrtes
+### Gegebene. | Begehrtes.
 
-Gerad-strichicher Winckel | 1. theilung des ⋀ BAC.
-⋀ BAC. | 2. BAF ⋏ CAF.
+1. Zwey △ △
+2. AB + AC | ED + DF | BAC ⋏ EDF
+3. AB | ED
+4. AC | DF
+5. BC | EF
 
-<!-- Catchword: Wir- -->
+<!-- Signature: D 2 -->
+
+<!-- Catchword: Be- -->

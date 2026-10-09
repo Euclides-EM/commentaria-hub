@@ -1,38 +1,31 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 91 -->
+<!-- Page number: 90 -->
 
-Auff gleiche weise wird auch bewiesen /
-daß □ np | □ gb
-□ lr | □ fe
-□ it + □ lr + □ np | □ cd + □ fe + □ gb n. 2. Gr-S. I.
-□ cab | □ cd + □ fe + □ gb n. 9 Gr-S. q
-Dw. □ cab | □ it + □ lr + □ np n. 1. Gr-S. I.
+6. Werden ad | AD
+de | DE
+eb | EB | nach 3. Vortr. I.
+7. Zeihe man nebenstriche
+df = ac
+eg = ac | n. 31. Vortr. I.
+8. Werden die Zwerg-Striche af, dg und eh gezogen.
+9. Ziehe man auch die Striche
+pq | BE
+rs | ED
+tu | DA | nach 2. Vortr. I.
+10. Diese drey Striche werden gezogen in andere drey Striche qn, sl und ui, welche aber alle dem Striche AC gleich seyn müssen / damit man die Vierecke □ pqn, □ rsl und □ tui bekomme.
+11. Ziehe man die Zwerg-Striche af, dg und ah.
+12. Wie auch - - - uk, sm und qo.
 
-### Beschluß.
-
-Sind also allezeit diejenigen rechtwincklichten Vierecke/ welche der unzertheilte Strich mit denen Stücken des getheilten Striches begreiffet / eben so groß/ als das Viereck/ so die beeden gantzen Striche begreiffen. W. Z. B.
-
-### Nach der Löß-Kunst.
-
-### Gegebene. | Begehrtes.
-1. Strich a | ae | be + ce + de
-2. Getheilet b + c + d
-3. a | b + c + d
-4. ungetheilter Strich e.
+[Diagram: Reihe rechtwincklichter Vierecke mit punktierten Diagonalen; Punkte c, f, g, h, i, k, l, m, n, o oben, E, D links, A, d, e, b, u, t, s, r, q, p unten]
 
 ### Beweiß.
 
-a | b + c + d nach 3. Gegeb.
-e | e
-ae | be + ce + de nach 1. Gr-S. II. W. Z. B.
+ui + ik | ac + ef | n. 2. Vortr. I.
+i ∠ c | n. 23. - - I.
+Dw. △ uik | △ acf | n. 4. - - I.
+□ cd | 2 △ acf
+□ it | 2 △ uik | n. 41. - - I.
+Dw. □ it | □ cd | n. 6. Gr-S. i. I.
 
-## Der II. Vortrag.
-
-## Das 2. BeweißStück.
-
-Wenn man einen geraden Strich/ auff waserley weise/ in zween Theile zerschneidet : So werden die beeden rechtwincklichten Vierecke/ welche der gantze Strich / und die beeden Striche begreiffen/ eben so groß seyn/ als das gleichseitige Viereck des gantzen Striches.
-
-<!-- Signature: M 2 -->
-
-<!-- Catchword: Ge- -->
+<!-- Catchword: Auff -->

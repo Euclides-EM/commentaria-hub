@@ -1,42 +1,39 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 269 -->
+<!-- Page number: 268 -->
 
-## Der XVII. Vortrag.
+## Der XVI. Vortrag.
 
-## Das 17. Beweiß-Stück.
+## Das 16. Beweiß-Stück.
 
-Wenn zusammengesetzte Grössen Ebenmässig sind / so werden sie auch zertheilet Ebenmässig bleiben.
+Vier Ebenmässige Grössen sind auch wechselweiß genommen Ebenmässig.
 
 ### Gegebene. | Begehrtes.
 
-A ________________
-a ______ | A—a : a | B—b : b.
-B __________
-b ____
+A ____________
+B ________ | A : a | B : b
+a ____
+b __
 
-[Diagram: Strecken A (mit Theil a), a, B (mit Theil b), b]
+[Diagram: Strecken A, B, a, b]
 
-A : a | B : b
+A : B | a : b
+A | 4a
+B | 4b
 
 ### Beweiß.
 
-A : a | B : b — n. Geg.
-Dw. A : B | a : b — n. 16. V.
-a : b | a : b — n. Anh. 7. V.
-Dw. A—a : B—b | a : b — n. 6. V.
-und A—a : a | B—b : b — n. 16. V.
+A | 4a
+B | 4b — n Gegeb.
+Dw. A : B | 4a : 4b — n. Anh. 7. V.
+4a ⁘ a | 4b : b — n. 7. Besch. V.
+4a ⁘ a | A : a — n. 7. V.
+Dw. A ⁘ a | 4b : b — n. 11. V.
+B : b | 4b : b — n. 7. V.
+Dw. A : a | B : b — n. 11. V.
 
 ### Beschluß.
 
-Werden derowegen allezeit zusammengesetzte Ebenmässige Grössen/ wenn sie zertheilet werden / auch Ebenmässig bleiben. W. Z. B.
+Werden derowegen Ebenmässige Grössen auch wechselweiß genommen Ebenmässig seyn. W. Z. B.
 
-## Der XVIII. Vortrag.
-
-## Das 18. Beweiß-Stück.
-
-Welche Grössen zertheilet Ebenmässig sind/ die werden auch/ wenn sie zusammen gesetzet sind / Ebenmässig bleiben.
-
-<!-- Signature: Ll 3 -->
-
-<!-- Catchword: Gege- -->
+<!-- Catchword: Der -->

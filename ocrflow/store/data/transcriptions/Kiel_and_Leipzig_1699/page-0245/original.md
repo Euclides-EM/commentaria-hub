@@ -1,25 +1,36 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 229 -->
+<!-- Page number: 228 -->
 
-|  |  |  |  |
-|---|---|---|---|
-| Dw. | fd | bd | n. 15. IV. |
-| | fd | bd | n. 29. III. |
-| und | fdb | Gleichseitiges △ | n. 23. Besch. I. W. Z. M. |
+I. Anhang.
 
-## Der XVI. Vortrag.
+Hierauß erhellet / daß die Seiten des Sechseckes eben so
+groß seyn / als der Strahl oder halbe Durchschlag des Kreyses /
+welchem das Sechseck eingeschrieben ist.
 
-## Das 16. Werckstück.
+II. Anhang.
 
-Dem gegebenen Kreyß ein gleichseitig und gleichwincklicht Funffzehen-Eck einzuschreiben.
+Fast auff gleiche Weise kan ein gleichseitiges Dreyeck einem
+gegebenen Kreyß eingeschrieben werden.
 
-### Gegebenes. — Begehrte.
+[Diagram: zwei sich schneidende Kreise; im rechten Kreis ein einbeschriebenes Dreyeck b e d mit Mittelpunkt e und Punkt f als Mittelpunkt des linken Kreises, punktierte Bögen durch o und d]
 
-Kreyß abfdea. — 1. Funffzehn-Eck dgafe 2. dem Kreyß eingeschrieben.
+### Wirckung.
 
-[Diagram: Kreis mit einbeschriebenem Fünfzehneck, darin punktiert ein Dreieck und ein Fünfeck; Punkte a, b, e, f, g, c, d, n, m]
+1. Aus f wird ein Kreyß nach der Weite fe dem gegebenen Krey-
+se eingeschrieben / welcher den gegebenen Kreyß in denen Dütteln
+e und o schneidet.
+2. Aus e und o werden nach selbiger Weite zwey Kreyßstücke
+gemacht /welche den Kreyß in d und b schneiden.
+3. Werden die Striche fd und fb gezogen.
+4. Wird der Strich db gezogen.
 
-<!-- Signature: Ff 3 -->
+### Beweiß.
 
-<!-- Catchword: Wir- -->
+fe ⌒ fo
+ed ⌒ ob — n. 15. IV.
+Dw. — fe + ed ⌒ fo + ob — n. 2. Gr. I.
+u. — fd ⌒ fb — n. 9. Gr. q. I.
+Dw. — fd | fb — n. 29. III.
+
+<!-- Catchword: Dw- -->

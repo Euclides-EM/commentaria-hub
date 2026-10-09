@@ -1,30 +1,37 @@
-<!-- Page number: 34 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das I. Buch -->
-
-### Beweiß.
-Weil alhier der Strich DC Bley-recht auff AB stösset/ so müssen ∧ ACD und ∧ BCD zween ∟ ∟ Winckel seyn.
+<!-- Page number: 33 -->
 
 ### Vorbereitung.
-Weil CD kein bley-rechter Senckstrich ist/ so richte man aus dem Düttel D einen bley-rechten Senckstrich DE auff/ n. 11. Vort.
+
+Man ziehe die beeden Striche CD und CE.
 
 ### Beweiß.
 
-ADE ⋀ BDE nach 11. Vortr.
-ADE + BDE ⋀ ⊥ nach 11. Vortr.
-ADE + BDE ⋀ ADC + BDC nach 8. Gr-S.
-Dw. ADC + BDC ⋀ ⊥ nach 1. Gr-S.
+DF | EF nach 10. Vortr.
+CF | CF
+DF + CF | EF + CF nach 2. Gr. S.
+DC | EC nach 15. Beschr.
+Dw. DFC ⋏ EFC nach 8. Vortr.
+und CF | ein bley-rechter Senckstrich n. 10. Beschr.
 
 ### Beschluß.
-Müssen derowegen die Winckel von dem herunterfallenden Strich gemacht/ entweder zween ∟ ∟ seyn/ wie an ACD und BCD zu sehen; oder wie ADC + BDC zweyen ⊥ gleich seyn. W. Z. B.
 
-## Der XIV. Vortrag.
+Ist also der begehrte Senckstrich CF aus dem gegebenen Düttel C auff den gegebenen Strich AB gezogen. W.Z.M.
 
-## Das 7. Beweiß-Stück
+## Der XIII. Vortrag.
 
-Wenn auff einen geraden Strich / und zwar auff einen einigen Düttel desselben/ zween gerade Striche / nicht von einer Seiten gezogen/ zusammen stossen/ und die zween neben einander stehende Winckel zweyen rechten Winckeln gleich groß machen; so werden sie gerade auffeinander stossen.
-(und einen einigen geraden Strich vorstellen.)
+## Das 6. Beweiß Stück.
 
-[Diagram: Zwei Diagramme. Links: senkrechter Strich AB durch Düttel C, waagerechter Strich ECD mit punktierten Linien. Rechts: schräger Strich AB durch Düttel C, Strich ED mit punktierten Linien nach F und G.]
+Wenn ein gerader Strich auff einen liegenden geraden Strich stösset/ und zween Winckel machet / so werden solche Winckel entweder selbst zween rechte Winckel / oder wenigstes zweyen rechten Winckeln an grösse gleich seyn.
+
+### Gegebene. | Begehrtes.
+
+Liegender Strich AB. | ⋀ ACD und DCB zween ∟ ∟. oder
+Darauff stossender Strich DC. | ⋀ ADC + BCD | ⊾.
+
+[Diagram: links liegender Strich AB mit senkrechtem Strich DC auff C; rechts liegender Strich AB mit schrägem Strich DC und punktiertem E]
+
+<!-- Signature: E -->
 
 <!-- Catchword: Be- -->

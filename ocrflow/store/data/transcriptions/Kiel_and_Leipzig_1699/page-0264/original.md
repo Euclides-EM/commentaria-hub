@@ -1,34 +1,28 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 248 -->
+<!-- Page number: 247 -->
 
-## Der IV. Vortrag.
+[Diagram: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 10a, C, B, 10b, D]
 
-## Das 4. Beweiß-Stück.
+### III. Beweiß.
 
-Wenn man vier Grössen nimmt / deren die Erste zu der Andern eben solche Verhältnüß hat / als die Dritte zu der Vierten; So werden auch diejenigen (Grössen) welche gleich-vielfältig sind gegen die Ersten und Dritten (Grössen) zu denjenigen Grössen / welche gleich-vielfältig sind gegen die Andern und Vierten (Grössen) nach allerley Vervielfältigung/ gleiche Verhältnüß haben / wenn man sie also / wie sie gegen einander stehen / nimmet.
+9a | C — n. Bew. α
+9a ⊢ 10a — n. 9. Gr. I.
+κ Dw. 10a ⊣ C — n. 1. Gr. c. I.
+9b | D — n. Bew. β
+9b ⊢ 10b — n. 9. Gr. I.
+λ Dw. 10b ⊣ D — n. 1. Gr. c. I.
+Weil nun (1) C | 9a — n. Bew. α
+und D | 9b — n. Bew. β
+(2) 2C ⊣ 4a — n. Bew. γ
+und 2D ⊣ 4b — n. Bew. φ
+(3) 10a ⊣ C — n. Bew. κ
+und 10b ⊣ D — n. Bew. λ
 
-### Gegebene.
+Derowegen muß auch C : a | D : b — n. 6. Beschr. V.
 
-1. 2a : a | 6a : 3a.
-2. 4a : 2a : | 12a : 6a :
-3. 3a : a | 9a : 3a.
+### Beschluß.
 
-### Begehrtes.
+Wenn derowegen vier Grössen gegeben werden / deren Erste zu der Andern sich also / wie die Dritte zu der Vierten verhält: und noch zwo Grossen darzu genommen werden / da die Fünffte zu der Ersten sich also verhält / wie die Sechste zu der Vierten / so muß die Fünffte zu der Andern sich also verhalten / wie die Sechste zu der Vierten/ W. Z. B.
 
-4a : 3a | 12a : 9a.
-
-### Vorbereitung.
-
-Man nehme zu der Ersten und Dritten (Grösse) noch zwo gleich-grosse / und also in gleicher Verhältnüß mit selbigen stehende Grössen.
-
-2a : 2a | 6a : 6a.
-
-### Beweiß.
-
-2a : a | 6a : 3a — n. 1. Geg.
-2a : 2a | 6a : 6a — n. Vorber.
-Dw. 2a + 2a : 2a + a | 6a + 6a : 6a + 3a — n. 1. V.
-oder 4a : 3a | 12a : 9a
-
-<!-- Catchword: Beschluß. -->
+<!-- Catchword: Der -->

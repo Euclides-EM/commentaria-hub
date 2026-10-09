@@ -1,31 +1,36 @@
-<!-- Page number: 43 -->
+<!-- Page number: 42 -->
 
-<!-- Running title: Euclidis -->
+<!-- Running title: Das I. Buch -->
 
-### Beschluß.
-Sind derowegen in jedweden △ zwo Seiten grösser/ als die Dritte. W. Z. B.
+sammen / sie mögen genommen werden / wie sie wollen / allezeit grösser / als die dritte.
 
-## Der XXI. Vortrag.
-
-## Das 14. Beweiß-Stück.
-
-Wenn in einem Dreyeck / auff einer dessen Seite Endsdüttele/ zween gerade Striche einwerts gesetzet werden; So werden diese beede Striche zwar kleiner seyn/ als die beyden Seiten-Striche des Dreyeckes / sie werden aber einen Winckel / so grösser/ als des Dreyecks Winckel ist/ begreiffen.
-
-### Gegebene. Begerthe.
-1. △ ABC BD + DC ⊢ BA + AC
-2. Zween gerade Striche BD und CD. BDC ⲗ BAC.
-3. Auf die Endsdüttele des Gr-Strichs. B und C
-4. Einwerts auffgesetzet.
+### Gegebenes. Begehrte.
+△ ABC. 1. AB + BC ⊣ CA
+2. CA + AB ⊣ BC
+3. BC + CA ⊣ BA.
 
 ### Vorbereitung.
-Es werde der Strich BD biß zu E verlängert.
 
-[Diagram: Dreieck ABC mit A oben, B unten links, C unten rechts; im Innern die Punkte D und E, Striche von B über D nach E und von C nach D und E.]
+1. Werde die Seite CA nach nohturfft verlängert. n. 2. Fod.
+2. werde AD | AB n. 3. Vortr.
+3. Ziehe man den geraden Strich BD.
+
+[Diagram: Dreieck ABC mit C unten links, B unten rechts, A oben; die Seite CA über A hinaus punktiert verlängert bis D, punktierte Linie von D nach B.]
 
 ### Beweiß.
-CED ⲗ CDB |
-BAC ⲗ DEC | n. 16. Vortr.
-Drw. BAC ⲗ CDB n. 1. Grund-S. f.
 
-<!-- Signature: F 2 -->
-<!-- Catchword: CE -->
+AD | AB n. 2. Vorbereitung.
+Drw. ADB ⋀ ABD n. 5. Vortr.
+CBD ⲗ ABD n. 9. Gr-S.
+CBD ⲗ CDB n. 1. Gr-S. a.
+CD ⊣ CB n. 19. Vortr.
+CA | CA
+CA + AD | CA + AB n. 2. Gr-S.
+aber CA + AD | CD n. 9. Gr-S. q.
+Drw. CA + AB ⊣ CB n. 1. Gr-S. c.
+
+Gleicher Weise kan auch erwiesen werden
+daß AB + BC ⊣ CA
+und BC + CA ⊣ BA
+
+<!-- Catchword: Beschluß. -->

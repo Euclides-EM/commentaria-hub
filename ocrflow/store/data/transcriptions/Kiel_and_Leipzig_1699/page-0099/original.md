@@ -1,30 +1,22 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 83 -->
+<!-- Page number: 82 -->
 
-lichten Dreyeck vermag der/dem rechten Winckel entgegen gesetzte Strich/ so viel/ als die beeden übrigen Seiten.
+2. Wird nach dieser Weite aus B. der Bogen AeDg gemacht
+3. - - wie auch aus A - - - BeCf
+4. - - - und aus e - - - fhig
+5. - - - - aus f - - - h
+6. - - - - aus g - - - i.
+7. Aus A gegen h wird biß zum Bogen ef, der Strich AC.
+8. Und aus B gegen i zum Bogen eg, der Strich BD gezogen.
+9. Endlich von C zum D ein gerader Strich/ so ist mit unveränderter Oeffnung des Kreyß-ziehers das begehrte □ verfertiget. W. Z. M.
 
-### Gegebenes. | Begehrtes.
-1. Rechtwincklichtes Dreyeck fxg | □ fg | □ xg + □ fx.
-2. fxg ∠ ⌐
-3. Dem rechten Winckel entgegen gesetzte Seite fg.
-4. Die beeden Seiten xg und xf, welche den ⌐ begreiffen.
+[Diagram: Quadrat BADC mit punktierten Kreisbögen; Punkte i, h oben, D, C, f, e in der Mitte, g links, B, A unten]
 
-### Vorbereitung.
+## Der XLVII. Vortrag.
 
-Es werden gemacht.
+## Das 33. Beweiß-Stück.
 
-1. Auff den Strich fg das □ fpeg
-2. - - - xf - □ fxlr
-3. - - - xg - □ xgh | n. 46. Vortr.
-4. Aus dem Düttel x der Strich xi = ge = fp n. 31. Vortr.
-5. Aus dem Düttel x der Strich xe
-6. - - - - x - - xp
-7. - - - - f - - fh
-8. - - - - g - - gr
+In jedwedem rechtwincklichten Dreyeck/ ist das gleichwincklichte und gleichseitige Viereck / welches von dem Strich/so dem rechten Winckel entgegen stehet/ gemacht wird/ eben so groß/ als die beeden Vierecke zusammen / welche von den beeden Seiten/so den rechten Winckel begreiffen/ gemacht werden : oder/In jedwedem rechtwinck-
 
-[Diagram: rechtwinckliges Dreyeck fxg mit den drey Vierecken über den Seiten und punktierten Hülfslinien; Punkte r, m, s, k, f, i, o, e, b, a, g, c, x, l, d, h]
-
-<!-- Signature: L 2 -->
-
-<!-- Catchword: Beweiß -->
+<!-- Catchword: lichten -->

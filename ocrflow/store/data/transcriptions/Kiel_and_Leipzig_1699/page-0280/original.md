@@ -1,26 +1,45 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 264 -->
+<!-- Page number: 263 -->
+
+### Gegebene. | Begehrtes.
+
+A ________ | A : a ⊣ C : c
+a ____
+B ________
+b ____
+C ________
+c ____
+
+[Diagram: Strecken A, a, B, b, C, c]
+
+1. A : a | B : b
+2. B : b ⊣ C : c
 
 ### Beweiß.
 
-A | 3a — n. Gegeb.
-2A ⊣ A — n. 9. Gr. I.
-α Dw. 2A ⊣ 3a — n. 1. Gr. a. I.
-⅔C | c — n. Gegeb.
-Dw. ⁶⁄₃C | 3c — n. 6. Gr. l. I.
-β oder 2C | 3c — n. 9. Gr. I.
+Wenn A : a | C : c — n. Genom.
+und A : a | B : b — n. Gegeb.
+so muß B : b | C : c — n. 11. V.
 
-Weil nun der I. Grösse Vervielfältigung grösser ist/ als die Vervielfältigung der III. Grösse; Die Vervielfältigung aber der II. Grösse nicht grösser ist/ als die Vervielfältigung der IV. Grösse; So ist A : a ⊣ C : c — n. 8. Besch. V.
+Welches wider das andere Gegebene.
 
-### Beschluß.
+Wenn aber A : a ⊢ C : c — n. Genom.
+und A : a | B : b — n. Gegeb.
+so muß B : b ⊢ C : c — welches wider das Gegeb.
 
-Wenn derohalben die I: zu der II. eben solche Verhältnüß hat/ als die III: zu der IV. die III: zu der IV. aber eine grössere Verhältnüß hat/ als die V: zu der VI. so wird auch die I: zu der II. eine grössere Verhältnüß haben/ als die V: zu der VI. W. Z. B.
+Weil dieser letzte Schluß nicht schlechter Dinges kan bestätiget werden/ So
 
-## Der XIV. Vortrag.
+### Vorbereitung.
 
-## Das 14. Beweiß-Stück.
+Nehme man A, wie auch C zweymahl.
+Die Grössen a und c aber dreymahl.
 
-Wenn aus etlichen Grössen die Erste zu der Andern eben so vielfältig ist/ als die Dritte zu der Vierten; Die Erste aber grösser ist/ als die Dritte/ so ist die Andere auch grösser/ als die Vierte. Ist aber die Erste eben so groß/ als die Dritte/ so ist auch die Andere eben so groß/ als die Vierte: Und wenn die Erste kleiner ist/ als die Dritte/ so ist auch die Andere kleiner/ als die Vierte.
+2A ________________
+3a ____________
+2C ________________
+3c ________________
 
-<!-- Catchword: Gegebene. -->
+[Diagram: Strecken 2A, 3a, 2C, 3c]
+
+<!-- Catchword: Beweiß. -->

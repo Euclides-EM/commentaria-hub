@@ -1,33 +1,39 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 146 -->
-
-2. Werden gezogen die geraden Striche fc und cd.
-3. Durch die Mittel dieser beyden Striche werden gerade Senckstriche gezogen / bg und ek.
-
-[Diagram: zwei einander schneidende Kreise; darauf die Punkte i und k oben, d und h, l, b, a, g, m in der Mitte, c und f unten, e zuunterst; punktierte Verbindungsstriche durch a]
-
-### I. Beweiß.
-
-bg schneidet den Strich dc in zween gleiche Theil e, und zwar nach rechten Winckeln.
-Desgleichen theilet auch ei den Strich cf n. 3. Vorber.
-Dw. wird beeder Kreyse Mittel-Düpffel in a seyn n. 1. Zugab. III.
-Welches aber unmöglich n. 5. III.
+<!-- Page number: 145 -->
 
 ### II. Beweiß.
 
-ad | ac | af — n. 15. Beschr. I.
-Dw. ist a der Mittel-Dupffel beeder Kreyse n. 9. III.
-Welches aber unmöglich nach 5. III.
+ab | ac — n. 4. Gegeb.
+bm | cm — n. 2. Vorber.
+ma | ma
+bm + ma | cm + ma — n. 2. Gr. I.
+Dw. bma ⋀ cma — n. 8. I.
+u. bma ⋀ ∟ — n. 10. Beschr. I.
+
+und ef muß durch den Mittel-Düpffel gehen/n. 1. Zugabe III. Gleicher gestalt wird auch dargethan/ daß der Strich kh durch den Mittel-Düpffel gehen müsse. Nun ist kein anderer Düttel im Kreyß/ durch welchen beyde Striche ef und kh gehen können/ als a, so kan auch kein anderer Düttel/als a, der Mittel-Düpffel seyn.
 
 ### Beschluß.
 
-Kan also kein Kreyß einen andern Kreyß in drey oder mehr Dütteln durchschneiden. W. Z. B.
+Wird demnach allezeit derjenige Düttel/ von welchem mehr/ als zween gerade Striche zu des Kreyses Umfang können gezogen werden/ solches Kreyses Mittel-Düpffel seyn. W. Z. B.
 
-## Der XI. Vortrag.
+## Der X. Vortrag.
 
-## Das 10. Beweiß-Stück.
+## Das 9. Beweiß-Stück.
 
-Wenn zween Kreyse einander inwendig berühren/so wird der gerade Strich/ welcher durch beeder Kreyse Mittel-Düpffele gezogen wird / auff den Anrührungs-Düttel stossen.
+Es kan kein Kreyß einen andern Kreyß in mehr/ als zween Dütteln schneiden.
 
-<!-- Catchword: Ge- -->
+### Gegebenes. — Begehrtes.
+
+1. Kreyß ibeg.
+2. Angenommener Kreyß klfm.
+
+Nicht in mehr/als in 2. Dütteln geschnitten.
+
+### Vorbereitung.
+
+1. Zu drey Dütteln/ wo die Kreyse einander durchschneiden/ nemlich zu f, o, d werden aus dem Mittel-Düpffel gerade Striche af, ac, ad gezogen.
+
+<!-- Signature: T -->
+
+<!-- Catchword: 2. werden -->

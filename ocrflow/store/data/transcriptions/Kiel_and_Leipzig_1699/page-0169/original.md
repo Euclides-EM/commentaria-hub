@@ -1,37 +1,30 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 153 -->
+<!-- Page number: 152 -->
 
-### Vorbereitung.
+### III. Begebenheit.
 
-So ziehe man 1. aus dem Anrührungs-Düttel b einen geraden Strich/durch die beeden Mittel-Düpffele o und d, zu dem eussersten Kreyß.
-2. Es werden zu dem andern Anrührungs-Düttel aus dem Mittel-Düpffel o, wie auch
-3. aus d gerade Striche oa und da gezogen.
+Wenn die beeden Kreyse einander auswendig in k und m anrühren.
 
-### Beweiß.
-
-do + oa ⊣ da — n. 20. I.
-ob | oa — n. 15. Besch. I.
-do + oa + ob ⊣ da + oa — n. 3. Gr. S. I.
-oa | oa
-do + ob ⊣ da — n. 5. Gr. I.
-Oder db ⊣ da — n. 9. Gr. q. I.
-Welches unmüglich nach 15. Beschr. I.
-
-### V. Begebenheit.
-
-Wenn zween Kreyse einander auswendig bey s/und t anrühren.
+[Diagram: zwei einander von aussen berührende Kreise; an der Berührung oben k, darunter m; im linken Kreis der Mittel-Düpffel l, im rechten i; gerade und punktierte Verbindungsstriche]
 
 ### Vorbereitung.
 
-Es werde von einem Anrührungs-Düttel s zu dem andern t der gerade Strich st gezogen.
-
-[Diagram: zwei einander schneidende Kreise; an den Durchschnitten oben s und unten t, dazwischen ein punktierter Strich; im rechten Kreis der Punkt u]
+1. Ziehe man von dem einen Mittel-Düpffel i einen geraden Strich il zum andern Mittel-Düpffel l.
+2. Aus denen Mittel-Düpffeln i und l werden zum Anrührungs-Düttel k zweene gerade Striche ik und lk gezogen.
 
 ### Beweiß.
 
-Dieser gerade Strich wird ausser den Kreiß stu fallen / da doch seine beeden Endungen in gedachtem Kreyse stehen / welches unmüglich/n. 2. III.
+kl | lm
+ik | mi — n. 15. Beschr. I.
+ik + kl | lm + mi — n. 2. Gr. I.
+Oder ik + kl | li — n. 9. Gr. q. I.
+Welches aber unmüglich n. 20. I.
 
-<!-- Signature: V -->
+### IV. Begebenheit.
 
-<!-- Catchword: Be- -->
+Wenn der kleinere Kreyß den grössern inwendig in q und r berühret.
+
+[Diagram: zwei Kreise, deren kleinerer den grössern inwendig berühret; oben die Punkte b und r, im Innern o und d, mit punktierten Strichen verbunden]
+
+<!-- Catchword: Vor- -->

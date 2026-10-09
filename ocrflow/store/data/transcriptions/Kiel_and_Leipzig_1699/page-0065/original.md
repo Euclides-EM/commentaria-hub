@@ -1,40 +1,27 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 48 -->
 
-<!-- Page number: 49 -->
+<!-- Running title: Das I. Buch -->
 
-Andere Begebenheit (2. Casus.)
+4. ac | AD
+5. Werden gezogen cd
+6. und cb.
 
-AD | ac        n. 2. Gegeb.
-AB | ab        n. 4. Vorber.
-BAC ⋏ bac      n. 23. Vortr.
-D.w   BC | bc      n. 4. Vortr.
-      bc ⊢ cd      n. 9. Gr-S.
-Dw. BC ⊢ cd      n. 1. Gr-S.
+Erste Begebenheit (1. Casus.)
 
-Dritte Begebenheit.
+[Diagram: Oben zwei grosse Dreiecke: links Dreieck ABC mit A oben, C unten links, B unten rechts; rechts Dreieck mit a oben, b unten links, d rechts, mit punktierten Linien nach c unten. Darunter (2. Casus): kleines Dreieck a b d mit punktierter Linie, daneben Dreieck ABC mit punktierten Linien nach c.]
 
-### Gegebene.
+### Beweiß
 
-1. AB | AC
-2. AD | Ad
+AC | ad n. 4. Gegeb.
+AC | ac n. 2. Vortr.
+Dw. ac | ad n. 1. Gr-S.
+und adc ⋀ acd n. 5. Vortr.
+adc ⲗ bdc n. 9. Gr-S.
+Dw. acd ⲗ bdc n. 1. Gr-S.
+bcd ⲗ acd n. 9. Gr-S.
+Dw. bcd ⲗ bdc n. 1. Gr S. e
+und bd ⊣ bc n. 19. Vortr.
+bc | BC n. 22. Vortr.
+a Dw. bd ⊣ BC n. 1. Gr-S. a
 
-### Vorbereitung.
-
-1. Auff des Striches Ad Düttel A setze man den ⋀ bAd
-2.        Also daß    bAd ⋏ BAC   nach 23. Vortr.
-3.        und         Ab | AB     n. 3. Vortr.
-4.    Es werden gezogen cb
-5.        wie auch      db
-6.  Ab werde verlängert gegen f.
-7.  Ac  -  -  -  -  -  gegen e.
-
-[Diagram: III. Casus. Zwei Dreiecke: links Dreieck ABC, rechts Dreieck ACd mit punktierten Linien zu b und f]
-
-### Beweiß.
-
-bAd ⋏ BAC.     n. 2. Vorber.
-Ab | AB        n. 3. Vorber.
-
-<!-- Signature: G -->
-
-<!-- Catchword: Ad -->
+<!-- Catchword: An- -->

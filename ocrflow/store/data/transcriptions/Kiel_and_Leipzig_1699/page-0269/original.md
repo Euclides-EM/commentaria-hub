@@ -1,48 +1,32 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 253 -->
-
-### Gegebene. — Begehrtes.
-
-[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
-
-A | B — a : A | a : B
-a | 4A
-a | 4B
-
-### II. Beweiß.
-
-a | a
-A | B
-4A | 4B — n. Geg.
-Dw. a : 4A | a : 4B
-Und a : A | a : B — n. 7. Besch. V.
+<!-- Page number: 252 -->
 
 ### Beschluß.
 
-Sind derowegen gleiche Grössen gegen eine Grösse allezeit gleichvielfältig: Und eine einige Grösse ist gegen zwo (oder mehr) gleiche Grössen auch gleichvielfältig. W. Z. B.
+Wenn derowegen die I. Grösse der III. und die II. Grösse der IV. gleichvielfältig sind; darnach das von der I. abgenommene Stück zu der III. eben so vielfältig ist / als das von der II. abgenommene Stück zu der IV. So wird das Erste übergebliebene der III. und das Andere übergebliebene der IV. Grösse gleichgroß / oder die übergebliebenen werden gegen die II. und IV. Grössen gleichvielfältig seyn. W. Z. B.
 
-## Anhang.
+## Der VII. Vortrag.
 
-Ebener Gestalt sind gleichgrosse Grössen gegen gleichgrosse Grössen gleichvielfältig.
+## Das 7. Beweiß-Stück.
 
-### Gegebene. — Begehrte.
+Gleichgrosse Grössen sind gegen eine einige Grösse gleichvielfältig: Und eine einige Grösse ist auch gegen gleichgrosse Grössen gleichvielfältig.
 
-A B — A : B | a : b
-a / b
+### Gegebene. — Begehrtes.
 
-### Beweiß.
+[Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
+
+A : a | B : a.
 
 A | B
-a | b — n. Gegeb.
-A : a | B : b — n. 7. Besch. V. W. Z. B.
+A | 3a
+B | 3a
 
-## Der VIII. Vortrag.
+### I. Beweiß.
 
-## Das 8. Beweiß-Stück.
+A | B
+3a | 3a — n. Gegeb.
+Dw. A : 3a | B : 3a
+Und A : a | B : a — n. 7. Besch. V.
 
-Von ungleichen Grössen ist die Grössere gegen eine einige
-
-<!-- Signature: Ji 3 -->
-
-<!-- Catchword: Grösse -->
+<!-- Catchword: Gege- -->

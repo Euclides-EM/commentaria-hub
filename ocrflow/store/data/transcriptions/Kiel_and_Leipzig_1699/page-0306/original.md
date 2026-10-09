@@ -1,36 +1,44 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 290 -->
+<!-- Page number: 289 -->
 
-## Der XXIX. Vortrag.
-## Das 29. Beweiß-Stück.
+## Der Anhang.
+Dieses gehet auch auf verkehrte Weise an.
 
-Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte mit der Vierten zu der Vierten : So wird auch zertheiletermassen die Erste zu der Andern eine grössere Verhältnüß / als die Dritte zu der Vierten haben.
-
-### Gegebene.
+### Gegebenes.
 
 [Diagram: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]
 
-A + a : a ⊣ B + b : b
+A : a ⊢ B : b
 
 ### Begehrtes.
-A : a ⊣ B : b.
+A + a : a ⊢ B + b : b.
+
+### Vorbereitung.
+Man nehme die Grösse c, welche sich zu a also / wie B zu b verhalte.
+
+c : a | B : b.
 
 ### Beweiß.
-Wenn die Verhältnüß A zu a nicht grösser ist / als B zu b, so
 
 |  |  |  |  |
 |---|---|---|---|
-| sey dann | A : a | \| B : b | n. Ang. |
-| Dw wird | A + a : a | \| B + b : b | n. 28. V. |
-| oder es sey | A : a | ⊢ B : b | n. Angen. |
-| so wird | A + a : a | ⊢ B + b : b | n. 28. V. |
-
-Beydes ist wider das Gegebene
-
-muß Dw. A : a ⊣ B : b
+|  | c : a | \| B : b | n. Vorber. |
+|  | A : a | ⊢ B : b | n. Gegeb. |
+| Dw. | A : a | ⊢ c : a | n. 13. V. |
+| u. | A | ⊢ c | n. 10. V. |
+|  | a | \| a |  |
+| Dw. | A + a | ⊢ c + a | n. 4. Gr. I. |
+|  | : a \| | a |  |
+| a Dw. | A + a : a | ⊢ c + a : a | n. 8. V. |
+|  | B : b | \| c : a | n. Vorber. |
+| Dw. | B + b : b | \| c + a : a | n. 18. V. |
+|  | A + a : a | ⊢ c + a : a | n. Bew. a |
+| Dw. | A + a : a | ⊢ B + b : b | n. 13. V. |
 
 ### Beschluß.
-Wenn derowegen die I. und II. zu der II. eine grössere Verhältnüß / als die III. und IV. zu der IV. haben / so wird auch die I. zu der II. eine grössere Verhältnüß / als die III. zu der IV. haben. W. Z. B.
+Wenn derowegen die I. zu der II. eine kleinere Verhältnüß / als die III. zu der IV. hat : So wird auch die I. und II. zu der II, eine kleinere Verhältnüß / als die III. und IV. zu der IV. haben. W. Z B.
+
+<!-- Signature: Oo -->
 
 <!-- Catchword: Der -->

@@ -1,36 +1,32 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 370 -->
-
-### Gegebene.
-
-1. Nebenstrichichtes Viereck bd
-2. Abgenommenes Viereck eg
-3. □ eg ⎫ ähnlich ⎧ □ bd.
-4. ⎬ gleicher Weise gesetzt ⎨
-5. ⎭ gleichmässige Winckel habend ⎩
-
-### Begehrtes.
-
-[Diagram: Viereck a, g, i, b oben, e und f in der Mitte, d und c unten, mit Diagonalen und punctirten Linien]
-
-□ eg üm einen einigen Zwergstrich stehende mit □ bd.
-
-### Vorbereitung.
-
-Wenn □ eg nicht üm denselben Zwergstrich stehet/ so nehme man das □ ei, welches üm denselben Zwergstrich stehen sol.
+<!-- Page number: 369 -->
 
 ### Beweiß.
 
-□ ei stehet üm einen einigen Zwergstrich mit □ bd n. Angen.
-Dw. ist □ ei ähnlich □ bd n. 24. VI.
-u. ae : ai | ad : ab n. 1. Besch. VI.
-□ eg ähnlich □ bd n. 3. Geg.
-Dw. ae : ag | ad : ab n. 1. Besch. VI.
-u. ae : ag | ae : ai n. 11. V.
-ae | ae
-Dw. ag | ai n. 9. V.
+cd : dm | dm : dg n. 8. Wirck.
+oder CD : DM | DM : DG n. Anh. 7. V.
+CD : DG = | CD : DM n. 10. Besch. V.
+⬠ A : ⬠ L = | CD : DM n. 20. VI.
+Dw. CD : DG | ⬠ A : ⬠ L n. 11. V.
+CD : DG | □ DE : □ gf n. 1. VI.
+Dw. □ DE : □ gf | ⬠ A : ⬠ L n. 11. V.
+□ DE | ⬠ A n. 3. Wirck.
+Dw. □ gf | ⬠ L n. 14. V.
+□ gf | △ B n. 7. Wirck.
+Dw. ⬠ L | △ B n. 1. Gr. I.
+⬠ L ähnlich ⬠ A n. 10. Wirck.
+u. Eben so gesetzet.
 
-Welches aber unmüglich n. 9. Gr. I.
+### Beschluß.
 
-<!-- Catchword: Beschluß- -->
+Ist also ein Fünfeck L, welches der Gestalt B gleichmässig/ dem Fünfeck A ähnlich/ und auch eben so gesetzet/ verfertiget. W. Z. M.
+
+## Der XXVI. Vortrag.
+
+## Das 19. Beweiß-Stück.
+
+Wenn von einem nebenstrichichten Viereck ein ander nebenstrichichtes Viereck abgenomen wird/ welches dem gantzen Viereck ähnlich/ gleicher Weise gesetzet ist/ und einen gleichmässigen Winckel mit dem gantzen Viereck hat / so werden solche Vierecke üm einen einigen Zwergstrich stehen.
+
+<!-- Signature: Aaa -->
+<!-- Catchword: Gege- -->

@@ -1,39 +1,32 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 98 -->
+<!-- Page number: 97 -->
 
-### Nach der Löse-Kunst.
-
-### Gegebene. | Begehrtes.
-
-1. a | AB — aa | bb + 2bc + cc
-2. b + c | AC + CB
-3. a | b + c
+[Diagram: Strich A C B, darunter ein Quadrat a b f d mit innerer gestrichelter senkrechter Linie durch i, c und gestrichelter waagerechter Linie e g k.]
 
 ### Beweiß.
 
-a | b + c — n. 3. Gegeb.
-b | b
-ab | bb + bc — n. 3. II.
-a | b + c
-c | c
-ac | bc + bb — n. 3. II.
-ab + ac | bb + 2bc + bb — n. 1. Gr. I.
-b + c | a
-a | a
-ab + ac | aa — n. 2. II.
-Dw. aa | bb + 2bc + bb n. 1. Gr. I. W. Z. B.
+ab | ac + cb — n. 9. Gr. 4. [unclear: I.]
+ac | ac
+□ cab | □ ac + □ acb — n. 3. II.
+ab | ac + cb
+bc | cb
+□ abc | □ acb + □ cb — n. 3. II.
+□ cab + □ abc | □ ac + 2 □ acb + □ cb — n. 1. Gr. I.
+ca + bc | ab
+ab | ab
+□ ab — n. 2. II.
+□ cab + □ abc | □ ca + 2 □ acb + □ cb — n. 1. Gr. I.
+Dw. □ ab | □ AC + 2 □ ACB + □ CB
+oder AB |
 
-## Der V. Vortrag.
+### Beschluß.
 
-## Das 5. Beweiß-Stück.
+Ist also allezeit das □ des gantzen Striches AB, so groß/ als die beeden □ □, so von des Strichs AB beeden Stücken AC und CB gemacht/ samt dem □, welches von gedachten beeden Stücken begriffen wird/ zweymahl genommen. W. Z. B.
 
-Wenn man einen geraden Strich in zween gleiche/ und in zween ungleiche Theile schneidet/ so wird das rechtwincklichte Viereck/ so die beeden ungleichen Theile begreiffen/ samt dem gleichseitigen Vierecke des Mittelstückes/ eben so groß seyn/ als das gleichseitige Viereck des halben Striches.
+[Other type="stamp"]
+Bayerische Staatsbibliothek München
+[/Other]
 
-### Gegebene. | Begehrte.
-
-1. Gerader Strich AD — □ ACD + □ BC | □ AB
-2. In zween gleiche Theil
-in B, als AB | BD
-
-<!-- Catchword: und -->
+<!-- Signature: N -->
+<!-- Catchword: Nach -->

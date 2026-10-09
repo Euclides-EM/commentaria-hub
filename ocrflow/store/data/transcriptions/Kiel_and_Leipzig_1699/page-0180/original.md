@@ -1,34 +1,35 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 164 -->
-
-## Der XIX. Vortrag.
-
-## Das 17. Beweiß-Stück.
-
-Wenn in einem Kreyß von dem Rührdüpffel des Rührstrichs ein Senckstrich gezogen wird / so ist in solchem Strich des Kreyses Mitteldüpffel.
+<!-- Page number: 163 -->
 
 ### Gegebene. Begehrtes.
 
-1. Kreyß cg — Jn dem gezogenen Senckstrich cd ist des Kreyses cg Mitteldüpffel d.
-2. Rührstrich ab
-3. Rührdüpffel c
-4. Senckstrich cd
-5. Auß deß Rührstriches Rührdüpffel in den Kreyß gezogen.
+1. Kreyß fda. — ba ein Senckstrich des Rührstrichs ca
+2. Gerader Rühr Srich ca.
+3. Rührdüpffel a.
+4. Gerader Strich ba
+5. Auß dem Mittel-Düpffel b
+6. Zu dem Rühr-Düpffel a gezogen.
 
-[Diagram: Kreis mit oben anliegendem Rührstrich ab und Rührdüpffel c; im Kreis der Senckstrich cd sowie punktierte Linie ce mit den Düpffeln d, e und g]
+[Diagram: Kreis fda mit Mittel-Düpffel b, oben die waagerechte Rührlinie durch a und c, der Strich ba senkrecht, punktierte Linie von b nach c mit Punkt d am Kreyßzug]
 
 ### Vorbereitung.
 
-Wenn der Mitteldüpffel nicht in dem Senckstrich cd, so
-1. nehme man den Mitteldüpffel e.
-2. von diesem Mitteldüpffel e werde zu dem Rührdüpffel ein gerader Strich ec gezogen.
+Wenn ba kein Senckstrich/ so ziehe man einen Senckstrich bc.
 
 ### Beweiß.
 
-eca ∠ ∟ — n. 18. III.
-dca ∠ ∟ — n. 4. Gegeb.
-Dw. dca ∠ eca — n. 1 und 10. Gr. I.
-Welches unmüglich — n. 9. Gr. I.
+bc ein Senckstrich — n. angenommen.
+Dw. bca ∠ ∟ — n. 10. Beschr. I.
+u. bca ⅄ bac — n. 17. I.
+Dw. ba ⊣ bc — n. 19. I.
+ba | bd — n. 15. Beschr. I.
+Dw. bd ⊣ bc — n. 1. Gr. c. I.
+Welches aber unmüglich — n. 9. Gr. I.
 
-<!-- Catchword: Be- -->
+### Beschluß.
+
+Wird also der auß dem Mittel-Düpffel b zu dem Rührdüpffel a gezogene Strich ba ein Senckstrich des Rührstrichs ca seyn. W. Z. B.
+
+<!-- Signature: X 2 -->
+<!-- Catchword: Der -->

@@ -1,28 +1,29 @@
-<!-- Running title: Das I Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 16 -->
+<!-- Page number: 15 -->
 
-## Der I. Vortrag.
-## Das I. Werck-Stück.
+fertigung aber wird aus den Anfängen bewiesen / daß der Auffgabe ein Genügen geschehen. Die beweißlichen Vorstellungen/oder Beweiß-Stücke (Theoremata) geben etwas auff/welches lediglich zu beweisen ist.
 
-Auff einen gegebenen geraden und endlichen Strich ein gleichseitiges Dreyeck zu setzen.
+Die Neben-Sätze sind gleichfalls zweyerley / nemblich Vorsätze/ und Nachsätze oder Anhänge.
 
-### Gegebenes (Datum) | Begehrtes (Quæsitum)
-Der gerade endliche Strich AB. | 1. Das gleichseitige Dreyeck ABC.
-| 2. Welches auff den gegebenen Strich AB. gestellet ist.
+Die Vorsätze (Lemmata) sind Vorbereitungen / durch welche man den Beweiß befördert.
 
-### Wirckung (Operatio)
+Die Nachsätze oder Anhänge (Corollaria, consectaria, Zugaben) fliessen auß ihren vorhergehenden Haupt-Sätzen / welche sie noch weiter außführen.
 
-1. Nach der bekanten Weite AB beschreibet man aus A einen Kreyß CBD / nach der III. Foderung.
-2. Nach eben dieser Weite AB wird auch aus dem Düpffel B ein Kreyß beschrieben / nemblich CAD / nach der III Foderung.
-3. Aus A und B werden nach dem Düpffel C/ wo die beyden Kreysse einander durchschneiden / gerade Striche gezogen/ nach der I Foderung.
+Bey jedwedem Vortrage kommen zum öfftern sieben Theile vor/als:
 
-[Diagram: zwei punktierte, sich schneidende Kreise mit den Schnittpunkten C oben und D unten; darin das Dreieck ABC über dem Strich AB]
+(1.) Der Haupt-Satz (Propositio) an sich selbst/in welchem nicht allein etwas begehret / sondern auch etwas gegeben wird.
 
-### Beweiß.
+(2) Die Erklärung des Gegebenen. (Explicatio Dati vel datorum )
 
-Der Strich AB | AC nach 15. Beschr.
-Der Strich BC | BA nach 15. Beschr.
-Derowegen der Strich BC | AC nach 1. Grund-Satz.
+(3) Die Erklärung des Begehrten. (Explicatio Quæsiti vel quæsitorum.)
 
-<!-- Catchword: Be- -->
+(4) Die Bewerckstellung deß Auffrisses (Delineatio) oder Wirckung.
+
+(5) Bißweilen eine Vorbereitung. (Præparatio.)
+
+(6) Der Beweiß (Demonstratio,) und endlich
+
+(7) Der Beschluß (Conclusio,) welcher in kurtzer Widerholung des Haupt-Satzes bestehet/ mit diesem Anhange: W. Z. M. das ist / welches zu machen war. ( q. e. f. in Problematibus) oder W. Z. B. das ist/ welches zu beweisen war. (q. e. d. in Theorematibus.)
+
+<!-- Catchword: Der -->

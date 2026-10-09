@@ -1,35 +1,33 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 362 -->
+<!-- Page number: 361 -->
 
-### Vorbereitung.
+### II. Beweiß.
 
-Wenn gh ⊣ rs
-so werde zu diesen beyden gh und rs der dritte ebenmässige Strich x gefunden. n. 11. VI.
-gh : rs | rs : x.
+△ aob : △ cnd | □ el : □ gi n 1. Geg.
+ab : cd | cd : p n. 1. Vorb.
+α Dw. ab : p = ab : cd n. 10. Besch. V.
+△ aob : △ cnd = ab : cd n. 19. VI.
+Dw. △ aob : △ cnd | ab : p
+β u. □ el : □ gi | ab : p n. 11. V.
+ef : gh | gh : q n. 2. Vorb.
+Dw. ef : q = ef : gh n. 10. Beschr. V.
+□ el : □ gi = ef : gh n. 20. VI.
+Dw. □ el : □ gi | ef : q.
+u. ab : p | ef : q n. 11. V u. Bew. β
+u. ab : p = ef : gh
+Dw. ab : cd | ef : gh n. Bew. α | n. 11. V.
 
-### Beweiß.
+## Vorsatz. (Lemma)
 
-gh : rs | rs : x n. Vorb.
-gh ⊣ rs n. Ang.
-Dw. rs ⊣ x n. 14. V.
-α u. gh ⊣ x n. 1 Gr. e. l.
-gh : x ⊐ gh : rs n. 10. Besch V.
-□ gi : □ rt ⊐ gh : rs n. 19. V.
-Dw. □ gi : □ rt | gh : x n. 11. V.
-u. □ gi ⊣ □ rt n. Bew. α. u. n. 14. V.
+Gleichmässige und ähnliche geradstrichichte Gestalte stehen auf gleichmässigen geraden Strichen.
 
-Welches aber wider das 1. Gegeb.
-Eben so wenig kan auch gh ⊢ rs
-γ Müssen derowegen gh | rs. seyn/ W. Z. B.
+### Gegebene. Begehrtes.
 
-### Andere Ahrt.
+1. □ gi | □ rt gh | rs
+2. □ gi ähnlich □ rt
 
-### Vorbereitung.
+[Diagram: zwey Vierecke g k i h und u t s r nebeneinander; darunter ein Strich x und eine Figur mit den Punkten g, s, x, h r und punktiertem Strich nach s]
 
-1. Zu den drey geraden Strichen ab, cd und ef werde der vierte ebenmässige Strich rs gefunden. n. 12. VI.
-2. Auf den Strich rs werde ein geradstrichichtes Vieleck rsut gesetzet/ welches
-3. Vieleck st ähnlich sey dem Vieleck el, n 18. VI. und auch
-4. Auf gleiche Weise gesetzet sey.
-
-<!-- Catchword: Beweiß. -->
+<!-- Signature: Z z -->
+<!-- Catchword: Vorbe- -->

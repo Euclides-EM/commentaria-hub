@@ -1,29 +1,42 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 207 -->
-
-## Der IV. Vortrag.
-
-## Das 4. Werck-Stück.
-
-In ein gegebenes Drey Eck einen Kreyß einzuschreiben.
-
-### Gegebenes. Begehrte.
-
-Dreyeck efg. 1. Kreyß bcd,
-2. Welcher dem gegebenen △ eingeschrieben.
-
-[Diagram: Dreyeck efg mit Spitze e oben; darin eingeschriebener Kreis mit Mittelpunkt a und Rührdüpffeln c, d, b; Winckeltheilende Striche von e und f nach a, punktierter Senckstrich ac]
-
-### Wirckung.
-
-1. Der Winckel e werde in zwey gleiche Theile dea ∧ cea getheilet.
-2. Wie auch der Winckel f in efa ∧ bfa.
-3. Aus dem Düttel a, wo diese beede Winckeltheilende Striche ea und fa einander schneiden / werde auff die Seite ef ein Senckstrich ac gesetzet. n. 12. I.
-4. Nach der Weite ac werde der Kreyß cdb beschrieben.
+<!-- Page number: 206 -->
 
 ### Vorbereitung.
 
-Es werde gezogen aus dem Mittel-Düpffel a
+Aus dem Mittel-Düpffel b werde zu dem einen Winckel g ein gerader Strich bg gezogen.
 
-<!-- Catchword: 1. Des -->
+### I. Beweiß.
+
+beg + bcg ∧ ⌓ n. 18. III.
+Dw. ebg + egb ∧ ∟ }
+und cbg + cgb ∧ ∟ } n. 32. I.
+Dw. ebg + ebg + cbg + cgb ∧ ⌓ n. 2. Gr. I.
+a. oder ebc + egc ∧ ⌓ n. 9. Gr. q. I.
+kim + mil ∧ ⌓ n. 13. I.
+Dw. kim + mil ∧ ebc + egc n. 1. und 10. Gr. I.
+mil ∧ ebc n. 1. Wirck.
+Dw. kim ∧ egc n. 3. Gr. I.
+
+### II. Beweiß.
+
+bda + acb ∧ ⌓ n. 18. III.
+dac + dbc ∧ ⌓ n. 32. I. a.
+hkm + mki ∧ ⌓ n. 13. I.
+Dw. hkm + mki ∧ dac + dbc n. 1. u. 10. Gr. I.
+hkm ∧ dbc n. 4. Wirck.
+Dw. mki ∧ dac n. 3. Gr. I.
+
+### III. Beweiß.
+
+a + g + f ∧ ⌓ }
+i + k + m ∧ ⌓ } n. 32. I.
+Dw. i + k + m ∧ a + g + f n. 1. u. 10. Gr. I.
+i + k ∧ a + g n. 1. u. 2. Bew.
+Dw. kmi ∧ afg n. 3. Gr. I.
+
+### Beschluß.
+
+Ist also das △ afg gleichwincklicht mit △ imk, und ümb den gegebenen Kreyß cde beschrieben. n. 4. Beschr. IV. W. Z. M.
+
+<!-- Catchword: Der -->

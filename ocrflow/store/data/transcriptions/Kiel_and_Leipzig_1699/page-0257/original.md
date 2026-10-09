@@ -1,41 +1,30 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 241 -->
+<!-- Page number: 240 -->
 
-### Beweiß.
+## Der II. Vortrag.
 
-|  |  |  |  |
-|---|---|---|---|
-| | c | a | |
-| | d | a | n. 2. Vorber. |
-| Dw. | c + d | 2a | n. 2. Gr. I. |
-| | c + d | A | n. 9. Gr. q. I. |
-| [unclear: α] Dw. | A. | 2a | n. 1. Gr. I. |
-| | e | a | |
-| | f | a | |
-| | g | a | n. 6. Vorb. |
-| Dw. | e + f + g | 3a | n. 2. Gr. I. |
-| | e + f + g | C | n. 9. Gr. q. I. |
-| Dw. | C | 3a | n. 1. Gr. I. |
-| und | A + C | 5a | n. 2. Gr. I. |
-| | h. | b | |
-| | k | b | |
-| | h + k | 2b | |
-| | h + k | B | |
-| [unclear: θ] Dw. | B | 2b | |
-| | l | b | |
-| | m | b | |
-| | n | b | |
-| Dw. | l + m + n | 3b | |
-| | l + m + n | D | |
-| Dw. | D | 3b | |
-| β u. | B + D | 5b. | |
+## Das 2. Beweißstück.
+
+Wenn die Erste Grösse der Andern / und die Dritte der Vierten gleichmäßig vielfältig sind; darnach auch die Fünffte der Andern und die Sechste der Vierten gleichmäßig vielfältig sind: so werden auch die Erste und Fünffte zusammen genommen der Andern eben so vielfältig seyn / als die Dritte und Sechste zusammen genommen der Vierten sind.
+
+### Gegebene. — Begehrtes.
+
+[Diagram: sechs waagerechte Linien, bezeichnet A (getheilet in c, d), a, C (getheilet in e, f, g), B (getheilet in h, k), b, D (getheilet in l, m, n); daneben die Ziffern I. II. V. III. IV. VI.]
+
+II. A : a | B : b — V. C : a | D : b
+
+A + C : a | B + D : b
 
 ### Vorbereitung.
 
-1. Es werde die Grösse a sechsmahl/ und
-2. Die Grösse b auch sechsmahl genommen.
+1. Es werde A getheilet in c, d, also daß
+2. c|a und d|a n. 3. I.
+3. Auch werde B getheilet in h, k, also daß
+4. h|b und k|b n. 3. I.
+5. Deßgleichen C in e, f, g, also daß
+6. e|a, f|a und g|a n. 3. I.
+7. Und D in l, m, n, also daß
+8. l|b, m|b und n|b n. 3. I.
 
-<!-- Signature: Hh -->
-
-<!-- Catchword: A -->
+<!-- Catchword: Beweiß -->

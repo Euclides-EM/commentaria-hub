@@ -1,21 +1,29 @@
-<!-- Page number: 127 -->
+<!-- Page number: 126 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-III. Anrührende Kreyse sind / welche zwar an einander stossen / aber sich nicht durchschneiden.
+### Beweiß.
 
-[Diagram: ein kleiner Kreis berührt von aussen einen grossen Kreis, in welchem ein weiterer Kreis von innen anrühret]
+d ⊣ c
+aa | cd ✠ bb — n. 7. II.
+aa | ee ✠ bb — n. 47. I.
+ee (✠ bb) | cd (✠ bb) — n. 1. Gr. I.
+Dw. ee | cd — n. 3. Gr. I.
 
-IV. In einem Kreyß von dem Mitteldüpffel gleichabstehende Striche werden genennet / auff welche auß dem Mitteldüpffel gleichlange Senckstriche können gezogen werden: derjenige Strich aber / auff welchen ein längerer Senckstrich fället / ist am weitesten entfernet.
+W. Z. M.
 
-[Diagram: Kreis mit einbeschriebenen Sehnen und drei vom Mitteldüpffel ausgehenden Senckstrichen]
+[Diagram: links ein Quadrat (schwach), rechts ein schiefes Viereck]
 
-V. Ein Kreyß-Stück (Segmentum) ist eine Gestalt / so von einem Bogen und geraden Strich eingeschlossen wird.
+# Das III. Buch Euclidis.
 
-[Diagram: ein Kreyß-Stück (Halbkreisförmige Gestalt)]
+## Beschreibungen.
 
-VI. Ein Kreyßstücks-Winckel (segmenti angulus) wird von einem Bogen und von einem geraden Strich begriffen.
+I. Gleichgrosse Kreyse sind / deren Durchschläge gleichlang sind.
 
-[Diagram: ein Kreyß-Stück mit punktierten Bögen an beyden Winckeln]
+[Diagram: zwei gleichgrosse Kreise, der linke mit waagerechtem, der rechte mit schrägem Durchmesser]
 
-<!-- Catchword: VII. -->
+II. Ein anrührender Strich ca ist / welcher den Kreyß zwar in dem Düttel a berühret / wenn er aber fort gezogen wird / denselben nicht durchschneidet.
+
+[Diagram: Kreis mit Mitteldüpffel b, oben berührender Strich durch a, punktierte Linie von b nach c]
+
+<!-- Catchword: III. An- -->

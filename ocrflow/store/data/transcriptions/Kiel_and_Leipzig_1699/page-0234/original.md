@@ -1,28 +1,40 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 218 -->
+<!-- Page number: 217 -->
 
-[Diagram: links ein Quadrat mit Viertelkreisbogen und den Punkten A, C, B; rechts ein punktierter Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c, b, d]
+### Wirckung.
 
-Dw. — □ ac | □ bd — α.
-und — ▭ abc | □ bd — ß. — n. 1. Gr. I.
-Dw. — bd | Rührstrich des Kreyses cda, n. 37. III.
-bdc ∧ dac — n. 32. III.
-cda ∧ cda
-cda + bdc ∧ dac + cda — n. 2. Gr. I.
-cda + bdc ∧ bda — n. 9. Gr. q. I.
-Dw. — dac + cda ∧ bda — n. 1. Gr. I.
-γ. — dac + cda ∧ bcd — n. 32. I.
-Dw. — bcd ∧ bda oder cbd — n. 1. Gr. I.
-δ. u. — bd | cd — n. 6. I.
-bd | ac — n. 3. Wirck.
-Dw. — cd | ac — n. 1. Gr. I.
-u. — cda ∧ dac — n. 5. I.
-dcb ∧ dac + cda — γ.
-Dw. — dcb + cda ∧ dac + cda + dac — n. 2. Gr. I.
-dcb ∧ 2dac oder 2dab — n. 3. Gr. I.
-dcb ∧ dba — δ. — n. 5. I.
-Dw. — dba ∧ 2dab — n. 1. Gr. I.
-u. — [unclear: bad] ∧ 2dab — n. 6. Gr. I.
+1. Nehme man einen Strich AB,
+2. Welchen man also theile in C, daß des gantzen Strichs AB und
+kleinem Stückes BC länglicht Viereck eben so groß sey/ als des
+Grössern Stückes AC gleichseitiges Viereck/ n. 11. II.
+3. Werde in dem Dreyeck abd der Grundstrich bd eben so groß/
+als das grössere Stück AC gemacht/ n. 2. I.
+4. Zu den beyden Schenckeln ab und ad aber werde der gantze
+Strich AB genommen/ n. 12. I.
 
-<!-- Catchword: Be- -->
+### Vorbereitung.
+
+1. Von der Seiten ab werde ein Stück ac | AC abgeschnitten/
+n. 3. I.
+2. Werde der Strich dc gezogen.
+3. Aus a nach der Weite ab werde ein Kreyß gezogen.
+4. Umb das Dreyeck acd werde auch ein Kreyß gezogen/ n. 5. IV.
+
+### Beweiß.
+
+db | AC — n. 3. Wirck.
+Dw. — □ db | □ AC — n. 1. Gr. t. II.
+ab | AB — n. 4. Wirck.
+bc | BC
+Dw. — abc ▭ ABC — n. 1. Gr. II.
+AC | ac, n. 1. Vorb.
+a. — AC ▭ ac, n. 1. Gr. t. II.
+Dw. — □ abc + □ AC | ▭ ABC + □ ac, n. 2. Gr. I.
+ß. — □ AC | ▭ ABC — n. 11. II.
+Dw. — □ abc | □ ac, n. 3. Gr. I.
+AC | bd — n. 3. Wirck.
+□ AC | □ bd — n. 1. Gr. t. II
+
+<!-- Signature: Ee -->
+<!-- Catchword: Dw. -->

@@ -1,32 +1,43 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 94 -->
+<!-- Page number: 93 -->
 
-Viereck/ so dem gantzen Strich und von einem solchen Stück begriffen wird/ eben so groß seyn/ als das gleichseitige Viereck desselbigen Stückes/ samt dem Viereck/ welches von den beeden Stücken begriffen wird.
+AD | ad | n. 2. I.
+Dw. ad | AB | n. 1. Gr-S. I.
+α. ab | AB | n. 2 I.
+Dw. ab | ad | n. 1. Gr. I.
+ab | ab
+□ ab | □ bad | n. 1. Gr. II.
+□ oni + □ mlg | □ bad | n. 1. II.
+Dw. □ ab | □ oni + □ mlg | n. 1. Gr. I.
+ab | AB | n. Bew. α.
+Dw. □ ab | □ AB | n. 1. Gr. t. II.
+und □ AB | □ oni + □ mlg
+und □ AB | □ CAB + □ CBA | n. 1. Gr. I.
+
+### Beschluß.
+
+Wird also allezeit das □ von dem gantzen Strich AB so groß seyn/ als die beeden □ □ so von den gantzen AB, und den beeden Stücken CA und CB begriffen werden. W. Z. B.
+
+### Nach der Löse-Kunst.
 
 ### Gegebene. | Begehrte.
-
-1. Strich AB | □ ABC | □ ACB + □ CB.
-2. getheilet in C
-3. AC + CB | AB
-
-### Vorbereitung.
-
-1. Man nehme noch einen Strich DB, welcher gleich sey dem Stück CB.
-2. mache man ab | AB
-3. - - - cb | CB
-4. - - - ac | AC — n. 2. I.
-5. - - □ cb — n. 46. I.
-6. - - □ acb
-7. - - □ abc
-
-[Diagram: Oben ein Strich A C B; darunter ein Rechteck mit den Ecken B, D, a, b und gestrichelter Teilungslinie bei c/d; darunter zwei Rechtecke mit den Ecken a, b, c, d bzw. c, b.]
+1. a. | aa | ab + ac
+2. b + c
+3. a | b + c
 
 ### Beweiß.
 
-ab | AB — n. 2. Vorber.
-bc | BC — n. 3. Vorber.
-□ abc | □ ABC — n. 1. Gr. II.
-ab | ac + cb — n. 3. Gegeb.
+a | b + c | n. 3. Gegeb.
+a | a
+aa | ab + ac | n. 1. II. W. Z. B.
 
-<!-- Catchword: bc -->
+## Der III. Vortrag.
+
+## Das 3. Beweiß-Stück.
+
+Wenn man einen geraden Strich/ auff waserley weiß / in zwey Stücke schneidet/ so wird das
+
+<!-- Signature: M 3 -->
+
+<!-- Catchword: Vier- -->

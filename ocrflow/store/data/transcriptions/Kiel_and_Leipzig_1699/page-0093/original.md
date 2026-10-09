@@ -1,33 +1,33 @@
-<!-- Page number: 77 -->
+<!-- Page number: 76 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
 ### Beweiß.
 
-ACB ⩓ ADB
-AFE ⩓ AGF
-EHB ⩓ EIB } n. 34. Vortr.
-Dw. ACB—AEF—FHB ⩓ ADB—AGF—FIB n. 3. Gr:S.
-oder FH ⌻ GI.
+AG ⟛ BC n. 1. Vorber.
+BE | EC n. 2. Vorber.
+Dw. ABE ⩓ AEC n. 38. Vortr.
+und ABC ⩓ 2 AEC
+□ EFCG | 2 △ AEC n. 41. Vortr.
+Dw. □ EFCG | △ ABC n. 6. Gr:S.
+und ECG ⋀ D n. 3. Vorber.
 
 ### Beschluß.
 
-Aus diesem ist klar zu sehen / daß alle eines durch einen Zwergstrich getheileten Viereckes Füllflächen gleiche Grösse haben müssen. W. Z. B.
+Ist also dem gegebenen △ ein gleichhaltendes □ , und zwar nach dem ∧ D verfertiget. W. Z. M.
 
-## Der XLIV. Vortrag.
+## Der XLIII. Vortrag.
 
-## Das 12. Werckstück.
+## Das 32. Beweiß-Stück.
 
-An einen gegebenen geraden Strich/nach dem gegebenen Winckel / ein geschicktes Viereck / welches dem gegebenen Dreyeck an grösse gleich sey/ anzusetzen.
+In jedwedem Nebenstrichichen Viereck/sind die Füllflächen derer ümb den Zwergstrich stehenden Vierecke von gleicher grösse.
 
-### Gegebene. | Begehrte.
-1. Gerader Strich EF | 1. □ IK
-2. ∧ D | 2. □ IK | △ ABC
-3. △ ABC | 3. IL | EF
-| 4. KLI ⋀ D
+### Gegebene. | Begehrtes.
+1. □ ADBC | FH ⌻ GI.
+2. Zwergstrich AB
+3. Ümb den Zwergstrich stehende □ □ FG und HI
+4. Füllflächen FH und GI.
 
-[Diagram: Figur mit den Puncten B, H, M, N oben, E, K, C, A, D, L, I, O, F, G unten und in der Mitte, mit gezogenen und punctirten Strichen]
+[Diagram: Nebenstrichichtes Viereck mit den Puncten A, F, C oben, G, E, H in der Mitte und D, I, B unten, mit dem Zwergstrich und inneren Vierecken]
 
-<!-- Signature: K 3 -->
-
-<!-- Catchword: Wir- -->
+<!-- Catchword: Be- -->

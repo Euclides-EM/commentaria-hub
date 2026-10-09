@@ -1,38 +1,40 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 63 -->
+<!-- Page number: 62 -->
 
-## Der XXXIII. Vortrag.
+        CBD ⋏ CBE + EBD  n. 9. Gr-S. q.
+α.  Drw.  CBD ⋏ ACB + CAB  n. 1. Gr-S.
 
-## Das 24. Beweiß Stück.
-
-Zween gerade Striche/ welche zween gleichlange Neben-Striche an beeden Enden/auff gleiche Weise/zusammen hengen / sind gleich-lange Neben-Striche.
-
-### Gegebene.                              Begehrte.
-1. Zween gerade Striche AC und BD.     1. AC | BD
-2. AB | CD                             2. AC ╪ BD
-3. AB ╪ CD.
-4. Zusammen hengung
-5. Auff gleiche Weise / das ist / nicht Creutzweiß/sondern auff gleich-ähnliche Weise.
-
-[Diagram: Viereck ABDC mit punktierter Diagonale von C nach B]
-
-### Vorbereitung.
-
-Man ziehe den zwerg-Strich BC.
-
-### Beweiß.
-
-AB           ╪    CD          n. 3. Gegeb.
-Dw.    ABC ⋏ BCD              n. 29. Vortr.
-       BC   |     BC
-AB + BC  |  CD + BC  nach 2. Gr-S.
-Drw.   AC    |    BD   }  nach 4. Vortr.
-und    ACB   ⋏    DBC  }
-Drw.   AC    ╪    BD          nach 27. Vortr.
+CBD + CBA ⋏ ⏥                          n. 13. Vortr.
+CBD           ⋏ ACB + CAB              n. Bew. α.
+        CBA ⋏                CBA
+CBD + CBA ⋏ ACB + CAB + CBA   n. 2. Gr-S.
+Dw.        ⏥ ⋏ ACB + CAB + CBA n. 1. Gr-S.
 
 ### Beschluß.
 
-Werden also diejenigen geraden Striche/ welche Nebenstriche rechtmäßig zusammen hängen/auch gleich-grosse Nebenstriche seyn. W. Z. B.
+Sind also jedwedes △es zwey inwendige Winckel α. dem auswendig gegen überstehenden gleich : Aber alle 3 ⋀ zusammen so groß/als ⏥.   W. Z. B.
+
+### Andere Arth.
+
+Pythagoras beweiset auff eine andere Arth/ daß drey Winckel des Dreyeckes eben so groß als ⏥
+
+### Vorbereitung.
+
+1. Durch einen des △es Düttel C wird ein gerader
+2. Neben-Strich DE gegen AB gezogen/ n. 31. Vortr.
+
+[Diagram: Dreieck ABC, durch C der punktierte Neben-Strich DE parallel zu AB]
+
+### Beweiß.
+
+DCA                ⋏ CAB                     } n. 29.
+        ECB        ⋏              CBA        } Vortr.
+              ACB ⋏                     ACB
+DCA + ECB + ACB ⋏ CAB + CBA + ACB   n. 2. Gr-S.
+DCA + ECB + ACB ⋏ ⏥                  nach 13. Gr-S.
+CAB + CBA + ACB ⋏ ⏥                  nach 2. Gr-S.
+
+W. Z. B.
 
 <!-- Catchword: Der -->

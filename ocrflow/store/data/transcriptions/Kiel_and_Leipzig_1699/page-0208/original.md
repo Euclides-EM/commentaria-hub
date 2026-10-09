@@ -1,34 +1,38 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 192 -->
+<!-- Page number: 191 -->
 
-2. Welcher von dem andern Strich ae in l,
-3. Und zwar nach rechten Winckeln geschnitten.
+## Der XXXV. Vortrag.
 
-[Diagram: Kreis mit Punkten a oben, d links, b rechts, c unten; Striche db und ac schneiden sich in l, Mittel-Düpffel e]
+## Das 29. Beweiß-Stück.
+
+Wenn in einem Kreyß zween gerade Striche sich Kreutzweiß durchschneiden: So ist das rechtwincklichte Viereck / welches die beeden Stücke des einen Striches begreiffen / eben so groß/ als das Viereck / welches von den beeden Stücken des andern Striches begriffen wird.
+
+### Gegebene. | Begehrte.
+
+1. Kreyß adcb. | deb ⊞ aec
+2. Zween gerade Striche ac, bd. | oder olm ⊞ klp.
+3. Welche in dem Kreyß stehen /
+4. Und einander durchschneiden in e oder l.
+
+### I. Begebenheit.
+
+Gegebenes: Die Striche ac und bd schneiden einander im Mittel-Düpffel e.
+
+[Diagram: Kreis mit den Punkten a, b, d, c und sich im Mittelpunkt e kreutzenden Strichen ac und bd]
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | ▭ bld + □ el | □ ed | n. 5. II. |
-|  | ed | ec | n. 15. Beschr. I. |
-|  | □ ed | □ ec | n. 1. Gr. t. II. |
-| Dw. | ▭ bld + □ el + □ ed | □ ed + □ ec | n. 2. Gr. I. |
-|  | ▭ bld + □ el | □ ec | n. 3. Gr. I. |
-|  | cle ⋀ | ∟ | n. 3. Gegeb. |
-| Dw. | □ el + □ lc | □ ec | n. 47. I. |
-| und | ▭ bld + □ el | □ el + □ lc | n. 1. Gr. I. |
-| Dw. | ▭ bld | □ lc | n. 3. Gr. I. |
+|  | de | ae |  |
+|  | eb | ec | n. 15. Beschr. I. |
+| Dw. | deb ⊞ aec |  | n. 1. Gr. II. |
 
-### III. Begebenheit.
+### II. Begebenheit.
 
-### Gegeben
+### Gegebenes:
 
-1. Nur ein durch den Mittel-Düpffel e gehender Strich db,
-2. Welcher von dem andern Strich ae in l
-3. Nicht nach rechten Winckeln geschnitten.
+Nur ein durch den Mittel-Düpffel e gehender Strich db,
 
-[Diagram: Kreis mit Punkten c oben, d und n links oben, a links, e in der Mitte, b unten rechts; Striche schneiden sich in l]
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: 2. Wel- -->

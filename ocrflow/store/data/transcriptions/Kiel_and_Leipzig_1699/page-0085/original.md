@@ -1,36 +1,36 @@
-<!-- Page number: 69 -->
+<!-- Page number: 68 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-2. △ BCD
-3. Gemeiner Grundstrich BC.
-4. AF ⟛ BC
-5. Zwischen welchen die △ △ stehen.
+BC | GH
+4. AE = BH
+5. Zwischen welchen die □ □ stehen.
 
 ### Vorbereitung.
 
-1. Auß C werde der Nebenstrich CE,
-2. Wie auch der Nebenstrich CF gezogen.
+Es werden gezogen die beeden geraden Striche FB und EC.
 
-[Diagram: Dreyecke auff dem Grundstrich BC, mit den Puncten A, D, E, F oben und B, C unten, mit gezogenen und punctirten Strichen]
+[Diagram: Vierecke auff den Grundstrichen BC und GH, mit den Puncten A, D, F, E oben und B, C, G, H unten, mit gezogenen Strichen FB und EC]
 
 ### Beweiß.
 
-ABCE ⌻ DBFC n. 36. Vortr.
-△ ABC | ½ □ ABCE
-△ DBC | ½ □ DBFC } n. 34. Vortr.
-Dw. DBC ⩓ ABC n. 7. Gr:S. n.
+FE ⟛ BC n. 4. Gegeben.
+und FB ⟛ EC n. 33. Vortr.
+AC ⌻ FC
+EG ⌻ FC } n. 35. Vortr.
+Dw. EG ⌻ AC n. 1. Gr:S.
 
 ### Beschluß.
 
-Müssen also allezeit diejenigen △ △ , welche auff einem einigen/ Grundstrich und zwischen einerley Nebenstrichen stehen/ einander gleich seyn. W. Z. B.
+Worauß nun erhellet/ daß alle auff gleichgrossen Grundstrichen/und zwischen einerley Nebenstrichen stehende □ □ gleichgroß seyen. W. Z. B.
 
-## Der XXXVIII. Vortrag.
+## Der XXXVII. Vortrag.
 
-## Das 28. Beweiß-Stück.
+Das 27 Beweiß-Stück.
 
-Alle auff gleichgrossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Dreyecke sind gleich groß.
+Alle auff gleichgrossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Dreyecke sind gleichgroß.
 
-<!-- Signature: I 3 -->
+### Gegebene. | Begehrtes.
+1. △ ABC | ABC ⩓ BCD.
 
-<!-- Catchword: Be- -->
+<!-- Catchword: 2. △ -->

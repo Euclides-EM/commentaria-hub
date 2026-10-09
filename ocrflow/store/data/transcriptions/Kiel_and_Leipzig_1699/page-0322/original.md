@@ -1,33 +1,34 @@
-<!-- Page number: 306 -->
+<!-- Page number: 305 -->
 
-<!-- Running title: Das VI. Buch -->
-
-### Begehrtes.
-
-□ AD : □ BC | ml : gh.
-
-[Diagram: Zwei nebenstrichichte Vierecke mit den Buchstaben D, A und C, B, Eckpunkte n r o k i oben und m l g h unten, mit gestrichelten Diagonalen]
-
-### Vorbereitung.
-
-1. Werden die Zwergstriche mo und gi,
-2. Deßgleichen der Senckstrich rm, gezogen.
+<!-- Running title: Euclidis. -->
 
 ### Beweiß.
 
-□ AD | 2 △ A — n. 34. I.
-□ BC | □ BC
-Dw. □ AD : □ BC | 2 △ A : □ BC — n. 7. V.
-2 △ B | □ BC — n. 34. V.
-2 △ A | 2 △ A
-Dw. 2 △ A : 2 △ B | 2 △ A : □ BC — n. 7. V.
-u. 2 △ A : 2 △ B | □ AD : □ BC — n. 11. V.
-Dw. △ A : △ B | □ AD : □ BC — n. 15. V.
-△ A : △ B | ml : gh — n. Bew. ∝
-Dw. □ AD : □ BC | ml : gh — n. 11. V.
+eu | ab — n. 5. Vorb.
+fq | cq — n. 3. Geg.
+Dw. efu △ acb — n. 38. I.
+△ efd + △ dfl + △ lfu | △ efu — n. 9. Gr. q. I.
+oder 3 △ efd | △ efu
+∝ Dw. 3 △ efd | △ abc — n. Gr. I.
+ab | 3de — n. 4. Geg.
+△ acb — △ acb
+Dw. ab : △ acb | 3de : △ acb — n. 7. V.
+3de | 3de
+3 △ efd — △ abc n. Bew. ∝
+Dw. 3de : 3 △ efd | 3de : △ abc — n. 7. V.
+u. 3de : 3 △ efd | ab : △ abc — n. 11. V.
+de : △ efd | 3de : 3 △ efd — n. 15. V.
+Dw. de : △ efd | ab : △ abc — n. 11. V.
+β u. de : ab | △ efd : △ abc — n. 16. V.
 
 ### Beschluß.
 
-Werden derowegen alle Nebenstrichichte Viercke sich gegen einander also/ wie derselben Grundstriche verhalten. W. Z. B.
+Alle Dreyecke/ welche gleichmässige Höhen haben / verhalten sich also/ wie ihre Grundstriche gegen einander. W. Z. B.
 
-<!-- Catchword: Des -->
+## Des I. Vortrags II. Gegebene.
+
+1. Zwey nebenstrichichte Vierecke ln. und hk.
+2. Gleichmässige Höhen rm|kg.
+
+<!-- Signature: Qq -->
+<!-- Catchword: Begehrtes. -->

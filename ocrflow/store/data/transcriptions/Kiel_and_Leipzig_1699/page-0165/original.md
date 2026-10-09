@@ -1,32 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 149 -->
+<!-- Page number: 148 -->
 
-### Gegebene. — Begehrtes.
-
-1. Zweene Kreyse ebf und dbg.
-2. Welche auswendig in b
-3. Einander anrühren.
-4. Gerader Strich ac,
-5. Welcher die beeden Mittel-Düpffel a und c zusammen henget.
-
-Strich ac durch den Anrührungs-Düttel b gehend.
-
-[Diagram: zwei einander von aussen berührende Kreise; am Berührungsort der Punkt b, darüber f und g; im linken Kreis a, unten e und d, im rechten Kreis c; gerade und punktierte Verbindungsstriche]
+### II. Begebenheit.
 
 ### Vorbereitung.
 
-Wann der Strich ac nicht durch den Anrührungs-Düttel b gehet/so ziehe man aus den beeden angenom̄enen Mittel-Düpffeln a und c zweene Stralen zum Anrührungs-Düpffel b, nemlich ab und cb.
+Fället der Strich ba nicht auff c, so falle er auff d.
 
-### Beweiß
+[Diagram: grosser Kreis mit kleinerem Kreis, der ihn inwendig oben berührt; oben der Punkt c, links d, im kleinen Kreis e und a, unten im grossen Kreis b; Verbindungsstriche]
 
-ab | ae
-bc | cd — n. Vorb. und n. 15. Besch. I.
-ab + bc | ae + cd — n. 2. Gr. I.
-ab + bc ⊣ ac — n. 20. I.
-Dw. ae + cd ⊣ ac — n. 1. Gr. c. I.
-Welches aber unmöglich n. 9. Gr. I.
+### Beweiß.
 
-<!-- Signature: T 3 -->
+ae | ca — n. 15. Beschr. I.
+ba | ab
+ba + ae | ca + ab — n. 2. Gr. I.
+oder bae | cb — n. 9. Gr. q.
+bad | bc — n. Vorb. und 15. Besch. I.
+Dw. bad | bae — n. 1. Gr. I.
+Welches unmöglich n. 9. Gr. I.
 
-<!-- Catchword: Oder -->
+### Beschluß.
+
+Muß also allezeit der durch beede Mittel-Düpffele cf oder ba, derer einander anrührenden Kreyse gezogene gerade Strich/wen̄ er verlängert wird/auff den Anrührungs-Düttel a oder c stossen. W. Z. B.
+
+## Der XII. Vortrag.
+
+## Das 11. Beweiß-Stück.
+
+Wann zweene Kreyse einander von aussen anrühren/so wird der gerade Strich/ welcher durch solcher Kreyse Mittel-Düpffele gezogen wird / durch den Anrührungs-Düttel gehen.
+
+<!-- Catchword: Ge- -->

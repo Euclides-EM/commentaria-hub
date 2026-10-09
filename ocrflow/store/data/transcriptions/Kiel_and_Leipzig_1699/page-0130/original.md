@@ -1,30 +1,35 @@
-<!-- Page number: 114 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das II. Buch -->
+<!-- Page number: 113 -->
 
-[Diagram: punktierte Konstruktion; oben Punkte e und f, Grundlinie a c b d, unten rechts Punkt g, gestrichelte Linien verbinden e, f, d und g]
+## Der X. Vortrag.
 
-### Beweiß.
+## Das 10. Beweiß-Stück.
 
-ca | ce | n. 2. Vorb.
-α. Dw. eac ∠ aec | n. 5. I.
-β. cb | ce | n. 2. Vorb.
-γ. ceb ∠ cbe
-ce | Senckstrich | n. 1. Vorber.
-Dw. eca ∠ ∟
-δ. ecb ∠ ∟ | n. 10. Beschr.
-eac + aec ∠ ∟
-ceb + cbe ∠ ∟ | n. 34. I.
-aec ∠ ½ ∟ | n. Bew. α.
-ceb ∠ ½ ∟ | n. Bew. γ.
-aec + ceb ∠ ∟
-ε. und aeb ∠ ∟ | n. 9. Gr. q. I.
-Dw. □ ae | □ ac + □ ce | n. 47. I.
-ζ. oder □ ae | 2 □ ac
-fd | ce | n. 34. I.
-cb | ce | n. Bew. β.
-Dw. fd | cb | n. 1. Gr. I.
-η. dg | bd | n. 5. Vorb.
-fd + dg | cb + bd | n. 2. Gr. I.
+Wenn ein gerader Strich in zweene gleiche Theile geschnitten / und hernach ein ander Stück gerad-aus angesetzet wird: So muß das von dem zusammengesetzten gantzen Strich gemachte gleichseitige Vierecke / samt dem Viereck des zugesetzten Stückes/ eben so groß seyn / als die beeden zweymal genommene von dem halben und angesetzten / samt des halben allein genommenen Stückes Vierecke.
 
-<!-- Catchword: oder -->
+### Gegebene. | Begehrte.
+
+1. Gerader Strich ab | □ ad + □ bd | 2 □ ac + 2 □ cd
+2. Geschnitten in c
+3. Also daß ac | cb
+4. ab | ac + cb
+5. Das angesetzte Stück bd
+6. Zusammen gesetzter Strich ad
+7. Halber und angesetzter Strich cd
+
+### Vorbereitung.
+
+1. Auff den Düttel c werde ein Senckstrich ce gesetzte n. 11. I.
+2. Also daß der Senckstrich ce | ca | cb n. 2. I.
+3. Werde durch d gegen ce ein Nebenstrich fd gezogen.
+4. Und verlänget zu g,
+5. Damit dg | db sey.
+6. sey df | ce.
+7. Es werde gezogen aus g durch b biß e der Strich ge,
+8. Desgleichen auch ea,
+9. Und ag.
+
+<!-- Signature: P -->
+
+<!-- Catchword: Beweiß. -->

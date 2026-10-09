@@ -1,35 +1,34 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 249 -->
+<!-- Page number: 248 -->
 
-### Beschluß.
+## Der IV. Vortrag.
 
-Wenn derowegen aus vier Grössen die I. zu der II. in solcher Verhältnüß / wie die III. zu der IV. stehet; Und die V. zu der I. sich also wie die VI. zu der III. und auch die VII. zu der II. wie die IIX. zu der IV. sich verhält: So wird auch die V. zu der VII. also wie die VI. zu der IIX. sich verhalten. W. Z. B.
+## Das 4. Beweiß-Stück.
 
-## Der V. Vortrag.
+Wenn man vier Grössen nimmt / deren die Erste zu der Andern eben solche Verhältnüß hat / als die Dritte zu der Vierten; So werden auch diejenigen (Grössen) welche gleich-vielfältig sind gegen die Ersten und Dritten (Grössen) zu denjenigen Grössen / welche gleich-vielfältig sind gegen die Andern und Vierten (Grössen) nach allerley Vervielfältigung/ gleiche Verhältnüß haben / wenn man sie also / wie sie gegen einander stehen / nimmet.
 
-## Das 5. Beweiß-Stück.
+### Gegebene.
 
-Wenn die Erste Grösse eben so vielfältig ist gegen die Andere Grösse / als das von der Ersten abgenommene Stück gegen das von der andern abgenommene Stück: So wird auch das Erste Übergebliebene gegen das Andere Übergebliebene eben so vielfältig seyn / als die Erste gantze Grösse gegen die Andere gantze Grösse.
+1. 2a : a | 6a : 3a.
+2. 4a : 2a : | 12a : 6a :
+3. 3a : a | 9a : 3a.
 
-### Gegebene. — Begehrtes.
+### Begehrtes.
 
-[Diagram: Zwey waagerechte Linien mit Teilstrichen, bezeichnet A und B]
+4a : 3a | 12a : 9a.
 
-1. A | 2B
-2. a | 2b — A—a : B—b | A : B
-3. A : B | a : b
+### Vorbereitung.
+
+Man nehme zu der Ersten und Dritten (Grösse) noch zwo gleich-grosse / und also in gleicher Verhältnüß mit selbigen stehende Grössen.
+
+2a : 2a | 6a : 6a.
 
 ### Beweiß.
 
-A | 2B — n. 1.
-a | 2b — n. 2. Gegeb.
-A—a | 2B—2b — n. 3. Gr. I.
-2B—2b | Zwiefach B—b
-Dw. A—a | Zwiefach B—b — n. 6. Gr. kk. I.
-und A | Zwiefach B — n. 1. Gegeb.
-Dw. A—a : B—b | A : B. — n 7. Beschr. V.
-
-<!-- Signature: Ji -->
+2a : a | 6a : 3a — n. 1. Geg.
+2a : 2a | 6a : 6a — n. Vorber.
+Dw. 2a + 2a : 2a + a | 6a + 6a : 6a + 3a — n. 1. V.
+oder 4a : 3a | 12a : 9a
 
 <!-- Catchword: Beschluß. -->

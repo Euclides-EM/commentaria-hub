@@ -1,29 +1,26 @@
-<!-- Running title: Axiomata. -->
+<!-- Running title: Postulata. -->
 
-<!-- Page number: 10 -->
+<!-- Page number: 9 -->
 
-(b) Welch Ding a kleiner ist/ als eins b von zwey gleichen Dingen/ das ist auch kleiner / als das andere c.
+## Foderungen oder Heischungen (Postulata.)
 
-[Diagram: drei Striche, a kürzer, b und c länger und gleich lang]
+Weil man keine Erklärung oder Beweiß nachtrücklich anstellen kan/es werden denn zufoderst etliche begehrte Sätze oder Foderungen zugegeben/so hat Euclides drey solche Foderungen seinen Beweißthümern vorgesetzet/ welchen aber billich die vierte vorgefüget wird/ als
 
-(c) Wenn eins oder das erste b von (zwey) gleichen Dingen b und c grösser ist/als das dritte a / so ist auch das andere c grösser/ als das dritte a.
+1. Daß man einen sichtbahren Düpffel mit der Feder/Stifft/ Kreiden/ oder auff andere Arth/ machen möge/ welcher bey dem Beweiß die Stelle eines zarten unsichtbaren Düttels vertreten könne.
+2. I. Daß man von einem jeden Düpffel zu einem andern Düpffel einen geraden Strich ziehen könne.
+3. II. Daß man einen geendeten Strich nothdürfftig oder so weit / als nöthig ist / ungehindert verlängern könne.
+4. III. Daß man aus jedwedem gegebenen Düpffel/ nach der gegebenen Weite / einen Kreyß beschreiben könne.
 
-[Diagram: drei Striche, b und c gleich lang, a kürzer]
+## Außsprüche oder Grund-Sätze.
+(Axiomata sive communes notiones.)
 
-(d) Wenn das eine b von (zwey) gleichen Dingen b und c kleiner ist/ als das dritte a / so ist auch das andere c kleiner / als das dritte a.
+I. Welche zwo Grössen c oder b ( oder Zalen ) einer dritten Grösse a ( oder Zal ) gleich sind/ dieselbigen sind auch unter sich gleich.
 
-[Diagram: drei Striche, b und c gleich lang, a länger]
+[Diagram: drei gleich lange Striche, bezeichnet mit b, a, c]
 
-(e) Was a grösser ist / als das Grössere b/ das ist auch grösser / als das Kleinere c.
+(a) Welch Ding a grösser ist/als eins b von zwey gleichen Dingen/ das ist auch grösser / als das andere c.
 
-[Diagram: drei Striche, a am längsten, b kürzer, c am kürzesten]
+[Diagram: drei Striche, a länger, b und c kürzer und gleich lang]
 
-(f) Was a/ kleiner ist / als das kleinere b / das ist auch kleiner / als das Grössere c.
-
-[Diagram: drei Striche, a am kürzesten, b länger, c am längsten]
-
-II. Wenn man zu ( zwey ) gleichen Dingen ab und bc ( zwey ) gleiche Stücke de und ef thut/werden die ( beeden ) Gantzen ae und bf auch gleich.
-
-[Diagram: zwei Striche a–d und b–c, an welche punktierte Stücke d–e und c–f angesetzt sind]
-
-<!-- Catchword: III. -->
+<!-- Signature: B -->
+<!-- Catchword: (b) Welch -->

@@ -1,24 +1,36 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 199 -->
+<!-- Page number: 198 -->
 
-□ ad + □ fg | □ af n. 3. Gr. I.
-□ hag + □ fg | □ af n. 6. II.
-Dw. □ hag + □ fg | □ ad + □ fg n. 1. Gr. I.
-u. □ hag | □ ad n. 3. Gr. I.
+[Diagram: Kreis mit Düttel a oberhalb; Striche von a durch den Kreis mit Punkten b, g, d, f, c, h, e]
 
-### Beschluß.
+### Vorbereitung.
 
-Wird also allezeit das rechtwincklichte Viereck □ hag oder □ eab, welches von dem gantzen schneidenden Strich ea oder ha, und dem Stück/ so zwischen dem erwehlten Düttel a und äussern Kreyßkrümme b oder g stehet/ begriffen wird/ so groß seyn/ als das gleichseitige Viereck des Rührstriches ad, nemlich □ ad. W. Z. B.
+Aus dem Mittel-Düpffel ac werden gezogen.
+1. Der Strahl cg.
+2. Der Senckstrich cd.
+3. Ein Senckstrich cf auff den Schneidenden Strich ah n. 12. I.
 
-## Der XXXVII. Vortrag.
+### I. Beweiß.
 
-## Das 31. Beweiß-Stück.
+|  |  |  |  |
+|---|---|---|---|
+|  | ▭ eab + □ bc | □ ac | n. 6. II. |
+|  | □ ad + □ dc | □ ac | n. 47. I. |
+| Dw. | □ ad + □ dc | ▭ eab + □ bc | n. 1. Gr. I. |
+|  | bc | dc | n. 15 B. I. |
+|  | □ bc | □ dc | n. 1. gr. t. II. |
+|  | □ ad + □ dc + □ bc | ▭ eab + □ bc + □ dc | n. 2. Gr. I. |
+|  | □ ad | ▭ eab | n. 3. Gr. I. |
 
-Wenn man ausser dem gegebenen Kreyß einen Düttel erwehlet/ und von selbigem zween Striche zeucht/ deren einer den Kreyß schneidet/ der andere aber nur auff den Kreyß stösset : Und als dann das rechtwincklichte Viereck/ welches von dem gantzen schneidenden Strich/ und dem Stück/ so zwischen dem Düttel und äussern Kräyßkrümme stehet/ begriffen wird/ eben so groß ist/ als das gleichseitige Vier-Eck des darauff stossenden Striches / so wird solcher auffstossender Strich ein Rührstrich des Kreysses seyn.
+### II. Beweiß.
 
-### Gegebene. Begehrtes.
+|  |  |  |  |
+|---|---|---|---|
+|  | □ ad + □ dc | □ ac |  |
+|  | □ ac | □ af + □ fc | n. 47. I. |
+| Dw. | □ ad + □ dc | □ af + □ fc | n. 1 Gr. I. |
+|  | □ fc + □ fg | □ gc oder □ dc | n. 47. I. |
+| Dw. | □ ad + □ dc + □ fc + □ fg | □ af + □ fc + □ dc | n 2. Gr. I. |
 
-1. Kreyß dhkg. da | Rührstrich des Kreyses.
-
-<!-- Catchword: 2.Düt- -->
+<!-- Catchword: Dw. -->

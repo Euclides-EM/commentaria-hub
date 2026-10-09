@@ -1,35 +1,35 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 262 -->
+<!-- Page number: 261 -->
 
-### Gegebene. | Begehrtes.
+A ____________
+4a ____________
+B ____________
+4b ____________
 
-A ______ | A + B + C : a + b + c | A : a
-a __
-B ______
-b __
-C ______
-c __
+[Diagram: Strecken A, 4a, B, 4b]
 
-[Diagram: Strecken A, a, B, b, C, c]
+A | 3a — n. Gegeb.
+4a ⊣ 3a — n. 9. Gr. I.
+ε Dw. A ⊢ 4a — n. 1. Gr. d. I.
+B | 3b — n. Geg.
+4b ⊣ 3b — n. 9. Gr. I.
+ζ Dw. B ⊢ 4b — n. 1. Gr. d. I.
 
-A : a | B : b | C : c
+Weil nun I. die Vervielfältigungen der Grössen A u. B. grösser/ als die Vervielfältigungen der Grössen a u. b. n. I. Bew. α. und β. II. die Vervielfältigten A und B gleichgroß denen Vervielfältigten a und b, n. Bw. γ u. δ III. Die Vervielfältigungen A u. B kleiner/ als die Vervielfältigung a u. b, n. III. Bew. ε u. ζ.
 
-### Beweiß.
-
-A ⁘ a
-B ⁘ b | A : a — n. Gegeb.
-C ⁘ c
-Dw. A + B + C : a + b + c | A : a — n. 1. V.
+Dw. müssen auch A : a | B : b — n. 6. Besch. V.
 
 ### Beschluß.
 
-Müssen derowegen alle etlicher ebenmässigen Grössen vorgehende zusammen-genommene Grössen zu allen Nachgehenden zusammen-genommenen Grössen sich also verhalten / wie eine der gegebenen Vorgehenden Grössen zu ihrer eigenen Nachgehenden Grösse. W. Z. B.
+Wenn derowegen etliche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind/ so sind solche Verhältnüsse auch unter sich selbst gleichhaltig. W. Z. B.
 
-## Der XIII. Vortrag.
+## Der XII. Vortrag.
 
-## Das 13. Beweiß-Stück.
+## Das 12. Beweiß-Stück.
 
-Wenn die Erste zu der Andern eben solche Verhältnüß hat/ wie die Dritte zu der Vierten. Die Dritte aber zu der Vierten eine grössere Verhältnüß hat/ als die Fünffte zu der Sechsten: So wird auch die Erste zu der Andern eine grössere Verhältnüß haben/ als die Fünffte zu der Sechsten.
+Wenn man etliche ebenmässige (und zwar so viel man deren wil) Grössen hat/ so werden/ wie sich eine Vorgehende zu ihrer Nachgehenden hält/ auch alle Vorgehende zusammen genommen zu allen Nachgehenden zusammen verhalten.
+
+<!-- Signature: Kk 3 -->
 
 <!-- Catchword: Gegebene. -->

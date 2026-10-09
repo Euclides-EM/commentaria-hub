@@ -1,31 +1,36 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 20 -->
+<!-- Page number: 19 -->
 
 ### Beweiß.
 
-So wird der Düttel b entweder auff den Düttel B, oder über denselben auff d, oder unter denselben auff e fallen.
+cf | ab nach 2 Vortr.
+cf | cg nach 15 Beschr.
+Dw. ab | cg nach 1 Grund-S.
 
-[Diagram: zwey Dreyecke abc und ABC nebeneinander, mit den Punkten d und e am zweyten Dreyeck]
+### Beschluß.
 
-fället er auff d, | fället er auff e,
+Und ist also von dem grössern ch abgeschnitten ein Stück cg | ab
+W. Z. M.
 
-So wird Ad | ab nach der Vorbereit. | Ae | ab
-AB | ab nach 3 Gegebenem - - | AB | ab
-Dw. AB | Ad nach 1. Gr-Satz - - - | AB | Ae
+## Der IV. Vortrag.
 
-Nemlich daß gantze wird einem seiner Theile gleich seyn / welches wieder den 9. Gr-S.
+## Das I. Beweiß-Stück.
 
-Weilen nun der Düttel b, weder über/ noch unter den Düttel B fallen kan / so muß er nothwendig auff den Düttel B selbst fallen.
+Wenn in zweyen Dreyecken zwo Seiten des einen eben so groß seynd / als zwo Seiten des andern/und zwar jedwede Seite einer jedweden absonderlich; darnach auch diejenigen Winckel/ welche von den gedachten Seiten eingeschlossen werden / gleich sind: so werden auch die beeden Grund-Striche/ und die beeden Dreyecke ein ander gleich seyn; deßgleichen werden die übrigen Winckel/ derer gegenüberstehende Striche gleich groß seynd / auch ein ander gleich seyn.
 
-Wann aber ab auff AB fället / so muß der andere Strich ac entweder einwerts auff den Strich AC, oder auff Ag, oder außwerts auff Af fallen.
+### Gegebene. | Begehrte.
 
-[Diagram: zwey Dreyecke abc und ABC, am zweyten Dreyeck die Punkte g und f mit punktierten Linien]
+1. Zwey geradstrichiche Dreyecke ABC und abc | BC | bc, ABC ⏉ abc
+2. AB + AC | ab + ac | BCA ⋏ bca
+3. AB | ab | und ABC ⋏ abc
+4. AC | ac
+5. BAC ⋏ bac
 
-fället er auff AG, | fället er auff Af
+### Vorbereitung.
 
-So wird BAg ⋏ bac | nach der Vorber. | BAf ⋏ bac
-BAC ⋏ bac | nach Gegeb. | BAC ⋏ bac
-Dw. BAC ⋏ BAg | nach 1. GrS. | BAC ⋏ BAf
+Man hebe das △ abc auff/ und setze es auff das △ ABC also / daß der Düttel a auff den Düttel A, und der Strich AB auff den Strich AB falle.
 
-<!-- Catchword: Keines -->
+<!-- Signature: C 2 -->
+
+<!-- Catchword: Beweiß. -->

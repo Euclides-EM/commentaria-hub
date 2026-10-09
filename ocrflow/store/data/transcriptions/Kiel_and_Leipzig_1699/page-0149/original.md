@@ -1,28 +1,36 @@
-<!-- Page number: 133 -->
+<!-- Page number: 132 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-Dw. gia ⋏ agi — n. 1. Gr. a. I.
-und ia ⊢ ag — n. 18. I.
+### Beweiß.
 
-### Beschluß.
+Wenn der Strich nicht inwendig / sondern außwendig solte zu stehen kommen /
 
-Muß also der Düttel i, wie auch alle andere Düttele des Striches hg, und einfolglich der gantze Strich hg, inwendig in den Kreyß fallen. W. Z. B.
+[Diagram: Kreis mit Mitteldüpffel a, Sehne hg, Düttel i innen, punktierter Bogen außerhalb mit den Dütteln f und e]
 
-## Der III. Vortrag.
+### Vorbereitung.
 
-## Das 2. BeweißStück.
+So ziehe man aus dem Mittel-Düpffel a
 
-Wenn ein gerader Strich durch eines Kreyses Mittel-Düpffel gehet / und einen andern in solchem Kreyß stehenden Strich in zwey gleiche Stücke schneidet/ so wird er auch solchen Strich nach rechten Winckeln theilen: Wenn auch der erste Strich den andern nach rechten Winckeln theilet/ so wird er ihn einfolglich in zween gleiche Theile theilen.
+1. Die beeden Striche ah und ag.
+2. Deßgleichen nach dem außwerts fallenden Strich hfg den Strich af.
 
-### Gegebene. — Begehrte.
+### Verfolg des Beweises.
 
-1. Kreyß ebfc.
-2. Durch den Mittel-Düpffel gehender Strich ef.
-3. Anderer im Kreyß stehender Strich bc, welcher
-4. Jn zween gleiche Theile getheilet ist/ nemlich bd | cd: oder — 1. adb | ∟ und adc | ∟: oder
-5. Der Strich bc vom ersten Strich ef nach rechten Winckeln getheilet/ daß adb ⋏ adc. — 2. bd | dc.
+ah | ag — n. 15. Beschr. I.
+Dw. ahf ⋏ agf — n. 5. I.
+afg ⋏ ahf — n. 16. I.
+Dw. afg ⋏ agf — n. 1. Gr. a I.
+und ag ⊣ af — n. 18. I.
+ag | ae — n. 15. Beschr. I.
+Dw. ae ⊣ af — n. 1. Gr. c. I.
 
-<!-- Signature: R 3 -->
+Welches aber nicht seyn kan / nach 9. Gr. I.
 
-<!-- Catchword: Vor- -->
+### Auff eine andere Arth
+
+ah | ag — n. 15. Beschreib.
+Dw. ahi ⋏ agi — n. 5. I.
+gia ⋏ iha — n. 16. I.
+
+<!-- Catchword: Dw. -->

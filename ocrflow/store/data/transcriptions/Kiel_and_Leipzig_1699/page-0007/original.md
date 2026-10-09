@@ -1,9 +1,13 @@
 <!-- Running title: Vorrede. -->
 
-tet/ daß/ gleich wie durch die alten drey Foderungen das Streich- oder Strich-Höltzlein (Lineal) und der Passer (Circul/ Circinus) gerechtfertiget werden / also durch diese vierte und neue Foderung (oder postulatum) auch der Stifft von aller fernern Ansprache befreyet werde. Und deßwegen sind in dem Kupfferblättlein die drey Mathematischen Werckzeuge/ nemlich der Stifft/ das Streichholtz/ und der Passer vorgestellet/ weil nemlich keine Gestalt/ welche zu ihrer Verfertigung mehr/ als diese drey Werckzeuge/ erfordert/ für eine Mathematische/ sondern nur vor eine Mechanische Gestalt gehalten wird.
+## Zu dem X. Grundsatz.
 
-Was die Vorträge betrifft / so sind selbige in ihre gewisse Stücke/ nemlich in die Gegebene (Data), und Begehrte (Quæsita) abgetheilet/ alsdann folget die Wirckung
+(qq) Wenn von zweyen gleichmässigen Winckeln (a und b) einer (a) recht ist/ so ist der andere (b) auch recht.
 
-<!-- Signature: ):( ):( 2 -->
+[Diagram: schematische Darstellung mit Winkelzeichen]
 
-<!-- Catchword: (Ope- -->
+Die drey Forderungen (oder postulata) habe noch mit einem vermehret/ nemlich: daß man einen Düttel machen könne / und zwar darüm/ weil ich vermercket/ daß Thomas Hobbes in seinem Buche de principiis Geometrarum cap. I. sich daran geärgert/ wann Euclides saget: der Düttel sey ein untheilbahres Zeichen: welches doch vielmehr also zu verstehen/ daß der Düttel ein Zeichen eines untheilbahren Anfangs aller Grössen sey. Weil nun kein Düttel ohne Stifft/ oder sonst einen spitzigen Werckzeug/ kan gemacht werden/ so habe nöthig erach-
+
+<!-- Signature: ):( ):( -->
+
+<!-- Catchword: tet/ -->

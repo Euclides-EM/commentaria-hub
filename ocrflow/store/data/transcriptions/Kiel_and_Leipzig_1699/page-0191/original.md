@@ -1,33 +1,36 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 175 -->
+<!-- Page number: 174 -->
 
-[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, i, der andere mit h, f, d, e, k; in jedem stehen Winckel am Mittel-Düpffel und im Kreyß, die Sehnen punctirt]
+## Der XXVI. Vortrag.
 
-### II. Beweiß.
-
-2bgc ⋀ bac
-dfe ⋀ 2dhe } n. 20. III.
-2bgc + dfe ⋀ bac + 2dhe   n. 2. Gr. I.
-bgc ⋀ dhe   n. 2. Geg.
-2bgc ⋀ 2dhe   n. 6. Gr. i. I.
-Dw. dfe ⋀ bac   n. 3. Gr. I.
-und bic ⊻ dke   n. 1. Beweiß.
-
-### Beschluß.
-Müssen also allezeit in gleichgrossen Kreyssen bgci | dhek diejenigen Bogen bic ⊻ dke, auff welchen gleichgrosse Winckel bac ⋀ dfe oder bgc ⋀ dhe stehen/ auch gleich groß seyn. W. Z. B.
-
-## Der XXVII. Vortrag.
-
-Das 24 Beweiß-Stück.
-In gleichgrossen Kreyssen sind diejenigen Winckel/ welche auff gleichgrossen Bogen stehen/ auch gleich groß/ es mögen Mittel-Düpffels oder im Kreyß stehende Winckel seyn.
+## Das 23. Beweiß-Stück.
+In gleichgrossen Kreyssen/ stehen gleichgrosse Winckel auff gleichgrossen Bogen/ es mögen Mittel-Düpffels- oder im Kreyß stehende Winckel seyn.
 
 ### Gegebene.
-1. Gleichgrosse Kreysse fcd | ehi
-2. Gleichgrosse Bogen cd ⊻ hi
+1. O bgci | O dhek
+2. bac ⋀ dfe
+bgc ⋀ dhe
 
-### Begehrte.
-1. cad ⋀ hbi
-2. cfd ⋀ hei
+### Begehrtes.
+bic ⊻ dke.
 
-<!-- Catchword: Vor- -->
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, i, der andere mit h, f, d, e, k; in jedem ein Winckel am Mittel-Düpffel, die Sehnen bc und de punctirt]
+
+### I. Vorbereitung.
+Es werden die beeden geraden Striche bc und de gezogen.
+### I. Beweiß.
+
+O bgci | O dhek   n. 1. Gegeb.
+ba | df
+ac | fe   n. 1. Beschr. III.
+ba + ac | df + fe   n. 2. Gr. I.
+bac ⋀ dfe   n. 2. Gegeb.
+Dw. bc | de   n. 4. I.
+und bic ⊻ dke   n. 24. III.
+
+### II. Vorbereitung.
+Es werden gezogen 1. die Stralen ba, ca und df, ef.
+2. Die geraden Striche bc und de.
+
+<!-- Catchword: II. Be- -->

@@ -1,35 +1,34 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 156 -->
+<!-- Page number: 155 -->
 
-2. Aus dem Mittel-Düpffel a
-3. Zu den beyden Strichen bc und de gezogen.
+[Diagram: Kreis mit Mittel-Düpffel a, oben die Sehne cb mit Punkt g, unten die Sehne de mit Punkt f, punktierte Linien von a nach b und e]
 
 ### Beweiß.
 
-ag | af — n. Geg. und 3. III.
-ab | ae — n. 15. Besch. I.
-agb ∠ ∟
-afe ∠ ∟ — n. 3. Vorher.
-□ ag + □ gb | □ ab — n. 47. I.
-□ ae | □ ab — n. 1. Gr. t. II.
-Dw. □ ag + □ gb | □ ae — n. 1. Gr. I.
-□ af + □ fe | □ ae — n. 47. I.
-Dw. □ ag + □ gb | □ af + □ fe — n. 1. Gr. I.
-□ af | □ ag — n. 1. Gr. t. II.
-Dw. □ ag + □ gb + □ af | □ af + □ fe + □ ag — n. 2. Gr. I.
-□ ag + □ af | □ af + □ ag
-Dw. □ gb | □ fe — n. 3. Gr. I.
-und gb | fe — n. 2. Gr. u. II.
-fe | df — n. 3. III.
-Dw. gb | df — n. 1. Gr. I.
-cg | gb — n. 3. III.
-Dw. cg | df — n. 1. Gr. I.
-cg + gb | df + fe — n. 2. Gr. I.
-oder cb | de — n. 9. Gr. q. I.
+cb | de — n. 4. Geg.
+cg | gb
+df | fe — n. 2. Vorher.
+Dw. gb | fe — n. 7. Gr. n. I.
+ab | ae — n. 15. Beschr. I.
+bga ∠ ∟
+afe ∠ ∟ — n. 3. Vorb. n. 10. Besch. I.
+Dw. □ ab | □ ae
+und □ bg | □ ef — n. 1. Gr. t. II.
+Dw. □ ab — □ bg | □ ae — □ ef — n. 3. Gr. I.
+□ ab — □ bg | □ ag — n. 47. I.
+Dw. □ ae — □ ef | □ ag — n. 1. Gr. I.
+□ ae — □ ef | □ af — n. 47. I.
+Dw. □ ag | □ af — n. 1. Gr. I.
+und ag gleich af — n. 2. Gr. u. II.
 
-### Beschluß.
+Dw. sind bc und de gleichweit von dem Mittel-Düpffel entfernet. n. 4. Beschr. III.
 
-Müssen also allezeit gleichlange gerade Striche cb, de in einem Kreyß gleichweit von dem Mittel-Düpffel a entfernet seyn : desgleichen werden auch gleichweit von dem Mittel-Düpffel a abstehende gerade Striche cb, de gleichlang seyn. W. Z. B.
+Anderer Theil dieses Vortrags.
 
-<!-- Catchword: Der -->
+### Gegebene. Begehrtes.
+
+1. Zween Senckstriche ag und af. — cb | de
+
+<!-- Signature: V 2 -->
+<!-- Catchword: 2. Aus -->

@@ -1,27 +1,24 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 200 -->
+<!-- Page number: 199 -->
 
-2. Düttel a.
-3. Ausser dem Kreyß.
-4. Zween Striche von solchem Düttel gezogen.
-5. Deren einer ah den Kreyß in g schneidet.
-6. Der andere ak nur darauff stösset.
-7. □ hag | □ ad.
+□ ad + □ fg | □ af n. 3. Gr. I.
+□ hag + □ fg | □ af n. 6. II.
+Dw. □ hag + □ fg | □ ad + □ fg n. 1. Gr. I.
+u. □ hag | □ ad n. 3. Gr. I.
 
-[Diagram: Kreis mit Mittelpunkt c; von einem Punkt a ausserhalb des Kreises gehen ein schneidender Strich durch g nach h und ein Rührstrich nach k; punktierte Linien verbinden c mit d, k und a]
+### Beschluß.
 
-### Vorbereitung.
+Wird also allezeit das rechtwincklichte Viereck □ hag oder □ eab, welches von dem gantzen schneidenden Strich ea oder ha, und dem Stück/ so zwischen dem erwehlten Düttel a und äussern Kreyßkrümme b oder g stehet/ begriffen wird/ so groß seyn/ als das gleichseitige Viereck des Rührstriches ad, nemlich □ ad. W. Z. B.
 
-1. Werde aus dem Düttel a ein Rührstrich ak zum Kreyß gezogen. n. 17. III.
-2. Werden die Strahlen cd und ck, wie auch
-3. Aus dem Düttel a zu dem Mittel-Düpffel c der Strich ac gezogen.
+## Der XXXVII. Vortrag.
 
-### Beweiß.
+## Das 31. Beweiß-Stück.
 
-ak | Rührstrich n. 1. Vorber.
-Dw. □ ak | □ hag n. 36. III.
-□ ad | □ [unclear: hag] n 7. Gegeb.
-Dw. □ ak | □ ad n. 1. Gr. I.
+Wenn man ausser dem gegebenen Kreyß einen Düttel erwehlet/ und von selbigem zween Striche zeucht/ deren einer den Kreyß schneidet/ der andere aber nur auff den Kreyß stösset : Und als dann das rechtwincklichte Viereck/ welches von dem gantzen schneidenden Strich/ und dem Stück/ so zwischen dem Düttel und äussern Kräyßkrümme stehet/ begriffen wird/ eben so groß ist/ als das gleichseitige Vier-Eck des darauff stossenden Striches / so wird solcher auffstossender Strich ein Rührstrich des Kreysses seyn.
 
-<!-- Catchword: und -->
+### Gegebene. Begehrtes.
+
+1. Kreyß dhkg. da | Rührstrich des Kreyses.
+
+<!-- Catchword: 2.Düt- -->

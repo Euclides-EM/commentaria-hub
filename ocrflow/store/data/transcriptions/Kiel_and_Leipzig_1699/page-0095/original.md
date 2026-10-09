@@ -1,27 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 78 -->
 
-<!-- Page number: 79 -->
-
-## Der XLV. Vortrag.
-
-## Das 13. Werckstück.
-
-Einer geradstrichichen Gestalt / nach dem gegebenen Winckel / ein gleichgrosses Viereck zu machen.
-
-### Gegebene. | Begehrte.
-1. Geradstrichiche Gestalt yz. | 1. □ gm | yz.
-2. Winckel D | 2. ogn ∠ D.
+<!-- Running title: Das I. Buch -->
 
 ### Wirckung.
 
-1. Werde durch einen ( oder so es nöthig mehr ) zwergstriche die gegebene Gestalt in Dreyecke getheilet.
+1. Dem △ ABC mache man ein gleichgrosses □ MNC, nach dem gegebenen Winckel D. n. 42. Vortr.
+2. Die Seite NM werde nach nothdurfft verlängert gegen H.
+3. Von dieser verlängten Seite wrdee abgesch. MH | EF. n 3. Vort.
+4. Aus H werde durch C ein gerader Strich nach Nothurfft gezogen.
+5. Gegen diese Strich werde NO verlängert biß G.
+6. Aus H werde gegen über NG ein Nebenstrich gezogen HL
+7. Deßgleich auch auß G nemblich GL = NH.
+8. MC werde verlänget biß I.
+9. Und OC —— —— K.
 
-2. Dem einen △ A werde ein gleichhaltendes Viereck nach dem gegebenen ∠ D gemacht/nach 44. Vortr.
+### Beweiß.
 
-3. Dem andern △ B werde auch ein gleiches □ nach dem ∠ D und nach der einen Seite des □ a. gemacht/nach 44. Vortr.
+FE | MH n. 3. Wirck.
+α. Dw. IL | MH n. 14. Vortr.
+IL | FE n. 1. Gr:S.
+NOC ⋀ MCK
+CIL ⋀ MCK } n. 29. Vortr.
+Dw. CIL ⋀ NOC n. 1. Gr:S.
+D ⋀ NOC n. 23. Vortr.
+β. Dw. D ⋀ CIL n. 1. Gr:S.
+NC ⌻ CL n. 34. Vortr.
+□ NC | △ ABC n. 42. Vortr.
+γ. Dw. □ CL | △ ABC n. 1. Gr:S.
 
-4. Diese beyden □ □ a und b werden zusammen gesetzet bey ihren gleich langen Seiten/ damit ein □ gomn daraus werde.
+### Beschluß.
 
-[Diagram: Winckel D; Viereck ypzq mit Dreyecken A und B; Parallelogramm-Figur mit Punkten i, x, h, B, u, k, g und b; Figur c, d, e, s, t mit Dreyeck A und Viereck a; Parallelogramm o, g, m, n mit Vierecken b und a]
+Ist also an den gegebenen Strich EF oder IL. α. nach dem gegebenen ∧ D. β. angesetzet das □ CL | △ ABC. γ. W. Z. M.
 
-<!-- Catchword: Be- -->
+<!-- Catchword: Der -->

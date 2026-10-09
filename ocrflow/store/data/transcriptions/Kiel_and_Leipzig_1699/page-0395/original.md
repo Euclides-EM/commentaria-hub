@@ -1,39 +1,25 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 379 -->
+<!-- Page number: 378 -->
 
-9. Aus d werde durch B ein gerader Strich dm gezogen/ welcher den Strich mp in m schneide.
+[Diagram: oben eine Gestalt K mit den Punkten i und h nebst punctirten Linien, daneben ein Viereck L; darunter ein grosses Viereck mit den Punkten b, n, d, g oben, B, C, A in der Mitte, f, m, o, q, p unten, nebst punctirtem Kreisbogen]
 
-10. Aus m werde gegen pg der Nebenstrich mb gezogen. n. 31. I.
+### Wirckung.
 
-11. Durch B werde auch gegen dq der Nebenstrich on gezogen. n. 31. I.
+1. Der gegebene Strich AB werde in zween gleiche Theile in C geschnitten. n. 10. I.
 
-12. Der Strich AB werde biß f verlängert.
+2. Auf die Helffte AC werde ein dem Viereck L ähnliches nebenstrichichtes Viereck Ad gesetzet. n. 18. VI.
 
-### Beweiß.
+3. Die Gestalt K werde in ein nebenstrichichtes Viereck hi, welches dem Viereck L gleichwincklicht/ und
 
-|  |  |  |  |
-|---|---|---|---|
-|  | □ dg | □ ih | n. 5. Wirck. |
-|  | △ K | □ ih | n. 3. Wirck. |
-| Dw. | △ K | □ dg | n. 1. Gr. I. |
-|  | □ cn | □ Ad | n. 36. I. |
-| Dw. | □ cn + △ K | □ Ad + □ dg | n. 2. Gr. I. |
-|  | □ dm | □ Ad + □ dg | n. 24. VI. |
-| Dw. | □ cn + △ K | □ dm | n. 1. Gr. I. |
-|  | □ cn | □ cn |  |
-| Dw. | △ K | □ dm — □ cn | n. 3. Gr. I. |
-| oder | ⊡ qBb | □ dm — □ cn | n. 2. Besch. II. |
-| a Dw. | ⊡ qBb | △ K | n. 1. Gr. I. |
-|  | □ fn | □ oC | n. 43. I. |
-|  | □ Cp | □ oC | n. 36. I. |
-| Dw. | □ Cp | □ fn | n. 1. Gr. I. |
-|  | □ oC | □ oC |  |
-|  | □ fo | □ fo |  |
-| Dw. | □ Cp + oC + fo | □ fn + □ oC + □ fo | n. 2. Gr. I. |
-| oder | □ fp | ⊡ qBb | n. 9. Gr. I. q. |
-| Dw. | □ fp | △ K | n. Bew. a. u. 1. Gr. I. |
+4. Dessen Seite dem Strich Ac gleichmässig. n. 44. I.
 
-<!-- Signature: Bbb 2 -->
+5. Dem □ Ad werde das □ dg | □ hi beygefüget.
 
-<!-- Catchword: □ fo -->
+6. Die Vierecke Ad + dg werden in ein dem Viereck L ähnliches nebenstrichichtes Viereck qb verwandelt. n. 25. VI.
+
+7. Dieses Viereck qb werde an den halben Strich CB also gesetzet/ daß es nicht höher komme/ als der Strich db, so wird ein Ende q unter C fallen. n. 28. VI.
+
+8. Durch q werde der Nebenstrich mp gegen AB gezogen. n. 31. I.
+
+<!-- Catchword: 9. Aus -->

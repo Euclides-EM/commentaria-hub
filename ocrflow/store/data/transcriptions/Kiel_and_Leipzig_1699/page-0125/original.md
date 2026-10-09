@@ -1,42 +1,30 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 109 -->
+<!-- Page number: 108 -->
 
-### Nach der Löse-Kunst.
-
-### Gegebene. | Begehrtes.
-
-1. a | ab | dd | bb + 4ac
-2. b | ac
-3. c | cb
-4. a | b + c
-5. d | b + 2c
+[Diagram: Links ein Quadrat e; daneben vier schmale Rechtecke f, g, h, i mit k, l, n, m oben, unter ihnen der Strich d b c a; rechts ein Quadrat mit gestrichelten Teilungen, Feldern N L G, M K F, I H E.]
 
 ### Beweiß.
 
-d | b + 2c | n. 5. Gegeb.
-dd | bb + 4bc + 4cc | n. 4. II.
-b + c | a n. 4. Gegeb.
-4c | 4c
-4bc + 4cc | 4ac n. 3. II.
-dd + 4bc + 4cc | bb + 4bc + 4cc + 4ac n. 2. Gr. I.
-4bc + 4cc | 4bc + 4cc
-dd | bb + 4ac | n. 3. Gr. I.
+cb | bd — n. 1. Vorber.
+ac | ac
+ac + cb | ac + bd
+cb | cb
+ac + 2cb | ac + cb + bd — n. 2. Gr. I.
+ad | ac + cb + bd — n. 4. Gegeb.
+Dw. ac + 2cb | ad
+u. □ ac + 4 □ acb + □ 4cb | □ ad
+ac + cb | ab
+cb | bc
+□ acb + □ cb | □ abc — n. 3. II.
+4 | 4
+4 □ acb + 4 □ cb | 4 □ abc — n. 6. Gr. I.
+□ ac | □ ac
+u. □ ac + 4 □ acb + 4 □ cb | □ ac + 4 □ abc — n. 2. Gr. I.
+Dw. □ ad | □ ac + 4 □ abc — n. 1. Gr. I.
 
-W. Z. B.
+### Beschluß.
 
-## Der IX. Vortrag.
+Muß also allezeit das gleichseytige □ des verlängerten Strichs ad so groß seyn/ als das □, welches vom gantzen Strich ab und dem einen Stück cb begriffen wird/ viermal genom̄en/ samt dem □ des andern Stückes ac. W. Z. B.
 
-## Das 9. Beweiß-Stück.
-
-Wenn man einen geraden Strich in zwey gleiche/ und zwey ungleiche Stücke theilet; So werden der beeden ungleichen Stücke ihre Vierecke/ zweymal so groß/ als das Viereck des halben Striches/ samt dem Vierecke des Mittel-Stückes seyn.
-
-### Gegebene. | Begehrtes.
-
-1. Strich ab | □ bd + □ da | 2 □ bc + 2 □ cd.
-2. Getheilet in c
-3. Daß ac | cb
-
-<!-- Signature: O 3 -->
-
-<!-- Catchword: 4. Und -->
+<!-- Catchword: Nach -->

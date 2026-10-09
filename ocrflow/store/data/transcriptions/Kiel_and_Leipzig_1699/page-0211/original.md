@@ -1,39 +1,30 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 195 -->
+<!-- Page number: 194 -->
 
-|  |  |  |  |
-|---|---|---|---|
-|  | ▭ bld + □ el + □ ed | □ ed + □ ec | n. 2. Gr. I. |
-|  | ▭ bld + □ el | □ ec | n. 3. Gr. I. |
-| Dw. | ▭ bld + □ el | □ cl + □ el | n. 1. Gr. I. |
-| und | ▭ bld | □ cl | n. 3. Gr. I. |
-|  | cl | la | n. 2. Geg. |
-|  | cl | cl |  |
-| Dw. | □ cl | ▭ cla | n. 1. Gr. II. |
-| und | ▭ bld | ▭ cla | n. 1. Gr. I. |
-
-### V. Begebenheit.
-
-Wan keiner von Beeden Strichen durch den Mittel-Düpffel gehet/auch keiner derselben in zween gleiche Theil geschnitten wird.
-
-[Diagram: Kreis mit Punkten b oben, e in der Mitte, h rechts, a links unten, n, l, c unten, d unten rechts; gestrichelte Striche von e nach b, h, l, c und d]
+[Diagram: Kreis mit Punkten c links, e und b oben rechts, n in der Mitte, d und l unten links, a unten]
 
 ### Vorbereitung.
 
-Aus dem Mittel-Düpffel e werden wiederumb gezogen
-1. Die Strahlen eb und ec.
-2. Zum Düttel l, wo die Striche einander schneiden/ der Strich el.
-3. Auff die beeden Striche zween Senckstriche eh und en n. 12. I.
+Aus dem Mittel-Düpffel e werden gezogen
+1. Zu des Striches ac Endung c der Strich ec.
+2. Zum Ende des Striches bd der Strich ed.
+3. Zum Düttel l, wo die beeden Striche einander durchschneiden / der Strich el.
+4. Auff den andern Strich bd, der Senckstrich en n 12. I.
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | en | Senckstrich | n. 3. Vorb. |
-| Dw. | an | nc | n. 3. III. |
-| ▭ alc + □ nl |  | □ nc | n. 5. II. |
-
-<!-- Signature: Bb 2 -->
+|  | ▭ bld + □ ln | □ dn | n. 5. II. |
+|  | □ en | □ en |  |
+| Dw. | ▭ bld + □ ln + □ en | □ dn + □ en | n. 2. Gr. I. |
+|  | □ ed | □ dn + □ en | n. 47. I. |
+| Dw. | ▭ bld + □ ln + □ en | □ ed | n. 1. Gr. I. |
+|  | □ el | □ ln + □ en | n. 47. I. |
+| Dw. | ▭ bld + □ ln + □ en + □ el | □ ed + □ ln + □ en | n. 2. Gr. I. |
+|  | ▭ bld + □ el | □ ed | n. 3. Gr. I. |
+|  | ed | ec | n. 15 Besch. I. |
+|  | □ ed | □ ec | n. 1. Gr. t. II. |
 
 <!-- Catchword: Dw. -->

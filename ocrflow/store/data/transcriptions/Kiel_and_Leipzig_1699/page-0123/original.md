@@ -1,33 +1,38 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 107 -->
+<!-- Page number: 106 -->
 
-2bc + 2cc | 2ac — n. 6. Gr. i. I.
-aa + cc + 2bc + 2cc | 2ac + bb + 2bc + 2cc — n. 2. Grs. I.
-2bc + 2cc | 2bc + 2cc
-Dw. aa + cc | 2ac + bb — n. 3. Gr. I.
-W. Z. B.
+□ ab + □ cb | □ ac + 2 □ acb + 2 □ cb (n. 2. Gr. I
+ac + cb | ab
+cb | bc
+□ acb + □ cb | □ abc — n. 3. II.
+□ □ 2 □ acb + □ 2cb | 2 □ abc □ □ — n. 6. G. i [unclear: I.]
+ab + cb + 2 □ acb + 2 □ cb | 2 □ abc + ac + 2acb + 2 □ cb
+2 □ acb + 2 □ cb | 2 □ acb + 2 □ cb
+□ ab + □ cb | 2 □ abc + □ ac — n. 3. Gr. I.
 
-## Der IIX. Vortrag.
+### Beschluß.
 
-## Das 8. Beweiß-Stück.
+Werden also allezeit die beeden □ □ von dem gantzen Strich ab, und von dem einen Stück cb so groß seyn/ als das zweyfache Viereck/ so von dem übrigen Stück bc und dem gantzen ab begriffen wird/ samt dem □ des andern Stücks ac. W. Z. B.
 
-Weñ ein gerader Strich auff waserley Weise in zwey Stücke geschnitten ist/ so wird das rechtwincklichte Viereck/ so von dem gantzen Strich und dem einen Stück begriffen wird/ viermahl genommen/ samt dem gleichseitigen Viereck des andern Stückes/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem gantzen/ und ersten Stück zusammen gesetzten Strich gemacht wird.
+### Nach der Löse-Kunst.
 
-### Gegebene. | Begehrte.
+### Gegebene. | Begehrtes.
 
-1. Gerader Strich ab — □ ad | 4 □ abc + □ ca
-2. Geschnitten in c
-3. Angesetztes Stück. bd | bc
-4. ab + bd | ad
+1. a | AB — aa + cc | 2ac + bb
+2. b | AC
+3. c | CB
+4. a | b + c
 
-### Vorbereitung.
+### Beweiß.
 
-1. Der Strich ab werde verlänget biß d. daß bd | bc
-2. Auff einen Strich/ so dem Strich ad gleich/ werde ein gleichseitiges □ gesetzet. n. 46. I.
-3. Dieser Strich werde eben so getheilet/ wie der Strich ad. n. 3. I.
-4. Auff ac werde ein gleichseitig □ gesetzet. n. 46. I.
-5. Werden vier □ a b c gemacht.
+a | b + c — n. 4. Gegeb.
+aa | bb + 2bc + cc — n. 4. II.
+cc | cc
+aa + cc | bb + 2bc + 2cc — n. 2. Gr. I.
+b + c | a
+c | c
+bc + cc | ac — n. 3. II.
+2 | 2
 
-<!-- Signature: O 2 -->
-<!-- Catchword: Beweiß -->
+<!-- Catchword: 2bc -->

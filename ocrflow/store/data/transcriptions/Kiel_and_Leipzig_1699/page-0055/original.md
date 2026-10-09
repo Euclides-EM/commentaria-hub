@@ -1,37 +1,35 @@
-<!-- Page number: 39 -->
+<!-- Page number: 38 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-### Beschluß.
-Müssen also jedwedes △es zweene Winckel auff allerley Weise genommen/ kleiner seyn/ als ⊥. W. Z. B.
+Ist also bey jedwedem △, wan dessen eine Seite verlängert wird/ der auswendige Winckel viel grösser / als einer derer inwendig gegen überstehenden Winckel. W. Z. B.
 
-## Der XIIX. Vortrag.
+## Der XVII. Vortrag.
 
-## Das 11. Beweiß-Stück.
+## Das 10. Beweiß-Stück.
 
-Jedwedes Dreyeckes längste Seite überspannet den grössesten Winckel.
+In jedwedem Dreyeck sind zween Winckel zusammen/ auff waserley Weise genommen/ kleiner/ als zween rechte Winckel.
 
-### Gegebene. Begehrte.
-1. △ ABC
-2. AC ⊣ AB 1. ABC ⲗ BCA.
-3. AC ⊣ CB 2. ABC ⲗ BAC.
-4. AB ⊣ CB 3. ACB ⲗ BAC.
+### Gegebenes. Begehrte.
+△ ABC. ABC + ACB ⲗ ⊥
+ABC + ACB ⲗ ⊥
+ACB + BAC ⲗ ⊥
 
-[Diagram: Dreieck ABC mit B oben, A unten links, C unten rechts; Punkte E auf AB, F und D auf AC, punktierte Linien von B nach F und D.]
+### Vorbereitung.
+Es werde nach belieben eine Seite/ und zwar anitzo AB gegen D verlängert.
 
-### 1. Vorbereitung.
-1. Von dem Strich AC werde abgeschnitten AD | AB, n. 3. Vortr.
-2. Werde der Strich BD gezogen.
+[Diagram: Dreieck ABC mit waagerechter Grundlinie EABD; C oben rechts, die Grundlinie über A hinaus nach E und über B hinaus nach D verlängert.]
 
 ### Beweiß.
 
-AB ⊢ AC n. 2. Gegeb.
-BA | AD n. 1. Vorber.
-Dw. BDA ⋀ DBA n. 5. Vortr.
-BDA ⲗ BCA n. 16. Vortr.
-Dw. DBA ⲗ BCA n. 1. Gr-S. a.
-ABC ⲗ DBA n. 9. Gr-S.
-Dw. ABC ⲗ BDA n. 1. Gr-S. a.
-und ABC ⲗ BCA n. 1. Gr-S. e.
+ACB ⲗ CBD n. 16. Vortr.
+ABC ⋀ ABC
+ACB + ABC ⲗ CBD + ABC n. 4. Gr-S.
+⊥ ⋀ CBD + ABC n. 13. Vortr.
+Dw. ACB + ABC ⲗ ⊥ n. 1. Gr-S. b.
 
-<!-- Catchword: 2. Vor- -->
+Gleicher Gestalt / wenn AC verlängert wird /
+muß CAB + ABC ⲗ ⊥, und wenn man BA gegen E verlängert/
+muß BAC + CBA ⲗ ⊥ seyn.
+
+<!-- Catchword: Be- -->

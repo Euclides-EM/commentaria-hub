@@ -1,34 +1,37 @@
-<!-- Page number: 66 -->
+<!-- Page number: 65 -->
 
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-### 2. Begebenheit.
+### Beschluß.
 
-### Gegebenes. | Begehrtes.
-1. □ ABDC | ABDC ⌻ CDEF
-2. □ CDEF
-3. Grundstrich CD
-4. AE=CD
+Werden also jedwedes Nebenstrichiches Viereckes entgegen stehende Seiten α. β. und gegen einander übergesetzte Winckel γ. ε. wie auch die durch den Zwerg-strich gemachte Dreyecke gleich groß seyn. W. Z. B.
 
-[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, F, B, E oben und C, D unten]
+## Der XXXV. Vortrag.
+
+Das 25. Werck-Stück:
+
+Alle auff einen einigen Grundstrich/und zwischen einerley Nebenstrichen stehende Nebenstrichiche Vierecke sind gleich groß.
+
+### 1. Begebenheit.
+
+### Gegebene. | Begehrtes.
+1. □ ABDC | ABDC ⌻ BCDE
+2. □ BCDE
+3. Der gemeine Grundstrich CD
+4. Die Nebenstriche AE=CD
+5. Zwischen welchen die □ □ stehen.
+
+[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten E, B, A oben und D, C unten]
 
 ### Beweiß.
 
-AB | CD
-FE | CD } n. 34. Vortr.
-Dw. AB | FE n. 1. Gr:S.
-FB | FB
-AB — FB | FE—FB n. 3. Gr:S.
-oder AF | BE
-AC | BD
-FC | ED } n. 34. Vortr.
-Dw. AEF ⩓ BDE n. Zugab. 8. Vortr.
-BFCD ⩓ BFCD
-Dw. △ BFCD + △ AEF | △ BDE + △ BFCD n. 2. Gr:S
-oder ABDC ⌻ CDEF n. 9. Gr:S. q.
+ABC ⩓ CDB
+BDE ⩓ CDB } n. 34. Vortr.
+Dw. ABC ⩓ BDE n. 1. Gr:S.
+CDB ⩓ CDB
+Dw. CDB + ABC ⩓ BDE + CDB n. 2. Gr:S.
+oder ABDC ⌻ BCDE n. 9. Gr:S. q.
 
-### 3. Begebenheit.
+<!-- Signature: I -->
 
-[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, B, F, E oben, G in der Mitte und C, D unten]
-
-<!-- Catchword: Be- -->
+<!-- Catchword: 2. Be- -->

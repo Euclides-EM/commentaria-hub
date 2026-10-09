@@ -1,36 +1,41 @@
-<!-- Page number: 124 -->
+<!-- Running title: Euclidis -->
 
-<!-- Running title: Das II. Buch -->
+<!-- Page number: 123 -->
 
-## Der XIV. Vortrag.
+c | cb
+d | bd
+f | cd
+e | ad
 
-## Das 2. Werckstück.
+### Beweiß.
 
-Eine gegebene gerad-seitige Gestalt/ in ein gleichseitiges Viereck zuverwandeln.
+2be + dd | bb + ee | n. 7. II.
+ff | ff
+2be + dd + ff | bb + ee + ff | n. 2. Gr. I.
+ee + ff | aa n. 47. I.
+2be + dd + ff + (ee + ff) | bb (+ ee + ff) + aa | n. 2. Gr. I.
+2be + dd + ff | bb + aa | n. 3. Gr. I.
+cc | dd + ff n. 47. I.
+2be (+ dd + ff) + cc | bb + aa (+ dd + ff) | n. 2. Gr. I.
+2be + cc | bb + aa
+2be | 2be
+cc | bb + aa + — 2be | n. 3. Gr. I.
 
-### Gegebenes. — Begehrte.
+W. Z. B.
 
-Die gerad-seitige Gestalt *abdc*.
+### Andere Arth.
 
-1 Das □ ek
-2 □ ek | ▭ abdc.
+aa | ff + bb — 2bd + dd | n. 47. I.
+ff + dd | cc
+aa (+ ff + dd) | (ff) + bb — 2bd (+ dd) + cc | n. 2. Gr. I.
+aa | bb — 2bd + cc | n. 3. Gr. I.
 
-### Wirckung.
+W. Z. B.
 
-1. Verwandelt man die Gestalt abdc in ein rechtwincklichtes □ n. 42. I.
+### Anmerckung.
 
-2. Dieses ▭ Länge ef und Breite ea werden auff einen geraden Strich ah gesetzet.
+Dieser Beweiß findet auch auff gewisse Maaß statt bey den recht-und stumpffwincklichten △ △ / wenn man das □ einer Seite/ so einem spitzigen Winckel übergespannet ist / vergleichen wil mit den übrigen beeden Seiten / deren eine dem rechten oder stumpffen Winckel / die andere aber dem übrigen spitzigen Winckel gegenüber stehet.
 
-3. Der zusammengesetzte Strich ah wird in zween gleiche theile ai | ih getheilet n 10. I.
+<!-- Signature: Q 2 -->
 
-4. Aus dem Düttel i wird nach der Weite ia oder ih ein Kreyß beschrieben. n. 3. Foder.
-
-5. Aus dem Düttel e, wo die Länge und Breite zusammen gesetzet / wird ein Senckstrich ek biß zu des beschriebenen Kreyses ümbfang gezogen (welches aber hier nicht nöthig / weil solcher Senckstrich in der längern Seite ef stehet.)
-
-6. Auff den Strich ek wird ein gleichseitig □ gesetzet. n. 46. I.
-
-### Vorbereitung.
-
-Aus dem Mitteldüpffel i wird biß zu k der Strich ik gezogen.
-
-<!-- Catchword: Be- -->
+<!-- Catchword: Der -->

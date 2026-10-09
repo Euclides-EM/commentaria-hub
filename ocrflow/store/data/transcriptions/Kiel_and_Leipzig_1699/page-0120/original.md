@@ -1,42 +1,39 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 104 -->
+<!-- Page number: 103 -->
 
-### Beschluß.
+□ dac + □ acd | □ acb + □ acdb + □ ac + □ acd
+n. 2. Gr. I.
+□ acd | □ acd
+□ dac | □ acb + □ acdb + □ ac n. 3. Gr. I.
+□ dac + □ ac + □ acb + □ cb + □ acdb | □ ab + □ acb + □ acdb + □ ac — n. 2. Gr. I.
+□ ac + □ acb + □ acdb | □ acb + □ acdb + □ ac
+□ dac + □ cb | □ ab — n. 3. Gr. I.
 
-Wird also allezeit das gleichseitige □ des Halben und angesetzten Striches so groß seyn/ als das □, so von dem zusammen gesetzten Strich/ und angesetzten Stück begriffen wird/ samt dem gleichseitigen □ des halben Striches/ W. Z. B.
+### Auff eine andere Arth.
 
-### Nach der Löse-Kunst.
+### Vorbereitung.
 
-### Gegebenes. | Begehrtes.
+Man setze an das Ende d gerade aus noch einen Strich ed | ca
 
-1. c | CD — bb + ca | dd
-2. c | 2b
-3. b | BC | DB
-4. c | AC
-5. b + c | AB | d
-6. a | 2b + c
+[Diagram: Waagerechter Strich mit den Punkten a, c, b, d, e.]
 
 ### Beweiß.
 
-b + c | d — n. 5. Gegeb.
-bb + 2bc + cc | dd — n. 4. II.
-a | 2b + c — n. 6. Gegeb.
-c | c
-ca | 2bc + cc — n. 3. II.
-bb + 2bc + cc + ca | dd + 2bc + cc — n. 1. Gr. I.
-2bc + cc | 2bc + cc
-bb + ca | dd — n. 3. Gr. I. W. Z. B.
-
-### Auff die andere Arth.
-
-[Diagram: Waagerechter Strich mit den Punkten A, B, C, D, E.]
-
-### Gegebene. | Begehrte.
-
-c | AC | DE — dd | fc + bb
-b | CB | BD
-c + b | d | AB | BE
-d + b | f | AD
+ed | ca — n. Vorber.
+db | bc — n. 3. Geg.
+ed + db | bc + ca — n. 2. Gr. I.
+oder eb | ba — n. 9. Gr. q. I.
+ad + ae — n. 9. Gr. I.
+Dw. ad + | ed — n. 1. Gr. a. I.
+□ ade + □ db | □ ab — n. 5. II.
+ae | de — n. Vorber.
+da | ad
+□ dac | □ ade — n. 1. Gr. II.
+□ dac + □ ade + □ db | □ ab + □ ade — n. 2. Gr. I.
+□ ade | □ ade
+□ dac + □ db | □ ab — n. 3. Gr. I.
+□ db | □ bc — n. 1. Gr. 1. [unclear: II.]
+Dw. □ dac + □ bc | □ ab — n. 2. Gr. I.
 
 <!-- Catchword: Be- -->

@@ -1,37 +1,30 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 48 -->
+<!-- Page number: 83 -->
 
-### Beweiß.
+lichten Dreyeck vermag der/dem rechten Winckel entgegen gesetzte Strich/ so viel/ als die beeden übrigen Seiten.
 
-mn ∠ ko | n. 10. GrS.
-no ∠ on
-α. mn + no ∠ ko + on | n. 2. GrS.
-rf | fx
-fg | pf | n. 46. Vort u. 29. Bes.
-rf + fg | pf + fx | n. 2. GrS.
-ko + on ∠ mn + no | n. Bew. α.
-oder kon ∠ mno | n. 9. GrS. q.
-Dw. fgr ∠ pxf | n. 4. Vortr.
-xi = fp | n. 4. Vorber.
-Dw. □ fpib | 2 △ fpx | n. 41. Vortr.
-und □ fpib | 2 △ fgr | n. 6. GrS.
-fr = lg | n. 46. Vortr.
-□ fx | 2 △ fgr | n. 41. Vortr.
-β. Dw. □ fx | □ fpib | n. 6. GrS.
+### Gegebenes. | Begehrtes.
+1. Rechtwincklichtes Dreyeck fxg | □ fg | □ xg + □ fx.
+2. fxg ∠ ⌐
+3. Dem rechten Winckel entgegen gesetzte Seite fg.
+4. Die beeden Seiten xg und xf, welche den ⌐ begreiffen.
 
-ab ∠ dc | n. 4. Wirck.
-bc ∠ cb
-ab + bc ∠ dc + cb | n. 2. GrS.
-oder abc ∠ dcb | n. 9. GrS. q.
-hg | xg
-fg | ge | n. 29. Beschreib.
-Dw. hg + gf | xg + ge | n. 2. GrS.
-und hgf ∠ xge | n. 4. Vortr.
-xi = ge | n. 4. Wirck.
-Dw. □ gbie | 2 △ xge | n. 41. Vortr.
-und □ gbie | 2 △ hgf | n. 6. GrS. k.
-□ gx | 2 △ hgf | n. 41. Vortr.
-Dw. □ gx | □ gbie | n. 6. GrS.
+### Vorbereitung.
 
-<!-- Catchword: □ fpx -->
+Es werden gemacht.
+
+1. Auff den Strich fg das □ fpeg
+2. - - - xf - □ fxlr
+3. - - - xg - □ xgh | n. 46. Vortr.
+4. Aus dem Düttel x der Strich xi = ge = fp n. 31. Vortr.
+5. Aus dem Düttel x der Strich xe
+6. - - - - x - - xp
+7. - - - - f - - fh
+8. - - - - g - - gr
+
+[Diagram: rechtwinckliges Dreyeck fxg mit den drey Vierecken über den Seiten und punktierten Hülfslinien; Punkte r, m, s, k, f, i, o, e, b, a, g, c, x, l, d, h]
+
+<!-- Signature: L 2 -->
+
+<!-- Catchword: Beweiß -->

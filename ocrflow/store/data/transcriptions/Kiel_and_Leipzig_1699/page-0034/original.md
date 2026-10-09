@@ -1,33 +1,31 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 18 -->
+<!-- Page number: 17 -->
 
-### Beweiß
+### Beschluß.
 
-a d | c d nach 1. Vortr.
-d e | d f nach 15. Beschr.
-Dw. d e — a d | d f — c d nach 3. Grund-Satz.
-oder e a | f c
-e a | a b nach 15. Beschr.
-Dw. f c | a b nach 1. Grund-Satz.
+Also ist die Gestalt ABC ein gleichseitig Dreyeck/ nach 23. Beschreib. und auff den gegebenen Strich AB gesetzet. W. Z. M. q. e. f.
 
-und ist fc | ab aus dem gegebenen Düttel c gezogen/ W. Z. M.
+## Der II. Vortrag.
+## Das 2. Werck-Stück.
 
-## Der III. Vortrag.
-## Das 3. Werck-Stück.
-
-Wenn zween ungleiche Striche gegeben werden/ von dem grössern ein Stück abzuschneiden/ welches dem kleinern gleich sey.
+Einem gegebenen Strich/ aus einem gegebenen Düttel/ einen gleichlang-geraden Strich zuziehen.
 
 ### Gegebene. | Begehrte.
-1. Der gerade kleine Strich ab | 1. Daß vom grössern Strich ch abgeschnittene Stück cg
-2. Der - - Grössere - - ch | 2. cg | ab
+1. Gerader Strich ab, | 1. Der Strich cf,
+2. Düttel c. | 2. Gezogen aus dem Düttel c,
+| 3. Und gleichlang dem Strich ab.
 
 ### Wirckung.
 
-1. Aus einem der beeden End-Düttele c oder h des längern Strichs ch, wird ein gerader Strich cf gezogen.
-2. Welcher Strich cf | ab, nach 2. Vortr.
-3. Auß dem Düttel c, wird nach der Länge cf ein Kreyß-Stück fg gezogen/welches den Strich ch in dem Düttel g durchschneidet.
+1. Aus einem der beeden End-Düttele des Striches ab zeucht man nach belieben einen geraden Strich zum Düttel c.
+2. Auff diesen Strich ac setzet man ein gleichseitiges Dreyeck acd, nach dem I. Vortrag.
+3. Der Strich da wird nach Nothdurfft (in infinitum) verlängert/ nach der II Foderung.
+4. Aus dem Düttel a wird nach der länge ab ein Kreyß be beschrieben / nach der III. Foderung / welcher den verlängten Strich in dem Düttel e durchschneidet.
+5. Aus dem Düttel d wird nach der länge de ein Kreyß ef beschrieben/ nach der III Foderung.
+6. Der Strich dc wird biß an den jetzt gezogenen Umbkreiß verlängt/nemblich zu dem Düttel f, nach der II Foderung.
 
-[Diagram: punktierte Kreise mit den Punkten h, f, a, g, c, b und d; der Strich h–c geht durch den Punkt g, dazu Striche nach a, b und d]
+[Diagram: zwei punktierte Kreise, ein grosser und ein kleiner; darin die Punkte d, c, f oben, a, b in der Mitte und e unten, mit geraden Strichen verbunden]
 
-<!-- Catchword: Beweiß -->
+<!-- Signature: C -->
+<!-- Catchword: Be- -->

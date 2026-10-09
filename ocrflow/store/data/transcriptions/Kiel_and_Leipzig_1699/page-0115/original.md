@@ -1,32 +1,39 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 99 -->
+<!-- Page number: 98 -->
 
-3. und in ungleiche Theile getheilet
-in C, als AC + CD
+### Nach der Löse-Kunst.
 
-### Vorbereitung.
+### Gegebene. | Begehrtes.
 
-1. Mache man das rechtwincklichte Viereck ACD (oder gcd)
-2. Werde auff dem Strich AB ein gleichseitiges □, wie auch
-3. Auff das Mittel-Stück CB cb ein gleichseitiges □ gesetzet n. 46. I.
-4. Der Strich cg werde biß zu e,
-5. Und der Strich fg biß zu h fortgezogen.
-
-[Diagram: Waagerechter Strich D B C A (unten d b c a); darüber ein Quadrat über C A mit den Punkten e, g, h und gestrichelten Linien; links der Strich f g; unter b c ein kleineres Rechteck.]
+1. a | AB — aa | bb + 2bc + cc
+2. b + c | AC + CB
+3. a | b + c
 
 ### Beweiß.
 
-□ ac + 2 □ acb + □ cb | □ ab — n. 4. II.
-□ ac + □ acb | □ bac — n. 3. II.
-db | ba — n. 2. Geg.
-ac | ac
-Dw. □ db,ac | □ bac — n. 1. Gr. II.
-und □ db,ac | □ ac + □ acb — n. 1. Gr. I.
-□ db,ac + □ ac + □ acb + □ cb | □ ab + □ ac + □ acb
-n. 2. Gr. I.
-□ ac + □ acb | □ ac + □ acb
-□ db,ac + □ acb + □ cb | □ ab n. 3. Gr. I
+a | b + c — n. 3. Gegeb.
+b | b
+ab | bb + bc — n. 3. II.
+a | b + c
+c | c
+ac | bc + bb — n. 3. II.
+ab + ac | bb + 2bc + bb — n. 1. Gr. I.
+b + c | a
+a | a
+ab + ac | aa — n. 2. II.
+Dw. aa | bb + 2bc + bb n. 1. Gr. I. W. Z. B.
 
-<!-- Signature: N 2 -->
-<!-- Catchword: db -->
+## Der V. Vortrag.
+
+## Das 5. Beweiß-Stück.
+
+Wenn man einen geraden Strich in zween gleiche/ und in zween ungleiche Theile schneidet/ so wird das rechtwincklichte Viereck/ so die beeden ungleichen Theile begreiffen/ samt dem gleichseitigen Vierecke des Mittelstückes/ eben so groß seyn/ als das gleichseitige Viereck des halben Striches.
+
+### Gegebene. | Begehrte.
+
+1. Gerader Strich AD — □ ACD + □ BC | □ AB
+2. In zween gleiche Theil
+in B, als AB | BD
+
+<!-- Catchword: und -->

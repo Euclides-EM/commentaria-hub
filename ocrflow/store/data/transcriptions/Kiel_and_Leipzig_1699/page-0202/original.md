@@ -1,28 +1,38 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 186 -->
+<!-- Page number: 185 -->
+
+[Diagram: Kreis mit einbeschriebenem Dreieck; Punkte g, e, d, f auf dem Kreis, Berührpunkt a unten mit Tangente b–c]
+
+### Vorbereitung.
+
+1. Aus dem Rühr-Düpffel a des Rühr-Striches bc werde ein Senckstrich ag in den Kreyß dge auffgerichtet.
+2. Werde der Strich eg, und
+3. Die Striche ed und ab,
+4. Wie auch ef und fa gezogen.
+
+### I. Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-| Dw. | bae + eac | ⋀ eda + efa | n. 1. Gr. I. |
-|  | eda ⋀ | bae | n. 1. Bew. |
-| Dw. | bae + eac + eda ⋀ eda + efa + bae |  | n. 2. Gr. I. |
-|  | bae + eda ⋀ | eda + bae |  |
-| Dw. | eac ⋀ | efa | n. 3. Gr. I. |
+|  | gea ⋀ ∟ |  | n. 31. III. |
+|  | ega + eag ⋀ ∟ |  | n. 32. I. |
+|  | eag ⋀ | eag |  |
+| Dw. | ega ⋀ | ∟ — eag | n. 3. Gr. I. |
+|  | bae + eag ⋀ ∟ |  | n. 10. Gr. q. I. |
+|  | eag ⋀ | eag |  |
+| Dw. | bae ⋀ | ∟ — eag | n 3. Gr. I. |
+| und | bae ⋀ | ega | n. 1. Gr. I. |
+|  | eda ⋀ | ega | n. 21. III. |
+| Dw. | bae ⋀ | eda | n. 1. Gr. I. |
 
-### Beschluß.
+### II. Beweiß.
 
-Müssen derowegen allezeit die im abgewandten Krayß-Stück stehende Winckel eda und efa, mit denen Winckeln / bae und eac, welche der aus dem Rühr-Düpffel a in den Kreyß gezogene Strich ae mit dem Rühr-Strich bc machet/ gleich groß seyn. W. Z. B.
+|  |  |  |
+|---|---|---|
+| eda + efa | ⋀ ⏥ | n. 22. III. |
+| bae + eac | ⋀ ⏥ | n. 13. I. |
 
-## Der XXXIII. Vortrag.
+<!-- Signature: Aa -->
 
-## Das 5. Werck-Stück.
-
-Auff einen gegebenen geraden Strich ein Kreyß-Stück zu beschreiben/in welchem ein Winckel/ so dem gegebenen Winckel gleichgroß ist/ stehen könne.
-
-### Gegebene. | Begehrte.
-
-1. Gerader Strich ab oder al. | 1. ◠ ahb.
-2. Winckel ecd. | 2. In welchem stehen kan ahb oder abl ⋀ ecd.
-
-[Diagram: zwei Kreise mit Konstruktionen; links Kreis mit Punkten e, h, k, a, b, g, i und Tangenten c, d, f; rechts Kreis mit Punkten h, e, i, g, k, a, b und Tangenten d, c, f]
+<!-- Catchword: Dw. -->

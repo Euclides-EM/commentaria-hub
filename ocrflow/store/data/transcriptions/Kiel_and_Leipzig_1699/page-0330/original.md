@@ -1,27 +1,39 @@
-<!-- Page number: 314 -->
+<!-- Page number: 313 -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-### II. Beweiß.
+### I. Beweiß.
 
-ae : ec | ad : db — n. Geg.
-△ ade : △ dbe | ad : db — n. 1. VI.
-Dw. △ ade : △ bde | ac : ec — n. 11. V.
-△ ade : △ cde | ae : ec — n. 1. VI.
-Dw. △ ade : △ cde | △ ade : △ bde — n. 11. V.
-u. △ cde | △ bde — n. 9. V.
-Dw. de ⧣ bc — n. 39. I.
+de ⧣ cb — n. Gegeb.
+Dw. △ bde | △ cde — n. 37. I.
+△ ade | △ ade
+Dw. △ ade : △ bde | △ ade : △ cde — n. 7. V.
+△ ade gleichmässiger Höhe △ bde — n. 4. Besch. VI.
+∝ Dw. △ ade : △ bde | ad : db — n. 1. VI.
+△ ade : gleichmässiger Höhe △ cde — n. 4. Besch. VI
+Dw. △ ade : △ cde | ae : ec — n. 1. VI.
+u. △ ade : △ bde | ae : ec — n. 11. V.
+△ ade : △ bde | ad : db — n. Bew. ∝
+Dw. ae : ec | ad : db — n. 11. V.
 
-### II. Beschluß.
+### I. Beschluß.
 
-Wenn derowegen ein gerader Strich zwo des Dreyeckes Seiten also schneidet/ daß die Stücke in ebenmässiger Verhältnüß stehen/ so wird der schneidende Strich ein Nebenstrich des Grundstrichs seyn. W. Z. B.
+Wenn derowegen eines Dreyeckes zwo Seiten von des Grundstriches Nebenstrich geschnitten werden/ so stehen die Stücke der Seiten in ebenmässiger Verhältnüß gegen einander. W. Z. B.
 
-## Der III. Vortrag.
+## Des II. Vortrags II. Gegebene.
 
-## Das 3. Beweiß-Stück.
+1. Dreyecke abc
+2. Strich de
+3. Welcher die Seiten schneidet.
+4. Also daß ae : ec | ad : db.
 
-Wenn eines Dreyecks Winckel in zween gleiche Theile/ durch einen geraden Strich/ welcher den Grundstrich auch schneidet/ getheilet wird/ so stehen die Stücke des Grundstriches in ebenmässiger Verhältnüß mit den beyden Seiten des Dreyeckes.
+### Begehrtes.
 
-Und wenn ein gerader Strich aus der Spitze des Dreyeckes gezogen/ den Grundstrich also schneidet/ daß dessen Stücke mit denen Seiten in ebenmässiger Verhältnüß stehen/ so theilet der Strich auch den Winckel in zweene gleiche Theile.
+de ⧣ cb.
 
-<!-- Catchword: I. Gege- -->
+### Vorbereitung.
+
+Es werden die geraden Striche be und cd gezogen.
+
+<!-- Signature: Rr -->
+<!-- Catchword: II. Beweiß. -->

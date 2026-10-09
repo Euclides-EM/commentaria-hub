@@ -1,36 +1,33 @@
-<!-- Page number: 310 -->
+<!-- Page number: 309 -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-### Beweiß.
-
-ab | ef — n. 2. Geg.
-Dw. △ A : △ efg | cb : eg — n. 1. VI.
-u. △ A : cb | △ efg : eg — n. 16. V.
-cb | eg — n. 2. Vorb.
-Dw. △ A | △ efg — n. 14. V.
-△ B — △ B
-Dw. △ A : △ B | △ efg : △ B — n. 7. V.
-△ A : △ B | bc : de — n. 1. VI.
-bc : de | ge : de — n. 7. V.
-Dw. bc : de | △ A : △ B — n. 11. V.
-
-Auf gleiche weise kan auch bewiesen werden/ daß
-
-□ abc : □ def | bc : de.
+Welches aber unmüglich n. 9. Gr. I.
+Dergleichen wird auch folgen/ wenn man sagen wolte
+gp ⊣ hp
+muß derowegen gp | hp seyn. II.
 
 ### Beschluß.
 
-Werden derowegen allezeit die Dreyecke und nebenstrichichte Vierecke/ welche auf gleichmässigen Grundstrichen stehen/ sich also/ wie ihre Höhen/ gegen einander verhalten. W. Z. B.
+Werden derowegen allezeit solche nebenstrichichte Vierecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ auch gleichmässige Höhen haben. W. Z. B.
 
-## Des I. Vortrags III. Zugabe.
+## Des I. Vortrags II. Zugabe.
 
-Diejenigen Dreyecke und nebenstrichichte Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ stehen auf gleichmässigen/ oder auf einem einigen Grundstriche.
+Diejenigen Dreyecke / und nebenstrichichte Vierecke/ welche gleichmässige Grundstriche haben/ verhalten sich also/ wie ihre Höhen/ zusammen.
 
 ### Gegebene.
 
-1. Zwey Dreyecke A und B
-2. Derselben Höhen bc und ed
-3. bc : ed | △ A : △ B.
+1. Zwey Dreyecke A und B.
+2. Beyde Grundstriche ab | ef
+3. Beyde Höhen de ⊣ bc
 
-<!-- Catchword: Begehrtes. -->
+[Diagram: Zwei Dreyecke A und B mit den Punkten a, b, c, d, e, g, f, links das Dreyeck A über der Grundlinie ab, rechts das Dreyeck B über ef, mit gestrichelten Hülffslinien]
+
+### Vorbereitung.
+
+1. Weil die Höhe de ⊣ bc — n. 3. Gegeb.
+2. so werde ge | bc — n. 3. I.
+3. werde der gerade Strich gf gezogen.
+
+<!-- Signature: Qq 3 -->
+<!-- Catchword: Beweiß. -->

@@ -1,30 +1,45 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 221 -->
+<!-- Page number: 220 -->
 
-### Wirckung.
+3. Der Winckel bca werde in zween gleiche Theile getheilet
+durch den Strich ce. n. 9. I.
+4. Der Winckel cba werde gleicher Weise in zween gleiche
+Theile getheilet/ durch den Strich db. n. 9. I.
+5. Werden die geraden Striche be. ea. ad. dc. gezogen.
 
-1. Werde in den Kreyß ein gleichseitiges Fünffeck ghikl ein-
-geschrieben/ n. 11. IV.
-2. Aus des Kreyses Mittel-Düpffel a werden zu allen Ecken
-gerade Striche ag, ah, ai, ak, al gezogen.
-3. Auff solche Striche werden zu beeden Seiten Senckstriche
-gb, gc : hc, hd : id, ie : ke, kf : lf, lb gesetzet/ n. 11. I.
+### Beweiß
 
-[Diagram: Kreis mit einbeschriebenem Fünffeck g h i k l und umschriebenem Fünffeck b c d e f; aus dem Mittelpunkt a gehen Striche zu den Ecken und Berührungspunkten, teils punktiert]
+△ abc gleichwincklicht dem [unclear: ABC] — n. 2. Wirck.
+bce ∧ eca — n. 3. Wirck.
+α. — cbd ∧ dba — n. 4. Wirck.
+cba ∧ 2dba — n. 9. Gr. q. I.
+cba ∧ 2bac — n. 10. IV.
+Dw. — 2dba ∧ 2bac — n. 1. Gr. I.
+u. — dba ∧ bac — n. 7. Gr. o. I.
+u. — bac ∧ cbd — α. — n. 1. Gr. I.
+Dw. — bc ⌒ cd
+bc ⌒ da — n. 26. III.
+Gleicher Weise be ⌒ ea ⌒ bc ⌒ dc ⌒ ad
+u. — be | ea | bc | dc | ad — n. 29. III.
+Dw. ist aebcd ein gleichseitiges Fünffeck/ — n. 22. Beschr. I.
+und dem Kreyß eingeschrieben/ — n. 3. Beschr. IV.
 
-### Vorbereitung.
+### Beschluß.
 
-Aus dem Mittel-Düpffel a werden zu den Dütteln/ wo die
-Senckstriche einander durchschneiden/ gerade Striche ab, ac, ad,
-ae, af gezogen.
+Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
+lichtes Fünffeck eingeschrieben. W. Z. M.
 
-### Beweiß.
+## Der XII. Vortrag.
 
-cga ∧ cha — n. 3. Wirck u 10. Gr. I.
-ag | ah — n. 15. Beschr. I.
-ac | ac
-Dw. — gc | hc — n. 26. I.
+## Das 12. Werckstück.
 
-<!-- Signature: Ee 3 -->
-<!-- Catchword: u. -->
+Umb einen gegebenen Kreyß ein gleichseitig
+und gleichwincklicht Fünffeck zubeschreiben.
+
+### Gegebenes. — Begehrte.
+Kreyß ghikl — 1. Fünffeck bcdef
+2. dem gegebenen Kreyß ümb-
+schrieben.
+
+<!-- Catchword: Wir- -->

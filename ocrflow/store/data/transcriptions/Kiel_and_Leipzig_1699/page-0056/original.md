@@ -1,41 +1,37 @@
-<!-- Page number: 40 -->
+<!-- Page number: 39 -->
 
-<!-- Running title: Das I. Buch. -->
+<!-- Running title: Euclidis. -->
 
-### 2. Vorbereitung.
-1. Von der Seite BA werde abgeschnitten BE | BC n. 3. Vortr.
-2. Werde gezogen der Strich EC
+### Beschluß.
+Müssen also jedwedes △es zweene Winckel auff allerley Weise genommen/ kleiner seyn/ als ⊥. W. Z. B.
+
+## Der XIIX. Vortrag.
+
+## Das 11. Beweiß-Stück.
+
+Jedwedes Dreyeckes längste Seite überspannet den grössesten Winckel.
+
+### Gegebene. Begehrte.
+1. △ ABC
+2. AC ⊣ AB 1. ABC ⲗ BCA.
+3. AC ⊣ CB 2. ABC ⲗ BAC.
+4. AB ⊣ CB 3. ACB ⲗ BAC.
+
+[Diagram: Dreieck ABC mit B oben, A unten links, C unten rechts; Punkte E auf AB, F und D auf AC, punktierte Linien von B nach F und D.]
+
+### 1. Vorbereitung.
+1. Von dem Strich AC werde abgeschnitten AD | AB, n. 3. Vortr.
+2. Werde der Strich BD gezogen.
 
 ### Beweiß.
 
-AB ⊣ BC n. 4. Gegeb.
-BE | BC n. Vorber.
-BEC ⋀ BCE n. 5. Vortr.
-BEC ⲗ BAC n. 16. Vortr.
-Drw. BCE ⲗ BAC n. 1. Gr-S. c.
-BCA ⲗ BCE n. 9. Gr-S.
-Drw. BCA ⲗ BAC n. 1. Gr-S. e.
+AB ⊢ AC n. 2. Gegeb.
+BA | AD n. 1. Vorber.
+Dw. BDA ⋀ DBA n. 5. Vortr.
+BDA ⲗ BCA n. 16. Vortr.
+Dw. DBA ⲗ BCA n. 1. Gr-S. a.
+ABC ⲗ DBA n. 9. Gr-S.
+Dw. ABC ⲗ BDA n. 1. Gr-S. a.
+und ABC ⲗ BCA n. 1. Gr-S. e.
 
-### 3. Vorbereitung.
-1. Von der Seite CA werde abgeschnitten CF | CB n. 3. Vortr.
-2. Werde gezogen der Strich BF.
-
-### Beweiß.
-
-CA ⊣ CB n. 3. Gegeb.
-CF | CB n. Vorber.
-BFC ⋀ CBF n. 5. Vortr.
-BFC ⲗ BAC n. 16. Vortr.
-Dw. CBF ⲗ BAC n. 1. Gr-S. c
-CBA ⲗ CBF n. 9. Gr-S.
-Dw. CBA ⲗ BAC n. 1. Gr-S. e
-
-Ist also jedwedes △es längste Seite / über den grössesten Winckel gespannet. W. Z. B.
-
-## Der XIX. Vortrag.
-
-## Das 12. Beweiß-Stück.
-
-Jedwedes Dreyeckes grössester Winckel ist der längsten Seite entgegen gesetzet.
-
-<!-- Catchword: Ge- -->
+<!-- Catchword: 2. Vor- -->

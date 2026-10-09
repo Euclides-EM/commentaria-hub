@@ -1,30 +1,39 @@
-<!-- Page number: 138 -->
+<!-- Page number: 137 -->
 
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-### Beweiß
+### Beweiß.
 
-ab | ad | af — n. angenom. und n. 15. Beschr. I.
-ab | ac | ag — n. 15. Beschr. I.
-Dw. ad | ac
-und af | ag — n. 1. Gr. I.
+ab | ad — n. 15. Beschr. I. und n. angenommen.
+ab | ac — n. 15. Beschr.
+Dw. ad | ac — n. 1. Gr. I.
 
-Welches unmüglich n. 9. Gr. I.
+Welches aber Unmüglich n. 9. Gr. I.
 
 ### Beschluß.
 
-Können also einander inwendig anrührende Kreyse nicht nur einen einigen Mittel-Düpffel haben. W. Z. B.
+Können also zweene Kreyse / so einander durchschneiden/ nicht aus einem einigen Mittel-Düpffel beschrieben seyn. W. Z. B.
 
-## Der VII. Vortrag.
+## Der VI. Vortrag.
 
-## Das 6. Beweiß-Stück.
+## Das 5. Beweiß-Stück.
 
-Wenn man in eines Kreyses Durchschlag einen Düttel erwehlet / welcher nicht der Mittel-Düpffel ist / und von selbigem etliche gerade Striche zu des Kreyses Umfang zeucht: So wird der durch den Mittel-Düpffel gehende Strich/ der grösseste; dessen übriges aber der kleineste seyn: Alle andere aber / je näher sie dem Mittel-Düpffel kommen / werden länger / und je weiter sie von dem Mittel-Düpffel abstehen/ je kützer werden sie seyn: Zwey aber / welche nemlich gleichweit von dem Mittel-Düpffel entfernet sind / werden allezeit gleichlang seyn.
+Wenn zween Kreyse/ deren einer in dem andern stehet/ einander berühren/ so können sie nicht einen einigen Mittel-Düpffel haben.
 
 ### Gegebene. — Begehrte.
 
-1. Der Kreyß bhlc. — 1. ab der längste
-2. Durchschlag bc. — 2. ac der kürtzeste.
-3. Erwehlter Düttel a, — 3. ak ⊣ ag
+1. Zween Kreyse bfd und bgc. — Diese Kreyse haben verschiedene Mittel-Düpffele.
+2. Der Kreyß bgc rühret den andern bfd inwendig bey b an
 
-<!-- Catchword: 4. Welcher -->
+### Vorbereitung.
+
+Wolte man sagen / sie hätten nur einen eintzigen Mittel-Düpffel/ nemlich a, so ziehe man aus a
+
+1. Zu dem anrührungs-Düpffel b den Strich ab.
+2. Auch den Strich af.
+
+[Diagram: zween Kreyse, deren innerer den äusseren unten bey b anrühret, mit den Dütteln d, c (oben), f, g (links), e und a in der Mitte, punktierte Striche von a nach b, c und g]
+
+<!-- Signature: S -->
+
+<!-- Catchword: Be- -->

@@ -1,30 +1,45 @@
-<!-- Page number: 346 -->
+<!-- Page number: 345 -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-### Beschluß.
+|  |  |  |
+|---|---|---|
+| Dw. | △ efd ⊤ △ ABC | n. 1. Gr. I. |
+| u. | △ efd ⊤ △ abc | n. Bew. α |
+|  | △ edc ⊤ △ edc |  |
+| Dw. | △ efd : △ edc ⊤ △ abc : △ edc | n. 7. V. |
+|  | ab : ed ⊤ △ abc : △ edc | n. 1. VI. |
+| Dw. | ab : ed ⊤ ef : bc | n. 11. V. n. B. β |
+| oder | AB : DE ⊤ EF : BC | n. Anh. 7. V. |
 
-Haben derowegen gleichmässige Dreyecke bey einem gleichmässigen Winckel wechselweiß stehende Seiten. Und die Dreyecke/ welche bey einem gleichmässigen Winckel wechselweiß stehende Seiten haben/ sind gleichmässig. W. Z. B.
+### II. Gegebene.
 
-## Der XVI. Vortrag.
+1. △. ABC
+2. △. EFD
+3. ABC ⋏ DEF.
+4. AB : DE ⊤ EF : BC.
 
-## Das 11. Beweiß-Stück.
+### II. Begehrtes.
 
-Wenn vier ebenmässige Striche gegeben werden/ so ist das von dem ersten und letzten Strich begriffene nebenstrichichte Viereck/ dem von den beyden mitlern Strichen begriffenen Viereck gleichmässig.
+△ ABC ⊤ △ EFD.
 
-Und wann das von zweyen äusersten Strichen begriffene/ dem von beyden mittelsten Strichen begriffenen Viereck gleichmässig ist/ so stehen auch solche vier Striche in richtiger Ebenmaß.
+### II. Vorbereitung wie die I.
 
-### I. Gegebene.
+### II. Beweiß.
 
-1. Vier Striche
-a, b, c, d.
-2. Welche ebenmässig
-a : b ⊤ c : d.
+|  |  |  |
+|---|---|---|
+|  | △ edc gleichmässiger Höhe △ efd | n. 4. Besch. VI. |
+| α Dw. | ef : bc ⊤ △ efd : △ bcd | n. 1. VI. |
+|  | △ abc gleichmässiger Höhe △ bdc | n. 4. Besch. VI. |
+| Dw. | ab : de ⊤ △ abc : △ bdc | n. 1 VI. |
+|  | ab : de ⊤ ef : bc | n 4 Geg. |
+| Dw. | △ abc : △ bcd ⊤ ef : bc | n. 11. V. |
+| u. | △ abc : △ bcd ⊤ △ efd : △ bcd | n. Bew. α |
+|  | △ bcd ⊤ △ bcd |  |
+| Dw. | △ abc ⊤ △ efd | n. 9. V. |
+| oder | △ ABC ⊤ △ EFD | n. Anh. 7. V. |
 
-### I. Begehrtes.
+<!-- Signature: Xx -->
 
-ad ⌻ bc.
-
-[Diagram: Zwey Rechtecke; das lincke mit den Seiten a, e, d, daneben die einzelnen Striche d, b, c, a; das rechte Rechteck mit den Seiten e, b, f]
-
-<!-- Catchword: Vorbe- -->
+<!-- Catchword: Beschluß. -->

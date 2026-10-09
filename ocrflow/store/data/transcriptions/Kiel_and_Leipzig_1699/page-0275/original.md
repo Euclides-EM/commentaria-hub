@@ -1,40 +1,42 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 259 -->
+<!-- Page number: 258 -->
 
-## Der XI. Vortrag.
+### Gegebene. — Begehrtes.
 
-## Das II. Beweißstück.
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
-Welche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind / dieselbigen Verhältnüsse sind auch unter sich gleichhaltig.
+A ⊣ B
 
-### Gegebene. | Begehrtes.
+A : a ⊣ B : a
 
-A ________ | A : a | B : b.
-a __
-B ________
-b __
-C ________
-c __
+### I. Beweiß.
 
-[Diagram: Strecken A, a, B, b, C, c von verschiedener Länge]
+Wenn A | B — so wird
+auch A : a | B : a — n. 7. V.
 
-A : a | C : c
-B : b | C : c
+Oder:
 
-### Vorbereitung:
+Wenn A ⊢ B — so wird
+auch A : a ⊢ B : a — n. 8. V.
 
-1. Nehme man A zweymahl
-2. Deßgleichen auch B zweymahl
-3. Die Grösse a und b aber jedwede viermahl.
+Beedes ist wider das Gegebene.
 
-2A ________________
-4a ____________
-2B ________________
-4b ____________
+### Gegebenes. — Begehrtes.
 
-[Diagram: Strecken 2A, 4a, 2B, 4b]
+a : B ⊣ a : A — B ⊢ A.
 
-<!-- Signature: Kk 2 -->
+### II. Beweiß.
 
-<!-- Catchword: I. Beweiß. -->
+Wenn B | A — so wird
+auch a : B | a : A — n. 7. V.
+oder wenn B ⊣ A — so wird
+auch a : B ⊢ a : A — n. 8. V.
+
+Beedes ist wiederum gegen das Gegebene.
+
+muß dw. A ⊣ B.
+
+### Beschluß.
+
+Wenn derowegen aus zwo Grössen die erste Grösse zu einer einigen Grösse eine grössere Verhältnüß hat / so wird solche erste Grösse grösser seyn/ als die andere: Und dieselbige Grösse zu welcher aus zwo Grössen eine einige Grösse eine grössere Verhältnüß hat / wird die kleineste seyn. W. Z. B.

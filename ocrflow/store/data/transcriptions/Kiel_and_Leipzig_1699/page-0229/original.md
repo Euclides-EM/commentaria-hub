@@ -1,45 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 213 -->
+<!-- Page number: 212 -->
 
 ### Beweiß.
 
-cao ∧ ∟ }
-efo ∧ ∟ } n. 3. Wirck.
-Dw. ef ⧣ ca n. 27. I.
-gfo ∧ efo n. 10. Gr. I.
-Dw. gfe ein gerader Strich/n. 14. I.
-Gleicher Weise eg ⧣ bc
-und ghc ein gerader Strich.
-eg | be }
-bc | ge } n. 34. I.
-aoh ∧ ∟ n. 2. Wirck.
-aoh ∧ ach n. 34. I.
-Dw: ach ∧ ∟ n. 1. Ax. I.
-u. beg ∧ ∟ n. 34. I.
-Dw. bcge ein gleichseitig □ , n. 29. Beschr. I.
-u. dem Kreyß dahf umbschrieben/ n. 4. Besch. IV.
+ea | eb | ec | ed n. 15. Beschr. I.
+aeb ∧ aed ∧ dec ∧ ceb n. 2. Wirck. u 10. Besch. I.
+Dw. ab | bc | cd | da }
+und dab ∧ adc ∧ dcb ∧ cba } n. 4. I.
+Dw. abcd ein gleichseitig □ , n. 29. Besch. I.
+und dem Kreyß dabc eingeschrieben/ n. 3. Besch. IV.
 
 ### Beschluß.
 
-Ist also umb den O dahf ein □ bcge beschrieben. W. Z. M.
+Ist also dem Kreyß dabc ein gleichseitig Viereck eingeschrieben. W. Z. M.
 
-## Der VIII. Vortrag.
+## Der VII. Vortrag.
 
-## Das 8. Werckstück.
+## Das 7. Werck-Stück.
 
-Einem gegebenen Viereck einen Kreyß einzuschreiben.
+Umb einen gegebenen Kreyß ein gleichseitiges Vier-Eck zubeschreiben.
 
-### Gegebene. Begehrtes.
+### Gegebenes. Begehrte.
 
-Viereck bcde. 1. Kreyß fghi
-2. Dem Viereck eingeschrieben.
+Kreyß adfh 1. □ bceg.
+2. Umb den O adfh beschrieben.
 
 ### Wirckung.
 
-1. Werden die Zwergstriche bd, ec gezogen.
-2. Alle Seiten des Vierecks bc, cd, de, eb werden in zwey gleiche Theile bf | fc : ci | id und so weiter/ getheilet/n. 10. I.
+1. Durch den Mittel-Düpffel o werde der Durchschlag dh,
+2. Und durch diesen Durchschlag/und zwar durch den Mittel-Düpffel o werde ein Senckstrich af gezogen/ n. 11. I.
+3. Auff dieses Durchschlages Endungen a, d, f, h. werden zu beeden Seiten Senckstriche de, db; ab, ac; hc, hg; fg, fe gesetzet/ n. 11. I.
 
-<!-- Signature: Dd 3 -->
+[Diagram: Kreis mit Mittel-Düpffel o, Rührdüpffeln a, d, f, h; umbeschriebenes Viereck bceg mit den Ecken b, c, g, e; punktierter Senckstrich af, Durchschlag dh]
 
-<!-- Catchword: 3. Aus -->
+<!-- Catchword: Be- -->

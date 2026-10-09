@@ -1,35 +1,29 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 355 -->
+<!-- Page number: 354 -->
 
-Dw. △ abc : △ abg | △ abc : △ def n. 7. V.
-u. △ abc : △ def ⊐ bc : ef n. 11. V.
+[Diagram: zwei Dreyecke, das kleinere d e f und das grössere a b c mit punktiertem Strich von a nach g; darunter ein Strich B E F G mit schräg auffsteigenden Strichen nach C, E und F, punktiert nach F]
 
-### Beschluß.
+### Vorbereitung.
 
-Haben derowegen ähnliche Dreyecke zu einander zwiefach grössere Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
+1. Zu des ersten Dreyecks Seite bc und des andern Dreyecks Seite ef werde der dritte ebenmässige Strich BG gefunden n. 11. VI. bc : ef | ef : BG.
 
-## Der XX. Vortrag.
+2. Diesem Strich BG werde ein gleichmässiger b g von bc abgeschnitten. n. 3. I.
 
-## Das 14. Beweiß-Stück.
+3. werde der Strich ag gezogen.
 
-Aehnliche Vielecke können in ähnliche/ und gleichviele/ und mit denen Gantzen Verhältniß-ähnliche oder ebenmässige Dreyecke abgetheilet werden.
+### Beweiß.
 
-Die ähnlichen Vielecke stehen auch gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältniß-ähnliche Seiten.
+ab : bc | de : ef n 3. Geg.
+Dw. ab : de | bc : ef n 16. V.
+bc : ef | ef : bg n 1. Vorb.
+Dw. ab : de | ef : bg n 11. V.
+abg ⋏ def n. 3. Geg.
+α Dw. abg ⩓ def n. 15. VI.
+u. bc : bg | △ abc : △ abg n. 1. VI.
+bc : bg ⊐ bc : ef n. 10. Besch. V.
+Dw. △ abc : △ abg | bc : ef n. 11. V.
+△ abg | △ def n. Bew. α
+△ abc | △ abc
 
-### Gegebene.
-
-1. Fünfeck cad
-2. u. hfi
-3. cad ähnlich hfi.
-
-### I. Begehrte.
-
-1. Beyde Fünfecke in ähnliche/ und
-2. Gleichviele/ und
-3. mit denen Fünfecken/ Verhältnüß-ähnliche Dreyecke abgetheilet.
-
-[Diagram: zwei Fünfecke; das kleinere mit den Ecken f, g, k, h, i und punktierten Diagonalen; das grössere mit den Ecken a, b, e, c, d und punktierten Diagonalen]
-
-<!-- Signature: Y y 2 -->
-<!-- Catchword: Vorbe- -->
+<!-- Catchword: Dw. -->

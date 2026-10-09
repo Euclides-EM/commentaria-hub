@@ -1,38 +1,29 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 236 -->
+<!-- Page number: 235 -->
 
-### Vorbereitung.
+XIX. Verwirrete Ebenmässigkeit ist / wenn man drey Grössen in der ersten Ordnung / und eben so viel in der andern Ordnung hat/da die Vorgehende zu der Nachgehenden in der I. Ordnung sich eben so / wie die Vorgehende zu der Nachgehenden in der II. Ordnung hält: Darnach aber die Nachgehende der I. Ordnung zu etwas Anders: wie etwas Anders zu der Vorgehenden in der II. Ordnung.
 
-1. A Werde getheilet in c, d, e also/daß c|a. d|a und e|a n. 3. I.
+4a : 2a : (a)
 
-2. Deßgleichen werde B in f, g, h, also getheilet / daß f|b, g|b, und h|b, n. 3. I.
+(4b): 2b : b
 
-[Diagram: vier waagerechte Linien: A (getheilet in c, d, e), a, B (getheilet in f, g, h), b]
+## Der I. Vortrag.
 
-### I. Beweiß.
+## Das 1. Beweiß-Stück.
 
-|  |  |  |  |  |
-|---|---|---|---|---|
-| | c | a | | |
-| | d | a | | |
-| | e | a | n. 1. Vorb. | α |
-| Dw. | c + d + e | 3a | n. 2. Gr. I. | β |
-| | c + d + e | A | n. 9. Gr. [unclear: q.] I. | γ |
-| [unclear: ε] Dw. | A | 3a | n. 1. Gr. I. | δ |
-| | f | b | | |
-| | g | b | | |
-| | h | b | | α |
-| Dw. | f + g + h | 3b | | β |
-| | f + g + h | B | | γ |
-| [unclear: ζ] Dw. | B | 3b | | δ |
-| [unclear: η] U. | A + B | 3a + 3b | n. 2. Gr. I. | |
+Wann etliche Grössen (und zwar so viel man derer wil) anderer eben so viel Grössen gleichmässig vielfältige (multiplices) sind/so werden die ersten Grössen alle zusammen genommen/derer Anderen allen zusammen genommenen Grössen eben so vielfältig seyn / als eine derer Ersten zu einer deren Anderen in richtiger Ordnung genommenen Grössen.
 
-### Vorbereitung.
+### Gegebene.
 
-3. A Werden zweymahl/ und
-4. B auch zweymahl genommen.
-5. a werden viermahl/ und
-6. b gleichfals viermahl genommen.
+[Diagram: vier waagerechte Linien verschiedener Länge, bezeichnet A, a, B, b]
 
-<!-- Catchword: 2 A -->
+A : a | B : b
+
+### Begehrtes.
+
+A + B : a + b | A : a — B : b
+
+<!-- Signature: Gg 2 -->
+
+<!-- Catchword: Vor- -->

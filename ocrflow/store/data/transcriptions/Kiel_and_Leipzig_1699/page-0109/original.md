@@ -1,43 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 93 -->
+<!-- Page number: 92 -->
 
-AD | ad | n. 2. I.
-Dw. ad | AB | n. 1. Gr-S. I.
-α. ab | AB | n. 2 I.
-Dw. ab | ad | n. 1. Gr. I.
-ab | ab
-□ ab | □ bad | n. 1. Gr. II.
-□ oni + □ mlg | □ bad | n. 1. II.
-Dw. □ ab | □ oni + □ mlg | n. 1. Gr. I.
-ab | AB | n. Bew. α.
-Dw. □ ab | □ AB | n. 1. Gr. t. II.
-und □ AB | □ oni + □ mlg
-und □ AB | □ CAB + □ CBA | n. 1. Gr. I.
+### Gegebene. | Begehrtes.
+1. Der Strich AB | □ AB | □ CAB + □ CBA.
+2. getheilet in C.
 
-### Beschluß.
+### Vorbereitung.
 
-Wird also allezeit das □ von dem gantzen Strich AB so groß seyn/ als die beeden □ □ so von den gantzen AB, und den beeden Stücken CA und CB begriffen werden. W. Z. B.
+Man nehme 1. noch einen Strich AD | AB n. 2. Vortr I. Buchs.
+2. Man mache das rechtwincklichte □ ba,ad n. 11. und 31. I.
+3. Man nehme auch zween Striche/ so groß/ als die beeden Stücke des getheilten Strichs/nemlich
+lm | ca
+no | cb
+4. Deßgleichen auch
+lg | AD
+in | AD | n. 2. I.
+5. Mache man die rechtwincklichte □ mlg und □ oni n. 11. I.
+6. In dem □ bad ziehe man den Neben-Strich ce = ad.
 
-### Nach der Löse-Kunst.
-
-### Gegebene. | Begehrte.
-1. a. | aa | ab + ac
-2. b + c
-3. a | b + c
+[Diagram: drey rechtwincklichte Vierecke; Punkte D, B, d, e, f, g, h, i, k oben, c links, A, a, c, b, l, m, n, o unten; punktierte Linie im ersten Viereck]
 
 ### Beweiß.
 
-a | b + c | n. 3. Gegeb.
-a | a
-aa | ab + ac | n. 1. II. W. Z. B.
+on | CB
+ni | BA | n. 3. Vorber.
+□ oni | □ CBA | n. 1. Gr-S. II.
+ml | CA
+lg | AB
+□ mlg | □ CAB + | n. 1. Gr-S II.
+□ oni + □ mlg | □ CAB + □ CBA | n. 1. Gr-S. I.
+AD | AB | n. 1. Vorber.
 
-## Der III. Vortrag.
-
-## Das 3. Beweiß-Stück.
-
-Wenn man einen geraden Strich/ auff waserley weiß / in zwey Stücke schneidet/ so wird das
-
-<!-- Signature: M 3 -->
-
-<!-- Catchword: Vier- -->
+<!-- Catchword: Dw. -->

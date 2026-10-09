@@ -1,15 +1,17 @@
 <!-- Running title: Vorrede. -->
 
-gen Dingen (A und B) ungleiche Stücke (c und d) abnimmt/ so bleiben ungleiche Stücke (e und f) übrig/ und zwar/ von welchem (A) das kleinere Stück (c) abgehet/ da bleibet das grössere (e) übrig: Wo (B) aber das grössere (d) abgenommen wird / da bleibet das kleinere (f) übrig.
+zulänglich sind / so habe ich dahero selbige mit etlichen Zusätzen zu vermehren und zu erläutern für nöthig und nützlich erachtet.
 
-[Diagram: schematische Darstellung mit Buchstaben A, B, c, d, e, f und Linien]
+Ob ich nun gleich denen XII. Grundsätzen allbereit XVII. Nebensätze beygefüget/ so habe nach der Zeit doch noch etliche gefunden / welche man nicht wol entrathen kan / deßwegen ich sie hiernach setzen wollen.
 
-## Zu dem VI. Grundsatz.
+## Als zu dem I. Grundsatz gehöret:
 
-(kk) Wenn (a) von zwey gleichmässigen Dingen (a und b) zwey- (oder mehr- mahl grösser ist/ als das dritte (c) so ist auch das andere (b) zwey- (oder mehr- mahl) grösser/ als solch drittes (c).
+(dd) Wenn eins (a) von zwey gleichmässigen Dingen (a und b) nicht kleiner ist/ als das dritte (c), so ist das andere (b) auch nicht kleiner/ als das dritte (c).
 
-[Diagram: schematische Darstellung mit Buchstaben und Linien]
+[Diagram: je drei mit a, b, c bezeichnete Strecken in zwei Spalten]
 
-<!-- Signature: ):( ):( -->
+## Zu dem III. Grundsatz:
 
-<!-- Catchword: Zu -->
+(ff) Wenn man von zweyen gleichmässi-
+
+<!-- Catchword: gen -->

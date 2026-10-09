@@ -1,34 +1,39 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 101 -->
+<!-- Page number: 100 -->
 
-de + ee + bd | bb — n. 3. Gr. I.
-e | b + e
-d | d
-dc | bd + de — n. 2. II.
-dc + de + ee + bd | bb + bd + de — n. 2. Gr. I.
-de + bd | bd + de
-dc + ee | bb — n. 3. Gr. I. W. Z. B.
+db + cb | dc — n. 9. G. I.
+ac | ca
+□ db,ac + □ acb | □ dca — n. 1. II.
+□ dca + □ db,ac + □ acb + □ cb | □ ab + □ db,ac + □ acb
+n. 1. Gr. I.
+□ db,ac + □ acb | □ db,ac + □ acb
+□ dca + □ cb | □ ab n. 3. Gr. I.
 
-## Der VI. Vortrag.
+### Beschluß.
 
-## Das 6. Werckstück.
+Wird derowegen allezeit das □ der Helffte/ des in gleiche und ungleiche Theil geschnittenen Strichs/ so groß seyn/ als das □ der beeden ungleichen Stücke/ samt den □ des Mittel-Stückes. W. Z. B.
 
-Wenn ein gerader Strich in zween gleiche Theile getheilet/ und gerade aus ein Strich angesetzet wird; So wird das rechtwincklichte Viereck/ welches von dem zusammen-gesetzten Strich/ und von dem angesetzten Stücke gemacht wird/ samt dem gleichseitigen Viereck des halbē Strichs/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem halben und angesetzten Stück gemacht wird.
+### Nach der Löse-Kunst.
 
 ### Gegebene. | Begehrte.
 
-1. Gerader Strich cd — □ dac + □ bc | □ ab.
-2. getheilet in b
-3. bd | cb
-4. angesetztes Stück ac
+1. Strich a | AD — dc + ee | bb
+2. b + b | AB + BD
+3. a | b + b
+4. d | AC
+5. e | BC
+6. b + e | c
+7. d + e | b
 
-### Vorbereitung.
+### Beweiß.
 
-1. Werde das □ dac gemacht.
-2. - - - - □ ab - -
-3. - - - - □ bc - -
-4. - - Der Strich ee verlängert biß f.
+d + e | b — n. 7. Geg.
+dd + 2de + ee | bb — n. 4. II.
+b | d + e — n. 7. Gegeb.
+d | d
+bd | dd + de — n. 3. II.
+dd + 2de + ee + bd | bb + dd + de — n. 2. Gr. I.
+dd + de | dd + de
 
-<!-- Signature: N 3 -->
-<!-- Catchword: Be- -->
+<!-- Catchword: de -->

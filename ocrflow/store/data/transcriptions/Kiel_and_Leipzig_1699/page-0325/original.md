@@ -1,33 +1,37 @@
-<!-- Page number: 309 -->
+<!-- Page number: 308 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-Welches aber unmüglich n. 9. Gr. I.
-Dergleichen wird auch folgen/ wenn man sagen wolte
-gp ⊣ hp
-muß derowegen gp | hp seyn. II.
+Gleiche Bewandnüß hat es/ wenn man sagen wolte/ daß
+cq ⊢ fp were.
+Muß derowegen cq | fp.
 
 ### Beschluß.
 
-Werden derowegen allezeit solche nebenstrichichte Vierecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ auch gleichmässige Höhen haben. W. Z. B.
+Wenn derohalben zwey nebenstrichichte Dreyecke sich also/ wie ihre Grundstriche gegen einander verhalten/ so werden sie auch gleichmässige Höhen haben. W. Z. B.
 
-## Des I. Vortrags II. Zugabe.
+### II. Gegebenes.
 
-Diejenigen Dreyecke / und nebenstrichichte Vierecke/ welche gleichmässige Grundstriche haben/ verhalten sich also/ wie ihre Höhen/ zusammen.
+ab : de | □ ah : □ dg.
 
-### Gegebene.
+### Begehrtes.
 
-1. Zwey Dreyecke A und B.
-2. Beyde Grundstriche ab | ef
-3. Beyde Höhen de ⊣ bc
+Höhen gp | hq.
 
-[Diagram: Zwei Dreyecke A und B mit den Punkten a, b, c, d, e, g, f, links das Dreyeck A über der Grundlinie ab, rechts das Dreyeck B über ef, mit gestrichelten Hülffslinien]
+[Diagram: Zwei Parallelogramme, links mit den Ecken g f d e und Punkt p, rechts mit den Ecken c h b a nebst den Punkten s, r und p, mit gestrichelten Senckstrichen]
 
 ### Vorbereitung.
 
-1. Weil die Höhe de ⊣ bc — n. 3. Gegeb.
-2. so werde ge | bc — n. 3. I.
-3. werde der gerade Strich gf gezogen.
+Wenn gp ⊢ hp so schneide man von hq ein Stück ab/ nemlich rp | gp n. 3. I.
 
-<!-- Signature: Qq 3 -->
-<!-- Catchword: Beweiß. -->
+2. Ziehe man den Strich sr ⧣ ab.
+
+### Beweiß.
+
+gp | rp — n. Vorber.
+Dw. de : ab | □ dg : □ ar — n. 1. VI.
+de : ab | □ dg : □ ah — n. Geg.
+Dw. □ dg : □ ar | □ dg : □ ah — n. 11. V.
+u. □ ar | □ ah — n. 9. V.
+
+<!-- Catchword: Welches -->

@@ -1,31 +1,29 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 281 -->
+<!-- Page number: 280 -->
 
-### Beweiß.
+## Der XXIII. Vortrag.
 
-|  |  |  |
-|---|---|---|
-| B : C | a : b | n. Geg. |
-| B : C | c : d | n. Vorb. |
-| Dw. a : b | c : d | n. 11. V. |
-| α a : c | b : d | n. 16. V. |
-| b : c | A : B | n Geg. |
-| c : d | B : C | n. Vorb. |
-| b : d | A : C | n. 22. V. |
-| b : d | a : c | n. Bew. α |
-| Dw. A : C | a : c | |
+## Das 23. Beweiß-Stück.
 
-### Beschluß.
+Wenn drey Grössen gegeben werden/ und noch drey andere Grössen darzu genommen werden/ welche in verwirreter Ebenmaß stehen/ so werden sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben.
 
-Werden derowegen Sechs in verwirreter Ebenmaß stehende Grössen auch ein ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
+### Gegebene.
 
-## Der XXIV. Vortrag.
+[Diagram: sieben Linien A, B, C, a, b, c, d von verschiedener Länge am linken Rand]
 
-## Das 24. Beweiß-Stück.
+A : B : C | a : b : c
+A : B | b : c
+B : C | a : b
 
-Wenn man Sechs Grössen hat/ deren Erste zu der Andern eine solche Verhältnüß hat/ als die Dritte zu der Vierten: darnach auch die Fünffte zu der Andern eine solche Verhältnüß hat / wie die Sechste zu der Vierten: So wird auch die Erste mit der Fünfften zu der Andern/ eine solche Verhältnüß/ wie die Dritte mit der Sechsten zu der Vierten haben.
+### Begehrtes.
 
-<!-- Signature: Nn -->
+A : C | a : c
 
-<!-- Catchword: A— -->
+### Vorbereitung.
+
+Man nehme noch eine Grösse d zu welcher sich c also verhalte/ wie B. zu C.
+
+B : C | c : d.
+
+<!-- Catchword: Beweiß. -->

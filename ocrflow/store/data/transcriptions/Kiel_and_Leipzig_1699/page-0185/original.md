@@ -1,34 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 169 -->
+<!-- Page number: 168 -->
 
-[Diagram: Kreis mit einbeschriebenem Viereck a b c d, darin die Zwerg-Striche ac und bd; die Winckel mit A, B, Γ, Δ und α, β, γ, δ bezeichnet]
+[Diagram: Kreyßstück über der Sehne de mit den Punkten b und c oben; von d und e punktierte Linien zu den Düpffeln a, f und g unterhalb der Sehne]
 
-### Vorbereitung.
-Es werden gezogen die beeden Zwerg-Striche ac und bd.
-### Beweiß.
+### I. Beweiß.
 
-cab ⋀ cdb
-acb ⋀ adb } n. 21. III.
-Dw. cab + acb ⋀ cdb + adb   n. 2. Gr. I.
-oder cda ⋀ cab + acb   n. 9. Gr. q. l.
-abc + cab + acb ⋀ ⌓   n. 32. I.
-cda + abc + cab + acb ⋀ ⌓ + cab + acb   n. 2. Gr. I.
-cda + abc ⋀ ⌓   n. 3. Gr. l.
+dag ∠ 2 dba
+eag ∠ 2 eba — n. 1. Arth.
+dag + eag ∠ 2 dba + 2 eba — n. 2. Gr. I.
+oder dae ∠ 2 dbe — n. 9. Gr. q. I.
 
-### Andere Arth.
+### II. Begebenheit.
 
-A ⋀ α
-B ⋀ β
-Γ ⋀ γ
-Δ ⋀ δ   n. 21. III.
+dbe ∠ ½ dae
+dce ∠ ½ dae — n. 1. Bew.
+Dw. dce ∠ dbe — n. 7. Gr. I.
 
-A + B ⋀ A + B
-γ + δ ⋀ Γ + Δ
-A + B + γ + δ ⋀ A + B + Γ + Δ   n. 2. Gr. I.
-A + B + Γ + Δ ⋀ ⊕   n. 32. I.
-Dw. A + B + γ + δ ⋀ ⊕   n. 1. Gr. I.
-oder [unclear: adc] + abc ⋀ ⊕   n. 9. Gr. q. l.
+### Beschluß.
 
-<!-- Signature: P -->
-<!-- Catchword: An -->
+Sind also allezeit diejenigen Winckel/welche in einem Kreyßstück stehen/ gleich groß. W. Z. B.
+
+## Der XXII. Vortrag.
+
+## Das 20. Beweiß-Stück.
+
+Aller einem Kreyß eingeschriebenen Vierecke gegen einander überstehende Winckel sind eben so groß/ als zween rechte Winckel.
+
+### Gegebene. Begehrte.
+
+1. Viereck abcd, — 1. adc + abc | 2 ∟
+2. Welches dem Kreyß acb eingeschrieben. — 2. dcb + dab | 2 ∟
+
+<!-- Catchword: Vor- -->

@@ -1,35 +1,39 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 380 -->
+<!-- Page number: 379 -->
+
+9. Aus d werde durch B ein gerader Strich dm gezogen/ welcher den Strich mp in m schneide.
+
+10. Aus m werde gegen pg der Nebenstrich mb gezogen. n. 31. I.
+
+11. Durch B werde auch gegen dq der Nebenstrich on gezogen. n. 31. I.
+
+12. Der Strich AB werde biß f verlängert.
+
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | □ fo | □ qb | n. 24. VI. |
-|  | □ L ähnlich | □ qb | n. 2. Wirck. |
-| Dw. | □ fo | □ L | n. 21. VI. |
-|  | □ fp — | □ Bp | n. 9. Gr. I. |
-|  | □ fp | □ Bp + □ fo | n. 9. Gr. I. q. |
-| Dw. | ist □ fo der Uberschuß |  | n. 6. Beschr. VI. |
+|  | □ dg | □ ih | n. 5. Wirck. |
+|  | △ K | □ ih | n. 3. Wirck. |
+| Dw. | △ K | □ dg | n. 1. Gr. I. |
+|  | □ cn | □ Ad | n. 36. I. |
+| Dw. | □ cn + △ K | □ Ad + □ dg | n. 2. Gr. I. |
+|  | □ dm | □ Ad + □ dg | n. 24. VI. |
+| Dw. | □ cn + △ K | □ dm | n. 1. Gr. I. |
+|  | □ cn | □ cn |  |
+| Dw. | △ K | □ dm — □ cn | n. 3. Gr. I. |
+| oder | ⊡ qBb | □ dm — □ cn | n. 2. Besch. II. |
+| a Dw. | ⊡ qBb | △ K | n. 1. Gr. I. |
+|  | □ fn | □ oC | n. 43. I. |
+|  | □ Cp | □ oC | n. 36. I. |
+| Dw. | □ Cp | □ fn | n. 1. Gr. I. |
+|  | □ oC | □ oC |  |
+|  | □ fo | □ fo |  |
+| Dw. | □ Cp + oC + fo | □ fn + □ oC + □ fo | n. 2. Gr. I. |
+| oder | □ fp | ⊡ qBb | n. 9. Gr. I. q. |
+| Dw. | □ fp | △ K | n. Bew. a. u. 1. Gr. I. |
 
-### Beschluß.
+<!-- Signature: Bbb 2 -->
 
-Ist also an den gegebenen Strich AB ein übertreffendes □ fp | △ K also angeschlagen/ daß der Uberschuß □ fo ähnlich dem □ L, auch auf gleiche Weise gesetzet seye. W. Z. M.
-
-## Der XXX. Vortrag.
-
-## Das 10. Werck-Stück.
-
-Einen gegebenen geraden Strich nach der äusersten und mittelsten Verhältnüß zu theilen.
-
-### Gegebenes.
-
-Gerader Strich ab,
-
-### Begehrte.
-
-1. Strich ab getheilet
-2. Bey 1 nach äuserster und mittelster Verhältnüß.
-
-[Diagram: geometrische Konstruktion aus Quadraten und punktierten Linien mit den Punkten f, a, i, c, b, e, h, g, k, d, m]
-
-<!-- Catchword: Wir- -->
+<!-- Catchword: □ fo -->

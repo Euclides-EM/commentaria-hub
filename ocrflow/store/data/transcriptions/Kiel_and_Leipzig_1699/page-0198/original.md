@@ -1,38 +1,36 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 182 -->
+<!-- Page number: 181 -->
 
-### III. Begebenheit.
+Dw. abd + acd ⋀ adb + adc   n. 2. Gr. I.
+bdc ⋀ adb + adc   n. 9. Gr. q. I.
+Dw. bdc ⋀ abd + acd   n. 1. Gr. I.
+edc ⋀ abd + acd   n. 32. I.
+Dw. edc ⋀ bdc   n. 1. Gr. I.
+und bdc ⋀ ∟   n. 10. Beschr. I.
+
+### II. Begebenheit.
 
 ### Gegebene.
-1. Kreyß bcedb,
-2. Kreyßstück ced,
-3. ⌓ ced ⊣ Halbkreyß.
-4. Winckel ced.
+1. Kreyß bdcb.
+2. Kreyßstück cabd.
+3. Welches grösser/ als ein Halb-Kreyß.
+4. Winckel cad.
 
 ### Begehrtes.
-ced [unclear: ⊢] ∟
+cad [unclear: ⋀] ∟
 
-[Diagram: Kreyß mit der Sehne cd oben, darüber der Punckt e; unten der Punckt b; die Striche cb und bd punctirt]
+[Diagram: Kreyß mit den Punckten a, c, b, d; darin die Striche ac, ad, bd und bc, etliche punctirt]
 
 ### Vorbereitung.
-1. Werde durch den Mittel-Düpffel der Durchschlag db,
-2. Wie auch der Strich cb gezogen.
+1. Durch den Mittel-Düpffel werde der Durchschlag cb,
+2. Der Strich bd gezogen.
 
-### III. Beweiß.
-ced + cbd | 2 ∟   n. 22. III.
-cbd ⊣ ∟   n 2 Bew.
-Dw. ced ⊢ ∟   n. 3. Gr. ff. I.
+### II. Beweiß.
+bdc ⋀ ∟   n. 1. Bew.
+cbd [unclear: ⋀] ∟   n. 17. I.
+cad ⋀ cbd   n 21. III.
+Dw. cad [unclear: ⋀] ∟   n. 1. Gr. d. I.
 
-### IV. Begebenheit.
-
-### Gegebene.
-1. Kreyß dabecd.
-2. ⌓ [unclear: dabc].
-3. dacb [unclear: ⊢] Halbkreyß.
-4. ecd Kreyßstücks-Winckel.
-
-### Begehrtes.
-dce ⊢ [unclear: ∟]
-
-<!-- Catchword: Vor- -->
+<!-- Signature: Q 3 -->
+<!-- Catchword: III. Be- -->

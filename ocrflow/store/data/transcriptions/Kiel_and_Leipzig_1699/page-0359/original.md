@@ -1,35 +1,40 @@
-<!-- Page number: 343 -->
+<!-- Page number: 342 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-II. Vorbereitung ist wie die I. Vorher.
+3. werde DH ⊤ eh
+4. und DF ⊤ ef   n. 3. I.
+5. Gegen EF werde gezogen der Nebenstrich Hd
+6. u. EH Fd   n. 31. I.
+7. Die Nebenstriche AB und dH werden fortgezogen/biß sie in dem Düttel I zusammen kommen.
 
-### II. Beweiß.
+### I. Beweiß.
 
 |  |  |  |
 |---|---|---|
-|  | ab : eh ⊤ fe : db | n. 4. Geg. |
-| oder | AB : BI ⊤ FE : EB | n. Anh. 7. V. |
-|  | AB : BI ⊤ □ AD : □ EI | n. 1. VI. |
-| Dw. | FE : EB ⊤ □ AD : □ EI | n. 11. V. |
-|  | FE : EB ⊤ □ FH : □ EI | n. 1. VI. |
-| Dw. | □ AD : □ EI ⊤ □ FH : □ EI | n. 11. V. |
+| α. | □ AD : □ EI ⊤ CD : EH | ⟩ n. 1. VI. |
+| β. | □ FH : □ EI ⊤ FE : EB |  |
+|  | □ ad ⊤ □ fh | n. Gegeb. |
+|  | □ AD ⊤ □ FH | n. Vorb. |
 |  | □ EI ⊤ □ EI |  |
-| Dw. | □ AD ⊤ □ FH | n 9. V. |
-| oder | □ ad ⊤ □ fh | n 1. Vorb. |
+| Dw. | □ AD : □ EI ⊤ □ FH : □ EI | n. 7. V. |
+|  | □ AD : □ EI ⊤ CD : EH | n. Bew. α. |
+| Dw. | □ FH : □ EI ⊤ CD : EH | n. 11. V. |
+|  | □ FH : □ EI ⊤ FE : EB | n. Bew. β. |
+| Dw. | CD : EH ⊤ FE : EB | n. 11. V. |
+| u. | □ AD wechselmässig □ FH | n. 2. Beschr. VI. |
+| oder | □ ad □ fh | n. 1. Vorb. V. |
 
-### Beschluß.
+### II. Gegebene.
 
-Wenn derowegen gleichmässige oder gleichgrosse Nebenstrichichte Vierecke / welche einen gleichmässigen Winckel haben/ gegeben werden/ so haben dieselben auch bey den gleichmässigen Winckeln wechselmässige Seiten.
+1. □ ad
+2. □ fh
+3. d ⋏ e
+4. ab : eh ⊤ fe : db.
+5. □ ad wechselmässig □ fh.
 
-Und welche Vierecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ die sind gleichmässig oder gleichgroß. W.Z.B.
+### II. Begehrtes.
 
-## Der XV. Vortrag.
+ad ⌻ fh
 
-## Das 10. Beweiß-Stück.
-
-Gleichmässige/ und einen gleichmässigen Winckel habende Dreyecke/ haben auch bey dem gleichmässigen Winckel wechselmässige Seiten.
-
-Und welche Dreyecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ dieselben sind gleichmässig.
-
-<!-- Catchword: I. Gegebene. -->
+<!-- Catchword: II. Vor- -->

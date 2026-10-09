@@ -1,21 +1,20 @@
-<!-- Running title: Definitiones. -->
+<!-- Running title: Beschreibungen. -->
 
-<!-- Page number: 5 -->
+<!-- Page number: 4 -->
 
-XIIX. Ein Halb-kreyß ( Semicirculus ) aber ist eine Gestalt/ welche von dem Durchschlag/ und demjenigen Stück des Umbkreyses/so dieser gerade Strich oder Durchschlag abschneidet / eingeschlossen wird.
+XII. Ein spitziger Winckel aber ist kleiner/ als ein rechter Winckel.
 
-[Diagram: ein Halbkreis sowie ein Kreis mit waagerechtem Durchmesser, dessen untere Hälfte punktiert ist]
+[Diagram: zwei Winkel mit punktierten Viertelkreis-Bögen, spitzige Winkel darstellend]
 
-XIX. Gerad-seitige Gestalte (Rectilineæ figuræ) sind/welche mit geraden Strichen eingefasset werden.
-XX. Dreyeckichte (Trilateræ) Gestalte werden von drey geraden Strichen eingeschlossen.
+XIII. Endung (Terminus) ist das eusserste einer Grösse.
+XIV. Gestalt ( Figura ) ist/ welche in eine oder mehr Endungen eingeschlossen/oder eingefasset ist.
+XV. Ein Kreyß ( Circulus ) ist eine flache Gestalt/ von einem einigen Strich (oder Zug) eingeschlossen/welchen man den Umbkreyß ( auch Kreyß-zug ) nennet / zu welchem alle/von einem derer inwendigen Düttele/gezogene Striche (Radii) gleich lang sind.
 
-[Diagram: drei Dreiecke verschiedener Gestalt]
+[Diagram: drei Kreise mit mehreren vom Mittelpunkt gezogenen Radien]
 
-XXI. Viereckete (Quadrilateræ) Gestalte aber werden von vier geraden Strichen eingeschrencket.
-XXII. Viel-Eckichte Gestalte haben mehr/ als vier gerade Gräntz-Striche.
-XXIII. Unter den Drey-Ecketen Gestalten wird das gleichseitige Drey-Eck von drey gleichlang-geraden Strichen eingeschrencket.
+XVI. Dieser Düttel aber wird der Mittel-Düpffel (Centrum) des Kreyses genennet.
+XVII. Der Durchschlag (Diameter) des Kreyses ist ein gerader durch den Mittel-Düpffel gezogener Strich/ welcher auff beiden Seiten an den Umbkreyß stösset/ und denselbigen in zween gleiche Theile schneidet.
 
-[Diagram: ein gleichseitiges Dreieck]
+[Diagram: drei Kreise mit je einem Durchmesser: waagerecht, schräg und senkrecht]
 
-<!-- Signature: A 3 -->
-<!-- Catchword: XXIV. -->
+<!-- Catchword: XIIX. -->

@@ -1,35 +1,27 @@
-<!-- Running title: Das V. Buch -->
+<!-- Page number: 231 -->
 
-<!-- Page number: 232 -->
+# Das V. Buch Euclidis.
 
-VII. Diejenigen Grössen/ welche in gleicher Verhältniß gegen einander stehen/ werden Ebenmässige (proportionales) genennet.
+## Beschreibungen.
 
-IIX. Wenn aber unter etlichen vervielfältigten Grössen der Ersten Grösse ihre Vervielfältigung die Vervielfältigung der andern Grösse übertrifft: die Vervielfältigung aber der Dritten Grösse die Vervielfältigung der Vierdten Grösse nicht übertrifft: alsdenn wird die Erste zu der Andern eine grössere Verhältniß haben/ als die Dritte zu der Vierten.
+I. Ein Theil (Pars) ist ein Stück einer grösseren Grösse/wenn nemlich das Stück die grössere Grösse ohne Bruch (oder also daß nichts überbleibet) theilet. a : 3a
 
-6a : 4a ⊣ 3a : 6a
+II. Vielfältig oder vielfach (multiplex) wird genennet die grössere Grösse/ welche von dem Theil oder Stück ohne Bruch getheilet wird. 3a : a
 
-IX. Ebenmässigkeit (proportio) erfodert wenigstens drey Grössen.
+III. Verhältniß (Ratio) ist eine Bewandniß zweyer Grössen / deren jedwede durch ihre Vervielfältigung die andere (wenn sie unvergrössert bleibet) übertreffen kan a : b
 
-8a : 4a : 2a
+IV. Ebenmaaß (Proportio) ist zweyer oder mehrer Verhältnisse Gleichheit. 2a : 2b | a : b
 
-8a : 4a | 4a : 2a
+V. Diejenigen Grössen können eine Verhältniß zu einander haben/welche nach Belieben vervielfältiget einander an Grösse übertreffen können. 2a : a.
 
-X. Wenn drey Grössen ebenmässig (proportionales) sind/so hat die Erste eine zwiefach grössere Verhältniß zu der Dritten/ als zu der andern.
+2a ⊣ a
 
-8a : 4a : 2a
+2a ⊢ 6a.
 
-8a : 2a = | 8a : 4a
+VI. In gleicher Verhältniß stehende Grössen werden genennet (nemlich die Erste zu der Andern/und die Dritte zu der Vierten) wenn der Ersten und Dritten auff waserley Weise Vervielfältigung von derer Andern und Vierten Vervielfältigung entweder übertroffen werden / oder denenselbigen an Grösse gleich sind / oder auch dieselbigen übertreffen: Wenn nemlich die Grössen gehöriger Massen gegen einander gehalten werden.
 
-Als das Viereck zur Wurtzel 4 | 2.
+3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a.
+5. 3. 5. 3. — 2. 3. 2. 3. — 2. 5. 2. 5.
+15a : 6a | 30a : 12a. — [unclear: 6q] : 6a | 12a : 12a. — 6a : 10a | 12a : 20a.
 
-Aber wenn vier Grössen in ordentlicher Ebenmaß stehen / so wird die Erste zu der Vierten eine dreyfach grössere Verhältniß haben/als zu der andern
-
-16a : 8a : 4a : 2a
-
-16a : 2a = | 16a : 8a
-
-Als der Würffel zur Wurtzel 8 | 2
-
-Und so offt die Anzahl der Grössen ümb eines zunimmt/so offtmals wird auch die Verhältniß der Ersten Grösse zu der letzten ümb eine Stuffe gegen die Verhältniß der Ersten zu der Andern erhöhet.
-
-<!-- Catchword: XI. Ver- -->
+<!-- Catchword: VII. -->

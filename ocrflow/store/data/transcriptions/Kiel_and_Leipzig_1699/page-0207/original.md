@@ -1,38 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 191 -->
+<!-- Page number: 190 -->
 
-## Der XXXV. Vortrag.
+### Wirckung.
 
-## Das 29. Beweiß-Stück.
+1. Wird ein gerader Strich bc gezogen /
+2. Welcher den Kreyß anrühre.
+3. Werde aus dem Mittel-Düpffel ein Senckstrich na auff den Rührstrich gezogen. n. 12. I.
+4. Auff den Strich bc und zwar an den Düttel a werde der Winckel bam ⋀ hfg gesetzet. n. 23. I.
+5. Nach diesen Winckel werde der gerade Strich ad gezogen.
 
-Wenn in einem Kreyß zween gerade Striche sich Kreutzweiß durchschneiden: So ist das rechtwincklichte Viereck / welches die beeden Stücke des einen Striches begreiffen / eben so groß/ als das Viereck / welches von den beeden Stücken des andern Striches begriffen wird.
+[Diagram: Kreis mit Punkten d, e, n, m, a; Tangente b–a–c unten, oben rechts kleiner Winckel f, g, h]
 
-### Gegebene. | Begehrte.
+### Vorbereitung.
 
-1. Kreyß adcb. | deb ⊞ aec
-2. Zween gerade Striche ac, bd. | oder olm ⊞ klp.
-3. Welche in dem Kreyß stehen /
-4. Und einander durchschneiden in e oder l.
-
-### I. Begebenheit.
-
-Gegebenes: Die Striche ac und bd schneiden einander im Mittel-Düpffel e.
-
-[Diagram: Kreis mit den Punkten a, b, d, c und sich im Mittelpunkt e kreutzenden Strichen ac und bd]
+Es werden in dem abgeschnittenen Kreyßstück gezogen die geraden Striche ae und de.
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | de | ae |  |
-|  | eb | ec | n. 15. Beschr. I. |
-| Dw. | deb ⊞ aec |  | n. 1. Gr. II. |
+|  | bc | Rührstrich des Kreyses dae | n. 2. Wirck. |
+|  | a | Rührdüpffel | n. 18 III. |
+|  | mab ⋀ hfg |  | n. 4. Wirck. |
+|  | aed ⋀ mab |  | n. 32. III. |
+| Dw. | aed ⋀ hfg |  | n. 1. Gr. I. |
 
-### II. Begebenheit.
+### Beschluß.
 
-### Gegebenes:
+Ist also von dem Kreyß daed ein Stück dfa abgeschnitten/ in welchem ein Winckel aed ⋀ hfg stehen kan. W. Z. M.
 
-Nur ein durch den Mittel-Düpffel e gehender Strich db,
-
-<!-- Catchword: 2. Wel- -->
+<!-- Catchword: Der -->

@@ -1,35 +1,37 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 168 -->
+<!-- Page number: 167 -->
 
-[Diagram: Kreyßstück über der Sehne de mit den Punkten b und c oben; von d und e punktierte Linien zu den Düpffeln a, f und g unterhalb der Sehne]
+## Der XXI. Vortrag.
 
-### I. Beweiß.
+## Das 19. Beweiß-Stück.
 
-dag ∠ 2 dba
-eag ∠ 2 eba — n. 1. Arth.
-dag + eag ∠ 2 dba + 2 eba — n. 2. Gr. I.
-oder dae ∠ 2 dbe — n. 9. Gr. q. I.
+Alle in einem Kreyßstück stehende Winckel sind gleich groß.
 
-### II. Begebenheit.
+### Gegebene. Begehrtes.
 
-dbe ∠ ½ dae
-dce ∠ ½ dae — n. 1. Bew.
-Dw. dce ∠ dbe — n. 7. Gr. I.
+1. Kreyßstück dbce — dbe ∠ dce
+2. Zweene in solchem Kreyßstück stehende Winckel dbe und dce.
 
-### Beschluß.
+I. Arth.
 
-Sind also allezeit diejenigen Winckel/welche in einem Kreyßstück stehen/ gleich groß. W. Z. B.
+### Vorbereitung.
 
-## Der XXII. Vortrag.
+Es werde gezogen der Strahl ea
 
-## Das 20. Beweiß-Stück.
+[Diagram: Kreyßstück über der Sehne de mit den Punkten b oben und c rechts, Mitteldüpffel a; Striche bd, be, cd, ce und punktierter Strahl ae]
 
-Aller einem Kreyß eingeschriebenen Vierecke gegen einander überstehende Winckel sind eben so groß/ als zween rechte Winckel.
+### Beweiß.
 
-### Gegebene. Begehrte.
+[unclear: dbe] ∠ ½ dae
+dce ∠ ½ dae — n. 20. I.
+Dw. dce ∠ [unclear: dbe] — n. 7. Gr. I.
 
-1. Viereck abcd, — 1. adc + abc | 2 ∟
-2. Welches dem Kreyß acb eingeschrieben. — 2. dcb + dab | 2 ∟
+II. Arth.
 
-<!-- Catchword: Vor- -->
+### Vorbereitung.
+
+1. Werden auß den Winckeln b und c durch den Mittel-Düpffel a gezogen zween gerade Striche bg und cf.
+2. Werden auch die Strahlen da und ea gezogen.
+
+<!-- Catchword: I. Be- -->

@@ -1,34 +1,36 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 318 -->
 
-<!-- Page number: 319 -->
+<!-- Running title: Das V. Buch -->
 
-Dw. | ba : cd | ba : CD | n. 7. V.
-1. u. | ba : CD | bc : CE | n. 11. V.
-γ | bc : ce | fd : de | n. 2. VI.
-δ | fd | ac | n. 34. I.
-| DE | DE |
-Dw. | fd : DE | ac : DE | n. 7. V.
-| fd | fd |
-| DE | de | n. 3. Vorb.
-Dw. | fd : DE | fd : de | n. 7. V.
-u. | bc : ce | ac : DE | n. 11. V.
-| CE | ce | n. 2. Vorb.
-2. Dw. | bc : CE | ac : DE | n. 7. V.
+### Vorbereitung.
 
-| ba : af | bc : ce | n. Bew. α
-| bc : ce | fd : de | n. Bew. γ
-Dw. | ba : af | fd : de | n. 11. V.
-| cd | af | n. Bew. β
-| fd | ac | n. Bew. δ
-Dw. | ba : cd | ac : de | n. Anh. 7. V.
-| DC | cd |
-| de | DE | n. 3. Vorb.
-Dw. | ba : DC | ac : DE | n. Anh. 7. V.
+1. Der Grundstrich bc werde nach Nothdurfft gegen g verlängert.
+2. Von cg werde abgeschnitten das Stück ce | CE — n. 3. I.
+3. Es werde gemacht △ ced | △ CED — n. 22. I.
+4. Der Strich ba werde biß f, und
+5. Der Strich ed auch biß f verlängert.
 
-[Diagram: kleines Dreieck, blass im Hintergrund der Tabelle]
+### Beweiß.
 
-### Beschluß.
+DEC ⋏ dec — n. 3. Vorb.
+Dw. DEC ⋏ dec — n. 8. I.
+DEC ⋏ acb — n. 3. Gegeb.
+Dw. dec ⋏ acb — n. 1. Gr. I.
+u. de ⧣ ac — n. 28. I.
+dce ⋏ abc — n. 8. I.
+Dw. bf ⧣ dc — n. 28. I.
+u. facd ein nebenstrichichtes Viereck — n. 35. Beschr. I.
 
-So stehen derowegen aller gleichwincklichten Dreyecke Seiten in ebenmässiger Verhällnüß / so ferne sie gleichmässige Winckel einschrencken / oder gleichmässigen Winckeln gegen über stehen. W. Z. B.
+∝ ba : af | bc : ce — n. 2. VI.
+β af | cd — n. 34. I.
+ba : | ba
+Dw. ba : af | ba : cd — n. 7. V.
+ba : cd | bc : ce — n. 11. V.
+ce | CE — n. 2. Vorb.
+bc | bc
+Dw. bc : ce | bc : CE — n. 7. V.
+u. ba : cd | bc : CE — n. 11. V.
+cd | CD — n. 3. Vorb.
+ba | ba
 
-<!-- Catchword: Der -->
+<!-- Catchword: Dw. -->

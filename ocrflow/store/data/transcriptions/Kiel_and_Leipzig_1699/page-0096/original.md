@@ -1,44 +1,27 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 80 -->
+<!-- Page number: 79 -->
 
-### Beweiß.
+## Der XLV. Vortrag.
 
-tce ∠ A. | n. 22. Vortr.
-△ tce | □ a. | n. 44. Vortr.
-Dw. △ A | □ a. | n. 1. Gr-S.
+## Das 13. Werckstück.
 
-uxg ∠ B | n. 22. Vortr.
-△ uxg | □ b | n. 44. Vortr.
-Dw. △ B | □ b | n 1. GrS.
+Einer geradstrichichen Gestalt / nach dem gegebenen Winckel / ein gleichgrosses Viereck zu machen.
 
-△ A + △ B | □ a + □ b | n. 2. GrS.
-□ mngo | □ a + □ b | n. 9. GrS. q.
-Dw. △ A + △ B | □ mngo | n. 1. GrS.
-ypzq | △ A + △ B | n. 9. GrS. q.
-Dw. ypzq | □ mngo | n. 1. GrS.
-und D ∠ fgn | n. 2. Wirck.
-
-### Beschluß.
-
-Ist also der gegebenen Gestalt ypzq, nach dem gegebenen ∠ D, ein gleichhaltendes □ mngo verfertiget. W. Z. M.
-
-## Der XLVI. Vortrag.
-
-## Das 14. Werckstück.
-
-Auff den gegebenen geraden Strich ein gleichseitig und gleichwincklich Viereck zu beschreiben.
-
-### Gegebenes. | Begehrtes.
-Gerader Strich AB | □ ABCD
+### Gegebene. | Begehrte.
+1. Geradstrichiche Gestalt yz. | 1. □ gm | yz.
+2. Winckel D | 2. ogn ∠ D.
 
 ### Wirckung.
 
-1. AB werde verlänget gegen E.
-2. Auff B werde ein Senckstrich BC gesetzet. n. 11. Vortrag.
-3. Dieser Senckstrich BC | AB n. 2. Vortr.
-4. Aus C gegen über AB = CD n. 31. Vortr.
-5. CD | CB n. 2. Vortr.
-6. Aus A werde gezogen AD
+1. Werde durch einen ( oder so es nöthig mehr ) zwergstriche die gegebene Gestalt in Dreyecke getheilet.
 
-<!-- Catchword: Beweiß. -->
+2. Dem einen △ A werde ein gleichhaltendes Viereck nach dem gegebenen ∠ D gemacht/nach 44. Vortr.
+
+3. Dem andern △ B werde auch ein gleiches □ nach dem ∠ D und nach der einen Seite des □ a. gemacht/nach 44. Vortr.
+
+4. Diese beyden □ □ a und b werden zusammen gesetzet bey ihren gleich langen Seiten/ damit ein □ gomn daraus werde.
+
+[Diagram: Winckel D; Viereck ypzq mit Dreyecken A und B; Parallelogramm-Figur mit Punkten i, x, h, B, u, k, g und b; Figur c, d, e, s, t mit Dreyeck A und Viereck a; Parallelogramm o, g, m, n mit Vierecken b und a]
+
+<!-- Catchword: Be- -->

@@ -1,27 +1,32 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 172 -->
+<!-- Page number: 171 -->
 
-cken / und so ist es auch nicht gleich gestalt / n. 23. III. welches wider das 2. Gegeb. oder es wird sich schicken/ und also wird es gleich groß seyn / n. 8. Gr. I.
+4. Werde auch bd gezogen.
+### Beweiß.
+⌓ adb gleichgestalt mit ⌓ acb   n. 1. Vorber.
+Derowegen adb ⋀ acb   n. 10. Besch. III.
+Welches unmüglich   n. 16. I.
 ### Beschluß.
-Werden also gleichgestalte auff gleichlangen Strichen stehende Kreyßstücke gleicher grösse seyn. W. Z. B.
+Können also keine zwey gleichgestalte/ und doch von ungleicher Grösse/ Kreyßstücke auff einen einigen geraden Strich auff gleiche Weise gesetzet werden. W. Z. B.
 
-## Der XXV. Vortrag.
+## Der XXIV. Vortrag.
 
-## Das 3. Werckstück.
+## Das 22. Beweiß-Stück.
+Auff gleichlangen geraden Strichen stehende gleichgestalte Kreyß-Stücke/ sind gleichgroß.
 
-Wenn ein Kreyßstück gegeben wird/ desselben Kreyßstückes Kreyß zu beschreiben.
-
-### Gegebenes.
-Kreyßstück abc.
+### Gegebene.
+1. Zween gerade Striche ab | cd
+2. Gleichgestalte ⌓ aeb und ⌓ cfd
+3. Auff solchen Strichen stehend.
 
 ### Begehrtes.
-Kreyß bhac, dessen Theil das gegebene Kreyßstück ist.
+aeb [unclear: ⋀] cfd
 
-[Diagram: Kreyßstück mit den Punckten k, b, h, d, e, c, a, f; der Kreyß ist punctirt vollendet, mit Strichen durch e und f]
+[Diagram: Zwey Kreyß-Stücke, das eine über dem Strich ab mit dem Punckt e, das andere über dem Strich cd mit dem Punckt f]
 
-### Wirckung.
-1. Man ziehe in dem gegebenen Bogen den geraden Strich ac.
-2. Welcher in zwey gleiche Stücke ea | ec getheilet wird. n. 10. I.
+### Beweiß.
+Man lege den Strich cd auff den Strich ab, so werden sie sich zusammen schicken n. 8 Beschr. I. Darnach lege man auch den Bogen dfc auff den Bogen bea, so wird er entweder sich nicht schi-
 
-<!-- Catchword: 3. Durch -->
+<!-- Signature: P 2 -->
+<!-- Catchword: cken/ -->

@@ -1,35 +1,42 @@
-<!-- Page number: 110 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das II. Buch -->
+<!-- Page number: 109 -->
 
-4. Und getheilet in d
-5. Daß ad ⊦ bd
-6. ab | ac + cb
-7. ab | ad + bd.
+### Nach der Löse-Kunst.
 
-### Vorbereitung.
+### Gegebene. | Begehrtes.
 
-1. An den Düttel c werde ein Senckstrich ce auffgerichtet. n. 11. Vortr. I.
-2. Senckst. ce | ca n. 2. Vortr.
-3. Auff d werde auch ein Senckstrich dg gesetzet.
-4. Senckstrich dg | da
-5. Werde gezogen gf ⋕ dc
-6. - - - der Zwergstrich gb
-7. - - - Strich ae
-8. - - - - - be
-
-[Diagram: Dreieck über der Grundlinie a d c b mit Spitze e, darin die Punkte g und f, gestrichelte Linien; oben eine Linie von A nach B]
+1. a | ab | dd | bb + 4ac
+2. b | ac
+3. c | cb
+4. a | b + c
+5. d | b + 2c
 
 ### Beweiß.
 
-ac | cb | n. 3. Gegeb.
-ac | ce | n. 2. Vorber.
-α. Dw. cb | ce | n. 1. Gr. I.
-β. ecb ∠ ∟ | n. 1. Vorbr.
-cbe ∠ ceb | n. 5. I.
-ca | ce | n. 2. Vorbr.
-Dw. cae ∠ cea | n. 5. I.
-ace ∠ ∟ | n. 10. Besch. I.
-cea | ebc | n. 4. I.
+d | b + 2c | n. 5. Gegeb.
+dd | bb + 4bc + 4cc | n. 4. II.
+b + c | a n. 4. Gegeb.
+4c | 4c
+4bc + 4cc | 4ac n. 3. II.
+dd + 4bc + 4cc | bb + 4bc + 4cc + 4ac n. 2. Gr. I.
+4bc + 4cc | 4bc + 4cc
+dd | bb + 4ac | n. 3. Gr. I.
 
-<!-- Catchword: bec -->
+W. Z. B.
+
+## Der IX. Vortrag.
+
+## Das 9. Beweiß-Stück.
+
+Wenn man einen geraden Strich in zwey gleiche/ und zwey ungleiche Stücke theilet; So werden der beeden ungleichen Stücke ihre Vierecke/ zweymal so groß/ als das Viereck des halben Striches/ samt dem Vierecke des Mittel-Stückes seyn.
+
+### Gegebene. | Begehrtes.
+
+1. Strich ab | □ bd + □ da | 2 □ bc + 2 □ cd.
+2. Getheilet in c
+3. Daß ac | cb
+
+<!-- Signature: O 3 -->
+
+<!-- Catchword: 4. Und -->

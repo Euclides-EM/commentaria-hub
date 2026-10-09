@@ -1,36 +1,42 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 278 -->
+<!-- Page number: 277 -->
 
-### III. Gegebene.
+|  |  |  |
+|---|---|---|
+| a : b | B : C | n. Gegeb. |
+| Dw. b : a | C : B | n. 16. V. |
+| u. b : a | ⊦ b : c | n. 13. V. |
+| b | b | |
+| Dw. a | ⊦ c | n. 10. V. |
+
+### II. Gegebene.
 
 [Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
 A : B | b : c
 B : C | a : b
-A ⊦ C
+A | C
 
 ### Begehrtes.
 
-a ⊦ c
+a | c
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| b : c | A : B | ⌉ n. Geg. |
-| A : | ⊦ C | |
+| b : a | A : B | ⌉ n. Gegeb. |
+| A | C | |
 | B | B | |
-| Dw. A : B | ⊦ C : B | n. 8. V. |
-| u. b : c | ⊦ C : B | n. Anh. 13. V. |
-| a : b | B : C | n Gegeb. |
-| Dw. ⌠ b : a | C : B | n. 16. V. |
-| u. b : a | ⊣ b : c | n. 13. V. |
+| Dw. A : B | C : B | n. 7. V. |
+| und b : c | C : B | n. 11. V. |
+| a : b | B : C | n. Gegeb. |
+| b : a | C : B | n. 16. V. |
+| Dw. b : a | b : c | n. 11. V. |
 | b | b | |
-| Dw. a ⊦ | c | n. 10. V. |
+| u. a | c | n. 9. V. |
 
-### Beschluß.
+<!-- Signature: Mm 3 -->
 
-Wenn derowegen Sechs Grössen in verwirreter Ebenmaß stehen/ und die I. grösser ist / als die III. so wird auch die IV. grösser seyn/ als die VI. Ist aber die I. eben so groß/als die III. so ist auch die IV. eben so groß/als die VI. Und wenn die I. kleiner ist/als die III. so ist auch die IV. kleiner/als die VI. W. Z. B.
-
-<!-- Catchword: Der -->
+<!-- Catchword: III. Gege- -->

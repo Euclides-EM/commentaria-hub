@@ -1,41 +1,28 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 158 -->
+<!-- Page number: 157 -->
 
-4. Wie auch alle Senckstriche ad, ao, ak, ai.
-5. Aus dem Mittel-Düpffel a.
-6. Auff die im Kreyß stehende Striche bc, en, ef, hg gezogen.
+## Der XV. Vortrag.
 
-### I. Beweiß.
+## Das 14. Beweiß-Stück.
 
-ea + af ⊣ ef — n. 20. I.
-ea + af | ml — n. 15. Beschr. I.
-Dw. ml ⊣ ef — n. 1. Gr. c. I.
+Jn jedwedem Kreyß ist/ unter allen geraden Strichen/der Durchschlag am längsten : diejenigen Striche auch/ welche näher bey dem Mittel-Düpffel stehen/ sind länger/ als die/ so weiter davon abstehen.
 
-### II. Beweiß.
+### Gegebene. Begehrte.
 
-ean ⅄ eaf — n. 9. Gr. I.
-Dw. en ⊣ ef — n. 24. I.
-ef gleichweit vom Mittel a mit bc — n. 2. Vorb.
-Dw. ef | bc — n. 14. III.
-und en ⊣ bc — n. 1. Gr. c. I.
+1. Kreyß begc. — 1. Durchschlag ml am längsten.
+2. Mittel-Düpffel a. — 2. en ⊣ bc
+3. Durchschlag ml. — 3. hg ⊢ bc
+4. Strich bc näher bey a, als hg.
+5. bc weiter vom Mittel-Düpffel/als en.
 
-### III. Beweiß.
+[Diagram: Kreis mit Mittel-Düpffel a, Durchschlag ml, Sehnen hg (mit Punkt i), ef (mit Punkten k, o), en, bc (mit Punkt d), punktierte Stralen von a nach h, e, g, f]
 
-bc gleichweit vom Mittel a mit ef — n. 2. Vorb.
-Dw. bc | ef — n. 14. III.
-hag ⋏ [unclear: eaf] — n. 9. Gr. I.
-Dw. hg ⊢ ef — n. 24. I.
-und hg ⊢ bc — n. 1. Gr. d. I.
+### Vorbereitung.
 
-### Beschluß.
+1. Auß dem Düttel e werde gezogen der Strich ef, also daß
+2. Er gleichweit mit bc von dem Mittel-Düpffel abstehe.
+3. Deßgleichen werden die Stralen ha, ea, ga, fa, na.
 
-Jst also der Durchschlag ml der längste Strich: die Striche so näher bey dem Mittel a, sind länger/ als die/so weiter davon entfernet ; und die/ so weiter vom Mittel a stehen/ sind kürtzer/ als die/ welche dem Mittel a näher stehen. W. Z. B.
-
-## Der XVI. Vortrag.
-
-## Das 15. Beweiß-Stück.
-
-Derjenige Strich/ welchen man auff das Ende eines Durchschlages rechtwincklicht setzet, wird
-
-<!-- Catchword: nicht -->
+<!-- Signature: V 3 -->
+<!-- Catchword: 4. Wie -->

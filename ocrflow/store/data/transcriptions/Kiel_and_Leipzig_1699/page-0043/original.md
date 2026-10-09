@@ -1,39 +1,31 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 27 -->
+<!-- Page number: 26 -->
 
-adb ⋏ abd nach 5. Vortr.
-Drw. cdb ⋏ adb nach 1. Gr.S. d, welches aber unmöglich
-nach 1. Gr.S. c.
+### Vorbereitung.
 
-Wolte man aber sagen / die beeden andern Striche kämen in den Düttel f zusammen.
+Man ziehe aus b, wo die ersten beeden Striche sich vereinigen/ zu dem Düttel d, wo die andern beeden Striche zusammen stossen / einen geraden Strich bd.
 
-so ist ab | AB nach Gegeb. 2.
-DE | AB nach demselben gegeb.
-Dw. ab | DE nach 1. Gr. S.
-af | DE nach angenomn.
-Dw. af | ab nach 1. Gr. S. so unmöglich/ nach 9. Gr. S.
+[Diagram: zwey waagrechte Doppelstriche B–A und C–F–D, darunter ein Dreyeck mit den Düttelen b, d, e und punktierten Strichen]
 
-Eben so unmöglich können die beeden Striche in e zusammen kommen.
+### Verfolg des Beweises.
 
-### Beschluß.
+da | DE nach angenommenem β.
+AB | DE nach Gegebenen 2.
+Dw. AB | da nach 1. Grund-Satz.
+AB | ab nach Gegebenen 2.
+Dw. da | ab nach 1. Grund-S.
+und abd ⋏ adb nach 5. Vortrag.
 
-Weil nun kein Düttel / ohne allein der Düttel b zu finden / wo die andern beeden Striche zusammen stossen / so müssen sie nothwendig in dem Düttel/ wo die ersten beeden Striche einander berühret/ zusammen kommen. W. Z. B.
+cd | DF nach angenommem β.
+CB | DF nach Gegeb. 3.
+Dw. CB | cd nach 1. Grund-S.
+CB | cb nach Gegeb. 3.
+Dw. cd | cb nach 1. Grund-S.
+α und cbd | cdb nach 5. Vortrag.
 
-## Der IIX. Vortrag.
+cbd ⋏ abd nach 9. Grund-S.
+cbd ⋏ cdb nach 5. Beweiß. α
+cdb ⋏ abd nach 1. Grund-S. c.
 
-## Das 5. Beweiß Stück.
-
-Weñ in zweyen Drey-Ecken/ die zween Seiten-Striche des ersten △, denen zween Seiten-Strichen des andern Drey-eckes/ jedweder jedwedem gleich sind / die Grund-Striche aber auch gleich lang sind/ so werden auch die zwischen denen beeden gleich-grossen Seiten begriffene Winckel einander gleich
-
-### Gegebene. | Begehrtes.
-
-1. Zwey △ △
-2. AB + AC | ED + DF | BAC ⋏ EDF
-3. AB | ED
-4. AC | DF
-5. BC | EF
-
-<!-- Signature: D 2 -->
-
-<!-- Catchword: Be- -->
+<!-- Catchword: adb -->

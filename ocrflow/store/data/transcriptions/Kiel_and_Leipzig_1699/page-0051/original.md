@@ -1,33 +1,30 @@
-<!-- Page number: 35 -->
+<!-- Page number: 34 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
 ### Beweiß.
-Die Beeden geraden Striche EC und DC werden entweder gerade auff einander stossen/ oder schrad zu sammen lauffen. Wann sie nicht gerade auff einander stossen /
+Weil alhier der Strich DC Bley-recht auff AB stösset/ so müssen ∧ ACD und ∧ BCD zween ∟ ∟ Winckel seyn.
 
 ### Vorbereitung.
-So verlängere man den einen Strich EC gerade aus/ biß in F oder G/ nach 2. Foderung.
+Weil CD kein bley-rechter Senckstrich ist/ so richte man aus dem Düttel D einen bley-rechten Senckstrich DE auff/ n. 11. Vort.
 
-### Verfolg des Beweises.
-So werden ECA + ACF |
-oder ECA + ACG ⋀ ⊥ n. Angenom. und n. 13. Vortr.
-ECA + ACD ⋀ ⊥ n. 5. Gegebenem.
-Dw. ECA + ACD ⋀ ECA + ACF) ECA + ACG) n. 1. und 10. Gr-S.
-welches aber unmüglich n. 9. Gr-S.
+### Beweiß.
+
+ADE ⋀ BDE nach 11. Vortr.
+ADE + BDE ⋀ ⊥ nach 11. Vortr.
+ADE + BDE ⋀ ADC + BDC nach 8. Gr-S.
+Dw. ADC + BDC ⋀ ⊥ nach 1. Gr-S.
 
 ### Beschluß.
-Müssen derowegen die beeden Striche EC und DC gerade auff einander stossen / und von der gegend DC weder auff- noch unterwerts sich lencken. W. Z. B.
+Müssen derowegen die Winckel von dem herunterfallenden Strich gemacht/ entweder zween ∟ ∟ seyn/ wie an ACD und BCD zu sehen; oder wie ADC + BDC zweyen ⊥ gleich seyn. W. Z. B.
 
-## Der XV. Vortrag.
+## Der XIV. Vortrag.
 
-## Das 8. Beweiß-Stück.
+## Das 7. Beweiß-Stück
 
-Wenn zween gerade Striche einander durchschneiden/ so werden sie die gegen einander stehende Gipffel-Winckel einander gleich-groß machen.
+Wenn auff einen geraden Strich / und zwar auff einen einigen Düttel desselben/ zween gerade Striche / nicht von einer Seiten gezogen/ zusammen stossen/ und die zween neben einander stehende Winckel zweyen rechten Winckeln gleich groß machen; so werden sie gerade auffeinander stossen.
+(und einen einigen geraden Strich vorstellen.)
 
-### Gegebene. Begehrte.
-Die Gipffel-Winckel (anguli ad verticem)
-1. Zween gerade Striche AB und DE. AEC ⋀ DEB.
-2. Welche einander durchschneiden in E. AED ⋀ CEB.
+[Diagram: Zwei Diagramme. Links: senkrechter Strich AB durch Düttel C, waagerechter Strich ECD mit punktierten Linien. Rechts: schräger Strich AB durch Düttel C, Strich ED mit punktierten Linien nach F und G.]
 
-<!-- Signature: E 2 -->
 <!-- Catchword: Be- -->

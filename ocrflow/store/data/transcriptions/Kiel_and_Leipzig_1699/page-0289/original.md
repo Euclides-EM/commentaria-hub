@@ -1,47 +1,25 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 273 -->
-
-### I. Gegebene.
-
-A ________ | A : B : C
-B ______ | a : b : c
-C ____
-a ______ | A : B | a : b
-b ____ | B : C | b : c
-c __ | A ⊣ C
-
-[Diagram: Strecken A, B, C, a, b, c]
-
-### Begehrtes.
-
-a ⊣ c
+<!-- Page number: 272 -->
 
 ### Beweiß.
 
-a : b | A : C
-A ⊣ C — n. Geg.
-B | B
-Dw. A : B ⊣ C : B — n. 8. V.
-α und a : b ⊣ C : B — n. 13. V.
-b : c | B : C — n. Geg.
-c : b | C : B — n. 16. V.
-a : b ⊣ C : B — n. Bew. α
-Dw. a : b ⊣ c | b — n. 13. V.
-b | b
-u. a ⊣ c — n. 10. V.
+A | a + c
+B | b + d — n. Gegeb.
+A : B | a + c : b + d — n. Anh. 7. V.
+A : B | c : d — n. Gegeb.
+Dw. a + c : b + d | c : d — n. 11. V.
+und a : b | c : d — n. 17. V.
+Dw. a : b | A : B — n. 11. V.
 
-### II. Gegebene.
+### Beschluß.
 
-A ________________ | A : B | a : b
-B ______ | B : C | b : c
-C ________________ | A | C
-a ______
-b ____
-c ______
+Wenn derowegen die Gantzen sich zu einander also/ wie die abgenommenen Stücke zu einander verhalten: So werden die übergeblieben Stücke sich auch also/ wie die Gantzen zu einander verhalten. W. Z. B.
 
-[Diagram: Strecken A, B, C, a, b, c]
+## Der XX. Vortrag.
 
-<!-- Signature: Mm -->
+## Das 20. Beweiß-Stück.
 
-<!-- Catchword: Begehr- -->
+Wenn man drey Grössen hat/ welche mit andern drey Grössen in richtiger Ebenmaß stehen/ und die Erste der Ersten Ahrt grösser ist/ als die Dritte selbiger Ahrt/ so wird auch die Erste der andern Ahrt grösser seyn/ als die Dritte derselbē Ahrt: Ist aber die Erste gleichgroß mit der Dritten/ so ist auch in der andern Ahrt die Erste der Dritten gleicher Grösse: Und wenn die Erste kleiner/ als die Dritte/ so ist auch in der andern Ahrt die Erste kleiner/ als die Dritte.
+
+<!-- Catchword: I. Gegebene. -->

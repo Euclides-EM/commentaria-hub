@@ -1,11 +1,11 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 291 -->
+<!-- Page number: 290 -->
 
-## Der XXX. Vortrag.
-## Das 30. Beweiß-Stück.
+## Der XXIX. Vortrag.
+## Das 29. Beweiß-Stück.
 
-Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte sampt der Vierten zu der Vierten: So wird hingegen ümgekehrt die Erste sampt der Andern / zu der Ersten eine kleinere Verhältnüß / als die Dritte sampt der Vierten zu der Dritten haben.
+Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte mit der Vierten zu der Vierten : So wird auch zertheiletermassen die Erste zu der Andern eine grössere Verhältnüß / als die Dritte zu der Vierten haben.
 
 ### Gegebene.
 
@@ -14,20 +14,23 @@ Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern ein
 A + a : a ⊣ B + b : b
 
 ### Begehrtes.
-A + a : A ⊢ B + b : B.
+A : a ⊣ B : b.
 
 ### Beweiß.
+Wenn die Verhältnüß A zu a nicht grösser ist / als B zu b, so
 
 |  |  |  |  |
 |---|---|---|---|
-|  | A + a : a ⊣ B + b : b | | n. Geg. |
-| Dw. | A : a ⊣ B : b | | n. 29. V. |
-| und | a : A ⊢ b : B | | n 26. V. |
-| Dw. | a + A : A ⊢ b + B : B | | n. Anh. 28. V. |
+| sey dann | A : a | \| B : b | n. Ang. |
+| Dw wird | A + a : a | \| B + b : b | n. 28. V. |
+| oder es sey | A : a | ⊢ B : b | n. Angen. |
+| so wird | A + a : a | ⊢ B + b : b | n. 28. V. |
+
+Beydes ist wider das Gegebene
+
+muß Dw. A : a ⊣ B : b
 
 ### Beschluß.
-Wenn derowegen die I. sampt der II. zu der II. eine grössere Verhältnüß hat / als die III. sampt der IV. zu der IV. So wird auf verkehrte Art die I. sampt der II. zu der I. eine kleinere Verhältnüß / als die III. und IV. zu der III. haben. W. Z. B.
-
-<!-- Signature: Oo 2 -->
+Wenn derowegen die I. und II. zu der II. eine grössere Verhältnüß / als die III. und IV. zu der IV. haben / so wird auch die I. zu der II. eine grössere Verhältnüß / als die III. zu der IV. haben. W. Z. B.
 
 <!-- Catchword: Der -->

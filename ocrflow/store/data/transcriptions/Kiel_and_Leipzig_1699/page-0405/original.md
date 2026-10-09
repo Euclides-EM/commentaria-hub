@@ -1,53 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 389 -->
+<!-- Page number: 388 -->
 
-### I. Beweiß.
+### I. Begehrte.
 
-|  |  |  |
-|---|---|---|
-|  | bc \| ci | n. 3. Vorb. |
-| Dw. | bc ⌒⃒ ci | n. 28. III. |
-| und | bdc ⋀ cdi | n. 27. III. |
+∧ bac : ∧ feg | ⌒ bc : ⌒ fg.
+∧ bdc : fhg | ⌒ bc : ⌒ fg.
+△ bdc : △ fhg | ⌒ bc : ⌒ fg.
 
-Aus eben diesen Ursachen sind auch
+[Diagram: zwei punktierte Kreise mit einbeschriebenen Linien und Dreiecken; links die Punkte a, m, d, i, c, b; rechts die Punkte e, l, h, k, f, g]
 
-|  |  |  |
-|---|---|---|
-|  | fg ⌒⃒ gk ⌒⃒ kl | n. 3. Vorb. und 28. III. |
-| und | fhg ⋀ ghk ⋀ khl | n. 27. III. |
+### Vorbereitung.
 
-Wie vielfältig der Bogen bci, des Bogens bc: So vielfältig ist auch der Winckel bdi des Winckels bdc. n. 15. V.
+1. Es werden die beyden geraden Striche bc und fg gezogen.
 
-Und wie vielfältig der Bogen fgkl des Bogens fg: Eben so vielfältig ist auch der Winckel fhl des Winckel fhg. n. 15. V.
+2. Werden dem Kreyß abm die beyden geraden Striche ci und im eingefüget. n. 1. IV.
 
-oder:
+3. Welche dem Strich bc gleichmässig.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | ⌒ bci : ⌒ bc | ∧ bdi : ∧ bdc |  |
-|  | ⌒ fgkl : ⌒ fg | ∧ fhl : ∧ fhg |  |
-| Dw. | ∧ fgkl : ∧ fhl | ⌒ fg : ∧ fhg | n. 16. V. |
+bc | ci
+bc | im
 
-wenn derowegen
+4. Es werden auch dem Kreyß efm eingefüget die Striche gk und kl. n. 1. IV.
 
-|  |  |  |
-|---|---|---|
-|  | bci ⌒⃒ fgkl |  |
-| so muß | bdi ⋀ fhl |  |
-| ist | bci grösser ⌒⃒ fgkl |  |
-| so muß | bdi [unclear: ⋀̸] fhl |  |
-| und wenn | bci kleiner ⌒⃒ fgkl |  |
-| so muß | bdi [unclear: ⋀̸] fhl | n. 14. V. |
+5.
 
-|  |  |  |  |
-|---|---|---|---|
-| α Dw. | ⌒ bc : ⌒ fg | ∧ bdc : ∧ fhg | n. 6. Besch. V. |
-|  | ∧ bdc : ∧ fhg | ⌒ bc : ⌒ fg | n. Bew. α |
-| β Dw. | ∧ bdc : ⌒ bc | ∧ fhg : ⌒ fg | n. 16. V. |
-|  | 2 ∧ bac | ∧ bdc | n. 20. III. |
-|  | ⌒ bc | ⌒ bc |  |
+gk | fg
+kl | fg
 
-<!-- Signature: Ccc 3 -->
+6. Aus dem Mittel-Düpffel d werden die geraden Striche di und dm, und
 
-<!-- Catchword: Dw. -->
+7. Aus dem Mittel-Düpffel h werden auch zween Striche hk und hl.
+
+8. Desgleichen die geraden Striche bi und fl gezogen.
+
+<!-- Catchword: I. Beweiß. -->

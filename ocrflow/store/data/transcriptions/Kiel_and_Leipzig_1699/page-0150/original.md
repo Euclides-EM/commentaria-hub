@@ -1,30 +1,28 @@
-<!-- Page number: 134 -->
+<!-- Page number: 133 -->
 
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-[Diagram: Kreis mit Düpffeln e (oben), f (unten), b (links), c (rechts), Mittel-Düpffel a und Düttel d, punktierte Striche von b und c nach a]
-
-### Vorbereitung.
-
-Es werden gezogen die beeden Striche ab und ac.
-
-### Beweiß des I. Begehrten.
-
-ab | ac — n. 15. Beschr. I.
-Dw. abd ⋏ acd — n. 5. I.
-bd | cd — n. 4. Gegeb.
-Dw. adb ⋏ adc — n. 4. I.
-und adb | ∟ — n. 10. Beschr. I.
-
-### Beweiß des II. Begehrten.
-
-ab | ac — n. 15. Beschr. I.
-abd ⋏ acd — n. 5. I.
-adb ⋏ adc — n. 5. Gegeb.
-bd | dc — n. 26. I.
+Dw. gia ⋏ agi — n. 1. Gr. a. I.
+und ia ⊢ ag — n. 18. I.
 
 ### Beschluß.
 
-Wird also allezeit/ wenn ein Strich von einem Ende des Umbfangs e, durch denn Mittel-Düpffel a, biß zum andern Ende f gehet/ und einen im Kreyß stehenden Strich bc in zween gleiche Theil bd | dc schneidet/ mit dem Strich bc ⊥ machen: oder/ wenn er mit solchem Strich ⊥ machet / denselben auch in zweene gleiche Theile theilen. W. Z. B.
+Muß also der Düttel i, wie auch alle andere Düttele des Striches hg, und einfolglich der gantze Strich hg, inwendig in den Kreyß fallen. W. Z. B.
 
-<!-- Catchword: Der -->
+## Der III. Vortrag.
+
+## Das 2. BeweißStück.
+
+Wenn ein gerader Strich durch eines Kreyses Mittel-Düpffel gehet / und einen andern in solchem Kreyß stehenden Strich in zwey gleiche Stücke schneidet/ so wird er auch solchen Strich nach rechten Winckeln theilen: Wenn auch der erste Strich den andern nach rechten Winckeln theilet/ so wird er ihn einfolglich in zween gleiche Theile theilen.
+
+### Gegebene. — Begehrte.
+
+1. Kreyß ebfc.
+2. Durch den Mittel-Düpffel gehender Strich ef.
+3. Anderer im Kreyß stehender Strich bc, welcher
+4. Jn zween gleiche Theile getheilet ist/ nemlich bd | cd: oder — 1. adb | ∟ und adc | ∟: oder
+5. Der Strich bc vom ersten Strich ef nach rechten Winckeln getheilet/ daß adb ⋏ adc. — 2. bd | dc.
+
+<!-- Signature: R 3 -->
+
+<!-- Catchword: Vor- -->

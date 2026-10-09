@@ -1,46 +1,34 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 53 -->
+<!-- Page number: 52 -->
 
-Dw.   acb ⋏ hcb        n. 1. Gr-S.
-    welches unmüglich nach 9. Gr-S.
+werden die übrigen Seiten / denen übrigen Seiten / jedwede jedweder / und der übrige Winckel/ dem übrigen Winckel auch gleich seyn.
+
+### Gegebene.                    Begehrte.
+1. △ ABC                     A ⋏ a
+2. △ abc                     AB | ab
+3. BC | bc                   AC | ac
+4.   B ⋏ b
+5.   C ⋏ c    Beweiß.
+
+Entweder ist   AB ⊢ ab
+oder           AB ⊣ ab
+oder           AB | ab
+
+[Diagram: Zwei Dreiecke: links ABC, rechts abc mit punktierten Linien und Punkten d und h]
 
 ### Vorbereitung.
 
-Wann ab ⊣ AB, so schneide man bd | AB
+Wann AB ⊣ ab so werde ba verlängert / biß zu dem Düttel h, damit bh | AB.
 
 ### Verfolg des Beweises.
 
-      ab ⊣ AB             nach Angenommen.
-db         | AB           n. Vorber.
-      bc |      BC        n. 3. Gegeben.
-δ.  db + bc | AB + BC     n. 2. Gr-S.
-      abc ⋏ ABC           n. 4. Gegeb.
-Dw.   dcb ⋏ ACB           n. 4. Vortr.
-      acb ⋏ ACB           n. 5. Gegeb.
-Dw.   acb ⋏ dcb           n. 1. Gr-S.
-    welches unmöglich nach 9. Gr-S.
+     ab ⊢ AB              nach Angenommen.
+bh        | AB            n. Vorbereit.
+     bc |      BC         n. 3. Gegeben.
+bh + bc | AB + BC         n. 2. Gr-S.
+   hbc    ⋏    ABC        n. 4. Gegeben.
+Dw. hcb   ⋏    ACB        n. 4. Vortr.
+    acb   ⋏    ACB        n. 5. Gegeb.
 
-Gleiche Bewandniß hat es / wann man sagen wolte
-        AC ⊣ ac oder AC ⊢ ac
-
-Dieses kan noch anders bewiesen werden / wann man annimmet vor
-
-### Gegeben.
-
-1.  BC  |  bc
-2. ABC ⋏ abc
-3. BAC ⋏ bac
-
-### Beweiß.
-
-db + bc | AB + BC             n. Bew. δ.
-      abc ⋏ ABC               n. 2. Gegeb.
-Drw.  bdc ⋏ BAC               n. 4. Vortr.
-      bac ⋏ BAC               n. 3. Gegeb.
-Dw.   bac ⋏ bdc               n. 1. Gr-S.
-Welches aber unmöglich        n. 16. Vortr.
-
-<!-- Signature: G 3 -->
-
-<!-- Catchword: Beschluß. -->
+<!-- Catchword: Dw. -->

@@ -1,36 +1,39 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 228 -->
-
-I. Anhang.
-
-Hierauß erhellet / daß die Seiten des Sechseckes eben so
-groß seyn / als der Strahl oder halbe Durchschlag des Kreyses /
-welchem das Sechseck eingeschrieben ist.
-
-II. Anhang.
-
-Fast auff gleiche Weise kan ein gleichseitiges Dreyeck einem
-gegebenen Kreyß eingeschrieben werden.
-
-[Diagram: zwei sich schneidende Kreise; im rechten Kreis ein einbeschriebenes Dreyeck b e d mit Mittelpunkt e und Punkt f als Mittelpunkt des linken Kreises, punktierte Bögen durch o und d]
-
-### Wirckung.
-
-1. Aus f wird ein Kreyß nach der Weite fe dem gegebenen Krey-
-se eingeschrieben / welcher den gegebenen Kreyß in denen Dütteln
-e und o schneidet.
-2. Aus e und o werden nach selbiger Weite zwey Kreyßstücke
-gemacht /welche den Kreyß in d und b schneiden.
-3. Werden die Striche fd und fb gezogen.
-4. Wird der Strich db gezogen.
+<!-- Page number: 227 -->
 
 ### Beweiß.
 
-fe ⌒ fo
-ed ⌒ ob — n. 15. IV.
-Dw. — fe + ed ⌒ fo + ob — n. 2. Gr. I.
-u. — fd ⌒ fb — n. 9. Gr. q. I.
-Dw. — fd | fb — n. 29. III.
+cb | ca
+ab | ca — n. 15. Besch. I.
+Dw. — ab | cb — n. 1. Gr. I.
+u. — abc | gleichseitig △ — n. 23. Besch. I
+Dw. — acb ∧ abc ∧ bac — n. 8. I.
+u. — acb ∧ ⅓ ⌓ — n. 32. I.
+bac ∧ cad — n. 8. I.
+bac + cad + dae ∧ ⌓ — n. 13. I.
+bac | ⅓ ⌓
+cad | ⅓ ⌓
+Dw. — dae | ⅓ ⌓ — n. 3. Gr. I.
+bac ∧ fae
+cad ∧ fag
+dae ∧ bag — n. 15. I.
+Dw. — bac ∧ cad ∧ dae ∧ fae ∧ fag ∧ bag, n. 11. Gr. I.
+α. u. — bc ⌒ cd ⌒ de ⌒ fe ⌒ fg ⌒ bg — n. 26. III.
+u. — bc | cd | de | fe | fg | bg — n. 29. III.
+bc ⌒ de — n. Bew. α.
+efgb ⌒ efgb
+Dw. — efgb + bc ⌒ de + efgb — n. 1. Gr. I.
+u. — cde ∧ bcd — n. 27. III.
+Gleicher Weise cde ∧ def ∧ efg ∧ fgb ∧ gbc
 
-<!-- Catchword: Dw- -->
+Dw. ist das Sechßeck bcdefg gleichseitig und gleichwincklicht/
+und dem gegebenen Kreyß eingeschrieben/ n. 3. Beschr. IV.
+
+### Beschluß.
+
+Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
+licht Sechßeck eingeschrieben. W Z. M.
+
+<!-- Signature: Ff 2 -->
+<!-- Catchword: I. An- -->

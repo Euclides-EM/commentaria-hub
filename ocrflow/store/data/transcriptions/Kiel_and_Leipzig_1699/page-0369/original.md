@@ -1,33 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 353 -->
+<!-- Page number: 352 -->
 
-Dw. △ ABC ähnlich dem △ abc n. 1. Beschr. VI.
-u. AB : BC | ab : bc n. 4. VI.
-Aus eben denen Ursachen sind auch
-BC : CD | bc : cd
-u. CD : DE | cd : de
-u. DE : EF | de : ef
+Dw. ist cdefg ähnlich der Gestalt abhik, und eben so gesetzet n. 1. Beschr. VI.
 
-Und ist also abcdef ähnlich der Gestalt ABCDEF n. der 1. Beschr. VI. und auf den gegebenen Strich ab gesetzet n. 2. Wirck. W. Z. M.
+### Beschluß.
 
-## Der XIX. Vortrag.
+Ist also ein dem gegebenen Fünfeck abhik, ähnliches und eben so gesetztes Fünfeck cdefg auf den gegebenen Strich cd gesetzet. W. Z. M.
 
-## Das 13. Beweiß-Stück.
+## Des XIIX. Vortrags Anhang.
 
-Aehnliche Dreyecke stehen gegen einander in zwiefach grösserer (duplicata) Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. (homologa latera.)
+Vortheilhafftiger kan dieser Aufgabe ein Genügen geschehen/ wenn
 
-### Gegebene.
+1. aus dem Winckel A zu denen gegenstehenden Winckeln C D E gerade Striche gezogen werden.
 
-1. Dreyeck a b c.
-2. und d e f
-3. △ abc ähnlich dem △ def.
+2. Dem gegebenen geraden Strich ab ein gleichmässiger von der Seiten AB abgeschnitten wird n. 3. I.
 
-### Begehrte.
+3. Aus | b gegen | BC ein Nebenstrich | bc,
+4. | c | CD | cd,
+5. | d | DE | de,
+6. | e | EF | ef gezogen wird n. 31. I.
 
-| ab : de
-△ abc : △ def ⊐ | bc : ef
-| ca : fd.
+[Diagram: Sechseck ABCDEF mit einwärts liegendem ähnlichen Sechseck abcdef; von A gehen punktierte Striche zu den Ecken; oben der Strich A a—b B]
 
-<!-- Signature: Y y -->
-<!-- Catchword: Vorbe- -->
+### Beweiß.
+
+BC ∓ bc n. 3. W.
+Dw. ACB ⋏ acb
+u. ABC ⋏ abc n. 29. I.
+CAB ⋏ cab n 8. Gr. I.
+
+<!-- Catchword: Dw. -->

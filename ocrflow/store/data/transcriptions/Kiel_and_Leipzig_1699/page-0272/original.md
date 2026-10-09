@@ -1,41 +1,37 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 256 -->
+<!-- Page number: 255 -->
 
-## Der IX. Vortrag.
-
-## Das 9. Beweiß-Stück.
-
-Welche Grössen zu einer einigen Grösse gleiche Verhältnüß haben / dieselbigen sind gleich groß; Und zu welchen Grössen eine einige Grösse gleiche Verhältnüß hat / dieselbigen sind gleich groß.
+## Des II. Theils
 
 ### Gegebene. — Begehrtes.
 
 [Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
-A : a | B : a — A | B.
+A ⊣ B — a : B ⊣ a : A.
+A | 5a
+B | 3a
+
+### Vorbereitung.
+
+1. Man nehme wiederümb a siebenmahl/
+2. Aber A zweymahl/
+3. Und B auch zweymahl.
 
 ### Beweiß.
 
-A | 3a
-B | 3a — n. Gegebene.
-Dw. A | B — n. 6. Gr. I.
+B | 3a — nach Gegeb.
+2B | 6a — n. 6 Gr. i. I.
+7a ⊣ 6a — n. 9. Gr. I.
+Dw. 7a ⊣ 2B — n. 1. Gr. a. I.
+A | 5a
+2A | 10a
+10a ⊣ 7a
+Dw. 2A ⊣ 7a
+Und a : B ⊣ a : A — n. 8. Beschr. V.
 
-Oder also:
+### Beschluß.
 
-Wenn A ⊣ B — so muß
-auch A : a ⊣ B : a — n. 8. V.
-ist aber A ⊢ B — so muß
-A : a ⊢ B : a — n 8. V.
+Derowegen ist allezeit die von ungleichen Grössen Grössere gegen die Dritte mehr vierfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vierfältig / als gegen die Grössere. W. Z. B.
 
-Beedes aber ist wider das Gegebene: müssen derowegen A und B gleichgroß seyn.
-
-### Beweiß des II. Theils.
-
-### Gegebene. — Begehrtes.
-
-[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
-
-a : A | a : B — A | B
-<!-- Signature: B -->
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Der -->

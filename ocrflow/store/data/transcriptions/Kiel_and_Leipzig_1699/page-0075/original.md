@@ -1,35 +1,32 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 59 -->
+<!-- Page number: 58 -->
 
-### Beweiß des 3.
+nommene; Wie auch den auswendigen dem inwendig entgegen stehenden ; Und die beeden inwendig auff einer Seiten befindliche Winckele gleich groß.
 
-        AGH ⋏ GHD           n. 1. Beweiß.
-        AGH ⋏ EGB           n. 15. Vortr.
-β.  Dw.   GHD ⋏ EGB         n. 1. Gr-S.
+### Gegebene.                    Begehrte.
+1. AB = CD                   1. AGH ⋏ GHD
+2. Einfallender Strich EF    2. BGH ⋏ GHC
+                             3. EGB ⋏ GHD
+                             4. BGH + GHD ⋏ ⏥
 
-### Beweiß des 4.
+[Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
 
-AGH           ⋏ GHD             n. 1. Beweiß.
-        BGH ⋏         BGH
-AGH + BGH ⋏ GHD + BGH   n. 2. Gr-S.
-AGH + BGH ⋏ ⏥            n. 13. Vortr.
-γ. Dw. GHD + BGH ⋏ ⏥     n. 1. und 10. Gr-S.
+### Beweiß des 1. und 2.
 
-### Beschluß.
+Entweder ist  AGH ⊼ GHD
+        oder  AGH ⊼ GHD
+        oder  AGH ⋏ GHD
 
-Werden also die bey denen Neben-Strichen von dem einfallenden Strich gemachte (α) Wechsel-Winckel/ darnach (β) aus- und inwendige Winckel gleich groß/ und (γ) die zweene inwendige Winckel zweyen ⏥ gleich seyn. W. Z. B.
+Wenn AGH           ⊼ GHD nach Angenommenem
+              BGH ⋏           BGH
+Dw.   AGH + BGH ⊼ GHD + BGH   n. 4. Gr-S.
+      AGH + BGH ⋏ ⏥            n. 13. Vortr.
+Dw.   GHD + BGH ⊼ ⏥            n.1. Gr-S. c.
 
-## Der XXX. Vortrag.
+und werden AB und CD in der gegend B zusammen kommen nach dem Vorsatz (per Lemma) weßwegen sie keine neben-Striche stehen können nach 34. Beschr. welches aber wieder 1. Gegeb.
+Gleiche Bewandniß hat es/ wenn man sagen wolte/es were
+        AGH ⊼ GHD :
+α. muß also nohtwendig   AGH ⋏ GHD.
 
-## Das 21. Werckstück.
-
-Wenn zween Striche neben dem dritten in unveränderter Weite hinlauffen / so sind selbige auch unter sich Neben-Striche.
-
-### Gegebene.                         Begehrtes.
-1. Zween Striche AB und CD        AB ═ CD
-2. Der Strich EF
-3.        AB ╪ EF
-4.        CD ╪ EF
-
-[Diagram: Drei waagerechte Striche AB, EF und CD, geschnitten vom schrägen Strich GH in den Dütteln I, L und K]
+<!-- Catchword: Be- -->

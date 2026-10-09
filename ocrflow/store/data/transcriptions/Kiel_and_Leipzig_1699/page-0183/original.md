@@ -1,37 +1,27 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 167 -->
-
-## Der XXI. Vortrag.
-
-## Das 19. Beweiß-Stück.
-
-Alle in einem Kreyßstück stehende Winckel sind gleich groß.
-
-### Gegebene. Begehrtes.
-
-1. Kreyßstück dbce — dbe ∠ dce
-2. Zweene in solchem Kreyßstück stehende Winckel dbe und dce.
-
-I. Arth.
-
-### Vorbereitung.
-
-Es werde gezogen der Strahl ea
-
-[Diagram: Kreyßstück über der Sehne de mit den Punkten b oben und c rechts, Mitteldüpffel a; Striche bd, be, cd, ce und punktierter Strahl ae]
-
-### Beweiß.
-
-[unclear: dbe] ∠ ½ dae
-dce ∠ ½ dae — n. 20. I.
-Dw. dce ∠ [unclear: dbe] — n. 7. Gr. I.
+<!-- Page number: 166 -->
 
 II. Arth.
 
-### Vorbereitung.
+cah ∠ 2 cph
+dah ∠ 2 dph — n. 1. Bew.
+Dw. cah + dah ∠ 2 cph + 2 dph — n. 2. Gr. I.
+oder cad ∠ 2 cpd — n. 9. Gr. q. I.
 
-1. Werden auß den Winckeln b und c durch den Mittel-Düpffel a gezogen zween gerade Striche bg und cf.
-2. Werden auch die Strahlen da und ea gezogen.
+[Diagram: Kreis mit Mitteldüpffel a, Punkt p oben, c links unten, d rechts unten, h unten; Striche pc, pd, ac, ad und punktierte Linie ph]
 
-<!-- Catchword: I. Be- -->
+III. Arth.
+
+eac ∠ 2 efc
+dae ∠ 2 efd — n. 1. Bew.
+eac — dae ∠ 2 efc — 2 efd — n. 3. Gr. I.
+oder dac ∠ 2 dfc
+
+[Diagram: Kreis mit Mitteldüpffel a, Punkt b oben links, f links, e rechts, d rechts unten, c unten; Striche bf, fd, fc, ad, ac und punktierte Linien ba, fe]
+
+### Beschluß.
+
+Wird also allezeit der Mittel-Düpffels Winckel noch einmahl so groß seyn / als der auff eben solchem Kreyßzug stehende Kreyßstücks-Winckel. W. Z. B.
+
+<!-- Catchword: Der -->

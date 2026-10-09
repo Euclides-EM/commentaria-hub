@@ -1,40 +1,31 @@
-<!-- Page number: 122 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das II. Buch -->
+<!-- Page number: 121 -->
 
-□ ac | □ ad + □ cd
-□ ac + □ ab + (□ ad + □ cd) | 2 ▭ bad + □ bd + □ cd + (□ ad + □ cd) | n. 47. I.
-n. 2. Gr. I.
-□ ac + □ ab | 2 ▭ bad + □ bd + □ cd n. 3 Gr. I
-□ bd + □ cd | □ cb n. 74. I.
-□ ac + □ ab + (□ bd + □ cd) | 2 ▭ bad + (□ bd + □ cd) + □ cb
-□ ac + □ ab | 2 ▭ bad + □ cb
-2 ▭ bad | 2 ▭ bad
-□ ac + □ ab — 2 ▭ bad | □ cb | n. 3. Gr. I.
+## Der XIII. Vortrag.
 
-### Auff eine andere Arth.
+## Das 12. Beweiß-Stück.
 
-### Begehrtes.
-
-□ ca | □ ab — 2 ▭ abd + □ cb
-
-### Beweiß.
-
-cda | ∟
-Dw. □ ca | □ ab — 2 ▭ abd + □ bd + □ cd
-und □ bd + □ cd | □ cb | n. 47. I.
-□ ca (+ □ bd + □ cd) | □ ab — 2 ▭ abd (+ □ bd + □ cd) + □ cb n. 2. Gr. I.
-Dw. □ ca | □ ab — 2 ▭ abd + □ cb n. 3. Gr. I.
-
-### Beschluß.
-
-Wird also in jedwedem spitzwincklichten △ das □ der dem spitzigen ∠ b übergespanneten Seite ca so viel kleiner seyn / denn der beeden übrigen/ den spitzigen ∠ b begreiffenden Seiten ab und cb, ihre □ □, als das ▭ der Seite ab und des Stückes bd, so der aus dem ∠ c gezogene Senckstrich cd auff der Seite des ∠ b abgeschneidet. W. Z. B
-
-### Nach der Löß-Kunst.
+In allen spitzwincklichten Dreyecken ist das gleichseitige Viereck der Seite / welche dem spitzigen Winckel übergespannet ist / kleiner/ als der beeden Seiten / so den spitzigen Winckel begreiffen / ihre Vierecke / ümb so viel austrägt das zweyfach genommene Viereck/ so von der am spitzigen Winckel stehenden Seite / auff welches von dem überstehende Winckel ein Senckstrich fället / und von dem zwischen diesem Senckstrich und spitzigen Winckel stehenden Stück gemacht wird.
 
 ### Gegebene. | Begehrtes.
 
-a | ac | cc | bb + aa — [unclear: 2ba]
-b | ab
+1. △ abc | □ cb | □ ac + □ ab — 2 ▭ bad
+2. Spitziger ∠ a
+3. Senckstrich cd, welcher
+4. auff die am ∠ a stehende Seite abfället/
+5. und das zwischen dem Senckstrich cd und ∠ a stehende stück ad abschneidet.
+6. cda | ∟
 
-<!-- Catchword: ccb -->
+[Diagram: spitzwinkliges Dreieck a c d mit punktierten Linien von c nach b und von d nach b]
+
+### Beweiß.
+
+□ ab + □ ad | 2 ▭ bad + □ bd | n. 7. II.
+□ cd | □ cd
+□ ab + □ ad + □ cd | 2 ▭ bad + □ bd + □ cd
+n. 2. Gr. I.
+
+<!-- Signature: Q -->
+
+<!-- Catchword: ac -->

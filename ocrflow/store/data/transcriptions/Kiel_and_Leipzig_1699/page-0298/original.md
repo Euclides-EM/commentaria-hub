@@ -1,39 +1,31 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 282 -->
-
-### Gegebene.
-
-[Diagram: vier Linien mit den Bezeichnungen A und c, B, a, b am linken Rand]
-
-A : | a :
-: B | : b
-C : | c :
-
-### Begehrtes.
-
-A + C : B | a + c : b.
+<!-- Page number: 281 -->
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| C : B | c : b | n Geg. |
-| B : C | b : c | n. 4. V. |
-| A : B | a : b | n. Geg. |
-| Dw. A : C | a : c | n. 22. V. |
-| u. A + C : C | a + c : c | n. 18. V. |
-| C : B | c : b, | n Gegeb. |
-| Dw. A + C : B | a + c : b | n. 22. V. |
+| B : C | a : b | n. Geg. |
+| B : C | c : d | n. Vorb. |
+| Dw. a : b | c : d | n. 11. V. |
+| α a : c | b : d | n. 16. V. |
+| b : c | A : B | n Geg. |
+| c : d | B : C | n. Vorb. |
+| b : d | A : C | n. 22. V. |
+| b : d | a : c | n. Bew. α |
+| Dw. A : C | a : c | |
 
 ### Beschluß.
 
-Wenn derowegen Sechs Grössen gegeben werden/deren I. zu der II. sich also verhält/ wie die III. zu der IV. darnach auch die V. zu der II. wie die VI. zu der III. So müssen auch die I. und V. zusammen sich zu der II. also wie III. und VI. zusammen genommen sich zu der IV. verhalten.
+Werden derowegen Sechs in verwirreter Ebenmaß stehende Grössen auch ein ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
 
-## Der XXV. Vortrag.
+## Der XXIV. Vortrag.
 
-## Das 25. Beweiß-Stück.
+## Das 24. Beweiß-Stück.
 
-Wenn vier Ebenmässige Grössen gegeben werden/ so sind die Grösseste und Kleineste derselben grösser / als die beeden übrigen.
+Wenn man Sechs Grössen hat/ deren Erste zu der Andern eine solche Verhältnüß hat/ als die Dritte zu der Vierten: darnach auch die Fünffte zu der Andern eine solche Verhältnüß hat / wie die Sechste zu der Vierten: So wird auch die Erste mit der Fünfften zu der Andern/ eine solche Verhältnüß/ wie die Dritte mit der Sechsten zu der Vierten haben.
 
-<!-- Catchword: Gegebene- -->
+<!-- Signature: Nn -->
+
+<!-- Catchword: A— -->

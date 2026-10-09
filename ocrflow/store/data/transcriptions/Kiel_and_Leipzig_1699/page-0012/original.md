@@ -1,11 +1,7 @@
 <!-- Running title: Vorrede. -->
 
-Aufkleisterung oder Anleimung der gehörigen Worte können außgebessert werden/ und deßwegen sind selbige also gedruckt/ daß man sie mit einer Schere außschneiden/ und den Fehler durch Aufleimung damit bedecken kan.
+daß/ ungeachtet unser Euclides von denen meisten Mathematicis, wegen seiner scharffsinnigen und genauen Beweißthümer/ hochgeschätzt und sehr gelobet wird/ doch etliche sonst verständige Mathematici gefunden werden/ welche ihn getadelt: und zwar schon vor etlichen 100. Jahren haben die Pyrrhonii oder Sceptici, welche an allen/ auch an den warhafftigsten dingen zweiffelten/ den Euclidem angefochten: deßgleichen in diesem Seculo hat Marcus Meybomius in seinem Buch de Proportionibus den IIX. und X. Vortrag des V. Buchs Euclid. über einen hauffen zu werffen getrachtet: aber so wol jene/ als auch dieser sind von Wilhelmo Langio, in seinem Tractat de Veritatibus Geometricis, so zu Copenhagen 1656. gedrucket / zur gnüge widerleget worden. In dem vorigen Seculo haben Petrus Ramus und Johannes Thomas Freigius dergleichen versuchet/ sind aber von Joanne Broccio, Professore Cracoviensi, in seiner Apologia pro Aristotele & Euclide, abgefertiget worden. Noch vor nicht gar langer Zeit hat ein unbekanter Auctor in seinem Buche de arte cogitandi den II. und XX. Vortrag vor unnötig gehalten/ weil sie keines Beweises bedürfften: da doch alles/ was bewiesen werden kan/ nicht so schlechter dinges muß angenommen werden: anderer Einwürffe anitzo zu geschweigen.
 
-Die andere Ahrt kan nicht wol anders / als mit der Feder geändert werden.
+Endlich ist nöthig/ daß man/ wo nicht alle / doch die vornehmsten Druckfehler ändere / welche füglich in drey Ahrten können abgetheilet werden. Die erste Ahrt bestehet aus solchen/ welche leichtlich durch
 
-Die Ubrigen werden nicht groß hinderlich seyn/ wenn sie gleich nicht geändert werden.
-
-Und so viel hat man dieses mal zu erinnern vor nohtwendig gehalten. Solte nun dem günstigen Leser diese geringe Arbeit gefallen / so wird man mehr dergleichen/ ob GOtt wil/ an den Tag zu geben gereitzet werden.
-
-<!-- Catchword: Lecto- -->
+<!-- Catchword: Auf- -->

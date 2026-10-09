@@ -1,37 +1,29 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 203 -->
+<!-- Page number: 202 -->
 
-### Wirckung.
+IV. Eine geradstrichichte Gestalt wird umb einen Kreyß beschrieben genennet/ wenn sie mit ihren Seiten den Umbfang des Kreyses berühret.
 
-1. Werde der Durchschlag cg gezogen.
-2. Von diesem Durschlag werde abgeschnitten das Stück ce | ab n. 3. I.
-3. Nach der Weite ce, werde aus c, als einem Mittel-Düpffel/ ein Kreyß gezogen.
-4. Zu dem Düttel d, wo dieser Kreyß den gegebenen Kreyß durchschneidet/werde der Strich cd gezogen.
+V. Auff gleiche weise wird ein einer geradstrichichten Gestalt eingeschriebener Kreyß genennet/ welcher mit seinem Umfang alle derselbigen Gestalt Seiten berühret.
 
-### Beweiß.
+VI. Ein ümb eine geradstrichichte Gestalt beschriebener Kreyß wird genennet / welcher mit seinem Umfang alle derselben Gestalt Ecken berühret.
 
-ce | ab n. 1. Wirck.
-ce | cd n. 15. Beschr. I.
-Dw. cd | ab n. 1. Gr. I.
-und cd | dem Kreyß eingefüget n. 7. Beschr. IV.
+VII. Ein dem Kreyß eingesetzter oder eingefügter gerader Strich wird genennet/ dessen beede Ende in dem Kreyßzuge stehen.
 
-### Beschluß.
+8. Gleichwincklichte Dreyecke ( oder Gestalte ) sind/ in welchen alle Winckel des einen/ allen Winckeln des andern / jedweder jedwedem gleich sind.
 
-Ist also der Strich cd | ab dem Kreyß cdf eingefüget. W. Z. M.
+## Der I. Vortrag.
 
-## Der II. Vortrag.
+## Das 1. Werckstück.
 
-## Das 2. Werckstück.
+Einem gegebenen Kreyß einen geraden Strich / welcher dem gegebenen Strich gleich groß / aber nicht so groß/ als des Kreyses Durchschlag sey/ einzufügen.
 
-In den gegebenen Kreyß ein Dreyeck/welches dem gegebenen Dreyeck gleich wincklicht sey/ einzu schreiben.
+### Gegebene. Begehrtes.
 
-### Gegebene. Begehrte.
+1. Kreyß cdf. 1. Einem Kreyß eingefügter
+2. Gerader Strich ab. Strich cd.
+3. Der Durchschlag cg ⊣ ab. 2. cd | ab.
 
-1. Kreyß abc. 1. In den Kreyß eingeschriebenes
-2. Dreyeck fgh. △ abc.
-2. △ abc gleichwincklicht dem △ fhg.
-
-<!-- Signature: Cc 2 -->
+[Diagram: links ein senkrechter Strich ab; daneben ein Kreis cdf mit Mittelpunkt e, punktierter Durchmesser gc und eingefügtem Strich cd; ein zweiter punktierter Kreisbogen um c durch d und f]
 
 <!-- Catchword: Wir- -->

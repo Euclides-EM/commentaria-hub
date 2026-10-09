@@ -1,37 +1,47 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 274 -->
+<!-- Page number: 273 -->
+
+### I. Gegebene.
+
+A ________ | A : B : C
+B ______ | a : b : c
+C ____
+a ______ | A : B | a : b
+b ____ | B : C | b : c
+c __ | A ⊣ C
+
+[Diagram: Strecken A, B, C, a, b, c]
 
 ### Begehrtes.
 
-a | c
+a ⊣ c
 
 ### Beweiß.
 
-|  |  |  |
-|---|---|---|
-| a : b | A : B | ⌉ n. Geg. |
-| A | C | |
-| B | B | |
-| A : B | C : B | n. 7. V. |
-| β Dw. a : b | C : B | n. 11. V. |
-| b : c | B : C | n. Geg: |
-| Dw. c : b | C : B | n. 16. V. |
-| a : b | C : B | n. Bew. β |
-| Dw. a : b | c : b | n. 11. V. |
-| b | b | |
-| und a | c | n. 9. V. |
+a : b | A : C
+A ⊣ C — n. Geg.
+B | B
+Dw. A : B ⊣ C : B — n. 8. V.
+α und a : b ⊣ C : B — n. 13. V.
+b : c | B : C — n. Geg.
+c : b | C : B — n. 16. V.
+a : b ⊣ C : B — n. Bew. α
+Dw. a : b ⊣ c | b — n. 13. V.
+b | b
+u. a ⊣ c — n. 10. V.
 
-### III. Gegebene.
+### II. Gegebene.
 
-[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
+A ________________ | A : B | a : b
+B ______ | B : C | b : c
+C ________________ | A | C
+a ______
+b ____
+c ______
 
-A : B | a : b
-B : C | b : c
-A | ⊦ C
+[Diagram: Strecken A, B, C, a, b, c]
 
-### Begehrtes.
+<!-- Signature: Mm -->
 
-a ⊦ c
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Begehr- -->

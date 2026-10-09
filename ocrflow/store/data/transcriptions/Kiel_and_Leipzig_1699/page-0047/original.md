@@ -1,31 +1,32 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch. -->
 
-<!-- Page number: 31 -->
+<!-- Page number: 30 -->
 
-### Wirckung.
+### Gegebenes. | Begehrtes.
 
-1. Wird der gantze Striche in zween gleiche Theile getheilet.
-2. Jedwede helffte / wird wiederumb in zween gleiche Theile getheilet.
-3. Jedweder Vierthel wird abermahl in zween gleiche Theile geschnitten/ und so fort an.
-
-## Der XI Vortrag.
-
-## Das 6. Werckstück.
-
-Auff einen gegebenen geraden Strich / und zwar auff den darin gegebenen Düttel/ einen bleyrechten Senck-Strich zu setzen.
-
-### Gegebene. | Begehrte.
-
-1. Gerade Strich AB. | 1. Der bley-rechte Senck-strich CD.
-2. Der Düttel C | 2. Auff den gegebenen Düttel C.
-3. In eben demselben Strich AB. | 3. Des gegebenen Striches AB.
+Der gerade endliche Strich/ AB. | Des Striches zween gleich Theile AC | CB.
 
 ### Wirckung.
 
-1. Aus dem gegebenen Düttel C wird nach beliebiger weite ein Kreyß gezogen / welcher den gegebenen Strich in E und F durchschneidet.
-2. Auff dem Strich EF wird ein gleichseitiges (oder gleichschenckliches) △ gesetzet/ nach 1. Vortr.
-3. Aus dieses △es Gipffel D wird ein gerader Strich DC zu dem gegebenen Düttel C gezogen.
+1. Auff den gegebenen Strich AB wird ein gleichseitiges oder gleichschenckliches △ gemacht/ nach 1. Vortr.
+2. Dieses △es Winckel D wird in zween gleiche theile getheilet/ nach 9. Vortr.
 
-[Diagram: Strich AB mit Düttel C, darüber der Senck-Strich CD mit punktiertem Dreyeck und Kreyß durch E und F]
+[Diagram: Strich AB mit punktiertem Dreyeck über D und Theilungspunkt C, darunter der Punkt E und ein Strich mit mehreren punktierten senkrechten Theilungslinien und Kreuzlein]
 
-<!-- Catchword: Be- -->
+### Beweiß.
+
+AD | BD nach 1. Vortr.
+DC | DC
+AD + DC | BD + DC nach 2. Gr. S.
+ADC ⋏ BDC nach 2. Wirckung.
+Dw. AC | CB nach 4. Vortr.
+
+### Beschluß.
+
+Und ist also der gegebene Strich AB in zween gleiche Theile getheilet / W. Z. M.
+
+2. Zugabe
+
+Einen gegebenen Strich in 4/ 8/ 16 und so ferner / gleiche Theile zu theilen.
+
+<!-- Catchword: Wir- -->

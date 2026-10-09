@@ -1,43 +1,35 @@
-<!-- Page number: 116 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das II. Buch -->
+<!-- Page number: 115 -->
 
-Striches/ welcher aus dem halben und angesetzten Stück zusammen gesetzet cd, zweymahl genommen. W. Z. B.
+κ oder fg | cd | n. 9. Gr. q. I.
+ef | cd | n. 34. I.
+Dw. ef | fg | n. 1. Gr. I.
+efg ∠ ecd | n. 34. I.
+∟ ∠ ecd | n. Bew. δ.
+Dw. efg ∠ ∟ | n. 1. Gr. I.
+und □ ge | 2 □ ef | n. 47. I.
+gf | cd | n. Bew. κ
+□ gf | □ cd | n. 1. Gr. t. II.
+θ. Dw. □ ge | 2 □ cd | n. 6 Gr. k. I.
+aeb ∠ ∟ | n. Bew. ε.
+Dw. □ ga | □ ge + □ ae
+□ ga | □ ad + □ dg | n. 47. I.
+Dw. □ ge + □ ae | □ ad + □ dg | n. 1. Gr. I.
+□ ae | 2 □ ac | n. Bew ζ.
+□ ge | 2 □ cd | n. Bew. θ.
+Dw. □ ae + □ ge | 2 □ ac + 2 □ cd | n. 2. Gr. I.
+u. □ ad + □ dg | 2 □ ac + 2 □ cd | n. 1. Gr. I.
+bd | dg n. Bew. η.
+□ bd | □ dg n. 1. Gr. t. II.
+□ ad + □ dg + □ bd | 2 □ ac + 2 □ cd + □ dg | n. 2. Gr. I.
+□ dg | □ dg
+□ ad + □ bd | 2 □ ac + 2 □ cd | n. 3. Gr. I.
 
-### Nach der Löse-Kunst.
+### Beschluß.
 
-### Gegebene. | Begehrtes.
+Muß also allezeit/ wenn ein Strich in zween gleiche Theile getheilet/ und ein Stück angesetzet wird/ das □ des gantzen und angesetzten ad, samt dem □ des angesetzten Stückes bd absonderlich / so groß seyn/ als die beeden □ □ des halben Striches ac, und des
 
-1. a | ad
-2. b | cd
-3. c | cb
-4. d | bd
-5. a | b + c
-6. d | b — c
+<!-- Signature: P 2 -->
 
-### Beweiß.
-
-a | b + c | n. 5. Geg.
-aa | bb + 2bc + cc | n. 4. II.
-d | b — c | n. 6. Geg.
-dd | bb — 2bc + cc | n. 4. II.
-aa + dd | bb + 2bc + cc + bb — 2bc + cc | n 2 Gr. I.
-oder aa + dd | 2bb + 2cc | W. Z B.
-
-## Der XI. Vortrag.
-
-## Das 1. Werck-Stück.
-
-Einen geraden Strich also zu theilen/ daß das Viereck/ welches der gantze Strich und das eine Stück begreiffen/ eben so groß sey/ als das gleichseitige Viereck des andern Stückes.
-
-### Gegebenes. | Begehrtes.
-
-Gerader Strich ab | 1. Getheilet in c also
-2. daß ▭ abc | □ ac
-
-### Wirckung.
-
-1. Auff ab werde ein gleichseitiges □ ab gesetzt/ n. 46. I.
-2. Die Seite ae werde in zween gleiche Theil getheilet in dem Düttel d, n. 10. I.
-
-<!-- Catchword: 3. Aus -->
+<!-- Catchword: Stri- -->

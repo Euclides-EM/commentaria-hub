@@ -1,26 +1,26 @@
 <!-- Running title: Axiomata. -->
 
-<!-- Page number: 13 -->
+<!-- Page number: 12 -->
 
-(n) Wenn (zwey) Dinge ab und cd halb so groß sind / als (zwey) andere gleiche Dinge ef und mn / so sind dieselben auch ein ander gleich.
+VI. Diejenigen (zwey) Dinge ab und cd / welche zweyfach grösser sind / als das dritte ef/ dieselbigen ab und cd sind einander gleich.
 
-[Diagram: vier Striche a–b (kurz), e–f, m–n (länger, gleich), c–d (kurz)]
+[Diagram: drei Striche a–b, e–f (kürzer), c–d]
 
-(o) Wenn von (zwey) gleich grossen Dingen ab und cd, eines ab halb so groß ist/als eins ef von ( zwey ) andern gleichen Dingen ef und mn, so sind dieselben ( beyden ) Dinge ab und cd auch halb so groß / als die andern (beyden) Dinge ef und mn.
+(i) Wenn (zwey) Dinge ab und cd zwiefach so groß sind/als (zwey) andere gleiche Dinge ef und im / sind die beeden ersten ab und cd auch einander gleich.
 
-[Diagram: vier Striche a–b, c–d (kürzer, gleich), e–f, m–n (länger, gleich)]
+[Diagram: vier Striche a–b, e–f, i–m, c–d]
 
-(p) Gleiche bewandniß hat es / wenn etliche Dinge ab, cd nur dritte Theile / oder vierte ab, cd Theile / oder noch kleinere Theile sind.
+(k) Wenn ein Ding ab zweymal so groß ist / als das eine cd ( zweyer gleichen Dinge cd und ef/ ) so ist ab auch zweymal so groß/ als das andere ef.
 
-[Diagram: links Striche m–n, f–e, a–b, c–d; rechts Striche a–b, c–d (kurz), e–f, m–n (lang)]
+[Diagram: drei Striche a–b (lang), c–d, e–f (kürzer, gleich lang)]
 
-VIII. Wenn ( zwey ) Dinge ab und cd sich in allen Stücken zusammen schicken/ so sind sie einander gleich.
+(l) Eben dieses gehet auch bey denen Dingen ef an / welche drey-vier-oder mehr-mal grösser oder kleiner sind.
 
-[Diagram: zwei gleiche Striche a–b und c–d; zwei übereinander gelegte Quadrate, zwei übereinander gelegte Dreiecke und zwei übereinander gelegte Kreise]
+[Diagram: links drei Striche a–b, e–f (kurz), c–d; rechts drei Striche e–f (lang), a–b (kurz), c–d (kurz)]
 
-IX. Das gantze ab ist grösser/ als ein Theil oder Stück ac desselben ( es mag auch seyn so groß / als es immer wolle.)
+VII. Wenn (zwey) Dinge ab und cd halb so groß sind /als das dritte ef/ so sind sie unter einander gleich.
+(m) Welche ab und cd gleich groß sind/ die sind auch halb so groß / als das dritte ef.
 
-[Diagram: ein Strich a–b, darunter der Punkt c]
+[Diagram: drei Striche a–b, c–d (gleich lang), e–f (doppelt so lang)]
 
-<!-- Signature: B 3 -->
-<!-- Catchword: (q) Wenn -->
+<!-- Catchword: (n) Wenn -->

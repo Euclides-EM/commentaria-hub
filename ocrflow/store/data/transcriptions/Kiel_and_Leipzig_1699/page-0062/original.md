@@ -1,33 +1,29 @@
-<!-- Page number: 46 -->
+<!-- Page number: 45 -->
 
-<!-- Running title: Das I. Buch -->
-
-### Beschluß.
-Ist also das △ ABF verfertiget/ in welchen
-AB | bc. a.
-AF | ac ß.
-und BF | ba γ. W. Z. M.
-
-## Der XXIII. Vortrag.
-
-## Das 9. Werck-Stück.
-
-Auff einen gegebenen geraden Strich/ und zwar auff den darin gegebenen Düttel / einen Winckel / welcher dem gegebenen gerad-Strichichen Winckel gleich sey/ zu setzen.
-
-### Gegebene. Begehrte.
-1. ∧ FED 1. ICK ⋀ FEG
-2. Gerader Strich AB 2. auff den Strich AB
-3. Düttel C 3. im Düttel C
-4. In dem Strich AB 4. auff dem Strich AB.
-
-[Diagram: Zwei Winkel: links Winkel bei E mit Schenkeln nach F oben und G, rechts Winkel bei C mit Schenkeln nach I oben und K; waagerechter Strich E G C K, punktierte Kreisbögen FG und IK; Punkte A und B.]
+<!-- Running title: Euclidis. -->
 
 ### Wirckung.
 
-1. Auß dem Düttel E wird nach beliebiger grösse ein Kreyßstück FG gezogen/ damit EG | EF.
-2. Werde der Strich FG gezogen.
-3. Auß dem Düttel C wird von dem Strich AB abgeschnitten ein Stück CK | EG n. 3. Vortr.
-4. Auff den Strich CK setze man CI | EF)
-und KI | GF) n. 22. Vort.
+1. Ziehe man einen ungeendeten Strich CD
+2. Von diesen Strich CD schneide man ab AC | ac)
+3. Deßgleichen AB | bc)
+4. Wie auch BE | ba) alles n. 3. Vortr.
+5. Werde aus A gezogen der Kreyß CF.
+6. Deßgleichen aus B der Kreyß EF.
+7. Zu dem Düttel F, wo die beeden Kreysse einander durchschneiden/ ziehe man aus A den Strich AF.
+8. und aus B den Strich BF.
 
-<!-- Catchword: Beweiß -->
+[Diagram: Zwei sich durchschneidende punktierte Kreise um A und B; waagerechter Strich C A B E D; Dreieck ABF mit F oben am Schnittpunkt der Kreise; rechts daneben drei Strecken bezeichnet mit c a, a, b b.]
+
+### Beweiß.
+
+AC | ac)
+a. AB | bc)
+BE | ba) nach 3. Vortr.
+AF | AC)
+BF | BE) nach 15. Beschr.
+Dw. ß AF | ac)
+und γ BF | ba) nach 1. Gr-S.
+
+<!-- Signature: F 3 -->
+<!-- Catchword: Be- -->

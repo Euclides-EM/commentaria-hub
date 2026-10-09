@@ -1,25 +1,40 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 244 -->
+<!-- Page number: 243 -->
 
-tig gegen die Andere / und die Dritte eben so vielfältig gegen die Vierte ist (als nemlich die Erste war gegen die Andere; und man noch nimmt zwo Grössen / deren Erste zu der gegebenen Ersten / und die Andere zu der gegebenen Dritten gleichvielfältig sind: So wird die Erste von denen zwo letzt-genommenen eben so viefältig seyn gegen die Andere (von denen erst gegebenen/) als die Andere von denen Letzt-genommenen ist gegen die Vierte (von denen erst-gegebenen.)
+### III. Beweiß.
 
-### Gegebene.
+|  |  |  |  |
+|---|---|---|---|
+| | A + C | 5a | n. Bew. α |
+| | 3 | 3 | |
+| | 3A + 3C | 15a | n. Gr. 6. l. I. |
+| | 2a | ⊢ 15a | n. Gr. 9. I. |
+| Dw. | 3A + 3C ⊣ | 2a | n. Gr. 1. c. I. |
+| | B + D | 5b | n. Bew. β |
+| | 3 | 3 | |
+| | 3B + 3D | 15b | n. Gr. 6. l. I. |
+| | 2b | ⊢ 15b | n. Gr. 9. I. |
+| Dw. | 3B + 3D ⊣ | 2a | n. Gr. 1. d. I. |
+| Weil nun 1. | A + C | 5a | n. Bew. α |
+| und | B + D | 5b | n. Bew. β |
+| 2. | A + C ⊢ | 6a | n. Bew. γ |
+| und | B + D ⊢ | 6b | n. Bew. δ |
+| 3. | A + C ⊣ | 2a | n. Bew. ε |
+| und | B + D ⊣ | 2b | n Bew. η |
 
-[Diagram: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, a, C, B, b, D]
+So ist auch A + C : a | B + D : b, n. 6. Beschr. V.
 
-A : a | B : b
-C : A | D : B
+### Beschluß.
 
-### Begehrtes.
+Wenn derohalben die 1. Grösse der 2. gleichvielfältig/ auch die 3. der 4. gleichvielfältig ist. Darnach auch die 5 Grösse zu der 2. so vielfältig ist/als die 6. Grösse zu der 4. So müssen auch die 1. und 5 zusammen genommen/ zu der 2. eben so vielfältig seyn/als die 3. und 6. Grössen zusammen genommen zu der 4. Grösse sind/ W. Z. B.
 
-C : a | D : b
+## Der III. Vortrag.
 
-### Vorbereitung.
+## Das 3. Beweiß-Stück.
 
-1. Die Grösse A werde in l, c, d, also getheilet / daß l | a, c | a und d | a werde. n. 3. I.
-2. Deßgleichen werde B in e, f, g, getheilet / daß e | b, f | b und g | b werde. n. 3. I.
-3. Es werde auch C in h, k, m, also getheilet / daß h | A k | A und m | A werde. n. 3. I.
-4. Und D werde in n, p, q, getheilet / daß n | B, p | B q | B werde. n. 3. I.
+Wenn (unter den vier gegebenen Grössen) die Erste vielfäl-
 
-<!-- Catchword: I. Be- -->
+<!-- Signature: Hh 2 -->
+
+<!-- Catchword: tig -->

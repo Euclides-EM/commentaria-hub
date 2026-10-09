@@ -1,30 +1,37 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 180 -->
+<!-- Page number: 179 -->
 
-## Der XXXI. Vortrag.
+## Der XXX. Vortrag.
 
-## Das 27. Beweiß-Stück.
-Wann ein Kreyß-Stück ein Halb-Kreyß ist/ so stehet ein rechter Winckel darinn; ist es aber grösser/ so stehet ein spitziger / und so es kleiner/ so stehet ein stumpffer Winckel darinn. Uber dieses ist eines grössern Kreyßstückes Winckel grösser/ und eines kleinern Kreyßstückes Winckel kleiner/ als ein rechter Winckel.
+## Das 4. Werckstück.
+Einen gegebenen Bogen in zween gleiche Theile zu theilen.
 
-### I. Begebenheit.
-
-### Gegebene.
-1. Kreyß dbcd.
-2. Halb-Kreyß bdc.
-3. Winckel cdb.
+### Gegebenes.
+Kreyßstück oder Bogen adb.
 
 ### Begehrtes.
-cdb ⋀ ∟
+ad ⊻ db.
 
-[Diagram: Kreyß mit dem Zwerg-Strich bc durch den Mittel-Düpffel a, dem Punckt d oben am Kreyß und dem verlängten Strich bis e; der Strahl ad punctirt]
+### Wirckung.
+1. Der Strich ab werde in zween gleiche Theile getheilet. n. 10. I.
+2. Auff das Mittel c werde ein Senckstrich cd gesetzet. n. 11. I.
+
+[Diagram: Kreyßstück über dem Strich ab mit dem Senckstrich cd; die Striche ad und bd punctirt]
 
 ### Vorbereitung.
-1. Werde der Strich bd verlängt biß e.
-2. Der Strahl ad gezogen.
+Es werden gezogen die beyden geraden Striche ad und bd.
+### Beweiß.
 
-### I. Beweiß.
-abd ⋀ adb
-acd ⋀ adc } n. 5. I.
+ac | bc   n. 1. Wirck.
+cd | cd
+Dw. ac + cd | bc + cd   n. 2. Gr. I.
+acd ⋀ bcd   n 11. I. und n. 10. Beschr. I.
+Dw. ad | bd   n. 4. I.
+und ad ⊻ bd   n. 28. III.
 
-<!-- Catchword: Dw. -->
+### Beschluß.
+Ist also der gegebene Bogen adb in zween gleiche Theile ad ⊻ bd getheilet. W. Z. M.
+
+<!-- Signature: Q 2 -->
+<!-- Catchword: Der -->

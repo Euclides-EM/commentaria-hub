@@ -1,34 +1,30 @@
-<!-- Page number: 305 -->
+<!-- Page number: 304 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-### Beweiß.
+### I. Gegebene. — Begehrtes.
 
-eu | ab — n. 5. Vorb.
-fq | cq — n. 3. Geg.
-Dw. efu △ acb — n. 38. I.
-△ efd + △ dfl + △ lfu | △ efu — n. 9. Gr. q. I.
-oder 3 △ efd | △ efu
-∝ Dw. 3 △ efd | △ abc — n. Gr. I.
-ab | 3de — n. 4. Geg.
-△ acb — △ acb
-Dw. ab : △ acb | 3de : △ acb — n. 7. V.
-3de | 3de
-3 △ efd — △ abc n. Bew. ∝
-Dw. 3de : 3 △ efd | 3de : △ abc — n. 7. V.
-u. 3de : 3 △ efd | ab : △ abc — n. 11. V.
-de : △ efd | 3de : 3 △ efd — n. 15. V.
-Dw. de : △ efd | ab : △ abc — n. 11. V.
-β u. de : ab | △ efd : △ abc — n. 16. V.
+1. Dreyeck abc
+2. Dreyeck def — ab : de | △ abc : △ def.
+3. Die Höhen cq | fq
+4. Grundstriche ab | 3 db
 
-### Beschluß.
+[Diagram: Zwei Dreiecke mit gemeinsamer Grundlinie u t d q e q a r s b, aus den Gipffeln f und c gehen gestrichelte und ausgezogene Striche auf die Grundlinie herab]
 
-Alle Dreyecke/ welche gleichmässige Höhen haben / verhalten sich also/ wie ihre Grundstriche gegen einander. W. Z. B.
+### Vorbereitung.
 
-## Des I. Vortrags II. Gegebene.
+1. Des grössern Dreyecks abc Grundstrich ab, welcher dreyfach gegen des kleinern Dreyecks def Grundstrich de ist/ werde in solche Stücke getheilet/ welche dem Grundstrich de gleichmässig sind n. 3. I.
 
-1. Zwey nebenstrichichte Vierecke ln. und hk.
-2. Gleichmässige Höhen rm|kg.
+de|ar|rs|sb.
 
-<!-- Signature: Qq -->
-<!-- Catchword: Begehrtes. -->
+2. Aus dem Gipffel c werden gerade Striche auf des Grundstrichs Abtheilungen gezogen/ nemlich cr und cs.
+
+3. Der Grundstrich de des kleinern Dreyecks werde verlängert.
+
+4. Von diesem verlängeten Strich werde ein Stück eu|ab abgeschnitten n. 3. I.
+
+5. Auf diesen Strich ab werden auch gesetzet die Längen dt|tu|de n. 3. I.
+
+6. Werden die Striche ft und fu gezogen.
+
+<!-- Catchword: Beweiß- -->

@@ -1,32 +1,42 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 105 -->
+<!-- Page number: 104 -->
 
-### Beweiß
+### Beschluß.
 
-d | d — n. Beweiß.
-b | d − c
-f | d + b
-d | c + b
-c | f
-dd | fc + bb — n. 5. II. W. Z B.
+Wird also allezeit das gleichseitige □ des Halben und angesetzten Striches so groß seyn/ als das □, so von dem zusammen gesetzten Strich/ und angesetzten Stück begriffen wird/ samt dem gleichseitigen □ des halben Striches/ W. Z. B.
 
-## Der VII. Vortrag.
+### Nach der Löse-Kunst.
 
-## Das 7. Beweiß-Stück.
+### Gegebenes. | Begehrtes.
 
-Wenn ein gerader Strich/ auff wasserley weise in zwey Stücke getheilet ist/ so wird das von dem gantzen Strich/ und das von einem Stück begriffene gleichseitige Viereck/ eben so groß seyn/ als das von diesem Stück und dem gantzen Strich begriffene Viereck/ zweymal genommen/ samt dem gleichseitigen Viereck des übrigen Stückes.
-
-### Gegebene. | Begehrtes.
-
-1. Gerader Strich ab. — □ ab + □ cb | □ abc + □ ac
-2. getheilet in c.
-
-[Diagram: Links ein Quadrat a c b mit innerer gestrichelter Linie, Punkten e, d, g, c, f, a, h, b; rechts Rechtecke D, E, F mit n oben, darunter H, G mit o, p, m.]
+1. c | CD — bb + ca | dd
+2. c | 2b
+3. b | BC | DB
+4. c | AC
+5. b + c | AB | d
+6. a | 2b + c
 
 ### Beweiß.
 
-ab | ac + cb — n. 9. Gr. I.
-□ ab | □ ac + 2 □ acb + □ cb — n. 4. II.
-□ cb | □ cb
-<!-- Catchword: D | □ ab -->
+b + c | d — n. 5. Gegeb.
+bb + 2bc + cc | dd — n. 4. II.
+a | 2b + c — n. 6. Gegeb.
+c | c
+ca | 2bc + cc — n. 3. II.
+bb + 2bc + cc + ca | dd + 2bc + cc — n. 1. Gr. I.
+2bc + cc | 2bc + cc
+bb + ca | dd — n. 3. Gr. I. W. Z. B.
+
+### Auff die andere Arth.
+
+[Diagram: Waagerechter Strich mit den Punkten A, B, C, D, E.]
+
+### Gegebene. | Begehrte.
+
+c | AC | DE — dd | fc + bb
+b | CB | BD
+c + b | d | AB | BE
+d + b | f | AD
+
+<!-- Catchword: Be- -->

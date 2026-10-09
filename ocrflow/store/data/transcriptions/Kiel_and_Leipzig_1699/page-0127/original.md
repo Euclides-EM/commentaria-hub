@@ -1,38 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 110 -->
 
-<!-- Page number: 111 -->
+<!-- Running title: Das II. Buch -->
 
-bec + ebc ∠ ∟ | n. 32. I.
-bec + ebc + cea ∠ ∟ + ebc | n. 2. Gr. I.
-ebc ∠ ebc
-bec + cea ∠ ∟ | n. 3. Gr. I.
-oder bea ∠ ∟ | n. 9. Gr. q. I.
-gdb ∠ ∟
-adg ∠ ∟ | n. 10. Bes. I.
+4. Und getheilet in d
+5. Daß ad ⊦ bd
+6. ab | ac + cb
+7. ab | ad + bd.
 
----
+### Vorbereitung.
 
-dg ⋕ ce | n. 28. I.
-Dw. agd ∠ gef | n. 29. I.
-cae ∠ gef | n. 5. I.
-γ. Dw. cae ∠ agd | n. 1. Gr. I.
-und ad | dg. | n. 6. I.
+1. An den Düttel c werde ein Senckstrich ce auffgerichtet. n. 11. Vortr. I.
+2. Senckst. ce | ca n. 2. Vortr.
+3. Auff d werde auch ein Senckstrich dg gesetzet.
+4. Senckstrich dg | da
+5. Werde gezogen gf ⋕ dc
+6. - - - der Zwergstrich gb
+7. - - - Strich ae
+8. - - - - - be
 
----
+[Diagram: Dreieck über der Grundlinie a d c b mit Spitze e, darin die Punkte g und f, gestrichelte Linien; oben eine Linie von A nach B]
 
-ec | cb | n. Bew. α.
-□ ce | □ cb | n. 1. Gr. t. II.
-ecb ∠ ∟ | n. Bew. β.
-Dw. □ eb | □ ec + □ cb | n. 47. I.
-2 □ cb | □ ec + □ cb
-Dw. □ eb | 2 □ cb | n. 1. Gr. I.
-und □ eg | 2 □ gf
-□ eg + □ eb | 2 □ cb + 2 □ gf | n. 2. Gr. I.
-□ gb | □ eg + □ eb n. 47. I.
-□ eg + □ eb + □ gb | 2 □ cb + 2 □ gf + □ eg + □ eb | n. 2. Gr. I.
-□ eg + □ eb | □ eg + □ eb
-□ gb | 2 □ cb + 2 □ gf | n. 3. Gr. I.
-gf | cd | n. 36. I.
-□ gf | □ cd | n. 1. Gr. t. II.
+### Beweiß.
 
-<!-- Catchword: 2 □ gf -->
+ac | cb | n. 3. Gegeb.
+ac | ce | n. 2. Vorber.
+α. Dw. cb | ce | n. 1. Gr. I.
+β. ecb ∠ ∟ | n. 1. Vorbr.
+cbe ∠ ceb | n. 5. I.
+ca | ce | n. 2. Vorbr.
+Dw. cae ∠ cea | n. 5. I.
+ace ∠ ∟ | n. 10. Besch. I.
+cea | ebc | n. 4. I.
+
+<!-- Catchword: bec -->

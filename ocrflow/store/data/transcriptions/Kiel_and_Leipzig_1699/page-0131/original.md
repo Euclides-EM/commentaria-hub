@@ -1,35 +1,30 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 114 -->
 
-<!-- Page number: 115 -->
+<!-- Running title: Das II. Buch -->
 
-κ oder fg | cd | n. 9. Gr. q. I.
-ef | cd | n. 34. I.
-Dw. ef | fg | n. 1. Gr. I.
-efg ∠ ecd | n. 34. I.
-∟ ∠ ecd | n. Bew. δ.
-Dw. efg ∠ ∟ | n. 1. Gr. I.
-und □ ge | 2 □ ef | n. 47. I.
-gf | cd | n. Bew. κ
-□ gf | □ cd | n. 1. Gr. t. II.
-θ. Dw. □ ge | 2 □ cd | n. 6 Gr. k. I.
-aeb ∠ ∟ | n. Bew. ε.
-Dw. □ ga | □ ge + □ ae
-□ ga | □ ad + □ dg | n. 47. I.
-Dw. □ ge + □ ae | □ ad + □ dg | n. 1. Gr. I.
-□ ae | 2 □ ac | n. Bew ζ.
-□ ge | 2 □ cd | n. Bew. θ.
-Dw. □ ae + □ ge | 2 □ ac + 2 □ cd | n. 2. Gr. I.
-u. □ ad + □ dg | 2 □ ac + 2 □ cd | n. 1. Gr. I.
-bd | dg n. Bew. η.
-□ bd | □ dg n. 1. Gr. t. II.
-□ ad + □ dg + □ bd | 2 □ ac + 2 □ cd + □ dg | n. 2. Gr. I.
-□ dg | □ dg
-□ ad + □ bd | 2 □ ac + 2 □ cd | n. 3. Gr. I.
+[Diagram: punktierte Konstruktion; oben Punkte e und f, Grundlinie a c b d, unten rechts Punkt g, gestrichelte Linien verbinden e, f, d und g]
 
-### Beschluß.
+### Beweiß.
 
-Muß also allezeit/ wenn ein Strich in zween gleiche Theile getheilet/ und ein Stück angesetzet wird/ das □ des gantzen und angesetzten ad, samt dem □ des angesetzten Stückes bd absonderlich / so groß seyn/ als die beeden □ □ des halben Striches ac, und des
+ca | ce | n. 2. Vorb.
+α. Dw. eac ∠ aec | n. 5. I.
+β. cb | ce | n. 2. Vorb.
+γ. ceb ∠ cbe
+ce | Senckstrich | n. 1. Vorber.
+Dw. eca ∠ ∟
+δ. ecb ∠ ∟ | n. 10. Beschr.
+eac + aec ∠ ∟
+ceb + cbe ∠ ∟ | n. 34. I.
+aec ∠ ½ ∟ | n. Bew. α.
+ceb ∠ ½ ∟ | n. Bew. γ.
+aec + ceb ∠ ∟
+ε. und aeb ∠ ∟ | n. 9. Gr. q. I.
+Dw. □ ae | □ ac + □ ce | n. 47. I.
+ζ. oder □ ae | 2 □ ac
+fd | ce | n. 34. I.
+cb | ce | n. Bew. β.
+Dw. fd | cb | n. 1. Gr. I.
+η. dg | bd | n. 5. Vorb.
+fd + dg | cb + bd | n. 2. Gr. I.
 
-<!-- Signature: P 2 -->
-
-<!-- Catchword: Stri- -->
+<!-- Catchword: oder -->

@@ -1,23 +1,26 @@
-<!-- Running title: Definitiones. -->
+<!-- Running title: Beschreibungen. -->
 
-<!-- Page number: 3 -->
+<!-- Page number: 2 -->
 
-IIX. Ein ebener Winckel wird von zween Strichen auff einer ebenen Fläche gemacht/ wenn die Striche nicht neben einander / sondern gegen einander gezogen / einander anrühren.
+# Deß I. Buchs Anfänge (Principia,) und zwar 1. Beschreibungen der Kunst wörter.
 
-[Diagram: mehrere Winkeldarstellungen aus gekrümmten und geraden Strichen]
+I. Ein Düpffelein (Punctum) oder Düttel ist ein sichtbares Zeichen eines untheilbaren Anfangs aller Grössen.
+II. Ein Strich (Linea) ist ein Zeichen einer Länge/ die keine Breite hat.
 
-IX. Ein gerader Winckel bestehet auß geraden Strichen.
+[Diagram: waagerechte gerade Linie]
 
-[Diagram: mehrere Winkeldarstellungen aus geraden Strichen]
+III. Das Eusserste oder die Endungen (Termini) eines endlichen Striches sind Düpffele oder Düttele.
+IV. Ein gerader Strich (oder Zug) ist/ welcher ohne Außweichung und am kürtzesten zwischen seinen End-Düpffeln außgestrecket ist: die andern / so nicht gleich außgestrecket sind/ werden krumme Züge genennet.
 
-X. Wenn ein gerader Strich auff einen andern geraden Strich fället oder stösset/ also daß die beeden neben einander stehende Winckel einander gleich werden / so ist jedweder derselben ein rechter Winckel; der anstossende Strich wird ein Bleyrechter Senck-Strich deß gegenstehenden oder unterliegenden Striches genennet.
+[Diagram: gerade Linie, durchkreuzt von punktierten krummen Schlingenzügen]
 
-[Diagram: senkrechter Strich auf waagerechtem Strich mit Halbkreis]
+V. Eine Fläche (Superficies) ist/ welche nur auß einer Länge und Breite bestehet/ (aber keine Dicke hat.)
 
-XI. Ein stumpffer Winckel ist / welcher einen rechten Winckel übertrifft.
+[Diagram: Rechteck]
 
-[Diagram: zwei Darstellungen stumpfer Winkel]
+VI. Die endliche Fläche wird von Strichen eingeschrencket.
+VII. Eine ebene Fläche ist/ welche gerade/ ohne Auffblehung oder Niedersinckung/ zwischen ihren Endstrichen lieget / oder stehet.
 
-<!-- Signature: A 2 -->
+[Diagram: zwei Vierecke, links ein Trapez, rechts ein nach unten gespitztes Viereck]
 
-<!-- Catchword: XII. Ein -->
+<!-- Catchword: IIX. Ein -->

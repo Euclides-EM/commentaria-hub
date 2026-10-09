@@ -1,25 +1,19 @@
-<!-- Page number: 129 -->
+<!-- Page number: 128 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-[Diagram: zwey ähnliche Kreyßstücke nebst einem flachen Bogen]
+VII. Ein im Kreyß-Stück stehender Winckel (angulus in segmento) ist welcher von zween geraden Strichen/ so man aus den beeden Ecken des Kreyß-Stückes zu einem in dem Bogen erwehlten Düttel zeucht / begriffen wird.
 
-Also werden auch gleichgestalte Bogen (arcus similes genennet/ auff welchen gleich-grosse Winckel stehen.
+[Diagram: Kreyß-Stück mit einbeschriebenem Winckel, dessen Schenckel von den Ecken zu einem Düttel im Bogen gehen]
 
-[Diagram: Kreis mit einbeschriebenem Winckel und kleinerem Kreise darinnen]
+IIX. Wenn aber zween gerade / einen winckel machende Striche ein Stück des Umkreyses absondern / so wird es stehender Winckel genennet.
 
-## Der I. Vortrag.
+[Diagram: Kreis mit einbeschriebenem Winckel, dessen Spitze am Umkreys stehet]
 
-## Das 1. Werck-Stück:
+IX. Ein Kreyß-Schnitt (sector circuli) ist/ wenn zween gerade / aus dem Mitteldüpffel gezogene Striche ein Stück des Kreyses begreiffen.
 
-Eines gegebenen Kreyses Mitteldüpffel zu finden.
+[Diagram: Kreis mit ausgeschnittenem Sector (Kreyß-Schnitt)]
 
-### Gegebenes. — Begehrtes.
+X. Aehnliche oder gleichgestalte Kreyßstücke sind/ in welchen gleichgrosse Winckel stehen können.
 
-Der Kreyß bhc. — Mittel-Düpffel a.
-
-[Diagram: Kreis mit Düpffeln g (oben), b (links), e (Mitte), c (rechts), h (unten), darinnen a, d, f, mit punktierten Strichen von b und c nach d]
-
-<!-- Signature: R -->
-
-<!-- Catchword: Wirckung. -->
+<!-- Catchword: Also -->

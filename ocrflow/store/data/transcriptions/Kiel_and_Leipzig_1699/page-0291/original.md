@@ -1,27 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 275 -->
+<!-- Page number: 274 -->
+
+### Begehrtes.
+
+a | c
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
 | a : b | A : B | ⌉ n. Geg. |
-| A | ⊦ C | |
+| A | C | |
 | B | B | |
-| A : B | ⊦ C : B | n. 8. V. |
-| γ Dw. a : b | ⊦ C : B | n. 13. V. |
-| b : c | B : C | n. Geg. |
+| A : B | C : B | n. 7. V. |
+| β Dw. a : b | C : B | n. 11. V. |
+| b : c | B : C | n. Geg: |
 | Dw. c : b | C : B | n. 16. V. |
-| a : b | ⊦ C : B | n. Bew. γ. |
-| Dw. a : b | ⊦ c : b | n. 13. V. |
+| a : b | C : B | n. Bew. β |
+| Dw. a : b | c : b | n. 11. V. |
 | b | b | |
-| und a | ⊦ c | n. 10. V. |
+| und a | c | n. 9. V. |
 
-### Beschluß.
+### III. Gegebene.
 
-Wenn man derowegen drey Grössen hat / und noch drey andere Grössen sind / welche mit denen vorigen in richtiger Ebenmaß stehen; und alsdann die I. der vorigen Ahrt grösser ist / als die III. selbiger Ahrt/ so ist auch die I. der andern Ahrt grösser/als die III. der andern Ahrt; Ist aber die I. der Ersten Ahrt gleich groß oder kleiner/als die III. derselbigen Ahrt / so ist auch die I. der andern Ahrt gleich groß/ oder kleiner/als die III. der Andern Ahrt. W. Z. B.
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
-<!-- Signature: Mm 2 -->
+A : B | a : b
+B : C | b : c
+A | ⊦ C
 
-<!-- Catchword: Der -->
+### Begehrtes.
+
+a ⊦ c
+
+<!-- Catchword: Beweiß. -->

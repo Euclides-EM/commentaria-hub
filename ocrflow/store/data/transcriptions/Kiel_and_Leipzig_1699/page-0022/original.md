@@ -1,21 +1,21 @@
-<!-- Running title: Beschreibungen. -->
+<!-- Running title: Definitiones. -->
 
-<!-- Page number: 6 -->
+<!-- Page number: 5 -->
 
-XXIV. Ein gleichschencklichtes Drey-Eck (Isoscelium vel æquicrurum) erfordert nur zween gleich-lange Seiten-Striche.
+XIIX. Ein Halb-kreyß ( Semicirculus ) aber ist eine Gestalt/ welche von dem Durchschlag/ und demjenigen Stück des Umbkreyses/so dieser gerade Strich oder Durchschlag abschneidet / eingeschlossen wird.
 
-[Diagram: drei gleichschenklige Dreiecke verschiedener Form]
+[Diagram: ein Halbkreis sowie ein Kreis mit waagerechtem Durchmesser, dessen untere Hälfte punktiert ist]
 
-XXV. Ein schräges oder schrades Dreyeck (Scalenum) bestehet aus drey ungleichen Strichen.
+XIX. Gerad-seitige Gestalte (Rectilineæ figuræ) sind/welche mit geraden Strichen eingefasset werden.
+XX. Dreyeckichte (Trilateræ) Gestalte werden von drey geraden Strichen eingeschlossen.
 
-[Diagram: drei ungleichseitige Dreiecke]
+[Diagram: drei Dreiecke verschiedener Gestalt]
 
-XXVI. Ein rechtwincklichtes Drey-Eck (Orthogonium vel rectangulum) ist/ welches einen rechten Winckel hat.
+XXI. Viereckete (Quadrilateræ) Gestalte aber werden von vier geraden Strichen eingeschrencket.
+XXII. Viel-Eckichte Gestalte haben mehr/ als vier gerade Gräntz-Striche.
+XXIII. Unter den Drey-Ecketen Gestalten wird das gleichseitige Drey-Eck von drey gleichlang-geraden Strichen eingeschrencket.
 
-[Diagram: drei rechtwinklige Dreiecke]
+[Diagram: ein gleichseitiges Dreieck]
 
-XXVII. Ein Stumpff-Wincklichtes Dreyeck ( Amblygonium vel obtusangulum ) ist/ welches einen stumpffen Winckel hat.
-
-[Diagram: drei stumpfwinklige Dreiecke]
-
-<!-- Catchword: XXIIX. -->
+<!-- Signature: A 3 -->
+<!-- Catchword: XXIV. -->

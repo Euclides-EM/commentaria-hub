@@ -1,32 +1,31 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 21 -->
+<!-- Page number: 20 -->
 
-Keines von beeden kan seyn/ nach dem 9. GrS. muß derowegen der Strich ac nothwendig auff den Strich AC fallen.
+### Beweiß.
 
-Wann nun des Strichs bc beede End-Düttele b und c auff die beeden Endungen des Strichs BC fallen /so muß der Grund-Strich bc entweder auff den Grund-Strich B, oder darüber/ oder darunter fallen.
+So wird der Düttel b entweder auff den Düttel B, oder über denselben auff d, oder unter denselben auff e fallen.
 
-[Diagram: zwey Dreyecke abc und ABC nebeneinander, unter dem zweyten eine punktierte Bogenlinie zwischen B und C]
+[Diagram: zwey Dreyecke abc und ABC nebeneinander, mit den Punkten d und e am zweyten Dreyeck]
 
-Uber oder darunter kan er nicht fallen weil sonsten zween gerade Striche eine Gestalt einschliessen würden / welches unmöglich/ nach 12. Grund-Satz.
+fället er auff d, | fället er auff e,
 
-### Beschluß.
+So wird Ad | ab nach der Vorbereit. | Ae | ab
+AB | ab nach 3 Gegebenem - - | AB | ab
+Dw. AB | Ad nach 1. Gr-Satz - - - | AB | Ae
 
-Muß also der Grund-Strich abc auff den Grund-Strich ABC fallen/ und deßwegen mit demselben geschicklich eintreffen / dannenhero auch
+Nemlich daß gantze wird einem seiner Theile gleich seyn / welches wieder den 9. Gr-S.
 
-bc | BC
-bca ⋏ BCA
-cba ⋏ CBA
-abc ⏉ ABC
+Weilen nun der Düttel b, weder über/ noch unter den Düttel B fallen kan / so muß er nothwendig auff den Düttel B selbst fallen.
 
-alles nach 18. GrS. W. Z. B.
+Wann aber ab auff AB fället / so muß der andere Strich ac entweder einwerts auff den Strich AC, oder auff Ag, oder außwerts auff Af fallen.
 
-## Der V. Vortrag.
+[Diagram: zwey Dreyecke abc und ABC, am zweyten Dreyeck die Punkte g und f mit punktierten Linien]
 
-## Das 2. Beweiß-Stück.
+fället er auff AG, | fället er auff Af
 
-In jedwedem gleichseitigen Dreyeck sind die beeden auff dem Grund-Strich stehende Winckel ein ander gleich / und die beeden unter dem Grund-
+So wird BAg ⋏ bac | nach der Vorber. | BAf ⋏ bac
+BAC ⋏ bac | nach Gegeb. | BAC ⋏ bac
+Dw. BAC ⋏ BAg | nach 1. GrS. | BAC ⋏ BAf
 
-<!-- Signature: C 3 -->
-
-<!-- Catchword: Strich -->
+<!-- Catchword: Keines -->

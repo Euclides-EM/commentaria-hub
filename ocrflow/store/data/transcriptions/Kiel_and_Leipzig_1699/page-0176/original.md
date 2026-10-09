@@ -1,43 +1,24 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 160 -->
+<!-- Page number: 159 -->
 
-### I. Beweiß.
+nicht in den Kreyß fallen : Es wird auch zwischen solchen Strich/ und den Kreyßzug kein anderer gerader Strich können gezogen werden : Auch wird der Halb-Kreyß-Winckel grösser/ das übrige Stück aber kleiner/ als alle spitzige geradstrichiche Winckel seyn.
 
-ac | ag — n. 5. Beschr. I.
-ab ⊣ ag — n. 9. Gr. I.
-Dw. ab ⊣ ac — n. 1. Gr. c. I.
+### Gegebene. Begehrtes.
 
-Und wird also der Düttel b ausser den Kreyß fallen. Gleiche bewandniß hat es mit allen andern Theilen und Dütteln des Striches cb.
+1. Kreyß cgf — 1. Strich bc fället ausser den Kreyß/
+2. Durchschlag cf — 2. Zwischen diesen Strich bc und Kreyßzug fgc wird kein gerader Strich können gezogen werden.
+3. Gerader Strich bc
+4. Rechtwincklicht auff den Durchschlag fc gesetzt.
+3. ∟ acg ⅄ alle ∧
+4. ∟ gcb ⋏ alle ∧
 
-Oder :
+[Diagram: Kreis mit Mittel-Düpffel a, senkrechter Durchschlag cf, oben am Punkt c die waagerechte Tangente cb mit Punkten d und e, dazu der Punkt g am Kreyßzug und Linien von a nach g und e]
 
-∧ acb | ∟ — n. 4. Gegeb.
-∧ abc | Spitziger ∧ — n. 17. I.
-Dw. acb ⅄ abc — n. 12.
-und ab ⊣ ac — n. 19. I.
+### Vorbereitung.
 
-Dahero abermahl der Düttel b, wie auch alle übrige Theile und Düttele des Strichs cb ausser dem Kreyßzug stehen müssen.
+1. Aus dem Mittel-Düpffel a werde gegen den Strich bc ein gerader Strich ab gezogen.
+2. Werde aus c zwischen cg und bc ein gerader Strich ec.
+3. Und gegen diesen Strich aus a der Senckstrich ad gezogen.
 
-### II. Beweiß.
-
-ad ist ein Senckstrich n. 3. Vorb.
-Dw. adc ⅄ acd — n. 17. I.
-und ac ⊣ ad — n 19. I.
-
-Dw. fället cd in den Kreyß : keines weges aber zwischen den Kreyß und den Strich cb.
-
-### III. Beweiß.
-
-Der Strich dc fället in den Kreyß — n. 2. Bew.
-Derowegen ∟ acg ⅄ ∧ acd — n. 9. Gr. I.
-und ∟ acg ⅄ als alle spitzige Winckel.
-
-### IV. Beweiß.
-
-Kein gerader Strich kan zwischen den Kreyß und den Senckstrich cb fallen — n. 2. Bew.
-Dw. kan kein spitzigerer Winckel gemacht werden/
-als der ∧ gcb
-und ist der ∧ gcb ⋏ als alle spitze ∧
-
-<!-- Catchword: Be- -->
+<!-- Catchword: I. Be- -->

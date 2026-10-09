@@ -1,29 +1,36 @@
-<!-- Page number: 126 -->
+<!-- Page number: 125 -->
 
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
+
+[Diagram: links ein schiefes Viereck a b d c; rechts ein Rechteck a g f e mit Punkt k, daneben ein Quadrat mit punktiertem Halbkreis über der Grundlinie a e i h]
 
 ### Beweiß.
 
-d ⊣ c
-aa | cd ✠ bb — n. 7. II.
-aa | ee ✠ bb — n. 47. I.
-ee (✠ bb) | cd (✠ bb) — n. 1. Gr. I.
-Dw. ee | cd — n. 3. Gr. I.
+œ. ▭ ad | ▭ aef — n. 1. Wirck.
+□ ai | ▭ aeh ✠ □ ie — n. 7. II.
+ik | ai — n. 15. Bes. I.
+□ ik | □ ai — n. 1. Gr. t. II.
+(□ ai) ✠ □ ik | ▭ aeh ✠ □ ie (✠ □ ai) — n 2. Gr. I.
+□ ik | ▭ aeh ✠ □ ie — n. 3. Gr. I.
+□ ik | □ ek ✠ □ ie — n 47. I.
+Dw. □ ek (✠ □ ie | ▭ aeh (✠ □ ie) — n. 1. Gr. I.
+a. □ ek | ▭ aeh oder ▭ aef — n. 3. Gr. I.
+Dw. □ ek | ▭ abdc — n. 1. Gr. I.
 
-W. Z. M.
+### Beschluß.
 
-[Diagram: links ein Quadrat (schwach), rechts ein schiefes Viereck]
+Ist also die Gestalt abdc in das gleichseitige □ ek verwandelt. W. Z. M.
 
-# Das III. Buch Euclidis.
+### Nach der Löse-Kunst.
 
-## Beschreibungen.
+### Gegebene. — Begehrte.
 
-I. Gleichgrosse Kreyse sind / deren Durchschläge gleichlang sind.
+a | ih | ik — ee | cd
+c | eh | ef
+b | ei
+d | ae
+e | ek
 
-[Diagram: zwei gleichgrosse Kreise, der linke mit waagerechtem, der rechte mit schrägem Durchmesser]
+<!-- Signature: Q 3 -->
 
-II. Ein anrührender Strich ca ist / welcher den Kreyß zwar in dem Düttel a berühret / wenn er aber fort gezogen wird / denselben nicht durchschneidet.
-
-[Diagram: Kreis mit Mitteldüpffel b, oben berührender Strich durch a, punktierte Linie von b nach c]
-
-<!-- Catchword: III. An- -->
+<!-- Catchword: Be- -->

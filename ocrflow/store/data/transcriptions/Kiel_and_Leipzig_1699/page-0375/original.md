@@ -1,27 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 359 -->
+<!-- Page number: 358 -->
 
-che gegeben werden/ so werden auch die von solchen Strichen beschriebene Vielecke ebenmässig seyn.
+### Gegebene. Begehrte.
 
-Und wenn von etlichen geraden Strichen ähnliche oder ebenmässige Vielecke beschrieben werden/ so werden dieselben Striche auch in Ebenmaß stehen.
+1. △ abc \ △ abc ähnlich △ efg
+2. △ efg / ähnlich △ cde
 
-### I. Gegebene. I. Begehrtes.
+[Diagram: drey Dreyecke auf einer gemeinsamen Grundlinie b c e g mit den Spitzen a, d und f]
 
-1. Vier gerade Striche
-ab, cd, ef, gh. △ aob : △ cnd | □ el : □ gi.
-2. Welche in Ebenmaß stehen.
-ab : cd | ef : gh
-3. Geradstrichichte ähnliche Vielecke
-△ aob ähnlich △ cnd
-□ el ähnlich □ gi
-4. Gleicher weise gesetzet.
+### Beweiß.
 
-[Diagram: grosses Dreyeck a o b, daneben kleineres Dreyeck c n d mit Strich p, dann Viereck e m l f und kleineres Viereck g k i h mit Strich q; darunter zwey Striche a b e h mit punktierten Linien und den Bezeichnungen d p, c, d, g, hq]
+△ abc ähnlich △ cde n. 1. Geg.
+Dw. abc ⋏ dce n. 1. Besch. VI.
+△ efg ähnlich △ cde n. 2 Geg.
+Dw. feg ⋏ dce n. 1. Beschr. VI.
+u. abc ⋏ feg n. 1. Gr. I.
+Aus gleichen Ursachen ist auch
+a ⋏ f
+Dw. acb ⋏ fge n. 32. I.
+u. ab : bc | fe : eg
+u. ab : ac | fe : fg n. 4. VI.
+Dw. △ abc ähnlich △ efg n. 1. Besch. VI.
 
-### Vorbereitung.
+### Beschluß.
 
-1. Es werde zu denen beyden Strichen ab und cd der dritte ebenmässige Strich p gefunden n. 11. VI.
-ab : cd | cd : p.
+Sind derowegen diejenigen Vielecke / welche einem einigen Vieleck ähnlich sind/ auch unter einander selbst ähnlich. W. Z. B.
 
-<!-- Catchword: 2. Auch -->
+## Der XXII. Vortrag.
+
+## Das 16. Beweiß-Stück.
+
+Wenn vier in Ebenmaß stehende gerade Stri-
+<!-- Catchword: che -->

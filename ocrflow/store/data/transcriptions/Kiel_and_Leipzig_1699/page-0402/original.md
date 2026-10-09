@@ -1,35 +1,36 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 386 -->
-
-wird/ daß die ebenmässigen Seiten nebenstrichicht werden: Alsdenn werden die übrigen Seiten solcher Dreyecke in einem geraden Striche stehen/ (oder einen geraden Strich machen.)
-
-### Gegebene.
-
-1. Zwey Dreyecke abc und cde, welche
-2. Zwo Seiten ab und ac, zweyen Seiten dc und de, ebenmässig haben. ab : dc | ac : de.
-3. Und mit einem Winckel c zusammen gefüget also/
-4. Daß die ebenmässige Seiten auch nebenstrichicht sind /
-
-ab ⧣ dc
-ac ⧣ de
-
-### Begehrte.
-
-Die übrigen Seiten bc und ce werden einen geraden Strich be machen.
-
-[Diagram: zwei Dreiecke, ein kleineres mit den Punkten d, e, c und ein grösseres mit den Punkten a, c, b]
+<!-- Page number: 385 -->
 
 ### Beweiß.
 
-|  |  |  |
-|---|---|---|
-|  | ab ⧣ dc | n. 4. Geg. |
-| Dw. | bac ⋀ dca |  |
-| und | cde ⋀ dca | n. 29. I. |
-| Dw. | bac ⋀ cde | n. 1. Gr. I. |
-| und | △ abc ähnlich △ cde |  |
-| und | abc ⋀ dce | n. 6. VI. |
-|  | acb + a ⋀ acb + a |  |
+|  |  |  |  |
+|---|---|---|---|
+|  | BC : CA | CA : CK | n. 8. VI. |
+| Dw. | BC : CK = | BC : CA | n. 10. Bes. V. |
+|  | □ BD : □ AI = | BC : CA | n. 19. VI. |
+| Dw. | BC : CK | □ BD : □ AI | n. 11. VI. |
+| α und | CK : BC | □ AI : □ BD | verkehret |
+|  | BC : BA | BA : BK | n. 8. VI. |
+| Dw. | BC : BK | □ BD : □ AF | n. 19. VI. |
+| β und | BK : BC | □ AF : □ BD | verkehret |
+|  | CK : | □ AI : | n. Bew. α |
+|  | BC | □ BD |  |
+|  | BK : | □ AF : | n. Bew. β |
+| Dw. | CK + BK : BC | □ AI + □ AF : □ BD | n. 24. V. |
+|  | CK + BK | BC | n. 9. Gr. I. q. |
+| Dw. | □ AI + □ AF | □ BD | n. 14. V. |
 
-<!-- Catchword: Dw. -->
+### Beschluß.
+
+Sind derowegen allezeit die beyden/ auf denen beyden/ den rechten Winckel begreiffenden Seiten stehende/ und einander ähnliche Gestalte/ derjenigen Gestalt/ welche auch diesen beyden Gestalten ähnlich/ und auf der dem rechten Winckel übergespanneten Seite stehet/ gleichmässig. W. Z. B.
+
+## Der XXXII. Vortrag.
+
+## Das 22. Beweiß-Stück.
+
+Wenn zwey Dreyecke gegeben werden/ deren eins zwo Seiten/ zweyen Seiten des andern ebenmässig sind, und das eine Dreyeck mit seinem Winckel an des andern Dreyeck Winckels also gestossen
+
+<!-- Signature: Ccc -->
+
+<!-- Catchword: wird/ -->

@@ -1,30 +1,33 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 108 -->
+<!-- Page number: 107 -->
 
-[Diagram: Links ein Quadrat e; daneben vier schmale Rechtecke f, g, h, i mit k, l, n, m oben, unter ihnen der Strich d b c a; rechts ein Quadrat mit gestrichelten Teilungen, Feldern N L G, M K F, I H E.]
+2bc + 2cc | 2ac — n. 6. Gr. i. I.
+aa + cc + 2bc + 2cc | 2ac + bb + 2bc + 2cc — n. 2. Grs. I.
+2bc + 2cc | 2bc + 2cc
+Dw. aa + cc | 2ac + bb — n. 3. Gr. I.
+W. Z. B.
 
-### Beweiß.
+## Der IIX. Vortrag.
 
-cb | bd — n. 1. Vorber.
-ac | ac
-ac + cb | ac + bd
-cb | cb
-ac + 2cb | ac + cb + bd — n. 2. Gr. I.
-ad | ac + cb + bd — n. 4. Gegeb.
-Dw. ac + 2cb | ad
-u. □ ac + 4 □ acb + □ 4cb | □ ad
-ac + cb | ab
-cb | bc
-□ acb + □ cb | □ abc — n. 3. II.
-4 | 4
-4 □ acb + 4 □ cb | 4 □ abc — n. 6. Gr. I.
-□ ac | □ ac
-u. □ ac + 4 □ acb + 4 □ cb | □ ac + 4 □ abc — n. 2. Gr. I.
-Dw. □ ad | □ ac + 4 □ abc — n. 1. Gr. I.
+## Das 8. Beweiß-Stück.
 
-### Beschluß.
+Weñ ein gerader Strich auff waserley Weise in zwey Stücke geschnitten ist/ so wird das rechtwincklichte Viereck/ so von dem gantzen Strich und dem einen Stück begriffen wird/ viermahl genommen/ samt dem gleichseitigen Viereck des andern Stückes/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem gantzen/ und ersten Stück zusammen gesetzten Strich gemacht wird.
 
-Muß also allezeit das gleichseytige □ des verlängerten Strichs ad so groß seyn/ als das □, welches vom gantzen Strich ab und dem einen Stück cb begriffen wird/ viermal genom̄en/ samt dem □ des andern Stückes ac. W. Z. B.
+### Gegebene. | Begehrte.
 
-<!-- Catchword: Nach -->
+1. Gerader Strich ab — □ ad | 4 □ abc + □ ca
+2. Geschnitten in c
+3. Angesetztes Stück. bd | bc
+4. ab + bd | ad
+
+### Vorbereitung.
+
+1. Der Strich ab werde verlänget biß d. daß bd | bc
+2. Auff einen Strich/ so dem Strich ad gleich/ werde ein gleichseitiges □ gesetzet. n. 46. I.
+3. Dieser Strich werde eben so getheilet/ wie der Strich ad. n. 3. I.
+4. Auff ac werde ein gleichseitig □ gesetzet. n. 46. I.
+5. Werden vier □ a b c gemacht.
+
+<!-- Signature: O 2 -->
+<!-- Catchword: Beweiß -->

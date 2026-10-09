@@ -1,29 +1,36 @@
-<!-- Page number: 45 -->
+<!-- Page number: 44 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-### Wirckung.
+CE + ED ⊣ DC n. 20. Vortr.
+BD | BD
+CE + ED + BD ⊣ DC + BD n. 4. Gr-S.
+oder CE + AB ⊣ DC + BD n. 9. Gr-S. q.
+EA + AB ⊣ EB n. 20. Vortr.
+EC | EC
+EA + AB + EC ⊣ EB + EC n. 4. Gr-S.
+oder CA + AB ⊣ EB + EC n. 9. Gr-S. q.
+ß Drw. CA + AB ⊣ DC + BD n. 1. Gr-S. e.
 
-1. Ziehe man einen ungeendeten Strich CD
-2. Von diesen Strich CD schneide man ab AC | ac)
-3. Deßgleichen AB | bc)
-4. Wie auch BE | ba) alles n. 3. Vortr.
-5. Werde aus A gezogen der Kreyß CF.
-6. Deßgleichen aus B der Kreyß EF.
-7. Zu dem Düttel F, wo die beeden Kreysse einander durchschneiden/ ziehe man aus A den Strich AF.
-8. und aus B den Strich BF.
+### Beschluß.
+Müssen also zwar die einwerts auffgesetzten Striche
+BD + DC ⊢ BA + AC n. Beweiß ß.
+Aber einen grössern Winckel begreiffen / nemlich
+BDC ⲗ BAC n. Bew. a. W. Z. B.
 
-[Diagram: Zwei sich durchschneidende punktierte Kreise um A und B; waagerechter Strich C A B E D; Dreieck ABF mit F oben am Schnittpunkt der Kreise; rechts daneben drei Strecken bezeichnet mit c a, a, b b.]
+## Der XXII. Vortrag.
 
-### Beweiß.
+## Das 8. Werck-Stück.
 
-AC | ac)
-a. AB | bc)
-BE | ba) nach 3. Vortr.
-AF | AC)
-BF | BE) nach 15. Beschr.
-Dw. ß AF | ac)
-und γ BF | ba) nach 1. Gr-S.
+Aus drey geraden Strichen / welche drey andern gegebenen geraden Strichen gleich sind / ein Dreyeck zu verfertigen. Es müssen aber allezeit zween Striche/ auff waserley Weise genommen/ zusammen/ grösser seyn/ als der dritte.
 
-<!-- Signature: F 3 -->
-<!-- Catchword: Be- -->
+### Gegebene. Begehrte.
+Drey Striche 1. △ ABF
+1. c —— a 2. AB | bc
+2. c ——— b 3. BF | ba
+3. a ——— b 4. AF | ac
+4. ca + cb ⊣ ab
+5. cb + ab ⊣ ca
+6. ca + ab ⊣ cb
+
+<!-- Catchword: Wir- -->

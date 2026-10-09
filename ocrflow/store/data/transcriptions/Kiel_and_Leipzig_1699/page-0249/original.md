@@ -1,39 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 233 -->
+<!-- Page number: 232 -->
 
-XI. Verhältniß-ähnliche (Homologæ s. similes ratione) Grössen werden genennet die in der Ebenmaß stehende Vorgehende zu den Vorgehenden/u Nachgehende zu den Nachgehenden Grössen.
+VII. Diejenigen Grössen/ welche in gleicher Verhältniß gegen einander stehen/ werden Ebenmässige (proportionales) genennet.
 
-3a : 3b | a : b
+IIX. Wenn aber unter etlichen vervielfältigten Grössen der Ersten Grösse ihre Vervielfältigung die Vervielfältigung der andern Grösse übertrifft: die Vervielfältigung aber der Dritten Grösse die Vervielfältigung der Vierdten Grösse nicht übertrifft: alsdenn wird die Erste zu der Andern eine grössere Verhältniß haben/ als die Dritte zu der Vierten.
 
-3a und a) 3b und b) verhältniß-ähnliche Grössen.
+6a : 4a ⊣ 3a : 6a
 
-XII. Verwechselte Verhältnissen sind/ wenn man die Erste Vorhergehende gegen die Andere Vorgehende/ und die Erste Nachgehende gegen die Andere Nachgehende hält.
+IX. Ebenmässigkeit (proportio) erfodert wenigstens drey Grössen.
 
-3a : 3b | a : b
+8a : 4a : 2a
 
-3a : a | 3b . b.
+8a : 4a | 4a : 2a
 
-XIII. Verkehrte Verhältniß ist/wenn man die Nachgehenden an die Stelle der Vorgehenden/ und die Vorgehenden an die Stelle der Nachgehenden setzet.
+X. Wenn drey Grössen ebenmässig (proportionales) sind/so hat die Erste eine zwiefach grössere Verhältniß zu der Dritten/ als zu der andern.
 
-3a : 3b | a : b
+8a : 4a : 2a
 
-3b : 3a | b : a.
+8a : 2a = | 8a : 4a
 
-XIV. Zusammen gesetzte Verhältniß entstehet/wenn man die Vorgehende und Nachgehende zusammen nimt/ und gegen die Nachgehenden hält.
+Als das Viereck zur Wurtzel 4 | 2.
 
-3a : 3b | a : b
+Aber wenn vier Grössen in ordentlicher Ebenmaß stehen / so wird die Erste zu der Vierten eine dreyfach grössere Verhältniß haben/als zu der andern
 
-3a + 3b : 3b | a + b : b.
+16a : 8a : 4a : 2a
 
-XV. Zertheilte Verhältniß ist/wenn man den überschuß / womit die Vorgehenden die Nachgehenden übertreffen/ gegen die Nachgehenden hält.
+16a : 2a = | 16a : 8a
 
-6a : 4a | 3a : 2a
+Als der Würffel zur Wurtzel 8 | 2
 
-6a — 4a : 4a | 3a — 2a : 2a
+Und so offt die Anzahl der Grössen ümb eines zunimmt/so offtmals wird auch die Verhältniß der Ersten Grösse zu der letzten ümb eine Stuffe gegen die Verhältniß der Ersten zu der Andern erhöhet.
 
-oder 2a : 4a | a : 2a.
-
-<!-- Signature: Gg -->
-
-<!-- Catchword: XVI. Ver- -->
+<!-- Catchword: XI. Ver- -->

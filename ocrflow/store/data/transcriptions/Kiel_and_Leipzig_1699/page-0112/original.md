@@ -1,30 +1,42 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 96 -->
+<!-- Page number: 95 -->
 
-## Der IV. Vortrag.
+bc | cb
+□ abc | □ acb + □ cb — n. 1. II.
+Dw. □ ABC | □ acb + □ cb — n. 1. Gr. I.
+ac | AC — n. 4. Vorb.
+cb | CB — n. 3. Vorber.
+ac + cb | AC + CB — n. 1. Gr. I.
+cb | CB — n. 3. Vorber.
+□ acb + □ cb | □ ACB + □ CB — n. 1. Gr. II.
+Dw. □ ABC | □ ACB + □ CB — n. 1. Gr. I.
 
-## Das 4. Beweiß-Stück.
+### Beschluß.
 
-Wenn ein Strich in zwey Stücke auff waserley weise getheilet ist/ so wird das gleichseitige Viereck des gantzen Strichs eben so groß seyn/ als die beeden gleichseitigen Vierecke der beeden Stücke/ nebst dem Viereck/ so von den beeden Stücken begriffen wird/ zweymahl genommen.
+Gleiche Bewandniß hat es/ wenn man aus dem Stück CA das gleichseitige □ machet/ so wird alsdenn
 
-### Gegebenes. | Begehrtes.
+□ BAC | □ BCA + □ CA seyn.
 
-1. Der gerade Strich AB — □ AB | AC + 2 □ ACB + □ CB
-2. getheilet in C
-3. AB | AC + CB
+### Beschluß.
 
-### Vorbereitung.
+Muß also allezeit das □, welches von dem gantzen Strich AB, und einen Stück desselben AC oder CB gemacht wird/ eben so groß seyn/ als das gleichseitige □ desselben Stücks/ samt dem Viereck/ welches von solchem Stück und von dem gantzen Strich AB begriffen wird. W. Z. B.
 
-1. Werde der Strich ab | AB gezogen n. 2. I.
-2. Werde das □ abfd gemacht n. 46. I.
-3. - - Die Seite ab getheilet in c also
-daß ac | AC
-und cb | CB
-4. Es werde auch ad getheilet in e,
-daß ae | AC
-und ed | CB werde n. 3. I.
-5. Werden ek ⧺ ab
-und ci ⧺ ad — n. 31. I.
+### Nach der Löse-Kunst.
 
-<!-- Catchword: Beweiß. -->
+### Gegebene. | Begehrtes.
+
+1. a | AB — ac | bc + cc
+2. b + c | AC + CB — oder ab | cb + bb
+3. a | b + c
+
+### Beweiß.
+
+a | b + c — n. 3. Gegeb.
+c | c
+ac | bc + cc — n. 1. II. W. Z. B.
+oder a | b + c — n. 3. Gegeb.
+b | b
+ab | bb + bc — n. 1. II. W. Z. B.
+
+<!-- Catchword: Der -->

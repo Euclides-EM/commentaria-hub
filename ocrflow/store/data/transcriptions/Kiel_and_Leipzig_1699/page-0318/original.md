@@ -1,30 +1,49 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 302 -->
+<!-- Page number: 301 -->
 
-### Oder:
+### I. Gegebene.
 
-|  |  |  |
-|---|---|---|
-| b + a | ⊣ c + a | n. Geg. |
-| a \| | a |  |
-| b + a : a | ⊣ c + a : a | n. 8. V. |
-| b + a : c + a | ⊣ a a | n. 27. V. |
-| b : c | ⊣ b + a : c + a | n. 33. V. |
+[Diagram: zwei waagerechte Linien A und B mit angesetzten Stücken a]
 
-### Beschluß.
-Wenn man derowegen zu zwo ungleichen Grössen zwey gleiche Stücke thut / so werden die zusammengesetzte Grössen eine kleinere Verhältnüß zu einander haben / als die Ersten beyden Grössen. Schneidet man aber zwey gleiche Stücke von denselben ab / so werden die Ubergebliebene eine grössere Verhältnüß haben / als die Ersten beyden ungleichen Grössen. W. Z. B.
+A ⊣ B
+a | a
 
----
+### Begehrtes.
+A + a : B + a ⊢ A : B
 
-# Das VI. Buch Euclidis.
+### Beweiß.
 
-## Beschreibungen.
+|  |  |  |  |
+|---|---|---|---|
+|  | A | ⊣ B | n. Geg. |
+|  | a | \| a |  |
+| Dw. | A + a | ⊣ B + a | n. 4. Gr. I. |
+|  | a \| | a |  |
+| Dw. | A + a : a | ⊣ B + a : a, | n. 8. V. |
+|  | A + a : A | ⊢ B + a : B | n. 30. V. |
+|  | A + a : B + a | ⊢ A : B | n. Anh. 28. V. |
 
-I. Gleichähnliche geradstrichichte ( Similes rectilineæ ) Gestalte sind / welche gleichmässige Winckel und ebenmässige Seiten haben.
+### II. Gegebene
 
-II. Wechselmässige (Reciprocæ) Gestalte sind / in welchen beyderseits vor- und nachgehende ebenmässige Striche sich befinden.
+[Diagram: zwei waagerechte Linien A und B mit abgeteilten Stücken]
 
-III. Ein nach der äusersten und mittelsten Verhältnüß (secundùm mediam & extremam rationem) getheilter Strich wird genennet / welcher sich zu seinem grösseren Stück also / wie solch grössestes Stück zu dem kleinern / verhält.
+A ⊣ B
+a | a
 
-<!-- Catchword: IV. Die -->
+### Begehrtes.
+A — a : B — a ⊣ A : B
+
+### Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+|  | A | ⊣ B | n. Geg. |
+|  | a \| | a |  |
+| Dw. | A : a | ⊣ B : a | n. 8. V. |
+|  | A : B | \| a : a | n. 27. V. |
+| Dw. | A — a : B — a | ⊣ A : B | n. 33. V. |
+
+<!-- Signature: Pp 3 -->
+
+<!-- Catchword: oder: -->

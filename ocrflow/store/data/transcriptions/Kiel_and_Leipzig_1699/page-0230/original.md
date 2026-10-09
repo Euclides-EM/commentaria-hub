@@ -1,31 +1,45 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 214 -->
-
-3. Aus dem Mittel-Düpffel a werde zu dem Düpffel f ein gerader Strich af gezogen.
-
-4. Nach der Weite af werde ein Kreyß gezogen.
-
-### Vorbereitung.
-
-Es werden auch aus dem Mittel-Düpffel die Striche ag, ah, ai gezogen / n. 12. I.
-
-[Diagram: Quadrat b c d e mit einbeschriebenem Kreis um den Mittelpunkt a; die Berührungspunkte f, g, h, i liegen in den Seitenmitten, punktierte Linien verbinden a mit den Ecken und Berührungspunkten]
+<!-- Page number: 213 -->
 
 ### Beweiß.
 
-eb | ed — n. 29. Beschr. I.
-eb | 2eg
-ed | 2eh — n. 12. Wirck.
-a. Dw. — eh | eg — n. 7. Gr. n. I.
-ha ⧣ eg
-ga ⧣ eh — n. 31. I.
-Dw. — eh | ga — n. 33. I.
-u. — eg | ga — a. n. 1. Gr. I.
-eg | ha — n. 33. I.
-Dw. — ga | ha — n. 1. Gr. I.
-Gleicher Weise — ia | ha
-u. — ia | fa
-Dw. — a | Mittel-Düpffel des ○ fghi, n. 9. III.
+cao ∧ ∟ }
+efo ∧ ∟ } n. 3. Wirck.
+Dw. ef ⧣ ca n. 27. I.
+gfo ∧ efo n. 10. Gr. I.
+Dw. gfe ein gerader Strich/n. 14. I.
+Gleicher Weise eg ⧣ bc
+und ghc ein gerader Strich.
+eg | be }
+bc | ge } n. 34. I.
+aoh ∧ ∟ n. 2. Wirck.
+aoh ∧ ach n. 34. I.
+Dw: ach ∧ ∟ n. 1. Ax. I.
+u. beg ∧ ∟ n. 34. I.
+Dw. bcge ein gleichseitig □ , n. 29. Beschr. I.
+u. dem Kreyß dahf umbschrieben/ n. 4. Besch. IV.
 
-<!-- Catchword: Wel- -->
+### Beschluß.
+
+Ist also umb den O dahf ein □ bcge beschrieben. W. Z. M.
+
+## Der VIII. Vortrag.
+
+## Das 8. Werckstück.
+
+Einem gegebenen Viereck einen Kreyß einzuschreiben.
+
+### Gegebene. Begehrtes.
+
+Viereck bcde. 1. Kreyß fghi
+2. Dem Viereck eingeschrieben.
+
+### Wirckung.
+
+1. Werden die Zwergstriche bd, ec gezogen.
+2. Alle Seiten des Vierecks bc, cd, de, eb werden in zwey gleiche Theile bf | fc : ci | id und so weiter/ getheilet/n. 10. I.
+
+<!-- Signature: Dd 3 -->
+
+<!-- Catchword: 3. Aus -->

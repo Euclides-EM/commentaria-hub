@@ -1,39 +1,32 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 100 -->
+<!-- Page number: 99 -->
 
-db + cb | dc — n. 9. G. I.
-ac | ca
-□ db,ac + □ acb | □ dca — n. 1. II.
-□ dca + □ db,ac + □ acb + □ cb | □ ab + □ db,ac + □ acb
-n. 1. Gr. I.
-□ db,ac + □ acb | □ db,ac + □ acb
-□ dca + □ cb | □ ab n. 3. Gr. I.
+3. und in ungleiche Theile getheilet
+in C, als AC + CD
 
-### Beschluß.
+### Vorbereitung.
 
-Wird derowegen allezeit das □ der Helffte/ des in gleiche und ungleiche Theil geschnittenen Strichs/ so groß seyn/ als das □ der beeden ungleichen Stücke/ samt den □ des Mittel-Stückes. W. Z. B.
+1. Mache man das rechtwincklichte Viereck ACD (oder gcd)
+2. Werde auff dem Strich AB ein gleichseitiges □, wie auch
+3. Auff das Mittel-Stück CB cb ein gleichseitiges □ gesetzet n. 46. I.
+4. Der Strich cg werde biß zu e,
+5. Und der Strich fg biß zu h fortgezogen.
 
-### Nach der Löse-Kunst.
-
-### Gegebene. | Begehrte.
-
-1. Strich a | AD — dc + ee | bb
-2. b + b | AB + BD
-3. a | b + b
-4. d | AC
-5. e | BC
-6. b + e | c
-7. d + e | b
+[Diagram: Waagerechter Strich D B C A (unten d b c a); darüber ein Quadrat über C A mit den Punkten e, g, h und gestrichelten Linien; links der Strich f g; unter b c ein kleineres Rechteck.]
 
 ### Beweiß.
 
-d + e | b — n. 7. Geg.
-dd + 2de + ee | bb — n. 4. II.
-b | d + e — n. 7. Gegeb.
-d | d
-bd | dd + de — n. 3. II.
-dd + 2de + ee + bd | bb + dd + de — n. 2. Gr. I.
-dd + de | dd + de
+□ ac + 2 □ acb + □ cb | □ ab — n. 4. II.
+□ ac + □ acb | □ bac — n. 3. II.
+db | ba — n. 2. Geg.
+ac | ac
+Dw. □ db,ac | □ bac — n. 1. Gr. II.
+und □ db,ac | □ ac + □ acb — n. 1. Gr. I.
+□ db,ac + □ ac + □ acb + □ cb | □ ab + □ ac + □ acb
+n. 2. Gr. I.
+□ ac + □ acb | □ ac + □ acb
+□ db,ac + □ acb + □ cb | □ ab n. 3. Gr. I
 
-<!-- Catchword: de -->
+<!-- Signature: N 2 -->
+<!-- Catchword: db -->

@@ -1,36 +1,30 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 181 -->
+<!-- Page number: 180 -->
 
-Dw. abd + acd ⋀ adb + adc   n. 2. Gr. I.
-bdc ⋀ adb + adc   n. 9. Gr. q. I.
-Dw. bdc ⋀ abd + acd   n. 1. Gr. I.
-edc ⋀ abd + acd   n. 32. I.
-Dw. edc ⋀ bdc   n. 1. Gr. I.
-und bdc ⋀ ∟   n. 10. Beschr. I.
+## Der XXXI. Vortrag.
 
-### II. Begebenheit.
+## Das 27. Beweiß-Stück.
+Wann ein Kreyß-Stück ein Halb-Kreyß ist/ so stehet ein rechter Winckel darinn; ist es aber grösser/ so stehet ein spitziger / und so es kleiner/ so stehet ein stumpffer Winckel darinn. Uber dieses ist eines grössern Kreyßstückes Winckel grösser/ und eines kleinern Kreyßstückes Winckel kleiner/ als ein rechter Winckel.
+
+### I. Begebenheit.
 
 ### Gegebene.
-1. Kreyß bdcb.
-2. Kreyßstück cabd.
-3. Welches grösser/ als ein Halb-Kreyß.
-4. Winckel cad.
+1. Kreyß dbcd.
+2. Halb-Kreyß bdc.
+3. Winckel cdb.
 
 ### Begehrtes.
-cad [unclear: ⋀] ∟
+cdb ⋀ ∟
 
-[Diagram: Kreyß mit den Punckten a, c, b, d; darin die Striche ac, ad, bd und bc, etliche punctirt]
+[Diagram: Kreyß mit dem Zwerg-Strich bc durch den Mittel-Düpffel a, dem Punckt d oben am Kreyß und dem verlängten Strich bis e; der Strahl ad punctirt]
 
 ### Vorbereitung.
-1. Durch den Mittel-Düpffel werde der Durchschlag cb,
-2. Der Strich bd gezogen.
+1. Werde der Strich bd verlängt biß e.
+2. Der Strahl ad gezogen.
 
-### II. Beweiß.
-bdc ⋀ ∟   n. 1. Bew.
-cbd [unclear: ⋀] ∟   n. 17. I.
-cad ⋀ cbd   n 21. III.
-Dw. cad [unclear: ⋀] ∟   n. 1. Gr. d. I.
+### I. Beweiß.
+abd ⋀ adb
+acd ⋀ adc } n. 5. I.
 
-<!-- Signature: Q 3 -->
-<!-- Catchword: III. Be- -->
+<!-- Catchword: Dw. -->

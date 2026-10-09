@@ -1,34 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 25 -->
-
-### Beschluß.
-
-Weil nun AB weder grösser/ noch kliner seyn kan/ als AC, so folget unümbgänglich/daß AB | AC. W. Z. B.
-
-## Der VII. Vortrag.
-
-## Das 4. Beweiß Stück.
-
-Wenn auff eines Strichs End-Düttel zweene Striche gesetzet werden / und oberhalb in einem Düttel zusammen stossen; Darnach auch zweene andere Striche/ so denen vorigen beeden Strichen/ jedweder jedwedem gleich sind / auff eben desselben Striches Endungen / und zwar auff einerley Weise gesetzet werden/ so müssen sie in eben demselben Düttel/wo die vorigen beeden Striche einander berühret/ auch zusammen kommen.
+<!-- Page number: 24 -->
 
 ### Gegebene. | Begehrtes.
 
-1. Der Strich ac | Die Zusam̃enkunfft der bee-
-2. AB | DE | ab | den Striche de und df in
-3. CB | DF | cb | eben dem Düttel b, wo
-4. AB + CB | DE + DF | ab + cb | die beeden vorigen Stri-
-5. BC auff c | che ab und ac zusammen
-6. AB auff a gesetzt | kommen.
-7. BC und AB zusam̃enkunfft in b
-8. DF auff c
-9. ED auff a gesetzt
-10. Beederseits oberhalb des Strichs ac
+1. Das △ ABC | AB | AC
+2. ABC ⋏ ACB
+
+[Diagram: Dreyeck ABC mit Punkt D auff der Seite AB und punktiertem Strich DC]
 
 ### Beweiß.
 
-Wenn die beeden andern Striche nicht in b zusammen kommen / so mögen sie in d an einander stossen. β
+Entweder ist AB | AC
+oder AB ⊣ AC
+oder AB ⊢ AC
 
-<!-- Signature: D -->
+### Vorbereitung.
 
-<!-- Catchword: Vor- -->
+wenn AB ⊣ AC
+so schneide man von AB ab
+ein Stück AD | AC nach 3. Vortr.
+α Darnach ziehe man den geraden Strich CD.
+verfolg des Beweises/
+
+DB | AC nach Vorber. α
+BC | BC
+DB + BC | AC + BC nach 2. GrS.
+DBC ⋏ ACB nach Gegeb. 2.
+Dw. DCB ⏉ ABC nach 4. Vortr.
+Welches aber unmüglich nach 9. GrS.
+
+Gleiche Beschaffenheit wird es haben / wenn man sagen wolte AB ⊢ AC.
+
+<!-- Catchword: Beschluß. -->

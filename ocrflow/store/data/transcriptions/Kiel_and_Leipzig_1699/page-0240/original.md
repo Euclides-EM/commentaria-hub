@@ -1,35 +1,29 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 224 -->
+<!-- Page number: 223 -->
 
-### Beweiß.
+## Der XIII. Vortrag.
 
-ida ∧ hda — n. 1. Wirck.
-dia ∧ dha — n. 3. Wirck. 10. Besch. 10. Gr. I.
-ad | ad
-Dw. — ai | ah — n. 26. I.
-Gleicher Weise ist ah | ag | al | ak
-Dw. — a | Mittel-Düpffel des Kreyses n. 9. u. 19. III.
-Welches das gegebene Fünffeck an allen Seiten anrühret /
-n. 18. III.
+## Das 13. Werckstück.
 
-### Beschluß.
-
-Ist also dem gegebenen gleichseitigen und gleichwincklichten
-Fünffeck ein Kreyß umbschrieben. W. Z. M.
-
-## Der XIV. Vortrag.
-
-## Das 14. Werckstück.
-
-Umb ein gegebenes gleichseitiges und gleich-
-wincklichtes Fünffeck einen Kreyß zu beschreiben.
+Einem gegebenen gleichseitigen und gleich-
+wincklichten Fünffeck einen Kreyß einzuschreiben.
 
 ### Gegebenes. — Begehrte.
-Fünffeck bgefd — 1. Kreyß fegbd
-2. umb das Fünffeck
-beschrieben.
+Fünffeck bcdef. — 1. Kreyß ghikl
+2. in das Fünffeck eingeschrieben.
 
-[Diagram: Kreis mit einbeschriebenem Fünffeck f d b g e, aus dem Mittelpunkt a laufen gerade Striche zu den Ecken]
+[Diagram: Fünffeck b c d e f mit einbeschriebenem Kreis; die Berührungspunkte g, h, i, k, l liegen in den Seitenmitten, aus dem Mittelpunkt a laufen punktierte Striche zu den Ecken und Seitenmitten]
 
-<!-- Catchword: Wir- -->
+### Wirckung.
+
+1. Werden alle Winckel in zween gleiche Theile getheilet/mit
+den Strichen ba, ca, da, ea, fa, n. 9. I.
+2. Die Seiten werden auch in zween gleiche Theile getheilet/
+n. 10. I.
+3. Aus dem Mittel der Seiten werden Senckstriche ga, ha,
+ia, ka, la gezogen/ n. 11. I.
+4. Aus dem Düttel a, wo alle Striche zusammen lauffen /
+werde nach der Weite ag oder ah ein Kreyß beschrieben.
+
+<!-- Catchword: Be- -->

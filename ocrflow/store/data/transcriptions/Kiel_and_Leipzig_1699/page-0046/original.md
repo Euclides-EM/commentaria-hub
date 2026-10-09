@@ -1,32 +1,34 @@
-<!-- Running title: Das I. Buch. -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 30 -->
-
-### Gegebenes. | Begehrtes.
-
-Der gerade endliche Strich/ AB. | Des Striches zween gleich Theile AC | CB.
+<!-- Page number: 29 -->
 
 ### Wirckung.
 
-1. Auff den gegebenen Strich AB wird ein gleichseitiges oder gleichschenckliches △ gemacht/ nach 1. Vortr.
-2. Dieses △es Winckel D wird in zween gleiche theile getheilet/ nach 9. Vortr.
+1. Aus dem Düttel A wird ein Kreyß-Stück nach beliebiger grösse gezogen / welches AD | AE von den beeden Winckel-Strichen AB und AC abschneide.
+2. Wird der Strich DE gezogen / nach 1. Foder.
+3. Auff den Strich DE wird ein gleichseitiges △ DEF gesetzt/ nach 1. Vortr.
+4. Aus dem Düttel A wird ein gerader Strich AF zu dem Gipffel des gemachten △ gezogen.
 
-[Diagram: Strich AB mit punktiertem Dreyeck über D und Theilungspunkt C, darunter der Punkt E und ein Strich mit mehreren punktierten senkrechten Theilungslinien und Kreuzlein]
+[Diagram: Winckel CAB mit Scheitel A, darinn die Düttele E und D, punktierte Striche und der Strich AF zum Gipffel F]
 
 ### Beweiß.
 
-AD | BD nach 1. Vortr.
-DC | DC
-AD + DC | BD + DC nach 2. Gr. S.
-ADC ⋏ BDC nach 2. Wirckung.
-Dw. AC | CB nach 4. Vortr.
+AD | AE nach 3. Vortrag.
+AF | AF
+AD + AF | AE + AF nach 2. Grund-S.
+DF | EF nach 1. Vortr.
+Dw. DAF ⋏ EAF nach 8. Vortr.
 
 ### Beschluß.
 
-Und ist also der gegebene Strich AB in zween gleiche Theile getheilet / W. Z. M.
+Und ist also der gegebene Winckel ABC in zween gleiche theile getheilet / W. Z. M.
 
-2. Zugabe
+## Der X. Vortrag.
 
-Einen gegebenen Strich in 4/ 8/ 16 und so ferner / gleiche Theile zu theilen.
+## Das 5. Werckstück.
 
-<!-- Catchword: Wir- -->
+Einen geraden endlichen Strich in zween gleiche Theile zu theilen.
+
+<!-- Signature: D 3 -->
+
+<!-- Catchword: Ge- -->

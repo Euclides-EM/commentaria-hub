@@ -1,30 +1,34 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 170 -->
+<!-- Page number: 169 -->
 
-### Beschluß.
-Sind also jedes Viereckes / so einem Kreyß eingeschrieben/ gegen einander überstehende Winckel adc + abc ⋀ ⌓
-dcb + adb ⋀ ⌓ W. Z. B.
-
-## Der XXIII. Vortrag.
-
-## Das 21. Beweiß-Stück.
-Auff einen einigen geraden Strich können auff einerley Weise keine zwey gleichgestalte Kreyß-Stücke gesetzet werden/ welche doch ungleicher Grösse seyn.
-
-### Gegebene.
-1. Gerader Strich ab
-2. Zwey gleichgestalte ⌓ ⌓
-3. Auff diesen Strich ab
-4. Auff einerley Weise gesetzet.
-
-### Begehrtes.
-Beede Kreyß-Stücke gleicher Grösse.
-
-[Diagram: Zwey Kreyß-Stücke über dem Strich ab, mit den Punckten a, b, c, d und punctirten Strichen ad, bc]
+[Diagram: Kreis mit einbeschriebenem Viereck a b c d, darin die Zwerg-Striche ac und bd; die Winckel mit A, B, Γ, Δ und α, β, γ, δ bezeichnet]
 
 ### Vorbereitung.
-Wenn es seyn kan/ so mache man (1) auff den geraden Strich ab auff einerley Weise zwey gleichgestalte oder ähnliche Kreyßstücke ungleicher Grösse ⌓ adb + ⌓ acb.
-2. Werde gezogen der Strich ad.
-3. Aus b werde zu dem Düttel c, wo der Strich ad das Kreyß-Stück acb schneidet/ der Strich bc gezogen.
+Es werden gezogen die beeden Zwerg-Striche ac und bd.
+### Beweiß.
 
-<!-- Catchword: 4. Werde -->
+cab ⋀ cdb
+acb ⋀ adb } n. 21. III.
+Dw. cab + acb ⋀ cdb + adb   n. 2. Gr. I.
+oder cda ⋀ cab + acb   n. 9. Gr. q. l.
+abc + cab + acb ⋀ ⌓   n. 32. I.
+cda + abc + cab + acb ⋀ ⌓ + cab + acb   n. 2. Gr. I.
+cda + abc ⋀ ⌓   n. 3. Gr. l.
+
+### Andere Arth.
+
+A ⋀ α
+B ⋀ β
+Γ ⋀ γ
+Δ ⋀ δ   n. 21. III.
+
+A + B ⋀ A + B
+γ + δ ⋀ Γ + Δ
+A + B + γ + δ ⋀ A + B + Γ + Δ   n. 2. Gr. I.
+A + B + Γ + Δ ⋀ ⊕   n. 32. I.
+Dw. A + B + γ + δ ⋀ ⊕   n. 1. Gr. I.
+oder [unclear: adc] + abc ⋀ ⊕   n. 9. Gr. q. l.
+
+<!-- Signature: P -->
+<!-- Catchword: An -->

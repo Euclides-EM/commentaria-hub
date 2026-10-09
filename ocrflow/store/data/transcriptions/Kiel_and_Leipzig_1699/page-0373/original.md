@@ -1,33 +1,38 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 357 -->
+<!-- Page number: 356 -->
 
-Dw. △ eab : △ kfg ⊐ be : kg n. 19. VI.
-△ bec ähnlich △ kgi n. Bew. δ.
-Dw. △ bec : △ kgi ⊐ be : kg n. 19. VI.
-u. △ eab : △ kfg | △ bec : △ kgi n. 11. V.
-Aus eben diesen Ursachen ist auch
-△ ecd : △ gih | △ bec : △ kgi
-Dw. △ ecd : △ gih | △ eab : △ kfg n. 11. V.
-△ △ △ △ △ △
-eab + bec + ecd : kfg + kgi + gih | △ eab : △ kfg n. 1. V.
-ab : fg = △ eab : △ kfg n. 17. VI.
-Dw. △ △ △ △ △ △
-eab + bec + ecd : kfg + gki + gki = ab : fg n. 11. V.
-△ △ △ △ △ △
-eab + bed + bcd : kfg + gki + ghi | ⬠ cad : ⬠ hfi n. 9. Gr. q. I.
-Dw. ⬠ cad : ⬠ hfi = ab : fg
-u. ⬠ cad : ⬠ hfi | △ eab : △ kfg n. 11. V.
+### Vorbereitung.
 
-### Beschluß.
+1. Werden gezogen die geraden Striche eb und ec
+2. Deßgleichen kg und ig
 
-Können derowegen ähnliche Vielecke in ähnliche und gleichviele/ auch mit dem gantzen Vieleck Verhältnüß-ähnliche oder ebenmässige Dreyecke abgetheilet werden. Es stehen auch die ähnliche Vielecke gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
+### Beweiß.
 
-## Der XXI. Vortrag.
+Vieleck cad ähnlich ifh n. 3. Geg.
+Dw. eab ⋏ gfk
+u. ea : ab ⋏ gf : fk n. 1. Besch. VI.
+α Dw. △ eab ähnlich △ gik n. 6. VI.
+β u. ab : bc | fk : kg n. 4. VI.
+γ u. abc ⋏ fkg n. 1. Besch. VI.
+⬠ cad ähnlich ⬠ hfi n. 3. Geg.
+Dw. abc ⋏ fki n. 1. Besch. VI.
+abe ⋏ fkg n. Bew. γ.
+Dw. abc — abe ⋏ fki — fkg n. 3. Gr. I.
+oder ebc ⋏ kgh
+ab : be | fk : kg n. Bew. β.
+Dw. ab : fk | be : kg n. 16. V.
+ae : fg | ed : gh n. 1. Besch. VI.
+Dw. eb : gk | ed : gh n. 11. V.
+u. eb : ed | gk : gh n. 16. V.
+δ Dw. △ bec ähnlich △ kgi
+u. bce ⋏ kig n. 6. VI.
+bcd ⋏ kih n 1. Besch. VI.
+Dw. bcd — bce ⋏ kih — kig n 3. Gr. I.
+oder ecd ⋏ gih
+Dw. ced ⋏ igh n 32. I.
+u. △ edc ähnlich △ ghi n. 6. VI.
+△ eab ähnlich △ gfk n. Bew. α.
+Dw. △ eab : △ gfk ⊐ be : kg n. 19. VI.
 
-## Das 15. Beweiß-Stück.
-
-Welche geradstrichichte Gestalte einer einigen Gestalt ähnlich sind/ dieselben sind auch einander selbst ähnlich.
-
-<!-- Signature: Y y 3 -->
-<!-- Catchword: Gegebe- -->
+<!-- Catchword: △ bec -->

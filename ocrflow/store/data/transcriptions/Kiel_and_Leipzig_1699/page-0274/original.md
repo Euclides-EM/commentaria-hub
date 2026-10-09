@@ -1,42 +1,33 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 258 -->
+<!-- Page number: 257 -->
 
-### Gegebene. — Begehrtes.
+### Beweiß.
 
-[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
+a | 3b
+A | 2b
+B | 2b — n. Gegebenen.
+Dw. A | B — n. 6. Gr. I.
 
-A ⊣ B
+Oder also:
 
-A : a ⊣ B : a
+Wenn A ⊣ B — so muß
+auch a : A ⊢ a : B — n. 8. V.
+ist aber A ⊢ B — so muß
+auch a : A ⊣ a : B — n. 8. V.
 
-### I. Beweiß.
-
-Wenn A | B — so wird
-auch A : a | B : a — n. 7. V.
-
-Oder:
-
-Wenn A ⊢ B — so wird
-auch A : a ⊢ B : a — n. 8. V.
-
-Beedes ist wider das Gegebene.
-
-### Gegebenes. — Begehrtes.
-
-a : B ⊣ a : A — B ⊢ A.
-
-### II. Beweiß.
-
-Wenn B | A — so wird
-auch a : B | a : A — n. 7. V.
-oder wenn B ⊣ A — so wird
-auch a : B ⊢ a : A — n. 8. V.
-
-Beedes ist wiederum gegen das Gegebene.
-
-muß dw. A ⊣ B.
+Welches aber beedes wider das Gegebene.
 
 ### Beschluß.
 
-Wenn derowegen aus zwo Grössen die erste Grösse zu einer einigen Grösse eine grössere Verhältnüß hat / so wird solche erste Grösse grösser seyn/ als die andere: Und dieselbige Grösse zu welcher aus zwo Grössen eine einige Grösse eine grössere Verhältnüß hat / wird die kleineste seyn. W. Z. B.
+Müssen also diejenigen Grössen / welche zu einer einigen Grösse gleiche Verhältnüß haben / gleich groß seyn: Und diejenigen Grössen/ zu welchen eine einige Grösse gleiche Verhältnüß hat/ müssen auch gleich groß seyn. W. Z. B.
+
+## Der X. Vortrag.
+
+## Das 10. Beweiß-Stück.
+
+Welche aus zwo Grössen zu einer einigen Grösse die Grössere Verhältnüß hat / dieselbige wird auch die Grösseste seyn: Und zu welcher Grösse eine einige Grösse die grössere Verhältnüß hat / dieselbige wird am kleinesten seyn.
+
+<!-- Signature: Kk -->
+
+<!-- Catchword: Gege- -->

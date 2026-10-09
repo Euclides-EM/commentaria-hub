@@ -1,43 +1,26 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 348 -->
 
-<!-- Page number: 349 -->
+<!-- Running title: Das VI. Buch -->
 
-### Vorbereitung.
+## Der XVII. Vortrag.
 
-1. Man nehme noch darzu d | b n. 2. I.
-2. werde gemacht ▭ ac
-3. Deßgleichen ▭ bd.
-4. Und zwar nach rechten Winckeln.
+## Das 12. Beweiß-Stück.
 
-### I. Beweiß.
+Wenn drey ebenmässige Striche gegeben werden/ so wird das von den beyden äusersten Strichen begriffene rechtwincklichte Viereck/ dem von dem mittelsten Strich gemachten gleichseitigen Viereck gleichmässig seyn.
 
-b | d n. 1. Vorb.
-a | a
-Dw. a : b | a : d n. 7. V.
-a : b | b : c n. 2. Geg.
-Dw. a : d | b : c n. 11. V.
-u. ▭ ac | ▭ db n. 16. VI.
-▭ db | gleichseitig □ bb n 29. Besch. I.
-Dw. ▭ ac | □ bb
+Und wenn das von den äusersten Strichen begriffene rechtwincklichte Viereck dem vom mittelsten Strich gemachten gleichseitigen Viereck gleichmässig ist/ so stehen solche drey Striche in richtiger Ebenmaß.
 
-### II. Gegebenes. Begehrte.
+### I. Gegebene.
 
-▭ ac | □ bb 1. a : b | b : c
+1. Drey Striche
+a, b, c.
+2. In unzertrennter Ebenmaß stehend
+a : b ⊤ b : c.
 
-2. in ungertrennter Ebenmaß stehend.
+### I. Begehrtes.
 
-### Beweiß.
+□ ac ⊤ □ bb.
 
-[Diagram: geometrische Skizze mit punktierten Linien, hinter dem Text durchscheinend]
+[Diagram: Oben die Striche a, b, c mit Theilstrichen; darunter ein langes punktiert geteiltes Rechteck mit den Seiten c und a; darunter ein punktiert geteiltes Quadrat mit den Seiten b und b]
 
-b | d
-b | b
-□ bb | ▭ bd n. 1. Gr. II.
-□ bb | ▭ ac n Gegeb.
-Dw. ▭ bd | ▭ ac n. 1. Gr. I.
-ac ⋏ bd n. 4. Vorb.
-Dw. a : b | d : c n 16. VI.
-oder a : b | b : d n. Anh. 7. V.
-
-<!-- Signature: X x 3 -->
-<!-- Catchword: Beschluß. -->
+<!-- Catchword: Vorbe- -->

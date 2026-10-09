@@ -1,32 +1,20 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 369 -->
+<!-- Page number: 368 -->
 
-### Beweiß.
+[Diagram: Fünfeck A mit den Punkten H, I, C, K, D, darunter ein Viereck mit den Punkten c, d, g, m, e, f nebst punctirtem Bogen; rechts oben eine Gestalt B in einem Viereck mit punctirten Linien nach f und c; in der Mitte ein Fünfeck L mit den Punkten D und M; rechts ein hohes Viereck mit den Punkten a, d, k, c, i, d, h und punctirten Linien nach f]
 
-cd : dm | dm : dg n. 8. Wirck.
-oder CD : DM | DM : DG n. Anh. 7. V.
-CD : DG = | CD : DM n. 10. Besch. V.
-⬠ A : ⬠ L = | CD : DM n. 20. VI.
-Dw. CD : DG | ⬠ A : ⬠ L n. 11. V.
-CD : DG | □ DE : □ gf n. 1. VI.
-Dw. □ DE : □ gf | ⬠ A : ⬠ L n. 11. V.
-□ DE | ⬠ A n. 3. Wirck.
-Dw. □ gf | ⬠ L n. 14. V.
-□ gf | △ B n. 7. Wirck.
-Dw. ⬠ L | △ B n. 1. Gr. I.
-⬠ L ähnlich ⬠ A n. 10. Wirck.
-u. Eben so gesetzet.
+### Wirckung.
 
-### Beschluß.
+1. Werde gemacht ein nebenstrichichtes Viereck de
+2. Auf den Strich DC, welches
+3. □ de | ⬠ A. n. 45. I.
+4. Auch werde ein nebenstrichichtes Viereck gf
+5. Auf den Strich df
+6. Nach dem Winckel fdg und
+7. □ gf | ⬠ B gemacht n. 44. I.
+8. Werde zu den beyden Strichen cd und dg ein mittelebenmässiger Strich dm oder DM gefunden. n. 13. VI.
+9. Auf diesen Strich dm oder DM werde ein Fünfeck L, welches
+10. ⬠ L ähnlich ⬠ A, gemacht. n. 18. VI.
 
-Ist also ein Fünfeck L, welches der Gestalt B gleichmässig/ dem Fünfeck A ähnlich/ und auch eben so gesetzet/ verfertiget. W. Z. M.
-
-## Der XXVI. Vortrag.
-
-## Das 19. Beweiß-Stück.
-
-Wenn von einem nebenstrichichten Viereck ein ander nebenstrichichtes Viereck abgenomen wird/ welches dem gantzen Viereck ähnlich/ gleicher Weise gesetzet ist/ und einen gleichmässigen Winckel mit dem gantzen Viereck hat / so werden solche Vierecke üm einen einigen Zwergstrich stehen.
-
-<!-- Signature: Aaa -->
-<!-- Catchword: Gege- -->
+<!-- Catchword: Beweiß. -->

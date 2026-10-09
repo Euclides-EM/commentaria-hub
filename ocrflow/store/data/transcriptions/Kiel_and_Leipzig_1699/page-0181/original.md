@@ -1,32 +1,34 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 165 -->
+<!-- Page number: 164 -->
 
-### Beschluß.
+## Der XIX. Vortrag.
 
-Man mag nun einen Düttel des Kreyses ausser dem Senckstrich cd nehmen/ welchen man wolle/ so wird allezeit diese Unmügligkeit nach dem 9. Gr. I. erscheinen : Muß derohalben nothwendig der Mitteldüpffel in dem Senckstrich cd stecken. W. Z. B.
+## Das 17. Beweiß-Stück.
 
-## Der XX. Vortrag.
-
-## Das 18. Beweiß-Stück.
-
-Jn jedwedem Kreyß ist des Mitteldüpffels-Winckel noch einmahl so groß / als der auff eben solchem Kreyßzug stehende Kreyßstücks Winckel.
+Wenn in einem Kreyß von dem Rührdüpffel des Rührstrichs ein Senckstrich gezogen wird / so ist in solchem Strich des Kreyses Mitteldüpffel.
 
 ### Gegebene. Begehrtes.
 
-1. Kreyß bcde. — cad ∠ 2 [unclear: abc]
-2. Kreyßdüpffels-Winckel cad.
-3. Jn dem Kreyß stehender Winckel cbd.
-4. Bogen/ auff welchem beede Winckel stehen cd.
+1. Kreyß cg — Jn dem gezogenen Senckstrich cd ist des Kreyses cg Mitteldüpffel d.
+2. Rührstrich ab
+3. Rührdüpffel c
+4. Senckstrich cd
+5. Auß deß Rührstriches Rührdüpffel in den Kreyß gezogen.
 
-[Diagram: Kreis bcde mit Mitteldüpffel a, Punkt b oben, e rechts oben, c unten links, d unten; Striche bc, bd, ac und ad]
+[Diagram: Kreis mit oben anliegendem Rührstrich ab und Rührdüpffel c; im Kreis der Senckstrich cd sowie punktierte Linie ce mit den Düpffeln d, e und g]
 
-I. Arth.
+### Vorbereitung.
 
-ab | ac — n. 15. Beschr. I.
-Dw. abc ∠ acb — n. 5. I.
-cad ∠ abc + acb — n. 32. I.
-cad + abc ∠ abc + acb + acb — n. 2. Gr. I.
-abe ∠ [unclear: abc]
-Dw. cad ∠ acb + acb — n. 3. Gr. I.
-oder cad ∠ [unclear: acb] — n. 9. Gr. q. I.
+Wenn der Mitteldüpffel nicht in dem Senckstrich cd, so
+1. nehme man den Mitteldüpffel e.
+2. von diesem Mitteldüpffel e werde zu dem Rührdüpffel ein gerader Strich ec gezogen.
+
+### Beweiß.
+
+eca ∠ ∟ — n. 18. III.
+dca ∠ ∟ — n. 4. Gegeb.
+Dw. dca ∠ eca — n. 1 und 10. Gr. I.
+Welches unmüglich — n. 9. Gr. I.
+
+<!-- Catchword: Be- -->

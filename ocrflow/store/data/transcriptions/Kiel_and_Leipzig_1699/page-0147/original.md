@@ -1,38 +1,38 @@
-<!-- Page number: 131 -->
+<!-- Page number: 130 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-Wolte man nun sagen/ der Mittel-Düpffel stehle auff den Strich hg, und zwar auff f oder e, so müste
+### Wirckung.
 
-fg | fh — n. 15. Beschr. I.
-ag ⊢ fg — n. 9. Gr. I.
-Dw. ag ⊢ fh — n. 1. Gr. b. I.
-ag | ah — n. 4. Vorber.
-Dw. ah ⊢ fh — n. 1. Gr. d. I.
+1. Man ziehe von dem Düttel b biß zu dem Düttel c einen geraden Strich bc.
 
-Welches aber unmöglich/ nach 9. Grundsatz I. Gleiche Bewandniß hat es/ wenn man den Mittel-Düpffel in e, oder auff die andere Seite des Düttels f, im Strich gh, oder seitwertssetzen wolte.
+2. Dieser Strich bc werde in zween gleiche Theile getheilet in e. n. 10. I.
 
-### Beschluß.
+3. Durch diesen Düttel e, werde von einem Ende des Kreyses biß zum andern ein gerader Senck-Strich gh gezogen. n. 11. I.
 
-Ist also der gefundene Düttel a, der rechte Mittel-Düpffel des gegebenen Kreyses. W. Z. M.
+4. Dieser Strich gh werde in zween gleiche Theile geschnitten in a. n. 10. I.
 
-## I. Anhang.
+### Beweiß.
 
-Wenn ein gerader Strich in einem Kreyß einen andern Strich des Kreyses / nach rechten Winckeln in zween gleiche Theile schneidet/ so wird auch desselben Kreyses Mittel-Düpffel in solchem Striche seyn/ wie aus dem vorhergesetzten Beweiß erhellet.
+Wenn der Düttel a nicht der Mittel-Düpffel ist/ so lasse man d den Mittel-Düpffel seyn.
 
-## Der II. Vortrag.
+### Vorbereitung.
 
-## Das 1. Beweiß-Stück.
+1. Aus den beeden Enden des Striches bc ziehe man zu dem angenommenem Mittel-Düpffel d zween gerade Striche bd und cd.
 
-Wenn in eines Kreyses Umfang zween Düttele erwehlet/ und mit einem geraden Strich zusammen gehänget werden/ so fället solcher Strich inwendig in den Kreyß.
+2. Aus dem Düttel e, wo die beeden Striche bc und gh einander durchschneiden / ziehe man auch den Strich ed.
 
-### Gegebene. — Begehrtes.
+### Verfolg des Beweises.
 
-1. Der Kreyß hcg, — Strich hg Jnwendig im Kreyß.
-2. Zween Düttel h und g,
-3. Der Strich hg, welcher
-4. Die beyden Düttele zusammen hänget.
+db | dc — n. 15. Beschr. I.
+de | de
+db ✠ de | dc ✠ de — n. 2. Gr. I.
+be | ce — n. 2. Vorber.
+Dw: bed ⋏ ced — n. 8. I.
+und bed ⋏ | ∟ — n. 10. Beschr. I.
+bea ⋏ | ∟ — n. 3 Vorber.
+Dw. bea ⋏ bed — n. 10. Gr. I.
 
-<!-- Signature: R 2 -->
+Welches aber nicht seyn kan/ nach 9. Grundsatz. I.
 
-<!-- Catchword: Beweiß -->
+<!-- Catchword: Wolte -->

@@ -1,43 +1,42 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 270 -->
+<!-- Page number: 269 -->
+
+## Der XVII. Vortrag.
+
+## Das 17. Beweiß-Stück.
+
+Wenn zusammengesetzte Grössen Ebenmässig sind / so werden sie auch zertheilet Ebenmässig bleiben.
 
 ### Gegebene. | Begehrtes.
 
-A ________________ | A : a | B : b
-a ____________
-B ________________
-b ________
+A ________________
+a ______ | A—a : a | B—b : b.
+B __________
+b ____
 
-[Diagram: Strecken A, a, B (mit Theil b), b]
+[Diagram: Strecken A (mit Theil a), a, B (mit Theil b), b]
 
-A—a : a | B—b : b
+A : a | B : b
 
 ### Beweiß.
 
-Wenn das Begehrte nicht eintreffen solte / so nehme man an statt b das Stück c,
+A : a | B : b — n. Geg.
+Dw. A : B | a : b — n. 16. V.
+a : b | a : b — n. Anh. 7. V.
+Dw. A—a : B—b | a : b — n. 6. V.
+und A—a : a | B—b : b — n. 16. V.
 
-B ________________
-b ________
+### Beschluß.
 
-[Diagram: Strecken B (mit Theil c) und b]
+Werden derowegen allezeit zusammengesetzte Ebenmässige Grössen/ wenn sie zertheilet werden / auch Ebenmässig bleiben. W. Z. B.
 
-und sey alsdann
+## Der XVIII. Vortrag.
 
-A—a : a | B—b : b — n. Gegeb.
-A—a : a | B—c : c — n. Genom.
-B—b : b | B—c : c — n. 11. V.
-Dw. B : b | B : c — n. 17. V.
-B | B
-Dw. b | c — n. 14. V.
+## Das 18. Beweiß-Stück.
 
-Welches aber unmüglich n. 9. Gr. I.
+Welche Grössen zertheilet Ebenmässig sind/ die werden auch/ wenn sie zusammen gesetzet sind / Ebenmässig bleiben.
 
-Oder man nehme an statt des Stückes b das Stück d.
+<!-- Signature: Ll 3 -->
 
-B ____________
-b ________
-
-[Diagram: Strecken B (mit Theil d) und b]
-
-<!-- Catchword: A— -->
+<!-- Catchword: Gege- -->

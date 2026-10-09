@@ -1,31 +1,37 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 204 -->
-
-[Diagram: links Dreyeck hfg mit punktierten Winckelbögen; rechts Kreis mit eingeschriebenem Dreyeck abc, oben der Rührstrich e–d durch a]
+<!-- Page number: 203 -->
 
 ### Wirckung.
 
-1. Werde an den gegebenen Kreyß bac der Rührstrich de gezogen. n. 17. III.
-2. An den Rührdüpffel a dieses Striches de werde der Winckel dac ∧ hfg n. 23. I.
-3. Und auff die andere Seite gegen e dieses Düttels a, der Winckel eab ∧ fgh gesetzet. n. 23. I.
-4. Werde der Strich bc gezogen.
+1. Werde der Durchschlag cg gezogen.
+2. Von diesem Durschlag werde abgeschnitten das Stück ce | ab n. 3. I.
+3. Nach der Weite ce, werde aus c, als einem Mittel-Düpffel/ ein Kreyß gezogen.
+4. Zu dem Düttel d, wo dieser Kreyß den gegebenen Kreyß durchschneidet/werde der Strich cd gezogen.
 
 ### Beweiß.
 
-dac ∧ hfg n. 2. Wirck.
-dac ∧ abc n. 32. III.
-Dw. abc ∧ hfg n. 1. Gr. I.
-
-eab ∧ fgh n. 3. Wirck.
-eab ∧ acb n. 32. III.
-Dw. acb ∧ fgh n. 1. Gr. I.
-und bac ∧ fhg n. 32. I.
-Dw. △ abc gleichwincklicht △ fha n. 8. Beschr. IV.
-u. △ abc dem O abc eingeschrieben n. 3. Beschr. IV.
+ce | ab n. 1. Wirck.
+ce | cd n. 15. Beschr. I.
+Dw. cd | ab n. 1. Gr. I.
+und cd | dem Kreyß eingefüget n. 7. Beschr. IV.
 
 ### Beschluß.
 
-Ist also dem gegebenen Kreyß ein dem gegebenen Dreyeck gleichwincklichtes Dreyeck eingeschrieben. W. Z. M.
+Ist also der Strich cd | ab dem Kreyß cdf eingefüget. W. Z. M.
 
-<!-- Catchword: Der -->
+## Der II. Vortrag.
+
+## Das 2. Werckstück.
+
+In den gegebenen Kreyß ein Dreyeck/welches dem gegebenen Dreyeck gleich wincklicht sey/ einzu schreiben.
+
+### Gegebene. Begehrte.
+
+1. Kreyß abc. 1. In den Kreyß eingeschriebenes
+2. Dreyeck fgh. △ abc.
+2. △ abc gleichwincklicht dem △ fhg.
+
+<!-- Signature: Cc 2 -->
+
+<!-- Catchword: Wir- -->

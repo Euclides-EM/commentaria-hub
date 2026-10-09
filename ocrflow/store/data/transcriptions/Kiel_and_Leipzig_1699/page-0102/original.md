@@ -1,30 +1,34 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 86 -->
+<!-- Page number: 85 -->
 
-### Beweiß.
-
-acd ∠ ⌐ | n. 1. Vorber.
-Dw. □ ad | □ cd + □ ac | n. 47. Vort.
-cb | cd | n. 2. Vorbr.
-Dw. □ cb | □ cd | n. 6. GrS. l.
-□ ac | □ ac
-Dw. □ cb + □ ac | □ cd + □ ac | n. 2. GrS.
-□ ad | □ cd + □ ac | n. 1. GrS.
-□ ab | □ cd + □ ac | n. 2. Gegeb.
-Dw. □ ab | □ ad | n. 1. GrS.
-und ab | ad | n. 7. GrS. p.
-bc | dc | n. 2. Vorber.
-ac | ac
-Dw. bc + ac | dc + ac | n. 2. GrS.
-und acb ∠ dca | n. 8. Vortr.
-⌐ ∠ dca | n. 1. Vorber.
-Dw. acb ∠ ⌐ | n. 10. Beschreib.
+□ fx | □ fpib | n. Bew. β.
+Dw. □ fx + □ gx | □ gbie + □ fpib | n. 2. Gr S.
+□ fg | □ gbie + □ fpib | n. 9 GrS. q.
+Dw. □ fg | □ fx + □ gx | n. 1. GrS.
 
 ### Beschluß.
 
-Wenn derowegen in einem △ , der einen Seiten □ so groß ist / als die □ □ der ander beeden Seiten / so begreiffen diese beeden Seiten einen rechten Winckel. W. Z. B.
+Ist also in jedwedem rechtwincklichten △ das □ des Strichs/ so dem rechten Winckel gegen über stehet/ eben so groß/ als die Vierecke der beeden andern Seiten zusammen. W. Z. B.
 
-[Ornament: Zierstück (Druckervignette in Rautenform)]
+## Der XLVIII. Vortrag.
 
-<!-- Catchword: Das -->
+## Das 34. Beweiß-Stück.
+
+Wenn in einem Dreyeck/ das Viereck einer Seite eben so groß ist / als der übrigen beeden Seiten Vierecke/ so werden diese beeden Seiten einen rechten Winckel begreiffen.
+
+### Gegebene. | Begehrtes.
+1. △ abc | acb | ⌐
+2. □ ab | □ cb + □ ac
+
+### Vorbereitung.
+
+1. Auff die Seite ac, und zwar den Düttel c, werde ein Senckstrich cd gesetzet. n. 11. Vortr.
+2. Senckstrich cd | cb n. 2. Vortr.
+3. Werde der Strich ad gezogen.
+
+[Diagram: Dreyeck mit Spitze a oben, Grundpunkten d und b, Fußpunkt c unten, mit Senckstrich und Winckelzeichen]
+
+<!-- Signature: L 3 -->
+
+<!-- Catchword: Be- -->

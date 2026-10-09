@@ -1,25 +1,37 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 272 -->
+<!-- Page number: 271 -->
 
-### Beweiß.
+A—a : a | B—b : b, — n. Gegeb.
+A—a : a | B—d : d, — n. Genom.
+Dw. B—b : b | B—d : d, — n. 11. V.
+u. B : b | B : d — n. 17. V.
+B | B
+Dw. b | d — n. 14. V.
 
-A | a + c
-B | b + d — n. Gegeb.
-A : B | a + c : b + d — n. Anh. 7. V.
-A : B | c : d — n. Gegeb.
-Dw. a + c : b + d | c : d — n. 11. V.
-und a : b | c : d — n. 17. V.
-Dw. a : b | A : B — n. 11. V.
+Welches aber auch unmüglich n. 9. Gr. I.
+
+Muß Dw. sich A : a | B : b,
 
 ### Beschluß.
 
-Wenn derowegen die Gantzen sich zu einander also/ wie die abgenommenen Stücke zu einander verhalten: So werden die übergeblieben Stücke sich auch also/ wie die Gantzen zu einander verhalten. W. Z. B.
+Wenn derowegen zertheilte Grössen Ebenmässig sind/ so werden dieselben auch zusammen gesetzt Ebenmässig seyn. W. Z. B.
 
-## Der XX. Vortrag.
+## Der XIX. Vortrag.
 
-## Das 20. Beweiß-Stück.
+## Das 19. Beweiß-Stück.
 
-Wenn man drey Grössen hat/ welche mit andern drey Grössen in richtiger Ebenmaß stehen/ und die Erste der Ersten Ahrt grösser ist/ als die Dritte selbiger Ahrt/ so wird auch die Erste der andern Ahrt grösser seyn/ als die Dritte derselbē Ahrt: Ist aber die Erste gleichgroß mit der Dritten/ so ist auch in der andern Ahrt die Erste der Dritten gleicher Grösse: Und wenn die Erste kleiner/ als die Dritte/ so ist auch in der andern Ahrt die Erste kleiner/ als die Dritte.
+Wenn eine Gantze Grösse zu einer andern Gantzen Grösse sich also verhält/ wie das von der Ersten abgenommene Stück/ zu dem von der Andern abgenommene Stück: So wird auch das von der Ersten übergebliebene sich zu dem von der Andern übergebliebenen also/ wie das Erste Gantze zu dem Andern Gantzen verhalten.
 
-<!-- Catchword: I. Gegebene. -->
+### Gegebene. | Begehrtes.
+
+A __a__c__ | a : b | A : B.
+B __b__d__
+
+[Diagram: Strecken A (mit Theilen a, c) und B (mit Theilen b, d)]
+
+A : B | c : d.
+A | a + c.
+B | b + d.
+
+<!-- Catchword: Beweiß. -->

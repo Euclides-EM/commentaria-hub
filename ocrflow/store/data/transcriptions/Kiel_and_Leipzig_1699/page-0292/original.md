@@ -1,33 +1,27 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 276 -->
-
-## Der XXI. Vortrag.
-
-## Das 21. Beweiß-Stück.
-
-Wenn man drey Grössen hat / und noch andere drey Grössen sind / welche mit den vorigen Grössen in verwirreter Ebenmaß stehen: Auf gleiche Weise aber die Erste grösser ist / als die Dritte/ so wird auch die Vierte grösser seyn/ als die Sechste: Ist aber die Erste mit der Dritten gleichgroß/ so werden auch die Vierte und Sechste gleichgroß seyn: Und wenn die Erste kleiner/ als die Dritte/ so wird auch die Vierte kleiner seyn/ als die Sechste.
-
-### I. Gegebene.
-
-[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
-
-A : B ∷ | b : c
-B : C | a : b
-A | ⊦ C
-
-### Begehrtes.
-
-a ⊦ c
+<!-- Page number: 275 -->
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| b : c | A : B | ⌉ n. Gegeb. |
+| a : b | A : B | ⌉ n. Geg. |
 | A | ⊦ C | |
 | B | B | |
-| Dw. A : B | ⊦ C : B | n. 8. V. |
-| u. b : c | ⊦ C : B | n. 13. V. |
+| A : B | ⊦ C : B | n. 8. V. |
+| γ Dw. a : b | ⊦ C : B | n. 13. V. |
+| b : c | B : C | n. Geg. |
+| Dw. c : b | C : B | n. 16. V. |
+| a : b | ⊦ C : B | n. Bew. γ. |
+| Dw. a : b | ⊦ c : b | n. 13. V. |
+| b | b | |
+| und a | ⊦ c | n. 10. V. |
 
-<!-- Catchword: a : b -->
+### Beschluß.
+
+Wenn man derowegen drey Grössen hat / und noch drey andere Grössen sind / welche mit denen vorigen in richtiger Ebenmaß stehen; und alsdann die I. der vorigen Ahrt grösser ist / als die III. selbiger Ahrt/ so ist auch die I. der andern Ahrt grösser/als die III. der andern Ahrt; Ist aber die I. der Ersten Ahrt gleich groß oder kleiner/als die III. derselbigen Ahrt / so ist auch die I. der andern Ahrt gleich groß/ oder kleiner/als die III. der Andern Ahrt. W. Z. B.
+
+<!-- Signature: Mm 2 -->
+
+<!-- Catchword: Der -->

@@ -1,29 +1,25 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 15 -->
+<!-- Page number: 14 -->
 
-fertigung aber wird aus den Anfängen bewiesen / daß der Auffgabe ein Genügen geschehen. Die beweißlichen Vorstellungen/oder Beweiß-Stücke (Theoremata) geben etwas auff/welches lediglich zu beweisen ist.
+(q) Wenn alle Theile zusammen genommen werden / so sind sie eben so groß / als das Gantze.
 
-Die Neben-Sätze sind gleichfalls zweyerley / nemblich Vorsätze/ und Nachsätze oder Anhänge.
+X. Alle rechte Winckel sind einander gleich/ oder sind gleich groß.
 
-Die Vorsätze (Lemmata) sind Vorbereitungen / durch welche man den Beweiß befördert.
+XI. Wenn durch zween gerade bey einander stehende Striche ein anderer Strich durchgehet/ und zween inwendige auff einer Seite stehende Winckel kleiner machet/ als zweene rechte Winckel / so werden die beeden Striche / wenn sie zu beeden Seiten verlängert werden / auff der Seite / wo die kleinere Winckel sind / endlich zusammen lauffen.
 
-Die Nachsätze oder Anhänge (Corollaria, consectaria, Zugaben) fliessen auß ihren vorhergehenden Haupt-Sätzen / welche sie noch weiter außführen.
+(r) Hier ist zu mercken/ daß dieses kein rechter Grundsatz sey / weil er / wie hernach bey dem XXIX. Vortrag wird geschehen / kan bewiesen werden.
 
-Bey jedwedem Vortrage kommen zum öfftern sieben Theile vor/als:
+XII. Zweene gerade Züge oder Striche können keine Gestalt einschliessen/ oder geschlossene Gestalt vorstellen.
 
-(1.) Der Haupt-Satz (Propositio) an sich selbst/in welchem nicht allein etwas begehret / sondern auch etwas gegeben wird.
+(s) Müssen also zum wenigsten drey gerade Striche seyn / wenn sie nur die einfältigste Gestalt / nemlich ein Dreyeck / vorstellen sollen.
 
-(2) Die Erklärung des Gegebenen. (Explicatio Dati vel datorum )
+# Das I. Buch Euclidis.
 
-(3) Die Erklärung des Begehrten. (Explicatio Quæsiti vel quæsitorum.)
+## Vorbericht.
 
-(4) Die Bewerckstellung deß Auffrisses (Delineatio) oder Wirckung.
+Nach dem die Anfänge vorhergesetzet/ werden die Beweißthüme angestellet/ und der Grössen ihre Eigenschafften durch vorgehende Anfänge also behauptet / daß kein Verständiger mehr daran zuzweiffeln Ursach habe. Damit aber alles füglich und deutlich geschehen möge/ werden gewisse Vorträge (Propositiones) zugerichtet / welche in Haupt-und Neben-Sätze abgetheilet werden.
 
-(5) Bißweilen eine Vorbereitung. (Præparatio.)
+Die Haupt-Sätze sind widerum zweyerley / nemlich (1) Würckliche und (2) Beweißliche Vorstellungen. Jene / die Würcklichen/ können füglich Werck-Stücke (Problemata) genennet werden / und geben etwas zu verfertigen auff/ nach der Ver-
 
-(6) Der Beweiß (Demonstratio,) und endlich
-
-(7) Der Beschluß (Conclusio,) welcher in kurtzer Widerholung des Haupt-Satzes bestehet/ mit diesem Anhange: W. Z. M. das ist / welches zu machen war. ( q. e. f. in Problematibus) oder W. Z. B. das ist/ welches zu beweisen war. (q. e. d. in Theorematibus.)
-
-<!-- Catchword: Der -->
+<!-- Catchword: ferti- -->

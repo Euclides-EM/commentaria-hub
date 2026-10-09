@@ -1,26 +1,25 @@
-<!-- Running title: Beschreibungen. -->
+[Ornament: Zierleiste (Holzschnitt) aus Rosetten]
 
-<!-- Page number: 2 -->
+# Außlegung und Bedeutung derer Zeichen/ welche bey deß Euclidis Erklärung vorkommen.
 
-# Deß I. Buchs Anfänge (Principia,) und zwar 1. Beschreibungen der Kunst wörter.
+1. | Ein gerader Senckstrich bedeutet eine Gleichheit. als A | B, ist so viel als/ A ist gleich oder eben so groß als B.
+2. △ Ein Dreyeck/ es mag spitz- stumpf- oder recht-wincklicht seyn.
+3. ⋀ Ein Winckel.
+4. + Mehr/ oder das Zusammensetzungs-Zeichen. als A + B, ist so viel als/ A mehr B/ oder A zu B gethan.
+5. — Weniger/ oder das Abzugs-Zeichen/ als A — B, ist so viel als/ A weniger B, oder A, von welchem das B abgezogen ist.
+6. ⊣ Das Vergrösserungs-Zeichen. als A ⊣ B, ist so viel als/ A ist grösser als B.
+7. ⊢ Verkleinerungs-Zeichen / als A ⊢ B, ist so viel als/ A ist kleiner als B.
+8. ∟ Rechter Winckel/ als ⋀ A | ∟ das ist/ der Winckel A ist gleich einem rechten Winckel.
+9. ⊾ Zweene rechte Winckel.
+10. = Gerade Nebenstriche/ bißweilen auch ebene Neben-Flächen/ (Parallelæ lineæ.)
+11. ▭ Länglicht Viereck/ Parallelogrammum oblongum.
+12. □ Gleichseitig Viereck/ Quadratum.
+13. ⌂ Ungeschickt Viereck/ Trapezium.
+14. ◠ ◠ Ein Bogen/ Arcus
+15. ◗ Ein Kreyß-Stück/ Segmentum circuli.
+16. ⌐ Ein Winckel-Maß/ Gnomon.
+17. ○ Kreyß/ Circulus.
 
-I. Ein Düpffelein (Punctum) oder Düttel ist ein sichtbares Zeichen eines untheilbaren Anfangs aller Grössen.
-II. Ein Strich (Linea) ist ein Zeichen einer Länge/ die keine Breite hat.
+<!-- Signature: A -->
 
-[Diagram: waagerechte gerade Linie]
-
-III. Das Eusserste oder die Endungen (Termini) eines endlichen Striches sind Düpffele oder Düttele.
-IV. Ein gerader Strich (oder Zug) ist/ welcher ohne Außweichung und am kürtzesten zwischen seinen End-Düpffeln außgestrecket ist: die andern / so nicht gleich außgestrecket sind/ werden krumme Züge genennet.
-
-[Diagram: gerade Linie, durchkreuzt von punktierten krummen Schlingenzügen]
-
-V. Eine Fläche (Superficies) ist/ welche nur auß einer Länge und Breite bestehet/ (aber keine Dicke hat.)
-
-[Diagram: Rechteck]
-
-VI. Die endliche Fläche wird von Strichen eingeschrencket.
-VII. Eine ebene Fläche ist/ welche gerade/ ohne Auffblehung oder Niedersinckung/ zwischen ihren Endstrichen lieget / oder stehet.
-
-[Diagram: zwei Vierecke, links ein Trapez, rechts ein nach unten gespitztes Viereck]
-
-<!-- Catchword: IIX. Ein -->
+<!-- Catchword: Deß -->

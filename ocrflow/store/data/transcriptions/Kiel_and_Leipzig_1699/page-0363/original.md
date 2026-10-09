@@ -1,52 +1,30 @@
-<!-- Page number: 347 -->
+<!-- Page number: 346 -->
 
-<!-- Running title: Euclidis. -->
-
-### Vorbereitung.
-
-1. Werde gemacht das □ ad
-2. Deßgleichen auch □ bc.
-3. Und zwar nach gleichmässigen Winckel gemacht. n. 23. I.
-
-### I. Beweiß.
-
-|  |  |  |
-|---|---|---|
-|  | aed ⋏ bfc | n. 3. Vorb. |
-|  | a : b ⊤ c : d | n. 2. Gegeb. |
-
-Und haben die beyden Vierecke also bey wechselmässigen Winckeln wechselmässige Seiten.
-
-|  |  |  |
-|---|---|---|
-| Dw. | ad ⌻ bc. | n. 14. VI. |
-
-### II. Gegebene.
-
-1. Vier gerade Striche
-a, b, c, d.
-2. ad ⌻ bc.
-
-### I. Begehrtes.
-
-a : b ⊤ c : d.
-
-### II. Beweiß.
-
-|  |  |  |
-|---|---|---|
-|  | ad ⌻ bc. | n 2. Gegeb. |
-|  | aed ⋏ bfc. | n. 3 Vorb. |
-| Dw. | a : b ⊤ c : d | n 14. VI. |
-
-Und die vier Striche sind ebenmässig n. 7. Beschr. V.
+<!-- Running title: Das VI. Buch -->
 
 ### Beschluß.
 
-Wenn derowegen vier ebenmässige Striche gegeben werden/ so ist das von den beyden äusersten Strichen gemachte/dem von den beyden mitlern Strichen gemachten Viereck gleichmässig.
+Haben derowegen gleichmässige Dreyecke bey einem gleichmässigen Winckel wechselweiß stehende Seiten. Und die Dreyecke/ welche bey einem gleichmässigen Winckel wechselweiß stehende Seiten haben/ sind gleichmässig. W. Z. B.
 
-Und wenn das von zweyen äusersten Strichen begriffene Viereck / dem nach gleichem Winckel von denen mittelsten Strichen gemachten Viereck gleichmässig ist/ so stehen dieselben Striche in richtiger Ebenmaß. W. Z. B.
+## Der XVI. Vortrag.
 
-<!-- Signature: Xx 2 -->
+## Das 11. Beweiß-Stück.
 
-<!-- Catchword: Der -->
+Wenn vier ebenmässige Striche gegeben werden/ so ist das von dem ersten und letzten Strich begriffene nebenstrichichte Viereck/ dem von den beyden mitlern Strichen begriffenen Viereck gleichmässig.
+
+Und wann das von zweyen äusersten Strichen begriffene/ dem von beyden mittelsten Strichen begriffenen Viereck gleichmässig ist/ so stehen auch solche vier Striche in richtiger Ebenmaß.
+
+### I. Gegebene.
+
+1. Vier Striche
+a, b, c, d.
+2. Welche ebenmässig
+a : b ⊤ c : d.
+
+### I. Begehrtes.
+
+ad ⌻ bc.
+
+[Diagram: Zwey Rechtecke; das lincke mit den Seiten a, e, d, daneben die einzelnen Striche d, b, c, a; das rechte Rechteck mit den Seiten e, b, f]
+
+<!-- Catchword: Vorbe- -->

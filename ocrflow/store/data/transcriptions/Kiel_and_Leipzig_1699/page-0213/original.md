@@ -1,27 +1,36 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 197 -->
+<!-- Page number: 196 -->
 
-wird/eben so groß seyn/ als das Viereck der beeden Stücke bl, ld des andern Striches. W. Z. B.
+|  |  |  |  |
+|---|---|---|---|
+|  | □ en | □ en |  |
+| Dw. | ▭ alc + □ nl + □ en | □ nc + □ en | n 2. Gr. I. |
+|  | □ [unclear: el] | □ nc + □ en | □ ec n. 47. I. |
+|  | ▭ alc + □ nl + □ en + □ nc + □ en | □ nc + □ en + □ ec | n. 2. Gr. I. |
+|  | ▭ alc + □ nl + □ en |  | □ ec n. 3. Gr. I. |
+|  | □ el | □ nl + □ en | n. 47. I. |
+|  | ▭ alc + □ nl + □ en + □ el | □ nl + □ en + □ ec | n. 2. Gr. I. |
+| α. | ▭ alc + □ el |  | □ ec n. 3. Gr. I. |
+|  | eh | Senckstr. | n. 3. Vorb. |
+| Dw. | dh | hb | n. 3. III. |
+| und | ▭ dlb + □ lh | ▭ hb | n. 5. II. |
+|  | □ eh | □ eh |  |
+|  | ▭ dlb + □ lh + □ eh | □ hb + □ eh | n. 2. Gr. I. |
+|  | □ hb + □ eh |  | □ eb n. 47. I. |
+| Dw. | ▭ dlb + □ lh + □ eh + □ hb + □ eh | □ hb + □ eh + □ eb | n. 2. Gr. I. |
+|  | ▭ dlb + □ lh + □ eh |  | □ eb n. 3. Gr. I. |
+|  | ec |  | eb n. 15. Besch I. |
+|  | □ ec | □ eb | n. 1. Gr. t. II. |
+| Dw. | ▭ dlb + □ lh + □ eh | □ ec | n. 1. Gr. I. |
+|  | □ el | □ lh + □ eh | n. 47. I. |
+| Dw. | ▭ dlb + □ lh + □ eh + □ el | □ ec + □ lh + □ eh | n. 2. Gr. I. |
+|  | ▭ dlb + □ el | □ ec | n 3 Gr. I. |
+| Dw. | ▭ dlb + □ el | ▭ alc + □ el α | n. 1. Gr. I. |
+| u. | □ dlb | ▭ alc | n. 3. Gr. I. |
 
-## Der XXXVI. Vortrag.
+### Beschluß.
 
-## Das 30. Beweiß-Stück.
+Wird also/ wann zween gerade Striche ac, bd, so in einem Kreyß bcda stehen/ einander durchschneiden/ das rechtwincklichte Viereck/ welches von des einen Striches Stücken al, lc begriffen
 
-Wenn man von einem ausser dem gegebenen Kreyß erwehlten Düttel zween gerade Striche zu dem Kreyß zeucht/ deren einer den Kreyß nur anrühret/ der andere aber selbigen schneidet: So wird das rechtwincklichte Viereck/ welches von dem gantzen schneidenden Strich/und dem Stück desselben/ so zwischen dem Düttel und aussern Kreyß-krümme stehet/ eben so groß seyn / als das rechtwincklichte Viereck/ das von dem Rührstrich kan gemacht werden.
-
-### Gegebene. | Begehrtes.
-
-1. Kreyß edgh. | 1. ▭ ha, ag | □ ad
-2. Düttel a. | 2. ▭ ea, ab | □ ad
-3. Ausser dem Kreyß erwehlet.
-4. Gerade Striche ad, ae, ah.
-5. Von dem Düttel a gezogen.
-6. Also daß ad den Kreyß anrühre.
-7. ah den Kreyß in g,
-8. Und ae denselben in b schneide /
-9. Zugleich aber durch den Mittel-Düpffel c gehe.
-
-<!-- Signature: Bb 3 -->
-
-<!-- Catchword: Vor- -->
+<!-- Catchword: wird -->

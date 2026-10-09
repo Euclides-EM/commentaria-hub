@@ -1,26 +1,21 @@
-<!-- Running title: Postulata. -->
+<!-- Running title: Definitiones. -->
 
-<!-- Page number: 9 -->
+<!-- Page number: 8 -->
 
-## Foderungen oder Heischungen (Postulata.)
+XXXII. Eine länglichte Raute ( Rhomboides ) hat zwar die gegen einander überstehende Seiten und Winckel unter sich gleich/im übrigen aber ist sie weder gleichseitig/ noch auch gleichwincklicht.
 
-Weil man keine Erklärung oder Beweiß nachtrücklich anstellen kan/es werden denn zufoderst etliche begehrte Sätze oder Foderungen zugegeben/so hat Euclides drey solche Foderungen seinen Beweißthümern vorgesetzet/ welchen aber billich die vierte vorgefüget wird/ als
+[Diagram: ein schiefwinkliges Parallelogramm (länglichte Raute)]
 
-1. Daß man einen sichtbahren Düpffel mit der Feder/Stifft/ Kreiden/ oder auff andere Arth/ machen möge/ welcher bey dem Beweiß die Stelle eines zarten unsichtbaren Düttels vertreten könne.
-2. I. Daß man von einem jeden Düpffel zu einem andern Düpffel einen geraden Strich ziehen könne.
-3. II. Daß man einen geendeten Strich nothdürfftig oder so weit / als nöthig ist / ungehindert verlängern könne.
-4. III. Daß man aus jedwedem gegebenen Düpffel/ nach der gegebenen Weite / einen Kreyß beschreiben könne.
+XXXIII. Alle übrige Vierecke werden ungeschickte Vierungen (Trapezia) genennet.
 
-## Außsprüche oder Grund-Sätze.
-(Axiomata sive communes notiones.)
+[Diagram: drei unregelmäßige Vierecke (Trapeze)]
 
-I. Welche zwo Grössen c oder b ( oder Zalen ) einer dritten Grösse a ( oder Zal ) gleich sind/ dieselbigen sind auch unter sich gleich.
+XXXIV. Gerade Neben-Striche (Parallelæ lineæ) sind/ welche auff einer ebenen Fläche ohne auffhören neben einander können verlängert werden/niemals aber zusammen stossen.
 
-[Diagram: drei gleich lange Striche, bezeichnet mit b, a, c]
+[Diagram: zwei parallele punktierte gerade Linien]
 
-(a) Welch Ding a grösser ist/als eins b von zwey gleichen Dingen/ das ist auch grösser / als das andere c.
+XXXV. Füll-Flächen oder Füll-Münde (Complementa DE & EC) sind zwey Vierecke / durch welche der Zwerg-Strich ( Diagonius vel diameter AB ) der grossen viereckigten Gestalt ACBD, welche in vier Theile getheilet ist/ nicht durchgehet. Die beeden übrigen Vierecke werden umb den Zwerg-Strich stehende Vierecke genennet.
 
-[Diagram: drei Striche, a länger, b und c kürzer und gleich lang]
+[Diagram: Parallelogramm ACBD mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Diagonale und Teilungslinien]
 
-<!-- Signature: B -->
-<!-- Catchword: (b) Welch -->
+<!-- Catchword: Fo- -->

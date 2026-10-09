@@ -1,30 +1,38 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 240 -->
+<!-- Page number: 239 -->
 
-## Der II. Vortrag.
-
-## Das 2. Beweißstück.
-
-Wenn die Erste Grösse der Andern / und die Dritte der Vierten gleichmäßig vielfältig sind; darnach auch die Fünffte der Andern und die Sechste der Vierten gleichmäßig vielfältig sind: so werden auch die Erste und Fünffte zusammen genommen der Andern eben so vielfältig seyn / als die Dritte und Sechste zusammen genommen der Vierten sind.
-
-### Gegebene. — Begehrtes.
-
-[Diagram: sechs waagerechte Linien, bezeichnet A (getheilet in c, d), a, C (getheilet in e, f, g), B (getheilet in h, k), b, D (getheilet in l, m, n); daneben die Ziffern I. II. V. III. IV. VI.]
-
-II. A : a | B : b — V. C : a | D : b
-
-A + C : a | B + D : b
+Oder auch also:
 
 ### Vorbereitung.
 
-1. Es werde A getheilet in c, d, also daß
-2. c|a und d|a n. 3. I.
-3. Auch werde B getheilet in h, k, also daß
-4. h|b und k|b n. 3. I.
-5. Deßgleichen C in e, f, g, also daß
-6. e|a, f|a und g|a n. 3. I.
-7. Und D in l, m, n, also daß
-8. l|b, m|b und n|b n. 3. I.
+1. Die grösse a werde vier mahl/
+2. wie auch b vier mahl genommen:
 
-<!-- Catchword: Beweiß -->
+[Diagram: vier waagerechte Linien, bezeichnet A, 4a, B, 4b]
+
+### Beweiß.
+
+|  |  |  |  |  |
+|---|---|---|---|---|
+| | 3a | A | n. Beweiß. | ε |
+| | 4a | 3a | n. 9. Gr. I. | |
+| Dw. | 4a | A | n. 1. Gr. a. I. | |
+| | 3b | B | | |
+| | 4b | 3b | | |
+| Dw. | 4b | B | | |
+| λ und | 4a + 4b | A + B | n. 4. Gr. g. I. | |
+
+Weil nun (1) 3a + 3b | A + B, n. Bew. η
+
+(2) 2a + 2b ⊢ A + B, n. Bew. κ
+
+und (3) 4a + 4b ⊣ A + B, n. Bew. λ
+
+Dw. A + B : a + b | A : B, n. 6. Beschr. V.
+
+### Beschluß.
+
+Wenn derowegen die 1. zu der 2. Grösse/ und die 3. zu der 4. gleich-vielfältig sind/ so werden auch die 1. und 3. zusammen genommen / zu denen 2. und 4. zusammen genommenen Grössen eben so vielfältig seyn / als die 1. zu der 2. oder die 3. zu der 4. Grössen sind. W. Z. B.
+
+<!-- Catchword: Der -->

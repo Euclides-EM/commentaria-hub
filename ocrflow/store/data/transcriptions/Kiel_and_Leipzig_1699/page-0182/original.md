@@ -1,27 +1,32 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 166 -->
-
-II. Arth.
-
-cah ∠ 2 cph
-dah ∠ 2 dph — n. 1. Bew.
-Dw. cah + dah ∠ 2 cph + 2 dph — n. 2. Gr. I.
-oder cad ∠ 2 cpd — n. 9. Gr. q. I.
-
-[Diagram: Kreis mit Mitteldüpffel a, Punkt p oben, c links unten, d rechts unten, h unten; Striche pc, pd, ac, ad und punktierte Linie ph]
-
-III. Arth.
-
-eac ∠ 2 efc
-dae ∠ 2 efd — n. 1. Bew.
-eac — dae ∠ 2 efc — 2 efd — n. 3. Gr. I.
-oder dac ∠ 2 dfc
-
-[Diagram: Kreis mit Mitteldüpffel a, Punkt b oben links, f links, e rechts, d rechts unten, c unten; Striche bf, fd, fc, ad, ac und punktierte Linien ba, fe]
+<!-- Page number: 165 -->
 
 ### Beschluß.
 
-Wird also allezeit der Mittel-Düpffels Winckel noch einmahl so groß seyn / als der auff eben solchem Kreyßzug stehende Kreyßstücks-Winckel. W. Z. B.
+Man mag nun einen Düttel des Kreyses ausser dem Senckstrich cd nehmen/ welchen man wolle/ so wird allezeit diese Unmügligkeit nach dem 9. Gr. I. erscheinen : Muß derohalben nothwendig der Mitteldüpffel in dem Senckstrich cd stecken. W. Z. B.
 
-<!-- Catchword: Der -->
+## Der XX. Vortrag.
+
+## Das 18. Beweiß-Stück.
+
+Jn jedwedem Kreyß ist des Mitteldüpffels-Winckel noch einmahl so groß / als der auff eben solchem Kreyßzug stehende Kreyßstücks Winckel.
+
+### Gegebene. Begehrtes.
+
+1. Kreyß bcde. — cad ∠ 2 [unclear: abc]
+2. Kreyßdüpffels-Winckel cad.
+3. Jn dem Kreyß stehender Winckel cbd.
+4. Bogen/ auff welchem beede Winckel stehen cd.
+
+[Diagram: Kreis bcde mit Mitteldüpffel a, Punkt b oben, e rechts oben, c unten links, d unten; Striche bc, bd, ac und ad]
+
+I. Arth.
+
+ab | ac — n. 15. Beschr. I.
+Dw. abc ∠ acb — n. 5. I.
+cad ∠ abc + acb — n. 32. I.
+cad + abc ∠ abc + acb + acb — n. 2. Gr. I.
+abe ∠ [unclear: abc]
+Dw. cad ∠ acb + acb — n. 3. Gr. I.
+oder cad ∠ [unclear: acb] — n. 9. Gr. q. I.

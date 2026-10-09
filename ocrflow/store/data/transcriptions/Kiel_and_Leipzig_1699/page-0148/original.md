@@ -1,36 +1,38 @@
-<!-- Page number: 132 -->
+<!-- Page number: 131 -->
 
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-### Beweiß.
+Wolte man nun sagen/ der Mittel-Düpffel stehle auff den Strich hg, und zwar auff f oder e, so müste
 
-Wenn der Strich nicht inwendig / sondern außwendig solte zu stehen kommen /
+fg | fh — n. 15. Beschr. I.
+ag ⊢ fg — n. 9. Gr. I.
+Dw. ag ⊢ fh — n. 1. Gr. b. I.
+ag | ah — n. 4. Vorber.
+Dw. ah ⊢ fh — n. 1. Gr. d. I.
 
-[Diagram: Kreis mit Mitteldüpffel a, Sehne hg, Düttel i innen, punktierter Bogen außerhalb mit den Dütteln f und e]
+Welches aber unmöglich/ nach 9. Grundsatz I. Gleiche Bewandniß hat es/ wenn man den Mittel-Düpffel in e, oder auff die andere Seite des Düttels f, im Strich gh, oder seitwertssetzen wolte.
 
-### Vorbereitung.
+### Beschluß.
 
-So ziehe man aus dem Mittel-Düpffel a
+Ist also der gefundene Düttel a, der rechte Mittel-Düpffel des gegebenen Kreyses. W. Z. M.
 
-1. Die beeden Striche ah und ag.
-2. Deßgleichen nach dem außwerts fallenden Strich hfg den Strich af.
+## I. Anhang.
 
-### Verfolg des Beweises.
+Wenn ein gerader Strich in einem Kreyß einen andern Strich des Kreyses / nach rechten Winckeln in zween gleiche Theile schneidet/ so wird auch desselben Kreyses Mittel-Düpffel in solchem Striche seyn/ wie aus dem vorhergesetzten Beweiß erhellet.
 
-ah | ag — n. 15. Beschr. I.
-Dw. ahf ⋏ agf — n. 5. I.
-afg ⋏ ahf — n. 16. I.
-Dw. afg ⋏ agf — n. 1. Gr. a I.
-und ag ⊣ af — n. 18. I.
-ag | ae — n. 15. Beschr. I.
-Dw. ae ⊣ af — n. 1. Gr. c. I.
+## Der II. Vortrag.
 
-Welches aber nicht seyn kan / nach 9. Gr. I.
+## Das 1. Beweiß-Stück.
 
-### Auff eine andere Arth
+Wenn in eines Kreyses Umfang zween Düttele erwehlet/ und mit einem geraden Strich zusammen gehänget werden/ so fället solcher Strich inwendig in den Kreyß.
 
-ah | ag — n. 15. Beschreib.
-Dw. ahi ⋏ agi — n. 5. I.
-gia ⋏ iha — n. 16. I.
+### Gegebene. — Begehrtes.
 
-<!-- Catchword: Dw. -->
+1. Der Kreyß hcg, — Strich hg Jnwendig im Kreyß.
+2. Zween Düttel h und g,
+3. Der Strich hg, welcher
+4. Die beyden Düttele zusammen hänget.
+
+<!-- Signature: R 2 -->
+
+<!-- Catchword: Beweiß -->

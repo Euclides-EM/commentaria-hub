@@ -1,25 +1,29 @@
 <!-- Running title: Axiomata. -->
 
-<!-- Page number: 11 -->
+<!-- Page number: 10 -->
 
-III. Wenn man von (zwey) gleichen Dingen ab und cd (zwey) gleiche Stücke eb und id abnimmt / so bleiben (zwey) gleiche Stücke ae und ci übrig.
+(b) Welch Ding a kleiner ist/ als eins b von zwey gleichen Dingen/ das ist auch kleiner / als das andere c.
 
-[Diagram: zwei Striche a–e–b und c–i–d]
+[Diagram: drei Striche, a kürzer, b und c länger und gleich lang]
 
-IV. Wenn man (zwey) ungleichen Dingen ab und cd (zwey) gleiche Stücke be und cf beyfüget/ so werden die (zwey) Gantzen ae und df auch ungleich.
+(c) Wenn eins oder das erste b von (zwey) gleichen Dingen b und c grösser ist/als das dritte a / so ist auch das andere c grösser/ als das dritte a.
 
-[Diagram: zwei Striche a–b–e und d–c–f]
+[Diagram: drei Striche, b und c gleich lang, a kürzer]
 
-(g) Wenn man ( zwey ) ungleiche Dinge ac und ef zu ( zwey ) ungleichen Dingen ab und ed setzet/und zwar das Grosse ac dem Grossen ab/ das Kleiner ef aber dem Kleinern de beyfüget / so werden die beeden Gantzen auch ungleich / und zwar jenes bc Grösser / dieses df aber Kleiner.
+(d) Wenn das eine b von (zwey) gleichen Dingen b und c kleiner ist/ als das dritte a / so ist auch das andere c kleiner / als das dritte a.
 
-[Diagram: zwei Striche b–a–c und d–e–f]
+[Diagram: drei Striche, b und c gleich lang, a länger]
 
-V. Wenn man von ( zwey ) ungleichen Dingen bc und df (zwey) gleiche Stücke ab und ef abnimmt / so bleiben ( zwey ) ungleiche Stücke ba und de übrig.
+(e) Was a grösser ist / als das Grössere b/ das ist auch grösser / als das Kleinere c.
 
-[Diagram: zwei Striche a–c–b und d–e–f]
+[Diagram: drei Striche, a am längsten, b kürzer, c am kürzesten]
 
-(h) Wenn man von (zwey) ungleichen Dingen db und ef (zwey) ungleiche Stücke ab und cf abnimt / und zwar das Kleinere ab von dem Grossen bd / das Grössere cf aber von dem Kleinen ef/ so bleiben (zwey) ungleiche Stücke übrig / nemblich jenes da Grösser/ dieses ce Kleiner.
+(f) Was a/ kleiner ist / als das kleinere b / das ist auch kleiner / als das Grössere c.
 
-[Diagram: vier Striche mit den Bezeichnungen d, a–b, c–f, e]
+[Diagram: drei Striche, a am kürzesten, b länger, c am längsten]
 
-<!-- Catchword: VI. -->
+II. Wenn man zu ( zwey ) gleichen Dingen ab und bc ( zwey ) gleiche Stücke de und ef thut/werden die ( beeden ) Gantzen ae und bf auch gleich.
+
+[Diagram: zwei Striche a–d und b–c, an welche punktierte Stücke d–e und c–f angesetzt sind]
+
+<!-- Catchword: III. -->

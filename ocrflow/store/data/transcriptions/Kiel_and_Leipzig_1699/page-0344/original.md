@@ -1,29 +1,34 @@
-<!-- Page number: 328 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Page number: 327 -->
 
-## Der IIX. Vortrag.
+### Vorbereitung.
 
-## Das 8. Beweiß-Stück.
+Wenn man | acb ⋏ dfe | so mache
+| acg ⋏ dfe | n. 23. I.
 
-Wenn aus dem rechten Winckel eines rechtwincklichten Dreyecks ein bleyrechter Senckstrich auf den (dem rechten Winckel gegen über stehenden) Grundstrich gezogen wird; So sind durch diesen Senckstrich gemachte beyde Dreyecke / so wol unter sich / als auch dem gantzen Dreyecke gleichähnlich.
+### II. Beweiß.
 
-### Gegebenes.
+| acg ⋏ dfe | n. Vorber.
+| cag ⋏ fde | n. 3. Geg.
+Dw. | cga ⋏ def | n. 32. I.
+u. | ac : cg | df : fe | n. 4. VI.
+| ac : cb | df : fe | n. 4. Geg.
+Dw. | ac : cb | ac : cg | n. 11. I.
+u. | cb | cg | n. 9. V.
+Dw. | cgb ⋏ cbg | n. 5. I.
+| cbg ⋏ nicht kleiner als ∟ | n. 1. Geg.
+Dw. auch | cgb ⋏ nicht kleiner als ∟ | n. 1. Gr. d. I.
+u. | cbg + cgb ⋏ nicht kleiner als [unclear: ⌓] | n. 2. Gr. I.
+welches aber unmüglich n. 17. I.
 
-1. Dreyecke abc
-2. Welches rechtwincklicht/
-3. Aus dessen rechten Winckel a
-4. Ein Strich d
-5. Auf den Grundstrich bc
-6. Bleyrecht gezogen ist.
+Derowegen muß | abc ⋏ def
+Und ebener Gestalt | bca ⋏ efd
+| bac ⋏ edf | n. 1. Geg.
+Dw. △ abc gleichwincklicht △ def n. 1. Beschr. VI.
 
-### Begehrtes.
+### Beschluß.
 
-△ | | △
-abc | | abd
-abc | ähnlich | adc
-abd | | adc
+Wenn derowegen zwey Dreyecke einen gleimässigen Winckel haben / die übrigen Winckel aber von ebenmässigen Seiten begriffen sind / und derer übrigen Winckel allezeit von zweyen jedweder kleiner / oder auch nicht kleiner / als ein rechter Winckel ist: So sind diejenigen Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / beyde Dreyecke auch gleichwincklicht. W. Z. B.
 
-[Diagram: rechtwinkliges Dreieck abc mit punktierter Senkrechte ad auf die Grundlinie cb]
-
-<!-- Catchword: I. Beweiß. -->
+<!-- Catchword: Der -->

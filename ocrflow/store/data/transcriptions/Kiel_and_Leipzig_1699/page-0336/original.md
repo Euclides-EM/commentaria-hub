@@ -1,37 +1,34 @@
-<!-- Page number: 320 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Page number: 319 -->
 
-## Der V. Vortrag.
+Dw. | ba : cd | ba : CD | n. 7. V.
+1. u. | ba : CD | bc : CE | n. 11. V.
+γ | bc : ce | fd : de | n. 2. VI.
+δ | fd | ac | n. 34. I.
+| DE | DE |
+Dw. | fd : DE | ac : DE | n. 7. V.
+| fd | fd |
+| DE | de | n. 3. Vorb.
+Dw. | fd : DE | fd : de | n. 7. V.
+u. | bc : ce | ac : DE | n. 11. V.
+| CE | ce | n. 2. Vorb.
+2. Dw. | bc : CE | ac : DE | n. 7. V.
 
-## Das 5. Beweiß-Stück.
+| ba : af | bc : ce | n. Bew. α
+| bc : ce | fd : de | n. Bew. γ
+Dw. | ba : af | fd : de | n. 11. V.
+| cd | af | n. Bew. β
+| fd | ac | n. Bew. δ
+Dw. | ba : cd | ac : de | n. Anh. 7. V.
+| DC | cd |
+| de | DE | n. 3. Vorb.
+Dw. | ba : DC | ac : DE | n. Anh. 7. V.
 
-Wenn die Seiten zweyer Dreyecke in ebenmässiger Verhältnüß stehen / so sind solche Dreyecke gleichwincklicht / und denen ebenmässigen Seiten stehen gleichmässige Winckel gegen über.
+[Diagram: kleines Dreieck, blass im Hintergrund der Tabelle]
 
-### Gegebene.
+### Beschluß.
 
-1. Zwey Dreyecke abc und DCE, deren Seiten in richtiger Ebenmaß stehen.
+So stehen derowegen aller gleichwincklichten Dreyecke Seiten in ebenmässiger Verhällnüß / so ferne sie gleichmässige Winckel einschrencken / oder gleichmässigen Winckeln gegen über stehen. W. Z. B.
 
-2. | ac : DE | bC : CE
-3. | ab : DC | bC : CE
-4. | ab : DC | aC : DE.
-
-### Begehrte.
-
-C ⋏ b
-DCE ⋏ aCb
-a ⋏ D.
-
-[Diagram: zwei Dreiecke, ein kleineres abc und ein grösseres DCE mit punktierter Linie DH und Punkten H und E auf der Grundlinie]
-
-### Beweiß.
-
-Wenn die gegebenen Dreyeck nicht gleichwincklicht sind.
-
-### Vorbereitung.
-
-So setze man auf den Strich CD und zwar
-auf den Düttel D den Winckel CDH ⋏ baC
-und auf C den Winckel DCH ⋏ abC   n. 32. I.
-
-<!-- Catchword: Ver- -->
+<!-- Catchword: Der -->

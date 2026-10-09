@@ -1,30 +1,39 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 152 -->
-
-### III. Begebenheit.
-
-Wenn die beeden Kreyse einander auswendig in k und m anrühren.
-
-[Diagram: zwei einander von aussen berührende Kreise; an der Berührung oben k, darunter m; im linken Kreis der Mittel-Düpffel l, im rechten i; gerade und punktierte Verbindungsstriche]
+<!-- Page number: 151 -->
 
 ### Vorbereitung.
 
-1. Ziehe man von dem einen Mittel-Düpffel i einen geraden Strich il zum andern Mittel-Düpffel l.
-2. Aus denen Mittel-Düpffeln i und l werden zum Anrührungs-Düttel k zweene gerade Striche ik und lk gezogen.
+So werde durch die beeden angenom̄enen Mittel-Düpffele a und b ein gerader Strich / welcher auf die beeden Anrührungs-Düttele c und d stosse / gezogen.
 
 ### Beweiß.
 
-kl | lm
-ik | mi — n. 15. Beschr. I.
-ik + kl | lm + mi — n. 2. Gr. I.
-Oder ik + kl | li — n. 9. Gr. q. I.
-Welches aber unmüglich n. 20. I.
+ad | ac — n. 15. Beschr. I. und nach Angen.
+ad ⊣ bd — n. 9. Gr. I.
+Dw. ac ⊣ bd — n. 1. Gr. c. I.
+bc | bd — n. 15. Beschr. I. und nach Angen.
+Dw. ac ⊣ bc — n. 1. Gr. a. I.
+Welches unmüglich n. 9. Gr. I.
 
-### IV. Begebenheit.
+### II. Begebenheit.
 
-Wenn der kleinere Kreyß den grössern inwendig in q und r berühret.
+Wann der inwendige Kreyß den eussern in h und g anrühret.
 
-[Diagram: zwei Kreise, deren kleinerer den grössern inwendig berühret; oben die Punkte b und r, im Innern o und d, mit punktierten Strichen verbunden]
+[Diagram: zwei Kreise, deren innerer den äusseren oben in h und g anrühret; im Innern die Mittel-Düpffele f und e mit punktierten Stralen nach h und g]
 
-<!-- Catchword: Vor- -->
+### Vorbereitung.
+
+So seyen 1. die beeden Mittel-Düpffele e und f.
+2. darnach werden aus den Anrührungs-Dütteln die Stralen hf, he, gf und ge, zu den beeden Mittel-Düpffeln gezogen.
+
+### Beweiß.
+
+hf | gf — n. 15. Beschr. I. und nach angen.
+fe | fe
+hf + fe | gf + fe — n. 2. Gr. I.
+ge ⊢ gf + fe — n. 20. I.
+Dw. ge ⊢ hf + fe — n. 1. Gr. b. I.
+Oder ge ⊢ he — n. 9. Gr. q. I.
+Welches unmüglich n. 15. Beschr. I.
+
+<!-- Catchword: III. Be- -->

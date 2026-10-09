@@ -1,15 +1,34 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 297 -->
+<!-- Page number: 296 -->
 
 ### Beschluß.
-Wenn derowegen das Gantze zu dem Gantzen eine grössere Verhältnüß / als das Abgeschnittene zu dem Abgeschnittenen hat; So hat das Ubergebliebene zu dem Ubergebliebenen eine grössere Verhältnüß / als das Gantze zu dem Gantzen. W. Z. B.
+Wenn derowegen Sechs Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die V. zu der VI. Auch die II. zu der III. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
 
-## Der XXXIV. Vortrag.
-## Das 34. Beweiß-Stück.
+## Der XXXIII. Vortrag.
+## Das 33. Beweiß-Stück.
 
-Wenn man in beliebiger Menge unterschiedliche Grössen nimmet / und eben so viel andere Grössen darzu kommen / alsdann die Erste der ersten Ahrt / zu der Ersten der andern Ahrt eine grössere Verhältnüß hat / als die Andere der ersten Ahrt / zu der Andern der andern Ahrt / gleicher Gestalt die Andere von den Ersten / zu der Andern von der andern Ahrt eine grössere Verhältnüß / als die Dritte von den Ersten / zu der dritten von den Andern hat / und so fortan: So werden alle Grössen erster Ahrt zusammen / zu allen Grössen anderer Ahrt zusammen eine grössere Verhältnüß / als der ersten Ahrt Grössen / ohne ihre Erste / zu der andern Ahrt Grössen / auch ohne ihre Erste haben. Die ersten Grössen alle zusammen / werden zu denen andern Grössen allen zusammen / eine kleinere Verhältnüß / als die Erste der ersten Ahrt zu der Ersten der andern Ahrt haben. Sie werden endlich eine grössere Verhältnüß / als die Letzte der ersten Ahrt / zu der Letzten der andern Ahrt haben.
+Wenn das Gantze zu dem Gantzen eine grössere Verhältnüß hat / als das Abgenommene zu dem Abgenommenen: So wird das Ubergebliebene zu dem Ubergebliebenen eine grössere Verhältnüß / als das Gantze zu dem Gantzen haben.
 
-<!-- Signature: Pp -->
+### Gegebene.
 
-<!-- Catchword: Gegebene. -->
+[Diagram: zwei waagerechte Linien A und B, jeweils durch Striche unterteilt]
+
+A : B ⊣ a : b
+
+### Begehrtes.
+A : B ⊢ A — a : B — b
+
+### Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+|  | A | \| a + c |  |
+|  | B | \| b + d |  |
+|  | a + c : b + d | ⊣ a : b | n Geg. |
+| Dw. | a + c : a | ⊣ b + d : b | n. 27. V. |
+| und | a + c : c | ⊢ b + d : d | n. 30. V. |
+| Dw. | a + c : b + d | ⊢ c : d | n. 27. V. |
+| oder | A : B | ⊢ A — a : B — b |  |
+
+<!-- Catchword: Beschluß. -->

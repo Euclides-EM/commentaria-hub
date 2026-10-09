@@ -1,38 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 287 -->
-
-### Begehrtes.
-
-A : B ⊣ a : b
-
-### Vorbereitung.
-
-Man nehme noch eine Grösse nemlich c darzu/welche sich zu a, wie B zu b, verhalte.
-
-c : a | B : b
+<!-- Page number: 286 -->
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| c : a | B : b | n. Vorber. |
+| B : c | A : a | n. Vorbereit. |
 | A : a | ⊣ B : b | n Gegeb. |
-| A : a | ⊣ c : a | n. Anh. 13. V. |
-| u. A | ⊣ c | n. 10. V. |
-| B | B | |
-| Dw. A : B | ⊣ c : B | n. 8. V. |
-| a : b | c : B | n. 16. V. |
-| Dw. A : B | ⊣ a : b | n. Anh. 13. V. |
+| Dw. B : c | ⊣ B : b | n. 13. V. |
+| und c | ⊦ b | n 10. V. |
+| a : A | c : B | n. Anh. 4. V. |
+| c : B | ⊦ b : B | n. 8. V. |
+| Dw. a : A | ⊦ b : B | n. Anh. 13. V. |
 
 ### Beschluß.
 
-Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat/ als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß/ als die II. zu der IV. haben. W. Z. B.
+Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auf umgekehrte Weise die II. zu der I. eine kleinere Verhältnüß / als die IV. zu der III. haben/ W. Z. B.
 
-## Der XXIIX. Vortrag.
+## Der XXVII. Vortrag.
 
-## Das 28. Beweiß-Stück.
+## Das 27. Beweiß-Stück.
 
-Wenn vier Grössen gegeben werden/ deren die Erste zu der Andern eine grössere Verhältnüß hat/ als die Dritte zu der Vierten; So wird auch die Erste mit der Andern zusammen/ zu der Andern eine grössere Verhältnüß / als die Dritte und Vierte zusammen zu der Vierten/ haben.
+Wenn man vier Grössen hat/ deren Erste zu der Andern eine grössere Verhältnüß hat / als die Dritte zu der Vierten: So wird auch hinwiederum die Erste zu der Dritten eine grössere Verhältnüß haben/ als die Andere zu der Vierten.
 
-<!-- Catchword: Gege- -->
+### Gegebene.
+
+[Diagram: fünf Linien A, c, a, B, b von verschiedener Länge am linken Rand]
+
+A : a ⊣ B : b
+
+<!-- Catchword: Begehrtes. -->

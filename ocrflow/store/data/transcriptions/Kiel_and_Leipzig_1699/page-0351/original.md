@@ -1,36 +1,37 @@
-<!-- Page number: 335 -->
+<!-- Page number: 334 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-## Des X. Vortrags III. Ahrt.
+2. Von dem ungeendeten Strich hg werde fg ⊤ FG abgeschnitten. n 3. I.
 
-### Gegebene.
+3. Aus A durch f werde ein gerader Strich Ak nach Nothdurfft gezogen.
 
-1. Ungetheilter Strich BC.
-2. Getheilter Strich. o4.
+4. Desgleichen ein gerader Strich aus G durch g, biß er dem Strich Ak in dem Düttel k aufstosse.
 
-### Begehrtes.
+5. Aus diesem Düttel k werden gerade Striche biß auf den getheilten Strich GA gezogen/nemlich kB, kC, kD, kE und kT, welche den ungetheilten Strich fg in b, c, d, e, und t schneiden.
 
-Der Strich BC getheilet in 1. 2. 3. also / daß
-oc : oi ⊤ bc : ba.
+### Beweiß.
 
-[Diagram: Geometrische Zeichnung mit den Punkten h, o, b, a, c, den Ziffern 1 2 3 auf schrägen Strichen, sowie unten der Strich B C mit den Theilpunkten o 1 2 3 4 und g]
+|  |  |  |
+|---|---|---|
+|  | fb ⊤ AB | n. 1. Wirck. |
+| Dw. | kfd ⋏ kAB | ⟩ n. 29. I. |
+| u. | kbf ⋏ kBA |  |
+|  | fkb ⋏ AkB | n. 8. Gr. I. |
+| Dw. | △ fkb ähnlich △ AkB | n. 1. Besch. VI. |
+| u. | fb : AB ⊤ bc : BC | n. 4. VI. |
+| Dw. | fb : bc ⊤ AB : BC | n. 16. V. |
+|  | bc ⊤ BC | n. 1. Wirck. |
+| Dw. | kbc ⋏ kBC | ⟩ n. 29. I. |
+| u. | kcb ⋏ kCB |  |
+|  | ckb ⋏ CkB | n. 8. Gr. I. |
+| Dw. | △ ckb ähnlich △ CkB | n. 1. Besch. VI. |
+| u. | bc : BC ⊤ cd : CD | n. 4. VI. |
+| Dw. | bc : cd ⊤ BC : CD | n. 16. V. |
 
-### Wirckung.
+Gleicher weise kan auch bewiesen werden/
 
-1. Aus b werde nach beliebigem Winckel ein unendlicher Strich bg,
+Daß de : et ⊤ DE : ET.
+und tg : TG ⊤ et : ET.
 
-2. Und aus dem Düttel c ein mit bg gerader Nebenstrich ch gezogen. n. 31. I.
-
-3. Auf den Strich bg werden die Theile des getheilten Striches nacheinander gesetzet. n. 3. I.
-
-4. Auf den Strich ch werden eben solche Theile / doch also gesetzet / daß man von c anfange und c 3 ⊤ 4 3.
-Und so ferner n. 3. I.
-
-5. Es werden die Striche 11. 22. 33. gezogen.
-
-### Vorbereitung.
-
-Es werden auch o b und c 4 gezogen.
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Des -->

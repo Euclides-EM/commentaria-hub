@@ -1,29 +1,34 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 102 -->
+<!-- Page number: 101 -->
 
-[Diagram: Senkrechter Strich D B C A links; daran ein Quadrat mit f oben, innen gestrichelte Linien durch c und b, rechts gestrichelt erweitert bis d; unten gestrichelt bis e; Ecken a, c, b, d, e.]
+de + ee + bd | bb — n. 3. Gr. I.
+e | b + e
+d | d
+dc | bd + de — n. 2. II.
+dc + de + ee + bd | bb + bd + de — n. 2. Gr. I.
+de + bd | bd + de
+dc + ee | bb — n. 3. Gr. I. W. Z. B.
 
-### Beweiß.
+## Der VI. Vortrag.
 
-ac + cb | ab — n. 9. Gr. q. [unclear: I.]
-□ ac + 2 □ acb + □ cb | □ ab — n. 4. II.
-db | cb
-n. 3. Gegeb.
-ac | ac
-□ acdb | □ acb
-n. 1. Gr. II.
-□ ac + 2 □ acb + □ cb + □ acdb | □ ab + □ acb
-n. 2. Gr. I.
-□ acb | □ acb
-□ ac + □ acb + □ cb + □ acdb | □ ab n. 3. Gr. I.
-da | ac + cd
-ac | ac
-□ dac | □ ac + □ acd
-n. 3. II.
-[unclear: od] | cb + db
-ac | ac
-□ acd | □ acb + □ acdb
-n. 1. II.
+## Das 6. Werckstück.
 
-<!-- Catchword: dac -->
+Wenn ein gerader Strich in zween gleiche Theile getheilet/ und gerade aus ein Strich angesetzet wird; So wird das rechtwincklichte Viereck/ welches von dem zusammen-gesetzten Strich/ und von dem angesetzten Stücke gemacht wird/ samt dem gleichseitigen Viereck des halbē Strichs/ eben so groß seyn/ als das gleichseitige Viereck/ welches von dem halben und angesetzten Stück gemacht wird.
+
+### Gegebene. | Begehrte.
+
+1. Gerader Strich cd — □ dac + □ bc | □ ab.
+2. getheilet in b
+3. bd | cb
+4. angesetztes Stück ac
+
+### Vorbereitung.
+
+1. Werde das □ dac gemacht.
+2. - - - - □ ab - -
+3. - - - - □ bc - -
+4. - - Der Strich ee verlängert biß f.
+
+<!-- Signature: N 3 -->
+<!-- Catchword: Be- -->

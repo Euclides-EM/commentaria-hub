@@ -1,42 +1,29 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 208 -->
+<!-- Page number: 207 -->
 
-1. Der Senckstrich ab zu dem Strich gf }
-2. - - - - ad - - - eg } n. 12. I.
+## Der IV. Vortrag.
 
-### I. Beweiß.
+## Das 4. Werck-Stück.
 
-efa ∧ bfa n. 2. Wirck.
-acf ∧ abf n. 3. Wirck. u. 1. Vorb.
-af | af
-a. Dw. ac | ab n. 26. I.
-
-### II. Beweiß.
-
-dea ∧ cea n. 1. Wirck.
-ace ∧ ade n. 2. Vorb. u. 10. Gr. I.
-ae | ae
-Dw. ac | ad n. 26. I.
-u. ab | ad n. 1. Gr. I. a.
-
-Und der Kreyß bcd rühret das △ efg an allen Seiten an. n. 18. III.
-
-Ist auch demselben der Kreyß bcd eingeschrieben n. 5. Beschr. IV.
-
-### Beschluß.
-
-Ist also dem gegebenen △ efg ein O bcd eingeschrieben. W. Z. M.
-
-## Der V. Vortrag.
-
-## Das 5. Werck-Stück.
-
-Umb ein gegebenes Dreyeck einen Kreyß zu beschreiben.
+In ein gegebenes Drey Eck einen Kreyß einzuschreiben.
 
 ### Gegebenes. Begehrte.
 
-Dreyeck abc 1. Kreyß abc
-2. Umb das △ abc beschrieben.
+Dreyeck efg. 1. Kreyß bcd,
+2. Welcher dem gegebenen △ eingeschrieben.
 
-<!-- Catchword: Wirckung. -->
+[Diagram: Dreyeck efg mit Spitze e oben; darin eingeschriebener Kreis mit Mittelpunkt a und Rührdüpffeln c, d, b; Winckeltheilende Striche von e und f nach a, punktierter Senckstrich ac]
+
+### Wirckung.
+
+1. Der Winckel e werde in zwey gleiche Theile dea ∧ cea getheilet.
+2. Wie auch der Winckel f in efa ∧ bfa.
+3. Aus dem Düttel a, wo diese beede Winckeltheilende Striche ea und fa einander schneiden / werde auff die Seite ef ein Senckstrich ac gesetzet. n. 12. I.
+4. Nach der Weite ac werde der Kreyß cdb beschrieben.
+
+### Vorbereitung.
+
+Es werde gezogen aus dem Mittel-Düpffel a
+
+<!-- Catchword: 1. Des -->

@@ -1,33 +1,35 @@
-<!-- Page number: 76 -->
+<!-- Page number: 75 -->
 
-<!-- Running title: Das I. Buch -->
-
-### Beweiß.
-
-AG ⟛ BC n. 1. Vorber.
-BE | EC n. 2. Vorber.
-Dw. ABE ⩓ AEC n. 38. Vortr.
-und ABC ⩓ 2 AEC
-□ EFCG | 2 △ AEC n. 41. Vortr.
-Dw. □ EFCG | △ ABC n. 6. Gr:S.
-und ECG ⋀ D n. 3. Vorber.
+<!-- Running title: Euclidis. -->
 
 ### Beschluß.
 
-Ist also dem gegebenen △ ein gleichhaltendes □ , und zwar nach dem ∧ D verfertiget. W. Z. M.
+Wird dannenhero allezeit das □ , so mit einem △ auff einem Grundstrich / und zwischen einerley Nebenstrichen stehet/ doppelt so groß/als das △ seyn. W. Z. B.
 
-## Der XLIII. Vortrag.
+## Der XLII. Vortrag.
 
-## Das 32. Beweiß-Stück.
+## Das 11. Werck-Stück.
 
-In jedwedem Nebenstrichichen Viereck/sind die Füllflächen derer ümb den Zwergstrich stehenden Vierecke von gleicher grösse.
+Einem gegebenen Dreyeck/ nach dem gegebenen Winckel/ ein gleichhaltiges Viereck zu machen.
 
-### Gegebene. | Begehrtes.
-1. □ ADBC | FH ⌻ GI.
-2. Zwergstrich AB
-3. Ümb den Zwergstrich stehende □ □ FG und HI
-4. Füllflächen FH und GI.
+### Gegebene. | Begerthe.
+1. △ ABC | 1. □ CEFG
+2. ∧ D | 2. □ CEFG | △ ABC
+| 3. ECG ⋀ D
 
-[Diagram: Nebenstrichichtes Viereck mit den Puncten A, F, C oben, G, E, H in der Mitte und D, I, B unten, mit dem Zwergstrich und inneren Vierecken]
+[Diagram: Dreyeck und Viereck auff dem Grundstrich mit den Puncten G, F, A oben und C, E, B unten, daneben der Winckel D]
 
-<!-- Catchword: Be- -->
+### Wirckung.
+
+1. Durch denn Gipffel des △ werde dem Grundstrich gegen über/ der Nebenstrich GA gezogen / nach 31. Vortr.
+2. Der Grundstrich BC werde in zwey gleiche Theile geschnitten in E, nach 10. Vortr.
+3. Auff des Grundstrichs Enddüttel E setze man den Winckel ECG ⋀ D, nach 23. Vortr.
+4. Aus E ziehe man EF ⟛ CG nach 31. Vortr.
+
+### Vorbereitung.
+
+Aus E werde ein gerader Strich EA nach dem Gipffel A gezogen.
+
+<!-- Signature: K 2 -->
+
+<!-- Catchword: Beweiß -->

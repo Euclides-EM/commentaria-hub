@@ -1,20 +1,23 @@
-<!-- Running title: Beschreibungen. -->
+<!-- Running title: Definitiones. -->
 
-<!-- Page number: 4 -->
+<!-- Page number: 3 -->
 
-XII. Ein spitziger Winckel aber ist kleiner/ als ein rechter Winckel.
+IIX. Ein ebener Winckel wird von zween Strichen auff einer ebenen Fläche gemacht/ wenn die Striche nicht neben einander / sondern gegen einander gezogen / einander anrühren.
 
-[Diagram: zwei Winkel mit punktierten Viertelkreis-Bögen, spitzige Winkel darstellend]
+[Diagram: mehrere Winkeldarstellungen aus gekrümmten und geraden Strichen]
 
-XIII. Endung (Terminus) ist das eusserste einer Grösse.
-XIV. Gestalt ( Figura ) ist/ welche in eine oder mehr Endungen eingeschlossen/oder eingefasset ist.
-XV. Ein Kreyß ( Circulus ) ist eine flache Gestalt/ von einem einigen Strich (oder Zug) eingeschlossen/welchen man den Umbkreyß ( auch Kreyß-zug ) nennet / zu welchem alle/von einem derer inwendigen Düttele/gezogene Striche (Radii) gleich lang sind.
+IX. Ein gerader Winckel bestehet auß geraden Strichen.
 
-[Diagram: drei Kreise mit mehreren vom Mittelpunkt gezogenen Radien]
+[Diagram: mehrere Winkeldarstellungen aus geraden Strichen]
 
-XVI. Dieser Düttel aber wird der Mittel-Düpffel (Centrum) des Kreyses genennet.
-XVII. Der Durchschlag (Diameter) des Kreyses ist ein gerader durch den Mittel-Düpffel gezogener Strich/ welcher auff beiden Seiten an den Umbkreyß stösset/ und denselbigen in zween gleiche Theile schneidet.
+X. Wenn ein gerader Strich auff einen andern geraden Strich fället oder stösset/ also daß die beeden neben einander stehende Winckel einander gleich werden / so ist jedweder derselben ein rechter Winckel; der anstossende Strich wird ein Bleyrechter Senck-Strich deß gegenstehenden oder unterliegenden Striches genennet.
 
-[Diagram: drei Kreise mit je einem Durchmesser: waagerecht, schräg und senkrecht]
+[Diagram: senkrechter Strich auf waagerechtem Strich mit Halbkreis]
 
-<!-- Catchword: XIIX. -->
+XI. Ein stumpffer Winckel ist / welcher einen rechten Winckel übertrifft.
+
+[Diagram: zwei Darstellungen stumpfer Winkel]
+
+<!-- Signature: A 2 -->
+
+<!-- Catchword: XII. Ein -->

@@ -1,30 +1,32 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 210 -->
+<!-- Page number: 209 -->
 
-### Beschluß.
-
-Ist also ein Kreyß ümb das △ abc beschrieben. W. Z. M.
-
-## I. Zugabe.
-
-Wenn der Mittel-Düpffel f auff eine deß △ Seiten fället / so ist das Dreyeck recht-wincklicht : fället aber der Mittel-Düpffel in das △ , so ist selbiges Spitzwincklicht : Und so er ausser das △ fället / so ist selbiges Stumpffwincklicht.
-
-## II. Zugabe.
-
-Durch drey gegebene Düttele / welche aber nicht in einem geraden Striche stehen/ einen Kreyßbogen zu ziehen.
-
-### Gegebene. Begehrte.
-
-1. Drey Düttele a, h, c. 1. Kreyß ahc.
-2. Nicht in einem geraden 2. Mittel-Düpffel e.
-Strich stehend.
-
-[Diagram: punktierter Kreis mit den Dütteln a, h, c auf dem Bogen; Striche ac und hc, deren Mittel g und f, von dort punktierte Senckstriche zum Mittel-Düpffel e]
+[Diagram: drei Kreise, jeder mit einem umschriebenen Dreyeck abc und dem Mittel-Düpffel f; die Seitenmittel d und e mit Senckstrichen df und ef, die Stralen fa, fb, fc punktiert bzw. ausgezogen]
 
 ### Wirckung.
 
-1. Von h zu c werde ein gerader Strich hc gezogen.
-2. Dieser Strich werde in zween gleiche Theile hf | fc getheilet/n. 10. I.
+1. Eine des Dreyecks Seite ab werde in zween gleiche Theile ad | db getheilet/n. 10. I.
+2. Auff dieser Seite Mittel d werde einwerts ein Senckstrich df gesetzet/n. 11. I.
+3. Deßgleichen werde eine andere Seite ae getheilet ae | ec, n. 10. I.
+4. Auch werde auff dieses Mittel e einwerts ein Senckstrich ef gesetzet/n. 11. I.
+5. Aus f, wo beede Senckstriche einander durchschneiden / werde nach der Weite fb, oder fa ein Kreyß beschrieben.
 
-<!-- Catchword: 3. Auch -->
+### Vorbereitung.
+
+Aus dem Mittel-Düpffel f werden zu den Ecken des Drey-Ecks die Stralen fa, fb, fc gezogen.
+
+### Beweiß.
+
+ae | ec n. 3. Wirck.
+fea ∧ fec n. 3. III. u. 10. Gr. I.
+fe | fe
+Dw. fa | fc n. 4. I.
+Gleicher Weise fa | fb
+Dw. fc | fb n. 1. Gr. I.
+und f der Mittel-Düpffel des Kreyses abc, n 9. III,
+welcher umb das △ abc umbschrieben / n. 6. Beschr. IV.
+
+<!-- Signature: D d -->
+
+<!-- Catchword: Be- -->

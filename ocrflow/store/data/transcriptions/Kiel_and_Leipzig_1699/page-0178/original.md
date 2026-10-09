@@ -1,31 +1,28 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 162 -->
-
-2. Nach der Weite des Striches eb werde ein Kreyß ea gezogen:
-3. Aus dem Düttel d, wo der gerade Strich eb den Kreyß fcd schneidet/ werde ein Senckstrich da auffgerichtet/ welcher den äussern Kreyß ae in dem Düttel a schneide. n. 11. I.
-4. Aus diesem Düttel a werde zu dem Mittel-Düpffel b der gerade Strich ab gezogen.
-5. Zu dem Düttel c, wo dieser Strich den Kreyß schneidet/ werde aus dem Düttel e ein gerader Strich ec gezogen.
-
-### Beweiß.
-
-ab | eb
-bd | bc — n. 15. Beschr. I.
-ab + bd | eb + bc — n. 2. Gr. I.
-abd ∠ ebc — n. 8. Gr. I.
-Dw. adb ∠ ecb — n. 4. I.
-adb ∠ ∟ — n. 3. Vorher.
-Dw. ecb ∠ ∟ — n. 10. Gr.
-und ec ist ein anrührender Strich aus dem Düttel gezogen n. 16. III. n. 2. Beschr. III.
+<!-- Page number: 161 -->
 
 ### Beschluß.
 
-Jst also auß dem Düttel e ein gerader Strich ec gezogen/ welcher den gegebenen Kreyß fcd in dem Düttel c anrühret. W. Z. M.
+Wenn nun auff eines Kreyses cgf Durchschlags fc Ende-Düttel c ein Senckstrich bc gesetzet ist/ so muß solcher Senckstrich bc ausser den Kreyß fallen ; und zwischen solchem Senckstrich bc und Kreyßzug gdc kan kein anderer gerader Strich stehen. : Es wird auch der gemischte Winckel acg grösser/ und der eussere Winckel gcb kleiner/als alle spitzige Winckel seyn. W. Z. B.
 
-## Der XIIX. Vortrag.
+## Der XVII. Vortrag.
 
-## Das 16. Beweiß-Stück.
+## Das 2. Werckstück.
 
-Wenn ein gerader Strich einen Kreyß anrühret/ von dem Mittel Düpffel aber ein gerader Strich zu dem Rührdüpffel gezogen wird / so wird dieses ein Senckstrich des Rührstriches seyn.
+Aus einem gegebenen Düttel einen geraden Strich zu ziehen/ welcher den gegebenen Kreyß anrühre.
 
-<!-- Catchword: Gege- -->
+### Gegebene. Begehrtes.
+
+1. Düttel e. — 1. Gerader Strich ec
+2. Kreyß fcd. — 2. Aus e gezogen also/ daß es
+3. Den Kreyß fcd anrühre.
+
+[Diagram: kleiner Kreis fcd mit Mittel-Düpffel b, darum ein grosser punktierter Kreis durch a und e; vom Düttel e Linien nach a, d und b, mit Punkten c und d]
+
+### Wirckung.
+
+1. Aus dem gegebenen Düttel e werde zu des gegebenen Kreyses Mittel-Düpffel b ein gerader Strich eb gezogen.
+
+<!-- Signature: X -->
+<!-- Catchword: 2. Nach -->

@@ -1,42 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 277 -->
+<!-- Page number: 276 -->
 
-|  |  |  |
-|---|---|---|
-| a : b | B : C | n. Gegeb. |
-| Dw. b : a | C : B | n. 16. V. |
-| u. b : a | ⊦ b : c | n. 13. V. |
-| b | b | |
-| Dw. a | ⊦ c | n. 10. V. |
+## Der XXI. Vortrag.
 
-### II. Gegebene.
+## Das 21. Beweiß-Stück.
+
+Wenn man drey Grössen hat / und noch andere drey Grössen sind / welche mit den vorigen Grössen in verwirreter Ebenmaß stehen: Auf gleiche Weise aber die Erste grösser ist / als die Dritte/ so wird auch die Vierte grösser seyn/ als die Sechste: Ist aber die Erste mit der Dritten gleichgroß/ so werden auch die Vierte und Sechste gleichgroß seyn: Und wenn die Erste kleiner/ als die Dritte/ so wird auch die Vierte kleiner seyn/ als die Sechste.
+
+### I. Gegebene.
 
 [Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
-A : B | b : c
+A : B ∷ | b : c
 B : C | a : b
-A | C
+A | ⊦ C
 
 ### Begehrtes.
 
-a | c
+a ⊦ c
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| b : a | A : B | ⌉ n. Gegeb. |
-| A | C | |
+| b : c | A : B | ⌉ n. Gegeb. |
+| A | ⊦ C | |
 | B | B | |
-| Dw. A : B | C : B | n. 7. V. |
-| und b : c | C : B | n. 11. V. |
-| a : b | B : C | n. Gegeb. |
-| b : a | C : B | n. 16. V. |
-| Dw. b : a | b : c | n. 11. V. |
-| b | b | |
-| u. a | c | n. 9. V. |
+| Dw. A : B | ⊦ C : B | n. 8. V. |
+| u. b : c | ⊦ C : B | n. 13. V. |
 
-<!-- Signature: Mm 3 -->
-
-<!-- Catchword: III. Gege- -->
+<!-- Catchword: a : b -->

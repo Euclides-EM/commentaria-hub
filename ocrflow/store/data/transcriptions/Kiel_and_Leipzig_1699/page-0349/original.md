@@ -1,33 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 332 -->
 
-<!-- Page number: 333 -->
+<!-- Running title: Das VI. Buch -->
 
-Dw. | bc : cd | bi : ih | n. Anh. 7. V.
-| bc : cd | BC : CD | n. 7. V.
-Dw. | BC : CD | bi : ih | n. 11. V.
-| ef : fg | bi : ih | n. Anh. 7. V.
-Dw. | BC : CD | ef : fg | n. 11. V.
-
-## Des X. Vortrags II. Ahrt.
-
-### Gegebene.
-
-1. Ungetheilter Strich FG.
-2. Getheilter Strich AG.
-
-### Begehrtes.
-
-Der Strich FG getheilet in b, c, d, e. und t also
-daß | fb : bc | AB : BC.
-| bc : cd | BC : CD
-| de : et | DE : ET
-| tg : TG | et : ET. &c.
-
-[Diagram: von einem Punkt k oben laufen punktierte Linien zu der getheilten Linie G T E D C B A; dazwischen die parallele Linie g t e d c b f h; darunter die Striche F G und G A]
+I. Ahrt.
 
 ### Wirckung.
 
-1. Gegen den getheilten Strich AG werde ein Nebenstrich hg nach Nothdurfft gezogen. n. 31. I.
+1. Auf des Striches ag Endedüttel a werde nach beliebigem Winckel ein gerader Strich ak gezogen.
+2. Von diesem Strich ak werden abgeschnitten drey Striche | ab | AB
+| bc | BC
+| cd | CD | n. 3. I.
+3. Aus d werde zu g der gerade Strich dg gezogen.
+4. Aus b und c werden gegen dg gerade Nebenstriche be und cf gezogen. n. 31. I.
 
-<!-- Signature: Tt 3 -->
-<!-- Catchword: 2. Von -->
+### Vorbereitung.
+
+Aus den Düttteln b und c werden gegen ag gerade Nebenstriche bh und co, gezogen. n. 31. I.
+
+### Beweiß.
+
+| ab | AB |
+| bc | BC |
+| cd | CD | n. 1. Wirck.
+| be ⧣ dg |
+| cf ⧣ dg | n. 4. Wirck.
+| cf ⧣ be | n. 30. I.
+Dw. | ab : bc | ae : ef | n. 2. V.
+u. | ab : bc | AB : BC | n. 7. V.
+Dw. | AB : BC | ae : ef | n. 11. V.
+| bh ⧣ eg | n. Vorber.
+| be ⧣ hg | n. 4. Wirck.
+Dw. | bi | ef |
+u. | ih | fg | n. 34. I.
+| ci ⧣ dh | n. 4. Wirck.
+
+<!-- Catchword: Dw. -->

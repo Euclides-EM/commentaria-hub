@@ -1,39 +1,34 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 193 -->
+<!-- Page number: 192 -->
 
-### Vorbereitung.
+2. Welcher von dem andern Strich ae in l,
+3. Und zwar nach rechten Winckeln geschnitten.
 
-1. Werde auff den Strich ac aus dem Mittel-Düpffel e ein Senckstrich en gezogen n. 12. I.
-2. Werde auch der Strich ec gezogen.
+[Diagram: Kreis mit Punkten a oben, d links, b rechts, c unten; Striche db und ac schneiden sich in l, Mittel-Düpffel e]
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-| α. | ▭ bld + □ le | □ ed |  |
-|  | ▭ cla + □ ln | □ nc | n. 5. II. |
-|  | □ ne | □ ne |  |
-| Dw. | ▭ cla + □ ln + □ ne | □ nc + □ ne | n. 2 Gr. I. |
-|  | □ le | □ ln + □ ne | n. 47. I. |
-| Dw. | ▭ cla + □ ln + □ ne + □ le | □ nc + □ ne + □ ln + □ ne | n. 2. Gr. I |
-| β. | ▭ cla + □ le | □ nc + □ ne | n. 3. Gr. I. |
-|  | ec | ed | n. 15 Beschr. I. |
-|  | □ ec | □ ed | n. 1. Gr. t. II. |
-|  | ▭ bld + □ le | □ ec | α n 1. Gr. I. |
-|  | □ nc + □ ne | □ ec | n. 47. I. |
-| D. | ▭ bld + □ le | □ nc + □ ne |  |
-| und | ▭ bld + □ le | ▭ cla + □ le β | n. 1. Gr. I. |
-| u. | ▭ bld | ▭ cla | n. 3. Gr. I. |
+|  | ▭ bld + □ el | □ ed | n. 5. II. |
+|  | ed | ec | n. 15. Beschr. I. |
+|  | □ ed | □ ec | n. 1. Gr. t. II. |
+| Dw. | ▭ bld + □ el + □ ed | □ ed + □ ec | n. 2. Gr. I. |
+|  | ▭ bld + □ el | □ ec | n. 3. Gr. I. |
+|  | cle ⋀ | ∟ | n. 3. Gegeb. |
+| Dw. | □ el + □ lc | □ ec | n. 47. I. |
+| und | ▭ bld + □ el | □ el + □ lc | n. 1. Gr. I. |
+| Dw. | ▭ bld | □ lc | n. 3. Gr. I. |
 
-### IV. Begebenheit.
+### III. Begebenheit.
 
-### Gegebene:
+### Gegeben
 
-1. Von beeden Strichen bd, ac gehet keiner durch den Mittel-Düpffel.
-2. Der Strich ac ist in zween gleiche Theil al | lc
-3. Der Strich bd aber in ungleiche Theile bl ⊣ ld geschnitten in l.
+1. Nur ein durch den Mittel-Düpffel e gehender Strich db,
+2. Welcher von dem andern Strich ae in l
+3. Nicht nach rechten Winckeln geschnitten.
 
-<!-- Signature: Bb -->
+[Diagram: Kreis mit Punkten c oben, d und n links oben, a links, e in der Mitte, b unten rechts; Striche schneiden sich in l]
 
 <!-- Catchword: Vor- -->

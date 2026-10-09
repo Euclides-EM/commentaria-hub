@@ -1,35 +1,31 @@
-<!-- Page number: 136 -->
+<!-- Page number: 135 -->
 
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-Dw. cga ⋏ ∟ — n. 3. III.
-und cga ⋏ dga — n. 10. Gr. I.
+## Der IV. Vortrag.
 
-Welches aber unmöglich/ nach 9. Gr. I.
+## Das 3. Beweiß-Stück.
 
-### Beschluß.
-
-Können also dergleichen Striche/ welche nicht durch den Mittel-Düpffel o gehen/ einander nicht in gleiche Theile schneiden. W. Z. B.
-
-## Der V. Vortrag.
-
-## Das 4. Beweiß-Stück.
-
-Wenn zween Kreyse einander durchschneiden/ so müssen sie mehr/ als einen Mittel-Düpffel haben.
+Wenn in einem Kreyß zween gerade Striche ein ander durchschneiden/ aber nicht durch den Mittel-Düpffel gehen/ so werden sie auch einander nicht in gleichgrosse Theile schneiden.
 
 ### Gegebene. — Begehrte.
 
-1. Zween Kreyse bdg und bce. — Solche zween Kreyse haben zween unterschiedliche Mittel-Düpffel.
-2. Welche einander durchschneiden.
+1. Der Kreyß caeb, — fg ⊢ ge
+2. Gerader Strich cf — dg ⊢ ge
+3. und - - - - - de
+4. Einander durchschneidend /
+5. Keiner durch den Mittel-Düpffel gehend.
+
+[Diagram: Kreis mit Dütteln d, a (oben), c (links), f, e (rechts), b (unten), die Striche cf und de schneiden einander in g, punktierter Durchschlag von a über g und o nach b]
 
 ### Vorbereitung.
 
-Wenn man sagen wolte/ sie hätten nur einen einigen Mittel-Düpffel/ nemlich a, so ziehe man
+Wenn man sagen wolte/ sie schnitten einander in zween gleiche Theile / so ziehe man durch den Düttel g, wo sie einander durchschneiden / und durch den Mittel-Düpffel o einen Durchschlag ab.
 
-1. Auß a zu dem Düttel b, wo sie einander durchschneiden / einen geraden Strich ab.
+### Beweiß.
 
-2. Ziehe man auch den Strich ad.
+dg | ge — n. angenommen.
+Dw. dga ⋏ ∟ — n. 3. III.
+cg | gf — n. angenommen.
 
-[Diagram: zween einander durchschneidende Kreyse mit den Dütteln b (links), g (rechts), d (unten), darinnen a und e, punktierte Striche von a nach b und von e nach d]
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Dw. -->

@@ -1,28 +1,31 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 205 -->
+<!-- Page number: 204 -->
 
-## Der III. Vortrag.
-
-## Das 3. Werck-Stück.
-
-Umb einen gegebenen Kreyß ein DreyEck/welches dem gegebenen DreyEck gleichwincklicht sey/ zubeschreiben.
-
-### Gegebene. Begehrte.
-
-1. Kreyß edc. 1. △ afg gleichwincklicht △ ikm.
-2. Drey Eck ikm. 2. Umb den gegebenen O umbgeschrieben.
-
-[Diagram: Kreis mit Mittelpunkt b und Düttelen c, d, e; umbeschriebenes Dreyeck afg mit Rührstrichen; rechts daneben Dreyeck ikm auf der Grundlinie l–i–k–h mit punktierten Halbkreisbögen]
+[Diagram: links Dreyeck hfg mit punktierten Winckelbögen; rechts Kreis mit eingeschriebenem Dreyeck abc, oben der Rührstrich e–d durch a]
 
 ### Wirckung.
 
-1. Des gegebenen △ ikm Grundstrich ik werde auff beeden Seiten nohtdürfftig verlänget gegen h und l.
-2. Werde in dem O der Strahl cb gezogen.
-3. An dem Mittel-Düpffel b auff den Strahl eb werde der Winckel cbe ∧ mil.
-4. Und auff die andere Seite der Winckel cbd ∧ mkh gesetzt. n 23. I.
-5. An die Düttele c, d, e werden Rührstriche ca, cg, eg, ef, df, da, gezogen. n. 17. III.
+1. Werde an den gegebenen Kreyß bac der Rührstrich de gezogen. n. 17. III.
+2. An den Rührdüpffel a dieses Striches de werde der Winckel dac ∧ hfg n. 23. I.
+3. Und auff die andere Seite gegen e dieses Düttels a, der Winckel eab ∧ fgh gesetzet. n. 23. I.
+4. Werde der Strich bc gezogen.
 
-<!-- Signature: Cc 3 -->
+### Beweiß.
 
-<!-- Catchword: Vor- -->
+dac ∧ hfg n. 2. Wirck.
+dac ∧ abc n. 32. III.
+Dw. abc ∧ hfg n. 1. Gr. I.
+
+eab ∧ fgh n. 3. Wirck.
+eab ∧ acb n. 32. III.
+Dw. acb ∧ fgh n. 1. Gr. I.
+und bac ∧ fhg n. 32. I.
+Dw. △ abc gleichwincklicht △ fha n. 8. Beschr. IV.
+u. △ abc dem O abc eingeschrieben n. 3. Beschr. IV.
+
+### Beschluß.
+
+Ist also dem gegebenen Kreyß ein dem gegebenen Dreyeck gleichwincklichtes Dreyeck eingeschrieben. W. Z. M.
+
+<!-- Catchword: Der -->

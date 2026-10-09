@@ -1,30 +1,27 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 201 -->
+<!-- Page number: 200 -->
 
-und ak | ad n. 2. Gr. u. II.
-cd | ck n. 15. Beschr. I.
-ac | ac
-Dw. ak + cd + ac | ad + ck + ac n. 2. Gr. I.
-und adc ∧ akc n. 8. I.
-akc | ⌐ n. 1. Wirck. u. n. 16. III.
-Dw. adc | ⌐ n. 10. Gr. I.
-und ad | Rührstrich n. 16. III. u. 2. Besch. III.
+2. Düttel a.
+3. Ausser dem Kreyß.
+4. Zween Striche von solchem Düttel gezogen.
+5. Deren einer ah den Kreyß in g schneidet.
+6. Der andere ak nur darauff stösset.
+7. □ hag | □ ad.
 
-### Beschluß.
+[Diagram: Kreis mit Mittelpunkt c; von einem Punkt a ausserhalb des Kreises gehen ein schneidender Strich durch g nach h und ein Rührstrich nach k; punktierte Linien verbinden c mit d, k und a]
 
-Wird also allezeit der auff den Kreyß khdg stossende/und aus a gezogene Strich ad, wenn desselben gleichseitiges Viereck eben so groß ist/ als das rechtwincklichte Viereck / welches von dem gantzen schneidenden Strich ah, und dem zwischen dem Düttel a und äussern Kreyßkrümme stehenden Stück ag begriffen wird/ein Rührstrich seyn. W. Z. B.
+### Vorbereitung.
 
-# Das IV. Buch Euclidis.
+1. Werde aus dem Düttel a ein Rührstrich ak zum Kreyß gezogen. n. 17. III.
+2. Werden die Strahlen cd und ck, wie auch
+3. Aus dem Düttel a zu dem Mittel-Düpffel c der Strich ac gezogen.
 
-## Beschreibungen.
+### Beweiß.
 
-I. Diejenige geradstrichichte Gestalt wird einer andern geradstrichichten Gestalt eingeschrieben genennet / welche mit ihren Ecken aller derselben Gestalt/ welcher sie einverleibet ist/ Seiten berühret.
+ak | Rührstrich n. 1. Vorber.
+Dw. □ ak | □ hag n. 36. III.
+□ ad | □ [unclear: hag] n 7. Gegeb.
+Dw. □ ak | □ ad n. 1. Gr. I.
 
-II. Gleicherweise wird eine einer andern Gestalt umbschriebene Gestalt genennet / welche mit ihren Seiten alle derselben Gestalt/ so sie ümbgiebt/ Ecken berühret.
-
-III. Eine geradstrichichte Gestalt wird einem Kreyß eingeschrieben genennet / wenn sie mit ihren Ecken den Umbkreyß oder Umbfang berühret.
-
-<!-- Signature: C c -->
-
-<!-- Catchword: IV. Eine -->
+<!-- Catchword: und -->

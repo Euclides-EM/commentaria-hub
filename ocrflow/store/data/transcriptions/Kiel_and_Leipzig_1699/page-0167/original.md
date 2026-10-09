@@ -1,39 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 151 -->
+<!-- Page number: 150 -->
 
-### Vorbereitung.
+Oder:
 
-So werde durch die beeden angenom̄enen Mittel-Düpffele a und b ein gerader Strich / welcher auf die beeden Anrührungs-Düttele c und d stosse / gezogen.
+ab | ae
+bc | cd — n. Angen. und 15. Besch. I.
+ab + bc | ae + cd — n. 2. Gr. I.
+ae + cd | ae + cd
+Dw. de + ae + cd ⊣ ae + cd — n. 4. Gr. I.
+de + ae + cd | ac — n. 9. Gr. q. I.
+Dw. ac ⊣ ab + bc — n. 1. Gr. c.
+Welches aber unmöglich n. 20. I.
 
-### Beweiß.
+Muß also allezeit der gerade Strich / welcher zweene Mittel-Düpffele derer Kreyse/so einander auswendig berühren/ zusammen henget / durch den Anrührungs-Düpffel gehen. W. Z. B.
 
-ad | ac — n. 15. Beschr. I. und nach Angen.
-ad ⊣ bd — n. 9. Gr. I.
-Dw. ac ⊣ bd — n. 1. Gr. c. I.
-bc | bd — n. 15. Beschr. I. und nach Angen.
-Dw. ac ⊣ bc — n. 1. Gr. a. I.
-Welches unmüglich n. 9. Gr. I.
+## Der XIII. Vortrag.
 
-### II. Begebenheit.
+## Das 12. Beweiß-Stück.
 
-Wann der inwendige Kreyß den eussern in h und g anrühret.
+Kein Kreyß kan einen andern Kreyß in mehr/ als einem Düttel anrühren/ sie mögen gleich von innen oder von aussen einander berühren.
 
-[Diagram: zwei Kreise, deren innerer den äusseren oben in h und g anrühret; im Innern die Mittel-Düpffele f und e mit punktierten Stralen nach h und g]
+### Gegebene. — Begehrte.
 
-### Vorbereitung.
+1. Zweene Kreyse/
+2. Welche einander anrühren.
 
-So seyen 1. die beeden Mittel-Düpffele e und f.
-2. darnach werden aus den Anrührungs-Dütteln die Stralen hf, he, gf und ge, zu den beeden Mittel-Düpffeln gezogen.
+Nicht mehr als ein Anrührungs-Düttel.
 
-### Beweiß.
+### I. Begebenheit.
 
-hf | gf — n. 15. Beschr. I. und nach angen.
-fe | fe
-hf + fe | gf + fe — n. 2. Gr. I.
-ge ⊢ gf + fe — n. 20. I.
-Dw. ge ⊢ hf + fe — n. 1. Gr. b. I.
-Oder ge ⊢ he — n. 9. Gr. q. I.
-Welches unmüglich n. 15. Beschr. I.
+Wann der inwendige Kreyß/ den eussern in c und d anrühret.
 
-<!-- Catchword: III. Be- -->
+[Diagram: zwei Kreise, deren innerer den äusseren oben in c und unten in d berührt; im Innern die Punkte a und b, dazwischen ein punktierter Strich von c nach d]
+
+<!-- Catchword: Vor- -->

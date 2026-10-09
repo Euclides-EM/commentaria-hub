@@ -1,20 +1,41 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 294 -->
+<!-- Page number: 293 -->
 
-### Beschluß.
-Wenn derowegen VI. Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die IV. zu der V. auch die II. zu der III. eine grössere Verhältnüß / als die V. zu der Sechsten hat: So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
+### Vorbereitung.
+1. Nehme man eine Grösse D darzu / welche zu C sich also / wie b zu c verhalte.
 
-## Der XXXII. Vortrag.
-## Das 32. Beweiß-Stück.
+[Diagram: drei waagerechte Linien d, D, C von unterschiedlicher Länge]
 
-Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darzu genommen werden. Unter den Ersten dreyen aber die Erste zu der Andern eine grössere Verhältnüß hat / als in der andern Ahrt die Andere zu der Dritten. Deßgleichen unter der Ersten die Andere zu der Dritten eine grössere Verhältnüß hat / als unter den Andern die Erste zu der Andern; So wird auch nach der Gleichheit die Erste der ersten Ahrt zu der Dritten selbiger Ahrt eine grössere Verhältnüß haben / als die Erste der andern Ahrt zu der Dritten solcher Ahrt.
+D : C | b : c
 
-### Gegebene.
+2. Auch nehme man eine Grösse d, welche sich zu D also / wie a : b verhalte.
 
-[Diagram: sechs waagerechte Linien A, B, C, a, b, c von unterschiedlicher Länge]
+d : D | a : b
 
-A : B ⊣ b : c
-B : C ⊣ a : b
+### Beweiß.
 
-<!-- Catchword: Begehrtes. -->
+|  |  |  |  |
+|---|---|---|---|
+|  | D : C | \| b : c | n. 1. Vorb. |
+|  | B : C | ⊣ b : c | n. Geg. |
+| Dw. | B : C | ⊣ D : C | n. Anh. 13. V. |
+| u. | D | ⊢ B | n. 10. V. |
+|  | A | \| A |  |
+| Dw. | A : D | ⊣ A : B | n. 8. V. |
+|  | a : b | ⊢ A : B | n Geg. |
+| a Dw. | A : D | ⊣ a : b | n. 2. Anh. 13. V. |
+|  | d : D | \| a : b | n. 2. Vorb. |
+|  | A : D | ⊣ a : b | n. Bew. a |
+| Dw. | A : D | ⊣ d : D | n. Anh. 13. V. |
+| und | A | ⊣ d | n. 10. V. |
+|  | C \| | C |  |
+| ß Dw. | A : C | ⊣ d : C | n. 8. V. |
+|  | d : D | \| a b |  |
+|  | D : C \| | b : c | } Vorber. |
+| Dw. | d : C | \| a : c | n. 22. V. |
+| und | A : C | ⊣ a : c | n. Bew. ß. u. Anh. 13. V. |
+
+<!-- Signature: Oo 3 -->
+
+<!-- Catchword: Beschluß. -->

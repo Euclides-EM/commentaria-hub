@@ -1,19 +1,21 @@
-<!-- Page number: 128 -->
+<!-- Page number: 127 -->
 
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-VII. Ein im Kreyß-Stück stehender Winckel (angulus in segmento) ist welcher von zween geraden Strichen/ so man aus den beeden Ecken des Kreyß-Stückes zu einem in dem Bogen erwehlten Düttel zeucht / begriffen wird.
+III. Anrührende Kreyse sind / welche zwar an einander stossen / aber sich nicht durchschneiden.
 
-[Diagram: Kreyß-Stück mit einbeschriebenem Winckel, dessen Schenckel von den Ecken zu einem Düttel im Bogen gehen]
+[Diagram: ein kleiner Kreis berührt von aussen einen grossen Kreis, in welchem ein weiterer Kreis von innen anrühret]
 
-IIX. Wenn aber zween gerade / einen winckel machende Striche ein Stück des Umkreyses absondern / so wird es stehender Winckel genennet.
+IV. In einem Kreyß von dem Mitteldüpffel gleichabstehende Striche werden genennet / auff welche auß dem Mitteldüpffel gleichlange Senckstriche können gezogen werden: derjenige Strich aber / auff welchen ein längerer Senckstrich fället / ist am weitesten entfernet.
 
-[Diagram: Kreis mit einbeschriebenem Winckel, dessen Spitze am Umkreys stehet]
+[Diagram: Kreis mit einbeschriebenen Sehnen und drei vom Mitteldüpffel ausgehenden Senckstrichen]
 
-IX. Ein Kreyß-Schnitt (sector circuli) ist/ wenn zween gerade / aus dem Mitteldüpffel gezogene Striche ein Stück des Kreyses begreiffen.
+V. Ein Kreyß-Stück (Segmentum) ist eine Gestalt / so von einem Bogen und geraden Strich eingeschlossen wird.
 
-[Diagram: Kreis mit ausgeschnittenem Sector (Kreyß-Schnitt)]
+[Diagram: ein Kreyß-Stück (Halbkreisförmige Gestalt)]
 
-X. Aehnliche oder gleichgestalte Kreyßstücke sind/ in welchen gleichgrosse Winckel stehen können.
+VI. Ein Kreyßstücks-Winckel (segmenti angulus) wird von einem Bogen und von einem geraden Strich begriffen.
 
-<!-- Catchword: Also -->
+[Diagram: ein Kreyß-Stück mit punktierten Bögen an beyden Winckeln]
+
+<!-- Catchword: VII. -->

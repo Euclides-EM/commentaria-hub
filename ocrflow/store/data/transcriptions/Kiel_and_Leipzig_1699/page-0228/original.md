@@ -1,37 +1,37 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 212 -->
+<!-- Page number: 211 -->
+
+3. Auch werde von a zu h ein Strich ah gezogen.
+4. Dieser Strich werde ebenfals in zween gleiche Theile ag | gc getheilet/ n. 10. I.
+5. Auff das Mittel f werde ein Senckstrich fe gezogen/n. 11. I.
+6. Deßgleichen aus g der Senckstrich ge. n. 11. I.
+7. Aus e, wo diese Senckstriche einander schneiden / werde
+8. Nach der Weite ec oder ea ein Kreyß gezogen.
 
 ### Beweiß.
 
-ea | eb | ec | ed n. 15. Beschr. I.
-aeb ∧ aed ∧ dec ∧ ceb n. 2. Wirck. u 10. Besch. I.
-Dw. ab | bc | cd | da }
-und dab ∧ adc ∧ dcb ∧ cba } n. 4. I.
-Dw. abcd ein gleichseitig □ , n. 29. Besch. I.
-und dem Kreyß dabc eingeschrieben/ n. 3. Besch. IV.
+Man ziehe die drey Düttele a, h, c mit geraden Strichen ah, hc, ca zusammen/ so ist nach vorhergehendem Vortrag ein Kreyß umb dasselbige Dreyeck (oder durch die 3. Düttele) gezogen / wie allbereit bewiesen. W. Z. M.
 
-### Beschluß.
+## Der VI. Vortrag.
 
-Ist also dem Kreyß dabc ein gleichseitig Viereck eingeschrieben. W. Z. M.
+## Das 6. Werckstück.
 
-## Der VII. Vortrag.
-
-## Das 7. Werck-Stück.
-
-Umb einen gegebenen Kreyß ein gleichseitiges Vier-Eck zubeschreiben.
+Einem Kreyß ein gleichseitiges Viereck einzuschreiben.
 
 ### Gegebenes. Begehrte.
 
-Kreyß adfh 1. □ bceg.
-2. Umb den O adfh beschrieben.
+Kreyß dabc. 1. Gleichseitiges Viereck abcd
+2. dem Kreyß dabc eingeschrieben.
 
 ### Wirckung.
 
-1. Durch den Mittel-Düpffel o werde der Durchschlag dh,
-2. Und durch diesen Durchschlag/und zwar durch den Mittel-Düpffel o werde ein Senckstrich af gezogen/ n. 11. I.
-3. Auff dieses Durchschlages Endungen a, d, f, h. werden zu beeden Seiten Senckstriche de, db; ab, ac; hc, hg; fg, fe gesetzet/ n. 11. I.
+1. Durch den Mittel-Düpffel e werde der Durchschlag db,
+2. Und durch diesen Durchschlag/ und zwar auch durch den Mittel-Düpffel e, werde ein Senckstrich ac gezogen/ n. 11. I.
+3. Werden die geraden Striche ab, bc, cd, da gezogen.
 
-[Diagram: Kreis mit Mittel-Düpffel o, Rührdüpffeln a, d, f, h; umbeschriebenes Viereck bceg mit den Ecken b, c, g, e; punktierter Senckstrich af, Durchschlag dh]
+[Diagram: Kreis mit Mittel-Düpffel e und eingeschriebenem Viereck abcd samt beiden Durchschlägen (Diagonalen) ac und db]
+
+<!-- Signature: Dd 2 -->
 
 <!-- Catchword: Be- -->

@@ -1,35 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 320 -->
 
-<!-- Page number: 321 -->
+<!-- Running title: Das VI. Buch -->
 
-### Verfolg des Beweises.
+## Der V. Vortrag.
 
-CDH ⋏ bac
-DCH ⋏ abc   n. Vorber.
-Dw. | CHD ⋏ bca | n. 32. I.
-u. | ab : DC | bc : CH | n. 4. VI.
-| ab : DC | bc : CE | n. 3. Geg.
-Dw. | bc : CH | bc : CE | n. 11. V.
-u. | CH | CE | n. 9. V.
-welches aber unmüglich / n. 9. Gr. I.
+## Das 5. Beweiß-Stück.
 
-II. Ahrt Vorbereitung.
+Wenn die Seiten zweyer Dreyecke in ebenmässiger Verhältnüß stehen / so sind solche Dreyecke gleichwincklicht / und denen ebenmässigen Seiten stehen gleichmässige Winckel gegen über.
 
-Man setze wiederum auf CD den
-Winckel   CDF ⋏ bac
-und   DCF ⋏ abc   n. 23. I.
+### Gegebene.
 
-[Diagram: zwei Dreiecke, links das Dreieck abc, rechts das Dreieck DCE mit punktierten Linien zu dem unterhalb liegenden Punkt F]
+1. Zwey Dreyecke abc und DCE, deren Seiten in richtiger Ebenmaß stehen.
+
+2. | ac : DE | bC : CE
+3. | ab : DC | bC : CE
+4. | ab : DC | aC : DE.
+
+### Begehrte.
+
+C ⋏ b
+DCE ⋏ aCb
+a ⋏ D.
+
+[Diagram: zwei Dreiecke, ein kleineres abc und ein grösseres DCE mit punktierter Linie DH und Punkten H und E auf der Grundlinie]
 
 ### Beweiß.
 
-CDF ⋏ bac
-DCF ⋏ abc   n. Vorber.
-α Dw. | CFD ⋏ bca | n. 32. I.
-u. | ac : DF | ab : DC | n. 4. VI.
-| ac : DE | ab : DC | n. 4. Geg.
-Dw. | ac : DE | ac : DF | n. 11. V.
-u. | DE | DF | n. 9. V.
+Wenn die gegebenen Dreyeck nicht gleichwincklicht sind.
 
-<!-- Signature: Ss -->
-<!-- Catchword: CFD -->
+### Vorbereitung.
+
+So setze man auf den Strich CD und zwar
+auf den Düttel D den Winckel CDH ⋏ baC
+und auf C den Winckel DCH ⋏ abC   n. 32. I.
+
+<!-- Catchword: Ver- -->

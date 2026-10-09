@@ -1,36 +1,27 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 360 -->
+<!-- Page number: 359 -->
 
-2. Auch werde zu den Strichen ef und gh und der Dritte ebenmässige Strich q gefunden n. 11. VI. ef : gh | gh : q.
+che gegeben werden/ so werden auch die von solchen Strichen beschriebene Vielecke ebenmässig seyn.
 
-### I. Beweiß.
+Und wenn von etlichen geraden Strichen ähnliche oder ebenmässige Vielecke beschrieben werden/ so werden dieselben Striche auch in Ebenmaß stehen.
 
-ab : cd | ef : gh n. 2. Geg.
-ab : cd | cd : p n. 1. Vorb.
-Dw. ef : gh | cd : p n. 11. V.
-ef : gh | gh : q n 2. Vorb.
-Dw. cd : p | gh : q n. 11. V.
-ab : cd | fe : gh n. 2. Geg.
-Dw. ab : cd : p | fe : gh : q
-u. ab : p | fe : q n. 22. V.
-ab : p = ab : cd n. 10. Besch. V.
-△ aob : △ cdn = ab : cd n. 19. VI.
-Dw. △ aob : △ cdn | ab : p
-u. △ aob : △ cdn | fe : q n. 11. V.
-fe : q = fe : gh n. 10. Besch. V.
-□ el : □ gi = fe : gh n. 20. VI.
-Dw. □ el : □ gi | fe : q
-γ u. △ aob : △ cde | □ el : □ gi n. 11. V.
+### I. Gegebene. I. Begehrtes.
 
-### II. Gegebene.
+1. Vier gerade Striche
+ab, cd, ef, gh. △ aob : △ cnd | □ el : □ gi.
+2. Welche in Ebenmaß stehen.
+ab : cd | ef : gh
+3. Geradstrichichte ähnliche Vielecke
+△ aob ähnlich △ cnd
+□ el ähnlich □ gi
+4. Gleicher weise gesetzet.
 
-1. △ aob : △ cnd | □ el : □ gi
-2. △ aob ähnlich △ cnd
-3. □ el ähnlich □ gi
+[Diagram: grosses Dreyeck a o b, daneben kleineres Dreyeck c n d mit Strich p, dann Viereck e m l f und kleineres Viereck g k i h mit Strich q; darunter zwey Striche a b e h mit punktierten Linien und den Bezeichnungen d p, c, d, g, hq]
 
-### II. Begehrtes.
+### Vorbereitung.
 
-ab : cd | ef : gh.
+1. Es werde zu denen beyden Strichen ab und cd der dritte ebenmässige Strich p gefunden n. 11. VI.
+ab : cd | cd : p.
 
-<!-- Catchword: II. Beweiß. -->
+<!-- Catchword: 2. Auch -->

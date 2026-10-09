@@ -1,22 +1,36 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 82 -->
+<!-- Page number: 81 -->
 
-2. Wird nach dieser Weite aus B. der Bogen AeDg gemacht
-3. - - wie auch aus A - - - BeCf
-4. - - - und aus e - - - fhig
-5. - - - - aus f - - - h
-6. - - - - aus g - - - i.
-7. Aus A gegen h wird biß zum Bogen ef, der Strich AC.
-8. Und aus B gegen i zum Bogen eg, der Strich BD gezogen.
-9. Endlich von C zum D ein gerader Strich/ so ist mit unveränderter Oeffnung des Kreyß-ziehers das begehrte □ verfertiget. W. Z. M.
+[Diagram: Quadrat CDAB mit verlängerter Grundlinie gegen E und punktierten Hülfslinien; Punkte C, D oben, E, B, A unten]
 
-[Diagram: Quadrat BADC mit punktierten Kreisbögen; Punkte i, h oben, D, C, f, e in der Mitte, g links, B, A unten]
+### Beweiß.
 
-## Der XLVII. Vortrag.
+BC ist ein Senckstrich. n. 2. Wirckung.
+Dw. CBA ∠ ⌐ | n. 10. Beschr.
+DC = AB | n. 4. Wirck.
+DC | AB | n. 3. Wirck.
+Dw. BC | AD |
+und BC = AD | n. 33. Vortr.
+BC | AB | n. 3. Wirck.
+Drw. AD | AB | n. 1. GrS.
+A ∠ C |
+B ∠ D | n. 34. Vortr.
 
-## Das 33. Beweiß-Stück.
+Dw. wird A B C D ein gleichseitig und gleichwincklich Viereck seyn. n. 29. Beschr.
 
-In jedwedem rechtwincklichten Dreyeck/ ist das gleichwincklichte und gleichseitige Viereck / welches von dem Strich/so dem rechten Winckel entgegen stehet/ gemacht wird/ eben so groß/ als die beeden Vierecke zusammen / welche von den beeden Seiten/so den rechten Winckel begreiffen/ gemacht werden : oder/In jedwedem rechtwinck-
+### Beschluß.
 
-<!-- Catchword: lichten -->
+Ist also auff den gegebenen Strich AB ein gleichseitig und gleichwincklicht □ gesetzet. W. Z. M.
+
+### Auff eine andere Arth
+
+Ein gleichseitig und gleichwincklicht □ mit unveränderter Oeffnung des Kreyß-Ziehers (circini) auff den gegebenen Strich zu setzen.
+
+### Wirckung.
+
+1. Thue man den Kreyß-zieher so weit auff/als die länge des gegebenen Strichs AB.
+
+<!-- Signature: L -->
+
+<!-- Catchword: 2. Wird -->

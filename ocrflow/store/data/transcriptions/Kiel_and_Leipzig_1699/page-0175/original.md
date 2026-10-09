@@ -1,24 +1,41 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 159 -->
+<!-- Page number: 158 -->
 
-nicht in den Kreyß fallen : Es wird auch zwischen solchen Strich/ und den Kreyßzug kein anderer gerader Strich können gezogen werden : Auch wird der Halb-Kreyß-Winckel grösser/ das übrige Stück aber kleiner/ als alle spitzige geradstrichiche Winckel seyn.
+4. Wie auch alle Senckstriche ad, ao, ak, ai.
+5. Aus dem Mittel-Düpffel a.
+6. Auff die im Kreyß stehende Striche bc, en, ef, hg gezogen.
 
-### Gegebene. Begehrtes.
+### I. Beweiß.
 
-1. Kreyß cgf — 1. Strich bc fället ausser den Kreyß/
-2. Durchschlag cf — 2. Zwischen diesen Strich bc und Kreyßzug fgc wird kein gerader Strich können gezogen werden.
-3. Gerader Strich bc
-4. Rechtwincklicht auff den Durchschlag fc gesetzt.
-3. ∟ acg ⅄ alle ∧
-4. ∟ gcb ⋏ alle ∧
+ea + af ⊣ ef — n. 20. I.
+ea + af | ml — n. 15. Beschr. I.
+Dw. ml ⊣ ef — n. 1. Gr. c. I.
 
-[Diagram: Kreis mit Mittel-Düpffel a, senkrechter Durchschlag cf, oben am Punkt c die waagerechte Tangente cb mit Punkten d und e, dazu der Punkt g am Kreyßzug und Linien von a nach g und e]
+### II. Beweiß.
 
-### Vorbereitung.
+ean ⅄ eaf — n. 9. Gr. I.
+Dw. en ⊣ ef — n. 24. I.
+ef gleichweit vom Mittel a mit bc — n. 2. Vorb.
+Dw. ef | bc — n. 14. III.
+und en ⊣ bc — n. 1. Gr. c. I.
 
-1. Aus dem Mittel-Düpffel a werde gegen den Strich bc ein gerader Strich ab gezogen.
-2. Werde aus c zwischen cg und bc ein gerader Strich ec.
-3. Und gegen diesen Strich aus a der Senckstrich ad gezogen.
+### III. Beweiß.
 
-<!-- Catchword: I. Be- -->
+bc gleichweit vom Mittel a mit ef — n. 2. Vorb.
+Dw. bc | ef — n. 14. III.
+hag ⋏ [unclear: eaf] — n. 9. Gr. I.
+Dw. hg ⊢ ef — n. 24. I.
+und hg ⊢ bc — n. 1. Gr. d. I.
+
+### Beschluß.
+
+Jst also der Durchschlag ml der längste Strich: die Striche so näher bey dem Mittel a, sind länger/ als die/so weiter davon entfernet ; und die/ so weiter vom Mittel a stehen/ sind kürtzer/ als die/ welche dem Mittel a näher stehen. W. Z. B.
+
+## Der XVI. Vortrag.
+
+## Das 15. Beweiß-Stück.
+
+Derjenige Strich/ welchen man auff das Ende eines Durchschlages rechtwincklicht setzet, wird
+
+<!-- Catchword: nicht -->

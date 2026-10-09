@@ -1,39 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I Buch -->
 
-<!-- Page number: 57 -->
+<!-- Page number: 56 -->
 
-[Diagram: Zwei sich schneidende Striche mit den Dütteln G, M, B, D, E, F, K, I, A, H, C; der einfallende Strich IK senkrecht]
+### 1. Beweiß.
 
-### Beweiß.
+AGH ⋏ EGB           n. 15. Vortr.
+GHD ⋏ EGB           n. 3. Gegeb.
+Dw. GHD ⋏ AGH       n. 1. Gr-S.
+und   AB ╪ CD       n. 27. Vortr. W. Z. B.
 
-1. Entweder sind        AB — DC.
-2. oder lauffen zusammen in H.
-3. oder  -  -  -  -  in G.
+### 2. Beweiß.
 
-### Vorbereitung.
-
-Wann AB = DC so setze man auff E
-einen Winckel IEM ⋏ EFD n. 23. Vortr.
-
-### Verfolg des Beweises.
-
-        IEM ⋏ EFD  n. 1. Vorbereit.
-        BEF ⋏ EFD  n. 1. Angen. uñ 28. Vortr.
-Dw. BEF ⋏ IEM  n. 1. Gr-S.
-Welches aber unmöglich n. 9. Gr-S.
-
-Wann aber die beeden Striche BA und DC in dem Düttel H zusammen kommen / so werden in dem △ EHF zween Winckel HEF + HFE ⋏ ⏥, welches unmüglich / nach 17. Vortr. müssen also die beeden Striche in G zusammen kommen.
+AGH + GHC ⋏ ⏥                     n. 6. Gegeb.
+DHG + GHC ⋏ ⏥                     n. 13. Vortr.
+Dw. DHG + GHC ⋏ AGH + GHC         n.1. und 10. Gr-S.
+          GHC ⋏       GHC
+Dw. DHG        ⋏ AGH              n.3. Gr-S.
+und        AB ╪ CD                n. 27. Vortr.
 
 ### Beschluß.
 
-Wenn derwegen bey den beeden Strichen der einfallende Strich auff einer Seiten zween Winckel/ so kleiner als ⏥, machet so müssen solche Striche auff selbiger Seite/wo die kleinere Winckel stehen/ zusammen kommen. W. Z. B.
+Werden also allezeit diejenigen Striche/ bey welchen der einfallende Strich die aus-und inwendigen Winckel gleich groß/ die beeden inwendigen Winckel aber zweyen ⏥ gleich machet/ gerade Nebenstriche seyn. W. Z. B.
 
-## Der XXIX. Vortrag.
+Vorsatz (Lemma)
 
-## Das 20. Beweiß Stück.
+Wenn ein auff zween gerade Striche einfallender Strich/ auff der einen Seite zweene Winckel/welche kleiner/als zween rechte Winckel sind/ machet/so werden gedachte beede Striche nach nothturfft verlänget auff selbiger Seite / wo die zween Winckel kleiner/ als zween rechte Winckel sind / zusammen stossen.
 
-Der auff zween gerade neben-Striche einfallende gerade Strich machet die wechsel-weiß ge-
+### Gegebene.                              Begehrtes.
+1. Zween gerade Striche AB und CD,     1. Zusammenkunfft der beyden Striche AB und CD,
+2. Der gerade
+3. Einfallende Strich IK.
+4. Zween auff einer Seite stehende     2. Und zwar auff der Seite gegen B und D in G.
+        Winckel.
+5. BEF + DFE ⊼ ⏥
 
-<!-- Signature: H -->
-
-<!-- Catchword: nom- -->
+<!-- Catchword: Be- -->

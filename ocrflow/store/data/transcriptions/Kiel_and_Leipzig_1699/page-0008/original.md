@@ -1,15 +1,9 @@
 <!-- Running title: Vorrede. -->
 
-(Operatio)/ bißweilen auch die Vorbereitung (Præparatio): und wenn der Beweiß vollführet ist / so wird der Beschluß angehenget.
+tet/ daß/ gleich wie durch die alten drey Foderungen das Streich- oder Strich-Höltzlein (Lineal) und der Passer (Circul/ Circinus) gerechtfertiget werden / also durch diese vierte und neue Foderung (oder postulatum) auch der Stifft von aller fernern Ansprache befreyet werde. Und deßwegen sind in dem Kupfferblättlein die drey Mathematischen Werckzeuge/ nemlich der Stifft/ das Streichholtz/ und der Passer vorgestellet/ weil nemlich keine Gestalt/ welche zu ihrer Verfertigung mehr/ als diese drey Werckzeuge/ erfordert/ für eine Mathematische/ sondern nur vor eine Mechanische Gestalt gehalten wird.
 
-Bißweilen wird auch eine Zugabe oder Anhang beygefüget/ wie bey dem VII. und XXIX. Vortrage zu sehen.
+Was die Vorträge betrifft / so sind selbige in ihre gewisse Stücke/ nemlich in die Gegebene (Data), und Begehrte (Quæsita) abgetheilet/ alsdann folget die Wirckung
 
-Weil aber hernachmahls befunden/ daß auch noch andere Vorträge dergleichen Anhänge nöthig haben/ so kan zum Exempel dem X. Vortrag diese Zugabe angehenget werden:
+<!-- Signature: ):( ):( 2 -->
 
-Welche Grössen zu gleichmässigen Grössen gleiche Verhältnüß haben/ die sind gleichmässig.
-
-[Diagram: schematische Darstellung]
-
-Wegen der Algebraischen Zeichen/ welche ich gebrauchet/ ist zu mercken/ daß
-
-<!-- Catchword: die -->
+<!-- Catchword: (Ope- -->

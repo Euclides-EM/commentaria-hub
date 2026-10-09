@@ -1,36 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 51 -->
+<!-- Page number: 50 -->
 
-3.  AB + AC | ab + ac
-4.  AB      | ab
-5.      AC  |     ac
-6.  CB      ⊢     bc
-
-[Diagram: Zwei Dreiecke ABC und abc nebeneinander]
-
-### Beweiß.
-
-Entweder ist   BAC ⋏ bac
-oder           BAC ⊼ bac
-oder           BAC ⊼ bac
-
-Wann BAC ⋏ bac      So ist BC | bc
-        n. 4. Vortr. welches wider 6. Gegeb.
-ist aber BAC ⊣ bac      So ist BC ⊣ bc
-        n. 24. Vortr. welches auch wider 6. Gegeb.
-Dw. muß BAC ⊼ bac
+         Ad | AC        n. 2. Gegeb.
+β Drw.   bd | BC        n. 4. Vortr.
+         Ab | AB
+         Ac | AB        n. 1. Gegeb.
+Drw.     Ac | Ab        n. 1. Gr-S.
+und      fbc ⋏ ecb      n. 5. Vortr.
+         fbc ⊼ dbc      n. 9. Gr-S.
+Dw.      ecb ⊼ dbc      n. 1. Gr-S. c.
+         ecb ⊼ dcb      n. 9. Gr-S.
+Dw.      dbc ⊼ dcb      n. 1. Gr-S. e.
+und      dc ⊣ db        n. 19. Vortr.
+         db | BC        n. Beweiß β.
+Dw.      BC ⊢ dc.       n. 1. Gr-S. d.
 
 ### Beschluß.
 
-Ist also jederzeit in dem △, dessen Grund-Seite grösser / als des andern / auch der Winckel grösser/als in dem andern △. W. Z. B.
+Ist also allezeit des △es / dessen zwo Seiten / zweyen Seiten eines andern △es gleich sind / aber einen grössern Winckel haben / Grundstrich grösser / als des andern △es / welches einen kleinern Winckel hat.   W. Z. B.
 
-## Der XXVI. Vortrag.
+## Der XXV. Vortrag.
 
-## Das 17. Beweiß-Stück.
+## Das 16. Beweiß-Stück.
 
-Wann zwey Dreyecke zween Winckel/zweyen Winckeln / jedweden jedwedem / und eine Seite der einen Seite gleich haben / es sey gleich / daß die Seite einem der beeden Winckel übergespannet/oder neben den beeden Winckeln stehet : So
+Wenn zwey Dreyecke / zwo Seiten zweyen Seiten/jedwede jedweder/gleich groß/eines aber einen grössern Grundstrich / als das andere hat: So wird selbiges auch einen grössern Winckel/als das andere / zwischen seinen zwo Seiten haben.
 
-<!-- Signature: G 2 -->
+### Gegebene.                    Begehrte.
+1. Das △ ABC                 BAC ⊼ bac
+2.     △ abc
 
-<!-- Catchword: wer- -->
+<!-- Catchword: 3.AB -->

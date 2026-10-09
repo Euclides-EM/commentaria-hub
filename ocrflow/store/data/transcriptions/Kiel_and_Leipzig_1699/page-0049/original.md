@@ -1,37 +1,38 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch. -->
 
-<!-- Page number: 33 -->
-
-### Vorbereitung.
-
-Man ziehe die beeden Striche CD und CE.
+<!-- Page number: 32 -->
 
 ### Beweiß.
 
-DF | EF nach 10. Vortr.
-CF | CF
-DF + CF | EF + CF nach 2. Gr. S.
-DC | EC nach 15. Beschr.
-Dw. DFC ⋏ EFC nach 8. Vortr.
-und CF | ein bley-rechter Senckstrich n. 10. Beschr.
+CE | CF nach 15. Beschr.
+CD | CD
+CE + CD | CF + CD nach 2. Gr.S.
+ED | FD nach 1. Vortr.
+Dw. ECD ⋏ FCD nach 8. Vortr.
+und CD | Bley-rechter Senck-strich/nach 10. Beschr.
 
 ### Beschluß.
 
-Ist also der begehrte Senckstrich CF aus dem gegebenen Düttel C auff den gegebenen Strich AB gezogen. W.Z.M.
+Und ist also der begehrte bley-rechte Senckstrich CD auff den gegebenen Strich AB, und zwar auff den gegebenen Düttel C gesetzet/W. Z. M.
 
-## Der XIII. Vortrag.
+## Der XII. Vortrag.
 
-## Das 6. Beweiß Stück.
+Das 7. Werck Stück:
 
-Wenn ein gerader Strich auff einen liegenden geraden Strich stösset/ und zween Winckel machet / so werden solche Winckel entweder selbst zween rechte Winckel / oder wenigstes zweyen rechten Winckeln an grösse gleich seyn.
+Auff einen unendlichen Strich aus einem ausser demselben gegebenen Düttel einen bley-rechten Senckstrich zu ziehen.
 
-### Gegebene. | Begehrtes.
+### Gegebene. | Begehrte.
 
-Liegender Strich AB. | ⋀ ACD und DCB zween ∟ ∟. oder
-Darauff stossender Strich DC. | ⋀ ADC + BCD | ⊾.
+1. Der gerade Strich AB | 1. Bley rechte Senckstrich CF.
+2. Der Düttel - - C | 2. Auß dem gegebenen Düttel C.
+3. Ausserhalb dem Strich AB. | 3. Auff den gegebenen Strich AB (gesetzet.
 
-[Diagram: links liegender Strich AB mit senkrechtem Strich DC auff C; rechts liegender Strich AB mit schrägem Strich DC und punktiertem E]
+### Wirckung.
 
-<!-- Signature: E -->
+1. Aus dem Düttel C wird ein Kreyß-stück gezogen/welches den gegebenen Strich in zwey Orthen/ nemlich in D und E durchschneide.
+2. Der Strich DE wird in zween gleiche Theile getheilet in dem Düttel F.
+3. Wird der gerade Strich CF gezogen.
 
-<!-- Catchword: Be- -->
+[Diagram: Strich AB mit den Düttelen D, F, E, darüber der Düttel C mit punktiertem Kreyß-Stück und Senckstrich CF]
+
+<!-- Catchword: Vor- -->

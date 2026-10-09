@@ -1,29 +1,35 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 280 -->
+<!-- Page number: 279 -->
 
-## Der XXIII. Vortrag.
+## Der XXII. Vortrag.
 
-## Das 23. Beweiß-Stück.
+## Das 22. Beweiß-Stück.
 
-Wenn drey Grössen gegeben werden/ und noch drey andere Grössen darzu genommen werden/ welche in verwirreter Ebenmaß stehen/ so werden sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben.
+Es werden Grössen gegeben so viel man wil/ und werden eben so viel darzu genommen/ welche mit denen Ersten in richtiger Ordnung stehen; So werden sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben.
 
 ### Gegebene.
 
-[Diagram: sieben Linien A, B, C, a, b, c, d von verschiedener Länge am linken Rand]
+[Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
-A : B : C | a : b : c
-A : B | b : c
-B : C | a : b
+1. A : B : C | a : b : c
+2. A : B | a : b :
+3. B : C | b : c
 
 ### Begehrtes.
 
 A : C | a : c
 
-### Vorbereitung.
+### Beweiß.
 
-Man nehme noch eine Grösse d zu welcher sich c also verhalte/ wie B. zu C.
+|  |  |  |
+|---|---|---|
+| B : C | b : c | n. 3. ⌉ Geg. |
+| A : B | a : b | n. 2. ⌡ |
+| Dw. A : C | a : c | n. 3. V. |
 
-B : C | c : d.
+### Beschluß.
 
-<!-- Catchword: Beweiß. -->
+Wenn derowegen zweyerley Ahrt Grössen gegeben werden/ welche in richtiger Ordnung Ebenmässig sind/ so müssen sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
+
+<!-- Catchword: Der -->

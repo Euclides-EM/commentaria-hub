@@ -1,37 +1,30 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 211 -->
+<!-- Page number: 210 -->
 
-3. Auch werde von a zu h ein Strich ah gezogen.
-4. Dieser Strich werde ebenfals in zween gleiche Theile ag | gc getheilet/ n. 10. I.
-5. Auff das Mittel f werde ein Senckstrich fe gezogen/n. 11. I.
-6. Deßgleichen aus g der Senckstrich ge. n. 11. I.
-7. Aus e, wo diese Senckstriche einander schneiden / werde
-8. Nach der Weite ec oder ea ein Kreyß gezogen.
+### Beschluß.
 
-### Beweiß.
+Ist also ein Kreyß ümb das △ abc beschrieben. W. Z. M.
 
-Man ziehe die drey Düttele a, h, c mit geraden Strichen ah, hc, ca zusammen/ so ist nach vorhergehendem Vortrag ein Kreyß umb dasselbige Dreyeck (oder durch die 3. Düttele) gezogen / wie allbereit bewiesen. W. Z. M.
+## I. Zugabe.
 
-## Der VI. Vortrag.
+Wenn der Mittel-Düpffel f auff eine deß △ Seiten fället / so ist das Dreyeck recht-wincklicht : fället aber der Mittel-Düpffel in das △ , so ist selbiges Spitzwincklicht : Und so er ausser das △ fället / so ist selbiges Stumpffwincklicht.
 
-## Das 6. Werckstück.
+## II. Zugabe.
 
-Einem Kreyß ein gleichseitiges Viereck einzuschreiben.
+Durch drey gegebene Düttele / welche aber nicht in einem geraden Striche stehen/ einen Kreyßbogen zu ziehen.
 
-### Gegebenes. Begehrte.
+### Gegebene. Begehrte.
 
-Kreyß dabc. 1. Gleichseitiges Viereck abcd
-2. dem Kreyß dabc eingeschrieben.
+1. Drey Düttele a, h, c. 1. Kreyß ahc.
+2. Nicht in einem geraden 2. Mittel-Düpffel e.
+Strich stehend.
+
+[Diagram: punktierter Kreis mit den Dütteln a, h, c auf dem Bogen; Striche ac und hc, deren Mittel g und f, von dort punktierte Senckstriche zum Mittel-Düpffel e]
 
 ### Wirckung.
 
-1. Durch den Mittel-Düpffel e werde der Durchschlag db,
-2. Und durch diesen Durchschlag/ und zwar auch durch den Mittel-Düpffel e, werde ein Senckstrich ac gezogen/ n. 11. I.
-3. Werden die geraden Striche ab, bc, cd, da gezogen.
+1. Von h zu c werde ein gerader Strich hc gezogen.
+2. Dieser Strich werde in zween gleiche Theile hf | fc getheilet/n. 10. I.
 
-[Diagram: Kreis mit Mittel-Düpffel e und eingeschriebenem Viereck abcd samt beiden Durchschlägen (Diagonalen) ac und db]
-
-<!-- Signature: Dd 2 -->
-
-<!-- Catchword: Be- -->
+<!-- Catchword: 3. Auch -->

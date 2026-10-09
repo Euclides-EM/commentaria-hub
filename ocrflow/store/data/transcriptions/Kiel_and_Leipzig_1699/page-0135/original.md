@@ -1,30 +1,37 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 118 -->
 
-<!-- Page number: 119 -->
+<!-- Running title: Das II. Buch -->
 
-mal genommene Vier-Eck/ welches von der einen Seite/ und von dieser Seiten Verlängung biß zum Senckstrich / so aus dem Ende der andern Seite auff solche Verlängung fället/ gemacht wird.
+### Beschluß.
 
-### Gegebene. | Begehrte.
+Ist also der Strich ab also in c geschnitten/ daß das Viereck/ so der gantze Strich ab, und das eine Stück bc begreiffen / eben so groß/ als das gleichseitige □ des übrigen Stückes ac. W. Z. M.
 
-1. Stumpffwincklicht △ abc. | □ ac ) □ ab + 2 ▭ abd + 2 □ bc.
-2. Verlängte Seite ab biß d.
-3. Verlängung bd.
-4. Senckstrich cd.
+### Nach der Löse-Kunst.
 
-[Diagram: stumpfwinkliges Dreieck a b c; die Grundlinie ab ist punktiert bis d verlängert, von c fällt ein punktierter Senkstrich auf d]
+### Gegebene. | Begehrtes.
+
+1. a | ab | 1. a getheilet in c und e getheilet also daß ae | cc.
+2. b | ad
+3. c | ac
+4. e | cb
+5. d | ef
+6. f | db | df.
 
 ### Beweiß.
 
-adc | ∟ | n. 3. Gegeb.
-Dw. □ ac | □ ad + □ cd n. 47. I.
-ad | ab + bd
-□ ad | □ ab + 2 ▭ abd + □ bd n. 4. II.
-□ ad + □ ac | □ ab + 2 ▭ abd + □ bd + □ ad + □ cd n. 2 Gr. 1.
-□ ad | □ ad
-□ ac | □ ab + 2 ▭ abd + □ bd + □ cd | n. 3. Gr. I.
-□ bd + □ cd | □ cb n. 47. I.
-□ bd + □ cd + □ ac | □ ab + 2 ▭ abd + □ bd + □ cd + □ cb | n 2 Gr. I.
-□ bd + □ cd | □ bd + □ cd
-□ ac | □ ab + 2 ▭ abd + □ cb | n. 3. Gr. I.
+dc + bb | ff | n. 6. II.
+aa + bb | ff | n. 47. I.
+aa + bb | dc + bb | n. 1. Gr. I.
+bb | bb
+aa | dc
+ac | ac
+aa — ac | dc — ac | n. 3. Gr. I.
+oder ae | cc | W. Z M.
 
-<!-- Catchword: Beschluß. -->
+## Der XII. Vortrag.
+
+## Das 11. Beweiß-Stück.
+
+In allen stumpffwincklichten Dreyecken ist das gleichseitige Viereck der Seite/ so dem stumpfen Winckel übergespannet ist/ so viel grösser / denn die beeden Vierecke derer Seiten/ welche den stumpffen Winckel begreiffen / als das zwey-
+
+<!-- Catchword: mal -->

@@ -1,31 +1,36 @@
-<!-- Page number: 317 -->
+<!-- Page number: 316 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-Und wenn der aus der Spitze des Dreyeckes gezogene Strich den Grundstrich also schneidet/ daß dessen Stücke in ebenmässiger Verhältnüß mit den Seiten stehn/ so theilet derselbe Strich den Winckel des Dreyeckes in zweene gleiche Theile. W. Z. B.
+Dw. eb : ba | cb : ba — n. 7. V.
+eb : ba | cd : da — n. 2. VI.
+Dw. cd : da | cb : ba — n. 11. V.
 
-## Der IV. Vortrag.
+## Des III. Vortrags II. Gegebene.
 
-## Das 4. Beweiß-Stück.
+1. Dreyeck abc.
+2. Strich bd
+3. Grundstrich ac
+4. getheilet in ad und dc
+5. also/ daß cd : ad | cb : ba.
 
-Gleichwincklichte Dreyecke haben in ebenmässiger Verhältnüß stehende Seiten/ welche nemlich gleichmässige Winckel einschrencken; und diejenigen Seiten/ welche gleichmässige Winckel überspannen/ sind auch ebenmässig.
+Die Vorbereitung ist eben so/ wie zuvor.
 
-### Gegebene.
+### Beweiß.
 
-1. Zwey Dreyecke abc und CDE,
-2. Welche gleichmässige Winckel haben/
+bd ⧣ ec — n. Vorber.
+∝ Dw. abd ⋏ bec
+β u. dbc ⋏ bce — n. 29. I.
+u. eb : ba | cd : da — n. 2. VI.
+cb : ba | cd : da — n. Gegeb.
+Dw. cb : ba | eb : ba — n. 11. V.
+u. cb | eb — n. 9. V.
+Dw. bec ⋏ bce — n. 5. I. ∝.
+u. abd ⋏ bce
+Dw. abd ⋏ dbc — n. 1. Gr. I. β.
 
-nemlich C ⋏ abc
-D ⋏ bac
-u. DEC ⋏ acb
+### Beschluß.
 
-### Begehrte.
+Wenn derowegen ein Strich den Winckel eines Dreyeckes in zween gleiche Theile schneidet/ und auch den Grundstrich theilet/ so stehen die Stücke des Grundstriches mit denen Seiten des Dreyeckes in ebenmässiger Verhältnüß.
 
-1. ba : CD | bc : CE
-2. bc : CE | ac : DE
-3. ab : DC | ac : DE.
-
-[Diagram: Zwey Dreyecke, oben das kleinere Dreyeck CDE, darunter das grössere Dreyeck abc, dessen Seiten gestrichelt gegen f, d und e verlängert sind]
-
-g
-<!-- Catchword: Vor- -->
+<!-- Catchword: Und -->

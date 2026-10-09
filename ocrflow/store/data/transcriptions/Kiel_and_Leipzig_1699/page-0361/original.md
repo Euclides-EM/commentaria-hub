@@ -1,45 +1,39 @@
-<!-- Page number: 345 -->
+<!-- Page number: 344 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
+
+### I. Gegebene.
+
+1. Dreyeck ABC
+2. u. DFE
+3. ABC ⋏ DEF
+4. ABC ⩓ EFD.
+
+### Begehrtes.
+
+AB : DE ⊤ EF : BC.
+
+[Diagram: Dreyecke D E A, F B C oben; darunter die Punkte d, e, b, a und der punktierte Strich nach c]
+
+### I. Vorbereitung.
+
+1. Es werde gemacht abc ⩓ ABC n. 22. I.
+2. Die Seiten ab und ce werden gegen d und f verlängert.
+3. Es werde ed ⊤ ED
+4. und ef ⊤ EF   n. 3. I.
+5. Auch werde df
+6. Wie auch dc gezogen.
+
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| Dw. | △ efd ⊤ △ ABC | n. 1. Gr. I. |
-| u. | △ efd ⊤ △ abc | n. Bew. α |
-|  | △ edc ⊤ △ edc |  |
-| Dw. | △ efd : △ edc ⊤ △ abc : △ edc | n. 7. V. |
-|  | ab : ed ⊤ △ abc : △ edc | n. 1. VI. |
-| Dw. | ab : ed ⊤ ef : bc | n. 11. V. n. B. β |
-| oder | AB : DE ⊤ EF : BC | n. Anh. 7. V. |
+| α | △ abc ⊤ △ ABC | n. 1. Vorb. |
+|  | △ efd gleichmässiger Höhe △ edc | n. 4. Beschr. VI. |
+| Dw. | △ efd : △ edc ⊤ ef : ec | n. 1. VI. |
+|  | △ eac gleichmässiger Höhe △ edc | n. 4. Beschr. VI. |
+| β Dw. | △ eac : △ edc ⊤ ab : ed | n. 1. VI. |
+|  | △ efd ⊤ △ FED | n. 4. I. |
+|  | △ ABC ⊤ △ EFD | n. 4. Gegeb. |
 
-### II. Gegebene.
-
-1. △. ABC
-2. △. EFD
-3. ABC ⋏ DEF.
-4. AB : DE ⊤ EF : BC.
-
-### II. Begehrtes.
-
-△ ABC ⊤ △ EFD.
-
-### II. Vorbereitung wie die I.
-
-### II. Beweiß.
-
-|  |  |  |
-|---|---|---|
-|  | △ edc gleichmässiger Höhe △ efd | n. 4. Besch. VI. |
-| α Dw. | ef : bc ⊤ △ efd : △ bcd | n. 1. VI. |
-|  | △ abc gleichmässiger Höhe △ bdc | n. 4. Besch. VI. |
-| Dw. | ab : de ⊤ △ abc : △ bdc | n. 1 VI. |
-|  | ab : de ⊤ ef : bc | n 4 Geg. |
-| Dw. | △ abc : △ bcd ⊤ ef : bc | n. 11. V. |
-| u. | △ abc : △ bcd ⊤ △ efd : △ bcd | n. Bew. α |
-|  | △ bcd ⊤ △ bcd |  |
-| Dw. | △ abc ⊤ △ efd | n. 9. V. |
-| oder | △ ABC ⊤ △ EFD | n. Anh. 7. V. |
-
-<!-- Signature: Xx -->
-
-<!-- Catchword: Beschluß. -->
+<!-- Catchword: Dw. -->

@@ -1,25 +1,26 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Axiomata. -->
 
-<!-- Page number: 14 -->
+<!-- Page number: 13 -->
 
-(q) Wenn alle Theile zusammen genommen werden / so sind sie eben so groß / als das Gantze.
+(n) Wenn (zwey) Dinge ab und cd halb so groß sind / als (zwey) andere gleiche Dinge ef und mn / so sind dieselben auch ein ander gleich.
 
-X. Alle rechte Winckel sind einander gleich/ oder sind gleich groß.
+[Diagram: vier Striche a–b (kurz), e–f, m–n (länger, gleich), c–d (kurz)]
 
-XI. Wenn durch zween gerade bey einander stehende Striche ein anderer Strich durchgehet/ und zween inwendige auff einer Seite stehende Winckel kleiner machet/ als zweene rechte Winckel / so werden die beeden Striche / wenn sie zu beeden Seiten verlängert werden / auff der Seite / wo die kleinere Winckel sind / endlich zusammen lauffen.
+(o) Wenn von (zwey) gleich grossen Dingen ab und cd, eines ab halb so groß ist/als eins ef von ( zwey ) andern gleichen Dingen ef und mn, so sind dieselben ( beyden ) Dinge ab und cd auch halb so groß / als die andern (beyden) Dinge ef und mn.
 
-(r) Hier ist zu mercken/ daß dieses kein rechter Grundsatz sey / weil er / wie hernach bey dem XXIX. Vortrag wird geschehen / kan bewiesen werden.
+[Diagram: vier Striche a–b, c–d (kürzer, gleich), e–f, m–n (länger, gleich)]
 
-XII. Zweene gerade Züge oder Striche können keine Gestalt einschliessen/ oder geschlossene Gestalt vorstellen.
+(p) Gleiche bewandniß hat es / wenn etliche Dinge ab, cd nur dritte Theile / oder vierte ab, cd Theile / oder noch kleinere Theile sind.
 
-(s) Müssen also zum wenigsten drey gerade Striche seyn / wenn sie nur die einfältigste Gestalt / nemlich ein Dreyeck / vorstellen sollen.
+[Diagram: links Striche m–n, f–e, a–b, c–d; rechts Striche a–b, c–d (kurz), e–f, m–n (lang)]
 
-# Das I. Buch Euclidis.
+VIII. Wenn ( zwey ) Dinge ab und cd sich in allen Stücken zusammen schicken/ so sind sie einander gleich.
 
-## Vorbericht.
+[Diagram: zwei gleiche Striche a–b und c–d; zwei übereinander gelegte Quadrate, zwei übereinander gelegte Dreiecke und zwei übereinander gelegte Kreise]
 
-Nach dem die Anfänge vorhergesetzet/ werden die Beweißthüme angestellet/ und der Grössen ihre Eigenschafften durch vorgehende Anfänge also behauptet / daß kein Verständiger mehr daran zuzweiffeln Ursach habe. Damit aber alles füglich und deutlich geschehen möge/ werden gewisse Vorträge (Propositiones) zugerichtet / welche in Haupt-und Neben-Sätze abgetheilet werden.
+IX. Das gantze ab ist grösser/ als ein Theil oder Stück ac desselben ( es mag auch seyn so groß / als es immer wolle.)
 
-Die Haupt-Sätze sind widerum zweyerley / nemlich (1) Würckliche und (2) Beweißliche Vorstellungen. Jene / die Würcklichen/ können füglich Werck-Stücke (Problemata) genennet werden / und geben etwas zu verfertigen auff/ nach der Ver-
+[Diagram: ein Strich a–b, darunter der Punkt c]
 
-<!-- Catchword: ferti- -->
+<!-- Signature: B 3 -->
+<!-- Catchword: (q) Wenn -->

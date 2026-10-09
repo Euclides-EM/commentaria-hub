@@ -1,34 +1,39 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 246 -->
+<!-- Page number: 245 -->
 
-### Vorbereitung.
+### I. Beweiß.
 
-1. Die Grösse C werde zweymahl /
-2. Deßgleichen die Grösse D auch zweymahl genommen.
-3. Die Grösse a aber viermahl /
-4. Und b auch viermahl genommen.
+l | a
+c | a
+d | a — n. 1. Vorb.
+l + c + d | 3a — n. 2. Gr. I.
+l + c + d | A — n. 9. Gr. I.
+δ Dw. A | 3a — n. 1. Gr. I.
+und 3A | 9a — n. 6. Gr. I.
+h | A
+k | A
+m | A — n. 3. Vorb.
+h + k + m | 3A — n. 2. Gr. I.
+h + k + m | C — n. 9. Gr. I.
+δ Dw. C | 3A
+α und C | 9a — n. 1. Gr. I.
+e | b
+f | b
+g | b
+e + f + g | 3b
+e + f + g | B
+B | 3b
+3B | 9b
+n | B
+p | B
+q | B
+n + p + q | 3B
+n + p + q | D
+D | 3B
+3B | 9b
+[unclear: β] D | 9b
 
-[Diagram: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 4a, 2C, B, 4b, 2D]
+<!-- Signature: Hh 3 -->
 
-### II. Beweiß.
-
-9a ⊣ 4a — n. 9. Gr. I.
-9a | C — n. Bew. δ
-Dw. C ⊣ 4a — n 1. Gr. c. I.
-2C ⊣ C — n. 9. Gr. I.
-γ Dw. 2C ⊣ 4a — n. 1. Gr. e. I.
-9b ⊣ 4b — n. Bew. ζ
-9b | D
-Dw. D ⊣ 4b
-2D ⊣ D
-φ Dw. 2D ⊣ 4b
-
-Oder auch also:
-
-### Vorbereitung.
-
-1. Es werde a zehen mahl /
-2. Und auch b zehen mahl genommen.
-
-<!-- Catchword: A— -->
+<!-- Catchword: Vorbe- -->

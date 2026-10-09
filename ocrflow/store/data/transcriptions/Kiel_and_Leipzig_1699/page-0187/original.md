@@ -1,32 +1,30 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 171 -->
+<!-- Page number: 170 -->
 
-4. Werde auch bd gezogen.
-### Beweiß.
-⌓ adb gleichgestalt mit ⌓ acb   n. 1. Vorber.
-Derowegen adb ⋀ acb   n. 10. Besch. III.
-Welches unmüglich   n. 16. I.
 ### Beschluß.
-Können also keine zwey gleichgestalte/ und doch von ungleicher Grösse/ Kreyßstücke auff einen einigen geraden Strich auff gleiche Weise gesetzet werden. W. Z. B.
+Sind also jedes Viereckes / so einem Kreyß eingeschrieben/ gegen einander überstehende Winckel adc + abc ⋀ ⌓
+dcb + adb ⋀ ⌓ W. Z. B.
 
-## Der XXIV. Vortrag.
+## Der XXIII. Vortrag.
 
-## Das 22. Beweiß-Stück.
-Auff gleichlangen geraden Strichen stehende gleichgestalte Kreyß-Stücke/ sind gleichgroß.
+## Das 21. Beweiß-Stück.
+Auff einen einigen geraden Strich können auff einerley Weise keine zwey gleichgestalte Kreyß-Stücke gesetzet werden/ welche doch ungleicher Grösse seyn.
 
 ### Gegebene.
-1. Zween gerade Striche ab | cd
-2. Gleichgestalte ⌓ aeb und ⌓ cfd
-3. Auff solchen Strichen stehend.
+1. Gerader Strich ab
+2. Zwey gleichgestalte ⌓ ⌓
+3. Auff diesen Strich ab
+4. Auff einerley Weise gesetzet.
 
 ### Begehrtes.
-aeb [unclear: ⋀] cfd
+Beede Kreyß-Stücke gleicher Grösse.
 
-[Diagram: Zwey Kreyß-Stücke, das eine über dem Strich ab mit dem Punckt e, das andere über dem Strich cd mit dem Punckt f]
+[Diagram: Zwey Kreyß-Stücke über dem Strich ab, mit den Punckten a, b, c, d und punctirten Strichen ad, bc]
 
-### Beweiß.
-Man lege den Strich cd auff den Strich ab, so werden sie sich zusammen schicken n. 8 Beschr. I. Darnach lege man auch den Bogen dfc auff den Bogen bea, so wird er entweder sich nicht schi-
+### Vorbereitung.
+Wenn es seyn kan/ so mache man (1) auff den geraden Strich ab auff einerley Weise zwey gleichgestalte oder ähnliche Kreyßstücke ungleicher Grösse ⌓ adb + ⌓ acb.
+2. Werde gezogen der Strich ad.
+3. Aus b werde zu dem Düttel c, wo der Strich ad das Kreyß-Stück acb schneidet/ der Strich bc gezogen.
 
-<!-- Signature: P 2 -->
-<!-- Catchword: cken/ -->
+<!-- Catchword: 4. Werde -->

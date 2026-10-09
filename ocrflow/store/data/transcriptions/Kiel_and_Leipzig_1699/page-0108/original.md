@@ -1,35 +1,38 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 92 -->
+<!-- Page number: 91 -->
+
+Auff gleiche weise wird auch bewiesen /
+daß □ np | □ gb
+□ lr | □ fe
+□ it + □ lr + □ np | □ cd + □ fe + □ gb n. 2. Gr-S. I.
+□ cab | □ cd + □ fe + □ gb n. 9 Gr-S. q
+Dw. □ cab | □ it + □ lr + □ np n. 1. Gr-S. I.
+
+### Beschluß.
+
+Sind also allezeit diejenigen rechtwincklichten Vierecke/ welche der unzertheilte Strich mit denen Stücken des getheilten Striches begreiffet / eben so groß/ als das Viereck/ so die beeden gantzen Striche begreiffen. W. Z. B.
+
+### Nach der Löß-Kunst.
 
 ### Gegebene. | Begehrtes.
-1. Der Strich AB | □ AB | □ CAB + □ CBA.
-2. getheilet in C.
-
-### Vorbereitung.
-
-Man nehme 1. noch einen Strich AD | AB n. 2. Vortr I. Buchs.
-2. Man mache das rechtwincklichte □ ba,ad n. 11. und 31. I.
-3. Man nehme auch zween Striche/ so groß/ als die beeden Stücke des getheilten Strichs/nemlich
-lm | ca
-no | cb
-4. Deßgleichen auch
-lg | AD
-in | AD | n. 2. I.
-5. Mache man die rechtwincklichte □ mlg und □ oni n. 11. I.
-6. In dem □ bad ziehe man den Neben-Strich ce = ad.
-
-[Diagram: drey rechtwincklichte Vierecke; Punkte D, B, d, e, f, g, h, i, k oben, c links, A, a, c, b, l, m, n, o unten; punktierte Linie im ersten Viereck]
+1. Strich a | ae | be + ce + de
+2. Getheilet b + c + d
+3. a | b + c + d
+4. ungetheilter Strich e.
 
 ### Beweiß.
 
-on | CB
-ni | BA | n. 3. Vorber.
-□ oni | □ CBA | n. 1. Gr-S. II.
-ml | CA
-lg | AB
-□ mlg | □ CAB + | n. 1. Gr-S II.
-□ oni + □ mlg | □ CAB + □ CBA | n. 1. Gr-S. I.
-AD | AB | n. 1. Vorber.
+a | b + c + d nach 3. Gegeb.
+e | e
+ae | be + ce + de nach 1. Gr-S. II. W. Z. B.
 
-<!-- Catchword: Dw. -->
+## Der II. Vortrag.
+
+## Das 2. BeweißStück.
+
+Wenn man einen geraden Strich/ auff waserley weise/ in zween Theile zerschneidet : So werden die beeden rechtwincklichten Vierecke/ welche der gantze Strich / und die beeden Striche begreiffen/ eben so groß seyn/ als das gleichseitige Viereck des gantzen Striches.
+
+<!-- Signature: M 2 -->
+
+<!-- Catchword: Ge- -->

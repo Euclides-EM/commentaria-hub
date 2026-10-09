@@ -1,20 +1,33 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 292 -->
+<!-- Page number: 291 -->
 
-## Der XXXI. Vortrag.
-## Das 31. Beweiß-Stück.
+## Der XXX. Vortrag.
+## Das 30. Beweiß-Stück.
 
-Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darzu genommen werden: Unter den Ersten dreyen aber die Erste zu der Andern eine grössere Verhältnüß hat / als in der andern Ahrt die Erste zu der Andern: Deßgleichen die Andere zu der Dritten in der ersten Ahrt / eine grössere Verhältnüß hat / als die Andere zu der Dritten in der andern Ahrt : So wird auch nach der Gleichheit die Erste der ersten Ahrt / zu der Dritten derselben Ahrt / eine grössere Verhältnüß / als die Erste von der andern Ahrt / zu der Dritten solcher Ahrt haben.
+Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte sampt der Vierten zu der Vierten: So wird hingegen ümgekehrt die Erste sampt der Andern / zu der Ersten eine kleinere Verhältnüß / als die Dritte sampt der Vierten zu der Dritten haben.
 
 ### Gegebene.
 
-[Diagram: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]
+[Diagram: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]
 
-A B ⊣ a : b
-B : C ⊣ b : c
+A + a : a ⊣ B + b : b
 
 ### Begehrtes.
-A : C ⊣ a : c
+A + a : A ⊢ B + b : B.
 
-<!-- Catchword: Vor- -->
+### Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+|  | A + a : a ⊣ B + b : b | | n. Geg. |
+| Dw. | A : a ⊣ B : b | | n. 29. V. |
+| und | a : A ⊢ b : B | | n 26. V. |
+| Dw. | a + A : A ⊢ b + B : B | | n. Anh. 28. V. |
+
+### Beschluß.
+Wenn derowegen die I. sampt der II. zu der II. eine grössere Verhältnüß hat / als die III. sampt der IV. zu der IV. So wird auf verkehrte Art die I. sampt der II. zu der I. eine kleinere Verhältnüß / als die III. und IV. zu der III. haben. W. Z. B.
+
+<!-- Signature: Oo 2 -->
+
+<!-- Catchword: Der -->

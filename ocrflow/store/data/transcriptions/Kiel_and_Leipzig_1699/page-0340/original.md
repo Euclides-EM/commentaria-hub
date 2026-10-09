@@ -1,34 +1,42 @@
-<!-- Page number: 324 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Page number: 323 -->
 
-### Beweiß.
-
-deg ⋏ bac
-gde ⋏ abc   n. Vorber.
-α Dw. | egd ⋏ acb | n. 26. I.
-u. | ba : ac | de : eg | n. 4. VI.
-| ba : ac | de : ef | n. 3. Geg.
-Dw. | de : ef | de : eg | n. 11. V.
-β u. | ef | eg | n. 9. V.
-
-| deg ⋏ bac | n. Vorber.
-| def ⋏ bac | n. Geg.
-Dw. | deg ⋏ def | n. 1. Gr. I.
-| ef | eg | n. Bew. β.
-| de | de |
-Dw. | ef + de | eg + de | n. 2. Gr. I.
-u. | egd ⋏ efd |
-γ u. | gde ⋏ edf | n. 4. I.
-| egd ⋏ acb | n. Bew. α
-Dw. | acb ⋏ efd | n. 1. Gr. I.
-| gde ⋏ abc | n. Vorber.
-| gde ⋏ edf | n. Bew. γ
-Dw. | abc ⋏ edf | n. 1. Gr. I.
-u. | △ abc gleichwincklicht △ edf | n. 1. Beschr. VI.
+Dw. | a ⋏ D
+u. | ECD ⋏ abc
+u. | DEC ⋏ acb | n. Zugab 8. I.
 
 ### Beschluß.
 
-Wenn derowegen in zweyen Dreyecken zweene gleichmässige Winckel befindlich / und des einen Winckels Seiten mit den beyden Seiten des andern Winckels ebenmässig sind / so werden solche Dreyecke auch im übrigen gleichmässige Winckel / welche ebenmässigen Seiten gegen überstehen / haben / und durchaus gleichwincklicht seyn. W. Z. B.
+Müssen derowegen diejenigen Dreyecke / deren Seiten in richtiger Ebenmaß stehen / gleichwincklicht seyn. W. Z. B.
 
-<!-- Catchword: Der -->
+## Der VI. Vortrag.
+
+## Das 6. Beweiß-Stück.
+
+Wenn in zweyen Dreyecken zweene gleichmässige winckel gefunden werden / deren Seiten ebenmässig sind : So sind diese Dreyecke durchaus gleichwincklicht / und dererselben ebenmässige Seiten überspannen gleichmässige Winckel.
+
+### Gegebene.
+
+1. △ abc und △ edf.
+2. bac ⋏ def.
+3. ba : ac | de : ef
+
+### Begehrte.
+
+1. acb ⋏ efd.
+2. abc ⋏ edf.
+3. △ abc gleichwincklicht △ edf.
+
+[Diagram: zwei Dreiecke, links abc, rechts edf mit punktierten Linien zu einem Punkt g oberhalb]
+
+### Vorbereitung.
+
+Auf den Strich ed werden gesetzet
+
+1. deg ⋏ bac
+2. gde ⋏ abc | n. 23. I.
+3. werden gezogen eg und dg.
+
+<!-- Signature: Ss 2 -->
+<!-- Catchword: Beweiß. -->

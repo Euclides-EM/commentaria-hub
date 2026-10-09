@@ -1,33 +1,37 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 154 -->
-
-### Beschluß.
-
-Derowegen kan auff keinerley Weise ein Kreyß den andern in mehr/als einem Düttel anrühren. W. Z. B.
-
-## Der XIV. Vortrag.
-
-## Das 13. Beweiß-Stück.
-
-Alle gleichlange gerade Striche in einem Kreyß/stehen gleichweit von dem Mittel-Düpffel ab. Und gleichweit von dem Mittel-Düpffel abstehende gerade Striche sind gleichlang.
-
-Erster Theil dieses Vortrages.
-
-### Gegebene. Begerthes.
-
-1. Der Kreyß edcb, — ag | af.
-2. Zween gerade Striche cb und de
-3. Jn dem gegebenen Kreyß/
-4. cb | de
-5. Die Senckstriche ag und af
-6. Aus dem Mittel-Düpffel a
-7. Auff die beeden Striche gezogen.
+<!-- Page number: 153 -->
 
 ### Vorbereitung.
 
-1. Aus dem Mittel-Düpffel a werden gezogen die Stralen ab und ae.
-2. Beede Striche werden in zween gleiche Theile geschnitten n. 10. I.
-3. Es werden auch die beeden Senckstriche ag, af gezogen. n. 12. I.
+So ziehe man 1. aus dem Anrührungs-Düttel b einen geraden Strich/durch die beeden Mittel-Düpffele o und d, zu dem eussersten Kreyß.
+2. Es werden zu dem andern Anrührungs-Düttel aus dem Mittel-Düpffel o, wie auch
+3. aus d gerade Striche oa und da gezogen.
+
+### Beweiß.
+
+do + oa ⊣ da — n. 20. I.
+ob | oa — n. 15. Besch. I.
+do + oa + ob ⊣ da + oa — n. 3. Gr. S. I.
+oa | oa
+do + ob ⊣ da — n. 5. Gr. I.
+Oder db ⊣ da — n. 9. Gr. q. I.
+Welches unmüglich nach 15. Beschr. I.
+
+### V. Begebenheit.
+
+Wenn zween Kreyse einander auswendig bey s/und t anrühren.
+
+### Vorbereitung.
+
+Es werde von einem Anrührungs-Düttel s zu dem andern t der gerade Strich st gezogen.
+
+[Diagram: zwei einander schneidende Kreise; an den Durchschnitten oben s und unten t, dazwischen ein punktierter Strich; im rechten Kreis der Punkt u]
+
+### Beweiß.
+
+Dieser gerade Strich wird ausser den Kreiß stu fallen / da doch seine beeden Endungen in gedachtem Kreyse stehen / welches unmüglich/n. 2. III.
+
+<!-- Signature: V -->
 
 <!-- Catchword: Be- -->

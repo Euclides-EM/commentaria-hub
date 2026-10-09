@@ -1,14 +1,14 @@
 <!-- Running title: Vorrede. -->
 
-## Zu denen 17. Zeichen sind noch diese zusetzen:
+die grösseste Deutlichkeit auf dem Zeichen der Gleichmässigkeit beruhe/ welches ein aufrecht stehender gerader Strich ist.
 
-18. ⬠ Fünfeck/ Quinquangulum, Pentagonum.
-19. ◇ Kreißschnitt/ Sector.
-20. ⊐ Zwiefach grössere Verhältnüß/ Duplicata ratio.
-21. ⋣ Dreyfach grössere Verhältnüß/ Triplicata ratio.
+Und solch Zeichen ist schon vor diesem bey den Rechenmeistern gebräuchlich gewesen / wenn sie bey den Theilungen (oder Divisionibus) die Zahlen also setzen 24/6 | 4 welches nichts anders bedeutet / als daß 24 Sechstheil eben so viel/ als 4. Gantze/ seyn. Deßgleichen gebraucht man sich solches Zeichens auch bey Verwandlung und Verkleinerung der Brüche/ als:
 
-Solche Zeichen haben auch den Nutzen/ daß jemand/ so der Teutschen Sprache nicht kundig/ die angestellte Beweise mehrentheils bey einem Lateinischen/ Italiänischen/ Frantzösischen/ etc. Text gebrauchen könne/ wenn er nur etliche wenige Wörter kennen lernet / als: und oder u. ist so viel/ als &: Dw. oder derowegen/ Ergo: n. oder nach / per, juxta: Beschr. Beschreibung Definitio: Gr. Grundsatz/ Axioma: Wirck. Wirckung/ Operatio. Vorb. Vorbereitung/ Præparatio. Angen. Angenommenes / Assumtum, hypothesis. Bew. Beweiß/ Demonstratio. und dergleichen.
+96 | 48 | 24 | 12 | 6 | 3
+128 | 64 | 32 | 16 | 8 | 4
 
-Ubrigens kan mit Stillschweigen nicht vorbey gehen /
+da dann 96 hundert-acht und zwantzigtheil eben so viel/ als 48 vier und sechtzig theil/ etc. oder so viel/ als 3 Viertheil ist.
 
-<!-- Catchword: daß -->
+<!-- Signature: ):( ):( 3 -->
+
+<!-- Catchword: Zu -->

@@ -1,26 +1,52 @@
-<!-- Page number: 348 -->
+<!-- Page number: 347 -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-## Der XVII. Vortrag.
+### Vorbereitung.
 
-## Das 12. Beweiß-Stück.
+1. Werde gemacht das □ ad
+2. Deßgleichen auch □ bc.
+3. Und zwar nach gleichmässigen Winckel gemacht. n. 23. I.
 
-Wenn drey ebenmässige Striche gegeben werden/ so wird das von den beyden äusersten Strichen begriffene rechtwincklichte Viereck/ dem von dem mittelsten Strich gemachten gleichseitigen Viereck gleichmässig seyn.
+### I. Beweiß.
 
-Und wenn das von den äusersten Strichen begriffene rechtwincklichte Viereck dem vom mittelsten Strich gemachten gleichseitigen Viereck gleichmässig ist/ so stehen solche drey Striche in richtiger Ebenmaß.
+|  |  |  |
+|---|---|---|
+|  | aed ⋏ bfc | n. 3. Vorb. |
+|  | a : b ⊤ c : d | n. 2. Gegeb. |
 
-### I. Gegebene.
+Und haben die beyden Vierecke also bey wechselmässigen Winckeln wechselmässige Seiten.
 
-1. Drey Striche
-a, b, c.
-2. In unzertrennter Ebenmaß stehend
-a : b ⊤ b : c.
+|  |  |  |
+|---|---|---|
+| Dw. | ad ⌻ bc. | n. 14. VI. |
+
+### II. Gegebene.
+
+1. Vier gerade Striche
+a, b, c, d.
+2. ad ⌻ bc.
 
 ### I. Begehrtes.
 
-□ ac ⊤ □ bb.
+a : b ⊤ c : d.
 
-[Diagram: Oben die Striche a, b, c mit Theilstrichen; darunter ein langes punktiert geteiltes Rechteck mit den Seiten c und a; darunter ein punktiert geteiltes Quadrat mit den Seiten b und b]
+### II. Beweiß.
 
-<!-- Catchword: Vorbe- -->
+|  |  |  |
+|---|---|---|
+|  | ad ⌻ bc. | n 2. Gegeb. |
+|  | aed ⋏ bfc. | n. 3 Vorb. |
+| Dw. | a : b ⊤ c : d | n 14. VI. |
+
+Und die vier Striche sind ebenmässig n. 7. Beschr. V.
+
+### Beschluß.
+
+Wenn derowegen vier ebenmässige Striche gegeben werden/ so ist das von den beyden äusersten Strichen gemachte/dem von den beyden mitlern Strichen gemachten Viereck gleichmässig.
+
+Und wenn das von zweyen äusersten Strichen begriffene Viereck / dem nach gleichem Winckel von denen mittelsten Strichen gemachten Viereck gleichmässig ist/ so stehen dieselben Striche in richtiger Ebenmaß. W. Z. B.
+
+<!-- Signature: Xx 2 -->
+
+<!-- Catchword: Der -->

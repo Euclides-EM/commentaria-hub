@@ -1,26 +1,29 @@
-### Demonstratio II. (Beweiß.)
+### Data (Gegebene.)          Quæsita (Begehrte.)
 
-Porrò, si linea ab coincidit cum linea AB.
+1. Duo rectilinea triangula
+   ABC & abc                    BC | bc
+2. AB + AC | ab + ac            ABC ⋏ abc
+3. AB      | ab                 BCA ⋏ bca
+4.      AC |      ac            CBA ⋏ cba
+5. BAC ⋏ bac
 
-### Præparatio II. (Vorbereitung)
+### Præparatio I. (Vorbereitung.)
 
-Linea ac vel in ipsam lineam AC, vel intra in Ag, vel extra in Af cadet.
+Tollatur △ abc, & imponatur △ lo. ABC ita, ut punctum a in punctum A, linea ab in lineam AB incidat.
 
-[Diagram: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit punktierten Linien zu den Punkten g und f an der Grundlinie]
+### Demonstratio I. (Beweiß.)
 
-Si ac cadet intra in Ag.          vel extra in Af.
-Erit BAg ⋏ bac per præparat.  BAf ⋏ bac n. Vorbereit.
-     BAC ⋏ bac per 5 datum    BAC ⋏ bac n. 5. Geg.
-Ergò BAC ⋏ BAg per 1. axioma  BAC ⋏ BAf n. 1. Gr. S.
+Cadet itaque punctum b aut in punctum B, aut supra illud in punctum d, aut infra in e.
 
-Neutrum fieri potest. Ergo necessariò cadet linea ac in lineam AC.
+[Diagram: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit Punkt d auf der Seite BA und Punkt e unterhalb]
 
-### Demonstratio III. (Beweiß.)
+Si b incidat in d                    vel in e
+erit A d | ab per præparationem      A e | ab n. Vorbereit.
+     AB  | ab  per 3. datum          AB  | ab n. 3. Gegeb.
+Ergo AB  | Ad  per 1. axioma.        AB  | Ae n. 1. Grund-S.
 
-Denique: quia lineæ bc ambo termini b & c in ambos lineæ BC terminos B & C cadunt, incidet quoque ipsa linea bc in Basin BC, vel supra, vel infra:
+nempe totum erit æquale parti, quod tamen impossibile, per axioma 9. n. 9. Grund-Satz.
 
-[Diagram: zwei Dreiecke; links Dreieck b a c, rechts Dreieck B A C mit punktiertem Bogen unter der Grundlinie BC]
+Quia igitur punctum b neque supra B, neque infra B cadere potest, necessariò cadet in punctum B.
 
-Sed supra vel infra cadere non poterit, alias duæ rectæ describerent figuram, quod est contra axioma 12. n. 12. Gr. S.
-
-<!-- Catchword: Neces- -->
+<!-- Catchword: De- -->

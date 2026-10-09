@@ -1,29 +1,36 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 223 -->
+<!-- Page number: 222 -->
 
-## Der XIII. Vortrag.
+u. — gca ∧ hca
+u. — cag ∧ cah — n. 4. I.
+α. Dw. — gab ∧ 2gac — n. 9. Gr. q. I.
+Gleicher Weise — gal ∧ 2gab
+gh | gl — n. 1. Wirck.
+Dw — gh ⌒ gl — n. 28. III.
+u. — gab ∧ gal — n. 26. III.
+gac ∧ gab — α. n. 7. Gr. n. I.
+cga ∧ bga — n. 10. Gr. I.
+ga | ga
+Dw. — gca ∧ gba — n. 26. I.
+u. — gc | bg — n. 4. I.
+Gleicher Weise gb | bl | lf | fk | ke | ei | id | dh | hc | cg
+und — gb + gc | bc
+dh + hc | cd — n. 9. Gr. q. I.
+Dw. — bc | cd | de | ef | fb — n. 2. Gr. I.
+Deßgleiche gba ∧ lba ∧ lfa ∧ kfa ∧ kea ∧ iea
+u. — iea ∧ ida ∧ hda ∧ hca ∧ gca ∧ gba
+gba + lba ∧ gal
+lfa + kfa ∧ lak — n. 9. Gr. q. I.
+Dw. gal ∧ lak ∧ kai ∧ iah ∧ hag — n. 2. Gr. I.
+u. — bcdef ein gleichseitig und gleichwincklicht Fünffeck /
+n. 22. Beschr. I.
+Welches ümb den gegebenen Kreyß ghikl beschrieben/
+n. 4. Beschr. I.
 
-## Das 13. Werckstück.
+### Beschluß.
 
-Einem gegebenen gleichseitigen und gleich-
-wincklichten Fünffeck einen Kreyß einzuschreiben.
+Ist also ein gleichseitiges und gleichwincklichtes Fünffeck umb
+den gegebenen Kreyß beschrieben. W. Z. M.
 
-### Gegebenes. — Begehrte.
-Fünffeck bcdef. — 1. Kreyß ghikl
-2. in das Fünffeck eingeschrieben.
-
-[Diagram: Fünffeck b c d e f mit einbeschriebenem Kreis; die Berührungspunkte g, h, i, k, l liegen in den Seitenmitten, aus dem Mittelpunkt a laufen punktierte Striche zu den Ecken und Seitenmitten]
-
-### Wirckung.
-
-1. Werden alle Winckel in zween gleiche Theile getheilet/mit
-den Strichen ba, ca, da, ea, fa, n. 9. I.
-2. Die Seiten werden auch in zween gleiche Theile getheilet/
-n. 10. I.
-3. Aus dem Mittel der Seiten werden Senckstriche ga, ha,
-ia, ka, la gezogen/ n. 11. I.
-4. Aus dem Düttel a, wo alle Striche zusammen lauffen /
-werde nach der Weite ag oder ah ein Kreyß beschrieben.
-
-<!-- Catchword: Be- -->
+<!-- Catchword: Der -->

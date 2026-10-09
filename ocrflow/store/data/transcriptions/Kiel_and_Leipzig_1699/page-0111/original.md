@@ -1,42 +1,32 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 95 -->
+<!-- Page number: 94 -->
 
-bc | cb
-□ abc | □ acb + □ cb — n. 1. II.
-Dw. □ ABC | □ acb + □ cb — n. 1. Gr. I.
-ac | AC — n. 4. Vorb.
-cb | CB — n. 3. Vorber.
-ac + cb | AC + CB — n. 1. Gr. I.
-cb | CB — n. 3. Vorber.
-□ acb + □ cb | □ ACB + □ CB — n. 1. Gr. II.
-Dw. □ ABC | □ ACB + □ CB — n. 1. Gr. I.
+Viereck/ so dem gantzen Strich und von einem solchen Stück begriffen wird/ eben so groß seyn/ als das gleichseitige Viereck desselbigen Stückes/ samt dem Viereck/ welches von den beeden Stücken begriffen wird.
 
-### Beschluß.
+### Gegebene. | Begehrte.
 
-Gleiche Bewandniß hat es/ wenn man aus dem Stück CA das gleichseitige □ machet/ so wird alsdenn
+1. Strich AB | □ ABC | □ ACB + □ CB.
+2. getheilet in C
+3. AC + CB | AB
 
-□ BAC | □ BCA + □ CA seyn.
+### Vorbereitung.
 
-### Beschluß.
+1. Man nehme noch einen Strich DB, welcher gleich sey dem Stück CB.
+2. mache man ab | AB
+3. - - - cb | CB
+4. - - - ac | AC — n. 2. I.
+5. - - □ cb — n. 46. I.
+6. - - □ acb
+7. - - □ abc
 
-Muß also allezeit das □, welches von dem gantzen Strich AB, und einen Stück desselben AC oder CB gemacht wird/ eben so groß seyn/ als das gleichseitige □ desselben Stücks/ samt dem Viereck/ welches von solchem Stück und von dem gantzen Strich AB begriffen wird. W. Z. B.
-
-### Nach der Löse-Kunst.
-
-### Gegebene. | Begehrtes.
-
-1. a | AB — ac | bc + cc
-2. b + c | AC + CB — oder ab | cb + bb
-3. a | b + c
+[Diagram: Oben ein Strich A C B; darunter ein Rechteck mit den Ecken B, D, a, b und gestrichelter Teilungslinie bei c/d; darunter zwei Rechtecke mit den Ecken a, b, c, d bzw. c, b.]
 
 ### Beweiß.
 
-a | b + c — n. 3. Gegeb.
-c | c
-ac | bc + cc — n. 1. II. W. Z. B.
-oder a | b + c — n. 3. Gegeb.
-b | b
-ab | bb + bc — n. 1. II. W. Z. B.
+ab | AB — n. 2. Vorber.
+bc | BC — n. 3. Vorber.
+□ abc | □ ABC — n. 1. Gr. II.
+ab | ac + cb — n. 3. Gegeb.
 
-<!-- Catchword: Der -->
+<!-- Catchword: bc -->

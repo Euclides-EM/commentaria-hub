@@ -1,40 +1,35 @@
-<!-- Running title: Das I. Buch. -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 60 -->
+<!-- Page number: 59 -->
 
-### Vorbereitung.
+### Beweiß des 3.
 
-Durch alle drey Striche AB, EF und CD werde der einfallende Strich GH gezogen.
+        AGH ⋏ GHD           n. 1. Beweiß.
+        AGH ⋏ EGB           n. 15. Vortr.
+β.  Dw.   GHD ⋏ EGB         n. 1. Gr-S.
 
-### Beweiß.
+### Beweiß des 4.
 
-        BIL ⋏ FLK
-        DKH ⋏ FLK   n. 29. Vortr.
-Dw.   DKH ⋏ BIL     n. 1. Gr-S.
-und     AB ╪ CD     n. 28. Vortr.
+AGH           ⋏ GHD             n. 1. Beweiß.
+        BGH ⋏         BGH
+AGH + BGH ⋏ GHD + BGH   n. 2. Gr-S.
+AGH + BGH ⋏ ⏥            n. 13. Vortr.
+γ. Dw. GHD + BGH ⋏ ⏥     n. 1. und 10. Gr-S.
 
 ### Beschluß.
 
-Werden also diejenigen Striche / so neben den dritten in gleicher Weite hinlauffen/ auch Neben-Striche seyn.  W. Z. B.
+Werden also die bey denen Neben-Strichen von dem einfallenden Strich gemachte (α) Wechsel-Winckel/ darnach (β) aus- und inwendige Winckel gleich groß/ und (γ) die zweene inwendige Winckel zweyen ⏥ gleich seyn. W. Z. B.
 
-## Der XXXI. Vortrag.
+## Der XXX. Vortrag.
 
-## Das 22. Werck-Stück.
+## Das 21. Werckstück.
 
-Gegen einen gegebenen geraden Strich/durch den zur Seiten gegebenen Düttel/ einen Neben-Strich zu ziehen.
+Wenn zween Striche neben dem dritten in unveränderter Weite hinlauffen / so sind selbige auch unter sich Neben-Striche.
 
-### Gegebene.                    Begehrte.
-1. Der gerade Strich AB      1. CH = AB
-2.  Der Düttel   C           2. CH durch den Düttel C gezogen.
+### Gegebene.                         Begehrtes.
+1. Zween Striche AB und CD        AB ═ CD
+2. Der Strich EF
+3.        AB ╪ EF
+4.        CD ╪ EF
 
-### Wirckung.
-
-1. Aus dem gegebenen Düttel C wird ein gerader Strich CD nach dem Strich AB gezogen.
-2. Auff den Strich CD und zwar
-3. Auff den Düttel C setze man den Winckel DCH
-4. DCH ⋏ ADC nach 23. Vortr.
-5. Durch H und C ziehe man den Strich CH.
-
-[Diagram: Strich AB mit den Dütteln E und D, darüber der Strich CH; punktierte Linien verbinden C, D und H]
-
-<!-- Catchword: Be- -->
+[Diagram: Drei waagerechte Striche AB, EF und CD, geschnitten vom schrägen Strich GH in den Dütteln I, L und K]

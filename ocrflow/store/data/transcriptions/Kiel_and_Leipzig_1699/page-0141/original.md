@@ -1,36 +1,36 @@
-<!-- Page number: 125 -->
+<!-- Page number: 124 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-[Diagram: links ein schiefes Viereck a b d c; rechts ein Rechteck a g f e mit Punkt k, daneben ein Quadrat mit punktiertem Halbkreis über der Grundlinie a e i h]
+## Der XIV. Vortrag.
 
-### Beweiß.
+## Das 2. Werckstück.
 
-œ. ▭ ad | ▭ aef — n. 1. Wirck.
-□ ai | ▭ aeh ✠ □ ie — n. 7. II.
-ik | ai — n. 15. Bes. I.
-□ ik | □ ai — n. 1. Gr. t. II.
-(□ ai) ✠ □ ik | ▭ aeh ✠ □ ie (✠ □ ai) — n 2. Gr. I.
-□ ik | ▭ aeh ✠ □ ie — n. 3. Gr. I.
-□ ik | □ ek ✠ □ ie — n 47. I.
-Dw. □ ek (✠ □ ie | ▭ aeh (✠ □ ie) — n. 1. Gr. I.
-a. □ ek | ▭ aeh oder ▭ aef — n. 3. Gr. I.
-Dw. □ ek | ▭ abdc — n. 1. Gr. I.
+Eine gegebene gerad-seitige Gestalt/ in ein gleichseitiges Viereck zuverwandeln.
 
-### Beschluß.
+### Gegebenes. — Begehrte.
 
-Ist also die Gestalt abdc in das gleichseitige □ ek verwandelt. W. Z. M.
+Die gerad-seitige Gestalt *abdc*.
 
-### Nach der Löse-Kunst.
+1 Das □ ek
+2 □ ek | ▭ abdc.
 
-### Gegebene. — Begehrte.
+### Wirckung.
 
-a | ih | ik — ee | cd
-c | eh | ef
-b | ei
-d | ae
-e | ek
+1. Verwandelt man die Gestalt abdc in ein rechtwincklichtes □ n. 42. I.
 
-<!-- Signature: Q 3 -->
+2. Dieses ▭ Länge ef und Breite ea werden auff einen geraden Strich ah gesetzet.
+
+3. Der zusammengesetzte Strich ah wird in zween gleiche theile ai | ih getheilet n 10. I.
+
+4. Aus dem Düttel i wird nach der Weite ia oder ih ein Kreyß beschrieben. n. 3. Foder.
+
+5. Aus dem Düttel e, wo die Länge und Breite zusammen gesetzet / wird ein Senckstrich ek biß zu des beschriebenen Kreyses ümbfang gezogen (welches aber hier nicht nöthig / weil solcher Senckstrich in der längern Seite ef stehet.)
+
+6. Auff den Strich ek wird ein gleichseitig □ gesetzet. n. 46. I.
+
+### Vorbereitung.
+
+Aus dem Mitteldüpffel i wird biß zu k der Strich ik gezogen.
 
 <!-- Catchword: Be- -->

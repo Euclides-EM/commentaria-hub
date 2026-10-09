@@ -1,35 +1,31 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 163 -->
+<!-- Page number: 162 -->
 
-### Gegebene. Begehrtes.
-
-1. Kreyß fda. — ba ein Senckstrich des Rührstrichs ca
-2. Gerader Rühr Srich ca.
-3. Rührdüpffel a.
-4. Gerader Strich ba
-5. Auß dem Mittel-Düpffel b
-6. Zu dem Rühr-Düpffel a gezogen.
-
-[Diagram: Kreis fda mit Mittel-Düpffel b, oben die waagerechte Rührlinie durch a und c, der Strich ba senkrecht, punktierte Linie von b nach c mit Punkt d am Kreyßzug]
-
-### Vorbereitung.
-
-Wenn ba kein Senckstrich/ so ziehe man einen Senckstrich bc.
+2. Nach der Weite des Striches eb werde ein Kreyß ea gezogen:
+3. Aus dem Düttel d, wo der gerade Strich eb den Kreyß fcd schneidet/ werde ein Senckstrich da auffgerichtet/ welcher den äussern Kreyß ae in dem Düttel a schneide. n. 11. I.
+4. Aus diesem Düttel a werde zu dem Mittel-Düpffel b der gerade Strich ab gezogen.
+5. Zu dem Düttel c, wo dieser Strich den Kreyß schneidet/ werde aus dem Düttel e ein gerader Strich ec gezogen.
 
 ### Beweiß.
 
-bc ein Senckstrich — n. angenommen.
-Dw. bca ∠ ∟ — n. 10. Beschr. I.
-u. bca ⅄ bac — n. 17. I.
-Dw. ba ⊣ bc — n. 19. I.
-ba | bd — n. 15. Beschr. I.
-Dw. bd ⊣ bc — n. 1. Gr. c. I.
-Welches aber unmüglich — n. 9. Gr. I.
+ab | eb
+bd | bc — n. 15. Beschr. I.
+ab + bd | eb + bc — n. 2. Gr. I.
+abd ∠ ebc — n. 8. Gr. I.
+Dw. adb ∠ ecb — n. 4. I.
+adb ∠ ∟ — n. 3. Vorher.
+Dw. ecb ∠ ∟ — n. 10. Gr.
+und ec ist ein anrührender Strich aus dem Düttel gezogen n. 16. III. n. 2. Beschr. III.
 
 ### Beschluß.
 
-Wird also der auß dem Mittel-Düpffel b zu dem Rührdüpffel a gezogene Strich ba ein Senckstrich des Rührstrichs ca seyn. W. Z. B.
+Jst also auß dem Düttel e ein gerader Strich ec gezogen/ welcher den gegebenen Kreyß fcd in dem Düttel c anrühret. W. Z. M.
 
-<!-- Signature: X 2 -->
-<!-- Catchword: Der -->
+## Der XIIX. Vortrag.
+
+## Das 16. Beweiß-Stück.
+
+Wenn ein gerader Strich einen Kreyß anrühret/ von dem Mittel Düpffel aber ein gerader Strich zu dem Rührdüpffel gezogen wird / so wird dieses ein Senckstrich des Rührstriches seyn.
+
+<!-- Catchword: Gege- -->

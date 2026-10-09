@@ -1,25 +1,34 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 373 -->
+<!-- Page number: 372 -->
 
-Dw. □ pq + □ pi | □ ge + □ pi n. 2. Gr. I.
-oder □ ai | ⊾ eip n. 9. Gr. I. q.
-□ pe - | ⊾ eip n. 9. Gr. I.
-Dw. □ pe - | □ ai n. 1. Gr. I. a.
+2. Unter allen an den Strich ab angeschlagenen nebenstrichichten Vierecken/ das an den halben Strich pb angeschlagene Viereck pe grösser/ als alle andere mangelhaffte an den Strich ap angeschlagene Vierecke.
 
-Auch alle andere mangelhaffte Vierecke sind kleiner/ als das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck.
+[Diagram: Viereck q, a, p, g unten mit den Punkten d, e, c, i, b, teils mit punctirten Linien gezeichnet]
 
-### Beschluß.
+### Vorbereitung.
 
-Ist derowegen das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck grösser/ als alle andere mangelhaffte an den gegeben Strich angeschlagene Vierecke. W. Z. B.
+1. Aus dem Düttel b werde gegen aq ein gerader Nebenstrich be gezogen. n. 31. I.
 
-## Der XXIIX. Vortrag.
+2. Biß zu diesem Strich be werde fortgezogen der Strich qic.
 
-## Das 8. Werck-Stück.
+3. Aus p werde auch ein Nebenstrich pd gegen aq gezogen. n. 31. I.
 
-An einen gegebenen geraden Strich ein nebenstrichichtes Viereck/ welches einer gegebenen geradstrichichten Gestalt gleichmässig sey/ also anzuschlagen/ daß es mangelhaft/ und das mangelende nebenstrichichte Viereck einem andern gegebenen nebenstrichichten Viereck ähnlich sey.
+4. Biß zu diesem Strich pd werde aus b durch i der Strich bd gezogen.
 
-Es muß aber die gegebene geradstrichichte Gestalt / welcher das nebenstrichichte Viereck / so anzuschlagen ist / gleichmässig seyn sol/ nicht grösser seyn / als dasjenige Viereck / welches an die Helffte des gegebenen Striches kan angeschlagen werden: und solches an die Helffte des Striches angeschlagene Viereck / wie auch das mangelende / und die andere gegebene nebenstrichichte Viereck sind alle einander ähnlich.
+5. Aus d werde gegen qc ein Nebenstrich biß an den Strich be, nemlich de gezogen. n. 31. I.
 
-<!-- Signature: Aaa 3 -->
-<!-- Catchword: Begehr- -->
+6. Endlich werde der Strich gi biß zu dem Strich de verlängert.
+
+### Beweiß.
+
+□ pi | □ ie n. 43. I.
+□ gc | □ gc
+Dw. □ pi + □ gc | □ ie + □ gc n. 2. Gr. I.
+oder □ pc | □ ge n. 9. Gr. I. q.
+ap | pb n. 7. Geg.
+Dw. □ pq | □ pc n. 1. VI.
+u. □ pq | □ ge n. 1. Gr. I.
+□ pi | □ pi
+
+<!-- Catchword: Dw. -->

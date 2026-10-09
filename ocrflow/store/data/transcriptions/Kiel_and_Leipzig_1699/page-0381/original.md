@@ -1,39 +1,28 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 365 -->
+<!-- Page number: 364 -->
 
-4. Werde noch ein Strich l gefunden/ zu welchem sich k also / wie cd zu de verhalte.
+ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüssen zusammen gesetzet ist.
 
-cd : de | k : l n. 12. VI.
+### Gegebene.
 
-### Beweiß.
+1. Nebenstrichichte Vierecke ao, und df.
+2. □ ac gleichwincklicht dem □ df.
 
-ad : dg | □ ac : □ dh n. 1. VI.
-ad : dg | i : k n. 3. Vorb.
-α Dw. □ ac : □ dh | i : k n. 11. V.
-cd : de | k : l n. 4. Vorb.
-cd : de | □ dh : □ df n. 1. VI.
-β Dw. □ dh : □ df | k : l n. 11. V.
-u. □ ac : □ dh | i : k n. Bew. α
-□ dh , □ df | k : l n. Bew. β
-Dw. □ ac : □ df | i : l n. 22. V.
-i : l | i,k : k,l n. 5. Besch. VI.
-γ Dw. □ ac : □ df | i,k : k,l n. 11. V.
-ad : gd | i : k n. 3. Vorb.
-cd : de | k : l n. 4. Vorb.
-Dw. ad : de | i : l n. 22. V.
-ad, dc : gd, de | i,k : k,l n. 5. Besch. VI.
-Dw. □ ac : □ df | ad, dc : gd, de n. Bw. γ. 11. V.
+### Begehrtes.
 
-### Beschluß.
+□ ac : □ df | ad, dc : gd, de.
 
-Haben derowegen gleichwincklichte Nebenstrichichte Vierecke eine solche Verhältnüß zusammen / als diejenige / welche aus ihren Seiten zusammen gesetzet ist. W Z B.
+[Diagram: zwey aneinander gefügte Vierecke mit den Punkten b, c, h, a, d, g, e, f nebst den Linien i, k, l; darunter zwey Dreiecksfiguren mit punctirten Linien und den Buchstaben k, g, l, c, d, k, e, d]
 
-## Der XXIV. Vortrag.
+### Vorbereitung.
 
-## Das 18. Beweiß-Stück.
+1. Werden die beyden Vierecke bey dem Winckel d also zusammen gefüget/ daß ad und dg, wie auch cd und de zween gerade Striche machen.
 
-In jedwedem nebenstrichichten Viereck sind die
+2. Die Seiten bc und fg werden fort gezogen/ biß sie in h zusammen kommen.
 
-<!-- Signature: Zz 3 -->
-<!-- Catchword: üm -->
+3. Werden zween gerade Striche i und k, gefunden/ welche eben solche Verhältnüß haben / als ad : dg.
+
+ad : dg | i : k, n. 12. VI.
+
+<!-- Catchword: 4. Werde -->

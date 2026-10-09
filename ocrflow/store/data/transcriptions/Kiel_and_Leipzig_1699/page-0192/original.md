@@ -1,27 +1,33 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 176 -->
+<!-- Page number: 175 -->
 
-[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten f, a, c, d, g, der andere mit e, b, h, i; darin Winckel am Mittel-Düpffel und im Kreyß, etliche Striche punctirt]
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, i, der andere mit h, f, d, e, k; in jedem stehen Winckel am Mittel-Düpffel und im Kreyß, die Sehnen punctirt]
 
-### Vorbereitung.
-Wenn cad ⋀̸ hbi so mache man den
-Winckel cag ⋀ hbi   n. 23. I.
-### Beweiß.
-cag ⋀ hbi   n. Vorbereit.
-Dw. cg ⊻ hi   n. 26. III.
-cd ⊻ hi   n. 2. Gegeb.
-Dw. cd ⊻ cg   n. 1. Gr I.
-Welches aber unmöglich n. 9. Gr. I.
-Eben so ungereumt ist es auch/ wenn man sagen wolte
-hbi ⋀̸ cad
-oder cfd ⋀̸ hei.
+### II. Beweiß.
+
+2bgc ⋀ bac
+dfe ⋀ 2dhe } n. 20. III.
+2bgc + dfe ⋀ bac + 2dhe   n. 2. Gr. I.
+bgc ⋀ dhe   n. 2. Geg.
+2bgc ⋀ 2dhe   n. 6. Gr. i. I.
+Dw. dfe ⋀ bac   n. 3. Gr. I.
+und bic ⊻ dke   n. 1. Beweiß.
+
 ### Beschluß.
-Müssen derowegen allezeit in gleichgrossen Kreyssen diejenigen Winckel/ welche auff gleichgrossen Bogen stehen/ auch gleichgroß seyn. W. Z. B.
+Müssen also allezeit in gleichgrossen Kreyssen bgci | dhek diejenigen Bogen bic ⊻ dke, auff welchen gleichgrosse Winckel bac ⋀ dfe oder bgc ⋀ dhe stehen/ auch gleich groß seyn. W. Z. B.
 
-## Der XXIIX. Vortrag.
+## Der XXVII. Vortrag.
 
-## Das 25. Beweiß-Stück.
-In gleichgrossen Kreyssen schneiden gleichlange gerade Striche/ gleichgrösse Bogen ab/ und zwar/ daß das grössere Stück / dem grössern/ und das kleinere dem kleineren gleich an Grösse sey.
+Das 24 Beweiß-Stück.
+In gleichgrossen Kreyssen sind diejenigen Winckel/ welche auff gleichgrossen Bogen stehen/ auch gleich groß/ es mögen Mittel-Düpffels oder im Kreyß stehende Winckel seyn.
 
-<!-- Catchword: Ge- -->
+### Gegebene.
+1. Gleichgrosse Kreysse fcd | ehi
+2. Gleichgrosse Bogen cd ⊻ hi
+
+### Begehrte.
+1. cad ⋀ hbi
+2. cfd ⋀ hei
+
+<!-- Catchword: Vor- -->

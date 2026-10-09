@@ -1,33 +1,35 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 148 -->
+<!-- Page number: 147 -->
 
-### II. Begebenheit.
+### Gegebene. — Begehrte.
+
+1. Zweene Kreyse abc und aeq
+2. Deren kleinerer den grössern inwendig berühret in a.
+3. Strich cf durch beede Mittel-Düpffele d und f.
+4. Welcher Strich nach nothdurfft verlängert wird.
+
+1. Der verlängerte Strich cf stösset auff den Anrührungs-Düttel a.
+
+### I. Begebenheit.
 
 ### Vorbereitung.
 
-Fället der Strich ba nicht auff c, so falle er auff d.
+Stösset der gegebene Strich cf nicht auff a, so lasse man ihn auff b fallen.
 
-[Diagram: grosser Kreis mit kleinerem Kreis, der ihn inwendig oben berührt; oben der Punkt c, links d, im kleinen Kreis e und a, unten im grossen Kreis b; Verbindungsstriche]
+[Diagram: zwei einander inwendig berührende Kreise; oben der Punkt a, rechts oben b, im Innern e, f und d, unten q; durch die Mittel-Düpffele gezogene Striche]
 
 ### Beweiß.
 
-ae | ca — n. 15. Beschr. I.
-ba | ab
-ba + ae | ca + ab — n. 2. Gr. I.
-oder bae | cb — n. 9. Gr. q.
-bad | bc — n. Vorb. und 15. Besch. I.
-Dw. bad | bae — n. 1. Gr. I.
-Welches unmöglich n. 9. Gr. I.
+af | ef — n. 15. Beschr. I.
+fc | fc
+af + fc | ef + fc — n. 2. Gr. I.
+oder ac | ef + fc — n. 9. Gr. q. I.
+ac | bf + fc — n. angenom. n. 15. Beschr. I.
+Dw. ef + fc | bf + fc — n. 1. Gr. I.
+oder ef | bf — n. 3. Gr. I.
+Welches aber unmöglich n. 9. Gr. I.
 
-### Beschluß.
+<!-- Signature: T 2 -->
 
-Muß also allezeit der durch beede Mittel-Düpffele cf oder ba, derer einander anrührenden Kreyse gezogene gerade Strich/wen̄ er verlängert wird/auff den Anrührungs-Düttel a oder c stossen. W. Z. B.
-
-## Der XII. Vortrag.
-
-## Das 11. Beweiß-Stück.
-
-Wann zweene Kreyse einander von aussen anrühren/so wird der gerade Strich/ welcher durch solcher Kreyse Mittel-Düpffele gezogen wird / durch den Anrührungs-Düttel gehen.
-
-<!-- Catchword: Ge- -->
+<!-- Catchword: II. Be- -->

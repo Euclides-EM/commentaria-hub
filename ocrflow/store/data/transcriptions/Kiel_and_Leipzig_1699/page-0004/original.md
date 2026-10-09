@@ -1,17 +1,7 @@
-<!-- Running title: Vorrede. -->
+[Ornament: Putten bei geometrischen Arbeiten mit Winkelmaß, Zirkel und Zeichengerät]
 
-zulänglich sind / so habe ich dahero selbige mit etlichen Zusätzen zu vermehren und zu erläutern für nöthig und nützlich erachtet.
+# Vorrede an den geneigten Leser.
 
-Ob ich nun gleich denen XII. Grundsätzen allbereit XVII. Nebensätze beygefüget/ so habe nach der Zeit doch noch etliche gefunden / welche man nicht wol entrathen kan / deßwegen ich sie hiernach setzen wollen.
+ES haben unterschiedliche Mathematici die sechs ersten Bücher Euclidis in Teutscher Sprache heraus gegeben/ daß man vermeynen möchte/ ich hätte dieser Arbeit wol überhoben seyn können. Weil ich aber fast 40. Jahre mit diesen Büchern ümgangen/ und/ indem ich andere darinne unterwiesen/ befunden habe/ daß die Außleger die Beweis-Art darum nicht deutlich genug vorstellen können/ weil die Grundsätze (axiomata) mehrentheils un-
 
-## Als zu dem I. Grundsatz gehöret:
-
-(dd) Wenn eins (a) von zwey gleichmässigen Dingen (a und b) nicht kleiner ist/ als das dritte (c), so ist das andere (b) auch nicht kleiner/ als das dritte (c).
-
-[Diagram: je drei mit a, b, c bezeichnete Strecken in zwei Spalten]
-
-## Zu dem III. Grundsatz:
-
-(ff) Wenn man von zweyen gleichmässi-
-
-<!-- Catchword: gen -->
+<!-- Catchword: ge- -->

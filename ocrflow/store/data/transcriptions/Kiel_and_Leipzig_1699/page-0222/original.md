@@ -1,42 +1,28 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 206 -->
+<!-- Page number: 205 -->
 
-### Vorbereitung.
+## Der III. Vortrag.
 
-Aus dem Mittel-Düpffel b werde zu dem einen Winckel g ein gerader Strich bg gezogen.
+## Das 3. Werck-Stück.
 
-### I. Beweiß.
+Umb einen gegebenen Kreyß ein DreyEck/welches dem gegebenen DreyEck gleichwincklicht sey/ zubeschreiben.
 
-beg + bcg ∧ ⌓ n. 18. III.
-Dw. ebg + egb ∧ ∟ }
-und cbg + cgb ∧ ∟ } n. 32. I.
-Dw. ebg + ebg + cbg + cgb ∧ ⌓ n. 2. Gr. I.
-a. oder ebc + egc ∧ ⌓ n. 9. Gr. q. I.
-kim + mil ∧ ⌓ n. 13. I.
-Dw. kim + mil ∧ ebc + egc n. 1. und 10. Gr. I.
-mil ∧ ebc n. 1. Wirck.
-Dw. kim ∧ egc n. 3. Gr. I.
+### Gegebene. Begehrte.
 
-### II. Beweiß.
+1. Kreyß edc. 1. △ afg gleichwincklicht △ ikm.
+2. Drey Eck ikm. 2. Umb den gegebenen O umbgeschrieben.
 
-bda + acb ∧ ⌓ n. 18. III.
-dac + dbc ∧ ⌓ n. 32. I. a.
-hkm + mki ∧ ⌓ n. 13. I.
-Dw. hkm + mki ∧ dac + dbc n. 1. u. 10. Gr. I.
-hkm ∧ dbc n. 4. Wirck.
-Dw. mki ∧ dac n. 3. Gr. I.
+[Diagram: Kreis mit Mittelpunkt b und Düttelen c, d, e; umbeschriebenes Dreyeck afg mit Rührstrichen; rechts daneben Dreyeck ikm auf der Grundlinie l–i–k–h mit punktierten Halbkreisbögen]
 
-### III. Beweiß.
+### Wirckung.
 
-a + g + f ∧ ⌓ }
-i + k + m ∧ ⌓ } n. 32. I.
-Dw. i + k + m ∧ a + g + f n. 1. u. 10. Gr. I.
-i + k ∧ a + g n. 1. u. 2. Bew.
-Dw. kmi ∧ afg n. 3. Gr. I.
+1. Des gegebenen △ ikm Grundstrich ik werde auff beeden Seiten nohtdürfftig verlänget gegen h und l.
+2. Werde in dem O der Strahl cb gezogen.
+3. An dem Mittel-Düpffel b auff den Strahl eb werde der Winckel cbe ∧ mil.
+4. Und auff die andere Seite der Winckel cbd ∧ mkh gesetzt. n 23. I.
+5. An die Düttele c, d, e werden Rührstriche ca, cg, eg, ef, df, da, gezogen. n. 17. III.
 
-### Beschluß.
+<!-- Signature: Cc 3 -->
 
-Ist also das △ afg gleichwincklicht mit △ imk, und ümb den gegebenen Kreyß cde beschrieben. n. 4. Beschr. IV. W. Z. M.
-
-<!-- Catchword: Der -->
+<!-- Catchword: Vor- -->

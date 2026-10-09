@@ -1,44 +1,35 @@
-<!-- Page number: 339 -->
+<!-- Page number: 338 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-### Beweiß.
+## Der XII. Vortrag.
 
-|  |  |  |
-|---|---|---|
-|  | bc ⊤ de | n. 7. Wirck. |
-| Dw. | ab : bd ⊤ ac : ce | n 2. VI. |
-| und | ab : ac ⊤ bd : ce | n. 16. V. |
-| oder | AB : AC ⊤ BD : ce | n. Anh. 7. V. |
+## Das 4. Werck-Stück.
 
-Dw. der Strich ce der vierte ebenmässige Strich.
-
-### Beschluß.
-
-Ist also zu den drey gegebenen Strichen AB, AC, AD der vierte ebenmässige Strich ce gefunden. W. Z. M.
-
-## Der XIII. Vortrag.
-
-## Das 5. Werck-Stück.
-
-Zu zweyen gegebenen geraden Strichen einen mitlern ebenmässigen (mediam proportionalem) Strich zu finden.
+Zu dreyen geraden Strichen den Vierten ebenmässigen geraden Strich zu finden.
 
 ### Gegebene.
 
-1. Der Strich AD
-2. CD
+1. Der Strich AB
+2. AC
+3. BD
 
-### Begehrte.
+### Begehrtes.
 
-1. Der Strich db
-2. AD : db ⊤ db : CD.
+Vierte ebenmässige Strich ce
 
-[Diagram: Striche A—D und C—D; darunter ein Halbkreis über der Grundlinie a d g e mit Scheitelpunkt b und Strichen von a und e nach b]
+AB : AC ⊤ BD : ce.
+
+[Diagram: Striche A—B und A—B—D—C mit g; darunter ein Winkel aus a mit den Punkten c, e oben und b, d, f auf dem unteren Schenkel]
 
 ### Wirckung.
 
-1. Werde gezogen der Strich ae.
+1. Werde ein gerader Strich af gezogen.
+2. Von welchem abgeschnitten werden ab ⊤ AB
+3. Und bd ⊤ BD   n. 3. I.
+4. Aus a wird nach belibigem Winckel der Strich ag gezogen.
+5. Von welchem ac ⊤ AC abgeschnitten wird. n. 3. I.
+6. Werde der gerade Strich bc,
+7. Und gegen diesen Strich bc aus d der gerade Nebenstrich de gezogen. n. 31. I.
 
-<!-- Signature: Uu 2 -->
-
-<!-- Catchword: 2. auf -->
+<!-- Catchword: Beweiß. -->

@@ -1,41 +1,40 @@
-<!-- Running title: Euclidis -->
+<!-- Page number: 122 -->
 
-<!-- Page number: 123 -->
+<!-- Running title: Das II. Buch -->
 
-c | cb
-d | bd
-f | cd
-e | ad
+□ ac | □ ad + □ cd
+□ ac + □ ab + (□ ad + □ cd) | 2 ▭ bad + □ bd + □ cd + (□ ad + □ cd) | n. 47. I.
+n. 2. Gr. I.
+□ ac + □ ab | 2 ▭ bad + □ bd + □ cd n. 3 Gr. I
+□ bd + □ cd | □ cb n. 74. I.
+□ ac + □ ab + (□ bd + □ cd) | 2 ▭ bad + (□ bd + □ cd) + □ cb
+□ ac + □ ab | 2 ▭ bad + □ cb
+2 ▭ bad | 2 ▭ bad
+□ ac + □ ab — 2 ▭ bad | □ cb | n. 3. Gr. I.
+
+### Auff eine andere Arth.
+
+### Begehrtes.
+
+□ ca | □ ab — 2 ▭ abd + □ cb
 
 ### Beweiß.
 
-2be + dd | bb + ee | n. 7. II.
-ff | ff
-2be + dd + ff | bb + ee + ff | n. 2. Gr. I.
-ee + ff | aa n. 47. I.
-2be + dd + ff + (ee + ff) | bb (+ ee + ff) + aa | n. 2. Gr. I.
-2be + dd + ff | bb + aa | n. 3. Gr. I.
-cc | dd + ff n. 47. I.
-2be (+ dd + ff) + cc | bb + aa (+ dd + ff) | n. 2. Gr. I.
-2be + cc | bb + aa
-2be | 2be
-cc | bb + aa + — 2be | n. 3. Gr. I.
+cda | ∟
+Dw. □ ca | □ ab — 2 ▭ abd + □ bd + □ cd
+und □ bd + □ cd | □ cb | n. 47. I.
+□ ca (+ □ bd + □ cd) | □ ab — 2 ▭ abd (+ □ bd + □ cd) + □ cb n. 2. Gr. I.
+Dw. □ ca | □ ab — 2 ▭ abd + □ cb n. 3. Gr. I.
 
-W. Z. B.
+### Beschluß.
 
-### Andere Arth.
+Wird also in jedwedem spitzwincklichten △ das □ der dem spitzigen ∠ b übergespanneten Seite ca so viel kleiner seyn / denn der beeden übrigen/ den spitzigen ∠ b begreiffenden Seiten ab und cb, ihre □ □, als das ▭ der Seite ab und des Stückes bd, so der aus dem ∠ c gezogene Senckstrich cd auff der Seite des ∠ b abgeschneidet. W. Z. B
 
-aa | ff + bb — 2bd + dd | n. 47. I.
-ff + dd | cc
-aa (+ ff + dd) | (ff) + bb — 2bd (+ dd) + cc | n. 2. Gr. I.
-aa | bb — 2bd + cc | n. 3. Gr. I.
+### Nach der Löß-Kunst.
 
-W. Z. B.
+### Gegebene. | Begehrtes.
 
-### Anmerckung.
+a | ac | cc | bb + aa — [unclear: 2ba]
+b | ab
 
-Dieser Beweiß findet auch auff gewisse Maaß statt bey den recht-und stumpffwincklichten △ △ / wenn man das □ einer Seite/ so einem spitzigen Winckel übergespannet ist / vergleichen wil mit den übrigen beeden Seiten / deren eine dem rechten oder stumpffen Winckel / die andere aber dem übrigen spitzigen Winckel gegenüber stehet.
-
-<!-- Signature: Q 2 -->
-
-<!-- Catchword: Der -->
+<!-- Catchword: ccb -->

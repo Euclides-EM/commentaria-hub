@@ -1,38 +1,25 @@
-<!-- Page number: 130 -->
+<!-- Page number: 129 -->
 
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-### Wirckung.
+[Diagram: zwey ähnliche Kreyßstücke nebst einem flachen Bogen]
 
-1. Man ziehe von dem Düttel b biß zu dem Düttel c einen geraden Strich bc.
+Also werden auch gleichgestalte Bogen (arcus similes genennet/ auff welchen gleich-grosse Winckel stehen.
 
-2. Dieser Strich bc werde in zween gleiche Theile getheilet in e. n. 10. I.
+[Diagram: Kreis mit einbeschriebenem Winckel und kleinerem Kreise darinnen]
 
-3. Durch diesen Düttel e, werde von einem Ende des Kreyses biß zum andern ein gerader Senck-Strich gh gezogen. n. 11. I.
+## Der I. Vortrag.
 
-4. Dieser Strich gh werde in zween gleiche Theile geschnitten in a. n. 10. I.
+## Das 1. Werck-Stück:
 
-### Beweiß.
+Eines gegebenen Kreyses Mitteldüpffel zu finden.
 
-Wenn der Düttel a nicht der Mittel-Düpffel ist/ so lasse man d den Mittel-Düpffel seyn.
+### Gegebenes. — Begehrtes.
 
-### Vorbereitung.
+Der Kreyß bhc. — Mittel-Düpffel a.
 
-1. Aus den beeden Enden des Striches bc ziehe man zu dem angenommenem Mittel-Düpffel d zween gerade Striche bd und cd.
+[Diagram: Kreis mit Düpffeln g (oben), b (links), e (Mitte), c (rechts), h (unten), darinnen a, d, f, mit punktierten Strichen von b und c nach d]
 
-2. Aus dem Düttel e, wo die beeden Striche bc und gh einander durchschneiden / ziehe man auch den Strich ed.
+<!-- Signature: R -->
 
-### Verfolg des Beweises.
-
-db | dc — n. 15. Beschr. I.
-de | de
-db ✠ de | dc ✠ de — n. 2. Gr. I.
-be | ce — n. 2. Vorber.
-Dw: bed ⋏ ced — n. 8. I.
-und bed ⋏ | ∟ — n. 10. Beschr. I.
-bea ⋏ | ∟ — n. 3 Vorber.
-Dw. bea ⋏ bed — n. 10. Gr. I.
-
-Welches aber nicht seyn kan/ nach 9. Grundsatz. I.
-
-<!-- Catchword: Wolte -->
+<!-- Catchword: Wirckung. -->

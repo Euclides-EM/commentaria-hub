@@ -1,28 +1,27 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 144 -->
+<!-- Page number: 143 -->
 
-### Gegebene. — Begehrtes.
+ab + bn | ab + bm — n. 15. Beschr. I.
+abn ⋀ abm — n. 9. Gr. I.
+Dw. an ⊣ am — n. 24. I.
 
-1. Der Kreyß bcf.
-2. Düttel a in solchem Kreyß.
-3. Drey gerade Striche von diesem Düttel a zum Umfang gezogen/
-4. Welche gleich lang sind ab | ac | ad
+ab + be | ab + bd — n. 15. Beschr. I. u. n. 2. Gr. I.
+abe ⋀ abd — n. 9. Gr. I.
+Dw. ae ⊢ ad — n. 24. I.
 
-a Der Mittel-Düpffel dieses Kreyses. bcf
+ab + bL | ab + bl — n. 15. Beschr. I. u. n. 2. Gr. I.
+abL ⋀ abl — n. 2. Vorber.
+Dw. aL | al — n. 4. I.
 
-### Vorbereitung.
+### Beschluß.
 
-1. Ziehe man die geraden Striche cb und cd.
-2. Theile man dieser Striche jedweden in zween gleiche Theil/
-n. 10. I.
-3. Durch beyder Striche Mittel/ nemlich m und n, werden gerade Senckstriche kh und ef gezogen / n. 11. I.
+Werden demnach allemal die beeden/von dem äussersten Düttel a, nach und durch den Mittel-Düpffel b, gezogene Striche af am kürtzesten/ und ao am längsten seyn. Diejenigen/so zum nechsten inwendig in den Kreyß fallen/ als an, grösser / die so weiter von ao stehen / als am, werden kleiner seyn. Welche aber außwendig den Kreyß berühren / und näher an af stehen / werden kürtzer / und die / so weiter davon / länger seyn. Diejenigen Striche aber / welche von af oder ao gleichweit seitwerts abstehen / als aL und al werden gleichlang seyn. W. Z. B.
 
-[Diagram: Kreis mit den Punkten h oben, b links oben, e links, c links unten, k unten, d rechts unten und f rechts; im Innern der Düttel a, die Mittel m und n, mit teils punktierten Strichen verbunden]
+## Der IX. Vortrag.
 
-### I. Beweiß.
+## Das 8. Beweiß-Stück.
 
-Wolte man sagen/nicht a, sondern ein anderer Düttel were der Mittel-Düpffel/ so würde folgen / daß mehr/ als zween gleichlange Striche aus einem Düttel / so doch nicht der Mittel Düpffel ist / könten zum Umfang gezogen werden / welches aber unmöglich/
-n. 7. III.
+Wenn man in einem Kreyß einen Düttel findet / von welchem mehr / als zween gleichlange Striche zum Umfang können gezogen werden / so wird selbiger der Mittel-Düpffel des Kreyses seyn.
 
-<!-- Catchword: II. Be- -->
+<!-- Catchword: Ge- -->

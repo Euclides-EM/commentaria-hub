@@ -1,35 +1,36 @@
-<!-- Page number: 75 -->
+<!-- Page number: 74 -->
 
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
+
+Gleiche Bewandniß hat es / wenn man den Nebenstrich durch G ziehen wolte.
 
 ### Beschluß.
 
-Wird dannenhero allezeit das □ , so mit einem △ auff einem Grundstrich / und zwischen einerley Nebenstrichen stehet/ doppelt so groß/als das △ seyn. W. Z. B.
+Müssen also alle gleichgrosse △ △ , so auff gleichlangen Grundstrichen gleichmäßig stehen/ auch zwischen einerley Nebenstrichen stehen. W. Z. B.
 
-## Der XLII. Vortrag.
+## Der XLI. Vortrag.
 
-## Das 11. Werck-Stück.
+## Das 31. Beweiß-Stück.
 
-Einem gegebenen Dreyeck/ nach dem gegebenen Winckel/ ein gleichhaltiges Viereck zu machen.
+Wenn ein Nebenstrichiches Viereck mit einem Dreyeck auff einem einigen Grundstrich stehet / und sich zwischen einerley Nebenstrichen befinden; so ist das Viereck noch eins so groß/als das Dreyeck.
 
-### Gegebene. | Begerthe.
-1. △ ABC | 1. □ CEFG
-2. ∧ D | 2. □ CEFG | △ ABC
-| 3. ECG ⋀ D
+### Gegebene. | Begehrtes.
+1. □ ABDE | □ ABDE | 2 △ ABC.
+2. △ ABC
+3. Gemeiner Grundstrich AB
+4. EC = AB
+5. Zwischen welchen □ und △ stehen.
 
-[Diagram: Dreyeck und Viereck auff dem Grundstrich mit den Puncten G, F, A oben und C, E, B unten, daneben der Winckel D]
-
-### Wirckung.
-
-1. Durch denn Gipffel des △ werde dem Grundstrich gegen über/ der Nebenstrich GA gezogen / nach 31. Vortr.
-2. Der Grundstrich BC werde in zwey gleiche Theile geschnitten in E, nach 10. Vortr.
-3. Auff des Grundstrichs Enddüttel E setze man den Winckel ECG ⋀ D, nach 23. Vortr.
-4. Aus E ziehe man EF ⟛ CG nach 31. Vortr.
+[Diagram: Viereck mit den Puncten C, D, E oben und B, A unten, mit gezogenen und punctirten Strichen]
 
 ### Vorbereitung.
 
-Aus E werde ein gerader Strich EA nach dem Gipffel A gezogen.
+Man ziehe den Zwerg-Strich AD
 
-<!-- Signature: K 2 -->
+### Beweiß.
 
-<!-- Catchword: Beweiß -->
+□ ABDE | 2 △ ABD n. 34. Vortr.
+ABC ⩓ ABD n. 37. Vortr.
+Drw. □ ABDE | 2 △ ABC n. 6. Grund:S. k.
+
+<!-- Catchword: Beschluß. -->

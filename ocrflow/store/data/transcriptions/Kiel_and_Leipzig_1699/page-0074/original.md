@@ -1,32 +1,39 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 58 -->
+<!-- Page number: 57 -->
 
-nommene; Wie auch den auswendigen dem inwendig entgegen stehenden ; Und die beeden inwendig auff einer Seiten befindliche Winckele gleich groß.
+[Diagram: Zwei sich schneidende Striche mit den Dütteln G, M, B, D, E, F, K, I, A, H, C; der einfallende Strich IK senkrecht]
 
-### Gegebene.                    Begehrte.
-1. AB = CD                   1. AGH ⋏ GHD
-2. Einfallender Strich EF    2. BGH ⋏ GHC
-                             3. EGB ⋏ GHD
-                             4. BGH + GHD ⋏ ⏥
+### Beweiß.
 
-[Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
+1. Entweder sind        AB — DC.
+2. oder lauffen zusammen in H.
+3. oder  -  -  -  -  in G.
 
-### Beweiß des 1. und 2.
+### Vorbereitung.
 
-Entweder ist  AGH ⊼ GHD
-        oder  AGH ⊼ GHD
-        oder  AGH ⋏ GHD
+Wann AB = DC so setze man auff E
+einen Winckel IEM ⋏ EFD n. 23. Vortr.
 
-Wenn AGH           ⊼ GHD nach Angenommenem
-              BGH ⋏           BGH
-Dw.   AGH + BGH ⊼ GHD + BGH   n. 4. Gr-S.
-      AGH + BGH ⋏ ⏥            n. 13. Vortr.
-Dw.   GHD + BGH ⊼ ⏥            n.1. Gr-S. c.
+### Verfolg des Beweises.
 
-und werden AB und CD in der gegend B zusammen kommen nach dem Vorsatz (per Lemma) weßwegen sie keine neben-Striche stehen können nach 34. Beschr. welches aber wieder 1. Gegeb.
-Gleiche Bewandniß hat es/ wenn man sagen wolte/es were
-        AGH ⊼ GHD :
-α. muß also nohtwendig   AGH ⋏ GHD.
+        IEM ⋏ EFD  n. 1. Vorbereit.
+        BEF ⋏ EFD  n. 1. Angen. uñ 28. Vortr.
+Dw. BEF ⋏ IEM  n. 1. Gr-S.
+Welches aber unmöglich n. 9. Gr-S.
 
-<!-- Catchword: Be- -->
+Wann aber die beeden Striche BA und DC in dem Düttel H zusammen kommen / so werden in dem △ EHF zween Winckel HEF + HFE ⋏ ⏥, welches unmüglich / nach 17. Vortr. müssen also die beeden Striche in G zusammen kommen.
+
+### Beschluß.
+
+Wenn derwegen bey den beeden Strichen der einfallende Strich auff einer Seiten zween Winckel/ so kleiner als ⏥, machet so müssen solche Striche auff selbiger Seite/wo die kleinere Winckel stehen/ zusammen kommen. W. Z. B.
+
+## Der XXIX. Vortrag.
+
+## Das 20. Beweiß Stück.
+
+Der auff zween gerade neben-Striche einfallende gerade Strich machet die wechsel-weiß ge-
+
+<!-- Signature: H -->
+
+<!-- Catchword: nom- -->

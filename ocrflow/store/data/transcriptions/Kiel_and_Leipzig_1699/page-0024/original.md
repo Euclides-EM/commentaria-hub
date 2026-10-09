@@ -1,21 +1,21 @@
 <!-- Running title: Definitiones. -->
 
-<!-- Page number: 8 -->
+<!-- Page number: 7 -->
 
-XXXII. Eine länglichte Raute ( Rhomboides ) hat zwar die gegen einander überstehende Seiten und Winckel unter sich gleich/im übrigen aber ist sie weder gleichseitig/ noch auch gleichwincklicht.
+XXIIX. Ein Spitzwincklichtes Drey-Eck ( Oxygonium vel acutangulum) ist / welches lauter spitzige Winckel hat.
 
-[Diagram: ein schiefwinkliges Parallelogramm (länglichte Raute)]
+[Diagram: drei spitzwinklige Dreiecke auf einer gemeinsamen Grundlinie, mit den Buchstaben a, d, f oben und b, c, e, g unten]
 
-XXXIII. Alle übrige Vierecke werden ungeschickte Vierungen (Trapezia) genennet.
+XXIX. Ein gleichseitig und gleichwincklicht Vier-Eck (Quadratum ) ist / welches vier gleiche Seiten/ und auch vier gleiche Winckel hat.
 
-[Diagram: drei unregelmäßige Vierecke (Trapeze)]
+[Diagram: ein Quadrat]
 
-XXXIV. Gerade Neben-Striche (Parallelæ lineæ) sind/ welche auff einer ebenen Fläche ohne auffhören neben einander können verlängert werden/niemals aber zusammen stossen.
+XXX. Ein länglicht Vier-Eck ist zwar recht-wincklicht/ hat aber ungleiche Seiten.
 
-[Diagram: zwei parallele punktierte gerade Linien]
+[Diagram: zwei Rechtecke, ein breites liegendes und ein hochstehendes]
 
-XXXV. Füll-Flächen oder Füll-Münde (Complementa DE & EC) sind zwey Vierecke / durch welche der Zwerg-Strich ( Diagonius vel diameter AB ) der grossen viereckigten Gestalt ACBD, welche in vier Theile getheilet ist/ nicht durchgehet. Die beeden übrigen Vierecke werden umb den Zwerg-Strich stehende Vierecke genennet.
+XXXI. Eine Raute oder geschoben Viereck (Rhombus) hat zwar vier gleiche Seiten/ ist aber nicht recht-wincklicht.
 
-[Diagram: Parallelogramm ACBD mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Diagonale und Teilungslinien]
+[Diagram: zwei Rauten, ein schief liegendes Parallelogramm mit gleichen Seiten und eine aufrecht stehende Raute]
 
-<!-- Catchword: Fo- -->
+<!-- Catchword: XXXII -->

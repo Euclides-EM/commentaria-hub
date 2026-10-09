@@ -1,39 +1,45 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 268 -->
-
-## Der XVI. Vortrag.
-
-## Das 16. Beweiß-Stück.
-
-Vier Ebenmässige Grössen sind auch wechselweiß genommen Ebenmässig.
+<!-- Page number: 267 -->
 
 ### Gegebene. | Begehrtes.
 
-A ____________
-B ________ | A : a | B : b
 a ____
-b __
+b ______ | a : b | A : B.
+A __c__d__e__f__
+B __g__h__i__k__
 
-[Diagram: Strecken A, B, a, b]
+[Diagram: Strecken a, b; Strecke A in Theile c, d, e, f getheilet; Strecke B in Theile g, h, i, k getheilet]
 
-A : B | a : b
-A | 4a
-B | 4b
+4a | A
+4a | B
+
+### Vorbereitung.
+
+1. Es werde A in vier gleiche Theile getheilet/ daß c | a, d | a, e | a und f | a, n. 3. I.
+2. Auch werde B also getheilet/ daß g | b, h | b, i | b, und k | b, werde. n. 3. I.
 
 ### Beweiß.
 
-A | 4a
-B | 4b — n Gegeb.
-Dw. A : B | 4a : 4b — n. Anh. 7. V.
-4a ⁘ a | 4b : b — n. 7. Besch. V.
-4a ⁘ a | A : a — n. 7. V.
-Dw. A ⁘ a | 4b : b — n. 11. V.
-B : b | 4b : b — n. 7. V.
-Dw. A : a | B : b — n. 11. V.
+a | c | d | e | f — n. 1.
+b | g | h | i | k — n. 2. Vorb.
+
+Dw. c ⁘ g
+d ⁘ h | a : b — n. Anh. 7. V.
+e ⁘ i
+f ⁘ k
+
+und c + d + e + f : g + h + i + k | a : b — n. 12. V.
+c + d + e + f | A — n. 9. Gr. q. I.
+Dw. c + d + e + f : g + h + i + k | A : g + h + i + k, n. 7. V.
+g + h + i + k | B — n. 9. Gr. q. I.
+Dw. c + d + e + f : g + h + i + k | A : B — n. Anh. 7. V.
+und a : b | A : B — n. 11. V.
 
 ### Beschluß.
 
-Werden derowegen Ebenmässige Grössen auch wechselweiß genommen Ebenmässig seyn. W. Z. B.
+Müssen also allezeit die Theile sich also / wie die vielfache Gantzen zu einander verhalten/ W. Z. B.
+
+<!-- Signature: Ll 2 -->
 
 <!-- Catchword: Der -->

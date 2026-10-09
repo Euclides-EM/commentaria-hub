@@ -1,31 +1,29 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 23 -->
+<!-- Page number: 22 -->
 
-DA + AC | EA + AB nach 2. Gr.S.
-DAC ⋏ EAB nach 8. Gr.S.
-Dw. DC | EB
-α. und ADC ⋏ AEB } alles nach 4. Vortr.
-β. und ABE ⋏ ACD
+Strich/ bey den verlängeten Seiten-Strichen befindliche Winckel/einer dem andern gleich.
 
-BD + DC | CE + EB nach 2. Vortr.
-BDC ⋏ CEB nach Beweiß α.
-δ. Dw. BCD ⋏ CBE
-γ. und BCE ⋏ CBD } alles nach 4 Vortr.
+### Gegebene. | Begehrte.
 
-ABE ⋏ ACD nach Bew. β
-CBE ⋏ BCD nach Bew. δ
-ABE — CBE ⋏ ACD — BCD nach 3. Gr.S.
-ε. oder ABC ⋏ ACB.
+1. Gleichschenckliches △ ABC | 1. ABC ⋏ ACB
+2. AB | AC | 2. BCE ⋏ CBD
+3. Die verlängte schenckel BD und CE.
 
-### Beschluß.
+### Vorbereitung.
 
-Sind also in dem gleich-schencklichten △ ABC die beeden Winckel auff dem Gr. Strich. ABC ⋏ ACD ε, wie auch unter dem Grund-Strich BCE ⋏ CBD. γ. W. Z. B.
+1. Es werde gemacht BD | CE nach 3. Vortrag.
+2. Werde gezogen der Strich BE
+3. Deßgleichen CD
 
-## Der VI. Vortrag.
+[Diagram: zwey gleichschencklige Dreyecke ABC mit verlängten Schenckeln bis D und E, dazu punktierte Striche BE und CD]
 
-## Das 3. Beweiß-Stück.
+### Beweiß.
 
-Wenn in einem △ zweene Winckel/ jedweder jedwedem absonderlich/gleich sind/so sind auch diejenigen Seiten/welche solchen beeden Winckeln gegen überstehen / von gleicher Grösse.
+BD | CE nach 3. Vortr.
+AB | AC nach 2. Gegebenem
+Dw. AB + BD | AC + CE nach 2. Grund-S.
+oder DA | EA nach 9. GrS.
+AC | AB nach 2. Gegeb.
 
-<!-- Catchword: Gege- -->
+<!-- Catchword: DA -->

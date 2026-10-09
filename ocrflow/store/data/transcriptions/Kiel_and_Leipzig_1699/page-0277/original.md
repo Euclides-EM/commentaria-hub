@@ -1,35 +1,42 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 261 -->
+<!-- Page number: 260 -->
 
-A ____________
-4a ____________
-B ____________
-4b ____________
-
-[Diagram: Strecken A, 4a, B, 4b]
+### I. Beweiß.
 
 A | 3a — n. Gegeb.
-4a ⊣ 3a — n. 9. Gr. I.
-ε Dw. A ⊢ 4a — n. 1. Gr. d. I.
-B | 3b — n. Geg.
-4b ⊣ 3b — n. 9. Gr. I.
-ζ Dw. B ⊢ 4b — n. 1. Gr. d. I.
+2A | 6a — n. 6. Gr. i. I.
+6a ⊣ 4a — n. 9. Gr. I.
+[unclear: α] Dw. 2A ⊣ 4a — n. 1. Gr. c. I.
+B | 3b — n. Gegeb.
+2B | 6b — n. 6. Gr. i. I.
+6b ⊣ 4b — n. 9. Gr. I.
+β Dw. 2B ⊣ 4b — n. 1. Gr. c. I.
 
-Weil nun I. die Vervielfältigungen der Grössen A u. B. grösser/ als die Vervielfältigungen der Grössen a u. b. n. I. Bew. α. und β. II. die Vervielfältigten A und B gleichgroß denen Vervielfältigten a und b, n. Bw. γ u. δ III. Die Vervielfältigungen A u. B kleiner/ als die Vervielfältigung a u. b, n. III. Bew. ε u. ζ.
+### Vorbereitung.
 
-Dw. müssen auch A : a | B : b — n. 6. Besch. V.
+Man nehme 1. A und B jedwedes einmahl/
+Darnach 2. Die Grössen a und b jedwede dreymahl.
 
-### Beschluß.
+A ____________
+3a ____________
+B ____________
+3b ____________
 
-Wenn derowegen etliche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind/ so sind solche Verhältnüsse auch unter sich selbst gleichhaltig. W. Z. B.
+[Diagram: Strecken A, 3a, B, 3b]
 
-## Der XII. Vortrag.
+### II. Beweiß.
 
-## Das 12. Beweiß-Stück.
+A | 3a — n. Gegeb.
+3a | 3a — n. Vorber.
+γ Dw. A | 3a — n. 1. Gr. I.
+B | 3b — n Geg.
+3b | 3b — n. Vorber.
+δ Dw. B | 3b — n. 1. Gr. I.
 
-Wenn man etliche ebenmässige (und zwar so viel man deren wil) Grössen hat/ so werden/ wie sich eine Vorgehende zu ihrer Nachgehenden hält/ auch alle Vorgehende zusammen genommen zu allen Nachgehenden zusammen verhalten.
+### Vorbereitung.
 
-<!-- Signature: Kk 3 -->
+Man nehme 1. A und B jedwedes einmahl/
+Darnach 2. die Grössen a und b jedwedes viermahl.
 
-<!-- Catchword: Gegebene. -->
+<!-- Catchword: A— -->

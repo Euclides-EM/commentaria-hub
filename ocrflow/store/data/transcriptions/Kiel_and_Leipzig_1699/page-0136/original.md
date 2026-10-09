@@ -1,36 +1,30 @@
-<!-- Page number: 120 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das II. Buch -->
+<!-- Page number: 119 -->
 
-### Beschluß.
+mal genommene Vier-Eck/ welches von der einen Seite/ und von dieser Seiten Verlängung biß zum Senckstrich / so aus dem Ende der andern Seite auff solche Verlängung fället/ gemacht wird.
 
-Wird also allezeit das □ der Seite ac, welche dem stumpffen Winckel abc gegen-über stehet/ grösser seyn / als die beeden Vierecke derer andern Seiten ab und bc, welche den stumpffen Winckel begreiffen / und zwar so viel/ als das 2 ▭, welches von der Verlängerung bd der einen Seite ab, biß zum Senckstrich cd, so aus dem Ende c der andern Seite bc, auff diese Verlängung bd fället/ und von der Seiten ab selbst gemacht wird. W. Z. B.
+### Gegebene. | Begehrte.
 
-### Nach der Löse-Kunst.
+1. Stumpffwincklicht △ abc. | □ ac ) □ ab + 2 ▭ abd + 2 □ bc.
+2. Verlängte Seite ab biß d.
+3. Verlängung bd.
+4. Senckstrich cd.
 
-### Gegebenes. | Begehrtes.
-
-1. a | ac | aa | bb ✠ 2be ✠ cc.
-2. b | ab
-3. c | bc
-4. d | ad
-5. e | bd
-6. f | cd
-7. d | b ✠ e
-8. adc | ∟
+[Diagram: stumpfwinkliges Dreieck a b c; die Grundlinie ab ist punktiert bis d verlängert, von c fällt ein punktierter Senkstrich auf d]
 
 ### Beweiß.
 
-adc | ∟ | n. 8. Geg.
-Dw. aa | dd ✠ ff | n. 47. I.
-d | b ✠ e
-dd | bb ✠ 2be + ee | n. 4. I.
-dd ✠ aa | bb ✠ 2be + ee + dd ✠ ff | n. 2. Gr. I.
-dd | dd
-aa | bb ✠ 2be + ee + ff | n. 3 Gr. I.
-ee ✠ ff | cc | n. 47. I.
-ee ✠ ff ✠ aa | bb ✠ 2be + ee + ff ✠ cc | n. 2. Gr. I.
-ee ✠ ff | ee ✠ ff
-aa | bb ✠ 2be + cc | n. 3. Gr. I. W Z. B.
+adc | ∟ | n. 3. Gegeb.
+Dw. □ ac | □ ad + □ cd n. 47. I.
+ad | ab + bd
+□ ad | □ ab + 2 ▭ abd + □ bd n. 4. II.
+□ ad + □ ac | □ ab + 2 ▭ abd + □ bd + □ ad + □ cd n. 2 Gr. 1.
+□ ad | □ ad
+□ ac | □ ab + 2 ▭ abd + □ bd + □ cd | n. 3. Gr. I.
+□ bd + □ cd | □ cb n. 47. I.
+□ bd + □ cd + □ ac | □ ab + 2 ▭ abd + □ bd + □ cd + □ cb | n 2 Gr. I.
+□ bd + □ cd | □ bd + □ cd
+□ ac | □ ab + 2 ▭ abd + □ cb | n. 3. Gr. I.
 
-<!-- Catchword: Der -->
+<!-- Catchword: Beschluß. -->

@@ -1,34 +1,15 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 298 -->
+<!-- Page number: 297 -->
 
-### Gegebene.
+### Beschluß.
+Wenn derowegen das Gantze zu dem Gantzen eine grössere Verhältnüß / als das Abgeschnittene zu dem Abgeschnittenen hat; So hat das Ubergebliebene zu dem Ubergebliebenen eine grössere Verhältnüß / als das Gantze zu dem Gantzen. W. Z. B.
 
-[Diagram: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]
+## Der XXXIV. Vortrag.
+## Das 34. Beweiß-Stück.
 
-A : a ⊣ B : b ⊣ C : c.
+Wenn man in beliebiger Menge unterschiedliche Grössen nimmet / und eben so viel andere Grössen darzu kommen / alsdann die Erste der ersten Ahrt / zu der Ersten der andern Ahrt eine grössere Verhältnüß hat / als die Andere der ersten Ahrt / zu der Andern der andern Ahrt / gleicher Gestalt die Andere von den Ersten / zu der Andern von der andern Ahrt eine grössere Verhältnüß / als die Dritte von den Ersten / zu der dritten von den Andern hat / und so fortan: So werden alle Grössen erster Ahrt zusammen / zu allen Grössen anderer Ahrt zusammen eine grössere Verhältnüß / als der ersten Ahrt Grössen / ohne ihre Erste / zu der andern Ahrt Grössen / auch ohne ihre Erste haben. Die ersten Grössen alle zusammen / werden zu denen andern Grössen allen zusammen / eine kleinere Verhältnüß / als die Erste der ersten Ahrt zu der Ersten der andern Ahrt haben. Sie werden endlich eine grössere Verhältnüß / als die Letzte der ersten Ahrt / zu der Letzten der andern Ahrt haben.
 
-### Begehrtes.
+<!-- Signature: Pp -->
 
-a A + B + C : a + b + c ⊣ B + C : b + c
-d A + B + C : a + b + c ⊢ A : a
-n A + B + C : a + b + c ⊣ C : c
-
-### Beweiß.
-
-|  |  |  |  |
-|---|---|---|---|
-|  | A : a | ⊣ B : b | n. Gegeb. |
-|  | A : B | ⊣ a : b | n. 27. V. |
-|  | A + B : B | ⊣ a + b : b | n. 28. V. |
-| a | A + B : a + b | ⊣ B : b | n. 33. V. |
-| ß | A : a | ⊣ A + B : a + b | n. 33. V. |
-|  | B : b | ⊣ C : c | n. Geg. |
-| Dw. | B : C | ⊣ b : c | n. 27. V. |
-| u. | B + C : C | ⊣ b + c : c | n. 28. V. |
-| y Dw. | B + C : b + c | ⊣ C : c | n. 27. V. |
-| u. | B : b | ⊣ B + C : b + c | n. 33. V. |
-|  | A + B : a + b | ⊣ B : b | n. Bew. a |
-|  | A : a | ⊣ A + B : a + b | n. Bew. ß |
-
-<!-- Catchword: Dw. -->
+<!-- Catchword: Gegebene. -->

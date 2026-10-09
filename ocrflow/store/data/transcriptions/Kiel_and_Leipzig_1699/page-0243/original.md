@@ -1,39 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 227 -->
+<!-- Page number: 226 -->
 
-### Beweiß.
+### Gegebenes. — Begehrte.
+Kreyß bcdefg — 1. Gleichseitig und gleichschenck-
+licht Sechseck
+2. dem gegebenen Kreyß einge-
+schrieben.
 
-cb | ca
-ab | ca — n. 15. Besch. I.
-Dw. — ab | cb — n. 1. Gr. I.
-u. — abc | gleichseitig △ — n. 23. Besch. I
-Dw. — acb ∧ abc ∧ bac — n. 8. I.
-u. — acb ∧ ⅓ ⌓ — n. 32. I.
-bac ∧ cad — n. 8. I.
-bac + cad + dae ∧ ⌓ — n. 13. I.
-bac | ⅓ ⌓
-cad | ⅓ ⌓
-Dw. — dae | ⅓ ⌓ — n. 3. Gr. I.
-bac ∧ fae
-cad ∧ fag
-dae ∧ bag — n. 15. I.
-Dw. — bac ∧ cad ∧ dae ∧ fae ∧ fag ∧ bag, n. 11. Gr. I.
-α. u. — bc ⌒ cd ⌒ de ⌒ fe ⌒ fg ⌒ bg — n. 26. III.
-u. — bc | cd | de | fe | fg | bg — n. 29. III.
-bc ⌒ de — n. Bew. α.
-efgb ⌒ efgb
-Dw. — efgb + bc ⌒ de + efgb — n. 1. Gr. I.
-u. — cde ∧ bcd — n. 27. III.
-Gleicher Weise cde ∧ def ∧ efg ∧ fgb ∧ gbc
+[Diagram: drei sich schneidende Kreise; im mittleren Kreis ein einbeschriebenes Sechseck g b c d e f mit Mittelpunkt a, punktierte Striche zu den Ecken]
 
-Dw. ist das Sechßeck bcdefg gleichseitig und gleichwincklicht/
-und dem gegebenen Kreyß eingeschrieben/ n. 3. Beschr. IV.
+### Wirckung.
 
-### Beschluß.
+1. Wird der Durchschlag fc gezogen.
+2. Nach der Weite ca wird aus dem Düttel c ein Kreyß ge-
+zogen/ welcher den gegebenen Kreyß in den Dütteln d und b schneidet.
+3. Aus dem Düttel f wird nach der Weite fa auch ein Kreyß be-
+schrieben/welcher den gegebenen Kreyß in den Dütteln e und g schneidet.
+4. Werden die Striche bc, cd, de, ef, fg und gb gezogen.
 
-Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
-licht Sechßeck eingeschrieben. W Z. M.
+### Vorbereitung.
 
-<!-- Signature: Ff 2 -->
-<!-- Catchword: I. An- -->
+Es werden gezogen die Strahlen ab, ad, ae, ag.
+
+II. Arth.
+
+1. Werde aus dem Düttel c nach der Weite ca ein Kreyß/
+2. aus dieses Kreyses Mitteldüpffel c werde durch den Mittel-
+düpffel a ein gerader Strich cf,
+3. aus den beyden Dütteln b und d werden auch gerade Stri-
+che be, dg durch a, und
+4. die Striche cb, cd, de, ef, fg und gb gezogen.
+
+<!-- Catchword: Be- -->

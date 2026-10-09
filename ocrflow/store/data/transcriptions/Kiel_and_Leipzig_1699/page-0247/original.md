@@ -1,27 +1,36 @@
-<!-- Page number: 231 -->
+<!-- Running title: Das IV. Buch Euclidis. -->
 
-# Das V. Buch Euclidis.
+<!-- Page number: 230 -->
 
-## Beschreibungen.
+### Wirckung.
 
-I. Ein Theil (Pars) ist ein Stück einer grösseren Grösse/wenn nemlich das Stück die grössere Grösse ohne Bruch (oder also daß nichts überbleibet) theilet. a : 3a
+1. Dem Kreyß werde ein gleichseitigs Dreyeck afg eingeschrieben / n. 2. IV. oder n. 2. Anhang vorhergehenden Vortrags.
 
-II. Vielfältig oder vielfach (multiplex) wird genennet die grössere Grösse/ welche von dem Theil oder Stück ohne Bruch getheilet wird. 3a : a
+2. Es werde auch solchem Kreyß ein gleichseitig und gleichwincklicht Fünffeck eingeschrieben/ n. 11. IV. doch also/ daß die Spitze desselben auff die Spitze a des Dreyecks falle.
 
-III. Verhältniß (Ratio) ist eine Bewandniß zweyer Grössen / deren jedwede durch ihre Vervielfältigung die andere (wenn sie unvergrössert bleibet) übertreffen kan a : b
+3. Werden die Striche cf und dg gezogen.
 
-IV. Ebenmaaß (Proportio) ist zweyer oder mehrer Verhältnisse Gleichheit. 2a : 2b | a : b
+4. Werden die übrigen Seiten auch nach der Grösse cf oder dg in den Kreyß herumb gesetzet/ und angefüget/ n. 1. IV.
 
-V. Diejenigen Grössen können eine Verhältniß zu einander haben/welche nach Belieben vervielfältiget einander an Grösse übertreffen können. 2a : a.
+### Beweiß.
 
-2a ⊣ a
+|  |  |  |  |
+|---|---|---|---|
+| Dw. | ab | Seite des Fünffecks. | |
+| | ab | 1/5 oder 3/15 oder 3 Seiten des Funffzehnecks. | |
+| | ab | bc | n. Wirck. |
+| | bc | 1/15 | n. 1. Gr. I. |
+| | ab + bc | 6/15 oder 6. Seiten des 15-zehnecks / n. 2. Gr. I. | |
+| | af | Seite des 3 Ecks. | |
+| Dw. | af | 5/15 oder 5 Seiten des 15-Ecks. | |
+| | ab + bc — af | 1/15 oder eine Seite des 15-Ecks. n. 3. Gr. I. | |
+| | ab + bc — af | fc | |
+| Dw. | fc | Seite des 15 Ecks. | |
 
-2a ⊢ 6a.
+Die Seiten fc, cn, nm, md, dg u. s. f. sind alle einer Grösse / und dem Kreyß eingefüget/und herümbgesetzet/ n. 3. und 4. Wirck. Wenn auch aus dem Mitteldüpffel zu allen Winckeln die Strahlen oder halbe Durchschläge gezogen werden/ kan man leichtlich durch den 4. und 5. Vortrag des I. Buchs erweisen/ daß alle Winckel einer Grösse seyn. Derowegen auch das 15-Eck dem Kreyß eingeschrieben ist/ n. 3. Beschr. IV.
 
-VI. In gleicher Verhältniß stehende Grössen werden genennet (nemlich die Erste zu der Andern/und die Dritte zu der Vierten) wenn der Ersten und Dritten auff waserley Weise Vervielfältigung von derer Andern und Vierten Vervielfältigung entweder übertroffen werden / oder denenselbigen an Grösse gleich sind / oder auch dieselbigen übertreffen: Wenn nemlich die Grössen gehöriger Massen gegen einander gehalten werden.
+### Beschluß.
 
-3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a.
-5. 3. 5. 3. — 2. 3. 2. 3. — 2. 5. 2. 5.
-15a : 6a | 30a : 12a. — [unclear: 6q] : 6a | 12a : 12a. — 6a : 10a | 12a : 20a.
+Ist also dem gegebenen Kreyß ein gleichseitiges und gleichwincklichtes Funffzehneck eingeschrieben/ W. Z. M.
 
-<!-- Catchword: VII. -->
+<!-- Catchword: Das -->

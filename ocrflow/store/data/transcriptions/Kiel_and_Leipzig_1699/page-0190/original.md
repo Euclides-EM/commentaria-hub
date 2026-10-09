@@ -1,36 +1,35 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 174 -->
+<!-- Page number: 173 -->
 
-## Der XXVI. Vortrag.
+3. Durch das mittel e werde der gerade Strich hf nach rechten Winckeln gezogen. n. 11. I.
+4. Werde noch ein anderer Düttel dieses Bogens/ nemlich b mit einem geraden Strich an den Düttel c gehänget.
+5. Und in zwey gleiche Theile db | dc getheilet. n. 10. I.
+6. Durchs mittel d wird ein Senckstrich kf gezogen n. 11. I.
+7. Aus dem Düttel f, wo die beeden Senckstriche he und kd einander durchschneiden/ werde der verlangte Kreyß beschrieben.
 
-## Das 23. Beweiß-Stück.
-In gleichgrossen Kreyssen/ stehen gleichgrosse Winckel auff gleichgrossen Bogen/ es mögen Mittel-Düpffels- oder im Kreyß stehende Winckel seyn.
+### Vorbereitung.
+Aus dem gefundenen Mittel-Düpffel f werden zu der Striche ac und bc Endungen/ die Strahlen fa, fb, fc gezogen.
 
-### Gegebene.
-1. O bgci | O dhek
-2. bac ⋀ dfe
-bgc ⋀ dhe
+### Beweiß.
 
-### Begehrtes.
-bic ⊻ dke.
+bd | dc   n. 5. Wirck.
+df | df
+Dw. bd + df ⋀ dc + df   n. 2. Gr. I.
+bdf ⋀ cdf   n. 6. Wirck.
+Dw. bf | cf   n. 4. I.
 
-[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, i, der andere mit h, f, d, e, k; in jedem ein Winckel am Mittel-Düpffel, die Sehnen bc und de punctirt]
+gleichfals wird bewiesen.
 
-### I. Vorbereitung.
-Es werden die beeden geraden Striche bc und de gezogen.
-### I. Beweiß.
+Daß af | cf
+Dw. af | bf   n. 1 Gr. I.
 
-O bgci | O dhek   n. 1. Gegeb.
-ba | df
-ac | fe   n. 1. Beschr. III.
-ba + ac | df + fe   n. 2. Gr. I.
-bac ⋀ dfe   n. 2. Gegeb.
-Dw. bc | de   n. 4. I.
-und bic ⊻ dke   n. 24. III.
+und der Düttel f wird der Mittel-Düpffel seyn   n. 9. III.
+Oder:
+In denen Strichen df und ef muß der Mittel-Düpffel seyn/ n. 1. Anhang des III. Buchs.
+Muß Dw. f der Mittel-Düpffel seyn/ weil sonst kein Düttel/ welcher zugleich in beeden Strichen stehet/ kan gegeben werden.
+### Beschluß.
+Ist also der Mittel-Düpffel f gefunden / aus welchem der Kreyß bhac, dessen Theil das gegebene Kreyßstück abc ist/ kan beschrieben werden. W. Z. M.
 
-### II. Vorbereitung.
-Es werden gezogen 1. die Stralen ba, ca und df, ef.
-2. Die geraden Striche bc und de.
-
-<!-- Catchword: II. Be- -->
+<!-- Signature: P 3 -->
+<!-- Catchword: Der -->

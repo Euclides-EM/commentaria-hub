@@ -1,37 +1,33 @@
-<!-- Page number: 118 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das II. Buch -->
+<!-- Page number: 117 -->
 
-### Beschluß.
+3. Aus d nach b der gerade Strich db gezogen.
+4. Nach der weite db aus d werde ein Kreyß beschrieben.
+5. Biß zu dieses Kreyses Düttel f, werde der Strich ea verlänget.
+6. Nach der weite af werde aus a ein Kreyß beschrieben / so den Strich ab in c durchschneidet.
 
-Ist also der Strich ab also in c geschnitten/ daß das Viereck/ so der gantze Strich ab, und das eine Stück bc begreiffen / eben so groß/ als das gleichseitige □ des übrigen Stückes ac. W. Z. M.
+### Vorbereitung.
 
-### Nach der Löse-Kunst.
+1. Durch c werde gegen fe ein Nebenstrich hg gezogen.
+2. Desgleichen aus f gegen ab der - - - - - fg - - - - | n. 31. I.
 
-### Gegebene. | Begehrtes.
-
-1. a | ab | 1. a getheilet in c und e getheilet also daß ae | cc.
-2. b | ad
-3. c | ac
-4. e | cb
-5. d | ef
-6. f | db | df.
+[Diagram: Rechteck mit den Ecken f, e unten und g, a oben; oben die Punkte b und a, in der Mitte c und h, unten a und d; punktierte Kreisbögen durch b, c und d]
 
 ### Beweiß.
 
-dc + bb | ff | n. 6. II.
-aa + bb | ff | n. 47. I.
-aa + bb | dc + bb | n. 1. Gr. I.
-bb | bb
-aa | dc
-ac | ac
-aa — ac | dc — ac | n. 3. Gr. I.
-oder ae | cc | W. Z M.
+□ efa + □ ad | □ df | n. 6. II.
+db | df | n. 15 Beschr. I
+□ db | □ df | n 1. Gr. t. II.
+Dw. □ efa + □ ad | □ db | n. 1. Gr. I.
+□ ab + □ ad | □ db | n. 47. I.
+Dw. □ ab + □ ad | ▭ efa + □ ad | n. 1. Gr. I.
+□ ad | □ ad
+Dw. □ ab | ▭ efa | n. 3. Gr. I.
+▭ eac | ▭ eac
+□ ab — ▭ eac | ▭ efa — ▭ eac | n. 3. Gr. I.
+oder □ ac | ▭ abc
 
-## Der XII. Vortrag.
+<!-- Signature: P 3 -->
 
-## Das 11. Beweiß-Stück.
-
-In allen stumpffwincklichten Dreyecken ist das gleichseitige Viereck der Seite/ so dem stumpfen Winckel übergespannet ist/ so viel grösser / denn die beeden Vierecke derer Seiten/ welche den stumpffen Winckel begreiffen / als das zwey-
-
-<!-- Catchword: mal -->
+<!-- Catchword: Beschluß. -->

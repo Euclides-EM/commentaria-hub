@@ -1,33 +1,36 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 361 -->
+<!-- Page number: 360 -->
 
-### II. Beweiß.
+2. Auch werde zu den Strichen ef und gh und der Dritte ebenmässige Strich q gefunden n. 11. VI. ef : gh | gh : q.
 
-△ aob : △ cnd | □ el : □ gi n 1. Geg.
+### I. Beweiß.
+
+ab : cd | ef : gh n. 2. Geg.
 ab : cd | cd : p n. 1. Vorb.
-α Dw. ab : p = ab : cd n. 10. Besch. V.
-△ aob : △ cnd = ab : cd n. 19. VI.
-Dw. △ aob : △ cnd | ab : p
-β u. □ el : □ gi | ab : p n. 11. V.
-ef : gh | gh : q n. 2. Vorb.
-Dw. ef : q = ef : gh n. 10. Beschr. V.
-□ el : □ gi = ef : gh n. 20. VI.
-Dw. □ el : □ gi | ef : q.
-u. ab : p | ef : q n. 11. V u. Bew. β
-u. ab : p = ef : gh
-Dw. ab : cd | ef : gh n. Bew. α | n. 11. V.
+Dw. ef : gh | cd : p n. 11. V.
+ef : gh | gh : q n 2. Vorb.
+Dw. cd : p | gh : q n. 11. V.
+ab : cd | fe : gh n. 2. Geg.
+Dw. ab : cd : p | fe : gh : q
+u. ab : p | fe : q n. 22. V.
+ab : p = ab : cd n. 10. Besch. V.
+△ aob : △ cdn = ab : cd n. 19. VI.
+Dw. △ aob : △ cdn | ab : p
+u. △ aob : △ cdn | fe : q n. 11. V.
+fe : q = fe : gh n. 10. Besch. V.
+□ el : □ gi = fe : gh n. 20. VI.
+Dw. □ el : □ gi | fe : q
+γ u. △ aob : △ cde | □ el : □ gi n. 11. V.
 
-## Vorsatz. (Lemma)
+### II. Gegebene.
 
-Gleichmässige und ähnliche geradstrichichte Gestalte stehen auf gleichmässigen geraden Strichen.
+1. △ aob : △ cnd | □ el : □ gi
+2. △ aob ähnlich △ cnd
+3. □ el ähnlich □ gi
 
-### Gegebene. Begehrtes.
+### II. Begehrtes.
 
-1. □ gi | □ rt gh | rs
-2. □ gi ähnlich □ rt
+ab : cd | ef : gh.
 
-[Diagram: zwey Vierecke g k i h und u t s r nebeneinander; darunter ein Strich x und eine Figur mit den Punkten g, s, x, h r und punktiertem Strich nach s]
-
-<!-- Signature: Z z -->
-<!-- Catchword: Vorbe- -->
+<!-- Catchword: II. Beweiß. -->

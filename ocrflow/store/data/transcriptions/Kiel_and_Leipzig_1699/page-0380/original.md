@@ -1,28 +1,35 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 364 -->
+<!-- Page number: 363 -->
 
-ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüssen zusammen gesetzet ist.
+[Diagram: grösseres Viereck m l f e, daneben kleiner Strich t s und kleineres Viereck t w r s; darunter Striche a e, c d r s mit punktierter Linie]
 
-### Gegebene.
+### Beweiß.
 
-1. Nebenstrichichte Vierecke ao, und df.
-2. □ ac gleichwincklicht dem □ df.
+▭ el ähnlich ▭ st n. 3. Vorb.
+▭ el - - - ▭ gi n. 3. Geg. I.
+Dw. ▭ st - - - ▭ gi n. 21. VI.
+△ abo : △ cdn | ▭ el : ▭ st 1. Th. dies. Vort.
+△ abo : △ cdn | ▭ el : ▭ gi n 1. Geg.
+Dw. ▭ el : ▭ gi | ▭ el : ▭ st n. 11. V.
+u. ▭ gi | ▭ st n 9 V.
+gh | rs n. Vorsatz. γ
+ef | ef
+ef : gh | ef : rs n. 7. V.
+ab : cd | ef : rs n. 1. Vorb.
+Dw. ab : cd | ef : gh n. 11. V.
 
-### Begehrtes.
+### Beschluß.
 
-□ ac : □ df | ad, dc : gd, de.
+Werden derowegen aus vier ebenmässigen Strichen/ auch ebenmässige Vielecke beschrieben.
 
-[Diagram: zwey aneinander gefügte Vierecke mit den Punkten b, c, h, a, d, g, e, f nebst den Linien i, k, l; darunter zwey Dreiecksfiguren mit punctirten Linien und den Buchstaben k, g, l, c, d, k, e, d]
+Und derer ebenmässigen Vielecke Seiten oder Striche sind auch ebenmässig. W. Z. B.
 
-### Vorbereitung.
+## Der XXIII. Vortrag.
 
-1. Werden die beyden Vierecke bey dem Winckel d also zusammen gefüget/ daß ad und dg, wie auch cd und de zween gerade Striche machen.
+## Das 17. Beweiß-Stück.
 
-2. Die Seiten bc und fg werden fort gezogen/ biß sie in h zusammen kommen.
+Gleichwincklichte nebenstrichichte Vierecke ha-
 
-3. Werden zween gerade Striche i und k, gefunden/ welche eben solche Verhältnüß haben / als ad : dg.
-
-ad : dg | i : k, n. 12. VI.
-
-<!-- Catchword: 4. Werde -->
+<!-- Signature: Z z 2 -->
+<!-- Catchword: ben -->

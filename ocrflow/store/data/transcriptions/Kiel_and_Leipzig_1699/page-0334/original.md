@@ -1,36 +1,31 @@
-<!-- Page number: 318 -->
+<!-- Page number: 317 -->
 
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-### Vorbereitung.
+Und wenn der aus der Spitze des Dreyeckes gezogene Strich den Grundstrich also schneidet/ daß dessen Stücke in ebenmässiger Verhältnüß mit den Seiten stehn/ so theilet derselbe Strich den Winckel des Dreyeckes in zweene gleiche Theile. W. Z. B.
 
-1. Der Grundstrich bc werde nach Nothdurfft gegen g verlängert.
-2. Von cg werde abgeschnitten das Stück ce | CE — n. 3. I.
-3. Es werde gemacht △ ced | △ CED — n. 22. I.
-4. Der Strich ba werde biß f, und
-5. Der Strich ed auch biß f verlängert.
+## Der IV. Vortrag.
 
-### Beweiß.
+## Das 4. Beweiß-Stück.
 
-DEC ⋏ dec — n. 3. Vorb.
-Dw. DEC ⋏ dec — n. 8. I.
-DEC ⋏ acb — n. 3. Gegeb.
-Dw. dec ⋏ acb — n. 1. Gr. I.
-u. de ⧣ ac — n. 28. I.
-dce ⋏ abc — n. 8. I.
-Dw. bf ⧣ dc — n. 28. I.
-u. facd ein nebenstrichichtes Viereck — n. 35. Beschr. I.
+Gleichwincklichte Dreyecke haben in ebenmässiger Verhältnüß stehende Seiten/ welche nemlich gleichmässige Winckel einschrencken; und diejenigen Seiten/ welche gleichmässige Winckel überspannen/ sind auch ebenmässig.
 
-∝ ba : af | bc : ce — n. 2. VI.
-β af | cd — n. 34. I.
-ba : | ba
-Dw. ba : af | ba : cd — n. 7. V.
-ba : cd | bc : ce — n. 11. V.
-ce | CE — n. 2. Vorb.
-bc | bc
-Dw. bc : ce | bc : CE — n. 7. V.
-u. ba : cd | bc : CE — n. 11. V.
-cd | CD — n. 3. Vorb.
-ba | ba
+### Gegebene.
 
-<!-- Catchword: Dw. -->
+1. Zwey Dreyecke abc und CDE,
+2. Welche gleichmässige Winckel haben/
+
+nemlich C ⋏ abc
+D ⋏ bac
+u. DEC ⋏ acb
+
+### Begehrte.
+
+1. ba : CD | bc : CE
+2. bc : CE | ac : DE
+3. ab : DC | ac : DE.
+
+[Diagram: Zwey Dreyecke, oben das kleinere Dreyeck CDE, darunter das grössere Dreyeck abc, dessen Seiten gestrichelt gegen f, d und e verlängert sind]
+
+g
+<!-- Catchword: Vor- -->

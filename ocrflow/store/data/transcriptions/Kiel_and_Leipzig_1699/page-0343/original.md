@@ -1,34 +1,38 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 326 -->
 
-<!-- Page number: 327 -->
+<!-- Running title: Das VI. Buch -->
 
 ### Vorbereitung.
 
-Wenn man | acb ⋏ dfe | so mache
+Wenn man | acb ⋏ dfe, | so mache
 | acg ⋏ dfe | n. 23. I.
 
-### II. Beweiß.
+### I. Beweiß.
 
 | acg ⋏ dfe | n. Vorber.
-| cag ⋏ fde | n. 3. Geg.
-Dw. | cga ⋏ def | n. 32. I.
+| bac ⋏ edf | n. 2. Geg.
+α Dw. | agc ⋏ def | n. 32. I.
 u. | ac : cg | df : fe | n. 4. VI.
-| ac : cb | df : fe | n. 4. Geg.
-Dw. | ac : cb | ac : cg | n. 11. I.
+| ac : cb | df : fe | n. 5. Geg.
+Dw. | ac : cb | ac : cg | n. 11. V.
 u. | cb | cg | n. 9. V.
-Dw. | cgb ⋏ cbg | n. 5. I.
-| cbg ⋏ nicht kleiner als ∟ | n. 1. Geg.
-Dw. auch | cgb ⋏ nicht kleiner als ∟ | n. 1. Gr. d. I.
-u. | cbg + cgb ⋏ nicht kleiner als [unclear: ⌓] | n. 2. Gr. I.
-welches aber unmüglich n. 17. I.
+Dw. | cbg ⋏ bgc | n. 5. I.
+| cbg ⋏̸ [unclear: ∟] | n. 3. Geg.
+Dw. | bgc ⋏̸ [unclear: ∟] | n. 1. Gr. d. I.
+| agc + bgc ⋏ [unclear: ⌓] | n. 13. I.
+Dw. | agc ⋏̸ [unclear: ∟] | n. 5. Gr. I.
+| agc ⋏ def | n. Bew. α.
+Dw. | def ⋏̸ [unclear: ∟] | n. 1. Gr. c. I.
 
-Derowegen muß | abc ⋏ def
-Und ebener Gestalt | bca ⋏ efd
-| bac ⋏ edf | n. 1. Geg.
-Dw. △ abc gleichwincklicht △ def n. 1. Beschr. VI.
+welches aber wider das 4. Gegebene.
 
-### Beschluß.
+## Des VII. Vortrags II. Gegebene.
 
-Wenn derowegen zwey Dreyecke einen gleimässigen Winckel haben / die übrigen Winckel aber von ebenmässigen Seiten begriffen sind / und derer übrigen Winckel allezeit von zweyen jedweder kleiner / oder auch nicht kleiner / als ein rechter Winckel ist: So sind diejenigen Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / beyde Dreyecke auch gleichwincklicht. W. Z. B.
+1 abc oder gbc ⋏ nicht kleiner als ∟,
+2. def ⋏ nicht kleiner als ∟.
+3. cag ⋏ fde
+4. ac : cb | df : fe
 
-<!-- Catchword: Der -->
+[Diagram: zwei Dreiecke, links Dreieck abc mit punktierter Linie von c nach g, rechts Dreieck def]
+
+<!-- Catchword: Vor- -->

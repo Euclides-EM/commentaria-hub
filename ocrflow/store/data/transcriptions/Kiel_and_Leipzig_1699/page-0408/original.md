@@ -1,56 +1,52 @@
-<!-- Running title: Das VI. Buch Euclidis. -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 392 -->
+<!-- Page number: 391 -->
 
-### Beschluß.
+|  |  |  |  |
+|---|---|---|---|
+| Dw. | fha | ⋀ ghk | n. 27. III. |
+| α und | fg | gk |  |
+| β Dw. | △ fhg | △ ghk | n. 4. I. |
+|  | ⌒ fg | ⌒ gk | n 1. Vorb. |
+| Dw. | fhg ⋀ | ghk | n. 27. III. |
+| und | ⌒ fg ähnlich | ⌒ gk | n. 11. Besch. III. |
+|  | fg | gk | n. Bew. α |
+| Dw. | ⌓ fng | ⌓ gok | n. 24. III. |
+| und | △ fhg + ⌓ fng | △ ghk + ⌓ gok | n. 2 Gr. I. |
+| Dw. | ⌓ fhgn | ⌓ ghko | n. 9. Gr. I. q. |
 
-Verhalten sich derowegen in gleichmässigen Kreisen/ die Winckel also gegen einander/ wie die Bogen / auf welchen dieselben Winckel stehen. Und also verhalten sich auch die Kreißschnitte gegen einander/ nemlich/ wie ihre Mittel-Düpffels-Winckel. W. Z. B.
+Gleicher Gestalt sind auch
 
-ENDE
-Des VI. Buchs Euclidis.
+⌓ hkl | ⌓ ghk
+und ⌓ bdc | ⌓ cdi | ⌓ idm
 
----
+Wie vielfältig nun der Bogen fl des Bogens fg, so vielfältig ist der Kreißschnitt / fhl des Kreißschnitts fhg.
 
-# Druckfehler / welche mit der Feder zu verbessern.
+⌒ fl : ⌒ fg | ⌓ fhl : ⌓ fhg.
 
-Pag. 21. lin. 20. pro gleichseitig. leg. gleichschencklicht.
+Gleicher Gestalt / wie vielfältig der Bogen bm des Bogens bc, so vielfältig ist auch der Kreißschnitt bdm des Kreißschnitts bdc.
 
-24. l. 11. pro AD | AC l. BD | AC
+⌒ bm : ⌒ bc | ⌓ bdm : ⌓ bdc
 
-29. l. 17. pro ABC l. BAC
+|  |  |
+|---|---|
+| Ist nun | ⌒ fl ⊣ ⌒ bm |
+| so ist auch | ⌓ fhl ⊣ ⌓ bdm |
 
-46. 13. FED FEG
+oder:
 
-47. 5. lege FEG ⋀ ICK
+|  |  |
+|---|---|
+| Ist | ⌒ fl \| ⌒ bm |
+| so ist auch | ⌓ fhl \| ⌓ bdm |
 
-20. pro ⊣ DB lege ⊣ CB
+oder:
 
-51. 11. lege, ist aber BAC [unclear: ⋀̸] bac
+|  |  |  |
+|---|---|---|
+| Ist | ⌒ fl ⊢ ⌒ bm |  |
+| so ist auch | ⌓ fhl ⊢ ⌓ bdm |  |
+| Dw. | ⌒ fg : ⌒ bc \| ⌓ fhg : ⌓ bdc | n. 6. Besch. V. |
+| und | ∧ fhg : ∧ bdc \| ⌓ fhg : ⌓ bdc | n. 11. V. |
 
-58. 2. lege, entgegen stehenden Winckel gleichgroß.
-
-3. lege, Winckele zweyen rechten Winckeln gleich.
-
-20. pro stehen leg. seyn.
-
-88. l. 16. pro Viereck leg. Seiten.
-
-post l. 16. inseratur : Beschreibungen.
-
-90. l. 16. pro und ah. leg. und eh
-
-96. l. 10. pro □ AB | AC leg. □ AB | □ AC
-
-100. l. 5. pro n. 1. Gr. leg. n. 2. Gr.
-
-105. l. 18. pro | □ abc leg. 2 □ abc
-
-109. l. 23. pro das Viereck leg. das zwiefache Viereck.
-
-24. dem Viereck dem zwiefachen Viereck.
-
-119. l. 6. pro + 2 □ bc leg. + □ bc
-
-13. pro ab □ bd leg. ab + bd
-
-<!-- Catchword: 121. l. -->
+<!-- Catchword: Beschluß -->

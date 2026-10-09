@@ -1,36 +1,24 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 385 -->
+<!-- Page number: 384 -->
 
-### Beweiß.
+### Gegebene.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | BC : CA | CA : CK | n. 8. VI. |
-| Dw. | BC : CK = | BC : CA | n. 10. Bes. V. |
-|  | □ BD : □ AI = | BC : CA | n. 19. VI. |
-| Dw. | BC : CK | □ BD : □ AI | n. 11. VI. |
-| α und | CK : BC | □ AI : □ BD | verkehret |
-|  | BC : BA | BA : BK | n. 8. VI. |
-| Dw. | BC : BK | □ BD : □ AF | n. 19. VI. |
-| β und | BK : BC | □ AF : □ BD | verkehret |
-|  | CK : | □ AI : | n. Bew. α |
-|  | BC | □ BD |  |
-|  | BK : | □ AF : | n. Bew. β |
-| Dw. | CK + BK : BC | □ AI + □ AF : □ BD | n. 24. V. |
-|  | CK + BK | BC | n. 9. Gr. I. q. |
-| Dw. | □ AI + □ AF | □ BD | n. 14. V. |
+1. Dreyeck ABC, welches
+2. Rechtwincklicht und
+3. Auf der dem rechten Winckel A übergespanneten Seite BC stehende □ Bd oder △ BCD.
+4. Zwey Dreyeck AHC und AFB, oder □ AI + □ AF, welche
+5. Auf den beyden Seiten AB und AC, so den rechten Winckel A begreiffen/ stehen.
 
-### Beschluß.
+### Begehrtes.
 
-Sind derowegen allezeit die beyden/ auf denen beyden/ den rechten Winckel begreiffenden Seiten stehende/ und einander ähnliche Gestalte/ derjenigen Gestalt/ welche auch diesen beyden Gestalten ähnlich/ und auf der dem rechten Winckel übergespanneten Seite stehet/ gleichmässig. W. Z. B.
+△ DBC | △ AHC + △ AFB.
+□ BD | □ AI + □ AF.
 
-## Der XXXII. Vortrag.
+[Diagram: zwei Konstruktionszeichnungen; links Dreieck ABC mit Punkten F, A, H, B, K, C und D; rechts Figur mit Punkten I, H, A, G, C, F, K, B, D, E]
 
-## Das 22. Beweiß-Stück.
+### Vorbereitung.
 
-Wenn zwey Dreyecke gegeben werden/ deren eins zwo Seiten/ zweyen Seiten des andern ebenmässig sind, und das eine Dreyeck mit seinem Winckel an des andern Dreyeck Winckels also gestossen
+Aus dem rechten Winckel A werde auf den Strich BC ein Senckstrich AK gezogen. n. 12. I.
 
-<!-- Signature: Ccc -->
-
-<!-- Catchword: wird/ -->
+<!-- Catchword: Beweiß. -->

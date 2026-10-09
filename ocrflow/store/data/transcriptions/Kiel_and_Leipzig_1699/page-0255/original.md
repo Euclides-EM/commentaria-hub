@@ -1,38 +1,44 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 239 -->
-
-Oder auch also:
-
-### Vorbereitung.
-
-1. Die grösse a werde vier mahl/
-2. wie auch b vier mahl genommen:
-
-[Diagram: vier waagerechte Linien, bezeichnet A, 4a, B, 4b]
+<!-- Page number: 238 -->
 
 ### Beweiß.
 
 |  |  |  |  |  |
 |---|---|---|---|---|
-| | 3a | A | n. Beweiß. | ε |
-| | 4a | 3a | n. 9. Gr. I. | |
-| Dw. | 4a | A | n. 1. Gr. a. I. | |
-| | 3b | B | | |
-| | 4b | 3b | | |
-| Dw. | 4b | B | | |
-| λ und | 4a + 4b | A + B | n. 4. Gr. g. I. | |
+| | 3a | A | n. Bew. | ε. |
+| | 3a | 1½a | n. 9. Gr. I. | |
+| Dw. | A | 1½a | n. 1. Gr. c. I. | |
+| | 2A | A | n. 9. Gr. I. | |
+| Dw. | 2A | 1½a | n. 1. Gr. e. I. | |
+| | 3b | B | n. Bew. | θ |
+| | 3b | 1½b | n. 9. Gr. I. | |
+| Dw. | B | 1½b | n. 2. Gr. c. I. | |
+| | 2B | B | n. 9. Gr. I. | |
+| Dw. | 2B | 1½b | n. 1. Gr. e. I. | |
+| [unclear: κ] Und | 2A + 2B | 1½a + 1½b | n. 4. Gr. g. I. | |
 
-Weil nun (1) 3a + 3b | A + B, n. Bew. η
+### Vorbereitung.
 
-(2) 2a + 2b ⊢ A + B, n. Bew. κ
+1. Zu der Grösse A werde noch die Helffte derselben/
+2. u. zu der Grösse B werde gleichfals die Helffte derselben beygefüget/
+3. a werde fünf mahl/und 4. b auch fünfmahl/ genommen.
 
-und (3) 4a + 4b ⊣ A + B, n. Bew. λ
+[Diagram: vier waagerechte Linien, bezeichnet 1½A, 5a, 1½B, 5b]
 
-Dw. A + B : a + b | A : B, n. 6. Beschr. V.
+### III. Beweiß.
 
-### Beschluß.
-
-Wenn derowegen die 1. zu der 2. Grösse/ und die 3. zu der 4. gleich-vielfältig sind/ so werden auch die 1. und 3. zusammen genommen / zu denen 2. und 4. zusammen genommenen Grössen eben so vielfältig seyn / als die 1. zu der 2. oder die 3. zu der 4. Grössen sind. W. Z. B.
-
-<!-- Catchword: Der -->
+|  |  |  |  |  |
+|---|---|---|---|---|
+| | 3a | A | n. Bew. | ε. α |
+| | 1½a | ½A | n. 7. Gr. n. I. | β |
+| | 2a | 1½a | n. 9 Gr. I. | γ |
+| Dw. | 2a | ½A | n. 1. Gr. a. I. | δ |
+| und | 3a + 2a | [unclear: 1½A] | n. 4. Gr. I. | γ |
+| oder | 5a | 1½A | | |
+| | 3b | B | n. Bew. | θ. α |
+| | 1½b | ½B | | β |
+| | 2b | 1½b | | γ |
+| Dw. | 2b | ½B | | δ |
+| und | 5b | 1½B | | γ |
+| λ Dw. | 5a + 5b | 1½A + 1½B | n. 4. Gr. g. I. | |

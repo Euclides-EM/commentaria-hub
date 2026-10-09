@@ -1,31 +1,28 @@
-<!-- Running title: Das II. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 90 -->
+<!-- Page number: 89 -->
 
-6. Werden ad | AD
-de | DE
-eb | EB | nach 3. Vortr. I.
-7. Zeihe man nebenstriche
-df = ac
-eg = ac | n. 31. Vortr. I.
-8. Werden die Zwerg-Striche af, dg und eh gezogen.
-9. Ziehe man auch die Striche
-pq | BE
-rs | ED
-tu | DA | nach 2. Vortr. I.
-10. Diese drey Striche werden gezogen in andere drey Striche qn, sl und ui, welche aber alle dem Striche AC gleich seyn müssen / damit man die Vierecke □ pqn, □ rsl und □ tui bekomme.
-11. Ziehe man die Zwerg-Striche af, dg und ah.
-12. Wie auch - - - uk, sm und qo.
+[Diagram: schiefwincklichtes Viereck mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Zwerg- und Diagonalstrichen]
 
-[Diagram: Reihe rechtwincklichter Vierecke mit punktierten Diagonalen; Punkte c, f, g, h, i, k, l, m, n, o oben, E, D links, A, d, e, b, u, t, s, r, q, p unten]
+## Der I. Vortrag.
 
-### Beweiß.
+## Das 1. Beweiß-Stück.
 
-ui + ik | ac + ef | n. 2. Vortr. I.
-i ∠ c | n. 23. - - I.
-Dw. △ uik | △ acf | n. 4. - - I.
-□ cd | 2 △ acf
-□ it | 2 △ uik | n. 41. - - I.
-Dw. □ it | □ cd | n. 6. Gr-S. i. I.
+Wenn man von zweyen geraden Strichen einen in unterschiedliche Theile zerschneidet/ so werden die rechtwincklichte Vierecke/ welche der ungeschnittene Strich/und die Stücke des getheilten Striches begreiffen/ zusammen eben so groß/ als das recht-wincklichte/von den beeden gantzen Strichen begriffene/ Viereck seyn.
 
-<!-- Catchword: Auff -->
+### Gegebene. | Begehrte.
+1. Der Strich AB. | □ be,ac + □ ed,ac + □ da,ac | □ ba,ac
+2. - - - AC. | oder
+3. AB geschnitten in D und E | □ pqn + □ rsl + □ tin | □ bac.
+
+### Vorbereitung.
+
+1. Es werde gezogen der gerade Strich ba | AB.
+2. Auff diesen Strich ab, und zwar in den Düttel b, werde ein Senckstrich ac gesetzet nach 10. Vortr. I. B.
+3. ac | AC n. 2. Vortr. des I. Buchs.
+4. Durch den Düttel c werde entgegen ab ein Nebenstrich ch. gezogen/ nach 31. Vortr. I.
+5. Durch b ziehe man gegen über ac , den Nebenstrich bh, nach 31. Vortr. I.
+
+<!-- Signature: M -->
+
+<!-- Catchword: 6. Wer- -->

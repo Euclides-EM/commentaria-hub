@@ -1,40 +1,34 @@
-<!-- Page number: 67 -->
+<!-- Page number: 66 -->
 
-<!-- Running title: Euclides. -->
+<!-- Running title: Das I. Buch -->
+
+### 2. Begebenheit.
+
+### Gegebenes. | Begehrtes.
+1. □ ABDC | ABDC ⌻ CDEF
+2. □ CDEF
+3. Grundstrich CD
+4. AE=CD
+
+[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, F, B, E oben und C, D unten]
 
 ### Beweiß.
 
 AB | CD
 FE | CD } n. 34. Vortr.
-Dw. FE | AB n. 1. Gr:S.
-BD | AC
-DE | CF } n. 34. Vortr.
-BF | BF
-BF + FE | AB + BF n. 2. Gr:S.
-oder BE | AF n. 9. Gr:S. q.
-Dw. BDE ⩓ ACF n. Zugab. 8. Vortr.
-BGF ⩓ BGF
-BDE—BGF ⩓ ACF—BGF n. 3. Gr:S.
-oder DEFG ⩓ CABG
-CDG ⩓ CDG
-CDG + DEFG ⌻ CABG + CDG n. 2. Gr:S.
-oder CDEF ⌻ ABDC n. 9. Gr:S. q.
+Dw. AB | FE n. 1. Gr:S.
+FB | FB
+AB — FB | FE—FB n. 3. Gr:S.
+oder AF | BE
+AC | BD
+FC | ED } n. 34. Vortr.
+Dw. AEF ⩓ BDE n. Zugab. 8. Vortr.
+BFCD ⩓ BFCD
+Dw. △ BFCD + △ AEF | △ BDE + △ BFCD n. 2. Gr:S
+oder ABDC ⌻ CDEF n. 9. Gr:S. q.
 
-### Beschluß.
+### 3. Begebenheit.
 
-Müssen also alle □ □ , welche einen einigen Grundstrich haben/ und zwischen einerley Nebenstrichen stehen/ (oder gleich hoch sind) gleich groß seyn. W. Z. B.
+[Diagram: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, B, F, E oben, G in der Mitte und C, D unten]
 
-## Der XXXVI. Vortrag.
-
-## Das 26. Beweiß-Stück.
-
-Alle auff gleich-grossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Vierecke sind gleich-groß.
-
-### Gegebene. | Begehrte.
-1. □ AC | AC ⌻ EG.
-2. □ EG
-3. Grundstriche
-
-<!-- Signature: I 2 -->
-
-<!-- Catchword: BC -->
+<!-- Catchword: Be- -->

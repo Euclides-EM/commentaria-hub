@@ -1,36 +1,44 @@
-<!-- Running title: Euclidis -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 81 -->
-
-[Diagram: Quadrat CDAB mit verlängerter Grundlinie gegen E und punktierten Hülfslinien; Punkte C, D oben, E, B, A unten]
+<!-- Page number: 80 -->
 
 ### Beweiß.
 
-BC ist ein Senckstrich. n. 2. Wirckung.
-Dw. CBA ∠ ⌐ | n. 10. Beschr.
-DC = AB | n. 4. Wirck.
-DC | AB | n. 3. Wirck.
-Dw. BC | AD |
-und BC = AD | n. 33. Vortr.
-BC | AB | n. 3. Wirck.
-Drw. AD | AB | n. 1. GrS.
-A ∠ C |
-B ∠ D | n. 34. Vortr.
+tce ∠ A. | n. 22. Vortr.
+△ tce | □ a. | n. 44. Vortr.
+Dw. △ A | □ a. | n. 1. Gr-S.
 
-Dw. wird A B C D ein gleichseitig und gleichwincklich Viereck seyn. n. 29. Beschr.
+uxg ∠ B | n. 22. Vortr.
+△ uxg | □ b | n. 44. Vortr.
+Dw. △ B | □ b | n 1. GrS.
+
+△ A + △ B | □ a + □ b | n. 2. GrS.
+□ mngo | □ a + □ b | n. 9. GrS. q.
+Dw. △ A + △ B | □ mngo | n. 1. GrS.
+ypzq | △ A + △ B | n. 9. GrS. q.
+Dw. ypzq | □ mngo | n. 1. GrS.
+und D ∠ fgn | n. 2. Wirck.
 
 ### Beschluß.
 
-Ist also auff den gegebenen Strich AB ein gleichseitig und gleichwincklicht □ gesetzet. W. Z. M.
+Ist also der gegebenen Gestalt ypzq, nach dem gegebenen ∠ D, ein gleichhaltendes □ mngo verfertiget. W. Z. M.
 
-### Auff eine andere Arth
+## Der XLVI. Vortrag.
 
-Ein gleichseitig und gleichwincklicht □ mit unveränderter Oeffnung des Kreyß-Ziehers (circini) auff den gegebenen Strich zu setzen.
+## Das 14. Werckstück.
+
+Auff den gegebenen geraden Strich ein gleichseitig und gleichwincklich Viereck zu beschreiben.
+
+### Gegebenes. | Begehrtes.
+Gerader Strich AB | □ ABCD
 
 ### Wirckung.
 
-1. Thue man den Kreyß-zieher so weit auff/als die länge des gegebenen Strichs AB.
+1. AB werde verlänget gegen E.
+2. Auff B werde ein Senckstrich BC gesetzet. n. 11. Vortrag.
+3. Dieser Senckstrich BC | AB n. 2. Vortr.
+4. Aus C gegen über AB = CD n. 31. Vortr.
+5. CD | CB n. 2. Vortr.
+6. Aus A werde gezogen AD
 
-<!-- Signature: L -->
-
-<!-- Catchword: 2. Wird -->
+<!-- Catchword: Beweiß. -->

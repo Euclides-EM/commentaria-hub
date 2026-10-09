@@ -1,7 +1,14 @@
 <!-- Running title: Vorrede. -->
 
-daß/ ungeachtet unser Euclides von denen meisten Mathematicis, wegen seiner scharffsinnigen und genauen Beweißthümer/ hochgeschätzt und sehr gelobet wird/ doch etliche sonst verständige Mathematici gefunden werden/ welche ihn getadelt: und zwar schon vor etlichen 100. Jahren haben die Pyrrhonii oder Sceptici, welche an allen/ auch an den warhafftigsten dingen zweiffelten/ den Euclidem angefochten: deßgleichen in diesem Seculo hat Marcus Meybomius in seinem Buch de Proportionibus den IIX. und X. Vortrag des V. Buchs Euclid. über einen hauffen zu werffen getrachtet: aber so wol jene/ als auch dieser sind von Wilhelmo Langio, in seinem Tractat de Veritatibus Geometricis, so zu Copenhagen 1656. gedrucket / zur gnüge widerleget worden. In dem vorigen Seculo haben Petrus Ramus und Johannes Thomas Freigius dergleichen versuchet/ sind aber von Joanne Broccio, Professore Cracoviensi, in seiner Apologia pro Aristotele & Euclide, abgefertiget worden. Noch vor nicht gar langer Zeit hat ein unbekanter Auctor in seinem Buche de arte cogitandi den II. und XX. Vortrag vor unnötig gehalten/ weil sie keines Beweises bedürfften: da doch alles/ was bewiesen werden kan/ nicht so schlechter dinges muß angenommen werden: anderer Einwürffe anitzo zu geschweigen.
+## Zu denen 17. Zeichen sind noch diese zusetzen:
 
-Endlich ist nöthig/ daß man/ wo nicht alle / doch die vornehmsten Druckfehler ändere / welche füglich in drey Ahrten können abgetheilet werden. Die erste Ahrt bestehet aus solchen/ welche leichtlich durch
+18. ⬠ Fünfeck/ Quinquangulum, Pentagonum.
+19. ◇ Kreißschnitt/ Sector.
+20. ⊐ Zwiefach grössere Verhältnüß/ Duplicata ratio.
+21. ⋣ Dreyfach grössere Verhältnüß/ Triplicata ratio.
 
-<!-- Catchword: Auf- -->
+Solche Zeichen haben auch den Nutzen/ daß jemand/ so der Teutschen Sprache nicht kundig/ die angestellte Beweise mehrentheils bey einem Lateinischen/ Italiänischen/ Frantzösischen/ etc. Text gebrauchen könne/ wenn er nur etliche wenige Wörter kennen lernet / als: und oder u. ist so viel/ als &: Dw. oder derowegen/ Ergo: n. oder nach / per, juxta: Beschr. Beschreibung Definitio: Gr. Grundsatz/ Axioma: Wirck. Wirckung/ Operatio. Vorb. Vorbereitung/ Præparatio. Angen. Angenommenes / Assumtum, hypothesis. Bew. Beweiß/ Demonstratio. und dergleichen.
+
+Ubrigens kan mit Stillschweigen nicht vorbey gehen /
+
+<!-- Catchword: daß -->

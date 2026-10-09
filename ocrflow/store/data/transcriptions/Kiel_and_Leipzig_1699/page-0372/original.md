@@ -1,38 +1,35 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 356 -->
+<!-- Page number: 355 -->
 
-### Vorbereitung.
+Dw. △ abc : △ abg | △ abc : △ def n. 7. V.
+u. △ abc : △ def ⊐ bc : ef n. 11. V.
 
-1. Werden gezogen die geraden Striche eb und ec
-2. Deßgleichen kg und ig
+### Beschluß.
 
-### Beweiß.
+Haben derowegen ähnliche Dreyecke zu einander zwiefach grössere Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
 
-Vieleck cad ähnlich ifh n. 3. Geg.
-Dw. eab ⋏ gfk
-u. ea : ab ⋏ gf : fk n. 1. Besch. VI.
-α Dw. △ eab ähnlich △ gik n. 6. VI.
-β u. ab : bc | fk : kg n. 4. VI.
-γ u. abc ⋏ fkg n. 1. Besch. VI.
-⬠ cad ähnlich ⬠ hfi n. 3. Geg.
-Dw. abc ⋏ fki n. 1. Besch. VI.
-abe ⋏ fkg n. Bew. γ.
-Dw. abc — abe ⋏ fki — fkg n. 3. Gr. I.
-oder ebc ⋏ kgh
-ab : be | fk : kg n. Bew. β.
-Dw. ab : fk | be : kg n. 16. V.
-ae : fg | ed : gh n. 1. Besch. VI.
-Dw. eb : gk | ed : gh n. 11. V.
-u. eb : ed | gk : gh n. 16. V.
-δ Dw. △ bec ähnlich △ kgi
-u. bce ⋏ kig n. 6. VI.
-bcd ⋏ kih n 1. Besch. VI.
-Dw. bcd — bce ⋏ kih — kig n 3. Gr. I.
-oder ecd ⋏ gih
-Dw. ced ⋏ igh n 32. I.
-u. △ edc ähnlich △ ghi n. 6. VI.
-△ eab ähnlich △ gfk n. Bew. α.
-Dw. △ eab : △ gfk ⊐ be : kg n. 19. VI.
+## Der XX. Vortrag.
 
-<!-- Catchword: △ bec -->
+## Das 14. Beweiß-Stück.
+
+Aehnliche Vielecke können in ähnliche/ und gleichviele/ und mit denen Gantzen Verhältniß-ähnliche oder ebenmässige Dreyecke abgetheilet werden.
+
+Die ähnlichen Vielecke stehen auch gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältniß-ähnliche Seiten.
+
+### Gegebene.
+
+1. Fünfeck cad
+2. u. hfi
+3. cad ähnlich hfi.
+
+### I. Begehrte.
+
+1. Beyde Fünfecke in ähnliche/ und
+2. Gleichviele/ und
+3. mit denen Fünfecken/ Verhältnüß-ähnliche Dreyecke abgetheilet.
+
+[Diagram: zwei Fünfecke; das kleinere mit den Ecken f, g, k, h, i und punktierten Diagonalen; das grössere mit den Ecken a, b, e, c, d und punktierten Diagonalen]
+
+<!-- Signature: Y y 2 -->
+<!-- Catchword: Vorbe- -->

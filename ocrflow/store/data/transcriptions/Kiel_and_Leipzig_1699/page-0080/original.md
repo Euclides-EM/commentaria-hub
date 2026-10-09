@@ -1,34 +1,38 @@
-<!-- Page number: 64 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das I. Buch -->
+<!-- Page number: 63 -->
 
-## Der XXXIV. Vortrag.
+## Der XXXIII. Vortrag.
 
-## Das 25. Beweiß Stück.
+## Das 24. Beweiß Stück.
 
-Aller Nebenstrichichten Vier-Ecke gegen überstehende Seiten und Winckel sind gleich groß/ werden auch von dem Zwerg-Strich in zweene gleiche Theile getheilet.
+Zween gerade Striche/ welche zween gleichlange Neben-Striche an beeden Enden/auff gleiche Weise/zusammen hengen / sind gleich-lange Neben-Striche.
 
-### Gegebene. | Begehrte.
-Nebenstrichichtes Viereck ABCD | 1. AB | CD
-| 2. AC | BD
-| 3. A ⋀ D
-| 4. B ⋀ C
-| 5. ACD ⩓ ABD
+### Gegebene.                              Begehrte.
+1. Zween gerade Striche AC und BD.     1. AC | BD
+2. AB | CD                             2. AC ╪ BD
+3. AB ╪ CD.
+4. Zusammen hengung
+5. Auff gleiche Weise / das ist / nicht Creutzweiß/sondern auff gleich-ähnliche Weise.
 
-[Diagram: Nebenstrichichtes Viereck (Parallelogramm) ABCD mit punktirter Zwerg-Linie von A nach D]
+[Diagram: Viereck ABDC mit punktierter Diagonale von C nach B]
+
+### Vorbereitung.
+
+Man ziehe den zwerg-Strich BC.
 
 ### Beweiß.
 
-AB ⟛ CD n. 35. Beschr.
-Drw. BAD ⋀ ADC n. 29. Vortr.
-AC ⟛ BD n. 35. Beschr.
-Drw. CAD ⋀ ADB n. 29. Vortr.
-AD | AD
-α. Dw. AB | CD
-β. und AC | BD
-γ. und ABD ⋀ ACD
-δ. und ACD ⩓ ABD nach 26. Vortr.
-BAD + DAC ⋀ BDA + ADC n. 2. Gr:S.
-ε. oder BAC ⋀ BDC n. 9. Gr:S. q.
+AB           ╪    CD          n. 3. Gegeb.
+Dw.    ABC ⋏ BCD              n. 29. Vortr.
+       BC   |     BC
+AB + BC  |  CD + BC  nach 2. Gr-S.
+Drw.   AC    |    BD   }  nach 4. Vortr.
+und    ACB   ⋏    DBC  }
+Drw.   AC    ╪    BD          nach 27. Vortr.
 
-<!-- Catchword: Be- -->
+### Beschluß.
+
+Werden also diejenigen geraden Striche/ welche Nebenstriche rechtmäßig zusammen hängen/auch gleich-grosse Nebenstriche seyn. W. Z. B.
+
+<!-- Catchword: Der -->

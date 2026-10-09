@@ -1,39 +1,35 @@
-<!-- Page number: 344 -->
+<!-- Page number: 343 -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-### I. Gegebene.
+II. Vorbereitung ist wie die I. Vorher.
 
-1. Dreyeck ABC
-2. u. DFE
-3. ABC ⋏ DEF
-4. ABC ⩓ EFD.
-
-### Begehrtes.
-
-AB : DE ⊤ EF : BC.
-
-[Diagram: Dreyecke D E A, F B C oben; darunter die Punkte d, e, b, a und der punktierte Strich nach c]
-
-### I. Vorbereitung.
-
-1. Es werde gemacht abc ⩓ ABC n. 22. I.
-2. Die Seiten ab und ce werden gegen d und f verlängert.
-3. Es werde ed ⊤ ED
-4. und ef ⊤ EF   n. 3. I.
-5. Auch werde df
-6. Wie auch dc gezogen.
-
-### Beweiß.
+### II. Beweiß.
 
 |  |  |  |
 |---|---|---|
-| α | △ abc ⊤ △ ABC | n. 1. Vorb. |
-|  | △ efd gleichmässiger Höhe △ edc | n. 4. Beschr. VI. |
-| Dw. | △ efd : △ edc ⊤ ef : ec | n. 1. VI. |
-|  | △ eac gleichmässiger Höhe △ edc | n. 4. Beschr. VI. |
-| β Dw. | △ eac : △ edc ⊤ ab : ed | n. 1. VI. |
-|  | △ efd ⊤ △ FED | n. 4. I. |
-|  | △ ABC ⊤ △ EFD | n. 4. Gegeb. |
+|  | ab : eh ⊤ fe : db | n. 4. Geg. |
+| oder | AB : BI ⊤ FE : EB | n. Anh. 7. V. |
+|  | AB : BI ⊤ □ AD : □ EI | n. 1. VI. |
+| Dw. | FE : EB ⊤ □ AD : □ EI | n. 11. V. |
+|  | FE : EB ⊤ □ FH : □ EI | n. 1. VI. |
+| Dw. | □ AD : □ EI ⊤ □ FH : □ EI | n. 11. V. |
+|  | □ EI ⊤ □ EI |  |
+| Dw. | □ AD ⊤ □ FH | n 9. V. |
+| oder | □ ad ⊤ □ fh | n 1. Vorb. |
 
-<!-- Catchword: Dw. -->
+### Beschluß.
+
+Wenn derowegen gleichmässige oder gleichgrosse Nebenstrichichte Vierecke / welche einen gleichmässigen Winckel haben/ gegeben werden/ so haben dieselben auch bey den gleichmässigen Winckeln wechselmässige Seiten.
+
+Und welche Vierecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ die sind gleichmässig oder gleichgroß. W.Z.B.
+
+## Der XV. Vortrag.
+
+## Das 10. Beweiß-Stück.
+
+Gleichmässige/ und einen gleichmässigen Winckel habende Dreyecke/ haben auch bey dem gleichmässigen Winckel wechselmässige Seiten.
+
+Und welche Dreyecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ dieselben sind gleichmässig.
+
+<!-- Catchword: I. Gegebene. -->

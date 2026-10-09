@@ -1,30 +1,18 @@
-<!-- Page number: 304 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Page number: 303 -->
 
-### I. Gegebene. — Begehrtes.
+IV. Die Höhe einer jedweden Gestalt wird durch den aus dem Gipffel oder Spitze auf den Grundstrich gezogenen Senckstrich vorgestellet.
 
-1. Dreyeck abc
-2. Dreyeck def — ab : de | △ abc : △ def.
-3. Die Höhen cq | fq
-4. Grundstriche ab | 3 db
+V. Eine aus Verhältnüssen zusammen gesetzte Verhältnüß wird genennet / wenn die Ersten vorgehenden Grössen durch die Andere vorgehende / und die Erste nachgehende durch die Andere nachgehende Verhältnüß-Grösse vervielfältiget / (oder vielmehr die Erste Vorgehende nach der andern Nachgehenden / und Andere vorgehende durch die andere Nachgehende außgebreitet oder außgespannet) wird.
 
-[Diagram: Zwei Dreiecke mit gemeinsamer Grundlinie u t d q e q a r s b, aus den Gipffeln f und c gehen gestrichelte und ausgezogene Striche auf die Grundlinie herab]
+VI. Ein an einen geraden Strich angeschlagenes (applicatum) mangelhafftes Viereck wird genennet / welches den geraden Strich nicht außfüllet. Ein übertreffendes Viereck aber ist / welches auf dem Strich / an welchen es angeschlagen wird / nicht Raum hat / sondern einen längern Strich erfordert. Doch also / daß so wol das mangelende / als das überflüssige Viereck eine gleichmässige Höhe mit dem angeschlagenen Vierecke habe / und mit demselbigen ein gantzes nebenstrichiges Viereck mache.
 
-### Vorbereitung.
+VII. Eine Gestalt / wenn sie an einen geraden Strich angeschlagen wird / bedeutet / daß man eine solche Länge finde / nach welcher der gedachte Strich außgebreitet eine der angeschlagenen Gestalt gleichmässige oder gleichgrosse viereckichte Gestalt zuwegen bringet.
 
-1. Des grössern Dreyecks abc Grundstrich ab, welcher dreyfach gegen des kleinern Dreyecks def Grundstrich de ist/ werde in solche Stücke getheilet/ welche dem Grundstrich de gleichmässig sind n. 3. I.
+## Der I. Vortrag.
+## Das 1. Beweiß-Stück.
 
-de|ar|rs|sb.
+Diejenigen Dreyecke oder Vierecke / welche gleichmässige Höhen haben / verhalten sich also / wie ihre Grundstriche / gegen einander.
 
-2. Aus dem Gipffel c werden gerade Striche auf des Grundstrichs Abtheilungen gezogen/ nemlich cr und cs.
-
-3. Der Grundstrich de des kleinern Dreyecks werde verlängert.
-
-4. Von diesem verlängeten Strich werde ein Stück eu|ab abgeschnitten n. 3. I.
-
-5. Auf diesen Strich ab werden auch gesetzet die Längen dt|tu|de n. 3. I.
-
-6. Werden die Striche ft und fu gezogen.
-
-<!-- Catchword: Beweiß- -->
+<!-- Catchword: I. Ge- -->

@@ -1,36 +1,34 @@
-<!-- Page number: 316 -->
+<!-- Page number: 315 -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-Dw. eb : ba | cb : ba — n. 7. V.
-eb : ba | cd : da — n. 2. VI.
-Dw. cd : da | cb : ba — n. 11. V.
+### I. Gegebene.
 
-## Des III. Vortrags II. Gegebene.
+1. Dreyeck abc
+2. Gerader Strich bd,
+3. Welcher den Winckel b theilet
+4. Also/ daß abd ⋏ cbd
+5. Und auch den Grundstrich ac in ad und cd theilet.
 
-1. Dreyeck abc.
-2. Strich bd
-3. Grundstrich ac
-4. getheilet in ad und dc
-5. also/ daß cd : ad | cb : ba.
+### Begehrtes.
 
-Die Vorbereitung ist eben so/ wie zuvor.
+cd : da | cb : ba.
 
-### Beweiß.
+[Diagram: Dreyeck abc mit dem Strich bd auf den Grundstrich ac, die Seite ab ist gestrichelt gegen e verlängert und der gestrichelte Strich ce gezogen]
 
-bd ⧣ ec — n. Vorber.
-∝ Dw. abd ⋏ bec
-β u. dbc ⋏ bce — n. 29. I.
-u. eb : ba | cd : da — n. 2. VI.
-cb : ba | cd : da — n. Gegeb.
-Dw. cb : ba | eb : ba — n. 11. V.
-u. cb | eb — n. 9. V.
-Dw. bec ⋏ bce — n. 5. I. ∝.
-u. abd ⋏ bce
-Dw. abd ⋏ dbc — n. 1. Gr. I. β.
+1. Der Strich oder Seite ab werde nach Nothdurfft verlänget gegen e.
+2. Aus dem Düttel c werde ein Nebenstrich gegen bd gezogen/ biß er dem verlängerten Strich in e aufstösset/ nemlich ce. n. 31. I.
 
-### Beschluß.
+### I. Beweiß.
 
-Wenn derowegen ein Strich den Winckel eines Dreyeckes in zween gleiche Theile schneidet/ und auch den Grundstrich theilet/ so stehen die Stücke des Grundstriches mit denen Seiten des Dreyeckes in ebenmässiger Verhältnüß.
+bd ⧣ ec — n. 2. Vorb.
+Dw. bec ⋏ abd
+u. cbd ⋏ bce — n. 29. I.
+cbd ⋏ abd — n. 4. Gegeb.
+Dw. abd ⋏ bce — n. 1. Gr.
+u. cbd ⋏ bce — n. 29. I.
+Dw. be | cb — n. 6. I.
+ba | ba
 
-<!-- Catchword: Und -->
+<!-- Signature: Rr 2 -->
+<!-- Catchword: Dw. -->

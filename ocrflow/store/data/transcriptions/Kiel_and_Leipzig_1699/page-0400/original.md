@@ -1,24 +1,28 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 384 -->
+<!-- Page number: 383 -->
 
-### Gegebene.
+### Andere Ahrt.
 
-1. Dreyeck ABC, welches
-2. Rechtwincklicht und
-3. Auf der dem rechten Winckel A übergespanneten Seite BC stehende □ Bd oder △ BCD.
-4. Zwey Dreyeck AHC und AFB, oder □ AI + □ AF, welche
-5. Auf den beyden Seiten AB und AC, so den rechten Winckel A begreiffen/ stehen.
+Noch leichter geschicht diese Theilung nach dem XI. Vortrag des II. Buchs.
 
-### Begehrtes.
+[Diagram: Rechteck mit punktierten Bogenlinien und den Punkten b, a, g, c, h, f, a, d, e]
 
-△ DBC | △ AHC + △ AFB.
-□ BD | □ AI + □ AF.
+### Beweiß.
 
-[Diagram: zwei Konstruktionszeichnungen; links Dreieck ABC mit Punkten F, A, H, B, K, C und D; rechts Figur mit Punkten I, H, A, G, C, F, K, B, D, E]
+|  |  |  |  |
+|---|---|---|---|
+|  | □ ac | □ abc | n. 11. II. |
+|  | acg ⋀ | hcb | n. 13. I. |
+| Dw. | □ ac wechselmässig □ abc |  |  |
+| und | ab : ac | ac : cb | n. 14. VI. |
 
-### Vorbereitung.
+Dw. ist ab im c nach der äusersten und mittelsten Verhältnüß getheilet. W. Z. M.
 
-Aus dem rechten Winckel A werde auf den Strich BC ein Senckstrich AK gezogen. n. 12. I.
+## Der XXXI. Vortrag.
 
-<!-- Catchword: Beweiß. -->
+## Das 21. Beweiß-Stück.
+
+In allen rechtwincklichten Dreyecken ist allezeit diejenige geradstrichichte Gestalt/ welche auf die/ dem rechten Winckel gegen überstehende/ Seite gesetzet wird/ denen beyden Gestalten/ so auf den übrigen beyden/ den rechten Winckel begreiffenden/ Seiten stehen/ und der ersten Gestalt ähnlich/ auch gleicher weise gesetzt sind/ gleichmässig.
+
+<!-- Catchword: Gegebene. -->

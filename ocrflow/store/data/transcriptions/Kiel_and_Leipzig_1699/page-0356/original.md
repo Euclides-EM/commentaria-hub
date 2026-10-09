@@ -1,37 +1,44 @@
-<!-- Page number: 340 -->
+<!-- Page number: 339 -->
 
-<!-- Running title: Das VI. Buch -->
-
-2. auf welchen die Längen der Striche AD und
-3. CD gesetzet werden ad ⊤ AD / cd ⊤ CD   n. 3. I.
-4. Der gantze Strich ac wird in zween gleiche Theile getheilet n. 10. I.
-5. Aus dem Mittel g wird nach der Weite ag ein Halbkreyß beschrieben,
-6. Aus dem Düttel d, wo die beyden Striche zusammen stossen/ werde biß zu dem Kreyßzug ein Senckstrich db gezogen. n. 11. I.
-
-### Vorbereitung.
-
-Es werden die beyden geraden Striche ab und cb gezogen.
+<!-- Running title: Euclidis. -->
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-|  | abc ⋏ ∟ | n. 31. III. |
+|  | bc ⊤ de | n. 7. Wirck. |
+| Dw. | ab : bd ⊤ ac : ce | n 2. VI. |
+| und | ab : ac ⊤ bd : ce | n. 16. V. |
+| oder | AB : AC ⊤ BD : ce | n. Anh. 7. V. |
 
-Der Strich bd ist ein aus dem rechten Winckel auf den Grundstrich gezogener Senckstrich n. 6. Wirck.
-
-|  |  |  |
-|---|---|---|
-| Dw. sind | △ abd ähnlich △ cbd | ⟩ |
-| und | △ abd △ abc |  |
-| und | △ cbd △ abc | n. 8. VI. |
-| Dw. | ad : db ⊤ db : cd | n 1. Besch. VI. |
-| oder | AD : db ⊤ db : CD. | n. Anh. 7. V. |
-
-Dw. der Strich db ein Mittel-ebenmässiger Strich.
+Dw. der Strich ce der vierte ebenmässige Strich.
 
 ### Beschluß.
 
-Ist also zu den beyden gegebenen geraden Strichen AB und CD der mittel-ebenmässige Strich db gefunden. W. Z. M.
+Ist also zu den drey gegebenen Strichen AB, AC, AD der vierte ebenmässige Strich ce gefunden. W. Z. M.
 
-<!-- Catchword: Der -->
+## Der XIII. Vortrag.
+
+## Das 5. Werck-Stück.
+
+Zu zweyen gegebenen geraden Strichen einen mitlern ebenmässigen (mediam proportionalem) Strich zu finden.
+
+### Gegebene.
+
+1. Der Strich AD
+2. CD
+
+### Begehrte.
+
+1. Der Strich db
+2. AD : db ⊤ db : CD.
+
+[Diagram: Striche A—D und C—D; darunter ein Halbkreis über der Grundlinie a d g e mit Scheitelpunkt b und Strichen von a und e nach b]
+
+### Wirckung.
+
+1. Werde gezogen der Strich ae.
+
+<!-- Signature: Uu 2 -->
+
+<!-- Catchword: 2. auf -->

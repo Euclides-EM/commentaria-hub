@@ -1,36 +1,31 @@
-<!-- Page number: 44 -->
+<!-- Page number: 43 -->
 
-<!-- Running title: Das I. Buch -->
-
-CE + ED ⊣ DC n. 20. Vortr.
-BD | BD
-CE + ED + BD ⊣ DC + BD n. 4. Gr-S.
-oder CE + AB ⊣ DC + BD n. 9. Gr-S. q.
-EA + AB ⊣ EB n. 20. Vortr.
-EC | EC
-EA + AB + EC ⊣ EB + EC n. 4. Gr-S.
-oder CA + AB ⊣ EB + EC n. 9. Gr-S. q.
-ß Drw. CA + AB ⊣ DC + BD n. 1. Gr-S. e.
+<!-- Running title: Euclidis -->
 
 ### Beschluß.
-Müssen also zwar die einwerts auffgesetzten Striche
-BD + DC ⊢ BA + AC n. Beweiß ß.
-Aber einen grössern Winckel begreiffen / nemlich
-BDC ⲗ BAC n. Bew. a. W. Z. B.
+Sind derowegen in jedweden △ zwo Seiten grösser/ als die Dritte. W. Z. B.
 
-## Der XXII. Vortrag.
+## Der XXI. Vortrag.
 
-## Das 8. Werck-Stück.
+## Das 14. Beweiß-Stück.
 
-Aus drey geraden Strichen / welche drey andern gegebenen geraden Strichen gleich sind / ein Dreyeck zu verfertigen. Es müssen aber allezeit zween Striche/ auff waserley Weise genommen/ zusammen/ grösser seyn/ als der dritte.
+Wenn in einem Dreyeck / auff einer dessen Seite Endsdüttele/ zween gerade Striche einwerts gesetzet werden; So werden diese beede Striche zwar kleiner seyn/ als die beyden Seiten-Striche des Dreyeckes / sie werden aber einen Winckel / so grösser/ als des Dreyecks Winckel ist/ begreiffen.
 
-### Gegebene. Begehrte.
-Drey Striche 1. △ ABF
-1. c —— a 2. AB | bc
-2. c ——— b 3. BF | ba
-3. a ——— b 4. AF | ac
-4. ca + cb ⊣ ab
-5. cb + ab ⊣ ca
-6. ca + ab ⊣ cb
+### Gegebene. Begerthe.
+1. △ ABC BD + DC ⊢ BA + AC
+2. Zween gerade Striche BD und CD. BDC ⲗ BAC.
+3. Auf die Endsdüttele des Gr-Strichs. B und C
+4. Einwerts auffgesetzet.
 
-<!-- Catchword: Wir- -->
+### Vorbereitung.
+Es werde der Strich BD biß zu E verlängert.
+
+[Diagram: Dreieck ABC mit A oben, B unten links, C unten rechts; im Innern die Punkte D und E, Striche von B über D nach E und von C nach D und E.]
+
+### Beweiß.
+CED ⲗ CDB |
+BAC ⲗ DEC | n. 16. Vortr.
+Drw. BAC ⲗ CDB n. 1. Grund-S. f.
+
+<!-- Signature: F 2 -->
+<!-- Catchword: CE -->

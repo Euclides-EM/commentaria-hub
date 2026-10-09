@@ -1,37 +1,30 @@
-<!-- Running title: Das I Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 56 -->
+<!-- Page number: 55 -->
 
-### 1. Beweiß.
-
-AGH ⋏ EGB           n. 15. Vortr.
-GHD ⋏ EGB           n. 3. Gegeb.
-Dw. GHD ⋏ AGH       n. 1. Gr-S.
-und   AB ╪ CD       n. 27. Vortr. W. Z. B.
-
-### 2. Beweiß.
-
-AGH + GHC ⋏ ⏥                     n. 6. Gegeb.
-DHG + GHC ⋏ ⏥                     n. 13. Vortr.
-Dw. DHG + GHC ⋏ AGH + GHC         n.1. und 10. Gr-S.
-          GHC ⋏       GHC
-Dw. DHG        ⋏ AGH              n.3. Gr-S.
-und        AB ╪ CD                n. 27. Vortr.
+Solten sie aber bey A zusammen kommen / so würde
+        GHC ⊼ BGH      n. 16. Vortr.
+    welches widerumb gegen das 3. Gegeb.
 
 ### Beschluß.
 
-Werden also allezeit diejenigen Striche/ bey welchen der einfallende Strich die aus-und inwendigen Winckel gleich groß/ die beeden inwendigen Winckel aber zweyen ⏥ gleich machet/ gerade Nebenstriche seyn. W. Z. B.
+Können also diese Striche AB und CD weder auff der einen/ noch auff der andern Seite zusammen kommen / sondern müssen Neben-Striche seyn / n. 34 Beschreibung.   W. Z. B.
 
-Vorsatz (Lemma)
+## Der XXIIX. Vortrag.
 
-Wenn ein auff zween gerade Striche einfallender Strich/ auff der einen Seite zweene Winckel/welche kleiner/als zween rechte Winckel sind/ machet/so werden gedachte beede Striche nach nothturfft verlänget auff selbiger Seite / wo die zween Winckel kleiner/ als zween rechte Winckel sind / zusammen stossen.
+## Das 19. Beweiß-Stück.
+
+Wenn der auff zween gerade Striche einfallende gerade Strich / den auswendigen / dem auff selbiger Seite inwendig entgegen stehenden Winckel/ gleich groß machet : Oder auch die beeden inwendige aufft eben derselben Seite / neben-Winckel / zweyen rechten Winckeln gleich machet : So werden es auch Neben-Striche seyn.
 
 ### Gegebene.                              Begehrtes.
-1. Zween gerade Striche AB und CD,     1. Zusammenkunfft der beyden Striche AB und CD,
-2. Der gerade
-3. Einfallende Strich IK.
-4. Zween auff einer Seite stehende     2. Und zwar auff der Seite gegen B und D in G.
-        Winckel.
-5. BEF + DFE ⊼ ⏥
+1. Zween gerade Striche AB und CD      AB ═══ CD
+2. Einfallender gerader Strich   EF
+3. Außwen-        EGB ⋏ GHD   inwendig ent-
+        dige      EGA ⋏ GHC   gegen stehende.
+4. [unclear: Inwegendige]
+5. Auff eben selbiger Seite
+6. Gegeneinanderstehende BGH + GHD | [unclear: ⏥]
 
-<!-- Catchword: Be- -->
+[Diagram: Zwei waagerechte Striche AB und CD, vom schrägen Strich EF in G und H geschnitten]
+
+<!-- Catchword: 1. Be- -->

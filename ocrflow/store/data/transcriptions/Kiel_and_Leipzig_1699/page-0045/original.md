@@ -1,34 +1,34 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I Buch -->
 
-<!-- Page number: 29 -->
+<!-- Page number: 28 -->
 
-### Wirckung.
-
-1. Aus dem Düttel A wird ein Kreyß-Stück nach beliebiger grösse gezogen / welches AD | AE von den beeden Winckel-Strichen AB und AC abschneide.
-2. Wird der Strich DE gezogen / nach 1. Foder.
-3. Auff den Strich DE wird ein gleichseitiges △ DEF gesetzt/ nach 1. Vortr.
-4. Aus dem Düttel A wird ein gerader Strich AF zu dem Gipffel des gemachten △ gezogen.
-
-[Diagram: Winckel CAB mit Scheitel A, darinn die Düttele E und D, punktierte Striche und der Strich AF zum Gipffel F]
+[Diagram: zwey Dreyecke ABC und DEF nebeneinander]
 
 ### Beweiß.
 
-AD | AE nach 3. Vortrag.
-AF | AF
-AD + AF | AE + AF nach 2. Grund-S.
-DF | EF nach 1. Vortr.
-Dw. DAF ⋏ EAF nach 8. Vortr.
+Auff den Grund-Strich BC setze man die zween Striche ED und FD, auff dieselbe Seite / an welcher die Striche AB und AC stehen/ so werden sie zusammen kommen in dem Düttel A, nach 7. Vortr. und werden sich alßdann die beeden Winckel BAC und EDF zusammen schicken/und auch ein ander gleich seyn/nach 8. Grund-Satz. W. Z. B.
 
-### Beschluß.
+I. Zugabe.
 
-Und ist also der gegebene Winckel ABC in zween gleiche theile getheilet / W. Z. M.
+Weil in den beeden Dreyecken
+Die Seiten-Striche AB + AC | DE + DF
+und die Grund-Striche BC | EF wären
+Darnach BAC ⋏ EDF bewiesen/
+so folget daß
 
-## Der X. Vortrag.
+ABC ⋏ DEF
+BCA ⋏ EFD
+und ABC ⏉ DEF } alles nach 4. Vortr. W. Z. B.
 
-## Das 5. Werckstück.
+## Der IX. Vortrag.
 
-Einen geraden endlichen Strich in zween gleiche Theile zu theilen.
+## Das 4. Werck-Stück.
 
-<!-- Signature: D 3 -->
+Einen gegebenen gerad-strichichen Winckel in zweene gleiche Theile zu theilen.
 
-<!-- Catchword: Ge- -->
+### Gegebenes | Begehrtes
+
+Gerad-strichicher Winckel | 1. theilung des ⋀ BAC.
+⋀ BAC. | 2. BAF ⋏ CAF.
+
+<!-- Catchword: Wir- -->

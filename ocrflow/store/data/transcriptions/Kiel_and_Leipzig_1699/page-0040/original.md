@@ -1,35 +1,31 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 24 -->
+<!-- Page number: 23 -->
 
-### Gegebene. | Begehrtes.
+DA + AC | EA + AB nach 2. Gr.S.
+DAC ⋏ EAB nach 8. Gr.S.
+Dw. DC | EB
+α. und ADC ⋏ AEB } alles nach 4. Vortr.
+β. und ABE ⋏ ACD
 
-1. Das △ ABC | AB | AC
-2. ABC ⋏ ACB
+BD + DC | CE + EB nach 2. Vortr.
+BDC ⋏ CEB nach Beweiß α.
+δ. Dw. BCD ⋏ CBE
+γ. und BCE ⋏ CBD } alles nach 4 Vortr.
 
-[Diagram: Dreyeck ABC mit Punkt D auff der Seite AB und punktiertem Strich DC]
+ABE ⋏ ACD nach Bew. β
+CBE ⋏ BCD nach Bew. δ
+ABE — CBE ⋏ ACD — BCD nach 3. Gr.S.
+ε. oder ABC ⋏ ACB.
 
-### Beweiß.
+### Beschluß.
 
-Entweder ist AB | AC
-oder AB ⊣ AC
-oder AB ⊢ AC
+Sind also in dem gleich-schencklichten △ ABC die beeden Winckel auff dem Gr. Strich. ABC ⋏ ACD ε, wie auch unter dem Grund-Strich BCE ⋏ CBD. γ. W. Z. B.
 
-### Vorbereitung.
+## Der VI. Vortrag.
 
-wenn AB ⊣ AC
-so schneide man von AB ab
-ein Stück AD | AC nach 3. Vortr.
-α Darnach ziehe man den geraden Strich CD.
-verfolg des Beweises/
+## Das 3. Beweiß-Stück.
 
-DB | AC nach Vorber. α
-BC | BC
-DB + BC | AC + BC nach 2. GrS.
-DBC ⋏ ACB nach Gegeb. 2.
-Dw. DCB ⏉ ABC nach 4. Vortr.
-Welches aber unmüglich nach 9. GrS.
+Wenn in einem △ zweene Winckel/ jedweder jedwedem absonderlich/gleich sind/so sind auch diejenigen Seiten/welche solchen beeden Winckeln gegen überstehen / von gleicher Grösse.
 
-Gleiche Beschaffenheit wird es haben / wenn man sagen wolte AB ⊢ AC.
-
-<!-- Catchword: Beschluß. -->
+<!-- Catchword: Gege- -->

@@ -1,28 +1,33 @@
-<!-- Page number: 312 -->
+<!-- Page number: 311 -->
 
-<!-- Running title: Das VI. Buch -->
-
-## Der II. Vortrag.
-
-## Das 2. Beweiß-Stück.
-
-Wenn gegen eines Dreyeckes eine Seite ein gerader Nebenstrich gezogen wird/ so schneidet solcher Strich die übrigen Seiten nach der Ebenmaß. Und wenn ein gerader Strich zwo des Dreyeckes Seiten nach der Ebenmaß schneidet; so wird er ein Nebenstrich des Grundstrichs seyn.
-
-### I. Gegebene.
-
-1. Dreyeck abc.
-2. Strich de
-3. de ⧣ cb.
-4. Das Dreyeck schneidend.
+<!-- Running title: Euclidis. -->
 
 ### Begehrtes.
 
-ae : ec | ad : db.
+Grundstriche ab | ef.
 
-[Diagram: Dreyeck mit Gipffel a und Grundlinie bc, darin der Strich de nebst gestrichelten Strichen be und cd]
+[Diagram: Zwei Dreyecke A und B mit den Punkten a, g, b, c, d, e, f, links das Dreyeck A über der Grundlinie a g b, rechts das Dreyeck B über e f, mit gestrichelten Hülffslinien]
 
 ### Vorbereitung.
 
-Es werden die geraden Striche be und cd gezogen.
+Wenn ab ⊣ ef — so mache man
+bg | ef — n. 3. I.
 
-<!-- Catchword: Beweiß. -->
+und ziehe den Strich cg.
+
+### Beweiß.
+
+bg | ef — n. Vorb.
+Dw. bc : ed | △ gbc : △ B — n. 1. VI.
+bc : ed | △ abc : △ B — n. Gegeb.
+Dw. △ gbc : △ B | △ abc : △ B — n. 1. V.
+u. △ gbc | △ abc oder △ A — n. 14. V.
+
+Welches aber unmüglich n. 9. Gr. I.
+Eben dergleichen würde folgen/ wenn man sagen wolte
+
+ab ⊢ ef
+
+Gleicher Gestalt kan auch erwiesen werden/ daß derer nebenstrichichten Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ ihre Grundstriche gleicher Grösse seyn müssen. W. Z. B.
+
+<!-- Catchword: Der -->

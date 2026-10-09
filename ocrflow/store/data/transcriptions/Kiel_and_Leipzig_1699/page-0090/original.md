@@ -1,36 +1,35 @@
-<!-- Page number: 74 -->
+<!-- Page number: 73 -->
 
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-Gleiche Bewandniß hat es / wenn man den Nebenstrich durch G ziehen wolte.
+### Gegebene. | Begehrte.
+1. △ ABC | 1. CE durch die Gipffel der △ △
+2. △ FEH | 2. CE ⟛ AH
+3. ABC ⩓ FEH
+4. Grundstriche AB | FH
+5. Gleichmässiger Stand derer △ △.
 
-### Beschluß.
-
-Müssen also alle gleichgrosse △ △ , so auff gleichlangen Grundstrichen gleichmäßig stehen/ auch zwischen einerley Nebenstrichen stehen. W. Z. B.
-
-## Der XLI. Vortrag.
-
-## Das 31. Beweiß-Stück.
-
-Wenn ein Nebenstrichiches Viereck mit einem Dreyeck auff einem einigen Grundstrich stehet / und sich zwischen einerley Nebenstrichen befinden; so ist das Viereck noch eins so groß/als das Dreyeck.
-
-### Gegebene. | Begehrtes.
-1. □ ABDE | □ ABDE | 2 △ ABC.
-2. △ ABC
-3. Gemeiner Grundstrich AB
-4. EC = AB
-5. Zwischen welchen □ und △ stehen.
-
-[Diagram: Viereck mit den Puncten C, D, E oben und B, A unten, mit gezogenen und punctirten Strichen]
-
-### Vorbereitung.
-
-Man ziehe den Zwerg-Strich AD
+[Diagram: zwey Dreyecke auff dem Strich A, B, F, H, mit den Puncten C, D, E, G oben, mit gezogenen und punctirten Strichen]
 
 ### Beweiß.
 
-□ ABDE | 2 △ ABD n. 34. Vortr.
-ABC ⩓ ABD n. 37. Vortr.
-Drw. □ ABDE | 2 △ ABC n. 6. Grund:S. k.
+Wenn der Nebenstrich des Striches AH nicht durch den Gipffel E gehet/ so ziehe man einen andern.
 
-<!-- Catchword: Beschluß. -->
+### Vorbereitung.
+
+1. Werde auß C, entgegen AH, der Nebenstrich CD gezogen/ nach 31. Vortrag.
+2. Verlänge man die Seite HE biß D.
+3. Ziehe man den Strich FD.
+
+### Verfolg des Beweises.
+
+CD ⟛ AH n. 1. Vorbereit.
+AB | FH n. 4. Gegeb.
+Dw. ABC ⩓ FDH n. 38. Vortr.
+ABC ⩓ FEH n. 3. Gegeb.
+Dw. FEH ⩓ FDH n. 1. Grund-Satz.
+welches aber unmöglich n. 9. Gr:S.
+
+<!-- Signature: K -->
+
+<!-- Catchword: Gleiche -->

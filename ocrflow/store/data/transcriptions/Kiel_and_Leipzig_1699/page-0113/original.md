@@ -1,32 +1,30 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 97 -->
+<!-- Page number: 96 -->
 
-[Diagram: Strich A C B, darunter ein Quadrat a b f d mit innerer gestrichelter senkrechter Linie durch i, c und gestrichelter waagerechter Linie e g k.]
+## Der IV. Vortrag.
 
-### Beweiß.
+## Das 4. Beweiß-Stück.
 
-ab | ac + cb — n. 9. Gr. 4. [unclear: I.]
-ac | ac
-□ cab | □ ac + □ acb — n. 3. II.
-ab | ac + cb
-bc | cb
-□ abc | □ acb + □ cb — n. 3. II.
-□ cab + □ abc | □ ac + 2 □ acb + □ cb — n. 1. Gr. I.
-ca + bc | ab
-ab | ab
-□ ab — n. 2. II.
-□ cab + □ abc | □ ca + 2 □ acb + □ cb — n. 1. Gr. I.
-Dw. □ ab | □ AC + 2 □ ACB + □ CB
-oder AB |
+Wenn ein Strich in zwey Stücke auff waserley weise getheilet ist/ so wird das gleichseitige Viereck des gantzen Strichs eben so groß seyn/ als die beeden gleichseitigen Vierecke der beeden Stücke/ nebst dem Viereck/ so von den beeden Stücken begriffen wird/ zweymahl genommen.
 
-### Beschluß.
+### Gegebenes. | Begehrtes.
 
-Ist also allezeit das □ des gantzen Striches AB, so groß/ als die beeden □ □, so von des Strichs AB beeden Stücken AC und CB gemacht/ samt dem □, welches von gedachten beeden Stücken begriffen wird/ zweymahl genommen. W. Z. B.
+1. Der gerade Strich AB — □ AB | AC + 2 □ ACB + □ CB
+2. getheilet in C
+3. AB | AC + CB
 
-[Other type="stamp"]
-Bayerische Staatsbibliothek München
-[/Other]
+### Vorbereitung.
 
-<!-- Signature: N -->
-<!-- Catchword: Nach -->
+1. Werde der Strich ab | AB gezogen n. 2. I.
+2. Werde das □ abfd gemacht n. 46. I.
+3. - - Die Seite ab getheilet in c also
+daß ac | AC
+und cb | CB
+4. Es werde auch ad getheilet in e,
+daß ae | AC
+und ed | CB werde n. 3. I.
+5. Werden ek ⧺ ab
+und ci ⧺ ad — n. 31. I.
+
+<!-- Catchword: Beweiß. -->

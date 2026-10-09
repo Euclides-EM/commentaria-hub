@@ -1,37 +1,34 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 179 -->
+<!-- Page number: 178 -->
 
-## Der XXX. Vortrag.
+## Der XXIX. Vortrag.
 
-## Das 4. Werckstück.
-Einen gegebenen Bogen in zween gleiche Theile zu theilen.
+## Das 26. Beweiß-Stück.
+In gleichgrossen Kreysen werden gleichgrosse Bogen von gleichlangen Strichen überspannet.
 
-### Gegebenes.
-Kreyßstück oder Bogen adb.
+### Gegebene.
+1. Gleichgrosse Kreyse bgcb | ebfe.
+2. bc ⊻ ef.
+3. bgc ⏀ ehf.
 
 ### Begehrtes.
-ad ⊻ db.
+bc | ef.
 
-### Wirckung.
-1. Der Strich ab werde in zween gleiche Theile getheilet. n. 10. I.
-2. Auff das Mittel c werde ein Senckstrich cd gesetzet. n. 11. I.
-
-[Diagram: Kreyßstück über dem Strich ab mit dem Senckstrich cd; die Striche ad und bd punctirt]
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, a, b, c, der andere mit h, d, e, f; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]
 
 ### Vorbereitung.
-Es werden gezogen die beyden geraden Striche ad und bd.
+Es werden gezogen die Stralen ab, ac, de, df.
 ### Beweiß.
 
-ac | bc   n. 1. Wirck.
-cd | cd
-Dw. ac + cd | bc + cd   n. 2. Gr. I.
-acd ⋀ bcd   n 11. I. und n. 10. Beschr. I.
-Dw. ad | bd   n. 4. I.
-und ad ⊻ bd   n. 28. III.
+ba | ed
+ac | df } n. 1. Beschr. III.
+Dw. ba + ac | ed + df   n. 2 Gr. I.
+bc ⊻ ef   n. 2. Gegeb.
+Dw. bac ⋀ edf   n. 27. III.
+und bc | ef   n. 4. I.
 
 ### Beschluß.
-Ist also der gegebene Bogen adb in zween gleiche Theile ad ⊻ bd getheilet. W. Z. M.
+Werden also allezeit in gleichgrossen Kreysen / gleichgrosse Bogen von gleichlangen geraden Strichen überspannet. W. Z. B.
 
-<!-- Signature: Q 2 -->
 <!-- Catchword: Der -->

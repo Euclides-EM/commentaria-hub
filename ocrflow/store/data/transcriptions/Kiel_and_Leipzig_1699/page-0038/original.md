@@ -1,29 +1,32 @@
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 22 -->
+<!-- Page number: 21 -->
 
-Strich/ bey den verlängeten Seiten-Strichen befindliche Winckel/einer dem andern gleich.
+Keines von beeden kan seyn/ nach dem 9. GrS. muß derowegen der Strich ac nothwendig auff den Strich AC fallen.
 
-### Gegebene. | Begehrte.
+Wann nun des Strichs bc beede End-Düttele b und c auff die beeden Endungen des Strichs BC fallen /so muß der Grund-Strich bc entweder auff den Grund-Strich B, oder darüber/ oder darunter fallen.
 
-1. Gleichschenckliches △ ABC | 1. ABC ⋏ ACB
-2. AB | AC | 2. BCE ⋏ CBD
-3. Die verlängte schenckel BD und CE.
+[Diagram: zwey Dreyecke abc und ABC nebeneinander, unter dem zweyten eine punktierte Bogenlinie zwischen B und C]
 
-### Vorbereitung.
+Uber oder darunter kan er nicht fallen weil sonsten zween gerade Striche eine Gestalt einschliessen würden / welches unmöglich/ nach 12. Grund-Satz.
 
-1. Es werde gemacht BD | CE nach 3. Vortrag.
-2. Werde gezogen der Strich BE
-3. Deßgleichen CD
+### Beschluß.
 
-[Diagram: zwey gleichschencklige Dreyecke ABC mit verlängten Schenckeln bis D und E, dazu punktierte Striche BE und CD]
+Muß also der Grund-Strich abc auff den Grund-Strich ABC fallen/ und deßwegen mit demselben geschicklich eintreffen / dannenhero auch
 
-### Beweiß.
+bc | BC
+bca ⋏ BCA
+cba ⋏ CBA
+abc ⏉ ABC
 
-BD | CE nach 3. Vortr.
-AB | AC nach 2. Gegebenem
-Dw. AB + BD | AC + CE nach 2. Grund-S.
-oder DA | EA nach 9. GrS.
-AC | AB nach 2. Gegeb.
+alles nach 18. GrS. W. Z. B.
 
-<!-- Catchword: DA -->
+## Der V. Vortrag.
+
+## Das 2. Beweiß-Stück.
+
+In jedwedem gleichseitigen Dreyeck sind die beeden auff dem Grund-Strich stehende Winckel ein ander gleich / und die beeden unter dem Grund-
+
+<!-- Signature: C 3 -->
+
+<!-- Catchword: Strich -->

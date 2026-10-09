@@ -1,36 +1,40 @@
-<!-- Page number: 68 -->
+<!-- Page number: 67 -->
 
-<!-- Running title: Das I. Buch -->
-
-BC | GH
-4. AE = BH
-5. Zwischen welchen die □ □ stehen.
-
-### Vorbereitung.
-
-Es werden gezogen die beeden geraden Striche FB und EC.
-
-[Diagram: Vierecke auff den Grundstrichen BC und GH, mit den Puncten A, D, F, E oben und B, C, G, H unten, mit gezogenen Strichen FB und EC]
+<!-- Running title: Euclides. -->
 
 ### Beweiß.
 
-FE ⟛ BC n. 4. Gegeben.
-und FB ⟛ EC n. 33. Vortr.
-AC ⌻ FC
-EG ⌻ FC } n. 35. Vortr.
-Dw. EG ⌻ AC n. 1. Gr:S.
+AB | CD
+FE | CD } n. 34. Vortr.
+Dw. FE | AB n. 1. Gr:S.
+BD | AC
+DE | CF } n. 34. Vortr.
+BF | BF
+BF + FE | AB + BF n. 2. Gr:S.
+oder BE | AF n. 9. Gr:S. q.
+Dw. BDE ⩓ ACF n. Zugab. 8. Vortr.
+BGF ⩓ BGF
+BDE—BGF ⩓ ACF—BGF n. 3. Gr:S.
+oder DEFG ⩓ CABG
+CDG ⩓ CDG
+CDG + DEFG ⌻ CABG + CDG n. 2. Gr:S.
+oder CDEF ⌻ ABDC n. 9. Gr:S. q.
 
 ### Beschluß.
 
-Worauß nun erhellet/ daß alle auff gleichgrossen Grundstrichen/und zwischen einerley Nebenstrichen stehende □ □ gleichgroß seyen. W. Z. B.
+Müssen also alle □ □ , welche einen einigen Grundstrich haben/ und zwischen einerley Nebenstrichen stehen/ (oder gleich hoch sind) gleich groß seyn. W. Z. B.
 
-## Der XXXVII. Vortrag.
+## Der XXXVI. Vortrag.
 
-Das 27 Beweiß-Stück.
+## Das 26. Beweiß-Stück.
 
-Alle auff gleichgrossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Dreyecke sind gleichgroß.
+Alle auff gleich-grossen Grundstrichen / und zwischen einerley Nebenstrichen stehende Vierecke sind gleich-groß.
 
-### Gegebene. | Begehrtes.
-1. △ ABC | ABC ⩓ BCD.
+### Gegebene. | Begehrte.
+1. □ AC | AC ⌻ EG.
+2. □ EG
+3. Grundstriche
 
-<!-- Catchword: 2. △ -->
+<!-- Signature: I 2 -->
+
+<!-- Catchword: BC -->

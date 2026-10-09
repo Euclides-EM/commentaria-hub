@@ -1,37 +1,33 @@
-<!-- Page number: 332 -->
+<!-- Running title: Euclidis. -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Page number: 331 -->
 
-I. Ahrt.
+Dw. | ab : db | 6. : 1. | n. Anh. 7. V.
+u. | db | 1/6 ab | n. Anh. 7. V.
 
-### Wirckung.
+### Beschluß.
 
-1. Auf des Striches ag Endedüttel a werde nach beliebigem Winckel ein gerader Strich ak gezogen.
-2. Von diesem Strich ak werden abgeschnitten drey Striche | ab | AB
-| bc | BC
-| cd | CD | n. 3. I.
-3. Aus d werde zu g der gerade Strich dg gezogen.
-4. Aus b und c werden gegen dg gerade Nebenstriche be und cf gezogen. n. 31. I.
+Ist also von dem Strich ab desselben Sechster Theil db abgeschnitten. W. Z. M.
 
-### Vorbereitung.
+## Der X. Vortrag.
 
-Aus den Düttteln b und c werden gegen ag gerade Nebenstriche bh und co, gezogen. n. 31. I.
+## Das 2. Werck-Stück.
 
-### Beweiß.
+Einen gegebenen geraden ungetheilten Strich eben so/ wie der gegebene getheilte Strich ist/ abzutheilen.
 
-| ab | AB |
-| bc | BC |
-| cd | CD | n. 1. Wirck.
-| be ⧣ dg |
-| cf ⧣ dg | n. 4. Wirck.
-| cf ⧣ be | n. 30. I.
-Dw. | ab : bc | ae : ef | n. 2. V.
-u. | ab : bc | AB : BC | n. 7. V.
-Dw. | AB : BC | ae : ef | n. 11. V.
-| bh ⧣ eg | n. Vorber.
-| be ⧣ hg | n. 4. Wirck.
-Dw. | bi | ef |
-u. | ih | fg | n. 34. I.
-| ci ⧣ dh | n. 4. Wirck.
+### Gegebene.
 
-<!-- Catchword: Dw. -->
+1. Ungetheilter gerader Strich ag.
+2. Getheilter Strich AD in B und C.
+
+### Begehrtes.
+
+1. Der Strich ag also
+2. wie AD getheilet/ daß
+| AB : BC | ae : df
+u. | BC : CD | ef : fg.
+
+[Diagram: zwei Dreiecksfiguren über der Grundlinie A B C D M L C B A; links Dreieck mit den Punkten a, b, c, d, k und punktierten Linien über e, f, g mit i, h; rechts Dreieck mit den Punkten a, b, c, l, m, d und den Zwischenpunkten g, r, f, e, s sowie h, n, i, o, p, q, t, u, x]
+
+<!-- Signature: Tt 2 -->
+<!-- Catchword: I. Ahrt -->

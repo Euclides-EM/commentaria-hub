@@ -1,42 +1,36 @@
-<!-- Page number: 336 -->
+<!-- Page number: 335 -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-### Beweiß.
-
-|  |  |  |
-|---|---|---|
-|  | b1 ⊤ o1 | n. 2. Wirck. |
-|  | b1 ⊤ o1 | n 3. und 4. Wirck. |
-| Dw. | ob ⊤ 11 | n. 33. I. |
-|  | cbo ⋏ ca1 | ⟩ n. 29. I. |
-|  | cob ⋏ c1a |  |
-|  | bco ⋏ ac1 | n. 8. Gr. I. |
-| Dw. | △ boc ähnlich △ ac1 | n 1. Besch. VI. |
-| u. | oc : o1 ⊤ bc : ba | n. 4. VI. |
-
-Gleicher Gestalt kan auch dargethan werden/ daß die übrigen Theile des gegebenen Striches / mit den andern Theilen des getheilten Striches / in richtiger Ebenmaß stehen.
-
-### Beschluß.
-
-Ist also der gegebene Ungetheilte Strich ag, oder FG oder BC also / wie der getheilte Strich AD, AG oder o4 getheilet/ W. Z. M.
-
-## Der XI. Vortrag.
-
-## Das 3. Werck-Stück.
-
-Zu zweyen gegebenen geraden Strichen den dritten ebenmässigen Strich zu finden.
+## Des X. Vortrags III. Ahrt.
 
 ### Gegebene.
 
-1. Strich AB.
-2. AC.
+1. Ungetheilter Strich BC.
+2. Getheilter Strich. o4.
 
 ### Begehrtes.
 
-1. Der dritte Strich cd.
-2. Ebenmässig gegen die beyden
+Der Strich BC getheilet in 1. 2. 3. also / daß
+oc : oi ⊤ bc : ba.
 
-AB : AC ⊤ AC : cd.
+[Diagram: Geometrische Zeichnung mit den Punkten h, o, b, a, c, den Ziffern 1 2 3 auf schrägen Strichen, sowie unten der Strich B C mit den Theilpunkten o 1 2 3 4 und g]
 
-<!-- Catchword: Wir- -->
+### Wirckung.
+
+1. Aus b werde nach beliebigem Winckel ein unendlicher Strich bg,
+
+2. Und aus dem Düttel c ein mit bg gerader Nebenstrich ch gezogen. n. 31. I.
+
+3. Auf den Strich bg werden die Theile des getheilten Striches nacheinander gesetzet. n. 3. I.
+
+4. Auf den Strich ch werden eben solche Theile / doch also gesetzet / daß man von c anfange und c 3 ⊤ 4 3.
+Und so ferner n. 3. I.
+
+5. Es werden die Striche 11. 22. 33. gezogen.
+
+### Vorbereitung.
+
+Es werden auch o b und c 4 gezogen.
+
+<!-- Catchword: Beweiß. -->

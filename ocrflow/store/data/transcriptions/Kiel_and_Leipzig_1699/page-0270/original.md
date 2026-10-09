@@ -1,35 +1,48 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 254 -->
+<!-- Page number: 253 -->
 
 ### Gegebene. — Begehrtes.
 
-[Diagram: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]
+[Diagram: Drey waagerechte Linien, bezeichnet A, a, B]
 
-A ⊣ B — A : a ⊣ B : a
-A | 5a
-B | 3a
+A | B — a : A | a : B
+a | 4A
+a | 4B
 
-### Vorbereitung.
+### II. Beweiß.
 
-## Des I. Theils.
+a | a
+A | B
+4A | 4B — n. Geg.
+Dw. a : 4A | a : 4B
+Und a : A | a : B — n. 7. Besch. V.
 
-1. Man nehme A zweymahl
-2. Wie auch B zweymahl
-3. Aber a siebenmahl.
+### Beschluß.
 
-[Diagram: Drey waagerechte Linien, bezeichnet 2A, 7a, 2B]
+Sind derowegen gleiche Grössen gegen eine Grösse allezeit gleichvielfältig: Und eine einige Grösse ist gegen zwo (oder mehr) gleiche Grössen auch gleichvielfältig. W. Z. B.
+
+## Anhang.
+
+Ebener Gestalt sind gleichgrosse Grössen gegen gleichgrosse Grössen gleichvielfältig.
+
+### Gegebene. — Begehrte.
+
+A B — A : B | a : b
+a / b
 
 ### Beweiß.
 
-A | 5a — n. Geg.
-2A | 10a — n. Vorber. u. 6. Gr. i. I.
-B | 3a — n. Geg.
-2B | 6a — n. Vorber. u. 6. Gr. i. I.
-7a ⊢ 10a — n. 9. Grund. I.
-2A ⊣ 7a — n. 1. Gr. c. I.
-7a ⊣ 6a — n 9. Grund. I.
-Dw. 2B ⊢ 7a — n. 1. Gr. a. I.
-Und A : a ⊣ B : a — n. 8. Beschr. V.
+A | B
+a | b — n. Gegeb.
+A : a | B : b — n. 7. Besch. V. W. Z. B.
 
-<!-- Catchword: Des -->
+## Der VIII. Vortrag.
+
+## Das 8. Beweiß-Stück.
+
+Von ungleichen Grössen ist die Grössere gegen eine einige
+
+<!-- Signature: Ji 3 -->
+
+<!-- Catchword: Grösse -->

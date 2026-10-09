@@ -1,40 +1,40 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch. -->
 
-<!-- Page number: 61 -->
-
-### Beweiß.
-
-ACD ⋏ DCH  n. 4. Wirckung.
-Dw.   AB ╪ CH     n. 27. Vortr.
-
-### Beschluß.
-
-Ist also dem Strich AB, ein Neben-Strich CH, durch den Düttel C, gezogen W. Z. B.
-
-## Der XXXII. Vortrag.
-
-## Das 23. Beweiß-Stück.
-
-Jedwedes Dreyeckes / dessen eine Seite verlängert ist/auswendiger Winckel/ist eben so groß/ als die beeden inwendig gegen überstehende Winckel ; Und jedwedes Dreyeckes drey inwendige Winckel sind zweyen rechten Winckeln gleich.
-
-### Gegebene.                    Begehrte.
-1. △ ABC.                    BAC + ACB ⋏ DBC.
-2. AB verlänget gegen D.     ABC + BAC + ACB ⋏ ⏥
+<!-- Page number: 60 -->
 
 ### Vorbereitung.
 
-1. Gegen die Seite AC werde ein Neben-Strich/ und zwar
-2. Aus dem Düttel B gezogen / nemlich BE n. 31. Vortr.
-
-[Diagram: Dreieck ABC, die Seite AB gegen D verlängert, aus B der Strich BE gezogen; punktierter Bogen von C nach E]
+Durch alle drey Striche AB, EF und CD werde der einfallende Strich GH gezogen.
 
 ### Beweiß.
 
-        AC ╪ BE               n. 1. Vorbereit.
-Dw.   ACB ⋏ CBE  }            n. 29. Vortr.
-und   CAB ⋏ EBD  }
-ACB + CAB ⋏ CBE + EBD         n. 2. Gr-S.
+        BIL ⋏ FLK
+        DKH ⋏ FLK   n. 29. Vortr.
+Dw.   DKH ⋏ BIL     n. 1. Gr-S.
+und     AB ╪ CD     n. 28. Vortr.
 
-<!-- Signature: H 3 -->
+### Beschluß.
 
-<!-- Catchword: Dw. -->
+Werden also diejenigen Striche / so neben den dritten in gleicher Weite hinlauffen/ auch Neben-Striche seyn.  W. Z. B.
+
+## Der XXXI. Vortrag.
+
+## Das 22. Werck-Stück.
+
+Gegen einen gegebenen geraden Strich/durch den zur Seiten gegebenen Düttel/ einen Neben-Strich zu ziehen.
+
+### Gegebene.                    Begehrte.
+1. Der gerade Strich AB      1. CH = AB
+2.  Der Düttel   C           2. CH durch den Düttel C gezogen.
+
+### Wirckung.
+
+1. Aus dem gegebenen Düttel C wird ein gerader Strich CD nach dem Strich AB gezogen.
+2. Auff den Strich CD und zwar
+3. Auff den Düttel C setze man den Winckel DCH
+4. DCH ⋏ ADC nach 23. Vortr.
+5. Durch H und C ziehe man den Strich CH.
+
+[Diagram: Strich AB mit den Dütteln E und D, darüber der Strich CH; punktierte Linien verbinden C, D und H]
+
+<!-- Catchword: Be- -->

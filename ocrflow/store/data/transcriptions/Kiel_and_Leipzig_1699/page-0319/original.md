@@ -1,18 +1,30 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 303 -->
+<!-- Page number: 302 -->
 
-IV. Die Höhe einer jedweden Gestalt wird durch den aus dem Gipffel oder Spitze auf den Grundstrich gezogenen Senckstrich vorgestellet.
+### Oder:
 
-V. Eine aus Verhältnüssen zusammen gesetzte Verhältnüß wird genennet / wenn die Ersten vorgehenden Grössen durch die Andere vorgehende / und die Erste nachgehende durch die Andere nachgehende Verhältnüß-Grösse vervielfältiget / (oder vielmehr die Erste Vorgehende nach der andern Nachgehenden / und Andere vorgehende durch die andere Nachgehende außgebreitet oder außgespannet) wird.
+|  |  |  |
+|---|---|---|
+| b + a | ⊣ c + a | n. Geg. |
+| a \| | a |  |
+| b + a : a | ⊣ c + a : a | n. 8. V. |
+| b + a : c + a | ⊣ a a | n. 27. V. |
+| b : c | ⊣ b + a : c + a | n. 33. V. |
 
-VI. Ein an einen geraden Strich angeschlagenes (applicatum) mangelhafftes Viereck wird genennet / welches den geraden Strich nicht außfüllet. Ein übertreffendes Viereck aber ist / welches auf dem Strich / an welchen es angeschlagen wird / nicht Raum hat / sondern einen längern Strich erfordert. Doch also / daß so wol das mangelende / als das überflüssige Viereck eine gleichmässige Höhe mit dem angeschlagenen Vierecke habe / und mit demselbigen ein gantzes nebenstrichiges Viereck mache.
+### Beschluß.
+Wenn man derowegen zu zwo ungleichen Grössen zwey gleiche Stücke thut / so werden die zusammengesetzte Grössen eine kleinere Verhältnüß zu einander haben / als die Ersten beyden Grössen. Schneidet man aber zwey gleiche Stücke von denselben ab / so werden die Ubergebliebene eine grössere Verhältnüß haben / als die Ersten beyden ungleichen Grössen. W. Z. B.
 
-VII. Eine Gestalt / wenn sie an einen geraden Strich angeschlagen wird / bedeutet / daß man eine solche Länge finde / nach welcher der gedachte Strich außgebreitet eine der angeschlagenen Gestalt gleichmässige oder gleichgrosse viereckichte Gestalt zuwegen bringet.
+---
 
-## Der I. Vortrag.
-## Das 1. Beweiß-Stück.
+# Das VI. Buch Euclidis.
 
-Diejenigen Dreyecke oder Vierecke / welche gleichmässige Höhen haben / verhalten sich also / wie ihre Grundstriche / gegen einander.
+## Beschreibungen.
 
-<!-- Catchword: I. Ge- -->
+I. Gleichähnliche geradstrichichte ( Similes rectilineæ ) Gestalte sind / welche gleichmässige Winckel und ebenmässige Seiten haben.
+
+II. Wechselmässige (Reciprocæ) Gestalte sind / in welchen beyderseits vor- und nachgehende ebenmässige Striche sich befinden.
+
+III. Ein nach der äusersten und mittelsten Verhältnüß (secundùm mediam & extremam rationem) getheilter Strich wird genennet / welcher sich zu seinem grösseren Stück also / wie solch grössestes Stück zu dem kleinern / verhält.
+
+<!-- Catchword: IV. Die -->

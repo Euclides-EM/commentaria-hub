@@ -1,33 +1,27 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 177 -->
+<!-- Page number: 176 -->
 
-### Gegebene.
-1. Gleichgrosse Kreysse ahca | dged
-2. Striche ac | de
-
-### Begehrte.
-1. ahc ⏀ dge
-2. ac ⊻ de
-
-[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten g, f, d, e, der andere mit h, b, a, c; in jedem eine Sehne mit punctirten Stralen zum Mittel-Düpffel]
+[Diagram: Zwey gleichgrosse Kreysse; der eine mit den Punckten f, a, c, d, g, der andere mit e, b, h, i; darin Winckel am Mittel-Düpffel und im Kreyß, etliche Striche punctirt]
 
 ### Vorbereitung.
-Es werden gezogen die Stralen ba, bc, fd, fe.
+Wenn cad ⋀̸ hbi so mache man den
+Winckel cag ⋀ hbi   n. 23. I.
 ### Beweiß.
-
-ab | df
-bc | fe } n. 1. Beschr. III.
-Dw. ab + bc | df + fe   n. 2. Gr. I.
-ac | de   n 2. Gegeb.
-Dw. abc ⋀ dfe   n. 8. I.
-und ac ⊻ de   n. 26. III.
-O ahca | O dged   n. 1. Geg.
-Dw. O ahca — ◡ ac | O dged — ◡ de   n. 3. Gr. I.
-oder ahc ⏀ dge
-
+cag ⋀ hbi   n. Vorbereit.
+Dw. cg ⊻ hi   n. 26. III.
+cd ⊻ hi   n. 2. Gegeb.
+Dw. cd ⊻ cg   n. 1. Gr I.
+Welches aber unmöglich n. 9. Gr. I.
+Eben so ungereumt ist es auch/ wenn man sagen wolte
+hbi ⋀̸ cad
+oder cfd ⋀̸ hei.
 ### Beschluß.
-Müssen derowegen gleichlange Striche in gleichgrossen Kreysen allezeit gleichgrosse Bogen / und zwar den grossen dem grössern/ und den kleinen dem kleinern in gleicher Grösse abschneiden. W. Z. B.
+Müssen derowegen allezeit in gleichgrossen Kreyssen diejenigen Winckel/ welche auff gleichgrossen Bogen stehen/ auch gleichgroß seyn. W. Z. B.
 
-<!-- Signature: Q -->
-<!-- Catchword: Der -->
+## Der XXIIX. Vortrag.
+
+## Das 25. Beweiß-Stück.
+In gleichgrossen Kreyssen schneiden gleichlange gerade Striche/ gleichgrösse Bogen ab/ und zwar/ daß das grössere Stück / dem grössern/ und das kleinere dem kleineren gleich an Grösse sey.
+
+<!-- Catchword: Ge- -->

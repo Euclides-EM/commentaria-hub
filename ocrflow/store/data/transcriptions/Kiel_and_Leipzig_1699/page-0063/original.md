@@ -1,33 +1,33 @@
-<!-- Page number: 47 -->
+<!-- Page number: 46 -->
 
-<!-- Running title: Euclidis. -->
-
-### Beweiß.
-
-EG | CK n. Wirck. 3.
-EF | CI)
-FG | IK) n. Wirck. 4.
-Drw. FEG | ICK n. 8. Vortr.
+<!-- Running title: Das I. Buch -->
 
 ### Beschluß.
-Ist also auff den gegebenen Düttel C. in dem gegebenen Strich AB, gesetzt ein Winckel ICK ⋀ FEG. W. Z. M.
+Ist also das △ ABF verfertiget/ in welchen
+AB | bc. a.
+AF | ac ß.
+und BF | ba γ. W. Z. M.
 
-## Der XXIV. Vortrag.
+## Der XXIII. Vortrag.
 
-## Das 15. Beweiß-Stück.
+## Das 9. Werck-Stück.
 
-Wenn zweyer Drey-Ecke zwo Seiten/ zweyen Seiten / jedwede jedweder eines andern Drey-Eckes / gleich sind / der von den beeden Seiten gefassete Winckel aber grösser/ als der Winckel/ welchen die beeden Seiten des andern Drey-Eckes begreiffen : So ist auch der Grundstrich des ersten Dreyeckes grösser/ als der Grundstrich des andern.
+Auff einen gegebenen geraden Strich/ und zwar auff den darin gegebenen Düttel / einen Winckel / welcher dem gegebenen gerad-Strichichen Winckel gleich sey/ zu setzen.
 
 ### Gegebene. Begehrte.
-1. △ ABC db ⊣ DB
-2. △ a b d
-3. ab | AB
-4. ad | AC
-5. dab ⲗ DAB
+1. ∧ FED 1. ICK ⋀ FEG
+2. Gerader Strich AB 2. auff den Strich AB
+3. Düttel C 3. im Düttel C
+4. In dem Strich AB 4. auff dem Strich AB.
 
-### Vorbereitung.
-1. Auff des Striches ab, Düttel a werde gesetzet der Winckel bac.
-2. bac ⋀ BAD
-3. Werde gezogen der gerade Strich ac
+[Diagram: Zwei Winkel: links Winkel bei E mit Schenkeln nach F oben und G, rechts Winkel bei C mit Schenkeln nach I oben und K; waagerechter Strich E G C K, punktierte Kreisbögen FG und IK; Punkte A und B.]
 
-<!-- Catchword: 4. ac -->
+### Wirckung.
+
+1. Auß dem Düttel E wird nach beliebiger grösse ein Kreyßstück FG gezogen/ damit EG | EF.
+2. Werde der Strich FG gezogen.
+3. Auß dem Düttel C wird von dem Strich AB abgeschnitten ein Stück CK | EG n. 3. Vortr.
+4. Auff den Strich CK setze man CI | EF)
+und KI | GF) n. 22. Vort.
+
+<!-- Catchword: Beweiß -->

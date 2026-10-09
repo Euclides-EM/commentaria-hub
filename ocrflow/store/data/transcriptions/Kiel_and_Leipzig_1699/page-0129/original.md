@@ -1,35 +1,42 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 112 -->
 
-<!-- Page number: 113 -->
+<!-- Running title: Das II. Buch -->
 
-## Der X. Vortrag.
+2 | 2
+2 □ gf | 2 □ cd | n. 6. Gr. i. I.
+2 □ gf + □ gb | 2 □ cd + 2 □ cb + 2 □ gf n. 1. Gr. I.
+2 □ gf | 2 □ gf
+δ. □ gb | 2 □ cd + 2 □ cb | n. 3. Gr. I.
+□ gb | □ bd + □ dg | n. 47. I.
+agd ∠ cae n. Bew. γ.
+Dw. dg | da n. 6. I.
+und □ dg | □ da n. 1. Gr. t. II.
+□ dg + □ gb | □ bd + □ dg + □ da | n. 1 Gr. I.
+□ dg | □ dg
+δ. □ gb | □ bd + □ da | n. 3. Gr. I.
+Dw. □ bd + □ da | 2 □ cd + 2 □ cb | n. 1. Gr. I.
 
-## Das 10. Beweiß-Stück.
+### Beschluß.
 
-Wenn ein gerader Strich in zweene gleiche Theile geschnitten / und hernach ein ander Stück gerad-aus angesetzet wird: So muß das von dem zusammengesetzten gantzen Strich gemachte gleichseitige Vierecke / samt dem Viereck des zugesetzten Stückes/ eben so groß seyn / als die beeden zweymal genommene von dem halben und angesetzten / samt des halben allein genommenen Stückes Vierecke.
+Sind also allezeit der beeden ungleichen Stücke bd und da ihre □ □ zweymahl so groß / als die beeden □ □ des halben Striches bc, und mittelstückes cd. W Z B.
 
-### Gegebene. | Begehrte.
+### Nach der Löse-Kunst.
 
-1. Gerader Strich ab | □ ad + □ bd | 2 □ ac + 2 □ cd
-2. Geschnitten in c
-3. Also daß ac | cb
-4. ab | ac + cb
-5. Das angesetzte Stück bd
-6. Zusammen gesetzter Strich ad
-7. Halber und angesetzter Strich cd
+### Gegebene. | Begerthe.
 
-### Vorbereitung.
+1. b | ac | cc + dd | 2bb + 2ee
+2. e | cd
+3. c | bd
+4. d | ad
+5. c | b + e
+6. d | b — e
 
-1. Auff den Düttel c werde ein Senckstrich ce gesetzte n. 11. I.
-2. Also daß der Senckstrich ce | ca | cb n. 2. I.
-3. Werde durch d gegen ce ein Nebenstrich fd gezogen.
-4. Und verlänget zu g,
-5. Damit dg | db sey.
-6. sey df | ce.
-7. Es werde gezogen aus g durch b biß e der Strich ge,
-8. Desgleichen auch ea,
-9. Und ag.
+### Beweiß.
 
-<!-- Signature: P -->
+c | b + e | n. 5. Gegeb.
+cc | bb + 2be + ee | n 4. II.
+d | b — e | n 6 Geg.
+dd | bb — 2be + ee | n. 4. II.
+Dw. cc + dd | 2bb + 2ee. | n. 1. Gr. 1. W. Z B.
 
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Der -->

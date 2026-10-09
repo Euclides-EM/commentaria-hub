@@ -1,35 +1,27 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das III. Buch -->
 
-<!-- Page number: 173 -->
+<!-- Page number: 172 -->
 
-3. Durch das mittel e werde der gerade Strich hf nach rechten Winckeln gezogen. n. 11. I.
-4. Werde noch ein anderer Düttel dieses Bogens/ nemlich b mit einem geraden Strich an den Düttel c gehänget.
-5. Und in zwey gleiche Theile db | dc getheilet. n. 10. I.
-6. Durchs mittel d wird ein Senckstrich kf gezogen n. 11. I.
-7. Aus dem Düttel f, wo die beeden Senckstriche he und kd einander durchschneiden/ werde der verlangte Kreyß beschrieben.
-
-### Vorbereitung.
-Aus dem gefundenen Mittel-Düpffel f werden zu der Striche ac und bc Endungen/ die Strahlen fa, fb, fc gezogen.
-
-### Beweiß.
-
-bd | dc   n. 5. Wirck.
-df | df
-Dw. bd + df ⋀ dc + df   n. 2. Gr. I.
-bdf ⋀ cdf   n. 6. Wirck.
-Dw. bf | cf   n. 4. I.
-
-gleichfals wird bewiesen.
-
-Daß af | cf
-Dw. af | bf   n. 1 Gr. I.
-
-und der Düttel f wird der Mittel-Düpffel seyn   n. 9. III.
-Oder:
-In denen Strichen df und ef muß der Mittel-Düpffel seyn/ n. 1. Anhang des III. Buchs.
-Muß Dw. f der Mittel-Düpffel seyn/ weil sonst kein Düttel/ welcher zugleich in beeden Strichen stehet/ kan gegeben werden.
+cken / und so ist es auch nicht gleich gestalt / n. 23. III. welches wider das 2. Gegeb. oder es wird sich schicken/ und also wird es gleich groß seyn / n. 8. Gr. I.
 ### Beschluß.
-Ist also der Mittel-Düpffel f gefunden / aus welchem der Kreyß bhac, dessen Theil das gegebene Kreyßstück abc ist/ kan beschrieben werden. W. Z. M.
+Werden also gleichgestalte auff gleichlangen Strichen stehende Kreyßstücke gleicher grösse seyn. W. Z. B.
 
-<!-- Signature: P 3 -->
-<!-- Catchword: Der -->
+## Der XXV. Vortrag.
+
+## Das 3. Werckstück.
+
+Wenn ein Kreyßstück gegeben wird/ desselben Kreyßstückes Kreyß zu beschreiben.
+
+### Gegebenes.
+Kreyßstück abc.
+
+### Begehrtes.
+Kreyß bhac, dessen Theil das gegebene Kreyßstück ist.
+
+[Diagram: Kreyßstück mit den Punckten k, b, h, d, e, c, a, f; der Kreyß ist punctirt vollendet, mit Strichen durch e und f]
+
+### Wirckung.
+1. Man ziehe in dem gegebenen Bogen den geraden Strich ac.
+2. Welcher in zwey gleiche Stücke ea | ec getheilet wird. n. 10. I.
+
+<!-- Catchword: 3. Durch -->

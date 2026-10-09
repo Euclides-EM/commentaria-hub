@@ -1,36 +1,30 @@
-<!-- Running title: Euclidis. -->
+<!-- Page number: 138 -->
 
-<!-- Page number: 139 -->
+<!-- Running title: Das III. Buch -->
 
-4. Welcher nicht in der Mitte des Kreyses stehet.
-5. Die geraden Striche ai, ah, ag, ak, ab, ac.
+### Beweiß
 
-4. ag ⊣ ah
-5. ah ⊣ ai
-6. ah | al.
+ab | ad | af — n. angenom. und n. 15. Beschr. I.
+ab | ac | ag — n. 15. Beschr. I.
+Dw. ad | ac
+und af | ag — n. 1. Gr. I.
 
-6. ab durch den Mittel-Dupffel gehend.
-7. Das übrige dieses Striches / nemlich ac.
-8. Die Striche ah und al gleich weit
-von dem durch den Mittel-Düpffel gehenden Strich entfernet.
+Welches unmüglich n. 9. Gr. I.
 
-[Diagram: Kreis mit den Punkten h, g, k oben, i links, c, a, e, b auf dem waagerechten Durchmesser und l unten; von a und e ausgehende teils punktierte Striche zu den Punkten am Umfang]
+### Beschluß.
 
-### Vorbereitung.
+Können also einander inwendig anrührende Kreyse nicht nur einen einigen Mittel-Düpffel haben. W. Z. B.
 
-1. Werde auff den [unclear: Düttel] a gesetzet ein ∠ ael ⋀ [unclear: aeb]
-n. 23. I.
+## Der VII. Vortrag.
 
-2. Werden aus dem Mittel-Düpffel e gezogen ek,
-eg, eh, ei, el, und al.
+## Das 6. Beweiß-Stück.
 
-### Beweiß.
+Wenn man in eines Kreyses Durchschlag einen Düttel erwehlet / welcher nicht der Mittel-Düpffel ist / und von selbigem etliche gerade Striche zu des Kreyses Umfang zeucht: So wird der durch den Mittel-Düpffel gehende Strich/ der grösseste; dessen übriges aber der kleineste seyn: Alle andere aber / je näher sie dem Mittel-Düpffel kommen / werden länger / und je weiter sie von dem Mittel-Düpffel abstehen/ je kützer werden sie seyn: Zwey aber / welche nemlich gleichweit von dem Mittel-Düpffel entfernet sind / werden allezeit gleichlang seyn.
 
-eb | ek — n. 15. Beschr. I.
-ae + ke ⊣ ak — n. 20. I.
-ae + ke | ab — n. 9. Gr. q. [unclear: I.]
-Dw. ab ⊣ ak — n. 1. Gr. c. [unclear: I.]
+### Gegebene. — Begehrte.
 
-<!-- Signature: S 2 -->
+1. Der Kreyß bhlc. — 1. ab der längste
+2. Durchschlag bc. — 2. ac der kürtzeste.
+3. Erwehlter Düttel a, — 3. ak ⊣ ag
 
-<!-- Catchword: ea -->
+<!-- Catchword: 4. Welcher -->

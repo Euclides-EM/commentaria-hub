@@ -1,36 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 387 -->
+<!-- Page number: 386 -->
+
+wird/ daß die ebenmässigen Seiten nebenstrichicht werden: Alsdenn werden die übrigen Seiten solcher Dreyecke in einem geraden Striche stehen/ (oder einen geraden Strich machen.)
+
+### Gegebene.
+
+1. Zwey Dreyecke abc und cde, welche
+2. Zwo Seiten ab und ac, zweyen Seiten dc und de, ebenmässig haben. ab : dc | ac : de.
+3. Und mit einem Winckel c zusammen gefüget also/
+4. Daß die ebenmässige Seiten auch nebenstrichicht sind /
+
+ab ⧣ dc
+ac ⧣ de
+
+### Begehrte.
+
+Die übrigen Seiten bc und ce werden einen geraden Strich be machen.
+
+[Diagram: zwei Dreiecke, ein kleineres mit den Punkten d, e, c und ein grösseres mit den Punkten a, c, b]
+
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| Dw. | abc + acb + a ⋀ dce + acb + a | n. 2. Gr. I. |
-|  | abc + acb + a ⋀ ⏊ | n. 32. I. |
-| Dw. | dce + acb + a ⋀ ⏊ | n. 1. Gr. I. |
-| oder | dce + dcb ⋀ ⏊ | n 9. Gr. I. q. |
-| Dw. | bc und ca, oder ba ein gerader Strich. | n. 14. I. |
+|  | ab ⧣ dc | n. 4. Geg. |
+| Dw. | bac ⋀ dca |  |
+| und | cde ⋀ dca | n. 29. I. |
+| Dw. | bac ⋀ cde | n. 1. Gr. I. |
+| und | △ abc ähnlich △ cde |  |
+| und | abc ⋀ dce | n. 6. VI. |
+|  | acb + a ⋀ acb + a |  |
 
-### Beschluß.
-
-Wenn derowegen zwey Dreyecke / derer zwo Seiten zweyen Seiten ebenmässig sind/ also zusammen gesetzet werden/ daß die ebenmässigen Seiten auch nebenstrichicht werden/ so machen die übrigen beyden Seiten einen geraden Strich. W. Z. B.
-
-## Der XXXIII. Vortrag.
-
-## Das 23. Beweiß-Stück.
-
-In gleichmässigen Kreysen haben die Winckel/ sie mögen Mittel-Düpffels- oder Kreyßzugs-Winckel seyn/ eben solche Verhältnüß zu einander/ als die Kreyßstücke/ auf welchen sie stehen:
-
-Auch haben die Kreyßschnitte gleiche Verhältnüß/ weil sie aus Mittel-Düpffels-Winckeln bestehen.
-
-### 1. Gegebene.
-
-1. Zween gleichmässige Kreyse abc und feg.
-2. Beyde Mittel-Düpffele d und e.
-3. Zween in Kreyßstücken stehende Winckel bac und feg.
-4. Mittel-Düpffels-Winckel bdc und fhg.
-5. Zwey Kreyßstücke bc und fg.
-6. Zween Kreyßschnitte bdc und fhg.
-
-<!-- Signature: Ccc 2 -->
-
-<!-- Catchword: I. Be- -->
+<!-- Catchword: Dw. -->

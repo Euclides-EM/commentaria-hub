@@ -1,40 +1,30 @@
-<!-- Page number: 72 -->
+<!-- Page number: 71 -->
 
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-### Verfolg des Beweises.
+## Der XXXIX. Vortrag.
 
-CE ⟛ AB n. 1. Vorbereit.
-Dw. CAB ⩓ EAB n. 37. Vortr.
-CAB ⩓ DAB n. 3. Gegeb.
-Dw. EAB ⩓ DAB n. 1. Gr:S.
-welches unmöglich n. 9. Gr:S.
+## Das 29. Beweiß-Stück.
 
-### 2. Begebenheit.
+Diejenigen Dreyecke / welche einen einigen Grundstrich / und gleiche Grösse haben/ müssen auch zwischen einerley Nebenstrichen stehen.
+
+### Gegebene. | Begehrte.
+1. △ ABC | 1. CD durch die Gipffel derer △ △
+2. △ ABD | 2. CD ⟛ AB.
+3. ABC ⩓ ABD
+4. Gemeiner Grundstrich AB
+5. Gleichmäßige Setzung derer △ △.
+
+[Diagram: Viereck ABDC mit gezogenen und punctirten Strichen, mit den Puncten C, D, E oben, F in der Mitte, A, B unten]
+
+### Beweiß
+
+Entweder ist CD = AB, oder nicht. Ist nun CD kein Nebenstrich/ des Striches AB, so werde ein Nebenstrich gezogen.
 
 ### Vorbereitung.
 
-1. Man ziehe entgegen dem Strich AB, den Nebenstrich FC.
-2. Ziehe man den Strich AF.
+1. Werde entgegen AB durch C der Nebenstrich CE gezogen.
+2. Verlänge man die Seite AD biß zum Nebenstrich in E.
+3. Ziehe man den Strich BE.
 
-### Beweiß.
-
-CF ⟛ AB n. 1. Vorbereit.
-Dw. CAB ⩓ FAB n. 37. Vortr.
-CAB ⩓ DAB n. 3. Gegeb.
-Dw. DAB ⩓ FAB n. 1. Gr:S.
-welches unmöglich n. 9. Gr:S.
-
-Weßwegen kein ander Nebenstrich/ als durch den Gipffel D kan gezogen werden.
-
-### Beschluß.
-
-Müssen also allezeit gleichgrosse und auff gleichlangen Grundstrichen stehende △ △ auch zwischen einerley Nebenstrichen stehen. W. Z. B.
-
-## Der XL. Vortrag.
-
-## Das 30. Beweiß-Stück.
-
-Gleich-große und auff gleich-langen Grundstrichen stehende Dreyecke / stehen auch zwischen einerley Nebenstrichen.
-
-<!-- Catchword: Ge- -->
+<!-- Catchword: Ver- -->

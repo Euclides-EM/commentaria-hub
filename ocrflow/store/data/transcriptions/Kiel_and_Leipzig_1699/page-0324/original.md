@@ -1,37 +1,36 @@
-<!-- Page number: 308 -->
+<!-- Page number: 307 -->
 
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-Gleiche Bewandnüß hat es/ wenn man sagen wolte/ daß
-cq ⊢ fp were.
-Muß derowegen cq | fp.
+## Des I. Vortrags I. Zugabe.
 
-### Beschluß.
+Diejenigen Dreyecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ haben auch gleichmässige Höhen.
 
-Wenn derohalben zwey nebenstrichichte Dreyecke sich also/ wie ihre Grundstriche gegen einander verhalten/ so werden sie auch gleichmässige Höhen haben. W. Z. B.
+### I. Gegebene.
 
-### II. Gegebenes.
-
-ab : de | □ ah : □ dg.
+ab : ed | △ abc : △ def
 
 ### Begehrtes.
 
-Höhen gp | hq.
+Höhen cq | fp.
 
-[Diagram: Zwei Parallelogramme, links mit den Ecken g f d e und Punkt p, rechts mit den Ecken c h b a nebst den Punkten s, r und p, mit gestrichelten Senckstrichen]
+[Diagram: Zwei Dreiecke, links mit Gipffel f über der Grundlinie e p d a, rechts mit Gipffel c und Punkt r über der Grundlinie a q b, mit gestrichelten Höhen und Strichen]
 
 ### Vorbereitung.
 
-Wenn gp ⊢ hp so schneide man von hq ein Stück ab/ nemlich rp | gp n. 3. I.
-
-2. Ziehe man den Strich sr ⧣ ab.
+Wenn die Höhe cq länger were/ als die Höhe fp, so schneide man ab ein Stück rq | fp.
+2. Ziehe man die Striche ra und rb.
 
 ### Beweiß.
 
-gp | rp — n. Vorber.
-Dw. de : ab | □ dg : □ ar — n. 1. VI.
-de : ab | □ dg : □ ah — n. Geg.
-Dw. □ dg : □ ar | □ dg : □ ah — n. 11. V.
-u. □ ar | □ ah — n. 9. V.
+weil cq ⊣ fp. — n. Angenom.
+und rq | fp — n. Vorber.
+Dw. ab : ed | △ arb : △ def — n. 1. VI.
+ab : ed | △ acb : △ def — n. Gegeb.
+Dw. △ arb : △ def | △ acb : △ def — n. 11. V.
+u. △ arb | △ acb — n. 9. V.
 
-<!-- Catchword: Welches -->
+welches aber unmüglich n. 9. Gr. I.
+
+<!-- Signature: Qq 2 -->
+<!-- Catchword: Gleiche -->

@@ -1,30 +1,39 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis -->
 
-<!-- Page number: 194 -->
-
-[Diagram: Kreis mit Punkten c links, e und b oben rechts, n in der Mitte, d und l unten links, a unten]
+<!-- Page number: 193 -->
 
 ### Vorbereitung.
 
-Aus dem Mittel-Düpffel e werden gezogen
-1. Zu des Striches ac Endung c der Strich ec.
-2. Zum Ende des Striches bd der Strich ed.
-3. Zum Düttel l, wo die beeden Striche einander durchschneiden / der Strich el.
-4. Auff den andern Strich bd, der Senckstrich en n 12. I.
+1. Werde auff den Strich ac aus dem Mittel-Düpffel e ein Senckstrich en gezogen n. 12. I.
+2. Werde auch der Strich ec gezogen.
 
 ### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | ▭ bld + □ ln | □ dn | n. 5. II. |
-|  | □ en | □ en |  |
-| Dw. | ▭ bld + □ ln + □ en | □ dn + □ en | n. 2. Gr. I. |
-|  | □ ed | □ dn + □ en | n. 47. I. |
-| Dw. | ▭ bld + □ ln + □ en | □ ed | n. 1. Gr. I. |
-|  | □ el | □ ln + □ en | n. 47. I. |
-| Dw. | ▭ bld + □ ln + □ en + □ el | □ ed + □ ln + □ en | n. 2. Gr. I. |
-|  | ▭ bld + □ el | □ ed | n. 3. Gr. I. |
-|  | ed | ec | n. 15 Besch. I. |
-|  | □ ed | □ ec | n. 1. Gr. t. II. |
+| α. | ▭ bld + □ le | □ ed |  |
+|  | ▭ cla + □ ln | □ nc | n. 5. II. |
+|  | □ ne | □ ne |  |
+| Dw. | ▭ cla + □ ln + □ ne | □ nc + □ ne | n. 2 Gr. I. |
+|  | □ le | □ ln + □ ne | n. 47. I. |
+| Dw. | ▭ cla + □ ln + □ ne + □ le | □ nc + □ ne + □ ln + □ ne | n. 2. Gr. I |
+| β. | ▭ cla + □ le | □ nc + □ ne | n. 3. Gr. I. |
+|  | ec | ed | n. 15 Beschr. I. |
+|  | □ ec | □ ed | n. 1. Gr. t. II. |
+|  | ▭ bld + □ le | □ ec | α n 1. Gr. I. |
+|  | □ nc + □ ne | □ ec | n. 47. I. |
+| D. | ▭ bld + □ le | □ nc + □ ne |  |
+| und | ▭ bld + □ le | ▭ cla + □ le β | n. 1. Gr. I. |
+| u. | ▭ bld | ▭ cla | n. 3. Gr. I. |
 
-<!-- Catchword: Dw. -->
+### IV. Begebenheit.
+
+### Gegebene:
+
+1. Von beeden Strichen bd, ac gehet keiner durch den Mittel-Düpffel.
+2. Der Strich ac ist in zween gleiche Theil al | lc
+3. Der Strich bd aber in ungleiche Theile bl ⊣ ld geschnitten in l.
+
+<!-- Signature: Bb -->
+
+<!-- Catchword: Vor- -->

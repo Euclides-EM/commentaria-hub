@@ -1,35 +1,45 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 226 -->
-
-### Gegebenes. — Begehrte.
-Kreyß bcdefg — 1. Gleichseitig und gleichschenck-
-licht Sechseck
-2. dem gegebenen Kreyß einge-
-schrieben.
-
-[Diagram: drei sich schneidende Kreise; im mittleren Kreis ein einbeschriebenes Sechseck g b c d e f mit Mittelpunkt a, punktierte Striche zu den Ecken]
+<!-- Page number: 225 -->
 
 ### Wirckung.
 
-1. Wird der Durchschlag fc gezogen.
-2. Nach der Weite ca wird aus dem Düttel c ein Kreyß ge-
-zogen/ welcher den gegebenen Kreyß in den Dütteln d und b schneidet.
-3. Aus dem Düttel f wird nach der Weite fa auch ein Kreyß be-
-schrieben/welcher den gegebenen Kreyß in den Dütteln e und g schneidet.
-4. Werden die Striche bc, cd, de, ef, fg und gb gezogen.
+1. Zweene des Fünffeckes Winckele / als e und f, werden in
+zween gleiche Theile gea ∧ fea
+efa ∧ dfa — getheilet/n. 9. I.
+2. Werden die Winckeltheilende Striche fa und ea so weit
+verlängert/ biß sie einander in a schneiden.
+3. Nach der Weite ae werde der Kreyß bgefd gezogen.
 
 ### Vorbereitung.
 
-Es werden gezogen die Strahlen ab, ad, ae, ag.
+Aus den übrigen Winckeln werden gerade Striche zu dem
+Düttel a gezogen.
 
-II. Arth.
+### Beweiß.
 
-1. Werde aus dem Düttel c nach der Weite ca ein Kreyß/
-2. aus dieses Kreyses Mitteldüpffel c werde durch den Mittel-
-düpffel a ein gerader Strich cf,
-3. aus den beyden Dütteln b und d werden auch gerade Stri-
-che be, dg durch a, und
-4. die Striche cb, cd, de, ef, fg und gb gezogen.
+efa ∧ dfa — n. 1. Wirck.
+fe | fd — n. Gegeb.
+af | af
+fe + af | af + fd — n. 2. Gr. I.
+Dw. — ae | ad
+u. — aef ∧ adf — n. 4. I.
+Gleicher Weise — ad | af | ae | ag | ab
+Dw. — a | Mitteldüpffel — n. 9. III.
+und der Kreyß aus solchem Mitteldüpffel a nach der Weite
+af gezogen/ begreifft das Fünffeck in sich/n. 6. Besch. IV.
 
-<!-- Catchword: Be- -->
+### Beschluß.
+
+Ist also umb das gegebene gleichseitige und gleichwincklichte
+Fünffeck ein Kreyß umbgeschrieben. W. Z. M.
+
+## Der XV. Vortrag.
+
+## Das 15. Werckstück.
+
+Einem gegebenen Kreyß ein gleichseitig und
+gleichwincklichtes Sechseck einzuschreiben.
+
+<!-- Signature: Ff -->
+<!-- Catchword: Ge- -->

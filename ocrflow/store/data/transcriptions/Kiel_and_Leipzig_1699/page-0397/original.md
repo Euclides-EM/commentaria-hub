@@ -1,31 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 381 -->
+<!-- Page number: 380 -->
 
-### Wirckung.
+|  |  |  |  |
+|---|---|---|---|
+|  | □ fo | □ qb | n. 24. VI. |
+|  | □ L ähnlich | □ qb | n. 2. Wirck. |
+| Dw. | □ fo | □ L | n. 21. VI. |
+|  | □ fp — | □ Bp | n. 9. Gr. I. |
+|  | □ fp | □ Bp + □ fo | n. 9. Gr. I. q. |
+| Dw. | ist □ fo der Uberschuß |  | n. 6. Beschr. VI. |
 
-1. An den Strich ab werde ein übertreffendes nebenstrichichtes Viereck/ welches dem gleichseitigen Viereck des Striches ab sampt dem gleichseitigen Viereck des halben Striches bc gleichmässig sey/ also angeschlagen/ daß der Uberschuß □ be ähnlich sey dem □ ab. n. 29. VI.
+### Beschluß.
 
-2. Von dem Strich ba werde das Stück bi gleichmässig dem überflüssigen Stück be. abgeschnitten n. 3. I. bi | be
+Ist also an den gegebenen Strich AB ein übertreffendes □ fp | △ K also angeschlagen/ daß der Uberschuß □ fo ähnlich dem □ L, auch auf gleiche Weise gesetzet seye. W. Z. M.
 
-Die Anschlagung kan also verrichtet werden.
+## Der XXX. Vortrag.
 
-1. Der Strich ab wird in zween gleiche Theile ac | cb getheilet. n. 10. I.
+## Das 10. Werck-Stück.
 
-2. Auf die Helffte bc wird ein gleichseitiges □ gesetzet. n. 46. I.
+Einen gegebenen geraden Strich nach der äusersten und mittelsten Verhältnüß zu theilen.
 
-3. Werde ein denen beyden □ ab + □ bc gleichmässiges und
+### Gegebenes.
 
-4. Dem □ bc ähnliches Viereck gemacht. n. 25. VI.
+Gerader Strich ab,
 
-(nemlich man verwandele (1) das □ bc in ein □ nach einem rechten Winckel/ und nach dem Strich ab. n. 43. I. damit man es dem □ ab beyfügen könne (2) findet man zwischen der Länge ab + ½bc nnd der Breite ab des zusammengesetzten Viereckes den mitlern ebenmässigen Strich ce n. 13. VI. (3) auf diesen Strich ce wird ein gleichseitiges Viereck gesetzet n. 46. I.)
+### Begehrte.
 
-5. Solch dem □ bc ähnlich gemachtes □ ce wird an den halben Strich nemlich cb also angeschlagen/ daß der Uberschuß dem Viereck ab ähnlich sey. n. 29. VI. nemlich man setzet die Länge f biß g, und setzet auf den Strich fg ein gleichseitiges Viereck. n. 46. I.
+1. Strich ab getheilet
+2. Bey 1 nach äuserster und mittelster Verhältnüß.
 
-6. Den Strich ab verlänget man biß e.
+[Diagram: geometrische Konstruktion aus Quadraten und punktierten Linien mit den Punkten f, a, i, c, b, e, h, g, k, d, m]
 
-7. Die Länge be schneidet man von dem Strich ba ab n. 3. I. so bekommt man den Düttel i, welcher den Strich ab begehrter massen theilet.
-
-<!-- Signature: Bbb 3 -->
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Wir- -->

@@ -1,28 +1,25 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das II. Buch -->
 
-<!-- Page number: 89 -->
+<!-- Page number: 88 -->
 
-[Diagram: schiefwincklichtes Viereck mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, mit Zwerg- und Diagonalstrichen]
+Wann aber nur ein Buchstab / und zwar zweymahl gebraucht wird/ als aa, so bedeutet es das gleichseitige □ des Striches a. Im übrigen bedienet man sich derer zu Anfang des 1. Buchs erklährten Zeichen.
 
-## Der I. Vortrag.
+Demnach werden aus der Löse-Kunst vor diesesmahl entlehnet nachfolgende
 
-## Das 1. Beweiß-Stück.
+## Grund-Sätze :
 
-Wenn man von zweyen geraden Strichen einen in unterschiedliche Theile zerschneidet/ so werden die rechtwincklichte Vierecke/ welche der ungeschnittene Strich/und die Stücke des getheilten Striches begreiffen/ zusammen eben so groß/ als das recht-wincklichte/von den beeden gantzen Strichen begriffene/ Viereck seyn.
+I. Wenn zwo gleiche Grössen/ in zwo andere gleiche Grössen gezogen werden / so werden auch gleichgrosse Dinge daraus.
 
-### Gegebene. | Begehrte.
-1. Der Strich AB. | □ be,ac + □ ed,ac + □ da,ac | □ ba,ac
-2. - - - AC. | oder
-3. AB geschnitten in D und E | □ pqn + □ rsl + □ tin | □ bac.
+(t) Wenn die Seiten oder Striche gleichlang/so sind auch die Vierecke ( und Würffel ) solcher gleichgrossen Seiten gleichgroß.
 
-### Vorbereitung.
+II. Wenn zwo ( oder mehr ) gleiche Grössen an gleiche Grössen angeschlagen werden/ so entspringen darauß auch gleichgrosse Dinge.
 
-1. Es werde gezogen der gerade Strich ba | AB.
-2. Auff diesen Strich ab, und zwar in den Düttel b, werde ein Senckstrich ac gesetzet nach 10. Vortr. I. B.
-3. ac | AC n. 2. Vortr. des I. Buchs.
-4. Durch den Düttel c werde entgegen ab ein Nebenstrich ch. gezogen/ nach 31. Vortr. I.
-5. Durch b ziehe man gegen über ac , den Nebenstrich bh, nach 31. Vortr. I.
+(u) Gleichgrosse rechtwincklichte Vierecke ( und Würffel ) haben auch gleich lange Striche/ ( oder Vierecke. )
 
-<!-- Signature: M -->
+1. Ein jedes rechtwincklichtes Nebenstrichiches Viereck ( Parallelogrammum rectangulum abcd ) wird von zween geraden Strichen ( ab und cb, ) so einen rechten Winckel (abc) machen/ begriffen.
 
-<!-- Catchword: 6. Wer- -->
+[Diagram: zwey rechtwincklichte Vierecke mit den Eckpunkten d, c oben und a, b unten]
+
+2. In jedwedem nebenstrichichen Viereck (ADBC) wird ein jedes/derer ümb den Zwerg-Strich ( ABC ) stehenden Vierecke (FG oder HI,)samt den zwo nebenstehenden Füllflächen (DE und FH) ein Winckelmaß (Gnomonem) machen.
+
+<!-- Catchword: Der -->

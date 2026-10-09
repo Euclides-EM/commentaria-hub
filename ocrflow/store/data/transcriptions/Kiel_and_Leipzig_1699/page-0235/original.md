@@ -1,33 +1,28 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das IV. Buch -->
 
-<!-- Page number: 219 -->
+<!-- Page number: 218 -->
 
-### Beschluß.
+[Diagram: links ein Quadrat mit Viertelkreisbogen und den Punkten A, C, B; rechts ein punktierter Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c, b, d]
 
-Ist also ein gleichschencklichtes Dreyeck abd verfertiget/dessen
-Gipffelswinckel dab halb so groß/als einer von den Grundwinckeln
-dba oder bda. W. Z. M.
+Dw. — □ ac | □ bd — α.
+und — ▭ abc | □ bd — ß. — n. 1. Gr. I.
+Dw. — bd | Rührstrich des Kreyses cda, n. 37. III.
+bdc ∧ dac — n. 32. III.
+cda ∧ cda
+cda + bdc ∧ dac + cda — n. 2. Gr. I.
+cda + bdc ∧ bda — n. 9. Gr. q. I.
+Dw. — dac + cda ∧ bda — n. 1. Gr. I.
+γ. — dac + cda ∧ bcd — n. 32. I.
+Dw. — bcd ∧ bda oder cbd — n. 1. Gr. I.
+δ. u. — bd | cd — n. 6. I.
+bd | ac — n. 3. Wirck.
+Dw. — cd | ac — n. 1. Gr. I.
+u. — cda ∧ dac — n. 5. I.
+dcb ∧ dac + cda — γ.
+Dw. — dcb + cda ∧ dac + cda + dac — n. 2. Gr. I.
+dcb ∧ 2dac oder 2dab — n. 3. Gr. I.
+dcb ∧ dba — δ. — n. 5. I.
+Dw. — dba ∧ 2dab — n. 1. Gr. I.
+u. — [unclear: bad] ∧ 2dab — n. 6. Gr. I.
 
-## Der XI. Vortrag.
-
-## Das 11. Werck-Stück.
-
-In den gegebenen Kreyß ein gleichseitig und
-gleichwincklicht Fünffeck einzuschreiben.
-
-### Gegebenes. — Begehrte.
-Kreyß bcdae. — 1. Gleichseitig- und gleichwincklicht Fünffeck
-2. dem Kreyß eingeschrieben.
-
-[Diagram: links ein gleichschencklichtes Dreyeck A B C mit punktierten Bögen; rechts ein Kreis mit einbeschriebenem Fünffeck b c d a e, dessen Ecken durch Zwergstriche (Pentagramm) verbunden sind, unten punktierte Bögen]
-
-### Wirckung.
-
-1. Werde ein gleichschencklicht Dreyeck ABC gemachet/ dessen
-Gipffelwinckel A halb so groß sey/ als einer von den Grundwin-
-ckeln B oder C, n. 10. IV.
-2. Dem gegebenen Kreyß werde ein Dreyeck abc gleichwinck-
-licht dem Dreyeck ABC eingeschrieben/ n. 2. IV.
-
-<!-- Signature: Ee 2 -->
-<!-- Catchword: 3. Der -->
+<!-- Catchword: Be- -->

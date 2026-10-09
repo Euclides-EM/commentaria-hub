@@ -1,38 +1,31 @@
-<!-- Running title: Das I. Buch. -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 32 -->
-
-### Beweiß.
-
-CE | CF nach 15. Beschr.
-CD | CD
-CE + CD | CF + CD nach 2. Gr.S.
-ED | FD nach 1. Vortr.
-Dw. ECD ⋏ FCD nach 8. Vortr.
-und CD | Bley-rechter Senck-strich/nach 10. Beschr.
-
-### Beschluß.
-
-Und ist also der begehrte bley-rechte Senckstrich CD auff den gegebenen Strich AB, und zwar auff den gegebenen Düttel C gesetzet/W. Z. M.
-
-## Der XII. Vortrag.
-
-Das 7. Werck Stück:
-
-Auff einen unendlichen Strich aus einem ausser demselben gegebenen Düttel einen bley-rechten Senckstrich zu ziehen.
-
-### Gegebene. | Begehrte.
-
-1. Der gerade Strich AB | 1. Bley rechte Senckstrich CF.
-2. Der Düttel - - C | 2. Auß dem gegebenen Düttel C.
-3. Ausserhalb dem Strich AB. | 3. Auff den gegebenen Strich AB (gesetzet.
+<!-- Page number: 31 -->
 
 ### Wirckung.
 
-1. Aus dem Düttel C wird ein Kreyß-stück gezogen/welches den gegebenen Strich in zwey Orthen/ nemlich in D und E durchschneide.
-2. Der Strich DE wird in zween gleiche Theile getheilet in dem Düttel F.
-3. Wird der gerade Strich CF gezogen.
+1. Wird der gantze Striche in zween gleiche Theile getheilet.
+2. Jedwede helffte / wird wiederumb in zween gleiche Theile getheilet.
+3. Jedweder Vierthel wird abermahl in zween gleiche Theile geschnitten/ und so fort an.
 
-[Diagram: Strich AB mit den Düttelen D, F, E, darüber der Düttel C mit punktiertem Kreyß-Stück und Senckstrich CF]
+## Der XI Vortrag.
 
-<!-- Catchword: Vor- -->
+## Das 6. Werckstück.
+
+Auff einen gegebenen geraden Strich / und zwar auff den darin gegebenen Düttel/ einen bleyrechten Senck-Strich zu setzen.
+
+### Gegebene. | Begehrte.
+
+1. Gerade Strich AB. | 1. Der bley-rechte Senck-strich CD.
+2. Der Düttel C | 2. Auff den gegebenen Düttel C.
+3. In eben demselben Strich AB. | 3. Des gegebenen Striches AB.
+
+### Wirckung.
+
+1. Aus dem gegebenen Düttel C wird nach beliebiger weite ein Kreyß gezogen / welcher den gegebenen Strich in E und F durchschneidet.
+2. Auff dem Strich EF wird ein gleichseitiges (oder gleichschenckliches) △ gesetzet/ nach 1. Vortr.
+3. Aus dieses △es Gipffel D wird ein gerader Strich DC zu dem gegebenen Düttel C gezogen.
+
+[Diagram: Strich AB mit Düttel C, darüber der Senck-Strich CD mit punktiertem Dreyeck und Kreyß durch E und F]
+
+<!-- Catchword: Be- -->

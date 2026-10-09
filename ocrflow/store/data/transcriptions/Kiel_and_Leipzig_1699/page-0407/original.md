@@ -1,52 +1,45 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 391 -->
+<!-- Page number: 390 -->
 
 |  |  |  |  |
 |---|---|---|---|
-| Dw. | fha | ⋀ ghk | n. 27. III. |
-| α und | fg | gk |  |
-| β Dw. | △ fhg | △ ghk | n. 4. I. |
-|  | ⌒ fg | ⌒ gk | n 1. Vorb. |
-| Dw. | fhg ⋀ | ghk | n. 27. III. |
-| und | ⌒ fg ähnlich | ⌒ gk | n. 11. Besch. III. |
-|  | fg | gk | n. Bew. α |
-| Dw. | ⌓ fng | ⌓ gok | n. 24. III. |
-| und | △ fhg + ⌓ fng | △ ghk + ⌓ gok | n. 2 Gr. I. |
-| Dw. | ⌓ fhgn | ⌓ ghko | n. 9. Gr. I. q. |
+| Dw. | 2 ∧ bac : ⌒ bc | ∧ bdc : ⌒ bc | n. 7. V. |
+| γ und | ∧ fhg : ⌒ fg | 2 ∧ bac : ⌒ bc | n. 11. V. u. Bew. β |
+|  | ∧ fhg | 2 ∧ feg | n. 20. III. |
+|  | ⌒ fg | ⌒ fg |  |
+| Dw. | ∧ fhg : ⌒ fg | 2 ∧ feg : ⌒ fg | n. 7. V. |
+| und | 2 ∧ bac : ⌒ bc | 2 ∧ feg : ⌒ fg | n. 11. V. u. Bew. γ. |
+|  | ∧ bac : 2 ∧ bac | ∧ feg : 2 ∧ feg | n. 6. Besch. V. |
+| Dw. | ∧ bac : 2 ∧ bac : ⌒ bc | ∧ feg : 2 ∧ feg : ⌒ fg | n. 4. V. |
+| und | ∧ bac : ⌒ bc | ∧ feg : ⌒ fg | n. 22. V. |
 
-Gleicher Gestalt sind auch
+### II. Gegebene.
 
-⌓ hkl | ⌓ ghk
-und ⌓ bdc | ⌓ cdi | ⌓ idm
+1. Gleichmässige Kreyse abm und efl.
+2. Kreißstücke bdc und fhg.
 
-Wie vielfältig nun der Bogen fl des Bogens fg, so vielfältig ist der Kreißschnitt / fhl des Kreißschnitts fhg.
+### II. Begehrtes.
 
-⌒ fl : ⌒ fg | ⌓ fhl : ⌓ fhg.
+⌒ bc : ⌒ fg | ⌓ bdc : ⌓ fhg.
 
-Gleicher Gestalt / wie vielfältig der Bogen bm des Bogens bc, so vielfältig ist auch der Kreißschnitt bdm des Kreißschnitts bdc.
+### II. Vorbereitung.
 
-⌒ bm : ⌒ bc | ⌓ bdm : ⌓ bdc
+1. Werden in dem Kreyß abm zweene dem ⌒ bc gleichmässige Bogen ci und cm,
 
-|  |  |
-|---|---|
-| Ist nun | ⌒ fl ⊣ ⌒ bm |
-| so ist auch | ⌓ fhl ⊣ ⌓ bdm |
+2. Deßgleichen dem Bogen fg zweene gleichmässige ⌒ gk und ⌒ kl abgeschnitten/ n. 1. IV.
 
-oder:
+3. Werde der Bogen fg in zweene gleiche Theile fn | ng.
 
-|  |  |
-|---|---|
-| Ist | ⌒ fl \| ⌒ bm |
-| so ist auch | ⌓ fhl \| ⌓ bdm |
+4. Wie auch ⌒ gk in zween gleiche Theile go | ok getheilet.
 
-oder:
+5. Werden die Striche fm, mg, gn, nk gezogen.
+
+### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| Ist | ⌒ fl ⊢ ⌒ bm |  |
-| so ist auch | ⌓ fhl ⊢ ⌓ bdm |  |
-| Dw. | ⌒ fg : ⌒ bc \| ⌓ fhg : ⌓ bdc | n. 6. Besch. V. |
-| und | ∧ fhg : ∧ bdc \| ⌓ fhg : ⌓ bdc | n. 11. V. |
+| fh + hg | gh + hk | n. 15. Besch. I. |
+| fg | gk | n. 1. Vorb. |
 
-<!-- Catchword: Beschluß -->
+<!-- Catchword: Dw. -->

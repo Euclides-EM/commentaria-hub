@@ -1,42 +1,27 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 251 -->
+<!-- Page number: 250 -->
 
-### I. Beweiß.
+### Beschluß.
 
-Grösse mehr vielfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vielfältig / als gegen die Grössere.
+Wann derowegen das I. Gantze zu dem II. Gantzen sich also verhält / wie das von dem Ersten Gantzen abgenommene / zu dem vom Andern abgenommenen; So wird auch das Erste übergebliebene zu dem Andern übergebliebenen sich also / wie das Erste Gantze zu dem Andern Gantzen verhalten.
 
-A | 5a — n. 1. Geg.
-c | 4a — n. 2. Geg.
-Dw. A—c | a — n. 3. Gr. I.
-B | 5b — n. 3. Geg.
-d | 4b — n 4. Geg.
-Dw. B—d | b — n. 3. Gr. I.
+## Der VI. Vortrag.
 
-### Gegebene. — Begehrtes.
+## Das 6. Beweiß-Stück.
 
-I. A ______ — A—c : a | B—d : b
-II. a ___
-III. B ______
-IV. b ___
+Wenn zwo Grössen zweyer Andern Grössen gleichvielfältig sind; darnach zwey von denen Ersten Grössen abgenommene Stücke auch so vielfältig zu denen zwo Andern Grössen sind: So werden die übergebliebene Stücke denen andern zwo Grössen gleich an Grösse / oder gegen dieselben gleichvielfältig seyn.
 
-[Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet I. A, II. a, III. B, IV. b]
+### Gegebene. — Begehrte.
 
-1. A | 5a
-2. c | 3a
-3. B | 5b
-4. d | 3b
+[Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet A, a, B, b]
 
-### II. Beweiß.
+A—c | a
+B—d | b
 
-A | 5a — n 1. Geg.
-c | 3a — n. 2. Geg.
-Dw. A—c | 2a — n. 3. Gr. I.
-B | 5b — n 3. Geg.
-d | 3b — n. 4. Geg.
-Dw. B—d | 2b — n. 3. Gr. I.
-Und A—c : a | B—d : b — n 7. Beschr. V.
+1 A | 5a
+2 c | 4a
+3 B | 5b
+4 d | 4b
 
-<!-- Signature: Ji 2 -->
-
-<!-- Catchword: Beschluß. -->
+<!-- Catchword: I. Beweiß. -->

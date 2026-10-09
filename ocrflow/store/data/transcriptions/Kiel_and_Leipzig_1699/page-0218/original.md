@@ -1,29 +1,30 @@
-<!-- Running title: Das IV. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 202 -->
+<!-- Page number: 201 -->
 
-IV. Eine geradstrichichte Gestalt wird umb einen Kreyß beschrieben genennet/ wenn sie mit ihren Seiten den Umbfang des Kreyses berühret.
+und ak | ad n. 2. Gr. u. II.
+cd | ck n. 15. Beschr. I.
+ac | ac
+Dw. ak + cd + ac | ad + ck + ac n. 2. Gr. I.
+und adc ∧ akc n. 8. I.
+akc | ⌐ n. 1. Wirck. u. n. 16. III.
+Dw. adc | ⌐ n. 10. Gr. I.
+und ad | Rührstrich n. 16. III. u. 2. Besch. III.
 
-V. Auff gleiche weise wird ein einer geradstrichichten Gestalt eingeschriebener Kreyß genennet/ welcher mit seinem Umfang alle derselbigen Gestalt Seiten berühret.
+### Beschluß.
 
-VI. Ein ümb eine geradstrichichte Gestalt beschriebener Kreyß wird genennet / welcher mit seinem Umfang alle derselben Gestalt Ecken berühret.
+Wird also allezeit der auff den Kreyß khdg stossende/und aus a gezogene Strich ad, wenn desselben gleichseitiges Viereck eben so groß ist/ als das rechtwincklichte Viereck / welches von dem gantzen schneidenden Strich ah, und dem zwischen dem Düttel a und äussern Kreyßkrümme stehenden Stück ag begriffen wird/ein Rührstrich seyn. W. Z. B.
 
-VII. Ein dem Kreyß eingesetzter oder eingefügter gerader Strich wird genennet/ dessen beede Ende in dem Kreyßzuge stehen.
+# Das IV. Buch Euclidis.
 
-8. Gleichwincklichte Dreyecke ( oder Gestalte ) sind/ in welchen alle Winckel des einen/ allen Winckeln des andern / jedweder jedwedem gleich sind.
+## Beschreibungen.
 
-## Der I. Vortrag.
+I. Diejenige geradstrichichte Gestalt wird einer andern geradstrichichten Gestalt eingeschrieben genennet / welche mit ihren Ecken aller derselben Gestalt/ welcher sie einverleibet ist/ Seiten berühret.
 
-## Das 1. Werckstück.
+II. Gleicherweise wird eine einer andern Gestalt umbschriebene Gestalt genennet / welche mit ihren Seiten alle derselben Gestalt/ so sie ümbgiebt/ Ecken berühret.
 
-Einem gegebenen Kreyß einen geraden Strich / welcher dem gegebenen Strich gleich groß / aber nicht so groß/ als des Kreyses Durchschlag sey/ einzufügen.
+III. Eine geradstrichichte Gestalt wird einem Kreyß eingeschrieben genennet / wenn sie mit ihren Ecken den Umbkreyß oder Umbfang berühret.
 
-### Gegebene. Begehrtes.
+<!-- Signature: C c -->
 
-1. Kreyß cdf. 1. Einem Kreyß eingefügter
-2. Gerader Strich ab. Strich cd.
-3. Der Durchschlag cg ⊣ ab. 2. cd | ab.
-
-[Diagram: links ein senkrechter Strich ab; daneben ein Kreis cdf mit Mittelpunkt e, punktierter Durchmesser gc und eingefügtem Strich cd; ein zweiter punktierter Kreisbogen um c durch d und f]
-
-<!-- Catchword: Wir- -->
+<!-- Catchword: IV. Eine -->

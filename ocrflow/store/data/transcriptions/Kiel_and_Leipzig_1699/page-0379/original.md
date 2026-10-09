@@ -1,35 +1,35 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das VI. Buch -->
 
-<!-- Page number: 363 -->
+<!-- Page number: 362 -->
 
-[Diagram: grösseres Viereck m l f e, daneben kleiner Strich t s und kleineres Viereck t w r s; darunter Striche a e, c d r s mit punktierter Linie]
+### Vorbereitung.
+
+Wenn gh ⊣ rs
+so werde zu diesen beyden gh und rs der dritte ebenmässige Strich x gefunden. n. 11. VI.
+gh : rs | rs : x.
 
 ### Beweiß.
 
-▭ el ähnlich ▭ st n. 3. Vorb.
-▭ el - - - ▭ gi n. 3. Geg. I.
-Dw. ▭ st - - - ▭ gi n. 21. VI.
-△ abo : △ cdn | ▭ el : ▭ st 1. Th. dies. Vort.
-△ abo : △ cdn | ▭ el : ▭ gi n 1. Geg.
-Dw. ▭ el : ▭ gi | ▭ el : ▭ st n. 11. V.
-u. ▭ gi | ▭ st n 9 V.
-gh | rs n. Vorsatz. γ
-ef | ef
-ef : gh | ef : rs n. 7. V.
-ab : cd | ef : rs n. 1. Vorb.
-Dw. ab : cd | ef : gh n. 11. V.
+gh : rs | rs : x n. Vorb.
+gh ⊣ rs n. Ang.
+Dw. rs ⊣ x n. 14. V.
+α u. gh ⊣ x n. 1 Gr. e. l.
+gh : x ⊐ gh : rs n. 10. Besch V.
+□ gi : □ rt ⊐ gh : rs n. 19. V.
+Dw. □ gi : □ rt | gh : x n. 11. V.
+u. □ gi ⊣ □ rt n. Bew. α. u. n. 14. V.
 
-### Beschluß.
+Welches aber wider das 1. Gegeb.
+Eben so wenig kan auch gh ⊢ rs
+γ Müssen derowegen gh | rs. seyn/ W. Z. B.
 
-Werden derowegen aus vier ebenmässigen Strichen/ auch ebenmässige Vielecke beschrieben.
+### Andere Ahrt.
 
-Und derer ebenmässigen Vielecke Seiten oder Striche sind auch ebenmässig. W. Z. B.
+### Vorbereitung.
 
-## Der XXIII. Vortrag.
+1. Zu den drey geraden Strichen ab, cd und ef werde der vierte ebenmässige Strich rs gefunden. n. 12. VI.
+2. Auf den Strich rs werde ein geradstrichichtes Vieleck rsut gesetzet/ welches
+3. Vieleck st ähnlich sey dem Vieleck el, n 18. VI. und auch
+4. Auf gleiche Weise gesetzet sey.
 
-## Das 17. Beweiß-Stück.
-
-Gleichwincklichte nebenstrichichte Vierecke ha-
-
-<!-- Signature: Z z 2 -->
-<!-- Catchword: ben -->
+<!-- Catchword: Beweiß. -->

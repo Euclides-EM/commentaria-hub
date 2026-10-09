@@ -1,32 +1,36 @@
-<!-- Running title: Das III. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 140 -->
+<!-- Page number: 139 -->
 
-ea + ai ⊣ ei — n. 24. I.
-ec | ei — n. 15. Beschr. I.
-Dw. ec ⊣ ea + ai — n. 1. Gr. a. [unclear: i.]
-ea | ea
-ec — ea ⊢ ai — n. 5. Gr. I.
-oder ac ⊢ ai
+4. Welcher nicht in der Mitte des Kreyses stehet.
+5. Die geraden Striche ai, ah, ag, ak, ab, ac.
 
-eh | el — n. 15. Beschr. I.
-ea | ea
-eh + ea | el + ea — n. 2. Gr. I.
-aeh ⋀ ael — n. 1. Vorber.
-Dw. ah | al — n. 4. I.
+4. ag ⊣ ah
+5. ah ⊣ ai
+6. ah | al.
 
-ae + ek | ae + eg — n. 15. Besch. u. 2. Gr. I.
-aek ⋀ aeg — n. 9. Gr. I.
-Dw. ac ⊣ ag. — n. 24. I.
+6. ab durch den Mittel-Dupffel gehend.
+7. Das übrige dieses Striches / nemlich ac.
+8. Die Striche ah und al gleich weit
+von dem durch den Mittel-Düpffel gehenden Strich entfernet.
 
-### Beschluß.
+[Diagram: Kreis mit den Punkten h, g, k oben, i links, c, a, e, b auf dem waagerechten Durchmesser und l unten; von a und e ausgehende teils punktierte Striche zu den Punkten am Umfang]
 
-Ist also allezeit der / aus dem erwehlten Düttel a, durch den Mittel-Düpffel e gezogene Strich ab, der längste/und das übrige ac der kürtzeste; die andern aber / je näher sie dem Mittel-Düpffel stehen/auch länger/als die/so weiter davon entfernet seyn: Diejenigen aber/welche gleichweit davon abstehen (als ah und [unclear: ab]) gleichlang. W. Z. B.
+### Vorbereitung.
 
-## Der IIX. Vortrag.
+1. Werde auff den [unclear: Düttel] a gesetzet ein ∠ ael ⋀ [unclear: aeb]
+n. 23. I.
 
-## Das 7. Beweiß-Stück.
+2. Werden aus dem Mittel-Düpffel e gezogen ek,
+eg, eh, ei, el, und al.
 
-Wenn ausser dem Kreyß ein Düttel erwehlet wird / und von selbigem Düttel zu dem Kreyß etliche gerade Striche gezogen werden / deren einer durch den Mittel-Düpffel gehet: So wird unter allen / so auff den Kreyß inwendig stossen / derjenige / welcher durch den Mittel-Düpffel ge-
+### Beweiß.
 
-<!-- Catchword: het/ -->
+eb | ek — n. 15. Beschr. I.
+ae + ke ⊣ ak — n. 20. I.
+ae + ke | ab — n. 9. Gr. q. [unclear: I.]
+Dw. ab ⊣ ak — n. 1. Gr. c. [unclear: I.]
+
+<!-- Signature: S 2 -->
+
+<!-- Catchword: ea -->

@@ -1,27 +1,35 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 250 -->
+<!-- Page number: 249 -->
 
 ### Beschluß.
 
-Wann derowegen das I. Gantze zu dem II. Gantzen sich also verhält / wie das von dem Ersten Gantzen abgenommene / zu dem vom Andern abgenommenen; So wird auch das Erste übergebliebene zu dem Andern übergebliebenen sich also / wie das Erste Gantze zu dem Andern Gantzen verhalten.
+Wenn derowegen aus vier Grössen die I. zu der II. in solcher Verhältnüß / wie die III. zu der IV. stehet; Und die V. zu der I. sich also wie die VI. zu der III. und auch die VII. zu der II. wie die IIX. zu der IV. sich verhält: So wird auch die V. zu der VII. also wie die VI. zu der IIX. sich verhalten. W. Z. B.
 
-## Der VI. Vortrag.
+## Der V. Vortrag.
 
-## Das 6. Beweiß-Stück.
+## Das 5. Beweiß-Stück.
 
-Wenn zwo Grössen zweyer Andern Grössen gleichvielfältig sind; darnach zwey von denen Ersten Grössen abgenommene Stücke auch so vielfältig zu denen zwo Andern Grössen sind: So werden die übergebliebene Stücke denen andern zwo Grössen gleich an Grösse / oder gegen dieselben gleichvielfältig seyn.
+Wenn die Erste Grösse eben so vielfältig ist gegen die Andere Grösse / als das von der Ersten abgenommene Stück gegen das von der andern abgenommene Stück: So wird auch das Erste Übergebliebene gegen das Andere Übergebliebene eben so vielfältig seyn / als die Erste gantze Grösse gegen die Andere gantze Grösse.
 
-### Gegebene. — Begehrte.
+### Gegebene. — Begehrtes.
 
-[Diagram: Vier waagerechte Linien mit Teilstrichen, bezeichnet A, a, B, b]
+[Diagram: Zwey waagerechte Linien mit Teilstrichen, bezeichnet A und B]
 
-A—c | a
-B—d | b
+1. A | 2B
+2. a | 2b — A—a : B—b | A : B
+3. A : B | a : b
 
-1 A | 5a
-2 c | 4a
-3 B | 5b
-4 d | 4b
+### Beweiß.
 
-<!-- Catchword: I. Beweiß. -->
+A | 2B — n. 1.
+a | 2b — n. 2. Gegeb.
+A—a | 2B—2b — n. 3. Gr. I.
+2B—2b | Zwiefach B—b
+Dw. A—a | Zwiefach B—b — n. 6. Gr. kk. I.
+und A | Zwiefach B — n. 1. Gegeb.
+Dw. A—a : B—b | A : B. — n 7. Beschr. V.
+
+<!-- Signature: Ji -->
+
+<!-- Catchword: Beschluß. -->

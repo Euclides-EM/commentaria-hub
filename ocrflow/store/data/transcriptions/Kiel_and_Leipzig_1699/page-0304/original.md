@@ -1,39 +1,38 @@
-<!-- Running title: Das V. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 288 -->
-
-### Gegebene.
-
-[Diagram: zwey Linien A und B; auf der Linie A sind die Stücke a und c, auf der Linie B das Stück b bezeichnet]
-
-A : a ⊣ B : b
+<!-- Page number: 287 -->
 
 ### Begehrtes.
 
-A + a : a ⊣ B + b : b
+A : B ⊣ a : b
 
 ### Vorbereitung.
 
-Man nehme noch eine Grösse/ nemlich c darzu/ welche sich zu a also/wie B zu b, verhalte. c : a | B : b.
+Man nehme noch eine Grösse nemlich c darzu/welche sich zu a, wie B zu b, verhalte.
+
+c : a | B : b
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| c : a | B : b | n Vorber. |
-| A : a | ⊣ B : b | n. Geg. |
-| Dw. A : a | ⊣ c : a | n. Anh. 13. V. |
+| c : a | B : b | n. Vorber. |
+| A : a | ⊣ B : b | n Gegeb. |
+| A : a | ⊣ c : a | n. Anh. 13. V. |
 | u. A | ⊣ c | n. 10. V. |
-| a | a | |
-| A + a | ⊣ c + a | n. 4 Gr. I. |
-| a | a | |
-| Dw. A + a : a | ⊣ c + a : a | n. 8. V. |
-| c : a | B : b | n. Geg. |
-| Dw. c + a : a | B + b : b | n. 18. V. |
-| u. A + a : a | ⊣ B + b : b | n. Anh. 13. V. |
+| B | B | |
+| Dw. A : B | ⊣ c : B | n. 8. V. |
+| a : b | c : B | n. 16. V. |
+| Dw. A : B | ⊣ a : b | n. Anh. 13. V. |
 
 ### Beschluß.
 
-Wenn derowegen die I. zu der II. Grösse eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. mit der II. zu der II. eine grössere Verhältnüß/ als die III. und IV. zusammen/ zu der IV. haben. W. Z. B.
+Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat/ als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß/ als die II. zu der IV. haben. W. Z. B.
 
-<!-- Catchword: Der -->
+## Der XXIIX. Vortrag.
+
+## Das 28. Beweiß-Stück.
+
+Wenn vier Grössen gegeben werden/ deren die Erste zu der Andern eine grössere Verhältnüß hat/ als die Dritte zu der Vierten; So wird auch die Erste mit der Andern zusammen/ zu der Andern eine grössere Verhältnüß / als die Dritte und Vierte zusammen zu der Vierten/ haben.
+
+<!-- Catchword: Gege- -->

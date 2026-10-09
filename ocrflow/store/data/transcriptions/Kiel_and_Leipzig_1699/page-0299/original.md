@@ -1,34 +1,39 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 283 -->
+<!-- Page number: 282 -->
 
 ### Gegebene.
 
-[Diagram: vier Linien A, B, a, b von verschiedener Länge; auf der Linie a sind die Stücke f und d bezeichnet]
+[Diagram: vier Linien mit den Bezeichnungen A und c, B, a, b am linken Rand]
 
-A : B | a : b
-A ⊣ B
-B ⊣ a
-a ⊣ b
+A : | a :
+: B | : b
+C : | c :
 
 ### Begehrtes.
 
-A + b ⊣ B + a
+A + C : B | a + c : b.
 
-### Vorbereitung.
+### Beweiß.
 
-1. Von der Grössesten und Ersten Grösse A werde ein Stück e, welches so groß sey / als die Andere Grösse B, abgeschnitten e | B n. 3. I.
+|  |  |  |
+|---|---|---|
+| C : B | c : b | n Geg. |
+| B : C | b : c | n. 4. V. |
+| A : B | a : b | n. Geg. |
+| Dw. A : C | a : c | n. 22. V. |
+| u. A + C : C | a + c : c | n. 18. V. |
+| C : B | c : b, | n Gegeb. |
+| Dw. A + C : B | a + c : b | n. 22. V. |
 
-2. Von der dritten Grösse a werde auch ein Stück f, so groß/ als die vierte Grösse b, abgenommen/ f | b n. 3. I.
+### Beschluß.
 
-3. Dem erst abgeschnittenen Stück e werde die Vierte Grösse beygefüget. e + b
+Wenn derowegen Sechs Grössen gegeben werden/deren I. zu der II. sich also verhält/ wie die III. zu der IV. darnach auch die V. zu der II. wie die VI. zu der III. So müssen auch die I. und V. zusammen sich zu der II. also wie III. und VI. zusammen genommen sich zu der IV. verhalten.
 
-4. Dem andern abgenommenen Stück f werde die Andere Grösse B beygesetzet. f + B
+## Der XXV. Vortrag.
 
-5. Zu denen Ersten beeden e + b werde noch hinzu gethan das Stück/so zuerst übergeblieben/nemlich c e + c + b.
+## Das 25. Beweiß-Stück.
 
-6. Zu denen andern beeden f + B werde das andere übergebliebene d beygethan B + f + d.
+Wenn vier Ebenmässige Grössen gegeben werden/ so sind die Grösseste und Kleineste derselben grösser / als die beeden übrigen.
 
-<!-- Signature: Nn 2 -->
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Gegebene- -->

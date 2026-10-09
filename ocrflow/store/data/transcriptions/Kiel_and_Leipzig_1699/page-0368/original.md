@@ -1,33 +1,41 @@
-<!-- Running title: Das VI. Buch -->
+<!-- Running title: Euclidis. -->
 
-<!-- Page number: 352 -->
+<!-- Page number: 351 -->
 
-Dw. ist cdefg ähnlich der Gestalt abhik, und eben so gesetzet n. 1. Beschr. VI.
+edc ⋏ abh
+3. und dec ⋏ ahb
+4. Auf den Strich ah aber gce ⋏ hak
+5. und gec ⋏ ahk
+6. Endlich auf den Strich eg, gef ⋏ khi
+7. und egf ⋏ hki n. 23. I.
 
-### Beschluß.
+### I. Beweiß.
 
-Ist also ein dem gegebenen Fünfeck abhik, ähnliches und eben so gesetztes Fünfeck cdefg auf den gegebenen Strich cd gesetzet. W. Z. M.
+cde ⋏ abh n. 2. Wirck.
+dec ⋏ abh n. 3. Wirck.
+α Dw. ecd ⋏ hab n. 32. I.
+Und sind die Seiten beyder Dreyeck ebenmässig n. 4. VI.
+Dw. △ edc ähnlich dem △ abh n. 1. Besch. VI.
+Ebener massen sind auch die übrigen
+△ gce ähnlich dem △ hak
+und △ egf △ hki n. 1. Besch. VI.
+Dw. ab : cd | ah : ce
+u. ak : cg | ah : ce n. 4. VI.
+Dw. ak : cg | ab : cd n. 11. V.
+Ebener massen sind auch
+bh : ab | de : cd
+u. hi : ef | ik : fg n. 11. V.
 
-## Des XIIX. Vortrags Anhang.
+### II. Beweiß.
 
-Vortheilhafftiger kan dieser Aufgabe ein Genügen geschehen/ wenn
-
-1. aus dem Winckel A zu denen gegenstehenden Winckeln C D E gerade Striche gezogen werden.
-
-2. Dem gegebenen geraden Strich ab ein gleichmässiger von der Seiten AB abgeschnitten wird n. 3. I.
-
-3. Aus | b gegen | BC ein Nebenstrich | bc,
-4. | c | CD | cd,
-5. | d | DE | de,
-6. | e | EF | ef gezogen wird n. 31. I.
-
-[Diagram: Sechseck ABCDEF mit einwärts liegendem ähnlichen Sechseck abcdef; von A gehen punktierte Striche zu den Ecken; oben der Strich A a—b B]
-
-### Beweiß.
-
-BC ∓ bc n. 3. W.
-Dw. ACB ⋏ acb
-u. ABC ⋏ abc n. 29. I.
-CAB ⋏ cab n 8. Gr. I.
+b ⋏ d n. 1. Winck.
+hab ⋏ ecd n. Bew. α.
+hak ⋏ gce
+Dw. hab + hak ⋏ ecd + gce n 2. Gr. I.
+oder a ⋏ c n. 9. Gr. I. q.
+Ebener massen sind auch die übrigen Winckel
+k ⋏ g
+i ⋏ f
+h ⋏ e
 
 <!-- Catchword: Dw. -->

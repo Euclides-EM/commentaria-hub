@@ -1,35 +1,36 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das V. Buch -->
 
-<!-- Page number: 279 -->
+<!-- Page number: 278 -->
 
-## Der XXII. Vortrag.
-
-## Das 22. Beweiß-Stück.
-
-Es werden Grössen gegeben so viel man wil/ und werden eben so viel darzu genommen/ welche mit denen Ersten in richtiger Ordnung stehen; So werden sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben.
-
-### Gegebene.
+### III. Gegebene.
 
 [Diagram: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]
 
-1. A : B : C | a : b : c
-2. A : B | a : b :
-3. B : C | b : c
+A : B | b : c
+B : C | a : b
+A ⊦ C
 
 ### Begehrtes.
 
-A : C | a : c
+a ⊦ c
 
 ### Beweiß.
 
 |  |  |  |
 |---|---|---|
-| B : C | b : c | n. 3. ⌉ Geg. |
-| A : B | a : b | n. 2. ⌡ |
-| Dw. A : C | a : c | n. 3. V. |
+| b : c | A : B | ⌉ n. Geg. |
+| A : | ⊦ C | |
+| B | B | |
+| Dw. A : B | ⊦ C : B | n. 8. V. |
+| u. b : c | ⊦ C : B | n. Anh. 13. V. |
+| a : b | B : C | n Gegeb. |
+| Dw. ⌠ b : a | C : B | n. 16. V. |
+| u. b : a | ⊣ b : c | n. 13. V. |
+| b | b | |
+| Dw. a ⊦ | c | n. 10. V. |
 
 ### Beschluß.
 
-Wenn derowegen zweyerley Ahrt Grössen gegeben werden/ welche in richtiger Ordnung Ebenmässig sind/ so müssen sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
+Wenn derowegen Sechs Grössen in verwirreter Ebenmaß stehen/ und die I. grösser ist / als die III. so wird auch die IV. grösser seyn/ als die VI. Ist aber die I. eben so groß/als die III. so ist auch die IV. eben so groß/als die VI. Und wenn die I. kleiner ist/als die III. so ist auch die IV. kleiner/als die VI. W. Z. B.
 
 <!-- Catchword: Der -->

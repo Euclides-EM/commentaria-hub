@@ -1,36 +1,33 @@
-<!-- Running title: Euclidis. -->
+<!-- Running title: Das I. Buch -->
 
-<!-- Page number: 19 -->
+<!-- Page number: 18 -->
 
-### Beweiß.
+### Beweiß
 
-cf | ab nach 2 Vortr.
-cf | cg nach 15 Beschr.
-Dw. ab | cg nach 1 Grund-S.
+a d | c d nach 1. Vortr.
+d e | d f nach 15. Beschr.
+Dw. d e — a d | d f — c d nach 3. Grund-Satz.
+oder e a | f c
+e a | a b nach 15. Beschr.
+Dw. f c | a b nach 1. Grund-Satz.
 
-### Beschluß.
+und ist fc | ab aus dem gegebenen Düttel c gezogen/ W. Z. M.
 
-Und ist also von dem grössern ch abgeschnitten ein Stück cg | ab
-W. Z. M.
+## Der III. Vortrag.
+## Das 3. Werck-Stück.
 
-## Der IV. Vortrag.
-
-## Das I. Beweiß-Stück.
-
-Wenn in zweyen Dreyecken zwo Seiten des einen eben so groß seynd / als zwo Seiten des andern/und zwar jedwede Seite einer jedweden absonderlich; darnach auch diejenigen Winckel/ welche von den gedachten Seiten eingeschlossen werden / gleich sind: so werden auch die beeden Grund-Striche/ und die beeden Dreyecke ein ander gleich seyn; deßgleichen werden die übrigen Winckel/ derer gegenüberstehende Striche gleich groß seynd / auch ein ander gleich seyn.
+Wenn zween ungleiche Striche gegeben werden/ von dem grössern ein Stück abzuschneiden/ welches dem kleinern gleich sey.
 
 ### Gegebene. | Begehrte.
+1. Der gerade kleine Strich ab | 1. Daß vom grössern Strich ch abgeschnittene Stück cg
+2. Der - - Grössere - - ch | 2. cg | ab
 
-1. Zwey geradstrichiche Dreyecke ABC und abc | BC | bc, ABC ⏉ abc
-2. AB + AC | ab + ac | BCA ⋏ bca
-3. AB | ab | und ABC ⋏ abc
-4. AC | ac
-5. BAC ⋏ bac
+### Wirckung.
 
-### Vorbereitung.
+1. Aus einem der beeden End-Düttele c oder h des längern Strichs ch, wird ein gerader Strich cf gezogen.
+2. Welcher Strich cf | ab, nach 2. Vortr.
+3. Auß dem Düttel c, wird nach der Länge cf ein Kreyß-Stück fg gezogen/welches den Strich ch in dem Düttel g durchschneidet.
 
-Man hebe das △ abc auff/ und setze es auff das △ ABC also / daß der Düttel a auff den Düttel A, und der Strich AB auff den Strich AB falle.
+[Diagram: punktierte Kreise mit den Punkten h, f, a, g, c, b und d; der Strich h–c geht durch den Punkt g, dazu Striche nach a, b und d]
 
-<!-- Signature: C 2 -->
-
-<!-- Catchword: Beweiß. -->
+<!-- Catchword: Beweiß -->

@@ -1,36 +1,36 @@
-<!-- Page number: 42 -->
+<!-- Page number: 41 -->
 
-<!-- Running title: Das I. Buch -->
+<!-- Running title: Euclidis. -->
 
-sammen / sie mögen genommen werden / wie sie wollen / allezeit grösser / als die dritte.
+### Gegebene. Begehrte.
+1. △ ABC
+2. ACB ⲗ ABC. 1. AC ⊢ AB.
+3. BCA ⲗ BAC. 2. BA ⊢ BC.
+4. ABC ⲗ BAC. 3. AC ⊢ BC.
 
-### Gegebenes. Begehrte.
-△ ABC. 1. AB + BC ⊣ CA
-2. CA + AB ⊣ BC
-3. BC + CA ⊣ BA.
-
-### Vorbereitung.
-
-1. Werde die Seite CA nach nohturfft verlängert. n. 2. Fod.
-2. werde AD | AB n. 3. Vortr.
-3. Ziehe man den geraden Strich BD.
-
-[Diagram: Dreieck ABC mit C unten links, B unten rechts, A oben; die Seite CA über A hinaus punktiert verlängert bis D, punktierte Linie von D nach B.]
+[Diagram: Rechtwinkliges Dreieck mit C oben, A unten links, B unten rechts.]
 
 ### Beweiß.
+Es sind die Seiten AC | AB
+oder AC ⊣ AB
+oder AC ⊢ AB.
+Sind AB | AC, so sind auch ACB ⋀ ABC n. 5. Vortrag.
+welches nicht seyn kan / nach 2. Gegebenem
+Ist aber AB ⊢ AC
+so ist auch ACB ⲗ ABC n. 18. Vortr.
+welches abermal nicht seyn kan / n. 2. Gegeben.
+Muß also AB ⊣ AC
+damit auch ACB ⲗ ABC n. 2. Gegeb.
+Gleiche Bewandniß hat es auch mit den andern Seiten und Winckel.
 
-AD | AB n. 2. Vorbereitung.
-Drw. ADB ⋀ ABD n. 5. Vortr.
-CBD ⲗ ABD n. 9. Gr-S.
-CBD ⲗ CDB n. 1. Gr-S. a.
-CD ⊣ CB n. 19. Vortr.
-CA | CA
-CA + AD | CA + AB n. 2. Gr-S.
-aber CA + AD | CD n. 9. Gr-S. q.
-Drw. CA + AB ⊣ CB n. 1. Gr-S. c.
+### Beschluß.
+Solcher Gestalt muß in jedwedem △ der grösseste Winckel der längsten Seite gegenüber stehen. W. Z. B.
 
-Gleicher Weise kan auch erwiesen werden
-daß AB + BC ⊣ CA
-und BC + CA ⊣ BA
+## Der XX. Vortrag.
 
-<!-- Catchword: Beschluß. -->
+## Das 13. Beweiß-Stück.
+
+In jedwedem Dreyeck sind zwo Seiten zu-
+
+<!-- Signature: F -->
+<!-- Catchword: sam- -->
