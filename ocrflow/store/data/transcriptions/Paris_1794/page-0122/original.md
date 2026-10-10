@@ -1,9 +1,9 @@
 <!-- Running title: GÉOMÉTRIE. -->
 <!-- Page number: 94 -->
 
-# *Problémes annexés au Livre III.*
+## *Problêmes annexés au Livre III.*
 
-## PROBLÈME I.
+### PROBLÊME I.
 
 *Diviser une ligne droite donnée en tant de parties égales qu’on voudra, ou en parties proportionnelles à des lignes données.*
 

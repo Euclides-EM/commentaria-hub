@@ -7,7 +7,7 @@ roient la circonférence aux points A, B, C, etc. ; on joindroit ensuite ces poi
 
 ## PROPOSITION VII.
 
-### THÉORÈME.
+### THÉORÊME.
 
 *La surface d’un polygone régulier est égale à son périmetre multiplié par la moitié du rayon du cercle inscrit.*
 

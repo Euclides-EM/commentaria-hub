@@ -1,7 +1,11 @@
 <!-- Running title: NOTE VI. -->
 <!-- Page number: 296 -->
 
-## NOTE VI. *Où l’on démontre que le rapport de la circonférence au diametre ne peut être exprimé en nombres entiers.*
+## NOTE VI.
+
+[Subhead]
+*Où l’on démontre que le rapport de la circonférence au diametre ne peut être exprimé en nombres entiers.*
+[/Subhead]
 
 On connoît déja une démonstration de cette proposition qui a été donnée par Lambert dans les Mémoires de Berlin année 1761; mais comme cette démonstration est longue et difficile à suivre, nous avons tâché de l’abréger et de la simplifier. Voici le résultat de nos recherches.
 

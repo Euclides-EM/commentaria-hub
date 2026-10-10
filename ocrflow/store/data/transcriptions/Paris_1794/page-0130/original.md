@@ -5,13 +5,13 @@ données ; cherchez un quarré égal à la somme ou à la différence des quarr�
 
 Car les figures semblables sont comme les quarrés des côtés homologues ; or le quarré du côté X est égal à la somme ou à la différence des quarrés faits sur les côtés homologues A et B ; donc la figure faite sur le côté X est égale à la somme ou à la différence des figures semblables faites sur les côtés A et B.
 
-## PROBLÈME XV.
+### PROBLÊME XV.
 
 *Construire une figure semblable à une figure donnée et qui soit à cette figure dans le rapport donné de M à N.*
 
 Soit A un côté de la figure donnée, X le côté homologue dans la figure cherchée ; il faudra que le quarré de X soit au quarré de A comme M est à N. On trouvera donc X par le problème XII ; connoissant X, le reste s’achevera par le problème XIII.
 
-## PROBLÈME XVI.
+### PROBLÊME XVI.
 
 [Margin]
 151.

@@ -11,7 +11,7 @@ par conséquent* BD² = BC² + CD² − 2 BC × CD. Ajoutant de part et d’autr
 
 ## PROPOSITION XIII.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 111.

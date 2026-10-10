@@ -1,12 +1,12 @@
 # ÉLÉMENS DE GÉOMÉTRIE.
 
-## LIVRE PREMIER.
+# LIVRE PREMIER.
 
-### LES PRINCIPES.
+## LES PRINCIPES.
 
 [Ornament: horizontal tapered rule]
 
-#### DÉFINITIONS.
+### DÉFINITIONS.
 
 I. La géométrie est une science qui a pour objet la mesure de l’étendue.
 

@@ -11,7 +11,7 @@ On voit en même temps que deux diagonales homologues, par exemple, AN, *an*, so
 
 ## PROPOSITION XXIII.
 
-### THEORÊME.
+### THÉORÊME.
 
 *Deux polyedres semblables peuvent se partager en un même nombre de pyramides triangulaires semblables chacune à chacune, et semblablement placées.*
 

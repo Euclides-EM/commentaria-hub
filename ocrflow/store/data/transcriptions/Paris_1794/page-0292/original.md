@@ -15,7 +15,7 @@ La meſure des polygones ſphériques ſuit immédiatement de celle des triangle
 
 ## PROPOSITION XI.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 P. 265.

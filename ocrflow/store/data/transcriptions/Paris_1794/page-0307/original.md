@@ -1,8 +1,14 @@
 # NOTES
 
-# SUR LES ÉLÉMENS DE GÉOMÉTRIE.
+[Subhead]
+SUR LES ÉLÉMENS DE GÉOMÉTRIE.
+[/Subhead]
 
-## NOTE I. *Sur quelques noms et définitions.*
+## NOTE I.
+
+[Subhead]
+*Sur quelques noms et définitions.*
+[/Subhead]
 
 {dropcap:O|lines=2|style=plain}N a introduit dans cet ouvrage quelques expressions et définitions nouvelles qui tendent à donner au langage géométrique plus d’exactitude et de précision. Nous allons rendre compte de ces changemens, et en proposer quelques autres qui pourroient remplir plus complètement les mêmes vues.
 

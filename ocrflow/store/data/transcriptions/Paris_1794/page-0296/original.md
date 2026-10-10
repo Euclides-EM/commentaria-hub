@@ -3,7 +3,7 @@
 
 ## PROPOSITION XIII.
 
-### PROBLÈME.
+### PROBLÊME.
 
 *Le triangle CAB étant ſuppoſé faire une révolution autour de la ligne CD, menée comme on voudra hors du triangle par un de ſes angles C, trouver la meſure du ſolide ainſi engendré.*
 

@@ -3,7 +3,7 @@
 
 X ∷ M : N, ou A̅B̅² : X² ∷ M² : N² ; donc P : Y ∷ M̅² : N̅². Mais on a aussi par construction M²=P et N²=Q ; donc P : Y ∷ P : Q ; donc Y=Q ; donc la figure Y est semblable à la figure P et équivalente à la figure Q.
 
-## PROBLÈME XVII.
+### PROBLÊME XVII.
 
 [Margin]
 F. 152.
@@ -25,7 +25,7 @@ donc ce rectangle est équivalent au quarré donné C.
 
 *Scholie.* Il faut, pour que le problême soit possible, que la distance AD n’excede pas le rayon, ou que le côté du quarré C n’excede pas la moitié de la ligne AB.
 
-## PROBLÈME XVIII.
+### PROBLÊME XVIII.
 
 [Margin]
 F. 153.

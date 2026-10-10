@@ -5,7 +5,7 @@
 Fig. 14.
 [/Margin]
 
-## LEMME IV.
+### LEMME IV.
 
 *Si sur la surface d’un polyedre le polygone ABCDE est d’un nombre impair de côtés, et que tous les angles solides en A, B, C, D, E, soient quadruples, il ne peut y avoir aucun changement dans l’inclinaison des faces qui composent ces angles.*
 
@@ -15,7 +15,7 @@ Car puisque l’angle solide A est quadruple, les inclinaisons sur AE et AB, si 
 Fig. 15.
 [/Margin]
 
-## LEMME V.
+### LEMME V.
 
 *Si ABD et BDC sont deux faces triangulaires adjacentes, si en même temps les angles A, B, C, sont quadruples, et l’angle D quintuple, je dis qu’il ne peut y avoir aucun changement dans l’inclinaison des faces qui composent ces angles.*
 

@@ -1,6 +1,8 @@
 # ÉLÉMENTS DE GÉOMÉTRIE,
 
-## AVEC DES NOTES.
+[Subhead]
+AVEC DES NOTES.
+[/Subhead]
 
 Par ADRIEN-MARIE LE GENDRE.
 
@@ -8,7 +10,7 @@ Si quid novisti rectius istis, Candidus imperti.
 
 [Ornament: horizontal rule with central lozenge]
 
-## A PARIS,
+A PARIS,
 
 Chez FIRMIN DIDOT, rue de Thionville, Nᵒ. 116, Libraire pour les Mathématiques et l’Architecture.
 

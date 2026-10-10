@@ -1,7 +1,7 @@
 <!-- Page number: 302 -->
 <!-- Running title: NOTE VI. -->
 
-## LEMME II.
+### LEMME II.
 
 [Subhead]
 Les mêmes choses étant posées; si les fractions composantes m/n, m′/n′, m″/n″, etc. sont d’une grandeur quelconque au commencement de la suite; mais qu’après un certain intervalle elles soient constamment plus petites que l’unité, je dis que la fraction continue proposée, en supposant toujours qu’elle s’étend à l’infini, aura une valeur irrationelle.

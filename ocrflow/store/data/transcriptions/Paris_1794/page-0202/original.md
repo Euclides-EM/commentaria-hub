@@ -11,7 +11,7 @@ les mêmes angles solides\*. Donc deux prismes sont égaux, etc.
 
 ## PROPOSITION IV.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 206.

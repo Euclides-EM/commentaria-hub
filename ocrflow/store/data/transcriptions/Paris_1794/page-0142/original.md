@@ -3,7 +3,7 @@
 
 ## PROPOSITION VIII.
 
-### THÉORÈME.
+### THÉORÊME.
 
 *Les périmetres des polygones réguliers d’un même nombre de côtés sont comme les rayons des cercles circonscrits, et aussi comme les rayons des cercles inscrits ; leurs surfaces sont comme les quarrés de ces mêmes rayons.*
 

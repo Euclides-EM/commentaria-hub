@@ -1,7 +1,11 @@
 <!-- Running title: NOTE III. -->
 <!-- Page number: 286 -->
 
-## NOTE III. *Sur la théorie des paralleles:*
+## NOTE III.
+
+[Subhead]
+*Sur la théorie des paralleles.*
+[/Subhead]
 
 Les propositions XX et XXII du livre I ne sont autre chose que le cinquieme *postulatum* d’Euclide sur lequel la théorie des paralleles est fondée. On sait que ce *postulatum*, qui dans certaines versions est l’axiome XI, a donné beaucoup d’embarras aux commentateurs; et que personne jusqu’à présent ne l’a démontré d’une maniere rigoureuse. Robert Simson, dans son édition d’Euclide, page 545, paroît croire que ce *postulatum* ou cet axiome n’est pas susceptible de démonstration, et en conséquence il se borne à en donner une sorte d’explication. D’Alembert avoit déjà fait sentir, dans ses Mélanges de philosophie, que la théorie des paralleles étoit traitée d’une maniere imparfaite dans les livres d’élémens: or cette théorie repose sur le *postulatum* dont il s’agit; et d’après la démonstration que nous en donnons, nous croyons qu’il n’y a plus rien à desirer à cet égard.
 

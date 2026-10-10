@@ -1,7 +1,7 @@
 <!-- Running title: NOTE XII. -->
 <!-- Page number: 327 -->
 
-## LEMME II.
+### LEMME II.
 
 [Subhead]
 *Soit S un angle solide quadruple ou formé par quatre angles plans ASB, BSC, CSD, DSA; supposons que, ces angles restant les mêmes, on change l’inclinaison mutuelle des deux plans ASB, ASD, ou, pour abréger, l’inclinaison sur SA; je dis que les inclinaisons sur les quatre arêtes SA, SB, SC, SD, varieront alternativement en plus et en moins.*

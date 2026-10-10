@@ -5,7 +5,7 @@ polyedre donné. Donc ils seroient égaux à ceux du polyedre symmétrique const
 
 ## PROPOSITION III.
 
-### THÉORÈME.
+### THÉORÊME.
 
 *Deux prismes sont égaux lorsqu’ils ont un angle solide compris entre trois plans égaux chacun à chacun et semblablement placés.*
 

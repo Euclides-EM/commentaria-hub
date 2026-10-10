@@ -3,7 +3,7 @@
 
 ## PROPOSITION XVII.
 
-### PROBLÈME.
+### PROBLÊME.
 
 *Le segment circulaire BMD étant supposé faire une révolution autour du diametre AG extérieur à ce segment, trouver la valeur du solide engendré.*
 
@@ -29,7 +29,7 @@ donc le solide décrit par le segment BMD = ⅔ π. EF. (CA² − CI²). Or dans
 
 ## PROPOSITION XVIII.
 
-### THÉORÈME.
+### THÉORÊME.
 
 *Tout segment de sphère compris entre deux plans paralleles a pour mesure la demi-somme de ses bases multipliée par sa hauteur, plus la solidité de la sphère dont cette même hauteur est le diametre.*
 

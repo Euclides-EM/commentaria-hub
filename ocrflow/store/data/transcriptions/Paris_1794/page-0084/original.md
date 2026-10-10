@@ -1,7 +1,7 @@
 <!-- Page number: 56 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-## PROBLÈME XVIII.
+### PROBLÊME XVIII.
 
 [Margin]
 Fig. 91.

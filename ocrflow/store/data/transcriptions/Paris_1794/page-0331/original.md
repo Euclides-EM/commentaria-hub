@@ -1,7 +1,7 @@
 <!-- Running title: NOTE VI. -->
 <!-- Page number: 303 -->
 
-## THÉORÊME.
+### THÉORÊME.
 
 [Subhead]
 Si un arc est commensurable avec le rayon, sa tangente sera incommensurable avec le même rayon.

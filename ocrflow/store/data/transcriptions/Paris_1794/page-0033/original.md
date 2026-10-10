@@ -17,7 +17,7 @@ Le quarré de la ligne AB se désigne par A̅B̅² ; son cube par A̅B̅³. On e
 
 Le signe √ indique une racine à extraire ; ainsi √2 est la racine quarrée de 2 ; √A̅×̅B̅ est la racine du produit A×B, ou la moyenne proportionnelle entre A et B.
 
-## AXIOMES.
+### AXIOMES.
 
 1. Deux quantités égales à une troisième sont égales entre elles.
 

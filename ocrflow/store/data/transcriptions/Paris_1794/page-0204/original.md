@@ -5,7 +5,7 @@ EC, AG, se couperont mutuellement en deux parties égales. Mais la diagonale EC 
 
 ## PROPOSITION VI.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 207.

@@ -1,7 +1,7 @@
 <!-- Page number: 96 -->
 <!-- Running title: GÉOMÉTRIE. -->
 
-## PROBLÊME IV.
+### PROBLÊME IV.
 
 [Margin]
 F. 141.
@@ -19,7 +19,7 @@ Car AB, étant perpendiculaire à l’extrémité du rayon CB, est une tangente 
 
 *Scholie.* Cette sorte de division de la ligne AB s’appelle division en *moyenne et extrême raison*. On en verra des usages. On peut remarquer que la sécante AE est divisée en moyenne et extrême raison au point D ; car AE:DE::DE:AD.
 
-## PROBLÊME V.
+### PROBLÊME V.
 
 [Margin]
 F. 142.

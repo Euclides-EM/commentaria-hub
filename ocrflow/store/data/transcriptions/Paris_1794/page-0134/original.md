@@ -16,7 +16,7 @@ Le triangle équilatéral est le polygone régulier de trois côtés, et le quar
 
 ## PROPOSITION I.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 155.

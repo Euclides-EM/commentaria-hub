@@ -17,7 +17,7 @@ AB² : AC² :: BD : DC.
 
 ## PROPOSITION XII.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 110.

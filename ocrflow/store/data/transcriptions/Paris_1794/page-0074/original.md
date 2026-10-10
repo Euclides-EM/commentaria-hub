@@ -5,7 +5,7 @@ donc les deux angles BAD, BCD, pris ensemble, ont pour mesure la moitié de la c
 
 ## PROPOSITION XIX.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 Fig. 69.
@@ -17,9 +17,9 @@ Au point de contact A menez le diametre AD ; l’angle BAD est droit, il a pour 
 
 On démontreroit de même que l’angle CAE a pour mesure la moitié de l’arc AC compris entre ses côtés.
 
-## *Problèmes relatifs aux deux premiers Livres.*
+## *Problêmes relatifs aux deux premiers Livres.*
 
-### PROBLÈME I.
+### PROBLÊME I.
 
 [Margin]
 Fig. 70.

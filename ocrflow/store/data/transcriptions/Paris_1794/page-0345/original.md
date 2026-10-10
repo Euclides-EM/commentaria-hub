@@ -7,7 +7,11 @@ La question qu’on vient de résoudre seroit beaucoup plus simple si on ne conn
 
 Il faudra donc 3S—7 conditions pour que deux polyedres qui ont un égal nombre S d’angles solides soient semblables entre eux.
 
-## NOTE X. *Sur les polyèdres réguliers.*
+## NOTE X.
+
+[Subhead]
+*Sur les polyèdres réguliers.*
+[/Subhead]
 
 [Subhead]
 *(Voyez l’appendice au livre VII.)*

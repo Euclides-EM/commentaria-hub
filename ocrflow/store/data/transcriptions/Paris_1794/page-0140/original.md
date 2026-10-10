@@ -3,7 +3,7 @@
 
 ## PROPOSITION VI.
 
-### PROBLÉME.
+### PROBLÊME.
 
 [Margin]
 F. 160.

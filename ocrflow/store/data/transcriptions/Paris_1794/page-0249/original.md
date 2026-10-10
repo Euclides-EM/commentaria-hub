@@ -7,7 +7,7 @@ Il en seroit autrement si les triangles étoient tracés sur des spheres inégal
 
 ## PROPOSITION XIX.
 
-### THÉORÈME.
+### THÉORÊME.
 
 *La somme des angles de tout triangle sphérique est moindre que six et plus grande que deux angles droits.*
 

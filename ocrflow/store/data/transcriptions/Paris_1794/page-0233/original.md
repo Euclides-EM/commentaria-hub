@@ -13,7 +13,7 @@ F. 220.
 
 ## PROPOSITION I.
 
-### THÉORÈME.
+### THÉORÊME.
 
 *Si la sphere est coupée par un plan quelconque, la section sera un cercle.*
 

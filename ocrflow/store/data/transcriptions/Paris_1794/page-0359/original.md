@@ -11,7 +11,7 @@ Fig. 16.
 
 Avec ce petit nombre de cas où le changement de figure est impossible, on peut démontrer qu’une infinité de polyedres ne peuvent avoir leurs faces égales et situées dans le même ordre sans être égaux.
 
-## EXEMPLE.
+### EXEMPLE.
 
 [Margin]
 Fig. 17.
@@ -21,6 +21,6 @@ Soit une espèce de pyramide à deux sommets S et T, formée par des triangles q
 
 Car ce cas se rapporte au lemme V. Si on fait varier l’inclinaison sur AS, à cause des angles quadruples A, B, C, etc., les variations d’inclinaison sur AS, BS, CS, etc., seront toutes de même signe, ce qui est impossible.
 
-## AUTRE EXEMPLE.
+### AUTRE EXEMPLE.
 
 Nous appliquerons encore les propriétés démontrées à un icosaedre, dont la surface est composée de vingt

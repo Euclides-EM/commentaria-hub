@@ -11,7 +11,7 @@ chacun à chacun ; d’ailleurs ils sont disposés semblablement. Donc ces deux 
 
 ## PROPOSITION VII.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 208 et 209.

@@ -7,7 +7,7 @@ Car 1°. la différence de ces côtés est égale au diamètre EF ou AB; 2°. le
 \* 30.
 [/Margin]
 
-## PROBLÈME XIX.
+### PROBLÊME XIX.
 
 [Margin]
 F. 154.

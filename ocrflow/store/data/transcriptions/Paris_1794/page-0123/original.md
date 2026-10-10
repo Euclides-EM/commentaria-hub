@@ -1,7 +1,7 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 95 -->
 
-## PROBLÊME II.
+### PROBLÊME II.
 
 *Trouver une quatrieme proportionnelle à trois lignes données A, B, C.*
 
@@ -13,7 +13,7 @@ Tirez les deux lignes indéfinies DE, DF, sous un angle quelconque. Sur DE prene
 
 *Corollaire.* On trouvera de même une troisieme proportionnelle aux deux lignes données A, B, car elle sera la même que la quatrieme proportionnelle aux trois lignes A, B, B.
 
-## PROBLÊME III.
+### PROBLÊME III.
 
 *Trouver une moyenne proportionnelle entre deux lignes données A et B.*
 

@@ -7,7 +7,7 @@ Donc les perpendiculaires abaissées des différens points de la ligne AC sur AI
 
 ## PROPOSITION XXI.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 Fig. 36.

@@ -7,7 +7,7 @@ parallèles, il s’ensuit qu’une face quelconque et son opposée peuvent êtr
 
 ## PROPOSITION V.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 206.

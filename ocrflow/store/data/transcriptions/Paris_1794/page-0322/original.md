@@ -7,7 +7,11 @@ On démontreroit d’une manière absolument semblable que la solidité d’un p
 
 Nous observerons en finissant que la considération des fonctions, qui fournit ainsi une démonstration très simple des propositions fondamentales de la géométrie, a été déja employée avec succès pour la démonstration des principes fondamentaux de la méchanique. Voyez les Mémoires de Turin, tome II.
 
-## NOTE V. *Sur l’approximation de la proposition 16, liv. IV.*
+## NOTE V.
+
+[Subhead]
+*Sur l’approximation de la proposition 16, liv. IV.*
+[/Subhead]
 
 Dès qu’on a trouvé un rayon excédent et un déficient qui s’accordent dans les premiers chiffres, on peut achever le calcul d’une manière très prompte par le moyen d’une formule algébrique.
 

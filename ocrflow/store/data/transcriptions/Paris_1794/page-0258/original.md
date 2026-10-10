@@ -3,7 +3,7 @@
 
 ## PROPOSITION XXV.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 241.

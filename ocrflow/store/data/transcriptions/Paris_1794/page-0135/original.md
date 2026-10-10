@@ -17,7 +17,7 @@ homologues proportionnels; donc elles sont semblables*.
 
 ## PROPOSITION II.
 
-### THÉORÈME.
+### THÉORÊME.
 
 *Tout polygone régulier peut être inscrit et circonscrit au cercle.*
 

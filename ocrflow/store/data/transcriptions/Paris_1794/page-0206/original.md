@@ -11,7 +11,7 @@ Mais si du solide AEL on retranche le prisme AEM, il restera le parallélépiped
 
 ## PROPOSITION VIII.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 210.

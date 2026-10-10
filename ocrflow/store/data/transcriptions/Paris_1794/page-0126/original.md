@@ -3,7 +3,7 @@
 
 AD×AX=AB×AC ; donc le rectangle ADEX est équivalent au rectangle ABFC.
 
-## PROBLÊME VIII.
+### PROBLÊME VIII.
 
 [Margin]
 F. 148.
@@ -22,7 +22,7 @@ A:C=C:X
 A²:C²=A:X
 [/Handwritten]
 
-## PROBLÊME IX.
+### PROBLÊME IX.
 
 [Margin]
 F. 149.

@@ -9,7 +9,7 @@ F. 253.
 
 ## PROPOSITION IV.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 258.

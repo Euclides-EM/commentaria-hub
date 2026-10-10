@@ -9,7 +9,7 @@ rayon AC joint à la distance des centres CD, ce qui n’a pas lieu.
 
 ## PROPOSITION XV.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 Fig. 61.

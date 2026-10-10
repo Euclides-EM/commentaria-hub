@@ -7,7 +7,7 @@ Donc enfin la surface convexe d’un cylindre est égale à la circonférence de
 
 ## PROPOSITION V.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 \* 250.

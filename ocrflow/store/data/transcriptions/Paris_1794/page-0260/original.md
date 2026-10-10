@@ -5,7 +5,7 @@ que la demi-circonférence, c’est qu’alors le triangle augmente de plus en p
 
 ## PROPOSITION XXVI.
 
-### THÉORÈME.
+### THÉORÊME.
 
 [Margin]
 F. 242.

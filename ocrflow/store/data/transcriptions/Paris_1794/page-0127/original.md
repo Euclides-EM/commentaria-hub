@@ -3,7 +3,7 @@
 <!-- Running title: LIVRE III. -->
 <!-- Page number: 99 -->
 
-## PROBLÊME X.
+### PROBLÊME X.
 
 *Changer un polygone donné en un triangle équivalent.*
 

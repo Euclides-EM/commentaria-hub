@@ -9,7 +9,7 @@ Car, à cauſe des paralleles KI, GE, on a HI : HK ∷ HE : HG, ou HI² : HK² �
 \* 23. 1.
 [/Margin]
 
-## PROBLÊME XIII.
+### PROBLÊME XIII.
 
 *Sur le côté FG, homologue à AB, décrire un polygone ſemblable au polygone ABCDE.*
 
@@ -25,7 +25,7 @@ Car ces deux polygones ſont compoſés d’un même nombre de triangles ſembla
 \* 26.
 [/Margin]
 
-## PROBLÊME XIV.
+### PROBLÊME XIV.
 
 *Deux figures ſemblables étant données, conſtruire une figure ſemblable égale à leur ſomme ou à leur différence.*
 

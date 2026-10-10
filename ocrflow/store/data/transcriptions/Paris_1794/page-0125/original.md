@@ -7,7 +7,7 @@ Car AE étant parallele à CD, on a BE:EC::BA:AD;
 
 Or BE=EC, donc BA=AD.
 
-## PROBLÊME VI.
+### PROBLÊME VI.
 
 *Faire un quarré équivalent à un parallélogramme ou à un triangle donné.*
 
@@ -27,7 +27,7 @@ F. 144.
 
 Car, puisqu’on a BC:XY::XY:½AD, il en résulte XY²=BC×½AD ; donc le quarré fait sur XY est équivalent au triangle ABC.
 
-## PROBLÊME VII.
+### PROBLÊME VII.
 
 [Margin]
 F. 145.
