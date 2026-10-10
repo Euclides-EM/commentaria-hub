@@ -14,7 +14,7 @@ Tertia differentia.
 
 [Diagram: b e a d c]
 
-## Corollarium.
+### Corollarium.
 
 ¶Hinc fit manifestũ, in semicirculo angulum b/a/d, fore æqualẽ ipsi d/b/a:in sectione autẽ semicirculo minore, minorẽ:& in maiore maiorẽ.
 

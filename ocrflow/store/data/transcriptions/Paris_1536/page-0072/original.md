@@ -4,7 +4,7 @@
 
 eſt enim angulus qui ad d . Igitur quadrata quæ fiunt ex a/b/& b/c,æqualia ſunt bis ſumpto ſub c/b/& b/d/rectangulo, & eis quæ ex a/ d/ & d/c/ fiunt quadratis. Eiſdem porrò quæ ex a/d/& d/c/fiunt quadratis,æquū eſt rurſum id quod ex a/c/deſcribitur,per eandem quadrageſimamſeptimā primi:rectus eſt enim, qui ſub a/d/c/angulus. Quæ igitur ex a/b/& b/c/vtraq; quadrata,æqua ſunt bis comprehenſo ſub c/b/& b/d/rectangulo,& ei quod ex a/c/eſt quadrato. Superatur ergo id quod ex a/c/fit quadratum,ab ijs quæ ex a/b/& b/c/fiunt quadratis,comprehenſo bis ſub c/b/& b/d/rectangulo. In oxygonijs itaq;,vel acutiāgulis triāgulis: &c.vt in theoremate.Quod oſtendere fuerat operæpretium.
 
-## Corollarium.
+### Corollarium.
 
 Hinc facilè colligitur,huiuſcemodi perpendicularem,in rectāgulis triangulis,neceſſariò coincidere ſuper ipſius trianguli latus,hoc eſt,neq; intra, neq; extra triangulum:in amblygonijs verò extra, & in oxygonijs intra. Non poteſt enim in amblygonijs neq; in oxygonijs,cum ipſo trianguli latere conuenire : obtuſus enim vel acutus angulus,foret æqualis recto,contra vndecimam & duodecimam diffinitionē primi.Similiter nec in amblygonijs intra,vel in oxygonijs extra poteſt incidere:tūc enim trianguli exterior angulus, minor eſſet interiore & ex oppoſito,contra decimamſextā ipſius primi.Nec te fugiat inſuper, quòd hic de latere oxygonij proponitur triāguli:verum etiam habere,de quocunq; latere angulum acutum tam in rectangulis quàm amblygonijs triangulis ſubtendente.
 

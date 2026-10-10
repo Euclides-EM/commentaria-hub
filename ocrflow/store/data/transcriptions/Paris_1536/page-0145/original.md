@@ -44,7 +44,7 @@ Tota. Ablata. Reliqua. a,b.c,d. a,e.c,f. e,b.f,d.
 
 sic reliqua e/b/ad reliquam f/d. Sicut porrò ablata a/e/ ad ablatam c/f, sic totum a/b/ad totum c/d, per hypothesin. Reliquum igitur e/b/ ad reliquum f/d, se habet vt totum a/b/ad totum c/d, per vndecimam eiusdem quinti. Si fuerit ergo sicut totum ad totum: &c. vt in theoremate. Quod expediebat demonstrare.
 
-## Lemma siue assumptum.
+### Lemma siue assumptum.
 
 ¶Et quoniam erat ex hypothesi, vt a/b/ad c/d, sic a/e/ad c/f: & permutatim deinde
 

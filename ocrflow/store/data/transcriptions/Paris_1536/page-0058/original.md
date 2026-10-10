@@ -8,7 +8,7 @@ Notandum.
 
 [Diagram: a 3 5 b 4 c]
 
-## Corollarium.
+### Corollarium.
 
 ¶In triangulis itaque rectangulis, duobus lateribus datis, ipsorum adminiculo, deuenire licebit in cognitionem reliqui : per quadratorum nempe tum additionem, tum subductionem adinuicem , & lateris seu radicis eorundem inuestigationem. Quemadmodùm in dimetiendis rerum passim offendes magnitudinibus.
 

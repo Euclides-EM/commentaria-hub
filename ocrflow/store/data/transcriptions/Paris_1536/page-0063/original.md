@@ -2,7 +2,7 @@
 
 ipsi c/k, per quadragesimamtertiam primi : & c/ k/ id quod sub a/ c/ & c/ b, nam ipsi a/c/ ostensa est æqualis c/g. Rectangula igitur c/k/ & h/f, æqua sunt ei,quod bis sub segmentis comprehenditur,rectangulo. Ostensum est autem a/g/ & g/e/ quadrata,eis fore æqualia/ quæ ab eisdem segmentis fiunt quadratis.Et a/g/igitur & g/e,vnà cum c/k/ & h/f,æqualia sunt quadratis quæ fiunt ex segmétis,& ei quod bis sub segmentis comprehenditur rectangulo. Eisdem porrò a/g, g/e, c/k,& h/f, æquum est quadratum a/b/d/e,ex ipsa a/b/descriptum:nempe totum suis partibus integralibus. Quod igitur ex tota a/b/fit quadratum : æquum est quadratis quæ fiunt ex a/c/& c/b/segmentis,& ei quod bis sub eisdem segmentis comprehenditur rectangulo.Quod fuerat demonstrandum.
 
-## Corollarium.
+### Corollarium.
 
 ¶Parallelogramma igitur,quæ circa quadrati dimetientem cósistunt,fore itidem quadrata:relinquitur manifestum.
 

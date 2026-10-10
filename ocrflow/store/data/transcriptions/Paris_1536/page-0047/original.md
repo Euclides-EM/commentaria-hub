@@ -26,7 +26,7 @@ tē eiuſdem vigeſimænonæ propoſitionis. Porrò ſi æqualibus angulis, æqu
 Secundæ partis vel illationis oſtenſio.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 ¶ Hinc fit manifeſtum, cuiuslibet trianguli tres angulos, æquales eſſe tribus angulis alterius cuiuſcunq; trianguli: nempe quòd eiſdem, vtpote binis rectis vtrobique ſint æquales.
 

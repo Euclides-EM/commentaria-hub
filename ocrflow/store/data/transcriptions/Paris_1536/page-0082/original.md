@@ -14,7 +14,7 @@ Pars secũda.
 Tertia pars.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 ¶Quæ igitur à pũcto extra circulũ dato, in circulum ipsum cadunt rectæ lineæ, ab ipsa minima, vel maxima (quæ per centrũ) æquè distãtes: æquales sunt adinuicem, & è diuerso, siue in conuexã, siue in curuã inciderint eiusdem circuli circũferẽtiam.
 

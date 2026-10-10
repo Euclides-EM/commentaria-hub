@@ -28,6 +28,6 @@ Demōſtratio ab impoſſibili
 
 [Diagram: a f g b d c e]
 
-## Corollarium.
+### Corollarium.
 
 Si igitur in circulo recta linea,aliam quandam rectam lineam bifariam,& ad rectos ſecuerit angulos:in ipſa diuidente erit centrum dati circuli.

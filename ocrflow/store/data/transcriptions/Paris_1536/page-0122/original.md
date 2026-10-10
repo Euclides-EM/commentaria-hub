@@ -28,7 +28,7 @@ Quòd descriptū quintidecagonum æquilaterū, sit æquiangulū.
 
 ¶Aio iam quòd ipsum quintidecagonum æquilaterum, est æquiangulum. Quibuslibet enim angulis, sub duobus quibusuis ipsius quintidecagoni lateribus ad circunferentiam comprehensis, æquales subtenduntur circunferentiæ: nempe segmentorum inuicem æqualium tredecim, qualium totus circulus est quindecim. In eodem porrò circulo, anguli qui super æquales circunferētias deducuntur, sibi inuicem sunt æquales, etsi ad centra, etsi ad circunferentias fuerint deducti, per vigesimamseptimam tertij. Aequiangulū est igitur ipsum a/b/c/d/e/ quintidecagonum. Patuit quòd & æquilaterum, & in dato circulo descriptum. In dato itaque circulo a/b/c/d/e, quintidecagonum æquilaterum & æquiangulum describitur. Quod tandem faciendum receperamus.
 
-## Corollarium.
+### Corollarium.
 
 ¶Quòd si per singulas segmentorum & angulorum quintidecagoni distinctiones, rectæ ducātur lineæ circulum ipsum contingentes, & ad rectos angulos cum productis è centro semidiametris conuenientes: quintidecagonum æquilaterum & æquiangulum, circa datum circulū describetur. quemadmodùm duodecima huius quarti propositione, de circunscribendo tradidimus pentagono. ¶Haud dissimiliter, per ea quæ decimatertia & decimaquarta eiusdē quarti propositione, de pētagonis ostensa sunt: in dato quintidecagono æquilatero & æquiangulo, circulum describere, ac circunscribere licebit.
 

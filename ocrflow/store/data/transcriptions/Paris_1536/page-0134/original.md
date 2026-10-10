@@ -4,11 +4,11 @@
 
 ex ipsarum magnitudinū habitudine proportionata, eorundem æquè multiplicium rationis versa vice concluditur identitas. tanta est æquè multiplicium cum submultiplicibus necessitudo. Est igitur vt k ad m, ita l, ad n: hoc est, sicut multiplex primi ad multiplex secūdi, ita multiplex tertij ad multiplex quarti. Ipsa porrò k & l, ipsorū e & f sunt æquè multiplicia: m verò & n æquè multiplicia ipsorū g & h, per constructionem. Est igitur vt e ad g, sic f ad h: per sextam huius quinti diffinitionem. Atqui e & f, sunt æquè multiplicia primi & tertij: g autem & h, secundi & quarti alia itidem æquè multiplicia. Si primū igitur ad secundū eandem habuerit rationē: & quæ sequuntur reliqua. Quod demōstrandum susceperamus.
 
-## Lemma, siue assumptum.
+### Lemma, siue assumptum.
 
 ¶Et quoniā ostēsum est, quòd multiplex k ad multiplex m se habet, vt multiplex l ad multiplex n. si igitur k excedit m, & l proportionaliter excedit n: & si æquale, æquale: & si minus, itidem proportionaliter minus. Quare & versa vice, si m excedit k, & n proportionaliter excedit l: & si æquale, æquale: si autem minus, & proportionaliter denique minus. Et proinde, per sextam huius quinti diffinitionem, erit vt g ad e, sic h ad f: atque respondenter sicut b ad a, ita d ad c.
 
-## Corollarium.
+### Corollarium.
 
 ¶Si quatuor igitur magnitudines fuerint proportionales: & ècontra, seu à cōuersa ratione proportionales erunt: facta videlicet consequentium tanquàm antecedentium, ad antecedentia tanquàm ad consequentia relatione.
 

@@ -8,7 +8,7 @@ est igitur ipsum a/f/g/triangulum: & proinde æquiangulum, per quintæ libri pri
 Quòd idem hexagonū sit æquiangulū.
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 ¶Hinc fit manifestum, quòd hexagoni latus, ei quæ ex centro circuli, in quo ipsum discribitur hexagonum, est æquale.
 

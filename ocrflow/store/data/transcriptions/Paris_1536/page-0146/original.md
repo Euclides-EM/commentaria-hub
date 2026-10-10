@@ -4,7 +4,7 @@
 
 decimamsextā huius quinti. Fit igitur vt sicut a/b/ad a/e, sic c/d/ad e/f: atq̄; rursum velut idem a/b/ad e/b, sic idem c/d/ad f/d.
 
-## Corollarium.
+### Corollarium.
 
 ¶Et proinde cóuersio rationis, hoc est, acceptio antecedētis ad excessum quo antecedens ipsum excedit consequens, fit manifesta.
 

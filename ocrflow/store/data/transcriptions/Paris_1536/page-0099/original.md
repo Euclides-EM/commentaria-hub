@@ -4,7 +4,7 @@
 83
 [/Margin]
 
-## Corollarium secundum.
+### Corollarium secundum.
 
 ¶Sequitur etiam ex huiusce propositionis demonstratione, quòd in triangulis angulus qui reliquis duobus æquatur, rectus est. ¶ Et quando vtrobique cósistentes anguli, eisdem angulis fuerint æquales:vterq; æqualium angulorum rectus erit.
 

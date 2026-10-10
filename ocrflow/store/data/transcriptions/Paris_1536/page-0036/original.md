@@ -20,7 +20,7 @@ ORONTIVS.¶Secent se adinuicem binæ rectæ lineæ a/b,& c/d,in púcto quidem e:
 
 [Diagram: c b e a d]
 
-## Corollarium.
+### Corollarium.
 
 ¶Hinc manifestum est,quotlibet rectas lineas in eodem púcto sese adinuicem intersecantes,angulos efficere quatuor rectis æquales.
 

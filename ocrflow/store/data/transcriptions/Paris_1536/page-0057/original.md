@@ -2,7 +2,7 @@
 
 diffinitionem. Ex data igitur linea recta a/b, quadratum descripsimus. Quod oportuit fecisse.
 
-## Corollarium.
+### Corollarium.
 
 ¶Quæ ab æqualibus igitur lineis rectis quadrata describuntur, æqualia sunt adinuicem: & ediuerso. quæ autem ab inæqualibus fiunt quadrata, sunt inequalia: maius quidem quod à maiore, minus autem quod à minore describitur.
 

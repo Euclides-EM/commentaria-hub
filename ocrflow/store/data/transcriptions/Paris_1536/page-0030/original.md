@@ -34,7 +34,7 @@ Si ab equalibus equalia aufferantur que relinquuntur equalia erunt.
 ad inuicem sunt equales & productis equalibus rectis lineis qui sub basi sūt anguli adinuicem equales erūt
 [/Handwritten]
 
-## Corollarium.
+### Corollarium.
 
 Hinc manifestum est,triangulum æquilaterum tres angulos adinuicem æquales continere. Quoniam binatim sumpta latera, semper offenduntur æqualia: & duo quoq anguli omnifariam sumpti consequenter æquales.
 

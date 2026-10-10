@@ -28,6 +28,6 @@ Quòd eidem triangulo a, b,c: ſimile ſit a,d,c,triāgulum.
 Quòd a,b,d, & a,d,c,triangula,ſunt adinuicē ſimilia
 [/Margin]
 
-## Corollarium.
+### Corollarium.
 
 ¶Et quoniam oſtēſum eſt ſicut c/d/ad d/a,ſic a/d/ad d/b:ſicut inſuper c/b/ad b/a, ſic a/b/ad b/d: ſicútque b/c/ad c/a,ſic a/c/ad c/d. Proinde manifeſtum eſt,quòd in triangulo rectangulo deducta ex angulo recto in baſin perpendicularis, eſt media

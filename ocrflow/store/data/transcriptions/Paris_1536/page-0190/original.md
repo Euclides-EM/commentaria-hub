@@ -9,7 +9,7 @@ Quotuplex est igitur circunferentia b/c/l, ipsius b/c/ circunferentiæ: totuplex
 | b/c/l. | e/f/n. | g/b/l. | h/e/n. |
 | b/c. | e/f. | g/b/c. | h/e/f. |
 
-## Corollarium.
+### Corollarium.
 
 ¶ Et proinde manifestum est, quòd veluti sector ad sectorẽ, sic per vndecimã quinti angulus ad angulum: vtrobique enim ratio offenditur, quæ circunferentiæ ad circunferentiam.
 

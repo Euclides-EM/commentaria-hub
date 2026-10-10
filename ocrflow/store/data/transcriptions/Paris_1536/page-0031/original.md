@@ -14,7 +14,7 @@ Si duo triangula duo latera duobus lateribus &c.
 Totum est sua parte maius.
 [/Handwritten]
 
-## Corollarium.
+### Corollarium.
 
 Et proinde fit manifestum, triangulum æquiangulum, fore versa vice æquilaterum.anguli enim binatim sumpti,semper offenduntur æquales: & duo quoq latera omnifariam sumpta,respondenter æqualia.
 
