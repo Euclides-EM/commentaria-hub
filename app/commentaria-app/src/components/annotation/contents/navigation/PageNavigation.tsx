@@ -279,9 +279,11 @@ export function PageNavigation() {
           >
             <div className="px-3 py-4 text-gray-500">
               <button
-                title={isIndexCollapsed ? 'Expand index' : 'Collapse index'}
+                title={
+                  isIndexCollapsed ? 'Expand navigation' : 'Minimize navigation'
+                }
                 aria-label={
-                  isIndexCollapsed ? 'Expand index' : 'Collapse index'
+                  isIndexCollapsed ? 'Expand navigation' : 'Minimize navigation'
                 }
                 className="inline-flex items-center gap-2 text-left hover:text-gray-700 transition-colors"
                 onClick={() => setIsIndexCollapsed((prev) => !prev)}

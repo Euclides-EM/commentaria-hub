@@ -87,38 +87,112 @@ const trimTrailingSpaces = (text: string) => text.replace(/ +$/, '')
 
 type TextRange = { start: number; end: number }
 
-const printerCorrectionStartPrefix = '__printer-error-correction-start:'
-const printerCorrectionEndPrefix = '__printer-error-correction-end:'
-let printerCorrectionCounter = 0
+type InlineMarkerKind = 'dropcap' | 'bold' | 'italic' | 'link'
 
-const isPrinterCorrectionNote = (element: Element) =>
-  element.localName === 'note' &&
-  parseAnaRefs(element.getAttribute('ana')).includes('printer-error-correction')
+type ChipMarkerKind = 'printer-correction' | 'unclear' | 'illegible'
 
-const getPrinterCorrectionRanges = (
-  anchors: Record<string, number>,
-): TextRange[] => {
-  const ranges: TextRange[] = []
+type MarkerKind = InlineMarkerKind | ChipMarkerKind
+
+type MarkerRange = TextRange & { kind: MarkerKind; target?: string }
+
+const inlineMarkerKinds = new Set<MarkerKind>([
+  'dropcap',
+  'bold',
+  'italic',
+  'link',
+])
+
+const markerTitles: Record<ChipMarkerKind, string> = {
+  'printer-correction': 'Correction to the original print',
+  unclear: 'Unclear from the facsimile',
+  illegible: 'Illegible on the facsimile',
+}
+
+const markerStartPrefix = '__marker-start:'
+const markerEndPrefix = '__marker-end:'
+let markerCounter = 0
+
+const getMarkerKind = (element: Element): MarkerKind | null => {
+  if (element.localName === 'hi') {
+    const rend = (element.getAttribute('rend') || '').split(/\s+/)
+    if (rend.includes('dropcap')) {
+      return 'dropcap'
+    }
+    if (rend.includes('bold')) {
+      return 'bold'
+    }
+    if (rend.includes('italic')) {
+      return 'italic'
+    }
+  }
+  if (
+    element.localName === 'ref' &&
+    /^https?:\/\//i.test(element.getAttribute('target') || '')
+  ) {
+    return 'link'
+  }
+  if (element.localName === 'unclear') {
+    return 'unclear'
+  }
+  const anaRefs = parseAnaRefs(element.getAttribute('ana'))
+  if (
+    element.localName === 'note' &&
+    anaRefs.includes('printer-error-correction')
+  ) {
+    return 'printer-correction'
+  }
+  if (element.localName === 'gap' && anaRefs.includes('illegible')) {
+    return 'illegible'
+  }
+  return null
+}
+
+const getMarkerRanges = (anchors: Record<string, number>): MarkerRange[] => {
+  const ranges: MarkerRange[] = []
   for (const [id, start] of Object.entries(anchors)) {
-    if (!id.startsWith(printerCorrectionStartPrefix)) {
+    if (!id.startsWith(markerStartPrefix)) {
       continue
     }
-    const key = id.slice(printerCorrectionStartPrefix.length)
-    const end = anchors[`${printerCorrectionEndPrefix}${key}`]
+    const key = id.slice(markerStartPrefix.length)
+    const end = anchors[`${markerEndPrefix}${key}`]
     if (end != null && end > start) {
-      ranges.push({ start, end })
+      const [kind, , ...targetParts] = key.split(':')
+      ranges.push({
+        start,
+        end,
+        kind: kind as MarkerKind,
+        target: targetParts.length
+          ? decodeURIComponent(targetParts.join(':'))
+          : undefined,
+      })
     }
   }
   return ranges
 }
 
-const sliceTextRanges = (
-  ranges: TextRange[],
+const wrapMarker = (marker: MarkerRange, html: string) => {
+  switch (marker.kind) {
+    case 'dropcap':
+      return `<span data-tei-dropcap="true">${html}</span>`
+    case 'bold':
+      return `<strong>${html}</strong>`
+    case 'italic':
+      return `<i>${html}</i>`
+    case 'link':
+      return `<a data-tei-link="true" href="${escapeHtmlAttr(marker.target || '')}" target="_blank" rel="noopener noreferrer">${html}</a>`
+    default:
+      return `<span data-tei-marker="${marker.kind}" title="${markerTitles[marker.kind]}">${html}</span>`
+  }
+}
+
+const sliceTextRanges = <T extends TextRange>(
+  ranges: T[],
   sliceStart: number,
   sliceEnd: number,
-): TextRange[] =>
+): T[] =>
   ranges
     .map((range) => ({
+      ...range,
       start: Math.max(sliceStart, range.start) - sliceStart,
       end: Math.min(sliceEnd, range.end) - sliceStart,
     }))
@@ -179,7 +253,21 @@ export const appendTextWithAnchors = (
     return
   }
 
-  if (isPrinterCorrectionNote(element)) {
+  const markerKind = getMarkerKind(element)
+  if (markerKind && inlineMarkerKinds.has(markerKind)) {
+    const target =
+      markerKind === 'link'
+        ? `:${encodeURIComponent(element.getAttribute('target') || '')}`
+        : ''
+    const key = `${markerKind}:${markerCounter++}${target}`
+    builder.anchors[`${markerStartPrefix}${key}`] = builder.text.length
+    for (let i = 0; i < element.childNodes.length; i++) {
+      appendTextWithAnchors(element.childNodes[i], opts, builder)
+    }
+    builder.anchors[`${markerEndPrefix}${key}`] = builder.text.length
+    return
+  }
+  if (markerKind) {
     const noteBuilder: TextWithAnchors = { text: '', anchors: {} }
     for (let i = 0; i < element.childNodes.length; i++) {
       appendTextWithAnchors(element.childNodes[i], opts, noteBuilder)
@@ -195,11 +283,10 @@ export const appendTextWithAnchors = (
     if (builder.text && !/\s$/.test(builder.text)) {
       builder.text += ' '
     }
-    const key = String(printerCorrectionCounter++)
-    builder.anchors[`${printerCorrectionStartPrefix}${key}`] =
-      builder.text.length
+    const key = `${markerKind}:${markerCounter++}`
+    builder.anchors[`${markerStartPrefix}${key}`] = builder.text.length
     builder.text += noteText
-    builder.anchors[`${printerCorrectionEndPrefix}${key}`] = builder.text.length
+    builder.anchors[`${markerEndPrefix}${key}`] = builder.text.length
     return
   }
 
@@ -685,7 +772,7 @@ export const renderParagraphWithHighlights = (
   text: string,
   spans: ParagraphHighlightSpan[],
   paragraphIndex: number,
-  correctionRanges: TextRange[] = [],
+  markerRanges: MarkerRange[] = [],
 ) => {
   if (!text) {
     return '&nbsp;'
@@ -699,14 +786,14 @@ export const renderParagraphWithHighlights = (
     }))
     .filter((span) => span.end > span.start)
 
-  const clampedCorrections = sliceTextRanges(correctionRanges, 0, text.length)
+  const clampedMarkers = sliceTextRanges(markerRanges, 0, text.length)
 
-  if (!clampedSpans.length && !clampedCorrections.length) {
+  if (!clampedSpans.length && !clampedMarkers.length) {
     return escapeHtml(text).replaceAll('\n', '<br>')
   }
 
   const boundaries = new Set<number>([0, text.length])
-  for (const span of [...clampedSpans, ...clampedCorrections]) {
+  for (const span of [...clampedSpans, ...clampedMarkers]) {
     boundaries.add(span.start)
     boundaries.add(span.end)
   }
@@ -725,12 +812,12 @@ export const renderParagraphWithHighlights = (
       (span) => span.start < end && span.end > start,
     )
 
-    const inCorrection = clampedCorrections.some(
-      (range) => range.start < end && range.end > start,
-    )
+    const activeMarkers = clampedMarkers
+      .filter((range) => range.start < end && range.end > start)
+      .sort((a, b) => a.end - a.start - (b.end - b.start))
 
     const escapedSegment = escapeHtml(segmentText).replaceAll('\n', '<br>')
-    if (!activeSpans.length && !inCorrection) {
+    if (!activeSpans.length && !activeMarkers.length) {
       html += escapedSegment
       continue
     }
@@ -785,9 +872,10 @@ export const renderParagraphWithHighlights = (
       ? `<span data-tei-highlight="true" data-tei-highlight-tooltip="${tooltipItemsAttr}" style="${style}">${escapedHighlightedText}</span>`
       : escapedHighlightedText
     html += escapedLeadingWhitespace
-    html += inCorrection
-      ? `<span data-tei-printer-correction="true">${highlightHtml}</span>`
-      : highlightHtml
+    html += activeMarkers.reduce(
+      (wrapped, marker) => wrapMarker(marker, wrapped),
+      highlightHtml,
+    )
     html += escapedTrailingWhitespace
   }
 
@@ -800,7 +888,7 @@ export const renderParagraphWithLineRanges = (
   paragraphIndex: number,
   lineRanges: ParagraphLineRange[],
   showCertaintyVisualization: boolean,
-  correctionRanges: TextRange[] = [],
+  markerRanges: MarkerRange[] = [],
 ) => {
   const validRanges = lineRanges
     .map((range) => ({
@@ -820,7 +908,7 @@ export const renderParagraphWithLineRanges = (
       text,
       spans,
       paragraphIndex,
-      correctionRanges,
+      markerRanges,
     )
   }
 
@@ -835,7 +923,7 @@ export const renderParagraphWithLineRanges = (
         text.slice(cursor, rangeStart),
         gapSpans,
         paragraphIndex,
-        sliceTextRanges(correctionRanges, cursor, rangeStart),
+        sliceTextRanges(markerRanges, cursor, rangeStart),
       )
     }
 
@@ -847,7 +935,7 @@ export const renderParagraphWithLineRanges = (
       text.slice(rangeStart, rangeEnd),
       lineSpans,
       paragraphIndex,
-      sliceTextRanges(correctionRanges, rangeStart, rangeEnd),
+      sliceTextRanges(markerRanges, rangeStart, rangeEnd),
     )
     const attrs = [
       `data-tei-line-match-ids="${escapeHtmlAttr(range.matchIds.join(' '))}"`,
@@ -878,7 +966,7 @@ export const renderParagraphWithLineRanges = (
       text.slice(cursor),
       tailSpans,
       paragraphIndex,
-      sliceTextRanges(correctionRanges, cursor, text.length),
+      sliceTextRanges(markerRanges, cursor, text.length),
     )
   }
 
@@ -892,9 +980,9 @@ const renderParagraphElement = (
   showCertaintyVisualization: boolean,
   attrs: string,
 ) => {
-  const correctionRanges = getPrinterCorrectionRanges(paragraph.anchors)
+  const markerRanges = getMarkerRanges(paragraph.anchors)
   if (!paragraph.table) {
-    return `<p${attrs}>${renderParagraphWithLineRanges(paragraph.text, spans, paragraphIndex, paragraph.lineRanges, showCertaintyVisualization, correctionRanges)}</p>`
+    return `<p${attrs}>${renderParagraphWithLineRanges(paragraph.text, spans, paragraphIndex, paragraph.lineRanges, showCertaintyVisualization, markerRanges)}</p>`
   }
 
   const rows = paragraph.table.rows
@@ -914,7 +1002,7 @@ const renderParagraphElement = (
               end: Math.min(range.end, cell.end) - cell.start,
             }))
             .filter((range) => range.end > range.start)
-          return `<td>${renderParagraphWithLineRanges(cellText, cellSpans, paragraphIndex, cellLineRanges, showCertaintyVisualization, sliceTextRanges(correctionRanges, cell.start, cell.end))}</td>`
+          return `<td>${renderParagraphWithLineRanges(cellText, cellSpans, paragraphIndex, cellLineRanges, showCertaintyVisualization, sliceTextRanges(markerRanges, cell.start, cell.end))}</td>`
         })
         .join('')
       return `<tr>${cells}</tr>`
@@ -932,6 +1020,15 @@ const getBlockTypeAttrs = (
     return ''
   }
 
+  const headerLevel =
+    blockType.match(/^header(.*)$/)?.[1] ??
+    (blockType === 'curated-heading' ? blockLevel : undefined)
+  if (headerLevel !== undefined && !/^[1-6]$/.test(headerLevel)) {
+    console.warn(
+      `Unsupported TEI header level "${headerLevel}" for block type "${blockType}"`,
+    )
+  }
+
   let attrs = ` data-tei-block-type="${escapeHtmlAttr(blockType)}"`
   if (blockSubtype) {
     attrs += ` data-tei-block-subtype="${escapeHtmlAttr(blockSubtype)}"`
@@ -939,6 +1036,9 @@ const getBlockTypeAttrs = (
   }
   if (blockLevel) {
     attrs += ` data-tei-block-level="${escapeHtmlAttr(blockLevel)}"`
+  }
+  if (blockType === 'calculation') {
+    attrs += ' title="Calculation"'
   }
   const otherPrefix = 'other:'
   if (blockType.startsWith(otherPrefix)) {

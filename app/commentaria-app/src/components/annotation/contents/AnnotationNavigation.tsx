@@ -104,8 +104,8 @@ export const AnnotationNavigation = ({
       <button
         className="absolute top-2 left-2 z-40 px-2.5 py-1.5 text-sm font-semibold cursor-pointer bg-gray-50 border border-gray-200 rounded-md shadow-md hover:bg-gray-100"
         onClick={() => setCollapsed(false)}
-        title="Expand index"
-        aria-label="Expand index"
+        title="Expand navigation"
+        aria-label="Expand navigation"
       >
         ⟩
       </button>
@@ -156,8 +156,8 @@ export const AnnotationNavigation = ({
         <button
           className={`px-2.5 py-1.5 cursor-pointer ${collapsed ? 'rotate-180' : ''} transition-transform`}
           onClick={() => setCollapsed(!collapsed)}
-          title={collapsed ? 'Expand index' : 'Minimize index'}
-          aria-label={collapsed ? 'Expand index' : 'Minimize index'}
+          title={collapsed ? 'Expand navigation' : 'Minimize navigation'}
+          aria-label={collapsed ? 'Expand navigation' : 'Minimize navigation'}
         >
           ⟨
         </button>
