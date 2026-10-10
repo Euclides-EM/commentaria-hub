@@ -4,7 +4,7 @@
 1.
 [/Margin]
 
-## PROBLEMA I. PROPOSITIO. I.
+## PROBLEMA 1. PROPOSITIO. 1.
 
 {dropcap:S|lines=3|style=decorated|decoration="foliate ornament"}VPER data recta linea terminata triangulum AEquilaterum conſtituere.
 

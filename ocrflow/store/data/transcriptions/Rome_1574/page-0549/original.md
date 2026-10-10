@@ -28,7 +28,7 @@ QVOD ſi in triangulo rectangulo quadratũ deſcribere libeat, ita ut duo eius l
 
 [Figure: right triangle with apex A, right angle at B, base BF C; horizontal line DE parallel to the base and perpendicular EF forming a square DEFB]
 
-## FINIS ELEMENTI SEXTI.
+FINIS ELEMENTI SEXTI.
 
 [Ornament: floral tailpiece]
 

@@ -16,7 +16,7 @@ rem D. Igitur fit A, ex D, in E: ſed idem A, fit ex C, binario in B; eius dimid
 
 Ac propterea erit ut C, ad D, ita E, ad B. Metitur autem C, binarius parem D. Igitur & E, ipſum B, metietur, par imparem. Quod eſt abſurdum. Non eſt ergo A, pariter par: Ergo pariter impar tantum. Quocirca ſi numerus dimidium habeat imparem, &c. Quod demonſtrandum erat.
 
-### SCHOLION.
+## SCHOLION.
 
 [Subhead]
 ITAQVE ſi omnium numerorum imparium dupli ſumantur, inuenientur omnes numeri, qui ſunt pariter impares tantum.

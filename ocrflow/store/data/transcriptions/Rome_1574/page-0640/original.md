@@ -15,7 +15,7 @@ SI vero plures fuerint partes, quam tres, eadem prorſus eſt via tenenda ac dem
 
 QVOD ſi numerum H, inuentum duplicemus, triplicemus, &c. habebimus alios numeros, nempe ſecundum, tertium, quartum, &c. qui eaſdem partes eodem ordine habeant, duplicatas tamen, vel triplicatas, &c. Nam G, duplicatus, vel triplicatus, &c. dimidiata pars erit, ipſius H, duplicati, vel triplicati, &c. quemadmodum & G, ipſius H. Eademque eſt ratio de cæteris partibus.
 
-## FINIS ELEMENTI SEPTIMI.
+FINIS ELEMENTI SEPTIMI.
 
 [Ornament: floral tailpiece]
 

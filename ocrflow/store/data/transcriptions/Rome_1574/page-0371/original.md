@@ -10,7 +10,7 @@ autem idem habeat centrum, ita oſtendetur. Ex centro N, figuræ ABCDEF, ad omne
 14. tertij.
 [/Margin]
 
-## FINIS ELEMENTI QVARTI.
+FINIS ELEMENTI QVARTI.
 
 [Ornament: floral tailpiece]
 

@@ -10,7 +10,7 @@ E,9. G,12. F,16.
 C,3. D,4.
 [/Calculation]
 
-## THEOR. II. PROPOS. 13.
+## THEOR. 11. PROPOS. 13.
 
 [Margin]
 12.

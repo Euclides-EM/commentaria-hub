@@ -6,11 +6,11 @@ QVÆ cum ita ſint, perſpicuum eſt, tum demum quatuor numeros dici proportiona
 
 ## XXV.
 
-## TERMINI, ſiue radices proportionis dicuntur duo numeri, quibus in eadem proportione minores ſumi nequeunt.
+TERMINI, ſiue radices proportionis dicuntur duo numeri, quibus in eadem proportione minores ſumi nequeunt.
 
 ## XXVI.
 
-## CVM tres numeri proportionales fuerint; Primus ad tertium, duplicatam rationem habere dicitur eius, quam habet ad ſecundum. At cum quatuor numeri proportionales fuerint; Primus ad quartum, triplicatam rationem habere dicitur eius, quã habet ad ſecundum: Et ſemper deinceps uno amplius, quamdiu proportio extiterit.
+CVM tres numeri proportionales fuerint; Primus ad tertium, duplicatam rationem habere dicitur eius, quam habet ad ſecundum. At cum quatuor numeri proportionales fuerint; Primus ad quartum, triplicatam rationem habere dicitur eius, quã habet ad ſecundum: Et ſemper deinceps uno amplius, quamdiu proportio extiterit.
 
 HÆC definitio, ut ad magnitudines pertinet, copioſe explicata fuit in quinto lib. Vnde cum omnia, quæ ibi ſcripſimus, ad numeros huc transferri facile poſſint, non eſt, quod iterum ea hic repetamus.
 

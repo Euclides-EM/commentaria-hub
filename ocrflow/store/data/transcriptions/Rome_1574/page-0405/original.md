@@ -8,7 +8,7 @@ ORONTIVS, & nonnulli alij interpretes, longe aliter definitionem hanc exponunt. 
 
 ## XII.
 
-## ALTERNA ratio, eſt ſumptio antecedentis ad antecedentem, & conſequentis ad conſequentem.
+ALTERNA ratio, eſt ſumptio antecedentis ad antecedentem, & conſequentis ad conſequentem.
 
 EXPLICAT hic quoſdam modos argumentandi ex pro
 

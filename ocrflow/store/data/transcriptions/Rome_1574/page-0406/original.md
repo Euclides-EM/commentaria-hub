@@ -7,7 +7,7 @@ portionibus, quorum frequentiſſimus eſt vſus apud Geometras. Hi autem ſunt 
 
 ## XIII.
 
-## INVERSA ratio, eſt ſumptio conſequentis, ceu antecedentis, ad antecedenté, uelut ad conſequentem.
+INVERSA ratio, eſt ſumptio conſequentis, ceu antecedentis, ad antecedenté, uelut ad conſequentem.
 
 VT ſi ex eo, quod eſt A, ad B, vt C, ad D, inferamus, ita eſſe B, ad A, ut D, ad C, hoc eſt, conſequentes ad antecedentes referamus; dicemur argumentari ab inuerſa proportione. In hac argumentatione ſic fere loquuntur auctores. Vt eſt A, ad
 

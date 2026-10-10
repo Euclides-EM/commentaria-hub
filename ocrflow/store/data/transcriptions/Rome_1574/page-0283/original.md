@@ -8,7 +8,7 @@
 1.
 [/Margin]
 
-## PROBL. I. PROPOS. I.
+## PROBL. 1. PROPOS. 1.
 
 DATI circuli centrum reperire.
 

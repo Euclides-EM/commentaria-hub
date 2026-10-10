@@ -64,6 +64,6 @@ Angulum inclinationis duarum baſium dodecaedri, unius ad alteram, reperire. 298
 
 Omnes inclinationes baſium dodecaedri æquales ſunt inter ſe. 299.b.
 
-## FINIS.
+FINIS.
 
 [Ornament: floral tailpiece]

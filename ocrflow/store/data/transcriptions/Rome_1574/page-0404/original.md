@@ -5,7 +5,7 @@ portionis bis poſito, in hunc modum 3. 3. ac ſic multiplicato: Nam ter tria fa
 
 ## XI.
 
-## HOMOLOGAE, ſeu ſimiles ratione magnitudines, dicuntur antecedentes quidem antecedentibus, conſequentes uero conſequentibus.
+HOMOLOGAE, ſeu ſimiles ratione magnitudines, dicuntur antecedentes quidem antecedentibus, conſequentes uero conſequentibus.
 
 DEFINIVIT. ſupra proportionalitatem, proportionũ eſſe ſimilitudinem. Docet iam, non ſolum in proportionalitate quauis proportiones dici ſimiles; Verum etiam terminos ipſos, ſeu quantitates, ſimiles dici, homologas ve, dicens, antecedentes magnitudines appellari homologas, ſeu ſimiles proportione inter ſe, nec non conſequentes inter ſe, vt intelligeremus in
 

@@ -3,7 +3,7 @@
 
 bus complementis BG, GD, Gnomon appellabitur.
 
-## THEOR. I. PROPOS. I.
+## THEOR. 1. PROPOS. 1.
 
 [Margin]
 I.

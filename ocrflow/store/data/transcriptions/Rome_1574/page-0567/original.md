@@ -6,7 +6,7 @@ ITAQVE poſſunt duo numeri plani, uel ſolidi, eſſe ſimiles, licet lateribus
 
 ## XXII.
 
-## PERFECTVS numerus eſt, qui ſuis ipſius partibus eſt æqualis.
+PERFECTVS numerus eſt, qui ſuis ipſius partibus eſt æqualis.
 
 NVMERVS ille, cui omnes ſuæ partes ſimul ſumptæ (loquimur autem de partibus aliquotis, iuxta defin. 3. huius lib.) æquales ſunt, Perfectus a Mathematicis nuncupatur. Cuiuſmodi ſunt hi numeri 6. 28. 496. Nam primus continet has partes aliquotas duntaxat 1. 2. 3. quæ ſimul ſumptæ conficiunt numerum 6. Secundi autem numeri partes omnes aliquotæ ſunt hæ 1. 2. 4. 7. 14. quarum ſumma conſtituit ipſum numerum 28. Tertius demum numerus has partes habet aliquotas 1. 2. 4. 8. 16. 31. 62. 124. 248. quas omnes in vnam ſummam collectas componere numerum 496. perſpicuum eſt. Qui autem numeri perfecti ſint, & qua uia, ac ratione procreentur, (ſunt enim præter tres dictos innumerabiles alij) demonſtrabitur ab Euclide propoſ. vltima lib. 9.
 

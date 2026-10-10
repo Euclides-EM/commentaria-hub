@@ -6,7 +6,7 @@ facilius percipietur, ſi prius intelligamus, quantitatem continuam triplices ha
 punctum
 [/Margin]
 
-### II.
+## II.
 
 LINEA vero, longitudo latitudinis expers.
 

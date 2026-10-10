@@ -4,6 +4,6 @@ vltimum duplorum, perfectus, cuius partes aliquotæ ſunt 1. 2. 3. Item, quia co
 
 DENIQVE quia compoſitus ex his 1. 2. 4. 8. 16. nimirum 31. primus eſt; erit 496. factus ex 31. in 16. numerus perfectus, cuius partes aliquotæ ſunt 1. 2. 4. 8. 16. 31. 62. 124. 248. Eadem modo & reliquos perfectos numeros inueniemus.
 
-# FINIS ELEMENTI NONI.
+FINIS ELEMENTI NONI.
 
 [Ornament: floral device]

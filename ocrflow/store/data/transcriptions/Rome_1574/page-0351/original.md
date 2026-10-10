@@ -8,7 +8,7 @@
 1.
 [/Margin]
 
-## PROBL. I. PROPOS. I.
+## PROBL. 1. PROPOS. 1.
 
 IN dato circulo rectam lineam accommodare æqualem datæ rectæ lineæ, quæ circuli diametro non ſit maior.
 

@@ -27,7 +27,7 @@ Vt autem CD, ad DG, ita eſt parallelogrammum CE, ad parallelogrammum DH, eiuſd
 
 ## THEOR. 19. PROPOS. 26.
 
-## SI a parallelogrammo parallelogrammum ablatum ſit, & ſimile toti, & ſimiliter poſitum, communem cum eo habens angulum; hoc circum eandem cum toto diametrum conſiſtit.
+SI a parallelogrammo parallelogrammum ablatum ſit, & ſimile toti, & ſimiliter poſitum, communem cum eo habens angulum; hoc circum eandem cum toto diametrum conſiſtit.
 
 EX parallelogrammo BD, abſciſſum ſit pallelogrammũ{printer-error-correction:parallelogrammũ} EG, ſimilè ſimiliterq; poſitum, habens cum ipſo angulũ cõmunem EAG. Dico EG, conſiſtere circa diamerrum{printer-error-correction:diametrum} totius BD. Ducantur enim rectæ AF, CF, quæ ſi fuerint una
 

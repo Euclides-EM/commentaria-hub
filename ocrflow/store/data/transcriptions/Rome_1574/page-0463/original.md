@@ -14,7 +14,7 @@ HIC autem defectus DB, uel exceſſus, in rectangulis quidem eſſe poteſt uel 
 I.
 [/Margin]
 
-## THEOR. I. PROPOS. I.
+## THEOR. 1. PROPOS. 1.
 
 TRIANGVLA & parallelogramma, quorum eadem fuerit altitudo, ita ſe habent inter ſe, ut baſes.
 

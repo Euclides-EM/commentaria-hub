@@ -9,7 +9,7 @@ HOC ita ſe habere, pluribus uerbis a nobis demonſtratum eſt ad defin. 5. lib.
 
 POSSVNT etiam huc referri definitiones illæ in quinto libro traditæ de alterna ratione, inuerſaque; de compoſitione, diuiſione, & conuerſione rationis; de ratione ex æqualitate; & de proportione ordinata, ac perturbata. Omnes enim hi modi argumentationum, quæ circa proportiones uerſantur, demõſtrabuntur quoque in hoc ſeptimo libro proportionibus numerorum conuenire.
 
-# POSTVLATA, SIVE PETITIONES
+## POSTVLATA, SIVE PETITIONES
 
 ## I.
 

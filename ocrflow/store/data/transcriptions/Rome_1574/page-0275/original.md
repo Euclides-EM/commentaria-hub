@@ -20,7 +20,7 @@ Ducatur enim EF, perpendicularis ad BE, quæ rectam BA, productam ſecet in F. Q
 
 [Diagram: square standing on a vertex with corners E, F, G, B; the diagonal FB passes through A, with a smaller square D, C, B, A attached at the upper right and lines drawn from E to A and to D]
 
-## FINIS ELEMENTI SECVNDI.
+FINIS ELEMENTI SECVNDI.
 
 [Ornament: floral tailpiece]
 

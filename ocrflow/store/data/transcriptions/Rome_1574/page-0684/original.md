@@ -24,7 +24,7 @@ DVO exempla appoſuimus, in quorum priori liquido conſtat, vnitatem E, eſſe p
 20.
 [/Margin]
 
-## THEOR. 21. PROPOS. 22.
+## THEOR. 21{printer-error-correction:20}. PROPOS. 22.
 
 SI tres numeri deinceps ſint proportio
 

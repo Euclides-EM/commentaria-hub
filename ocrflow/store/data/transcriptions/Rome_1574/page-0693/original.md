@@ -24,7 +24,7 @@ RVRSVS quilibet duo numeri, quorum alter quadratus ſit, alter uero non quadratu
 
 PARI ratione quilibet duo numeri, quorum alter cubus ſit, alter vero non cubus, ſolidi ſunt non ſimiles, vt 27. 40. Si enim eſſent ſolidi ſimiles, haberent proportionem, quam cubus ad cubum. Cum igitur 27. cubus ſit, eſſet & 40. cubus. quod eſt abſurdum. ponitur enim non cubus.
 
-## FINIS ELEMENTI OCTAVI.
+FINIS ELEMENTI OCTAVI.
 
 [Ornament: floral tailpiece]
 

@@ -9,7 +9,7 @@ lib.1.tex.5.
 
 ## V.
 
-## SVPERFICIES eſt, quæ longitudinem, latitudinemq́; tantum habet.
+SVPERFICIES eſt, quæ longitudinem, latitudinemq́; tantum habet.
 
 POST lineam, quę eſt prima quantitatis continuæ ſpecies, vnicamq́; habet dimenſionem, definit ſuperficiem quę ſecundam magnitudinis ſpeciem conſtituit, additq́; primę dimenſioni ſecundum longitudinem, alteram ſecundum latitudinem. Nam in ſuperficie reperitur non ſolum longitudo, vt in linea, verum etiam latitudo, ſine tamen omni profunditate. Vt quantitas A B C D, inter lineas A B,
 

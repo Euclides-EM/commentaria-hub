@@ -7,7 +7,7 @@
 
 ## DEFINITIONES.
 
-### I.
+## I.
 
 PARS eſt magnitudo magnitudinis, minor maioris, cum minor metitur maiorem.
 

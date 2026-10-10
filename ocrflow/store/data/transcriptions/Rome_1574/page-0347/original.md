@@ -17,7 +17,7 @@ EXTRA circulum ABC, cuius centrum E, punctum ſumatur D, a quo ducatur recta DA,
 
 EST autem hoc theorema conuerſum præcedentis theorematis, vt perſpicuum eſt.
 
-## FINIS ELEMENTI TERTII.
+FINIS ELEMENTI TERTII.
 
 [Ornament: foliate ornament]
 

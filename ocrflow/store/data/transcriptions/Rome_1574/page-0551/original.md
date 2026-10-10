@@ -4,7 +4,7 @@ anteponi. Quare hoc libro ſeptimo, & duobus inſequentibus, circa numerorum pro
 
 ## II.
 
-## NVMERVS autem, ex unitatibus compoſita multitudo.
+NVMERVS autem, ex unitatibus compoſita multitudo.
 
 CVM numerus ſit multitudo quædam ex vnitatibus compoſita, manifeſtum eſt, numerũ quemlibet tot habere partes, quot ſunt vnitates eum conſtituentes; Ita vt vnitas ſit pars cuiuſuis numeri denominata ab ipſo numero, cuius eſt pars. Vt numerus 8. compoſitus ex octo vnitatibus, diuiditur in totidem partes, nempe vnitates, quarum quælibet octaua pars dicitur octonarij. Sic quoque numerus 100. ex centum vnitatibus compoſitus, in totidem diſtribuitur, quarum quælibet centeſima ipſius pars eſt, &c.
 
@@ -12,6 +12,6 @@ EX his ſequitur, omnes numeros, quotcunque ſint, inter ſe commenſurabiles e�
 
 ## III.
 
-## PARS eſt numerus numeri, minor maioris, cum minor metitur maiorem.
+PARS eſt numerus numeri, minor maioris, cum minor metitur maiorem.
 
 <!-- Catchword: Non -->

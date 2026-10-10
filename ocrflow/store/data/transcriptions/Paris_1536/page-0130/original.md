@@ -1,76 +1,58 @@
-<!-- Running title: running title text -->
+<!-- Running title: GEOMET. ELEMENT. -->
 
-<!-- Page number: page number text -->
-
-[Ornament: description of an ornament such as a headpiece]
-
-[Curated heading level=1: curated heading in the default layer, level one]
-
-[Curated heading level=2 type=genre: curated heading in the named layer genre, level two]
-
-# Book-level heading, level one
-
-[Subhead]
-subhead text qualifying the heading above without creating a new level
-[/Subhead]
-
-## Proposition or section heading, level two
-
-{dropcap:D|lines=3|style=decorated|decoration="description of the decoration"}Ecorated drop capital spanning three lines begins this paragraph of ordinary body text, joined into one line even if printed across several, with diplomatic characters kept as printed: long ſ, ligature æ, abbreviations cõ- and -ũ and q;.
-
-[Diagram: description of a geometrical diagram with labels A, B and C]
-
-Paragraph of body text following the diagram, referring to geometrical labels AB and ABC as ordinary text.
+<!-- Page number: 114 -->
 
 [Margin]
-printed marginal note text
+Exemplum.
 [/Margin]
 
-### Subordinate heading, level three
+veluti a/b/ad b, ita c/d/ad d: & conuertamus in hunc modū. Ergo sicut a/b/ ad a, ita c/d/ ad c. Sunt enim a/ & c/differentiæ, quibus c/& d/ab ipsis a/b/& c/d/superantur. In composita igi-
 
-{dropcap:P|lines=2|style=plain}Lain drop capital spanning two lines, followed by a printer's errur{printer-error-correction:error} with its correction, an uncertain reading [unclear: uncertain reading text], illegible text of known word count [illegible: 2 words], illegible text of known character count [illegible: 4 chars], and illegible text of unknown extent [illegible].
+[Margin]
+Notandum.
+[/Margin]
 
-{dropcap:U|lines=?|style=unknown}Nknown-style drop capital whose line count cannot be determined.
+[Diagram: 12. ab — 8. b — 4. a — 6. cd — 4. d — 2. c]
 
-#### Subordinate heading, level four
+tur, & diuisa ratione, ac conuersione rationis, quanquàm nihil sumatur extrinsecum: alterantur nihilominus termini, ijdem secundum substantiam minimè permanentes.
 
-hello
+¶Δι᾽ ἴσου λόγος ἐστὶ, πλειόνων ὄντων μεγεθῶν, καὶ ἄλλων αὐτοῖς ἴσων τὸ πλῆθος, σὺν δύο λαμβανομένων, καὶ ἐν τῷ αὐτῷ λόγῳ: ὅταν ᾖ ὡς ἐν τοῖς πρώτοις μεγέθεσι, τὸ πρῶτον πρὸς τὸ ἔσχατον, οὕτως ἐν τοῖς δευτέροις μεγέθεσι, τὸ πρῶτον πρὸς τὸ ἔσχατον: ἢ ἄλλως, λῆψις τῶν ἄκρων, καθ᾽ ὑπεξαίρεσιν τῶν μέσων.
 
-[Figure: description of a figure]
+[Curated heading level=3 type=numbered_item: 17.]
 
-[Illustration: description of an illustration]
+16{printer-error-correction:17} Aequa ratio, est pluribus existentibus magnitudinibus, & alijs eis æqualibus multitudine, cum duabus sumptis & in eadem ratione: quando fuerit sicut in primis magnitudinibus primum ad vltimum, sic in secundis magnitudinibus primū ad vltimum. Vel aliter. acceptio extremorum, per subtractionem mediorum.
 
-| Table column heading one | Table column heading two |
-|---|---|
-| table cell | table cell |
-| table cell |  |
+Exempli gratia, sint primi ordinis quantitates a, b, c, secundi verò d, e, f: sitq̄ a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f: vel a/ad b/sicut e/ad f, & b/ad c/veluti d/ad e: & concludendo sub-
 
-[Calculation]
-calculation with
-preserved spacing
-and line breaks
-[/Calculation]
+[Margin]
+Inferendi modus ex æqua ratione.
+[/Margin]
 
-[Calculation]
-[/Calculation]
+[Diagram: 6 3 2 / 9. a — 6. b — 3. c — 12. d — 8. e — 4. f]
 
-Paragraph after an empty calculation block, which marks a visible calculation that could not be transcribed.
+inferamus. Igitur sicut a/ad c, ita d/ad f. Hunc modum arguēdi, ex æquali, aut ex æqua ratione vocitamus. Vt si a ad b/& d/ad e/sesqualteram, b/autem ad c/& e/ ad f/duplam obtinuerit rationem: vel a/ad b/& e/ad f/dupla, b/ autem ad c/atque d/ ad e/sesqualtera ratione proportionetur: necessum est a/ ad c, atque d/ad f, triplam obseruare rationem. vt ex ipsa numerorum potes elicere formula.
 
-[Footnote]
-printed footnote text
-[/Footnote]
+¶Τεταγμένη ἀναλογία ἐστὶν, ὅταν ᾖ ὡς ἡγούμενον πρὸς ἑπόμενον, οὕτως ἡγούμενον πρὸς τὸ ἑπόμενον: ἢ δὲ καὶ ὡς ἑπόμενον πρὸς ἄλλο τι, οὕτως ἑπόμενον πρὸς ἄλλο τι.
 
-[Handwritten]
-handwritten annotation text
-[/Handwritten]
+[Curated heading level=3 type=numbered_item: 18.]
 
-[Other type="type of the unclassified zone"]
-text of a distinct zone with no defined type
-[/Other]
+17{printer-error-correction:18} Ordinata proportio, est cùm fuerit antecedens ad consequens, sicut antecedens ad consequēs: & consequēs ad rem aliam, sicut consequens ad rem aliam.
 
-[Other]
-[/Other]
+Expeditis quæ ex eadem proportione subinferuntur rationum comparationibus: diffinit tandem Euclides, binas proportionum species, inter geminos proportionalium magnitudinum ordines accidentes. Ordinatam itaque proportionem adpellamus, quando antecedentium & cōsequētium ordinatim fit comparatio. Vt si bini (verbi gratia) fuerint numerorum ordines, a/b/c/inquā primus, & d/e/f/secūdus: fueritq̄
 
-<!-- Signature: signature text -->
+[Margin]
+Exēplū ordinatæ proportionis.
+[/Margin]
 
-<!-- Catchword: catchword text -->
+a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f. Hāc rationū identitatem, ordinatam solemus vocitare proportionem. Huic contraria est perturbata, quæ sic diffinitur,
+
+| |
+|---|
+| a b c — d e f |
+| 9 6 3 — 12 8 4 |
+
+¶Τεταραγμένη δὲ ἀναλογία ἐστὶν, ὅταν τριῶν ὄντων μεγεθῶν, καὶ ἄλλων ἴσων αὐτοῖς τὸ πλῆθος γίνεται: ὡς μὲν ἐν τοῖς πρώτοις μεγέθεσιν ἡγούμενον, πρὸς τὸ ἑπόμενον, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς τὸ ἑπόμενον: ὡς δὲ ἐν τοῖς πρώτοις μεγέθεσιν ἑπόμενον πρὸς ἄλλο τι, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς ἄλλο τι.
+
+[Curated heading level=3 type=numbered_item: 19.]
+
+18{printer-error-correction:19} Perturbata autē proportio, est quando tribus existentibus magnitudinibus, & alijs eis æqualibus multitudine: fit sicut quidē in primis magnitudinibus antecedens ad cōsequens, sic in secundis magnitudinibus antecedens ad consequens: sicut autē in primis magnitudinibus consequens ad rem aliam, sic in secundis res alia ad antecedens.

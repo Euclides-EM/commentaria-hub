@@ -16,7 +16,7 @@ NAM ex A, in B, fiat C, quem uel metiatur numerus non primus D, uel certe compo≈
 26. ≈øeptimi
 [/Margin]
 
-## PROBL. 31. PROPOS. 33.
+## PROBL{printer-error-correction:THEOR}. 31. PROPOS. 33.
 
 [Margin]
 30.

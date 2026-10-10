@@ -4,7 +4,7 @@ ipſius A, multiplex. Diuiſo ergo tam BC, quàm BD, in partes ipſi A, æquales
 
 [Diagram: three horizontal dotted lines, the first labelled A, the second labelled B, D and C, the third labelled B, D and C]
 
-## THEOR. I. PROPOS. I.
+## THEOR. 1. PROPOS. 1.
 
 SI duobus numeris inæqualibus propoſitis, detrahatur ſemper minor de maiore, alterna quadam detractione, neq; reliquus unquã metiatur præcedentẽ, quoad aſſumpta ſit unitas; qui principio propoſiti ſunt numeri, primi inter ſe erunt.
 

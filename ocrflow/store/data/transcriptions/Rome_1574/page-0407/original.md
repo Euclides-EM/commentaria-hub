@@ -6,7 +6,7 @@ B, ita C, ad D; Igitur conuertendo, uel e contrario, erit quoq; B, ad A, ut D, a
 
 ## XIIII.
 
-## COMPOSITIO rationis, eſt ſumptio antecedentis cum conſequente, ceu unius, ad ipſam conſequentem.
+COMPOSITIO rationis, eſt ſumptio antecedentis cum conſequente, ceu unius, ad ipſam conſequentem.
 
 [Figure: two horizontal lines, the first labelled A, B and C with the numbers 12 and 8, the second labelled D, E and F with the numbers 6 and 4]
 
@@ -14,6 +14,6 @@ SIT proportio AB, ad BC, quæ DE, ad EF; Si igitur ex hoc colligatur, eam quoque
 
 ## XV.
 
-## DIVISIO rationis, eſt ſumptio exceſſus, quo conſequentem ſuperat antecedens, ad ipſam conſequentem.
+DIVISIO rationis, eſt ſumptio exceſſus, quo conſequentem ſuperat antecedens, ad ipſam conſequentem.
 
 <!-- Catchword: VT -->

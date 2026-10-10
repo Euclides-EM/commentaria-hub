@@ -7,7 +7,7 @@
 
 ## DEFINITIONES.
 
-### I.
+## I.
 
 AEQVALES circuli ſunt, quorũ diametri ſunt æquales; uel quorum, quæ ex centris, rectæ lineæ ſunt æquales.
 

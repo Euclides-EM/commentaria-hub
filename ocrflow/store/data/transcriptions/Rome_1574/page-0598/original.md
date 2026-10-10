@@ -17,7 +17,7 @@ SINT quarto & ultimo A, C, E, ipſis B, D, F, æquales Quoniam igitur, ſi æqua
 
 [Diagram: two rows of dotted lines labelled A, C, E and B, D, F]
 
-## THEOR. II. PROPOS. 13.
+## THEOR. 11. PROPOS. 13.
 
 [Margin]
 14.

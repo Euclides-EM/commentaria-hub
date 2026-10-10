@@ -13,7 +13,7 @@ PERSPICVVM autem eſt ex demonſtratione huius theorematis facta ab Euclide, & e
 25.
 [/Margin]
 
-## DATO rectilineo ſimile, & alteri dato æquale idem conſtituere.
+DATO rectilineo ſimile, & alteri dato æquale idem conſtituere.
 
 SINT data duo rectilinea A, & B; ſitque conſtituendum aliud rectilineum, quod ſimile quidem ſit ipſi A, æquale uero ipſi B. Super CD, unum latus rectilinei, cui ſimile debet conſtitui, conſtituatur parallelogrãmum CE, in quouis angulo, æquale rectilineo A; Et ſuper rectam DE, in angulo EDG, qui æqualis ſit angulo DCF, parallelogrammum DH, æquale ipſi B; eritque CDG, linea
 

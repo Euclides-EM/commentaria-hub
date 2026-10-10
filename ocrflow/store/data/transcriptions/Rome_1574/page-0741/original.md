@@ -32,7 +32,7 @@ QVOD autem ijdem numeri ſint pariter pares tantum, liquido etiam conſtat. Cum 
 
 Numerorum igitur a binario duplorum, &c. Quod demonſtrandum erat.
 
-### SCHOLION.
+## SCHOLION.
 
 HINC cum Arithmeticis facile colligemus artem, qua omnes numeros inueniamus, qui ſint pariter pares tantum. ſint
 

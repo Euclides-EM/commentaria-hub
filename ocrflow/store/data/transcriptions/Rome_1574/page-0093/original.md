@@ -6,7 +6,7 @@ ficies perfecte plana, iuxta omnes definitiones; Non enim difficile erit huic ſ
 
 ## VIII.
 
-## PLANVS vero angulus, eſt duarum linearum in plano ſe mutuo tangentium, & non in directum iacentium, alterius ad alteram inclinatio.
+PLANVS vero angulus, eſt duarum linearum in plano ſe mutuo tangentium, & non in directum iacentium, alterius ad alteram inclinatio.
 
 DECLARAT, quid nam ſit angulus planus, dicens; Quandocunq; duæ lineæ in plana aliqua ſuperficie inuicem concurrunt & non in directum conſtituuntur, efficietur ex huiuſmodi concurſu, ſeu inclinatione vnius ad alteram, angulus, qui dicitur planus, propterea quod in plana conſtituatur ſuperficie. Verbi gratia, quia duæ lineæ AB, AC, concurrunt in A, & non iacent in directum, ideo efficiunt angulum A, planum in eadem exiſtentem ſuperficie, in qua duæ illæ lineæ conſtituuntur. Dicentur autem duæ lineæ
 

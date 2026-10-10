@@ -9,6 +9,6 @@ QVIA vero omnem numerum planum metiuntur duo numeri multiplicantes ſe mutuo, qu
 
 ## XVII.
 
-## CVM uero tres numeri mutuo ſe ſe multiplicantes aliquem fecerint, qui procreatus erit, ſolidus appellabitur: Qui autem numeri mutuo ſe ſe multiplicarint, latera illius dicentur.
+CVM uero tres numeri mutuo ſe ſe multiplicantes aliquem fecerint, qui procreatus erit, ſolidus appellabitur: Qui autem numeri mutuo ſe ſe multiplicarint, latera illius dicentur.
 
 <!-- Catchword: Vt -->

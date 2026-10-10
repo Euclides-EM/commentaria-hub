@@ -29,7 +29,7 @@ componetur C, ex tot paribus ipſi B, æqualibus, quot ſunt unitates in A; Atq;
 21. noni.
 [/Margin]
 
-### SCHOLION.
+## SCHOLION.
 
 EADEM demonſtratione oſtendemus & hoc.
 

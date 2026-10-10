@@ -14,7 +14,7 @@ QVOD ſi fuerint quatuor magnitudines vtrobiq; cũ eadẽ hypotheſi, hoc eſt, 
 33. quinti.
 [/Margin]
 
-## FINIS ELEMENTI QVINTI.
+FINIS ELEMENTI QVINTI.
 
 [Ornament: foliate ornament]
 

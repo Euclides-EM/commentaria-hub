@@ -9,7 +9,7 @@ PERSPICVVM autem eſt ex demonſtratione, numeros A, B, C, D, eſſe minimos in 
 
 [Diagram: two columns of lines: A, B, C and D shown as rows of dots of increasing length; E, F, G and H shown as dashed lines of increasing length]
 
-## PROBL. I. PROPOS. 2.
+## PROBL. 1. PROPOS. 2.
 
 [Margin]
 2.

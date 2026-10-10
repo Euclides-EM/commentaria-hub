@@ -10,7 +10,7 @@ tatẽ: Quare quadratũ rectę AD quadratis rectarũ BA, BC, æquale erit. Cũ e
 
 CONVERSVM eſt autem theorema hoc præcedentis theorematis Pythagorici, ut perſpicuum eſt.
 
-## FINIS ELEMENTI PRIMI.
+FINIS ELEMENTI PRIMI.
 
 [Ornament: floral tailpiece]
 

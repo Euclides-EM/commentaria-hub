@@ -6,7 +6,7 @@
 
 ## DEFINITIONES.
 
-### I.
+## I.
 
 PVNCTVM eſt, cuius pars nulla eſt.
 

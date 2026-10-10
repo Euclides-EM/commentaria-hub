@@ -19,7 +19,7 @@ Detrahatur FI, ipſi BC, & FK, ipſi D, æqualis. Quoniam igitur FI, æqualis e�
 
 Ac proinde ita etiam erunt omnes EK, KI, IH, ad omnes KF, IF, HF, hoc eſt, totus EH, ad D, BC, A, ſimul, (quibus ſumpti ſunt æquales KF, IF, HF,) ut IH, ad HF, hoc eſt, ut BG, ad A, ſunt enim BG, & A, ipſis IH, & HF, æquales. Quare ſi ſint quotcunque numeri deinceps proportionales, &c. Quod demonſtrandum erat.
 
-### SCHOLION.
+## SCHOLION.
 
 [Subhead]
 EX hoc theoremate ueniemus in notitiam ſummæ quotcunque numerorum continue proportionalium, ſi modo primus, ſecundus, & ultimus fuerint noti. Cum enim ſit exceſſus ſecundi ad primum, ita exceſſus ultimi ad omnes ipſum antecedentes; Si primus à ſecundo, & ultimo dematur, fiatque ut reliquus
