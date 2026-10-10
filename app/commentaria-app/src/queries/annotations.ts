@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import {
   AnnotationsService,
+  ApiError,
   EditionsService,
   type annotation_SearchWithin,
 } from '@hub-api'
@@ -130,6 +131,10 @@ export function useAnnotationTeiQuery(
         imageVariant,
       }),
     enabled: !!datasetId && !!annotationId && !!pageOrKey && enabled,
+    // A bad TEI request is not transient; retain the normal retry behavior for
+    // transport and server failures, which may recover.
+    retry: (failureCount, error) =>
+      !(error instanceof ApiError && error.status === 400) && failureCount < 3,
   })
 }
 

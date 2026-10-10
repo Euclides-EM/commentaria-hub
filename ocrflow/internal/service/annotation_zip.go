@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"io"
 	"os"
-	"path/filepath"
 	"strings"
 )
 
@@ -39,7 +38,7 @@ func (a *Annotation) Zip(datasetID, id string, includeAlto, includeImages bool) 
 			}
 		}
 		for _, imageName := range imageNames {
-			if err := addFileToZip(zw, filepath.Join(imagesDir, imageName), "imgs/"+imageName); err != nil {
+			if err := addFileToZip(zw, a.fileSysMgt.DatasetImagePathByID(datasetID, imageName), "imgs/"+imageName); err != nil {
 				return err
 			}
 		}
