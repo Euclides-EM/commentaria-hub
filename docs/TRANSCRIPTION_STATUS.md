@@ -346,7 +346,7 @@ Codex:
 
 ## Nuremberg_1821
 
-OCR has been completed, the facsimile is public domain.
+OCR was done on Google books facs:
 
 https://euclides.huma-num.fr/hub/?datasetId=ds_tjokpg
 
@@ -355,7 +355,11 @@ Liri run the corrector:
 2026/09/05 11:40:17 complete pages=72 rounds=1 requests=72 tokens_input=340 tokens_cached=1697451 tokens_cache_creation=583576 tokens_output=165781 tokens_reasoning=0 tokens_total=2447148 cost_usd=21.876591 cost_reports=72/72 final_outputs=store/data/ds_0n6l0d/annotations/ann_i74rcq/transcriptions/page-NNNN/original.md
 ```
 
-**Status:** Ready for curation.
+Actual final version is on public domain facs:
+
+https://euclides.huma-num.fr/hub/?datasetId=ds_yp36ia
+
+**Status**: Curation in progress.
 
 # Completed
 
