@@ -311,6 +311,8 @@ using Codex. Partial run stats:
 
 **Status:** Ready for curation.
 
+# Completed
+
 ## Rome_1574
 
 Two facsimiles are available:
@@ -341,10 +343,6 @@ Codex:
 - Total tokens: 1,607,913
 - Cache hit requests: 18/18 (100%)
 - Cost: unavailable
-
-**Next steps:** Manually curate the transcriptions.
-
-# Completed
 
 ## Nuremberg_1821
 

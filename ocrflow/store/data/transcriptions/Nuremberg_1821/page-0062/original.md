@@ -1,6 +1,9 @@
 <!-- Page number: 57 -->
 
-# Anhang zu dem vierten Buch der Elemente, die geometriſche Conſtruction eines regelmäſigen Siebzehnecks enthaltend.
+# Anhang
+[Subhead]
+zu dem vierten Buch der Elemente, die geometriſche Conſtruction eines regelmäſigen Siebzehnecks enthaltend.
+[/Subhead]
 
 ## Lehnſatz.
 
