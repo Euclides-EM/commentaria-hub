@@ -293,6 +293,8 @@ Fable stats:
 
 **Status:** Ready for curation.
 
+# Completed
+
 ## Paris_1794
 
 Facsimile is public domain, I run the full OCR pipeline.
@@ -308,11 +310,7 @@ using Codex. Partial run stats:
 - Reasoning tokens: 0
 - Total tokens: 2,301,221
 - Cache hit requests: 89/89 (100%)
-
-**Status:** Ready for curation.
-
-# Completed
-
+- 
 ## Rome_1574
 
 Two facsimiles are available:
