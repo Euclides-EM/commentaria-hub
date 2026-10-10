@@ -31,6 +31,18 @@ type AnnotationTEI struct {
 	editionSvc    *Edition
 }
 
+type annotationNotRepresentableAsTEIError struct {
+	annotationID string
+}
+
+func (e annotationNotRepresentableAsTEIError) Error() string {
+	return fmt.Sprintf("annotation %s cannot be represented as TEI", e.annotationID)
+}
+
+func (annotationNotRepresentableAsTEIError) HTTPStatusCode() int {
+	return 400
+}
+
 func NewAnnotationTEI(annotationSvc *Annotation, datasetSvc *Dataset, fileSysMgt *filesys.Manager, datasetImgSvc *DatasetImg, resultSvc *Result, featureSvc *Feature, editionSvc *Edition) *AnnotationTEI {
 	return &AnnotationTEI{
 		annotationSvc: annotationSvc,
@@ -50,7 +62,7 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrK
 	}
 
 	if !t.annotationCanBeRepresentedAsTEI(ann) {
-		return nil, fmt.Errorf("annotation %s cannot be represented as TEI", ann.ID)
+		return nil, annotationNotRepresentableAsTEIError{annotationID: ann.ID}
 	}
 
 	features, err = t.normalizeFeatureIDs(datasetID, features)

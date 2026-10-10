@@ -2,6 +2,7 @@ package httpwrapper
 
 import (
 	"encoding/json"
+	"errors"
 	"io"
 	"log"
 	"net/http"
@@ -9,6 +10,20 @@ import (
 	"path/filepath"
 	"strings"
 )
+
+// statusCoder lets handlers mark an error as a specific HTTP response status.
+// Errors without a status code retain the wrapper's default 500 response.
+type statusCoder interface {
+	HTTPStatusCode() int
+}
+
+func errorStatus(err error, defaultStatus int) int {
+	var statusErr statusCoder
+	if errors.As(err, &statusErr) {
+		return statusErr.HTTPStatusCode()
+	}
+	return defaultStatus
+}
 
 func writeJSON(w http.ResponseWriter, status int, v any) {
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
@@ -100,7 +115,7 @@ func (wb *wrapperBuilder) GetXML(f func(*http.Request) ([]byte, error)) *wrapper
 	wb.get = func(w http.ResponseWriter, r *http.Request) {
 		resp, err := f(r)
 		if err != nil {
-			http.Error(w, err.Error(), http.StatusInternalServerError)
+			http.Error(w, err.Error(), errorStatus(err, http.StatusInternalServerError))
 			return
 		}
 		w.Header().Set("Content-Type", "application/xml; charset=utf-8")
