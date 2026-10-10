@@ -8,7 +8,7 @@ quæ vel cadet ſupra AD, vel infra. Cadat primo ſupra, qualis eſt AE, coeatq;
 1. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EX his infert Campanus ſequens hoc theorema.
 

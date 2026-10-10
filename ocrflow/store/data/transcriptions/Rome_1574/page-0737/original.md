@@ -7,6 +7,8 @@ trahatur, &c. Quod erat oſtendendum.
 26.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 26]
+
 ## THEOR. 23. PROPOS. 25.
 
 {dropcap:S|lines=2|style=plain}I a pari numero impar detrahatur: Et reliquus impar erit.
@@ -25,6 +27,8 @@ Quia igitur & totus AB, ponitur par; erit & reliquus AD, par. Detracta ergo unit
 27.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 27]
+
 ## THEOR. 24. PROPOS. 26.
 
 {dropcap:S|lines=2|style=plain}I ab impari numero impar detrahatur: Reliquus par erit.
@@ -42,6 +46,8 @@ Quia ergo ex pari AD, par aufertur CD; erit & reliquus AC, par. Quare ſi ab imp
 [Margin]
 28.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 28]
 
 ## THEOR. 25. PROPOS. 27.
 

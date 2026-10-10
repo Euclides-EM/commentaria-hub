@@ -7,9 +7,11 @@ magnitudines AG, GH, HB, tot numero, quot ſunt magnitudines CI, IK, KD. Quoniam
 2. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HOC idem demonſtrabitur vniuerſe in omni genere proportionis, propos. 12.
+
+[Curated heading level=2 type=campanus: 2]
 
 ## THEOR. 2. PROPOS. 2.
 

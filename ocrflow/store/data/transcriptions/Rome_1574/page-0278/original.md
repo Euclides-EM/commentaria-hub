@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. III. -->
 <!-- Page number: 97 -->
 
-## IIII.
+### IIII.
 
 IN circulo, æqualiter diſtare a centro rectæ lineæ dicuntur, cum perpendiculares, quæ a centro in ipſas ducuntur, ſunt æquales. Longius autem abeſſe illa dicitur, in quam maior perpendicularis cadit.
 
@@ -17,7 +17,7 @@ QVONIAM inter omnes lineas rectas, quæ ab aliquo puncto ad quamlibet lineam rec
 
 [Diagram: circle ABCD with points A and B above, C at right, H at left, D at lower right and I at bottom; centre E with perpendiculars EF, EG and EK drawn to chords]
 
-## V.
+### V.
 
 SEGMENTVM circuli eſt figura, quæ ſub recta linea, & circuli peripheria comprehenditur.
 

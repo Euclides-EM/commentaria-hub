@@ -13,13 +13,15 @@ ALITER. Accipiatur recta D, æqualis ſegmento AC. Quoniam recta AB, diuiſa eſ
 1. ſecundi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 VT hoc theorema numeris accommodetur, ſit numerus 10. diuiſus in 7. & 3. Dico numerum 70. productum ex 10. in 7. æqualem eſſe numero 21. qui ex 7. in 3. producitur, vna cum 49. quadrato prioris partis 7. Id quod res ipſa indicat. Pari ratione erit numerus 30. procreatus ex 10. in 3. æqualis numero 21. producto ex 3. in 7. ſimul cum 9. quadrato prædicti numeri 3.
 
 [Margin]
 4.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 4]
 
 ## THEOR. 4. PROPOS. 4.
 

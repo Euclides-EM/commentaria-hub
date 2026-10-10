@@ -8,6 +8,8 @@ RVRSVS, ſi ijdem numeri ſecentur vtcunque, prior quidem in 3. 7. poſterior au
 2.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 2]
+
 ## THEOR. 2. PROPOS. 2.
 
 SI recta linea ſecta ſit utcunque, Rectangula, quæ ſub tota, & quolibet ſegmentorum comprehenduntur, æqualia ſunt ei, quod a tota ſit, quadrato.

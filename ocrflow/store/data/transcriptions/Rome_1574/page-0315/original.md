@@ -2,7 +2,7 @@
 
 cto. Semper enim rectus angulus ſuperabit quemuis angulum ſemicirculi, angulo illo contactus, qui efficitur a peripheria, & linea tangente. Quemadmodum etiam quouis angulo acuto propoſito, dari poſſunt alij maiores; nunquam tamen aliquis acutus rectum excedet, vt in præcedenti figura cernere licet.
 
-## EX CARDANO.
+### EX CARDANO.
 
 ALIQVA quantitas poteſt continue, & infinite augeri, altera vero infinite minui; & tamen augmentum illius, quantumcunque ſit, minus ſemper erit decremento huius.
 
@@ -10,7 +10,7 @@ ALIQVA quantitas poteſt continue, & infinite augeri, altera vero infinite minui
 
 Proponantur enim angulus contactus B A E, & acutus H G I. Si igitur deſcribantur alij circuli minores A C, A D, tangentes rectam E F, in A, augebitur continue angulus contactus, vt dictum eſt. Si rurſus inter rectas G H, G I, aliæ rectæ cadant G K, G L, diminuetur continue angulus acurus: Et tamẽ ſemper angulus contactus, quantumlibet augeatur, minor eſt angulo acuto, quantumuis diminuatur.
 
-## EX CAMPANO.
+### EX CAMPANO.
 
 [Margin]
 1. poſter.

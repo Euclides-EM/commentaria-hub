@@ -20,7 +20,7 @@ ALITER. Sit ita multiplex tota AB, totius CD, ut ablata AE, ablatæ CF. Dico rel
 1. quinti
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 VNIVERSE idipſum demonſtrabitur propos. 19. in magnitudinibus cuiuſcunque proportionis, &c.
 

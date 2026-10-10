@@ -15,6 +15,8 @@ Quoniam uero eſt ut C, ad dimidium ſui, ita B, ad dimidium ſui; & permutando 
 40. ſeptimi.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 34]
+
 ## THEOR. 29. PROPOS. 31.
 
 [Margin]

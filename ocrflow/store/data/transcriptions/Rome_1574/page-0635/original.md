@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## SCHOLION.
+### SCHOLION.
 
 HOC corollarium alio modo, non ſecus ac propos. 37. huius lib. oſtendere poterimus. Metiantur enim A, B, C, quemcunque numerum DE, ſitque F, minimus, quem ijdem A, B, C, metiantur. Dico & F, ipſum DE, metiri. Si enim non metitur, metiatur eius partẽ DG, relinquatque numerum GE, ſe minorem. Quoniam igitur A, B, C, ipſum F, metiuntur; & F, ipſum DG; metientur quoque A, B, C, eundem DG; Ac proinde, cum & totum DE, ponantur metiri; metientur & reliquum GE, ipſo F, minorẽ. Quare F, non erit minimus, quem A, B, C, metiantur. Quod eſt abſurdũ, & contra hypotheſim. Metitur igitur F, ipſum DF.
 
@@ -16,6 +16,8 @@ PARI ratione; Pluribus numeris datis, quam tribus, reperiemus, quem illi minimum
 [Margin]
 37.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 37]
 
 ## THEOR. 34. PROPOS. 39.
 

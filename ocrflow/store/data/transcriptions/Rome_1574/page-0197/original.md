@@ -26,7 +26,7 @@ SIT parallelogrammum ABCD, quale definiuimus definitione 35. Dico latera oppoſi
 4. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 APPOSITE dixit Euclides, ſolummodo parallelogrammum à diametro diuidi bifariam, non autem & angulos. In Quadrato enim, & Rhombo duntaxat, anguli etiam bifariam diuiduntur a diametro: At in figura Altera parte longiori, & in Rhomboide in partes inæquales. Quæ omnia perſpicua erũt, ſi prius oſtenderimus, quatuor haſce figuras, Quadratum,
 

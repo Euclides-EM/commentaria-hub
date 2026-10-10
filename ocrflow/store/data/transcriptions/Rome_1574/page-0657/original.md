@@ -8,6 +8,8 @@ QVOD eodem modo demonſtrabimus. Si enim primus non dicatur metiri ſecundum, ve
 8.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 8]
+
 ## THEOR. 6. PROPOS. 8.
 
 SI inter duos numeros medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri: tot & inter alios eandem cum illis habentes rationem medij continua proportione cadent.

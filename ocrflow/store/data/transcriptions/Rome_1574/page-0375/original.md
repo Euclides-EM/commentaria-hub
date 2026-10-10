@@ -2,7 +2,7 @@
 
 aliam refertur, dicitur ab Euclide, & Geometris alijs, antecedens proportionis; Ea uero, ad quam alia refertur, conſequens proportionis dici ſolet. Vt in proportione lineæ 6. palmorum ad lineam 3. palmorum, linea 6. palmorum dicitur antecedens proportionis; at linea 3. palmorum, proportionis conſequens. Quod ſi econtrario conſideretur proportio linea 3. palmorum, ad lineam 6. palmorum, appellabitur antecedens, linea 3. palmorum; conſequens uero linea 6. palmorum, & ſic in cæteris.
 
-## DE PROPORTIONIBVS.
+### DE PROPORTIONIBVS.
 
 OPERAE pretium eße arbitror, paucis hoc loco exponere, quotnam ſint genera proportionũ apud Mathematicos, uel ob hanc præcipue utilitatem, ut ea, quæ in his duobus libris ab Euclide demonſtrantur de proportionibus magnitudinum, rebus poſſint materialibus accommodari, quando opus fuerit.
 

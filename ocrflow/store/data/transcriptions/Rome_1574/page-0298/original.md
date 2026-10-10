@@ -25,7 +25,7 @@ TANGANT ſe iam circuli AB, CB, exterius in pluribus punctis, quam uno, prope F.
 
 ALITER. Si circuli AB, CB, exterius ſe tangant in duobus punctis B, & F; ducta recta BF, cadet ipſa intra unũ circulorum, per 2. propos. huius tertij lib. & ideo extra aliũ, quod eſt contra eandem propos. Quare circulus circulum non tangit, &c. Quod erat demonſtrandum.
 
-## SCHOLION.
+### SCHOLION.
 
 SI recte conſideretur Euclidis demonſtratio, qua probauit, circulum a circulo intus non poſſe tangi in pluribus punctis, quam uno uidetur ea potiſſimum concludere, circulum nõ poſſe tangi a circulo in duobus, uel pluribus punctis, quæ longo interuallo a ſe diſſideant; nõ autem eundem contactum plura puncta habere non poſſe; quamuis facile hoc ipſum eodem
 

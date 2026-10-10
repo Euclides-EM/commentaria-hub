@@ -10,6 +10,8 @@ QVAMVIS autem omnis figura æquiangula parium laterum habeat latera oppoſita pa
 35.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 35]
+
 ## THEOR. 25. PROPOS. 35.
 
 PARALLELOGRAMMA ſuper eadem baſi, & in eiſdem parallelis conſtituta, inter ſe ſunt æqualia.

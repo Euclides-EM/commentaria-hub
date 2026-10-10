@@ -10,7 +10,7 @@ AB æqualibus AB, CD, auferantur inæqualia BE, DF. Sitq́; EG, exceſſus, quo 
 3. pron.
 [/Margin]
 
-## XVII.
+### XVII.
 
 SI ab inæqualibus æqualia demantur, erit reſiduorum exceſſus, exceſſui totorum æqualis.
 

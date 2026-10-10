@@ -13,6 +13,8 @@ IAM vero A, primus, vel alius quiſquam nullius a ſecundo B, ſit multiplex. Di
 A,81. B,54. C,36. D,24. E,16.
 [/Calculation]
 
+[Curated heading level=2 type=campanus: 7]
+
 ## THEOR. 5. PROPOS. 7.
 
 [Margin]
@@ -31,7 +33,7 @@ A,3. B,6. C,12. D,24. E,48.
 6. [unclear: octaui]
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 VT theorema, quod ſecũdo loco in ſcholio præcedẽtis ppos. demõſtrauimus, conuertamus, amplificabimus hanc ppos. hoc modo.
 

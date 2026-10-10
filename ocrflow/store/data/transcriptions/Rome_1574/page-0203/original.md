@@ -6,7 +6,7 @@ mũ, vel extra, quod tamẽ non ſit in diametro, niſi ipſum ſecet diametrũ 
 
 DEMONSTRAT quoque hic Peletarius problema non iniucundum. videlicet.
 
-## INTER duas lineas rectas infinitas angulum facientes, lineam rectam datæ lineæ æqualem collocare, quæ cum altera illarũ faciat angulum cuiuis angulo dato æqualem. Oportet autem hunc angulum datum cum illo, qui lineis datis continetur, minorem eſſe duobus rectis.
+#### INTER duas lineas rectas infinitas angulum facientes, lineam rectam datæ lineæ æqualem collocare, quæ cum altera illarũ faciat angulum cuiuis angulo dato æqualem. Oportet autem hunc angulum datum cum illo, qui lineis datis continetur, minorem eſſe duobus rectis.
 
 [Margin]
 23. primi.

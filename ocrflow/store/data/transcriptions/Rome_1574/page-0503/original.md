@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## LEMMA.
+### LEMMA.
 
 QVOD autem æqualia rectilinea ſimilia ſimiliterque deſcripta, qualia ſunt GO, RV, conſiſtant ſuper rectas æquales, ita oſtendetur. Si enim inæquales ſunt GH, RS; ſit GH, maior. Cum igitur, ob ſimilitudinem rectilineorum, ſit ut GH, ad HO, ita RS, ad SV; Ponatur autem GH, maior quam RS; erit quoque HO, maior quam SV; & propterea rectilineum GO, maius rectilineo RV, cum hoc intra ipſum poſſit conſtitui; quod eſt abſurdum, cum ſit contra hypotheſin. Non ergo inæquales ſunt rectæ GH, RS. quod eſt propoſitum.
 

@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## SCHOLION.
+### SCHOLION.
 
 IN numeris ita theorema hoc quartum exercebitur. Sit numerus 10. diuiſus vtcunq; in 7. & 3. Vides igitur 100. quadratum totius numeri æquale eſſe 49. & 9. quadratis partium 7. & 3. vna cum numero 21. qui ex 7. in 3. procreatur, bis ſumpto. Nam 49. 9. 21. & 21. efficiunt 100.
 

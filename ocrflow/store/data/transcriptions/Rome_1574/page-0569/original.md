@@ -4,11 +4,11 @@ hæc comparatio, habitudoue, Proportio. Sic etiam proportio erit ea habitudo, qu
 
 QVÆ cum ita ſint, perſpicuum eſt, tum demum quatuor numeros dici proportionales, cum primus ſecundi, & tertius quarti, æque multiplex eſt; vel eadem pars, vel eædem partes: Vel certe, cum primus ſecundum, & tertius quartum, æqualiter continet, eandemque inſuper illius partem, vel eaſdem partes, vt ſupra defin. 20. docuimus.
 
-## XXV.
+### XXV.
 
 TERMINI, ſiue radices proportionis dicuntur duo numeri, quibus in eadem proportione minores ſumi nequeunt.
 
-## XXVI.
+### XXVI.
 
 CVM tres numeri proportionales fuerint; Primus ad tertium, duplicatam rationem habere dicitur eius, quam habet ad ſecundum. At cum quatuor numeri proportionales fuerint; Primus ad quartum, triplicatam rationem habere dicitur eius, quã habet ad ſecundum: Et ſemper deinceps uno amplius, quamdiu proportio extiterit.
 

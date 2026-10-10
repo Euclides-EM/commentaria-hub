@@ -8,6 +8,8 @@ tas in omni genere proportionis rationalis appareret. Theon enim, & nonnulli ali
 15.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 15]
+
 ## THEOR. 12. PROPOS. 14.
 
 SI ſint quotcunque numeri, & alij illis æquales multitudine, qui bini ſumantur, & in eadem ratione: Etiam ex æqualitate in eadem ratione erunt.

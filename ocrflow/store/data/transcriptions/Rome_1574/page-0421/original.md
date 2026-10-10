@@ -2,9 +2,11 @@
 
 HD; ſed CI, eſt ita multiplex ipſius F, ut GB, ipſius E, ex hypotheſi. Igitur & HD, tam multiplex erit ipſius F, quam GB, ipſius E, quod eſt propoſitum. Si duæ itaque magnitudines duarum magnitudinum ſint æque multiplices, &c. Quod oſtendendum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 HOC quoque oſtendemus uniuerſe propoſ. 24. in omni genere proportionis.
+
+[Curated heading level=2 type=campanus: 7]
 
 ## THEOR. 7. PROPOS. 7.
 

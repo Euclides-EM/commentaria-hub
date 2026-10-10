@@ -6,6 +6,8 @@ EF, ad BC, & ex proportione P, ad O, hoc eſt, DK, ad AI; componetur etiam propo
 22.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 22]
+
 ## THEOR. 18. PROPOS. 24.
 
 IN omni parallelogrammo, quæ circa diametrum ſunt, parallelogramma & toti, & inter ſe ſunt ſimilia.

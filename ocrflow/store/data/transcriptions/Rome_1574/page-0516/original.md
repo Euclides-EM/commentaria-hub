@@ -21,7 +21,7 @@ QVOD ſi dicatur recta AHC, ſecare alterum latus FG; Tunc ducta HI, parallela i
 9. quinti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 ALITER idem theorema demonſtrabimus oſtenſiue, hoc modo. Diuiſis lateribus AB, BC, bifariam in punctis H, I, ſiue punctum H, cadat in punctum E, ſiue ſupra, ſiue infra; ducantur rectæ HI, AF. Quoniam igitur, propter ſimilitudinem parallelogrammorum, eſt ut AB, ad BC, ita AE, ad EF; Vt autẽ tota AB ad totam BC, ita eſt dimidia HB, ad dimidiam BI; Erit ut HB, ad BI, ita AF, ad EF. Triangula igitur HBI, AEF, cum habeant circa
 

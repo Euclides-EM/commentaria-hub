@@ -4,6 +4,8 @@ unitas tertij numeri eadẽ pars, quæ ſecundus numerus quarti; id, quod eodem 
 
 [Diagram: four dotted lines, the first labelled A, the second labelled B, G and C, the third labelled D, the fourth labelled E, H and F]
 
+[Curated heading level=2 type=campanus: 10]
+
 ## THEOR. 8. PROPOS. 10.
 
 [Margin]

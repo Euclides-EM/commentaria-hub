@@ -2,11 +2,11 @@
 
 quoque anguli recti FAC; conſtat utrumque.
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC manifeſtum eſt, quod angulus trianguli, qui reliquis duobus æqualis exiſtit, rectus eſt: eo quod illi contiguus (qui producto latere extra triangulum fit) eiſdem ſit æqualis. Quod quidem conſtat ex priori demonſtratione.
 
-## EX CAMPANO.
+### EX CAMPANO.
 
 EX hac propoſitione perſpicuum quoque eſt, non ualere duas illas argumentationes, quas impugnauimus in propos. 16. huius lib. quarum una eſt.
 
@@ -20,7 +20,7 @@ IN circulo enim ABC, cuius centrum D, & diameter AE, ducatur recta AB. Erit igit
 
 [Figure: circle with centre D, point B at top, A at left, E at right, F and C at bottom, with lines joining A to B, E, F and C]
 
-## SCHOLION.
+### SCHOLION.
 
 MANIFESTVM quoque eſt conuerſum huius theorematis. Hoc eſt, ſegmentum circuli, in quo angulus conſtitutus eſt rectus, ſemicirculus eſt. Nam ſi eſſes{printer-error-correction:eſſet} maius, angulus in eo foret acutus; ſi minus, obtuſus; & ſic de reliquis partibus theorematis.
 

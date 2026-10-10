@@ -7,7 +7,7 @@ quæ inter ſe reſpondent. Quamobrem quæ proportio eſt arcus BC, primæ magni
 6. defin. 5.
 [/Margin]
 
-## COROLLARIVM. I.
+### COROLLARIVM. I.
 
 HINC manifeſtum eſt, ſic eſſe ſectorem ad ſectorem, ut eſt angulus ad angulum. Vtraque enim proportio eadem eſt proportioni arcus ad arcum. Quare & inter ſe eadem erunt.
 
@@ -15,7 +15,7 @@ HINC manifeſtum eſt, ſic eſſe ſectorem ad ſectorem, ut eſt angulus ad an
 11. quinti.
 [/Margin]
 
-## COROLLARIVM. II.
+### COROLLARIVM. II.
 
 PERSPICVVM quoque eſt, ut eſt angulus ad centrum ad quatuor rectos, ita eſſe arcum ſubtenſum illi angulo ad totam circunferentiam. Et contra, ut ſunt quatuor recti ad angulum in centro, ita eſſe totam circunferentiam ad arcum illi angulo ſubtenſum. Nam ut eſt angulus in centro ad angulum rectum in centro, ita eſt arcus illi angulo ſubtenſus ad quadrantem angulo recto ſubtenſum. Quamobrem erit ut angulus in centro ad quadruplum anguli recti, nempe ad quatuor rectos, ita arcus illi angulo ſubtenſus ad quadruplum quadrantis, nimirum ad totam circunferentiã, per ea, quæ ad 4. propos. lib. 5. demonſtrauimus. Quod eſt primum. Quoniam igitur eſt ut angulus in centro ad quatuor rectos, ita arcus illi angulo ſubtenſus ad totam circunferentiam; erit & conuertendo, ut quatuor recti ad angulum in centro, ita tota circunferentia ad arcũ angulo in centro ſubtenſum. Quod eſt ſecundum. Verum hoc etiam ita demonſtrabitur. Cum ſit, ut angulus rectus in centro ad angulum in centro, ita quadrans angulo recto ſubtenſus ad arcum illi angulo ſubtenſum; erit quoque, per ea, quæ ad propos. 4. lib. 5. oſtendimus, ut quadruplum anguli recti, nempe quatuor recti, ad angulum in centro, ita quadruplum quadrantis, nimirum tota circunferentia, ad arcum illi angulo ſubtenſum. Quod eſt propoſiti.
 
@@ -27,7 +27,7 @@ PERSPICVVM quoque eſt, ut eſt angulus ad centrum ad quatuor rectos, ita eſſe
 33. ſexti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 CAETERVM ex theoremate hoc luce clarius colligi angulũ, qui circunferentiæ alicui inſiſtit, referendum eſſe ad arcũ, qui baſis eſt ipſius anguli, non autem ad arcum in quo exiſtit. Non enim eadem eſt proportio anguli ad angulum, quæ arcus ad arcum, ſi ſumantur arcus, in quibus anguli exiſtunt, vt uult Euclides in propoſito hoc theoremate. Sint enim circuli
 

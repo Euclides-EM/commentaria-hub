@@ -10,7 +10,7 @@ tenti dictis lateribus æqualibus æquales, ut oſtenſum etiam fuit. Igitur eri
 
 [Figure: triangle with apex A and base B C, sides produced to D and F with crossing lines from B and C, extended to E]
 
-## SCHOLION.
+### SCHOLION.
 
 HAEC propoſitio uera etiam eſt in triangulis æquilateris, cum in quolibet reperiantur duo latera inter ſe æqualia, licet eam Euclides ſolis Iſoſcelibus triangulis uideatur accommodaſſe. Existentibus enim duobus lateribus AB. AC, trianguli ABC, æqualibus, ſiue reliquum latus BC, ipſis quoque ſit æquale, ut contingit in triangulo æquilatero, ſiue inæquale, ut in Iſoſcele accidit{printer-error-correction:accidit}, neceſſario conſequitur, & angulos ſupra baſim inter ſe, & angulos infra eandem inter ſe quoque eſſe æquales, ut conſtat ex demonſtratione prædicta. Solet autem theorema hoc tyronibus ſubdifficile, & obſcuriuſculum uideri, propter multitudinem linearum, & angulorum, quibus nondum ſunt aſſueti. Veruntamen, ſi diligenter theorematis præcedentis uis ac demonſtratio ponderetur, non multo labore hoc, quod præ manibus habemus, a quolibet percipietur, ſi modo memor ſit, illos angulos triangulorum probari æquales eſſe, in antecedenti theoremate, qui æqualibus lateribus opponũtur. Quod quidem quoniam Campanus non appoſuit, cauſæ fuit, ut confuſa eſſe uideatur, & ſubobſcura eius demonſtratio.
 

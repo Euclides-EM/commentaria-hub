@@ -4,7 +4,7 @@ ficies perfecte plana, iuxta omnes definitiones; Non enim difficile erit huic ſ
 
 [Diagram: an arch, showing the curved surface of a fornix]
 
-## VIII.
+### VIII.
 
 PLANVS vero angulus, eſt duarum linearum in plano ſe mutuo tangentium, & non in directum iacentium, alterius ad alteram inclinatio.
 

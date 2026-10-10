@@ -8,6 +8,8 @@ les ſunt ſuper baſes GB, GC, ac propterea recti. Igitur & AGB, AGC illis dein
 28. primi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 27]
+
 ## THEOR. 25. PROPOS. 28.
 
 [Margin]
@@ -25,7 +27,7 @@ IN circulis æqualibus ABC, DEF, quorum centra G, & H, ſint rectæ æquales AC,
 26. tertij.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi fuerint lineæ inæquales in circulis æqualibus, auferet maior linea, maiorẽ peripheriã, quam minor, ſi loquamur de ſegmentis circuli minoribus ſemicirculo. Nã ſi de ſegmẽtis circuli maioribꝰ ſermo habeaĩ, maior linea auferet minorem peripheriã, q̃ minor. In circulis .n. æqualibꝰ ABC, DEF, quorum centra G, & H, ſit recta AC, maior, quam DF. Dico peripheriam AC, ſemicirculo minorem, maiorem eſſe peripheria DF; At peripheriam ABC, mi-
 

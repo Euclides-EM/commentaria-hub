@@ -28,7 +28,7 @@ TERTIO recta AB, ſecet rectam DC, & per centrũ D, extendatur recta AE. Quoniam
 19. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi rectæ BD, CD, in cẽtro angulũ nõ cõſtituãt ad partes baſis BC; qd́ tũ demũ fit, quãdo ſegmentũ BAC, eſt vel ſemicirculus, vel ſegmentũ minus; nihilo minus ſpatiũ illud ad centrũ duplũ erit anguli ad circunferẽtiã, qui eãdẽ habeat baſin, quã ſpatiũ illud. Ducta. n. recta AE, per cen
 

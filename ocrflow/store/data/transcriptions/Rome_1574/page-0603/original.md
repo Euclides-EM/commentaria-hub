@@ -10,6 +10,8 @@ HOC idem demonſtratum fuit ab Euclide lib. 5. de proportionibus magnitudinum, p
 16.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 16]
+
 ## THEOR. 13. PROPOS. 15.
 
 SI unitas numerum quempiam metiatur, æque autem alter numerus alterũ quẽdam numerum metiatur: Et uiciſſim æque unitas tertium numerum metietur, & ſecundus quartum.

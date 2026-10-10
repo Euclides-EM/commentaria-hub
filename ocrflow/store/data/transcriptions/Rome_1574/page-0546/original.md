@@ -2,7 +2,7 @@
 
 <!-- Page number: 231 -->
 
-## DATO rectilineo ſimile ſimiliterque poſitum rectilineum deſcribere, maius, uel minus, ſecundum proportionem datam.
+#### DATO rectilineo ſimile ſimiliterque poſitum rectilineum deſcribere, maius, uel minus, ſecundum proportionem datam.
 
 [Margin]
 XIIII.

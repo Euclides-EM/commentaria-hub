@@ -8,6 +8,8 @@
 33.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 33]
+
 ## THEOR. 33. PROPOS. 33.
 
 SI fuerit maior proportio totius ad totum, quam ablati ad ablatum: Erit & reliqui ad reliquum maior proportio, quam totius ad totum.
@@ -27,6 +29,8 @@ SIT maior proportio totius A B, ad totam C D, quã ablatæ A E, ad ablatam C F. 
 [Margin]
 34
 [/Margin]
+
+[Curated heading level=2 type=campanus: 34]
 
 ## THEOR. 34. PROPOS. 34.
 

@@ -1,12 +1,14 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## SCHOLION.
+### SCHOLION.
 
 OSTENDETVR hoc theorema, propos. 22. non ſolum in magnitudinibus æque multiplicibus, ſed etiam in omnibus, quæ binæ ſumptæ eandem habent proportionem.
 
 [Margin]
 4.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 4]
 
 ## THEOR. 4. PROPOS. 4.
 

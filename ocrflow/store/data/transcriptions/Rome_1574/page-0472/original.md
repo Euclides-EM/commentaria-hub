@@ -41,7 +41,7 @@ RVRSVS ſi recta BD, non tranſit per E, tranſeat per F, punctum, quod ſit uel
 
 Secundum uero eſt.
 
-## SI in triangulo quouis uni lateri parallela recta agatur, & ex quocunque puncto illius lateris ad angulum oppoſitum recta educatur linea: diuidentur linea parallela, & latus dictum, in eaſdem rationes.
+#### SI in triangulo quouis uni lateri parallela recta agatur, & ex quocunque puncto illius lateris ad angulum oppoſitum recta educatur linea: diuidentur linea parallela, & latus dictum, in eaſdem rationes.
 
 IN triangulo ABC, ducta ſit DE, lateri BC, parallela, & ex puncto F, quocunque ad angulum A, recta extendatur FA, ſecans DE, in G. Dico eße, ut BF, ad FC, ita DG, ad GE. Quoniam triangula AFB, AGD, ex coroll. huius propos. ſimilia ſunt; erit ut AF, ad BF, ita AG, ad DG; & permu-
 

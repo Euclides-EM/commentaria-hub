@@ -3,6 +3,8 @@
 
 nenitur; Atque adeo ſi ordo numerorum a binario duplorum infinite augeatur, omnes numeros pariter pares tantum inueniri, nullo relicto. Si enim fieri poteſt, ſit alius numerus G, extra ordinem numerorum a binario duplorum, pariter par tantum, cuius pars dimidia ſit H. Erit igitur H, numerus par: (Nam ſi eſt impar, cum ſit ipſius G, pars dimidia; metietur binarius, numerus par, ipſum G, per H, numerum imparem; Atque adeo G, pariter impar erit. Quod eſt abſurdum: ponitur namque pariter par tantum) cuius rurſum dimidia pars ſit I. Erit igitur rurſum I, par numerus: (Nam ſi eſt impar, cum ſit ipſius G, pars quarta; metietur numerus par 4. ipſum G, per I, numerum imparem; Atque ob id G, pariter impar erit; Quod eſt abſurdum: ponitur enim pariter par tantum.) Atque ita deinceps erit ſemper dimidiæ partis dimidia pars numerus par; donec ad unitatem veniamus. Sit ergo iam ipſius I, dimidia pars unitas, atque ſit I, binarius. Igitur H, G, ſunt a binario I, dupli; Ac proinde G, erit aliquis ex ordine ipſorum A, B, C, D, E, F. ponitur autem, non eſſe. Quod eſt abſurdum. Nullus ergo alius pariter par eſt tantum, præter eos, qui a binario ſunt dupli.
 
+[Curated heading level=2 type=campanus: 36]
+
 ## THEOR. 31. PROPOS. 33.
 
 [Margin]

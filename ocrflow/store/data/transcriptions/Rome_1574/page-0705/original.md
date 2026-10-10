@@ -20,7 +20,7 @@ Vnitas. A,2. B,4. C,8. D,16. E,32. F,64. G,128. H,256. I,512.
 
 quartus ab unitate. Igitur & A, primus ab unitate cubus erit. quod eſt contra hypotheſim. Non igitur D, cubus eſt. Quod ſi E, credatur eſſe cubus; cum & C, cubus ſit, ſitque ex æquo, ut C, cubus ad E, cubum, ita A, ad C, & conuertendo ut cubus E, ad cubum C, ita C, ad A; exiſtente C, cubo, erit, & A, cubus. quod non ponitur. Non ergo E, cubus eſt. Quemadmodum autem oſtenſum eſt duos D, & E, inter duos cubos C, & F, cubos non eſſe, ita quoque eadem ratione oſtendemus neque G, & H, inter cubos F, & I, neque ullos alios duos, inter duos cubos, eſſe cubos. Si igitur ab unitate quotcunque numeri, &c. Quod demonſtrandum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 NON eſt autem neceſſe, ſi numerus, qui poſt vnitatem, non ſit cubus ſimul, & quadratus, nullum alium eſſe cubum ſimul, & quadratum, præter ſeptimum ab unitate, & quinque intermittentes omnes; cum aliquando tertius ab vnitate, aliquando vero quartus poſſit eſſe cubus ſimul, & quadratus, non exiſtente primo ab unitate cubo ſimul, & quadrato.
 

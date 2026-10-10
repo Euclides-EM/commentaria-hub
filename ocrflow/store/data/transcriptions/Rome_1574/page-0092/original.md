@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. I. -->
 <!-- Page number: 4 -->
 
-## VII.
+### VII.
 
 PLANA ſuperficies eſt, quæ ex æquo ſuas interiacet lineas.
 

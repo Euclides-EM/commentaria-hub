@@ -2,6 +2,8 @@
 
 <!-- Page number: 263 -->
 
+[Curated heading level=2 type=campanus: 21]
+
 ## THEOR. 19. PROPOS. 21.
 
 [Margin]
@@ -22,7 +24,7 @@ SINT numeri A B, C D, minimi in proportione eadẽ, quam habent alij duo numeri 
 20. defin.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 *PARI ratione, & hoc uerum eſt, quod Campanus docet.*
 

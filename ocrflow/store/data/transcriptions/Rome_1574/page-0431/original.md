@@ -12,6 +12,8 @@ B; Ideoque CG, GH, HD, ad EI, IK, KF, eandem habebunt proportionẽ. Quo circa u
 
 [Diagram: two horizontal line segments, one divided by points C, G, H, D and the other by points E, I, K, F; below them two shorter segments labelled A and B]
 
+[Curated heading level=2 type=campanus: 16]
+
 ## THEOR. 16. PROPOS. 16.
 
 [Margin]

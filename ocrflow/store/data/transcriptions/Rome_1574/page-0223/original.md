@@ -6,6 +6,8 @@
 9 pron.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 44]
+
 ## PROBL. 12. PROPOS. 44.
 
 [Margin]
@@ -25,7 +27,7 @@ DATA recta linea ſit A, datum triangulum B, & datus angulus rectilineus C. opor
 
 [Figure: line segment A, triangle B, angle C, and parallelogram DEFG with points G, F, H, K, M, L, I, diameter drawn through I and F]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi quis optet, lineam ipſam A, eſſe vnum latus parallelogrammi, non difficile erit transferre parallelogrammũ
 

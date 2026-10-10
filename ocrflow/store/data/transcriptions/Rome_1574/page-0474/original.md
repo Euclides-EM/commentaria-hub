@@ -20,6 +20,8 @@ FD; erit ut EF, ad FG, ita eadē EF, ad FD; ideoque æquales erunt FG, FD. Itaqu
 6.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 6]
+
 ## THEOR. 6. PROPOS. 6.
 
 SI duo triangula unum angulum uni angulo æqualem, & circum æquales angulos latera proportionalia habuerint: æquiangula erunt triangula, æqualesque habebunt angulos, ſub quibus homologa latera ſubtenduntur.

@@ -12,7 +12,7 @@ SI .n. fieri pōt, ſup̱ recta AB, cōſtituātur ad eaſdem partes duo ſegmē
 16. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 [Figure: two unequal circles on line AB, one above and one below, labels D and C at top, A and B on the line, D below]
 
@@ -21,6 +21,8 @@ EADEM ratione, neq; ad diuerſas partes ſuper eadē recta linea duo ſegmēta c
 [Margin]
 23.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 23]
 
 ## THEOR. 22. PROPOS. 24.
 

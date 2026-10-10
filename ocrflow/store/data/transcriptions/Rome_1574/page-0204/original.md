@@ -3,7 +3,7 @@
 
 Cæterum ex conſtructione manifeſtum eſſe cuilibet poteſt, cur duo anguli dati minores eſſe debeant duobus rectis. Nam alias non fieret triangulũ ABC, ſi anguli BAC, & BCA æquales eſſent duobus rectis, vel maiores, ut conſtat ex propos. 17. uel 32.
 
-## EX PROCLO.
+### EX PROCLO.
 
 IN omni figura rectilinea latera habens numero paria, ſi quidem fuerit æquilatera, & æqui angula; erunt duo quælibet latera oppoſita, parallela inter ſeſe.
 

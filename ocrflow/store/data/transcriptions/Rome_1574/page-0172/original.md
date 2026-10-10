@@ -9,7 +9,7 @@ habens tria latera æqualia tribus rectis E G, G H, H E, ita ut C I. æquale ſi
 8. primi.
 [/Margin]
 
-## PRAXIS.
+### PRAXIS.
 
 NON differt huius problematis praxis ab illa, quam in præcedente problemate tradidimus; propterea quod triangulũ conſtituere oporteat æquale alteri triangulo, ut angulus dato angulo æqualis exhibeatur, ut perſpicuũ eſt. Facilius tamen hac arte problema efficies. Sit linea data A B, punctumq́; in ea C, & angulus datus E. Centro igitur E, & interuallo quouis arcus deſcribatur G H; Eodemq́; interuallo ex centro C, arcus deſcribatur I K, ſumaturq́; oſficio circini arcus I K, arcui G H, æqualis. Recta enim ducta C K, faciet angulum ad C, æqualem angulo E. Nam ſi ducerentur rectæ I K, G H, eſſent ipſæ æquales, propterea quod circino non variato vtramque diſtantiam I K, G H, accepimus. Cum ergo & duo latera I C, C K, æqualia ſint duobus G E, E H, ob æqualia interualla, quibus arcus ſunt deſcripti; erunt anguli I C K, G E H, æquales.
 
@@ -18,6 +18,8 @@ NON differt huius problematis praxis ab illa, quam in præcedente problemate tra
 [Margin]
 8. primi.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 24]
 
 ## THEOR. 15. PROPOS. 24.
 

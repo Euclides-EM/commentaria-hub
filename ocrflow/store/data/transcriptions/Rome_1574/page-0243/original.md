@@ -2,7 +2,7 @@
 
 comprehẽduntur. Si ergo fuerint duæ rectæ lineæ, ſeceturq; ipſarum altera, &c. Quod erat oſtendendum.
 
-## SCHOLION.
+### SCHOLION.
 
 QVONIAM lib. 9. propos. 14. decem priora theoremata ſecundi huius libri, quæ Euclides lineis accommodat, in numeris etiam demonſtrabimus, ſi diuidantur, ut lineæ; non abs re fuerit, breuiter numeris applicare ea, quæ pluribus verbis de lineis hic demonſtrantur, præſertim cum multiplicatio numeri vnius in alterum reſpondeat ductui vnius lineæ in alteram, vt ſupra diximus. Itaque propoſitis duobus numeris quibuſcunq;, vt 6. & 10. diuidatur poſterior in tres partes 5. 3. & 2. Dico 60. numerum productum ex 6. in 10. æqualem eſſe tribus numeris 30. 18. & 12. qui ex multiplicatione 6. in 5. & 3. & 2. gignuntur, id quod perſpicuum eſt.
 

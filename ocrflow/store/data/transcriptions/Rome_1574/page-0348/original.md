@@ -7,7 +7,7 @@
 
 ## DEFINITIONES.
 
-## I.
+### I.
 
 FIGVRA rectilinea in figura rectililinea inſcribi dicitur, cũ ſinguli eius figuræ, quæ inſcribitur, anguli ſingula latera eius, in qua inſcribitur, tangunt.
 

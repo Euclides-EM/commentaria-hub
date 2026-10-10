@@ -5,6 +5,8 @@ Demonſtratio eadem eſt quæ prior. Non eſt autem neceſſe, vt interuallum B 
 
 [Figure: two constructions side by side, each with point C above and D below, arcs crossing a horizontal line A B with point E between them]
 
+[Curated heading level=2 type=campanus: 13]
+
 ## THEOR. 6. PROPOS. 13.
 
 [Margin]
@@ -33,7 +35,7 @@ RECTA A B, cõſiſtens ſuper rectam C D, faciat duos angulos A B C, A B D. Si 
 1. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 VIDETVR hæc propoſitio pendere ex communi quadam animi notione. Quo enim angulus A B C, ſuperat rectum an-
 

@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. I. -->
 <!-- Page number: 38 -->
 
-## SCHOLION.
+### SCHOLION.
 
 NON dixit Euclides angulum externum D A C, maiorẽ eſſe angulo B A C, interno, qui ſibi eſt deinceps; ſed ſolum magnitudine ſuperare vtrumlibet A C B, A B C, internorum, ſibiq́; oppoſitorum: quoniam externus angulus æqualis poteſt eſſe angulo interno ſibi deinceps, quando ſcilicet externus rectus eſt; Tunc enim neceſſario is, qui ſibi eſt deinceps, rectus quoq; erit: Poteſt & eſſe minor, quando nimirum eſt acutus; Hoc enim poſito, angulus illi deinceps obtuſus erit: Solum ergo, quando obtuſus erit externus, ſuperabit internum ſibi deinceps; Hic enim neceſſario acutus exiſtet. Quæ omnia facile colliguntur ex propoſ. 13. Nam angulus externus, & internus illi deinceps, æquales ſunt duobus rectis.
 
@@ -17,7 +17,7 @@ SIT figura quadrilatera A B C D, cuius angulus B A D, obtuſus, & A B C, rectus 
 
 [Figure: quadrilateral figure with points E, C, B at top and F, A, D, G along the base, formed by crossing lines]
 
-## EX PROCLO.
+### EX PROCLO.
 
 SEQVITVR ex hac propoſitione, ab eodem puncto ad vnam eandemq; lineã rectã non poſſe duci plures lineas rectas, quã duæ
 

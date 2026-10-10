@@ -9,7 +9,7 @@ PRAETER tres dictos angulos cõſideratur etiam a Geometris angulus contingenti�
 
 [Diagram: two tangent circles with a smaller circle inside the right one, a straight line above touching at C, labels A, C, B, F above and D, F, H, I, G within]
 
-## IX.
+### IX.
 
 SECTOR autem circuli eſt, cum ad ipſius circuli centrum conſtitutus fuerit angulus, comprehenſa nimirum figura & a rectis lineis angulum continentibus, & a peri-
 

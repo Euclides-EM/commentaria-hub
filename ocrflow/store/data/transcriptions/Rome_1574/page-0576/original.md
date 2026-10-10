@@ -15,7 +15,7 @@ AB; igitur & reliquum EB, metietur. Metitur autem EB, ipſum CF; Igitur & H, ip�
 12. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 CONVERTEMVS facile cum Campano hanc propoſitionem, hoc modo.
 

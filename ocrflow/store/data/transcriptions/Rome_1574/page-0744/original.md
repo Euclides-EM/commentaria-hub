@@ -15,13 +15,15 @@ Quod autem idem A, ſit etiam pariter impar, ita oſtendemus. Diuiſo A, bifaria
 
 eſſet A, factus ex illo impare in hunc imparem, impar. Quod eſt abſurdum. ponitur enim par. Quare cum impar metiatur A, per parem; atque adeo uiciſſim par per imparem; erit ex definitione A, pariter impar. Fuit autem & pariter par. Igitur eſt & pariter par, & pariter impar. Si par ergo numerus neq; a binario duplus ſit, &c. Quod oſtendendum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 [Subhead]
 FACILE ex dictis inueniemus omnes numeros, qui & pariter pares ſint, & pariter impares. Relictis enim omnibus illis, qui a binario ſunt dupli, & omnibus, qui dimidia habeant impares; erunt ex hac propoſ. omnes alij pares, & pariter pares & pariter impares.
 [/Subhead]
 
 PORRO ex proximis tribus theorematibus aperte intelliguntur ea, quæ in definitionem 9. lib. 7. ſcripſimus.
+
+[Curated heading level=2 type=campanus: 38]
 
 ## THEOR. 33. PROPOS. 35.
 

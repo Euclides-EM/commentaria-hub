@@ -16,6 +16,8 @@ IDEM quoque hic perſpicitur in rectangulis, quorum unũ eſt extra alterum, ſe
 26.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 26]
+
 ## THEOR. 20. PROPOS. 27.
 
 OMNIVM parallelogrammorum ſecundum eandem rectam lineam applicatorum, deficientiumq́; figuris parallelogrammis ſimilibus ſimiliterque poſitis ei, quod a dimidia deſcribitur; maximũ id eſt, quod ad dimidiam applicatur, parallelogramũ ſimile exiſtens defectui.

@@ -24,7 +24,7 @@ SINT ſecundo ad periperipherias{printer-error-correction:peripherias} conſtitu
 24 tertii.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HÆC ſecunda pars breuius ita demonſtrabitur. Quoniã anguli G, H, dupli ſunt angulorum æqualium B, E; erunt ipſi inter ſe æquales. Quare vt oſtenſum eſt prius, peripheriæ AC, DF, ſuper quas aſcenderunt, æquales erunt.
 

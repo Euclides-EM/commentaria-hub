@@ -13,7 +13,7 @@ VICISSIM quoq; liquet, arcus, quibus inſiſtunt ſiue ad cẽtra, ſiue ad circ
 
 QVONIAM vero Euclides multa dixit de inuentione linearũ proportionaliũ, nihil vero de ſuperficierũ, vel planorum proportionaliũ inueſtigatione nobis præſcripſit; non abs re me facturum exiſtimo, ſi nonnulla problemata, atque theoremata, quorũ multa circa inuentionẽ ſuperficierũ proportionaliũ verſantur, ſcitu nõ iniucunda, loco appẽdicis, partim ex peritis Geometris, partim ex inuentis proprijs, huic ſexto libro annectam; quippe quæ ex demonſtratis ab Euclide facili negotio deducuntur; Hinc autem exordium capiemus.
 
-## A DATO rectilineo imperatam partem auferre, ita tamen, ut & ablatum, & id, quod relinquitur, ſimile ſit cuiuis rectilineo dato, ſimiliterque poſitum.
+#### A DATO rectilineo imperatam partem auferre, ita tamen, ut & ablatum, & id, quod relinquitur, ſimile ſit cuiuis rectilineo dato, ſimiliterque poſitum.
 
 [Margin]
 I.

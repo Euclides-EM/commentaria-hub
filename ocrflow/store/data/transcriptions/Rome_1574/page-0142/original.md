@@ -17,7 +17,7 @@
 5. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 FIERI poteſt, ut duæ lineæ A D, B D, æquales ſint duabus A C, B C, utraque utrique, ut A D, ipſi B C, & B D, ipſi A C, ut ultima figura indicat; Verum hoc modo non egrediuntur ab eodem puncto lineæ illæ, quæ ſunt æquales inter ſe, ut conſtat. Solæ enim A C, A D, eundem limitem poſſident A; Itẽ B C, B D, eundem B; optimeq́; demonſtratum fuit ab Euclide, fieri non poſſe, ut A C, A D, inter ſe ſint æquales, ita ut B C, B D, quoque inter ſe æquales exiſtant. Recte igitur in propoſitione appoſita ſunt hæc uerba: eoſdemq́; terminos cum
 

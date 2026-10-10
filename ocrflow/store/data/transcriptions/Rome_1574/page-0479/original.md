@@ -6,8 +6,9 @@ partes æquales uſque ad D, punctum, ex quo ad B, recta ducatur DB; & huic para
 
 [Margin]
 4. quinti.
-11
 [/Margin]
+
+[Curated heading level=2 type=campanus: 12]
 
 ## PROBL. 2. PROPOS. 10.
 

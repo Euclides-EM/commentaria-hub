@@ -1,6 +1,8 @@
 <!-- Running title: LIBER. IX. -->
 <!-- Page number: 307 -->
 
+[Curated heading level=2 type=campanus: 5]
+
 ## THEOR. 5. PROPOS. 5.
 
 [Margin]
@@ -36,7 +38,7 @@ D,64.  C,216.
 23. octaui
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 Ex his & hac, quæ ſequuntur, facile demonſtrabuntur, videlicet.
 

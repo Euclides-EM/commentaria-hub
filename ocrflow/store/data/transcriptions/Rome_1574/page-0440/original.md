@@ -21,6 +21,8 @@ L, M, ſint ipſarũ E, F, æquemultiplices. Igitur erit vt G, ad H, ita L, ad M
 
 QVOD ſi fuerint plures magnitudines tribus, fueritq; earum proportio perturbata, ut ſi fuerit A, ad B, ut F, ad O; & B, ad C, ut E, ad F; & C, ad N, ut D, ad E. Dico adhuc eſſe ut A, ad N, ita D, ad O. Cum enim iam ſit oſtenſum in tribus magnitudinibus, eſſe A, ad C, ut E, ad O; Ponatur autem eſſe ita C, ad N, ut D, ad E; erunt tres magnitudines A, C, N, & aliæ tres D, E, O, quę binæ in eadem ſumuntur proportione, eſtq; perturbata earum proportio: Ergo rurſus ex æqualitate in tribus magnitudinibus oſtenſa, erit ut A, ad N, ita D, ad O. Eodemq; modo idem oſtendetur in quinque magnitudinibus, per quatuor, ſicut id in quatuor fuit demonſtratum, per tres; Et ſic de pluribus. Itaque ſi ſint tres magnitudines, &c. Quod demonſtrandum erat.
 
+[Curated heading level=2 type=campanus: 24]
+
 ## THEOR. 24. PROPOS. 24.
 
 [Margin]

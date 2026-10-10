@@ -25,6 +25,8 @@ Vt autem CD, ad DG, ita eſt parallelogrammum CE, ad parallelogrammum DH, eiuſd
 23.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 23]
+
 ## THEOR. 19. PROPOS. 26.
 
 SI a parallelogrammo parallelogrammum ablatum ſit, & ſimile toti, & ſimiliter poſitum, communem cum eo habens angulum; hoc circum eandem cum toto diametrum conſiſtit.

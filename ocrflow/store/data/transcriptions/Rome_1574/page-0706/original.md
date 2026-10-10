@@ -15,6 +15,8 @@ Vnitas. A,6. B,36. C,216. D,1296. E,7776. F,46656.
 
 enim primo non exiſtente quadrato, nullus alius quadratus ſit, præter tertium ab unitate, & vnum intermittentes omnes, cuiuſmodi ſunt, vt in ſcholio propos. 8. huius lib. docuimus, tertius, quintus, ſeptimus, nonus, undecimus, decimustertius, decimusquintus, decimusſeptimus, decimusnonus, &c. Primo autem non exiſtente cubo, nullus alius ſit cubus præter quartum ab vnitate, & duos intermittentes omnes, quales ſunt, ut ex eodem ſcholio apparet, quartus, ſeptimus, decimus, tertiusdecimus, decimusſextus, decimusnonus, &c. perſpicuum eſt, tantummodo ſeptimum, tertiumdecimum, decimumnonum, qui quidem omnes quinque intermittunt, quadratos eſſe ſimul, & cubos, & ſic decæteris. Nam in hæc loca ſola incidunt quadratus, & cubus ſimul, ut liquido conſtat ei, qui recte propoſitionem hanc & octauam huius libri expenderit.
 
+[Curated heading level=2 type=campanus: 12]
+
 ## THEOR. 11. PROPOS. 11.
 
 [Margin]

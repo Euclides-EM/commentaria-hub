@@ -20,7 +20,7 @@ C,2. D,3. E,5. F,4. G,6. H,10.
 
 QVONIAM uero, exiſtentibus A, M, N, B, proportionalibus continue, proportio A, ad B, triplicata eſt eius, quam habet A, ad M; Eſt autem A, ad M, ut C, ad F, uel D, ad G, uel E, ad H; Habebit quoque A, ad B, ſolidus ad ſolidum, proportionem triplicatam eius, quam habet C, ad F, uel D, ad G, uel E, ad H, latus ad latus homologum. Quocirca; Duorum ſimilium ſolidorum numerorum duo medij, &c. Quod oſtendendum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 CVM demonſtratum ſit A, M, N, B, proportionales eſſe in ratione C, ad F, vel D, ad G, vel E, ad H; liquet inter duos ſimiles ſolidos A, & B, cadere duos medios proportionales M, & N, in ratione laterum homologorum C, F, vel D, G, vel E, H, aſſumptorum.
 

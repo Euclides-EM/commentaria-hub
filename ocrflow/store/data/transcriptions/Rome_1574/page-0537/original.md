@@ -34,6 +34,6 @@ QVOD ſi pars imperata, nempe tertia, ſimpliciter ſit auferenda, fiet id breui
 II.
 [/Margin]
 
-## DVOBVS datis rectilineis, tertium proportionale inuenire.
+#### DVOBVS datis rectilineis, tertium proportionale inuenire.
 
 <!-- Catchword: SINT -->

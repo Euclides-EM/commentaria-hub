@@ -11,13 +11,15 @@ HM, quæ ſit parallela ipſi AB, occurratq́; rectis AK, BE, protractis in H, &
 36. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 MANIFESTVM autem eſt, lineam, ad quam parallelogrammum deficiens applicatur, eſſe uel maiorem dimidia AC, qualis eſt AK, in priori figura, uel minorem, cuiuſmodi eſt AF, in figura poſteriori: prout punctum G, ſumitur uel in diametro BD, uel in ea producta ad partes D.
 
 [Margin]
 27.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 27]
 
 ## PROBL. 8. PROPOS. 28.
 

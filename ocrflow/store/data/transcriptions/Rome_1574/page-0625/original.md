@@ -16,13 +16,15 @@ SED iam uterque AB, BC, ſimul, primus ſit ad vnum aliquem illorum, uidelicet a
 10. pron.
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 Ex hoc ſequitur, numerum, qui ex duobus compoſitus ad unũ illorum primus eſt, ad reliquum quoque primum eſſe. Si enim AC, ad AB, primus eſt, erunt AB, BC, inter ſe primi, per ſecun dam partem huius propos. Igitur & AC, ad BC, primus erit, per primam partem eiuſdem. quod eſt propoſitum.
 
 [Margin]
 32.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 32]
 
 ## THEOR. 29. PROPOS. 31.
 

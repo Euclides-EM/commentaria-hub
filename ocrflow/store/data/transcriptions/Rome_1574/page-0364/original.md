@@ -7,6 +7,8 @@ duo anguli æquales ſunt FAB, FBA; erunt rectæ FA, FB, æquales. Eademq́; rat
 6. primi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 15]
+
 ## PROBL. 15. PROPOS. 15.
 
 [Margin]

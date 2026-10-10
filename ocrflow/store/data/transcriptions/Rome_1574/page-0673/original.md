@@ -13,7 +13,7 @@ tinuam,quam H,R,S,I; erit ex æquo G, ad H, ut H, ad I; Ac proinde G, H, I, cont
 
 NON diſſimili argumento demonſtrabimus & K, L, M, eſſe continue proportionales; & eodem modo in alijs procedemus. Igitur ſi ſint quotlibet numeri deinceps proportionales, & multiplicans quiſque ſeipſum, &c. Quod oſtendendum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 SVNT autem, ut ex demonſtratione liquet, numeri primo producti D, E, F, proportionales in duplicata ratione datorum numerorum A, B, C. Nam D, ad E, habet proportionem duplicatam eius, quam habet D, ad N, hoc eſt, A, ad B, &c.
 

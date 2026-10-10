@@ -8,11 +8,13 @@ dicularis ad C D, ſecans rectã C F, in G. Ducta igitur recta G A, perpendicula
 10. def.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 BREVIVS lineam perpendicularem erigemus ex puncto dato, ſiue extremum illud ſit, ſiue non, hoc modo. Sit data linea A B, punctumq́; in ea A. Ex centro C, extra lineã aſſumpto, vbi libuerit, (dũmodo recta A B producta cum ipſo non cõueniat) interuallo vero accepto vſq; ad A, deſcribatur arcus circuli ſecãs A B, in D. Et ex D, per C, recta ducatur ſecans arcum in E. Recta igitur ducta E A, erit perpendicularis ad A B. Nam angulus A, eſt rectus, cum ſit in ſemicirculo D A E, vt oſtendemus propoſitione 31. lib. 3.
 
 [Figure: semicircle through E, A and B, with E at top, C inside on the line from D through C to E, and points A, D, B on the base line]
+
+[Curated heading level=2 type=campanus: 12]
 
 ## PROBL. 7. PROPOS. 12.
 

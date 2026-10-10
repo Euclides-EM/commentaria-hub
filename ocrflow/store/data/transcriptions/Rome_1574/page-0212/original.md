@@ -5,6 +5,8 @@ ius ſit quam DEF; erit & ABC, maius, quam DEF; Quod demonſtrandum erat.
 
 Ex his perſpicuum eſt, cur Euclides in propos. 24. ſolum collegerit inæqualitatem baſium, non autem triangulorum, ut ibidem admonuimus.
 
+[Curated heading level=2 type=campanus: 38]
+
 ## THEOR. 28. PROPOS. 38.
 
 [Margin]
@@ -24,7 +26,7 @@ INTER parallelas AB, CD, & ſuper æquales baſes CE, FD, ſint conſtituta tria
 7. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 CONVERSA huius oſtendetur ab Euclide propos. 40.
 

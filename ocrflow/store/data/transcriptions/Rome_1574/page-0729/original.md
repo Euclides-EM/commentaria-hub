@@ -18,6 +18,8 @@ ut A, ad B, ita D, ad alium, uidelicet ad E. Erit igitur permutando ut A, ad D, 
 19.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 19]
+
 ## PROBL. 1. PROPOS. 18.
 
 DVOBVS numeris datis, conſiderare an poſſit ipſis tertius proportionalis inueniri.

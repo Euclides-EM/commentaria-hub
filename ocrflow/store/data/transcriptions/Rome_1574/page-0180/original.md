@@ -1,6 +1,8 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 48 -->
 
+[Curated heading level=2 type=campanus: 27]
+
 ## THEOR. 18. PROPOS. 27.
 
 SI in duas rectas lineas recta incidens linea alternatim angulos æquales inter ſe fecerit: parallelæ erũt inter ſe illæ rectæ lineæ.
@@ -17,7 +19,7 @@ IN duas rectas A B, C D. incidens recta E F, faciat angulos alternatim A G H, D 
 16. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 NECESSE eſt, ut lineæ, quæ dicuntur parallelæ, in eodem exiſtant plano, ut ex definitione conſtat: Quare non ſatis eſt duos angulos alternos æquales inter ſe eſſe, ut duæ lineæ probentur eſſe parallelæ, niſi ponatur, eas in uno, eodemque exiſtere plano. Fieri enim poteſt, ut linea recta incidẽs in duas rectas nõ in eodẽ plano exiſtentes, faciat alternos angulos æquales. Sit enim C D, perpendicularis ad A B, rectam, quæ in ſubiecto plano exiſtit; &
 

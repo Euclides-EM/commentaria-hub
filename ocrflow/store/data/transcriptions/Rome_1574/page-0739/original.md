@@ -8,7 +8,7 @@ FIAT ex impari A, in impari B, fiat C. Dico C, imparem eſſe. Cum enim C, fiat 
 31. noni.
 [/Margin]
 
-## EX CAMPANO.
+### EX CAMPANO.
 
 31.
 

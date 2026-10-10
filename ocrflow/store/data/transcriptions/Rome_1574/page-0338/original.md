@@ -11,6 +11,8 @@ ad interuallum dimidiæ ſubtenſæ; circulum tranſire per angulum rectum. Angu
 21. primi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 31]
+
 ## THEOR. 28. PROPOS. 32.
 
 [Margin]

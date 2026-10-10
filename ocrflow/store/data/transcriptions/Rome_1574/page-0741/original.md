@@ -4,6 +4,8 @@
 35.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 35]
+
 ## THEOR. 30. PROPOS. 32.
 
 [Subhead]
@@ -32,7 +34,7 @@ QVOD autem ijdem numeri ſint pariter pares tantum, liquido etiam conſtat. Cum 
 
 Numerorum igitur a binario duplorum, &c. Quod demonſtrandum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 HINC cum Arithmeticis facile colligemus artem, qua omnes numeros inueniamus, qui ſint pariter pares tantum. ſint
 

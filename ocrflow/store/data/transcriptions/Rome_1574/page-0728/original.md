@@ -5,6 +5,8 @@ poſiti ſunt. ergo primi. Quod eſt propoſitum.
 
 NON aliter oſtendemus & A, C, D, compoſitos, eſſe ad B, primos; nec non, & B, C, D, ſimul ad A.
 
+[Curated heading level=2 type=campanus: 17]
+
 ## THEOR. 16. PROPOS. 16.
 
 [Margin]
@@ -21,6 +23,8 @@ SINT primi inter ſe A, & B. Dico non eſſe ut A, ad B, ita B, ad alium numerum
 23. ſeptimi
 21. ſeptimi
 [/Margin]
+
+[Curated heading level=2 type=campanus: 18]
 
 ## THEOR. 17. PROPOS. 17.
 

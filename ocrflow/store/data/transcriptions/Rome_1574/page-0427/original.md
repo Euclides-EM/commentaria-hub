@@ -16,6 +16,8 @@ ipſius A; & omnes K, L, M, ſimul omnium B, D, F, ſimul ita multiplices, ut un
 13.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 13]
+
 ## THEOR. 13. PROPOS. 13.
 
 SI prima ad ſecundam eandem habuerit rationem, quam tertia ad quartam; tertia uero ad quartam maiorem rationem habuerit, quam quinta ad ſextam: Prima quoque ad ſecundam maiorem rationem habebit, quam quinta ad ſextam.

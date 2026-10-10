@@ -6,7 +6,7 @@
 
 # EVCLIDIS ELEMENTORVM LIBRI XV.
 
-## ACCESSIT XVI. DE SOlidorum Regularium comparatione.
+ACCESSIT XVI. DE SOlidorum Regularium comparatione.
 
 OMNES PERSPICVIS DEmonſtrationibus, accuratisq́; ſcholijs illuſtrati.
 

@@ -11,7 +11,7 @@
 22. quinti.
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 [Figure: triangle ABC with apex A, base BC, and line DE parallel to the base, D on side AB and E on side AC]
 
@@ -25,7 +25,7 @@ HINC fit, lineam rectam, quæ parallela ducitur uni lateri in triangulo, auferr�
 4. ſexti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 NON alienum a noſtro inſtituto eſſe putaui, ſi hic demõſtremus duo theoremata, quorum primum Federicus Commandinus demonſtrat in libello Archimedis de ijs quæ uehuntur in aqua; Secundum uero in commentarijs in Apollonij Conica. Horum primum eſt.
 

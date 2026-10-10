@@ -6,6 +6,8 @@
 
 [Ornament: floral headpiece]
 
+[Curated heading level=2 type=campanus: 1]
+
 ## THEOR. 1. PROPOS. 1.
 
 [Margin]
@@ -44,6 +46,8 @@ II
 [Margin]
 22. octaui
 [/Margin]
+
+[Curated heading level=2 type=campanus: 2]
 
 ## THEOR. 2. PROPOS. 2.
 

@@ -20,7 +20,7 @@ A, ad G, minorem, quam eiuſdem A, ad B, maiorem: eſt autem proportio A, ad B, 
 23. quinti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EADEM ratione, ſi fuerit proportio A, ad B, quæ E, ad F; At B, ad C, maior quam D, ad E. Vel cõtra, ſi proportio A, ad B, maior quam E, ad F; At B, ad C, eadem, quæ D, ad E; oſtendemus, ex æqualitate maiorem eſſe proportionem A, ad C, quam D, ad F, vt in propoſita figura perſpicitur.
 

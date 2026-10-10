@@ -5,7 +5,7 @@ culo A B C A. cuius centrum D, linea D E, præteriens peripheriam, & ſecans ip�
 
 [Figure: circle with several lines radiating from point A on its circumference, labelled E, E, E, E, K, H, G, F, D, B, C]
 
-## CONTACTVS duorum circulorum interior, quantitas non eſt.
+#### CONTACTVS duorum circulorum interior, quantitas non eſt.
 
 SIT enim circulus A F B A, cuius centrum C, diameter vero A B, per cuius extremitatem A, ducatur linea D E, ad angulos rectos. Et conſtat, ex conſectario huius decimæ ſextæ, lineam D E, contingere ipſum A F B A, circulum: ac propte-
 

@@ -13,7 +13,7 @@ EXTRA circulum ABC, cuius centrum E, punctum ſumatur D, a quo ducatur recta DA,
 
 [Figure: two circles side by side, each with points B, C, D, E, F, A; lines drawn from external point D to the circles]
 
-## SCHOLION.
+### SCHOLION.
 
 EST autem hoc theorema conuerſum præcedentis theorematis, vt perſpicuum eſt.
 

@@ -12,7 +12,7 @@ gulo DAI, æquales ſunt duobus rectis, & duo anguli DAI, ADI, oſtẽſi ſunt 
 19. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EXISTIMAT Peletarius, angulũ contingentiæ, quem Euclides hic probauit minorem eſſe omni acuto angulo rectilineo, nihil eſſe, atque adeo ex illo contactu lineæ rectæ, & circũferentiæ, non effici angulum ullum. Vt autem ſententia illius planior fias, afferemus in medium digreſſionem illam, quã ipſe hoc in loco adducit. Sic igitur inquit:
 

@@ -34,7 +34,7 @@ Vnitas.  A,8.  B,64.  C,512.  D,4096.  E,32768,  F,262144
 
 intermittentes, cuiuſmodi ſunt C, & F, ſint cubi, iam eſt demonſtratum. Quod autem & reliqui B, D, E, cubi ſint, ſic oſtendemus. Cum ſit unitas ad A; ut A, ad B; æque metietur vnitas numerum A, & numerus A, numerum B: Metitur autem vnitas numerum A, per ipſummet A. Igitur, & A, ipſum B, per ſe ipſum metietur; Atque adeo cubus A, ſe ipſum multiplicans numerum B, procreabit. Quare B, cubus eſt. Quoniam uero quatuor continue proportionales ſunt A, B, C, D, eſtque A, cubus; & D, cubus erit. Eademq́; ratione aſſumptis quatuor deinceps proportionalibus B, C, D, E. cum B, cubus ſit, & E, cubus erit. Omnes igitur A, B, C, D, E, F, cubi ſunt. Non ſecus demonſtrabimus omnes cubos eſſe, ſi plures continue proportionales fuerint. Quocirca, ſi ab unitate quotcunque numeri deinceps proportionales fuerint, &c. Quod demonſtrandum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 NON demonſtrauit Geometra, ſi numerus, qui poſt unitatem, ſit cubus ſimul & quadratus, & reliquos omnes eſſe cubos ſimul, & quadratos; quia perſpicue hoc ipſum ex demonſtratis colligitur. Nam ſi proximus vnitati ſit cubus ſimul, & quadratus: qua parte eſt cubus, ea ratione omnes reliqui cubi erunt; qua uero parte eſt quadratus, ea ratione &
 

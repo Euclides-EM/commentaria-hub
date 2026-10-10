@@ -17,6 +17,8 @@
 30.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 30]
+
 ## THEOR. 22. PROPOS. 32.
 
 SI duo triangula, quæ duo latera duobus lateribus proportionalia habeant, ſecundum unum angulum compoſita fuerint, ita ut homologa eorum latera ſint etiam parallela; tum reliqua illorum triangulorum latera in rectam lineã collocata reperiẽtur.

@@ -11,6 +11,8 @@ NVMERVS enim A, multiplicans numeros B, C, faciat D, E. Dico eſſe, ut B, ad C,
 13. ſeptimi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 19]
+
 ## THEOR. 16. PROPOS. 18.
 
 [Margin]

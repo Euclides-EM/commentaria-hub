@@ -39,7 +39,7 @@ Qui autem ex D, in E, æqualis fuit ei, qui ex P, in O. Idem ergo fiet ex P, in 
 
 Erat autem P, idem qui B: Igitur & H, idem eſt, qui O. Quod eſt abſurdum ponitur enim O, diuerſus ab omnibus A, B, C, D, E, G, H, I. Non igitur alius numerus O, ipſum F, metitur, ſed ipſum ſoli A, B, C, D, E, G, H, I, metiuntur. Quam ob rem, ſi ab unitate quotcunque numeri deinceps exponantur in dupla proportione, &c. Quod erat demonſtrandum.
 
-## SCHOLION.
+### SCHOLION.
 
 Ex hoc theoremate elicitur modus inueniendi omnes numeros perfectos, & eorum partes aliquotas, quibus ſimul ſumptis, iuxta definitionem numeri perfecti, ipſi æquales ſunt. Si enim quotcunque numeri ab vnitate dupli in unam ſummam colligantur, donec compoſitus ſit numerus primus; Erit numerus factus ex illo primo in ultimum duplorum, perfectus. Quod ſi ab illo primo, qui ex illis duplis componitur, ſumantur tot continue dupli (ipſo primo etiam computato) quot ſunt numeri illi dupli ab vnitate; erunt hi numeri accepti, & illi ab vnitate dupli, vna cum ipſa vnitate, omnes partes aliquotæ, quas perfectus numerus inuentus habere poteſt. Quæ omnia perſpicua ſunt ex demonſtratione theorematis, & facile ex ſubiectis exemplis percipi poſſunt. Vt quia numerus 3. compoſitus ex 1.2. primus eſt; erit propterea numerus 6. qui fit ex 3 in 2.
 

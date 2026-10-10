@@ -29,7 +29,7 @@ titur autem unitas ipſum A, per A. Igitur & B, ipſum C, per A, metietur; atque
 
 POSTREMO quia F, ſeptimus ab unitate oſtenſus eſt & quadratus, & cubus: ipſe erit cubus ſimul & quadratus: Atque eodem modo M, ſeptimus ab F, intermiſſis nimirum quinque G, H, I, K, L, cubus erit ſimul & quadratus; Nec non & omnes quinque intermittentes. Si igitur ab unitate quotcunque numeri deinceps proportionales fuerint, &c. Quod erat demonſtrandum.
 
-## SCHOLION.
+### SCHOLION.
 
 HOC theorema poteſt quoque hoc modo proponi.
 

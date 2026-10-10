@@ -15,7 +15,7 @@ inter ſe æquiãgula, habebuntq́; æquales angulos B, & DCE. Additis ergo æqu
 14. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 DEBENT autem prædicta duo triangula ita ſecundum vnum angulum eſſe compoſita, vt vterque angulorum a lateribus proportionalibus comprehenſus, alternus ſit illi angulo, ſecundum quem triangula cõponuntur; veluti in ſchemate theorematis factum eſſe vides. Nam angulo ACD, ſecundum quẽ triangula ſunt compoſita, alternus eſt tam angulus A, quam angulus D, quorum vterque lateribus proportionalibus continetur. Hinc enim efficitur, angulos A, & D, eſſe æquales, & propterea triangula eſſe æquiangula; atque adeo ex BC, CE, vnam rectam lineam componi, vt ex demonſtratione liquet.
 

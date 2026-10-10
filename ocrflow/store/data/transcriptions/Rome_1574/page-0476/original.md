@@ -24,7 +24,7 @@ SIT ſecundo tam B, angulus, quam E, recto non minor, eritque ut prius angulus B
 32. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 ADDIDIT Euclides, utrumque angulorum reliquorum B, & E, debere eſſe uel minorem recto, uel non minorem. Nam alias, manente eadem hypotheſi, non ſequeretur, triangula eſſe æquiangula. Si enim in eodem triangulo ABC, ſit CG, æqualis ipſi CB, habebunt duo triangula ABC, AGC, unum angulũ uni angulo æqualẽ, immo angulum A, cõmunem; & circum alios angulos ACB, ACG, latera proportionalia, hoc eſt, ut AC, ad CB, ita eadem AC, ad CG, cum æquales ponantur rectæ CB, CG: & tamen non ſunt ullo modo æquiangula triangula ABC, AGC, ut conſtat. Quod ideo euenit, quia non uterque angulorum ABC, AGC, minor eſt recto, uel non minor. Immo ABC, eſt quidem recto minor; AGC,
 

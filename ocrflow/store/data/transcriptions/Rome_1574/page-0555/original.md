@@ -3,7 +3,7 @@
 
 ter par nuncupabitur, cum eum par numerus 4. metiatur per numerum parem 6. &c.
 
-## IX.
+### IX.
 
 PARITER autem impar eſt, quem par numerus metitur per numerum imparem.
 

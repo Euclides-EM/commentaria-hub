@@ -4,7 +4,7 @@ punctum quodpiam ad aliud directo moueri intellexerimus, ducta ſane ſit a punc
 
 [Figure: three straight lines drawn from point A to points B, C and D]
 
-## II.
+### II.
 
 ET rectam lineam terminatam in continuum recta producere.
 
@@ -12,7 +12,7 @@ QVOD ſi punctum illud ferri adhuc cogitauerimus motu directo, & qui omnis incli
 
 [Figure: horizontal line through points A, B, C and D]
 
-## III.
+### III.
 
 ITEM quouis centro, & interuallo circulum deſcribere.
 

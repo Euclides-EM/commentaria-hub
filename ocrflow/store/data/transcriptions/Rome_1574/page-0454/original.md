@@ -7,7 +7,7 @@
 
 ## DEFINITIONES.
 
-## I.
+### I.
 
 SIMILES figuræ rectilineæ ſunt, quæ & angulos ſingulos ſingulis æquales habẽt, atque etiam latera, quæ circum angulos æquales, proportionalia.
 

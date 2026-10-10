@@ -4,6 +4,8 @@
 14.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 14]
+
 ## THEOR. 10. PROPOS. 15.
 
 AEQVALIVM, & unum uni æqualem habentium angulum, triangulorum, reciproca ſunt latera, quæ circum æquales angulos. Et quorum triangulorum unum angulum uni æqualem habentium reciproca ſunt latera, quæ circum æquales angulos; illa ſunt æqualia.

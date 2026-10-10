@@ -16,7 +16,7 @@ quam D E, ad E F. Intelligatur enim eſſe G C, ad B C, ut D F, ad E F; eritq́;
 
 [Diagram: two horizontal lines, the first labelled A, B and C with a point G above joined by a slanting line, the second labelled D, E and F]
 
-## SCHOLION.
+### SCHOLION.
 
 [Diagram: two horizontal lines, the first labelled A, B and C with a point G above joined by a slanting line, the second labelled D, E and F]
 
@@ -25,6 +25,8 @@ QVOD ſi prima cum ſecunda ad ſecundam, minorem proportionem habuerit, quam te
 [Margin]
 30.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 30]
 
 ## THEOR. 30. PROPOS. 30.
 

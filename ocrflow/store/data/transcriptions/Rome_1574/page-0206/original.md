@@ -27,7 +27,7 @@ CADAT tertio punctum F vltra E, ita vt recta CF, ſecet rectam DE, in G. Quoniam
 2. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 CONVERTEMVS facile hanc propoſitionem, hoc modo.
 

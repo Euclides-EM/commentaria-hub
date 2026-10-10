@@ -6,6 +6,8 @@ merus E, utrunque A, & B, metiatur, erit numerus E, eorum communis menſura. Qua
 22.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 22]
+
 ## THEOR. 22. PROPOS. 24.
 
 MINIMI numeri omnium eandem cum eis rationem habentium, primi inter ſe ſunt.

@@ -6,7 +6,7 @@
 
 rectangula NG, HE, comprehenſa ſub AB, & CB, cũ NH, HM, rectæ æquales ſint rectis CB, BD; & rectæ GH, EM, rectæ LH, hoc eſt, rectæ AB: Et quia quadratum NQ, BM, æqualia ſunt; ſi addatur commune KG, erũt BM, KG, ſimul æqualia rectangulo NG. Q uapropter quinq; rectangula AH, LQ, HE, BM, & KG, gnomonem RST, componentia, æqualia ſunt rectangulo quater comprehenſo ſub recta AB, & ſegmento CF{printer-error-correction:CB}. Cum igitur gnomon RST, & quadratum OI, æqualia ſint quadrato AE; erit rectangulum quater comprehenſum ſub data recta AB, & ſegmento CB, vna cum quadrato reliqui ſegmenti AC, æquale quadrato lineæ AD, compoſitæ ex AB, & dicto ſegmento CB. Quãobrem, ſi recta linea ſecetur vtcunq;, &c. Q uod demonſtrãdum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 [Margin]
 4. ſecundi.
@@ -22,6 +22,8 @@ SECETVR iam numerus 10. vtcunq; in 6. & 4. Numerus igitur 240. qui quater fit ex
 [Margin]
 9.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 9]
 
 ## THEOR. 9. PROPOS. 9.
 

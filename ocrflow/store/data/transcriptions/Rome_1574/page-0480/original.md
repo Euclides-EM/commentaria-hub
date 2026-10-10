@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. VI. -->
 <!-- Page number: 198 -->
 
-## SCHOLION.
+### SCHOLION.
 
 EX hoc problemate colligi poteſt facilis admodum uia, ac ratio diuidendi lineam rectã datam in partes quotcunque æquales: id, quod nos ad propos. 10. lib. 1. facturos recepimus. Sit enim data recta AB, diuidenda in quinque partes æquales. Ducta recta AC, faciente cum AB, quemcunque angulũ CAB, ſumantur ex ea quinque partes æquales AD, DE, EF, FG, GH. Quia igitur linea recta AH, utcunque eſt diuiſa, ſi ex H, ad B, ducatur recta HB, & huic ex punctis D, E, F, G, parallelæ agantur DI, EK, FL, GM; erit AB, ſimiliter diuiſa, ut AH, ceu conſtat ex demonſtratione huius problematis. Cum igitur AH, ſit diuiſa in quinque partes æquales, erit & AB, in totidem æquales partes diuiſa. Haud aliter in plures partes æquales diuidetur eadem recta AB.
 

@@ -6,7 +6,7 @@ SIT numerus A, eadem pars numeri B C, quæ eſt numerus D, numeri E F. Dico utru
 
 [Diagram: two horizontal dotted lines, the first labelled A and B, G, C; the second labelled D and E, H, F]
 
-## SCHOLION.
+### SCHOLION.
 
 EODEM modo demonſtrabimus & hoc, quod ſequitur.
 

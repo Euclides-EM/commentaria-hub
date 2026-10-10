@@ -8,6 +8,8 @@ ex C, in alio plano, ad C D, ducatur alia perpendicularis C E, ita ut punctum E,
 28.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 28]
+
 ## THEOR. 19. PROPOS. 28.
 
 SI in duas rectas lineas recta incidens linea externum angulum interno, & oppoſito, & ad eaſdem partes, æqualem fecerit; Aut internos, & ad eaſdem partes duobus rectis æquales: Parallelæ erũt inter ſe ipſæ rectæ lineæ.

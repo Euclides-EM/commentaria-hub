@@ -6,6 +6,8 @@
 20.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 20]
+
 ## THEOR. 18. PROPOS. 20.
 
 SI tres numeri proportionales fuerint; qui ſub extremis continetur, æqualis eſt ei, qui a medio efficitur: Et ſi, qui ſub extremis continetur, æqualis fuerit ei, qui a medio deſcribitur; ipſi tres numeri proportionales erunt.

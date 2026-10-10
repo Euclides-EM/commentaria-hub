@@ -16,6 +16,8 @@ conſtituemus pẽtagonum æquilaterum, & æquiangulum, hoc modo. Fiat triangulu
 
 [Figure: circle circumscribing a pentagon with inscribed star of diagonals, points labelled A, B, C, D, E; beside it a triangle labelled F, G, H]
 
+[Curated heading level=2 type=campanus: 12]
+
 ## PROBL. 12. PROPOS. 12.
 
 [Margin]

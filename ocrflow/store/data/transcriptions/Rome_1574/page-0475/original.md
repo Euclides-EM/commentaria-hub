@@ -12,6 +12,8 @@ EF, æqualia ſint lateribus GE, EF, & anguli ipſis contenti æquales quoque; (
 7.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 7]
+
 ## THEOR. 7. PROPOS. 7.
 
 SI duo triangula vnum angulum uni an gulo æqualem, circum autem alios angulos latera proportionalia habeant; reliquorum uero ſimul utrunque aut minorem, aut nõ minorem recto: Aequiangula erunt triangula, & æquales habebunt eos angulos, cir cum quos proportionalia ſunt latera.

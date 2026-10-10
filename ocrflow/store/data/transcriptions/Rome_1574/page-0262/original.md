@@ -9,6 +9,8 @@ vel ſub BC, CD, Atqui quadrato ex DB, vna cum rectangulo, bis ſub BC, CD, æqu
 
 IAM vero rurſus numerus, 10. diuidatur æqualiter in 5. & 5. Item inæqualiter in 7. & 3. vt fit intermedia ſectio numerus 2. ceu in propos. 5. eſt dictum. Quadrati numeri igitur 49. & 9. partium inæqualium 7. & 3. dupli ſunt quadratorum 25. & 4. dimidij numeri 5. & numeri 2. inter duas ſectiones, vt manifeſtum eſt.
 
+[Curated heading level=2 type=campanus: 10]
+
 ## THEOR. 10. PROPOS. 10.
 
 [Margin]

@@ -10,7 +10,7 @@ ex D, E, tanquã uno, in ſe, primus erit. Qui autem fit ex D, E, tanquam uno, i
 30. ſeptimi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 CAMPANVS hoc theorema aliter demonſtrat de quotcunque numeris continue proportionalibus minimis, hoc modo ipſum proponens.
 

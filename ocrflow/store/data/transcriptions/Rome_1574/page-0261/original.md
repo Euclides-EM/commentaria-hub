@@ -4,7 +4,7 @@ Igitur quadratum lateris EF, duplum erit quadrati lateris FG, hoc eſt quadrati 
 
 [Diagram: triangle on horizontal base ACDB with apex E, point F between E and B, and lines drawn from C and D]
 
-## SCHOLION.
+### SCHOLION.
 
 ALITER ex Federico Commandino. Quoniam AC. ipſi CB, æqualis eſt, & ſuperat CB, ipſam CD, recta DB; ſuperabit quoq; AC, ipſam CD, eadem recta DB. Quare, vt ad 7. propoſ. huius lib. demonſtrauimus, quadrata rectarum AC, CD, æqualia ſunt rectangulo ſub AC, CD, bis; vna cum quadrato rectæ DB; Ac propterea quadrata rectarum AC, CD, & rectangulum ſub AC, CD, bis vna cum quadrato rectæ DB dupla ſunt quadratorũ ex AC, CD: Sed quadratis rectarum AC, CD, vna cum rectangulo ſub AC, CD, bis, eſt æquale quadratum rectæ AD. Igitur & quadrata rectarum AD, DB, dupla ſunt quadratorum ex AC, CD.
 

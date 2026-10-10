@@ -22,6 +22,8 @@ HABEAT primo A, ad C, maiorem proportionem, quam B, ad eandem C. Dico A, maiorem
 8. quinti.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 11]
+
 ## THEOR. 11. PROPOS. 11.
 
 [Margin]

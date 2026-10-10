@@ -13,7 +13,7 @@ duobus lateribus D E, D F, trianguli D E F, utrumque utrique, hoc eſt, A B, ip�
 24. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 THEOREMA hoc conuerſum eſt præcedentis. In eo enim ex maiori angulo demonſtratum eſt baſin illi reſpondentem, eſſe maiorem: In hoc autem ex maiori baſi oſtenſum fuit angulū illi reſpondentem, maiorem eſſe. Differunt autem plurimum hæc duo theoremata, nempe 24. & 25. ab illis, quæ explicata ſunt in propos. 18, & 19. Nam in 19 demonſtratum eſt, in vno eodemq́; triangulo maiori angulo maius latus reſpondere: At in 24. idem oſtenſum fuit in duobus diuerſis triangulis, quorum duo latera unius æqualia ſunt duobus lateribus alterius &c. Idemq́; diſcrimen reperies inter propos. 18. & 25.
 

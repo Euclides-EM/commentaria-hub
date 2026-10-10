@@ -14,7 +14,7 @@ tenti ad uerticem E, æquales quoque: Erunt & baſes AB CD, æquales, & angulus 
 
 HVC quoque referri poteſt hoc theorema.
 
-## RECTA linea ſecans diametrum parallelogrammmi{printer-error-correction:parallelogrammi} bifariam quomodocunque, diuidit parallelogrammum bifariam quoque: & recta linea diuidens parallelogrammum biſariã quouis modo, ſecat quoque diametrum bifariam.
+#### RECTA linea ſecans diametrum parallelogrammmi{printer-error-correction:parallelogrammi} bifariam quomodocunque, diuidit parallelogrammum bifariam quoque: & recta linea diuidens parallelogrammum biſariã quouis modo, ſecat quoque diametrum bifariam.
 
 [Margin]
 29. primi

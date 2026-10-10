@@ -12,7 +12,7 @@ interni ex eadem parte ſint duobus rectis æquales, immo duo recti; erunt rect�
 
 RECTE vero ab Euclide altitudo figuræ cuiusuis definita eſt per lineam perpendicularem, quæ a vertice ad baſin deducitur: quoniam, ut ſcribit Ptolemæus in libello de Analemmate, & referente ſimplicio, in libro de dimenſione, menſura cuiuſcunque rei debet eſſe ſtata, determinataque & non indefinita: Inter oẽs autem rectas lineas, penes quas merito Geometræ, ſicut & vulgus, omnia metiuntur, ſola linea perpendicularis certa eſt, determinatæque longitudinis, aliæ autem omnes incerta indeterminatæque. Qua de re plura ſcripſimus ad initium cõmentariorum, quos in ſphæram Ioan. de ſacro boſco edidimus.
 
-## V.
+### V.
 
 RATIO ex rationibus componi dicitur, cum rationum quantitates inter ſe multiplicatæ, aliquam effecerint rationem.
 

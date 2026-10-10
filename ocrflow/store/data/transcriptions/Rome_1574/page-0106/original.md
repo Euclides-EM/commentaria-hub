@@ -7,7 +7,7 @@ TRIANGVLVM amblygonium, ſiue obtuſangulum eſſe [illegible: 1 word] poteſt v
 
 [Figure: two obtuse-angled triangles]
 
-## XXVIII.
+### XXVIII.
 
 OXYGONIVM vero, quod tres habet acutos angulos.
 

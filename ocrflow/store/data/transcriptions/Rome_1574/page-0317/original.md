@@ -1,12 +1,12 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## SCHOLION. I.
+### SCHOLION. I.
 
 QVOD ſi punctum A, datum fuerit in circunferentia circuli A B, cuius centrum C, facilius ex eo ducetur recta tangens circulum, hoc modo. Ducta ſemidiametro A C, educatur per A, ad A C, perpendicularis D E. Hæc enim per corollarium præcedentis propoſitionis, circulum tanget: quod eſt propoſitum.
 
 [Figure: circle with centre C and point B on the right; tangent line D A E touching the circle at the top point A]
 
-## EX PELETARIO.
+### EX PELETARIO.
 
 LINEAE rectæ, quæ circulum ſecet, lineam parallelam ducere, quæ eundem circulum tangat.
 
@@ -18,7 +18,7 @@ CIRCVLVM A B C, cuius centrum D. ſecet recta B C, cui ducenda eſt parallela ta
 28. primi.
 [/Margin]
 
-## SCHOLION. II.
+### SCHOLION. II.
 
 SED & ſequens problema cum Cardano abſoluemus.
 

@@ -20,7 +20,7 @@ SIT data recta AB; datũ parallelogrãmũ CDEF, & datus angulus L. Producaĩ CD,
 ## PROBL. 13. PROPOS. 45.
 
 [Margin]
-[unclear: 45.]
+O.
 [/Margin]
 
 DATO rectilineo æquale parallelogrãmum cõſtituere, in dato angulo rectilineo.

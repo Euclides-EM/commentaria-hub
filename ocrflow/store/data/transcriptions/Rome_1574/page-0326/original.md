@@ -3,11 +3,13 @@
 
 CFD, atq; adeo ipſa inter ſe æqualia erūt. Quocirca ſuper æqualibus rectis lineis, &c. Quod erat demonſtrandum.
 
-## SCHOLION.
+### SCHOLION.
 
 NON ſolum in hac propoſitione oſtẽditur ſegmenta ſimilia AEB, CFD, eſſe æqualia, ſuper æquales baſes AB, CD; verũ etiam ipſas peripherias, eo quod, vt demonſtratum eſt, ſibi mutuo congruant.
 
 CONVERSVM quoque huius propoſ. & præcedentis, facile demonſtrabitur. Nimirum, ſegmenta circulorum æqualia ſuper æquales lineas, vel ſuper eandem conſtituta, eſſe ſimilia. Nam propter æqualitatem alterum alteri congruet; quare ſimilia erunt, cum hac ratione omnes anguli in ipſis conſtituti æquales ſint.
+
+[Curated heading level=2 type=campanus: 24]
 
 ## PROBL. 3. PROPOS. 25.
 

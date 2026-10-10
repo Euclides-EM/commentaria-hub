@@ -15,7 +15,7 @@
 
 A C, ad B C, maior proportio, quam D F, ad E F; erit & diuidendo maior proportio A B, ad B C, quam D E, ad E F. Quare conuertendo minor erit proportio BC, ad AB, quam E F, ad D E; Ac propterea & componendo, minor erit proportio totius A C, ad AB, quam totius D F, ad D E. Quod eſt propoſitum.
 
-## SCHOLION.
+### SCHOLION.
 
 [Diagram: two horizontal lines, the first labelled A, B and C, the second labelled D, E and F]
 
@@ -24,6 +24,8 @@ NON diſſimili ratione oſtẽdemus, ſi compoſita prima cum ſecunda minorem 
 [Margin]
 31.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 31]
 
 ## THEOR. 31. PROPOS. 31.
 

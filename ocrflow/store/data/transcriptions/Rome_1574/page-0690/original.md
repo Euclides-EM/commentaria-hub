@@ -22,13 +22,15 @@ C,64.  E,96.  F,144.  D,216.
 23. octaui
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 PATET etiam ex his, proportionem cuiusuis numeri cubi ad quemlibet numerum non cubum, non poſſe reperiri in duobus numeris cubis. Si enim reperiretur, eſſent ambo priores numeri habentes proportionem, quam cubi proportionis repertæ, etiam cubi, cum primus ponatur cubus. Quod eſt abſurdum. Ponitur enim ſecundus, non cubus.
 
 [Margin]
 25. octaui
 [/Margin]
+
+[Curated heading level=2 type=campanus: 24]
 
 ## THEOR. 24. PROPOS. 26.
 

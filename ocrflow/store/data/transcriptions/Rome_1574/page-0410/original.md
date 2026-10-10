@@ -5,7 +5,7 @@ F; dicetur talis modus argumentandi ex æqualitate, ordinata proportio, quod in 
 
 [Figure: six vertical lines labelled A, B, C, D, E and F, with the numbers 12, 6, 4 above A, B and C, and 6, 3, 2 above D, E and F]
 
-## XIX.
+### XIX.
 
 PERTVRBATA autem proportio eſt, cum tribus poſitis magnitudinibus, & alijs quæ ſint his multitudine pares; ut in primis quidem magnitudinibus ſe habet antecedens ad conſequentem, ita in ſecundis magnitudinibus antecedens ad conſequentem: Vt autem in primis magnitudinibus conſequens ad aliud quidpiam, ſic in ſecundis magnitudinibus aliud quidpiam ad antecedentem.
 

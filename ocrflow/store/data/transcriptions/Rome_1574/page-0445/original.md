@@ -6,7 +6,7 @@
 
 ad C, ita B, ad D; (cum poſita ſit E, ad B, vt C, ad D.) Igitur proportio A, ad C, maior quoque erit quam B, ad D, quod eſt propoſitum.
 
-## SCHOLION.
+### SCHOLION.
 
 [Diagram: five horizontal lines labelled A, C, B, D and E]
 
@@ -17,6 +17,8 @@ SIT namq; minor proportio A, ad B, quam C, ad D. Dico permutando, minorem quoque
 [Margin]
 28.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 28]
 
 ## THEOR. 28. PROPOS. 28.
 

@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. VIII. -->
 <!-- Page number: 285 -->
 
-## SCHOLION.
+### SCHOLION.
 
 SI maiores numeri ad minores referantur, proponi poterit hæc propoſitio ad hunc modum.
 

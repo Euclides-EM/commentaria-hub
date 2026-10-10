@@ -7,6 +7,8 @@ PRIMVS numerus A, non metiatur numerum B. Dico A, ad B, primum eſſe. Si enim A
 
 [Diagram: two dotted horizontal lines, the upper labelled A and B, the lower labelled C]
 
+[Curated heading level=2 type=campanus: 33]
+
 ## THEOR. 30. PROPOS. 32.
 
 [Margin]

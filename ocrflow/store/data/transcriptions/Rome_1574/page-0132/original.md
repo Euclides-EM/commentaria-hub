@@ -42,9 +42,11 @@ QVOD, ſi punctũ datũ fuerit in extremo datæ lineæ, quale eſt C, facile ab�
 15. def.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HVIVS problematis varij eſſe poſſunt caſus, vt ait Proclus. Aut.n.datũ punctũ in ipſa data recta eſt poſitũ, aut extra ipsã: Si in ipſa, erit vel alterũ extremorũ eius, vel inter vtrũq; iacebit extremũ. Si vero extra ipſam, erit vel e directo datæ lineæ, ita vt pducta in rectũ, & cõtinuũ p ipſum pũctũ trãſeat; vel nõ e directo, ita vt ab ipſo ad datæ lineæ extremorũ quoduis recta linea ducta cũ data recta angulũ efficiat; Quo modo vel ſupra datã lineã erit cõſtitutũ, vel infra, vt manifeſtũ eſt. In omnibus aũt iſtis caſibus ſemper eadẽ eſt cõſtructio, & demõſtratio. Quod ſi in conſtructione fiat triãgulũ ACD, ſup recta A C, Iſoſceles, eodem modo oſtendemus, rectam A G, rectæ B C, æqualem eſſe.
+
+[Curated heading level=2 type=campanus: 3]
 
 ## PROBL. 3. PROPOS. 3.
 

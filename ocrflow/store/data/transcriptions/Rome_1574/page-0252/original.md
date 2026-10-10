@@ -1,6 +1,8 @@
 <!-- Running title: LIBER II. -->
 <!-- Page number: 84 -->
 
+[Curated heading level=2 type=campanus: 5]
+
 ## THEOR. 5. PROPOS. 5.
 
 [Margin]

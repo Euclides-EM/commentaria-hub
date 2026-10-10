@@ -4,6 +4,8 @@
 15.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 15]
+
 ## THEOR. 15. PROPOS. 17.
 
 SI cubus numerus cubum numerum non metiatur; neque latus unius latus alterius metietur. Et ſi latus cubi unius latus alterius non metiatur; neque cubus cubum metietur.
@@ -25,7 +27,7 @@ SED iam C, latus non metiatur latus D. Dico quod nec cubus A, cubum B, metietur.
 15. octaui.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 PROXIME antecedentes quatuor propoſitiones hoc etiã modo proponi poſſunt, ſi maiores numeri ad minores referantur.
 

@@ -9,6 +9,8 @@ rem. In circulis enim æqualibus ABC, DEF, quorum centra G, & H, ſint peripheri
 
 SVNT autem proxime antecedentes quatuor propoſitiones 26. 27. 28. & 29. intelligendæ etiam in eodem circulo. Hoc eſt. In eodem circulo æquales anguli æqualibus peripheriis inſiſtunt, &c. ut conſtat ex demonſtrationibus adductis. Eadem enim locum habent in uno eodemq́ue circulo.
 
+[Curated heading level=2 type=campanus: 29]
+
 ## PROBL. 4. PROPOS. 30.
 
 [Margin]
@@ -25,6 +27,8 @@ SIT peripheria ABC, ſecanda bifariam. Ducatur recta ſubtendens AC, qua diuiſa
 4. primi
 28. tertij.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 30]
 
 ## THEOR. 27. PROPOS. 31.
 

@@ -14,6 +14,8 @@ QVOD ſi loco unius numerorum D, E, F, aſſumatur vnitas, uel etiam loco pluriu
 6.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 6]
+
 ## THEOR. 4. PROPOS. 6.
 
 SI numerus numeri partes fuerit, & alter alterius eædem partes: Et ſimul uterque utriuſque ſimul eædem partes erit, quæ unus unius.

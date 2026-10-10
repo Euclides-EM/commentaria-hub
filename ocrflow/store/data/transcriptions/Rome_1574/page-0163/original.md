@@ -6,6 +6,8 @@ erit angulus C, angulo A, quandoquidem & latus A B, latere B C, maius ponitur. S
 18.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 18]
+
 ## THEOR. 12. PROPOS. 19.
 
 OMNIS trianguli maior angulus maiori lateri ſubtenditur.
@@ -20,7 +22,7 @@ IN triangulo A B C, angulus B, maior ſit angulo C. Dico latus A C, ſubtendens 
 18. primi.
 [/Margin]
 
-## EX PROCLO.
+### EX PROCLO.
 
 POSSVMVS hoc idẽ theorema oſtẽdere affirmatiua demonſtratione, ſine adminiculo præcedentis, ſi tamen prius demonſtretur hoc ſubſequens theorema.
 

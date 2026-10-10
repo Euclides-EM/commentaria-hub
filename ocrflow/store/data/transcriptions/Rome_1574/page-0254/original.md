@@ -13,7 +13,7 @@ SECETVR recta AB, bifariam in C, & ei in rectũ addatur BD: Dico rectangulum com
 43. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 ALITER idem oſtendemus ex Franciſco Maurolyco. Quia quadratum ex CD, æquale eſt quadratis ex CB, BD, vna cum rectangulo bis ſub CB, BD; hoc eſt, vna cum rectangulis ſub CB, BD, & ſub AC, BD. Eſt autem rectangulis ſub AC, DB; CB, DB; & ſub DB, DB, hoc eſt, quadrato ex DB, equale rectangulum ſub AD, DB. Igitur quadratum ex CD, equale eſt reliquo quadrato ex CB vna cũ
 

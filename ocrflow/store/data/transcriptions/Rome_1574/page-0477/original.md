@@ -7,6 +7,12 @@
 
 uero recto maior. Cum enim CG, CB, latera æqualia ſint, & ideo anguli CBG, CGB, æquales; erit uterque eorum recto minor, ac propterea AGC, recto maior.
 
+[Margin]
+8.
+[/Margin]
+
+[Curated heading level=2 type=campanus: 8]
+
 ## THEOR. 8. PROPOS. 8.
 
 SI in triangulo rectangulo, ab angulo recto in baſin perpendicularis ducta ſit: quæ ad perpendicularem triangula, tum toti triãgulo, tum ipſa inter ſe ſimilia ſunt.

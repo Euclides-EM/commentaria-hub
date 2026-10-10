@@ -8,7 +8,7 @@
 
 [Diagram: circle with centre E; points A and C on the circumference joined by an arc through D at top, with B inside on the line from E to D]
 
-## SCHOLION.
+### SCHOLION.
 
 IDEM hoc theorema demonſtrari poterit affirmatiue, hoc modo. Recta AB, coniungat duo puncta A, & B, in circunferentia circuli AB, cuius centrũ C Dico rectã AB, intra circulũ cadere, ita vt omnia eius pũcta media intra circulũ exiſtãt. Aſſumatur.n. quodcunq́; eius punctũ intermediũ D, & ex centro educãtur rectę CA, CB, CD. Quoniam igitur duo latera CA, CB, trianguli CAB, æqualia ſunt, erunt anguli CAB, CBA, æquales: Eſt autem angulus CDA, angulo CBA, maior, externus interno; Igitur idem angulus CDA, angulo CAD, maior erit, & ob id latus CA, latere CD, maius erit. Quare cum CA, ſit ducta a centro ad circunferentiam vſque, non perueniet recta CD, ad circunferentiam, ideoq́; punctum D, intra circulum cadet: Idem oſtendetur de quolibet alio puncto aſſumpto. Tota igitur recta AB, intra circulũ cadit; quod eſt propoſitũ.
 
@@ -20,7 +20,7 @@ IDEM hoc theorema demonſtrari poterit affirmatiue, hoc modo. Recta AB, coniunga
 19. primi.
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC eſt manifeſtum, lineam rectam, quę circulum tãgit, ita vt eum non ſecet, in vno tãtum puncto ipſum tangere. Si enim in duobus punctis eum tangeret, caderet pars rectæ inter ea duo puncta poſita, intra circulum; Quare circulum ſecaret, quod eſt cõtra hypotheſin.
 

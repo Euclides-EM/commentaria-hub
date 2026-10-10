@@ -9,7 +9,7 @@ externus angulus A C D, ut oſtenſum fuit, æqualis ſit duobus internis A, & B
 13. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 CVM demonſtratum ſit propoſ. 16. angulum externum cuiusuis trianguli maiorem eſſe utrolibet interno, & oppoſito; Hic autem, eundem externum eiſdem internis eſſe æqualem; perſpicuum eſt, alterutrum internorum, & oppoſitorum ſuperari ab externo, reliquo interno angulo. Vt in triangulo propoſito angulus A, ſuperatur ab angulo A C D, angulo B; Et angulus B, ſuperatur ab eodem angulo A C D, angulo A, quandoquidem angulus A C D, duobus angulis A, & B, eſt æqualis. Rurſum, quia demonſtratum eſt propoſ. 17. duos angulos cuiuslibet trianguli, quomodocunq; ſumptos, duobus eſſe rectis minores; Hic vero omnes tres duobus rectis æquales eſſe; manifeſtam eſt, duos a duobus rectis deficere, reliquo angulo trianguli. Vt in eodem triangulo, duo anguli A, & B, a duobus rectis deficiunt, angulo A C B, &c.
 

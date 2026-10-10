@@ -12,6 +12,8 @@ VT, quam proportionem habet A, ad B, eandem habebit magnitudo propoſita C, ad a
 1.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 1]
+
 ## THEOR. 1. PROPOS. 1.
 
 SI ſint quotcunq; magnitudines quotcunque magnitudinum æqualium numero, ſingulæ ſingularum æque multiplices; quã multiplex eſt unius una magnitudo, tam multiplices erunt & omnes omnium.

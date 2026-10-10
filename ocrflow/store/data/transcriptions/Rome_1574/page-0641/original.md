@@ -8,6 +8,8 @@
 1.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 1]
+
 ## THEOR. 1. PROPOS. 1.
 
 SI fuerint quotcunque numeri deinceps proportionales, extremi uero ipſorum primi inter ſe fuerint; ipſi minimi ſunt omnium eandem cum eis rationẽ habentiũ.

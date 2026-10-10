@@ -3,6 +3,8 @@
 
 ex ſcholio propos. 1. huius lib. liquet; Tamen non ſemper e cõtrario, numeri extremi quotcunque minimorum non continue proportionalium, inter ſe primi ſunt, ut manifeſtum eſt in exemplo nuper adducto 6. 10. 13. 18.
 
+[Curated heading level=2 type=campanus: 4]
+
 ## PROBL. 2. PROPOS. 4.
 
 [Margin]

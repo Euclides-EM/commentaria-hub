@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## X.
+### X.
 
 CVM autem tres magnitudines proportionales fuerint; Prima ad tertiam duplicatam rationem habere dicitur eius, quã habet ad ſecundam: At cum quatuor magnitudines proportionales fuerint; prima ad quartam triplicatam rationem habere dicitur eius, quam habet ad ſecundam: Et ſemper deinceps, uno amplius, quamdiu proportio extiterit.
 

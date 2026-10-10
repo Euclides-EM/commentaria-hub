@@ -10,7 +10,7 @@ EODEM modo, ſi ſupra AB, conſtitutum fuerit quodcunque rectilineum, erit quod
 
 PERSPICVVM autem eſt, hanc operationem vna cũ eius demonſtratione a noſtra antea tradita nõ differre, niſi quod hac ſimul tradat inuentionem mediæ proportionalis. Hanc enim ob cauſam Albertus coniungit in rectum, & continuũ lineas EB, BA, quæ proportionem habẽt datam, vt ſtatim, vna operatione, mediam proportionalem obtineat, &c.
 
-## EX FEDERICO COMMANDINO.
+### EX FEDERICO COMMANDINO.
 
 IN dato triangulo quocunque quadratum deſcribere.
 

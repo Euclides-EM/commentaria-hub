@@ -33,6 +33,8 @@
 
 [Figure: circle with centre D, horizontal diameter A C through points I and K, vertical chords L M and N O, letters L, B, N above and M, O below with line G beneath; at right, vertical segments E F and E H F]
 
+[Curated heading level=2 type=campanus: 2]
+
 ## PROBL. 2. PROPOS. 2.
 
 [Margin]

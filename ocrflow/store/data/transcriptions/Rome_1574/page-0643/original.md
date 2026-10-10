@@ -27,7 +27,7 @@ IAM uero ex A, in tres inuentos C, D, E, fiant F, G, H, & ex B, in ultimum E, fi
 
 NON aliter, ſi ex A, in quatuor inuentos F, G, H, I, fiant K, L, M, N, & ex B, in ultimum I, fiat O; erunt K, L, M, N, O, quinque numeri minimi in data ratione A, ad B: Eademque ratione inueniemus ſex, ſeptem, octo, &c. Quare numeros reperimus deinceps proportionales minimos, &c. Quod faciendum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 [Margin]
 18. ſeptimi

@@ -16,6 +16,8 @@ PRIMVM vero membrum perſpicue & aperte oſtendunt. Nam ſi tres numeri deinceps
 21.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 21]
+
 ## THEOR. 18. PROPOS. 20.
 
 PRIMI numeri plures ſunt, omni propoſita multitudine primorum numerorũ.

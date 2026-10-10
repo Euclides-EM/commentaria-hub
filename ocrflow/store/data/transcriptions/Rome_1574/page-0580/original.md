@@ -17,6 +17,8 @@ ximam menſuram numerorum A, & B, per coroll. huius propos. Quare cum eadem illa
 
 SIMILI arte explorabimus, an plures numeri, quam tres ſint inter ſe primi, an potius inter ſe compoſiti. Nam ſi dati numeri fuerint quatuor, experiendum id erit primum in tribus; ſi quinque, in quatuor, &c. Reliqua autem perficienda, ut de tribus numeris datis diximus.
 
+[Curated heading level=2 type=campanus: 3]
+
 ## PROBL. 2. PROPOS. 3.
 
 [Margin]

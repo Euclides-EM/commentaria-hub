@@ -4,7 +4,7 @@ I, tertius eſt illas partes habens. Eademque ratione quadruplus ipſius G, quar
 
 HVC quoque referri poteſt ſequens problema.
 
-## NVMERVM reperire, qui minimus cũ ſit, habeat datas partes, hac lege, ut quælibet pars ſubſequentem partem contineat.
+#### NVMERVM reperire, qui minimus cũ ſit, habeat datas partes, hac lege, ut quælibet pars ſubſequentem partem contineat.
 
 SINT datæ partes A, B, C; inueniendusque ſit numerus minimus, qui eas habeat hoc ordine, vt pars A, contineat partem B, & pars B, partem C. Sint a partibus A, B, C, numeri denominati D, E, F; Fiatque G, ex E, in F: Item H, ex D, in G. Dico H, eſſe minimum numerum, qui quæritur. Quod enim habeat datas partes ordine prædicto, facile demonſtratur. Nam cũ ex D, in G, fiat H; erit G, toties in H, quoties vnitas in D: Eſt autẽ vnitas pars ipſius D, denominata ab ipſo D.
 

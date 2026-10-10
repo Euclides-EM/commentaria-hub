@@ -3,6 +3,8 @@
 
 *AB, BC, CD, proportiones eaſdem, quas idem numerus K, ad totidem FG, GH, HI; Hoc eſt, ſit ut E, ad AB, ita K, ad FG; & ut E, ad BC, ita K, ad GH; & ut E, ad CD, ita K, ad HI. Dico eſſe, ut E, ad omnes illos ſimul, nempe ad AD, ita K, ad hos omnes ſimul, utpote ad FI. Cum enim ſit, ut E, primus ad AB, ſecundum, ita K, tertius ad FG, quartum: Item ut E, primus ad BC, quintum, ita K, tertius ad GH, ſextum; erit quoque, ut E, primus ad AC, ſecundum cum quinto, ita K, tertius ad FH, quartum cum ſexto. Rurſus quia eſt, ut E, primus ad AC, ſecundum, ita K, tertius ad FH, quartum: Item ut E, primus ad CD, quintum, ita K, tertius ad HI, ſextum; erit etiam, ut E, primus ad AD, ſecundum cum quinto, ita K, tertius ad FI, quartum cum ſexto. Atque ita de reliquis, ſi plures fuerint.*
 
+[Curated heading level=2 type=campanus: 23]
+
 ## THEOR. 21. PROPOS. 23.
 
 [Margin]

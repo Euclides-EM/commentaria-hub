@@ -2,7 +2,7 @@
 
 igitur recta linea a pũcto in ea dato &c. quod faciendũ erat.
 
-## PRAXIS.
+### PRAXIS.
 
 [Figure: horizontal line A B with points D, C, E marked on it, a perpendicular from C to F above, and two arcs intersecting at F]
 
@@ -10,7 +10,7 @@ Ex puncto C, abſcindantur vtrinq́; lineæ æquales C D, C E. Et ex D, & E, de�
 
 [Figure: horizontal line A B crossed at E by a vertical line through C above and D below, with arcs intersecting at C and at D]
 
-## EX PROCLO.
+### EX PROCLO.
 
 Si punctum in linea datum, fuerit extremum, & linea commode produci nequiuerit, poterimus ex puncto dato educere lineam perpendicularem, linea non producta, hac ratione. Sit recta A B, & punctum A. Ex C, puncto quolibet intra lineam educatur perpendicularis C D, vt docuit Euclides; & abſcindatur C E, æqualis ipſi A C: Deinde diuidatur angulus C, bifariam, ducta recta C F; Et ex E, rurſus, vt docuit Euclides, educatur B G. perpen
 

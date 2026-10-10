@@ -2,7 +2,7 @@
 
 IN numeris autem, diuidatur numerus 10. vtcunq; in 6. & 4. Igitur 100. quadratus numerus totius numeri 10. & 36. quadratus numerus partis 6. æquales ſunt numero 120. qui fit bis ex toto 10. in partem 6. vna cum 16. quadrato numero alterius partis 4. vt conſtat. Sic etiam 100. quadratus numerus totius numeri 10. & 16. quadratus numerus partis 4. æquales ſunt numero 80. qui bis fit ex toto 10. in partem 4. vna cũ 36. quadrato numero alterius partis 6.
 
-## EX FEDERICO COMMANDINO.
+### EX FEDERICO COMMANDINO.
 
 Si recta linea in partes inæquales ſecetur: earum partium quadrata æqualia ſunt rectangulo, quod bis dictis partibus continetur; vna cum quadrato eius lineæ, quà maior pars ſuperat minorem.
 
@@ -14,7 +14,7 @@ SECETVR recta AB, in partes inæquales AC, CB, ſitq; maior pars AC; ponatur aut
 34. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 IN numeris. Secetur numerus 10. inæqualiter in 4. & 6.
 

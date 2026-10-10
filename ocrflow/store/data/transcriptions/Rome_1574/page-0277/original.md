@@ -2,7 +2,7 @@
 
 quales, inæquales eſſe; atque adeo illum, cuius diameter, vel ſemidiameter maior, maiorem, &c.
 
-## II.
+### II.
 
 RECTA linea circulum tangere dicitur, quæ cum circulum tangat, ſi producatur, circulum non ſecat.
 
@@ -10,7 +10,7 @@ VT recta AB, quia ita circulum BFD, tangit in B, vt producta ad C, nulla ratione
 
 [Diagram: circle BFD with tangent line ABC touching at B, and line EFG through E cutting the circle at F and G, ending near D]
 
-## III.
+### III.
 
 CIRCVLI ſe ſe mutuo tangere dicuntur, qui ſe ſe mutuo tangentes, ſe ſe mutuo non ſecant.
 

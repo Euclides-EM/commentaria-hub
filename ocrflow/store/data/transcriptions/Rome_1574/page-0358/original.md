@@ -8,6 +8,8 @@ I G, I H, æquales erunt, ac propterea circulus deſcriptus ex I, ad interuallum
 29. primi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 9]
+
 ## PROBL. 9. PROPOS. 9.
 
 [Margin]
@@ -32,7 +34,7 @@ SIT deſcribendus circulus circa quadratum A B C D. Ducantur diametri A C, B D, 
 6. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi circa datum circulum deſcribatur quadratum, & in eodem circulo aliud quadratum inſcribatur, erit quadratum circumſcriptum quadrati inſcripti duplum. Quoniam latus quadrati circumſcripti æquale eſt diametro circuli, vt ex 7. propos. huius lib. conſtat, hoc eſt, diametro quadrati inſcripti: quadratum uero diametri duplum eſt quadrati, cuius eſt diameter, ut ad 47. propos. lib. 1. oſtendimus; Conſtat propoſitum.
 

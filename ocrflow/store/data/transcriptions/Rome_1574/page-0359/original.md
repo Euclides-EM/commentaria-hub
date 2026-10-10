@@ -1,5 +1,7 @@
 <!-- Running title: EVCLID. GEOM. -->
 
+[Curated heading level=2 type=campanus: 10]
+
 ## PROBL. 10. PROPOS. 10.
 
 [Margin]
@@ -48,7 +50,7 @@ SVMATVR quæuis recta linea A B, quę diuidatur in C, ita ut rectangulũ ſub A 
 5. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 NON eſt autem quod ſe excrucient Campanus, & Peletarius, ut probent, rectam B D, ita applicari circulo D C A, ut cũ
 

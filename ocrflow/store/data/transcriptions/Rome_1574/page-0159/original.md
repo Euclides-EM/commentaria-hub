@@ -6,6 +6,8 @@
 
 les duobus angulis D A C, C A B; Quare vt prius, concludetur propoſitum. Peletarius autem demonſtrat hoc idem ratione ducente ad id, quod fieri nequit. Nos tamen demonſtrationem noſtram oſtenſiuam eius demonſtrationi iure optimo præpoſuimus.
 
+[Curated heading level=2 type=campanus: 16]
+
 ## THEOR. 9. PROPOS. 16.
 
 CVIVSCVNQVE trianguli vno latere producto, externus angulus vtrolibet interno, & oppoſito, maior eſt.

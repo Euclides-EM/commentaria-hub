@@ -12,11 +12,11 @@ SIT enim baſis B C æqualis baſi E F, & angulus B, angulo E, angulusq́; C, an
 
 Nã ſi baſis baſi ſuperponatur, congruent ſibi mutuo extrema earum, nec non & lineæ angulorum æqualium. Quare omnia ſibi congruent, proptereaq́; omnia inter ſeſe æqualia erunt. Verum hoc idem theorema a nobis propoſitum. quod quidem magis proprie conuertere uidetur quartam propoſitionem, quam illud Euclidis, aliter demonſtrabit Euclides in prima parte propoſitionis 26, ut eo loco monebimus.
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 PORRO ex antecedente huius octauæ propoſitionis non ſolum colligi poteſt, angulos lateribus æqualibus contentos æquales eſſe, uerum etiam reliquos angulos, qui ad baſes cõſtituuntur, utrumq́; utrique. ut angulum B, angulo E, & angulum C, angulo F; immo totũ triangulum toti triangulo, ut conſtat ex eadem ſuperpoſitione unius trianguli ſuper alterum; Nam ſibi mutuo congruent & dicti anguli, & tota triangula, ut perſpicuũ eſt. Quod etiã ex quarta propos. colligi poterit, poſtquam demonſtratum fuerit, angulos æqualibus comprehenſos lateribus æquales eſſe. Inde enim fiet, cũ latera quoque ſint æqualia, & reliquos angulos, & tota triangula eſſe æqualia, ut in propos. 4. demonſtratum eſt.
 
-## EX PROCLO.
+### EX PROCLO.
 
 PHILONIS familiares conãtur hoc idẽ theorema oſtẽdere demõſtratione affirmatiua hac ratione. Poſito. n. eodẽ antecedẽte, ſupponi intelligatur baſis B C, baſi E F: ita ut triangulum A B C, cadat in diuerſas partes, & non ſuper triangulum D E F, quale eſt triangulũ A E F. Aut igitur duo latera, nepe D F, F A, conſtituunt unã lineã
 

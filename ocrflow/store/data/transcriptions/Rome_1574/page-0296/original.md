@@ -15,6 +15,8 @@ TANGAT circulus ABC. circulum ADE, intus in A, & ſit F, centrũ circuli ABC, & 
 20. primi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 11]
+
 ## THEOR. 11. PROPOS. 12.
 
 [Margin]

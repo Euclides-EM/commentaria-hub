@@ -15,6 +15,8 @@ Quoniam igitur eſt ut AB ad E, ita BC, ad F; & CD, ad G; (quod ſemper ſit pro
 23.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 23]
+
 ## THEOR. 20. PROPOS. 22.
 
 SI impares numeri quotcunque componantur, multitudo autem ipſorum ſit par: Totus par erit.
@@ -38,6 +40,8 @@ Eſt autem & multitudo unitatum detractarum par: Igitur & totus AE, compoſitus 
 [Margin]
 24.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 24]
 
 ## THEOR. 21. PROPOS. 23.
 

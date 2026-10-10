@@ -19,7 +19,7 @@ Si punctum A, in ipſum punctum D, cadat, congruent ſibi mutuo triangulorum lat
 7. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 VT vides, hæc propoſitio conuertit primam partem propoſitionis quartæ. Sicut enim ibi ex æqualitate angulorum, qui lateribus æqualibus continentur, collecta fuit baſium æqualitas; ita hic ex æqualitate baſium concludit Euclides æqualitatem angulorum, qui lateribus æqualibus comprehenduntur. Poſſumus eodem modo ex prima, & tertia parte concluſionis quartæ propoſitionis inferre totum antecedens eiuſdem, ita ut theorema proponatur in hanc formam.
 

@@ -7,7 +7,7 @@ quodpiam punctum, & ab illo in terminos rectæ eius lineæ, quæ ſegmenti baſi
 
 SIT ſegmentum circuli quodcunq; ABC, cuius baſis recta AC: Ex ſuſcepto quolibet puncto B, in circunferentia, ducantur ad puncta A, & C, extrema baſis, rectæ lineæ BA, BC. Angulus igitur rectilineus ABC, dicitur exiſtere in ſegmento ABC.
 
-## VIII.
+### VIII.
 
 CVM vero comprehendentes angulũ rectæ lineæ aliquam aſſumũt peripheriam, illi angulus inſiſtere dicitur.
 

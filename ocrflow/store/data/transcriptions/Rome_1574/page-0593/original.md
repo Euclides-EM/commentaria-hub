@@ -16,7 +16,7 @@ QVOD ſi AB, totus toti CD, æqualis fuerit, & ablatus AE, ablato CF; perſpicuu
 
 [Diagram: two dotted lines, the first labelled A, E and B, the second labelled C, F and D]
 
-## LEMMA.
+### LEMMA.
 
 QVOD autem, ſi AB, ipſum CD, & AE, ipſum CF, æqualiter contineat, eandemque inſuper partem illius uel partes; e contrario CD, ipſius AB, & CF, ipſius AE, ſit eædem partes: Et ſi CD, ipſius AB, & CF, ipſius AE, ſit eædẽ partes: e contrario AB, ipſum CD, & AE, ipſum CF, æqualiter contineat, eandemque illius partem uel partes; hoc modo demonſtrabimus. Contineat primo AB, ipſum CD, & AE, ipſum CF, æqualiter, nempe ſemel, uel bis, uel ter, &c. eandemque inſuper partem, GB,
 

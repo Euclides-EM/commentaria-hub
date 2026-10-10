@@ -10,13 +10,15 @@ tiantur, manifeſtum eſt. Nam cum tã A, multiplicatus a D, quam B, multiplicat
 17. ſeptimi
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC fit, ſi duo numeri multiplicent minimos eandem rationem habentes, maior minorem, & minor maiorem, produci numerum minimum, quem illi metiantur. Nam propoſitis C, & D, minimis in proportione A, ad B, demonſtratum eſt, numerum E, factum ex A, minore in D, maiorem, & ex B, maiore in C, minorem, eſſe minimum, quem A, & B, metiantur,
 
-## SCHOLION.
+### SCHOLION.
 
 HOC autem corollarium apud Campanum eſt propoſitio 35. huius libri ſeptimi; Et ſequens propoſitio apud eundem, corollarium eſt propoſitionis 35.
+
+[Curated heading level=2 type=campanus: 35]
 
 ## THEOR. 33. PROPOS. 37.
 

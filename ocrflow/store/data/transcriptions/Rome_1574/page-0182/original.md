@@ -7,7 +7,7 @@ SECVNDO faciat recta E F, angulos internos ex eadem parte, nempe A G H, C H G, d
 13. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 IAMDVDVM pronunciatum vndecimum a principiorum numero reiecimus. Cum igitur ſequens propoſitio 29. illi innitatur, ita vt abſq; eo demonſtrari non poſſit, neceſſe eſt, vt illud ex hactenus demonſtratis theorematibus, quæ ex eo nulla ratione dependent, cum Proclo confirmemus, vt antea polliciti ſumus. Hoc autem facile præſtabimus, ſi prius duo explicemus, quorum primum hoc ſit.
 

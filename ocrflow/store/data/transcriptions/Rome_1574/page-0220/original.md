@@ -16,7 +16,7 @@ DATVM triangulum ſit ABC, & datus angulus rectilineus D. oportet igitur conſtr
 6. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 SVBIVNGIT hoc loco Peletarius ſubſequens problema.
 

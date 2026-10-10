@@ -9,7 +9,7 @@ titatem, cum utraque proportio ſit duplicata proportionis AC, ad BC. Similiter 
 47. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 VIDES igitur, longe eße uniuerſalius theorema hoc Euclidis, quod ſe ſe ad omnes figuras ſimiles ſimiliterque deſcriptas extendit, quàm illud Pythagoræ inuentum, quod ſola quadrata includit, ut propos. 47. primi lib. monuimus. Eſt tamen & theorema illud, quod ibi ex Pappo demonſtrauimus, adhuc vniuerſalius hoc, cum illud de omni triangulo, parallelogrammisque etiam non ſimilibus; Hoc vero de triangulo tantummodo rectangulo, figurisque ſimilibus, & ſimiliter poſitis, proponatur.
 

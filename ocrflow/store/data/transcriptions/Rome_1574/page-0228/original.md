@@ -13,9 +13,11 @@ dem habeãt baſin CD, ad eaſdẽq́; ſint partes, in eiſdẽ ſunt paralleli
 26.primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 POSSENT hæc omnia multo breuius probari per ſuperpoſitionẽ quadrati vnius ſuper aliud. Nã ſi lineæ ſunt æquales, ſi vna alteri ſuperponatur, congruent ipſæ inter ſe; Cũ ergo & anguli ſint æquales, nempe recti, conueniẽt quoq́; ipſi inter ſe, ideoq́; totũ quadratũ toti quadrato congruet. Quod ſi quadrata ſunt æqualia, cõgruent ipſa inter ſe, propter æqualitatẽ angulorũ; Igitur & lineæ; alias vnũ quadratũ alio maius eſſet.
+
+[Curated heading level=2 type=campanus: 46]
 
 ## THEOR. 33. PROPOS. 47.
 

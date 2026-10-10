@@ -4,6 +4,8 @@
 
 perſpicuum erat, reliquum EB, alicuius numeri eandem eſſe partem, quæ eſt AE, ipſius CF. Licet enim ipſius EB, duplũ aſſumere, triplum, quadruplum, &c. donec EB, ſit ita ſubmultiplex numeri aſſumpti GC, ut AE, eſt ſubmultiplex ipſius CF.
 
+[Curated heading level=2 type=campanus: 9]
+
 ## THEOR. 7. PROPOS. 9.
 
 SI numerus numeri pars fuerit, & alter alterius eadem pars: Et uiciſſim, quæ pars eſt, aut partes primus tertij, eadẽ pars erit, uel eædem partes & ſecundus quarti.
@@ -20,7 +22,7 @@ SIT numerus A, numeri BC, eadem pars, quæ numerus D, numeri EF, ſintque A, BC,
 5. uel 6. ſeptimi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi loco primi numeri unitas accipiatur, quæ numeri alicuius pars ſit, quæ alter numerus alterius: Erit uiciſſim
 

@@ -18,7 +18,7 @@ SED iam C, non metiatur ipſum D, inuentum. Inuento igitur E, minimo, quem C, & 
 37. ſeptimi
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 SEQVITVR ex his, ſi tres numeri numerum quempiam metiantur; etiam minimum, quem illi metiuntur, eundem metiri. Nã in extrema huius demonſtrationis parte, ex eo, quod A, B, C, ponebantur metiri ipſum F, oſtenſum eſt, & E, minimum quem A, B, C, metiuntur, eundem F, metiri.
 

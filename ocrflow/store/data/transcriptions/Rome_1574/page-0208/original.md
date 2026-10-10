@@ -8,7 +8,7 @@ GHDB, eidem parallelogrammo GCEB, æquale. Quare & parallelogramma ACEF, GHDB, i
 1. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 CONVERSVM huius theorematis duplex eſt, ad hũc modum.
 
@@ -27,6 +27,8 @@ SINT ſecundo eadem parallelogramma æqualia inter eaſdem parallelas AH, BG. Di
 31. primi.
 36. primi
 [/Margin]
+
+[Curated heading level=2 type=campanus: 37]
 
 ## THEOR. 27. PROPOS. 37.
 

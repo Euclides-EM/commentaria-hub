@@ -8,6 +8,8 @@ NAM quadrilaterum ABCD, diuidatur bifariam ab vtraq; diametro AC, BD. Dico ipſu
 39. primi.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 40]
+
 ## THEOR. 30. PROPOS. 40.
 
 [Margin]
@@ -25,7 +27,7 @@ SINT duo triangula æqualia ABC, DEF, ſuper baſes æquales BC, EF, (quæ in ea
 1. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EODEM modo demonſtrari poterit hoc theorema.
 

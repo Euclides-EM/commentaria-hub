@@ -11,7 +11,7 @@ Diuiſis .n. numeris AB, DE, in partes AG, GB; DH, HE, numerorum C, & F, erit mu
 5. ſeptimi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 SED & hanc propoſitionem ad quotcunque numeros extendentes, hoc modo amplificabimus.
 

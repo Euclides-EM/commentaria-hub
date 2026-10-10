@@ -13,7 +13,7 @@ INTER parallelas AB, CD, & ſuper baſin CD, ſint conſtituta duo ttiangula ACD
 
 [Figure: parallelogram figure with points A, E, B, F above and C, D below, crossed by diagonal lines]
 
-## SCHOLION.
+### SCHOLION.
 
 CONVERSA huius propoſitionis demonſtrabitur ab Euclide propos 39. Porro ex hac propoſitione facile cum Proclo demonſtrabimus, Triangula quorũ duo latera vnius æqualia ſint duobus lateribus alterius, vtrumque vtrique, & angulus vnius illis lateribus contentus maior angulo alterius, aliquando eſſe æqualia, & aliquando inæqualia; Id, quod in propos. 24. polliciti ſumus. Sint enim duo triangula ABC, DEF, & latera AB, AC æqualia lateribus DE, DF, & angulus A, maior angulo EDF, ſintq́ue primo hi duo anguli duobus rectis æquales: Dico triangula eſſe æqualia. Producatur enim ED, ad H, & FD, ad I. fiatq́; angulus EDG, æqualis angulo A, & recta DG, rectæ DF, ſeu AC; ducanturq́ue rectæ EG, GF. Quoniam igitur duo anguli A, & EDF, ponuntur æquales duobus rectis; & angulus EDG, æqualis eſt angulo A; erunt & anguli EDG, EDF, duobus rectis æquales: Sunt autem & an
 

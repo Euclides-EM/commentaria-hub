@@ -27,7 +27,7 @@ NON tranſeat iam DA, per centrũ E. Diuiſa ergo AC, bifariam in F, ducantur re
 47. primi
 [/Margin]
 
-## COROLLARIVM. I.
+### COROLLARIVM. I.
 
 HINC manifeſtum eſt, quod ſi a puncto quouis extra circulum aſſumpto plurimæ lineæ rectæ circulum ſecantes ducantur, rectangula cõprehenſa ſub totis lineis, & partibus exterioribus, inter ſe ſunt æqualia. Vt ſi ex A, ducantur rectæ AC, AD, AE, ſecantes circulum in F, G, H, erunt rectangula ſub AC, AE; Item
 

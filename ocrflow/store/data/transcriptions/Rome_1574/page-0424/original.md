@@ -7,6 +7,8 @@ D, (ponitur enim nunc D, prima ac tertia; At C, ſecunda, & AB, quarta) maior e�
 8. defin. 5.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 9]
+
 ## THEOR. 9. PROPOS. 9.
 
 [Margin]
@@ -26,6 +28,8 @@ HABEANT primo A, & B, eandem rationem ad C; Dico A, & B, eſſe inter ſe æqual
 [Margin]
 8. quinti.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 10]
 
 ## THEOR. 10. PROPOS. 10.
 

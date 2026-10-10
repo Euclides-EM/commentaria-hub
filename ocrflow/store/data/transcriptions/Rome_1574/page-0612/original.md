@@ -14,6 +14,8 @@
 
 *B, æque metientur ipſos D, E; eademq́ꝫ ratione B, C, ipſos E, F. Quare cum A, ipſum D, & C, ipſum F, æque metiatur, ac B, ipſum E; metientur æque omnes A, B, C, ipſos D, E, F.*
 
+[Curated heading level=2 type=campanus: 19]
+
 ## THEOR. 20. PROPOS. 22.
 
 [Margin]

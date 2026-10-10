@@ -1,7 +1,7 @@
 <!-- Running title: LIBER I. -->
 <!-- Page number: 19 -->
 
-## XIIII.
+### XIIII.
 
 SI æqualibus inæqualia adijciantur, erit totorum exceſſus, adiunctorum exceſſui æqualis.
 
@@ -13,7 +13,7 @@ HOC, & ſequens pronunciatum deſumpſit Proclus ex Pappo. ÆQualibus itaq́; qu
 2. pron.
 [/Margin]
 
-## XV.
+### XV.
 
 SI inæqualibus æqualia adiungantur, erit totorum exceſſus, exceſſui eorum, quæ a principio erant, æqualis.
 
@@ -23,7 +23,7 @@ IN eadem figura, inæqualibus quantitatibus BE, DF, addantur æquales AB, CD. Et
 2. pron.
 [/Margin]
 
-## XVI.
+### XVI.
 
 SI ab æqualibus inæqualia demantur,
 

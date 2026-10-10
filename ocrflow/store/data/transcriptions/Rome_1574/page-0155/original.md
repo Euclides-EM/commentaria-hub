@@ -10,6 +10,8 @@
 
 gulum E B C, eo reliquus angulus A B D, ſuperatur ab angulo recto E B D. Nam ſicut ibi exceſſus eſt angulus A B E, ita hic defectus eſt idem angulus A B E. Quocirca anguli A B C, A B D, duobus rectis æquales eſſe conuincuntur, ſiquidem tantum vnus eorum ſupra rectum acquirit, quantum alter deperdit.
 
+[Curated heading level=2 type=campanus: 14]
+
 ## THEOR. 7. PROPOS. 14.
 
 SI ad aliquam rectam lineam, atq; ad eius punctum, duæ rectæ lineæ non ad eaſdem partes ductæ eos, qui ſunt deinceps, angulos duobus rectis æquales fecerint; in directum erunt inter ſe ipſæ rectæ lineæ.

@@ -7,9 +7,11 @@ centro enim ducuntur) erunt anguli AEG, CEG, ęquales, ideoq́; recti: Erat aute
 8. primi.
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC manifeſtum eſt, ſi in circulo recta aliqua linea aliquam rectam lineam bifariam, & ad angulos rectos ſecet, in ſecante eſſe centrum circuli. Nam ex eo, quod BD, recta rectam AC, bifariam ſecat in E, & ad angulos rectos, oſtenſum fuit, punctum eius medium F, neceſſario eſſe circuli centrum.
+
+[Curated heading level=2 type=campanus: 2]
 
 ## THEOR. 1. PROPOS. 2.
 

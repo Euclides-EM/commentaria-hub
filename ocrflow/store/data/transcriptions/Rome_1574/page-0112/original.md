@@ -9,7 +9,7 @@ SIT parallelogrammũ A B C D, in quo diameter A C; & linea E F, ſecans diametru
 
 ## PETITIONES, SIVE POSTVLATA.
 
-## I.
+### I.
 
 POSTVLETVR, vt a quouis puncto in quoduis punctum, rectam lineam ducere concedatur.
 

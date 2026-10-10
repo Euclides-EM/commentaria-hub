@@ -15,6 +15,8 @@ uerſo, ita eſſe B, ad E, ut D, ad F; Item A, ad G, ut C, ad H. Sumantur enim 
 
 EX quo conſtat modus argumentandi, quo frequentiſſime vtuntur Geometræ, maxime Apollonius Pergæus, Archimedes, Theon, &c. Videlicet; Vt eſt A, ad B, ita eſt C, ad D; ergo ut duplum, uel triplum, uel quadruplum, &c. ipſius A, utpote E, ad B; ita quoque erit duplum, uel triplum, uel quadruplum, &c. ipſius C, quale eſt F, ad D. Item ut eſt A, ad B, Ita eſt C, ad D; igitur ut A, ad duplum uel triplum, uel quadruplum, &c. ipſius B, nempe ad G; ita erit quoque C, ad duplum, vel triplum, vel quadruplum, &c. ipſius D, nimirum ad H.
 
+[Curated heading level=2 type=campanus: 5]
+
 ## THEOR. 5. PROPOS. 5.
 
 [Margin]

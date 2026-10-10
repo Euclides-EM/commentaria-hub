@@ -43,6 +43,8 @@ SECET iam recta DE, latera AB, AC, proportionaliter. Dico DE, parallelam eſſe 
 39. primi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 3]
+
 ## THEOR. 3. PROPOS. 3.
 
 [Margin]

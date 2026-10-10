@@ -6,6 +6,8 @@
 
 portionibus A, ad G, & G, ad B; Eadem ex proportionibus C, ad F, & D, ad E, componetur. Quare plani numeri rationem inter ſe habent ex lateribus compoſitam. Quod demonſtrandum erat.
 
+[Curated heading level=2 type=campanus: 6]
+
 ## THEOR. 4. PROPOS. 6.
 
 [Margin]

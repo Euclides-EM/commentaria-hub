@@ -8,7 +8,7 @@ gulum uero ABC, ad triangulum FGH, habeat proportionem duplicatam eius, quam hab
 
 [Figure: two pentagons ABCDE and FGHIK divided into triangles by diagonals from A and F]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi polygona ſimilia, fuerint æquilatera, & æquiangula, diuidentur quoque in ſimilia triangula, & numero æqualia, ductis e centris circulorum ipſa circunſcribentium ad omnes angulos rectis lineis. Sint enim polygona ſimilia, æquilatera, & æquiangula ABCDEF, GHIKLM, quæ circunſcribantur a circulis circa centra N, O, ex quibus rectæ ducẽtur NA, NB, &c. Dico triangula NCD, OIK, ſimilia eſſe. Quoniam anguli CND, IOK, æquales ſunt; (quod æque ſubmultiplices ſint quatuor rectorum. Nam utrunque ſpacium N, & O, quatuor rectis æquiualens, ex coroll. 2. propos. 15. lib. I. diuiditur in angulos & numero, & quantitate æquales, ſubtenſos nimirum a baſibus æqualibus, contentosque lateribus æqualibus.) Sunt autem & latera circum ipſos proportionalia, cum utrobique ſit proportio æqualitatis; Similia erunt triangula NCD, OIK. Eademque eſt ratio de cæteris. At uero hæc triangula eſſe homologa totis polygonis, nullo negocio demonſtrabitur. Cum enim tota polygona ſint ipſorum triangulorum æque multiplicia, ut patet, habebunt utique eandem cum ipſis proportionem.
 

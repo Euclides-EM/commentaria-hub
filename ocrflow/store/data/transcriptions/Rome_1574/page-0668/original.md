@@ -14,6 +14,8 @@ K,1024. L,32. M,1.
 
 EX his etiam apparet, numeros, qui medij proportionales cadunt inter A, & B; necnon inter F, & I; atque inter E, & H, proportionem habere, quam duo numeri D, & G, numero aſſumpto C, proinquiores{printer-error-correction:propinquiores}.
 
+[Curated heading level=2 type=campanus: 11]
+
 ## THEOR. 9. PROPOS. 11.
 
 [Margin]

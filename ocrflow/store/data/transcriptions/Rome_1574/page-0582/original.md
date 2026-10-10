@@ -6,6 +6,8 @@ merum E, maximam illorum menſuram communem: Eademque in cæteris eſt ratio.
 
 PARI ratione, pluribus numeris datis, quam tribus, non primis inter ſe, maxima eorum comunis mẽſura inuenietur; locumq; habebit hoc idem corollarium. Nam ſi dati numeri fuerint quatuor, inuenienda erit primum maxima menſura communis trium numerorum ſi quinque, quatuor numerorum accipienda erit primum maxima communis menſura, &c. Reliqua uero omnia peragenda, ut de tribus numeris dictum eſt.
 
+[Curated heading level=2 type=campanus: 4]
+
 ## THEOR. 2. PROPOS. 4.
 
 [Margin]
@@ -25,6 +27,8 @@ SINT deinde A, & B, nõ primi inter ſe, ſed inter ſe compoſiti, & metiatur A
 SED iam A, non metiatur ipſum B; inuenta autem maxima eorum menſura communis ſit C; diuidaturque numerus A, in partes AD, DE, EF, quarum ſingulæ ipſi C, ſint æquales. Quia igitur C, pars eſt ipſius B, cũ ipſum metiatur; erit quoque AD, pars eiuſdem B: ſimiliter & DE, & EF: Ac propterea totus numerus A, eſt partes numeri B. Omnis igitur numerus, omnis numeri, minor maioris, aut pars eſt, aut partes. Quod demonſtrandum erat.
 
 [Diagram: three horizontal dotted lines, the first labelled A, D, E and F, the others B and C]
+
+[Curated heading level=2 type=campanus: 5]
 
 ## THEOR. 3. PROPOS. 5.
 

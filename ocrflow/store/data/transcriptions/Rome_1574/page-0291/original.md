@@ -28,6 +28,8 @@ POSTREMO, ſi DE, DB, non æqualiter diſtant a centro, erit ea, quæ magis diſ
 8.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 8]
+
 ## THEOR. 7. PROPOS. 8.
 
 SI extra circulum ſumatur punctum quodpiam, ab eoq́; puncto ad circulum de ducantur rectæ quædam lineæ, quarum vna quidem per centrum protendatur, reliquæ vero vt libet: In cauam peripheriam cadentium rectarum linearum maxima quidem eſt illa, quæ per centrum ducitur; aliarum autem propinquior ei, quæ per centrum tranſit, remotiore ſemper maior eſt: In conuexam vero peripheriam cadétium rectarum linearum minima quidem eſt illa, quæ inter punctum, & dia-

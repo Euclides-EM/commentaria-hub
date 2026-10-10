@@ -20,7 +20,7 @@ SINT ſeptimo ac ultimo A, & C, inter ſe æquales, ſiue ij maiores ſint quam 
 
 [Diagram: two rows of dotted lines labelled A, C and B, D]
 
-## SCHOLION.
+### SCHOLION.
 
 COACTI ſumus in hac propoſitione, & duabus præcedentibus tot caſus recenſere, eoſque demonſtrationibus certiſsimis confirmare, una cum lemmate propos. 11. ut earum ueri-
 

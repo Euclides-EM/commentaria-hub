@@ -13,6 +13,8 @@ E,4. F,16. G,64. H,256.
 I,8. K,64. L,512. M,4096.
 [/Calculation]
 
+[Curated heading level=2 type=campanus: 13]
+
 ## THEOR. 12. PROPOS. 14.
 
 [Margin]

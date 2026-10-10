@@ -1,5 +1,7 @@
 <!-- Running title: EVCLID. GEOM. -->
 
+[Curated heading level=2 type=campanus: 6]
+
 ## THEOR. 6. PROPOS. 6.
 
 [Margin]
@@ -18,7 +20,7 @@ A,8.  B,64.  C,512.
 5. noni.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 ALIAM demonſtrationem interpretes Euclidis hoc loco adducunt, & quidem longiorem. Poſtquam enim demonſtrarunt C, factum ex A, in B, eſſe cubum, inferunt: Ergo inter B, & C, cubos duo medij proportionales cadunt. Quoniam uero eſt vt B, ad C, ita A, ad B, quod A, multiplicans A, & B, ipſos B, & C, fecit; cadent quoque inter A, & B, duo medij proportionales; Atque adeo exiſtente B, cubo, & A, cubus erit. Verum noſtra demonſtratio breuior eſt, & planior, ut perſpicuum eſt.
 
@@ -41,6 +43,8 @@ A,8.  B,64.  C,512.
 [Margin]
 23. octaui
 [/Margin]
+
+[Curated heading level=2 type=campanus: 7]
 
 ## THEOR. 7. PROPOS. 7.
 

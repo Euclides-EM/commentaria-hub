@@ -3,6 +3,8 @@
 
 igitur duorum triangulorum & baſes, & anguli, nec non triãgula ipſa æqualia inter ſe ſint, neceſſe eſt, ut utrumque latus unius æquale ſit utriq́; lateri alterius, & anguli quoque dictis lateribus contenti æquales exiſtant, ut optime dixit Euclides.
 
+[Curated heading level=2 type=campanus: 5]
+
 ## THEOR. 2. PROPOS. 5.
 
 [Margin]

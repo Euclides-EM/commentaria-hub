@@ -24,9 +24,11 @@ SINT duæ rectæ inæquales A, minor, & B C, maior, oporteatq́; ex maiore B C, 
 
 QVOD ſi duæ rectæ datæ cõiungãtur in vno extremo, quales ſunt B D, & B C, cõiunctæ in extremo vtriuſq; B; deſcribẽdus erit circul⁹ ex B, ad interuallũ minoris B D. Hic.n. auferet B E, æqualẽ ipſi B D, vt cõſtat ex definitione circuli.
 
-## SCHOLION.
+### SCHOLION.
 
 VARIOS etiam poſſe caſus eſſe in hoc problemate, nemõ ignorat, cum duæ lineæ inæquales datæ vel inter ſe diſtent, ita vt neutra alterã cõtingat; vel nõ. ſed vel coniungãtur ad vnũ extremũ, vel ſe mutuo ſecent, vel certe altera alterũ ſuo extre mo tangat duntaxat, &c. de qua re lege Proclum hoc in loco.
+
+[Curated heading level=2 type=campanus: 4]
 
 ## THEOREMA 1. PROPOS. 4.
 

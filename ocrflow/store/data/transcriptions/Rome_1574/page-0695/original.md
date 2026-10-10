@@ -23,7 +23,7 @@ D,36.  C,324.
 20. octaui
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 Ex his demonſtrabimus quatuor inſequentia theoremata non inutilia.
 

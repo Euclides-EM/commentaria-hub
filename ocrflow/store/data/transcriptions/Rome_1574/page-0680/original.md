@@ -6,6 +6,8 @@ re cum & E, F, latera ſuum planum B, metiãtur, habebunt G, B, communem menſur
 
 Ex qua demonſtratione etiã manifeſtum relinquitur, priorum duorum numerorum A, G, communes menſuras eſſe C, D, latera prioris plani A, poſteriorum autem G, B, menſuras communes eſſe E, F, latera plani poſterioris B.
 
+[Curated heading level=2 type=campanus: 18]
+
 ## THEOR. 17. PROPOS. 19.
 
 [Margin]

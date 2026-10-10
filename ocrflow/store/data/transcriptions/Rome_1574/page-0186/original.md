@@ -3,9 +3,11 @@
 
 & alternatim angulos &c. Quod erat demonſtrandum.
 
-## SCHOLION.
+### SCHOLION.
 
 CONVERTIT autem hoc præſens theorema duo præcedentia theoremata, vt perſpicuum eſt.
+
+[Curated heading level=2 type=campanus: 30]
 
 ## THEOR. 21. PROPOS. 30.
 
@@ -29,7 +31,7 @@ SINT rectę A B. C D, eidem rectæ E F, parallelę; Dico & ipſas A B, C D, eſ�
 27. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi quis dicat, duas rectas A I, B I, parallelas eſſe rectæ C D, & tamen ipſas non eſſe parallelas; Occurrendũ eſt, duas A I, B I, non eſſe duas lineas, ſed partes tantum vnius lineæ. Concipiendum enim eſt animo, quaslibet parallelas infinite eſſe productas; Cõſtat aũt A I, productã coincidere cum B I. Quamobrem, quæ eidem rectæ lineæ parallelæ, &
 

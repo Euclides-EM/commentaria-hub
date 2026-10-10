@@ -2,11 +2,13 @@
 
 fuerint, &c. Quod erat oſtendendum.
 
-## SCHOLION.
+### SCHOLION.
 
 [Figure: four horizontal lines labelled A B, F G, E F and B C, beside two parallelograms A B C D and E F G H]
 
 IDEM uerum eſt, etiam ſi parallelogramma AC, EG, non ſint rectangula, dummodo ſint æquiangula, ita ut anguli dictis rectis lineis comprehenſi ſint æquales. Veluti manifeſtum eſt in hec figura. Eadem enim prorſus eſt demonſtratio.
+
+[Curated heading level=2 type=campanus: 16]
 
 ## THEOR. 12. PROPOS. 17.
 

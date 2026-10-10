@@ -3,6 +3,8 @@
 
 ea maior erit, vt iam demonſtratum eſt.
 
+[Curated heading level=2 type=campanus: 15]
+
 ## THEOR. 15. PROPOS. 16.
 
 [Margin]

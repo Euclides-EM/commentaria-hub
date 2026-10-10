@@ -11,7 +11,7 @@
 6.defin.5.
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC manifeſtum eſt, ſi quatuor quantitates fuerint proportionales, eaſdem & contra, ſeu inuerſa ratione, proportionales eſſe. Cum enim, propterea quod ſit A, prima ad B, ſecundam, ut C, tertia ad D, quartam, oſtenſum ſit, ſi I, multiplex primæ minor fuerit quam L, multiplex ſecundæ, uel ęqualis, uel maior, etiam K, multiplicem tertiæ minorem eſſe, uel æqualem, uel maiorem M, multiplici quartæ; Perſpicuum eſt, ſi econtrario L, maior fuerit quam I, uel æqualis, uel minor, etiam M, maiorem fore, uel æqualem, uel minorem, quam K, ſecundum quamcunque multiplicationem ſint ſumpta hæc æque multiplicia. Nam ſi utraque I, K, minor eſt quàm utraque L, M; erit contra utraque L, M, maior quã I, K, &c. Quare erit ut B, prima ad A, ſecundam, ita D, tertia ad C, quartam.
 
@@ -19,7 +19,7 @@ HINC manifeſtum eſt, ſi quatuor quantitates fuerint proportionales, eaſdem &
 6.defin.5.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 ORONTIVS quartum hoc Theorema ſic conatur demonſtrare. Poſtquam, ex 3. propos. huius lib oſtendit I, K, eſſe æque multiplices magnitudinum A, C; Item L, M, eſſe æque multiplices magnitudinum B, D, infert ſtatim per cõuerſum 6. definitionis, iuxta ſuam expoſitionem, ita eſſe I, ad L, ut K, ad M. Quare per eandem definitionem, inquit, erit quoque E, ad G, ut F, ad H. Quæ quidem demonſtratio admodum eſt uitioſa, tum quia ſecundum hunc ſenſum demonſtra
 

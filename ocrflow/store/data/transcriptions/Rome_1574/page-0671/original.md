@@ -10,6 +10,8 @@ E,9. G,12. F,16.
 C,3. D,4.
 [/Calculation]
 
+[Curated heading level=2 type=campanus: 12]
+
 ## THEOR. 11. PROPOS. 13.
 
 [Margin]

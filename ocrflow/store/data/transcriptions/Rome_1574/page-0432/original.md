@@ -2,7 +2,7 @@
 
 <!-- Page number: 174 -->
 
-## SCHOLION.
+### SCHOLION.
 
 EX hoc & illud demonſtrabitur.
 
@@ -19,6 +19,8 @@ SIT enim ut A, prima ad B, ſecundam, ita C, tertia ad D, quartam. Dico, ſi A, 
 [Margin]
 14. quinti.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 17]
 
 ## THEOR. 17. PROPOS. 17.
 

@@ -12,6 +12,8 @@ SINT triangula æqualia, ABC, DEF, inter parallelas AD, BF, & ſuper baſes BC, 
 1. pron.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 41]
+
 ## THEOR. 31. PROPOS. 41.
 
 [Margin]
@@ -29,7 +31,7 @@ INTER parallelas AB, CD, & ſuper baſin CD, conſtituantur parallelogrammum ACD
 34. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HINC ſequiũ, ſi triangulũ duplã habuerit baſin, fueritq́;
 

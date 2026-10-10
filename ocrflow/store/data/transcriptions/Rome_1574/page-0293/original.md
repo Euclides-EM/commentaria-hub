@@ -14,7 +14,7 @@ POSTREMO fiat angulo A K C, angulus A K L, æqualis, & ducatur recta A L. Quonia
 4 primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EADEM ratione ab A, in peripheriam concauam duæ tantum lineæ æquales cadent, ad vtraſq; partes maximæ A I. Fiat enim angulo A K H, æqualis angulus A K M, iungaturq́; recta A M. Quia igitur latera A K, K H, æqualia ſunt lateribus A K, K M; ſunt autem & anguli A K H, A K M, æquales: erunt baſes A H, A M, æquales. Neque vero vlla alia his duabus æqualis exhiberi poteſt. Nam quæcunque ex A, ducatur ad partes H, ea vel maior erit, vel minor, quam A H, prout citra vel vltra rectam A H, ducta fuerit, vt manifeſtum eſt ex demonſtratione theorematis.
 

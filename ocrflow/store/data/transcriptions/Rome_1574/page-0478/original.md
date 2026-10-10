@@ -1,16 +1,18 @@
 <!-- Running title: LIBER VI. -->
 <!-- Page number: 197 -->
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 Ex hoc manifeſtum eſt, perpendicularẽ quæ in rectangulo triãgulo ab angulo recto in baſin demittitur, eſſe mediam proportionalem inter duo baſis ſegmenta: Item latus utrumlibet angulum rectum ambiens, medium proportionale inter totam baſin, & illud ſegmentum baſis, quod dicto lateri adiacet.
 
 OSTENSVM eſt enim, eſſe ut BD, ad DA, ita DA, ad DC; ac propterea DA, eſſe mediam proportionalem inter BD, & DC: Item eſſe ut CB, ad BA, ita BA, ad BD; & idcirco BA, mediam eſſe proportionalem inter CB, & BD: Denique eſſe ut BC, ad CA, ita CA, ad CD; ideoque CA, eſſe proportionalem mediam inter BC, & CD. Quod eſt propoſitum.
 
+[Curated heading level=2 type=campanus: 11]
+
 ## PROBL. 1. PROPOS. 9.
 
 [Margin]
-II.
+11.
 [/Margin]
 
 A DATA recta linea imperatam par tem auferre.
@@ -24,7 +26,7 @@ IMPERETVR, ut ex linea AB, auferamus partem tertiam. Ex A, ducatur recta AC, utc
 18. quinti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi ex AB, auferenda ſit pars, quæ contineat quatuor undecimas ipſius AB, ſumendæ erunt ex AC, undecim
 

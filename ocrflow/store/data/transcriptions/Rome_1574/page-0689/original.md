@@ -6,6 +6,8 @@ cubus ſit, ex conſtructione, cubus quoque erit D.
 22.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 22]
+
 ## THEOR. 22. PROPOS. 24.
 
 SI duo numeri rationem habeant inter ſe, quam quadratus numerus ad quadratũ numerum, primus autem ſit quadratus; & ſecundus quadratus erit.
@@ -29,7 +31,7 @@ C,9.   E,12.  D,16.
 22. octaui
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 LIQVET ex his, proportionem cuiusuis numeri quadrati ad quemlibet numerum non quadratum exhiberi nullo modo poſſe in duobus numeris quadratis. Si enim exhiberetur, eſſent ambo priores numeri habentes proportionem, quam quadrati proportionis exhibitæ, etiam quadrati, cũ primus ponatur quadratus. Quod eſt abſurdum. Ponitur enim ſecundus, non quadratus. Vnde numeri in dupla proportione, proportionem non habent, quam quadratus ad quadratum. Si enim haberent, eſſent omnes hi dupli numeri 4. 8. 16. 32. 64. 128. &c. quadrati. Primo enim 4. exiſtente quadrato, eſſet & 8. quadratus; Igitur & 16. & 32. &c. quod eſt abſurdum.
 
@@ -44,6 +46,8 @@ LIQVET ex his, proportionem cuiusuis numeri quadrati ad quemlibet numerum non qu
 [Margin]
 23.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 23]
 
 ## THEOR. 23. PROPOS. 25.
 

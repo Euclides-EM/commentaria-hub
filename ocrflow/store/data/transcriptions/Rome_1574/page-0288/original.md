@@ -7,6 +7,8 @@ culi EBD, erit recta EC, rectæ BC, æqualis. Rurſus quia C, centrum quoque pon
 6.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 6]
+
 ## THEOR. 5. PROPOS. 6.
 
 SI duo circuli ſeſe mutuo interius tangant; eorum non erit idem centrum.
@@ -15,13 +17,15 @@ DVO circuli AB, BC, ſe interius tangant in B; Dico eos non habere idem centrum.
 
 [Diagram: two circles tangent internally at B above, with centre D joined by lines to B and through A to C at the lower left]
 
-## SCHOLION.
+### SCHOLION.
 
 EVCLIDES propoſuit theorema hoc de circulis ſeſe interius tangentibus duntaxat, quoniam circulorum exterius ſeſe tangentium, cum vnus ſit extra alium, non poſſe eſſe idem centrum, manifeſtum eſt.
 
 [Margin]
 7
 [/Margin]
+
+[Curated heading level=2 type=campanus: 7]
 
 ## THEOR. 6. PROPOS. 7.
 

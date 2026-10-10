@@ -4,6 +4,8 @@
 7.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 7]
+
 ## THEOR. 5. PROPOS. 7.
 
 SI numerus numeri pars fuerit, qualis ablatus ablati: Et reliquus reliqui eadem pars erit, qualis totus totius.
@@ -16,7 +18,7 @@ SIT numerus AB, eadem pars numeri CD, quæ ablatus AE, ablati CF. Dico reliquum 
 5. ſeptimi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 IDEM hoc theorema uerum eſt, etiam ſi ablata ſit unitas AE, uel reliqua fuerit unitas EB; uel denique & ablata, & reliqua ſit unitas, ut ex his exemplis apparet.
 

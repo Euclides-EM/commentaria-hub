@@ -3,10 +3,12 @@
 
 bus complementis BG, GD, Gnomon appellabitur.
 
+[Curated heading level=2 type=campanus: 1]
+
 ## THEOR. 1. PROPOS. 1.
 
 [Margin]
-I.
+1.
 [/Margin]
 
 SI fuerint duæ rectæ lineæ, ſeceturque ipſarum altera in quotcunque ſegmenta: Rectangulum comprehenſum ſub illis duabus rectis lineis, æquale eſt eis, quæ ſub inſecta, & quolibet ſegmentorum comprehenduntur, rectangulis.

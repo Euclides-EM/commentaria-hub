@@ -20,7 +20,7 @@ SED iam ſit E, ex A, primo in D, quartũ genitus, æqualis ipſi F, producto ex
 18. ſeptimi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 POTERAT huius theorematis prima pars proponi etiam ad hunc modum.
 

@@ -4,6 +4,8 @@
 
 les; Ac propterea AC, maior, quam DF.
 
+[Curated heading level=2 type=campanus: 26]
+
 ## THEOR. 24. PROPOS. 27.
 
 [Margin]
@@ -26,7 +28,7 @@ INSISTANT ſecundo eiſdem peripherijs æqualibus AC, DF, anguli B, & E, ad peri
 26. tertij.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HÆC ſecunda pars ita quoque demonſtrabitur. Quoniã anguli ABC, & E, dimidii ſunt angulorum AGC, & H, quos iã oſtendimus eſſe æquales; erum{printer-error-correction:erunt} & ipſi inter ſe æquales.
 

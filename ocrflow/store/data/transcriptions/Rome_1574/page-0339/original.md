@@ -16,7 +16,7 @@ ad AB, & angulus CEF, rectus; ac propterea reliqui anguli ECF, EFC, æquales eru
 
 [Figure: circle touched at C by the line ACB, with points D and G on the sides and E and F at the bottom, and chords joining C, D, G, E and F]
 
-## SCHOLION.
+### SCHOLION.
 
 POTEST theorema hoc conuerti hoc modo.
 

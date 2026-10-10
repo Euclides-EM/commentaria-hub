@@ -13,6 +13,8 @@ quã hi æquales ſunt duobus rectis: Si auferantur anguli AFD, BFC, qui æquale
 
 ALITER. Ductis rectis DF, CF, ad pũctũ circũferẽtiæ quoduis F, includẽtibus cẽtrũ E, ita vt tã DABCF, q̃ FDABC, ſit ſegmẽtũ maius, iungãtur quoq; rectæ AF, BF. Quia igitur anguli DAF, DBF, in eodem ſegmento maiori DABCF, ęquales ſunt; nec nõ & anguli FAC, FBC, in ſegmẽto etiã maiori FDABC, exiſtẽtes: Si hi illis addãtur, fiet totus angulus DAC, toti angulo DBC, æqualis. Itaq; in circulo, qui in eodẽ ſegmento ſunt, &c. Quod erat oſtẽdendũ.
 
+[Curated heading level=2 type=campanus: 21]
+
 ## THEOR. 20. PROPOS. 22.
 
 [Margin]

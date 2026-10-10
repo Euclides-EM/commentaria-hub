@@ -11,6 +11,8 @@
 9. pron.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 26]
+
 ## THEOR. 17. PROPOS. 26.
 
 [Margin]

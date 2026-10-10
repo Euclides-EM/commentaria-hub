@@ -9,7 +9,7 @@ SINT enim datæ rectæ A, B, oporteatq́; conſtituere parallelogrammum habens a
 
 [Figure: parallelogram with vertices F, G, E, D, angle C at left, and two horizontal lines A and B below]
 
-## PRAXIS.
+### PRAXIS.
 
 SIT ducenda parallela ipſi B C per punctum A. Ducatur recta A D, vtcunq; ad B C & ex D & A ad idẽ interuallũ quodlibet deſcribãtur duo arcus ad diuerſas partes; vnꝰ ad partes B alter ad partes C: Deinde officio circini arcui E F, abſcindatur ex arcu altero arcus G H æqualis. Si igit̃ ex A, p H, recta ducat̃, erit hæc parallela ipſi B C. Nã anguli E D F, H A G ſunt æqualis, vt cõſtat ex praxi propoſ. 23. &c.
 

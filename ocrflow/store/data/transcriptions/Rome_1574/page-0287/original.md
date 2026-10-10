@@ -5,6 +5,8 @@
 4.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 4]
+
 ## THEOR. 3. PROPOS. 4.
 
 SI in circulo duæ rectæ lineæ ſeſe mutuo ſecent non per centrum extenſæ; ſeſe mutuo bifariam non ſecabunt.
@@ -21,6 +23,8 @@ DVAE rectæ AB, CD, ſe mutuo in E, ſecent in circulo ACBD, non per centrum ext
 [Margin]
 5.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 5]
 
 ## THEOR. 4. PROPOS. 5.
 

@@ -1,5 +1,7 @@
 <!-- Running title: EVCLID. GEOM. -->
 
+[Curated heading level=2 type=campanus: 10]
+
 ## THEOR. 9. PROPOS. 10.
 
 [Margin]
@@ -31,6 +33,8 @@ ALITER. Secent ſe ijdem duo circuli, ſi fieri poteſt, in tribus punctis A, & 
 [Margin]
 5. tertij
 [/Margin]
+
+[Curated heading level=2 type=campanus: 11]
 
 ## THEOR. 10. PROPOS. 11.
 

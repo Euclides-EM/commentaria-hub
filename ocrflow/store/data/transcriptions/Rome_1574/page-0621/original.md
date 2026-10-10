@@ -12,6 +12,8 @@ ut G, toties metiatur ipſum A, quoties unitas eſt in D; & ipſum B, toties, qu
 24.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 24]
+
 ## THEOR. 23. PROPOS. 25.
 
 SI duo numeri primi inter ſe fuerint; Qui unum eorum metitur numerus, ad reliquum primus erit.

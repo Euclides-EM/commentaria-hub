@@ -25,6 +25,8 @@ D, 3. E, 4. F, 6. G, 8.
 19.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 19]
+
 ## THEOR. 19. PROPOS. 21.
 
 SI inter duos numeros duo medij proportionales cadant numeri; Similes ſolidi ſunt illi numeri.

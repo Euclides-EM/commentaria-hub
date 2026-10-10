@@ -13,7 +13,7 @@ C,6. D,2. E,9. F,3.
 
 QVIA uero, exiſtentibus A, G, B, continue proportionalibus, A, ad B, duplicatam habet rationem eius, quam habet A, ad G, hoc eſt, C, ad E, uel D, ad F; perſpicuuum eſt proportionem numeri plani A, ad planum B, eſſe duplicatam eius, quam habet C. ad E, uel D, ad F, latus homologum ad latus homologum. Duorum igitur ſimilium planorum numerorum, &c. Q uod erat demonſtrandum.
 
-## SCHOLION.
+### SCHOLION.
 
 QVIA oſtenſum eſt A, G, B, eſſe proportionales in ratione C, ad E, uel D, ad F; manifeſtum eſt, inter duos ſimiles planos A, & B, cadere medium proportionalem G, in ratione laterum homologorum C, E, uel D, F, aſſumptorum.
 

@@ -7,7 +7,7 @@ nor diceretur, quam A C B. Campanus deſcribens rectam lineam, vocat eam breuiſ
 lib.1.tex.5.
 [/Margin]
 
-## V.
+### V.
 
 SVPERFICIES eſt, quæ longitudinem, latitudinemq́; tantum habet.
 

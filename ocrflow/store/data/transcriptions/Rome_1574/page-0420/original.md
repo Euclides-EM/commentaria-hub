@@ -1,6 +1,8 @@
 <!-- Running title: LIBER. V. -->
 <!-- Page number: 168 -->
 
+[Curated heading level=2 type=campanus: 6]
+
 ## THEOR. 6. PROPOS. 6.
 
 [Margin]

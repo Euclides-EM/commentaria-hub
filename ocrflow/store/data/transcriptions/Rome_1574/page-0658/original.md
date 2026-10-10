@@ -7,7 +7,7 @@ pterea in ſua proportione minimi; æque metietur G, ipſum E, & K, ipſum F. Qu
 23. & 21. ſeptimi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 NON ſolum ex demonſtratione cõſtat, totidem medios proportionales cadere inter E, & F, quot inter A, & B; verum etiam eandem eſſe proportionem numerorum E, L, M, F, quæ eſt numerorum A, C, D, B. Oſtenſum enim eſt E, L, M, F, in eadẽ eſſe proportione, in qua G H, I, K: Sed hi eandem habent, ex conſtructione, quam A, C, D, B. Igitur & E, L, M, F, eandem habent, quam A, C, D, B.
 

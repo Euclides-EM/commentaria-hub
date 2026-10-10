@@ -15,6 +15,8 @@ PAPPVS cõſtruit figurã aliter. Nam ſumit rectas AC, AE; et AB, AG, in direct
 
 [Figure: triangle with apex H above; E and G near the apex, A at the centre, I and K on a horizontal line, D at the left, F at the right, and B, L, C along the base, with diagonal lines connecting the points]
 
+[Curated heading level=2 type=campanus: 47]
+
 ## THEOR. 34. PROPOS. 48.
 
 [Margin]

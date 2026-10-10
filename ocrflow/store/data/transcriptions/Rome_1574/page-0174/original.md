@@ -17,7 +17,7 @@ ctionem, erũt anguli G F H, F G I, infra baſin F G, æquales: Eſt autem angul
 19. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 SI quis forte roget, cur in 4. propoſitione Euclides ex eo, quod duo latera vnius trianguli æqualia ſint duobus lateribus alterius trianguli, vtrumque vtrique, & anguli contenti dictis lateribus æquales, concluſeris non ſolum æqualitatem baſium, verum etiam triangulorum, & reliquorum angulorum; hic autem ex eo, quod duo latera vnius trianguli æqualia ſint duobus lateribus alterius trianguli, vtrunque vtrique, anguli vero lateribus illis comprehenſi inæquales, colligat tantum inæqualitatem baſium, non autem triangulorum, & reliquorũ angulorum: Huic reſpondendum eſt, neceſſario id ab Euclide peritiſſimo Geometra eſſe factum: Nam ex antecedente huius theorematis ſemper conſequitur baſium inæqualitas, ita vt baſis illius trianguli, cuius angulus contentus lateribus aſſumptis eſt maior, ſuperet baſin alterius trianguli, cuius angulus minor exiſtit. ut demonſtratum eſt; Non autem neceſſe eſt, triangulum illud maius hoc eſſe. Vt enim clariſſime ex Proclo demonſtrabimus ad propoſ. 37 huius primi libri, Triangulũ maiorem habens angulum aliquando æquale eſt triangulo minorem habenti angulum, aliquando uero minus eodem, & aliquando maius. Non igitur potuit in uniuerſum inferri, ex eo, quod angulus unius trianguli maior eſt angulo alterius, triangulum etiam maius eſſe, cum modo æquale ſit; modo minus, & modo maius. Idem dici poteſt de angulis reliquis: Nam in prima figura huius theorematis angulus A B C, minor
 

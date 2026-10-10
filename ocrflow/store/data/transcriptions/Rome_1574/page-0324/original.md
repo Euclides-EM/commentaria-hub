@@ -3,7 +3,7 @@
 
 & duo ABC, CDA, duobus erũt rectis æquales. Eodem modo oſtendemus, angulos BCD, DAB, duobus eſſe rectis ęquales. Quadrilaterorum igitur in circulis deſcriptorũ, &c. Quod demonſtrandum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 CONVERSVM quoq; huius theorematis demonſtrari poteſt, hoc modo.
 
@@ -20,6 +20,8 @@ IN quadrilatero enim ABCD, ſint anguli oppoſiti A, & C; Item B, & D, duobus re
 [Margin]
 21. primi.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 22]
 
 ## THEOR. 21. PROPOS. 23.
 

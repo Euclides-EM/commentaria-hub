@@ -1,7 +1,7 @@
 <!-- Running title: LIBER VIII. -->
 <!-- Page number: 290 -->
 
-## SCHOLION.
+### SCHOLION.
 
 Ex his conſtat, numeros, qui medij proportionales cadunt inter A, & B, proportionem habere, quam duo numeri unitati propinquiores, quales ſunt C, & F.
 

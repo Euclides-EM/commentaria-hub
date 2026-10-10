@@ -33,7 +33,7 @@ Hoc oſtenſo theoremate, ita propoſitio 19. demonſtrabitur. In triangulo A B 
 9. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HAEC propoſitio 19 cõuerſa eſt propoſitionis 18, vt perſpicuũ eſt. Campanus autem duarũ iſtarũ propoſitionũ ordinẽ prorſus inuertit, ita vt ea, quæ apud nos eſt 18. apud ipſum ſit 19. & contra. Quarum vtramque oſtendit ducendo ad id,
 

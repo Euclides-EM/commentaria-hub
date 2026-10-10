@@ -18,6 +18,8 @@ A, & C, cadat medius proportionalis; erunt A, & C, plani ſimiles. Quare exiſte
 21.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 21]
+
 ## THEOR. 21. PROPOS. 23.
 
 SI quatuor numeri deinceps ſint proportionales, primus autem ſit cubus; Et quartus cubus erit.
@@ -36,7 +38,7 @@ A,27. B,45. C,75. D,125.
 
 A, & D, ſolidi ſimiles. Quare exiſtente A, cubo, erit & D, illi ſimilis, cubus. Quam ob rem, ſi quatuor numeri deinceps ſint proportionales, &c. Quod erat oſtendendum.
 
-## SCHOLION.
+### SCHOLION.
 
 HÆC eſt apud omnes interpretes Euclidis, quos ego vidi, vulgata demonſtratio præcedentium duarum propoſitionũ; quam qui diligenter examinare velit, inueniet ſane mancam eſſe, & imperfectam. Cum enim ad defin. 21. lib. 7. tradiderimus, duos numeros planos, vel ſolidos poſſe ſimiles eſſe, quamuis non quibuſcunque lateribus vnius exhiberi poſſint alia latera alterius proportionalia; dummodo quibuſdam lateribus vnius proportionalia ſint quædam alterius; Iure optimo
 

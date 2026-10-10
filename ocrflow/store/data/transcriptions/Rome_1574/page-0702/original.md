@@ -5,6 +5,8 @@ moquinto, decimooctauo, & alijs, quæ ternarius metitur, cuiuſmodi ſunt numeri
 
 NAM primi ordinis numeri omnes ſemper unum intermittunt poſt tertium ab unitate: At ſecundi ordinis numeri omittunt ſemper duos numeros poſt quartum ab unitate. Numeri denique tertij ordinis quinque ſemper interponunt poſt ſeptimum ab vnitate, quemadmodum in theoremate proponit Euclides.
 
+[Curated heading level=2 type=campanus: 9]
+
 ## THEOR. 9. PROPOS. 9.
 
 [Margin]

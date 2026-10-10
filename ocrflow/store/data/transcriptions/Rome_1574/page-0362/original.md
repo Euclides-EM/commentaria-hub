@@ -23,6 +23,8 @@ B H, æquales erunt: Quoniam ergo latera A F, F H, trianguli A F H, æqualia ſu
 26. primi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 13]
+
 ## PROBL. 13. PROPOS. 13.
 
 [Margin]

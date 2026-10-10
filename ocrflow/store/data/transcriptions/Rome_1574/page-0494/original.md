@@ -3,7 +3,7 @@
 
 ergo recta linea, dato rectilineo ſimile ſimiliterque poſitum rectilineum deſcripſimus; Quod faciendum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 DICVNTVR autem rectilinea ſuper lineas rectas deſcripta, eſſe ſimilia & ſimiliter poſita, quando anguli æquales conſtituuntur ſuper ipſas rectas lineas, & reliqui æquales ſemper ordine ſe ſe conſequuntur, nec non, & latera proportionalia. Vt triangula ABC, DEF, non ſolum erunt ſimilia, ſed etiã ſuper rectas BC, EF, ſimiliter deſcripta, ſi anguli B, C, æquales fuerint angulis E, F; & ita ſit AB, ad BC, ut DE, ad EF, &c. At ſuper rectas BC, DE, non dicentur ſimiliter eſſe deſcripta, cum anguli B, C, non ſint æquales angulis D, E. Similiter rectangula AC, EG, ſimilia, dicentur ſimiliter eſſe deſcripta ſup rectas DC, HG, quoniam ut AD, ad DC, ita eſt EH, ad HG, &c. At vero rectangula AC, IG, non dicentur ſimiliter deſcripta ſuper rectas DC, HG, quamuis ſint ſimilia, ut manifeſtum eſt. Eadem tamen ſimiliter erunt deſcripta ſuper rectas DC, IH, uel ſuper rectas AD, HG.
 

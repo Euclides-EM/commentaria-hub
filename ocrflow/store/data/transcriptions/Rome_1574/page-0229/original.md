@@ -14,7 +14,7 @@ erunt. Rurſus quia anguli ABF, CBE, ſunt æquales, cũ ſint recti, ſi addatu
 6. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 INVENTIO huius theorematis ad Pythagoram refertur, qui, vt ſcribit Vitruuius lib.9. hoſtias Muſis immolauit, quod ſe in tam præclaro inuento adiuuerint. Sunt qui putent, eum immolaſſe centum boues; ſi tamen Proclo credendum eſt, vnum tantummodo obtulit. Fortaſſe autem Pythagoras, vt nonnulli volunt, ex numeris occaſionem ſumpſit, vt theorema hoc inueſtigaret. Cum enim hos tres numeros 3. 4. 5. diligenter eſſet contemplatus, vidiſſetq́; quadratum numerum maioris æqualem eſſe quadratis numeris reliquorum, com-
 

@@ -21,6 +21,8 @@ ALITER. Si E C, non eſt perpendicularis ad A B, erit alter angulorũ Ad C, obtu
 18.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 18]
+
 ## THEOR. 17. PROPOS. 19.
 
 SI circulum tetigerit recta quæpiam linea, a cõtactu autem recta linea ad angulos rectos ipſi tangenti excitetur: In excitata erit centrum circuli.
@@ -36,6 +38,8 @@ TANGAT recta A B, circulum C D E, in C; & ex C, ducatur C E, perpendicularis ad 
 [Margin]
 19.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 19]
 
 ## THEOR. 18. PROPOS. 20.
 

@@ -12,7 +12,7 @@ IK, connectanturq́ue rectæ FK, HK. Deſcribantur iam ex FK, HK, rectilinea FKL
 
 [Figure: a rectangle A, a triangle D, a triangle FGH with semicircle on line FIH and points L, K, M, and three vertical lines labelled B, C, E]
 
-## DVOBVS datis rectilineis, æquale rectilineum conſtituere, quod ſimile ſit, ſimiliterque poſitum cuiuis rectilineo dato.
+#### DVOBVS datis rectilineis, æquale rectilineum conſtituere, quod ſimile ſit, ſimiliterque poſitum cuiuis rectilineo dato.
 
 [Margin]
 VII.

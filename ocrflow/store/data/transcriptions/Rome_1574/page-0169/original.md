@@ -1,7 +1,7 @@
 <!-- Running title: EVCLID. GEOM. -->
 <!-- Page number: [unclear: 43] -->
 
-## EX PROCLO.
+### EX PROCLO.
 
 SIT triangulum habens exempli gratia angulum A B C, obtuſum. Dico ab extremo C, & a quouis puncto, nempe a D, prope aliud extremum B, lateris B C, duci poſſe duas lineas intra triangulum ad aliquod punctum, quæ maiores ſint duobus lateribus B A, A C. Ducatur enim recta D A: Et quoniã in triangulo A B D, duo anguli A B D, A D B, minores ſunt duobus rectis; Ponitur autem A B D, maior recto, nempe obtuſus; erit A D B, minor recto, ideoque minor angulo A B D. Quare latus A D, maius erit latere A B. Ex D A, abſcindatur recta D E, æqualis rectæ A B; Et reliqua linea A E, bifariam diuidatur in F. Si igitur ab extremo C, ad F, recta ducatur C F, erunt duę lineę rectæ conſtitutę C F, D F, intra triangulum maiores duobus lateribus B A, A C. Quoniam in triangulo A F C, duo latera A F, F C, maiora ſunt latere A C; Eſt autem recta A F, ipſi F E, ęqualis, per conſtructionem; erunt C F, F E, maiores quoque latere C A. Si igitur ęqualia addantur E D, & A B, fient rectę C F, F D, maiores lateribus C A, A B. Quod eſt propoſitum. Quod ſi ad F, ex B, extremo recta duceretur, eſſent duæ rectę conſtitutę C F, B F, minores duobus lateribus C A, A B, ut Euclides demonſtrauit.
 
@@ -32,6 +32,8 @@ RVRSVS ſit triangulum ſcalenum A B C, cuius latus maximũ B C, minimum A B. Ex
 
 16. primi
 [/Margin]
+
+[Curated heading level=2 type=campanus: 22]
 
 ## PROBL. 8. PROPOS. 22.
 

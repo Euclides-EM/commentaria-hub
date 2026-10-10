@@ -4,6 +4,8 @@
 32.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 32]
+
 ## THEOR. 23. PROPOS. 33.
 
 IN æqualibus circulis, anguli eandem habent rationem cum peripherijs, quibus inſiſtunt, ſiue ad centra, ſiue ad peripherias conſtituti inſiſtant: Inſuper uero & ſectores, quippe qui ad centra conſiſtunt.

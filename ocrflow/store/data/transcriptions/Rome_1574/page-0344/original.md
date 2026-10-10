@@ -9,6 +9,12 @@ SECENT ſe mutuo rectæ AB, CD, in E, ſitque rectangulum ſub AE, EB, æquale r
 35. tertij.
 [/Margin]
 
+[Margin]
+35.
+[/Margin]
+
+[Curated heading level=2 type=campanus: 35]
+
 ## THEOR. 30. PROPOS. 36.
 
 SI extra circulum ſumatur punctum aliquòd, ab eoque in circulum cadant duæ rectæ lineæ, quarum altera quidem circulum ſecet, altera uero tangat: Quod ſub tota ſecante, & exterius inter punctum & conuexam peripheriam aſſumpta comprehenditur rectangulum, æquale erit ei, quod a tangente deſcribitur, quadrato.

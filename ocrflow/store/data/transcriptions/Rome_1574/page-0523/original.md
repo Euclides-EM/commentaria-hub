@@ -11,7 +11,7 @@ LN, æquale, & eidem ſimile ſimiliterque poſitum, & propterea ipſi EG: atque
 
 [Figure: two triangles labelled C and I, a parallelogram labelled D, and parallelograms on a base line with points labelled H, F, G, K, O, V, R, S, M, A, E, B]
 
-## SCHOLION.
+### SCHOLION.
 
 MOVENT hoc in loco dubium quoddam Iacobus Peletarius, & Nicolaus Tartalea, quod iuxta noſtram conſtructionem locum non habet, cum ſuper EB, conſtituerimus EG, parallelogrammum non ſolum ſimile ipſi D, verum etiam ſimiliter poſitum; quòd ipſi minime fecerunt. Qua de re cõſule eorum commentarios.
 

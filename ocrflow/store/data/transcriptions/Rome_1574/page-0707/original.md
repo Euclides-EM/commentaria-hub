@@ -6,7 +6,7 @@
 
 merum G: Sed unitas metitur numerum D, per ipſummet D. Igitur & C, numerus numerum G, per D, metietur. Eadem ratione metietur E, ipſum F, per A, quod ſit ut E, ad F, ita unitas ad A, &c. Sic quoque metietur A, ipſum G, per F, cum ſit ex æquo ut A, ad G, ita unitas ad F, &c. Atque ita de reliquis eodem modo. Si igitur ab unitate quotcunque numeri deinceps proportionales fuerint, &c. quod erat oſtendendum.
 
-## SCHOLION.
+### SCHOLION.
 
 PERSPICVVM autem eſt ex his, quantum abeſt maior numerus a minore metiente, tantum diſtare ab vnitate eum numerum, per quem minor maiorem metitur; propterea quod eadem eſſe debet proportio minoris ad maiorem, quæ vnitatis ad eum, per quem metitur minor maiorem, ut ex demonſtratio-
 
@@ -25,6 +25,8 @@ HINC rurſus efficitur, quemlibet numerum, qui ſe ipſum multiplicet, producere
 [Margin]
 11.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 11]
 
 ## THEOR. 12. PROPOS. 12.
 

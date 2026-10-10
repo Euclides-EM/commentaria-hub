@@ -1,12 +1,12 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## PRAXIS.
+### PRAXIS.
 
 SVMATVR recta D E, æqualis cuicunque rectarum datarum, nempe ipſi B, quam nunc volumus eſſe baſin: Deinde ex D. ad interuallũ rectæ A, arcus deſcribatur: Item ex E, ad interuallum rectæ C, alter arcus ſecans priorem in F. Si igitur ducantur rectæ D F, E F, factum erit triangulum habens tria latera æqualia tribus datis lineis. Erit enim latus D F, æquale rectæ A, propter interuallum ipſius A, aſſumptum: & latus E F, ipſi C, propter aſſumptum interuallum C; D E, vero latus, acceptum eſt rectæ B, æquale, ab initio.
 
 [Figure: triangle D E F with apex F crossed by arcs, beside three horizontal line segments labelled A, B and C]
 
-## SCHOLION.
+### SCHOLION.
 
 HAC arte cuicunque triangulo propoſito alterum prorſus æquale & quoad latera, anguloſq́;, & quoad aream ipſius, conſtituemus. Sit namque triangulum quodcunque A B C, cui æquale omni ex parte eſt conſtruendum. Intelligo eius latera, tanquam tres lineas rectas datas A B, B C, C A. quarum quælibet duæ maiores ſunt reliqua. Deinde ſumo rectam D E, æqualem uni lateri, nempe B C; & ex D, interuallo lateris A B, arcum deſcribo; item aliũ ex E, interuallo reliqui lateris C A, qui priorẽ ſecet in F, &c.
 
@@ -19,6 +19,8 @@ HAC arte cuicunque triangulo propoſito alterum prorſus æquale & quoad latera,
 
 22. primi.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 23]
 
 ## PROBL. 9. PROPOS. 23.
 

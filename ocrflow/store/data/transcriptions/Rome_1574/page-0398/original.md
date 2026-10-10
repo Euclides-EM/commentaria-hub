@@ -3,7 +3,7 @@
 
 multiplicibus ſumptis ad 6. & 4. uel æqualia ſunt, vel vna excedunt, & c.
 
-## VII.
+### VII.
 
 EANDEM autem habentes rationem magnitudines, Proportionales uocentur.
 
@@ -11,7 +11,7 @@ VT ſi magnitudinum A, B, C, D, eadem ſit proportio A, ad B, quæ C, ad D; dice
 
 [Diagram: seven horizontal lines labelled A, B, C, D, E, F and G, marked with the numbers 12, 4, 9, 3, 16, 8 and 4]
 
-## VIII.
+### VIII.
 
 CVM uero æque multiplicium multiplex primæ magnitudinis exceſſerit multiplicem ſecundæ; At multiplex tertiæ non exceſſerit multiplicem quartæ; tunc prima ad ſecundam maiorem rationem habere dicetur, quam tertia ad quartam.
 

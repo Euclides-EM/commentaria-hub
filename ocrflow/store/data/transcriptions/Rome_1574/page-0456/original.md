@@ -7,7 +7,7 @@ SI linea recta quæuis A B, ita diuidatur in C, inæqualiter, ut ſit, quemadmod
 
 [Diagram: horizontal line with endpoints A and B, divided at point C]
 
-## IIII.
+### IIII.
 
 ALTITVDO cuiuſque figuræ eſt linea perpendicularis a uertice ad baſin deducta.
 

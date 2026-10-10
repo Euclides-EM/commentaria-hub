@@ -8,7 +8,7 @@ demque ratione oſtendemus, proportionem AC, ad CF, componi ex proportionibus BC
 11.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EXPEDITIVS idem demonſtrabitur hoc modo, Coniunctis parallelogrammis, ut prius; Cum ſit ut AC, ad CH, ita BC, ad CG; & ut CH, ad CF, ita DC, ad CE; Proportio autem AC, ad CF, componatur, per definitionem, ex intermedijs proportionibus AC, ad CH, & CH, ad CF; componetur quoque eadem proportio AC, ad CF, ex proportionibus BC, ad CG, & DC, ad CE, quæ illis intermedijs ſunt æquales. Quod eſt propoſitum.
 

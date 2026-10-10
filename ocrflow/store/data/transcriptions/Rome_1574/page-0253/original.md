@@ -3,7 +3,7 @@
 
 AH, vna cum quadrato AG, ęquale eidem quadrato CF. Si recta ergo linea ſecetur in æqualia, & non ęqualia, &c. Quod oſtendendum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 [Diagram: a horizontal line with points A, C, D and B marked along it]
 
@@ -18,6 +18,8 @@ ALITER hoc theorema ex Frãciſco Maurolyco demonſtrabimus, hoc modo. Quia quad
 [/Margin]
 
 IDEM in numeris eſt manifeſtum: Diuidatur enim numerus 10 æqualiter in 5. & 5. Item inæqualiter in 7. & 3. ita vt medius numerus inter ſectiones ſit 2. quo videlicet dimidius numerus 5. ſuperat minorem partem 3. &c. Vides igitur, numerum 21. ex 7. in 3. productum, vna cum 4. quadrato intermedij numeri 2. æqualem eſſe 25. quadrato dimidij numeri 5.
+
+[Curated heading level=2 type=campanus: 6]
 
 ## THEOR. 6. PROPOS. 6.
 

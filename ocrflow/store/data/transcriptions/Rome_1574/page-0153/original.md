@@ -7,13 +7,13 @@ F C, trianguli, E F C, vtrumq́; vtriq́;, per conſtructionem; eſt autem & ba�
 8. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 PROBE appoſuit Euclides hãc particulam: infinitam. Si enim linea eſſet finita, non poſſet ſemper a puncto dato extra ipſam perpendicularis ad eam deduci. Vt ſi linea finita eſſet B E, & punctum C, non poſſet ex C, deſcribi circulus ſecans B E, in duobus punctis, quare neq; ex C, perpendicularis duci ad B E Hac igitur de cauſa vult Euclides, rectam datam eſſe infinitam, hoc eſt, non habere magnitudinem determinatam, vt ſaltem ad ipſam productam perpendicularis poſſit deduci. Ita enim fiet hic, ſi B E, producatur, donec circulus ex C, deſcriptus ſecet totam B A, productam in D, & E, &c.
 
 [Figure: circle with centre C, cut below by horizontal line A B, with points D, F, E on the line inside the circle and lines from C to D and E]
 
-## PRAXIS.
+### PRAXIS.
 
 CENTRO C, & interuallo quouis eodem, deſcribantur duo arcus ſecantes rectam datam in A, & B. Deinde ex A, & B, eodẽq́; interuallo, vel alio ſi placuerit, alij duo arcus deſcribantur ſecantes ſe in D. Nam ducta recta C D, ſecans A B, in F, erit perpendicularis ad A B. Demonſtratio huius operationis non differt a demonſtratione tradita in praxi propoſitionis 10. Nam anguli ad E, erũt recti, nempe inter ſe æquales.
 

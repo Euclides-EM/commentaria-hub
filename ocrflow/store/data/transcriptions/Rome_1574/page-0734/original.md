@@ -9,13 +9,15 @@ quis numerus primus, nempe G. Dico G, primum nulli ipſorum A, B, C, eundem eſ�
 
 [Diagram: A,3. B,5. C,7. above 105 and 1; D————E. F; below, 53 and G———]
 
-## SCHOLION.
+### SCHOLION.
 
 POTERAT idem hoc theorema inſtar problematis hoc modo proponi.
 
 PRIMIS numeris quotcunque propoſitis, inuenire alium primum numerum ab illis diuerſum.
 
 NAM ſi primi quotcunque propoſiti ſint A, B, C, inueniemus eodem modo alium primum ab illis diuerſum, nempe DF, ſi primus eſt, uel certe G. Atque eodem modo quatuor primis alium quintũ, & quinque primis alium ſextum inueniemus; & ſic deinceps primos numeros, quotcunq́ⳅ quis uolet, inueniemus.
+
+[Curated heading level=2 type=campanus: 22]
 
 ## THEOR. 19. PROPOS. 21.
 

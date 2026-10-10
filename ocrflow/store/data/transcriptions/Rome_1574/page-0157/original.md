@@ -14,11 +14,11 @@
 
 [Figure: two straight lines crossing at a point, with labels A and C at the left ends, D and B at the right ends, and E at the intersection]
 
-## COROLLARIVM. I.
+### COROLLARIVM. I.
 
 EVCLIDES colligit ex demonſtratione huius theorematis, (ex ſententia Procli, quoniam alia exemplaria hoc corollarium non habent). duas lineas rectas ſe mutuo ſecantes efficere ad punctum ſectionis quatuor angulos quatuor rectis angulis æquales. Nam in demonſtratione oſtenſum fuit, tam duos angulos A E D, D E B, quam duos A E C, C E B, duobus eſſe rectis æquales, per 13. propoſ. Omnes igitur quatuor anguli ad E, conſtituti æquipollent bis duobus rectis angulis. Quare quatuor rectis æquales exiſtunt.
 
-## COROLLARIVM. II.
+### COROLLARIVM. II.
 
 [Margin]
 18. pron.

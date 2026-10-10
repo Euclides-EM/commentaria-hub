@@ -10,7 +10,7 @@ angulum A, quemcumque, ſitque inuenienda illis tertia proportionalis, ſicut qu
 7. quinti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 ALITER idem demonſtrabimus, hoc modo. Duæ rectæ datæ AB, BC, conſtituantur ad angulum rectum ABC; & conjungatur recta AC. Producta autem AB, antecedente, ducatur ex C, ad AC, perpendicularis CD, occurrens ipſi AB, productæ in D. Dico BD, eſſe tertiam proportionalem. Cum enim in triãgulo ACD, angulus ACD, ſit rectus, & ab eo ad baſin AD, deducta perpendicularis CB; erit per coroll. 8. propos. huius lib. BC, media proportionalis inter AB, & BD, hoc eſt, ut AB, ad BC, ita erit BC, ad BD. Quod eſt propoſitam.
 

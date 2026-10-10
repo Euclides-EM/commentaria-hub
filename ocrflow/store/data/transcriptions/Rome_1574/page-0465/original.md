@@ -2,7 +2,7 @@
 
 mum, ut eſt baſis ad baſin. Quod tamen eodem argumento confirmari poteſt, quo uſi ſumus in triangulis, ſi prius ex punctis I, K, L, educantur rectæ parallelæ ipſi BG; nec nõ ex punctis M, N, parallelæ, ipſi FH. Triangula igitur & parallelogramma, quorum eadem fuerit altitudo, ita ſe habent inter ſe, ut baſes. Quod erat demonſtrandum.
 
-## SCHOLION.
+### SCHOLION.
 
 SED & conuerſum huius demonſtrabimus. Videlicet.
 

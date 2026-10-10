@@ -3,6 +3,8 @@
 
 DH. Item ex A, & C, quouis alio interuallo, uel etiam, ſi placet, eodem, alij duo arcus delineentur ſecantes ſe ſe in F, & G, punctis, per quæ recta ducatur FH, ſecans rectam DH, in H. Dico H, eſſe centrũ circuli tranſeuntis per data puncta A, B, & C. Nam ſi ducerentur recta AB, AC, BC, diuiderentur latera AB, AC, trianguli ABC, bifariam a rectis DH, FH, ceu demonſtratum eſt in praxi illa provoſitionis 25. lib. 3. Quare ut in hoc 5. problemate Euclides oſtendit, H, erit centrum circuli circa triangulum ABC, deſcripti. Quod eſt propoſitum.
 
+[Curated heading level=2 type=campanus: 6]
+
 ## PROBL. 6. PROPOS. 6.
 
 [Margin]
@@ -22,6 +24,8 @@ SIT in dato circulo ABCD, cuius centrum E, inſcribendum quadratum. Ducantur du�
 [Margin]
 31. tertij.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 7]
 
 ## PROBL. 7. PROPOS. 7.
 

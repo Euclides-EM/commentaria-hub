@@ -14,6 +14,8 @@
 36. primi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 28]
+
 ## PROBL. 9. PROPOS. 29.
 
 AD datam rectam lineam, dato rectilineo æquale parallelogrammum applicare, excedens figura parallelogramma, quæ ſimilis ſit parallelogrammo alteri dato.

@@ -6,7 +6,7 @@ OBITER quoque monendus mihi lector uidetur, Euclidem in hoc ſecundo libro, & in
 
 [Diagram: a rectangle with corners labelled A, B, D and C]
 
-## II.
+### II.
 
 IN omni parallelogrammo ſpatio, unũquodlibet eorum, quæ circa diametrum illius ſunt, parallelogrammorum, cum duobus complementis, Gnomon uocetur.
 

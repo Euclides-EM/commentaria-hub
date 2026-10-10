@@ -7,7 +7,7 @@
 
 ## DEFINITIONES.
 
-## I.
+### I.
 
 OMNE parallelogrammum rectangulum contineri dicitur ſub rectis duabus lineis, quæ rectum comprehendunt angulũ.
 

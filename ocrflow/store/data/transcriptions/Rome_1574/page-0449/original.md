@@ -16,7 +16,7 @@ ior erit, quam H. Quare maior quantitas A, ad C, habebit maiorem proportionem, q
 
 eandem C; Atqui vt H, ad C, ita eſt ex æqualitate D, ad F: (quoniam vt D, ad E, ita eſt H, ad G; & vt E, ad F, ita G, ad C.) maior ergo proportio quoq́; eſt A, ad C, quam D, ad F. Quod eſt propoſitum.
 
-## SCHOLION.
+### SCHOLION.
 
 [Diagram: eight horizontal lines labelled A, B, C, G, H, D, E and F]
 
@@ -29,6 +29,8 @@ QVOD ſi plures fuerint magnitudines tribus, oſtendemus maiorem vel minorem quo
 [Margin]
 32.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 32]
 
 ## THEOR. 32. PROPOS. 32.
 

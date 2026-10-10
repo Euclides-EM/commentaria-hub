@@ -4,6 +4,8 @@
 14.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 14]
+
 ## THEOR. 14. PROPOS. 14.
 
 SI minimum numerum primi numeri metiantur: Nullus alius numerus primus illum metietur, præter eos, qui a principio metiebantur.
@@ -19,7 +21,7 @@ SIT numerus A, minimus quem metiantur primi numeri B, C, D. Dico nullum alium pr
 
 F; multiplicans E, ipſum F, faciet A. Quare ſinguli B, C, D, alterum ipſorum E, F, metientur; non quidem ipſum E, primum exiſtentem, & ab ipſis diuerſum: ergo ipſum F, qui minor eſt quam A. Quod eſt abſurdum. Ponitur enim A, minimus, quem primi B, C, D, metiantur. Si igitur minimum numerum primi numeri metiantur, &c. Quod demonſtrandum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 ADDIT hoc loco Campanus ſequens theorema ad ea, quæ ſequuntur, non inutile. Videlicet.
 

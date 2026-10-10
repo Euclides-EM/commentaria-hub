@@ -4,7 +4,7 @@
 
 ne; quia & rectilineum ABC, minus oſtenderetur rectilineo DEF; quod eſt contra hypotheſin. Quare æquales ſunt rectæ AB, DE.
 
-## SCHOLION.
+### SCHOLION.
 
 EODEM modo, ſi fuerint tres rectæ proportionales; erunt & rectilinea ſimilia ſimiliterque deſcripta ab eis, proportionalia, &c. Si enim ſumatur linea media, eiusque rectilineum bis, habebuntur quatuor rectæ proportionales. Igitur & quatuor rectilinea proportionalia, ut hic Euclides demonſtrauit. Cum igitur id, quod a ſecunda eſt deſcriptum, æquale ſit ei, quod a tertia, eo quod & linea ſecunda ſit æqualis tertiæ; manifeſtum eſt, quod proponitur.
 

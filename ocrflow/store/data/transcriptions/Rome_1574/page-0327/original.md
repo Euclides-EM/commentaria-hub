@@ -38,7 +38,7 @@ SIT tertio angulus DBA, angulo DAB, minor, (quod quidẽ eueniet, ſi ſegmentũ
 18. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 BREVIVS inuenietur centrum ſegmenti propoſiti cuiuslibet, hac ratione. Aſſumantur in peripheria ſegmenti tria puncta vtcunque A, B, & C quæ duabus rectis coniungantur AB, BC, quæ bifariam ſecentur in D, & E. Deinde ex D, & E, educãtur ad AB, BC, perpendiculares DF, EF Quoniã igitur p corollariũ propos. 1. huius lib. tam DF, quã EF, incedit per centrum circuli, cuius ABC, eſt ſegmentũ, coibunt ambæ in centro, vt in F. Quare centrum eſt inuentum; quod eſt propoſitum.
 

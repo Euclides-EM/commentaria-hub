@@ -11,7 +11,7 @@ rio eſſe æquilaterum. Quoniam rectæ A B, A C, ducuntur ex centro A, ad circu
 1. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 VT autẽ videas, plures demõſtrationes in vna propoſitione contineri, placuit primã hanc propoſitionẽ reſoluere in prima ſua principia, initio facto ab vltimo ſyllogiſmo demõſtratiuo. Si quis igitur probare velis, triangulũ A B C, conſtructũ methodo prædicta, eſſe æquilaterum, vtetur hoc ſyllogiſmo demonſtrante.
 

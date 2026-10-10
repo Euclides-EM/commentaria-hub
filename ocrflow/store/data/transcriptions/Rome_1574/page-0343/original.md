@@ -17,7 +17,7 @@ TERTIO neutra per centrũ tranſeat, ſiue una illarum bifariam diuidatur, ſiue
 
 [Figure: two circles with G at top, H at bottom, centre F, point E, and points A, B, C, D on the circumference]
 
-## SCHOLION.
+### SCHOLION.
 
 CONVERTI poterit theorema iſtud hoc modo.
 

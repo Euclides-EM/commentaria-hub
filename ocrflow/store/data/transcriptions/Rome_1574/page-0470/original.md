@@ -1,6 +1,8 @@
 <!-- Running title: LIBER VI. -->
 <!-- Page number: 193 -->
 
+[Curated heading level=2 type=campanus: 4]
+
 ## THEOR. 4. PROPOS. 4.
 
 [Margin]

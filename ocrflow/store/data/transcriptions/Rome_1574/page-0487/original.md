@@ -8,7 +8,7 @@ inter duo diametri ſegmenta, quæ a perpendiculari facta ſunt. Deturenim ſemi
 31. tertij.
 [/Margin]
 
-## EX PELETARIO.
+### EX PELETARIO.
 
 DATA recta linea, aliam rectam, (quæ minor non ſit, quam dupla illius) ita ſecare, ut data recta ſit media proportionalis inter ſegmenta huius.
 
@@ -24,6 +24,8 @@ SIT data recta AC, & diuidenda proponatur recta AB, (quæ minor non ſit quam du
 [Margin]
 13.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 13]
 
 ## THEOR. 9. PROPOS. 14.
 

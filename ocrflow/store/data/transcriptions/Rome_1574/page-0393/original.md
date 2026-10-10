@@ -4,7 +4,7 @@ propoſitæ quantitates habeant. Itaque ut inquit, uult Euclides, ſi magnitudo 
 
 [Figure: four vertical lines of differing heights labelled A, B, C and D, marked with the numbers 8, 6, 16 and 12]
 
-## VI.
+### VI.
 
 IN eadem ratione magnitudines dicuntur eſſe, prima ad ſecundã, & tertia ad quartam, cum primæ & tertiæ æque multiplicia, a ſecundæ & quartæ æquemultiplicibus, qualiſcunque ſit hæc multiplicatio, utrunque ab utroque uel una deficiunt, uel una æqualia ſunt, uel una excedunt; ſi ea ſumãtur, quæ inter ſe reſpondent.
 

@@ -22,7 +22,7 @@ S I N T ſecundo latera A B, D E, ſubtendentia æquales angulos C, & E F D, int
 
 [Figure: triangle A B C beside triangle D E F with point G below F and lines drawn within the second triangle]
 
-## SCHOLION.
+### SCHOLION.
 
 PRIOR huius theorematis pars conuerſa eſt 4. propoſitionis, quoad eam partem, in qua ex æqualitate laterum, & angulorum ipſis contentorum, collecta fuit æqualitas baſium, & angulorum ſuper baſes. Nam in priori parte huius theorematis ex æqualitate baſium B C, E F, & angulorum ſuper has baſes, demonſtratũ eſt, reliqua latera vnius trianguli reliquis lateribus alterius, æqualia eſſe, reliquumque angulum reliquo angulo &c. Quod quidem alia nos ratione iam demonſtrauimus ad propoſitionem octauam huius lib. quemadmodum eo loco monuimus
 

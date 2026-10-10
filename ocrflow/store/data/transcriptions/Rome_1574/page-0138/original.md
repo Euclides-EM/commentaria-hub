@@ -11,11 +11,13 @@
 4. primi
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 EX hac propoſitione quinta liquet, omne triangulum æquilaterum eſſe æquiangulum quoque: Hoc eſt, tres angulos cuiuslibet trianguli æquilateri eſſe inter ſe æquales. Sit enim triangulum æquilaterum A B C. Quoniam igitur duo latera A B, A C, ſunt æqualia, erunt duo anguli B, & C, æquales. Item quia duo latera A B, B C, ſunt æqualia, erunt & anguli C, & A, æquales. Quare omnes tres A, B, & C, æquales erunt. Quod oſtendendum erat.
 
 [Figure: triangle with apex A and base B C]
+
+[Curated heading level=2 type=campanus: 6]
 
 ## THEOR. 3. PROPOS. 6.
 

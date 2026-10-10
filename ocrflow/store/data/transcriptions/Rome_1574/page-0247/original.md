@@ -10,6 +10,8 @@ IN numeris idem eſt manifeſtum. Si enim numerus 10. diuidatur in 2. 3. 5. erit
 3.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 3]
+
 ## THEOR. 3. PROPOS. 3.
 
 SI recta linea ſecta ſit vtcunq;; rectangulum ſub tota, & vno ſegmentorum comprehenſum æquale eſt & illi, quod ſub ſegmentis comprehenditur, rectangulo, & illi, quod a prædicto ſegmento deſcribitur, quadrato.

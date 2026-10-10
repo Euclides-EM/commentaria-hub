@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## EX PELETARIO.
+### EX PELETARIO.
 
 A puncto quouis dato in uno latere trianguli propoſiti lineam rectam ducere, quę bifariam ſecet triangulum datum.
 
@@ -18,6 +18,8 @@ SIT triangulum ABC, & punctum datum D, in latere BC. Oportet igitur ex D, rectam
 QVOD ſi punctum D, fuerit in altera medietate EC, eodem modo problema conficiemus: ſed tunc triangulum abſcindetur ad partes B, trapezium uero ad partes C, ut figura præſens ſatis indicat. Demonſtratio autem eadem eſt, ſi in ea mutetur litera B, in C, & C, in B. Hoc tamen problema multo nos uniuerſalius proponemus ad finem ſexti libri.
 
 [Figure: triangle with base BEDC, point F on side near A, and lines drawn between the base points and F]
+
+[Curated heading level=2 type=campanus: 39]
 
 ## THEOR. 29. PROPOS. 39.
 

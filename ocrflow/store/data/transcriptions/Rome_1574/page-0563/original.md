@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID.GEOM. -->
 
-## XIX.
+### XIX.
 
 CVBVS uero, qui æqualiter æqualis æqualiter. Vel, qui ſub tribus æqualibus numeris continetur.
 
@@ -10,7 +10,7 @@ SOLIDVM quoque illum numerum vocat cubum, qui eſt æqualiter æqualis æqualite
 
 QVILIBET vero trium numerorum æqualium, ſub quibus cubus continetur, vel ex quorum mutua multiplicatione procreatur, Geometris latus cubi, pleriſque autem Arithmeticis radix dicitur.
 
-## XX.
+### XX.
 
 NVMERI proportionales ſunt, cum primus ſecundi, & tertius quarti, æque multiplex eſt; uel eadem pars, uel eædem
 

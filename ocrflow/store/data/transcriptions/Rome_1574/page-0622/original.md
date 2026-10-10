@@ -1,6 +1,8 @@
 <!-- Running title: LIBER VII. -->
 <!-- Page number: 269 -->
 
+[Curated heading level=2 type=campanus: 25]
+
 ## THEOR. 24. PROPOS. 26.
 
 [Margin]
@@ -36,6 +38,8 @@ SIT uterque numerus A, B, ad C, primus, producaturque ex A, in B, uel ex B, in A
 [Margin]
 21. ſeptimi
 [/Margin]
+
+[Curated heading level=2 type=campanus: 25]
 
 ## THEOR. 25. PROPOS. 27.
 

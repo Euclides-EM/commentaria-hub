@@ -7,7 +7,7 @@ A B, AC, æqualia. Rurſus cum duo anguli A, & B, ſint æquales, erunt quoque l
 6.primi.
 [/Margin]
 
-## EX PROCLO.
+### EX PROCLO.
 
 LICEBIT nobis etiam conuertere ſecundam partem quintæ propoſitionis, hoc modo:
 
@@ -30,6 +30,8 @@ Tiiãguli enim A B C, productis lateribus AB, AC, ad D, & E, fiant anguli D B C,
 
 3 pron.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 7]
 
 ## THEOR. 4. PROPOS. 7.
 

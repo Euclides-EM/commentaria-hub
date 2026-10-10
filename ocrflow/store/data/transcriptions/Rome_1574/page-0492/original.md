@@ -14,15 +14,17 @@ SED ſint iam æqualia rectangulum A C, & quadratũ E G. Dico eſſe ut A B, ad 
 7. quinti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EADEM omnino conſequuntur, etiamſi parallelogramma non ſint rectangula, dummodo ſint æquiangula, ita ut E G, ſit Rhombus, & A C, Rhomboides. Non enim diſſimilis erit in his demonſtratio, ut figura indicat.
 
 [Figure: four horizontal lines labelled A B, E F, F G and B C, beside a rhomboides A B C D and a rhombus E F G H]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 EX poſteriori huius theorematis parte efficitur, quamlibet rectam lineam eſſe mediam proportionalẽ inter quasuis alias duas rectas, quæ comprehendunt rectangulum quadrato illius æquale. Ex eo enim quod rectæ A B, B C, comprehendunt rectangulum æquale quadrato rectæ E F, oſtenſum fuit, eſſe ut A B, ad E F, ita EF, ad BC. Quare EF, media eſt proportionalis inter A B, & B C.
+
+[Curated heading level=2 type=campanus: 19]
 
 ## PROBL. 6. PROPOS. 18.
 

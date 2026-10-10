@@ -11,7 +11,7 @@
 
 B C, fiet A C, maior quam G C; maiorq́; propterea erit proportio A C, ad B C, quam G C, ad B C; Sed componendo, ut eſt G C, ad B C, ita eſt D F, ad E F; (quod poſita ſit G B, ad B C, vt D E, ad E F,) Maior ergo etiam erit proportio A C, ad B C, quam D F, ad E F, quod eſt propoſitum.
 
-## SCHOLION.
+### SCHOLION.
 
 [Diagram: three horizontal lines, the first labelled G, the second labelled A, B and C, the third labelled D, E and F]
 
@@ -26,6 +26,8 @@ SIT minor proportio A B, ad B C, quam D E, ad E F. Dico & componendo minorem eſ
 [Margin]
 8. quinti.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 29]
 
 ## THEOR. 29. PROPOS. 29.
 

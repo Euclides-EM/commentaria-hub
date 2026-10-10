@@ -7,7 +7,7 @@
 
 ## DEFINITIONES.
 
-## I.
+### I.
 
 VNITAS eſt, ſecundum quã unumquodque eorum, quæ ſunt, unum dicitur.
 

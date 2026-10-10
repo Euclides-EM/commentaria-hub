@@ -16,7 +16,7 @@ SED iam non metiatur A, ipſum D. Dico ipſis A, B, C, non poſſe inueniri quar
 7. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EX his facile cognoſcemus, propoſitis quotcunque numeris continue proportionalibus, an poſſit ipſis alius proportionalis adiungi. Sumptis enim tribus vltimis, ſi ipſis alius poteſt inueniri, ille idem erit omnibus illis proportionalis.
 

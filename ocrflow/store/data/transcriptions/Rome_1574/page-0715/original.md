@@ -2,7 +2,7 @@
 
 ITAQVE ſi H, metitur primum A; erit H, compoſitus ad F: Si vero ſecundum B, metitur; erit compoſitus vel ad F, vel ad G: Si denique metitur tertium C, vel quartũ D, vel quemcunque alium inſequentem; compoſitus erit H, ad G. Id quod perſpicue ex demonſtratis apparet.
 
-## DEMONSTRATIO IN NVMERIS eorum, quæ in lineis ſecundo libro Euclides demonſtrauit prioribus 10. theorematibus.
+#### DEMONSTRATIO IN NVMERIS eorum, quæ in lineis ſecundo libro Euclides demonſtrauit prioribus 10. theorematibus.
 
 {dropcap:Q|lines=3|style=plain}VONIAM in theoremate ſequente demõſtrando Theon quædam aſſumit in numeris, quæ demonſtrata ſunt de lineis libro ſecundo, tanquam ſi eadem de numeris eſſent oſtenſa; non alienum inſtituto noſtro duximus, nonnulla ex ijs, quæ Geometrice ab Euclide libro 2. demonſtrata ſunt de lineis, hoc loco de numeris demonſtrare. Quod idem & Barlaam monachum feciſſe a nonnullis eſt traditum. Sequemur autem eundem ordinem, quem Euclidem in ſecundo libro tenuiſſe conſpicimus.
 

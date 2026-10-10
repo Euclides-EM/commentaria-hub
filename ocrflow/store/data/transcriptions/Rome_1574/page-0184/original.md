@@ -20,6 +20,8 @@ QVAMVIS autem optime a Proclo demonſtratum ſit vndecimum hoc pronunciatum, vt 
 28. primi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 29]
+
 ## THEOR. 20. PROPOS. 29.
 
 [Margin]

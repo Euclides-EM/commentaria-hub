@@ -11,6 +11,8 @@ AB, erit reliquus DB, par: Ex quo cum detrahatur CB, pars reliqua DC, par quoque
 
 addita unitate AD, fiet AC, impar. Si ergo ab impari numero par detrahatur, &c. Quod demonſtrandum erat.
 
+[Curated heading level=2 type=campanus: 29]
+
 ## THEOR. 26. PROPOS. 28.
 
 [Margin]
@@ -29,7 +31,7 @@ componetur C, ex tot paribus ipſi B, æqualibus, quot ſunt unitates in A; Atq;
 21. noni.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EADEM demonſtratione oſtendemus & hoc.
 
@@ -38,6 +40,8 @@ EADEM demonſtratione oſtendemus & hoc.
 {dropcap:N|lines=2|style=decorated|decoration="flourished initial"}AM rurſus C, componetur ex tot paribus ipſi B, æqualibus, quot in A, continentur unitates, &c.
 
 [Diagram: two dotted horizontal lines, the upper labelled A and B and the lower labelled C]
+
+[Curated heading level=2 type=campanus: 30]
 
 ## THEOR. 27. PROPOS. 29.
 

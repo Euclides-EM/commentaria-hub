@@ -16,6 +16,8 @@ D,2.  E,3.
 9. pron.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 8]
+
 ## THEOR. 8. PROPOS. 8.
 
 [Margin]

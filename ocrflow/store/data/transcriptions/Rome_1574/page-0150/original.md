@@ -8,13 +8,15 @@ teribus B C, C D, vtrumq́; vtriq;, & baſis A D, baſi B D, erit angulus A C D,
 4. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 PERSPICVVM eſt, eodem modo diuidi poſſe eandem lineã rectã A B, in 4. partes æquales, & in 8. in 16. in 32. &c. ſicuti in propoſitione præcedenti diximus de diuiſione anguli rectilinei. Qua vero ratione quæuis recta linea propoſita diuidenda ſit in quotcunque partes æquales, vberrime trademus ad propoſ. 10. lib. [unclear: 6.] vbi varias, et nõ iniucundas praxes in medium adducemus. Ibi enim videtur eſſe proprius huic rei locus, cum huiuſmodi praxes fere omnes linearum proportiones expoſcant. Neq́; vero indigebimus vnquam diuiſione lineæ in quotlibet partes æquales, ad eum locum vſq́;.
 
 [Margin]
 11.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 11]
 
 ## PROBL. 6. PROPOS. 11.
 

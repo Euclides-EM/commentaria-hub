@@ -8,7 +8,7 @@ INSCRIBANTVR in circulo ABCDE, initio ſemper facto a puncto A, plurima latera; 
 
 [Diagram: circle with points A at top, B, C, D on the left side and E at lower left, with chords drawn from A to B, C, D and E]
 
-## EX CAMPANO.
+### EX CAMPANO.
 
 OMNIS figura ęquilatera circulo inſcripta, aut circunſcripta.
 

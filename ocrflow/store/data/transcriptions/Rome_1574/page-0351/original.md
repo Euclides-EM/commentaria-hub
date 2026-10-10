@@ -8,6 +8,8 @@
 1.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 1]
+
 ## PROBL. 1. PROPOS. 1.
 
 IN dato circulo rectam lineam accommodare æqualem datæ rectæ lineæ, quæ circuli diametro non ſit maior.
@@ -20,7 +22,7 @@ IN circulo ABC, coaptanda ſit recta linea æqualis rectæ lineæ datæ D, quæ 
 
 [Figure: two intersecting circles, the larger with centre B and points A, C, E, and a vertical line D at the left]
 
-## EX FEDERICO COMMANDINO.
+### EX FEDERICO COMMANDINO.
 
 IN dato circulo rectam lineam accõmodare æqualem datæ rectæ lineæ, quæ circuli diametro non ſit maior, & alteri datæ parallelam.
 

@@ -16,6 +16,8 @@ inter ſe æquales. Si enim fieri poteſt, ducantur ex A, ad lineam B C, tres li
 17.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 17]
+
 ## THEOR. 10. PROPOS. 17.
 
 CVIVSCVNQVE trianguli duo anguli duobus rectis ſunt minores, omnifariam ſumpti.
@@ -32,7 +34,7 @@ CVIVSCVNQVE trianguli duo anguli duobus rectis ſunt minores, omnifariam ſumpti
 
 SIT triangulum A B C; Dico duos angulos A B C, & A C B, minores eſſe duobus rectis; Item duos C B A, & C A B; Itemq́; duos B A C, & B C A. Producantur enim duo quæuis latera, nempe C B, C A, ad D, & E. Quoniam igitur angulus A B D, externus maior eſt interno & oppoſito angulo A C B, ſi addatur communis angulus A B C, erunt duo anguli A B D, A B C, maiores duobus angulis A B C, A C B; ſed A B D, A B C, æquales ſunt duobus rectis; Igitur A B C, A C B, minores ſunt duo bus rectis. Eadem ratione erunt anguli C B A, & C A B, minores duobus rectis: Item duo B A C, & B C A. Cuiuſcunq́; igitur trianguli, &c. Quod erat demonſtrandum.
 
-## EX PROCLO.
+### EX PROCLO.
 
 [Margin]
 17. primi.

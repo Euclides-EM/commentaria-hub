@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. V -->
 <!-- Page number: 153 -->
 
-## IIII.
+### IIII.
 
 PROPORTIO vero eſt rationum ſimilitudo.
 

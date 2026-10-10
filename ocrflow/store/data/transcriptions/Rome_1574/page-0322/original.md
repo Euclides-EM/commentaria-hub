@@ -3,6 +3,8 @@
 
 trũ, erit tã angulus BDE, ad cẽtrũ duplus anguli BAE, ad circunferentiã, quã angulus CDE, ad centrũ anguli CAE, ad circunferẽtiã, vt oſtẽſum eſt. Spatiũ igit̃ ad centrũ D, baſin habẽs BEC cõſtanſq; ex duobus angulis BDE, CDE, duplũ eſt totius anguli BAC. Quod eſt propoſitum.
 
+[Curated heading level=2 type=campanus: 20]
+
 ## THEOR. 19. PROPOS. 21.
 
 [Margin]

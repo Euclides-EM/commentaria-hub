@@ -16,6 +16,8 @@ argumento fere demonſtrari poſſit. Quare vt omni ex parte confirmatum relinqu
 13.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 13]
+
 ## THEOR. 13. PROPOS. 14.
 
 IN circulo æquales rectæ lineæ æqualiter diſtant a centro. Et quæ æqualiter diſtãt a centro, æquales ſũt inter ſe.

@@ -9,6 +9,8 @@ quus ſecundi ad primum, ita reliquus ultimi ad omnes. Erit hic alius ſummæ om
 Si igitur adiiciantur 1. 3. 9. 27. 81. 243. 729. 2187. in unum, habebitur tota ſumma. Inuenietur autem quartus ille proportionalis, ſi primus multiplicetur in exceſſum ultimi, & productus diuidatur in exceſſum ſecundi. Id quod ex regula proportionum apud Arithmeticos manifeſtum eſt. Vt in exemplo appoſito, ſi primus numerus, nimirum unitas, detrahatur ex 3. ſecundo, & ex 2187. ultimo; erunt reliqui exceſſus 2. 2186. Quoniam igitur debet eſſe ut 2. ad 1. ita 2186. ad ſummam omnium, excepto ultimo; ſi 1. multiplicetur per 2186. fiet numerus 2186; qui ſi diuidatur in 2. exurget numerus 1093. Videlicet ſumma omnium, excluſo ultimo 2187. qui ſi addatur ſummæ inuentæ 1093; procreabitur ſumma omnium 3280.
 [/Subhead]
 
+[Curated heading level=2 type=campanus: 39]
+
 ## THEOR. 34. PROPOS. 36.
 
 [Margin]

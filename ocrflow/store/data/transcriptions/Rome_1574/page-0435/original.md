@@ -4,6 +4,8 @@
 19.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 19]
+
 ## THEOR. 19. PROPOS. 19.
 
 SI quemadmodum totum ad totum, ita ablatum ſe habuerit ad ablatum: & reliquum ad reliquum, ut totum ad totum, ſe habebit.
@@ -24,7 +26,7 @@ SIT tota AB, ad totam CD, ut ablata AE, ad ablatam CF. Dico & reliquam EB, eſſ
 16. quinti.
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC facile demonſtrabitur modus ille argumentandi in proportionibus, qui ſumitur a conuerſione rationis, iuxta 16. defin,
 
@@ -45,6 +47,8 @@ SIT enim AB, ad EB, ut CD, ad FD; Dico per conuerſionẽ rationis eſſe quoque
 [Margin]
 20.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 20]
 
 ## THEOR. 20. PROPOS. 20.
 

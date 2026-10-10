@@ -12,7 +12,7 @@ PORRO qualemcunque figuram æquilateram & æquiangulam in circulo nouerimus inſ
 
 RVRSVS inſcripta figura quacunque æquilatera, & æquiangula in circulo, inſcribetur in eodem figura, quæ habeat latera duplo plura. Diuiſis etenim arcubus, quos latera ſubtendunt, bifariam, & ſubtenſis rectis lineis, conſtat propoſitum; Vt per triangulum æquilaterum inſcriptum inſcribetur & hexagonum, & ideo dodecagonum, figura 24. laterum, &c. Sic quoque ex quadrato in circulo deſcripto, inſcribetur octogonum, atque adeo figura 16. laterũ, figuræ 32. 64. 128. laterum, &c.
 
-## SCHOLION. II.
+### SCHOLION. II.
 
 OMNES figuræ æquilateræ & æquiangulæ in circulo inſcribi poſſunt officio Iſoſcelium triangulorum, ut recte hoc loco docet Peletarius.
 

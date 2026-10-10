@@ -2,6 +2,8 @@
 
 <!-- Page number: 56 -->
 
+[Curated heading level=2 type=campanus: 33]
+
 ## THEOR. 23. PROPOS. 33.
 
 [Margin]
@@ -26,9 +28,11 @@ SINT rectæ lineæ AB, CD, æquales, & parallelæ; Ipſas autem coniungant ad ea
 27. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 DIXIT Euclides, lineas æquales, & parallelas ad eaſdem partes debere coniungi, vt coniungentes ſint & æquales & parallelæ. Nam ſi ad partes diuerſas coniungerentur, vt ad A, & D; Item ad B & C, neque coniungentes eſſent parallelæ vnquam, ſed perpetuo ſe mutuo ſecarent, neq; eſſent æquales, niſi raro admodum, vt ex ſequenti propoſitione conſtabit.
+
+[Curated heading level=2 type=campanus: 34]
 
 ## THEOR. 24. PROPOS. 34.
 

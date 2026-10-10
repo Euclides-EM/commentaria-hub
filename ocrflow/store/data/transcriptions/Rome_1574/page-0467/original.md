@@ -15,6 +15,8 @@ et 9. quinti.
 
 IN omnibus autem his non uariabitur demonſtratio, etiam ſi triangula, & parallelogramma ſint rectangula, ita ut altitudines ſint ipſorum latera, uel unum fuerit rectangulum, alterum uero non. Nos aſſumpſimus caſum difficiliorem, quando ſcilicet neutrum eſt rectangulum. Ita enim demonſtratio maiore indiget quandoque conſtructione.
 
+[Curated heading level=2 type=campanus: 2]
+
 ## THEOR. 2. PROPOS. 2.
 
 [Margin]

@@ -4,6 +4,8 @@
 1.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 1]
+
 ## PROBLEMA 1. PROPOSITIO. 1.
 
 {dropcap:S|lines=3|style=decorated|decoration="foliate ornament"}VPER data recta linea terminata triangulum AEquilaterum conſtituere.

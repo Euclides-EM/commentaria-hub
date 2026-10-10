@@ -24,6 +24,8 @@ BREVIVS tota propoſitio demonſtrabitur hoc modo. Cõueniant duo puncta A, & C,
 10.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 10]
+
 ## PROBL. 3. PROPOS. 11.
 
 DVABVS datis rectis lineis, tertiam proportionalem adinuenire.

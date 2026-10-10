@@ -1,6 +1,8 @@
 <!-- Running title: LIBER VII. -->
 <!-- Page number: 254 -->
 
+[Curated heading level=2 type=campanus: 12]
+
 ## THEOR. 9. PROPOS. 11.
 
 [Margin]

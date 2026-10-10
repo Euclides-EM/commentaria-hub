@@ -4,7 +4,7 @@ metietur æque. Rurſus eodem modo, quia B, multiplicans ipſum A, facit D; erit
 
 [Diagram: rows of dotted lines labelled E, A, B, D and C]
 
-## SCHOLION.
+### SCHOLION.
 
 POTEST hæc eadem propoſitio cum Campano in hunc modum proponi.
 
@@ -13,6 +13,8 @@ SI duo numeri ſe mutuo multiplicauerint, procreabitur unus idemque numerus.
 MVLTIPLICET enim A, ipſum B, faciatque C. Dico eundem C, gigni, ſi B, ipſum A, multiplicet. Nam ut prius, cũ A, multiplicans ipſum B, faciat C, oſtendemus unitatem E, numerum B, & numerum A, numerum C, æque metiri. At uero, ſi numerus B, ipſum A, multiplicet, etiam unitas E, numerum B, & numerus A, numeri factum, per defin. 15. æque metitur. Idẽ ergo numerus C, gignitur ex multiplicatione B, in A, quẽ quidem ipſum numerus A, æque metitur, atque unitas E, ipſum B.
 
 [Diagram: rows of dotted lines labelled E, A, B and C]
+
+[Curated heading level=2 type=campanus: 18]
 
 ## THEOR. 15. PROPOS. 17.
 

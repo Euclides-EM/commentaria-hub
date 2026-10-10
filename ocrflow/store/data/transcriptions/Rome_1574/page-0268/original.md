@@ -18,7 +18,7 @@ SINT omnes anguli trianguli ABC, acuti, & ex A, perpendicularis AD, demiſſa ca
 47. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVAMVIS Euclides theorema hoc proponat de triãgulis dũtaxat oxygonijs, quæ ſcilicet oẽs angulos habẽt acutos; Idẽ tamen verum eſt in triangulis rectangulis & amblygonijs, vt conſtat ex poſterioribus duobus triangulis in ſchemate propoſitis. Sunt enim in hiſce triangulis neceſſario duo reliqui anguli acuti, vt perſpicue colligi poteſt ex propos. 17. vel 32. primi lib. Hoc ſolum obſeruandum eſt in triangu-lis{printer-error-correction:triangulis}
 

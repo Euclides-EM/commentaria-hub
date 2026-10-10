@@ -8,7 +8,7 @@ quidem ſunt rectæ BE, æquales autem diametro AF; erit & diameter AF, maior, q
 24. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EODEM fere modo demonſtrabitur theorema, ſi ab vno, eodemque puncto circunferentiæ plurimæ lineæ cadant.
 

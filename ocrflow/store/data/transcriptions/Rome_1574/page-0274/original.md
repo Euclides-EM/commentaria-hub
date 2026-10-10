@@ -11,7 +11,7 @@
 47. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVONIAM in ſecundo hoc libro Euclides de rectangulis parallelogrammis, atque quadratis diſputauit; recte inſeri hic poterit ſequens problema de quadrato nõ iniucundum, ad hunc modum.
 

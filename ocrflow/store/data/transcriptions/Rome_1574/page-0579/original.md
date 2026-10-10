@@ -4,11 +4,11 @@
 
 ma amborum mẽſura communis cum & ſe ipſum metiatur. Duobus igitur numeris datis non primis inter ſe, &c. Quod erat faciendum.
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 EX hoc manifeſtum eſt, quod numerus metiens duos numeros, metitur & maximam eorundem communem menſuram. Hoc elicitur ex ea parte demonſtrationis, qua oſtenſum fuit F D, eſſe maximam menſuram ipſorum A B, C D. Demonſtratum enim eſt ibi, numerum G, ſi metiatur numeros A B, C D, metiri quoque numerum F D, maximam eorum menſuram cõmunem. Eademq́; ratio eſt de cæteris.
 
-## SCHOLION.
+### SCHOLION.
 
 EX dictis facile cum Campano experiemur, an quotlibet numeri propoſiti ſint inter ſe primi, nec ne. Sint tres numeri A, B, C. Primum ergo experior, per ea, quæ ad propoſ. 1. docuimus, an duo A, & B, ſint inter ſe primi: Qui ſi fuerint inter ſe primi, non erunt tres numeri A, B, C, inter ſe compoſiti, quod nullam poſſint habere menſuram communem, præter unitatem, propter numeros A, & B, inter ſe primos.
 

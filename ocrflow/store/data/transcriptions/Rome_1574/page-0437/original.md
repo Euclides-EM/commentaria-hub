@@ -4,6 +4,8 @@
 21.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 21]
+
 ## THEOR. 21. PROPOS. 21.
 
 SI ſint tres magnitudines, & aliæ ipſis æquales numero, quæ binæ, & in eadem ratione ſumantur, fueritque perturbata earum proportio; ex æquo autem prima quã tertia maior fuerit: erit & quarta, quam ſexta, maior. Quod ſi prima tertiæ fuerit æqualis, erit & quarta æqualis ſextæ; ſin illa minor, hæc quoque minor erit.

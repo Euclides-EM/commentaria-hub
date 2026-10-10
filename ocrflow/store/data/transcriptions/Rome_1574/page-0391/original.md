@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## V.
+### V.
 
 RATIONEM habere inter ſe magnitudines dicuntur, quæ poſſunt multiplicatæ ſe ſe mutuo ſuperare.
 

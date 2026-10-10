@@ -20,6 +20,8 @@ SED non metiatur A, ipſum C. Dico ipſis A, B, non poſſe reperiri tertium pro
 20.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 20]
+
 ## PROBL. 2. PROPOS. 19.
 
 TRIBVS numeris datis, conſiderare, an poſſit ipſis quartus proportionalis inueniri.

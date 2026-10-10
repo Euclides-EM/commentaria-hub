@@ -4,6 +4,8 @@
 
 nullo modo ſecet. Nã propterea quod quadratũ rectæ B D, æquale eſt rectangulo ſub A B, B C, oſtenſum eſt in ultima propoſ. 3. lib. rectam B D, perpendicularẽ eſſe ad ſemidiametrũ circuli ex D, ductam. Quare circulũ tanget, & nulla ratione ſecabit.
 
+[Curated heading level=2 type=campanus: 11]
+
 ## PROBL. 11. PROPOS. 11.
 
 [Margin]
@@ -40,7 +42,7 @@ SIT in dato circulo A B C D E, inſcribendum pentagonum æquilaterum, & æquiang
 27. tertij.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi detur recta linea terminata C D, ſuper ea
 

@@ -1,7 +1,7 @@
 <!-- Running title: LIBER. VII. -->
 <!-- Page number: 243 -->
 
-## XXVII.
+### XXVII.
 
 QVOTLIBET numeris ordine poſitis, proportio primi ad ultimum componi dicitur ex proportionibus primi ad ſecundum, & ſecundi ad tertiũ, & tertij ad quartum, & ita deinceps, donec extiterit proportio.
 
@@ -11,11 +11,11 @@ POSSVNT etiam huc referri definitiones illæ in quinto libro traditæ de alterna
 
 ## POSTVLATA, SIVE PETITIONES
 
-## I.
+### I.
 
 POSTVLETVR, cuilibet numero quotlibet poſſe ſumi æquales, uel multiplices.
 
-## II.
+### II.
 
 QVOLIBET numero ſumi poſſe maiorem.
 

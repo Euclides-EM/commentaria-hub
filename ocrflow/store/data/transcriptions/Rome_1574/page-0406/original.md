@@ -5,7 +5,7 @@ portionibus, quorum frequentiſſimus eſt vſus apud Geometras. Hi autem ſunt 
 
 [Figure: four vertical lines labelled A, B, C and D, with the numbers 18, 12, 5 and 10 beside them]
 
-## XIII.
+### XIII.
 
 INVERSA ratio, eſt ſumptio conſequentis, ceu antecedentis, ad antecedenté, uelut ad conſequentem.
 

@@ -2,7 +2,7 @@
 
 <!-- Page number: 37 -->
 
-## EX PROCLO.
+### EX PROCLO.
 
 SI ad aliquam rectam lineam, ad eiuſq; ſignum, duæ rectæ lineæ non ad eaſdem partes ſumptæ, angulos ad verticem æquales fecerint; ipſæ rectæ lineæ in directum ſibi inuicem erũt.
 
@@ -18,7 +18,7 @@ SI ad aliquam rectam lineam, ad eiuſq; ſignum, duæ rectæ lineæ non ad eaſd
 
 EX puncto C, rectæ A B, in diuerſas partes egrediantur duę rectæ C D, C E, facientes angulos A C E, B C D, inter ſe æquales: Vel etiam duos A C D, B C E. Dico duas C D, C E, efficere vnã lineam rectam. Quoniam cum angulus A C E, æqualis ſit angulo B C D, addito communi angulo B C E, erunt duo anguli A C E, E C B, duobus angulis D C B, B C E, æquales: Sed anguli A C E, E C B, ſunt æquales duobus rectis; Igitur & duo D C B, B C E, duobus erunt rectis æquales. Quamobrem C D, C E, erunt linea vna recta. Hoc autem, vt vides, conuerſum eſt propoſitionis decimæ quintæ.
 
-## EX PELETARIO.
+### EX PELETARIO.
 
 SI quatuor rectæ lineæ ab vno puncto exeuntes binos angulos oppoſitos inter ſe æquales fecerint, erunt quælibet duæ lineæ aduerſæ in rectum ſibi, & continuatæ coniunctę.
 

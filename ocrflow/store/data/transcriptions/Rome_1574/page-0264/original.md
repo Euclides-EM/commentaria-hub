@@ -13,6 +13,8 @@ ALITER ex Franciſco Maurolyco. Quia quadratũ ex AD, æquale eſt quadratis ex 
 
 NVMERVS 10. bifariam ſecetur in 5. & 5. cui addatur numerus quiuis 3. vt totus numerus cõpoſitus ſit 13. Quadrati igitur numeri 169. & 9. horum numerorũ 13. & 3. dupli ſunt numerorum quadratorum 25. & 64. qui ex his numeris 5. & 8. gignuntur, ut perſpicuum eſt.
 
+[Curated heading level=2 type=campanus: 11]
+
 ## PROBL. 1. PROPOS. 11.
 
 [Margin]

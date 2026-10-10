@@ -15,6 +15,8 @@ fit, ut ſi G, multiplex primæ deficit a K, multiplici ſecundæ, deficiat quoq
 6.defin.5.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 12]
+
 ## THEOR. 12. PROPOS. 12.
 
 [Margin]

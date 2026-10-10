@@ -3,6 +3,8 @@
 
 libus in datis rationibus, ſi ij multiplicentur per quemcunque numerum eundem, procreabuntur alij in eiſdem rationibus deinceps proportionales, vt conſtat ex ijs, quæ ad propos. 18. lib. 7. demonſtrauimus.
 
+[Curated heading level=2 type=campanus: 5]
+
 ## THEOR. 3. PROPOS. 5.
 
 [Margin]

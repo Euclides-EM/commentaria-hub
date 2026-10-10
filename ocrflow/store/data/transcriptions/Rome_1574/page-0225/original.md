@@ -28,7 +28,7 @@ logrammum cõſtituatur EFGH, habens angulum F, angulo D, æqualem. Item ſuper 
 30. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVAMVIS in hoc problemate Euclides abſolute, & ſimpliciter docuerit, quanam arte parallelogrammum conſtituatur æquale rectilineæ figuræ datæ, non aſtringendo nos ad certam aliquam lineam rectam datam, vt in propoſ. 44. fecerat: Tamen eodem modo, quod iubetur, efficiemus. ſi recta aliqua linea nobis fuerit aſſignata. Nam ſi detur recta linea
 

@@ -15,6 +15,8 @@ SI aliquando ex CD, ablata fuerit unitas CF; uel reliqua ſit unitas FD: vel den
 
 [Diagram: three pairs of dotted lines, each pair labelled A, E, B and C, F, D]
 
+[Curated heading level=2 type=campanus: 8]
+
 ## THEOR. 6. PROPOS. 8.
 
 [Margin]

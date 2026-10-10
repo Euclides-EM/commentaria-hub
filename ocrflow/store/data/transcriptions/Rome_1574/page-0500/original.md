@@ -11,7 +11,7 @@ SIT primum recta A, dupla rectæ B. Dico quadratum A, quadruplum eſſe quadrati
 
 SIT iam quadratum A, quadruplum quadrati B. Dico latus A, duplum eße lateris B. Cum enim proportio quadratorum, quæ ponitur quadrupla, duplicata ſit proportionis laterum homologorum, ut dictum eſt; habebunt latera homologa A, & B, proportionem duplam. Nam quadrupla proportio duplicata eſt proportionis duplæ, ut in exemplo adducto ſuperius apparet.
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC manifeſtum eſt, ſi fuerint tres rectæ lineæ proportionales, ut eſt prima ad tertiam, ita eſſe polygonum ſuper primam deſcriptum, ad polygonum ſuper ſecundam ſimile ſimiliterque deſcriptum.
 

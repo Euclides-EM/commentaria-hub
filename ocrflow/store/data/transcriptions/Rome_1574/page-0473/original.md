@@ -22,6 +22,8 @@ ALITER. Quoniã triangula ABF, ADG, ſimilia ſunt, nec non triangula AFC, AGE, 
 5.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 5]
+
 ## THEOR. 5. PROPOS. 5.
 
 SI duo triangula latera proportionalia habeant; æquiangula erunt triangula, & æquales habebunt eos angulos, ſub quibus & homologa latera ſubtenduntur.

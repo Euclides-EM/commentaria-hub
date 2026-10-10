@@ -46,7 +46,7 @@ IAM vero, ſi ex pũcto A, ducatur linea recta A G, ad circunferentiã E G F, qu
 9. pron.
 [/Margin]
 
-## PRAXIS.
+### PRAXIS.
 
 CONABIMVR in ſingulis fere problematibus Euclidis tradere praxin quãdã facilẽ, & breuẽ, qua effici poſſit id, quod Euclides pluribus verbis, atq; lineis cõtendit conſtruere; Idq́; in ijs præſertim obſeruabimus, quæ frequentiorẽ vſum habent apud Mathematicos, & in quibus praxis compendium aliquod ſecum videtur afferre.
 

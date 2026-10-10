@@ -8,6 +8,8 @@
 1.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 1]
+
 ## PROBL. 1. PROPOS. 1.
 
 DATI circuli centrum reperire.

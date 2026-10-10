@@ -9,6 +9,8 @@ SINT tres rectæ AB, BC, CD; oporteatq́ue inuenire quartam, quæ ad CD, tertiam
 2. ſexti.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 9]
+
 ## PROBL. 5. PROPOS. 13.
 
 [Margin]
@@ -25,7 +27,7 @@ SINT duæ rectæ AB, BC, quibus media inuenienda eſt proportionalis, diſpoſit
 31. tertij.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 PERSPICVVM hinc fit, lineam rectam, quæ in circulo a quouis puncto diametri ipſi diametro perpendicularis ducitur ad circumferentiam uſque, mediam eſſe proportionalem,
 

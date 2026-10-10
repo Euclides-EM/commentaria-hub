@@ -41,6 +41,8 @@ SIMILITER ſi C, latus lateris D, non ſit multiplex; non metietur D, latus latu
 16. & 17. octaui.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 16]
+
 ## THEOR. 16. PROPOS. 18.
 
 [Margin]

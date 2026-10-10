@@ -18,6 +18,8 @@ inter ſe ſunt parallelæ; Vel certe vnam, & eandem lineam conſtituunt, quando
 31.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 31]
+
 ## PROBL. 10. PROPOS. 31.
 
 A DATO puncto, datæ rectæ lineæ parallelam rectam lineam ducere.
@@ -32,7 +34,7 @@ EX puncto A, ducenda ſit linea parallela lineæ B C. Ducatur ex A, ad B C, line
 27. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 DEBET autem punctum datum in tali eſſe loco ſitum extra lineam datam, vt hæc producta cum illo non conueniat. Quod quidem aperte colligitur ex ipſa conſtructione problematis. Nam ex puncto dato ducenda eſt linea faciens angulum aliquem cum linea data, qui fieri non poſſet, ſi punctum in directum iaceret cum ipſa linea data. Quemadmodum autem ab vno, eodemq́; puncto ad eandem rectam non plures perpendiculares quam vna, ducuntur, vt oſtendimus propoſ. 17. ex Proclo; ita etiam per idem punctum, datæ rectæ plures parallelæ, quã vna, duci nequeunt. Si .n. duæ ducerent, cõuenirẽt
 

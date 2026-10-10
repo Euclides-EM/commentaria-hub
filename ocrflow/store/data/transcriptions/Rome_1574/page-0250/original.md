@@ -13,7 +13,7 @@ ALITER. Quoniam recta AB, diuiſa eſt in C, erit quadratum totius AB, æquale r
 3. ſecundi.
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC manifeſtum eſt, parallelogramma circa diametrum quadrati eſſe quadrata.
 

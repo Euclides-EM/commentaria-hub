@@ -1,5 +1,7 @@
 <!-- Running title: EVCLID.GEOM. -->
 
+[Curated heading level=2 type=campanus: 45]
+
 ## PROBL. 14. PROPOS. 46.
 
 A DATA recta linea quadratum deſcribere.
@@ -20,7 +22,7 @@ SIT data recta AB, ſup̱ quã oporteat quadratũ deſcribere. Ex A, & B, educan
 34.primi.
 [/Margin]
 
-## EX PROCLO.
+### EX PROCLO.
 
 LINEARVM æqualium æqualia ſunt quadrata: & quadratorũ æqualiũ æquales ſũt lineæ.
 

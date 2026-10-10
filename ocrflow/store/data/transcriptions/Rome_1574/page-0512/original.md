@@ -8,7 +8,7 @@ mum FH, ſimile eſſe eidem parallelogrammo BD; atque adeo & ipſa inter ſe ſ
 21. ſexti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 INTELLIGENDA autem ſunt parallelogramma circa diametrum totius, eſſe talia, quæ habeam unum angulũ cum toto parallelogrammo communem, ut manifeſtum eſt ex forma demonſtrationis.
 

@@ -6,6 +6,8 @@
 24.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 24]
+
 ## THEOR. 17. PROPOS. 23.
 
 AEQVIANGVLA parallelogramma inter ſe rationem habent eam, quæ ex lateribus componitur.

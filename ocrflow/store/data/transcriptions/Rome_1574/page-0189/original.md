@@ -9,6 +9,8 @@ vt poſtea demonſtrabimus propoſ. 34. Quod ſi punctum A, vicinum fuerit rect�
 32.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 32]
+
 ## THEOR. 22. PROPOS. 32.
 
 CVIVSCVNQVE trianguli vno latere producto: Externus angulus duobus internis, & oppoſitis eſt æqualis. Et trianguli tres interni anguli duobus ſunt rectis æquales.

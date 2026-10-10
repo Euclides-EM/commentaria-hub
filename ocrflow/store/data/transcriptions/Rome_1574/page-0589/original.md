@@ -12,7 +12,7 @@ GH, eædem partes ipſius CD, quæ AB, eiuſdem CD, hoc eſt, quæ AE, ipſius C
 6. ſeptimi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 NON demonſtrauit Euclides hanc propoſitionem, quemadmodum præcedentẽ, quod nonnulli interpretes faciunt, quia non conſtabat hic, reliquum numerũ EB, alicuius numeri eaſdem eſſe partes, quæ eſt numerus AB, numeri CF; ibi [unclear: uero]
 

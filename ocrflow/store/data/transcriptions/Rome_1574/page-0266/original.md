@@ -19,7 +19,7 @@ TRIANGVLVM ABC, habeat angulum ABC, obtuſum, & ex A, in latus CB, ad partes ang
 47. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVONIAM aßumpſit Euclides, perpendicularem ductam ex A, cadere in latus CB, ad partes anguli obtuſi protractum, ideo paucis id demonſtrabimus. Sit in triangulo ABC, angulus ABC, obtuſus, & latus CB, ad partes [unclear: B], protractũ; Dico perpendicularem ex A, deductam cadere extra triangulũ in latus CB, protractum, cuiuſmodi eſt recta AD. Si enim
 

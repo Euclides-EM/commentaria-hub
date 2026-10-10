@@ -14,6 +14,8 @@ IAM vero, ſi proportio A, ad B, minor fuerit, quam C, ad D; & C, ad D, minor, q
 14.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 14]
+
 ## THEOR. 14. PROPOS. 14.
 
 SI prima ad ſecundam eandem habuerit rationem, quam tertia ad quartam; Prima uero quam tertia maior fuerit, erit & ſecunda maior quam quarta. Quod ſi prima fuerit æqualis tertiæ, erit & ſecunda æqualis quartæ: Si uero minor, & minor erit.

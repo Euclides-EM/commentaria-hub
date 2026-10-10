@@ -14,7 +14,7 @@ quoque ipſum C; perſpicuum eſt D, eſſe maximam menſuram numerorum datorum 
 
 QVOD autem E, ſit maxima eorum communis menſura, perſpicuum eſt. Si enim fieri poteſt, ſit F, maior quam E, eorum menſura communis. Quia igitur F, metitur numeros A, & B; metietur quoque, per coroll. propos. 2. huius lib. numerum D, maximam eorum menſuram communẽ. Metitur autem & C: Igitur F, metiens D, & C, metietur quoque E, eorum menſuram maximam, ex eodem coroll. numerus maior minorem. quod eſt abſurdum. Non ergo maior numerus, quam E, numeros A, B, C, metitur; Atque adeo E, maxima menſura eſt ipſorum. Quamobrem tribus numeris datis non primis inter ſe, &c. Quod faciendum erat.
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC perſpicuum eſt, quod numerus metiens tres numeros, metitur quoque maximam eorum communem mẽſuram. Hoc enim colligitur ex ultima parte demonſtrationis; Oſtenſum enim eſt ibi, numerum F, ſi metiatur numeros A, B, C, metiri quoque nu-
 

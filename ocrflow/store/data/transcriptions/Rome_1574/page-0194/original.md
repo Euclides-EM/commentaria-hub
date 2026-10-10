@@ -3,7 +3,7 @@
 
 bus ſint rectis æquales, erunt ſoli externi æquales quatuor rectis. In quadrilatero, anguli externi, & interni ſimul æquales ſunt octo rectis: Cum igitur interni ſoli æquales ſint quatuor rectis, erunt & ſoli externi quatuor rectis æquales. In pentagono, ſeu quinquangulo, anguli interni, & externi ſunt æquales 10. rectis; quoniam vero interni adæquantur ſex rectis, remanebunt externi æquales quatuor rectis. Quæ omnia in appoſitis figuris conſpiciuntur; Eademq́; eſt ratio in alijs omnibus figuris.
 
-## EX CAMPANO.
+### EX CAMPANO.
 
 SI pentagoni ſingula latera producantur in partem vtramq;, ita vt quælibet duo extra coeant; efficientur quinq; anguli ex lateribus coeuntibus æquales duobus rectis.
 
@@ -23,7 +23,7 @@ IN pentagono ABCDE, latera in vtrãq; partem producta coeant in punctis F, G, H,
 32. primi.
 [/Margin]
 
-## COROLLARIVM. I.
+### COROLLARIVM. I.
 
 EX hac propoſ. 32. colligitur, tres angulos cuiuslibet trianguli ſimul ſumptos æquales eſſe tribus angulis cuiuſq; alterius trianguli ſimul ſumptis: Quoniam tam illi tres, quam hi, æquales ſunt duobus angulis rectis. Vnde ſi duo anguli vnius trianguli fuerint æquales duobus angulis alterius trianguli, erit & reliquus illius reliquo huius æqualis, æquiangulaq́; erunt ipſa triangula.
 

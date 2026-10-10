@@ -2,7 +2,7 @@
 
 num ABCDEF. In dato ergo circulo hexagonũ æquilaterum, & æquiangulum deſcripſimus. Quod faciendũ erat.
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC manifeſtum eſt, Hexagoni latus æquale eſſe ſemidiametro circuli. Nam DC, latus hexagoni, æquale eſt ſemidiametro DG, ex definitione circuli.
 
@@ -11,6 +11,8 @@ CAETERVM per ea, quæ dicta ſunt de pentagono, propos. 12. 13. & 14. deſcribem
 [Margin]
 16.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 16]
 
 ## PROBL. 16. PROPOS. 16.
 

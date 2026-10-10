@@ -3,6 +3,8 @@
 
 DBE. Aequalium igitur, & unum uni æqualem habentium angulum, &c. Quod oſtendendum erat.
 
+[Curated heading level=2 type=campanus: 15]
+
 ## THEOR. 11. PROPOS. 16.
 
 [Margin]

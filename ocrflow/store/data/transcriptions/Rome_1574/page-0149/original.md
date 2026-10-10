@@ -6,6 +6,8 @@ tiones, ſed ſolum, ut probetur recte eſſe per ipſas effectum, quod imperaba
 10.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 10]
+
 ## PROBL. 5. PROPOS. 10.
 
 DATAM rectam lineam finitam bifariam ſecare.
@@ -23,7 +25,7 @@ SIT recta finita A B, diudenda bifariam, ideſt, in duas partes æquales. Deſcr
 4. primi
 [/Margin]
 
-## PRAXIS.
+### PRAXIS.
 
 EX centro A, ad quoduis interuallũ, quod tamen dimidiũ lineæ A B, excedat, deſcribãtur duo arcus, unus ſuperne, alter inferne; Et ex cẽtro B, ad idẽ interuallũ omnino alij duo arcus delineentur, q̃ priores ſecẽt in C, & D. Recta igitur ducta C D ſecabit rectã A B in E, bifariã. Si. n. ex A, & B, ad C, & D, ducant̃ quatuor rectæ, erũt hæ oẽs inter ſe æquales, cũ ex cẽtris ad circũferentias æqualiũ circulorũ cadãt; Nã arcus circulorũ deſcripti ſũt eodẽ interuallo. Quoniã igit̃ latera A C, C D, æqualia ſunt la-
 

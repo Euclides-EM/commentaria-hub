@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## IX.
+### IX.
 
 CVM autem, quæ angulum continent lineæ, rectæ fuerint, rectilineus ille angulus appellatur.
 
@@ -8,7 +8,7 @@ ANGVLVS omnis planus conficitur aut ex lineis duabus rectis, qui quidem rectilin
 
 [Diagram: six angle figures formed of straight and curved lines, illustrating curvilinear and mixed angles]
 
-## X.
+### X.
 
 CVM vero recta linea ſuper rectam conſiſtens lineam eos, qui ſunt deinceps, angulos æquales inter ſe fecerit, rectus eſt vterq́; æqualium angulorum: Et quæ inſiſtit recta linea, perpẽdicularis vocatur cius{printer-error-correction:eius}, cui inſiſtit.
 

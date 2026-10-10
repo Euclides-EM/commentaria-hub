@@ -2,7 +2,7 @@
 
 ſum A, metietur ſaltem ipſum B: Eodemque modo ſi D, non metiatur ipſum B, metietur ſaltem ipſum A. Si duo ergo numeri ſe ſe mutuo multiplicantes fecerint aliquẽ, &c. Quod erat demonſtrandum.
 
-## SCHOLION.
+### SCHOLION.
 
 EODEM modo & hoc theorema ſequens demonſtrabimus.
 
@@ -15,6 +15,8 @@ NAM ex A, in B, fiat C, quem uel metiatur numerus non primus D, uel certe compo�
 [Margin]
 26. ſeptimi
 [/Margin]
+
+[Curated heading level=2 type=campanus: 30]
 
 ## PROBL{printer-error-correction:THEOR}. 31. PROPOS. 33.
 

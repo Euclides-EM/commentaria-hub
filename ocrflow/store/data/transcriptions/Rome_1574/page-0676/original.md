@@ -3,6 +3,8 @@
 
 metiri cubum B. Eodem enim argumento erit, ut C, ad D, ita A, ad H, propterea quod A, H, I, B, continuę proportionales ſunt in ratione C, ad D, ut oſtenſum eſt propos. 12. huius lib. Quapropter metiente C, latere latus D, metietur & A, ipſum H; ac idcirco & extremum B, cubus cubum, ex ijs, quæ ad propos. 6. huius lib. demonſtrauimus. Itaque ſi cubus numerus cubum numerum metiatur, &c. Quod erat demonſtrandum.
 
+[Curated heading level=2 type=campanus: 15]
+
 ## THEOR. 14. PROPOS. 16.
 
 [Margin]

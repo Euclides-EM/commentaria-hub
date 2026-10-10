@@ -18,6 +18,8 @@ ALITER. Quia numerus A, compoſitus eſt; metietur eum aliquis numerus, uel etia
 11. pron.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 31]
+
 ## THEOR. 32. PROPOS. 34.
 
 [Margin]
@@ -33,6 +35,8 @@ SIT numerus quicunque A. Dico eum uel eſſe primũ, uel certe aliquem primum eu
 [Margin]
 33. ſeptimi
 [/Margin]
+
+[Curated heading level=2 type=campanus: 34]
 
 ## PROBL. 3. PROPOS. 35.
 

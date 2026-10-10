@@ -19,6 +19,8 @@ Igitur & AE, compoſitus ex paribus, AC, CE, par erit.
 
 Quare addita unitate ED, totus AD, impar erit, cum impar à pari differat unitate, ex definitione. Si igitur impares numeri quotcunque, &c. Quod oſtendendum erat.
 
+[Curated heading level=2 type=campanus: 25]
+
 ## THEOR. 22. PROPOS. 24.
 
 [Margin]

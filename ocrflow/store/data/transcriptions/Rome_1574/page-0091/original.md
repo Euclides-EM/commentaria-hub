@@ -4,7 +4,7 @@
 
 BC, CD, DA, comprehenſa conſiderataq́; ſecundum longitudinem AB, vel DC, & ſecundū latitudinem AD, vel BC, omnis expers profunditatis, appellatur ſuperficies. Hanc nobis refert latitudo extrema cuiuſq; corporis, ſi ab ea omnis ſoliditas intellectu auferatur. Non incongrue etiam, vt ait Proclus, imaginem quaſi expreſſam ſuperficiei nobis exhibent vmbræ corporum. Hæ enim, cum interiorem terræ partem penetrare non poſſint, longæ tantum erunt, & latæ. Mathematici vero, vt nobis eam ob oculos ponant, monent, vt intelligamus lineam aliquam in tranſuerſum moueri: Veſtigium enim relictum ex iſto motu erit quidem longum propter longitudinem lineæ, latum quoq;, propter motum, qui in tranſuerſum eſt factus; nulla vero ratione profunditas eſſe poterit, cum linea ipſum deſcribens omni careat profunditate; quare ſuperficies dicetur. Vt ſi linea AB, fluat verſus DC, efficietur ſuperficies ABCD. Alij deſcribentes ſuperficiem dicunt, eam eſſe corporis terminum: Alij vero, magnitudinem duobus conſtantem interuallis. Poteſt enim ſuperficies diuidi, & ſecari duobus modis, vno quidem ſecundum longitudinem, altero vero ſecundum latitudinem.
 
-## VI.
+### VI.
 
 SVPERFICIEI autem extrema, ſunt lineæ.
 

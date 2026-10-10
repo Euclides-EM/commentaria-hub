@@ -7,6 +7,8 @@ PERSPICVVM autem eſt ex demonſtratione huius theorematis facta ab Euclide, & e
 
 [Figure: parallelogram with diagonal produced, labelled G, A, F, D, G, F, B, E, C, E]
 
+[Curated heading level=2 type=campanus: 25]
+
 ## PROBL. 7. PROPOS. 25.
 
 [Margin]

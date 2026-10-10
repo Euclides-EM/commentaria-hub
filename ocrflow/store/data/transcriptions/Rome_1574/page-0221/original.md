@@ -12,6 +12,8 @@ angulo dato G æqualem, æquale eſſe parallelogrammo ABCD. Ducta enim recta CE
 43.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 43]
+
 ## THEOR. 32. PROPOS. 43.
 
 IN omni parallelogrammo, complementa eorum, quæ circa diametrum ſunt, parallelogrammorum, inter ſe ſunt æqualia.
@@ -27,7 +29,7 @@ IN parallelogrãmo ABCD, ſint circa diametrum AC, parallelogrãma AEGH, CFGI, &
 3. pron.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 [Figure: parallelogram A, G, B along the top, E, F, I, K in the middle, D, H, C along the bottom, with diameter AC and two parallelograms about the diameter separated from each other]
 

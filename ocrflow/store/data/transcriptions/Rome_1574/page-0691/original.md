@@ -7,7 +7,7 @@ A,20.  C,30.  B,45.
 D,4.   E,6.   F,9.
 [/Calculation]
 
-## SCHOLION.
+### SCHOLION.
 
 FACILE etiam demonſtrabimus conuerſum huius, videlicet.
 
@@ -33,6 +33,8 @@ C,16.  D,36.
 [/Margin]
 
 EX hoc perſpicuum eſt, planos numeros, qui ſimiles non ſunt, proportionem non habere, quam quadratus ad quadratũ. Si enim haberent; eſſent, vt modo demonſtratum eſt, plani ſimiles. quod eſt abſurdum. ponuntur enim non ſimiles.
+
+[Curated heading level=2 type=campanus: 25]
 
 ## THEOR. 25. PROPOS. 27.
 

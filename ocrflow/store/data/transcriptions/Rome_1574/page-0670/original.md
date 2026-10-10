@@ -23,7 +23,7 @@ C,3. D,4.
 18 ſeptimi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HIC quoque manifeſtum eſt, inter duos cubos cadere duos
 

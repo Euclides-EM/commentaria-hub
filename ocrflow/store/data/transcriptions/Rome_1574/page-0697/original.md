@@ -41,6 +41,8 @@ B,64.  Vnitas.
 23. octaui.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 4]
+
 ## THEOR. 4. PROPOS. 4.
 
 [Margin]

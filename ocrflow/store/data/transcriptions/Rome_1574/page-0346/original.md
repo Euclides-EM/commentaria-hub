@@ -7,7 +7,7 @@
 36. tertij.
 [/Margin]
 
-## COROLLARIVM. II.
+### COROLLARIVM. II.
 
 CONSTAT etiam, duas rectas ab eodem puncto ductas, quæ circulum tangant, inter ſe eſſe ęquales. Ducantur enim ex A, rectæ AB, AC, tangentes circulum; quas dico eſſe æquales inter ſe. Ducta enim recta AD, quæ circulum ſecet in E, erit tam quadratum rectæ AB, quam quadratum rectæ AC, æquale rectangulo ſub AD, AE; Quare quadrata rectarum AB, AC, inter ſe æqualia erunt, ac propterea rectæ AB, AC, æquales quoque erunt.
 
@@ -17,7 +17,7 @@ CONSTAT etiam, duas rectas ab eodem puncto ductas, quæ circulum tangant, inter 
 36. tertij.
 [/Margin]
 
-## COROLLARIVM. III.
+### COROLLARIVM. III.
 
 PERSPICVVM denique eſt, ab eodem puncto extra circulum aſſumpto, duci tantum poſſe duas lineas, quæ circulum tangãt. Si enim præter duas AB, AC, duci poſſit tertia AD, circulum eundẽ tangens; ductis rectis EB, ED, ex centro E, erunt anguli ABE, ADE, recti, ideoque æquales; quod eſt abſurdum. Nam ſi ducatur recta AE, erit angulus ADE, maior angulo ABE.
 
@@ -33,6 +33,8 @@ ALITER. Erunt duæ tangentes AB, AD, æquales, ut oſtenſum eſt; quod eſt ab�
 [Margin]
 8. tertij.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 36]
 
 ## THEOR. 31. PROPOS. 37.
 

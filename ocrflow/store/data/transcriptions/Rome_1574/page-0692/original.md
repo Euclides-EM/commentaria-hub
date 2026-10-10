@@ -8,7 +8,7 @@ A,240.  C,360.  D,540.  B,810.
 E,8.    F,12.   G,18.   H,27.
 [/Calculation]
 
-## SCHOLION.
+### SCHOLION.
 
 CONVERSVM huius etiam demonſtrabimus; ſcilicet.
 

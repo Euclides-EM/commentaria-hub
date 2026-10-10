@@ -20,7 +20,7 @@ SINT data duo rectilinea A, & BCD, quibus inueniendum ſit tertium proportionale
 III.
 [/Margin]
 
-## TRIBVS datis rectilineis, quartum proportionale inuenire.
+#### TRIBVS datis rectilineis, quartum proportionale inuenire.
 
 TRIA rectilinea data ſint A, BCDE, FGH, quibus quartum ſit inueniendum proportionale. Conſtruatur rectilineum IKLM, æquale quidem ipſi A, ſimile vero ſimiliterq́; poſitum ipſi BCDE. Tribus deinde rectis IK, BC, FG, inuenta quarta proportionali NO, conſtituatur ſuper NO, rectilineum NOP, ipſi FGH, ſimile ſimiliterque poſitum. Dico NOP, rectilineum eſſe quartum proportionale. Cum enim quatuor rectæ IK, BC, FG, NO, ſint proportionales, erunt & rectilinea ſimilia ſimiliterq́; poſita ab ipſis deſcripta IL, BD, FGH, NOP, proportionalia. Cum igitur IL, conſtructum ſit æquale ipſi A; erunt & quatuor rectilinea A, BD, FGH, NOP, proportionalia.
 
@@ -40,7 +40,7 @@ TRIA rectilinea data ſint A, BCDE, FGH, quibus quartum ſit inueniendum proport
 IIII.
 [/Margin]
 
-## DVOBVS datis rectilineis, medium proportionale inuenire.
+#### DVOBVS datis rectilineis, medium proportionale inuenire.
 
 SINT duo rectilinea A, BCD, quibus medium inueniendum eſt proportionale. Conſtituatur rectilineum EFG, æquale ipſi A, & ſimile ſimiliterque poſitum ipſi BCD. Duabus deinde rectis EF, BC, inuenta media proportionali HI, conſtruatur ſuper HI, rectilineum HIK, ſimile ſimiliterq́; poſi-
 

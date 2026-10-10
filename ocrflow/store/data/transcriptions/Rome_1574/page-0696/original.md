@@ -23,6 +23,8 @@ A,9.  B,20.
 C,180.
 [/Calculation]
 
+[Curated heading level=2 type=campanus: 3]
+
 ## THEOR. 3. PROPOS. 3.
 
 [Margin]

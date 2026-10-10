@@ -6,6 +6,8 @@ tionalis, ſexta, ſeptima, octaua, &c.
 10.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 10]
+
 ## PROBL. 4. PROPOS. 12.
 
 TRIBVS datis rectis lineis, quartam proportionalem inuenire.
@@ -18,7 +20,7 @@ SINT tres lineæ rectæ AB, BC, AD, quibus inueniẽda ſit quarta proportionali
 2. ſexti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HINC facile elicimus, quonam pacto, datis duabus rectis lineis, duæ aliæ in eadem cum illis proportione re periri poſſint. Si enim datæ ſint duæ rectæ lineæ A, B, in quacunque proportione, ſi tertia qualibet accipiatur C, & ei quarta proportionalis inueniatur D, ut fit quemadmodum A, ad B, ita C, ad D; factum erit, quod proponitur. Eadem arte inuenientur ſex lineæ, octo, decem, duodecim, &c. quarum binæ ſemper eandem habeant proportionem.
 

@@ -5,6 +5,8 @@ cta D, E, F, donec circulum contingat in A; Hoc conceſſo, manifeſtum eſt, qu
 
 [Figure: circle with vertical diameter A C, point B on the left, and lines from A to points F, E and D outside the circle]
 
+[Curated heading level=2 type=campanus: 16]
+
 ## PROBL. 2. PROPOS. 17.
 
 A DATO puncto rectam lineam du cere, quæ datum tangat circulum.

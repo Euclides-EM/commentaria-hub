@@ -21,6 +21,8 @@ rectam, quod quidem continget, ſi duo anguli C, & F, recti extiterint; aut non.
 3. pron.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 9]
+
 ## PROBL. 4. PROPOS. 9.
 
 [Margin]

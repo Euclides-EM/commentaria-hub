@@ -1,11 +1,13 @@
 <!-- Running title: LIBER. VIII. -->
 <!-- Page number: 289 -->
 
-## SCHOLION.
+### SCHOLION.
 
 PERSPICVVM autem eſt, numeros, qui continua proportione cadunt inter numeros A, & B, ac unitatem, habere proportiones denominatas a minimis numeris proportionis A, ad C; hoc eſt, quas habent E, & F, numeri ad unitatem; id quod in ſcholio propos. 2. huius lib. aſſeruimus.
 
 CONSTAT quoque ex demonſtratione hac, ſi numerus ſe ipſum multiplicans aliquem fecerit; & rurſum multiplicet productum, & ſic deinceps: omnes productos eſſe continue proportionales ab unitate. Oſtenſum enim eſt & E, G, K, & F, I, N, qui hac ratione ſunt procreati, ex demonſtratione propos. 2. huius lib. continue eſſe proportionales ab unitate.
+
+[Curated heading level=2 type=campanus: 10]
 
 ## THEOR. 8. PROPOS. 10.
 

@@ -4,6 +4,8 @@
 20.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 20]
+
 ## THEOR. 15. PROPOS. 21.
 
 QVAE eidem rectilineo ſunt ſimilia, & inter ſe ſunt ſimilia.
@@ -19,6 +21,8 @@ SINT rectilinea ABC, DEF, rectilineo GHI, ſimilia. Dico & ipſa inter ſe eſſ
 [Margin]
 21.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 21]
 
 ## THEOR. 16. PROPOS. 22.
 

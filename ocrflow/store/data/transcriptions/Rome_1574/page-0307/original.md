@@ -6,7 +6,7 @@ rea D A F, eſſe minorem omni angulo acuto, ex ipſa Euclidis ſententia: ſcil
 
 SED & probabimus, contactum interiorem circulorum quantitatem non eſſe, in hunc modum. Nempe cum omnes circuli ſint ſimiles, erunt & ſemicirculi ſimiles: Quapropter anguli, qui fiunt a diametro & peripheria, in omnibus circulis ſunt æquales, per conuerſam definitionis ſimilium ſectionum. (Nam ab hac æqualitate angulorum non excludentur anguli mixti.) Erit igitur angulus B A F, æqualis vtrique angulorum K A H, & N A M: Ac propterea contactus F A M, nihil addit ad angulum B A F. Quare F A M, quantitas non eſt. Quod fuit demonſtrandum. Hinc ſequitur alterum.
 
-## CONTACTVS lineæ rectæ cum circulo, quantitas non eſt.
+#### CONTACTVS lineæ rectæ cum circulo, quantitas non eſt.
 
 MANENTE enim eadem conſtructione, ſi D A F, ſit
 

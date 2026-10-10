@@ -5,7 +5,7 @@ A, multiplex: Diuiſo ergo BC, in partes BE, EC, ipſi A, æquales, & ipſo CD, 
 
 [Diagram: two horizontal dotted lines, the first labelled A, the second labelled B, E, C, F, G and D]
 
-## XI.
+### XI.
 
 NVMERVS quemcunque numerũ metiens, metitur quoque omnem numerum, quem ille metitur.
 
@@ -13,7 +13,7 @@ METIATVR numerus A, numerum B; & B, numerum CD. Dico eundem A, metiri quoque num
 
 [Diagram: three horizontal dotted lines labelled A, B, and C, E, D]
 
-## XII.
+### XII.
 
 NVMERVS metiens totum & ablatum, metitur & reliquum.
 

@@ -13,6 +13,8 @@ norem peripheria DEF. Ductis enim rectis AG, GC, DH, HF, erunt latera AG, GC, tr
 28.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 28]
+
 ## THEOR. 26. PROPOS. 29.
 
 IN æqualibus circulis, æquales peripherias, æquales rectæ lineæ ſubtendunt.
@@ -26,7 +28,7 @@ IN circulis eiſdem æqualibus, ponantur æquales peripheriæ ABC, DEF; Item AC,
 4. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 SI autem fuerint peripheriæ inæquales, ſubtendet maiorẽ maior linea, quam minorem, ſi de ſegmẽtis ſemicirculo minoribus fiat ſermo. Nam ſi de ſegmẽtis, maioribus ſemicirculo loquamur, ſubtendet maiorem minor linea, quam mino-
 

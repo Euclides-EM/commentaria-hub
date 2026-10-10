@@ -3,6 +3,8 @@
 
 erit ipſius A, ab eodem B, denominata. Si numerum ergo quiſpiam numerus metiatur, &c. Quod oſtendendũ erat.
 
+[Curated heading level=2 type=campanus: 38]
+
 ## THEOR. 35. PROPOS. 40.
 
 [Margin]
@@ -18,6 +20,8 @@ HABEAT numerus A, partem B. a qua numerus C, denominatur. Dico C, metiri ipſum 
 [Margin]
 15. ſeptimi
 [/Margin]
+
+[Curated heading level=2 type=campanus: 39]
 
 ## PROBL. 6. PROPOS. 41.
 

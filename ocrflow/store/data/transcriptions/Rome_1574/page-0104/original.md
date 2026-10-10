@@ -5,7 +5,7 @@ rum, vel angulorum, declarat prius ſpecies prioris diuiſionis, quæ tres ſunt
 
 [Figure: equilateral triangle]
 
-## XXIIII.
+### XXIIII.
 
 ISOSCELES autem eſt, quod duo tantum æqualia habet latera.
 
@@ -13,7 +13,7 @@ EX hac rurſum æqualitate duorum laterum trianguli Iſoſcelis efficitur, duos 
 
 [Figure: two isosceles triangles, the first with a longer base, the second with a shorter base]
 
-## XXV.
+### XXV.
 
 SCALENVM vero eſt, quod tria inæqualia habet latera.
 

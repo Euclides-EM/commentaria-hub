@@ -2,7 +2,7 @@
 
 bus A, B, C, denominati; Atque adeo, cum H, minor ſit quam G, non erit G, minimus, quem metiuntur D, E, F. Quod eſt abſurdum, & contra hypotheſim. Non igitur minor numerus, quam G, datas partes A, B, C, habebit, ſed ipſe G, minimus erit. Quare numerum reperimus, qui minimus cum ſit, habet datas partes. Quod faciendum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi ſumantur numeri I, K, L, per quos numeri D, E, F, ipſum G, metiuntur; erunt numeri I, K, L, datæ partes A, B, C, ipſius G, denominatæ ſcilicet a D, E, F. Cum enim D, E, F, ipſum G, metiantur per I, K, L; metietur æque unitas ipſos I, K, L, & numeri D, E, F, ipſum G.
 

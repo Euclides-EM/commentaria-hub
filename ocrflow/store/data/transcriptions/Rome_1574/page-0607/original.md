@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## SCHOLION.
+### SCHOLION.
 
 HANC propoſitionem, & præcedentem, ad quotcunque numeros cum Campano accommodabimus hac ratione.
 
@@ -13,6 +13,8 @@ FIANT enim E, F, G, ex A, in B, C, D, uel ex B, C, D, in A. Dico eaſdem ratione
 [Margin]
 17. uel 18. ſeptimi.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 20]
 
 ## THEOR. 17. PROPOS. 19.
 

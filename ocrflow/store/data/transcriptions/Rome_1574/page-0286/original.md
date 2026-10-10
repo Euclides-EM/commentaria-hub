@@ -1,6 +1,8 @@
 <!-- Running title: LIBER III. -->
 <!-- Page number: 101 -->
 
+[Curated heading level=2 type=campanus: 3]
+
 ## THEOR. 2. PROPOS. 3.
 
 [Margin]

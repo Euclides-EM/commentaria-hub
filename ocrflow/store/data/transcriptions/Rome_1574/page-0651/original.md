@@ -17,7 +17,7 @@ R,144. Q,120. P,90. O,315. V,70.
 
 ipſum Q; & M, ipſum R; quoties uero S, eundem O, metitur, toties T, ipſum V, metiatur. His enim peractis, erunt R, Q, P. O, V, deinceps proportionales minimi in rationibus A, ad B; C, ad D; E, ad F, & S, ad T. Quæ omnia eo argumento, quo prius, demõſtrabimus. Eodem modo operabimur, ſi quinque, uel plures rationes datæ ſint in minimis numeris. Itaque rationibus datis quotcunque in minimis numeris, &c. Quod faciendum erat.
 
-## SCHOLION.
+### SCHOLION.
 
 SI omnes rationes, vel aliquæ datæ fuerint in numeris nõ minimis, abſoluemus nihilo minus problema propoſitum; ſed prius exhibendæ erunt rationes datæ in minimis numeris, antequam ad inuentionem minimorum numerorum deinceps proportionalium aggrediamur, vt ex demonſtratione manifeſtũ eſt.
 

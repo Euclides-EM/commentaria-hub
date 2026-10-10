@@ -13,7 +13,7 @@ L, multiplicem quartæ, &c. At quando H, excedit ipſam L, non neceſſario I, e
 8.defin.5.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi proportio C, tertia ad D, quartam minor fuerit, quam E, quintæ ad F, ſextam; erit quoque proportio A, primæ ad B, ſecundam minor quam E, quintæ ad F, ſextam. Si enim proportio C, ad D, minor eſt quam E, ad F, hoc eſt, proportio E, ad F, maior quam C, ad D; fit ut ſi I, excedit ipſam M, non neceſſario H, excedat ipſam L, ſed aliquando deficiat, uel ei æqualis ſit. Sed ſi H, deficit ab L, uel ei æqualis eſt, etiam G, deficiet a K, uel ei erit æqualis, eo quod ponatur C. prima ad D, ſecundam, ut A, tertia ad B, quartam. Quare ſi I, excedit ipſam M, non neceſſario G, excedet ipſam K; atq; idcirco maior erit proportio E, primæ ad F, ſecundam, quam A, tertiæ ad B, quartam, hoc eſt, proportio A, ad B, minor erit quam E, ad F, quod eſt propoſitum.
 

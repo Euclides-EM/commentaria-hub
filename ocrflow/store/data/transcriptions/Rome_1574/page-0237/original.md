@@ -6,7 +6,7 @@ tatẽ: Quare quadratũ rectę AD quadratis rectarũ BA, BC, æquale erit. Cũ e
 8. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 CONVERSVM eſt autem theorema hoc præcedentis theorematis Pythagorici, ut perſpicuum eſt.
 

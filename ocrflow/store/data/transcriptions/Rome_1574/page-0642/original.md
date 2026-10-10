@@ -3,11 +3,13 @@
 
 ri deinceps proportionales, &c. Quod erat demonſtrandũ.
 
-## SCHOLION.
+### SCHOLION.
 
 PERSPICVVM autem eſt ex demonſtratione, numeros A, B, C, D, eſſe minimos in continuatione ſuarum proportionum, ſi extremi A, & D, inter ſe primi ſint, ſiue A, B, C, D, ſint continue proportionales, ut vult Euclides, ſiue non. Vt hoc exemplum oſtendit, in quo proportiones omnes diuerſæ ſunt, quemadmodum in priori eadem ſemper proportio reperitur.
 
 [Diagram: two columns of lines: A, B, C and D shown as rows of dots of increasing length; E, F, G and H shown as dashed lines of increasing length]
+
+[Curated heading level=2 type=campanus: 2]
 
 ## PROBL. 1. PROPOS. 2.
 

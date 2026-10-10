@@ -6,6 +6,8 @@
 
 Cum igitur duo anguli B, & C, trianguli ABC, æquales ſint duobus angulis E, & F, trianguli DEF, erunt quoque reliqui anguli A, & D, æquales. Æquiangulum eſt ergo triangulum ABC, triangulo DEF. Quare in dato circulo triangulum deſcripſimus, &c. Quod faciendum erat.
 
+[Curated heading level=2 type=campanus: 3]
+
 ## PROBL. 3. PROPOS. 3.
 
 [Margin]

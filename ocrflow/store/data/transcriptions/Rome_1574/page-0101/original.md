@@ -4,7 +4,7 @@ bifariam ſecari a diametro, perſpicuum ex eo eſſe poteſt, quod diameter per
 
 [Diagram: semicircle on baseline A C B with point D at top of the outer arc, inner arcs marked E and D descending toward the base]
 
-## XVIII.
+### XVIII.
 
 SEMICIRCVLVS vero eſt figura, quæ continetur ſub diametro, & ſub ea linea, quæ de circuli peripheria aufertur.
 

@@ -1,6 +1,6 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## SCHOLION.
+### SCHOLION.
 
 RECTE Euclides duas conditiones poſuit in antecedente huius theorematis, quarum prima eſt, ut duo latera unius trianguli æqualia ſint duobus lateribus alterius triãguli, utrumq́; utrique; Secunda, ut angulus etiam unius contentus illis lateribus æqualis ſit angulo alterius contento lateribus, quæ iſtis ſunt æqualia; Deficiente enim alterutra harum conditionum, neque baſes, neque reliqui anguli poterunt unquam eſſe æquales, triãgula uero admodum raro æqualia exiſtent, ut probe hoc loco a Proclo demonſtratur. Sint enim triangulorum A B C, D E F, anguli A, & D, æquales, nempe recti, & latera A B, A C, æqualia lateribus D E, D F, non quidem utrunque utrique ſed illa ſimul ſumpta hiſce ſimul ſumptis, ſitq́ue A B, 3. A C, 4. ut ambo ſimul efficiant 7. At uero D E, fit 2. & D F, 5. ut ambo quoque ſimul 7. cõſtituant. Quibus poſitis, erit baſis B C, 5; & baſis E F, radix quadrata huius numeri 29, quæ maior quidem eſt quam 5, minor autem, quam 6. Item area trianguli A B C, erit 6. area uero trianguli D E F, 5. Anguli denique ſuper baſim B C, inæquales erunt angulis ſuper baſim E F. Quæ quidem omnia ita eſſe, hic oſtenderemus niſi ad eorum demonſtrationem requirerentur multa, quæ nondum ſunt confirmata Vides igitur omnia inæqualia eſſe, propterea quod non utrumque latus utrique lateri æquale exiſtat in dictis triangulis A B C, D E F.
 

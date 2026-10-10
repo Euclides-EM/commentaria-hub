@@ -8,7 +8,7 @@ les, quot ſunt in DE, æquales ipſi F. Eadem ratione erũt & in BG, tot æqual
 
 [Figure: four horizontal lines, the first divided by points labelled A, B and G, the second labelled C, the third divided by points labelled D, E and H, the fourth labelled F]
 
-## SCHOLION.
+### SCHOLION.
 
 QVOD ſi prima magnitudo, & tertia, æquales fuerint ſecundæ, & quartæ: Quinta vero & ſexta, æquemultiplices ſecundæ, & quartæ. Vel prima, & tertia æquemultiplices fuerint ſecundæ, & quartæ; At quinta & ſexta, æquales ſecundæ, & quartæ: Erit eadem ratione, tota AG, (prima, & quinta) tam multiplex ſecundæ C, quam multiplex eſt tota DH, (tertia ac ſexta) ipſius F, quartæ. Semper enim AG, multitudo magnitudinũ æqualium ipſi C, oſtendetur æqualis eſſe ipſi DH, multitudini magnitudinum ipſi F, æqualium, ceu perſpicuum eſt in propoſito ſchemate. Si uero tam prima & tertia, quam quinta, & ſexta æquales ponantur ſecundæ, & quartæ, luce clarius exiſtit, primam & quintam ſimul; atque tertiam & ſextam ſimul, æque multiplices eſſe, nimirum duplices, ſecundæ & quartæ magnitudinum.
 
@@ -19,6 +19,8 @@ HOC quoque ab Euclide concludetur in omni genere proportionis uniuerſe propos. 
 [Margin]
 3.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 3]
 
 ## THEOR. 3. PROPOS. 3.
 

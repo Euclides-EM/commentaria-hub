@@ -14,6 +14,8 @@ CADAT ſecundo AB, producta ſupra EF. Cadet igitur FE, protracta infra AB: Quar
 36.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 36]
+
 ## THEOR. 26. PROPOS. 36.
 
 PARALLELOGRAMMA ſuper æqualibus baſibus, & in eiſdem parallelis conſtituta, inter ſe ſunt æqualia.

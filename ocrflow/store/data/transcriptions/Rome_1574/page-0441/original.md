@@ -20,7 +20,7 @@ SIT A B, prima ad C, ſecundam, vt D E, tertia ad F, quartam; Item B G, quinta a
 
 [Diagram: two horizontal lines, one divided at B with points A, B, G, the other divided at E with points D, E, H; below them two shorter lines labelled C and F]
 
-## SCHOLION.
+### SCHOLION.
 
 EODEM fere modo oſtendetur in omni genere proportionis id, quod Theorema ſextum huius lib. demonſtrauit in æquemultiplicibus magnitudinibus duntaxat. Videlicet.
 

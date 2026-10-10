@@ -7,7 +7,7 @@ pheria ab illis aſſumpta.
 
 SI in circulo ABCD, cuius centrum E, rectæ AE, CE, conſtituant angulum AEC, ad centrum E; nominabitur figura AECD, contenta rectis AE, EC, & circunferentia ADC, quam prædictæ lineæ aſſumunt, Sector circuli. Ex hoc autem perſpicue etiam colligitur, angulum, qui definitione 8. explicatur, referri ad circunferentiam, quæ ipſius baſis eſt, non autem ad eam, in qua exiſtit, vt multi interpretes exiſtimarunt. Nam ſicut in hac definitione Euclides intelligit circunferentiam ADC, quæ baſis eſt anguli ad centrum conſtituti, quando mentionem facit peripheriæ a rectis AE, CE, aſſumptæ: Ita quoq; in illà intellexiſſe eum neceſſe eſt nomine peripheriæ, quam rectæ lineæ aſſumunt, eam, quæ baſis eſt anguli ad circunferentiam conſtituti; quandoquidem in vtraq; definitione vſus eſt eodem verbo græco ἀπολαμβάνειν.
 
-## X.
+### X.
 
 SIMILIA circuli ſegmenta ſunt, quæ angulos capiunt æquales: Aut in quibus anguli inter ſe ſunt æquales.
 

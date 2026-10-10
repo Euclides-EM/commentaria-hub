@@ -11,7 +11,7 @@ Intelligatur.n.eſſe E, ad B, vt C, ad D;eritq; proportio A, ad B, maior quoq; 
 4. quinti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 EODEM fere modo demonſtrabim⁹ ſi prima ad ſecũdã habuerĩt minorẽ proportionẽ, quã tertia ad quartam, cõuertendo maiorẽ eße proportionẽ ſecũda ad primã, quã quartæ ad tertiã; dũmodo vocem maioris mutemus in vocem minoris, & contra.
 
@@ -23,6 +23,8 @@ SIT enim minor proportio A, ad B, quã C, ad D. Dico conuertendo, B, ad A, maior
 10. quinti.
 8. quinti.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 27]
 
 ## THEOR. 27. PROPOS. 27.
 

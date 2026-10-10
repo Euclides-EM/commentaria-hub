@@ -9,7 +9,7 @@ FIAT iam angulo BFE, ex altera parte æqualis angulus BFH, & ducatur recta GH, i
 4 primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HANC propoſitionem nonnulli conuertunt, hoc modo.
 

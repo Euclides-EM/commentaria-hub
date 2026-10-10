@@ -8,13 +8,13 @@ tet. Nam ſi ducta eſſet recta DE, fierent anguli FDE, FED, duobus rectis mino
 
 [Figure: three circles each circumscribing a triangle with points A, B, C, D, E, F marked; centre F falls inside the triangle, on the side, and outside the triangle]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC manifeſtum eſt, ſi centrum intra triangulum cadat, omnes angulos eſſe acutos, quoniam omnes ſunt in maiori ſegmento circuli: ſi uero ſit in latere BC, angulum BAC, eſſe rectum, quod fit in ſemicirculo: Si denique cadat extra triangulum, angulũ BAC, obtuſum eſſe, cum ſit in minori ſegmento circuli.
 
 CONTRA uero perſpicuum eſt, ſi triangulum fuerit acutangulum, centrum cadere intra triangulum: ſi rectangulum, in latus recto angulo oppoſitum: ſi denique obtuſangulum fuerit, extra triangulum. Quod quidem facile oſtendetur, ducendo ad incommodum aliquod, ſiue abſurdum.
 
-## SCHOLION.
+### SCHOLION.
 
 COLLIGITVR etiam ex hoc problemate, quanam arte deſcribendus ſit circulus, qui per data tria puncta non in una recta linea exiſtentia tranſeat. Nam ſi data puncta tribus rectis iungantur, ut conſtituatur triangulum, facile circa ipſum circulus deſcribetur. Quod tamen facilius efficietur praxi illa, quam tradidimus propos. 25. lib. 3. Sint enim data tria puncta A, B, C; Ex A, & B, quouis interuallo, duo arcus deſcribantur ſe interſecantes in D, & E, punctis, per quæ recta linea ducatur
 

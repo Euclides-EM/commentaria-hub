@@ -2,7 +2,7 @@
 
 tatem, erit GH, ad GI, ut KL, ad KM; Item GH, ad HI, ut KL, ad LM; & GI, & IH, ut KM, ad ML, cum ſemper ſit proportio æqualitatis. Idem dicendum eſt de quadratis, pentagonis æquilateris & æquiangulis, nec non de hexagonis, heptagonis, octogonis, & de alijs id genus figuris rectilineis æquiangulis, atque æquilateris.
 
-## II.
+### II.
 
 RECIPROCAE autem figuræ ſunt, cum in utraque figura antecedentes & conſequentes rationum termini fuerint.
 
@@ -10,7 +10,7 @@ VT ſi in parallelogrammis ABCD, EFGH, latera AB, BC, ita proportionalia fuerint
 
 [Diagram: two rectangles labelled A, B, C, D and E, F, G, H; a triangle labelled I, K, L and a larger elongated triangle labelled M, N, O]
 
-## III.
+### III.
 
 SECVNDVM extremam, & mediam rationem recta linea ſecta eſſe dicitur,
 

@@ -39,6 +39,8 @@ SIT tertio A, minor quam C, eritque ob hoc maior proportio C, maioris ad B, quam
 
 [Diagram: four horizontal line segments labelled A, B, C and D]
 
+[Curated heading level=2 type=campanus: 15]
+
 ## THEOR. 15. PROPOS. 15.
 
 [Margin]

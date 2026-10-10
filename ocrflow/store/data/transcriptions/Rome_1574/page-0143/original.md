@@ -12,6 +12,8 @@ Eadem ratione poſſunt ex A, & B, infra A B, baſim trianguli A B C, hoc eſt a
 8.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 8]
+
 ## THEOR. 5. PROPOS. 8.
 
 SI duo triangula duo latera habuerint duobus lateribus, vtrumque vtrique, æqualia, habuerint vero & baſim baſi æqualem: Angulum quoque ſub æqualibus rectis lineis contentum angulo æqualem habebũt.

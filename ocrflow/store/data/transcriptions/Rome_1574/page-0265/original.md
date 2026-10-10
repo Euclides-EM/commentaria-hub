@@ -12,9 +12,11 @@
 47. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HOC theorema nulla ratione accommodari poteſt numeris. Non enim numerus vllus in duos numeros diuiditur, vt numerus productus ex toto in alteram partem æqualis ſit quadrato alterius partis, ut demonſtrabimus ad propos. 14. lib. 9. Vbi etiam decem theoremata antecedentia huius lib. in numeris demonſtrabimus.
+
+[Curated heading level=2 type=campanus: 12]
 
 ## THEOR. 11. PROPOS. 12.
 

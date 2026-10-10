@@ -19,7 +19,7 @@ I N triangulo A B C, ſuper extremitates B, & C, lateris B C, intra triangulũ c
 16. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 QVAM recte Euclides dixerit, duas illas lineas intra triangulum conſtitutas, duci debere ab extremitatibus unius lateris, aperte intelligi poteſt ex eo, quod mox ex Proclo demonſtrabimus; in triangulis uidelicet rectangulis, uel etiam amblygonijs, intra triangulum conſtitui poſſe duas lineas ſuper unum latus circa angulum rectum, vel obtuſum, quarum quidem una ab extremitate dicti lateris, altera vero a quouis puncto prope aliud extremum lateris eiuſdem educitur, ita vt hæ conſtitutæ maiores ſint reliquis duobus trianguli lateribus. Item in triangulis ſcalenis eodem modo ſuper maximum latus duas rectas intra triangulum conſtitui poſſe, quæ minorem comprehendant angulum, &c.
 

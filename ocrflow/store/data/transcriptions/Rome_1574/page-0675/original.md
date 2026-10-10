@@ -13,6 +13,8 @@ C,2. D,6.
 
 METIATVR iam C, latus latus D. Dico & quadratum A, quadratum B, metiri. Eodem enim modo erit, ut C, ad D, ita A, ad E, propterea quod A, E, B, continue proportionales ſunt in ratione C, ad D, ut demonſtratum eſt propos. 11. huius lib. Quare cum C, metiatur D, metietur quoque A, primus E, ſecundum; ac proinde & extremum B, metietur, ex theoremate 2. ſcholij propos. 6. huius lib. Si quadratus ergo numerus quadratum numerũ metiatur, &c. Quod erat oſtendendum.
 
+[Curated heading level=2 type=campanus: 14]
+
 ## THEOR. 13. PROPOS. 15.
 
 [Margin]

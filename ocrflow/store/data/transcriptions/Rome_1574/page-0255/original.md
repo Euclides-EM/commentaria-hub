@@ -12,6 +12,8 @@ EX hoc porro theoremate colligitur proprietas inſignis Arithmeticæ proportiona
 7.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 7]
+
 ## THEOR. 7. PROPOS. 7.
 
 SI recta linea ſecetur vtcunq;; Quod a tota, quodq́; ab vno ſegmentorum, vtraque ſimul quadrata, æqualia ſunt & illi, quod bis ſub tota, & dicto ſegmento comprehenditur, rectangulo, & illi, quod a reliquo ſegmento fit, quadrato.

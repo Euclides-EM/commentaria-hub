@@ -16,9 +16,11 @@ ALITER totum problema conficiemus. Diuidatur AB, in C, ita ut rectangulum ſub t
 17. ſexti.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 HABET admiranda hæc ſectio lineæ extrema ac media ratione inſignes utilitates, proprietatesque, ceu in libris Stereometria manifeſtum erit, ut nõ ſine cauſa a plerisque Mathematicis linea ita diuiſa diuinam quodammodo, ob admirabilẽ eius vim, ac naturam, dicatur habere proportionem: Ab alijs uero ſimpliciter uocetur diuiſa proportionaliter.
+
+[Curated heading level=2 type=campanus: 31]
 
 ## THEOR. 21. PROPOS. 31.
 

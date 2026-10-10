@@ -14,6 +14,8 @@ RVRSVS diſtent rectæ AB, CD, æqualiter a centro E; Dico eas inter ſe eſſe 
 47. primi
 [/Margin]
 
+[Curated heading level=2 type=campanus: 14]
+
 ## THEOR. 14. PROPOS. 15.
 
 [Margin]

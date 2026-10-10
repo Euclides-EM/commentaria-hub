@@ -7,7 +7,7 @@ SINT plures magnitudines duabus A, B, C, & totidẽ D, E, F, ſintque binæ ac b
 
 [Figure: six vertical lines labelled A, B, C, D, E and F, with the numbers 12 and 6 above B and C, and 12, 8 and 4 above D, E and F; the number above A is partly legible]
 
-## XVIII.
+### XVIII.
 
 ORDINATA proportio eſt, cum fuerit, quemadmodum antecedens ad conſequentem, ita antecedens ad conſequentem; fuerit etiam, ut conſequens ad aliud quidpiam, ita conſequens ad aliud quidpiam.
 

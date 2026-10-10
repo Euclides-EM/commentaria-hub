@@ -14,6 +14,8 @@ CAETERVM quo pacto triangulum conſtitui debeat habens tria latera æqualia trib
 2.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 2]
+
 ## PROBL. 2. PROPOS. 2.
 
 AD datum punctum, datæ rectæ lineæ æqualem rectam lineam ponere.

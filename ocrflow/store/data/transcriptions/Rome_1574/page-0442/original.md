@@ -11,6 +11,8 @@ Itaque cum rurſus ſit B G, ad A B, vt E H, ad D E; & A B, ad C, vt D E, ad F; 
 25.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 25]
+
 ## THEOR. 25. PROPOS. 25.
 
 SI quatuor magnitudines proportionales fuerint: maxima & minima reliquis duabus maiores erunt.
@@ -23,7 +25,7 @@ SIT A B, ad C D, vt E, ad F, ſitq; A B, omnium maxima, & F, minima. Dico duas A
 
 [Diagram: two horizontal lines, one with points A, G, B, the other with points C, H, D; beside them two shorter lines labelled E and F]
 
-## SCHOLION.
+### SCHOLION.
 
 [Margin]
 14. quinti.

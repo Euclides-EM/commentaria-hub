@@ -1,6 +1,8 @@
 <!-- Running title: LIBER. III. -->
 <!-- Page number: 129 -->
 
+[Curated heading level=2 type=campanus: 34]
+
 ## THEOR. 29. PROPOS. 35.
 
 [Margin]

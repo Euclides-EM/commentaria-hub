@@ -13,6 +13,8 @@ Quoniam vero, vt ante, ex inuerſa ratione vt C, ad B, Ita E, ad D; erit quoque 
 22.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 22]
+
 ## THEOR. 22. PROPOS. 22.
 
 SI ſint quotcunq; magnitudines, & aliæ ipſis æquales numero, quæ binæ in eadem ratione ſumantur : Et ex æqualitate in eadem ratione erunt.

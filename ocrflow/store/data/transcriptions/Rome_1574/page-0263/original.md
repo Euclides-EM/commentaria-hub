@@ -25,7 +25,7 @@ lelogrammo CF, recto angulo C, opponatur; Igitur & reliquus FEG, ſemirectus eri
 47. primi
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 ALITER ex Federico Commandino. Quoniam AC, ipſi CB, eſt aqualis, & ſuperat CD, ipſam CB, recta BD; ſuperabit quoque CD, ipſam AC, eadem recta BD. Quare, vt ad 7. ppos. huius lib. oſtẽdimus, quadrata ex AC, CD, æqualia ſunt rectangulo ſub AC, CD, bis, vna cum quadrato recta BD; Ac propterea quadrata rectarũ AC, CD, & rectangulum ſub AC, CD, bis, vna cum quadrato recta BD, dupla ſunt quadratorum ex AC, CD; Atqui quadratis rectarũ AC, CD, vna cũ rectangulo ſub AC, CD, bis, æquale eſt quadratum recta AD. Igitur & quadrata rectarũ AD, BD, dupla ſunt quadratorum ex AC, CD.
 

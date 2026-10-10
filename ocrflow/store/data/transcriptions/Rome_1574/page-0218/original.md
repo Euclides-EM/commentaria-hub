@@ -7,7 +7,7 @@ SIT deinde parallelogrammum ABCD, duplum trianguli EFG, in eiſdemq́; paralleli
 
 [Figure: parallelogram with A, I, D, E on the upper parallel and B, H, C, F, G on the lower, with lines drawn between them]
 
-## EX PROCLO.
+### EX PROCLO.
 
 SI triangulum, & trapezium ſuper eadem baſi, & in eiſdem fuerint parallelis, maior autem linea parallela trapezij ſit baſis trianguli; erit trapezium minus duplo trianguli: Si vero minor linea parallela trapezij baſis ſit trianguli, erit trapezium maius duplo trianguli.
 

@@ -1,7 +1,7 @@
 <!-- Running title: LIBER VII. -->
 <!-- Page number: 268 -->
 
-## SCHOLION.
+### SCHOLION.
 
 HANC propoſitionem, & præcedentem cum Campano ad plures numeros extendemus, hoc modo.
 

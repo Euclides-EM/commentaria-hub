@@ -9,7 +9,7 @@ RECTA AB, ſecetur vtcunq; in C. Dico quadratum totius AB, & quadratum ſegmenti
 34. primi.
 [/Margin]
 
-## SCHOLION.
+### SCHOLION.
 
 ALITER ex Franciſco Maurolyco idem demonſtrabimus. Quia quadratum ex AB, æquale eſt quadratis ex AC, CB, vna cum rectangulo bis ſub AC, CB; ſi addatur commune quadratum ex AC, erunt quadrata ex AB, AC, æqualia quadratis ex AC, CB, AC, vna cum rectangulo bis ſub AC, CB. Sed rectangulo ſub AC, CB, vna cum quadrato ex AC, æquale eſt rectangulum ſub AB, AC; Et proinde rectangulo bis ſub AC CB, vna cum quadrato ex AC, bis, æquale eſt rectangulum ſub AB, AC, bis. Igitur quadrata ex AB, AC, æqualia ſunt reliquo quadrato ex CB, vna cum rectangulo bis ſub AB, AC. Quod demonſtrandum erat.
 

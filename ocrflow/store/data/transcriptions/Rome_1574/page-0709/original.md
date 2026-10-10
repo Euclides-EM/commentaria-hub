@@ -16,7 +16,7 @@ Vnitas. A,6. B,36 C,216. D,1296.
 E,3.
 [/Calculation]
 
-## SCHOLION.
+### SCHOLION.
 
 EST autem admirabilis prima huius propoſitionis demonſtratio. Nam in ea Euclides ex eo, quod E, dicatur non metiri ipſum A, oſtendit demonſtratione affirmatiua E, ipſum A, metiri: quod uidetur fieri non poſſe. Nam ſi quis demonſtrare inſtituat, Socratem eſſe album, ex eo, quod non eſt albus, paradoxum aliquid, & inopinatum in medium uideatur afferre: Cui tamen non abſimile quid factum hic eſt in numeris ab Euclide, & in alijs nonnullis propoſitionibus, quæ ſequuntur. Cardanus quoque ſimile quid effecit in magnitudinibus, lib.5. de propor. propos. 201. gloriaturque ſe primum omnium hanc rationem demonſtrandi reperiſſe; Quod arbitror eum non dicturum fuiſſe, ſi diligentius uim huius demonſtrationis expẽdiſſet, vel certe, ſi expendit, eam in memoriam reuocaßet; quãdoquidem ipſo longe prior Euclides vſus eſt hoc etiam demonſtrandi modo, vt ex hoc theoremate 12. eſt manifeſtum.
 

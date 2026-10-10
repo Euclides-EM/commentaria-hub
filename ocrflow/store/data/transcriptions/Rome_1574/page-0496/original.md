@@ -27,7 +27,7 @@ SIT ſecundo BC, latus latere EF, maius; & ex BC, abſcindatur rectis BC, EF, te
 1. ſexti.
 [/Margin]
 
-## COROLLARIVM.
+### COROLLARIVM.
 
 HINC manifeſtum eſt, ſi tres rectæ lineæ proportionales fuerint; ut eſt prima ad tertiam. ita eſſe triangulum ſuper primam deſcriptum ad triangulum ſupra ſecundam ſimile ſimiliterque deſcriptum.
 

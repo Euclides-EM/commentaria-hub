@@ -3,6 +3,8 @@
 
 ita vt maior pars ſuperet minorem numero 2. Vides igitur numeros 16. 36. quadratos partium, qui efficiunt 52. æquales eſſe numero [unclear: 48]. qui fit ex 4. in 6. bis ſumpto, vna cum 4. quadrato exceſſus 2. vt volebat theorema.
 
+[Curated heading level=2 type=campanus: 8]
+
 ## THEOR. 8. PROPOS. 8.
 
 [Margin]

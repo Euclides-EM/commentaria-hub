@@ -4,7 +4,7 @@ RELIQVAS omnes figuras quadrilateras, quæ a prædictis quatuor differunt, ita v
 
 [Figure: quadrilateral trapezium]
 
-## XXXIIII.
+### XXXIIII.
 
 PARALLELAE rectæ lineæ ſunt, quæ cum in eodem ſint plano, & ex vtraq; parte in infinitum producantur, in neutram ſibi mutuo incidunt.
 

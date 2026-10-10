@@ -10,6 +10,8 @@ ITAQVE in uniuerſum, area cuiuſcunque trianguli producitur ex dimidio baſis i
 14.
 [/Margin]
 
+[Curated heading level=2 type=campanus: 14]
+
 ## PROBL. 2. PROPOS. 14.
 
 DATO rectilineo, æquale quadratum conſtituere.

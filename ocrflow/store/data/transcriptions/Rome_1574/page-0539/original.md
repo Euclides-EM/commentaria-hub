@@ -30,7 +30,7 @@ QVOD etiam in hunc modum confirmari poteſt. Cum DF, GI, ſimilia ſint, ſimili
 V.
 [/Margin]
 
-## DATO rectilineo duo rectilinea æqualia cõſtituere, quæ ſimilia ſint, ſimiliterque deſcripta cuicunque rectilineo, habeantque inter ſe proportionem propoſitam quamcunque.
+#### DATO rectilineo duo rectilinea æqualia cõſtituere, quæ ſimilia ſint, ſimiliterque deſcripta cuicunque rectilineo, habeantque inter ſe proportionem propoſitam quamcunque.
 
 SIT datum rectilineũ A, dataq́; proportio rectæ B, ad C, oporteatq́; conſtituere duo rectilinea, quæ ipſi A, æqualia ſint, habeantq́; proportionem, quam B, & C; ac ſimilia ſimiliterque poſita ſint rectilineo cuiuis D. Conſtituatur rectilineum EFGH, æquale ipſi A, & ſimile ſimiliterq́ue poſitum ipſi D. Diuiſa
 

@@ -3,6 +3,8 @@
 
 reliqui omnes quadrati erunt, vt demonſtratum eſt. Omnes igitur erunt cubi ſimul, & quadrati.
 
+[Curated heading level=2 type=campanus: 10]
+
 ## THEOR. 10. PROPOS. 10.
 
 [Margin]

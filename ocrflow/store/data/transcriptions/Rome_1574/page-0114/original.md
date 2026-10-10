@@ -6,7 +6,7 @@ circumuolutæ ſingulos circulos deſcripſerunt iuxta quantitatem, ſeu interua
 
 PRAETER hæc tria poſtulata quibus Euclides cõtentus fuit, ſunt multa alia æque facilia, e quibus duntaxat in medium proferre decreui illud, quod frequentius repetendum erit in progreſſu totius Geometriæ. Reliqua enim prudens lector ex ſe vel facile intelliget.
 
-## IIII.
+### IIII.
 
 ITEM quacunq; magnitudine data, ſumi poſſe aliam magnitudinem vel maiorem, vel minorem.
 
@@ -14,7 +14,7 @@ OMNIS enim quantitas continua per additionem augeri, per diuiſionem vero diminu
 
 ## COMMVNES NOTIONES, ſiue Axiomata, quæ & Pronunciata di ci ſolent, vel Dignitates.
 
-## I.
+### I.
 
 QVAE eidem æqualia, & inter ſe ſunt æqualia.
 

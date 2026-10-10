@@ -11,8 +11,10 @@ RVRSVS ſit data recta linea AC, ſupra quam conſtituatur parallelogrammum ABFE
 HIC autem defectus DB, uel exceſſus, in rectangulis quidem eſſe poteſt uel quadratum, vel altera parte longior figura; In non rectangulis autem, uel Rhombus, vel Rhomboides, ut perſpicuum eſt.
 
 [Margin]
-I.
+1.
 [/Margin]
+
+[Curated heading level=2 type=campanus: 1]
 
 ## THEOR. 1. PROPOS. 1.
 
