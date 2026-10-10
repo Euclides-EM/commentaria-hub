@@ -973,6 +973,13 @@ export const renderParagraphWithLineRanges = (
   return html || '&nbsp;'
 }
 
+const DESCRIBED_BLOCK_TYPES = new Set([
+  'diagram',
+  'figure',
+  'illustration',
+  'ornament',
+])
+
 const renderParagraphElement = (
   paragraph: ParagraphTextWithAnchors,
   spans: ParagraphHighlightSpan[],
@@ -981,6 +988,13 @@ const renderParagraphElement = (
   attrs: string,
 ) => {
   const markerRanges = getMarkerRanges(paragraph.anchors)
+  if (
+    !paragraph.text &&
+    paragraph.blockType &&
+    DESCRIBED_BLOCK_TYPES.has(paragraph.blockType)
+  ) {
+    return `<p${attrs}></p>`
+  }
   if (!paragraph.table) {
     return `<p${attrs}>${renderParagraphWithLineRanges(paragraph.text, spans, paragraphIndex, paragraph.lineRanges, showCertaintyVisualization, markerRanges)}</p>`
   }
@@ -1039,6 +1053,9 @@ const getBlockTypeAttrs = (
   }
   if (blockType === 'calculation') {
     attrs += ' title="Calculation"'
+  }
+  if (DESCRIBED_BLOCK_TYPES.has(blockType)) {
+    attrs += ` title="${escapeHtmlAttr(startCase(blockType))}"`
   }
   const otherPrefix = 'other:'
   if (blockType.startsWith(otherPrefix)) {
