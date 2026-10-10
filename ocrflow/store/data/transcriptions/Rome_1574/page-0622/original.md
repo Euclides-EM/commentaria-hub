@@ -1,21 +1,48 @@
 <!-- Running title: LIBER VII. -->
-<!-- Page number: 268 -->
+<!-- Page number: 269 -->
 
-## SCHOLION.
-
-HANC propoſitionem, & præcedentem cum Campano ad plures numeros extendemus, hoc modo.
-
-QVOTCVNQVE numeri inter ſe primi, minimi ſunt in continuatione ſuarum proportionum. Et quotcunque numeri in continuatione ſuarum proportionum minimi, ſunt inter ſe primi.
-
-SINT quotcunque numeri inter ſe primi A, B, C. Dico eos minimos eſſe in continuatione ſuarũ proportionum, ita ut in minoribus numeris continuari non poſsint, quamuis proportio duorum in minoribus numeris reperiatur. Si enim nõ ſunt minimi, erunt aliqui alij minores ipſis, nempe D, E, F, minimi in continuatione illarum proportionum. Quia igitur D, E, F, minimi, ſunt in proportione numerorum A, B, C; metietur D, ipſum A, & E, ipſum B, & F, ipſum C, æquè, per ea, quæ ad propos. 21. huius lib. demonſtrauimus; atque adeo ſecundũ unum eundem numerũ, qui ſit G; ita ut D, toties metiatur ipſum A, & E, ipſum B, & F, ipſum C, quoties unitas eſt in G. Quoniam igitur unitas numerum G, & numerus D, ipſum A, æque metitur; metietur quoque uiciſsim æque unitas numerum D, & numerus G, numerum A: Eademque ratione idem G, metietur & ipſum B, & ipſum C, æque atque unitas ipſos E, F; Atque idcirco A, B, C, cum habeant numerum G, communem menſuram, non erunt inter ſe primi, ſed compoſiti. Quod eſt abſurdum, & contra hypotheſim. Non ſunt igitur alij numeri minores ipſis A, B, C, minimi in continuatione proportionum A, ad B, & B, ad C; ſed ipſi A, B, C, minimi ſunt.
-
-[Diagram: rows of dotted lines labelled A, B and C above rows of dashed lines labelled D, E, F and G]
+## THEOR. 24. PROPOS. 26.
 
 [Margin]
-15. ſeptimi
+25.
 [/Margin]
 
-IAM uero ſint A, B, C, in continuatione ſuarum proportionum minimi. Dico eos primos eſſe inter ſe. Si enim non ſunt inter ſe primi, metiatur eos communi menſura numerus G, ita
+SI duo numeri ad quempiam primi fuerint; etiam ex illis genitus ad eundem primus erit.
 
-<!-- Signature: Ll 4 -->
-<!-- Catchword: [unclear: ut] -->
+SIT uterque numerus A, B, ad C, primus, producaturque ex A, in B, uel ex B, in A, numerus D. Dico & D, ad eundem C, primum eſſe. Si enim C, & D, non ſunt inter ſe primi, ſit eorum communis menſura numerus E, metiens ipſum D, toties, quot unitates ſunt in numero F. Quoniam igitur E, toties compoſitus facit ipſum D; quot ſunt unitates in F; fit ut F, ipſum E, multiplicans gignat ipſum D; & contra E, ipſum F, multiplicans producat eundem D. Genitus eſt autẽ idem D, ex A, in B. Igitur cum ex E, primo in F, quartũ fiat idem numerus, qui ex A, ſecundo in B, tertium; erit ut E, primus ad A, ſecundum, ita B, tertius ad F, quartũ. Quia uero A, & C, primi inter ſe ſunt; & E, ipſum C, ponitur metiri, erit E, ad A, primus; Atque adeo E, & A, cum ſint inter ſe primi, in ſua proportione minimi erunt. Aeque igitur metientur ipſos B, & F, eandem proportionem habentes, nimirum E, ipſum B, & A, ipſum F. Quare cum E, metiatur utrunque B, & C; nõ erũt B, & C, inter ſe primi. Quod eſt abſurdum, & contra hypotheſim. Primus ergo erit D, ad ipſum C; Ac proinde, ſi duo numeri ad quempiam primi fuerint, &c. Quod erat demonſtrandum.
+
+[Diagram: dotted lines labelled A and B above a dotted line labelled C, a longer dotted line labelled D, and dashed lines labelled E and F]
+
+[Margin]
+9. pron.
+[/Margin]
+
+[Margin]
+16. ſeptimi
+[/Margin]
+
+[Margin]
+19. ſeptimi
+[/Margin]
+
+[Margin]
+25. ſeptimi
+[/Margin]
+
+[Margin]
+23. ſeptimi
+[/Margin]
+
+[Margin]
+21. ſeptimi
+[/Margin]
+
+## THEOR. 25. PROPOS. 27.
+
+[Margin]
+25.
+[/Margin]
+
+SI duo numeri primi inter ſe fuerint: Etiam ex uno eorum genitus ad reliquum primus erit.
+
+<!-- Catchword: SINT -->

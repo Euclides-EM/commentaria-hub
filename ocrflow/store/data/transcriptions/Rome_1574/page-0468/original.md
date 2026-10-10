@@ -1,15 +1,7 @@
-<!-- Running title: LIBER VI. -->
-<!-- Page number: 191 -->
+<!-- Running title: LIBER. VI. -->
+<!-- Page number: 192 -->
 
-rum æquales ſunt baſes, uel eadem, ita ſe habent inter ſe, ut altitudines.
-
-SINT duo triangula ABC, DEF; & parallelogramma AGBC, DEFH, habentia baſes æquales BC, EF. Dico eſſe triangulum ABC, ad triangulum DEF, & parallelogrammum AGBC, ad parallelogrammum DEFH, ut altitudo AI, eſt ad altitudinem DK. Si enim ſumantur rectæ IL, KM, baſibus BC, EF, æquales, ducanturque rectæ LA, MD; erit triangulum ALI, triangulo ABC, æquale, cum ſint ſuper baſes æquales LI, BC, & inter eaſdem parallelas AG, IB. Eodem modo æquale erit triangulum DKM, triangulo DEF. Quare erit, ut ABC, ad DEF, ita ALI, ad DKM. Eſt autẽ, ut ALI ad DKM, ita AI, ad DK. (Nam ſi baſes ponantur AI, DK, erunt rectæ æquales LI, KM, altitudines.) Igitur & ABC, ad DEF, erit, ut AI, ad DK. Quod eſt propoſitum.
-
-[Figure: two figures on a common base line B, L, C, I, K, E, M, F; a parallelogram G, A with internal diagonals, and a smaller parallelogram D, H with diagonals]
-
-[Margin]
-38. primi.
-[/Margin]
+BC, conſtituta, inter ſe æqualia. Quare ut triangulum ADE, ad triangulum DEB, ita triangulum idem AED, ad triangulum DEC; Atqui ut triangulum ADE, ad triangulum DEB, ita baſis AD, ad baſin DB, (cum hæc triangula ſint eiuſdem altitudinis, ut conſtat, ſi per E, agatur parallela recta ipſi AB,) & eadem ratione, ut triangulum AED, ad triangulum DEC, ita baſis AE. ad baſin EC. Vt igitur AD, ad DB, ita AE, ad EC. (cum hæ duæ proportiones eædem ſint proportioni trianguli ADE, ad triangulum DEB, uel trianguli AED, ad triangulum DEC.) quod eſt propoſitum.
 
 [Margin]
 7. quinti.
@@ -19,22 +11,44 @@ SINT duo triangula ABC, DEF; & parallelogramma AGBC, DEFH, habentia baſes æqua
 1. ſexti.
 [/Margin]
 
-QVONIAM uero eſt, ut ABC, ad DEF, ita parallelogrammum AGBC, trianguli ABC, duplum, ad parallelogrammum DEFH, trianguli DEF, duplum; Erit quoque AGBC, ad DEFH, ut AI, ad DK. Quod tamen eodem modo confirmari poteſt, ſi rectæ ducantur LG, MH. Idem ſequetur, ſi triangula, & parallelogramma eandem habuerint baſin.
-
-[Margin]
-15. quinti.
-[/Margin]
+[Figure: triangle A, B, C with points D and E on the sides and internal lines crossing between them]
 
 [Margin]
 11. quinti.
 [/Margin]
 
-HOC uero conuertemus etiam, ad hunc modum.
+SECET iam recta DE, latera AB, AC, proportionaliter. Dico DE, parallelam eſſe reliquo lateri BC. Ductis enim rurſus rectis CD, BE, erit ut baſis AD, ad baſin DB, ita triangulum ADE, ad triangulum DEB, cum ſint eiuſdem altitudinis: Ponitur autem ut AD, ad DB, ita AE, ad EC; igitur ut triangulum ADE, ad triangulum DEB, ita AE ad EC: Sed rurſus ut baſis AE, ad baſin EC, ita triangulum AED, ad triangulum DEC, cum ſint altitudinis eiuſdem. Igitur ut triangulum ADE, ad triangulum DEB, ita triangulum idem AED, ad triangulum DEC. Aequalia ergo ſunt triangula DEB, & DEC: Ac propterea cum eandem habeant baſin DE, inter eaſdem erunt collocata parallelas. Igitur parallela eſt DE, ipſi BC; quod eſt propoſitum. Si itaq́; ad unum trianguli latus parallela ducta fuerit, &c. Quod erat oſtendendum.
 
-TRIANGVLA, & parallelogramma, quæ ita ſe habent inter ſe, ut altitudines, æquales habent baſes.
+[Margin]
+1. ſexti.
+[/Margin]
 
-SIT triangulum ABC, ad triangulum DEF; & parallelogrammũ AGBC, ad parallelogrammum DEFH, ut altitudo AI, ad altitudinem DK. Dico eorum baſes BC, EF, æquales eſſe. Si enim non ſunt æquales, ſit BC, ſi fieri po
+[Margin]
+11. quinti
+[/Margin]
 
-[Figure: two figures on a common base line B, L, C, I, K, E, F; a parallelogram G, M, A with internal diagonals, and a smaller parallelogram D, H with diagonals]
+[Margin]
+1. ſexti.
+[/Margin]
 
-<!-- Catchword: teſt, -->
+[Margin]
+11. quinti
+[/Margin]
+
+[Margin]
+9. quinti.
+[/Margin]
+
+[Margin]
+39. primi
+[/Margin]
+
+## THEOR. 3. PROPOS. 3.
+
+[Margin]
+3.
+[/Margin]
+
+SI trianguli angulus bifariam ſectus ſit, ſecans autem angulum recta linea ſecuerit & baſin: baſis ſegmenta eandem habebunt
+
+<!-- Catchword: rationem -->

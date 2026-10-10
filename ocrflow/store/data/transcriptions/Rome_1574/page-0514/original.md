@@ -1,35 +1,26 @@
 <!-- Running title: LIBER VI. -->
+<!-- Page number: 215 -->
 
-<!-- Page number: 214 -->
+compleatur totum parallelogrammum KL, conſiſtent HC, CF, circa diametrum; Quare ſimilia inter ſe erunt.
 
-mum FH, ſimile eſſe eidem parallelogrammo BD; atque adeo & ipſa inter ſe ſimilia erunt. In omni ergo parallelogrammo, quæ circa diametrum ſunt, &c. Quod erat oſtendendum.
+PERSPICVVM autem eſt ex demonſtratione huius theorematis facta ab Euclide, & ex probatione theorematis à nobis propoſiti in hoc Scholio, parallelogramma circa eandem diametrum non ſolum eſſe ſimilia; Verum etiam ſimiliter poſita. Vnde propoſito quouis parallelogrammo ABCD, ſi maius debeas deſcribi illi ſimile ſimiliterque poſitum, producendum erit latus unum, nẽpe BC; Atque ex E, quolibet puncto ultra C, ipſi CD, parallela EF, ducenda, ſecans diametrũ BD, productã in F; & per F, ducenda FG, parallela ipſi AD, occurrens rectæ BA, productæ in G. Erit enim parallelogrammum GE, ſimile ſimiliterque poſitum ipſi AC, & maius eodem. Quod ſi minus debeas deſcribi, ſumendum erit punctum E, citra C, & reliqua peragenda, ut prius; ceu figura indicat.
 
-[Margin]
-21. ſexti.
-[/Margin]
+[Figure: parallelogram with diagonal produced, labelled G, A, F, D, G, F, B, E, C, E]
 
-## SCHOLION.
-
-INTELLIGENDA autem ſunt parallelogramma circa diametrum totius, eſſe talia, quæ habeam unum angulũ cum toto parallelogrammo communem, ut manifeſtum eſt ex forma demonſtrationis.
-
-QVOD ſi circa diametrum alicuius parallelogrãmi productam conſiſtat parallelogrammum aliud; ita ut duo huius latera rectas duas componant lineas cum duobus lateribus alterius, uel certe illa his ſint parallela, ijſdem fere medijs oſtendetur, hoc illi eſſe ſimile. Parallelogrammi enim ABCD, diameter BD, ſit producta ad F, circa quam conſiſtat parallelogrammum DEFG, cuius duo latera DE, DG, rectas lineas efficiant cum AD, DC, lateribus parallelogrammi AC. Dico parallelogrammum GE, ſimile eſſe parallelogrammo AC. Quod enim ambo inter ſe ſint æquiangula, facile oſtendetur ex propos. 29. lib. 1. Nam quia angulus A, æqualis eſt angulo alterno ADG; huic autem æqualis quoque eſt alternus angulus G; erunt æquales anguli A, & G. Quare his oppoſiti C, & E, æquales quoque erunt. Rurſus quia anguli ADC, GDE, ad uerticem, ſunt æquales, erunt his quoque oppoſiti ABC, GFE, æquales. Igitur æquiangula ſunt GE, AC, parallelogramma. Quod antè latera habeant proportionalia circum æquales angulos, hac ratione fiet perſpicuum. Cum triangulum BAD, æquiangulũ ſit triangulo DGF; & triangulum BCD, triangulo DEF, ut conſtat ex propos. 29. lib. 1. Erit vt BA, ad AD, ita DG, ad GF. Rurſus vt AD, ad DB, ita GF, ad FD; & ut DB, ad DC, ita FD, ad FE; ac propterea ex æquo vt AD, ad DC, ita GF, ad FE. Sunt igitur latera circa angulos A, ADC, proportionalia lateribus circa angulos G, GFE. Non ſecus oſten des, reliqua latera circa angulos æquales proportionalia eſſe.
-
-[Figure: parallelogram ABCD with diameter BD produced to F, around which stands parallelogram DEFG, labelled A, B, C, D, E, F, G, H, K]
+## PROBL. 7. PROPOS. 25.
 
 [Margin]
-34. primi
+25.
 [/Margin]
+
+## DATO rectilineo ſimile, & alteri dato æquale idem conſtituere.
+
+SINT data duo rectilinea A, & B; ſitque conſtituendum aliud rectilineum, quod ſimile quidem ſit ipſi A, æquale uero ipſi B. Super CD, unum latus rectilinei, cui ſimile debet conſtitui, conſtituatur parallelogrãmum CE, in quouis angulo, æquale rectilineo A; Et ſuper rectam DE, in angulo EDG, qui æqualis ſit angulo DCF, parallelogrammum DH, æquale ipſi B; eritque CDG, linea
+
+[Figure: pentagon labelled A, triangle labelled B, parallelogram with labels C, D, G, F, E, H, and pentagon labelled L with points I, K]
 
 [Margin]
-15. primi
+44. uel 45. primi.
 [/Margin]
 
-[Margin]
-34. primi
-[/Margin]
-
-[Margin]
-4. ſexti.
-[/Margin]
-
-<!-- Catchword: Quare -->
+<!-- Catchword: una -->

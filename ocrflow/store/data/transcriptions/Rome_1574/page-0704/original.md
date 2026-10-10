@@ -1,28 +1,35 @@
-<!-- Running title: LIBER IX. -->
-<!-- Page number: 309 -->
+<!-- Running title: LIBER. IX. -->
+<!-- Page number: 310 -->
 
-moquinto, decimooctauo, & alijs, quæ ternarius metitur, cuiuſmodi ſunt numeri quartus, ſeptimus, decimus, tertiusdecimus, decimus ſextus, decimusnonus, &c. ſunt cubi. Omnes uero qui proxime ſequuntur numeros poſitos in locis ſexto, duodecimo, decimo octauo, uigeſimo quarto, & alijs, quæ metitur ſenarius, quales ſunt ſeptimus, tertiusdecimus, decimusnonus, uigeſimusquintus, &c. ſunt cubi ſimul, & quadrati.
+reliqui omnes quadrati erunt, vt demonſtratum eſt. Omnes igitur erunt cubi ſimul, & quadrati.
 
-NAM primi ordinis numeri omnes ſemper unum intermittunt poſt tertium ab unitate: At ſecundi ordinis numeri omittunt ſemper duos numeros poſt quartum ab unitate. Numeri denique tertij ordinis quinque ſemper interponunt poſt ſeptimum ab vnitate, quemadmodum in theoremate proponit Euclides.
-
-## THEOR. 9. PROPOS. 9.
+## THEOR. 10. PROPOS. 10.
 
 [Margin]
-9.
+10.
 [/Margin]
 
-SI ab unitate quotcunque numeri deinceps proportionales fuerint, qui uero poſt vnitatem ſit quadratus; Et reliqui omnes quadrati erunt. At ſi qui poſt vnitatem, ſit cubus; & reliqui omnes cubi erunt.
+SI ab unitate quotcunque numeri deinceps proportionales fuerint, qui uero poſt unitatẽ, non ſit quadratus; neque alius vllus quadratus erit, præter tertium ab unitate, & unum intermittentes omnes. At ſi, qui poſt vnitatẽ, non ſit cubus; neque alius ullus cubus erit, præter quartum ab unitate, & duos intermittentes omnes.
 
-SINT ab unitate cõtinue proportionales numeri quotcunque A, B, C, D, E, F, ſitque primum A, proximus unita-
+SINT ab unitate quotcunque numeri deinceps proportionales A, B, C, D, E, F, G, H, I; & primum A, proximus unitati non ſit quadratus. Dico nec alium ullum eſſe quadratum, præter tertium ab unitate, & unum intermittentes omnes, nempe præter B, D, F, H. Si enim præter hos alius
 
 [Calculation]
-Vnitas.  A,4.  B,16.  C,64.  D,256.  E,1024.  F,4096.
+Vnitas. A,2. B,4. C,8. D,16 E,32. F,64. G,128. H,256. I,512.
 [/Calculation]
 
-ti quadratus. Dico & reliquos omnes quadratos eſſe. Quod enim tertius ab unitate, & omnes unum intermittẽtes, quales ſunt B, D, F, quadrati ſint, iam demonſtratũ eſt. Quod
+[Margin]
+8. noni.
+
+8. noni.
+24. octaui
+[/Margin]
+
+eſt quadratus, ſit quadratus E. Cum ergo & D, ſit quadratus, ſitque ut D, ad E, uel E, ad F, ita A, ad B; & conuertendo ut E, ad D, uel F, ad E, ita B, ad A; habebit B, ad A, rationem, quam quadratus numerus E, ad quadratum numerum D, uel quadratus F, ad quadratum E: ſed B, tertius ab unitate eſt quadratus. Igitur & A, primus ab vnitate quadratus erit. Quod eſt abſurdum: ponitur enim A, non quadratus. Non ergo E, quadratus eſt. Eadem ratione oſtendemus nullum alium, præter dictos, quadratum eſſe.
 
 [Margin]
 8. noni.
 [/Margin]
 
-<!-- Catchword: uero -->
+SED iam A, proximus unitati non ſit cubus. Dico nec alium ullum eſſe cubum, præter quartũ ab unitate, & duos intermittentes omnes, uidelicet præter C, F, I. Nam ſi præter hos alius poteſt eſſe cubus, ſit D, cubus. Cum ergo & F, cubus ſit, ſitque ex æquo ut D, ad F, ita A, ad C, (quod tres
+
+<!-- Catchword: D, E, -->

@@ -1,36 +1,31 @@
 <!-- Running title: LIBER VI. -->
-<!-- Page number: 196 -->
+<!-- Page number: 197 -->
+
+## COROLLARIVM.
+
+Ex hoc manifeſtum eſt, perpendicularẽ quæ in rectangulo triãgulo ab angulo recto in baſin demittitur, eſſe mediam proportionalem inter duo baſis ſegmenta: Item latus utrumlibet angulum rectum ambiens, medium proportionale inter totam baſin, & illud ſegmentum baſis, quod dicto lateri adiacet.
+
+OSTENSVM eſt enim, eſſe ut BD, ad DA, ita DA, ad DC; ac propterea DA, eſſe mediam proportionalem inter BD, & DC: Item eſſe ut CB, ad BA, ita BA, ad BD; & idcirco BA, mediam eſſe proportionalem inter CB, & BD: Denique eſſe ut BC, ad CA, ita CA, ad CD; ideoque CA, eſſe proportionalem mediam inter BC, & CD. Quod eſt propoſitum.
+
+## PROBL. 1. PROPOS. 9.
 
 [Margin]
-32. primi
+II.
 [/Margin]
 
-ponatur æqualis, erit & reliquus AGC reliquo B, æqualis; ideoque triangula AGC, DEF, æquiangula erunt. Quare ut AC, ad CG, ita DF, ad FE; ſed ut DF, ad FE, ita ponitur AC, ad CB: Vt igitur AC, ad CG, ita eadem AC, ad CB, ac propterea, æquales erunt CG, CB, & anguli CBG, CGB, æquales. Cum igitur angulus B, ponatur recto minor, erit & CGB, minor recto, ideoque ei deinceps AGC, recto maior; cum AGC, CGB, ſint duobus rectis æquales; Eſt autem oſtenſus angulus AGC, angulo B, æqualis. Maior igitur recto eſt angulus E; Sed poſitus eſt etiam recto minor. quod eſt abſurdum.
+A DATA recta linea imperatam par tem auferre.
 
-[Figure: two triangles; the first with apex A, point G on side AB, and base BC; the second with vertices D, E, F]
+IMPERETVR, ut ex linea AB, auferamus partem tertiam. Ex A, ducatur recta AC, utcunque faciens angulum CAB; & ex AC, abſcindantur tot partes æquales cuiuslibet magnitudinis, quota pars detrahenda eſt ex AB, ut in propoſito exemplo tres AD, DE, EF. Deinde ex F, ad B, recta ducatur FB, cui per D, parallela agatur DG. Dico AG, eſſe partem tertiam imperatam. Nam cum in triangulo ABF, lateri FB, parallela ſit recta DG; erit ut FD, ad DA, ita BG, ad GA; componendo igitur, ut FA, ad DA, ita BA, ad GA: ſed FA, ipſius AD, eſt tripla ex conſtructione; Igitur & BA ipſius AG, erit tripla, ideoque AG, erit tertia pars ipſius AB, quæ imperabatur. A data ergo recta linea imperatam partem abſtulimus. Quod faciendum erat.
 
-[Margin]
-4. ſexti.
-11. quinti.
-9. quinti.
-5. primi
-13. primi
-[/Margin]
-
-SIT ſecundo tam B, angulus, quam E, recto non minor, eritque ut prius angulus B, angulo CGB, æqualis, ideoque & CGB, recto non minor erit, ac propterea anguli CBG, CGB, in triangulo BCG, non minores erunt duobus rectis, ſed uel maiores, uel æquales duobus rectis, quod eſt abſurdũ. Non ergo inæquales ſunt anguli ACB, & F, ſed æquales, ac idcirco reliqui etiã anguli B, & E, æquales erunt. quod eſt propoſitum. Si duo itaque triangula unum angulum uni angulo æqualem, &c. Quod demonſtrandum erat.
+[Figure: triangle with base AB, points G on the base, and points D, E, F on line AC extending from A above the base to C]
 
 [Margin]
-17. primi
-32. primi
+2. ſexti.
+18. quinti.
 [/Margin]
 
 ## SCHOLION.
 
-ADDIDIT Euclides, utrumque angulorum reliquorum B, & E, debere eſſe uel minorem recto, uel non minorem. Nam alias, manente eadem hypotheſi, non ſequeretur, triangula eſſe æquiangula. Si enim in eodem triangulo ABC, ſit CG, æqualis ipſi CB, habebunt duo triangula ABC, AGC, unum angulũ uni angulo æqualẽ, immo angulum A, cõmunem; & circum alios angulos ACB, ACG, latera proportionalia, hoc eſt, ut AC, ad CB, ita eadem AC, ad CG, cum æquales ponantur rectæ CB, CG: & tamen non ſunt ullo modo æquiangula triangula ABC, AGC, ut conſtat. Quod ideo euenit, quia non uterque angulorum ABC, AGC, minor eſt recto, uel non minor. Immo ABC, eſt quidem recto minor; AGC,
+QVOD ſi ex AB, auferenda ſit pars, quæ contineat quatuor undecimas ipſius AB, ſumendæ erunt ex AC, undecim
 
-[Margin]
-7. quinti.
-[/Margin]
-
-<!-- Signature: Bb 4 -->
-<!-- Catchword: uero -->
+<!-- Catchword: partes -->

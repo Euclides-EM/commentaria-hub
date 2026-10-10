@@ -1,30 +1,26 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 274 -->
+<!-- Page number: 175 -->
 
-tiantur, manifeſtum eſt. Nam cum tã A, multiplicatus a D, quam B, multiplicatus a C, ipſum E, producat; metietur tam A, quam B, ipſum E. Quod uero E, ſit minimus omnium, quos A, & B, metiuntur, ita probabitur. Si E, non eſt minimus, metiantur, ſi fieri poteſt, A, & B, alium numerum F, ipſo E, minorem: metiatur autem A, ipſum F, per G; & B, eundem F, per H. Quo poſito, fiet F, tam ex A, in G, quam ex B, in H. Quia igitur idem numerus F, fit & ex A, primo in G, quartum, & ex B, ſecundo, in H, tertium; erit, ut A, primus ad B, ſecundum, ita H, tertius ad G, quartum. Quare C, & D, cum ſint minimi in proportione A, ad B, uel H, ad G, metientur ipſos H, & G, æque; nimirum C, ipſum H; & D, ipſum G. Quia uero A, multiplicans D, & G, facit E, & F; erit E, ad F, ut D, ad G; Ac propterea cũ D, metiatur ipſum G, ut oſtenſum eſt; metietur etiam E, numerus numerum F, maior minorem. Quod eſt abſurdũ. Non igitur A, & B, metientur alium numerum ipſo E, minorem; atque adeo E, minimus eſt omnium, quos metiun tur. Quamobrem, duobus numeris datis, reperimus, quem illi minimum metiantur, numerum. Quod faciendum erat.
+tiantur, ſi fieri poteſt A, B, C, alium numerum E, ipſo D, minorem. Quoniam igitur A, & B, metiuntur ipſum E, minorem quam D; non erit D, minimus, quem A, & B, metiantur. Quod eſt abſurdum, & contra hypotheſim. Immo, cum A, & B, metiantur ipſum E, & D, ſit minimus, quem ijdem A, & B, metiuntur; metietur quoque D, ipſum E, maior minorem. Quod eſt abſurdum.
 
 [Margin]
-7. pron.
-9. pron.
-19. ſeptimi
-17. ſeptimi
+37. ſeptimi
+[/Margin]
+
+SED iam C, non metiatur ipſum D, inuentum. Inuento igitur E, minimo, quem C, & D, metiantur; Dico E, eſſe minimum, quem A, B, C, metiantur. Quod enim eum metiantur, ita oſtendetur. Cum A, & B, metiantur ipſum D, & D, ipſum E; metientur quoque A, & B, ipſum E. Metitur autem & C, eundẽ E. Igitur omnes tres A, B, C, ipſum E, metiuntur. Quod autem E, ſit minimus, quem metiantur A, B, C, hoc modo probabitur. Si E, non eſt minimus; metiantur, ſi fieri poteſt. A, B, C, alium numerum F, ipſo E, minorem. Quoniam igitur A, & B, ipſum F, metiuntur; metietur quoque eundem F, numerus D, nimirum minimus inuentus, quem numeri A, & B, metiantur; Atque adeo cum C, & D, metiantur ipſum F, minorem, quam E; non erit E, minimus, quem C, & D, metiantur. Quod eſt abſurdum, & contra hypotheſim. Immo cum C, & D, metiantur ipſum F; metietur quoque eundem F, numerus E, minimus, quem metiuntur ijdem C, & D, maior minorem. Quod eſt abſurdũ. Non ergo A, B, C, alium numerum ipſo E, minorem metientur; ſed ipſe E, erit minimus. Quapropter tribus numeris datis, reperimus, quem illi minimum metiantur, numerum. Quod erat faciendum.
+
+[Diagram: dotted lines labelled A, B, C, D and E, and a solid line F]
+
+[Margin]
+36. ſeptimi
+11. pron.
+37. ſeptimi
+37. ſeptimi
 [/Margin]
 
 ## COROLLARIVM.
 
-HINC fit, ſi duo numeri multiplicent minimos eandem rationem habentes, maior minorem, & minor maiorem, produci numerum minimum, quem illi metiantur. Nam propoſitis C, & D, minimis in proportione A, ad B, demonſtratum eſt, numerum E, factum ex A, minore in D, maiorem, & ex B, maiore in C, minorem, eſſe minimum, quem A, & B, metiantur,
+SEQVITVR ex his, ſi tres numeri numerum quempiam metiantur; etiam minimum, quem illi metiuntur, eundem metiri. Nã in extrema huius demonſtrationis parte, ex eo, quod A, B, C, ponebantur metiri ipſum F, oſtenſum eſt, & E, minimum quem A, B, C, metiuntur, eundem F, metiri.
 
-## SCHOLION.
-
-HOC autem corollarium apud Campanum eſt propoſitio 35. huius libri ſeptimi; Et ſequens propoſitio apud eundem, corollarium eſt propoſitionis 35.
-
-## THEOR. 33. PROPOS. 37.
-
-[Margin]
-35.
-[/Margin]
-
-SI duo numeri numerum quempiã me
-
-<!-- Signature: Mm 2 -->
-<!-- Catchword: tiantur: -->
+<!-- Signature: Mm 3 -->
+<!-- Catchword: SCHO- -->

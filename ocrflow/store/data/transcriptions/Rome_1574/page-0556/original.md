@@ -1,23 +1,17 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 235 -->
+<!-- Page number: 236 -->
 
-## VI.
+clidis inſtituto, vt perſpicuum eſt & ex definitionibus traditis, in quibus non reperitur dictio iſta, tantum, quam illi apponũt, & ex propoſ. 32. 33. 34. lib. 9. ubi manifeſte omnem numerũ parem, quem aliquis par per parem metitur, pariter parẽ appellat; illum vero, quem aliquis par metitur per imparem, pariter imparem; eum denique, quem par numerus metitur & per parem numerum, & per imparem, vocat pariter parem, & pariter imparem; demonſtratque omnes numeros a binario duplos, quales ſunt 2. 4. 8. 16. 32. 64. 128. &c. eſſe pariter pares tantum, hoc eſt, pares numeros eos metiri per pares numeros tantum; Numeros vero, qui dimidios impares habent, eſſe pariter impares tantum, id eſt, pares numeros eos metiri per numeros impares duntaxat, cuiuſmodi ſunt 6. 10. 14. 18. 22. &c. Numeros denique, qui nec a binario dupli ſunt, nec dimidios habẽt impares, pariter pares eſſe, & pariter impares, vt ſunt 12. 20. 24. 28. 36. &c. Itaque vult Euclides in demonſtrationibus illarum propoſitionum, hos poſtremos numeros, alioſque ſimiles, vere eſſe, ſecundum traditas definitiones, pariter pares; rurſus eoſdem dici recte pariter impares, quanquam nec ſolum pariter pares, nec ſolum pariter impares illi ſint. Sed hæc planius in lib. 9. intelligentur.
 
-## PAR numerus eſt, qui bifariam diuiditur.
+## X.
 
-VT omnes hi numeri 4. 10. 40. 100. 1000. pares vocantur, quoniam diuiduntur bifariam, ſiue in duas partes æquales, cum eorum dimidia ſint 2. 5. 20. 50. 500.
+## IMPARITER vero impar numerus eſt, quem impar numerus metitur per numerum imparem.
 
-## VII.
+VT hic numerus impar 15. impariter impar dicitur, quoniam numerus impar 3. eum metitur per 5. numerum imparẽ. Sic quoque hi numeri impares 9. 21. 25. 27. 33. 35. 39. 135. 2025. & alij infiniti, impariter impares nominantur.
 
-## IMPAR uero, qui bifariam non diuiditur. Vel, qui unitate differt a pari.
+## XI.
 
-OMNES hi numeri 5. 11. 15. 37. 101. 1001. impares nominantur, quia bifariam diuidi nequeunt. Vel certe, quia unitate differunt ab his paribus 4. 10. 14. 36. 100. 1000. uel etiam ab his 6. 12. 16. 38. 102. 1002. Ex hoc autem loco perſpicue colligi poteſt, vnitatem in numeris prorſus eſſe indiuiduam. Si enim diuideretur, omnis numerus impar haberet dimidium; atque adeo bifariam diuidi poſſet. Nam huius imparis 11. dimidia pars eſſent quinque vnitates & ſemis: cuius contrarium Euclides hac definitione docuit.
+## PRIMVS numerus eſt, quem unitas ſola metitur.
 
-## VIII.
-
-## PARITER par numerus eſt, quem par numerus metitur per numerum parẽ.
-
-QVIA numerus par eſt, qui bifariam diuiditur, fit vt quemlibet parem aliquis numerus par, ſaltem binarius, metiatur. Numerus igitur ille par, quem par numerus metitur per numerum parem, pariter par nominatur. Cuiuſmodi eſt numerus hic par 32. Metitur enim ipſum par numerus 8. per numerum parem 4. Ita quoque par numerus 24. pari-
-
-<!-- Signature: Gg 3 -->
-<!-- Catchword: ter -->
+<!-- Signature: Gg 4 -->
+<!-- Catchword: QVOD -->

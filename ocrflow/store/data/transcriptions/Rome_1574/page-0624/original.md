@@ -1,48 +1,48 @@
-<!-- Running title: LIBER VII. -->
-<!-- Page number: 269 -->
+<!-- Running title: LIBER. VII. -->
+<!-- Page number: 270 -->
 
-## THEOR. 24. PROPOS. 26.
+Et ſi, qui in principio, genitos ipſos multiplicantes fecerint aliquos; Et hi quoque primi inter ſe erunt: Et ſemper circa extremos hoc eueniet.
+
+SINT primi inter ſe A, & B; & ex A, in ſe fiat C; at ex B, in ſe fiat D. Dico & C, D, primos inter ſe eſſe: Et ſi rurſũ fiat E, ex A, in C; & F, ex B, in D; Dico E, F, quoq; eſſe inter ſe primos. Cum enim A, B, ſint inter ſe primi, erit C, factus ex A, in ſe, ad reliquum B, primus: Atque eodem modo cum B, & C, primi ſint inter ſe, erit & D, factus ex B, in ſe, ad C, primus.
+
+[Diagram: dotted lines in two columns labelled A and B, C and D, E and F, with G, 81. and H, 16. below]
 
 [Margin]
-25.
+27. ſeptimi
 [/Margin]
 
-SI duo numeri ad quempiam primi fuerint; etiam ex illis genitus ad eundem primus erit.
-
-SIT uterque numerus A, B, ad C, primus, producaturque ex A, in B, uel ex B, in A, numerus D. Dico & D, ad eundem C, primum eſſe. Si enim C, & D, non ſunt inter ſe primi, ſit eorum communis menſura numerus E, metiens ipſum D, toties, quot unitates ſunt in numero F. Quoniam igitur E, toties compoſitus facit ipſum D; quot ſunt unitates in F; fit ut F, ipſum E, multiplicans gignat ipſum D; & contra E, ipſum F, multiplicans producat eundem D. Genitus eſt autẽ idem D, ex A, in B. Igitur cum ex E, primo in F, quartũ fiat idem numerus, qui ex A, ſecundo in B, tertium; erit ut E, primus ad A, ſecundum, ita B, tertius ad F, quartũ. Quia uero A, & C, primi inter ſe ſunt; & E, ipſum C, ponitur metiri, erit E, ad A, primus; Atque adeo E, & A, cum ſint inter ſe primi, in ſua proportione minimi erunt. Aeque igitur metientur ipſos B, & F, eandem proportionem habentes, nimirum E, ipſum B, & A, ipſum F. Quare cum E, metiatur utrunque B, & C; nõ erũt B, & C, inter ſe primi. Quod eſt abſurdum, & contra hypotheſim. Primus ergo erit D, ad ipſum C; Ac proinde, ſi duo numeri ad quempiam primi fuerint, &c. Quod erat demonſtrandum.
-
-[Diagram: dotted lines labelled A and B above a dotted line labelled C, a longer dotted line labelled D, and dashed lines labelled E and F]
+RVRSVS, quia A, & B, ſunt inter ſe primi, erit & C, factus ex A, in ſe, ad B, & D, genitus ex B, in ſe, ad A, primus. Erat autem & C, ad D, primus. Vterque igitur A, C, ad utrunque B, D, primus erit; Ac proinde E, factus ex A, in C primus erit ad F; factum ex B, in D. Quod ſi adhuc ex A, in E, fiat G; & ex B, in F, fiat H; cum A, & C, primi ſint ad B, erit quoque E, ex ipſis genitus, ad B, primus: Eademque ratione & F, ad A, primus erit. Quia igitur uterque A, E, ad utrunque B, F, primus eſt; erit & G, factus ex A, in E, ad H, factum ex B, in F, primus. Et ſic deinceps ſi plures fuerint. Nam eodem modo cum A, & E, primi ſint ad B, erit & G, ex ipſis factus, ad B, primus; necnon & H, ad A; Quare & genitus ex A, in G, ad genitum ex B, in H, primus erit: cum uterque A, G, ad utrunque B, H, ſit primus. Si duo itaque numeri primi inter ſe fuerint, &c. Quod oſtendendum erat.
 
 [Margin]
-9. pron.
-[/Margin]
-
-[Margin]
-16. ſeptimi
+27. ſeptimi
 [/Margin]
 
 [Margin]
-19. ſeptimi
+28. ſeptimi
 [/Margin]
 
 [Margin]
-25. ſeptimi
+26 ſeptimi
 [/Margin]
 
 [Margin]
-23. ſeptimi
+28. ſeptimi
 [/Margin]
 
 [Margin]
-21. ſeptimi
+26 ſeptimi
 [/Margin]
-
-## THEOR. 25. PROPOS. 27.
 
 [Margin]
-25.
+28. ſeptimi
 [/Margin]
 
-SI duo numeri primi inter ſe fuerint: Etiam ex uno eorum genitus ad reliquum primus erit.
+## THEOR. 28. PROPOS. 30.
 
-<!-- Catchword: SINT -->
+[Margin]
+29.
+[/Margin]
+
+SI duo numeri primi inter ſe fuerint:
+
+<!-- Catchword: Etiam -->

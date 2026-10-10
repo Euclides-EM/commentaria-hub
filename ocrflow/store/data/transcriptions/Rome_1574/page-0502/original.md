@@ -1,38 +1,33 @@
-<!-- Running title: LIBER VI. -->
-<!-- Page number: 206 -->
+<!-- Running title: LIBER. VI. -->
+<!-- Page number: 209 -->
 
-litatis duplicata ſolum efficit proportionem æqualitatis: (Poſitis enim tribus magnitudinibus æqualibus, dicetur prima ad tertiam habere proportionem duplicatam proportionis, quam habet prima ad ſecundam, ut conſtat ex definitione 10. lib. 5. cum tamen prima ad tertiam habeat proportionem æqualitatis, ſicuti & prima ad ſecundam.) Igitur triãgulum ABC, ad triangulum DEF, proportionem habet duplicatam eius, quam habet latus BC, ad EF. Quod eſt propoſitum.
+nales, ut quidem AB, ad CD, ita EF, ad GH; Conſtituanturque ſuper AB, CD, duo quæcunque rectilinea ſimilia ſimiliterque deſcripta ABI, CDK; Item ſuper EF, GH, alia duo quæcunque rectilinea ſimilia ſimiliterque deſcripta, EFML, GHON. Dico, & hæc rectilinea eſſe proportionalia, ut quidem ABI, ad CDK, ita EM, ad GO. Inueniatur enim rectis AB, CD, tertia proportionalis P; & rectis EF, GH, tertia proportionalis Q. eritque ex æquo, ut AB, ad P, ita EF, ad Q: Vt autem AB, ad P, ita eſt rectilineum ABI, ad rectilineum CDK, ſimile ſimiliterque deſcriptum, ex corollario propoſitionis 20. huius lib. uel ſi fuerint triangula, ex coroll. propos. 19. Et eadem ratione, ut EF, ad Q, ita rectilineum EM, ad rectilineum GO. Igitur ut ABI, ad CDK, ita erit EM, ad GO. Quod eſt propoſitum.
 
-SIT ſecundo BC, latus latere EF, maius; & ex BC, abſcindatur rectis BC, EF, tertia proportionalis BG, ducaturq; recta AG. Quia igitur eſt ut AB, ad BC, ita DE, ad EF; erit permutando ut AB, ad DE, ita BC, ad EF: Vt autem BC, ad EF, ita eſt per conſtructionem EF, ad BG: Vt ergo AB, ad DE, ita erit EF, ad BG. Quare cum triangula ABG, DEF, habeant latera circa angulos B, E, æquales reciproca, ipſa inter ſe æqualia erunt; & propterea ut triangulum ABC, ad triangulum DEF, ita erit triangulum ABC, ad triangulum ABG; Vt autem triangulum ABC, ad triangulum ABG, eiuſdem altitudinis, ita eſt baſis BC, ad baſin BG. Igitur ut triangulum ABC, ad triangulum DEF, ita eſt BC, ad BG. Atqui cum tres lineæ BC, EF, BG, ſint proportionales, erit proportio primæ BC, ad tertiam BG, duplicata proportionis BC, primæ ad EF, ſecundam. Quare & triangulum ABC, ad triangulum DEF, proportionem habet duplicatam proportionis BC, ad EF. Similia igitur triangula inter ſe ſunt, &c. Quod erat demonſtrandum.
-
-[Figure: two triangles, the larger with vertices A, B, C and point G on the base between B and C, the smaller with vertices D, E, F]
+[Figure: two triangles ABI and CDK with a line P, and rectilinear figures EFML and GHON with squares RSVT and a line Q]
 
 [Margin]
 11. ſexti.
-[/Margin]
 
-[Margin]
+22. quinti.
+
 11. quinti.
 [/Margin]
 
-[Margin]
-15. ſexti.
-[/Margin]
+E CONVERSO, ſint iam dicta rectilinea proportionalia. Dico quatuor rectas AB, CD, EF, GH, eſſe quoque proportionales, ut quidem AB, ad CD, ita EF, ad GH. Inueniatur enim tribus rectis AB, CD, EF, quarta proportionalis RS, ſuper quam deſcribatur rectilineum RSVT, ſimile rectilineo EM, & ob id rectilineo GO, ſimiliterque poſitum. Quoniam igitur eſt, ut AB, ad CD, ita EF, ad RS; erit quoque, ut iam eſt oſtenſum, ut ABI, ad CDK, ita EM, ad RV. Vt autem ABI, ad CDK, ita quoque ponitur EM, ad GO: Igitur erit ut EM, ad RV, ita EM, ad GO; Ac idcirco æqualia erunt RV, GO. Quæ cum ſint ſimilia ſimiliterque poſita, conſiſtent neceſſario, ut mox oſtendemus, ſuper rectas RS, GH, æquales. Quare erit ut EF, ad RS, ita EF, ad GH. Ponitur autem EF, ad RS, ut AB, ad CD. Igitur erit ut AB, ad CD, ita EF, quoque ad GH. Quamobrem ſi quatuor rectæ lineæ proportionales fuerint, &c. Quod erat demonſtrandum.
 
 [Margin]
+12. ſexti.
+
+21. ſexti.
+
+11. quinti.
+
+9. quinti.
+
 7. quinti.
+
+11. quinti.
 [/Margin]
 
-[Margin]
-1. ſexti.
-[/Margin]
-
-## COROLLARIVM.
-
-HINC manifeſtum eſt, ſi tres rectæ lineæ proportionales fuerint; ut eſt prima ad tertiam. ita eſſe triangulum ſuper primam deſcriptum ad triangulum ſupra ſecundam ſimile ſimiliterque deſcriptum.
-
-SINT enim tres rectæ proportionales A, B, C; & ſuper primam A, & ſecundam B, conſtituta triangula A, & B, ſimilia, ſimiliterque deſcripta,
-
-[Figure: two similar triangles labelled A and B, and a horizontal line labelled C]
-
-<!-- Catchword: Dico, -->
+<!-- Signature: Dd -->
+<!-- Catchword: LEMMA -->

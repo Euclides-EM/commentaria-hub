@@ -1,25 +1,25 @@
-<!-- Running title: LIBER VII. -->
-<!-- Page number: 250 -->
+<!-- Running title: LIBER. VII. -->
+<!-- Page number: 251 -->
 
-HOC autem perſpicue in his appoſitis exẽplis apparet. Eadem enim prorſus eſt demonſtratio.
+merus DE, numeri F. Dico utrunque numerum A B, & DE, ſimul utriuſque numeri C, & F, ſimul eaſdem partes eſſe, quæ AB, ipſius C, uel DE, ipſius F.
 
-[Diagram: two pairs of horizontal dotted lines, the first pair labelled A and B, G, C; D and E, H, F; the second pair labelled A and B, G, C; D and E, H, F]
+[Diagram: two dotted lines, the first labelled A, G and B, the second labelled D, H and E, above two dotted lines labelled C and F]
 
-POSSVMVS etiam hanc propoſitionem ad quotcunque numeros transferre, hoc modo.
+Diuiſis .n. numeris AB, DE, in partes AG, GB; DH, HE, numerorum C, & F, erit multitudo partium in numero AB, æqualis multitudini partium in numero DE; propterea quod eædem partes eſt numerus AB, numeri C, quæ numerus DE, numeri F. Quia igitur, quæ pars eſt AG, numeri C, eadem eſt DH, numeri F; erit uterque AG, DH, ſimul eadem pars utriuſque C, F, ſimul, quæ AG, ipſius C, uel DH, ipſius F. Eadem ratione erit uterque GB, HE, ſimul eadem pars utriuſque C, F, ſimul, quæ GB, ipſius C, uel HE, ipſius F: Et ſic deinceps, ſi plures partes fuerint in AB, DE, erunt tot aggregata partium in numeris AB, DE, cõtenta, partes eædem numerorum C, F, ſimul, quot partes eædem eſt numerus AB, ipſius C, uel DE, ipſius F; Ac proinde eædem partes erit uterque numerus AB, DE, ſimul, utriuſque numeri C, F, ſimul, quæ AB, ipſius C, uel DE, ipſius F. Si numerus ergo numeri partes fuerit, &c. Quod erat demonſtrandum.
 
-SI ſint quotcunque numeri quotcunque numerorum æqualium numero, ſinguli ſingulorũ, eadem pars; Et omnes omnium ſimul eadem pars erunt, quæ unus unius.
+[Margin]
+5. ſeptimi
+[/Margin]
 
-SINT numeri A, B, C, numerorum DE, FG, HI, ſinguli ſingulorũ eadẽ pars. Dico omnes numeros A, B, C, ſimul omniũ numerorum DE, FG, HI, ſimul eandem eſſe
+## SCHOLION.
 
-[Diagram: three horizontal dotted lines labelled A; B; C, above a longer dotted line labelled D, K, E; F, L, G; H, M, I]
+SED & hanc propoſitionem ad quotcunque numeros extendentes, hoc modo amplificabimus.
 
-partẽ, quæ eſt A, ipſius DE. Diuiſis.n.numeris DE, FG, HI, in partes ipſis A, B, C, æquales; erit multitudo partiũ numeri DE, æqualis multitudini partiũ tam numeri FG, quã numeri HI. Quia igitur A, & DK, æquales ſunt; ſi illis addantur æquales B, & FL, erunt A, B, ſimul æquales ipſis DK, FL, ſimul: quibus ſi rurſum addantur æquales C, & HM; erunt quoq; A, B, C, ſimul æquales ipſis DK, FL, HM, ſimul. Simili ratione erũt A, B, C ſimul æquales ipſis KE, LG, MI, ſimul; & ſic deinceps, ſi plures partes fuerint in DE, FG, HI, aggregatũ numerorum A, B, C, tot aggregatis partium numerorum DE, FG, HI, æquale erit, quoties A, in DE, cõtinetur. Quamobrẽ eadẽ pars erũt A, B, C, ſimul ipſorũ DE, FG, HI, ſimul, quæ A, ipſius DE.
+SI ſint quotcunque numeri quotcunque numerorum, ſinguli ſingulorum, eædem partes; Et omnes omnium ſimul eædem partes erunt, quæ unus unius.
 
-IDEM ſequitur, ſi loco unius numerorũ A, B, C, ſumatur unitas, uel loco pluriũ, uel etiã omniũ, plures unitates, vt de duobus dictum eſt. Id quod ſequentes figuræ indicant.
+EADEM enim eſt demonſtratio, ſi modo pro quinta propos. aſſumatur id, quod ſecundo loco demonſtrauimus in ſcholio præcedenti; ut hic perſpicuum eſt.
 
-[Diagram: two sets of horizontal dotted lines, the first labelled A; B; C above D, K, E; F, L, G; H, M, I; the second labelled A, B, C above D, K, E; F, L, G; H, M, I]
+[Diagram: three dotted lines labelled A, K, B; C, L, D; and E, M, F, above three dotted lines labelled G, H and I]
 
-THEOREMATI quoque primo quinti lib. ſimile proponemus, in hanc modum.
-
-<!-- Signature: Ii 2 -->
-<!-- Catchword: SI -->
+<!-- Signature: Ii 3 -->
+<!-- Catchword: THEOR. -->

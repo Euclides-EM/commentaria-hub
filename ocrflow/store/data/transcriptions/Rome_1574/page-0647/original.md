@@ -1,11 +1,18 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## COROLLARIVM. III.
+niantur enim duo E, F, minimi in ratione A, ad B, uel B, ad C, uel C, ad D. Deinde iuxta uiam præcedentis problematis, tres minimi G, H, I, in eadem ratione, nec non quatuor K, L, M, N, & ſic deinceps, donec multitudo K, L, M, N, æqualis ſit multitudini A, B, C, D.
 
-CONSTAT etiam, duos numeros minimos in data ratione, metiri omnes medios quotcunque minimorum in eadem ratione; quia ſcilicet producuntur ex illorum multiplicatione in alios quoſdam numeros. Vt in dato exemplo D, medius producitur ex A, in B; & G, H, medij ex A, in D, & E, uel ex B, in C, & D; Item L, M, N, medij ex A, in G, H, I, uel ex B, in F, G, H; ut ex demonſtratione Euclidis, & ea, quam in Scholio tradidimus, apparet.
+[Calculation]
+A, 8. B, 12. C, 18. D, 27.
+E, 2. F, 3.
+G, 4. H, 6. I, 9.
+K, 8. L, 12. M, 18, N, 27.
+[/Calculation]
+
+Quoniam igitur A, B, C, D, minimi ſunt in ſua proportione, & in eadem quoque proportione minimi ſumpti ſunt K, L, M, N, illis multitudine æquales; erunt ſinguli ſingulis æquales, ne minores minimis dentur in eadem proportione, nimirum A, ipſi K, & D, ipſi N. Sunt autem per coroll. 2. propos. præcedentis K, & N, inter ſe primi: Primi ergo quoque ſunt A, & D. Quocirca, ſi ſint quotcunque numeri deinceps proportionales minimi omnium eandem cum eis, &c. Quod erat oſtendendum.
 
 ## SCHOLION.
 
-QVONIAM vero tam numeri A, C, F, K, quam B, E, I, O, ex conſtructione, continue proportionales ſunt ab vnitate, quod illorũ quidẽ proportiones a numero A, horũ vero a B, denominentur, vt clarius demonſtrabitur propos. 9. huius lib. fit vt extremi numeri quotcunque minimorum continue proportionalium ſint vltimi tot continue proportionalium ab vnitate, quorum proportiones a minimis numeris datæ rationis denominantur, quot ſunt propoſiti minimi continue proportionales. Ita enim in ſuperiori exemplo uides C, & E, extremos numeros trium minimorum continue proportionalium in proportione A, ad B, eſſe vltimos trium numerorum continue proportionalium ab vnitate, quorum proportiones denominantur ab A, & B. At vero F, & I, extremos quatuor continue proportionalium, eſſe vltimos quatuor numerorum ab vnitate continue proportionalium, &c. Quamobrem ſi quis optet inuenire quoſcunque numeros minimos in data ratione non multiplici (in multiplici enim res facilis eſt, nempe quæ ab vnitate incipiat) continue proportionales; id facile hac via conſequetur. Inuentis duobus minimis numeris in data ratione, ſumantur ab vnitate tot numeri continue proportionales in proportione, cuius denominator ſit minor illorum, quot numeri minimi inueniendi conſtituuntur. Nam vltimus illorum ab unitate continue proportionalium erit primus continue proportionalium inueniendorum. Vt ſi quis deſideret octo minimos numeros in proportione ſeſquialtera: Inuentis minimis duobus numeris 3. & 2. in ſeſquialtera proportione, ſumendi erunt octo numeri ab vnitate continue proportionales in proportione dupla, quæ denominatur a 2. hoc modo 1. 2. 4. 8. 16. 32. 64. 128. Nam horum vltimus 128. erit primus octo numerorum inueniendorum, qui
+HÆC propoſitio intelligenda eſt de numeris minimis cõtinue proportionalibus, vt ex eius demonſtratione, & uerbis Euclidis apparere poteſt. Nam ſi A, B, C, D, non eſſent proportionales continue, inueniri non poſſent, ex præcedenti problemate K, L, M, N, totidem minimi in eadem proportione. Immo ſi diuerſæ ſint proportiones, dabuntur aliquando minimi numeri deinceps proportionales, hoc eſt, continuati in ſuis proportionibus diuerſis, quorum extremi non ſunt inter ſe primi. Sunt enim hi numeri 6. 10. 13. 18. minimi in continuatione ſuarum proportionum, cum tamen extremi 6. & 18. compoſiti ſint inter ſe. Itaque hoc Theorema primi eſt conuerſum, quoad numeros continue proportionales. Etenim numeri quotcunque continue proportionales, quorum extremi inter ſe ſunt primi, minimi ſunt in ſua proportione, ut conſtat ex 1. theor. Et uiciſſim, numeri extremi quotcunque minimorum continue proportionalium, inter ſe primi ſunt, velut hic demonſtratum eſt. At vero primum theorema, prout ſpectat ad numeros non continue proportionales, conuerti nequit. Nam licet numeri quotcunque non continue proportionales, quorum extremi ſunt inter ſe primi, minimi ſint in continuatione ſuarum proportionum, [unclear: vt]
 
-<!-- Catchword: minimi -->
+<!-- Catchword: [illegible] -->

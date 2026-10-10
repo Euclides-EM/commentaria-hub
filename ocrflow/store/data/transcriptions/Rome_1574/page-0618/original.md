@@ -1,27 +1,24 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 266 -->
+<!-- Page number: 267 -->
 
-habeant rationem; & detracti quidam habeant ad eoſdem eandem: Et reliqui ad eoſdem eandem rationem habebunt.
+*AB, BC, CD, proportiones eaſdem, quas idem numerus K, ad totidem FG, GH, HI; Hoc eſt, ſit ut E, ad AB, ita K, ad FG; & ut E, ad BC, ita K, ad GH; & ut E, ad CD, ita K, ad HI. Dico eſſe, ut E, ad omnes illos ſimul, nempe ad AD, ita K, ad hos omnes ſimul, utpote ad FI. Cum enim ſit, ut E, primus ad AB, ſecundum, ita K, tertius ad FG, quartum: Item ut E, primus ad BC, quintum, ita K, tertius ad GH, ſextum; erit quoque, ut E, primus ad AC, ſecundum cum quinto, ita K, tertius ad FH, quartum cum ſexto. Rurſus quia eſt, ut E, primus ad AC, ſecundum, ita K, tertius ad FH, quartum: Item ut E, primus ad CD, quintum, ita K, tertius ad HI, ſextum; erit etiam, ut E, primus ad AD, ſecundum cum quinto, ita K, tertius ad FI, quartum cum ſexto. Atque ita de reliquis, ſi plures fuerint.*
 
-*SIT ut totus AB, ad C, ita totus DE, ad F; Item ut detractus AG, ad C, ita detractus DH, ad F. Dico & reliquum GB, eſſe ad C, ut eſt reliquus HE, ad F. Cum enim ſit, ut AG, ad C, ita DH, ad F; erit conuertendo, ut C, ad AG, ita F, ad DH. Quia igitur eſt, ut AB, ad C, ita DE, ad F; & ut C, ad AG, ita F, ad DH; erit ex æqualitate ut AB, ad AG, ita DE, ad DH. Diuidendo ergo ut GB, ad AG, ita HE, ad DH. Itaque cum rurſus ſit, ut GB, ad AG, ita HE, ad DH; & ut AG, ad C, ita DH, ad F; erit ex æqualitate, ut GB, ad C, ita HE, ad F. Quod eſt propoſitum.*
-
-[Margin]
-[unclear: I.]
-[/Margin]
-
-[Diagram: rows of dotted lines labelled A, G, B; C; D, H, E; F]
-
-*ITEM & hoc demonſtrabimus.*
+## THEOR. 21. PROPOS. 23.
 
 [Margin]
-VII.
+23.
 [/Margin]
 
-Si primus ad ſecundum eandem habuerit rationem, quam tertius ad quartum; habuerit autem & primus ad quintum eandem, quam tertius ad ſextum: Etiam primus ad compoſitum ſecundum cum quinto eandem rationem habebit, quam tertius ad quartum cum ſexto.
+PRIMI inter ſe numeri, minimi ſunt omnium eandem cum eis rationem habentium.
 
-*SIT ut primus A, ad ſecundum BC, ita tertius D, ad quartum EF; & ut primus A, ad quintum CG, ita tertius D, ad ſextum FH. Dico ita eſſe A, primum ad BG, compoſitum ex ſecundo & quinto, ut eſt D, tertius ad EH, compoſitum ex quarto & ſexto. Cum enim ſit, ut A, ad BC, ita D, ad EF; erit conuertendo ut BC, ad A, ita EF, ad D. Quia igitur eſt ut BC, ad A, ita EF, ad D; & ut A, ad CG, ita D, ad FH; erit ex æqualitate ut BC, ad CG, ita EF, ad FH; & componendo, ut BG, ad CG, ita EH,*
+SINT numeri A, B, inter ſe primi. Dico eos eſſe minimos omnium, qui eandem proportionem habent, quam ipſi A, & B. Nam ſi non ſunt minimi, erunt aliqui alij minores ipſis, minimi habentes proportionem, quam A, & B. ſint ergo, ſi fieri poteſt, C, D, minimi in proportione A, & B, minoresque ipſis A, & B. Quoniam igitur C, D, minimi ſunt in proportione A, & B; metietur C, ipſum A, & D, ipſum B, æque; atque adeo ſecundum eundem numerum, qui ſit E, ita ut C, toties metiatur ipſum A, & D, ipſum B, quoties unitas eſt in E. Itaq; cũ unitas numerũ E, & numerus C, numerũ A, ęque metiatur; metietur & uiciſſim ęque unitas numerum C, & numerus E, numerum A. Rurſus quia unitas numerum E, & numerus D, numerum B, æque metitur; metietur quoque uiciſſim æque unitas numerum D, & numerus E, numerum B; Atque adeo, cum idem nu-
 
-[Diagram: rows of dotted lines labelled A; B, C, G; D; E, F, H]
+[Diagram: rows of dotted lines labelled A, B, C, D and E]
 
-<!-- Signature: LI 2 -->
-<!-- Catchword: ad -->
+[Margin]
+21. ſeptimi
+15. ſeptimi
+[/Margin]
+
+<!-- Signature: LI 3 -->
+<!-- Catchword: merus -->

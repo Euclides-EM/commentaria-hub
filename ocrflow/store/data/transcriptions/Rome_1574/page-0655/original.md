@@ -1,32 +1,26 @@
-<!-- Running title: EVCLID. GEOM. -->
+<!-- Running title: EVCLID.GEOM. -->
 
-[Margin]
-27. defin.
-[/Margin]
-
-portionibus A, ad G, & G, ad B; Eadem ex proportionibus C, ad F, & D, ad E, componetur. Quare plani numeri rationem inter ſe habent ex lateribus compoſitam. Quod demonſtrandum erat.
-
-## THEOR. 4. PROPOS. 6.
-
-[Margin]
-6.
-[/Margin]
-
-SI ſint quotcunque numeri deinceps proportionales, primus autem ſecundum non metiatur; neque alius quiſquam ullum metietur.
-
-SINT continue proportionales A, B, C, D, E; & A, primus non metiatur B, ſecundum. Dico neque alium quenquã illorũ ullum metiri. Quod enim nullus proxime inſequentem metiatur, manifeſtum eſt. Nam cum ſit, ut A, ad B, ita B, ad C; C, ad D; & D, ad E: A, uero ipſum B, non metiatur; neque B, ipſum C, neque C, ipſum D, neque D, ipſum E, me tietur. Quod uero nec alius quiſquam illorum ullum metiatur, ſic demonſtrabimus. Sumptis tribus numeris minimis F, G, H, in ratione A, ad B; erit ex æquo, ut A, ad C, ita F, ad H. Quia uero eſt ut A, ad B, ita F, ad G; non metitur autem A, ipſum B; neque F, ipſum G, metietur; At propterea F, non non erit unitas, alias F, ipſum G, metiretur, cum unitas omnem numerum metiatur. Quare cum F, & H, ſint inter ſe primi, & F, non ſit unitas; non metietur F, ipſum H; Atque ob id neque A, ipſum C, metietur. Eſt enim oſtenſum eſſe A, ad C, ut F, ad H. Eadem ratione oſtendemus, quod nec B, tertium a ſe numerum D, nec C, tertium E, metiatur. Quod ſi quatuor numeri minimi ſumantur in ratione A, ad B, ſimili modo demõſtrabimus, neque A, quartum D, neque B, quartum E, metiri. Atque ita de reliquis. Si itaque ſint quotcunque numeri deinceps proportionales, &c. Quod erat oſtendendum.
+SINT deinceps proportionales quotcunque numeri A, B, C, D, E; & primus A, ſecundum B, metiatur. Dico & quẽque illorum quemlibet ſequentium metiri. Quod enim quilibet proxime inſequentem metiatur, perſpicuuum eſt. Nam cum ſit, ut A, ad B, ita B, ad C; C, ad D; & D, ad E; metiatur autem A, ipſum B; & B, ipſum C; & C, ipſum D; & D, ipſum E, metietur. Quod autem quilibet illorum quemlibet ſequentium metiatur, nempe B, ipſos D, & E, hoc modo oſtendetur. Quia B, ipſum C, metitur, & C, ipſum D; metietur quoque B, ipſum D. Rurſus quia D, ipſum E, metitur; metietur quoque B, (ipſum D, metiens) eundem E. Et ſic de reliquis.
 
 [Calculation]
-A,16. B,24. C,36. D,54. E,81.
-F,4. G,6. H,9.
+A,3. B,6. C,12. D,24. E,48.
 [/Calculation]
 
 [Margin]
-2. octaui.
+11. pron.
+11. pron.
 [/Margin]
 
-[Margin]
-3. octaui.
-[/Margin]
+SED iam primus A, multiplex ſit B, ſecundi. Dico & quemque illorum cuiuslibet ſequentium multiplicem eſſe. Cum enim ſit vt A, ad B, ita B, ad C; C, ad D; & D, ad E: ſit autem A, ipſius. B, multiplex; erit & B, ipſius C; & C, ipſius D; & D, ipſius E, multiplex. Quilibet ergo cuiuslibet proxime inſequentis multiplex eſt. Rurſus quia D, ipſius E, eſt multiplex; metietur e contrario E, ipſum D: ſunt autem, per inuerſam rationem, E, D, C, B, A, continue proportionales. Igitur & quilibet illorum quemlibet ſequentium metitur, vt demonſtratum eſt; Ac propterea e contrario, ſi maiores ad mi nores referantur, & quilibet cuiuſque ſequentium multiplex erit.
 
-<!-- Catchword: SCHO -->
+[Calculation]
+A,48. B,24. C,12. D,6. E,3.
+[/Calculation]
+
+CONVERTEMVS etiam hanc propoſitionem ſextam, & theorema, quod primo loco in ſcholio demonſtrauimus, hac ratione.
+
+Si ſint quotcunque numeri deinceps proportionales, primus autem, uel alius quiſquam nullum a ſecundo metiatur; neque primus ſecundum metietur. Et ſi primus, uel alius quiſquam nullius a ſecundo ſit multiplex: neque primus ſecundi multiplex erit.
+
+SINT deinceps proportionales A, B, C, D, E; & primus
+
+<!-- Catchword: A, ut -->

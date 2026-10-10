@@ -1,27 +1,21 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Diagram: two horizontal dotted lines labelled A, B and C, D]
+quoque ipſum C; perſpicuum eſt D, eſſe maximam menſuram numerorum datorum A, B, C. Nam ſi maior numerus dicatur metiri numeros A, B, C, metietur idem, per coroll. propos. 2. huius lib. numerum D, maximam menſuram numerorum A, & B, maior numerus minorem. Quod eſt abſurdum. Si uero D, nõ metiatur ipſum C; erũt ſaltem D, & C, inter ſe compoſiti. Cum enim ſint A, B, C, inter ſe compoſiti, metietur quæcunque illorum menſura communis, per coroll. propos. 2. huius lib. numerum D, maximam menſuram numerorum A, & B. Cum ergo eadem illa menſura metiatur etiam ipſum C; erunt D, & C, inter ſe compoſiti. Sit eorum maxima menſura E. Dico E, eſſe maximam menſuram cõmunem datorum numerorum A, B, C. Quod enim ſit eorum menſura cõmunis, hac ratione demonſtrabitur. Quoniam E, metitur numeros C. & D; at D, ipſos A, & B; metietur quoque E, ipſos A, & B; Ac proinde tres numeros A, B, C, metietur.
 
-ma amborum mẽſura communis cum & ſe ipſum metiatur. Duobus igitur numeris datis non primis inter ſe, &c. Quod erat faciendum.
-
-## COROLLARIVM.
-
-EX hoc manifeſtum eſt, quod numerus metiens duos numeros, metitur & maximam eorundem communem menſuram. Hoc elicitur ex ea parte demonſtrationis, qua oſtenſum fuit F D, eſſe maximam menſuram ipſorum A B, C D. Demonſtratum enim eſt ibi, numerum G, ſi metiatur numeros A B, C D, metiri quoque numerum F D, maximam eorum menſuram cõmunem. Eademq́; ratio eſt de cæteris.
-
-## SCHOLION.
-
-EX dictis facile cum Campano experiemur, an quotlibet numeri propoſiti ſint inter ſe primi, nec ne. Sint tres numeri A, B, C. Primum ergo experior, per ea, quæ ad propoſ. 1. docuimus, an duo A, & B, ſint inter ſe primi: Qui ſi fuerint inter ſe primi, non erunt tres numeri A, B, C, inter ſe compoſiti, quod nullam poſſint habere menſuram communem, præter unitatem, propter numeros A, & B, inter ſe primos.
-
-[Diagram: three horizontal dotted lines labelled A, B and C]
-
-SI vero A, & B, fuerint inter ſe compoſiti, ſit eorum maxima menſura communis inuenta D; quæ ſi metiatur & numerum C, perſpicuum eſt, tres numeros A, B, C, eſſe inter ſe compoſitos, cum habeant numerum D, communem menſuram.
-
-[Diagram: four horizontal dotted lines labelled A, B, C and D]
+[Diagram: horizontal dotted lines labelled A, B, C, D, E and F]
 
 [Margin]
 2. ſeptimi
 [/Margin]
 
-QVOD ſi D, maxima menſura numerorum A, & B, non metiatur numerum C; Erunt C, & D, uel inter ſe primi, uel non: Si ſint inter ſe primi, non erunt tres numeri A, B, C, inter ſe compoſiti, ſed inter ſe primi. Si enim dicantur eſſe inter ſe compoſiti, ita ut habeant numerum communem menſuram, metietur eiuſmodi communis menſura numerum D, ma
+[Margin]
+11. pron.
+[/Margin]
 
-<!-- Catchword: ximam -->
+QVOD autem E, ſit maxima eorum communis menſura, perſpicuum eſt. Si enim fieri poteſt, ſit F, maior quam E, eorum menſura communis. Quia igitur F, metitur numeros A, & B; metietur quoque, per coroll. propos. 2. huius lib. numerum D, maximam eorum menſuram communẽ. Metitur autem & C: Igitur F, metiens D, & C, metietur quoque E, eorum menſuram maximam, ex eodem coroll. numerus maior minorem. quod eſt abſurdum. Non ergo maior numerus, quam E, numeros A, B, C, metitur; Atque adeo E, maxima menſura eſt ipſorum. Quamobrem tribus numeris datis non primis inter ſe, &c. Quod faciendum erat.
+
+## COROLLARIVM.
+
+HINC perſpicuum eſt, quod numerus metiens tres numeros, metitur quoque maximam eorum communem mẽſuram. Hoc enim colligitur ex ultima parte demonſtrationis; Oſtenſum enim eſt ibi, numerum F, ſi metiatur numeros A, B, C, metiri quoque nu-
+
+<!-- Catchword: merum -->

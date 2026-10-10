@@ -1,57 +1,33 @@
 <!-- Running title: LIBER VI. -->
+<!-- Page number: 228 -->
 
-<!-- Page number: 227 -->
-
-SINT data duo rectilinea A, & BCD, quibus inueniendum ſit tertium proportionale. Conſtituatur ipſi A, rectilineum æquale EFG, ſimile vero ſimiliterque poſitum ipſi BCD. Deinde lateribus homologis EF, BC, inueniatur tertia linea proportionalis HI, ſuper quam conſtituatur rectilineũ HIK, ſimile ſimiliterque poſitum ipſis EFG, BCD. Dico HIK, eſſe tertium proportionale. Cum enim proportionales ſint rectæ EF, BC, HI, erunt & rectilinea EFG, BCD, HIK, ab illis deſcripta (cum ſint ſimilia, ſimiliterque poſita) proportionalia. Cum ergo EFG, per conſtructionem, æquale ſit ipſi A; erunt & rectilinea A, BCD, HIK, proportionalia.
+deinde latere eius EH, in I, ſecundum proportionem B, ad C, (quod facile fiet, ſi conficiatur vna linea ex B, & C. Nam tunc ſimiliter ſecanda erit EH, &c.) deſcribatur circa EH, ſemicirculus EKH, & ex I, ducatur ad EH, perpendicularis IK, connectanturq́; rectæ EK, HK. Deſcribantur iam ex EK, KH, rectilinea EKLM, KHNO, ipſi EG, vel ipſi D, ſimilia ſimiliterq́; poſita; quæ dico æqualia etiã eſſe ipſi EG, ſeu ipſi A, habereq́ue proportionem datam B, ad C. Cum enim angulus EKH, in ſemicirculo exiſtens rectus ſit, erunt rectilinea EL, HO, æqualia rectilineo EG, cũ ſint ſimilia inter ſe, ſimiliterq́; deſcripta. Quoniam uero eſt, vt EI, ad IK, ita EK, ad KH, cum triangula EIK, EKH, ſimilia ſint; Eſt autẽ EI, ad IH, in proportione duplicata proportionis EI, ad IK, quod tres EI, IK, IH, ſint, ex corollario propos. 8. lib. huius, proportionales: Item EL, ad HO, in proportione duplicata eius, quam habet latus EK, ad latus homologum KH; erit vt EI, ad IH, hoc eſt, ut B, ad C, ita EL, ad HO. Dato ergo rectilineo A, exhibuimus duo æqualia EL, HO, quæ ſimilia ſunt, ſimiliterq́ue poſita dato rectilineo D, habentq́ue proportionem inter ſe datam B, ad C.
 
 [Margin]
-25. ſexti.
-
-11. ſexti.
+10. ſexti.
 
 18. ſexti.
 
-22. ſexti.
+31. tertij.
+
+31. ſexti.
+
+4. ſexti.
+
+20. ſexti.
 [/Margin]
 
-[Figure: a triangle labelled A, a triangle BCD, and three similar triangles labelled EFG, HIK on the line EFHI]
+[Figure: a rectangle D, a triangle A, and a semicircle EKH on line EIH with attached rectilinear figures labelled L, K, O, M, N, and below the lines F, B, C]
+
+## DATO rectilineo, duo rectilinea æqualia exhibere, quæ cuiuis rectilineo ſimilia ſint, ſimiliterque deſcripta, lateraque eorum homologa habeant inter ſe proportionem datam.
 
 [Margin]
-III.
+VI.
 [/Margin]
 
-## TRIBVS datis rectilineis, quartum proportionale inuenire.
+DETVR rectilineum A, & proportio rectæ B, ad rectam C; oporteatque conſtituere duo rectilinea ipſi A, æqualia, & ſimilia ipſi D, ppoſito, ſimiliterq́; poſita, quorũ latera homologa pportionẽ habeãt, quã B, ad C. Inuẽta ipſis B, C, tertia pportionali E, fiat rectilineũ FGH, æquale ipſi A, & ſimile ſimiliterq́; poſitũ ipſi D. Diuiſoq́; latere FH, in I, ſ̃m pportionẽ B, ad E; deſcribaĩ circa FH, ſemicirculus FKH; et ex I, ducaĩ ad FH, perpẽdicularis
 
-TRIA rectilinea data ſint A, BCDE, FGH, quibus quartum ſit inueniendum proportionale. Conſtruatur rectilineum IKLM, æquale quidem ipſi A, ſimile vero ſimiliterq́; poſitum ipſi BCDE. Tribus deinde rectis IK, BC, FG, inuenta quarta proportionali NO, conſtituatur ſuper NO, rectilineum NOP, ipſi FGH, ſimile ſimiliterque poſitum. Dico NOP, rectilineum eſſe quartum proportionale. Cum enim quatuor rectæ IK, BC, FG, NO, ſint proportionales, erunt & rectilinea ſimilia ſimiliterq́; poſita ab ipſis deſcripta IL, BD, FGH, NOP, proportionalia. Cum igitur IL, conſtructum ſit æquale ipſi A; erunt & quatuor rectilinea A, BD, FGH, NOP, proportionalia.
+[Figure: a rectangle A, a triangle D, a triangle FGH with semicircle FKH on line FIH and points L, K, M, and three vertical lines labelled B, C, E]
 
-[Margin]
-25. ſexti.
-
-12. ſexti.
-
-18. ſexti.
-
-22. ſexti.
-[/Margin]
-
-[Figure: a triangle labelled A, a parallelogram BCDE, a triangle FGH, a parallelogram IKLM, and a triangle NOP]
-
-[Margin]
-IIII.
-[/Margin]
-
-## DVOBVS datis rectilineis, medium proportionale inuenire.
-
-SINT duo rectilinea A, BCD, quibus medium inueniendum eſt proportionale. Conſtituatur rectilineum EFG, æquale ipſi A, & ſimile ſimiliterque poſitum ipſi BCD. Duabus deinde rectis EF, BC, inuenta media proportionali HI, conſtruatur ſuper HI, rectilineum HIK, ſimile ſimiliterq́; poſi-
-
-[Margin]
-25. ſexti.
-
-13. ſexti.
-
-18. ſexti.
-[/Margin]
-
-<!-- Signature: Ff 3 -->
-
-<!-- Catchword: tum -->
+<!-- Signature: Ff 4 -->
+<!-- Catchword: IK, -->

@@ -1,43 +1,74 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-nales, primus autem ſit quadratus; Et tertius quadratus erit.
+ſum C, æque, ex ijs, quæ oſtendimus ad propos. 21. lib. 7. Et quoniam extremi D, F, minimorum trium numerorum, per coroll.
 
-SINT tres numeri A, B, C, continue proportionales, ſitque primus eorum A, quadratus. Dico & tertium C, quadratum eſſe. Nam cum inter
+[Margin]
+11. octaui.
+[/Margin]
 
 [Calculation]
-A,9. B,36. C,144.
+A,36.  B,48.  C,64.
+G,18.         H,32.
+D,9.   E,12.  F,16.
+L,64.  K,8.   I,4.
 [/Calculation]
+
+1. propos. 2. huius lib. ſunt quadrati: Eſt autem & A, quadratus, ex hypotheſi; cadet inter A, et D, quadratos medius numerus proportionalis, ut G. Quia verò eſt, ex æquo, vt A, ad C, ita D, ad F; & permutando, vt A, ad D, ita C, ad F;
+
+[Margin]
+8. octaui.
+[/Margin]
+
+cadet quoque inter C, & F, vnus proportionalis medius, nempe H.
+
+[Margin]
+7. octaui.
+[/Margin]
+
+Cum ergo F, primus metiatur C, vltimum; metietur idem & ſecundum H. Sumpto autem I, latere quadrati F; metiatur I, toties numerum K, quoties F, ipſum H, ita vt H, ad F; & K, ad I, eandem habeant proportionem multiplicem. Sit quoque L, quadratus ipſius K. Itaque quia ratio L, ad F; quadrati ad quadratum, duplicata
+
+[Margin]
+11. octaui
+[/Margin]
+
+eſt rationis K, ad I, lateris ad latus, hoc eſt, H, ad F: Eſt autem & ratio C, ad F, eiuſdem rationis H, ad F, ex defin. duplicatæ, quod conuertendo ſint proportionales etiam C, H, F; erit L, ad F, ut C, ad F; Ac proinde L, & C, æquales ſunt. Exiſtente ergo L, quadrato, ex conſtructione, & C, quadratus erit.
 
 [Margin]
 20. octaui
 [/Margin]
 
-A, & C, cadat medius proportionalis; erunt A, & C, plani ſimiles. Quare exiſtente A, quadrato, erit & C, ei ſimilis, quadratus. Si igitur tres numeri deinceps ſint proportionales, &c. Quod demonſtrandum erat.
+ALITER. Quoniam A, & C, ſimiles plani ſunt; ſint eorum latera proportionalia, D, E, quidem ipſius A; at F, G, ipſius C, ita vt ſit D, ad E, ſicut F, ad G: aſſumaturque H, latus quadrati A.
 
 [Margin]
-21.
+20. ſeptimi
 [/Margin]
-
-## THEOR. 21. PROPOS. 23.
-
-SI quatuor numeri deinceps ſint proportionales, primus autem ſit cubus; Et quartus cubus erit.
-
-SINT quatuor numeri A, B, C, D, proportionales continue, & A, primus ſit cubus. Dico & quartum D, cubum eſſe. Cum enim inter A,
 
 [Calculation]
-A,27. B,45. C,75. D,125.
+A,36.  B,48.  C,64.
+H,6.          I,8.
+D,3.  E,12.   F,4.  G,16.
 [/Calculation]
 
-& D, cadant duo medij proportionales B, C; erunt
+Quoniam igitur idem numerus A, producitur ex D, in E, & ex H, in ſe; erunt D, H, E, continue proportionales. Cum ergo ſit F, ad G, vt D, ad E, cadatque inter D, & F, medius proportionalis H; cadet quoque inter
 
 [Margin]
-21. octaui
+8. octaui
 [/Margin]
 
-A, & D, ſolidi ſimiles. Quare exiſtente A, cubo, erit & D, illi ſimilis, cubus. Quam ob rem, ſi quatuor numeri deinceps ſint proportionales, &c. Quod erat oſtendendum.
+[Calculation]
+A,36.  B,48.  C,64.
+H,6.          I,8.
+D,6.  E,6.    F,8.  G,8.
+[/Calculation]
 
-## SCHOLION.
+F, & G, unus medius proportionalis, qui ſit I. Quare cum F, I, G, ſint continue proportionales; idem numerus fiet ex F, in G, qui ex I, in ſe ipſum.
 
-HÆC eſt apud omnes interpretes Euclidis, quos ego vidi, vulgata demonſtratio præcedentium duarum propoſitionũ; quam qui diligenter examinare velit, inueniet ſane mancam eſſe, & imperfectam. Cum enim ad defin. 21. lib. 7. tradiderimus, duos numeros planos, vel ſolidos poſſe ſimiles eſſe, quamuis non quibuſcunque lateribus vnius exhiberi poſſint alia latera alterius proportionalia; dummodo quibuſdam lateribus vnius proportionalia ſint quædam alterius; Iure optimo
+[Margin]
+20. ſeptimi
+[/Margin]
 
-<!-- Catchword: quæ -->
+Fit autem C, ex F, in G. Igitur & idem C, fiet ex I, in ſe ipſum: Atque adeo C, quadratus erit, ex definitione.
+
+SINT rurſum quatuor numeri A, B, C, D, continue proportionales, & A, primus; ſit cubus. Dico & D, quartum, cubum eſſe. Sumpto enim E, latere cubi A; fiat ex E, in ſe ipſum
+
+<!-- Catchword: ſum -->

@@ -1,25 +1,7 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
 
-[Margin]
-8. ſeptimi
-[/Margin]
+ri AG, AH, ſint rurſum uel æquales ipſis CD, CF, uel eorũ æquemultiplices. Diuiſis igitur numeris GB, HE, in partes GI, IB, & HK, KE, numerorum CD, CF, erit multitudo partium ipſius GB, multitudini partium ipſius HE, æqualis. Simili modo, diuiſis numeris CD, CF, in partes CL, LM, MD, & CN, NO, OF, partibus GI, IB, & HK, KE, æquales, erit quoque multitudo partium ipſius CD, multitudini partium ipſius CF, æqualis, quod quælibet partium numeri GB, eadem pars ſit numeri CD, quæ unaquæque partium numeri HE, eſt numeri CF. Denique diuiſis numeris AG, AH, in partes AP, PQ, QG, & AR, RS, SH, eiſdem partibus GI, IB, & HK, KE, æquales, erit & multitudo partium numeri AG, æqualis multitudini partium numeri AH. Cum enim AG, AH, uel æquales ſint ipſis CD, CF, uel eorum æquemultiplices; erunt uel tot partes in AG, AH, quot in CD, CF, uel certe numerus partium ipſius CD, toties continebitur in AG, quoties numerus partiũ ipſius CF, in AH; proptereaq́; multitudo partium numeri AG, multitudini partium numeri AH, æqualis erit: Quibus ſi addantur æquales multitudines partium numerorum GB, HE, erit quoque multitudo partium numeri AB, multitudini partium numeri AE, æqualis; Atque adeo una pars numeri CD, eadem pars erit numeri AB, quæ una
 
-Reliquus igitur FD, reliqui EB, eædem quoque partes
+[Diagram: four horizontal dotted lines with points labelled A, P, Q, G, I, B; C, L, M, D; A, R, S, H, K, E; and C, N, O, F]
 
-[Diagram: two dotted lines, the first labelled A, E and B, the second labelled C, F and D]
-
-[Diagram: two dotted lines, the first labelled A, E and B, the second labelled C, F and D]
-
-erit, quæ totus CD, totius AB: Ac propterea, e contrario AB ipſum CD, & EB, ipſum FD, æqualiter continebit, eandemque inſuper illius partem, uel partes, ut mox oſtendemus. Quare erit, per defin. 20. ut totus AB, ad totum CD, ita EB, reliquus ad reliquum FD.
-
-QVOD ſi AB, totus toti CD, æqualis fuerit, & ablatus AE, ablato CF; perſpicuum eſt reliquum EB, quoque eſſe æqualem reliquo FD. Nam ſi ab æqualibus æqualia demantur; quæ remanent, ſunt æqualia. Itaque ſi fuerit, ut totus ad totum, ita ablatus ad ablatum, &c. Quod erat demonſtrandum.
-
-[Diagram: two dotted lines, the first labelled A, E and B, the second labelled C, F and D]
-
-## LEMMA.
-
-QVOD autem, ſi AB, ipſum CD, & AE, ipſum CF, æqualiter contineat, eandemque inſuper partem illius uel partes; e contrario CD, ipſius AB, & CF, ipſius AE, ſit eædem partes: Et ſi CD, ipſius AB, & CF, ipſius AE, ſit eædẽ partes: e contrario AB, ipſum CD, & AE, ipſum CF, æqualiter contineat, eandemque illius partem uel partes; hoc modo demonſtrabimus. Contineat primo AB, ipſum CD, & AE, ipſum CF, æqualiter, nempe ſemel, uel bis, uel ter, &c. eandemque inſuper partem, GB,
-
-[Diagram: four dotted lines, the first labelled A, N, O, G and B, the second labelled C, I, K and D, the third labelled A, P, Q, H and E, the fourth labelled C, L, M and F]
-
-<!-- Catchword: quidem -->
+<!-- Catchword: pars -->

@@ -1,32 +1,36 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 247 -->
+<!-- Page number: 248 -->
 
-inter ſe, maximam eorum cõmunem menſuram reperire.
+ximam menſuram numerorum A, & B, per coroll. huius propos. Quare cum eadem illa menſura metiatur quoque numerum C, non erunt inter ſe primi numeri C, & D. Quod eſt contra hypotheſim. Si autẽ C, & D, non ſint inter ſe primi, erunt tres numeri A, B, C, inter ſe compoſiti. Inuenta enim numerorum C, & D, maxima menſura communi E; cum E, metiatur ipſum D; D, autem ipſos A, & B; metietur quoque E, eoſdem A, & B. Quare cum idem E, metiatur quoque ipſum C; metietur E, tres numeros A, B, C; Ac propterea ipſi inter ſe ſunt compoſiti. Quod eſt propoſitum.
 
-DENTVR duo numeri A B, C D, non primi inter ſe, quorum maximam communem menſuram oporteat reperire. Detrahatur minor C D, ex maiore A B, quoties poteſt, relinquatq́; E B, numerum, qui ex C D, ſubtractus relinquat F D, & ſic deinceps ſemper minor de maiore ſubtrahatur alterna quadam detractione; in qua quidẽ peruenietur ad numerum, qui præcedentẽ metiatur. Nam ſi ad unitatẽ deueniretur, numeri A B, C D, eſſent inter ſe primi; quod eſt contra hypotheſim. Peruentũ ergo iam ſit ad reliquum numerum F D, qui detractus ex E B, nihil relinquat, ſed eum metiatur. Dico F D, eſſe maximam menſuram communem numerorum A B, C D. Quod enim utrunq́; metiatur, ita oſtendemus. Quia F D, metitur ipſum E B; & E B, ipſum C F; metietur quoque F D, ipſum C F; atq́; adeo cũ & ſeipſum metiatur, metietur & totũ C D, ex C F, F D, compoſitum. At C D, ipſum A E, metitur; Igitur & F D, eundem A E, metietur. Ac propterea cum F D, metiatur quoque ipſum E B; metietur etiã totum A B, ex utroque A E, E B, compoſitum. Metitur igitur F D, utrunque numerum A B, C D.
-
-[Diagram: three horizontal dotted lines, the first labelled A, E and B, the second labelled C, F and D, the third labelled G]
+[Diagram: four horizontal dotted lines labelled A, B, C and D]
 
 [Margin]
-1. ſeptimi
-
-11. pron.
-
-10. pron.
-
-11. pron.
-
-10. pron.
+2. ſeptimi
 [/Margin]
 
-QVOD autem F D, ſit maxima menſura communis illorũ, ita probabimus. Si enim fieri poteſt, detur maior menſura communis G, quam F D. Quoniam ergo G, metitur utrunque A B, C D; Et C D, metitur ipſum A E; metietur quoque G, ipſum A E. Igitur & reſiduum E B: At uero E B, metitur C F; Metietur ergo & G, eundem C F; Igitur & reſiduum F D; maior minorem. Quod eſt abſurdum. Non ergo maior numerus, quã F D, numeros A B, C D, metitur; Ac proinde F D, maxima eſt menſura numerorum A B, C D.
+[Diagram: five horizontal dotted lines labelled A, B, C, D and E]
 
 [Margin]
-11. 12. & 11. pron.
-
-12. pron.
+11. pron.
 [/Margin]
 
-QVOD ſi minor numerus C D, metiatur maiorem A B, ita ut detractus ex A B, nihil relinquat, erit ipſe maxi-
+SIMILI arte explorabimus, an plures numeri, quam tres ſint inter ſe primi, an potius inter ſe compoſiti. Nam ſi dati numeri fuerint quatuor, experiendum id erit primum in tribus; ſi quinque, in quatuor, &c. Reliqua autem perficienda, ut de tribus numeris datis diximus.
 
-<!-- Catchword: ma -->
+## PROBL. 2. PROPOS. 3.
+
+[Margin]
+3.
+[/Margin]
+
+TRIBVS numeris datis non primis inter ſe, maximam eorum cõmunem menſuram reperire.
+
+DENTVR tres numeri A, B, C, non primi inter ſe, quorum maximam menſurã cõmunem oporteat reperire. Sit D, maxima menſura numerorum A, & B; Si ergo D, metiatur
+
+[Diagram: horizontal dotted lines labelled A, B, C, D, E and F]
+
+[Margin]
+2. ſeptimi
+[/Margin]
+
+<!-- Catchword: quoque -->

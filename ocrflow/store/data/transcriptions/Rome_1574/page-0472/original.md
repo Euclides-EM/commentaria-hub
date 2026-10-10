@@ -1,45 +1,55 @@
-<!-- Running title: LIBER VI. -->
-<!-- Page number: 193 -->
+<!-- Running title: LIBER. VI. -->
+<!-- Page number: 194 -->
 
-## THEOR. 4. PROPOS. 4.
+ut BC, ad AB. Dico rectam, quæ coniungit extrema B, & E, tranſire per punctum D. Item rectam, quæ coniungit extrema B, & D, tranſire per punctum E. Si enim recta BE, nõ tranſit per D, coeat cum AD, in F, puncto, quod ſit vel ſupra D, vel infra, ut in prima figura. Quoniam igitur per coroll. huius propos. triangula BAF, BCE, ſimilia ſunt; erit, ut AB, ad AF, ita BC, ad CE; Et permutando, ut AB. ad BC, ita AF, ad CE: Vt autem AB, ad BC, ita erat quoque AD, ad CE; Igitur erit, ut AF, ad CE, ita AD, ad CE: Ac propterea æquales erunt rectæ AF, AD, pars & totum. Quod eſt abſurdum. Tranſit ergo recta BE, per punctum D. Quod eſt primum.
 
-[Margin]
-4.
-[/Margin]
-
-AEQVIANGVLORVM triangulorum proportionalia ſunt latera, quæ circum æquales angulos, & homologa ſunt latera, quæ æqualibus angulis ſubtenduntur.
-
-SINT ęquiangula triangula ABC, DCE, ſintq; æquales anguli ABC, DCE; & ACB, DEC; & BAC, CDE. Dico eſſe AB, ad BC, ut DC, ad CE; & BC, ad CA, ut CE, ad ED; & AB, denique ad AC, ut DC, ad DE; Ita enim latera circa æquales angulos ſunt proportionalia, homologaque ſunt ea latera, quæ æqualibus angulis ſubtenduntur, hoc eſt, & antecedentia omnia æquales reſpiciunt angulos, & conſequentia ſimiliter. Conſtituantur latera BC, CE, ſecundum lineam rectam, ita ut angulus DCE, externus ſit æqualis interno ABC; pariterque externus ACB, interno DEC. Et quia duo anguli ABC, ACB, minores ſunt duobus rectis; eſt autẽ angulo ACB, æqualis angulus DEC; erunt & anguli B, & E, duobus rectis minores. Quare rectæ BA, & ED, productæ ad partes A, D, coibunt. Producantur ergo, & conueniant in F. Quoniã uero angulus externus DCE, æqualis eſt interno oppoſito ABC; parallelæ erunt CD, & BF. Eadem ratione, parallelæ erunt CA, & EF, quod angulus externus ACB, ſit æqualis interno DEC. Parallelogrãmum eſt igitur ACDF; proptereaque recta AF, æqualis rectæ CD; & recta CA, rectæ DF. Quoniam igitur in triangulo BEF, recta AC, parallela eſt lateri EF; erit AB, ad AF, hoc eſt, ad DC, (quæ æqualis eſt ipſi AF,) ut BC, ad CE. permutando igitur erit AB, ad BC, ut DC, ad CE. Rurſus quia in eodem triangulo BEF. recta CD, parallela eſt lateri BF, erit BC, ad CE, ut FD, hoc eſt, ut CA, (quę
-
-[Figure: triangle with base B, C, E; apex F above; point A on side BF and point D on side FE, with lines AC and DC drawn to the base]
+[Figure: two triangle diagrams; the first with base ACB and lines rising to points D, E, F; the second similar, with points D, F above and base ACB]
 
 [Margin]
-17. primi
+4. ſexti.
 [/Margin]
 
 [Margin]
-11. pron.
+16. quinti.
 [/Margin]
 
 [Margin]
-28. primi
+11. quinti
 [/Margin]
 
 [Margin]
-34. primi
+9. quinti
+[/Margin]
+
+RVRSVS ſi recta BD, non tranſit per E, tranſeat per F, punctum, quod ſit uel ſupra E, uel infra, ut in ſecunda figura. Quoniam ergo, per dictum coroll. triangula BAD, BCE, ſimilia ſunt; erit, ut AB, ad AD, ita BC, ad CF; & permutando, ut AB, ad BC, ita AD, ad CF: Vt autem AB, ad BC, ita quoque erat AD, ad CE; Igitur erit, ut AD, ad CF, ita AD, ad CE: Ac proinde æquales erunt rectæ CF, CE, pars & totum. Quod eſt abſurdum. Tranſit ergo recta BD, per E. Quod eſt ſecundum.
+
+[Margin]
+4. ſexti.
 [/Margin]
 
 [Margin]
-2. ſexti.
+16. quinti.
 [/Margin]
 
 [Margin]
-16. quinti
+11. quinti.
 [/Margin]
 
 [Margin]
-2. ſexti.
+9. quinti.
 [/Margin]
 
-<!-- Signature: Bb -->
-<!-- Catchword: æqua- -->
+Secundum uero eſt.
+
+## SI in triangulo quouis uni lateri parallela recta agatur, & ex quocunque puncto illius lateris ad angulum oppoſitum recta educatur linea: diuidentur linea parallela, & latus dictum, in eaſdem rationes.
+
+IN triangulo ABC, ducta ſit DE, lateri BC, parallela, & ex puncto F, quocunque ad angulum A, recta extendatur FA, ſecans DE, in G. Dico eße, ut BF, ad FC, ita DG, ad GE. Quoniam triangula AFB, AGD, ex coroll. huius propos. ſimilia ſunt; erit ut AF, ad BF, ita AG, ad DG; & permu-
+
+[Figure: triangle with apex A and base BFC, line DGE parallel to the base, with line from A through G to F]
+
+[Margin]
+4. ſexti.
+[/Margin]
+
+<!-- Signature: Bb 2 -->
+<!-- Catchword: tando, -->

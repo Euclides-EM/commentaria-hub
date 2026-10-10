@@ -1,23 +1,33 @@
-<!-- Running title: LIBER. VI. -->
-<!-- Page number: 200 -->
+<!-- Running title: LIBER VI. -->
+<!-- Page number: 201 -->
 
-angulum A, quemcumque, ſitque inuenienda illis tertia proportionalis, ſicut quidem AB, ad AC, ita AC, ad tertiam. Producatur AB, quam uolumus eſſe antecedentem, & capiatur BD, æqualis ipſi AC. Deinde ducta recta BC, agatur illi ex D, parallela DE, occurrens ipſi AC, productæ in E. Dico CE, eſſe tertiam proportionalé, hoc eſt, eſſe ut AB, ad AC, ita AC, ad CE. Cum enim in triãgulo ADE, lateri DE, parallela ſit recta BC; erit ut AB, ad BD, ita AC, ad CE; Sed ut AB, ad BD, ita eadem AB, ad AC, æqualem ipſi BD: Vt igitur AB, ad AC, ita AC, ad CE. quod eſt propoſitum. Duabus ergo datis rectis lineis, tertiam proportionalem adinuenimus. Quod erat faciendum.
+SINT tres rectæ AB, BC, CD; oporteatq́ue inuenire quartam, quæ ad CD, tertiam ſit, ut AB, prima ad BC, ſecundam. Diſponantur prima duæ AB, BC, in directum, ut faciant rectam AC: Tertia uero CD, cum ſecunda BC, facias angulum C, quemcunque. Deinde ex B, ad D, recta ducatur BD, cui per A, parallela ducatur AE, occurrens rectæ CD, productæ, in E. Dico ED, eſſe quartam, hoc eſt, eſſe ED, ad DC, tertiam, ut eſt AB, prima ad BC, ſecundam. Hoc autem manifeſtum eſt, cum AC, EC, proportionaliter ſecentur in B, & D.
 
-[Figure: triangle with apex E, base A B D, and interior point C with line C B]
+[Figure: triangle with vertices C, A, E, with points B on line CA and D on line CE, and line BD drawn]
 
 [Margin]
 2. ſexti.
-7. quinti.
+[/Margin]
+
+## PROBL. 5. PROPOS. 13.
+
+[Margin]
+9.
+[/Margin]
+
+DVABVS datis rectis lineis, mediam proportionalem adinuenire.
+
+SINT duæ rectæ AB, BC, quibus media inuenienda eſt proportionalis, diſpoſitæ ſecundum lineam rectam AC. Diuiſa AC, bifariam in E, ex E, centro, & interuallo EA, uel EC, ſemicirculus deſcribatur ADC; Deinde ex B, ad AC, perpendicularis educatur BD, ad circumferentiam uſque. Dico BD, eſſe mediam proportionalẽ. Ductis enim rectis AD, CD, erit angulus ADC, rectus in ſemicirculo exiſtens. Cum igitur ex angulo recto ADC, trianguli rectanguli ADC, deducta ſit ad baſin AC, perpendicularis DB; erit per corollarium 8. propos. huius lib. BD, media proportionalis inter AB, & BC. Duabus ergo datis rectis lineis, mediã proportionalem adinuenimus. Quod erat faciendum.
+
+[Figure: semicircle on diameter AC with points E and B on the diameter, point D on the circumference, and lines AD, CD, BD drawn]
+
+[Margin]
+31. tertij.
 [/Margin]
 
 ## SCHOLION.
 
-ALITER idem demonſtrabimus, hoc modo. Duæ rectæ datæ AB, BC, conſtituantur ad angulum rectum ABC; & conjungatur recta AC. Producta autem AB, antecedente, ducatur ex C, ad AC, perpendicularis CD, occurrens ipſi AB, productæ in D. Dico BD, eſſe tertiam proportionalem. Cum enim in triãgulo ACD, angulus ACD, ſit rectus, & ab eo ad baſin AD, deducta perpendicularis CB; erit per coroll. 8. propos. huius lib. BC, media proportionalis inter AB, & BD, hoc eſt, ut AB, ad BC, ita erit BC, ad BD. Quod eſt propoſitam.
+PERSPICVVM hinc fit, lineam rectam, quæ in circulo a quouis puncto diametri ipſi diametro perpendicularis ducitur ad circumferentiam uſque, mediam eſſe proportionalem,
 
-[Figure: triangle with apex C, base A B D, and perpendicular C B]
-
-INVENTA autem tertia linea continue proportionali, ſi primam omiſeris, & alijs duabus tertiam inueneris, habebis quatuor lineas continue proportionales. Vt ſi lineis A, & B, adinueniatur tertia proportionalis C; & duabus B, & C, tertia proportionalis D, erunt quatuor lineæ A, B, C, D, continue proportionales. Eadem arte reperietur quinta propor-
-
-[Figure: four horizontal lines of decreasing length labelled A, B, C and D]
-
-<!-- Catchword: tionalis, -->
+<!-- Signature: Cc -->
+<!-- Catchword: inter -->

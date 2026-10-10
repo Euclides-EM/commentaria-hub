@@ -1,32 +1,21 @@
 <!-- Running title: EVCLID. GEOM. -->
 
+bus A, B, C, denominati; Atque adeo, cum H, minor ſit quam G, non erit G, minimus, quem metiuntur D, E, F. Quod eſt abſurdum, & contra hypotheſim. Non igitur minor numerus, quam G, datas partes A, B, C, habebit, ſed ipſe G, minimus erit. Quare numerum reperimus, qui minimus cum ſit, habet datas partes. Quod faciendum erat.
+
 ## SCHOLION.
 
-HOC corollarium alio modo, non ſecus ac propos. 37. huius lib. oſtendere poterimus. Metiantur enim A, B, C, quemcunque numerum DE, ſitque F, minimus, quem ijdem A, B, C, metiantur. Dico & F, ipſum DE, metiri. Si enim non metitur, metiatur eius partẽ DG, relinquatque numerum GE, ſe minorem. Quoniam igitur A, B, C, ipſum F, metiuntur; & F, ipſum DG; metientur quoque A, B, C, eundem DG; Ac proinde, cum & totum DE, ponantur metiri; metientur & reliquum GE, ipſo F, minorẽ. Quare F, non erit minimus, quem A, B, C, metiantur. Quod eſt abſurdũ, & contra hypotheſim. Metitur igitur F, ipſum DF.
+QVOD ſi ſumantur numeri I, K, L, per quos numeri D, E, F, ipſum G, metiuntur; erunt numeri I, K, L, datæ partes A, B, C, ipſius G, denominatæ ſcilicet a D, E, F. Cum enim D, E, F, ipſum G, metiantur per I, K, L; metietur æque unitas ipſos I, K, L, & numeri D, E, F, ipſum G.
 
-[Diagram: dotted lines labelled A, B and C; a longer dotted line labelled D ending in a segment G—E; a dotted line labelled F]
-
-[Margin]
-11. pron.
-12. pron.
-[/Margin]
-
-PARI ratione; Pluribus numeris datis, quam tribus, reperiemus, quem illi minimum metiantur numerum; locumque habebit hoc idem corollarium. Nam ſi dati numeri fuerint quatuor, inueniendus erit primum minimus, quem tres metiantur: Si quinque, reperiendus erit minimus, quem quatuor metiantur, &c. Reliqua autem omnia peragenda, ut de tribus numeris dictum eſt.
-
-[Margin]
-37.
-[/Margin]
-
-## THEOR. 34. PROPOS. 39.
-
-SI numerum quiſpiam numerus metiatur; ille, quem metitur, partem habebit a metiente denominatam.
-
-METIATVR numerum A, numerus B. Dico A, habere partem aliquã a B, denominatam. Metiatur enim B, ipſum A, toties, quot unitates ſunt in numero G. Quia igitur unitas ipſum C, & B, ipſum A, æque metitur; & uiciſſim unitas æque ipſum B, & C, ipſum A, metietur; atque adeo eadem pars erit unitas ipſius B, quæ C, ipſius A: Eſt autem unitas pars ipſius B, denominata ab ipſo B, ut ad defin. 2. huius lib. docuimus. Igitur & C, pars
-
-[Diagram: a dotted line labelled A; two shorter dotted lines labelled B and C]
+[Diagram: dotted lines labelled D, E and F, and dotted lines labelled I, K and L, opposite labels A. Secunda, B. Tertia and C. Quarta; a longer dotted line labelled G]
 
 [Margin]
 15. ſeptimi
 [/Margin]
 
-<!-- Catchword: erit -->
+Viciſſim ergo metietur quoque æque vnitas ipſos D, E, F, & numeri I, K, L, ipſum G; atque adeo unitas ipſorum D, E, F, eadem pars erit, quæ numeri I, K, L, ipſius G. Cum ergo unitas ſit pars ipſorum D, E, F, ab ipſis denominata; erunt & I, K, L, ipſius G, partes denominatæ a D, E, F.
+
+Ex his autem ſequitur, minimum numerum, quem quoſlibet numeri metiuntur, eſſe minimum habentem partes a numeris metientibus denominatas. Oſtenſum enim eſt, numerum G, quem minimum metiuntur D, E, F, minimum eſſe, qui habeat partes A, B, C, cuiuſmodi ſunt I, K, L, a metientibus numeris D, E, F, denominatas.
+
+IAM vero, vt Campanus ait, ſi inuentus minimus numerus datas partes habens duplicetur, triplicetur, &c. habebitur ſecundus numerus poſt minimum, tertius, quartus, &c. eaſdem partes continens. Inuento enim G, minimo, qui habeat partes A, B, C, denominatas a D, E, F; ſit illius duplus, numerus H, triplus uero I, &c. Dico H, eſſe ſecundum numerum, qui eaſdem partes A, B, C, a numeris D, E, F, denominatas habeat, & I, tertium, &c. ita ut neque inter G, minimũ, & eius duplum H, neque inter H, duplum, & I, triplum, &c. cadat alius numerus habens eaſdem partes, ſed ipſi ſoli H, I, & cæteri multiplices ipſius G, dictas partes contineant. Quod enim
+
+<!-- Signature: H,5 -->

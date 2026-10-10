@@ -1,31 +1,38 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
 
-& H, R, S, I, proportionales ſunt in ratione A, ad B. Quo circa,cum G, P, Q, H, eandem habeant proportionem con
+vt liquet ex demonſtratione propos. 11. huius lib. A, E, B, continue proportionales ſunt in ratione C, ad D; Metitur autem A, primus extremum B; metietur quoque A, primus ſecundũ E. Quare cum ſit ut A, ad E, ita C, ad D; & C, latus latus D, metietur.
 
-[Calculation]
-A,2. B,4. C,8.
-D,4. N,8. E,16. O,32. F,64.
-G,8. P,16. Q,32. H,64. R,128. S,256. I,512.
-K,16. T,32. V,64. X,128. L,256. Y,512. Z,1024. R,2048. M,4096.
-[/Calculation]
-
-tinuam,quam H,R,S,I; erit ex æquo G, ad H, ut H, ad I; Ac proinde G, H, I, continue ſunt proportionales.
-
-NON diſſimili argumento demonſtrabimus & K, L, M, eſſe continue proportionales; & eodem modo in alijs procedemus. Igitur ſi ſint quotlibet numeri deinceps proportionales, & multiplicans quiſque ſeipſum, &c. Quod oſtendendum erat.
-
-## SCHOLION.
-
-SVNT autem, ut ex demonſtratione liquet, numeri primo producti D, E, F, proportionales in duplicata ratione datorum numerorum A, B, C. Nam D, ad E, habet proportionem duplicatam eius, quam habet D, ad N, hoc eſt, A, ad B, &c.
-
-ITA quoque numeri ſecundo geniti G, H, I, erunt in ratione triplicata A, ad B: Et numeri tertio procreati, in quadruplicata, & ſic deinceps ſemper vno amplius.
-
-BREVIVS propoſitionem totam demonſtrabimus hac ratione. Fiant ex A, B, C, continue proportionalibus in ſeipſos, numeri D, E, F; & in hos ex eiſdem numeri G, H, I; & rurſum ex eiſdem in hos numeros K, I, M. Dico D, T, F; & G, H, I; & K, L, M, eſſe quoque continue proportionales. Nam ex ſcholio propos. 9. huius lib. tam A, D, G, K, quam B, F, H, L; & C, F, I, M, continue ſunt ab unitate proportionales. Quare ex 1. theoremate ſcholij propos. 10. huius lib. erit D, ad E, in duplicata ratione A, ad B, uel B, ad C. Sed eiuſdem rationis F, ad C, duplicata eſt ratio E, ad F, per idem theorema. Igitur D, E, F, continue ſunt proportionales in duplicata ratione
+[Margin]
+7. octaui.
+[/Margin]
 
 [Calculation]
-A,2. B,4. C,8.
-D,4. E,16. F,64.
-G,8. H,64. I,512.
-K,16. L,256. M,4096.
+A,4. E,12. B,36.
+C,2. D,6.
 [/Calculation]
 
-<!-- Catchword: A,ad -->
+METIATVR iam C, latus latus D. Dico & quadratum A, quadratum B, metiri. Eodem enim modo erit, ut C, ad D, ita A, ad E, propterea quod A, E, B, continue proportionales ſunt in ratione C, ad D, ut demonſtratum eſt propos. 11. huius lib. Quare cum C, metiatur D, metietur quoque A, primus E, ſecundum; ac proinde & extremum B, metietur, ex theoremate 2. ſcholij propos. 6. huius lib. Si quadratus ergo numerus quadratum numerũ metiatur, &c. Quod erat oſtendendum.
+
+## THEOR. 13. PROPOS. 15.
+
+[Margin]
+14.
+[/Margin]
+
+SI cubus numerus cubum numerum metiatur; & latus unius metietur latus alterius. Et ſi latus unius cubi latus alterius metiatur; & cubus cubum metietur.
+
+METIATVR cubus A, cuius latus C, cubum B, cuius latus D. Dico & latus C, metiri latus D. Vterque C, & D, ſe ipſum multiplicans faciat E, & F; multiplicantes autem ſe mutuo faciant G: Multiplicantes denique G, faciant H, I. Quoniam igitur, ut apparet ex demonſtratione propos. 12. huius lib. tam E, G, F, quam A, H, I, B, continue ſunt proportionales in ratione C, ad D; Metitur autem A, primus B, extremum; metietur quoque idem A, primus H, ſecundum. Cum ergo ſit, ut A, ad H, ita C, ad D; metietur & C, latus latus D.
+
+[Calculation]
+A,8. H,24. I,72. B,216.
+E,4. G,12. F,36.
+C,2. D,6.
+[/Calculation]
+
+[Margin]
+7. octaui
+[/Margin]
+
+METIATVR iam C, latus latus D. Dico & A, cubũ
+
+<!-- Catchword: cum -->

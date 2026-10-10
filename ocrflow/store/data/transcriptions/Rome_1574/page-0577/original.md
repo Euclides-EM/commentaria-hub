@@ -1,19 +1,25 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-ipſius A, multiplex. Diuiſo ergo tam BC, quàm BD, in partes ipſi A, æquales; Erit reliquus numerus DC, uel una pars numeri BC, ipſi A, æqualis, uel plures, atque adeo DC, æqualis erit ipſi A, uel eius multiplex. Metitur igitur A, ipſum DC. Quod eſt propoſitum.
-
-[Diagram: three horizontal dotted lines, the first labelled A, the second labelled B, D and C, the third labelled B, D and C]
-
-## THEOR. I. PROPOS. I.
-
-SI duobus numeris inæqualibus propoſitis, detrahatur ſemper minor de maiore, alterna quadam detractione, neq; reliquus unquã metiatur præcedentẽ, quoad aſſumpta ſit unitas; qui principio propoſiti ſunt numeri, primi inter ſe erunt.
-
-SINT duo numeri propoſiti inæquales AB, CD, quorum CD, minor ex maiore AB, quoties poteſt, detrahatur: & reliquus EB, ex CD, quoties etiam poteſt; & reliquus FD, ex EB: Et in hac alterna detractione nunquam numerus reliquus præcedentem, a quo fuit detractus, metiatur, donec ad unitatẽ GB, quæ quidem præcedentẽ numerum FD, metitur, detractio perueniat. Dico numeros AB, CD, eſſe inter ſe primos; hoc eſt ſolam unitatem communi menſura eos metiri. Si enim non dicantur inter ſe primi, metietur eos aliquis numerus, qui ſit H, communi menſura, præter unitatem. Quia ergo H, metitur numerum CD; & CD, numerũ AE, (quod CD, uel pars ſit ipſius AE, uel certe ei æqualis, cum detractus ex AB, reliquerit numerum EB,) metietur quoque H, ipſum AE: At H, metitur quoque totum
-
-[Diagram: three horizontal dotted lines, the first labelled A, E, G and B, the second labelled C, F and D, the third labelled H]
+CD, metitur ipſum AE: Igitur & eundem AE, numerus GB, metietur: Ac proinde cum & ipſum EB, metiatur, vt oſtenſum eſt; metietur & AB, ex vtroque AE, EB, compoſitum. Quare cum numerus GB, metiatur numeros AB, CD, ipſi erunt inter ſe compoſiti. Quod eſt abſurdum, cum ponantur inter ſe primi. Nunquam ergo numerus aliquis reliquus præcedentem metietur, donec aſſumpta ſit vnitas. Quod eſt propoſitum.
 
 [Margin]
-11. pron
+11. pron.
+
+10. pron.
 [/Margin]
 
-<!-- Catchword: AB; -->
+[Diagram: two horizontal dotted lines, the first labelled A, E, G and B, the second labelled C, F and D]
+
+EODEM modo & hoc demonſtrabimus.
+
+SI propoſitis duobus numeris inter ſe compoſitis, detrahatur ſemper minor de maiore, alterna quadam detractione; detractio ad vnitatem vſque non perueniet, ſed ad numerum, qui præcedentem detractum metiatur.
+
+NAM ſi detractio huiuſmodi ad vnitatem uſque perueniret, eſſent propoſiti numeri inter ſe primi, ut Euclides demonſtrauit. Quod eſt abſurdum, cum ponantur inter ſe compoſiti.
+
+EX his facile dignoſcemus, an duo quicunque numeri propoſiti ſint inter ſe primi, nec ne. Nam detracto ſemper minore de maiore, alterna quadam detractione; ſi nũquã reliquus præcedentem metiatur, quoad aſſumpta ſit vnitas; ipſi erunt inter ſe primi, ut Euclides demonſtrauit: Si uero reliquus aliquis numerus præcedentem metiatur, ipſi erunt inter ſe compoſiti, cum ille idem reliquus numerus utrunque numerum propoſitum metiatur, ut perſpicuum eſt ex demonſtratione ſuperiori. Ex eo enim, quod reliquus numerus GB, metiri dicebatur præcedentem numerum FD, oſtenſum fuit, eundem reliquũ GB, vtrunque AB, & CD, metiri.
+
+## PROBL. 1. PROPOS. 2.
+
+DVOBVS numeris datis non primis inter
+
+<!-- Catchword: inter -->

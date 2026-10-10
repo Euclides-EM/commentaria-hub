@@ -1,36 +1,26 @@
 <!-- Running title: EVCLID. GEOM. -->
-<!-- Page number: [illegible] -->
+<!-- Page number: [unclear: 291] -->
 
-[Margin]
-5. pron.
-[/Margin]
-
-faciat M, N, & O, totidem inter A, & B, quot ſunt inter utrunque A, B, & unitatem. Quoniam igitur eſt, ut unitas ad C, ita C, ad D; D, ad E, & E, ad A; æque metietur unitas ipſum C, & C, ipſum D, & D, ipſum E, & E, ipſum A: Metitur autem unitas ipſum C, per C. Igitur & C, ipſum D, & D, ipſũ E, & E, ipſum A, per C, metietur.
+do cadent inter C, & G, duo medij in eadem proportione A, ad E, qui ſint K, L; quot nimirum cadunt inter utrunque C, G, & unitatem. Nec non inter D, H, tres, qui ſint M, N, O, in eadem ratione A, ad E, proportionales.
 
 [Calculation]
-A,81. M,162. N,324. O,648. B,1296.
-E,27. K,54. L,108. H,216.
-D,9. I,18. G,36.
-C,3. F,6.
+D,81. M,108. N,144 O,192. H,256.
+C,27. K,36. L,48. G,64.
+B,9. I,12. F,16.
+A,3. E,4.
 Vnitas.
 [/Calculation]
 
-[Margin]
-9. pron.
-[/Margin]
+Quoniã igitur ex defin. B, ad F, proportionẽ habet duplicatam eius, quã habet B, ad I: Eſt autem ut B, ad I, ita A, ad E; Habebit quoque B, ad F, rationem duplicatam eius, quam habet A, ad E. Non aliter habebit C, ad G, rationem triplicatam rationis A, ad E; quia ratio C, ad G, triplicata eſt proportionis C, ad K; & eſt ut C, ad K, ita A, ad E. Sic etiam D, ad H, rationem habebit quadruplicatam rationis A, ad E, & ſic de cæteris.
 
-Quare C, ſeipsũ multiplicans fecit D; multiplicans autem D, fecit E, & multiplicans E, fecit A. Eadem ratione F, ſeipſum multiplicans fecit G; & multiplicans G, fecit H, & multiplicans H, fecit B. Itaque cum G{printer-error-correction:C}, multiplicans C, & F, fecerit D, & I; erit, ut C, ad F, ita D, ad I. Similiter, quia F, multiplicãs C, & F, fecit I, & G, erit ut C, ad F, ita I, ad G. Sunt igitur tres D, I, G, continue proportionales in ratione C, ad F. Rurſus quia C, multiplicans D, I, G, fecit E, K, L, habebunt E, K, L, per ea, quæ ad propos. 18. lib. 7. oſtendimus, eandem proportionem continuam quam D, I, G, hoc eſt, quam C, ad F. Eodem modo, quia C, & F, multiplicantes G, fecerunt L, & H, erit ut C, ad F, ita L, ad H. Quatuor ergo numeri E, K, L, N{printer-error-correction:H}, continue proportionales ſunt in ratione C, ad F. Poſtremo, quia C, multiplicans E, K, L, H, fecit A, M, N, O, habebunt, ex ijs, quæ a nobis ſunt demonſtrata ad propos. 18. lib. 7. A, M, N, O, eandem continuam proportionem, quam E, K, L, H, hoc eſt, quam C, ad F. Eadem ratione, cũ C, & F, multiplicantes H, fecerint O, & B, erit, ut C, ad F, ita O, ad B. Quinque igitur numeri A, M, N, O, B, continue proportionales ſunt in ratione C, ad F; Ac proinde totidem medij proportionales cadunt inter A, & B, quot inter A, uel B, & unitatem, cum multitudo M, N, O, facta ſit æqualis multitudini C, D, E, uel F, G, H. Quocirca ſi inter duos numeros, & unitatem, continue proportionales ceciderint numeri, &c. Quod erat demonſtrandum.
+HOC idem demonſtrabimus, ſi fuerint duo ordines numerorum continue proportionalium, ab aliquo numero eodem incipientes. Vnde hoc idem theorema ita proponemus.
 
 [Margin]
-17. ſeptimi
+II.
 [/Margin]
 
-[Margin]
-18. ſeptimi
-[/Margin]
+SI ſint ab aliquo numero eodem duo ordines numerorum continue proportionalium, & multitudine æqualium; Habebunt tertij ab illo numero proportionem duplicatam eius, quam habent ſecundi ab eodem; quarti uero eiuſdem triplicatam; & quinti quadruplicatam; & ſemper deinceps uno amplius.
 
-[Margin]
-18. ſeptimi
-[/Margin]
+SINT ab A, numero continue proportionales B, C, D, E, & ab eodem totidem alij F, G, H, I. Dico rurſum, proportionis B, ad F, eſſe duplicatam proportionem C, ad G; & D, ad H, triplicatam: & E, ad I, quadruplicatam. Ex A, in ſe fiat K, & ex A, in K, fiat L; & ex A, in L, fiat M. Similiter ex B, in ſe fiat N; & ex B, in N, fiat O; & ex B, in O, fiat P. Poſtremo ex F, quoque in ſe fiat Q; & ex F, in Q, fiat R; & ex F, in R, fiat S. Quibus peractis, erunt A, K, L, M, continuæ proportionales ab unitate, ut conſtat ex ſcholio propos. 9. huius lib.
 
-<!-- Catchword: SCHO- -->
+<!-- Catchword: Eademq́; -->

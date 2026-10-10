@@ -1,21 +1,34 @@
 <!-- Running title: EVCLID.GEOM. -->
-
-Quare ſimilia ſunt parallelogramma AC, GE: Quod ſi circa eandem diametrum conſiſtat parallelogrammum HIKF. habens latera parallela lateribus parallelogrammi AC, idem demonſtrabitur. Nam productis AD, CD, donec occurrant rectis FK, FH, productis in E, & G; erit HK, ſimile ipſi GE, ut Euclides demonſtrauit: Atqui eidem GE, ſimile eſt quoq; AC, vt nunc oſtendimus. Igitur & HK, AC, inter ſe ſimilia ſunt. Quod eſt propoſitum.
+<!-- Page number: 216 -->
 
 [Margin]
-21. ſexti.
+13. ſexti.
+18. ſexti.
 [/Margin]
 
-SED & abſoluemus cum Peletario ſequens problema.
+una recta, nec nõ FEH, ceu demonſtratum fuit propos.45. lib. 1. Inueniatur iam inter rectas CD, DG, tertia proportionalis IK, ſuper quam conſtituatur rectilineum L, ſimile ipſi A, ſimiliterque poſitũ. Dico L, æquale etiã eſſe alteri rectilineo B. Cũ enim ſint p̃portionales tres rectæ CD, IK, DG; erit p̃ coroll. propos. 20. huius lib. ut CD, prima ad DG, tertiã, ita A, rectilineum ſuper primam CD, ad rectilineum L, ſuper IK, ſecundam ſimile ſimiliterq; deſcriptũ.
 
-## DATIS duobus parallelogrammmis æquiangulis, ſed non ſimilibus : ex quouis illorum alteri ſimile reſecare.
+[Figure: pentagon labelled A, triangle labelled B, parallelogram with labels C, D, G, F, E, H, and pentagon labelled L with points I, K]
 
-DVO parallelogramma æquiangula, ſed non ſimilia, ſint ABCD, CEFG; & ex ABCD, abſcindendum ſit parallelogrammum ipſi CEFG, ſimile. Coniungantur ambo ad angulos æquales BCD, ECG, ita ut ſit una linea recta BCG, & propterea ut ad ppoſ. 15. lib. 1. demõſtratum eſt, ECD, quoq; una recta linea. Deinde ducta diameter FC, producatur, donec in H, ſecet uel latus AD, uel latus AB; & per H, ducatur HI, parallela ipſi AB, vel ipſi AD. Dico parallelogramum abſciſſum HC, ſimile eſſe ipſi CF. Si enim totum parallelogrammum KL, compleatur; erunt HC, CF, circa diametrum; Quare inter ſe ſimilia, vt Euclides demonſtrauit in hac propoſitione.
+[Margin]
+1. ſexti.
+[/Margin]
 
-[Figure: two parallelograms with diagonals, labelled A, H, D, B, I, C, G, K, E, F and A, D, I, H, B, C, G, K, E, F]
+Vt autem CD, ad DG, ita eſt parallelogrammum CE, ad parallelogrammum DH, eiuſdem altitudinis. Igitur erit ut CE, ad DH, ita A, ad L. Vt autẽ CE, ad DH, ita eſt A, ad B, propter æqualitatem parallelogrammorum, & horum rectilineorum. Quare erit ut A, ad B, ita A, ad L; proptereaq; æqualia erunt rectilinea B, & L. Eſt autem & L, ſimile ipſi A, per conſtructionem. Dato igitur rectilineo ſimile, & alteri dato æquale idem conſtituimus. Quod erat faciendum,
 
-EADEM autem arte fere alterutrum ipſorum augeri poterit, ut fiat ſimile alteri. Sit enim augendum ABCD, ut fiat ipſi CEFG, ſimile. Coniungantur vti prius, & diameter FC, extendatur, donec in H, ſecet uel latus BA, protractum, uel latus DA, protractum. Deinde per H, ducatur HI, parallela ipſi AD, uel ipſi AB, donec ſecet vel CD, protractam, uel CB, protractam in I. Dico parallelogrãmum auctum HC, ſimile eſſe parallelogrammo CF. Nam ſi
+[Margin]
+11. quinti.
+9. quinti.
+[/Margin]
 
-[Figure: two parallelograms with diagonals, labelled H, I, L, A, D, B, C, G, K, E, F and H, A, D, L, B, C, G, K, E, F]
+[Margin]
+23.
+[/Margin]
 
-<!-- Catchword: com- -->
+## THEOR. 19. PROPOS. 26.
+
+## SI a parallelogrammo parallelogrammum ablatum ſit, & ſimile toti, & ſimiliter poſitum, communem cum eo habens angulum; hoc circum eandem cum toto diametrum conſiſtit.
+
+EX parallelogrammo BD, abſciſſum ſit pallelogrammũ{printer-error-correction:parallelogrammũ} EG, ſimilè ſimiliterq; poſitum, habens cum ipſo angulũ cõmunem EAG. Dico EG, conſiſtere circa diamerrum{printer-error-correction:diametrum} totius BD. Ducantur enim rectæ AF, CF, quæ ſi fuerint una
+
+<!-- Catchword: linea -->

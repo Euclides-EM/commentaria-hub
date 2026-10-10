@@ -1,53 +1,21 @@
 <!-- Running title: EVCLID. GEOM. -->
 
 [Margin]
-16. quinti.
+4. primi
 [/Margin]
+
+EF, æqualia ſint lateribus GE, EF, & anguli ipſis contenti æquales quoque; (nam angulo B, cui factus eſt, æqualis an gulus FEG, æqualis eſt poſitus angulus DEF, proptereaq; æquales ad inuicem erunt anguli DEF, GEF,) erunt reliqui anguli D, EFD, reliquis angulis G, EFG, æquales. Cum ergo angulus G, ſit æqualis angulo A, & angulus EFG, angulo C; erunt etiam angulis A, C, æquales anguli D, EFD; & ob id æquiangula erunt triangula ABC, DEF. quod eſt propoſitum. Si igitur duo triangula unũ angulum uni angulo æqualem; &c. Quod erat demonſtrandum.
+
+[Figure: two triangles; the first with apex A and base BC; the second with vertices D, E, F and point G below]
 
 [Margin]
-11. quinti.
+7.
 [/Margin]
 
-tando, ut AF, ad AG, ita BF, ad DG. Atque eodem argumento concludemus eſſe, ut AF, ad AG, ita FC, ad GE. Igitur erit, ut BF, ad DG, ita FC, ad GE; & permutando, ut BF, ad FC, ita DG, ad GE. Quod eſt propoſitum.
+## THEOR. 7. PROPOS. 7.
 
-[Figure: triangle with apex A and base BFC, line DGE parallel to the base, with lines from A to F and to C]
+SI duo triangula vnum angulum uni an gulo æqualem, circum autem alios angulos latera proportionalia habeant; reliquorum uero ſimul utrunque aut minorem, aut nõ minorem recto: Aequiangula erunt triangula, & æquales habebunt eos angulos, cir cum quos proportionalia ſunt latera.
 
-ALITER. Quoniã triangula ABF, ADG, ſimilia ſunt, nec non triangula AFC, AGE, per coroll. huius propos. erit, ut BF, ad FA, ita DG, ad GA: Item ut FA, ad FC, ita GA, ad GE. Ex æquo igitur, vt BF, ad FC, ita DG, ad GE. Quod erat demonſtrandum.
+SIT angulus A, trianguli ABC, æqualis angulo D, trianguli DEF; & latera AC, CB, circa angulum ACB, proportionalia lateribus DF, FE, circa angulum F, hoc eſt, ſit ut AC, ad CB, ita DF, ad FE; hac tamen lege, ut quilibet reliquorum angulorum B, & E, ſit uel minor recto, uel non minor. Dico æquiangula eſſe triangula, angulos ſcilicet ACB, & F, circa quos ſunt latera proportionalia, nec non & angulos B, & E, æquales eſſe. Sit enim primo tam B, quam E, recto minor: Quo poſito, ſi anguli ACB, & F, non ſunt æquales, ſit ACB, maior, quam F; fiatque ipſi F, æqualis ACG. Cum igitur, & angulus A, angulo D,
 
-[Margin]
-4. ſexti.
-[/Margin]
-
-[Margin]
-5.
-[/Margin]
-
-## THEOR. 5. PROPOS. 5.
-
-SI duo triangula latera proportionalia habeant; æquiangula erunt triangula, & æquales habebunt eos angulos, ſub quibus & homologa latera ſubtenduntur.
-
-HABEANT triangula ABC, DEF, latera proportionalia, ſitque AB, ad BC, ut DE, ad EF; & BC, ad CA, ut EF, ad FD; & AB, denique ad AC, ut DE, ad DF. Dico triangula eſſe æquiangula, angulum ſcilicet A, æqualem eſſe angulo D; & angulum B, angulo E; & angulum C, angulo F; ſic enim anguli æquales reſpiciunt homologa latera. Fiat angulus FEG, æqualis angulo B; & angulus EFG, angulo C, conueniantque rectæ EG, FG, in G; eritq́; reliquus angulus G, reliquo angulo A, æqualis. Aequiangula igitur ſunt triangula ABC, GEF. Quare ut AB, ad BC, ita GE, ad EF; Vt autem AB, ad BC, ita ponitur DE, ad EF. Igitur ut GE, ad EF, ita DE, ad EF, eandem: proptereaque æquales erunt GE, DE. Rurſus, quoniam ut BC, ad CA, ita EF, ad FG; Vt autem BC, ad CA, ita ponitur EF, ad
-
-[Figure: two triangles; the first with apex A and base BC; the second with vertices D, E, F and point G below, lines joining E and F to G]
-
-[Margin]
-32. primi
-[/Margin]
-
-[Margin]
-4. ſexti.
-[/Margin]
-
-[Margin]
-11. quinti.
-[/Margin]
-
-[Margin]
-9. quinti.
-[/Margin]
-
-[Margin]
-4. ſexti.
-[/Margin]
-
-<!-- Catchword: FD; -->
+<!-- Catchword: ponatur -->

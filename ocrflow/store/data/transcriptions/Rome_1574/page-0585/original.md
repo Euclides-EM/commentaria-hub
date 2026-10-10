@@ -1,15 +1,23 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-alterius eadem pars: Et ſimul uterque utriuſque ſimul eadem pars erit, quæ unus unius.
+SI ſint quotcũque numeri quotcunque numerorum æqualium numero, ſinguli ſingulorum, æque multiplices: quam multiplex eſt unius unus numerus, tam multiplices erunt & omnes omnium.
 
-SIT numerus A, eadem pars numeri B C, quæ eſt numerus D, numeri E F. Dico utrunque numerum A, & D, ſimul, utriuſque numeri B C, & E F, ſimul eandem eſſe partem, quæ eſt uel A, ipſius B C, uel D, ipſius E F. Diuiſis enim numeris B C, E F, in partes BG, GC; EH, HF, ipſis A, & D, æquales; erit multitudo partium numeri BC, æqualis multitudini partium numeri E F, propterea quod eadem pars eſt A, ipſius B C, quæ D, ipſius E F. Quia igitur A, & B G, æquales ſunt; ſi illis addantur æquales D, & E H; erunt A, & D, ſimul æquales ipſis BG, & E H, ſimul: Eodẽ argumento erunt A, & D, ſimul ipſis G C, & H F, ſimul æquales: Et ſic deinceps, ſi plures partes fuerint in BC, E F; aggregatum numerorum A, & D, tot aggregatis partium numerorum B C, & E F, æquale erit, quoties A, in B C, uel C, in E F, continetur: Ac propterea eadem pars erit uterque A, & D, ſimul utriuſque B C, & E F, ſimul, quę eſt A, ipſius B C, uel D, ipſius E F. Si numerus ergo numeri pars fuerit, &c. Quod erat oſtendendum.
+DEMONSTRATIO eadem hic eſt, quæ in lib. 5. Quod tamen aliter ita etiam demonſtrabimus. Sint A, B, C, numeri numerorum D, E, F, æque multiplices, ſinguli ſingulorum. Dico & omnes A, B, C, ſimul omnium D, E, F, ſimul tam multiplices eſſe, quam eſt A, multiplex ipſius D. Cum enim tam ſit multiplex A, ipſius D, quam eſt B, ipſius E, & C, ipſius F; erit e contrario D, eadem pars ipſius A, quæ E, ipſius B, & F, ipſius C. Per ea igitur, quæ nuper a nobis demonſtrata ſunt, erunt D, E, F, ſimul eadem pars ipſorum A, B, C, ſimul, quæ D, ipſius A; Ac propterea e contrario tam multiplices erunt omnes A, B, C, ſimul, omnium D, E, F, ſimul, quam eſt multiplex A, ipſius D.
 
-[Diagram: two horizontal dotted lines, the first labelled A and B, G, C; the second labelled D and E, H, F]
+[Diagram: three horizontal dotted lines labelled A, B and C above two shorter dotted lines labelled D, E and F]
 
-## SCHOLION.
+QVOD ſi loco unius numerorum D, E, F, aſſumatur vnitas, uel etiam loco plurium, uel omnium, plures vnitates, theorema eodem modo demonſtrabitur, ut ex ſequentibus figuris apparet.
 
-EODEM modo demonſtrabimus & hoc, quod ſequitur.
+[Diagram: two sets of horizontal dotted lines, the first labelled A, B, C above D, E, F; the second labelled A, B, C above D, E, F]
 
-SI vnitas numeri pars fuerit, & altera unitas, uel numerus alterius numeri eadem pars; Et ſimul utraque unitas, uel unitas & numerus ſimul, utriuſque numeri ſimul eadem pars erit, quæ unitas numeri.
+[Margin]
+6.
+[/Margin]
 
-<!-- Catchword: HOC -->
+## THEOR. 4. PROPOS. 6.
+
+SI numerus numeri partes fuerit, & alter alterius eædem partes: Et ſimul uterque utriuſque ſimul eædem partes erit, quæ unus unius.
+
+SIT numerus AB, eædem partes numeri C, quæ nu-
+
+<!-- Catchword: merus -->

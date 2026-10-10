@@ -1,25 +1,31 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 251 -->
+<!-- Page number: 252 -->
 
-merus DE, numeri F. Dico utrunque numerum A B, & DE, ſimul utriuſque numeri C, & F, ſimul eaſdem partes eſſe, quæ AB, ipſius C, uel DE, ipſius F.
+multiplex erit, ut totus totius.
 
-[Diagram: two dotted lines, the first labelled A, G and B, the second labelled D, H and E, above two dotted lines labelled C and F]
+QVOD quidem non aliter oſtendemus, ac theorema illud quinti lib. Verum idem ex demonſtratis ita confirmabimus. Sit totus AB, totius CD, æque multiplex, atque ablatus AE, ablati CF. Dico & reliquum EB, reliqui FD, ita eſſe multiplicem, ut eſt totus AB, totius CD. Cum enim AB, ipſius CD, ſit æque multiplex, atque AE, ipſius CF; erit e contrario totus CD, totius AB, eadem pars, quæ ablatus CF, ablati AE. Quare & reliquus FD, reliqui EB, eadem pars erit, quæ totus CD, totius AB; Ac proinde e contrario EB, ita multiplex erit ipſius FD, ut AB, ipſius CD, eſt multiplex.
 
-Diuiſis .n. numeris AB, DE, in partes AG, GB; DH, HE, numerorum C, & F, erit multitudo partium in numero AB, æqualis multitudini partium in numero DE; propterea quod eædem partes eſt numerus AB, numeri C, quæ numerus DE, numeri F. Quia igitur, quæ pars eſt AG, numeri C, eadem eſt DH, numeri F; erit uterque AG, DH, ſimul eadem pars utriuſque C, F, ſimul, quæ AG, ipſius C, uel DH, ipſius F. Eadem ratione erit uterque GB, HE, ſimul eadem pars utriuſque C, F, ſimul, quæ GB, ipſius C, uel HE, ipſius F: Et ſic deinceps, ſi plures partes fuerint in AB, DE, erunt tot aggregata partium in numeris AB, DE, cõtenta, partes eædem numerorum C, F, ſimul, quot partes eædem eſt numerus AB, ipſius C, uel DE, ipſius F; Ac proinde eædem partes erit uterque numerus AB, DE, ſimul, utriuſque numeri C, F, ſimul, quæ AB, ipſius C, uel DE, ipſius F. Si numerus ergo numeri partes fuerit, &c. Quod erat demonſtrandum.
+[Diagram: two dotted lines, the first labelled A, E and B, the second labelled C, F and D]
 
 [Margin]
-5. ſeptimi
+7. ſeptimi
 [/Margin]
 
-## SCHOLION.
+SI aliquando ex CD, ablata fuerit unitas CF; uel reliqua ſit unitas FD: vel denique & ablata ſit vnitas CF, & alia reliqua FD; idem demonſtrabitur, ut hæc exempla commonſtrant.
 
-SED & hanc propoſitionem ad quotcunque numeros extendentes, hoc modo amplificabimus.
+[Diagram: three pairs of dotted lines, each pair labelled A, E, B and C, F, D]
 
-SI ſint quotcunque numeri quotcunque numerorum, ſinguli ſingulorum, eædem partes; Et omnes omnium ſimul eædem partes erunt, quæ unus unius.
+## THEOR. 6. PROPOS. 8.
 
-EADEM enim eſt demonſtratio, ſi modo pro quinta propos. aſſumatur id, quod ſecundo loco demonſtrauimus in ſcholio præcedenti; ut hic perſpicuum eſt.
+[Margin]
+8.
+[/Margin]
 
-[Diagram: three dotted lines labelled A, K, B; C, L, D; and E, M, F, above three dotted lines labelled G, H and I]
+SI numerus numeri partes fuerit, quales ablatus ablati: Et reliquus reliqui eædem partes erit, quales totus totius.
 
-<!-- Signature: Ii 3 -->
-<!-- Catchword: THEOR. -->
+SIT numerus AB, partes eædem numeri CD, quæ ablatus AE, ablati CF. Dico reliquũ EB, eaſdem eſſe partes reliqui FD, quæ totus AB, totius CD. Sumpto enim numero GH, æquali ipſi AB; erit
+
+[Diagram: three dotted lines, the first labelled A, K, E and B, the second labelled C, F and D, the third labelled G, L, I, M and H]
+
+<!-- Signature: Ii 4 -->
+<!-- Catchword: GH, -->

@@ -1,32 +1,16 @@
-<!-- Running title: EVCLID. GEOM. -->
+<!-- Running title: EVCLID.GEOM. -->
 
-inter duo diametri ſegmenta, quæ a perpendiculari facta ſunt. Deturenim ſemicirculus ABC, & ex puncto D, diametri AC, ducatur ad circumferentiam recta DB, perpendicularis ipſi AC. Dico DB, eſſe proportionalem mediam inter AD, & DC, id quod liquido conſtat ex demõſtratione huius problematis. Si enim ducantur rectæ AB, CB, fiet angulus ABC, rectus; Quare per coroll. propos. 8. conſtat propoſitũ. Eadem ratione erit perpendicularis EF, media proportionalis inter AE, & EC. Item GH, inter AG, & GC, &c.
-
-[Figure: semicircle on diameter with points A, D, E, G, C on the base line and B, F, H on the circumference, with perpendiculars drawn]
+ctilineum rectilineo C D E F G, ſimile ſimiliterq́; poſitum, Ducantur ex quolibet angulo, ut ex F, ad ſingulos angulos oppoſitos rectæ lineæ, quæ rectilineum reſoluant in triangula C D F, D E F, F G C. Deinde angulo D C F, æqualis fiat angulus B A I; & angulo C D F, angulus A B I, coeantque rectæ A I, B I, in puncto I; eritque reliquo angulo C F D, reliquus angulus A I B, æqualis, totumque triangulum A I B, toti triangulo C F D, æquiangulum. Rurſus angulo F D E, æqualis fiat angulus I B H; & angulo D F E, angulus B I H; conueniantque B H, I H, in puncto H; eritque eadem ratione triangulũ B H I, triangulo D E F, æquiangulum. Præterea angulo C F G, fiat æqualis angulus A I K; & angulo F C G, angulus I A K; coeantque A K, I K, in K: eritque triangulum quoque A K I, triangulo C G E, æquiangulum. Atque ita procedatur, donec abſoluantur omnia triangula rectilinei propoſiti, ſi plura extiterint. Dico igitur, rectilineum A B H I K. rectilineo C D E F G, ſimile eſſe, ſimiliterque poſitum. Cũ enim angulus I A B, conſtiturus ſit æqualis angulo F C D; & angulus I A K, angulo F C G; erit totus angulus B A K, toti angulo D C G, æqualis; Eademque ratione angulus A B H, angulo C D E, æqualis erit, & reliqui reliquis, ut conſtat ex conſtructione. Quare æquiangulum erit rectilineum A B H I K, rectilineo C D E F G. Quoniam uero ita eſt A B ad B I, ut C D, ad D F; & ita B I, ad B H, ut D F, ad D E; erit ex æquo ita A B, ad B H, ut C D, ad D E. Quare latera circa æquales angulos A B H, C D E, proportionalia ſunt. Sunt autem & latera circa ęquales angulos H & E, proportionalia, ob triangula æquiangula B H I, D E F. Rurſus ita eſt H I, ad I B, ut E F, ad F D; & ita I B, ad I A, ut F D, ad F C; & ita I A, ad I K, ut F C, ad F G; Quare ex æquo erit ita H I, ad I K, ut E F, ad F G; & ideo latera quoque circa angulos H I K, E F G, proportionalia, & ſic de cæteris. Quamobrem rectilinea, cum ſint æquiangula, habeantque latera circa æquales angulos proportionalia, ſimilia ſunt, ſimiliterque deſcripta. A data
 
 [Margin]
-31. tertij.
+32. primi
+4. ſexti.
+22. ſexti.
+4. ſexti.
+4. ſexti.
+22. ſexti.
 [/Margin]
 
-## EX PELETARIO.
+[Figure: two similar pentagons, the larger with vertices K, I, H, B, A and internal lines from I, the smaller with vertices F, G, E, D, C and internal lines from F]
 
-DATA recta linea, aliam rectam, (quæ minor non ſit, quam dupla illius) ita ſecare, ut data recta ſit media proportionalis inter ſegmenta huius.
-
-SIT data recta AC, & diuidenda proponatur recta AB, (quæ minor non ſit quam dupla ipſius AC, ſed uel dupla, uel maior) ita ut inter huius ſegmenta, media proportionalis ſit AC. Diſponantur rectæ AB, AC, ad angulum rectum BAC, & diuiſa AB, bifariam in D, ex D, centro, interuallo autem DA, uel DB, ſemicirculus deſcribatur AEB. Deinde per C, ducatur ipſi AB, parallela CE, ſecans circumferentiam in E, puncto, a quo demittatur ad AB, perpendicularis EF. Dico AC, eſſe mediam proportionalem inter ſegmenta AF. FB. Ductis enim rectis AE, BE, erit ut iam eſt demonſtratum, ex coroll. 8. propos. huius lib. EF, media proportionalis inter AF, & FB. Cum igitur EF, æqualis ſit ipſi AC, eo quod parallelogrammum ſit ACEF; (Eſt enim CE, ipſi AF, parallela per conſtructionem, & AC, ipſi EF, propter angulos rectos CAF, & EFA;) erit & AC, media proportionalis inter AF, & FB. Quod eſt propoſitum.
-
-[Figure: semicircle on diameter AB with points A, F, D, B on the base line, point E on the circumference, and lines drawn from E to A, F, D, and B]
-
-[Margin]
-34. primi
-28. primi
-[/Margin]
-
-[Margin]
-13.
-[/Margin]
-
-## THEOR. 9. PROPOS. 14.
-
-AEQVALIVM, & unum uni æqua
-
-<!-- Catchword: lem -->
+<!-- Catchword: ergo -->

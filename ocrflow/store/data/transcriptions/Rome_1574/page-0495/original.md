@@ -1,25 +1,31 @@
-<!-- Running title: EVCLID. GEOM. -->
+<!-- Running title: EVCLID.GEOM. -->
 
 [Margin]
-14.
+29. primi
 [/Margin]
 
-## THEOR. 10. PROPOS. 15.
+I, recta IK, lateri CD, parallela, & ſic deinceps, donec omnia latera ſuas habeant parallelas, demptis duobus lateribus productis AB, AF; factumq; erit, quod proponitur. Cũ enim angulus A, ſit communis; & angulis ABC, AFE, æquales ſint anguli AHI, AML; Nec non & angulis ACB, ACD, æquales ſint anguli AIH, AIK, hoc eſt, toti angulo BCD, æqualis ſit angulus HIK; Eodemque modo angulis CDE, DEF, æquales ſint anguli IKL, KLM: Aequiangula erunt rectilinea ABC. DEF, AHIKLM. Sed & latera circum æquales angulos habent proportionalia. Cum enim triangula AHI, AIK, AKL, ALM, ſimilia ſint, per coroll. propos. 4. huius lib. triangulis ABC, ACD, ADE, AEF; Erit, ut AB, ad BC, ita AH, ad HI. Rurſus, ut BC, ad CA, ita HI, ad IA; Et ut CA, ad CD, ita IA, ad IK: Ac proinde, ex æquo, ut BC, ad CD, ita HI, ad IK, &c. Igitur, ex defin. ſimilia ſunt rectilinea ABCDEF, AHIKLM, & ſimiliter poſita.
 
-AEQVALIVM, & unum uni æqualem habentium angulum, triangulorum, reciproca ſunt latera, quæ circum æquales angulos. Et quorum triangulorum unum angulum uni æqualem habentium reciproca ſunt latera, quæ circum æquales angulos; illa ſunt æqualia.
-
-SINT duo triangula æqualia ABC, DBE, habentia angulos, qui ad B, æquales. Dico latera circa hoſce angulos eſſe reciproca, hoc eſt, eſſe ut AB, ad BE, ita DB, ad BG{printer-error-correction:BC}. Coniungantur triangula ad angulos æquales, ita ut AB, BE, unam efficiant lineam rectam. Quo facto, cum anguli ABC, DBE, ſint æquales; erũt & DB, BC, una recta linea, ceu demonſtratum eſt, ad propos. 15. lib. 1. ex Proclo. Ducta igitur recta CE; quoniam æqualia ſunt triangula ABC, DBE, erit ut ABC, ad BCE, ita DBE, ad idẽ BCE; ſed ut triangulum ABC, ad triangulum BCE, ita eſt baſis AB, ad baſin BE, quod hæc triangula eiuſdem ſint altitudinis; & ſimiliter ut DBE, ad BCE, ita baſis DB, ad BC; Quare ut AB, ad BB{printer-error-correction:BE}, ita DB, ad BC. Quod eſt propoſitum.
-
-[Figure: triangle with vertices A, D, B, C, E; A at left joined by lines through B to C and E, with D above]
+[Figure: rectilinear figures with vertices labelled A, B, C, D, E, F, H, I, K, L, M, with two horizontal lines labelled G below]
 
 [Margin]
-7. quinti.
-1. ſexti.
+4. ſexti.
 [/Margin]
-
-IAM uero contra, ſint latera circa angulos æquales, qui ad B, reciproca, hoc eſt, ut AB, ad BE, ita DB, ad BC. Dico triangula ABC, DBE, eſſe æqualia. Facta enim conſtructione eadem, cum ſit ut AB, ad BE, ita DB, ad BC; ut autem AB, ad BE, ita triangulum ABC, ad triangulũ BCE; & ut DB, ad BC, ita triangulum DBE, ad triangulum idem BCE: Erit ut ABC, ad BCE, ita DBE, ad idem BCE; proptereaq; æqualia erunt triangula ABC, DBE.
 
 [Margin]
-1. ſexti.
-9. quinti.
+17.
 [/Margin]
+
+## THEOR. 13. PROPOS. 19.
+
+SIMILIA triangula inter ſe ſunt in duplicata ratione laterum homologorum.
+
+[Margin]
+26. primi
+[/Margin]
+
+SINT triangula ſimilia ABC, DEF, habentia angulos æquales B, & E; Item C, & F, &c. Et ſit ut AB, ad BC, ita DE, ad EF. Dico triangula inter ſe rationem habere duplicatã eius, quam habent latera homologa BC, & EF. Sint enim primum latera BC, EF, æqualia; eruntque propterea triangula inter ſe æqualia, habebuntque proportionem æqualitatis, quemadmodũ & latera homologa; Atqui proportio æqua
+
+[Figure: two similar triangles, the smaller labelled A, B, C, the larger labelled D, E, F]
+
+<!-- Catchword: litatis -->

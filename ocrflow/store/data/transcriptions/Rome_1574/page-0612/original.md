@@ -1,29 +1,29 @@
 <!-- Running title: LIBER VII. -->
 
-<!-- Page number: 263 -->
+<!-- Page number: 264 -->
 
-## THEOR. 19. PROPOS. 21.
-
-[Margin]
-21.
-[/Margin]
-
-MINIMI numeri omnium eandem cum eis rationem habentium, metiuntur æque numeros eandem cum eis rationem habentes, maior quidem maiorem, minor uero minorem.
-
-SINT numeri A B, C D, minimi in proportione eadẽ, quam habent alij duo numeri maiores E, F, ita ut ſit, quemadmodum A B, ad C D, ita E, ad F. Dico A B, C D, æque metiri ipſos E, F; maiorem quidem A B, ipſum maiorem E, at minorem C D, ipſum minorem F: hoc eſt, antecedentem, ipſum antecedentem, & conſequentem, ipſum conſequentem: Cum enim ſit, ut A B, ad C D, ita E, ad F; erit uiciſſim, ut A B, ad E, ita C D, ad F; Atque adeo cum A B, C D, minores ſint, quam E F; erit A B, ipſius E, & C D, ipſius F, eadem pars, uel partes. Partes quidem nequaquam: Diuiſis namque, ſi fieri poteſt, A B, C D, in partes A G, GB; C H, HD, numerorum E, F; erit multitudo partium A G, G B, æqualis multitudini partium CH, HD; Ac propterea A G, ipſius E, & C H, ipſius F, eadem pars. Erit ergo, ut A G, ad E, ita C H, ad F; & uiciſſim, ut A G, ad C H, ita E, ad F, uel A B, ad C D; Ac proinde numeri A G, CH, minores quam A B, C D, eandem habebunt proportionem, quam A B, C D. Quod eſt abſurdum; cum A B, C D, in ſua proportione ponantur minimi. Non ergo A B, ipſius E, & C D, ipſius F, eædem partes ſunt. Quare eadem pars; Ac propterea A B, ipſum E, & C D, ipſum F, æqualiter metietur. Minimi ergo numeri omnium eandẽ cum eis rationem habentium, &c. Quod demonſtrandum erat.
-
-[Diagram: rows of dotted lines labelled A G B, C H D, E and F]
+*C L, ad H; & uiciſſim ut A K, ad C L, ita G, ad H, uel A B, ad C D. Eodemque modo erit, ut C L, ad E M, ita C D, ad E F. Quare continuantur numeri A K, C L, E M, in proportionibus numerorum A B, C D, E F, & minores quam A B, C D, E F. Quod eſt abſurdum, cum hi ponantur in ſuarum proportionum continuatione minimi. Non ergo A B, C D, E F, eædem partes ſunt numerorum G, H, I. Quare ſinguli ſingulorum eadem pars; Ac propterea A B, ipſum G, & C D, ipſum H, & E F, ipſum I, æque metietur. Quod eſt propoſitum.*
 
 [Margin]
 13. ſeptimi
 [/Margin]
 
+*QVOD ſi tres numeri dati A, B, C, minimi ſint in continuatione ſuarum proportionum, ita ut etiam quilibet duo minimi ſint, facilius idem hoc modo demonſtrabitur. Sint alij tres D, E, F, non minimi, qui eaſdem habeant proportiones, quas A, B, C. Dico A, B, C, ipſos D, E, F, æque metiri. Nã per hæc propos. 21. A, B, cũ ſint minimi in proportione A, ad*
+
+[Diagram: rows of dotted lines labelled A, B, C and D, E, F]
+
+*B, æque metientur ipſos D, E; eademq́ꝫ ratione B, C, ipſos E, F. Quare cum A, ipſum D, & C, ipſum F, æque metiatur, ac B, ipſum E; metientur æque omnes A, B, C, ipſos D, E, F.*
+
+## THEOR. 20. PROPOS. 22.
+
 [Margin]
-20. defin.
+19.
 [/Margin]
 
-## SCHOLION.
+SI fuerint tres numeri, & alij ipſis multitudine æquales, qui bini ſumantur, & in eadem ratione, fuerit autem perturbata eorum proportio; Etiam ex æqualitate in eadem ratione erunt.
 
-*PARI ratione, & hoc uerum eſt, quod Campanus docet.*
+*SINT tres numeri A, B, C, & totidem D, E, F, qui bini ſumantur, & in eadẽ ratione, ſitque perturbata eorũ pportio, ut quidẽ A, ad B, ita E, ad F; & ut B, ad C, ita D, ad E. Dico, ex æqualitate quoque eſſe*
 
-<!-- Catchword: QVOT- -->
+[Diagram: rows of dotted lines labelled A, H; B, D; C, E; G, F]
+
+<!-- Catchword: ut -->

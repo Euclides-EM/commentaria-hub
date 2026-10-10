@@ -1,31 +1,32 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-tionalis, ſexta, ſeptima, octaua, &c.
+inter duo diametri ſegmenta, quæ a perpendiculari facta ſunt. Deturenim ſemicirculus ABC, & ex puncto D, diametri AC, ducatur ad circumferentiam recta DB, perpendicularis ipſi AC. Dico DB, eſſe proportionalem mediam inter AD, & DC, id quod liquido conſtat ex demõſtratione huius problematis. Si enim ducantur rectæ AB, CB, fiet angulus ABC, rectus; Quare per coroll. propos. 8. conſtat propoſitũ. Eadem ratione erit perpendicularis EF, media proportionalis inter AE, & EC. Item GH, inter AG, & GC, &c.
+
+[Figure: semicircle on diameter with points A, D, E, G, C on the base line and B, F, H on the circumference, with perpendiculars drawn]
 
 [Margin]
-10.
+31. tertij.
 [/Margin]
 
-## PROBL. 4. PROPOS. 12.
+## EX PELETARIO.
 
-TRIBVS datis rectis lineis, quartam proportionalem inuenire.
+DATA recta linea, aliam rectam, (quæ minor non ſit, quam dupla illius) ita ſecare, ut data recta ſit media proportionalis inter ſegmenta huius.
 
-SINT tres lineæ rectæ AB, BC, AD, quibus inueniẽda ſit quarta proportionalis; ſicut quidem AB, ad BC, ita AD, ad quartam. Diſponantur primæ duæ AB, BC, ſecundum lineam rectã, quæ ſit AC: Tertia uero AD, cum prima AB, faciat angulum A, quemcunque. Deinde ex B, ad D, recta ducatur BD, cui per C, parallela ducatur CE, occurrens rectæ AD, productæ, in E, puncto. Dico DE, eſſe quartam proportionalem. Cum enim in triangulo ACE, lateri CE, acta ſit perpendicularis BD, erit ut AB, ad BC, ita AD, ad DE. Quare DE, quarta eſt proportionalis; ac propterea, tribus datis rectis lineis, quartam proportionalem inuenimus. Quod faciendum erat.
+SIT data recta AC, & diuidenda proponatur recta AB, (quæ minor non ſit quam dupla ipſius AC, ſed uel dupla, uel maior) ita ut inter huius ſegmenta, media proportionalis ſit AC. Diſponantur rectæ AB, AC, ad angulum rectum BAC, & diuiſa AB, bifariam in D, ex D, centro, interuallo autem DA, uel DB, ſemicirculus deſcribatur AEB. Deinde per C, ducatur ipſi AB, parallela CE, ſecans circumferentiam in E, puncto, a quo demittatur ad AB, perpendicularis EF. Dico AC, eſſe mediam proportionalem inter ſegmenta AF. FB. Ductis enim rectis AE, BE, erit ut iam eſt demonſtratum, ex coroll. 8. propos. huius lib. EF, media proportionalis inter AF, & FB. Cum igitur EF, æqualis ſit ipſi AC, eo quod parallelogrammum ſit ACEF; (Eſt enim CE, ipſi AF, parallela per conſtructionem, & AC, ipſi EF, propter angulos rectos CAF, & EFA;) erit & AC, media proportionalis inter AF, & FB. Quod eſt propoſitum.
 
-[Figure: triangle with apex E, base A B C, and interior point D with line D B]
+[Figure: semicircle on diameter AB with points A, F, D, B on the base line, point E on the circumference, and lines drawn from E to A, F, D, and B]
 
 [Margin]
-2. ſexti.
+34. primi
+28. primi
 [/Margin]
 
-## SCHOLION.
+[Margin]
+13.
+[/Margin]
 
-HINC facile elicimus, quonam pacto, datis duabus rectis lineis, duæ aliæ in eadem cum illis proportione re periri poſſint. Si enim datæ ſint duæ rectæ lineæ A, B, in quacunque proportione, ſi tertia qualibet accipiatur C, & ei quarta proportionalis inueniatur D, ut fit quemadmodum A, ad B, ita C, ad D; factum erit, quod proponitur. Eadem arte inuenientur ſex lineæ, octo, decem, duodecim, &c. quarum binæ ſemper eandem habeant proportionem.
+## THEOR. 9. PROPOS. 14.
 
-[Figure: four vertical lines of decreasing length labelled A, B, C and D]
+AEQVALIVM, & unum uni æqua
 
-OSTENDEMVS etiam cum Pappo ſequens problema. Videlicet.
-
-TRIBVS datis rectis lineis, quartã inuenire, quæ ſit ad tertiam, ut prima ad ſecundam.
-
-<!-- Catchword: SINT -->
+<!-- Catchword: lem -->

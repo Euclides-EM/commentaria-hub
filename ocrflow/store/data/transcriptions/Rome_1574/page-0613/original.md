@@ -1,23 +1,29 @@
-<!-- Running title: EVCLID. GEOM. -->
-
-QVOTLIBET numeri minimi in continuatione ſuarum proportionum, ſiue eædem ſint, ſiue diuerſæ proportiones, metiuntur æque totidem alios numeros, qui eaſdem cum eis proportiones habent, primus primum, ſecundus ſecundum, tertius tertium, &c.
-
-*SINT enim plures, quam duo numeri A B, C D, E F, minimi in continuatione ſuarum proportionum, ſiue eadem ſit*
-
-[Diagram: rows of dotted lines labelled A K B, C L D, E M F, and G, H, I]
-
-*proportio A B, ad C D, quæ C D, ad E F, ſiue non; ita ut non poſſint reperiri alij numeri ipſis A B, C D, E F, minores, quorum primus ad ſecundum ſit, ut A B, ad C D; & ſecundus ad tertium, ut C D, ad E F, &c. (quamuis tales proportiones reperiantur ſeorſum in minoribus numeris non continuatis; nimirum proportio A B, ad C D, in numeris 4. ad 2. uel 2. ad 1. qui minores ſunt ipſis A B, C D; quemadmodum & proportiones numerorum 16. 20. 25. qui minimi ſunt in continuatione duarum proportionum ſubſeſquiquartarum, cum in minoribus numeris non poſſint continuari, reperiantur ſeorſum in minoribus numeris; proportio quidem 16. ad 20. in 8 & 10. proportio uero 20. ad 25. in 4. & 5, uel in 12. & 15.) Sint deinde totidem numeri G, H, I, non minimi, continuati in eiſdem proportionibus, nimirum G, ad H, ut A B, ad C D; & H, ad I, ut C D, ad E F. Dico A B, ipſum G, & C D, ipſum H, & E F, ipſum I, metiri æque. Cum enim ſit ut A B, ad C D, ita G, ad H; erit uiciſſim ut A B, ad G, ita C D, ad H. Eodem modo, cum ſit ut C D, ad E F, ita H, ad I, erit quoque uiciſſim, ut C D, ad H, ita E F, ad I. Quare A B, ipſius G, & C D, ipſius H, & E F, ipſius I, erit uel eadem pars, uel eædem partes. Partes quidem nequaquam Diuiſis enim, ſi fieri poteſt, A B, C D, E F, in A K, K B; C L, L D; E M, M F, partes numerorum G, H, I, erunt tot partes in A B, quot in C D, & in E F; atque adeo A K, ipſius G, & C L, ipſius H, eadem pars. Erit ergo ut A K, ad G, ita*
+<!-- Running title: EVCLID.GEOM. -->
 
 [Margin]
-13. ſeptimi
+19. ſeptimi
 [/Margin]
+
+*ut A, ad C, ita D, ad F. Cum enim ſit ut A, ad B, ita E, ad F; erit numerus ex A, in F, genitus æqualis numero, qui fit ex B, in E. Pari ratione, cum ſit etiam ut B, ad C, ita D, ad E, erit eidẽ numero, qui fit ex B, in E, æqualis numerus, qui fit ex C, in D; Atq́ꝫ adeo numerus genitus ex A, primo in F, quartum æqualis erit numero ex C, ſecundo in D, tertium, producto. Quare erit ut A, ad C, ita D, ad F.*
+
+[Diagram: rows of dotted lines labelled A, H; B, D; C, E; G, F]
 
 [Margin]
-20. defin
+19. ſeptimi
 [/Margin]
+
+*QVOD ſi fuerint plures numeri, quam tres, ita ut ſit etiam C, ad G, ut H, ad D; Dico adhuc eſſe, ut A, ad G, ita H, ad F. Cum enim iam ſit oſtenſum in tribus numeris, eſſe ut A, ad C, ita D, ad F; ponatur autem ut C, ad G, ita H, ad D, erunt tres numeri A, C, G, & alij tres H, D, F, qui bini in eadem ratione ſumuntur, eſtque eorum proportio perturbata. Ex æqualitate igitur in tribus numeris oſtenſa, erit rurſus, ut A, ad G, ita H, ad F. Eodemque modo idẽ oſtendemus in quinque numeris, per quatuor, ſicut id in quatuor numeris demonſtratum fuit per tres, & ſic de pluribus. Itaque ſi fuerint tres numeri, & alij ipſis multitudine æquales, qui bini ſumantur, &c. Quod oſtendendum erat.*
+
+## SCHOLION.
+
+*QVONIAM Euclides ex illis ſex modis argumentandi in proportionibus, quos in magnitudinibus lib. 5. & explicauit, & demonſtrationibus confirmauit, duos tantum hic in numeris oſtendit, nimirum eum, qui a permutata proportione ſumitur, propoſ. 13 & illum, qui ex æqualitate dicitur, propoſ. 14 & 22. huius lib. non alienum a noſtro inſtituto erit, breuiter reliquos quatuor modos in numeris, & alia quædam oſtendere, octo ſequentibus theorematibus.*
+
+[Diagram: rows of dotted lines, one labelled H]
 
 [Margin]
-20 defin.
+I.
 [/Margin]
 
-<!-- Catchword: C L, -->
+Si quatuor numeri proportionales ſint: Et inuerſa ratione, ſiue conuertendo proportionales erunt.
+
+<!-- Catchword: SIT -->

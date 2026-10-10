@@ -1,33 +1,36 @@
 <!-- Running title: EVCLID. GEOM. -->
-
-nue proportionales inter unitatem, & A, nec non inter unitatem, & B, quot inter A, & B, cadunt. Inuentis enim duobus numeris E, & F, minimis in ratione A, ad C; ſumantur in eadem proportione tres minimi G, H, I; & quatuor K, L, M, N, & ſic deinceps, donec multitudo aſſumptorum æqualis ſit multitudini A, C, D, B.
+<!-- Page number: [illegible] -->
 
 [Margin]
-2. octaui.
+5. pron.
 [/Margin]
 
+faciat M, N, & O, totidem inter A, & B, quot ſunt inter utrunque A, B, & unitatem. Quoniam igitur eſt, ut unitas ad C, ita C, ad D; D, ad E, & E, ad A; æque metietur unitas ipſum C, & C, ipſum D, & D, ipſum E, & E, ipſum A: Metitur autem unitas ipſum C, per C. Igitur & C, ipſum D, & D, ipſũ E, & E, ipſum A, per C, metietur.
+
 [Calculation]
-A,8. C,12. D,18. B,27.
+A,81. M,162. N,324. O,648. B,1296.
+E,27. K,54. L,108. H,216.
+D,9. I,18. G,36.
+C,3. F,6.
 Vnitas.
-E,2. F,3.
-G,4. H,6. I,9.
-K,8. L,12. M,18. N,27.
 [/Calculation]
 
 [Margin]
-1. octaui.
+9. pron.
 [/Margin]
 
-Quoniam ergo A, B, extremi inter ſe primi ſunt, erunt A, C, D, B, minimi in proportione E, ad F. Sunt autem & totidem K, L, M, N, ex conſtructione, in eadem proportione minimi. Igitur K, L, M, N, ipſis A, C, D, B, æquales ſunt, ſinguli ſingulis, ut K, ipſi A; & N, ipſi B, ne minores minimis dentur. Quia uero, ut conſtat ex demonſtratione propos. 2. huius lib. E, ſeipſum multiplicans produxit G, multiplicans uero ipſum G, fecit K; metietur E, ipſum G, per E; & G, ipſum K, per eundem E: Metitur autem & unitas ipſum E, per E. Aeque igitur metietur unitas ipſum E, & E, ipſum G, & G, ipſum K; Ac propterea eadem pars erit unitas ipſius E, & E, ipſius G, & G, ipſius K. Per defin. ergo 20. proportionales ſunt deinceps, unitas & numeri E, G, K. Simili ratione, cum manifeſtum ſit, ex eadem demonſtratione propos. 2. huius lib. quod F, ſe ipſum multiplicans producat I, multiplicans uero ipſum I, faciat N; metietur F, ipſum I, per F; & I, ipſum N, per eundem F: Metitur autem & unitas ipſum F, per F. Aeque igitur metietur unitas ipſum F, & F, ipſum I, & I, ipſum N; Ac propterea eadem pars erit unitas ipſius F, & F, ipſius I, & I, ipſius N. Per definitionem igitur 20. proportionales ſunt continue, unitas & numeri F, I, N; Ac proinde cum tam multitudo E, G, K, quam F, I, N, una cum unitate æqualis ſit multitudini A, C, D, B; tot cadent medij continue proportionales numeri inter unitatem, & K, numerum, ſeu A, ſibi æqualem; & inter unitatem, & numerũ N, ſiue B, ſibi æqualem, quot inter numeros A, B. Si duo ergo numeri ſint inter ſe primi, & inter eos medij, &c. Quod oſtendendum erat.
+Quare C, ſeipsũ multiplicans fecit D; multiplicans autem D, fecit E, & multiplicans E, fecit A. Eadem ratione F, ſeipſum multiplicans fecit G; & multiplicans G, fecit H, & multiplicans H, fecit B. Itaque cum G{printer-error-correction:C}, multiplicans C, & F, fecerit D, & I; erit, ut C, ad F, ita D, ad I. Similiter, quia F, multiplicãs C, & F, fecit I, & G, erit ut C, ad F, ita I, ad G. Sunt igitur tres D, I, G, continue proportionales in ratione C, ad F. Rurſus quia C, multiplicans D, I, G, fecit E, K, L, habebunt E, K, L, per ea, quæ ad propos. 18. lib. 7. oſtendimus, eandem proportionem continuam quam D, I, G, hoc eſt, quam C, ad F. Eodem modo, quia C, & F, multiplicantes G, fecerunt L, & H, erit ut C, ad F, ita L, ad H. Quatuor ergo numeri E, K, L, N{printer-error-correction:H}, continue proportionales ſunt in ratione C, ad F. Poſtremo, quia C, multiplicans E, K, L, H, fecit A, M, N, O, habebunt, ex ijs, quæ a nobis ſunt demonſtrata ad propos. 18. lib. 7. A, M, N, O, eandem continuam proportionem, quam E, K, L, H, hoc eſt, quam C, ad F. Eadem ratione, cũ C, & F, multiplicantes H, fecerint O, & B, erit, ut C, ad F, ita O, ad B. Quinque igitur numeri A, M, N, O, B, continue proportionales ſunt in ratione C, ad F; Ac proinde totidem medij proportionales cadunt inter A, & B, quot inter A, uel B, & unitatem, cum multitudo M, N, O, facta ſit æqualis multitudini C, D, E, uel F, G, H. Quocirca ſi inter duos numeros, & unitatem, continue proportionales ceciderint numeri, &c. Quod erat demonſtrandum.
 
 [Margin]
-7. pron.
-5. pron.
+17. ſeptimi
 [/Margin]
 
 [Margin]
-7. pron.
-5. pron.
+18. ſeptimi
 [/Margin]
 
-<!-- Catchword: SCHO -->
+[Margin]
+18. ſeptimi
+[/Margin]
+
+<!-- Catchword: SCHO- -->

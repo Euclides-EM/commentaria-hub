@@ -1,20 +1,22 @@
-<!-- Running title: LIBER. VI. -->
-<!-- Page number: 205 -->
+<!-- Running title: LIBER VI. -->
+<!-- Page number: 208 -->
 
-ergo recta linea, dato rectilineo ſimile ſimiliterque poſitum rectilineum deſcripſimus; Quod faciendum erat.
+theorema illud, quod iam aliter in ſcholio propoſ. 4. lib. 2. oſtendimus. Nimirum.
 
-## SCHOLION.
+SI linea recta dupla fuerit lineæ rectæ, quadratum illius quadruplum erit quadrati huius: Et contra, ſi quadratum quadruplum fuerit quadrati, latus illius duplum erit lateris huius.
 
-DICVNTVR autem rectilinea ſuper lineas rectas deſcripta, eſſe ſimilia & ſimiliter poſita, quando anguli æquales conſtituuntur ſuper ipſas rectas lineas, & reliqui æquales ſemper ordine ſe ſe conſequuntur, nec non, & latera proportionalia. Vt triangula ABC, DEF, non ſolum erunt ſimilia, ſed etiã ſuper rectas BC, EF, ſimiliter deſcripta, ſi anguli B, C, æquales fuerint angulis E, F; & ita ſit AB, ad BC, ut DE, ad EF, &c. At ſuper rectas BC, DE, non dicentur ſimiliter eſſe deſcripta, cum anguli B, C, non ſint æquales angulis D, E. Similiter rectangula AC, EG, ſimilia, dicentur ſimiliter eſſe deſcripta ſup rectas DC, HG, quoniam ut AD, ad DC, ita eſt EH, ad HG, &c. At vero rectangula AC, IG, non dicentur ſimiliter deſcripta ſuper rectas DC, HG, quamuis ſint ſimilia, ut manifeſtum eſt. Eadem tamen ſimiliter erunt deſcripta ſuper rectas DC, IH, uel ſuper rectas AD, HG.
+SIT primum recta A, dupla rectæ B. Dico quadratum A, quadruplum eſſe quadrati B. Cum enim omnia quadrata ſint ſimilia, ut conſtat ex 1. defin. huius lib. erit, per hanc propoſ. proportio quadrati A, ad quadratum B, duplicata proportionis laterum homologorum A, & B; quæ cum proportionem habeant duplam; erit proportio quadratorum quadrupla. Quadrupla enim proportio duplicata eſt dupla proportionis, ut hic apparet. 1. 2. 4.
 
-[Figure: two similar triangles, the smaller labelled A, B, C, the larger labelled D, E, F]
+[Figure: two squares labelled A and B, the first larger]
 
-[Figure: rectangles labelled A, B, C, D, E, F, G, H, I, K]
+SIT iam quadratum A, quadruplum quadrati B. Dico latus A, duplum eße lateris B. Cum enim proportio quadratorum, quæ ponitur quadrupla, duplicata ſit proportionis laterum homologorum, ut dictum eſt; habebunt latera homologa A, & B, proportionem duplam. Nam quadrupla proportio duplicata eſt proportionis duplæ, ut in exemplo adducto ſuperius apparet.
 
-[Margin]
-17.
-[/Margin]
+## COROLLARIVM.
 
-Omnes autem figuræ ſecundum conſtractionem huius problematis deſcriptæ, ſunt neceſſario ſimiliter poſitæ, ut patet in rectilineis ABHIK, CDEFG, ſuper lineas AB, & CD, deſcriptis. Item omnes æquilateræ figuræ, & æquiangulæ, ſunt quoque poſitæ ſimiliter.
+HINC manifeſtum eſt, ſi fuerint tres rectæ lineæ proportionales, ut eſt prima ad tertiam, ita eſſe polygonum ſuper primam deſcriptum, ad polygonum ſuper ſecundam ſimile ſimiliterque deſcriptum.
 
-FORTASSIS autem expeditius Problema propoſitum conficiemus ad hunc modum. Sit dato rectilineo ABCDEF, ſuper datam rectam G, deſcribendum ſimile rectilineum, ſimiliterque poſitum. Productis duobus lateribus AB, AF, circa angulum A, educantur ex A, per omnes alios angulos rectæ AC, AD, AE, quantumlibet. Deinde ex AB, abſcindatur AH, æqualis datæ rectæ G, uel certe ex ipſa AB, ulterius producta, ſi uidelicet G, fuerit maior, quam AB. Poſt hæc per H, agatur recta HI, lateri BC, parallela, & per I, recta
+[Figure: two squares labelled A and B, and a line labelled C]
+
+HOC non aliter demonſtrabitur ex hoc theoremate, quam oſtenſum fuit corollarium præcedentis theorematis, ex ſuo theoremate: Vt perſpicuum eſt in hac figura appoſita.
+
+<!-- Catchword: THEOR. -->

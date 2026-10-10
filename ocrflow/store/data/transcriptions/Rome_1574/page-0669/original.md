@@ -1,29 +1,24 @@
 <!-- Running title: EVCLID. GEOM. -->
-<!-- Page number: 292 -->
 
-modum demonſtratis efficiemus propoſitionem hanc 10. Euclidis magis vniuerſalem, hoc modo.
+habet eius, quam habet A, ad E; duplicatam quoque rationem habebit A, quadratus ad B, quadratum, eius, quam habet C, latus ad latus D; cum hæc proportio eadem ſit, quæ A, ad E. Duorum ergo quadratorum numerorum unus medius proportionalis eſt, &c. Quod demonſtrandũ erat.
 
-[Margin]
-III.
-[/Margin]
+## SCHOLION.
 
-SI inter duos numeros, & aliquem alium numerum aſſumptum, continue proportionales ceciderint numeri; quot inter utrunque ipſorum, & aſſumptum, deinceps medij continua propotrione{printer-error-correction:proportione} cadunt numeri, totidem & inter ipſos medij continua proportione cadent.
-
-CADANT inter utrunque numerorum A, B, & aſſumptum numerum C, quotlibet numeri continue proportionales; inter A, quidem & C, numeri D, E, F; inter B, vero & C, totidem numeri G, H, I.
+PERSPICVVM eſt ex dictis, inter duos quadratos numeros cadere numerum medium proportionalem in continua proportione lateris ad latus. Nam eadem eſt proportio quadrati A, ad E, medium proportionalem, quæ lateris C, ad latus D, vt demonſtratum eſt.
 
 [Calculation]
-A,162. Q,216. R,288. S,384. B,512.
-F,54. O,72. P,96. I,128.
-E,18. N,24. H,32.
-D,6. G,8.
-C,2.
-K,9. L,12. M,16.
+A,9. E,21. B,49.
+C,3. D,7.
 [/Calculation]
 
-Dico tot quoque medios continua proportionales cadere inter A, & B, quot inter A, & C, & inter B, & C. Item tot inter F, & I, quot inter F, & C, & inter I, & C. Et tot inter E, & H, quot ter{printer-error-correction:inter} E, & C, & inter H, & C. Sumptis .n. tribus K, L, M, minimis in ratione D, ad G; erit ex defin. ratio K, ad M, duplicata rationis K, ad L, hoc eſt D, ad G. Sed per theor. 2. huius ſcholij, ratio quoque E, ad H, duplicata eſt eiuſdem rationis D, ad G. Igitur eſt ut K, ad M, ita E, ad H; Atque adeo cum inter K, & M, cadat vnus medius proportionalis L, cadet quoque vnus medius, nempe N, inter E, & H; quemadmodum & inter E, & C, & inter H, & C, unus medius cadit. Simili modo oſtendemus, inter F, & I, duos medios cadere, ſicut & inter F, & C, & inter I, & C, duo medij cadunt, ſi ſumantur quatuor minimi numeri in ratione D, ad G. Et eadem ratione inter A, & B, tres medij cadent, ſi in eadem proportione D, ad G, ſumantur quinque numeri minimi.
+PARI ratione liquet, numerum medium proportionalem E, & utrumlibet quadratorum A, B, eſſe inter ſe compoſitos. Cum enim A, E, B, proportionales ſint oſtenſi in ratione C, ad D, hoc eſt, eſſe A, ad E, & E, ad B, ut C, ad D; metiatur autem latus D, quadratum ſuum B, conſequens conſequentem, ſi de proportionibus E, ad B, & C, ad D, loquamur; metietur & C, ipſum E, antecedens antecedentem; quandoquidem eſt E, ad B, ut C, ad D. Metitur autem & latus C, quadratum ſuum A; Igitur E, & A, menſuram communem habent C; atque adeo inter ſe ſunt compoſiti. Similiter cum ſit A, ad E, vt C, ad D; & metiatur latus C, ſuum quadratum A, antecedens antecedentem, metietur quoque D, ipſum E, conſequens conſequentem. Quare cum & latus D, metiatur ſuum quadratum B; habebunt F{printer-error-correction:E}, & B, communem menſuram D; Ideoque compoſiti erunt inter ſe. Perſpicuum autem eſt ex hac demonſtratione, priorum numerorum A, E, communem menſuram eſſe C, latus prioris quadrati A; poſteriorum vero E, B, menſuram communem eſſe D, latus quadrati poſterioris B.
+
+## THEOR. 10. PROPOS. 12.
 
 [Margin]
-8. octaui.
+11.
 [/Margin]
 
-HOC etiam uerum eſt, ſi loco alterius numeri, nempe B, unitas aſſumatur, veluti perſpicuum eſt in hac ſubiecta figura;
+DVORVM cuborum numerorum duo medij proportionales ſunt numeri: Et
+
+<!-- Catchword: cubus -->

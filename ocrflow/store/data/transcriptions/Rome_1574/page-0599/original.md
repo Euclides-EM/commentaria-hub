@@ -1,31 +1,31 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-nales, erit quemadmodum unus antecedentium ad unum conſequentium, ita omnes antecedentes ad omnes conſequentes.
+ut B, ad D. Nam ſint primum A, & C, minores quam B, & D; & A, quoque minor, quam C. Quo poſito, erit, propter eandem proportionem, A, ipſius B, & C, ipſius D, eadem pars, uel partes. Viciſſim ergo & A, ipſius C, & B, ipſius D, eadẽ pars erit, uel partes: Ac proinde per defin. 20. erit ut A, ad C, ita B, ad D.
 
-SINT quotcunque numeri proportionales A, B; C, D; E, F; hoc eſt, ut A, ad B, ita C, ad D, & E, ad F. Dico eſſe quoque omnes A, C, E, ſimul ad omnes B, D, F, ſimul, ut eſt A, ad B. Sint enim primũ A, C, E, minores quam B, D, F. Quoniam igitur, propter eandem proportionem, eadem pars eſt, aut partes
-
-[Diagram: two rows of dotted lines labelled A, C, E and B, D, F]
+[Diagram: two rows of dotted lines labelled A, C and B, D]
 
 [Margin]
-c. uel 6. ſeptimi.
+9. vel 10. ſeptimi.
 [/Margin]
 
-A, ipſius B, quæ C, ipſius D, & E, ipſius F; erit quoque uterque A, C, ſimul vtriuſque B, D, ſimul eadem pars, aut partes, quæ A, ipſius B, uel E, ipſius F. Rurſus quia uterque A, C, ſimul, tanquam unus, utriuſque B, D, ſimul, tanquam vnius, eadem pars eſt, aut partes, quæ E, ipſius
+SINT ſecundo A, & C, minores quam B, & D; at A, maior quam C. Quo poſito, erit, ob eandem proportionem C, ipſius D, & A, ipſius B, eadem pars, uel partes. Viciſſim ergo & C, ipſius A, & D, ipſius B, eadem pars erit, uel partes: Atque adeo e contrario, uel A, ipſius C, & B, ipſius D, æque multiplex erit, uel certe, per lemma propos. 11. huius lib. A, ipſum C, & B, ipſum D, æqualiter continebit, eandemque inſuper partem, uel partes. Quare per defin. 20. erit ut A, ad C, ita B, ad D.
+
+[Diagram: two rows of dotted lines labelled A, C and B, D]
 
 [Margin]
-c. uel 6. ſeptimi.
+9. vel 10. ſeptimi.
 [/Margin]
 
-F; erunt & ambo A, C, tanquam unus, & E, ſimul, amborum B, D, tanquam unius, & F, ſimul eadem pars, uel partes, quæ A, ipſius B. Quare, per defin. 20. eadem proportio eſt omnium A, C, E, ſimul ad omnes B, D, F, ſimul quæ eſt ipſius A, ad B.
+SINT tertio A, & C, maiores quam B, & D; at A, minor quam C. Quo poſito, erit ob eandem proportionem, uel A, ipſius B, & C, ipſius D, æque multiplex; uel certe A, ipſum B, & C, ipſum D, cõtinebit æqualiter, eandemq; inſuper partem, uel partes; Atq; adeo e cõtrario erit B, ipſius A, & D, ipſius C uel eadem pars, uel certe, per lemma propos. 11. huius lib. eædem partes. Viciſſim ergo & B, ipſius D, & A, ipſius C, eadem pars erit, uel partes; Ac proinde per defin. 20. eadem proportio erit B, ad D, quæ A ad C, hoc eſt, erit ut A, ad C, ita B, ad D.
 
-SINT ſecundo A, C, E, maiores, & æque multiplices numerorum B, D, F. Quo poſito, erit e contrario B, ipſius A, eadem pars, quæ D, ipſius C, & F, ipſius E; Atque adeo ut prius,
+[Diagram: two rows of dotted lines labelled A, C and B, D]
 
 [Margin]
-5. ſeptimi
+9. uel 10. ſeptimi.
 [/Margin]
 
-[Diagram: two rows of dotted lines labelled A, C, E and B, D, F]
+SINT quarto A, & C, maiores quam B, & D; & A, quoque maior quam C. Quo poſito, erit C, ipſius D, & A, ipſius B, ob eandem proportionem, uel ęque multiplex, uel certe C, ipſum D, & A, ipſum B, æqualiter cõtinebit, eandemque inſuper partem uel partes; Atque adeo, e contrario, erit D, ipſius C, & B, ipſius A, uel eadem pars, uel certe,
 
-erunt omnes B, D, F, ſimul, omnium A, C, E, ſimul, eadem pars, quæ B, ipſius A; ideoque & e contrario omnes A, C, E, ſimul omnium B, D, F, ſimul, & A, ipſius B, æque multiplices. Quare per defin. 20. eadem eſt proportio omnium A, C, E, ſimul, ad omnes B, D, F, ſimul, quę eſt A, ad B. Hoc idem uerum eſt, etiamſi aliquæ proportiones multiplices, uel etiam omnes, ſint numerorum ad unitatem. Eſt enim eadem ſemper demonſtratio, ut hæ
+[Diagram: two rows of dotted lines labelled A, C and B, D]
 
-<!-- Catchword: paret, -->
+<!-- Catchword: per -->

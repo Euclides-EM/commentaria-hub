@@ -1,9 +1,17 @@
-<!-- Running title: EVCLID. GEOM. -->
+<!-- Running title: EVCLID.GEOM. -->
 
-VT quia tres hi numeri 2. 3. 4. mutuo ſeſe multiplicantes, producunt 24. Nam ex 2. in 3. procreatur numerus 6. & ex 6. in 4. fit 24. Vel ex 2. in 4. gignitur numerus 8. & ex 8. in 3. efficitur 24. Vel denique ex 3. in 4. producitur numerus 12. & ex 12. in 2. generatur 24. appellabitur numerus 24. ſolidus, numeri vero 2. 3. 4. dicentur latera illius, quia eius vnitates in longum, latum atque profundum diſpoſitæ referant figurã quãdam ſolidam, quæ Parallelepipedum nuncupatur, ut lib. 11. explicabimus, cuius omnes tres dimenſiones exprimunt tres numeri ſe mutuo multiplicantes; vnus quidem longitudinem, alius vero latitudinem, & altitudinem reliquus. Nam ſi primum multiplicetur numerus 2. in 3. efficietur numerus 6. baſis ſolidi numeri longa tres vnitates, & lata duas:
+## XIX.
 
-[Figure: parallelepiped of unit points in a grid, with corners labelled E, H, A, D, B, F, G and C]
+CVBVS uero, qui æqualiter æqualis æqualiter. Vel, qui ſub tribus æqualibus numeris continetur.
 
-Et ſi hæc baſis in 4. multiplicetur, hoc eſt, accipiatur quater, exurget totus numerus ſolidus 24. altitudinem habens quatuor vnitatum. At ſi numerus 2. in 4. multiplicetur, habebitur baſis 8. vnitatum, quæ multiplicata in 3. facit totum ſolidum numerum 24. in altitudine habens 3. vnitates. Si deniq; numerus 3. multiplicetur in 4. procreabitur numerus 12. pro baſe, quæ bis ſumpta faciet numerum eundem ſolidum 24. cuius altitudo continet duas vnitates. Quæ omnia perſpicua ſunt in figura propoſita. Si enim baſis ſit A B C D, duodecim vnitatum, cuius longitudo B C, quatuor vnitates, & B A, latitudo, tres complectitur; ſuperponetur ei altera baſis ſimilis, & æqualis E F G H, ut totus numerus ſolidus contineat 24. vnitates, eiusque altitudo B F, vnitates duas. Similiter, ſi baſis ſit B C G F, octo vnitatum, cuius longitudo B C, quatuor, & latitudo B F, duas continet vnitates; ſuperponentur ei aliæ duæ baſes ſimiles, & æquales, fietque totus ſolidus numerus rurſum 24. altitudinem B A, habens trium vnitatum. Si denique baſis ſit A B F F, ſex vnitatum, cuius longitudo A B, tres continet, & latitudo B F, duas, ſuperponentur illi tres aliæ baſes ſimiles, & æquales, conſtabitque totus numerus ſolidus vnitatibus 24. quarum quatuor, altitudinem dabunt B C. Idem hic numerus ſolidus 24. habet hæc latera 6. 2. 2. cũ ex his mutuo multiplicatis pducat̃. Eodemq; modo de alijs numeris ſolidis iudicandũ erit.
+SOLIDVM quoque illum numerum vocat cubum, qui eſt æqualiter æqualis æqualiter, id eſt, cuius unitates in longũ, latum, atque profundum diſpoſitæ, cubum Geometricum referunt, ita vt omnes eius dimenſiones, nimirum longitudo, latitudo, & altitudo, ſiue profunditas, æquales ſint; Vel qui ex multiplicatione mutua trium æqualium numerorum inter ſe producitur. Qualis eſt numerus 27; contentus ſub numeris æqualibus 3. 3. 3. ſiue ex eorum multiplicatione mutua procreatus, cũ ex 3. in 3. fiat numerus 9. & ex 9. in 3. gignatur numerus cubus 27. Omnes enim illius vnitates in formam ſolidam redactæ referunt perfectum cubum Geometricum, exiſtuntque tam in longitudine, & latitudine, quam in profunditate, tres unitates. Quare ipſe numerus. 27. eſt æqualiter æqualis æqualiter.
 
-<!-- Catchword: DENIQVE -->
+[Figure: cube of twenty-seven unit points, three points along each edge]
+
+QVILIBET vero trium numerorum æqualium, ſub quibus cubus continetur, vel ex quorum mutua multiplicatione procreatur, Geometris latus cubi, pleriſque autem Arithmeticis radix dicitur.
+
+## XX.
+
+NVMERI proportionales ſunt, cum primus ſecundi, & tertius quarti, æque multiplex eſt; uel eadem pars, uel eædem
+
+<!-- Catchword: partes -->

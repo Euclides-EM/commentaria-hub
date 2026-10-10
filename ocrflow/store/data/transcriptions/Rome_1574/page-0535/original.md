@@ -1,34 +1,24 @@
 <!-- Running title: EVCLID. GEOM. -->
-<!-- Page number: 225 -->
+<!-- Page number: 226 -->
 
-quæ inter ſe reſpondent. Quamobrem quæ proportio eſt arcus BC, primæ magnitudinis, ad arcum FG, ſecundam magnitudinem, ea erit ſectoris BDC, tertiæ magnitudinis, ad ſectorem FHG, quartam magnitudinem. In æqualibus ergo circulis, anguli eandem habent rationem cum peripherijs, &c. Quod demonſtrandum erat.
-
-[Margin]
-6. defin. 5.
-[/Margin]
-
-## COROLLARIVM. I.
-
-HINC manifeſtum eſt, ſic eſſe ſectorem ad ſectorem, ut eſt angulus ad angulum. Vtraque enim proportio eadem eſt proportioni arcus ad arcum. Quare & inter ſe eadem erunt.
+SINT ſecundo duo circuli inæquales ABC, DEF, in quibus anguli ad circunferentias conſtituantur æquales BAC, EDF. Quo poſito, dicentur ſegmenta BAC, EDF, ex Euclidis ſententia, ſimilia. Dico rurſus arcus BAC, EDF, eandem habere proportionem ad integras ſuas circunferentias. Ducantur enim ad centra G, H, rectæ BG, CG, EH, FH. Quoniam igitur anguli A, & D, æquales ponuntur, erunt quoque ad centra anguli G, & H, æquales, cum hi illorum dupli exiſtant. Quare quatuor recti ad angulum G, eandem habebunt rationem, quam ad angulum H. Atqui ut quatuor recti ad angulum G, ita eſt tota circunferentia ABCA, ad arcum BC: Et ut quatuor recti ad angulum H, ita eſt tota circunferentia DEFD, ad arcum EF, ex coroll. 2. huius propoſ. 33. Igitur ut tota circunferentia ABCA, ad arcum BC, ita erit tota circunferentia DEFD, ad arcum EF. Diuidendo ergo erit, vt arcus BAC, ad arcũ BC, ita arcus EDF, ad arcum EF. Et conuertendo rurſus, vt arcus BC, ad arcũ BAC, ita arcus EF, ad arcũ EDF. Ac propterea componendo, vt circunferentia tota ABCA, ad arcum BAC, ita circunferentia tota DEFD, ad arcum EDF. Et rurſus conuertendo, ut arcus BAC, ad totam circunferentiam ABCA, ita arcus EDF, ad totam circunferentiam DEFD. Quocirca quæ pars eſt arcus BAC, totius circũferentiæ ABCA, eadem pars erit arcus EDF, totius circunferentiæ DEFD.
 
 [Margin]
+20. tertij.
+
+7. quinti.
+
 11. quinti.
 [/Margin]
 
-## COROLLARIVM. II.
+[Figure: two unequal circles, the larger with center G and inscribed triangle with apex A and base BC, the smaller with center H and inscribed triangle with apex D and base EF]
 
-PERSPICVVM quoque eſt, ut eſt angulus ad centrum ad quatuor rectos, ita eſſe arcum ſubtenſum illi angulo ad totam circunferentiam. Et contra, ut ſunt quatuor recti ad angulum in centro, ita eſſe totam circunferentiam ad arcum illi angulo ſubtenſum. Nam ut eſt angulus in centro ad angulum rectum in centro, ita eſt arcus illi angulo ſubtenſus ad quadrantem angulo recto ſubtenſum. Quamobrem erit ut angulus in centro ad quadruplum anguli recti, nempe ad quatuor rectos, ita arcus illi angulo ſubtenſus ad quadruplum quadrantis, nimirum ad totam circunferentiã, per ea, quæ ad 4. propos. lib. 5. demonſtrauimus. Quod eſt primum. Quoniam igitur eſt ut angulus in centro ad quatuor rectos, ita arcus illi angulo ſubtenſus ad totam circunferentiam; erit & conuertendo, ut quatuor recti ad angulum in centro, ita tota circunferentia ad arcũ angulo in centro ſubtenſum. Quod eſt ſecundum. Verum hoc etiam ita demonſtrabitur. Cum ſit, ut angulus rectus in centro ad angulum in centro, ita quadrans angulo recto ſubtenſus ad arcum illi angulo ſubtenſum; erit quoque, per ea, quæ ad propos. 4. lib. 5. oſtendimus, ut quadruplum anguli recti, nempe quatuor recti, ad angulum in centro, ita quadruplum quadrantis, nimirum tota circunferentia, ad arcum illi angulo ſubtenſum. Quod eſt propoſiti.
+CONSTAT igitur, recte Euclidem vocaſſe in circulorum ſegmenta ſimilia, in quibus anguli exiſtentes inter ſe ſunt æquales; quandoquidem huiuſmodi ſegmenta eandem habeant proportionem ad circulos ſuos integros.
 
-[Margin]
-38. ſexti.
-[/Margin]
+MANIFESTVM etiam eſt ex dictis, angulos inſiſtentes arcubus circulorum ſimilibus, ſiue ad centra, ſiue ad circunferentias inſiſtant, æquales eſſe inter ſe. Sint enim in circulis ABCD, EFGH, quorum centra I, K, arcus ſimiles BCD, FGH, quibus inſiſtant, ad centra quidem anguli I, & K, ad circunferentias autem anguli A, & E. Dico tam illos, quam hos eſſe inter ſe æquales. Conſtituantur enim in dictis arcubus anguli
 
 [Margin]
-33. ſexti.
+[illegible]
 [/Margin]
 
-## SCHOLION.
-
-CAETERVM ex theoremate hoc luce clarius colligi angulũ, qui circunferentiæ alicui inſiſtit, referendum eſſe ad arcũ, qui baſis eſt ipſius anguli, non autem ad arcum in quo exiſtit. Non enim eadem eſt proportio anguli ad angulum, quæ arcus ad arcum, ſi ſumantur arcus, in quibus anguli exiſtunt, vt uult Euclides in propoſito hoc theoremate. Sint enim circuli
-
-<!-- Catchword: æquales -->
+<!-- Catchword: BCD, -->

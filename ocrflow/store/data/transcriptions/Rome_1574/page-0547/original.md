@@ -1,45 +1,17 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Page number: [unclear: 232] -->
 
-recta DH. Dico rectam DH, ſecare triangulum datum ſecundum proportionem datam, hoc eſt, eſſe trapezium BDHA, ad triangulum CDH, vt E, ad F, ſeu vt BG, ad GC. Ducta enim recta GA, erunt triãgula HGA, GHD, æqualia, cum ſint ſuper eandem baſin GH, & inter eaſdẽ parallelas GH, DA. Addito igitur communi triangulo CGH, fiẽt æqualia triangula CGA, CDH: Ac proinde triangulum ABC, eandem habebit proportionem ad CGA, & ad CDH. Diuidendo igitur, erit vt triangulum BGA, ad triangulum CGA, ita trapezium BDHA, ad triangulum CDH. Eſt autem BGA, ad CGA, vt BG, ad GC. Igitur erit & trapezium BDHA, ad triangulũ CDH, vt BG, ad GE, hoc eſt, vt E, ad F. Quod eſt propoſitum.
+<!-- Running title: EVCLID. GEOM. -->
 
-[Figure: two triangles labelled A, B, D, C and A, H, B, D, G, C, with two horizontal lines E and F above]
+cuicunque rectilineo dato, maius, aut minus, ſecundum datam proportionem quamcunque. Tametſi autem Albertus huius praxis nullam affert rationem, ſed eam ſimpliciter proponit: non multum tamen eius demonſtratio a præcedenti differt, vt mox oſtendemus.
 
-[Margin]
-37. primi
-[/Margin]
+SIT igitur quadratum ABCD, quincuplicandum. Producto latere AB, ad partes B, quantumlibet, ſumantur quinque partes ipſi AB, æquales, a puncto B, incipiendo, uſque ad E, vt ſit BE, quincupla ipſius AB. Diuiſa deinde tota AE, bifariã in F, deſcribatur ex F, ad interuallum FA, vel FE, ſemicirculus AGE, producaturq́ue latus BC, ad circunferentiam vſque in G. Dico quadratum BGHI, ex BG, deſcriptum, quincuplum eſſe quadrati ABCD. Erit enim per coroll. propos. 13. huius lib. BG, media proportionalis inter EB, BA. Igitur erit ut EB, prima ad BA, tertiam, ita BH, quadratum ſecundæ, ad AC, quadratũ tertiæ, ex coroll. propos. 20. huius lib. Eſt autem EB, per cõſtructionem, ipſius AB, quincupla. Igitur & quadratum BH, quadrati AC, quincuplum erit. Quod eſt propoſitum. Quod ſi recta BE, ſumatur ſexcupla lateris AB, erit & quadratum rectæ BG, quadrati ABCD, ſexcuplum: Si autem BE, fuerit tertia pars ipſius AB, erit & quadratum BH, tertia pars quadrati AC. Denique in quacunque proportione ſumatur BE, ad AB, eandẽ habebit quadratum BH, ad quadratũ AC.
 
-[Margin]
-[unclear: 11]. quinti.
-[/Margin]
+[Figure: semicircle on line EFBA with points E, F, B, A on the base; square BGHI with G on the circumference and H, I above the base; small rectangle with corners C and D at the right]
+
+SIT rurſus rectangulum ABCD, cui inueniendum ſit ſimile ſimiliterque poſitum, quod duplum ſit ipſius. Ex latere AB, producto ſumatur BE, dupla ipſius AB. Diuiſa deinde tota AE, bifariã in F; & ex F, deſcripto ſemicirculo, vt prius, & producta CB. ad G; erit BG, unum latus rectanguli quæſiti. Quare ſi abſcindatur AH, æqualis ipſi BG, & ꝑ H, agatur ipſi BC, parallela HI, occurrens diametro AC, protracta in I, perficiaturque parallelogrammum HK, erit HK, ipſi BD, ſimile ſimiliterque poſitum; quod etiam aio duplum eſſe ipſius
 
 [Margin]
-7. quinti
+24. ſexti.
 [/Margin]
 
-[Margin]
-1. ſexti.
-[/Margin]
-
-CADAT tertio punctum G, inter B, & D, ducaturq́; recta DA, cui rurſus per G, agatur parallela GH. Dico igitur, rectam ductã DH, ſecare triangulum ABC, ſecundum proportionem datam E, ad F, hoc eſt, eſſe triãgulum BDH, ad trapezium CDHA, vt E, ad F. Ducta enim recta GA, erũt, vt prius triangula HGA. GHD, æqualia; additoq́; communi BGH, æqualia fient BGA, BDH. Quare erit ABC, ad BGA, vt ad BDH. Diuidendo ergo erit vt CGA, ad BGA, ita trapezium CDHA, ad triangulum BDH; & conuertendo, vt BGA, ad CGA, ita BDH, ad trapezium CDHA. Eſt autem BGA, ad CGA, vt BG, ad GC. Igitur & BDH, ad trapezium CDHA, erit vt BG, ad GC, hoc eſt, vt E, ad F. Quod eſt propoſitum.
-
-[Figure: triangle labelled A, H, B, G, D, C with lines drawn from the vertices]
-
-[Margin]
-37. primi
-[/Margin]
-
-[Margin]
-7. quinti.
-[/Margin]
-
-[Margin]
-17. quinti.
-[/Margin]
-
-[Margin]
-1. ſexti.
-[/Margin]
-
-HINC perſpicuum eſt, quonam modo imperata pars ex triangulo ſit auferenda per lineam rectam, quæ a quouis dato puncto lateris ducatur. Si enim per rectam lineam a dato puncto ductam diuidatur triangulum ſecundum proportionẽ multiplicem, cuius denominator vnitate minor ſit denominatore partis imperatæ, (vt ſecundum proportionem triplam, ſi quarta pars imperetur, &c.) factum erit, quod iubetur, vt manifeſtũ eſt. Habebit enim tunc totum triangulum ad ſegmentum ablatum proportionem multiplicem, cuius denominator æqualis ſit denominatori partis, cum priori denominatori proportionis multiplicis addatur vnitas, quæ ante deerat.
-
-<!-- Catchword: DATO -->
+<!-- Catchword: BD. -->

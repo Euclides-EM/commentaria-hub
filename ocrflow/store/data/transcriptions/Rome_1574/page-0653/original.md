@@ -1,32 +1,32 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-nuper cum tertia proportione data. Veluti ſi quarta proportio data ſit in numeris minimis S, ad T; inueniemus primũ M, L, K, N, minimos deinceps proportionales in tribus proportionibus A, ad B; C, ad D; & E,
-
-[Calculation]
-A,6. B,5. C,4. D,3. E,2. F,7. S,3. T,2.
-M,48. L,50. K,30. N.105. O,70.
-[/Calculation]
-
-ad F: Deinde ſi S, ipſum N, metiatur, accipiemus O, quem T, toties metiatur, quoties S, ipſum N, metitur. Nam M, L, K, N, O, erunt deinceps proportionales in datis rationibus minimi. Si uero S, ipſum N, non metiatur; ſumemus O, quem S, & N, minimum metiantur. Et quoties N, ipſum O, metitur, toties metiat K, ipſum P; & L,
-
-[Calculation]
-A,6. B,5. C,4. D,3. E,2. F,7. S,9. T,2.
-M,48. L,40. K,30. N,105.
-R,144. Q,120. P,90. O,315. V,70.
-[/Calculation]
-
-ipſum Q; & M, ipſum R; quoties uero S, eundem O, metitur, toties T, ipſum V, metiatur. His enim peractis, erunt R, Q, P. O, V, deinceps proportionales minimi in rationibus A, ad B; C, ad D; E, ad F, & S, ad T. Quæ omnia eo argumento, quo prius, demõſtrabimus. Eodem modo operabimur, ſi quinque, uel plures rationes datæ ſint in minimis numeris. Itaque rationibus datis quotcunque in minimis numeris, &c. Quod faciendum erat.
-
-## SCHOLION.
-
-SI omnes rationes, vel aliquæ datæ fuerint in numeris nõ minimis, abſoluemus nihilo minus problema propoſitum; ſed prius exhibendæ erunt rationes datæ in minimis numeris, antequam ad inuentionem minimorum numerorum deinceps proportionalium aggrediamur, vt ex demonſtratione manifeſtũ eſt.
-
-DIFFERT autem hoc problema ab eo, quod propoſitione 35. lib. 7. demonſtratum eſt, quod hic non dantur numeri deinceps proportionales, ita vt quilibet intermedius ſit & antecedens, & conſequens, licet proportiones ſint diuerſæ, quemadmodum ibi.
-
-PORRO inuentis minimis numeris deinceps proportiona
-
 [Margin]
-36. ſeptimi
+27. defin.
 [/Margin]
 
-<!-- Catchword: libus -->
+portionibus A, ad G, & G, ad B; Eadem ex proportionibus C, ad F, & D, ad E, componetur. Quare plani numeri rationem inter ſe habent ex lateribus compoſitam. Quod demonſtrandum erat.
+
+## THEOR. 4. PROPOS. 6.
+
+[Margin]
+6.
+[/Margin]
+
+SI ſint quotcunque numeri deinceps proportionales, primus autem ſecundum non metiatur; neque alius quiſquam ullum metietur.
+
+SINT continue proportionales A, B, C, D, E; & A, primus non metiatur B, ſecundum. Dico neque alium quenquã illorũ ullum metiri. Quod enim nullus proxime inſequentem metiatur, manifeſtum eſt. Nam cum ſit, ut A, ad B, ita B, ad C; C, ad D; & D, ad E: A, uero ipſum B, non metiatur; neque B, ipſum C, neque C, ipſum D, neque D, ipſum E, me tietur. Quod uero nec alius quiſquam illorum ullum metiatur, ſic demonſtrabimus. Sumptis tribus numeris minimis F, G, H, in ratione A, ad B; erit ex æquo, ut A, ad C, ita F, ad H. Quia uero eſt ut A, ad B, ita F, ad G; non metitur autem A, ipſum B; neque F, ipſum G, metietur; At propterea F, non non erit unitas, alias F, ipſum G, metiretur, cum unitas omnem numerum metiatur. Quare cum F, & H, ſint inter ſe primi, & F, non ſit unitas; non metietur F, ipſum H; Atque ob id neque A, ipſum C, metietur. Eſt enim oſtenſum eſſe A, ad C, ut F, ad H. Eadem ratione oſtendemus, quod nec B, tertium a ſe numerum D, nec C, tertium E, metiatur. Quod ſi quatuor numeri minimi ſumantur in ratione A, ad B, ſimili modo demõſtrabimus, neque A, quartum D, neque B, quartum E, metiri. Atque ita de reliquis. Si itaque ſint quotcunque numeri deinceps proportionales, &c. Quod erat oſtendendum.
+
+[Calculation]
+A,16. B,24. C,36. D,54. E,81.
+F,4. G,6. H,9.
+[/Calculation]
+
+[Margin]
+2. octaui.
+[/Margin]
+
+[Margin]
+3. octaui.
+[/Margin]
+
+<!-- Catchword: SCHO -->

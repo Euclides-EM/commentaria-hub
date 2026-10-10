@@ -1,27 +1,28 @@
 <!-- Running title: EVCLID. GEOM. -->
+<!-- Page number: [unclear: 317] -->
 
-ITAQVE ſi H, metitur primum A; erit H, compoſitus ad F: Si vero ſecundum B, metitur; erit compoſitus vel ad F, vel ad G: Si denique metitur tertium C, vel quartũ D, vel quemcunque alium inſequentem; compoſitus erit H, ad G. Id quod perſpicue ex demonſtratis apparet.
-
-## DEMONSTRATIO IN NVMERIS eorum, quæ in lineis ſecundo libro Euclides demonſtrauit prioribus 10. theorematibus.
-
-{dropcap:Q|lines=3|style=plain}VONIAM in theoremate ſequente demõſtrando Theon quædam aſſumit in numeris, quæ demonſtrata ſunt de lineis libro ſecundo, tanquam ſi eadem de numeris eſſent oſtenſa; non alienum inſtituto noſtro duximus, nonnulla ex ijs, quæ Geometrice ab Euclide libro 2. demonſtrata ſunt de lineis, hoc loco de numeris demonſtrare. Quod idem & Barlaam monachum feciſſe a nonnullis eſt traditum. Sequemur autem eundem ordinem, quem Euclidem in ſecundo libro tenuiſſe conſpicimus.
-
-[Margin]
-I.
-[/Margin]
-
-SI fuerint duo numeri, ſeceturque ipſorum alter in quotcunque partes: Numerus planus comprehenſus ſub illis duobus numeris æqualis eſt numeris, qui ſub numero indiuiſo, & qualibet parte numeri diuiſi continentur.
-
-SINT duo numeri AB, & C, quorum AB, diuidatur in AD, DE, EB; Fiatque F, ex C, in AB: Item GH, ex C, in AD; & HI, ex C, in DE; & IK, ex C, in EB. Dico F, æqualem eſſe numeris GH, HI, IK, hoc eſt, toti numero GK, ex GH, HI, IK, compoſito. Quoniam C, multiplicans AB, fecit F; metietur AB, ipſum F, per C; hoc eſt, AB, pars erit ipſius F, denominata a C. Eadem ratione AD, ipſius GH; nec non
+Sumpto enim numero D, qui dictæ parti AC, æqualis ſit; erit ex 1. theorem. numerus factus ex D, hoc eſt, ex AC, in AB; vel (quod idem eſt) ex AB, in AC, æqualis numeris factis ex D, hoc eſt, ex AC, in CB, & ex D, hoc eſt, ex [unclear: AC], in AC, quadrato ſcilicet ipſius AG{printer-error-correction:AC}. Quod eſt propoſitum.
 
 [Calculation]
-A . . . D . . E . B    C . .
-F . . . . . . . . . . .
-G . . . . . H . . . I . . K
 [/Calculation]
 
 [Margin]
-7. pron.
+IIII.
 [/Margin]
 
-<!-- Catchword: DE -->
+SI numerus in duas partes diuidatur: Quadratus ex toto factus æqualis eſt quadratis, qui a partibus efficiuntur, una cum numero plano, qui bis ſub partibus continetur.
+
+SIT numerus AB, diuiſus in AC, CB. Dico numerum quadratum ex AB, factum æqualem eſſe quadratis partium AC, CB, vna cum numero, qui fit bis ex parte AC, in partem CB. Nam ex 2. theorem. numerus quadratus ipſius AB, æqualis eſt numeris, qui fiunt ex AB, in AC, & in CB. Eſt autem numerus, qui fit ex AB, in AC, per 3. theorema, æqualis numero genito ex AC, in CB, una cum quadrato ipſius AC: Item numerus, qui fit ex AB, in CB, eodem modo æqualis numero producto ex AC, in CB, vna cum quadrato ipſius CB. Igitur numerus quadratus ex AB, factus æqualis eſt quoque numeris quadratis partium AC, CB, vna cum numero bis, qui fit ex AC, in CB. Quod eſt propoſitum.
+
+[Calculation]
+[/Calculation]
+
+[Margin]
+V.
+[/Margin]
+
+SI numerus ſecetur in duas partes æquales, & non æquales: Numerus planus ſub partibus inæqualibus contentus, una cum numero quadrato numeri inter duas ſectiones medij, æqualis, eſt quadrato, qui ex dimidio numero gignitur.
+
+NVMERVS AB, ſecetur in partes æquales AC, CB; & non æquales AD, DB. Dico numerũ ſub partibus inæqualibus AD, DB, contentum, vna cum quadrato numeri inter-
+
+<!-- Catchword: medij -->

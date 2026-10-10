@@ -1,25 +1,30 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Margin]
-5. primi
-17. uel 32. primi.
-[/Margin]
+partes æquales uſque ad D, punctum, ex quo ad B, recta ducatur DB; & huic parallela EF, ex E, termino quatuor partiũ. Nam AF, erit pars imperata. Erit enim rurſus ut DA, ad AE, ita BA, ad AF: Quare, & conuertendo ut AE, ad AD, ita AF, ad AB: Eſt autem AE, pars continens quatuor undecimas ipſius AD, ex conſtructione; Igitur & AF, eadẽ pars erit rectæ AB. Quod eſt propoſitum. Non aliter detrahetur ex AB, pars complectens quotcunque partes ipſius aliquotas.
 
-uero recto maior. Cum enim CG, CB, latera æqualia ſint, & ideo anguli CBG, CGB, æquales; erit uterque eorum recto minor, ac propterea AGC, recto maior.
-
-## THEOR. 8. PROPOS. 8.
-
-SI in triangulo rectangulo, ab angulo recto in baſin perpendicularis ducta ſit: quæ ad perpendicularem triangula, tum toti triãgulo, tum ipſa inter ſe ſimilia ſunt.
-
-IN triangulo ABC, angulus BAC, ſit rectus, a quo ad baſin perpendicularis agatur AD. Dico triangula ADB, ADC, ſimilia eſſe & toti triangulo ABC, & inter ſe. Cum enim in triangulis ABC, DBA, anguli BAC, & ADB, ſint recti, & angulus B, communis, erunt, & reliqui anguli ACB, & DAB, æquales. Aequiangulum eſt igitur triangulum DBA, triangulo ABC, ac propterea habebunt latera circa æquales angulos proportionalia, hoc eſt, erit ut CB, ad BA, ita BA, ad BD; & ut BA, ad AC, ita BD, ad DA; & ut BC, ad CA, ita BA, ad AD. Quare ſimile eſt triangulum ADB, toti triangulo ABC. Eodem modo oſtendetur triangulum ADC, ſimile eidem triangulo ABC; Nam anguli BAC, & ADC, ſunt recti, & angulus C, communis; ac propterea reliqui anguli ABC, & CAD, æquales. Quare ut BC, ad CA, ita CA, ad CD; & ut CA, ad AB, ita CD, ad DA; & ut CB, ad BA, ita CA, ad AD. Non ſecus demonſtrabitur, ſimilia inter ſe eſſe triangula ADB, & ADC, cũ anguli ADB, ADC, ſint recti, & anguli ABD, CAD, oſtenſi æquales, nec non anguli BAD, ACD; Atq; idcirco ſit ut BD, ad DA, ita DA, ad DC, &c. Si igitur in triangulo rectangulo, ab angulo recto in baſin perpendicula ris ducta ſit, &c. Quod erat demonſtrandum.
+[Figure: triangle ABD with base AB, points E and F marked, line AC divided into equal parts up to D, with EF parallel to DB]
 
 [Margin]
-32. primi
-4. ſexti.
-32. primi
-4. ſexti.
+4. quinti.
+11
 [/Margin]
 
-[Figure: right triangle with apex A, base vertices B and C, and perpendicular from A to point D on the base]
+## PROBL. 2. PROPOS. 10.
 
-<!-- Catchword: CORROL- -->
+[Margin]
+12.
+[/Margin]
+
+DATAM rectam lineam inſectam ſimiliter ſecare, ut data altera recta ſecta fuerit.
+
+SIT recta AB, ſecanda ſimiliter, ut ſecta eſt recta AC, in D, & E, hoc eſt, in partes, quæ ſint partibus AD, DE, EC, proportionales. Coniungantur datæ duæ lineæ ad A, facientes angulum quemcunque BAC, & connectatur recta BC. Deinde ex D, E, agantur DF, EG, parallelæ ipſi BC. Dico rectam AB, ſimiliter eſſe ſectam in F, & G, ut eſt ſecta AC, in D, & E. Nam ut AD, ad DE, ita AF, ad FG; Proportionales ergo ſunt partes AF, FG, partibus AD, DE. Quod ſi ducatur DH, ipſi FB, parallela, ſecans EG, in I, erit rurſus ut DE, ad EC, ita DI, ad IH, hoc eſt, ita FG, ad GB; quod FG, ipſi DI, & GB, ipſi IH, æqualis ſit. Quare proportionales quoque erunt partes FG, GB, partibus DE, EC. Itaque datam rectam lineam inſectam ſimiliter ſecuimus, ut data altera recta ſecta fuit. Quod faciendum erat.
+
+[Figure: triangle ABC with base AB, points F and G on the base, points D and E on side AC, lines DF and EG parallel to BC, and DH parallel to FB cutting EG in I, with H on BC]
+
+[Margin]
+2. ſexti.
+2. ſexti.
+34. primi
+[/Margin]
+
+<!-- Catchword: SCHO- -->

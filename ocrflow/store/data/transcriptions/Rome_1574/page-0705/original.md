@@ -4,38 +4,52 @@
 8. noni.
 [/Margin]
 
-uero & reliqui intermedij C, & E, quadrati ſint, ita perſpicuũ fiet. Cum tres continue proportionales ſint A, B, C; ſitque
+D,E,F, eandem habeant rationem; quam tres A, B, C,) & conuertendo ut F, ad D, ita C, ad A; habebit C, ad A, rationem, quam cubus F, ad cubum D: Sed C, eſt cubus, nempe
 
 [Calculation]
-Vnitas.  A,4.  B,16.  C,64.  D,256.  E,1024.  F,4096.
+Vnitas. A,2. B,4. C,8. D,16. E,32. F,64. G,128. H,256. I,512.
 [/Calculation]
 
 [Margin]
-22. octaui
+25. octaui
+
+8. noni.
+
+25 octaui
 [/Margin]
 
-A, quadratus; erit & C, quadratus. Eodemque modo, aſſumptis tribus continue proportionalibus C, D, E, cum C, ſit quadratus; & E, quadratus erit. Omnes igitur A, B, C, E, F, quadrati ſunt. Idem oſtendemus, ſi plures numeri ſint continue proportionales.
+quartus ab unitate. Igitur & A, primus ab unitate cubus erit. quod eſt contra hypotheſim. Non igitur D, cubus eſt. Quod ſi E, credatur eſſe cubus; cum & C, cubus ſit, ſitque ex æquo, ut C, cubus ad E, cubum, ita A, ad C, & conuertendo ut cubus E, ad cubum C, ita C, ad A; exiſtente C, cubo, erit, & A, cubus. quod non ponitur. Non ergo E, cubus eſt. Quemadmodum autem oſtenſum eſt duos D, & E, inter duos cubos C, & F, cubos non eſſe, ita quoque eadem ratione oſtendemus neque G, & H, inter cubos F, & I, neque ullos alios duos, inter duos cubos, eſſe cubos. Si igitur ab unitate quotcunque numeri, &c. Quod demonſtrandum erat.
 
-SIT iam A, proximus unitati cubus. Dico & reliquos cubos eſſe. Quod enim quartus ab unitate, & omnes duos
+## SCHOLION.
+
+NON eſt autem neceſſe, ſi numerus, qui poſt vnitatem, non ſit cubus ſimul, & quadratus, nullum alium eſſe cubum ſimul, & quadratum, præter ſeptimum ab unitate, & quinque intermittentes omnes; cum aliquando tertius ab vnitate, aliquando vero quartus poſſit eſſe cubus ſimul, & quadratus, non exiſtente primo ab unitate cubo ſimul, & quadrato.
+
+SIT enim primum A, qui poſt unitatem, cubus quidem, nõ autem ſimul & quadratus. Dico B, tertium eſſe cubum ſimul & quadratum; cubum quidem,
 
 [Calculation]
-Vnitas.  A,8.  B,64.  C,512.  D,4096.  E,32768,  F,262144
+Vnitas. A,8. B,64.
+[/Calculation]
+
+[Margin]
+9. noni.
+8. noni.
+[/Margin]
+
+quod primo exiſtente cubo, omnes cubi ſunt; quadratum uero, quod tertius ſit ab unitate.
+
+SIT deinde A, poſt unitatem quadratus quidem, non autem ſimul & cubus. Dico quartum C, eſſe cubum ſimul & quadratum; Cu-
+
+[Calculation]
+Vnitas. A,4. B,16. C,64.
 [/Calculation]
 
 [Margin]
 8. noni.
-
-5. pron.
-
-9. pron.
-3. noni.
-23. octaui
+9. noni.
 [/Margin]
 
-intermittentes, cuiuſmodi ſunt C, & F, ſint cubi, iam eſt demonſtratum. Quod autem & reliqui B, D, E, cubi ſint, ſic oſtendemus. Cum ſit unitas ad A; ut A, ad B; æque metietur vnitas numerum A, & numerus A, numerum B: Metitur autem vnitas numerum A, per ipſummet A. Igitur, & A, ipſum B, per ſe ipſum metietur; Atque adeo cubus A, ſe ipſum multiplicans numerum B, procreabit. Quare B, cubus eſt. Quoniam uero quatuor continue proportionales ſunt A, B, C, D, eſtque A, cubus; & D, cubus erit. Eademq́; ratione aſſumptis quatuor deinceps proportionalibus B, C, D, E. cum B, cubus ſit, & E, cubus erit. Omnes igitur A, B, C, D, E, F, cubi ſunt. Non ſecus demonſtrabimus omnes cubos eſſe, ſi plures continue proportionales fuerint. Quocirca, ſi ab unitate quotcunque numeri deinceps proportionales fuerint, &c. Quod demonſtrandum erat.
+bum quidem, quod quartus ſit ab unitate; quadratum uero, quod primo exiſtente quadrato, omnes ſunt quadrati.
 
-## SCHOLION.
+SIT poſtremo A, poſt vnitatem neque cubus, neque qua-
 
-NON demonſtrauit Geometra, ſi numerus, qui poſt unitatem, ſit cubus ſimul & quadratus, & reliquos omnes eſſe cubos ſimul, & quadratos; quia perſpicue hoc ipſum ex demonſtratis colligitur. Nam ſi proximus vnitati ſit cubus ſimul, & quadratus: qua parte eſt cubus, ea ratione omnes reliqui cubi erunt; qua uero parte eſt quadratus, ea ratione &
-
-<!-- Catchword: reliqui -->
+<!-- Catchword: dratus. -->

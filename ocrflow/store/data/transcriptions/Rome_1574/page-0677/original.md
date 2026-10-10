@@ -1,38 +1,34 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-vt liquet ex demonſtratione propos. 11. huius lib. A, E, B, continue proportionales ſunt in ratione C, ad D; Metitur autem A, primus extremum B; metietur quoque A, primus ſecundũ E. Quare cum ſit ut A, ad E, ita C, ad D; & C, latus latus D, metietur.
+[Margin]
+15.
+[/Margin]
+
+## THEOR. 15. PROPOS. 17.
+
+SI cubus numerus cubum numerum non metiatur; neque latus unius latus alterius metietur. Et ſi latus cubi unius latus alterius non metiatur; neque cubus cubum metietur.
+
+SINT cubi A, & B, quorum latera C, & D; Non metiatur autem A, ipſum B. Dico quod nec latus C, latus D, metietur. Si enim C, dicatur metiri D; metietur quoque A, cubus cubum B. Quod eſt abſurdum, cũ ponatur non metiri. Non ergo latus C, latus D, metietur.
 
 [Margin]
-7. octaui.
+15. octaui.
 [/Margin]
 
 [Calculation]
-A,4. E,12. B,36.
-C,2. D,6.
+A,8. B,27.
+C,2. D,3.
 [/Calculation]
 
-METIATVR iam C, latus latus D. Dico & quadratum A, quadratum B, metiri. Eodem enim modo erit, ut C, ad D, ita A, ad E, propterea quod A, E, B, continue proportionales ſunt in ratione C, ad D, ut demonſtratum eſt propos. 11. huius lib. Quare cum C, metiatur D, metietur quoque A, primus E, ſecundum; ac proinde & extremum B, metietur, ex theoremate 2. ſcholij propos. 6. huius lib. Si quadratus ergo numerus quadratum numerũ metiatur, &c. Quod erat oſtendendum.
-
-## THEOR. 13. PROPOS. 15.
+SED iam C, latus non metiatur latus D. Dico quod nec cubus A, cubum B, metietur. Nam ſi metiri dicatur; metietur etiam C, latus latus D. Quod eſt abſurdum. Ponitur enim non metiri. Non igitur A, cubus cubum B, metietur. Quocirca, ſi cubus numerus cubum numerum non metiatur, &c. Quod demonſtrandum erat.
 
 [Margin]
-14.
+15. octaui.
 [/Margin]
 
-SI cubus numerus cubum numerum metiatur; & latus unius metietur latus alterius. Et ſi latus unius cubi latus alterius metiatur; & cubus cubum metietur.
+## SCHOLION.
 
-METIATVR cubus A, cuius latus C, cubum B, cuius latus D. Dico & latus C, metiri latus D. Vterque C, & D, ſe ipſum multiplicans faciat E, & F; multiplicantes autem ſe mutuo faciant G: Multiplicantes denique G, faciant H, I. Quoniam igitur, ut apparet ex demonſtratione propos. 12. huius lib. tam E, G, F, quam A, H, I, B, continue ſunt proportionales in ratione C, ad D; Metitur autem A, primus B, extremum; metietur quoque idem A, primus H, ſecundum. Cum ergo ſit, ut A, ad H, ita C, ad D; metietur & C, latus latus D.
+PROXIME antecedentes quatuor propoſitiones hoc etiã modo proponi poſſunt, ſi maiores numeri ad minores referantur.
 
-[Calculation]
-A,8. H,24. I,72. B,216.
-E,4. G,12. F,36.
-C,2. D,6.
-[/Calculation]
+SI quadratus numerus quadrati numeri, & cubus cubi, ſit multiplex; & unius latus lateris alterius multiplex erit. Et ſi unius quadrati, & cubi latus lateris alterius ſit multiplex; & quadratus quadrati, & cubus cubi multiplex erit. Si uero quadratus quadrati, & cubus cubi non ſit multiplex; neque latus lateris erit multiplex. Et ſi latus lateris non ſit multiplex; neque qua-
 
-[Margin]
-7. octaui
-[/Margin]
-
-METIATVR iam C, latus latus D. Dico & A, cubũ
-
-<!-- Catchword: cum -->
+<!-- Catchword: dratus -->

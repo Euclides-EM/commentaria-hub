@@ -1,29 +1,35 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
+
+*ſionem rationis eſſe quoque, ut AB, ad AC, ita DE, ad DF. Cum enim ſit, ut AB, ad CB, ita DE, ad FE, erit uiciſſim, ut totus AB, ad totum DE, ita ablatus CB, ad ablatum FE; Ac proinde, ut totus AB, ad totum DE, ita erit reliquus AC, ad reliquum DF, Viciſſim igitur, ut AB, ad AC, ita DE, ad DF. Quod eſt propoſitum.*
 
 [Margin]
-19. ſeptimi
+13. ſeptimi
+
+11. ſeptimi
+
+13. ſeptimi
 [/Margin]
 
-*ut A, ad C, ita D, ad F. Cum enim ſit ut A, ad B, ita E, ad F; erit numerus ex A, in F, genitus æqualis numero, qui fit ex B, in E. Pari ratione, cum ſit etiam ut B, ad C, ita D, ad E, erit eidẽ numero, qui fit ex B, in E, æqualis numerus, qui fit ex C, in D; Atq́ꝫ adeo numerus genitus ex A, primo in F, quartum æqualis erit numero ex C, ſecundo in D, tertium, producto. Quare erit ut A, ad C, ita D, ad F.*
+[Diagram: rows of dotted lines labelled A, C, B; D, F, E]
 
-[Diagram: rows of dotted lines labelled A, H; B, D; C, E; G, F]
+*RVRSVS ex his facile demonſtrabimus theorema illud in numeris, quod in magnitudinibus oſtendit Euclides propoſ. 24. lib. 5. Videlicet.*
 
 [Margin]
-19. ſeptimi
+V.
 [/Margin]
 
-*QVOD ſi fuerint plures numeri, quam tres, ita ut ſit etiam C, ad G, ut H, ad D; Dico adhuc eſſe, ut A, ad G, ita H, ad F. Cum enim iam ſit oſtenſum in tribus numeris, eſſe ut A, ad C, ita D, ad F; ponatur autem ut C, ad G, ita H, ad D, erunt tres numeri A, C, G, & alij tres H, D, F, qui bini in eadem ratione ſumuntur, eſtque eorum proportio perturbata. Ex æqualitate igitur in tribus numeris oſtenſa, erit rurſus, ut A, ad G, ita H, ad F. Eodemque modo idẽ oſtendemus in quinque numeris, per quatuor, ſicut id in quatuor numeris demonſtratum fuit per tres, & ſic de pluribus. Itaque ſi fuerint tres numeri, & alij ipſis multitudine æquales, qui bini ſumantur, &c. Quod oſtendendum erat.*
+Si primus ad ſecundum eandem habuerit rationem, quam tertius ad quartum; habuerit autem & quintus ad ſecundum eádem rationem, quam ſextus ad quartum: Etiam compoſitus primus cum quinto ad ſecundum eandem habebit rationem, quam tertius cum ſexto ad quartum.
 
-## SCHOLION.
+*SIT ut AB, primus ad C, ſecundum, ita DE, tertius ad F, quartum: Item vt BG, quintus ad C, ſecundum, ita EH, ſextus ad F, quartum. Dico ita eſſe AG, compoſitum ex primo & quinto, ad C, ſecundum, ut eſt DH, compoſitus ex tertio & ſexto, ad F, quartum. Cũ enim ſit, ut BG, ad C, ita EH, ad F; erit conuertendo ut C, ad BG, ita F, ad EH. Quoniam igitur eſt ut AB, ad C, ita DE, ad F; & ut C, ad BG, ita F, ad EH; erit ex æqualitate, ut AB, ad BG, ita DE, ad EH. Componendo igitur, ut AG, ad BG; ita DH, ad EH. Itaque cum rurſus ſit, ut AG, ad BG, ita DH, ad EH: & ut BG, ad C, ita EH, ad F; erit ex æqualitate, ut AG, ad C, ita DH ad F. Quod eſt propoſitum.*
 
-*QVONIAM Euclides ex illis ſex modis argumentandi in proportionibus, quos in magnitudinibus lib. 5. & explicauit, & demonſtrationibus confirmauit, duos tantum hic in numeris oſtendit, nimirum eum, qui a permutata proportione ſumitur, propoſ. 13 & illum, qui ex æqualitate dicitur, propoſ. 14 & 22. huius lib. non alienum a noſtro inſtituto erit, breuiter reliquos quatuor modos in numeris, & alia quædam oſtendere, octo ſequentibus theorematibus.*
+[Diagram: rows of dotted lines labelled A, B, G; C; D, E, H; F]
 
-[Diagram: rows of dotted lines, one labelled H]
+*EODEM modo & hoc Theorema oſtendemus.*
 
 [Margin]
-I.
+VI.
 [/Margin]
 
-Si quatuor numeri proportionales ſint: Et inuerſa ratione, ſiue conuertendo proportionales erunt.
+Si duo numeri ad duos numeros eandem
 
-<!-- Catchword: SIT -->
+<!-- Catchword: habeant -->

@@ -1,25 +1,29 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 243 -->
 
-## XXVII.
+<!-- Page number: 244 -->
 
-QVOTLIBET numeris ordine poſitis, proportio primi ad ultimum componi dicitur ex proportionibus primi ad ſecundum, & ſecundi ad tertiũ, & tertij ad quartum, & ita deinceps, donec extiterit proportio.
+tates, quæ in ipſo ſunt, hoc eſt, per ipſummet numerum metitur.
 
-HOC ita ſe habere, pluribus uerbis a nobis demonſtratum eſt ad defin. 5. lib. 6.
+NAM unitas ſumpta toties, quot ſunt in numero propoſito unitates, ipſum conſtituit. Quamobrem ipſum metitur per unitates, quæ in ipſo ſunt, hoc eſt, per ipſummet numerum ex ſuis unitatibus conſtitutum.
 
-POSSVNT etiam huc referri definitiones illæ in quinto libro traditæ de alterna ratione, inuerſaque; de compoſitione, diuiſione, & conuerſione rationis; de ratione ex æqualitate; & de proportione ordinata, ac perturbata. Omnes enim hi modi argumentationum, quæ circa proportiones uerſantur, demõſtrabuntur quoque in hoc ſeptimo libro proportionibus numerorum conuenire.
+## VI.
 
-# POSTVLATA, SIVE PETITIONES
+OMNIS numerus ſe ipſum metitur per unitatem.
 
-## I.
+CVM quilibet numerus ſemel ſumptus ſibi ipſi ſit æqualis, manifeſtum eſt, omnem numerum ſeipſum metiri per unitatẽ.
 
-POSTVLETVR, cuilibet numero quotlibet poſſe ſumi æquales, uel multiplices.
+## VII.
 
-## II.
+SI numerus numerum multiplicans, aliquẽ produxerit, metietur multiplicans productum per multiplicatum, multiplicatus autem eundem per multiplicantem.
 
-QVOLIBET numero ſumi poſſe maiorem.
+NVMERVS enim A, numerum B, multiplicans producat numerum C. Dico A, metiri ipſum C, per B; & B, eundem C, per A Cum enim ex defin. 15. numerus B, toties compoſitus conſtituat ipſum C, quot ſunt in A, unitates; perſpicuum eſt B, metiri ipſum C, per A, & eadem ratione A, ipſum eundem C, metiri per B, cum etiam B, ipſum A, multiplicans procreet numerum C, vt demonſtrabitur propos. 16. huius lib.
 
-QVAMVIS enim numerus infinite diminui nequeat; ſed neceſſario ad vnitatem indiuiduam diminutio deueniat; ta men augeri poteſt infinite per additionem continuam unita-
+[Diagram: three horizontal dotted lines labelled A, B and C]
 
-<!-- Signature: Hh 3 -->
-<!-- Catchword: tis. -->
+## VIII.
+
+SI numerus numerum metiatur, & ille, per quem metitur, eundem metietur per eas, quæ in metiente ſunt, unitates,
+
+<!-- Signature: Hh 4 -->
+
+<!-- Catchword: hoc -->

@@ -1,24 +1,23 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-gulum uero ABC, ad triangulum FGH, habeat proportionem duplicatam eius, quam habent latera homologa AB, FG: habebunt quoque polygona inter ſe proportionem duplicatam proportionis eorũdem laterum homologorum AB, FG. Itaq; ſimilia polygona in ſimilia triangula diuiduntur, &c. Quod demonſtrandum erat.
+Dico, ut eſt recta A, prima ad rectam C, tertiam, ita eſſe triangulum A, ad triangulum B. Nam proportio rectæ A, ad rectam C, eſt, per definitionem, duplicata proportionis rectæ A, ad rectam B: Cum igitur triangulum A, ad triangulum B, habeat quoque proportionem duplicatam rectæ A, ad rectam B; erit ut recta A, ad rectam C, ita triangulum A, ad triangulum B.
+
+[Figure: two triangles labelled A and B, and a horizontal line labelled C]
 
 [Margin]
-19. quinti.
+19. ſexti.
 [/Margin]
 
-[Figure: two pentagons ABCDE and FGHIK divided into triangles by diagonals from A and F]
+EODEM modo oſtendes, ita eſſe triangulum ſupra ſecundam ad triangulum ſupra tertiã ſimile ſimiliterq; deſcriptu, ut eſt prima linea ad tertiam. Sint enim proportionales tres C, B, A, & ſuper B, ſecundam, & A, tertiam conſtituantur triangula ſimilia ſimiliterque poſita B, & A. Dico, ut eſt recta C, ad rectã A, ita eſſe triangulum B, ad triangulum A. Nam proportio C, ad A, duplicata eſt proportionis C, ad B, hoc eſt, rectæ B, ad rectam A. Cum igitur & triangulum B, ad triangulum A, habeat proportionem duplicatam rectæ B, ad rectam A, quoniam B, & A, ſunt latera homologa; Erit ut C, recta ad rectam A, ita triangulum B, ad triangulum A.
 
-## SCHOLION.
-
-QVOD ſi polygona ſimilia, fuerint æquilatera, & æquiangula, diuidentur quoque in ſimilia triangula, & numero æqualia, ductis e centris circulorum ipſa circunſcribentium ad omnes angulos rectis lineis. Sint enim polygona ſimilia, æquilatera, & æquiangula ABCDEF, GHIKLM, quæ circunſcribantur a circulis circa centra N, O, ex quibus rectæ ducẽtur NA, NB, &c. Dico triangula NCD, OIK, ſimilia eſſe. Quoniam anguli CND, IOK, æquales ſunt; (quod æque ſubmultiplices ſint quatuor rectorum. Nam utrunque ſpacium N, & O, quatuor rectis æquiualens, ex coroll. 2. propos. 15. lib. I. diuiditur in angulos & numero, & quantitate æquales, ſubtenſos nimirum a baſibus æqualibus, contentosque lateribus æqualibus.) Sunt autem & latera circum ipſos proportionalia, cum utrobique ſit proportio æqualitatis; Similia erunt triangula NCD, OIK. Eademque eſt ratio de cæteris. At uero hæc triangula eſſe homologa totis polygonis, nullo negocio demonſtrabitur. Cum enim tota polygona ſint ipſorum triangulorum æque multiplicia, ut patet, habebunt utique eandem cum ipſis proportionem.
-
-[Figure: two hexagons ABCDEF and GHIKLM inscribed in circles about centres N and O, divided into triangles]
+## THEOR. 14. PROPOS. 20.
 
 [Margin]
-6. ſexti.
-15. quinti
+18.
 [/Margin]
 
-PORRO ex hoc theoremate perfacile demonſtrabimus
+SIMILIA polygona in ſimilia triangula diuiduntur, & numero æqualia, & homologa totis. Et polygona duplicatam habent eam inter ſe rationem, quam latus homologum ad homologum latus.
 
-<!-- Catchword: theore- -->
+SINT polygona ſimilia ABCDE, FGHIK, habentia angulos æquales BAE, GFK; Item angulos B, G, & ſic deinceps. habeant autem latera proportionalia circa angulos æquales; ut quidem AB, ad BC, ita FG, ad GH; & ut BC, ad CD, ita GH, ad HI, &c. Dico primo, hæc polygona diuidi in triangula ſimilia, quæ ſint numero ęqualia. Ab angulis enim BAE, GFK, rectæ educantur ad ſingulos angulos oppoſitos, quæ ſint AC, AD, FH, FI; diuiſaque erunt polygona in triangula numero æqualia, cũ propter ſimilitudinem habeant angulos numero æquales. Quoniam uero angulus B, æqualis eſt angulo G, ex hypotheſi, & circa ipſos latera proportionalia; æquiangula erunt
+
+<!-- Catchword: triangula -->

@@ -1,71 +1,37 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Margin]
-20. defin.
-[/Margin]
+## THEOR. 6. PROPOS. 6.
 
 [Margin]
-7. pron.
+6.
 [/Margin]
 
-[Margin]
-20. defin.
-[/Margin]
+SI numerus ſe ipſum multiplicans cubum faciat: Et ipſe cubus erit.
 
-proinde ut unitas ad C, ita C, ad D. Rurſus quia C, multiplicans D, fecit A; metietur D, ipſum A, per C: Metiebatur autem & C, ipſum D, per C. Eadem ergo pars eſt C, ipſius D, quæ D, ipſius A; ideoque ut C, ad D, ita D, ad A: ſed ut C, ad D, ita erat unitas ad C. Igitur ut unitas ad C, ita C, ad D, & D, ad A; Atq; adeo inter unitatem & numerum A, duo medij proportionales cadunt numeri C, D. At quia A, ipſum B, metitur per A, quod A, ſe ipſum multiplicans fecerit B; metitur uero & unitas ipſum A, per A: Eadem erit pars unitas ipſius A, quæ A, ipſius B; Ac propterea erit ut unitas ad A, ita A, ad B. Quare cum inter unitatem & numerũ A, cadant duo medij proportionales C, & D; cadent totidem inter A, & B, nimirum E, & F. Cum ergo quatuor numeri A, E, F, B, ſint continue proportionales; & A, primus ſit cubus; erit quoque B, quartus cubus. Si cubus igitur numerus ſe ipſum multiplicans, &c. Quod erat demonſtrandum.
+MVLTIPLICANS ſe ipſum numerus A, faciat B, cubum. Dico & A, cubum eſſe. Fiat ex A, in B, numerus C, qui cubus erit, cum A, in ſe faciat B, & ipſe C, ex A, in B, gignatur, atque adeo æqualis æqualiter ęqualis ſit, ut per ſpicuum eſt ex ijs, quæ ad de finitionem cubi ſcripſimus. Quia igitur B, cubus multipliplicans{printer-error-correction:multiplicans} numerum quempiam A, facit cubum C; erit & A, cubus. Quare ſi numerus ſe ipſum multiplicans cubum faciat, &c. Quod erat demonſtrandum.
 
 [Calculation]
-A, 8.
-E,16.  D,4.
-F,32.  C,2.
-B,64.  Vnitas.
+A,8.  B,64.  C,512.
 [/Calculation]
 
 [Margin]
-7. pron.
+5. noni.
 [/Margin]
 
-[Margin]
-5. pron.
-[/Margin]
+## SCHOLION.
 
-[Margin]
-20. defin.
-[/Margin]
-
-[Margin]
-8. octaui
-[/Margin]
-
-[Margin]
-23. octaui.
-[/Margin]
-
-## THEOR. 4. PROPOS. 4.
-
-[Margin]
-4.
-[/Margin]
-
-SI cubus numerus cubum numerum multiplicans faciat aliquem; Factus cubus erit.
-
-FIAT ex cubo A, in cubum B, numerus C. Dico C, cubum eſſe. Multiplicans enim A, ſe ipſum faciat D; eritq; D, cubus. Quoniam uero A, multiplicans A, & B, fecit D, & C; erit ut A, ad B, ita D ad C. At inter A, & B, cubos duo medij proportionales cadunt. Igitur & inter D, & C, duo medij proportionales cadent; Ac propterea D, exiſtente cubo, & C, cubus erit. Quo circa ſi cubus numerus cubum numerum multiplicans, &c. Quod erat oſtendendum.
+ALIAM demonſtrationem interpretes Euclidis hoc loco adducunt, & quidem longiorem. Poſtquam enim demonſtrarunt C, factum ex A, in B, eſſe cubum, inferunt: Ergo inter B, & C, cubos duo medij proportionales cadunt. Quoniam uero eſt vt B, ad C, ita A, ad B, quod A, multiplicans A, & B, ipſos B, & C, fecit; cadent quoque inter A, & B, duo medij proportionales; Atque adeo exiſtente B, cubo, & A, cubus erit. Verum noſtra demonſtratio breuior eſt, & planior, ut perſpicuum eſt.
 
 [Calculation]
-A,8.  B,27.
-D,64.  C,216.
+A,8.  B,64.  C,512.
 [/Calculation]
 
 [Margin]
-3. noni.
+12. octaui
 [/Margin]
 
 [Margin]
 17. ſeptimi
-[/Margin]
-
-[Margin]
-12. octaui.
 [/Margin]
 
 [Margin]
@@ -76,4 +42,14 @@ D,64.  C,216.
 23. octaui
 [/Margin]
 
-<!-- Catchword: THEOR. -->
+## THEOR. 7. PROPOS. 7.
+
+[Margin]
+7.
+[/Margin]
+
+SI compoſitus numerus numerum aliquem multiplicans, quempiam faciat: Factus ſolidus erit.
+
+NVMERVS compoſitus A, multiplicans numerum quemlibet B, faciat C. Dico C, eſſe ſolidum. Cum enim
+
+<!-- Catchword: A, ſit -->

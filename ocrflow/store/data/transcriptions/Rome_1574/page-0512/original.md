@@ -1,21 +1,35 @@
 <!-- Running title: LIBER VI. -->
 
-<!-- Page number: 213 -->
+<!-- Page number: 214 -->
 
-& parallelogrammi CG, ad parallelogrammi EH, ex eiſdem proportionibus eſt compoſita. Quod eſt propoſitum.
-
-SINT iam altitudines AI, DK; inæquales, & AI, maior; baſes vero BC, EF, vel æquales, vel etiam inæquales. Fiat, vt AI, ad DK, ita O, ad P; & vt BC, ad EF, ita P, ad Q. Abſciſſa deinde IL, æquali ipſi DK; ducatur per L, ipſi BC, parallela LM, ſecãs AC, in N, iungaturq́; recta BN. Quoniam igitur eſt triangulum ABC, ad triangulum NBC; & parallelogrammum CG, ad parallelogrammum CM, ut altitudo AI, ad altitudinem IL, vel ad DK, ipſi IL, æqualem, hoc eſt, ut O, ad P, per ea, quæ ad 1. propos. huius lib. oſtendimus: Et ut triangulum NBC, ad triangulum DEF, & parallelogrammum CM, ad parallelogrammum EH, ita eſt, baſis BC, ad baſin EF, (cum eadẽ ſit altitudo) hoc eſt, ita P, ad Q. erit ex æquo ABC, ad DEF, & CG, ad EH, ut O, ad Q. Quare cum proportio O, ad Q, componatur ex proportione O, ad P, hoc eſt, altitudinis AI, ad altitudinem DK; & ex proportione P, ad Q, hoc eſt, baſis BC, ad baſin EF: Ex eiſdem proportionibus componetur proportio trianguli ABC, ad triangulum DEF, & parallelogrammi CG, ad parallelogrammum EH. Quod eſt propoſitum.
-
-[Figure: two parallelograms with diagonals and internal lines, the first labelled G, I, A, M, N, B, C, the second labelled D, K, E, F; below them three horizontal lines labelled O, P and Q]
+mum FH, ſimile eſſe eidem parallelogrammo BD; atque adeo & ipſa inter ſe ſimilia erunt. In omni ergo parallelogrammo, quæ circa diametrum ſunt, &c. Quod erat oſtendendum.
 
 [Margin]
-1. ſexti.
+21. ſexti.
 [/Margin]
 
-EODEM pacto oſtendetur proportio trianguli DEF, cuius altitudo minor eſt, ad triangulum ABC, & parallelogrammi EH, ad parallelogrammum CG, compoſita eſſe ex pportione baſis EF, ad baſin BC, & proportione altitudinis DK, ad altitudinẽ AI. Si enim fiat, vt EF, ad BC, ita Q, ad P; & vt DK, ad AI, ita P, ad O, & reliqua fiant, vt prius, erit triangulũ DEF, ad triangulũ NBC, & parallelogrammũ EH, ad parallelogrammum CM, vt EF, ad BC, hoc eſt, ut Q, ad P. Item triangulum NBC, ad triangulum ABC, & parallelogrammum CM, ad parallelogrammum CG, vt LI, ſeu DK, ad AI, hoc eſt, vt P, ad O. Ex æquo igitur erit, vt DEF, ad ABC, & EH, ad CG, ita Q ad O. Quocirca cum proportio Q, ad O, componatur ex proportione Q, ad P, hoc eſt,
+## SCHOLION.
+
+INTELLIGENDA autem ſunt parallelogramma circa diametrum totius, eſſe talia, quæ habeam unum angulũ cum toto parallelogrammo communem, ut manifeſtum eſt ex forma demonſtrationis.
+
+QVOD ſi circa diametrum alicuius parallelogrãmi productam conſiſtat parallelogrammum aliud; ita ut duo huius latera rectas duas componant lineas cum duobus lateribus alterius, uel certe illa his ſint parallela, ijſdem fere medijs oſtendetur, hoc illi eſſe ſimile. Parallelogrammi enim ABCD, diameter BD, ſit producta ad F, circa quam conſiſtat parallelogrammum DEFG, cuius duo latera DE, DG, rectas lineas efficiant cum AD, DC, lateribus parallelogrammi AC. Dico parallelogrammum GE, ſimile eſſe parallelogrammo AC. Quod enim ambo inter ſe ſint æquiangula, facile oſtendetur ex propos. 29. lib. 1. Nam quia angulus A, æqualis eſt angulo alterno ADG; huic autem æqualis quoque eſt alternus angulus G; erunt æquales anguli A, & G. Quare his oppoſiti C, & E, æquales quoque erunt. Rurſus quia anguli ADC, GDE, ad uerticem, ſunt æquales, erunt his quoque oppoſiti ABC, GFE, æquales. Igitur æquiangula ſunt GE, AC, parallelogramma. Quod antè latera habeant proportionalia circum æquales angulos, hac ratione fiet perſpicuum. Cum triangulum BAD, æquiangulũ ſit triangulo DGF; & triangulum BCD, triangulo DEF, ut conſtat ex propos. 29. lib. 1. Erit vt BA, ad AD, ita DG, ad GF. Rurſus vt AD, ad DB, ita GF, ad FD; & ut DB, ad DC, ita FD, ad FE; ac propterea ex æquo vt AD, ad DC, ita GF, ad FE. Sunt igitur latera circa angulos A, ADC, proportionalia lateribus circa angulos G, GFE. Non ſecus oſten des, reliqua latera circa angulos æquales proportionalia eſſe.
+
+[Figure: parallelogram ABCD with diameter BD produced to F, around which stands parallelogram DEFG, labelled A, B, C, D, E, F, G, H, K]
 
 [Margin]
-1. ſexti.
+34. primi
 [/Margin]
 
-<!-- Catchword: EF, -->
+[Margin]
+15. primi
+[/Margin]
+
+[Margin]
+34. primi
+[/Margin]
+
+[Margin]
+4. ſexti.
+[/Margin]
+
+<!-- Catchword: Quare -->

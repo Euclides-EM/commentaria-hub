@@ -1,21 +1,19 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-hoc eſt, per ipſum numerum metientem.
+ipſius A, multiplex. Diuiſo ergo tam BC, quàm BD, in partes ipſi A, æquales; Erit reliquus numerus DC, uel una pars numeri BC, ipſi A, æqualis, uel plures, atque adeo DC, æqualis erit ipſi A, uel eius multiplex. Metitur igitur A, ipſum DC. Quod eſt propoſitum.
 
-VT quia numerus 6. metitur numerum 18. per 3. metitur & numerus 3. eundem numerum 18. per 6. hoc eſt, per vnitates, quæ in metiente numero 6. reperiuntur. Hoc autem ita eſſe, ad hunc modum confirmabimus. Quoniam numerus 6. metitur 18. per 3. fiet numerus 18. ex multiplicatione 6. in 3. vel 3. in 6. per defin. 23. Quare per axioma præcedens numerus 3. numerum 18. metietur per 6.
+[Diagram: three horizontal dotted lines, the first labelled A, the second labelled B, D and C, the third labelled B, D and C]
 
-## IX.
+## THEOR. I. PROPOS. I.
 
-SI numerus numerum metiens, multiplicet eum, per quẽ metitur, uel ab eo multiplicetur, illum quem metitur, producet.
+SI duobus numeris inæqualibus propoſitis, detrahatur ſemper minor de maiore, alterna quadam detractione, neq; reliquus unquã metiatur præcedentẽ, quoad aſſumpta ſit unitas; qui principio propoſiti ſunt numeri, primi inter ſe erunt.
 
-METIATVR enim numerus A, numerum C, per B. Dico A, multiplicantem ipſum B, uel multiplicatum a B, producere ipſum C. Nam numerus A, numerum C, metiri dicitur per eum numerum, quem multiplicans, vel a quo multiplicatus, ipſum C, producit, per defin. 23. Cum ergo A, metiri ponatur ipſum C, per B; perſpicuum eſt, numerum A, multiplicantem ipſum B, vel ab eo multiplicatum, producere ipſum C.
+SINT duo numeri propoſiti inæquales AB, CD, quorum CD, minor ex maiore AB, quoties poteſt, detrahatur: & reliquus EB, ex CD, quoties etiam poteſt; & reliquus FD, ex EB: Et in hac alterna detractione nunquam numerus reliquus præcedentem, a quo fuit detractus, metiatur, donec ad unitatẽ GB, quæ quidem præcedentẽ numerum FD, metitur, detractio perueniat. Dico numeros AB, CD, eſſe inter ſe primos; hoc eſt ſolam unitatem communi menſura eos metiri. Si enim non dicantur inter ſe primi, metietur eos aliquis numerus, qui ſit H, communi menſura, præter unitatem. Quia ergo H, metitur numerum CD; & CD, numerũ AE, (quod CD, uel pars ſit ipſius AE, uel certe ei æqualis, cum detractus ex AB, reliquerit numerum EB,) metietur quoque H, ipſum AE: At H, metitur quoque totum
 
-[Diagram: three horizontal dotted lines labelled A, B and C]
+[Diagram: three horizontal dotted lines, the first labelled A, E, G and B, the second labelled C, F and D, the third labelled H]
 
-## X.
+[Margin]
+11. pron
+[/Margin]
 
-NVMERVS quotcunque numeros metiens, compoſitum quoque ex ipſis metitur.
-
-METIATVR numerus A, numeros BC, CD. Dico eundem A, metiri quoque ex ipſis compoſitum BD. Cum enim A, metiatur ipſos BC, CD; erit tam BC, quam CD, ipſius
-
-<!-- Catchword: A, multi- -->
+<!-- Catchword: AB; -->

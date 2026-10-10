@@ -1,14 +1,31 @@
 <!-- Running title: LIBER. VIII. -->
-<!-- Page number: 283 -->
+<!-- Page number: 289 -->
 
-Diapaſon prima ſui diuiſione in Diapente, & Diateſſaron, quorum interuallorum illud in proportione ſeſquialtera, hoc vero in ſeſquitertia conſiſtit, apud Muſicos ſecatur, vt hic apparet, 2. 3. 4. Eſt enim hic proportio dupla diuiſa in proportionem ſeſquialteram, & ſeſquitertiam, tanquam in maximas ſui partes inter ſe inæquales. Ita quoque Tonus in duo ſemitonia, quorum alterum maius, alterum minus dicitur, ſecari ſolet. Sed de his plura in Muſicis.
+## SCHOLION.
 
-RVRSVM ex his demonſtrari poteſt, proportionem diametri cuiusuis quadrati ad latus eiuſdem, numeris non poſſe exprimi, ſed eſſe irrationalem. Cum enim per ea, quæ ad propos. 47. lib. 1 demonſtrauimus, quadratum diametri duplũ ſit quadrati ex latere deſcripti; quadratorum uero proportio ſit duplicata proportionis laterum; fit, vt proportio quadrati ex diametro deſcripti ad quadratum lateris duplicata ſit proportionis diametri ad latus. Cum ergo illa proportio, cuius duplicata eſt proportio dupla, numeris exprimi nequeat, quod inter numeros duplæ proportionis medius proportionalis non cadat, qui illam bifariam ſecet, ut oſtendimus; manifeſtum eſt, nec proportionem diametri ad latus numeris exprimi poſſe, ſed eſſe irrationalem, ſeu, quod idem eſt, diametrum eſſe lateri incõmenſurabilem. qua de re plura ſcribemus in 9. & ultima propos. lib. 10.
+PERSPICVVM autem eſt, numeros, qui continua proportione cadunt inter numeros A, & B, ac unitatem, habere proportiones denominatas a minimis numeris proportionis A, ad C; hoc eſt, quas habent E, & F, numeri ad unitatem; id quod in ſcholio propos. 2. huius lib. aſſeruimus.
 
-## THEOR. 7. PROPOS. 9.
+CONSTAT quoque ex demonſtratione hac, ſi numerus ſe ipſum multiplicans aliquem fecerit; & rurſum multiplicet productum, & ſic deinceps: omnes productos eſſe continue proportionales ab unitate. Oſtenſum enim eſt & E, G, K, & F, I, N, qui hac ratione ſunt procreati, ex demonſtratione propos. 2. huius lib. continue eſſe proportionales ab unitate.
 
-SI duo numeri ſint inter ſe primi, & inter eos medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri, totidem & inter utrunque eorum, ac unitatem medij continua proportione cadent.
+## THEOR. 8. PROPOS. 10.
 
-CADANT inter numeros A, B, inter ſe primos medij continue proportionales C, D. Dico, totidem cadere conti
+[Margin]
+10.
+[/Margin]
 
-<!-- Catchword: nue -->
+SI inter duos numeros, & unitatem, continue proportionales ceciderint numeri; quot inter utrunque ipſorum, & unitatẽ deinceps medij continua proportione cadunt numeri, totidem & inter ipſos medij continua proportione cadent.
+
+CADANT inter utrunque numerorum A, B, & unitatem, quotcunque numeri medij continue proportionales; inter A, quidem & unitatem, numeri C, D, E. At vero inter B, & unitatẽ, numeri F, G, H, illis multitudine æquales. Dico totidem medios continue proportionales cadere inter A, & B, quot inter utrunque A, B, & unitatem.
+
+[Calculation]
+A,81. M,162. N,324. O,648. B,1296.
+E,27. K,54. L,108. H,216.
+D,9. I,18. G,36.
+C,3. F,6.
+Vnitas.
+[/Calculation]
+
+Multiplicantes ſe mutuo C, & F, faciant I. Deinde C, multiplicans I, & G, faciat K, & L. Rurſus idẽ C, multiplicans K, L, & H,
+
+<!-- Signature: Oo -->
+<!-- Catchword: faciat -->

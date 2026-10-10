@@ -1,33 +1,18 @@
 <!-- Running title: LIBER VIII. -->
+<!-- Page number: 301 -->
 
-<!-- Page number: 300 -->
+quis inficiari poterit, ſi duorum planorum ſimilium vnus fuerit quadratus, alterum quoque quadratum eſſe, & ſi duorum ſimilium ſolidorum vnus cubus fuerit, alterum etiam eſſe cubum: quod tamen in demonſtratione pro conceſſo, atque omnibus perſpicuo aſſumebatur. Nam poſitis duobus numeris planis 36. & 64. ſimilibus, ſatis eſt, ut duobus lateribus prioris, qualia ſunt 3. & 12. exhibeantur alia duo latera poſterioris, nimirum 4, & 16. proportionalia. Vnde etiamſi prior ſit quadratus, habens duo latera æqualia 6. & 6. merito dubitare quis poſſit, immo omnino negare, poſteriorem habere alia duo latera his proportionalia, hoc eſt, inter ſe quoque æqualia, atque adeo eſſe quadratum: quemadmodum etiam manifeſtum eſt, hiſce lateribus prioris 4. & 9. uel 2. & 18 non reſpondere alia latera in poſteriori proportionalia. Si igitur his lateribus prioris numeri non reperiuntur alia latera in poſteriori proportionalia, quanquam ipſi numeri ſint ſimiles, cur ſine demonſtratione vlla concedemus, his lateribus prioris æqualibus 6. & 6. aſſignari poſſe in poſteriori alia duo proportionalia, nempe & inter ſe æqualia? Idem dicendum eſt de ſolidis ſimilibus. Quapropter vtramque propoſitionem Euclidis aliter, demonſtrabimus, ad hunc, qui ſequitur modum.
 
-[Margin]
-9. pron.
-[/Margin]
+SINT tres numeri A, B, C, continue proportionales, & primus A, quadratus. Dico & C, tertium eſſe quadratum. Sumpto enim D, latere quadrati A; cum D, ex defin in ſe faciat A; erunt D, & A, ex ſcholio propos. 9. huius lib. ab vnitate continue proportionales; eritque conuertendo A, ad D, vt D, ad unitatem; atque adeo cum inter
 
-[Margin]
-18. ſeptimi
-[/Margin]
+[Calculation]
+A,36. B,48. C,64.
+D,6. E,8.
+Vni-tas.
+[/Calculation]
 
-[Margin]
-17. ſeptimi
-[/Margin]
+numerum A, eundem, & tam numerum C, quam unitatem, cadant medij proportionales multitudine æquales, nempe unus; cadent quoque totidem, ex theor. 3. ſcholij propos. 10. huius lib. inter unitatem, atque C, numerum, nimirum unus, qui ſit E. Quoniam igitur vnitas & E, C, numeri ſunt continue proportionales; producetur C, ex E, in ſe ipſum, ex ſcholio propos. 10. huius lib. Ac proinde C, quadratus erit, ex defin. cuius latus E.
 
-habentes rationem cum illis; metiantur per N; ita ut M, multiplicans E, F, G, faciat A, C, D; & N, multiplicans eoſdem E, F, G, faciat C, D, B. Factus eſt autem E, ex multiplicatione mutua ſuorum laterum H, & I; nec non G, ex mutua multiplicatione ſuorum laterum K, & L. Igitur A, producitur ex mutua multiplicatione H, I, M; & B, ex mutua multiplicatione K, L, N; atque adeo A, ſolidus eſt numerus, ex defin. latera habens H, I, M; & B ſolidus etiam, latera habens K, L, N. Quia uero M, & N, multiplicantes F, faciunt C, & D, ut oſtendimus; erit C, ad D, ut M, ad N: Sunt autem C, & D, in eadem ratione, in qua E, & F, quod N, multiplicans E, & F, fecerit ipſos C, & D; Nec non & E, F, eandem habent rationem quam H, K, uel I, L; Etenim inter planos ſimiles E, G, cadit F, medius proportionalis, per coroll. propos. 19. huius lib. in ratione laterum homologorum H, K, uel I, L. Igitur erit quoque H, ad K, & I, ad L, ut M, ad N; & permutando H, ad I, ut K, ad L; & I, ad M, ut L, ad N. Proportionalia ergo ſunt latera H, I, M, lateribus K, L, N; ac propterea ſimiles ſunt numeri ſolidi A, & B. Quam ob rem, ſi inter duos numeros duo medij proportionales cadant numeri, &c. Quod erat demonſtrandum.
+ALITER. Sumptis tribus numeris D, E, F, minimis in ratione A, ad B, & B, ad C; metietur D, ipſum A, & F, ipſum
 
-## SCHOLION.
-
-DVO exempla appoſuimus, in quorum priori liquido conſtat, vnitatem E, eſſe planum numerum, & vnitates H, I, eius latera, licet improprie, ut in definitione numeri plani monuimus. Si enim vnitatem a numeris planis excludamus, non poterimus hac argumentatione Euclidis demonſtrare, numeros A, & B, qui includunt duos medios proportionales C, & D, eſſe ſolidos ſimiles. Quod idem continget in alijs omnibus numeris, qui habent duos medios proportionales in ratione multiplici, cuiuſmodi ſunt etiam A, B. Hoc autem eſt abſurdum, cũ Euclides propoſitionem generaliter proponas, demonſtresque ſine vlla exceptione.
-
-[Margin]
-20.
-[/Margin]
-
-## THEOR. 21. PROPOS. 22.
-
-SI tres numeri deinceps ſint proportio
-
-<!-- Signature: Pp 4 -->
-
-<!-- Catchword: nales, -->
+<!-- Catchword: ſum -->

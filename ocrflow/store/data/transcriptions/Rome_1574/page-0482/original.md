@@ -1,19 +1,24 @@
 <!-- Running title: LIBER. VI. -->
-<!-- Page number: 198 -->
+<!-- Page number: 199 -->
 
-## SCHOLION.
+inter ſe parallelæ oſtendentur. Quare, ut ex demonſtratione huius 10. propos. liquet, quemadmodum EG, diuiſa eſt in quinque partes æquales, ita ſimiliter in totidem diuiſa erit EI. Si igitur officio circini ſingulæ partes lineæ EI, transferantur in rectam propoſitam AB, ipſi EI, æqualem, diuiſa erit & AB, in quinque partes æquales. Quod eſt propoſitum.
 
-EX hoc problemate colligi poteſt facilis admodum uia, ac ratio diuidendi lineam rectã datam in partes quotcunque æquales: id, quod nos ad propos. 10. lib. 1. facturos recepimus. Sit enim data recta AB, diuidenda in quinque partes æquales. Ducta recta AC, faciente cum AB, quemcunque angulũ CAB, ſumantur ex ea quinque partes æquales AD, DE, EF, FG, GH. Quia igitur linea recta AH, utcunque eſt diuiſa, ſi ex H, ad B, ducatur recta HB, & huic ex punctis D, E, F, G, parallelæ agantur DI, EK, FL, GM; erit AB, ſimiliter diuiſa, ut AH, ceu conſtat ex demonſtratione huius problematis. Cum igitur AH, ſit diuiſa in quinque partes æquales, erit & AB, in totidem æquales partes diuiſa. Haud aliter in plures partes æquales diuidetur eadem recta AB.
+[Figure: line AB divided by marks above a ladder-like instrument of two oblique lines CD and EF joined by parallel rungs, with points M, E at top, L, K, G in the middle, and N, H, I below]
 
-[Figure: line AC rising from A with points D, E, F, G, H marked, and parallels drawn to base AIKLMB, with B at the right end]
+ALIQVANDO autem neceſſe eſt lineas parallelas extra inſtrumentum producere. Vt ſi eadẽ linea transferatur ab M, uſque ad N, punctum lineæ GH, protractæ, erit quoque MN, diuiſa in quinque partes æquales. Vt conſtat, ſi ducatur ex M, ipſi EG, parallela, uſque ad rectam GH. Quod ſi linea diuidenda fuerit admodum breuis, accipiendæ erunt partes parallelarum CD, EF, minores, &c.
 
-HVIC rationi diuidendæ lineæ rectæ in quotcunque partes æquales, adiungi poſſunt aliæ non iniucundæ, ceu propos. 10. lib. 1. ſumus polliciti. Sit enim rurſus data linea recta AB, diuidenda in quinque partes æquales. Ducatur ex B, recta BC, utcunque faciens angulum cum AB; Deinde ex aſſumpto puncto D, agatur DE, parallela ipſi AB, ex qua abſcindantur quinque æquales partes DF, FG, GH, HI, IK, ea lege tamen, ut DK, minor ſit quam AB. Poſtremo ex A, per K, recta ducatur AL, occurrens ipſi BC, in L, puncto, a quo per puncta F, G, H, I, rectæ ducantur LP, LO, LN, LM, quas dico diuidere rectã AB, in quinque partes æquales. Cum enim DE, ſit parallela ipſi AB, erit angulus LIK, angulo LMA, & angulus LKI, angulo LAM, æqualis: eſt autem angulus ALM, communis; Aequiangula igitur ſunt triangula LKI, LAM, ac propterea ut LI, ad IK, ita LM, ad MA; Item eadem ratione, ut LI, ad IH, ita LM, ad MN: ſed ut LI,
+EODEM modo, ad ſimilitudinem huis propoſitionis, licebit nobis facili negotio datam lineam ſecare in duas partes, quæ habeant proportionem quamcunque datam. Id enim non raro a Geometris exigitur.
 
-[Figure: point L at top with C above, lines from L crossing the parallel EKIHGFD and meeting the base A MNOP B]
+SIT ſecanda recta AB, in duas partes, quæ habeant proportionem inter ſe, quam rectæ C, & D. Ex A, ducatur linea AE, faciens angulum A, quemcunque, ex qua abſcindatur recta AF, ipſi C, & FG, ipſi D, æqualis: Ducta deinde GB, ducatur ei per F, parallela FH. Dico AB, ſectam eſſe in H, ſecundum proportionem C, ad D. Hoc autem manifeſtum eſt, cum ſit, ut AF, ad FG, atque adeo, ut C, ad D, ita AH, ad HB.
+
+[Figure: two short vertical lines C and D beside a triangle with apex A, base E B, and points F, G, H marking the parallel FH]
 
 [Margin]
-29. primi
-4. ſexti.
+2. ſexti.
 [/Margin]
 
-<!-- Catchword: ad -->
+POSTREMO inferemus huic loco theorema quoddam ad linearum etiam ſectiones pertinens, deſumptum ex Federico Commandino in libellum Archimedis de ijs, quæ uehuntur in aqua. Nimirum.
+
+SI duæ rectæ lineæ ſecentur in binis punctis proportionaliter: Erunt quoque intermediæ ſe
+
+<!-- Catchword: ctiones -->

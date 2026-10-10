@@ -1,13 +1,14 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Page number: [illegible] -->
+<!-- Running title: EVCLID. GEOM. -->
 
-munis menſura, illum metiatur per 6. hunc uero per 10. Idem iudicium habeto & in reliquis.
+ter par nuncupabitur, cum eum par numerus 4. metiatur per numerum parem 6. &c.
 
-QVOD ſi roges, cur Euclides hoc in loco non ſolum eum numerum minorem definiat, qui maioris pars eſt, verum etiam illum, qui partes: non autem idipſum quinto lib. in magnitudinibus præſtiterit; Neque enim magnitudinem illam minorem, quæ maiorem non metitur, partes appellauit; ſed tantum eam, quæ maiorem metitur, partem. Reſpondemus, huius rei cauſam eſſe, quod omnis numerus minor cuiuslibet maioris aut pars eſt, aut partes, ceu propoſ. 4. huius lib. oſtendetur; pars quidem, cum ipſum metitur, partes uero, cum non metitur. At in magnitudinibus longe aliter ſe res habet. Non enim, propoſitis duabus magnitudinibus inæqualibus, neceſſario minor aut pars, aut partes eſt maioris, cum eæ perſæpe ſint incommenſurabiles, ut aperte liber decimus demonſtrabit, atque adeo minor nullo modo contineat plures partes maioris. Nam ſolum in magnitudinibus commenſurabilibus, minor maioris partes plures comprehendit, ſi illum non metiatur. Recte igitur Euclides in quinto lib. partem duntaxat in magnitudinibus, hic autem in numeris & partem, & partes explicauit.
+## IX.
 
-## V.
+## PARITER autem impar eſt, quem par numerus metitur per numerum imparem.
 
-## MVLTIPLEX uero maior minoris, cum maiorem metitur minor.
+QVOD ſi numerum parem metiatur numerus par per imparem numerum, vocabitur is pariter impar. Qualis eſt par numerus 30. Metitur enim eum numerus par 2. per imparem numerum 15. Sic quoque par numerus 6. metitur eundem per numerum imparem 5. &c.
 
-QVEMADMODVM ille ſolum numerus minor, maioris pars dicitur, qui maiorem metitur, ita quoque ille tantummodo numerus maior, minoris appellatur multiplex, quem minor metitur; adeo ut numerus maior, cuius minor eſt pars, ſit viciſſim minoris multiplex. Vt numerus 6. pars eſt numeri 30. & hic illius multiplex eſt, &c. Si vero maiorem minor nõ metiatur, nullo modo erit maior minoris multiplex. Si enim maior minoris multiplex eſſet, metiretur minor maiorem, per hãc definitionem. Et viciſſim, ſi maior minoris non fueris{printer-error-correction:fuerit} multitiplex{printer-error-correction:multiplex}, minor maiorem nõ metietur. Nam ſi metiretur minor maiorem, eſſet per hanc defin. maior minoris multiplex.
+CAETERVM ſi recte duæ proximæ definitiones expendantur, perſpicuum erit, fieri poſſe, ut unus idemque numerus par, ſit & pariter par, & pariter impar. Nam par numerus 24. cum eum metiatur par numerus 6. per numerum parem 4. pariter par erit. Rurſus quia eundem numerus par 8. metitur per numerum imparem 3. pariter quoque impar uocabitur. Vnde interpretes nonnulli, exiſtimantes hoc eſſe abſurdum, vt excluderent numeros eiuſmodi pares, qui & pariter pares, & pariter impares videntur eſſe, addiderunt vtrique definitioni particulam, tantum; ita vt numerus pariter par, ſecundum eos, ſit, quem par numerus metitur per numerum parem tantum; Pariter autem impar, quem par numerus metitur per numerum imparem tantum. Ita enim fit, vt propoſitus numerus par 24. neque pariter par ſit, cum eum non tantum metiatur par 6. per parem 4. ſed etiam par 8. per imparem 3. Neq́; pariter impar, quod eum metiatur non tantum, vt dictum eſt, par 8. per imparem 3. verum etiam par 6. per parem 4. Sed apte vocari poterit pariter par, & pariter impar. Participat enim quodammodo naturam vtriuſque, vt conſtat. Itaque tria conſtituentur genera numeri paris inter ſe maxime diuerſa: Pariter par; pariter impar; pariter par & pariter impar, qui a quibuſdam, pariter par & impariter appellatur. Veruntamen hæc omnia vera quidem ſunt, & ex ſententia Pythagoreorum, Nicomachi, Boetij, & aliorum recte explicata, ſed aliena prorſus ab Eu-
 
-<!-- Catchword: VI. -->
+<!-- Catchword: clide -->

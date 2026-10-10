@@ -1,55 +1,33 @@
 <!-- Running title: EVCLID. GEOM. -->
 
 [Margin]
-8. noni.
+5. pron.
 [/Margin]
 
-D,E,F, eandem habeant rationem; quam tres A, B, C,) & conuertendo ut F, ad D, ita C, ad A; habebit C, ad A, rationem, quam cubus F, ad cubum D: Sed C, eſt cubus, nempe
-
-[Calculation]
-Vnitas. A,2. B,4. C,8. D,16. E,32. F,64. G,128. H,256. I,512.
-[/Calculation]
-
-[Margin]
-25. octaui
-
-8. noni.
-
-25 octaui
-[/Margin]
-
-quartus ab unitate. Igitur & A, primus ab unitate cubus erit. quod eſt contra hypotheſim. Non igitur D, cubus eſt. Quod ſi E, credatur eſſe cubus; cum & C, cubus ſit, ſitque ex æquo, ut C, cubus ad E, cubum, ita A, ad C, & conuertendo ut cubus E, ad cubum C, ita C, ad A; exiſtente C, cubo, erit, & A, cubus. quod non ponitur. Non ergo E, cubus eſt. Quemadmodum autem oſtenſum eſt duos D, & E, inter duos cubos C, & F, cubos non eſſe, ita quoque eadem ratione oſtendemus neque G, & H, inter cubos F, & I, neque ullos alios duos, inter duos cubos, eſſe cubos. Si igitur ab unitate quotcunque numeri, &c. Quod demonſtrandum erat.
+merum G: Sed unitas metitur numerum D, per ipſummet D. Igitur & C, numerus numerum G, per D, metietur. Eadem ratione metietur E, ipſum F, per A, quod ſit ut E, ad F, ita unitas ad A, &c. Sic quoque metietur A, ipſum G, per F, cum ſit ex æquo ut A, ad G, ita unitas ad F, &c. Atque ita de reliquis eodem modo. Si igitur ab unitate quotcunque numeri deinceps proportionales fuerint, &c. quod erat oſtendendum.
 
 ## SCHOLION.
 
-NON eſt autem neceſſe, ſi numerus, qui poſt vnitatem, non ſit cubus ſimul, & quadratus, nullum alium eſſe cubum ſimul, & quadratum, præter ſeptimum ab unitate, & quinque intermittentes omnes; cum aliquando tertius ab vnitate, aliquando vero quartus poſſit eſſe cubus ſimul, & quadratus, non exiſtente primo ab unitate cubo ſimul, & quadrato.
-
-SIT enim primum A, qui poſt unitatem, cubus quidem, nõ autem ſimul & quadratus. Dico B, tertium eſſe cubum ſimul & quadratum; cubum quidem,
+PERSPICVVM autem eſt ex his, quantum abeſt maior numerus a minore metiente, tantum diſtare ab vnitate eum numerum, per quem minor maiorem metitur; propterea quod eadem eſſe debet proportio minoris ad maiorem, quæ vnitatis ad eum, per quem metitur minor maiorem, ut ex demonſtratio-
 
 [Calculation]
-Vnitas. A,8. B,64.
+Vnitas. A,3. B,9. C,27. D,81. E,243. F,729. G,2187.
 [/Calculation]
 
-[Margin]
-9. noni.
-8. noni.
-[/Margin]
-
-quod primo exiſtente cubo, omnes cubi ſunt; quadratum uero, quod tertius ſit ab unitate.
-
-SIT deinde A, poſt unitatem quadratus quidem, non autem ſimul & cubus. Dico quartum C, eſſe cubum ſimul & quadratum; Cu-
-
-[Calculation]
-Vnitas. A,4. B,16. C,64.
-[/Calculation]
+ne apparet. Itaque B, metietur F, per D; Et C, metietur F, per C, nempe per ſe ipſum, &c.
 
 [Margin]
-8. noni.
-9. noni.
+9. pron.
 [/Margin]
 
-bum quidem, quod quartus ſit ab unitate; quadratum uero, quod primo exiſtente quadrato, omnes ſunt quadrati.
+HINC rurſus efficitur, quemlibet numerum, qui ſe ipſum multiplicet, producere numerum, qui in numeris proportionalibus tantum ab eo diſtat, quantum ipſe ab unitate. Si vero minor aliquis maiorem quempiã multiplicet, procreari numerum, qui tantum a maiore diſtat, quantum minor ab ab{printer-error-correction:ab} vnitate; propterea quod ſi numerus numerum metiens multiplicet eum, per quem metitur, producatur ille, quem metitur. Ergo C, ſe ipſum multiplicans gignet F, cum F, tantum abſit a C, quantum C, ab vnitate; ac propterea C, ipſum F, per C, metiatur, vt diximus. Sic quoque B, multiplicans D, faciet eundem F; quod D, ipſum F, metiatur per B, &c. & ſic de reliquis.
 
-SIT poſtremo A, poſt vnitatem neque cubus, neque qua-
+[Margin]
+11.
+[/Margin]
 
-<!-- Catchword: dratus. -->
+## THEOR. 12. PROPOS. 12.
+
+SI ab unitate quotcunque numeri deinceps proportionales fuerint; quicunque pri-
+
+<!-- Catchword: morum -->

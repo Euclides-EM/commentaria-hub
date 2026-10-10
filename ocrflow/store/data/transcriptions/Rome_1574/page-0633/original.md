@@ -1,28 +1,30 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-quem illi minimum metiantur, numerum.
+tiantur: Etiam minimus, quem illi metiuntur, eundem metietur.
+
+METIANTVR duo numeri A, & B, quemlibet numerum CD, ſitque alius numerus E, minimus, quem ijdem A, & B, metiuntur. Dico & E, ipſum CD, metiri. Si enim E, ipſum CD, non metitur; ablato E, ex CD, quoties poteſt auferri, relinquetur numerus quidam minor, quam E. Relinquat igitur E, ablatus ex CD, quoties poteſt, numerũ, ſi fieri poteſt, FD, minorem ſe, ita ut E, metiatur ablatum CF. Quoniam igitur tam A, quam B, ipſum E, metitur, & E, ipſum CF; metietur quoque tam A, quam B, ipſum CF. Itaque A, & B, cum metiantur totum CD, & ablatum CF; metientur & reliquum FD. Eſt autem FD, minor quam E. Non igitur E, minimus eſt numerus, quem A, & B, metiuntur. Quod eſt abſurdum, & contra hypotheſim; Quare E, ipſum CD, metitur. Si duo ergo numeri numerum quempiam metiantur, &c. Quod erat demonſtrandum.
+
+[Diagram: three dotted lines labelled A, B and E, and a line C…F—D]
 
 [Margin]
-7. pron.
-9. pron.
-19. ſeptimi
-23. ſeptimi
-21. ſeptimi
-17. ſeptim.
+11. pron.
+12. pron.
 [/Margin]
 
-SIT reperiendus minimus numerus omnium, quos dati numeri A, & B, metiuntur. Sint primum dati numeri A, & B, inter ſe primi, ſeſeque mutuo multiplicantes faciant C. Dico C, eſſe minimum, quẽ A, & B, metiuntur. Quod enim cum metiantur, perſpicuum eſt. Nam cum producatur C, ex A, in B, uel ex B, in A; metietur A, ipſum C, per B; & B, eundem C, per A. Vterque igitur A, & B, ipſum C, metitur. Quod autem C, ſit minimus omniũ, quos A, & B, metiuntur, ſic demonſtrabimus. Si C, non eſt minimus, metiantur, ſi fieri poteſt, A, & B alium numerum D, ipſo C, minorem; metiaturque A, ipſum D, per E, at B, eundem D, per F. Quo poſito, tam ex A, in E, quam ex B, in F, & e contrario, producetur numerus D. Quia igitur idem numerus D, fit ex A, primo in E, quartum, & ex B, ſecundo in F, tertium; erit, ut A, primus ad B, ſecundum, ita F, tertius ad E, quartum. Igitur A, & B, (cum ponantur primi inter ſe, & ob id, in ſua proportione minimi ſint) æque metientur ipſos F, & E; nimirum A, ipſum F, & B, ipſum E. Quoniam uero A, multiplicans B, & E, facit C, & D, erit C, ad D, ut B, ad E: Ac propterea cum B metiatur ipſum E, ut oſtenſum eſt; metietur & C, numerus numerum D, maior minorem. Quod eſt abſurdum. Non igitur A, & B, metientur alium numerum minorem ipſo C; atque adeo C, minimus eſt omnium, quos metiuntur.
-
-[Diagram: dotted and dashed rows labelled A, B, C, D, E and F]
+## PROBL. 5. PROPOS. 38.
 
 [Margin]
-35. ſeptimi
-19. ſeptim
-7. pron.
+36.
 [/Margin]
 
-SINT ſecundo dati numeri A, & B, non primi inter ſe. Inueniantur C, & D, minimi in eadem proportione, ut ſint quatuor numeri proportionales, nempe A, ad B, ut C, ad D. Quo poſito, fiet idem numerus, ex A, primo in D, quartum, & ex B, ſecundo in C, tertium. factus ergo ſit E. Dico E, hac uia procreatũ eſſe minimum, quem A, & B, metiuntur. Quod enim cum me
+TRIBVS numeris datis, reperire, quẽ illi minimum metiantur, numerum.
 
-[Diagram: dotted and dashed rows labelled A, B, C, D, E, F, G and H]
+SIT inueniendus minimus numerus, quem dati tres numeri A, B, C, metiantur. Inuento D, minimo, quem metiantur duo A, & B; metietur & eundem D, reliquus C, aut non metietur. Metiatur primo C, ipſum D, ita ut omnes tres A, B, C, ipſum D, metiantur. Dico numerum D, minimum inuentum, quem A, & B, metiantur, minimum quoque eſſe, quẽ tres A, B, C, metiantur. Si enim D, non eſt minimus, me
 
-<!-- Catchword: tiantur -->
+[Diagram: dotted lines labelled A, B, C, D and E]
+
+[Margin]
+36. ſeptimi
+[/Margin]
+
+<!-- Catchword: tiantur, -->

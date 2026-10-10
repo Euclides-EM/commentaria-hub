@@ -1,32 +1,27 @@
 <!-- Running title: EVCLID. GEOM. -->
-<!-- Page number: [unclear: 223] -->
 
 [Margin]
-31. ſexti.
+32.
 [/Margin]
 
-ſimilis ſit ei, quæ ſuper BC, ſimiliterque poſita) deſcriptis æqualis figuris ſuper AD, AC, deſcriptis, quæ ei ſimiles ſint, ſimiliterque poſitæ: Eſt autem figura ſuper AD, æqualis figuræ ſuper AB, ob æqualitatem laterum; Quare figura ſuper CD, æqualis erit figuris ſuper AB, AC. Cum igitur figura ſuper BC, eiſdẽ figuris ſuper AB, BC, æqualis ponatur; erunt figuræ ſuper CD, BC, inter ſe æquales, ac propterea rectæ CD, BC, æquales erunt, ut conſtat ex lemmate propos. 22. huius lib. Quoniam igitur latera AD, AC, trianguli ADC, æqualia ſunt lateribus AB, AC, trianguli ABC; & baſis DC, oſtenſa eſt quoque æqualis baſi BC; erunt anguli DAC, BAC, æquales. Quare cum DAC, rectus ſit, ex conſtructione, rectus quoque erit BAC; quod eſt propoſitum.
+## THEOR. 23. PROPOS. 33.
 
-[Diagram: triangle with vertices B and C at the base and A on the left side, with a line extending above A to point D, forming triangle DBC]
+IN æqualibus circulis, anguli eandem habent rationem cum peripherijs, quibus inſiſtunt, ſiue ad centra, ſiue ad peripherias conſtituti inſiſtant: Inſuper uero & ſectores, quippe qui ad centra conſiſtunt.
+
+SINT duo circuli æquales ABC, EFG, quorum cẽtra D, H; ſumanturque ex circulis duo arcus quicunque BC, FG, quibus ad centra quidem inſiſtãt anguli BDC, FHG; ad circunferentias uero anguli BAC, FEG. Dico eſſe ut arcũ BC, ad arcum FG, ita angulum BDC, ad angulum FHG; & angulum BAC, ad angulum FEG; & ſectorem BDC, qui rectis BD, DC, & arcu BC, continetur, ad ſectorem FHG, quem comprehendunt rectæ FH, HG, & arcus FG. Ductis enim rectis BC, FG, applicentur ipſis in circulis æquales rectæ, CI, quidem ipſi BC, At uero GK, KL, ipſi FG: ducanturque rectæ ID, KH, LH. Quoniam igitur æquales ſunt rectæ BC, CI, erunt quoque æquales arcus BC, CI, ac propterea anguli BDC, CDI, æquales erunt. Eadem ratione æquales erunt & arcus FG, GK, KL, & anguli FHG, GHK, KHL. Quã multiplex ergo eſt arcus BCI, ipſius arcus BC, tam multiplex erit angulus BDI, ſeu aggregatum angulorum prope centrum D, inſiſtentium arcui BCI, anguli BDC: Et quã multiplex eſt arcus FGKL, ipſius arcus FG, tam multiplex erit angulus FHL, ſeu aggregatum angulorum prope centrum H, arcui FGKL, inſiſtentium, anguli FHG: quia in tot angulos æquales diuiſi ſunt anguli BDI, FHL, in quot arcus æquales ſecti ſunt arcus BCI, FGKL. Quoniã uero
 
 [Margin]
-8. primi
+1. quarti.
 [/Margin]
 
 [Margin]
-30.
+28. tertij.
 [/Margin]
-
-## THEOR. 22. PROPOS. 32.
-
-SI duo triangula, quæ duo latera duobus lateribus proportionalia habeant, ſecundum unum angulum compoſita fuerint, ita ut homologa eorum latera ſint etiam parallela; tum reliqua illorum triangulorum latera in rectam lineã collocata reperiẽtur.
-
-HABEANT triangula ABC, DCE, latera AB, AC, lateribus DC, DE, proportionalia, ut quidem AB, ad AC, ita DC, ad DE; componanturque ad angulum ACD. ita ut latera homologa AB, DC; Item AC, DE, inter ſe ſint parallela. Dico duo latera reliqua BC, CE, rectam cõponere lineam. Cum enim parallelæ ſint AB, DC, erit angulus A, alterno ACD, æqualis: Eademq́; ratione angulus D, eidem ACD, æqualis erit; ac propterea A, & D, inter ſe quoque exiſtent æquales. Quoniam igitur triangula ABC, DCE, habent latera circa æquales angulos A, & D, proportionalia; ipſa erũt
-
-[Diagram: large triangle ABC with base BC, and a smaller triangle DCE placed to its right, sharing the point C on the base line, with E to the right of C]
 
 [Margin]
-29. primi
+27. tertij.
 [/Margin]
 
-<!-- Catchword: inter -->
+[Diagram: two equal circles with inscribed lines; the left circle has points A, I, D, N, B, C, M, the right circle has points E, L, H, K, F, G]
+
+<!-- Catchword: uero -->

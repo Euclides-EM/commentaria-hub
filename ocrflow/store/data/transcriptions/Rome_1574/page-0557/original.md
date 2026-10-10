@@ -1,14 +1,17 @@
-<!-- Page number: [illegible] -->
 <!-- Running title: EVCLID. GEOM. -->
 
-ter par nuncupabitur, cum eum par numerus 4. metiatur per numerum parem 6. &c.
+QVOD ſi numerum quempiam nullus numerus, ſed ſola vnitas metiatur, ita vt neq; pariter par, neque pariter impar, neq; impariter impar poſſit dici, appellabitur numerus primus; quales ſunt omnes iſti 2. 3. 5. 7. 11. 13. 17. 19. 23. 29. 31. &c. Nam eos ſola vnitas metitur.
 
-## IX.
+## XII.
 
-## PARITER autem impar eſt, quem par numerus metitur per numerum imparem.
+## PRIMI inter ſe numeri ſunt, quos ſola vnitas, communis menſura, metitur.
 
-QVOD ſi numerum parem metiatur numerus par per imparem numerum, vocabitur is pariter impar. Qualis eſt par numerus 30. Metitur enim eum numerus par 2. per imparem numerum 15. Sic quoque par numerus 6. metitur eundem per numerum imparem 5. &c.
+SICVT numerus ille, quem ſola vnitas metitur, Primus dicitur; ita quoque duo, tres, quatuor, vel etiam plures numeri, quos præter vnitatem, nullus numerus, tamquam menſura communis metitur, quamuis ſinguli illorum habeant numeros, qui eos, præter vnitatem metiantur, appellantur incer{printer-error-correction:inter} ſe primi. Vt 15. 8. ſunt numeri inter ſe primi, quia ſola vnitas, menſura communis illos metitur: quamuis enim priorem metiantur hi numeri 3. & 5. poſteriorem uero iſti 2. 4. tamen nullus iſtorum vtrunque metitur, ſed ſola vnitas vtriuſque eſt cõmunis menſura. Sic etiam hi numeri 7. 10. 15. primi inter ſe dicentur, quod præter vnitatem, nullum habeant numerum, menſuram communem, quamquam poſtremi duo habeant communem menſuram hunc numerum 5. Denique vnitas, & quiuis numerus, dici poſſunt, licet improprie, numeri inter ſe primi: quia ſola vnitas vnitatem, & numerum quemuis metitur.
 
-CAETERVM ſi recte duæ proximæ definitiones expendantur, perſpicuum erit, fieri poſſe, ut unus idemque numerus par, ſit & pariter par, & pariter impar. Nam par numerus 24. cum eum metiatur par numerus 6. per numerum parem 4. pariter par erit. Rurſus quia eundem numerus par 8. metitur per numerum imparem 3. pariter quoque impar uocabitur. Vnde interpretes nonnulli, exiſtimantes hoc eſſe abſurdum, vt excluderent numeros eiuſmodi pares, qui & pariter pares, & pariter impares videntur eſſe, addiderunt vtrique definitioni particulam, tantum; ita vt numerus pariter par, ſecundum eos, ſit, quem par numerus metitur per numerum parem tantum; Pariter autem impar, quem par numerus metitur per numerum imparem tantum. Ita enim fit, vt propoſitus numerus par 24. neque pariter par ſit, cum eum non tantum metiatur par 6. per parem 4. ſed etiam par 8. per imparem 3. Neq́; pariter impar, quod eum metiatur non tantum, vt dictum eſt, par 8. per imparem 3. verum etiam par 6. per parem 4. Sed apte vocari poterit pariter par, & pariter impar. Participat enim quodammodo naturam vtriuſque, vt conſtat. Itaque tria conſtituentur genera numeri paris inter ſe maxime diuerſa: Pariter par; pariter impar; pariter par & pariter impar, qui a quibuſdam, pariter par & impariter appellatur. Veruntamen hæc omnia vera quidem ſunt, & ex ſententia Pythagoreorum, Nicomachi, Boetij, & aliorum recte explicata, ſed aliena prorſus ab Eu-
+## XIII.
 
-<!-- Catchword: clide -->
+## COMPOSITVS numerus eſt, quẽ numerus quiſpiam metitur.
+
+NVMERVM, quem præter vnitatem aliquis alius numerus metitur, appellant Geometræ compoſitum, cuiuſmodi eſt hic 15. Nam cum vterque horum numerorum 3. 5. metitur. Perſpicuum autem eſt, omnes numeros pares, dempto binario, eſſe compoſitos, cum eos omnes binarius metiatur. Ex quo fit, om-
+
+<!-- Catchword: nes -->

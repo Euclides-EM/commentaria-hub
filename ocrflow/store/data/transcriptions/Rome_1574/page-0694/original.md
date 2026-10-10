@@ -1,39 +1,33 @@
-<!-- Running title: LIBER VIII. -->
-<!-- Page number: 304 -->
+<!-- Running title: LIBER. IX. -->
 
-proportionales, qui ſint C, D. Sumptis autem quatuor numeris E, F, G, H, minimis in continua proportione A, C, D, B; erunt extremi E, H, ex coroll. 1. propos. 2. huius lib. cubi. Quare, cum ex æquo ſit A, ad B, vt E, ad H, conſtat ita eſſe A, ad B, ut eſt cubus aliquis, nimirum E, ad alium cubum, nempe ad H. Similes ergo ſolidi numeri rationem habent inter ſe, &c. Quod erat oſtendendum.
+<!-- Page number: 305 -->
+
+# EVCLIDIS ELEMENTVM IX.
+
+[Ornament: floral headpiece]
+
+## THEOR. 1. PROPOS. 1.
+
+[Margin]
+1.
+[/Margin]
+
+SI duo ſimiles plani numeri multiplicantes ſe mutuo faciant quendam; Productus quadratus erit.
+
+{dropcap:D|lines=7|style=decorated|decoration="foliate woodcut initial"}Vo numeri plani ſimiles A, B, ſe mutuo multiplicantes faciant C. Dico C, quadratum eſſe. Multiplicans enim A, ſe ipſum faciat D, quadratum. Quoniam igitur A, multiplicans A, & B, produxit D, & C; erit ut A, ad B, ita D, ad C. At inter A, & B, cum ſint plani ſimiles, unus medius cadit proportionalis. Igitur & inter D, & C, unus medius proportionalis cadet. Cadat ergo E, ut ſint continue proportionales D, E, C. Itaque cum tres D, E, C, continue ſint proportionales, ſitque primus D, quadratus, ex conſtructione; erit quoque C, tertius, quadratus. Si duo ergo ſimiles plani numeri multiplicantes ſe mutuo, &c. Quod erat demonſtrandum.
 
 [Calculation]
-A,240.  C,360.  D,540.  B,810.
-E,8.    F,12.   G,18.   H,27.
-[/Calculation]
-
-## SCHOLION.
-
-CONVERSVM huius etiam demonſtrabimus; ſcilicet.
-
-NVMERI, qui proportionem habent, quã cubus numerus ad cubum numerum, ſunt ſolidi ſimiles.
-
-NVMERI A, B, proportionem habeant inter ſe, quam cubi C, D. Dico A, B, ſolidos eſſe ſimiles. Nam cum ſit A, ad B, vt C, ad D; cadant autem inter C, D, cubos duo medij proportionales; cadent quoque inter A, B, duo medij. Sunt ergo A, & B, ſolidi ſimiles.
-
-[Calculation]
-A,16.  B,54.
-C,64.  D,216
+A,6.   B,54.
+D,36.  E,108.  C,324.
 [/Calculation]
 
 [Margin]
-12. octaui
+I
 [/Margin]
 
 [Margin]
-8. octaui
+17. ſeptimi
 [/Margin]
-
-[Margin]
-21. octaui
-[/Margin]
-
-EX his omnibus perſpicue infertur, nullos numeros habentes duplam proportionem, uel ſeſquialteram, vel ſuperbipartiẽtem, eſſe ſimiles planos, vel ſolidos. Si enim eſſent ſimiles plani, caderet inter eos medius vnus proportionalis, quod fieri nõ poſſe iam dudûm oſtenſum eſt in ſcholio propos. 8. huius lib. Eadẽ ratione non erunt ſimiles ſolidi, cum inter eos cadere non poſſint duo medij proportionales; Nam alias caderent quoque duo medij inter minimos earundem proportionum numeros. Quod fieri non poteſt, quod hi vel ſola vnitate, vel certe binario tantum inter ſe diſtent, ut in ſcholio prædicto traditum eſt; inter quos certum eſt non poſſe intercipi duos numeros, nedum duos medios proportionales.
 
 [Margin]
 18. octaui
@@ -43,6 +37,26 @@ EX his omnibus perſpicue infertur, nullos numeros habentes duplam proportionem,
 8. octaui
 [/Margin]
 
-SIMILITER nec duo quiuis numeri primi eſſe poſſunt plani ſimiles, vel ſolidi, cum non poſſint habere latera proportionalia. Nam quilibet numerus planus, qui ſit numeris pri
+[Margin]
+II
+[/Margin]
 
-<!-- Catchword: mis, -->
+[Margin]
+22. octaui
+[/Margin]
+
+## THEOR. 2. PROPOS. 2.
+
+[Margin]
+2.
+[/Margin]
+
+SI duo numeri ſe mutuo multiplicantes faciant quadratum; ſimiles plani erunt.
+
+[Margin]
+III
+[/Margin]
+
+<!-- Signature: Qq -->
+
+<!-- Catchword: Dvo -->

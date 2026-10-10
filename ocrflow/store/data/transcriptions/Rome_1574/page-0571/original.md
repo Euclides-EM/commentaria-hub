@@ -1,17 +1,25 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-hæc comparatio, habitudoue, Proportio. Sic etiam proportio erit ea habitudo, qua idem numerus 20. cum numero 60 confertur, ſecundum quod illius tertia pars eſt; & ſic de reliquis.
+tis. Quare quolibet numero propoſito maior [unclear: exhiberi poteſt], ille uidelicet, qui ex unius unitatis, uel etiam [unclear: plurium additio]ne conſurgit.
 
-QVÆ cum ita ſint, perſpicuum eſt, tum demum quatuor numeros dici proportionales, cum primus ſecundi, & tertius quarti, æque multiplex eſt; vel eadem pars, vel eædem partes: Vel certe, cum primus ſecundum, & tertius quartum, æqualiter continet, eandemque inſuper illius partem, vel eaſdem partes, vt ſupra defin. 20. docuimus.
+## AXIOMATA, SIVE PRONVNTIATA.
 
-## XXV.
+## I.
 
-## TERMINI, ſiue radices proportionis dicuntur duo numeri, quibus in eadem proportione minores ſumi nequeunt.
+QVI numeri æqualium numerorũ, uel eiuſdem æque multiplices ſunt, inter ſe ſunt æquales.
 
-## XXVI.
+## II.
 
-## CVM tres numeri proportionales fuerint; Primus ad tertium, duplicatam rationem habere dicitur eius, quam habet ad ſecundum. At cum quatuor numeri proportionales fuerint; Primus ad quartum, triplicatam rationem habere dicitur eius, quã habet ad ſecundum: Et ſemper deinceps uno amplius, quamdiu proportio extiterit.
+QVORVM idem numerus æque multiplex eſt, uel æque multiplices ſunt æquales, inter ſe æquales ſunt.
 
-HÆC definitio, ut ad magnitudines pertinet, copioſe explicata fuit in quinto lib. Vnde cum omnia, quæ ibi ſcripſimus, ad numeros huc transferri facile poſſint, non eſt, quod iterum ea hic repetamus.
+## III.
 
-<!-- Catchword: XXVII. -->
+QVI numeri æqualiũ numerorum, uel eiuſdem, eadem pars, uel eædem partes fuerint, æquales inter ſe ſunt.
+
+## IIII.
+
+QVORVM idem numerus, uel æquales, eadem pars, uel eædem partes fuerint, æquales inter ſe ſunt.
+
+## V.
+
+VNITAS omnem numerum per uni-

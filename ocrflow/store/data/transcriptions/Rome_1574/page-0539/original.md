@@ -1,39 +1,41 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Margin]
-18. ſexti.
-
-31. tertij.
-
-31. ſexti.
-[/Margin]
-
-FH, FI, ſimilia ſimiliterque poſita ipſi CD. Dico igitur factum eſſe, quod iubetur. Cum enim angulus CFE, rectus ſit, quippe qui in ſemicirculo exiſtit; erit rectilineum CD, æquale rectilineis HF, FI; atque adeo ſi auferatur rectilineum FI, ſimile ipſi B, ex rectilineo CD, hoc eſt, ex ſibi æquali A, relinquetur rectilineũ HF, ſimile quoque ipſi B. Quod autem rectilineum ablatum FI, ſit tertia pars rectilinei CD, ita oſtendetur. Quoniam eſt ut recta CG, ad GF, ita recta CF, ad FE, eo quod triangula, CGF, CFE, ſint ſimilia: Habet autem CG, ad GE, proportionem duplicatam proportionis CG, ad GF, propterea quod proportionales ſint tres rectæ CG, GF, GE, ex corell. propos. 8. huius lib. Item rectilineum HF, ad rectilineum FI, proportionem quoque habet duplicatam proportionis laterum homologorum CF, FE; Erit vt recta CG, ad GE, ita rectilineum HF, ad rectilineum FI; quandoquidem hæ proportiones duarum æqualium proportionum duplicatæ ſunt. Componendo igitur erit, ut CE, ad GE, ita duo rectilinea HF, FI, ſimul, hoc eſt, rectilineum CD, quod eſt illis æquale, ad rectilineum FI. Eſt autem CE, ipſius GE, tripla, per conſtructionem; Igitur & rectilineum CD, triplum erit rectilinei FI. Ac propterea hoc illius tertia pars exiſtet. Quod eſt propoſitum.
+tum ipſis EFG, BCD. Dico HIK, medium eſſe proportionale quæſitum. Cum enim proportionales ſint tres rectæ EF, HI, BC, erunt quoque rectilinea ab ipſis deſcripta EFG, HIK, BCD, proportionalia, cum ſint ſimilia ſimiliterq́ue poſita, &c.
 
 [Margin]
-4. ſexti.
-
-8. ſexti.
-
-19. vel 20. ſexti.
+22. ſexti.
 [/Margin]
 
-[Figure: a triangle labelled A, a parallelogram labelled B, and a construction with base CE, semicircle CFE, perpendicular FG from point G, and rectilinear figures on CF and EF with points H, I and D]
+[Figure: a triangle labelled A, a triangle DBC, and two similar triangles labelled G, K on the line EFHI]
 
-QVOD ſi pars imperata, nempe tertia, ſimpliciter ſit auferenda, fiet id breuiſſime, hac arte. Rectilineum datum A, reuocetur ad parallelogrammum BC, ſibi æquale; & ex latere BD, auferatur DE, tertia pars imperata, & per E, agatur ipſi CD, parallela EF. Dico EC, tertiam eſſe partem ipſius BG{printer-error-correction:BC}, hoc eſt, rectilinei dati A. Cũ enim ſit vt DE, ad DB, ita EC, ad CB: ſit autem per cõſtructionem DE, ipſius DB, pars tertia; erit & EC, ipſius CB, tertia pars. Quod eſt propoſitum.
+ALITER. Sit rurſus inter rectilinea A, & B, perquirendum mediũ proportionale. Conſtituatur ipſi A, æquale parallelogrãmũ quodcunque CDEF; Ipſi vero B, æquale parallelogrammũ EGHI, ſimile vero ſimiliterque poſitum ipſi CDEF. Connectanturque hæc parallelogramma ad angulos æquales, ut DE, EI, efficiant unam lineam, ac propterea, per ea, quæ ad 15. propos. 1. lib. demonſtrauimus, una quoque linea componatur ex FE, EG; perficiaturq́ue totum parallelogrammum KL. Dico vtrumlibet EK, vel EI, medium eſſe proportionale inter DF, GI, hoc eſt, inter A, & B. Cum enim ſimilia ſint, ſimiliterque poſita DF, GI, erit vt DE, ad EF, ita EI, ad EG. Permutando ergo vt DE, ad EI, ita FE, ad EG. Vt autem DE, ad EI, ita DF, ad EK; & ut FE, ad EG, ita EK, ad GI. Igitur vt DF, ad EK, ita EK, ad GI, &c.
 
 [Margin]
 45. primi
 
+25. ſexti.
+
 1. ſexti.
 [/Margin]
 
-[Figure: a triangle labelled A and a parallelogram with vertices labelled G, F, B, E and D]
+[Figure: two triangles labelled A and B, and two parallelograms joined about the diameter, labelled C, F, K, D, E, L, G, H]
+
+QVOD etiam in hunc modum confirmari poteſt. Cum DF, GI, ſimilia ſint, ſimiliterq́ue poſita, conſiſtent ea circa eandem diametrum. Quare complementa EK, EL, æqualia erunt. Vt autem DF, ad EK, ita eſt EL, ad GI, eo quod vtraque proportio eadem ſit proportioni DE, ad EI. Igitur erit, vt DF, ad EK, ita EK, ad GI.
 
 [Margin]
-II.
+26. ſexti.
+
+1. ſexti.
+
+V.
 [/Margin]
 
-## DVOBVS datis rectilineis, tertium proportionale inuenire.
+## DATO rectilineo duo rectilinea æqualia cõſtituere, quæ ſimilia ſint, ſimiliterque deſcripta cuicunque rectilineo, habeantque inter ſe proportionem propoſitam quamcunque.
 
-<!-- Catchword: SINT -->
+SIT datum rectilineũ A, dataq́; proportio rectæ B, ad C, oporteatq́; conſtituere duo rectilinea, quæ ipſi A, æqualia ſint, habeantq́; proportionem, quam B, & C; ac ſimilia ſimiliterque poſita ſint rectilineo cuiuis D. Conſtituatur rectilineum EFGH, æquale ipſi A, & ſimile ſimiliterq́ue poſitum ipſi D. Diuiſa
+
+[Margin]
+25. ſexti.
+[/Margin]
+
+<!-- Catchword: deinde -->

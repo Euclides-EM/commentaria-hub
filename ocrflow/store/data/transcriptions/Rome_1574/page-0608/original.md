@@ -1,34 +1,31 @@
-<!-- Running title: LIBER VII. -->
-<!-- Page number: 261 -->
+<!-- Running title: LIBER. VII. -->
 
-tionem habebunt, quam multiplicati.
+<!-- Page number: 262 -->
 
-NVMERVS enim A, multiplicans numeros B, C, faciat D, E. Dico eſſe, ut B, ad C, ita D, ad E. Aſſumpta enim unitate F; erit D, ex B, cõpoſitus toties, quoties unitas F, eſt in A, per defin. 15. ſimiliterque toties E, compoſitus erit ex C, quoties eadem unitas F, eſt in eodem A: Atque adeo B, ipſum D, & C, ipſum E, æque metietur. Quare B, ipſius D, & C, ipſius E, eadem pars erit; Ac proinde, per defin. 20. erit ut B, ad D, ita C, ad E; et permutando, ut B, ad C, ita D, ad E. Si numerus igitur duos numeros multiplicans fecerit aliquos, &c. Quod oſtendendum erat.
+D, quartum; & F, ex B, ſecundo in C, tertium. Dico numeros E, F, æquales inter ſe eſſe. Fiat enim rurſus G, ex A, in C. Quia igitur ex A, in C, D, fiunt G, E; erit, ut C, ad D, hoc eſt, ut A, ad B, ita G, ad E. Rurſus quia ex A, & B, in C, fiunt G, & F; erit quoque, ut idem A, ad B, ita G, ad F. Quare, per lemma propos. 14. habebit G, ad E, & F, eandem proportionem; eam uidelicet, quam habet A, ad B; Ac proinde E, & F, numeri æquales erunt, ex ijs, quæ ad defin. 20. ſcripſimus.
 
-[Diagram: rows of dotted lines labelled F, A, B, C, D and E]
-
-[Margin]
-13. ſeptimi
-[/Margin]
-
-## THEOR. 16. PROPOS. 18.
-
-[Margin]
-19.
-[/Margin]
-
-SI duo numeri numerum quempiã multiplicantes, fecerint aliquos: Geniti ex ipſis eandem rationem habebunt, quam multiplicantes.
-
-NVMERI A, & B, multiplicantes numerum C, faciant D, & E. Dico eſſe ut A, ad B, ita D, ad E. Cum enim ex A, in C, fiat D; fiet quoque idem D, ex C, in A. Eademque ratione, cũ ex B, in C, fiat E; fiet idem E, ex C, in B. Quia igitur idem C, multiplicãs ipſos A, & B, facit D, & E; erit, ut A, ad B, ita D, ad E. Si duo ergo numeri numerum quempiam multiplicantes, fecerint aliquos, &c. Quod erat demonſtrandum.
-
-[Diagram: rows of dotted lines labelled A, B, C, D and E]
-
-[Margin]
-16. ſeptimi
-[/Margin]
+[Diagram: rows of dotted lines labelled A, B, C, D, E, F and G]
 
 [Margin]
 17. ſeptimi
+
+18. ſeptimi
 [/Margin]
 
-<!-- Catchword: SCHO- -->
+SED iam ſit E, ex A, primo in D, quartũ genitus, æqualis ipſi F, producto ex B, ſecundo in C, tertium. Dico quatuor numeros A, B, C, D, proportionales eſſe, ut quidẽ A, ad B, ita C, ad D. Fiat enim rurſus G, ex A, in C. Quia ergo ex A, in C, D, fiunt G, E; erit, ut C, ad D, ita G, ad E, uel ad F, ipſi E, æqualem. Habet enim G, ad æquales E, F, eandem rationem, ut ad defin. 20. docuimus. Rurſus, quoniam ex A, & B, in C, fiunt G, & F; erit quoque, ut A, ad B, ita idẽ G, ad eundem F. Quare proportiones A, ad B, & C, ad D, cum eædem ſint proportioni G, ad F, eædem inter ſe erunt, per lemma propos. 14. Ac proinde erit, ut A, ad B, ita C, ad D. Si quatuor ergo numeri proportionales fuerint, &c. Quod erat oſtendendum.
+
+[Margin]
+17. ſeptimi
+
+18. ſeptimi
+[/Margin]
+
+## SCHOLION.
+
+POTERAT huius theorematis prima pars proponi etiam ad hunc modum.
+
+SI duo numeri duos numeros eandem, quá illi, habentes rationem multiplicent, antecedens nimirum illorum conſequentem horum, & conſequens antecedentem; geniti ex ipſis, æquales inter ſe erunt.
+
+ITA enim oſtenſum eſt numerum E, qui fit ex A, antece-
+
+<!-- Catchword: dente, -->

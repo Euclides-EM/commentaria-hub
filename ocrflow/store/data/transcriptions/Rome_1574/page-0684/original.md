@@ -1,19 +1,33 @@
 <!-- Running title: LIBER VIII. -->
 
-<!-- Page number: 299 -->
-
-quentes conſequentem; ſi de proportionibus N, ad B, & C, ad F, vel D, ad G, vel E, ad H, loquamur; metientur quoque C, D, E, ipſum N, antecedentes antecedentem; quod ſit N, ad B, ut C, ad F, vel D, ad G, vel E, ad H. Atqui & C, D, E, ipſum M, metiuntur; (cum enim M, factus ſit, per conſtructionem, ex F, in L; metietur E, ipſum M. Deinde quia M, N, B, proportionales ſunt ipſis I, L, K; metitur autem K, ipſum B, quod B, factus ſit ex K, in H; metietur quoque I, ipſum M; Metiuntur autem & C, D, latera planum ſuum I. Igitur & C, D, ex pronunciato 11. metientur ipſum M; Atque adeo C, D, E, ipſum M, metientur.) Nec non & ipſum A, nempe latera ſuum ſolidum. Ergo A, M, N, habent communem menſuram tam C, quam D, quam E; Ideoque compoſiti inter ſe ſunt. Rurſus quia eſt A, ad M, ut C, ad F, vel D, ad G, vel F{printer-error-correction:E}, ad H; metiuntur autem C, D, E, latera ſolidum ſuum A, antecedentes antecedentem; metientur quoque F, G, H, ipſum M, conſequentes cõſequentem. Metiuntur uero & F, G, H, ipſum N, (cum enim N, factus ſit ex H, in L, per conſtructionem; metietur H, ipſum N. Deinde quia A, M, N, ipſis I, L, K, proportionales ſunt: metitur autem I, ipſum A, quod A, factus ſit ex I, in E; metietur etiam [unclear: K], ipſum N. Cum ergo & F, G, latera metiantur planum ſuum K; metientur quoque F, G, ipſum N; atque adeo F, G, H, ipſum N, metientur.) Nec non & ipſum B, nimirum latera ſuum ſolidum. Igitur M, N, B, communem habent menſuram tam E{printer-error-correction:F}, quam G, quam H. Quare ſunt inter ſe compoſiti. Ex quibus liquido conſtat, priorum trium numerorum A, M, N, communes eſſe menſuras C, D, E, latera prioris ſolidi A; At vero F, G, H, latera poſterioris ſolidi B, communes menſuras eſſe poſteriorum trium numerorũ M, N, B.
-
-## THEOR. 18. PROPOS. 20.
+<!-- Page number: 300 -->
 
 [Margin]
-17.
+9. pron.
 [/Margin]
 
-SI inter duos numeros unus medius proportionalis cadat numerus; Similes plani erunt illi numeri.
+[Margin]
+18. ſeptimi
+[/Margin]
 
-CADAT inter A, & B, medius proportionalis C. Dico A, & B, eſſe planos ſimiles. Sumantur D, & E, minimi in ra
+[Margin]
+17. ſeptimi
+[/Margin]
 
-<!-- Signature: Pp 3 -->
+habentes rationem cum illis; metiantur per N; ita ut M, multiplicans E, F, G, faciat A, C, D; & N, multiplicans eoſdem E, F, G, faciat C, D, B. Factus eſt autem E, ex multiplicatione mutua ſuorum laterum H, & I; nec non G, ex mutua multiplicatione ſuorum laterum K, & L. Igitur A, producitur ex mutua multiplicatione H, I, M; & B, ex mutua multiplicatione K, L, N; atque adeo A, ſolidus eſt numerus, ex defin. latera habens H, I, M; & B ſolidus etiam, latera habens K, L, N. Quia uero M, & N, multiplicantes F, faciunt C, & D, ut oſtendimus; erit C, ad D, ut M, ad N: Sunt autem C, & D, in eadem ratione, in qua E, & F, quod N, multiplicans E, & F, fecerit ipſos C, & D; Nec non & E, F, eandem habent rationem quam H, K, uel I, L; Etenim inter planos ſimiles E, G, cadit F, medius proportionalis, per coroll. propos. 19. huius lib. in ratione laterum homologorum H, K, uel I, L. Igitur erit quoque H, ad K, & I, ad L, ut M, ad N; & permutando H, ad I, ut K, ad L; & I, ad M, ut L, ad N. Proportionalia ergo ſunt latera H, I, M, lateribus K, L, N; ac propterea ſimiles ſunt numeri ſolidi A, & B. Quam ob rem, ſi inter duos numeros duo medij proportionales cadant numeri, &c. Quod erat demonſtrandum.
 
-<!-- Catchword: tione -->
+## SCHOLION.
+
+DVO exempla appoſuimus, in quorum priori liquido conſtat, vnitatem E, eſſe planum numerum, & vnitates H, I, eius latera, licet improprie, ut in definitione numeri plani monuimus. Si enim vnitatem a numeris planis excludamus, non poterimus hac argumentatione Euclidis demonſtrare, numeros A, & B, qui includunt duos medios proportionales C, & D, eſſe ſolidos ſimiles. Quod idem continget in alijs omnibus numeris, qui habent duos medios proportionales in ratione multiplici, cuiuſmodi ſunt etiam A, B. Hoc autem eſt abſurdum, cũ Euclides propoſitionem generaliter proponas, demonſtresque ſine vlla exceptione.
+
+[Margin]
+20.
+[/Margin]
+
+## THEOR. 21. PROPOS. 22.
+
+SI tres numeri deinceps ſint proportio
+
+<!-- Signature: Pp 4 -->
+
+<!-- Catchword: nales, -->

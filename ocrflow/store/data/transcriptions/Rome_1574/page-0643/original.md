@@ -1,27 +1,38 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-# EVCLIDIS ELEMENTVM VIII.
-
-[Ornament: floral headpiece]
-
 [Margin]
-1.
+24. ſeptimi
+29. ſeptimi
+1. octaui.
 [/Margin]
 
-## THEOR. 1. PROPOS. 1.
+mi C, & E, procreati ſunt ex A, & B, in ſe ipſos; ſunt autem A, & B, inter ſe primi, quod minimi ſint in ſua proportione; Erunt & C, E, extremi, inter ſe primi. Quare C, D, E, minimi ſunt in ratione A, ad B.
 
-SI fuerint quotcunque numeri deinceps proportionales, extremi uero ipſorum primi inter ſe fuerint; ipſi minimi ſunt omnium eandem cum eis rationẽ habentiũ.
+IAM uero ex A, in tres inuentos C, D, E, fiant F, G, H, & ex B, in ultimum E, fiat I. Dico quatuor numeros F, G, H, I, minimos eſſe in eadem ratione data A, ad B. Quod enim proportionales ſint in ratione A, ad B, ita demonſtrabimus. Quoniam A, multiplicans ipſos C, D, E, fecit F, G, H, habebunt ex ijs, quæ ad propos. 18. lib. 7. oſtendimus, numeri F, G, H, eaſdem proportiones, quas C, D, E, hoc eſt, quam habet A, ad B. Rurſus quia A, & B, ipſum E, multiplicantes, fecerunt H, & I; erit quoque, ut A, ad B, ita H, ad I. Sunt igitur F, G, H, I, continue proportionales in data proportione A, ad B. Quod autem in data ratione minimi ſint, ita perſpicuum fiet. Quoniam A, & B, minimi in ſua proportione, ſunt inter ſe primi; factique ſunt C, & E, ex A, & B, in ſe ipſos; Item procreati ſunt F, & I, ex A, B, in C, E; nempe F, ex A, in C, & I, ex B, in E; erunt & F, I, extremi, inter ſe primi. Quare F, G, H, I, in ſua proportione, quæ eſt A, ad B, minimi ſunt.
 
-{dropcap:N|lines=6|style=decorated|decoration="woodcut initial with floral background"}VMERORVM deinceps proportionaliũ quotcunque A, B, C, D. extremi A, & D, inter ſe primi ſint. Dico A, B, C, D, minimos eſſe omnium eandem cum eis proportionem habentiũ. Si enim non ſunt minimi, erunt alij ipſis minores, in eadem proportione. Sint ergo ipſis minores in eadem ratione E, F, G, H, ſi fieri poteſt. Quoniam igitur quotcunqʒ numeri ſunt A, B, C, D, & alij illis æquales multitudine E, F, G, H, q̃ bini ſumuntur, & in eadẽ ratione; erit, ex æqualitate, ut A, ad D, ita E, ad H: Sunt autem A, & D, in ſua proportione minimi, quod inter ſe primi eſſe ponantur. Igitur A, ipſum E, & D, ipſum H, æque metietur, maior minorem. Quod eſt abſurdum. Non ergo numeri minores ipſis A, B, C, D, ſunt in eadem cum eis ratione, ſed ipſimet minimi ſunt; Ac propterea, ſi fuerint quotcunque nume-
+[Diagram: rows of dots labelled A and B, then C, D and E of increasing length, followed by numbered letters F, 8. G, 12. H, 18. I, 27. K, 16. L, 24. M, 36 N, 54. O, 81.]
 
 [Margin]
-14. ſeptimi
-
-13. ſeptimi
-
-21. ſeptimi
+18. ſeptimi
 [/Margin]
 
-[Diagram: two columns of lines: A, B, C and D shown as rows of dots of increasing length; E, F, G and H shown as dashed lines of increasing length]
+[Margin]
+24. ſeptimi
+[/Margin]
 
-<!-- Catchword: ri dein- -->
+[Margin]
+29. ſeptimi
+1. octaui.
+[/Margin]
+
+NON aliter, ſi ex A, in quatuor inuentos F, G, H, I, fiant K, L, M, N, & ex B, in ultimum I, fiat O; erunt K, L, M, N, O, quinque numeri minimi in data ratione A, ad B: Eademque ratione inueniemus ſex, ſeptem, octo, &c. Quare numeros reperimus deinceps proportionales minimos, &c. Quod faciendum erat.
+
+## SCHOLION.
+
+[Margin]
+18. ſeptimi
+[/Margin]
+
+EODEM modo quatuor numeri minimi proportionales producentur ex multiplicatione B, in tres inuentos E, D, C, & ex multiplicatione A, in C. Fiant enim I, H, G, ex B, in E, D, C: & F, ex A, in C. Quo peracto, numeri F, G, eandem rationem habebunt, quam A, B; quod A, B, multiplicantes C, [unclear: &]
+
+<!-- Catchword: [unclear: fe] -->

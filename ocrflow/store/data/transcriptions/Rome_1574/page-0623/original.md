@@ -1,27 +1,39 @@
-<!-- Running title: EVCLID. GEOM. -->
-
-ut G, toties metiatur ipſum A, quoties unitas eſt in D; & ipſum B, toties, quoties unitas eſt in E; & ipſum C, toties quoties unitas eſt in F: Quoniã igitur G, toties compoſitus facit numeros A, B, C, quoties unitas eſt in D, E, F; ſit ut D, E, F, ipſum G, multiplicantes producant ipſos A, B, C. Quare D, E, F, eaſdem habent proportiones, quas A, B, C, per ea, quæ ad propos. 18. huius lib. oſtendimus; Atque adeo, cum D, E, F, minores ſint quam A, B, C; non erunt A, B, C, minimi in continuatione ſuarum proportionum. Quod eſt abſurdum. Primi igitur inter ſe ſunt A, B, C. Quod eſt propoſitum.
-
-[Diagram: three rows of dotted lines labelled A, B and C, with dashed lines labelled D, E, F and G below]
+<!-- Running title: EVCLID.GEOM. -->
 
 [Margin]
-9. pron.
+26. ſeptimi
+[/Margin]
+
+SINT inter ſe primi A, & B, gignaturque C, ex A, in ſe ipſum. Dico C, ad reliquum B, eſſe primum. Sumpto enim D, æquali ipſi A, erit & D, ad B, primus. Quoniam igitur A, & D, ad B, primi ſunt, erit numerus ex A, in D, hoc eſt, ex A, in ſe genitus, nempe C, ad eundem B, primus. Eademque arte oſtendemus, numerum ex B, in ſe genitum, ad A, primum eſſe. Si duo ergo numeri primi inter ſe fuerint, &c. Quod demonſtrandum erat.
+
+[Diagram: dotted lines labelled A and B above longer dotted lines labelled C and D]
+
+[Margin]
+27.
+[/Margin]
+
+## THEOR. 26. PROPOS. 28.
+
+SI duo numeri ad duos numeros, uterque ad utrunque, primi fuerint; Et qui ex eis gignentur, primi inter ſe erunt.
+
+[Margin]
+26. ſeptimi
+[/Margin]
+
+SIT uterque A, & B, ad utrunque C, & D, primus, gignaturque E, ex A, in B; & F, ex C, in D. Dico E, & F, inter ſe primos eſſe. Cum enim uterque A, & B, primus ſit ad C; erit quoque E, ex ipſis genitus, ad eundem C, primus. Rurſus cum uterque A, & B, ad D, ſit primus, erit eodem modo E, ex ipſis genitus, ad eundem D, primus. Quia igitur uterque C, & D, primus eſt ad E; erit quoque F, ex illis procreatus, ad E, primus. Si ergo duo numeri ad duos numeros, uterque ad utrumque, &c. Quod erat oſtendendum
+
+[Diagram: dotted lines labelled A and B above a longer dotted line labelled E, dotted lines labelled C and D, and a dotted line labelled F]
+
+[Margin]
+26 ſeptimi.
 [/Margin]
 
 [Margin]
-24.
+28.
 [/Margin]
 
-## THEOR. 23. PROPOS. 25.
+## THEOR. 27. PROPOS. 29.
 
-SI duo numeri primi inter ſe fuerint; Qui unum eorum metitur numerus, ad reliquum primus erit.
+SI duo numeri primi inter ſe fuerint, & multiplicans uterque ſe ipſum fecerit aliquem; Et geniti ex ipſis primi inter ſe erũt:
 
-SINT inter ſe primi A, & B; & ipſum A, metiatur numerus C. Dico C, ad reliquum B, eſſe primum. Si enim nõ ſunt inter ſe primi B, & C; metiatur eos communi menſura, ſi fieri poteſt, numerus D. Quoniam igitur D, metitur C; & C, ipſum A; metietur etiam D, ipſum A: Metitur autem & ipſum B. Igitur A, & B, non ſunt inter ſe primi, cum habeant menſuram communem, numerum D. Quod eſt abſurdum, & contra hypotheſim. Eſt ergo C, ad B, primus. Eodem modo, ſi numerus quiſpiam metiatur ipſum B, erit is ad A, primus. Quapropter ſi duo numeri primi inter ſe fuerint, &c. Quod erat demõſtrandum.
-
-[Diagram: dotted lines labelled A and B above a dotted line labelled C and a dashed line labelled D]
-
-[Margin]
-11. pron.
-[/Margin]
-
-<!-- Catchword: THEOR. -->
+<!-- Catchword: Et -->

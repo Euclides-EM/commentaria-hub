@@ -1,24 +1,39 @@
 <!-- Running title: EVCLID. GEOM. -->
-<!-- Page number: 226 -->
-
-SINT ſecundo duo circuli inæquales ABC, DEF, in quibus anguli ad circunferentias conſtituantur æquales BAC, EDF. Quo poſito, dicentur ſegmenta BAC, EDF, ex Euclidis ſententia, ſimilia. Dico rurſus arcus BAC, EDF, eandem habere proportionem ad integras ſuas circunferentias. Ducantur enim ad centra G, H, rectæ BG, CG, EH, FH. Quoniam igitur anguli A, & D, æquales ponuntur, erunt quoque ad centra anguli G, & H, æquales, cum hi illorum dupli exiſtant. Quare quatuor recti ad angulum G, eandem habebunt rationem, quam ad angulum H. Atqui ut quatuor recti ad angulum G, ita eſt tota circunferentia ABCA, ad arcum BC: Et ut quatuor recti ad angulum H, ita eſt tota circunferentia DEFD, ad arcum EF, ex coroll. 2. huius propoſ. 33. Igitur ut tota circunferentia ABCA, ad arcum BC, ita erit tota circunferentia DEFD, ad arcum EF. Diuidendo ergo erit, vt arcus BAC, ad arcũ BC, ita arcus EDF, ad arcum EF. Et conuertendo rurſus, vt arcus BC, ad arcũ BAC, ita arcus EF, ad arcũ EDF. Ac propterea componendo, vt circunferentia tota ABCA, ad arcum BAC, ita circunferentia tota DEFD, ad arcum EDF. Et rurſus conuertendo, ut arcus BAC, ad totam circunferentiam ABCA, ita arcus EDF, ad totam circunferentiam DEFD. Quocirca quæ pars eſt arcus BAC, totius circũferentiæ ABCA, eadem pars erit arcus EDF, totius circunferentiæ DEFD.
 
 [Margin]
-20. tertij.
+18. ſexti.
 
-7. quinti.
+31. tertij.
 
-11. quinti.
+31. ſexti.
 [/Margin]
 
-[Figure: two unequal circles, the larger with center G and inscribed triangle with apex A and base BC, the smaller with center H and inscribed triangle with apex D and base EF]
-
-CONSTAT igitur, recte Euclidem vocaſſe in circulorum ſegmenta ſimilia, in quibus anguli exiſtentes inter ſe ſunt æquales; quandoquidem huiuſmodi ſegmenta eandem habeant proportionem ad circulos ſuos integros.
-
-MANIFESTVM etiam eſt ex dictis, angulos inſiſtentes arcubus circulorum ſimilibus, ſiue ad centra, ſiue ad circunferentias inſiſtant, æquales eſſe inter ſe. Sint enim in circulis ABCD, EFGH, quorum centra I, K, arcus ſimiles BCD, FGH, quibus inſiſtant, ad centra quidem anguli I, & K, ad circunferentias autem anguli A, & E. Dico tam illos, quam hos eſſe inter ſe æquales. Conſtituantur enim in dictis arcubus anguli
+FH, FI, ſimilia ſimiliterque poſita ipſi CD. Dico igitur factum eſſe, quod iubetur. Cum enim angulus CFE, rectus ſit, quippe qui in ſemicirculo exiſtit; erit rectilineum CD, æquale rectilineis HF, FI; atque adeo ſi auferatur rectilineum FI, ſimile ipſi B, ex rectilineo CD, hoc eſt, ex ſibi æquali A, relinquetur rectilineũ HF, ſimile quoque ipſi B. Quod autem rectilineum ablatum FI, ſit tertia pars rectilinei CD, ita oſtendetur. Quoniam eſt ut recta CG, ad GF, ita recta CF, ad FE, eo quod triangula, CGF, CFE, ſint ſimilia: Habet autem CG, ad GE, proportionem duplicatam proportionis CG, ad GF, propterea quod proportionales ſint tres rectæ CG, GF, GE, ex corell. propos. 8. huius lib. Item rectilineum HF, ad rectilineum FI, proportionem quoque habet duplicatam proportionis laterum homologorum CF, FE; Erit vt recta CG, ad GE, ita rectilineum HF, ad rectilineum FI; quandoquidem hæ proportiones duarum æqualium proportionum duplicatæ ſunt. Componendo igitur erit, ut CE, ad GE, ita duo rectilinea HF, FI, ſimul, hoc eſt, rectilineum CD, quod eſt illis æquale, ad rectilineum FI. Eſt autem CE, ipſius GE, tripla, per conſtructionem; Igitur & rectilineum CD, triplum erit rectilinei FI. Ac propterea hoc illius tertia pars exiſtet. Quod eſt propoſitum.
 
 [Margin]
-[illegible]
+4. ſexti.
+
+8. ſexti.
+
+19. vel 20. ſexti.
 [/Margin]
 
-<!-- Catchword: BCD, -->
+[Figure: a triangle labelled A, a parallelogram labelled B, and a construction with base CE, semicircle CFE, perpendicular FG from point G, and rectilinear figures on CF and EF with points H, I and D]
+
+QVOD ſi pars imperata, nempe tertia, ſimpliciter ſit auferenda, fiet id breuiſſime, hac arte. Rectilineum datum A, reuocetur ad parallelogrammum BC, ſibi æquale; & ex latere BD, auferatur DE, tertia pars imperata, & per E, agatur ipſi CD, parallela EF. Dico EC, tertiam eſſe partem ipſius BG{printer-error-correction:BC}, hoc eſt, rectilinei dati A. Cũ enim ſit vt DE, ad DB, ita EC, ad CB: ſit autem per cõſtructionem DE, ipſius DB, pars tertia; erit & EC, ipſius CB, tertia pars. Quod eſt propoſitum.
+
+[Margin]
+45. primi
+
+1. ſexti.
+[/Margin]
+
+[Figure: a triangle labelled A and a parallelogram with vertices labelled G, F, B, E and D]
+
+[Margin]
+II.
+[/Margin]
+
+## DVOBVS datis rectilineis, tertium proportionale inuenire.
+
+<!-- Catchword: SINT -->

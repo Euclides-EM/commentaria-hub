@@ -1,24 +1,21 @@
-<!-- Running title: LIBER. VII. -->
-<!-- Page number: 267 -->
+<!-- Running title: LIBER VII. -->
+<!-- Page number: 268 -->
 
-*AB, BC, CD, proportiones eaſdem, quas idem numerus K, ad totidem FG, GH, HI; Hoc eſt, ſit ut E, ad AB, ita K, ad FG; & ut E, ad BC, ita K, ad GH; & ut E, ad CD, ita K, ad HI. Dico eſſe, ut E, ad omnes illos ſimul, nempe ad AD, ita K, ad hos omnes ſimul, utpote ad FI. Cum enim ſit, ut E, primus ad AB, ſecundum, ita K, tertius ad FG, quartum: Item ut E, primus ad BC, quintum, ita K, tertius ad GH, ſextum; erit quoque, ut E, primus ad AC, ſecundum cum quinto, ita K, tertius ad FH, quartum cum ſexto. Rurſus quia eſt, ut E, primus ad AC, ſecundum, ita K, tertius ad FH, quartum: Item ut E, primus ad CD, quintum, ita K, tertius ad HI, ſextum; erit etiam, ut E, primus ad AD, ſecundum cum quinto, ita K, tertius ad FI, quartum cum ſexto. Atque ita de reliquis, ſi plures fuerint.*
+## SCHOLION.
 
-## THEOR. 21. PROPOS. 23.
+HANC propoſitionem, & præcedentem cum Campano ad plures numeros extendemus, hoc modo.
 
-[Margin]
-23.
-[/Margin]
+QVOTCVNQVE numeri inter ſe primi, minimi ſunt in continuatione ſuarum proportionum. Et quotcunque numeri in continuatione ſuarum proportionum minimi, ſunt inter ſe primi.
 
-PRIMI inter ſe numeri, minimi ſunt omnium eandem cum eis rationem habentium.
+SINT quotcunque numeri inter ſe primi A, B, C. Dico eos minimos eſſe in continuatione ſuarũ proportionum, ita ut in minoribus numeris continuari non poſsint, quamuis proportio duorum in minoribus numeris reperiatur. Si enim nõ ſunt minimi, erunt aliqui alij minores ipſis, nempe D, E, F, minimi in continuatione illarum proportionum. Quia igitur D, E, F, minimi, ſunt in proportione numerorum A, B, C; metietur D, ipſum A, & E, ipſum B, & F, ipſum C, æquè, per ea, quæ ad propos. 21. huius lib. demonſtrauimus; atque adeo ſecundũ unum eundem numerũ, qui ſit G; ita ut D, toties metiatur ipſum A, & E, ipſum B, & F, ipſum C, quoties unitas eſt in G. Quoniam igitur unitas numerum G, & numerus D, ipſum A, æque metitur; metietur quoque uiciſsim æque unitas numerum D, & numerus G, numerum A: Eademque ratione idem G, metietur & ipſum B, & ipſum C, æque atque unitas ipſos E, F; Atque idcirco A, B, C, cum habeant numerum G, communem menſuram, non erunt inter ſe primi, ſed compoſiti. Quod eſt abſurdum, & contra hypotheſim. Non ſunt igitur alij numeri minores ipſis A, B, C, minimi in continuatione proportionum A, ad B, & B, ad C; ſed ipſi A, B, C, minimi ſunt.
 
-SINT numeri A, B, inter ſe primi. Dico eos eſſe minimos omnium, qui eandem proportionem habent, quam ipſi A, & B. Nam ſi non ſunt minimi, erunt aliqui alij minores ipſis, minimi habentes proportionem, quam A, & B. ſint ergo, ſi fieri poteſt, C, D, minimi in proportione A, & B, minoresque ipſis A, & B. Quoniam igitur C, D, minimi ſunt in proportione A, & B; metietur C, ipſum A, & D, ipſum B, æque; atque adeo ſecundum eundem numerum, qui ſit E, ita ut C, toties metiatur ipſum A, & D, ipſum B, quoties unitas eſt in E. Itaq; cũ unitas numerũ E, & numerus C, numerũ A, ęque metiatur; metietur & uiciſſim ęque unitas numerum C, & numerus E, numerum A. Rurſus quia unitas numerum E, & numerus D, numerum B, æque metitur; metietur quoque uiciſſim æque unitas numerum D, & numerus E, numerum B; Atque adeo, cum idem nu-
-
-[Diagram: rows of dotted lines labelled A, B, C, D and E]
+[Diagram: rows of dotted lines labelled A, B and C above rows of dashed lines labelled D, E, F and G]
 
 [Margin]
-21. ſeptimi
 15. ſeptimi
 [/Margin]
 
-<!-- Signature: LI 3 -->
-<!-- Catchword: merus -->
+IAM uero ſint A, B, C, in continuatione ſuarum proportionum minimi. Dico eos primos eſſe inter ſe. Si enim non ſunt inter ſe primi, metiatur eos communi menſura numerus G, ita
+
+<!-- Signature: Ll 4 -->
+<!-- Catchword: [unclear: ut] -->

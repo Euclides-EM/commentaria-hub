@@ -1,26 +1,39 @@
-<!-- Running title: LIBER VI. -->
-<!-- Page number: 215 -->
+<!-- Running title: LIBER. VI. -->
+<!-- Page number: 216 -->
 
-compleatur totum parallelogrammum KL, conſiſtent HC, CF, circa diametrum; Quare ſimilia inter ſe erunt.
+linea recta, perſpicuum eſt, cum AF, ſit diameter ipſius EG, & AC, diameter ipſius BD, parallelogrammum EG, conſiſtere circa diametrũ AFC, totius parallelogrammi. Quod ſi AF, CF, non dicantur efficere lineam rectam; ducatur totius parallelogrammi diameter AC, ſecans latus EF, in H puncto, per quod ipſi FG, parallela agatur HI. Quoniã igitur parallelogramma BD, EI, ſunt circa eandem diametrum AHC, ipſa erunt ſimilia, ſimiliterq; poſita. Quare erit ut BA, ad AD, ita EA, ad AI: Sed ut BA, ad AD, ita quoque eſt EA, ad AG; quod parallelogramma BD, EG, ponantur ſimilia, ſimiliterque poſita. Igitur erit ut EA, ad AI, ita EA, ad AG. Ac propterea æquales erunt rectæ AI, AG; pars, & totum; quod eſt abſurdum.
 
-PERSPICVVM autem eſt ex demonſtratione huius theorematis facta ab Euclide, & ex probatione theorematis à nobis propoſiti in hoc Scholio, parallelogramma circa eandem diametrum non ſolum eſſe ſimilia; Verum etiam ſimiliter poſita. Vnde propoſito quouis parallelogrammo ABCD, ſi maius debeas deſcribi illi ſimile ſimiliterque poſitum, producendum erit latus unum, nẽpe BC; Atque ex E, quolibet puncto ultra C, ipſi CD, parallela EF, ducenda, ſecans diametrũ BD, productã in F; & per F, ducenda FG, parallela ipſi AD, occurrens rectæ BA, productæ in G. Erit enim parallelogrammum GE, ſimile ſimiliterque poſitum ipſi AC, & maius eodem. Quod ſi minus debeas deſcribi, ſumendum erit punctum E, citra C, & reliqua peragenda, ut prius; ceu figura indicat.
-
-[Figure: parallelogram with diagonal produced, labelled G, A, F, D, G, F, B, E, C, E]
-
-## PROBL. 7. PROPOS. 25.
+[Figure: parallelogram with vertices B, C, D, A, diagonal lines, and interior points E, H, F, I, G]
 
 [Margin]
-25.
+24. ſexti.
+11. quinti.
+9. quinti.
 [/Margin]
 
-## DATO rectilineo ſimile, & alteri dato æquale idem conſtituere.
+QVOD ſi dicatur recta AHC, ſecare alterum latus FG; Tunc ducta HI, parallela ipſi EF; erunt rurſus ſimilia parallelogramma BD, IG, ſimiliterq; poſita. Quare erit ut DA, ad AB, ita GA, ad AI: Sed ut DA, ad AB, ita quoque eſt GA, ad AE, ob ſimilitudinem parallelogrammorum BD, EG; Igitur erit ut GA, ad AI, ita GA, ad AE; ideoq; æquales erunt rectæ AI, AE; pars & totum: Quod eſt abſurdum. Itaq; ſi a parallelogrãmo parallelogrammum ablatum ſit, &c. Quod erat demonſtrandum.
 
-SINT data duo rectilinea A, & B; ſitque conſtituendum aliud rectilineum, quod ſimile quidem ſit ipſi A, æquale uero ipſi B. Super CD, unum latus rectilinei, cui ſimile debet conſtitui, conſtituatur parallelogrãmum CE, in quouis angulo, æquale rectilineo A; Et ſuper rectam DE, in angulo EDG, qui æqualis ſit angulo DCF, parallelogrammum DH, æquale ipſi B; eritque CDG, linea
-
-[Figure: pentagon labelled A, triangle labelled B, parallelogram with labels C, D, G, F, E, H, and pentagon labelled L with points I, K]
+[Figure: parallelogram with vertices B, C, D, A, diagonal line, and interior points E, F, I, H, G]
 
 [Margin]
-44. uel 45. primi.
+24. ſexti.
+11. quinti.
+9. quinti.
 [/Margin]
 
-<!-- Catchword: una -->
+## SCHOLION.
+
+ALITER idem theorema demonſtrabimus oſtenſiue, hoc modo. Diuiſis lateribus AB, BC, bifariam in punctis H, I, ſiue punctum H, cadat in punctum E, ſiue ſupra, ſiue infra; ducantur rectæ HI, AF. Quoniam igitur, propter ſimilitudinem parallelogrammorum, eſt ut AB, ad BC, ita AE, ad EF; Vt autẽ tota AB ad totam BC, ita eſt dimidia HB, ad dimidiam BI; Erit ut HB, ad BI, ita AF, ad EF. Triangula igitur HBI, AEF, cum habeant circa
+
+[Figure: parallelogram with vertices B, C, D, A, diagonal, and interior points L, E, H, F, G]
+
+[Figure: parallelogram with vertices B, C, D, A, diagonal, and interior points H, E, F, G]
+
+[Figure: parallelogram with vertices B, C, D, A, diagonal, and interior points E, F, H, G]
+
+[Margin]
+15. quinti.
+11. quinti
+[/Margin]
+
+<!-- Catchword: angulos -->

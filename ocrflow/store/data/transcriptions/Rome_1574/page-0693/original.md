@@ -1,51 +1,31 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
 
-tremi D, & F, quadrati, ex coroll. 1. propos. 2. huius lib. Quare cum ſit, ex æquo A, ad B, ut D, ad F, manifeſtum eſt, ita eſſe A, ad B, ut eſt quadratus aliquis, nempe D, ad quadratum alium, ut ad F. Ergo ſimiles plani numeri rationẽ inter ſe habent, &c. Quod demonſtrandum erat.
+mus, latera habet ſolummodo vnitatem, & ſeipſum, quamuis improprie. Vt hi numeri plani 19. & 23. latera habent 1. 19. & 1. 23. cum ex horum mutua multiplicatione producantur, quæ conſtat non eſſe proportionalia. Quiuis vero numerus ſolidus, qui numerus etiam primus ſit, latera tantum habet duas unitates, & ſe ipſum. Vt hi numeri ſolidi 29. & 47. latera habent 1. 1. 29. & 1. 1. 47. cum ex mutua horũ multiplicatione producantur. Perſpicuum autem eſt ea non poſſe eſſe proportionalia.
 
-[Calculation]
-A,20.  C,30.  B,45.
-D,4.   E,6.   F,9.
-[/Calculation]
-
-## SCHOLION.
-
-FACILE etiam demonſtrabimus conuerſum huius, videlicet.
-
-NVMERI, qui proportionem habent, quã quadratus numerus ad quadratum numerum, ſimiles plani ſunt.
-
-HABEANT numeri A, B, proportionem inter ſe, quã quadrati C, D. Dico A, B, eſſe planos ſimiles. Quoniam inter quadratos C, D, cadit vnus medius proportionalis: Et eſt, vt C, ad D, ita A, ad B; cadet quoque medius proportionalis inter A, & B. Quare A, & B, plani ſimiles ſunt.
-
-[Calculation]
-A,8.   B,18.
-C,16.  D,36.
-[/Calculation]
+VNDE facilis admodum eſt inuentio duorum planorum, vel ſolidorum non ſimilium. Si enim accipiantur duo numeri habentes proportionem duplam, vel ſeſquialteram, uel ſuperbipartientem, vel certe duo numeri primi, erunt illi ipſi per ea, quæ tradita ſunt, plani ſeu ſolidi non ſimiles.
 
 [Margin]
-11. octaui
+26. octaui
 [/Margin]
 
 [Margin]
-8. octaui
+24. octaui
+[/Margin]
+
+RVRSVS quilibet duo numeri, quorum alter quadratus ſit, alter uero non quadratus, plani ſunt non ſimiles; quales ſunt 16. & 20. Si enim eſſent plani ſimiles, haberent proportionem, quam quadratus ad quadratum. Exiſtente igitur 16. quadrato, eſſet & 20. quadratus. quod eſt abſurdum. ponitur enim non quadratus.
+
+[Margin]
+27. octaui
 [/Margin]
 
 [Margin]
-20. octaui
+25. octaui
 [/Margin]
 
-EX hoc perſpicuum eſt, planos numeros, qui ſimiles non ſunt, proportionem non habere, quam quadratus ad quadratũ. Si enim haberent; eſſent, vt modo demonſtratum eſt, plani ſimiles. quod eſt abſurdum. ponuntur enim non ſimiles.
+PARI ratione quilibet duo numeri, quorum alter cubus ſit, alter vero non cubus, ſolidi ſunt non ſimiles, vt 27. 40. Si enim eſſent ſolidi ſimiles, haberent proportionem, quam cubus ad cubum. Cum igitur 27. cubus ſit, eſſet & 40. cubus. quod eſt abſurdum. ponitur enim non cubus.
 
-## THEOR. 25. PROPOS. 27.
+## FINIS ELEMENTI OCTAVI.
 
-[Margin]
-25.
-[/Margin]
+[Ornament: floral tailpiece]
 
-SIMILES ſolidi numeri rationem habent inter ſe, quam cubus numerus ad cubum numerum.
-
-SINT ſimiles ſolidi A, B. Dico eſſe, ut A, ad B, ita cubum quempiam numerum ad alium quendam cubum. Quia A, B, ſunt ſolidi ſimiles, cadent inter eos duo medij
-
-[Margin]
-19. octaui
-[/Margin]
-
-<!-- Catchword: propor- -->
+<!-- Catchword: EVCLIDIS -->

@@ -1,35 +1,57 @@
 <!-- Running title: LIBER VI. -->
-<!-- Page number: 226 -->
 
-BCD, FGH, qui æquales erunt, ex defin. ſegmentorum ſimilium; Sunt autem tam anguli C, & A, quàm G, & E, duobus rectis æquales: Ablatis igitur æqualibus C, & G; reliqui A, & E; ac proinde eorum dupli I, & K, æquales erunt.
+<!-- Page number: 227 -->
 
-[Margin]
-22. tertij.
-[/Margin]
-
-[Figure: two unequal circles, the larger with center I and inscribed triangle with apex A and base BD, the smaller with center K and inscribed triangle with apex E and base FH, with points C and G on the circumferences]
-
-VICISSIM quoq; liquet, arcus, quibus inſiſtunt ſiue ad cẽtra, ſiue ad circunferentias, anguli æquales, ſimiles eſſe. Nã ſi anguli A, et E, fuerint æquales; erunt & reliqui duorũ rectorũ C, & G, æquales. Igit̃, p̃ definitionẽ, arcus BCD, FGH, ſimiles ſunt, quibus dicti anguli A, & E, inſiſtũt. Quod ſi I, & K, æquales ſint, erũt et eorũ dimidij A, et E, æquales. Quare, vt prius, arcus BCD, FGH, ſimiles ſunt.
-
-QVONIAM vero Euclides multa dixit de inuentione linearũ proportionaliũ, nihil vero de ſuperficierũ, vel planorum proportionaliũ inueſtigatione nobis præſcripſit; non abs re me facturum exiſtimo, ſi nonnulla problemata, atque theoremata, quorũ multa circa inuentionẽ ſuperficierũ proportionaliũ verſantur, ſcitu nõ iniucunda, loco appẽdicis, partim ex peritis Geometris, partim ex inuentis proprijs, huic ſexto libro annectam; quippe quæ ex demonſtratis ab Euclide facili negotio deducuntur; Hinc autem exordium capiemus.
-
-## A DATO rectilineo imperatam partem auferre, ita tamen, ut & ablatum, & id, quod relinquitur, ſimile ſit cuiuis rectilineo dato, ſimiliterque poſitum.
-
-[Margin]
-I.
-[/Margin]
-
-SIT ex rectilineo A, auferenda tertia pars, quæ ſimilis ſit, ſimiliterq́ue poſita rectilineo B, relinquatq́; rectilineum eidem B, ſimile, & ſimiliter poſitũ. Cõſtituatur rectilineũ CD, æquale quidẽ ipſi A, ſimile vero ipſi B, ſuperq́; vnũ eius latus CE, ſemicirculus deſcribat̃ CFE. Deinde ablata parte tertia GE, imperata uidelicet, ex CE, agat̃ GF, ad CE, p̃pendicularis, cõnectanturq́; rectæ CF, EF, ſup quas cõſtruant̃ rectilinea
+SINT data duo rectilinea A, & BCD, quibus inueniendum ſit tertium proportionale. Conſtituatur ipſi A, rectilineum æquale EFG, ſimile vero ſimiliterque poſitum ipſi BCD. Deinde lateribus homologis EF, BC, inueniatur tertia linea proportionalis HI, ſuper quam conſtituatur rectilineũ HIK, ſimile ſimiliterque poſitum ipſis EFG, BCD. Dico HIK, eſſe tertium proportionale. Cum enim proportionales ſint rectæ EF, BC, HI, erunt & rectilinea EFG, BCD, HIK, ab illis deſcripta (cum ſint ſimilia, ſimiliterque poſita) proportionalia. Cum ergo EFG, per conſtructionem, æquale ſit ipſi A; erunt & rectilinea A, BCD, HIK, proportionalia.
 
 [Margin]
 25. ſexti.
 
-9. ſexti.
+11. ſexti.
+
+18. ſexti.
+
+22. ſexti.
+[/Margin]
+
+[Figure: a triangle labelled A, a triangle BCD, and three similar triangles labelled EFG, HIK on the line EFHI]
+
+[Margin]
+III.
+[/Margin]
+
+## TRIBVS datis rectilineis, quartum proportionale inuenire.
+
+TRIA rectilinea data ſint A, BCDE, FGH, quibus quartum ſit inueniendum proportionale. Conſtruatur rectilineum IKLM, æquale quidem ipſi A, ſimile vero ſimiliterq́; poſitum ipſi BCDE. Tribus deinde rectis IK, BC, FG, inuenta quarta proportionali NO, conſtituatur ſuper NO, rectilineum NOP, ipſi FGH, ſimile ſimiliterque poſitum. Dico NOP, rectilineum eſſe quartum proportionale. Cum enim quatuor rectæ IK, BC, FG, NO, ſint proportionales, erunt & rectilinea ſimilia ſimiliterq́; poſita ab ipſis deſcripta IL, BD, FGH, NOP, proportionalia. Cum igitur IL, conſtructum ſit æquale ipſi A; erunt & quatuor rectilinea A, BD, FGH, NOP, proportionalia.
+
+[Margin]
+25. ſexti.
+
+12. ſexti.
+
+18. ſexti.
+
+22. ſexti.
+[/Margin]
+
+[Figure: a triangle labelled A, a parallelogram BCDE, a triangle FGH, a parallelogram IKLM, and a triangle NOP]
+
+[Margin]
+IIII.
+[/Margin]
+
+## DVOBVS datis rectilineis, medium proportionale inuenire.
+
+SINT duo rectilinea A, BCD, quibus medium inueniendum eſt proportionale. Conſtituatur rectilineum EFG, æquale ipſi A, & ſimile ſimiliterque poſitum ipſi BCD. Duabus deinde rectis EF, BC, inuenta media proportionali HI, conſtruatur ſuper HI, rectilineum HIK, ſimile ſimiliterq́; poſi-
+
+[Margin]
+25. ſexti.
+
+13. ſexti.
 
 18. ſexti.
 [/Margin]
 
-[Figure: a triangle labelled A, a parallelogram labelled B, and a construction with base CE, semicircle CFE on it, perpendicular GF from point G, and rectilinear figures on CF and EF with points H, I and D]
+<!-- Signature: Ff 3 -->
 
-<!-- Signature: Ff 2 -->
-<!-- Catchword: FH, -->
+<!-- Catchword: tum -->

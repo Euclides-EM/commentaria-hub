@@ -1,22 +1,26 @@
-<!-- Running title: LIBER. VI. -->
-<!-- Page number: 222 -->
+<!-- Running title: LIBER VI. -->
+<!-- Page number: 225 -->
 
-titatem, cum utraque proportio ſit duplicata proportionis AC, ad BC. Similiter erit ut quadratũ rectæ AB, quinta quantitas, ad quadratum rectæ BC, ſecundã quantitatẽ, ita figura BG, ſexta quantitas, ad figuram BD, quartam quantitatem. Quocirca erit, ut prima quantitas cum quinta, nẽpe quadratũ rectę AC, cum quadrato rectæ AB, ad ſecundã, hoc eſt, ad quadratũ rectæ BC, ita tertia quantitas cum ſexta, nimirum figura CH, cum figura BG, ad quartam, nempe ad figuram BD: Sunt autem quadrata rectarum AC, AB, ſimul æqualia quadrato rectæ BC. Igitur & figuræ CH, BG, figuræ BD, æquales erunt.
+inter ſe æquiãgula, habebuntq́; æquales angulos B, & DCE. Additis ergo æqualibus A, & ACD, erunt duo anguli B, & A, duobus angulis DCE, ACD, hoc eſt, angulo ACE, æquales. Rurſus addito communi ACB, fient tres anguli trianguli ABC, duobus angulis ACE, ACB, æquales: Sed illi tres æquales ſunt duobus rectis; ergo & duo ACE, ACB, duobus erunt rectis æquales: Ac idcirco BC, CE, unam rectam lineam conſtituent. Itaque ſi duo triangula, quæ duo latera duobus lateribus proportionalia habeant, &c. Quod erat demonſtrandum.
 
 [Margin]
-19. uel 20 ſexti.
-24. quinti.
-47. primi
+6. ſexti.
+[/Margin]
+
+[Margin]
+32. primi
+[/Margin]
+
+[Margin]
+14. primi
 [/Margin]
 
 ## SCHOLION.
 
-VIDES igitur, longe eße uniuerſalius theorema hoc Euclidis, quod ſe ſe ad omnes figuras ſimiles ſimiliterque deſcriptas extendit, quàm illud Pythagoræ inuentum, quod ſola quadrata includit, ut propos. 47. primi lib. monuimus. Eſt tamen & theorema illud, quod ibi ex Pappo demonſtrauimus, adhuc vniuerſalius hoc, cum illud de omni triangulo, parallelogrammisque etiam non ſimilibus; Hoc vero de triangulo tantummodo rectangulo, figurisque ſimilibus, & ſimiliter poſitis, proponatur.
+DEBENT autem prædicta duo triangula ita ſecundum vnum angulum eſſe compoſita, vt vterque angulorum a lateribus proportionalibus comprehenſus, alternus ſit illi angulo, ſecundum quem triangula cõponuntur; veluti in ſchemate theorematis factum eſſe vides. Nam angulo ACD, ſecundum quẽ triangula ſunt compoſita, alternus eſt tam angulus A, quam angulus D, quorum vterque lateribus proportionalibus continetur. Hinc enim efficitur, angulos A, & D, eſſe æquales, & propterea triangula eſſe æquiangula; atque adeo ex BC, CE, vnam rectam lineam componi, vt ex demonſtratione liquet.
 
-CONVERTEMVS etiam theorema hoc ex Campano nõ aliter, quàm 47. propoſitionem primi lib. in hunc modum.
+QVOD ſi vterque angulorum lateribus proportionalibus comprehenſus non fuerit alternus angulo, ſecundum quem triangula componuntur, licet reliquæ hypotheſes theorematis ſeruentur, non colligitur neceſſario concluſio. Nam duo triãgula ABC, DBE, habent duo latera AB, AC, duobus lateribus DE, DB, proportionalia, vt quidem AB, ad AC, ita DE, ad DB; compoſitaque ſunt ad angulum CBD, ita vt tam homologa latera AB, DE, quam AC, DB, ſint parallela: Nihilominus reliqua duo latera CB, BE, non conſtituunt vnam lineam rectam; propterea quod angulo CBD, non ſit alternus vterque angulorum A, & D, immo neuter eorum, ut perſpicuum eſt. Quamobrem demonſtratio theorematis locum non habet.
 
-Si figura, quæ ab uno laterum trianguli deſcribitur, æqualis ſit eis, quæ a reliquis trianguli lateribus deſcribuntur, figuris ſimilibus ſimiliterque poſitis: Angulus comprehenſus ſub reliquis duobus trianguli lateribus, rectus eſt.
+[Diagram: lines radiating from point B to points C, D, A, and E, with A between B and D, C above D, and E to the right of B on the base line]
 
-DETVR triangulum ABC, ſitque figura quauis ſuper latus BC, deſcripta æqualis duabus figuris ſibi ſimilibus ſimiliterq́; deſcriptis ſuper reliqua latera AB, AC. Dico angulũ BAC, eſſe rectum. Ducatur enim AD, ad AC, perpendicularis, quę ſit ipſi AB, æqualis, & connectatur recta CD. Quoniã igitur angulus CAD, rectus eſt, erit figura ſuper CD, (quæ
-
-<!-- Catchword: ſimilis -->
+<!-- Catchword: THEOR. -->

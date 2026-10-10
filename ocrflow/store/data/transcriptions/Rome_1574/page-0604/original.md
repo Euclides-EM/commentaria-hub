@@ -1,29 +1,33 @@
-<!-- Running title: LIBER VII. -->
+<!-- Running title: LIBER. VII. -->
 
-<!-- Page number: 259 -->
+<!-- Page number: 260 -->
 
-portioni B, ad F, ut demonſtratum eſt; & ipſæ inter ſe eædem erunt, ut mox oſtendetur.) Ac proinde uiciſſim, ut A, ad C, ita D, ad F.
-
-[Margin]
-13. ſeptim.
-[/Margin]
-
-QVOD ſi fuerint plures numeri, quam tres, ita ut ſit etiam quemadmodum C, ad G, ita F, ad H; Dico adhuc eſſe, ut A, ad G, ita D, ad H. Cum enim iam ſit oſtenſum in tribus numeris, eſſe ut A, ad C, ita D, ad F; ponatur autẽ ut C, ad G, ita F, ad H; erunt tres numeri A, C, G, & alij tres D, F, H, qui bini in eadem ratione ſumuntur. Ex æqua litate igitur in tribus numeris oſtenſa, rurſus erit ut A, ad G, ita D, ad H. Eodemque modo idem oſtendemus in quin que numeris, per quatuor; ſicut id in quatuor numeris demonſtratum fuit per tres, & ſic de pluribus. Itaque ſi ſint quotcunque numeri, & alij illis æquales multitudine, &c. Quod oſtendendum erat.
+que numeri K F, E K, ſimul, eadem pars, quæ unitas H C, numeri K F, hoc eſt, quæ unitas A, numeri D; Ac proinde unitas A, numerum D, & numerus B C, ex unitate H C, & numero B H, compoſitus, numerum E F, ex numeris K F, B K, compoſitum æque metietur. Si, unitas igitur numerum quempiam metiatur, &c. Quod erat demonſtrandum.
 
 ## SCHOLION.
 
-IDEM uerum eſt, ſi loco unius numeri unitas aſſumatur, uel etiam loco plurium plures unitates, ut in hoc exemplo perſpicuum eſt.
+ILLVD idem, quod Euclides demonſtrauit de numeris, propos. 13. oſtendit hoc in loco ſeparatim de unitate, & tribus numeris, propterea quod unitas non eſt numerus. Quod quidem breuius ita nos demonſtrabimus. Quia unitas A, numerum B C, æque metitur, atque numerus D, numerum E F; erit unitas A, eadẽ pars numeri B C, quæ numerus D, numeri E F. Per ea igitur, quæ ad propos. 9. demonſtrauimus, erit uiciſſim unitas A, eadem pars numeri D, quæ numerus B C, numeri E F; Ac propterea unitas A, numerum D, & numerus B C, numerum E F, æque metietur.
 
-[Diagram: four rows of dotted lines labelled A, B, C, G in the left column and D, E, F, H in the right column]
+## THEOR. 14. PROPOS. 16.
 
-## LEMMA.
+[Margin]
+17.
+[/Margin]
 
-QVOD autem duæ proportiones numerorũ, quæ eidem proportioni eædem ſunt, inter ſe quoque ſint
+SI duo numeri mutuo ſe ſe multiplicantes fecerint aliquos; geniti ex ipſis æquales inter ſe erunt.
 
-[Diagram: two rows of dotted lines labelled A, B, C and D, E, F]
+DVO numeri A, & B, ſe mutuo multiplicantes faciant numeros C, & D, ita ut A, multiplicans ipſum B, faciat C, at B, ipſum A, multiplicans faciat D. Dico numeros C, & D, inter ſe æquales eſſe. Sumpta enim unitate E; cũ A,
 
-eædem, quales ſunt in demonſtratione proportiones A, ad D, & C, ad F, quæ eædem oſtenſæ ſunt proportioni B, ad E; ita demonſtrabitur. Propter eandem proportionem, erit B, ipſius E, & tam A, ipſius D, quam C, ipſius F, æque multiplex, uel eadem pars, uel
+[Diagram: rows of dotted lines labelled E, A, B, D and C]
 
-<!-- Signature: Kk 3 -->
+ipſum B, multiplicans faciat C; erit C, ex B, toties compoſitus, quot ſunt in A, unitates; atque adeo unitas E, numerũ A, & numerus B, numerum C, æque metietur. Viciſſim er go & unitas E, numerum B, & numerus A, numerum C,
 
-<!-- Catchword: eædem -->
+[Margin]
+15 defin.
+
+15. ſeptimi
+[/Margin]
+
+<!-- Signature: Kk 4 -->
+
+<!-- Catchword: metietur -->

@@ -1,21 +1,25 @@
 <!-- Running title: EVCLID. GEOM. -->
 
 [Margin]
-4. primi
+5. primi
+17. uel 32. primi.
 [/Margin]
 
-EF, æqualia ſint lateribus GE, EF, & anguli ipſis contenti æquales quoque; (nam angulo B, cui factus eſt, æqualis an gulus FEG, æqualis eſt poſitus angulus DEF, proptereaq; æquales ad inuicem erunt anguli DEF, GEF,) erunt reliqui anguli D, EFD, reliquis angulis G, EFG, æquales. Cum ergo angulus G, ſit æqualis angulo A, & angulus EFG, angulo C; erunt etiam angulis A, C, æquales anguli D, EFD; & ob id æquiangula erunt triangula ABC, DEF. quod eſt propoſitum. Si igitur duo triangula unũ angulum uni angulo æqualem; &c. Quod erat demonſtrandum.
+uero recto maior. Cum enim CG, CB, latera æqualia ſint, & ideo anguli CBG, CGB, æquales; erit uterque eorum recto minor, ac propterea AGC, recto maior.
 
-[Figure: two triangles; the first with apex A and base BC; the second with vertices D, E, F and point G below]
+## THEOR. 8. PROPOS. 8.
+
+SI in triangulo rectangulo, ab angulo recto in baſin perpendicularis ducta ſit: quæ ad perpendicularem triangula, tum toti triãgulo, tum ipſa inter ſe ſimilia ſunt.
+
+IN triangulo ABC, angulus BAC, ſit rectus, a quo ad baſin perpendicularis agatur AD. Dico triangula ADB, ADC, ſimilia eſſe & toti triangulo ABC, & inter ſe. Cum enim in triangulis ABC, DBA, anguli BAC, & ADB, ſint recti, & angulus B, communis, erunt, & reliqui anguli ACB, & DAB, æquales. Aequiangulum eſt igitur triangulum DBA, triangulo ABC, ac propterea habebunt latera circa æquales angulos proportionalia, hoc eſt, erit ut CB, ad BA, ita BA, ad BD; & ut BA, ad AC, ita BD, ad DA; & ut BC, ad CA, ita BA, ad AD. Quare ſimile eſt triangulum ADB, toti triangulo ABC. Eodem modo oſtendetur triangulum ADC, ſimile eidem triangulo ABC; Nam anguli BAC, & ADC, ſunt recti, & angulus C, communis; ac propterea reliqui anguli ABC, & CAD, æquales. Quare ut BC, ad CA, ita CA, ad CD; & ut CA, ad AB, ita CD, ad DA; & ut CB, ad BA, ita CA, ad AD. Non ſecus demonſtrabitur, ſimilia inter ſe eſſe triangula ADB, & ADC, cũ anguli ADB, ADC, ſint recti, & anguli ABD, CAD, oſtenſi æquales, nec non anguli BAD, ACD; Atq; idcirco ſit ut BD, ad DA, ita DA, ad DC, &c. Si igitur in triangulo rectangulo, ab angulo recto in baſin perpendicula ris ducta ſit, &c. Quod erat demonſtrandum.
 
 [Margin]
-7.
+32. primi
+4. ſexti.
+32. primi
+4. ſexti.
 [/Margin]
 
-## THEOR. 7. PROPOS. 7.
+[Figure: right triangle with apex A, base vertices B and C, and perpendicular from A to point D on the base]
 
-SI duo triangula vnum angulum uni an gulo æqualem, circum autem alios angulos latera proportionalia habeant; reliquorum uero ſimul utrunque aut minorem, aut nõ minorem recto: Aequiangula erunt triangula, & æquales habebunt eos angulos, cir cum quos proportionalia ſunt latera.
-
-SIT angulus A, trianguli ABC, æqualis angulo D, trianguli DEF; & latera AC, CB, circa angulum ACB, proportionalia lateribus DF, FE, circa angulum F, hoc eſt, ſit ut AC, ad CB, ita DF, ad FE; hac tamen lege, ut quilibet reliquorum angulorum B, & E, ſit uel minor recto, uel non minor. Dico æquiangula eſſe triangula, angulos ſcilicet ACB, & F, circa quos ſunt latera proportionalia, nec non & angulos B, & E, æquales eſſe. Sit enim primo tam B, quam E, recto minor: Quo poſito, ſi anguli ACB, & F, non ſunt æquales, ſit ACB, maior, quam F; fiatque ipſi F, æqualis ACG. Cum igitur, & angulus A, angulo D,
-
-<!-- Catchword: ponatur -->
+<!-- Catchword: CORROL- -->

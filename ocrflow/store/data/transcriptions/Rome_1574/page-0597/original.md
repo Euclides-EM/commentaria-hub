@@ -1,7 +1,31 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-ri AG, AH, ſint rurſum uel æquales ipſis CD, CF, uel eorũ æquemultiplices. Diuiſis igitur numeris GB, HE, in partes GI, IB, & HK, KE, numerorum CD, CF, erit multitudo partium ipſius GB, multitudini partium ipſius HE, æqualis. Simili modo, diuiſis numeris CD, CF, in partes CL, LM, MD, & CN, NO, OF, partibus GI, IB, & HK, KE, æquales, erit quoque multitudo partium ipſius CD, multitudini partium ipſius CF, æqualis, quod quælibet partium numeri GB, eadem pars ſit numeri CD, quæ unaquæque partium numeri HE, eſt numeri CF. Denique diuiſis numeris AG, AH, in partes AP, PQ, QG, & AR, RS, SH, eiſdem partibus GI, IB, & HK, KE, æquales, erit & multitudo partium numeri AG, æqualis multitudini partium numeri AH. Cum enim AG, AH, uel æquales ſint ipſis CD, CF, uel eorum æquemultiplices; erunt uel tot partes in AG, AH, quot in CD, CF, uel certe numerus partium ipſius CD, toties continebitur in AG, quoties numerus partiũ ipſius CF, in AH; proptereaq́; multitudo partium numeri AG, multitudini partium numeri AH, æqualis erit: Quibus ſi addantur æquales multitudines partium numerorum GB, HE, erit quoque multitudo partium numeri AB, multitudini partium numeri AE, æqualis; Atque adeo una pars numeri CD, eadem pars erit numeri AB, quæ una
+nales, erit quemadmodum unus antecedentium ad unum conſequentium, ita omnes antecedentes ad omnes conſequentes.
 
-[Diagram: four horizontal dotted lines with points labelled A, P, Q, G, I, B; C, L, M, D; A, R, S, H, K, E; and C, N, O, F]
+SINT quotcunque numeri proportionales A, B; C, D; E, F; hoc eſt, ut A, ad B, ita C, ad D, & E, ad F. Dico eſſe quoque omnes A, C, E, ſimul ad omnes B, D, F, ſimul, ut eſt A, ad B. Sint enim primũ A, C, E, minores quam B, D, F. Quoniam igitur, propter eandem proportionem, eadem pars eſt, aut partes
 
-<!-- Catchword: pars -->
+[Diagram: two rows of dotted lines labelled A, C, E and B, D, F]
+
+[Margin]
+c. uel 6. ſeptimi.
+[/Margin]
+
+A, ipſius B, quæ C, ipſius D, & E, ipſius F; erit quoque uterque A, C, ſimul vtriuſque B, D, ſimul eadem pars, aut partes, quæ A, ipſius B, uel E, ipſius F. Rurſus quia uterque A, C, ſimul, tanquam unus, utriuſque B, D, ſimul, tanquam vnius, eadem pars eſt, aut partes, quæ E, ipſius
+
+[Margin]
+c. uel 6. ſeptimi.
+[/Margin]
+
+F; erunt & ambo A, C, tanquam unus, & E, ſimul, amborum B, D, tanquam unius, & F, ſimul eadem pars, uel partes, quæ A, ipſius B. Quare, per defin. 20. eadem proportio eſt omnium A, C, E, ſimul ad omnes B, D, F, ſimul quæ eſt ipſius A, ad B.
+
+SINT ſecundo A, C, E, maiores, & æque multiplices numerorum B, D, F. Quo poſito, erit e contrario B, ipſius A, eadem pars, quæ D, ipſius C, & F, ipſius E; Atque adeo ut prius,
+
+[Margin]
+5. ſeptimi
+[/Margin]
+
+[Diagram: two rows of dotted lines labelled A, C, E and B, D, F]
+
+erunt omnes B, D, F, ſimul, omnium A, C, E, ſimul, eadem pars, quæ B, ipſius A; ideoque & e contrario omnes A, C, E, ſimul omnium B, D, F, ſimul, & A, ipſius B, æque multiplices. Quare per defin. 20. eadem eſt proportio omnium A, C, E, ſimul, ad omnes B, D, F, ſimul, quę eſt A, ad B. Hoc idem uerum eſt, etiamſi aliquæ proportiones multiplices, uel etiam omnes, ſint numerorum ad unitatem. Eſt enim eadem ſemper demonſtratio, ut hæ
+
+<!-- Catchword: paret, -->

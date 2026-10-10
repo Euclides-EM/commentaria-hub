@@ -1,26 +1,37 @@
-<!-- Running title: LIBER [unclear: VI.] -->
-<!-- Page number: 220 -->
+<!-- Running title: LIBER VI. -->
+<!-- Page number: 221 -->
 
-[Handwritten]
-28
-[/Handwritten]
+ALITER oſtendemus AB, eſſe ſectam in H, extrema ac media ratione. Cum tres lineæ dentur AB, AH, HB, ſitq́; rectangulum HC, comprehenſum ſub prima AB, & tertia HB, æquale quadrato mediæ AH; erunt ipſæ proportionales, ut AB quidẽ ad AH, ita AH, ad HB. Quare per definitionem ſecta eſt AB, in H, extrema ac media ratione.
+
+[Margin]
+17. ſexti.
+[/Margin]
+
+ALITER totum problema conficiemus. Diuidatur AB, in C, ita ut rectangulum ſub tota AB, & ſegmento CB, æquale ſit quadrato alterius ſegmenti AC. Dico AB, in C, eſſe ſectam extrema ac media ratione. Erunt enim rurſus, ut prius, tres lineæ AB, AC, CB, continue proportionales. Conſtat ergo propoſitum.
+
+[Figure: a horizontal line with points labelled A, C, B]
+
+[Margin]
+18. ſecundi
+17. ſexti.
+[/Margin]
+
+## SCHOLION.
+
+HABET admiranda hæc ſectio lineæ extrema ac media ratione inſignes utilitates, proprietatesque, ceu in libris Stereometria manifeſtum erit, ut nõ ſine cauſa a plerisque Mathematicis linea ita diuiſa diuinam quodammodo, ob admirabilẽ eius vim, ac naturam, dicatur habere proportionem: Ab alijs uero ſimpliciter uocetur diuiſa proportionaliter.
+
+## THEOR. 21. PROPOS. 31.
+
+[Margin]
+31.
+[/Margin]
+
+IN rectangulis triangulis, figura quæuis a latere rectum angulum ſubtendẽte deſcripta, æqualis eſt figuris, quæ priori illi ſimiles, & ſimiliter poſitæ a lateribus rectũ angulum continentibus deſcribuntur.
+
+TRIANGVLVM rectangulum ſit ABC, habens angulum BAC, rectũ; deſcribaturq́; ſuper BC, quæcunq́; figura rectilinea BCDE, cui ſimiles ſimiliterq́; poſitæ ſuper AB, AC, cõſtituantur ABFG, ACIH. Dico figuram BD, æqualem eſſe duabus figuris AF, AI. Demiſſa enim ex A, ad BC, perpendiculari AK; erit per corollarium propos. 8.
 
 [Margin]
 18. ſexti.
-14. ſecundi
-25. ſexti.
-26. ſexti.
-24. ſexti.
-36. primi
 [/Margin]
 
-## PROBL. 9. PROPOS. 29.
-
-AD datam rectam lineam, dato rectilineo æquale parallelogrammum applicare, excedens figura parallelogramma, quæ ſimilis ſit parallelogrammo alteri dato.
-
-AD datam rectam lineam AB, dato rectilineo C, applicandum ſit parallelogrammum æquale, excedens parallelogrammo, quod ſimile ſit dato alteri, parallelogrammo D. Diuiſa AB, bifariam in E; ſuper dimidiam EB, conſtruatur parallelogrammum EFGB, ſimile ipſi D, ſimiliterque poſitum. Deinde rectilineo C, & parallelogrammo EG, conſtituatur quadratum H, æquale, cui quidem fiat parallelogrammum IKLM, æquale, ſimile uero ipſi EG, ſimiliterque poſitum; eritque propterea IKLM, maius quam EFGB, quandoquidem æquale eſt quadrato H, quod cõſtructũ eſt rectilineo C, una cum parallelogrammo EG, æquale. Cum igitur ob ſimilitudinẽ MK, EG, ſit ut MI, ad IK, ita EF, ad FG, erunt quoque latera MI, IK, lateribus EF, FG, maiora. Si enim illa his forent æqualia, uel minora, eſſet quoque MK, uel æquale ipſi EG, uel minus, ut perſpicuum eſt. Productis igitur FE, FG, ut rectæ FO, FN, æquales ſint rectis IM, IK, & completo parallelogrãmo ON, erit hoc ſimile ſimiliterque poſitum ipſi EG, cũ ſit æquale ipſi MK, & ſimile. Quare ON, EG, circa eandem diametrum conſiſtent, quæ ſit FP. Productis iam AB, GB, ad Q, R; & PO, donec cum AS, ipſi FO, parallela conueniat in S; erit parallelogrammum AP, applicatum ad rectam AB, excedens parallelogrammo QR, quod ſimile eſt ipſi EG, ac propterea ipſi D. Dico igitur AP, æquale eſſe rectilineo C. Nam cũ AO, ER, ſint æqualia; & ER, ęqua
-
-[Figure: a triangle labelled C, a square labelled H, a parallelogram labelled with I, K, M, L, a small parallelogram labelled D, and parallelograms on a base line with points labelled F, G, N, A, E, B, Q, S, O, R, P]
-
-<!-- Signature: Ee 4 -->
-<!-- Catchword: le -->
+<!-- Catchword: huius -->

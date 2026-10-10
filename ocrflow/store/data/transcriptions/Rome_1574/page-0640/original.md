@@ -1,29 +1,22 @@
-<!-- Running title: LIBER. VII. -->
-<!-- Page number: 277 -->
+<!-- Running title: LIBER VII. -->
+<!-- Page number: 278 -->
 
-H, & I, &c. partes A, B, C, habeant, denominatas ſcilicet a D, E, F, ita oſtendemus. Quoniam D, E, F, metiuntur ip-
-
-[Diagram: dotted lines labelled G, H and I, opposite short dotted lines labelled A D, B E and C F; dashed lines labelled K, M, L and N, P, O]
-
-ſum G, per conſtructionem; & G, ipſos H, I, & reliquos multiplices ipſius G; metientur quoque D, E, F, eoſdem H, I, & reliquos multiplices ipſius G. Quare H, I, & reliqui numeri ipſius G, multiplices, partes habebunt a metientibus numeris D, E, F, denominatas, quales ponuntur partes A, B, C.
+quoties vnitas in D; Atque adeo ex D, in K, fiet I. Eadem ratione ex E, in L, fiet K; & L, ex F, in M. Itaque cum D, ipſos G, & K, multiplicans faciat H, & I; erit, ut H, ad I, ita G, ad K. Eadem ratione, cum ex E, in F, & I, fiant G, & K; erit, ut G, ad K, ita F, ad L. Et cum ex F, in vnitatem, & M, fiant F, & L; erit, vt F, ad L, ita vnitas ad M. Quoniam igitur eſt, vt H, ad I, ita G, ad K; & ut G, ad K, ita F, ad L; & vt F, ad L, ita vnitas ad M: Erit, per lemma propoſ. 14. huius lib. vt H, ad I, ita vnitas ad M. Ponitur autẽ H, numerus numero I, maior; vnitas igit̃ maior quoqʒ erit numero M, pars toto. Quod eſt abſurdum. Non ergo alius numerus minor, quã H, habet partes A, B, C, ordine prædicto, ſed ipſe H, minimus eſt. Quod eſt propoſitum.
 
 [Margin]
-11. pron.
-39. ſeptimi
+15. defin.
+
+17. ſeptimi
 [/Margin]
 
-QVOD autem H, duplus ipſius G, minimi, ſit ſecundus dictas partes habens, hoc modo demonſtrabimus. Si H, non eſt ſecundus, ſit, ſi fieri poteſt, alius K L, ipſo prior, qui nimirum maior ſit, quam G, minimus, & minor, quam H, duplus ipſius G. Detracto autem G, ex K L, relinquatur M L, ipſo G, minor. Quoniam igitur K L, partes habet A, B, C; metientur ipſum numeri D, E, F, a partibus dictis denominati; Ac propterea & G, minimus, quem D, E, F, metiuntur, metietur per coroll. propos. 38. huius lib. eundẽ K L. Metitur autem & G, ablatum K M, ſibi æqualem: Igitur & reliquum M L, metietur, maior minorem. Quod eſt abſurdum. Non ergo alius numerus inter G, & H, cadens partes habet A, B, C; Ac proinde H, ſecundus eſt, huiuſmodi partes habens.
+[Diagram: two rows of labels: H. G. F. Vnitas. and I. K. L. M.]
 
-[Margin]
-40. ſeptimi
-12. pron.
-[/Margin]
+SI vero plures fuerint partes, quam tres, eadem prorſus eſt via tenenda ac demonſtratio. Vt ſi numeri 2. 3. 4. 5. 6. ſint denominatores partium, fient 30. ex 5. in 6. & 120. ex 4. in 30. & 360. ex 3. in 120. & tandem 720. ex 2. in 360. Nam numerus 720. habebit partem a 2. denominatam; & hac partem a 3. denominatam; & hac aliam a 4. & hac aliam a 5. & hæc denique partem a 6. denominatam, vt manifeſtum eſt.
 
-NON aliter oſtendemus numerum I, triplum ipſius G, eſſe tertium dictas partes habentem. Si enim non eſt tertius, ſit alius, ſi fieri poteſt, nempe N O, ipſo prior, qui videlicet maior ſit, quam H, duplus, minor vero quam I, triplus. Detracto autẽ H, duplo ex N O, relinquatur P O, minor ipſo G. Quia igitur N O, partes habet A, B, C; metientur ipſum numeri D, E, F, a partibus illis denominati. Ac idcirco & G, minimus, quem D, E, F, metiuntur, eundem N O, per coroll. propos. 38. huius lib. metietur: Metitur autem & G, ipſum N P, ablatum ipſi H, duplo æqualem. Igitur & reliquum P O, idem G, metietur, minorem maior. Quod eſt abſurdum. Non ergo alius numerus inter H, & I, cadens partes habet A, B, C, datas; Ac propterea
+QVOD ſi numerum H, inuentum duplicemus, triplicemus, &c. habebimus alios numeros, nempe ſecundum, tertium, quartum, &c. qui eaſdem partes eodem ordine habeant, duplicatas tamen, vel triplicatas, &c. Nam G, duplicatus, vel triplicatus, &c. dimidiata pars erit, ipſius H, duplicati, vel triplicati, &c. quemadmodum & G, ipſius H. Eademque eſt ratio de cæteris partibus.
 
-[Margin]
-40. ſeptimi
-12. pron.
-[/Margin]
+## FINIS ELEMENTI SEPTIMI.
 
-<!-- Catchword: I, ter- -->
+[Ornament: floral tailpiece]
+
+<!-- Catchword: EVCLIDIS -->

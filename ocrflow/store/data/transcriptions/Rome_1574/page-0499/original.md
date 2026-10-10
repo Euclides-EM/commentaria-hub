@@ -1,29 +1,24 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Margin]
-20.
-[/Margin]
-
-## THEOR. 15. PROPOS. 21.
-
-QVAE eidem rectilineo ſunt ſimilia, & inter ſe ſunt ſimilia.
-
-SINT rectilinea ABC, DEF, rectilineo GHI, ſimilia. Dico & ipſa inter ſe eſſe ſimilia. Cum enim propter ſimilitudinem, anguli rectilinei ABC, æquales ſint angulis rectilinei GHI; Item eadem de cauſa anguli rectilinei DEF, æquales angulis eiuſdem rectilinei GHI; erunt per communem ſententiam, anguli rectilinei ABC, æquales angulis rectilinei DEF. Rurſus cum ob eandem ſimilitudinem latera rectilinei ABC, proportionalia ſint lateribus rectilinei GHI, ea uidelicet, quæ circum æquales ſunt angulos; Item eandem ob cauſam, latera rectilinei DEF, proportionalia lateribus eiuſdem rectilinei GHI; erunt quoque latera rectilinei ABC, lateribus rectilinei DEF, proportionalia, ea nimirum, quæ angulos ambiunt æquales; Atque adeo per definitionem, ſimilia exiſtent rectilinea ABC, DEF. Quæ igitur eidem rectilineo ſunt ſimilia, & inter ſe ſunt ſimilia. Quod erat oſtendendum.
-
-[Figure: three triangles labelled A B C, G H I, and D E F]
+gulum uero ABC, ad triangulum FGH, habeat proportionem duplicatam eius, quam habent latera homologa AB, FG: habebunt quoque polygona inter ſe proportionem duplicatam proportionis eorũdem laterum homologorum AB, FG. Itaq; ſimilia polygona in ſimilia triangula diuiduntur, &c. Quod demonſtrandum erat.
 
 [Margin]
-11. quinti
+19. quinti.
 [/Margin]
+
+[Figure: two pentagons ABCDE and FGHIK divided into triangles by diagonals from A and F]
+
+## SCHOLION.
+
+QVOD ſi polygona ſimilia, fuerint æquilatera, & æquiangula, diuidentur quoque in ſimilia triangula, & numero æqualia, ductis e centris circulorum ipſa circunſcribentium ad omnes angulos rectis lineis. Sint enim polygona ſimilia, æquilatera, & æquiangula ABCDEF, GHIKLM, quæ circunſcribantur a circulis circa centra N, O, ex quibus rectæ ducẽtur NA, NB, &c. Dico triangula NCD, OIK, ſimilia eſſe. Quoniam anguli CND, IOK, æquales ſunt; (quod æque ſubmultiplices ſint quatuor rectorum. Nam utrunque ſpacium N, & O, quatuor rectis æquiualens, ex coroll. 2. propos. 15. lib. I. diuiditur in angulos & numero, & quantitate æquales, ſubtenſos nimirum a baſibus æqualibus, contentosque lateribus æqualibus.) Sunt autem & latera circum ipſos proportionalia, cum utrobique ſit proportio æqualitatis; Similia erunt triangula NCD, OIK. Eademque eſt ratio de cæteris. At uero hæc triangula eſſe homologa totis polygonis, nullo negocio demonſtrabitur. Cum enim tota polygona ſint ipſorum triangulorum æque multiplicia, ut patet, habebunt utique eandem cum ipſis proportionem.
+
+[Figure: two hexagons ABCDEF and GHIKLM inscribed in circles about centres N and O, divided into triangles]
 
 [Margin]
-21.
+6. ſexti.
+15. quinti
 [/Margin]
 
-## THEOR. 16. PROPOS. 22.
+PORRO ex hoc theoremate perfacile demonſtrabimus
 
-SI quatuor rectæ lineæ proportionales fuerint: Et ab eis rectilinea ſimilia ſimiliterque deſcripta, proportionalia erunt. Et ſi a rectis lineis ſimilia ſimiliterque deſcripta rectilinea, proportionalia fuerint: ipſæ etiam rectæ lineæ proportionales erunt.
-
-SINT quatuor rectæ AB, CD, EF, GH, proportio-
-
-<!-- Catchword: nales, -->
+<!-- Catchword: theore- -->

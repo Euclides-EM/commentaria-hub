@@ -1,23 +1,23 @@
-<!-- Page number: [unclear: 259] -->
-
 <!-- Running title: EVCLID. GEOM. -->
 
-tas in omni genere proportionis rationalis appareret. Theon enim, & nonnulli alij interpretes, illas duntaxat oſtendunt in proportionibus rationalibus minoris inæqualitatis, in quibus nimirum antecedentes numeri partes ſunt conſequentium, ut perſpicue ex eorundem auctorum demonſtrationibꝰ apparet; niſi maiorem numerum minoris numeri partes eſſe dicamus, ut nonnulli concedunt, quod eſt abſurdum, & ab Euclidis inſtituto alienum, cum partes appellarit numerum numeri, minorem maioris, cum minor non metitur maiorem. Quod etiam ex defin. 20. Solis luce clarius conſtat, ubi numeros proportionales docuit eſſe, cum primus ſecundi, & tertius quarti æque multiplex eſt, uel eadem pars, uel eædem partes, &c. Nam ſi exiſtimaret maiorem numerum minoris partes eſſe, ſatis fuiſſet dicere, cum primus ſecundi, & tertius quarti, eadem pars eſt, uel eædem partes. Ita enim numeros proportionales in omni genere proportionis comprehendiſſet, ut manifeſtum eſt: quare reliqua omnia uerba definitionis ſuperuacanea eſſent.
+<!-- Page number: [unclear: 260] -->
+
+eædem partes; uel certe B, ipſum E, & tam A, ipſum D, quam C, ipſum F, continebit æqualiter, eandemque inſuper partem, uel partes. Quare per defin. 20. numeri A, D, C, F, proportionales ſunt, ut quidem A, ad D, ita C, ad F. Quod eſt propoſitum.
+
+HOC idem demonſtratum fuit ab Euclide lib. 5. de proportionibus magnitudinum, propos. 11.
 
 [Margin]
-15.
+16.
 [/Margin]
 
-## THEOR. 12. PROPOS. 14.
+## THEOR. 13. PROPOS. 15.
 
-SI ſint quotcunque numeri, & alij illis æquales multitudine, qui bini ſumantur, & in eadem ratione: Etiam ex æqualitate in eadem ratione erunt.
+SI unitas numerum quempiam metiatur, æque autem alter numerus alterũ quẽdam numerum metiatur: Et uiciſſim æque unitas tertium numerum metietur, & ſecundus quartum.
 
-SINT quotcunque numeri A, B, C, & alij totidem D, E, F, ſitque ut A, ad B, ita D, ad E; & ut B, ad C, ita E, ad F. Dico ex æqualitate quoque eſſe ut A, ad C, ita D, ad F. Quoniam eſt, ut A, ad B, ita D, ad E; erit uiciſſim, ut A, ad D, ita B, ad E: Similiterque, eadem ob cauſam, cum ſit, ut B, ad C, ita E, ad F; erit uiciſſim, ut B, ad E, ita C, ad F. Igitur erit ut A, ad D, ita C, ad F; Cũ enim utraque proportio A, ad D, & C, ad F, eadem ſit pro
+METIATVR unitas A, numerum B C, & numerus D, numerum E F, æque. Dico uiciſſim unitatem A, numerum D, & numerum B C, numerum E F, æque metiri. Diuiſo enim numero B C, in unitates B G, G H, H C, & numero E F, in partes E I, I K,
 
-[Margin]
-13. ſeptimi.
-[/Margin]
+[Diagram: two rows of dotted lines, the first labelled A and D, the second labelled B, G, H, C and E, I, K, F]
 
-[Diagram: four rows of dotted lines labelled A, B, C, G in the left column and D, E, F, H in the right column]
+K F, ipſi D, æquales; erit multitudo unitatum numeri B C, æqualis multitudini partium numeri E F, metieturque æque unitas A, numerum D, & unitas B G, ipſum E I, atque unitas G H, ipſum I K, & unitas H C, ipſum K F: atque idcirco eadem pars erit unitas A, numeri D, & unitas B G numeri E I, quæ unitas G H, numeri I K, & unitas H C, numeri K F. Quare per ea, quæ ad propos. 5. huius lib. oſtendimus, eadem pars erunt unitates B G, G H, ſimul numerorum E I, I K, ſimul, quæ unitas B G, numeri E I, uel unitas H C, numeri K F. Itaque quia eadẽ pars eſt unitas H C, numeri K F. quæ numerus B H, numeri E K; erit, ut ibi demõſtrauimus, unitas H C, & numerus B H, ſimul, [unclear: utriuſ]
 
-<!-- Catchword: portioni -->
+<!-- Catchword: que -->

@@ -1,33 +1,30 @@
 <!-- Running title: LIBER. VIII. -->
-<!-- Page number: 282 -->
+<!-- Page number: 283 -->
 
-ex ſcholio propos. 1. huius lib. liquet; Tamen non ſemper e cõtrario, numeri extremi quotcunque minimorum non continue proportionalium, inter ſe primi ſunt, ut manifeſtum eſt in exemplo nuper adducto 6. 10. 13. 18.
-
-## PROBL. 2. PROPOS. 4.
-
-[Margin]
-4.
-[/Margin]
-
-RATIONIBVS datis quotcunque in minimis numeris, reperire numeros dein ceps minimos in datis rationibus.
-
-SINT primum datæ duæ rationes in minimis numeris A, ad B, & C. ad D; oporteatque inuenire tres numeros minimos deinceps proportionales, in datis proportionibus. Inuento numero E, minimo, quem metiantur B, & C, ſecundus & tertius; quoties B, ipſum E, metitur, toties A, metiatur ipſum F; & quoties C, eundem E, toties ipſum G, metiatur D. Dico F, E, G, minimos eſſe in proportioni bus datis. Quod enim deinceps datas proportio nes habeant, ita oſtende mus. Quoniam A, & B, æque metiuntur ipſos F, & E, hoc eſt, per eundem numerum; metiantur per H. Quo poſito, A, & B, multiplicantes ipſum H, producent F, & E. Quare erit ut A, ad B, ita F, ad E. Eadem ratione, cum C, & D, æque metiantur ipſos E, & G, erit ut C, ad D, ita E, ad G. Igitur F, E, G, deinceps propor tionales ſunt in rationibus A, ad B, & C, ad D. Quod au tem minimi ſint, ſic manifeſtum erit. Si non ſunt minimi, erunt aliqui illis minores, ſingulis ſinguli, in eiſdem rationibus: ſint, ſi fieri poteſt, I, K, L. Quia igitur A, & B, mini mi ſunt in ſua proportione, ipſi æque metientur I, & K, in eadem proportione exiſtentes, nempe B, ipſum K, conſequens conſequentem. Eademque ratione C, & D, æque metientur K, & L, nimirum C, ipſum K, antecedens ante-
+mero K, minimo, quem E, & I, metiantur; quoties I, ipſum K, metitur, toties quoque G, ipſum L, & H, ipſum M, metiatur: & quoties E, metitur K, toties metiatur F, ipſum N. Dico M, L, K, N, eſſe minimos in proportionibus datis. Cum enim
 
 [Calculation]
-A, 6. B, 5. C, 4. D, 3.
-H, 4. F, 24. E, 20. G, 15.
-I ------ K ---- L ----
+A,6. B,5. C,4. D,3. E,2. F,7.
+H,24. G,20. I,15.
+M,48. L,40. K,30. N,105.
+O ---- P ---- Q ---- R ----
 [/Calculation]
+
+H, G, I, ipſos M, L, K, æque metiantur; erit ut ſupra, quẽadmodum H, ad G, ita M, ad L; & ut G, ad I, ita L, ad K; Eſt autem eadem ratione, ut H, ad G, ita A, ad B; & ut G, ad I, ita C, ad D; quod & A, B, ipſos H, G; & C, D, ipſos G, I, metiantur æque. Igitur ut A, ad B, ita M, ad L; & ut C, ad D, ita L, ad K. Atqui ut E, ad F, ita quoque eſt K, ad N, cum E, F, æque ipſos K, N, metiantur: Sunt ergo M, L, K, N, deinceps proportionales in datis rationibus. Dico & minimos eos eſſe in eiſdem rationibus. Si nãque non ſunt minimi; dentur ipſis minores in rationibus eiſdem O, P, Q, R, ſi fieri poteſt. Quoniam ergo A, B, in ſua proportione minimi ſunt, ipſi æque metientur O, P, in eadem ratione exiſtentes, nimirum B, conſequens conſequentem P. Eodem argumento C, D, ipſos P, Q, metientur æque, uidelicet antecedens C, antecedentem P; Atque adeo cum B, & C, ipſum P, metiantur, metietur quoque G, minimus, quem metiuntur B, & C, eundem P. Quia uero oſtenſum eſt, eſſe ut G, ad I, ita L, ad K, hoc eſt, ita P, ad Q; erit permutando, ut G, ad P, ita I, ad Q: Atque idcirco, metiente G, ipſum P, metietur & I, ipſum Q. Metitur autem & E, eundem Q, (quod E, F, in ſua proportione minimi æque metiantur Q, R, eiuſdem rationis, nempe antecedens E, antecedentem Q.) Ergo metientibus I, E, ipſum Q; metietur etiam K, quem minimum metiuntur I, E, eundem Q, maior minorem. Quod eſt abſurdum. Non dabuntur ergo alij numeri deinceps proportionales in datis rationibus minores quam M, L, K, N; proptereaque ipſi M, L, K, N, minimi ſunt.
+
+QVOD ſi quatuor rationes datæ fuerint; inueniendi prius erunt numeri deinceps proportionales in tribus prioribus rationibus; deinde cum quarta poſteriori agendum, ut
 
 [Margin]
 36. ſeptimi
 
-9. pron.
+21. ſeptimi
 
-18. ſeptimi
+37. ſeptimi
 
 21. ſeptimi
+
+37. ſeptimi
 [/Margin]
 
-<!-- Signature: Nn 2 -->
-<!-- Catchword: cedentem. -->
+<!-- Signature: Nn 3 -->
+<!-- Catchword: nuper -->

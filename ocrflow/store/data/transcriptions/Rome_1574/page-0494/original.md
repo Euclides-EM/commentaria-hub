@@ -1,26 +1,20 @@
-<!-- Running title: LIBER VI. -->
-<!-- Page number: 202 -->
+<!-- Running title: LIBER. VI. -->
+<!-- Page number: 205 -->
 
-lem habentium angulum, parallelogrammorum, reciproca ſunt latera, quæ circum æquales angulos. Et quorum parallelogrammorum unum angulum uni angulo æqualem habentium reciproca ſunt latera, quæ circum æquales angulos; illa ſunt æqualia.
+ergo recta linea, dato rectilineo ſimile ſimiliterque poſitum rectilineum deſcripſimus; Quod faciendum erat.
 
-SINT duo parallelogramma æqualia ABCD, BEFG, habentia angulos ABC, EBG, æquales. Dico latera circum hoſce angulos eſſe reciproca, hoc eſt, eſſe ut AB, ad BG, ita EB, ad BC. Coniungantur parallelogramma ad angulos æquales, ita ut AB, & BG, unam efficiant lineã rectam. Quo facto, cum anguli ABC, EBG, ſint æquales, erunt & EB, BG, una recta linea, ut ad propos. 15. lib. 1. ex Proclo demonſtrauimus. Producantur iam DC, & FG, donec coeant in H. Quoniam igitur æqualia ſunt parallelogramma DB, BF, erit ut DB, ad BH, ita BF, ad idem BH. Sed ut DB, ad BH, ita eſt AB, baſis ad baſin BH, quod parallelogramma ſint eiuſdem altitudinis; & ſimiliter ut BF, ad BH, ita eſt baſis EB, ad baſin BC: Igitur ut AB, ad BG, ita eſt EB, ad BC, quod eſt propoſitum.
+## SCHOLION.
 
-[Figure: two parallelograms joined at B, with points D, C, H along the top, A, B, G below, and E, F at the bottom]
+DICVNTVR autem rectilinea ſuper lineas rectas deſcripta, eſſe ſimilia & ſimiliter poſita, quando anguli æquales conſtituuntur ſuper ipſas rectas lineas, & reliqui æquales ſemper ordine ſe ſe conſequuntur, nec non, & latera proportionalia. Vt triangula ABC, DEF, non ſolum erunt ſimilia, ſed etiã ſuper rectas BC, EF, ſimiliter deſcripta, ſi anguli B, C, æquales fuerint angulis E, F; & ita ſit AB, ad BC, ut DE, ad EF, &c. At ſuper rectas BC, DE, non dicentur ſimiliter eſſe deſcripta, cum anguli B, C, non ſint æquales angulis D, E. Similiter rectangula AC, EG, ſimilia, dicentur ſimiliter eſſe deſcripta ſup rectas DC, HG, quoniam ut AD, ad DC, ita eſt EH, ad HG, &c. At vero rectangula AC, IG, non dicentur ſimiliter deſcripta ſuper rectas DC, HG, quamuis ſint ſimilia, ut manifeſtum eſt. Eadem tamen ſimiliter erunt deſcripta ſuper rectas DC, IH, uel ſuper rectas AD, HG.
 
-[Margin]
-7. quinti.
-1. ſexti.
-[/Margin]
+[Figure: two similar triangles, the smaller labelled A, B, C, the larger labelled D, E, F]
 
-E CONTRARIO, ſint iam latera circa æquales angulos ABC, EBG, reciproca, hoc eſt, ut AB, ad BG, ita EB, ad BC. Dico parallelogramma DB, BF, eſſe æqualia. Facta enim eadem conſtructione, cum ſit, ut AB, ad BG, ita EB, ad BC; Vt autem AB, ad BG, ita DB, ad BH; & ut EB, ad BC, ita BF, ad idem BH: erit quoque ut DB, ad BH, ita BF, ad idem BH; Ac idcirco æqualia erunt parallelogramma DB, BF. Aequalium igitur, & unum uni æqualem habentium angulum, &c. Quod erat demonſtrandum.
+[Figure: rectangles labelled A, B, C, D, E, F, G, H, I, K]
 
 [Margin]
-1. ſexti.
+17.
 [/Margin]
 
-[Margin]
-9. quinti.
-[/Margin]
+Omnes autem figuræ ſecundum conſtractionem huius problematis deſcriptæ, ſunt neceſſario ſimiliter poſitæ, ut patet in rectilineis ABHIK, CDEFG, ſuper lineas AB, & CD, deſcriptis. Item omnes æquilateræ figuræ, & æquiangulæ, ſunt quoque poſitæ ſimiliter.
 
-<!-- Signature: Cc 2 -->
-<!-- Catchword: THEOR. -->
+FORTASSIS autem expeditius Problema propoſitum conficiemus ad hunc modum. Sit dato rectilineo ABCDEF, ſuper datam rectam G, deſcribendum ſimile rectilineum, ſimiliterque poſitum. Productis duobus lateribus AB, AF, circa angulum A, educantur ex A, per omnes alios angulos rectæ AC, AD, AE, quantumlibet. Deinde ex AB, abſcindatur AH, æqualis datæ rectæ G, uel certe ex ipſa AB, ulterius producta, ſi uidelicet G, fuerit maior, quam AB. Poſt hæc per H, agatur recta HI, lateri BC, parallela, & per I, recta

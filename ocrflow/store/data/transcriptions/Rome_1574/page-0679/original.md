@@ -1,34 +1,22 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Margin]
-15.
-[/Margin]
-
-## THEOR. 15. PROPOS. 17.
-
-SI cubus numerus cubum numerum non metiatur; neque latus unius latus alterius metietur. Et ſi latus cubi unius latus alterius non metiatur; neque cubus cubum metietur.
-
-SINT cubi A, & B, quorum latera C, & D; Non metiatur autem A, ipſum B. Dico quod nec latus C, latus D, metietur. Si enim C, dicatur metiri D; metietur quoque A, cubus cubum B. Quod eſt abſurdum, cũ ponatur non metiri. Non ergo latus C, latus D, metietur.
+proportionem A, ad B, eſſe duplicatam proportionis laterũ homologorum C, F, uel D, F. Multiplicantes ſe mutuo D, E, faciant G. Q uoniam igitur eſt C, ad D, ut E, ad F; erit permutando C, ad E, ut D, ad F. Et quia D, multiplicans C, & E, fecit A, & G; erit A, ad G, ut C, ad E, hoc eſt, ut D, ad F. Similiter quia E, multiplicans D, & F, fecit G, & B; erit quoque G, ad B, ut D, ad F. Proportionales ergo ſunt A, G, B, in ratione C, ad E, uel D, ad F; Atque adeo inter A, & B, medius proportionalis cadit G.
 
 [Margin]
-15. octaui.
+17. ſeptimi
 [/Margin]
 
 [Calculation]
-A,8. B,27.
-C,2. D,3.
+A,12. G,18. B,27.
+C,6. D,2. E,9. F,3.
 [/Calculation]
 
-SED iam C, latus non metiatur latus D. Dico quod nec cubus A, cubum B, metietur. Nam ſi metiri dicatur; metietur etiam C, latus latus D. Quod eſt abſurdum. Ponitur enim non metiri. Non igitur A, cubus cubum B, metietur. Quocirca, ſi cubus numerus cubum numerum non metiatur, &c. Quod demonſtrandum erat.
-
-[Margin]
-15. octaui.
-[/Margin]
+QVIA uero, exiſtentibus A, G, B, continue proportionalibus, A, ad B, duplicatam habet rationem eius, quam habet A, ad G, hoc eſt, C, ad E, uel D, ad F; perſpicuuum eſt proportionem numeri plani A, ad planum B, eſſe duplicatam eius, quam habet C. ad E, uel D, ad F, latus homologum ad latus homologum. Duorum igitur ſimilium planorum numerorum, &c. Q uod erat demonſtrandum.
 
 ## SCHOLION.
 
-PROXIME antecedentes quatuor propoſitiones hoc etiã modo proponi poſſunt, ſi maiores numeri ad minores referantur.
+QVIA oſtenſum eſt A, G, B, eſſe proportionales in ratione C, ad E, uel D, ad F; manifeſtum eſt, inter duos ſimiles planos A, & B, cadere medium proportionalem G, in ratione laterum homologorum C, E, uel D, F, aſſumptorum.
 
-SI quadratus numerus quadrati numeri, & cubus cubi, ſit multiplex; & unius latus lateris alterius multiplex erit. Et ſi unius quadrati, & cubi latus lateris alterius ſit multiplex; & quadratus quadrati, & cubus cubi multiplex erit. Si uero quadratus quadrati, & cubus cubi non ſit multiplex; neque latus lateris erit multiplex. Et ſi latus lateris non ſit multiplex; neque qua-
+CONSTAT etiam ex dictis, medium proportionalem G, & vtrumlibet planorum A, B, eſſe inter ſe compoſitos. Cum enim oſtenſi ſint A, G, B, proportionales in ratione C, ad E, uel D, ad F, id eſt, eſſe A, ad G, & G; ad B, ut C, ad E, uel D, ad F; metiantur autem E, F, latera numerum B, cuius ſunt latera, conſequentes conſequentem, ſi de proportionibus G, ad B, & C, ad E, uel D, ad F, loquamur; metientur quoque C, D, ipſum G, antecedentes antecedentem, quod ſit G, ad B, ut C, ad E, vel D, ad F. Atqui & C, D, latera metiuntur numerum A, cuius ſunt latera. Igitur G, A, menſuram communem habent tam C, quam D; Ac proinde compoſiti ſunt inter ſe. Rurſus cum ſit A, ad G, ut C, ad E, vel D, ad F: metiantur autem C, D, latera ſuum planum A, antecedentes antecedentem; metientur etiam E, F, ipſam G, conſequentes conſequentem.
 
-<!-- Catchword: dratus -->
+<!-- Catchword: Quę -->

@@ -1,16 +1,14 @@
-<!-- Running title: LIBER VIII. -->
-<!-- Page number: 287 -->
+<!-- Running title: LIBER. VIII. -->
+<!-- Page number: 283 -->
 
-pterea in ſua proportione minimi; æque metietur G, ipſum E, & K, ipſum F. Quoties ergo G, & K, ipſos E, & F, metiuntur, toties H, & I, alios numeros L, & M, metiantur, ita ut numeri G, H, I, K, numeros E, L, M, F, æque metiantur, ſinguli ſingulos. Quia igitur G, H, I, K, multiplicantes numerum, per quem metiuntur numeros E, L, M, F, ipſos E, L, M, F, producunt, ex 9. pronunciato; in eiſdem rationibus erunt E, L, M, F, in quibus G, H, I, K, ut ad propos. 18. lib. 7. demonſtrauimus. At G, H, I, K, ſunt continue proportionales. Igitur & E, L, M, F, continue proportionales ſunt; Atque idcirco, cum multitudo E, L, M, F, æqualis ſit multitudini A, C, D, B; tot cadent medij proportionales inter E, & F, quot inter A, & B. Si igitur inter duos numeros medij continua proportione ceciderint, &c. Quod demonſtrandum erat.
+Diapaſon prima ſui diuiſione in Diapente, & Diateſſaron, quorum interuallorum illud in proportione ſeſquialtera, hoc vero in ſeſquitertia conſiſtit, apud Muſicos ſecatur, vt hic apparet, 2. 3. 4. Eſt enim hic proportio dupla diuiſa in proportionem ſeſquialteram, & ſeſquitertiam, tanquam in maximas ſui partes inter ſe inæquales. Ita quoque Tonus in duo ſemitonia, quorum alterum maius, alterum minus dicitur, ſecari ſolet. Sed de his plura in Muſicis.
 
-[Margin]
-23. & 21. ſeptimi
-[/Margin]
+RVRSVM ex his demonſtrari poteſt, proportionem diametri cuiusuis quadrati ad latus eiuſdem, numeris non poſſe exprimi, ſed eſſe irrationalem. Cum enim per ea, quæ ad propos. 47. lib. 1 demonſtrauimus, quadratum diametri duplũ ſit quadrati ex latere deſcripti; quadratorum uero proportio ſit duplicata proportionis laterum; fit, vt proportio quadrati ex diametro deſcripti ad quadratum lateris duplicata ſit proportionis diametri ad latus. Cum ergo illa proportio, cuius duplicata eſt proportio dupla, numeris exprimi nequeat, quod inter numeros duplæ proportionis medius proportionalis non cadat, qui illam bifariam ſecet, ut oſtendimus; manifeſtum eſt, nec proportionem diametri ad latus numeris exprimi poſſe, ſed eſſe irrationalem, ſeu, quod idem eſt, diametrum eſſe lateri incõmenſurabilem. qua de re plura ſcribemus in 9. & ultima propos. lib. 10.
 
-## SCHOLION.
+## THEOR. 7. PROPOS. 9.
 
-NON ſolum ex demonſtratione cõſtat, totidem medios proportionales cadere inter E, & F, quot inter A, & B; verum etiam eandem eſſe proportionem numerorum E, L, M, F, quæ eſt numerorum A, C, D, B. Oſtenſum enim eſt E, L, M, F, in eadẽ eſſe proportione, in qua G H, I, K: Sed hi eandem habent, ex conſtructione, quam A, C, D, B. Igitur & E, L, M, F, eandem habent, quam A, C, D, B.
+SI duo numeri ſint inter ſe primi, & inter eos medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri, totidem & inter utrunque eorum, ac unitatem medij continua proportione cadent.
 
-EADEM hæc propoſitio uera eſt, ſi exiſtentibus numeris A, & B, ſumatur vel E, vel F, vnitas. Item ſi uel A, vel B, fuerit vnitas, exiſtentibus E, & F, numeris; vt in exemplis apparet.
+CADANT inter numeros A, B, inter ſe primos medij continue proportionales C, D. Dico, totidem cadere conti
 
-CONSTAT etiam ex hoc theoremate, inter numeros duplæ proportionis, vel ſuperparticularis cuiusuis, vel ſuperbipartientis, non poſſe cadere numerum medium proportionalem. Cum enim dupla proportio in minimis numeris reperiatur inter binarium, & vnitatem; ſuperparticularis vero inter numeros ſola vnitate differentes; ſuperbipartiens denique inter numeros, quorum differentia eſt binarius: ſi inter duos numeros duplæ proportionis, vel ſuperparticularis, vel ſuperbipartientis, medius numerus caderet proportiornalis{printer-error-correction:proportionalis}; caderet quoque, per hoc theorema, numerus aliquis medius proportionalis
+<!-- Catchword: nue -->

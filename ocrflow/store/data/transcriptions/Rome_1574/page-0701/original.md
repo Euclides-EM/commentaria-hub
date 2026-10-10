@@ -1,55 +1,38 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-## THEOR. 6. PROPOS. 6.
-
 [Margin]
-6.
+22.octaui
 [/Margin]
 
-SI numerus ſe ipſum multiplicans cubum faciat: Et ipſe cubus erit.
+quadratus eſt. Quia uero tres deinceps proportionales ſunt B, C, D; & eſt B, quadratus; erit & D, quadratus. Eadem ratione aſſumptis tribus deinceps proportionalibus D, E, F, cum D, ſit quadratus, & F, quadratus erit; Nec non & omnes unum intermittentes.
 
-MVLTIPLICANS ſe ipſum numerus A, faciat B, cubum. Dico & A, cubum eſſe. Fiat ex A, in B, numerus C, qui cubus erit, cum A, in ſe faciat B, & ipſe C, ex A, in B, gignatur, atque adeo æqualis æqualiter ęqualis ſit, ut per ſpicuum eſt ex ijs, quæ ad de finitionem cubi ſcripſimus. Quia igitur B, cubus multipliplicans{printer-error-correction:multiplicans} numerum quempiam A, facit cubum C; erit & A, cubus. Quare ſi numerus ſe ipſum multiplicans cubum faciat, &c. Quod erat demonſtrandum.
+RVRSVS quia eſt unitas ad A, ut B, ad C; æque metietur unitas numerum A, & numerus B, numerum C: Me
 
 [Calculation]
-A,8.  B,64.  C,512.
+Vnitas.  A,3. B,9. C,27.  D,81. E,243. F,729. G,2187.
+H,6561. I,19683. K,59049. L,177147.  M,531441.
 [/Calculation]
 
 [Margin]
-5. noni.
+5. pron.
 [/Margin]
+
+[Margin]
+9. pron.
+[/Margin]
+
+titur autem unitas ipſum A, per A. Igitur & B, ipſum C, per A, metietur; atque adeo B, ipſum A, multiplicans procreabit numerum C. Quare cum A, ſe ipſum multiplicãs faciat B, multiplicans uero B, faciat C, ut eſt oſtenſum; erit C, cubus. Quia uero quatuor deinceps proportionales ſunt C, D, E, F, & eſt C, cubus; erit & F, cubus. Eodem argumento aſſumptis quatuor deinceps proportionalibus F, G, H, I, cum F, ſit cubus; & I, cubus erit; atque omnes ſemper duos intermittentes.
+
+[Margin]
+23.octaui
+[/Margin]
+
+POSTREMO quia F, ſeptimus ab unitate oſtenſus eſt & quadratus, & cubus: ipſe erit cubus ſimul & quadratus: Atque eodem modo M, ſeptimus ab F, intermiſſis nimirum quinque G, H, I, K, L, cubus erit ſimul & quadratus; Nec non & omnes quinque intermittentes. Si igitur ab unitate quotcunque numeri deinceps proportionales fuerint, &c. Quod erat demonſtrandum.
 
 ## SCHOLION.
 
-ALIAM demonſtrationem interpretes Euclidis hoc loco adducunt, & quidem longiorem. Poſtquam enim demonſtrarunt C, factum ex A, in B, eſſe cubum, inferunt: Ergo inter B, & C, cubos duo medij proportionales cadunt. Quoniam uero eſt vt B, ad C, ita A, ad B, quod A, multiplicans A, & B, ipſos B, & C, fecit; cadent quoque inter A, & B, duo medij proportionales; Atque adeo exiſtente B, cubo, & A, cubus erit. Verum noſtra demonſtratio breuior eſt, & planior, ut perſpicuum eſt.
+HOC theorema poteſt quoque hoc modo proponi.
 
-[Calculation]
-A,8.  B,64.  C,512.
-[/Calculation]
+SI ſint quotcunque numeri ab unitate continue proportionales, omnes poſiti in locis imparibus, nimirum in tertio, quinto, ſeptimo, nono, undecimo, &c. ſunt quadrati. Omnes autẽ, qui ſequuntur proxime numeros poſitos in locis, tertio, ſexto, nono, duodecimo, deci-
 
-[Margin]
-12. octaui
-[/Margin]
-
-[Margin]
-17. ſeptimi
-[/Margin]
-
-[Margin]
-8. octaui
-[/Margin]
-
-[Margin]
-23. octaui
-[/Margin]
-
-## THEOR. 7. PROPOS. 7.
-
-[Margin]
-7.
-[/Margin]
-
-SI compoſitus numerus numerum aliquem multiplicans, quempiam faciat: Factus ſolidus erit.
-
-NVMERVS compoſitus A, multiplicans numerum quemlibet B, faciat C. Dico C, eſſe ſolidum. Cum enim
-
-<!-- Catchword: A, ſit -->
+<!-- Catchword: mo- -->

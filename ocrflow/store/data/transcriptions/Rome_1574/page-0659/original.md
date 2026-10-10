@@ -1,39 +1,13 @@
 <!-- Running title: EVCLID.GEOM. -->
 
-SI ſint quotcunque numeri deinceps proportionales, primus autem, uel alius quiſquam quemlibet a ſecundo metiatur; metietur & primus ſecundum. Et ſi primus, uel alius quiſquam cuiuslibet a ſecundo fit multiplex; primus quoque ſecundi multiplex erit.
+inter binarium, & vnitatem; vel inter numeros ſola vnitate differentes, uel etiam binario, nimirum inter numeros minimos, qui eaſdem cum illis proportiones habent: quod fieri nulla ratione poteſt. Nam nec inter binarium, & vnitatem, nec inter duos numeros ſola vnitate differentes, ullus numerus interponitur, tantum abeſt, ut aliquem medium proportionalem ipſi recipiant. Similiter inter duos numeros binario inter ſe diſtantes interijcitur ſolum numerus, qui ab vtroque vnitate differt; Quem nulla poſſe ratione eſſe inter illos medium proportionalem, in hunc modum demonſtrabimus. Differant numeri AB, CD, binario, inter quos cadat numerus EF, minor vnitate quam AB, maior vero quam CD, vnitate quoque. Dico EF, non eſſe medium proportionalem inter AB, CD. Si enim dicatur eſſe AB, ad EF, ut EF, ad CD; ablato ex AB, numero AG, ipſi EF, æquali, ut reliqua ſit vnitas GB; & ex EF, numero EH, ipſi CD, æquali, ut relinquatur etiam vnitas HF; erit quoque ut AB, totus ad EF, totum, ita AG, ablatus ad EH, ablatum, cum AG, EH, ipſis EF, CD, æquales ſint, ex conſtructione. Igitur erit quoque reliquus GB, ad reliquum HF, hoc eſt, vnitas ad vnitatem, vt totus AB, ad totum EF, maior ad minorem. Quod eſt abſurdum. Non ergo EF, medius proportionalis eſt inter AB, & CD.
 
-QVOD eodem modo demonſtrabimus. Si enim primus non dicatur metiri ſecundum, vel illius eſſe multiplex; neque alius quiſquam vllum metietur; vel illius multiplex erit, ex propos. 6. & 1. theoremate ſcholij præcedentis.
-
-[Margin]
-8.
-[/Margin]
-
-## THEOR. 6. PROPOS. 8.
-
-SI inter duos numeros medij continua proportione ceciderint numeri; quot inter eos medij continua proportione cadunt numeri: tot & inter alios eandem cum illis habentes rationem medij continua proportione cadent.
-
-CADANT inter duos numeros A, B, medij proportionales continue C, D; ſitque ut A, ad B, ita E, ad F. Dico tot medios numeros continue proportionales cadere inter E, & F, quot inter A, & B. Sumptis enim totidem numeris G, H, I, K, minimis ĩ ratione A, ad C, quot ſunt numeri A, C, D, B; erit ex æquo, ut A, ad B, atque adeo ut E, ad F, ita G, ad K. Quare cũ G, & K, inter ſe primi ſint, nempe extremi minimorum numerorum, ac pro-
-
-[Calculation]
-A,24. C,36. D,54. B,81
-G,8.  H,12. I,18. K,27.
-E,32. L,48. M,72. F,108.
-[/Calculation]
-
-[Calculation]
-A,40. C,20. D,10. B,5
-G,8.  H,4.  I,2.  K,1.
-E,8.  L,4.  M,2.  F,1.
-[/Calculation]
+[Diagram: three horizontal dotted lines, the first labelled A, G and B, the second E, H and F, the third C and D]
 
 [Margin]
-3. octaui.
+11. ſeptimi
 [/Margin]
 
-[Calculation]
-A,27.  C,9.  D,3.  B,1.
-G,27.  H,9.  I,3.  K,[unclear: 1].
-E,108. L,36. M,12. F,4.
-[/Calculation]
+Ex quibus fit, nec illud interuallum Muſicum, quod in dupla proportione conſiſtit; vt Diapaſon, vel, vt vulgo dicitur, Octaua; nec illud, quod in ſeſquioctaua proportione reperitur, cuiuſmodi eſt Tonus, ſeu uulgo Secunda, bifariam poſſe ſecari, hoc eſt, in duas proportiones æquales. Illa enim proportio bifariam (quod ad propoſitum attinet) ſecari dicitur, inter cuius terminos medius proportionalis cadit. Vt quis{printer-error-correction:quia} inter hos terminos 24. & 6. proportionis quadruplæ cadit medius proportionalis numerus 12. hoc modo, 24. 12. 6. Idcirco proportio quadrupla bifariam diuiſa eſſe dicitur in duas duplas proportiones. Cum ergo oſtenſum ſit, inter numeros duplæ proportionis, & ſuperparticularis, qualis eſt ſeſquioctaua, non cadere medium numerum proportionalem; perſpicuum eſt, Diapaſon, & Tonum, bifariam ſecari non poſſe. Vnde
 
-<!-- Catchword: pterea -->
+<!-- Catchword: Diapaſon -->

@@ -1,22 +1,28 @@
-<!-- Running title: LIBER VII. -->
-<!-- Page number: 278 -->
+<!-- Running title: LIBER. VIII. -->
+<!-- Page number: 279 -->
 
-quoties vnitas in D; Atque adeo ex D, in K, fiet I. Eadem ratione ex E, in L, fiet K; & L, ex F, in M. Itaque cum D, ipſos G, & K, multiplicans faciat H, & I; erit, ut H, ad I, ita G, ad K. Eadem ratione, cum ex E, in F, & I, fiant G, & K; erit, ut G, ad K, ita F, ad L. Et cum ex F, in vnitatem, & M, fiant F, & L; erit, vt F, ad L, ita vnitas ad M. Quoniam igitur eſt, vt H, ad I, ita G, ad K; & ut G, ad K, ita F, ad L; & vt F, ad L, ita vnitas ad M: Erit, per lemma propoſ. 14. huius lib. vt H, ad I, ita vnitas ad M. Ponitur autẽ H, numerus numero I, maior; vnitas igit̃ maior quoqʒ erit numero M, pars toto. Quod eſt abſurdum. Non ergo alius numerus minor, quã H, habet partes A, B, C, ordine prædicto, ſed ipſe H, minimus eſt. Quod eſt propoſitum.
+ri deinceps proportionales, &c. Quod erat demonſtrandũ.
+
+## SCHOLION.
+
+PERSPICVVM autem eſt ex demonſtratione, numeros A, B, C, D, eſſe minimos in continuatione ſuarum proportionum, ſi extremi A, & D, inter ſe primi ſint, ſiue A, B, C, D, ſint continue proportionales, ut vult Euclides, ſiue non. Vt hoc exemplum oſtendit, in quo proportiones omnes diuerſæ ſunt, quemadmodum in priori eadem ſemper proportio reperitur.
+
+[Diagram: two columns of lines: A, B, C and D shown as rows of dots of increasing length; E, F, G and H shown as dashed lines of increasing length]
+
+## PROBL. I. PROPOS. 2.
 
 [Margin]
-15. defin.
+2.
+[/Margin]
 
+NVMEROS reperire deinceps proportionales minimos, quotcunque iuſſerit quiſpiam, in data ratione.
+
+SINT minimi numeri datæ rationis A, & B, oporteatq́ʒ inuenire primum tres numeros minimos in proportione data A, ad B. Multiplicans A, ſeipſum, & numerum B, faciat C, & D. Deinde B, multiplicans ſeipſum faciat E. Dico C, D, E, eſſe tres minimos in proportione A, ad B; hoc eſt, eſſe ut C, ad D, ita D, ad E. Quod enim proportionales ſint in data proportione A, ad B, ſic oſtendemus. Cum ex A, in A, & B, fiãt C, & D; erit ut A, ad B, ita C, ad D. Rurſus cum ex B, in A, & B, fiant D, & E; erit quoque, ut A, ad B, ita D, ad E. Quare proportionales ſunt C, D, E, continue in proportione data A, ad B. Quod uero in eadẽ ratione ſint minimi, ita demonſtrabitur. Quoniam extre-
+
+[Margin]
 17. ſeptimi
 [/Margin]
 
-[Diagram: two rows of labels: H. G. F. Vnitas. and I. K. L. M.]
+[Diagram: rows of dots labelled A, B, C, D and E of increasing length, followed by numbered letters F, 8. G, 12. H, 18. I, 27. K, 16. L, 24. M, 36. N, 54. O, 81.]
 
-SI vero plures fuerint partes, quam tres, eadem prorſus eſt via tenenda ac demonſtratio. Vt ſi numeri 2. 3. 4. 5. 6. ſint denominatores partium, fient 30. ex 5. in 6. & 120. ex 4. in 30. & 360. ex 3. in 120. & tandem 720. ex 2. in 360. Nam numerus 720. habebit partem a 2. denominatam; & hac partem a 3. denominatam; & hac aliam a 4. & hac aliam a 5. & hæc denique partem a 6. denominatam, vt manifeſtum eſt.
-
-QVOD ſi numerum H, inuentum duplicemus, triplicemus, &c. habebimus alios numeros, nempe ſecundum, tertium, quartum, &c. qui eaſdem partes eodem ordine habeant, duplicatas tamen, vel triplicatas, &c. Nam G, duplicatus, vel triplicatus, &c. dimidiata pars erit, ipſius H, duplicati, vel triplicati, &c. quemadmodum & G, ipſius H. Eademque eſt ratio de cæteris partibus.
-
-## FINIS ELEMENTI SEPTIMI.
-
-[Ornament: floral tailpiece]
-
-<!-- Catchword: EVCLIDIS -->
+<!-- Catchword: mi -->

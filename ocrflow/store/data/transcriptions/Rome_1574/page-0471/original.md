@@ -1,35 +1,36 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
+<!-- Page number: [illegible] -->
 
-rationem, quam reliqua ipſius trianguli latera. Et ſi baſis ſegmenta eandem habeant rationem, quam reliqua ipſius trianguli latera; recta linea, quæ a uertice ad ſectionẽ producitur, ea bifariam ſecat trianguli ipſius angulum.
+[Margin]
+16. quinti.
+[/Margin]
 
-IN triangulo ABC, recta AD, ſecet angulum BAC, bifariam. Dico eſſe ut BA, ad AC, ita BD, ad DC. Agatur enim per B, recta BE, parallela ipſi AD, donec cum CA, producta conueniat in E; eritque angulus EBA, æqualis alterno BAD; & angulus E, externo DAC. Cum igitur duo anguli BAD, DAC, æquales ponantur; erunt & anguli EBA, & E, inter ſe æquales; Ideoque rectæ BA, EA, inter ſe æquales Vt igitur EA, ad AC, ita BA, ad eandem AC; Atqui ut EA, ad AC, ita BD, ad DC, cũ in triangulo BCE, recta AD, ſit parallela lateri BE; Igitur ut BA, ad AC, ita BD, ad DC, quod eſt propoſitum.
+æqualis eſt ipſi FD) ad ED. permutando igitur erit BC, ad CA, ut CE, ad ED. Cum igitur ſit AB, ad BC, ut DC, ad CE; & BC, ad CA, ut CE, ad ED: erit & ex æquali AB, ad CA, ut DC, ad ED. quod eſt propoſitum. Æquiangulorũ ergo triangulorũ proportionalia ſunt latera, &c. Quod erat demonſtrandum.
+
+[Margin]
+22. quinti.
+[/Margin]
+
+## COROLLARIVM.
+
+[Figure: triangle ABC with apex A, base BC, and line DE parallel to the base, D on side AB and E on side AC]
+
+HINC fit, lineam rectam, quæ parallela ducitur uni lateri in triangulo, auferrè triangulum toti triangulo ſimile. Ducatur enim in triangulo ABC, lateri BC, parallela DE. Dico triangulum ADE, toti triangulo ABC, eſſe ſimile. Aequiangula namque ſunt, cum anguli ADE, AED, æquales ſint angulis ABC, ACB, externi internis; & angulus A, communis. Quare ut demonſtratum eſt, habent latera circa æquales angulos proportionalia; Ac proinde, ex definitione, ſimilia ſunt.
 
 [Margin]
 29. primi
 [/Margin]
 
 [Margin]
-6. primi.
-7. quinti
+4. ſexti.
 [/Margin]
 
-[Figure: triangle B, D, C with apex E and point A on the side, internal lines from A to B and D]
+## SCHOLION.
 
-[Margin]
-2. ſexti.
-11. quinti
-[/Margin]
+NON alienum a noſtro inſtituto eſſe putaui, ſi hic demõſtremus duo theoremata, quorum primum Federicus Commandinus demonſtrat in libello Archimedis de ijs quæ uehuntur in aqua; Secundum uero in commentarijs in Apollonij Conica. Horum primum eſt.
 
-SIT iam ut BA, ad AC, ita BD, ad DC. Dico rectã AD, bifariam ſecare angulum BAC. Agatur enim rurſus per B, recta BE, ipſi AD, parallela coiens cum CA, protracta in E. Quoniam igitur ut BA, ad AC, ita ponitur BD, ad DC; ut autem BD, ad DC, ita eſt EA, ad AC; (quod in triangulo BCE, recta AD, ſit lateri BE, parallela) Erit ut BA, ad AC, ita EA, ad eandem AC. Aequales igitur ſunt BA, & EA, inter ſe; ac propterea anguli ABE, & E, æquales erunt. Cum igitur angulus ABE, æqualis ſit alterno BAD; & angulus E, externo DAC; erunt & duo anguli BAD, DAC, inter ſe æquales, quod eſt propoſitum. Itaque ſi trianguli angulus bifariam ſectus ſit, &c. Quod erat demonſtrandum.
+SI ex duobus punctis cuiusuis rectæ, quorum alterum ſit extremum, alterum uero intra lineam, duæ parallelæ inter ſe ad eaſdem partes educantur, ita ut proportionem habeant eandem, quam rectæ inter ipſas, & alterum extremum punctum incluſæ: Recta coniungens extremum unius earum cum extremo prioris lineę, tranſibit per extremum alterius lineæ.
 
-[Margin]
-2. ſexti
-[/Margin]
+SIT recta AB, & ex punctis A, & C, educantur duæ parallelæ AD, CE, proportionem habentes, quam AB, BC, ita ut ſit AD, ad CE, ſicut AB, ad BC; uel CE, ad AD,
 
-[Margin]
-11. quinti
-9. quinti.
-29. primi.
-[/Margin]
-
-<!-- Catchword: THEOR. -->
+<!-- Catchword: ut -->

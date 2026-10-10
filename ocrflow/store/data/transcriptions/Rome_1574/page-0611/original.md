@@ -1,27 +1,23 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
 
-*dente, in D, conſequentem; æqualem eſſe numero F, qui [unclear: procreatur] ex B, conſequente in C, antecedentem.*
+QVOTLIBET numeri minimi in continuatione ſuarum proportionum, ſiue eædem ſint, ſiue diuerſæ proportiones, metiuntur æque totidem alios numeros, qui eaſdem cum eis proportiones habent, primus primum, ſecundus ſecundum, tertius tertium, &c.
 
-[Margin]
-20.
-[/Margin]
+*SINT enim plures, quam duo numeri A B, C D, E F, minimi in continuatione ſuarum proportionum, ſiue eadem ſit*
 
-## THEOR. 18. PROPOS. 20.
+[Diagram: rows of dotted lines labelled A K B, C L D, E M F, and G, H, I]
 
-SI tres numeri proportionales fuerint; qui ſub extremis continetur, æqualis eſt ei, qui a medio efficitur: Et ſi, qui ſub extremis continetur, æqualis fuerit ei, qui a medio deſcribitur; ipſi tres numeri proportionales erunt.
-
-SINT tres numeri proportionales A, B, C, ut quidẽ A, ad B, ita B, ad C. Dico numerum qui fit ex A, primo in C, tertium, æqualem eſſe ei, qui ex B, medio procreatur. Sumpto enim D, qui ipſi B, ſit æqualis, erit ut B, ad C, hoc eſt, ut A, ad B, ita D, ad C; numerusque genitus ex B, in D, æqualis erit ei, qui ex B, in ſe procreatur. Quia igitur quatuor numeri A, B, D, C, proportionales ſunt, erit numerus factus ex A, in C, æqualis ei, qui fit ex B, in D, hoc eſt, ei, qui ex B, in ſe producitur.
-
-[Diagram: rows of dotted lines labelled A, B, D and C]
+*proportio A B, ad C D, quæ C D, ad E F, ſiue non; ita ut non poſſint reperiri alij numeri ipſis A B, C D, E F, minores, quorum primus ad ſecundum ſit, ut A B, ad C D; & ſecundus ad tertium, ut C D, ad E F, &c. (quamuis tales proportiones reperiantur ſeorſum in minoribus numeris non continuatis; nimirum proportio A B, ad C D, in numeris 4. ad 2. uel 2. ad 1. qui minores ſunt ipſis A B, C D; quemadmodum & proportiones numerorum 16. 20. 25. qui minimi ſunt in continuatione duarum proportionum ſubſeſquiquartarum, cum in minoribus numeris non poſſint continuari, reperiantur ſeorſum in minoribus numeris; proportio quidem 16. ad 20. in 8 & 10. proportio uero 20. ad 25. in 4. & 5, uel in 12. & 15.) Sint deinde totidem numeri G, H, I, non minimi, continuati in eiſdem proportionibus, nimirum G, ad H, ut A B, ad C D; & H, ad I, ut C D, ad E F. Dico A B, ipſum G, & C D, ipſum H, & E F, ipſum I, metiri æque. Cum enim ſit ut A B, ad C D, ita G, ad H; erit uiciſſim ut A B, ad G, ita C D, ad H. Eodem modo, cum ſit ut C D, ad E F, ita H, ad I, erit quoque uiciſſim, ut C D, ad H, ita E F, ad I. Quare A B, ipſius G, & C D, ipſius H, & E F, ipſius I, erit uel eadem pars, uel eædem partes. Partes quidem nequaquam Diuiſis enim, ſi fieri poteſt, A B, C D, E F, in A K, K B; C L, L D; E M, M F, partes numerorum G, H, I, erunt tot partes in A B, quot in C D, & in E F; atque adeo A K, ipſius G, & C L, ipſius H, eadem pars. Erit ergo ut A K, ad G, ita*
 
 [Margin]
-19. ſeptimi
+13. ſeptimi
 [/Margin]
-
-SED iam ſit numerus productus ex A, primo in C, tertium, æqualis ei, qui fit ex B, medio in ſe. Dico tres numeros A, B, C, proportionales eſſe. Sumpto enim rurſum D, æquali ipſi B; erit, ut B, ad C, ita D, ad C; & numerus, qui fit ex B, in D, æqualis erit ei, qui fit ex B, in ſe, hoc eſt, ei qui fit ex A, in C. Quoniam igitur numerus, qui fit ex A, primo in C, quartum æqualis eſt ei, qui fit ex B, ſecundo in D, tertium; erunt quatuor numeri A, B, D, C, proportionales, ut quidem A, ad B, ita D, ad C, uel B, ad C. Si tres igitur numeri proportionales fuerint, &c. Quod demonſtrandum erat.
 
 [Margin]
-19. ſeptimi
+20. defin
 [/Margin]
 
-<!-- Catchword: THEOR. -->
+[Margin]
+20 defin.
+[/Margin]
+
+<!-- Catchword: C L, -->

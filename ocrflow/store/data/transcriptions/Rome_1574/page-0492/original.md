@@ -1,33 +1,38 @@
 <!-- Running title: LIBER VI. -->
-<!-- Page number: 201 -->
+<!-- Page number: 204 -->
 
-SINT tres rectæ AB, BC, CD; oporteatq́ue inuenire quartam, quæ ad CD, tertiam ſit, ut AB, prima ad BC, ſecundam. Diſponantur prima duæ AB, BC, in directum, ut faciant rectam AC: Tertia uero CD, cum ſecunda BC, facias angulum C, quemcunque. Deinde ex B, ad D, recta ducatur BD, cui per A, parallela ducatur AE, occurrens rectæ CD, productæ, in E. Dico ED, eſſe quartam, hoc eſt, eſſe ED, ad DC, tertiam, ut eſt AB, prima ad BC, ſecundam. Hoc autem manifeſtum eſt, cum AC, EC, proportionaliter ſecentur in B, & D.
-
-[Figure: triangle with vertices C, A, E, with points B on line CA and D on line CE, and line BD drawn]
+extremis A B, B C, æquale eſt quadrato E G, hoc eſt, rectangulo ſub medijs E F, E G, comprehenſo: Quod eſt propoſitum.
 
 [Margin]
-2. ſexti.
+16. ſexti.
 [/Margin]
 
-## PROBL. 5. PROPOS. 13.
+SED ſint iam æqualia rectangulum A C, & quadratũ E G. Dico eſſe ut A B, ad E F, ita E F, ad B C. Cum enim æqualia ſint rectangula A C, & E G, erit ut A B, ad E F, ita F G, ad B C. Vt autem F G, ad B C, ita eſt E F, ipſi F G, æqualis, ad eandem B C. Quare ut A B, ad E F, ita eſt E F, ad B C. Si tres igitur rectæ lineæ ſint proportionales, &c. Quod erat demonſtrandum.
 
 [Margin]
-9.
-[/Margin]
-
-DVABVS datis rectis lineis, mediam proportionalem adinuenire.
-
-SINT duæ rectæ AB, BC, quibus media inuenienda eſt proportionalis, diſpoſitæ ſecundum lineam rectam AC. Diuiſa AC, bifariam in E, ex E, centro, & interuallo EA, uel EC, ſemicirculus deſcribatur ADC; Deinde ex B, ad AC, perpendicularis educatur BD, ad circumferentiam uſque. Dico BD, eſſe mediam proportionalẽ. Ductis enim rectis AD, CD, erit angulus ADC, rectus in ſemicirculo exiſtens. Cum igitur ex angulo recto ADC, trianguli rectanguli ADC, deducta ſit ad baſin AC, perpendicularis DB; erit per corollarium 8. propos. huius lib. BD, media proportionalis inter AB, & BC. Duabus ergo datis rectis lineis, mediã proportionalem adinuenimus. Quod erat faciendum.
-
-[Figure: semicircle on diameter AC with points E and B on the diameter, point D on the circumference, and lines AD, CD, BD drawn]
-
-[Margin]
-31. tertij.
+15. ſexti.
+7. quinti.
 [/Margin]
 
 ## SCHOLION.
 
-PERSPICVVM hinc fit, lineam rectam, quæ in circulo a quouis puncto diametri ipſi diametro perpendicularis ducitur ad circumferentiam uſque, mediam eſſe proportionalem,
+EADEM omnino conſequuntur, etiamſi parallelogramma non ſint rectangula, dummodo ſint æquiangula, ita ut E G, ſit Rhombus, & A C, Rhomboides. Non enim diſſimilis erit in his demonſtratio, ut figura indicat.
 
-<!-- Signature: Cc -->
-<!-- Catchword: inter -->
+[Figure: four horizontal lines labelled A B, E F, F G and B C, beside a rhomboides A B C D and a rhombus E F G H]
+
+## COROLLARIVM.
+
+EX poſteriori huius theorematis parte efficitur, quamlibet rectam lineam eſſe mediam proportionalẽ inter quasuis alias duas rectas, quæ comprehendunt rectangulum quadrato illius æquale. Ex eo enim quod rectæ A B, B C, comprehendunt rectangulum æquale quadrato rectæ E F, oſtenſum fuit, eſſe ut A B, ad E F, ita EF, ad BC. Quare EF, media eſt proportionalis inter A B, & B C.
+
+## PROBL. 6. PROPOS. 18.
+
+[Margin]
+19.
+[/Margin]
+
+A DATA recta linea dato rectilineo ſimile ſimiliterq́; poſitum rectilineum deſcribere.
+
+SIT data recta A B, ſuper quam deſcribendum ſit re
+
+<!-- Signature: Cc 4 -->
+<!-- Catchword: ctilineum -->

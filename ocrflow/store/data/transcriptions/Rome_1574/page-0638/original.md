@@ -1,41 +1,29 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 176 -->
+<!-- Page number: 277 -->
 
-erit ipſius A, ab eodem B, denominata. Si numerum ergo quiſpiam numerus metiatur, &c. Quod oſtendendũ erat.
+H, & I, &c. partes A, B, C, habeant, denominatas ſcilicet a D, E, F, ita oſtendemus. Quoniam D, E, F, metiuntur ip-
 
-## THEOR. 35. PROPOS. 40.
+[Diagram: dotted lines labelled G, H and I, opposite short dotted lines labelled A D, B E and C F; dashed lines labelled K, M, L and N, P, O]
 
-[Margin]
-38.
-[/Margin]
-
-SI numerus partem habuerit quamlibet; metietur illum numerus a parte denominatus.
-
-HABEAT numerus A, partem B. a qua numerus C, denominatur. Dico C, metiri ipſum A. Nã cũ B, pars denominetur a C; ſit autẽ & unitas pars ipſius C, ab eodem C, denominata; metietur unitas ipſum C, & B, ipſum A, æque. Viciſſim ergo & unitas ipſum B, & C, ipſum A, metietur. Si numerus ergo partem habuerit quamlibet, &c. Quod demonſtrandũ erat.
-
-[Diagram: a dotted line labelled A; two shorter dotted lines labelled B and C]
+ſum G, per conſtructionem; & G, ipſos H, I, & reliquos multiplices ipſius G; metientur quoque D, E, F, eoſdem H, I, & reliquos multiplices ipſius G. Quare H, I, & reliqui numeri ipſius G, multiplices, partes habebunt a metientibus numeris D, E, F, denominatas, quales ponuntur partes A, B, C.
 
 [Margin]
-15. ſeptimi
-[/Margin]
-
-## PROBL. 6. PROPOS. 41.
-
-[Margin]
-39.
-[/Margin]
-
-NVMERVM reperire, qui minimus cum ſit, habeat datas partes.
-
-SINT datæ partes A, B, C; Inueniendusque ſit minimus numerus datas partes habens. Sint a partibus A, B, C, numeri denominati, hoc eſt, qui ipſas denominent, D, E, F; minimusque, quem D, E, F. metiantur, numerus G. Dico G, eſſe minimum, qui habeat datas partes A, B, C. Quod enim eiuſmodi partes habeat, ita oſtendetur. Cũ D, E, F, ipſum G, metiantur, habebit G, partes a D, E, F, denominatas, hoc eſt, partes A, B, C, cum hæ denominentur a D, E, F. Quod uero G, ſit minimus illas partes habens, perſpicuum eſt. Si enim non eſt minimus, habeat, ſi fieri poteſt, H, ipſo G, minor eaſdem partes A, B, C. Quia igitur H, habet partes A, B, C; metientur ipſum numeri D, E, F, a parti-
-
-[Diagram: dotted lines labelled D, E and F opposite labels A. Secunda, B. Tertia and C. Quarta; a longer dotted line labelled G; a solid line labelled H]
-
-[Margin]
-38. ſeptimi
+11. pron.
 39. ſeptimi
-40 ſeptimi
 [/Margin]
 
-<!-- Signature: Mm 4 -->
-<!-- Catchword: bus -->
+QVOD autem H, duplus ipſius G, minimi, ſit ſecundus dictas partes habens, hoc modo demonſtrabimus. Si H, non eſt ſecundus, ſit, ſi fieri poteſt, alius K L, ipſo prior, qui nimirum maior ſit, quam G, minimus, & minor, quam H, duplus ipſius G. Detracto autem G, ex K L, relinquatur M L, ipſo G, minor. Quoniam igitur K L, partes habet A, B, C; metientur ipſum numeri D, E, F, a partibus dictis denominati; Ac propterea & G, minimus, quem D, E, F, metiuntur, metietur per coroll. propos. 38. huius lib. eundẽ K L. Metitur autem & G, ablatum K M, ſibi æqualem: Igitur & reliquum M L, metietur, maior minorem. Quod eſt abſurdum. Non ergo alius numerus inter G, & H, cadens partes habet A, B, C; Ac proinde H, ſecundus eſt, huiuſmodi partes habens.
+
+[Margin]
+40. ſeptimi
+12. pron.
+[/Margin]
+
+NON aliter oſtendemus numerum I, triplum ipſius G, eſſe tertium dictas partes habentem. Si enim non eſt tertius, ſit alius, ſi fieri poteſt, nempe N O, ipſo prior, qui videlicet maior ſit, quam H, duplus, minor vero quam I, triplus. Detracto autẽ H, duplo ex N O, relinquatur P O, minor ipſo G. Quia igitur N O, partes habet A, B, C; metientur ipſum numeri D, E, F, a partibus illis denominati. Ac idcirco & G, minimus, quem D, E, F, metiuntur, eundem N O, per coroll. propos. 38. huius lib. metietur: Metitur autem & G, ipſum N P, ablatum ipſi H, duplo æqualem. Igitur & reliquum P O, idem G, metietur, minorem maior. Quod eſt abſurdum. Non ergo alius numerus inter H, & I, cadens partes habet A, B, C, datas; Ac propterea
+
+[Margin]
+40. ſeptimi
+12. pron.
+[/Margin]
+
+<!-- Catchword: I, ter- -->

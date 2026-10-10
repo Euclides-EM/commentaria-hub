@@ -1,22 +1,24 @@
 <!-- Running title: LIBER VI. -->
-<!-- Page number: 208 -->
+<!-- Page number: 207 -->
 
-theorema illud, quod iam aliter in ſcholio propoſ. 4. lib. 2. oſtendimus. Nimirum.
+triangula ABC, FGH, habentia angulos BAC, GFH, æquales; Item angulos ACB, FHG; ideoque latera habebunt circa æquos angulos proportionalia; ac propterea inter ſe ſimilia erunt. Eadem ratione erunt ſimilia triangula AED, FKI. Deinde quia eſt ut AC, ad CB, ita FH, ad HG, ob ſimilitudinem triangulorum ABC, FGH; ut autem CB, ad CD, ita eſt, ex hypoteſi, HG, ad HI, ob ſimilitudinem polygonorum; Ex æquo erit ut AC, ad CD, ita FH, ad HI. Et quoniam angulus BCD, æqualis ponitur angulo GHI; eſt autem & ablatus ACB, oſtenſus æqualis ablato FHG; erit & reliquus ACD, reliquo FHI, æqualis. Quare triangula ACD, FHI, æquiangula erunt, ideoque ſimilia.
 
-SI linea recta dupla fuerit lineæ rectæ, quadratum illius quadruplum erit quadrati huius: Et contra, ſi quadratum quadruplum fuerit quadrati, latus illius duplum erit lateris huius.
+[Figure: two polygons ABCDE and FGHIK divided into triangles by diagonals from A and F]
 
-SIT primum recta A, dupla rectæ B. Dico quadratum A, quadruplum eſſe quadrati B. Cum enim omnia quadrata ſint ſimilia, ut conſtat ex 1. defin. huius lib. erit, per hanc propoſ. proportio quadrati A, ad quadratum B, duplicata proportionis laterum homologorum A, & B; quæ cum proportionem habeant duplam; erit proportio quadratorum quadrupla. Quadrupla enim proportio duplicata eſt dupla proportionis, ut hic apparet. 1. 2. 4.
+[Margin]
+6. ſexti.
+4. ſexti.
+22. quinti.
+6. ſexti.
+[/Margin]
 
-[Figure: two squares labelled A and B, the first larger]
+Dico præterea triangula hæc eſſe homologa totis polygonis. Quoniam ſimilia ſunt triangula ABC, FGH, erit eorum proportio duplicata proportionis homologorum laterum AC, FH: Atque eodem argumento proportio triãgulorum ACD, FHI, duplicata erit proportionis eorundem laterum homologorum AC, FH. Quare ut triangulum ABC, ad triangulum FGH, ita erit triangulum ACD, ad triangulum FHI. Neque diſſimili ratione concludetur quoque eſſe triangulum ADE, ad triangulum FIK, ut ACD, ad FHI. Atque ita proportionalia ſunt triangula unius polygoni cum triangulis alterius, ita ut triangula unius ſint antecedentia, & triangula altetius{printer-error-correction:alterius} conſequentia proportionum. Vt autem unum antecedens ad unum conſequens, ita ſunt omnia antecedentia ad omnia conſequentia. Igitur ut quodlibet triangulum unius polygoni ad ſibi reſpondens triangulum alterius, ita erit totum polygonum ad totum polygonum; ideoque triangula homoga{printer-error-correction:homologa} erunt totis polygonis.
 
-SIT iam quadratum A, quadruplum quadrati B. Dico latus A, duplum eße lateris B. Cum enim proportio quadratorum, quæ ponitur quadrupla, duplicata ſit proportionis laterum homologorum, ut dictum eſt; habebunt latera homologa A, & B, proportionem duplam. Nam quadrupla proportio duplicata eſt proportionis duplæ, ut in exemplo adducto ſuperius apparet.
+[Margin]
+19. ſexti.
+12. quinti.
+[/Margin]
 
-## COROLLARIVM.
+DICO poſtremo, polygona inter ſe proportionem habere duplicatam eius, quam habent latera homologa. Cum enim ſit ut triangulum ABC, ad triangulum FGH, ita polygonum ABCDE, ad polygonum FGHIK; Triã-
 
-HINC manifeſtum eſt, ſi fuerint tres rectæ lineæ proportionales, ut eſt prima ad tertiam, ita eſſe polygonum ſuper primam deſcriptum, ad polygonum ſuper ſecundam ſimile ſimiliterque deſcriptum.
-
-[Figure: two squares labelled A and B, and a line labelled C]
-
-HOC non aliter demonſtrabitur ex hoc theoremate, quam oſtenſum fuit corollarium præcedentis theorematis, ex ſuo theoremate: Vt perſpicuum eſt in hac figura appoſita.
-
-<!-- Catchword: THEOR. -->
+<!-- Catchword: gulum -->

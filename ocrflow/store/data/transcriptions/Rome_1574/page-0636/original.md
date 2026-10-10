@@ -1,26 +1,41 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 175 -->
+<!-- Page number: 176 -->
 
-tiantur, ſi fieri poteſt A, B, C, alium numerum E, ipſo D, minorem. Quoniam igitur A, & B, metiuntur ipſum E, minorem quam D; non erit D, minimus, quem A, & B, metiantur. Quod eſt abſurdum, & contra hypotheſim. Immo, cum A, & B, metiantur ipſum E, & D, ſit minimus, quem ijdem A, & B, metiuntur; metietur quoque D, ipſum E, maior minorem. Quod eſt abſurdum.
+erit ipſius A, ab eodem B, denominata. Si numerum ergo quiſpiam numerus metiatur, &c. Quod oſtendendũ erat.
 
-[Margin]
-37. ſeptimi
-[/Margin]
-
-SED iam C, non metiatur ipſum D, inuentum. Inuento igitur E, minimo, quem C, & D, metiantur; Dico E, eſſe minimum, quem A, B, C, metiantur. Quod enim eum metiantur, ita oſtendetur. Cum A, & B, metiantur ipſum D, & D, ipſum E; metientur quoque A, & B, ipſum E. Metitur autem & C, eundẽ E. Igitur omnes tres A, B, C, ipſum E, metiuntur. Quod autem E, ſit minimus, quem metiantur A, B, C, hoc modo probabitur. Si E, non eſt minimus; metiantur, ſi fieri poteſt. A, B, C, alium numerum F, ipſo E, minorem. Quoniam igitur A, & B, ipſum F, metiuntur; metietur quoque eundem F, numerus D, nimirum minimus inuentus, quem numeri A, & B, metiantur; Atque adeo cum C, & D, metiantur ipſum F, minorem, quam E; non erit E, minimus, quem C, & D, metiantur. Quod eſt abſurdum, & contra hypotheſim. Immo cum C, & D, metiantur ipſum F; metietur quoque eundem F, numerus E, minimus, quem metiuntur ijdem C, & D, maior minorem. Quod eſt abſurdũ. Non ergo A, B, C, alium numerum ipſo E, minorem metientur; ſed ipſe E, erit minimus. Quapropter tribus numeris datis, reperimus, quem illi minimum metiantur, numerum. Quod erat faciendum.
-
-[Diagram: dotted lines labelled A, B, C, D and E, and a solid line F]
+## THEOR. 35. PROPOS. 40.
 
 [Margin]
-36. ſeptimi
-11. pron.
-37. ſeptimi
-37. ſeptimi
+38.
 [/Margin]
 
-## COROLLARIVM.
+SI numerus partem habuerit quamlibet; metietur illum numerus a parte denominatus.
 
-SEQVITVR ex his, ſi tres numeri numerum quempiam metiantur; etiam minimum, quem illi metiuntur, eundem metiri. Nã in extrema huius demonſtrationis parte, ex eo, quod A, B, C, ponebantur metiri ipſum F, oſtenſum eſt, & E, minimum quem A, B, C, metiuntur, eundem F, metiri.
+HABEAT numerus A, partem B. a qua numerus C, denominatur. Dico C, metiri ipſum A. Nã cũ B, pars denominetur a C; ſit autẽ & unitas pars ipſius C, ab eodem C, denominata; metietur unitas ipſum C, & B, ipſum A, æque. Viciſſim ergo & unitas ipſum B, & C, ipſum A, metietur. Si numerus ergo partem habuerit quamlibet, &c. Quod demonſtrandũ erat.
 
-<!-- Signature: Mm 3 -->
-<!-- Catchword: SCHO- -->
+[Diagram: a dotted line labelled A; two shorter dotted lines labelled B and C]
+
+[Margin]
+15. ſeptimi
+[/Margin]
+
+## PROBL. 6. PROPOS. 41.
+
+[Margin]
+39.
+[/Margin]
+
+NVMERVM reperire, qui minimus cum ſit, habeat datas partes.
+
+SINT datæ partes A, B, C; Inueniendusque ſit minimus numerus datas partes habens. Sint a partibus A, B, C, numeri denominati, hoc eſt, qui ipſas denominent, D, E, F; minimusque, quem D, E, F. metiantur, numerus G. Dico G, eſſe minimum, qui habeat datas partes A, B, C. Quod enim eiuſmodi partes habeat, ita oſtendetur. Cũ D, E, F, ipſum G, metiantur, habebit G, partes a D, E, F, denominatas, hoc eſt, partes A, B, C, cum hæ denominentur a D, E, F. Quod uero G, ſit minimus illas partes habens, perſpicuum eſt. Si enim non eſt minimus, habeat, ſi fieri poteſt, H, ipſo G, minor eaſdem partes A, B, C. Quia igitur H, habet partes A, B, C; metientur ipſum numeri D, E, F, a parti-
+
+[Diagram: dotted lines labelled D, E and F opposite labels A. Secunda, B. Tertia and C. Quarta; a longer dotted line labelled G; a solid line labelled H]
+
+[Margin]
+38. ſeptimi
+39. ſeptimi
+40 ſeptimi
+[/Margin]
+
+<!-- Signature: Mm 4 -->
+<!-- Catchword: bus -->

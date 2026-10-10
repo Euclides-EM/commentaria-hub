@@ -1,29 +1,29 @@
 <!-- Running title: LIBER VII. -->
 
-<!-- Page number: 258 -->
+<!-- Page number: 259 -->
 
-per lemma propos. 11. huius lib. eædem partes. Viciſſim ergo & D, ipſius B, & C, ipſius A, eadem pars erit, uel partes; Ac propterea e contrario uel B, ipſius D, & A, ipſius C, æque multiplex erit, uel certe, per lemma adductum, B, ipſum D, & A, ipſum C, continebit æqualiter, eandemque inſuper partem uel partes. Quare per defin. 20. eadem proportio erit B, ad D, quæ A, ad C, hoc eſt, erit ut A, ad C, ita B, ad D.
+portioni B, ad F, ut demonſtratum eſt; & ipſæ inter ſe eædem erunt, ut mox oſtendetur.) Ac proinde uiciſſim, ut A, ad C, ita D, ad F.
 
 [Margin]
-9. uel 10. ſeptimi.
+13. ſeptim.
 [/Margin]
 
-SINT quinto A, & C, ipſis B, & D, æquales, & A, minor quã C. Quoniam igitur ęquales numeri A, & B, æqualium numerorum C, & D, uel eadem pars, uel eædem partes ſunt; Erit, per defin. 20. ut A, ad C, ita B, ad D
-
-[Diagram: two rows of dotted lines labelled A, C and B, D]
-
-SINT ſexto A, & C, ipſis B, & D, æquales, at A, maior quam C. Quia igitur æquales numeri A, & B, æqualium numerorũ C, & D, uel æque multiplices ſunt, uel certe illi hos æqualiter continent, eandemque inſuper partem, uel partes; erit, per defin. 20. ut A, ad C, ita B, ad D.
-
-[Diagram: two rows of dotted lines labelled A, C and B, D]
-
-SINT ſeptimo ac ultimo A, & C, inter ſe æquales, ſiue ij maiores ſint quam B, & D, ſiue minores, ſiue æquales. Quoniam igitur, ob eandem proportionem, A, ipſius B, & C, ipſius D, æque multiplex eſt, uel eadem pars, uel eædem partes; uel certe A, ipſum B, & C, ipſum D, æqualiter continet, eandemque inſuper partem, uel partes; ſuntque A, & C, æquales; æquales quoque erunt B, & D; Atque adeo erit, ut A, ad æqualem C, ita B, ad æqualem D. Quocirca, ſi quatuor numeri proportionales ſint, & uiciſſim proportionales erunt. Quod erat demonſtrandum.
-
-[Diagram: two rows of dotted lines labelled A, C and B, D]
+QVOD ſi fuerint plures numeri, quam tres, ita ut ſit etiam quemadmodum C, ad G, ita F, ad H; Dico adhuc eſſe, ut A, ad G, ita D, ad H. Cum enim iam ſit oſtenſum in tribus numeris, eſſe ut A, ad C, ita D, ad F; ponatur autẽ ut C, ad G, ita F, ad H; erunt tres numeri A, C, G, & alij tres D, F, H, qui bini in eadem ratione ſumuntur. Ex æqua litate igitur in tribus numeris oſtenſa, rurſus erit ut A, ad G, ita D, ad H. Eodemque modo idem oſtendemus in quin que numeris, per quatuor; ſicut id in quatuor numeris demonſtratum fuit per tres, & ſic de pluribus. Itaque ſi ſint quotcunque numeri, & alij illis æquales multitudine, &c. Quod oſtendendum erat.
 
 ## SCHOLION.
 
-COACTI ſumus in hac propoſitione, & duabus præcedentibus tot caſus recenſere, eoſque demonſtrationibus certiſsimis confirmare, una cum lemmate propos. 11. ut earum ueri-
+IDEM uerum eſt, ſi loco unius numeri unitas aſſumatur, uel etiam loco plurium plures unitates, ut in hoc exemplo perſpicuum eſt.
 
-<!-- Signature: Kk 2 -->
+[Diagram: four rows of dotted lines labelled A, B, C, G in the left column and D, E, F, H in the right column]
 
-<!-- Catchword: tas -->
+## LEMMA.
+
+QVOD autem duæ proportiones numerorũ, quæ eidem proportioni eædem ſunt, inter ſe quoque ſint
+
+[Diagram: two rows of dotted lines labelled A, B, C and D, E, F]
+
+eædem, quales ſunt in demonſtratione proportiones A, ad D, & C, ad F, quæ eædem oſtenſæ ſunt proportioni B, ad E; ita demonſtrabitur. Propter eandem proportionem, erit B, ipſius E, & tam A, ipſius D, quam C, ipſius F, æque multiplex, uel eadem pars, uel
+
+<!-- Signature: Kk 3 -->
+
+<!-- Catchword: eædem -->

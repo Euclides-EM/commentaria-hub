@@ -1,28 +1,32 @@
 <!-- Running title: EVCLID. GEOM. -->
-<!-- Page number: [unclear: 283] -->
 
-cedentem. Quare cum B, & C, ipſum K, metiantur, metietur eundem K, numerus E, minimus, quem B, & C, metiuntur, minorem maior. Quod eſt abſurdum Non igitur erunt alij numeri minores ipſis F, E, G, in rationibus A, ad B, & C, ad D; Ac propterea ipſi F, E, G, minimi ſunt in datis rationibus.
-
-SINT deinde datæ tres rationes in numeris minimis A, ad B; C, ad D; & E, ad F; inueniendique ſint quatuor minimi deinceps proportionales in datis rationibus. Inuento rurſum numero G, minimo, quem metiantur B, ſecundus, & C, tertius; quoties B, ipſum G, metitur, toties metiatur A, ipſum H; & quoties C, ipſum G, toties D, ipſum I, metiatur. Quibus peractis, aut E, ipſum I, metitur, aut non. Metiatur primũ;
+nuper cum tertia proportione data. Veluti ſi quarta proportio data ſit in numeris minimis S, ad T; inueniemus primũ M, L, K, N, minimos deinceps proportionales in tribus proportionibus A, ad B; C, ad D; & E,
 
 [Calculation]
-A, 6. B, 5. C, 4 D, 3. E, 5. F, 7.
-H, 24. G, 20 I, 15. K, 21.
-L ---- M ---- N ---- O ----
+A,6. B,5. C,4. D,3. E,2. F,7. S,3. T,2.
+M,48. L,50. K,30. N.105. O,70.
 [/Calculation]
 
-Et quoties E, ipſum I, metitur, toties F, metiatur ipſum K. Dico H, G, I, K, minimos eſſe in datis rationibus. Quod enim ſint in datis rationibus deinceps proportionales, conſtat. Cum enim A, & B, ipſos H, & G, æque metiantur; erit ut prius, quemadmodum A, ad B, ita H, ad G. Eadem ratione erit, ut C, ad D, ita G ad I: & ut E, ad F, ita I, ad K; quod tam C, & D, ipſos G, & I, quam E, & F, ipſos I, & K, metiantur æque. Igitur H, G, I, K, deinceps proportionales ſunt in datis rationibus. Quod autem ſint minimi, ſic oſtendemus. Si non ſunt minimi, ſint in eiſdem rationibus minores ipſis, ſinguli ſingulis, ſi fieri poteſt L, M, N, O. Quia igitur A, & B, minimi ſunt in ſua proportione; ipſi metientur æque L, & M, eandem habentes rationem, nempe B, conſequens conſequentem M. Eodem modo C, & D, æque metientur M, & N; nimirum C, antecedens antecedentem M. Quocirca cum B, & C, ipſum M metiantur; metietur eundem M, & numerus G, minimus, quem B, & C, metiuntur, minorem maior Quod eſt abſurdũ. Non ergo erunt alij numeri deinceps proportionales in rationibus datis minores ipſis H, G, I, K; Ac proinde H, G, I, K, in datis rationibus minimi ſunt.
+ad F: Deinde ſi S, ipſum N, metiatur, accipiemus O, quem T, toties metiatur, quoties S, ipſum N, metitur. Nam M, L, K, N, O, erunt deinceps proportionales in datis rationibus minimi. Si uero S, ipſum N, non metiatur; ſumemus O, quem S, & N, minimum metiantur. Et quoties N, ipſum O, metitur, toties metiat K, ipſum P; & L,
 
-SED iam E, non metiatur ipſum I. Inuento ergo nu-
+[Calculation]
+A,6. B,5. C,4. D,3. E,2. F,7. S,9. T,2.
+M,48. L,40. K,30. N,105.
+R,144. Q,120. P,90. O,315. V,70.
+[/Calculation]
+
+ipſum Q; & M, ipſum R; quoties uero S, eundem O, metitur, toties T, ipſum V, metiatur. His enim peractis, erunt R, Q, P. O, V, deinceps proportionales minimi in rationibus A, ad B; C, ad D; E, ad F, & S, ad T. Quæ omnia eo argumento, quo prius, demõſtrabimus. Eodem modo operabimur, ſi quinque, uel plures rationes datæ ſint in minimis numeris. Itaque rationibus datis quotcunque in minimis numeris, &c. Quod faciendum erat.
+
+## SCHOLION.
+
+SI omnes rationes, vel aliquæ datæ fuerint in numeris nõ minimis, abſoluemus nihilo minus problema propoſitum; ſed prius exhibendæ erunt rationes datæ in minimis numeris, antequam ad inuentionem minimorum numerorum deinceps proportionalium aggrediamur, vt ex demonſtratione manifeſtũ eſt.
+
+DIFFERT autem hoc problema ab eo, quod propoſitione 35. lib. 7. demonſtratum eſt, quod hic non dantur numeri deinceps proportionales, ita vt quilibet intermedius ſit & antecedens, & conſequens, licet proportiones ſint diuerſæ, quemadmodum ibi.
+
+PORRO inuentis minimis numeris deinceps proportiona
 
 [Margin]
-37. ſeptimi
-
 36. ſeptimi
-
-21. ſeptimi
-
-37. ſeptimi
 [/Margin]
 
-<!-- Catchword: mero -->
+<!-- Catchword: libus -->

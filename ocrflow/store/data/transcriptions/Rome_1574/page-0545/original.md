@@ -1,33 +1,45 @@
-<!-- Running title: EVCLID. GEOM. -->
+<!-- Running title: EVCLID.GEOM. -->
 
-tres ED, EF, EA, proportionales, atque adeo EF, media proportionalis inter quãlibet lineam quæ circulum ſecet, & ſegmentum eius exterius. Quod eſt propoſitum.
+recta DH. Dico rectam DH, ſecare triangulum datum ſecundum proportionem datam, hoc eſt, eſſe trapezium BDHA, ad triangulum CDH, vt E, ad F, ſeu vt BG, ad GC. Ducta enim recta GA, erunt triãgula HGA, GHD, æqualia, cum ſint ſuper eandem baſin GH, & inter eaſdẽ parallelas GH, DA. Addito igitur communi triangulo CGH, fiẽt æqualia triangula CGA, CDH: Ac proinde triangulum ABC, eandem habebit proportionem ad CGA, & ad CDH. Diuidendo igitur, erit vt triangulum BGA, ad triangulum CGA, ita trapezium BDHA, ad triangulum CDH. Eſt autem BGA, ad CGA, vt BG, ad GC. Igitur erit & trapezium BDHA, ad triangulũ CDH, vt BG, ad GE, hoc eſt, vt E, ad F. Quod eſt propoſitum.
 
-[Margin]
-X.
-[/Margin]
-
-## SI duæ rectæ lineæ ſeſe mutuo ſecuerint, & à duobus eorum terminis perpendiculares ſibi mutuo demittantur: erunt duæ lineæ, quarum una inter terminũ, & ſectionẽ, altera uero inter eundẽ terminũ, & ſuã perpendicularem interijcitur, alijs duab⁹ eodẽ modo incluſis reciprocę.
-
-DVAE rectæ AB, CB, ſe mutuo ſecent in B, & ex terminis A, C, ad ipſas demittantur perpendiculares, AD, quidem ad CB, at uero CE, ad AB; quæ perpendiculares cadent in AB, CB, protractas ultra B, ſi angulus ABC, fuerit obtuſus; in ipſas vero introrſum, ſi idem angulus acutus fuerit, ut figuræ indicant. Dico rectas AB, BE, (quarum prior interijcitur inter terminum A, & ſectionem B; poſterior vero inter ſectionem B, & perpendicularẽ ſuam CE, quæ nimirum ad ipſam AB, ducitur) reciprocas eſſe duabus CB, BD, (quæ inter ſimiles terminos includuntur) hoc eſt, eſſe vt AB, ad BC, ita BD, ad BE: Vel vt AB, ad BD, ita BC, ad BE. Cum enim anguli ABD, ADB, trianguli ABD, æquales ſint angulis CBE, CEB, trianguli CBE. (Nã ADB, CEB, recti ſunt; & ABD, CBE, ad verticem in priori figura, in poſteriori autem vnus & idem angulus) erunt triangula ABD, CBE, æquiangula. Quare erit vt AB, ad BD, ita CB, ad BE: Ac propterea permutando quoq;, vt AE{printer-error-correction:AB}, ad BC, ita BD, ad BE. Quod eſt propoſitum.
+[Figure: two triangles labelled A, B, D, C and A, H, B, D, G, C, with two horizontal lines E and F above]
 
 [Margin]
-4. ſexti.
-[/Margin]
-
-[Figure: two intersecting straight lines AB and CB meeting at B, with perpendiculars AD and CE falling outside the lines, labelled A, B, C, D, E]
-
-[Figure: two intersecting straight lines with perpendiculars falling within, labelled A, F, C, D, E, B]
-
-PORRO eadem ratione ſegmenta perpendiculariũ AD, CE, in poſteriori figura ſe mutuo ſecantium in F, erunt reciproca. Cum enim triangula AFE, CFD, ſint æquiangula; erit vt AF, ad FE, ita CF, ad FD: Et permutando quoque, vt AF, ad CF, ita FE, ad FD.
-
-[Margin]
-4. ſexti.
+37. primi
 [/Margin]
 
 [Margin]
-XI.
+[unclear: 11]. quinti.
 [/Margin]
 
-## IN parallelogrammo, duæ rectæ lateribus parallelæ ſe mutuo ſecantes, diuidunt parallelo-
+[Margin]
+7. quinti
+[/Margin]
 
-<!-- Catchword: grammum -->
+[Margin]
+1. ſexti.
+[/Margin]
+
+CADAT tertio punctum G, inter B, & D, ducaturq́; recta DA, cui rurſus per G, agatur parallela GH. Dico igitur, rectam ductã DH, ſecare triangulum ABC, ſecundum proportionem datam E, ad F, hoc eſt, eſſe triãgulum BDH, ad trapezium CDHA, vt E, ad F. Ducta enim recta GA, erũt, vt prius triangula HGA. GHD, æqualia; additoq́; communi BGH, æqualia fient BGA, BDH. Quare erit ABC, ad BGA, vt ad BDH. Diuidendo ergo erit vt CGA, ad BGA, ita trapezium CDHA, ad triangulum BDH; & conuertendo, vt BGA, ad CGA, ita BDH, ad trapezium CDHA. Eſt autem BGA, ad CGA, vt BG, ad GC. Igitur & BDH, ad trapezium CDHA, erit vt BG, ad GC, hoc eſt, vt E, ad F. Quod eſt propoſitum.
+
+[Figure: triangle labelled A, H, B, G, D, C with lines drawn from the vertices]
+
+[Margin]
+37. primi
+[/Margin]
+
+[Margin]
+7. quinti.
+[/Margin]
+
+[Margin]
+17. quinti.
+[/Margin]
+
+[Margin]
+1. ſexti.
+[/Margin]
+
+HINC perſpicuum eſt, quonam modo imperata pars ex triangulo ſit auferenda per lineam rectam, quæ a quouis dato puncto lateris ducatur. Si enim per rectam lineam a dato puncto ductam diuidatur triangulum ſecundum proportionẽ multiplicem, cuius denominator vnitate minor ſit denominatore partis imperatæ, (vt ſecundum proportionem triplam, ſi quarta pars imperetur, &c.) factum erit, quod iubetur, vt manifeſtũ eſt. Habebit enim tunc totum triangulum ad ſegmentum ablatum proportionem multiplicem, cuius denominator æqualis ſit denominatori partis, cum priori denominatori proportionis multiplicis addatur vnitas, quæ ante deerat.
+
+<!-- Catchword: DATO -->

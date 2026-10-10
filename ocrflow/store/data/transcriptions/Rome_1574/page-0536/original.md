@@ -1,17 +1,35 @@
 <!-- Running title: LIBER VI. -->
-<!-- Page number: 225 -->
+<!-- Page number: 226 -->
 
-æquales ABC, DEF, in quibus anguli ad circunferentiam cõſtituti ſint B, E, maior quidem B, minor autem E. Quo poſito erit arcus AC, maior arcu DF, ac propterea reliquus arcus ABC, minor reliquo arcu DEF. Quare proportio anguli B, ad angulũ E, eſt maioris inæqualitatis; proportio uero arcus ABC, ad arcum DEF, minoris inæqualitatis. Non ergo eadem eſt proportio anguli ad angulum, quæ arcus ad arcum. Quod ſi ſumamus arcus, ſuper quos anguli aſcenderunt, quales ſunt arcus AC, DF, tum demũ erit angulus B, ad angulum E, ut arcus AC, ad arcum DF, vt recte demonſtrauit Euclides. Quocirca cum dicimus angulum eße in ſegmento, aliud intelligere debemus, quam cum dicimus, angulum inſiſtere ſegmento, ſeu arcui: Id quod in expoſitione definitionis 8. lib. 3. monuimus.
-
-[Figure: two equal circles, the first with inscribed triangle ABC, the second with inscribed triangle DEF]
-
-NON obſcure quoque ex hoc theoremate deduci poteſt, ſimilitudinem ſegmentorum in circulis ſimilium, quæ Euclides definitione 10. lib. 3. definiuit per angulos æquales in ipſis ſegmentis exiſtentes, conſiſtere in eo, quod ſegmenta, ſeu circunferentiæ ſimiles, ad integras circunferentias circulorum eandem habeant proportionem, & propterea qualis pars eſt una circunferentia totius ſuæ circunferentiæ, talis quoque ſit alia circunferentia ſimilis totius ſuæ circunferentiæ; veluti in expoſitione prædictæ definitionis docuimus. Sint enim primum duo circuli æquales ABC, DEF, in quibus anguli ad circunferentias conſtituantur æquales BAC, EDF; Quo poſito, ſegmentà BAC, EDF, iuxta Euclidis definitionem præfatàm dicentur ſimilia. Manifeſtum autem eſt, eorum circunferentias habere eandem proportionem ad integras circulorum circunferentias. Cum enim ob circulorum æqualitatem, arcus BC, EF, quibus anguli æquales inſiſtunt, ſint æquales; efficitur reliquas circunferentias BAC, EDF, eſſe quoque æquales. Quare ad totas circunferentias, quæ æquales etiam ponuntur, eandem proportionem habebunt: Atque idcirco, quæ pars eſt arcus BAC, totius circũferentiæ ABCA, eadem pars erit arcus EDF, totius circunferentiæ DEFD.
-
-[Figure: two equal circles, the first with inscribed triangle BAC, the second with inscribed triangle EDF]
+BCD, FGH, qui æquales erunt, ex defin. ſegmentorum ſimilium; Sunt autem tam anguli C, & A, quàm G, & E, duobus rectis æquales: Ablatis igitur æqualibus C, & G; reliqui A, & E; ac proinde eorum dupli I, & K, æquales erunt.
 
 [Margin]
-26. tertij.
+22. tertij.
 [/Margin]
 
-<!-- Signature: Ff -->
-<!-- Catchword: SINT -->
+[Figure: two unequal circles, the larger with center I and inscribed triangle with apex A and base BD, the smaller with center K and inscribed triangle with apex E and base FH, with points C and G on the circumferences]
+
+VICISSIM quoq; liquet, arcus, quibus inſiſtunt ſiue ad cẽtra, ſiue ad circunferentias, anguli æquales, ſimiles eſſe. Nã ſi anguli A, et E, fuerint æquales; erunt & reliqui duorũ rectorũ C, & G, æquales. Igit̃, p̃ definitionẽ, arcus BCD, FGH, ſimiles ſunt, quibus dicti anguli A, & E, inſiſtũt. Quod ſi I, & K, æquales ſint, erũt et eorũ dimidij A, et E, æquales. Quare, vt prius, arcus BCD, FGH, ſimiles ſunt.
+
+QVONIAM vero Euclides multa dixit de inuentione linearũ proportionaliũ, nihil vero de ſuperficierũ, vel planorum proportionaliũ inueſtigatione nobis præſcripſit; non abs re me facturum exiſtimo, ſi nonnulla problemata, atque theoremata, quorũ multa circa inuentionẽ ſuperficierũ proportionaliũ verſantur, ſcitu nõ iniucunda, loco appẽdicis, partim ex peritis Geometris, partim ex inuentis proprijs, huic ſexto libro annectam; quippe quæ ex demonſtratis ab Euclide facili negotio deducuntur; Hinc autem exordium capiemus.
+
+## A DATO rectilineo imperatam partem auferre, ita tamen, ut & ablatum, & id, quod relinquitur, ſimile ſit cuiuis rectilineo dato, ſimiliterque poſitum.
+
+[Margin]
+I.
+[/Margin]
+
+SIT ex rectilineo A, auferenda tertia pars, quæ ſimilis ſit, ſimiliterq́ue poſita rectilineo B, relinquatq́; rectilineum eidem B, ſimile, & ſimiliter poſitũ. Cõſtituatur rectilineũ CD, æquale quidẽ ipſi A, ſimile vero ipſi B, ſuperq́; vnũ eius latus CE, ſemicirculus deſcribat̃ CFE. Deinde ablata parte tertia GE, imperata uidelicet, ex CE, agat̃ GF, ad CE, p̃pendicularis, cõnectanturq́; rectæ CF, EF, ſup quas cõſtruant̃ rectilinea
+
+[Margin]
+25. ſexti.
+
+9. ſexti.
+
+18. ſexti.
+[/Margin]
+
+[Figure: a triangle labelled A, a parallelogram labelled B, and a construction with base CE, semicircle CFE on it, perpendicular GF from point G, and rectilinear figures on CF and EF with points H, I and D]
+
+<!-- Signature: Ff 2 -->
+<!-- Catchword: FH, -->

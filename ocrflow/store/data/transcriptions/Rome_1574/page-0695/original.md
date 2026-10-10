@@ -1,31 +1,78 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-mus, latera habet ſolummodo vnitatem, & ſeipſum, quamuis improprie. Vt hi numeri plani 19. & 23. latera habent 1. 19. & 1. 23. cum ex horum mutua multiplicatione producantur, quæ conſtat non eſſe proportionalia. Quiuis vero numerus ſolidus, qui numerus etiam primus ſit, latera tantum habet duas unitates, & ſe ipſum. Vt hi numeri ſolidi 29. & 47. latera habent 1. 1. 29. & 1. 1. 47. cum ex mutua horũ multiplicatione producantur. Perſpicuum autem eſt ea non poſſe eſſe proportionalia.
+DVO numeri A, B, ſe mutuo multiplicantes faciant C, quadratum. Dico A, B, eſſe ſimiles planos. Multiplicans enim A, ſe ipſum faciat D, quadratũ. Quoniam igitur A, multiplicans A, & B, fecit D, & C; erit ut A, ad B, ita D, ad C. At inter D, & C, quadratos unus medius cadit proportionalis. Igitur & inter A, & B, unus medius proportionalis cadet; Ac propterea A, & B, ſimiles plani ſunt. Quare ſi duo numeri ſe mutuo multiplicantes, &c. Quod demonſtrandum erat.
 
-VNDE facilis admodum eſt inuentio duorum planorum, vel ſolidorum non ſimilium. Si enim accipiantur duo numeri habentes proportionem duplam, vel ſeſquialteram, uel ſuperbipartientem, vel certe duo numeri primi, erunt illi ipſi per ea, quæ tradita ſunt, plani ſeu ſolidi non ſimiles.
+[Calculation]
+A,6.   B,54.
+D,36.  C,324.
+[/Calculation]
 
 [Margin]
-26. octaui
+17. ſeptimi
 [/Margin]
 
 [Margin]
-24. octaui
-[/Margin]
-
-RVRSVS quilibet duo numeri, quorum alter quadratus ſit, alter uero non quadratus, plani ſunt non ſimiles; quales ſunt 16. & 20. Si enim eſſent plani ſimiles, haberent proportionem, quam quadratus ad quadratum. Exiſtente igitur 16. quadrato, eſſet & 20. quadratus. quod eſt abſurdum. ponitur enim non quadratus.
-
-[Margin]
-27. octaui
+11. octaui
 [/Margin]
 
 [Margin]
-25. octaui
+8. octaui.
 [/Margin]
 
-PARI ratione quilibet duo numeri, quorum alter cubus ſit, alter vero non cubus, ſolidi ſunt non ſimiles, vt 27. 40. Si enim eſſent ſolidi ſimiles, haberent proportionem, quam cubus ad cubum. Cum igitur 27. cubus ſit, eſſet & 40. cubus. quod eſt abſurdum. ponitur enim non cubus.
+[Margin]
+20. octaui
+[/Margin]
 
-## FINIS ELEMENTI OCTAVI.
+## SCHOLION.
 
-[Ornament: floral tailpiece]
+Ex his demonſtrabimus quatuor inſequentia theoremata non inutilia.
 
-<!-- Catchword: EVCLIDIS -->
+[Margin]
+I.
+[/Margin]
+
+SI duo numeri quadrati ſe mutuo multiplicantes faciant quempiam: Productus quadratus erit.
+
+DVO quadrati A, B, ſe mutuo multiplicantes faciant C. Dico C, eſſe quadratum. Cum enim A, & B, ſint ſimiles plani, nempe quadrati; erit C, ex eis productus, quadratus.
+
+[Calculation]
+A,4.  B,25.
+C,100.
+[/Calculation]
+
+[Margin]
+8. noni.
+[/Margin]
+
+[Margin]
+II.
+[/Margin]
+
+SI duo numeri ſe mutuo multiplicantes faciant quadratum; alter autem ſit quadratus; Et reliquus quadratus erit.
+
+DVO numeri A, B, ſe mutuo multiplicantes faciant C, quadratum; ſitque A, quadratus. Dico & B, quadratum eſſe. Cum enim A, & B, ſe mutuo multiplicantes faciant C, quadratum; erunt A, & B, ſimiles plani: atque adeo inter eos unus medius cadet proportionalis, nempe D. Quare A, exiſtente quadrato, erit & B, quadratus.
+
+[Calculation]
+A,9.  D,12.  B,16.
+C,144.
+[/Calculation]
+
+[Margin]
+2. noni.
+[/Margin]
+
+[Margin]
+18. octaui
+[/Margin]
+
+[Margin]
+22. octaui
+[/Margin]
+
+[Margin]
+III.
+[/Margin]
+
+SI duo numeri ſe mutuo multiplicantes fa
+
+<!-- Catchword: ciant -->

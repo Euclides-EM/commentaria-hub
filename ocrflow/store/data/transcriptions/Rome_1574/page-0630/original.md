@@ -1,45 +1,37 @@
-<!-- Running title: LIBER VII. -->
+<!-- Running title: LIBER. VII. -->
 
-<!-- Page number: 272 -->
+<!-- Page number: 273 -->
 
-tus fuerit, metietur eum alius numerus. Quia uero numerus non diminuitur infinite, ueniemus tandem ad aliquẽ numerum, quem nullus alius metiatur, atque adeo ad primum; qui cum metiatur omnes præcedentes, metietur quoque compoſitum A. Omnem ergo compoſitum numerum, aliquis primus numerus metitur. Quod erat demonſtrandum.
+ſed ipſi E, F, G, minimi erunt. Quamobrem, numeris datis quotcunque, reperimus minores, &c. Quod faciendum erat.
 
-[Diagram: three dotted horizontal lines labelled A, B and C]
+### COROLLARIVM.
 
-[Margin]
-11. pron.
-[/Margin]
+HINC fit, maximam menſuram quotlibet numerorum, metiri ipſos per numeros, qui minimi ſunt omnium eandem proportionem cum ipſis habentium. Oſtenſum enim eſt numeros E, F, G, per quos D, maxima menſura numerorum A, B, C, ipſos A, B, C, metitur, minimos eſſe in continuatione proportionum A, ad B, & B, ad C: Eademque eſt in cæteris ratio.
 
-ALITER. Quia numerus A, compoſitus eſt; metietur eum aliquis numerus, uel etiam plures. Sit omnium metientium eum minimus B; quem dico eſſe primum. Si enim B, non eſt primus, metiatur eum, ſi fieri poteſt, numerus C. Quoniam igitur C, metitur ipſum B, & B, ipſum A; metietur quoque C, minor ipſo B, ipſum A. Quod eſt abſurdum, cum B, ponatur omnium metientium minimus.
+### SCHOLION.
 
-[Diagram: three dotted horizontal lines labelled A, B and C]
+Ex his facili uia comperiemus duos minimos numeros, qui eandem habeant proportionem, quam quotcunquè numeri dati continue proportionales. Vt ſi proponantur continue proportionales A, B, C, D, E, ſiue illi ſint in continuatione proportionis A, ad B, minimi, ſiue non, reperiemus duos in eadem proportione minimos, ſi per hoc problema ſumamus F. & G, minimos in proportione duorum A, & B, nempe illos, per quos I, maxima eorum cõmunis menſura eos metitur.
 
-[Margin]
-11. pron.
-[/Margin]
+[Calculation]
+A, 16. B, 24. C, 36. D, 14{printer-error-correction:54}. E, 81.
+I, 8.
+F, 2. G, 3.
+[/Calculation]
 
-## THEOR. 32. PROPOS. 34.
+CAETERVM aliquando contingit unum numerorum E, F, G, inuentorum eſſe unitatem, quando ſcilicet D, maxima menſura uni ipſorum A, B, C, æqualis eſt, ut ex his exemplis
 
-[Margin]
-31.
-[/Margin]
+[Diagram: two examples of dotted rows labelled A, B, C, D, E, F and G]
 
-OMNIS numerus aut primus eſt, aut eum aliquis primus metitur.
+apparet. Manifeſtum eſt autem, inuentos E, F, G, eſſe mininimos{printer-error-correction:minimos} in continuatione ſuarum proportionum, cum minor numerus dari non poſsit, quam vnitas.
 
-SIT numerus quicunque A. Dico eum uel eſſe primũ, uel certe aliquem primum eum metiri. Cum enim omnis numerus uel primus ſit, uel compoſitus; ſi quidem A, primus eſt, habetur propoſitum: Si vero compoſitus; metietur eum aliquis primus. Omnis igitur numerus aut primus eſt, aut eum aliquis primus metitur. Quod erat oſtendendum.
-
-[Diagram: dotted horizontal line labelled A]
+## PROBL. 4. PROPOS. 36.
 
 [Margin]
-33. ſeptimi
+36.
 [/Margin]
 
-## PROBL. 3. PROPOS. 35.
+DVOBVS numeris datis, reperire,
 
-[Margin]
-34.
-[/Margin]
+<!-- Signature: Mm -->
 
-NVMERIS datis quotcunque, reperire minimos omnium eandem ratio-
-
-<!-- Catchword: nem -->
+<!-- Catchword: quem -->

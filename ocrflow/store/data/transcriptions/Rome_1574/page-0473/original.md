@@ -1,36 +1,53 @@
 <!-- Running title: EVCLID. GEOM. -->
-<!-- Page number: [illegible] -->
 
 [Margin]
 16. quinti.
 [/Margin]
 
-æqualis eſt ipſi FD) ad ED. permutando igitur erit BC, ad CA, ut CE, ad ED. Cum igitur ſit AB, ad BC, ut DC, ad CE; & BC, ad CA, ut CE, ad ED: erit & ex æquali AB, ad CA, ut DC, ad ED. quod eſt propoſitum. Æquiangulorũ ergo triangulorũ proportionalia ſunt latera, &c. Quod erat demonſtrandum.
-
 [Margin]
-22. quinti.
+11. quinti.
 [/Margin]
 
-## COROLLARIVM.
+tando, ut AF, ad AG, ita BF, ad DG. Atque eodem argumento concludemus eſſe, ut AF, ad AG, ita FC, ad GE. Igitur erit, ut BF, ad DG, ita FC, ad GE; & permutando, ut BF, ad FC, ita DG, ad GE. Quod eſt propoſitum.
 
-[Figure: triangle ABC with apex A, base BC, and line DE parallel to the base, D on side AB and E on side AC]
+[Figure: triangle with apex A and base BFC, line DGE parallel to the base, with lines from A to F and to C]
 
-HINC fit, lineam rectam, quæ parallela ducitur uni lateri in triangulo, auferrè triangulum toti triangulo ſimile. Ducatur enim in triangulo ABC, lateri BC, parallela DE. Dico triangulum ADE, toti triangulo ABC, eſſe ſimile. Aequiangula namque ſunt, cum anguli ADE, AED, æquales ſint angulis ABC, ACB, externi internis; & angulus A, communis. Quare ut demonſtratum eſt, habent latera circa æquales angulos proportionalia; Ac proinde, ex definitione, ſimilia ſunt.
+ALITER. Quoniã triangula ABF, ADG, ſimilia ſunt, nec non triangula AFC, AGE, per coroll. huius propos. erit, ut BF, ad FA, ita DG, ad GA: Item ut FA, ad FC, ita GA, ad GE. Ex æquo igitur, vt BF, ad FC, ita DG, ad GE. Quod erat demonſtrandum.
 
 [Margin]
-29. primi
+4. ſexti.
+[/Margin]
+
+[Margin]
+5.
+[/Margin]
+
+## THEOR. 5. PROPOS. 5.
+
+SI duo triangula latera proportionalia habeant; æquiangula erunt triangula, & æquales habebunt eos angulos, ſub quibus & homologa latera ſubtenduntur.
+
+HABEANT triangula ABC, DEF, latera proportionalia, ſitque AB, ad BC, ut DE, ad EF; & BC, ad CA, ut EF, ad FD; & AB, denique ad AC, ut DE, ad DF. Dico triangula eſſe æquiangula, angulum ſcilicet A, æqualem eſſe angulo D; & angulum B, angulo E; & angulum C, angulo F; ſic enim anguli æquales reſpiciunt homologa latera. Fiat angulus FEG, æqualis angulo B; & angulus EFG, angulo C, conueniantque rectæ EG, FG, in G; eritq́; reliquus angulus G, reliquo angulo A, æqualis. Aequiangula igitur ſunt triangula ABC, GEF. Quare ut AB, ad BC, ita GE, ad EF; Vt autem AB, ad BC, ita ponitur DE, ad EF. Igitur ut GE, ad EF, ita DE, ad EF, eandem: proptereaque æquales erunt GE, DE. Rurſus, quoniam ut BC, ad CA, ita EF, ad FG; Vt autem BC, ad CA, ita ponitur EF, ad
+
+[Figure: two triangles; the first with apex A and base BC; the second with vertices D, E, F and point G below, lines joining E and F to G]
+
+[Margin]
+32. primi
 [/Margin]
 
 [Margin]
 4. ſexti.
 [/Margin]
 
-## SCHOLION.
+[Margin]
+11. quinti.
+[/Margin]
 
-NON alienum a noſtro inſtituto eſſe putaui, ſi hic demõſtremus duo theoremata, quorum primum Federicus Commandinus demonſtrat in libello Archimedis de ijs quæ uehuntur in aqua; Secundum uero in commentarijs in Apollonij Conica. Horum primum eſt.
+[Margin]
+9. quinti.
+[/Margin]
 
-SI ex duobus punctis cuiusuis rectæ, quorum alterum ſit extremum, alterum uero intra lineam, duæ parallelæ inter ſe ad eaſdem partes educantur, ita ut proportionem habeant eandem, quam rectæ inter ipſas, & alterum extremum punctum incluſæ: Recta coniungens extremum unius earum cum extremo prioris lineę, tranſibit per extremum alterius lineæ.
+[Margin]
+4. ſexti.
+[/Margin]
 
-SIT recta AB, & ex punctis A, & C, educantur duæ parallelæ AD, CE, proportionem habentes, quam AB, BC, ita ut ſit AD, ad CE, ſicut AB, ad BC; uel CE, ad AD,
-
-<!-- Catchword: ut -->
+<!-- Catchword: FD; -->

@@ -1,45 +1,48 @@
-<!-- Running title: LIBER VI. -->
+<!-- Running title: LIBER. VI. -->
+<!-- Page number: 230 -->
 
-<!-- Page number: 229 -->
+grammum in quatuor parallelogramma proportionalia.
 
-bus rectilineis A, & B, per ea, quæ ad propos. 45. lib. 1. docuimus. Si enim huic parallelogrammo conſtruxerimus æquale rectilineum EHI, quod ſimile ſit, ſimiliterq́; poſitum alteri dato rectilineo C; conſtitutum erit rectilineum EHI, æquale duob⁹ rectilineis A, B, & ſimile, ſimiliterq́; poſitũ rectilineo C.
+IN parallelogrammo ABCD, duæ rectæ EF, GH, lateribus AD, DC, parallelæ ſe mutuo ſecent in I. Dico quatuor parallelogramma EG, GF, BI, IC, eſſe proportionalia. Cũ enim ſit, vt EI, ad IF, ita EG, ad GF: Item vt EI, ad IF, ita BI, ad IC; Erit quoque ut EG, ad GF, ita BI, ad IC, quod eſt propoſitum.
 
-[Margin]
-25. ſexti.
-[/Margin]
-
-## SI in circulo duæ rectæ lineę ſe ſe mutuo ſecuerint: Erunt ſegmenta unius ſegmentis alterius reciproca.
+[Figure: parallelogram ABCD with two lines EF and GH parallel to the sides, intersecting at I]
 
 [Margin]
-VIII.
+1. ſexti.
 [/Margin]
-
-IN circulo ABCD, ſe mutuo ſecent rectæ AC, BD, in E. Dico ſegmenta AE, EC, eſſe reciproca ſegmẽtis BE, ED: Hoc eſt, eſſe vt AE, ad BE, ita ED, ad EC: Vel ut AE, ad ED, ita BE, ad EC. Cum enim rectangulum ſub AE, EC, comprehenſum æquale ſit rectangulo ſub BE, ED, contento; erunt latera circa æquales angulos reciproca. Quod eſt propoſitum.
 
 [Margin]
-35. tertij.
-
-14. ſexti.
+11. quinti.
 [/Margin]
-
-[Figure: circle ABCD with two chords AC and BD intersecting at point E]
-
-## SI extra circulum ſumatur punctũ aliquod, ab eoque in circulum cadãt duæ rectæ lineæ circulum ſecantes: Erunt totæ, & ſegmenta extra circulum reciproca. Quod ſi ab eodem puncto linea ducatur, quæ circulum tangat; Erit hęc media proportionalis inter quamlibet rectam, quę circulum ſecet & eius ſegmentum exterius.
 
 [Margin]
-IX.
+XII.
 [/Margin]
 
-EXTRA circulum ABCD, ſumatur punctum E, à quo cadant rectæ EC, ED, ſecantes circulum in A, & B. Dico rectas EC, EB, eſſe reciprocas rectis ED, EA: Hoc eſt, eſſe, vt EC, ad ED, ita EA, ad EB: Vel ut EC, ad EA, ita ED, ad EB. Ducta enim EF, tangente circulum in F, erit rectangulum ſub EC, EB, quadrato rectæ EF, æquale; Item rectangulum ſub ED, EA, eidem quadrato rectæ EF, æquale. Quare & rectangula ſub EC, EB, & ſub ED, EA, æqualia erunt: Ac propterea latera eorũ circa angulos æquales reciproca. Quoniã autẽ quadrato rectæ EF, æquale eſt rectangulũ ſub EC, EB: Item rectangulũ ſub ED, EA, erunt tres rectæ EC, EF, EB. Itemq́;
+## OMNE quadrilaterum a duabus diametris ſe mutuo ſecantibus diuiditur in quatuor triangula proportionalia.
+
+DIVIDANT diametri AC, BD, ſe mutuo ſecantes in E, quadrilaterum ABCD. Dico quatuor triangula AED, CED, AEB, CEB, eſſe proportionalia. Erit enim vt AE, ad EC, ita triangulum AED, ad triangulum CED; & triangulum AEB, ad triangulum CEB. Quare vt triangulum AED, ad triangulum CED; ita triangulum AEB, ad triangulum CEB. Eademq́; ratione oſtendes eſſe ut BEA, ad DEA, ita BEC, ad DEC, cum vtraq; proportio eadem ſit proportioni BE, ad ED. Conſtat ergo propoſitum.
+
+[Figure: quadrilateral ABCD with diagonals AC and BD intersecting at E]
 
 [Margin]
-36. tertij.
-
-14. ſexti.
-
-36. tertij.
+1. ſexti.
 [/Margin]
 
-[Figure: circle ABCD with external point E, tangent line EF touching the circle at F, and two secant lines from E cutting the circle at A, B and C, D]
+[Margin]
+XIII.
+[/Margin]
 
-<!-- Catchword: tres -->
+## A DATO puncto in latere trianguli lineam rectam ducere, quæ triangulum diuidat in duo ſegmenta ſecundum proportionem datam.
+
+SIT triangulum ABC, oporteatque a dato puncto D, in eius latere BC, lineam rectam ducere, quæ triangulum ſecet in duo ſegmẽta ſecundum proportionem datam E, ad F. Diuidatur BC, in G, ſecundum proportionẽ E, ad F, cadatq́; primo punctum G, in datum punctum D, ducaturq́; recta DA. Quoniam igitur eſt vt BD, ad DC, ita triangulum BDA, ad triangulum CDA, ſecabit recta DA, triangulum datum ſecundum proportionem datam BG, ad GC, hoc eſt, E, ad F.
+
+[Figure: two triangles labelled A, B, C, D, G, H with two horizontal lines E and F above]
+
+[Margin]
+1. ſexti.
+[/Margin]
+
+CADAT ſecundo punctum G, inter C, & D. Ducatur ergo recta DA, cui per G, parallela agatur GH, coniungaturq́;
+
+<!-- Catchword: recta -->

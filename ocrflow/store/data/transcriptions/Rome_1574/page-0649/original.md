@@ -1,18 +1,28 @@
 <!-- Running title: EVCLID. GEOM. -->
+<!-- Page number: [unclear: 283] -->
 
-niantur enim duo E, F, minimi in ratione A, ad B, uel B, ad C, uel C, ad D. Deinde iuxta uiam præcedentis problematis, tres minimi G, H, I, in eadem ratione, nec non quatuor K, L, M, N, & ſic deinceps, donec multitudo K, L, M, N, æqualis ſit multitudini A, B, C, D.
+cedentem. Quare cum B, & C, ipſum K, metiantur, metietur eundem K, numerus E, minimus, quem B, & C, metiuntur, minorem maior. Quod eſt abſurdum Non igitur erunt alij numeri minores ipſis F, E, G, in rationibus A, ad B, & C, ad D; Ac propterea ipſi F, E, G, minimi ſunt in datis rationibus.
+
+SINT deinde datæ tres rationes in numeris minimis A, ad B; C, ad D; & E, ad F; inueniendique ſint quatuor minimi deinceps proportionales in datis rationibus. Inuento rurſum numero G, minimo, quem metiantur B, ſecundus, & C, tertius; quoties B, ipſum G, metitur, toties metiatur A, ipſum H; & quoties C, ipſum G, toties D, ipſum I, metiatur. Quibus peractis, aut E, ipſum I, metitur, aut non. Metiatur primũ;
 
 [Calculation]
-A, 8. B, 12. C, 18. D, 27.
-E, 2. F, 3.
-G, 4. H, 6. I, 9.
-K, 8. L, 12. M, 18, N, 27.
+A, 6. B, 5. C, 4 D, 3. E, 5. F, 7.
+H, 24. G, 20 I, 15. K, 21.
+L ---- M ---- N ---- O ----
 [/Calculation]
 
-Quoniam igitur A, B, C, D, minimi ſunt in ſua proportione, & in eadem quoque proportione minimi ſumpti ſunt K, L, M, N, illis multitudine æquales; erunt ſinguli ſingulis æquales, ne minores minimis dentur in eadem proportione, nimirum A, ipſi K, & D, ipſi N. Sunt autem per coroll. 2. propos. præcedentis K, & N, inter ſe primi: Primi ergo quoque ſunt A, & D. Quocirca, ſi ſint quotcunque numeri deinceps proportionales minimi omnium eandem cum eis, &c. Quod erat oſtendendum.
+Et quoties E, ipſum I, metitur, toties F, metiatur ipſum K. Dico H, G, I, K, minimos eſſe in datis rationibus. Quod enim ſint in datis rationibus deinceps proportionales, conſtat. Cum enim A, & B, ipſos H, & G, æque metiantur; erit ut prius, quemadmodum A, ad B, ita H, ad G. Eadem ratione erit, ut C, ad D, ita G ad I: & ut E, ad F, ita I, ad K; quod tam C, & D, ipſos G, & I, quam E, & F, ipſos I, & K, metiantur æque. Igitur H, G, I, K, deinceps proportionales ſunt in datis rationibus. Quod autem ſint minimi, ſic oſtendemus. Si non ſunt minimi, ſint in eiſdem rationibus minores ipſis, ſinguli ſingulis, ſi fieri poteſt L, M, N, O. Quia igitur A, & B, minimi ſunt in ſua proportione; ipſi metientur æque L, & M, eandem habentes rationem, nempe B, conſequens conſequentem M. Eodem modo C, & D, æque metientur M, & N; nimirum C, antecedens antecedentem M. Quocirca cum B, & C, ipſum M metiantur; metietur eundem M, & numerus G, minimus, quem B, & C, metiuntur, minorem maior Quod eſt abſurdũ. Non ergo erunt alij numeri deinceps proportionales in rationibus datis minores ipſis H, G, I, K; Ac proinde H, G, I, K, in datis rationibus minimi ſunt.
 
-## SCHOLION.
+SED iam E, non metiatur ipſum I. Inuento ergo nu-
 
-HÆC propoſitio intelligenda eſt de numeris minimis cõtinue proportionalibus, vt ex eius demonſtratione, & uerbis Euclidis apparere poteſt. Nam ſi A, B, C, D, non eſſent proportionales continue, inueniri non poſſent, ex præcedenti problemate K, L, M, N, totidem minimi in eadem proportione. Immo ſi diuerſæ ſint proportiones, dabuntur aliquando minimi numeri deinceps proportionales, hoc eſt, continuati in ſuis proportionibus diuerſis, quorum extremi non ſunt inter ſe primi. Sunt enim hi numeri 6. 10. 13. 18. minimi in continuatione ſuarum proportionum, cum tamen extremi 6. & 18. compoſiti ſint inter ſe. Itaque hoc Theorema primi eſt conuerſum, quoad numeros continue proportionales. Etenim numeri quotcunque continue proportionales, quorum extremi inter ſe ſunt primi, minimi ſunt in ſua proportione, ut conſtat ex 1. theor. Et uiciſſim, numeri extremi quotcunque minimorum continue proportionalium, inter ſe primi ſunt, velut hic demonſtratum eſt. At vero primum theorema, prout ſpectat ad numeros non continue proportionales, conuerti nequit. Nam licet numeri quotcunque non continue proportionales, quorum extremi ſunt inter ſe primi, minimi ſint in continuatione ſuarum proportionum, [unclear: vt]
+[Margin]
+37. ſeptimi
 
-<!-- Catchword: [illegible] -->
+36. ſeptimi
+
+21. ſeptimi
+
+37. ſeptimi
+[/Margin]
+
+<!-- Catchword: mero -->

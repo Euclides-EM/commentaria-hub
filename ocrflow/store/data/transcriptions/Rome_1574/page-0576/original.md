@@ -1,22 +1,38 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 245 -->
+<!-- Page number: 246 -->
 
-A, multiplex: Diuiſo ergo BC, in partes BE, EC, ipſi A, æquales, & ipſo CD, in partes CF, FG, GD, eidem A, æquales; erit numerus BD, compoſitus ex omnibus partibus BE, EC, CF, FG, GD, ipſi A, æqualibus, multiplex ipſius A. Quare A, ipſum BD, metitur. Quod eſt propoſitum.
+AB; igitur & reliquum EB, metietur. Metitur autem EB, ipſum CF; Igitur & H, ipſum CF, metietur; Ac propterea, cum & totum CD, metiatur, metietur quoque reliquum FD. Cum ergo FD, metiatur ipſum EG; metietur etiã H, ipſum EG: Metiebatur autem & H, totum EB; Reliquam igitur unitatem quoque GB, numerus H, metietur, partem totum. Quod eſt abſurdum. Non igitur numerus aliquis, præter unitatem, numeros AB, CD, metitur: Ac proinde primi inter ſe ſunt. Quamobrẽ, ſi duobus numeris inæqualibus propoſitis, &c. Quod erat demonſtrandum.
 
-[Diagram: two horizontal dotted lines, the first labelled A, the second labelled B, E, C, F, G and D]
+[Margin]
+12. pron.
 
-## XI.
+11. pron.
 
-NVMERVS quemcunque numerũ metiens, metitur quoque omnem numerum, quem ille metitur.
+12. pron.
 
-METIATVR numerus A, numerum B; & B, numerum CD. Dico eundem A, metiri quoque numerum CD, quẽ B, metitur. Cum enim B, metiatur ipſum CD; erit CD, ipſius B, multiplex. Diuiſo ergo CD, in partes CE, ED, ipſi B, æquales; metietur A, ipſos numeros CE, ED; quandoquidem numerum B, tam numero CE, quam ED, æqualem, metiri ponitur. Igitur idem A, per pron. 10. metietur quoque numerum CD, ex CE, ED, compoſitum. Quod eſt propoſitum.
+11. pron.
 
-[Diagram: three horizontal dotted lines labelled A, B, and C, E, D]
+12. pron.
+[/Margin]
 
-## XII.
+## SCHOLION.
 
-NVMERVS metiens totum & ablatum, metitur & reliquum.
+CONVERTEMVS facile cum Campano hanc propoſitionem, hoc modo.
 
-METIATVR numerus A, totum BC, & ablatum BD. Dico eundem A, metiri quoque reliquum DC. Cum enim A, metiatur & BC, & BD; erit tam BC, quam BD,
+SI duobus numeris inter ſe primis propoſitis, detrahatur ſemper minor de maiore, alterna quadam detractione; nunquam reliquus metietur præcedentem, quoad aſſumpta ſit unitas.
 
-<!-- Catchword: ipſius -->
+SINT duo numeri inter ſe primi AB, CD, quorũ minor CD, ex maiore AB, quoties poteſt, detrahatur; & reliquus EB, ex CD, quoties etiam poteſt; & reliquus FD, ex EB, relinquens GB. Dico in hac alterna detractione nunquam reliquum metiri præcedentem, quoad vnitas aſſumatur. Metiatur enim, antequam ad vnitatẽ detractio perueniat, ſi fieri poteſt, reliquus numerus GB, præcedentem FD, ex EB, ablatum. Quia igitur numerus GB, numerum FD, metitur; & FD, ipſum EG; metietur quoque GB, ipſum EG. Cum ergo GB, & ſe ipſum metiatur; metietur quoque numerum EB, ex EG, GB, compoſitum: Metitur autem EB, ipſum CF; Igitur & GB, eundem CF, metietur: Atq; adeo cũ & ipſum FD, poſitus ſit metiri; metietur quoque CD, ex CF, FD, compoſitum. At vero
+
+[Diagram: two horizontal dotted lines, the first labelled A, E, G and B, the second labelled C, F and D]
+
+[Margin]
+11 pron.
+
+10. pron.
+
+11. pron.
+
+10. pron.
+[/Margin]
+
+<!-- Catchword: CD, -->

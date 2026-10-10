@@ -1,15 +1,27 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
 
-I, tertius eſt illas partes habens. Eademque ratione quadruplus ipſius G, quartus erit; & quintuplus, quintus, &c.
+# EVCLIDIS ELEMENTVM VIII.
 
-HVC quoque referri poteſt ſequens problema.
+[Ornament: floral headpiece]
 
-## NVMERVM reperire, qui minimus cũ ſit, habeat datas partes, hac lege, ut quælibet pars ſubſequentem partem contineat.
+[Margin]
+1.
+[/Margin]
 
-SINT datæ partes A, B, C; inueniendusque ſit numerus minimus, qui eas habeat hoc ordine, vt pars A, contineat partem B, & pars B, partem C. Sint a partibus A, B, C, numeri denominati D, E, F; Fiatque G, ex E, in F: Item H, ex D, in G. Dico H, eſſe minimum numerum, qui quæritur. Quod enim habeat datas partes ordine prædicto, facile demonſtratur. Nam cũ ex D, in G, fiat H; erit G, toties in H, quoties vnitas in D: Eſt autẽ vnitas pars ipſius D, denominata ab ipſo D.
+## THEOR. 1. PROPOS. 1.
 
-[Diagram: rows of dotted and dashed lines with labels: A, Secunda. B, Tertia. C, Quarta.; D, E and F shown as two, three and four dots; G and H as longer rows of dots; Vnitas; I, K, L and M as dashed lines of decreasing length]
+SI fuerint quotcunque numeri deinceps proportionales, extremi uero ipſorum primi inter ſe fuerint; ipſi minimi ſunt omnium eandem cum eis rationẽ habentiũ.
 
-Igitur & G, pars eſt ipſius H, ab eodem D, denominata; Atque adeo H, habet partem A, nempe numerum G, a D, denominatã. Deinde quia ex E, in F, fit G; erit eadem ratione F, pars ipſius G, denominata ab E: Atque adeo A, pars ipſius H, nimirum numerus G, habet partem B, nempe numerum F, ab E, denominatam. Denique cum F, habeat unitatem, tanquam partem ab ipſo E, denominatam, perſpicuum eſt B, partem ipſius G, partis, nimirum numerum F, habere quoque partem C, ab F, denominatam, nempe unitatem. Quare numerus inuentus H, partem habet A; & pars A, partem B; & pars B, partem C. Quod autem H, ſit minimus dictas partes hoc ordine continens, hac ratione oſtendetur. Si enim non eſt minimus, habeat minor numerus I, ſi fieri poteſt, eaſdem partes eodem ordine, ita vt K, ſit ipſius I, pars A, a numero D, denominata; & L, ipſius K, pars B, ab F{printer-error-correction:E}, denominata; & M, ipſius L, pars C, ab F, denominata. Quia igitur K, pars eſt ipſius I, a D, denominata; erit K, toties in I,
+{dropcap:N|lines=6|style=decorated|decoration="woodcut initial with floral background"}VMERORVM deinceps proportionaliũ quotcunque A, B, C, D. extremi A, & D, inter ſe primi ſint. Dico A, B, C, D, minimos eſſe omnium eandem cum eis proportionem habentiũ. Si enim non ſunt minimi, erunt alij ipſis minores, in eadem proportione. Sint ergo ipſis minores in eadem ratione E, F, G, H, ſi fieri poteſt. Quoniam igitur quotcunqʒ numeri ſunt A, B, C, D, & alij illis æquales multitudine E, F, G, H, q̃ bini ſumuntur, & in eadẽ ratione; erit, ex æqualitate, ut A, ad D, ita E, ad H: Sunt autem A, & D, in ſua proportione minimi, quod inter ſe primi eſſe ponantur. Igitur A, ipſum E, & D, ipſum H, æque metietur, maior minorem. Quod eſt abſurdum. Non ergo numeri minores ipſis A, B, C, D, ſunt in eadem cum eis ratione, ſed ipſimet minimi ſunt; Ac propterea, ſi fuerint quotcunque nume-
 
-<!-- Catchword: quoties -->
+[Margin]
+14. ſeptimi
+
+13. ſeptimi
+
+21. ſeptimi
+[/Margin]
+
+[Diagram: two columns of lines: A, B, C and D shown as rows of dots of increasing length; E, F, G and H shown as dashed lines of increasing length]
+
+<!-- Catchword: ri dein- -->

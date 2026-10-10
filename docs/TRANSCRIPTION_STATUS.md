@@ -344,6 +344,8 @@ Codex:
 
 **Next steps:** Manually curate the transcriptions.
 
+# Completed
+
 ## Nuremberg_1821
 
 OCR was done on Google books facs:
@@ -362,8 +364,6 @@ Fable usage:
 - Output tokens: 165,781
 - Total tokens: 2,447,148
 - Total cost: $21.876591
-
-# Completed
 
 ## Paris_1536
 

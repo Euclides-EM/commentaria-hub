@@ -1,78 +1,45 @@
-<!-- Running title: LIBER. IX. -->
-<!-- Page number: 307 -->
+<!-- Running title: LIBER, IX. -->
+<!-- Page number: 308 -->
 
-## THEOR. 5. PROPOS. 5.
-
-[Margin]
-5.
-[/Margin]
-
-SI cubus numerus numerum quendam multiplicans faciat cubum; Et multiplicatus cubus erit.
-
-FIAT ex cubo A, in numerum B, numerus cubus C. Dico & B, cubum eſſe. Multiplicans enim A, ſe ipſum faciat D, qui cubus erit. Quoniam igitur A, multiplicans A, & B, fecit D, & C; erit ut A, ad B, ita D, ad C; At inter D, & C, cubos duo cadunt medij proportionales. Totidem igitur & inter A, & B, cadent; Ac proinde exiſtente A, cubo, & B, cubus erit. Quamobrẽ ſi cubus numerus numerum quendam multiplicans, &c. Quod oſtendendum erat.
+A, ſit compoſitus, metietur eum, præter unitatem, numerus aliquis: metiatur D. ipſum A per E. Quo poſito, multiplicante D, ipſum E, producetur A Cum ergo B, ipſum A, multiplicans fecerit C, procreabitur C, ex mutua multiplicatione trium numerorum D, E, B; Ac propterea ſolidus erit ex defin. cuius latera D, E, B. Quapropter ſi compoſitus numerus numerum aliquem multiplicans, &c. Quod erat oſtendendum.
 
 [Calculation]
-A,8.  B,27.
-D,64.  C,216.
+A,6.  B,11.  C,66.
+D,2.  E,3.
 [/Calculation]
 
 [Margin]
-3. noni.
+13 defin.
 [/Margin]
 
 [Margin]
-17. ſeptimi
+9. pron.
 [/Margin]
+
+## THEOR. 8. PROPOS. 8.
 
 [Margin]
-12. octaui.
+8.
 [/Margin]
 
-[Margin]
-8. octaui.
-[/Margin]
+SI ab unitate quotcunque numeri deinceps proportionales fuerint: Tertius quidem ab unitate quadratus eſt, & unum intermittentes omnes: Quartus autem eſt cubus, & duos intermittentes omnes: Septimus uero cubus ſimul, & quadratus, & quinque intermittentes omnes.
 
-[Margin]
-23. octaui
-[/Margin]
-
-## SCHOLION.
-
-Ex his & hac, quæ ſequuntur, facile demonſtrabuntur, videlicet.
-
-[Margin]
-I.
-[/Margin]
-
-SI cubus numerus non cubum numerum multiplicans faciat aliquem; Factus non cubus erit.
-
-FIAT ex A, cubo in B, non cubum numerus C. Dico C, non eſſe cubum. Si enim C, ſit cubus; & multiplicatus B, cubus erit. quod non ponitur.
+SINT ab unitate cõtinue proportionales numeri quotcunque A, B, C, D, E, F, G, H, I, K, L, M. Dico tertiũ quidẽ B, ab vnitate eſſe quadratum, & unũ intermittentes
 
 [Calculation]
-A,8.  B,20.
-C,160.
+Vnitas.  A,3  B,9. C,27.  D,81. E,243. F,729. G,2187.
+H,6561. I,19683. K,59049, L,177147.  M,531441.
 [/Calculation]
 
+omnes, quales ſunt D, F, H, K, M: Quartum autem C, cubum, & duos intermittentes omnes, cuiuſmodi ſunt F, I, M: ſeptimum uero F, cubũ ſimul, & quadratum, & quinque intermittentes omnes, nimirum M. Quoniam eſt unitas ad A, ut A, ad B, æque metietur unitas numerum A, & numerus A, numerum B; Metitur autem unitas numerum A per A. Ergo & A, ipſum B, per A, metietur; Atque adeo A, multiplicans A, ipſum B, producet. Quare B,
+
 [Margin]
-5. noni.
+5. pron.
 [/Margin]
 
 [Margin]
-II.
+9. pron.
 [/Margin]
 
-SI cubus numerus numerum quendá multiplicans faciat non cubum; Et multiplicatus non cubus erit.
-
-FIAT ex cubo A, nnumerum{printer-error-correction:in numerum} B, non cubus C. Dico & B, non eſſe cubum. Si namque B, ſit cubus; & factus C, cubus erit. quod eſt contra hypotheſim.
-
-[Calculation]
-A,8.  B,17.
-C,136.
-[/Calculation]
-
-[Margin]
-4. noni.
-[/Margin]
-
-<!-- Signature: Qq 3 -->
-<!-- Catchword: THEOR. -->
+<!-- Signature: Q q 4 -->
+<!-- Catchword: qua- -->

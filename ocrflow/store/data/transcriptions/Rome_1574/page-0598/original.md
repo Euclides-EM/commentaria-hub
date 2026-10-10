@@ -1,16 +1,31 @@
-<!-- Running title: LIBER VII. -->
-<!-- Page number: 256 -->
+<!-- Running title: LIBER. VII. -->
+<!-- Page number: 257 -->
 
-pars numeri CF, eſt numeri AE. Quare cum multitudo partium numeri CD, æqualis ſit multitudini partium numeri CF; erit CD, eædem partes numeri AB, quæ CF, ipſius AE. Quod eſt primo propoſitum.
+paret, adiuuante tamen ſcholio propos. 5. huius lib.
 
-IAM uero ſit CD, ipſius AB, & CF, ipſius AE, eadem partes. Dico e contrario AB, ipſum CD, & AE, ipſum CF, æqualiter continere, eandemque inſuper illius partem, uel partes. Diuiſis enim numeris CD, CF, in partes numerorum AB, AE, erunt eæ multitudine inter ſe æquales. Item diuiſis numeris AB, AE, in partes partibus numerorum CD, CF, æquales, erunt & hæ multitudine inter ſe æquales. Quare toties continebuntur omnes partes numeri CD, in AB, ſupereritque eadem pars, uel partes ipſius CD, quoties omnes partes numeri CF, continentur in AE, & quæ pars, aut partes ipſius CF, ſuperſunt, propter æquales multitudines partium numerorum CD, CF, & AB, AE. Ita enim fit, ut multitudines æquales partium numerorum AB, AE, contineant æqualiter æquales multitudines partium numerorum CD, CF, & inſuper in duobus illis numeris ſuperſint partes numerorum CD, CF, multitudine æquales. Quam ob rem AB, ipſum CD, & AE, ipſum CF, æqualiter continebit, eandemque inſuper illius partem, uel partes. Quod ſecundo eſt propoſitum.
+[Diagram: three groups of dotted lines labelled A, C, E and B, D, F]
 
-## THEOR. 10. PROPOS. 12.
+SINT tertio A, C, E, maiores quam B, D, F, at non multiplices. Quia igitur, propter eandem proportionem, A, ipſum B, & C, ipſum D, & E, ipſum F, æqualiter continet, eandemque inſuper partem, uel partes; Erit per lemma præcedentis propos. B, ipſius A, & D, ipſius C, & F, ipſius E, eædem partes. Igitur ut prius, erunt omnes B, D, F, omnium A, C, E, ſimul eædem partes, quæ B, ipſius A; Atque adeo per idem lemma, e contrario continebunt omnes numeri A, C, E, ſimul, omnes numeros B, D, F, ſimul, & A, ipſum B, æqualiter, eandemque inſuper partem, uel partes. Quare per defin. 20. eadem proportio eſt omnium A, C, E, ſimul, ad omnes B, D, F, ſimul, quæ eſt A, ad B.
+
+[Diagram: two rows of dotted lines labelled A, C, B and B, D, F]
 
 [Margin]
-13.
+6. ſeptimi
 [/Margin]
 
-SI ſint quotcunque numeri proportio-
+SINT quarto & ultimo A, C, E, ipſis B, D, F, æquales Quoniam igitur, ſi æqualibus A, & B, æquales addantur C, & D, fiunt A, C, ſimul æquales ipſis B, D, ſimul, quibus ſi rurſum addantur æquales E, & F, fiunt & omnes A, C, E, ſimul, omnibus B, D, F, ſimul æquales; Erunt, ut A, ad B, ita omnes A, C, E, ſimul ad omnes B, D, F, ſimul, cum utrobique ſit proportio æqualitatis. Si ſint igitur quotcunque numeri proportionales, erit, &c. Quod erat demonſtrandum.
 
-<!-- Catchword: nales, -->
+[Diagram: two rows of dotted lines labelled A, C, E and B, D, F]
+
+## THEOR. II. PROPOS. 13.
+
+[Margin]
+14.
+[/Margin]
+
+SI quatuor numeri proportionales ſint: Et uiciſſim proportionales erunt.
+
+SIT A, ad B, ut C, ad D. Dico uiciſſim eſſe A, ad C,
+
+<!-- Signature: Kk -->
+<!-- Catchword: ut -->

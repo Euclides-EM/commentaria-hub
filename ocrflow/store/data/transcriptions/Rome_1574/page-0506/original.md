@@ -1,27 +1,41 @@
 <!-- Running title: LIBER. VI. -->
 
-<!-- Page number: 210 -->
+<!-- Page number: 211 -->
 
-ne; quia & rectilineum ABC, minus oſtenderetur rectilineo DEF; quod eſt contra hypotheſin. Quare æquales ſunt rectæ AB, DE.
+demque ratione oſtendemus, proportionem AC, ad CF, componi ex proportionibus BC, ad GE, & DC, ad CG; dummodo parallelogramma ita coniungantur ad angulos rectos, ut BC, CE, efficiant unam rectam lineam, &c. Aequiangula itaque parallelogramma inter ſe, rationem habent, &c. Quod erat oſtendendum.
+
+[Margin]
+11.
+[/Margin]
 
 ## SCHOLION.
 
-EODEM modo, ſi fuerint tres rectæ proportionales; erunt & rectilinea ſimilia ſimiliterque deſcripta ab eis, proportionalia, &c. Si enim ſumatur linea media, eiusque rectilineum bis, habebuntur quatuor rectæ proportionales. Igitur & quatuor rectilinea proportionalia, ut hic Euclides demonſtrauit. Cum igitur id, quod a ſecunda eſt deſcriptum, æquale ſit ei, quod a tertia, eo quod & linea ſecunda ſit æqualis tertiæ; manifeſtum eſt, quod proponitur.
-
-[Figure: three triangles on a common base line: a large triangle with apex G on base A BC, and two smaller triangles with apexes H and H on bases DC and DE, with a small triangle I over F]
-
-BREVIVS tota hæc propoſitio demonſtrabitur, hoc modo. Ponatur primo eſſe ut AB, ad CD, ita EF, ad GH. Dico eſſe quoque ut ABI, ad CDK, ita EM, ad GO. Cum enim ſit proportio rectilinei ABI, ad CDK, duplicata proportionis AB, ad CD; Itẽ proportio rectilinei EM, ad rectilineum GO, duplicata proportionis EF, ad GH: erunt proportiones ABI, ad CDK; & EM, ad GO, æquales; quãdoquidem duplicatæ ſunt proportionum æqualium AB, ad CD; & EF, ad GH. Quod eſt primum. Rurſus ponatur ſecunda eſſe, ut ABI, ad CDK, ita EM, ad GO. Dico eſſe quoque ut AB, ad CD, ita EF, ad GH. Cum enim ſit proportio ABI, ad CDK, duplicata proportionis AB, ad CD; Item proportio EM, ad GO, duplicata proportionis EF, ad GH: Erunt proportiones AB, ad CD; & EF, ad GH, æquales; quandoquidem earum proportiones duplicatæ ABI, ad CDK; & EM, ad GO, æquales ponuntur. Quod eſt ſecundum.
+EXPEDITIVS idem demonſtrabitur hoc modo, Coniunctis parallelogrammis, ut prius; Cum ſit ut AC, ad CH, ita BC, ad CG; & ut CH, ad CF, ita DC, ad CE; Proportio autem AC, ad CF, componatur, per definitionem, ex intermedijs proportionibus AC, ad CH, & CH, ad CF; componetur quoque eadem proportio AC, ad CF, ex proportionibus BC, ad CG, & DC, ad CE, quæ illis intermedijs ſunt æquales. Quod eſt propoſitum.
 
 [Margin]
-19. uel 20. ſexti.
+1. ſexti.
 [/Margin]
 
-[Figure: two triangles with apexes I and K on bases A BC and DC with point P at right; below, three squares of decreasing size labelled L, M, N, O, T, V, R, S on bases E F, G H, Q]
+DEMONSTRAT hoc in loco Federicus Commandinus nonnulla alia ad compoſitionem proportionum pertinentia non inutilia, quæ nos quoque afferre decreuimus, mutatis tamen nonnihil demonſtrationibus; Sunt autem ea, quæ ſequuntur.
+
+TRIANGVLA, quæ unum angulum uni angulo æqualem habent, proportionem habent ex lateribus æqualem angulum comprehendentibus compoſitam.
 
 [Margin]
-19. uel 20. ſexti.
+I.
 [/Margin]
 
-<!-- Signature: Dd 2 -->
+SINT triangula ABC, DEF, angulum C, angulo F, habentia æqualem. Dico proportionem trianguli ABC, ad triangulum DEF, compoſitam eſſe ex lateribus, hoc eſt, ex proportione BC, ad EF, & ex proportione AC, ad DF; Vel ex proportione BC, ad DF, & proportione AC, ad EF. Completis enim parallelogrammis CG, FH, erunt ea æquiangula; atque adeo eorum proportio ex lateribus componetur. Cum ergo triangula ABC, DEF, cum ipſis, quorum ſunt dimidia, eandem habeant proportionem; Erit quoque
 
-<!-- Catchword: THEOR. -->
+[Figure: two conjoined parallelograms with diagonals, vertices labelled G, A, H, D above and B, C, E, F below]
+
+[Margin]
+23. ſexti.
+[/Margin]
+
+[Margin]
+15. ſexti.
+[/Margin]
+
+<!-- Signature: Dd 3 -->
+
+<!-- Catchword: quoque -->

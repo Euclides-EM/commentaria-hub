@@ -1,35 +1,33 @@
-<!-- Running title: EVCLID. GEOM -->
+<!-- Running title: EVCLID. GEOM. -->
 
-IK, connectanturq́ue rectæ FK, HK. Deſcribantur iam ex FK, HK, rectilinea FKL, HKM, ipſi FGH, vel ipſi D, ſimilia, ſimiliterque poſita. Dico hæc rectilinea æqualia ipſi FGH, vel ipſi A; eorumq́ue latera homologa FK, HK, proportionem habere datam rectæ B, ad rectam C. Cum enim angulus FKH, in ſemicirculo rectus ſit, erunt rectilinea FKL, HKM, rectilineo FGH, ideoq́; & rectilineo A, æqualia. Quoniã vero, vt FI, ad IK, ita FK, ad HK, ob ſimilitudinem triangulorum FIK, FKH: Eſt autem FI, ad IH, in proportione duplicata proportionis FI, ad IK, (quod tres FI, IK, IH, proportionales ſint, ex coroll. propos. 8. huius lib.) Ac propterea in proportione duplicata proportionis laterũ homologorũ FK, HK. Item & proportio B, ad E, (æqualis proportioni FI, ad IH, ex cõſtructione,) in duplicata eſt proportione proportionis B, ad C, ex defin. Igitur eadem erit proportio FK, ad HK, quæ B, ad C; quandoquidem ipſarum duplicatæ proportiones FI, ad IH, & B, ad E, æquales ſunt.
+tres ED, EF, EA, proportionales, atque adeo EF, media proportionalis inter quãlibet lineam quæ circulum ſecet, & ſegmentum eius exterius. Quod eſt propoſitum.
 
 [Margin]
-31. tertij.
+X.
+[/Margin]
 
-31. ſexti.
+## SI duæ rectæ lineæ ſeſe mutuo ſecuerint, & à duobus eorum terminis perpendiculares ſibi mutuo demittantur: erunt duæ lineæ, quarum una inter terminũ, & ſectionẽ, altera uero inter eundẽ terminũ, & ſuã perpendicularem interijcitur, alijs duab⁹ eodẽ modo incluſis reciprocę.
 
+DVAE rectæ AB, CB, ſe mutuo ſecent in B, & ex terminis A, C, ad ipſas demittantur perpendiculares, AD, quidem ad CB, at uero CE, ad AB; quæ perpendiculares cadent in AB, CB, protractas ultra B, ſi angulus ABC, fuerit obtuſus; in ipſas vero introrſum, ſi idem angulus acutus fuerit, ut figuræ indicant. Dico rectas AB, BE, (quarum prior interijcitur inter terminum A, & ſectionem B; poſterior vero inter ſectionem B, & perpendicularẽ ſuam CE, quæ nimirum ad ipſam AB, ducitur) reciprocas eſſe duabus CB, BD, (quæ inter ſimiles terminos includuntur) hoc eſt, eſſe vt AB, ad BC, ita BD, ad BE: Vel vt AB, ad BD, ita BC, ad BE. Cum enim anguli ABD, ADB, trianguli ABD, æquales ſint angulis CBE, CEB, trianguli CBE. (Nã ADB, CEB, recti ſunt; & ABD, CBE, ad verticem in priori figura, in poſteriori autem vnus & idem angulus) erunt triangula ABD, CBE, æquiangula. Quare erit vt AB, ad BD, ita CB, ad BE: Ac propterea permutando quoq;, vt AE{printer-error-correction:AB}, ad BC, ita BD, ad BE. Quod eſt propoſitum.
+
+[Margin]
 4. ſexti.
 [/Margin]
 
-[Figure: a rectangle A, a triangle D, a triangle FGH with semicircle on line FIH and points L, K, M, and three vertical lines labelled B, C, E]
+[Figure: two intersecting straight lines AB and CB meeting at B, with perpendiculars AD and CE falling outside the lines, labelled A, B, C, D, E]
 
-## DVOBVS datis rectilineis, æquale rectilineum conſtituere, quod ſimile ſit, ſimiliterque poſitum cuiuis rectilineo dato.
+[Figure: two intersecting straight lines with perpendiculars falling within, labelled A, F, C, D, E, B]
 
-[Margin]
-VII.
-[/Margin]
-
-DVO rectilinea data ſint A, & B, quibus æquale ſit cõſtruendũ, ſimile ſimiliterq́ue poſitũ ipſi C. Fiat ipſi A, æquale DEF, ſimile autẽ ſimiliterq́ue poſitũ ipſi C. Itẽ ipſi B, æquale conſtituatur GFH, ſimile vero eidem C, ſimiliterq́; poſitũ. Deinde rectilinea DEF, GFH, ita inter ſe connectantur, vt latera eorum homologa EF, FH, cõſtituant angulum EFH, rectũ, cui ſubtendatur recta EH, ex qua deſcribatur rectilineum IHE, ſimile ſimiliterque poſitum ipſis DEF, GFH, hoc eſt, ipſi C. Perſpicuum autem eſt EHI, æquale eſſe duobus DEF, GFH; atque idcirco duobus A, & B.
-
-BREVIVS. Cõſtituatur parallelogrammũ æquale duo
+PORRO eadem ratione ſegmenta perpendiculariũ AD, CE, in poſteriori figura ſe mutuo ſecantium in F, erunt reciproca. Cum enim triangula AFE, CFD, ſint æquiangula; erit vt AF, ad FE, ita CF, ad FD: Et permutando quoque, vt AF, ad CF, ita FE, ad FD.
 
 [Margin]
-25. ſexti.
-
-18. ſexti.
-
-31. ſexti.
+4. ſexti.
 [/Margin]
 
-[Figure: a rectangle A, two triangles B and C, and triangles DEF and GFH joined at F with line EH and point I below]
+[Margin]
+XI.
+[/Margin]
 
-<!-- Catchword: bus -->
+## IN parallelogrammo, duæ rectæ lateribus parallelæ ſe mutuo ſecantes, diuidunt parallelo-
+
+<!-- Catchword: grammum -->

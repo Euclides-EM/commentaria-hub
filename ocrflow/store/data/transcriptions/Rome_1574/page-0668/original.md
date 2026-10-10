@@ -1,33 +1,41 @@
 <!-- Running title: LIBER VIII. -->
-<!-- Page number: 291 -->
+<!-- Page number: 293 -->
 
-Eademque ratione erunt B, N, O, P, ab unitate proportionales; necnon & F, Q, R, S. Quia igitur ratio N, ad K, duplicata eſt, rationis B, ad A, ex theoremate 1. huius ſcholij: Eſt autem, ex defin. eiuſdem rationis B, ad A, duplicata quoque ratio C, ad A; Erit C, ad A, vt N, ad K. Eodem modo erit A, ad G, vt K, ad Q. Nam ex eodem 1. theoremate, eſt ratio K, ad Q, duplicata rationis A, ad F; & eiuſdem, ex defin. duplicata eſt ratio A, ad G. Quare cum ſit C, ad A, vt N, ad K; & A, ad G, vt K, ad Q; erit ex æquo C, ad G, vt N, ad Q. Atqui ratio N, ad Q, duplicata eſt rationis B, ad F, ex theoremate 1. huius ſcholij. Igitur & ratio C, ad G, duplicata eſt rationis B, ad F. Eiſdem argumentis erit ratio D, ad H, triplicata rationis B, ad F. Nam ratio O, ad L, ex 1. theoremate, triplicata eſt rationis B, ad A; & eiuſdem triplicata eſt ratio D, ad A, ex defin. Igitur eſt D, ad A, vt O, ad L. Eodemque modo eſt A, ad H, ut L, ad R, quod utraque proportio triplicata ſit proportionis A, ad F. Eſt ergo ex æquo D, ad H, vt O, ad R; ſed ratio O, ad R, triplicata eſt rationis B, ad F, ex 1. theor. Igitur & ratio D, ad H, triplicata eſt eiuſdẽ rationis B, ad F. Nõ ſecus demõſtrabimus rationem E, ad I, eſſe quadruplicatam rationis B, ad F. Atq́; ita deinceps.
-
-[Calculation]
-E,162. Vnitas. I,512.
-D,54. H,128.
-C,18. G,32.
-B,6. F,8.
-A,2.
-N,36. K,4. Q,64.
-O,216. L,8. R,512.
-P,1296. M,16. S,4096.
-[/Calculation]
-
-IDEM omnino demonſtrabitur, ſi numeri unius ordinis deſinãt in unitatem, ut ex hac ſubiecta figura eſt manifeſtũ, in quæ I, eſt unitas.
+in qua numerꝰ B, vnitas eſt, caduntque tã inter A, et C, quam inter B, & C, tres numeri cõtinue proportionales, quot ſcilicet inter A, & B, cadunt &c.
 
 [Calculation]
-E,81. Vnitas. I,1.
-D,54. H,2.
-C,36. G,4.
-B,24 F,8.
-A,16.
-N,575. K,256. Q,64.
-O,13824. L,4096. R,512.
-P,331776. M,65536. S,4096.
+A,1048576. Q,32768. R,1024. S,32. B,1.
+F,65536. O,2048. P,64. I,2.
+E,4096. N,128. H,4.
+D,256. G,8.
+C,16.
+K,1024. L,32. M,1.
 [/Calculation]
 
-CÆTERVM theorema hoc demonſtrabimus etiam in lineis ab una & eadem linea proportionalibus, lib. 14. propos. 28. licet non in quotcunque lineis. Vnde multo generalius eſt hoc in numeris, quam illud in lineis. Ex his autem in hunc
+EX his etiam apparet, numeros, qui medij proportionales cadunt inter A, & B; necnon inter F, & I; atque inter E, & H, proportionem habere, quam duo numeri D, & G, numero aſſumpto C, proinquiores{printer-error-correction:propinquiores}.
 
-<!-- Signature: Oo 3 -->
-<!-- Catchword: modum -->
+## THEOR. 9. PROPOS. 11.
+
+[Margin]
+11.
+[/Margin]
+
+DVORVM quadratorum numerorum unus medius proportionalis eſt numerus: Et quadratus ad quadratum duplicatã habet lateris ad latus rationem.
+
+SINT quadrati numeri A, & B, quorum latera C, & D. Dico inter A, & B, unum medium proportionalem numerum cadere: & proportionem A, ad B, quadrati ad quadratum, eſſe duplicatam proportionis C, ad D, lateris ad latus. Multiplicantes ſe mutuo C & D, faciant E. Quia igitur C, multiplicans ſeipſum fecit A, quadratũ, ex defin. quadrati; & ipſum D, multiplicans fecit E, ex conſtructione; erit ut C, ad D, ita A, ad E. Rurſus, quia D, multiplicans C, fecit E, ex conſtructione; & multiplicans ſeipſum, ex defin. quadrati, fecit B, quadratum; erit quoque, ut C, ad D, ita E, ad B. Quare A, E, B, continue proportionales ſunt in ratione laterum C, & D. At proinde inter quadratos A, & B, medius continue proportionalis cadit E. Quia uero, exiſtentibus A, E, B, continue proportionalibus, numerus A, ad B, duplicatam rationẽ habet
+
+[Calculation]
+A,9 E,21. B,49.
+C,3. D,7.
+[/Calculation]
+
+[Margin]
+17 ſeptimi
+[/Margin]
+
+[Margin]
+11
+[/Margin]
+
+<!-- Signature: Oo 4 -->
+<!-- Catchword: habet -->

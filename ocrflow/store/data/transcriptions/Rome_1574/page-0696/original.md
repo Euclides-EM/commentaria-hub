@@ -1,62 +1,52 @@
 <!-- Running title: LIBER. IX. -->
+<!-- Page number: 306 -->
 
-<!-- Page number: 305 -->
+ciant non quadratum; alter autem ſit quadratus; Reliquus non quadratus erit.
 
-# EVCLIDIS ELEMENTVM IX.
-
-[Ornament: floral headpiece]
-
-## THEOR. 1. PROPOS. 1.
-
-[Margin]
-1.
-[/Margin]
-
-SI duo ſimiles plani numeri multiplicantes ſe mutuo faciant quendam; Productus quadratus erit.
-
-{dropcap:D|lines=7|style=decorated|decoration="foliate woodcut initial"}Vo numeri plani ſimiles A, B, ſe mutuo multiplicantes faciant C. Dico C, quadratum eſſe. Multiplicans enim A, ſe ipſum faciat D, quadratum. Quoniam igitur A, multiplicans A, & B, produxit D, & C; erit ut A, ad B, ita D, ad C. At inter A, & B, cum ſint plani ſimiles, unus medius cadit proportionalis. Igitur & inter D, & C, unus medius proportionalis cadet. Cadat ergo E, ut ſint continue proportionales D, E, C. Itaque cum tres D, E, C, continue ſint proportionales, ſitque primus D, quadratus, ex conſtructione; erit quoque C, tertius, quadratus. Si duo ergo ſimiles plani numeri multiplicantes ſe mutuo, &c. Quod erat demonſtrandum.
+DVO numeri A, B, ſe mutuo multiplicantes faciant C, non quadratum; ſitque A, quadratus. Dico B, non quadratum eſſe. Si enim B, dicatur eſſe quadratus, erit & C, productus ex quadratis A, B, quadratus, per theor. 1. huius ſcholij; Quod eſt abſurdum, & contra hypotheſim. Non igitur quadratus eſt B, numerus.
 
 [Calculation]
-A,6.   B,54.
-D,36.  E,108.  C,324.
+A,4.  B,20.
+C,80.
 [/Calculation]
 
 [Margin]
-I
+IIII.
+[/Margin]
+
+SI duo numeri, quadratus & non quadratus, ſe mutuo multiplicantes faciant aliquem; Productus non quadratus erit.
+
+DVO numeri A, quadratus, & B, non quadratus, ſe mutuo multiplicantes faciant C. Dico C, non eſſe quadratum. Nam ſi C, foret quadratus, cum producatur ex A, in B, ſitque A, quadratus; eſſet & B, ex theor. 2. huius ſcholij, quadratus: Quod eſt abſurdum, & contra hypotheſim. Non igitur C, quadratus erit.
+
+[Calculation]
+A,9.  B,20.
+C,180.
+[/Calculation]
+
+## THEOR. 3. PROPOS. 3.
+
+[Margin]
+3.
+[/Margin]
+
+SI cubus numerus ſeipſum multiplicãs procreet aliquem; Productus cubus erit.
+
+FACIAT cubus A, ſe ipſum multiplicans numerum B. Dico B, eſſe cubum. Sit enim C, latus cubi A; & ex C, in ſe fiat D, & idcirco ex C, in D, ipſe cubus A, gignatur. Quia igitur C, ſeipſum multiplicans fecit D; metietur C, ipſum D, per C: Metitur autem & unitas ipſum C, per C. Igitur eadem pars eſt unitas ipſius C, quæ C, ipſius D, nempe denominata a C; Ac
+
+[Calculation]
+A, 8.
+E,16.  D,4.
+F,32.  C,2.
+B,64.  Vnitas.
+[/Calculation]
+
+[Margin]
+7. pron.
 [/Margin]
 
 [Margin]
-17. ſeptimi
+5. pron.
 [/Margin]
 
-[Margin]
-18. octaui
-[/Margin]
-
-[Margin]
-8. octaui
-[/Margin]
-
-[Margin]
-II
-[/Margin]
-
-[Margin]
-22. octaui
-[/Margin]
-
-## THEOR. 2. PROPOS. 2.
-
-[Margin]
-2.
-[/Margin]
-
-SI duo numeri ſe mutuo multiplicantes faciant quadratum; ſimiles plani erunt.
-
-[Margin]
-III
-[/Margin]
-
-<!-- Signature: Qq -->
-
-<!-- Catchword: Dvo -->
+<!-- Signature: Qq 2 -->
+<!-- Catchword: proinde -->

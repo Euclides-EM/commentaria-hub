@@ -1,17 +1,11 @@
 <!-- Running title: EVCLID.GEOM. -->
 
-## XIX.
+inſuper eandem partem, nempe ſextam; In ſecundo autem ſemel, & eaſdem partes, nimirum tres quartas; In tertio deinde bis, & adhuc partem eandem, videlicet quintam, continet; In vltima tandem primus ſecundum, & tertius quartum, bis, et præterea eaſdem partes complectitur, puta duas partes quintas. Quod ſi primus numerus ſecundi, & tertius quarti, nõ ſit æque multiplex; vel eadem pars, vel eædem partes; vel denique primus ſecundum, & tertius quartum, non æqualiter contineat, eandemque inſuper illius partem, vel eaſdem partes; nullo pacto dicendi erunt numeri propoſiti proportionales.
 
-CVBVS uero, qui æqualiter æqualis æqualiter. Vel, qui ſub tribus æqualibus numeris continetur.
+QVOTIESCVNQVE igitur quatuor numeri proportionales eſſe ponuntur, concedendum neceſſario erit, ſi quidem maiores cum minoribus cõferuntur, quod primus ſecundi, & tertius quarti, æque multiplex ſit; Vel certe, quod primus ſecundum, & tertius quartum, contineat æqualiter, & inſuper eandem partem, vel eaſdem partes: Et contra, ſi primus ſecundi, & tertius quarti, æque multiplex concedatur: Vel certe primus ſecundum, & tertius quartum, æqualiter dicatur continere, & eandem adhuc partem, vel eaſdem partes, colligetur numeros eſſe proportionales. Quod ſi minores ad maiores referantur, dicanturque eandem habere proportionem, fatendum erit, primum ſecundi, & tertium quarti, eſſe partem eandem, vel partes eaſdem: Et e contrario, ſi primus ſecundi, & tertius quarti, eadem concedatur pars, vel eædem partes, concludetur numeros ipſos eandem habere proportionem.
 
-SOLIDVM quoque illum numerum vocat cubum, qui eſt æqualiter æqualis æqualiter, id eſt, cuius unitates in longũ, latum, atque profundum diſpoſitæ, cubum Geometricum referunt, ita vt omnes eius dimenſiones, nimirum longitudo, latitudo, & altitudo, ſiue profunditas, æquales ſint; Vel qui ex multiplicatione mutua trium æqualium numerorum inter ſe producitur. Qualis eſt numerus 27; contentus ſub numeris æqualibus 3. 3. 3. ſiue ex eorum multiplicatione mutua procreatus, cũ ex 3. in 3. fiat numerus 9. & ex 9. in 3. gignatur numerus cubus 27. Omnes enim illius vnitates in formam ſolidam redactæ referunt perfectum cubum Geometricum, exiſtuntque tam in longitudine, & latitudine, quam in profunditate, tres unitates. Quare ipſe numerus. 27. eſt æqualiter æqualis æqualiter.
+DEFINIT autem Euclides eos duntaxat numeros proportionales, qui proportionem eandem inæqualitatis habent. Nam ſi de proportione æqualitatis loquamur, perſpicuum eſt, primum ſecundo, & tertium quarto æqualem debere eſſe, vt proportionales numeri dicantur.
 
-[Figure: cube of twenty-seven unit points, three points along each edge]
+EX hac autem definitione aperte colligitur, æquales numeros ad eundem habere eandem proportionem: Et contra, eundẽ ad æquales eandem quoque habere proportionem; Item numeros ad eundem habentes eandem proportionem, vel ad quos idẽ eandẽ habet proportionem, æquales eſſe. Cum enim æquales numeri ſint eiuſdem, vel æque multiplices, vel eadem pars, vel eædẽ partes; Vel certe eundẽ æqualiter cõtineant, eandemq; inſuper illius partem, vel partes; Item cum idem numerus æqualiũ ſit vel æque multiplex, vel eadem pars, vel eadẽ partes:
 
-QVILIBET vero trium numerorum æqualium, ſub quibus cubus continetur, vel ex quorum mutua multiplicatione procreatur, Geometris latus cubi, pleriſque autem Arithmeticis radix dicitur.
-
-## XX.
-
-NVMERI proportionales ſunt, cum primus ſecundi, & tertius quarti, æque multiplex eſt; uel eadem pars, uel eædem
-
-<!-- Catchword: partes -->
+<!-- Catchword: Vel -->

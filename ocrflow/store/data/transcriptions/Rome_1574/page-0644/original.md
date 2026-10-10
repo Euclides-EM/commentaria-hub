@@ -1,28 +1,18 @@
-<!-- Running title: LIBER. VIII. -->
-<!-- Page number: 279 -->
+<!-- Running title: LIBER VIII. -->
+<!-- Page number: 280 -->
 
-ri deinceps proportionales, &c. Quod erat demonſtrandũ.
+ſos F, G, fecerunt: Item & G, H, I, ex ijs, quæ ad propoſ. 18. huius lib. demonſtrauimus, in eadem erunt ratione, in qua C, D, E, hoc eſt, in qua A, B; quod B, multiplicans C, D, E, ipſos G, H, I, fecit. Sunt ergo F, G, H, I, in eadem ratione, in qua A, B Quod vero minimi ſint, oſtendetur, vt prius.
 
-## SCHOLION.
+NON aliter ſi ex B, in quatuor inuentos I, H, G, F, fiant O, N, M, L, & ex A, in F, fiat K; erunt K, L, M, N, O, quinque numeri minimi in data ratione A, ad B. Eademque ratione inueniemus ſex, ſeptem, octo, &c. Itaque ſiue A, multiplicetur in omnes inuentos, & B, in vltimum; ſiue B, in omnes inuentos, & A, in primum; producentur ſemper plures numeri in eadem ratione data A, ad B, minimi. Demonſtrauit enim Euclides, quatuor F, G, H, I, produci ex A, in C, D, E, & ex B, in E: Nos autem eoſdem oſtendimus procreari ex B, in I, H, G, & ex A, in C.
 
-PERSPICVVM autem eſt ex demonſtratione, numeros A, B, C, D, eſſe minimos in continuatione ſuarum proportionum, ſi extremi A, & D, inter ſe primi ſint, ſiue A, B, C, D, ſint continue proportionales, ut vult Euclides, ſiue non. Vt hoc exemplum oſtendit, in quo proportiones omnes diuerſæ ſunt, quemadmodum in priori eadem ſemper proportio reperitur.
+## COROLLARIVM. I.
 
-[Diagram: two columns of lines: A, B, C and D shown as rows of dots of increasing length; E, F, G and H shown as dashed lines of increasing length]
+HINC fit, ſi tres numeri minimi ſint continue proportionales, extremos quadratos eſſe: ſi autem quatuor fuerint, cubos. Nam trium minimorum C, D, E, extremi C, & E, facti ſunt ex A, & B, in ſeipſos, ideoque æqualiter ſunt æquales. Quare ex definitione 18. quadrati ſunt. Eodem modo, cum quatuor minimorum F, G, H, I, extremi F, & I, geniti ſint ex A, & B, lateribus in C, & E, quadratos ipſorum A, & B, hoc eſt, tam numerus F, ex mutua multiplicatione trium numerorum æqualium A, A, A, quam numerus I, ex multiplicatione mutua trium numerorum æqualium B, B, B, ſit procreatus, ac propterea uterque fit æqualiter æqualis æqualiter; ipſi ex defin. 19. cubi erunt.
 
-## PROBL. I. PROPOS. 2.
+SIC etiam, ſi fuerint quinque numeri minimi proportionales continue; erunt extremi eorum quadrati quadratorum; Et ſic ſi fuerint plures, erunt eorum extremi, numeri alij ſub alijs denominationibus, quæ in Algebra ſolent explicari. Hæc autem omnia manifeſta ſunt ex multiplicationibus, quibus numeri proportionales, iuxta hanc propos. procreantur.
 
-[Margin]
-2.
-[/Margin]
+## COROLLARIVM. II.
 
-NVMEROS reperire deinceps proportionales minimos, quotcunque iuſſerit quiſpiam, in data ratione.
+PERSPICVVM quoque eſt, extremos numeros proportionalium quotcunque ſecundum hanc propoſitionem inuentorum in data ratione minimorum, inter ſe primos eſſe. Quod quidem facile oſtendemus ex multiplicationibus, quibus numeri proportionales producuntur, & ex propos. 29. lib. 7. quemadmodum id demonſtratum fuit de numeris extremis C, E, & F, I, &c.
 
-SINT minimi numeri datæ rationis A, & B, oporteatq́ʒ inuenire primum tres numeros minimos in proportione data A, ad B. Multiplicans A, ſeipſum, & numerum B, faciat C, & D. Deinde B, multiplicans ſeipſum faciat E. Dico C, D, E, eſſe tres minimos in proportione A, ad B; hoc eſt, eſſe ut C, ad D, ita D, ad E. Quod enim proportionales ſint in data proportione A, ad B, ſic oſtendemus. Cum ex A, in A, & B, fiãt C, & D; erit ut A, ad B, ita C, ad D. Rurſus cum ex B, in A, & B, fiant D, & E; erit quoque, ut A, ad B, ita D, ad E. Quare proportionales ſunt C, D, E, continue in proportione data A, ad B. Quod uero in eadẽ ratione ſint minimi, ita demonſtrabitur. Quoniam extre-
-
-[Margin]
-17. ſeptimi
-[/Margin]
-
-[Diagram: rows of dots labelled A, B, C, D and E of increasing length, followed by numbered letters F, 8. G, 12. H, 18. I, 27. K, 16. L, 24. M, 36. N, 54. O, 81.]
-
-<!-- Catchword: mi -->
+<!-- Catchword: COROL. -->

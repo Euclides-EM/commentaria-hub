@@ -1,28 +1,14 @@
 <!-- Running title: LIBER VIII. -->
-<!-- Page number: 302 -->
+<!-- Page number: 303 -->
 
-ſum numerus F, ac proinde, ex defin. ex E, in F, cubus A. Quia ergo E, in ſe facit F, & in F, facit A; erunt, ex ſcholio propos. 9. huius lib. E, F, A,
+merum, primus autem ſit cubus; & ſecundus cubus erit.
 
-[Calculation]
-A,64.  B,160.  C,400.  D,1000.
-F,16.          H,100.
-E,4.   G,10.
-Vni. tas.
-[/Calculation]
-
-continue proportionales ab vnitate; atque idcirco conuertendo proportionales quoq; erũt. numeri A, F, E, & vnitas. Itaque cum inter numerum D, & vnitatem, ac eundem numerum A, cadant medij proportionales multitudine æquales, videlicet duo; cadent, ex theorem. 3. ſcholij propos. 10. huius lib. totidem medij inter vnitatem, & numerum D, qui ſint G, H. Itaque quia vnitas, & numeri G, H, D, continue ſunt proportionales; fiet H, ex G, in ſe, & D, ex G, in productum H, vt ad propos. 10. huius lib. à nobis eſt demonſtratum. Quare D, cubus eſt, ex definitione, cuius latus G.
-
-ALITER. Inuentis quatuor numeris minimis E, F, G, H, in ratione A, ad B, & B, ad C, & C, ad D; metietur E, ipſum A, & H, ipſum D, æque, per ea, quæ ad propos. 21. lib. 7. demõſtrauimus. Et quia E, H, extremi quatuor minimorũ, cubi ſunt, ex 1. coroll. propos. 2. huius lib. Eſt autem & A, cubus, ex hypotheſi; cadent inter E,
+SIT A, ad B, ut C, cubus ad D, cubum: ſitque A, cubus. Dico & B cubum eſſe. Cum enim ſit A, ad B, ut C, ad D; cadant autem inter C, & D, cubos duo medij proportionales, nimirum E, F; cadent quoque inter A, & B, duo medij, qui ſint G, H. Quia igitur quatuor numeri A, G, H, B, ſunt cõtinue proportionales, & A, primus eſt cubus; erit & B, quartus cubus. Quo circa, ſi duo numeri rationem inter ſe habeant, quam cubus numerus ad cubum numerum, &c. Quod demonſtrandum erat.
 
 [Calculation]
-A,64.  B,160.  C,400.  D,1000.
-K,32.                  M,500.
-I,16.                  L,250.
-E,8.   F,20.  G,50.  H,125.
-P,1000.  O,10.  N,5.
+A,8.   G,12.  H,18.   B,27.
+C,64.  E,96.  F,144.  D,216.
 [/Calculation]
-
-A, cubos duo medij proportionales, qui ſint I, K. Quoniam autem, ex æquo, eſt vt A, ad D, ita E, ad H; & permutando, vt
 
 [Margin]
 12. octaui
@@ -32,18 +18,35 @@ A, cubos duo medij proportionales, qui ſint I, K. Quoniam autem, ex æquo, eſt
 8. octaui
 [/Margin]
 
-A, ad E, ita D, ad H; cadent quoque inter H, D, duo medij proportionales, qui ſint L, M. Cum ergo H, primus metiatur D,
-
 [Margin]
-7. octaui
+23. octaui
 [/Margin]
 
-extremum, metietur idem & L, ſecundum. Sumpto deinde N, latere cubi H; metiatur N, toties numerum O, quoties H, ipſum L; ita vt L, ad H, & O, ad N, eandem habeant proportionem multiplicem: ſit quoque P, cubus ipſius O. Itaque cum ratio P, ad H, cubi ad cubum, triplicata ſit rationis O, ad N,
+## COROLLARIVM.
+
+PATET etiam ex his, proportionem cuiusuis numeri cubi ad quemlibet numerum non cubum, non poſſe reperiri in duobus numeris cubis. Si enim reperiretur, eſſent ambo priores numeri habentes proportionem, quam cubi proportionis repertæ, etiam cubi, cum primus ponatur cubus. Quod eſt abſurdum. Ponitur enim ſecundus, non cubus.
 
 [Margin]
-12. octaui
+25. octaui
 [/Margin]
 
-lateris ad latus, hoc eſt L, ad H: Sit autem & ratio D, ad H, eiuſdem rationis L, ad H, ex defin. triplicata, quod conuertendo proportionales etiam ſint D, M, L, H; erit P, ad H, ut D, ad H; Ac propterea P, & D, æquales erunt. Quare cum P,
+## THEOR. 24. PROPOS. 26.
 
-<!-- Catchword: cubus -->
+[Margin]
+24.
+[/Margin]
+
+SIMILES plani numeri rationem inter ſe habent, quam quadratus numerus ad quadratum numerum.
+
+SINT plani ſimiles A, & B. Dico eſſe ut A, ad B, ita aliquem numerum quadratum ad alium quendam quadratũ. Cum enim A, & B, ſint plani ſimiles cadet inter eos unus medius proportionalis, uidelicet C. Sumptis ergo tribus numeris D, E, F, minimis in ratione continua A, C, B; erunt ex-
+
+[Calculation]
+A,20.  C,36.  B,45.
+D,4.   E,6.   F,9.
+[/Calculation]
+
+[Margin]
+18. octaui
+[/Margin]
+
+<!-- Catchword: tremi -->

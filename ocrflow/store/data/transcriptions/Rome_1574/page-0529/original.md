@@ -1,24 +1,32 @@
 <!-- Running title: EVCLID. GEOM. -->
-<!-- Page number: 222 -->
-
-huius lib. ut BC, ad CA, ita CA, ad CK. Quare ut BC, ad CK, prima linea ad tertiã, ita figura BD, ſuper primã, ad figuram CH, ſuper ſecundam ſimiliter poſitã, per coroll. propoſ. 19. uel 20. huius lib. & conuertendo ut CK, ad BC, ita figura CH, ad figurã BD. Non ſecus oſtendetur, eſſe quoque ut BK, ad BC, ita figuram BG, ad figurã BD; cum tres lineæ BC, BA, BK, ſint quoque proportionales, &c. Quoniã igitur eſt ut CK, prima quantitas ad BC, ſecundam, ita CH, tertia ad BD, quartam; Item ut BK, quinta quantitas ad BC, ſecundam, ita BG, ſexta ad BD, quartam; erit ut prima CK, cum quinta BK, ad BC, ſecundam, ita tertia CH, cum ſexta BG, ad BD, quartã Sunt autem prima CK, & quinta BK, ſimul æquales ſecundæ BC; ergo tertia CH, & ſexta BG, ſimul æquales quoque erunt quartæ BD. In rectangulis igitur triangulis, figura quæuis, &c. Quod erat oſtendendum.
-
-[Figure: right triangle ABC with perpendicular AK to the base BC; rectilineal figures described on the sides, with points labelled H, G, A, F, B, K, C, E, D]
+<!-- Page number: [unclear: 223] -->
 
 [Margin]
-24. quinti.
+31. ſexti.
 [/Margin]
 
-ALITER. Cum triangulo ABC, ſimile ſit triangulũ KAC, ſintq́; homologa latera ipſorum BC, CA; (Nam eſt ut BC, ad CA, in triãgulo ABC, ita CA ad CK, in triãgulo KAC) habebit triangulũ KAC, ad triangulũ ABC, duplicatã proportionem eius, quam habet CA, ad BC. Habet autẽ & figura CH, ad figuram BD, proportionẽ duplicatã proportionis CA, ad BC. Quare erit ut triangulũ KAC, ad triangulum ABC, ita figura CH, ad figuram BD. Eadem ratione oſtendetur eſſe, ut triangulũ KBA, ad triangulum ABC, ita figuram BG, ad figuram BD. Quoniam ergo rurſus eſt, ut KAC, prima quantitas ad ABC, ſecundam. ita CH, tertia ad BD, quartam; Item ut KBA, quinta ad ad ABC, ſecundam, ita BG, ſexta ad BD, quartam; erit & prima KAC, compoſita cum quinta KBA, ad ſecundam ABC, ita compoſita tertia, CH, cum ſexta BG, ad quartam BD. Sunt autẽ KAC, KBA, prima & quinta ſimul, æquales ſecundæ ABC: Igitur & CH, BG, tertia & ſexta ſimul, æquales erunt quartæ BD.
+ſimilis ſit ei, quæ ſuper BC, ſimiliterque poſita) deſcriptis æqualis figuris ſuper AD, AC, deſcriptis, quæ ei ſimiles ſint, ſimiliterque poſitæ: Eſt autem figura ſuper AD, æqualis figuræ ſuper AB, ob æqualitatem laterum; Quare figura ſuper CD, æqualis erit figuris ſuper AB, AC. Cum igitur figura ſuper BC, eiſdẽ figuris ſuper AB, BC, æqualis ponatur; erunt figuræ ſuper CD, BC, inter ſe æquales, ac propterea rectæ CD, BC, æquales erunt, ut conſtat ex lemmate propos. 22. huius lib. Quoniam igitur latera AD, AC, trianguli ADC, æqualia ſunt lateribus AB, AC, trianguli ABC; & baſis DC, oſtenſa eſt quoque æqualis baſi BC; erunt anguli DAC, BAC, æquales. Quare cum DAC, rectus ſit, ex conſtructione, rectus quoque erit BAC; quod eſt propoſitum.
+
+[Diagram: triangle with vertices B and C at the base and A on the left side, with a line extending above A to point D, forming triangle DBC]
 
 [Margin]
-8. ſexti.
-19. ſexti.
-19, uel 20. ſexti.
-11. quinti.
-24. quinti.
+8. primi
 [/Margin]
 
-ALITER. Vt quadratum rectæ AC, prima quantitas, ad quadratum rectæ BC, ſecundam quantitatem, ita eſt figura CH, tertia quantitas, ad figuram BD, quartam quan-
+[Margin]
+30.
+[/Margin]
 
-<!-- Catchword: titatem, -->
+## THEOR. 22. PROPOS. 32.
+
+SI duo triangula, quæ duo latera duobus lateribus proportionalia habeant, ſecundum unum angulum compoſita fuerint, ita ut homologa eorum latera ſint etiam parallela; tum reliqua illorum triangulorum latera in rectam lineã collocata reperiẽtur.
+
+HABEANT triangula ABC, DCE, latera AB, AC, lateribus DC, DE, proportionalia, ut quidem AB, ad AC, ita DC, ad DE; componanturque ad angulum ACD. ita ut latera homologa AB, DC; Item AC, DE, inter ſe ſint parallela. Dico duo latera reliqua BC, CE, rectam cõponere lineam. Cum enim parallelæ ſint AB, DC, erit angulus A, alterno ACD, æqualis: Eademq́; ratione angulus D, eidem ACD, æqualis erit; ac propterea A, & D, inter ſe quoque exiſtent æquales. Quoniam igitur triangula ABC, DCE, habent latera circa æquales angulos A, & D, proportionalia; ipſa erũt
+
+[Diagram: large triangle ABC with base BC, and a smaller triangle DCE placed to its right, sharing the point C on the base line, with E to the right of C]
+
+[Margin]
+29. primi
+[/Margin]
+
+<!-- Catchword: inter -->

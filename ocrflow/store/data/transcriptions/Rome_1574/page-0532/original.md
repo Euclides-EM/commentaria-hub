@@ -1,26 +1,42 @@
 <!-- Running title: LIBER VI. -->
-<!-- Page number: 225 -->
+<!-- Page number: 224 -->
 
-inter ſe æquiãgula, habebuntq́; æquales angulos B, & DCE. Additis ergo æqualibus A, & ACD, erunt duo anguli B, & A, duobus angulis DCE, ACD, hoc eſt, angulo ACE, æquales. Rurſus addito communi ACB, fient tres anguli trianguli ABC, duobus angulis ACE, ACB, æquales: Sed illi tres æquales ſunt duobus rectis; ergo & duo ACE, ACB, duobus erunt rectis æquales: Ac idcirco BC, CE, unam rectam lineam conſtituent. Itaque ſi duo triangula, quæ duo latera duobus lateribus proportionalia habeant, &c. Quod erat demonſtrandum.
+uero ſi arcus BCI, æqualis fuerit arcui FGKL, neceſſario angulus BDI, angulo FHL, æqualis eſt; Ac proinde ſi arcus BCI, maior fuerit arcu FGKL, neceſſario angulus BDI, maior eſt angulo FHL; & ſi minor, minor: Deficient propterea una arcus BCI, & angulus BDI, æque multiplicia primæ magnitudinis BC, & tertiæ BDC, ab FGKL, arcu, & angulo FHL, æque multiplicibus ſecundæ magnitudinis FG, & quartę FHG; uel una æqualia erũt; uel una excedent; ſi ea ſumantur, quæ inter ſe reſpondent. Quare quæ proportio eſt arcus BC, primæ magnitudinis, ad arcum FG, ſecundam magnitudinem, ea erit anguli BDC, tertiæ magnitudinis, ad angulum FHG, quartam magnitudinem.
 
 [Margin]
-6. ſexti.
+27. tertij.
 [/Margin]
 
 [Margin]
-32. primi
+6. defin. 5.
+[/Margin]
+
+QVONIAM uero, ut angulus BDC, ad angulum FHG, ita eſt angulus BAC, ad angulum FEG, cum illi horum ſint dupli; perſpicuum eſt, ita eſſe quoque angulum BAC, ad argulum{printer-error-correction:angulum} FEG, ut eſt arcus BC, ad arcum FG. Quod tamen eiſdem argumentis demõſtrari poteſt, quibus uſi ſumus in angulis ad centra conſtitutis, ſi prius ducãtur rectæ IA, KE, LE.
+
+[Margin]
+15. quinti
 [/Margin]
 
 [Margin]
-14. primi
+20. tertij.
 [/Margin]
 
-## SCHOLION.
+[Margin]
+11. quinti.
+[/Margin]
 
-DEBENT autem prædicta duo triangula ita ſecundum vnum angulum eſſe compoſita, vt vterque angulorum a lateribus proportionalibus comprehenſus, alternus ſit illi angulo, ſecundum quem triangula cõponuntur; veluti in ſchemate theorematis factum eſſe vides. Nam angulo ACD, ſecundum quẽ triangula ſunt compoſita, alternus eſt tam angulus A, quam angulus D, quorum vterque lateribus proportionalibus continetur. Hinc enim efficitur, angulos A, & D, eſſe æquales, & propterea triangula eſſe æquiangula; atque adeo ex BC, CE, vnam rectam lineam componi, vt ex demonſtratione liquet.
+CONSTITVANTVR iam in ſegmentis BC, CI, anguli BMC, CNI, qui æquales erunt, cum inſiſtant arcubus æqualibus BAC, CBAI. Quare ſimilia erunt ſegmenta BMC, CNI, atque adeo inter ſe æqualia, propterea quod ſint ſuper rectas BC, CI, quæ inter ſe ſunt æquales. Additis igitur triangulis BDC, CDI, quæ æqualia quoque ſunt, fient ſectores BDC, CDI, æquales. Quapropter tam multiplex erit ſector BDI, ſectoris BDC, quã eſt multiplex arcus BCI, ipſius arcus BC. Similiter oſtendemus, ſectorem FHL, tam multiplicem eſſe ſectoris FHG, quam multiplex eſt arcus FGKL, ipſius arcus FG. Quoniã uero ſi arcus BCI, æqualis fuerit arcui FGKL, ſector quoque BDI, ſectori FHL, æqualis eſt; (ceu in ſectoribus BDC, CDI, oſtenſum fuit.) & ſi maior, maior; & ſi minor, minor: Deficient propterea una arcus BCI, & ſector BDI, æque multiplicia primæ magnitudinis BC, & tertiæ BDC, ab arcu FGKL, & ſectore FHL, æque multiplicibus ſecundæ magnitudinis FG, & quartæ FHG; uel una æqualia erunt; uel una excedent; ſi ea ſumantur,
 
-QVOD ſi vterque angulorum lateribus proportionalibus comprehenſus non fuerit alternus angulo, ſecundum quem triangula componuntur, licet reliquæ hypotheſes theorematis ſeruentur, non colligitur neceſſario concluſio. Nam duo triãgula ABC, DBE, habent duo latera AB, AC, duobus lateribus DE, DB, proportionalia, vt quidem AB, ad AC, ita DE, ad DB; compoſitaque ſunt ad angulum CBD, ita vt tam homologa latera AB, DE, quam AC, DB, ſint parallela: Nihilominus reliqua duo latera CB, BE, non conſtituunt vnam lineam rectam; propterea quod angulo CBD, non ſit alternus vterque angulorum A, & D, immo neuter eorum, ut perſpicuum eſt. Quamobrem demonſtratio theorematis locum non habet.
+[Margin]
+27. tertij.
+[/Margin]
 
-[Diagram: lines radiating from point B to points C, D, A, and E, with A between B and D, C above D, and E to the right of B on the base line]
+[Margin]
+24. tertij.
+[/Margin]
 
-<!-- Catchword: THEOR. -->
+[Margin]
+4. primi
+[/Margin]
+
+<!-- Catchword: quæ -->

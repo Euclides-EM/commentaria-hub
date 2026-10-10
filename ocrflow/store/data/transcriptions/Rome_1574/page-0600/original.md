@@ -1,31 +1,29 @@
-<!-- Running title: LIBER. VII. -->
-<!-- Page number: 257 -->
+<!-- Running title: LIBER VII. -->
 
-paret, adiuuante tamen ſcholio propos. 5. huius lib.
+<!-- Page number: 258 -->
 
-[Diagram: three groups of dotted lines labelled A, C, E and B, D, F]
-
-SINT tertio A, C, E, maiores quam B, D, F, at non multiplices. Quia igitur, propter eandem proportionem, A, ipſum B, & C, ipſum D, & E, ipſum F, æqualiter continet, eandemque inſuper partem, uel partes; Erit per lemma præcedentis propos. B, ipſius A, & D, ipſius C, & F, ipſius E, eædem partes. Igitur ut prius, erunt omnes B, D, F, omnium A, C, E, ſimul eædem partes, quæ B, ipſius A; Atque adeo per idem lemma, e contrario continebunt omnes numeri A, C, E, ſimul, omnes numeros B, D, F, ſimul, & A, ipſum B, æqualiter, eandemque inſuper partem, uel partes. Quare per defin. 20. eadem proportio eſt omnium A, C, E, ſimul, ad omnes B, D, F, ſimul, quæ eſt A, ad B.
-
-[Diagram: two rows of dotted lines labelled A, C, B and B, D, F]
+per lemma propos. 11. huius lib. eædem partes. Viciſſim ergo & D, ipſius B, & C, ipſius A, eadem pars erit, uel partes; Ac propterea e contrario uel B, ipſius D, & A, ipſius C, æque multiplex erit, uel certe, per lemma adductum, B, ipſum D, & A, ipſum C, continebit æqualiter, eandemque inſuper partem uel partes. Quare per defin. 20. eadem proportio erit B, ad D, quæ A, ad C, hoc eſt, erit ut A, ad C, ita B, ad D.
 
 [Margin]
-6. ſeptimi
+9. uel 10. ſeptimi.
 [/Margin]
 
-SINT quarto & ultimo A, C, E, ipſis B, D, F, æquales Quoniam igitur, ſi æqualibus A, & B, æquales addantur C, & D, fiunt A, C, ſimul æquales ipſis B, D, ſimul, quibus ſi rurſum addantur æquales E, & F, fiunt & omnes A, C, E, ſimul, omnibus B, D, F, ſimul æquales; Erunt, ut A, ad B, ita omnes A, C, E, ſimul ad omnes B, D, F, ſimul, cum utrobique ſit proportio æqualitatis. Si ſint igitur quotcunque numeri proportionales, erit, &c. Quod erat demonſtrandum.
+SINT quinto A, & C, ipſis B, & D, æquales, & A, minor quã C. Quoniam igitur ęquales numeri A, & B, æqualium numerorum C, & D, uel eadem pars, uel eædem partes ſunt; Erit, per defin. 20. ut A, ad C, ita B, ad D
 
-[Diagram: two rows of dotted lines labelled A, C, E and B, D, F]
+[Diagram: two rows of dotted lines labelled A, C and B, D]
 
-## THEOR. II. PROPOS. 13.
+SINT ſexto A, & C, ipſis B, & D, æquales, at A, maior quam C. Quia igitur æquales numeri A, & B, æqualium numerorũ C, & D, uel æque multiplices ſunt, uel certe illi hos æqualiter continent, eandemque inſuper partem, uel partes; erit, per defin. 20. ut A, ad C, ita B, ad D.
 
-[Margin]
-14.
-[/Margin]
+[Diagram: two rows of dotted lines labelled A, C and B, D]
 
-SI quatuor numeri proportionales ſint: Et uiciſſim proportionales erunt.
+SINT ſeptimo ac ultimo A, & C, inter ſe æquales, ſiue ij maiores ſint quam B, & D, ſiue minores, ſiue æquales. Quoniam igitur, ob eandem proportionem, A, ipſius B, & C, ipſius D, æque multiplex eſt, uel eadem pars, uel eædem partes; uel certe A, ipſum B, & C, ipſum D, æqualiter continet, eandemque inſuper partem, uel partes; ſuntque A, & C, æquales; æquales quoque erunt B, & D; Atque adeo erit, ut A, ad æqualem C, ita B, ad æqualem D. Quocirca, ſi quatuor numeri proportionales ſint, & uiciſſim proportionales erunt. Quod erat demonſtrandum.
 
-SIT A, ad B, ut C, ad D. Dico uiciſſim eſſe A, ad C,
+[Diagram: two rows of dotted lines labelled A, C and B, D]
 
-<!-- Signature: Kk -->
-<!-- Catchword: ut -->
+## SCHOLION.
+
+COACTI ſumus in hac propoſitione, & duabus præcedentibus tot caſus recenſere, eoſque demonſtrationibus certiſsimis confirmare, una cum lemmate propos. 11. ut earum ueri-
+
+<!-- Signature: Kk 2 -->
+
+<!-- Catchword: tas -->

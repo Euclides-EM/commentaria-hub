@@ -1,24 +1,38 @@
-<!-- Running title: LIBER. VIII. -->
-<!-- Page number: 285 -->
+<!-- Running title: LIBER VIII. -->
+<!-- Page number: 286 -->
 
-## SCHOLION.
+A, vel alius quiſque nullum à ſecundo B, metiatur. Dico neqꝫ A, primum, metiri B, ſecundum. Si enim A, primus ſecundum B, dicatur metiri; metietur quoque, per ea, quæ ſecundo loco in hoc ſcholio oſtendimus, quicunque alius quemlibet ſequentiũ. Quod eſt abſurdum, cum neque primus, neque alius quiſquam ullum a ſecundo metiri ponatur. Non ergo A, ipſum B, metietur.
 
-SI maiores numeri ad minores referantur, proponi poterit hæc propoſitio ad hunc modum.
+[Calculation]
+A,16. B,24. C,36. D,54. E,81.
+[/Calculation]
 
-Si ſint quotcunque numeri deinceps proportionales, primus autem ſecundi non ſit multiplex, neque alius quiſquam ullius multiplex erit.
-
-SINT enim continue proportionales A, B, C, D, E; & A, primus non ſit multiplex ſecundi B. Dico neque alium quenquam illorum ullius eſſe multiplicem. Quod enim nullus proxime inſequẽtis multiplex ſit, conſtat. Nam cum ſit, ut A, ad B, ita B, ad C; C, ad D; & D, ad E: non ſit autem A, ipſius B, multiplex; neque B, ipſius C; neque C, ipſius D; neque D, ipſius E, multiplex erit. Quod autem neque alius quiſquam illorum ullius ſit multiplex, hoc pacto confirmabitur. Quoniã D, ipſius E, non eſt multiplex: non metietur e contrario E, ipſum D, per ea, quæ in defin. 5. lib. 7. ſcripſimus. Quoniam igitur ſunt numeri deinceps proportionales quotcunque E, D, C, B, A; (Nam cum ſit D, ad E, ut C, ad D; B, ad C; & A, ad B; erit conuertendo E, ad D, ut D, ad C; C, ad B; & B, ad A.) Et E, primus ſecundum D, non metitur; neque alius quiſquam illorum ullum metietur. Quare e contrario, ſi maiores ad minores referantur, neque quiſquam illorum ullius erit multiplex, per ea, quæ in defin. 5. lib. 7. docuimus.
+IAM vero A, primus, vel alius quiſquam nullius a ſecundo B, ſit multiplex. Dico neque A, primum multiplicem eſſe B, ſecundi. Si namque A, primus multiplex eſſe dicatur B, ſecũdi; multiplex quoque erit quicunque alius cuiuslibet ſequentium, ex ijs, quæ ſecundo theoremate huius ſcholij demonſtrauimus. Quod eſt abſurdum. Neque enim primus, neque alius quiſquam ullius a ſecundo multiplex eſſe ponitur. Non igitur A, ipſius B, multiplex erit.
 
 [Calculation]
 A,81. B,54. C,36. D,24. E,16.
 [/Calculation]
 
+## THEOR. 5. PROPOS. 7.
+
 [Margin]
-6. octaui
+7.
 [/Margin]
 
-SED & ex his ſequens theorema demonſtrabimus.
+SI ſint quotcunqꝫ numeri deinceps proportionales, primus autem extremum metiatur, is etiam metietur ſecundum.
 
-Si ſint quotcunque numeri deinceps proportionales, primus uero ſecundum metiatur; & quicunque alius quemlibet ſequentium metietur. Si primus autem ſecundi ſit multiplex; & quicunque alius cuiuslibet ſequentium multiplex erit.
+SINT deinceps proportionales A, B, C, D, E; & A, primus extremũ E, metiatur. Dico & A, primũ metiri B, ſecundum. Si enim A, ipſum B, non dicatur metiri; neque alius quiſquam ullũ metietur. Quare nec A, ipſum E. Quod eſt abſurdum. Ponitur enim A, metiri E. Igitur A, primus B, ſecundum metietur; Atque idcirco, ſi ſint quotcunque numeri deinceps proportionales, &c. Quod erat demonſtrandum.
 
-<!-- Catchword: SINT -->
+[Calculation]
+A,3. B,6. C,12. D,24. E,48.
+[/Calculation]
+
+[Margin]
+6. [unclear: octaui]
+[/Margin]
+
+## SCHOLION.
+
+VT theorema, quod ſecũdo loco in ſcholio præcedẽtis ppos. demõſtrauimus, conuertamus, amplificabimus hanc ppos. hoc modo.
+
+<!-- Catchword: SI -->

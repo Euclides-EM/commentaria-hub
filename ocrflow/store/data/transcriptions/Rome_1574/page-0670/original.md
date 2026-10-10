@@ -1,41 +1,30 @@
-<!-- Running title: LIBER VIII. -->
+<!-- Running title: LIBER. VIII. -->
 <!-- Page number: 293 -->
 
-in qua numerꝰ B, vnitas eſt, caduntque tã inter A, et C, quam inter B, & C, tres numeri cõtinue proportionales, quot ſcilicet inter A, & B, cadunt &c.
+cubus ad cubum triplicatam habet lateris ad latus rationem.
+
+SINT numeri cubi A, & B, quorum latera C, & D. Dico inter A, & B, duos medios numeros continue proportionales cadere: Et proportionem A, ad B, cubi ad cubum, triplicatam eſſe proportionis C, ad D, lateris ad latus. Multiplicans C, ſeipſum faciat E, & D, ſeipſum multiplicãs faciat F; At C, & D, ſe mutuo multiplicantes faciant G; Multiplicantes uero G, faciant H, & I. Quoniam igitur C, ſeipſum, & D, multiplicans fecit E, & G; erit, ut C, ad D, ita E, ad G. Eadem ratione, cum D, multiplicans C, & ſeipſum, fecerit G, & F; erit quoque ut C, ad D, ita G, ad F; proptereaq; E, G, F, continue proportionales ſunt in ratione C, ad D. Rurſus, quia ex defin. cubi C, ipſum E, multiplicans fecit A; & ex conſtructione multiplicans ipſum G, fecit H; erit ut E, ad G, hoc eſt, ut C, ad D, ita A, ad H. Similiter cum D, ipſum G, multiplicans fecerit, ex conſtructione, numerum I; multiplicãs uero ipſum F, ex defin. cubi, fecerit cubum B; erit quoque, ut G, ad F, hoc eſt, ut C, ad D, ita I, ad B: Eſt autem & H, ad I, ut C, ad D; quod C, & D, ipſum G, multiplicantes fecerunt ex conſtructione, H, & I. Igitur A, H, I, B, continue ſunt proportionales in ratione C, ad D; Atque adeo inter cubos A, & B, duo medij H, & I, cadunt continue proportionales. Quoniam uero, exiſtentibus A, H, I, B, continue proportionalibus, numerus A, ad B, triplicatam habet rationem eius, quam habet A, ad H; triplicatam quoque rationem habebit A, ad B, cubus ad cubum, eius,, quam habet C, ad D, latus ad latus; cũ ſit C, ad D, ut A, ad H. Quã ob rem duorum cuborum numerorum duo medij proportionales ſunt numeri, &c. Quod erat oſtendendum.
 
 [Calculation]
-A,1048576. Q,32768. R,1024. S,32. B,1.
-F,65536. O,2048. P,64. I,2.
-E,4096. N,128. H,4.
-D,256. G,8.
-C,16.
-K,1024. L,32. M,1.
-[/Calculation]
-
-EX his etiam apparet, numeros, qui medij proportionales cadunt inter A, & B; necnon inter F, & I; atque inter E, & H, proportionem habere, quam duo numeri D, & G, numero aſſumpto C, proinquiores{printer-error-correction:propinquiores}.
-
-## THEOR. 9. PROPOS. 11.
-
-[Margin]
-11.
-[/Margin]
-
-DVORVM quadratorum numerorum unus medius proportionalis eſt numerus: Et quadratus ad quadratum duplicatã habet lateris ad latus rationem.
-
-SINT quadrati numeri A, & B, quorum latera C, & D. Dico inter A, & B, unum medium proportionalem numerum cadere: & proportionem A, ad B, quadrati ad quadratum, eſſe duplicatam proportionis C, ad D, lateris ad latus. Multiplicantes ſe mutuo C & D, faciant E. Quia igitur C, multiplicans ſeipſum fecit A, quadratũ, ex defin. quadrati; & ipſum D, multiplicans fecit E, ex conſtructione; erit ut C, ad D, ita A, ad E. Rurſus, quia D, multiplicans C, fecit E, ex conſtructione; & multiplicans ſeipſum, ex defin. quadrati, fecit B, quadratum; erit quoque, ut C, ad D, ita E, ad B. Quare A, E, B, continue proportionales ſunt in ratione laterum C, & D. At proinde inter quadratos A, & B, medius continue proportionalis cadit E. Quia uero, exiſtentibus A, E, B, continue proportionalibus, numerus A, ad B, duplicatam rationẽ habet
-
-[Calculation]
-A,9 E,21. B,49.
-C,3. D,7.
+A,27. H,36. I,48. B,64.
+E,9. G,12. F,16.
+C,3. D,4.
 [/Calculation]
 
 [Margin]
-17 ſeptimi
+17. ſeptimi
 [/Margin]
 
 [Margin]
-11
+17. ſeptimi
 [/Margin]
 
-<!-- Signature: Oo 4 -->
-<!-- Catchword: habet -->
+[Margin]
+18 ſeptimi
+[/Margin]
+
+## SCHOLION.
+
+HIC quoque manifeſtum eſt, inter duos cubos cadere duos
+
+<!-- Catchword: numeros -->

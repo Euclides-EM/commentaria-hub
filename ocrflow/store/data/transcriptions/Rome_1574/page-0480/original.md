@@ -1,31 +1,19 @@
-<!-- Running title: LIBER VI. -->
-<!-- Page number: 197 -->
-
-## COROLLARIVM.
-
-Ex hoc manifeſtum eſt, perpendicularẽ quæ in rectangulo triãgulo ab angulo recto in baſin demittitur, eſſe mediam proportionalem inter duo baſis ſegmenta: Item latus utrumlibet angulum rectum ambiens, medium proportionale inter totam baſin, & illud ſegmentum baſis, quod dicto lateri adiacet.
-
-OSTENSVM eſt enim, eſſe ut BD, ad DA, ita DA, ad DC; ac propterea DA, eſſe mediam proportionalem inter BD, & DC: Item eſſe ut CB, ad BA, ita BA, ad BD; & idcirco BA, mediam eſſe proportionalem inter CB, & BD: Denique eſſe ut BC, ad CA, ita CA, ad CD; ideoque CA, eſſe proportionalem mediam inter BC, & CD. Quod eſt propoſitum.
-
-## PROBL. 1. PROPOS. 9.
-
-[Margin]
-II.
-[/Margin]
-
-A DATA recta linea imperatam par tem auferre.
-
-IMPERETVR, ut ex linea AB, auferamus partem tertiam. Ex A, ducatur recta AC, utcunque faciens angulum CAB; & ex AC, abſcindantur tot partes æquales cuiuslibet magnitudinis, quota pars detrahenda eſt ex AB, ut in propoſito exemplo tres AD, DE, EF. Deinde ex F, ad B, recta ducatur FB, cui per D, parallela agatur DG. Dico AG, eſſe partem tertiam imperatam. Nam cum in triangulo ABF, lateri FB, parallela ſit recta DG; erit ut FD, ad DA, ita BG, ad GA; componendo igitur, ut FA, ad DA, ita BA, ad GA: ſed FA, ipſius AD, eſt tripla ex conſtructione; Igitur & BA ipſius AG, erit tripla, ideoque AG, erit tertia pars ipſius AB, quæ imperabatur. A data ergo recta linea imperatam partem abſtulimus. Quod faciendum erat.
-
-[Figure: triangle with base AB, points G on the base, and points D, E, F on line AC extending from A above the base to C]
-
-[Margin]
-2. ſexti.
-18. quinti.
-[/Margin]
+<!-- Running title: LIBER. VI. -->
+<!-- Page number: 198 -->
 
 ## SCHOLION.
 
-QVOD ſi ex AB, auferenda ſit pars, quæ contineat quatuor undecimas ipſius AB, ſumendæ erunt ex AC, undecim
+EX hoc problemate colligi poteſt facilis admodum uia, ac ratio diuidendi lineam rectã datam in partes quotcunque æquales: id, quod nos ad propos. 10. lib. 1. facturos recepimus. Sit enim data recta AB, diuidenda in quinque partes æquales. Ducta recta AC, faciente cum AB, quemcunque angulũ CAB, ſumantur ex ea quinque partes æquales AD, DE, EF, FG, GH. Quia igitur linea recta AH, utcunque eſt diuiſa, ſi ex H, ad B, ducatur recta HB, & huic ex punctis D, E, F, G, parallelæ agantur DI, EK, FL, GM; erit AB, ſimiliter diuiſa, ut AH, ceu conſtat ex demonſtratione huius problematis. Cum igitur AH, ſit diuiſa in quinque partes æquales, erit & AB, in totidem æquales partes diuiſa. Haud aliter in plures partes æquales diuidetur eadem recta AB.
 
-<!-- Catchword: partes -->
+[Figure: line AC rising from A with points D, E, F, G, H marked, and parallels drawn to base AIKLMB, with B at the right end]
+
+HVIC rationi diuidendæ lineæ rectæ in quotcunque partes æquales, adiungi poſſunt aliæ non iniucundæ, ceu propos. 10. lib. 1. ſumus polliciti. Sit enim rurſus data linea recta AB, diuidenda in quinque partes æquales. Ducatur ex B, recta BC, utcunque faciens angulum cum AB; Deinde ex aſſumpto puncto D, agatur DE, parallela ipſi AB, ex qua abſcindantur quinque æquales partes DF, FG, GH, HI, IK, ea lege tamen, ut DK, minor ſit quam AB. Poſtremo ex A, per K, recta ducatur AL, occurrens ipſi BC, in L, puncto, a quo per puncta F, G, H, I, rectæ ducantur LP, LO, LN, LM, quas dico diuidere rectã AB, in quinque partes æquales. Cum enim DE, ſit parallela ipſi AB, erit angulus LIK, angulo LMA, & angulus LKI, angulo LAM, æqualis: eſt autem angulus ALM, communis; Aequiangula igitur ſunt triangula LKI, LAM, ac propterea ut LI, ad IK, ita LM, ad MA; Item eadem ratione, ut LI, ad IH, ita LM, ad MN: ſed ut LI,
+
+[Figure: point L at top with C above, lines from L crossing the parallel EKIHGFD and meeting the base A MNOP B]
+
+[Margin]
+29. primi
+4. ſexti.
+[/Margin]
+
+<!-- Catchword: ad -->

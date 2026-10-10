@@ -1,27 +1,34 @@
 <!-- Running title: EVCLID. GEOM. -->
+<!-- Page number: 225 -->
+
+quæ inter ſe reſpondent. Quamobrem quæ proportio eſt arcus BC, primæ magnitudinis, ad arcum FG, ſecundam magnitudinem, ea erit ſectoris BDC, tertiæ magnitudinis, ad ſectorem FHG, quartam magnitudinem. In æqualibus ergo circulis, anguli eandem habent rationem cum peripherijs, &c. Quod demonſtrandum erat.
 
 [Margin]
-32.
+6. defin. 5.
 [/Margin]
 
-## THEOR. 23. PROPOS. 33.
+## COROLLARIVM. I.
 
-IN æqualibus circulis, anguli eandem habent rationem cum peripherijs, quibus inſiſtunt, ſiue ad centra, ſiue ad peripherias conſtituti inſiſtant: Inſuper uero & ſectores, quippe qui ad centra conſiſtunt.
-
-SINT duo circuli æquales ABC, EFG, quorum cẽtra D, H; ſumanturque ex circulis duo arcus quicunque BC, FG, quibus ad centra quidem inſiſtãt anguli BDC, FHG; ad circunferentias uero anguli BAC, FEG. Dico eſſe ut arcũ BC, ad arcum FG, ita angulum BDC, ad angulum FHG; & angulum BAC, ad angulum FEG; & ſectorem BDC, qui rectis BD, DC, & arcu BC, continetur, ad ſectorem FHG, quem comprehendunt rectæ FH, HG, & arcus FG. Ductis enim rectis BC, FG, applicentur ipſis in circulis æquales rectæ, CI, quidem ipſi BC, At uero GK, KL, ipſi FG: ducanturque rectæ ID, KH, LH. Quoniam igitur æquales ſunt rectæ BC, CI, erunt quoque æquales arcus BC, CI, ac propterea anguli BDC, CDI, æquales erunt. Eadem ratione æquales erunt & arcus FG, GK, KL, & anguli FHG, GHK, KHL. Quã multiplex ergo eſt arcus BCI, ipſius arcus BC, tam multiplex erit angulus BDI, ſeu aggregatum angulorum prope centrum D, inſiſtentium arcui BCI, anguli BDC: Et quã multiplex eſt arcus FGKL, ipſius arcus FG, tam multiplex erit angulus FHL, ſeu aggregatum angulorum prope centrum H, arcui FGKL, inſiſtentium, anguli FHG: quia in tot angulos æquales diuiſi ſunt anguli BDI, FHL, in quot arcus æquales ſecti ſunt arcus BCI, FGKL. Quoniã uero
+HINC manifeſtum eſt, ſic eſſe ſectorem ad ſectorem, ut eſt angulus ad angulum. Vtraque enim proportio eadem eſt proportioni arcus ad arcum. Quare & inter ſe eadem erunt.
 
 [Margin]
-1. quarti.
+11. quinti.
+[/Margin]
+
+## COROLLARIVM. II.
+
+PERSPICVVM quoque eſt, ut eſt angulus ad centrum ad quatuor rectos, ita eſſe arcum ſubtenſum illi angulo ad totam circunferentiam. Et contra, ut ſunt quatuor recti ad angulum in centro, ita eſſe totam circunferentiam ad arcum illi angulo ſubtenſum. Nam ut eſt angulus in centro ad angulum rectum in centro, ita eſt arcus illi angulo ſubtenſus ad quadrantem angulo recto ſubtenſum. Quamobrem erit ut angulus in centro ad quadruplum anguli recti, nempe ad quatuor rectos, ita arcus illi angulo ſubtenſus ad quadruplum quadrantis, nimirum ad totam circunferentiã, per ea, quæ ad 4. propos. lib. 5. demonſtrauimus. Quod eſt primum. Quoniam igitur eſt ut angulus in centro ad quatuor rectos, ita arcus illi angulo ſubtenſus ad totam circunferentiam; erit & conuertendo, ut quatuor recti ad angulum in centro, ita tota circunferentia ad arcũ angulo in centro ſubtenſum. Quod eſt ſecundum. Verum hoc etiam ita demonſtrabitur. Cum ſit, ut angulus rectus in centro ad angulum in centro, ita quadrans angulo recto ſubtenſus ad arcum illi angulo ſubtenſum; erit quoque, per ea, quæ ad propos. 4. lib. 5. oſtendimus, ut quadruplum anguli recti, nempe quatuor recti, ad angulum in centro, ita quadruplum quadrantis, nimirum tota circunferentia, ad arcum illi angulo ſubtenſum. Quod eſt propoſiti.
+
+[Margin]
+38. ſexti.
 [/Margin]
 
 [Margin]
-28. tertij.
+33. ſexti.
 [/Margin]
 
-[Margin]
-27. tertij.
-[/Margin]
+## SCHOLION.
 
-[Diagram: two equal circles with inscribed lines; the left circle has points A, I, D, N, B, C, M, the right circle has points E, L, H, K, F, G]
+CAETERVM ex theoremate hoc luce clarius colligi angulũ, qui circunferentiæ alicui inſiſtit, referendum eſſe ad arcũ, qui baſis eſt ipſius anguli, non autem ad arcum in quo exiſtit. Non enim eadem eſt proportio anguli ad angulum, quæ arcus ad arcum, ſi ſumantur arcus, in quibus anguli exiſtunt, vt uult Euclides in propoſito hoc theoremate. Sint enim circuli
 
-<!-- Catchword: uero -->
+<!-- Catchword: æquales -->

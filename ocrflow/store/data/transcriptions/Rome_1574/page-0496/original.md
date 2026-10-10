@@ -1,24 +1,38 @@
 <!-- Running title: LIBER VI. -->
-<!-- Page number: 207 -->
+<!-- Page number: 206 -->
 
-triangula ABC, FGH, habentia angulos BAC, GFH, æquales; Item angulos ACB, FHG; ideoque latera habebunt circa æquos angulos proportionalia; ac propterea inter ſe ſimilia erunt. Eadem ratione erunt ſimilia triangula AED, FKI. Deinde quia eſt ut AC, ad CB, ita FH, ad HG, ob ſimilitudinem triangulorum ABC, FGH; ut autem CB, ad CD, ita eſt, ex hypoteſi, HG, ad HI, ob ſimilitudinem polygonorum; Ex æquo erit ut AC, ad CD, ita FH, ad HI. Et quoniam angulus BCD, æqualis ponitur angulo GHI; eſt autem & ablatus ACB, oſtenſus æqualis ablato FHG; erit & reliquus ACD, reliquo FHI, æqualis. Quare triangula ACD, FHI, æquiangula erunt, ideoque ſimilia.
+litatis duplicata ſolum efficit proportionem æqualitatis: (Poſitis enim tribus magnitudinibus æqualibus, dicetur prima ad tertiam habere proportionem duplicatam proportionis, quam habet prima ad ſecundam, ut conſtat ex definitione 10. lib. 5. cum tamen prima ad tertiam habeat proportionem æqualitatis, ſicuti & prima ad ſecundam.) Igitur triãgulum ABC, ad triangulum DEF, proportionem habet duplicatam eius, quam habet latus BC, ad EF. Quod eſt propoſitum.
 
-[Figure: two polygons ABCDE and FGHIK divided into triangles by diagonals from A and F]
+SIT ſecundo BC, latus latere EF, maius; & ex BC, abſcindatur rectis BC, EF, tertia proportionalis BG, ducaturq; recta AG. Quia igitur eſt ut AB, ad BC, ita DE, ad EF; erit permutando ut AB, ad DE, ita BC, ad EF: Vt autem BC, ad EF, ita eſt per conſtructionem EF, ad BG: Vt ergo AB, ad DE, ita erit EF, ad BG. Quare cum triangula ABG, DEF, habeant latera circa angulos B, E, æquales reciproca, ipſa inter ſe æqualia erunt; & propterea ut triangulum ABC, ad triangulum DEF, ita erit triangulum ABC, ad triangulum ABG; Vt autem triangulum ABC, ad triangulum ABG, eiuſdem altitudinis, ita eſt baſis BC, ad baſin BG. Igitur ut triangulum ABC, ad triangulum DEF, ita eſt BC, ad BG. Atqui cum tres lineæ BC, EF, BG, ſint proportionales, erit proportio primæ BC, ad tertiam BG, duplicata proportionis BC, primæ ad EF, ſecundam. Quare & triangulum ABC, ad triangulum DEF, proportionem habet duplicatam proportionis BC, ad EF. Similia igitur triangula inter ſe ſunt, &c. Quod erat demonſtrandum.
 
-[Margin]
-6. ſexti.
-4. ſexti.
-22. quinti.
-6. ſexti.
-[/Margin]
-
-Dico præterea triangula hæc eſſe homologa totis polygonis. Quoniam ſimilia ſunt triangula ABC, FGH, erit eorum proportio duplicata proportionis homologorum laterum AC, FH: Atque eodem argumento proportio triãgulorum ACD, FHI, duplicata erit proportionis eorundem laterum homologorum AC, FH. Quare ut triangulum ABC, ad triangulum FGH, ita erit triangulum ACD, ad triangulum FHI. Neque diſſimili ratione concludetur quoque eſſe triangulum ADE, ad triangulum FIK, ut ACD, ad FHI. Atque ita proportionalia ſunt triangula unius polygoni cum triangulis alterius, ita ut triangula unius ſint antecedentia, & triangula altetius{printer-error-correction:alterius} conſequentia proportionum. Vt autem unum antecedens ad unum conſequens, ita ſunt omnia antecedentia ad omnia conſequentia. Igitur ut quodlibet triangulum unius polygoni ad ſibi reſpondens triangulum alterius, ita erit totum polygonum ad totum polygonum; ideoque triangula homoga{printer-error-correction:homologa} erunt totis polygonis.
+[Figure: two triangles, the larger with vertices A, B, C and point G on the base between B and C, the smaller with vertices D, E, F]
 
 [Margin]
-19. ſexti.
-12. quinti.
+11. ſexti.
 [/Margin]
 
-DICO poſtremo, polygona inter ſe proportionem habere duplicatam eius, quam habent latera homologa. Cum enim ſit ut triangulum ABC, ad triangulum FGH, ita polygonum ABCDE, ad polygonum FGHIK; Triã-
+[Margin]
+11. quinti.
+[/Margin]
 
-<!-- Catchword: gulum -->
+[Margin]
+15. ſexti.
+[/Margin]
+
+[Margin]
+7. quinti.
+[/Margin]
+
+[Margin]
+1. ſexti.
+[/Margin]
+
+## COROLLARIVM.
+
+HINC manifeſtum eſt, ſi tres rectæ lineæ proportionales fuerint; ut eſt prima ad tertiam. ita eſſe triangulum ſuper primam deſcriptum ad triangulum ſupra ſecundam ſimile ſimiliterque deſcriptum.
+
+SINT enim tres rectæ proportionales A, B, C; & ſuper primam A, & ſecundam B, conſtituta triangula A, & B, ſimilia, ſimiliterque deſcripta,
+
+[Figure: two similar triangles labelled A and B, and a horizontal line labelled C]
+
+<!-- Catchword: Dico, -->

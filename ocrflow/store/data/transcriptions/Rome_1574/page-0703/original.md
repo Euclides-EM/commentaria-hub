@@ -1,38 +1,41 @@
 <!-- Running title: EVCLID. GEOM. -->
 
 [Margin]
-22.octaui
+8. noni.
 [/Margin]
 
-quadratus eſt. Quia uero tres deinceps proportionales ſunt B, C, D; & eſt B, quadratus; erit & D, quadratus. Eadem ratione aſſumptis tribus deinceps proportionalibus D, E, F, cum D, ſit quadratus, & F, quadratus erit; Nec non & omnes unum intermittentes.
-
-RVRSVS quia eſt unitas ad A, ut B, ad C; æque metietur unitas numerum A, & numerus B, numerum C: Me
+uero & reliqui intermedij C, & E, quadrati ſint, ita perſpicuũ fiet. Cum tres continue proportionales ſint A, B, C; ſitque
 
 [Calculation]
-Vnitas.  A,3. B,9. C,27.  D,81. E,243. F,729. G,2187.
-H,6561. I,19683. K,59049. L,177147.  M,531441.
+Vnitas.  A,4.  B,16.  C,64.  D,256.  E,1024.  F,4096.
 [/Calculation]
 
 [Margin]
+22. octaui
+[/Margin]
+
+A, quadratus; erit & C, quadratus. Eodemque modo, aſſumptis tribus continue proportionalibus C, D, E, cum C, ſit quadratus; & E, quadratus erit. Omnes igitur A, B, C, E, F, quadrati ſunt. Idem oſtendemus, ſi plures numeri ſint continue proportionales.
+
+SIT iam A, proximus unitati cubus. Dico & reliquos cubos eſſe. Quod enim quartus ab unitate, & omnes duos
+
+[Calculation]
+Vnitas.  A,8.  B,64.  C,512.  D,4096.  E,32768,  F,262144
+[/Calculation]
+
+[Margin]
+8. noni.
+
 5. pron.
-[/Margin]
 
-[Margin]
 9. pron.
+3. noni.
+23. octaui
 [/Margin]
 
-titur autem unitas ipſum A, per A. Igitur & B, ipſum C, per A, metietur; atque adeo B, ipſum A, multiplicans procreabit numerum C. Quare cum A, ſe ipſum multiplicãs faciat B, multiplicans uero B, faciat C, ut eſt oſtenſum; erit C, cubus. Quia uero quatuor deinceps proportionales ſunt C, D, E, F, & eſt C, cubus; erit & F, cubus. Eodem argumento aſſumptis quatuor deinceps proportionalibus F, G, H, I, cum F, ſit cubus; & I, cubus erit; atque omnes ſemper duos intermittentes.
-
-[Margin]
-23.octaui
-[/Margin]
-
-POSTREMO quia F, ſeptimus ab unitate oſtenſus eſt & quadratus, & cubus: ipſe erit cubus ſimul & quadratus: Atque eodem modo M, ſeptimus ab F, intermiſſis nimirum quinque G, H, I, K, L, cubus erit ſimul & quadratus; Nec non & omnes quinque intermittentes. Si igitur ab unitate quotcunque numeri deinceps proportionales fuerint, &c. Quod erat demonſtrandum.
+intermittentes, cuiuſmodi ſunt C, & F, ſint cubi, iam eſt demonſtratum. Quod autem & reliqui B, D, E, cubi ſint, ſic oſtendemus. Cum ſit unitas ad A; ut A, ad B; æque metietur vnitas numerum A, & numerus A, numerum B: Metitur autem vnitas numerum A, per ipſummet A. Igitur, & A, ipſum B, per ſe ipſum metietur; Atque adeo cubus A, ſe ipſum multiplicans numerum B, procreabit. Quare B, cubus eſt. Quoniam uero quatuor continue proportionales ſunt A, B, C, D, eſtque A, cubus; & D, cubus erit. Eademq́; ratione aſſumptis quatuor deinceps proportionalibus B, C, D, E. cum B, cubus ſit, & E, cubus erit. Omnes igitur A, B, C, D, E, F, cubi ſunt. Non ſecus demonſtrabimus omnes cubos eſſe, ſi plures continue proportionales fuerint. Quocirca, ſi ab unitate quotcunque numeri deinceps proportionales fuerint, &c. Quod demonſtrandum erat.
 
 ## SCHOLION.
 
-HOC theorema poteſt quoque hoc modo proponi.
+NON demonſtrauit Geometra, ſi numerus, qui poſt unitatem, ſit cubus ſimul & quadratus, & reliquos omnes eſſe cubos ſimul, & quadratos; quia perſpicue hoc ipſum ex demonſtratis colligitur. Nam ſi proximus vnitati ſit cubus ſimul, & quadratus: qua parte eſt cubus, ea ratione omnes reliqui cubi erunt; qua uero parte eſt quadratus, ea ratione &
 
-SI ſint quotcunque numeri ab unitate continue proportionales, omnes poſiti in locis imparibus, nimirum in tertio, quinto, ſeptimo, nono, undecimo, &c. ſunt quadrati. Omnes autẽ, qui ſequuntur proxime numeros poſitos in locis, tertio, ſexto, nono, duodecimo, deci-
-
-<!-- Catchword: mo- -->
+<!-- Catchword: reliqui -->

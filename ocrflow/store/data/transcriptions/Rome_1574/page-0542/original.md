@@ -1,33 +1,45 @@
 <!-- Running title: LIBER VI. -->
-<!-- Page number: 228 -->
 
-deinde latere eius EH, in I, ſecundum proportionem B, ad C, (quod facile fiet, ſi conficiatur vna linea ex B, & C. Nam tunc ſimiliter ſecanda erit EH, &c.) deſcribatur circa EH, ſemicirculus EKH, & ex I, ducatur ad EH, perpendicularis IK, connectanturq́; rectæ EK, HK. Deſcribantur iam ex EK, KH, rectilinea EKLM, KHNO, ipſi EG, vel ipſi D, ſimilia ſimiliterq́; poſita; quæ dico æqualia etiã eſſe ipſi EG, ſeu ipſi A, habereq́ue proportionem datam B, ad C. Cum enim angulus EKH, in ſemicirculo exiſtens rectus ſit, erunt rectilinea EL, HO, æqualia rectilineo EG, cũ ſint ſimilia inter ſe, ſimiliterq́; deſcripta. Quoniam uero eſt, vt EI, ad IK, ita EK, ad KH, cum triangula EIK, EKH, ſimilia ſint; Eſt autẽ EI, ad IH, in proportione duplicata proportionis EI, ad IK, quod tres EI, IK, IH, ſint, ex corollario propos. 8. lib. huius, proportionales: Item EL, ad HO, in proportione duplicata eius, quam habet latus EK, ad latus homologum KH; erit vt EI, ad IH, hoc eſt, ut B, ad C, ita EL, ad HO. Dato ergo rectilineo A, exhibuimus duo æqualia EL, HO, quæ ſimilia ſunt, ſimiliterq́ue poſita dato rectilineo D, habentq́ue proportionem inter ſe datam B, ad C.
+<!-- Page number: 229 -->
 
-[Margin]
-10. ſexti.
-
-18. ſexti.
-
-31. tertij.
-
-31. ſexti.
-
-4. ſexti.
-
-20. ſexti.
-[/Margin]
-
-[Figure: a rectangle D, a triangle A, and a semicircle EKH on line EIH with attached rectilinear figures labelled L, K, O, M, N, and below the lines F, B, C]
-
-## DATO rectilineo, duo rectilinea æqualia exhibere, quæ cuiuis rectilineo ſimilia ſint, ſimiliterque deſcripta, lateraque eorum homologa habeant inter ſe proportionem datam.
+bus rectilineis A, & B, per ea, quæ ad propos. 45. lib. 1. docuimus. Si enim huic parallelogrammo conſtruxerimus æquale rectilineum EHI, quod ſimile ſit, ſimiliterq́; poſitum alteri dato rectilineo C; conſtitutum erit rectilineum EHI, æquale duob⁹ rectilineis A, B, & ſimile, ſimiliterq́; poſitũ rectilineo C.
 
 [Margin]
-VI.
+25. ſexti.
 [/Margin]
 
-DETVR rectilineum A, & proportio rectæ B, ad rectam C; oporteatque conſtituere duo rectilinea ipſi A, æqualia, & ſimilia ipſi D, ppoſito, ſimiliterq́; poſita, quorũ latera homologa pportionẽ habeãt, quã B, ad C. Inuẽta ipſis B, C, tertia pportionali E, fiat rectilineũ FGH, æquale ipſi A, & ſimile ſimiliterq́; poſitũ ipſi D. Diuiſoq́; latere FH, in I, ſ̃m pportionẽ B, ad E; deſcribaĩ circa FH, ſemicirculus FKH; et ex I, ducaĩ ad FH, perpẽdicularis
+## SI in circulo duæ rectæ lineę ſe ſe mutuo ſecuerint: Erunt ſegmenta unius ſegmentis alterius reciproca.
 
-[Figure: a rectangle A, a triangle D, a triangle FGH with semicircle FKH on line FIH and points L, K, M, and three vertical lines labelled B, C, E]
+[Margin]
+VIII.
+[/Margin]
 
-<!-- Signature: Ff 4 -->
-<!-- Catchword: IK, -->
+IN circulo ABCD, ſe mutuo ſecent rectæ AC, BD, in E. Dico ſegmenta AE, EC, eſſe reciproca ſegmẽtis BE, ED: Hoc eſt, eſſe vt AE, ad BE, ita ED, ad EC: Vel ut AE, ad ED, ita BE, ad EC. Cum enim rectangulum ſub AE, EC, comprehenſum æquale ſit rectangulo ſub BE, ED, contento; erunt latera circa æquales angulos reciproca. Quod eſt propoſitum.
+
+[Margin]
+35. tertij.
+
+14. ſexti.
+[/Margin]
+
+[Figure: circle ABCD with two chords AC and BD intersecting at point E]
+
+## SI extra circulum ſumatur punctũ aliquod, ab eoque in circulum cadãt duæ rectæ lineæ circulum ſecantes: Erunt totæ, & ſegmenta extra circulum reciproca. Quod ſi ab eodem puncto linea ducatur, quæ circulum tangat; Erit hęc media proportionalis inter quamlibet rectam, quę circulum ſecet & eius ſegmentum exterius.
+
+[Margin]
+IX.
+[/Margin]
+
+EXTRA circulum ABCD, ſumatur punctum E, à quo cadant rectæ EC, ED, ſecantes circulum in A, & B. Dico rectas EC, EB, eſſe reciprocas rectis ED, EA: Hoc eſt, eſſe, vt EC, ad ED, ita EA, ad EB: Vel ut EC, ad EA, ita ED, ad EB. Ducta enim EF, tangente circulum in F, erit rectangulum ſub EC, EB, quadrato rectæ EF, æquale; Item rectangulum ſub ED, EA, eidem quadrato rectæ EF, æquale. Quare & rectangula ſub EC, EB, & ſub ED, EA, æqualia erunt: Ac propterea latera eorũ circa angulos æquales reciproca. Quoniã autẽ quadrato rectæ EF, æquale eſt rectangulũ ſub EC, EB: Item rectangulũ ſub ED, EA, erunt tres rectæ EC, EF, EB. Itemq́;
+
+[Margin]
+36. tertij.
+
+14. ſexti.
+
+36. tertij.
+[/Margin]
+
+[Figure: circle ABCD with external point E, tangent line EF touching the circle at F, and two secant lines from E cutting the circle at A, B and C, D]
+
+<!-- Catchword: tres -->

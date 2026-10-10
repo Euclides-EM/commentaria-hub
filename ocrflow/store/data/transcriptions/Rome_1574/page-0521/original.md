@@ -1,25 +1,26 @@
 <!-- Running title: EVCLID. GEOM. -->
+<!-- Page number: [unclear: 212] -->
+
+HM, quæ ſit parallela ipſi AB, occurratq́; rectis AK, BE, protractis in H, & M; Itẽ ducta GF, parallela ipſi AH; erit parallelogrammũ AG, applicatum ſecundum rectam AB, deficiẽs parallelogrammo FM, quod ipſi CE, eſt ſimile ſimiliterque poſitũ, cum ſit circa eandem diametrum cum CE; Dico adhuc maius eſſe AD, ipſo AG. Protracta enim CD, ad L, erunt æquales rectæ HL, LM, ideoque æqualia parallelogramma HD, DM. Cum igitur DM, ſit æquale complemento DF, erit & HD, æquale ipſi DF. Eſt autem HD, maius quam HI, parallelogrammo IL. Quare & DF, maius erit quam HI, eodem parallelogrammo IL; Ac propterea communi addito AI, maius erit AD, quam AG, eodem parallelogrammo IL. Iiſdem argumentis cõcludes AD, maius eſſe quocunque parallelogrammo ita applicato ſecundum rectam AB, ut punctum G, ſit ultra D, in diametro BD, producta; hoc eſt, quod occupat minorem lineam dimidia AC, habetque maiorem altitudinem, quam AD; dummodo defectus ſimilis exiſtat parallelogrammo CE. Itaque omnium parallelogrammorum ſecundum eandem rectam lineam applicatorum, &c. Quod erat demonſtrandum.
+
+[Figure: parallelogram with diagonal and inscribed parallelograms, labelled H, G, L, M, K, D, I, E, A, F, C, B]
 
 [Margin]
 24. ſexti.
+34. primi
+36. primi
 [/Margin]
 
-erit EG, ipſi BD, ſimile ſimiliterque poſitum. At vero ſi in rectangulo IL, quod ſit æquilaterũ ipſi BD, ſumatur HM, æqualis ipſi EF; & MN, æqualis ipſi AE, &c. erit quidem rectangulum MO, æquale & ſimile rectangulo EG, propter æqualitatẽ laterum, & angulorum, qui ſunt recti, & ob id ſimile rectangulo IL; ſed tamen quia non eſt ſimiliter poſitum, non conſiſtet circa eandem cum toto IL, diametrum.
+## SCHOLION.
 
-[Figure: two rectangles with diagonals, labelled B, C, I, K, E, F, M, N, A, G, D, H, O, L]
-
-IDEM quoque hic perſpicitur in rectangulis, quorum unũ eſt extra alterum, ſecundum tamen angulos eorum ita inter ſe connexa, ut duo latera unius in directum iaceant cum duobus lateribus alterius, qualia ſunt parallelogramma rectangula BD, EG; & IL, MO; in quibus EG, quidem conſiſtit circa eandem diametrum cum rectangulo BD, quoniam eſt ſimiliter poſitum: At vero MO, minime conſiſtit circa eandem diametrum cum rectangulo IL, quia non eſt ſimiliter poſitum, quamuis ſimile ſit, cũ prorſus ſit æquale ipſi EG. Nam KM, æqualis eſt ipſi EF, & MN, ipſi EC, &c.
-
-[Figure: two rectangles with diagonals, labelled E, F, M, N, B, C, I, K, G, O, A, D, H, L]
+MANIFESTVM autem eſt, lineam, ad quam parallelogrammum deficiens applicatur, eſſe uel maiorem dimidia AC, qualis eſt AK, in priori figura, uel minorem, cuiuſmodi eſt AF, in figura poſteriori: prout punctum G, ſumitur uel in diametro BD, uel in ea producta ad partes D.
 
 [Margin]
-26.
+27.
 [/Margin]
 
-## THEOR. 20. PROPOS. 27.
+## PROBL. 8. PROPOS. 28.
 
-OMNIVM parallelogrammorum ſecundum eandem rectam lineam applicatorum, deficientiumq́; figuris parallelogrammis ſimilibus ſimiliterque poſitis ei, quod a dimidia deſcribitur; maximũ id eſt, quod ad dimidiam applicatur, parallelogramũ ſimile exiſtens defectui.
+AD datam lineam rectam, dato rectilineo æquale parallelogrammum applicare deficiens figura parallelogramma, quæ ſimi-
 
-DETVR recta AB, diuiſa bifariam in C, ſuperq́; eius dimidiam BC, conſtituatur quodcunque parallelogrammũ CDEB, cuius diameter BD. Si igitur compleatur totum
-
-<!-- Catchword: paralle- -->
+<!-- Catchword: lis -->

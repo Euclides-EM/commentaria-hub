@@ -1,33 +1,25 @@
-<!-- Running title: EVCLID. GEOM. -->
+<!-- Running title: EVCLID.GEOM. -->
+
+ſum A, ſemper demonſtrabitur E, ipſum A, metiri. Quod eſt abſurdum. Metitur ergo E, ipſum A. Eodem argumēto oſtendemus, quoſcunque alios numeros primos ipſum D, metientes, metiri quoque ipſum A; Eadēque erit ratio ſi C, uel B, ultimus numerus ſtatuatur. Si igitur ab unitate quotcunq; numeri deinceps proportionales fuerint, &c. Quod oſtendendum erat.
+
+ALITER. Metiatur E, numerus primus ultimum D. Dico, & E, ipſum A, metiri. Si enim non metiatur; erit E, ad A, primus. Quia igitur A, & E, inter ſe primi ſunt, & A, ſe ipsũ multiplicans facit B, ut apparet ex ſcholio propos. præcedentis; erit B, ad E, primus. Quia ergo A, & B, ad E, primi ſunt, fit autem C, ex A, in B, per idem ſcholion; erit C, ad E, primus. Rurſus eodem modo, quia A, & C, ad E, primi ſunt, & fit D, ex A, in C, per idem ſcholiõ; erit D, ad E, primus. Non igitur E, ipſum D, metitur. Quod eſt cõtra hypotheſim. Metitur ergo E, ipſum A.
 
 [Margin]
-5. pron.
+31. ſeptimi
+27. ſeptimi
+26. ſeptimi
+26. ſeptimi
 [/Margin]
 
-merum G: Sed unitas metitur numerum D, per ipſummet D. Igitur & C, numerus numerum G, per D, metietur. Eadem ratione metietur E, ipſum F, per A, quod ſit ut E, ad F, ita unitas ad A, &c. Sic quoque metietur A, ipſum G, per F, cum ſit ex æquo ut A, ad G, ita unitas ad F, &c. Atque ita de reliquis eodem modo. Si igitur ab unitate quotcunque numeri deinceps proportionales fuerint, &c. quod erat oſtendendum.
+[Calculation]
+Vnitas. A,6. B,36 C,216. D,1296.
+E,3.
+[/Calculation]
 
 ## SCHOLION.
 
-PERSPICVVM autem eſt ex his, quantum abeſt maior numerus a minore metiente, tantum diſtare ab vnitate eum numerum, per quem minor maiorem metitur; propterea quod eadem eſſe debet proportio minoris ad maiorem, quæ vnitatis ad eum, per quem metitur minor maiorem, ut ex demonſtratio-
+EST autem admirabilis prima huius propoſitionis demonſtratio. Nam in ea Euclides ex eo, quod E, dicatur non metiri ipſum A, oſtendit demonſtratione affirmatiua E, ipſum A, metiri: quod uidetur fieri non poſſe. Nam ſi quis demonſtrare inſtituat, Socratem eſſe album, ex eo, quod non eſt albus, paradoxum aliquid, & inopinatum in medium uideatur afferre: Cui tamen non abſimile quid factum hic eſt in numeris ab Euclide, & in alijs nonnullis propoſitionibus, quæ ſequuntur. Cardanus quoque ſimile quid effecit in magnitudinibus, lib.5. de propor. propos. 201. gloriaturque ſe primum omnium hanc rationem demonſtrandi reperiſſe; Quod arbitror eum non dicturum fuiſſe, ſi diligentius uim huius demonſtrationis expẽdiſſet, vel certe, ſi expendit, eam in memoriam reuocaßet; quãdoquidem ipſo longe prior Euclides vſus eſt hoc etiam demonſtrandi modo, vt ex hoc theoremate 12. eſt manifeſtum.
 
-[Calculation]
-Vnitas. A,3. B,9. C,27. D,81. E,243. F,729. G,2187.
-[/Calculation]
+CAETERVM ex demonſtratis perſpicuum eſt, quen-
 
-ne apparet. Itaque B, metietur F, per D; Et C, metietur F, per C, nempe per ſe ipſum, &c.
-
-[Margin]
-9. pron.
-[/Margin]
-
-HINC rurſus efficitur, quemlibet numerum, qui ſe ipſum multiplicet, producere numerum, qui in numeris proportionalibus tantum ab eo diſtat, quantum ipſe ab unitate. Si vero minor aliquis maiorem quempiã multiplicet, procreari numerum, qui tantum a maiore diſtat, quantum minor ab ab{printer-error-correction:ab} vnitate; propterea quod ſi numerus numerum metiens multiplicet eum, per quem metitur, producatur ille, quem metitur. Ergo C, ſe ipſum multiplicans gignet F, cum F, tantum abſit a C, quantum C, ab vnitate; ac propterea C, ipſum F, per C, metiatur, vt diximus. Sic quoque B, multiplicans D, faciet eundem F; quod D, ipſum F, metiatur per B, &c. & ſic de reliquis.
-
-[Margin]
-11.
-[/Margin]
-
-## THEOR. 12. PROPOS. 12.
-
-SI ab unitate quotcunque numeri deinceps proportionales fuerint; quicunque pri-
-
-<!-- Catchword: morum -->
+<!-- Catchword: cunque -->

@@ -1,29 +1,57 @@
-<!-- Running title: LIBER VII. -->
+<!-- Running title: LIBER. VII. -->
+<!-- Page number: 265 -->
 
-<!-- Page number: 264 -->
-
-*C L, ad H; & uiciſſim ut A K, ad C L, ita G, ad H, uel A B, ad C D. Eodemque modo erit, ut C L, ad E M, ita C D, ad E F. Quare continuantur numeri A K, C L, E M, in proportionibus numerorum A B, C D, E F, & minores quam A B, C D, E F. Quod eſt abſurdum, cum hi ponantur in ſuarum proportionum continuatione minimi. Non ergo A B, C D, E F, eædem partes ſunt numerorum G, H, I. Quare ſinguli ſingulorum eadem pars; Ac propterea A B, ipſum G, & C D, ipſum H, & E F, ipſum I, æque metietur. Quod eſt propoſitum.*
+*SIT, ut A, ad B, ita C, ad D. Dico & conuertendo, ſiue inuerſa ratione, eſſe ut B, ad A, ita D, ad C. Cum enim ſit C, ad D, ut A, ad B, erit uiciſſim C, ad A, ut D, ad B. Rurſus quia eſt D, ad B, ut C, ad A, erit uiciſſim, D, ad C, ut B, ad A, hoc eſt, ut B, ad A, ita D, ad C; Quod eſt propoſitum.*
 
 [Margin]
 13. ſeptimi
 [/Margin]
 
-*QVOD ſi tres numeri dati A, B, C, minimi ſint in continuatione ſuarum proportionum, ita ut etiam quilibet duo minimi ſint, facilius idem hoc modo demonſtrabitur. Sint alij tres D, E, F, non minimi, qui eaſdem habeant proportiones, quas A, B, C. Dico A, B, C, ipſos D, E, F, æque metiri. Nã per hæc propos. 21. A, B, cũ ſint minimi in proportione A, ad*
-
-[Diagram: rows of dotted lines labelled A, B, C and D, E, F]
-
-*B, æque metientur ipſos D, E; eademq́ꝫ ratione B, C, ipſos E, F. Quare cum A, ipſum D, & C, ipſum F, æque metiatur, ac B, ipſum E; metientur æque omnes A, B, C, ipſos D, E, F.*
-
-## THEOR. 20. PROPOS. 22.
+[Diagram: rows of dotted lines labelled A, C; B, D]
 
 [Margin]
-19.
+II.
 [/Margin]
 
-SI fuerint tres numeri, & alij ipſis multitudine æquales, qui bini ſumantur, & in eadem ratione, fuerit autem perturbata eorum proportio; Etiam ex æqualitate in eadem ratione erunt.
+Si compoſiti numeri proportionales ſint: Hi quoque diuiſi proportionales erunt.
 
-*SINT tres numeri A, B, C, & totidem D, E, F, qui bini ſumantur, & in eadẽ ratione, ſitque perturbata eorũ pportio, ut quidẽ A, ad B, ita E, ad F; & ut B, ad C, ita D, ad E. Dico, ex æqualitate quoque eſſe*
+*SIT ut AB, ad CB, ita DE, ad FE. Dico & diuidendo eſſe, ut AC, ad CB, ita DF, ad FE. Cum enim ſit ut AB, ad CB, ita DE, ad FE, erit uiciſſim, ut totus AB, ad totum DE, ita ablatus CB, ad ablatum FE: Ac proinde, ut totus AB, ad totum DE, ita reliquus AC, ad reliquum DF: hoc eſt, AC, ad DF, ut CB, ad FE. Viciſſim ergo erit quoque AC, ad CB, ut DF, ad FE. Quod eſt propoſitum.*
 
-[Diagram: rows of dotted lines labelled A, H; B, D; C, E; G, F]
+[Diagram: rows of dotted lines labelled A, C, B; D, F, E]
 
-<!-- Catchword: ut -->
+[Margin]
+13. ſeptimi
+
+11. ſeptimi
+
+13. ſeptimi
+[/Margin]
+
+[Margin]
+III.
+[/Margin]
+
+Si diuiſi numeri proportionales ſint; Hi quoque compoſiti proportionales erunt.
+
+*SIT ut AB, ad BC, ita DE, ad EF. Dico & componendo, eſſe ut AC, ad BC, ita DF, ad EF. Cum enim ſit, ut AB, ad BC, ita DE, ad EF, erit uiciſſim, ut AB, ad DE, ita BC, ad EF; Ac proinde AB, BC, ſimul ad DE, EF, ſimul, ut BC, ad EF; Et uiciſſim AB, BC, ſimul, hoc eſt, totus AC, ad BC, ut DE, EF, ſimul, hoc eſt, totus DF, ad EF. Quod eſt propoſitũ.*
+
+[Diagram: rows of dotted lines labelled A, B, C; D, E, F]
+
+[Margin]
+13. ſeptimi
+
+12. ſeptimi
+
+13. ſeptimi
+[/Margin]
+
+[Margin]
+IIII.
+[/Margin]
+
+Si compoſiti numeri proportionales ſint; Hi quoque per conuerſionem rationis proportionales erunt.
+
+*SIT ut AB, ad CB, ita DE, ad FE. Dico, per conuer-*
+
+<!-- Signature: Ll -->
+<!-- Catchword: ſionem -->

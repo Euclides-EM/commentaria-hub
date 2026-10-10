@@ -1,41 +1,33 @@
-<!-- Running title: LIBER. VI. -->
+<!-- Running title: LIBER VI. -->
 
-<!-- Page number: 211 -->
+<!-- Page number: 212 -->
 
-demque ratione oſtendemus, proportionem AC, ad CF, componi ex proportionibus BC, ad GE, & DC, ad CG; dummodo parallelogramma ita coniungantur ad angulos rectos, ut BC, CE, efficiant unam rectam lineam, &c. Aequiangula itaque parallelogramma inter ſe, rationem habent, &c. Quod erat oſtendendum.
+bus æqualem angulum comprehendentibus continentur.
 
-[Margin]
-11.
-[/Margin]
+SINT triangula ABC, DEF, angulum A, angulo D, habentia æqualem. Dico eſſe ABC, ad DEF, ut rectangulum ſub AB, AC, ad rectangulum ſub DE, DF. Ductis enim ad AC, DF, perpendicularibus BG, EH, erunt triangula ABG, DEH, æquiangula, ut conſtat ex coroll. 1. propoſ. 32. lib. 1. cũ duo ãguli A, AGB, duobus angulis D, DHE, ſint æquales. Igitur erit, ut GB ad BA, ita HF, ad ED: Vt autem GB, ad BA, ita eſt rectangulum ſub BG, AC, ad rectangulum ſub ∀B{printer-error-correction:AB}, AC. (Nam ſi baſes ponantur GB, BA, erit eorum eadem altitudo AC.) Et eadem ratione, ut HE, ad ED, ita eſt rectangulum ſub EH, DF, ad rectangulum ſub DE, DF. Rectangulum igitur ſub BG, AC, ad rectangulum ſub AB, AC, eſt, ut regulum{printer-error-correction:rectangulum} ſub EH, DF, ad rectangulum ſub DE, DF; & permutando, rectangulum ſub BG, AC, ad rectangulum ſub EH, DF, ut rectangulum ſub AB, AC, ad rectangulum ſub DE, DF. Sed ut rectangulum ſub BG, AC, ad rectangulum ſub EH, DF, ita eſt triangulum ABC, ad triangulum DEF, quod hac triangula ſint rectangulorum illorum dimidia. (Habent enim eaſdem cum illis baſes AC, DF, altitudinesque eaſdem BG, EH; ac proinde inter eaſdem cum illis parallelas ſunt conſtitutæ.) Igitur erit quoque triangulum ABC, ad triangulum DEF, ut rectangulum ſub AB, AC, ad rectangulum ſub DE, DF. Quod eſt propoſitum.
 
-## SCHOLION.
-
-EXPEDITIVS idem demonſtrabitur hoc modo, Coniunctis parallelogrammis, ut prius; Cum ſit ut AC, ad CH, ita BC, ad CG; & ut CH, ad CF, ita DC, ad CE; Proportio autem AC, ad CF, componatur, per definitionem, ex intermedijs proportionibus AC, ad CH, & CH, ad CF; componetur quoque eadem proportio AC, ad CF, ex proportionibus BC, ad CG, & DC, ad CE, quæ illis intermedijs ſunt æquales. Quod eſt propoſitum.
+[Figure: two triangles, the first with vertices A, B, C and interior point G, the second with vertices D, E, H and point F]
 
 [Margin]
+4. ſexti
+
 1. ſexti.
-[/Margin]
 
-DEMONSTRAT hoc in loco Federicus Commandinus nonnulla alia ad compoſitionem proportionum pertinentia non inutilia, quæ nos quoque afferre decreuimus, mutatis tamen nonnihil demonſtrationibus; Sunt autem ea, quæ ſequuntur.
+11. quinti.
 
-TRIANGVLA, quæ unum angulum uni angulo æqualem habent, proportionem habent ex lateribus æqualem angulum comprehendentibus compoſitam.
+15. quinti.
 
-[Margin]
-I.
-[/Margin]
-
-SINT triangula ABC, DEF, angulum C, angulo F, habentia æqualem. Dico proportionem trianguli ABC, ad triangulum DEF, compoſitam eſſe ex lateribus, hoc eſt, ex proportione BC, ad EF, & ex proportione AC, ad DF; Vel ex proportione BC, ad DF, & proportione AC, ad EF. Completis enim parallelogrammis CG, FH, erunt ea æquiangula; atque adeo eorum proportio ex lateribus componetur. Cum ergo triangula ABC, DEF, cum ipſis, quorum ſunt dimidia, eandem habeant proportionem; Erit quoque
-
-[Figure: two conjoined parallelograms with diagonals, vertices labelled G, A, H, D above and B, C, E, F below]
-
-[Margin]
-23. ſexti.
+41. primi
 [/Margin]
 
 [Margin]
-15. ſexti.
+V.
 [/Margin]
 
-<!-- Signature: Dd 3 -->
+PARALLELOGRAMMA inter ſe æqui angula, eandem habent proportionem, quam rectangula ſub lateribus ipſorum æqualem angulum continentibus comprehenſa.
 
-<!-- Catchword: quoque -->
+SINT parallelogramma ABCD, EFGH, æquiangula inter ſe, quorum anguli B, & F, ſint æquales. Dico eſſe,
+
+<!-- Signature: Dd 4 -->
+
+<!-- Catchword: ut -->

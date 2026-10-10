@@ -1,37 +1,18 @@
 <!-- Running title: LIBER IX. -->
-<!-- Page number: 316 -->
+<!-- Page number: 317 -->
 
-DE, ipſius HI; & EB, ipſius IK, pars erit a C, denominata, nempe eadem quæ AB, ipſius F. Quia uero, per ea quæ ad propoſ. 5. lib. 7. demonſtrauimus, totus AB, totius GK, eadem pars eſt, quæ AD, ipſius GH; erit quoque AB, totus totius GK, pars eadem, quæ AB, ipſius F; Ac proinde inter ſe æquales erunt F, & GK. Quod eſt propoſitum.
+medij C D, eſſe æqualem quadrato, qui ex dimidio numero C B, efficitur. Nam cum numerus quadratus ipſius C B, per 4. theorema, æqualis ſit quadratis partium C D, D B, vna cum plano numero bis comprehenſo ſub C D, D B; numero vero comprehenſo ſub C D, D B, vna cum quadrato ipſius D B, æqualis ſit, per 3. theorema, numerus factus ex C B, in D B; erit numerus quadratus ipſius C B, æqualis etiam reliquo quadrato ipſius CD, vna cum reliquo numero facto ex C D, in D B, & numero ex C B, hoc eſt, ex A C, in D B, producto. Atqui ex 1. theorem. numeris, qui fiunt ex C D, in D B, & ex A C, in D B, æqualis eſt numerus, qui fit ex A D, in D B. Igitur quadratus ipſius C B, æqualis erit quadrato ipſius C D, vna cum numero qui fit ex A D, in D B; hoc eſt, numerus factus ex A D, in D B, vna cum quadrato ipſius C D, æqualis eſt quadrato ipſius C B. Quod eſt propoſitũ.
 
-[Margin]
-4. pron.
-[/Margin]
+[Diagram: horizontal line with points labelled A, C, D, B]
 
 [Margin]
-II.
+VI.
 [/Margin]
 
-SI numerus in duas partes diuidatur: Numeri plani ſub toto, & ſingulis partibus comprehenſi æquales ſunt numero quadrato, qui a toto efficitur.
+SI numerus in duas partes æquales diuidatur, & illi aliquis alius numerus adijciatur: Numerus qui fit ex toto cum adiecto in adiectum, una cum quadrato dimidij numeri, æqualis eſt quadrato eius numeri, qui ex dimidio & adiecto componitur.
 
-NVMERVS AB, diuidatur in AC, CB. Dico numeros, qui fiunt ex AB, toto in partes AC, CB, ſimul æquales eſſe numero quadrato, qui ex toto AB, efficitur. Sumpto enim numero D, qui æqualis ſit ipſi AB; erit per theor. 1. numerus factus ex D, hoc eſt, ex AB, in AB, nimirũ quadratus ipſius AB, æqualis numeris, qui fiunt ex D, hoc eſt, ex AB, in AC, & in CB. quod eſt propoſitum.
+NVMERVS AB, ſecetur in partes æquales A C, C B, eique adijciatur numerus B D. Dico numerum factum ex toto A B, & adiecto B D, tanquam vno, in adiectum B D, vna cum quadrato dimidij numeri C B, æqualem eſſe quadrato, qui fit ex C B, dimidio & adiecto B D, tanquam vno. Cum enim quadratus ipſius C D, per 4. theorema, æqualis ſit quadratis partium C B, B D, vna cum numero bis comprehenſo ſub C B, B D, hoc eſt, vna cum numeris ſub C B, B D, & ſub A C, B D, comprehenſis; numeris autem contentis ſub C B, B D, & ſub A C, B D, & ſub B D, B D, hoc eſt, quadrato ipſius B D, æqualis ſit, ex 1. theorem. numerus factus ex A D, in B D; erit quadratus ipſius C D, æqualis reliquo quadrato ipſius C B, vna cum numero facto ex A D, in B D; hoc eſt, numerus factus
 
-[Calculation]
-[/Calculation]
+[Diagram: horizontal line with points labelled A, C, B, D]
 
-IDEM demonſtrabitur, ſi AB, in plures partes, quam in duas ſecetur, vt ex appoſita ſecunda figura apparere poteſt. Eadem enim ratione erit numerus factus ex E, hoc eſt, ex AB, in AB, nempe quadratus ipſius AB, æqualis numeris, qui gignuntur ex E, hoc eſt, ex AB, in ſingulas partes AC, CD, DB.
-
-[Calculation]
-E . . . . . . . .
-A . . . C . . . D . . B
-[/Calculation]
-
-[Margin]
-III.
-[/Margin]
-
-SI numerus in duas partes diuidatur: Numerus planus ſub toto, & una parte comprehenſus æqualis eſt & illi, qui ſub partibus continetur, & quadrato, qui a prædicta parte efficitur.
-
-SIT numerus AB, diuiſus in AC, CB. Dico numerum, qui fit ex toto AB, in partem AC, æqualem eſſe & ei, qui ſub partibus AC, CB, continetur, & quadrato dictæ partis AC.
-
-<!-- Signature: Rr 4 -->
-<!-- Catchword: Sumpto -->
+<!-- Catchword: ex -->

@@ -1,17 +1,23 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 234 -->
+<!-- Page number: 235 -->
 
-NON eſt diſſimilis hæc definitio illi, qua Euclides lib. 5. partem quantitatis continuæ expoſuit. Sicut enim ibi, ita & hic partem duntaxat aliquotam definit, cum hæc ſolum proprie dicatur metiri totum, vt ibidem latius explicauimus. Itaque numerus 6. dicetur pars omnium horum numerorum 12. 18. 24. 30. 60. 630. &c. quia ille ſingulos hos metitur: Similiter huius numeri 576. partes erunt omnes hi numeri 3.4.6.8. cum illum ſinguli hi metiantur, vt perſpicuum eſt.
+## VI.
 
-OMNIS autem pars ab eo numero nomen ſibi ſumit, per quem ipſa numerum, cuius pars eſt, metitur; ut 6. pars huius numeri 42. nomen trahit a 7. cum 6. metiatur 42. per 7. Itaque 6. erit ſeptima pars numeri 42. & in reliquis eodẽ modo.
+## PAR numerus eſt, qui bifariam diuiditur.
 
-## IIII.
+VT omnes hi numeri 4. 10. 40. 100. 1000. pares vocantur, quoniam diuiduntur bifariam, ſiue in duas partes æquales, cum eorum dimidia ſint 2. 5. 20. 50. 500.
 
-## PARTES autem, cum non metitur.
+## VII.
 
-VVLT Euclides, numerum minorem maioris numeri, quem nõ metitur, non partem, ſed partes appellari: cuiuſmodi eſt numerus 5. ſi conferatur cum hoc numero 18. Quamuis enim, cũ eum non metiatur, niſi per ſuas vnitates, pars dici non debeat; apte tamen congruenterque partes poterit appellari, quod quinque contineat vnitates, quarum quælibet decimaoctaua pars eſt huius numeri 18. Vnde numerum 5. dicemus quinque partes decimasoctauas numeri 18. Ex quibus liquido conſtat, Euclidem nomine partis intellexiſſe partem aliquotam tantum, nõ autem & aliquantum, vt volunt nonnulli; alioquin ſuperuacanea eſſet hæc definitio quarta, quæ partem aliquantam comprehendit.
+## IMPAR uero, qui bifariam non diuiditur. Vel, qui unitate differt a pari.
 
-CÆTERVM partes quæcunque nomen accipiunt a duobus illis numeris, per quos communis duorum numerorum menſura utrumque eorum metitur, & eum ſcilicet, qui partes dicitur, & eum, cuius ille partes appellatur: Ita ut ſi communis duorum numerorum menſura metiatur minorem per 3. & maiorem per 5. dicatur minor maioris tres quintæ. Tales partes ſunt 6. huius numeri 10. nam communis eorum menſura 2. metitur 6. per 3. & 10. per 5. Eadem ratione eundam. numerum 6. dicemus ſex decimas eiuſdem numeri 10. cum vnitas, eorum cõ
+OMNES hi numeri 5. 11. 15. 37. 101. 1001. impares nominantur, quia bifariam diuidi nequeunt. Vel certe, quia unitate differunt ab his paribus 4. 10. 14. 36. 100. 1000. uel etiam ab his 6. 12. 16. 38. 102. 1002. Ex hoc autem loco perſpicue colligi poteſt, vnitatem in numeris prorſus eſſe indiuiduam. Si enim diuideretur, omnis numerus impar haberet dimidium; atque adeo bifariam diuidi poſſet. Nam huius imparis 11. dimidia pars eſſent quinque vnitates & ſemis: cuius contrarium Euclides hac definitione docuit.
 
-<!-- Signature: Gg 2 -->
-<!-- Catchword: munis -->
+## VIII.
+
+## PARITER par numerus eſt, quem par numerus metitur per numerum parẽ.
+
+QVIA numerus par eſt, qui bifariam diuiditur, fit vt quemlibet parem aliquis numerus par, ſaltem binarius, metiatur. Numerus igitur ille par, quem par numerus metitur per numerum parem, pariter par nominatur. Cuiuſmodi eſt numerus hic par 32. Metitur enim ipſum par numerus 8. per numerum parem 4. Ita quoque par numerus 24. pari-
+
+<!-- Signature: Gg 3 -->
+<!-- Catchword: ter -->

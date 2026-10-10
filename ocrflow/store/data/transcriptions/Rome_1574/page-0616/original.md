@@ -1,57 +1,27 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 265 -->
+<!-- Page number: 266 -->
 
-*SIT, ut A, ad B, ita C, ad D. Dico & conuertendo, ſiue inuerſa ratione, eſſe ut B, ad A, ita D, ad C. Cum enim ſit C, ad D, ut A, ad B, erit uiciſſim C, ad A, ut D, ad B. Rurſus quia eſt D, ad B, ut C, ad A, erit uiciſſim, D, ad C, ut B, ad A, hoc eſt, ut B, ad A, ita D, ad C; Quod eſt propoſitum.*
+habeant rationem; & detracti quidam habeant ad eoſdem eandem: Et reliqui ad eoſdem eandem rationem habebunt.
 
-[Margin]
-13. ſeptimi
-[/Margin]
-
-[Diagram: rows of dotted lines labelled A, C; B, D]
+*SIT ut totus AB, ad C, ita totus DE, ad F; Item ut detractus AG, ad C, ita detractus DH, ad F. Dico & reliquum GB, eſſe ad C, ut eſt reliquus HE, ad F. Cum enim ſit, ut AG, ad C, ita DH, ad F; erit conuertendo, ut C, ad AG, ita F, ad DH. Quia igitur eſt, ut AB, ad C, ita DE, ad F; & ut C, ad AG, ita F, ad DH; erit ex æqualitate ut AB, ad AG, ita DE, ad DH. Diuidendo ergo ut GB, ad AG, ita HE, ad DH. Itaque cum rurſus ſit, ut GB, ad AG, ita HE, ad DH; & ut AG, ad C, ita DH, ad F; erit ex æqualitate, ut GB, ad C, ita HE, ad F. Quod eſt propoſitum.*
 
 [Margin]
-II.
+[unclear: I.]
 [/Margin]
 
-Si compoſiti numeri proportionales ſint: Hi quoque diuiſi proportionales erunt.
+[Diagram: rows of dotted lines labelled A, G, B; C; D, H, E; F]
 
-*SIT ut AB, ad CB, ita DE, ad FE. Dico & diuidendo eſſe, ut AC, ad CB, ita DF, ad FE. Cum enim ſit ut AB, ad CB, ita DE, ad FE, erit uiciſſim, ut totus AB, ad totum DE, ita ablatus CB, ad ablatum FE: Ac proinde, ut totus AB, ad totum DE, ita reliquus AC, ad reliquum DF: hoc eſt, AC, ad DF, ut CB, ad FE. Viciſſim ergo erit quoque AC, ad CB, ut DF, ad FE. Quod eſt propoſitum.*
-
-[Diagram: rows of dotted lines labelled A, C, B; D, F, E]
+*ITEM & hoc demonſtrabimus.*
 
 [Margin]
-13. ſeptimi
-
-11. ſeptimi
-
-13. ſeptimi
+VII.
 [/Margin]
 
-[Margin]
-III.
-[/Margin]
+Si primus ad ſecundum eandem habuerit rationem, quam tertius ad quartum; habuerit autem & primus ad quintum eandem, quam tertius ad ſextum: Etiam primus ad compoſitum ſecundum cum quinto eandem rationem habebit, quam tertius ad quartum cum ſexto.
 
-Si diuiſi numeri proportionales ſint; Hi quoque compoſiti proportionales erunt.
+*SIT ut primus A, ad ſecundum BC, ita tertius D, ad quartum EF; & ut primus A, ad quintum CG, ita tertius D, ad ſextum FH. Dico ita eſſe A, primum ad BG, compoſitum ex ſecundo & quinto, ut eſt D, tertius ad EH, compoſitum ex quarto & ſexto. Cum enim ſit, ut A, ad BC, ita D, ad EF; erit conuertendo ut BC, ad A, ita EF, ad D. Quia igitur eſt ut BC, ad A, ita EF, ad D; & ut A, ad CG, ita D, ad FH; erit ex æqualitate ut BC, ad CG, ita EF, ad FH; & componendo, ut BG, ad CG, ita EH,*
 
-*SIT ut AB, ad BC, ita DE, ad EF. Dico & componendo, eſſe ut AC, ad BC, ita DF, ad EF. Cum enim ſit, ut AB, ad BC, ita DE, ad EF, erit uiciſſim, ut AB, ad DE, ita BC, ad EF; Ac proinde AB, BC, ſimul ad DE, EF, ſimul, ut BC, ad EF; Et uiciſſim AB, BC, ſimul, hoc eſt, totus AC, ad BC, ut DE, EF, ſimul, hoc eſt, totus DF, ad EF. Quod eſt propoſitũ.*
+[Diagram: rows of dotted lines labelled A; B, C, G; D; E, F, H]
 
-[Diagram: rows of dotted lines labelled A, B, C; D, E, F]
-
-[Margin]
-13. ſeptimi
-
-12. ſeptimi
-
-13. ſeptimi
-[/Margin]
-
-[Margin]
-IIII.
-[/Margin]
-
-Si compoſiti numeri proportionales ſint; Hi quoque per conuerſionem rationis proportionales erunt.
-
-*SIT ut AB, ad CB, ita DE, ad FE. Dico, per conuer-*
-
-<!-- Signature: Ll -->
-<!-- Catchword: ſionem -->
+<!-- Signature: LI 2 -->
+<!-- Catchword: ad -->

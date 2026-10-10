@@ -1,8 +1,20 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 240 -->
+<!-- Page number: 241 -->
 
-partes: Vel certe, cum primus ſecundum, & tertius quartum, æqualiter continet, eandemque inſuper illius partem, uel eaſdem partes.
+Vel certe illos æqualiter contineat, eandemque inſuper eorum partem, vel partes; perſpicuum eſt, æquales numeros ad eundem, vel eundem numerum ad æquales, eandem habere proportionem, iuxta hanc definitionem.
 
-VT numeros proportionales in omni genere proportionis rationalis inæqualitatis (cuiuſmodi ſunt omnes numeri inæquales inter ſe collati) complecteremur, addidimus huic definitioni illa verba; vel certe, cum primus ſecundum, & tertius quartum, æqualiter contines, eandemque inſuper illius partem, vel eaſdem partes. Definitio etenim uulgata Euclidis, quã puto eſſe corruptam, cum manca ſit, atque imperfecta, comprehendit ſolum proportionales numeros in proportione multiplici, ſubmultiplici, & in proportionibus reliquis minoris inæqualitatis. Nam in proportione multiplici ſunt quatuor quilibet numeri proportionales, cum primus ſecundi, & tertius quarti, æque multiplex eſt; in ſubmultiplici vero, cum primus ſecundi, & tertius quarti, eadem pars eſt; & in reliquis proportionibus minoris inæqualitatis, cum primus ſecundi, & tertius quarti, eædem partes fuerit, vt vult definitio Euclidis: At vero ex ea nequaquam deprehendere poſſumus, quinam numeri proportionales ſint in proportione ſuperparticulari, ſuperpartiente, multiplici ſuperparticulari, & multiplici ſuperpartiente; In his enim omnibus, primus numerus ſecundi, & tertius quarti, nec æque multiplex eſt, nec eadem pars, nec eædem partes; ſed primus ſecundum, & tertius quartum, æqualiter continet, puta vel ſemel, vel aliquoties, & eandem inſuper illius partem, eaſdemue partes; vt perſpicuum eſt ex ijs, quæ docuimus ad defin. 3. lib. 5. vbi omnes proportiones rationales copioſe explicuimus. Itaque hi numeri 12. 4. 9. 3. proportionales ſunt, cum primus ſecundi, & tertius quarti æque multiplex ſit, nempe triplus. Item hi 4. 12. 3. 9. eſt enim primus ſecundi, & tertius quarti, eadem pars, nimirum tertia. Rurſus proportionales ſunt hi numeri 6. 8. 9. 12. quod primus ſecundi, & tertius quarti eædem partes ſint, videlicet tres partes quartæ. Denique & 7. 6. 14. 12. & 7. 4. 14. 8. & 11. 5. 22. 10. & 12. 5. 24. 10. ſunt numeri proportionales. Nam in primo exemplo primus numerus ſecundum, & tertius quartum, ſemel, &
+RVRSVS quia numeri ad eundem habentes eandem proportionem, ſunt illius vel æquemultiplices, vel eadem pars, vel eædem partes; Vel certe illum æqualiter continent, eandemq; inſuper eius partem, vel partes: Item quia idẽ numerus habens eandem proportionem ad aliquos, eſt illorum vel æque multiplex, vel eadem pars, vel eadem partes; Vel certe illos æqualiter continet, eandemque inſuper illorum partem, vel partes, ſecundum hanc eandem definitionem; manifeſtum eſt, numeros, qui ad eundem eandem habent proportionem, vel ad quos idem eandem proportionem habet, æquales eſſe.
 
-<!-- Catchword: inſuper -->
+PARI ratione infertur, maioris numeri ad eundem, maiorem proportionem eſſe, quam minoris. Et contra, eiuſdem ad minorem, maiorem eſſe proportionem, quam ad maiorem. Item numerorum illum, qui ad eundem habet maiorem proportionẽ, maiorem eſſe: Ad quem autem idem habet maiorem proportionem, minorem eſſe. Quæ omnia perſpicua ſunt, ſi recte hæc definitio intelligatur.
+
+## XXI.
+
+## SIMILES plani, & ſolidi ſunt, qui proportionalia habent latera.
+
+NON neceſſe eſt, vt planus numerus plano numero ſit ſimilis, quælibet duo illius latera quibuſuis duobus lateribus huius eſſe proportionalia; ſed ſatis eſt, illum habere aliqua duo latera, quæ ſint proportionalia quibuſdam duobus lateribus huius. Nam hac ratione erunt eorum latitudines longitudinibus proportionales, ſi ſecundũ ſuas vnitates in formam planã redigantur, prout latera aſſumpta exigunt. Vt numeri plani 24. & 6. ſimiles ſunt, quoniã illius latera 6. 4. proportionalia ſunt lateribus huius 3. 2. quamuis his eiſdem non ſint proportionalia alia illius latera, nempe 8. 3. vel 12. 2.
+
+EODEM modo, vt duo numeri ſolidi ſimiles ſint, nõ requi-
+
+<!-- Signature: Hh -->
+
+<!-- Catchword: ritur -->

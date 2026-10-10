@@ -1,21 +1,15 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-quoque ipſum C; perſpicuum eſt D, eſſe maximam menſuram numerorum datorum A, B, C. Nam ſi maior numerus dicatur metiri numeros A, B, C, metietur idem, per coroll. propos. 2. huius lib. numerum D, maximam menſuram numerorum A, & B, maior numerus minorem. Quod eſt abſurdum. Si uero D, nõ metiatur ipſum C; erũt ſaltem D, & C, inter ſe compoſiti. Cum enim ſint A, B, C, inter ſe compoſiti, metietur quæcunque illorum menſura communis, per coroll. propos. 2. huius lib. numerum D, maximam menſuram numerorum A, & B. Cum ergo eadem illa menſura metiatur etiam ipſum C; erunt D, & C, inter ſe compoſiti. Sit eorum maxima menſura E. Dico E, eſſe maximam menſuram cõmunem datorum numerorum A, B, C. Quod enim ſit eorum menſura cõmunis, hac ratione demonſtrabitur. Quoniam E, metitur numeros C. & D; at D, ipſos A, & B; metietur quoque E, ipſos A, & B; Ac proinde tres numeros A, B, C, metietur.
+alterius eadem pars: Et ſimul uterque utriuſque ſimul eadem pars erit, quæ unus unius.
 
-[Diagram: horizontal dotted lines labelled A, B, C, D, E and F]
+SIT numerus A, eadem pars numeri B C, quæ eſt numerus D, numeri E F. Dico utrunque numerum A, & D, ſimul, utriuſque numeri B C, & E F, ſimul eandem eſſe partem, quæ eſt uel A, ipſius B C, uel D, ipſius E F. Diuiſis enim numeris B C, E F, in partes BG, GC; EH, HF, ipſis A, & D, æquales; erit multitudo partium numeri BC, æqualis multitudini partium numeri E F, propterea quod eadem pars eſt A, ipſius B C, quæ D, ipſius E F. Quia igitur A, & B G, æquales ſunt; ſi illis addantur æquales D, & E H; erunt A, & D, ſimul æquales ipſis BG, & E H, ſimul: Eodẽ argumento erunt A, & D, ſimul ipſis G C, & H F, ſimul æquales: Et ſic deinceps, ſi plures partes fuerint in BC, E F; aggregatum numerorum A, & D, tot aggregatis partium numerorum B C, & E F, æquale erit, quoties A, in B C, uel C, in E F, continetur: Ac propterea eadem pars erit uterque A, & D, ſimul utriuſque B C, & E F, ſimul, quę eſt A, ipſius B C, uel D, ipſius E F. Si numerus ergo numeri pars fuerit, &c. Quod erat oſtendendum.
 
-[Margin]
-2. ſeptimi
-[/Margin]
+[Diagram: two horizontal dotted lines, the first labelled A and B, G, C; the second labelled D and E, H, F]
 
-[Margin]
-11. pron.
-[/Margin]
+## SCHOLION.
 
-QVOD autem E, ſit maxima eorum communis menſura, perſpicuum eſt. Si enim fieri poteſt, ſit F, maior quam E, eorum menſura communis. Quia igitur F, metitur numeros A, & B; metietur quoque, per coroll. propos. 2. huius lib. numerum D, maximam eorum menſuram communẽ. Metitur autem & C: Igitur F, metiens D, & C, metietur quoque E, eorum menſuram maximam, ex eodem coroll. numerus maior minorem. quod eſt abſurdum. Non ergo maior numerus, quam E, numeros A, B, C, metitur; Atque adeo E, maxima menſura eſt ipſorum. Quamobrem tribus numeris datis non primis inter ſe, &c. Quod faciendum erat.
+EODEM modo demonſtrabimus & hoc, quod ſequitur.
 
-## COROLLARIVM.
+SI vnitas numeri pars fuerit, & altera unitas, uel numerus alterius numeri eadem pars; Et ſimul utraque unitas, uel unitas & numerus ſimul, utriuſque numeri ſimul eadem pars erit, quæ unitas numeri.
 
-HINC perſpicuum eſt, quod numerus metiens tres numeros, metitur quoque maximam eorum communem mẽſuram. Hoc enim colligitur ex ultima parte demonſtrationis; Oſtenſum enim eſt ibi, numerum F, ſi metiatur numeros A, B, C, metiri quoque nu-
-
-<!-- Catchword: merum -->
+<!-- Catchword: HOC -->

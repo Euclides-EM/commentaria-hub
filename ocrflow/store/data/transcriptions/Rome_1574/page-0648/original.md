@@ -1,21 +1,33 @@
-<!-- Running title: LIBER VIII. -->
+<!-- Running title: LIBER. VIII. -->
+<!-- Page number: 282 -->
 
-<!-- Page number: 281 -->
+ex ſcholio propos. 1. huius lib. liquet; Tamen non ſemper e cõtrario, numeri extremi quotcunque minimorum non continue proportionalium, inter ſe primi ſunt, ut manifeſtum eſt in exemplo nuper adducto 6. 10. 13. 18.
 
-minimi ſint in proportione 3. ad 2. vt hic patet, 128. 192. 288. 432. 648. 972. 1458. 2187. ſi maiores numeri ad minores referantur. Eademque in reliquis eſt ratio.
-
-BOETIVS autem, & alij regulam hanc ita explicant. Sumantur tot numeri continue ab unitate multiplices ſecundum denominationem partis aliquotæ, cuius in data proportione fit mentio, quot numeros continue proportionales oportet inuenire in data proportione. Nam vltimus numerus erit primus inueniendorum. Vt in dato exemplo, quia deſiderantur octo numeri minimi in proportione ſeſquialtera, ſumendi ſunt octo numeri ab unitate dupli, ut prius, qui nimirum denominãtur a denominatore partis ſecundæ, ſeu dimidiæ, cuius mentio fit in proportione ſeſquialtera, hoc eſt, a 2. Quod ſi optentur quinque numeri minimi in proportione ſeſquiquinta, ſumendi erũt quinque numeri ab unitate quincupli; vt hic 1. 5. 25. 125. 625. Nam 625. eſt primus quinque numerorum in proportione ſeſquiquinta, vt hic apparet; 625. 750 9co.{printer-error-correction:900.} 1080. 1296. Atque ita de cæteris. Porro hac arte non poſſunt inueniri plures numeri continue proportionales, quam propoſiti ſunt. Neque enim poſt 1296. alius numerus inuenietur, qui habeat ad 1296. proportionem ſeſquiquintam; ſicut neque in priori exẽplo poſt 2187. alius poteſt reperiri, qui ad 2187. proportionẽ ſeſquialteram habeat. Ratio autem huius rei eſt, quod extremi hac arte inuenti ſint inter ſe primi, ut ex demonſtratione liquet. Hinc enim fit, vt vltimus non poſſit eſſe ad alium quempiam numerum, ut primus ad ſecundum, vt propos. 17. lib. 9. demonſtrabitur.
-
-## THEOR. 2. PROPOS. 3.
+## PROBL. 2. PROPOS. 4.
 
 [Margin]
-3.
+4.
 [/Margin]
 
-SI ſint quotcunque numeri deinceps proportionales minimi omnium eandem cũ eis rationem habentium; Illorum extremi ſunt inter ſe primi.
+RATIONIBVS datis quotcunque in minimis numeris, reperire numeros dein ceps minimos in datis rationibus.
 
-SINT numeri A, B, C, D, minimi deinceps proportionales. Dico extremos A, & D, inter ſe primos eſſe. Inue-
+SINT primum datæ duæ rationes in minimis numeris A, ad B, & C. ad D; oporteatque inuenire tres numeros minimos deinceps proportionales, in datis proportionibus. Inuento numero E, minimo, quem metiantur B, & C, ſecundus & tertius; quoties B, ipſum E, metitur, toties A, metiatur ipſum F; & quoties C, eundem E, toties ipſum G, metiatur D. Dico F, E, G, minimos eſſe in proportioni bus datis. Quod enim deinceps datas proportio nes habeant, ita oſtende mus. Quoniam A, & B, æque metiuntur ipſos F, & E, hoc eſt, per eundem numerum; metiantur per H. Quo poſito, A, & B, multiplicantes ipſum H, producent F, & E. Quare erit ut A, ad B, ita F, ad E. Eadem ratione, cum C, & D, æque metiantur ipſos E, & G, erit ut C, ad D, ita E, ad G. Igitur F, E, G, deinceps propor tionales ſunt in rationibus A, ad B, & C, ad D. Quod au tem minimi ſint, ſic manifeſtum erit. Si non ſunt minimi, erunt aliqui illis minores, ſingulis ſinguli, in eiſdem rationibus: ſint, ſi fieri poteſt, I, K, L. Quia igitur A, & B, mini mi ſunt in ſua proportione, ipſi æque metientur I, & K, in eadem proportione exiſtentes, nempe B, ipſum K, conſequens conſequentem. Eademque ratione C, & D, æque metientur K, & L, nimirum C, ipſum K, antecedens ante-
 
-<!-- Signature: N n -->
+[Calculation]
+A, 6. B, 5. C, 4. D, 3.
+H, 4. F, 24. E, 20. G, 15.
+I ------ K ---- L ----
+[/Calculation]
 
-<!-- Catchword: niantur -->
+[Margin]
+36. ſeptimi
+
+9. pron.
+
+18. ſeptimi
+
+21. ſeptimi
+[/Margin]
+
+<!-- Signature: Nn 2 -->
+<!-- Catchword: cedentem. -->

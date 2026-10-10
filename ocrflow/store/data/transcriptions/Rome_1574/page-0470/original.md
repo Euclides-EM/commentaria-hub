@@ -1,54 +1,45 @@
-<!-- Running title: LIBER. VI. -->
-<!-- Page number: 192 -->
+<!-- Running title: LIBER VI. -->
+<!-- Page number: 193 -->
 
-BC, conſtituta, inter ſe æqualia. Quare ut triangulum ADE, ad triangulum DEB, ita triangulum idem AED, ad triangulum DEC; Atqui ut triangulum ADE, ad triangulum DEB, ita baſis AD, ad baſin DB, (cum hæc triangula ſint eiuſdem altitudinis, ut conſtat, ſi per E, agatur parallela recta ipſi AB,) & eadem ratione, ut triangulum AED, ad triangulum DEC, ita baſis AE. ad baſin EC. Vt igitur AD, ad DB, ita AE, ad EC. (cum hæ duæ proportiones eædem ſint proportioni trianguli ADE, ad triangulum DEB, uel trianguli AED, ad triangulum DEC.) quod eſt propoſitum.
+## THEOR. 4. PROPOS. 4.
 
 [Margin]
-7. quinti.
+4.
+[/Margin]
+
+AEQVIANGVLORVM triangulorum proportionalia ſunt latera, quæ circum æquales angulos, & homologa ſunt latera, quæ æqualibus angulis ſubtenduntur.
+
+SINT ęquiangula triangula ABC, DCE, ſintq; æquales anguli ABC, DCE; & ACB, DEC; & BAC, CDE. Dico eſſe AB, ad BC, ut DC, ad CE; & BC, ad CA, ut CE, ad ED; & AB, denique ad AC, ut DC, ad DE; Ita enim latera circa æquales angulos ſunt proportionalia, homologaque ſunt ea latera, quæ æqualibus angulis ſubtenduntur, hoc eſt, & antecedentia omnia æquales reſpiciunt angulos, & conſequentia ſimiliter. Conſtituantur latera BC, CE, ſecundum lineam rectam, ita ut angulus DCE, externus ſit æqualis interno ABC; pariterque externus ACB, interno DEC. Et quia duo anguli ABC, ACB, minores ſunt duobus rectis; eſt autẽ angulo ACB, æqualis angulus DEC; erunt & anguli B, & E, duobus rectis minores. Quare rectæ BA, & ED, productæ ad partes A, D, coibunt. Producantur ergo, & conueniant in F. Quoniã uero angulus externus DCE, æqualis eſt interno oppoſito ABC; parallelæ erunt CD, & BF. Eadem ratione, parallelæ erunt CA, & EF, quod angulus externus ACB, ſit æqualis interno DEC. Parallelogrãmum eſt igitur ACDF; proptereaque recta AF, æqualis rectæ CD; & recta CA, rectæ DF. Quoniam igitur in triangulo BEF, recta AC, parallela eſt lateri EF; erit AB, ad AF, hoc eſt, ad DC, (quæ æqualis eſt ipſi AF,) ut BC, ad CE. permutando igitur erit AB, ad BC, ut DC, ad CE. Rurſus quia in eodem triangulo BEF. recta CD, parallela eſt lateri BF, erit BC, ad CE, ut FD, hoc eſt, ut CA, (quę
+
+[Figure: triangle with base B, C, E; apex F above; point A on side BF and point D on side FE, with lines AC and DC drawn to the base]
+
+[Margin]
+17. primi
 [/Margin]
 
 [Margin]
-1. ſexti.
-[/Margin]
-
-[Figure: triangle A, B, C with points D and E on the sides and internal lines crossing between them]
-
-[Margin]
-11. quinti.
-[/Margin]
-
-SECET iam recta DE, latera AB, AC, proportionaliter. Dico DE, parallelam eſſe reliquo lateri BC. Ductis enim rurſus rectis CD, BE, erit ut baſis AD, ad baſin DB, ita triangulum ADE, ad triangulum DEB, cum ſint eiuſdem altitudinis: Ponitur autem ut AD, ad DB, ita AE, ad EC; igitur ut triangulum ADE, ad triangulum DEB, ita AE ad EC: Sed rurſus ut baſis AE, ad baſin EC, ita triangulum AED, ad triangulum DEC, cum ſint altitudinis eiuſdem. Igitur ut triangulum ADE, ad triangulum DEB, ita triangulum idem AED, ad triangulum DEC. Aequalia ergo ſunt triangula DEB, & DEC: Ac propterea cum eandem habeant baſin DE, inter eaſdem erunt collocata parallelas. Igitur parallela eſt DE, ipſi BC; quod eſt propoſitum. Si itaq́; ad unum trianguli latus parallela ducta fuerit, &c. Quod erat oſtendendum.
-
-[Margin]
-1. ſexti.
+11. pron.
 [/Margin]
 
 [Margin]
-11. quinti
+28. primi
 [/Margin]
 
 [Margin]
-1. ſexti.
+34. primi
 [/Margin]
 
 [Margin]
-11. quinti
+2. ſexti.
 [/Margin]
 
 [Margin]
-9. quinti.
+16. quinti
 [/Margin]
 
 [Margin]
-39. primi
+2. ſexti.
 [/Margin]
 
-## THEOR. 3. PROPOS. 3.
-
-[Margin]
-3.
-[/Margin]
-
-SI trianguli angulus bifariam ſectus ſit, ſecans autem angulum recta linea ſecuerit & baſin: baſis ſegmenta eandem habebunt
-
-<!-- Catchword: rationem -->
+<!-- Signature: Bb -->
+<!-- Catchword: æqua- -->

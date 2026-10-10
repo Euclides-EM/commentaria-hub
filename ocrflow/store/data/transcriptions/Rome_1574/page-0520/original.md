@@ -1,34 +1,25 @@
 <!-- Running title: LIBER VI. -->
+<!-- Page number: 218 -->
 
-<!-- Page number: 217 -->
+parallelogrammum ABEH, erit parallelogrãmum AD, ſuper dimidiam AC, conſiſtens, applicatum ſecundũ AB, deficiens parallelogrammo CE, & exiſtens ſimile defectui CE. Dico parallelogrammum AD, ad dimidiam AC, applicatum, deficiensque parallelogrammo CE, maximum eſſe omnium, quę ſecundum AB, rectam applicantur, deficiuntq́; parallelogrammis ſimilibus ſimiliterq́; poſitis ipſi CE. Sumpto enim puncto G, utcunque in diametro BD, & ductis per G, rectis FGI, KG, quæ ſint parallelæ rectis AB, BE; erit parallelogrammum FK, ſecundum rectam AB, applicatum, deficiens parallelogrammo KI, quod ipſi CE, ſimile eſt, ſimiliterque poſitum, cum ſit circa eandem cum CE, diametrum. Quoniam uero complementa CG, GE, æqualia ſunt; ſi addatur commune KI, erunt quoque æqualia CI, KE: Eſt autem CI, æquale ipſi CF, propter baſes æquales AC, CB. Igitur & CF, KE, æqualia erunt; additoq́; cõmuni CG, æqualia erunt parallelogrammum AG, & gnomon LM. Quare cum CE, maius ſit gnomone LM, (continét enim CE, præter gnomonẽ parallelogrãmum adhuc DG,) erit quoq; AD, æquale exiſtens ipſi CE, propter baſes ęquales AC, CB, maius quam parallelogrammum AG, eodem parallelogrammo DG. Eodemq́; modo oſtendetur AD, maius eſſe omnibus parallelogrammis, quæ ita ſecundum rectam AB, applicantur, ut punctum G, ſit inter puncta B, & D, hoc eſt, quæ occupant maiorem lineam dimidia AC, habentque minorem altitudinem, quam AD; dummodo defectus ſimiles ſint ipſi CE.
 
-eſt ut CB, ad BA, ita FE, ad EC, eo quod parallelogramma BD, EG, ponuntur ſimilia ſimiliterque deſcripta; Igitur & FE, ad EC, hoc eſt, ad ſibi æqualem KH, maiorem habebit proportionem, quam HB, ad BA, hoc eſt, quam FK, ad KH. Quã ob rem cum FE, ad KH, maiorem habeat proportionem, quàm FK, ad eandem KH, erit FE, maior, quam FK; pars quàm totum: Quod eſt abſurdum.
-
-[Margin]
-10. quinti.
-[/Margin]
-
-QVOD ſi quis dicat, rectam AHF, ſecare latus CD. Tunc per H, ducta rectæ BC, parallela HI, quæ occurrat rectæ FG, protractæ in K; erunt rurſus ſimilia ſimiliterque poſita parallelogramma ID, EK, per ea, quæ ad propos. 24. huius lib. oſtendimus. Quare erit ut HD, ad DA, ita FK, ad KH. Habet autem CD, ad DA, maiorem proportionẽ, quam HD, ad DA; Et eſt ut CD, ad DA, ita FG, ad GC, propterea quod parallelogramma BD, EG, ſimilia ſimiliterque poſita ſunt conceſſa; Igitur & FG, ad GC, hoc eſt, ad ſibi æqualem KH, maiorem habebit proportionem, quam FK, ad KH; ideoque FG, maior erit, quam FK, pars quam totum: Quod eſt abſurdum.
-
-[Figure: parallelogram with vertices B, C, D, A, diagonal lines, and points I, H, K, E, F, G]
+[Figure: parallelogram with diagonal and inscribed parallelograms, labelled H, D, E, F, L, M, I, A, C, K, B]
 
 [Margin]
-8. quinti.
-10. quinti.
+24. ſexti.
+43. primi
+36. primi
+36. primi
 [/Margin]
 
-OSTENSIVE idem hac ratione oſtendetur. Quoniam propter ſimilitudinem parallelogrammorum BD, EG, anguli B, E, ſunt æquales; eſtque ut AB, ad BC, ita CE, ad EF; habebunt triangula ABC, CEF, circa angulos æquales B, & E, latera proportionalia, ac idcirco æquiangula erunt, habebuntque angulos BCA, EFC, æquales. Addito ergo communi angulo BCF, erunt duo anguli BCA, BCF, duobus angulis EFC, BCF, æquales; ſed hi inter parallelas BC, EF, æquales ſunt duobus rectis. Quare & BCA, BCF, duobus erunt rectis æquales; Ac propterea AC, FC, unam component rectam lineam. Quod eſt propoſitum.
-
-[Figure: two parallelograms joined at point C, with labels E, F, B, C, G, A, D and diagonal lines]
+ALITER demonſtrabitur AD, maius eſſe parallelogrammo AG, hoc modo. Parallelogramma FD; DI, ſunt æqualia, cum baſes HD, DE, ſint æquales: Eſt autem DI, maius quam GE, hoc eſt, quam complementum CG, ſibi æquale, parallelogrammo DG; Igitur & FD, maius erit, quam CG, parallelogrammo eodem DG. Ac idcirco addito communi CF, maius erit AD, quam AG, parallelogrãmo eodem DG.
 
 [Margin]
-6. ſexti.
-19. primi
-14. primi
+36. primi
+43. primi
 [/Margin]
 
-RECTE autem Euclides in theoremate voluit, parallelogrammum a toto ablatum non ſolum eſſe toti ſimile, verum etiã ſimiliter poſitũ, ut oſtẽdatur, circa eandẽ cũ toto diametrũ. Nam ſi ex altera parte longiori BD, abſcindatur altera parte longius EG, circa eandem cum toto diametrum conſiſtens, erit
+QVOD ſi punctum G, ſumatur in diametro BD, producta extra parallelogrammum CE. Tunc ducta per G, recta
 
-<!-- Signature: Ee -->
-
-<!-- Catchword: erit -->
+<!-- Signature: Ec 2 -->
+<!-- Catchword: HM, -->

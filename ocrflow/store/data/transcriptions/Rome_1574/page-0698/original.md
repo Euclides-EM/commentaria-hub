@@ -1,52 +1,78 @@
 <!-- Running title: LIBER. IX. -->
-<!-- Page number: 306 -->
+<!-- Page number: 307 -->
 
-ciant non quadratum; alter autem ſit quadratus; Reliquus non quadratus erit.
+## THEOR. 5. PROPOS. 5.
 
-DVO numeri A, B, ſe mutuo multiplicantes faciant C, non quadratum; ſitque A, quadratus. Dico B, non quadratum eſſe. Si enim B, dicatur eſſe quadratus, erit & C, productus ex quadratis A, B, quadratus, per theor. 1. huius ſcholij; Quod eſt abſurdum, & contra hypotheſim. Non igitur quadratus eſt B, numerus.
+[Margin]
+5.
+[/Margin]
+
+SI cubus numerus numerum quendam multiplicans faciat cubum; Et multiplicatus cubus erit.
+
+FIAT ex cubo A, in numerum B, numerus cubus C. Dico & B, cubum eſſe. Multiplicans enim A, ſe ipſum faciat D, qui cubus erit. Quoniam igitur A, multiplicans A, & B, fecit D, & C; erit ut A, ad B, ita D, ad C; At inter D, & C, cubos duo cadunt medij proportionales. Totidem igitur & inter A, & B, cadent; Ac proinde exiſtente A, cubo, & B, cubus erit. Quamobrẽ ſi cubus numerus numerum quendam multiplicans, &c. Quod oſtendendum erat.
 
 [Calculation]
-A,4.  B,20.
-C,80.
+A,8.  B,27.
+D,64.  C,216.
 [/Calculation]
 
 [Margin]
-IIII.
+3. noni.
 [/Margin]
 
-SI duo numeri, quadratus & non quadratus, ſe mutuo multiplicantes faciant aliquem; Productus non quadratus erit.
+[Margin]
+17. ſeptimi
+[/Margin]
 
-DVO numeri A, quadratus, & B, non quadratus, ſe mutuo multiplicantes faciant C. Dico C, non eſſe quadratum. Nam ſi C, foret quadratus, cum producatur ex A, in B, ſitque A, quadratus; eſſet & B, ex theor. 2. huius ſcholij, quadratus: Quod eſt abſurdum, & contra hypotheſim. Non igitur C, quadratus erit.
+[Margin]
+12. octaui.
+[/Margin]
+
+[Margin]
+8. octaui.
+[/Margin]
+
+[Margin]
+23. octaui
+[/Margin]
+
+## SCHOLION.
+
+Ex his & hac, quæ ſequuntur, facile demonſtrabuntur, videlicet.
+
+[Margin]
+I.
+[/Margin]
+
+SI cubus numerus non cubum numerum multiplicans faciat aliquem; Factus non cubus erit.
+
+FIAT ex A, cubo in B, non cubum numerus C. Dico C, non eſſe cubum. Si enim C, ſit cubus; & multiplicatus B, cubus erit. quod non ponitur.
 
 [Calculation]
-A,9.  B,20.
-C,180.
+A,8.  B,20.
+C,160.
 [/Calculation]
 
-## THEOR. 3. PROPOS. 3.
-
 [Margin]
-3.
+5. noni.
 [/Margin]
 
-SI cubus numerus ſeipſum multiplicãs procreet aliquem; Productus cubus erit.
+[Margin]
+II.
+[/Margin]
 
-FACIAT cubus A, ſe ipſum multiplicans numerum B. Dico B, eſſe cubum. Sit enim C, latus cubi A; & ex C, in ſe fiat D, & idcirco ex C, in D, ipſe cubus A, gignatur. Quia igitur C, ſeipſum multiplicans fecit D; metietur C, ipſum D, per C: Metitur autem & unitas ipſum C, per C. Igitur eadem pars eſt unitas ipſius C, quæ C, ipſius D, nempe denominata a C; Ac
+SI cubus numerus numerum quendá multiplicans faciat non cubum; Et multiplicatus non cubus erit.
+
+FIAT ex cubo A, nnumerum{printer-error-correction:in numerum} B, non cubus C. Dico & B, non eſſe cubum. Si namque B, ſit cubus; & factus C, cubus erit. quod eſt contra hypotheſim.
 
 [Calculation]
-A, 8.
-E,16.  D,4.
-F,32.  C,2.
-B,64.  Vnitas.
+A,8.  B,17.
+C,136.
 [/Calculation]
 
 [Margin]
-7. pron.
+4. noni.
 [/Margin]
 
-[Margin]
-5. pron.
-[/Margin]
-
-<!-- Signature: Qq 2 -->
-<!-- Catchword: proinde -->
+<!-- Signature: Qq 3 -->
+<!-- Catchword: THEOR. -->

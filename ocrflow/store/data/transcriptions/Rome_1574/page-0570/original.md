@@ -1,19 +1,25 @@
 <!-- Running title: LIBER. VII. -->
-<!-- Page number: 242 -->
+<!-- Page number: 243 -->
 
-HIS definitionibus ab Euclide propoſitis adiungendæ mihi videntur ex Campano, aliisque ſcriptoribus nonnullæ aliæ, quibus proxime [unclear: accedent] poſtulata, & communes animi notiones, præſertim ea, [unclear: quibus] in demonſtrandis numerorum proprietatibus & Euclides, & eius interpretes uti uidentur.
+## XXVII.
 
-## XXIII.
+QVOTLIBET numeris ordine poſitis, proportio primi ad ultimum componi dicitur ex proportionibus primi ad ſecundum, & ſecundi ad tertiũ, & tertij ad quartum, & ita deinceps, donec extiterit proportio.
 
-## NVMERVS numerum metiri dicitur per illum numerum, quem multiplicans, uel a quo multiplicatus, illum producit.
+HOC ita ſe habere, pluribus uerbis a nobis demonſtratum eſt ad defin. 5. lib. 6.
 
-VT numerus 4. metiri dicitur numerum 12. per 3. quia multiplicatus ſecundum 3. producit 12. Eademque ratione numerus 3. eundem numerum 12. metietur per 4. cum ex multiplicatione 4. in 3. numerus 12. producatur. Hoc autem ita eſſe, hac ratione fiet perſpicuum. Cum numerus 4. metiatur 12. per 3. faciet 4. ipſum 12. toties compoſitus, quoties eſt unitas in 3. Quare per defin. 15. numerus 3. multiplicans numerum 4. producet 12. Quia uero vt propos. 16. huius lib. oſtendemus, idem numerus producitur ex multiplicatione 4. in 3. qui ex 3. in 4. manifeſtum relinquitur eundem numerum 12. procreari, ſi numerus 4. multiplices numerum 3.
+POSSVNT etiam huc referri definitiones illæ in quinto libro traditæ de alterna ratione, inuerſaque; de compoſitione, diuiſione, & conuerſione rationis; de ratione ex æqualitate; & de proportione ordinata, ac perturbata. Omnes enim hi modi argumentationum, quæ circa proportiones uerſantur, demõſtrabuntur quoque in hoc ſeptimo libro proportionibus numerorum conuenire.
 
-## XXIIII.
+# POSTVLATA, SIVE PETITIONES
 
-## PROPORTIO numerorum eſt habitudo quædam unius numeri ad alterum, ſecundum quod illius eſt multiplex, uel pars, partesue; uel certe illum continet ſemel, aut aliquoties, & aliquam inſuper illius partem, uel partes.
+## I.
 
-SI numerus 20. cum numero 4. conferatur ea ratione, qua illius multiplex eſt, nempe quincuplus, dicetur
+POSTVLETVR, cuilibet numero quotlibet poſſe ſumi æquales, uel multiplices.
 
-<!-- Signature: Hh 2 -->
-<!-- Catchword: hæc -->
+## II.
+
+QVOLIBET numero ſumi poſſe maiorem.
+
+QVAMVIS enim numerus infinite diminui nequeat; ſed neceſſario ad vnitatem indiuiduam diminutio deueniat; ta men augeri poteſt infinite per additionem continuam unita-
+
+<!-- Signature: Hh 3 -->
+<!-- Catchword: tis. -->

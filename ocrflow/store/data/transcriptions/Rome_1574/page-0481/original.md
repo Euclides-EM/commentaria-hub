@@ -1,30 +1,27 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-partes æquales uſque ad D, punctum, ex quo ad B, recta ducatur DB; & huic parallela EF, ex E, termino quatuor partiũ. Nam AF, erit pars imperata. Erit enim rurſus ut DA, ad AE, ita BA, ad AF: Quare, & conuertendo ut AE, ad AD, ita AF, ad AB: Eſt autem AE, pars continens quatuor undecimas ipſius AD, ex conſtructione; Igitur & AF, eadẽ pars erit rectæ AB. Quod eſt propoſitum. Non aliter detrahetur ex AB, pars complectens quotcunque partes ipſius aliquotas.
-
-[Figure: triangle ABD with base AB, points E and F marked, line AC divided into equal parts up to D, with EF parallel to DB]
-
 [Margin]
-4. quinti.
-11
+7 quinti.
+11. quinti.
+9. quinti.
 [/Margin]
 
-## PROBL. 2. PROPOS. 10.
+ad IK, ita LI, ad IH, quod æquales ſumptæ ſint IK, IH; igitur ut LM, ad MA, ita eadem LM, ad MN; ideoque æquales erunt AM, MN. Non aliter oſtendes MN, æqualẽ eſſe ipſi NO; & NO, ipſi OP, & OP, ipſi PB. Diuiſa eſt ergo AB, in quinque partes æquales. Quod eſt propoſitum.
+
+ALITER. Ab extremis punctis A, & B, educantur duæ rectæ BC, AD, inter ſe parallelæ; Et ex BC, abſcindantur quatuor partes æquales BE, EF, FG, GH, ut ſint tot partes una minus, in quot eſt linea diuidenda; His autem ex AD, totidem æquales reſecentur AI, IK, KL, LM. Ductis igitur rectis EM, FL, GK, HI, ſecantibus rectam AB, in N, O, P, Q; dico ipſam AB, ſectam eſſe in quinque partes æquales. Cum
+
+[Figure: two oblique parallel lines, C at upper left through points H, G, F, E and D at lower right through points I, K, L, M, crossing the horizontal base A N O P Q B]
 
 [Margin]
-12.
+33. primi
 [/Margin]
 
-DATAM rectam lineam inſectam ſimiliter ſecare, ut data altera recta ſecta fuerit.
+enim æquales ſint, & parallelæ GH, IK, erunt & HI, GK, parallelæ; Eademque ratione parallelæ erunt GK, FL, EM. Quare cum AM, ſecta ſit in quatuor æquales partes, erit & AQ, ſimiliter in quatuor partes æquales diuiſa, ut conſtat ex demonſtratione huius 10. propos. Eadem ratione diuiſa erit & BN, in quatuor partes æquales, eo quod BH, in totidem eſt partes æquales diuiſa. Quare cum tam AN, quam BQ, æqualis ſit ſingulis partibus NO, OP, PQ; erũt omnes quinque partes AN, NO, OP, PQ, QB, inter ſe æquales. Quod eſt propoſitum.
 
-SIT recta AB, ſecanda ſimiliter, ut ſecta eſt recta AC, in D, & E, hoc eſt, in partes, quæ ſint partibus AD, DE, EC, proportionales. Coniungantur datæ duæ lineæ ad A, facientes angulum quemcunque BAC, & connectatur recta BC. Deinde ex D, E, agantur DF, EG, parallelæ ipſi BC. Dico rectam AB, ſimiliter eſſe ſectam in F, & G, ut eſt ſecta AC, in D, & E. Nam ut AD, ad DE, ita AF, ad FG; Proportionales ergo ſunt partes AF, FG, partibus AD, DE. Quod ſi ducatur DH, ipſi FB, parallela, ſecans EG, in I, erit rurſus ut DE, ad EC, ita DI, ad IH, hoc eſt, ita FG, ad GB; quod FG, ipſi DI, & GB, ipſi IH, æqualis ſit. Quare proportionales quoque erunt partes FG, GB, partibus DE, EC. Itaque datam rectam lineam inſectam ſimiliter ſecuimus, ut data altera recta ſecta fuit. Quod faciendum erat.
-
-[Figure: triangle ABC with base AB, points F and G on the base, points D and E on side AC, lines DF and EG parallel to BC, and DH parallel to FB cutting EG in I, with H on BC]
+ALITER. Præparetur prius inſtrumentum huic rei accommodatum in hunc modum. Ductis duabus rectis inter ſe parallelis utcunque CD, EF; ex utraque abſcindantur partes inter ſe æquales quotcunque, ſaltem tot, in quot partes diuidenda proponitur linea, & bina puncta correſpondentia lineis rectis iungantur. Deinde officio circini capiatur longitudo rectæ AB, diuidendæ, eaque ex aliquo puncto lineæ CE, ut ex E, transferatur in inſtrumentum ad punctum I, illius lineæ, quæ tot ſpatia terminat, in quot partes linea proponitur diuidenda, qualis in exemplo eſt recta GH; ea enim includis quinque ſpatia. Poſtremo ex E, ad I, recta ducatur EI, quã dico diuiſam eſſe in quinque æquales partes. Cum enim GK, HI, æquales ſint, & parallelæ, erunt quoque GH, KL, parallelæ; Eodemque modo omnes lineæ inter rectas CD, EF,
 
 [Margin]
-2. ſexti.
-2. ſexti.
-34. primi
+33. primi
 [/Margin]
 
-<!-- Catchword: SCHO- -->
+<!-- Catchword: inter -->

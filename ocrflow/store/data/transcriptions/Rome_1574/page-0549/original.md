@@ -1,17 +1,35 @@
-<!-- Page number: [unclear: 232] -->
+<!-- Running title: EVCLID.GEOM. -->
 
-<!-- Running title: EVCLID. GEOM. -->
-
-cuicunque rectilineo dato, maius, aut minus, ſecundum datam proportionem quamcunque. Tametſi autem Albertus huius praxis nullam affert rationem, ſed eam ſimpliciter proponit: non multum tamen eius demonſtratio a præcedenti differt, vt mox oſtendemus.
-
-SIT igitur quadratum ABCD, quincuplicandum. Producto latere AB, ad partes B, quantumlibet, ſumantur quinque partes ipſi AB, æquales, a puncto B, incipiendo, uſque ad E, vt ſit BE, quincupla ipſius AB. Diuiſa deinde tota AE, bifariã in F, deſcribatur ex F, ad interuallum FA, vel FE, ſemicirculus AGE, producaturq́ue latus BC, ad circunferentiam vſque in G. Dico quadratum BGHI, ex BG, deſcriptum, quincuplum eſſe quadrati ABCD. Erit enim per coroll. propos. 13. huius lib. BG, media proportionalis inter EB, BA. Igitur erit ut EB, prima ad BA, tertiam, ita BH, quadratum ſecundæ, ad AC, quadratũ tertiæ, ex coroll. propos. 20. huius lib. Eſt autem EB, per cõſtructionem, ipſius AB, quincupla. Igitur & quadratum BH, quadrati AC, quincuplum erit. Quod eſt propoſitum. Quod ſi recta BE, ſumatur ſexcupla lateris AB, erit & quadratum rectæ BG, quadrati ABCD, ſexcuplum: Si autem BE, fuerit tertia pars ipſius AB, erit & quadratum BH, tertia pars quadrati AC. Denique in quacunque proportione ſumatur BE, ad AB, eandẽ habebit quadratum BH, ad quadratũ AC.
-
-[Figure: semicircle on line EFBA with points E, F, B, A on the base; square BGHI with G on the circumference and H, I above the base; small rectangle with corners C and D at the right]
-
-SIT rurſus rectangulum ABCD, cui inueniendum ſit ſimile ſimiliterque poſitum, quod duplum ſit ipſius. Ex latere AB, producto ſumatur BE, dupla ipſius AB. Diuiſa deinde tota AE, bifariã in F; & ex F, deſcripto ſemicirculo, vt prius, & producta CB. ad G; erit BG, unum latus rectanguli quæſiti. Quare ſi abſcindatur AH, æqualis ipſi BG, & ꝑ H, agatur ipſi BC, parallela HI, occurrens diametro AC, protracta in I, perficiaturque parallelogrammum HK, erit HK, ipſi BD, ſimile ſimiliterque poſitum; quod etiam aio duplum eſſe ipſius
+lio propos. 4. huius lib. & componendo, ut BC, ad DC, ita FG, ad EG. Sed ut DC, ad AD, ita eſt EG, ad AE; ꝗ per coroll. ꝓpos. 4 huius lib. triangula ADC, AEG, ſint ſimilia. Igitur erit ex æquo, ut BC, ad AD, ita FG ad AE. Quia uero per conſtructionem eſt, ut AD, ad BC, ita AE, ad ED; erit rurſus ex æquo, ut BC, ad BC, ita FG, ad ED. Eſt autem BC, ipſi BC, æqualis, immo eadem: Aequalis igitur eſt & FG, ipſi ED. Quare cũ FG, ipſi HI; & ED, ipſis FH, GI, æqualis exiſtat; Erunt quatuor latera FG, GI, IH, HF, æqualia inter ſe.
 
 [Margin]
-24. ſexti.
+34. primi
 [/Margin]
 
-<!-- Catchword: BD. -->
+[Figure: acute triangle ABC with apex A, base BC; line FG through E parallel to the base, with perpendiculars falling to points H, D, I on the base]
+
+[Figure: obtuse triangle ABC with apex A, base BC; line FG through E parallel to the base, with perpendiculars falling to points H, D, I on the base]
+
+[Figure: obtuse triangle ABC with apex A, base BC; line FG through E parallel to the base, with perpendiculars falling to points H, D, I on the base]
+
+Et quia anguli EDH, FHD, duobus rectis æquales ſunt: Eſt autẽ EDH, per conſtructionem rectus: erit & FHD, rectus. Quocirca per ea, quæ ad defin. 1. lib. 2. demonſtrauimus, & reliqui anguli HFG, FGI, GIH, recti ſunt; Ac propterea FI, quadratũ eſt. quod eſt propoſitum.
+
+[Margin]
+25. primi
+[/Margin]
+
+NON ſecus idẽ problema abſoluemus, ſi datum triangulum fuerit rectangulum uel obtuſangulum, dummodo ex angulo recto, uel obtuſo perpendicularem demittamus, ceu in poſterioribus duobus triangulis apparet.
+
+QVOD ſi in triangulo rectangulo quadratũ deſcribere libeat, ita ut duo eius latera duobus trianguli lateribus circa angulũ rectũ nitantur; diuidemus perpẽdicularẽ AB, in D, ita ut eadẽ ſit proportio AD, ad DB, quæ AB, ad BC, & per D, quidem ipſi BC, parallelã ducemus DE; per E, uero ipſi AB, aliã parallelã EF. Quoniã igitur eſt, ut BC, ad AB, ita DE, ad AD; quod triãgula ABC, ADE, ſimilia ſint, per coroll. ꝓpoſ. 4. huius lib. Eſt autẽ per cõſtructionẽ, ut AB, ad BC, ita AD, ad DB. Erit ex æquo, ut BC, ad BC, ita DE, ad DB: Eſt autem BC, ſibi ipſi æqualis, immo eadem. Aequalis igitur eſt & DE, ipſi DB. Quare ut prius, DEFB, quadratum eſt. Quod eſt propoſitum.
+
+[Margin]
+4. ſexti.
+[/Margin]
+
+[Figure: right triangle with apex A, right angle at B, base BF C; horizontal line DE parallel to the base and perpendicular EF forming a square DEFB]
+
+## FINIS ELEMENTI SEXTI.
+
+[Ornament: floral tailpiece]
+
+<!-- Catchword: EVCLIDIS -->

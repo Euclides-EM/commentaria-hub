@@ -1,38 +1,11 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-[Margin]
-24. ſeptimi
-29. ſeptimi
-1. octaui.
-[/Margin]
+## COROLLARIVM. III.
 
-mi C, & E, procreati ſunt ex A, & B, in ſe ipſos; ſunt autem A, & B, inter ſe primi, quod minimi ſint in ſua proportione; Erunt & C, E, extremi, inter ſe primi. Quare C, D, E, minimi ſunt in ratione A, ad B.
-
-IAM uero ex A, in tres inuentos C, D, E, fiant F, G, H, & ex B, in ultimum E, fiat I. Dico quatuor numeros F, G, H, I, minimos eſſe in eadem ratione data A, ad B. Quod enim proportionales ſint in ratione A, ad B, ita demonſtrabimus. Quoniam A, multiplicans ipſos C, D, E, fecit F, G, H, habebunt ex ijs, quæ ad propos. 18. lib. 7. oſtendimus, numeri F, G, H, eaſdem proportiones, quas C, D, E, hoc eſt, quam habet A, ad B. Rurſus quia A, & B, ipſum E, multiplicantes, fecerunt H, & I; erit quoque, ut A, ad B, ita H, ad I. Sunt igitur F, G, H, I, continue proportionales in data proportione A, ad B. Quod autem in data ratione minimi ſint, ita perſpicuum fiet. Quoniam A, & B, minimi in ſua proportione, ſunt inter ſe primi; factique ſunt C, & E, ex A, & B, in ſe ipſos; Item procreati ſunt F, & I, ex A, B, in C, E; nempe F, ex A, in C, & I, ex B, in E; erunt & F, I, extremi, inter ſe primi. Quare F, G, H, I, in ſua proportione, quæ eſt A, ad B, minimi ſunt.
-
-[Diagram: rows of dots labelled A and B, then C, D and E of increasing length, followed by numbered letters F, 8. G, 12. H, 18. I, 27. K, 16. L, 24. M, 36 N, 54. O, 81.]
-
-[Margin]
-18. ſeptimi
-[/Margin]
-
-[Margin]
-24. ſeptimi
-[/Margin]
-
-[Margin]
-29. ſeptimi
-1. octaui.
-[/Margin]
-
-NON aliter, ſi ex A, in quatuor inuentos F, G, H, I, fiant K, L, M, N, & ex B, in ultimum I, fiat O; erunt K, L, M, N, O, quinque numeri minimi in data ratione A, ad B: Eademque ratione inueniemus ſex, ſeptem, octo, &c. Quare numeros reperimus deinceps proportionales minimos, &c. Quod faciendum erat.
+CONSTAT etiam, duos numeros minimos in data ratione, metiri omnes medios quotcunque minimorum in eadem ratione; quia ſcilicet producuntur ex illorum multiplicatione in alios quoſdam numeros. Vt in dato exemplo D, medius producitur ex A, in B; & G, H, medij ex A, in D, & E, uel ex B, in C, & D; Item L, M, N, medij ex A, in G, H, I, uel ex B, in F, G, H; ut ex demonſtratione Euclidis, & ea, quam in Scholio tradidimus, apparet.
 
 ## SCHOLION.
 
-[Margin]
-18. ſeptimi
-[/Margin]
+QVONIAM vero tam numeri A, C, F, K, quam B, E, I, O, ex conſtructione, continue proportionales ſunt ab vnitate, quod illorũ quidẽ proportiones a numero A, horũ vero a B, denominentur, vt clarius demonſtrabitur propos. 9. huius lib. fit vt extremi numeri quotcunque minimorum continue proportionalium ſint vltimi tot continue proportionalium ab vnitate, quorum proportiones a minimis numeris datæ rationis denominantur, quot ſunt propoſiti minimi continue proportionales. Ita enim in ſuperiori exemplo uides C, & E, extremos numeros trium minimorum continue proportionalium in proportione A, ad B, eſſe vltimos trium numerorum continue proportionalium ab vnitate, quorum proportiones denominantur ab A, & B. At vero F, & I, extremos quatuor continue proportionalium, eſſe vltimos quatuor numerorum ab vnitate continue proportionalium, &c. Quamobrem ſi quis optet inuenire quoſcunque numeros minimos in data ratione non multiplici (in multiplici enim res facilis eſt, nempe quæ ab vnitate incipiat) continue proportionales; id facile hac via conſequetur. Inuentis duobus minimis numeris in data ratione, ſumantur ab vnitate tot numeri continue proportionales in proportione, cuius denominator ſit minor illorum, quot numeri minimi inueniendi conſtituuntur. Nam vltimus illorum ab unitate continue proportionalium erit primus continue proportionalium inueniendorum. Vt ſi quis deſideret octo minimos numeros in proportione ſeſquialtera: Inuentis minimis duobus numeris 3. & 2. in ſeſquialtera proportione, ſumendi erunt octo numeri ab vnitate continue proportionales in proportione dupla, quæ denominatur a 2. hoc modo 1. 2. 4. 8. 16. 32. 64. 128. Nam horum vltimus 128. erit primus octo numerorum inueniendorum, qui
 
-EODEM modo quatuor numeri minimi proportionales producentur ex multiplicatione B, in tres inuentos E, D, C, & ex multiplicatione A, in C. Fiant enim I, H, G, ex B, in E, D, C: & F, ex A, in C. Quo peracto, numeri F, G, eandem rationem habebunt, quam A, B; quod A, B, multiplicantes C, [unclear: &]
-
-<!-- Catchword: [unclear: fe] -->
+<!-- Catchword: minimi -->

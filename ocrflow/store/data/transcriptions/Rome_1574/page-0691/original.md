@@ -1,20 +1,23 @@
 <!-- Running title: EVCLID.GEOM. -->
 
-cubus ſit, ex conſtructione, cubus quoque erit D.
-
-[Margin]
-22.
-[/Margin]
-
-## THEOR. 22. PROPOS. 24.
-
-SI duo numeri rationem habeant inter ſe, quam quadratus numerus ad quadratũ numerum, primus autem ſit quadratus; & ſecundus quadratus erit.
-
-SIT A, ad B, ut C, quadratus ad quadratum D; ſitque A, quadratus. Dico & B, eſſe quadratum. Cum enim ſit A, ad B, ut C, ad D; cadat autem inter C, & D, quadratos unus medius proportionalis, nempe E; cadet quoque inter A, & B, medius unus, qui ſit F. Quia igitur tres numeri ſunt continue proportionales A, F, B; & A, primus eſt quadratus; erit & B, tertius, quadratus. Quare ſi duo numeri rationem habeant inter ſe, quam quadratus numerus ad quadratum numerum, &c. Quod erat oſtendendum.
+tremi D, & F, quadrati, ex coroll. 1. propos. 2. huius lib. Quare cum ſit, ex æquo A, ad B, ut D, ad F, manifeſtum eſt, ita eſſe A, ad B, ut eſt quadratus aliquis, nempe D, ad quadratum alium, ut ad F. Ergo ſimiles plani numeri rationẽ inter ſe habent, &c. Quod demonſtrandum erat.
 
 [Calculation]
-A,36.  F,48.  B,64.
-C,9.   E,12.  D,16.
+A,20.  C,30.  B,45.
+D,4.   E,6.   F,9.
+[/Calculation]
+
+## SCHOLION.
+
+FACILE etiam demonſtrabimus conuerſum huius, videlicet.
+
+NVMERI, qui proportionem habent, quã quadratus numerus ad quadratum numerum, ſimiles plani ſunt.
+
+HABEANT numeri A, B, proportionem inter ſe, quã quadrati C, D. Dico A, B, eſſe planos ſimiles. Quoniam inter quadratos C, D, cadit vnus medius proportionalis: Et eſt, vt C, ad D, ita A, ad B; cadet quoque medius proportionalis inter A, & B. Quare A, & B, plani ſimiles ſunt.
+
+[Calculation]
+A,8.   B,18.
+C,16.  D,36.
 [/Calculation]
 
 [Margin]
@@ -26,27 +29,23 @@ C,9.   E,12.  D,16.
 [/Margin]
 
 [Margin]
-22. octaui
+20. octaui
 [/Margin]
 
-## COROLLARIVM.
+EX hoc perſpicuum eſt, planos numeros, qui ſimiles non ſunt, proportionem non habere, quam quadratus ad quadratũ. Si enim haberent; eſſent, vt modo demonſtratum eſt, plani ſimiles. quod eſt abſurdum. ponuntur enim non ſimiles.
 
-LIQVET ex his, proportionem cuiusuis numeri quadrati ad quemlibet numerum non quadratum exhiberi nullo modo poſſe in duobus numeris quadratis. Si enim exhiberetur, eſſent ambo priores numeri habentes proportionem, quam quadrati proportionis exhibitæ, etiam quadrati, cũ primus ponatur quadratus. Quod eſt abſurdum. Ponitur enim ſecundus, non quadratus. Vnde numeri in dupla proportione, proportionem non habent, quam quadratus ad quadratum. Si enim haberent, eſſent omnes hi dupli numeri 4. 8. 16. 32. 64. 128. &c. quadrati. Primo enim 4. exiſtente quadrato, eſſet & 8. quadratus; Igitur & 16. & 32. &c. quod eſt abſurdum.
+## THEOR. 25. PROPOS. 27.
 
 [Margin]
-24. octaui
+25.
 [/Margin]
+
+SIMILES ſolidi numeri rationem habent inter ſe, quam cubus numerus ad cubum numerum.
+
+SINT ſimiles ſolidi A, B. Dico eſſe, ut A, ad B, ita cubum quempiam numerum ad alium quendam cubum. Quia A, B, ſunt ſolidi ſimiles, cadent inter eos duo medij
 
 [Margin]
-24. octaui
+19. octaui
 [/Margin]
 
-[Margin]
-23.
-[/Margin]
-
-## THEOR. 23. PROPOS. 25.
-
-SI duo numeri rationem inter ſe habeant, quam cubus numerus ad cubum nu-
-
-<!-- Catchword: merum, -->
+<!-- Catchword: propor- -->

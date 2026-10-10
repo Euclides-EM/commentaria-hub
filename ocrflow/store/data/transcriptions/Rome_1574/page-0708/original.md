@@ -1,38 +1,31 @@
-<!-- Running title: LIBER IX. -->
-<!-- Page number: 311 -->
+<!-- Running title: LIBER 9. IX. -->
+<!-- Page number: 312 -->
 
-dratus. Dico nullum alium eſſe cubum ſimul & quadratũ, præter ſeptimum F, & quinque intermittentes omnes. Cum
+morum numerorum ultimum metiuntur, ijdem & eum, qui unitati proximus eſt, metientur.
+
+SINT ab unitate deinceps proportionales quotcunque numeri A, B, C, D. Dico quoſcunque primorum numerorum, qui metiuntur ultimum D, metiri quoque A, proxixum{printer-error-correction:proximum} unitati. Metiatur enim numerus primus E, ipſum D. Dico eundem E, primum metiri etiam numerum A. Si namque non metitur ipſum A; erit E, cum primus ſit, ad A, primus.
+
+[Margin]
+31. ſeptimi
+[/Margin]
 
 [Calculation]
-Vnitas. A,6. B,36. C,216. D,1296. E,7776. F,46656.
+Vnitas. A,10. B,100. C,1000. D,10000.
+E,5. H,20. G,200. F,2000.
 [/Calculation]
 
-[Margin]
-10. noni.
-
-10. noni.
-[/Margin]
-
-enim primo non exiſtente quadrato, nullus alius quadratus ſit, præter tertium ab unitate, & vnum intermittentes omnes, cuiuſmodi ſunt, vt in ſcholio propos. 8. huius lib. docuimus, tertius, quintus, ſeptimus, nonus, undecimus, decimustertius, decimusquintus, decimusſeptimus, decimusnonus, &c. Primo autem non exiſtente cubo, nullus alius ſit cubus præter quartum ab vnitate, & duos intermittentes omnes, quales ſunt, ut ex eodem ſcholio apparet, quartus, ſeptimus, decimus, tertiusdecimus, decimusſextus, decimusnonus, &c. perſpicuum eſt, tantummodo ſeptimum, tertiumdecimum, decimumnonum, qui quidem omnes quinque intermittunt, quadratos eſſe ſimul, & cubos, & ſic decæteris. Nam in hæc loca ſola incidunt quadratus, & cubus ſimul, ut liquido conſtat ei, qui recte propoſitionem hanc & octauam huius libri expenderit.
-
-## THEOR. II. PROPOS. II.
+Metiat᷑ autem E, ipſum D, per F, atque adeo E, multiplicans F, faciat D. Quia uero & A, ipſum D, metitur per C, ac proinde A, multiplicans C, facit D, ut in ſcholio præcedentis propos. oſtendimus; producetur idem numerus D, ex A, primo in C, quartum, & ex E, ſecundo in F, tertium Quare erit ut A, primus ad E, ſecundum, ita F, terttus{printer-error-correction:tertius} ad C, quartum. Cum ergo A, & E, ſint inter ſe primi; metietur æque A, ipſum F, & E, ipſum C. Metiatur E, ipſum C, per C{printer-error-correction:G}, atque adeo E, multiplicans G, faciat C. Quia uero & A, ex ſcholio eodem, metitur C, per B, atque adeo A, multiplicans B, facit C; procreabitur idem numerus C, ex A, primo in B, quartum, & ex E, ſecundo in G, tertium. Erit igitur ut A, primus ad E, ſecundum, ita G, tertius ad B, quartum. Quapropter cũ A, & E; ſint inter ſe primi; metietur æque A, ipſum G, & E, ipſum B. Metiatur E, ipſum B, per H, ita ut E, multiplicans H, faciat B. Metitur autem & A, ipſum B, per A, ac idcirco A, ſe ipſum multiplicans facit B, ut ex eodem ſcholio apparet. Gignitur ergo idem numerus B, ex A, medio in ſe, & ex E, primo in H, tertium. Quare erit ut E, primus ad A, ſecundum, ita A, ſecundus ad H, tertium; atque adeo, cũ E, & A, inter ſe primi ſint, æque metietur E, ipſũ A, & A, ipſum H. Quod eſt contra hypotheſim. ponitur enim E, ipſum A, non metiri. Quare falſum eſt E, ipſum A, non metiri. Nam ex eo quod E, non dicatur metiri ipſum
 
 [Margin]
-12.
+9. pron.
+19. ſeptimi
+21. ſeptimi
+9. pron.
+19. ſeptimi
+21. ſeptimi
+9. pron.
+20. ſeptimi
+21. ſeptimi
 [/Margin]
 
-SI ab unitate quotcunque numeri dein ceps proportionales fuerint; Minor maiorem metitur per aliquem eorum, qui in proportionalibus ſunt numeris.
-
-SINT ab unitate quotcunque numeri continue proportionales A,B,C,D,E,F,G. Dico quemlibet minorẽ, ut
-
-[Calculation]
-Vnitas. A,3. B,9. C,27. D,81. E,243. F,729. G,2187.
-[/Calculation]
-
-C, quemlibet maiorem, ut G, metiri per aliquem numerorũ A, B, C,D,E,F,G. Cum enim ſit ex æquo ut C, ad G, ita unitas ad D; (quod quinque numeri C, D, E, F, G, eandem habeant rationem cum unitate & numeris A,B,C,D,) æque metietur unitas numerum D, atque numerus C, nu-
-
-[Margin]
-10. defi
-[/Margin]
-
-<!-- Catchword: merum -->
+<!-- Catchword: ſum -->

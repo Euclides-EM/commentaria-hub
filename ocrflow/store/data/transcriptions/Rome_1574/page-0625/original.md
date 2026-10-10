@@ -1,39 +1,31 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
+
+Etiam uterque ſimul ad quemlibet illorum primus erit: Et ſi uterque ſimul ad unum aliquem illorum primus fuerit; Etiam, qui in principio, numeri primi inter ſe erunt.
+
+SINT inter ſe primi AB, BC. Dico & utrunque ſimul AC, primũ eſſe & ad AB, & ad BC. Si enim AC, AB, non ſunt inter ſe primi, metiatur illos, ſi fieri poteſt, communi menſura numerus D. Quia igitur D, metitur totum AC, & ablatum AB, metietur quoque reliquum BC. Non igitur primi inter ſe ſunt AB, BC, cum eos metiatur numerus D. Quod eſt abſurdum, & contra hypotheſim. Quare AC, ad AB, primus erit. Eodemq́; modo ad BC, oſtendemus eundem eſſe primum.
+
+[Diagram: two dotted horizontal lines, the upper labelled A, B and C, the lower labelled D]
 
 [Margin]
-26. ſeptimi
+2. pron.
 [/Margin]
 
-SINT inter ſe primi A, & B, gignaturque C, ex A, in ſe ipſum. Dico C, ad reliquum B, eſſe primum. Sumpto enim D, æquali ipſi A, erit & D, ad B, primus. Quoniam igitur A, & D, ad B, primi ſunt, erit numerus ex A, in D, hoc eſt, ex A, in ſe genitus, nempe C, ad eundem B, primus. Eademque arte oſtendemus, numerum ex B, in ſe genitum, ad A, primum eſſe. Si duo ergo numeri primi inter ſe fuerint, &c. Quod demonſtrandum erat.
-
-[Diagram: dotted lines labelled A and B above longer dotted lines labelled C and D]
+SED iam uterque AB, BC, ſimul, primus ſit ad vnum aliquem illorum, uidelicet ad AB. Dico & AB, BC, inter ſe primos eſſe. Si enim non ſunt inter ſe primi, metiatur illos, ſi fieri poteſt, numerus D. Quia igitur D, metitur AB, & BC; metietur quoque D, numerum AC, ex AB, BC, cõpoſitum; Ac proinde AC, AB, non ſunt inter ſe primi, cum eos numerus D, metiatur. Quod eſt abſurdum, & contra hypotheſim. Sunt igitur AB, BC, inter ſe primi. Eodemq́; argumento oſtendemus AB, BC, inter ſe primos eſſe, ſi AC, ad BC, primus eſſe ponatur. Si duo ergo numeri primi inter ſe fuerint, &c. Quod erat domonſtrandum{printer-error-correction:demonſtrandum}.
 
 [Margin]
-27.
+10. pron.
 [/Margin]
 
-## THEOR. 26. PROPOS. 28.
+## COROLLARIVM.
 
-SI duo numeri ad duos numeros, uterque ad utrunque, primi fuerint; Et qui ex eis gignentur, primi inter ſe erunt.
+Ex hoc ſequitur, numerum, qui ex duobus compoſitus ad unũ illorum primus eſt, ad reliquum quoque primum eſſe. Si enim AC, ad AB, primus eſt, erunt AB, BC, inter ſe primi, per ſecun dam partem huius propos. Igitur & AC, ad BC, primus erit, per primam partem eiuſdem. quod eſt propoſitum.
 
 [Margin]
-26. ſeptimi
+32.
 [/Margin]
 
-SIT uterque A, & B, ad utrunque C, & D, primus, gignaturque E, ex A, in B; & F, ex C, in D. Dico E, & F, inter ſe primos eſſe. Cum enim uterque A, & B, primus ſit ad C; erit quoque E, ex ipſis genitus, ad eundem C, primus. Rurſus cum uterque A, & B, ad D, ſit primus, erit eodem modo E, ex ipſis genitus, ad eundem D, primus. Quia igitur uterque C, & D, primus eſt ad E; erit quoque F, ex illis procreatus, ad E, primus. Si ergo duo numeri ad duos numeros, uterque ad utrumque, &c. Quod erat oſtendendum
+## THEOR. 29. PROPOS. 31.
 
-[Diagram: dotted lines labelled A and B above a longer dotted line labelled E, dotted lines labelled C and D, and a dotted line labelled F]
+OMNIS primus numerus, ad om-
 
-[Margin]
-26 ſeptimi.
-[/Margin]
-
-[Margin]
-28.
-[/Margin]
-
-## THEOR. 27. PROPOS. 29.
-
-SI duo numeri primi inter ſe fuerint, & multiplicans uterque ſe ipſum fecerit aliquem; Et geniti ex ipſis primi inter ſe erũt:
-
-<!-- Catchword: Et -->
+<!-- Catchword: nem -->

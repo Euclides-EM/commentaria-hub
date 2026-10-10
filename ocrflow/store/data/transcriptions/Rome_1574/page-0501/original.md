@@ -1,31 +1,29 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
 
 [Margin]
-29. primi
+20.
 [/Margin]
 
-I, recta IK, lateri CD, parallela, & ſic deinceps, donec omnia latera ſuas habeant parallelas, demptis duobus lateribus productis AB, AF; factumq; erit, quod proponitur. Cũ enim angulus A, ſit communis; & angulis ABC, AFE, æquales ſint anguli AHI, AML; Nec non & angulis ACB, ACD, æquales ſint anguli AIH, AIK, hoc eſt, toti angulo BCD, æqualis ſit angulus HIK; Eodemque modo angulis CDE, DEF, æquales ſint anguli IKL, KLM: Aequiangula erunt rectilinea ABC. DEF, AHIKLM. Sed & latera circum æquales angulos habent proportionalia. Cum enim triangula AHI, AIK, AKL, ALM, ſimilia ſint, per coroll. propos. 4. huius lib. triangulis ABC, ACD, ADE, AEF; Erit, ut AB, ad BC, ita AH, ad HI. Rurſus, ut BC, ad CA, ita HI, ad IA; Et ut CA, ad CD, ita IA, ad IK: Ac proinde, ex æquo, ut BC, ad CD, ita HI, ad IK, &c. Igitur, ex defin. ſimilia ſunt rectilinea ABCDEF, AHIKLM, & ſimiliter poſita.
+## THEOR. 15. PROPOS. 21.
 
-[Figure: rectilinear figures with vertices labelled A, B, C, D, E, F, H, I, K, L, M, with two horizontal lines labelled G below]
+QVAE eidem rectilineo ſunt ſimilia, & inter ſe ſunt ſimilia.
+
+SINT rectilinea ABC, DEF, rectilineo GHI, ſimilia. Dico & ipſa inter ſe eſſe ſimilia. Cum enim propter ſimilitudinem, anguli rectilinei ABC, æquales ſint angulis rectilinei GHI; Item eadem de cauſa anguli rectilinei DEF, æquales angulis eiuſdem rectilinei GHI; erunt per communem ſententiam, anguli rectilinei ABC, æquales angulis rectilinei DEF. Rurſus cum ob eandem ſimilitudinem latera rectilinei ABC, proportionalia ſint lateribus rectilinei GHI, ea uidelicet, quæ circum æquales ſunt angulos; Item eandem ob cauſam, latera rectilinei DEF, proportionalia lateribus eiuſdem rectilinei GHI; erunt quoque latera rectilinei ABC, lateribus rectilinei DEF, proportionalia, ea nimirum, quæ angulos ambiunt æquales; Atque adeo per definitionem, ſimilia exiſtent rectilinea ABC, DEF. Quæ igitur eidem rectilineo ſunt ſimilia, & inter ſe ſunt ſimilia. Quod erat oſtendendum.
+
+[Figure: three triangles labelled A B C, G H I, and D E F]
 
 [Margin]
-4. ſexti.
+11. quinti
 [/Margin]
 
 [Margin]
-17.
+21.
 [/Margin]
 
-## THEOR. 13. PROPOS. 19.
+## THEOR. 16. PROPOS. 22.
 
-SIMILIA triangula inter ſe ſunt in duplicata ratione laterum homologorum.
+SI quatuor rectæ lineæ proportionales fuerint: Et ab eis rectilinea ſimilia ſimiliterque deſcripta, proportionalia erunt. Et ſi a rectis lineis ſimilia ſimiliterque deſcripta rectilinea, proportionalia fuerint: ipſæ etiam rectæ lineæ proportionales erunt.
 
-[Margin]
-26. primi
-[/Margin]
+SINT quatuor rectæ AB, CD, EF, GH, proportio-
 
-SINT triangula ſimilia ABC, DEF, habentia angulos æquales B, & E; Item C, & F, &c. Et ſit ut AB, ad BC, ita DE, ad EF. Dico triangula inter ſe rationem habere duplicatã eius, quam habent latera homologa BC, & EF. Sint enim primum latera BC, EF, æqualia; eruntque propterea triangula inter ſe æqualia, habebuntque proportionem æqualitatis, quemadmodũ & latera homologa; Atqui proportio æqua
-
-[Figure: two similar triangles, the smaller labelled A, B, C, the larger labelled D, E, F]
-
-<!-- Catchword: litatis -->
+<!-- Catchword: nales, -->

@@ -1,38 +1,16 @@
 <!-- Running title: LIBER VIII. -->
-<!-- Page number: 286 -->
+<!-- Page number: 287 -->
 
-A, vel alius quiſque nullum à ſecundo B, metiatur. Dico neqꝫ A, primum, metiri B, ſecundum. Si enim A, primus ſecundum B, dicatur metiri; metietur quoque, per ea, quæ ſecundo loco in hoc ſcholio oſtendimus, quicunque alius quemlibet ſequentiũ. Quod eſt abſurdum, cum neque primus, neque alius quiſquam ullum a ſecundo metiri ponatur. Non ergo A, ipſum B, metietur.
-
-[Calculation]
-A,16. B,24. C,36. D,54. E,81.
-[/Calculation]
-
-IAM vero A, primus, vel alius quiſquam nullius a ſecundo B, ſit multiplex. Dico neque A, primum multiplicem eſſe B, ſecundi. Si namque A, primus multiplex eſſe dicatur B, ſecũdi; multiplex quoque erit quicunque alius cuiuslibet ſequentium, ex ijs, quæ ſecundo theoremate huius ſcholij demonſtrauimus. Quod eſt abſurdum. Neque enim primus, neque alius quiſquam ullius a ſecundo multiplex eſſe ponitur. Non igitur A, ipſius B, multiplex erit.
-
-[Calculation]
-A,81. B,54. C,36. D,24. E,16.
-[/Calculation]
-
-## THEOR. 5. PROPOS. 7.
+pterea in ſua proportione minimi; æque metietur G, ipſum E, & K, ipſum F. Quoties ergo G, & K, ipſos E, & F, metiuntur, toties H, & I, alios numeros L, & M, metiantur, ita ut numeri G, H, I, K, numeros E, L, M, F, æque metiantur, ſinguli ſingulos. Quia igitur G, H, I, K, multiplicantes numerum, per quem metiuntur numeros E, L, M, F, ipſos E, L, M, F, producunt, ex 9. pronunciato; in eiſdem rationibus erunt E, L, M, F, in quibus G, H, I, K, ut ad propos. 18. lib. 7. demonſtrauimus. At G, H, I, K, ſunt continue proportionales. Igitur & E, L, M, F, continue proportionales ſunt; Atque idcirco, cum multitudo E, L, M, F, æqualis ſit multitudini A, C, D, B; tot cadent medij proportionales inter E, & F, quot inter A, & B. Si igitur inter duos numeros medij continua proportione ceciderint, &c. Quod demonſtrandum erat.
 
 [Margin]
-7.
-[/Margin]
-
-SI ſint quotcunqꝫ numeri deinceps proportionales, primus autem extremum metiatur, is etiam metietur ſecundum.
-
-SINT deinceps proportionales A, B, C, D, E; & A, primus extremũ E, metiatur. Dico & A, primũ metiri B, ſecundum. Si enim A, ipſum B, non dicatur metiri; neque alius quiſquam ullũ metietur. Quare nec A, ipſum E. Quod eſt abſurdum. Ponitur enim A, metiri E. Igitur A, primus B, ſecundum metietur; Atque idcirco, ſi ſint quotcunque numeri deinceps proportionales, &c. Quod erat demonſtrandum.
-
-[Calculation]
-A,3. B,6. C,12. D,24. E,48.
-[/Calculation]
-
-[Margin]
-6. [unclear: octaui]
+23. & 21. ſeptimi
 [/Margin]
 
 ## SCHOLION.
 
-VT theorema, quod ſecũdo loco in ſcholio præcedẽtis ppos. demõſtrauimus, conuertamus, amplificabimus hanc ppos. hoc modo.
+NON ſolum ex demonſtratione cõſtat, totidem medios proportionales cadere inter E, & F, quot inter A, & B; verum etiam eandem eſſe proportionem numerorum E, L, M, F, quæ eſt numerorum A, C, D, B. Oſtenſum enim eſt E, L, M, F, in eadẽ eſſe proportione, in qua G H, I, K: Sed hi eandem habent, ex conſtructione, quam A, C, D, B. Igitur & E, L, M, F, eandem habent, quam A, C, D, B.
 
-<!-- Catchword: SI -->
+EADEM hæc propoſitio uera eſt, ſi exiſtentibus numeris A, & B, ſumatur vel E, vel F, vnitas. Item ſi uel A, vel B, fuerit vnitas, exiſtentibus E, & F, numeris; vt in exemplis apparet.
+
+CONSTAT etiam ex hoc theoremate, inter numeros duplæ proportionis, vel ſuperparticularis cuiusuis, vel ſuperbipartientis, non poſſe cadere numerum medium proportionalem. Cum enim dupla proportio in minimis numeris reperiatur inter binarium, & vnitatem; ſuperparticularis vero inter numeros ſola vnitate differentes; ſuperbipartiens denique inter numeros, quorum differentia eſt binarius: ſi inter duos numeros duplæ proportionis, vel ſuperparticularis, vel ſuperbipartientis, medius numerus caderet proportiornalis{printer-error-correction:proportionalis}; caderet quoque, per hoc theorema, numerus aliquis medius proportionalis

@@ -1,29 +1,24 @@
-<!-- Page number: [unclear: 221] -->
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
+<!-- Page number: 222 -->
+
+huius lib. ut BC, ad CA, ita CA, ad CK. Quare ut BC, ad CK, prima linea ad tertiã, ita figura BD, ſuper primã, ad figuram CH, ſuper ſecundam ſimiliter poſitã, per coroll. propoſ. 19. uel 20. huius lib. & conuertendo ut CK, ad BC, ita figura CH, ad figurã BD. Non ſecus oſtendetur, eſſe quoque ut BK, ad BC, ita figuram BG, ad figurã BD; cum tres lineæ BC, BA, BK, ſint quoque proportionales, &c. Quoniã igitur eſt ut CK, prima quantitas ad BC, ſecundam, ita CH, tertia ad BD, quartam; Item ut BK, quinta quantitas ad BC, ſecundam, ita BG, ſexta ad BD, quartam; erit ut prima CK, cum quinta BK, ad BC, ſecundam, ita tertia CH, cum ſexta BG, ad BD, quartã Sunt autem prima CK, & quinta BK, ſimul æquales ſecundæ BC; ergo tertia CH, & ſexta BG, ſimul æquales quoque erunt quartæ BD. In rectangulis igitur triangulis, figura quæuis, &c. Quod erat oſtendendum.
+
+[Figure: right triangle ABC with perpendicular AK to the base BC; rectilineal figures described on the sides, with points labelled H, G, A, F, B, K, C, E, D]
 
 [Margin]
-43. primi
+24. quinti.
 [/Margin]
 
-le complemento BN, erit & AO, ipſi BN, æquale; Addito ergo communi OQ, fiet AP, æquale gnomoni EPN. Atqui gnomon EPN æqualis eſt rectilineo C, (nam cum MK, hoc eſt, ON, æquale ſit rectilineo C, una cum EG; Si auferatur commune EG, remanebunt æqualia gnomon EPN, & rectilineũ C.) Igitur & AP, æquale erit rectilineo C. Ad datam ergo rectam AB, dato rectilineo C, æquale parallelogrammum applicatum eſt AP, excedens parallelogrãmo RQ, quod ſimile eſt alteri dato D. Quod faciendum erat.
-
-[Figure: a triangle labelled C, a square labelled H, a parallelogram labelled I, K, M, L, a small parallelogram labelled D, and parallelograms with points labelled F, G, N, E, A, B, Q, S, O, R, P]
+ALITER. Cum triangulo ABC, ſimile ſit triangulũ KAC, ſintq́; homologa latera ipſorum BC, CA; (Nam eſt ut BC, ad CA, in triãgulo ABC, ita CA ad CK, in triãgulo KAC) habebit triangulũ KAC, ad triangulũ ABC, duplicatã proportionem eius, quam habet CA, ad BC. Habet autẽ & figura CH, ad figuram BD, proportionẽ duplicatã proportionis CA, ad BC. Quare erit ut triangulũ KAC, ad triangulum ABC, ita figura CH, ad figuram BD. Eadem ratione oſtendetur eſſe, ut triangulũ KBA, ad triangulum ABC, ita figuram BG, ad figuram BD. Quoniam ergo rurſus eſt, ut KAC, prima quantitas ad ABC, ſecundam. ita CH, tertia ad BD, quartam; Item ut KBA, quinta ad ad ABC, ſecundam, ita BG, ſexta ad BD, quartam; erit & prima KAC, compoſita cum quinta KBA, ad ſecundam ABC, ita compoſita tertia, CH, cum ſexta BG, ad quartam BD. Sunt autẽ KAC, KBA, prima & quinta ſimul, æquales ſecundæ ABC: Igitur & CH, BG, tertia & ſexta ſimul, æquales erunt quartæ BD.
 
 [Margin]
-29.
+8. ſexti.
+19. ſexti.
+19, uel 20. ſexti.
+11. quinti.
+24. quinti.
 [/Margin]
 
-## PROBL. 10. PROPOS. 30.
+ALITER. Vt quadratum rectæ AC, prima quantitas, ad quadratum rectæ BC, ſecundam quantitatem, ita eſt figura CH, tertia quantitas, ad figuram BD, quartam quan-
 
-PROPOSITAM rectam lineam terminatã, extrema, ac media ratione ſecare.
-
-[Margin]
-29. ſexti.
-14. ſexti.
-[/Margin]
-
-SIT recta AB, ſecanda extrema ac media ratione. Deſcripto ſuper eam quadrato ABCD; ad latus DA, applicetur rectangulum DF, æquale quadrato AC, & excedens parallelogrammo AF, ſimili ipſi quadrato, eritq́; propterea AF, quoq; quadratum, cum quadrato ſolum quadratum ſit ſimile. Secet deinde recta EF, rectam AB, in H. Dico AB, in G, ſectam eſſe extrema ac media ratione. Cum enim æqualia ſint DF, & AC; ſi dematur cõmune AE, remanebunt æqualia GH, HC; quæ cum habeant angulos æquales AHF, BHE, utpote rectos; erunt latera circa illos reciproca; hoc eſt, erit ut EH, hoc eſt, ut AB, ſibi æqualis, ad HF, hoc eſt, ad AH, ſibi æqualem, ut AH, ad HB. Quare ſecta eſt AB, extrema ac media ratione, per definitionem. Propoſitam ergo rectam lineã terminatam, &c. Quod erat faciendum.
-
-[Figure: a square with points labelled D, E, C, A, H, B, G, F]
-
-<!-- Catchword: ALITER -->
+<!-- Catchword: titatem, -->

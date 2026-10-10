@@ -1,30 +1,29 @@
-<!-- Running title: LIBER. VIII. -->
-<!-- Page number: 293 -->
+<!-- Running title: LIBER VIII. -->
+<!-- Page number: 294 -->
 
-cubus ad cubum triplicatam habet lateris ad latus rationem.
-
-SINT numeri cubi A, & B, quorum latera C, & D. Dico inter A, & B, duos medios numeros continue proportionales cadere: Et proportionem A, ad B, cubi ad cubum, triplicatam eſſe proportionis C, ad D, lateris ad latus. Multiplicans C, ſeipſum faciat E, & D, ſeipſum multiplicãs faciat F; At C, & D, ſe mutuo multiplicantes faciant G; Multiplicantes uero G, faciant H, & I. Quoniam igitur C, ſeipſum, & D, multiplicans fecit E, & G; erit, ut C, ad D, ita E, ad G. Eadem ratione, cum D, multiplicans C, & ſeipſum, fecerit G, & F; erit quoque ut C, ad D, ita G, ad F; proptereaq; E, G, F, continue proportionales ſunt in ratione C, ad D. Rurſus, quia ex defin. cubi C, ipſum E, multiplicans fecit A; & ex conſtructione multiplicans ipſum G, fecit H; erit ut E, ad G, hoc eſt, ut C, ad D, ita A, ad H. Similiter cum D, ipſum G, multiplicans fecerit, ex conſtructione, numerum I; multiplicãs uero ipſum F, ex defin. cubi, fecerit cubum B; erit quoque, ut G, ad F, hoc eſt, ut C, ad D, ita I, ad B: Eſt autem & H, ad I, ut C, ad D; quod C, & D, ipſum G, multiplicantes fecerunt ex conſtructione, H, & I. Igitur A, H, I, B, continue ſunt proportionales in ratione C, ad D; Atque adeo inter cubos A, & B, duo medij H, & I, cadunt continue proportionales. Quoniam uero, exiſtentibus A, H, I, B, continue proportionalibus, numerus A, ad B, triplicatam habet rationem eius, quam habet A, ad H; triplicatam quoque rationem habebit A, ad B, cubus ad cubum, eius,, quam habet C, ad D, latus ad latus; cũ ſit C, ad D, ut A, ad H. Quã ob rem duorum cuborum numerorum duo medij proportionales ſunt numeri, &c. Quod erat oſtendendum.
+SINT continue proportionales A, B, C, qui ſeipſos multiplicantes faciant D, E, F; multiplicantes autem ipſos D, E, F, faciant G, H, I; & ruſum multiplicantes ipſos G, H, I, faciant K, L, M, & ita deinceps. Dico quoque D, E, F, & G, H, I, & K, L, M, continue eſſe proportionales. Multiplicantes A, & B, ſe mutuo faciant N; & B, C, ſe mutuo multiplicantes faciant O. Deinde A, multiplicans N, E, faciat P, Q. Item B, multiplicans O, F, faciat R, S. Simili
 
 [Calculation]
-A,27. H,36. I,48. B,64.
-E,9. G,12. F,16.
-C,3. D,4.
+A,2. B,4. C,8.
+D,4. N,8. E,16. O,32. F,64.
+G,8. P,16. Q,32. H,64. R,128. S,256. I,512.
+K,16. T,32. V,64. X,128. L,256. Y,512. Z,1024. R,2048. M,4096.
 [/Calculation]
 
-[Margin]
-17. ſeptimi
-[/Margin]
+modo A, multiplicans P, Q, H, faciat T, V, X; & B, multiplicans R, S, I, faciat Y, Z, R. Quoniam igitur A, multiplicans ſeipſum, & B, fecit D, & N; erit ut A, ad B, ita D, ad N. Eodem modo, quia B, multiplicans A, & ſeipſum, fecit N, & E; erit etiam, ut A, ad B, ita N, ad E. Sunt igitur D, N, E, continue proportionales in ratione A, ad B. Rurſus, quia B, ſeipſum, & numerum C, multiplicans fecit E, & O; erit ut B, ad C, ita E, ad O. Eademque ratione, cum C, multiplicans B, & ſeipſum, fecerit O, & F; erit, ut B, ad C, ita O, ad F; proptereaque & E, O, F, continue proportionales ſunt in ratione B, ad C, ſeu A, ad B. Quare cum D, N, E, in eadem ratione ſint continue proportionales, in qua E, O, F, erit ex æquo D, ad E, ut E, ad F; atque adeo D, E, F, continue proportionales ſunt.
 
 [Margin]
 17. ſeptimi
+
+17. ſeptimi
 [/Margin]
+
+DEINDE, quia A, multiplicãs D, N, E, fecit G, P, Q; erunt ex ijs, quæ ad propos. 18. lib. 7. oſtendimus, G, P, Q, in eadem ratione, in qua D, N, E, hoc eſt in ratione A, ad B, proportionales. Item quia A, & B, multiplicantes E, fecerunt Q, & H; erit quoque, ut A, ad B, ita Q, ad H. Sunt ergo G, P, Q, H, proportionales in ratione A, ad B. Similiter, quia B, multiplicans E, O, F, fecit H, R, S; erunt ex demonſtratis ad propos. 18. lib. 7. H, R, S, proportionales in ratione E, O, F, hoc eſt B, ad C, ſeu A, ad B. Et eodem modo, cum B, C, multiplicantes F, fecerint S, & I; erit ut B, ad C, hoc eſt, ut A, ad B, ita S, ad I; proptereaque
 
 [Margin]
-18 ſeptimi
+17. ſeptimi
+
+18. ſeptimi
 [/Margin]
 
-## SCHOLION.
-
-HIC quoque manifeſtum eſt, inter duos cubos cadere duos
-
-<!-- Catchword: numeros -->
+<!-- Catchword: & H, -->

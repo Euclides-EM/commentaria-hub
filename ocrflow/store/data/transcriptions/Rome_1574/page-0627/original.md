@@ -1,31 +1,33 @@
-<!-- Running title: EVCLID. GEOM. -->
+<!-- Running title: EVCLID.GEOM. -->
 
-Etiam uterque ſimul ad quemlibet illorum primus erit: Et ſi uterque ſimul ad unum aliquem illorum primus fuerit; Etiam, qui in principio, numeri primi inter ſe erunt.
+ſum A, metietur ſaltem ipſum B: Eodemque modo ſi D, non metiatur ipſum B, metietur ſaltem ipſum A. Si duo ergo numeri ſe ſe mutuo multiplicantes fecerint aliquẽ, &c. Quod erat demonſtrandum.
 
-SINT inter ſe primi AB, BC. Dico & utrunque ſimul AC, primũ eſſe & ad AB, & ad BC. Si enim AC, AB, non ſunt inter ſe primi, metiatur illos, ſi fieri poteſt, communi menſura numerus D. Quia igitur D, metitur totum AC, & ablatum AB, metietur quoque reliquum BC. Non igitur primi inter ſe ſunt AB, BC, cum eos metiatur numerus D. Quod eſt abſurdum, & contra hypotheſim. Quare AC, ad AB, primus erit. Eodemq́; modo ad BC, oſtendemus eundem eſſe primum.
+## SCHOLION.
 
-[Diagram: two dotted horizontal lines, the upper labelled A, B and C, the lower labelled D]
+EODEM modo & hoc theorema ſequens demonſtrabimus.
 
-[Margin]
-2. pron.
-[/Margin]
+Si duo numeri ſe ſe mutuo multiplicantes fecerint aliquem; genitum autem ex ipſis metiatur aliquis non primus numerus, uel certe ad ipſum ſit compoſitus: is ad unum eorum, qui in principio, compoſitus erit.
 
-SED iam uterque AB, BC, ſimul, primus ſit ad vnum aliquem illorum, uidelicet ad AB. Dico & AB, BC, inter ſe primos eſſe. Si enim non ſunt inter ſe primi, metiatur illos, ſi fieri poteſt, numerus D. Quia igitur D, metitur AB, & BC; metietur quoque D, numerum AC, ex AB, BC, cõpoſitum; Ac proinde AC, AB, non ſunt inter ſe primi, cum eos numerus D, metiatur. Quod eſt abſurdum, & contra hypotheſim. Sunt igitur AB, BC, inter ſe primi. Eodemq́; argumento oſtendemus AB, BC, inter ſe primos eſſe, ſi AC, ad BC, primus eſſe ponatur. Si duo ergo numeri primi inter ſe fuerint, &c. Quod erat domonſtrandum{printer-error-correction:demonſtrandum}.
+NAM ex A, in B, fiat C, quem uel metiatur numerus non primus D, uel certe compoſitus ad eum ſit. Dico D, quoque ad unum ipſorum A, B, compoſitũ eſſe. Si enim D, ad neutrum eorum compoſitus eſt; erit vterque A, & B, ad D, primus. Quare & C, ex illis genitus, ad eundem D, primus erit. Quod eſt abſurdum, cum D, ponatur uel metiri ipſum C, vel certe ad eum eſſe compoſitus. Eſt igitur D, compoſitus ad A, vel ad B, cum non ſit primus ad vtrunque.
 
-[Margin]
-10. pron.
-[/Margin]
-
-## COROLLARIVM.
-
-Ex hoc ſequitur, numerum, qui ex duobus compoſitus ad unũ illorum primus eſt, ad reliquum quoque primum eſſe. Si enim AC, ad AB, primus eſt, erunt AB, BC, inter ſe primi, per ſecun dam partem huius propos. Igitur & AC, ad BC, primus erit, per primam partem eiuſdem. quod eſt propoſitum.
+[Diagram: four dotted horizontal lines labelled A, B, C and D]
 
 [Margin]
-32.
+26. ſeptimi
 [/Margin]
 
-## THEOR. 29. PROPOS. 31.
+## PROBL. 31. PROPOS. 33.
 
-OMNIS primus numerus, ad om-
+[Margin]
+30.
+[/Margin]
 
-<!-- Catchword: nem -->
+OMNEM compoſitum numerum, aliquis primus numerus metitur.
+
+SIT numerus compoſitus A. Dico aliquem numerũ primum eum metiri. Metiatur enim ipſum numerus B, qui ſi primus fuerit, habetur propoſitum: Si uero compoſitus, metiatur eum numerus C, qui uel primus erit, uel compoſitus: Si primus, cum metiatur ipſum B; & B, ipſum A; metietur quoque C, primus ipſum A. Si autem C, compoſi
+
+[Margin]
+[unclear: 11. pron.]
+[/Margin]
+
+<!-- Catchword: tus -->

@@ -1,33 +1,34 @@
-<!-- Running title: LIBER. VII. -->
+<!-- Running title: LIBER VII. -->
+<!-- Page number: 261 -->
 
-<!-- Page number: 260 -->
+tionem habebunt, quam multiplicati.
 
-que numeri K F, E K, ſimul, eadem pars, quæ unitas H C, numeri K F, hoc eſt, quæ unitas A, numeri D; Ac proinde unitas A, numerum D, & numerus B C, ex unitate H C, & numero B H, compoſitus, numerum E F, ex numeris K F, B K, compoſitum æque metietur. Si, unitas igitur numerum quempiam metiatur, &c. Quod erat demonſtrandum.
+NVMERVS enim A, multiplicans numeros B, C, faciat D, E. Dico eſſe, ut B, ad C, ita D, ad E. Aſſumpta enim unitate F; erit D, ex B, cõpoſitus toties, quoties unitas F, eſt in A, per defin. 15. ſimiliterque toties E, compoſitus erit ex C, quoties eadem unitas F, eſt in eodem A: Atque adeo B, ipſum D, & C, ipſum E, æque metietur. Quare B, ipſius D, & C, ipſius E, eadem pars erit; Ac proinde, per defin. 20. erit ut B, ad D, ita C, ad E; et permutando, ut B, ad C, ita D, ad E. Si numerus igitur duos numeros multiplicans fecerit aliquos, &c. Quod oſtendendum erat.
 
-## SCHOLION.
-
-ILLVD idem, quod Euclides demonſtrauit de numeris, propos. 13. oſtendit hoc in loco ſeparatim de unitate, & tribus numeris, propterea quod unitas non eſt numerus. Quod quidem breuius ita nos demonſtrabimus. Quia unitas A, numerum B C, æque metitur, atque numerus D, numerum E F; erit unitas A, eadẽ pars numeri B C, quæ numerus D, numeri E F. Per ea igitur, quæ ad propos. 9. demonſtrauimus, erit uiciſſim unitas A, eadem pars numeri D, quæ numerus B C, numeri E F; Ac propterea unitas A, numerum D, & numerus B C, numerum E F, æque metietur.
-
-## THEOR. 14. PROPOS. 16.
+[Diagram: rows of dotted lines labelled F, A, B, C, D and E]
 
 [Margin]
-17.
+13. ſeptimi
 [/Margin]
 
-SI duo numeri mutuo ſe ſe multiplicantes fecerint aliquos; geniti ex ipſis æquales inter ſe erunt.
-
-DVO numeri A, & B, ſe mutuo multiplicantes faciant numeros C, & D, ita ut A, multiplicans ipſum B, faciat C, at B, ipſum A, multiplicans faciat D. Dico numeros C, & D, inter ſe æquales eſſe. Sumpta enim unitate E; cũ A,
-
-[Diagram: rows of dotted lines labelled E, A, B, D and C]
-
-ipſum B, multiplicans faciat C; erit C, ex B, toties compoſitus, quot ſunt in A, unitates; atque adeo unitas E, numerũ A, & numerus B, numerum C, æque metietur. Viciſſim er go & unitas E, numerum B, & numerus A, numerum C,
+## THEOR. 16. PROPOS. 18.
 
 [Margin]
-15 defin.
-
-15. ſeptimi
+19.
 [/Margin]
 
-<!-- Signature: Kk 4 -->
+SI duo numeri numerum quempiã multiplicantes, fecerint aliquos: Geniti ex ipſis eandem rationem habebunt, quam multiplicantes.
 
-<!-- Catchword: metietur -->
+NVMERI A, & B, multiplicantes numerum C, faciant D, & E. Dico eſſe ut A, ad B, ita D, ad E. Cum enim ex A, in C, fiat D; fiet quoque idem D, ex C, in A. Eademque ratione, cũ ex B, in C, fiat E; fiet idem E, ex C, in B. Quia igitur idem C, multiplicãs ipſos A, & B, facit D, & E; erit, ut A, ad B, ita D, ad E. Si duo ergo numeri numerum quempiam multiplicantes, fecerint aliquos, &c. Quod erat demonſtrandum.
+
+[Diagram: rows of dotted lines labelled A, B, C, D and E]
+
+[Margin]
+16. ſeptimi
+[/Margin]
+
+[Margin]
+17. ſeptimi
+[/Margin]
+
+<!-- Catchword: SCHO- -->

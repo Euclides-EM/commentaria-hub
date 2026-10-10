@@ -1,35 +1,25 @@
-<!-- Running title: LIBER VI. -->
+<!-- Running title: LIBER. VI. -->
 
-<!-- Page number: 231 -->
+<!-- Page number: 232 -->
 
-## DATO rectilineo ſimile ſimiliterque poſitum rectilineum deſcribere, maius, uel minus, ſecundum proportionem datam.
+BD. Cum enim proportionales ſint tres rectæ EB, BG, BA, ex corollario propos. 13. huius lib. Erit vt prius, ſicut EB, prima ad BA, tertiam, ita rectangulũ HK, ſupra AH, ſecundã (ſumpta enim fuit AH, ipſi BG, ſecundæ æqualis) ad rectangulum BD, ſupra tertiam AB, quod eſt ſimile ſimiliterque deſcriptum.
 
-[Margin]
-XIIII.
-[/Margin]
+[Figure: semicircle with G at the top; base line through points E, F, H, B, A; below the base a rectangle with points C, D, I, K]
 
-SIT rectilineum datum A, cui ſimile ſimiliterq́ue poſitũ ſit deſcribendum maius, ſecundum proportionem datam B, ad C. Tribus rectis B, C, & DE, (ſit autem DE, vnum latus rectilinei dati quodcunque) inueniatur quarta proportionalis F. Deinde duabus DE, & F, inueniatur media proportionalis GH, ſuper quam ipſi A, deſcribatur rectilineum I, ſimile, ſimiliterque poſitum. Dico I, maius eſſe quã A, ſecundum proportionem datam B, ad C. Cum enim proportionales ſint tres rectæ DE, GH, & F, erit per coroll. propos. 19. vel 20. libri huius, ut DE, prima ad F, tertiam, hoc eſt, per conſtructionem B, ad C, ita rectilineum A, ſuper primam ad rectilineum I, ſuper ſecundũ, illi ſimile ſimiliterq́;poſitum.
+EODEM modo, ſi ſupra AB, conſtitutum fuerit quodcunque rectilineum, erit quod ex BG, illi ſimile, ſimiliterque poſitum deſcribitur, ipſius duplum. Atque in hunc modum ſemper eam proportionem habebit rectilineum ex BG, ad rectilineum ſimile ex AB, quam habere ponetur recta EB, ad rectã BA, ex conſtructione.
 
-[Figure: two triangles labelled A and I, with horizontal lines B, C, D, E, G, H, F]
+PERSPICVVM autem eſt, hanc operationem vna cũ eius demonſtratione a noſtra antea tradita nõ differre, niſi quod hac ſimul tradat inuentionem mediæ proportionalis. Hanc enim ob cauſam Albertus coniungit in rectum, & continuũ lineas EB, BA, quæ proportionem habẽt datam, vt ſtatim, vna operatione, mediam proportionalem obtineat, &c.
 
-[Margin]
-12. ſexti.
-[/Margin]
+## EX FEDERICO COMMANDINO.
 
-[Margin]
-13. ſexti.
-[/Margin]
+IN dato triangulo quocunque quadratum deſcribere.
 
-[Margin]
-18. ſexti.
-[/Margin]
+SIT datum triangulum ABC, acutangulum. Ex angulo A, ad BC, perpẽdicularis demittatur AD, quæ in E, ita ſecetur, per ea, quæ in Scholio ꝓpos. 10 huius libri docuimus, ut eadẽ ſit ꝓportio AE, ad ED, quę AD, ad BC. Deinde per B{printer-error-correction:E}, agatur FG, ipſi BC, parallela. Poſtremo ex F, & G, ipſi DE, parallelæ ducantur FH, GI. Dico FGIH, rectilineum triangulo ABC, inſcriptum, eſſe quadratũ. Cum enim FEG, ipſi C, ſit parallela, erit ut ED, ad DC, ita FE, ad EG, ex ſcho
 
-NON ſecus dato rectilineo A, minus rectilineum I, deſcribemus, illi ſimile ſimiliterq́ue poſitũ, ſecundum proportionem datam B, ad C. Ceu in hac figura factum eſſe cernis. Eadem enim prorſus eſt conſtructio, atque demonſtratio.
+[Figure: acute triangle ABC with apex A, base BC; horizontal line FG through E parallel to the base, and perpendiculars falling to points H, D, I on the base]
 
-[Figure: two triangles labelled A and I, with horizontal lines B, C, D, E, G, H, F]
+[Figure: obtuse triangle ABC with apex A, base BC; horizontal line FG through E parallel to the base, and perpendiculars falling to points H, D, I on the base]
 
-FACILE igitur ex his quadratum quodcunque, vel aliud rectilineũ duplicabimus, triplicabimus, quadruplicabimus, etc. Atque aliud conſtituemus, quod ſit illius dimidium, vel tertia pars, vel quarta, vel quinta, &c. ſeruata nihilominus ſemper eadem rectilineorum ſimilitudine, quemadmodum & quadratorum eadem remanet ſimilitudo. Si namq́; proportio B, ad C, ſumatur ut 1. ad 2. vel 1. ad 3. vel 1. ad 4. &c. Item vt 2. ad 1. vel 3. ad 1. vel 4. ad 1. &c. reliqua vero perficiantur, vt prius;habebitur rectilineum ſimile ſimiliterq́; deſcriptũ, quod propoſiti rectilinei duplum exiſtet, vel triplum, vel quadruplum, &c. Vel quod dimidium erit, vel tertia pars, vel quarta, &c. eius;quod proponitur.
+[Figure: obtuse triangle ABC with apex A, base BC; horizontal line FG through E parallel to the base, and perpendiculars falling to points H, D, I on the base]
 
-NON videtur autem omittenda praxis Alberti Dureri, qua ipſe facile duplicat, triplicat, quadruplicat, &c. quadratum, ſeu parallelogrammum quodcunq; oblatum. Ex hac enim conſtruemus quoq; rectilineum ſimile, ſimiliterque deſcriptum
-
-<!-- Catchword: cuicun- -->
+<!-- Catchword: lio -->

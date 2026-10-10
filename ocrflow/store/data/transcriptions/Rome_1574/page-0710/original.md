@@ -1,31 +1,35 @@
-<!-- Running title: LIBER 9. IX. -->
-<!-- Page number: 312 -->
+<!-- Running title: LIBER IX. -->
+<!-- Page number: 313 -->
 
-morum numerorum ultimum metiuntur, ijdem & eum, qui unitati proximus eſt, metientur.
-
-SINT ab unitate deinceps proportionales quotcunque numeri A, B, C, D. Dico quoſcunque primorum numerorum, qui metiuntur ultimum D, metiri quoque A, proxixum{printer-error-correction:proximum} unitati. Metiatur enim numerus primus E, ipſum D. Dico eundem E, primum metiri etiam numerum A. Si namque non metitur ipſum A; erit E, cum primus ſit, ad A, primus.
+cumque numerũ primũ, qui vltimum metitur, metiri etiam omnes alios ante ipſum, Cum enim metiatur proximum vnitati; hic autem omnes ſubſequentes, quod ſemper minor maiorem metiatur per aliquem eorum; qui in proportionalibus ſunt numeris; manifeſtum eſt, quod & ille omnes metiatur.
 
 [Margin]
-31. ſeptimi
+12. noni
+11. noni
+[/Margin]
+
+## THEOR. 13. PROPOS. 13.
+
+[Margin]
+13.
+[/Margin]
+
+SI ab unitate quotcunque numeri deinceps proportionales fuerint, qui vero poſt vnitatem, primus ſit; Maximũ nullus alius metietur, præter eos, qui ſunt in numeris proportionalibus.
+
+SINT ab unitate continue proportionales quotcunque numeri A, B, C, D, quorum A, proximus vnitati ſit primus. Dico nullum alium numerum, præter ipſos A, B, C, metiri maximum D. Si enim fieri poteſt, metiatur numerus alius E, diuerſus ab A, B, C, ipſum D. Manifeſtum ergo eſt E, non eſſe numerum primum. Si enim primus ſit, & metiatur extremum D; metietur quoque ipſum A, unitati proximum, qui primus ponitur. Quod eſt abſurdum. Non igitur E, primus eſt, ſed compoſitus; atque adeo eum aliquis numerus primus metietur. quem dico alium eſſe non poſſe, præter primum A. Si enim alius primus quam A, metiatur E; cum E, metiatur extremum D; metietur quoque ille alius primus eundem D, atque adeo & ipſum A, primum exiſtentem, nimirum unitati proximum. Quod eſt abſurdum. Ergo non alius primus, quam A, ipſum E, metitur. Metiatur iam E, ipſum D, per F. Dico F, diuerſum eſſe ab A, B, C. Si enim F, ſit idem, qui aliquis ipſorum A, B, C; & E, metiatur D, per F; metietur utique E, ipſum D, per aliquem ipſorum A, B, C; & uiciſſim aliquis ipſorum A, B, C, (nempe is, per quem E, ipſum D, metitur,) metietur D, per
+
+[Margin]
+12. noni
+33. ſeptimi
+11. pron.
+12. noni
+8. pron.
 [/Margin]
 
 [Calculation]
-Vnitas. A,10. B,100. C,1000. D,10000.
-E,5. H,20. G,200. F,2000.
+Vnitas. A,5. B,25. C,125. D,625.
+E—— H—— G—— F——
 [/Calculation]
 
-Metiat᷑ autem E, ipſum D, per F, atque adeo E, multiplicans F, faciat D. Quia uero & A, ipſum D, metitur per C, ac proinde A, multiplicans C, facit D, ut in ſcholio præcedentis propos. oſtendimus; producetur idem numerus D, ex A, primo in C, quartum, & ex E, ſecundo in F, tertium Quare erit ut A, primus ad E, ſecundum, ita F, terttus{printer-error-correction:tertius} ad C, quartum. Cum ergo A, & E, ſint inter ſe primi; metietur æque A, ipſum F, & E, ipſum C. Metiatur E, ipſum C, per C{printer-error-correction:G}, atque adeo E, multiplicans G, faciat C. Quia uero & A, ex ſcholio eodem, metitur C, per B, atque adeo A, multiplicans B, facit C; procreabitur idem numerus C, ex A, primo in B, quartum, & ex E, ſecundo in G, tertium. Erit igitur ut A, primus ad E, ſecundum, ita G, tertius ad B, quartum. Quapropter cũ A, & E; ſint inter ſe primi; metietur æque A, ipſum G, & E, ipſum B. Metiatur E, ipſum B, per H, ita ut E, multiplicans H, faciat B. Metitur autem & A, ipſum B, per A, ac idcirco A, ſe ipſum multiplicans facit B, ut ex eodem ſcholio apparet. Gignitur ergo idem numerus B, ex A, medio in ſe, & ex E, primo in H, tertium. Quare erit ut E, primus ad A, ſecundum, ita A, ſecundus ad H, tertium; atque adeo, cũ E, & A, inter ſe primi ſint, æque metietur E, ipſũ A, & A, ipſum H. Quod eſt contra hypotheſim. ponitur enim E, ipſum A, non metiri. Quare falſum eſt E, ipſum A, non metiri. Nam ex eo quod E, non dicatur metiri ipſum
-
-[Margin]
-9. pron.
-19. ſeptimi
-21. ſeptimi
-9. pron.
-19. ſeptimi
-21. ſeptimi
-9. pron.
-20. ſeptimi
-21. ſeptimi
-[/Margin]
-
-<!-- Catchword: ſum -->
+<!-- Signature: R 1 -->
+<!-- Catchword: per -->

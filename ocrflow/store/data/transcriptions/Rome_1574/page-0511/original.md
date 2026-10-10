@@ -1,31 +1,25 @@
-<!-- Running title: EVCLID. GEOM. -->
+<!-- Running title: EVCLID.GEOM. -->
 
-<!-- Page number: [illegible] -->
-
-ut BD, ad FH, ita rectangulum ſub AB, BC, ad rectangulum ſub EF, FG. Ductis enim diametris AC, EG, quæ angulos æquales B, F, ſubtendant, habebunt triangula ABC, EFG, angulum B, angulo F, æqualem. Quare, ut iam demonſtrauimus, erit, ut ABC, ad EFG, ita rectangulum ſub AB, BC, ad rectangulum ſub EF, FG. Cum ergo parallelogramma BD, FH, eandem habeant proportionem, quam triangula ABC, EFG, ipſorum dimidia; Erit quoque ut BD, ad FH, ita rectangulum ſub AB, BC, ad rectangulum ſub EF, FG. Quod eſt propoſitum.
-
-[Figure: two parallelograms with diagonals drawn, the first labelled A, D, B, C, the second labelled E, H, F, G]
+EF, ad BC, & ex proportione P, ad O, hoc eſt, DK, ad AI; componetur etiam proportio DEF, ad ABC, & EH, ad CG, ex eiſdem proportionibus.
 
 [Margin]
-15. quinti.
+22.
+[/Margin]
 
-11. quinti.
+## THEOR. 18. PROPOS. 24.
+
+IN omni parallelogrammo, quæ circa diametrum ſunt, parallelogramma & toti, & inter ſe ſunt ſimilia.
+
+ESTO parallelogrammum ABCD, in quo ducatur diameter AC, & per quodlibet eius punctũ I, ducantur duę rectæ EF, GH, parallelæ lateribus parallelogrammi. Dico parallelogrãma circa diametrũ, nẽpe EG, FH, ſimilia eſſe & toti parallelogrammo, & inter ſe ſe. Quod enim æquiangula ſint toti, facile oſtendetur ex propos. 29. lib. 1. Nam angulus GAE, idem eſt qui angulus BAD; & angulus externus AEI, æqualis interno ADC; & angulus AGI, externus interno ABC; & angulus EIG, externus interno BFI; & hic externus interno BCD. Quare æquiangulum eſt EG, ipſi BD: Et eadẽ ratione eidem BD, ęquiangulum erit FH. Quod autem latera circa æquales angulos habeant proportionalia lateribus totius, hoc modo demonſtrabimus. Cum triangulum AGI, æquiangulum ſit triangulo ABC; & triangulum AEI, triangulo ADC, ut perſpicuum eſt ex 29. propos. lib. 1. uel etiam ex coroll. propos. 4. huius lib. erit ut AB, ad BC, ita AG, ad GI; atque ita latera circa angulos B, & G, proportionalia ſunt. Rurſus erit ut BC, ad CA, ita GI, ad IA; Item ut CA, ad CD, ita IA, ad IE. Ex æquo igitur, ut BC, ad CD, ita GI, ad IE; ac propterea & latera circa angulos BCD, GIE, proportionalia exiſtunt. Non aliter demonſtrabuntur latera circa reliquos angulos æquales, eſſe pportionalia. Quare per definitionem, ſimile erit parallelogrammum EG, toti parallelogrammo BD. Eadem arte oſtendes parallelogram-
+
+[Figure: parallelogram ABCD with diameter AC and internal parallels EF and GH meeting in I, labelled A, E, D, G, I, H, B, F, C]
+
+[Margin]
+4. ſexti.
 [/Margin]
 
 [Margin]
-VI.
+22. quinti.
 [/Margin]
 
-TRIANGVLA, & parallelogramma inter ſe proportionem habent cõpoſitam ex proportione baſium, & proportione altitudinum.
-
-SINT triangula ABC, DEF, & parallelogramma CG, EH, quorum altitudines AI, DK. Dico eorum proportionem compoſitam eſſe ex proportione baſis BC, ad baſin EF, & proportione altitudinis AI, ad altitudinem DK. Sint enim primũ altitudines æquales, baſes vero vel æquales etiã, vel inæquales: Fiatque, ut BC, ad EF, ita L, ad M; Vt autem AI, ad DK, ita M, ad N. Quo facto, erit M, ipſi N, æqualis, quod & AI ipſi DK, æqualis ponitur; Ac proinde erit L, ad N, ut L, ad M, hoc eſt, ut BC, ad EF. At uero, ut BC, ad EF, ita eſt triangulum ABC, ad triangulum DEF, & parallelogrammum CG, ad parallelogrammum EH. Igitur quoque erit, ut L, ad N, ita triangulum ABC, ad triangulum DEF, & parallelogrammum CG, ad parallelogrammum EH; Sed proportio L, ad N, compoſita eſt ex proportione L, ad M, hoc eſt, baſis BC, ad baſin EF; & ex proportione M, ad N, hoc eſt, altitudinis AI, ad altitudinem DK. Proportio ergo trianguli ABC, ad triangulum DEF,
-
-[Figure: two parallelograms with diagonals, the first labelled G, A, B, C, I, the second labelled D, H, E, K, F; below them three horizontal lines labelled L, M and N]
-
-[Margin]
-7. quinti.
-
-1. ſexti.
-[/Margin]
-
-<!-- Catchword: [illegible] -->
+<!-- Catchword: mum -->

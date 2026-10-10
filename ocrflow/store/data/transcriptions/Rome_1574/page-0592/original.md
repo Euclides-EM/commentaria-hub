@@ -1,27 +1,32 @@
 <!-- Running title: LIBER VII. -->
+<!-- Page number: 254 -->
 
-<!-- Page number: 253 -->
-
-perſpicuum erat, reliquum EB, alicuius numeri eandem eſſe partem, quæ eſt AE, ipſius CF. Licet enim ipſius EB, duplũ aſſumere, triplum, quadruplum, &c. donec EB, ſit ita ſubmultiplex numeri aſſumpti GC, ut AE, eſt ſubmultiplex ipſius CF.
-
-## THEOR. 7. PROPOS. 9.
-
-SI numerus numeri pars fuerit, & alter alterius eadem pars: Et uiciſſim, quæ pars eſt, aut partes primus tertij, eadẽ pars erit, uel eædem partes & ſecundus quarti.
+## THEOR. 9. PROPOS. 11.
 
 [Margin]
-9.
+12.
 [/Margin]
 
-SIT numerus A, numeri BC, eadem pars, quæ numerus D, numeri EF, ſintque A, BC, minores ipſis D, EF. ſinguli ſingulis. Dico & uiciſſim eandem partem eſſe, aut eaſdem partes A, ipſius D qualis eſt, aut quales B C, ipſius EF. Diuiſis enim numeris BC, EF, in partes BG, GC, & EH, HF, ipſis A, & D, æquales; erit multitudo partium numeri BC, æqualis multitudini partium numeri EF. Quia uero BG, GC, inter ſe ſunt æquales, & minores quã EH, HF, quæ inter ſe etiam æquales ſunt, quod & totus BC, toto EF, minor ponitur; Erit BG, ipſius EH, eadem pars, aut partes, quæ GC, ipſius HF; ac propterea & uterque BG, GC, ſimul, nempe BC, ſecundus utriuſque EH, HF, ſimul, nimirum EF, quarti eadem pars, uel partes, quæ BG, ipſius EH, hoc eſt, quæ A, primus ipſius D, tertij. Si numerus igitur numeri pars fuerit, &c. Quod demonſtrandum erat.
+SI fuerit ut totus ad totum; ita ablatus ad ablatum: Et reliquus ad reliquum erit, ut totus ad totum.
 
-[Diagram: four dotted lines, the first labelled A, the second labelled B, G and C, the third labelled D, the fourth labelled E, H and F]
+SIT ut totus numerus AB, ad totum CD, ita ablatus AE, ad ablatum CF. Dico & reliquum EB, ad reliquum FD, eſſe, ut eſt totus AB, ad totum CD. Cum enim ſit, ut AB, ad CD, ita AE, ad CF; erit per defin. 20. AB, ipſius CD, & AE, ipſius CF, uel æque multiplex, uel eadem pars, uel eædem partes: uel certe AB, ipſum CD, & AE, ipſum CF, æqualiter continebit, eandemque inſuper illius partem, uel eaſdem partes. Sit primum AB, ipſius CD, & AE, ipſius CF, æque multiplex. Quo poſito erit e contrario CD, totus totius AB, eadem pars, quæ ablatus CF, ablati AE, propter AB, AE, æque multiplices ipſorum CD, CF. Igitur & reliquus FD, reliqui EB, eadem pars erit, quæ totus CD, totius AB; Ac propterea e contrario AB, ipſius CD, & EB, ipſius FD, æque multiplex erit. Quare erit, per defin. 20. ut totus AB, ad totum CD, ita EB, reliquus ad reliquum FD.
+
+[Diagram: two dotted lines, the first labelled A, E and B, the second labelled C, F and D]
 
 [Margin]
-5. uel 6. ſeptimi.
+7. ſeptimi
 [/Margin]
 
-## SCHOLION.
+SIT ſecundo AB, ipſius CD, & AE, ipſius CF, eadem pars, uel eædem partes. Quo poſito, erit & reliquus EB, reliqui FD, eadẽ pars, uel partes, quæ totus AB, toti⁹ CD; Ac proinde, per defin. 20. erit ut totus AB, ad totum CD, ita EB, reliquus ad reliquum FD.
 
-QVOD ſi loco primi numeri unitas accipiatur, quæ numeri alicuius pars ſit, quæ alter numerus alterius: Erit uiciſſim
+[Diagram: two dotted lines, the first labelled A, E and B, the second labelled C, F and D]
 
-<!-- Catchword: unitas -->
+[Diagram: two dotted lines, the first labelled A, E and B, the second labelled C, F and D]
+
+[Margin]
+7. uel 8. ſeptimi.
+[/Margin]
+
+CONTINEAT tertio AB, ipſum CD, & AE, ipſum CF, æqualiter, eandemque inſuper illius partem, uel partes. Quo poſito, erit e cõtrario CD, totus totius AB, eædẽ partes, quæ ablatus CF, ablati AE, ut mox demõſtrabimus.
+
+<!-- Catchword: Reli- -->

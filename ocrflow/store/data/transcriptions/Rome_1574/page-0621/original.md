@@ -1,22 +1,27 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-merus E, utrunque A, & B, metiatur, erit numerus E, eorum communis menſura. Quare A, & B, non ſunt primi inter ſe, ſed compoſiti. Quod eſt abſurdum, & contra hypotheſin. Non ſunt igitur alij numeri ipſis A, & B. minores; minimi in proportione A, ad B; Ac proinde A, & B, minimi ſunt. Primi ergo inter ſe numeri minimi ſunt, &c. Quod erat demonſtrandum.
+ut G, toties metiatur ipſum A, quoties unitas eſt in D; & ipſum B, toties, quoties unitas eſt in E; & ipſum C, toties quoties unitas eſt in F: Quoniã igitur G, toties compoſitus facit numeros A, B, C, quoties unitas eſt in D, E, F; ſit ut D, E, F, ipſum G, multiplicantes producant ipſos A, B, C. Quare D, E, F, eaſdem habent proportiones, quas A, B, C, per ea, quæ ad propos. 18. huius lib. oſtendimus; Atque adeo, cum D, E, F, minores ſint quam A, B, C; non erunt A, B, C, minimi in continuatione ſuarum proportionum. Quod eſt abſurdum. Primi igitur inter ſe ſunt A, B, C. Quod eſt propoſitum.
 
-[Margin]
-22.
-[/Margin]
-
-## THEOR. 22. PROPOS. 24.
-
-MINIMI numeri omnium eandem cum eis rationem habentium, primi inter ſe ſunt.
-
-SINT numeri A, & B, minimi omnium eandem cum ipſis proportionem habentium. Dico eos eſſe inter ſe primos; hoc eſt, nullum numerũ, præter unitatem, cõmuni menſura eos metiri. Si enim non ſunt inter ſe primi, ſed habeant numerum communem menſuram; ſit numerus C, eorum menſura communis, metiaturque C, numerus numerum quidem A, toties, quoties unitas eſt in numero D; At uero ipſum B, toties, quoties unitas eſt in E. Quia igitur C, toties compoſitus, quot in D. ſunt unitates, procreat ipſum A; & idem C, toties compoſitus, quot ſunt unitates in E, producit ipſum B; fit, ut D, & E, ipſum C, multiplicantes, producant A, & B. Quare eadem erit proportio A, ad B, quæ D, ad E; Atque adeo, cũ D, & E, partes ipſorum A, & B, minores ſint, quam A, & B; non erunt A, & B, numeri minimi omnium eandem cum eis rationem habentium. Quod eſt abſurdum. Primi ergo inter ſe ſunt numeri A, & B; Ac proinde, minimi numeri omnium eandem cum eis rationem habentium, primi inter ſe ſunt. Quod oſtendendum erat.
-
-[Diagram: rows of dotted lines labelled A, B, C, D and E]
+[Diagram: three rows of dotted lines labelled A, B and C, with dashed lines labelled D, E, F and G below]
 
 [Margin]
 9. pron.
-18. ſeptimi
 [/Margin]
 
-<!-- Catchword: SCHO- -->
+[Margin]
+24.
+[/Margin]
+
+## THEOR. 23. PROPOS. 25.
+
+SI duo numeri primi inter ſe fuerint; Qui unum eorum metitur numerus, ad reliquum primus erit.
+
+SINT inter ſe primi A, & B; & ipſum A, metiatur numerus C. Dico C, ad reliquum B, eſſe primum. Si enim nõ ſunt inter ſe primi B, & C; metiatur eos communi menſura, ſi fieri poteſt, numerus D. Quoniam igitur D, metitur C; & C, ipſum A; metietur etiam D, ipſum A: Metitur autem & ipſum B. Igitur A, & B, non ſunt inter ſe primi, cum habeant menſuram communem, numerum D. Quod eſt abſurdum, & contra hypotheſim. Eſt ergo C, ad B, primus. Eodem modo, ſi numerus quiſpiam metiatur ipſum B, erit is ad A, primus. Quapropter ſi duo numeri primi inter ſe fuerint, &c. Quod erat demõſtrandum.
+
+[Diagram: dotted lines labelled A and B above a dotted line labelled C and a dashed line labelled D]
+
+[Margin]
+11. pron.
+[/Margin]
+
+<!-- Catchword: THEOR. -->

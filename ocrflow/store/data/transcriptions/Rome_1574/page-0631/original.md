@@ -1,31 +1,28 @@
-<!-- Running title: EVCLID.GEOM. -->
+<!-- Running title: EVCLID. GEOM. -->
 
-nem habentium cum ipſis.
-
-SINT quotcunque numeri A, B, C, habẽtes quaſcunque proportiones, ſiue eadem ſit proportio A, ad B, quæ B, ad C. ſiue non; oporteatque totidem reperire, qui in eiſdem proportionibus ſint minimi. Quoniam A, B, C, ſunt inter ſe aut primi, aut compoſiti. Si primi inter ſe ſunt; erũt ipſi in continuatione ſuarum proportionũ minimi, per ea, quæ ad propos. 24. huius lib. demonſtrauimus. Si uero non ſunt inter ſe primi, inuenta ſit maxima earum communis menſura numerus D, qui metiatur ipſos A, B, C, per numeros E, F, G. Dico E, F, G, minimos eſſe in proportionibus numerorũ A, B. C. Quod enim eaſdem habeant proportiones, quas numeri A, B, C, ſic oſtendetur. Quoniam D, ipſos A, B, C, metitur per E, F, G; fit, ut D, ipſos E, F, G, multiplicans faciat A, B, C. Quare, per ea, quæ ad propos. 18. huius lib. oſtendimus, eaſdem rationes habebunt E, F, G, quas numeri A, B, C.
-
-[Diagram: dotted horizontal lines labelled A, B, C, D, E, F, G, H, I, K and L]
+quem illi minimum metiantur, numerum.
 
 [Margin]
-3. ſeptim.
-[/Margin]
-
-[Margin]
+7. pron.
 9. pron.
-[/Margin]
-
-QVOD uero E, F, G, ſint minimi omnium eandem rationem habentium cum ipſis, hoc modo perſpicuum fiet. Si non ſunt minimi, erunt aliqui alij ipſis minores, minimi in eiſdem proportionibus. Sint ergo, ſi fieri poteſt, minimi H, I, K; qui quoniam ipſos A, B, C, metiuntur æque, ut ad propos. 21. huius lib. oſtendimus; metiantur eos per numerum L. Quo poſito L, multiplicans numeros H, I, K, producet numeros A, B, C, & uiciſſim L, ipſos A, B, C, metietur per H, I, K. Quoniam igitur E, primus multiplicans D, quartum facit A; & H, ſecundus multiplicans L, tertiũ facit eundem A; erit, ut E, primus ad H, ſecundum, ita L, tertius ad D, quartum: Eſt autem E, maior quam H: Igitur & L, maior erit, quam D; Atque adeo, cum L, ipſos A, B, C, metiatur; non erit D, maxima menſura communis numerorum A, B, C. Quod eſt abſurdum, & contra hypotheſim. Non igitur erunt alij numeri minores ipſis E, F, G, minimi in continuatione proportionũ A, ad B, & B, ad C,
-
-[Margin]
-9. pron.
-[/Margin]
-
-[Margin]
-8. pron.
-[/Margin]
-
-[Margin]
 19. ſeptimi
+23. ſeptimi
+21. ſeptimi
+17. ſeptim.
 [/Margin]
 
-<!-- Catchword: ſed -->
+SIT reperiendus minimus numerus omnium, quos dati numeri A, & B, metiuntur. Sint primum dati numeri A, & B, inter ſe primi, ſeſeque mutuo multiplicantes faciant C. Dico C, eſſe minimum, quẽ A, & B, metiuntur. Quod enim cum metiantur, perſpicuum eſt. Nam cum producatur C, ex A, in B, uel ex B, in A; metietur A, ipſum C, per B; & B, eundem C, per A. Vterque igitur A, & B, ipſum C, metitur. Quod autem C, ſit minimus omniũ, quos A, & B, metiuntur, ſic demonſtrabimus. Si C, non eſt minimus, metiantur, ſi fieri poteſt, A, & B alium numerum D, ipſo C, minorem; metiaturque A, ipſum D, per E, at B, eundem D, per F. Quo poſito, tam ex A, in E, quam ex B, in F, & e contrario, producetur numerus D. Quia igitur idem numerus D, fit ex A, primo in E, quartum, & ex B, ſecundo in F, tertium; erit, ut A, primus ad B, ſecundum, ita F, tertius ad E, quartum. Igitur A, & B, (cum ponantur primi inter ſe, & ob id, in ſua proportione minimi ſint) æque metientur ipſos F, & E; nimirum A, ipſum F, & B, ipſum E. Quoniam uero A, multiplicans B, & E, facit C, & D, erit C, ad D, ut B, ad E: Ac propterea cum B metiatur ipſum E, ut oſtenſum eſt; metietur & C, numerus numerum D, maior minorem. Quod eſt abſurdum. Non igitur A, & B, metientur alium numerum minorem ipſo C; atque adeo C, minimus eſt omnium, quos metiuntur.
+
+[Diagram: dotted and dashed rows labelled A, B, C, D, E and F]
+
+[Margin]
+35. ſeptimi
+19. ſeptim
+7. pron.
+[/Margin]
+
+SINT ſecundo dati numeri A, & B, non primi inter ſe. Inueniantur C, & D, minimi in eadem proportione, ut ſint quatuor numeri proportionales, nempe A, ad B, ut C, ad D. Quo poſito, fiet idem numerus, ex A, primo in D, quartum, & ex B, ſecundo in C, tertium. factus ergo ſit E. Dico E, hac uia procreatũ eſſe minimum, quem A, & B, metiuntur. Quod enim cum me
+
+[Diagram: dotted and dashed rows labelled A, B, C, D, E, F, G and H]
+
+<!-- Catchword: tiantur -->

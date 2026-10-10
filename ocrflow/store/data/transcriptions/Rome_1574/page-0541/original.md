@@ -1,41 +1,35 @@
-<!-- Running title: EVCLID. GEOM. -->
+<!-- Running title: EVCLID. GEOM -->
 
-tum ipſis EFG, BCD. Dico HIK, medium eſſe proportionale quæſitum. Cum enim proportionales ſint tres rectæ EF, HI, BC, erunt quoque rectilinea ab ipſis deſcripta EFG, HIK, BCD, proportionalia, cum ſint ſimilia ſimiliterq́ue poſita, &c.
-
-[Margin]
-22. ſexti.
-[/Margin]
-
-[Figure: a triangle labelled A, a triangle DBC, and two similar triangles labelled G, K on the line EFHI]
-
-ALITER. Sit rurſus inter rectilinea A, & B, perquirendum mediũ proportionale. Conſtituatur ipſi A, æquale parallelogrãmũ quodcunque CDEF; Ipſi vero B, æquale parallelogrammũ EGHI, ſimile vero ſimiliterque poſitum ipſi CDEF. Connectanturque hæc parallelogramma ad angulos æquales, ut DE, EI, efficiant unam lineam, ac propterea, per ea, quæ ad 15. propos. 1. lib. demonſtrauimus, una quoque linea componatur ex FE, EG; perficiaturq́ue totum parallelogrammum KL. Dico vtrumlibet EK, vel EI, medium eſſe proportionale inter DF, GI, hoc eſt, inter A, & B. Cum enim ſimilia ſint, ſimiliterque poſita DF, GI, erit vt DE, ad EF, ita EI, ad EG. Permutando ergo vt DE, ad EI, ita FE, ad EG. Vt autem DE, ad EI, ita DF, ad EK; & ut FE, ad EG, ita EK, ad GI. Igitur vt DF, ad EK, ita EK, ad GI, &c.
+IK, connectanturq́ue rectæ FK, HK. Deſcribantur iam ex FK, HK, rectilinea FKL, HKM, ipſi FGH, vel ipſi D, ſimilia, ſimiliterque poſita. Dico hæc rectilinea æqualia ipſi FGH, vel ipſi A; eorumq́ue latera homologa FK, HK, proportionem habere datam rectæ B, ad rectam C. Cum enim angulus FKH, in ſemicirculo rectus ſit, erunt rectilinea FKL, HKM, rectilineo FGH, ideoq́; & rectilineo A, æqualia. Quoniã vero, vt FI, ad IK, ita FK, ad HK, ob ſimilitudinem triangulorum FIK, FKH: Eſt autem FI, ad IH, in proportione duplicata proportionis FI, ad IK, (quod tres FI, IK, IH, proportionales ſint, ex coroll. propos. 8. huius lib.) Ac propterea in proportione duplicata proportionis laterũ homologorũ FK, HK. Item & proportio B, ad E, (æqualis proportioni FI, ad IH, ex cõſtructione,) in duplicata eſt proportione proportionis B, ad C, ex defin. Igitur eadem erit proportio FK, ad HK, quæ B, ad C; quandoquidem ipſarum duplicatæ proportiones FI, ad IH, & B, ad E, æquales ſunt.
 
 [Margin]
-45. primi
+31. tertij.
 
-25. ſexti.
+31. ſexti.
 
-1. ſexti.
+4. ſexti.
 [/Margin]
 
-[Figure: two triangles labelled A and B, and two parallelograms joined about the diameter, labelled C, F, K, D, E, L, G, H]
+[Figure: a rectangle A, a triangle D, a triangle FGH with semicircle on line FIH and points L, K, M, and three vertical lines labelled B, C, E]
 
-QVOD etiam in hunc modum confirmari poteſt. Cum DF, GI, ſimilia ſint, ſimiliterq́ue poſita, conſiſtent ea circa eandem diametrum. Quare complementa EK, EL, æqualia erunt. Vt autem DF, ad EK, ita eſt EL, ad GI, eo quod vtraque proportio eadem ſit proportioni DE, ad EI. Igitur erit, vt DF, ad EK, ita EK, ad GI.
+## DVOBVS datis rectilineis, æquale rectilineum conſtituere, quod ſimile ſit, ſimiliterque poſitum cuiuis rectilineo dato.
 
 [Margin]
-26. ſexti.
-
-1. ſexti.
-
-V.
+VII.
 [/Margin]
 
-## DATO rectilineo duo rectilinea æqualia cõſtituere, quæ ſimilia ſint, ſimiliterque deſcripta cuicunque rectilineo, habeantque inter ſe proportionem propoſitam quamcunque.
+DVO rectilinea data ſint A, & B, quibus æquale ſit cõſtruendũ, ſimile ſimiliterq́ue poſitũ ipſi C. Fiat ipſi A, æquale DEF, ſimile autẽ ſimiliterq́ue poſitũ ipſi C. Itẽ ipſi B, æquale conſtituatur GFH, ſimile vero eidem C, ſimiliterq́; poſitũ. Deinde rectilinea DEF, GFH, ita inter ſe connectantur, vt latera eorum homologa EF, FH, cõſtituant angulum EFH, rectũ, cui ſubtendatur recta EH, ex qua deſcribatur rectilineum IHE, ſimile ſimiliterque poſitum ipſis DEF, GFH, hoc eſt, ipſi C. Perſpicuum autem eſt EHI, æquale eſſe duobus DEF, GFH; atque idcirco duobus A, & B.
 
-SIT datum rectilineũ A, dataq́; proportio rectæ B, ad C, oporteatq́; conſtituere duo rectilinea, quæ ipſi A, æqualia ſint, habeantq́; proportionem, quam B, & C; ac ſimilia ſimiliterque poſita ſint rectilineo cuiuis D. Conſtituatur rectilineum EFGH, æquale ipſi A, & ſimile ſimiliterq́ue poſitum ipſi D. Diuiſa
+BREVIVS. Cõſtituatur parallelogrammũ æquale duo
 
 [Margin]
 25. ſexti.
+
+18. ſexti.
+
+31. ſexti.
 [/Margin]
 
-<!-- Catchword: deinde -->
+[Figure: a rectangle A, two triangles B and C, and triangles DEF and GFH joined at F with line EH and point I below]
+
+<!-- Catchword: bus -->

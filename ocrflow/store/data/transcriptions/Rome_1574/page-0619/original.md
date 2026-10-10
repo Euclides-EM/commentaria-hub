@@ -1,21 +1,22 @@
 <!-- Running title: EVCLID. GEOM. -->
 
-*ad FH; & conuertendo, ut CG, ad BG, ita FH, ad EH. Quoniam ergo eſt, ut A, ad CG, ita D, ad FH; & ut CG, ad BG, ita FH, ad EH; erit ex æqualitate, ut A, ad BG, ita D, ad EH. Quod eſt propoſitum.*
-
-*DENIQVE ex his omnibus inferemus hoc theorema,*
+merus E, utrunque A, & B, metiatur, erit numerus E, eorum communis menſura. Quare A, & B, non ſunt primi inter ſe, ſed compoſiti. Quod eſt abſurdum, & contra hypotheſin. Non ſunt igitur alij numeri ipſis A, & B. minores; minimi in proportione A, ad B; Ac proinde A, & B, minimi ſunt. Primi ergo inter ſe numeri minimi ſunt, &c. Quod erat demonſtrandum.
 
 [Margin]
-VIII.
+22.
 [/Margin]
 
-Si quotcunque numeri ad eundem habuerint pportiones, quas alij illis multitudine ęquales ad quendam alium eundem; Habebunt quoque illi omnes ſimul ad eundem, proportionẽ, quam omnes hi ſimul ad eundem. Et ſi idem numerus ad quotcunque numeros proportiones habuerit, quas idem numerus ad alios multitudine illis æquales; Habebit quoque idẽ numerus ad omnes illos ſimul proportionem, quã idem numerus ad hos omnes ſimul.
+## THEOR. 22. PROPOS. 24.
 
-*HABEANT quotcunque numeri AB, BC, CD, ad eundem E, proportiones, quas totidem FG, GH, HI, habent ad eundem K: Hoc eſt, ſit ut AB, ad E, ita FG, ad K; & ut BC,*
+MINIMI numeri omnium eandem cum eis rationem habentium, primi inter ſe ſunt.
 
-[Diagram: rows of dotted lines labelled A, B, C, D and E; and F, G, H, I and K]
+SINT numeri A, & B, minimi omnium eandem cum ipſis proportionem habentium. Dico eos eſſe inter ſe primos; hoc eſt, nullum numerũ, præter unitatem, cõmuni menſura eos metiri. Si enim non ſunt inter ſe primi, ſed habeant numerum communem menſuram; ſit numerus C, eorum menſura communis, metiaturque C, numerus numerum quidem A, toties, quoties unitas eſt in numero D; At uero ipſum B, toties, quoties unitas eſt in E. Quia igitur C, toties compoſitus, quot in D. ſunt unitates, procreat ipſum A; & idem C, toties compoſitus, quot ſunt unitates in E, producit ipſum B; fit, ut D, & E, ipſum C, multiplicantes, producant A, & B. Quare eadem erit proportio A, ad B, quæ D, ad E; Atque adeo, cũ D, & E, partes ipſorum A, & B, minores ſint, quam A, & B; non erunt A, & B, numeri minimi omnium eandem cum eis rationem habentium. Quod eſt abſurdum. Primi ergo inter ſe ſunt numeri A, & B; Ac proinde, minimi numeri omnium eandem cum eis rationem habentium, primi inter ſe ſunt. Quod oſtendendum erat.
 
-*ad E, ita GH, ad K; & ut CD, ad E, ita HI, ad K. Dico omnes illos ſimul, hoc eſt, ipſum AD, ad E, eandem habere proportionem, quam hi omnes ſimul, hoc eſt, ipſe FI, ad K. Cum enim ſit, ut AB, primus ad E, ſecundum, ita FG, tertius ad K, quartum: Item ut BC, quintus ad E, ſecundum, ita GH, ſextus ad K, quartum; erit quoque ut AC, primus cum quinto, ad E, ſecundum, ita FH, tertius cum ſexto, ad K, quartum. Rurſus quia eſt, ut AC, primus ad E, ſecundum, ita FH, tertius ad K, quartum: Item ut CD, quintus ad E, ſecundum, ita HI, ſextus ad K, quartum; erit etiam, ut AD, primus cum quinto, ad E, ſecundum, ita FI, tertius cum ſexto, ad K, quartum: Atque ita de cæteris, ſi plures fuerint.*
+[Diagram: rows of dotted lines labelled A, B, C, D and E]
 
-*SED habeat tam idem numerus E, ad numeros quotcunque*
+[Margin]
+9. pron.
+18. ſeptimi
+[/Margin]
 
-<!-- Catchword: AB, -->
+<!-- Catchword: SCHO- -->

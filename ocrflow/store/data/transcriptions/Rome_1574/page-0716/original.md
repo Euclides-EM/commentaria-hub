@@ -1,26 +1,37 @@
 <!-- Running title: LIBER IX. -->
-<!-- Page number: 315 -->
+<!-- Page number: 316 -->
 
-C, D, E, in ſua proportione minimi, in qua ſumantur etiam duo minimi F, G: Metiatur autem primo H, primum eorum, nempe A. Dico H, compoſitum eſſe vel ad F, vel ad G. Sumantur enim in eadem proportione tres numeri minimi I, K, L; & quatuor M, N, O, P; & ſic deinceps, donec habeantur tot vno minus, quot ſunt ipſi A, B, C, D, E. Quoniam igitur, vt conſtat ex modo procreandi quotlibet minimos tradito in 2. propos. lib. 8. A, fit ex F, in M; metitur autem H, ipſum A; erit H, compoſitus, ex ſcholio propos. 32. lib. 7. ad F, vel ad M. Si ad F, habemus propoſitum; ſi vero ad M, qui quidem fit ex F, in I, vt conſtat ex demonſtratione propos. 2. lib. 8. erit, ex ſcholio dicto, rurſus H, compoſitus vel ad F, vel ad I. ſi ad F, habetur propoſitum; ſi vero ad I, cum I, gignatur ex F, in ſe ipſum; erit H, compoſitus ad F, ex dicto ſcholio.
+DE, ipſius HI; & EB, ipſius IK, pars erit a C, denominata, nempe eadem quæ AB, ipſius F. Quia uero, per ea quæ ad propoſ. 5. lib. 7. demonſtrauimus, totus AB, totius GK, eadem pars eſt, quæ AD, ipſius GH; erit quoque AB, totus totius GK, pars eadem, quæ AB, ipſius F; Ac proinde inter ſe æquales erunt F, & GK. Quod eſt propoſitum.
+
+[Margin]
+4. pron.
+[/Margin]
+
+[Margin]
+II.
+[/Margin]
+
+SI numerus in duas partes diuidatur: Numeri plani ſub toto, & ſingulis partibus comprehenſi æquales ſunt numero quadrato, qui a toto efficitur.
+
+NVMERVS AB, diuidatur in AC, CB. Dico numeros, qui fiunt ex AB, toto in partes AC, CB, ſimul æquales eſſe numero quadrato, qui ex toto AB, efficitur. Sumpto enim numero D, qui æqualis ſit ipſi AB; erit per theor. 1. numerus factus ex D, hoc eſt, ex AB, in AB, nimirũ quadratus ipſius AB, æqualis numeris, qui fiunt ex D, hoc eſt, ex AB, in AC, & in CB. quod eſt propoſitum.
 
 [Calculation]
-A, 16.  B, 24.  C, 36.  D, 54.  E, 81.
-M, 8.  N, 12.  O, 18.  P, 27.
-I, 4.  K, 6.  L, 9.
-H ——  F, 2.  G, 3.
+[/Calculation]
+
+IDEM demonſtrabitur, ſi AB, in plures partes, quam in duas ſecetur, vt ex appoſita ſecunda figura apparere poteſt. Eadem enim ratione erit numerus factus ex E, hoc eſt, ex AB, in AB, nempe quadratus ipſius AB, æqualis numeris, qui gignuntur ex E, hoc eſt, ex AB, in ſingulas partes AC, CD, DB.
+
+[Calculation]
+E . . . . . . . .
+A . . . C . . . D . . B
 [/Calculation]
 
 [Margin]
-2. octaui
+III.
 [/Margin]
 
-DEINDE metiatur H, ſecundum B. Quia ergo B, fit ex F, in N, erit ut prius H, compoſitus vel ad F, uel ad N. ſi ad F, habetur propoſitum; ſi vero ad N, qui quidem fit ex F, in K; erit H, eodem modo compoſitus vel ad F, uel ad K. ſi ad F, habetur propoſitum; ſi vero ad K, cum K, gignatur ex F, in G; erit quoque H, compoſitus uel ad F, vel ad G.
+SI numerus in duas partes diuidatur: Numerus planus ſub toto, & una parte comprehenſus æqualis eſt & illi, qui ſub partibus continetur, & quadrato, qui a prædicta parte efficitur.
 
-RVRSVS metiatur H, tertium C, qui cum fiat ex F, in O; erit H, compoſitus uel ad F, uel ad O. Si ad F, habetur propoſitum; ſi vero ad O, qui quidem fit ex F, in L; erit H, compoſitus vel ad F, vel ad L. ſi ad F, habetur propoſitum; ſi vero ad L, cum L, gignatur ex G, in ſe; compoſitus quoque erit H, ad G.
+SIT numerus AB, diuiſus in AC, CB. Dico numerum, qui fit ex toto AB, in partem AC, æqualem eſſe & ei, qui ſub partibus AC, CB, continetur, & quadrato dictæ partis AC.
 
-PRAETEREA metiatur H, quartum D, qui cum fiat ex F, in P; erit H, compoſitus vel ad F, uel ad P. ſi ad F, habetur propoſitum; ſi vero ad P, qui quidem fit ex G, in L; erit etiam H, compoſitus uel ad G, uel ad L. ſi ad G, habetur propoſitum; ſi vero ad L, cum L, producatur ex G, in ſe; erit quoque H, ad G, compoſitus.
-
-EODEM modo ſi H, metiatur vltimum E, oſtendemus H, compoſitum eſſe ad G; atque ita in cæteris eadem ſemper erit demonſtratio.
-
-<!-- Signature: Rr 3 -->
-<!-- Catchword: ITA- -->
+<!-- Signature: Rr 4 -->
+<!-- Catchword: Sumpto -->

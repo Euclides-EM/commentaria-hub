@@ -1,32 +1,35 @@
-<!-- Running title: EVCLID. GEOM. -->
-<!-- Page number: [illegible] -->
+<!-- Running title: EVCLID.GEOM. -->
 
-teſt; maior, quam EF. Abſciſſa igitur BL, ipſi EF, æquali, ductaq́; recta LA; erit, ut proxime demonſtrauimus, ABL, ad DEF, ut AI, ad DK: Sed ut AI, ad DK, ita ponitur eſſe ABC, ad DEF. Igitur ABL, ABC, ad DEF, eandem habent proportionem; Ac proinde inter ſe æqualia ſunt, pars & totum. Quod eſt abſurdum. Non ergo inæquales ſunt baſes BC, EF, ſed æquales. Eademque eſt ratio de parallelogrammis. Simili enim argumento, ducta LM, ipſi GB, parallela, oſtendemus, parallelogramma MGBL, AGBC, æqualia eſſe, ſi baſes BC, EF, dicantur inæquales.
+rationem, quam reliqua ipſius trianguli latera. Et ſi baſis ſegmenta eandem habeant rationem, quam reliqua ipſius trianguli latera; recta linea, quæ a uertice ad ſectionẽ producitur, ea bifariam ſecat trianguli ipſius angulum.
 
-[Figure: two figures on a common base line B, L, C, I, K, E, F; a quadrilateral G, M, A with internal diagonals, and a smaller figure D, H with diagonals]
+IN triangulo ABC, recta AD, ſecet angulum BAC, bifariam. Dico eſſe ut BA, ad AC, ita BD, ad DC. Agatur enim per B, recta BE, parallela ipſi AD, donec cum CA, producta conueniat in E; eritque angulus EBA, æqualis alterno BAD; & angulus E, externo DAC. Cum igitur duo anguli BAD, DAC, æquales ponantur; erunt & anguli EBA, & E, inter ſe æquales; Ideoque rectæ BA, EA, inter ſe æquales Vt igitur EA, ad AC, ita BA, ad eandem AC; Atqui ut EA, ad AC, ita BD, ad DC, cũ in triangulo BCE, recta AD, ſit parallela lateri BE; Igitur ut BA, ad AC, ita BD, ad DC, quod eſt propoſitum.
 
 [Margin]
-11. quinti.
+29. primi
 [/Margin]
 
 [Margin]
-et 9. quinti.
+6. primi.
+7. quinti
 [/Margin]
 
-IN omnibus autem his non uariabitur demonſtratio, etiam ſi triangula, & parallelogramma ſint rectangula, ita ut altitudines ſint ipſorum latera, uel unum fuerit rectangulum, alterum uero non. Nos aſſumpſimus caſum difficiliorem, quando ſcilicet neutrum eſt rectangulum. Ita enim demonſtratio maiore indiget quandoque conſtructione.
-
-## THEOR. 2. PROPOS. 2.
+[Figure: triangle B, D, C with apex E and point A on the side, internal lines from A to B and D]
 
 [Margin]
-2.
+2. ſexti.
+11. quinti
 [/Margin]
 
-SI ad unum trianguli latus parallela ducta fuerit recta quædam linea, hæc proportionaliter ſecabit ipſius trianguli latera. Et ſi trianguli latera proportionaliter ſecta fuerint, quæ ad ſectiones adiuncta fuérit recta linea, erit ad reliquum ipſius trianguli latus parallela.
-
-IN triangulo ABC, ducatur recta DE, parallela lateri BC. Dico latera AB, AC, ſecta eſſe proportionaliter in D, & E, hoc eſt, eſſe ut AD, ad DB, ita AE, ad EC. Ductis enim rectis CD, BE, erunt triangula DEB, DEC, ſuper eandem baſin DE, & inter eaſdem parallelas DE,
+SIT iam ut BA, ad AC, ita BD, ad DC. Dico rectã AD, bifariam ſecare angulum BAC. Agatur enim rurſus per B, recta BE, ipſi AD, parallela coiens cum CA, protracta in E. Quoniam igitur ut BA, ad AC, ita ponitur BD, ad DC; ut autem BD, ad DC, ita eſt EA, ad AC; (quod in triangulo BCE, recta AD, ſit lateri BE, parallela) Erit ut BA, ad AC, ita EA, ad eandem AC. Aequales igitur ſunt BA, & EA, inter ſe; ac propterea anguli ABE, & E, æquales erunt. Cum igitur angulus ABE, æqualis ſit alterno BAD; & angulus E, externo DAC; erunt & duo anguli BAD, DAC, inter ſe æquales, quod eſt propoſitum. Itaque ſi trianguli angulus bifariam ſectus ſit, &c. Quod erat demonſtrandum.
 
 [Margin]
-37. primi
+2. ſexti
 [/Margin]
 
-<!-- Catchword: BC, -->
+[Margin]
+11. quinti
+9. quinti.
+29. primi.
+[/Margin]
+
+<!-- Catchword: THEOR. -->

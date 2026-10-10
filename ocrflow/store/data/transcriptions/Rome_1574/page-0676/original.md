@@ -1,26 +1,31 @@
 <!-- Running title: LIBER VIII. -->
-<!-- Page number: 295 -->
+<!-- Page number: 296 -->
 
-A, ad B, & B, ad C. Eodem modo oſtendemus G, H, I eſſe proportionales continue in triplicata ratione rationis A, ad B, & B, ad C: At vero K, L, M, in quadruplicata, atque ita de cæteris.
+metiri cubum B. Eodem enim argumento erit, ut C, ad D, ita A, ad H, propterea quod A, H, I, B, continuę proportionales ſunt in ratione C, ad D, ut oſtenſum eſt propos. 12. huius lib. Quapropter metiente C, latere latus D, metietur & A, ipſum H; ac idcirco & extremum B, cubus cubum, ex ijs, quæ ad propos. 6. huius lib. demonſtrauimus. Itaque ſi cubus numerus cubum numerum metiatur, &c. Quod erat demonſtrandum.
 
-EX qua rurſum demonſtratione apparet, numeros primum productos eſſe in duplicata ratione datorum numerorum; ſecundo vero procreatos, in triplicata, &c. Id quod luce clarius elicitur ex 1. theor. ſcholij propos. 10. huius lib.
-
-QVAMVIS autem in vtraque demonſtratione huius propos. 13. dati ſint tantum tres numeri continue proportionales A, B, C; eandem tamen propoſitionem demõſtrabimus, etiãſi plures fuerint, quam tres. Sint namque numeri plures, quã tres A, B, C, D, continue proportionales, qui ſe ipſos multiplicantes faciãt E, F, G, H; poſtea vero multiplicantes ipſos E, F, G, H, faciant I, K, L, M, & ſic deinceps. Quoniam igitur E, F, G, ex demonſtratis, proportionales ſunt in ratione A, ad B: Item F, G, H, in ratione B, ad C, hoc eſt, in eadem ratione A, ad B; cum illi producti ſint ex A, B, C, proportionalibus in ſe ipſos: hi vero ex B, C, D, proportionalibus quoque in ſe ipſos: Erunt E, F, G, H, continue proportionales. Non ſecus proportionales erunt I, K, L, M; & alij deinceps eodẽ modo producti.
-
-[Calculation]
-A,2. B,4. C,8. D,16.
-E,4. F,16. G,64. H,256.
-I,8. K,64. L,512. M,4096.
-[/Calculation]
-
-## THEOR. 12. PROPOS. 14.
+## THEOR. 14. PROPOS. 16.
 
 [Margin]
-13.
+15.
 [/Margin]
 
-SI quadratus numerus quadratum numerum metiatur; & latus unius metietur latus alterius. Et ſi unius quadrati latus metiatur latus alterius; & quadratus quadratum metietur.
+SI quadratus numerus quadratum numerum non metiatur; neq; latus unius metietur alterius latus. Et ſi latus unius quadrati non metiatur latus alterius: neq; quadratus quadratum metietur.
 
-METIATVR quadratus A, cuius latus C, quadratũ B, cuius latus D. Dico & latus C, latus D, metiri. Multiplicantes enim ſe mutuo C, & D, faciant E. Quoniam igitur,
+SINT quadrati A, & B, quorum latera C, & D; Non metiatur autem A, ipſum B. Dico neque C, latus metiri latus D. Si enim fieri poteſt, metiatur C, ipſum D. Quia igitur C, latus quadrati A, metitur D, latus quadrati B; metietur & quadratus A, quadratum B. Quod eſt abſurdum; Ponitur enim non metiri. Non ergo latus C, metietur latus D.
 
-<!-- Catchword: ut -->
+[Calculation]
+A,16. B,81.
+C,4. D,9.
+[/Calculation]
+
+[Margin]
+14.octaui
+[/Margin]
+
+SED iam latus C, non metiatur latus D. Dico quod nec quadratus A, quadratum B, metietur. Si namque A, metiri dicatur ipſum B; metietur quoque C, latus illius D, latus huius. Quod eſt abſurdum. Ponitur enim non metiri. Igitur quadratus A, quadratum B, non metietur. Quapropter ſi quadratus numerus quadratum numerum non metiatur, &c. Quod erat oſtendendum.
+
+[Margin]
+14.octaui
+[/Margin]
+
+<!-- Catchword: THEOR. -->

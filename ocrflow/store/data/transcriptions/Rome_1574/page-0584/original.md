@@ -1,39 +1,25 @@
-<!-- Running title: LIBER. VII. -->
+<!-- Running title: LIBER VII. -->
+<!-- Page number: 250 -->
 
-<!-- Page number: 249 -->
+HOC autem perſpicue in his appoſitis exẽplis apparet. Eadem enim prorſus eſt demonſtratio.
 
-merum E, maximam illorum menſuram communem: Eademque in cæteris eſt ratio.
+[Diagram: two pairs of horizontal dotted lines, the first pair labelled A and B, G, C; D and E, H, F; the second pair labelled A and B, G, C; D and E, H, F]
 
-PARI ratione, pluribus numeris datis, quam tribus, non primis inter ſe, maxima eorum comunis mẽſura inuenietur; locumq; habebit hoc idem corollarium. Nam ſi dati numeri fuerint quatuor, inuenienda erit primum maxima menſura communis trium numerorum ſi quinque, quatuor numerorum accipienda erit primum maxima communis menſura, &c. Reliqua uero omnia peragenda, ut de tribus numeris dictum eſt.
+POSSVMVS etiam hanc propoſitionem ad quotcunque numeros transferre, hoc modo.
 
-## THEOR. 2. PROPOS. 4.
+SI ſint quotcunque numeri quotcunque numerorum æqualium numero, ſinguli ſingulorũ, eadem pars; Et omnes omnium ſimul eadem pars erunt, quæ unus unius.
 
-[Margin]
-4.
-[/Margin]
+SINT numeri A, B, C, numerorum DE, FG, HI, ſinguli ſingulorũ eadẽ pars. Dico omnes numeros A, B, C, ſimul omniũ numerorum DE, FG, HI, ſimul eandem eſſe
 
-OMNIS numerus, omnis numeri, minor maioris, aut pars eſt, aut partes.
+[Diagram: three horizontal dotted lines labelled A; B; C, above a longer dotted line labelled D, K, E; F, L, G; H, M, I]
 
-SINT duo numeri A, minor, & B, maior. Dico A, eſſe aut partem, aut partes ipſius B. Sint enim primo A, & B, inter ſe primi. Quia igitur quælibet unitas numeri A, pars eſt numeri B; perſpicuum eſt, numerum A, eſſe partes numeri B.
+partẽ, quæ eſt A, ipſius DE. Diuiſis.n.numeris DE, FG, HI, in partes ipſis A, B, C, æquales; erit multitudo partiũ numeri DE, æqualis multitudini partiũ tam numeri FG, quã numeri HI. Quia igitur A, & DK, æquales ſunt; ſi illis addantur æquales B, & FL, erunt A, B, ſimul æquales ipſis DK, FL, ſimul: quibus ſi rurſum addantur æquales C, & HM; erunt quoq; A, B, C, ſimul æquales ipſis DK, FL, HM, ſimul. Simili ratione erũt A, B, C ſimul æquales ipſis KE, LG, MI, ſimul; & ſic deinceps, ſi plures partes fuerint in DE, FG, HI, aggregatũ numerorum A, B, C, tot aggregatis partium numerorum DE, FG, HI, æquale erit, quoties A, in DE, cõtinetur. Quamobrẽ eadẽ pars erũt A, B, C, ſimul ipſorũ DE, FG, HI, ſimul, quæ A, ipſius DE.
 
-[Diagram: two horizontal dotted lines labelled A and B]
+IDEM ſequitur, ſi loco unius numerorũ A, B, C, ſumatur unitas, uel loco pluriũ, uel etiã omniũ, plures unitates, vt de duobus dictum eſt. Id quod ſequentes figuræ indicant.
 
-SINT deinde A, & B, nõ primi inter ſe, ſed inter ſe compoſiti, & metiatur A, ipſum B. Quo poſito manifeſtum eſt A, partẽ eſſe numeri B.
+[Diagram: two sets of horizontal dotted lines, the first labelled A; B; C above D, K, E; F, L, G; H, M, I; the second labelled A, B, C above D, K, E; F, L, G; H, M, I]
 
-[Diagram: two horizontal dotted lines labelled A and B]
+THEOREMATI quoque primo quinti lib. ſimile proponemus, in hanc modum.
 
-SED iam A, non metiatur ipſum B; inuenta autem maxima eorum menſura communis ſit C; diuidaturque numerus A, in partes AD, DE, EF, quarum ſingulæ ipſi C, ſint æquales. Quia igitur C, pars eſt ipſius B, cũ ipſum metiatur; erit quoque AD, pars eiuſdem B: ſimiliter & DE, & EF: Ac propterea totus numerus A, eſt partes numeri B. Omnis igitur numerus, omnis numeri, minor maioris, aut pars eſt, aut partes. Quod demonſtrandum erat.
-
-[Diagram: three horizontal dotted lines, the first labelled A, D, E and F, the others B and C]
-
-## THEOR. 3. PROPOS. 5.
-
-[Margin]
-5.
-[/Margin]
-
-SI numerus numeri pars fuerit, & alter
-
-<!-- Signature: Ii -->
-
-<!-- Catchword: alte- -->
+<!-- Signature: Ii 2 -->
+<!-- Catchword: SI -->
