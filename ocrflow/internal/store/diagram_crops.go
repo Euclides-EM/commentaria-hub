@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"net/url"
 	"os"
-	"path"
 	"strings"
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
@@ -55,7 +54,7 @@ func (s *DiagramCropsStore) GetEditionDiagramCropRelPaths(key string) ([]string,
 				volumeKey = key
 			}
 			for _, imageName := range volume.Images {
-				relPaths = append(relPaths, path.Join(volumeKey, "crops", imageName))
+				relPaths = append(relPaths, filesys.DiagramCropRelPath(volumeKey, imageName))
 			}
 		}
 		return relPaths, nil
@@ -65,7 +64,7 @@ func (s *DiagramCropsStore) GetEditionDiagramCropRelPaths(key string) ([]string,
 		singleKey = key
 	}
 	for _, imageName := range fileData.Images {
-		relPaths = append(relPaths, path.Join(singleKey, "crops", imageName))
+		relPaths = append(relPaths, filesys.DiagramCropRelPath(singleKey, imageName))
 	}
 	return relPaths, nil
 }

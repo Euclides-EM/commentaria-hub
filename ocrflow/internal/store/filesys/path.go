@@ -46,6 +46,10 @@ func (m *Manager) DatasetImagesDirByID(dsID string) string {
 	return path.Join(m.DatasetDir(dsID), "imgs")
 }
 
+func (m *Manager) DatasetImagePathByID(dsID string, imageName string) string {
+	return path.Join(m.DatasetImagesDirByID(dsID), imageName)
+}
+
 func (m *Manager) DatasetImageVariantsDirByID(dsID string, variant string) string {
 	return path.Join(m.DatasetImagesDirByID(dsID), "_variants", variant)
 }
@@ -73,6 +77,14 @@ func (m *Manager) DefaultModelPath() string {
 
 func (m *Manager) DiagramCropsMetadataFile(editionKey string) string {
 	return path.Join(m.diagramsDir, editionKey+".json")
+}
+
+func DiagramCropRelPath(key, imageName string) string {
+	return path.Join(key, "crops", imageName)
+}
+
+func DiagramCropPath(diagramsDir, relPath string) string {
+	return path.Join(diagramsDir, relPath)
 }
 
 func (m *Manager) EditionTxtTranscriptionDir(editionKey string) string {

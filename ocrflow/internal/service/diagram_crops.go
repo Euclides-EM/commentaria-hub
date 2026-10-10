@@ -9,6 +9,7 @@ import (
 
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 )
 
@@ -92,7 +93,7 @@ func (c *DiagramCrops) zipDiagrams(key string) (string, func(io.Writer) error, e
 	write := func(w io.Writer) error {
 		zw := zip.NewWriter(w)
 		for _, relPath := range relPaths {
-			if err := addFileToZip(zw, filepath.Join(diagramsDir, filepath.FromSlash(relPath)), relPath); err != nil {
+			if err := addFileToZip(zw, filesys.DiagramCropPath(diagramsDir, relPath), relPath); err != nil {
 				return err
 			}
 		}
