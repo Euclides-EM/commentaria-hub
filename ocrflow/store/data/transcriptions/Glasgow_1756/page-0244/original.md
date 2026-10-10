@@ -19,4 +19,4 @@ f. 3. Def. 11.
 
 [Diagram: lines joining labelled points A, B, C, D, and E]
 
-## PROP. IX.
+<!-- Catchword: PROP. IX. -->

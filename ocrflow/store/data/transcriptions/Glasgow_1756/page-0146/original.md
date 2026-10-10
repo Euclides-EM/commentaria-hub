@@ -3,9 +3,7 @@
 
 # EUCLIDIS ELEMENTORUM
 
-[Subhead]
-LIBER QUINTUS.
-[/Subhead]
+# LIBER QUINTUS.
 
 ## DEFINITIONES.
 

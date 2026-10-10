@@ -16,4 +16,4 @@ f. 28. 1.
 
 [Diagram: lines AB, AD, AE, BD, BE, CD and DE]
 
-## PROP. VII.
+<!-- Catchword: PROP. VII. -->

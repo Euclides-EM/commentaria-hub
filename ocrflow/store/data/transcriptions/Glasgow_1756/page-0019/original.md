@@ -1,45 +1,45 @@
 <!-- Running title: EUCLIDIS ELEMENTORUM -->
 <!-- Page number: 4 -->
 
-## XIX.
+### XIX.
 
 “ Segmentum circuli eſt figura quae recta linea et circuli circumferentia continetur.”
 
-## XX.
+### XX.
 
 Rectilineae figurae ſunt, quae rectis continentur lineis.
 
-## XXI.
+### XXI.
 
 Trilaterae quidem, quae tribus.
 
-## XXII.
+### XXII.
 
 Quadrilaterae, quae quatuor.
 
-## XXIII.
+### XXIII.
 
 Multilaterae vero, quae pluribus quam quatuor rectis lineis continentur.
 
-## XXIV.
+### XXIV.
 
 Trilaterarum figurarum, aequilaterum eſt triangulum, quod tria latera habet aequalia.
 
-## XXV.
+### XXV.
 
 Iſoſceles, quod duo tantum aequalia latera habet.
 
 [Diagram: three triangles]
 
-## XXVI.
+### XXVI.
 
 Scalenum vero, quod tria inaequalia habet latera.
 
-## XXVII.
+### XXVII.
 
 Ad haec, trilaterarum figurarum, rectangulum quidem triangulum eſt, quod rectum angulum habet.
 
-## XXVIII.
+### XXVIII.
 
 Obtusangulum eſt, quod obtuſum habet angulum.
 

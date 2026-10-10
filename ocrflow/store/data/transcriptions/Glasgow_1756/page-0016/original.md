@@ -1,34 +1,34 @@
 # EVCLIDIS ELEMENTORVM
 
-## LIBER PRIMVS.
+# LIBER PRIMVS.
 
 ## DEFINITIONES.
 
-I.
+### I.
 
 {dropcap:P|lines=2|style=plain}UNCTUM, ſeu ſignum, eſt, cujus nulla eſt pars, vel quod magnitudinem nullam habet.
 
-II.
+### II.
 
 Linea vero eſt longitudo latitudinis expers.
 
-III.
+### III.
 
 Lineae extrema ſunt puncta.
 
-IV.
+### IV.
 
 Recta linea eſt, quae ex aequo ſuis interjicitur punctis.
 
-V.
+### V.
 
 Superficies eſt id, quod longitudinem, et latitudinem tantum habet.
 
-VI.
+### VI.
 
 Superficiei extrema ſunt lineae.
 
-VII.
+### VII.
 
 Plana ſuperficies eſt, in qua ſumptis utcunque duobus punctis, recta linea inter ea, tota jacet in illa ſuperficie.
 

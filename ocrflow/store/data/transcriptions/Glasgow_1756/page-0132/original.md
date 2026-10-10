@@ -27,4 +27,4 @@ a. 4. 1.
 b. 31. 3.
 [/Margin]
 
-## PROP. VII.
+<!-- Catchword: PROP. VII. -->

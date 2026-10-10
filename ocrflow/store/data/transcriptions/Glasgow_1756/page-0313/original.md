@@ -15,4 +15,4 @@ ABC, ita ſolidum Z ad ABCG pyramidem. erit autem ut ſolidum Z ad ABCG pyramide
 † Hoc eodem modo oſtendetur quo ſimile in Prop. 2. ad notam †.
 [/Footnote]
 
-## PROP. VI.
+<!-- Catchword: PROP. VI. -->

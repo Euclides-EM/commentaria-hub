@@ -31,4 +31,4 @@ d. 34. 1.
 
 rectangulum igitur ab ipſis A, BC contentum eſt aequale rectangulo contento ab ipſis A, BD, et contento ab A, DE, et adhuc contento ab ipſis A, EC. ſi igitur ſint duae rectae lineae &c. Q. E. D.
 
-## PROP. II.
+<!-- Catchword: PROP. II. -->

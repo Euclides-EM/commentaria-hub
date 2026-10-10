@@ -27,4 +27,4 @@ Poſitis enim figuris ita ut baſes earum ſint in eâdem recta linea, et ductis
 f. 33. 1.
 [/Margin]
 
-## PROP. II.
+<!-- Catchword: PROP. II. -->

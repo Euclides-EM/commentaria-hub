@@ -3,9 +3,7 @@
 
 # EUCLIDIS ELEMENTORUM
 
-[Subhead]
-LIBER SEXTUS.
-[/Subhead]
+# LIBER SEXTUS.
 
 ## DEFINITIONES.
 

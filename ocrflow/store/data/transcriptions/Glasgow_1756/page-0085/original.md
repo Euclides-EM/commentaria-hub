@@ -3,9 +3,7 @@
 
 # EUCLIDIS ELEMENTORUM
 
-[Subhead]
-LIBER TERTIUS.
-[/Subhead]
+# LIBER TERTIUS.
 
 ## DEFINITIONES.
 

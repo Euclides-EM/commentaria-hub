@@ -33,4 +33,4 @@ h. 17. 6.
 
 [Diagram: horizontal line labelled A, C and B]
 
-## PROP. XXXI.
+<!-- Catchword: PROP. XXXI. -->

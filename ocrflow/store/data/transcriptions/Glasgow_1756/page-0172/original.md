@@ -8,4 +8,4 @@ b. 2. 5.
 c. 5. Def. 5.
 [/Margin]
 
-## PROP. XVIII.
+<!-- Catchword: PROP. XVIII. -->

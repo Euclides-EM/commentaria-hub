@@ -22,4 +22,4 @@ f. 21. 6.
 
 [Diagram: parallelogram ABCD with diagonal AC; points E and K on the upper and lower sides, G and H on the left and right sides, and intersecting lines EK and GH meeting at F]
 
-## PROP. XXV.
+<!-- Catchword: PROP. XXV. -->

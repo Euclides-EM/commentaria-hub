@@ -14,7 +14,7 @@ EX VERSIONE LATINA FEDERICI COMMANDINI;
 
 Sublatis iis quibus olim Libri hi a THEONE, aliiſve, Vitiati ſunt; Et quibuſdam EUCLIDIS Demonſtrationibus Reſtitutis,
 
-## A ROBERTO SIMSON, M.D.
+A ROBERTO SIMSON, M.D.
 
 In Academia Glaſguenſi Matheſeos Profeſſore.
 
