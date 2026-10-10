@@ -96,7 +96,7 @@ const isNodeActive = (
 ): boolean =>
   nodePage !== undefined &&
   currentPage >= nodePage &&
-  (endPage === undefined || currentPage <= endPage)
+  (endPage === undefined || currentPage < endPage || currentPage === nodePage)
 
 const getActivePathKeys = (
   nodes: NavigationIndexNode[],
@@ -147,7 +147,7 @@ const Node = ({
   return (
     <div>
       <div
-        className={`py-1 px-0 border-b border-gray-300 text-xs hover:bg-black/5 transition-colors flex items-center ${isActive ? 'bg-black/5 font-semibold' : ''}`}
+        className={`py-1 px-0 border-b border-gray-300 text-xs transition-colors flex items-center ${isActive ? 'bg-black/10 font-semibold shadow-[inset_3px_0_0_rgba(0,0,0,0.65)]' : 'hover:bg-black/5'}`}
         style={{ marginLeft: `${level * 16}px` }}
         data-index-active={isActive || undefined}
       >
