@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import Select from 'react-select'
 import { useAppState } from '../../../context/useAppState.ts'
@@ -416,6 +416,33 @@ export function GalleryViewTab() {
     { defaultValue: false, storageSync: false },
   )
   const [navigationFloatingOpen, setNavigationFloatingOpen] = useState(false)
+  const [navigationPinnedCollapsed, setNavigationPinnedCollapsed] =
+    useLocalStorageState(useScopedStorageKey('sidebarCollapsed'), {
+      defaultValue: false,
+      storageSync: false,
+    })
+  const navigationCollapsed = navigationFloating
+    ? !navigationFloatingOpen
+    : navigationPinnedCollapsed
+  const navigationDocked = !navigationFloating && !navigationCollapsed
+  const handleNavigationCollapsedChange = useCallback(
+    (collapsed: boolean) => {
+      if (navigationFloating) {
+        setNavigationFloatingOpen(!collapsed)
+      } else {
+        setNavigationPinnedCollapsed(collapsed)
+      }
+    },
+    [navigationFloating, setNavigationPinnedCollapsed],
+  )
+  const handleNavigationFloatingChange = (floating: boolean) => {
+    if (floating) {
+      setNavigationFloatingOpen(true)
+    } else {
+      setNavigationPinnedCollapsed(false)
+    }
+    setNavigationFloating(floating)
+  }
 
   const annotationPageEntries = useMemo(
     () => (annotation ? parsePageEntries(annotation.pages || '') : []),
@@ -964,21 +991,21 @@ export function GalleryViewTab() {
 
   return (
     <div className="h-full flex overflow-hidden">
-      {!navigationFloating && (
+      {navigationDocked && (
         <AnnotationNavigation
-          floating={false}
-          onFloatingChange={setNavigationFloating}
-          floatingOpen={navigationFloatingOpen}
-          onFloatingOpenChange={setNavigationFloatingOpen}
+          floating={navigationFloating}
+          onFloatingChange={handleNavigationFloatingChange}
+          collapsed={navigationCollapsed}
+          onCollapsedChange={handleNavigationCollapsedChange}
         />
       )}
       <div className="relative flex-1 flex flex-col min-h-0 overflow-hidden">
-        {navigationFloating && (
+        {!navigationDocked && (
           <AnnotationNavigation
-            floating
-            onFloatingChange={setNavigationFloating}
-            floatingOpen={navigationFloatingOpen}
-            onFloatingOpenChange={setNavigationFloatingOpen}
+            floating={navigationFloating}
+            onFloatingChange={handleNavigationFloatingChange}
+            collapsed={navigationCollapsed}
+            onCollapsedChange={handleNavigationCollapsedChange}
           />
         )}
         <div className="border-b border-gray-200 bg-gray-50 shrink-0 flex flex-col">

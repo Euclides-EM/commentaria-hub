@@ -3,7 +3,7 @@ import { TeiPane } from './tei/TeiPane.tsx'
 import type { TeiSurfaceZone } from './tei/tei.ts'
 import { AnnotationNavigation } from './AnnotationNavigation.tsx'
 import { useAppState } from '../../../context/useAppState.ts'
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { useScopedStorageKey } from '../../../context/storageScope.ts'
 import { HeightResizable } from '../../core/HeightResizable.tsx'
@@ -46,8 +46,46 @@ export function AnnotationContentsTab({
     { defaultValue: compareLayout, storageSync: false },
   )
   const [navigationFloatingOpen, setNavigationFloatingOpen] = useState(false)
+  const [navigationPinnedCollapsed, setNavigationPinnedCollapsed] =
+    useLocalStorageState(useScopedStorageKey('sidebarCollapsed'), {
+      defaultValue: false,
+      storageSync: false,
+    })
+  const navigationCollapsed = navigationFloating
+    ? !navigationFloatingOpen
+    : navigationPinnedCollapsed
+  const navigationDocked = !navigationFloating && !navigationCollapsed
   const imagePaneHeightKey = useScopedStorageKey('imagePaneHeight')
   const teiPaneHeightKey = useScopedStorageKey('teiPaneHeight')
+
+  const handleNavigationCollapsedChange = useCallback(
+    (collapsed: boolean) => {
+      if (navigationFloating) {
+        setNavigationFloatingOpen(!collapsed)
+      } else {
+        setNavigationPinnedCollapsed(collapsed)
+      }
+    },
+    [navigationFloating, setNavigationPinnedCollapsed],
+  )
+
+  const handleNavigationFloatingChange = (floating: boolean) => {
+    if (floating) {
+      setNavigationFloatingOpen(true)
+    } else {
+      setNavigationPinnedCollapsed(false)
+    }
+    setNavigationFloating(floating)
+  }
+
+  const navigation = (
+    <AnnotationNavigation
+      floating={navigationFloating}
+      onFloatingChange={handleNavigationFloatingChange}
+      collapsed={navigationCollapsed}
+      onCollapsedChange={handleNavigationCollapsedChange}
+    />
+  )
 
   const handleHoverLineMatchIds = (ids: string[]) => {
     const normalized = normalizeMatchIds(ids)
@@ -138,28 +176,16 @@ export function AnnotationContentsTab({
         <div
           className={`flex ${showImage || showContents ? '' : 'min-h-full'}`}
         >
-          {!navigationFloating && (
+          {navigationDocked && (
             <div className="flex shrink-0 pb-2 [&>aside]:[contain:size]">
-              <AnnotationNavigation
-                floating={false}
-                onFloatingChange={setNavigationFloating}
-                floatingOpen={navigationFloatingOpen}
-                onFloatingOpenChange={setNavigationFloatingOpen}
-              />
+              {navigation}
             </div>
           )}
           <div
             ref={contentRef}
             className={`relative flex-1 min-w-0 flex gap-3 px-3 box-border ${isStacked ? 'flex-col' : 'items-start'}`}
           >
-            {navigationFloating && (
-              <AnnotationNavigation
-                floating
-                onFloatingChange={setNavigationFloating}
-                floatingOpen={navigationFloatingOpen}
-                onFloatingOpenChange={setNavigationFloatingOpen}
-              />
-            )}
+            {!navigationDocked && navigation}
             {showImage && (
               <HeightResizable
                 storageKey={imagePaneHeightKey}
@@ -175,7 +201,7 @@ export function AnnotationContentsTab({
                   allZoneCategories={allZoneCategories}
                   activeLineMatchIds={activeLineMatchIds}
                   onHoverLineMatchIds={handleHoverLineMatchIds}
-                  titleInset={navigationFloating}
+                  titleInset
                 />
               </HeightResizable>
             )}
@@ -190,7 +216,7 @@ export function AnnotationContentsTab({
                   key={`${datasetId}:${annotationId}:${String(currentPageOrKey)}`}
                   activeLineMatchIds={activeLineMatchIds}
                   onHoverLineMatchIds={handleHoverLineMatchIds}
-                  titleInset={navigationFloating && !showImage}
+                  titleInset={!showImage}
                   onSurfaceZonesChange={setSurfaceZones}
                   onAllZoneCategoriesChange={setAllZoneCategories}
                 />
@@ -204,26 +230,12 @@ export function AnnotationContentsTab({
 
   return (
     <div className="h-full flex overflow-hidden">
-      {!navigationFloating && (
-        <AnnotationNavigation
-          floating={false}
-          onFloatingChange={setNavigationFloating}
-          floatingOpen={navigationFloatingOpen}
-          onFloatingOpenChange={setNavigationFloatingOpen}
-        />
-      )}
+      {navigationDocked && navigation}
       <div
         ref={contentRef}
         className="relative flex-1 min-h-0 flex gap-3 px-3 box-border overflow-hidden"
       >
-        {navigationFloating && (
-          <AnnotationNavigation
-            floating
-            onFloatingChange={setNavigationFloating}
-            floatingOpen={navigationFloatingOpen}
-            onFloatingOpenChange={setNavigationFloatingOpen}
-          />
-        )}
+        {!navigationDocked && navigation}
         {showImage && (
           <div
             className={`relative min-h-0 h-full empty:hidden ${showContents ? 'shrink-0' : 'flex-1 min-w-0'}`}
@@ -237,7 +249,7 @@ export function AnnotationContentsTab({
               allZoneCategories={allZoneCategories}
               activeLineMatchIds={activeLineMatchIds}
               onHoverLineMatchIds={handleHoverLineMatchIds}
-              titleInset={navigationFloating}
+              titleInset
             />
           </div>
         )}
@@ -249,7 +261,7 @@ export function AnnotationContentsTab({
               key={`${datasetId}:${annotationId}:${String(currentPageOrKey)}`}
               activeLineMatchIds={activeLineMatchIds}
               onHoverLineMatchIds={handleHoverLineMatchIds}
-              titleInset={navigationFloating && !showImage}
+              titleInset={!showImage}
               onSurfaceZonesChange={setSurfaceZones}
               onAllZoneCategoriesChange={setAllZoneCategories}
             />

@@ -73,46 +73,55 @@ const getFilteredNode = (
   return null
 }
 
-const getNextSiblingPage = (
+const getEndPage = (
   nodes: annotation_IndexNode[],
   startIndex: number,
-  currentNodePage: number | undefined,
+  parentEndPage: number | undefined,
 ): number | undefined => {
-  if (currentNodePage === undefined || currentNodePage === null)
-    return undefined
+  const currentNodePage = getPageNumber(nodes[startIndex].location?.page)
+  if (currentNodePage === undefined) return undefined
   for (let i = startIndex + 1; i < nodes.length; i += 1) {
     const page = getPageNumber(nodes[i].location?.page)
-    if (page !== undefined && page !== null && page > currentNodePage) {
-      return page
+    if (page !== undefined && page >= currentNodePage) {
+      return parentEndPage === undefined ? page : Math.min(page, parentEndPage)
     }
   }
-  return undefined
+  return parentEndPage
 }
+
+const isNodeActive = (
+  nodePage: number | undefined,
+  endPage: number | undefined,
+  currentPage: number,
+): boolean =>
+  nodePage !== undefined &&
+  currentPage >= nodePage &&
+  (endPage === undefined || currentPage <= endPage)
 
 const getActivePathKeys = (
   nodes: NavigationIndexNode[],
   currentPage: number,
-): string[] => {
-  const activeIndex = nodes.findIndex((node, index) => {
-    const nodePage = getPageNumber(node.location?.page)
-    if (nodePage === undefined || currentPage < nodePage) return false
-    const nextSiblingPage = getNextSiblingPage(nodes, index, nodePage)
-    return nextSiblingPage === undefined || currentPage < nextSiblingPage
+  parentEndPage?: number,
+): string[] =>
+  nodes.flatMap((node, index) => {
+    const endPage = getEndPage(nodes, index, parentEndPage)
+    if (
+      !node.children?.length ||
+      !isNodeActive(getPageNumber(node.location?.page), endPage, currentPage)
+    )
+      return []
+    return [
+      node.navigationKey,
+      ...getActivePathKeys(node.children, currentPage, endPage),
+    ]
   })
-  const activeNode = nodes[activeIndex]
-  if (!activeNode?.children?.length) return []
-  return [
-    activeNode.navigationKey,
-    ...getActivePathKeys(activeNode.children, currentPage),
-  ]
-}
 
 const Node = ({
   node,
   jumpToPage,
   level,
   currentPage,
-  nextSiblingPage,
+  endPage,
   forceExpanded,
   expandedNodeKeys,
   onExpandedChange,
@@ -122,7 +131,7 @@ const Node = ({
   jumpToPage: (page: PageOrKey) => void
   level: number
   currentPage: number
-  nextSiblingPage?: number
+  endPage?: number
   forceExpanded?: boolean
   expandedNodeKeys: Set<string>
   onExpandedChange: (nodeKey: string, expanded: boolean) => void
@@ -133,11 +142,7 @@ const Node = ({
   const typeHue = getIndexTypeHue(node.type, availableTypes)
   const isExpanded = forceExpanded || expandedNodeKeys.has(node.navigationKey)
   const nodePage = getPageNumber(node.location?.page)
-  const isActive =
-    nodePage !== undefined &&
-    nodePage !== null &&
-    currentPage >= nodePage &&
-    (nextSiblingPage === undefined || currentPage < nextSiblingPage)
+  const isActive = isNodeActive(nodePage, endPage, currentPage)
 
   return (
     <div>
@@ -193,13 +198,9 @@ const Node = ({
               jumpToPage={jumpToPage}
               level={level + 1}
               currentPage={currentPage}
-              nextSiblingPage={
+              endPage={
                 node.children
-                  ? getNextSiblingPage(
-                      node.children,
-                      idx,
-                      getPageNumber(child.location?.page),
-                    )
+                  ? getEndPage(node.children, idx, endPage)
                   : undefined
               }
               forceExpanded={forceExpanded}
@@ -466,11 +467,7 @@ export function IndexMenu({
                     expandedNodeKeys={expandedNodeKeys}
                     onExpandedChange={onExpandedChange}
                     availableTypes={annotationIndex?.available_types ?? []}
-                    nextSiblingPage={getNextSiblingPage(
-                      filteredNodes,
-                      idx,
-                      getPageNumber(item.location?.page),
-                    )}
+                    endPage={getEndPage(filteredNodes, idx, undefined)}
                   />
                 ))}
               </div>
