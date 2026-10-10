@@ -54,7 +54,7 @@ func ExtractIndexContentsFromMarkdown(md *Markdown, categories, indexTypes []str
 		}
 		results = append(results, Category{
 			Category:  category,
-			Content:   ResolvePrinterErrorCorrections(ExpandDropcaps(content), applyPrinterErrorCorrection),
+			Content:   StripEmphasis(ResolvePrinterErrorCorrections(ExpandDropcaps(content), applyPrinterErrorCorrection)),
 			IndexType: indexType,
 		})
 	}

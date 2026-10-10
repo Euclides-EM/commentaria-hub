@@ -38,6 +38,30 @@ Body text.
 	}, categories)
 }
 
+func TestExtractCategoryContentsStripsEmphasis(t *testing.T) {
+	md := &Markdown{Content: `## PROPOSITION V. *THEOREME V.*
+
+### *Scholie général.*
+
+## II. *Préparation*. Fig. 2.
+
+## DES PROGRESSIONS ARITH- *metiques & Geometriques.*
+
+# **LIVRE** ***PREMIER***
+
+## Note * sur la figure`}
+
+	categories, _, err := ExtractIndexContentsFromMarkdown(md, nil, nil, false)
+	require.NoError(t, err)
+	require.Equal(t, []Category{
+		{Category: "header2", Content: "PROPOSITION V. THEOREME V.", IndexType: DefaultIndexType},
+		{Category: "header3", Content: "Scholie général.", IndexType: DefaultIndexType},
+		{Category: "header2", Content: "II. Préparation. Fig. 2. DES PROGRESSIONS ARITH- metiques & Geometriques.", IndexType: DefaultIndexType},
+		{Category: "header1", Content: "LIVRE PREMIER", IndexType: DefaultIndexType},
+		{Category: "header2", Content: "Note * sur la figure", IndexType: DefaultIndexType},
+	}, categories)
+}
+
 func TestParseHeaderBlockDoesNotJoinDifferentLevels(t *testing.T) {
 	lines := []string{"# Book", "", "## Definitions"}
 
