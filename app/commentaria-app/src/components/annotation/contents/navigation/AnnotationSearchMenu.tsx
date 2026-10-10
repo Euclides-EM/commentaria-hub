@@ -352,7 +352,7 @@ export function AnnotationSearchMenu() {
 
       <div className="overflow-auto px-3 pb-3 flex-1 min-h-0">
         {!normalizedSearch && (
-          <div className="text-gray-500 text-xs italic text-center py-6">
+          <div className="text-gray-600 text-xs italic text-center py-6">
             Type to search
           </div>
         )}
@@ -363,13 +363,13 @@ export function AnnotationSearchMenu() {
           <ErrorMessage error={error} variant="centered" />
         )}
         {normalizedSearch && !isLoading && !error && results.length === 0 && (
-          <div className="text-gray-500 text-xs italic text-center py-6">
+          <div className="text-gray-600 text-xs italic text-center py-6">
             No results found
           </div>
         )}
         {normalizedSearch && !isLoading && !error && results.length > 0 && (
           <div className="space-y-2">
-            <div className="text-xs text-gray-500">
+            <div className="text-xs text-gray-600">
               Listing {results.length} results
             </div>
             {results.map((result, index) => {
@@ -377,7 +377,7 @@ export function AnnotationSearchMenu() {
               return (
                 <div
                   key={getResultKey(result, index)}
-                  className="border border-gray-200 rounded-lg p-2 text-xs bg-white hover:bg-gray-50 transition-colors cursor-pointer"
+                  className="border border-gray-300 rounded-lg p-2 text-xs bg-white hover:bg-gray-50 transition-colors cursor-pointer"
                   onClick={() => {
                     const jumpTarget = getSearchResultPageOrKey(result)
                     if (jumpTarget != null) {
@@ -386,7 +386,7 @@ export function AnnotationSearchMenu() {
                     setSearchResultHighlight(result.content || null)
                   }}
                 >
-                  <div className="flex items-center justify-between text-[11px] text-gray-500 mb-1">
+                  <div className="flex items-center justify-between text-[11px] text-gray-600 mb-1">
                     <span>
                       {getFormattedCategory(
                         result.category,

@@ -14,7 +14,7 @@ export function SearchInput({
   return (
     <div className={`relative ${className || ''}`}>
       <input
-        className="w-full border border-gray-300 rounded-lg px-3 py-2 pr-7 font-mono text-xs"
+        className="w-full border border-gray-300 rounded-lg bg-white px-3 py-2 pr-7 font-mono text-xs"
         placeholder={placeholder}
         autoComplete="on"
         value={value}

@@ -102,12 +102,24 @@ export const AnnotationNavigation = ({
   if (floating && collapsed) {
     return (
       <button
-        className="absolute top-2 left-2 z-40 px-2.5 py-1.5 text-sm font-semibold cursor-pointer bg-gray-50 border border-gray-200 rounded-md shadow-md hover:bg-gray-100"
+        className="absolute top-2 left-2 z-40 p-1.5 cursor-pointer text-white bg-gray-700 border border-gray-800 rounded-md shadow-[0_4px_14px_rgba(15,23,42,0.45)] hover:bg-gray-800"
         onClick={() => setCollapsed(false)}
         title="Expand navigation"
         aria-label="Expand navigation"
       >
-        ⟩
+        <svg
+          className="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M16 5H3M16 12H3M16 19H3M21 5h.01M21 12h.01M21 19h.01"
+          />
+        </svg>
       </button>
     )
   }
@@ -118,49 +130,68 @@ export const AnnotationNavigation = ({
       onPointerDownCapture={() => {
         pointerInsideRef.current = true
       }}
-      className={`border-r border-gray-200 flex flex-col overflow-hidden bg-white ${floating ? 'absolute top-0 left-0 bottom-0 z-40 shadow-xl' : 'transition-all duration-200 flex-1 relative'}`}
+      className={`border-r flex flex-col overflow-hidden ${floating ? 'absolute top-0 left-0 bottom-0 z-40 border-gray-400/70 bg-white/55 backdrop-blur-xl backdrop-saturate-150 shadow-[0_10px_40px_rgba(15,23,42,0.32),0_0_0_1px_rgba(15,23,42,0.08),inset_1px_1px_0_rgba(255,255,255,0.7)]' : `border-gray-300 bg-white transition-all duration-200 flex-1 relative ${collapsed ? 'rounded-r-lg' : ''}`}`}
       style={{
-        width: collapsed ? '44px' : `${sidebarWidth}px`,
-        minWidth: collapsed ? '44px' : `${sidebarWidth}px`,
-        maxWidth: collapsed ? '44px' : `${sidebarWidth}px`,
+        width: collapsed ? '20px' : `${sidebarWidth}px`,
+        minWidth: collapsed ? '20px' : `${sidebarWidth}px`,
+        maxWidth: collapsed ? '20px' : `${sidebarWidth}px`,
       }}
     >
       <div
-        className={`px-2.5 py-2 text-sm font-semibold bg-gray-50 flex items-center gap-2.5 ${collapsed ? 'flex-1 justify-center' : 'justify-between border-b border-gray-200'}`}
+        className={`${collapsed ? 'px-0' : 'px-2.5'} py-2 text-sm font-semibold ${floating ? 'bg-white/30' : collapsed ? 'bg-gray-200 hover:bg-gray-300 cursor-pointer' : 'bg-gray-50'} flex items-center gap-2.5 ${collapsed ? 'flex-1 justify-center' : 'justify-between border-b border-gray-300'}`}
+        onClick={collapsed ? () => setCollapsed(false) : undefined}
+        title={collapsed ? 'Expand navigation' : undefined}
       >
-        {!collapsed && (
-          <div className="flex items-center gap-3">
-            <div className="font-semibold">Navigation</div>
-            <label
-              className="flex items-center gap-1.5 cursor-pointer text-xs font-medium"
+        {!collapsed && <div className="font-semibold">Navigation</div>}
+        <div className="flex items-center gap-1">
+          {!collapsed && (
+            <button
+              onClick={() => handleFloatingChange(!floating)}
+              className="p-1 cursor-pointer rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-200/70"
               title={
                 floating
-                  ? 'Pin navigation beside contents'
-                  : 'Float navigation over contents'
+                  ? 'Pin navigation: keep it docked beside the contents'
+                  : 'Unpin navigation: float it over the contents and hide it when you click outside'
+              }
+              aria-label={
+                floating
+                  ? 'Pin navigation: keep it docked beside the contents'
+                  : 'Unpin navigation: float it over the contents and hide it when you click outside'
               }
             >
-              <button
-                role="switch"
-                aria-checked={floating}
-                onClick={() => handleFloatingChange(!floating)}
-                className={`relative inline-flex h-4 w-7 shrink-0 cursor-pointer rounded-full transition-colors ${floating ? 'bg-teal-600' : 'bg-gray-300'}`}
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
               >
-                <span
-                  className={`absolute top-0.5 left-0.5 h-3 w-3 rounded-full bg-white shadow transition-transform ${floating ? 'translate-x-3' : ''}`}
-                />
-              </button>
-              <span>Floating</span>
-            </label>
-          </div>
-        )}
-        <button
-          className={`px-2.5 py-1.5 cursor-pointer ${collapsed ? 'rotate-180' : ''} transition-transform`}
-          onClick={() => setCollapsed(!collapsed)}
-          title={collapsed ? 'Expand navigation' : 'Minimize navigation'}
-          aria-label={collapsed ? 'Expand navigation' : 'Minimize navigation'}
-        >
-          ⟨
-        </button>
+                {floating ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 17v5M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 17v5M15 9.34V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H7.89M2 2l20 20M9 9v1.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h11"
+                  />
+                )}
+              </svg>
+            </button>
+          )}
+          <button
+            className={`py-1.5 cursor-pointer ${collapsed ? 'px-0 rotate-180' : 'px-2.5'} transition-transform`}
+            onClick={() => setCollapsed(!collapsed)}
+            title={collapsed ? 'Expand navigation' : 'Minimize navigation'}
+            aria-label={collapsed ? 'Expand navigation' : 'Minimize navigation'}
+          >
+            ⟨
+          </button>
+        </div>
       </div>
       {!collapsed && (
         <>
@@ -168,7 +199,7 @@ export const AnnotationNavigation = ({
           <div
             role="separator"
             aria-label="Resize navigation"
-            className="absolute top-0 right-0 h-full w-2 cursor-col-resize flex items-center justify-center bg-gray-100 hover:bg-gray-200 transition-colors"
+            className={`absolute top-0 right-0 h-full w-2 cursor-col-resize flex items-center justify-center transition-colors ${floating ? 'bg-white/20 hover:bg-white/40' : 'bg-gray-100 hover:bg-gray-200'}`}
             onPointerDown={(event) => {
               event.preventDefault()
               setIsResizing(true)

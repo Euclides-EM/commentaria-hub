@@ -871,7 +871,7 @@ export function TeiPane({
     <>
       <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white">
         <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
-          <div className={titleInset ? 'pl-4' : undefined}>{paneTitle}</div>
+          <div className={titleInset ? 'pl-6' : undefined}>{paneTitle}</div>
           <div className="flex items-center gap-2">
             {textEditError && (
               <span className="text-xs text-red-600">{textEditError}</span>

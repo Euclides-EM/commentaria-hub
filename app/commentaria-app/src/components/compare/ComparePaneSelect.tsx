@@ -20,16 +20,16 @@ export function ComparePaneSelect({
         setSelectedItems={setSelectedPanes}
         itemsLabel="parts"
         showBulkActions={false}
-        getItemLabel={(item) => (item === 'scan' ? 'Page scan' : 'Contents')}
+        getItemLabel={(item) => (item === 'scan' ? 'Facsimile' : 'Contents')}
         getPickerLabel={({ selectedItems }) => {
           if (
             selectedItems == null ||
             selectedItems.length === COMPARE_PANES.length
           ) {
-            return 'Both'
+            return 'Facsimile and contents'
           }
           if (selectedItems.length === 0) return 'None'
-          return selectedItems[0] === 'scan' ? 'Page scan' : 'Contents'
+          return selectedItems[0] === 'scan' ? 'Facsimile' : 'Contents'
         }}
       />
     </div>

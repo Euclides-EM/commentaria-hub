@@ -142,7 +142,7 @@ const Node = ({
   return (
     <div>
       <div
-        className={`py-1 px-0 border-b border-gray-200 text-xs hover:bg-black/5 transition-colors flex items-center ${isActive ? 'bg-black/5 font-semibold' : ''}`}
+        className={`py-1 px-0 border-b border-gray-300 text-xs hover:bg-black/5 transition-colors flex items-center ${isActive ? 'bg-black/5 font-semibold' : ''}`}
         style={{ marginLeft: `${level * 16}px` }}
         data-index-active={isActive || undefined}
       >
@@ -351,7 +351,7 @@ export function IndexMenu({
   return (
     <div className="flex flex-col min-h-0 h-full">
       {(annotationIndex?.available_types?.length ?? 0) > 1 && (
-        <fieldset className="mx-3 mb-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-600">
+        <fieldset className="mx-3 mb-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-700">
           <span className="mr-1 font-medium">Index layers</span>
           {annotationIndex?.available_types?.map((indexType) => (
             <label
@@ -382,7 +382,7 @@ export function IndexMenu({
       ) : error ? (
         <ErrorMessage error={error} variant="empty" />
       ) : !annotationIndex?.nodes?.length ? (
-        <div className="text-gray-500 text-sm italic text-center p-5">
+        <div className="text-gray-600 text-sm italic text-center p-5">
           No index available
         </div>
       ) : (
@@ -395,7 +395,7 @@ export function IndexMenu({
             />
             <div className="flex items-center justify-end gap-2">
               <label
-                className="mr-auto flex cursor-pointer items-center gap-1 text-[0.65rem] text-gray-400 hover:text-gray-600"
+                className="mr-auto flex cursor-pointer items-center gap-1 text-[0.65rem] text-gray-500 hover:text-gray-700"
                 title="Show printer error corrections instead of the printed text"
               >
                 <input
@@ -411,7 +411,7 @@ export function IndexMenu({
               </label>
               <button
                 type="button"
-                className="text-xs text-gray-600 hover:text-gray-900 disabled:text-gray-300 disabled:cursor-not-allowed"
+                className="text-xs text-gray-700 hover:text-gray-900 disabled:text-gray-400 disabled:cursor-not-allowed"
                 onClick={() => setExpandedNodeKeys(new Set())}
                 disabled={allCollapsed || normalizedSearchTerm.length > 0}
                 title={
@@ -422,12 +422,12 @@ export function IndexMenu({
               >
                 Collapse all
               </button>
-              <span className="text-gray-300" aria-hidden="true">
+              <span className="text-gray-400" aria-hidden="true">
                 |
               </span>
               <button
                 type="button"
-                className="text-xs text-gray-600 hover:text-gray-900 disabled:text-gray-300 disabled:cursor-not-allowed"
+                className="text-xs text-gray-700 hover:text-gray-900 disabled:text-gray-400 disabled:cursor-not-allowed"
                 onClick={() => setExpandedNodeKeys(new Set(expandableNodeKeys))}
                 disabled={
                   expandableNodeKeys.length === 0 ||
@@ -450,7 +450,7 @@ export function IndexMenu({
             className="overflow-auto p-3 flex-1 min-h-0"
           >
             {filteredNodes.length === 0 ? (
-              <div className="text-gray-500 text-xs italic text-center py-6">
+              <div className="text-gray-600 text-xs italic text-center py-6">
                 No matching entries
               </div>
             ) : (
