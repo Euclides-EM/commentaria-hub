@@ -4,11 +4,13 @@
 
 [Ornament]
 
-## LES PLANS ET LES ANGLES SOLIDES.
+[Subhead]
+LES PLANS ET LES ANGLES SOLIDES.
+[/Subhead]
 
 [Ornament]
 
-### DÉFINITIONS.
+## DÉFINITIONS.
 
 [Margin]
 * Pr. 4.

@@ -4,11 +4,13 @@
 
 [Ornament: horizontal rule]
 
-## LES PROPORTIONS DES FIGURES.
+[Subhead]
+LES PROPORTIONS DES FIGURES.
+[/Subhead]
 
 [Ornament: tapered horizontal rule]
 
-### DÉFINITIONS.
+## DÉFINITIONS.
 
 I. {dropcap:J|lines=2|style=plain}’APPELLERAI *figures équivalentes* celles dont les surfaces sont égales.
 

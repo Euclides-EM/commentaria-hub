@@ -2,11 +2,13 @@
 
 # LIVRE PREMIER.
 
-## LES PRINCIPES.
+[Subhead]
+LES PRINCIPES.
+[/Subhead]
 
 [Ornament: horizontal tapered rule]
 
-### DÉFINITIONS.
+## DÉFINITIONS.
 
 I. La géométrie est une science qui a pour objet la mesure de l’étendue.
 

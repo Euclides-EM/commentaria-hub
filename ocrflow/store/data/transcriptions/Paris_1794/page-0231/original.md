@@ -1,8 +1,10 @@
 # LIVRE VII.
 
-## LA SPHERE.
+[Subhead]
+LA SPHERE.
+[/Subhead]
 
-### DÉFINITIONS.
+## DÉFINITIONS.
 
 I. *La sphere* est un solide terminé par une surface courbe dont tous les points sont également distants d’un point intérieur qu’on appelle *centre*.
 

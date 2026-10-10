@@ -4,11 +4,13 @@
 
 [Ornament: horizontal rule]
 
-## LES POLYEDRES.
+[Subhead]
+LES POLYEDRES.
+[/Subhead]
 
 [Ornament: tapered horizontal rule]
 
-### DÉFINITIONS.
+## DÉFINITIONS.
 
 I. {dropcap:O|lines=2|style=plain}n appelle *solide polyedre* ou simplement *polyedre* tout solide terminé par des plans ou des faces planes. ( Ces plans sont nécessairement terminés eux-mêmes par des lignes droites. ) On appelle en particulier *tétraedre* le solide qui a quatre faces ; *hexaedre* celui qui en a six; *octaedre* celui qui en a huit; *dodécaedre* celui qui en a douze ; *icosaedre* celui qui en a vingt, etc.
 

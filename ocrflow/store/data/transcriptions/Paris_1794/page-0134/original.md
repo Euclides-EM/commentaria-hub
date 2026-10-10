@@ -4,11 +4,13 @@
 
 [Ornament: horizontal rule]
 
-## LES POLYGONES RÉGULIERS ET LA MESURE DU CERCLE.
+[Subhead]
+LES POLYGONES RÉGULIERS ET LA MESURE DU CERCLE.
+[/Subhead]
 
 [Ornament: tapered horizontal rule]
 
-### DÉFINITION.
+## DÉFINITION.
 
 {dropcap:U|lines=2|style=plain}N polygone qui est à la fois équiangle et équilatéral s’appelle *polygone régulier.*
 

@@ -2,11 +2,13 @@
 
 # LIVRE VIII.
 
-## LES CORPS RONDS.
+[Subhead]
+LES CORPS RONDS.
+[/Subhead]
 
 [Ornament: horizontal typographic flourish]
 
-### DÉFINITIONS.
+## DÉFINITIONS.
 
 [Margin]
 E. 250.

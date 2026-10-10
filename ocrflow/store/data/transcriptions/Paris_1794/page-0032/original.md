@@ -7,7 +7,7 @@ Dans l’un ou l’autre cas les côtés égaux ou les angles égaux s’appelle
 
 *N. B.* Dans les quatre premiers livres il ne sera question que de figures planes ou tracées sur une surface plane.
 
-### *Explication des termes et des signes.*
+## *Explication des termes et des signes.*
 
 *Axiome* est une proposition évidente par elle-même.
 

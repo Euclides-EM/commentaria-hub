@@ -1,10 +1,12 @@
 # LIVRE II.
 
-## SUITE DES PRINCIPES.
+[Subhead]
+SUITE DES PRINCIPES.
+[/Subhead]
 
 [Ornament: horizontal tapered rule]
 
-### DÉFINITIONS.
+## DÉFINITIONS.
 
 [Margin]
 Fig. 46.
