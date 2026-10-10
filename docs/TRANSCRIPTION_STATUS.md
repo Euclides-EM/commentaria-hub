@@ -254,6 +254,8 @@ Codex:
 
 **Next steps:** Ready for curation.
 
+# Completed
+
 ## Glasgow_1756
 
 Data set is public domain. I run the full OCR pipeline.
@@ -290,10 +292,6 @@ Fable stats:
 - **Cache read opportunities:** 107
 - **Cache read requests:** 107
 - **Misses after warmup:** 0
-
-**Status:** Ready for curation.
-
-# Completed
 
 ## Paris_1794
 
